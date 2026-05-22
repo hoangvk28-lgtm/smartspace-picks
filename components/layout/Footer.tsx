@@ -1,0 +1,92 @@
+import Link from "next/link";
+import { Container } from "./Container";
+import { footerNav } from "@/data/nav";
+import { DISCLOSURE_SHORT } from "@/lib/affiliate";
+import { getPublicFooterSettings, getPublicAffiliateSettings } from "@/lib/public-settings";
+
+export async function Footer() {
+  const year = new Date().getFullYear();
+  const [footerSettings, affiliateSettings] = await Promise.all([
+    getPublicFooterSettings(),
+    getPublicAffiliateSettings(),
+  ]);
+
+  const disclosureText = affiliateSettings.disclosureShort || DISCLOSURE_SHORT;
+
+  return (
+    <footer className="bg-ink text-ink-inverse mt-auto">
+      {/* Affiliate disclosure strip */}
+      {footerSettings.showAffiliateDisclosure && (
+        <div className="bg-ink/80 border-b border-white/10">
+          <Container className="py-3">
+            <p className="text-xs text-ink-inverse/70 text-center">{disclosureText}</p>
+          </Container>
+        </div>
+      )}
+
+      {/* Main footer */}
+      <Container className="py-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* Brand column */}
+          <div className="lg:col-span-1">
+            <Link href="/" className="flex items-center gap-2 mb-4 w-fit">
+              <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-brand text-white font-bold text-sm">SP</span>
+              <span className="font-bold text-white text-lg tracking-tight">
+                SmartSpace<span className="text-brand-muted">Picks</span>
+              </span>
+            </Link>
+            <p className="text-sm text-ink-inverse/75 leading-relaxed max-w-xs">
+              {footerSettings.description}
+            </p>
+          </div>
+
+          {/* Categories */}
+          <div>
+            <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">Categories</h3>
+            <ul className="space-y-2.5">
+              {footerNav.categories.map((link) => (
+                <li key={link.href}>
+                  <Link href={link.href} className="text-sm text-ink-inverse/80 hover:text-white transition-colors">{link.label}</Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Company */}
+          <div>
+            <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">About</h3>
+            <ul className="space-y-2.5">
+              {footerNav.company.map((link) => (
+                <li key={link.href}>
+                  <Link href={link.href} className="text-sm text-ink-inverse/80 hover:text-white transition-colors">{link.label}</Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Legal */}
+          <div>
+            <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">Legal</h3>
+            <ul className="space-y-2.5">
+              {footerNav.legal.map((link) => (
+                <li key={link.href}>
+                  <Link href={link.href} className="text-sm text-ink-inverse/80 hover:text-white transition-colors">{link.label}</Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
+        {/* Bottom bar */}
+        <div className="mt-10 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <p className="text-xs text-ink-inverse/60">
+            © {year} {footerSettings.copyrightText}
+          </p>
+          <p className="text-xs text-ink-inverse/55 text-center sm:text-right max-w-sm">
+            Amazon and the Amazon logo are trademarks of Amazon.com, Inc. Product images shown are representative.
+          </p>
+        </div>
+      </Container>
+    </footer>
+  );
+}
