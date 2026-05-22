@@ -1,6 +1,7 @@
 "use server";
 
 import { revalidatePath } from "next/cache";
+import { requireAdminSession } from "@/lib/admin-auth";
 import {
   updateHomepageSettings,
   updateGlobalSettings,
@@ -31,6 +32,7 @@ export async function updateHomepageSettingsAction(
   _prev: SettingsFormState,
   formData: FormData
 ): Promise<SettingsFormState> {
+  if (!(await requireAdminSession())) return { error: "Unauthorized." };
   try {
     const value: HomepageSettings = {
       hero: {
@@ -96,6 +98,7 @@ export async function updateGlobalSettingsAction(
   _prev: SettingsFormState,
   formData: FormData
 ): Promise<SettingsFormState> {
+  if (!(await requireAdminSession())) return { error: "Unauthorized." };
   try {
     const value: GlobalSettings = {
       siteName: str(formData, "siteName"),
@@ -120,6 +123,7 @@ export async function updateAffiliateSettingsAction(
   _prev: SettingsFormState,
   formData: FormData
 ): Promise<SettingsFormState> {
+  if (!(await requireAdminSession())) return { error: "Unauthorized." };
   try {
     const value: AffiliateSettings = {
       disclosureShort: str(formData, "disclosureShort"),
@@ -141,6 +145,7 @@ export async function updateFooterSettingsAction(
   _prev: SettingsFormState,
   formData: FormData
 ): Promise<SettingsFormState> {
+  if (!(await requireAdminSession())) return { error: "Unauthorized." };
   try {
     const value: FooterSettings = {
       description: str(formData, "description"),

@@ -3,6 +3,7 @@
 import { revalidatePath } from "next/cache";
 import { nanoid } from "nanoid";
 import { createAdminClient, isSupabaseConfigured } from "@/lib/supabase/server";
+import { requireAdminSession } from "@/lib/admin-auth";
 import {
   createMediaRecord,
   updateMediaRecord,
@@ -38,6 +39,7 @@ export async function uploadMediaAction(
   _prev: MediaActionState,
   formData: FormData
 ): Promise<MediaActionState> {
+  if (!(await requireAdminSession())) return { error: "Unauthorized." };
   if (!isSupabaseConfigured()) {
     return { error: "Supabase is not configured. Add NEXT_PUBLIC_SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY." };
   }
@@ -105,6 +107,7 @@ export async function updateMediaAction(
   _prev: MediaActionState,
   formData: FormData
 ): Promise<MediaActionState> {
+  if (!(await requireAdminSession())) return { error: "Unauthorized." };
   const altText = (formData.get("altText") as string | null)?.trim() ?? "";
   const title = (formData.get("title") as string | null)?.trim() ?? "";
   const folder = (formData.get("folder") as string | null)?.trim() ?? "misc";
@@ -120,11 +123,13 @@ export async function updateMediaAction(
 }
 
 export async function archiveMediaAction(id: string): Promise<void> {
+  if (!(await requireAdminSession())) return;
   await archiveMedia(id);
   revalidatePath("/admin/media");
 }
 
 export async function deleteMediaAction(id: string): Promise<{ error?: string }> {
+  if (!(await requireAdminSession())) return { error: "Unauthorized." };
   try {
     await deleteMediaFileAndArchiveRecord(id);
     revalidatePath("/admin/media");

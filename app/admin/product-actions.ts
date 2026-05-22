@@ -9,6 +9,7 @@ import {
   isSlugUnique,
 } from "@/lib/products-store";
 import type { StoredProduct } from "@/lib/products-store";
+import { requireAdminSession } from "@/lib/admin-auth";
 
 export interface ProductFormState {
   error?: string;
@@ -112,6 +113,8 @@ export async function createProductAction(
   _prev: ProductFormState,
   formData: FormData
 ): Promise<ProductFormState> {
+  if (!(await requireAdminSession())) return { error: "Unauthorized." };
+
   const rawName = (formData.get("name") as string | null)?.trim() ?? "";
   const rawSlug = (formData.get("slug") as string | null)?.trim() || slugify(rawName);
   const id = rawSlug;
@@ -149,6 +152,8 @@ export async function updateProductAction(
   _prev: ProductFormState,
   formData: FormData
 ): Promise<ProductFormState> {
+  if (!(await requireAdminSession())) return { error: "Unauthorized." };
+
   const data = parseFormData(formData);
   const fieldErrors = validateFields(data);
 
@@ -179,6 +184,7 @@ export async function updateProductAction(
 }
 
 export async function deleteProductAction(id: string): Promise<void> {
+  if (!(await requireAdminSession())) return;
   await deleteProduct(id);
   revalidatePath("/admin/products");
   revalidatePath("/", "layout");

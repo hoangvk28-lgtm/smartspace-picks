@@ -11,6 +11,7 @@ import {
 } from "@/lib/guides-store";
 import type { StoredGuide } from "@/lib/guides-store";
 import type { GuideSection, GuideFaq } from "@/data/guides";
+import { requireAdminSession } from "@/lib/admin-auth";
 
 export interface GuideFormState {
   error?: string;
@@ -120,6 +121,7 @@ export async function createGuideAction(
   _prev: GuideFormState,
   formData: FormData
 ): Promise<GuideFormState> {
+  if (!(await requireAdminSession())) return { error: "Unauthorized." };
   const data = parseFormData(formData);
   const fieldErrors = validateFields(data);
 
@@ -148,6 +150,7 @@ export async function updateGuideAction(
   _prev: GuideFormState,
   formData: FormData
 ): Promise<GuideFormState> {
+  if (!(await requireAdminSession())) return { error: "Unauthorized." };
   const data = parseFormData(formData);
   const fieldErrors = validateFields(data);
 
@@ -171,6 +174,7 @@ export async function updateGuideAction(
 }
 
 export async function archiveGuideAction(id: string): Promise<void> {
+  if (!(await requireAdminSession())) return;
   await archiveGuide(id);
   revalidateAll();
   redirect("/admin/guides");

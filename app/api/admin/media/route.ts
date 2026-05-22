@@ -1,22 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getIronSession } from "iron-session";
-import { cookies } from "next/headers";
 import { getAllMedia, getMediaByFolder, searchMedia } from "@/lib/media-store";
 import { isSupabaseConfigured } from "@/lib/supabase/server";
-
-interface SessionData {
-  isAdmin?: boolean;
-}
-
-const SESSION_OPTIONS = {
-  password: process.env.SESSION_SECRET ?? "change-me-to-32-char-secret-key-!!",
-  cookieName: "ss_admin_session",
-};
+import { requireAdminSession } from "@/lib/admin-auth";
 
 export async function GET(request: NextRequest) {
-  // Auth check
-  const session = await getIronSession<SessionData>(await cookies(), SESSION_OPTIONS);
-  if (!session.isAdmin) {
+  // Auth check — uses the same session options as all other admin routes
+  const session = await requireAdminSession();
+  if (!session) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 

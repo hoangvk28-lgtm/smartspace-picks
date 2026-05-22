@@ -10,6 +10,7 @@ import {
   isDealSlugUnique,
 } from "@/lib/deals-store";
 import type { StoredDeal } from "@/lib/deals-store";
+import { requireAdminSession } from "@/lib/admin-auth";
 
 export interface DealFormState {
   error?: string;
@@ -70,6 +71,7 @@ export async function createDealAction(
   _prev: DealFormState,
   formData: FormData
 ): Promise<DealFormState> {
+  if (!(await requireAdminSession())) return { error: "Unauthorized." };
   const data = parseFormData(formData);
   const fieldErrors = validateFields(data);
 
@@ -99,6 +101,7 @@ export async function updateDealAction(
   _prev: DealFormState,
   formData: FormData
 ): Promise<DealFormState> {
+  if (!(await requireAdminSession())) return { error: "Unauthorized." };
   const data = parseFormData(formData);
   const fieldErrors = validateFields(data);
 
@@ -122,6 +125,7 @@ export async function updateDealAction(
 }
 
 export async function archiveDealAction(id: string): Promise<void> {
+  if (!(await requireAdminSession())) return;
   await archiveDeal(id);
   revalidateAll();
   redirect("/admin/deals");
