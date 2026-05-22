@@ -372,4 +372,269 @@ export const guides: Guide[] = [
     ],
     relatedGuideSlugs: ["bedside-caddies-students", "cable-management-dorm"],
   },
+
+  {
+    title: "Best Desk Organizers for Small Desks (2026)",
+    slug: "desk-organizers-small-desks",
+    categorySlug: "desk-setup",
+    subcategorySlug: "desk-organizers",
+    description:
+      "We evaluated 14 desk organizers specifically for compact desks and dorm setups — comparing footprint, capacity, and whether they actually reduce clutter or just relocate it. Here are the picks worth buying.",
+    mainKeyword: "best desk organizer for small desk",
+    subKeywords: [
+      "desk organizer dorm room",
+      "desk organizer with drawers",
+      "clear acrylic desk organizer",
+      "drawer organizer insert",
+      "small desk organization ideas",
+    ],
+    heroImage: "/images/guides/desk-organizers-small-desks-hero.jpg",
+    lastUpdated: "2026-05-10",
+    author: "SmartSpace Picks Editorial Team",
+    readTime: "8 min",
+    recommendedProductIds: [
+      "desktop-organizer-with-drawers",
+      "desk-drawer-organizer-tray-set",
+      "stackable-acrylic-desk-organizer",
+      "compact-bluetooth-keyboard",
+    ],
+    sections: [
+      {
+        heading: "Why Desk Organization Fails on Small Desks",
+        body: "Most desk organizers are designed for large, spacious office desks — and they bring that assumption with them. A wide multi-tier bamboo tray that looks elegant in a YouTube setup video occupies 14 inches of desk width. On a 48-inch student desk, that's nearly a third of your usable surface gone to the organizer itself, not to the things it's organizing.\n\nEffective organization for a small desk works on a different principle: vertical over horizontal. A desktop organizer that uses height rather than surface area lets you store the same volume of supplies in a fraction of the desk footprint. Drawer inserts solve the problem differently — they move organization below the surface entirely, converting a cluttered junk drawer into an efficient sorted storage layer without using any desk surface at all.\n\nThe products we recommend here were evaluated specifically on their desk footprint-to-capacity ratio, not just their total storage capacity. A large organizer with high capacity that also occupies a large footprint is not a good recommendation for a small desk.",
+      },
+      {
+        heading: "Desktop Organizers vs. Drawer Inserts — Choosing the Right Approach",
+        body: "Desktop organizers and drawer inserts solve related but distinct problems. Desktop organizers are right for the things you use multiple times per day: pens, scissors, sticky notes, your phone, and frequently needed stationery. These items should be immediately visible and reachable without opening anything. A desktop organizer with a pen holder section and one or two drawers consolidates all of this into a single vertical footprint instead of scattering items across the desk surface.\n\nDrawer inserts are for the secondary layer of supplies — USB cables, spare batteries, staples, correction fluid, paperclips — that you use occasionally and need to find quickly when you do. Without dividers, a desk drawer becomes a junk accumulation zone where finding a specific item requires emptying the drawer. Interlocking tray inserts turn that drawer into something closer to a toolbox: every item has a specific home and finding it takes two seconds.\n\nFor the most organized small desk, the answer is both. Use a compact desktop organizer for daily-use items and drawer inserts for the rest. The combination keeps your desk surface clear while making every item findable without searching.",
+      },
+      {
+        heading: "The Case for Acrylic",
+        body: "Clear acrylic organizers have become a popular choice for a reason that goes beyond aesthetics: visibility. With an opaque plastic organizer, you can't see what's in a drawer without opening it. With a clear acrylic organizer, you see all of your supplies at a glance. On a busy study desk, this is a genuine usability feature — you're not wondering where your stapler is, you can see it.\n\nThe trade-off is durability: PMMA acrylic scratches more easily than ABS plastic under abrasive cleaning. To maintain a clear acrylic organizer, wipe it with a microfiber cloth dampened with water — avoid paper towels, sponges, or any cleaning product with abrasives. Treated this way, a good acrylic organizer will maintain its clarity for years. The stackable design of the recommended option is particularly useful for a small desk: you can start with one tier and add a second without changing the desk footprint.",
+      },
+      {
+        heading: "Pairing Your Organizer with the Right Keyboard Setup",
+        body: "A desk organizer is most impactful when your desk layout supports it. If you're still using your laptop keyboard directly on the desk with the screen at an uncomfortable angle, you're fighting ergonomics that a better desk arrangement would solve. A compact Bluetooth keyboard paired with a laptop stand lets you raise the screen to eye level and use the full desk surface for organization — with the keyboard neatly in front and the stand behind it, the remaining lateral space is where a desktop organizer earns its keep.\n\nFor students who haven't made this transition yet, the compact Bluetooth keyboard featured in this guide is the missing link. A 75% layout keyboard takes roughly 12 inches of desk width, leaving the remaining surface for an organizer, a notebook, and whatever else belongs on a functional study desk. The combination of stand + external keyboard + compact organizer is the most transformative small-desk upgrade available under $100 total.",
+      },
+    ],
+    faq: [
+      {
+        question: "What size desk organizer fits a 48-inch student desk?",
+        answer:
+          "Look for a desktop organizer no wider than 6 inches and no deeper than 10 inches. This leaves adequate room on a 48-inch desk for a keyboard, monitor, and notebook while the organizer occupies one side or corner. Anything larger starts competing with your actual working area.",
+      },
+      {
+        question: "Are acrylic desk organizers worth the extra cost?",
+        answer:
+          "For students who value a clean aesthetic and want to see their supplies at a glance, yes. For students primarily concerned with function over form, the ABS plastic organizer with drawers delivers very similar organization at about half the price. The acrylic advantage is visual clarity and aesthetics; the plastic advantage is durability under rough handling.",
+      },
+      {
+        question: "Do drawer organizer trays fit all desk drawers?",
+        answer:
+          "Not universally. Measure your drawer interior before ordering: width, depth, and height. The 8-piece tray set fits most standard 14–18 inch wide drawers adequately, but very narrow or very wide drawers may leave gaps or require a second set to fill. The tray heights (1.75 inches) fit standard shallow desk drawers; deep drawers may need stacking tray configurations.",
+      },
+      {
+        question: "What's the most important desk organization upgrade to make first?",
+        answer:
+          "Start with a drawer insert set if you have a desk with drawers — the ROI is highest because it converts wasted junk-drawer space into sorted storage without using any surface area. If your desk has no drawers, a compact desktop organizer with a pen holder and one or two enclosed drawers is the correct first purchase. Surface clutter is the most visually distracting issue on a small desk, and a single compact organizer eliminates most of it.",
+      },
+    ],
+    relatedGuideSlugs: ["desk-lamps-small-desks", "monitor-stands-small-desks", "dorm-room-power-essentials"],
+  },
+
+  {
+    title: "Best Shower Caddies for Dorm Rooms (2026)",
+    slug: "dorm-room-shower-essentials",
+    categorySlug: "dorm-essentials",
+    subcategorySlug: "shower-caddies",
+    description:
+      "The walk from your dorm room to the communal shower is a daily ritual that a good caddy makes significantly less annoying. We compared 9 shower caddies for dorm-specific use — shared bathrooms, walk-to-shower carries, and rust resistance.",
+    mainKeyword: "best shower caddy for dorm room",
+    subKeywords: [
+      "dorm shower caddy",
+      "hanging shower caddy dorm",
+      "rust proof shower caddy",
+      "portable shower caddy college",
+      "shower caddy with handle",
+    ],
+    heroImage: "/images/guides/dorm-room-shower-essentials-hero.jpg",
+    lastUpdated: "2026-05-01",
+    author: "SmartSpace Picks Editorial Team",
+    readTime: "6 min",
+    recommendedProductIds: ["dorm-shower-caddy"],
+    sections: [
+      {
+        heading: "The Dorm Shower Situation — What You're Actually Dealing With",
+        body: "Shared dorm bathrooms operate under different constraints than a private apartment bathroom. You can't permanently mount anything to a shower wall. The shower rod is a communal resource you can hang from temporarily but not claim. And you need to carry all of your toiletries from your room to the bathroom and back — potentially down a hall or across a floor — multiple times per week.\n\nThis changes the requirements for a shower caddy entirely. A wall-mounted suction-cup caddy is useless in a shared shower. A large plastic tote that holds 10 items but has no compartments makes everything a jumbled mess by the third trip. What you need is a caddy with a carry handle strong enough to trust fully loaded, a hanging mechanism for use inside the shower, drainage so water doesn't pool, and enough compartmentalization that you can find your razor in the dark without dumping everything out.",
+      },
+      {
+        heading: "Steel vs. Plastic — Why Material Matters More Than You Think",
+        body: "Plastic shower caddies are the first purchase for most first-year students because they're cheaper. By midterm, a significant percentage of those students are replacing them — the plastic warps, the finish peels in patches, or (most commonly) the cheaper metal hardware at joints and hooks develops orange rust that bleeds onto towels and tub floors.\n\nRust-resistant coated steel, by contrast, handles daily shower humidity indefinitely. The coating prevents the surface oxidation that makes plastic-adjacent metal hardware fail. The trade-off is weight: a fully loaded steel caddy is noticeably heavier than a plastic one. For most students, this is irrelevant — you're carrying it 30–60 feet, not hiking with it. The weight trade-off is worth three semesters of rust-free use.\n\nFull mesh steel construction adds the additional benefit of instant drainage. Every surface has holes, so water from your bottles and the shower itself drains completely rather than pooling at the bottom and creating a mildew environment. If you've ever lifted a plastic caddy after a shower and found standing water underneath the bottles, this is the feature that solves it.",
+      },
+      {
+        heading: "What to Look for Beyond the Basics",
+        body: "The S-hook hanging mechanism is standard on most caddies — look for one that's included rather than requiring a separate purchase, and confirm it's stainless steel rather than zinc-coated metal (zinc hooks rust at the connection point even when the rest of the caddy is protected).\n\nRemovable shelves are underappreciated. Shampoo and conditioner bottles vary enormously in height — a 12-ounce bottle is roughly 8 inches tall, but a 32-ounce Costco bottle is 12+ inches and won't fit under a fixed shelf. A caddy with removable shelves lets you configure the interior to your actual bottles rather than hoping your bottles happen to match the caddy's fixed layout.\n\nRazor holders and toothbrush slots are useful secondary features. A razor that sits flat on a shelf dulls faster and creates a safety concern. A dedicated razor slot holds it blade-up or vertical, which is safer and extends blade life. Some caddies include these as separate removable hooks; the recommended caddy in this guide has dedicated sections built into the frame.",
+      },
+      {
+        heading: "Supplementing Your Caddy: The Study-Tools Connection",
+        body: "Students often overlook the organizational mindset that a well-set-up dorm room requires across all contexts — not just the shower. The same impulse that drives you to get a properly organized shower caddy applies to your study setup. A foldable personal whiteboard keeps your desk organized for planning and problem-solving the same way a good caddy keeps your toiletries organized for daily routines.\n\nBoth products address the same underlying problem: in a small shared space with limited surfaces, organized systems that can be set up and packed down quickly are dramatically more effective than loose collections of items. Students who invest in organization at the start of a semester consistently report better focus and lower daily friction throughout the year.",
+      },
+    ],
+    faq: [
+      {
+        question: "Can I use a shower caddy in a private dorm bathroom?",
+        answer:
+          "Yes, but in a private bathroom you have more options. A wall-mounted suction cup caddy or adhesive shower shelf eliminates the carry-and-hang step. A hanging caddy still works perfectly and is reusable in any future shared situation, so it remains a good purchase either way.",
+      },
+      {
+        question: "How do I prevent my caddy from rusting?",
+        answer:
+          "Choose a coated steel or fully rust-resistant model rather than bare metal or chrome-plated hardware. After each shower, shake excess water from the caddy or hang it somewhere that allows full drainage and airflow. Storing a wet caddy in a closed drawer or bag is the fastest path to rust regardless of the material rating.",
+      },
+      {
+        question: "What's the right number of compartments for a shower caddy?",
+        answer:
+          "Count your daily shower products first. Most students use 4–6 items regularly: shampoo, conditioner, body wash, face wash, a razor, and one or two additional items. A caddy with 2 shelves (3–4 items per shelf) plus a separate razor slot and a small hook covers this inventory well. More compartments than you need just adds weight and cost.",
+      },
+      {
+        question: "Are there shower caddies that work as both a carry caddy and a wall-mounted one?",
+        answer:
+          "Yes — the category is often called 'portable' or 'hybrid' shower caddies. They include both a carry handle and suction cups or over-rod hanging hardware. The trade-off is that hybrid designs are usually less optimized for either use case compared to purpose-built options. For dorm use where carrying is the primary requirement, a purpose-built hanging caddy outperforms hybrid designs.",
+      },
+    ],
+    relatedGuideSlugs: ["bedside-caddies-students", "small-room-closet-storage", "desk-organizers-small-desks"],
+  },
+
+  {
+    title: "Best Closet and Storage Solutions for Small Rooms (2026)",
+    slug: "small-room-closet-storage",
+    categorySlug: "small-room-storage",
+    subcategorySlug: "storage-bins",
+    description:
+      "Small rooms and dorm closets fail in predictable ways. We evaluated the storage solutions that address the most common failure modes — overcrowded shelves, wasted door space, and bulky seasonal clothing — with specific picks for 2026.",
+    mainKeyword: "best storage solutions for small rooms",
+    subKeywords: [
+      "small room closet organization",
+      "dorm room storage ideas",
+      "vacuum storage bags clothes",
+      "over door organizer dorm",
+      "fabric storage bins cube shelf",
+    ],
+    heroImage: "/images/guides/small-room-closet-storage-hero.jpg",
+    lastUpdated: "2026-05-05",
+    author: "SmartSpace Picks Editorial Team",
+    readTime: "9 min",
+    recommendedProductIds: [
+      "collapsible-storage-cubes",
+      "vacuum-storage-bags",
+      "over-door-pocket-organizer",
+    ],
+    sections: [
+      {
+        heading: "Where Small Room Storage Actually Breaks Down",
+        body: "The failure mode in almost every small room is the same: flat surfaces and open shelves accumulate items faster than they can be organized, closets are treated as black holes where things go in and don't come out, and wasted vertical and door space goes completely unused. Understanding this pattern makes the solutions obvious.\n\nFlat surfaces are not storage — they're temporary staging areas that become permanent. The fix is to eliminate flat surface availability for non-intentional items: everything that isn't meant to live on a surface should have an assigned enclosed storage location. Fabric storage cubes on shelves serve this purpose for medium-volume items (folded clothing, extra towels, accessories); vacuum bags serve it for high-volume seasonal clothing that doesn't need to be accessed until the weather changes.\n\nClosets in dorm rooms are typically shallow (12–16 inches deep) and narrow (24–36 inches wide). Adding a hanging organizer or over-door storage converts the back of the closet door into a usable storage panel. Many students never think to use this surface — it's the highest-ROI unused space in most dorm rooms.",
+      },
+      {
+        heading: "Fabric Storage Cubes: The Cube Shelf Upgrade",
+        body: "A cube bookshelf without storage bins is one of the most common small-room furniture mistakes. The open cubbies look clean for about a week before they become visible clutter zones — books get stacked sideways, folded clothes unfold, and accessories accumulate in visible piles. The visual noise of an open cube shelf makes a small room feel chaotic.\n\nFabric storage cubes solve this completely. They slip into each cubby and give you what amounts to a drawer without a dresser. Pull the cube out to access contents, push it back in to hide everything. The dual-handle design means you can pull them out quickly without tipping forward. A set of six cubes fills a standard 6-cube shelf unit and creates a clean, unified appearance regardless of what's inside.\n\nThe color-coding strategy is practical: choose one color for clothing, a second for bedding, and a third for accessories or school supplies. At a glance you know which cubes contain what without having to pull each one out. Consistent colors also make the shelf look intentionally designed rather than randomly assembled.",
+      },
+      {
+        heading: "Vacuum Storage Bags: Making Seasonal Clothing Work in a Dorm Closet",
+        body: "A full winter wardrobe — two or three winter coats, five sweaters, three pairs of jeans, thermals — can easily occupy 80% of a dorm closet from September through April and then sit unused from May through August. Vacuum storage bags exist specifically for this problem: they compress bulky items to as little as 20% of their original volume, freeing closet space that would otherwise be inaccessible all semester.\n\nThe practical workflow for a student: at the start of winter semester, pull out the summer clothing vacuum bags from under the bed and unpack them into the closet. Pack the summer clothing into the bags, vacuum seal them, and slide them under the bed. Reverse this at the start of summer. The entire seasonal clothing rotation takes 20 minutes and keeps your closet sized to the current season rather than holding both seasons simultaneously.\n\nThe material quality of vacuum bags matters more than most product descriptions suggest. Thin single-layer PE bags develop microperforations with folding and pressure over time, losing their seal within weeks. The PA+PE laminated bags recommended here maintain their vacuum seal reliably through multiple seasonal cycles. The double-zip seal is worth confirming — single-zip bags have a higher failure rate at the closure point.",
+      },
+      {
+        heading: "Over-Door Organizers: The Most Underutilized Storage Surface",
+        body: "Every door in a dorm room has a back panel that is almost certainly doing nothing. A standard interior door is roughly 18 inches wide and 80 inches tall — with an over-door pocket organizer installed, that becomes 24 organized pockets of storage that require zero floor space, zero wall holes, and install in under 30 seconds.\n\nThe most common configurations students use: shoe storage on the closet door (24 pockets holds 12 pairs of shoes), toiletry and personal care product organization on the bathroom door, and school supply storage on the main room door. In a shared room, the over-door organizer on the closet door is often the first private storage unit where both roommates aren't competing for the same surface.\n\nOne important measurement to confirm before purchasing: over-door hooks add approximately 0.75 inches of clearance needed between the door and the frame. Most standard dorm doors have adequate clearance, but doors that already brush against a door frame when opening may not. Check this before installing.",
+      },
+    ],
+    faq: [
+      {
+        question: "What's the best storage approach for a dorm room with no closet?",
+        answer:
+          "Closetless rooms are genuinely difficult. The priority sequence is: 1) maximize under-bed storage with vacuum bags for seasonal items and fabric bags for regular clothing; 2) add a freestanding clothing rack for frequently worn items; 3) use over-door organizers on every door for secondary categories. A narrow rolling storage cart beside or under a desk handles smaller items.",
+      },
+      {
+        question: "Can I use vacuum storage bags for down comforters?",
+        answer:
+          "You can for short-term storage (2–4 weeks), but extended compression permanently damages down filling — it loses loft and insulation value after months in a vacuum-sealed environment. For seasonal comforter storage, use a large breathable fabric bag instead, which keeps dust out without compressing the fill.",
+      },
+      {
+        question: "How many storage cubes do I need for a standard cube shelf?",
+        answer:
+          "Measure your shelf unit first — cube shelves come in 4, 6, 8, 9, and 12-cube configurations. A standard IKEA KALLAX or equivalent 6-cube unit needs 6 cubes at 11 × 11 × 11 inches. Most cube organizers on the market target this sizing, but inexpensive cube shelves sometimes have 12-inch cubbies that require slightly larger bins.",
+      },
+      {
+        question: "Do over-door organizers damage dorm doors?",
+        answer:
+          "The over-door hook sits over the top of the door and doesn't attach to the door surface at all — no screws, no adhesive, no damage. The weight of the organizer rests on the door top edge. The only door interaction is the hook contact at the top, which may leave a very minor indentation on soft wood doors after months of use, but this is not considered damage under standard dorm housing agreements.",
+      },
+    ],
+    relatedGuideSlugs: ["under-bed-storage-small-rooms", "bedside-caddies-students", "desk-organizers-small-desks"],
+  },
+
+  {
+    title: "Best Power Strips and Charging Solutions for Dorm Rooms (2026)",
+    slug: "dorm-room-power-essentials",
+    categorySlug: "dorm-essentials",
+    subcategorySlug: "power-strips",
+    description:
+      "Outlet access is one of the most frustrating constraints in a dorm room. These are the charging solutions that solve it — without violating housing electrical policies — evaluated for desk use, bedside charging, and the specific needs of students with multiple devices.",
+    mainKeyword: "best power strip for dorm room",
+    subKeywords: [
+      "dorm room power strip",
+      "surge protector dorm",
+      "wireless charger desk",
+      "bed risers with outlets",
+      "USB charging station desk",
+    ],
+    heroImage: "/images/guides/dorm-room-power-essentials-hero.jpg",
+    lastUpdated: "2026-05-12",
+    author: "SmartSpace Picks Editorial Team",
+    readTime: "8 min",
+    recommendedProductIds: [
+      "compact-power-strip-usb",
+      "slim-wireless-charging-pad",
+      "bed-risers-with-outlets-usb",
+    ],
+    sections: [
+      {
+        heading: "The Dorm Room Outlet Problem — and Why It's Worse Than You Expect",
+        body: "Most dorm rooms provide two to four wall outlets total — typically one duplex outlet on each side of the room. When two students share a room, that means two duplex outlets per person: four plugs for everything. A fully equipped student setup (laptop charger, monitor, desk lamp, phone charger, tablet charger, speaker) can easily require six or more plugs from a single desk setup, leaving nothing available for a bedside lamp or secondary device.\n\nDorm housing policies add a complicating layer. Most institutions prohibit non-surge-protected power strips, extension cords without surge protection, and any device that draws high continuous current (space heaters, electric kettles, and similar appliances). These policies exist for legitimate fire safety reasons in buildings with older wiring. Understanding the rules before purchasing prevents buying a power strip that will be confiscated.\n\nThe solutions in this guide are all surge-protected (meeting the most common dorm power policy requirement) and designed to multiply outlet access efficiently without high current draw.",
+      },
+      {
+        heading: "Desk Charging: Choosing a Power Strip That Doesn't Waste Space",
+        body: "Standard power strips are designed for living rooms and office buildings — they're long, rectangular, and optimized for having multiple large wall adapters plugged in without blocking adjacent outlets. For a student desk, this form factor is inefficient. A 12-inch power strip sitting on a small desk occupies a meaningful chunk of working surface, and its typically three-outlet spacing often fails to accommodate the large adapter bricks that laptop and monitor chargers use.\n\nThe compact surge protector recommended in this guide addresses both problems. At 8 inches long and 1.3 inches thick, it can sit flat against a desk edge or be positioned vertically along a wall without the sprawl of a standard strip. The three AC outlets are spaced to accommodate large adapters side by side — no blocked outlet neighbors. The four built-in USB-A ports handle phone, tablet, and accessory charging without occupying AC outlets at all.\n\nFor a two-device desk setup (laptop + monitor), one compact strip handles everything. For three-plus-device setups, the combination of a compact strip on the desk and bed risers with built-in outlets at the bedside covers both zones without doubling up on the same outlet.",
+      },
+      {
+        heading: "Wireless Charging: Eliminating the Cable Fumble",
+        body: "The wireless charging pad earns its place on a student desk not as a luxury upgrade but as a usability improvement. The specific problem it solves: plugging and unplugging a charging cable for your phone 6–10 times per day accumulates as a low-level friction point that's easy to overlook until you eliminate it. Setting your phone down on a pad and picking it up fully charged adds no friction at all.\n\nThe 10W Qi-standard pad recommended here charges at full speed for the majority of Android and iPhone models (iPhone 8 and later at 7.5W; Samsung and most Android at 10W). The only models it doesn't serve at full speed are iPhone 12 and later at MagSafe-specific 15W speeds — for those users, a MagSafe pad is the right choice, though at 2–3× the price.\n\nDesk placement matters for wireless chargers: the pad should sit in a position where you naturally set your phone while working, not somewhere you have to reach for. Left of a keyboard for right-handed users or right of the keyboard for left-handed users is the standard configuration. The 3.9-inch diameter takes almost no desk space and the 7mm thickness means it lies flush without creating a height obstruction.",
+      },
+      {
+        heading: "Bed Risers with Outlets: Solving Two Problems at Once",
+        body: "Bed risers are traditionally a simple product: raise the bed 3–6 inches to create under-bed storage clearance. The version with integrated outlets takes this further — the 5-inch height lift solves the clearance problem for standard under-bed storage bags, and the two built-in AC outlets plus two USB ports per riser place charging access exactly at bed level.\n\nThe practical impact in a dorm room is significant. Most students need to charge a phone and potentially a tablet or wireless earbuds overnight. Without outlets near the bed, this means either running a long cable from the desk power strip across the floor (a tripping hazard and a cable management problem) or reaching across a dark room to plug into a wall outlet. Bed risers with integrated outlets eliminate both. Your phone charges on the riser's USB port, 12 inches from your pillow, on a surface that also raises your bed for better under-storage access.\n\nConfirm your bed frame leg type and diameter before purchasing. The risers include adapters for both round and square legs up to 2.75 inches — this covers the vast majority of dorm bed frames. Platform beds with solid bases or integrated legs are not compatible. Check your specific bed frame before ordering.",
+      },
+    ],
+    faq: [
+      {
+        question: "Are power strips allowed in dorm rooms?",
+        answer:
+          "Most schools allow surge-protected power strips and prohibit non-surge-protected strips and extension cords. The compact power strip in this guide is ETL-certified with 1,080-joule surge protection, which meets the most common institutional policy requirements. Always confirm your specific school's policy before purchasing — some schools have additional wattage or outlet-count restrictions.",
+      },
+      {
+        question: "Is wireless charging slower than wired charging?",
+        answer:
+          "For overnight charging, the speed difference is irrelevant — your phone charges fully either way. For a quick top-up during a study break, the difference matters: a 10W wireless pad adds roughly 20–25% battery per hour vs. 40–60% per hour for a fast wired charger. Use wireless for desk-presence charging throughout the day and wired fast-charging when you need speed.",
+      },
+      {
+        question: "What is the maximum current draw I should use on a dorm power strip?",
+        answer:
+          "A typical 15A dorm circuit supports 1,800 watts total (for the entire circuit, which may include overhead lighting and other outlets). A student desk setup of laptop (65W), monitor (30W), lamp (12W), and phone charger (18W) totals about 125 watts — far below the circuit limit. High-draw appliances like space heaters (700–1500W) are the issue, not standard electronics. Stay away from high-draw resistive heating elements.",
+      },
+      {
+        question: "Do bed risers work with adjustable bed frames?",
+        answer:
+          "No. Adjustable bed frames, platform beds with solid slatted bases, and beds with built-in integrated legs are not compatible with cup-style bed risers — there's no discrete leg to place inside the riser cup. These risers are designed for traditional four-leg bed frames with individual legs. Check your bed frame before purchasing.",
+      },
+    ],
+    relatedGuideSlugs: ["cable-management-dorm", "desk-organizers-small-desks", "bedside-caddies-students"],
+  },
 ];
