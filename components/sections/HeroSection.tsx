@@ -31,15 +31,15 @@ export async function HeroSection({ settings: propSettings }: Props = {}) {
   return (
     <section
       className="relative overflow-hidden"
-      style={{ background: "linear-gradient(135deg, #0c1525 0%, #162944 55%, #0c1525 100%)" }}
+      style={{
+        backgroundImage: "url('/hero-banner.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center right",
+        backgroundRepeat: "no-repeat",
+      }}
     >
-      <div
-        className="absolute inset-0 opacity-[0.04]"
-        style={{ backgroundImage: `radial-gradient(circle at 1px 1px, white 1px, transparent 0)`, backgroundSize: "28px 28px" }}
-        aria-hidden="true"
-      />
-      <div className="absolute -top-24 -right-24 w-[28rem] h-[28rem] rounded-full blur-3xl pointer-events-none" style={{ background: "#2563eb", opacity: 0.18 }} aria-hidden="true" />
-      <div className="absolute bottom-0 -left-32 w-80 h-80 rounded-full blur-3xl pointer-events-none" style={{ background: "#1d4ed8", opacity: 0.10 }} aria-hidden="true" />
+      {/* Dark overlay to keep text readable */}
+      <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, rgba(12,21,37,0.92) 0%, rgba(22,41,68,0.80) 55%, rgba(12,21,37,0.70) 100%)" }} aria-hidden="true" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-28">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_400px] gap-12 items-center">
