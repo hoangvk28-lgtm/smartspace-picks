@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { Container } from "./Container";
 import { mainNav } from "@/data/nav";
@@ -24,13 +25,22 @@ export function Header() {
       {/* Main header */}
       <Container className="flex items-center justify-between h-16 gap-4">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2 shrink-0 focus-ring">
-          <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-brand text-white font-bold text-sm">
-            SP
-          </span>
-          <span className="font-bold text-ink text-lg tracking-tight hidden sm:block">
-            SmartSpace<span className="text-brand">Picks</span>
-          </span>
+        <Link
+          href="/"
+          className="group shrink-0 focus-ring"
+          aria-label="SmartSpace Picks — Home"
+        >
+          <Image
+            src="/logo.png"
+            alt="SmartSpace Picks"
+            width={180}
+            height={48}
+            className="h-10 w-auto object-contain
+              transition-all duration-300 ease-out
+              group-hover:scale-105 group-hover:drop-shadow-[0_0_10px_rgba(37,99,235,0.45)]
+              group-active:scale-95 group-active:brightness-90"
+            priority
+          />
         </Link>
 
         {/* Desktop nav */}
