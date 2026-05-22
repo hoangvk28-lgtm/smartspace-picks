@@ -33,12 +33,12 @@ export function Header() {
           <Image
             src="/logo.png"
             alt="SmartSpace Picks"
-            width={180}
-            height={48}
-            className="h-10 w-auto object-contain
+            width={220}
+            height={60}
+            className="h-12 w-auto object-contain mix-blend-multiply
               transition-all duration-300 ease-out
-              group-hover:scale-105 group-hover:drop-shadow-[0_0_10px_rgba(37,99,235,0.45)]
-              group-active:scale-95 group-active:brightness-90"
+              group-hover:scale-105 group-hover:drop-shadow-[0_0_12px_rgba(37,99,235,0.5)]
+              group-active:scale-95"
             priority
           />
         </Link>

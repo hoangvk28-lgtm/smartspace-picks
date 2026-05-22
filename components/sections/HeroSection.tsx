@@ -2,6 +2,7 @@ import Link from "next/link";
 import { products as staticProducts } from "@/data/products";
 import { getPublicHomepageSettings } from "@/lib/public-settings";
 import type { HomepageSettings } from "@/lib/site-settings-store";
+import { HeroSearch } from "@/components/sections/HeroSearch";
 
 const defaultQuickLinks = [
   { label: "Desk Lamps", href: "/best/desk-lamps-small-desks" },
@@ -87,20 +88,9 @@ export async function HeroSection({ settings: propSettings }: Props = {}) {
               )}
             </div>
 
-            {hero.searchPlaceholder && (
-              <Link
-                href="/compare"
-                className="flex items-center gap-3 px-4 py-3 rounded-xl max-w-md backdrop-blur-sm mb-10 transition-all hover:border-white/40"
-                style={{ background: "rgba(255,255,255,0.10)", border: "1px solid rgba(255,255,255,0.22)" }}
-                aria-label="Browse and compare all products"
-              >
-                <svg className="w-4 h-4 shrink-0" style={{ color: "rgba(255,255,255,0.65)" }} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607z" />
-                </svg>
-                <span className="text-sm" style={{ color: "rgba(255,255,255,0.72)" }}>{hero.searchPlaceholder}</span>
-                <span className="ml-auto text-xs font-medium shrink-0" style={{ color: "rgba(255,255,255,0.50)" }}>Browse →</span>
-              </Link>
-            )}
+            <div className="mb-10">
+              <HeroSearch placeholder={hero.searchPlaceholder || "Search products, guides, categories…"} />
+            </div>
 
             <div className="flex flex-wrap items-center gap-2">
               <span className="text-xs mr-1 shrink-0" style={{ color: "rgba(255,255,255,0.60)" }}>Browse:</span>
