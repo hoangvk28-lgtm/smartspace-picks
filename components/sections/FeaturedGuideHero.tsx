@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Guide } from "@/data/guides";
 import type { Product } from "@/data/products";
 import { Badge } from "@/components/ui/Badge";
@@ -29,12 +30,24 @@ export function FeaturedGuideHero({ guide, products }: FeaturedGuideHeroProps) {
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-8 items-start">
         {/* Left — editorial card */}
         <div className="flex flex-col gap-5 p-7 bg-white rounded-card border border-brand-muted shadow-card">
-          {/* Guide cover illustration */}
-          <CategoryIllustration
-            subcategorySlug={guide.subcategorySlug}
-            categoryColor={categoryColor}
-            className="w-full h-48 sm:h-56 rounded-lg"
-          />
+          {/* Guide cover — hero image or fallback illustration */}
+          {guide.heroImage && guide.heroImage.startsWith("http") ? (
+            <div className="relative w-full h-48 sm:h-56 rounded-lg overflow-hidden">
+              <Image
+                src={guide.heroImage}
+                alt={guide.title}
+                fill
+                sizes="(max-width: 1024px) 100vw, 60vw"
+                className="object-cover"
+              />
+            </div>
+          ) : (
+            <CategoryIllustration
+              subcategorySlug={guide.subcategorySlug}
+              categoryColor={categoryColor}
+              className="w-full h-48 sm:h-56 rounded-lg"
+            />
+          )}
 
           {/* Metadata row */}
           <div className="flex flex-wrap items-center gap-3 text-xs text-ink-muted">

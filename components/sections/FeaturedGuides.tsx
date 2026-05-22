@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Guide } from "@/data/guides";
 import { categories } from "@/data/categories";
 import { formatDate } from "@/lib/utils";
@@ -54,12 +55,24 @@ function GuideCard({
       className="group flex flex-col gap-4 bg-white rounded-card border border-border border-t-4 border-t-transparent overflow-hidden hover:shadow-card-hover transition-all"
       style={{ borderTopColor: categoryColor }}
     >
-      {/* Cover — subcategory illustration */}
-      <CategoryIllustration
-        subcategorySlug={guide.subcategorySlug}
-        categoryColor={categoryColor}
-        className="w-full h-44"
-      />
+      {/* Cover — hero image or fallback illustration */}
+      {guide.heroImage && guide.heroImage.startsWith("http") ? (
+        <div className="relative w-full h-44 overflow-hidden">
+          <Image
+            src={guide.heroImage}
+            alt={guide.title}
+            fill
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            className="object-cover"
+          />
+        </div>
+      ) : (
+        <CategoryIllustration
+          subcategorySlug={guide.subcategorySlug}
+          categoryColor={categoryColor}
+          className="w-full h-44"
+        />
+      )}
 
       <div className="p-5 flex flex-col gap-3 flex-1">
         {/* Meta — read time, date, and category badge */}
