@@ -9,7 +9,7 @@ import { categories } from "@/data/categories";
 import { getCategoryBySlug } from "@/lib/helpers";
 import { getPublicProductsForCategoryHub } from "@/lib/public-products";
 
-export const revalidate = 3600;
+export const revalidate = 60;
 
 // ─── Static params ────────────────────────────────────────────────────────────
 

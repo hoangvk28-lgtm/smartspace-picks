@@ -1,14 +1,14 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
 import { buildMetadata } from "@/lib/seo";
 import { getPublicGuides } from "@/lib/public-guides";
 import { formatDate } from "@/lib/utils";
 
-export const revalidate = 3600;
+export const revalidate = 60;
 
 export const metadata: Metadata = buildMetadata({
-  title: "All Buying Guides — Best Small Space Products",
+  title: "All Buying Guides â€” Best Small Space Products",
   description:
     "All our buying guides for small rooms, dorm setups, compact desks, and home offices. Top picks for students and small-space dwellers.",
   path: "/best",
@@ -52,7 +52,7 @@ export default async function BuyingGuidesIndexPage() {
             {/* Footer row */}
             <div className="flex items-center justify-between pt-2 border-t border-border mt-auto">
               <span className="text-xs text-ink-muted">
-                {guide.recommendedProductIds.length} picks · Updated {formatDate(guide.lastUpdated)}
+                {guide.recommendedProductIds.length} picks Â· Updated {formatDate(guide.lastUpdated)}
               </span>
               <span className="text-xs font-semibold text-brand group-hover:text-brand-dark transition-colors flex items-center gap-0.5">
                 Read guide
@@ -67,3 +67,4 @@ export default async function BuyingGuidesIndexPage() {
     </Container>
   );
 }
+

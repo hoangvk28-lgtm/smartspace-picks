@@ -19,7 +19,7 @@ import { formatDate, scoreToColor, scoreToLabel } from "@/lib/utils";
 
 type Props = { params: Promise<{ slug: string }> };
 
-export const revalidate = 3600;
+export const revalidate = 60;
 
 // ─── Static generation ────────────────────────────────────────────────────────
 

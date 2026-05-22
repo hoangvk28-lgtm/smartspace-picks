@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
 import { DealsProductCard } from "@/components/product/DealsProductCard";
@@ -8,23 +8,23 @@ import { getPublicProducts } from "@/lib/public-products";
 import { getPublicDeals } from "@/lib/public-deals";
 import { getFeaturedPublicGuides } from "@/lib/public-guides";
 
-export const revalidate = 3600;
+export const revalidate = 60;
 
 export const metadata: Metadata = buildMetadata({
-  title: "Amazon Finds for Small Spaces — Budget-Friendly Picks",
+  title: "Amazon Finds for Small Spaces â€” Budget-Friendly Picks",
   description:
-    "Budget-friendly Amazon products for small spaces, dorm rooms, and compact desks. Curated for value — all picks scored on real criteria, not sponsored placements.",
+    "Budget-friendly Amazon products for small spaces, dorm rooms, and compact desks. Curated for value â€” all picks scored on real criteria, not sponsored placements.",
   path: "/deals",
 });
 
-// ─── Price parsing helper ─────────────────────────────────────────────────────
-// priceRange format: "$10–$14"  →  lower bound as number
+// â”€â”€â”€ Price parsing helper â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// priceRange format: "$10â€“$14"  â†’  lower bound as number
 function lowerPrice(priceRange: string): number {
   const match = priceRange.match(/\$(\d+)/);
   return match ? parseInt(match[1], 10) : 999;
 }
 
-// ─── Page ─────────────────────────────────────────────────────────────────────
+// â”€â”€â”€ Page â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 export default async function DealsPage() {
   const [products, dbDeals, featuredGuides] = await Promise.all([
@@ -65,20 +65,20 @@ export default async function DealsPage() {
   return (
     <>
       <Container className="py-14">
-        {/* ── Page header ── */}
+        {/* â”€â”€ Page header â”€â”€ */}
         <div className="max-w-2xl mb-6">
           <span className="text-xs font-bold uppercase tracking-widest text-brand">Amazon Picks</span>
           <h1 className="text-4xl font-bold text-ink mt-2 mb-3 tracking-tight">
             Amazon Finds for Small Spaces
           </h1>
           <p className="text-ink-secondary leading-relaxed text-lg">
-            Budget-friendly picks for dorms, compact desks, and small rooms — curated by value score, not sponsored rank. All prices are approximate ranges; check Amazon for current pricing.
+            Budget-friendly picks for dorms, compact desks, and small rooms â€” curated by value score, not sponsored rank. All prices are approximate ranges; check Amazon for current pricing.
           </p>
         </div>
 
         {/* Disclosure */}
         <div className="mb-8 p-4 bg-bg rounded-lg border border-border text-sm text-ink-muted leading-relaxed">
-          <strong className="text-ink">Affiliate disclosure:</strong> We may earn a commission when you buy through our Amazon links at no extra cost to you. Prices and availability change on Amazon — always check the current listing before purchasing. We do not receive payment for product placement.
+          <strong className="text-ink">Affiliate disclosure:</strong> We may earn a commission when you buy through our Amazon links at no extra cost to you. Prices and availability change on Amazon â€” always check the current listing before purchasing. We do not receive payment for product placement.
         </div>
 
         {/* Jump nav */}
@@ -102,7 +102,7 @@ export default async function DealsPage() {
           ))}
         </div>
 
-        {/* ── Section: Featured Deals (from DB) ── */}
+        {/* â”€â”€ Section: Featured Deals (from DB) â”€â”€ */}
         {dealProducts.length > 0 && (
           <section id="featured-deals" className="mb-16 scroll-mt-6">
             <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-6">
@@ -113,10 +113,10 @@ export default async function DealsPage() {
                 </div>
                 <h2 className="text-2xl font-bold text-ink tracking-tight">Current Curated Picks</h2>
                 <p className="text-sm text-ink-secondary mt-1 max-w-lg leading-relaxed">
-                  Hand-selected products worth checking on Amazon right now — scored and verified, not sponsored.
+                  Hand-selected products worth checking on Amazon right now â€” scored and verified, not sponsored.
                 </p>
               </div>
-              <p className="text-xs text-ink-muted shrink-0">All prices approximate · Check Amazon</p>
+              <p className="text-xs text-ink-muted shrink-0">All prices approximate Â· Check Amazon</p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
               {dealProducts.map((product) => (
@@ -129,36 +129,36 @@ export default async function DealsPage() {
           </section>
         )}
 
-        {/* ── Section: Top value picks ── */}
+        {/* â”€â”€ Section: Top value picks â”€â”€ */}
         <ProductSection
           id="top-value"
           eyebrow="Top Picks"
           heading="Highest Value for Money"
-          description="Products that score 9.3 or higher on our value-for-money criteria — these deliver the most capability per dollar among everything we've evaluated."
+          description="Products that score 9.3 or higher on our value-for-money criteria â€” these deliver the most capability per dollar among everything we've evaluated."
           products={topValuePicks}
           disclaimer="Value scores reflect our editorial assessment. Check current Amazon pricing before purchasing."
         />
 
-        {/* ── Section: Budget under $30 ── */}
+        {/* â”€â”€ Section: Budget under $30 â”€â”€ */}
         <ProductSection
           id="budget"
           eyebrow="Budget Finds"
-          heading="Worth Checking — Often Under $30"
-          description="Picks where the lower end of the typical price range falls under $30. Actual prices vary — these are often available at affordable prices but check Amazon for the current amount."
+          heading="Worth Checking â€” Often Under $30"
+          description="Picks where the lower end of the typical price range falls under $30. Actual prices vary â€” these are often available at affordable prices but check Amazon for the current amount."
           products={budgetPicks}
-          disclaimer="Price ranges are approximate. Actual Amazon prices fluctuate — always check the listing."
+          disclaimer="Price ranges are approximate. Actual Amazon prices fluctuate â€” always check the listing."
         />
 
-        {/* ── Section: Dorm room finds ── */}
+        {/* â”€â”€ Section: Dorm room finds â”€â”€ */}
         <ProductSection
           id="dorm"
           eyebrow="Dorm Room"
           heading="Dorm Room Finds"
-          description="Space-saving picks designed for dorm life — compact, damage-free, and affordable. These work within typical dorm restrictions and tight quarters."
+          description="Space-saving picks designed for dorm life â€” compact, damage-free, and affordable. These work within typical dorm restrictions and tight quarters."
           products={dormPicks}
         />
 
-        {/* ── Section: Desk setup ── */}
+        {/* â”€â”€ Section: Desk setup â”€â”€ */}
         <ProductSection
           id="desk"
           eyebrow="Desk Setup"
@@ -167,7 +167,7 @@ export default async function DealsPage() {
           products={deskPicks}
         />
 
-        {/* ── Section: Storage ── */}
+        {/* â”€â”€ Section: Storage â”€â”€ */}
         <ProductSection
           id="storage"
           eyebrow="Storage"
@@ -176,7 +176,7 @@ export default async function DealsPage() {
           products={storagePicks}
         />
 
-        {/* ── Tips box ── */}
+        {/* â”€â”€ Tips box â”€â”€ */}
         <div className="my-14 p-6 bg-white rounded-card border border-border">
           <h2 className="font-bold text-ink text-lg mb-4">Tips for Getting the Best Price on Amazon</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-sm text-ink-secondary leading-relaxed">
@@ -186,16 +186,16 @@ export default async function DealsPage() {
             </div>
             <div>
               <p className="font-semibold text-ink mb-1">Look for clippable coupons</p>
-              <p>Many products have an optional coupon on the product page — look for a &quot;Save X% with coupon&quot; checkbox before checkout.</p>
+              <p>Many products have an optional coupon on the product page â€” look for a &quot;Save X% with coupon&quot; checkbox before checkout.</p>
             </div>
             <div>
               <p className="font-semibold text-ink mb-1">Prime Day &amp; Back to School</p>
-              <p>Desk accessories and storage products often see their deepest discounts during Prime Day (July) and back-to-school season (August–September).</p>
+              <p>Desk accessories and storage products often see their deepest discounts during Prime Day (July) and back-to-school season (Augustâ€“September).</p>
             </div>
           </div>
         </div>
 
-        {/* ── Related buying guides ── */}
+        {/* â”€â”€ Related buying guides â”€â”€ */}
         <section id="guides">
           <div className="mb-6">
             <span className="text-xs font-bold uppercase tracking-widest text-brand">Buying Guides</span>
@@ -203,7 +203,7 @@ export default async function DealsPage() {
               Not Sure What to Buy? Read a Guide First
             </h2>
             <p className="text-sm text-ink-secondary max-w-xl">
-              Our buying guides compare every product in a category side-by-side — with use-case advice, a comparison table, and a clear top recommendation.
+              Our buying guides compare every product in a category side-by-side â€” with use-case advice, a comparison table, and a clear top recommendation.
             </p>
           </div>
 
@@ -225,7 +225,7 @@ export default async function DealsPage() {
                   {guide.description}
                 </p>
                 <span className="text-xs font-semibold text-brand group-hover:text-brand-dark transition-colors mt-1">
-                  Read guide →
+                  Read guide â†’
                 </span>
               </Link>
             ))}
@@ -236,7 +236,7 @@ export default async function DealsPage() {
               href="/best"
               className="inline-flex items-center gap-1 text-sm font-semibold text-brand hover:text-brand-dark transition-colors"
             >
-              View all buying guides →
+              View all buying guides â†’
             </Link>
           </div>
         </section>
@@ -248,7 +248,7 @@ export default async function DealsPage() {
   );
 }
 
-// ─── Section component ────────────────────────────────────────────────────────
+// â”€â”€â”€ Section component â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 interface ProductSectionProps {
   id: string;

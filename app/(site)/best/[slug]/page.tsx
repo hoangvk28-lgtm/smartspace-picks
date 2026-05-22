@@ -15,7 +15,7 @@ import { buildMetadata } from "@/lib/seo";
 import { formatDate, scoreToColor } from "@/lib/utils";
 import { SITE_URL } from "@/lib/seo";
 
-export const revalidate = 3600;
+export const revalidate = 60;
 
 type Props = { params: Promise<{ slug: string }> };
 

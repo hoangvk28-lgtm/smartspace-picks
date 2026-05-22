@@ -80,7 +80,9 @@ export async function getPublicProducts(): Promise<Product[]> {
       .order("updated_at", { ascending: false });
 
     if (error) throw error;
-    return (data as ProductRow[]).map(rowToProduct);
+    const dbProducts = (data as ProductRow[]).map(rowToProduct);
+    // If DB is configured but not yet seeded, fall back to static data
+    return dbProducts.length > 0 ? dbProducts : staticProducts;
   } catch (e) {
     console.warn("[public-products] Supabase query failed — falling back to static data:", e);
     return staticProducts;

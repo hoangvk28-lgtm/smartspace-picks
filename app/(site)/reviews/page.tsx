@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
 import { Badge } from "@/components/ui/Badge";
@@ -6,10 +6,10 @@ import { buildMetadata } from "@/lib/seo";
 import { scoreToColor } from "@/lib/utils";
 import { getPublicProducts } from "@/lib/public-products";
 
-export const revalidate = 3600;
+export const revalidate = 60;
 
 export const metadata: Metadata = buildMetadata({
-  title: "Product Reviews — Small Space Products",
+  title: "Product Reviews â€” Small Space Products",
   description:
     "Individual product reviews for small room setups, desk accessories, dorm essentials, and storage solutions.",
   path: "/reviews",
@@ -92,3 +92,4 @@ export default async function ReviewsIndexPage() {
     </Container>
   );
 }
+
