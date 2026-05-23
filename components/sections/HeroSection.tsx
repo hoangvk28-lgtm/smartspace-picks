@@ -123,7 +123,7 @@ export async function HeroSection({ settings: propSettings }: Props = {}) {
               </div>
 
               {top4.map((p, i) => (
-                <div key={p.id} className="px-5 py-4 flex items-center gap-3" style={{ borderBottom: "1px solid rgba(255,255,255,0.08)" }}>
+                <Link key={p.id} href={`/reviews/${p.slug}`} className="px-5 py-4 flex items-center gap-3 hover:bg-white/5 transition-colors" style={{ borderBottom: "1px solid rgba(255,255,255,0.08)" }}>
                   <span className="w-6 h-6 rounded-full text-white text-[10px] font-bold flex items-center justify-center shrink-0" style={{ background: "rgba(59,130,246,0.75)" }}>{i + 1}</span>
                   <div className="flex-1 min-w-0">
                     <p className="text-sm font-semibold leading-snug line-clamp-1" style={{ color: "rgba(255,255,255,0.96)" }}>{p.name}</p>
@@ -132,7 +132,7 @@ export async function HeroSection({ settings: propSettings }: Props = {}) {
                   <span className="text-sm font-bold tabular-nums shrink-0 px-2 py-0.5 rounded-md" style={{ color: "#ffffff", background: "rgba(59,130,246,0.35)", border: "1px solid rgba(59,130,246,0.50)" }}>
                     {p.scores.overall.toFixed(1)}
                   </span>
-                </div>
+                </Link>
               ))}
 
               <div className="px-5 py-3.5" style={{ background: "rgba(255,255,255,0.05)", borderTop: "1px solid rgba(255,255,255,0.10)" }}>
