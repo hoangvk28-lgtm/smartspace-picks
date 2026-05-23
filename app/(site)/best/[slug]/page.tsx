@@ -283,9 +283,13 @@ export default async function BuyingGuidePage({ params }: Props) {
         {introSection && (
           <div className="prose max-w-3xl mb-10">
             <h2>{introSection.heading}</h2>
-            {introSection.body.split("\n\n").map((para, i) => (
-              <p key={i}>{para}</p>
-            ))}
+            {introSection.body.trim().startsWith("<") ? (
+              <div dangerouslySetInnerHTML={{ __html: introSection.body }} className="prose max-w-none" />
+            ) : (
+              introSection.body.split("\n\n").map((para, i) => (
+                <p key={i}>{para}</p>
+              ))
+            )}
           </div>
         )}
 
@@ -314,9 +318,13 @@ export default async function BuyingGuidePage({ params }: Props) {
             {middleSections.map((section) => (
               <div key={section.heading} className="prose max-w-3xl mb-10">
                 <h2>{section.heading}</h2>
-                {section.body.split("\n\n").map((para, i) => (
-                  <p key={i}>{para}</p>
-                ))}
+                {section.body.trim().startsWith("<") ? (
+                  <div dangerouslySetInnerHTML={{ __html: section.body }} className="prose max-w-none" />
+                ) : (
+                  section.body.split("\n\n").map((para, i) => (
+                    <p key={i}>{para}</p>
+                  ))
+                )}
               </div>
             ))}
           </div>
@@ -352,9 +360,13 @@ export default async function BuyingGuidePage({ params }: Props) {
           {methodologySection && (
             <div className="prose mt-8">
               <h3>{methodologySection.heading}</h3>
-              {methodologySection.body.split("\n\n").map((para, i) => (
-                <p key={i}>{para}</p>
-              ))}
+              {methodologySection.body.trim().startsWith("<") ? (
+                <div dangerouslySetInnerHTML={{ __html: methodologySection.body }} className="prose max-w-none" />
+              ) : (
+                methodologySection.body.split("\n\n").map((para, i) => (
+                  <p key={i}>{para}</p>
+                ))
+              )}
             </div>
           )}
 

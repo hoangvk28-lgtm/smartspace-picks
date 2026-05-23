@@ -1,6 +1,7 @@
 "use client";
 
-import { useActionState, useRef, useEffect, useState } from "react";
+import { useActionState, useState } from "react";
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import { AdminCard } from "@/components/admin/AdminCard";
 import {
@@ -14,6 +15,11 @@ import { categories } from "@/data/categories";
 import type { StoredGuide } from "@/lib/guides-store";
 import type { GuideFormState } from "@/app/admin/guide-actions";
 import type { StoredProduct } from "@/lib/products-store";
+
+const RichTextEditor = dynamic(
+  () => import("@/components/admin/RichTextEditor").then((m) => m.RichTextEditor),
+  { ssr: false }
+);
 
 interface GuideFormProps {
   action: (prev: GuideFormState, formData: FormData) => Promise<GuideFormState>;
@@ -50,12 +56,25 @@ export function GuideForm({ action, guide, mode, products }: GuideFormProps) {
     setSlugValue(e.target.value);
   }
 
-  // Repeatable sections
-  const initSectionCount =
+  // Repeatable sections with rich text state
+  const initSections =
     mode === "edit" && guide && guide.sections.length > 0
-      ? guide.sections.length
-      : 1;
-  const [sectionCount, setSectionCount] = useState(initSectionCount);
+      ? guide.sections.map((s) => ({ heading: s.heading, body: s.body }))
+      : [{ heading: "", body: "" }];
+  const [sections, setSections] = useState<Array<{ heading: string; body: string }>>(initSections);
+  const sectionCount = sections.length;
+
+  function setSectionBody(i: number, html: string) {
+    setSections((prev) => prev.map((s, idx) => idx === i ? { ...s, body: html } : s));
+  }
+
+  function addSection() {
+    setSections((prev) => [...prev, { heading: "", body: "" }]);
+  }
+
+  function removeSection(i: number) {
+    setSections((prev) => prev.filter((_, idx) => idx !== i));
+  }
 
   // Repeatable FAQ
   const initFaqCount =
@@ -366,7 +385,7 @@ export function GuideForm({ action, guide, mode, products }: GuideFormProps) {
         )}
 
         <div className="flex flex-col gap-4">
-          {Array.from({ length: sectionCount }, (_, i) => (
+          {sections.map((section, i) => (
             <div key={i} className="rounded-lg border border-gray-200 p-4 flex flex-col gap-3">
               <div className="flex items-center justify-between">
                 <span className="text-xs font-semibold text-gray-500 uppercase tracking-wide">
@@ -375,7 +394,7 @@ export function GuideForm({ action, guide, mode, products }: GuideFormProps) {
                 {sectionCount > 1 && (
                   <button
                     type="button"
-                    onClick={() => setSectionCount((n) => n - 1)}
+                    onClick={() => removeSection(i)}
                     className="text-xs text-gray-400 hover:text-red-500 transition-colors"
                   >
                     Remove
@@ -389,17 +408,18 @@ export function GuideForm({ action, guide, mode, products }: GuideFormProps) {
                   name={`section_heading_${i}`}
                   type="text"
                   className={inputClass}
-                  defaultValue={guide?.sections?.[i]?.heading ?? ""}
+                  defaultValue={section.heading}
                 />
               </AdminFormField>
 
-              <AdminFormField label="Body" htmlFor={`section_body_${i}`}>
-                <textarea
-                  id={`section_body_${i}`}
-                  name={`section_body_${i}`}
-                  rows={4}
-                  className={textareaClass}
-                  defaultValue={guide?.sections?.[i]?.body ?? ""}
+              {/* Hidden input carries HTML value for FormData */}
+              <input type="hidden" name={`section_body_${i}`} value={section.body} />
+
+              <AdminFormField label="Body" htmlFor={`section_body_editor_${i}`}>
+                <RichTextEditor
+                  value={section.body}
+                  onChange={(html) => setSectionBody(i, html)}
+                  placeholder="Write section content..."
                 />
               </AdminFormField>
             </div>
@@ -408,7 +428,7 @@ export function GuideForm({ action, guide, mode, products }: GuideFormProps) {
 
         <button
           type="button"
-          onClick={() => setSectionCount((n) => n + 1)}
+          onClick={addSection}
           className="mt-3 inline-flex items-center gap-1.5 text-sm font-medium text-blue-600 hover:text-blue-700 transition-colors"
         >
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
