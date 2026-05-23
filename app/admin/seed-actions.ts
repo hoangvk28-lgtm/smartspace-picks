@@ -61,6 +61,7 @@ export async function seedStaticGuides(): Promise<{ inserted: number; skipped: n
   const toInsert = staticGuides
     .filter((g) => !existingSlugs.has(g.slug))
     .map((g) => ({
+      id: crypto.randomUUID(),
       title: g.title,
       slug: g.slug,
       category_slug: g.categorySlug,
