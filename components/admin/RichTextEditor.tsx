@@ -89,10 +89,14 @@ export function RichTextEditor({
 
   const applyLink = useCallback(() => {
     if (!editor) return;
-    const url = linkUrl.trim();
+    let url = linkUrl.trim();
     if (!url) {
       editor.chain().focus().unsetLink().run();
     } else {
+      // Auto-prepend https:// if no protocol provided
+      if (!/^https?:\/\//i.test(url) && !url.startsWith("/")) {
+        url = "https://" + url;
+      }
       editor.chain().focus().setLink({ href: url }).run();
     }
     setShowLinkInput(false);
