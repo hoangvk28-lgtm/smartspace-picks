@@ -83,7 +83,7 @@ export default function HowWeReviewPage() {
           How We Review and Compare Products
         </h1>
         <p className="text-lg text-ink-secondary leading-relaxed max-w-2xl">
-          Every recommendation on SmartSpace Picks follows the same documented process. Here is exactly how we evaluate products, how we assign scores, and what our editorial badges mean.
+          Every recommendation on DeskFinds follows the same documented process. Here is exactly how we evaluate products, how we assign scores, and what our editorial badges mean.
         </p>
       </header>
 

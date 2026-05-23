@@ -4,7 +4,7 @@ import { AdminHeader } from "@/components/admin/AdminHeader";
 import { AdminShell } from "@/components/admin/AdminShell";
 
 export const metadata = {
-  title: "Admin Dashboard — SmartSpace Picks",
+  title: "Admin Dashboard — DeskFinds",
   robots: { index: false, follow: false },
 };
 

@@ -192,7 +192,7 @@ export function GuideForm({ action, guide, mode, products }: GuideFormProps) {
               name="author"
               type="text"
               className={inputClass}
-              defaultValue={guide?.author ?? "SmartSpace Picks Editorial Team"}
+              defaultValue={guide?.author ?? "DeskFinds Editorial Team"}
             />
           </AdminFormField>
 

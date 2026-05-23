@@ -143,7 +143,7 @@ export default async function BuyingGuidePage({ params }: Props) {
     datePublished: guide.lastUpdated,
     dateModified: guide.lastUpdated,
     author: { "@type": "Organization", name: guide.author },
-    publisher: { "@type": "Organization", name: "SmartSpace Picks", url: SITE_URL },
+    publisher: { "@type": "Organization", name: "DeskFinds", url: SITE_URL },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/best/${slug}` },
     ...(guide.heroImage && guide.heroImage.startsWith("http")
       ? { image: guide.heroImage }

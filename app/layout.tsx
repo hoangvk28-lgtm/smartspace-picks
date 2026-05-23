@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: SITE_NAME,
     description: SITE_DESCRIPTION,
-    site: "@smartspacepicks",
+    site: "@deskfinds",
   },
   robots: {
     index: true,

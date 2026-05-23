@@ -4,9 +4,9 @@ import { Container } from "@/components/layout/Container";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Contact SmartSpace Picks",
+  title: "Contact DeskFinds",
   description:
-    "Get in touch with the SmartSpace Picks team. Corrections, product suggestions, buying questions, and press inquiries welcome.",
+    "Get in touch with the DeskFinds team. Corrections, product suggestions, buying questions, and press inquiries welcome.",
   path: "/contact",
 });
 
@@ -88,10 +88,10 @@ export default function ContactPage() {
               You can reach us at:
             </p>
             <a
-              href="mailto:hello@smartspacepicks.com"
+              href="mailto:hello@deskfinds.com"
               className="text-sm font-semibold text-brand hover:text-brand-dark transition-colors break-all"
             >
-              hello@smartspacepicks.com
+              hello@deskfinds.com
             </a>
             <p className="text-xs text-ink-muted mt-2">
               We aim to respond within 3 business days.
@@ -104,7 +104,7 @@ export default function ContactPage() {
             <ul className="space-y-1.5 text-sm">
               <li><Link href="/how-we-review" className="text-brand hover:text-brand-dark transition-colors font-medium">How We Review Products →</Link></li>
               <li><Link href="/affiliate-disclosure" className="text-brand hover:text-brand-dark transition-colors font-medium">Affiliate Disclosure →</Link></li>
-              <li><Link href="/about" className="text-brand hover:text-brand-dark transition-colors font-medium">About SmartSpace Picks →</Link></li>
+              <li><Link href="/about" className="text-brand hover:text-brand-dark transition-colors font-medium">About DeskFinds →</Link></li>
               <li><Link href="/privacy-policy" className="text-brand hover:text-brand-dark transition-colors font-medium">Privacy Policy →</Link></li>
             </ul>
           </div>
@@ -184,7 +184,7 @@ export default function ContactPage() {
                 Send Message
               </button>
               <p className="mt-2 text-xs text-ink-muted">
-                This form does not have a backend connected yet. Please email us directly at hello@smartspacepicks.com.
+                This form does not have a backend connected yet. Please email us directly at hello@deskfinds.com.
               </p>
             </div>
           </form>

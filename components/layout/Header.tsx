@@ -14,7 +14,7 @@ export function Header() {
     <header className="sticky top-0 z-50 bg-white border-b border-border shadow-sm">
       {/* Top bar */}
       <div className="bg-brand text-ink-inverse text-xs py-1.5 px-4 flex items-center justify-center gap-2 overflow-hidden">
-        <span className="opacity-90 hidden sm:inline">SmartSpace Picks earns a commission on qualifying Amazon purchases.</span>
+        <span className="opacity-90 hidden sm:inline">DeskFinds earns a commission on qualifying Amazon purchases.</span>
         <span className="opacity-90 sm:hidden">We earn a commission on Amazon purchases.</span>
         <Link
           href="/affiliate-disclosure"
@@ -30,7 +30,7 @@ export function Header() {
         <Link
           href="/"
           className="group shrink-0 focus-ring"
-          aria-label="SmartSpace Picks — Home"
+          aria-label="DeskFinds — Home"
         >
           <Image
             src="/logo-deskfinds-official.png"

@@ -111,7 +111,7 @@ export default async function CategoryPage({ params }: Props) {
   const collectionPageSchema = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: `${category.name} — SmartSpace Picks`,
+    name: `${category.name} — DeskFinds`,
     description: category.description,
     url: `${SITE_URL}/categories/${slug}`,
   };

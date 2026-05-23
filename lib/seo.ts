@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 
-const SITE_NAME = "SmartSpace Picks";
+const SITE_NAME = "DeskFinds";
 // Prefer env var so the same build can be deployed to any domain without code changes.
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ??
-  "https://www.smartspacepicks.com";
+  "https://www.deskfinds.com";
 const SITE_DESCRIPTION =
-  "Smart Amazon buying guides for small rooms, dorm setups, compact desks, and home offices. Honest comparisons, no fluff.";
-const TWITTER_HANDLE = "@smartspacepicks";
+  "Honest buying guides for small desks, dorm rooms, and compact home offices. Find the best products with real scores and comparisons.";
+const TWITTER_HANDLE = "@deskfinds";
 
 export function buildMetadata({
   title,

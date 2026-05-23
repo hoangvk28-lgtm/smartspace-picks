@@ -119,8 +119,8 @@ export default async function ProductReviewPage({ params }: Props) {
     name: `${product.name} Review`,
     reviewBody: product.reviewSummary,
     datePublished: featuredInGuides[0]?.lastUpdated ?? "2026-01-01",
-    author: { "@type": "Organization", name: "SmartSpace Picks" },
-    publisher: { "@type": "Organization", name: "SmartSpace Picks", url: SITE_URL },
+    author: { "@type": "Organization", name: "DeskFinds" },
+    publisher: { "@type": "Organization", name: "DeskFinds", url: SITE_URL },
     itemReviewed: {
       "@type": "Product",
       name: product.name,

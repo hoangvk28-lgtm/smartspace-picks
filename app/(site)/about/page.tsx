@@ -6,9 +6,9 @@ import { categories } from "@/data/categories";
 import { guides } from "@/data/guides";
 
 export const metadata: Metadata = buildMetadata({
-  title: "About SmartSpace Picks",
+  title: "About DeskFinds",
   description:
-    "SmartSpace Picks publishes honest Amazon buying guides for students, dorm room users, and people living in small apartments and compact home offices. Learn who we are and how we work.",
+    "DeskFinds publishes honest Amazon buying guides for students, dorm room users, and people living in small apartments and compact home offices. Learn who we are and how we work.",
   path: "/about",
 });
 
@@ -61,7 +61,7 @@ export default function AboutPage() {
           Making Small Spaces Work Smarter
         </h1>
         <p className="text-lg text-ink-secondary leading-relaxed">
-          SmartSpace Picks was built for people who have to make careful decisions about every product they bring into a small room — because space is a real constraint and the wrong product makes things worse.
+          DeskFinds was built for people who have to make careful decisions about every product they bring into a small room — because space is a real constraint and the wrong product makes things worse.
         </p>
       </header>
 
@@ -73,7 +73,7 @@ export default function AboutPage() {
             We believe that a dorm room, a studio apartment, or a bedroom desk doesn&apos;t have to mean a compromised setup. The right products — chosen specifically for tight spaces — can make a 200-square-foot room as productive and comfortable as a much larger one.
           </p>
           <p>
-            SmartSpace Picks exists to help students, remote workers, and small-space renters find those products without wading through sponsored rankings, vague listicles, or buying guides that were clearly written without considering what a real dorm desk looks like.
+            DeskFinds exists to help students, remote workers, and small-space renters find those products without wading through sponsored rankings, vague listicles, or buying guides that were clearly written without considering what a real dorm desk looks like.
           </p>
         </div>
       </section>
@@ -110,9 +110,9 @@ export default function AboutPage() {
 
       {/* What makes us different */}
       <section className="mb-12">
-        <h2 className="text-2xl font-bold text-ink mb-2 tracking-tight">What Makes SmartSpace Picks Different</h2>
+        <h2 className="text-2xl font-bold text-ink mb-2 tracking-tight">What Makes DeskFinds Different</h2>
         <p className="text-sm text-ink-secondary leading-relaxed mb-6">
-          There are thousands of Amazon product roundup sites. Here is why we think SmartSpace Picks is worth your time:
+          There are thousands of Amazon product roundup sites. Here is why we think DeskFinds is worth your time:
         </p>
         <div className="space-y-5">
           {DIFFERENTIATORS.map((item) => (
@@ -164,7 +164,7 @@ export default function AboutPage() {
 
       {/* Internal links */}
       <section>
-        <h2 className="text-xl font-bold text-ink mb-5 tracking-tight">Explore SmartSpace Picks</h2>
+        <h2 className="text-xl font-bold text-ink mb-5 tracking-tight">Explore DeskFinds</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <div>
             <p className="text-xs font-bold uppercase tracking-widest text-ink-muted mb-3">Buying Guides</p>
