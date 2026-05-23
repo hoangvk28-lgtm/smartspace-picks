@@ -40,6 +40,15 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${inter.variable} h-full`}>
+      <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-NR734FVRW1" />
+        <script dangerouslySetInnerHTML={{ __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-NR734FVRW1');
+        `}} />
+      </head>
       <body className="h-full antialiased">
         {children}
       </body>
