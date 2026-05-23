@@ -8,12 +8,12 @@ const stats = [
       <Image
         src="/images/icons/products-evaluated-icon.webp"
         alt="3D checklist icon representing evaluated products"
-        width={48}
-        height={48}
+        width={64}
+        height={64}
         className="object-contain"
       />
     ),
-    iconSize: "w-12 h-12",
+    iconSize: "w-16 h-16",
     label: "Evaluated for small-space use",
     description: "Every product scored on five criteria — specs, buyer feedback, value, build, and space fit.",
   },
@@ -24,12 +24,12 @@ const stats = [
       <Image
         src="/images/icons/buying-guides-icon.webp"
         alt="3D chat and guide icon representing buying guides"
-        width={48}
-        height={48}
+        width={64}
+        height={64}
         className="object-contain"
       />
     ),
-    iconSize: "w-12 h-12",
+    iconSize: "w-16 h-16",
     label: "With side-by-side comparisons",
     description: "Structured like Wirecutter — clear top pick, honest trade-offs, and a comparison table.",
   },
