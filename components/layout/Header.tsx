@@ -33,8 +33,8 @@ export function Header() {
           aria-label="SmartSpace Picks — Home"
         >
           <Image
-            src="/logo.webp"
-            alt="SmartSpace Picks"
+            src="/logo-deskfinds.png"
+            alt="DeskFinds"
             width={240}
             height={64}
             className="h-12 w-auto object-contain mix-blend-multiply
