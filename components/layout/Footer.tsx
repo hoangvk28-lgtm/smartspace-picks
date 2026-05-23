@@ -37,7 +37,7 @@ export async function Footer() {
                 width={200}
                 height={54}
                 unoptimized
-                className="h-10 w-auto object-contain opacity-90 hover:opacity-100 transition-opacity"
+                className="h-10 w-auto object-contain brightness-0 invert opacity-90 hover:opacity-100 transition-opacity"
               />
             </Link>
             <p className="text-sm text-ink-inverse/75 leading-relaxed max-w-xs">
