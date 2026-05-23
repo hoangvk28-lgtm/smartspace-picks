@@ -34,10 +34,10 @@ export function Header() {
           aria-label="SmartSpace Picks — Home"
         >
           <Image
-            src="/logo.png"
+            src="/logo.webp"
             alt="SmartSpace Picks"
-            width={220}
-            height={60}
+            width={240}
+            height={64}
             className="h-12 w-auto object-contain mix-blend-multiply
               transition-all duration-300 ease-out
               group-hover:scale-105 group-hover:drop-shadow-[0_0_12px_rgba(37,99,235,0.5)]
