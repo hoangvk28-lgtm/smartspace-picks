@@ -199,7 +199,7 @@ export function ProductForm({ action, product, mode }: ProductFormProps) {
               name="amazonUrl"
               type="url"
               defaultValue={product?.amazonUrl ?? ""}
-              placeholder="https://www.amazon.com/dp/XXXXXXXXXX?tag=smartspacepicks-20"
+              placeholder="https://www.amazon.com/dp/XXXXXXXXXX?tag=deskfinds0d-20"
               className={inputClass}
             />
           </AdminFormField>

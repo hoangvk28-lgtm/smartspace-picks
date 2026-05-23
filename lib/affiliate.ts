@@ -1,4 +1,4 @@
-export const AMAZON_TAG = "smartspacepicks-20";
+export const AMAZON_TAG = "deskfinds0d-20";
 
 /**
  * Central URL builder — swap out AMAZON_TAG once your Associates account is approved.
