@@ -29,7 +29,7 @@ export function DealsProductCard({ product }: DealsProductCardProps) {
             alt={product.name}
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 25vw"
-            className="object-contain p-3"
+            className="object-cover"
           />
         </div>
       ) : (
