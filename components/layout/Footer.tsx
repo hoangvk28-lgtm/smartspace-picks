@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Container } from "./Container";
 import { footerNav } from "@/data/nav";
 import { DISCLOSURE_SHORT } from "@/lib/affiliate";
@@ -29,11 +30,14 @@ export async function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand column */}
           <div className="lg:col-span-1">
-            <Link href="/" className="flex items-center gap-2 mb-4 w-fit">
-              <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-brand text-white font-bold text-sm">SP</span>
-              <span className="font-bold text-white text-lg tracking-tight">
-                SmartSpace<span className="text-brand-muted">Picks</span>
-              </span>
+            <Link href="/" className="inline-block mb-4">
+              <Image
+                src="/logo.webp"
+                alt="SmartSpace Picks"
+                width={200}
+                height={54}
+                className="h-10 w-auto object-contain brightness-0 invert opacity-90 hover:opacity-100 transition-opacity"
+              />
             </Link>
             <p className="text-sm text-ink-inverse/75 leading-relaxed max-w-xs">
               {footerSettings.description}
