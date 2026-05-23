@@ -13,13 +13,12 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-border shadow-sm">
       {/* Top bar */}
-      <div className="bg-brand text-ink-inverse text-xs py-1.5 px-4 flex items-center justify-center gap-2 whitespace-nowrap overflow-hidden">
-        <span className="opacity-90 truncate">
-          SmartSpace Picks earns a commission on qualifying Amazon purchases.
-        </span>
+      <div className="bg-brand text-ink-inverse text-xs py-1.5 px-4 flex items-center justify-center gap-2 overflow-hidden">
+        <span className="opacity-90 hidden sm:inline">SmartSpace Picks earns a commission on qualifying Amazon purchases.</span>
+        <span className="opacity-90 sm:hidden">We earn a commission on Amazon purchases.</span>
         <Link
           href="/affiliate-disclosure"
-          className="shrink-0 font-semibold text-white bg-white/20 hover:bg-white/30 px-2 py-0.5 rounded transition-colors"
+          className="shrink-0 font-semibold text-white bg-white/20 hover:bg-white/30 px-2 py-0.5 rounded transition-colors whitespace-nowrap"
         >
           Learn more
         </Link>
@@ -132,7 +131,7 @@ export function Header() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="lg:hidden border-t border-border bg-white overflow-y-auto max-h-[calc(100vh-4rem)]">
+        <div className="lg:hidden border-t border-border bg-white overflow-y-auto max-h-[calc(100svh-6rem)]">
           <nav className="max-w-7xl mx-auto px-4 py-3 flex flex-col gap-1">
             {mainNav.map((item) => (
               <div key={item.label}>

@@ -57,11 +57,11 @@ export function TrustStats() {
                 <div className="shrink-0 w-9 h-9 rounded-lg bg-brand-light flex items-center justify-center text-brand">
                   {stat.icon}
                 </div>
-                <div className="flex items-baseline gap-1.5 min-w-0">
-                  <span className="text-2xl font-bold text-ink tabular-nums tracking-tight leading-none">
+                <div className="flex flex-col gap-0.5 min-w-0">
+                  <span className="text-2xl font-bold text-ink tabular-nums tracking-tight leading-none whitespace-nowrap">
                     {stat.number}
                   </span>
-                  <span className="text-xs font-semibold text-ink-muted leading-none truncate">
+                  <span className="text-[11px] font-semibold text-ink-muted leading-none whitespace-nowrap">
                     {stat.unit}
                   </span>
                 </div>
