@@ -62,23 +62,38 @@ const navGroups = [
   },
 ];
 
-export function AdminSidebar() {
+interface AdminSidebarProps {
+  onClose?: () => void;
+}
+
+export function AdminSidebar({ onClose }: AdminSidebarProps = {}) {
   const pathname = usePathname();
 
   const isActive = (href: string, exact?: boolean) =>
     exact ? pathname === href : pathname === href || pathname.startsWith(href + "/") || (href !== "/admin" && pathname.startsWith(href));
 
   return (
-    <aside className="fixed inset-y-0 left-0 z-50 w-60 flex flex-col" style={{ background: "#0f172a" }}>
+    <aside className="w-60 h-full flex flex-col" style={{ background: "#0f172a" }}>
       {/* Logo */}
       <div className="flex items-center gap-3 px-4 py-4 border-b shrink-0" style={{ borderColor: "rgba(255,255,255,0.08)" }}>
         <div className="w-7 h-7 rounded-lg bg-blue-600 flex items-center justify-center shrink-0">
           <span className="text-white text-xs font-bold">SP</span>
         </div>
-        <div className="min-w-0">
+        <div className="min-w-0 flex-1">
           <p className="text-white text-sm font-bold tracking-tight truncate">SmartSpace Picks</p>
           <p className="text-[11px]" style={{ color: "rgba(255,255,255,0.38)" }}>Admin</p>
         </div>
+        {onClose && (
+          <button
+            onClick={onClose}
+            className="lg:hidden w-7 h-7 flex items-center justify-center rounded-md hover:bg-white/10 transition-colors shrink-0"
+            aria-label="Close navigation"
+          >
+            <svg className="w-4 h-4 text-white/60" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>
+          </button>
+        )}
       </div>
 
       {/* Navigation */}

@@ -36,9 +36,9 @@ export function CTAButton({
   };
 
   const sizes = {
-    sm: "px-4 py-2 text-sm",
-    md: "px-5 py-2.5 text-sm",
-    lg: "px-7 py-3.5 text-base",
+    sm: "px-4 py-2.5 text-sm min-h-[44px]",
+    md: "px-5 py-3 text-sm min-h-[44px]",
+    lg: "px-7 py-3.5 text-base min-h-[44px]",
   };
 
   return (

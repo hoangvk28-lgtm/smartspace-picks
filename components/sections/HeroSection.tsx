@@ -42,8 +42,8 @@ export async function HeroSection({ settings: propSettings }: Props = {}) {
       {/* Dark overlay to keep text readable */}
       <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, rgba(12,21,37,0.92) 0%, rgba(22,41,68,0.80) 55%, rgba(12,21,37,0.70) 100%)" }} aria-hidden="true" />
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-28">
-        <div className="grid grid-cols-1 lg:grid-cols-[1fr_400px] gap-12 items-center">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-14 lg:py-28">
+        <div className="flex flex-col lg:grid lg:grid-cols-[1fr_400px] gap-8 lg:gap-12 items-start lg:items-center">
 
           {/* ── Left column ── */}
           <div>
@@ -53,7 +53,7 @@ export async function HeroSection({ settings: propSettings }: Props = {}) {
             </div>
 
             <h1
-              className="text-4xl sm:text-5xl lg:text-[3.25rem] font-bold leading-[1.12] tracking-tight mb-5"
+              className="text-3xl sm:text-4xl lg:text-[3.25rem] font-bold leading-[1.12] tracking-tight mb-5"
               style={{ color: "#ffffff", textShadow: "0 1px 8px rgba(0,0,0,0.45)" }}
             >
               {hero.headline}{" "}
@@ -66,7 +66,7 @@ export async function HeroSection({ settings: propSettings }: Props = {}) {
               {hero.subtitle}
             </p>
 
-            <div className="flex flex-wrap gap-3 mb-10">
+            <div className="flex flex-col sm:flex-row gap-3 mb-10">
               <Link
                 href={hero.primaryCtaHref}
                 className="inline-flex items-center gap-2 px-6 py-3.5 font-semibold rounded-btn text-sm transition-all"
@@ -98,7 +98,7 @@ export async function HeroSection({ settings: propSettings }: Props = {}) {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="text-xs px-3 py-1.5 rounded-badge font-medium transition-all hover:bg-blue-500 hover:text-white hover:border-blue-500"
+                  className="text-xs px-3 py-2.5 rounded-badge font-medium transition-all hover:bg-blue-500 hover:text-white hover:border-blue-500 min-h-[44px] flex items-center"
                   style={{ background: "rgba(255,255,255,0.11)", color: "rgba(255,255,255,0.82)", border: "1px solid rgba(255,255,255,0.18)" }}
                 >
                   {link.label}
@@ -112,7 +112,7 @@ export async function HeroSection({ settings: propSettings }: Props = {}) {
           </div>
 
           {/* ── Right column — Top Picks card ── */}
-          <div className="hidden lg:block">
+          <div className="block w-full lg:w-auto mt-2 lg:mt-0">
             <div
               className="rounded-2xl overflow-hidden"
               style={{ background: "rgba(255,255,255,0.08)", border: "1px solid rgba(255,255,255,0.18)", backdropFilter: "blur(16px)", WebkitBackdropFilter: "blur(16px)" }}
