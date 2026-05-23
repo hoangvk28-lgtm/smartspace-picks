@@ -63,7 +63,13 @@ export function RichTextEditor({
         heading: { levels: [2, 3] },
       }),
       Underline,
-      Link.configure({ openOnClick: false }),
+      Link.configure({
+        openOnClick: true,
+        HTMLAttributes: {
+          target: "_blank",
+          rel: "noopener noreferrer",
+        },
+      }),
       Image,
       TextAlign.configure({ types: ["heading", "paragraph"] }),
       Highlight.configure({ multicolor: false }),

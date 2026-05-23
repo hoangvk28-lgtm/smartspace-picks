@@ -8,6 +8,7 @@ import { GuideRecommendationBox } from "@/components/product/GuideRecommendation
 import { GuideComparisonTable } from "@/components/product/GuideComparisonTable";
 import { AffiliateDisclosureBar } from "@/components/affiliate/AffiliateDisclosureBar";
 import { Badge } from "@/components/ui/Badge";
+import { RichContent } from "@/components/ui/RichContent";
 import { MobileStickyPicksCTA } from "@/components/sections/MobileStickyPicksCTA";
 import { getPublicGuideBySlug, getPublicGuideSlugs, getRelatedPublicGuides } from "@/lib/public-guides";
 import { getPublicProducts } from "@/lib/public-products";
@@ -284,7 +285,7 @@ export default async function BuyingGuidePage({ params }: Props) {
           <div className="prose max-w-3xl mb-10">
             <h2>{introSection.heading}</h2>
             {introSection.body.trim().startsWith("<") ? (
-              <div dangerouslySetInnerHTML={{ __html: introSection.body }} className="prose max-w-none" />
+              <RichContent html={introSection.body} />
             ) : (
               introSection.body.split("\n\n").map((para, i) => (
                 <p key={i}>{para}</p>
@@ -319,7 +320,7 @@ export default async function BuyingGuidePage({ params }: Props) {
               <div key={section.heading} className="prose max-w-3xl mb-10">
                 <h2>{section.heading}</h2>
                 {section.body.trim().startsWith("<") ? (
-                  <div dangerouslySetInnerHTML={{ __html: section.body }} className="prose max-w-none" />
+                  <RichContent html={section.body} />
                 ) : (
                   section.body.split("\n\n").map((para, i) => (
                     <p key={i}>{para}</p>
@@ -361,7 +362,7 @@ export default async function BuyingGuidePage({ params }: Props) {
             <div className="prose mt-8">
               <h3>{methodologySection.heading}</h3>
               {methodologySection.body.trim().startsWith("<") ? (
-                <div dangerouslySetInnerHTML={{ __html: methodologySection.body }} className="prose max-w-none" />
+                <RichContent html={methodologySection.body} />
               ) : (
                 methodologySection.body.split("\n\n").map((para, i) => (
                   <p key={i}>{para}</p>
