@@ -33,11 +33,10 @@ export function Header() {
           aria-label="SmartSpace Picks — Home"
         >
           <Image
-            src="/logo-deskfinds.svg"
+            src="/logo-deskfinds-official.png"
             alt="DeskFinds"
             width={240}
             height={64}
-            unoptimized
             className="h-12 w-auto object-contain
               transition-all duration-300 ease-out
               group-hover:scale-105 group-hover:drop-shadow-[0_0_12px_rgba(37,99,235,0.5)]

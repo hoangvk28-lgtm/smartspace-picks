@@ -32,11 +32,10 @@ export async function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="inline-block mb-4">
               <Image
-                src="/logo-deskfinds.svg"
+                src="/logo-deskfinds-official.png"
                 alt="DeskFinds"
                 width={200}
                 height={54}
-                unoptimized
                 className="h-10 w-auto object-contain brightness-0 invert opacity-90 hover:opacity-100 transition-opacity"
               />
             </Link>
