@@ -33,15 +33,15 @@ export default async function ComparePage() {
 
       {/* Jump links */}
       <div className="flex flex-wrap gap-3 mb-8 text-sm">
-        <a href=”#table” className=”text-brand font-medium hover:text-brand-dark transition-colors”>
+        <a href="#table" className="text-brand font-medium hover:text-brand-dark transition-colors">
           ↓ Comparison table
         </a>
-        <span className=”text-border”>·</span>
-        <a href=”#cards” className=”text-brand font-medium hover:text-brand-dark transition-colors”>
+        <span className="text-border">·</span>
+        <a href="#cards" className="text-brand font-medium hover:text-brand-dark transition-colors">
           ↓ Product cards
         </a>
-        <span className=”text-border”>·</span>
-        <a href=”/how-we-review” className=”text-ink-muted hover:text-brand transition-colors”>
+        <span className="text-border">·</span>
+        <a href="/how-we-review" className="text-ink-muted hover:text-brand transition-colors">
           How we score →
         </a>
       </div>
