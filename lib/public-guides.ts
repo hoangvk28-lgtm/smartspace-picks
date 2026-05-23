@@ -85,8 +85,11 @@ export async function getPublicGuides(): Promise<PublicGuide[]> {
 
     if (error) throw error;
     const dbGuides = (data as GuideRow[]).map(rowToPublicGuide);
-    // If DB is empty (not yet seeded), fall back to static data
-    return dbGuides.length > 0 ? dbGuides : staticGuides;
+    // Merge: static guides as baseline, DB guides override by slug
+    // This ensures static content always shows alongside admin-created content
+    const dbSlugSet = new Set(dbGuides.map((g) => g.slug));
+    const staticOnly = staticGuides.filter((g) => !dbSlugSet.has(g.slug));
+    return [...dbGuides, ...staticOnly];
   } catch (e) {
     console.warn("[public-guides] Supabase query failed — falling back to static data:", e);
     return staticGuides;

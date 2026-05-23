@@ -81,8 +81,10 @@ export async function getPublicProducts(): Promise<Product[]> {
 
     if (error) throw error;
     const dbProducts = (data as ProductRow[]).map(rowToProduct);
-    // If DB is configured but not yet seeded, fall back to static data
-    return dbProducts.length > 0 ? dbProducts : staticProducts;
+    // Merge: static products as baseline, DB products override by slug
+    const dbSlugSet = new Set(dbProducts.map((p) => p.slug));
+    const staticOnly = staticProducts.filter((p) => !dbSlugSet.has(p.slug));
+    return [...dbProducts, ...staticOnly];
   } catch (e) {
     console.warn("[public-products] Supabase query failed — falling back to static data:", e);
     return staticProducts;
