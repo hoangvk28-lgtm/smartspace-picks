@@ -13,13 +13,16 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-border shadow-sm">
       {/* Top bar */}
-      <div className="bg-brand text-ink-inverse text-xs py-1.5 text-center px-4">
-        <span className="opacity-90">
-          SmartSpace Picks earns a commission on qualifying Amazon purchases.{" "}
-          <Link href="/affiliate-disclosure" className="underline underline-offset-2 opacity-80 hover:opacity-100">
-            Learn more
-          </Link>
+      <div className="bg-brand text-ink-inverse text-xs py-1.5 px-4 flex items-center justify-center gap-2 whitespace-nowrap overflow-hidden">
+        <span className="opacity-90 truncate">
+          SmartSpace Picks earns a commission on qualifying Amazon purchases.
         </span>
+        <Link
+          href="/affiliate-disclosure"
+          className="shrink-0 font-semibold text-white bg-white/20 hover:bg-white/30 px-2 py-0.5 rounded transition-colors"
+        >
+          Learn more
+        </Link>
       </div>
 
       {/* Main header */}
