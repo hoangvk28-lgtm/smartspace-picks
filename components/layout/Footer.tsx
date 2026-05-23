@@ -36,6 +36,7 @@ export async function Footer() {
                 alt="DeskFinds"
                 width={200}
                 height={54}
+                unoptimized
                 className="h-10 w-auto object-contain opacity-90 hover:opacity-100 transition-opacity"
               />
             </Link>
