@@ -34,9 +34,9 @@ export async function Footer() {
               <Image
                 src="/logo-deskfinds-official.png"
                 alt="DeskFinds"
-                width={200}
-                height={54}
-                className="h-10 w-auto object-contain brightness-0 invert opacity-90 hover:opacity-100 transition-opacity"
+                width={280}
+                height={76}
+                className="h-16 w-auto object-contain brightness-0 invert opacity-90 hover:opacity-100 transition-opacity"
               />
             </Link>
             <p className="text-sm text-ink-inverse/75 leading-relaxed max-w-xs">
