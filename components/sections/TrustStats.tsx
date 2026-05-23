@@ -37,11 +37,15 @@ const stats = [
     number: "5",
     unit: "scoring criteria",
     icon: (
-      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
-      </svg>
+      <Image
+        src="/images/icons/scoring-criteria-icon.webp"
+        alt="3D scoring criteria icon representing evaluation methodology"
+        width={64}
+        height={64}
+        className="object-contain"
+      />
     ),
-    iconSize: "w-9 h-9",
+    iconSize: "w-16 h-16",
     label: "Tuned for small-space fit",
     description: "Space fit, build quality, ease of use, value, and buyer feedback — all weighted for compact living.",
   },
@@ -49,11 +53,15 @@ const stats = [
     number: "1–10",
     unit: "score scale",
     icon: (
-      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M12 3c2.755 0 5.455.232 8.083.678.533.09.917.556.917 1.096v1.044a2.25 2.25 0 0 1-.659 1.591l-5.432 5.432a2.25 2.25 0 0 0-.659 1.591v2.927a2.25 2.25 0 0 1-1.244 2.013L9.75 21v-6.568a2.25 2.25 0 0 0-.659-1.591L3.659 7.409A2.25 2.25 0 0 1 3 5.818V4.774c0-.54.384-1.006.917-1.096A48.32 48.32 0 0 1 12 3Z" />
-      </svg>
+      <Image
+        src="/images/icons/score-scale-icon.webp"
+        alt="3D score scale icon representing consistent 1-10 scoring"
+        width={64}
+        height={64}
+        className="object-contain"
+      />
     ),
-    iconSize: "w-9 h-9",
+    iconSize: "w-16 h-16",
     label: "Consistent across all products",
     description: "The same rubric for every product we evaluate — so scores are genuinely comparable across guides.",
   },
