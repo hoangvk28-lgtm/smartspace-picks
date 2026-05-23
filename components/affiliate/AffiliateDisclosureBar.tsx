@@ -19,12 +19,12 @@ export function AffiliateDisclosureBar({
     return (
       <div
         className={clsx(
-          "flex items-center gap-2 px-3 py-2 bg-brand-light border border-brand-muted rounded-lg w-full overflow-hidden",
+          "flex items-start gap-2 px-3 py-2 bg-brand-light border border-brand-muted rounded-lg w-full",
           className
         )}
       >
         <svg
-          className="w-3.5 h-3.5 text-brand shrink-0"
+          className="w-3.5 h-3.5 text-brand shrink-0 mt-0.5"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -33,16 +33,16 @@ export function AffiliateDisclosureBar({
         >
           <path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
-        <span className="text-xs font-semibold text-brand shrink-0">Affiliate Disclosure:</span>
-        <span className="text-xs text-brand truncate flex-1 min-w-0">
-          We may earn a small commission on qualifying Amazon purchases at no extra cost to you.
-        </span>
-        <Link
-          href="/affiliate-disclosure"
-          className="shrink-0 text-xs font-semibold text-brand underline underline-offset-2 hover:no-underline whitespace-nowrap ml-1"
-        >
-          Full disclosure →
-        </Link>
+        <p className="text-xs text-brand leading-relaxed flex-1 min-w-0">
+          <span className="font-semibold">Affiliate Disclosure:</span>{" "}
+          We may earn a small commission on qualifying Amazon purchases at no extra cost to you.{" "}
+          <Link
+            href="/affiliate-disclosure"
+            className="font-semibold underline underline-offset-2 hover:no-underline whitespace-nowrap"
+          >
+            Full disclosure →
+          </Link>
+        </p>
       </div>
     );
   }
