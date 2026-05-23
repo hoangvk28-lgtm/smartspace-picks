@@ -56,7 +56,7 @@ export default async function HomePage() {
 
   const disclosureBannerText =
     affiliateSettings.disclosureBannerText ||
-    "We may earn a commission when you buy through Amazon links. Our recommendations are based on product specs, buyer feedback, use cases, and clear comparison criteria.";
+    "We may earn a small commission on qualifying Amazon purchases at no extra cost to you. Recommendations are based on product specs, buyer feedback, and clear comparison criteria.";
 
   return (
     <>
