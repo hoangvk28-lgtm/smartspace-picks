@@ -51,7 +51,7 @@ const articleSchema = {
   description: guideDescription,
   datePublished: lastUpdated,
   dateModified: lastUpdated,
-  author: { "@type": "Organization", name: "DeskFinds Editorial Team" },
+  author: { "@type": "Organization", name: "DeskFinds Editorial Team", url: `${SITE_URL}/author/deskfinds-editorial-team` },
   publisher: { "@type": "Organization", name: "DeskFinds", url: SITE_URL },
   mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/guide/best-tablet-stands-for-bed` },
   image: heroImage,
@@ -126,7 +126,9 @@ export default function BestTabletStandsForBedPage() {
           <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5 text-sm text-ink-muted pb-5 border-b border-border">
             <span className="flex items-center gap-1.5">
               <svg className="w-3.5 h-3.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" /></svg>
-              DeskFinds Editorial Team
+              <Link href="/author/deskfinds-editorial-team" className="hover:text-ink hover:underline transition-colors">
+                DeskFinds Editorial Team
+              </Link>
             </span>
             <span aria-hidden="true">·</span>
             <span className="flex items-center gap-1.5">
