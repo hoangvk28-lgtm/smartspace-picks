@@ -13,9 +13,9 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-border shadow-sm">
       {/* Top bar */}
-      <div className="bg-brand text-ink-inverse text-xs py-1.5 px-4 flex items-center justify-center gap-2 overflow-hidden">
+      <div className="bg-brand text-ink-inverse text-xs py-1.5 px-4 flex items-center justify-center gap-2">
         <span className="opacity-90 hidden sm:inline">DeskFinds earns a commission on qualifying Amazon purchases.</span>
-        <span className="opacity-90 sm:hidden">We earn a commission on Amazon purchases.</span>
+        <span className="opacity-90 sm:hidden text-[10px] leading-tight">DeskFinds earns a commission on Amazon purchases.</span>
         <Link
           href="/affiliate-disclosure"
           className="shrink-0 font-semibold text-white bg-white/20 hover:bg-white/30 px-2 py-0.5 rounded transition-colors whitespace-nowrap"
