@@ -55,7 +55,26 @@ export const guides: Guide[] = [
     recommendedProductIds: [],
     sections: [],
     faq: [],
-    relatedGuideSlugs: ["desk-lamps-small-desks", "monitor-stands-small-desks", "laptop-stands-small-desks"],
+    relatedGuideSlugs: ["best-tablet-stands-for-bed", "best-tablet-stands-for-desk", "desk-lamps-small-desks"],
+  },
+  {
+    title: "Best Tablet Stands for Bed: Pillow, Gooseneck & Lap Picks",
+    slug: "best-tablet-stands-for-bed",
+    categorySlug: "desk-setup",
+    subcategorySlug: "tablet-stands",
+    description:
+      "Compare the best tablet stands for bed, including pillow stands, gooseneck holders, lap stands, and adjustable options for reading, streaming, and hands-free use.",
+    mainKeyword: "best tablet stands for bed",
+    subKeywords: ["tablet pillow stand", "gooseneck tablet holder for bed", "tablet stand lap", "tablet holder bed"],
+    heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-tablet-stands-for-bed/hero.jpg",
+    thumbnailImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-tablet-stands-for-bed/hero.jpg",
+    lastUpdated: "2026-05-24",
+    author: "DeskFinds Editorial Team",
+    readTime: "7 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: ["best-tablet-stands", "best-tablet-stands-for-desk", "dorm-essentials"],
   },
 
   {
