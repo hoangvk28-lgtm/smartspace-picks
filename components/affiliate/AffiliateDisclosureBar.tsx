@@ -33,12 +33,12 @@ export function AffiliateDisclosureBar({
         >
           <path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
-        <p className="text-xs text-brand leading-none flex-1 min-w-0 whitespace-nowrap overflow-hidden text-ellipsis">
+        <p className="text-xs text-brand leading-relaxed flex-1 min-w-0">
           <span className="font-semibold">Affiliate Disclosure:</span>{" "}
           We may earn a small commission on qualifying Amazon purchases at no extra cost to you.{" "}
           <Link
             href="/affiliate-disclosure"
-            className="font-semibold underline underline-offset-2 hover:no-underline"
+            className="font-semibold underline underline-offset-2 hover:no-underline whitespace-nowrap"
           >
             Full disclosure →
           </Link>
