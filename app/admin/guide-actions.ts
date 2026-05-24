@@ -1,4 +1,4 @@
-"use server";
+﻿"use server";
 
 import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
@@ -110,7 +110,7 @@ function revalidateAll(id?: string) {
   revalidatePath("/admin/guides");
   if (id) revalidatePath(`/admin/guides/${id}/edit`);
   // Public guide pages
-  revalidatePath("/best", "layout");
+  revalidatePath("/guide", "layout");
   revalidatePath("/", "layout");
   revalidatePath("/categories", "layout");
 }

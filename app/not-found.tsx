@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { categories } from "@/data/categories";
 
 const quickLinks = [
@@ -7,7 +7,7 @@ const quickLinks = [
   { label: "Small Room Storage", href: "/categories/small-room-storage", emoji: "📦" },
   { label: "Compare All Products", href: "/compare", emoji: "⚖️" },
   { label: "Today's Deals", href: "/deals", emoji: "🔥" },
-  { label: "Buying Guides", href: "/best", emoji: "📖" },
+  { label: "Buying Guides", href: "/guide", emoji: "📖" },
 ];
 
 export default function NotFound() {

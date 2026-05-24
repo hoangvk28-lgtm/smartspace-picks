@@ -11,7 +11,7 @@ export const metadata: Metadata = buildMetadata({
   title: "All Buying Guides – Best Small Space Products",
   description:
     "All our buying guides for small rooms, dorm setups, compact desks, and home offices. Top picks for students and small-space dwellers.",
-  path: "/best",
+  path: "/guide",
 });
 
 export default async function BuyingGuidesIndexPage() {
@@ -30,7 +30,7 @@ export default async function BuyingGuidesIndexPage() {
         {guides.map((guide) => (
           <Link
             key={guide.slug}
-            href={`/best/${guide.slug}`}
+            href={`/guide/${guide.slug}`}
             className="group flex flex-col gap-3 p-5 bg-white rounded-card border border-border hover:shadow-card-hover hover:border-brand/20 transition-all"
           >
             {/* Category + meta */}

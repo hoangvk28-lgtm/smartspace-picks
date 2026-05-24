@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import Image from "next/image";
 import type { Guide } from "@/data/guides";
 import { categories } from "@/data/categories";
@@ -23,7 +23,7 @@ export function FeaturedGuides({
         eyebrow="Buying Guides"
         title={title}
         description="Carefully evaluated product comparisons for small-space living — no padding, just our honest picks."
-        href={showAll ? "/best" : undefined}
+        href={showAll ? "/guide" : undefined}
         hrefLabel="View all guides"
       />
 
@@ -51,7 +51,7 @@ function GuideCard({
 
   return (
     <Link
-      href={`/best/${guide.slug}`}
+      href={`/guide/${guide.slug}`}
       className="group flex flex-col gap-4 bg-white rounded-card border border-border border-t-4 border-t-transparent overflow-hidden hover:shadow-card-hover transition-all"
       style={{ borderTopColor: categoryColor }}
     >

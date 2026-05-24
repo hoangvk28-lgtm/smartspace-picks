@@ -1,4 +1,4 @@
-import { isSupabaseConfigured } from "@/lib/supabase/server";
+﻿import { isSupabaseConfigured } from "@/lib/supabase/server";
 import type {
   HomepageSettings,
   GlobalSettings,
@@ -16,7 +16,7 @@ export const DEFAULT_HOMEPAGE_SETTINGS: HomepageSettings = {
     subtitle:
       "Find practical, space-saving products for dorm rooms, study desks, small apartments, and compact home offices.",
     primaryCtaText: "Explore Buying Guides",
-    primaryCtaHref: "/best",
+    primaryCtaHref: "/guide",
     secondaryCtaText: "How We Review",
     secondaryCtaHref: "/how-we-review",
     searchPlaceholder: "What are you looking for? Desk lamps, storage carts, laptop stands…",

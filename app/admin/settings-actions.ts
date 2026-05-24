@@ -1,4 +1,4 @@
-"use server";
+﻿"use server";
 
 import { revalidatePath } from "next/cache";
 import { requireAdminSession } from "@/lib/admin-auth";
@@ -20,7 +20,7 @@ export interface SettingsFormState {
 
 function revalidateAll() {
   revalidatePath("/", "layout");
-  revalidatePath("/best", "layout");
+  revalidatePath("/guide", "layout");
   revalidatePath("/deals");
   revalidatePath("/categories", "layout");
   revalidatePath("/admin/settings");

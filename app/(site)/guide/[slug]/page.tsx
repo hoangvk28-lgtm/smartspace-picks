@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const base = buildMetadata({
     title: guide.metaTitle ?? guide.title,
     description: guide.metaDescription ?? guide.description,
-    path: `/best/${slug}`,
+    path: `/guide/${slug}`,
     image: heroImage,
     type: "article",
   });
@@ -145,7 +145,7 @@ export default async function BuyingGuidePage({ params }: Props) {
     dateModified: guide.lastUpdated,
     author: { "@type": "Organization", name: guide.author },
     publisher: { "@type": "Organization", name: "DeskFinds", url: SITE_URL },
-    mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/best/${slug}` },
+    mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/guide/${slug}` },
     ...(guide.heroImage && guide.heroImage.startsWith("http")
       ? { image: guide.heroImage }
       : {}),
@@ -156,8 +156,8 @@ export default async function BuyingGuidePage({ params }: Props) {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/best` },
-      { "@type": "ListItem", position: 3, name: guide.title, item: `${SITE_URL}/best/${slug}` },
+      { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
+      { "@type": "ListItem", position: 3, name: guide.title, item: `${SITE_URL}/guide/${slug}` },
     ],
   };
 
@@ -210,7 +210,7 @@ export default async function BuyingGuidePage({ params }: Props) {
         {/* ── 1. Breadcrumbs ──────────────────────────────────────────── */}
         <Breadcrumbs
           crumbs={[
-            { label: "Buying Guides", href: "/best" },
+            { label: "Buying Guides", href: "/guide" },
             { label: guide.title },
           ]}
         />
@@ -494,7 +494,7 @@ export default async function BuyingGuidePage({ params }: Props) {
               {relatedGuides.map((related) => (
                 <Link
                   key={related.slug}
-                  href={`/best/${related.slug}`}
+                  href={`/guide/${related.slug}`}
                   className="group flex flex-col gap-2 p-4 bg-white rounded-card border border-border hover:border-brand/30 hover:shadow-card transition-all"
                 >
                   <span className="text-xs font-semibold text-brand uppercase tracking-wide">

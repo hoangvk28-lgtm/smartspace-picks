@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { getAllGuides, type StoredGuide } from "@/lib/guides-store";
 import { isSupabaseConfigured } from "@/lib/supabase/server";
 import { categories } from "@/data/categories";
@@ -151,7 +151,7 @@ export default async function AdminGuidesPage({ searchParams }: PageProps) {
                       <tr key={guide.id} className="hover:bg-gray-50 transition-colors">
                         <td className="px-4 py-3.5">
                           <p className="text-sm font-semibold text-gray-900 leading-snug line-clamp-1">{guide.title}</p>
-                          <p className="text-xs text-gray-400 mt-0.5 font-mono">/best/{guide.slug}</p>
+                          <p className="text-xs text-gray-400 mt-0.5 font-mono">/guide/{guide.slug}</p>
                         </td>
                         <td className="px-4 py-3.5 hidden md:table-cell">
                           <p className="text-xs text-gray-600 capitalize">{guide.categorySlug.replace(/-/g, " ")}</p>
@@ -179,7 +179,7 @@ export default async function AdminGuidesPage({ searchParams }: PageProps) {
                         <td className="px-4 py-3.5 text-right">
                           <div className="flex items-center justify-end gap-2">
                             <a
-                              href={`/best/${guide.slug}`}
+                              href={`/guide/${guide.slug}`}
                               target="_blank"
                               rel="noopener noreferrer"
                               className="text-xs text-gray-400 hover:text-blue-600 transition-colors"

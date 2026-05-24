@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { Container } from "@/components/layout/Container";
@@ -20,7 +20,7 @@ import {
 export const metadata: Metadata = buildMetadata({
   title: guideTitle,
   description: guideDescription,
-  path: "/best/best-tablet-stands",
+  path: "/guide/best-tablet-stands",
   image: heroImage,
   type: "article",
 });
@@ -34,7 +34,7 @@ export default function BestTabletStandsPage() {
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
           <Link href="/" className="hover:text-brand transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/best" className="hover:text-brand transition-colors">Buying Guides</Link>
+          <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
           <span className="text-ink">Best Tablet Stands</span>
         </nav>
@@ -298,9 +298,9 @@ export default function BestTabletStandsPage() {
           <h2 className="text-lg font-bold text-ink mb-4 tracking-tight">Related Buying Guides</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
             {[
-              { href: "/best/desk-lamps-small-desks", title: "Best Desk Lamps for Small Desks", label: "Desk Setup" },
-              { href: "/best/monitor-stands-small-desks", title: "Best Monitor Stands for Small Desks", label: "Desk Setup" },
-              { href: "/best/laptop-stands-small-desks", title: "Best Laptop Stands for Small Desks", label: "Desk Setup" },
+              { href: "/guide/desk-lamps-small-desks", title: "Best Desk Lamps for Small Desks", label: "Desk Setup" },
+              { href: "/guide/monitor-stands-small-desks", title: "Best Monitor Stands for Small Desks", label: "Desk Setup" },
+              { href: "/guide/laptop-stands-small-desks", title: "Best Laptop Stands for Small Desks", label: "Desk Setup" },
             ].map((g) => (
               <Link
                 key={g.href}

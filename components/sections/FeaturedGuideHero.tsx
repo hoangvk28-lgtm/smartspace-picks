@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import Image from "next/image";
 import type { Guide } from "@/data/guides";
 import type { Product } from "@/data/products";
@@ -89,7 +89,7 @@ export function FeaturedGuideHero({ guide, products }: FeaturedGuideHeroProps) {
 
           <div className="flex flex-wrap gap-3 pt-2">
             <Link
-              href={`/best/${guide.slug}`}
+              href={`/guide/${guide.slug}`}
               className="inline-flex items-center gap-2 px-6 py-3 bg-brand text-white font-semibold rounded-btn hover:bg-brand-dark transition-colors text-sm"
             >
               Read Full Guide

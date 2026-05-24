@@ -1,4 +1,4 @@
-export interface NavItem {
+﻿export interface NavItem {
   label: string;
   href: string;
   children?: { label: string; href: string; description?: string }[];
@@ -18,14 +18,14 @@ export const mainNav: NavItem[] = [
   },
   {
     label: "Buying Guides",
-    href: "/best",
+    href: "/guide",
     children: [
-      { label: "Best Desk Lamps", href: "/best/desk-lamps-small-desks", description: "Top picks for small desks" },
-      { label: "Best Monitor Stands", href: "/best/monitor-stands-small-desks", description: "Save desk space" },
-      { label: "Best Laptop Stands", href: "/best/laptop-stands-small-desks", description: "Comfort & portability" },
-      { label: "Best Cable Organizers", href: "/best/cable-management-dorm", description: "Dorm-room approved" },
-      { label: "Best Bedside Caddies", href: "/best/bedside-caddies-students", description: "College essentials" },
-      { label: "Best Under-Bed Storage", href: "/best/under-bed-storage-small-rooms", description: "Double your floor space" },
+      { label: "Best Desk Lamps", href: "/guide/desk-lamps-small-desks", description: "Top picks for small desks" },
+      { label: "Best Monitor Stands", href: "/guide/monitor-stands-small-desks", description: "Save desk space" },
+      { label: "Best Laptop Stands", href: "/guide/laptop-stands-small-desks", description: "Comfort & portability" },
+      { label: "Best Cable Organizers", href: "/guide/cable-management-dorm", description: "Dorm-room approved" },
+      { label: "Best Bedside Caddies", href: "/guide/bedside-caddies-students", description: "College essentials" },
+      { label: "Best Under-Bed Storage", href: "/guide/under-bed-storage-small-rooms", description: "Double your floor space" },
     ],
   },
   { label: "Compare", href: "/compare" },

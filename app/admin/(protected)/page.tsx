@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { AdminStatCard, AdminCard } from "@/components/admin/AdminCard";
 import { AdminStatusBadge } from "@/components/admin/AdminStatusBadge";
 import { getDashboardData } from "@/lib/admin-dashboard-store";
@@ -14,7 +14,7 @@ const SEVERITY_STYLES = {
 
 const TYPE_STYLES = {
   product: { color: "text-blue-600", bg: "bg-blue-50", label: "Product", previewBase: "/reviews" },
-  guide: { color: "text-violet-600", bg: "bg-violet-50", label: "Guide", previewBase: "/best" },
+  guide: { color: "text-violet-600", bg: "bg-violet-50", label: "Guide", previewBase: "/guide" },
   deal: { color: "text-amber-600", bg: "bg-amber-50", label: "Deal", previewBase: "/deals" },
   media: { color: "text-cyan-600", bg: "bg-cyan-50", label: "Media", previewBase: "" },
 };
@@ -59,7 +59,7 @@ export default async function AdminDashboardPage() {
           { href: "/admin/deals/new", label: "Add Deal", color: "bg-amber-50 text-amber-700 hover:bg-amber-100" },
           { href: "/admin/media", label: "Upload Media", color: "bg-cyan-50 text-cyan-700 hover:bg-cyan-100" },
           { href: "/admin/settings", label: "Edit Homepage", color: "bg-emerald-50 text-emerald-700 hover:bg-emerald-100" },
-          { href: "/best", label: "View Guides", color: "bg-surface text-ink-secondary hover:bg-border", external: true },
+          { href: "/guide", label: "View Guides", color: "bg-surface text-ink-secondary hover:bg-border", external: true },
         ].map((item) => (
           item.external ? (
             <a key={item.href} href={item.href} target="_blank" rel="noopener noreferrer" className={`flex items-center justify-center px-3 py-3 rounded-lg text-xs font-semibold text-center transition-colors ${item.color}`}>
@@ -140,7 +140,7 @@ export default async function AdminDashboardPage() {
             <div className="space-y-1">
               {[
                 { href: "/", label: "Homepage" },
-                { href: "/best", label: "All Guides" },
+                { href: "/guide", label: "All Guides" },
                 { href: "/deals", label: "Deals Page" },
                 { href: "/compare", label: "Compare Tool" },
                 { href: "/categories/desk-setup", label: "Desk Setup Category" },

@@ -225,7 +225,7 @@ export default async function DealsPage() {
             {featuredGuides.map((guide) => (
               <Link
                 key={guide.slug}
-                href={`/best/${guide.slug}`}
+                href={`/guide/${guide.slug}`}
                 className="group flex flex-col gap-2 p-4 rounded-card border border-border bg-white hover:border-brand/40 hover:shadow-sm transition-all"
               >
                 <div className="flex items-start justify-between gap-2">
@@ -247,7 +247,7 @@ export default async function DealsPage() {
 
           <div className="mt-6 text-center">
             <Link
-              href="/best"
+              href="/guide"
               className="inline-flex items-center gap-1 text-sm font-semibold text-brand hover:text-brand-dark transition-colors"
             >
               View all buying guides →

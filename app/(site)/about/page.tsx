@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
 import { buildMetadata } from "@/lib/seo";
@@ -172,7 +172,7 @@ export default function AboutPage() {
               {guides.map((guide) => (
                 <li key={guide.slug}>
                   <Link
-                    href={`/best/${guide.slug}`}
+                    href={`/guide/${guide.slug}`}
                     className="text-sm text-brand hover:text-brand-dark font-medium transition-colors"
                   >
                     {guide.title} →

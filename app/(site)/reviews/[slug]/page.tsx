@@ -575,7 +575,7 @@ export default async function ProductReviewPage({ params }: Props) {
                 guide && (
                   <Link
                     key={guide.slug}
-                    href={`/best/${guide.slug}`}
+                    href={`/guide/${guide.slug}`}
                     className="group flex items-center justify-between p-4 bg-white rounded-lg border border-border hover:border-brand/30 hover:shadow-card transition-all"
                   >
                     <div>

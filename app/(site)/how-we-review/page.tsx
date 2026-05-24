@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
 import { buildMetadata } from "@/lib/seo";
@@ -255,7 +255,7 @@ export default function HowWeReviewPage() {
             {guides.map((guide) => (
               <Link
                 key={guide.slug}
-                href={`/best/${guide.slug}`}
+                href={`/guide/${guide.slug}`}
                 className="px-3 py-1.5 rounded-full border border-border bg-white text-sm text-ink-secondary hover:border-brand hover:text-brand transition-colors"
               >
                 {guide.title}
