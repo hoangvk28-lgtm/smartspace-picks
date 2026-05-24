@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/seo";
 import { categories } from "@/data/categories";
 import { getPublicProducts } from "@/lib/public-products";
 
-export const revalidate = 60;
+export const revalidate = 3600;
 
 export const metadata: Metadata = buildMetadata({
   title: "All Categories – Small Space Products",
