@@ -82,6 +82,7 @@ export function GuideForm({ action, guide, mode, products }: GuideFormProps) {
   const [faqCount, setFaqCount] = useState(initFaqCount);
   const [heroImageUrl, setHeroImageUrl] = useState(guide?.heroImage ?? "");
   const [heroImageAlt, setHeroImageAlt] = useState(guide?.heroImageAlt ?? "");
+  const [thumbnailUrl, setThumbnailUrl] = useState(guide?.thumbnailImage ?? "");
 
   const submitButton = (
     <div className="flex items-center gap-3">
@@ -317,6 +318,33 @@ export function GuideForm({ action, guide, mode, products }: GuideFormProps) {
           {heroImageUrl && (
             // eslint-disable-next-line @next/next/no-img-element
             <img src={heroImageUrl} alt="Preview" className="h-20 w-auto object-cover rounded-lg border border-border mt-1" />
+          )}
+        </div>
+      </AdminCard>
+
+      {/* Section C2: Thumbnail Image */}
+      <AdminCard>
+        <h2 className="text-base font-semibold text-gray-900 mb-1">Thumbnail Image</h2>
+        <p className="text-xs text-gray-500 mb-4">Shown on guide listing cards. If left empty, the Hero Image above will be used instead.</p>
+        <div className="space-y-3">
+          <AdminFormField label="Thumbnail URL" htmlFor="thumbnailImage" error={fe.thumbnailImage}>
+            <input
+              id="thumbnailImage"
+              name="thumbnailImage"
+              type="text"
+              className={inputClass}
+              value={thumbnailUrl}
+              onChange={(e) => setThumbnailUrl(e.target.value)}
+              placeholder="https://… (leave empty to use Hero Image)"
+            />
+          </AdminFormField>
+          <MediaSelector
+            folder="guides"
+            onSelect={(url) => setThumbnailUrl(url)}
+          />
+          {thumbnailUrl && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img src={thumbnailUrl} alt="Thumbnail preview" className="h-20 w-auto object-cover rounded-lg border border-border mt-1" />
           )}
         </div>
       </AdminCard>

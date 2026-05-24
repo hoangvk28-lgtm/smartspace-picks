@@ -19,6 +19,7 @@ export interface Guide {
   mainKeyword: string;
   subKeywords: string[];
   heroImage: string;
+  thumbnailImage?: string;
   lastUpdated: string;
   author: string;
   readTime: string;
@@ -31,6 +32,32 @@ export interface Guide {
 // ─── Data ─────────────────────────────────────────────────────────────────────
 
 export const guides: Guide[] = [
+  {
+    title: "10 Best Tablet Stands for Desk, Bed, Drawing & Everyday Use (2026)",
+    slug: "best-tablet-stands",
+    categorySlug: "desk-setup",
+    subcategorySlug: "tablet-stands",
+    description:
+      "We compared 10 tablet stands across price, stability, adjustability, and real-world use cases — from ultra-budget foldable picks to heavy-duty aluminum builds. Here are the ones worth buying.",
+    mainKeyword: "best tablet stands",
+    subKeywords: [
+      "best tablet stand for desk",
+      "foldable tablet stand",
+      "aluminum tablet stand",
+      "tablet stand for drawing",
+      "tablet floor stand",
+    ],
+    heroImage: "https://m.media-amazon.com/images/I/61g5aJqnSSL._AC_SL1500_.jpg",
+    thumbnailImage: "https://m.media-amazon.com/images/I/61g5aJqnSSL._AC_SL1500_.jpg",
+    lastUpdated: "2026-05-24",
+    author: "DeskFinds Editorial Team",
+    readTime: "9 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: ["desk-lamps-small-desks", "monitor-stands-small-desks", "laptop-stands-small-desks"],
+  },
+
   {
     title: "Best Desk Lamps for Small Desks (2026)",
     slug: "desk-lamps-small-desks",

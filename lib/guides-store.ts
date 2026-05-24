@@ -4,6 +4,7 @@ import type { Guide } from "@/data/guides";
 export interface StoredGuide extends Omit<Guide, "lastUpdated"> {
   id: string;
   heroImageAlt: string;
+  thumbnailImage: string;
   metaTitle: string;
   metaDescription: string;
   intro: string;
@@ -22,6 +23,7 @@ interface GuideRow {
   description: string;
   hero_image: string;
   hero_image_alt: string;
+  thumbnail_image?: string;
   meta_title: string;
   meta_description: string;
   main_keyword: string;
@@ -53,6 +55,7 @@ function rowToGuide(row: GuideRow): StoredGuide {
     description: row.description,
     heroImage: row.hero_image,
     heroImageAlt: row.hero_image_alt,
+    thumbnailImage: row.thumbnail_image || row.hero_image || "",
     metaTitle: row.meta_title,
     metaDescription: row.meta_description,
     mainKeyword: row.main_keyword,
@@ -79,6 +82,7 @@ function guideToRow(g: StoredGuide): Omit<GuideRow, "created_at" | "updated_at" 
     description: g.description,
     hero_image: g.heroImage,
     hero_image_alt: g.heroImageAlt,
+    thumbnail_image: g.thumbnailImage || g.heroImage,
     meta_title: g.metaTitle,
     meta_description: g.metaDescription,
     main_keyword: g.mainKeyword,

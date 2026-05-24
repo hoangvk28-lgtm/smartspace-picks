@@ -69,6 +69,7 @@ function parseFormData(formData: FormData): Omit<StoredGuide, "id"> & { id?: str
     description: (formData.get("description") as string | null)?.trim() ?? "",
     heroImage: (formData.get("heroImage") as string | null)?.trim() ?? "",
     heroImageAlt: (formData.get("heroImageAlt") as string | null)?.trim() ?? "",
+    thumbnailImage: (formData.get("thumbnailImage") as string | null)?.trim() ?? "",
     metaTitle: (formData.get("metaTitle") as string | null)?.trim() ?? "",
     metaDescription: (formData.get("metaDescription") as string | null)?.trim() ?? "",
     mainKeyword: (formData.get("mainKeyword") as string | null)?.trim() ?? "",

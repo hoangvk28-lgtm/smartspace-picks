@@ -28,6 +28,7 @@ interface GuideRow {
   description: string;
   hero_image: string;
   hero_image_alt: string;
+  thumbnail_image?: string;
   meta_title: string;
   meta_description: string;
   main_keyword: string;
@@ -53,6 +54,7 @@ function rowToPublicGuide(row: GuideRow): PublicGuide {
     subcategorySlug: row.subcategory_slug,
     description: row.description,
     heroImage: row.hero_image ?? "",
+    thumbnailImage: row.thumbnail_image || row.hero_image || undefined,
     heroImageAlt: row.hero_image_alt || undefined,
     metaTitle: row.meta_title || undefined,
     metaDescription: row.meta_description || undefined,
