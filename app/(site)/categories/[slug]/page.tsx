@@ -8,6 +8,7 @@ import { ProductCard } from "@/components/product/ProductCard";
 import { CategoryComparisonTable } from "@/components/product/CategoryComparisonTable";
 import { AffiliateDisclosureBar } from "@/components/affiliate/AffiliateDisclosureBar";
 import { Badge } from "@/components/ui/Badge";
+import { CategoryHeroBanner } from "@/components/sections/CategoryHeroBanner";
 import { categories } from "@/data/categories";
 import {
   getCategoryBySlug,
@@ -130,80 +131,42 @@ export default async function CategoryPage({ params }: Props) {
         ]}
       />
 
-      {/* ── 2. Category hero ────────────────────────────────────────────── */}
-      <header className="mt-6 mb-12 max-w-3xl">
-        <div className="flex items-center gap-3 mb-4">
-          <div
-            className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0"
-            style={{ backgroundColor: category.color + "18" }}
-          >
-            <span
-              className="text-lg font-bold"
-              style={{ color: category.color }}
-              aria-hidden="true"
-            >
-              {category.subcategories.length}
-            </span>
-          </div>
-          <span className="text-xs font-bold uppercase tracking-widest" style={{ color: category.color }}>
-            {category.subcategories.length} subcategor{category.subcategories.length === 1 ? "y" : "ies"}
-          </span>
-        </div>
+      {/* ── 2. Category hero banner ─────────────────────────────────────── */}
+      <div className="mt-6">
+        <CategoryHeroBanner
+          category={category}
+          productCount={products.length}
+          guideCount={guides.length}
+          topProductName={products[0]?.name}
+          topProductScore={products[0]?.scores?.overall}
+          topProductSlug={products[0]?.slug}
+        />
+      </div>
 
-        <h1 className="text-4xl font-bold text-ink mb-4 tracking-tight leading-tight">
-          {category.name}
-        </h1>
-        <p className="text-lg text-ink-secondary leading-relaxed mb-5">
-          {category.description}
-        </p>
-
-        {/* Trust note */}
-        <div className="flex items-start gap-3 p-4 bg-bg border border-border rounded-lg">
-          <svg
-            className="w-4 h-4 text-brand shrink-0 mt-0.5"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={2}
-            aria-hidden="true"
-          >
-            <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
-          </svg>
-          <p className="text-sm text-ink-secondary leading-relaxed">
-            <strong className="text-ink font-semibold">How we evaluate: </strong>
-            We compare products by small-space fit, build quality, ease of use, value for money,
-            and buyer feedback. All scores are on a 1–10 scale specific to compact-space use cases.{" "}
-            <Link href="/how-we-review" className="text-brand hover:text-brand-dark font-medium transition-colors">
-              Full methodology →
-            </Link>
-          </p>
-        </div>
-
-        {/* Jump links */}
-        <div className="flex flex-wrap gap-2 mt-5">
-          <span className="text-xs text-ink-muted self-center mr-1">Jump to:</span>
-          {guides.length > 0 && (
-            <a href="#buying-guides" className="text-xs px-3 py-1.5 rounded-badge bg-white border border-border text-ink-secondary hover:border-brand hover:text-brand transition-all font-medium">
-              Buying Guides
+      {/* Jump links */}
+      <div className="flex flex-wrap gap-2 mb-10">
+        <span className="text-xs text-ink-muted self-center mr-1">Jump to:</span>
+        {guides.length > 0 && (
+          <a href="#buying-guides" className="text-xs px-3 py-1.5 rounded-badge bg-white border border-border text-ink-secondary hover:border-brand hover:text-brand transition-all font-medium">
+            Buying Guides
+          </a>
+        )}
+        {products.length > 0 && (
+          <>
+            <a href="#products" className="text-xs px-3 py-1.5 rounded-badge bg-white border border-border text-ink-secondary hover:border-brand hover:text-brand transition-all font-medium">
+              Product Reviews
             </a>
-          )}
-          {products.length > 0 && (
-            <>
-              <a href="#products" className="text-xs px-3 py-1.5 rounded-badge bg-white border border-border text-ink-secondary hover:border-brand hover:text-brand transition-all font-medium">
-                Product Reviews
-              </a>
-              <a href="#compare" className="text-xs px-3 py-1.5 rounded-badge bg-white border border-border text-ink-secondary hover:border-brand hover:text-brand transition-all font-medium">
-                Compare
-              </a>
-            </>
-          )}
-          {topics.length > 0 && (
-            <a href="#guides" className="text-xs px-3 py-1.5 rounded-badge bg-white border border-border text-ink-secondary hover:border-brand hover:text-brand transition-all font-medium">
-              Guides & Tips
+            <a href="#compare" className="text-xs px-3 py-1.5 rounded-badge bg-white border border-border text-ink-secondary hover:border-brand hover:text-brand transition-all font-medium">
+              Compare
             </a>
-          )}
-        </div>
-      </header>
+          </>
+        )}
+        {topics.length > 0 && (
+          <a href="#guides" className="text-xs px-3 py-1.5 rounded-badge bg-white border border-border text-ink-secondary hover:border-brand hover:text-brand transition-all font-medium">
+            Guides & Tips
+          </a>
+        )}
+      </div>
 
       {/* ── 3. Featured buying guides ────────────────────────────────────── */}
       {guides.length > 0 && (
