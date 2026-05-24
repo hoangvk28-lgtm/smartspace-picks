@@ -20,7 +20,7 @@ export async function Footer() {
       {footerSettings.showAffiliateDisclosure && (
         <div className="bg-ink/80 border-b border-white/10">
           <Container className="py-3">
-            <p className="text-xs text-ink-inverse/70 text-center">{disclosureText}</p>
+            <p className="text-xs text-ink-inverse/70 text-center whitespace-nowrap overflow-hidden text-ellipsis">{disclosureText}</p>
           </Container>
         </div>
       )}
