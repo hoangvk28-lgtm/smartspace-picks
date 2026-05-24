@@ -47,14 +47,20 @@ interface GuideRow {
 }
 
 function rowToPublicGuide(row: GuideRow): PublicGuide {
+  const staticFallback = staticGuides.find((g) => g.slug === row.slug);
   return {
     title: row.title,
     slug: row.slug,
     categorySlug: row.category_slug,
     subcategorySlug: row.subcategory_slug,
     description: row.description,
-    heroImage: row.hero_image ?? "",
-    thumbnailImage: row.thumbnail_image || row.hero_image || undefined,
+    heroImage: row.hero_image || staticFallback?.heroImage || "",
+    thumbnailImage:
+      row.thumbnail_image ||
+      row.hero_image ||
+      staticFallback?.thumbnailImage ||
+      staticFallback?.heroImage ||
+      undefined,
     heroImageAlt: row.hero_image_alt || undefined,
     metaTitle: row.meta_title || undefined,
     metaDescription: row.meta_description || undefined,
@@ -87,11 +93,13 @@ export async function getPublicGuides(): Promise<PublicGuide[]> {
 
     if (error) throw error;
     const dbGuides = (data as GuideRow[]).map(rowToPublicGuide);
-    // Merge: static guides as baseline, DB guides override by slug
-    // This ensures static content always shows alongside admin-created content
+    // Merge: DB guides override static by slug; static-only guides fill the rest
     const dbSlugSet = new Set(dbGuides.map((g) => g.slug));
     const staticOnly = staticGuides.filter((g) => !dbSlugSet.has(g.slug));
-    return [...dbGuides, ...staticOnly];
+    const merged = [...dbGuides, ...staticOnly];
+    // Sort by lastUpdated desc so newest guides (including static-only) surface first
+    merged.sort((a, b) => (b.lastUpdated ?? "").localeCompare(a.lastUpdated ?? ""));
+    return merged;
   } catch (e) {
     console.warn("[public-guides] Supabase query failed - falling back to static data:", e);
     return staticGuides;
