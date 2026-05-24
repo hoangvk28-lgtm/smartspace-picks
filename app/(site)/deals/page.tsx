@@ -7,6 +7,20 @@ import { buildMetadata } from "@/lib/seo";
 import { getPublicProducts } from "@/lib/public-products";
 import { getPublicDeals } from "@/lib/public-deals";
 import { getFeaturedPublicGuides } from "@/lib/public-guides";
+import { amazonSearchLinks } from "@/lib/amazon-links";
+
+const exploreChips = [
+  { label: "Desk Setup", key: "desk-setup" },
+  { label: "Dorm Essentials", key: "dorm-essentials" },
+  { label: "Small Room Storage", key: "small-room-storage" },
+  { label: "Compact Home Office", key: "compact-home-office" },
+  { label: "Budget Finds", key: "budget-finds" },
+  { label: "Desk Lamps", key: "desk-lamps" },
+  { label: "Monitor Stands", key: "monitor-stands" },
+  { label: "Laptop Stands", key: "laptop-stands" },
+  { label: "Cable Management", key: "cable-management" },
+  { label: "Under-Bed Storage", key: "under-bed-storage" },
+];
 
 export const revalidate = 60;
 
@@ -238,6 +252,27 @@ export default async function DealsPage() {
             >
               View all buying guides →
             </Link>
+          </div>
+        </section>
+
+        {/* Explore More on Amazon */}
+        <section className="mt-14">
+          <h2 className="text-lg font-bold text-ink mb-4 tracking-tight">Explore More on Amazon</h2>
+          <div className="flex flex-wrap gap-2">
+            {exploreChips.map((chip) => (
+              <a
+                key={chip.key}
+                href={amazonSearchLinks[chip.key]}
+                target="_blank"
+                rel="noopener noreferrer sponsored"
+                className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-full text-sm font-medium bg-white border border-border text-ink-secondary hover:border-brand hover:text-brand hover:bg-brand-light transition-all min-h-[44px]"
+              >
+                <svg className="w-3.5 h-3.5 shrink-0 opacity-60" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.26 18.36C9.18 20.34 4.76 21.38 1 20.16c-.38-.13-.33-.44.08-.35 3.47.67 7.77-.07 10.6-1.82.47-.27.87.17.58.37zm1.06-1.17c-.43-.56-2.85-.27-3.94-.13-.33.04-.38-.25-.08-.46 1.93-1.36 5.1-.97 5.47-.51.37.46-.1 3.63-1.91 5.14-.28.23-.54.11-.42-.2.41-.98 1.32-3.28.88-3.84z"/>
+                </svg>
+                {chip.label}
+              </a>
+            ))}
           </div>
         </section>
 

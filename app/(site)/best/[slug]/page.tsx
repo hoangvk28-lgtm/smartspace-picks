@@ -15,6 +15,7 @@ import { getPublicProducts } from "@/lib/public-products";
 import { buildMetadata } from "@/lib/seo";
 import { formatDate, scoreToColor } from "@/lib/utils";
 import { SITE_URL } from "@/lib/seo";
+import { amazonSearchLinks } from "@/lib/amazon-links";
 
 export const revalidate = 60;
 
@@ -511,6 +512,26 @@ export default async function BuyingGuidePage({ params }: Props) {
               ))}
             </div>
           </section>
+        )}
+
+        {/* Browse on Amazon CTA */}
+        {(amazonSearchLinks[guide.slug] || amazonSearchLinks[guide.categorySlug]) && (
+          <div className="max-w-3xl mb-6 p-4 rounded-xl border border-border bg-bg flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+            <p className="text-sm text-ink-secondary">
+              Want to browse more options? See all related products on Amazon.
+            </p>
+            <a
+              href={amazonSearchLinks[guide.slug] ?? amazonSearchLinks[guide.categorySlug]}
+              target="_blank"
+              rel="noopener noreferrer sponsored"
+              className="shrink-0 inline-flex items-center gap-2 px-4 py-2.5 rounded-lg text-sm font-semibold bg-[#FF9900] text-white hover:bg-[#e68900] transition-colors whitespace-nowrap"
+            >
+              <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.26 18.36C9.18 20.34 4.76 21.38 1 20.16c-.38-.13-.33-.44.08-.35 3.47.67 7.77-.07 10.6-1.82.47-.27.87.17.58.37zm1.06-1.17c-.43-.56-2.85-.27-3.94-.13-.33.04-.38-.25-.08-.46 1.93-1.36 5.1-.97 5.47-.51.37.46-.1 3.63-1.91 5.14-.28.23-.54.11-.42-.2.41-.98 1.32-3.28.88-3.84z"/>
+              </svg>
+              Browse on Amazon
+            </a>
+          </div>
         )}
 
         {/* Bottom methodology note */}

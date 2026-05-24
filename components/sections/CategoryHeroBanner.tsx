@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Category } from "@/data/categories";
+import { amazonSearchLinks } from "@/lib/amazon-links";
 
 // Per-category config: tagline, stats, icon emoji, top pick hint
 const categoryConfig: Record<string, {
@@ -139,6 +140,24 @@ export function CategoryHeroBanner({
           </Link>
         )}
       </div>
+
+      {/* Amazon shop button */}
+      {amazonSearchLinks[category.slug] && (
+        <div className="px-5 pb-4 sm:px-7">
+          <a
+            href={amazonSearchLinks[category.slug]}
+            target="_blank"
+            rel="noopener noreferrer sponsored"
+            className="inline-flex items-center gap-2 text-xs font-semibold px-4 py-2.5 rounded-xl transition-all hover:opacity-80"
+            style={{ background: category.color, color: "#fff" }}
+          >
+            <svg className="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12.26 18.36C9.18 20.34 4.76 21.38 1 20.16c-.38-.13-.33-.44.08-.35 3.47.67 7.77-.07 10.6-1.82.47-.27.87.17.58.37zm1.06-1.17c-.43-.56-2.85-.27-3.94-.13-.33.04-.38-.25-.08-.46 1.93-1.36 5.1-.97 5.47-.51.37.46-.1 3.63-1.91 5.14-.28.23-.54.11-.42-.2.41-.98 1.32-3.28.88-3.84z"/>
+            </svg>
+            Shop {category.name} Finds on Amazon
+          </a>
+        </div>
+      )}
 
       {/* Bottom: highlights pills */}
       <div

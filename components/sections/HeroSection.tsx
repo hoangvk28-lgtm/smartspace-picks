@@ -3,15 +3,7 @@ import { products as staticProducts } from "@/data/products";
 import { getPublicHomepageSettings } from "@/lib/public-settings";
 import type { HomepageSettings } from "@/lib/site-settings-store";
 import { HeroSearch } from "@/components/sections/HeroSearch";
-
-const defaultQuickLinks = [
-  { label: "Desk Lamps", href: "/best/desk-lamps-small-desks" },
-  { label: "Monitor Stands", href: "/best/monitor-stands-small-desks" },
-  { label: "Laptop Stands", href: "/best/laptop-stands-small-desks" },
-  { label: "Under-Bed Storage", href: "/best/under-bed-storage-small-rooms" },
-  { label: "Cable Management", href: "/best/cable-management-dorm" },
-  { label: "Bedside Caddies", href: "/best/bedside-caddies-students" },
-];
+import { heroChipLinks } from "@/lib/amazon-links";
 
 interface Props {
   settings?: HomepageSettings;
@@ -93,16 +85,18 @@ export async function HeroSection({ settings: propSettings }: Props = {}) {
             </div>
 
             <div className="flex flex-wrap items-center gap-2">
-              <span className="text-xs mr-1 shrink-0" style={{ color: "rgba(255,255,255,0.60)" }}>Browse:</span>
-              {defaultQuickLinks.map((link) => (
-                <Link
+              <span className="text-xs mr-1 shrink-0" style={{ color: "rgba(255,255,255,0.60)" }}>Shop on Amazon:</span>
+              {heroChipLinks.map((link) => (
+                <a
                   key={link.href}
                   href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer sponsored"
                   className="text-xs px-3 py-2.5 rounded-badge font-medium transition-all hover:bg-blue-500 hover:text-white hover:border-blue-500 min-h-[44px] flex items-center"
                   style={{ background: "rgba(255,255,255,0.11)", color: "rgba(255,255,255,0.82)", border: "1px solid rgba(255,255,255,0.18)" }}
                 >
                   {link.label}
-                </Link>
+                </a>
               ))}
             </div>
 
