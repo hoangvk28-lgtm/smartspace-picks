@@ -186,13 +186,13 @@ export default function HowWeReviewPage() {
             { range: "6.0 – 6.9", label: "Fair",        color: "text-score-low bg-score-low/10 border-score-low/30", desc: "Acceptable but with noticeable shortcomings. We include these only when they represent the best available budget option." },
             { range: "Below 6.0", label: "Not Included", color: "text-ink-muted bg-bg border-border", desc: "We generally do not include products that score below 6.0 in our published guides." },
           ].map((row) => (
-            <div key={row.range} className="flex flex-wrap gap-3 items-start">
-              <div className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full border text-xs font-bold shrink-0 ${row.color}`}>
+            <div key={row.range} className="flex flex-col gap-2">
+              <div className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full border text-xs font-bold self-start ${row.color}`}>
                 <span>{row.range}</span>
                 <span>·</span>
                 <span>{row.label}</span>
               </div>
-              <p className="text-sm text-ink-secondary leading-relaxed flex-1 min-w-[200px]">{row.desc}</p>
+              <p className="text-sm text-ink-secondary leading-relaxed">{row.desc}</p>
             </div>
           ))}
         </div>
