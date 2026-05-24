@@ -62,14 +62,13 @@ export default async function AuthorPage({ params }: Props) {
       <Container className="py-10 max-w-4xl">
         <Breadcrumbs
           crumbs={[
-            { label: "Home", href: "/" },
             { label: "Authors", href: "/author" },
             { label: author.name },
           ]}
         />
 
         {/* ── Hero ─────────────────────────────────────────────────────── */}
-        <div className="flex flex-col sm:flex-row gap-6 items-start mb-10 pb-10 border-b border-border">
+        <div className="flex flex-col sm:flex-row gap-6 items-start mt-8 mb-10 pb-10 border-b border-border">
           {author.avatarUrl ? (
             <Image
               src={author.avatarUrl}
