@@ -1,5 +1,6 @@
 ﻿import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { Container } from "@/components/layout/Container";
 import { Badge } from "@/components/ui/Badge";
 import { buildMetadata } from "@/lib/seo";
@@ -34,12 +35,33 @@ export default async function ReviewsIndexPage() {
             key={product.id}
             className="group flex flex-col bg-white rounded-card border border-border hover:shadow-card-hover hover:border-brand/20 transition-all overflow-hidden"
           >
+            {/* Thumbnail */}
+            <Link href={`/reviews/${product.slug}`} className="block relative w-full h-44 overflow-hidden bg-bg">
+              {product.image ? (
+                <Image
+                  src={product.image}
+                  alt={product.name}
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              ) : (
+                <div className="w-full h-full flex items-center justify-center text-ink-muted/30">
+                  <svg className="w-12 h-12" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M20 7H4a2 2 0 00-2 2v9a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2zm-9 9H7v-2h4v2zm6-4H7v-2h10v2z"/></svg>
+                </div>
+              )}
+              {product.badge && (
+                <span className="absolute top-2 left-2 px-2 py-0.5 bg-brand text-white text-[10px] font-bold uppercase tracking-wide rounded-full">
+                  {product.badge}
+                </span>
+              )}
+            </Link>
+
             {/* Top meta bar */}
-            <div className="flex items-center justify-between px-5 pt-4 pb-0">
+            <div className="flex items-center justify-between px-5 pt-3 pb-0">
               <span className="text-[10px] font-bold uppercase tracking-widest text-ink-muted">
                 {product.subcategorySlug.replace(/-/g, " ")}
               </span>
-              {product.badge && <Badge>{product.badge}</Badge>}
             </div>
 
             {/* Main content */}

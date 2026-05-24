@@ -1,6 +1,7 @@
 ﻿import Link from "next/link";
 import Image from "next/image";
 import type { Guide } from "@/data/guides";
+import type { PublicGuide } from "@/lib/public-guides";
 import type { Product } from "@/data/products";
 import { Badge } from "@/components/ui/Badge";
 import { CTAButton } from "@/components/ui/CTAButton";
@@ -10,13 +11,14 @@ import { formatDate } from "@/lib/utils";
 import { categories } from "@/data/categories";
 
 interface FeaturedGuideHeroProps {
-  guide: Guide;
+  guide: Guide | PublicGuide;
   products: Product[];
 }
 
 export function FeaturedGuideHero({ guide, products }: FeaturedGuideHeroProps) {
   const topThree = products.slice(0, 3);
   const categoryColor = categories.find((c) => c.slug === guide.categorySlug)?.color ?? "#2563eb";
+  const coverImage = (guide as PublicGuide).thumbnailImage || guide.heroImage || "";
 
   return (
     <section className="py-14 border-t border-border">
@@ -30,11 +32,11 @@ export function FeaturedGuideHero({ guide, products }: FeaturedGuideHeroProps) {
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-8 items-start">
         {/* Left - editorial card */}
         <div className="flex flex-col gap-5 p-7 bg-white rounded-card border border-brand-muted shadow-card">
-          {/* Guide cover - hero image or fallback illustration */}
-          {guide.heroImage && guide.heroImage.startsWith("http") ? (
+          {/* Guide cover - thumbnail (preferred) or hero image or fallback illustration */}
+          {coverImage.startsWith("http") ? (
             <div className="relative w-full h-48 sm:h-56 rounded-lg overflow-hidden">
               <Image
-                src={guide.heroImage}
+                src={coverImage}
                 alt={guide.title}
                 fill
                 sizes="(max-width: 1024px) 100vw, 60vw"
