@@ -76,6 +76,25 @@ export const guides: Guide[] = [
     faq: [],
     relatedGuideSlugs: ["best-tablet-stands", "best-tablet-stands-for-desk", "dorm-essentials"],
   },
+  {
+    title: "Best Tablet Stands for Desk: Adjustable, Stable & Compact Picks",
+    slug: "best-tablet-stands-for-desk",
+    categorySlug: "desk-setup",
+    subcategorySlug: "tablet-stands",
+    description:
+      "Compare the best tablet stands for desk setups, including adjustable, desktop, universal, compact, and premium options for work, study, and small spaces.",
+    mainKeyword: "best tablet stands for desk",
+    subKeywords: ["adjustable tablet stand", "universal tablet stand", "compact tablet stand", "tablet stand for video calls"],
+    heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-tablet-stands-for-desk/hero.jpg",
+    thumbnailImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-tablet-stands-for-desk/hero.jpg",
+    lastUpdated: "2026-05-24",
+    author: "DeskFinds Editorial Team",
+    readTime: "7 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: ["best-tablet-stands", "best-tablet-stands-for-bed", "compact-home-office"],
+  },
 
   {
     title: "Best Desk Lamps for Small Desks (2026)",
