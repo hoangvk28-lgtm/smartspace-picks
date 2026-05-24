@@ -1,10 +1,10 @@
-import { redirect } from "next/navigation";
+﻿import { redirect } from "next/navigation";
 import { requireAdminSession } from "@/lib/admin-auth";
 import { AdminHeader } from "@/components/admin/AdminHeader";
 import { AdminShell } from "@/components/admin/AdminShell";
 
 export const metadata = {
-  title: "Admin Dashboard — DeskFinds",
+  title: "Admin Dashboard - DeskFinds",
   robots: { index: false, follow: false },
 };
 

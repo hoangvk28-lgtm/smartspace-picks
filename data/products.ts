@@ -66,7 +66,7 @@ export const products: Product[] = [
       "USB Charging Port": "5V / 1A USB-A",
       "Mount Type": "Weighted base",
       "Flicker": "Flicker-free LED",
-      "Memory Function": "Yes — restores last setting",
+      "Memory Function": "Yes - restores last setting",
       "Arm": "Flexible single-arm with 180° rotation",
     },
     pros: [
@@ -79,7 +79,7 @@ export const products: Product[] = [
     cons: [
       "Arm rotation is limited compared to a full gooseneck design",
       "Touch panel can activate by brushing against it accidentally",
-      "USB port is 1A only — too slow for tablet charging",
+      "USB port is 1A only - too slow for tablet charging",
     ],
     scores: {
       overall: 8.8,
@@ -90,7 +90,7 @@ export const products: Product[] = [
       buyerFeedback: 8.4,
     },
     reviewSummary:
-      "The best budget desk lamp we evaluated for students. It trades some build quality for a very competitive price and includes features — five color temperatures, a USB port, and a memory function — that often cost twice as much on competing models. The slim base keeps most desk space clear, which matters on a typical 48-inch dorm or bedroom desk.",
+      "The best budget desk lamp we evaluated for students. It trades some build quality for a very competitive price and includes features - five color temperatures, a USB port, and a memory function - that often cost twice as much on competing models. The slim base keeps most desk space clear, which matters on a typical 48-inch dorm or bedroom desk.",
     alternatives: ["wide-angle-study-lamp"],
     relatedGuideSlugs: ["desk-lamps-small-desks"],
   },
@@ -105,36 +105,36 @@ export const products: Product[] = [
     priceRange: "$100–$115",
     badge: "Best Overall",
     name: "Wide-Angle Study Lamp with Auto-Dimming",
-    shortDescription: "Engineered for study: wide shadow-free spread, ambient sensor, and zero flicker — worth the price for long desk sessions.",
+    shortDescription: "Engineered for study: wide shadow-free spread, ambient sensor, and zero flicker - worth the price for long desk sessions.",
     bestFor: [
       "Students or remote workers who log 4+ hours at a desk daily",
       "Anyone who has experienced eye strain from cheap desk lighting",
       "Setups where the lamp clamps to the back edge, freeing the desk surface entirely",
     ],
     notIdealFor: [
-      "Budget-conscious shoppers — this sits at the premium end",
+      "Budget-conscious shoppers - this sits at the premium end",
       "Desks with edges thicker than 2.75 inches (clamp limit)",
     ],
     specs: {
       "Color Temperature": "4000K neutral white",
-      "Light Spread": "90cm arc — full desk coverage",
+      "Light Spread": "90cm arc - full desk coverage",
       "Lux at 40cm": "≥ 1,000 lux",
       "Mount Type": "Clamp (fits edges up to 2.75\")",
       "Wattage": "14W",
       "USB Charging Port": "5V / 1A USB-A",
-      "Auto-Dimming": "Yes — ambient light sensor",
+      "Auto-Dimming": "Yes - ambient light sensor",
       "Flicker": "Zero-flicker certified",
     },
     pros: [
       "Wide 90cm light arc covers the full desk surface evenly",
       "Ambient sensor adjusts brightness automatically as room light changes",
-      "Zero-flicker certification — clinically better for extended study",
+      "Zero-flicker certification - clinically better for extended study",
       "Clamp mount frees up 100% of desk surface",
       "Built-in USB port for device charging",
     ],
     cons: [
       "Premium price ($100+) is a stretch for casual users",
-      "Only one fixed color temperature (4000K) — no warm light option",
+      "Only one fixed color temperature (4000K) - no warm light option",
       "Clamp arm is large; visible on smaller desks",
     ],
     scores: {
@@ -146,7 +146,7 @@ export const products: Product[] = [
       buyerFeedback: 9.2,
     },
     reviewSummary:
-      "The top-rated option for serious desk users. Its wide illumination arc, ambient auto-dimming, and zero-flicker design address every major complaint seen in reviews of cheaper lamps. The clamp mount is genuinely transformative for small desks — it gives you back the footprint of a full lamp base. The premium price is justified for daily users; budget buyers should look at the Compact LED Lamp instead.",
+      "The top-rated option for serious desk users. Its wide illumination arc, ambient auto-dimming, and zero-flicker design address every major complaint seen in reviews of cheaper lamps. The clamp mount is genuinely transformative for small desks - it gives you back the footprint of a full lamp base. The premium price is justified for daily users; budget buyers should look at the Compact LED Lamp instead.",
     alternatives: ["compact-led-lamp-usb"],
     relatedGuideSlugs: ["desk-lamps-small-desks"],
   },
@@ -163,7 +163,7 @@ export const products: Product[] = [
     priceRange: "$30–$40",
     badge: "Best Overall",
     name: "Adjustable Monitor Riser with Storage Shelf",
-    shortDescription: "Raises your monitor to eye level and creates a full-width storage shelf — the most practical riser for small desks.",
+    shortDescription: "Raises your monitor to eye level and creates a full-width storage shelf - the most practical riser for small desks.",
     bestFor: [
       "Single-monitor setups on any desk size",
       "Users who want under-screen storage without drilling",
@@ -183,13 +183,13 @@ export const products: Product[] = [
     },
     pros: [
       "Creates a full-width under-screen storage shelf for keyboard, notebook, or items",
-      "Supports up to 55 lbs — handles large monitors without flex",
+      "Supports up to 55 lbs - handles large monitors without flex",
       "No-assembly, open-box ready",
       "Clean minimal design works with any desk aesthetic",
       "Large platform fits ultrawide monitors",
     ],
     cons: [
-      "Fixed height — cannot adjust elevation",
+      "Fixed height - cannot adjust elevation",
       "No cable routing channels",
     ],
     scores: {
@@ -216,7 +216,7 @@ export const products: Product[] = [
     priceRange: "$38–$50",
     badge: "Best for Dual Monitors",
     name: "Dual Monitor Articulating Arm Mount",
-    shortDescription: "Clears your entire desk surface by mounting two monitors on adjustable arms — the right choice for dual-screen compact setups.",
+    shortDescription: "Clears your entire desk surface by mounting two monitors on adjustable arms - the right choice for dual-screen compact setups.",
     bestFor: [
       "Remote workers with dual-monitor setups in a small space",
       "Users who frequently switch between work positions or screen orientations",
@@ -274,7 +274,7 @@ export const products: Product[] = [
     priceRange: "$25–$32",
     badge: "Best Overall",
     name: "Foldable Aluminum Laptop Riser",
-    shortDescription: "Six adjustable heights, folds completely flat, and supports up to 15.6-inch laptops — the most reliable under-$30 stand.",
+    shortDescription: "Six adjustable heights, folds completely flat, and supports up to 15.6-inch laptops - the most reliable under-$30 stand.",
     bestFor: [
       "Students who commute between campus and home with their laptop",
       "Remote workers who want a clean ergonomic lift without a large base",
@@ -295,14 +295,14 @@ export const products: Product[] = [
     },
     pros: [
       "Adjustable to 6 height levels for different postures and use cases",
-      "Folds flat in seconds — easy to pack or store",
+      "Folds flat in seconds - easy to pack or store",
       "Aluminum build is lighter and more durable than plastic alternatives",
       "Silicone pads protect both laptop and desk",
-      "Under $30 — excellent price-to-quality ratio",
+      "Under $30 - excellent price-to-quality ratio",
     ],
     cons: [
       "No built-in cable management",
-      "Width is fixed — won't fit 17-inch laptops",
+      "Width is fixed - won't fit 17-inch laptops",
     ],
     scores: {
       overall: 9.1,
@@ -328,14 +328,14 @@ export const products: Product[] = [
     priceRange: "$14–$20",
     badge: "Best Budget",
     name: "Adjustable Multi-Angle Portable Laptop Stand",
-    shortDescription: "Ultra-lightweight, folds flatter than a notebook, and covers 11–17-inch laptops — the best under-$20 stand.",
+    shortDescription: "Ultra-lightweight, folds flatter than a notebook, and covers 11–17-inch laptops - the best under-$20 stand.",
     bestFor: [
       "Budget-conscious students who need a stand for occasional use",
       "Travelers and commuters who want something nearly weightless in a bag",
       "Anyone whose laptop is larger than 15.6 inches",
     ],
     notIdealFor: [
-      "Heavy typing sessions — the lighter plastic build can flex under force",
+      "Heavy typing sessions - the lighter plastic build can flex under force",
       "Users who need precise, repeatable height adjustments",
     ],
     specs: {
@@ -347,14 +347,14 @@ export const products: Product[] = [
       "Folded Thickness": "Under 0.5 inches",
     },
     pros: [
-      "Ultra-light at 0.4 lbs — barely noticeable in a bag",
-      "Fits laptops up to 17 inches — wider compatibility than most",
+      "Ultra-light at 0.4 lbs - barely noticeable in a bag",
+      "Fits laptops up to 17 inches - wider compatibility than most",
       "Continuous angle adjustment (not fixed steps)",
-      "Under $20 — lowest cost pick in this guide",
+      "Under $20 - lowest cost pick in this guide",
     ],
     cons: [
       "Plastic build flexes under heavy typing force",
-      "Adjustment mechanism lacks precise detents — can slip slightly",
+      "Adjustment mechanism lacks precise detents - can slip slightly",
       "Not suitable for 17-inch laptops heavier than 8 lbs",
     ],
     scores: {
@@ -366,7 +366,7 @@ export const products: Product[] = [
       buyerFeedback: 8.0,
     },
     reviewSummary:
-      "The best budget entry in this category and the only stand we evaluated that comfortably fits 17-inch laptops. Build quality is the trade-off at this price — it works well for light use but flexes under sustained heavy typing. For casual use, travel, or a secondary stand, it represents extraordinary value.",
+      "The best budget entry in this category and the only stand we evaluated that comfortably fits 17-inch laptops. Build quality is the trade-off at this price - it works well for light use but flexes under sustained heavy typing. For casual use, travel, or a secondary stand, it represents extraordinary value.",
     alternatives: ["foldable-aluminum-laptop-riser"],
     relatedGuideSlugs: ["laptop-stands-small-desks"],
   },
@@ -383,7 +383,7 @@ export const products: Product[] = [
     priceRange: "$10–$14",
     badge: "Best Overall",
     name: "26-Piece Desk Cable Organizer Kit",
-    shortDescription: "Everything needed to tame a messy desk setup: clips, velcro ties, and cable sleeves — all in one under-$12 kit.",
+    shortDescription: "Everything needed to tame a messy desk setup: clips, velcro ties, and cable sleeves - all in one under-$12 kit.",
     bestFor: [
       "Dorm rooms where cable clutter behind a desk is the biggest visual problem",
       "Students setting up a new workspace from scratch",
@@ -402,14 +402,14 @@ export const products: Product[] = [
     },
     pros: [
       "26-piece kit covers a complete desk setup in one purchase",
-      "Velcro ties are fully reusable — no scissors needed to adjust",
+      "Velcro ties are fully reusable - no scissors needed to adjust",
       "Three clip sizes handle different cable thicknesses",
-      "Adhesive releases cleanly with heat — no damage to dorm surfaces",
-      "Under $12 — easy to add to any back-to-school order",
+      "Adhesive releases cleanly with heat - no damage to dorm surfaces",
+      "Under $12 - easy to add to any back-to-school order",
     ],
     cons: [
       "Adhesive clips do not stick to rough, textured, or fabric surfaces",
-      "Cable sleeve included is short (12 inches) — may need more for desk-to-floor runs",
+      "Cable sleeve included is short (12 inches) - may need more for desk-to-floor runs",
     ],
     scores: {
       overall: 8.9,
@@ -435,7 +435,7 @@ export const products: Product[] = [
     priceRange: "$18–$26",
     badge: undefined,
     name: "Under-Desk Cable Management Tray",
-    shortDescription: "Hides a full power strip and all its cables in a mounting tray under your desk — the cleanest solution for eliminating floor clutter.",
+    shortDescription: "Hides a full power strip and all its cables in a mounting tray under your desk - the cleanest solution for eliminating floor clutter.",
     bestFor: [
       "Anyone whose floor under their desk is a tangle of power strip cables",
       "Home office users who want a permanent, professional cable solution",
@@ -471,7 +471,7 @@ export const products: Product[] = [
       buyerFeedback: 8.2,
     },
     reviewSummary:
-      "The best option for eliminating floor-level cable clutter permanently. Where adhesive clips manage individual cables, this tray manages the entire power strip and all connected cables at once — making it the more complete solution for home office users. Students in dorm rooms should confirm their housing rules allow adhesive mounting before purchasing.",
+      "The best option for eliminating floor-level cable clutter permanently. Where adhesive clips manage individual cables, this tray manages the entire power strip and all connected cables at once - making it the more complete solution for home office users. Students in dorm rooms should confirm their housing rules allow adhesive mounting before purchasing.",
     alternatives: ["desk-cable-organizer-kit"],
     relatedGuideSlugs: ["cable-management-dorm"],
   },
@@ -488,7 +488,7 @@ export const products: Product[] = [
     priceRange: "$13–$17",
     badge: "Best Overall",
     name: "Hanging Bedside Organizer Caddy",
-    shortDescription: "Eight organized pockets that hang from any mattress edge — keeps phone, charger, headphones, and snacks within reach without a bedside table.",
+    shortDescription: "Eight organized pockets that hang from any mattress edge - keeps phone, charger, headphones, and snacks within reach without a bedside table.",
     bestFor: [
       "Dorm rooms with no room for a bedside table",
       "Students in lofted beds who need essentials within arm's reach",
@@ -496,26 +496,26 @@ export const products: Product[] = [
     ],
     notIdealFor: [
       "Mattresses thicker than 14 inches (attachment may not seat securely)",
-      "Users who need rigid structure — this is a soft fabric organizer",
+      "Users who need rigid structure - this is a soft fabric organizer",
     ],
     specs: {
       "Pockets": "8 (including 1 large center pocket for tablet/book)",
       "Material": "600D Oxford fabric",
-      "Attachment": "Slides under mattress — no hardware needed",
+      "Attachment": "Slides under mattress - no hardware needed",
       "Mattress Compatibility": "Up to 14 inches thick",
       "Bottle Holder": "Bungee cord side pocket",
       "Washable": "Hand wash recommended",
     },
     pros: [
-      "No installation — slides under mattress in 10 seconds",
+      "No installation - slides under mattress in 10 seconds",
       "8 pockets fits phone, charger, remote, book, headphones, snacks, and more",
       "Large center pocket holds 10-inch tablets",
       "Bungee-cord bottle pocket keeps water bottles secure",
-      "Under $15 — a practical addition to any dorm setup",
+      "Under $15 - a practical addition to any dorm setup",
     ],
     cons: [
       "Can slide out of position on very smooth fitted sheet materials",
-      "Fabric is not rigid — items settle and shift inside soft pockets",
+      "Fabric is not rigid - items settle and shift inside soft pockets",
     ],
     scores: {
       overall: 9.0,
@@ -526,7 +526,7 @@ export const products: Product[] = [
       buyerFeedback: 8.8,
     },
     reviewSummary:
-      "The most-reviewed item in this category and it earns the reputation. The no-installation design, large pocket count, and sub-$15 price make it an automatic addition to any dorm room setup. The main complaint in negative reviews — sliding on smooth sheets — is easily fixed by tucking more material under the mattress. Works equally well on lofted and standard dorm beds.",
+      "The most-reviewed item in this category and it earns the reputation. The no-installation design, large pocket count, and sub-$15 price make it an automatic addition to any dorm room setup. The main complaint in negative reviews - sliding on smooth sheets - is easily fixed by tucking more material under the mattress. Works equally well on lofted and standard dorm beds.",
     alternatives: ["over-mattress-pocket-organizer"],
     relatedGuideSlugs: ["bedside-caddies-students"],
   },
@@ -541,7 +541,7 @@ export const products: Product[] = [
     priceRange: "$9–$13",
     badge: "Best Budget",
     name: "Over-Mattress Storage Pocket Organizer",
-    shortDescription: "A slim 4-pocket organizer that sits on top of the mattress — simpler and lighter than a full caddy, and under $10.",
+    shortDescription: "A slim 4-pocket organizer that sits on top of the mattress - simpler and lighter than a full caddy, and under $10.",
     bestFor: [
       "Budget-conscious students who just need phone, charger, and book accessible",
       "Very thick mattresses (16+ inches) where hanging caddies don't reach",
@@ -549,7 +549,7 @@ export const products: Product[] = [
     ],
     notIdealFor: [
       "Users who need more than 4 pockets",
-      "Anyone with an active sleeper partner — it shifts easily",
+      "Anyone with an active sleeper partner - it shifts easily",
     ],
     specs: {
       "Pockets": "4 slim external pockets",
@@ -559,13 +559,13 @@ export const products: Product[] = [
       "Max Item Size": "Small phone, charger, small book",
     },
     pros: [
-      "Under $10 — the lowest-cost bedside solution we evaluated",
+      "Under $10 - the lowest-cost bedside solution we evaluated",
       "Works with any mattress thickness",
       "Very lightweight and easy to move or remove for laundry",
     ],
     cons: [
-      "Only 4 pockets — significantly less storage than a full caddy",
-      "Pockets are narrow — doesn't fit larger phones with thick cases",
+      "Only 4 pockets - significantly less storage than a full caddy",
+      "Pockets are narrow - doesn't fit larger phones with thick cases",
       "No bottle holder",
     ],
     scores: {
@@ -594,7 +594,7 @@ export const products: Product[] = [
     priceRange: "$20–$26",
     badge: "Best Overall",
     name: "Zippered Fabric Under-Bed Storage Bags (Set of 2)",
-    shortDescription: "Two large breathable bags with clear windows and full zipper seals — the most popular under-bed storage for dorms and small bedrooms.",
+    shortDescription: "Two large breathable bags with clear windows and full zipper seals - the most popular under-bed storage for dorms and small bedrooms.",
     bestFor: [
       "Storing seasonal clothing, extra bedding, and dorm extras",
       "Bed frames with 6–9 inches of clearance (standard dorm and apartment beds)",
@@ -633,7 +633,7 @@ export const products: Product[] = [
       buyerFeedback: 9.0,
     },
     reviewSummary:
-      "The most-reviewed and consistently top-rated under-bed storage option for small rooms. The set-of-2 format is practical — most users immediately separate by category (summer clothing vs. winter bedding). The breathable non-woven fabric is the right material for clothing; avoid storing shoes or hard items, which can misshape the bags over time.",
+      "The most-reviewed and consistently top-rated under-bed storage option for small rooms. The set-of-2 format is practical - most users immediately separate by category (summer clothing vs. winter bedding). The breathable non-woven fabric is the right material for clothing; avoid storing shoes or hard items, which can misshape the bags over time.",
     alternatives: ["rolling-underbed-container"],
     relatedGuideSlugs: ["under-bed-storage-small-rooms"],
   },
@@ -648,7 +648,7 @@ export const products: Product[] = [
     priceRange: "$28–$38",
     badge: undefined,
     name: "Rolling Under-Bed Storage Container with Lid",
-    shortDescription: "A rigid-lid rolling container that slides smoothly on any floor — best for shoes, accessories, and items you access frequently.",
+    shortDescription: "A rigid-lid rolling container that slides smoothly on any floor - best for shoes, accessories, and items you access frequently.",
     bestFor: [
       "Shoes, accessories, and frequently-accessed items",
       "Hard floors where a rolling container glides smoothly",
@@ -656,7 +656,7 @@ export const products: Product[] = [
     ],
     notIdealFor: [
       "Platform beds with very low clearance (needs 7.5+ inches)",
-      "Carpet floors — wheels snag and roll poorly on thick pile",
+      "Carpet floors - wheels snag and roll poorly on thick pile",
       "Bulky or oddly-shaped items that don't pack flat",
     ],
     specs: {
@@ -676,7 +676,7 @@ export const products: Product[] = [
     cons: [
       "Wheels do not work on thick carpet",
       "Rigid plastic takes up more vertical clearance than fabric bags",
-      "Single unit — less capacity than the 2-bag fabric set at a higher price",
+      "Single unit - less capacity than the 2-bag fabric set at a higher price",
     ],
     scores: {
       overall: 8.2,
@@ -687,7 +687,7 @@ export const products: Product[] = [
       buyerFeedback: 8.0,
     },
     reviewSummary:
-      "The best choice for items you access regularly — shoes, gym clothes, accessories — where the rolling feature genuinely pays off. The rigid lid keeps contents organized and prevents the shape distortion that affects fabric bags. However, it requires smooth floors and more bed clearance than fabric alternatives, making it a secondary recommendation behind the zippered bags for most dorm and small bedroom use cases.",
+      "The best choice for items you access regularly - shoes, gym clothes, accessories - where the rolling feature genuinely pays off. The rigid lid keeps contents organized and prevents the shape distortion that affects fabric bags. However, it requires smooth floors and more bed clearance than fabric alternatives, making it a secondary recommendation behind the zippered bags for most dorm and small bedroom use cases.",
     alternatives: ["zippered-underbed-bags"],
     relatedGuideSlugs: ["under-bed-storage-small-rooms"],
   },
@@ -704,7 +704,7 @@ export const products: Product[] = [
     priceRange: "$22–$30",
     badge: "Best Overall",
     name: "Desktop Organizer with Drawers and Pen Holder",
-    shortDescription: "A two-drawer desktop organizer with a front pen-and-pencil compartment — consolidates desk clutter into a single vertical footprint.",
+    shortDescription: "A two-drawer desktop organizer with a front pen-and-pencil compartment - consolidates desk clutter into a single vertical footprint.",
     bestFor: [
       "Students who want pens, scissors, sticky notes, and small supplies in one spot",
       "Small desks where surface clutter is the biggest problem",
@@ -727,11 +727,11 @@ export const products: Product[] = [
       "Two deep drawers hide small clutter out of sight while keeping it accessible",
       "Front pen holder keeps writing tools upright and separate from drawer contents",
       "Vertical design adds minimal footprint on a small desk surface",
-      "No assembly required — unbox and place",
+      "No assembly required - unbox and place",
       "Clean aesthetic works with both minimalist and traditional desk styles",
     ],
     cons: [
-      "Drawers have no internal dividers — items mix together without additional inserts",
+      "Drawers have no internal dividers - items mix together without additional inserts",
       "ABS plastic feels lightweight; heavier ceramic or wood alternatives feel more premium",
       "Pen holder section doesn't accommodate large-barrelled markers or paintbrushes",
     ],
@@ -759,7 +759,7 @@ export const products: Product[] = [
     priceRange: "$18–$26",
     badge: "Best for Students",
     name: "Small Personal Foldable Desk Whiteboard",
-    shortDescription: "A double-sided foldable whiteboard designed for desk use — perfect for to-do lists, equations, and daily planning without leaving your setup.",
+    shortDescription: "A double-sided foldable whiteboard designed for desk use - perfect for to-do lists, equations, and daily planning without leaving your setup.",
     bestFor: [
       "STEM students who work through equations and diagrams while studying",
       "Anyone who uses sticky notes or scratch paper constantly and wants a reusable surface",
@@ -779,14 +779,14 @@ export const products: Product[] = [
       "Surface": "Lacquered whiteboard material",
     },
     pros: [
-      "Folds flat for storage or transport — fits in a laptop bag",
+      "Folds flat for storage or transport - fits in a laptop bag",
       "Double-sided surface doubles working area",
       "Integrated kickstand props it up hands-free at desk level",
       "Erases cleanly without ghosting after repeated use",
-      "Starter markers and eraser included — usable out of the box",
+      "Starter markers and eraser included - usable out of the box",
     ],
     cons: [
-      "Smaller surface than a wall-mounted board — not ideal for drawing large diagrams",
+      "Smaller surface than a wall-mounted board - not ideal for drawing large diagrams",
       "Kickstand doesn't allow angle adjustment; fixed upright position only",
       "Included markers are thin-tip; fine for notes but slow for large writing",
     ],
@@ -799,7 +799,7 @@ export const products: Product[] = [
       buyerFeedback: 8.3,
     },
     reviewSummary:
-      "The most underrated study tool for dorm rooms. Sticky notes and scratch paper are inefficient — this foldable whiteboard gives you an always-ready reusable surface for to-do lists, problem-solving, and quick diagrams that doesn't generate waste. Its foldable design solves the dorm-room constraint of no available wall space. STEM students in particular find it indispensable within a week of purchase.",
+      "The most underrated study tool for dorm rooms. Sticky notes and scratch paper are inefficient - this foldable whiteboard gives you an always-ready reusable surface for to-do lists, problem-solving, and quick diagrams that doesn't generate waste. Its foldable design solves the dorm-room constraint of no available wall space. STEM students in particular find it indispensable within a week of purchase.",
     alternatives: [],
     relatedGuideSlugs: ["dorm-room-shower-essentials"],
   },
@@ -814,14 +814,14 @@ export const products: Product[] = [
     priceRange: "$14–$22",
     badge: "Best Budget",
     name: "Slim 10W Wireless Charging Pad",
-    shortDescription: "A flat, small-footprint Qi charging pad — charges iPhone and Android at full speed and takes virtually no desk space.",
+    shortDescription: "A flat, small-footprint Qi charging pad - charges iPhone and Android at full speed and takes virtually no desk space.",
     bestFor: [
       "Anyone who is tired of plugging and unplugging a charging cable multiple times a day",
       "Desk setups where a dedicated phone spot keeps devices out of the way while charging",
       "Students with Qi-compatible phones (iPhone 8 or later, most Android from 2019+)",
     ],
     notIdealFor: [
-      "Users with phone cases thicker than 5mm — wireless charging efficiency drops significantly",
+      "Users with phone cases thicker than 5mm - wireless charging efficiency drops significantly",
       "Charging iPads, AirPods Pro (Gen 1), or devices requiring 15W MagSafe speeds",
     ],
     specs: {
@@ -835,15 +835,15 @@ export const products: Product[] = [
     },
     pros: [
       "3.9-inch diameter takes almost no desk real estate",
-      "7mm thin — sits flush with desk surface without creating a bump",
+      "7mm thin - sits flush with desk surface without creating a bump",
       "USB-C input is compatible with modern laptops and adapters",
-      "Charging indicator light is subtle — doesn't distract in a dark room",
-      "Under $20 — easily the most cost-effective wireless charging option",
+      "Charging indicator light is subtle - doesn't distract in a dark room",
+      "Under $20 - easily the most cost-effective wireless charging option",
     ],
     cons: [
       "Does not support MagSafe 15W speeds for iPhone 12 and later",
-      "Requires phone to be precisely placed — easy to miss the sweet spot",
-      "USB-C adapter not included — need an existing 5V/2A or higher adapter",
+      "Requires phone to be precisely placed - easy to miss the sweet spot",
+      "USB-C adapter not included - need an existing 5V/2A or higher adapter",
     ],
     scores: {
       overall: 8.6,
@@ -854,7 +854,7 @@ export const products: Product[] = [
       buyerFeedback: 8.4,
     },
     reviewSummary:
-      "The cleanest desk accessory upgrade for anyone still using a wired charging cable for their phone. At 3.9 inches wide and 7mm thin, it disappears on a small desk — just set your phone on it and it charges. The 10W output covers the vast majority of modern phones at full speed. The one real limitation is MagSafe: iPhone users who want 15W speeds need to spend more for a MagSafe-specific pad. For everyone else, this is the obvious pick.",
+      "The cleanest desk accessory upgrade for anyone still using a wired charging cable for their phone. At 3.9 inches wide and 7mm thin, it disappears on a small desk - just set your phone on it and it charges. The 10W output covers the vast majority of modern phones at full speed. The one real limitation is MagSafe: iPhone users who want 15W speeds need to spend more for a MagSafe-specific pad. For everyone else, this is the obvious pick.",
     alternatives: ["bed-risers-with-outlets-usb"],
     relatedGuideSlugs: ["dorm-room-power-essentials"],
   },
@@ -868,8 +868,8 @@ export const products: Product[] = [
     amazonUrl: buildAmazonUrl("B07FFLNHVN"),
     priceRange: "$28–$40",
     badge: "Best Overall",
-    name: "Compact Bluetooth Keyboard — 75% Layout, Multi-Device",
-    shortDescription: "A 75% layout Bluetooth keyboard that pairs with three devices simultaneously — the ideal companion for a laptop stand setup.",
+    name: "Compact Bluetooth Keyboard - 75% Layout, Multi-Device",
+    shortDescription: "A 75% layout Bluetooth keyboard that pairs with three devices simultaneously - the ideal companion for a laptop stand setup.",
     bestFor: [
       "Laptop stand users who need a flat external keyboard at desk level",
       "Students who switch between a laptop, tablet, and phone regularly",
@@ -882,7 +882,7 @@ export const products: Product[] = [
     specs: {
       "Layout": "75% compact (no numpad)",
       "Connectivity": "Bluetooth 5.0 (3 device pairing slots)",
-      "Battery": "2000mAh rechargeable — up to 6 months on a charge",
+      "Battery": "2000mAh rechargeable - up to 6 months on a charge",
       "Key Travel": "1.5mm scissor-switch",
       "OS Compatibility": "Windows, macOS, iOS, Android",
       "Dimensions": "12.2\" × 4.5\" × 0.3\"",
@@ -891,12 +891,12 @@ export const products: Product[] = [
     pros: [
       "75% layout saves approximately 4 inches of desk width vs. full-size keyboards",
       "Three Bluetooth channels switch between devices instantly",
-      "USB-C rechargeable — no AA batteries to replace",
+      "USB-C rechargeable - no AA batteries to replace",
       "Low-profile scissor switches are quiet and comfortable for typing",
       "Dedicated function row retained despite compact size",
     ],
     cons: [
-      "No number pad — data-entry-heavy users will miss it",
+      "No number pad - data-entry-heavy users will miss it",
       "Scissor switches feel flat compared to mechanical keyboards",
       "No RGB or backlight on the budget end of the price range",
     ],
@@ -925,15 +925,15 @@ export const products: Product[] = [
     amazonUrl: buildAmazonUrl("B07GK7RVYB"),
     priceRange: "$16–$24",
     badge: "Best Overall",
-    name: "Over-Door Pocket Organizer — 24 Pockets",
-    shortDescription: "24 clear-front pockets that hang over any standard door — stores shoes, school supplies, toiletries, and small items without using floor or wall space.",
+    name: "Over-Door Pocket Organizer - 24 Pockets",
+    shortDescription: "24 clear-front pockets that hang over any standard door - stores shoes, school supplies, toiletries, and small items without using floor or wall space.",
     bestFor: [
       "Dorm rooms where floor and closet space is critically limited",
       "Storing shoes on the back of a closet door (holds 12 pairs in 24 pockets)",
       "Students who need a visible, instantly-accessible home for toiletries or supplies",
     ],
     notIdealFor: [
-      "Storing items heavier than 2 lbs per pocket — the over-door hook can stress door hinges",
+      "Storing items heavier than 2 lbs per pocket - the over-door hook can stress door hinges",
       "Doors with recessed panels wider than 1.5 inches (hook may not hang flat)",
     ],
     specs: {
@@ -941,19 +941,19 @@ export const products: Product[] = [
       "Dimensions": "18\" W × 64\" L",
       "Pocket Size": "6\" W × 5\" H each",
       "Material": "PEVA clear pockets, fabric back panel",
-      "Mount": "Over-door hook — no hardware",
+      "Mount": "Over-door hook - no hardware",
       "Door Compatibility": "Standard interior doors up to 1.75\" thick",
       "Max Load": "1.5 lbs per pocket",
     },
     pros: [
-      "Hangs in 10 seconds — no screws, no damage to door or wall",
+      "Hangs in 10 seconds - no screws, no damage to door or wall",
       "Clear fronts let you see contents without opening pockets",
       "24 pockets is enough to organize an entire shoe collection or full toiletry kit",
       "64-inch length reaches from door top to below mid-height",
       "Multipurpose: works as shoe organizer, pantry organizer, cleaning supply holder, or school supply station",
     ],
     cons: [
-      "Pockets are fixed size — won't accommodate items wider than 6 inches",
+      "Pockets are fixed size - won't accommodate items wider than 6 inches",
       "Over-door hook adds about 0.75 inches of door clearance needed",
       "Fabric back panel can snag if the door is opened against a rough door frame",
     ],
@@ -966,7 +966,7 @@ export const products: Product[] = [
       buyerFeedback: 8.7,
     },
     reviewSummary:
-      "The highest-impact low-cost storage upgrade for a dorm room — it converts a blank door back panel into 24 usable storage slots without a single nail or screw. Students use it in three main configurations: shoe storage on the closet door, toiletry and personal care organization on the bathroom door, and school supply storage on the room door. The clear pockets prevent the 'out of sight, out of mind' problem that plagues opaque organizers. At under $20, it's one of the best value-per-square-inch storage products available.",
+      "The highest-impact low-cost storage upgrade for a dorm room - it converts a blank door back panel into 24 usable storage slots without a single nail or screw. Students use it in three main configurations: shoe storage on the closet door, toiletry and personal care organization on the bathroom door, and school supply storage on the room door. The clear pockets prevent the 'out of sight, out of mind' problem that plagues opaque organizers. At under $20, it's one of the best value-per-square-inch storage products available.",
     alternatives: ["collapsible-storage-cubes"],
     relatedGuideSlugs: ["small-room-closet-storage"],
   },
@@ -980,15 +980,15 @@ export const products: Product[] = [
     amazonUrl: buildAmazonUrl("B01M4MBBP7"),
     priceRange: "$22–$32",
     badge: "Best Value Set",
-    name: "Collapsible Fabric Storage Cubes — Set of 6",
-    shortDescription: "Six fold-flat fabric cubes that fit any cube shelf unit — stores clothes, linens, and accessories while hiding contents for a clean look.",
+    name: "Collapsible Fabric Storage Cubes - Set of 6",
+    shortDescription: "Six fold-flat fabric cubes that fit any cube shelf unit - stores clothes, linens, and accessories while hiding contents for a clean look.",
     bestFor: [
       "Cube bookshelf owners who want to add closed storage to open cubbies",
       "Storing folded clothes, extra linens, or bulky items in a closet",
       "Students who want storage that collapses completely flat when moving in/out",
     ],
     notIdealFor: [
-      "Freestanding use — these need a shelf or cube unit to maintain their shape",
+      "Freestanding use - these need a shelf or cube unit to maintain their shape",
       "Heavy items over 15 lbs per cube (fabric sides will bow outward)",
     ],
     specs: {
@@ -996,20 +996,20 @@ export const products: Product[] = [
       "Fits": "Standard 12-inch cube shelf units",
       "Material": "Non-woven fabric with cardboard base insert",
       "Handle": "Dual fabric handles on each cube",
-      "Folded": "Collapses flat — under 1 inch thick",
+      "Folded": "Collapses flat - under 1 inch thick",
       "Quantity": "6 cubes per set",
       "Colors": "Multiple solid colors and two-tone patterns",
     },
     pros: [
       "Set of 6 provides enough cubes to fill a standard 6-cube or 8-cube bookshelf unit",
-      "Collapses completely flat — easy to store or transport between semesters",
+      "Collapses completely flat - easy to store or transport between semesters",
       "Dual handles let you pull cubes out of a shelf like a drawer",
       "Hides contents for a neat, uniform shelf appearance",
       "Wide color variety lets you color-code by category",
     ],
     cons: [
       "Cardboard base insert softens with humidity over time",
-      "Not freestanding — requires a shelf unit or they collapse",
+      "Not freestanding - requires a shelf unit or they collapse",
       "Non-woven fabric shows scuffs and marks with heavy use",
     ],
     scores: {
@@ -1021,7 +1021,7 @@ export const products: Product[] = [
       buyerFeedback: 8.6,
     },
     reviewSummary:
-      "An essential buy for anyone with a cube bookshelf unit. Without cubes, an open cube shelf shows everything stored in it and looks perpetually messy. These fabric bins turn each cubby into a closed drawer-like compartment that can be pulled out completely. The set-of-6 value is strong — comparable single cubes cost $6–$8 each. The main practical limitation is the cardboard base: in humid environments or if stored with wet items, it softens. Replace the insert with a thin plastic cutting board if longevity is a concern.",
+      "An essential buy for anyone with a cube bookshelf unit. Without cubes, an open cube shelf shows everything stored in it and looks perpetually messy. These fabric bins turn each cubby into a closed drawer-like compartment that can be pulled out completely. The set-of-6 value is strong - comparable single cubes cost $6–$8 each. The main practical limitation is the cardboard base: in humid environments or if stored with wet items, it softens. Replace the insert with a thin plastic cutting board if longevity is a concern.",
     alternatives: ["over-door-pocket-organizer", "vacuum-storage-bags"],
     relatedGuideSlugs: ["small-room-closet-storage"],
   },
@@ -1037,8 +1037,8 @@ export const products: Product[] = [
     amazonUrl: buildAmazonUrl("B08CXSLCMC"),
     priceRange: "$16–$24",
     badge: "Best Overall",
-    name: "Portable Hanging Dorm Shower Caddy — Rust-Proof",
-    shortDescription: "A rust-proof steel hanging caddy with removable divided shelves — designed specifically for the walk to and from shared dorm showers.",
+    name: "Portable Hanging Dorm Shower Caddy - Rust-Proof",
+    shortDescription: "A rust-proof steel hanging caddy with removable divided shelves - designed specifically for the walk to and from shared dorm showers.",
     bestFor: [
       "Dorm residents using communal bathrooms who need to carry and hang supplies",
       "Students who want compartmentalized toiletry organization (shampoo separated from razors)",
@@ -1053,20 +1053,20 @@ export const products: Product[] = [
       "Shelves": "2 removable mesh shelves + top hanging hook",
       "Capacity per Shelf": "Fits 3–4 standard bottles",
       "Hanging Mechanism": "Stainless steel S-hook included",
-      "Drain Holes": "Full mesh — drains completely",
+      "Drain Holes": "Full mesh - drains completely",
       "Handle": "Reinforced carry handle at top",
       "Dimensions": "10.6\" W × 5.5\" D × 11\" H",
     },
     pros: [
       "Rust-resistant coating holds up to daily shower use and humidity",
       "Removable shelves allow interior configuration for tall or short bottles",
-      "Full mesh design drains water immediately — no pooling at the bottom",
+      "Full mesh design drains water immediately - no pooling at the bottom",
       "Hanging S-hook goes over any shower rod or hook",
       "Sturdy carry handle for the walk from dorm room to shower",
     ],
     cons: [
-      "Only 2 shelves — if you have 5+ bottles, this fills quickly",
-      "Steel is heavier than plastic alternatives — noticeable when carrying fully loaded",
+      "Only 2 shelves - if you have 5+ bottles, this fills quickly",
+      "Steel is heavier than plastic alternatives - noticeable when carrying fully loaded",
       "Mesh can snag small items like razor heads if not placed carefully",
     ],
     scores: {
@@ -1078,7 +1078,7 @@ export const products: Product[] = [
       buyerFeedback: 9.0,
     },
     reviewSummary:
-      "The most durable shower caddy in this category. The rust-resistant coated steel outlasts the plastic caddies that deform, crack, or develop orange rust streaks within a semester. The removable shelf design is underappreciated: you can configure the interior to fit your specific bottles rather than working around fixed dividers. The S-hook provides a hands-free hang in the shower, and the carry handle is solid enough to trust fully loaded. The one honest limitation is capacity — heavy product users should look at a two-caddy system rather than overloading a single one.",
+      "The most durable shower caddy in this category. The rust-resistant coated steel outlasts the plastic caddies that deform, crack, or develop orange rust streaks within a semester. The removable shelf design is underappreciated: you can configure the interior to fit your specific bottles rather than working around fixed dividers. The S-hook provides a hands-free hang in the shower, and the carry handle is solid enough to trust fully loaded. The one honest limitation is capacity - heavy product users should look at a two-caddy system rather than overloading a single one.",
     alternatives: [],
     relatedGuideSlugs: ["dorm-room-shower-essentials"],
   },
@@ -1092,8 +1092,8 @@ export const products: Product[] = [
     amazonUrl: buildAmazonUrl("B07B9YQNMR"),
     priceRange: "$12–$18",
     badge: undefined,
-    name: "Desk Drawer Organizer Tray Set — 8 Piece",
-    shortDescription: "Eight interlocking plastic trays that tile inside any desk drawer — transforms a cluttered junk drawer into a sorted, efficient workspace.",
+    name: "Desk Drawer Organizer Tray Set - 8 Piece",
+    shortDescription: "Eight interlocking plastic trays that tile inside any desk drawer - transforms a cluttered junk drawer into a sorted, efficient workspace.",
     bestFor: [
       "Anyone with a desk that has at least one drawer currently used as a junk drawer",
       "Students who want pens, USB cables, and stationery sorted and instantly findable",
@@ -1101,7 +1101,7 @@ export const products: Product[] = [
     ],
     notIdealFor: [
       "Drawers under 12 inches wide where full tray configurations don't fit",
-      "Users who don't have desk drawers — these require a drawer to work",
+      "Users who don't have desk drawers - these require a drawer to work",
     ],
     specs: {
       "Pieces": "8 trays in 3 sizes",
@@ -1109,20 +1109,20 @@ export const products: Product[] = [
       "Medium Tray": "2.5\" × 8.0\" (×2)",
       "Large Tray": "4.0\" × 8.0\" (×2)",
       "Material": "BPA-free polypropylene",
-      "Height": "1.75 inches — standard drawer-depth fit",
-      "Interlocking": "Yes — snap together to prevent sliding",
+      "Height": "1.75 inches - standard drawer-depth fit",
+      "Interlocking": "Yes - snap together to prevent sliding",
     },
     pros: [
       "Interlocking design keeps all trays from shifting when the drawer is opened",
       "Three sizes allow a custom layout matched to your specific items",
       "Transparent plastic makes all contents visible from above",
-      "BPA-free material — safe for food items in a kitchen drawer too",
-      "Under $15 — among the most affordable drawer organization options",
+      "BPA-free material - safe for food items in a kitchen drawer too",
+      "Under $15 - among the most affordable drawer organization options",
     ],
     cons: [
-      "No configuration covers all drawer sizes — you may have unfilled corners in very wide drawers",
+      "No configuration covers all drawer sizes - you may have unfilled corners in very wide drawers",
       "Tray walls are thin; flex slightly when pressed hard",
-      "Color options are limited — mostly clear or white",
+      "Color options are limited - mostly clear or white",
     ],
     scores: {
       overall: 8.6,
@@ -1133,7 +1133,7 @@ export const products: Product[] = [
       buyerFeedback: 8.4,
     },
     reviewSummary:
-      "A simple product that delivers consistently above its price point. The interlocking tabs are the differentiating feature — unlike loose trays that drift to one end of the drawer within a week, these stay in the configuration you set. The three-size system covers desk supplies well: small trays for erasers, staples, and SIM cards; medium trays for pens and markers; large trays for scissors, tape, and adapters. Measure your drawer width before purchasing to ensure the 8-piece set fills it adequately.",
+      "A simple product that delivers consistently above its price point. The interlocking tabs are the differentiating feature - unlike loose trays that drift to one end of the drawer within a week, these stay in the configuration you set. The three-size system covers desk supplies well: small trays for erasers, staples, and SIM cards; medium trays for pens and markers; large trays for scissors, tape, and adapters. Measure your drawer width before purchasing to ensure the 8-piece set fills it adequately.",
     alternatives: ["desktop-organizer-with-drawers", "stackable-acrylic-desk-organizer"],
     relatedGuideSlugs: ["desk-organizers-small-desks"],
   },
@@ -1147,23 +1147,23 @@ export const products: Product[] = [
     amazonUrl: buildAmazonUrl("B07CK1TK2Y"),
     priceRange: "$24–$34",
     badge: "Best Premium",
-    name: "Stackable Clear Acrylic Desk Organizer — 4 Compartment",
-    shortDescription: "Crystal-clear acrylic construction in a 4-compartment stackable design — the most visually clean organizer for a minimal desk aesthetic.",
+    name: "Stackable Clear Acrylic Desk Organizer - 4 Compartment",
+    shortDescription: "Crystal-clear acrylic construction in a 4-compartment stackable design - the most visually clean organizer for a minimal desk aesthetic.",
     bestFor: [
       "Students or professionals who want a premium, aesthetic desk setup",
       "Organizing makeup and beauty tools as well as desk supplies",
       "Anyone who values seeing all their supplies at a glance without opening drawers",
     ],
     notIdealFor: [
-      "Rough-use environments — acrylic scratches more easily than ABS plastic",
+      "Rough-use environments - acrylic scratches more easily than ABS plastic",
       "Budget-conscious buyers: costs 2× the plastic alternatives for similar function",
     ],
     specs: {
       "Material": "Premium PMMA acrylic (not cheap PS plastic)",
       "Compartments": "4 open-top sections",
       "Dimensions": "9.5\" W × 7.5\" D × 3.5\" H",
-      "Stackable": "Yes — designed to stack 2 units high",
-      "Clarity": "Crystal clear — no yellowing from UV",
+      "Stackable": "Yes - designed to stack 2 units high",
+      "Clarity": "Crystal clear - no yellowing from UV",
       "Edge Finish": "Polished smooth edges",
     },
     pros: [
@@ -1174,7 +1174,7 @@ export const products: Product[] = [
       "Works equally well for desk supplies, cosmetics, or craft supplies",
     ],
     cons: [
-      "Scratches more easily than ABS plastic — avoid abrasive cleaning",
+      "Scratches more easily than ABS plastic - avoid abrasive cleaning",
       "2× the price of comparable ABS organizers",
       "Open top means dust accumulates in compartments",
     ],
@@ -1187,7 +1187,7 @@ export const products: Product[] = [
       buyerFeedback: 8.3,
     },
     reviewSummary:
-      "The aesthetically superior choice in desk organization. If the way your desk looks matters to you as much as the function, acrylic beats plastic alternatives hands down — the crystal clarity and polished finish make it look like a purposeful design choice rather than a utility purchase. The stacking feature is genuinely useful: buy one to start and add a second if needed without changing your desk footprint. The trade-offs are real: it scratches more easily and costs more. For budget-focused buyers, the ABS plastic organizer or tray set is the smarter pick.",
+      "The aesthetically superior choice in desk organization. If the way your desk looks matters to you as much as the function, acrylic beats plastic alternatives hands down - the crystal clarity and polished finish make it look like a purposeful design choice rather than a utility purchase. The stacking feature is genuinely useful: buy one to start and add a second if needed without changing your desk footprint. The trade-offs are real: it scratches more easily and costs more. For budget-focused buyers, the ABS plastic organizer or tray set is the smarter pick.",
     alternatives: ["desktop-organizer-with-drawers", "desk-drawer-organizer-tray-set"],
     relatedGuideSlugs: ["desk-organizers-small-desks"],
   },
@@ -1202,7 +1202,7 @@ export const products: Product[] = [
     priceRange: "$38–$50",
     badge: "Best Overall",
     name: "Bed Risers with Power Outlets and USB Ports",
-    shortDescription: "Raises your bed 5 inches to create under-bed storage AND adds two power outlets and two USB ports at bed height — the most useful dorm upgrade available.",
+    shortDescription: "Raises your bed 5 inches to create under-bed storage AND adds two power outlets and two USB ports at bed height - the most useful dorm upgrade available.",
     bestFor: [
       "Dorm students whose bed sits too low for under-bed storage bags",
       "Anyone whose nearest wall outlet is inconveniently far from their bed",
@@ -1226,13 +1226,13 @@ export const products: Product[] = [
       "5-inch lift creates meaningful under-bed clearance for standard storage bags",
       "Built-in outlets and USB ports add charging access right at bed level",
       "Surge protection protects devices from power fluctuations in older dorm buildings",
-      "1,300 lb weight capacity — handles any dorm mattress and frame combination",
+      "1,300 lb weight capacity - handles any dorm mattress and frame combination",
       "Fits both round and square bed legs with included adapters",
     ],
     cons: [
-      "More expensive than basic risers — you're paying for the electrical integration",
-      "The 6-foot cord needs to reach a wall outlet — plan placement accordingly",
-      "USB-A only, no USB-C — fast-charging newer iPhones and Android phones requires an adapter",
+      "More expensive than basic risers - you're paying for the electrical integration",
+      "The 6-foot cord needs to reach a wall outlet - plan placement accordingly",
+      "USB-A only, no USB-C - fast-charging newer iPhones and Android phones requires an adapter",
     ],
     scores: {
       overall: 9.2,
@@ -1248,7 +1248,7 @@ export const products: Product[] = [
     relatedGuideSlugs: ["dorm-room-power-essentials"],
   },
 
-  // ── Storage — Vacuum Bags & Power ─────────────────────────────────────────
+  // ── Storage - Vacuum Bags & Power ─────────────────────────────────────────
 
   {
     id: "vacuum-storage-bags",
@@ -1259,8 +1259,8 @@ export const products: Product[] = [
     amazonUrl: buildAmazonUrl("B07DZ75TZX"),
     priceRange: "$18–$26",
     badge: "Best for Clothing",
-    name: "Vacuum Storage Bags — Space Saver Set of 8",
-    shortDescription: "Eight vacuum-seal bags in three sizes that compress bulky clothing and bedding to 80% less volume — the best solution for closet overflow.",
+    name: "Vacuum Storage Bags - Space Saver Set of 8",
+    shortDescription: "Eight vacuum-seal bags in three sizes that compress bulky clothing and bedding to 80% less volume - the best solution for closet overflow.",
     bestFor: [
       "Storing seasonal clothing (winter coats, sweaters) that takes up excessive closet space",
       "Compressing extra bedding sets that don't fit in a dorm closet otherwise",
@@ -1268,19 +1268,19 @@ export const products: Product[] = [
     ],
     notIdealFor: [
       "Delicate fabrics (silk, cashmere, heavily structured garments) that shouldn't be compressed",
-      "Items with down filling — compression permanently damages down loft",
+      "Items with down filling - compression permanently damages down loft",
     ],
     specs: {
       "Quantities": "8 bags total: 2 jumbo (31\"×40\"), 3 large (23\"×28\"), 3 medium (15\"×23\")",
       "Seal Type": "Double-zip + vacuum valve",
       "Vacuum Method": "Standard vacuum cleaner nozzle",
-      "Re-sealable": "Yes — reusable indefinitely",
+      "Re-sealable": "Yes - reusable indefinitely",
       "Material": "PA+PE laminated barrier film",
       "Compression": "Up to 80% volume reduction",
     },
     pros: [
       "Set of 8 covers a full dorm room clothing/bedding inventory",
-      "Three sizes allow matching bag to item — no wasted space",
+      "Three sizes allow matching bag to item - no wasted space",
       "Double-zip seal maintains vacuum for months without re-pumping",
       "Compatible with any household vacuum cleaner",
       "PA+PE material is significantly more puncture-resistant than single-layer PE bags",
@@ -1299,7 +1299,7 @@ export const products: Product[] = [
       buyerFeedback: 8.7,
     },
     reviewSummary:
-      "The single most effective intervention for a closet that doesn't have enough space. Compressing a full winter wardrobe into vacuum bags at the start of spring semester or before summer storage can reclaim 60–70% of closet volume. The set-of-8 format with three sizes is the right purchasing unit — one jumbo bag for a comforter, two large bags for sweaters and jeans, and three medium bags for tees and light layers. Avoid using these for down items or structured pieces, and you'll get multiple semesters of use from a single set.",
+      "The single most effective intervention for a closet that doesn't have enough space. Compressing a full winter wardrobe into vacuum bags at the start of spring semester or before summer storage can reclaim 60–70% of closet volume. The set-of-8 format with three sizes is the right purchasing unit - one jumbo bag for a comforter, two large bags for sweaters and jeans, and three medium bags for tees and light layers. Avoid using these for down items or structured pieces, and you'll get multiple semesters of use from a single set.",
     alternatives: ["collapsible-storage-cubes", "over-door-pocket-organizer"],
     relatedGuideSlugs: ["small-room-closet-storage"],
   },
@@ -1314,14 +1314,14 @@ export const products: Product[] = [
     priceRange: "$22–$32",
     badge: "Best Overall",
     name: "Compact Surge Protector Power Strip with 4 USB Ports",
-    shortDescription: "A slim surge-protected power strip with 3 AC outlets and 4 USB-A ports — designed to sit flat on a small desk without the bulk of standard power strips.",
+    shortDescription: "A slim surge-protected power strip with 3 AC outlets and 4 USB-A ports - designed to sit flat on a small desk without the bulk of standard power strips.",
     bestFor: [
       "Dorm rooms where wall outlets are limited to 1–2 per side of the room",
       "Desk setups with multiple devices (laptop, monitor, lamp, phone, tablet) needing simultaneous power",
       "Students who want USB charging without occupying AC outlets",
     ],
     notIdealFor: [
-      "High-draw appliances like space heaters, kettles, or mini fridges — these need a dedicated outlet",
+      "High-draw appliances like space heaters, kettles, or mini fridges - these need a dedicated outlet",
       "Dorm rooms that prohibit power strips without surge protection (this one is surge-protected, so it qualifies)",
     ],
     specs: {
@@ -1335,13 +1335,13 @@ export const products: Product[] = [
     },
     pros: [
       "Slim 1.3-inch profile sits flat on a desk surface without rolling",
-      "AC outlets are spaced generously — accommodates wall adapters side by side",
+      "AC outlets are spaced generously - accommodates wall adapters side by side",
       "4 USB-A ports eliminate the need for separate USB charging hubs",
-      "1,080-joule surge protection — adequate for laptops and monitors in older buildings",
+      "1,080-joule surge protection - adequate for laptops and monitors in older buildings",
       "ETL certification verifies electrical safety standards",
     ],
     cons: [
-      "No USB-C ports — fast-charging modern smartphones requires a USB-C to USB-A adapter",
+      "No USB-C ports - fast-charging modern smartphones requires a USB-C to USB-A adapter",
       "5-foot cord is sufficient for most desk setups but short for beds far from wall outlets",
       "Shared USB amperage means charging speed drops if all 4 ports are in use simultaneously",
     ],
@@ -1354,7 +1354,7 @@ export const products: Product[] = [
       buyerFeedback: 9.0,
     },
     reviewSummary:
-      "The most practical desk accessory for dorm room setup. Older dorm buildings often have only one usable outlet per desk area — this power strip multiplies that into 3 AC outlets and 4 USB ports, which is enough for a fully equipped student desk setup. The slim profile means it can sit on the desk surface or be tucked against the wall without the clunky footprint of traditional power strips. The absence of USB-C is the most notable limitation in 2026, but an inexpensive USB-C to USB-A adapter solves this for devices that need it. ETL certification is important — confirm your dorm allows surge-protected strips (most do).",
+      "The most practical desk accessory for dorm room setup. Older dorm buildings often have only one usable outlet per desk area - this power strip multiplies that into 3 AC outlets and 4 USB ports, which is enough for a fully equipped student desk setup. The slim profile means it can sit on the desk surface or be tucked against the wall without the clunky footprint of traditional power strips. The absence of USB-C is the most notable limitation in 2026, but an inexpensive USB-C to USB-A adapter solves this for devices that need it. ETL certification is important - confirm your dorm allows surge-protected strips (most do).",
     alternatives: ["bed-risers-with-outlets-usb"],
     relatedGuideSlugs: ["dorm-room-power-essentials"],
   },
@@ -1371,14 +1371,14 @@ export const products: Product[] = [
     priceRange: "$35–$50",
     badge: "Best Overall",
     name: "Narrow Rolling Storage Cart with Drawers",
-    shortDescription: "A slim 3-drawer rolling cart that fits between furniture gaps — the most versatile small-room storage upgrade under $50.",
+    shortDescription: "A slim 3-drawer rolling cart that fits between furniture gaps - the most versatile small-room storage upgrade under $50.",
     bestFor: [
       "The gap between a desk and a wall or beside a dresser",
       "Dorm rooms that need drawer organization without a full dresser",
       "Bathrooms, kitchens, and laundry areas in small apartments",
     ],
     notIdealFor: [
-      "Very rough or uneven floors — casters may rattle or catch",
+      "Very rough or uneven floors - casters may rattle or catch",
       "Gaps narrower than 10 inches",
     ],
     specs: {
@@ -1399,7 +1399,7 @@ export const products: Product[] = [
     cons: [
       "Drawers have no internal dividers (can be added separately)",
       "Plastic construction won't survive heavy loads beyond spec",
-      "Assembly required — instructions are basic",
+      "Assembly required - instructions are basic",
     ],
     scores: {
       overall: 9.0,
@@ -1410,7 +1410,7 @@ export const products: Product[] = [
       buyerFeedback: 9.0,
     },
     reviewSummary:
-      "The single most-versatile storage addition for small rooms. The narrow width is the key feature — it turns otherwise wasted gap space beside furniture into organized drawer storage. Students frequently report using one beside a dorm desk for school supplies, beside a bed for personal items, and taking it home for bathroom storage between semesters. The locking wheels are essential; make sure to engage them when parked to prevent unwanted rolling.",
+      "The single most-versatile storage addition for small rooms. The narrow width is the key feature - it turns otherwise wasted gap space beside furniture into organized drawer storage. Students frequently report using one beside a dorm desk for school supplies, beside a bed for personal items, and taking it home for bathroom storage between semesters. The locking wheels are essential; make sure to engage them when parked to prevent unwanted rolling.",
     alternatives: ["compact-3tier-storage-tower"],
     relatedGuideSlugs: [],
   },
@@ -1425,7 +1425,7 @@ export const products: Product[] = [
     priceRange: "$22–$32",
     badge: "Best Budget",
     name: "Compact 3-Tier Storage Tower",
-    shortDescription: "A lightweight stackable tower that adds vertical storage without eating floor space — under $30 and assembles in minutes.",
+    shortDescription: "A lightweight stackable tower that adds vertical storage without eating floor space - under $30 and assembles in minutes.",
     bestFor: [
       "Desk corners for office supplies and small electronics",
       "Bathroom countertops in shared dorm bathrooms",
@@ -1433,7 +1433,7 @@ export const products: Product[] = [
     ],
     notIdealFor: [
       "Items that need to be hidden or dust-protected (open shelves)",
-      "Heavy items — open tiers are less stable than enclosed drawers under load",
+      "Heavy items - open tiers are less stable than enclosed drawers under load",
     ],
     specs: {
       "Dimensions": "9.1\" W × 6.3\" D × 19.1\" H",
@@ -1444,15 +1444,15 @@ export const products: Product[] = [
       "Base": "Non-slip feet (no wheels)",
     },
     pros: [
-      "Snap-together assembly — no tools, under 5 minutes",
-      "Footprint is under 10 inches wide — fits on desk corners",
+      "Snap-together assembly - no tools, under 5 minutes",
+      "Footprint is under 10 inches wide - fits on desk corners",
       "Open design makes contents visible and accessible at a glance",
-      "Very lightweight — easy to move when rearranging",
+      "Very lightweight - easy to move when rearranging",
     ],
     cons: [
-      "Open shelves accumulate dust — not ideal for items needing protection",
+      "Open shelves accumulate dust - not ideal for items needing protection",
       "Lighter weight means it can tip if top shelf is overloaded",
-      "No wheels — moving requires lifting",
+      "No wheels - moving requires lifting",
     ],
     scores: {
       overall: 8.0,

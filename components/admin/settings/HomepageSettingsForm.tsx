@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useActionState, useState } from "react";
 import { updateHomepageSettingsAction } from "@/app/admin/settings-actions";
@@ -86,7 +86,7 @@ export function HomepageSettingsForm({ initial, availableGuides }: Props) {
           <label className="block text-sm font-medium text-ink-secondary mb-1">Featured guide slug</label>
           {availableGuides.length > 0 ? (
             <select name="featuredGuideSlug" defaultValue={initial.featuredGuideSlug} className={selectClass}>
-              <option value="">— None —</option>
+              <option value="">- None -</option>
               {availableGuides.map((g) => (
                 <option key={g.slug} value={g.slug}>{g.title} ({g.slug})</option>
               ))}

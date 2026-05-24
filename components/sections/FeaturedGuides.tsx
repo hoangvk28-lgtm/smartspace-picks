@@ -22,7 +22,7 @@ export function FeaturedGuides({
       <SectionHeader
         eyebrow="Buying Guides"
         title={title}
-        description="Carefully evaluated product comparisons for small-space living — no padding, just our honest picks."
+        description="Carefully evaluated product comparisons for small-space living - no padding, just our honest picks."
         href={showAll ? "/guide" : undefined}
         hrefLabel="View all guides"
       />
@@ -55,7 +55,7 @@ function GuideCard({
       className="group flex flex-col gap-4 bg-white rounded-card border border-border border-t-4 border-t-transparent overflow-hidden hover:shadow-card-hover transition-all"
       style={{ borderTopColor: categoryColor }}
     >
-      {/* Cover — hero image or fallback illustration */}
+      {/* Cover - hero image or fallback illustration */}
       {guide.heroImage && guide.heroImage.startsWith("http") ? (
         <div className="relative w-full h-44 overflow-hidden">
           <Image
@@ -75,7 +75,7 @@ function GuideCard({
       )}
 
       <div className="p-5 flex flex-col gap-3 flex-1">
-        {/* Meta — read time, date, and category badge */}
+        {/* Meta - read time, date, and category badge */}
         <div className="flex items-center gap-3 text-xs text-ink-muted flex-wrap">
           <span>{guide.readTime}</span>
           <span aria-hidden="true">·</span>

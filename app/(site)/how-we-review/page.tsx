@@ -39,7 +39,7 @@ const SCORE_DIMS = [
     label: "Value for Money",
     weight: "20%",
     description:
-      "Price-to-performance ratio relative to competing products at a similar price point. We do not penalize a product simply for being expensive — we evaluate whether the price is justified by what you get.",
+      "Price-to-performance ratio relative to competing products at a similar price point. We do not penalize a product simply for being expensive - we evaluate whether the price is justified by what you get.",
   },
   {
     key: "buyerFeedback",
@@ -69,7 +69,7 @@ const BADGES = [
   {
     label: "Editor's Choice",
     meaning:
-      "A product that earns a strong recommendation for reasons not fully captured in our five scored criteria — typically exceptional design, a standout single feature, or unusually strong buyer satisfaction.",
+      "A product that earns a strong recommendation for reasons not fully captured in our five scored criteria - typically exceptional design, a standout single feature, or unusually strong buyer satisfaction.",
   },
 ];
 
@@ -90,7 +90,7 @@ export default function HowWeReviewPage() {
       {/* Honest disclaimer callout */}
       <div className="mb-10 p-5 rounded-lg border-l-4 border-brand bg-brand-light/40">
         <p className="text-sm text-ink leading-relaxed">
-          <strong>Important:</strong> Unless explicitly stated otherwise, our guides are based on product research and comparison — not hands-on lab testing. We evaluate products using manufacturer specifications, use-case analysis, and buyer feedback patterns from verified Amazon reviews. We do not operate a physical testing facility. We believe this is the honest way to publish an affiliate comparison site, and we flag it prominently so readers can make informed decisions.
+          <strong>Important:</strong> Unless explicitly stated otherwise, our guides are based on product research and comparison - not hands-on lab testing. We evaluate products using manufacturer specifications, use-case analysis, and buyer feedback patterns from verified Amazon reviews. We do not operate a physical testing facility. We believe this is the honest way to publish an affiliate comparison site, and we flag it prominently so readers can make informed decisions.
         </p>
       </div>
 
@@ -105,7 +105,7 @@ export default function HowWeReviewPage() {
             {
               n: "1",
               title: "Define the use case",
-              body: "Who is buying this, and what space constraints do they face? We write buying guides around specific contexts — a dorm room is different from a studio apartment, which is different from a bedroom home office. Use-case framing is set before any product is evaluated.",
+              body: "Who is buying this, and what space constraints do they face? We write buying guides around specific contexts - a dorm room is different from a studio apartment, which is different from a bedroom home office. Use-case framing is set before any product is evaluated.",
             },
             {
               n: "2",
@@ -115,7 +115,7 @@ export default function HowWeReviewPage() {
             {
               n: "3",
               title: "Filter by specifications",
-              body: "Products that don't meet baseline requirements for small-space use — too large, wrong mounting type, incompatible with dorm furniture, or requiring permanent installation — are excluded before scoring.",
+              body: "Products that don't meet baseline requirements for small-space use - too large, wrong mounting type, incompatible with dorm furniture, or requiring permanent installation - are excluded before scoring.",
             },
             {
               n: "4",
@@ -181,7 +181,7 @@ export default function HowWeReviewPage() {
         <div className="space-y-3">
           {[
             { range: "9.0 – 10.0", label: "Excellent", color: "text-score-high bg-score-high/10 border-score-high/30", desc: "Best-in-class for small-space use. We recommend this product without hesitation to anyone in the target use case." },
-            { range: "8.0 – 8.9", label: "Very Good",  color: "text-score-mid bg-score-mid/10 border-score-mid/30", desc: "Strong performer with minor trade-offs. A confident recommendation — the caveats are noted clearly in the review." },
+            { range: "8.0 – 8.9", label: "Very Good",  color: "text-score-mid bg-score-mid/10 border-score-mid/30", desc: "Strong performer with minor trade-offs. A confident recommendation - the caveats are noted clearly in the review." },
             { range: "7.0 – 7.9", label: "Good",        color: "text-score-mid bg-score-mid/10 border-score-mid/30", desc: "Solid product that performs its core function well, but better alternatives exist in at least one important dimension." },
             { range: "6.0 – 6.9", label: "Fair",        color: "text-score-low bg-score-low/10 border-score-low/30", desc: "Acceptable but with noticeable shortcomings. We include these only when they represent the best available budget option." },
             { range: "Below 6.0", label: "Not Included", color: "text-ink-muted bg-bg border-border", desc: "We generally do not include products that score below 6.0 in our published guides." },

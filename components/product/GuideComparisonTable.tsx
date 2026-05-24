@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import type { Product } from "@/data/products";
 import { Badge } from "@/components/ui/Badge";
 import { CTAButton } from "@/components/ui/CTAButton";
@@ -77,14 +77,14 @@ export function GuideComparisonTable({ products }: GuideComparisonTableProps) {
                 {/* Best for */}
                 <td className="px-4 py-4 align-top hidden lg:table-cell">
                   <p className="text-xs text-ink-secondary leading-relaxed max-w-[180px]">
-                    {product.bestFor[0] ?? "—"}
+                    {product.bestFor[0] ?? "-"}
                   </p>
                 </td>
 
                 {/* Key strength (first pro) */}
                 <td className="px-4 py-4 align-top hidden xl:table-cell">
                   <p className="text-xs text-ink-secondary leading-relaxed max-w-[200px]">
-                    {product.pros[0] ?? "—"}
+                    {product.pros[0] ?? "-"}
                   </p>
                 </td>
 

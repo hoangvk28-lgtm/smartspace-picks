@@ -186,7 +186,7 @@ export default async function AdminDashboardPage() {
                       </span>
                       <div className="flex-1 min-w-0">
                         <p className="text-sm font-medium text-ink truncate">{item.title}</p>
-                        <p className="text-xs text-ink-muted">{item.updatedAt ? formatDate(item.updatedAt) : "—"}</p>
+                        <p className="text-xs text-ink-muted">{item.updatedAt ? formatDate(item.updatedAt) : "-"}</p>
                       </div>
                       <div className="flex items-center gap-2 shrink-0">
                         {item.status && item.type !== "media" && (

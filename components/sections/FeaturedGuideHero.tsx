@@ -28,9 +28,9 @@ export function FeaturedGuideHero({ guide, products }: FeaturedGuideHeroProps) {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-8 items-start">
-        {/* Left — editorial card */}
+        {/* Left - editorial card */}
         <div className="flex flex-col gap-5 p-7 bg-white rounded-card border border-brand-muted shadow-card">
-          {/* Guide cover — hero image or fallback illustration */}
+          {/* Guide cover - hero image or fallback illustration */}
           {guide.heroImage && guide.heroImage.startsWith("http") ? (
             <div className="relative w-full h-48 sm:h-56 rounded-lg overflow-hidden">
               <Image
@@ -100,7 +100,7 @@ export function FeaturedGuideHero({ guide, products }: FeaturedGuideHeroProps) {
           </div>
         </div>
 
-        {/* Right — top 3 product mini-cards */}
+        {/* Right - top 3 product mini-cards */}
         {topThree.length > 0 && (
           <div className="flex flex-col gap-4">
             <p className="text-xs font-bold uppercase tracking-widest text-ink-muted">

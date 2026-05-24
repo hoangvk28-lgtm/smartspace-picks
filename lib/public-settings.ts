@@ -6,7 +6,7 @@ import type {
   FooterSettings,
 } from "@/lib/site-settings-store";
 
-// ── Defaults — match current hardcoded website copy ──────────────────────────
+// ── Defaults - match current hardcoded website copy ──────────────────────────
 
 export const DEFAULT_HOMEPAGE_SETTINGS: HomepageSettings = {
   hero: {
@@ -20,29 +20,29 @@ export const DEFAULT_HOMEPAGE_SETTINGS: HomepageSettings = {
     secondaryCtaText: "How We Review",
     secondaryCtaHref: "/how-we-review",
     searchPlaceholder: "What are you looking for? Desk lamps, storage carts, laptop stands…",
-    badgeText: "Independent editorial picks — not sponsored or paid placement.",
+    badgeText: "Independent editorial picks - not sponsored or paid placement.",
     heroImageUrl: "",
     heroImageAlt: "",
     featuredProductSlugs: [],
   },
   trustBar: {
     items: [
-      { number: "14", unit: "products", label: "Evaluated for small-space use", description: "Every product scored on five criteria — specs, buyer feedback, value, build, and space fit." },
-      { number: "6", unit: "buying guides", label: "With side-by-side comparisons", description: "Structured like Wirecutter — clear top pick, honest trade-offs, and a comparison table." },
-      { number: "5", unit: "scoring criteria", label: "Tuned for small-space fit", description: "Space fit, build quality, ease of use, value, and buyer feedback — all weighted for compact living." },
-      { number: "1–10", unit: "score scale", label: "Consistent across all products", description: "The same rubric for every product we evaluate — so scores are genuinely comparable across guides." },
+      { number: "14", unit: "products", label: "Evaluated for small-space use", description: "Every product scored on five criteria - specs, buyer feedback, value, build, and space fit." },
+      { number: "6", unit: "buying guides", label: "With side-by-side comparisons", description: "Structured like Wirecutter - clear top pick, honest trade-offs, and a comparison table." },
+      { number: "5", unit: "scoring criteria", label: "Tuned for small-space fit", description: "Space fit, build quality, ease of use, value, and buyer feedback - all weighted for compact living." },
+      { number: "1–10", unit: "score scale", label: "Consistent across all products", description: "The same rubric for every product we evaluate - so scores are genuinely comparable across guides." },
     ],
   },
   featuredGuideSlug: "desk-lamps-small-desks",
   sections: {
     guides: {
       title: "Latest Buying Guides",
-      description: "Carefully evaluated product comparisons for small-space living — no padding, just our honest picks.",
+      description: "Carefully evaluated product comparisons for small-space living - no padding, just our honest picks.",
       limit: 6,
     },
     deals: {
       title: "Budget-Friendly Picks",
-      description: "Products worth checking for small spaces — curated by value score.",
+      description: "Products worth checking for small spaces - curated by value score.",
     },
     categories: {
       title: "Browse by Category",
@@ -54,7 +54,7 @@ export const DEFAULT_HOMEPAGE_SETTINGS: HomepageSettings = {
     eyebrow: "Stay Updated",
     title: "Get smarter small-space buying guides.",
     description:
-      "New guides, updated picks, and buying tips for compact living — no spam, no sponsored content, no fluff.",
+      "New guides, updated picks, and buying tips for compact living - no spam, no sponsored content, no fluff.",
     inputPlaceholder: "you@example.com",
     buttonText: "Notify me",
     disclaimer: "No account required. Unsubscribe anytime. We'll never share your email.",

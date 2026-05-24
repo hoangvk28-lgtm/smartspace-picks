@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { getAllProducts, type StoredProduct } from "@/lib/products-store";
 import { categories } from "@/data/categories";
 import { AdminPageHeader } from "@/components/admin/AdminPageHeader";
@@ -187,11 +187,11 @@ export default async function AdminProductsPage({ searchParams }: PageProps) {
                               {product.badge}
                             </span>
                           ) : (
-                            <span className="text-xs text-gray-300">—</span>
+                            <span className="text-xs text-gray-300">-</span>
                           )}
                         </td>
                         <td className="px-4 py-3.5 hidden lg:table-cell">
-                          <span className="text-sm font-semibold text-gray-700">{product.priceRange || <span className="text-gray-300">—</span>}</span>
+                          <span className="text-sm font-semibold text-gray-700">{product.priceRange || <span className="text-gray-300">-</span>}</span>
                         </td>
                         <td className="px-4 py-3.5 text-center">
                           <span className="text-sm font-bold tabular-nums text-blue-600">{product.scores.overall.toFixed(1)}</span>
@@ -210,7 +210,7 @@ export default async function AdminProductsPage({ searchParams }: PageProps) {
                           <AdminStatusBadge status={product.status ?? "published"} />
                         </td>
                         <td className="px-4 py-3.5 hidden xl:table-cell">
-                          <span className="text-xs text-gray-500">{product.lastUpdated ?? "—"}</span>
+                          <span className="text-xs text-gray-500">{product.lastUpdated ?? "-"}</span>
                         </td>
                         <td className="px-4 py-3.5 text-right">
                           <div className="flex items-center justify-end gap-2">

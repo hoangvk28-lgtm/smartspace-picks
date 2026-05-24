@@ -1,4 +1,4 @@
-import { readFileSync } from "fs";
+﻿import { readFileSync } from "fs";
 import { resolve } from "path";
 import { createClient } from "@supabase/supabase-js";
 import { guides } from "../data/guides";
@@ -78,7 +78,7 @@ async function seed() {
 
   console.log(`✅  Upserted ${data?.length ?? 0} guides:\n`);
   for (const row of data ?? []) {
-    console.log(`   • ${row.id} — ${row.title}`);
+    console.log(`   • ${row.id} - ${row.title}`);
   }
   console.log(`\n✓  Done. Visit /admin/guides to verify.\n`);
 }

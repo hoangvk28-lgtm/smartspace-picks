@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import type { Product, ProductScore } from "@/data/products";
 import { Badge } from "@/components/ui/Badge";
 import { CTAButton } from "@/components/ui/CTAButton";
@@ -82,7 +82,7 @@ export function ComparisonTable({ products, showSpecs = false }: ComparisonTable
                 <td className="px-4 py-3 text-ink-secondary font-medium">{specKey}</td>
                 {products.map((p) => (
                   <td key={p.id} className="px-4 py-3 text-center text-ink-secondary">
-                    {p.specs[specKey] ?? "—"}
+                    {p.specs[specKey] ?? "-"}
                   </td>
                 ))}
               </tr>

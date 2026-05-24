@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import type { HomepageSettings } from "@/lib/site-settings-store";
 
@@ -13,7 +13,7 @@ const DEFAULT: NewsletterConfig = {
   eyebrow: "Stay Updated",
   title: "Get smarter small-space buying guides.",
   description:
-    "New guides, updated picks, and buying tips for compact living — no spam, no sponsored content, no fluff.",
+    "New guides, updated picks, and buying tips for compact living - no spam, no sponsored content, no fluff.",
   inputPlaceholder: "you@example.com",
   buttonText: "Notify me",
   disclaimer: "No account required. Unsubscribe anytime. We'll never share your email.",

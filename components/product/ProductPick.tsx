@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import type { Product } from "@/data/products";
 import { Badge } from "@/components/ui/Badge";
@@ -18,7 +18,7 @@ function getCategoryColor(slug: string) {
 
 interface ProductPickProps {
   product: Product;
-  /** Override pick label — defaults to product.badge */
+  /** Override pick label - defaults to product.badge */
   pickLabel?: string;
   rank?: number;
   lastUpdated?: string;

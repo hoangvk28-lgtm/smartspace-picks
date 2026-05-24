@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useMemo, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
@@ -30,7 +30,7 @@ const SCORE_COLS: { key: SortKey; label: string; short: string }[] = [
 interface Props {
   products: Product[];
   categories: Category[];
-  lockedCategorySlug?: string; // set on [categorySlug] pages — disables category filter
+  lockedCategorySlug?: string; // set on [categorySlug] pages - disables category filter
 }
 
 function ComparePageInner({ products, categories, lockedCategorySlug }: Props) {
@@ -229,14 +229,14 @@ function ComparePageInner({ products, categories, lockedCategorySlug }: Props) {
                         {cat.name}
                       </Link>
                     ) : (
-                      <span className="text-xs text-ink-muted">—</span>
+                      <span className="text-xs text-ink-muted">-</span>
                     )}
                   </td>
 
                   {/* Best For */}
                   <td className="px-4 py-4 align-top hidden lg:table-cell">
                     <p className="text-xs text-ink-secondary leading-relaxed max-w-[200px]">
-                      {product.bestFor[0] ?? "—"}
+                      {product.bestFor[0] ?? "-"}
                     </p>
                   </td>
 

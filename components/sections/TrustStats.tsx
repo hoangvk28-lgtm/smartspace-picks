@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 
 const stats = [
   {
@@ -15,7 +15,7 @@ const stats = [
     ),
     iconSize: "w-16 h-16",
     label: "Evaluated for small-space use",
-    description: "Every product scored on five criteria — specs, buyer feedback, value, build, and space fit.",
+    description: "Every product scored on five criteria - specs, buyer feedback, value, build, and space fit.",
   },
   {
     number: "6",
@@ -31,7 +31,7 @@ const stats = [
     ),
     iconSize: "w-16 h-16",
     label: "With side-by-side comparisons",
-    description: "Structured like Wirecutter — clear top pick, honest trade-offs, and a comparison table.",
+    description: "Structured like Wirecutter - clear top pick, honest trade-offs, and a comparison table.",
   },
   {
     number: "5",
@@ -47,7 +47,7 @@ const stats = [
     ),
     iconSize: "w-16 h-16",
     label: "Tuned for small-space fit",
-    description: "Space fit, build quality, ease of use, value, and buyer feedback — all weighted for compact living.",
+    description: "Space fit, build quality, ease of use, value, and buyer feedback - all weighted for compact living.",
   },
   {
     number: "1–10",
@@ -63,7 +63,7 @@ const stats = [
     ),
     iconSize: "w-16 h-16",
     label: "Consistent across all products",
-    description: "The same rubric for every product we evaluate — so scores are genuinely comparable across guides.",
+    description: "The same rubric for every product we evaluate - so scores are genuinely comparable across guides.",
   },
 ];
 

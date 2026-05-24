@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useActionState, useState } from "react";
 import type { DealFormState } from "@/app/admin/deal-actions";
@@ -69,7 +69,7 @@ export function DealForm({ action, initialData }: Props) {
             name="title"
             defaultValue={String(v("title"))}
             className={inputClass}
-            placeholder="e.g. BenQ ScreenBar — Best Desk Lamp for Small Desks"
+            placeholder="e.g. BenQ ScreenBar - Best Desk Lamp for Small Desks"
             onChange={(e) => {
               const slugInput = e.currentTarget.form?.elements.namedItem("slug") as HTMLInputElement | null;
               if (slugInput && !slugInput.value) slugInput.placeholder = slugify(e.currentTarget.value);
@@ -100,7 +100,7 @@ export function DealForm({ action, initialData }: Props) {
               <option key={l} value={l}>{l}</option>
             ))}
           </select>
-          <p className="text-xs text-ink-muted mt-1">Safe wording only — no fake discounts or urgency claims.</p>
+          <p className="text-xs text-ink-muted mt-1">Safe wording only - no fake discounts or urgency claims.</p>
           {state.fieldErrors?.label && <p className="text-red-500 text-xs mt-1">{state.fieldErrors.label}</p>}
         </div>
 

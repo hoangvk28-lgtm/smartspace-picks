@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { products as staticProducts } from "@/data/products";
 import { getPublicHomepageSettings } from "@/lib/public-settings";
 import type { HomepageSettings } from "@/lib/site-settings-store";
@@ -105,7 +105,7 @@ export async function HeroSection({ settings: propSettings }: Props = {}) {
             )}
           </div>
 
-          {/* ── Right column — Top Picks card ── */}
+          {/* ── Right column - Top Picks card ── */}
           <div className="block w-full lg:w-auto mt-2 lg:mt-0">
             <div
               className="rounded-2xl overflow-hidden"

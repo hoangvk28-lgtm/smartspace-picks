@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Public-facing async product data layer.
  *
  * - Server-only: do NOT import in client components.
@@ -86,7 +86,7 @@ export async function getPublicProducts(): Promise<Product[]> {
     const staticOnly = staticProducts.filter((p) => !dbSlugSet.has(p.slug));
     return [...dbProducts, ...staticOnly];
   } catch (e) {
-    console.warn("[public-products] Supabase query failed — falling back to static data:", e);
+    console.warn("[public-products] Supabase query failed - falling back to static data:", e);
     return staticProducts;
   }
 }
@@ -111,20 +111,20 @@ export async function getPublicProductBySlug(slug: string): Promise<Product | un
       .single();
 
     if (error?.code === "PGRST116") {
-      // Not found in DB — try static fallback (covers pre-seeded slugs at build time)
+      // Not found in DB - try static fallback (covers pre-seeded slugs at build time)
       return staticProducts.find((p) => p.slug === slug);
     }
     if (error) throw error;
     return rowToProduct(data as ProductRow);
   } catch (e) {
-    console.warn(`[public-products] getPublicProductBySlug("${slug}") failed — falling back:`, e);
+    console.warn(`[public-products] getPublicProductBySlug("${slug}") failed - falling back:`, e);
     return staticProducts.find((p) => p.slug === slug);
   }
 }
 
 /**
  * Returns product slugs for generateStaticParams.
- * Falls back to static slugs on error — build never fails.
+ * Falls back to static slugs on error - build never fails.
  */
 export async function getPublicProductSlugs(): Promise<string[]> {
   if (!isSupabaseConfigured()) return staticProducts.map((p) => p.slug);
@@ -143,7 +143,7 @@ export async function getPublicProductSlugs(): Promise<string[]> {
     const all = new Set([...staticProducts.map((p) => p.slug), ...dbSlugs]);
     return [...all];
   } catch (e) {
-    console.warn("[public-products] getPublicProductSlugs failed — using static slugs:", e);
+    console.warn("[public-products] getPublicProductSlugs failed - using static slugs:", e);
     return staticProducts.map((p) => p.slug);
   }
 }
@@ -151,7 +151,7 @@ export async function getPublicProductSlugs(): Promise<string[]> {
 // ── Derived helpers (built on getPublicProducts for efficiency) ────────────────
 
 /**
- * Returns products for a category hub — direct match first,
+ * Returns products for a category hub - direct match first,
  * then subcategory-collected fallback for thematic categories.
  * Mirrors the logic from lib/helpers.ts getProductsForCategoryHub.
  */
@@ -161,7 +161,7 @@ export async function getPublicProductsForCategoryHub(category: Category): Promi
   const direct = all.filter((p) => p.categorySlug === category.slug);
   if (direct.length > 0) return direct;
 
-  // Thematic category — collect from subcategories, deduped
+  // Thematic category - collect from subcategories, deduped
   const seen = new Set<string>();
   const result: Product[] = [];
   for (const sub of category.subcategories) {

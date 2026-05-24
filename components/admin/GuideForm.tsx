@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useActionState, useState } from "react";
 import dynamic from "next/dynamic";
@@ -389,7 +389,7 @@ export function GuideForm({ action, guide, mode, products }: GuideFormProps) {
                 {products.map((p) => (
                   <li key={p.id} className="text-xs text-gray-600 font-mono">
                     <span className="text-gray-400">{p.id}</span>
-                    <span className="text-gray-300 mx-1">—</span>
+                    <span className="text-gray-300 mx-1">-</span>
                     <span className="font-sans text-gray-700">{p.name}</span>
                     {p.subcategorySlug && (
                       <span className="text-gray-400 ml-1">({p.subcategorySlug})</span>

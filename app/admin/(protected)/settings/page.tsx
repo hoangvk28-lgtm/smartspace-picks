@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { HomepageSettingsForm } from "@/components/admin/settings/HomepageSettingsForm";
 import { GlobalSettingsForm } from "@/components/admin/settings/GlobalSettingsForm";
 import { AffiliateSettingsForm } from "@/components/admin/settings/AffiliateSettingsForm";
@@ -73,7 +73,7 @@ export default async function AdminSettingsPage({
         .filter((g) => g.status === "published")
         .map((g) => ({ slug: g.slug, title: g.title }));
     } catch {
-      // Non-critical — falls back to text input
+      // Non-critical - falls back to text input
     }
   }
 
@@ -86,7 +86,7 @@ export default async function AdminSettingsPage({
 
       {configError && (
         <div className="rounded-lg bg-amber-50 border border-amber-200 p-4 text-sm text-amber-800">
-          Supabase not configured — showing default values. Changes will not be persisted until{" "}
+          Supabase not configured - showing default values. Changes will not be persisted until{" "}
           <code>NEXT_PUBLIC_SUPABASE_URL</code> and <code>SUPABASE_SERVICE_ROLE_KEY</code> are set and migration{" "}
           <code>005_create_site_settings.sql</code> is run.
         </div>

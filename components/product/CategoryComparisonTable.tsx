@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import type { Product } from "@/data/products";
 import { Badge } from "@/components/ui/Badge";
 import { CTAButton } from "@/components/ui/CTAButton";
@@ -65,10 +65,10 @@ export function CategoryComparisonTable({ products }: CategoryComparisonTablePro
                 </div>
               </td>
 
-              {/* Best for — first item only */}
+              {/* Best for - first item only */}
               <td className="px-4 py-3.5 hidden sm:table-cell">
                 <p className="text-xs text-ink-secondary leading-relaxed max-w-[200px]">
-                  {product.bestFor[0] ?? "—"}
+                  {product.bestFor[0] ?? "-"}
                 </p>
               </td>
 

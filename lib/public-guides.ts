@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Public-facing async guide data layer.
  *
  * - Server-only: do NOT import in client components.
@@ -93,7 +93,7 @@ export async function getPublicGuides(): Promise<PublicGuide[]> {
     const staticOnly = staticGuides.filter((g) => !dbSlugSet.has(g.slug));
     return [...dbGuides, ...staticOnly];
   } catch (e) {
-    console.warn("[public-guides] Supabase query failed — falling back to static data:", e);
+    console.warn("[public-guides] Supabase query failed - falling back to static data:", e);
     return staticGuides;
   }
 }
@@ -112,13 +112,13 @@ export async function getPublicGuideBySlug(slug: string): Promise<PublicGuide | 
       .single();
 
     if (error?.code === "PGRST116") {
-      // Not in DB — fall back to static (covers build-time slugs before seeding)
+      // Not in DB - fall back to static (covers build-time slugs before seeding)
       return staticGuides.find((g) => g.slug === slug);
     }
     if (error) throw error;
     return rowToPublicGuide(data as GuideRow);
   } catch (e) {
-    console.warn(`[public-guides] getPublicGuideBySlug("${slug}") failed — falling back:`, e);
+    console.warn(`[public-guides] getPublicGuideBySlug("${slug}") failed - falling back:`, e);
     return staticGuides.find((g) => g.slug === slug);
   }
 }
@@ -136,11 +136,11 @@ export async function getPublicGuideSlugs(): Promise<string[]> {
 
     if (error) throw error;
     const dbSlugs = (data as { slug: string }[]).map((r) => r.slug);
-    // Union with static slugs — build never fails even if DB is empty
+    // Union with static slugs - build never fails even if DB is empty
     const all = new Set([...staticGuides.map((g) => g.slug), ...dbSlugs]);
     return [...all];
   } catch (e) {
-    console.warn("[public-guides] getPublicGuideSlugs failed — using static slugs:", e);
+    console.warn("[public-guides] getPublicGuideSlugs failed - using static slugs:", e);
     return staticGuides.map((g) => g.slug);
   }
 }

@@ -105,7 +105,7 @@ export default async function BestTabletStandsPage() {
         {/* ── Intro ── */}
         <section className="prose prose-slate max-w-none mb-2">
           <p className="text-base text-ink-secondary leading-relaxed">
-            Whether you&apos;re propping up an iPad at your desk, watching Netflix in bed, or following a recipe on your tablet while cooking — a good tablet stand costs under $15 and makes a noticeable difference in comfort and posture. The wrong stand wobbles, tips over, or scratches your device.
+            Whether you&apos;re propping up an iPad at your desk, watching Netflix in bed, or following a recipe on your tablet while cooking - a good tablet stand costs under $15 and makes a noticeable difference in comfort and posture. The wrong stand wobbles, tips over, or scratches your device.
           </p>
           <p className="text-base text-ink-secondary leading-relaxed mt-3">
             We compared 10 stands across stability, adjustability, device compatibility, portability, and build quality. Every pick below has been evaluated on real Amazon buyer data, including detailed analysis of low-star reviews to surface the failure modes manufacturers don&apos;t advertise.
@@ -258,7 +258,7 @@ export default async function BestTabletStandsPage() {
               ["Adjustability", "Range of angle and height adjustment, ease of repositioning, and whether the stand holds its position reliably after setting."],
               ["Build quality", "Material, joint tightness, and durability signals from both physical inspection and analysis of long-term buyer reviews (6+ months of use)."],
               ["Device compatibility", "Size range, case compatibility, and whether portrait and landscape modes are both supported without repositioning the base."],
-              ["Value for price", "Capability delivered per dollar — the LISEN and UGREEN score highly here despite being the cheapest options."],
+              ["Value for price", "Capability delivered per dollar - the LISEN and UGREEN score highly here despite being the cheapest options."],
             ].map(([label, desc]) => (
               <li key={label as string} className="flex gap-2">
                 <span className="font-semibold text-ink shrink-0">{label}:</span>

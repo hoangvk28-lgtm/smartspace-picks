@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Seed script: upserts all 14 products from data/products.ts into Supabase.
  *
  * Usage:
@@ -28,7 +28,7 @@ function loadDotEnvLocal() {
       if (!(key in process.env)) process.env[key] = val;
     }
   } catch {
-    // .env.local not found — rely on existing environment variables
+    // .env.local not found - rely on existing environment variables
   }
 }
 

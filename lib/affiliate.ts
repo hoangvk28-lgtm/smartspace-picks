@@ -1,7 +1,7 @@
-export const AMAZON_TAG = "deskfinds0d-20";
+﻿export const AMAZON_TAG = "deskfinds0d-20";
 
 /**
- * Central URL builder — swap out AMAZON_TAG once your Associates account is approved.
+ * Central URL builder - swap out AMAZON_TAG once your Associates account is approved.
  * ASIN is the 10-character Amazon product identifier (e.g. "B076HCCQZQ").
  */
 export function buildAmazonUrl(asin: string): string {

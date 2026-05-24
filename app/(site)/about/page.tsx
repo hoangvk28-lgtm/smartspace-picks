@@ -20,7 +20,7 @@ const DIFFERENTIATORS = [
       </svg>
     ),
     title: "Small-space focused",
-    desc: "Every product is evaluated for dorm rooms, apartment desks, and compact setups — not hypothetical large home offices. Physical size, mounting requirements, and space footprint are first-class evaluation criteria.",
+    desc: "Every product is evaluated for dorm rooms, apartment desks, and compact setups - not hypothetical large home offices. Physical size, mounting requirements, and space footprint are first-class evaluation criteria.",
   },
   {
     icon: (
@@ -61,7 +61,7 @@ export default function AboutPage() {
           Making Small Spaces Work Smarter
         </h1>
         <p className="text-lg text-ink-secondary leading-relaxed">
-          DeskFinds was built for people who have to make careful decisions about every product they bring into a small room — because space is a real constraint and the wrong product makes things worse.
+          DeskFinds was built for people who have to make careful decisions about every product they bring into a small room - because space is a real constraint and the wrong product makes things worse.
         </p>
       </header>
 
@@ -70,7 +70,7 @@ export default function AboutPage() {
         <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">Our Mission</h2>
         <div className="space-y-4 text-ink-secondary leading-relaxed text-sm">
           <p>
-            We believe that a dorm room, a studio apartment, or a bedroom desk doesn&apos;t have to mean a compromised setup. The right products — chosen specifically for tight spaces — can make a 200-square-foot room as productive and comfortable as a much larger one.
+            We believe that a dorm room, a studio apartment, or a bedroom desk doesn&apos;t have to mean a compromised setup. The right products - chosen specifically for tight spaces - can make a 200-square-foot room as productive and comfortable as a much larger one.
           </p>
           <p>
             DeskFinds exists to help students, remote workers, and small-space renters find those products without wading through sponsored rankings, vague listicles, or buying guides that were clearly written without considering what a real dorm desk looks like.
@@ -134,7 +134,7 @@ export default function AboutPage() {
         <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">How We Research</h2>
         <div className="space-y-4 text-sm text-ink-secondary leading-relaxed">
           <p>
-            For every buying guide, we start by defining the exact small-space context: what are the physical constraints, what does the target buyer actually own, and what are they trying to solve? We evaluate products against those real constraints — not generic &ldquo;great for home offices&rdquo; claims.
+            For every buying guide, we start by defining the exact small-space context: what are the physical constraints, what does the target buyer actually own, and what are they trying to solve? We evaluate products against those real constraints - not generic &ldquo;great for home offices&rdquo; claims.
           </p>
           <p>
             We draw on manufacturer specifications, verified Amazon buyer reviews (with particular attention to patterns in negative reviews that surface failure modes), and community discussions from spaces where real small-room users share what actually works.

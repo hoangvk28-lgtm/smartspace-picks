@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Container } from "@/components/layout/Container";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { TrustStats } from "@/components/sections/TrustStats";
@@ -19,7 +19,7 @@ import { buildMetadata } from "@/lib/seo";
 export const revalidate = 60;
 
 export const metadata: Metadata = buildMetadata({
-  title: "DeskFinds — Amazon Buying Guides for Small Rooms & Dorms",
+  title: "DeskFinds - Amazon Buying Guides for Small Rooms & Dorms",
   description:
     "Honest Amazon buying guides for small rooms, dorm setups, compact desks, and home offices. Spec-based comparisons so you don't have to guess.",
   path: "/",

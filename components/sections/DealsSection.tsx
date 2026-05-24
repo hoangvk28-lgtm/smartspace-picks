@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import type { Product } from "@/data/products";
 import { Badge } from "@/components/ui/Badge";
@@ -36,7 +36,7 @@ export function DealsSection({ products }: DealsSectionProps) {
             Featured Budget-Friendly Picks
           </h2>
           <p className="text-ink-secondary mt-2 leading-relaxed max-w-2xl">
-            High-scoring products at accessible price points. Check Amazon for current pricing — deals change frequently.
+            High-scoring products at accessible price points. Check Amazon for current pricing - deals change frequently.
           </p>
         </div>
         <Link

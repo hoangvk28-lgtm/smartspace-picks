@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 const tools = [
   {
@@ -61,8 +61,8 @@ export function CompareTools() {
             Side-by-Side Comparisons
           </h2>
           <p className="text-ink-secondary mt-2 leading-relaxed max-w-2xl">
-            All scores use the same 10-point rubric — overall quality, value, build, ease of use,
-            and small-space fit — so comparisons stay apples-to-apples.
+            All scores use the same 10-point rubric - overall quality, value, build, ease of use,
+            and small-space fit - so comparisons stay apples-to-apples.
           </p>
         </div>
         <Link

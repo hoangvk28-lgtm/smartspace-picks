@@ -1,4 +1,4 @@
-interface Column<T> {
+﻿interface Column<T> {
   key: string;
   label: string;
   render?: (row: T) => React.ReactNode;
@@ -47,7 +47,7 @@ export function AdminTable<T extends Record<string, unknown>>({
                   <td key={col.key} className={`px-4 py-3.5 align-middle ${col.className ?? ""}`}>
                     {col.render
                       ? col.render(row)
-                      : String(row[col.key] ?? "—")}
+                      : String(row[col.key] ?? "-")}
                   </td>
                 ))}
               </tr>

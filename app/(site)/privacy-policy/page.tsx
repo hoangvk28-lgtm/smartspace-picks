@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Privacy Policy — DeskFinds",
+  title: "Privacy Policy - DeskFinds",
   description:
     "DeskFinds privacy policy. How we collect, use, and protect your information, including cookies, analytics, affiliate links, and contact data.",
   path: "/privacy-policy",
@@ -53,7 +53,7 @@ export default function PrivacyPolicyPage() {
             When you click an affiliate link to Amazon.com, you leave our site and are subject to{" "}
             <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=468496" target="_blank" rel="noopener noreferrer" className="text-brand hover:text-brand-dark underline underline-offset-2 font-medium transition-colors">
               Amazon&apos;s privacy policy
-            </a>. We do not receive personally identifiable information from Amazon when you make a purchase — we receive only an anonymous commission notification associated with our affiliate tag.
+            </a>. We do not receive personally identifiable information from Amazon when you make a purchase - we receive only an anonymous commission notification associated with our affiliate tag.
           </p>
         </section>
 
@@ -97,7 +97,7 @@ export default function PrivacyPolicyPage() {
         <section>
           <h2 className="text-xl font-bold text-ink mb-3">7. Data Retention</h2>
           <p>
-            Contact form data is retained only as long as necessary to respond to your inquiry — typically no more than 90 days. Anonymized analytics data may be retained longer for trend analysis but contains no personally identifiable information.
+            Contact form data is retained only as long as necessary to respond to your inquiry - typically no more than 90 days. Anonymized analytics data may be retained longer for trend analysis but contains no personally identifiable information.
           </p>
         </section>
 

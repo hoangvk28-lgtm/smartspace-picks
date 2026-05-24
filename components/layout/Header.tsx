@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -15,7 +15,7 @@ export function Header() {
       {/* Top bar */}
       <div className="bg-brand text-ink-inverse text-xs py-1.5 px-4 flex items-center justify-center gap-2">
         <span className="opacity-90 hidden sm:inline">DeskFinds earns a commission on qualifying Amazon purchases.</span>
-        <span className="opacity-90 sm:hidden text-[10px] leading-tight whitespace-nowrap">Amazon affiliate links — we earn a commission.</span>
+        <span className="opacity-90 sm:hidden text-[10px] leading-tight whitespace-nowrap">Amazon affiliate links - we earn a commission.</span>
         <Link
           href="/affiliate-disclosure"
           className="shrink-0 font-semibold text-white bg-white/20 hover:bg-white/30 px-2 py-0.5 rounded transition-colors whitespace-nowrap"
@@ -30,7 +30,7 @@ export function Header() {
         <Link
           href="/"
           className="group shrink-0 focus-ring"
-          aria-label="DeskFinds — Home"
+          aria-label="DeskFinds - Home"
         >
           <Image
             src="/logo-deskfinds-official.png"

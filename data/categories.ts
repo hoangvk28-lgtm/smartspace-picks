@@ -1,4 +1,4 @@
-export interface Category {
+﻿export interface Category {
   slug: string;
   name: string;
   description: string;
@@ -23,7 +23,7 @@ export const categories: Category[] = [
     slug: "dorm-essentials",
     name: "Dorm Essentials",
     description:
-      "Space-saving Amazon finds for college dorm rooms and student living. Compact, affordable, and practical products every student needs — from bedside organizers to cable kits — that work within dorm restrictions.",
+      "Space-saving Amazon finds for college dorm rooms and student living. Compact, affordable, and practical products every student needs - from bedside organizers to cable kits - that work within dorm restrictions.",
     shortDescription: "Space-saving picks for dorm life.",
     icon: "GraduationCap",
     color: "#7c3aed",
@@ -33,7 +33,7 @@ export const categories: Category[] = [
     slug: "small-room-storage",
     name: "Small Room Storage",
     description:
-      "Storage solutions for bedrooms, apartments, and tiny spaces. Under-bed organizers, slim rolling carts, over-door racks, and stackable bins — solutions that use every available square inch.",
+      "Storage solutions for bedrooms, apartments, and tiny spaces. Under-bed organizers, slim rolling carts, over-door racks, and stackable bins - solutions that use every available square inch.",
     shortDescription: "Maximize every inch with smart storage.",
     icon: "Archive",
     color: "#0891b2",
@@ -43,7 +43,7 @@ export const categories: Category[] = [
     slug: "compact-home-office",
     name: "Compact Home Office",
     description:
-      "Practical accessories for small work-from-home setups. Remote workers with limited space deserve a professional desk environment — these guides cover the best compact accessories for bedroom offices and studio apartments.",
+      "Practical accessories for small work-from-home setups. Remote workers with limited space deserve a professional desk environment - these guides cover the best compact accessories for bedroom offices and studio apartments.",
     shortDescription: "Professional setups for small home offices.",
     icon: "Briefcase",
     color: "#16a34a",

@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 const criteria = [
   {
@@ -27,7 +27,7 @@ const criteria = [
   },
   {
     label: "Buyer Feedback",
-    description: "Patterns from verified Amazon reviews — what real buyers praise and complain about over time.",
+    description: "Patterns from verified Amazon reviews - what real buyers praise and complain about over time.",
     weight: "15%",
     color: "#7c3aed",
   },
@@ -47,10 +47,10 @@ export function HowWeReviewTeaser() {
               How We Score Products
             </h2>
             <p className="text-ink-secondary leading-relaxed mb-4 max-w-lg">
-              Every product is evaluated against five criteria — scored 1–10, then combined into a weighted overall score. Scores are tuned for small-space use, not general-purpose performance.
+              Every product is evaluated against five criteria - scored 1–10, then combined into a weighted overall score. Scores are tuned for small-space use, not general-purpose performance.
             </p>
             <p className="text-ink-secondary leading-relaxed mb-6 max-w-lg">
-              We don&apos;t accept payment for placement or scores. Our affiliate income depends on recommending products people are actually happy with — honest evaluation is in our direct interest.
+              We don&apos;t accept payment for placement or scores. Our affiliate income depends on recommending products people are actually happy with - honest evaluation is in our direct interest.
             </p>
             <div className="flex flex-wrap gap-3">
               <Link

@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Affiliate Disclosure — DeskFinds",
+  title: "Affiliate Disclosure - DeskFinds",
   description:
     "DeskFinds participates in the Amazon Associates program. Read our complete affiliate disclosure, including how we earn commissions and why it doesn't affect our recommendations.",
   path: "/affiliate-disclosure",
@@ -21,7 +21,7 @@ export default function AffiliateDisclosurePage() {
         <p className="text-sm text-ink-muted">Last updated: January 2026</p>
       </header>
 
-      {/* Required FTC / Amazon Associates statement — prominent */}
+      {/* Required FTC / Amazon Associates statement - prominent */}
       <div className="mb-10 p-5 rounded-lg border-2 border-brand-muted bg-brand-light">
         <p className="font-bold text-ink text-sm mb-1">Required Disclosure</p>
         <p className="text-ink leading-relaxed text-sm">
@@ -34,7 +34,7 @@ export default function AffiliateDisclosurePage() {
         <section>
           <h2 className="text-xl font-bold text-ink mb-3">How Affiliate Links Work</h2>
           <p className="mb-3">
-            When you click a product link on DeskFinds and complete a purchase on Amazon, Amazon pays us a small referral fee — typically 1–8% of the sale price depending on the product category. This fee is paid by Amazon, not added to your purchase price. You pay exactly the same amount whether you use our link or navigate to Amazon directly.
+            When you click a product link on DeskFinds and complete a purchase on Amazon, Amazon pays us a small referral fee - typically 1–8% of the sale price depending on the product category. This fee is paid by Amazon, not added to your purchase price. You pay exactly the same amount whether you use our link or navigate to Amazon directly.
           </p>
           <p>
             Our links include an affiliate tag (<code className="font-mono text-xs bg-bg px-1.5 py-0.5 rounded border border-border text-ink">deskfinds0d-20</code>) that allows Amazon to attribute the referral to our account. This tag is the only information passed; we do not receive your name, address, or payment details.
@@ -50,10 +50,10 @@ export default function AffiliateDisclosurePage() {
             </Link>.
           </p>
           <p className="mb-3">
-            We do not accept payment from brands or manufacturers for higher placement, better scores, or favorable reviews. Commission rates are set by Amazon and are uniform across comparable product categories — meaning we earn the same percentage whether we recommend a $15 cable kit or a $110 desk lamp. There is no financial incentive to recommend one product over another.
+            We do not accept payment from brands or manufacturers for higher placement, better scores, or favorable reviews. Commission rates are set by Amazon and are uniform across comparable product categories - meaning we earn the same percentage whether we recommend a $15 cable kit or a $110 desk lamp. There is no financial incentive to recommend one product over another.
           </p>
           <p>
-            Editorial recommendations should remain — and do remain — independent. If a product is not the best choice for our readers, we do not recommend it regardless of its commission rate.
+            Editorial recommendations should remain - and do remain - independent. If a product is not the best choice for our readers, we do not recommend it regardless of its commission rate.
           </p>
         </section>
 

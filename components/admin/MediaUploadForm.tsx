@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useActionState, useEffect, useRef } from "react";
 import { uploadMediaAction } from "@/app/admin/media-actions";
@@ -70,7 +70,7 @@ export function MediaUploadForm({ onUploaded }: Props) {
         {state.fieldErrors?.file && (
           <p className="text-red-500 text-xs mt-1">{state.fieldErrors.file}</p>
         )}
-        <p className="text-xs text-ink-muted mt-1">JPEG, PNG, WebP, GIF — max 10 MB</p>
+        <p className="text-xs text-ink-muted mt-1">JPEG, PNG, WebP, GIF - max 10 MB</p>
       </div>
 
       <div id="upload-preview-wrap" className="hidden">
@@ -91,7 +91,7 @@ export function MediaUploadForm({ onUploaded }: Props) {
           <label className="block text-sm font-medium text-ink-secondary mb-1">Usage Type</label>
           <select name="usageType" defaultValue="" className={selectClass}>
             {USAGE_TYPES.map((u) => (
-              <option key={u} value={u}>{u || "— unset —"}</option>
+              <option key={u} value={u}>{u || "- unset -"}</option>
             ))}
           </select>
         </div>

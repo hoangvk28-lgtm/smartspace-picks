@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { AdminCard } from "@/components/admin/AdminCard";
 import { AdminStatusBadge } from "@/components/admin/AdminStatusBadge";
 import { ArchiveDealButton } from "@/components/admin/ArchiveDealButton";
@@ -154,7 +154,7 @@ export default async function AdminDealsPage({
                       {deal.featured ? (
                         <span className="text-xs font-medium text-brand">✓ Featured</span>
                       ) : (
-                        <span className="text-xs text-ink-muted">—</span>
+                        <span className="text-xs text-ink-muted">-</span>
                       )}
                     </td>
                     <td className="py-3 pr-4 text-ink-secondary">{deal.displayOrder}</td>

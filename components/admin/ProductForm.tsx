@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useActionState, useState } from "react";
 import { useEffect, useRef } from "react";
@@ -60,7 +60,7 @@ export function ProductForm({ action, product, mode }: ProductFormProps) {
   const categoryObj = categories.find((c) => c.slug === defaultCategory);
   const defaultSubcategories = categoryObj?.subcategories ?? [];
 
-  // We handle subcategory options via a hidden select — use uncontrolled with key trick
+  // We handle subcategory options via a hidden select - use uncontrolled with key trick
   // For simplicity, just render all subcategory options statically from selected category
   // The user must re-select subcategory when they change category in create mode.
 
@@ -76,7 +76,7 @@ export function ProductForm({ action, product, mode }: ProductFormProps) {
 
   const fe = state.fieldErrors ?? {};
 
-  // Derive subcategories from category selection — controlled via a simple approach:
+  // Derive subcategories from category selection - controlled via a simple approach:
   // We use a form element with a data attribute trick. For full interactivity we'd
   // need more React state, but this keeps the form server-action-first.
   // The category select triggers a page-level re-render via URL param if needed.
@@ -135,7 +135,7 @@ export function ProductForm({ action, product, mode }: ProductFormProps) {
               defaultValue={product?.categorySlug ?? ""}
               className={selectClass}
             >
-              <option value="">— Select category —</option>
+              <option value="">- Select category -</option>
               {categories.map((c) => (
                 <option key={c.slug} value={c.slug}>{c.name}</option>
               ))}
@@ -149,7 +149,7 @@ export function ProductForm({ action, product, mode }: ProductFormProps) {
               defaultValue={product?.subcategorySlug ?? ""}
               className={selectClass}
             >
-              <option value="">— Select subcategory —</option>
+              <option value="">- Select subcategory -</option>
               {allSubcategories.map((s) => (
                 <option key={s} value={s}>{s.replace(/-/g, " ")}</option>
               ))}
@@ -163,7 +163,7 @@ export function ProductForm({ action, product, mode }: ProductFormProps) {
               defaultValue={product?.badge ?? ""}
               className={selectClass}
             >
-              <option value="">— No badge —</option>
+              <option value="">- No badge -</option>
               {BADGES.map((b) => (
                 <option key={b} value={b}>{b}</option>
               ))}
@@ -217,7 +217,7 @@ export function ProductForm({ action, product, mode }: ProductFormProps) {
         </div>
 
         {!product?.amazonUrl && mode === "edit" && (
-          <p className="mt-3 text-xs text-amber-600 font-medium">⚠ No Amazon URL set — this product won&apos;t have a buy button on the public site.</p>
+          <p className="mt-3 text-xs text-amber-600 font-medium">⚠ No Amazon URL set - this product won&apos;t have a buy button on the public site.</p>
         )}
       </AdminCard>
 
