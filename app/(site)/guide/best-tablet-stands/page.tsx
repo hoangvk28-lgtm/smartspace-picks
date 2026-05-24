@@ -6,26 +6,32 @@ import { AffiliateDisclosureBar } from "@/components/affiliate/AffiliateDisclosu
 import { AtAGlance } from "@/components/product/AtAGlance";
 import { ProductReviewCard } from "@/components/product/ProductReviewCard";
 import { buildMetadata } from "@/lib/seo";
+import { getPublicGuideBySlug } from "@/lib/public-guides";
 import {
   guideTitle,
   guideDescription,
   lastUpdated,
   readTime,
-  heroImage,
+  heroImage as fallbackHeroImage,
   products,
   atAGlanceItems,
   faq,
 } from "@/data/guides/best-tablet-stands";
 
+export const revalidate = 60;
+
 export const metadata: Metadata = buildMetadata({
   title: guideTitle,
   description: guideDescription,
   path: "/guide/best-tablet-stands",
-  image: heroImage,
+  image: fallbackHeroImage,
   type: "article",
 });
 
-export default function BestTabletStandsPage() {
+export default async function BestTabletStandsPage() {
+  const dbGuide = await getPublicGuideBySlug("best-tablet-stands");
+  const heroImage = dbGuide?.thumbnailImage || dbGuide?.heroImage || fallbackHeroImage;
+
   return (
     <>
       <Container className="py-12 max-w-4xl">
