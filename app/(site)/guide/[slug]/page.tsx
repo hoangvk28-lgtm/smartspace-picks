@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { Container } from "@/components/layout/Container";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { ProductPick } from "@/components/product/ProductPick";
@@ -10,12 +11,13 @@ import { AffiliateDisclosureBar } from "@/components/affiliate/AffiliateDisclosu
 import { Badge } from "@/components/ui/Badge";
 import { RichContent } from "@/components/ui/RichContent";
 import { MobileStickyPicksCTA } from "@/components/sections/MobileStickyPicksCTA";
-import { getPublicGuideBySlug, getPublicGuideSlugs, getRelatedPublicGuides } from "@/lib/public-guides";
+import { getPublicGuideBySlug, getPublicGuideSlugs, getRelatedPublicGuides, getPublicGuides } from "@/lib/public-guides";
 import { getPublicProducts } from "@/lib/public-products";
 import { buildMetadata } from "@/lib/seo";
 import { formatDate, scoreToColor } from "@/lib/utils";
 import { SITE_URL } from "@/lib/seo";
 import { amazonSearchLinks } from "@/lib/amazon-links";
+import { categories, getCategoryBySlug } from "@/data/categories";
 
 export const revalidate = 60;
 
@@ -24,12 +26,25 @@ type Props = { params: Promise<{ slug: string }> };
 // ─── Static generation ────────────────────────────────────────────────────────
 
 export async function generateStaticParams() {
-  const slugs = await getPublicGuideSlugs();
-  return slugs.map((slug) => ({ slug }));
+  const [guideSlugs] = await Promise.all([getPublicGuideSlugs()]);
+  const categorySlugs = categories.map((c) => c.slug);
+  const all = [...new Set([...guideSlugs, ...categorySlugs])];
+  return all.map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
+
+  // Category listing page metadata
+  const category = getCategoryBySlug(slug);
+  if (category) {
+    return buildMetadata({
+      title: `${category.name} Buying Guides`,
+      description: category.description,
+      path: `/guide/${slug}`,
+    });
+  }
+
   const guide = await getPublicGuideBySlug(slug);
   if (!guide) return {};
 
@@ -100,6 +115,93 @@ const scoringCriteria = [
 export default async function BuyingGuidePage({ params }: Props) {
   const { slug } = await params;
 
+  // ── Category listing page ─────────────────────────────────────────────────
+  const category = getCategoryBySlug(slug);
+  if (category) {
+    const allGuides = await getPublicGuides();
+    const categoryGuides = allGuides.filter((g) => g.categorySlug === slug);
+
+    return (
+      <Container className="py-10">
+        <Breadcrumbs crumbs={[{ label: "Buying Guides", href: "/guide" }, { label: category.name }]} />
+
+        <header className="mt-6 mb-10 max-w-3xl">
+          <span className="text-xs font-bold uppercase tracking-widest text-brand">{category.name}</span>
+          <h1 className="text-3xl sm:text-4xl font-bold text-ink mt-2 mb-3 tracking-tight">
+            {category.name} Buying Guides
+          </h1>
+          <p className="text-lg text-ink-secondary leading-relaxed">{category.description}</p>
+        </header>
+
+        {categoryGuides.length === 0 ? (
+          <div className="py-16 text-center text-ink-muted">
+            <p className="text-lg font-medium mb-2">No guides yet in this category.</p>
+            <p className="text-sm">Check back soon - we&apos;re working on it.</p>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {categoryGuides.map((guide) => {
+              const cover = (guide as { thumbnailImage?: string }).thumbnailImage || guide.heroImage;
+              return (
+                <Link
+                  key={guide.slug}
+                  href={`/guide/${guide.slug}`}
+                  className="group flex flex-col bg-white rounded-card border border-border hover:shadow-card-hover hover:border-brand/20 transition-all overflow-hidden"
+                >
+                  {/* Thumbnail */}
+                  <div className="relative w-full h-44 overflow-hidden bg-bg">
+                    {cover?.startsWith("http") ? (
+                      <Image
+                        src={cover}
+                        alt={guide.title}
+                        fill
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                    ) : (
+                      <div className="w-full h-full flex items-center justify-center">
+                        <svg className="w-12 h-12 text-ink-muted/20" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Card body */}
+                  <div className="flex flex-col gap-2 p-5 flex-1">
+                    <div className="flex items-center gap-2 text-xs text-ink-muted">
+                      <span>{guide.readTime} read</span>
+                      <span aria-hidden="true">·</span>
+                      <span>Updated {formatDate(guide.lastUpdated)}</span>
+                    </div>
+                    <h2 className="font-bold text-ink group-hover:text-brand transition-colors text-base leading-snug">
+                      {guide.title}
+                    </h2>
+                    <p className="text-sm text-ink-secondary leading-relaxed line-clamp-2 flex-1">
+                      {guide.description}
+                    </p>
+                    <div className="pt-3 mt-auto">
+                      <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-brand group-hover:gap-2.5 transition-all">
+                        Read guide
+                        <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="m9 18 6-6-6-6"/></svg>
+                      </span>
+                    </div>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        )}
+
+        {/* Link back to all guides */}
+        <div className="mt-12 pt-8 border-t border-border">
+          <Link href="/guide" className="text-sm font-semibold text-brand hover:text-brand-dark transition-colors flex items-center gap-1">
+            ← View all buying guides
+          </Link>
+        </div>
+      </Container>
+    );
+  }
+
+  // ── Individual guide page ─────────────────────────────────────────────────
   const [guide, allProducts] = await Promise.all([
     getPublicGuideBySlug(slug),
     getPublicProducts(),
