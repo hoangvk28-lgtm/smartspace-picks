@@ -8,7 +8,7 @@ export const guideDescription =
 export const mainKeyword = "best tablet stands";
 export const lastUpdated = "2026-05-24";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61g5aJqnSSL._AC_SL1500_.jpg";
+export const heroImage = "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-tablet-stands/hero.jpg";
 
 export const products: ProductReviewCardProps[] = [
   {
@@ -16,7 +16,7 @@ export const products: ProductReviewCardProps[] = [
     badge: "Top Pick",
     name: "LISEN Tablet Stand",
     brand: "LISEN",
-    imageUrl: "https://m.media-amazon.com/images/I/71fHIC6BpqL._AC_SL1500_.jpg",
+    imageUrl: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-tablet-stands/lisen-stand.jpg",
     imageAlt: "LISEN Tablet Stand foldable black",
     affiliateUrl: "https://amzn.to/4v5w0Vg",
     price: "$8.99",
@@ -43,7 +43,7 @@ export const products: ProductReviewCardProps[] = [
     badge: "Best Budget",
     name: "UGREEN Tablet Stand",
     brand: "UGREEN",
-    imageUrl: "https://m.media-amazon.com/images/I/51EpNRr1UrL._AC_SL1200_.jpg",
+    imageUrl: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-tablet-stands/ugreen-stand.jpg",
     imageAlt: "UGREEN Tablet Stand black foldable",
     affiliateUrl: "https://amzn.to/3PHYlCb",
     price: "$9.99",
@@ -70,7 +70,7 @@ export const products: ProductReviewCardProps[] = [
     badge: "Best Premium",
     name: "Lamicall Tablet Stand",
     brand: "Lamicall",
-    imageUrl: "https://m.media-amazon.com/images/I/61g5aJqnSSL._AC_SL1500_.jpg",
+    imageUrl: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-tablet-stands/hero.jpg",
     imageAlt: "Lamicall aluminum tablet stand black desk",
     affiliateUrl: "https://amzn.to/4f5y5Mj",
     price: "$13.98",
@@ -96,7 +96,7 @@ export const products: ProductReviewCardProps[] = [
     badge: "Best for Large Tablets",
     name: "Aluminum Tablet Stand (Heavy Duty)",
     brand: "Quality Picks",
-    imageUrl: "https://m.media-amazon.com/images/I/61Q7NsGEDkL._AC_SL1500_.jpg",
+    imageUrl: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-tablet-stands/heavy-duty-stand.jpg",
     imageAlt: "Heavy duty aluminum tablet stand for large screens",
     affiliateUrl: "https://amzn.to/4wN3ARI",
     price: "$29.99",
@@ -123,7 +123,7 @@ export const products: ProductReviewCardProps[] = [
     badge: "Most Versatile",
     name: "Gooseneck Tablet Holder",
     brand: "Generic",
-    imageUrl: "https://m.media-amazon.com/images/I/61d8g6D8D+L._AC_SL1500_.jpg",
+    imageUrl: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-tablet-stands/gooseneck-stand.jpg",
     imageAlt: "Gooseneck flexible tablet holder clamp desk",
     affiliateUrl: "https://amzn.to/3RYQAID",
     price: "$19.99",
@@ -151,7 +151,7 @@ export const products: ProductReviewCardProps[] = [
     badge: "Best for Dorms",
     name: "KABCON Tablet Stand",
     brand: "KABCON",
-    imageUrl: "https://m.media-amazon.com/images/I/71nfDCPlCBL._AC_SL1500_.jpg",
+    imageUrl: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-tablet-stands/kabcon-stand.jpg",
     imageAlt: "KABCON aluminum tablet stand silver adjustable",
     affiliateUrl: "https://amzn.to/42NHX69",
     price: "$17.99",
@@ -178,7 +178,7 @@ export const products: ProductReviewCardProps[] = [
     badge: "Best for Drawing",
     name: "MAGIPEA Tablet Stand",
     brand: "MAGIPEA",
-    imageUrl: "https://m.media-amazon.com/images/I/61nFb8dxQSL._AC_SL1080_.jpg",
+    imageUrl: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-tablet-stands/magipea-stand.jpg",
     imageAlt: "MAGIPEA adjustable tablet stand for drawing",
     affiliateUrl: "https://amzn.to/4dZPwwF",
     price: "$33.99",
@@ -205,7 +205,7 @@ export const products: ProductReviewCardProps[] = [
     badge: "Best Floor Stand",
     name: "Tounee Tablet Floor Stand",
     brand: "Tounee",
-    imageUrl: "https://m.media-amazon.com/images/I/61715d2MP8L._AC_SL300_.jpg",
+    imageUrl: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-tablet-stands/tounee-stand.jpg",
     imageAlt: "Tounee adjustable floor stand tablet holder gray",
     affiliateUrl: "https://amzn.to/4v6JBfd",
     price: "$15.99",
@@ -232,7 +232,7 @@ export const products: ProductReviewCardProps[] = [
     badge: "Editor's Choice",
     name: "ELEKPARTS Tablet Floor Stand",
     brand: "Elekpopu",
-    imageUrl: "https://m.media-amazon.com/images/I/51YGE9j-49L._AC_SL1500_.jpg",
+    imageUrl: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-tablet-stands/elekparts-stand.jpg",
     imageAlt: "ELEKPARTS adjustable tablet floor stand black",
     affiliateUrl: "https://amzn.to/4duiKni",
     price: "$27.99",
@@ -259,7 +259,7 @@ export const products: ProductReviewCardProps[] = [
     badge: "Best Compact",
     name: "Stump Stand",
     brand: "Stump",
-    imageUrl: "https://m.media-amazon.com/images/I/51kUBbYEmCL._AC_SL1000_.jpg",
+    imageUrl: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-tablet-stands/stump-stand.jpg",
     imageAlt: "Stump tablet stand black compact desk",
     affiliateUrl: "https://amzn.to/4f5mSvm",
     price: "$24.95",
