@@ -19,6 +19,7 @@ export const authors: Author[] = [
     slug: "deskfinds-editorial-team",
     name: "DeskFinds Editorial Team",
     role: "Product Researchers & Editors",
+    avatarUrl: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/authors/deskfinds-editorial-team/avatar.png",
     bio: "We research and compare Amazon products specifically for small spaces — dorm rooms, compact desks, and budget home offices. Every guide is built on product specs, verified buyer data, and structured scoring, not sponsored placement.",
     longBio:
       "DeskFinds was built for people who live and work in tight spaces: studio apartments, college dorms, and compact home offices where every square inch counts. Our editorial team evaluates products across five weighted criteria — small-space fit, build quality, ease of use, value for money, and buyer feedback — and publishes structured buying guides that show the trade-offs clearly.\n\nWe do not accept payment for placement. Affiliate commissions from Amazon help keep the site running, but they do not influence which products we recommend or how we rank them. If a product scores poorly on our rubric, it does not appear in our top picks — regardless of commission rate.",
