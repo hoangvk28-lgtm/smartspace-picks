@@ -22,7 +22,7 @@ const exploreChips = [
   { label: "Under-Bed Storage", key: "under-bed-storage" },
 ];
 
-export const revalidate = 3600;
+export const revalidate = 86400;
 
 export const metadata: Metadata = buildMetadata({
   title: "Amazon Finds for Small Spaces – Budget-Friendly Picks",
@@ -317,3 +317,4 @@ function ProductSection({ id, eyebrow, heading, description, products: sectionPr
     </section>
   );
 }
+

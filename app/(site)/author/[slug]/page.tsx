@@ -9,7 +9,7 @@ import { getPublicGuides } from "@/lib/public-guides";
 import { buildMetadata, SITE_URL } from "@/lib/seo";
 import { formatDate } from "@/lib/utils";
 
-export const revalidate = 3600;
+export const revalidate = 604800;
 
 type Props = { params: Promise<{ slug: string }> };
 

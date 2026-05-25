@@ -7,7 +7,7 @@ import { buildMetadata } from "@/lib/seo";
 import { scoreToColor } from "@/lib/utils";
 import { getPublicProducts } from "@/lib/public-products";
 
-export const revalidate = 3600;
+export const revalidate = 86400;
 
 export const metadata: Metadata = buildMetadata({
   title: "Product Reviews – Small Space Products",
@@ -114,4 +114,5 @@ export default async function ReviewsIndexPage() {
     </Container>
   );
 }
+
 

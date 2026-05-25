@@ -20,7 +20,7 @@ import { amazonSearchLinks } from "@/lib/amazon-links";
 import { categories, getCategoryBySlug } from "@/data/categories";
 import { authorToSlug } from "@/data/authors";
 
-export const revalidate = 3600;
+export const revalidate = 86400;
 
 type Props = { params: Promise<{ slug: string }> };
 

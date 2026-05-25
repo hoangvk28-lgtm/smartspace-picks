@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/seo";
 import { getPublicGuides } from "@/lib/public-guides";
 import { formatDate } from "@/lib/utils";
 
-export const revalidate = 3600;
+export const revalidate = 86400;
 
 export const metadata: Metadata = buildMetadata({
   title: "All Buying Guides – Best Small Space Products",
@@ -95,4 +95,5 @@ export default async function BuyingGuidesIndexPage() {
     </Container>
   );
 }
+
 

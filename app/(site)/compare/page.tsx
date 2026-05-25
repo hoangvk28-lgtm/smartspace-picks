@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/seo";
 import { categories } from "@/data/categories";
 import { getPublicProducts } from "@/lib/public-products";
 
-export const revalidate = 3600;
+export const revalidate = 86400;
 
 export const metadata: Metadata = buildMetadata({
   title: "Compare Small-Space Products Side-by-Side",
@@ -67,3 +67,4 @@ export default async function ComparePage() {
     </Container>
   );
 }
+
