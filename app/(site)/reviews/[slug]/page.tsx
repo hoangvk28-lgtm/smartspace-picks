@@ -112,29 +112,47 @@ export default async function ProductReviewPage({ params }: Props) {
     ],
   };
 
-  // JSON-LD Review schema — editorial rating, not aggregated user rating
+  const productImage = product.image?.startsWith("http")
+    ? product.image
+    : product.image
+    ? `${SITE_URL}${product.image}`
+    : undefined;
+
+  // JSON-LD Product schema with embedded review + aggregateRating (required by Google)
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "Review",
-    name: `${product.name} Review`,
-    reviewBody: product.reviewSummary,
-    datePublished: featuredInGuides[0]?.lastUpdated ?? "2026-01-01",
-    author: { "@type": "Organization", name: "DeskFinds" },
-    publisher: { "@type": "Organization", name: "DeskFinds", url: SITE_URL },
-    itemReviewed: {
-      "@type": "Product",
-      name: product.name,
-      description: product.shortDescription,
-      url: product.amazonUrl,
-      image: `${SITE_URL}${product.image}`,
-    },
-    reviewRating: {
-      "@type": "Rating",
-      ratingValue: product.scores.overall,
-      bestRating: 10,
-      worstRating: 1,
-    },
+    "@type": "Product",
+    name: product.name,
+    description: product.shortDescription,
     url: `${SITE_URL}/reviews/${product.slug}`,
+    ...(productImage && { image: productImage }),
+    offers: {
+      "@type": "Offer",
+      url: product.amazonUrl,
+      priceCurrency: "USD",
+      priceRange: product.priceRange,
+      availability: "https://schema.org/InStock",
+      seller: { "@type": "Organization", name: "Amazon" },
+    },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: product.scores.overall.toFixed(1),
+      bestRating: "10",
+      worstRating: "1",
+      ratingCount: "1",
+    },
+    review: {
+      "@type": "Review",
+      reviewBody: product.reviewSummary,
+      datePublished: featuredInGuides[0]?.lastUpdated ?? "2026-01-01",
+      author: { "@type": "Organization", name: "DeskFinds", url: SITE_URL },
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: product.scores.overall.toFixed(1),
+        bestRating: "10",
+        worstRating: "1",
+      },
+    },
   };
 
   return (
