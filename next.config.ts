@@ -1,6 +1,17 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  async redirects() {
+    return [
+      // non-www → www (301 permanent — tells Google which is canonical)
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "deskfinds.com" }],
+        destination: "https://www.deskfinds.com/:path*",
+        permanent: true,
+      },
+    ];
+  },
   experimental: {
     serverActions: {
       bodySizeLimit: "10mb",
