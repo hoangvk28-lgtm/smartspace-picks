@@ -8,6 +8,7 @@ import { ProductReviewCard } from "@/components/product/ProductReviewCard";
 import { AtAGlance } from "@/components/product/AtAGlance";
 import { buildMetadata, SITE_URL } from "@/lib/seo";
 import { formatDate } from "@/lib/utils";
+import { getPublicGuideBySlug } from "@/lib/public-guides";
 import {
   products,
   atAGlanceItems,
@@ -16,11 +17,11 @@ import {
   guideDescription,
   lastUpdated,
   readTime,
-  heroImage,
+  heroImage as fallbackHeroImage,
   mainKeyword,
 } from "@/data/guides/best-tablet-stands-for-desk";
 
-export const revalidate = false;
+export const revalidate = 86400;
 
 export const metadata: Metadata = {
   ...buildMetadata({
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
     description:
       "The best tablet stand for desk use should save space, stay stable when you tap, and fit how you use your tablet — studying, reading, video calls, or second-screen work. Seven picks for small desks and dorm rooms.",
     path: "/guide/best-tablet-stands-for-desk",
-    image: heroImage,
+    image: fallbackHeroImage,
     type: "article",
   }),
   keywords: [
@@ -55,7 +56,7 @@ const articleSchema = {
   author: { "@type": "Organization", name: "DeskFinds Editorial Team", url: `${SITE_URL}/author/deskfinds-editorial-team` },
   publisher: { "@type": "Organization", name: "DeskFinds", url: SITE_URL },
   mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/guide/best-tablet-stands-for-desk` },
-  image: heroImage,
+  image: fallbackHeroImage,
 };
 
 const breadcrumbSchema = {
@@ -151,7 +152,9 @@ const sections = [
   },
 ];
 
-export default function BestTabletStandsForDeskPage() {
+export default async function BestTabletStandsForDeskPage() {
+  const dbGuide = await getPublicGuideBySlug("best-tablet-stands-for-desk");
+  const heroImage = dbGuide?.heroImage || fallbackHeroImage;
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />

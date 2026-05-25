@@ -10,7 +10,7 @@ export const guideDescription =
 export const mainKeyword = "best tablet stands for desk";
 export const lastUpdated = "2026-05-25";
 export const readTime = "9 min";
-export const heroImage = `${BASE}/hero.jpg`;
+export const heroImage = `${BASE}/lamicall-s1.jpg`;
 
 export const products: ProductReviewCardProps[] = [
   {

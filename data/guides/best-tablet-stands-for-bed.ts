@@ -10,7 +10,7 @@ export const guideDescription =
 export const mainKeyword = "best tablet stands for bed";
 export const lastUpdated = "2026-05-24";
 export const readTime = "7 min";
-export const heroImage = `${BASE}/hero.jpg`;
+export const heroImage = `${BASE}/lamicall-pillow.jpg`;
 
 export const products: ProductReviewCardProps[] = [
   {

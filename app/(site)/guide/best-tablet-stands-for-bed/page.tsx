@@ -8,6 +8,7 @@ import { ProductReviewCard } from "@/components/product/ProductReviewCard";
 import { AtAGlance } from "@/components/product/AtAGlance";
 import { buildMetadata, SITE_URL } from "@/lib/seo";
 import { formatDate } from "@/lib/utils";
+import { getPublicGuideBySlug } from "@/lib/public-guides";
 import {
   products,
   atAGlanceItems,
@@ -16,11 +17,11 @@ import {
   guideDescription,
   lastUpdated,
   readTime,
-  heroImage,
+  heroImage as fallbackHeroImage,
   mainKeyword,
 } from "@/data/guides/best-tablet-stands-for-bed";
 
-export const revalidate = false;
+export const revalidate = 86400;
 
 export const metadata: Metadata = {
   ...buildMetadata({
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
     description:
       "Compare the best tablet stands for bed, including pillow stands, gooseneck holders, lap stands, and adjustable options for reading, streaming, and hands-free use.",
     path: "/guide/best-tablet-stands-for-bed",
-    image: heroImage,
+    image: fallbackHeroImage,
     type: "article",
   }),
   keywords: [
@@ -54,7 +55,7 @@ const articleSchema = {
   author: { "@type": "Organization", name: "DeskFinds Editorial Team", url: `${SITE_URL}/author/deskfinds-editorial-team` },
   publisher: { "@type": "Organization", name: "DeskFinds", url: SITE_URL },
   mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/guide/best-tablet-stands-for-bed` },
-  image: heroImage,
+  image: fallbackHeroImage,
 };
 
 const breadcrumbSchema = {
@@ -91,7 +92,9 @@ const itemListSchema = {
   })),
 };
 
-export default function BestTabletStandsForBedPage() {
+export default async function BestTabletStandsForBedPage() {
+  const dbGuide = await getPublicGuideBySlug("best-tablet-stands-for-bed");
+  const heroImage = dbGuide?.heroImage || fallbackHeroImage;
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
