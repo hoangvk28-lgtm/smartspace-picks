@@ -1,16 +1,79 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
-import { buildMetadata } from "@/lib/seo";
-import { categories } from "@/data/categories";
-import { guides } from "@/data/guides";
+import { buildMetadata, SITE_URL } from "@/lib/seo";
 
-export const metadata: Metadata = buildMetadata({
-  title: "About DeskFinds",
+// ── Metadata ──────────────────────────────────────────────────────────────────
+
+const baseMeta = buildMetadata({
+  title: "About DeskFinds | Small-Space Desk Setup Buying Guides",
   description:
-    "DeskFinds publishes honest Amazon buying guides for students, dorm room users, and people living in small apartments and compact home offices. Learn who we are and how we work.",
+    "DeskFinds helps students, remote workers, renters, and small-space users find practical desk setup products through research-based buying guides, comparisons, and transparent affiliate recommendations.",
   path: "/about",
 });
+
+export const metadata: Metadata = {
+  ...baseMeta,
+  keywords: [
+    "DeskFinds",
+    "desk finds",
+    "what is DeskFinds",
+    "DeskFinds reviews",
+    "small-space desk setup",
+    "workspace buying guides",
+    "dorm room desk setup",
+    "compact workspace products",
+    "desk setup buying guides",
+    "Amazon product guides for small spaces",
+  ],
+  openGraph: {
+    ...(baseMeta.openGraph as object),
+    title: "About DeskFinds",
+    description:
+      "Learn what DeskFinds is, who it helps, how recommendations are created, and how the site earns through transparent affiliate links.",
+  },
+};
+
+// ── Data ──────────────────────────────────────────────────────────────────────
+
+const AUDIENCE = [
+  {
+    title: "College students",
+    desc: "Living in dorms and shared apartments who need to maximize one desk and limited floor space on a student budget.",
+    icon: (
+      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.627 48.627 0 0 1 12 20.904a48.627 48.627 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.57 50.57 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0 1 12 13.489a50.702 50.702 0 0 1 3.741-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+      </svg>
+    ),
+  },
+  {
+    title: "Remote workers",
+    desc: "Setting up a professional home office in a bedroom corner or studio apartment without the budget or space for dedicated office furniture.",
+    icon: (
+      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0H3" />
+      </svg>
+    ),
+  },
+  {
+    title: "Small apartment renters",
+    desc: "Who want organized, functional rooms and can't drill holes, can't add furniture that dominates the room, and need products that work with what they already have.",
+    icon: (
+      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+      </svg>
+    ),
+  },
+  {
+    title: "First-time renters",
+    desc: "Equipping their first place and trying to avoid the expensive mistake of buying something that doesn't fit or doesn't solve the actual problem.",
+    icon: (
+      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+      </svg>
+    ),
+  },
+];
 
 const DIFFERENTIATORS = [
   {
@@ -20,7 +83,7 @@ const DIFFERENTIATORS = [
       </svg>
     ),
     title: "Small-space focused",
-    desc: "Every product is evaluated for dorm rooms, apartment desks, and compact setups - not hypothetical large home offices. Physical size, mounting requirements, and space footprint are first-class evaluation criteria.",
+    desc: "Every product is evaluated for dorm rooms, apartment desks, and compact setups — not hypothetical large home offices. Physical size, mounting requirements, and space footprint are first-class evaluation criteria.",
   },
   {
     icon: (
@@ -29,7 +92,7 @@ const DIFFERENTIATORS = [
       </svg>
     ),
     title: "Clear product comparisons",
-    desc: "We use a consistent 1–10 scoring system across five criteria for every product we evaluate. Scores are comparable across categories because the criteria don't change. Our comparison tables show you everything side-by-side.",
+    desc: "We use a consistent 1–10 scoring system across five criteria for every product we evaluate. Scores are comparable across categories because the criteria don't change. See our full scoring methodology on the How We Review page.",
   },
   {
     icon: (
@@ -46,163 +109,415 @@ const DIFFERENTIATORS = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
       </svg>
     ),
-    title: "No product overload",
-    desc: "Most buying guides on the internet recommend 10–20 products so no reader decision feels wrong. We pick the best 2–4 options and explain clearly why. If you can't choose between options we recommend, we tell you which one to buy.",
+    title: "Fewer, better recommendations",
+    desc: "Most buying guides recommend 10–20 products so no reader decision feels wrong. We pick the best 2–5 options and explain clearly why. If you can't choose between the options we recommend, we tell you which one to buy.",
   },
 ];
 
+const COVERS = [
+  { label: "Tablet Stands", href: "/guide/best-tablet-stands" },
+  { label: "Tablet Stands for Desk", href: "/guide/best-tablet-stands-for-desk" },
+  { label: "Tablet Stands for Bed", href: "/guide/best-tablet-stands-for-bed" },
+  { label: "Desk Lamps", href: "/guide/desk-lamps-small-desks" },
+  { label: "Monitor Stands", href: "/guide/monitor-stands-small-desks" },
+  { label: "Desk Organizers", href: "/guide/desk-organizers-small-desks" },
+  { label: "Dorm Essentials", href: "/categories/dorm-essentials" },
+  { label: "Small Room Storage", href: "/categories/small-room-storage" },
+  { label: "Compact Home Office", href: "/categories/compact-home-office" },
+];
+
+const EDITORIAL_STANDARDS = [
+  "We disclose affiliate links clearly on every page that contains them.",
+  "We do not publish paid placements as independent editorial recommendations.",
+  "We do not claim hands-on testing unless clearly and explicitly stated.",
+  "We avoid exact prices unless they are verified and maintainable.",
+  "We prioritize fit, space constraints, and use case over product quantity.",
+  "We update guides when information changes or recommendations no longer make sense.",
+];
+
+const FAQ_ITEMS = [
+  {
+    q: "What is DeskFinds?",
+    a: "DeskFinds is a buying guide website focused on small-space desk setups, dorm rooms, and compact workspaces. We publish research-based product comparisons and guides to help people find practical products for tight spaces and realistic budgets.",
+  },
+  {
+    q: "Is DeskFinds an online store?",
+    a: "No. DeskFinds is not an online store. We do not sell, stock, or ship products. We publish buying guides and product comparisons with links to retailers where products can be purchased.",
+  },
+  {
+    q: "Does DeskFinds sell products directly?",
+    a: "No. DeskFinds does not sell products directly. When you click a product link on DeskFinds, you are taken to a third-party retailer — most commonly Amazon — to complete the purchase there.",
+  },
+  {
+    q: "How does DeskFinds make money?",
+    a: "DeskFinds earns a small commission when users purchase products through affiliate links on the site. As an Amazon Associate, DeskFinds earns from qualifying purchases. This does not add any extra cost to you.",
+  },
+  {
+    q: "Are DeskFinds recommendations paid placements?",
+    a: "No. Recommendation rankings on DeskFinds are not influenced by commission rates, brand payments, or sponsored placement fees. Products are ranked based on our evaluation criteria. Affiliate commissions fund the site but do not influence which products we recommend.",
+  },
+  {
+    q: "Is DeskFinds part of Amazon?",
+    a: "No. DeskFinds is an independent editorial website. DeskFinds is not owned by, affiliated with, or endorsed by Amazon. We participate in the Amazon Associates program, which allows independent publishers to earn commissions on qualifying purchases — but we operate independently.",
+  },
+  {
+    q: "How are DeskFinds recommendations created?",
+    a: "Recommendations are based on product specifications, verified buyer feedback patterns, dimensions, mounting requirements, and small-space use cases. Unless explicitly stated otherwise, our guides are research-based — not hands-on lab tests. Our full methodology is explained on the How We Review page.",
+  },
+  {
+    q: 'What does "desk finds" mean?',
+    a: '"Desk finds" refers to useful, practical products discovered for desk setups and compact workspaces — similar to the idea of a great "find" when shopping. DeskFinds was built around the idea of surfacing the best products for small-space desk setups that are easy to overlook in typical product roundups.',
+  },
+];
+
+const START_GUIDES = [
+  { label: "Best Tablet Stands", href: "/guide/best-tablet-stands" },
+  { label: "Best Tablet Stands for Desk", href: "/guide/best-tablet-stands-for-desk" },
+  { label: "Best Tablet Stands for Bed", href: "/guide/best-tablet-stands-for-bed" },
+  { label: "Desk Lamps for Small Desks", href: "/guide/desk-lamps-small-desks" },
+  { label: "Monitor Stands for Small Desks", href: "/guide/monitor-stands-small-desks" },
+  { label: "Desk Organizers for Small Desks", href: "/guide/desk-organizers-small-desks" },
+];
+
+// ── JSON-LD ───────────────────────────────────────────────────────────────────
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+    { "@type": "ListItem", position: 2, name: "About DeskFinds", item: `${SITE_URL}/about` },
+  ],
+};
+
+const aboutPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  name: "About DeskFinds",
+  description:
+    "DeskFinds helps students, remote workers, renters, and small-space users find practical desk setup products through research-based buying guides, comparisons, and transparent affiliate recommendations.",
+  url: `${SITE_URL}/about`,
+  publisher: {
+    "@type": "Organization",
+    name: "DeskFinds",
+    url: SITE_URL,
+    sameAs: [`${SITE_URL}/author/deskfinds-editorial-team`],
+  },
+};
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "DeskFinds",
+  url: SITE_URL,
+  description:
+    "Independent buying guide website for small-space desk setups, dorm rooms, and compact home offices.",
+  publishingPrinciples: `${SITE_URL}/how-we-review`,
+  sameAs: [`${SITE_URL}/author/deskfinds-editorial-team`],
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: FAQ_ITEMS.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: { "@type": "Answer", text: item.a },
+  })),
+};
+
+// ── Page ──────────────────────────────────────────────────────────────────────
+
 export default function AboutPage() {
   return (
-    <Container narrow className="py-14">
-      {/* Header */}
-      <header className="mb-10">
-        <span className="text-xs font-bold uppercase tracking-widest text-brand">About Us</span>
-        <h1 className="text-4xl font-bold text-ink mt-2 mb-4 tracking-tight">
-          Making Small Spaces Work Smarter
-        </h1>
-        <p className="text-lg text-ink-secondary leading-relaxed">
-          DeskFinds was built for people who have to make careful decisions about every product they bring into a small room - because space is a real constraint and the wrong product makes things worse.
-        </p>
-      </header>
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutPageSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
-      {/* Mission */}
-      <section className="mb-12">
-        <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">Our Mission</h2>
-        <div className="space-y-4 text-ink-secondary leading-relaxed text-sm">
-          <p>
-            We believe that a dorm room, a studio apartment, or a bedroom desk doesn&apos;t have to mean a compromised setup. The right products - chosen specifically for tight spaces - can make a 200-square-foot room as productive and comfortable as a much larger one.
+      <Container narrow className="py-14">
+
+        {/* ── H1 Hero ────────────────────────────────────────────────── */}
+        <header className="mb-12">
+          <span className="text-xs font-bold uppercase tracking-widest text-brand">About DeskFinds</span>
+          <h1 className="text-4xl font-bold text-ink mt-2 mb-3 tracking-tight">
+            Making Small Spaces Work Smarter
+          </h1>
+          <p className="text-lg text-ink-secondary leading-relaxed max-w-2xl">
+            DeskFinds is a workspace buying guide website for people who need practical product recommendations for dorm rooms, small apartments, bedroom desks, and compact workspaces — built on research, not sponsored rankings.
           </p>
-          <p>
-            DeskFinds exists to help students, remote workers, and small-space renters find those products without wading through sponsored rankings, vague listicles, or buying guides that were clearly written without considering what a real dorm desk looks like.
+        </header>
+
+        {/* ── What Is DeskFinds ──────────────────────────────────────── */}
+        <section className="mb-12 p-6 bg-white rounded-2xl border border-border" aria-labelledby="what-is-deskfinds">
+          <h2 id="what-is-deskfinds" className="text-2xl font-bold text-ink mb-4 tracking-tight">What Is DeskFinds?</h2>
+          <div className="space-y-3 text-sm text-ink-secondary leading-relaxed">
+            <p>
+              <strong className="text-ink">DeskFinds is not an online store.</strong> We do not sell products, stock inventory, or process orders. When you click a product link on DeskFinds, you go directly to a third-party retailer — usually Amazon — to buy it there.
+            </p>
+            <p>
+              DeskFinds publishes <strong className="text-ink">buying guides, product comparisons, and review-style content</strong> to help people figure out which products are worth buying before they spend money. Every guide is focused on a specific product category and a specific constraint: small spaces, realistic budgets, and practical use cases.
+            </p>
+            <p>
+              If you have searched for something like <em>"best desk lamp for a dorm room"</em> or <em>"tablet stand that works on a bed"</em> and found a DeskFinds article, that is what we do — we research those questions and publish structured answers, not sales pitches.
+            </p>
+          </div>
+        </section>
+
+        {/* ── Mission ───────────────────────────────────────────────── */}
+        <section className="mb-12" aria-labelledby="our-mission">
+          <h2 id="our-mission" className="text-2xl font-bold text-ink mb-4 tracking-tight">Our Mission</h2>
+          <div className="space-y-4 text-sm text-ink-secondary leading-relaxed">
+            <p>
+              A dorm room, a studio apartment, or a bedroom desk does not have to mean a compromised setup. The right products — chosen specifically for tight spaces — can make a 200-square-foot room as productive and comfortable as a much larger one.
+            </p>
+            <p>
+              DeskFinds exists to help <strong className="text-ink">students, remote workers, first-time renters, and small-space users</strong> find those products without wading through sponsored rankings, vague listicles, or buying guides clearly written without considering what a real dorm desk looks like.
+            </p>
+          </div>
+        </section>
+
+        {/* ── Who DeskFinds Is For ───────────────────────────────────── */}
+        <section className="mb-12" aria-labelledby="who-for">
+          <h2 id="who-for" className="text-2xl font-bold text-ink mb-2 tracking-tight">Who DeskFinds Is For</h2>
+          <p className="text-sm text-ink-secondary mb-6">
+            Every guide on DeskFinds is written with one of these people in mind:
           </p>
-        </div>
-      </section>
-
-      {/* Who we write for */}
-      <section className="mb-12">
-        <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">Who We Write For</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {[
-            {
-              title: "College students",
-              desc: "Living in dorms and shared apartments who need to maximize one desk and limited floor space on a student budget.",
-            },
-            {
-              title: "Remote workers",
-              desc: "Setting up a professional home office in a bedroom corner or studio apartment without the budget or space for dedicated office furniture.",
-            },
-            {
-              title: "Small apartment renters",
-              desc: "Who want organized, functional rooms and can't drill holes, can't add furniture that dominates the room, and need products that work with what they already have.",
-            },
-            {
-              title: "First-time renters",
-              desc: "Equipping their first place and trying to avoid the expensive mistake of buying something that doesn't fit or doesn't solve the actual problem.",
-            },
-          ].map((item) => (
-            <div key={item.title} className="p-4 rounded-card border border-border bg-white">
-              <p className="font-semibold text-ink text-sm mb-1.5">{item.title}</p>
-              <p className="text-sm text-ink-secondary leading-relaxed">{item.desc}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* What makes us different */}
-      <section className="mb-12">
-        <h2 className="text-2xl font-bold text-ink mb-2 tracking-tight">What Makes DeskFinds Different</h2>
-        <p className="text-sm text-ink-secondary leading-relaxed mb-6">
-          There are thousands of Amazon product roundup sites. Here is why we think DeskFinds is worth your time:
-        </p>
-        <div className="space-y-5">
-          {DIFFERENTIATORS.map((item) => (
-            <div key={item.title} className="flex gap-4">
-              <div className="w-9 h-9 rounded-lg bg-brand-light text-brand flex items-center justify-center shrink-0">
-                {item.icon}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {AUDIENCE.map((item) => (
+              <div key={item.title} className="flex gap-3 p-4 rounded-xl border border-border bg-white">
+                <div className="w-9 h-9 rounded-lg bg-brand-light text-brand flex items-center justify-center shrink-0">
+                  {item.icon}
+                </div>
+                <div>
+                  <p className="font-semibold text-ink text-sm mb-1">{item.title}</p>
+                  <p className="text-sm text-ink-secondary leading-relaxed">{item.desc}</p>
+                </div>
               </div>
-              <div>
-                <p className="font-semibold text-ink text-sm mb-1">{item.title}</p>
-                <p className="text-sm text-ink-secondary leading-relaxed">{item.desc}</p>
+            ))}
+          </div>
+        </section>
+
+        {/* ── What DeskFinds Covers ──────────────────────────────────── */}
+        <section className="mb-12" aria-labelledby="what-covers">
+          <h2 id="what-covers" className="text-2xl font-bold text-ink mb-2 tracking-tight">What DeskFinds Covers</h2>
+          <p className="text-sm text-ink-secondary mb-5">
+            DeskFinds publishes guides across the most common small-space desk setup categories:
+          </p>
+          <div className="flex flex-wrap gap-2.5">
+            {COVERS.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full border border-border bg-white text-sm font-medium text-ink hover:border-brand/40 hover:text-brand transition-colors"
+              >
+                {item.label}
+                <svg className="w-3.5 h-3.5 opacity-50" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="m9 18 6-6-6-6" />
+                </svg>
+              </Link>
+            ))}
+          </div>
+          <p className="text-xs text-ink-muted mt-4">
+            Browse all guides at{" "}
+            <Link href="/guide" className="text-brand hover:underline font-medium">deskfinds.com/guide</Link>
+            {" "}or by category at{" "}
+            <Link href="/categories/desk-setup" className="text-brand hover:underline font-medium">Desk Setup</Link>
+            {", "}
+            <Link href="/categories/dorm-essentials" className="text-brand hover:underline font-medium">Dorm Essentials</Link>
+            {", and "}
+            <Link href="/categories/small-room-storage" className="text-brand hover:underline font-medium">Small Room Storage</Link>.
+          </p>
+        </section>
+
+        {/* ── What Makes DeskFinds Different ────────────────────────── */}
+        <section className="mb-12" aria-labelledby="different">
+          <h2 id="different" className="text-2xl font-bold text-ink mb-2 tracking-tight">What Makes DeskFinds Different</h2>
+          <p className="text-sm text-ink-secondary leading-relaxed mb-6">
+            There are thousands of Amazon product roundup sites. Here is why we think DeskFinds is worth your time:
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {DIFFERENTIATORS.map((item) => (
+              <div key={item.title} className="flex gap-3 p-4 rounded-xl border border-border bg-white">
+                <div className="w-9 h-9 rounded-lg bg-brand-light text-brand flex items-center justify-center shrink-0">
+                  {item.icon}
+                </div>
+                <div>
+                  <p className="font-semibold text-ink text-sm mb-1">{item.title}</p>
+                  <p className="text-sm text-ink-secondary leading-relaxed">{item.desc}</p>
+                </div>
               </div>
-            </div>
-          ))}
-        </div>
-      </section>
+            ))}
+          </div>
+          <p className="text-xs text-ink-muted mt-4">
+            Our scoring criteria are explained in full on{" "}
+            <Link href="/how-we-review" className="text-brand hover:underline font-medium">How We Review</Link>.
+          </p>
+        </section>
 
-      {/* How we research */}
-      <section className="mb-12">
-        <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">How We Research</h2>
-        <div className="space-y-4 text-sm text-ink-secondary leading-relaxed">
-          <p>
-            For every buying guide, we start by defining the exact small-space context: what are the physical constraints, what does the target buyer actually own, and what are they trying to solve? We evaluate products against those real constraints - not generic &ldquo;great for home offices&rdquo; claims.
-          </p>
-          <p>
-            We draw on manufacturer specifications, verified Amazon buyer reviews (with particular attention to patterns in negative reviews that surface failure modes), and community discussions from spaces where real small-room users share what actually works.
-          </p>
-          <p>
-            We are transparent about one important thing: <strong className="text-ink">unless we explicitly state otherwise, our guides are research-based, not hands-on lab tests.</strong> We don&apos;t have a testing facility. We believe being honest about this is more useful to you than pretending we do.
-          </p>
-          <p>
-            You can read our complete methodology, including all five scoring criteria and what each editorial badge means, on our{" "}
-            <Link href="/how-we-review" className="text-brand hover:text-brand-dark font-medium underline underline-offset-2 transition-colors">
-              How We Review page
-            </Link>.
-          </p>
-        </div>
-      </section>
-
-      {/* Affiliate relationship */}
-      <section className="mb-12 p-5 bg-white rounded-card border border-border">
-        <h2 className="text-lg font-bold text-ink mb-2">Our Affiliate Relationship</h2>
-        <p className="text-sm text-ink-secondary leading-relaxed mb-3">
-          As an Amazon Associate, we earn a small commission when you buy through our links. This is how the site is funded. We want to be completely clear: our recommendation rankings are never influenced by commission rates or any payment from brands. We link to whatever product we genuinely believe is the best choice.
-        </p>
-        <Link href="/affiliate-disclosure" className="text-sm font-semibold text-brand hover:text-brand-dark transition-colors">
-          Read our full affiliate disclosure →
-        </Link>
-      </section>
-
-      {/* Internal links */}
-      <section>
-        <h2 className="text-xl font-bold text-ink mb-5 tracking-tight">Explore DeskFinds</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          <div>
-            <p className="text-xs font-bold uppercase tracking-widest text-ink-muted mb-3">Buying Guides</p>
-            <ul className="space-y-2">
-              {guides.map((guide) => (
-                <li key={guide.slug}>
-                  <Link
-                    href={`/guide/${guide.slug}`}
-                    className="text-sm text-brand hover:text-brand-dark font-medium transition-colors"
-                  >
-                    {guide.title} →
-                  </Link>
+        {/* ── How DeskFinds Research Works ──────────────────────────── */}
+        <section className="mb-12" aria-labelledby="research">
+          <h2 id="research" className="text-2xl font-bold text-ink mb-4 tracking-tight">How DeskFinds Research Works</h2>
+          <div className="space-y-4 text-sm text-ink-secondary leading-relaxed">
+            <p>
+              For every buying guide, we start by defining the exact small-space context: what are the physical constraints, what does the target buyer already own, and what are they actually trying to solve? We evaluate products against those real constraints — not generic "great for home offices" claims.
+            </p>
+            <p>
+              Our research draws on:
+            </p>
+            <ul className="space-y-2 pl-4">
+              {[
+                "Product specifications and technical dimensions",
+                "Space footprint and mounting or installation requirements",
+                "Verified buyer feedback patterns (with close attention to negative review patterns that surface real failure modes)",
+                "Community discussions where small-room users share what actually works",
+                "Small-space use cases specific to the product category",
+              ].map((item) => (
+                <li key={item} className="flex gap-2.5">
+                  <svg className="w-3.5 h-3.5 text-brand shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                  </svg>
+                  <span>{item}</span>
                 </li>
               ))}
             </ul>
+            <p>
+              We are transparent about one important thing:{" "}
+              <strong className="text-ink">unless we explicitly state otherwise, our guides are research-based, not hands-on lab tests.</strong>{" "}
+              We do not have a testing facility. We believe being honest about this is more useful to you than pretending otherwise.
+            </p>
+            <p>
+              You can read our complete methodology — including all five scoring criteria and what each editorial badge means — on our{" "}
+              <Link href="/how-we-review" className="text-brand hover:text-brand-dark font-medium underline underline-offset-2 transition-colors">
+                How We Review page
+              </Link>.
+            </p>
           </div>
-          <div>
-            <p className="text-xs font-bold uppercase tracking-widest text-ink-muted mb-3">Categories</p>
-            <ul className="space-y-2">
-              {categories.map((cat) => (
-                <li key={cat.slug}>
-                  <Link
-                    href={`/categories/${cat.slug}`}
-                    className="text-sm text-brand hover:text-brand-dark font-medium transition-colors"
-                  >
-                    {cat.name} →
-                  </Link>
+        </section>
+
+        {/* ── Editorial Standards ───────────────────────────────────── */}
+        <section className="mb-12" aria-labelledby="standards">
+          <h2 id="standards" className="text-2xl font-bold text-ink mb-4 tracking-tight">Our Editorial Standards</h2>
+          <div className="p-5 bg-white rounded-2xl border border-border">
+            <ul className="space-y-3">
+              {EDITORIAL_STANDARDS.map((item) => (
+                <li key={item} className="flex gap-3 text-sm text-ink-secondary">
+                  <svg className="w-4 h-4 text-brand shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                  </svg>
+                  <span>{item}</span>
                 </li>
               ))}
             </ul>
-            <div className="mt-4 space-y-2">
-              <Link href="/compare" className="block text-sm text-brand hover:text-brand-dark font-medium transition-colors">Compare all products →</Link>
-              <Link href="/deals" className="block text-sm text-brand hover:text-brand-dark font-medium transition-colors">Budget-friendly finds →</Link>
-              <Link href="/contact" className="block text-sm text-brand hover:text-brand-dark font-medium transition-colors">Contact us →</Link>
+            <div className="mt-5 pt-4 border-t border-border flex flex-wrap gap-x-5 gap-y-2 text-xs">
+              {[
+                { label: "How We Review", href: "/how-we-review" },
+                { label: "Affiliate Disclosure", href: "/affiliate-disclosure" },
+                { label: "Privacy Policy", href: "/privacy-policy" },
+                { label: "Contact", href: "/contact" },
+              ].map((l) => (
+                <Link key={l.href} href={l.href} className="text-brand hover:underline font-medium">
+                  {l.label} →
+                </Link>
+              ))}
             </div>
           </div>
-        </div>
-      </section>
-    </Container>
+        </section>
+
+        {/* ── Affiliate Relationship ────────────────────────────────── */}
+        <section className="mb-12 p-5 bg-white rounded-2xl border border-border" aria-labelledby="affiliate">
+          <h2 id="affiliate" className="text-lg font-bold text-ink mb-3">Our Affiliate Relationship</h2>
+          <div className="space-y-3 text-sm text-ink-secondary leading-relaxed">
+            <p>
+              DeskFinds may earn a small commission when you purchase through links on this site. This does not add any extra cost to you — affiliate commissions come from the retailer margin, not from a price increase on your end.
+            </p>
+            <p>
+              Recommendation rankings on DeskFinds are not influenced by commission rates. We link to whatever product we genuinely believe is the best choice based on our evaluation criteria. A product that earns a higher commission will not rank higher than one that earns a lower commission if it is not the better product.
+            </p>
+            <p>
+              Affiliate commissions help fund the research, writing, and maintenance of the site. Without them, the site would not exist in its current form.
+            </p>
+          </div>
+          <Link href="/affiliate-disclosure" className="inline-block mt-3 text-sm font-semibold text-brand hover:text-brand-dark transition-colors">
+            Read our full affiliate disclosure →
+          </Link>
+
+          {/* Affiliate CTA — single placement, transparent */}
+          <div className="mt-5 pt-5 border-t border-border">
+            <p className="text-xs text-ink-muted mb-3">
+              As an Amazon Associate, DeskFinds may earn from qualifying purchases. This does not add extra cost to you.
+            </p>
+            <a
+              href="https://amzn.to/4a8EGlH"
+              target="_blank"
+              rel="sponsored nofollow noopener noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-amber-50 border border-amber-200 text-amber-800 text-sm font-medium hover:bg-amber-100 transition-colors"
+            >
+              <svg className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+              </svg>
+              View our current Amazon workspace pick
+            </a>
+          </div>
+        </section>
+
+        {/* ── Start With DeskFinds Guides ───────────────────────────── */}
+        <section className="mb-12" aria-labelledby="start-guides">
+          <h2 id="start-guides" className="text-2xl font-bold text-ink mb-5 tracking-tight">Start With DeskFinds Guides</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {START_GUIDES.map((guide) => (
+              <Link
+                key={guide.href}
+                href={guide.href}
+                className="group flex items-center justify-between p-4 rounded-xl border border-border bg-white hover:border-brand/40 hover:shadow-sm transition-all"
+              >
+                <span className="text-sm font-medium text-ink group-hover:text-brand transition-colors">
+                  {guide.label}
+                </span>
+                <svg className="w-4 h-4 text-ink-muted group-hover:text-brand group-hover:translate-x-0.5 transition-all shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="m9 18 6-6-6-6" />
+                </svg>
+              </Link>
+            ))}
+          </div>
+          <div className="mt-4 flex flex-wrap gap-x-5 gap-y-2 text-xs">
+            <Link href="/guide" className="text-brand hover:underline font-medium">View all buying guides →</Link>
+            <Link href="/compare" className="text-brand hover:underline font-medium">Compare all products →</Link>
+            <Link href="/deals" className="text-brand hover:underline font-medium">Budget-friendly finds →</Link>
+          </div>
+        </section>
+
+        {/* ── FAQ ───────────────────────────────────────────────────── */}
+        <section aria-labelledby="faq">
+          <h2 id="faq" className="text-2xl font-bold text-ink mb-5 tracking-tight">Frequently Asked Questions</h2>
+          <div className="space-y-3">
+            {FAQ_ITEMS.map((item) => (
+              <details
+                key={item.q}
+                className="group rounded-xl border border-border bg-white overflow-hidden"
+              >
+                <summary className="flex items-center justify-between gap-4 px-5 py-4 cursor-pointer select-none list-none font-semibold text-sm text-ink hover:text-brand transition-colors">
+                  {item.q}
+                  <svg
+                    className="w-4 h-4 shrink-0 text-ink-muted transition-transform group-open:rotate-180"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2.5}
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m19 9-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div className="px-5 pb-4 text-sm text-ink-secondary leading-relaxed border-t border-border pt-3">
+                  {item.a}
+                </div>
+              </details>
+            ))}
+          </div>
+        </section>
+
+      </Container>
+    </>
   );
 }
