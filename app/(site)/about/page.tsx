@@ -260,7 +260,7 @@ export default function AboutPage() {
               DeskFinds publishes <strong className="text-ink">buying guides, product comparisons, and review-style content</strong> to help people figure out which products are worth buying before they spend money. Every guide is focused on a specific product category and a specific constraint: small spaces, realistic budgets, and practical use cases.
             </p>
             <p>
-              If you have searched for something like <em>"best desk lamp for a dorm room"</em> or <em>"tablet stand that works on a bed"</em> and found a DeskFinds article, that is what we do — we research those questions and publish structured answers, not sales pitches.
+              If you have searched for something like <em>&ldquo;best desk lamp for a dorm room&rdquo;</em> or <em>&ldquo;tablet stand that works on a bed&rdquo;</em> and found a DeskFinds article, that is what we do — we research those questions and publish structured answers, not sales pitches.
             </p>
           </div>
         </section>
@@ -361,7 +361,7 @@ export default function AboutPage() {
           <h2 id="research" className="text-2xl font-bold text-ink mb-4 tracking-tight">How DeskFinds Research Works</h2>
           <div className="space-y-4 text-sm text-ink-secondary leading-relaxed">
             <p>
-              For every buying guide, we start by defining the exact small-space context: what are the physical constraints, what does the target buyer already own, and what are they actually trying to solve? We evaluate products against those real constraints — not generic "great for home offices" claims.
+              For every buying guide, we start by defining the exact small-space context: what are the physical constraints, what does the target buyer already own, and what are they actually trying to solve? We evaluate products against those real constraints — not generic &ldquo;great for home offices&rdquo; claims.
             </p>
             <p>
               Our research draws on:

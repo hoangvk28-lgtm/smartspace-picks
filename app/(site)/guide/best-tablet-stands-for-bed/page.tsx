@@ -239,7 +239,7 @@ export default function BestTabletStandsForBedPage() {
           <div className="mt-5 p-4 bg-bg rounded-xl border border-border max-w-3xl">
             <p className="text-sm text-ink-secondary">
               <strong className="text-ink">Also consider: </strong>
-              Lamicall Gooseneck Phone Holder ($28.98) is optimized for phones (up to 7\") if you mainly use a smartphone in bed. KDD Gooseneck Tablet Stand ($29.99) has a more rigid arm that handles larger iPads with less sag.
+              Lamicall Gooseneck Phone Holder ($28.98) is optimized for phones (up to 7&quot;) if you mainly use a smartphone in bed. KDD Gooseneck Tablet Stand ($29.99) has a more rigid arm that handles larger iPads with less sag.
             </p>
             <a href="https://www.amazon.com/s?k=gooseneck+tablet+holder+for+bed&tag=deskfinds0d-20" target="_blank" rel="nofollow sponsored noopener noreferrer"
               className="inline-flex items-center gap-2 mt-3 px-4 py-2 rounded-lg bg-[#FF9900] text-white text-sm font-bold hover:bg-[#e68900] transition-colors">
@@ -260,7 +260,7 @@ export default function BestTabletStandsForBedPage() {
           <div className="mt-5 p-4 bg-bg rounded-xl border border-border max-w-3xl">
             <p className="text-sm text-ink-secondary">
               <strong className="text-ink">Also consider: </strong>
-              SAIJI Adjustable Laptop Stand ($31.99) adds 5 height levels and 4 tilt angles - better ergonomics for longer work sessions. The Foldable Lap Desk with Cup Holder ($57.99) is a larger 23\" surface with a built-in drink slot.
+              SAIJI Adjustable Laptop Stand ($31.99) adds 5 height levels and 4 tilt angles - better ergonomics for longer work sessions. The Foldable Lap Desk with Cup Holder ($57.99) is a larger 23&quot; surface with a built-in drink slot.
             </p>
             <a href="https://www.amazon.com/s?k=tablet+stand+lap&tag=deskfinds0d-20" target="_blank" rel="nofollow sponsored noopener noreferrer"
               className="inline-flex items-center gap-2 mt-3 px-4 py-2 rounded-lg bg-[#FF9900] text-white text-sm font-bold hover:bg-[#e68900] transition-colors">
@@ -281,7 +281,7 @@ export default function BestTabletStandsForBedPage() {
           <div className="mt-5 p-4 bg-bg rounded-xl border border-border max-w-3xl">
             <p className="text-sm text-ink-secondary">
               <strong className="text-ink">Also consider: </strong>
-              Lamicall Tablet Floor Stand ($24.99) is a freestanding gooseneck on a weighted base - 63\" tall, adjustable from sitting to standing, no clamp needed.
+              Lamicall Tablet Floor Stand ($24.99) is a freestanding gooseneck on a weighted base - 63&quot; tall, adjustable from sitting to standing, no clamp needed.
             </p>
             <a href="https://www.amazon.com/s?k=adjustable+tablet+stands&tag=deskfinds0d-20" target="_blank" rel="nofollow sponsored noopener noreferrer"
               className="inline-flex items-center gap-2 mt-3 px-4 py-2 rounded-lg bg-[#FF9900] text-white text-sm font-bold hover:bg-[#e68900] transition-colors">
