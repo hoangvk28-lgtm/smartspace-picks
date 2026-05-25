@@ -118,6 +118,13 @@ export default async function ProductReviewPage({ params }: Props) {
     ? `${SITE_URL}${product.image}`
     : undefined;
 
+  // Extract lowest price from priceRange string e.g. "$25-$40" → 25, "$9.99" → 9.99
+  const parsedPrice = (() => {
+    const raw = product.priceRange ?? "";
+    const nums = raw.match(/[\d.]+/g);
+    return nums ? parseFloat(nums[0]) : undefined;
+  })();
+
   // JSON-LD Product schema with embedded review + aggregateRating (required by Google)
   const structuredData = {
     "@context": "https://schema.org",
@@ -130,7 +137,7 @@ export default async function ProductReviewPage({ params }: Props) {
       "@type": "Offer",
       url: product.amazonUrl,
       priceCurrency: "USD",
-      priceRange: product.priceRange,
+      ...(parsedPrice !== undefined && { price: parsedPrice }),
       availability: "https://schema.org/InStock",
       seller: { "@type": "Organization", name: "Amazon" },
     },
