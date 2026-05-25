@@ -104,7 +104,7 @@ export default function ContactPage() {
             <ul className="space-y-1.5 text-sm">
               <li><Link href="/how-we-review" className="text-brand hover:text-brand-dark transition-colors font-medium">How We Review Products →</Link></li>
               <li><Link href="/affiliate-disclosure" className="text-brand hover:text-brand-dark transition-colors font-medium">Affiliate Disclosure →</Link></li>
-              <li><Link href="/about" className="text-brand hover:text-brand-dark transition-colors font-medium">About DeskFinds →</Link></li>
+              <li><Link href="/about-deskfinds" className="text-brand hover:text-brand-dark transition-colors font-medium">About DeskFinds →</Link></li>
               <li><Link href="/privacy-policy" className="text-brand hover:text-brand-dark transition-colors font-medium">Privacy Policy →</Link></li>
             </ul>
           </div>

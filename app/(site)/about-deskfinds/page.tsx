@@ -9,7 +9,7 @@ const baseMeta = buildMetadata({
   title: "About DeskFinds | Small-Space Desk Setup Buying Guides",
   description:
     "DeskFinds helps students, remote workers, renters, and small-space users find practical desk setup products through research-based buying guides, comparisons, and transparent affiliate recommendations.",
-  path: "/about",
+  path: "/about-deskfinds",
 });
 
 export const metadata: Metadata = {
@@ -186,7 +186,7 @@ const breadcrumbSchema = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-    { "@type": "ListItem", position: 2, name: "About DeskFinds", item: `${SITE_URL}/about` },
+    { "@type": "ListItem", position: 2, name: "About DeskFinds", item: `${SITE_URL}/about-deskfinds` },
   ],
 };
 
@@ -196,7 +196,7 @@ const aboutPageSchema = {
   name: "About DeskFinds",
   description:
     "DeskFinds helps students, remote workers, renters, and small-space users find practical desk setup products through research-based buying guides, comparisons, and transparent affiliate recommendations.",
-  url: `${SITE_URL}/about`,
+  url: `${SITE_URL}/about-deskfinds`,
   publisher: {
     "@type": "Organization",
     name: "DeskFinds",

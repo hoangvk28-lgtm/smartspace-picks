@@ -10,6 +10,11 @@ const nextConfig: NextConfig = {
         destination: "https://www.deskfinds.com/:path*",
         permanent: true,
       },
+      {
+        source: "/about",
+        destination: "/about-deskfinds",
+        permanent: true,
+      },
     ];
   },
   experimental: {

@@ -41,7 +41,7 @@ export const footerNav = {
     { label: "Budget Finds", href: "/categories/budget-finds" },
   ],
   company: [
-    { label: "About Us", href: "/about" },
+    { label: "About Us", href: "/about-deskfinds" },
     { label: "How We Review", href: "/how-we-review" },
     { label: "Contact", href: "/contact" },
   ],
