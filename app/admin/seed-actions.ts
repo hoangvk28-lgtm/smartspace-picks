@@ -1,5 +1,6 @@
 "use server";
 
+import { revalidatePath } from "next/cache";
 import { requireAdminSession } from "@/lib/admin-auth";
 import { createAdminClient, isSupabaseConfigured } from "@/lib/supabase/server";
 import { products as staticProducts } from "@/data/products";
@@ -128,6 +129,12 @@ export async function upsertStaticGuides(): Promise<{ updated: number; inserted:
   const { error } = await db.from("guides").upsert(toUpsert, { onConflict: "slug" });
   if (error) return { updated: 0, inserted: 0, error: error.message };
 
+  // Bust ISR cache for every guide page that was updated
+  for (const g of staticGuides) {
+    revalidatePath(`/guide/${g.slug}`);
+  }
+  revalidatePath("/guide");
+
   const insertedCount = toUpsert.filter((g) => !existingBySlug.has(g.slug)).length;
   return { updated: toUpsert.length - insertedCount, inserted: insertedCount };
 }
@@ -170,6 +177,12 @@ export async function upsertStaticProducts(): Promise<{ updated: number; inserte
 
   const { error } = await db.from("products").upsert(toUpsert, { onConflict: "slug" });
   if (error) return { updated: 0, inserted: 0, error: error.message };
+
+  // Bust ISR cache for every review page that was updated
+  for (const p of staticProducts) {
+    revalidatePath(`/reviews/${p.slug}`);
+  }
+  revalidatePath("/reviews");
 
   const insertedCount = toUpsert.filter((p) => !existingBySlug.has(p.slug)).length;
   return { updated: toUpsert.length - insertedCount, inserted: insertedCount };
