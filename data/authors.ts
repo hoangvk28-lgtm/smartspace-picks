@@ -5,6 +5,7 @@ export interface Author {
   bio: string;
   longBio: string;
   avatarUrl?: string;
+  isPerson?: boolean; // true → Person schema; false/undefined → Organization
   expertise: string[];
   credentials: { label: string; value: string }[];
   social: { platform: string; url: string; label: string }[];
@@ -15,6 +16,42 @@ export interface Author {
 }
 
 export const authors: Author[] = [
+  {
+    slug: "jamie-cole",
+    name: "Jamie Cole",
+    role: "Lead Product Researcher & Editor",
+    isPerson: true,
+    avatarUrl: "", // user will provide after creating profile
+    bio: "Jamie Cole spent four years in a 180 sq ft college dorm and two more in a studio apartment before obsessing over what actually fits in a small workspace. As lead researcher at DeskFinds, Jamie evaluates products against real space constraints — not hypothetical home offices.",
+    longBio:
+      "Jamie Cole started researching small-space products out of personal necessity. Four years in a 180 sq ft college dorm taught a hard lesson: most buying guides are written for people with real home offices, not for students trying to fit a monitor, a lamp, and a keyboard on a 48-inch IKEA desk without losing the ability to eat dinner.\n\nAfter graduating, two years in a studio apartment meant every desk setup purchase required solving the same constraint — what's the smallest footprint that solves the actual problem? That question became the foundation for every evaluation at DeskFinds.\n\nJamie's research process prioritizes verified buyer feedback patterns over spec sheets, specifically looking at 1–3 star reviews to surface failure modes that don't appear in aggregate ratings. Every score on DeskFinds reflects this methodology: real constraints, real trade-offs, and honest disclaimers about what the research can and can't tell you.",
+    expertise: [
+      "Small-space workspace design",
+      "Consumer electronics research",
+      "Dorm room and studio apartment setups",
+      "Product specification analysis",
+      "Amazon buyer review pattern analysis",
+    ],
+    credentials: [
+      { label: "Products evaluated", value: "500+" },
+      { label: "Guides published", value: "13+" },
+      { label: "Years researching", value: "4+" },
+      { label: "Scoring dimensions", value: "5 weighted criteria" },
+    ],
+    social: [
+      {
+        platform: "LinkedIn",
+        url: "https://www.linkedin.com/in/jamie-cole-deskfinds", // user will update with real URL
+        label: "Jamie Cole on LinkedIn",
+      },
+    ],
+    editorial: {
+      process:
+        "Each evaluation starts with defining the exact small-space context — dorm, studio, or compact home office — before a single product is assessed. Products are scored across five weighted criteria derived from specs, verified buyer patterns, and use-case fit. Guides are updated when better products emerge or buyer sentiment shifts significantly.",
+      independence:
+        "No brand pays for inclusion, ranking position, or favorable scores. Affiliate commissions from Amazon help fund the site, but the five-dimension scoring rubric applies equally to every product. Low-scoring products are excluded regardless of commission rate.",
+    },
+  },
   {
     slug: "deskfinds-editorial-team",
     name: "DeskFinds Editorial Team",

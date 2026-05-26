@@ -127,13 +127,18 @@ export default async function ProductReviewPage({ params }: Props) {
     datePublished: featuredInGuides[0]?.lastUpdated ?? "2026-01-01",
     dateModified: featuredInGuides[0]?.lastUpdated ?? "2026-01-01",
     author: {
-      "@type": "Organization",
-      name: "DeskFinds",
-      url: SITE_URL,
+      "@type": "Person",
+      name: "Jamie Cole",
+      url: `${SITE_URL}/author/jamie-cole`,
     },
     publisher: { "@id": `${SITE_URL}/#organization` },
     ...(productImage && { image: productImage }),
   };
+
+  // Size-related specs for the Space Check callout
+  const spaceSpecs = Object.entries(product.specs).filter(([key]) =>
+    /size|dimension|width|height|depth|length|base|footprint|clamp|weight|mount|arm/i.test(key)
+  );
 
   return (
     <>
@@ -180,9 +185,20 @@ export default async function ProductReviewPage({ params }: Props) {
               {product.shortDescription}
             </p>
 
-            <p className="text-xs text-ink-muted mb-6">
-              Evaluation updated {lastUpdated} · Based on product specs and verified buyer feedback
-            </p>
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-ink-muted mb-6">
+              <span className="flex items-center gap-1.5">
+                <svg className="w-3.5 h-3.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                </svg>
+                <Link href="/author/jamie-cole" className="font-medium text-ink hover:text-brand transition-colors">
+                  Jamie Cole
+                </Link>
+              </span>
+              <span aria-hidden="true">·</span>
+              <span>Research updated {lastUpdated}</span>
+              <span aria-hidden="true">·</span>
+              <span>Based on specs &amp; verified buyer feedback</span>
+            </div>
 
             {/* Product image */}
             {product.image && product.image.startsWith("http") ? (
@@ -259,6 +275,24 @@ export default async function ProductReviewPage({ params }: Props) {
           </aside>
         </div>
 
+        {/* ── 2b. Space Check callout ───────────────────────────────────── */}
+        {spaceSpecs.length > 0 && (
+          <div className="mb-8 max-w-3xl p-4 rounded-card border border-brand-muted bg-brand-light/30">
+            <p className="text-xs font-bold uppercase tracking-wide text-brand mb-3">Space Check</p>
+            <div className="flex flex-wrap gap-x-6 gap-y-2">
+              {spaceSpecs.map(([key, val]) => (
+                <div key={key} className="flex items-baseline gap-1.5">
+                  <span className="text-xs font-semibold text-ink">{key}:</span>
+                  <span className="text-xs text-ink-secondary">{val}</span>
+                </div>
+              ))}
+            </div>
+            <p className="text-xs text-ink-muted mt-3">
+              Verify dimensions against your specific desk before purchasing.
+            </p>
+          </div>
+        )}
+
         {/* ── 3. Full scorecard — horizontal strip ──────────────────────── */}
         <section className="mb-10 max-w-3xl" aria-label="Score breakdown">
           <h2 className="text-lg font-bold text-ink mb-4 tracking-tight">Score Breakdown</h2>
@@ -287,6 +321,38 @@ export default async function ProductReviewPage({ params }: Props) {
               </div>
             ))}
           </div>
+        </section>
+
+        {/* ── 3b. Methodology accordion ─────────────────────────────────── */}
+        <section className="mb-10 max-w-3xl">
+          <details className="group rounded-card border border-border overflow-hidden">
+            <summary className="flex items-center justify-between gap-4 px-5 py-4 cursor-pointer select-none list-none bg-white hover:bg-bg/50 transition-colors">
+              <span className="text-sm font-semibold text-ink">How we scored this product</span>
+              <svg className="w-4 h-4 shrink-0 text-ink-muted transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="m19 9-7 7-7-7" />
+              </svg>
+            </summary>
+            <div className="border-t border-border divide-y divide-border">
+              {SCORE_DIMS.map((dim) => (
+                <div key={dim.key} className="flex items-start gap-4 px-5 py-4 bg-white">
+                  <span aria-hidden="true" className="text-base mt-0.5 shrink-0">{dim.icon}</span>
+                  <div className="flex-1">
+                    <div className="flex items-center justify-between gap-2 mb-1">
+                      <span className="text-sm font-semibold text-ink">{dim.label}</span>
+                      <span className={`text-sm font-bold tabular-nums shrink-0 ${scoreToColor(product.scores[dim.key])}`}>
+                        {product.scores[dim.key].toFixed(1)}/10
+                      </span>
+                    </div>
+                    <p className="text-xs text-ink-secondary leading-relaxed">{dim.note}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className="px-5 py-3 bg-bg border-t border-border text-xs text-ink-muted">
+              Scores reflect small-space use specifically, not general product quality.{" "}
+              <Link href="/how-we-review" className="text-brand hover:underline">Full methodology →</Link>
+            </div>
+          </details>
         </section>
 
         {/* ── 4. Quick verdict ─────────────────────────────────────────── */}

@@ -40,17 +40,32 @@ export default async function AuthorPage({ params }: Props) {
       g.author?.toLowerCase().includes("deskfinds")
   );
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "@id": `${SITE_URL}/author/${slug}`,
-    name: author.name,
-    description: author.bio,
-    url: `${SITE_URL}/author/${slug}`,
-    sameAs: author.social.map((s) => s.url),
-    knowsAbout: author.expertise,
-    publishingPrinciples: `${SITE_URL}/how-we-review`,
-  };
+  const jsonLd = author.isPerson
+    ? {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "@id": `${SITE_URL}/author/${slug}`,
+        name: author.name,
+        jobTitle: author.role,
+        description: author.bio,
+        url: `${SITE_URL}/author/${slug}`,
+        ...(author.avatarUrl ? { image: author.avatarUrl } : {}),
+        sameAs: author.social.filter((s) => s.url).map((s) => s.url),
+        knowsAbout: author.expertise,
+        worksFor: { "@type": "Organization", name: "DeskFinds", url: SITE_URL },
+        publishingPrinciples: `${SITE_URL}/how-we-review`,
+      }
+    : {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": `${SITE_URL}/author/${slug}`,
+        name: author.name,
+        description: author.bio,
+        url: `${SITE_URL}/author/${slug}`,
+        sameAs: author.social.map((s) => s.url),
+        knowsAbout: author.expertise,
+        publishingPrinciples: `${SITE_URL}/how-we-review`,
+      };
 
   return (
     <>

@@ -18,7 +18,7 @@ import { formatDate, scoreToColor } from "@/lib/utils";
 import { SITE_URL } from "@/lib/seo";
 import { amazonSearchLinks } from "@/lib/amazon-links";
 import { categories, getCategoryBySlug } from "@/data/categories";
-import { authorToSlug } from "@/data/authors";
+import { authorToSlug, getAuthorByName } from "@/data/authors";
 
 export const revalidate = 86400;
 
@@ -239,6 +239,7 @@ export default async function BuyingGuidePage({ params }: Props) {
     : null;
 
   // JSON-LD schemas
+  const guideAuthor = getAuthorByName(guide.author);
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -246,8 +247,10 @@ export default async function BuyingGuidePage({ params }: Props) {
     description: guide.description,
     datePublished: guide.lastUpdated,
     dateModified: guide.lastUpdated,
-    author: { "@type": "Organization", name: guide.author },
-    publisher: { "@type": "Organization", name: "DeskFinds", url: SITE_URL },
+    author: guideAuthor?.isPerson
+      ? { "@type": "Person", name: guideAuthor.name, url: `${SITE_URL}/author/${guideAuthor.slug}` }
+      : { "@type": "Organization", name: guide.author },
+    publisher: { "@id": `${SITE_URL}/#organization` },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/guide/${slug}` },
     ...(guide.heroImage && guide.heroImage.startsWith("http")
       ? { image: guide.heroImage }

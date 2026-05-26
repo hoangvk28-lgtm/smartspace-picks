@@ -50,7 +50,7 @@ export const guides: Guide[] = [
     heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-tablet-stands/hero.jpg",
     thumbnailImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-tablet-stands/hero.jpg",
     lastUpdated: "2026-05-24",
-    author: "DeskFinds Editorial Team",
+    author: "Jamie Cole",
     readTime: "9 min",
     recommendedProductIds: [],
     sections: [],
@@ -69,7 +69,7 @@ export const guides: Guide[] = [
     heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-tablet-stands-for-bed/hero.jpg",
     thumbnailImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-tablet-stands-for-bed/hero.jpg",
     lastUpdated: "2026-05-24",
-    author: "DeskFinds Editorial Team",
+    author: "Jamie Cole",
     readTime: "7 min",
     recommendedProductIds: [],
     sections: [],
@@ -88,7 +88,7 @@ export const guides: Guide[] = [
     heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-tablet-stands-for-desk/hero.jpg",
     thumbnailImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-tablet-stands-for-desk/hero.jpg",
     lastUpdated: "2026-05-24",
-    author: "DeskFinds Editorial Team",
+    author: "Jamie Cole",
     readTime: "7 min",
     recommendedProductIds: [],
     sections: [],
@@ -113,7 +113,7 @@ export const guides: Guide[] = [
     ],
     heroImage: "https://images.unsplash.com/photo-1517685352821-92cf88aee5a5?w=900&q=80",
     lastUpdated: "2026-04-10",
-    author: "SmartSpace Picks Editorial Team",
+    author: "Jamie Cole",
     readTime: "8 min",
     recommendedProductIds: ["wide-angle-study-lamp", "compact-led-lamp-usb"],
     sections: [
@@ -176,7 +176,7 @@ export const guides: Guide[] = [
     ],
     heroImage: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=900&q=80",
     lastUpdated: "2026-03-18",
-    author: "SmartSpace Picks Editorial Team",
+    author: "Jamie Cole",
     readTime: "7 min",
     recommendedProductIds: ["adjustable-monitor-riser", "dual-monitor-arm-mount"],
     sections: [
@@ -230,7 +230,7 @@ export const guides: Guide[] = [
     ],
     heroImage: "https://images.unsplash.com/photo-1588702547919-26089e690ecc?w=900&q=80",
     lastUpdated: "2026-04-02",
-    author: "SmartSpace Picks Editorial Team",
+    author: "Jamie Cole",
     readTime: "6 min",
     recommendedProductIds: ["foldable-aluminum-laptop-riser", "adjustable-portable-laptop-stand"],
     sections: [
@@ -284,7 +284,7 @@ export const guides: Guide[] = [
     ],
     heroImage: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=900&q=80",
     lastUpdated: "2026-01-25",
-    author: "SmartSpace Picks Editorial Team",
+    author: "Jamie Cole",
     readTime: "5 min",
     recommendedProductIds: ["desk-cable-organizer-kit", "under-desk-cable-tray"],
     sections: [
@@ -338,7 +338,7 @@ export const guides: Guide[] = [
     ],
     heroImage: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=900&q=80",
     lastUpdated: "2026-03-05",
-    author: "SmartSpace Picks Editorial Team",
+    author: "Jamie Cole",
     readTime: "5 min",
     recommendedProductIds: ["hanging-bedside-caddy", "over-mattress-pocket-organizer"],
     sections: [
@@ -392,7 +392,7 @@ export const guides: Guide[] = [
     ],
     heroImage: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&q=80",
     lastUpdated: "2026-04-12",
-    author: "SmartSpace Picks Editorial Team",
+    author: "Jamie Cole",
     readTime: "7 min",
     recommendedProductIds: ["zippered-underbed-bags", "rolling-underbed-container"],
     sections: [
@@ -455,7 +455,7 @@ export const guides: Guide[] = [
     ],
     heroImage: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=900&q=80",
     lastUpdated: "2026-05-10",
-    author: "SmartSpace Picks Editorial Team",
+    author: "Jamie Cole",
     readTime: "8 min",
     recommendedProductIds: [
       "desktop-organizer-with-drawers",
@@ -523,7 +523,7 @@ export const guides: Guide[] = [
     ],
     heroImage: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=900&q=80",
     lastUpdated: "2026-05-01",
-    author: "SmartSpace Picks Editorial Team",
+    author: "Jamie Cole",
     readTime: "6 min",
     recommendedProductIds: ["dorm-shower-caddy"],
     sections: [
@@ -586,7 +586,7 @@ export const guides: Guide[] = [
     ],
     heroImage: "https://images.unsplash.com/photo-1558997519-83ea9252edf8?w=900&q=80",
     lastUpdated: "2026-05-05",
-    author: "SmartSpace Picks Editorial Team",
+    author: "Jamie Cole",
     readTime: "9 min",
     recommendedProductIds: [
       "collapsible-storage-cubes",
@@ -653,7 +653,7 @@ export const guides: Guide[] = [
     ],
     heroImage: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=900&q=80",
     lastUpdated: "2026-05-12",
-    author: "SmartSpace Picks Editorial Team",
+    author: "Jamie Cole",
     readTime: "8 min",
     recommendedProductIds: [
       "compact-power-strip-usb",
