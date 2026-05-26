@@ -68,9 +68,9 @@ export default async function BuyingGuidesIndexPage() {
                   <span className="text-xs text-ink-muted">Updated {formatDate(guide.lastUpdated)}</span>
                 </div>
 
-                <h2 className="font-bold text-ink leading-snug group-hover:text-brand transition-colors text-sm">
+                <h3 className="font-bold text-ink leading-snug group-hover:text-brand transition-colors text-sm">
                   {guide.title}
-                </h2>
+                </h3>
 
                 <p className="text-xs text-ink-secondary leading-relaxed line-clamp-2 flex-1">
                   {guide.description}

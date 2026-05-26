@@ -40,6 +40,7 @@ function ComparePageInner({ products, categories, lockedCategorySlug }: Props) {
   const [searchQuery, setSearchQuery] = useState(() => searchParams.get("q") ?? "");
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setSearchQuery(searchParams.get("q") ?? "");
   }, [searchParams]);
 

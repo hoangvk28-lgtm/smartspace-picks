@@ -173,9 +173,9 @@ export default async function BuyingGuidePage({ params }: Props) {
                       <span aria-hidden="true">·</span>
                       <span>Updated {formatDate(guide.lastUpdated)}</span>
                     </div>
-                    <h2 className="font-bold text-ink group-hover:text-brand transition-colors text-base leading-snug">
+                    <h3 className="font-bold text-ink group-hover:text-brand transition-colors text-base leading-snug">
                       {guide.title}
-                    </h2>
+                    </h3>
                     <p className="text-sm text-ink-secondary leading-relaxed line-clamp-2 flex-1">
                       {guide.description}
                     </p>

@@ -63,9 +63,9 @@ export function FeaturedGuideHero({ guide, products }: FeaturedGuideHeroProps) {
           </div>
 
           {/* Title */}
-          <h2 className="text-2xl sm:text-3xl font-bold text-ink leading-tight tracking-tight">
+          <h3 className="text-2xl sm:text-3xl font-bold text-ink leading-tight tracking-tight">
             {guide.title}
-          </h2>
+          </h3>
 
           {/* Description */}
           <p className="text-ink-secondary leading-relaxed">

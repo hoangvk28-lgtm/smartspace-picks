@@ -33,9 +33,9 @@ export function NewsletterCTA({ config }: Props) {
           <span className="text-xs font-bold uppercase tracking-widest text-brand">
             {c.eyebrow}
           </span>
-          <h2 className="text-2xl sm:text-3xl font-bold text-white mt-3 mb-4 tracking-tight">
+          <h3 className="text-2xl sm:text-3xl font-bold text-white mt-3 mb-4 tracking-tight">
             {c.title}
-          </h2>
+          </h3>
           <p className="text-white/80 leading-relaxed mb-8">{c.description}</p>
 
           <form

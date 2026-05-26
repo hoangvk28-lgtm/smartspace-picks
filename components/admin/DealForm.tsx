@@ -223,7 +223,7 @@ export function DealForm({ action, initialData }: Props) {
             placeholder="Check current price"
           />
           <p className="text-xs text-ink-muted mt-1">
-            Use neutral wording: "Check current price", "See on Amazon", "View on Amazon".
+            Use neutral wording: &ldquo;Check current price&rdquo;, &ldquo;See on Amazon&rdquo;, &ldquo;View on Amazon&rdquo;.
           </p>
         </div>
 

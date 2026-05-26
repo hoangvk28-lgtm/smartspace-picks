@@ -24,6 +24,8 @@ export function buildMetadata({
   noIndex?: boolean;
   type?: "website" | "article";
 }): Metadata {
+  // Build the display title once, with "| DeskFinds" appended if not already present.
+  // Use { absolute } so the root layout template (%s | DeskFinds) never wraps it again.
   const fullTitle = title.includes(SITE_NAME)
     ? title
     : `${title} | ${SITE_NAME}`;
@@ -36,7 +38,7 @@ export function buildMetadata({
     : `${SITE_URL}/og-default.png`;
 
   return {
-    title: fullTitle,
+    title: { absolute: fullTitle },
     description,
     metadataBase: new URL(SITE_URL),
     alternates: {

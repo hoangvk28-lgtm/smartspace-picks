@@ -19,6 +19,7 @@ export function MediaSelector({ onSelect, trigger, folder }: Props) {
 
   useEffect(() => {
     if (!open) return;
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setLoading(true);
     const params = new URLSearchParams();
     if (q) params.set("q", q);

@@ -67,9 +67,9 @@ export default async function ReviewsIndexPage() {
             {/* Main content */}
             <div className="flex flex-col gap-2.5 p-5 flex-1">
               <Link href={`/reviews/${product.slug}`}>
-                <h2 className="font-bold text-ink group-hover:text-brand transition-colors text-base leading-snug">
+                <h3 className="font-bold text-ink group-hover:text-brand transition-colors text-base leading-snug">
                   {product.name}
-                </h2>
+                </h3>
               </Link>
 
               <p className="text-sm text-ink-secondary leading-relaxed line-clamp-2 flex-1">
