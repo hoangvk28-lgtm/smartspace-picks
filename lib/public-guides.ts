@@ -1,15 +1,17 @@
-﻿/**
+/**
  * Public-facing async guide data layer.
  *
- * - Server-only: do NOT import in client components.
- * - Queries Supabase for published, non-archived guides.
- * - Falls back to static data/guides.ts on missing env vars or any query error.
- * - Returns Guide-compatible objects usable by all existing UI components.
+ * Architecture:
+ * - Static data/guides.ts is the SOURCE OF TRUTH for all content fields
+ *   (title, sections, faq, recommendedProductIds, relatedGuideSlugs, etc.)
+ * - Supabase DB supplements with SEO-only fields (meta_title, meta_description,
+ *   intro, hero_image_alt) and stores DB-only guides created via admin panel.
+ * - Editing data/guides.ts + deploying is sufficient to update content.
+ *   No manual Force Sync required.
  */
 import { guides as staticGuides, type Guide } from "@/data/guides";
 import { isSupabaseConfigured, createAdminClient } from "@/lib/supabase/server";
 
-// PublicGuide extends Guide with optional SEO/extra fields from DB
 export interface PublicGuide extends Guide {
   metaTitle?: string;
   metaDescription?: string;
@@ -46,21 +48,46 @@ interface GuideRow {
   updated_at: string;
 }
 
+/**
+ * Convert a DB row into a PublicGuide.
+ *
+ * If the slug exists in static data, static fields win for ALL content.
+ * DB only contributes SEO extras (meta_title, meta_description, intro,
+ * hero_image_alt) and hero/thumbnail images if the static guide has none.
+ *
+ * If the slug is DB-only (no static equivalent), DB fields are used as-is.
+ */
 function rowToPublicGuide(row: GuideRow): PublicGuide {
-  const staticFallback = staticGuides.find((g) => g.slug === row.slug);
+  const staticGuide = staticGuides.find((g) => g.slug === row.slug);
+
+  if (staticGuide) {
+    // Static-backed guide: content always comes from static file
+    return {
+      ...staticGuide,
+      // Layer DB SEO-only extras on top
+      heroImage: staticGuide.heroImage || row.hero_image || "",
+      thumbnailImage:
+        staticGuide.thumbnailImage ||
+        staticGuide.heroImage ||
+        row.thumbnail_image ||
+        row.hero_image ||
+        undefined,
+      heroImageAlt: row.hero_image_alt || undefined,
+      metaTitle: row.meta_title || undefined,
+      metaDescription: row.meta_description || undefined,
+      intro: row.intro || undefined,
+    };
+  }
+
+  // DB-only guide (created via admin panel, not in static files)
   return {
     title: row.title,
     slug: row.slug,
     categorySlug: row.category_slug,
     subcategorySlug: row.subcategory_slug,
     description: row.description,
-    heroImage: row.hero_image || staticFallback?.heroImage || "",
-    thumbnailImage:
-      row.thumbnail_image ||
-      row.hero_image ||
-      staticFallback?.thumbnailImage ||
-      staticFallback?.heroImage ||
-      undefined,
+    heroImage: row.hero_image || "",
+    thumbnailImage: row.thumbnail_image || row.hero_image || undefined,
     heroImageAlt: row.hero_image_alt || undefined,
     metaTitle: row.meta_title || undefined,
     metaDescription: row.meta_description || undefined,
@@ -74,7 +101,7 @@ function rowToPublicGuide(row: GuideRow): PublicGuide {
     sections: row.sections ?? [],
     faq: row.faq ?? [],
     relatedGuideSlugs: row.related_guide_slugs ?? [],
-    buyingCriteria: staticFallback?.buyingCriteria,
+    buyingCriteria: undefined,
   };
 }
 
@@ -89,16 +116,39 @@ export async function getPublicGuides(): Promise<PublicGuide[]> {
       .from("guides")
       .select("*")
       .eq("status", "published")
-      .eq("archived", false)
-      .order("updated_at", { ascending: false });
+      .eq("archived", false);
 
     if (error) throw error;
-    const dbGuides = (data as GuideRow[]).map(rowToPublicGuide);
-    // Merge: DB guides override static by slug; static-only guides fill the rest
-    const dbSlugSet = new Set(dbGuides.map((g) => g.slug));
-    const staticOnly = staticGuides.filter((g) => !dbSlugSet.has(g.slug));
-    const merged = [...dbGuides, ...staticOnly];
-    // Sort by lastUpdated desc so newest guides (including static-only) surface first
+    const dbRows = data as GuideRow[];
+    const dbSlugSet = new Set(dbRows.map((r) => r.slug));
+
+    // DB-only guides (not in static) converted via rowToPublicGuide
+    const dbOnlyGuides = dbRows
+      .filter((r) => !staticGuides.find((g) => g.slug === r.slug))
+      .map(rowToPublicGuide);
+
+    // SEO extras from DB keyed by slug (for static-backed guides)
+    const dbSeoBySlug = new Map(dbRows.map((r) => [r.slug, r]));
+
+    // Static guides get DB SEO extras layered on if available
+    const staticWithSeo: PublicGuide[] = staticGuides.map((g) => {
+      const row = dbSeoBySlug.get(g.slug);
+      if (!row) return g;
+      return {
+        ...g,
+        heroImage: g.heroImage || row.hero_image || "",
+        thumbnailImage: g.thumbnailImage || g.heroImage || row.thumbnail_image || row.hero_image || undefined,
+        heroImageAlt: row.hero_image_alt || undefined,
+        metaTitle: row.meta_title || undefined,
+        metaDescription: row.meta_description || undefined,
+        intro: row.intro || undefined,
+      };
+    });
+
+    // Add any DB-only guides not in static
+    const merged = [...staticWithSeo, ...dbOnlyGuides];
+
+    // Sort by lastUpdated desc
     merged.sort((a, b) => (b.lastUpdated ?? "").localeCompare(a.lastUpdated ?? ""));
     return merged;
   } catch (e) {
@@ -108,7 +158,9 @@ export async function getPublicGuides(): Promise<PublicGuide[]> {
 }
 
 export async function getPublicGuideBySlug(slug: string): Promise<PublicGuide | undefined> {
-  if (!isSupabaseConfigured()) return staticGuides.find((g) => g.slug === slug);
+  const staticGuide = staticGuides.find((g) => g.slug === slug);
+
+  if (!isSupabaseConfigured()) return staticGuide;
 
   try {
     const db = createAdminClient();
@@ -121,14 +173,15 @@ export async function getPublicGuideBySlug(slug: string): Promise<PublicGuide | 
       .single();
 
     if (error?.code === "PGRST116") {
-      // Not in DB - fall back to static (covers build-time slugs before seeding)
-      return staticGuides.find((g) => g.slug === slug);
+      // Not in DB at all - return static if available
+      return staticGuide;
     }
     if (error) throw error;
+
     return rowToPublicGuide(data as GuideRow);
   } catch (e) {
     console.warn(`[public-guides] getPublicGuideBySlug("${slug}") failed - falling back:`, e);
-    return staticGuides.find((g) => g.slug === slug);
+    return staticGuide;
   }
 }
 
@@ -145,7 +198,7 @@ export async function getPublicGuideSlugs(): Promise<string[]> {
 
     if (error) throw error;
     const dbSlugs = (data as { slug: string }[]).map((r) => r.slug);
-    // Union with static slugs - build never fails even if DB is empty
+    // Union: static slugs + DB-only slugs
     const all = new Set([...staticGuides.map((g) => g.slug), ...dbSlugs]);
     return [...all];
   } catch (e) {
