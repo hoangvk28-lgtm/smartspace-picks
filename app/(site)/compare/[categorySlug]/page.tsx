@@ -53,8 +53,9 @@ export default async function CategoryComparePage({
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Compare", item: `${SITE_URL}/compare` },
-      { "@type": "ListItem", position: 2, name: category.name, item: `${SITE_URL}/compare/${category.slug}` },
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "Compare", item: `${SITE_URL}/compare` },
+      { "@type": "ListItem", position: 3, name: category.name, item: `${SITE_URL}/compare/${category.slug}` },
     ],
   };
 

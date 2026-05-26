@@ -1,7 +1,7 @@
 ﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
-import { buildMetadata } from "@/lib/seo";
+import { buildMetadata, SITE_URL } from "@/lib/seo";
 import { guides } from "@/data/guides";
 import { categories } from "@/data/categories";
 
@@ -73,8 +73,35 @@ const BADGES = [
   },
 ];
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+    { "@type": "ListItem", position: 2, name: "How We Review", item: `${SITE_URL}/how-we-review` },
+  ],
+};
+
+const methodologyArticleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "How We Review and Compare Products",
+  description:
+    "Our full methodology for evaluating small-space products: scoring criteria, research process, badge meanings, and what we do and don't claim about our testing.",
+  url: `${SITE_URL}/how-we-review`,
+  author: {
+    "@type": "Organization",
+    name: "DeskFinds",
+    url: SITE_URL,
+  },
+  publisher: { "@id": `${SITE_URL}/#organization` },
+};
+
 export default function HowWeReviewPage() {
   return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(methodologyArticleSchema) }} />
     <Container narrow className="py-14">
       {/* Header */}
       <header className="mb-10">
@@ -280,5 +307,6 @@ export default function HowWeReviewPage() {
         </div>
       </section>
     </Container>
+    </>
   );
 }

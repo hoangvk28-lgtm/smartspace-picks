@@ -11,7 +11,11 @@ const siteSchema = {
       name: SITE_NAME,
       url: SITE_URL,
       description: SITE_DESCRIPTION,
-      sameAs: ["https://twitter.com/smartspacepicks"],
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}/logo-deskfinds-official.png`,
+      },
+      sameAs: ["https://twitter.com/deskfinds"],
     },
     {
       "@type": "WebSite",
@@ -20,11 +24,6 @@ const siteSchema = {
       name: SITE_NAME,
       description: SITE_DESCRIPTION,
       publisher: { "@id": `${SITE_URL}/#organization` },
-      potentialAction: {
-        "@type": "SearchAction",
-        target: { "@type": "EntryPoint", urlTemplate: `${SITE_URL}/reviews?q={search_term_string}` },
-        "query-input": "required name=search_term_string",
-      },
     },
   ],
 };

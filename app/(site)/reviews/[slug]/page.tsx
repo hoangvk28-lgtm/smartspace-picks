@@ -118,54 +118,27 @@ export default async function ProductReviewPage({ params }: Props) {
     ? `${SITE_URL}${product.image}`
     : undefined;
 
-  // Extract lowest price from priceRange string e.g. "$25-$40" → 25, "$9.99" → 9.99
-  const parsedPrice = (() => {
-    const raw = product.priceRange ?? "";
-    const nums = raw.match(/[\d.]+/g);
-    return nums ? parseFloat(nums[0]) : undefined;
-  })();
-
-  // JSON-LD Product schema with embedded review + aggregateRating (required by Google)
-  const structuredData = {
+  const articleSchema = {
     "@context": "https://schema.org",
-    "@type": "Product",
-    name: product.name,
+    "@type": "Article",
+    headline: `${product.name} Review`,
     description: product.shortDescription,
     url: `${SITE_URL}/reviews/${product.slug}`,
+    datePublished: featuredInGuides[0]?.lastUpdated ?? "2026-01-01",
+    dateModified: featuredInGuides[0]?.lastUpdated ?? "2026-01-01",
+    author: {
+      "@type": "Organization",
+      name: "DeskFinds",
+      url: SITE_URL,
+    },
+    publisher: { "@id": `${SITE_URL}/#organization` },
     ...(productImage && { image: productImage }),
-    offers: {
-      "@type": "Offer",
-      url: product.amazonUrl,
-      priceCurrency: "USD",
-      ...(parsedPrice !== undefined && { price: parsedPrice }),
-      availability: "https://schema.org/InStock",
-      seller: { "@type": "Organization", name: "Amazon" },
-    },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: product.scores.overall.toFixed(1),
-      bestRating: "10",
-      worstRating: "1",
-      ratingCount: "1",
-    },
-    review: {
-      "@type": "Review",
-      reviewBody: product.reviewSummary,
-      datePublished: featuredInGuides[0]?.lastUpdated ?? "2026-01-01",
-      author: { "@type": "Organization", name: "DeskFinds", url: SITE_URL },
-      reviewRating: {
-        "@type": "Rating",
-        ratingValue: product.scores.overall.toFixed(1),
-        bestRating: "10",
-        worstRating: "1",
-      },
-    },
   };
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
       <Container className="py-10">
 
