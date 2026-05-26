@@ -219,14 +219,14 @@ export const guides: Guide[] = [
     author: "Jamie Cole",
     readTime: "11 min",
     recommendedProductIds: [
-      "monitor-riser-usb",
-      "bamboo-stand-drawer",
-      "adjustable-riser-tiers",
-      "single-arm-gas-spring",
-      "compact-riser-trays",
-      "dual-arm-gas-spring",
-      "mesh-monitor-stand",
-      "minimalist-wood-monitor-riser",
+      "wali-stt003-riser",
+      "huanuo-monitor-riser",
+      "gianotter-monitor-stand",
+      "bontec-dual-riser-black",
+      "huanuo-ht05b-stand",
+      "bontec-dual-riser",
+      "simplehouseware-dual-drawer",
+      "ergear-monitor-arm",
     ],
     sections: [
       {
