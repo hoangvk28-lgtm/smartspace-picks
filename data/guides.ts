@@ -10,6 +10,11 @@ export interface GuideFaq {
   answer: string;
 }
 
+export interface GuideBuyingCriterion {
+  criterion: string;
+  content: string; // use \n to separate bullet points within a cell
+}
+
 export interface Guide {
   title: string;
   slug: string;
@@ -27,6 +32,7 @@ export interface Guide {
   sections: GuideSection[];
   faq: GuideFaq[];
   relatedGuideSlugs: string[];
+  buyingCriteria?: GuideBuyingCriterion[];
 }
 
 // ─── Data ─────────────────────────────────────────────────────────────────────
@@ -56,6 +62,14 @@ export const guides: Guide[] = [
     sections: [],
     faq: [],
     relatedGuideSlugs: ["best-tablet-stands-for-bed", "best-tablet-stands-for-desk", "desk-lamps-small-desks"],
+    buyingCriteria: [
+      { criterion: "Size compatibility", content: "Check stated tablet size range — most covers 4–13\"; few models support 13\"+ without wobble. Always verify against your tablet size." },
+      { criterion: "Angle adjustability", content: "≥3 angle positions (15°–60°) or stepless adjustment.\nSingle fixed-angle stands are a design compromise — avoid for desk use." },
+      { criterion: "Stability", content: "No tipping when tapping the touchscreen.\nLook for: weighted base or non-slip grip pad.\nCheck 1-star reviews specifically for tipping complaints." },
+      { criterion: "Portability", content: "Folds flat to ≤1.5\" thickness for desk drawer or bag storage.\nWeight ≤0.5 lbs for daily carry between classes." },
+      { criterion: "Material", content: "Aluminum: best for daily desk use — durable, no flex over time.\nPlastic: acceptable for occasional or travel use only." },
+      { criterion: "Port access", content: "Open-frame design keeps charging port accessible while tablet is mounted.\nClosed-cradle designs often block the port." },
+    ],
   },
   {
     title: "Best Tablet Stands for Bed: Pillow, Gooseneck & Lap Picks",
@@ -75,6 +89,14 @@ export const guides: Guide[] = [
     sections: [],
     faq: [],
     relatedGuideSlugs: ["best-tablet-stands", "best-tablet-stands-for-desk", "dorm-essentials"],
+    buyingCriteria: [
+      { criterion: "Gooseneck length", content: "≥12\" reach to position screen over pillow.\n≤24\" to avoid excessive swing and instability.\nCheck that it holds position after bending (cheap goosenecks droop under tablet weight)." },
+      { criterion: "Weight capacity", content: "≥1.5 lbs to hold a 10–12\" tablet with case.\nVerify spec — some budget goosenecks are rated for bare tablets only." },
+      { criterion: "Clamp compatibility", content: "C-clamp fits headboard or bed frame thickness ≤1.5\".\nMeasure your headboard before purchasing — thick padded headboards often exceed 1.5\"." },
+      { criterion: "Lap stand base", content: "Non-slip bottom surface (silicone or rubber).\n≥12\" base width for stability on soft mattress surfaces.\nAvoide stands with a single small foot — they tip on soft bedding." },
+      { criterion: "Pillow stand pocket depth", content: "≥6\" deep pocket to grip standard dorm pillow thickness.\nShallow pockets slide on smooth pillowcases under use." },
+      { criterion: "Stability test", content: "Read 1-star reviews specifically for \"falls over\" or \"tips\" mentions.\nThis is the #1 failure mode in bed tablet stands." },
+    ],
   },
   {
     title: "Best Tablet Stands for Desk: Adjustable, Stable & Compact Picks",
@@ -94,6 +116,14 @@ export const guides: Guide[] = [
     sections: [],
     faq: [],
     relatedGuideSlugs: ["best-tablet-stands", "best-tablet-stands-for-bed", "compact-home-office"],
+    buyingCriteria: [
+      { criterion: "Desk footprint", content: "Base diameter ≤5\" for desks under 48\".\nOr choose a clamp-mount stand to eliminate base footprint entirely.\nAvoid wide cradle bases — they consume the same space as a small keyboard." },
+      { criterion: "Height & angle", content: "Adjustable height or fixed at 12–16\" viewing angle from seated position.\n≥3 angle positions or stepless adjustment.\nFor video calls: needs to position camera at eye level (typically 14–18\" from desk)." },
+      { criterion: "Size compatibility", content: "Verify stated max size ≥ your tablet (most list 10–11\" max without case).\nIf using a thick case, check compatible thickness, not just screen size." },
+      { criterion: "Port access", content: "Open-frame or open-side design keeps USB/Lightning port accessible.\nClosed-cradle designs force you to dismount the tablet to charge." },
+      { criterion: "Rotation", content: "360° base rotation or landscape/portrait switch.\nUseful for switching between reading (portrait) and video calls (landscape) without dismounting." },
+      { criterion: "Stability at desk", content: "Non-slip base required on smooth desk surfaces.\nTest by tapping the screen at normal force — should not shift or rock." },
+    ],
   },
 
   {
@@ -157,6 +187,14 @@ export const guides: Guide[] = [
       },
     ],
     relatedGuideSlugs: ["monitor-stands-small-desks", "laptop-stands-small-desks"],
+    buyingCriteria: [
+      { criterion: "Lux output", content: "≥500 lux at 40cm for standard study use.\n≥1000 lux at 40cm for detailed work (drawing, reading small text).\nLook for lux spec on the product sheet — not just wattage." },
+      { criterion: "Color temperature", content: "Minimum 3 settings: 2700K warm (wind-down reading) + 4000K neutral (focused work) + ≥5500K cool (alertness).\nSingle-temperature lamps are a permanent compromise for multi-use setups." },
+      { criterion: "Mount type", content: "Clamp mount: recommended for desks ≤48\" — attaches to back edge, zero surface footprint.\nBase mount: only if you have spare surface area AND the base diameter is ≤5\"." },
+      { criterion: "Flicker-free", content: "Zero-flicker or flicker-free certification required if studying ≥2 hrs/day.\nCheap LEDs flicker at invisible frequencies — detectable by your visual cortex over time, causing eye strain." },
+      { criterion: "USB charging port", content: "5V/1A minimum for phone charging.\nNot essential if desk already has USB hub or power strip with USB ports.\nMost useful in dorm rooms where wall outlets are limited." },
+      { criterion: "Base footprint", content: "≤5\" diameter for base-mount lamps on desks under 48\".\nThe physical base area permanently occupies your working surface." },
+    ],
   },
 
   {
@@ -211,6 +249,14 @@ export const guides: Guide[] = [
       },
     ],
     relatedGuideSlugs: ["desk-lamps-small-desks", "laptop-stands-small-desks", "cable-management-dorm"],
+    buyingCriteria: [
+      { criterion: "Height lift", content: "≥3\" minimum to reach ergonomic eye-level position from flat desk.\nMost people need 3–5\" depending on monitor size and seated height.\nStands that lift less than 3\" don't solve the core ergonomic problem." },
+      { criterion: "Under-screen clearance", content: "≥4.5\" internal height if you plan to store a keyboard underneath.\nMeasure your keyboard height before purchasing — most compact keyboards are 1.5–1.75\" tall." },
+      { criterion: "Desk footprint", content: "Riser: should not exceed your monitor's existing base footprint.\nMonitor arm: eliminates desk footprint entirely; requires VESA holes on monitor back." },
+      { criterion: "VESA compatibility (for arms)", content: "Most monitors use 75×75mm or 100×100mm VESA mounting.\nCheck your monitor's spec sheet or look at the back panel before ordering an arm.\nUltra-thin consumer monitors often lack VESA holes — verify before purchasing an arm." },
+      { criterion: "Clamp thickness (for arms)", content: "Standard C-clamp fits desk edges ≤3.15\" thick.\nMeasure your desk edge before ordering — some modern desks exceed this." },
+      { criterion: "Weight capacity", content: "≥15 lbs for a single 24–27\" monitor.\n≥20 lbs for 27–32\" monitors.\nDual-monitor arms: verify per-arm capacity, not total capacity." },
+    ],
   },
 
   {
@@ -265,6 +311,14 @@ export const guides: Guide[] = [
       },
     ],
     relatedGuideSlugs: ["desk-lamps-small-desks", "monitor-stands-small-desks"],
+    buyingCriteria: [
+      { criterion: "Height range", content: "≥4\" minimum lift to reach ergonomic screen position.\n6–8\" optimal for average seated height with a 13–15\" laptop.\nStands with less than 4\" lift don't provide meaningful ergonomic benefit." },
+      { criterion: "Laptop size compatibility", content: "Verify the stand's stated max size ≥ your laptop size.\nMost stands support up to 15.6\"; 17\" laptops need specific models.\nIf using a thick protective case, add ~0.5\" to your laptop's stated width." },
+      { criterion: "Stability under typing", content: "Zero rocking on a flat desk surface during sustained typing.\nRead 1-star reviews specifically for \"wobble\" or \"rocks\" mentions.\nAluminum builds are more stable than plastic at equivalent price points." },
+      { criterion: "Fold & portability", content: "Folds flat to ≤0.5\" thickness for backpack carry.\nWeight ≤1 lb for daily transport.\nRequired if carrying between classes — a stand that stays on your desk doesn't need to fold." },
+      { criterion: "External keyboard (required)", content: "A laptop stand is designed to be used with a separate keyboard.\nWhen the screen is elevated, the built-in keyboard is at the wrong angle for typing.\nBudget ≥$25 for a compact Bluetooth keyboard alongside any laptop stand." },
+      { criterion: "Material", content: "Aluminum: ≤0.8 lb, no flex under load, folds reliably for 2+ years of daily use.\nPlastic: cheaper but develops wobble and flex over months of repeated folding." },
+    ],
   },
 
   {
@@ -319,6 +373,13 @@ export const guides: Guide[] = [
       },
     ],
     relatedGuideSlugs: ["desk-lamps-small-desks", "bedside-caddies-students"],
+    buyingCriteria: [
+      { criterion: "Adhesive type", content: "3M VHB-style adhesive that removes cleanly from laminate with heat (hair dryer for 15–20 sec).\nAvoid generic adhesive clips — they leave residue or pull surface material off.\nTest on a small hidden area of your specific desk before installing everywhere." },
+      { criterion: "Surface compatibility", content: "Works on: flat laminate, painted wood, smooth plastic.\nDoes NOT work on: textured surfaces, fabric, rough particle board, or surfaces with dust/oils.\nClean the surface with isopropyl alcohol before mounting for best adhesion." },
+      { criterion: "Tie type for bundles", content: "Velcro ties: reusable, reopens when you reconfigure or replace devices.\nZip ties: single-use only — cut to remove.\nFor any dorm setup you'll rearrange, velcro is the correct choice." },
+      { criterion: "Under-desk tray clearance", content: "Requires ≥3\" clearance between desk surface underside and legs/frame.\nMeasure before purchasing — some desks have cross-braces that block tray installation." },
+      { criterion: "Cable tray load capacity", content: "≥5 lbs for a tray holding a power strip plus cables.\nLighter ratings (1–2 lbs) are only suitable for cable routing, not hardware." },
+    ],
   },
 
   {
@@ -373,6 +434,13 @@ export const guides: Guide[] = [
       },
     ],
     relatedGuideSlugs: ["under-bed-storage-small-rooms", "cable-management-dorm"],
+    buyingCriteria: [
+      { criterion: "Pocket count & layout", content: "Minimum: 1 large center pocket (tablet/book) + 2 medium pockets (phone, headphones) + 1 small section (charger/cable).\n6–8 total pockets is more useful than a single wide pouch.\nA water bottle holder should be reinforced and sized for ≥20oz." },
+      { criterion: "Material", content: "600D Oxford polyester: durable through a full academic year of daily use.\nLighter polyester (300D or less): sagging and shape loss within 2–3 months." },
+      { criterion: "Mattress compatibility", content: "Verify fits your mattress thickness (standard dorm twin XL = 8–12\").\nMost caddies fit mattresses up to 12–14\" — confirm before purchasing if using a memory foam topper." },
+      { criterion: "Grip & attachment", content: "More attachment panel tucked under the mattress = better grip.\nSmooth polyester fitted sheets reduce friction — if it slides, add a rubber mat section.\nAvoid caddies with only a thin strap attachment; full-panel tuck is more secure." },
+      { criterion: "Lofted bed compatibility", content: "Standard tuck-under attachment works identically on lofted and standard beds.\nBedside caddies are often more valuable on lofted beds where floor access is impossible." },
+    ],
   },
 
   {
@@ -436,6 +504,13 @@ export const guides: Guide[] = [
       },
     ],
     relatedGuideSlugs: ["bedside-caddies-students", "cable-management-dorm"],
+    buyingCriteria: [
+      { criterion: "Bed clearance (measure first)", content: "Fabric bags: ≥6–7\" floor-to-frame clearance required.\nRigid containers: ≥7.5–8\" required.\nMeasure to underside of bed frame (not mattress). Platform beds often sit only 5–6\"." },
+      { criterion: "Bag material", content: "PA+PE laminated: maintains vacuum seal through multiple seasonal cycles.\nSingle-layer PE: develops micro-perforations under repeated folding — loses seal within weeks.\nPrioritize the laminated spec even if it costs more." },
+      { criterion: "Seal type", content: "Double-zip closure: significantly lower failure rate than single-zip.\nSingle-zip bags fail most often at the closure point during seasonal use.\nDouble-zip is the main quality differentiator between budget and mid-range bags." },
+      { criterion: "Quantity", content: "Budget for ≥2 bags or containers — one rarely covers a full seasonal wardrobe.\nFabric bags: best for seasonal clothing, bedding, soft items.\nRolling containers: best for shoes and items you access weekly." },
+      { criterion: "Floor surface", content: "Fabric bags: work on any surface.\nRigid containers on hardwood or tile: add adhesive felt pads to bottom corners to prevent scratching." },
+    ],
   },
 
   {
@@ -504,6 +579,13 @@ export const guides: Guide[] = [
       },
     ],
     relatedGuideSlugs: ["desk-lamps-small-desks", "monitor-stands-small-desks", "dorm-room-power-essentials"],
+    buyingCriteria: [
+      { criterion: "Desktop width", content: "≤6\" wide for any desktop organizer on a 48\" desk.\nWider than 6\" starts competing with your working and writing area.\nMeasure your actual available side space before purchasing." },
+      { criterion: "Desktop depth", content: "≤10\" deep to avoid blocking monitor sightlines or pushing keyboard forward.\nDeeper organizers are designed for large office desks — not small student setups." },
+      { criterion: "Minimum feature set", content: "1 dedicated pen/pencil section + 2 enclosed drawers minimum.\nOpen trays only: items fall out and surfaces look cluttered within days.\nEnclosed drawers hide low-visibility items without adding visual noise." },
+      { criterion: "Material", content: "Clear acrylic: see contents at a glance without opening anything. Scratches with abrasive cleaning — use microfiber cloth only.\nABS plastic: more impact-resistant, better for rougher handling. Opaque — you can't see inside." },
+      { criterion: "Drawer tray fit", content: "Measure drawer interior width (14–18\" fits most standard desk trays).\nTray height ≤1.75\" for shallow desk drawers — measure yours before ordering.\nInterlocking tray sets let you customize the layout to your actual items." },
+    ],
   },
 
   {
@@ -567,6 +649,13 @@ export const guides: Guide[] = [
       },
     ],
     relatedGuideSlugs: ["bedside-caddies-students", "small-room-closet-storage", "desk-organizers-small-desks"],
+    buyingCriteria: [
+      { criterion: "Material (critical)", content: "Rust-resistant coated steel: handles daily shower humidity indefinitely.\nChrome-plated hardware at joints: rusts first — specifically avoid this.\nFull mesh construction (not solid shelves): drains completely, prevents mildew pooling." },
+      { criterion: "Carry handle", content: "Reinforced single or double handle rated for fully loaded weight (3–5 lbs).\nAvoid flimsy loop handles — they fail at the attachment point after repeated loading.\nTest at full load before committing to daily use." },
+      { criterion: "S-hook", content: "Stainless steel (not zinc-coated). Zinc hooks rust at connection point even on otherwise protected caddies.\nConfirm it's included in the package, not sold separately." },
+      { criterion: "Shelf configuration", content: "Removable shelves strongly preferred: accommodates tall bottles (≥12oz standard; ≥32oz Costco-size).\nFixed shelves lock you into bottle sizes that may not match what you actually buy." },
+      { criterion: "Secondary features", content: "Razor slot: holds blade vertical/upward — safer and extends blade life vs lying flat on a shelf.\nToothbrush slots: keeps bristles off shared surfaces.\nSmall hook: useful for loofah or washcloth." },
+    ],
   },
 
   {
@@ -634,6 +723,13 @@ export const guides: Guide[] = [
       },
     ],
     relatedGuideSlugs: ["under-bed-storage-small-rooms", "bedside-caddies-students", "desk-organizers-small-desks"],
+    buyingCriteria: [
+      { criterion: "Cube dimensions (measure first)", content: "Standard IKEA KALLAX cubby: 11×11×13\" interior.\nOther cube shelves vary — measure your actual cubby interior before ordering.\n\"11-inch cubes\" from different brands are often 10.5\" or 11.5\" — not interchangeable." },
+      { criterion: "Vacuum bag material", content: "PA+PE laminated: maintains seal reliably through multiple seasonal cycles.\nThin single-layer PE: develops micro-perforations under pressure — loses seal within weeks.\nPA+PE is the only option worth purchasing for semester-to-semester use." },
+      { criterion: "Vacuum bag seal", content: "Double-zip: significantly lower closure failure rate.\nSingle-zip bags fail most often at the closure point — not worth purchasing for seasonal use." },
+      { criterion: "Over-door hook clearance", content: "Over-door hooks add ~0.75\" between door and frame.\nMost standard dorm doors have adequate clearance.\nDoors that already brush the frame when closing are not compatible — measure first." },
+      { criterion: "Down comforters", content: "Do NOT vacuum-seal down comforters for extended periods.\nCompression destroys down fill — permanent loft and insulation loss after months sealed.\nUse large breathable fabric bags for comforters instead." },
+    ],
   },
 
   {
@@ -701,5 +797,12 @@ export const guides: Guide[] = [
       },
     ],
     relatedGuideSlugs: ["cable-management-dorm", "desk-organizers-small-desks", "bedside-caddies-students"],
+    buyingCriteria: [
+      { criterion: "Surge protection (dorm policy)", content: "Most dorm policies require surge-protected power strips — non-surge strips are confiscated.\nLook for ETL or UL certification + ≥1000 joule rating.\nConfirm your specific school's policy before purchasing — some have wattage restrictions." },
+      { criterion: "USB ports", content: "≥4 USB-A ports for a full student setup (phone, tablet, earbuds, desk lamp).\nOr: ≥2 USB-A + 1 USB-C PD (60W+) if you charge a laptop via USB-C.\n1A-only USB ports are too slow for tablets — look for 2.4A per port minimum." },
+      { criterion: "Power strip size", content: "≤8\" length for desk use without consuming working surface.\nStandard 12\" power strips are designed for living rooms — too large for student desks." },
+      { criterion: "Wireless charger standard", content: "10W Qi: covers iPhone 8+ (7.5W), Samsung and most Android (10W).\nMagSafe 15W: iPhone 12+ only — premium price, limited compatibility.\n7.5W is sufficient for overnight iPhone charging; speed difference negligible." },
+      { criterion: "Bed riser compatibility", content: "Cup-style risers require individual discrete bed legs (4 separate legs).\nNot compatible with: platform beds, solid slatted bases, integrated legs.\nMeasure leg diameter (most risers fit up to 2.75\" round or square legs)." },
+    ],
   },
 ];

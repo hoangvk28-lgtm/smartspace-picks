@@ -74,6 +74,7 @@ function rowToPublicGuide(row: GuideRow): PublicGuide {
     sections: row.sections ?? [],
     faq: row.faq ?? [],
     relatedGuideSlugs: row.related_guide_slugs ?? [],
+    buyingCriteria: staticFallback?.buyingCriteria,
   };
 }
 

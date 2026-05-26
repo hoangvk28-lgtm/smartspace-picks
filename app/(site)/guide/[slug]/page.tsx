@@ -406,6 +406,61 @@ export default async function BuyingGuidePage({ params }: Props) {
           </div>
         )}
 
+        {/* ── 6b. Buying criteria table ───────────────────────────────── */}
+        {guide.buyingCriteria && guide.buyingCriteria.length > 0 && (
+          <section className="mb-10 max-w-3xl" aria-label="Buying criteria">
+            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">
+              What to Look For Before You Buy
+            </h2>
+            <p className="text-sm text-ink-secondary mb-4">
+              Key criteria and specific thresholds — so you know exactly what to evaluate before choosing a product.
+            </p>
+            <div className="rounded-card border border-border overflow-hidden">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="bg-bg border-b border-border">
+                    <th className="text-left px-4 py-3 font-semibold text-ink-secondary text-xs uppercase tracking-wide w-36 md:w-44 shrink-0">
+                      Criterion
+                    </th>
+                    <th className="text-left px-4 py-3 font-semibold text-ink-secondary text-xs uppercase tracking-wide">
+                      What to Check
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {guide.buyingCriteria.map(({ criterion, content }, i) => {
+                    const lines = content.split("\n").filter(Boolean);
+                    return (
+                      <tr
+                        key={criterion}
+                        className={`border-b border-border last:border-0 ${i % 2 === 0 ? "bg-white" : "bg-bg/40"}`}
+                      >
+                        <td className="px-4 py-3 font-semibold text-ink align-top text-sm leading-snug">
+                          {criterion}
+                        </td>
+                        <td className="px-4 py-3 align-top">
+                          {lines.length === 1 ? (
+                            <span className="text-sm text-ink-secondary leading-relaxed">{lines[0]}</span>
+                          ) : (
+                            <ul className="space-y-1">
+                              {lines.map((line, j) => (
+                                <li key={j} className="flex items-start gap-2 text-sm text-ink-secondary leading-relaxed">
+                                  <span className="text-brand shrink-0 mt-0.5 font-bold text-xs">›</span>
+                                  <span>{line}</span>
+                                </li>
+                              ))}
+                            </ul>
+                          )}
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          </section>
+        )}
+
         {/* ── 7. Detailed product reviews ─────────────────────────────── */}
         {picks.length > 0 && (
           <section className="mb-12" aria-label="Detailed product reviews">
