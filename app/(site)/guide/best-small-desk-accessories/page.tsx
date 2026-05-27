@@ -429,22 +429,22 @@ export default async function BestSmallDeskAccessoriesPage() {
         {/* How we evaluated */}
         <section className="mb-12 p-6 rounded-2xl border border-border bg-bg">
           <h2 className="text-lg font-bold text-ink mb-3">How We Evaluated These Accessories</h2>
-          <p className="text-sm text-ink-secondary leading-relaxed mb-3">
+          <p className="text-sm text-ink-secondary leading-relaxed mb-4">
             Each accessory was assessed across four criteria weighted for small desk and dorm room constraints:
           </p>
-          <ul className="space-y-2 text-sm text-ink-secondary">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
               ["Footprint efficiency", "How much desktop, under-desk, or vertical space does the accessory consume relative to what it provides? Zero-footprint accessories (mounted, clipped, vertical) score highest."],
               ["Build quality and durability", "Material quality, weight capacity, and expected lifespan based on Amazon verified buyer review patterns and manufacturer specifications."],
               ["Setup simplicity", "Whether installation requires drilling, permanent adhesive, or complex assembly. Clamp-on and freestanding options score higher for renters and dorm setups."],
               ["Value for price", "Features delivered per dollar. Budget accessories need to deliver a clear daily function without requiring replacement within a year. The compact mesh organizer scores well here at under $18."],
             ].map(([label, desc]) => (
-              <li key={label as string} className="flex gap-2">
-                <span className="font-semibold text-ink shrink-0">{label}:</span>
-                <span>{desc}</span>
-              </li>
+              <div key={label as string} className="p-4 rounded-xl bg-white border border-border">
+                <p className="text-sm font-semibold text-ink mb-1">{label}</p>
+                <p className="text-xs text-ink-secondary leading-relaxed">{desc}</p>
+              </div>
             ))}
-          </ul>
+          </div>
           <p className="text-xs text-ink-muted mt-4 italic">
             This guide reflects research across published specifications, manufacturer documentation, and analysis of verified Amazon buyer review patterns. Where observations reference buyer experience, they are based on review pattern analysis, not individual testing claims.
           </p>

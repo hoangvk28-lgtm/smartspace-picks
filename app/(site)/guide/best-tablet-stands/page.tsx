@@ -249,10 +249,10 @@ export default async function BestTabletStandsPage() {
         {/* ── How we tested ── */}
         <section className="mb-12 p-6 rounded-2xl border border-border bg-bg">
           <h2 className="text-lg font-bold text-ink mb-3">How We Evaluated These Stands</h2>
-          <p className="text-sm text-ink-secondary leading-relaxed mb-3">
+          <p className="text-sm text-ink-secondary leading-relaxed mb-4">
             Each stand was assessed across five criteria weighted for real desk and bedroom use:
           </p>
-          <ul className="space-y-2 text-sm text-ink-secondary">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
               ["Stability", "Tested with a standard iPad Pro 11\" and a heavy 13\" Android tablet. Scored on tipping resistance under tapping and drawing load."],
               ["Adjustability", "Range of angle and height adjustment, ease of repositioning, and whether the stand holds its position reliably after setting."],
@@ -260,12 +260,12 @@ export default async function BestTabletStandsPage() {
               ["Device compatibility", "Size range, case compatibility, and whether portrait and landscape modes are both supported without repositioning the base."],
               ["Value for price", "Capability delivered per dollar - the LISEN and UGREEN score highly here despite being the cheapest options."],
             ].map(([label, desc]) => (
-              <li key={label as string} className="flex gap-2">
-                <span className="font-semibold text-ink shrink-0">{label}:</span>
-                <span>{desc}</span>
-              </li>
+              <div key={label as string} className="p-4 rounded-xl bg-white border border-border">
+                <p className="text-sm font-semibold text-ink mb-1">{label}</p>
+                <p className="text-xs text-ink-secondary leading-relaxed">{desc}</p>
+              </div>
             ))}
-          </ul>
+          </div>
         </section>
 
         {/* ── FAQ ── */}

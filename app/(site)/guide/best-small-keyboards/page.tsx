@@ -278,10 +278,10 @@ export default async function BestSmallKeyboardsPage() {
         {/* How we evaluated */}
         <section className="mb-12 p-6 rounded-2xl border border-border bg-bg">
           <h2 className="text-lg font-bold text-ink mb-3">How We Evaluated These Keyboards</h2>
-          <p className="text-sm text-ink-secondary leading-relaxed mb-3">
+          <p className="text-sm text-ink-secondary leading-relaxed mb-4">
             Each keyboard was assessed across five criteria weighted for small desk and dorm room use:
           </p>
-          <ul className="space-y-2 text-sm text-ink-secondary">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
               ["Layout efficiency", "How much desk width does the keyboard occupy relative to the keys it provides? A 75% keyboard that retains the F-row and arrow keys scores higher than a TKL that adds more width without more functionality for most users."],
               ["Switch quality and typing experience", "Switch consistency, actuation feel, and noise level relative to price. Hot-swap capability was treated as a significant differentiator at each price tier."],
@@ -289,12 +289,12 @@ export default async function BestSmallKeyboardsPage() {
               ["Platform compatibility", "Whether the keyboard works on both Mac and Windows without key remapping workarounds, and how much effort the transition requires."],
               ["Value for price", "Features delivered per dollar - the AULA F75 Pro scores highly here due to triple-mode wireless and gasket mount at under $65."],
             ].map(([label, desc]) => (
-              <li key={label as string} className="flex gap-2">
-                <span className="font-semibold text-ink shrink-0">{label}:</span>
-                <span>{desc}</span>
-              </li>
+              <div key={label as string} className="p-4 rounded-xl bg-white border border-border">
+                <p className="text-sm font-semibold text-ink mb-1">{label}</p>
+                <p className="text-xs text-ink-secondary leading-relaxed">{desc}</p>
+              </div>
             ))}
-          </ul>
+          </div>
           <p className="text-xs text-ink-muted mt-4 italic">
             This guide reflects research across published specifications, manufacturer documentation, and analysis of verified Amazon buyer review patterns. Where observations reference buyer experience, they are based on review pattern analysis, not individual testing claims.
           </p>
