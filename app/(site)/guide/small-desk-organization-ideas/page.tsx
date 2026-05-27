@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { Container } from "@/components/layout/Container";
@@ -172,10 +172,10 @@ export default async function SmallDeskOrganizationIdeasPage() {
         {/* Intro */}
         <section className="mb-8">
           <p className="text-base text-ink-secondary leading-relaxed mb-3">
-            A small desk doesn&apos;t need more organization products — it needs the right <em>method</em>. Most desk organization guides throw 20 products at you and hope something sticks. That&apos;s how you end up with an organizer caddy sitting on top of another organizer caddy, both full of things you don&apos;t use.
+            A small desk doesn&apos;t need more organization products - it needs the right <em>method</em>. Most desk organization guides throw 20 products at you and hope something sticks. That&apos;s how you end up with an organizer caddy sitting on top of another organizer caddy, both full of things you don&apos;t use.
           </p>
           <p className="text-base text-ink-secondary leading-relaxed">
-            We&apos;ve evaluated organization approaches across dozens of compact desk setups — dorm desks, bedroom desks, home office desks under 48 inches — and found that the best small desk organization ideas aren&apos;t products. They&apos;re systems. Products just support the system. Here are seven methods that actually work, with specific product picks scored on how well they earn their footprint.
+            We&apos;ve evaluated organization approaches across dozens of compact desk setups - dorm desks, bedroom desks, home office desks under 48 inches - and found that the best small desk organization ideas aren&apos;t products. They&apos;re systems. Products just support the system. Here are seven methods that actually work, with specific product picks scored on how well they earn their footprint.
           </p>
         </section>
 
@@ -202,7 +202,7 @@ export default async function SmallDeskOrganizationIdeasPage() {
             Every organization expert agrees on one thing: <strong className="text-ink">don&apos;t buy storage until you&apos;ve removed what you don&apos;t need.</strong> The single biggest mistake people make with small desks is buying a cute organizer, filling it with things they barely use, and ending up with less desk space plus an organizer to manage.
           </p>
           <div className="bg-white rounded-xl p-4 border border-border">
-            <p className="text-sm font-semibold text-ink mb-3">The 5-minute desk audit — pull everything off your desk, then sort into three groups:</p>
+            <p className="text-sm font-semibold text-ink mb-3">The 5-minute desk audit - pull everything off your desk, then sort into three groups:</p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
               {[
                 { label: "Daily use", color: "#16a34a", bg: "#dcfce7", items: "Keyboard, mouse, laptop, one pen, phone charger. These earn desktop space." },
@@ -215,21 +215,21 @@ export default async function SmallDeskOrganizationIdeasPage() {
                 </div>
               ))}
             </div>
-            <p className="text-xs text-ink-muted mt-3 italic">Most people discover that 60–70% of their desk clutter falls into the weekly or rarely category. That&apos;s your real problem — not a lack of organizers.</p>
+            <p className="text-xs text-ink-muted mt-3 italic">Most people discover that 60–70% of their desk clutter falls into the weekly or rarely category. That&apos;s your real problem - not a lack of organizers.</p>
           </div>
         </section>
 
         {/* 7 Methods */}
         <section id="methods" className="mb-12 scroll-mt-20">
           <h2 className="text-2xl font-bold text-ink mb-2 tracking-tight">The 7 Small Desk Organization Methods</h2>
-          <p className="text-sm text-ink-secondary mb-8">Each method is a system first. The product picks below each method support the system — they don&apos;t replace it.</p>
+          <p className="text-sm text-ink-secondary mb-8">Each method is a system first. The product picks below each method support the system - they don&apos;t replace it.</p>
 
           {/* Method 1 */}
           <div id="method-1" className="mb-12 scroll-mt-20">
             <div className="flex items-center gap-3 mb-4">
               <span className="w-9 h-9 rounded-full bg-brand text-white font-bold text-base flex items-center justify-center shrink-0">1</span>
               <div>
-                <h3 className="text-xl font-bold text-ink leading-tight">The Vertical Stack — Go Up, Not Out</h3>
+                <h3 className="text-xl font-bold text-ink leading-tight">The Vertical Stack - Go Up, Not Out</h3>
                 <p className="text-xs text-brand font-semibold mt-0.5">Best for: Desks under 40 inches with wall space behind them</p>
               </div>
             </div>
@@ -238,13 +238,13 @@ export default async function SmallDeskOrganizationIdeasPage() {
                 <strong className="text-ink">Core idea:</strong> Your desk surface is limited. The air above it isn&apos;t. Every inch of vertical space you use is an inch of desktop you reclaim.
               </p>
               <p className="text-sm text-ink-secondary leading-relaxed mb-4">
-                Instead of spreading supplies horizontally across the desk, stack them vertically using risers, shelves, or wall-mounted storage. The goal is a desk surface that holds only your active work tools — laptop, keyboard, mouse — while everything else lives above or beside.
+                Instead of spreading supplies horizontally across the desk, stack them vertically using risers, shelves, or wall-mounted storage. The goal is a desk surface that holds only your active work tools - laptop, keyboard, mouse - while everything else lives above or beside.
               </p>
               <div className="space-y-3">
                 {methodProducts(1).map((p) => <ProductCard key={p.id} product={p} />)}
               </div>
               <div className="mt-3 p-3 rounded-lg bg-blue-50 border border-blue-100">
-                <p className="text-xs text-blue-800"><strong>Pro tip:</strong> The Reddit decluttering community consistently recommends pegboards as the single best wall storage for small desks. The key is restraint — hang only what you use weekly, not everything you own.</p>
+                <p className="text-xs text-blue-800"><strong>Pro tip:</strong> The Reddit decluttering community consistently recommends pegboards as the single best wall storage for small desks. The key is restraint - hang only what you use weekly, not everything you own.</p>
               </div>
             </div>
           </div>
@@ -254,7 +254,7 @@ export default async function SmallDeskOrganizationIdeasPage() {
             <div className="flex items-center gap-3 mb-4">
               <span className="w-9 h-9 rounded-full bg-brand text-white font-bold text-base flex items-center justify-center shrink-0">2</span>
               <div>
-                <h3 className="text-xl font-bold text-ink leading-tight">The Under-Desk System — Hidden Storage Below</h3>
+                <h3 className="text-xl font-bold text-ink leading-tight">The Under-Desk System - Hidden Storage Below</h3>
                 <p className="text-xs text-brand font-semibold mt-0.5">Best for: Desks with no drawers (the most common small desk problem)</p>
               </div>
             </div>
@@ -263,7 +263,7 @@ export default async function SmallDeskOrganizationIdeasPage() {
                 <strong className="text-ink">Core idea:</strong> The space under your desk is usually wasted. Reclaim it with mounted drawers, trays, and storage that stays invisible from above.
               </p>
               <p className="text-sm text-ink-secondary leading-relaxed mb-4">
-                If your desk has no built-in drawers — and most budget IKEA desks, folding desks, and dorm desks don&apos;t — you create your own drawer system underneath. This is the method that transforms a basic tabletop into a functional workstation.
+                If your desk has no built-in drawers - and most budget IKEA desks, folding desks, and dorm desks don&apos;t - you create your own drawer system underneath. This is the method that transforms a basic tabletop into a functional workstation.
               </p>
               <div className="space-y-3">
                 {methodProducts(2).map((p) => <ProductCard key={p.id} product={p} />)}
@@ -276,16 +276,16 @@ export default async function SmallDeskOrganizationIdeasPage() {
             <div className="flex items-center gap-3 mb-4">
               <span className="w-9 h-9 rounded-full bg-brand text-white font-bold text-base flex items-center justify-center shrink-0">3</span>
               <div>
-                <h3 className="text-xl font-bold text-ink leading-tight">The One-Bin Rule — Contain, Don&apos;t Spread</h3>
+                <h3 className="text-xl font-bold text-ink leading-tight">The One-Bin Rule - Contain, Don&apos;t Spread</h3>
                 <p className="text-xs text-brand font-semibold mt-0.5">Best for: People who accumulate desk clutter throughout the day</p>
               </div>
             </div>
             <div className="pl-12">
               <p className="text-sm text-ink-secondary leading-relaxed mb-2">
-                <strong className="text-ink">Core idea:</strong> Give yourself exactly one container for loose items. When it&apos;s full, it&apos;s time to sort — not time to buy a second container.
+                <strong className="text-ink">Core idea:</strong> Give yourself exactly one container for loose items. When it&apos;s full, it&apos;s time to sort - not time to buy a second container.
               </p>
               <p className="text-sm text-ink-secondary leading-relaxed mb-4">
-                This method comes from Dana K. White&apos;s &ldquo;container concept,&rdquo; frequently cited in decluttering communities. The container is the limit. For a small desk, this means one compact organizer — a mesh caddy, pen cup, or small tray — that holds your daily-use items. If it overflows, you declutter. You don&apos;t add another organizer.
+                This method comes from Dana K. White&apos;s &ldquo;container concept,&rdquo; frequently cited in decluttering communities. The container is the limit. For a small desk, this means one compact organizer - a mesh caddy, pen cup, or small tray - that holds your daily-use items. If it overflows, you declutter. You don&apos;t add another organizer.
               </p>
               <div className="space-y-3">
                 {methodProducts(3).map((p) => <ProductCard key={p.id} product={p} />)}
@@ -298,13 +298,13 @@ export default async function SmallDeskOrganizationIdeasPage() {
             <div className="flex items-center gap-3 mb-4">
               <span className="w-9 h-9 rounded-full bg-brand text-white font-bold text-base flex items-center justify-center shrink-0">4</span>
               <div>
-                <h3 className="text-xl font-bold text-ink leading-tight">The Monitor Riser Strategy — Storage You Sit In Front Of</h3>
+                <h3 className="text-xl font-bold text-ink leading-tight">The Monitor Riser Strategy - Storage You Sit In Front Of</h3>
                 <p className="text-xs text-brand font-semibold mt-0.5">Best for: Setups with an external monitor (not laptop-only)</p>
               </div>
             </div>
             <div className="pl-12">
               <p className="text-sm text-ink-secondary leading-relaxed mb-2">
-                <strong className="text-ink">Core idea:</strong> A monitor riser elevates your screen to ergonomic height while creating a storage shelf underneath — the most efficient use of desk real estate available.
+                <strong className="text-ink">Core idea:</strong> A monitor riser elevates your screen to ergonomic height while creating a storage shelf underneath - the most efficient use of desk real estate available.
               </p>
               <p className="text-sm text-ink-secondary leading-relaxed mb-4">
                 Your monitor&apos;s base takes up 8–12 inches of desk depth. A riser lifts the monitor 4–5 inches and turns that dead zone into a shelf or drawer. Slide your keyboard underneath when not in use, store notebooks flat, or add a small drawer for supplies.
@@ -320,7 +320,7 @@ export default async function SmallDeskOrganizationIdeasPage() {
             <div className="flex items-center gap-3 mb-4">
               <span className="w-9 h-9 rounded-full bg-brand text-white font-bold text-base flex items-center justify-center shrink-0">5</span>
               <div>
-                <h3 className="text-xl font-bold text-ink leading-tight">The Zone System — Divide the Desk Into Territories</h3>
+                <h3 className="text-xl font-bold text-ink leading-tight">The Zone System - Divide the Desk Into Territories</h3>
                 <p className="text-xs text-brand font-semibold mt-0.5">Best for: Desks between 40–48 inches where you do multiple types of work</p>
               </div>
             </div>
@@ -329,13 +329,13 @@ export default async function SmallDeskOrganizationIdeasPage() {
                 <strong className="text-ink">Core idea:</strong> Assign each section of the desk a specific job. Nothing crosses zones. When something is in the wrong zone, it goes back.
               </p>
               <p className="text-sm text-ink-secondary leading-relaxed mb-4">
-                Divide your desk into three zones. The zone system prevents the &ldquo;creep&rdquo; — where items slowly migrate from the edges to the center of your desk until you&apos;re working in a 12-inch gap surrounded by clutter. When each item has a zone, putting things back is automatic, not a decision.
+                Divide your desk into three zones. The zone system prevents the &ldquo;creep&rdquo; - where items slowly migrate from the edges to the center of your desk until you&apos;re working in a 12-inch gap surrounded by clutter. When each item has a zone, putting things back is automatic, not a decision.
               </p>
               {/* Zone diagram */}
               <div className="rounded-xl border border-border bg-white overflow-hidden mb-4">
                 <div className="p-3 text-center border-b border-border bg-bg">
                   <p className="text-xs font-bold text-ink-secondary uppercase tracking-widest">Zone 3: Reference</p>
-                  <p className="text-xs text-ink-muted">Shelf riser, pegboard, or wall storage — items you see but don&apos;t touch constantly</p>
+                  <p className="text-xs text-ink-muted">Shelf riser, pegboard, or wall storage - items you see but don&apos;t touch constantly</p>
                 </div>
                 <div className="flex">
                   <div className="w-1/3 p-3 border-r border-border bg-amber-50/50">
@@ -359,7 +359,7 @@ export default async function SmallDeskOrganizationIdeasPage() {
             <div className="flex items-center gap-3 mb-4">
               <span className="w-9 h-9 rounded-full bg-brand text-white font-bold text-base flex items-center justify-center shrink-0">6</span>
               <div>
-                <h3 className="text-xl font-bold text-ink leading-tight">The Paper Elimination — Go Digital or Go Away</h3>
+                <h3 className="text-xl font-bold text-ink leading-tight">The Paper Elimination - Go Digital or Go Away</h3>
                 <p className="text-xs text-brand font-semibold mt-0.5">Best for: Desks drowning in papers, notes, and printouts</p>
               </div>
             </div>
@@ -399,8 +399,8 @@ export default async function SmallDeskOrganizationIdeasPage() {
             <div className="flex items-center gap-3 mb-4">
               <span className="w-9 h-9 rounded-full bg-brand text-white font-bold text-base flex items-center justify-center shrink-0">7</span>
               <div>
-                <h3 className="text-xl font-bold text-ink leading-tight">The End-of-Day Reset — The Habit That Keeps Everything Working</h3>
-                <p className="text-xs text-brand font-semibold mt-0.5">Best for: Everyone — this is the method that makes all other methods sustainable</p>
+                <h3 className="text-xl font-bold text-ink leading-tight">The End-of-Day Reset - The Habit That Keeps Everything Working</h3>
+                <p className="text-xs text-brand font-semibold mt-0.5">Best for: Everyone - this is the method that makes all other methods sustainable</p>
               </div>
             </div>
             <div className="pl-12">
@@ -422,7 +422,7 @@ export default async function SmallDeskOrganizationIdeasPage() {
               </div>
               <div className="p-4 rounded-xl bg-brand-muted/10 border border-brand/20">
                 <p className="text-sm text-ink-secondary leading-relaxed">
-                  The entire reset takes 90 seconds to 2 minutes. The top-voted advice in every Reddit thread about desk organization is some version of &ldquo;don&apos;t buy storage — declutter first.&rdquo; The end-of-day reset is the ongoing version of that advice. <strong className="text-ink">No product can replace this habit.</strong> But with this habit, even basic products work exceptionally well.
+                  The entire reset takes 90 seconds to 2 minutes. The top-voted advice in every Reddit thread about desk organization is some version of &ldquo;don&apos;t buy storage - declutter first.&rdquo; The end-of-day reset is the ongoing version of that advice. <strong className="text-ink">No product can replace this habit.</strong> But with this habit, even basic products work exceptionally well.
                 </p>
               </div>
             </div>
@@ -498,26 +498,26 @@ export default async function SmallDeskOrganizationIdeasPage() {
             {[
               {
                 title: "How to organize a small desk without drawers",
-                desc: "The most common pain point — a basic tabletop or folding desk with zero built-in storage.",
-                methods: ["Method 2 (Under-Desk System) — Add adhesive drawers and stackable units below", "Method 1 (Vertical Stack) — Shelf riser or pegboard above", "Method 3 (One-Bin Rule) — One compact organizer on the surface"],
+                desc: "The most common pain point - a basic tabletop or folding desk with zero built-in storage.",
+                methods: ["Method 2 (Under-Desk System) - Add adhesive drawers and stackable units below", "Method 1 (Vertical Stack) - Shelf riser or pegboard above", "Method 3 (One-Bin Rule) - One compact organizer on the surface"],
                 budget: "~$50–$70 for a functional drawer + riser + organizer combo",
               },
               {
                 title: "How to organize a small desk with two monitors",
                 desc: "Dual monitors eat surface space. The desk mat you're working on shrinks to almost nothing.",
-                methods: ["Method 4 (Monitor Riser/Arm) — Mount both monitors on arms to reclaim base footprint", "Method 2 (Under-Desk System) — All storage goes below since the surface is monitor territory", "Method 5 (Zone System) — Define narrow supply zone on one side"],
+                methods: ["Method 4 (Monitor Riser/Arm) - Mount both monitors on arms to reclaim base footprint", "Method 2 (Under-Desk System) - All storage goes below since the surface is monitor territory", "Method 5 (Zone System) - Define narrow supply zone on one side"],
                 budget: "~$70–$110 for dual monitor arms + under-desk storage",
               },
               {
                 title: "How to organize a small desk in a dorm room",
                 desc: "Dorm desks are usually 40–48 inches, shared spaces, and you can't drill into walls.",
-                methods: ["Method 1 (Vertical Stack) — Desktop shelf riser (no wall mounting needed)", "Method 3 (One-Bin Rule) — One organizer, enforced limit", "Method 6 (Paper Elimination) — Digitize aggressively to minimize physical storage", "Method 7 (End-of-Day Reset) — Essential in shared spaces"],
+                methods: ["Method 1 (Vertical Stack) - Desktop shelf riser (no wall mounting needed)", "Method 3 (One-Bin Rule) - One organizer, enforced limit", "Method 6 (Paper Elimination) - Digitize aggressively to minimize physical storage", "Method 7 (End-of-Day Reset) - Essential in shared spaces"],
                 budget: "~$40–$60 for riser + organizer + cable clips",
               },
               {
                 title: "Cute ways to organize your desk",
                 desc: "If aesthetics matter as much as function, focus on materials and color coordination.",
-                methods: ["Bamboo monitor riser (warm, natural look)", "Felt and cork desk mat (textured, minimal)", "Bamboo desktop tray (matches the riser)", "Pick one material family and stick to it — matching materials make a small desk look intentional"],
+                methods: ["Bamboo monitor riser (warm, natural look)", "Felt and cork desk mat (textured, minimal)", "Bamboo desktop tray (matches the riser)", "Pick one material family and stick to it - matching materials make a small desk look intentional"],
                 budget: "~$60–$80 for a coordinated bamboo + felt setup",
               },
             ].map((sit) => (
@@ -581,7 +581,7 @@ export default async function SmallDeskOrganizationIdeasPage() {
         <section className="mb-12 p-6 rounded-2xl border-2 border-brand/20 bg-brand-muted/10">
           <h2 className="text-xl font-bold text-ink mb-3">Final Verdict</h2>
           <p className="text-sm text-ink-secondary leading-relaxed mb-4">
-            The best small desk organization idea isn&apos;t a product — it&apos;s a system. Declutter first, add vertical and under-desk storage second, and build a daily reset habit third. Products support the system, but they don&apos;t replace it.
+            The best small desk organization idea isn&apos;t a product - it&apos;s a system. Declutter first, add vertical and under-desk storage second, and build a daily reset habit third. Products support the system, but they don&apos;t replace it.
           </p>
           <p className="text-sm text-ink-secondary leading-relaxed mb-4">
             If you&apos;re starting from zero, these three purchases cover 80% of what a small desk needs:
@@ -609,7 +609,7 @@ export default async function SmallDeskOrganizationIdeasPage() {
             })}
           </div>
           <p className="text-sm font-semibold text-ink">Total: ~$83. A complete small desk organization system for less than a mediocre office chair.</p>
-          <p className="text-xs text-ink-muted mt-2">The rest — pegboards, desk mats, paper trays — are situational upgrades. Add them only when you have a specific problem they solve.</p>
+          <p className="text-xs text-ink-muted mt-2">The rest - pegboards, desk mats, paper trays - are situational upgrades. Add them only when you have a specific problem they solve.</p>
         </section>
 
         {/* Amazon CTA */}

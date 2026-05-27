@@ -1,13 +1,13 @@
-export const guideSlug = "small-desk-organization-ideas";
+﻿export const guideSlug = "small-desk-organization-ideas";
 export const guideTitle =
   "Small Desk Organization Ideas: 7 Methods That Actually Keep a Tiny Desk Clean";
 export const guideDescription =
-  "7 proven small desk organization ideas — from vertical stacking to under-desk drawers — that keep compact workspaces clutter-free. Includes product picks, scoring, and a step-by-step setup checklist.";
+  "7 proven small desk organization ideas - from vertical stacking to under-desk drawers - that keep compact workspaces clutter-free. Includes product picks, scoring, and a step-by-step setup checklist.";
 export const mainKeyword = "small desk organization ideas";
 export const lastUpdated = "2026-05-27";
 export const readTime = "14 min";
 export const heroImage =
-  "https://images.unsplash.com/photo-1541558869434-2840d308329a?w=900&q=80";
+  "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/small-desk-organization-ideas-thumbnail.jpg";
 
 export interface OrgProduct {
   id: string;
@@ -38,7 +38,7 @@ export const products: OrgProduct[] = [
       "Creates a visual back wall that frames the workspace",
     ],
     tradeoffs: [
-      "Adds visual height — can feel cramped in very tight spaces",
+      "Adds visual height - can feel cramped in very tight spaces",
       "Cheaper models wobble under weight",
     ],
   },
@@ -54,11 +54,11 @@ export const products: OrgProduct[] = [
     whyItWorks: [
       "Zero desktop footprint",
       "Fully customizable layout with hooks and shelves",
-      "Modular — add or remove hooks as needs change",
+      "Modular - add or remove hooks as needs change",
     ],
     tradeoffs: [
       "Requires wall mounting (screws or heavy-duty adhesive)",
-      "Can look cluttered if overloaded — edit ruthlessly",
+      "Can look cluttered if overloaded - edit ruthlessly",
     ],
   },
   {
@@ -76,7 +76,7 @@ export const products: OrgProduct[] = [
       "No tools required for adhesive models",
     ],
     tradeoffs: [
-      "Adhesive can fail on textured wood — screw-in versions are more reliable",
+      "Adhesive can fail on textured wood - screw-in versions are more reliable",
       "Limited depth means bulkier items won't fit",
     ],
   },
@@ -91,9 +91,9 @@ export const products: OrgProduct[] = [
       "https://www.amazon.com/s?k=stackable+plastic+drawers+desk&tag=deskfinds0d-20",
     imageUrl: "https://m.media-amazon.com/images/I/71Wxh5qmm7L._AC_UL320_.jpg",
     whyItWorks: [
-      "Scales to any height — stack 2, 3, or 4 units",
+      "Scales to any height - stack 2, 3, or 4 units",
       "Clear drawers mean no rummaging",
-      "Portable — easy to rearrange or move",
+      "Portable - easy to rearrange or move",
     ],
     tradeoffs: [
       "Plastic construction feels less premium",
@@ -112,7 +112,7 @@ export const products: OrgProduct[] = [
     whyItWorks: [
       "Removes the power strip from your desktop entirely",
       "Hides 6–8 cables in one tray",
-      "Clamp-on design — no permanent modifications",
+      "Clamp-on design - no permanent modifications",
     ],
     tradeoffs: [
       "Installation takes 15–20 minutes",
@@ -132,7 +132,7 @@ export const products: OrgProduct[] = [
     whyItWorks: [
       "Small enough to enforce the one-bin rule",
       "Mesh visibility prevents junk-drawer syndrome",
-      "Sub-$20 — low commitment",
+      "Sub-$20 - low commitment",
     ],
     tradeoffs: [
       "Small items (paper clips, pins) fall through mesh gaps",
@@ -154,7 +154,7 @@ export const products: OrgProduct[] = [
       "Natural material blends with most desk setups",
     ],
     tradeoffs: [
-      "No visibility into contents — you'll forget what's inside",
+      "No visibility into contents - you'll forget what's inside",
       "Bamboo stains if wet items sit in it",
     ],
   },
@@ -174,7 +174,7 @@ export const products: OrgProduct[] = [
       "Drawer keeps small items out of sight but within reach",
     ],
     tradeoffs: [
-      "Fixed height — not adjustable",
+      "Fixed height - not adjustable",
       "Drawer depth is shallow at 1.5 inches",
     ],
   },
@@ -194,7 +194,7 @@ export const products: OrgProduct[] = [
       "Works with most VESA-compatible monitors",
     ],
     tradeoffs: [
-      "Not all monitors are VESA-compatible — check first",
+      "Not all monitors are VESA-compatible - check first",
       "Clamp requires a sturdy desk edge (skip for glass desks)",
     ],
   },
@@ -208,13 +208,13 @@ export const products: OrgProduct[] = [
     amazonUrl: "https://amzn.to/3PFnP39",
     imageUrl: "https://m.media-amazon.com/images/I/71kW3gobk-L._AC_UL320_.jpg",
     whyItWorks: [
-      "Visually marks the active work zone — nothing outside it belongs in Zone 1",
+      "Visually marks the active work zone - nothing outside it belongs in Zone 1",
       "Felt side feels premium under hands during extended use",
       "Cork backing prevents any sliding on smooth desk surfaces",
     ],
     tradeoffs: [
       "Felt collects dust and shows pet hair visibly",
-      "Spills can stain the felt side — not water-resistant",
+      "Spills can stain the felt side - not water-resistant",
     ],
   },
   {
@@ -253,7 +253,7 @@ export const products: OrgProduct[] = [
       "Works on desk shelf riser or beside the desk",
     ],
     tradeoffs: [
-      "Only works if you commit to filing — random papers still pile up",
+      "Only works if you commit to filing - random papers still pile up",
       "3–5 slot versions fill quickly for heavy paper users",
     ],
   },
@@ -311,8 +311,8 @@ export const checklistPhases = [
     time: "Ongoing",
     items: [
       "Set a daily 2-minute end-of-day reset",
-      "Review and declutter monthly — remove anything unused in 30 days",
-      "Resist adding new organizers — if you need more storage, declutter first",
+      "Review and declutter monthly - remove anything unused in 30 days",
+      "Resist adding new organizers - if you need more storage, declutter first",
     ],
   },
 ];
@@ -332,11 +332,11 @@ export const faq: Array<{ q: string; a: string }> = [
   },
   {
     q: "What should I put on a small desk?",
-    a: "Only items you use daily: laptop or monitor, keyboard, mouse, one pen or pen cup, and your phone. Everything else should live near the desk (on shelves, in drawers, on the wall) — not on the surface. A desk mat and one compact organizer are the only accessories that earn permanent surface placement.",
+    a: "Only items you use daily: laptop or monitor, keyboard, mouse, one pen or pen cup, and your phone. Everything else should live near the desk (on shelves, in drawers, on the wall) - not on the surface. A desk mat and one compact organizer are the only accessories that earn permanent surface placement.",
   },
   {
     q: "How can I organize a small desk for studying?",
-    a: "Use a monitor riser to create shelf space for textbooks, a desk mat to define your active study zone, and a compact organizer for pens and highlighters. Keep only the current subject's materials on the desk — store everything else on a nearby shelf. A flip Pomodoro timer ($18–$28) helps maintain focus sessions.",
+    a: "Use a monitor riser to create shelf space for textbooks, a desk mat to define your active study zone, and a compact organizer for pens and highlighters. Keep only the current subject's materials on the desk - store everything else on a nearby shelf. A flip Pomodoro timer ($18–$28) helps maintain focus sessions.",
   },
   {
     q: "How to organize a small office desk at work?",

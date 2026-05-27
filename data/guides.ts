@@ -934,7 +934,7 @@ export const guides: Guide[] = [
       "how to organize desk space",
       "best way to organize a small desk",
     ],
-    heroImage: "https://images.unsplash.com/photo-1541558869434-2840d308329a?w=900&q=80",
+    heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/small-desk-organization-ideas-thumbnail.jpg",
     lastUpdated: "2026-05-27",
     author: "Jamie Cole",
     readTime: "14 min",
