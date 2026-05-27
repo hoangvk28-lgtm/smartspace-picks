@@ -95,7 +95,7 @@ export default async function BestSmallDeskAccessoriesPage() {
             alt="Best small desk accessories for compact desks and dorm rooms"
             width={900}
             height={400}
-            className="w-full object-cover max-h-72"
+            className="w-full object-cover max-h-[420px]"
             priority
             unoptimized
           />
@@ -464,9 +464,9 @@ export default async function BestSmallDeskAccessoriesPage() {
         </section>
 
         {/* Amazon CTA */}
-        <div className="my-10 p-6 rounded-2xl text-center" style={{ background: "linear-gradient(135deg, #fff7ed, #fff3e0)", border: "1px solid #fed7aa" }}>
-          <p className="text-sm font-semibold text-ink mb-1">Browse all small desk accessories on Amazon</p>
-          <p className="text-xs text-ink-secondary mb-4">See current prices, deals, and Prime shipping options</p>
+        <div className="my-10 p-8 rounded-2xl flex flex-col items-center text-center" style={{ background: "linear-gradient(135deg, #fff7ed, #fff3e0)", border: "1px solid #fed7aa" }}>
+          <p className="text-base font-semibold text-ink mb-1">Browse all small desk accessories on Amazon</p>
+          <p className="text-sm text-ink-secondary mb-5">See current prices, deals, and Prime shipping options</p>
           <a
             href="https://www.amazon.com/s?k=small+desk+accessories&tag=deskfinds0d-20"
             target="_blank"
