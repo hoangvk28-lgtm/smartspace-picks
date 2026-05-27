@@ -24,7 +24,7 @@ export const mainKeyword = "small desk accessories";
 export const lastUpdated = "2026-05-27";
 export const readTime = "11 min";
 export const heroImage =
-  "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=900&q=80";
+  "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-small-desk-accessories-thumbnail.jpg";
 
 export const accessories: DeskAccessory[] = [
   // Organization & Storage

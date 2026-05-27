@@ -899,7 +899,7 @@ export const guides: Guide[] = [
       "best under desk organizer",
       "small desk cable management",
     ],
-    heroImage: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=900&q=80",
+    heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-small-desk-accessories-thumbnail.jpg",
     lastUpdated: "2026-05-27",
     author: "Jamie Cole",
     readTime: "11 min",
