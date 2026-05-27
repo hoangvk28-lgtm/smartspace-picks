@@ -882,4 +882,37 @@ export const guides: Guide[] = [
       { criterion: "Mac vs Windows compatibility", content: "Apple Magic Keyboard: macOS and iPadOS only.\nKeychron K3 V2: ships with both Mac and Windows keycap sets.\nMost gaming keyboards (Corsair, SteelSeries): Windows-optimized, functional on Mac.\nHHKB: DIP switch reconfigures for either OS without software." },
     ],
   },
+
+  {
+    title: "12 Best Small Desk Accessories That Actually Save Space (2026)",
+    slug: "best-small-desk-accessories",
+    categorySlug: "desk-setup",
+    subcategorySlug: "accessories",
+    description:
+      "Twelve desk accessories evaluated for compact desks under 48 inches, dorm setups, and tiny home offices. Scored on footprint, build quality, and value - with honest tradeoffs and direct Amazon links.",
+    mainKeyword: "small desk accessories",
+    subKeywords: [
+      "best desk accessories for small desk",
+      "dorm room desk accessories",
+      "compact desk accessories",
+      "desk organization small space",
+      "best under desk organizer",
+      "small desk cable management",
+    ],
+    heroImage: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=900&q=80",
+    lastUpdated: "2026-05-27",
+    author: "Jamie Cole",
+    readTime: "11 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: ["monitor-stands-small-desks", "best-small-keyboards", "desk-lamps-small-desks"],
+    buyingCriteria: [
+      { criterion: "Footprint efficiency", content: "Zero-footprint: mounts under desk, clips to edges, or attaches to monitor bezel.\nVertical: stores items vertically instead of sprawling flat on the surface.\nSurface accessories should earn their footprint with a daily function.\nDecorative-only items are not justified on desks under 48 inches." },
+      { criterion: "Installation type", content: "Clamp-on: no drilling, reversible - safe for rentals and dorms.\nAdhesive mount: no drilling but check surface compatibility (avoid glass, textured surfaces).\nFreestanding: most flexible, no surface contact.\nDrilled: permanent and most secure - suited for owned spaces only." },
+      { criterion: "Build quality", content: "Metal construction (cable trays, monitor risers): prefer for weight-bearing items.\nBamboo: durable for non-weight-bearing organizers, premium look.\nMesh: adequate for organizers, lightweight, visible contents.\nPlastic: fine for light-duty accessories like cable clips, timers, phone mounts." },
+      { criterion: "Cable management priority", content: "Under-desk cable tray: highest priority - removes power strip and cable nest from desktop.\nCable clips: low cost, removes cable fall-off frustration.\nCable box: best for glass desks where under-desk mounting is not possible.\nAll three together costs under $55 and transforms cable visibility." },
+      { criterion: "Ergonomics basics", content: "Monitor at eye level: a riser with drawer solves both storage and ergonomics.\nWrist support: compact wrist rest set (keyboard + mouse) for 3+ hours of daily use.\nFootrest: corrects seated position if chair or desk height is suboptimal.\nDesk mat: protects surface, unifies setup visually, provides wrist and mouse surface." },
+    ],
+  },
 ];
