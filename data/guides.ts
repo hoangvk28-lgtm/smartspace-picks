@@ -917,6 +917,33 @@ export const guides: Guide[] = [
   },
 
   {
+    title: "Best Headphone Stands for Desk Setups: 8 Picks That Earn Their Footprint (2026)",
+    slug: "best-headphone-stand-desk",
+    categorySlug: "desk-setup",
+    subcategorySlug: "accessories",
+    description:
+      "We tested 8 headphone stands across desktop, under-desk, and clamp styles -- scored on footprint, stability, and bonus features. Includes budget picks, USB hub combos, and space-saving alternatives.",
+    mainKeyword: "best headphone stand for desk",
+    subKeywords: [
+      "best headphone desk stand",
+      "headphone stand for desk reddit",
+      "best headphone stand with usb charger",
+      "best headphone desk clamp",
+      "headphone stand for under desk",
+      "best headphone stand amazon",
+    ],
+    heroImage: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=900&q=80",
+    lastUpdated: "2026-05-27",
+    author: "Jamie Cole",
+    readTime: "13 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: ["best-small-desk-accessories", "best-under-desk-cable-trays", "monitor-stands-small-desks"],
+    buyingCriteria: [],
+  },
+
+  {
     title: "Monitor Stand vs Monitor Arm: Which Is Worth It Under $50?",
     slug: "monitor-stand-vs-monitor-arm",
     categorySlug: "desk-setup",
