@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { Container } from "@/components/layout/Container";
-import { AffiliateDisclosureBar } from "@/components/affiliate/AffiliateDisclosureBar";
 import { buildMetadata } from "@/lib/seo";
 import { getPublicGuideBySlug } from "@/lib/public-guides";
 import {
@@ -122,8 +121,6 @@ export default async function BestUnderDeskCableTraysPage() {
 
   return (
     <main>
-      <AffiliateDisclosureBar />
-
       {/* Hero */}
       <div className="w-full overflow-hidden bg-gray-100">
         <Image

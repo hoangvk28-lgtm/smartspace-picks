@@ -2,7 +2,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Container } from "@/components/layout/Container";
-import { AffiliateDisclosureBar } from "@/components/affiliate/AffiliateDisclosureBar";
 import { buildMetadata } from "@/lib/seo";
 import { getPublicGuideBySlug } from "@/lib/public-guides";
 import {
@@ -100,9 +99,6 @@ export default async function BestSmallDeskAccessoriesPage() {
             unoptimized
           />
         </div>
-
-        {/* Affiliate disclosure */}
-        <AffiliateDisclosureBar variant="inline" className="mb-8" />
 
         {/* Intro */}
         <section className="prose prose-slate max-w-none mb-8">
@@ -502,9 +498,6 @@ export default async function BestSmallDeskAccessoriesPage() {
             ))}
           </div>
         </section>
-
-        {/* Bottom disclosure */}
-        <AffiliateDisclosureBar variant="banner" className="mt-8" />
 
       </Container>
     </>

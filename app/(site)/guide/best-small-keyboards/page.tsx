@@ -2,7 +2,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Container } from "@/components/layout/Container";
-import { AffiliateDisclosureBar } from "@/components/affiliate/AffiliateDisclosureBar";
 import { AtAGlance } from "@/components/product/AtAGlance";
 import { ProductReviewCard } from "@/components/product/ProductReviewCard";
 import { buildMetadata } from "@/lib/seo";
@@ -120,9 +119,6 @@ export default async function BestSmallKeyboardsPage() {
             unoptimized
           />
         </div>
-
-        {/* Affiliate disclosure */}
-        <AffiliateDisclosureBar variant="inline" className="mb-8" />
 
         {/* Intro */}
         <section className="prose prose-slate max-w-none mb-2">
@@ -352,9 +348,6 @@ export default async function BestSmallKeyboardsPage() {
             ))}
           </div>
         </section>
-
-        {/* Bottom disclosure */}
-        <AffiliateDisclosureBar variant="banner" className="mt-8" />
 
       </Container>
     </>
