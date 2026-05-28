@@ -917,6 +917,38 @@ export const guides: Guide[] = [
   },
 
   {
+    title: "Best Under Desk Cable Trays: Tested Picks for Every Setup (2026)",
+    slug: "best-under-desk-cable-trays",
+    categorySlug: "desk-setup",
+    subcategorySlug: "cable-management",
+    description:
+      "We tested 10 under desk cable trays across installation types, desk materials, and cable capacity. Scored on footprint, durability, and hidden cable performance. Includes standing desk picks.",
+    mainKeyword: "under desk cable tray",
+    subKeywords: [
+      "best under desk cable tray",
+      "cable tray no drill",
+      "under desk cable management",
+      "clamp on cable tray",
+      "standing desk cable management",
+    ],
+    heroImage: "https://images.unsplash.com/photo-1593640495253-23196b27a87f?w=900&q=80",
+    lastUpdated: "2026-05-27",
+    author: "Jamie Cole",
+    readTime: "16 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: ["cable-management-dorm", "desk-organizers-small-desks", "monitor-stands-small-desks"],
+    buyingCriteria: [
+      { criterion: "Mount type", content: "Adhesive: reversible, no drilling, can fail on textured surfaces after 6-12 months.\nScrew: permanent, most secure, leaves holes.\nClamp: no drill, works on glass and thick desks, requires edge thickness 0.75-2 inches.\nAdhesive + screw: best stability with optional reversibility." },
+      { criterion: "Cable capacity", content: "Standard trays: 8-15 cables adequate for most home setups.\nExtra-deep (4+ inch depth): needed for large power bricks and laptop chargers.\nHeavy-duty boxes: 20-50 cables for broadcast or complex multi-device setups." },
+      { criterion: "Desk material", content: "Wood: any mount type works.\nGlass: clamp-on only - adhesive will not hold.\nMetal/standing desk frame: clamp preferred so tray moves with desk height adjustment." },
+      { criterion: "Concealment level", content: "Open mesh: cables partially visible from below.\nSolid tray: cables hidden from below, visible from sides.\nEnclosed box with door: cables completely hidden from all angles." },
+      { criterion: "Standing desk compatibility", content: "Attach tray to desk frame (not desktop) for height adjustability.\nLeave 18 inches of cable slack per 12 inches of adjustment range.\nClamp-on trays are more reliable than adhesive for repeated movement." },
+    ],
+  },
+
+  {
     title: "Small Desk Organization Ideas: 7 Methods That Actually Keep a Tiny Desk Clean",
     slug: "small-desk-organization-ideas",
     categorySlug: "desk-setup",
