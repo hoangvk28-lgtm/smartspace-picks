@@ -917,6 +917,33 @@ export const guides: Guide[] = [
   },
 
   {
+    title: "10 Desk Upgrades Under $100 That Make a Real Difference (2026)",
+    slug: "desk-upgrades-under-100",
+    categorySlug: "desk-setup",
+    subcategorySlug: "accessories",
+    description:
+      "10 desk upgrades evaluated for small desks and student/remote-work setups -- monitor arms, ergonomic keyboards, wrist support, cable management, and more. All under $100, most under $60.",
+    mainKeyword: "desk upgrades under 100",
+    subKeywords: [
+      "best desk upgrades",
+      "small desk upgrades",
+      "ergonomic desk setup under 100",
+      "monitor arm worth it",
+      "desk setup improvements",
+    ],
+    heroImage:
+      "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/desk-upgrades-under-100/1A-huanuo-flowlift-single.webp",
+    lastUpdated: "2026-05-27",
+    author: "Jamie Cole",
+    readTime: "12 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: ["best-clip-on-desk-lamp", "best-under-desk-cable-trays", "best-small-desk-accessories"],
+    buyingCriteria: [],
+  },
+
+  {
     title: "Best Clip-On Desk Lamp for Small Desks & Dorms (2026)",
     slug: "best-clip-on-desk-lamp",
     categorySlug: "desk-setup",
