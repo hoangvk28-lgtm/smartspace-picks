@@ -29,9 +29,11 @@ async function getPublishedProductSlugs(): Promise<{ slug: string; updatedAt: st
 }
 
 async function getPublishedGuideSlugs(): Promise<{ slug: string; updatedAt: string }[]> {
-  if (!isSupabaseConfigured()) {
-    return staticGuides.map((g) => ({ slug: g.slug, updatedAt: g.lastUpdated }));
-  }
+  // Always start with static guides — these are the source of truth for all published pages.
+  const staticEntries = staticGuides.map((g) => ({ slug: g.slug, updatedAt: g.lastUpdated }));
+
+  if (!isSupabaseConfigured()) return staticEntries;
+
   try {
     const { createAdminClient } = await import("@/lib/supabase/server");
     const supabase = createAdminClient();
@@ -41,13 +43,19 @@ async function getPublishedGuideSlugs(): Promise<{ slug: string; updatedAt: stri
       .eq("status", "published")
       .eq("archived", false)
       .order("updated_at", { ascending: false });
+
     if (data && data.length > 0) {
-      return data.map((r) => ({ slug: r.slug as string, updatedAt: r.updated_at as string }));
+      // Merge: Supabase entries take precedence (have real updated_at), static fills the gaps.
+      const supabaseSlugs = new Set(data.map((r) => r.slug as string));
+      const dbEntries = data.map((r) => ({ slug: r.slug as string, updatedAt: r.updated_at as string }));
+      const staticOnly = staticEntries.filter((e) => !supabaseSlugs.has(e.slug));
+      return [...dbEntries, ...staticOnly];
     }
   } catch {
     // fall through to static fallback
   }
-  return staticGuides.map((g) => ({ slug: g.slug, updatedAt: g.lastUpdated }));
+
+  return staticEntries;
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
@@ -104,11 +112,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.6,
   }));
 
+  // Static VS compare articles (not category-based)
+  const vsComparePages: MetadataRoute.Sitemap = [
+    { url: `${SITE_URL}/compare/monitor-stand-vs-monitor-arm`, lastModified: "2026-05-27", changeFrequency: "monthly", priority: 0.8 },
+  ];
+
   return [
     ...staticPages,
     ...guidePages,
     ...reviewPages,
     ...categoryPages,
     ...comparePages,
+    ...vsComparePages,
   ];
 }
