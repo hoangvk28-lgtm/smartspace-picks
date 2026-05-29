@@ -917,6 +917,32 @@ export const guides: Guide[] = [
   },
 
   {
+    title: "20 Genius Small-Space Hacks Under $50 (2026) -- Apartments, Dorms & Studios",
+    slug: "20-genius-small-space-hacks",
+    categorySlug: "small-room-storage",
+    subcategorySlug: "storage-bins",
+    description:
+      "20 small-space hacks under $50 that recover dead zones, compress bulky items, multiply storage capacity, or add mobile storage. Evaluated for apartments, dorms, and studio setups.",
+    mainKeyword: "small space hacks",
+    subKeywords: [
+      "dorm room storage hacks",
+      "small apartment storage ideas",
+      "under bed storage ideas",
+      "vacuum storage bags clothes",
+      "genius storage hacks small spaces",
+    ],
+    heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/20-genius-small-space-hacks/01-onlyeasy-2-pack-under-bed-shoe-storage-linen.webp",
+    lastUpdated: "2026-05-27",
+    author: "Jamie Cole",
+    readTime: "13 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: ["monitor-stands-small-desks", "best-under-desk-cable-trays", "desk-upgrades-under-100"],
+    buyingCriteria: [],
+  },
+
+  {
     title: "Best USB Hub for Desk (2026) -- 8 Picks for Small Desks & Compact Setups",
     slug: "best-usb-hub-for-desk",
     categorySlug: "desk-setup",
