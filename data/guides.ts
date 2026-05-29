@@ -917,6 +917,33 @@ export const guides: Guide[] = [
   },
 
   {
+    title: "Best Clip-On Desk Lamp for Small Desks & Dorms (2026)",
+    slug: "best-clip-on-desk-lamp",
+    categorySlug: "desk-setup",
+    subcategorySlug: "desk-lamps",
+    description:
+      "We evaluated 8 clip-on desk lamps specifically for small desks and dorm rooms -- rated on clamp strength, brightness range, cord management, and value. Zero surface footprint, targeted light.",
+    mainKeyword: "best clip on desk lamp",
+    subKeywords: [
+      "best clip on desk lamp for dorm",
+      "best clamp desk lamp small desk",
+      "usb clip on lamp",
+      "battery clip lamp desk",
+      "clip lamp for bunk bed",
+    ],
+    heroImage:
+      "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-clip-on-desk-lamp/voncerus-led-clamp-best-overall.webp",
+    lastUpdated: "2026-05-27",
+    author: "Jamie Cole",
+    readTime: "11 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: ["monitor-stands-small-desks", "best-small-desk-accessories", "best-headphone-stand-desk"],
+    buyingCriteria: [],
+  },
+
+  {
     title: "Best Headphone Stands for Desk Setups: 8 Picks That Earn Their Footprint (2026)",
     slug: "best-headphone-stand-desk",
     categorySlug: "desk-setup",
