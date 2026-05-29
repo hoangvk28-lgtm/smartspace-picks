@@ -917,6 +917,33 @@ export const guides: Guide[] = [
   },
 
   {
+    title: "Best USB Hub for Desk (2026) -- 8 Picks for Small Desks & Compact Setups",
+    slug: "best-usb-hub-for-desk",
+    categorySlug: "desk-setup",
+    subcategorySlug: "accessories",
+    description:
+      "8 USB hubs evaluated for desktop and small-desk use -- sorted by use case. Covers powered vs unpowered, USB-A vs USB-C, grommet hubs, and per-port switch models.",
+    mainKeyword: "best usb hub for desk",
+    subKeywords: [
+      "powered usb hub desk",
+      "best usb hub small desk",
+      "usb c hub for desk",
+      "grommet usb hub",
+      "sabrent usb hub",
+      "anker usb hub desktop",
+    ],
+    heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-usb-hub-for-desk/1-anker-7-port-powered-hub.webp",
+    lastUpdated: "2026-05-27",
+    author: "Jamie Cole",
+    readTime: "11 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: ["desk-upgrades-under-100", "best-under-desk-cable-trays", "best-clip-on-desk-lamp"],
+    buyingCriteria: [],
+  },
+
+  {
     title: "10 Desk Upgrades Under $100 That Make a Real Difference (2026)",
     slug: "desk-upgrades-under-100",
     categorySlug: "desk-setup",
