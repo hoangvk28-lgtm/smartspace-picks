@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
@@ -9,16 +9,18 @@ import { getPublicProducts } from "@/lib/public-products";
 export const revalidate = 86400;
 
 export const metadata: Metadata = buildMetadata({
-  title: "All Categories â€“ Small Space Products",
+  title: "All Categories -- Small Space Products | DeskFinds",
   description:
     "Browse all product categories: desk setup, dorm essentials, small room storage, and more. Find the right buying guide for your space.",
   path: "/categories",
 });
 
 const CATEGORY_ICONS: Record<string, string> = {
-  "desk-setup": "ðŸ–¥ï¸",
-  "dorm-essentials": "ðŸŽ“",
-  "small-room-storage": "ðŸ“¦",
+  "desk-setup":        "🖥️",
+  "dorm-essentials":   "🎓",
+  "small-room-storage":"📦",
+  "compact-home-office":"💼",
+  "budget-finds":      "💰",
 };
 
 export default async function CategoriesPage() {
@@ -40,7 +42,7 @@ export default async function CategoriesPage() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {categories.map((cat) => {
           const catProducts = products.filter((p) => p.categorySlug === cat.slug);
-          const icon = CATEGORY_ICONS[cat.slug] ?? "ðŸ“‹";
+          const icon = CATEGORY_ICONS[cat.slug] ?? "📋";
           return (
             <Link
               key={cat.slug}
@@ -69,7 +71,7 @@ export default async function CategoriesPage() {
               <div className="flex items-center justify-between pt-2 border-t border-border">
                 <span className="text-xs text-ink-muted">{catProducts.length} products evaluated</span>
                 <span className="text-xs font-semibold text-brand group-hover:text-brand-dark transition-colors">
-                  Browse â†’
+                  Browse &rarr;
                 </span>
               </div>
             </Link>
@@ -79,4 +81,3 @@ export default async function CategoriesPage() {
     </Container>
   );
 }
-
