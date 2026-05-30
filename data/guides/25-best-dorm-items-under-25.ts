@@ -2,7 +2,7 @@ import type { ReviewCon } from "@/components/product/ProductReviewCard";
 
 const B = "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/25-best-dorm-items-under-25";
 
-export const guideSlug = "25-best-dorm-items-under-25";
+export const guideSlug = "best-dorm-items-under-25";
 export const guideTitle = "25 Best Dorm Items Under $25 (2026) -- Everything You Actually Need";
 export const guideDescription =
   "25 high-impact, low-cost dorm essentials under $25 -- organized by category: power, sleep, bathroom, closet, desk, and storage. Focused on items freshmen actually miss.";

@@ -15,7 +15,7 @@ export const revalidate = false;
 
 export const metadata: Metadata = buildMetadata({
   title: guideTitle, description: guideDescription,
-  path: "/guide/25-best-dorm-items-under-25", image: fallbackHeroImage, type: "article",
+  path: "/guide/best-dorm-items-under-25", image: fallbackHeroImage, type: "article",
 });
 
 const catMap = Object.fromEntries(categories.map((c) => [c.id, c]));
@@ -119,7 +119,7 @@ function ItemCard({ item }: { item: DormItem }) {
 }
 
 export default async function DormItems25Page() {
-  const guide = await getPublicGuideBySlug("25-best-dorm-items-under-25");
+  const guide = await getPublicGuideBySlug("best-dorm-items-under-25");
   const heroImg = guide?.thumbnailImage ?? guide?.heroImage ?? fallbackHeroImage;
 
   const itemsByCategory = (cat: DormCategory) => items.filter((i) => i.category === cat);

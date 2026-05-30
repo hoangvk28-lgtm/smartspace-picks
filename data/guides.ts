@@ -918,7 +918,7 @@ export const guides: Guide[] = [
 
   {
     title: "25 Best Dorm Items Under $25 (2026) -- Everything You Actually Need",
-    slug: "25-best-dorm-items-under-25",
+    slug: "best-dorm-items-under-25",
     categorySlug: "dorm-essentials",
     subcategorySlug: "accessories",
     description:
