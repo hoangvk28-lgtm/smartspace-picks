@@ -917,6 +917,32 @@ export const guides: Guide[] = [
   },
 
   {
+    title: "Best Desk Mat for Small Desk -- 8 Picks for Dorms & Compact Setups (2026)",
+    slug: "best-desk-mat-for-small-desk",
+    categorySlug: "desk-setup",
+    subcategorySlug: "accessories",
+    description:
+      "8 desk mats evaluated for 30-40 inch desks and dorm setups -- rated on size fit, non-slip performance, material quality, and value. Includes size guide by desk width.",
+    mainKeyword: "best desk mat for small desk",
+    subKeywords: [
+      "desk mat dorm room",
+      "small desk mat 35 inch",
+      "vegan leather desk mat",
+      "felt desk mat small desk",
+      "best desk mat 2026",
+    ],
+    heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-desk-mat-for-small-desk/nordik-gray-leather-35x17-best-overall.webp",
+    lastUpdated: "2026-05-30",
+    author: "Jamie Cole",
+    readTime: "11 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: ["best-clip-on-desk-lamp", "monitor-stands-small-desks", "best-usb-hub-for-desk"],
+    buyingCriteria: [],
+  },
+
+  {
     title: "20 Genius Small-Space Hacks Under $50 (2026) -- Apartments, Dorms & Studios",
     slug: "20-genius-small-space-hacks",
     categorySlug: "small-room-storage",
