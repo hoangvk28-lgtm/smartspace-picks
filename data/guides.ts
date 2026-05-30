@@ -917,6 +917,33 @@ export const guides: Guide[] = [
   },
 
   {
+    title: "Best Desk Setup Accessories for a Cleaner, More Productive Workspace (2026)",
+    slug: "best-desk-setup-accessories",
+    categorySlug: "desk-setup",
+    subcategorySlug: "accessories",
+    description:
+      "The best desk accessories evaluated across lamps, monitor stands, laptop stands, cable trays, organizers, desk mats, footrests, USB hubs, and desk decor -- with honest trade-offs and direct Amazon links.",
+    mainKeyword: "desk setup accessories",
+    subKeywords: [
+      "best desk accessories",
+      "desk setup essentials",
+      "desk setup upgrades",
+      "desk setup gadgets",
+      "desk setup must haves",
+      "desk accessories for productivity",
+    ],
+    heroImage: "https://m.media-amazon.com/images/I/71ZvNz%2By8pL._AC_SL1500_.jpg",
+    lastUpdated: "2026-05-30",
+    author: "Jamie Cole",
+    readTime: "14 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: ["best-usb-hub-for-desk", "best-desk-mat-for-small-desk", "desk-upgrades-under-100"],
+    buyingCriteria: [],
+  },
+
+  {
     title: "25 Best Dorm Items Under $25 (2026) -- Everything You Actually Need",
     slug: "best-dorm-items-under-25",
     categorySlug: "dorm-essentials",
