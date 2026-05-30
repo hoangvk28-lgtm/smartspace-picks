@@ -75,7 +75,14 @@ export function ProductReviewCard({
         </span>
         <div className="flex-1 min-w-0">
           <div className="flex flex-wrap items-center gap-2">
-            <h3 className="font-bold text-ink text-base leading-tight">{name}</h3>
+            <a
+              href={affiliateUrl}
+              target="_blank"
+              rel="noopener noreferrer sponsored"
+              className="font-bold text-ink text-base leading-tight hover:text-brand transition-colors"
+            >
+              <h3>{name}</h3>
+            </a>
             {badge && badgeStyle && (
               <span
                 className="text-[10px] font-bold uppercase tracking-widest px-2 py-0.5 rounded-full shrink-0"
@@ -106,16 +113,21 @@ export function ProductReviewCard({
       <div className="p-5">
         {/* ── Image + price + CTA ── */}
         <div className="flex flex-col sm:flex-row gap-5 mb-5">
-          <div className="shrink-0 flex items-center justify-center w-full sm:w-48 h-44 rounded-xl bg-bg border border-border overflow-hidden">
+          <a
+            href={affiliateUrl}
+            target="_blank"
+            rel="noopener noreferrer sponsored"
+            className="shrink-0 flex items-center justify-center w-full sm:w-64 h-56 rounded-xl bg-bg border border-border overflow-hidden hover:opacity-90 transition-opacity"
+          >
             <Image
               src={imageUrl}
               alt={imageAlt ?? name}
-              width={180}
-              height={160}
-              className="object-contain w-full h-full p-2"
+              width={240}
+              height={200}
+              className="object-contain w-full h-full p-3"
               unoptimized
             />
-          </div>
+          </a>
 
           <div className="flex flex-col justify-between gap-3 flex-1 min-w-0">
             {/* Style spec */}
