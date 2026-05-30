@@ -4,9 +4,10 @@ import Link from "next/link";
 import { Container } from "@/components/layout/Container";
 import { buildMetadata } from "@/lib/seo";
 import { getPublicGuideBySlug } from "@/lib/public-guides";
+import { AtAGlance } from "@/components/product/AtAGlance";
 import {
   guideTitle, guideDescription, lastUpdated, readTime,
-  heroImage as fallbackHeroImage, mats, sizeGuide,
+  heroImage as fallbackHeroImage, mats, atAGlanceItems, sizeGuide,
   materialComparison, buyingCriteria, faq, type DeskMat,
 } from "@/data/guides/best-desk-mat-for-small-desk";
 
@@ -159,45 +160,7 @@ export default async function BestDeskMatPage() {
         </section>
 
         {/* At a Glance */}
-        <section className="mb-8">
-          <h2 className="text-xl font-bold text-ink mb-4">Our Top 8 Picks at a Glance</h2>
-          <div className="overflow-x-auto rounded-xl border border-border">
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="bg-brand text-white">
-                  <th className="text-left px-4 py-3 font-semibold">#</th>
-                  <th className="text-left px-4 py-3 font-semibold">Product</th>
-                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Best For</th>
-                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Size</th>
-                  <th className="text-center px-4 py-3 font-semibold">Score</th>
-                  <th className="px-4 py-3"></th>
-                </tr>
-              </thead>
-              <tbody>
-                {mats.map((m, i) => (
-                  <tr key={m.id} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
-                    <td className="px-4 py-3 font-bold text-ink-muted">{m.rank}</td>
-                    <td className="px-4 py-3">
-                      <div className="flex items-center gap-3">
-                        <Image src={m.imageUrl} alt={m.name} width={40} height={40} className="w-10 h-10 object-contain rounded-lg bg-gray-50 shrink-0" unoptimized />
-                        <a href={`#${m.id}`} className="font-semibold text-ink hover:text-brand transition-colors text-sm">{m.name}</a>
-                      </div>
-                    </td>
-                    <td className="px-4 py-3 text-ink-secondary text-sm hidden sm:table-cell">{m.badge}</td>
-                    <td className="px-4 py-3 text-ink-secondary text-sm hidden sm:table-cell">{m.size}</td>
-                    <td className="px-4 py-3 text-center"><ScoreChip score={m.score} /></td>
-                    <td className="px-4 py-3">
-                      <a href={m.amazonUrl} target="_blank" rel="noopener noreferrer sponsored"
-                        className="text-xs font-semibold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>
-                        Check price
-                      </a>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </section>
+        <AtAGlance items={atAGlanceItems} />
 
         {/* Size Guide */}
         <section className="mb-10">

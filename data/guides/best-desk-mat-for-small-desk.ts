@@ -278,6 +278,20 @@ export const mats: DeskMat[] = [
   },
 ];
 
+// AtAGlance items -- uses AtAGlance component format (pros/cons as {text, severity?})
+export const atAGlanceItems = mats.map((m) => ({
+  rank: m.rank,
+  badge: m.badge,
+  name: m.name,
+  brand: "DeskFinds Pick",
+  imageUrl: m.imageUrl,
+  affiliateUrl: m.amazonUrl,
+  price: "",
+  anchorId: m.id,
+  pros: m.pros.map((text) => ({ text })),
+  cons: m.cons.map((text) => ({ text, severity: "minor" as const })),
+}));
+
 export const sizeGuide = [
   { deskWidth: "24\" (very compact)", matWidth: "18-22\"", matDepth: "10-12\"", picks: "#5 (10x12\" compact)" },
   { deskWidth: "30\"", matWidth: "24-28\"", matDepth: "12-14\"", picks: "#5 or #3" },
