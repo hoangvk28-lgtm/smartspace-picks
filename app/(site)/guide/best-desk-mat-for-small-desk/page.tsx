@@ -5,6 +5,7 @@ import { Container } from "@/components/layout/Container";
 import { buildMetadata } from "@/lib/seo";
 import { getPublicGuideBySlug } from "@/lib/public-guides";
 import { AtAGlance } from "@/components/product/AtAGlance";
+import { ProductReviewCard } from "@/components/product/ProductReviewCard";
 import {
   guideTitle, guideDescription, lastUpdated, readTime,
   heroImage as fallbackHeroImage, mats, atAGlanceItems, sizeGuide,
@@ -18,82 +19,6 @@ export const metadata: Metadata = buildMetadata({
   path: "/guide/best-desk-mat-for-small-desk", image: fallbackHeroImage, type: "article",
 });
 
-const matColor: Record<string, { bg: string; text: string }> = {
-  "vegan-leather": { bg: "#eff6ff", text: "#1d4ed8" },
-  "felt": { bg: "#f0fdf4", text: "#15803d" },
-  "cork-leather": { bg: "#fff7ed", text: "#c2410c" },
-  "fabric": { bg: "#fdf4ff", text: "#7e22ce" },
-};
-
-function ScoreChip({ score }: { score: number }) {
-  const bg = score >= 9.0 ? "#dcfce7" : score >= 8.5 ? "#fef9c3" : "#f3f4f6";
-  const color = score >= 9.0 ? "#16a34a" : score >= 8.5 ? "#d97706" : "#374151";
-  return <span className="text-xs font-bold px-2 py-0.5 rounded-lg tabular-nums" style={{ background: bg, color }}>{score.toFixed(1)}</span>;
-}
-
-function MatCard({ mat }: { mat: DeskMat }) {
-  const c = matColor[mat.material];
-  return (
-    <div id={mat.id} className="rounded-2xl border border-border bg-white overflow-hidden scroll-mt-20">
-      <div className="flex items-center gap-2 px-4 py-2 border-b border-border" style={{ background: c.bg }}>
-        <span className="text-xs font-bold" style={{ color: c.text }}>{mat.materialLabel}</span>
-        <span className="text-xs font-bold px-2 py-0.5 rounded-full text-white ml-1" style={{ background: c.text }}>{mat.badge}</span>
-        <span className="ml-auto text-xs text-ink-muted font-semibold">{mat.size}</span>
-      </div>
-      <div className="flex flex-col sm:flex-row gap-5 p-5">
-        <div className="sm:w-40 sm:shrink-0">
-          <Image src={mat.imageUrl} alt={mat.name} width={160} height={160}
-            className="w-full sm:w-40 h-40 object-contain rounded-xl bg-gray-50" unoptimized />
-        </div>
-        <div className="flex-1 min-w-0">
-          <div className="flex items-start justify-between gap-3 mb-2">
-            <div>
-              <span className="text-xs font-bold text-ink-muted mr-1">#{mat.rank}</span>
-              <span className="font-bold text-ink text-base leading-snug">{mat.name}</span>
-            </div>
-            <div className="flex flex-col items-end gap-1.5 shrink-0">
-              <ScoreChip score={mat.score} />
-              <a href={mat.amazonUrl} target="_blank" rel="noopener noreferrer sponsored"
-                className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap" style={{ background: "#FF9900" }}>
-                Check price
-              </a>
-            </div>
-          </div>
-          <p className="text-sm text-ink-secondary italic border-l-2 pl-3 mb-3 leading-relaxed" style={{ borderColor: c.text }}>{mat.whyPick}</p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <div>
-              <p className="text-[10px] font-bold text-ink uppercase tracking-wide mb-1.5">Pros</p>
-              <ul className="space-y-1">
-                {mat.pros.map((p, i) => (
-                  <li key={i} className="flex items-start gap-1.5 text-xs text-ink-secondary">
-                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" className="text-green-500 shrink-0 mt-0.5">
-                      <path d="M2 6l3 3 5-5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>{p}
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <p className="text-[10px] font-bold text-ink uppercase tracking-wide mb-1.5">Cons</p>
-              <ul className="space-y-1">
-                {mat.cons.map((p, i) => (
-                  <li key={i} className="flex items-start gap-1.5 text-xs text-ink-secondary">
-                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" className="text-amber-400 shrink-0 mt-0.5">
-                      <path d="M6 2v5M6 9v.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-                    </svg>{p}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-          <p className="mt-3 text-xs text-ink-muted italic bg-gray-50 rounded-lg px-3 py-2">
-            <span className="font-semibold not-italic text-ink">Best for:</span> {mat.bestFor}
-          </p>
-        </div>
-      </div>
-    </div>
-  );
-}
 
 export default async function BestDeskMatPage() {
   const guide = await getPublicGuideBySlug("best-desk-mat-for-small-desk");
@@ -227,10 +152,25 @@ export default async function BestDeskMatPage() {
 
         {/* Full Reviews */}
         <section id="reviews" className="mb-12 scroll-mt-20">
-          <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">Reviews: Best Desk Mats for Small Desks</h2>
-          <div className="space-y-5">
-            {mats.map((m) => <MatCard key={m.id} mat={m} />)}
-          </div>
+          <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">Full Reviews: All 8 Desk Mats</h2>
+          {mats.map((m) => (
+            <div key={m.id} id={m.id} className="scroll-mt-20">
+              <ProductReviewCard
+                rank={m.rank}
+                badge={m.badge}
+                name={m.name}
+                brand={m.brand}
+                imageUrl={m.imageUrl}
+                affiliateUrl={m.amazonUrl}
+                price={m.price}
+                style={m.style}
+                pros={m.pros.map((text) => ({ text }))}
+                cons={m.cons}
+                reviewText={m.reviewText}
+                scoreOverall={m.score}
+              />
+            </div>
+          ))}
         </section>
 
         {/* Material Comparison */}
