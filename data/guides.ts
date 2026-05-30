@@ -917,6 +917,32 @@ export const guides: Guide[] = [
   },
 
   {
+    title: "25 Best Dorm Items Under $25 (2026) -- Everything You Actually Need",
+    slug: "25-best-dorm-items-under-25",
+    categorySlug: "dorm-essentials",
+    subcategorySlug: "accessories",
+    description:
+      "25 high-impact dorm essentials under $25 -- organized by power, sleep, bathroom, closet, desk, and storage. Focused on items freshmen actually miss.",
+    mainKeyword: "best dorm items under 25",
+    subKeywords: [
+      "dorm room essentials checklist",
+      "best dorm items 2026",
+      "cheap dorm must haves",
+      "dorm room essentials under 25 dollars",
+      "freshman dorm checklist",
+    ],
+    heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/25-best-dorm-items-under-25/1-anker-power-strip-6ac-4usb.webp",
+    lastUpdated: "2026-05-30",
+    author: "Jamie Cole",
+    readTime: "13 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: ["best-clip-on-desk-lamp", "best-desk-mat-for-small-desk", "monitor-stands-small-desks"],
+    buyingCriteria: [],
+  },
+
+  {
     title: "Best Desk Mat for Small Desk -- 8 Picks for Dorms & Compact Setups (2026)",
     slug: "best-desk-mat-for-small-desk",
     categorySlug: "desk-setup",
