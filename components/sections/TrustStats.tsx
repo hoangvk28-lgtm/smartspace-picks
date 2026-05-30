@@ -2,7 +2,7 @@
 
 const stats = [
   {
-    number: "14",
+    number: "1,000+",
     unit: "products",
     icon: (
       <Image
@@ -18,7 +18,7 @@ const stats = [
     description: "Every product scored on five criteria - specs, buyer feedback, value, build, and space fit.",
   },
   {
-    number: "6",
+    number: "200+",
     unit: "buying guides",
     icon: (
       <Image

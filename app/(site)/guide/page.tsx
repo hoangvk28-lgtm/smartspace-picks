@@ -78,7 +78,7 @@ export default async function BuyingGuidesIndexPage() {
 
                 <div className="flex items-center justify-between pt-2 border-t border-border mt-auto">
                   <span className="text-xs text-ink-muted">
-                    {guide.recommendedProductIds.length > 0 ? `${guide.recommendedProductIds.length} picks` : "Full guide"}
+                    {guide.recommendedProductIds.length > 0 ? `${guide.recommendedProductIds.length} picks evaluated` : "Full buying guide"}
                   </span>
                   <span className="text-xs font-semibold text-brand group-hover:text-brand-dark transition-colors flex items-center gap-0.5">
                     Read guide

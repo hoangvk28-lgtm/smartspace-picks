@@ -112,8 +112,9 @@ function GuideCard({
             <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
               <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
             </svg>
-            {guide.recommendedProductIds.length}{" "}
-            {guide.recommendedProductIds.length === 1 ? "pick" : "picks"} evaluated
+            {guide.recommendedProductIds.length > 0
+              ? `${guide.recommendedProductIds.length} ${guide.recommendedProductIds.length === 1 ? "pick" : "picks"} evaluated`
+              : "Full buying guide"}
             <span className="ml-auto flex items-center gap-0 group-hover:gap-2 transition-all">→</span>
           </div>
 
