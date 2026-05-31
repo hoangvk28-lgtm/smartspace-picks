@@ -1019,6 +1019,33 @@ export const guides: Guide[] = [
   },
 
   {
+    title: "Minimalist Desk Setup: 10 Clean, Clutter-Free Workspaces (2026)",
+    slug: "minimalist-desk-setup",
+    categorySlug: "desk-setup",
+    subcategorySlug: "ideas",
+    description:
+      "10 minimalist desk setup ideas for work, study, and small spaces -- with products that earn their place on the desk. Desk mats, slim organizers, cable management, wireless chargers, and more.",
+    mainKeyword: "minimalist desk setup",
+    subKeywords: [
+      "minimal desk setup",
+      "clean desk setup",
+      "simple desk setup",
+      "desk setup minimalist",
+      "minimalist home office desk",
+      "minimal workspace setup",
+    ],
+    heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/minimalist-desk-setup/01-desk-mat.webp",
+    lastUpdated: "2026-06-01",
+    author: "Jamie Cole",
+    readTime: "10 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: ["small-desk-setup", "desk-setup-essentials", "small-desk-organization-ideas"],
+    buyingCriteria: [],
+  },
+
+  {
     title: "25 Best Dorm Items Under $25 (2026) -- Everything You Actually Need",
     slug: "best-dorm-items-under-25",
     categorySlug: "dorm-essentials",
