@@ -991,6 +991,34 @@ export const guides: Guide[] = [
   },
 
   {
+    title: "Ergonomic Desk Setup: The Correct Way to Position Everything (2026)",
+    slug: "ergonomic-desk-setup",
+    categorySlug: "desk-setup",
+    subcategorySlug: "ergonomics",
+    description:
+      "Research-based guide to setting up an ergonomic desk correctly -- monitor height, chair position, keyboard placement, lighting, and 7 product recommendations across price points.",
+    mainKeyword: "ergonomic desk setup",
+    subKeywords: [
+      "ergo desk setup",
+      "correct ergonomic desk setup",
+      "ideal ergonomic desk setup",
+      "ergonomic desk setup diagram",
+      "ergonomic desk setup two monitors",
+      "desk setup ergonomics",
+      "desk setup for carpal tunnel",
+    ],
+    heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/ergonomic-desk-setup/hero.webp",
+    lastUpdated: "2026-05-31",
+    author: "Jamie Cole",
+    readTime: "12 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: ["desk-setup-essentials", "small-desk-setup", "best-desk-mat-for-small-desk"],
+    buyingCriteria: [],
+  },
+
+  {
     title: "25 Best Dorm Items Under $25 (2026) -- Everything You Actually Need",
     slug: "best-dorm-items-under-25",
     categorySlug: "dorm-essentials",
