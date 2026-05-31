@@ -963,6 +963,34 @@ export const guides: Guide[] = [
   },
 
   {
+    title: "Small Desk Setup Ideas: 15 Smart Ways to Build a Better Workspace",
+    slug: "small-desk-setup",
+    categorySlug: "desk-setup",
+    subcategorySlug: "ideas",
+    description:
+      "15 practical small desk setup ideas for lighting, cable management, vertical storage, monitor stands, organizers, and compact workspace upgrades -- with product suggestions for each.",
+    mainKeyword: "small desk setup",
+    subKeywords: [
+      "small desk setup ideas",
+      "desk setup for small space",
+      "tiny desk setup",
+      "narrow desk setup",
+      "small desk accessories",
+      "small desk organization",
+      "work from home desk setup small space",
+    ],
+    heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/small-desk-setup/01-clamp-desk-lamp.webp",
+    lastUpdated: "2026-05-31",
+    author: "Jamie Cole",
+    readTime: "9 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: ["desk-setup-essentials", "small-desk-organization-ideas", "best-desk-setup-accessories"],
+    buyingCriteria: [],
+  },
+
+  {
     title: "25 Best Dorm Items Under $25 (2026) -- Everything You Actually Need",
     slug: "best-dorm-items-under-25",
     categorySlug: "dorm-essentials",
