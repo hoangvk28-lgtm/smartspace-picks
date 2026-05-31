@@ -4,6 +4,8 @@ export const guideSlug = "desk-upgrades-under-100";
 export const guideTitle = "10 Desk Upgrades Under $100 That Make a Real Difference (2026)";
 export const guideDescription =
   "10 desk upgrades evaluated specifically for small desks and student/remote-work setups -- monitor arms, ergonomic keyboards, wrist support, cable management, and more. All under $100, most under $60.";
+export const metaTitle = "10 Best Desk Upgrades Under $100 (2026)";
+export const metaDescription = "10 desk upgrades under $100 for small desks -- monitor arms, ergonomic keyboards, wrist support, cable management, and USB hubs. Most under $60.";
 export const lastUpdated = "2026-05-27";
 export const readTime = "12 min";
 export const heroImage = `${B}/1A-huanuo-flowlift-single.webp`;

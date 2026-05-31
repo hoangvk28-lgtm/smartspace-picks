@@ -8,7 +8,7 @@ import { buildMetadata } from "@/lib/seo";
 import { getPublicGuideBySlug } from "@/lib/public-guides";
 import {
   guideTitle,
-  guideDescription,
+  guideDescription, metaTitle, metaDescription,
   lastUpdated,
   readTime,
   heroImage as fallbackHeroImage,
@@ -20,8 +20,8 @@ import {
 export const revalidate = false;
 
 export const metadata: Metadata = buildMetadata({
-  title: guideTitle,
-  description: guideDescription,
+  title: metaTitle,
+  description: metaDescription,
   path: "/guide/best-small-keyboards",
   image: fallbackHeroImage,
   type: "article",

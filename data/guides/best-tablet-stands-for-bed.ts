@@ -7,6 +7,8 @@ export const guideSlug = "best-tablet-stands-for-bed";
 export const guideTitle = "Best Tablet Stands for Bed: Comfortable Picks for Reading and Streaming";
 export const guideDescription =
   "Compare the best tablet stands for bed, including pillow stands, gooseneck holders, lap stands, and adjustable options for reading, streaming, and hands-free use.";
+export const metaTitle = "Best Tablet Stands for Bed (2026)";
+export const metaDescription = "Best tablet stands for bed -- pillow stands, gooseneck holders, and lap stands rated on grip, reach, and compatibility. For reading and streaming.";
 export const mainKeyword = "best tablet stands for bed";
 export const lastUpdated = "2026-05-24";
 export const readTime = "7 min";

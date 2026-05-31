@@ -18,6 +18,8 @@ export interface DeskAccessory {
 
 export const guideSlug = "best-small-desk-accessories";
 export const guideTitle = "12 Best Small Desk Accessories That Actually Save Space (2026)";
+export const metaTitle = "Best Small Desk Accessories (2026)";
+export const metaDescription = "12 desk accessories for compact desks under 48 inches -- scored on footprint, build quality, and value. Honest trade-offs and direct Amazon links.";
 export const guideDescription =
   "Twelve desk accessories evaluated for compact desks under 48 inches, dorm setups, and tiny home offices. Scored on footprint, build quality, and value - with honest tradeoffs and direct Amazon links.";
 export const mainKeyword = "small desk accessories";

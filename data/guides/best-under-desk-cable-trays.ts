@@ -2,6 +2,8 @@ export const guideSlug = "best-under-desk-cable-trays";
 export const guideTitle = "Best Under Desk Cable Trays: Tested Picks for Every Setup (2026)";
 export const guideDescription =
   "We tested 10 under desk cable trays across installation types, desk materials, and cable capacity. Scored on footprint, durability, and hidden cable performance. Includes standing desk picks.";
+export const metaTitle = "Best Under-Desk Cable Trays (2026)";
+export const metaDescription = "10 under-desk cable trays tested across mount types, desk materials, and cable capacity. Adhesive, screw, and clamp options with standing desk picks.";
 export const mainKeyword = "under desk cable tray";
 export const lastUpdated = "2026-05-27";
 export const readTime = "16 min";

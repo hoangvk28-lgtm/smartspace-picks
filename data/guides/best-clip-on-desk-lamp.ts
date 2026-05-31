@@ -6,6 +6,8 @@ export const guideTitle =
   "Best Clip-On Desk Lamp for Small Desks & Dorms (2026)";
 export const guideDescription =
   "We evaluated 8 clip-on desk lamps specifically for small desks and dorm rooms -- rated on clamp strength, brightness range, cord management, and value. Zero surface footprint, targeted light.";
+export const metaTitle = "Best Clip-On Desk Lamp (2026)";
+export const metaDescription = "8 clip-on lamps for small desks and dorms -- rated on clamp strength, brightness, and value. Includes cordless and eye-care options. Zero surface footprint.";
 export const lastUpdated = "2026-05-27";
 export const readTime = "11 min";
 export const heroImage = `${BASE}/voncerus-led-clamp-best-overall.webp`;

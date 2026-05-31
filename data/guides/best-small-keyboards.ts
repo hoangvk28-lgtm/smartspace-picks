@@ -5,6 +5,8 @@ export const guideSlug = "best-small-keyboards";
 export const guideTitle = "8 Best Small Keyboards (2026): Compact Picks for Desk, Dorm Room and Travel";
 export const guideDescription =
   "Eight compact keyboards compared across layout, switch type, connectivity, and price - from hot-swap mechanical 75% boards to ultra-portable mini keyboards. The right pick for every setup and budget.";
+export const metaTitle = "Best Small Keyboards 2026: Compact Picks";
+export const metaDescription = "8 compact keyboards for small desks -- mechanical, wireless, and budget picks compared across layout, switch type, and connectivity. From 60% to TKL.";
 export const mainKeyword = "best small keyboard";
 export const lastUpdated = "2026-05-27";
 export const readTime = "10 min";

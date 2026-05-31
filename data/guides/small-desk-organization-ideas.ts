@@ -3,6 +3,8 @@ export const guideTitle =
   "Small Desk Organization Ideas: 7 Methods That Actually Keep a Tiny Desk Clean";
 export const guideDescription =
   "7 proven small desk organization ideas - from vertical stacking to under-desk drawers - that keep compact workspaces clutter-free. Includes product picks, scoring, and a step-by-step setup checklist.";
+export const metaTitle = "Small Desk Organization Ideas (2026)";
+export const metaDescription = "7 desk organization methods for small workspaces -- zone systems, vertical storage, and under-desk drawers. Product picks, scoring, and a setup checklist.";
 export const mainKeyword = "small desk organization ideas";
 export const lastUpdated = "2026-05-27";
 export const readTime = "14 min";

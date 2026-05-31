@@ -4,6 +4,8 @@ export const guideSlug = "best-desk-setup-accessories";
 export const guideTitle = "Best Desk Setup Accessories for a Cleaner, More Productive Workspace (2026)";
 export const guideDescription =
   "The best desk accessories evaluated across lamps, monitor stands, laptop stands, cable trays, organizers, desk mats, footrests, USB hubs, and desk decor -- with honest trade-offs and direct Amazon links.";
+export const metaTitle = "Best Desk Setup Accessories (2026)";
+export const metaDescription = "Best desk accessories for a productive workspace -- lamp, monitor stand, laptop stand, cable tray, organizer, desk mat, USB hub, and decor. Honest picks with trade-offs.";
 export const lastUpdated = "2026-05-30";
 export const readTime = "14 min";
 export const heroImage = "https://m.media-amazon.com/images/I/71ZvNz%2By8pL._AC_SL1500_.jpg";

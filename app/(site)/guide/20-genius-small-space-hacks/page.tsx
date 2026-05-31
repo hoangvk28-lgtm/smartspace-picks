@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/seo";
 import { getPublicGuideBySlug } from "@/lib/public-guides";
 import {
   guideTitle,
-  guideDescription,
+  guideDescription, metaTitle, metaDescription,
   lastUpdated,
   readTime,
   heroImage as fallbackHeroImage,
@@ -21,8 +21,8 @@ import {
 export const revalidate = false;
 
 export const metadata: Metadata = buildMetadata({
-  title: guideTitle,
-  description: guideDescription,
+  title: metaTitle,
+  description: metaDescription,
   path: "/guide/20-genius-small-space-hacks",
   image: fallbackHeroImage,
   type: "article",

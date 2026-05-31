@@ -6,6 +6,8 @@ export const guideSlug = "best-dorm-items-under-25";
 export const guideTitle = "25 Best Dorm Items Under $25 (2026) -- Everything You Actually Need";
 export const guideDescription =
   "25 high-impact, low-cost dorm essentials under $25 -- organized by category: power, sleep, bathroom, closet, desk, and storage. Focused on items freshmen actually miss.";
+export const metaTitle = "25 Best Dorm Items Under $25 (2026)";
+export const metaDescription = "25 essential dorm room items under $25 -- power, sleep, bathroom, closet, desk, and storage. Focused on high-impact items most freshmen miss before move-in day.";
 export const lastUpdated = "2026-05-30";
 export const readTime = "13 min";
 export const heroImage = `${B}/1-anker-power-strip-6ac-4usb.webp`;

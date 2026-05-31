@@ -5,6 +5,8 @@ export const guideSlug = "best-desk-mat-for-small-desk";
 export const guideTitle = "Best Desk Mat for Small Desk -- 8 Picks for Dorms & Compact Setups (2026)";
 export const guideDescription =
   "8 desk mats evaluated specifically for 30-40 inch desks and dorm setups -- rated on size fit, non-slip performance, material quality, and value. Includes size guide by desk width.";
+export const metaTitle = "Best Desk Mat for Small Desk (2026)";
+export const metaDescription = "8 desk mats for 30-40 inch desks and dorms -- rated on size fit, non-slip grip, and material quality. Size guide and leather vs felt comparison included.";
 export const lastUpdated = "2026-05-30";
 export const readTime = "11 min";
 export const heroImage = `${B}/nordik-gray-leather-35x17-best-overall.webp`;

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
@@ -9,12 +9,13 @@ import {
   heroImage as fallbackHeroImage,
   picks, quickPicks, howToChoose, faq,
   type AccessoryPick,
+metaTitle, metaDescription,
 } from "@/data/guides/best-desk-setup-accessories";
 
 export const revalidate = false;
 
 export const metadata: Metadata = buildMetadata({
-  title: guideTitle, description: guideDescription,
+  title: metaTitle, description: metaDescription,
   path: "/guide/best-desk-setup-accessories", image: fallbackHeroImage, type: "article",
 });
 

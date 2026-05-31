@@ -4,6 +4,8 @@ export const guideSlug = "best-usb-hub-for-desk";
 export const guideTitle = "Best USB Hub for Desk (2026) -- 8 Picks for Small Desks & Compact Setups";
 export const guideDescription =
   "8 USB hubs evaluated for desktop and small-desk use -- sorted by use case. Covers powered vs unpowered, USB-A vs USB-C, grommet hubs, and per-port switch models.";
+export const metaTitle = "Best USB Hub for Desk (2026)";
+export const metaDescription = "8 USB hubs for desktop use -- powered vs unpowered, USB-A vs USB-C, grommet models, per-port switches. Sorted by use case with honest trade-offs.";
 export const lastUpdated = "2026-05-27";
 export const readTime = "11 min";
 export const heroImage = `${B}/1-anker-7-port-powered-hub.webp`;

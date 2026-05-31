@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
@@ -9,12 +9,13 @@ import {
   heroImage as fallbackHeroImage,
   items, categories, problemsTable, priorityOrder, faq,
   type DormItem, type DormCategory,
+metaTitle, metaDescription,
 } from "@/data/guides/25-best-dorm-items-under-25";
 
 export const revalidate = false;
 
 export const metadata: Metadata = buildMetadata({
-  title: guideTitle, description: guideDescription,
+  title: metaTitle, description: metaDescription,
   path: "/guide/best-dorm-items-under-25", image: fallbackHeroImage, type: "article",
 });
 

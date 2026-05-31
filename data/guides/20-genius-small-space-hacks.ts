@@ -4,6 +4,8 @@ export const guideSlug = "20-genius-small-space-hacks";
 export const guideTitle = "20 Genius Small-Space Hacks Under $50 (2026) -- Apartments, Dorms & Studios";
 export const guideDescription =
   "20 small-space hacks under $50 that recover dead zones, compress bulky items, multiply storage capacity, or add mobile storage. Evaluated for apartments, dorms, and studio setups.";
+export const metaTitle = "20 Small-Space Hacks Under $50 (2026)";
+export const metaDescription = "20 small-space hacks that recover dead zones, compress bulky items, and add mobile storage -- all under $50. For apartments, dorms, and studios.";
 export const lastUpdated = "2026-05-27";
 export const readTime = "13 min";
 export const heroImage = `${B}/01-onlyeasy-2-pack-under-bed-shoe-storage-linen.webp`;

@@ -5,6 +5,8 @@ export const guideSlug = "best-tablet-stands";
 export const guideTitle = "10 Best Tablet Stands for Desk, Bed, Drawing & Everyday Use (2026)";
 export const guideDescription =
   "We compared 10 tablet stands across price, stability, adjustability, and real-world use cases - from ultra-budget foldable picks to heavy-duty aluminum builds. Here are the ones worth buying.";
+export const metaTitle = "10 Best Tablet Stands (2026)";
+export const metaDescription = "10 tablet stands compared on price, stability, and adjustability. Budget foldable picks to premium aluminum. Best for desk, bed, drawing, and travel.";
 export const mainKeyword = "best tablet stands";
 export const lastUpdated = "2026-05-24";
 export const readTime = "9 min";

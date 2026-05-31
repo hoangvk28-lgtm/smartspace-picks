@@ -7,6 +7,8 @@ export const guideSlug = "best-tablet-stands-for-desk";
 export const guideTitle = "Best Tablet Stands for Desk: Stable Picks for Study, Work, and Video Calls";
 export const guideDescription =
   "A good tablet stand for desk use should save space, stay stable when you tap, and fit how you actually use your tablet — studying, reading, video calls, or second-screen work. Seven picks for small desks, dorm rooms, and compact workspaces.";
+export const metaTitle = "Best Tablet Stands for Desk (2026)";
+export const metaDescription = "Best tablet stands for desk -- stable picks for study, work, and video calls. Rated on footprint, height range, stability, and compatibility.";
 export const mainKeyword = "best tablet stands for desk";
 export const lastUpdated = "2026-05-25";
 export const readTime = "9 min";
