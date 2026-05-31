@@ -302,7 +302,7 @@ export default async function SmallDeskSetupPage() {
         </section>
 
         {/* Amazon CTA */}
-        <section className="mb-14 p-6 rounded-2xl text-center"
+        <section className="mb-14 p-6 rounded-2xl flex flex-col items-center text-center"
           style={{ background: "linear-gradient(135deg, #FF9900 0%, #e68900 100%)" }}>
           <h2 className="text-xl font-bold text-white mb-2">Ready to upgrade your small desk?</h2>
           <p className="text-white/90 text-sm mb-5">All 15 products are available on Amazon with Prime shipping.</p>
