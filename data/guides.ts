@@ -1034,7 +1034,7 @@ export const guides: Guide[] = [
       "minimalist home office desk",
       "minimal workspace setup",
     ],
-    heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/minimalist-desk-setup/01-desk-mat.webp",
+    heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/minimalist-desk-setup/11-hero-image.webp",
     lastUpdated: "2026-06-01",
     author: "Jamie Cole",
     readTime: "10 min",

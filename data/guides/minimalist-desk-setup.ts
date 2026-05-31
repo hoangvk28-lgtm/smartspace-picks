@@ -8,7 +8,7 @@ export const metaDescription =
   "Build a minimalist desk setup with 10 clean workspace ideas, including desk mats, slim organizers, cable trays, wireless chargers, compact lamps, and simple accessories that earn their place.";
 export const lastUpdated = "May 2026";
 export const readTime = "10 min";
-export const heroImage = `${BASE}/01-desk-mat.webp`;
+export const heroImage = `${BASE}/11-hero-image.webp`;
 
 export interface MinimalIdea {
   id: string;
@@ -51,7 +51,7 @@ export const ideas: MinimalIdea[] = [
     id: "desk-mat",
     number: 2,
     title: "Use a Desk Mat to Visually Anchor the Setup",
-    imageUrl: `${BASE}/02-desk-mat-detail.webp`,
+    imageUrl: `${BASE}/14-small-desk-minimalist-setup.webp`,
     summary: "A desk mat makes the workspace feel intentional by unifying everything on the surface into one clean zone.",
     body: [
       "A desk mat is one of the easiest minimalist upgrades because it makes the setup feel intentional without adding extra objects. Choose a neutral color -- charcoal, slate, beige, or black -- a simple texture, and a size that fits your keyboard and mouse without covering the full desk.",
@@ -69,7 +69,7 @@ export const ideas: MinimalIdea[] = [
     id: "slim-organizer",
     number: 3,
     title: "Replace Multiple Containers With One Slim Organizer",
-    imageUrl: `${BASE}/03-slim-organizer.webp`,
+    imageUrl: `${BASE}/02-minimal-organizer.webp`,
     summary: "One well-chosen organizer consolidates everything without the visual weight of multiple containers.",
     body: [
       "The most common clutter mistake on a minimalist desk is using five separate containers when one would do. A pen cup, a sticky note tray, a cable box, a business card holder, and a small basket each take up individual footprint and visual attention. A single slim organizer with compartments handles all of them in one object.",
@@ -87,7 +87,7 @@ export const ideas: MinimalIdea[] = [
     id: "cable-tray",
     number: 4,
     title: "Hide Cables Before Adding More Accessories",
-    imageUrl: `${BASE}/04-cable-tray.webp`,
+    imageUrl: `${BASE}/03-cable-tray.webp`,
     summary: "A minimalist setup can look messy even with beautiful objects if cables are visible -- fix cables first.",
     body: [
       "Cables are the fastest way to ruin a minimalist desk setup. Even with a good desk mat and clean accessories, loose cables behind the monitor or hanging off the side of the desk immediately signal disorder. The fix is not buying more cable organizers to put on the desk -- it is routing cables completely out of sight.",
@@ -105,7 +105,7 @@ export const ideas: MinimalIdea[] = [
     id: "wireless-charger",
     number: 5,
     title: "Choose a Wireless Charger to Reduce Cable Clutter",
-    imageUrl: `${BASE}/05-wireless-charger.webp`,
+    imageUrl: `${BASE}/04-wireless-charger.webp`,
     summary: "A slim wireless charging pad replaces one or two loose cables with a single flat object on the mat.",
     body: [
       "If your phone and earbuds support wireless charging, a slim pad can replace the most persistent source of desk cable clutter. Instead of a cable that needs to be plugged and unplugged throughout the day, a flat charger sits in a fixed position and the device simply lands on it.",
@@ -122,7 +122,7 @@ export const ideas: MinimalIdea[] = [
     id: "slim-keyboard",
     number: 6,
     title: "Use a Slim Keyboard and Compact Mouse",
-    imageUrl: `${BASE}/06-slim-keyboard.webp`,
+    imageUrl: `${BASE}/05-slim-keyboard.webp`,
     summary: "Low-profile keyboard and compact mouse create open space around the hands and reduce visual weight.",
     body: [
       "A full-size keyboard with a number pad on a minimalist desk occupies roughly 18 inches of width and signals a busy, utilitarian setup. A tenkeyless or compact wireless keyboard removes about 4 inches of horizontal space and, more importantly, changes the visual weight of the entire surface.",
