@@ -917,6 +917,25 @@ export const guides: Guide[] = [
   },
 
   {
+    title: "Desk Setup Essentials: 15 Must-Have Items for Work, Study, and Small Desks",
+    slug: "desk-setup-essentials",
+    categorySlug: "desk-setup",
+    subcategorySlug: "accessories",
+    description: "A practical checklist of 15 desk setup essentials -- from lighting and cable management to organizers, stands, and desk mats. For students, remote workers, and small-space setups.",
+    mainKeyword: "desk setup essentials",
+    subKeywords: ["desk setup must haves", "desk setup items", "desk essentials", "home office desk essentials", "work from home desk setup"],
+    heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/desk-setup-essentials/01-voncerus-led-clamp-desk-lamp.webp",
+    lastUpdated: "2026-05-30",
+    author: "Jamie Cole",
+    readTime: "13 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: ["best-desk-setup-accessories", "best-desk-mat-for-small-desk", "best-usb-hub-for-desk"],
+    buyingCriteria: [],
+  },
+
+  {
     title: "Best Desk Setup Accessories for a Cleaner, More Productive Workspace (2026)",
     slug: "best-desk-setup-accessories",
     categorySlug: "desk-setup",
