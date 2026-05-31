@@ -8,7 +8,7 @@ export const metaDescription =
   "Learn how to set up an ergonomic desk the right way -- monitor height, chair position, keyboard placement, and the products that help. Research-based guide for small desks.";
 export const lastUpdated = "May 2026";
 export const readTime = "12 min";
-export const heroImage = `${BASE}/hero.webp`;
+export const heroImage = `${BASE}/01-monitor-riser-with-storage-shelf.webp`;
 
 export interface ErgoProduct {
   id: string;
@@ -36,7 +36,7 @@ export const products: ErgoProduct[] = [
     price: "$26",
     priceRange: "$25–30",
     score: 8.8,
-    imageUrl: `${BASE}/01-monitor-riser.webp`,
+    imageUrl: `${BASE}/01-monitor-riser-with-storage-shelf.webp`,
     amazonUrl: "https://www.amazon.com/dp/B07H4DMLVH?tag=deskfinds0d-20",
     pros: [
       "3 adjustable heights (3.9\", 4.7\", 5.5\") -- covers most monitor gaps",
@@ -59,7 +59,7 @@ export const products: ErgoProduct[] = [
     price: "$40",
     priceRange: "$38–50",
     score: 8.7,
-    imageUrl: `${BASE}/02-monitor-arm.webp`,
+    imageUrl: `${BASE}/02-dual-monitor-articulating-arm.webp`,
     amazonUrl: "https://www.amazon.com/dp/B009S750LA?tag=deskfinds0d-20",
     pros: [
       "Infinite height + tilt + depth adjustment for both screens",
@@ -82,7 +82,7 @@ export const products: ErgoProduct[] = [
     price: "$30",
     priceRange: "$25–32",
     score: 9.1,
-    imageUrl: `${BASE}/03-laptop-stand.webp`,
+    imageUrl: `${BASE}/03-foldable-aluminum-laptop-stand.webp`,
     amazonUrl: "https://www.amazon.com/dp/B08M94BTYC?tag=deskfinds0d-20",
     pros: [
       "6 height positions -- brings screen to monitor level",
@@ -105,7 +105,7 @@ export const products: ErgoProduct[] = [
     price: "$33",
     priceRange: "$30–40",
     score: 9.0,
-    imageUrl: `${BASE}/04-footrest.webp`,
+    imageUrl: `${BASE}/04-memory-foam-footrest.webp`,
     amazonUrl: "https://www.amazon.com/dp/B08DHMMBFF?tag=deskfinds0d-20",
     pros: [
       "Corrects dangling feet at any fixed-height desk",
@@ -128,7 +128,7 @@ export const products: ErgoProduct[] = [
     price: "$42",
     priceRange: "$40–55",
     score: 9.1,
-    imageUrl: `${BASE}/05-desk-mat.webp`,
+    imageUrl: `${BASE}/05-desk-mat-35x17.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CQBWJK61?tag=deskfinds0d-20",
     pros: [
       "Physically defines the keyboard + mouse zone -- enforces correct side-by-side positioning",
@@ -174,7 +174,7 @@ export const products: ErgoProduct[] = [
     price: "$100",
     priceRange: "$100–115",
     score: 9.3,
-    imageUrl: `${BASE}/07-desk-lamp.webp`,
+    imageUrl: `${BASE}/07-wide-angle-desk-lamp-auto-dimming.webp`,
     amazonUrl: "https://www.amazon.com/dp/B06Y1VF9GV?tag=deskfinds0d-20",
     pros: [
       "Built-in ambient light sensor auto-dims to match room brightness",

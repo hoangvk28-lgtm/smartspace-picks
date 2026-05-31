@@ -1007,7 +1007,7 @@ export const guides: Guide[] = [
       "desk setup ergonomics",
       "desk setup for carpal tunnel",
     ],
-    heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/ergonomic-desk-setup/hero.webp",
+    heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/ergonomic-desk-setup/01-monitor-riser-with-storage-shelf.webp",
     lastUpdated: "2026-05-31",
     author: "Jamie Cole",
     readTime: "12 min",
