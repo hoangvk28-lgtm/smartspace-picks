@@ -299,6 +299,20 @@ export const items: EssentialItem[] = [
   },
 ];
 
+// AtAGlance items -- required by template
+export const atAGlanceItems = items.map((item) => ({
+  rank: item.number,
+  badge: item.category,
+  name: item.name,
+  brand: item.brand,
+  imageUrl: item.imageUrl,
+  affiliateUrl: item.amazonUrl,
+  price: item.price,
+  anchorId: item.id,
+  pros: item.whyWePicked.map((text) => ({ text })),
+  cons: [{ text: item.skipIf, severity: "minor" as const }],
+}));
+
 export const checklist = [
   { area: "Lighting", item: "Clamp lamp or monitor light bar", why: "Targeted task light without surface footprint" },
   { area: "Screen height", item: "Monitor stand or laptop stand", why: "Raises screen to eye level, creates storage below" },

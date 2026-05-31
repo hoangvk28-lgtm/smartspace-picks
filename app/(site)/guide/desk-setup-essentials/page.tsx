@@ -4,10 +4,11 @@ import Link from "next/link";
 import { Container } from "@/components/layout/Container";
 import { buildMetadata } from "@/lib/seo";
 import { getPublicGuideBySlug } from "@/lib/public-guides";
+import { AtAGlance } from "@/components/product/AtAGlance";
 import {
   guideTitle, metaTitle, guideDescription, metaDescription,
   lastUpdated, readTime, heroImage as fallbackHeroImage,
-  items, checklist, dontNeedYet, howToChoose, faq,
+  items, atAGlanceItems, checklist, dontNeedYet, howToChoose, faq,
   type EssentialItem,
 } from "@/data/guides/desk-setup-essentials";
 
@@ -162,6 +163,9 @@ export default async function DeskSetupEssentialsPage() {
             className="w-full object-cover max-h-[420px]" priority unoptimized />
         </div>
 
+        {/* At a Glance */}
+        <AtAGlance items={atAGlanceItems} />
+
         {/* Quick Checklist */}
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">Quick Checklist: Desk Setup Essentials</h2>
@@ -195,17 +199,25 @@ export default async function DeskSetupEssentialsPage() {
               {item.category.replace("The Unexpected Essential: ", "")}
             </a>
           ))}
-          <a href="#how-to-choose" className="px-3 py-1.5 rounded-full border border-border bg-white text-ink-secondary text-xs font-medium hover:border-brand hover:text-brand transition-colors">
-            How to Choose
-          </a>
+          {[
+            { href: "#what-to-look-for", label: "What to look for" },
+            { href: "#comparison", label: "Comparison table" },
+            { href: "#faq", label: "FAQ" },
+          ].map(({ href, label }) => (
+            <a key={href} href={href} className="px-3 py-1.5 rounded-full border border-border bg-white text-ink-secondary text-xs font-medium hover:border-brand hover:text-brand transition-colors">
+              {label}
+            </a>
+          ))}
         </div>
 
         {/* All 15 item sections */}
         {items.map((item) => <ItemSection key={item.id} item={item} />)}
 
-        {/* How to Choose */}
-        <section id="how-to-choose" className="mb-12 scroll-mt-20">
-          <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">How to Choose Desk Setup Essentials</h2>
+        {/* Section 7: What to Look For (criteria cards) */}
+        <section id="what-to-look-for" className="mb-12 scroll-mt-20">
+          <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">
+            {howToChoose.length} Things to Know Before You Buy
+          </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {howToChoose.map((c) => (
               <div key={c.tip} className="flex gap-3 p-4 rounded-xl border border-border bg-white">
@@ -217,6 +229,70 @@ export default async function DeskSetupEssentialsPage() {
               </div>
             ))}
           </div>
+        </section>
+
+        {/* Section 9: Comparison Table */}
+        <section id="comparison" className="mb-12 scroll-mt-20">
+          <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">All 15 Essentials at a Glance</h2>
+          <div className="overflow-x-auto rounded-xl border border-border">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-brand text-white">
+                  <th className="text-left px-4 py-3 font-semibold">#</th>
+                  <th className="text-left px-4 py-3 font-semibold">Essential</th>
+                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Category</th>
+                  <th className="text-left px-4 py-3 font-semibold">Price</th>
+                  <th className="px-4 py-3"></th>
+                </tr>
+              </thead>
+              <tbody>
+                {items.map((item, i) => (
+                  <tr key={item.id} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
+                    <td className="px-4 py-2.5">
+                      <span className="w-5 h-5 rounded-full bg-brand text-white text-[10px] font-bold flex items-center justify-center">{item.number}</span>
+                    </td>
+                    <td className="px-4 py-2.5">
+                      <a href={`#${item.id}`} className="font-semibold text-ink hover:text-brand transition-colors">{item.name}</a>
+                      <p className="text-xs text-ink-muted">{item.brand}</p>
+                    </td>
+                    <td className="px-4 py-2.5 text-ink-secondary hidden sm:table-cell">{item.category}</td>
+                    <td className="px-4 py-2.5 text-ink-secondary font-medium">{item.price}</td>
+                    <td className="px-4 py-2.5">
+                      <a href={item.amazonUrl} target="_blank" rel="noopener noreferrer sponsored"
+                        className="text-xs font-semibold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>
+                        Check price
+                      </a>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-ink-muted mt-2 italic">Prices are approximate. Check Amazon for current pricing before purchasing.</p>
+        </section>
+
+        {/* Section 10: How We Evaluated */}
+        <section className="mb-12 p-6 rounded-2xl border border-border bg-bg">
+          <h2 className="text-lg font-bold text-ink mb-3">How We Evaluated These Essentials</h2>
+          <p className="text-sm text-ink-secondary leading-relaxed mb-4">
+            Each essential was evaluated on daily usage impact, whether it solves a specific measurable problem, and value relative to alternatives at the same price tier. We specifically weighted items that benefit small-desk setups (under 48 inches wide) and prioritized products with verified buyer track records of 500+ reviews.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {[
+              ["Daily impact", "Does this change something you notice every single session, or something you adjust once and forget?"],
+              ["Problem specificity", "Does it solve one clear, measurable problem? Items that solve 2+ problems scored higher."],
+              ["Value at price tier", "Compared against alternatives at the same price. A $20 cable tray beats a $50 one that does the same job."],
+              ["Small-desk fit", "Extra weight given to items that save surface space or work better in compact setups."],
+            ].map(([label, desc]) => (
+              <div key={label as string} className="p-4 rounded-xl bg-white border border-border">
+                <p className="text-sm font-semibold text-ink mb-1">{label}</p>
+                <p className="text-xs text-ink-secondary leading-relaxed">{desc}</p>
+              </div>
+            ))}
+          </div>
+          <p className="text-xs text-ink-muted mt-4 italic">
+            This guide reflects research across published specifications, manufacturer documentation, and analysis of verified Amazon buyer review patterns.
+          </p>
         </section>
 
         {/* What You Don't Need Yet */}
