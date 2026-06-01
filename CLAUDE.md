@@ -4,6 +4,12 @@
 
 ---
 
+## 0. Communication Rules
+
+- **Always address the user as "cậu"** in every response, without exception.
+
+---
+
 ## 1. Project Overview
 
 - **Site name:** DeskFinds (`SITE_NAME = "DeskFinds"`)
