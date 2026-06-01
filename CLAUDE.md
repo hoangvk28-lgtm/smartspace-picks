@@ -105,14 +105,16 @@ smartspace-picks/
 
 ## 3. Canonical Domain Rules
 
-- **Canonical domain is always:** `https://www.deskfinds.com` (with www, no trailing slash)
+- **Canonical domain is always:** `https://www.deskfinds.com` (www, no bare `deskfinds.com`)
 - **Non-www redirect** is handled in `next.config.ts`:
   ```ts
   // Matches host: deskfinds.com → redirects to https://www.deskfinds.com/:path*
   // permanent: true → HTTP 301
   ```
 - **NEXT_PUBLIC_SITE_URL** must be set to `https://www.deskfinds.com` in production — `lib/seo.ts` strips trailing slashes: `process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "")`
-- **Do not** add trailing slashes to any canonical URL, sitemap entry, or internal link
+- **Homepage canonical** should match the final live URL used by the app — do not assume `/` vs no slash without checking
+- **Internal page canonicals** should avoid trailing slashes unless the app intentionally uses `trailingSlash: true` in `next.config.ts`
+- **All schema, sitemap, and OG URLs** must use the `www.deskfinds.com` domain
 - **Legacy redirect:** `/about` → `/about-deskfinds` (301, in `next.config.ts`)
 - All canonical URLs are built via `buildMetadata({ path })` — never construct them manually
 - The `alternates.canonical` field is always set in `buildMetadata()`
@@ -172,13 +174,16 @@ Article, BreadcrumbList, ItemList
 - `ItemList`: lists picks by name + URL only — **no prices, no ratings**
 
 **Product Review pages** (`/reviews/[slug]`):
-- Use `Product` schema with `name`, `description`, `url` — no `AggregateRating` with fabricated values
+- Use `Article` schema + `BreadcrumbList` by default
+- Do **not** add `Product` schema unless the page has verified product data that satisfies Google Product structured data requirements
+- Do **not** add `Product` schema with only `name`/`description`/`url` — this can trigger Product rich result errors without fulfilling Google's required fields
+- Do **not** add `Review`, `AggregateRating`, `Rating`, `Offer`, fake prices, fake `ratingCount`, or fake `reviewCount`
 
 ### Strictly Forbidden
-- **`FAQPage` schema** on any page that also has affiliate/commercial content — Google penalizes this combination
+- **`FAQPage` schema** on commercial/affiliate pages — low to no rich-result value for affiliate sites; keep schema conservative
 - **`AggregateRating`** with values not sourced from real verified reviews (our scores are editorial, not crowd-sourced)
 - **`Review` schema** claiming personal hands-on testing — we do not claim hands-on testing
-- **Fake `priceRange` or `price`** in Product schema — prices change; only use live affiliate links
+- **Fake `priceRange` or `price`** in any schema — prices change; only use live affiliate links
 - **`Organization` sameAs** with social profiles unless those profiles are actively maintained
 
 ### Author Schema
@@ -380,7 +385,7 @@ Do not undo these:
 - **Non-www → www redirect** added to `next.config.ts` with `permanent: true` (301)
 - **`/about` → `/about-deskfinds` redirect** added to `next.config.ts` with `permanent: true`
 - **Double title suffix bug fixed** — `buildMetadata()` uses `{ absolute: fullTitle }` to prevent `"Title | DeskFinds | DeskFinds"`
-- **`FAQPage` schema removed from commercial pages** — was causing Google quality signals issue
+- **`FAQPage` schema removed from commercial pages** — low/no rich-result value for affiliate pages; avoided to keep schema conservative
 - **Canonical URLs** always set via `buildMetadata()` `alternates.canonical` field
 - **Security headers** set globally in `next.config.ts`: X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy, HSTS
 - **AI crawler allowlist** in `robots.ts` — GPTBot, ClaudeBot, PerplexityBot, etc. are explicitly allowed
