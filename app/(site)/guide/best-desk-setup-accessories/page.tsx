@@ -184,7 +184,7 @@ export default async function BestDeskSetupAccessoriesPage() {
         {/* Intro */}
         <section className="mb-8">
           <p className="text-base text-ink-secondary leading-relaxed mb-3">
-            A good desk setup isn't about having the most expensive equipment -- it's about having the right accessories that remove friction from your daily workflow. The right lamp eliminates eye strain. The right cable tray removes visual noise. The right organizer means you stop hunting for things. Each of these is a small change that compounds over every work session.
+            A good desk setup isn&apos;t about having the most expensive equipment -- it&apos;s about having the right accessories that remove friction from your daily workflow. The right lamp eliminates eye strain. The right cable tray removes visual noise. The right organizer means you stop hunting for things. Each of these is a small change that compounds over every work session.
           </p>
           <p className="text-base text-ink-secondary leading-relaxed">
             We evaluated accessories across 9 categories and selected the best option in each, with honest trade-offs and two alternatives per pick. All products are available on Amazon with Prime shipping.

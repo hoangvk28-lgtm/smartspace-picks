@@ -484,10 +484,10 @@ export default async function BestHeadphoneStandDeskPage() {
         <section className="mb-12 p-5 rounded-2xl border border-border bg-white">
           <h2 className="text-base font-bold text-ink mb-2">What About DIY and 3D-Printed Stands?</h2>
           <p className="text-sm text-ink-secondary leading-relaxed mb-3">
-            Sites like Thingiverse and Printables have hundreds of free headphone stand designs. If you own a 3D printer, printing a stand costs $2–$5 in filament. The result is fully customizable but won't have USB ports, charging, or cable management.
+            Sites like Thingiverse and Printables have hundreds of free headphone stand designs. If you own a 3D printer, printing a stand costs $2&ndash;$5 in filament. The result is fully customizable but won&apos;t have USB ports, charging, or cable management.
           </p>
           <p className="text-xs text-ink-muted italic">
-            Our take: if you already own a printer, print one to test whether you like having a stand at all. If you don't own a printer, the New Bee ($12) costs less than most filament rolls.
+            Our take: if you already own a printer, print one to test whether you like having a stand at all. If you don&apos;t own a printer, the New Bee ($12) costs less than most filament rolls.
           </p>
         </section>
 
@@ -510,7 +510,7 @@ export default async function BestHeadphoneStandDeskPage() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-4">
             <div className="p-5 rounded-2xl border border-green-200 bg-green-50">
               <p className="text-xs font-bold text-green-700 uppercase tracking-wide mb-2">Under $15</p>
-              <p className="font-bold text-ink text-sm mb-1">"Just need headphones off the desk"</p>
+              <p className="font-bold text-ink text-sm mb-1">&quot;Just need headphones off the desk&quot;</p>
               <p className="text-xs text-ink-secondary mb-3">
                 Hidden: <a href="#elevation-lab-anchor" className="text-green-700 font-semibold hover:underline">Elevation Lab Anchor</a><br />
                 Visible: <a href="#new-bee-aluminum" className="text-green-700 font-semibold hover:underline">New Bee Aluminum</a>
@@ -518,14 +518,14 @@ export default async function BestHeadphoneStandDeskPage() {
             </div>
             <div className="p-5 rounded-2xl border border-amber-200 bg-amber-50">
               <p className="text-xs font-bold text-amber-700 uppercase tracking-wide mb-2">$25–$35</p>
-              <p className="font-bold text-ink text-sm mb-1">"A stand that does more"</p>
+              <p className="font-bold text-ink text-sm mb-1">&quot;A stand that does more&quot;</p>
               <p className="text-xs text-ink-secondary mb-3">
                 <a href="#cozoo-usb-stand" className="text-amber-700 font-semibold hover:underline">Cozoo USB Stand</a> -- headphone stand + USB hub + AC outlets in one footprint
               </p>
             </div>
             <div className="p-5 rounded-2xl border border-slate-200 bg-slate-50">
               <p className="text-xs font-bold text-slate-600 uppercase tracking-wide mb-2">$60–$75</p>
-              <p className="font-bold text-ink text-sm mb-1">"Gaming + ecosystem"</p>
+              <p className="font-bold text-ink text-sm mb-1">&quot;Gaming + ecosystem&quot;</p>
               <p className="text-xs text-ink-secondary mb-3">
                 <a href="#razer-base-station-v2" className="text-slate-700 font-semibold hover:underline">Razer Base Station V2</a> -- RGB + USB hub + DAC
               </p>

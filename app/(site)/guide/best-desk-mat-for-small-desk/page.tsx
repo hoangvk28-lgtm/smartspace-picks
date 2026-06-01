@@ -78,7 +78,7 @@ export default async function BestDeskMatPage() {
         {/* Intro */}
         <section className="mb-8">
           <p className="text-base text-ink-secondary leading-relaxed mb-3">
-            Most desk mat guides are written for 60-inch desks with room to spare. This one isn't. If your desk is 36-40 inches wide (or smaller), picking the wrong mat size means it either hangs off the edge, slides around, or looks proportionally wrong.
+            Most desk mat guides are written for 60-inch desks with room to spare. This one isn&apos;t. If your desk is 36-40 inches wide (or smaller), picking the wrong mat size means it either hangs off the edge, slides around, or looks proportionally wrong.
           </p>
           <p className="text-base text-ink-secondary leading-relaxed">
             We evaluated eight desk mats specifically for small desks -- tested on 30&quot;, 36&quot;, and 40&quot; tabletops -- and picked the best options by size, material, non-slip performance, and value.
@@ -203,7 +203,7 @@ export default async function BestDeskMatPage() {
           </div>
           <div className="p-4 rounded-xl bg-blue-50 border border-blue-200 text-sm text-ink-secondary">
             <span className="font-bold text-ink">For most small desks: </span>
-            Vegan leather (PU) is the practical default. Wipes clean in seconds, firm wrist surface, looks polished. Only trade-off: if you're a high-DPI gamer, leather surfaces can feel slightly sticky vs. cloth.
+            Vegan leather (PU) is the practical default. Wipes clean in seconds, firm wrist surface, looks polished. Only trade-off: if you&apos;re a high-DPI gamer, leather surfaces can feel slightly sticky vs. cloth.
           </div>
         </section>
 

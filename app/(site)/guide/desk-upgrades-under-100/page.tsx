@@ -186,7 +186,7 @@ export default async function DeskUpgradesUnder100Page() {
         {/* Intro */}
         <section className="mb-8">
           <p className="text-base text-ink-secondary leading-relaxed mb-3">
-            Most desk upgrades fall into two categories: things you'll notice every single day, and things you'll forget you bought within a week. This guide only covers the first kind.
+            Most desk upgrades fall into two categories: things you&apos;ll notice every single day, and things you&apos;ll forget you bought within a week. This guide only covers the first kind.
           </p>
           <p className="text-base text-ink-secondary leading-relaxed">
             We evaluated upgrades specifically for small desks (under 48 inches wide) and student/remote-work setups where the goal is maximum impact per dollar. Each of the 10 upgrades addresses a specific, measurable pain point -- more desk space, less wrist fatigue, no more cord hunting, cleaner power setup.
@@ -195,7 +195,7 @@ export default async function DeskUpgradesUnder100Page() {
 
         {/* Impact vs Cost table */}
         <section className="mb-8">
-          <h2 className="text-xl font-bold text-ink mb-4">Impact vs. Cost -- Know What You're Buying</h2>
+          <h2 className="text-xl font-bold text-ink mb-4">Impact vs. Cost -- Know What You&apos;re Buying</h2>
           <div className="overflow-x-auto rounded-xl border border-border">
             <table className="w-full text-sm">
               <thead>
@@ -226,7 +226,7 @@ export default async function DeskUpgradesUnder100Page() {
           </div>
           <div className="mt-3 p-4 rounded-xl bg-amber-50 border border-amber-200 text-sm text-ink-secondary">
             <span className="font-bold text-ink">Where to start if budget is tight: </span>
-            Monitor arm first, always. It's the only upgrade on this list that physically recovers square inches of desk surface you can see and use.
+            Monitor arm first, always. It&apos;s the only upgrade on this list that physically recovers square inches of desk surface you can see and use.
           </div>
         </section>
 
@@ -295,8 +295,8 @@ export default async function DeskUpgradesUnder100Page() {
                 </div>
               </div>
               <div className="ml-14 p-4 rounded-xl bg-gray-50 border border-border text-sm text-ink-secondary">
-                <p className="mb-2">If you bought a keyboard with a built-in wrist rest (Upgrade 3), you don't need this. If you're keeping your existing keyboard and just want wrist protection, a standalone wrist rest pad costs $10-$20.</p>
-                <p className="text-xs italic">Note: A wrist pad supports only the wrist zone. If you use a mouse heavily (4+ hours/day), consider the full armrest in Upgrade 4 instead -- it covers more of the arm and reduces shoulder tension a wrist pad can't address. The keyboard combos in Upgrade 3 (Trueque, Wave Keys) include integrated wrist rests -- if you chose one of those, skip this upgrade.</p>
+                <p className="mb-2">If you bought a keyboard with a built-in wrist rest (Upgrade 3), you don&apos;t need this. If you&apos;re keeping your existing keyboard and just want wrist protection, a standalone wrist rest pad costs $10-$20.</p>
+                <p className="text-xs italic">Note: A wrist pad supports only the wrist zone. If you use a mouse heavily (4+ hours/day), consider the full armrest in Upgrade 4 instead -- it covers more of the arm and reduces shoulder tension a wrist pad can&apos;t address. The keyboard combos in Upgrade 3 (Trueque, Wave Keys) include integrated wrist rests -- if you chose one of those, skip this upgrade.</p>
               </div>
             </div>
 

@@ -163,7 +163,7 @@ export default async function SmallSpaceHacksPage() {
         {/* Intro */}
         <section className="mb-8">
           <p className="text-base text-ink-secondary leading-relaxed mb-3">
-            The problem with most small-space advice is that it's about buying more storage furniture -- which takes up the floor space you're trying to reclaim. Real small-space hacks work differently: they recover space you already have but aren't using, or they compress what you own so it takes up less room.
+            The problem with most small-space advice is that it&apos;s about buying more storage furniture -- which takes up the floor space you&apos;re trying to reclaim. Real small-space hacks work differently: they recover space you already have but aren&apos;t using, or they compress what you own so it takes up less room.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-4">
             {zones.map((z) => (

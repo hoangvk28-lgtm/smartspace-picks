@@ -209,10 +209,10 @@ export default async function BestClipOnDeskLampPage() {
         {/* Intro */}
         <section className="mb-8">
           <p className="text-base text-ink-secondary leading-relaxed mb-3">
-            If your desk is under 40 inches wide, a base lamp is often a bad idea. It eats 6-8 square inches of surface permanently, and if you share a dorm room, it throws light everywhere -- including onto your roommate's side at 2 a.m.
+            If your desk is under 40 inches wide, a base lamp is often a bad idea. It eats 6-8 square inches of surface permanently, and if you share a dorm room, it throws light everywhere -- including onto your roommate&apos;s side at 2 a.m.
           </p>
           <p className="text-base text-ink-secondary leading-relaxed">
-            A clip-on desk lamp solves all of that. It attaches to the edge of your desk, shelf, or headboard, takes zero surface space, and puts light exactly where you're working. We evaluated eight options specifically for small desks and dorm rooms -- rated on clamp strength, brightness range, cord management, and value.
+            A clip-on desk lamp solves all of that. It attaches to the edge of your desk, shelf, or headboard, takes zero surface space, and puts light exactly where you&apos;re working. We evaluated eight options specifically for small desks and dorm rooms -- rated on clamp strength, brightness range, cord management, and value.
           </p>
         </section>
 
@@ -325,7 +325,7 @@ export default async function BestClipOnDeskLampPage() {
           </div>
           <div className="mt-4 p-4 rounded-xl bg-brand-muted border border-brand/20 text-sm text-ink-secondary">
             <span className="font-semibold text-ink">Bottom line: </span>
-            If you're a student or anyone working in a room under 150 sq ft, a clip-on lamp almost always makes more sense than a base lamp -- not just for desk space, but for keeping light targeted and not lighting up the entire room when you only need to see your notebook.
+            If you&apos;re a student or anyone working in a room under 150 sq ft, a clip-on lamp almost always makes more sense than a base lamp -- not just for desk space, but for keeping light targeted and not lighting up the entire room when you only need to see your notebook.
           </div>
         </section>
 

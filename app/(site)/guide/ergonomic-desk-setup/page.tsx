@@ -318,7 +318,7 @@ export default async function ErgonomicDeskSetupPage() {
 
           <h3 className="text-lg font-bold text-ink mb-3">How Far Should Your Monitor Be?</h3>
           <p className="text-sm text-ink-secondary leading-relaxed mb-5">
-            The recommended distance is 20 to 28 inches -- roughly arm's length. The quick test: extend your arm toward the screen. Your fingertips should nearly touch it. Larger monitors (27 inches and above) should sit at the farther end of that range. An ultrawide should be at the same distance as a standard monitor -- there is no reason to sit closer because it is wider.
+            The recommended distance is 20 to 28 inches -- roughly arm&apos;s length. The quick test: extend your arm toward the screen. Your fingertips should nearly touch it. Larger monitors (27 inches and above) should sit at the farther end of that range. An ultrawide should be at the same distance as a standard monitor -- there is no reason to sit closer because it is wider.
           </p>
 
           <div className="grid sm:grid-cols-2 gap-4 mb-2">

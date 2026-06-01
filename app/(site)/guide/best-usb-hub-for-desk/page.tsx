@@ -190,10 +190,10 @@ export default async function BestUsbHubForDeskPage() {
         {/* Intro */}
         <section className="mb-8">
           <p className="text-base text-ink-secondary leading-relaxed mb-3">
-            Modern laptops ship with 2-4 USB ports. A typical desk setup needs 6-10: keyboard, mouse, external drive, webcam, phone charger, desk lamp, card reader, microphone. A USB hub is not a nice-to-have -- it's infrastructure.
+            Modern laptops ship with 2-4 USB ports. A typical desk setup needs 6-10: keyboard, mouse, external drive, webcam, phone charger, desk lamp, card reader, microphone. A USB hub is not a nice-to-have -- it&apos;s infrastructure.
           </p>
           <p className="text-base text-ink-secondary leading-relaxed">
-            But not all USB hubs are appropriate for desk use. Travel hubs are compact but unpowered, meaning they draw electricity from your laptop and drop connections under heavy load. The right desk hub is powered, stable, and has enough ports that you stop rotating what's plugged in.
+            But not all USB hubs are appropriate for desk use. Travel hubs are compact but unpowered, meaning they draw electricity from your laptop and drop connections under heavy load. The right desk hub is powered, stable, and has enough ports that you stop rotating what&apos;s plugged in.
           </p>
         </section>
 
@@ -221,7 +221,7 @@ export default async function BestUsbHubForDeskPage() {
             </table>
           </div>
           <p className="text-sm text-ink-secondary bg-amber-50 border border-amber-200 rounded-xl px-4 py-3">
-            <span className="font-bold text-ink">Rule: </span>If you're plugging in more than 3 devices simultaneously, buy a powered hub. The $10-$15 price difference is worth the connection stability.
+            <span className="font-bold text-ink">Rule: </span>If you&apos;re plugging in more than 3 devices simultaneously, buy a powered hub. The $10-$15 price difference is worth the connection stability.
           </p>
         </section>
 
@@ -249,7 +249,7 @@ export default async function BestUsbHubForDeskPage() {
             </table>
           </div>
           <p className="text-sm text-ink-secondary bg-blue-50 border border-blue-200 rounded-xl px-4 py-3">
-            <span className="font-bold text-ink">Bottom line: </span>If your laptop has USB-A ports -- use a USB-A hub. Cheaper, simpler, equally fast for most tasks. If you're on a MacBook or port-starved ultrabook -- get the USB-C model.
+            <span className="font-bold text-ink">Bottom line: </span>If your laptop has USB-A ports -- use a USB-A hub. Cheaper, simpler, equally fast for most tasks. If you&apos;re on a MacBook or port-starved ultrabook -- get the USB-C model.
           </p>
         </section>
 

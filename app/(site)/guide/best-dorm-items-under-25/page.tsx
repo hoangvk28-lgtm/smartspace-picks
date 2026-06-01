@@ -178,7 +178,7 @@ export default async function DormItems25Page() {
         {/* Intro */}
         <section className="mb-8">
           <p className="text-base text-ink-secondary leading-relaxed mb-3">
-            Moving into a dorm is one of the few times in life where you're expected to build an entire living setup -- sleeping, studying, showering, charging, storing -- inside 150 square feet, on a student budget. The good news: the items that make the biggest difference in daily dorm life are almost all under $25.
+            Moving into a dorm is one of the few times in life where you&apos;re expected to build an entire living setup -- sleeping, studying, showering, charging, storing -- inside 150 square feet, on a student budget. The good news: the items that make the biggest difference in daily dorm life are almost all under $25.
           </p>
           <p className="text-base text-ink-secondary leading-relaxed mb-4">
             This list skips the obvious and focuses on the high-impact, low-cost items most freshmen forget, underestimate, or discover too late.

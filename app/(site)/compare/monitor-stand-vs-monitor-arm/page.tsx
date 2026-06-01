@@ -539,7 +539,7 @@ export default function MonitorStandVsArmPage() {
           <div className="mt-4 p-5 rounded-2xl bg-slate-50 border border-slate-200">
             <p className="font-bold text-ink text-sm mb-2">The honest truth</p>
             <p className="text-sm text-ink-secondary leading-relaxed">
-              At the under-$50 price point, both options are solid. A $35 arm gives you dramatically more adjustability than a $35 stand — but it also takes 15 minutes to install and requires a compatible monitor and desk. A $25 stand gives you 80% of what most people need (height elevation + storage) with zero hassle. The right choice isn't about which is "better" — it's about which problem you're actually solving.
+              At the under-$50 price point, both options are solid. A $35 arm gives you dramatically more adjustability than a $35 stand &mdash; but it also takes 15 minutes to install and requires a compatible monitor and desk. A $25 stand gives you 80% of what most people need (height elevation + storage) with zero hassle. The right choice isn&apos;t about which is &quot;better&quot; &mdash; it&apos;s about which problem you&apos;re actually solving.
             </p>
           </div>
         </section>
