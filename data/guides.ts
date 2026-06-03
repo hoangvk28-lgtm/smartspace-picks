@@ -1178,6 +1178,32 @@ export const guides: Guide[] = [
   },
 
   {
+    title: "Best Charging Station Desk Organizers for Cleaner Workspaces",
+    slug: "best-charging-station-desk-organizers",
+    categorySlug: "desk-setup",
+    subcategorySlug: "accessories",
+    description:
+      "6 desk organizers with built-in charging -- wireless pads, USB hubs, charging mats, and compact combos. Includes what slots you need and cable management tips for real desk setups.",
+    mainKeyword: "best charging station desk organizers",
+    subKeywords: [
+      "charging station desk organizer",
+      "wireless charging desk organizer",
+      "usb hub desk organizer",
+      "desk organizer with charger",
+      "organizer charging station combo",
+    ],
+    heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-charging-station-desk-organizers/07-hero-best-charging-station-desk-organizers.webp",
+    lastUpdated: "2026-06-03",
+    author: "Jamie Cole",
+    readTime: "11 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: ["best-charging-stations-for-desk", "best-wireless-charging-stations-for-desk", "small-desk-organization-ideas"],
+    buyingCriteria: [],
+  },
+
+  {
     title: "Best Desk Mat for Small Desk -- 8 Picks for Dorms & Compact Setups (2026)",
     slug: "best-desk-mat-for-small-desk",
     categorySlug: "desk-setup",
