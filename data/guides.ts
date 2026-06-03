@@ -1125,6 +1125,33 @@ export const guides: Guide[] = [
   },
 
   {
+    title: "Best Wireless Charging Stations for Desk: Clean Picks for Phones, Earbuds, and Watches",
+    slug: "best-wireless-charging-stations-for-desk",
+    categorySlug: "desk-setup",
+    subcategorySlug: "accessories",
+    description:
+      "6 wireless desk charging stations tested -- 3-in-1 MagSafe stands, Qi2 pads, and charging desk mats. Includes the Qi vs Qi2 vs MagSafe comparison that nobody else explains clearly.",
+    mainKeyword: "best wireless charging stations for desk",
+    subKeywords: [
+      "wireless charging station desk",
+      "magsafe 3-in-1 desk charger",
+      "qi2 desk charger",
+      "best wireless charger for desk",
+      "charging desk mat qi2",
+      "wireless charging pad desk",
+    ],
+    heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-wireless-charging-stations-for-desk/07-hero-best-wireless-charging-stations-for-desk.webp",
+    lastUpdated: "2026-06-03",
+    author: "Jamie Cole",
+    readTime: "13 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: ["best-charging-stations-for-desk", "best-small-desk-charging-stations", "best-desk-mat-for-small-desk"],
+    buyingCriteria: [],
+  },
+
+  {
     title: "Best Desk Mat for Small Desk -- 8 Picks for Dorms & Compact Setups (2026)",
     slug: "best-desk-mat-for-small-desk",
     categorySlug: "desk-setup",
