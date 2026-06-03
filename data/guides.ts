@@ -1204,6 +1204,32 @@ export const guides: Guide[] = [
   },
 
   {
+    title: "Best Docking Stations for Desk Setup: Clean Picks for Laptop and Monitor Workspaces",
+    slug: "best-docking-stations-for-desk-setup",
+    categorySlug: "desk-setup",
+    subcategorySlug: "accessories",
+    description:
+      "6 docking stations tested for desk setups -- TB4, USB4, and USB-C picks. Includes the plain-English TB4 vs USB-C guide and a 5-step setup walkthrough for home office and monitor workspaces.",
+    mainKeyword: "best docking stations for desk setup",
+    subKeywords: [
+      "thunderbolt 4 docking station desk",
+      "usb4 docking station",
+      "best dock for macbook desk",
+      "docking station dual monitor desk",
+      "laptop docking station home office",
+    ],
+    heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-docking-stations-for-desk-setup/07-hero-bai-6-best-docking-stations-for-desk-setup.webp",
+    lastUpdated: "2026-06-03",
+    author: "Jamie Cole",
+    readTime: "14 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: ["best-charging-stations-for-desk", "ergonomic-desk-setup", "desk-setup-essentials"],
+    buyingCriteria: [],
+  },
+
+  {
     title: "Best Desk Mat for Small Desk -- 8 Picks for Dorms & Compact Setups (2026)",
     slug: "best-desk-mat-for-small-desk",
     categorySlug: "desk-setup",
