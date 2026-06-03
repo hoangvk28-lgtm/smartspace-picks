@@ -36,9 +36,9 @@ export const metadata: Metadata = buildMetadata({
 function ProductSection({ product }: { product: DockProduct }) {
   return (
     <section id={product.id} className="mb-14 scroll-mt-20">
-      <div className="flex items-center gap-3 mb-4">
+      <div className="flex flex-wrap items-center gap-2 mb-4">
         <span className="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest text-white bg-brand shrink-0">{product.badge}</span>
-        <h2 className="text-2xl font-bold text-ink tracking-tight">{product.name}</h2>
+        <h2 className="text-2xl font-bold text-ink tracking-tight min-w-0 break-words">{product.name}</h2>
       </div>
 
       <div className="rounded-2xl border border-border bg-white overflow-hidden shadow-card">

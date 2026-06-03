@@ -353,7 +353,7 @@ export default async function BestHeadphoneStandDeskPage() {
 
           {/* Desktop section */}
           <div className="mb-8">
-            <div className="flex items-center gap-3 mb-4">
+            <div className="flex flex-wrap items-center gap-2 mb-4">
               <div className="w-1 h-6 rounded-full" style={{ background: mountBadge.desktop.text }} />
               <h3 className="text-base font-bold text-ink">Desktop Stands</h3>
             </div>
@@ -364,7 +364,7 @@ export default async function BestHeadphoneStandDeskPage() {
 
           {/* Space-saving section */}
           <div>
-            <div className="flex items-center gap-3 mb-4">
+            <div className="flex flex-wrap items-center gap-2 mb-4">
               <div className="w-1 h-6 rounded-full" style={{ background: mountBadge["under-desk"].text }} />
               <h3 className="text-base font-bold text-ink">Space-Saving Alternatives (Zero Desktop Footprint)</h3>
             </div>

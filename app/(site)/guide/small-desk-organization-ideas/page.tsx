@@ -226,7 +226,7 @@ export default async function SmallDeskOrganizationIdeasPage() {
 
           {/* Method 1 */}
           <div id="method-1" className="mb-12 scroll-mt-20">
-            <div className="flex items-center gap-3 mb-4">
+            <div className="flex flex-wrap items-center gap-2 mb-4">
               <span className="w-9 h-9 rounded-full bg-brand text-white font-bold text-base flex items-center justify-center shrink-0">1</span>
               <div>
                 <h3 className="text-xl font-bold text-ink leading-tight">The Vertical Stack - Go Up, Not Out</h3>
@@ -251,7 +251,7 @@ export default async function SmallDeskOrganizationIdeasPage() {
 
           {/* Method 2 */}
           <div id="method-2" className="mb-12 scroll-mt-20">
-            <div className="flex items-center gap-3 mb-4">
+            <div className="flex flex-wrap items-center gap-2 mb-4">
               <span className="w-9 h-9 rounded-full bg-brand text-white font-bold text-base flex items-center justify-center shrink-0">2</span>
               <div>
                 <h3 className="text-xl font-bold text-ink leading-tight">The Under-Desk System - Hidden Storage Below</h3>
@@ -273,7 +273,7 @@ export default async function SmallDeskOrganizationIdeasPage() {
 
           {/* Method 3 */}
           <div id="method-3" className="mb-12 scroll-mt-20">
-            <div className="flex items-center gap-3 mb-4">
+            <div className="flex flex-wrap items-center gap-2 mb-4">
               <span className="w-9 h-9 rounded-full bg-brand text-white font-bold text-base flex items-center justify-center shrink-0">3</span>
               <div>
                 <h3 className="text-xl font-bold text-ink leading-tight">The One-Bin Rule - Contain, Don&apos;t Spread</h3>
@@ -295,7 +295,7 @@ export default async function SmallDeskOrganizationIdeasPage() {
 
           {/* Method 4 */}
           <div id="method-4" className="mb-12 scroll-mt-20">
-            <div className="flex items-center gap-3 mb-4">
+            <div className="flex flex-wrap items-center gap-2 mb-4">
               <span className="w-9 h-9 rounded-full bg-brand text-white font-bold text-base flex items-center justify-center shrink-0">4</span>
               <div>
                 <h3 className="text-xl font-bold text-ink leading-tight">The Monitor Riser Strategy - Storage You Sit In Front Of</h3>
@@ -317,7 +317,7 @@ export default async function SmallDeskOrganizationIdeasPage() {
 
           {/* Method 5 */}
           <div id="method-5" className="mb-12 scroll-mt-20">
-            <div className="flex items-center gap-3 mb-4">
+            <div className="flex flex-wrap items-center gap-2 mb-4">
               <span className="w-9 h-9 rounded-full bg-brand text-white font-bold text-base flex items-center justify-center shrink-0">5</span>
               <div>
                 <h3 className="text-xl font-bold text-ink leading-tight">The Zone System - Divide the Desk Into Territories</h3>
@@ -356,7 +356,7 @@ export default async function SmallDeskOrganizationIdeasPage() {
 
           {/* Method 6 */}
           <div id="method-6" className="mb-12 scroll-mt-20">
-            <div className="flex items-center gap-3 mb-4">
+            <div className="flex flex-wrap items-center gap-2 mb-4">
               <span className="w-9 h-9 rounded-full bg-brand text-white font-bold text-base flex items-center justify-center shrink-0">6</span>
               <div>
                 <h3 className="text-xl font-bold text-ink leading-tight">The Paper Elimination - Go Digital or Go Away</h3>
@@ -396,7 +396,7 @@ export default async function SmallDeskOrganizationIdeasPage() {
 
           {/* Method 7 */}
           <div id="method-7" className="mb-4 scroll-mt-20">
-            <div className="flex items-center gap-3 mb-4">
+            <div className="flex flex-wrap items-center gap-2 mb-4">
               <span className="w-9 h-9 rounded-full bg-brand text-white font-bold text-base flex items-center justify-center shrink-0">7</span>
               <div>
                 <h3 className="text-xl font-bold text-ink leading-tight">The End-of-Day Reset - The Habit That Keeps Everything Working</h3>
