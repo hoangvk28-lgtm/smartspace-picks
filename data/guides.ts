@@ -1099,6 +1099,32 @@ export const guides: Guide[] = [
   },
 
   {
+    title: "Best Small Desk Charging Stations for Cleaner, Clutter-Free Setups",
+    slug: "best-small-desk-charging-stations",
+    categorySlug: "desk-setup",
+    subcategorySlug: "accessories",
+    description:
+      "5 compact charging stations chosen for small desks -- with real footprint dimensions, vertical vs flat comparison, cable management tips, and setup advice for tight workspaces.",
+    mainKeyword: "best small desk charging stations",
+    subKeywords: [
+      "compact charging station small desk",
+      "smallest charging station desk",
+      "charging station dorm desk",
+      "best charger for small desk",
+      "charging station 80cm desk",
+    ],
+    heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-small-desk-charging-stations/06-best-small-desk-charging-stations-hero.webp",
+    lastUpdated: "2026-06-03",
+    author: "Jamie Cole",
+    readTime: "11 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: ["best-charging-stations-for-desk", "small-desk-setup", "best-under-desk-cable-trays"],
+    buyingCriteria: [],
+  },
+
+  {
     title: "Best Desk Mat for Small Desk -- 8 Picks for Dorms & Compact Setups (2026)",
     slug: "best-desk-mat-for-small-desk",
     categorySlug: "desk-setup",
