@@ -135,6 +135,30 @@ export default async function ProductReviewPage({ params }: Props) {
     ...(productImage && { image: productImage }),
   };
 
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: product.name,
+    description: product.shortDescription,
+    url: `${SITE_URL}/reviews/${product.slug}`,
+    ...(productImage && { image: productImage }),
+    review: {
+      "@type": "Review",
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: product.scores.overall.toFixed(1),
+        bestRating: "10",
+        worstRating: "1",
+      },
+      author: {
+        "@type": "Person",
+        name: "Jamie Cole",
+        url: `${SITE_URL}/author/jamie-cole`,
+      },
+      datePublished: featuredInGuides[0]?.lastUpdated ?? "2026-01-01",
+    },
+  };
+
   // Size-related specs for the Space Check callout
   const spaceSpecs = Object.entries(product.specs).filter(([key]) =>
     /size|dimension|width|height|depth|length|base|footprint|clamp|weight|mount|arm/i.test(key)
@@ -144,6 +168,7 @@ export default async function ProductReviewPage({ params }: Props) {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
 
       <Container className="py-10">
 

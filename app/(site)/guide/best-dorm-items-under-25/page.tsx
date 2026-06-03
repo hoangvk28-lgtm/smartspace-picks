@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
-import { buildMetadata } from "@/lib/seo";
+import { buildMetadata, SITE_URL } from "@/lib/seo";
 import { getPublicGuideBySlug } from "@/lib/public-guides";
 import {
   guideTitle, guideDescription, lastUpdated, readTime,
@@ -122,11 +122,15 @@ function ItemCard({ item }: { item: DormItem }) {
 export default async function DormItems25Page() {
   const guide = await getPublicGuideBySlug("best-dorm-items-under-25");
   const heroImg = guide?.thumbnailImage ?? guide?.heroImage ?? fallbackHeroImage;
+  const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: guideTitle, description: metaDescription, datePublished: "2026-05-30", dateModified: "2026-05-30", author: { "@type": "Person", name: "Jamie Cole", url: `${SITE_URL}/author/jamie-cole` }, publisher: { "@type": "Organization", name: "DeskFinds", url: SITE_URL }, mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/guide/best-dorm-items-under-25` } };
+  const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: SITE_URL }, { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` }, { "@type": "ListItem", position: 3, name: guideTitle, item: `${SITE_URL}/guide/best-dorm-items-under-25` }] };
 
   const itemsByCategory = (cat: DormCategory) => items.filter((i) => i.category === cat);
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Container className="py-12 max-w-4xl">
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
           <Link href="/" className="hover:text-brand transition-colors">Home</Link>

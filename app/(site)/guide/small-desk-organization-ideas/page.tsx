@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Container } from "@/components/layout/Container";
-import { buildMetadata } from "@/lib/seo";
+import { buildMetadata, SITE_URL } from "@/lib/seo";
 import { getPublicGuideBySlug } from "@/lib/public-guides";
 import {
   guideTitle,
@@ -99,9 +99,13 @@ const methodProducts = (method: number) => products.filter((p) => p.method === m
 export default async function SmallDeskOrganizationIdeasPage() {
   const dbGuide = await getPublicGuideBySlug("small-desk-organization-ideas");
   const heroImage = dbGuide?.thumbnailImage || dbGuide?.heroImage || fallbackHeroImage;
+  const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: guideTitle, description: metaDescription, datePublished: "2026-05-27", dateModified: "2026-05-27", author: { "@type": "Person", name: "Jamie Cole", url: `${SITE_URL}/author/jamie-cole` }, publisher: { "@type": "Organization", name: "DeskFinds", url: SITE_URL }, mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/guide/small-desk-organization-ideas` } };
+  const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: SITE_URL }, { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` }, { "@type": "ListItem", position: 3, name: guideTitle, item: `${SITE_URL}/guide/small-desk-organization-ideas` }] };
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Container className="py-12 max-w-4xl">
 
         {/* Breadcrumb */}
