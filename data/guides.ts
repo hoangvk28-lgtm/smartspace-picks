@@ -1072,6 +1072,33 @@ export const guides: Guide[] = [
   },
 
   {
+    title: "Best Charging Stations for Desk: Clean Picks for Workspaces and Small Desks",
+    slug: "best-charging-stations-for-desk",
+    categorySlug: "desk-setup",
+    subcategorySlug: "accessories",
+    description:
+      "7 tested desk charging station picks across USB-C, wireless, multi-device, compact, organizer, and budget categories -- with buying guide, wattage tables, and desk footprint comparison.",
+    mainKeyword: "best charging stations for desk",
+    subKeywords: [
+      "desk charging station",
+      "USB-C charging station desk",
+      "wireless charging station desk",
+      "compact charging station small desk",
+      "best charging hub for desk",
+      "multi device charging station desk",
+    ],
+    heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-charging-stations-for-desk/best-charging-stations-for-desk-hero.webp",
+    lastUpdated: "2026-06-03",
+    author: "Jamie Cole",
+    readTime: "14 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: ["best-usb-hub-for-desk", "best-under-desk-cable-trays", "desk-setup-essentials"],
+    buyingCriteria: [],
+  },
+
+  {
     title: "Best Desk Mat for Small Desk -- 8 Picks for Dorms & Compact Setups (2026)",
     slug: "best-desk-mat-for-small-desk",
     categorySlug: "desk-setup",
