@@ -1152,6 +1152,32 @@ export const guides: Guide[] = [
   },
 
   {
+    title: "Best Desk Charging Stations for Multiple Devices",
+    slug: "best-charging-stations-for-multiple-devices-desk",
+    categorySlug: "desk-setup",
+    subcategorySlug: "accessories",
+    description:
+      "6 multi-device desk charging stations ranked by device count, with a watt-per-device calculator to buy exactly the right wattage -- from 2-device setups to 10-port family hubs.",
+    mainKeyword: "best charging stations for multiple devices desk",
+    subKeywords: [
+      "multi device charging station desk",
+      "charging station 6 devices",
+      "family charging station desk",
+      "10 port charging station",
+      "best multi device charger desk",
+    ],
+    heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-charging-stations-for-multiple-devices-desk/07-hero-charging-stations-for-multiple-devices-desk.webp",
+    lastUpdated: "2026-06-03",
+    author: "Jamie Cole",
+    readTime: "12 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: ["best-charging-stations-for-desk", "best-wireless-charging-stations-for-desk", "best-usb-hub-for-desk"],
+    buyingCriteria: [],
+  },
+
+  {
     title: "Best Desk Mat for Small Desk -- 8 Picks for Dorms & Compact Setups (2026)",
     slug: "best-desk-mat-for-small-desk",
     categorySlug: "desk-setup",
