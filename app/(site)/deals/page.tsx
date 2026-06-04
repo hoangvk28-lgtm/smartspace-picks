@@ -264,7 +264,7 @@ export default async function DealsPage() {
                 key={chip.key}
                 href={amazonSearchLinks[chip.key]}
                 target="_blank"
-                rel="noopener noreferrer sponsored"
+                rel="nofollow sponsored noopener noreferrer"
                 className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-full text-sm font-medium bg-white border border-border text-ink-secondary hover:border-brand hover:text-brand hover:bg-brand-light transition-all min-h-[44px]"
               >
                 <svg className="w-3.5 h-3.5 shrink-0 opacity-60" viewBox="0 0 24 24" fill="currentColor">

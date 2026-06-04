@@ -1,4 +1,5 @@
 ﻿import Link from "next/link";
+import Image from "next/image";
 import { products as staticProducts } from "@/data/products";
 import { getPublicHomepageSettings } from "@/lib/public-settings";
 import type { HomepageSettings } from "@/lib/site-settings-store";
@@ -22,15 +23,17 @@ export async function HeroSection({ settings: propSettings }: Props = {}) {
     : [...staticProducts].sort((a, b) => b.scores.overall - a.scores.overall).slice(0, 4);
 
   return (
-    <section
-      className="relative overflow-hidden"
-      style={{
-        backgroundImage: "url('/hero-banner.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center right",
-        backgroundRepeat: "no-repeat",
-      }}
-    >
+    <section className="relative overflow-hidden">
+      {/* Hero background image — priority for LCP */}
+      <Image
+        src="/hero-banner.jpg"
+        alt="Amazon buying guides for small desks, dorm rooms, and compact home offices"
+        fill
+        priority
+        fetchPriority="high"
+        className="object-cover object-right"
+        sizes="100vw"
+      />
       {/* Dark overlay to keep text readable */}
       <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, rgba(12,21,37,0.92) 0%, rgba(22,41,68,0.80) 55%, rgba(12,21,37,0.70) 100%)" }} aria-hidden="true" />
 
@@ -91,7 +94,7 @@ export async function HeroSection({ settings: propSettings }: Props = {}) {
                   key={link.href}
                   href={link.href}
                   target="_blank"
-                  rel="noopener noreferrer sponsored"
+                  rel="nofollow sponsored noopener noreferrer"
                   className="text-xs px-3 py-2.5 rounded-badge font-medium transition-all hover:bg-blue-500 hover:text-white hover:border-blue-500 min-h-[44px] flex items-center"
                   style={{ background: "rgba(255,255,255,0.11)", color: "rgba(255,255,255,0.82)", border: "1px solid rgba(255,255,255,0.18)" }}
                 >

@@ -79,8 +79,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const category = getCategoryBySlug(slug);
   if (!category) return {};
   return buildMetadata({
-    title: `${category.name} — Small Space Buying Guides & Product Reviews`,
-    description: category.description,
+    title: `${category.name} Buying Guides`,
+    description: `Browse ${category.name.toLowerCase()} buying guides and product reviews for small desks, dorm rooms, and compact spaces on DeskFinds.`,
     path: `/categories/${slug}`,
   });
 }

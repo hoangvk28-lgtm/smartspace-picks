@@ -31,7 +31,7 @@ function PickSection({ pick }: { pick: AccessoryPick }) {
             #1
           </span>
           <div className="flex-1 min-w-0">
-            <a href={pick.amazonUrl} target="_blank" rel="noopener noreferrer sponsored"
+            <a href={pick.amazonUrl} target="_blank" rel="nofollow sponsored noopener noreferrer"
               className="font-bold text-ink text-base leading-tight hover:text-brand transition-colors">
               {pick.name}
             </a>
@@ -43,7 +43,7 @@ function PickSection({ pick }: { pick: AccessoryPick }) {
         <div className="p-5">
           <div className="flex flex-col sm:flex-row gap-5 mb-5">
             {/* Image */}
-            <a href={pick.amazonUrl} target="_blank" rel="noopener noreferrer sponsored"
+            <a href={pick.amazonUrl} target="_blank" rel="nofollow sponsored noopener noreferrer"
               className="shrink-0 flex items-center justify-center w-full sm:w-64 h-56 rounded-xl border border-border bg-gray-50 overflow-hidden hover:opacity-90 transition-opacity">
               <Image src={pick.imageUrl} alt={pick.name} width={240} height={200}
                 className="object-contain w-full h-full p-3" unoptimized />
@@ -85,7 +85,7 @@ function PickSection({ pick }: { pick: AccessoryPick }) {
               </div>
 
               {/* CTA */}
-              <a href={pick.amazonUrl} target="_blank" rel="noopener noreferrer sponsored"
+              <a href={pick.amazonUrl} target="_blank" rel="nofollow sponsored noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90 transition-opacity mt-auto"
                 style={{ background: "#FF9900" }}>
                 <svg className="w-3.5 h-3.5 shrink-0" viewBox="0 0 24 24" fill="currentColor">
@@ -109,13 +109,13 @@ function PickSection({ pick }: { pick: AccessoryPick }) {
                 {pick.altPicks.map((alt, i) => (
                   <div key={i} className="flex items-start justify-between gap-3 p-3 rounded-xl bg-gray-50 border border-border">
                     <div className="flex-1 min-w-0">
-                      <a href={alt.amazonUrl} target="_blank" rel="noopener noreferrer sponsored"
+                      <a href={alt.amazonUrl} target="_blank" rel="nofollow sponsored noopener noreferrer"
                         className="text-sm font-semibold text-ink hover:text-brand transition-colors">
                         {alt.name}
                       </a>
                       <p className="text-xs text-ink-muted mt-0.5">{alt.why}</p>
                     </div>
-                    <a href={alt.amazonUrl} target="_blank" rel="noopener noreferrer sponsored"
+                    <a href={alt.amazonUrl} target="_blank" rel="nofollow sponsored noopener noreferrer"
                       className="shrink-0 text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap"
                       style={{ background: "#FF9900" }}>
                       {alt.price}
@@ -217,7 +217,7 @@ export default async function BestDeskSetupAccessoriesPage() {
                     <td className="px-4 py-3 text-ink-secondary">{p.name}</td>
                     <td className="px-4 py-3 text-ink-secondary font-medium hidden sm:table-cell">{p.price}</td>
                     <td className="px-4 py-3">
-                      <a href={p.amazonUrl} target="_blank" rel="noopener noreferrer sponsored"
+                      <a href={p.amazonUrl} target="_blank" rel="nofollow sponsored noopener noreferrer"
                         className="text-xs font-semibold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block"
                         style={{ background: "#FF9900" }}>
                         Check price
@@ -279,7 +279,7 @@ export default async function BestDeskSetupAccessoriesPage() {
         <div className="my-10 p-8 rounded-2xl flex flex-col items-center text-center" style={{ background: "linear-gradient(135deg, #fff7ed, #fff3e0)", border: "1px solid #fed7aa" }}>
           <p className="text-base font-semibold text-ink mb-1">Browse all desk setup accessories on Amazon</p>
           <p className="text-sm text-ink-secondary mb-5">See current prices, deals, and Prime shipping options</p>
-          <a href="https://www.amazon.com/s?k=desk+setup+accessories&tag=deskfinds0d-20" target="_blank" rel="noopener noreferrer sponsored"
+          <a href="https://www.amazon.com/s?k=desk+setup+accessories&tag=deskfinds0d-20" target="_blank" rel="nofollow sponsored noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-bold text-white hover:opacity-90 transition-opacity" style={{ background: "#FF9900" }}>
             <svg className="w-4 h-4 shrink-0" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
               <path d="M12.26 18.36C9.18 20.34 4.76 21.38 1 20.16c-.38-.13-.33-.44.08-.35 3.47.67 7.77-.07 10.6-1.82.47-.27.87.17.58.37zm1.06-1.17c-.43-.56-2.85-.27-3.94-.13-.33.04-.38-.25-.08-.46 1.93-1.36 5.1-.97 5.47-.51.37.46-.1 3.63-1.91 5.14-.28.23-.54.11-.42-.2.41-.98 1.32-3.28.88-3.84z" />

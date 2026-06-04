@@ -20,7 +20,7 @@ export function Header() {
           href="/affiliate-disclosure"
           className="shrink-0 font-semibold text-white bg-white/20 hover:bg-white/30 px-2 py-0.5 rounded transition-colors whitespace-nowrap"
         >
-          Learn more
+          Affiliate disclosure
         </Link>
       </div>
 

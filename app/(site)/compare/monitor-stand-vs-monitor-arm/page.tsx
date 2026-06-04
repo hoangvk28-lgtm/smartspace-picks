@@ -90,7 +90,7 @@ function PickCard({ pick }: { pick: ComparePick }) {
               <a
                 href={pick.amazonUrl}
                 target="_blank"
-                rel="noopener noreferrer sponsored"
+                rel="nofollow sponsored noopener noreferrer"
                 className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap"
                 style={{ background: "#FF9900" }}
               >
@@ -442,7 +442,7 @@ export default function MonitorStandVsArmPage() {
                 </div>
                 <div className="sm:w-28 sm:shrink-0 flex flex-col items-center gap-2">
                   <Image src={dualArmPick.imageUrl} alt={dualArmPick.name} width={112} height={80} className="w-full h-20 object-contain rounded-lg bg-gray-50" unoptimized />
-                  <a href={dualArmPick.amazonUrl} target="_blank" rel="noopener noreferrer sponsored" className="text-xs font-bold px-3 py-1.5 rounded-lg text-white w-full text-center" style={{ background: "#FF9900" }}>
+                  <a href={dualArmPick.amazonUrl} target="_blank" rel="nofollow sponsored noopener noreferrer" className="text-xs font-bold px-3 py-1.5 rounded-lg text-white w-full text-center" style={{ background: "#FF9900" }}>
                     View Dual Arm
                   </a>
                 </div>

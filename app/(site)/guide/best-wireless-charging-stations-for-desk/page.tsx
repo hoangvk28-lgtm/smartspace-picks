@@ -48,7 +48,7 @@ function ProductSection({ product }: { product: WirelessProduct }) {
           <a
             href={product.amazonUrl}
             target="_blank"
-            rel="noopener noreferrer sponsored"
+            rel="nofollow sponsored noopener noreferrer"
             className="shrink-0 flex items-center justify-center w-full sm:w-60 h-52 rounded-xl border border-border bg-gray-50 overflow-hidden hover:opacity-90 transition-opacity"
           >
             <Image src={product.imageUrl} alt={product.name} width={220} height={200} className="object-contain w-full h-full p-3" unoptimized />
@@ -74,7 +74,7 @@ function ProductSection({ product }: { product: WirelessProduct }) {
             <a
               href={product.amazonUrl}
               target="_blank"
-              rel="noopener noreferrer sponsored"
+              rel="nofollow sponsored noopener noreferrer"
               className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90 transition-opacity w-fit mt-auto"
               style={{ background: "#FF9900" }}
             >
@@ -216,7 +216,7 @@ export default async function BestWirelessChargingStationsPage() {
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{p.devices}</td>
                     <td className="px-4 py-3 text-ink-secondary text-xs">{p.priceRange}</td>
                     <td className="px-4 py-3">
-                      <a href={p.amazonUrl} target="_blank" rel="noopener noreferrer sponsored" className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>Check price</a>
+                      <a href={p.amazonUrl} target="_blank" rel="nofollow sponsored noopener noreferrer" className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>Check price</a>
                     </td>
                   </tr>
                 ))}
@@ -515,7 +515,7 @@ export default async function BestWirelessChargingStationsPage() {
           <a
             href="https://www.amazon.com/s?k=wireless+charging+station+desk&tag=deskfinds0d-20"
             target="_blank"
-            rel="noopener noreferrer sponsored"
+            rel="nofollow sponsored noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors"
             style={{ color: "#FF9900" }}
           >

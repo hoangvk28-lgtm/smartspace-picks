@@ -88,7 +88,7 @@ export function CategoryGrid() {
                 <a
                   href={amazonSearchLinks[cat.slug]}
                   target="_blank"
-                  rel="noopener noreferrer sponsored"
+                  rel="nofollow sponsored noopener noreferrer"
                   className="mt-auto flex items-center gap-1.5 text-xs font-semibold px-3 py-2 rounded-lg transition-all hover:opacity-80"
                   style={{ background: cat.color + "15", color: cat.color, border: `1px solid ${cat.color}30` }}
                 >

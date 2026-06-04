@@ -78,7 +78,7 @@ export function ProductReviewCard({
             <a
               href={affiliateUrl}
               target="_blank"
-              rel="noopener noreferrer sponsored"
+              rel="nofollow sponsored noopener noreferrer"
               className="font-bold text-ink text-base leading-tight hover:text-brand transition-colors"
             >
               <h3>{name}</h3>
@@ -116,7 +116,7 @@ export function ProductReviewCard({
           <a
             href={affiliateUrl}
             target="_blank"
-            rel="noopener noreferrer sponsored"
+            rel="nofollow sponsored noopener noreferrer"
             className="shrink-0 flex items-center justify-center w-full sm:w-64 h-56 rounded-xl bg-bg border border-border overflow-hidden hover:opacity-90 transition-opacity"
           >
             <Image
@@ -186,7 +186,7 @@ export function ProductReviewCard({
               <a
                 href={affiliateUrl}
                 target="_blank"
-                rel="noopener noreferrer sponsored"
+                rel="nofollow sponsored noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold transition-all hover:opacity-90 text-white"
                 style={{ background: "#FF9900" }}
               >

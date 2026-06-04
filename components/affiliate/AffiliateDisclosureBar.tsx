@@ -54,7 +54,7 @@ export function AffiliateDisclosureBar({
         href="/affiliate-disclosure"
         className="underline underline-offset-2 hover:text-brand transition-colors"
       >
-        Learn more
+        Affiliate disclosure
       </Link>
     </p>
   );

@@ -58,7 +58,7 @@ function AtAGlanceRow({ item }: { item: AtAGlanceItem }) {
         <a
           href={item.affiliateUrl}
           target="_blank"
-          rel="noopener noreferrer sponsored"
+          rel="nofollow sponsored noopener noreferrer"
           className="shrink-0 px-4 py-2 rounded-lg text-xs font-bold text-white transition-all hover:opacity-90 whitespace-nowrap"
           style={{ background: "#FF9900" }}
         >

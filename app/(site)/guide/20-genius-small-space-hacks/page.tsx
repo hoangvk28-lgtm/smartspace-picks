@@ -62,7 +62,7 @@ function HackCard({ hack }: { hack: SpaceHack }) {
         <div className="flex-1 min-w-0">
           <div className="flex items-start justify-between gap-3 mb-2">
             <h4 className="font-bold text-ink text-sm leading-snug">{hack.name}</h4>
-            <a href={hack.amazonUrl} target="_blank" rel="noopener noreferrer sponsored"
+            <a href={hack.amazonUrl} target="_blank" rel="nofollow sponsored noopener noreferrer"
               className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap shrink-0" style={{ background: "#FF9900" }}>
               Check price
             </a>
@@ -314,7 +314,7 @@ export default async function SmallSpaceHacksPage() {
                         <span className="text-xs font-semibold px-2 py-0.5 rounded-full" style={{ background: c.bg, color: c.text }}>{zoneLabel[h.zone]}</span>
                       </td>
                       <td className="px-4 py-2.5">
-                        <a href={h.amazonUrl} target="_blank" rel="noopener noreferrer sponsored"
+                        <a href={h.amazonUrl} target="_blank" rel="nofollow sponsored noopener noreferrer"
                           className="text-xs font-semibold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>
                           {h.price}
                         </a>
@@ -344,7 +344,7 @@ export default async function SmallSpaceHacksPage() {
         <div className="my-10 p-8 rounded-2xl flex flex-col items-center text-center" style={{ background: "linear-gradient(135deg, #fff7ed, #fff3e0)", border: "1px solid #fed7aa" }}>
           <p className="text-base font-semibold text-ink mb-1">Browse all small-space storage solutions on Amazon</p>
           <p className="text-sm text-ink-secondary mb-5">See current prices, deals, and Prime shipping</p>
-          <a href="https://www.amazon.com/s?k=small+space+storage+hacks+dorm&tag=deskfinds0d-20" target="_blank" rel="noopener noreferrer sponsored"
+          <a href="https://www.amazon.com/s?k=small+space+storage+hacks+dorm&tag=deskfinds0d-20" target="_blank" rel="nofollow sponsored noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-bold text-white hover:opacity-90 transition-opacity" style={{ background: "#FF9900" }}>
             <svg className="w-4 h-4 shrink-0" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
               <path d="M12.26 18.36C9.18 20.34 4.76 21.38 1 20.16c-.38-.13-.33-.44.08-.35 3.47.67 7.77-.07 10.6-1.82.47-.27.87.17.58.37zm1.06-1.17c-.43-.56-2.85-.27-3.94-.13-.33.04-.38-.25-.08-.46 1.93-1.36 5.1-.97 5.47-.51.37.46-.1 3.63-1.91 5.14-.28.23-.54.11-.42-.2.41-.98 1.32-3.28.88-3.84z" />

@@ -670,7 +670,7 @@ export default async function BuyingGuidePage({ params }: Props) {
             <a
               href={amazonSearchLinks[guide.slug] ?? amazonSearchLinks[guide.categorySlug]}
               target="_blank"
-              rel="noopener noreferrer sponsored"
+              rel="nofollow sponsored noopener noreferrer"
               className="shrink-0 inline-flex items-center gap-2 px-4 py-2.5 rounded-lg text-sm font-semibold bg-[#FF9900] text-white hover:bg-[#e68900] transition-colors whitespace-nowrap"
             >
               <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">

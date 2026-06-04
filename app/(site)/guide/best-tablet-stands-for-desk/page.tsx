@@ -25,7 +25,7 @@ export const revalidate = 86400;
 
 export const metadata: Metadata = {
   ...buildMetadata({
-    title: "Best Tablet Stands for Desk: Stable Picks for Study, Work, and Video Calls",
+    title: "Best Tablet Stands for Desk (2026)",
     description:
       "The best tablet stand for desk use should save space, stay stable when you tap, and fit how you use your tablet — studying, reading, video calls, or second-screen work. Seven picks for small desks and dorm rooms.",
     path: "/guide/best-tablet-stands-for-desk",

@@ -11,6 +11,8 @@ const nextConfig: NextConfig = {
           { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
           { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
           { key: "Strict-Transport-Security", value: "max-age=63072000; includeSubDomains; preload" },
+          { key: "Content-Security-Policy", value: "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.googletagmanager.com *.google-analytics.com; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' *.google-analytics.com *.supabase.co; style-src 'self' 'unsafe-inline'; frame-ancestors 'self';" },
+          { key: "Cross-Origin-Opener-Policy", value: "same-origin-allow-popups" },
         ],
       },
     ];
@@ -26,6 +28,18 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/about",
+        destination: "/about-deskfinds",
+        permanent: true,
+      },
+      // Fix 404: broken guide URL → correct slug
+      {
+        source: "/guide/best-monitor-stand-for-small-desk",
+        destination: "/guide/monitor-stands-small-desks",
+        permanent: true,
+      },
+      // Fix 404: /author listing page → about page
+      {
+        source: "/author",
         destination: "/about-deskfinds",
         permanent: true,
       },

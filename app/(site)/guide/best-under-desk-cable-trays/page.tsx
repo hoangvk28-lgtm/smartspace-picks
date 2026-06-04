@@ -68,7 +68,7 @@ function TrayCard({ tray }: { tray: CableTray }) {
             <a
               href={tray.amazonUrl}
               target="_blank"
-              rel="noopener noreferrer sponsored"
+              rel="nofollow sponsored noopener noreferrer"
               className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap"
               style={{ background: "#FF9900" }}
             >

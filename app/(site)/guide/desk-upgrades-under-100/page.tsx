@@ -78,7 +78,7 @@ function ProductCard({ product, upgradeNum }: { product: UpgradeProduct; upgrade
           <a
             href={product.amazonUrl}
             target="_blank"
-            rel="noopener noreferrer sponsored"
+            rel="nofollow sponsored noopener noreferrer"
             className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap shrink-0"
             style={{ background: "#FF9900" }}
           >
@@ -400,7 +400,7 @@ export default async function DeskUpgradesUnder100Page() {
                       <a href={`#${row.id}`} className="font-semibold text-ink hover:text-brand transition-colors">{row.name}</a>
                     </td>
                     <td className="px-4 py-3">
-                      <a href={row.amazonUrl} target="_blank" rel="noopener noreferrer sponsored" className="text-xs font-semibold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>
+                      <a href={row.amazonUrl} target="_blank" rel="nofollow sponsored noopener noreferrer" className="text-xs font-semibold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>
                         Check price
                       </a>
                     </td>
@@ -455,7 +455,7 @@ export default async function DeskUpgradesUnder100Page() {
           <a
             href="https://www.amazon.com/s?k=ergonomic+desk+upgrades&tag=deskfinds0d-20"
             target="_blank"
-            rel="noopener noreferrer sponsored"
+            rel="nofollow sponsored noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-bold text-white transition-all hover:opacity-90"
             style={{ background: "#FF9900" }}
           >

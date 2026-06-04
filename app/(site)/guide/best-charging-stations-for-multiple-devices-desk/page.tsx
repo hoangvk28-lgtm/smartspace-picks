@@ -45,7 +45,7 @@ function ProductSection({ product }: { product: MultiDeviceProduct }) {
 
       <div className="rounded-2xl border border-border bg-white overflow-hidden shadow-card">
         <div className="flex flex-col sm:flex-row gap-5 p-5">
-          <a href={product.amazonUrl} target="_blank" rel="noopener noreferrer sponsored"
+          <a href={product.amazonUrl} target="_blank" rel="nofollow sponsored noopener noreferrer"
             className="shrink-0 flex items-center justify-center w-full sm:w-60 h-52 rounded-xl border border-border bg-gray-50 overflow-hidden hover:opacity-90 transition-opacity">
             <Image src={product.imageUrl} alt={product.name} width={220} height={200} className="object-contain w-full h-full p-3" unoptimized />
           </a>
@@ -65,7 +65,7 @@ function ProductSection({ product }: { product: MultiDeviceProduct }) {
               <p key={i} className="text-sm text-ink-secondary leading-relaxed">{para}</p>
             ))}
 
-            <a href={product.amazonUrl} target="_blank" rel="noopener noreferrer sponsored"
+            <a href={product.amazonUrl} target="_blank" rel="nofollow sponsored noopener noreferrer"
               className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90 transition-opacity w-fit mt-auto"
               style={{ background: "#FF9900" }}>
               <svg className="w-3.5 h-3.5 shrink-0" viewBox="0 0 24 24" fill="currentColor">
@@ -495,7 +495,7 @@ export default async function BestMultipleDevicesChargingPage() {
         <section className="mb-14 p-6 rounded-2xl flex flex-col items-center text-center" style={{ background: "linear-gradient(135deg, #FF9900 0%, #e68900 100%)" }}>
           <h2 className="text-xl font-bold text-white mb-2">Browse multi-device charging stations on Amazon</h2>
           <p className="text-white/90 text-sm mb-5">All products are Prime-eligible with free delivery.</p>
-          <a href="https://www.amazon.com/s?k=multi+device+charging+station+desk&tag=deskfinds0d-20" target="_blank" rel="noopener noreferrer sponsored"
+          <a href="https://www.amazon.com/s?k=multi+device+charging+station+desk&tag=deskfinds0d-20" target="_blank" rel="nofollow sponsored noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors" style={{ color: "#FF9900" }}>
             Shop on Amazon &rarr;
           </a>

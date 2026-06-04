@@ -80,7 +80,7 @@ function LampCard({ lamp }: { lamp: ClipLamp }) {
               <a
                 href={lamp.amazonUrl}
                 target="_blank"
-                rel="noopener noreferrer sponsored"
+                rel="nofollow sponsored noopener noreferrer"
                 className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap"
                 style={{ background: "#FF9900" }}
               >
@@ -247,7 +247,7 @@ export default async function BestClipOnDeskLampPage() {
                     <td className="px-4 py-3 text-ink-secondary text-sm">{item.badge}</td>
                     <td className="px-4 py-3 text-center"><ScoreChip score={item.score} /></td>
                     <td className="px-4 py-3">
-                      <a href={item.amazonUrl} target="_blank" rel="noopener noreferrer sponsored" className="text-xs font-semibold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>
+                      <a href={item.amazonUrl} target="_blank" rel="nofollow sponsored noopener noreferrer" className="text-xs font-semibold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>
                         Check price
                       </a>
                     </td>
@@ -402,7 +402,7 @@ export default async function BestClipOnDeskLampPage() {
           <a
             href="https://www.amazon.com/s?k=clip+on+desk+lamp&tag=deskfinds0d-20"
             target="_blank"
-            rel="noopener noreferrer sponsored"
+            rel="nofollow sponsored noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-bold text-white transition-all hover:opacity-90"
             style={{ background: "#FF9900" }}
           >

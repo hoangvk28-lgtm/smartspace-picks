@@ -78,7 +78,7 @@ export const ideas: SetupIdea[] = [
     amazonUrl: "https://www.amazon.com/dp/B07XDYHX5B?tag=deskfinds0d-20",
     whyItHelps: ["Creates under-stand storage space", "Raises screen to eye level", "Bamboo looks clean on small desks"],
     skipIf: "You use an adjustable monitor arm -- the arm already handles height, and a riser would block the space the arm needs.",
-    internalLink: { href: "/guide/best-monitor-stand-for-small-desk", anchor: "monitor-stand-small-desk", text: "best monitor stands for small desks" },
+    internalLink: { href: "/guide/monitor-stands-small-desks", anchor: "monitor-stand-small-desk", text: "best monitor stands for small desks" },
   },
   {
     id: "laptop-stand",

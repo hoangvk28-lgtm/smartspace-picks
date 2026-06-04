@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: [
       {
         userAgent: "*",
-        allow: "/",
+        allow: ["/", "/_next/static/", "/_next/image"],
         disallow: [
           "/admin",
           "/admin/",
@@ -26,6 +26,8 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: "Google-Extended", allow: "/" },
       { userAgent: "Applebot-Extended", allow: "/" },
       { userAgent: "Bingbot", allow: "/" },
+      { userAgent: "Bytespider", allow: "/" },
+      { userAgent: "CCBot", allow: "/" },
     ],
     sitemap: `${SITE_URL}/sitemap.xml`,
     host: SITE_URL,

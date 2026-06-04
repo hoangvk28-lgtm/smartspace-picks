@@ -40,7 +40,7 @@ function IdeaSection({ idea, flip }: { idea: MinimalIdea; flip: boolean }) {
         <a
           href={idea.amazonUrl}
           target="_blank"
-          rel="noopener noreferrer sponsored"
+          rel="nofollow sponsored noopener noreferrer"
           className="shrink-0 w-full sm:w-60 h-52 rounded-2xl border border-border bg-gray-50 overflow-hidden hover:opacity-90 transition-opacity flex items-center justify-center"
         >
           <Image
@@ -77,7 +77,7 @@ function IdeaSection({ idea, flip }: { idea: MinimalIdea; flip: boolean }) {
               <a
                 href={idea.amazonUrl}
                 target="_blank"
-                rel="noopener noreferrer sponsored"
+                rel="nofollow sponsored noopener noreferrer"
                 className="shrink-0 inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90 transition-opacity whitespace-nowrap"
                 style={{ background: "#FF9900" }}
               >
@@ -100,7 +100,7 @@ function IdeaSection({ idea, flip }: { idea: MinimalIdea; flip: boolean }) {
                 <a
                   href={idea.altProduct.amazonUrl}
                   target="_blank"
-                  rel="noopener noreferrer sponsored"
+                  rel="nofollow sponsored noopener noreferrer"
                   className="shrink-0 text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap"
                   style={{ background: "#FF9900" }}
                 >
@@ -368,7 +368,7 @@ export default async function MinimalistDeskSetupPage() {
           <a
             href="https://www.amazon.com/s?k=minimalist+desk+accessories&tag=deskfinds0d-20"
             target="_blank"
-            rel="noopener noreferrer sponsored"
+            rel="nofollow sponsored noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors"
             style={{ color: "#FF9900" }}
           >
