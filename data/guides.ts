@@ -1344,6 +1344,25 @@ export const guides: Guide[] = [
   },
 
   {
+    title: "Top 6 Best Office Chair Under $100: Picked for Desks, Dorms, and Long Study Sessions",
+    slug: "best-office-chair-under-100",
+    categorySlug: "dorm-essentials",
+    subcategorySlug: "accessories",
+    description: "6 office chairs under $100 for desks, dorms, and long study sessions -- covers ergonomic features that actually matter, height matching guide, small desk compatibility, and warranty reference.",
+    mainKeyword: "best office chair under 100",
+    subKeywords: ["budget ergonomic office chair", "best chair for studying", "dorm room office chair", "cheap desk chair under 100", "office chair for students"],
+    heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-office-chair-under-100/07-hero-best-office-chair-under-100.webp",
+    lastUpdated: "2026-06-04",
+    author: "Jamie Cole",
+    readTime: "12 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: ["ergonomic-desk-setup", "best-dorm-items-under-25", "desk-setup-essentials"],
+    buyingCriteria: [],
+  },
+
+  {
     title: "Best Desk Mat for Small Desk -- 8 Picks for Dorms & Compact Setups (2026)",
     slug: "best-desk-mat-for-small-desk",
     categorySlug: "desk-setup",
