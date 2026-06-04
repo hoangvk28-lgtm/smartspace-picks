@@ -41,6 +41,21 @@ const guideSlugs = [
   "best-headphone-stand-desk",
   "best-under-desk-cable-trays",
   "small-desk-organization-ideas",
+  // Charging station cluster (added 2026-06-04)
+  "best-charging-stations-for-desk",
+  "best-small-desk-charging-stations",
+  "best-wireless-charging-stations-for-desk",
+  "best-charging-stations-for-multiple-devices-desk",
+  "best-charging-station-desk-organizers",
+  "best-docking-stations-for-desk-setup",
+  "best-docking-stations-for-laptop-and-desktop",
+  "under-desk-charging-station",
+  "best-charging-stations-for-bedside-table",
+  "best-charging-stations-for-home-office",
+  // Student/budget guides (added 2026-06-04)
+  "best-desk-lamp-under-30",
+  "best-headphones-for-online-classes",
+  "best-office-chair-under-100",
 ];
 
 // Compare articles
