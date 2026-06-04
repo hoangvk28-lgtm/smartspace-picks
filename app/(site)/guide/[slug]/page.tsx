@@ -12,6 +12,7 @@ import { Badge } from "@/components/ui/Badge";
 import { RichContent } from "@/components/ui/RichContent";
 import { MobileStickyPicksCTA } from "@/components/sections/MobileStickyPicksCTA";
 import { getPublicGuideBySlug, getPublicGuideSlugs, getRelatedPublicGuides, getPublicGuides } from "@/lib/public-guides";
+import type { GuideProductPick } from "@/lib/public-guides";
 import { getPublicProducts } from "@/lib/public-products";
 import { buildMetadata } from "@/lib/seo";
 import { formatDate, scoreToColor } from "@/lib/utils";
@@ -442,6 +443,11 @@ export default async function BuyingGuidePage({ params }: Props) {
           </section>
         )}
 
+        {/* ── 6c. Inline product picks (DB-stored GuideProductPick) ────── */}
+        {(guide as { productPicks?: GuideProductPick[] }).productPicks?.length ? (
+          <InlineProductPicks picks={(guide as { productPicks?: GuideProductPick[] }).productPicks!} />
+        ) : null}
+
         {/* ── 7. Detailed product reviews ─────────────────────────────── */}
         {picks.length > 0 && (
           <section className="mb-12" aria-label="Detailed product reviews">
@@ -702,5 +708,173 @@ export default async function BuyingGuidePage({ params }: Props) {
       {/* ── 15. Sticky mobile CTA ───────────────────────────────────────── */}
       <MobileStickyPicksCTA label="View top picks" targetId="picks" />
     </>
+  );
+}
+
+// ── Inline product picks (from DB product_picks JSONB column) ─────────────────
+
+function InlineProductPicks({ picks }: { picks: GuideProductPick[] }) {
+  return (
+    <section className="mb-12" aria-label="Top product picks">
+      <h2 className="text-2xl font-bold text-ink mb-2 tracking-tight">Our Top Picks</h2>
+
+      {/* At-a-glance quick table */}
+      <div className="rounded-card border border-border overflow-hidden mb-8">
+        <table className="w-full text-sm">
+          <thead className="bg-bg border-b border-border">
+            <tr>
+              <th className="text-left px-4 py-3 font-semibold text-ink-secondary text-xs uppercase tracking-wide">#</th>
+              <th className="text-left px-4 py-3 font-semibold text-ink-secondary text-xs uppercase tracking-wide">Product</th>
+              <th className="text-left px-4 py-3 font-semibold text-ink-secondary text-xs uppercase tracking-wide hidden sm:table-cell">Badge</th>
+              <th className="text-left px-4 py-3 font-semibold text-ink-secondary text-xs uppercase tracking-wide hidden sm:table-cell">Price Tier</th>
+              <th className="text-left px-4 py-3 font-semibold text-ink-secondary text-xs uppercase tracking-wide">Score</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-border">
+            {picks.map((pick, i) => (
+              <tr key={pick.id} className="hover:bg-bg/60 transition-colors">
+                <td className="px-4 py-3 text-ink-muted font-medium">{i + 1}</td>
+                <td className="px-4 py-3 font-medium text-ink">
+                  <a href={`#inline-pick-${pick.id}`} className="hover:text-brand transition-colors scroll-smooth">{pick.name}</a>
+                </td>
+                <td className="px-4 py-3 text-ink-secondary hidden sm:table-cell">{pick.badge || "—"}</td>
+                <td className="px-4 py-3 text-ink-secondary hidden sm:table-cell">{pick.priceLabel}</td>
+                <td className="px-4 py-3">
+                  {pick.fitScore != null ? (
+                    <span className={`font-bold text-sm ${scoreToColor(pick.fitScore)}`}>
+                      {pick.fitScore.toFixed(1)}
+                    </span>
+                  ) : "—"}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      {/* Detailed pick cards */}
+      <div className="flex flex-col gap-6">
+        {picks.map((pick, i) => (
+          <div key={pick.id} id={`inline-pick-${pick.id}`} className="scroll-mt-20">
+            <InlinePickCard pick={pick} rank={i + 1} />
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function InlinePickCard({ pick, rank }: { pick: GuideProductPick; rank: number }) {
+  return (
+    <div className="rounded-card border border-border overflow-hidden bg-white">
+      <div className="flex flex-col sm:flex-row">
+        {/* Image */}
+        <div className="sm:w-52 bg-bg flex items-center justify-center p-5 shrink-0">
+          {pick.imageUrl ? (
+            <div className="relative w-36 h-36">
+              <Image
+                src={pick.imageUrl}
+                alt={pick.name}
+                fill
+                className="object-contain"
+                sizes="144px"
+              />
+            </div>
+          ) : (
+            <div className="w-36 h-36 bg-gray-100 rounded-lg" aria-hidden="true" />
+          )}
+        </div>
+
+        {/* Details */}
+        <div className="flex-1 p-5 sm:p-6">
+          <div className="flex flex-wrap items-center gap-2 mb-1">
+            <span className="text-xs font-bold text-ink-muted">#{rank}</span>
+            {pick.badge && (
+              <Badge>{pick.badge}</Badge>
+            )}
+            <span className="text-xs text-ink-muted px-2 py-0.5 rounded-full bg-bg border border-border">{pick.priceLabel}</span>
+          </div>
+
+          <h3 className="text-lg font-bold text-ink mb-0.5 leading-snug flex flex-wrap items-center gap-2 min-w-0 break-words">
+            {pick.name}
+          </h3>
+          {pick.brand && <p className="text-sm text-ink-muted mb-2">{pick.brand}</p>}
+
+          {pick.fitScore != null && (
+            <p className="text-xs text-ink-muted mb-2">
+              DeskFinds Fit Score: <span className={`font-bold text-sm ${scoreToColor(pick.fitScore)}`}>{pick.fitScore.toFixed(1)}/10</span>
+            </p>
+          )}
+
+          <p className="text-sm text-ink-secondary leading-relaxed mb-3">{pick.summary}</p>
+
+          {pick.whyItWins && (
+            <p className="text-sm text-ink-secondary italic border-l-2 border-brand pl-3 mb-3">{pick.whyItWins}</p>
+          )}
+
+          <div className="flex flex-wrap gap-4 text-xs text-ink-muted mb-3">
+            {pick.bestFor && (
+              <span><span className="font-semibold text-ink">Best for:</span> {pick.bestFor}</span>
+            )}
+            {pick.skipIf && (
+              <span><span className="font-semibold text-ink">Skip if:</span> {pick.skipIf}</span>
+            )}
+          </div>
+
+          {/* Specs */}
+          {pick.specs?.length > 0 && (
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-x-4 gap-y-1 mb-4 text-xs">
+              {pick.specs.map((spec, i) => (
+                <div key={i}>
+                  <span className="text-ink-muted">{spec.label}: </span>
+                  <span className="font-medium text-ink">{spec.value}</span>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {/* Pros / Cons */}
+          {(pick.pros?.length > 0 || pick.cons?.length > 0) && (
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
+              {pick.pros?.length > 0 && (
+                <ul className="space-y-1">
+                  {pick.pros.map((p, i) => (
+                    <li key={i} className="flex items-start gap-1.5 text-xs text-green-700">
+                      <span className="font-bold mt-0.5">+</span>
+                      <span>{p}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+              {pick.cons?.length > 0 && (
+                <ul className="space-y-1">
+                  {pick.cons.map((c, i) => (
+                    <li key={i} className="flex items-start gap-1.5 text-xs text-red-600">
+                      <span className="font-bold mt-0.5">−</span>
+                      <span>{c}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          )}
+
+          {/* CTA */}
+          {pick.affiliateUrl && (
+            <a
+              href={pick.affiliateUrl}
+              rel="nofollow sponsored noopener noreferrer"
+              target="_blank"
+              className="inline-flex items-center gap-2 bg-[#FF9900] hover:bg-[#e68900] text-white text-sm font-semibold px-4 py-2.5 rounded-lg transition-colors"
+            >
+              {pick.ctaLabel || "Check price on Amazon"}
+              <svg className="w-3.5 h-3.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+              </svg>
+            </a>
+          )}
+        </div>
+      </div>
+    </div>
   );
 }

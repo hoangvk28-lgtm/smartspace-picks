@@ -1,6 +1,29 @@
 import { createAdminClient } from "@/lib/supabase/server";
 import type { Guide } from "@/data/guides";
 
+// ── Product Pick type for inline guide product entries ────────────────────────
+// Stored as JSONB in guides.product_picks column (migration 006)
+
+export interface GuideProductPick {
+  id: string;           // client-generated uuid for stable keys
+  badge: string;        // "Best Overall", "Best Budget", "Best Premium", etc.
+  name: string;
+  brand?: string;
+  asin?: string;        // auto-generates affiliateUrl: https://www.amazon.com/dp/{ASIN}?tag=deskfinds0d-20
+  affiliateUrl: string; // always use rel="nofollow sponsored noopener noreferrer"
+  imageUrl: string;
+  priceLabel: "Budget" | "Mid-range" | "Premium" | "Check Amazon";
+  fitScore?: number;    // 0–10 editorial score — labeled "DeskFinds Fit Score" in UI
+  summary: string;      // 1–2 sentence overview
+  whyItWins: string;    // key differentiator paragraph
+  bestFor?: string;     // one-line ideal user description
+  skipIf?: string;      // one-line skip condition
+  specs: { label: string; value: string }[];
+  pros: string[];
+  cons: string[];
+  ctaLabel?: string;    // defaults to "Check price on Amazon"
+}
+
 export interface StoredGuide extends Omit<Guide, "lastUpdated"> {
   id: string;
   heroImageAlt: string;
@@ -10,6 +33,7 @@ export interface StoredGuide extends Omit<Guide, "lastUpdated"> {
   intro: string;
   status: "draft" | "published" | "archived";
   lastUpdated: string;
+  productPicks: GuideProductPick[];
 }
 
 // ── DB row shape ──────────────────────────────────────────────────────────────
@@ -41,6 +65,7 @@ interface GuideRow {
   archived: boolean;
   created_at: string;
   updated_at: string;
+  product_picks?: GuideProductPick[];
 }
 
 // ── Mapping helpers ───────────────────────────────────────────────────────────
@@ -69,6 +94,7 @@ function rowToGuide(row: GuideRow): StoredGuide {
     readTime: row.read_time,
     lastUpdated: row.updated_at?.split("T")[0] ?? row.last_updated ?? new Date().toISOString().split("T")[0],
     status: (row.status as StoredGuide["status"]) ?? "draft",
+    productPicks: (row.product_picks as GuideProductPick[]) ?? [],
   };
 }
 
@@ -97,6 +123,7 @@ function guideToRow(g: StoredGuide): Omit<GuideRow, "created_at" | "updated_at" 
     read_time: g.readTime,
     last_updated: g.lastUpdated,
     status: g.status,
+    product_picks: g.productPicks ?? [],
   };
 }
 

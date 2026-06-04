@@ -11,12 +11,16 @@
  */
 import { guides as staticGuides, type Guide } from "@/data/guides";
 import { isSupabaseConfigured, createAdminClient } from "@/lib/supabase/server";
+import type { GuideProductPick } from "@/lib/guides-store";
+
+export type { GuideProductPick };
 
 export interface PublicGuide extends Guide {
   metaTitle?: string;
   metaDescription?: string;
   heroImageAlt?: string;
   intro?: string;
+  productPicks?: GuideProductPick[];
 }
 
 // ── DB row shape ──────────────────────────────────────────────────────────────
@@ -46,6 +50,7 @@ interface GuideRow {
   status: string;
   archived: boolean;
   updated_at: string;
+  product_picks?: GuideProductPick[];
 }
 
 /**
@@ -102,6 +107,7 @@ function rowToPublicGuide(row: GuideRow): PublicGuide {
     faq: row.faq ?? [],
     relatedGuideSlugs: row.related_guide_slugs ?? [],
     buyingCriteria: undefined,
+    productPicks: (row.product_picks as GuideProductPick[]) ?? [],
   };
 }
 

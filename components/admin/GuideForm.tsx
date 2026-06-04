@@ -12,9 +12,11 @@ import {
 } from "@/components/admin/AdminFormField";
 import { MediaSelector } from "@/components/admin/MediaSelector";
 import { categories } from "@/data/categories";
-import type { StoredGuide } from "@/lib/guides-store";
+import type { StoredGuide, GuideProductPick } from "@/lib/guides-store";
 import type { GuideFormState } from "@/app/admin/guide-actions";
 import type { StoredProduct } from "@/lib/products-store";
+
+const PRICE_LABELS: GuideProductPick["priceLabel"][] = ["Budget", "Mid-range", "Premium", "Check Amazon"];
 
 const RichTextEditor = dynamic(
   () => import("@/components/admin/RichTextEditor").then((m) => m.RichTextEditor),
@@ -84,8 +86,52 @@ export function GuideForm({ action, guide, mode, products }: GuideFormProps) {
   const [heroImageAlt, setHeroImageAlt] = useState(guide?.heroImageAlt ?? "");
   const [thumbnailUrl, setThumbnailUrl] = useState(guide?.thumbnailImage ?? "");
 
+  // Product Picks repeater
+  function emptyPick(): GuideProductPick {
+    return {
+      id: Math.random().toString(36).slice(2),
+      badge: "", name: "", brand: "", asin: "", affiliateUrl: "",
+      imageUrl: "", priceLabel: "Check Amazon", fitScore: undefined,
+      summary: "", whyItWins: "", bestFor: "", skipIf: "",
+      specs: [], pros: [], cons: [], ctaLabel: "Check price on Amazon",
+    };
+  }
+  const [picks, setPicks] = useState<GuideProductPick[]>(
+    mode === "edit" && guide?.productPicks && guide.productPicks.length > 0
+      ? guide.productPicks
+      : []
+  );
+  const [expandedPick, setExpandedPick] = useState<number | null>(picks.length > 0 ? 0 : null);
+
+  function updatePick(i: number, patch: Partial<GuideProductPick>) {
+    setPicks((prev) => prev.map((p, idx) => idx === i ? { ...p, ...patch } : p));
+  }
+  function movePick(i: number, dir: -1 | 1) {
+    setPicks((prev) => {
+      const next = [...prev];
+      const j = i + dir;
+      if (j < 0 || j >= next.length) return prev;
+      [next[i], next[j]] = [next[j], next[i]];
+      return next;
+    });
+  }
+  function removePick(i: number) {
+    setPicks((prev) => prev.filter((_, idx) => idx !== i));
+    setExpandedPick(null);
+  }
+  function addPick() {
+    setPicks((prev) => [...prev, emptyPick()]);
+    setExpandedPick(picks.length);
+  }
+  function onAsinChange(i: number, asin: string) {
+    updatePick(i, {
+      asin,
+      affiliateUrl: asin ? `https://www.amazon.com/dp/${asin.trim()}?tag=deskfinds0d-20` : "",
+    });
+  }
+
   const submitButton = (
-    <div className="flex items-center gap-3">
+    <div className="flex items-center gap-3 flex-wrap">
       <button
         type="submit"
         disabled={pending}
@@ -99,6 +145,19 @@ export function GuideForm({ action, guide, mode, products }: GuideFormProps) {
         )}
         {pending ? "Saving…" : "Save Guide"}
       </button>
+      {mode === "edit" && guide?.id && (
+        <Link
+          href={`/admin/guides/${guide.id}/preview`}
+          target="_blank"
+          className="inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors"
+        >
+          <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+            <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+          </svg>
+          Preview
+        </Link>
+      )}
       <Link
         href="/admin/guides"
         className="px-4 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
@@ -400,6 +459,198 @@ export function GuideForm({ action, guide, mode, products }: GuideFormProps) {
             </div>
           </div>
         )}
+      </AdminCard>
+
+      {/* Hidden: serialised product picks JSON */}
+      <input type="hidden" name="product_picks_json" value={JSON.stringify(picks)} />
+
+      {/* Section E2: Product Picks Repeater */}
+      <AdminCard>
+        <div className="flex items-center justify-between mb-1">
+          <h2 className="text-base font-semibold text-gray-900">Product Picks</h2>
+          <span className="text-xs text-gray-500">{picks.length} pick{picks.length !== 1 ? "s" : ""}</span>
+        </div>
+        <p className="text-xs text-gray-500 mb-4">
+          Inline product picks stored directly in this guide. Enter ASIN to auto-generate affiliate URL.
+          Amazon links use <code className="bg-gray-100 px-1 rounded">rel=&quot;nofollow sponsored noopener noreferrer&quot;</code>.
+        </p>
+
+        {picks.map((pick, i) => (
+          <div key={pick.id} className="rounded-lg border border-gray-200 mb-3 overflow-hidden">
+            {/* Accordion header */}
+            <div className="flex items-center justify-between px-4 py-3 bg-gray-50 cursor-pointer"
+              onClick={() => setExpandedPick(expandedPick === i ? null : i)}>
+              <div className="flex items-center gap-2 min-w-0">
+                <span className="text-xs font-bold text-gray-400 w-5 text-center">{i + 1}</span>
+                <span className="text-sm font-medium text-gray-800 truncate">
+                  {pick.name || <span className="text-gray-400 italic">Untitled pick</span>}
+                </span>
+                {pick.badge && (
+                  <span className="hidden sm:inline text-xs bg-blue-100 text-blue-700 px-1.5 py-0.5 rounded font-medium">
+                    {pick.badge}
+                  </span>
+                )}
+              </div>
+              <div className="flex items-center gap-1 shrink-0 ml-2">
+                <button type="button" onClick={(e) => { e.stopPropagation(); movePick(i, -1); }}
+                  disabled={i === 0} className="p-1 text-gray-400 hover:text-gray-700 disabled:opacity-30 transition-colors" title="Move up">
+                  <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" /></svg>
+                </button>
+                <button type="button" onClick={(e) => { e.stopPropagation(); movePick(i, 1); }}
+                  disabled={i === picks.length - 1} className="p-1 text-gray-400 hover:text-gray-700 disabled:opacity-30 transition-colors" title="Move down">
+                  <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /></svg>
+                </button>
+                <button type="button" onClick={(e) => { e.stopPropagation(); removePick(i); }}
+                  className="p-1 text-gray-400 hover:text-red-500 transition-colors" title="Remove">
+                  <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" /></svg>
+                </button>
+                <svg className={`w-4 h-4 text-gray-400 transition-transform ml-1 ${expandedPick === i ? "rotate-180" : ""}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /></svg>
+              </div>
+            </div>
+
+            {/* Accordion body */}
+            {expandedPick === i && (
+              <div className="p-4 flex flex-col gap-4">
+                {/* Row 1: Badge + Name + Brand */}
+                <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+                  <AdminFormField label="Badge" htmlFor={`pick_badge_${i}`}>
+                    <input id={`pick_badge_${i}`} type="text" className={inputClass}
+                      value={pick.badge} onChange={(e) => updatePick(i, { badge: e.target.value })}
+                      placeholder="Best Overall" />
+                  </AdminFormField>
+                  <AdminFormField label="Product Name" htmlFor={`pick_name_${i}`} required>
+                    <input id={`pick_name_${i}`} type="text" className={inputClass}
+                      value={pick.name} onChange={(e) => updatePick(i, { name: e.target.value })}
+                      placeholder="Anker Nano 6-in-1" />
+                  </AdminFormField>
+                  <AdminFormField label="Brand" htmlFor={`pick_brand_${i}`}>
+                    <input id={`pick_brand_${i}`} type="text" className={inputClass}
+                      value={pick.brand ?? ""} onChange={(e) => updatePick(i, { brand: e.target.value })}
+                      placeholder="Anker" />
+                  </AdminFormField>
+                </div>
+
+                {/* Row 2: ASIN + Affiliate URL */}
+                <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+                  <AdminFormField label="ASIN" htmlFor={`pick_asin_${i}`}
+                    hint="Auto-fills affiliate URL with deskfinds0d-20 tag">
+                    <input id={`pick_asin_${i}`} type="text" className={inputClass}
+                      value={pick.asin ?? ""} onChange={(e) => onAsinChange(i, e.target.value)}
+                      placeholder="B0CT2NQ7WG" />
+                  </AdminFormField>
+                  <AdminFormField label="Affiliate URL" htmlFor={`pick_affiliateUrl_${i}`}
+                    hint="Auto-generated from ASIN. Edit to override.">
+                    <input id={`pick_affiliateUrl_${i}`} type="url" className={inputClass}
+                      value={pick.affiliateUrl} onChange={(e) => updatePick(i, { affiliateUrl: e.target.value })}
+                      placeholder="https://www.amazon.com/dp/…?tag=deskfinds0d-20" />
+                  </AdminFormField>
+                </div>
+
+                {/* Row 3: Image + Price Label + Fit Score */}
+                <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+                  <div className="sm:col-span-2">
+                    <AdminFormField label="Image URL" htmlFor={`pick_imageUrl_${i}`}>
+                      <div className="flex gap-2 items-start">
+                        <input id={`pick_imageUrl_${i}`} type="text" className={inputClass}
+                          value={pick.imageUrl} onChange={(e) => updatePick(i, { imageUrl: e.target.value })}
+                          placeholder="https://…supabase…/image.webp" />
+                        {pick.imageUrl && (
+                          // eslint-disable-next-line @next/next/no-img-element
+                          <img src={pick.imageUrl} alt="" className="h-10 w-10 object-contain rounded border border-gray-200 shrink-0" />
+                        )}
+                      </div>
+                    </AdminFormField>
+                    <div className="mt-1">
+                      <MediaSelector folder="guides" onSelect={(url) => updatePick(i, { imageUrl: url })} />
+                    </div>
+                  </div>
+                  <div className="flex flex-col gap-3">
+                    <AdminFormField label="Price Label" htmlFor={`pick_priceLabel_${i}`}>
+                      <select id={`pick_priceLabel_${i}`} className={selectClass}
+                        value={pick.priceLabel} onChange={(e) => updatePick(i, { priceLabel: e.target.value as GuideProductPick["priceLabel"] })}>
+                        {PRICE_LABELS.map((l) => <option key={l} value={l}>{l}</option>)}
+                      </select>
+                    </AdminFormField>
+                    <AdminFormField label="DeskFinds Fit Score (0–10)" htmlFor={`pick_fitScore_${i}`}
+                      hint="Editorial score only — not shown as star rating">
+                      <input id={`pick_fitScore_${i}`} type="number" min={0} max={10} step={0.1} className={inputClass}
+                        value={pick.fitScore ?? ""} onChange={(e) => updatePick(i, { fitScore: e.target.value ? parseFloat(e.target.value) : undefined })} />
+                    </AdminFormField>
+                  </div>
+                </div>
+
+                {/* Row 4: Summary + Why It Wins */}
+                <AdminFormField label="Summary (1–2 sentences)" htmlFor={`pick_summary_${i}`}>
+                  <textarea id={`pick_summary_${i}`} rows={2} className={textareaClass}
+                    value={pick.summary} onChange={(e) => updatePick(i, { summary: e.target.value })}
+                    placeholder="One or two sentences describing why this pick matters." />
+                </AdminFormField>
+
+                <AdminFormField label="Why It Wins" htmlFor={`pick_whyItWins_${i}`}>
+                  <textarea id={`pick_whyItWins_${i}`} rows={3} className={textareaClass}
+                    value={pick.whyItWins} onChange={(e) => updatePick(i, { whyItWins: e.target.value })}
+                    placeholder="The key differentiator that justifies this pick." />
+                </AdminFormField>
+
+                {/* Row 5: Best For + Skip If + CTA */}
+                <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+                  <AdminFormField label="Best For" htmlFor={`pick_bestFor_${i}`}>
+                    <input id={`pick_bestFor_${i}`} type="text" className={inputClass}
+                      value={pick.bestFor ?? ""} onChange={(e) => updatePick(i, { bestFor: e.target.value })}
+                      placeholder="Small desks, dorm setups" />
+                  </AdminFormField>
+                  <AdminFormField label="Skip If" htmlFor={`pick_skipIf_${i}`}>
+                    <input id={`pick_skipIf_${i}`} type="text" className={inputClass}
+                      value={pick.skipIf ?? ""} onChange={(e) => updatePick(i, { skipIf: e.target.value })}
+                      placeholder="You need wireless charging" />
+                  </AdminFormField>
+                  <AdminFormField label="CTA Label" htmlFor={`pick_ctaLabel_${i}`}>
+                    <input id={`pick_ctaLabel_${i}`} type="text" className={inputClass}
+                      value={pick.ctaLabel ?? ""} onChange={(e) => updatePick(i, { ctaLabel: e.target.value })}
+                      placeholder="Check price on Amazon" />
+                  </AdminFormField>
+                </div>
+
+                {/* Row 6: Specs + Pros + Cons */}
+                <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+                  <AdminFormField label="Specs" htmlFor={`pick_specs_${i}`} hint="Format: Label: Value (one per line)">
+                    <textarea id={`pick_specs_${i}`} rows={4} className={`${textareaClass} font-mono text-xs`}
+                      value={pick.specs.map((s) => `${s.label}: ${s.value}`).join("\n")}
+                      onChange={(e) => {
+                        const specs = e.target.value.split("\n").map((line) => {
+                          const idx = line.indexOf(":");
+                          if (idx === -1) return { label: line.trim(), value: "" };
+                          return { label: line.slice(0, idx).trim(), value: line.slice(idx + 1).trim() };
+                        }).filter((s) => s.label || s.value);
+                        updatePick(i, { specs });
+                      }}
+                      placeholder={"Ports: 4× USB-C\nWeight: 147g"} />
+                  </AdminFormField>
+                  <AdminFormField label="Pros" htmlFor={`pick_pros_${i}`} hint="One per line">
+                    <textarea id={`pick_pros_${i}`} rows={4} className={textareaClass}
+                      value={pick.pros.join("\n")}
+                      onChange={(e) => updatePick(i, { pros: e.target.value.split("\n").map((s) => s.trim()).filter(Boolean) })}
+                      placeholder={"50-hour battery\nFolds flat"} />
+                  </AdminFormField>
+                  <AdminFormField label="Cons" htmlFor={`pick_cons_${i}`} hint="One per line">
+                    <textarea id={`pick_cons_${i}`} rows={4} className={textareaClass}
+                      value={pick.cons.join("\n")}
+                      onChange={(e) => updatePick(i, { cons: e.target.value.split("\n").map((s) => s.trim()).filter(Boolean) })}
+                      placeholder={"Apple only\nNo USB-C ports"} />
+                  </AdminFormField>
+                </div>
+              </div>
+            )}
+          </div>
+        ))}
+
+        <button type="button" onClick={addPick}
+          className="mt-2 inline-flex items-center gap-1.5 text-sm font-medium text-blue-600 hover:text-blue-700 transition-colors">
+          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+          </svg>
+          Add Product Pick
+        </button>
       </AdminCard>
 
       {/* Section F: Content Sections */}

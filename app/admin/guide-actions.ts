@@ -9,7 +9,7 @@ import {
   archiveGuide,
   isGuideSlugUnique,
 } from "@/lib/guides-store";
-import type { StoredGuide } from "@/lib/guides-store";
+import type { StoredGuide, GuideProductPick } from "@/lib/guides-store";
 import type { GuideSection, GuideFaq } from "@/data/guides";
 import { requireAdminSession } from "@/lib/admin-auth";
 
@@ -83,7 +83,45 @@ function parseFormData(formData: FormData): Omit<StoredGuide, "id"> & { id?: str
     sections: parseSections(formData),
     faq: parseFaq(formData),
     status: ((formData.get("status") as string | null)?.trim() ?? "draft") as StoredGuide["status"],
+    productPicks: parseProductPicks(formData),
   };
+}
+
+function parseProductPicks(formData: FormData): GuideProductPick[] {
+  const raw = (formData.get("product_picks_json") as string | null)?.trim();
+  if (!raw) return [];
+  try {
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? (parsed as GuideProductPick[]) : [];
+  } catch {
+    return [];
+  }
+}
+
+const PROHIBITED_PHRASES = ["we tested", "we tried", "in our lab", "hands-on", "we measured"];
+
+function validatePublishFields(data: ReturnType<typeof parseFormData>): Record<string, string> {
+  const errors: Record<string, string> = {};
+  if (!data.metaTitle) errors.metaTitle = "Meta title is required before publishing.";
+  if (data.metaTitle && data.metaTitle.length > 60) errors.metaTitle = "Meta title must be 60 characters or fewer.";
+  if (!data.metaDescription) errors.metaDescription = "Meta description is required before publishing.";
+  if (data.metaDescription && data.metaDescription.length < 120)
+    errors.metaDescription = "Meta description must be at least 120 characters.";
+  if (data.sections.length === 0 && (!data.productPicks || data.productPicks.length === 0))
+    errors.sections = "A guide must have at least one content section or one product pick before publishing.";
+
+  // Check for prohibited phrases across all text fields
+  const allText = [
+    data.intro,
+    ...data.sections.map((s) => `${s.heading} ${s.body}`),
+    ...data.faq.map((f) => `${f.question} ${f.answer}`),
+    ...(data.productPicks ?? []).map((p) => `${p.summary} ${p.whyItWins}`),
+  ].join(" ").toLowerCase();
+
+  const found = PROHIBITED_PHRASES.find((phrase) => allText.includes(phrase));
+  if (found) errors.content = `Prohibited phrase detected: "${found}". Use "we evaluated", "we researched", or "based on product specs" instead.`;
+
+  return errors;
 }
 
 function validateFields(data: ReturnType<typeof parseFormData>): Record<string, string> {
@@ -104,16 +142,24 @@ function validateFields(data: ReturnType<typeof parseFormData>): Record<string, 
       break;
     }
   }
+  // Extra publish-specific checks
+  if (data.status === "published") {
+    const publishErrors = validatePublishFields(data);
+    Object.assign(errors, publishErrors);
+  }
   return errors;
 }
 
-function revalidateAll(id?: string) {
+function revalidateAll(id?: string, slug?: string, categorySlug?: string) {
   revalidatePath("/admin/guides");
   if (id) revalidatePath(`/admin/guides/${id}/edit`);
+  if (id) revalidatePath(`/admin/guides/${id}/preview`);
   // Public guide pages
   revalidatePath("/guide", "layout");
   revalidatePath("/", "layout");
   revalidatePath("/categories", "layout");
+  if (slug) revalidatePath(`/guide/${slug}`);
+  if (categorySlug) revalidatePath(`/categories/${categorySlug}`);
 }
 
 // ── Actions ───────────────────────────────────────────────────────────────────
@@ -142,7 +188,7 @@ export async function createGuideAction(
     return { error: (e as Error).message };
   }
 
-  revalidateAll();
+  revalidateAll(undefined, data.slug, data.categorySlug);
   redirect("/admin/guides");
 }
 
@@ -170,7 +216,7 @@ export async function updateGuideAction(
     return { error: (e as Error).message };
   }
 
-  revalidateAll(id);
+  revalidateAll(id, data.slug, data.categorySlug);
   redirect("/admin/guides");
 }
 
