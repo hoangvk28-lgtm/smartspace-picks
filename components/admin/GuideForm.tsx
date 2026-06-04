@@ -122,12 +122,48 @@ export function GuideForm({ action, guide, mode, products }: GuideFormProps) {
   function addPick() {
     setPicks((prev) => [...prev, emptyPick()]);
     setExpandedPick(picks.length);
+    addLibrarySearch();
   }
   function onAsinChange(i: number, asin: string) {
     updatePick(i, {
       asin,
       affiliateUrl: asin ? `https://www.amazon.com/dp/${asin.trim()}?tag=deskfinds0d-20` : "",
     });
+  }
+
+  // Library picker state
+  const [librarySearch, setLibrarySearch] = useState<string[]>(picks.map(() => ""));
+
+  function addLibrarySearch() {
+    setLibrarySearch((prev) => [...prev, ""]);
+  }
+
+  function mapLibraryProductToPick(p: StoredProduct): Partial<GuideProductPick> {
+    return {
+      productId: p.id,
+      name: p.name,
+      asin: p.asin,
+      affiliateUrl: p.amazonUrl,
+      imageUrl: p.image,
+      priceLabel: (p.priceLabel as GuideProductPick["priceLabel"]) ?? "Check Amazon",
+      fitScore: p.scores?.overall,
+      specs: Object.entries(p.specs ?? {}).map(([label, value]) => ({ label, value })),
+      pros: [...(p.pros ?? [])],
+      cons: [...(p.cons ?? [])],
+      bestFor: p.bestFor?.[0] ?? "",
+      skipIf: p.notIdealFor?.[0] ?? "",
+    };
+  }
+
+  function selectLibraryProduct(i: number, productId: string) {
+    const product = (products ?? []).find((p) => p.id === productId);
+    if (!product) return;
+    updatePick(i, mapLibraryProductToPick(product));
+    setLibrarySearch((prev) => prev.map((s, idx) => idx === i ? "" : s));
+  }
+
+  function clearLibraryLink(i: number) {
+    updatePick(i, { productId: undefined });
   }
 
   const submitButton = (
@@ -511,6 +547,58 @@ export function GuideForm({ action, guide, mode, products }: GuideFormProps) {
             {/* Accordion body */}
             {expandedPick === i && (
               <div className="p-4 flex flex-col gap-4">
+                {/* Library picker */}
+                {(products ?? []).length > 0 && (
+                  <div className="flex flex-wrap items-center gap-2 p-3 rounded-lg bg-blue-50 border border-blue-100">
+                    {pick.productId ? (
+                      <>
+                        <span className="text-xs font-semibold text-blue-700">
+                          Linked: {(products ?? []).find((p) => p.id === pick.productId)?.name ?? pick.productId}
+                        </span>
+                        <Link
+                          href={`/admin/products/${pick.productId}/edit`}
+                          target="_blank"
+                          className="text-xs text-blue-600 hover:underline"
+                        >
+                          Edit in library ↗
+                        </Link>
+                        <button
+                          type="button"
+                          onClick={() => clearLibraryLink(i)}
+                          className="ml-auto text-xs text-red-500 hover:text-red-700 transition-colors"
+                        >
+                          Clear link
+                        </button>
+                      </>
+                    ) : (
+                      <>
+                        <span className="text-xs text-blue-600 font-medium shrink-0">Select from library:</span>
+                        <input
+                          type="text"
+                          value={librarySearch[i] ?? ""}
+                          onChange={(e) => setLibrarySearch((prev) => prev.map((s, idx) => idx === i ? e.target.value : s))}
+                          placeholder="Search products…"
+                          className="flex-1 min-w-[120px] px-2 py-1 text-xs border border-blue-200 rounded bg-white focus:outline-none focus:ring-1 focus:ring-blue-400"
+                        />
+                        <select
+                          className="flex-1 min-w-[180px] px-2 py-1 text-xs border border-blue-200 rounded bg-white focus:outline-none focus:ring-1 focus:ring-blue-400"
+                          value=""
+                          onChange={(e) => { if (e.target.value) selectLibraryProduct(i, e.target.value); }}
+                        >
+                          <option value="">- Pick a product -</option>
+                          {(products ?? [])
+                            .filter((p) => !librarySearch[i] || p.name.toLowerCase().includes((librarySearch[i] ?? "").toLowerCase()))
+                            .map((p) => (
+                              <option key={p.id} value={p.id}>
+                                {p.name} ({p.subcategorySlug})
+                              </option>
+                            ))}
+                        </select>
+                      </>
+                    )}
+                  </div>
+                )}
+
                 {/* Row 1: Badge + Name + Brand */}
                 <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
                   <AdminFormField label="Badge" htmlFor={`pick_badge_${i}`}>

@@ -6,6 +6,7 @@ import type { Guide } from "@/data/guides";
 
 export interface GuideProductPick {
   id: string;           // client-generated uuid for stable keys
+  productId?: string;   // links to products table; all other fields may override
   badge: string;        // "Best Overall", "Best Budget", "Best Premium", etc.
   name: string;
   brand?: string;

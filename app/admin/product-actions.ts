@@ -7,6 +7,8 @@ import {
   updateProduct,
   deleteProduct,
   isSlugUnique,
+  isAsinUnique,
+  getAllProducts,
 } from "@/lib/products-store";
 import type { StoredProduct } from "@/lib/products-store";
 import { requireAdminSession } from "@/lib/admin-auth";
@@ -82,11 +84,50 @@ function parseFormData(formData: FormData): Omit<StoredProduct, "id"> & { id?: s
       valueForMoney: parseScore(formData.get("score_valueForMoney") as string),
       buyerFeedback: parseScore(formData.get("score_buyerFeedback") as string),
     },
-    status: ((formData.get("status") as string) === "draft" ? "draft" : "published") as
-      | "published"
-      | "draft",
+    asin: (formData.get("asin") as string | null)?.trim() || undefined,
+    priceLabel: ((formData.get("priceLabel") as string | null)?.trim() || undefined) as StoredProduct["priceLabel"],
+    useCase: (formData.get("useCase") as string | null)?.trim() || undefined,
+    sourceNotes: (formData.get("sourceNotes") as string | null)?.trim() || undefined,
+    status: (["draft", "verified", "published"].includes(formData.get("status") as string)
+      ? formData.get("status")
+      : "draft") as StoredProduct["status"],
     lastUpdated: new Date().toISOString().split("T")[0],
   };
+}
+
+// ── Duplicate detection ───────────────────────────────────────────────────────
+
+function normalizeProductName(name: string): string {
+  return name.toLowerCase().replace(/[^a-z0-9\s]/g, "").replace(/\s+/g, " ").trim();
+}
+
+async function checkDuplicates(
+  data: ReturnType<typeof parseFormData>,
+  excludeId?: string
+): Promise<Record<string, string>> {
+  const warnings: Record<string, string> = {};
+
+  // 1. ASIN collision
+  if (data.asin) {
+    try {
+      const asinOk = await isAsinUnique(data.asin, excludeId);
+      if (!asinOk) warnings.asin = `Another active product already uses ASIN ${data.asin}.`;
+    } catch { /* non-fatal */ }
+  }
+
+  // 2. Normalized name collision
+  try {
+    const all = await getAllProducts();
+    const normalizedNew = normalizeProductName(data.name);
+    const conflict = all.find(
+      (p) => p.id !== excludeId && normalizeProductName(p.name) === normalizedNew
+    );
+    if (conflict) {
+      warnings.name = `A product with a very similar name already exists: "${conflict.name}" (${conflict.slug}).`;
+    }
+  } catch { /* non-fatal */ }
+
+  return warnings;
 }
 
 // Synchronous field validation (no DB calls)
@@ -98,8 +139,8 @@ function validateFields(
   if (!data.slug) errors.slug = "Slug is required.";
   if (!data.categorySlug) errors.categorySlug = "Category is required.";
   if (!data.subcategorySlug) errors.subcategorySlug = "Subcategory is required.";
-  if (data.status === "published" && !data.priceRange)
-    errors.priceRange = "Price range is required for published products.";
+  if ((data.status === "published" || data.status === "verified") && !data.priceRange)
+    errors.priceRange = "Price range is required for verified/published products.";
   for (const [key, score] of Object.entries(data.scores)) {
     if (score < 0 || score > 10)
       errors[`score_${key}`] = "Scores must be between 0 and 10.";
@@ -128,6 +169,17 @@ export async function createProductAction(
       fieldErrors.slug = "A product with this slug already exists.";
   } catch (e) {
     return { error: (e as Error).message };
+  }
+
+  // Duplicate detection — block on verified/published, warn on draft
+  const dupeWarnings = await checkDuplicates(data);
+  if (Object.keys(dupeWarnings).length > 0) {
+    if (data.status === "draft") {
+      fieldErrors.duplicateWarning =
+        `Possible duplicate: ${Object.values(dupeWarnings).join(" ")} Save as draft is allowed — resolve before publishing.`;
+    } else {
+      Object.assign(fieldErrors, dupeWarnings);
+    }
   }
 
   if (Object.keys(fieldErrors).length > 0) return { fieldErrors };
@@ -163,6 +215,17 @@ export async function updateProductAction(
       fieldErrors.slug = "A product with this slug already exists.";
   } catch (e) {
     return { error: (e as Error).message };
+  }
+
+  // Duplicate detection — block on verified/published, warn on draft
+  const dupeWarnings = await checkDuplicates(data, id);
+  if (Object.keys(dupeWarnings).length > 0) {
+    if (data.status === "draft") {
+      fieldErrors.duplicateWarning =
+        `Possible duplicate: ${Object.values(dupeWarnings).join(" ")} Save as draft is allowed — resolve before publishing.`;
+    } else {
+      Object.assign(fieldErrors, dupeWarnings);
+    }
   }
 
   if (Object.keys(fieldErrors).length > 0) return { fieldErrors };

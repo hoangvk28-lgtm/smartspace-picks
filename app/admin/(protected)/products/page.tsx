@@ -21,24 +21,43 @@ export default async function AdminProductsPage({ searchParams }: PageProps) {
   const filterStatus = params.status ?? "";
   const filterMissing = params.missing ?? "";
 
+  let allProducts: StoredProduct[] = [];
   let products: StoredProduct[] = [];
   let configError: string | null = null;
 
   try {
-    products = await getAllProducts();
+    allProducts = await getAllProducts();
+    products = allProducts;
   } catch (e) {
     configError = (e as Error).message;
+    allProducts = [];
     products = [];
   }
 
   const totalAll = products.length;
 
+  // Build duplicate set — ASIN and normalized name collisions
+  function normName(n: string) { return n.toLowerCase().replace(/[^a-z0-9\s]/g, "").replace(/\s+/g, " ").trim(); }
+  const asinCount = new Map<string, number>();
+  const nameCount = new Map<string, number>();
+  for (const p of allProducts) {
+    if (p.asin) asinCount.set(p.asin, (asinCount.get(p.asin) ?? 0) + 1);
+    const nn = normName(p.name);
+    nameCount.set(nn, (nameCount.get(nn) ?? 0) + 1);
+  }
+  const duplicateIds = new Set(
+    allProducts
+      .filter((p) => (p.asin && (asinCount.get(p.asin) ?? 0) > 1) || (nameCount.get(normName(p.name)) ?? 0) > 1)
+      .map((p) => p.id)
+  );
+
   // Client-side filtering (all data already loaded)
   if (q) products = products.filter((p) => p.name.toLowerCase().includes(q));
   if (filterCategory) products = products.filter((p) => p.categorySlug === filterCategory);
-  if (filterStatus) products = products.filter((p) => (p.status ?? "published") === filterStatus);
+  if (filterStatus) products = products.filter((p) => (p.status ?? "draft") === filterStatus);
   if (filterMissing === "amazon") products = products.filter((p) => !p.amazonUrl);
   if (filterMissing === "image") products = products.filter((p) => !p.image);
+  if (filterMissing === "duplicate") products = products.filter((p) => duplicateIds.has(p.id));
 
   return (
     <>
@@ -102,8 +121,9 @@ export default async function AdminProductsPage({ searchParams }: PageProps) {
               className="px-3 py-2 text-sm border border-gray-300 rounded-lg bg-white text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
               <option value="">All statuses</option>
-              <option value="published">Published</option>
               <option value="draft">Draft</option>
+              <option value="verified">Verified</option>
+              <option value="published">Published</option>
             </select>
 
             <select
@@ -114,6 +134,7 @@ export default async function AdminProductsPage({ searchParams }: PageProps) {
               <option value="">All products</option>
               <option value="amazon">Missing Amazon URL</option>
               <option value="image">Missing image</option>
+              <option value="duplicate">Possible duplicates</option>
             </select>
 
             <button
@@ -159,6 +180,7 @@ export default async function AdminProductsPage({ searchParams }: PageProps) {
                     <th className="px-4 py-3 text-left text-xs font-semibold text-gray-500 uppercase tracking-wide">Product</th>
                     <th className="px-4 py-3 text-left text-xs font-semibold text-gray-500 uppercase tracking-wide hidden md:table-cell">Category</th>
                     <th className="px-4 py-3 text-left text-xs font-semibold text-gray-500 uppercase tracking-wide hidden lg:table-cell">Badge</th>
+                    <th className="px-4 py-3 text-left text-xs font-semibold text-gray-500 uppercase tracking-wide hidden lg:table-cell">ASIN</th>
                     <th className="px-4 py-3 text-left text-xs font-semibold text-gray-500 uppercase tracking-wide hidden lg:table-cell">Price</th>
                     <th className="px-4 py-3 text-center text-xs font-semibold text-gray-500 uppercase tracking-wide">Score</th>
                     <th className="px-4 py-3 text-center text-xs font-semibold text-gray-500 uppercase tracking-wide hidden sm:table-cell">Links</th>
@@ -174,8 +196,13 @@ export default async function AdminProductsPage({ searchParams }: PageProps) {
                     return (
                       <tr key={product.id} className="hover:bg-gray-50 transition-colors">
                         <td className="px-4 py-3.5">
-                          <p className="text-sm font-semibold text-gray-900 leading-snug line-clamp-1">{product.name}</p>
-                          <p className="text-xs text-gray-400 mt-0.5 font-mono">/reviews/{product.slug}</p>
+                          <div className="flex flex-wrap items-center gap-1.5 mb-0.5">
+                            <p className="text-sm font-semibold text-gray-900 leading-snug line-clamp-1">{product.name}</p>
+                            {duplicateIds.has(product.id) && (
+                              <span className="text-[10px] font-semibold px-1.5 py-0.5 rounded-full bg-amber-50 text-amber-700 border border-amber-200 whitespace-nowrap">⚠ Duplicate?</span>
+                            )}
+                          </div>
+                          <p className="text-xs text-gray-400 font-mono">/reviews/{product.slug}</p>
                         </td>
                         <td className="px-4 py-3.5 hidden md:table-cell">
                           <p className="text-xs text-gray-600 capitalize">{product.categorySlug.replace(/-/g, " ")}</p>
@@ -186,6 +213,13 @@ export default async function AdminProductsPage({ searchParams }: PageProps) {
                             <span className="inline-block text-[10px] font-semibold px-1.5 py-0.5 rounded bg-blue-50 text-blue-700 border border-blue-100 whitespace-nowrap">
                               {product.badge}
                             </span>
+                          ) : (
+                            <span className="text-xs text-gray-300">-</span>
+                          )}
+                        </td>
+                        <td className="px-4 py-3.5 hidden lg:table-cell">
+                          {product.asin ? (
+                            <span className="text-xs font-mono text-gray-600">{product.asin}</span>
                           ) : (
                             <span className="text-xs text-gray-300">-</span>
                           )}

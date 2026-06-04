@@ -3,7 +3,7 @@ import type { Product } from "@/data/products";
 
 export interface StoredProduct extends Product {
   lastUpdated: string;
-  status: "published" | "draft";
+  status: "draft" | "verified" | "published";
 }
 
 // ── DB row shape (snake_case columns) ─────────────────────────────────────────
@@ -28,6 +28,10 @@ interface ProductRow {
   scores: Product["scores"];
   alternatives: string[];
   related_guide_slugs: string[];
+  asin: string | null;
+  price_label: string | null;
+  use_case: string | null;
+  source_notes: string | null;
   status: string;
   archived: boolean;
   updated_at: string;
@@ -57,7 +61,11 @@ function rowToProduct(row: ProductRow): StoredProduct {
     scores: row.scores,
     alternatives: row.alternatives ?? [],
     relatedGuideSlugs: row.related_guide_slugs ?? [],
-    status: (row.status as "published" | "draft") ?? "draft",
+    asin: row.asin ?? undefined,
+    priceLabel: (row.price_label as StoredProduct["priceLabel"]) ?? undefined,
+    useCase: row.use_case ?? undefined,
+    sourceNotes: row.source_notes ?? undefined,
+    status: (row.status as StoredProduct["status"]) ?? "draft",
     lastUpdated: row.updated_at?.split("T")[0] ?? new Date().toISOString().split("T")[0],
   };
 }
@@ -83,6 +91,10 @@ function productToRow(p: StoredProduct): Omit<ProductRow, "created_at" | "update
     scores: p.scores,
     alternatives: p.alternatives,
     related_guide_slugs: p.relatedGuideSlugs,
+    asin: p.asin ?? null,
+    price_label: p.priceLabel ?? null,
+    use_case: p.useCase ?? null,
+    source_notes: p.sourceNotes ?? null,
     status: p.status,
   };
 }
@@ -141,6 +153,21 @@ export async function isSlugUnique(slug: string, excludeId?: string): Promise<bo
 
   const { data, error } = await query;
   if (error) throw new Error(`isSlugUnique: ${error.message}`);
+  return (data?.length ?? 0) === 0;
+}
+
+export async function isAsinUnique(asin: string, excludeId?: string): Promise<boolean> {
+  const db = createAdminClient();
+  let query = db
+    .from("products")
+    .select("id")
+    .eq("asin", asin)
+    .eq("archived", false);
+
+  if (excludeId) query = query.neq("id", excludeId);
+
+  const { data, error } = await query;
+  if (error) throw new Error(`isAsinUnique: ${error.message}`);
   return (data?.length ?? 0) === 0;
 }
 

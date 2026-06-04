@@ -1,6 +1,7 @@
 type StatusVariant =
   | "published"
   | "draft"
+  | "verified"
   | "active"
   | "inactive"
   | "warning"
@@ -15,6 +16,7 @@ interface AdminStatusBadgeProps {
 const VARIANT_STYLES: Record<StatusVariant, string> = {
   published: "bg-emerald-50 text-emerald-700 border border-emerald-200",
   draft:     "bg-gray-100  text-gray-600   border border-gray-200",
+  verified:  "bg-purple-50 text-purple-700 border border-purple-200",
   active:    "bg-emerald-50 text-emerald-700 border border-emerald-200",
   inactive:  "bg-gray-100  text-gray-500   border border-gray-200",
   warning:   "bg-amber-50  text-amber-700  border border-amber-200",
@@ -25,6 +27,7 @@ const VARIANT_STYLES: Record<StatusVariant, string> = {
 const DOT_COLORS: Record<StatusVariant, string> = {
   published: "bg-emerald-500",
   draft:     "bg-gray-400",
+  verified:  "bg-purple-500",
   active:    "bg-emerald-500",
   inactive:  "bg-gray-400",
   warning:   "bg-amber-500",

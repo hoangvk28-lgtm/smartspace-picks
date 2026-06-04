@@ -164,6 +164,11 @@ export function ProductPick({ product, pickLabel, rank, lastUpdated }: ProductPi
           {/* Price */}
           <div className="text-center">
             <p className="text-xl font-bold text-ink">{product.priceRange}</p>
+            {(product as { priceLabel?: string }).priceLabel && (
+              <span className="inline-block mt-0.5 text-[10px] font-semibold px-1.5 py-0.5 rounded-full bg-bg border border-border text-ink-muted">
+                {(product as { priceLabel?: string }).priceLabel}
+              </span>
+            )}
           </div>
 
           {/* Mini score bars */}

@@ -31,6 +31,11 @@ export interface Product {
   reviewSummary: string;
   alternatives: string[];      // sibling product IDs
   relatedGuideSlugs: string[]; // guides that feature this product
+  // Product Library fields (Phase 2)
+  asin?: string;           // Amazon ASIN (auto-builds amazonUrl if set)
+  priceLabel?: "Budget" | "Mid-range" | "Premium" | "Check Amazon";
+  useCase?: string;        // one-line use-case summary for editors
+  sourceNotes?: string;    // internal verification notes — not rendered publicly
 }
 
 // ─── Data ─────────────────────────────────────────────────────────────────────

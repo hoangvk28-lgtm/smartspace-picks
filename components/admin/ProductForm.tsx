@@ -1,7 +1,6 @@
 ﻿"use client";
 
-import { useActionState, useState } from "react";
-import { useEffect, useRef } from "react";
+import { useActionState, useState, useRef } from "react";
 import Link from "next/link";
 import { AdminCard } from "@/components/admin/AdminCard";
 import { AdminFormField, inputClass, selectClass, textareaClass } from "@/components/admin/AdminFormField";
@@ -9,6 +8,7 @@ import { MediaSelector } from "@/components/admin/MediaSelector";
 import { categories } from "@/data/categories";
 import type { StoredProduct } from "@/lib/products-store";
 import type { ProductFormState } from "@/app/admin/product-actions";
+import { buildAmazonUrl } from "@/lib/affiliate";
 
 const BADGES = [
   "Best Overall",
@@ -54,6 +54,16 @@ export function ProductForm({ action, product, mode }: ProductFormProps) {
   const slugRef = useRef<HTMLInputElement>(null);
   const slugManuallyEdited = useRef(false);
   const [imageUrl, setImageUrl] = useState(product?.image ?? "");
+  const amazonUrlRef = useRef<HTMLInputElement>(null);
+  const [asin, setAsin] = useState(product?.asin ?? "");
+
+  function handleAsinChange(e: React.ChangeEvent<HTMLInputElement>) {
+    const val = e.target.value.trim();
+    setAsin(val);
+    if (val && amazonUrlRef.current && !amazonUrlRef.current.value) {
+      amazonUrlRef.current.value = buildAmazonUrl(val);
+    }
+  }
 
   // category → subcategory dependency
   const defaultCategory = product?.categorySlug ?? "";
@@ -93,6 +103,12 @@ export function ProductForm({ action, product, mode }: ProductFormProps) {
             <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />
           </svg>
           <p className="text-sm text-red-700 font-medium">{state.error}</p>
+        </div>
+      )}
+      {fe.duplicateWarning && (
+        <div className="flex items-start gap-2 px-4 py-3 bg-amber-50 border border-amber-200 rounded-xl">
+          <span className="text-amber-500 shrink-0 mt-0.5">⚠</span>
+          <p className="text-sm text-amber-800">{fe.duplicateWarning}</p>
         </div>
       )}
 
@@ -174,11 +190,12 @@ export function ProductForm({ action, product, mode }: ProductFormProps) {
             <select
               id="status"
               name="status"
-              defaultValue={product?.status ?? "published"}
+              defaultValue={product?.status ?? "draft"}
               className={selectClass}
             >
-              <option value="published">Published</option>
               <option value="draft">Draft</option>
+              <option value="verified">Verified</option>
+              <option value="published">Published</option>
             </select>
           </AdminFormField>
         </div>
@@ -188,13 +205,26 @@ export function ProductForm({ action, product, mode }: ProductFormProps) {
       <AdminCard>
         <h2 className="text-sm font-bold text-gray-900 mb-4">Affiliate & Pricing</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <AdminFormField label="ASIN" htmlFor="asin" hint="10-char Amazon product ID. Auto-fills affiliate URL if URL is empty." error={fe.asin}>
+            <input
+              id="asin"
+              name="asin"
+              type="text"
+              value={asin}
+              onChange={handleAsinChange}
+              placeholder="B0CT2NQ7WG"
+              className={inputClass}
+            />
+          </AdminFormField>
+
           <AdminFormField
             label="Amazon Affiliate URL"
             htmlFor="amazonUrl"
-            hint="Full URL with your Associates tag. Leave blank to show a warning."
+            hint="Auto-fills from ASIN. Edit to override."
             error={fe.amazonUrl}
           >
             <input
+              ref={amazonUrlRef}
               id="amazonUrl"
               name="amazonUrl"
               type="url"
@@ -204,7 +234,7 @@ export function ProductForm({ action, product, mode }: ProductFormProps) {
             />
           </AdminFormField>
 
-          <AdminFormField label="Price Range" htmlFor="priceRange" hint='Display string, e.g. "$25–$30". Required for published products.' error={fe.priceRange}>
+          <AdminFormField label="Price Range" htmlFor="priceRange" hint='Display string e.g. "$25–$30". Required for published products.' error={fe.priceRange}>
             <input
               id="priceRange"
               name="priceRange"
@@ -214,10 +244,25 @@ export function ProductForm({ action, product, mode }: ProductFormProps) {
               className={inputClass}
             />
           </AdminFormField>
+
+          <AdminFormField label="Price Label" htmlFor="priceLabel" hint="Tier label shown in guide picks and product cards.">
+            <select
+              id="priceLabel"
+              name="priceLabel"
+              defaultValue={product?.priceLabel ?? ""}
+              className={selectClass}
+            >
+              <option value="">- Select tier -</option>
+              <option value="Budget">Budget</option>
+              <option value="Mid-range">Mid-range</option>
+              <option value="Premium">Premium</option>
+              <option value="Check Amazon">Check Amazon</option>
+            </select>
+          </AdminFormField>
         </div>
 
         {!product?.amazonUrl && mode === "edit" && (
-          <p className="mt-3 text-xs text-amber-600 font-medium">⚠ No Amazon URL set - this product won&apos;t have a buy button on the public site.</p>
+          <p className="mt-3 text-xs text-amber-600 font-medium">⚠ No Amazon URL set — this product won&apos;t have a buy button on the public site.</p>
         )}
       </AdminCard>
 
@@ -367,7 +412,35 @@ export function ProductForm({ action, product, mode }: ProductFormProps) {
         </div>
       </AdminCard>
 
-      {/* ── 9. Internal Links & Status ────────────────────────────────────── */}
+      {/* ── 9. Source & Internal Notes ───────────────────────────────────── */}
+      <AdminCard>
+        <h2 className="text-sm font-bold text-gray-900 mb-1">Source & Internal Notes</h2>
+        <p className="text-xs text-gray-500 mb-4">Not rendered publicly — for editor reference only.</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <AdminFormField label="Use Case" htmlFor="useCase" hint="One-line description, e.g. &quot;Home office charging, travel&quot;.">
+            <input
+              id="useCase"
+              name="useCase"
+              type="text"
+              defaultValue={product?.useCase ?? ""}
+              placeholder="Home office charging, travel"
+              className={inputClass}
+            />
+          </AdminFormField>
+
+          <AdminFormField label="Source / Verification Notes" htmlFor="sourceNotes" hint="Internal notes on where specs were sourced or verification status.">
+            <textarea
+              id="sourceNotes"
+              name="sourceNotes"
+              defaultValue={product?.sourceNotes ?? ""}
+              placeholder="Specs verified against Amazon listing 2026-06. ASIN confirmed live."
+              className={`${textareaClass} min-h-[60px]`}
+            />
+          </AdminFormField>
+        </div>
+      </AdminCard>
+
+      {/* ── 10. Internal Links & Status ───────────────────────────────────── */}
       <AdminCard>
         <h2 className="text-sm font-bold text-gray-900 mb-4">Internal Links</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
