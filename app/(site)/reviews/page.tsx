@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/Badge";
 import { buildMetadata } from "@/lib/seo";
 import { scoreToColor } from "@/lib/utils";
 import { getPublicProducts } from "@/lib/public-products";
+import { categories } from "@/data/categories";
 
 export const revalidate = 86400;
 
@@ -19,18 +20,36 @@ export const metadata: Metadata = buildMetadata({
 export default async function ReviewsIndexPage() {
   const products = await getPublicProducts();
 
+  // Group products by category for proper heading hierarchy and richer page content
+  const productsByCategory = categories.map((cat) => ({
+    category: cat,
+    products: products.filter((p) => p.categorySlug === cat.slug),
+  })).filter((g) => g.products.length > 0);
+
+  const knownSlugs = new Set(categories.map((c) => c.slug));
+  const uncategorised = products.filter((p) => !knownSlugs.has(p.categorySlug));
+
   return (
     <Container className="py-14">
       <div className="mb-10 max-w-3xl">
         <span className="text-xs font-bold uppercase tracking-widest text-brand">Reviews</span>
         <h1 className="text-4xl font-bold text-ink mt-3 mb-4 tracking-tight">All Product Reviews</h1>
         <p className="text-lg text-ink-secondary leading-relaxed">
-          Individual evaluations for every product we&apos;ve assessed, with scores, pros and cons, full specs, and direct Amazon links.
+          Individual evaluations for every product we&apos;ve assessed, with scores, pros and cons, full specs, and direct Amazon links. Organized by category below.
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-        {products.map((product) => (
+      <div className="space-y-14">
+        {productsByCategory.map(({ category, products: catProducts }) => (
+          <section key={category.slug} aria-labelledby={`rev-cat-${category.slug}`}>
+            <div className="mb-6">
+              <h2 id={`rev-cat-${category.slug}`} className="text-2xl font-bold text-ink tracking-tight mb-2">
+                {category.name}
+              </h2>
+              <p className="text-sm text-ink-secondary max-w-2xl">{category.shortDescription}</p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        {catProducts.map((product) => (
           <div
             key={product.id}
             className="group flex flex-col bg-white rounded-card border border-border hover:shadow-card-hover hover:border-brand/20 transition-all overflow-hidden"
@@ -110,6 +129,24 @@ export default async function ReviewsIndexPage() {
             </div>
           </div>
         ))}
+            </div>
+          </section>
+        ))}
+
+        {uncategorised.length > 0 && (
+          <section aria-labelledby="rev-cat-other">
+            <h2 id="rev-cat-other" className="text-2xl font-bold text-ink tracking-tight mb-6 sr-only">More Reviews</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              {uncategorised.map((product) => (
+                <Link key={product.id} href={`/reviews/${product.slug}`}
+                  className="group flex flex-col bg-white rounded-card border border-border hover:shadow-card-hover hover:border-brand/20 transition-all overflow-hidden p-4">
+                  <h3 className="font-bold text-ink group-hover:text-brand transition-colors text-sm">{product.name}</h3>
+                  <p className="text-xs text-ink-secondary mt-1 line-clamp-2">{product.shortDescription}</p>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
       </div>
     </Container>
   );

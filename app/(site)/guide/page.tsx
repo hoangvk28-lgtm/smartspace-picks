@@ -5,6 +5,7 @@ import { Container } from "@/components/layout/Container";
 import { buildMetadata } from "@/lib/seo";
 import { getPublicGuides } from "@/lib/public-guides";
 import { formatDate } from "@/lib/utils";
+import { categories } from "@/data/categories";
 
 export const revalidate = 3600;
 
@@ -17,18 +18,38 @@ export const metadata: Metadata = buildMetadata({
 
 export default async function BuyingGuidesIndexPage() {
   const guides = await getPublicGuides();
+
+  // Group guides by category for proper H1→H2→H3 hierarchy and richer content
+  const guidesByCategory = categories.map((cat) => ({
+    category: cat,
+    guides: guides.filter((g) => g.categorySlug === cat.slug),
+  })).filter((g) => g.guides.length > 0);
+
+  // Guides not matching a known category
+  const knownSlugs = new Set(categories.map((c) => c.slug));
+  const uncategorised = guides.filter((g) => !knownSlugs.has(g.categorySlug));
+
   return (
     <Container className="py-14">
       <div className="mb-10 max-w-3xl">
         <span className="text-xs font-bold uppercase tracking-widest text-brand">Buying Guides</span>
         <h1 className="text-4xl font-bold text-ink mt-3 mb-4 tracking-tight">All Buying Guides</h1>
         <p className="text-lg text-ink-secondary leading-relaxed">
-          Every guide we&apos;ve published for small rooms, dorms, compact desks, and home offices. Updated regularly as better products appear.
+          Every guide we&apos;ve published for small rooms, dorms, compact desks, and home offices. Updated regularly as better products appear. Organized by use case below.
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-        {guides.map((guide) => {
+      <div className="space-y-14">
+        {guidesByCategory.map(({ category, guides: catGuides }) => (
+          <section key={category.slug} aria-labelledby={`cat-${category.slug}`}>
+            <div className="mb-6">
+              <h2 id={`cat-${category.slug}`} className="text-2xl font-bold text-ink tracking-tight mb-2">
+                {category.name}
+              </h2>
+              <p className="text-sm text-ink-secondary max-w-2xl">{category.shortDescription}</p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              {catGuides.map((guide) => {
           const thumb = guide.thumbnailImage || guide.heroImage;
           return (
             <Link
@@ -91,6 +112,34 @@ export default async function BuyingGuidesIndexPage() {
             </Link>
           );
         })}
+            </div>
+          </section>
+        ))}
+
+        {uncategorised.length > 0 && (
+          <section aria-labelledby="cat-other">
+            <h2 id="cat-other" className="text-2xl font-bold text-ink tracking-tight mb-6">More Guides</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              {uncategorised.map((guide) => {
+                const thumb = guide.thumbnailImage || guide.heroImage;
+                return (
+                  <Link key={guide.slug} href={`/guide/${guide.slug}`}
+                    className="group flex flex-col bg-white rounded-card border border-border hover:shadow-card-hover hover:border-brand/20 transition-all overflow-hidden">
+                    {thumb && (
+                      <div className="relative w-full h-44 bg-bg overflow-hidden">
+                        <Image src={thumb} alt={guide.title} fill className="object-cover group-hover:scale-[1.03] transition-transform duration-300" unoptimized />
+                      </div>
+                    )}
+                    <div className="flex flex-col gap-2 p-4 flex-1">
+                      <h3 className="font-bold text-ink leading-snug group-hover:text-brand transition-colors text-sm">{guide.title}</h3>
+                      <p className="text-xs text-ink-secondary leading-relaxed line-clamp-2 flex-1">{guide.description}</p>
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
+          </section>
+        )}
       </div>
     </Container>
   );
