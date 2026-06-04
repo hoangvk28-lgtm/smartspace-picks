@@ -1306,6 +1306,25 @@ export const guides: Guide[] = [
   },
 
   {
+    title: "Best Desk Lamp Under $30: Bright Enough, Small Enough, Dorm-Friendly",
+    slug: "best-desk-lamp-under-30",
+    categorySlug: "dorm-essentials",
+    subcategorySlug: "desk-lamps",
+    description: "5 desk lamps under $30 for students -- covers clamp vs standing footprint, color temperature for studying, USB-powered options, and dorm roommate-friendly picks.",
+    mainKeyword: "best desk lamp under 30",
+    subKeywords: ["cheap desk lamp for studying", "dorm room desk lamp", "usb powered desk lamp", "best desk lamp for students", "clamp desk lamp small desk"],
+    heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-desk-lamp-under-30/06-hero-best-desk-lamp-under-30.webp",
+    lastUpdated: "2026-06-04",
+    author: "Jamie Cole",
+    readTime: "9 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: ["best-dorm-items-under-25", "small-desk-setup", "desk-setup-essentials"],
+    buyingCriteria: [],
+  },
+
+  {
     title: "Best Desk Mat for Small Desk -- 8 Picks for Dorms & Compact Setups (2026)",
     slug: "best-desk-mat-for-small-desk",
     categorySlug: "desk-setup",
