@@ -1325,6 +1325,25 @@ export const guides: Guide[] = [
   },
 
   {
+    title: "Top 6 Best Headphones for Online Classes: Clear Audio, Decent Mic, All-Day Comfort",
+    slug: "best-headphones-for-online-classes",
+    categorySlug: "dorm-essentials",
+    subcategorySlug: "accessories",
+    description: "6 headphones for online classes -- covers headphone vs headset, mic quality explained, ANC for dorms, wired vs wireless battery risk, and comfort for 3+ hour sessions.",
+    mainKeyword: "best headphones for online classes",
+    subKeywords: ["headphones for online school", "best headset for zoom classes", "student headphones dorm", "noise canceling headphones for studying", "wired headset for online classes"],
+    heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-headphones-for-online-classes/07-hero-best-headphones-for-online-classes.webp",
+    lastUpdated: "2026-06-04",
+    author: "Jamie Cole",
+    readTime: "11 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: ["best-dorm-items-under-25", "best-desk-lamp-under-30", "desk-setup-essentials"],
+    buyingCriteria: [],
+  },
+
+  {
     title: "Best Desk Mat for Small Desk -- 8 Picks for Dorms & Compact Setups (2026)",
     slug: "best-desk-mat-for-small-desk",
     categorySlug: "desk-setup",
