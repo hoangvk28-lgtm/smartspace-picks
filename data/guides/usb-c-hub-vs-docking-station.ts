@@ -9,6 +9,9 @@ export const compareDescription =
 export const lastUpdated = "2026-06-06";
 export const readTime = "12 min";
 export const heroImage = `${BASE}/06-usb-c-hub-vs-docking-station-hero.webp`;
+export const sapo =
+  "If your laptop only has one or two USB-C ports, you've faced this decision: pick up a $30 hub, or invest in a proper docking station? The answer depends entirely on how many screens you run, whether you commute, and how many peripherals you connect daily. This guide breaks down exactly where each option wins — and which one fits your setup.";
+
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 

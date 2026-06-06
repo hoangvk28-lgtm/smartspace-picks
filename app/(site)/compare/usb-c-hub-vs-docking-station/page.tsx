@@ -9,6 +9,7 @@ import {
   lastUpdated,
   readTime,
   heroImage,
+  sapo,
   picks,
   headToHead,
   flowSteps,
@@ -197,6 +198,24 @@ export default function UsbCHubVsDockingStationPage() {
       </div>
 
       <Container className="py-10 max-w-4xl space-y-14">
+        {/* ── Hero image ──────────────────────────────────────────────────── */}
+        <div className="rounded-2xl overflow-hidden border border-gray-200">
+          <Image
+            src={heroImage}
+            alt={compareTitle}
+            width={900}
+            height={420}
+            className="w-full object-cover max-h-[420px]"
+            priority
+            unoptimized
+          />
+        </div>
+
+        {/* ── Sapo ────────────────────────────────────────────────────────── */}
+        <p className="text-base text-ink-secondary leading-relaxed border-l-4 border-brand pl-4 py-1">
+          {sapo}
+        </p>
+
         {/* ── Affiliate Disclosure ────────────────────────────────────────── */}
         <p className="text-xs text-ink-muted bg-amber-50 border border-amber-200 rounded-xl px-4 py-3">
           We may earn a commission when you buy through Amazon links. This guide is based on product specs, buyer feedback, use cases, and comparison criteria — not paid placement.{" "}

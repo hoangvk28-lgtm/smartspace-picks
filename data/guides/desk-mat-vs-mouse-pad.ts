@@ -9,6 +9,9 @@ export const compareDescription =
 export const lastUpdated = "2026-06-06";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/06-desk-mat-vs-mouse-pad-hero.webp`;
+export const sapo =
+  "Both cover your desk and improve mousing — but that's where the similarity ends. A desk mat protects the full surface and ties the aesthetic together; a mouse pad optimizes tracking for precision work or gaming. At $10–$30, neither is a big commitment, but choosing the wrong one means buying both anyway. Here's how to get it right the first time.";
+
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 

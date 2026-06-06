@@ -9,6 +9,9 @@ export const compareDescription =
 export const lastUpdated = "2026-06-06";
 export const readTime = "11 min";
 export const heroImage = `${BASE}/06-lap-desk-vs-standing-desk-converter-hero.webp`;
+export const sapo =
+  "A lap desk costs $30 and works anywhere — couch, bed, or floor. A standing desk converter costs $80–$150 and lives on a desk permanently. They solve different problems, and picking the wrong one wastes money. Whether you're a student without a dedicated desk or a remote worker logging 8-hour days, this guide tells you exactly which one fits.";
+
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
