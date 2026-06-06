@@ -1,10 +1,38 @@
 ﻿import type { Metadata } from "next";
+import Link from "next/link";
 import { Container } from "@/components/layout/Container";
 import { AffiliateDisclosureBar } from "@/components/affiliate/AffiliateDisclosureBar";
 import { ComparePageClient } from "@/components/compare/ComparePageClient";
 import { buildMetadata } from "@/lib/seo";
 import { categories } from "@/data/categories";
 import { getPublicProducts } from "@/lib/public-products";
+
+const VS_ARTICLES = [
+  {
+    slug: "monitor-stand-vs-monitor-arm",
+    title: "Monitor Stand vs Monitor Arm",
+    description: "Adjustability, desk space, stability, and value — with picks under $50 and a decision flowchart.",
+    tag: "Ergonomics",
+  },
+  {
+    slug: "usb-c-hub-vs-docking-station",
+    title: "USB-C Hub vs Docking Station",
+    description: "Ports, power delivery, display support, and portability — for laptops, WFH, and small desks.",
+    tag: "Connectivity",
+  },
+  {
+    slug: "lap-desk-vs-standing-desk-converter",
+    title: "Lap Desk vs Standing Desk Converter",
+    description: "Ergonomics, portability, and price — for couch workers, students, and small-space setups.",
+    tag: "Workspace",
+  },
+  {
+    slug: "desk-mat-vs-mouse-pad",
+    title: "Desk Mat vs Mouse Pad",
+    description: "Tracking surface, desk protection, and aesthetics — for gamers, WFH setups, and minimal desks.",
+    tag: "Accessories",
+  },
+];
 
 export const revalidate = 86400;
 
@@ -44,6 +72,27 @@ export default async function ComparePage() {
         <a href="/how-we-review" className="text-ink-muted hover:text-brand transition-colors">
           How we score →
         </a>
+      </div>
+
+      {/* VS Articles section */}
+      <div className="mb-10">
+        <h2 className="text-lg font-bold text-ink mb-4">VS Comparisons</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {VS_ARTICLES.map((article) => (
+            <Link
+              key={article.slug}
+              href={`/compare/${article.slug}`}
+              className="group rounded-2xl border border-border bg-white hover:border-brand hover:shadow-sm transition-all p-5 flex flex-col gap-2"
+            >
+              <div className="flex items-center justify-between">
+                <span className="text-[10px] font-bold uppercase tracking-widest text-brand">{article.tag}</span>
+                <span className="text-xs text-ink-muted group-hover:text-brand transition-colors font-medium">Read →</span>
+              </div>
+              <p className="font-bold text-ink text-sm leading-snug">{article.title}</p>
+              <p className="text-xs text-ink-muted leading-relaxed">{article.description}</p>
+            </Link>
+          ))}
+        </div>
       </div>
 
       <AffiliateDisclosureBar variant="banner" className="mb-8" />
