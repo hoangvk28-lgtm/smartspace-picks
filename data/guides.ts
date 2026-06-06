@@ -1588,4 +1588,31 @@ export const guides: Guide[] = [
       { criterion: "Reset habit", content: "2-minute end-of-day reset is more effective than any product.\nWithout a reset habit, all organization systems degrade within weeks.\nSet a recurring reminder until the habit is automatic." },
     ],
   },
+
+  {
+    title: "Best Webcams Under $50 for Small Desks and Dorm Rooms (2026)",
+    slug: "best-webcam-under-50",
+    categorySlug: "budget-finds",
+    subcategorySlug: "desk-lamps",
+    description:
+      "5 budget webcams under $50 for students and small-desk setups — best overall, under $30, under $20, privacy shutter picks, and Chromebook-compatible options. Plug-and-play on Windows, macOS, and Chrome OS.",
+    mainKeyword: "best webcam under 50",
+    subKeywords: [
+      "best budget webcam 2026",
+      "best webcam for dorm room",
+      "best webcam under 30",
+      "chromebook webcam plug and play",
+      "webcam with privacy shutter under 50",
+      "best cheap webcam for zoom",
+    ],
+    heroImage: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/guides/best-webcam-under-50/06-best-webcam-under-50-hero.webp",
+    lastUpdated: "2026-06-06",
+    author: "Jamie Cole",
+    readTime: "10 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: ["best-desk-lamp-under-30", "desk-setup-essentials", "best-docking-stations-for-desk-setup"],
+    buyingCriteria: [],
+  },
 ];
