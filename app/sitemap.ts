@@ -114,7 +114,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   // Static VS compare articles (not category-based)
   const vsComparePages: MetadataRoute.Sitemap = [
-    { url: `${SITE_URL}/compare/monitor-stand-vs-monitor-arm`, lastModified: "2026-05-27", changeFrequency: "monthly", priority: 0.8 },
+    { url: `${SITE_URL}/compare/monitor-stand-vs-monitor-arm`,         lastModified: "2026-05-27", changeFrequency: "monthly", priority: 0.8 },
+    { url: `${SITE_URL}/compare/usb-c-hub-vs-docking-station`,         lastModified: "2026-06-06", changeFrequency: "monthly", priority: 0.8 },
+    { url: `${SITE_URL}/compare/lap-desk-vs-standing-desk-converter`,  lastModified: "2026-06-06", changeFrequency: "monthly", priority: 0.8 },
+    { url: `${SITE_URL}/compare/desk-mat-vs-mouse-pad`,                lastModified: "2026-06-06", changeFrequency: "monthly", priority: 0.8 },
   ];
 
   return [
