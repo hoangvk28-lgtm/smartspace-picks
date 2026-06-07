@@ -105,9 +105,9 @@ export default async function BestBudgetMultiDeviceChargingStationUnder50Page() 
   const itemListSchema = {
     "@context": "https://schema.org", "@type": "ItemList",
     name: "Best Budget Multi-Device Charging Stations Under $50 2026",
-    description: "5 best multi-device charging stations under $50 -- compared by GaN, USB-C PD wattage, port count, and value.",
+    description: "5 best multi-device charging stations under $50 — compared by GaN, USB-C PD wattage, port count, and value.",
     numberOfItems: 5,
-    itemListElement: products.map((p) => ({ "@type": "ListItem", position: p.rank, name: `${p.name} -- ${p.badge}`, url: `${SITE_URL}/guide/best-budget-multi-device-charging-station-under-50#${p.id}` })),
+    itemListElement: products.map((p) => ({ "@type": "ListItem", position: p.rank, name: `${p.name} — ${p.badge}`, url: `${SITE_URL}/guide/best-budget-multi-device-charging-station-under-50#${p.id}` })),
   };
 
   return (
@@ -141,13 +141,13 @@ export default async function BestBudgetMultiDeviceChargingStationUnder50Page() 
             </div>
             <div className="flex items-center gap-1.5 text-xs text-ink-muted">
               <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" /></svg>
-              5 picks -- all under $50, GaN and USB-C options included
+              5 picks — all under $50, GaN and USB-C options included
             </div>
           </div>
         </header>
 
         <div className="mb-8 p-4 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
-          <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission -- at no extra cost to you. As an Amazon Associate, DeskFinds earns from qualifying purchases.{" "}
+          <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission — at no extra cost to you. As an Amazon Associate, DeskFinds earns from qualifying purchases.{" "}
           <Link href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
         </div>
 
@@ -175,7 +175,7 @@ export default async function BestBudgetMultiDeviceChargingStationUnder50Page() 
                     <td className="px-4 py-3 font-semibold text-ink text-xs">{p.name}</td>
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{p.wattage}</td>
                     <td className="px-4 py-3 text-xs hidden sm:table-cell">
-                      {p.usbCPD !== "None" ? <span className="text-cta font-bold">{p.usbCPD}</span> : <span className="text-ink-muted">--</span>}
+                      {p.usbCPD !== "None" ? <span className="text-cta font-bold">{p.usbCPD}</span> : <span className="text-ink-muted">—</span>}
                     </td>
                     <td className="px-4 py-3 text-ink-secondary text-xs">{p.price}</td>
                     <td className="px-4 py-3">
@@ -193,9 +193,9 @@ export default async function BestBudgetMultiDeviceChargingStationUnder50Page() 
 
         {/* Intro */}
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
-          <p>The $30--50 range is where USB charging stations start getting genuinely interesting. At $25, you get USB-A hubs that charge phones reliably. At $35--50, you start getting GaN technology -- smaller, cooler-running chargers that can fast-charge laptops alongside phones.</p>
+          <p>The $30—50 range is where USB charging stations start getting genuinely interesting. At $25, you get USB-A hubs that charge phones reliably. At $35—50, you start getting GaN technology — smaller, cooler-running chargers that can fast-charge laptops alongside phones.</p>
           <p>The 5 picks in this guide were evaluated on wattage per port, USB-C PD availability, GaN efficiency, and whether they handle mixed Apple and Android device households without compromise.</p>
-          <p>Every pick is from a brand with a verifiable Amazon history -- UGREEN, Anker, SooPii, ORICO, and Sabrent all have thousands of reviews across their product lines.</p>
+          <p>Every pick is from a brand with a verifiable Amazon history — UGREEN, Anker, SooPii, ORICO, and Sabrent all have thousands of reviews across their product lines.</p>
         </section>
 
         {/* What to Know */}
@@ -203,12 +203,12 @@ export default async function BestBudgetMultiDeviceChargingStationUnder50Page() 
           <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">What to Know Before Buying a Multi-Device Charging Station</h2>
 
           <div className="mb-8">
-            <h3 className="text-lg font-bold text-ink mb-3">GaN vs Traditional Silicon -- Why It Matters at This Price</h3>
-            <p className="text-sm text-ink-secondary mb-4">Traditional chargers use silicon transistors. GaN (Gallium Nitride) chargers use a different semiconductor that runs at higher frequencies -- this makes them smaller, cooler, and more power-efficient. A 65W GaN charger like the UGREEN Nexode is roughly deck-of-cards size. A traditional 65W charger would be significantly larger.</p>
+            <h3 className="text-lg font-bold text-ink mb-3">GaN vs Traditional Silicon — Why It Matters at This Price</h3>
+            <p className="text-sm text-ink-secondary mb-4">Traditional chargers use silicon transistors. GaN (Gallium Nitride) chargers use a different semiconductor that runs at higher frequencies — this makes them smaller, cooler, and more power-efficient. A 65W GaN charger like the UGREEN Nexode is roughly deck-of-cards size. A traditional 65W charger would be significantly larger.</p>
             <div className="grid sm:grid-cols-2 gap-3 mb-4">
               {[
-                { label: "Traditional silicon charger", items: ["Larger physical size", "Runs warmer -- generates more heat", "Less efficient -- some wattage lost as heat", "Often cheaper at same wattage"] },
-                { label: "GaN charger", items: ["Compact -- often 40--60% smaller", "Runs cooler -- better long-term durability", "More efficient -- less wasted heat", "Slightly more expensive at same wattage"] },
+                { label: "Traditional silicon charger", items: ["Larger physical size", "Runs warmer — generates more heat", "Less efficient — some wattage lost as heat", "Often cheaper at same wattage"] },
+                { label: "GaN charger", items: ["Compact — often 40—60% smaller", "Runs cooler — better long-term durability", "More efficient — less wasted heat", "Slightly more expensive at same wattage"] },
               ].map((col, i) => (
                 <div key={i} className={`p-4 rounded-xl border ${i === 0 ? "border-gray-200 bg-gray-50" : "border-cta/30 bg-cta-light/20"}`}>
                   <p className="text-xs font-bold uppercase tracking-widest mb-2 text-ink">{col.label}</p>
@@ -219,7 +219,7 @@ export default async function BestBudgetMultiDeviceChargingStationUnder50Page() 
               ))}
             </div>
             <div className="p-3 rounded-xl bg-brand/5 border border-brand/20 text-sm text-ink-secondary">
-              <strong className="text-ink">At $30--40, GaN is now available:</strong> The UGREEN Nexode 65W is the clearest example -- 65W GaN in a compact body at a price that was $60+ just 2 years ago.
+              <strong className="text-ink">At $30—40, GaN is now available:</strong> The UGREEN Nexode 65W is the clearest example — 65W GaN in a compact body at a price that was $60+ just 2 years ago.
             </div>
           </div>
 
@@ -234,11 +234,11 @@ export default async function BestBudgetMultiDeviceChargingStationUnder50Page() 
                 </tr></thead>
                 <tbody>
                   {[
-                    { device: "iPhone 12--16", min: "20W", full: "20W (0--50% in 30 min)" },
+                    { device: "iPhone 12—16", min: "20W", full: "20W (0—50% in 30 min)" },
                     { device: "iPad Air / iPad Pro", min: "20W", full: "30W (full speed overnight)" },
                     { device: "MacBook Air M2/M3", min: "30W (slow)", full: "65W (fast, active use)" },
                     { device: "MacBook Pro 14\"", min: "30W (charge while asleep)", full: "96W (active use, not available here)" },
-                    { device: "Android flagship (most)", min: "18W PD", full: "25--45W (device-specific)" },
+                    { device: "Android flagship (most)", min: "18W PD", full: "25—45W (device-specific)" },
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink">{row.device}</td>
@@ -286,9 +286,9 @@ export default async function BestBudgetMultiDeviceChargingStationUnder50Page() 
           <h2 className="text-xl font-bold text-ink mb-5 tracking-tight">Bottom Line</h2>
           <div className="space-y-4">
             {[
-              { context: "Best overall and best GaN", product: "UGREEN Nexode 65W", href: "#ugreen-nexode-65w", verdict: "-- 65W GaN, 3 USB-C ports, deck-of-cards size. Best watt-per-dollar at this price." },
-              { context: "Best for Apple Watch + cables", product: "SooPii Premium 6-Port", href: "#soopii-6-port-watch", verdict: "-- built-in Watch arm, 6 cables included, PD 20W, best for mixed Apple households." },
-              { context: "Most ports (family use)", product: "ORICO 10-Port 120W", href: "#orico-10-port-120w", verdict: "-- 12W per port across 10 devices, double the wattage of typical budget stations." },
+              { context: "Best overall and best GaN", product: "UGREEN Nexode 65W", href: "#ugreen-nexode-65w", verdict: "— 65W GaN, 3 USB-C ports, deck-of-cards size. Best watt-per-dollar at this price." },
+              { context: "Best for Apple Watch + cables", product: "SooPii Premium 6-Port", href: "#soopii-6-port-watch", verdict: "— built-in Watch arm, 6 cables included, PD 20W, best for mixed Apple households." },
+              { context: "Most ports (family use)", product: "ORICO 10-Port 120W", href: "#orico-10-port-120w", verdict: "— 12W per port across 10 devices, double the wattage of typical budget stations." },
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
@@ -313,7 +313,7 @@ export default async function BestBudgetMultiDeviceChargingStationUnder50Page() 
           <h2 className="text-xl font-bold text-ink mb-4 tracking-tight">Related Guides</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {[
-              { href: "/guide/best-budget-usb-charging-station-under-30", title: "Best USB Charging Stations Under $30", desc: "7 reliable picks for phones, earbuds, and tablets -- under $30" },
+              { href: "/guide/best-budget-usb-charging-station-under-30", title: "Best USB Charging Stations Under $30", desc: "7 reliable picks for phones, earbuds, and tablets — under $30" },
               { href: "/guide/best-budget-apple-3-in-1-charging-station-under-40", title: "Best Apple 3-in-1 Charging Stations Under $40", desc: "iPhone + Watch + AirPods on one stand, under $40" },
               { href: "/compare/usb-c-hub-vs-docking-station", title: "USB-C Hub vs Docking Station", desc: "Which one do you actually need for your setup?" },
               { href: "/guide/desk-setup-essentials", title: "Desk Setup Essentials", desc: "15 must-have items for any desk setup" },
@@ -329,7 +329,7 @@ export default async function BestBudgetMultiDeviceChargingStationUnder50Page() 
               </Link>
             ))}
           </div>
-          <p className="text-xs text-ink-muted mt-4 text-center">Last updated: June 2026. Prices checked at time of writing -- verify current Amazon price before purchasing.</p>
+          <p className="text-xs text-ink-muted mt-4 text-center">Last updated: June 2026. Prices checked at time of writing — verify current Amazon price before purchasing.</p>
         </section>
       </Container>
     </>
