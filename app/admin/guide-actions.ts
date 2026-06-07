@@ -154,10 +154,8 @@ function revalidateAll(id?: string, slug?: string, categorySlug?: string) {
   revalidatePath("/admin/guides");
   if (id) revalidatePath(`/admin/guides/${id}/edit`);
   if (id) revalidatePath(`/admin/guides/${id}/preview`);
-  // Public guide pages
-  revalidatePath("/guide", "layout");
-  revalidatePath("/", "layout");
-  revalidatePath("/categories", "layout");
+  revalidatePath("/guide");
+  revalidatePath("/");
   if (slug) revalidatePath(`/guide/${slug}`);
   if (categorySlug) revalidatePath(`/categories/${categorySlug}`);
 }

@@ -191,10 +191,9 @@ export async function createProductAction(
   }
 
   revalidatePath("/admin/products");
-  revalidatePath("/", "layout");
-  revalidatePath("/reviews", "layout");
-  revalidatePath("/compare", "layout");
-  revalidatePath("/categories", "layout");
+  revalidatePath("/");
+  revalidatePath("/reviews");
+  revalidatePath("/compare");
   revalidatePath("/deals");
   redirect("/admin/products");
 }
@@ -238,10 +237,9 @@ export async function updateProductAction(
 
   revalidatePath("/admin/products");
   revalidatePath(`/admin/products/${id}/edit`);
-  revalidatePath("/", "layout");
-  revalidatePath("/reviews", "layout");
-  revalidatePath("/compare", "layout");
-  revalidatePath("/categories", "layout");
+  revalidatePath("/");
+  revalidatePath("/reviews");
+  revalidatePath("/compare");
   revalidatePath("/deals");
   redirect("/admin/products");
 }
@@ -250,10 +248,9 @@ export async function deleteProductAction(id: string): Promise<void> {
   if (!(await requireAdminSession())) return;
   await deleteProduct(id);
   revalidatePath("/admin/products");
-  revalidatePath("/", "layout");
-  revalidatePath("/reviews", "layout");
-  revalidatePath("/compare", "layout");
-  revalidatePath("/categories", "layout");
+  revalidatePath("/");
+  revalidatePath("/reviews");
+  revalidatePath("/compare");
   revalidatePath("/deals");
   redirect("/admin/products");
 }
