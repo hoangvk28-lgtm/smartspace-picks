@@ -104,9 +104,9 @@ export default async function BestBudgetApple3in1ChargingStationUnder40Page() {
   const itemListSchema = {
     "@context": "https://schema.org", "@type": "ItemList",
     name: "Best Budget Apple 3-in-1 Charging Stations Under $40 2026",
-    description: "5 best budget Apple 3-in-1 charging stations under $40 — MagSafe for iPhone, Apple Watch, and AirPods in one stand.",
+    description: "5 best budget Apple 3-in-1 charging stations under $40, MagSafe for iPhone, Apple Watch, and AirPods in one stand.",
     numberOfItems: 5,
-    itemListElement: products.map((p) => ({ "@type": "ListItem", position: p.rank, name: `${p.name} — ${p.badge}`, url: `${SITE_URL}/guide/best-budget-apple-3-in-1-charging-station-under-40#${p.id}` })),
+    itemListElement: products.map((p) => ({ "@type": "ListItem", position: p.rank, name: `${p.name}, ${p.badge}`, url: `${SITE_URL}/guide/best-budget-apple-3-in-1-charging-station-under-40#${p.id}` })),
   };
 
   return (
@@ -140,13 +140,13 @@ export default async function BestBudgetApple3in1ChargingStationUnder40Page() {
             </div>
             <div className="flex items-center gap-1.5 text-xs text-ink-muted">
               <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" /></svg>
-              5 picks — all under $40, all MagSafe-compatible
+              5 picks, all under $40, all MagSafe-compatible
             </div>
           </div>
         </header>
 
         <div className="mb-8 p-4 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
-          <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission — at no extra cost to you. As an Amazon Associate, DeskFinds earns from qualifying purchases.{" "}
+          <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission, at no extra cost to you. As an Amazon Associate, DeskFinds earns from qualifying purchases.{" "}
           <Link href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
         </div>
 
@@ -192,7 +192,7 @@ export default async function BestBudgetApple3in1ChargingStationUnder40Page() {
 
         {/* Intro */}
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
-          <p>Apple&apos;s own MagSafe Duo charger costs $149. It charges your iPhone and Apple Watch — but not AirPods, and it doesn&apos;t fold into a travel-friendly shape. For $25—40, several third-party manufacturers have produced MagSafe-certified alternatives that charge all three Apple devices simultaneously and fold flat enough to fit in a bag pocket.</p>
+          <p>Apple&apos;s own MagSafe Duo charger costs $149. It charges your iPhone and Apple Watch, but not AirPods, and it doesn&apos;t fold into a travel-friendly shape. For $25–$40, several third-party manufacturers have produced MagSafe-certified alternatives that charge all three Apple devices simultaneously and fold flat enough to fit in a bag pocket.</p>
           <p>Every pick in this guide is MagSafe-compatible (15W for iPhone 12 and later) and charges Apple Watch. The difference between picks comes down to three factors: maximum charging speed, whether it folds for travel, and whether it comes with the adapter you&apos;ll need.</p>
           <p>We evaluated these based on charging speed accuracy (are the 15W claims real?), build quality at the price point, folding mechanism durability, and whether the Watch arm position works for nightstand mode.</p>
         </section>
@@ -203,11 +203,11 @@ export default async function BestBudgetApple3in1ChargingStationUnder40Page() {
 
           <div className="mb-8">
             <h3 className="text-lg font-bold text-ink mb-3">1. &quot;MagSafe Compatible&quot; Is Not the Same as &quot;Made for MagSafe&quot;</h3>
-            <p className="text-sm text-ink-secondary mb-4">This is the single biggest quality differentiator in this category. Apple licenses its &quot;Made for MagSafe&quot; certification — only certified products can deliver the full 15W. Uncertified &quot;MagSafe compatible&quot; products are capped at 7.5W Qi, the same speed as a standard wireless charger from 2018.</p>
+            <p className="text-sm text-ink-secondary mb-4">This is the single biggest quality differentiator in this category. Apple licenses its &quot;Made for MagSafe&quot; certification, only certified products can deliver the full 15W. Uncertified &quot;MagSafe compatible&quot; products are capped at 7.5W Qi, the same speed as a standard wireless charger from 2018.</p>
             <div className="grid sm:grid-cols-2 gap-3 mb-4">
               {[
-                { label: "Made for MagSafe (certified)", items: ["Full 15W — iPhone charges in ~90 minutes", "Magnetic alignment confirmed accurate", "Apple licensing means accountability", "Usually labeled on product page with Apple MFM badge"] },
-                { label: "MagSafe compatible (uncertified)", items: ["Caps at 7.5W Qi — same as any Qi pad", "Magnetic alignment may be weaker", "No Apple oversight", "Usually cheaper, but you’re paying for 7.5W with extra steps"] },
+                { label: "Made for MagSafe (certified)", items: ["Full 15W, iPhone charges in ~90 minutes", "Magnetic alignment confirmed accurate", "Apple licensing means accountability", "Usually labeled on product page with Apple MFM badge"] },
+                { label: "MagSafe compatible (uncertified)", items: ["Caps at 7.5W Qi, same as any Qi pad", "Magnetic alignment may be weaker", "No Apple oversight", "Usually cheaper, but you’re paying for 7.5W with extra steps"] },
               ].map((col, i) => (
                 <div key={i} className={`p-4 rounded-xl border ${i === 0 ? "border-cta/30 bg-cta-light/20" : "border-yellow-200 bg-yellow-50"}`}>
                   <p className="text-xs font-bold uppercase tracking-widest mb-2 text-ink">{col.label}</p>
@@ -218,14 +218,14 @@ export default async function BestBudgetApple3in1ChargingStationUnder40Page() {
               ))}
             </div>
             <div className="p-3 rounded-xl bg-brand/5 border border-brand/20 text-sm text-ink-secondary">
-              <strong className="text-ink">ESR and KEEPRO both confirm Made for MagSafe certification</strong> on their product pages. The budget generic (pick #5) is uncertified but still rates 15W in buyer reports — verify this on the specific listing before purchasing.
+              <strong className="text-ink">ESR and KEEPRO both confirm Made for MagSafe certification</strong> on their product pages. The budget generic (pick #5) is uncertified but still rates 15W in buyer reports, verify this on the specific listing before purchasing.
             </div>
           </div>
 
           <div className="mb-8">
             <h3 className="text-lg font-bold text-ink mb-3">2. Apple Watch Charger Disk Is Not Included</h3>
-            <p className="text-sm text-ink-secondary mb-3">Every 3-in-1 stand in this guide includes a magnetic Watch arm holder — but not the magnetic charging disk (the small puck that actually charges the Watch). You need Apple&apos;s own USB-C Magnetic Fast Charge Cable, or an Apple-certified third-party disk.</p>
-            <p className="text-sm text-ink-secondary mb-3">This is expected and standard in the category. Apple Watch charging disks are licensed hardware — third-party stands can hold and position them, but they can&apos;t include the disk itself without Apple licensing (which pushes the price well above $40).</p>
+            <p className="text-sm text-ink-secondary mb-3">Every 3-in-1 stand in this guide includes a magnetic Watch arm holder, but not the magnetic charging disk (the small puck that actually charges the Watch). You need Apple&apos;s own USB-C Magnetic Fast Charge Cable, or an Apple-certified third-party disk.</p>
+            <p className="text-sm text-ink-secondary mb-3">This is expected and standard in the category. Apple Watch charging disks are licensed hardware, third-party stands can hold and position them, but they can&apos;t include the disk itself without Apple licensing (which pushes the price well above $40).</p>
             <div className="p-3 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
               <strong className="text-ink">What to buy:</strong> Apple USB-C Magnetic Fast Charge Cable ($29) works with all 3-in-1 arms in this guide and enables Apple Watch fast charging (Series 7+). The Magnetic Charging Cable (USB-A, $19) works but doesn&apos;t fast-charge.
             </div>
@@ -233,7 +233,7 @@ export default async function BestBudgetApple3in1ChargingStationUnder40Page() {
 
           <div className="mb-4">
             <h3 className="text-lg font-bold text-ink mb-3">3. Desk vs Travel: Two Different Use Cases</h3>
-            <p className="text-sm text-ink-secondary mb-3">Stand-style 3-in-1 chargers (ESR CryoBoost) are better for permanent desk or nightstand use — more stable, better viewing angles, but don&apos;t fold flat. Foldable chargers (ESR HaloLock, KEEPRO models) fold to shirt-pocket size and are the right choice for travel or small desk surfaces.</p>
+            <p className="text-sm text-ink-secondary mb-3">Stand-style 3-in-1 chargers (ESR CryoBoost) are better for permanent desk or nightstand use, more stable, better viewing angles, but don&apos;t fold flat. Foldable chargers (ESR HaloLock, KEEPRO models) fold to shirt-pocket size and are the right choice for travel or small desk surfaces.</p>
             <p className="text-sm text-ink-secondary mb-3">The picks in this guide are labeled with their use case so cậu can choose the one that fits.</p>
           </div>
         </section>
@@ -272,9 +272,9 @@ export default async function BestBudgetApple3in1ChargingStationUnder40Page() {
           <h2 className="text-xl font-bold text-ink mb-5 tracking-tight">Bottom Line</h2>
           <div className="space-y-4">
             {[
-              { context: "Best overall (desk use)", product: "ESR HaloLock Foldable", href: "#esr-halolock-foldable", verdict: "— Made for MagSafe, 15W, folds flat, nightstand Watch mode, certified at this price." },
-              { context: "Fastest charging", product: "ESR 25W CryoBoost", href: "#esr-25w-cryoboost", verdict: "— 25W MagSafe, built-in cooling fan, Watch fast charge (Series 7+). Best for daily desk use." },
-              { context: "Best for travel / under $30", product: "KEEPRO Ultra-Compact", href: "#keepro-ultra-compact", verdict: "— shirt-pocket size, 3.9oz, adapter included, 15W MagSafe." },
+              { context: "Best overall (desk use)", product: "ESR HaloLock Foldable", href: "#esr-halolock-foldable", verdict: ", Made for MagSafe, 15W, folds flat, nightstand Watch mode, certified at this price." },
+              { context: "Fastest charging", product: "ESR 25W CryoBoost", href: "#esr-25w-cryoboost", verdict: ", 25W MagSafe, built-in cooling fan, Watch fast charge (Series 7+). Best for daily desk use." },
+              { context: "Best for travel / under $30", product: "KEEPRO Ultra-Compact", href: "#keepro-ultra-compact", verdict: ", shirt-pocket size, 3.9oz, adapter included, 15W MagSafe." },
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
@@ -299,8 +299,8 @@ export default async function BestBudgetApple3in1ChargingStationUnder40Page() {
           <h2 className="text-xl font-bold text-ink mb-4 tracking-tight">Related Guides</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {[
-              { href: "/guide/best-budget-usb-charging-station-under-30", title: "Best USB Charging Stations Under $30", desc: "7 reliable picks for phones, earbuds, and tablets — under $30" },
-              { href: "/guide/best-budget-multi-device-charging-station-under-50", title: "Best Multi-Device Charging Stations Under $50", desc: "GaN, USB-C PD, and Apple Watch arms — the upgrade picks" },
+              { href: "/guide/best-budget-usb-charging-station-under-30", title: "Best USB Charging Stations Under $30", desc: "7 reliable picks for phones, earbuds, and tablets, under $30" },
+              { href: "/guide/best-budget-multi-device-charging-station-under-50", title: "Best Multi-Device Charging Stations Under $50", desc: "GaN, USB-C PD, and Apple Watch arms, the upgrade picks" },
               { href: "/guide/dorm-room-power-essentials", title: "Dorm Room Power Essentials", desc: "Power strips, surge protectors, and USB hubs for dorm setups" },
               { href: "/guide/desk-setup-essentials", title: "Desk Setup Essentials", desc: "15 must-have items for any desk setup" },
             ].map((g) => (
@@ -315,7 +315,7 @@ export default async function BestBudgetApple3in1ChargingStationUnder40Page() {
               </Link>
             ))}
           </div>
-          <p className="text-xs text-ink-muted mt-4 text-center">Last updated: June 2026. Prices checked at time of writing — verify current Amazon price before purchasing.</p>
+          <p className="text-xs text-ink-muted mt-4 text-center">Last updated: June 2026. Prices checked at time of writing, verify current Amazon price before purchasing.</p>
         </section>
       </Container>
     </>

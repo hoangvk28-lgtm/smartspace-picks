@@ -104,9 +104,9 @@ export default async function BestBudgetUsbChargingStationUnder30Page() {
   const itemListSchema = {
     "@context": "https://schema.org", "@type": "ItemList",
     name: "Best Budget USB Charging Stations Under $30 2026",
-    description: "7 best USB charging stations under $30 — compared by ports, wattage, USB-C availability, and smart charging.",
+    description: "7 best USB charging stations under $30, compared by ports, wattage, USB-C availability, and smart charging.",
     numberOfItems: 7,
-    itemListElement: products.map((p) => ({ "@type": "ListItem", position: p.rank, name: `${p.name} — ${p.badge}`, url: `${SITE_URL}/guide/best-budget-usb-charging-station-under-30#${p.id}` })),
+    itemListElement: products.map((p) => ({ "@type": "ListItem", position: p.rank, name: `${p.name}, ${p.badge}`, url: `${SITE_URL}/guide/best-budget-usb-charging-station-under-30#${p.id}` })),
   };
 
   return (
@@ -140,13 +140,13 @@ export default async function BestBudgetUsbChargingStationUnder30Page() {
             </div>
             <div className="flex items-center gap-1.5 text-xs text-ink-muted">
               <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" /></svg>
-              7 picks — all under $30, all verified on Amazon
+              7 picks, all under $30, all verified on Amazon
             </div>
           </div>
         </header>
 
         <div className="mb-8 p-4 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
-          <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission — at no extra cost to you. As an Amazon Associate, DeskFinds earns from qualifying purchases.{" "}
+          <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission, at no extra cost to you. As an Amazon Associate, DeskFinds earns from qualifying purchases.{" "}
           <Link href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
         </div>
 
@@ -192,9 +192,9 @@ export default async function BestBudgetUsbChargingStationUnder30Page() {
 
         {/* Intro */}
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
-          <p>The typical desk has a laptop charger, a phone charger, maybe a monitor or lamp — and usually only one or two free outlets. A USB charging station replaces 6—10 individual wall adapters with a single unit that charges everything from one plug.</p>
-          <p>At under $30, the quality range is enormous — from UL-certified brands like Anker and Sabrent to no-name units that run hot and fail after 6 months. Every pick in this guide is from a brand with a verifiable Amazon track record.</p>
-          <p>We evaluated 7 picks on total wattage, port configuration, safety certifications, smart-charging capability, and desk footprint — then ranked them for small-desk and dorm use.</p>
+          <p>The typical desk has a laptop charger, a phone charger, maybe a monitor or lamp, and usually only one or two free outlets. A USB charging station replaces 6–10 individual wall adapters with a single unit that charges everything from one plug.</p>
+          <p>At under $30, the quality range is enormous, from UL-certified brands like Anker and Sabrent to no-name units that run hot and fail after 6 months. Every pick in this guide is from a brand with a verifiable Amazon track record.</p>
+          <p>We evaluated 7 picks on total wattage, port configuration, safety certifications, smart-charging capability, and desk footprint, then ranked them for small-desk and dorm use.</p>
         </section>
 
         {/* What to Look For */}
@@ -202,8 +202,8 @@ export default async function BestBudgetUsbChargingStationUnder30Page() {
           <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">What to Look For in a Budget USB Charging Station</h2>
 
           <div className="mb-8">
-            <h3 className="text-lg font-bold text-ink mb-3">1. Total Wattage — The Spec That Actually Matters</h3>
-            <p className="text-sm text-ink-secondary mb-4">Every product in this guide lists &quot;up to 60W&quot; on the box. But 60W across 6 ports is only 10W per port under full load. 60W across 10 ports is 6W — fine for phones, slow for tablets.</p>
+            <h3 className="text-lg font-bold text-ink mb-3">1. Total Wattage, The Spec That Actually Matters</h3>
+            <p className="text-sm text-ink-secondary mb-4">Every product in this guide lists &quot;up to 60W&quot; on the box. But 60W across 6 ports is only 10W per port under full load. 60W across 10 ports is 6W, fine for phones, slow for tablets.</p>
             <div className="overflow-x-auto rounded-xl border border-border mb-4">
               <table className="w-full text-sm">
                 <thead><tr className="bg-brand text-white">
@@ -214,9 +214,9 @@ export default async function BestBudgetUsbChargingStationUnder30Page() {
                 </tr></thead>
                 <tbody>
                   {[
-                    { ports: "5—6 ports", total: "60W", perPort: "10—12W", bestFor: "Phones + earbuds at full speed" },
+                    { ports: "5–6 ports", total: "60W", perPort: "10–12W", bestFor: "Phones + earbuds at full speed" },
                     { ports: "10 ports", total: "60W", perPort: "6W", bestFor: "Phones only (tablets slow)" },
-                    { ports: "6 ports", total: "68W", perPort: "11—14W", bestFor: "Mix of phones + one tablet" },
+                    { ports: "6 ports", total: "68W", perPort: "11–14W", bestFor: "Mix of phones + one tablet" },
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink">{row.ports}</td>
@@ -231,22 +231,22 @@ export default async function BestBudgetUsbChargingStationUnder30Page() {
           </div>
 
           <div className="mb-8">
-            <h3 className="text-lg font-bold text-ink mb-3">2. USB-A vs USB-C — Do You Need It?</h3>
-            <p className="text-sm text-ink-secondary mb-3">If you have an iPhone 15 or later, any Android from 2021+, or iPad Pro/Air, your device charges via USB-C. A USB-A only station charges these devices just fine — but at 10W max, not 20—45W fast-charge speed.</p>
-            <p className="text-sm text-ink-secondary mb-3">For a station under $30, most have 0—1 USB-C port. The SooPii (pick #3) and MSTJRY (pick #5) both include a PD 20W USB-C port that fast-charges modern iPhones and Android phones in ~30 minutes from 0—50%.</p>
+            <h3 className="text-lg font-bold text-ink mb-3">2. USB-A vs USB-C, Do You Need It?</h3>
+            <p className="text-sm text-ink-secondary mb-3">If you have an iPhone 15 or later, any Android from 2021+, or iPad Pro/Air, your device charges via USB-C. A USB-A only station charges these devices just fine, but at 10W max, not 20–45W fast-charge speed.</p>
+            <p className="text-sm text-ink-secondary mb-3">For a station under $30, most have 0–1 USB-C port. The SooPii (pick #3) and MSTJRY (pick #5) both include a PD 20W USB-C port that fast-charges modern iPhones and Android phones in ~30 minutes from 0–50%.</p>
             <div className="p-3 rounded-xl bg-brand/5 border border-brand/20 text-sm text-ink-secondary">
-              <strong className="text-ink">Quick rule:</strong> If you have 1—2 USB-C devices that you use daily, choose a station with at least one PD 20W USB-C port. If all your devices are USB-A (older phones, Kindles, earbuds), a pure USB-A station is fine.
+              <strong className="text-ink">Quick rule:</strong> If you have 1–2 USB-C devices that you use daily, choose a station with at least one PD 20W USB-C port. If all your devices are USB-A (older phones, Kindles, earbuds), a pure USB-A station is fine.
             </div>
           </div>
 
           <div className="mb-8">
             <h3 className="text-lg font-bold text-ink mb-3">3. Smart Charging vs Fixed Output</h3>
             <p className="text-sm text-ink-secondary mb-3">Budget stations either deliver a fixed 2A per port regardless of the device, or use auto-detection (PowerIQ, Auto Detect, Smart IC) to identify the device and deliver the correct speed.</p>
-            <p className="text-sm text-ink-secondary mb-3">Fixed output is fine for phones — most smartphones cap at 2A anyway. But it undercharges tablets (which need 2.4A+) and can be inefficient. Anker&apos;s PowerIQ and Sabrent&apos;s Auto Detect both handle this correctly.</p>
+            <p className="text-sm text-ink-secondary mb-3">Fixed output is fine for phones, most smartphones cap at 2A anyway. But it undercharges tablets (which need 2.4A+) and can be inefficient. Anker&apos;s PowerIQ and Sabrent&apos;s Auto Detect both handle this correctly.</p>
           </div>
 
           <div className="mb-4">
-            <h3 className="text-lg font-bold text-ink mb-3">4. Safety Certification — UL, CE, and Brand Reputation</h3>
+            <h3 className="text-lg font-bold text-ink mb-3">4. Safety Certification, UL, CE, and Brand Reputation</h3>
             <p className="text-sm text-ink-secondary mb-3">A charging station with no safety marks from an unknown brand is a genuine fire risk. Every pick in this guide is either UL Certified (Sabrent), or from a brand (Anker, SooPii, Hercules Tuff, MSTJRY) with a substantial verifiable Amazon review history indicating real-world safety.</p>
             <div className="p-3 rounded-xl bg-red-50 border border-red-200 text-xs text-ink-secondary">
               <strong className="text-red-700">Avoid:</strong> Charging stations under $10 from unrecognized brands with fewer than 100 reviews. These are where safety failures actually occur.
@@ -288,9 +288,9 @@ export default async function BestBudgetUsbChargingStationUnder30Page() {
           <h2 className="text-xl font-bold text-ink mb-5 tracking-tight">Bottom Line</h2>
           <div className="space-y-4">
             {[
-              { context: "For most setups", product: "Anker PowerPort 6", href: "#anker-powerport-6", verdict: "— 60W, 6 ports, PowerIQ smart charging, surge protection, detachable cord. Reliable Anker warranty." },
-              { context: "Under $18", product: "Hercules Tuff 6-Port", href: "#hercules-tuff", verdict: "— Aluminum build for heat dissipation, 60W/2.4A per port, low-profile." },
-              { context: "With USB-C PD + cables included", product: "SooPii 6-Port", href: "#soopii-with-cables", verdict: "— PD 20W, 6 cables included, organizer slots for dorm setups." },
+              { context: "For most setups", product: "Anker PowerPort 6", href: "#anker-powerport-6", verdict: ", 60W, 6 ports, PowerIQ smart charging, surge protection, detachable cord. Reliable Anker warranty." },
+              { context: "Under $18", product: "Hercules Tuff 6-Port", href: "#hercules-tuff", verdict: ", Aluminum build for heat dissipation, 60W/2.4A per port, low-profile." },
+              { context: "With USB-C PD + cables included", product: "SooPii 6-Port", href: "#soopii-with-cables", verdict: ", PD 20W, 6 cables included, organizer slots for dorm setups." },
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
@@ -315,7 +315,7 @@ export default async function BestBudgetUsbChargingStationUnder30Page() {
           <h2 className="text-xl font-bold text-ink mb-4 tracking-tight">Related Guides</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {[
-              { href: "/guide/best-budget-multi-device-charging-station-under-50", title: "Best Multi-Device Charging Stations Under $50", desc: "GaN, USB-C PD, and Apple Watch arms — the upgrade picks" },
+              { href: "/guide/best-budget-multi-device-charging-station-under-50", title: "Best Multi-Device Charging Stations Under $50", desc: "GaN, USB-C PD, and Apple Watch arms, the upgrade picks" },
               { href: "/guide/best-budget-apple-3-in-1-charging-station-under-40", title: "Best Apple 3-in-1 Charging Stations Under $40", desc: "iPhone + Watch + AirPods on one stand, under $40" },
               { href: "/guide/dorm-room-power-essentials", title: "Dorm Room Power Essentials", desc: "Power strips, surge protectors, and USB hubs for dorm setups" },
               { href: "/guide/desk-setup-essentials", title: "Desk Setup Essentials", desc: "15 must-have items for any desk setup" },
@@ -331,7 +331,7 @@ export default async function BestBudgetUsbChargingStationUnder30Page() {
               </Link>
             ))}
           </div>
-          <p className="text-xs text-ink-muted mt-4 text-center">Last updated: June 2026. Prices checked at time of writing — verify current Amazon price before purchasing.</p>
+          <p className="text-xs text-ink-muted mt-4 text-center">Last updated: June 2026. Prices checked at time of writing, verify current Amazon price before purchasing.</p>
         </section>
       </Container>
     </>
