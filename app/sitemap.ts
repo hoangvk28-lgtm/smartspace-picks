@@ -5,11 +5,12 @@ import { guides as staticGuides } from "@/data/guides";
 import { categories } from "@/data/categories";
 import { isSupabaseConfigured } from "@/lib/supabase/server";
 
-// Try to load published slugs from Supabase; fall back to static data on any error.
+// Try to load published slugs from Supabase; merge with static data so no slug is ever missing.
 async function getPublishedProductSlugs(): Promise<{ slug: string; updatedAt: string }[]> {
-  if (!isSupabaseConfigured()) {
-    return staticProducts.map((p) => ({ slug: p.slug, updatedAt: new Date().toISOString() }));
-  }
+  const staticEntries = staticProducts.map((p) => ({ slug: p.slug, updatedAt: new Date().toISOString() }));
+
+  if (!isSupabaseConfigured()) return staticEntries;
+
   try {
     const { createAdminClient } = await import("@/lib/supabase/server");
     const supabase = createAdminClient();
@@ -20,12 +21,16 @@ async function getPublishedProductSlugs(): Promise<{ slug: string; updatedAt: st
       .eq("archived", false)
       .order("updated_at", { ascending: false });
     if (data && data.length > 0) {
-      return data.map((r) => ({ slug: r.slug as string, updatedAt: r.updated_at as string }));
+      // Merge: Supabase entries take precedence (have real updated_at), static fills the gaps.
+      const supabaseSlugs = new Set(data.map((r) => r.slug as string));
+      const dbEntries = data.map((r) => ({ slug: r.slug as string, updatedAt: r.updated_at as string }));
+      const staticOnly = staticEntries.filter((e) => !supabaseSlugs.has(e.slug));
+      return [...dbEntries, ...staticOnly];
     }
   } catch {
     // fall through to static fallback
   }
-  return staticProducts.map((p) => ({ slug: p.slug, updatedAt: new Date().toISOString() }));
+  return staticEntries;
 }
 
 async function getPublishedGuideSlugs(): Promise<{ slug: string; updatedAt: string }[]> {
@@ -72,6 +77,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${SITE_URL}/guide`,                     lastModified: now, changeFrequency: "weekly",  priority: 0.9 },
     { url: `${SITE_URL}/reviews`,                  lastModified: now, changeFrequency: "weekly",  priority: 0.8 },
     { url: `${SITE_URL}/compare`,                  lastModified: now, changeFrequency: "weekly",  priority: 0.8 },
+    { url: `${SITE_URL}/categories`,               lastModified: now, changeFrequency: "weekly",  priority: 0.7 },
     { url: `${SITE_URL}/deals`,                    lastModified: now, changeFrequency: "daily",   priority: 0.7 },
     { url: `${SITE_URL}/how-we-review`,            lastModified: now, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE_URL}/about-deskfinds`,           lastModified: now, changeFrequency: "monthly", priority: 0.5 },
