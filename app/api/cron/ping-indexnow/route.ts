@@ -66,14 +66,16 @@ export async function GET(request: Request) {
       body: JSON.stringify(body),
     });
 
-    if (!res.ok && res.status !== 202) {
+    const indexNowStatus = res.status;
+
+    if (res.status >= 500) {
       return NextResponse.json(
-        { ok: false, status: res.status, urls: urlList.length },
+        { ok: false, indexNowStatus, urls: urlList.length },
         { status: 500 }
       );
     }
 
-    return NextResponse.json({ ok: true, submitted: urlList.length, pingAt: new Date().toISOString() });
+    return NextResponse.json({ ok: true, indexNowStatus, submitted: urlList.length, pingAt: new Date().toISOString() });
   } catch (err) {
     return NextResponse.json({ ok: false, error: String(err) }, { status: 500 });
   }
