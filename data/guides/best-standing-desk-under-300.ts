@@ -2,8 +2,8 @@ const BASE = "/guides/best-standing-desk-under-300";
 
 export const guideSlug = "best-standing-desk-under-300";
 export const guideTitle =
-  "Best Standing Desk Under $300 in 2026: Dual Motor, Compact, and Small Apartment Picks";
-export const metaTitle = "Best Standing Desk Under $300 in 2026";
+  "7 Best Standing Desks Under $300 in 2026: Dual Motor, Compact, and Small Apartment Picks";
+export const metaTitle = "7 Best Standing Desks Under $300 in 2026";
 export const metaDescription =
   "Best standing desks under $300: FlexiSpot EN1, VIVO 55x24, Fezibo dual motor, Vari Essential (5-yr warranty). 7 picks for home office and dorm setups.";
 export const lastUpdated = "2026-06-20";

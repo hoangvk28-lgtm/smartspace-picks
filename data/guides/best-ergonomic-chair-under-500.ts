@@ -3,7 +3,7 @@ const BASE = "/guides/best-ergonomic-chair-under-500";
 export const guideSlug = "best-ergonomic-chair-under-500";
 export const guideTitle =
   "10 Best Ergonomic Chairs Under $500 in 2026: Every Budget Tier";
-export const metaTitle = "Best Ergonomic Chairs Under $500 in 2026";
+export const metaTitle = "10 Best Ergonomic Chairs Under $500 in 2026";
 export const metaDescription =
   "Best ergonomic chairs under $500: from $130 budget mesh to Branch Pro at $499 with 5D armrests. Sihoo, Duramont, ELABEST, Branch compared across 4 price tiers.";
 export const lastUpdated = "2026-06-20";

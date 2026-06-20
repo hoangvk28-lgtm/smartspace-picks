@@ -2126,7 +2126,7 @@ export const guides: Guide[] = [
     slug: "best-standing-desk-under-300",
     categorySlug: "desk-setup",
     subcategorySlug: "ergonomics",
-    title: "Best Standing Desk Under $300 in 2026: Dual Motor, Compact, and Small Apartment Picks",
+    title: "7 Best Standing Desks Under $300 in 2026: Dual Motor, Compact, and Small Apartment Picks",
     description:
       "The 7 best standing desks under $300 in 2026 -- dual motor, compact 48-inch, and storage options for home offices and small apartments. FlexiSpot, VIVO, Fezibo, Vari, SHW reviewed.",
     mainKeyword: "best standing desk under 300",
@@ -2158,7 +2158,7 @@ export const guides: Guide[] = [
     slug: "best-standing-desk-under-500",
     categorySlug: "desk-setup",
     subcategorySlug: "ergonomics",
-    title: "Best Standing Desk Under $500 in 2026: Dual Motor, L-Shaped, and Premium Picks",
+    title: "5 Best Standing Desks Under $500 in 2026: Dual Motor, L-Shaped, and Premium Picks",
     description:
       "The 5 best standing desks under $500 in 2026 -- dual motor, L-shaped corner, ergonomic edge, and solid wood options. FlexiSpot EC3, Vari Classic, Fezibo Triple Motor, Vari ComfortEdge.",
     mainKeyword: "best standing desk under 500",

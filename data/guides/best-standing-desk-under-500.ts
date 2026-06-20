@@ -2,8 +2,8 @@ const BASE = "/guides/best-standing-desk-under-500";
 
 export const guideSlug = "best-standing-desk-under-500";
 export const guideTitle =
-  "Best Standing Desk Under $500 in 2026: Dual Motor, L-Shaped, and Premium Picks";
-export const metaTitle = "Best Standing Desk Under $500 in 2026";
+  "5 Best Standing Desks Under $500 in 2026: Dual Motor, L-Shaped, and Premium Picks";
+export const metaTitle = "5 Best Standing Desks Under $500 in 2026";
 export const metaDescription =
   "Best standing desks under $500: FlexiSpot EC3 dual motor, Vari Classic 60x30, Fezibo L-shape, Vari ComfortEdge ergonomic edge. 5 premium picks.";
 export const lastUpdated = "2026-06-20";
