@@ -52,9 +52,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const guide = await getPublicGuideBySlug(slug);
   if (!guide) return {};
 
-  // Use hero image as OG image when it's an absolute Supabase URL
-  const heroImage = guide.heroImage && guide.heroImage.startsWith("http")
+  // Use hero image as OG image — supports both Supabase (http) and local (/images) paths
+  const heroImage = guide.heroImage?.startsWith("http")
     ? guide.heroImage
+    : guide.heroImage?.startsWith("/")
+    ? `${SITE_URL}${guide.heroImage}`
     : undefined;
 
   const base = buildMetadata({
@@ -154,7 +156,7 @@ export default async function BuyingGuidePage({ params }: Props) {
                 >
                   {/* Thumbnail */}
                   <div className="relative w-full h-44 overflow-hidden bg-bg">
-                    {cover?.startsWith("http") ? (
+                    {(cover?.startsWith("http") || cover?.startsWith("/")) ? (
                       <Image
                         src={cover}
                         alt={guide.title}

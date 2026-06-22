@@ -1,3 +1,5 @@
+import { markdownToHtml } from "@/lib/markdown";
+
 export interface TocItem {
   id: string;
   text: string;
@@ -20,6 +22,7 @@ function slugify(text: string): string {
 
 /**
  * Single pass over all section bodies:
+ * - Converts markdown to HTML if needed
  * - Injects id="" into every H2/H3 that lacks one
  * - Collects TOC items in document order
  * Returns processed HTML bodies and the TOC list.
@@ -31,10 +34,9 @@ export function processGuideContent(
   const toc: TocItem[] = [];
 
   const processedBodies = sections.map((section) => {
-    const { body } = section;
-    if (!body.trim().startsWith("<")) return body;
+    const html = markdownToHtml(section.body);
 
-    return body.replace(
+    return html.replace(
       /<h([23])([^>]*)>([\s\S]*?)<\/h[23]>/gi,
       (_match, rawLevel, attrs, inner) => {
         if (/\bid=/.test(attrs)) return _match;

@@ -4,10 +4,12 @@ import Image from "next/image";
 import { Container } from "@/components/layout/Container";
 import { AffiliateDisclosureBar } from "@/components/affiliate/AffiliateDisclosureBar";
 import { RichContent } from "@/components/ui/RichContent";
+import { TableOfContents } from "@/components/ui/TableOfContents";
 import { getGuideById } from "@/lib/guides-store";
 import type { GuideProductPick } from "@/lib/guides-store";
 import { buildMetadata } from "@/lib/seo";
 import { scoreToColor } from "@/lib/utils";
+import { processGuideContent } from "@/lib/toc";
 
 interface PageProps {
   params: Promise<{ id: string }>;
@@ -36,6 +38,10 @@ export default async function GuidePreviewPage({ params }: PageProps) {
     );
   }
   if (!guide) notFound();
+
+  const { toc, processedBodies } = processGuideContent(
+    guide.sections.map((s) => ({ heading: s.heading ?? "", body: s.body ?? "" }))
+  );
 
   return (
     <div className="min-h-screen bg-white">
@@ -81,6 +87,9 @@ export default async function GuidePreviewPage({ params }: PageProps) {
 
           {/* Affiliate disclosure */}
           <AffiliateDisclosureBar />
+
+          {/* Table of Contents */}
+          {toc.length >= 2 && <TableOfContents items={toc} />}
 
           {/* Intro */}
           {guide.intro && (
@@ -137,7 +146,7 @@ export default async function GuidePreviewPage({ params }: PageProps) {
               {section.heading && (
                 <h2 className="text-xl font-bold text-gray-900 mb-3">{section.heading}</h2>
               )}
-              {section.body && <RichContent html={section.body} />}
+              {section.body && <RichContent html={processedBodies[idx] ?? section.body} />}
             </div>
           ))}
 

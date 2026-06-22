@@ -2,6 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { useEffect, useRef } from "react";
+import { markdownToHtml } from "@/lib/markdown";
 
 interface RichContentProps {
   html: string;
@@ -54,7 +55,7 @@ export function RichContent({ html, className = "" }: RichContentProps) {
   return (
     <div
       ref={ref}
-      dangerouslySetInnerHTML={{ __html: html }}
+      dangerouslySetInnerHTML={{ __html: markdownToHtml(html) }}
       className={`prose max-w-none ${className}`}
     />
   );

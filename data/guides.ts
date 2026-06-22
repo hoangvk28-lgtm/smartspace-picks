@@ -1,4 +1,8 @@
-﻿// ─── Types ───────────────────────────────────────────────────────────────────
+﻿import { standardDeskHeightGuide } from "@/data/guides/standard-desk-height";
+import { ergonomicChairVsGamingChairGuide } from "@/data/guides/ergonomic-chair-vs-gaming-chair";
+import { ultrawideVsDualMonitorGuide } from "@/data/guides/ultrawide-vs-dual-monitor";
+
+// ─── Types ───────────────────────────────────────────────────────────────────
 
 export interface GuideSection {
   heading: string;
@@ -2184,4 +2188,7 @@ export const guides: Guide[] = [
     ],
     buyingCriteria: [],
   },
+  standardDeskHeightGuide,
+  ergonomicChairVsGamingChairGuide,
+  ultrawideVsDualMonitorGuide,
 ];
