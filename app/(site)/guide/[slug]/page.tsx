@@ -10,6 +10,8 @@ import { GuideComparisonTable } from "@/components/product/GuideComparisonTable"
 import { AffiliateDisclosureBar } from "@/components/affiliate/AffiliateDisclosureBar";
 import { Badge } from "@/components/ui/Badge";
 import { RichContent } from "@/components/ui/RichContent";
+import { TableOfContents } from "@/components/ui/TableOfContents";
+import { processGuideContent } from "@/lib/toc";
 import { MobileStickyPicksCTA } from "@/components/sections/MobileStickyPicksCTA";
 import { getPublicGuideBySlug, getPublicGuideSlugs, getRelatedPublicGuides, getPublicGuides } from "@/lib/public-guides";
 import type { GuideProductPick } from "@/lib/public-guides";
@@ -239,6 +241,19 @@ export default async function BuyingGuidePage({ params }: Props) {
     ? guide.sections[guide.sections.length - 1]
     : null;
 
+  // Build TOC and inject heading IDs in one pass across all sections
+  const allSectionsOrdered = [
+    ...(introSection ? [introSection] : []),
+    ...middleSections,
+    ...(methodologySection ? [methodologySection] : []),
+  ];
+  const { toc, processedBodies } = processGuideContent(allSectionsOrdered);
+  const introBody = processedBodies[0] ?? "";
+  const middleBodies = processedBodies.slice(1, 1 + middleSections.length);
+  const methodologyBody = methodologySection
+    ? processedBodies[processedBodies.length - 1]
+    : null;
+
   // JSON-LD schemas
   const guideAuthor = getAuthorByName(guide.author);
   const articleSchema = {
@@ -362,6 +377,9 @@ export default async function BuyingGuidePage({ params }: Props) {
           className="mb-8 max-w-3xl"
         />
 
+        {/* ── TOC ─────────────────────────────────────────────────────── */}
+        {toc.length >= 2 && <TableOfContents items={toc} />}
+
         {/* ── 4. Quick recommendation box ─────────────────────────────── */}
         {picks.length > 0 && (
           <div id="picks" className="scroll-mt-20">
@@ -377,11 +395,11 @@ export default async function BuyingGuidePage({ params }: Props) {
         {/* ── 6. Intro section ────────────────────────────────────────── */}
         {introSection && (
           <div className="prose max-w-3xl mb-10">
-            <h2>{introSection.heading}</h2>
-            {introSection.body.trim().startsWith("<") ? (
-              <RichContent html={introSection.body} />
+            {introSection.heading && <h2>{introSection.heading}</h2>}
+            {introBody.trim().startsWith("<") ? (
+              <RichContent html={introBody} />
             ) : (
-              introSection.body.split("\n\n").map((para, i) => (
+              introBody.split("\n\n").map((para, i) => (
                 <p key={i}>{para}</p>
               ))
             )}
@@ -470,18 +488,21 @@ export default async function BuyingGuidePage({ params }: Props) {
         {/* ── 9. What to look for (middle guide sections) ──────────────── */}
         {middleSections.length > 0 && (
           <div aria-label="Buying advice sections">
-            {middleSections.map((section) => (
-              <div key={section.heading} className="prose max-w-3xl mb-10">
-                <h2>{section.heading}</h2>
-                {section.body.trim().startsWith("<") ? (
-                  <RichContent html={section.body} />
-                ) : (
-                  section.body.split("\n\n").map((para, i) => (
-                    <p key={i}>{para}</p>
-                  ))
-                )}
-              </div>
-            ))}
+            {middleSections.map((section, i) => {
+              const body = middleBodies[i] ?? section.body;
+              return (
+                <div key={i} className="prose max-w-3xl mb-10">
+                  {section.heading && <h2>{section.heading}</h2>}
+                  {body.trim().startsWith("<") ? (
+                    <RichContent html={body} />
+                  ) : (
+                    body.split("\n\n").map((para, j) => (
+                      <p key={j}>{para}</p>
+                    ))
+                  )}
+                </div>
+              );
+            })}
           </div>
         )}
 
@@ -512,13 +533,13 @@ export default async function BuyingGuidePage({ params }: Props) {
           </div>
 
           {/* Guide's own methodology section if it exists */}
-          {methodologySection && (
+          {methodologySection && methodologyBody !== null && (
             <div className="prose mt-8">
-              <h3>{methodologySection.heading}</h3>
-              {methodologySection.body.trim().startsWith("<") ? (
-                <RichContent html={methodologySection.body} />
+              {methodologySection.heading && <h3>{methodologySection.heading}</h3>}
+              {methodologyBody.trim().startsWith("<") ? (
+                <RichContent html={methodologyBody} />
               ) : (
-                methodologySection.body.split("\n\n").map((para, i) => (
+                methodologyBody.split("\n\n").map((para, i) => (
                   <p key={i}>{para}</p>
                 ))
               )}
