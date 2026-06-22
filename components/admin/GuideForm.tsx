@@ -66,16 +66,33 @@ export function GuideForm({ action, guide, mode, products }: GuideFormProps) {
   const [sections, setSections] = useState<Array<{ heading: string; body: string }>>(initSections);
   const sectionCount = sections.length;
 
+  // Per-section HTML mode toggle
+  const [htmlModes, setHtmlModes] = useState<boolean[]>(initSections.map(() => false));
+  const [htmlModeKeys, setHtmlModeKeys] = useState<number[]>(initSections.map(() => 0));
+
   function setSectionBody(i: number, html: string) {
     setSections((prev) => prev.map((s, idx) => idx === i ? { ...s, body: html } : s));
   }
 
+  function toggleHtmlMode(i: number) {
+    const isHtml = htmlModes[i];
+    setHtmlModes((prev) => { const n = [...prev]; n[i] = !n[i]; return n; });
+    // Switching back to Visual: bump key to force Tiptap remount with latest HTML
+    if (isHtml) {
+      setHtmlModeKeys((prev) => { const n = [...prev]; n[i] = n[i] + 1; return n; });
+    }
+  }
+
   function addSection() {
     setSections((prev) => [...prev, { heading: "", body: "" }]);
+    setHtmlModes((prev) => [...prev, false]);
+    setHtmlModeKeys((prev) => [...prev, 0]);
   }
 
   function removeSection(i: number) {
     setSections((prev) => prev.filter((_, idx) => idx !== i));
+    setHtmlModes((prev) => prev.filter((_, idx) => idx !== i));
+    setHtmlModeKeys((prev) => prev.filter((_, idx) => idx !== i));
   }
 
   // Repeatable FAQ
@@ -758,15 +775,44 @@ export function GuideForm({ action, guide, mode, products }: GuideFormProps) {
                 <span className="text-xs font-semibold text-gray-500 uppercase tracking-wide">
                   Section {i + 1}
                 </span>
-                {sectionCount > 1 && (
-                  <button
-                    type="button"
-                    onClick={() => removeSection(i)}
-                    className="text-xs text-gray-400 hover:text-red-500 transition-colors"
-                  >
-                    Remove
-                  </button>
-                )}
+                <div className="flex items-center gap-3">
+                  {/* Visual / HTML toggle */}
+                  <div className="flex items-center rounded-md border border-gray-200 overflow-hidden text-xs font-medium">
+                    <button
+                      type="button"
+                      onClick={() => htmlModes[i] && toggleHtmlMode(i)}
+                      className={
+                        "px-2.5 py-1 transition-colors " +
+                        (!htmlModes[i]
+                          ? "bg-blue-600 text-white"
+                          : "bg-white text-gray-500 hover:bg-gray-50")
+                      }
+                    >
+                      Visual
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => !htmlModes[i] && toggleHtmlMode(i)}
+                      className={
+                        "px-2.5 py-1 transition-colors " +
+                        (htmlModes[i]
+                          ? "bg-blue-600 text-white"
+                          : "bg-white text-gray-500 hover:bg-gray-50")
+                      }
+                    >
+                      HTML
+                    </button>
+                  </div>
+                  {sectionCount > 1 && (
+                    <button
+                      type="button"
+                      onClick={() => removeSection(i)}
+                      className="text-xs text-gray-400 hover:text-red-500 transition-colors"
+                    >
+                      Remove
+                    </button>
+                  )}
+                </div>
               </div>
 
               <AdminFormField label="Heading" htmlFor={`section_heading_${i}`}>
@@ -783,11 +829,23 @@ export function GuideForm({ action, guide, mode, products }: GuideFormProps) {
               <input type="hidden" name={`section_body_${i}`} value={section.body} />
 
               <AdminFormField label="Body" htmlFor={`section_body_editor_${i}`}>
-                <RichTextEditor
-                  value={section.body}
-                  onChange={(html) => setSectionBody(i, html)}
-                  placeholder="Write section content..."
-                />
+                {htmlModes[i] ? (
+                  <textarea
+                    id={`section_body_editor_${i}`}
+                    value={section.body}
+                    onChange={(e) => setSectionBody(i, e.target.value)}
+                    spellCheck={false}
+                    className="w-full min-h-[320px] rounded-lg border border-gray-200 bg-gray-50 px-3 py-3 font-mono text-xs text-gray-800 leading-relaxed resize-y focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    placeholder="<p>Paste or write HTML here...</p>"
+                  />
+                ) : (
+                  <RichTextEditor
+                    key={htmlModeKeys[i]}
+                    value={section.body}
+                    onChange={(html) => setSectionBody(i, html)}
+                    placeholder="Write section content..."
+                  />
+                )}
               </AdminFormField>
             </div>
           ))}
