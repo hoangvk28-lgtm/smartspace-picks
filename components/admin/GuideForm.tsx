@@ -815,16 +815,6 @@ export function GuideForm({ action, guide, mode, products }: GuideFormProps) {
                 </div>
               </div>
 
-              <AdminFormField label="Heading" htmlFor={`section_heading_${i}`}>
-                <input
-                  id={`section_heading_${i}`}
-                  name={`section_heading_${i}`}
-                  type="text"
-                  className={inputClass}
-                  defaultValue={section.heading}
-                />
-              </AdminFormField>
-
               {/* Hidden input carries HTML value for FormData */}
               <input type="hidden" name={`section_body_${i}`} value={section.body} />
 

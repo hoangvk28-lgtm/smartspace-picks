@@ -32,10 +32,9 @@ function parseSections(formData: FormData): GuideSection[] {
   const sections: GuideSection[] = [];
   let i = 0;
   while (true) {
-    const heading = (formData.get(`section_heading_${i}`) as string | null)?.trim();
     const body = (formData.get(`section_body_${i}`) as string | null)?.trim();
-    if (heading === undefined && body === undefined) break;
-    if (heading || body) sections.push({ heading: heading ?? "", body: body ?? "" });
+    if (body === undefined) break;
+    if (body) sections.push({ heading: "", body });
     i++;
     if (i > 50) break;
   }
@@ -131,8 +130,8 @@ function validateFields(data: ReturnType<typeof parseFormData>): Record<string, 
   if (data.slug && !/^[a-z0-9-]+$/.test(data.slug)) errors.slug = "Slug must be lowercase letters, numbers, and hyphens only.";
   if (!data.categorySlug) errors.categorySlug = "Category is required.";
   for (const s of data.sections) {
-    if ((s.heading && !s.body) || (!s.heading && s.body)) {
-      errors.sections = "Each section needs both a heading and body.";
+    if (s.body && !s.body.trim()) {
+      errors.sections = "Section body cannot be empty whitespace.";
       break;
     }
   }
