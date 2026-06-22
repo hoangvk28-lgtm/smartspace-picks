@@ -81,14 +81,18 @@ The problem: the "average adult male" the standard was designed for is 5'9"-5'10
 | 6'3"-6'5" | 31-33" (79-84cm) | Standard desk too low by 1-3" |
 | Over 6'5" | 33"+ (84cm+) | Standard desk significantly too low |
 
-**Important:** These are starting points. Your actual comfortable height depends on whether you use a keyboard tray, monitor stand, wrist rest, and chair height in combination. Measure your own seated elbow height for precision.`,
+**Important:** These are starting points. Your actual comfortable height depends on whether you use a keyboard tray, monitor stand, wrist rest, and chair height in combination. Measure your own seated elbow height for precision.
+
+![Standard desk height measurement reference](/images/guides/standard-desk-height/02-standard-desk-height-measurement.webp)`,
     },
     {
       heading: "How to Measure Your Correct Desk Height",
       body: `1. **Set your chair height correctly first.** Sit down. Adjust the chair until your feet are flat on the floor and your hips are at a 90-degree angle (thighs parallel to the floor or slightly declining).
 2. **Relax your shoulders.** Let your arms hang naturally at your sides. Your shoulders should not be raised or hunched.
 3. **Bend your elbows to 90 degrees.** Your forearms should be parallel to the floor or angled slightly downward (5-10 degree decline is acceptable and reduces wrist strain).
-4. **Measure from the floor to the bottom of your elbow.** This distance is your target desk height for flat keyboard placement. If you use a keyboard tray (positioned below desk surface), your target desk height can be 1-2" higher.`,
+4. **Measure from the floor to the bottom of your elbow.** This distance is your target desk height for flat keyboard placement. If you use a keyboard tray (positioned below desk surface), your target desk height can be 1-2" higher.
+
+![How to measure correct desk height step by step](/images/guides/standard-desk-height/03-how-to-measure-correct-desk-height.webp)`,
     },
     {
       heading: "Why the Standard Height Does Not Fit Everyone",
@@ -125,7 +129,9 @@ If you fall within the 5'7"-6'0" range, a standard fixed-height desk at 29-30" i
 | Chair | Feet flat, hips 90 degrees, knees at or below hip level | Too low = feet dangle; too high = feet flat but hips pinched |
 | Desk | Elbow height when seated correctly | Too high = raised shoulders; too low = hunching forward |
 | Monitor | Top of screen at eye level | Too low = constant neck flex downward |
-| Keyboard | At or slightly below elbow height | Too high = elevated shoulders; too low = wrist extension |`,
+| Keyboard | At or slightly below elbow height | Too high = elevated shoulders; too low = wrist extension |
+
+![Desk, chair, and monitor ergonomic system](/images/guides/standard-desk-height/04-desk-chair-monitor-ergonomic-system.webp)`,
     },
     {
       heading: "Standing Desk Height: What Changes",
@@ -140,7 +146,9 @@ If you fall within the 5'7"-6'0" range, a standard fixed-height desk at 29-30" i
 | 6'3"-6'5" | 46-49" (117-124cm) | Need high-range standing desk ([FlexiSpot E7](https://www.amazon.com/s?k=flexispot+e7+standing+desk&tag=deskfinds0d-20), etc.) |
 | Over 6'5" | 49"+ | Verify max height before buying any standing desk |
 
-Most standing desks have a height range of approximately 27"-47". Users under 5'3" and over 6'3" should verify the specific min/max heights before purchasing, as some budget models have more limited ranges.`,
+Most standing desks have a height range of approximately 27"-47". Users under 5'3" and over 6'3" should verify the specific min/max heights before purchasing, as some budget models have more limited ranges.
+
+![Adjustable standing desk height solution](/images/guides/standard-desk-height/05-adjustable-standing-desk-height-solution.webp)`,
     },
     {
       heading: "What to Do When Your Desk Is the Wrong Height",

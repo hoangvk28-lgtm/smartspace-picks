@@ -372,6 +372,20 @@ export default async function BuyingGuidePage({ params }: Props) {
           </div>
         </header>
 
+        {/* ── Hero image ──────────────────────────────────────────────── */}
+        {guide.heroImage && (
+          <div className="relative w-full aspect-[16/7] rounded-xl overflow-hidden mb-8 max-w-3xl">
+            <Image
+              src={guide.heroImage}
+              alt={(guide as { heroImageAlt?: string }).heroImageAlt || guide.title}
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 800px"
+              priority
+            />
+          </div>
+        )}
+
         {/* ── 2. Affiliate disclosure ──────────────────────────────────── */}
         <AffiliateDisclosureBar
           variant="banner"

@@ -110,6 +110,7 @@ export function markdownToHtml(text: string): string {
 
 function inlineMd(text: string): string {
   return text
+    .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1" style="max-width:100%;border-radius:0.5rem;margin:1rem 0">')
     .replace(/\*\*\*(.+?)\*\*\*/g, "<strong><em>$1</em></strong>")
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
     .replace(/\*([^*\n]+?)\*/g, "<em>$1</em>")

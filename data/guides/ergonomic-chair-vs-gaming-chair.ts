@@ -93,7 +93,9 @@ The result: one performs significantly better for daily seated work, and it is n
 
 **Ergonomic chairs:** Lumbar support is built into the backrest structure. Adjustable models allow you to move the support pad up/down (height) and in/out (depth). Premium models use dynamic mechanisms that automatically adjust pressure as you shift posture. The support stays where you set it, continuously.
 
-For someone working 8 hours daily, the difference in lumbar support quality translates directly to afternoon lower back fatigue. The gaming chair's pillow will be in the wrong position within 30 minutes of a posture shift. The ergonomic chair's lumbar stays set.`,
+For someone working 8 hours daily, the difference in lumbar support quality translates directly to afternoon lower back fatigue. The gaming chair's pillow will be in the wrong position within 30 minutes of a posture shift. The ergonomic chair's lumbar stays set.
+
+![Lumbar support comparison: ergonomic vs gaming chair](/images/guides/ergonomic-chair-vs-gaming-chair/02-lumbar-support-ergonomic-vs-gaming-chair.webp)`,
     },
     {
       heading: "The Heat Problem: Mesh vs. PU Leather",
@@ -108,7 +110,9 @@ Mesh ergonomic chairs allow air circulation through the seat and back continuous
 | PU leather (gaming) | Poor | 2-4 years before peeling | Easy |
 | Genuine leather (gaming) | Poor | 5-8 years | Requires conditioning |
 
-**Note:** PU leather peels. After 2-3 years of regular use, the PU coating begins to crack and flake, especially at seat edges and armrest surfaces. This is the most common reason for gaming chair replacement.`,
+**Note:** PU leather peels. After 2-3 years of regular use, the PU coating begins to crack and flake, especially at seat edges and armrest surfaces. This is the most common reason for gaming chair replacement.
+
+![Mesh vs PU leather chair breathability comparison](/images/guides/ergonomic-chair-vs-gaming-chair/03-mesh-vs-pu-leather-chair-breathability.webp)`,
     },
     {
       heading: "The Adjustability Gap",
@@ -123,7 +127,9 @@ Mesh ergonomic chairs allow air circulation through the seat and back continuous
 | Recline lock positions | 2-3 | Multi-lock | Free or 2 positions | Free or 3 positions |
 | Headrest adjustment | Basic | 2D (height + tilt) | Pillow | Pillow |
 
-The pattern is consistent: ergonomic chairs at every price tier deliver more precise adjustability than gaming chairs at equivalent prices.`,
+The pattern is consistent: ergonomic chairs at every price tier deliver more precise adjustability than gaming chairs at equivalent prices.
+
+![Ergonomic chair adjustability features](/images/guides/ergonomic-chair-vs-gaming-chair/04-ergonomic-chair-adjustability-features.webp)`,
     },
     {
       heading: "Price Reality: The Gap Is Smaller Than You Think",
@@ -158,7 +164,9 @@ At $150, the ergonomic option ([SIHOO M57](https://www.amazon.com/s?k=sihoo+m57+
 
 **Tall users (over 6'1") or short users (under 5'5"):** Most gaming chairs are sized for an average adult male. Ergonomic chairs with adjustable seat depth, seat height, and lumbar positioning fit a wider range of body proportions.
 
-**Users over 200 lb:** The structural difference between a gaming chair and a quality ergonomic chair is more significant at higher weights. Budget gaming chair frames and casters show wear significantly faster.`,
+**Users over 200 lb:** The structural difference between a gaming chair and a quality ergonomic chair is more significant at higher weights. Budget gaming chair frames and casters show wear significantly faster.
+
+![Ergonomic chair for long workday support](/images/guides/ergonomic-chair-vs-gaming-chair/05-ergonomic-chair-for-long-workday.webp)`,
     },
     {
       heading: "The Verdict",

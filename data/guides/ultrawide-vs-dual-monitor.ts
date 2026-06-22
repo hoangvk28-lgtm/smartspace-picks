@@ -66,7 +66,9 @@ export const ultrawideVsDualMonitorGuide: Guide = {
 
 An ultrawide monitor extends the standard 16:9 aspect ratio into a 21:9 or 32:9 format, giving you a single continuous screen surface. Dual monitors place two separate 16:9 (or 16:10) panels side by side, with a physical bezel line running down the center.
 
-This distinction matters more than it sounds. The bezel gap in a dual setup is not just aesthetic. It actively interrupts your visual field during full-screen video, code review, gaming, and creative timelines. An ultrawide eliminates that interruption entirely.`,
+This distinction matters more than it sounds. The bezel gap in a dual setup is not just aesthetic. It actively interrupts your visual field during full-screen video, code review, gaming, and creative timelines. An ultrawide eliminates that interruption entirely.
+
+![Dual monitor bezel gap vs ultrawide continuous screen](/images/guides/ultrawide-vs-dual-monitor/03-dual-monitor-bezel-gap-problem.webp)`,
     },
     {
       heading: "Side-by-Side Comparison",
@@ -96,7 +98,9 @@ The average compact desk (48"-55" wide) physically cannot accommodate two 27" mo
 | 55"-60" | Yes | Yes | Yes |
 | 60"+ | Yes | Yes | Yes (with room to spare) |
 
-If your desk is under 55" wide, an ultrawide is almost always the correct answer before any other consideration. Check the [Best Standing Desk Under $500](/guide/best-standing-desk-under-500) guide if you're also thinking about a wider desk.`,
+If your desk is under 55" wide, an ultrawide is almost always the correct answer before any other consideration. Check the [Best Standing Desk Under $500](/guide/best-standing-desk-under-500) guide if you're also thinking about a wider desk.
+
+![Ultrawide vs dual monitor desk space comparison](/images/guides/ultrawide-vs-dual-monitor/02-ultrawide-vs-dual-monitor-desk-space.webp)`,
     },
     {
       heading: "Ergonomics: The Neck Strain Problem Nobody Discusses",
@@ -135,6 +139,8 @@ Ultrawides solve this by default: all content is on a single centered panel. You
 
 **Clean cable management:** One display cable vs two dramatically simplifies under-desk routing.
 
+![Ultrawide monitor clean workflow setup](/images/guides/ultrawide-vs-dual-monitor/04-ultrawide-monitor-clean-workflow.webp)
+
 ### Best for Dual Monitors
 
 **Raw screen area for research-heavy work:** Lawyers, researchers, and writers who need a full document on one screen and references on another benefit from the literal additional physical space.
@@ -143,7 +149,9 @@ Ultrawides solve this by default: all content is on a single centered panel. You
 
 **Budget-conscious upgrades:** If you already own one monitor, adding a second is cheaper than buying an ultrawide. A second 24" 1080p monitor costs $100-150, while the cheapest ultrawide is $150-200.
 
-**Multi-application workflows:** Running two completely separate applications simultaneously (a stock ticker on one screen, trading platform on another) benefits from two independent windows.`,
+**Multi-application workflows:** Running two completely separate applications simultaneously (a stock ticker on one screen, trading platform on another) benefits from two independent windows.
+
+![Dual monitor setup for streaming and research workflows](/images/guides/ultrawide-vs-dual-monitor/05-dual-monitor-streaming-research-workflow.webp)`,
     },
     {
       heading: "Price Reality Check (2026)",
