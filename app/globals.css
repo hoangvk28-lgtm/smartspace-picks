@@ -154,6 +154,38 @@
   font-style: italic;
 }
 
+.prose table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+  font-size: 0.875rem;
+  overflow-x: auto;
+  display: block;
+}
+
+.prose th,
+.prose td {
+  border: 1px solid var(--color-border);
+  padding: 0.5rem 0.875rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.prose th {
+  background: var(--color-bg);
+  font-weight: 600;
+  color: var(--color-ink);
+  white-space: nowrap;
+}
+
+.prose td {
+  color: var(--color-ink-secondary);
+}
+
+.prose tr:nth-child(even) td {
+  background: var(--color-bg);
+}
+
 /* ─── Utilities ─────────────────────────────────────────── */
 .visually-hidden {
   position: absolute;

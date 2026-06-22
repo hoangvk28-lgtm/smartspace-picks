@@ -8,6 +8,10 @@ import Image from "@tiptap/extension-image";
 import TextAlign from "@tiptap/extension-text-align";
 import Highlight from "@tiptap/extension-highlight";
 import Placeholder from "@tiptap/extension-placeholder";
+import { Table } from "@tiptap/extension-table";
+import { TableRow } from "@tiptap/extension-table-row";
+import { TableHeader } from "@tiptap/extension-table-header";
+import { TableCell } from "@tiptap/extension-table-cell";
 import { useState, useCallback } from "react";
 
 interface RichTextEditorProps {
@@ -74,6 +78,10 @@ export function RichTextEditor({
       TextAlign.configure({ types: ["heading", "paragraph"] }),
       Highlight.configure({ multicolor: false }),
       Placeholder.configure({ placeholder }),
+      Table.configure({ resizable: false }),
+      TableRow,
+      TableHeader,
+      TableCell,
     ],
     content: value,
     onUpdate({ editor: ed }) {
@@ -499,6 +507,49 @@ export function RichTextEditor({
           background: none;
           color: inherit;
           padding: 0;
+        }
+        .rte-content .tiptap table {
+          border-collapse: collapse;
+          width: 100%;
+          margin: 1.25rem 0;
+          font-size: 0.875rem;
+          overflow-x: auto;
+          display: block;
+        }
+        .rte-content .tiptap th,
+        .rte-content .tiptap td {
+          border: 1px solid #e2e8f0;
+          padding: 0.5rem 0.75rem;
+          text-align: left;
+          vertical-align: top;
+          color: #334155;
+        }
+        .rte-content .tiptap th {
+          background: #f8fafc;
+          font-weight: 600;
+          color: #0f172a;
+        }
+        .rte-content .tiptap tr:nth-child(even) td {
+          background: #f8fafc;
+        }
+        .rte-content .tiptap .selectedCell::after {
+          background: rgba(37, 99, 235, 0.08);
+          content: "";
+          position: absolute;
+          inset: 0;
+          pointer-events: none;
+        }
+        .rte-content .tiptap .column-resize-handle {
+          background-color: #2563eb;
+          bottom: -2px;
+          pointer-events: none;
+          position: absolute;
+          right: -2px;
+          top: 0;
+          width: 2px;
+        }
+        .rte-content .tiptap .tableWrapper {
+          overflow-x: auto;
         }
       `}</style>
     </div>
