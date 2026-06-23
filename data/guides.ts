@@ -1,6 +1,10 @@
 ﻿import { standardDeskHeightGuide } from "@/data/guides/standard-desk-height";
 import { ergonomicChairVsGamingChairGuide } from "@/data/guides/ergonomic-chair-vs-gaming-chair";
 import { ultrawideVsDualMonitorGuide } from "@/data/guides/ultrawide-vs-dual-monitor";
+import { bestMonitorArmUnder100Guide } from "@/data/guides/best-monitor-arm-under-100";
+import { best27InchMonitorUnder200Guide } from "@/data/guides/best-27-inch-monitor-under-200";
+import { bestStandingDeskUnder200Guide } from "@/data/guides/best-standing-desk-under-200";
+import { bestMechanicalKeyboardUnder100Guide } from "@/data/guides/best-mechanical-keyboard-under-100";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -2191,4 +2195,8 @@ export const guides: Guide[] = [
   standardDeskHeightGuide,
   ergonomicChairVsGamingChairGuide,
   ultrawideVsDualMonitorGuide,
+  bestMonitorArmUnder100Guide,
+  best27InchMonitorUnder200Guide,
+  bestStandingDeskUnder200Guide,
+  bestMechanicalKeyboardUnder100Guide,
 ];
