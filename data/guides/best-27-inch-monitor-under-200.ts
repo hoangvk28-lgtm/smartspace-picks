@@ -1,350 +1,323 @@
-import type { Guide } from "@/data/guides";
+const BASE_IMAGES = "/images/guides/best-27-inch-monitor-under-200";
 
-export const best27InchMonitorUnder200Guide: Guide = {
-  title: "Best 27-Inch Monitor Under $200 in 2026: Top Picks for Work and Gaming",
-  slug: "best-27-inch-monitor-under-200",
-  categorySlug: "desk-setup",
-  subcategorySlug: "monitors",
-  description:
-    "Best 27-inch monitors under $200 in 2026: MSI G274QPF-QD, Acer VG271U M3, KTC, LG, Samsung. 1080p vs 1440p decision, GPU requirements, and use-case verdict.",
-  mainKeyword: "best 27 inch monitor under 200",
-  subKeywords: [
-    "best 1440p monitor under 200",
-    "27 inch gaming monitor under 200",
-    "best monitor for home office under 200",
-    "msi g274qpf-qd review",
-    "best monitor for macbook",
-  ],
-  heroImage:
-    "/images/guides/best-27-inch-monitor-under-200/monitor-best-27-inch-monitor-under-200-msi-g274qpf-qd.webp",
-  thumbnailImage:
-    "/images/guides/best-27-inch-monitor-under-200/monitor-best-27-inch-monitor-under-200-msi-g274qpf-qd.webp",
-  lastUpdated: "2026-06-23",
-  author: "DeskFinds Editorial Team",
-  readTime: "12 min",
-  recommendedProductIds: [],
-  sections: [
-    {
-      heading: "",
-      body: `## Quick Picks
+export const guideSlug = "best-27-inch-monitor-under-200";
+export const guideTitle = "6 Best 27-Inch Monitors Under $200 in 2026: Top Picks for Work and Gaming";
+export const metaTitle = "6 Best 27-Inch Monitors Under $200 in 2026";
+export const metaDescription =
+  "Best 27-inch monitors under $200 in 2026: MSI G274QPF-QD, Acer VG271U M3, KTC, LG, Samsung. 1080p vs 1440p decision, GPU requirements, and use-case verdict.";
+export const lastUpdated = "2026-06-23";
+export const readTime = "12 min";
+export const heroImage = `${BASE_IMAGES}/monitor-best-27-inch-monitor-under-200-msi-g274qpf-qd.webp`;
 
-| Pick | Product | Resolution | Refresh | Price |
-|------|---------|------------|---------|-------|
-| Best Overall | MSI G274QPF-QD | 1440p | 170Hz | ~$170-200 |
-| Best 1440p Gaming Value | Acer Nitro VG271U M3 | 1440p | 180Hz | ~$150-180 |
-| Best High Refresh Rate | KTC H27T22C-3 | 1440p | 210Hz | ~$150-180 |
-| Best 1080p Productivity | LG 27MR400-B | 1080p | 100Hz | ~$120-150 |
-| Best 1080p Gaming | Samsung Odyssey G30D | 1080p | 165Hz | ~$130-160 |
-| Best Budget Under $130 | LG 27MP400-B | 1080p | 75Hz | ~$100-130 |
+export interface Monitor27Under200 {
+  id: string;
+  rank: number;
+  badge: string;
+  name: string;
+  price: string;
+  resolution: string;
+  refresh: string;
+  panelType: string;
+  responseTime: string;
+  colorGamut: string;
+  connectivity: string;
+  imageUrl: string;
+  amazonUrl: string;
+  whyItWorks: string;
+  tradeoffs: string[];
+  skipIf: string;
+  pros: string[];
+  cons: string[];
+}
 
-In 2026, a 27-inch monitor under $200 can deliver 1440p resolution and 180Hz refresh - specs that required $300+ just two years ago. The meaningful decision is no longer "what can you get at this price" but "which configuration fits your actual use case."
+export const products: Monitor27Under200[] = [
+  {
+    id: "msi-g274qpf-qd",
+    rank: 1,
+    badge: "Best Overall",
+    name: "MSI G274QPF-QD",
+    price: "~$170-200",
+    resolution: "2560x1440",
+    refresh: "170Hz",
+    panelType: "Rapid IPS",
+    responseTime: "1ms GTG",
+    colorGamut: "95% DCI-P3",
+    connectivity: "USB-C + DP 1.4 + 2x HDMI + height adj stand",
+    imageUrl: `${BASE_IMAGES}/monitor-best-27-inch-monitor-under-200-msi-g274qpf-qd.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B0BX1YCQTH?tag=deskfinds0d-20",
+    whyItWorks:
+      "Quantum Dot panel with 95% DCI-P3 color coverage typically costs $300+ at this size. USB-C single-cable connection for MacBook users provides display and up to 65W charging simultaneously. Height-adjustable stand is rare at this price - most budget monitors have tilt-only stands. FreeSync Premium and G-Sync Compatible certification covers both AMD and NVIDIA GPU owners.",
+    tradeoffs: [
+      "Highest price in guide at $170-200",
+      "170Hz vs 180-210Hz on competing 1440p options",
+      "USB-C power delivery may vary by batch - verify before purchasing for primary MacBook charging",
+    ],
+    skipIf:
+      "Budget is strictly under $160. The Acer VG271U M3 at $150-180 delivers 1440p 180Hz at similar quality without USB-C.",
+    pros: [
+      "Quantum Dot 95% DCI-P3 - photo-accurate colors at this price",
+      "USB-C single-cable for MacBook Pro/Air",
+      "Height-adjustable stand - rare at this price",
+      "FreeSync Premium + G-Sync Compatible",
+      "Rapid IPS - fast response for gaming and productivity",
+    ],
+    cons: [
+      "Highest price at $170-200",
+      "170Hz vs 180Hz on Acer",
+      "USB-C PD wattage varies - verify for MacBook charging",
+    ],
+  },
+  {
+    id: "acer-vg271u-m3",
+    rank: 2,
+    badge: "Best 1440p Gaming Value",
+    name: "Acer Nitro VG271U M3",
+    price: "~$150-180",
+    resolution: "2560x1440",
+    refresh: "180Hz (DP) / 144Hz (HDMI)",
+    panelType: "IPS",
+    responseTime: "0.5ms GTG",
+    colorGamut: "95% DCI-P3",
+    connectivity: "1x DP 1.2 + 2x HDMI 2.0, tilt-only stand",
+    imageUrl: `${BASE_IMAGES}/monitor-best-27-inch-monitor-under-200-acer-nitro-vg271u-m3.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B0C4Z8RFY9?tag=deskfinds0d-20",
+    whyItWorks:
+      "0.5ms GTG response time is the fastest in this guide, relevant for competitive gaming. 95% DCI-P3 matches the MSI G274QPF-QD at $20-30 less. 180Hz requires DisplayPort - HDMI caps at 144Hz, a detail worth knowing before purchasing. Best pure-value 1440p gaming monitor at this price tier.",
+    tradeoffs: [
+      "No USB-C - dedicated cable for each device",
+      "Tilt-only stand - no height adjustment without a monitor arm",
+      "180Hz requires DisplayPort, not HDMI",
+      "No built-in speakers",
+    ],
+    skipIf:
+      "You use a MacBook and need USB-C connectivity. The MSI G274QPF-QD adds USB-C for $20-30 more.",
+    pros: [
+      "0.5ms GTG - fastest response in this guide",
+      "95% DCI-P3 at $150-180",
+      "180Hz over DisplayPort for competitive gaming",
+      "FreeSync Premium",
+      "Best 1440p value per dollar in guide",
+    ],
+    cons: [
+      "No USB-C",
+      "Tilt-only stand",
+      "180Hz requires DP (HDMI limited to 144Hz)",
+      "No speakers",
+    ],
+  },
+  {
+    id: "ktc-h27t22c3",
+    rank: 3,
+    badge: "Best Refresh Rate Under $200",
+    name: "KTC H27T22C-3",
+    price: "~$150-180",
+    resolution: "2560x1440",
+    refresh: "200Hz / 210Hz OC",
+    panelType: "Fast IPS",
+    responseTime: "1ms MPRT",
+    colorGamut: "130% sRGB",
+    connectivity: "2x HDMI 2.0 + 2x DP 1.4, height adjustable + pivot stand, speakers",
+    imageUrl: `${BASE_IMAGES}/monitor-best-27-inch-monitor-under-200-ktc-h27t22c-3.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B0F7PRGR2H?tag=deskfinds0d-20",
+    whyItWorks:
+      "210Hz (overclocked) is the highest refresh rate in this guide. Dual DisplayPort 1.4 inputs are exceptional at any price - allows connecting two PCs at full 1440p 200Hz simultaneously without switching cables. Height-adjustable stand with pivot (portrait mode rotation). Shielding hood included - a $25-40 add-on on other setups.",
+    tradeoffs: [
+      "130% sRGB is wide but not DCI-P3 - less precise for color-critical work vs MSI/Acer",
+      "KTC is a newer brand with a shorter track record than MSI or LG",
+      "210Hz is overclocked - stable at 200Hz rated",
+    ],
+    skipIf:
+      "Color accuracy is the primary concern. The MSI G274QPF-QD with 95% DCI-P3 is more precise for photo and video work.",
+    pros: [
+      "210Hz - highest refresh rate in guide",
+      "Dual DP 1.4 - connect two PCs at full resolution",
+      "Height adjustable + pivot stand",
+      "Shielding hood included",
+      "Built-in speakers",
+    ],
+    cons: [
+      "130% sRGB not as precise as DCI-P3 for color work",
+      "Newer brand - shorter track record",
+      "OC at 210Hz - rated 200Hz stable",
+    ],
+  },
+  {
+    id: "lg-27mr400-b",
+    rank: 4,
+    badge: "Best 1080p Productivity",
+    name: "LG 27MR400-B",
+    price: "~$120-150",
+    resolution: "1920x1080",
+    refresh: "100Hz",
+    panelType: "IPS",
+    responseTime: "5ms GTG",
+    colorGamut: "99% sRGB",
+    connectivity: "2x HDMI + 1x VGA, tilt-only, Reader Mode + OnScreen Control",
+    imageUrl: `${BASE_IMAGES}/monitor-best-27-inch-monitor-under-200-msi-g274qpf-qd.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B0CSQK1D2W?tag=deskfinds0d-20",
+    whyItWorks:
+      "99% sRGB color coverage is accurate for document work and web content. LG's Reader Mode reduces blue light for long work sessions. OnScreen Control software lets you split the screen into zones without additional software. At $120-150, it provides LG's reliability and productivity-focused feature set for strictly office use. Note: 1080p at 27 inches is 82 pixels per inch vs 109 PPI on 1440p - text sharpness difference is visible at normal viewing distance.",
+    tradeoffs: [
+      '1080p at 27" is 82 PPI - softer text than 1440p at 109 PPI',
+      "No DisplayPort - HDMI and VGA only",
+      "Tilt-only stand",
+      "5ms GTG vs 0.5-1ms on gaming monitors",
+    ],
+    skipIf:
+      "You do text-heavy work for 6+ hours daily. The softer 82 PPI at 1080p / 27 inches causes more eye fatigue on text than 1440p. Consider the Acer VG271U M3 at $150-180.",
+    pros: [
+      "99% sRGB for accurate color in office use",
+      "LG Reader Mode + OnScreen Control productivity features",
+      "LG brand reliability",
+      "100Hz refresh for smooth scrolling",
+      "Good value for office-only use at $120-150",
+    ],
+    cons: [
+      '1080p at 27" is noticeably softer than 1440p',
+      "No DisplayPort",
+      "5ms response time for gaming",
+      "Tilt-only stand",
+    ],
+  },
+  {
+    id: "samsung-odyssey-g30d",
+    rank: 5,
+    badge: "Best 1080p Gaming",
+    name: "Samsung Odyssey G30D",
+    price: "~$130-160",
+    resolution: "1920x1080",
+    refresh: "165Hz",
+    panelType: "IPS",
+    responseTime: "1ms GTG",
+    colorGamut: "99% sRGB",
+    connectivity: "2x HDMI + 1x DisplayPort, tilt-only, FreeSync Premium + G-Sync Compatible",
+    imageUrl: `${BASE_IMAGES}/monitor-best-27-inch-monitor-under-200-samsung-odyssey-g30d.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B0D31Q1BQZ?tag=deskfinds0d-20",
+    whyItWorks:
+      "The right choice for gamers with mid-range or older GPUs (GTX 1060 to RTX 2070, RX 580 to RX 6600) where 1440p rendering would limit frame rates below the monitor's refresh. At 1080p, these GPUs can hit 120-165fps in most titles. DisplayPort included - unlike some 1080p monitors at this price. Samsung's established monitor quality at a competitive price point.",
+    tradeoffs: [
+      '1080p at 27" - softer text and image than 1440p panels',
+      "Tilt-only stand",
+      "Higher price than the LG 27MR400-B for the same resolution",
+    ],
+    skipIf:
+      "Your GPU is RTX 3060 or newer. You can handle 1440p and the Acer VG271U M3 at $150-180 provides a sharper image for similar cost.",
+    pros: [
+      "165Hz for smooth gaming at 1080p",
+      "1ms GTG response time",
+      "DisplayPort included",
+      "FreeSync Premium + G-Sync Compatible",
+      "Samsung reliability",
+    ],
+    cons: [
+      '1080p at 27" softer than 1440p',
+      "Tilt-only stand",
+      "Costs more than LG 27MR400-B for same resolution",
+    ],
+  },
+  {
+    id: "lg-27mp400-b",
+    rank: 6,
+    badge: "Best Budget Under $130",
+    name: "LG 27MP400-B",
+    price: "~$100-130",
+    resolution: "1920x1080",
+    refresh: "75Hz",
+    panelType: "IPS",
+    responseTime: "5ms GTG",
+    colorGamut: "99% sRGB",
+    connectivity: "2x HDMI + VGA, tilt-only, Reader Mode + OnScreen Control",
+    imageUrl: `${BASE_IMAGES}/monitor-best-27-inch-monitor-under-200-lg-27mp400-b.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B097NXN7RF?tag=deskfinds0d-20",
+    whyItWorks:
+      "Cheapest 27-inch IPS monitor in this guide with LG quality and 99% sRGB color accuracy. Reader Mode and OnScreen Control are useful productivity features even at this entry price. The 27MR400-B at $120-150 adds 100Hz vs 75Hz here - worth $20-30 for most users, but the 27MP400-B is the right call for strict budget limits or secondary monitor use.",
+    tradeoffs: [
+      "75Hz - visible difference from 100Hz+ for web browsing and video",
+      '1080p at 27" softer than 1440p',
+      "No DisplayPort",
+      "Tilt-only stand",
+    ],
+    skipIf:
+      "This is your primary monitor and you can afford $20-30 more. The LG 27MR400-B at $120-150 adds 100Hz for noticeably smoother scrolling.",
+    pros: [
+      "Lowest price 27-inch IPS in guide at $100-130",
+      "LG 99% sRGB color accuracy",
+      "Reader Mode + OnScreen Control",
+      "Good second-monitor option",
+      "LG reliability at minimum cost",
+    ],
+    cons: [
+      "75Hz only",
+      '1080p at 27" not sharp for text',
+      "No DisplayPort",
+      "Tilt-only stand",
+    ],
+  },
+];
 
-This guide is organized around that decision: 1440p vs 1080p, gaming vs productivity, and the one technical consideration most buyers overlook - pixel density at 27 inches.`,
-    },
-    {
-      heading: "The Key Decision: 1080p vs 1440p at 27 Inches",
-      body: `| Feature | 1080p (1920x1080) | 1440p (2560x1440) |
-|---------|-------------------|-------------------|
-| Pixel density | 82 PPI | 109 PPI |
-| Text sharpness | Noticeably softer at normal desk distance | Sharp and clear |
-| GPU requirement | GTX 1060 / RX 580 or newer | RTX 3060 / RX 6600 or newer recommended |
-| Gaming at high fps | Easier to hit 144-165fps on older GPUs | Requires more GPU power for same fps |
-| Price | ~$100-160 | ~$150-200 |
-| For productivity | Adequate, but text feels soft on large screen | Noticeably better for spreadsheets and documents |
-| For gaming (older GPU) | Strong choice - more headroom for frames | May bottleneck, frames drop below refresh rate |
-| For gaming (newer GPU) | GPU underutilized | Better match for RTX 3060+ capabilities |
+export interface AtAGlanceRow {
+  id: string;
+  badge: string;
+  name: string;
+  resolution: string;
+  refresh: string;
+  colorGamut: string;
+  price: string;
+}
 
-The honest verdict: at 27 inches, 1080p is a compromise. The jump from 82 PPI to 109 PPI is visible at a normal 60-75cm viewing distance, and text in browsers, documents, and code editors is meaningfully sharper at 1440p. If your GPU can handle 1440p at your target frame rate, it is the right choice at this screen size.
+export const atAGlanceRows: AtAGlanceRow[] = products.map((p) => ({
+  id: p.id,
+  badge: p.badge,
+  name: p.name,
+  resolution: p.resolution,
+  refresh: p.refresh,
+  colorGamut: p.colorGamut,
+  price: p.price,
+}));
 
-The exception is competitive gaming on an older GPU. If you have a GTX 1070 or RX 580 and want to hit 144fps consistently, a 1080p 165Hz monitor gives you more headroom than pushing a 1440p panel that your GPU cannot fully feed.`,
-    },
-    {
-      heading: "Before You Buy: 3 Quick Checks",
-      body: `1. **What is your GPU?** This is the most important filter. GTX 1060 or older - go 1080p. RTX 3060 or newer - 1440p is the right call. Integrated graphics (Intel Iris, AMD Vega) - stick to 1080p at 75-100Hz, you will not have the headroom for 1440p gaming.
+export interface FaqItem {
+  q: string;
+  a: string;
+}
 
-2. **What is your primary use?** Pure productivity with occasional video - 1080p at 100Hz is sufficient and saves money. Gaming-first - match resolution to your GPU as described above. Mixed work and gaming daily - the 1440p picks here handle both well without compromise.
+export const faq: FaqItem[] = [
+  {
+    q: "Is 1440p worth it at 27 inches?",
+    a: "Yes for most users. At 27 inches, 1440p delivers 109 pixels per inch vs 82 PPI at 1080p. The difference in text sharpness is visible at normal viewing distance (60-80cm). The main exception: if your GPU is older (GTX 1060, RX 580 class) and you prioritize high frame rates for gaming, 1080p lets the GPU hit higher fps than 1440p rendering allows.",
+  },
+  {
+    q: "What monitor is best for MacBook users under $200?",
+    a: "MSI G274QPF-QD is the only USB-C pick in this guide. USB-C provides a single cable for display and charging (verify power delivery wattage for your MacBook model). All other monitors in this guide require a separate power cable and HDMI or DisplayPort cable from a USB-C adapter.",
+  },
+  {
+    q: "Do these monitors work for photo editing?",
+    a: "The MSI G274QPF-QD (95% DCI-P3) and Acer VG271U M3 (95% DCI-P3) are usable for hobbyist photo editing. Professional color work requires a calibrated monitor typically at $300-600. The 1080p monitors in this guide (99% sRGB) are accurate for web-destined images but not for DCI-P3 or AdobeRGB workflows.",
+  },
+  {
+    q: "What refresh rate do I actually need?",
+    a: "75Hz is adequate for document work and casual video. 100Hz makes web scrolling and video noticeably smoother. 144Hz+ is the gaming threshold where motion feels fluid in fast games. 165-210Hz benefits competitive FPS players. The perceptible jump from 60 to 100Hz is clear to nearly everyone. From 144 to 165Hz is smaller and most apparent in competitive gaming.",
+  },
+  {
+    q: "Is 27 inches too big for a small desk?",
+    a: "No - 27 inches is comfortable at 60-80cm viewing distance on desks 40 inches or wider. The more relevant dimension is stand depth: standard monitor stands occupy 8-10 inches of desk depth. A monitor arm eliminates this footprint entirely. See the Best Monitor Arm Under $100 guide for options starting at $29.",
+  },
+];
 
-3. **Do you need a monitor arm or better adjustability?** The budget picks in this guide have tilt-only stands, which can cause neck and eye strain over long sessions. If your desk has a standard grommet or clamp edge, pairing any of these monitors with a quality arm is worth it. See our [Best Monitor Arm Under $100](/guide/best-monitor-arm-under-100) guide for options that fit this price range.`,
-    },
-    {
-      heading: "MSI G274QPF-QD - Best Overall",
-      body: `![MSI G274QPF-QD monitor on a desk](/images/guides/best-27-inch-monitor-under-200/monitor-best-27-inch-monitor-under-200-msi-g274qpf-qd.webp)
-
-**Price: ~$170-200** | [Check on Amazon](https://www.amazon.com/dp/B0BX1YCQTH?tag=deskfinds0d-20)
-
-**Specs at a glance:**
-- Panel: 27" Rapid IPS
-- Resolution: 2560x1440 (1440p)
-- Refresh rate: 170Hz
-- Response time: 1ms GTG
-- Color coverage: 95% DCI-P3 (Quantum Dot)
-- HDR: HDR400
-- Connectivity: USB-C, DisplayPort 1.4, 2x HDMI
-- Stand: Height adjustable, tilt, swivel
-- Sync: FreeSync Premium + G-Sync Compatible
-
-The MSI G274QPF-QD earns the top spot by covering more use cases than any other monitor in this price range. The Quantum Dot panel delivers 95% DCI-P3 color coverage - a spec that typically costs $300 or more. Colors are visibly richer than standard IPS, and the Rapid IPS panel keeps motion clarity high at 170Hz without the color accuracy tradeoffs found on TN panels.
-
-The USB-C input is the feature that separates this monitor from the rest of the field. MacBook users can connect with a single cable and get video, data, and up to 65W power delivery in one connection. The height-adjustable stand is another meaningful differentiator - most monitors at this price offer tilt only, and proper monitor height matters for all-day comfort. Based on specs and buyer feedback, the build quality is solid for the price, and the out-of-box color calibration is accurate enough for most users without adjustment.
-
-**Pros:**
-- 95% DCI-P3 Quantum Dot panel at a price usually reserved for sRGB-only monitors
-- USB-C single cable connection for MacBooks and USB-C laptops
-- Height-adjustable stand included - rare under $200
-- 170Hz Rapid IPS handles both competitive gaming and everyday use
-- G-Sync Compatible + FreeSync Premium for tear-free gaming on any GPU
-- HDR400 certification with real-world color pop
-
-**Cons:**
-- At the upper end of the under-$200 range - watch for sale pricing
-- USB-C power delivery (65W) may not be sufficient for high-performance laptops under load
-- No built-in speakers
-
-**Best for:** Hybrid work and gaming users, MacBook and USB-C laptop owners, hobbyist photo and video editors, anyone who wants a proper ergonomic stand without buying a monitor arm separately.`,
-    },
-    {
-      heading: "Acer Nitro VG271U M3 - Best 1440p Gaming Value",
-      body: `![Acer Nitro VG271U M3 monitor](/images/guides/best-27-inch-monitor-under-200/monitor-best-27-inch-monitor-under-200-acer-nitro-vg271u-m3.webp)
-
-**Price: ~$150-180** | [Check on Amazon](https://www.amazon.com/dp/B0C4Z8RFY9?tag=deskfinds0d-20)
-
-**Specs at a glance:**
-- Panel: 27" IPS
-- Resolution: 2560x1440 (1440p)
-- Refresh rate: 180Hz (via DisplayPort) / 144Hz (via HDMI)
-- Response time: 0.5ms GTG
-- Color coverage: 95% DCI-P3
-- HDR: HDR10
-- Connectivity: 1x DisplayPort 1.2, 2x HDMI 2.0
-- Stand: Tilt only
-- Sync: FreeSync Premium
-- Speakers: 2W built-in
-
-The Acer Nitro VG271U M3 is the purest gaming-value pick in this guide. The 0.5ms GTG response time is the fastest in the lineup - a spec that matters in fast-paced titles where ghosting on slower panels becomes visible. The 95% DCI-P3 color coverage matches the MSI at $20-30 less, making this the right choice if you do not need USB-C or a height-adjustable stand.
-
-One critical note: 180Hz is only available over DisplayPort. If you connect via HDMI - which many PC setups default to - you are capped at 144Hz. This is a firmware and bandwidth limitation of HDMI 2.0 at 1440p, not a defect. Use the included DisplayPort cable for the full 180Hz experience. The tilt-only stand is the main functional limitation; if long work sessions are part of your use case, budget for a monitor arm.
-
-**Pros:**
-- 0.5ms GTG response - fastest in this guide
-- 95% DCI-P3 color at a competitive price
-- 180Hz 1440p is a strong spec combination for gaming
-- Reliable Acer brand with good warranty support
-- 2W speakers included
-
-**Cons:**
-- 180Hz requires DisplayPort - HDMI is limited to 144Hz
-- Tilt-only stand
-- No USB-C
-- No height or swivel adjustment
-
-**Best for:** Gaming-first buyers with RTX 3060 or newer who want 1440p 180Hz at the best available price and do not need USB-C connectivity.`,
-    },
-    {
-      heading: "KTC H27T22C-3 - Best Refresh Rate Under $200",
-      body: `![KTC H27T22C-3 monitor](/images/guides/best-27-inch-monitor-under-200/monitor-best-27-inch-monitor-under-200-ktc-h27t22c-3.webp)
-
-**Price: ~$150-180** | [Check on Amazon](https://www.amazon.com/dp/B0F7PRGR2H?tag=deskfinds0d-20)
-
-**Specs at a glance:**
-- Panel: 27" Fast IPS
-- Resolution: 2560x1440 (1440p)
-- Refresh rate: 200Hz native / 210Hz OC
-- Response time: 1ms MPRT
-- Color coverage: 130% sRGB
-- HDR: HDR400
-- Connectivity: 2x HDMI 2.0, 2x DisplayPort 1.4
-- Stand: Height adjustable, pivot (portrait mode), tilt, swivel
-- Sync: Adaptive Sync
-- Speakers: Built-in
-- Accessories: Monitor shielding hood included
-
-The KTC H27T22C-3 offers the highest refresh rate in this guide at 210Hz overclocked, and pairs that with a feature set that punches well above its price. The dual DisplayPort 1.4 configuration is exceptional for the money - most monitors at this price offer a single DP port. Having two DP 1.4 inputs means you can connect two PCs at full 1440p 200Hz simultaneously and switch between them without disconnecting cables, which is a genuine quality-of-life upgrade for anyone running a home lab or work-and-gaming dual-machine setup.
-
-The included monitor shielding hood is the kind of accessory that usually sells as a $25-40 add-on. It reduces ambient light reflection and improves perceived contrast in bright rooms. The pivot stand allowing portrait rotation is also noteworthy - useful for developers, writers, and anyone reading long documents. Based on buyer feedback, KTC is a newer brand with strong value-per-spec ratios, and the H27T22C-3 has accumulated positive reviews for out-of-box performance.
-
-**Pros:**
-- 210Hz OC is the highest refresh rate in this guide
-- Dual DisplayPort 1.4 - connect two PCs at full resolution
-- Height adjustable + pivot stand included
-- Monitor shielding hood included out of box
-- Strong ergonomic package for the price
-- Built-in speakers
-
-**Cons:**
-- KTC is a newer brand with less established long-term reliability data than LG, Samsung, or Acer
-- 210Hz requires OC mode - 200Hz is the rated native spec
-- 130% sRGB is not the same as DCI-P3 coverage - colors are wide but not cinema-accurate
-
-**Best for:** Competitive gamers who want the highest refresh rate available under $200, dual-PC setups needing two DP connections at full spec, users who want ergonomic adjustability without paying extra.`,
-    },
-    {
-      heading: "LG 27MR400-B - Best 1080p Productivity Monitor",
-      body: `**Price: ~$120-150** | [Check on Amazon](https://www.amazon.com/dp/B0CSQK1D2W?tag=deskfinds0d-20)
-
-**Specs at a glance:**
-- Panel: 27" IPS
-- Resolution: 1920x1080 (1080p)
-- Refresh rate: 100Hz
-- Response time: 5ms GTG
-- Color coverage: 99% sRGB
-- Connectivity: 2x HDMI, 1x VGA
-- Stand: Tilt only
-- Sync: FreeSync
-- Features: Reader Mode, OnScreen Control, 3-side borderless
-
-The LG 27MR400-B is built around office productivity features rather than gaming specs. Reader Mode reduces blue light output for long document and reading sessions, and OnScreen Control is LG's software tool that lets you split and arrange windows directly from your monitor settings rather than relying on Windows Snap. For spreadsheets, document editing, and browser-heavy work, these features add genuine daily value.
-
-The 99% sRGB coverage and LG IPS panel deliver accurate, consistent color - important for presentations and web work where color fidelity matters. The 100Hz refresh rate is sufficient for office use and light gaming; it is not a gaming monitor, but it will not feel sluggish for everyday tasks. One honest limitation: at 27 inches, 1080p gives you 82 PPI compared to 1440p's 109 PPI. Text in browsers and documents is noticeably softer at normal viewing distances. If you spend most of your day reading and writing, the 1440p picks at $30-50 more are worth considering. The LG 27MR400-B makes sense when budget is the primary constraint or when this will serve as a second display where the primary is already sharp.
-
-**Pros:**
-- Reader Mode and OnScreen Control add genuine productivity value
-- 99% sRGB for accurate color in office and web work
-- LG IPS panel quality and brand reliability
-- 100Hz adequate for office use and casual gaming
-- 3-side borderless design works well in dual-monitor setups
-
-**Cons:**
-- 1080p at 27" is visibly soft for text-heavy work (82 PPI)
-- Tilt-only stand
-- No DisplayPort - HDMI only
-- 5ms response time (not suitable for competitive gaming)
-
-**Best for:** Home office workers who prioritize productivity features, second monitor in a dual-monitor setup, users with a strict $150 budget who want LG IPS quality.`,
-    },
-    {
-      heading: "Samsung Odyssey G30D - Best 1080p Gaming",
-      body: `![Samsung Odyssey G30D monitor](/images/guides/best-27-inch-monitor-under-200/monitor-best-27-inch-monitor-under-200-samsung-odyssey-g30d.webp)
-
-**Price: ~$130-160** | [Check on Amazon](https://www.amazon.com/dp/B0D31Q1BQZ?tag=deskfinds0d-20)
-
-**Specs at a glance:**
-- Panel: 27" IPS
-- Resolution: 1920x1080 (1080p)
-- Refresh rate: 165Hz
-- Response time: 1ms GTG
-- Connectivity: 2x HDMI, 1x DisplayPort
-- Stand: Tilt only
-- Sync: FreeSync Premium + G-Sync Compatible
-
-The Samsung Odyssey G30D is designed specifically for the gaming scenario where 1080p makes strategic sense: older mid-range GPUs that cannot hit high frame rates at 1440p. A GTX 1070, RX 580, or GTX 1080 can regularly push 100-165fps in modern titles at 1080p, but those same cards will struggle to maintain 60fps at 1440p in more demanding games. The G30D lets that older hardware work at its actual capability instead of bottlenecking at a resolution it cannot sustain.
-
-The 1ms GTG response time and FreeSync Premium with G-Sync Compatibility cover both AMD and Nvidia GPU owners for tear-free gaming. DisplayPort is included - unlike some productivity monitors in this range that ship HDMI only - which matters for 165Hz at full 1080p. Samsung's IPS panel delivers solid contrast and viewing angles, and the Odyssey brand has an established track record in gaming monitors. Based on buyer feedback, colors are accurate out of box and the gaming-focused image processing modes are useful without being intrusive.
-
-**Pros:**
-- 165Hz 1ms on a Samsung IPS panel at a competitive price
-- G-Sync Compatible + FreeSync Premium works with any GPU brand
-- DisplayPort included for full 165Hz capability
-- Optimized for older GPU owners to maximize frame rates at 1080p
-- Samsung reliability and warranty support
-
-**Cons:**
-- Tilt-only stand
-- 1080p at 27" is softer than 1440p for non-gaming use
-- No USB-C
-
-**Best for:** Gamers with mid-range older GPUs (GTX 1060-1080, RX 570-590) who want to maximize frame rates at 1080p rather than run 1440p below target fps.`,
-    },
-    {
-      heading: "LG 27MP400-B - Best Budget Under $130",
-      body: `![LG 27MP400-B monitor](/images/guides/best-27-inch-monitor-under-200/monitor-best-27-inch-monitor-under-200-lg-27mp400-b.webp)
-
-**Price: ~$100-130** | [Check on Amazon](https://www.amazon.com/dp/B097NXN7RF?tag=deskfinds0d-20)
-
-**Specs at a glance:**
-- Panel: 27" IPS
-- Resolution: 1920x1080 (1080p)
-- Refresh rate: 75Hz
-- Response time: 5ms
-- Color coverage: 99% sRGB
-- Connectivity: 2x HDMI, VGA
-- Stand: Tilt only
-- Sync: FreeSync
-- Features: Reader Mode, OnScreen Control
-
-The LG 27MP400-B is the answer when budget is the hard constraint. It is the least expensive 27-inch IPS monitor from a major brand that does not compromise on color accuracy - the 99% sRGB coverage and LG's IPS panel quality remain solid at this price. Reader Mode and OnScreen Control carry over from the pricier LG model, making it usable for productivity work despite the entry-level spec sheet.
-
-The main limitation is 75Hz. For documents, spreadsheets, web browsing, and video, 75Hz is fine. For gaming - even casual gaming - the difference between 75Hz and 100Hz is noticeable once you have experienced it, and both the Samsung Odyssey G30D and LG 27MR400-B offer meaningful gaming upgrades at $30-50 more. If you are comparing the 27MP400-B to the 27MR400-B, the 100Hz upgrade is usually worth the extra $20-30 unless the budget truly cannot stretch. The 27MP400-B makes the most sense as a second monitor where the primary is already high-spec, or for strictly non-gaming workstation use.
-
-**Pros:**
-- Lowest price for a 27" LG IPS with 99% sRGB
-- Reader Mode and OnScreen Control included
-- Reliable LG IPS panel quality
-- Good choice as a secondary productivity display
-
-**Cons:**
-- 75Hz is the primary limitation - noticeably less smooth than 100Hz+
-- Tilt-only stand
-- No DisplayPort
-- 1080p at 27" is soft for text-heavy work
-
-**Best for:** Second monitors in dual-display setups, users on the tightest budget who need 27-inch screen real estate, non-gaming productivity-only workstations.`,
-    },
-    {
-      heading: "Full Comparison Table",
-      body: `| Product | Price | Resolution | Refresh | Response | Color | USB-C | Height Adj | Speakers | HDR |
-|---------|-------|------------|---------|----------|-------|-------|------------|----------|-----|
-| MSI G274QPF-QD | ~$170-200 | 1440p | 170Hz | 1ms GTG | 95% DCI-P3 | Yes | Yes | No | HDR400 |
-| Acer Nitro VG271U M3 | ~$150-180 | 1440p | 180Hz (DP) | 0.5ms GTG | 95% DCI-P3 | No | No | Yes (2W) | HDR10 |
-| KTC H27T22C-3 | ~$150-180 | 1440p | 210Hz OC | 1ms MPRT | 130% sRGB | No | Yes + Pivot | Yes | HDR400 |
-| LG 27MR400-B | ~$120-150 | 1080p | 100Hz | 5ms GTG | 99% sRGB | No | No | No | No |
-| Samsung Odyssey G30D | ~$130-160 | 1080p | 165Hz | 1ms GTG | Standard | No | No | No | No |
-| LG 27MP400-B | ~$100-130 | 1080p | 75Hz | 5ms | 99% sRGB | No | No | No | No |`,
-    },
-    {
-      heading: "By Use Case: Which Monitor to Buy",
-      body: `| Use Case | Best Pick | Why |
-|----------|-----------|-----|
-| Hybrid work and gaming | MSI G274QPF-QD | 1440p + USB-C + height-adjustable stand covers both modes |
-| Gaming with newer GPU (RTX 3060+) | Acer Nitro VG271U M3 | 1440p 180Hz at the best price in this guide |
-| Competitive gaming - max refresh rate | KTC H27T22C-3 | 210Hz OC is the highest available here, dual DP for two-PC setups |
-| Office productivity | LG 27MR400-B | Reader Mode, OnScreen Control, 99% sRGB for document work |
-| Gaming with older GPU (GTX 1060-1080) | Samsung Odyssey G30D | 1080p 165Hz lets older hardware hit target frame rates |
-| Second monitor - tightest budget | LG 27MP400-B | Lowest price for LG IPS quality |
-| MacBook user | MSI G274QPF-QD | Only USB-C pick in the guide - single cable for video, data, and charging |
-| Hobbyist photo editing | MSI G274QPF-QD or Acer Nitro VG271U M3 | Both deliver 95% DCI-P3 at this price range |`,
-    },
-    {
-      heading: "Why 27-inch IPS Dominates Under $200 in 2026",
-      body: `Three years ago, a sub-$200 27-inch monitor selection included a meaningful number of VA panels, which offered deeper blacks and higher static contrast ratios (typically 3000:1 vs IPS's 1000:1). VA was the recommendation for dark-room gaming and movie watching. That has changed significantly.
-
-IPS panel manufacturing costs have dropped to the point where VA no longer holds a price advantage at the 27-inch size. More importantly, VA panels at this price point have consistently shown black smearing - a ghosting artifact specific to VA pixel response where dark objects leave visible trails on dark backgrounds. On fast-moving content and in gaming, this artifact is more disruptive than the contrast advantage is beneficial. The market responded accordingly, and most major panel manufacturers have shifted their 27-inch under-$200 production to IPS and Fast IPS variants.
-
-The practical result is that every monitor in this guide uses IPS technology, which gives you accurate colors, wide viewing angles, and fast enough response times for gaming. The tradeoff is that none of these monitors have deep blacks - in a dark room, the backlight bleed characteristic of IPS panels is visible, and shadow detail in games and movies is less dramatic than a VA panel at the same price would deliver.
-
-If your primary use case is dark-room gaming or home theater, and you are willing to accept slower pixel response in exchange for better contrast, there are still VA options worth considering - typically in the ultrawide or curved monitor categories at slightly higher price points. For most buyers - and specifically for anyone using their monitor in a normally lit room - IPS at this price is the right choice in 2026.`,
-    },
-  ],
-  faq: [
-    {
-      question: "Is 1440p worth it at 27 inches?",
-      answer:
-        "Yes, for most users. The pixel density difference between 1080p and 1440p at 27 inches is visible at normal desk viewing distances - 109 PPI vs 82 PPI means noticeably sharper text in browsers, documents, and code editors. The only scenario where 1080p makes more sense is if your GPU cannot push 1440p at your target frame rate. If you have an RTX 3060 or newer (or the AMD equivalent), 1440p is the right resolution for a 27-inch screen.",
-    },
-    {
-      question: "What monitor is best for MacBook users under $200?",
-      answer:
-        "The MSI G274QPF-QD is the only USB-C monitor in this guide and the clear choice for MacBook users. It supports single-cable connection for video, data, and power delivery up to 65W. Note that 65W may not fully charge higher-wattage MacBook Pro models under sustained load - if you run demanding applications, you may still need your original charger for top-up charging. For lighter MacBook Air usage or M-series MacBooks at moderate workloads, 65W is typically sufficient.",
-    },
-    {
-      question: "Do these monitors work for photo editing?",
-      answer:
-        "The MSI G274QPF-QD and Acer Nitro VG271U M3 both cover 95% DCI-P3 with Quantum Dot and standard IPS respectively, which is usable for hobbyist photo editing and color-sensitive work. Colors are rich and accurate enough that casual edits intended for social media and web publishing will look correct. Professional photo editing for print or commercial delivery requires factory-calibrated monitors with hardware calibration support, typically in the $300-600 range. The 95% DCI-P3 monitors here are a meaningful step above standard sRGB panels but are not a substitute for professional calibration tools.",
-    },
-    {
-      question: "What refresh rate do I actually need?",
-      answer:
-        "For pure productivity - documents, spreadsheets, web browsing, video calls - 60-75Hz is adequate and you will not notice a difference in daily work. For casual gaming, 100-144Hz delivers a noticeably smoother experience over 60Hz, and most users notice the difference immediately. For competitive gaming where reaction time matters, 144Hz or higher is the meaningful threshold. The jump from 60Hz to 100Hz is noticeable to almost everyone; the jump from 144Hz to 210Hz is more subtle and primarily benefits players with the hardware and skill level to take advantage of the extra frames.",
-    },
-    {
-      question: "Is 27 inches too big for a small desk?",
-      answer:
-        "No - 27 inches is comfortable at a viewing distance of 60-80cm, which fits on desks 40 inches or wider. The dimension most buyers overlook is stand depth, not screen width. The built-in stands on monitors in this guide typically project 8-10 inches from the desk edge, which can feel cramped on shallow desks. A monitor arm eliminates this entirely by mounting the screen directly to the desk edge and giving you back that 8-10 inches of desk space. See our [Best Monitor Arm Under $100](/guide/best-monitor-arm-under-100) guide for arms that pair well with these monitors.",
-    },
-  ],
-  relatedGuideSlugs: [
-    "ultrawide-vs-dual-monitor",
-    "best-monitor-arm-under-100",
-    "standard-desk-height",
-    "best-standing-desk-under-200",
-  ],
-};
+export const relatedGuides = [
+  {
+    href: "/guide/ultrawide-vs-dual-monitor",
+    title: "Ultrawide vs Dual Monitor",
+  },
+  {
+    href: "/guide/best-monitor-arm-under-100",
+    title: "Best Monitor Arm Under $100",
+  },
+  {
+    href: "/guide/standard-desk-height",
+    title: "Standard Desk Height Guide",
+  },
+  {
+    href: "/guide/best-standing-desk-under-200",
+    title: "Best Standing Desk Under $200",
+  },
+];

@@ -1,10 +1,6 @@
 ﻿import { standardDeskHeightGuide } from "@/data/guides/standard-desk-height";
 import { ergonomicChairVsGamingChairGuide } from "@/data/guides/ergonomic-chair-vs-gaming-chair";
 import { ultrawideVsDualMonitorGuide } from "@/data/guides/ultrawide-vs-dual-monitor";
-import { bestMonitorArmUnder100Guide } from "@/data/guides/best-monitor-arm-under-100";
-import { best27InchMonitorUnder200Guide } from "@/data/guides/best-27-inch-monitor-under-200";
-import { bestStandingDeskUnder200Guide } from "@/data/guides/best-standing-desk-under-200";
-import { bestMechanicalKeyboardUnder100Guide } from "@/data/guides/best-mechanical-keyboard-under-100";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -2195,8 +2191,128 @@ export const guides: Guide[] = [
   standardDeskHeightGuide,
   ergonomicChairVsGamingChairGuide,
   ultrawideVsDualMonitorGuide,
-  bestMonitorArmUnder100Guide,
-  best27InchMonitorUnder200Guide,
-  bestStandingDeskUnder200Guide,
-  bestMechanicalKeyboardUnder100Guide,
+  {
+    slug: "best-monitor-arm-under-100",
+    categorySlug: "desk-setup",
+    subcategorySlug: "accessories",
+    title: "7 Best Monitor Arms Under $100 in 2026: Picks for Every Desk Size",
+    description:
+      "Best monitor arms under $100: HUANUO FlowLift, North Bayou F80, VIVO for ultrawides, Amazon Basics. VESA check, weight guide, and desk space recovery comparison.",
+    mainKeyword: "best monitor arm under 100",
+    subKeywords: [
+      "best monitor arm",
+      "budget monitor arm",
+      "monitor arm for standing desk",
+      "dual monitor arm under 100",
+      "vivo monitor arm review",
+    ],
+    heroImage:
+      "/images/guides/best-monitor-arm-under-100/monitor-arm-best-monitor-arm-under-100-hero.webp",
+    lastUpdated: "2026-06-23",
+    author: "Jamie Cole",
+    readTime: "15 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: [
+      "ultrawide-vs-dual-monitor",
+      "best-standing-desk-under-200",
+      "standard-desk-height",
+      "best-27-inch-monitor-under-200",
+    ],
+    buyingCriteria: [],
+  },
+  {
+    slug: "best-27-inch-monitor-under-200",
+    categorySlug: "desk-setup",
+    subcategorySlug: "accessories",
+    title: "6 Best 27-Inch Monitors Under $200 in 2026: Top Picks for Work and Gaming",
+    description:
+      "Best 27-inch monitors under $200 in 2026: MSI G274QPF-QD, Acer VG271U M3, KTC, LG, Samsung. 1080p vs 1440p decision, GPU requirements, and use-case verdict.",
+    mainKeyword: "best 27 inch monitor under 200",
+    subKeywords: [
+      "best 1440p monitor under 200",
+      "best 27 inch gaming monitor under 200",
+      "msi g274qpf-qd review",
+      "acer vg271u m3 review",
+      "best monitor for home office under 200",
+    ],
+    heroImage:
+      "/images/guides/best-27-inch-monitor-under-200/monitor-best-27-inch-monitor-under-200-msi-g274qpf-qd.webp",
+    lastUpdated: "2026-06-23",
+    author: "Jamie Cole",
+    readTime: "12 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: [
+      "ultrawide-vs-dual-monitor",
+      "best-monitor-arm-under-100",
+      "standard-desk-height",
+      "best-standing-desk-under-200",
+    ],
+    buyingCriteria: [],
+  },
+  {
+    slug: "best-standing-desk-under-200",
+    categorySlug: "desk-setup",
+    subcategorySlug: "ergonomics",
+    title: "6 Best Electric Standing Desks Under $200 in 2026: Picks That Are Actually Good",
+    description:
+      "Best electric standing desks under $200: FlexiSpot EN1, FEZIBO, SHW, Marsail, SMUG. Height by user size, weight limits, and when to upgrade to the $300 tier.",
+    mainKeyword: "best standing desk under 200",
+    subKeywords: [
+      "best electric standing desk under 200",
+      "flexispot en1 review",
+      "fezibo standing desk review",
+      "best budget standing desk",
+      "cheapest electric standing desk",
+    ],
+    heroImage:
+      "/images/guides/best-standing-desk-under-200/standing-desk-best-standing-desk-under-200-hero.webp",
+    lastUpdated: "2026-06-23",
+    author: "Jamie Cole",
+    readTime: "12 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: [
+      "best-standing-desk-under-300",
+      "best-standing-desk-under-500",
+      "standard-desk-height",
+      "best-monitor-arm-under-100",
+    ],
+    buyingCriteria: [],
+  },
+  {
+    slug: "best-mechanical-keyboard-under-100",
+    categorySlug: "desk-setup",
+    subcategorySlug: "accessories",
+    title: "6 Best Mechanical Keyboards Under $100 for Home Office and Gaming (2026)",
+    description:
+      "Best mechanical keyboards under $100: Keychron V1 and C3 Pro, RK84, Epomaker TH80 Pro. Layout vs desk size, switch types for home office, hot-swap, and gasket mount explained.",
+    mainKeyword: "best mechanical keyboard under 100",
+    subKeywords: [
+      "best budget mechanical keyboard",
+      "keychron v1 review",
+      "keychron c3 pro review",
+      "best wireless mechanical keyboard under 100",
+      "best mechanical keyboard for home office",
+    ],
+    heroImage:
+      "/images/guides/best-mechanical-keyboard-under-100/keyboard-best-mechanical-keyboard-under-100-hero.webp",
+    lastUpdated: "2026-06-23",
+    author: "Jamie Cole",
+    readTime: "15 min",
+    recommendedProductIds: [],
+    sections: [],
+    faq: [],
+    relatedGuideSlugs: [
+      "best-standing-desk-under-200",
+      "best-monitor-arm-under-100",
+      "standard-desk-height",
+      "ultrawide-vs-dual-monitor",
+    ],
+    buyingCriteria: [],
+  },
 ];
