@@ -91,7 +91,7 @@ For full reviews and more picks: [Best Mechanical Keyboards Under $100](/guide/b
 
 **Note:** Measurements are for standard ANSI layouts. ISO (European) layouts add ~0.3-0.5" in width. Individual keyboards vary by +-0.2-0.5" depending on manufacturer and case design.
 
-![Master keyboard size chart comparison showing all layouts from 40% to 100%](/images/guides/keyboard-size-chart/02-master-keyboard-size-chart.webp)`,
+![Master keyboard size chart comparison showing all layouts from 40% to 100%](/images/guides/keyboard-size-chart/02-master-keyboard-size-layout-chart.webp)`,
     },
     {
       heading: "Each Layout Explained",
@@ -125,7 +125,7 @@ Compared to 75%: -1.1" narrower, -physical F-row (F1-F12 via Fn layer only)
 **Who uses it:** FPS gamers, users who don't use F-keys regularly, compact desk setups
 **Who should avoid it:** Video editors, programmers who use F-keys heavily, gamers with F-key in-game binds
 
-![40%, 60%, and 65% keyboard size comparison](/images/guides/keyboard-size-chart/03-compact-layouts-40-60-65.webp)`,
+![40%, 60%, and 65% keyboard size comparison](/images/guides/keyboard-size-chart/03-best-keyboard-size-for-small-desk.webp)`,
     },
     {
       heading: "75%, TKL, 96%, and Full-Size",
@@ -168,7 +168,7 @@ The standard keyboard with all 104 keys (ANSI). Numpad, F-row, full navigation c
 **Who uses it:** Data entry, spreadsheet-heavy work, users who switch between keyboard and numpad frequently
 **Who should avoid it:** Anyone with a desk under 48" wide where the keyboard takes up disproportionate space, gamers who want mouse room
 
-![75%, TKL, 96%, and full-size keyboard layout comparison](/images/guides/keyboard-size-chart/04-larger-layouts-75-tkl-full.webp)`,
+![75%, TKL, 96%, and full-size keyboard layout comparison](/images/guides/keyboard-size-chart/04-best-keyboard-size-for-gaming.webp)`,
     },
     {
       heading: "Keyboard Size Comparison and Reference Tables",
@@ -211,7 +211,7 @@ TKL  (14.0") ############################
 | FPS competitive gaming | 65% |
 | Programmer who uses F-keys | 75% or TKL |
 
-![Keyboard size comparison visual showing width of each layout](/images/guides/keyboard-size-chart/05-keyboard-size-comparison-visual.webp)`,
+![Keyboard size comparison visual showing width of each layout](/images/guides/keyboard-size-chart/05-keycap-size-chart-visual.webp)`,
     },
     {
       heading: "Best Keyboard Size for Gaming",
@@ -236,7 +236,7 @@ Mouse clearance. On a right-handed setup, a narrower keyboard shifts the mouse z
 - [TKL vs Full-Size Keyboard](/guide/tkl-vs-full-size-keyboard) - numpad decision guide
 - [60% vs 65% vs 75% Keyboard](/guide/60-vs-65-vs-75-keyboard) - compact layout comparisons
 
-![Best keyboard size for gaming by game type](/images/guides/keyboard-size-chart/06-gaming-keyboard-size-guide.webp)`,
+![Best keyboard size for gaming by game type](/images/guides/keyboard-size-chart/06-mechanical-keyboard-switch-color-comparison.webp)`,
     },
     {
       heading: "Laptop Keyboards, Keycap Sizes, and Switch Colors",
@@ -311,7 +311,7 @@ Keycaps are measured in **units (u)** where 1u = the size of a standard letter k
 | Typing only, private space | Clicky | Blue |
 | Video calls / open office | Linear or Tactile | Red or Brown - AVOID Blue |
 
-![Keycap size chart and switch color comparison reference guide](/images/guides/keyboard-size-chart/07-keycap-switch-reference.webp)`,
+![Keycap size chart and switch color comparison reference guide](/images/guides/keyboard-size-chart/07-compact-vs-full-size-keyboard-desk-footprint.webp)`,
     },
   ],
 };
