@@ -1,6 +1,9 @@
 ﻿import { standardDeskHeightGuide } from "@/data/guides/standard-desk-height";
 import { ergonomicChairVsGamingChairGuide } from "@/data/guides/ergonomic-chair-vs-gaming-chair";
 import { ultrawideVsDualMonitorGuide } from "@/data/guides/ultrawide-vs-dual-monitor";
+import { tklVsFullSizeKeyboardGuide } from "@/data/guides/tkl-vs-full-size-keyboard";
+import { sixtyVs65Vs75KeyboardGuide } from "@/data/guides/60-vs-65-vs-75-keyboard";
+import { keyboardSizeChartGuide } from "@/data/guides/keyboard-size-chart";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -2315,4 +2318,7 @@ export const guides: Guide[] = [
     ],
     buyingCriteria: [],
   },
+  tklVsFullSizeKeyboardGuide,
+  sixtyVs65Vs75KeyboardGuide,
+  keyboardSizeChartGuide,
 ];
