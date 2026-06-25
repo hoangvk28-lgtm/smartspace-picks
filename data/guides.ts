@@ -4,6 +4,8 @@ import { ultrawideVsDualMonitorGuide } from "@/data/guides/ultrawide-vs-dual-mon
 import { tklVsFullSizeKeyboardGuide } from "@/data/guides/tkl-vs-full-size-keyboard";
 import { sixtyVs65Vs75KeyboardGuide } from "@/data/guides/60-vs-65-vs-75-keyboard";
 import { keyboardSizeChartGuide } from "@/data/guides/keyboard-size-chart";
+import { bestBudget1080pWebcamGuide } from "@/data/guides/best-budget-1080p-webcam";
+import { bestWebcamForVideoCallsGuide } from "@/data/guides/best-webcam-for-video-calls";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -2321,4 +2323,6 @@ export const guides: Guide[] = [
   tklVsFullSizeKeyboardGuide,
   sixtyVs65Vs75KeyboardGuide,
   keyboardSizeChartGuide,
+  bestBudget1080pWebcamGuide,
+  bestWebcamForVideoCallsGuide,
 ];
