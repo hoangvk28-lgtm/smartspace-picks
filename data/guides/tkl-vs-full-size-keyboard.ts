@@ -80,9 +80,9 @@ export const tklVsFullSizeKeyboardGuide: Guide = {
 
 ## Top TKL Picks
 
-| Budget | Pick | Price | Amazon |
-|--------|------|-------|--------|
-| Under $45 | Keychron C3 Pro - hot-swap TKL, PBT double-shot keycaps | ~$35-45 | https://www.amazon.com/dp/B0CRDKQNQ5?tag=deskfinds0d-20 |`,
+| Budget | Pick | Price | |
+|--------|------|-------|--|
+| Under $45 | Keychron C3 Pro - hot-swap TKL, PBT double-shot keycaps | ~$35-45 | <a href="https://www.amazon.com/dp/B0CRDKQNQ5?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;">Check price on Amazon</a> |`,
     },
     {
       heading: "What TKL Actually Removes",

@@ -74,10 +74,10 @@ export const sixtyVs65Vs75KeyboardGuide: Guide = {
 
 ## Top Budget Picks by Size
 
-| Size | Pick | Price | Amazon |
-|------|------|-------|--------|
-| 65% | Redragon K631 PRO - triple-mode wireless, hot-swap, dedicated arrows | ~$45-55 | https://www.amazon.com/dp/B09ZNMRMHD?tag=deskfinds0d-20 |
-| 75% | EPOMAKER x AULA F75 - gasket mount, encoder knob, Cherry PBT | ~$60-65 | https://www.amazon.com/dp/B0CNT61VMZ?tag=deskfinds0d-20 |
+| Size | Pick | Price | |
+|------|------|-------|--|
+| 65% | Redragon K631 PRO - triple-mode wireless, hot-swap, dedicated arrows | ~$45-55 | <a href="https://www.amazon.com/dp/B09ZNMRMHD?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;">Check price on Amazon</a> |
+| 75% | EPOMAKER x AULA F75 - gasket mount, encoder knob, Cherry PBT | ~$60-65 | <a href="https://www.amazon.com/dp/B0CNT61VMZ?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;">Check price on Amazon</a> |
 
 See the full [Best Mechanical Keyboards Under $100](/guide/best-mechanical-keyboard-under-100) for more options and detailed specs.
 

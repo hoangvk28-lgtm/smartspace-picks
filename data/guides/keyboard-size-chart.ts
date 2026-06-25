@@ -69,11 +69,11 @@ export const keyboardSizeChartGuide: Guide = {
 
 If you already know which size you want, here are the top budget picks:
 
-| Size | Best Budget Pick | Price | Amazon |
-|------|-----------------|-------|--------|
-| 65% | Redragon K631 PRO (Triple-mode wireless, hot-swap) | ~$45-55 | https://www.amazon.com/dp/B09ZNMRMHD?tag=deskfinds0d-20 |
-| 75% | EPOMAKER x AULA F75 (Gasket mount, knob, PBT keycaps) | ~$60-65 | https://www.amazon.com/dp/B0CNT61VMZ?tag=deskfinds0d-20 |
-| TKL | Keychron C3 Pro (Hot-swap, PBT, compact build) | ~$35-45 | https://www.amazon.com/dp/B0CRDKQNQ5?tag=deskfinds0d-20 |
+| Size | Best Budget Pick | Price | |
+|------|-----------------|-------|--|
+| 65% | Redragon K631 PRO (Triple-mode wireless, hot-swap) | ~$45-55 | <a href="https://www.amazon.com/dp/B09ZNMRMHD?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;">Check price on Amazon</a> |
+| 75% | EPOMAKER x AULA F75 (Gasket mount, knob, PBT keycaps) | ~$60-65 | <a href="https://www.amazon.com/dp/B0CNT61VMZ?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;">Check price on Amazon</a> |
+| TKL | Keychron C3 Pro (Hot-swap, PBT, compact build) | ~$35-45 | <a href="https://www.amazon.com/dp/B0CRDKQNQ5?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;">Check price on Amazon</a> |
 
 For full reviews and more picks: [Best Mechanical Keyboards Under $100](/guide/best-mechanical-keyboard-under-100)
 
