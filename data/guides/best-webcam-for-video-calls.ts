@@ -1,12 +1,12 @@
 import type { Guide } from "@/data/guides";
 
 export const bestWebcamForVideoCallsGuide: Guide = {
-  title: "Best Webcam for Video Calls in 2026: Top 6 Picks for Zoom, Teams, and Meet",
+  title: "Best Webcam for Video Calls (2026): Zoom, Teams and Meet",
   slug: "best-webcam-for-video-calls",
   categorySlug: "desk-setup",
   subcategorySlug: "accessories",
   description:
-    "Best webcams for video calls in 2026: NexiGo N60, Logitech Brio 100, EMEET NOVA 4K, Anker PowerConf C200, C920x, and Razer Kiyo. Which webcam is actually best for Zoom, Microsoft Teams, and Google Meet.",
+    "Best webcams for video calls in 2026: NexiGo N60, Logitech Brio 100, EMEET NOVA 4K, Anker C200, and C920x. Top picks for Zoom, Teams, and Google Meet.",
   mainKeyword: "best webcam for video calls",
   subKeywords: [
     "best webcam for zoom meetings",
