@@ -1,12 +1,12 @@
 import type { Guide } from "@/data/guides";
 
 export const keyboardSizeChartGuide: Guide = {
-  title: "Keyboard Size Chart: Every Layout From 40% to 100% With Dimensions (2026)",
+  title: "Keyboard Size Chart: All Layouts and Dimensions (2026)",
   slug: "keyboard-size-chart",
   categorySlug: "desk-setup",
   subcategorySlug: "accessories",
   description:
-    "Complete keyboard size chart with dimensions in inches and cm for every layout - 40%, 60%, 65%, 75%, TKL, 96%, and full-size. Includes keycap size chart, switch color comparison, and best size for gaming.",
+    "Keyboard size chart with dimensions for 40%, 60%, 65%, 75%, TKL, 96%, and full-size layouts. Covers keycap sizes, switch colors, and best size for gaming.",
   mainKeyword: "keyboard size chart",
   subKeywords: [
     "keyboard dimensions inches",
