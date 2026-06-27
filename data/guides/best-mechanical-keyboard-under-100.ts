@@ -5,7 +5,7 @@ export const guideTitle =
   "6 Best Mechanical Keyboards Under $100 for Home Office and Gaming (2026)";
 export const metaTitle = "6 Best Mechanical Keyboards Under $100 in 2026";
 export const metaDescription =
-  "Best mechanical keyboards under $100: Keychron V1 and C3 Pro, RK84, Epomaker TH80 Pro. Layout vs desk size, switch types for home office, hot-swap, and gasket mount explained.";
+  "Best mechanical keyboards under $100: Keychron C3 Pro, V1, RK84, Epomaker TH80 Pro. Switch types, hot-swap, and gasket mount for home office and gaming.";
 export const lastUpdated = "2026-06-23";
 export const readTime = "15 min";
 export const heroImage = `${BASE_IMAGES}/keyboard-best-mechanical-keyboard-under-100-hero.webp`;
