@@ -11,7 +11,6 @@ import {
   lastUpdated,
   readTime,
   heroImage as fallbackHeroImage,
-  sectionImages,
   products,
   atAGlanceRows,
   faq,
@@ -41,75 +40,81 @@ function ProductSection({ product }: { product: SolidWoodDesk }) {
         </h2>
       </div>
       <div className="rounded-2xl border border-border bg-white overflow-hidden shadow-card">
-        <div className="p-5 flex flex-col gap-4">
-          {/* Spec chips */}
-          <div className="flex flex-wrap gap-2">
-            <span className="text-xs px-2.5 py-1 rounded-lg bg-brand-muted text-brand font-bold">
-              {product.price}
-            </span>
-            <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
-              {product.material}
-            </span>
-            <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
-              {product.width}
-            </span>
-            <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
-              {product.drawers}
-            </span>
-          </div>
-
-          {/* Why it works */}
-          <div>
-            <p className="text-xs font-bold uppercase tracking-widest text-brand mb-1">
-              Why it works
-            </p>
-            <p className="text-sm text-ink-secondary leading-relaxed">
-              {product.whyItWorks}
-            </p>
-          </div>
-
-          {/* Tradeoffs */}
-          {product.tradeoffs.length > 0 && (
-            <div>
-              <p className="text-xs font-bold uppercase tracking-widest text-ink-muted mb-1">
-                Trade-offs
-              </p>
-              <ul className="space-y-1">
-                {product.tradeoffs.map((t, i) => (
-                  <li key={i} className="text-xs text-ink-secondary">
-                    &middot; {t}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
-
-          {/* Skip if */}
-          <p className="text-xs text-ink-muted">
-            <span className="font-semibold text-ink">Skip if:</span>{" "}
-            {product.skipIf}
-          </p>
-
-          {/* CTA */}
+        <div className="flex flex-col sm:flex-row gap-5 p-5">
           <a
             href={product.amazonUrl}
             target="_blank"
             rel="nofollow sponsored noopener noreferrer"
-            className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90 transition-opacity w-fit"
-            style={{ background: "#FF9900" }}
+            className="shrink-0 flex items-center justify-center w-full sm:w-60 h-52 rounded-xl border border-border bg-gray-50 overflow-hidden hover:opacity-90 transition-opacity"
           >
-            <svg
-              className="w-3.5 h-3.5 shrink-0"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-            >
-              <path d="M12.26 18.36C9.18 20.34 4.76 21.38 1 20.16c-.38-.13-.33-.44.08-.35 3.47.67 7.77-.07 10.6-1.82.47-.27.87.17.58.37zm1.06-1.17c-.43-.56-2.85-.27-3.94-.13-.33.04-.38-.25-.08-.46 1.93-1.36 5.1-.97 5.47-.51.37.46-.1 3.63-1.91 5.14-.28.23-.54.11-.42-.2.41-.98 1.32-3.28.88-3.84z" />
-            </svg>
-            Check price on Amazon
+            <Image
+              src={product.imageUrl}
+              alt={product.name}
+              width={220}
+              height={200}
+              className="object-cover w-full h-full"
+              unoptimized
+            />
           </a>
+          <div className="flex-1 min-w-0 flex flex-col gap-3">
+            <div className="flex flex-wrap gap-2">
+              <span className="text-xs px-2.5 py-1 rounded-lg bg-brand-muted text-brand font-bold">
+                {product.price}
+              </span>
+              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
+                {product.material}
+              </span>
+              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
+                {product.width}
+              </span>
+              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
+                {product.drawers}
+              </span>
+            </div>
+            <div>
+              <p className="text-xs font-bold uppercase tracking-widest text-brand mb-1">
+                Why it works
+              </p>
+              <p className="text-sm text-ink-secondary leading-relaxed">
+                {product.whyItWorks}
+              </p>
+            </div>
+            {product.tradeoffs.length > 0 && (
+              <div>
+                <p className="text-xs font-bold uppercase tracking-widest text-ink-muted mb-1">
+                  Trade-offs
+                </p>
+                <ul className="space-y-1">
+                  {product.tradeoffs.map((t, i) => (
+                    <li key={i} className="text-xs text-ink-secondary">
+                      &middot; {t}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            <p className="text-xs text-ink-muted">
+              <span className="font-semibold text-ink">Skip if:</span>{" "}
+              {product.skipIf}
+            </p>
+            <a
+              href={product.amazonUrl}
+              target="_blank"
+              rel="nofollow sponsored noopener noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90 transition-opacity w-fit mt-auto"
+              style={{ background: "#FF9900" }}
+            >
+              <svg
+                className="w-3.5 h-3.5 shrink-0"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path d="M12.26 18.36C9.18 20.34 4.76 21.38 1 20.16c-.38-.13-.33-.44.08-.35 3.47.67 7.77-.07 10.6-1.82.47-.27.87.17.58.37zm1.06-1.17c-.43-.56-2.85-.27-3.94-.13-.33.04-.38-.25-.08-.46 1.93-1.36 5.1-.97 5.47-.51.37.46-.1 3.63-1.91 5.14-.28.23-.54.11-.42-.2.41-.98 1.32-3.28.88-3.84z" />
+              </svg>
+              Check price on Amazon
+            </a>
+          </div>
         </div>
-
-        {/* Pros / Cons */}
         <div className="border-t border-border grid sm:grid-cols-2 divide-y sm:divide-y-0 sm:divide-x divide-border">
           <div className="p-4">
             <p className="text-[10px] font-bold uppercase tracking-widest text-cta mb-3">
@@ -210,7 +215,7 @@ export default async function BestSolidWoodDesksPage() {
     itemListElement: products.map((p) => ({
       "@type": "ListItem",
       position: p.rank,
-      name: `${p.name} — ${p.badge}`,
+      name: `${p.name} - ${p.badge}`,
       url: `${SITE_URL}/guide/best-solid-wood-desk#${p.id}`,
     })),
   };
@@ -259,7 +264,7 @@ export default async function BestSolidWoodDesksPage() {
           </h1>
           <p className="text-lg text-ink-secondary leading-relaxed max-w-3xl">
             Most &ldquo;wood&rdquo; desks on Amazon are not solid wood. They are
-            MDF — compressed particleboard with a printed wood-look film on top.
+            MDF - compressed particleboard with a printed wood-look film on top.
             This guide covers five solid wood desks confirmed to use real hardwood
             construction, currently in stock, rated 4.0 stars or higher, and
             priced between $120 and $581.
@@ -392,16 +397,16 @@ export default async function BestSolidWoodDesksPage() {
         {/* Intro */}
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>
-            The challenge with solid wood desks is not finding them — it is
-            verifying them. Amazon product titles use &ldquo;wood&rdquo; freely.
-            &ldquo;Solid wood computer desk&rdquo; in a title can mean a full
+            The challenge with solid wood desks is not finding them - it is
+            verifying them. Amazon product titles use the word wood freely.
+            A listing titled &ldquo;solid wood computer desk&rdquo; can mean a full
             hardwood top, an MDF top with solid wood legs, or a veneer surface
             over particle board. The only reliable check is the product
             description&rsquo;s materials section.
           </p>
           <p>
             Every desk on this list has been verified against its full product
-            listing for specific wood species or clear solid construction
+            listing for a specific wood species or clear solid construction
             language. If you are still deciding between a fixed desk and a
             height-adjustable option, see our comparison of{" "}
             <Link
@@ -421,7 +426,7 @@ export default async function BestSolidWoodDesksPage() {
           </p>
         </section>
 
-        {/* Why real wood section with image */}
+        {/* Why real wood section */}
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-ink mb-5 tracking-tight">
             Why Real Wood Matters (and How to Spot Fakes)
@@ -438,43 +443,30 @@ export default async function BestSolidWoodDesksPage() {
               </li>
               <li>
                 <strong className="text-ink">Veneer tops scratch and peel</strong>{" "}
-                — and cannot be refinished
+                and cannot be refinished
               </li>
               <li>
                 <strong className="text-ink">Solid wood holds screws tighter</strong>{" "}
-                — monitor arms, cable clips, and leg hardware stay firm over years
+                so monitor arms, cable clips, and leg hardware stay firm over years
               </li>
               <li>
                 <strong className="text-ink">Solid wood can be refinished</strong>{" "}
-                — a scratched solid wood desk can be restored; MDF cannot
+                - a scratched solid wood desk can be restored; MDF cannot
               </li>
             </ul>
           </div>
 
-          <div className="mb-6 p-4 rounded-xl border border-border bg-white">
+          <div className="p-4 rounded-xl border border-border bg-white">
             <h3 className="text-base font-bold text-ink mb-3">
               How to verify before buying
             </h3>
             <p className="text-sm text-ink-secondary leading-relaxed">
-              Search the full product description for a specific wood species —
-              &ldquo;parawood,&rdquo; &ldquo;rubberwood,&rdquo;
-              &ldquo;beechwood,&rdquo; &ldquo;solid acacia,&rdquo;
-              &ldquo;solid oak.&rdquo; If a listing says &ldquo;engineered
-              wood,&rdquo; &ldquo;composite wood,&rdquo; or &ldquo;MDF&rdquo;
-              anywhere in materials, the top surface is not solid wood —
-              regardless of what the title says.
+              Search the full product description for a specific wood species:
+              parawood, rubberwood, beechwood, solid acacia, solid oak. If a
+              listing says engineered wood, composite wood, or MDF anywhere in
+              materials, the top surface is not solid wood regardless of what the
+              title says.
             </p>
-          </div>
-
-          <div className="rounded-2xl overflow-hidden border border-border">
-            <Image
-              src={sectionImages.whyRealWood}
-              alt="Bright minimalist home office with natural solid wood desk"
-              width={900}
-              height={400}
-              className="w-full object-cover max-h-[380px]"
-              unoptimized
-            />
           </div>
         </section>
 
@@ -512,47 +504,9 @@ export default async function BestSolidWoodDesksPage() {
           5 Best Solid Wood Desks for Home Office
         </h2>
 
-        {/* Products 1–2 */}
-        <ProductSection product={products[0]} />
-
-        <div className="rounded-2xl overflow-hidden border border-border mb-12">
-          <Image
-            src={sectionImages.afterProduct1}
-            alt="Minimalist home office with sunlit solid wood desk and clean cable management"
-            width={900}
-            height={380}
-            className="w-full object-cover max-h-[360px]"
-            unoptimized
-          />
-        </div>
-
-        <ProductSection product={products[1]} />
-        <ProductSection product={products[2]} />
-
-        <div className="rounded-2xl overflow-hidden border border-border mb-12">
-          <Image
-            src={sectionImages.afterProduct3}
-            alt="Warm minimalist home office setup with solid wood desk and plants"
-            width={900}
-            height={380}
-            className="w-full object-cover max-h-[360px]"
-            unoptimized
-          />
-        </div>
-
-        <ProductSection product={products[3]} />
-        <ProductSection product={products[4]} />
-
-        <div className="rounded-2xl overflow-hidden border border-border mb-12">
-          <Image
-            src={sectionImages.afterProduct5}
-            alt="Bright minimalist home office corner with solid wood desk and monitor setup"
-            width={900}
-            height={380}
-            className="w-full object-cover max-h-[360px]"
-            unoptimized
-          />
-        </div>
+        {products.map((product) => (
+          <ProductSection key={product.id} product={product} />
+        ))}
 
         {/* Buying Guide */}
         <section className="mb-12 scroll-mt-20" id="buying-guide">
@@ -580,10 +534,10 @@ export default async function BestSolidWoodDesksPage() {
                 </thead>
                 <tbody>
                   {[
-                    { wood: "Parawood / Rubberwood", hardness: "980 lbf", grain: "Uniform, light", price: "$100–$300" },
-                    { wood: "Beechwood", hardness: "1,300 lbf", grain: "Fine, honey tone", price: "$100–$300" },
-                    { wood: "Fir", hardness: "660 lbf", grain: "Knotty, rustic", price: "$100–$250" },
-                    { wood: "Acacia", hardness: "1,750 lbf", grain: "Bold, varied grain", price: "$250–$600" },
+                    { wood: "Parawood / Rubberwood", hardness: "980 lbf", grain: "Uniform, light", price: "$100-$300" },
+                    { wood: "Beechwood", hardness: "1,300 lbf", grain: "Fine, honey tone", price: "$100-$300" },
+                    { wood: "Fir", hardness: "660 lbf", grain: "Knotty, rustic", price: "$100-$250" },
+                    { wood: "Acacia", hardness: "1,750 lbf", grain: "Bold, varied grain", price: "$250-$600" },
                     { wood: "Solid Oak", hardness: "1,290 lbf", grain: "Classic, open grain", price: "$400+" },
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
@@ -611,10 +565,10 @@ export default async function BestSolidWoodDesksPage() {
                 </thead>
                 <tbody>
                   {[
-                    { width: "30–36\"", fits: "1 small monitor", use: "Dorm, tight bedroom office" },
-                    { width: "42–48\"", fits: "1 large monitor + accessories", use: "Standard home office" },
-                    { width: "55–60\"", fits: "2 monitors or ultrawide", use: "Full workstation" },
-                    { width: "60\"+", fits: "2 monitors + peripherals", use: "Dedicated office room" },
+                    { width: "30-36 inches", fits: "1 small monitor", use: "Dorm, tight bedroom office" },
+                    { width: "42-48 inches", fits: "1 large monitor + accessories", use: "Standard home office" },
+                    { width: "55-60 inches", fits: "2 monitors or ultrawide", use: "Full workstation" },
+                    { width: "60+ inches", fits: "2 monitors + peripherals", use: "Dedicated office room" },
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.width}</td>
@@ -627,7 +581,7 @@ export default async function BestSolidWoodDesksPage() {
             </div>
           </div>
 
-          <div className="mb-4 p-4 rounded-xl bg-brand/5 border border-brand/20">
+          <div className="p-4 rounded-xl bg-brand/5 border border-brand/20">
             <h3 className="text-base font-bold text-ink mb-2">
               Protecting a Solid Wood Surface
             </h3>
@@ -644,17 +598,6 @@ export default async function BestSolidWoodDesksPage() {
               protecting the finish where daily wear concentrates most. PU
               leather mats wipe clean easily and do not slide on wood surfaces.
             </p>
-          </div>
-
-          <div className="rounded-2xl overflow-hidden border border-border mt-6">
-            <Image
-              src={sectionImages.buyingGuide}
-              alt="Modern minimalist workspace with solid wood desk and indoor greenery"
-              width={900}
-              height={380}
-              className="w-full object-cover max-h-[360px]"
-              unoptimized
-            />
           </div>
         </section>
 
@@ -686,31 +629,31 @@ export default async function BestSolidWoodDesksPage() {
                 context: "Traditional writing desk, clearest solid wood documentation",
                 id: "ic-international-writing-desk",
                 name: "IC International Concepts Writing Desk",
-                verdict: " — solid parawood, butcher-block surface, 1 drawer.",
+                verdict: " - solid parawood, butcher-block surface, 1 drawer.",
               },
               {
                 context: "Budget solid wood with storage under $150",
                 id: "odcvkrt-47-solid-wood",
-                name: "ODCVKRT 47\" Solid Wood Desk",
-                verdict: " — drawers included, 47\" surface, solid wood throughout.",
+                name: "ODCVKRT 47 inch Solid Wood Desk",
+                verdict: " - drawers included, 47 inch surface, solid wood throughout.",
               },
               {
                 context: "Most proven compact solid wood under $200",
                 id: "winsome-studio-42-beechwood",
-                name: "Winsome Studio Desk 42\"",
-                verdict: " — solid beechwood, brand in production since 1977.",
+                name: "Winsome Studio Desk 42 inch",
+                verdict: " - solid beechwood, brand in production since 1977.",
               },
               {
                 context: "Solid wood plus two drawers",
                 id: "ic-vista-solid-wood-2-drawers",
                 name: "International Concepts Vista",
-                verdict: " — 2 drawers, full solid wood, IC brand quality standard.",
+                verdict: " - 2 drawers, full solid wood, IC brand quality standard.",
               },
               {
-                context: "Full 60\" workstation, furniture-grade build",
+                context: "Full 60 inch workstation, furniture-grade build",
                 id: "pemberly-row-60-solid-wood",
-                name: "Pemberly Row 60\" Contemporary",
-                verdict: " — stained solid wood, handcrafted, contemporary design.",
+                name: "Pemberly Row 60 inch Contemporary",
+                verdict: " - stained solid wood, handcrafted, contemporary design.",
               },
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-3">
