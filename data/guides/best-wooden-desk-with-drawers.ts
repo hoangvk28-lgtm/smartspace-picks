@@ -254,6 +254,7 @@ export interface AtAGlanceRow {
   drawers: string;
   width: string;
   material: string;
+  price: string;
 }
 
 export const atAGlanceRows: AtAGlanceRow[] = products.map((p) => ({
@@ -263,6 +264,7 @@ export const atAGlanceRows: AtAGlanceRow[] = products.map((p) => ({
   drawers: p.drawers,
   width: p.width,
   material: p.material,
+  price: p.price,
 }));
 
 export const faq: { q: string; a: string }[] = [
