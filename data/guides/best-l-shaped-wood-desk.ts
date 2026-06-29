@@ -36,7 +36,7 @@ export const products: LShapedDesk[] = [
     size: "60\" main surface",
     material: "Laminated engineered wood",
     standing: "No",
-    imageUrl: `${BASE}/05-bush-home-cabot-l-shaped-desk-with-hutch.webp`,
+    imageUrl: `${BASE}/02-cozy_modern_farmhouse_home_office.webp`,
     amazonUrl: "https://www.amazon.com/dp/B08MT5G727?tag=deskfinds0d-20",
     whyItWorks:
       "The Bush Home Cabot combines an L-shaped work surface with a full hutch - the overhead cabinet and shelf unit that transforms a desk into a workstation. For a home office where both surface area and vertical storage matter, the hutch reduces the need for separate bookshelves or wall-mounted storage. Bush Home is an established furniture brand with decades of production behind this product line. Assembly is well-documented with hardware that is consistent across their product range.",
@@ -68,7 +68,7 @@ export const products: LShapedDesk[] = [
     size: "60 inches (main leg)",
     material: "Laminated engineered wood",
     standing: "No",
-    imageUrl: `${BASE}/06-bush-home-key-west-60w-modern-farmhouse-l-shaped-desk.webp`,
+    imageUrl: `${BASE}/03-cozy_modern_home_office_workspace.webp`,
     amazonUrl: "https://www.amazon.com/dp/B07X6BWWX5?tag=deskfinds0d-20",
     whyItWorks:
       "The Bush Home Key West brings the farmhouse design trend to the L-shaped desk category - a warm wood-tone surface with contrasting accents. For home offices that share space with living areas or bedrooms where a purely utilitarian office look feels out of place, the farmhouse aesthetic bridges work and home. The Key West uses the same Bush Home engineering quality as the Cabot in a more decorative package.",
@@ -99,7 +99,7 @@ export const products: LShapedDesk[] = [
     size: "60 inches",
     material: "Laminated engineered wood",
     standing: "No",
-    imageUrl: `${BASE}/07-bush-home-somerset-60-l-shaped-desk-with-storage.webp`,
+    imageUrl: `${BASE}/04-cozy_modern_home_office_with_greenery.webp`,
     amazonUrl: "https://www.amazon.com/dp/B07NYBDN17?tag=deskfinds0d-20",
     whyItWorks:
       "The Bush Home Somerset takes a cleaner design approach: contemporary lines, integrated storage shelves in the return leg rather than a hutch, and a neutral finish that works in modern home office aesthetics. The integrated shelf configuration - shelves running along the return leg rather than elevated above the main surface - keeps the desk's visual profile lower and the room feeling more open than a hutch configuration.",
@@ -130,7 +130,7 @@ export const products: LShapedDesk[] = [
     size: "61x47\" total L footprint",
     material: "Solid wood tabletop (main surface)",
     standing: "Yes - full electric, both legs raise and lower",
-    imageUrl: `${BASE}/08-eureka-ergonomic-61-l-shaped-standing-desk-solid-wood-tabletop.webp`,
+    imageUrl: `${BASE}/05-modern_home_office_with_mountain_views.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0DYSH7M7H?tag=deskfinds0d-20",
     whyItWorks:
       "The EUREKA ERGONOMIC is the only product on this list with a confirmed solid wood tabletop - the main work surface is real hardwood, not laminate. As a full electric L-shaped standing desk, both legs of the L rise and lower together - the entire work surface changes height. This is a true sit-stand experience for users who alternate between sitting and standing throughout the day. At 61 inches, the primary surface fits a full dual-monitor or ultrawide setup.",
@@ -163,7 +163,7 @@ export const products: LShapedDesk[] = [
     size: "55x55\" (symmetric L)",
     material: "Engineered wood",
     standing: "Partial - lift top section raises only",
-    imageUrl: `${BASE}/04-bestier-l-shaped-standing-desk-with-lift-top-55-x-55.webp`,
+    imageUrl: `${BASE}/06-modern_home_office_with_dual_level_desk.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CKYHVMWX?tag=deskfinds0d-20",
     whyItWorks:
       "The Bestier lift-top is a Type B standing desk - a fixed L-shaped desk where one section raises while the rest stays at standard height. For users who want the option to stand occasionally but expect to primarily sit, this delivers the standing option at a fraction of the full electric standing desk price. The 55x55\" footprint is symmetric - equal legs on both sides - which removes the left/right return decision.",
@@ -195,7 +195,7 @@ export const products: LShapedDesk[] = [
     size: "Varies",
     material: "Engineered wood",
     standing: "No",
-    imageUrl: `${BASE}/03-sedeta-l-shaped-desk-with-4-drawers-and-storage-shelves.webp`,
+    imageUrl: `${BASE}/07-bright_and_airy_home_office_setup.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0DTHLSLVN?tag=deskfinds0d-20",
     whyItWorks:
       "The SEDETA is the most storage-focused option on this list: 4 drawers plus storage shelves in a single L-shaped configuration. For a home office that functions as a full administrative space - documents, files, office supplies, electronics - this consolidates storage that would otherwise require separate filing cabinets or shelving units. Four drawers on an L-shaped desk is uncommon at this price point.",
@@ -226,7 +226,7 @@ export const products: LShapedDesk[] = [
     size: "55.7x55\"",
     material: "Engineered wood",
     standing: "No",
-    imageUrl: `${BASE}/02-bestier-l-shaped-desk-with-file-drawer-55-7-x-55.webp`,
+    imageUrl: `${BASE}/08-modern_bright_home_office_with_plants.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0DRVJGRLD?tag=deskfinds0d-20",
     whyItWorks:
       "The Bestier file-drawer L-desk addresses a specific storage need: a built-in file drawer deep enough for letter-size or legal-size hanging folders. Standard desk drawers (3-5\" internal depth) do not accommodate hanging files - a dedicated file drawer (8-10\" deep) is an entirely different storage category. For home office users who manage physical documents, this eliminates the need for a separate filing cabinet.",
