@@ -18,7 +18,7 @@ import {
   type SolidWoodDesk,
 } from "@/data/guides/best-solid-wood-desks-home-office";
 
-export const revalidate = false;
+export const revalidate = 86400;
 
 export const metadata: Metadata = buildMetadata({
   title: metaTitle,
