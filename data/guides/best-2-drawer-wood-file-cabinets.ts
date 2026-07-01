@@ -1,236 +1,308 @@
-import type { Guide } from "@/data/guides";
+const BASE = "/images/guides/best-2-drawer-wood-file-cabinets";
 
-export const best2DrawerWoodFileCabinetsGuide: Guide = {
-  title: "Best 2-Drawer Wood File Cabinets (2026)",
-  slug: "best-2-drawer-wood-file-cabinets",
-  categorySlug: "desk-setup",
-  subcategorySlug: "accessories",
-  description:
-    "Looking for the best 2 drawer wood file cabinet? We compare top-rated picks by style, lock options, and price to help you choose the right one.",
-  mainKeyword: "2 drawer wood file cabinet",
-  subKeywords: [
-    "two drawer file cabinet wood",
-    "2 drawer wood filing cabinet",
-    "2 drawer wood file cabinet with lock",
-    "2 drawer white wood file cabinet",
-    "dark wood filing cabinet 2 drawer",
-    "2 drawer lateral file cabinet wood",
-    "wood rattan file cabinet",
-  ],
-  heroImage: "/images/guides/best-2-drawer-wood-file-cabinets/hero.webp",
-  thumbnailImage: "/images/guides/best-2-drawer-wood-file-cabinets/hero.webp",
-  lastUpdated: "2026-07-01",
-  author: "Jamie Cole",
-  readTime: "12 min",
-  recommendedProductIds: [],
-  relatedGuideSlugs: [
-    "best-wood-file-cabinets",
-    "best-2-drawer-wood-file-cabinets-under-150",
-    "best-wood-file-cabinets-under-200",
-    "best-wood-file-cabinets-under-500",
-    "minimalist-desk-setup",
-    "small-desk-organization-ideas",
-  ],
-  faq: [
-    {
-      question: "What is the best 2-drawer wood file cabinet overall?",
-      answer:
-        "The VASAGLE CUSTOS Snow White (B0BRXQ1DKF) at $62.99 is the best overall for most buyers. It has the largest review base on this list (over 3,200 ratings at 4.0 stars), a clean neutral finish, and a competitive price. If you need a lock and want the best value, the VINGLI Rustic Gray (B0C8JKCZRR) includes a lock at the same $62.99 price.",
-    },
-    {
-      question: "Which 2-drawer wood file cabinet has the best lock?",
-      answer:
-        "The VASAGLE CUSTOS Locking White (B0C1CB1YJZ) at $79.99 is the best locking option for white-finish buyers. The VINGLI Rustic Gray (B0C8JKCZRR) at $62.99 is the best value locking option overall. Both use consumer-grade cylinder locks that secure both drawers simultaneously.",
-    },
-    {
-      question: "Is the VASAGLE CUSTOS file cabinet good quality?",
-      answer:
-        "Yes, for the price range. The VASAGLE CUSTOS is built from engineered wood with a laminate finish - standard for this category at $60 to $80. Over 3,200 reviews at 4.0 stars confirms consistent quality across a large buyer sample. The most common wear points are drawer edges and corners, which is typical for laminate furniture.",
-    },
-    {
-      question: "What is the VINGLI rattan file cabinet like?",
-      answer:
-        "The VINGLI Wood Rattan 2-Drawer Lateral (B0BT9T2WW5) is a wider, lower cabinet with woven rattan panel drawer fronts on an oak-finish wood frame. It is the most visually distinctive pick on this list and works well in boho, coastal, or eclectic home offices. Key limitation: only 120 reviews at time of review, so the 4.0-star rating has less statistical confidence than picks with 1,000+ reviews.",
-    },
-    {
-      question: "Are 2-drawer wood file cabinets good for small offices?",
-      answer:
-        "Yes. A 2-drawer vertical cabinet sits at desk height or just below, so the top surface can serve double duty as a printer stand or side surface. Most 2-drawer vertical cabinets are 14 to 16 inches wide and 18 to 20 inches deep - compact enough for corners, under-desk spaces, and beside bookcases in smaller rooms.",
-    },
-  ],
-  sections: [
-    {
-      heading: "",
-      body: `> **Quick answer:** Best overall - VASAGLE CUSTOS Snow White (~$62.99, B0BRXQ1DKF). Best with lock (best value) - VINGLI Rustic Gray (~$62.99, B0C8JKCZRR). Best white with lock - VASAGLE CUSTOS Locking (~$79.99, B0C1CB1YJZ). Best farmhouse - VASAGLE Honey Brown (~$85.49, B09XF4Z5GP). Best design - VINGLI Rattan Lateral Oak (~$101.15, B0BT9T2WW5).
+export const guideSlug = "best-2-drawer-wood-file-cabinets";
+export const guideTitle = "Best 2-Drawer Wood File Cabinets in 2026";
+export const metaTitle = "Best 2-Drawer Wood File Cabinets in 2026";
+export const metaDescription =
+  "Best 2-drawer wood file cabinets in 2026: VASAGLE CUSTOS, VINGLI rattan lateral, VASAGLE honey brown. Lock options, pros, cons for home offices.";
+export const lastUpdated = "2026-07-02";
+export const readTime = "9 min";
+export const heroImage = `${BASE}/hero.webp`;
 
-**Material note:** Every cabinet here is engineered wood with a laminate finish. None are solid hardwood at this price. That is completely standard and expected.
+export interface FileCabinet {
+  id: string;
+  rank: number;
+  badge: string;
+  name: string;
+  price: string;
+  drawers: string;
+  lock: string;
+  rating: string;
+  imageUrl: string;
+  amazonUrl: string;
+  whyItWorks: string;
+  tradeoffs: string[];
+  skipIf: string;
+  pros: string[];
+  cons: string[];
+}
 
-## Quick Comparison Table
+export const products: FileCabinet[] = [
+  {
+    id: "vasagle-custos-snow-white",
+    rank: 1,
+    badge: "Best Overall",
+    name: "VASAGLE CUSTOS 2-Drawer File Cabinet, Snow White",
+    price: "~$62.99",
+    drawers: "2 Drawers",
+    lock: "No Lock",
+    rating: "4.0 stars, 3,262 reviews",
+    imageUrl: `${BASE}/vasagle-custos-2-drawer-snow-white.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B0BRXQ1DKF?tag=deskfinds0d-20",
+    whyItWorks:
+      "The VASAGLE CUSTOS Snow White is the pick for most buyers. The largest review base on this list by a significant margin gives the 4.0-star rating real statistical weight. At $62.99, it undercuts most competitors in this category while delivering a clean, neutral finish that works with white desks, light wood furniture, and minimalist home office setups. The two-drawer design handles everyday paperwork efficiently. Steel frame rails inside drawers provide smooth glide action. Open-frame metal legs in matte black add a modern two-tone detail that keeps the piece from looking like a purely utilitarian filing cabinet.",
+    tradeoffs: [
+      "No lock on this version - upgrade to Pick 2 if document security is needed",
+      "No casters on this version",
+      "Engineered wood core is sensitive to moisture - keep away from humid basements",
+    ],
+    skipIf:
+      "Skip if you need to lock documents - the VASAGLE CUSTOS Locking White (Pick 2) adds a cylinder lock for about $17 more. Skip if you want a warm-toned finish - the VASAGLE Honey Brown (Pick 3) is the right call.",
+    pros: [
+      "Largest review base on this list (3,262 verified buyers) - quality confirmed at scale",
+      "Most competitive price at ~$62.99",
+      "Clean snow white finish easy to coordinate with most office furniture",
+      "Compact footprint fits corners and under-desk spaces in smaller rooms",
+    ],
+    cons: [
+      "No lock - not suitable for sensitive documents",
+      "No casters - repositioning requires lifting",
+      "Engineered wood is not as durable as solid hardwood at this price",
+    ],
+  },
+  {
+    id: "vasagle-custos-locking",
+    rank: 2,
+    badge: "Best With Lock",
+    name: "VASAGLE CUSTOS 2-Drawer File Cabinet with Lock, White",
+    price: "Check Amazon",
+    drawers: "2 Drawers",
+    lock: "With Lock",
+    rating: "Check Amazon",
+    imageUrl: `${BASE}/vasagle-custos-2-drawer-locking-white.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B0C1CB1YJZ?tag=deskfinds0d-20",
+    whyItWorks:
+      "If you want the VASAGLE CUSTOS look but need locking security, this is the natural upgrade. You pay a modest premium over the base model for a cylinder lock that secures both drawers simultaneously. Over 1,700 reviews at 4.0 stars confirms the locking version is a well-validated choice. The style is virtually identical to the non-locking version - same matte black open-frame legs, same snow white laminate finish. Two keys are included. The lock is consumer-grade: effective for preventing casual access but not a high-security mechanism.",
+    tradeoffs: [
+      "Consumer-grade cylinder lock - deterrent level, not tamper-proof security",
+      "No casters on this version",
+      "Slightly higher price than the non-locking Pick 1",
+    ],
+    skipIf:
+      "Skip if you do not need a lock - the base VASAGLE CUSTOS (Pick 1) is more affordable. Skip if you want a warm or rustic finish with a lock - the VINGLI Rustic Gray (Pick 4) delivers lock plus a distinctive finish.",
+    pros: [
+      "Same VASAGLE CUSTOS quality and finish as Pick 1 with added security",
+      "Cylinder lock secures both drawers simultaneously with one key",
+      "Two keys included",
+      "Well-validated by 1,700+ reviews at 4.0 stars",
+    ],
+    cons: [
+      "Consumer-grade lock only - not high-security",
+      "No casters",
+      "Premium over the non-locking version",
+    ],
+  },
+  {
+    id: "vasagle-honey-brown",
+    rank: 3,
+    badge: "Best Farmhouse Style",
+    name: "VASAGLE 2-Drawer Honey Brown File Cabinet",
+    price: "~$85.49",
+    drawers: "2 Drawers",
+    lock: "No Lock",
+    rating: "4.0 stars, 1,310 reviews",
+    imageUrl: `${BASE}/vasagle-2-drawer-honey-brown.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B09XF4Z5GP?tag=deskfinds0d-20",
+    whyItWorks:
+      "Not every home office runs on white and gray. The VASAGLE honey brown farmhouse cabinet brings warmth and character to a space, pairing naturally with shiplap, natural wood accents, rattan baskets, and earthy color palettes. The 1,300-plus reviews at 4.0 stars back up the quality. Black iron-style metal frame legs provide farmhouse contrast against the warm laminate finish. If your desk is in a walnut, oak, or reclaimed-wood finish, this cabinet coordinates instead of clashing.",
+    tradeoffs: [
+      "No locking option available in this finish",
+      "Higher price than Pick 1 and Pick 4 at ~$85.49",
+      "Farmhouse finish may not suit minimalist or all-white office setups",
+    ],
+    skipIf:
+      "Skip if you need a lock - no locking version is available in honey brown. Skip if your office is white or gray-dominant - the VASAGLE CUSTOS Snow White (Pick 1) coordinates better.",
+    pros: [
+      "Warm honey brown finish works well in farmhouse, cottage, and traditional interiors",
+      "1,310 reviews at 4.0 stars - well-validated quality signal",
+      "Black iron-style legs add farmhouse contrast",
+      "Pairs well with warm wood desks in walnut or oak",
+    ],
+    cons: [
+      "No lock option",
+      "Higher price than the white VASAGLE options",
+      "Laminate finish, not solid hardwood",
+    ],
+  },
+  {
+    id: "vingli-rustic-gray",
+    rank: 4,
+    badge: "Best Rustic Look With Lock",
+    name: "VINGLI 2-Drawer Wood File Cabinet with Lock, Rustic Gray",
+    price: "Check Amazon",
+    drawers: "2 Drawers",
+    lock: "With Lock",
+    rating: "Check Amazon",
+    imageUrl: `${BASE}/vingli-2-drawer-lock-rustic-gray.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B0C8JKCZRR?tag=deskfinds0d-20",
+    whyItWorks:
+      "The VINGLI Rustic Gray is the best value for anyone who wants document security and a distinctive finish. It includes a lock and carries a strong rating for the category. The rustic gray finish suits industrial, farmhouse-adjacent, and eclectic spaces better than standard smooth gray laminates - the aging effect is part of the surface treatment, not a defect. If you want a lock at an accessible price and do not need a white finish, this is the pick.",
+    tradeoffs: [
+      "Rustic gray finish may not suit minimalist or all-white offices",
+      "Consumer-grade cylinder lock - deterrent level security only",
+      "Verify current price and rating on Amazon before ordering",
+    ],
+    skipIf:
+      "Skip if your office is white or gray-neutral and you want the cabinet to blend in - the VASAGLE CUSTOS Locking White (Pick 2) is the better match. Skip if you do not need a lock and want the widest review base - Pick 1 has more reviews.",
+    pros: [
+      "Lock included at a competitive price point",
+      "Distinctive rustic gray finish suits industrial and farmhouse-adjacent aesthetics",
+      "Strong review rating at time of research",
+    ],
+    cons: [
+      "Rustic gray finish limits compatibility with all-white or minimalist setups",
+      "Consumer-grade lock only",
+      "Verify current availability before ordering",
+    ],
+  },
+  {
+    id: "vingli-rattan-oak",
+    rank: 5,
+    badge: "Most Unique Design",
+    name: "VINGLI 2-Drawer Rattan Lateral File Cabinet, Oak",
+    price: "Check Amazon",
+    drawers: "2 Drawers Lateral",
+    lock: "No Lock",
+    rating: "Check Amazon",
+    imageUrl: `${BASE}/vingli-2-drawer-rattan-oak.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B0BT9T2WW5?tag=deskfinds0d-20",
+    whyItWorks:
+      "The VINGLI rattan lateral cabinet is genuinely unlike everything else on this list. The drawer fronts feature woven rattan panels set into an oak-finish wood frame, creating a boho-meets-natural-materials look popular in design-forward home offices. As a lateral cabinet, it is wider and lower than vertical 2-drawer options, which works well as a credenza-height piece beside a desk. Real woven rattan is a premium material touch at this price point. Note: this pick has a smaller review count than the other picks on this list - factor that into your confidence level.",
+    tradeoffs: [
+      "Lower review count than other picks - smaller sample size for quality validation",
+      "No lock",
+      "Pricier than the VASAGLE options",
+      "Rattan panels can be more sensitive to humidity than standard laminate",
+    ],
+    skipIf:
+      "Skip if you need a lock - no locking version is available. Skip if you want the most statistically validated quality signal - Pick 1 or Pick 3 have significantly more reviews. Skip if your office is modern or minimalist - the rattan detail is specifically a boho or natural-materials aesthetic.",
+    pros: [
+      "Most visually distinctive pick on this list - works as a decorative furniture piece",
+      "Real woven rattan drawer fronts on an oak-finish frame",
+      "Lateral format sits lower and wider, useful as a credenza-height side piece",
+      "Works in boho, coastal, eclectic, and natural-material interior styles",
+    ],
+    cons: [
+      "Smaller review base - less validated quality signal",
+      "No lock",
+      "Higher price point",
+      "Rattan more sensitive to humidity than laminate surfaces",
+    ],
+  },
+];
 
-| Rank | Product | Price | Rating | Lock | Finish | |
-|------|---------|-------|--------|------|--------|--|
-| 1 | VASAGLE CUSTOS Snow White | ~$62.99 | 4.0 (3,262) | No | Snow White | <a href="https://www.amazon.com/dp/B0BRXQ1DKF?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;">Check price</a> |
-| 2 | VASAGLE CUSTOS Locking White | ~$79.99 | 4.0 (1,736) | Yes | White | <a href="https://www.amazon.com/dp/B0C1CB1YJZ?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;">Check price</a> |
-| 3 | VASAGLE Honey Brown Farmhouse | ~$85.49 | 4.0 (1,310) | No | Honey Brown | <a href="https://www.amazon.com/dp/B09XF4Z5GP?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;">Check price</a> |
-| 4 | VINGLI Rustic Gray with Lock | ~$62.99 | 4.1 (1,333) | Yes | Rustic Gray | <a href="https://www.amazon.com/dp/B0C8JKCZRR?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;">Check price</a> |
-| 5 | VINGLI Wood Rattan Lateral Oak | ~$101.15 | 4.0 (120) | No | Oak / Rattan | <a href="https://www.amazon.com/dp/B0BT9T2WW5?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;">Check price</a> |`,
-    },
-    {
-      heading: "1. VASAGLE CUSTOS Snow White - Best Overall",
-      body: `**Price:** ~$62.99 | **Rating:** 4.0 stars | 3,262 reviews | **Lock:** No
+export const nonWoodAlternatives: FileCabinet[] = [
+  {
+    id: "devaise-metal-lock-white",
+    rank: 0,
+    badge: "Metal Alternative",
+    name: "DEVAISE 2-Drawer Metal File Cabinet with Lock, White",
+    price: "Check Amazon",
+    drawers: "2 Drawers",
+    lock: "With Lock",
+    rating: "Check Amazon",
+    imageUrl: `${BASE}/devaise-2-drawer-mobile-lock-white.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B08B68KQX9?tag=deskfinds0d-20",
+    whyItWorks:
+      "The DEVAISE metal cabinet carries strong ratings and arrives fully assembled. All-metal construction is more durable than engineered wood for heavy daily use. If you do not care about wood styling and want the most practical, durable option regardless of material, this is worth considering.",
+    tradeoffs: [
+      "Metal construction - does not provide wood aesthetics",
+      "Heavier than engineered wood options",
+    ],
+    skipIf:
+      "Skip if wood styling is important to your office decor. This is a purely practical alternative for buyers who prioritize durability over aesthetics.",
+    pros: [
+      "All-metal construction - more durable than engineered wood",
+      "Arrives fully assembled",
+      "Lock included",
+    ],
+    cons: [
+      "No wood aesthetics",
+      "Heavier than wood-finish options",
+    ],
+  },
+  {
+    id: "devaise-fabric-rustic",
+    rank: 0,
+    badge: "Fabric Alternative",
+    name: "DEVAISE 2-Drawer Fabric File Cabinet, Rustic Brown",
+    price: "Check Amazon",
+    drawers: "2 Drawers",
+    lock: "No Lock",
+    rating: "Check Amazon",
+    imageUrl: `${BASE}/devaise-2-drawer-fabric-rustic-brown.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B09ZX5W7L5?tag=deskfinds0d-20",
+    whyItWorks:
+      "The DEVAISE fabric cabinet is the most affordable option in the roundup. The rustic brown fabric exterior is not wood-look, but it shows strong buyer satisfaction at its price point. Good for a closet office, utility storage area, or a secondary filing solution where aesthetics are secondary to budget.",
+    tradeoffs: [
+      "Fabric exterior - not wood appearance",
+      "No lock",
+      "Less polished appearance than wood or metal options",
+    ],
+    skipIf:
+      "Skip if visual coordination with wood furniture matters. This is a budget-first alternative for secondary storage.",
+    pros: [
+      "Most affordable option in the roundup",
+      "Strong buyer satisfaction at price point",
+      "Good secondary storage solution",
+    ],
+    cons: [
+      "Fabric exterior only - no wood appearance",
+      "No lock",
+    ],
+  },
+];
 
-The VASAGLE CUSTOS Snow White is the pick to recommend to most people. The largest review base on this list by a significant margin gives the 4.0-star rating real weight. At $62.99, it undercuts most competitors while delivering a clean, neutral look that works with white desks, light wood furniture, and minimalist setups.
+export interface AtAGlanceRow {
+  id: string;
+  badge: string;
+  name: string;
+  price: string;
+  drawers: string;
+  lock: string;
+  rating: string;
+}
 
-The two-drawer design handles everyday paperwork efficiently. Steel frame rails inside drawers provide smooth glide action. Open-frame metal legs in matte black add a modern two-tone detail.
+export const atAGlanceRows: AtAGlanceRow[] = products.map((p) => ({
+  id: p.id,
+  badge: p.badge,
+  name: p.name,
+  price: p.price,
+  drawers: p.drawers,
+  lock: p.lock,
+  rating: p.rating,
+}));
 
-**Pros:**
-- Largest review base on this list (3,262 verified buyers)
-- Most competitive price
-- Clean white finish easy to style around
-- Compact footprint for smaller offices
+export const faq: { q: string; a: string }[] = [
+  {
+    q: "What is the best 2-drawer wood file cabinet overall?",
+    a: "The VASAGLE CUSTOS Snow White at ~$62.99 is the best overall for most buyers. It has the largest review base on this list (over 3,200 ratings at 4.0 stars), a clean neutral finish, and the most competitive price. If you need a lock, the VASAGLE CUSTOS Locking White (Pick 2) adds a cylinder lock for a modest premium.",
+  },
+  {
+    q: "Which 2-drawer wood file cabinet has the best lock?",
+    a: "The VASAGLE CUSTOS Locking White (Pick 2) is the best locking option for white-finish buyers. The VINGLI Rustic Gray (Pick 4) is a strong value option that includes a lock in a distinctive rustic finish. Both use consumer-grade cylinder locks that secure both drawers simultaneously - effective as a deterrent, not a high-security mechanism.",
+  },
+  {
+    q: "Is the VASAGLE CUSTOS file cabinet good quality?",
+    a: "Yes, for the price range. The VASAGLE CUSTOS is built from engineered wood with a laminate finish - standard for this category at $60 to $80. Over 3,200 reviews at 4.0 stars confirms consistent quality across a large buyer sample. The most common wear points are drawer edges and corners, which is typical for laminate furniture in this price tier.",
+  },
+  {
+    q: "What is the VINGLI rattan file cabinet like?",
+    a: "The VINGLI 2-Drawer Rattan Lateral Oak is a wider, lower cabinet with woven rattan panel drawer fronts on an oak-finish wood frame. It is the most visually distinctive pick on this list and works well in boho, coastal, or eclectic home offices. Key consideration: verify the current review count before ordering - a lower review count means less statistical confidence in the rating compared to picks with 1,000-plus reviews.",
+  },
+  {
+    q: "Are 2-drawer wood file cabinets good for small offices?",
+    a: "Yes. A 2-drawer vertical cabinet sits at desk height or just below, so the top surface can serve double duty as a printer stand or side surface. Most 2-drawer vertical cabinets are 14 to 16 inches wide and 18 to 20 inches deep - compact enough for corners, under-desk spaces, and beside bookcases in smaller rooms.",
+  },
+  {
+    q: "What is the difference between a vertical and lateral 2-drawer file cabinet?",
+    a: "A vertical 2-drawer cabinet is taller and narrower, with drawers that pull straight out toward you. A lateral 2-drawer cabinet is wider and lower, with drawers that pull out from the side. Vertical cabinets use less floor space but stand taller; lateral cabinets have more of a furniture or credenza appearance and suit wider spaces. The VINGLI Rattan Oak (Pick 5) is the lateral option on this list.",
+  },
+];
 
-**Cons:**
-- No lock
-- No casters on this version
-- Engineered wood core sensitive to moisture
-
-**Best for:** Home office users who want a clean, affordable, attractive cabinet without needing a lock.
-
-<a href="https://www.amazon.com/dp/B0BRXQ1DKF?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:8px 18px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;margin:12px 0;">Check price on Amazon - VASAGLE CUSTOS Snow White</a>
-
-![VASAGLE CUSTOS 2-Drawer File Cabinet Snow White](/images/guides/best-2-drawer-wood-file-cabinets/vasagle-custos-2-drawer-snow-white.webp)`,
-    },
-    {
-      heading: "2. VASAGLE CUSTOS Locking White - Best White with Lock",
-      body: `**Price:** ~$79.99 | **Rating:** 4.0 stars | 1,736 reviews | **Lock:** Yes
-
-If you love the VASAGLE CUSTOS look but need locking security, this is the natural upgrade. At $79.99, you pay $17 more than the base model for a cylinder lock that secures both drawers simultaneously. Over 1,700 reviews at 4.0 stars is a well-validated choice. Style is virtually identical to the non-locking version.
-
-Two keys are included. Consumer-grade lock - effective for preventing casual access but not a high-security mechanism.
-
-**Best for:** Remote workers and home business owners who store tax records, contracts, or medical documents and want basic security in a white-finish cabinet.
-
-<a href="https://www.amazon.com/dp/B0C1CB1YJZ?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:8px 18px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;margin:12px 0;">Check price on Amazon - VASAGLE CUSTOS Locking White</a>
-
-![VASAGLE CUSTOS 2-Drawer Locking File Cabinet White](/images/guides/best-2-drawer-wood-file-cabinets/vasagle-custos-2-drawer-locking-white.webp)`,
-    },
-    {
-      heading: "3. VASAGLE Honey Brown Farmhouse - Best Farmhouse Style",
-      body: `**Price:** ~$85.49 | **Rating:** 4.0 stars | 1,310 reviews | **Lock:** No
-
-Not every home office runs on white and gray. The VASAGLE honey brown farmhouse cabinet brings warmth and character to a space, pairing naturally with shiplap, natural wood accents, rattan baskets, and earthy color palettes. The 1,300-plus reviews at 4.0 stars back up the quality claims.
-
-Black iron-style metal frame legs provide farmhouse contrast. No locking option in this finish.
-
-**Best for:** Farmhouse, cottage, or traditional home office setups. Works well paired with wooden desks in a warm walnut or oak finish.
-
-<a href="https://www.amazon.com/dp/B09XF4Z5GP?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:8px 18px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;margin:12px 0;">Check price on Amazon - VASAGLE Honey Brown</a>
-
-![VASAGLE File Cabinet Honey Brown Farmhouse Style](/images/guides/best-2-drawer-wood-file-cabinets/vasagle-2-drawer-honey-brown.webp)`,
-    },
-    {
-      heading: "4. VINGLI Rustic Gray with Lock - Best Value with Lock",
-      body: `**Price:** ~$62.99 | **Rating:** 4.1 stars | 1,333 reviews | **Lock:** Yes
-
-The VINGLI Rustic Gray punches above its weight. It matches the VASAGLE base model on price ($62.99) but adds a lock and edges it out on rating at 4.1 stars. Best value choice for anyone who wants document security without paying a premium.
-
-The rustic gray finish suits industrial, farmhouse-adjacent, and eclectic spaces better than standard gray laminates. The aging effect is part of the surface treatment.
-
-**Pros:**
-- Best combination of price and lock on this list
-- 4.1-star rating is the highest among well-reviewed picks
-- Distinctive rustic gray finish
-
-**Cons:**
-- Rustic gray may not suit minimalist or all-white offices
-
-<a href="https://www.amazon.com/dp/B0C8JKCZRR?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:8px 18px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;margin:12px 0;">Check price on Amazon - VINGLI Rustic Gray with Lock</a>
-
-![VINGLI 2 Drawer File Cabinet with Lock Rustic Gray](/images/guides/best-2-drawer-wood-file-cabinets/vingli-2-drawer-lock-rustic-gray.webp)`,
-    },
-    {
-      heading: "5. VINGLI Wood Rattan Lateral Oak - Best Design Pick",
-      body: `**Price:** ~$101.15 | **Rating:** 4.0 stars | 120 reviews | **Lock:** No
-
-**Important: only 120 reviews at time of writing.** The 4.0-star rating carries less statistical confidence than picks with 1,000+ reviews. Include this with that caveat in mind.
-
-The VINGLI rattan lateral cabinet is genuinely unlike everything else on this list. The drawer fronts feature woven rattan panels set into an oak-finish wood frame, creating a boho-meets-natural-materials look popular in design-forward home offices. As a lateral cabinet, it is wider and lower than vertical 2-drawer options, which works well as a credenza-height piece.
-
-**Pros:**
-- Most visually distinctive pick on this list
-- Real woven rattan is a premium touch at this price point
-- Works beautifully in eclectic, boho, coastal, or natural-material interiors
-- Lateral format has more furniture-like appearance
-
-**Cons:**
-- Only 120 reviews - limited validation
-- No lock
-- Priciest pick at $101.15
-- Rattan can be more sensitive to humidity
-
-**Best for:** Style-conscious buyers who want their filing cabinet to be a decorative piece, not just a utility object.
-
-<a href="https://www.amazon.com/dp/B0BT9T2WW5?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:8px 18px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;margin:12px 0;">Check price on Amazon - VINGLI Rattan Lateral Oak</a>
-
-![VINGLI Wood Rattan 2 Drawer Lateral File Cabinet Oak](/images/guides/best-2-drawer-wood-file-cabinets/vingli-2-drawer-rattan-oak.webp)
-
----
-
-## Non-Wood Alternatives
-
-### DEVAISE 2-Drawer Metal, Fully Assembled (White)
-
-**Type: Metal** | **ASIN:** B08B68KQX9 | **Price:** ~$129.99 | **Rating:** 4.5 stars | 1,667 reviews
-
-Best-reviewed cabinet in the entire roundup at 4.5 stars. Arrives fully assembled. All-metal construction is more durable than engineered wood for heavy daily use. If you do not care about wood styling, this is the strongest purchase on the list by ratings and review count.
-
-<a href="https://www.amazon.com/dp/B08B68KQX9?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:8px 18px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;margin:12px 0;">Check price on Amazon - DEVAISE Metal White</a>
-
-![DEVAISE 2 Drawer Metal Filing Cabinet White](/images/guides/best-2-drawer-wood-file-cabinets/devaise-2-drawer-mobile-lock-white.webp)
-
-### DEVAISE 2-Drawer Fabric, Rustic Brown
-
-**Type: Fabric** | **ASIN:** B09ZX5W7L5 | **Price:** ~$45.99 | **Rating:** 4.1 stars | 2,395 reviews
-
-Most affordable option in the entire roundup at $45.99. The rustic brown fabric exterior is not wood-look, but over 2,300 reviews at 4.1 stars shows strong satisfaction at this price point. Good for a closet office or utility storage area.
-
-<a href="https://www.amazon.com/dp/B09ZX5W7L5?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:8px 18px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;margin:12px 0;">Check price on Amazon - DEVAISE Fabric Rustic Brown</a>
-
-![DEVAISE 2 Drawer Fabric File Cabinet Rustic Brown](/images/guides/best-2-drawer-wood-file-cabinets/devaise-2-drawer-fabric-rustic-brown.webp)
-
----
-
-## Buying Guide
-
-### Why 2-Drawer Works for Most Home Offices
-
-A 2-drawer vertical cabinet sits at desk height, so the top surface serves as extra workspace, a printer stand, or a monitor riser. The compact footprint fits corners, under desks, and alongside bookcases without dominating the room. Two drawers naturally divide active files (current year) from archived files (prior years).
-
-### Locking vs Non-Locking
-
-Consider a lock if you file tax returns, business contracts, medical records, or financial statements at home. Consumer-grade cylinder locks on file cabinets in this price range are deterrents, not high-security. They stop casual access but are not tamper-proof.
-
-Among this list: VASAGLE CUSTOS Locking White, VINGLI Rustic Gray (best value lock).
-
-### Matching Your Desk Style
-
-- **White:** Works with white, gray, or blonde wood desks. VASAGLE CUSTOS Snow White and Locking.
-- **Honey brown / farmhouse:** Pairs with medium-brown wood, reclaimed wood, warm walls. VASAGLE Honey Brown.
-- **Rustic gray:** Industrial and farmhouse aesthetics, black metal frames. VINGLI Rustic Gray.
-- **Natural oak with rattan:** Boho, coastal, eclectic interiors. VINGLI Rattan Lateral.
-
-## Decision Guide
-
-| Your situation | Best pick |
-|----------------|-----------|
-| Best overall, most reviews | VASAGLE CUSTOS Snow White |
-| White finish + lock | VASAGLE CUSTOS Locking White |
-| Lock, best value | VINGLI Rustic Gray |
-| Farmhouse / warm-toned office | VASAGLE Honey Brown Farmhouse |
-| Design-forward, can accept fewer reviews | VINGLI Rattan Lateral Oak |
-| Best ratings, open to metal | DEVAISE Metal White |
-
-For budget-focused picks only (all under $150), see our [best 2-drawer wood file cabinets under $150](/guide/best-2-drawer-wood-file-cabinets-under-150) guide. For lateral and traditional styles in cherry/walnut/oak, see our [wood file cabinets under $500](/guide/best-wood-file-cabinets-under-500) guide.`,
-    },
-  ],
-};
+export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-2-drawer-wood-file-cabinets-under-150", title: "Best 2-Drawer Wood File Cabinets Under $150" },
+  { href: "/guide/best-wood-file-cabinets-under-200", title: "Best Wood File Cabinets Under $200" },
+  { href: "/guide/best-wood-file-cabinets", title: "Best Wood File Cabinets in 2026" },
+  { href: "/guide/best-wood-file-cabinets-under-500", title: "Best Wood File Cabinets Under $500" },
+];

@@ -1,227 +1,310 @@
-import type { Guide } from "@/data/guides";
+const BASE = "/images/guides/best-wood-file-cabinets-under-500";
 
-export const bestWoodFileCabinetsUnder500Guide: Guide = {
-  title: "Best Wood File Cabinets Under $500 (2026)",
-  slug: "best-wood-file-cabinets-under-500",
-  categorySlug: "desk-setup",
-  subcategorySlug: "accessories",
-  description:
-    "Looking for the best wood file cabinets under $500? We compare 7 top-rated lateral options in cherry, oak, walnut, and black finishes for your home office.",
-  mainKeyword: "best wood file cabinets under $500",
-  subKeywords: [
-    "wood file cabinet under $500",
-    "lateral wood file cabinet under $500",
-    "2 drawer wood file cabinet under $500",
-    "cherry file cabinet",
-    "oak file cabinet",
-    "vintage oak file cabinet",
-    "harvest cherry file cabinet",
-  ],
-  heroImage: "/images/guides/best-wood-file-cabinets-under-500/hero.webp",
-  thumbnailImage: "/images/guides/best-wood-file-cabinets-under-500/hero.webp",
-  lastUpdated: "2026-07-01",
-  author: "Jamie Cole",
-  readTime: "13 min",
-  recommendedProductIds: [],
-  relatedGuideSlugs: [
-    "best-wood-file-cabinets",
-    "best-wood-file-cabinets-under-200",
-    "best-2-drawer-wood-file-cabinets",
-    "best-2-drawer-wood-file-cabinets-under-150",
-    "best-vintage-wooden-desk",
-    "minimalist-desk-setup",
-  ],
-  faq: [
-    {
-      question: "Are any wood file cabinets under $500 actually solid wood?",
-      answer:
-        "Most are not. Bush Home and Sauder products in this range use engineered wood with laminate or wood-grain veneer surfaces. The Martin Furniture Huntington Oxford at $499 uses select hardwood veneer over a composite core, which is a step up in surface quality but still not solid hardwood throughout. True solid hardwood file cabinets typically start at $600 to $800.",
-    },
-    {
-      question: "Which wood file cabinet under $500 has the best reviews?",
-      answer:
-        "The Bush Home Key West 2 Drawer Lateral in Pure White Oak (B081ZP7MLY) at $130.68 leads this guide with 4.4 stars across 4,283 reviews - the highest rating and largest review count in the group. It is also the most affordable option in this lateral/traditional category.",
-    },
-    {
-      question: "What is the difference between lateral and vertical file cabinets?",
-      answer:
-        "Lateral cabinets are wider than they are deep (typically 30-36 inches wide). Files sit side by side, allowing easier access without digging through a deep stack. They also provide a useful flat top surface for a printer or display. Vertical cabinets are narrower (15-18 inches) and deeper (25-29 inches), taking less wall space but protruding further from the wall. All seven picks in this guide are lateral designs.",
-    },
-    {
-      question: "Can I use a lateral file cabinet as a printer stand?",
-      answer:
-        "Yes. Lateral cabinets typically have a flat top surface 30 to 36 inches wide and 18 to 20 inches deep at 28 to 30 inches tall, which accommodates most home printers at a comfortable height. Confirm the top surface weight capacity against your specific printer before buying.",
-    },
-    {
-      question: "What is the difference between Bush Home and Sauder file cabinets?",
-      answer:
-        "Both are US market leaders in ready-to-assemble home office furniture using engineered wood with laminate finishes. Bush Home tends toward cleaner, more contemporary styling. Sauder has a wider range of traditional styles and a patented T-slot assembly system many buyers find easier than standard cam-lock systems. Neither uses solid hardwood in this price range.",
-    },
-    {
-      question: "Which wood finish is best for a traditional home office?",
-      answer:
-        "Classic Cherry (Sauder Heritage Hill) and Harvest Cherry (Bush Home Cabot) suit formal, traditional offices and pair well with mahogany or cherry-toned desks. Vintage Oak (Sauder Palladia) has wide appeal across traditional and transitional styles. Grand Walnut (Sauder Clifford Place) is a mid-century modern choice with a cooler, darker tone.",
-    },
-  ],
-  sections: [
-    {
-      heading: "",
-      body: `> **Quick answer:** Best overall - Bush Home Key West White Oak (~$130, B081ZP7MLY, 4.4 stars, 4,283 reviews). Best classic cherry - Sauder Heritage Hill (~$259, B00006IBAX). Best walnut - Sauder Clifford Place (~$303, B07C659WC3). Best premium - Martin Furniture Huntington Oxford (~$499, B002N1BMGA).
+export const guideSlug = "best-wood-file-cabinets-under-500";
+export const guideTitle = "Best Wood File Cabinets Under $500 (2026): Lateral Picks";
+export const metaTitle = "Best Wood File Cabinets Under $500 (2026)";
+export const metaDescription =
+  "Best wood file cabinets under $500: Sauder Palladia, Bush Key West, Sauder Heritage Hill, Martin Furniture. Lateral file cabinets in wood finishes for home offices.";
+export const lastUpdated = "2026-07-02";
+export const readTime = "10 min";
+export const heroImage = `${BASE}/hero.webp`;
 
-These cabinets are primarily **lateral file cabinets** with traditional finishes - different from the compact budget vertical units in our [under $200 guide](/guide/best-wood-file-cabinets-under-200). They are wider, lower, and designed to complement traditional or transitional home office furniture.
+export interface LateralCabinet {
+  id: string;
+  rank: number;
+  badge: string;
+  name: string;
+  price: string;
+  drawers: string;
+  finish: string;
+  rating: string;
+  imageUrl: string;
+  amazonUrl: string;
+  whyItWorks: string;
+  tradeoffs: string[];
+  skipIf: string;
+  pros: string[];
+  cons: string[];
+}
 
-**Material note:** Bush Home and Sauder use engineered wood with laminate or veneer. Martin Furniture uses hardwood veneer over composite. None are solid hardwood throughout.
+export const products: LateralCabinet[] = [
+  {
+    id: "bush-key-west-white-oak",
+    rank: 1,
+    badge: "Best Overall - Largest Catalog",
+    name: "Bush Home Key West 2-Drawer Lateral File Cabinet, White Oak",
+    price: "Check Amazon",
+    drawers: "2 Drawers Lateral",
+    finish: "White Oak Veneer",
+    rating: "Check Amazon",
+    imageUrl: `${BASE}/bush-key-west-white-oak.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B081ZP7MLY?tag=deskfinds0d-20",
+    whyItWorks:
+      "The Bush Home Key West earns the top spot based on the highest rating and the largest review count in this group (over 4,200 reviews at 4.4 stars). At around $130, it is also the most affordable entry in this lateral guide, making it a strong value for shoppers who want a lateral design without moving far above the budget tier. The Pure White Oak finish is clean and light, working well in modern, coastal-inspired, or casual home offices. Lateral drawers open wide for full file access without digging through a deep stack. Full-extension drawer slides and a lock are included. Meets CARB standards for low chemical emissions. The wider, lower profile looks more like furniture and less like office equipment.",
+    tradeoffs: [
+      "Engineered wood and laminate construction, not solid hardwood",
+      "White Oak finish may not suit traditional dark-wood offices",
+      "Verify current Amazon price before ordering as pricing fluctuates",
+    ],
+    skipIf:
+      "Skip if your office has a dark cherry or walnut color scheme - the light White Oak finish will clash. Skip if you need a traditional warm oak tone - the Sauder Palladia Vintage Oak (Pick 2) is the better fit.",
+    pros: [
+      "Highest-rated and most-reviewed in this guide at 4.4 stars and 4,283 reviews",
+      "Most affordable lateral option in this guide",
+      "Light oak finish is versatile and bright in compact home offices",
+      "Lock included for document security",
+      "CARB compliant for low chemical emissions",
+    ],
+    cons: [
+      "Engineered wood and laminate, not solid hardwood",
+      "White Oak finish is not suited to formal dark-wood traditional offices",
+    ],
+  },
+  {
+    id: "sauder-palladia-oak",
+    rank: 2,
+    badge: "Best Value",
+    name: "Sauder Palladia 2-Drawer Lateral File Cabinet, Vintage Oak",
+    price: "Check Amazon",
+    drawers: "2 Drawers Lateral",
+    finish: "Vintage Oak",
+    rating: "Check Amazon",
+    imageUrl: `${BASE}/sauder-palladia-vintage-oak.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B01MR4Q0WA?tag=deskfinds0d-20",
+    whyItWorks:
+      "The Sauder Palladia is one of the most popular lateral file cabinets in this price range with over 1,700 reviews at 4.0 stars. The Vintage Oak finish has a warm, slightly aged tone that pairs naturally with traditional and transitional home office furniture. Sauder's patented T-slot assembly system is easier than standard cam-lock methods, which many buyers in the reviews specifically call out as a positive. Cord management opening on the rear panel keeps the work surface tidy. Decorative base molding gives it a furniture-grade appearance rather than office-equipment look. At 35.5 inches wide, the flat top surface is large enough to serve as a printer stand or display shelf.",
+    tradeoffs: [
+      "4.0-star rating is solid but below the Bush Key West (Pick 1) at 4.4 stars",
+      "Assembly required - allow 1 to 2 hours using Sauder's T-slot system",
+      "Engineered wood construction, not solid hardwood",
+    ],
+    skipIf:
+      "Skip if you want the best-reviewed option in this guide - the Bush Key West (Pick 1) has more reviews and a higher rating. Skip if you need a dark finish - the Sauder Edge Water Estate Black (Pick 4) covers that.",
+    pros: [
+      "Over 1,700 reviews at 4.0 stars - strong validation at this price range",
+      "Vintage Oak finish is warm and pairs well with traditional furniture",
+      "Sauder T-slot assembly is easier than standard cam-lock systems",
+      "35.5-inch wide flat top serves as a printer stand or display area",
+      "Cord management opening on rear panel",
+    ],
+    cons: [
+      "4.0 stars is lower than several other picks in this guide",
+      "Assembly required and the cabinet is large - plan adequate time and space",
+      "Engineered wood, not solid hardwood throughout",
+    ],
+  },
+  {
+    id: "sauder-heritage-cherry",
+    rank: 3,
+    badge: "Best Classic Cherry",
+    name: "Sauder Heritage Hill 2-Drawer Lateral File Cabinet, Classic Cherry",
+    price: "Check Amazon",
+    drawers: "2 Drawers Lateral",
+    finish: "Classic Cherry",
+    rating: "Check Amazon",
+    imageUrl: `${BASE}/sauder-heritage-hill-cherry.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B00006IBAX?tag=deskfinds0d-20",
+    whyItWorks:
+      "The Sauder Heritage Hill has been on the market long enough to accumulate over 1,300 reviews at 4.1 stars - a track record that reflects consistent buyer satisfaction over time rather than a recent popularity surge. Classic Cherry is a traditional reddish-brown tone that pairs well with cherry or mahogany-toned desks in formal or executive home offices. A flip-down front panel on one drawer adds flexible storage beyond hanging files. Decorative hardware in brushed nickel completes the formal look. The lateral format means files are accessible from the side without pulling out a deep drawer - practical in tight office corners.",
+    tradeoffs: [
+      "Over 1,300 reviews is a strong sample but lower than the Bush Key West (Pick 1) and Sauder Palladia (Pick 2)",
+      "Classic Cherry is a very specific finish - verify it matches your existing furniture before ordering",
+      "Flip-down panel adds flexibility but adds to assembly complexity",
+    ],
+    skipIf:
+      "Skip if your office has a modern or minimalist aesthetic - Classic Cherry reads as formal and traditional. Skip if you want the most reviews at the best price - the Bush Key West (Pick 1) covers that.",
+    pros: [
+      "1,335 reviews at 4.1 stars - long track record in the market",
+      "Classic Cherry finish pairs perfectly with traditional cherry and mahogany desks",
+      "Flip-down front panel on one drawer adds extra storage flexibility",
+      "Brushed nickel decorative hardware completes the formal look",
+    ],
+    cons: [
+      "Classic Cherry is a specific finish that does not suit modern or transitional offices",
+      "Flip-down panel feature adds assembly steps",
+      "Engineered wood, not solid hardwood",
+    ],
+  },
+  {
+    id: "sauder-edge-water-black",
+    rank: 4,
+    badge: "Best Dark Finish",
+    name: "Sauder Edge Water 2-Drawer Lateral File Cabinet, Estate Black",
+    price: "Check Amazon",
+    drawers: "2 Drawers Lateral",
+    finish: "Estate Black",
+    rating: "Check Amazon",
+    imageUrl: `${BASE}/sauder-edge-water-black.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B002ZJ9IJI?tag=deskfinds0d-20",
+    whyItWorks:
+      "Estate Black is uncommon in lateral file cabinet designs and the Sauder Edge Water delivers it with nearly 1,000 reviews at a 4.3-star rating. The dark finish works well in minimalist desk setups or offices that mix black metal accents with wood furniture. The Estate Black laminate has a subtle wood-grain texture, giving it more visual warmth than a plain painted metal surface - it reads as wood furniture rather than office equipment. At around $205, it is priced accessibly for a dark-finish lateral cabinet. T-slot assembly system applies here as with other Sauder products.",
+    tradeoffs: [
+      "979 reviews is a smaller sample than the top three picks in this guide",
+      "Estate Black is a niche finish - it suits minimalist or industrial styles but not traditional warm offices",
+      "Verify current Amazon pricing and availability before ordering",
+    ],
+    skipIf:
+      "Skip if your office uses warm wood tones - Estate Black will stand out as an outlier. Skip if you want the warmth of an oak or cherry finish - any of Picks 1 through 3 cover those.",
+    pros: [
+      "979 reviews at 4.3 stars - among the highest ratings in this guide",
+      "Estate Black laminate with wood-grain texture - more warmth than plain painted surfaces",
+      "Priced accessibly around $205 for a dark-finish lateral design",
+      "Works well in minimalist or industrial home office setups",
+    ],
+    cons: [
+      "Fewer reviews than the top three picks in this guide",
+      "Estate Black suits a narrow range of office aesthetics",
+      "Engineered wood laminate, not solid hardwood",
+    ],
+  },
+  {
+    id: "bush-cabot-cherry",
+    rank: 5,
+    badge: "Best Traditional Style",
+    name: "Bush Home Cabot 2-Drawer Lateral File Cabinet, Harvest Cherry",
+    price: "Check Amazon",
+    drawers: "2 Drawers Lateral",
+    finish: "Harvest Cherry",
+    rating: "Check Amazon",
+    imageUrl: `${BASE}/bush-cabot-harvest-cherry.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B00E24N48K?tag=deskfinds0d-20",
+    whyItWorks:
+      "The Bush Home Cabot Harvest Cherry is a close competitor to the Sauder Edge Water in price and rating, at around $207 and 4.3 stars across 972 reviews. Harvest Cherry is a slightly lighter and warmer tone than Classic Cherry, which makes it more versatile across traditional and transitional office styles. Full-extension ball-bearing drawer slides provide smooth access all the way to the back of the drawer. Part of the broader Bush Home Cabot collection, so it coordinates with matching desks and bookcases for a unified office setup. Meets CARB and TSCA Title VI standards for chemical emissions.",
+    tradeoffs: [
+      "972 reviews is a smaller sample than higher-ranked picks",
+      "Harvest Cherry is a warm finish that does not suit modern or dark-themed offices",
+      "Bush Home collection matching requires purchasing other Cabot pieces",
+    ],
+    skipIf:
+      "Skip if you do not need the full Cabot collection and want the most-reviewed pick - the Bush Key West (Pick 1) has 4x more reviews. Skip if you prefer a darker traditional cherry tone - the Sauder Heritage Hill Classic Cherry (Pick 3) is the better match.",
+    pros: [
+      "972 reviews at 4.3 stars - matches the Sauder Edge Water rating in this guide",
+      "Harvest Cherry is more versatile than Classic Cherry across office styles",
+      "Full-extension ball-bearing drawer slides for smooth full-depth access",
+      "Part of coordinated Cabot collection for matching office furniture",
+      "CARB and TSCA Title VI compliant",
+    ],
+    cons: [
+      "Fewer reviews than the top picks in this guide",
+      "Collection matching only relevant if you are buying other Cabot pieces",
+      "Engineered wood, not solid hardwood",
+    ],
+  },
+  {
+    id: "sauder-clifford-walnut",
+    rank: 6,
+    badge: "Best Walnut Finish",
+    name: "Sauder Clifford Place 2-Drawer Lateral File Cabinet, Grand Walnut",
+    price: "Check Amazon",
+    drawers: "2 Drawers Lateral",
+    finish: "Grand Walnut",
+    rating: "Check Amazon",
+    imageUrl: `${BASE}/sauder-clifford-place-walnut.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B07C659WC3?tag=deskfinds0d-20",
+    whyItWorks:
+      "Grand Walnut is one of the most sought-after finishes in home office furniture and the Sauder Clifford Place is the only option in this guide offering it. The deep, cool-toned brown finish pairs well with mid-century modern or transitional office styles. At around $303, walnut-finish lateral cabinets at this price are relatively rare - most walnut options cost significantly more. The 465-review count is smaller than other Sauder options here, which means the 4.0-star rating should be read with that context. If the Grand Walnut finish is what your office needs, this is the most accessible option in the market.",
+    tradeoffs: [
+      "465 reviews is the smallest sample among the Sauder picks in this guide",
+      "4.0-star average at a lower review count carries more uncertainty than the same rating across 1,300+ reviews",
+      "Priced around $303 - higher than most picks except the Martin Furniture premium option",
+    ],
+    skipIf:
+      "Skip if review count is important to your decision - the Bush Key West (Pick 1) has nearly 10x more reviews. Skip if budget is tight - the Sauder Palladia Vintage Oak (Pick 2) offers warm oak at a lower price.",
+    pros: [
+      "Only Grand Walnut finish option in this guide - rare at this price point",
+      "Deep cool-toned brown suits mid-century modern and transitional offices",
+      "35.5-inch wide flat top surface works as a printer stand or credenza",
+    ],
+    cons: [
+      "465 reviews is the smallest sample among Sauder picks here",
+      "4.0 stars at 465 reviews is a less reliable signal than 4.0 stars at 1,700 reviews",
+      "Higher price than most picks except the premium Martin Furniture option",
+    ],
+  },
+  {
+    id: "martin-huntington-oak",
+    rank: 7,
+    badge: "Best Premium Option",
+    name: "Martin Furniture Huntington 2-Drawer Lateral File Cabinet, Oxford Oak",
+    price: "Check Amazon",
+    drawers: "2 Drawers Lateral",
+    finish: "Oxford Oak",
+    rating: "Check Amazon",
+    imageUrl: `${BASE}/martin-huntington-oxford-oak.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B002N1BMGA?tag=deskfinds0d-20",
+    whyItWorks:
+      "Martin Furniture positions the Huntington toward buyers who want a step up in construction quality without reaching solid hardwood pricing. The Huntington Oxford uses select hardwood veneer over a composite core - a higher-quality surface finish than the laminate used by Bush Home and Sauder in this guide, though it is not solid hardwood throughout. Ships partially assembled, which reduces setup time compared to flat-pack options. Traditional Oxford styling with decorative hardware suits formal executive home offices. At around $499, it sits at the top of this guide's price range. Only 143 reviews at time of research - factor this into your decision alongside the 4.2-star average.",
+    tradeoffs: [
+      "Only 143 reviews at time of research - significantly fewer than all other picks in this guide",
+      "4.2-star average is encouraging but the small review pool makes it less reliable",
+      "Priced near $499 - approaching the upper limit of this guide's range",
+    ],
+    skipIf:
+      "Skip if review count is important to your confidence in a product - 143 reviews is far below the other picks here. Skip if you want the best value - the Bush Key West (Pick 1) delivers a 4.4-star rating at a fraction of the price.",
+    pros: [
+      "Select hardwood veneer surface - a step above basic laminate in finish quality",
+      "Ships partially assembled - less assembly time than flat-pack competitors",
+      "Traditional Oxford styling suits formal and executive home offices",
+      "Martin Furniture has a consistent track record in home office furniture",
+    ],
+    cons: [
+      "Only 143 reviews - the smallest sample in this guide by a wide margin",
+      "Near $499 pricing requires confidence in a product with a limited review history",
+      "Not solid hardwood throughout despite the premium positioning",
+    ],
+  },
+];
 
-## Quick Comparison Table
+export interface AtAGlanceRow {
+  id: string;
+  badge: string;
+  name: string;
+  price: string;
+  drawers: string;
+  finish: string;
+  rating: string;
+}
 
-| Rank | Product | Price | Rating | Finish | Width | |
-|------|---------|-------|--------|--------|-------|--|
-| 1 | Bush Home Key West, Pure White Oak | ~$130 | 4.4 (4,283) | White Oak | 30 in | <a href="https://www.amazon.com/dp/B081ZP7MLY?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;">Check price</a> |
-| 2 | Sauder Palladia, Vintage Oak | ~$289 | 4.0 (1,741) | Vintage Oak | 35.5 in | <a href="https://www.amazon.com/dp/B01MR4Q0WA?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;">Check price</a> |
-| 3 | Sauder Heritage Hill, Classic Cherry | ~$259 | 4.1 (1,335) | Classic Cherry | 35.5 in | <a href="https://www.amazon.com/dp/B00006IBAX?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;">Check price</a> |
-| 4 | Sauder Edge Water, Estate Black | ~$205 | 4.3 (979) | Estate Black | 35.5 in | <a href="https://www.amazon.com/dp/B002ZJ9IJI?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;">Check price</a> |
-| 5 | Bush Home Cabot, Harvest Cherry | ~$207 | 4.3 (972) | Harvest Cherry | 30 in | <a href="https://www.amazon.com/dp/B00E24N48K?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;">Check price</a> |
-| 6 | Sauder Clifford Place, Grand Walnut | ~$303 | 4.0 (465) | Grand Walnut | 35.5 in | <a href="https://www.amazon.com/dp/B07C659WC3?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;">Check price</a> |
-| 7 | Martin Furniture Huntington Oxford, Oak | ~$499 | 4.2 (143) | Oak Veneer | 30 in | <a href="https://www.amazon.com/dp/B002N1BMGA?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;">Check price</a> |`,
-    },
-    {
-      heading: "1. Bush Home Key West, Pure White Oak - Best Overall",
-      body: `**Price:** ~$130.68 | **Rating:** 4.4 stars | 4,283 reviews | **Lock:** Yes | **Width:** 30 in
+export const atAGlanceRows: AtAGlanceRow[] = products.map((p) => ({
+  id: p.id,
+  badge: p.badge,
+  name: p.name,
+  price: p.price,
+  drawers: p.drawers,
+  finish: p.finish,
+  rating: p.rating,
+}));
 
-The Bush Home Key West earns the top spot based on the highest rating (4.4 stars) and the largest review count in this group (over 4,200). At $130.68, it is also the most affordable entry in this lateral/traditional guide, making it a strong value for shoppers who want a lateral design without moving too far above the budget tier.
+export const faq: { q: string; a: string }[] = [
+  {
+    q: "Are any wood file cabinets under $500 actually solid wood?",
+    a: "Most are not. Bush Home and Sauder products in this range use engineered wood with laminate or wood-grain veneer surfaces. The Martin Furniture Huntington Oxford at around $499 uses select hardwood veneer over a composite core, which is a step up in surface quality but still not solid hardwood throughout. True solid hardwood file cabinets typically start at $600 to $800.",
+  },
+  {
+    q: "What is the difference between lateral and vertical file cabinets?",
+    a: "Lateral cabinets are wider than they are deep, typically 30 to 36 inches wide. Files sit side by side, allowing easier access without digging through a deep stack. They also provide a useful flat top surface for a printer or display. Vertical cabinets are narrower (15 to 18 inches) and deeper (25 to 29 inches), taking less wall space but protruding further from the wall. All seven picks in this guide are lateral designs.",
+  },
+  {
+    q: "Can I use a lateral file cabinet as a printer stand?",
+    a: "Yes. Lateral cabinets typically have a flat top surface 30 to 36 inches wide and 18 to 20 inches deep at 28 to 30 inches tall, which accommodates most home printers at a comfortable height. Confirm the top surface weight capacity against your specific printer before buying.",
+  },
+  {
+    q: "What is the difference between Bush Home and Sauder file cabinets?",
+    a: "Both are US market leaders in ready-to-assemble home office furniture using engineered wood with laminate finishes. Bush Home tends toward cleaner, more contemporary styling. Sauder has a wider range of traditional styles and a patented T-slot assembly system many buyers find easier than standard cam-lock systems. Neither uses solid hardwood in this price range.",
+  },
+  {
+    q: "Which wood finish is best for a traditional home office?",
+    a: "Classic Cherry (Sauder Heritage Hill) and Harvest Cherry (Bush Home Cabot) suit formal, traditional offices and pair well with mahogany or cherry-toned desks. Vintage Oak (Sauder Palladia) has wide appeal across traditional and transitional styles. Grand Walnut (Sauder Clifford Place) is a mid-century modern choice with a cooler, darker tone.",
+  },
+  {
+    q: "Do letter-size files fit in these lateral cabinets?",
+    a: "Yes. All seven cabinets in this guide accept both letter-size and legal-size hanging files. Lateral drawers typically accommodate files oriented front-to-back or side-to-side, depending on the rail configuration. Check the product listing for the rail system included or whether an optional legal-size kit is needed.",
+  },
+];
 
-The Pure White Oak finish is clean and light, working well in modern, coastal-inspired, or casual home offices. Full-extension drawer slides for complete file access. Lock included. Meets CARB standards for low chemical emissions.
-
-**Pros:**
-- Highest-rated and most-reviewed in this guide
-- Most affordable lateral option here
-- Light oak finish is versatile and bright
-- Lock included
-
-**Cons:**
-- Engineered wood and laminate, not solid wood
-- White Oak finish may not suit traditional dark-wood offices
-
-<a href="https://www.amazon.com/dp/B081ZP7MLY?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:8px 18px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;margin:12px 0;">Check price on Amazon - Bush Home Key West White Oak</a>
-
-![Bush Home Key West 2 Drawer Lateral File Cabinet Pure White Oak](/images/guides/best-wood-file-cabinets-under-500/bush-key-west-white-oak.webp)`,
-    },
-    {
-      heading: "2-3. Sauder Palladia Vintage Oak and Heritage Hill Classic Cherry",
-      body: `### Sauder Palladia, Vintage Oak - Best Vintage Oak
-
-**Price:** ~$289.99 | **Rating:** 4.0 stars | 1,741 reviews | **Width:** 35.5 in
-
-One of the most popular lateral file cabinets in this price range with over 1,700 reviews. The Vintage Oak finish has a warm, slightly aged tone that pairs naturally with traditional furniture. Sauder's T-slot assembly system is easier than standard cam-lock methods. Cord management opening on the rear panel. Decorative base molding gives it a furniture-grade appearance.
-
-<a href="https://www.amazon.com/dp/B01MR4Q0WA?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:8px 18px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;margin:12px 0;">Check price on Amazon - Sauder Palladia Vintage Oak</a>
-
-![Sauder Palladia 2 Drawer Lateral File Cabinet Vintage Oak](/images/guides/best-wood-file-cabinets-under-500/sauder-palladia-vintage-oak.webp)
-
----
-
-### Sauder Heritage Hill, Classic Cherry - Best Classic Cherry
-
-**Price:** ~$259.99 | **Rating:** 4.1 stars | 1,335 reviews | **Width:** 35.5 in
-
-The Sauder Heritage Hill has been on the market long enough to accumulate over 1,300 reviews and maintains a solid 4.1-star rating, which reflects consistent buyer satisfaction over time. Classic Cherry is a traditional reddish-brown tone that pairs well with cherry or mahogany-toned desks. Flip-down front panel on one drawer adds storage flexibility. Decorative hardware in brushed nickel.
-
-<a href="https://www.amazon.com/dp/B00006IBAX?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:8px 18px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;margin:12px 0;">Check price on Amazon - Sauder Heritage Hill Classic Cherry</a>
-
-![Sauder Heritage Hill Lateral File Classic Cherry](/images/guides/best-wood-file-cabinets-under-500/sauder-heritage-hill-cherry.webp)`,
-    },
-    {
-      heading: "4-5. Sauder Edge Water Estate Black and Bush Home Cabot Harvest Cherry",
-      body: `### Sauder Edge Water, Estate Black - Best Dark Finish
-
-**Price:** ~$205.62 | **Rating:** 4.3 stars | 979 reviews | **Width:** 35.5 in
-
-Estate Black is uncommon in this category and the Sauder Edge Water delivers it with nearly 1,000 reviews at a 4.3-star rating. The dark finish works well in [minimalist desk setups](/guide/minimalist-desk-setup) or offices that mix black metal accents with wood furniture. The Estate Black laminate has subtle wood-grain texture, giving it more visual warmth than a plain painted surface. T-slot assembly system.
-
-<a href="https://www.amazon.com/dp/B002ZJ9IJI?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:8px 18px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;margin:12px 0;">Check price on Amazon - Sauder Edge Water Estate Black</a>
-
-![Sauder Edge Water 2 Drawer Lateral Filing Cabinet Estate Black](/images/guides/best-wood-file-cabinets-under-500/sauder-edge-water-black.webp)
-
----
-
-### Bush Home Cabot, Harvest Cherry - Best Harvest Cherry
-
-**Price:** ~$207.26 | **Rating:** 4.3 stars | 972 reviews | **Width:** 30 in
-
-The Cabot Harvest Cherry is a close competitor to the Sauder Edge Water in price and rating. Harvest Cherry is a slightly lighter, warmer tone than Classic Cherry, making it more versatile across different office styles. Full-extension ball-bearing drawer slides. Part of the broader Bush Home Cabot collection for coordinated matching with desks and bookcases. Meets CARB and TSCA Title VI standards.
-
-<a href="https://www.amazon.com/dp/B00E24N48K?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:8px 18px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;margin:12px 0;">Check price on Amazon - Bush Home Cabot Harvest Cherry</a>
-
-![Bush Home Cabot 2 Drawer Lateral File Cabinet Harvest Cherry](/images/guides/best-wood-file-cabinets-under-500/bush-cabot-harvest-cherry.webp)`,
-    },
-    {
-      heading: "6-7. Sauder Grand Walnut and Martin Furniture Premium Oak",
-      body: `### Sauder Clifford Place, Grand Walnut - Best Walnut Finish
-
-**Price:** ~$303.99 | **Rating:** 4.0 stars | 465 reviews | **Width:** 35.5 in
-
-Grand Walnut is one of the most sought-after finishes in home office furniture and the Sauder Clifford Place is the only option in this guide offering it. The deep, cool-toned brown finish pairs well with mid-century modern or transitional office styles. At $303.99, walnut-finish lateral cabinets at this price are relatively rare. 465 reviews is a smaller sample than other Sauder options here.
-
-<a href="https://www.amazon.com/dp/B07C659WC3?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:8px 18px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;margin:12px 0;">Check price on Amazon - Sauder Clifford Place Grand Walnut</a>
-
-![Sauder Clifford Place Lateral File Grand Walnut](/images/guides/best-wood-file-cabinets-under-500/sauder-clifford-place-walnut.webp)
-
----
-
-### Martin Furniture Huntington Oxford, Oak - Best Premium
-
-**Price:** ~$499.00 | **Rating:** 4.2 stars | 143 reviews
-
-**Important: only 143 reviews at time of writing.** This is significantly fewer than all other picks in this guide. The 4.2-star average is encouraging and consistent with Martin Furniture's broader track record, but factor the limited review pool into your decision.
-
-Martin Furniture positions products toward buyers who want a step up in construction quality. The Huntington Oxford uses select hardwood veneer over a composite core - a higher-quality surface than basic laminate, though not solid hardwood throughout. Ships partially assembled, reducing setup time. Traditional Oxford styling with decorative hardware.
-
-<a href="https://www.amazon.com/dp/B002N1BMGA?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:8px 18px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;margin:12px 0;">Check price on Amazon - Martin Furniture Huntington Oxford</a>
-
-![Martin Furniture Huntington Oxford 2 Drawer Wood File Cabinet Oak](/images/guides/best-wood-file-cabinets-under-500/martin-huntington-oxford-oak.webp)
-
----
-
-## Buying Guide
-
-### Why Lateral Cabinets vs Vertical at This Price Range
-
-All seven picks here are lateral cabinets - wider than they are deep. This matters for three reasons:
-
-1. **More file capacity per drawer:** Files sit side by side in lateral drawers vs front-to-back in vertical drawers, allowing easier access.
-2. **Flat top surface:** Lateral cabinets make excellent printer stands or credenza surfaces at 28-30 inches tall.
-3. **Furniture-like appearance:** The wider, lower profile of lateral cabinets looks more like furniture and less like office equipment.
-
-For compact vertical units under $120, see our [wood file cabinets under $200](/guide/best-wood-file-cabinets-under-200) guide.
-
-### Classic Wood Finish Guide
-
-| Finish | Tone | Pairs with |
-|--------|------|------------|
-| Pure White Oak | Light, clean | Modern, coastal, casual |
-| Vintage Oak | Warm medium brown | Traditional, transitional |
-| Classic Cherry | Reddish-brown | Formal, traditional |
-| Harvest Cherry | Warm lighter cherry | Traditional and transitional |
-| Estate Black | Dark neutral | Modern, minimalist, industrial |
-| Grand Walnut | Cool deep brown | Mid-century modern, transitional |
-
-### Bush Home vs Sauder
-
-Both use engineered wood with laminate/veneer. Bush Home tends toward cleaner contemporary styling. Sauder has a wider traditional range and a patented T-slot assembly system that many buyers find easier. Neither uses solid hardwood at this price.
-
-## Decision Guide
-
-| Your situation | Best pick |
-|----------------|-----------|
-| Best overall, most reviews | Bush Home Key West White Oak |
-| Warm classic oak | Sauder Palladia Vintage Oak |
-| Traditional cherry office | Sauder Heritage Hill Classic Cherry |
-| Dark modern or industrial | Sauder Edge Water Estate Black |
-| Warm cherry, matching collection | Bush Home Cabot Harvest Cherry |
-| Mid-century walnut aesthetic | Sauder Clifford Place Grand Walnut |
-| Premium construction, can accept fewer reviews | Martin Furniture Huntington Oxford |
-
-For more accessible budget options, see our complete [best wood file cabinets](/guide/best-wood-file-cabinets) hub and our [wood file cabinets under $200](/guide/best-wood-file-cabinets-under-200) guide.`,
-    },
-  ],
-};
+export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-wood-file-cabinets", title: "Best Wood File Cabinets in 2026" },
+  { href: "/guide/best-wood-file-cabinets-under-200", title: "Best Wood File Cabinets Under $200" },
+  { href: "/guide/best-2-drawer-wood-file-cabinets", title: "Best 2-Drawer Wood File Cabinets in 2026" },
+  { href: "/guide/best-2-drawer-wood-file-cabinets-under-150", title: "Best 2-Drawer Wood File Cabinets Under $150" },
+];

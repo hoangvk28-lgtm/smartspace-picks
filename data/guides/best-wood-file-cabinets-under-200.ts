@@ -1,245 +1,309 @@
-import type { Guide } from "@/data/guides";
+const BASE = "/images/guides/best-wood-file-cabinets-under-200";
 
-export const bestWoodFileCabinetsUnder200Guide: Guide = {
-  title: "Best Wood File Cabinets Under $200 (2026)",
-  slug: "best-wood-file-cabinets-under-200",
-  categorySlug: "desk-setup",
-  subcategorySlug: "accessories",
-  description:
-    "Looking for the best wood file cabinets under $200? Compare top-rated budget wood-look options for home offices, with honest pros, cons, and buying tips.",
-  mainKeyword: "best wood file cabinets under $200",
-  subKeywords: [
-    "wood file cabinet under 200",
-    "affordable wood file cabinet",
-    "budget wood file cabinet",
-    "rolling wood file cabinet",
-    "printer stand file cabinet",
-    "wood-look file cabinet",
-  ],
-  heroImage: "/images/guides/best-wood-file-cabinets-under-200/hero.webp",
-  thumbnailImage: "/images/guides/best-wood-file-cabinets-under-200/hero.webp",
-  lastUpdated: "2026-07-01",
-  author: "Jamie Cole",
-  readTime: "11 min",
-  recommendedProductIds: [],
-  relatedGuideSlugs: [
-    "best-wood-file-cabinets",
-    "best-2-drawer-wood-file-cabinets",
-    "best-2-drawer-wood-file-cabinets-under-150",
-    "best-wood-file-cabinets-under-500",
-    "minimalist-desk-setup",
-    "small-desk-organization-ideas",
-  ],
-  faq: [
-    {
-      question: "Are wood file cabinets under $200 actually made of real wood?",
-      answer:
-        "No. At the $60 to $120 price range, every cabinet is built from engineered wood (MDF or particleboard) with a laminate or foil surface printed to look like wood grain. This is completely standard for the category at this price. Solid hardwood file cabinets typically start at $300 to $400 and go much higher.",
-    },
-    {
-      question: "Which wood file cabinet under $200 is the best overall?",
-      answer:
-        "The DEVAISE 3 Drawer Mobile File Cabinet in Rustic Brown (B0989HLF81) at $94.99 is the best overall pick. It has the highest rating (4.2 stars) and the largest review count in the category (over 5,300), a warm finish that works in most home offices, and rolling casters for easy repositioning.",
-    },
-    {
-      question: "Which wood file cabinet under $200 includes a lock?",
-      answer:
-        "The DEVAISE 3 Drawer Mobile File Cabinet with Lock, White (B08SWJZ5SC) at $69.99 is the only locking option in this guide. It includes a cam lock that secures all three drawers and rolls on casters. Note that this is a consumer-grade lock, not a high-security mechanism.",
-    },
-    {
-      question: "Can I use a wood file cabinet as a printer stand?",
-      answer:
-        "Yes. Three-drawer rolling cabinets in this guide sit at approximately 27 to 29 inches tall, which is close to standard desk height. Most home inkjet printers fit comfortably on the top surface. Confirm the weight capacity in the product specifications before placing a heavy laser printer on top. The GYIIYUO model with extended desktop is specifically designed for this use.",
-    },
-    {
-      question: "How long does assembly take for these file cabinets?",
-      answer:
-        "Most buyers report 30 to 60 minutes for DEVAISE and VASAGLE cabinets. All include hardware and illustrated instructions. Reading a few recent buyer reviews focused on assembly experience is a good way to set expectations before purchasing.",
-    },
-    {
-      question: "Do these wood file cabinets hold legal-size files?",
-      answer:
-        "Most 3-drawer options in this guide are described as fitting both letter and legal-size hanging files in the bottom drawer. Always verify the interior drawer dimensions in the specific product listing before purchasing, especially if you primarily use legal-size folders.",
-    },
-  ],
-  sections: [
-    {
-      heading: "",
-      body: `> **Quick answer:** Best overall - DEVAISE 3 Drawer Rustic Brown (~$94.99, B0989HLF81, 5,342 reviews). Best budget/2-drawer - VASAGLE CUSTOS Snow White (~$62.99, B0BRXQ1DKF). Only locking option - DEVAISE 3 Drawer with Lock White (~$69.99, B08SWJZ5SC). Best design pick - INNOD Fluted Oak (~$109.99, B0GJZPVMG8).
+export const guideSlug = "best-wood-file-cabinets-under-200";
+export const guideTitle = "Best Wood File Cabinets Under $200 (2026)";
+export const metaTitle = "Best Wood File Cabinets Under $200 (2026)";
+export const metaDescription =
+  "Best wood file cabinets under $200: DEVAISE rustic brown, VASAGLE CUSTOS white, INNOD fluted oak. Honest pros, cons, and lock options for home offices.";
+export const lastUpdated = "2026-07-02";
+export const readTime = "10 min";
+export const heroImage = `${BASE}/hero.webp`;
 
-**Important note on materials:** Every cabinet in this price range is engineered wood with a laminate finish. None are solid hardwood. That is standard and expected at $60 to $120.
+export interface FileCabinet {
+  id: string;
+  rank: number;
+  badge: string;
+  name: string;
+  price: string;
+  drawers: string;
+  lock: string;
+  rating: string;
+  imageUrl: string;
+  amazonUrl: string;
+  whyItWorks: string;
+  tradeoffs: string[];
+  skipIf: string;
+  pros: string[];
+  cons: string[];
+}
 
-## Quick Comparison Table
+export const products: FileCabinet[] = [
+  {
+    id: "devaise-rustic-brown",
+    rank: 1,
+    badge: "Best Overall",
+    name: "DEVAISE 3 Drawer Mobile File Cabinet, Rustic Brown",
+    price: "~$94.99",
+    drawers: "3 Drawers",
+    lock: "No Lock",
+    rating: "4.2 stars, 5,342 reviews",
+    imageUrl: `${BASE}/devaise-3-drawer-mobile-rustic-brown.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B0989HLF81?tag=deskfinds0d-20",
+    whyItWorks:
+      "The DEVAISE Rustic Brown earns the top spot with the highest rating and the largest review base in this category by a significant margin. Over 5,300 verified buyers at 4.2 stars is a reliable quality signal. The warm rustic brown finish suits farmhouse, natural wood, and transitional home office setups. Three drawers give you enough storage for several years of active paperwork. The bottom drawer holds letter and legal-size hanging files. Rolling casters with two lockable wheels let you slide it under a desk and lock it in place. At this price and review volume, any systematic quality problem would be clearly visible in the review text - the 4.2 star average holds up.",
+    tradeoffs: [
+      "No lock - all contents are accessible without a key",
+      "Engineered wood core is moisture-sensitive - keep away from exterior walls in humid environments",
+      "Assembly required, typically 30 to 60 minutes based on buyer feedback",
+    ],
+    skipIf:
+      "Skip if you need a lock - the DEVAISE with Lock White (Pick 6) is the right call. Skip if you only need two drawers and want the lowest price - the VASAGLE CUSTOS (Pick 2) saves over $30.",
+    pros: [
+      "Highest-rated and most-reviewed option in this guide - 5,342 reviews at 4.2 stars",
+      "Warm rustic brown finish works with most home office styles",
+      "Rolling casters with locking mechanism for repositioning",
+      "Three drawers including a bottom drawer sized for letter and legal files",
+    ],
+    cons: [
+      "No lock",
+      "Assembly required (30 to 60 minutes)",
+      "Moisture-sensitive engineered wood core",
+    ],
+  },
+  {
+    id: "vasagle-snow-white",
+    rank: 2,
+    badge: "Best Budget",
+    name: "VASAGLE CUSTOS 2-Drawer File Cabinet, Snow White",
+    price: "~$62.99",
+    drawers: "2 Drawers",
+    lock: "No Lock",
+    rating: "4.0 stars, 3,262 reviews",
+    imageUrl: `${BASE}/vasagle-2-drawer-snow-white.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B0BRXQ1DKF?tag=deskfinds0d-20",
+    whyItWorks:
+      "At $62.99, the VASAGLE CUSTOS is the most affordable option in this guide with the second-highest review count. The snow white finish is clean and versatile, fitting naturally into minimalist, Scandinavian, and modern home office setups. Two drawers handle light-to-moderate filing needs. VASAGLE is a well-known home furniture brand with consistent quality across their product lines, which is why 3,262 buyers have left reviews at a 4.0 star average. For buyers who need a budget-conscious, stationary white cabinet with decent storage, this is the obvious pick.",
+    tradeoffs: [
+      "Only 2 drawers - storage capacity is limited compared to 3-drawer options",
+      "No casters - this is a stationary unit that does not roll",
+      "No lock",
+    ],
+    skipIf:
+      "Skip if you need three drawers - any of the DEVAISE options give you more storage. Skip if you plan to use the cabinet as a printer stand or mobile unit - it does not roll.",
+    pros: [
+      "Most affordable option at $62.99",
+      "Over 3,200 reviews provides strong buyer confidence",
+      "Compact footprint for small spaces",
+      "Clean white finish matches most desks",
+    ],
+    cons: [
+      "Only 2 drawers",
+      "No casters (stationary)",
+      "No lock",
+    ],
+  },
+  {
+    id: "devaise-white-3drawer",
+    rank: 3,
+    badge: "Best White Option",
+    name: "DEVAISE 3-Drawer Wood File Cabinet, White",
+    price: "~$94.99",
+    drawers: "3 Drawers",
+    lock: "No Lock",
+    rating: "4.1 stars, 2,784 reviews",
+    imageUrl: `${BASE}/devaise-3-drawer-wood-white.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B09Z2C8N2Q?tag=deskfinds0d-20",
+    whyItWorks:
+      "The white DEVAISE 3-drawer is the same functional package as the rustic brown best overall pick but in a lighter, more modern finish. Nearly 2,800 reviews at 4.1 stars confirms consistent quality across the DEVAISE line. Works especially well in offices with white or light-colored desks, matching popular setups with IKEA and minimalist furniture. Rolling casters included. If your desk is white or light gray and you want a cohesive look, this is the straightforward pick over the rustic brown version.",
+    tradeoffs: [
+      "White finish shows scuffs and marks more visibly than darker finishes",
+      "No lock",
+      "Same engineered wood construction as other options - not solid wood",
+    ],
+    skipIf:
+      "Skip if your office has a warm or dark wood aesthetic - the rustic brown (Pick 1) or walnut (Pick 4) will blend better. Skip if you need a lock - DEVAISE Lock White (Pick 6) is the white locking option.",
+    pros: [
+      "Nearly 2,800 reviews confirms reliable quality",
+      "Clean white finish pairs well with white and light-colored desks",
+      "Rolling casters for repositioning",
+      "Three drawers including letter and legal-size filing",
+    ],
+    cons: [
+      "White surface shows marks more easily",
+      "No lock",
+      "Same price as rustic brown at $94.99",
+    ],
+  },
+  {
+    id: "devaise-walnut",
+    rank: 4,
+    badge: "Best Walnut Finish",
+    name: "DEVAISE 3 Drawer Mobile File Cabinet, Walnut",
+    price: "~$74.99",
+    drawers: "3 Drawers",
+    lock: "No Lock",
+    rating: "4.0 stars, 2,318 reviews",
+    imageUrl: `${BASE}/devaise-3-drawer-walnut.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B0875YH1LD?tag=deskfinds0d-20",
+    whyItWorks:
+      "The DEVAISE Walnut is the most affordable 3-drawer rolling option in this guide at $74.99 - a full $20 less than the rustic brown and white variants. The rich dark walnut-tone laminate suits mid-century modern and traditional home office setups. Over 2,300 reviews at 4.0 stars is a solid quality signal for the price. Dark finishes also hide minor scuffs and surface marks better than white or lighter options, which matters over years of regular use.",
+    tradeoffs: [
+      "Lower review count than the rustic brown best overall pick",
+      "No lock",
+      "Walnut tone is a laminate, not real walnut veneer",
+    ],
+    skipIf:
+      "Skip if you want the most validated option in the DEVAISE line - the rustic brown (Pick 1) has over twice the reviews. Skip if a bright, modern aesthetic is the goal - walnut reads as darker and more traditional.",
+    pros: [
+      "Most affordable 3-drawer rolling option at $74.99",
+      "Rich walnut finish works well in mid-century and traditional setups",
+      "Dark finish hides minor scuffs better than white",
+      "Rolling casters included",
+    ],
+    cons: [
+      "No lock",
+      "Walnut tone is a laminate finish, not real wood veneer",
+      "Fewer reviews than the rustic brown variant",
+    ],
+  },
+  {
+    id: "vasagle-honey-brown",
+    rank: 5,
+    badge: "Best Farmhouse Style",
+    name: "VASAGLE 3-Drawer Honey Brown Farmhouse File Cabinet",
+    price: "~$85.49",
+    drawers: "3 Drawers",
+    lock: "No Lock",
+    rating: "4.0 stars, 1,310 reviews",
+    imageUrl: `${BASE}/vasagle-honey-brown-farmhouse.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B09XF4Z5GP?tag=deskfinds0d-20",
+    whyItWorks:
+      "The honey brown finish is rare in this price category and fills a clear gap for farmhouse, boho, and warm-toned home offices. No other pick on this list offers this color tone. VASAGLE is a reliable brand in the budget furniture space with consistent build quality, and 1,310 reviews at 4.0 stars is a respectable sample size for a color variant. Three drawers and rolling casters round out a practical package. If your workspace leans farmhouse or rustic and the DEVAISE rustic brown is too dark, the honey brown fills that gap.",
+    tradeoffs: [
+      "Lower review count than the top DEVAISE picks",
+      "No lock",
+      "Honey brown tone is a laminate - not solid wood",
+    ],
+    skipIf:
+      "Skip if review volume is your primary confidence signal - the DEVAISE rustic brown (Pick 1) has over four times more reviews. Skip if a lock is required.",
+    pros: [
+      "Unique honey brown finish not available on other picks",
+      "Three drawers with rolling casters",
+      "VASAGLE brand build quality is consistent",
+      "Good fit for farmhouse and warm-toned office aesthetics",
+    ],
+    cons: [
+      "Fewer reviews than top picks",
+      "No lock",
+      "Honey brown is a laminate, not solid wood",
+    ],
+  },
+  {
+    id: "devaise-lock-white",
+    rank: 6,
+    badge: "Best With Lock",
+    name: "DEVAISE 3 Drawer Mobile File Cabinet with Lock, White",
+    price: "~$69.99",
+    drawers: "3 Drawers",
+    lock: "With Lock",
+    rating: "4.0 stars, 797 reviews",
+    imageUrl: `${BASE}/devaise-3-drawer-mobile-lock-white.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B08SWJZ5SC?tag=deskfinds0d-20",
+    whyItWorks:
+      "The DEVAISE lock white is the only locking cabinet in this guide and is competitively priced at $69.99 for a 3-drawer rolling unit. The cam lock secures all three drawers simultaneously from a single key. Fewer reviews than top picks (797), but 4.0 stars at this niche feature level is respectable. If document security is a priority - shared office spaces, home offices with children nearby, or sensitive paperwork - this is the only option in the under-$200 category that addresses it.",
+    tradeoffs: [
+      "Only 797 reviews - the smallest sample size in this guide",
+      "Consumer-grade cam lock - not a high-security mechanism",
+      "White finish shows scuffs and marks more visibly",
+    ],
+    skipIf:
+      "Skip if you do not need a lock - you can get more buyer-validated options (DEVAISE rustic brown or white) for the same or similar price without the lock niche premium. Skip if you need a dark or warm finish - this only comes in white.",
+    pros: [
+      "Only locking option in this guide",
+      "Competitively priced at $69.99 for a 3-drawer rolling unit",
+      "Cam lock secures all drawers simultaneously",
+      "Rolling casters for mobility",
+    ],
+    cons: [
+      "Only 797 reviews - limited buyer validation",
+      "Consumer-grade lock, not high-security",
+      "White finish only",
+    ],
+  },
+  {
+    id: "innod-fluted-oak",
+    rank: 7,
+    badge: "Best Modern Design",
+    name: "INNOD 3 Drawer Fluted Mobile File Cabinet, Oak",
+    price: "~$109.99",
+    drawers: "3 Drawers",
+    lock: "No Lock",
+    rating: "4.0 stars, 41 reviews",
+    imageUrl: `${BASE}/innod-3-drawer-fluted-oak.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B0GJZPVMG8?tag=deskfinds0d-20",
+    whyItWorks:
+      "The INNOD fluted cabinet is the most visually distinctive pick in this guide. The fluted panel drawer fronts have become a popular detail in contemporary interior design, and the oak finish gives it a more furniture-like appearance than typical budget laminate cabinets. At $109.99, it is the most expensive option here. The 4.0 star rating is currently based on only 41 reviews, which means the signal is early and may shift. For design-conscious buyers who want a cabinet that reads as a piece of furniture rather than office equipment, this is the pick - with the caveat that buyer data is limited.",
+    tradeoffs: [
+      "Only 41 reviews at time of writing - rating may not be stable as more buyers weigh in",
+      "Most expensive option in this guide at $109.99",
+      "No lock",
+    ],
+    skipIf:
+      "Skip if you prioritize buyer-validated quality signals - every other pick has significantly more reviews. Skip if budget is a concern - this is the most expensive option in the guide by $15 or more.",
+    pros: [
+      "Distinctive fluted design stands out among budget options",
+      "Oak finish is on-trend for 2025 to 2026 home office aesthetics",
+      "Rolling casters for mobility",
+      "Furniture-like appearance suits design-forward spaces",
+    ],
+    cons: [
+      "Only 41 reviews - limited buyer validation",
+      "Most expensive option at $109.99",
+      "No lock",
+    ],
+  },
+];
 
-| Rank | Product | Price | Rating | Drawers | Lock | |
-|------|---------|-------|--------|---------|------|--|
-| 1 | DEVAISE 3 Drawer Mobile, Rustic Brown | ~$94.99 | 4.2 (5,342) | 3 | No | <a href="https://www.amazon.com/dp/B0989HLF81?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;">Check price</a> |
-| 2 | VASAGLE CUSTOS 2-Drawer, Snow White | ~$62.99 | 4.0 (3,262) | 2 | No | <a href="https://www.amazon.com/dp/B0BRXQ1DKF?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;">Check price</a> |
-| 3 | DEVAISE 3-Drawer Wood, White | ~$94.99 | 4.1 (2,784) | 3 | No | <a href="https://www.amazon.com/dp/B09Z2C8N2Q?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;">Check price</a> |
-| 4 | DEVAISE 3 Drawer Walnut | ~$74.99 | 4.0 (2,318) | 3 | No | <a href="https://www.amazon.com/dp/B0875YH1LD?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;">Check price</a> |
-| 5 | VASAGLE Honey Brown Farmhouse | ~$85.49 | 4.0 (1,310) | 3 | No | <a href="https://www.amazon.com/dp/B09XF4Z5GP?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;">Check price</a> |
-| 6 | DEVAISE 3 Drawer with Lock, White | ~$69.99 | 4.0 (797) | 3 | Yes | <a href="https://www.amazon.com/dp/B08SWJZ5SC?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;">Check price</a> |
-| 7 | INNOD Fluted Mobile, Oak | ~$109.99 | 4.0 (41) | 3 | No | <a href="https://www.amazon.com/dp/B0GJZPVMG8?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:5px 12px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;">Check price</a> |`,
-    },
-    {
-      heading: "1. DEVAISE 3 Drawer Mobile File Cabinet, Rustic Brown - Best Overall",
-      body: `**Price:** ~$94.99 | **Rating:** 4.2 stars | 5,342 reviews | **Lock:** No | **Mobile:** Yes
+export interface AtAGlanceRow {
+  id: string;
+  badge: string;
+  name: string;
+  price: string;
+  drawers: string;
+  lock: string;
+  rating: string;
+}
 
-The DEVAISE Rustic Brown earns the top spot with the highest rating and the largest review base in this category by a significant margin. Over 5,300 verified buyers at 4.2 stars is a reliable signal. The warm rustic brown finish suits farmhouse, natural wood, and transitional home office setups.
+export const atAGlanceRows: AtAGlanceRow[] = products.map((p) => ({
+  id: p.id,
+  badge: p.badge,
+  name: p.name,
+  price: p.price,
+  drawers: p.drawers,
+  lock: p.lock,
+  rating: p.rating,
+}));
 
-Three drawers give you enough storage for several years of active paperwork. The bottom drawer holds letter and legal-size hanging files. Rolling casters with two lockable wheels let you slide it under a desk and lock it in place.
+export const faq: { q: string; a: string }[] = [
+  {
+    q: "Are wood file cabinets under $200 actually made of real wood?",
+    a: "No. At the $60 to $120 price range, every cabinet is built from engineered wood (MDF or particleboard) with a laminate or foil surface printed to look like wood grain. This is completely standard for the category at this price. Solid hardwood file cabinets typically start at $300 to $400 and go much higher.",
+  },
+  {
+    q: "Which wood file cabinet under $200 is the best overall?",
+    a: "The DEVAISE 3 Drawer Mobile File Cabinet in Rustic Brown (B0989HLF81) at $94.99 is the best overall pick. It has the highest rating (4.2 stars) and the largest review count in the category (over 5,300), a warm finish that works in most home offices, and rolling casters for easy repositioning.",
+  },
+  {
+    q: "Which wood file cabinet under $200 includes a lock?",
+    a: "The DEVAISE 3 Drawer Mobile File Cabinet with Lock, White (B08SWJZ5SC) at $69.99 is the only locking option in this guide. It includes a cam lock that secures all three drawers and rolls on casters. Note that this is a consumer-grade lock, not a high-security mechanism.",
+  },
+  {
+    q: "Can I use a wood file cabinet as a printer stand?",
+    a: "Yes. Three-drawer rolling cabinets in this guide sit at approximately 27 to 29 inches tall, which is close to standard desk height. Most home inkjet printers fit comfortably on the top surface. Confirm the weight capacity in the product specifications before placing a heavy laser printer on top.",
+  },
+  {
+    q: "How long does assembly take for these file cabinets?",
+    a: "Based on buyer feedback, most buyers report 30 to 60 minutes for DEVAISE and VASAGLE cabinets. All include hardware and illustrated instructions. Reading recent buyer reviews focused on assembly experience is a good way to set expectations before purchasing.",
+  },
+  {
+    q: "Do these wood file cabinets hold legal-size files?",
+    a: "Most 3-drawer options in this guide are described as fitting both letter and legal-size hanging files in the bottom drawer. Always verify the interior drawer dimensions in the specific product listing before purchasing, especially if you primarily use legal-size folders.",
+  },
+];
 
-**Engineered wood note:** Rustic brown laminate over particleboard. Not solid hardwood at this price.
-
-**Pros:**
-- Highest-rated and most-reviewed option in this guide
-- Warm rustic finish works with most home office styles
-- Rolling casters with locking mechanism
-- Three drawers for meaningful storage capacity
-
-**Cons:**
-- No lock
-- Assembly required (30-60 min)
-- Moisture-sensitive engineered wood core
-
-**Best for:** Anyone who wants a proven, rolling 3-drawer cabinet with a warm wood-look finish and does not need a lock.
-
-<a href="https://www.amazon.com/dp/B0989HLF81?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:8px 18px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;margin:12px 0;">Check price on Amazon - DEVAISE 3 Drawer Rustic Brown</a>
-
-![DEVAISE 3 Drawer Mobile File Cabinet Rustic Brown](/images/guides/best-wood-file-cabinets-under-200/devaise-3-drawer-mobile-rustic-brown.webp)`,
-    },
-    {
-      heading: "2. VASAGLE CUSTOS 2-Drawer File Cabinet, Snow White - Best Budget",
-      body: `**Price:** ~$62.99 | **Rating:** 4.0 stars | 3,262 reviews | **Lock:** No | **Mobile:** No
-
-At $62.99, the VASAGLE CUSTOS is the most affordable option in this guide with the second-highest review count. The snow white finish is clean and versatile, fitting naturally into minimalist, Scandinavian, and modern home office setups. Two drawers handle light-to-moderate filing needs. For a more complete look at this format, see our [best 2-drawer wood file cabinets](/guide/best-2-drawer-wood-file-cabinets) guide.
-
-**Pros:**
-- Most affordable option at $62.99
-- Over 3,200 reviews for strong buyer confidence
-- Compact footprint for small spaces
-- Clean white finish matches most desks
-
-**Cons:**
-- Only 2 drawers
-- No casters (stationary)
-- No lock
-
-**Best for:** Budget-conscious buyers in smaller spaces who only need two drawers and want a clean white look.
-
-<a href="https://www.amazon.com/dp/B0BRXQ1DKF?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:8px 18px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;margin:12px 0;">Check price on Amazon - VASAGLE CUSTOS Snow White</a>
-
-![VASAGLE CUSTOS 2-Drawer File Cabinet Snow White](/images/guides/best-wood-file-cabinets-under-200/vasagle-2-drawer-snow-white.webp)`,
-    },
-    {
-      heading: "3-4. DEVAISE 3-Drawer White and DEVAISE Walnut",
-      body: `### DEVAISE 3-Drawer Wood File Cabinet, White
-
-**Price:** ~$94.99 | **Rating:** 4.1 stars | 2,784 reviews
-
-The white version of the DEVAISE 3-drawer rolling cabinet. Same functional package as the rustic brown pick but in a lighter, more modern finish. Nearly 2,800 reviews at 4.1 stars confirms consistent quality. Works especially well in offices with white or light-colored desks.
-
-<a href="https://www.amazon.com/dp/B09Z2C8N2Q?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:8px 18px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;margin:12px 0;">Check price on Amazon - DEVAISE 3-Drawer White</a>
-
-![DEVAISE 3-Drawer Wood File Cabinet White](/images/guides/best-wood-file-cabinets-under-200/devaise-3-drawer-wood-white.webp)
-
----
-
-### DEVAISE 3 Drawer File Cabinet, Walnut
-
-**Price:** ~$74.99 | **Rating:** 4.0 stars | 2,318 reviews
-
-The most affordable 3-drawer rolling option in this guide at $74.99. Rich, dark walnut-tone laminate suits mid-century modern and traditional setups. Dark finish hides minor scuffs better than white.
-
-<a href="https://www.amazon.com/dp/B0875YH1LD?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:8px 18px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;margin:12px 0;">Check price on Amazon - DEVAISE Walnut</a>
-
-![DEVAISE 3 Drawer File Cabinet Walnut](/images/guides/best-wood-file-cabinets-under-200/devaise-3-drawer-walnut.webp)`,
-    },
-    {
-      heading: "5-6. VASAGLE Honey Brown and DEVAISE with Lock",
-      body: `### VASAGLE File Cabinet, Honey Brown Farmhouse Style
-
-**Price:** ~$85.49 | **Rating:** 4.0 stars | 1,310 reviews
-
-The honey brown finish is rare in this price category and fills a clear gap for farmhouse, boho, and warm-toned home offices. Three drawers, rolling casters, VASAGLE build quality. For styling tips with this look, see our [small desk organization ideas](/guide/small-desk-organization-ideas) guide.
-
-<a href="https://www.amazon.com/dp/B09XF4Z5GP?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:8px 18px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;margin:12px 0;">Check price on Amazon - VASAGLE Honey Brown</a>
-
-![VASAGLE File Cabinet Honey Brown Farmhouse Style](/images/guides/best-wood-file-cabinets-under-200/vasagle-honey-brown-farmhouse.webp)
-
----
-
-### DEVAISE 3 Drawer Mobile File Cabinet with Lock, White - Best Locking Option
-
-**Price:** ~$69.99 | **Rating:** 4.0 stars | 797 reviews | **Lock:** Yes
-
-The only locking cabinet in this guide, and competitively priced at $69.99 for a 3-drawer rolling unit. The cam lock secures all drawers simultaneously. Fewer reviews than top picks (797) but 4.0 stars is respectable for a niche feature at this price. Choose this if document security is a priority.
-
-<a href="https://www.amazon.com/dp/B08SWJZ5SC?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:8px 18px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;margin:12px 0;">Check price on Amazon - DEVAISE with Lock White</a>
-
-![DEVAISE 3 Drawer Mobile File Cabinet with Lock White](/images/guides/best-wood-file-cabinets-under-200/devaise-3-drawer-mobile-lock-white.webp)`,
-    },
-    {
-      heading: "7. INNOD Fluted Mobile File Cabinet, Oak - Best Design Pick",
-      body: `**Price:** ~$109.99 | **Rating:** 4.0 stars | 41 reviews | **Lock:** No
-
-**Important: only 41 reviews at time of writing.** The rating may not be stable as more buyers weigh in. Treat this as a newer, less-validated product.
-
-The INNOD fluted cabinet is the most visually distinctive pick in this guide. The fluted panel drawer fronts have become popular in contemporary interior design, and the oak finish and texture give it a more furniture-like appearance than typical budget cabinets. If aesthetics are a priority and you are willing to accept limited buyer data, this is worth considering.
-
-**Pros:**
-- Distinctive fluted design stands out among budget options
-- On-trend oak finish for 2025-2026 home office aesthetics
-- Rolling casters for mobility
-
-**Cons:**
-- Only 41 reviews - limited buyer validation
-- Most expensive option in this guide at $109.99
-- No lock
-
-**Best for:** Design-conscious buyers willing to accept limited social proof for a more decorative, furniture-like cabinet.
-
-<a href="https://www.amazon.com/dp/B0GJZPVMG8?tag=deskfinds0d-20" rel="nofollow sponsored noopener noreferrer" target="_blank" style="display:inline-block;background:#FF9900;color:white;padding:8px 18px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;margin:12px 0;">Check price on Amazon - INNOD Fluted Oak</a>
-
-![INNOD 3 Drawers Fluted Mobile File Cabinet Oak](/images/guides/best-wood-file-cabinets-under-200/innod-3-drawer-fluted-oak.webp)
-
----
-
-## Buying Guide
-
-### Wood-Look vs Solid Wood at This Price
-
-At $60 to $120, you are not getting solid wood. Every cabinet here uses MDF or particleboard with a laminate finish. That is completely standard. Engineered wood cabinets hold up well in a home office environment with normal use. The main risks are moisture (keep away from exterior walls in humid climates) and corner impacts.
-
-For solid wood or higher-grade construction, see our guide to [wood file cabinets under $500](/guide/best-wood-file-cabinets-under-500).
-
-### 2-Drawer vs 3-Drawer
-
-Choose 2-drawer when: storage needs are light, desk space is limited, or you want the lowest possible price.
-
-Choose 3-drawer when: you manage 2 or more years of paperwork, want the top drawer for office supplies, or plan to use the cabinet as a printer stand.
-
-For more 2-drawer options, see our [best 2-drawer wood file cabinets under $150](/guide/best-2-drawer-wood-file-cabinets-under-150) guide.
-
-### Rolling Casters
-
-All 3-drawer options in this guide include rolling casters. This is more useful than it sounds: you can slide the cabinet under a desk during the day, roll it out when accessing files, and reposition it when rearranging the office. Most units include two lockable casters.
-
-### Using a File Cabinet as a Printer Stand
-
-Three-drawer rolling units in this guide stand 27 to 29 inches tall, close to standard desk height. Most home inkjet printers fit on the top surface without issue. Confirm the weight capacity before placing a heavy laser printer on top.
-
-## Decision Guide
-
-| Your situation | Best pick |
-|----------------|-----------|
-| Best overall, proven reviews | DEVAISE 3 Drawer Rustic Brown |
-| Budget under $65, white finish | VASAGLE CUSTOS Snow White |
-| Need a lock | DEVAISE 3 Drawer with Lock |
-| White, 3 drawers, rolling | DEVAISE 3-Drawer White |
-| Warm/farmhouse aesthetic | VASAGLE Honey Brown |
-| Walnut tone, best price | DEVAISE Walnut |
-| Design-forward, can accept fewer reviews | INNOD Fluted Oak |`,
-    },
-  ],
-};
+export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-wood-file-cabinets", title: "Best Wood File Cabinets in 2026" },
+  { href: "/guide/best-2-drawer-wood-file-cabinets", title: "Best 2-Drawer Wood File Cabinets in 2026" },
+  { href: "/guide/best-2-drawer-wood-file-cabinets-under-150", title: "Best 2-Drawer Wood File Cabinets Under $150" },
+  { href: "/guide/best-wood-file-cabinets-under-500", title: "Best Wood File Cabinets Under $500" },
+];
