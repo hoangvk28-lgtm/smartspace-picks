@@ -6,6 +6,11 @@ import { sixtyVs65Vs75KeyboardGuide } from "@/data/guides/60-vs-65-vs-75-keyboar
 import { keyboardSizeChartGuide } from "@/data/guides/keyboard-size-chart";
 import { bestBudget1080pWebcamGuide } from "@/data/guides/best-budget-1080p-webcam";
 import { bestWebcamForVideoCallsGuide } from "@/data/guides/best-webcam-for-video-calls";
+import { bestWoodFileCabinetsUnder200Guide } from "@/data/guides/best-wood-file-cabinets-under-200";
+import { best2DrawerWoodFileCabinetsUnder150Guide } from "@/data/guides/best-2-drawer-wood-file-cabinets-under-150";
+import { bestWoodFileCabinetsGuide } from "@/data/guides/best-wood-file-cabinets";
+import { best2DrawerWoodFileCabinetsGuide } from "@/data/guides/best-2-drawer-wood-file-cabinets";
+import { bestWoodFileCabinetsUnder500Guide } from "@/data/guides/best-wood-file-cabinets-under-500";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -2325,6 +2330,11 @@ export const guides: Guide[] = [
   keyboardSizeChartGuide,
   bestBudget1080pWebcamGuide,
   bestWebcamForVideoCallsGuide,
+  bestWoodFileCabinetsUnder200Guide,
+  best2DrawerWoodFileCabinetsUnder150Guide,
+  bestWoodFileCabinetsGuide,
+  best2DrawerWoodFileCabinetsGuide,
+  bestWoodFileCabinetsUnder500Guide,
   {
     title: "Best Solid Wood Desks for Home Office in 2026",
     slug: "best-solid-wood-desk",
