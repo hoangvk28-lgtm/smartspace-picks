@@ -6,7 +6,7 @@ import { categories } from "@/data/categories";
 
 export const dynamic = "force-dynamic";
 
-const INDEXNOW_KEY = process.env.INDEXNOW_KEY ?? "1b058be73df943d29212a845a3a586e6";
+const INDEXNOW_KEY = process.env.INDEXNOW_KEY ?? "c98c7bf07f814a3b85155692e78cbbfc";
 
 // VS compare slugs (static — not in data files)
 const VS_SLUGS = [

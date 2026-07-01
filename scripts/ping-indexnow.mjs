@@ -3,18 +3,19 @@
  * Run: node scripts/ping-indexnow.mjs
  *
  * IndexNow notifies Bing + Yandex simultaneously.
- * Rate limit: 10,000 URLs/day (we have ~50 pages — no issue).
+ * Rate limit: 10,000 URLs/day (we have ~100 pages -- no issue).
  */
 
 const HOST = "www.deskfinds.com";
 const KEY = "c98c7bf07f814a3b85155692e78cbbfc";
 const KEY_LOCATION = `https://${HOST}/${KEY}.txt`;
 
-// All guide slugs
 const guideSlugs = [
+  // Tablet stands
   "best-tablet-stands",
   "best-tablet-stands-for-bed",
   "best-tablet-stands-for-desk",
+  // Desk setup
   "desk-lamps-small-desks",
   "monitor-stands-small-desks",
   "laptop-stands-small-desks",
@@ -41,7 +42,7 @@ const guideSlugs = [
   "best-headphone-stand-desk",
   "best-under-desk-cable-trays",
   "small-desk-organization-ideas",
-  // Charging station cluster (added 2026-06-04)
+  // Charging stations
   "best-charging-stations-for-desk",
   "best-small-desk-charging-stations",
   "best-wireless-charging-stations-for-desk",
@@ -52,16 +53,75 @@ const guideSlugs = [
   "under-desk-charging-station",
   "best-charging-stations-for-bedside-table",
   "best-charging-stations-for-home-office",
-  // Student/budget guides (added 2026-06-04)
-  "best-desk-lamp-under-30",
+  "best-budget-usb-charging-station-under-30",
+  "best-budget-multi-device-charging-station-under-50",
+  "best-budget-apple-3-in-1-charging-station-under-40",
+  // Audio / accessories
+  "best-headset-for-work",
+  "best-headphones-for-gaming",
+  "best-headphones-for-working-out",
   "best-headphones-for-online-classes",
+  "best-headphones-under-30",
+  "best-headphones-under-50",
+  "best-headphones-under-70",
+  "best-headphones-under-100",
+  "best-seat-cushions-for-office-chair",
+  "best-phone-gimbals-for-content-creators",
+  "best-document-cameras-home-office",
+  // Webcams
+  "best-webcam-under-50",
+  "best-webcams-for-home-office",
+  "best-budget-1080p-webcam",
+  "best-webcam-for-video-calls",
+  // Keyboards
+  "best-compact-keyboard-under-50",
+  "best-small-keyboard-with-numpad",
+  "best-mechanical-keyboard-under-100",
+  "60-vs-65-vs-75-keyboard",
+  "tkl-vs-full-size-keyboard",
+  "keyboard-size-chart",
+  // Monitors / arms
+  "best-monitor-under-100",
+  "best-27-inch-monitor-under-200",
+  "best-monitor-arm-under-100",
+  // Chairs
   "best-office-chair-under-100",
+  "best-ergonomic-chair-under-300",
+  "best-ergonomic-chair-under-500",
+  // Standing desks
+  "best-standing-desk-under-200",
+  "best-standing-desk-under-300",
+  "best-standing-desk-under-500",
+  "best-standing-desk-with-drawers",
+  "best-electric-standing-desk",
+  "best-flexispot-standing-desk",
+  "best-l-shaped-standing-desk",
+  "best-small-standing-desk",
+  "best-solid-wood-standing-desk",
+  // Desks
+  "best-solid-wood-desk",
+  "best-computer-desk-with-hutch",
+  "best-l-shaped-wood-desk",
+  "best-small-solid-wood-desk",
+  "best-vintage-wooden-desk",
+  "best-wooden-desk-with-drawers",
+  "best-wooden-gaming-desk",
+  "best-wood-executive-desk",
+  // File cabinets (added 2026-07-02)
+  "best-wood-file-cabinets",
+  "best-wood-file-cabinets-under-200",
+  "best-2-drawer-wood-file-cabinets",
+  "best-2-drawer-wood-file-cabinets-under-150",
+  "best-wood-file-cabinets-under-500",
+  // Info guides
+  "standard-desk-height",
+  "ergonomic-chair-vs-gaming-chair",
+  "ultrawide-vs-dual-monitor",
+  "desk-lamp-under-30",
 ];
 
-// Compare articles
 const compareSlug = ["monitor-stand-vs-monitor-arm"];
 
-// Static pages
 const staticPaths = [
   "/",
   "/guide",
@@ -93,10 +153,10 @@ const res = await fetch("https://api.indexnow.org/indexnow", {
 });
 
 if (res.ok) {
-  console.log(`✓ IndexNow accepted — HTTP ${res.status}`);
+  console.log(`OK IndexNow accepted -- HTTP ${res.status}`);
   console.log(`  ${urlList.length} URLs submitted to Bing + Yandex`);
 } else {
   const body = await res.text();
-  console.error(`✗ IndexNow rejected — HTTP ${res.status}: ${body}`);
+  console.error(`FAILED IndexNow rejected -- HTTP ${res.status}: ${body}`);
   process.exit(1);
 }
