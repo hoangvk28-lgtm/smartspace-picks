@@ -113,6 +113,10 @@ const guideSlugs = [
   "best-2-drawer-wood-file-cabinets",
   "best-2-drawer-wood-file-cabinets-under-150",
   "best-wood-file-cabinets-under-500",
+  "best-lateral-wood-file-cabinets",
+  "best-solid-wood-file-cabinets",
+  "best-vintage-wood-file-cabinets",
+  "best-3-and-4-drawer-wood-file-cabinets",
   // Info guides
   "standard-desk-height",
   "ergonomic-chair-vs-gaming-chair",
