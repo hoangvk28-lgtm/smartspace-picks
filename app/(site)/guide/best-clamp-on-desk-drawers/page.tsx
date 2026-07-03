@@ -43,7 +43,7 @@ function ProductSection({ product }: { product: GuideProduct }) {
           <a
             href={product.amazonUrl}
             target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
+            rel="noopener noreferrer sponsored"
             className="shrink-0 flex items-center justify-center w-full sm:w-60 h-52 rounded-xl border border-border bg-gray-50 overflow-hidden hover:opacity-90 transition-opacity"
           >
             <Image
@@ -90,7 +90,7 @@ function ProductSection({ product }: { product: GuideProduct }) {
             <a
               href={product.amazonUrl}
               target="_blank"
-              rel="nofollow sponsored noopener noreferrer"
+              rel="noopener noreferrer sponsored"
               className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90 transition-opacity w-fit mt-auto"
               style={{ background: "#FF9900" }}
             >
@@ -370,7 +370,7 @@ export default async function BestClampOnDeskDrawersPage() {
                       <a
                         href={product.amazonUrl}
                         target="_blank"
-                        rel="nofollow sponsored noopener noreferrer"
+                        rel="noopener noreferrer sponsored"
                         className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block"
                         style={{ background: "#FF9900" }}
                       >
@@ -387,23 +387,35 @@ export default async function BestClampOnDeskDrawersPage() {
         {/* Intro */}
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>
-            Clamp-on desk drawers attach to the desk edge or underside using a
-            C-clamp, requiring no drilling and no surface adhesive. This guide
-            covers keyboard tray combos, pure storage drawers, and swivel
-            options. All picks mount without tools beyond the clamp mechanism.
-            For bracket-mount and adhesive alternatives, see our{" "}
+            If your desk has no built-in drawers and you do not want to drill
+            holes or commit to permanent adhesive, a clamp-on drawer is the
+            practical middle ground. It grips the desk edge with a C-clamp
+            mechanism, requiring no tools beyond tightening a knob. The drawer
+            installs in minutes and comes off the same way, which makes it
+            suitable for renters, people who move their setup frequently, or
+            anyone who wants to try under-desk storage without a permanent
+            commitment.
+          </p>
+          <p>
+            Two things trip up buyers in this category. First, desk thickness
+            compatibility: most clamp-on products fit desks between 0.75 and 2
+            inches thick, but thick frames, beveled edges, or unusual desk
+            profiles can fall outside that range. Measure your desk edge before
+            buying. Second, the distinction between a keyboard tray with a small
+            pencil drawer and a dedicated storage drawer is easy to miss in
+            listings: two products in this guide are primarily keyboard trays
+            while the rest are storage-first. If keyboard repositioning is not
+            your goal, those are not the right picks.
+          </p>
+          <p>
+            This guide covers keyboard tray combos, pure storage drawers, and
+            swivel options for corner desks. For adhesive and bracket-mount
+            alternatives, see our{" "}
             <Link
               href="/guide/best-under-desk-storage-drawers"
               className="text-brand hover:underline"
             >
               best under desk storage drawers
-            </Link>{" "}
-            guide. For routing cables alongside your new storage, see our{" "}
-            <Link
-              href="/guide/under-desk-cable-management"
-              className="text-brand hover:underline"
-            >
-              under desk cable management
             </Link>{" "}
             guide.
           </p>
@@ -654,7 +666,7 @@ export default async function BestClampOnDeskDrawersPage() {
           <a
             href="https://www.amazon.com/s?k=clamp+on+desk+drawer+no+drill&tag=deskfinds0d-20"
             target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
+            rel="noopener noreferrer sponsored"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors"
             style={{ color: "#FF9900" }}
           >

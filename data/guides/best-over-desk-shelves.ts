@@ -2,10 +2,9 @@ const BASE = "/images/guides/best-over-desk-shelves";
 
 export const guideSlug = "best-over-desk-shelves";
 export const guideTitle = "8 Best Over Desk Shelves (2026)";
-export const metaTitle =
-  "Best Over Desk Shelves (2026): Clamp-On Shelving for Small Home Offices";
+export const metaTitle = "Best Over Desk Shelves (2026)";
 export const metaDescription =
-  "Find the best over desk shelves and clamp-on desk shelving for home offices. No-drill options that mount above or below the desk edge. Ranked by reviews and features.";
+  "Find the best over desk shelves and clamp-on shelving for home offices. No-drill options that mount to the desk edge. Sit-stand compatible picks included.";
 export const lastUpdated = "2026-07-03";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/hero.webp`;

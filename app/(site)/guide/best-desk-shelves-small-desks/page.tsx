@@ -43,7 +43,7 @@ function ProductSection({ product }: { product: GuideProduct }) {
           <a
             href={product.amazonUrl}
             target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
+            rel="noopener noreferrer sponsored"
             className="shrink-0 flex items-center justify-center w-full sm:w-60 h-52 rounded-xl border border-border bg-gray-50 overflow-hidden hover:opacity-90 transition-opacity"
           >
             <Image
@@ -90,7 +90,7 @@ function ProductSection({ product }: { product: GuideProduct }) {
             <a
               href={product.amazonUrl}
               target="_blank"
-              rel="nofollow sponsored noopener noreferrer"
+              rel="noopener noreferrer sponsored"
               className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90 transition-opacity w-fit mt-auto"
               style={{ background: "#FF9900" }}
             >
@@ -369,7 +369,7 @@ export default async function BestDeskShelvesSmallDesksPage() {
                       <a
                         href={product.amazonUrl}
                         target="_blank"
-                        rel="nofollow sponsored noopener noreferrer"
+                        rel="noopener noreferrer sponsored"
                         className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block"
                         style={{ background: "#FF9900" }}
                       >
@@ -386,23 +386,36 @@ export default async function BestDeskShelvesSmallDesksPage() {
         {/* Intro */}
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>
-            Desk shelves expand vertical storage on a small desk without adding width to the
-            footprint. This guide covers monitor risers, dual monitor risers with wood surfaces,
-            adjustable organizer shelves, and desktop bookshelves. Products are ranked by review
-            count. For shelves that clamp to the desk edge rather than sitting on the surface, see
-            our{" "}
+            When a small desk is cluttered, the instinct is to buy more storage.
+            But for most home office setups, the real problem is that everything
+            is piled on one flat surface because there is nowhere else for it to
+            go. A desk shelf adds a second level to your workspace without
+            expanding the footprint, letting you separate what you look at from
+            what you reach for. The question is which type of shelf actually fits
+            your situation.
+          </p>
+          <p>
+            The most common mismatch is buying a monitor riser when you need
+            vertical storage, or a tall bookshelf when you only need to raise
+            your screen a few inches. A monitor riser is a low platform, typically
+            3 to 6 inches tall, designed to bring a monitor to eye level while
+            freeing keyboard storage underneath. A desktop bookshelf is a full
+            vertical unit for books, binders, and supplies. They look similar in
+            product photos but solve completely different problems. Width is the
+            other issue to get right before buying: dual monitor risers run 31 to
+            42 inches across, and a desk under 48 inches wide will not fit one
+            properly.
+          </p>
+          <p>
+            This guide covers monitor risers, dual monitor risers with wood
+            surfaces, adjustable organizer shelves, and desktop bookshelves. For
+            shelves that clamp to the desk edge and float above the surface
+            without sitting on it, see our{" "}
             <Link
               href="/guide/best-over-desk-shelves"
               className="text-brand hover:underline"
             >
               best over desk shelves
-            </Link>{" "}
-            guide. For desk organization ideas that pair with these shelves, see our{" "}
-            <Link
-              href="/guide/small-desk-organization-ideas"
-              className="text-brand hover:underline"
-            >
-              small desk organization ideas
             </Link>{" "}
             guide.
           </p>
@@ -642,7 +655,7 @@ export default async function BestDeskShelvesSmallDesksPage() {
           <a
             href="https://www.amazon.com/s?k=desk+shelf+small+desk+monitor+riser&tag=deskfinds0d-20"
             target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
+            rel="noopener noreferrer sponsored"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors"
             style={{ color: "#FF9900" }}
           >

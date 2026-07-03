@@ -2,10 +2,9 @@ const BASE = "/images/guides/best-desk-shelves-small-desks";
 
 export const guideSlug = "best-desk-shelves-small-desks";
 export const guideTitle = "8 Best Desk Shelves for Small Desks (2026)";
-export const metaTitle =
-  "Best Desk Shelves for Small Desks (2026): Monitor Risers, Organizers, and Bookshelves";
+export const metaTitle = "Best Desk Shelves for Small Desks (2026)";
 export const metaDescription =
-  "Find the best desk shelves for small home office desks. Monitor riser shelves, adjustable organizer shelves, and desktop bookshelves compared by reviews and footprint.";
+  "Desk shelves for small home office desks. Monitor risers, adjustable organizer shelves, and desktop bookshelves compared by width, height, and footprint.";
 export const lastUpdated = "2026-07-03";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/hero.webp`;

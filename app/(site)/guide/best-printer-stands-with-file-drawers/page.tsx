@@ -44,7 +44,7 @@ function ProductSection({ product }: { product: GuideProduct }) {
           <a
             href={product.amazonUrl}
             target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
+            rel="noopener noreferrer sponsored"
             className="shrink-0 flex items-center justify-center w-full sm:w-60 h-52 rounded-xl border border-border bg-gray-50 overflow-hidden hover:opacity-90 transition-opacity"
           >
             <Image
@@ -88,7 +88,7 @@ function ProductSection({ product }: { product: GuideProduct }) {
             <a
               href={product.amazonUrl}
               target="_blank"
-              rel="nofollow sponsored noopener noreferrer"
+              rel="noopener noreferrer sponsored"
               className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90 transition-opacity w-fit mt-auto"
               style={{ background: "#FF9900" }}
             >
@@ -367,7 +367,7 @@ export default async function BestPrinterStandsWithFileDrawersPage() {
                       <a
                         href={products[i].amazonUrl}
                         target="_blank"
-                        rel="nofollow sponsored noopener noreferrer"
+                        rel="noopener noreferrer sponsored"
                         className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block"
                         style={{ background: "#FF9900" }}
                       >
@@ -384,24 +384,33 @@ export default async function BestPrinterStandsWithFileDrawersPage() {
         {/* Intro */}
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>
-            Printer stands with file drawers solve two problems at once: a
-            stable surface for your printer and active file storage below. All
-            eight picks have drawer formats suited for hanging letter or legal
-            files. Review counts and ratings are verified at time of
-            publication. For printer stands focused on general storage rather
-            than file hanging, see our{" "}
+            If you have both a printer and a pile of active documents with no
+            good place for either, a printer stand with file drawers is one of
+            the more space-efficient answers available. It puts the printer at a
+            workable height while giving you hanging file storage directly below,
+            in the same footprint. The result is a piece of furniture that earns
+            its floor space by doing two jobs instead of one.
+          </p>
+          <p>
+            The selection gets complicated fast. Not every rolling cabinet
+            actually supports hanging files: some listings say "file storage" but
+            mean open shelves sized for folders, not lateral hanging rails. The
+            drawer orientation matters too. A lateral drawer gives you a wider top
+            surface for your printer, while a vertical format is narrower but
+            taller and may crowd the printer to one side. If locking drawers are
+            important to you, that narrows the field further since most models at
+            this price do not include a lock.
+          </p>
+          <p>
+            This guide covers lateral, vertical, fabric, and locking options with
+            notes on which products explicitly confirm hanging file support. For
+            stands focused on general open storage rather than file hanging, see
+            our{" "}
             <Link
               href="/guide/best-printer-stands-with-storage"
               className="text-brand hover:underline"
             >
               best printer stands with storage
-            </Link>{" "}
-            guide. For rolling carts with more compartments, see our{" "}
-            <Link
-              href="/guide/best-rolling-carts-with-drawers"
-              className="text-brand hover:underline"
-            >
-              best rolling carts with drawers
             </Link>{" "}
             guide.
           </p>
@@ -633,7 +642,7 @@ export default async function BestPrinterStandsWithFileDrawersPage() {
           <a
             href="https://www.amazon.com/s?k=printer+stand+file+drawer+rolling+cabinet&tag=deskfinds0d-20"
             target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
+            rel="noopener noreferrer sponsored"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors"
             style={{ color: "#FF9900" }}
           >

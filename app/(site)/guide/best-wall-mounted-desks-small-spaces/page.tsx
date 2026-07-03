@@ -43,7 +43,7 @@ function ProductSection({ product }: { product: GuideProduct }) {
           <a
             href={product.amazonUrl}
             target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
+            rel="noopener noreferrer sponsored"
             className="shrink-0 flex items-center justify-center w-full sm:w-60 h-52 rounded-xl border border-border bg-gray-50 overflow-hidden hover:opacity-90 transition-opacity"
           >
             <Image
@@ -90,7 +90,7 @@ function ProductSection({ product }: { product: GuideProduct }) {
             <a
               href={product.amazonUrl}
               target="_blank"
-              rel="nofollow sponsored noopener noreferrer"
+              rel="noopener noreferrer sponsored"
               className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90 transition-opacity w-fit mt-auto"
               style={{ background: "#FF9900" }}
             >
@@ -375,7 +375,7 @@ export default async function BestWallMountedDesksSmallSpacesPage() {
                       <a
                         href={p.amazonUrl}
                         target="_blank"
-                        rel="nofollow sponsored noopener noreferrer"
+                        rel="noopener noreferrer sponsored"
                         className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block"
                         style={{ background: "#FF9900" }}
                       >
@@ -392,19 +392,32 @@ export default async function BestWallMountedDesksSmallSpacesPage() {
         {/* Intro */}
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>
-            Wall-mounted desks eliminate floor footprint by mounting directly to
-            the wall. Fold-down Murphy desks create zero floor presence when
-            closed. Ladder desks provide vertical storage in a narrow standing
-            footprint. This guide covers all three types, ranked by review
-            count. For other small space desk options, see our{" "}
-            <Link
-              href="/guide/small-desk-organization-ideas"
-              className="text-brand hover:underline"
-            >
-              small desk organization ideas
-            </Link>{" "}
-            guide. For desk shelving that does not require wall mounting, see
-            our{" "}
+            When a room is too small for a freestanding desk, a wall-mounted
+            option is often the only viable path. It is not primarily about
+            aesthetics or minimalism. It is about fitting a functional workspace
+            into a room where every square foot is already committed to something
+            else, whether that is a bedroom, a studio apartment, or a narrow
+            hallway nook. The decision you are making is which type of
+            wall-mounted desk fits how and when you actually work.
+          </p>
+          <p>
+            The most important distinction is between a fold-down desk and a
+            fixed floating desk. A fold-down desk folds flat against the wall
+            when not in use, recovering the full floor area at the end of the
+            workday. A fixed floating desk stays extended permanently and behaves
+            like a conventional desk that happens to be wall-mounted. The
+            fold-down option is the right choice for part-time use in a shared
+            room; the fixed option is better for a dedicated workspace where you
+            need permanent surface area. Beyond that, depth is frequently
+            overlooked: most fold-down desks are 11 to 14 inches deep when open,
+            which is enough for a laptop but tight for a monitor, keyboard, and
+            mouse together. And all of these products must be anchored into wall
+            studs, not just drywall.
+          </p>
+          <p>
+            This guide covers fold-down Murphy desks, fixed floating wall desks,
+            and ladder desks across different price points. For desk shelving
+            that does not require wall mounting, see our{" "}
             <Link
               href="/guide/best-over-desk-shelves"
               className="text-brand hover:underline"
@@ -671,7 +684,7 @@ export default async function BestWallMountedDesksSmallSpacesPage() {
           <a
             href="https://www.amazon.com/s?k=wall+mounted+desk+small+spaces&tag=deskfinds0d-20"
             target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
+            rel="noopener noreferrer sponsored"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors"
             style={{ color: "#FF9900" }}
           >

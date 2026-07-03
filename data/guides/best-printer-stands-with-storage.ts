@@ -2,8 +2,8 @@ const BASE = "/images/guides/best-printer-stands-with-storage";
 
 export const guideSlug = "best-printer-stands-with-storage";
 export const guideTitle = "8 Best Printer Stands with Storage (2026)";
-export const metaTitle = "Best Printer Stands with Storage (2026): Drawers, Rolling, and File Cabinet Options";
-export const metaDescription = "Find the best printer stands with drawers, shelves, and storage for your home office. Ranked by reviews and features. Rolling, wood-look, and file cabinet combos compared.";
+export const metaTitle = "Best Printer Stands with Storage (2026)";
+export const metaDescription = "Printer stands with drawers and storage for home offices. Rolling carts, wood-look cabinets, and file cabinet combos compared by features and price.";
 export const lastUpdated = "2026-07-03";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/hero.webp`;

@@ -1,10 +1,9 @@
 const BASE = "/images/guides/best-small-printer-stands";
 export const guideSlug = "best-small-printer-stands";
 export const guideTitle = "8 Best Small Printer Stands for Home Offices (2026)";
-export const metaTitle =
-  "Best Small Printer Stands for Home Offices (2026): Compact Options Ranked";
+export const metaTitle = "Best Small Printer Stands for Home Office (2026)";
 export const metaDescription =
-  "Find the best small printer stands for home offices. Compact 2-tier and 3-tier carts with exact dimensions, weight capacity, and power outlet options. Ranked by reviews.";
+  "Small printer stands for home offices compared by footprint, weight capacity, and built-in power outlet. Compact 2-tier and 3-tier options included.";
 export const lastUpdated = "2026-07-03";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/hero.webp`;

@@ -44,7 +44,7 @@ function ProductSection({ product }: { product: GuideProduct }) {
           <a
             href={product.amazonUrl}
             target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
+            rel="noopener noreferrer sponsored"
             className="shrink-0 flex items-center justify-center w-full sm:w-60 h-52 rounded-xl border border-border bg-gray-50 overflow-hidden hover:opacity-90 transition-opacity"
           >
             <Image
@@ -91,7 +91,7 @@ function ProductSection({ product }: { product: GuideProduct }) {
             <a
               href={product.amazonUrl}
               target="_blank"
-              rel="nofollow sponsored noopener noreferrer"
+              rel="noopener noreferrer sponsored"
               className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90 transition-opacity w-fit mt-auto"
               style={{ background: "#FF9900" }}
             >
@@ -371,7 +371,7 @@ export default async function BestSmallPrinterStandsPage() {
                       <a
                         href={products[i].amazonUrl}
                         target="_blank"
-                        rel="nofollow sponsored noopener noreferrer"
+                        rel="noopener noreferrer sponsored"
                         className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block"
                         style={{ background: "#FF9900" }}
                       >
@@ -388,24 +388,32 @@ export default async function BestSmallPrinterStandsPage() {
         {/* Intro */}
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>
-            Small printer stands keep the printer accessible without adding bulk
-            to a compact workspace. This guide covers 2-tier and 3-tier carts
-            under 23 inches wide, ranked by review count. Dimensions and weight
-            capacity are listed for each pick. For larger printer stand options
-            with file storage, see our{" "}
+            In a small home office or a shared room, a standard printer stand can
+            feel like too much furniture. You need the printer off your desk but
+            you do not have floor space to spare. A compact printer stand solves
+            this by keeping the printer accessible at the right height while
+            fitting in the gaps a larger cart cannot, such as beside a bookshelf,
+            in a closet corner, or at the end of a narrow desk run.
+          </p>
+          <p>
+            The size decision is less obvious than it looks. Width alone does not
+            tell the whole story: a 14-inch-wide cart might fit your footprint but
+            be too shallow front-to-back for a wide-format printer. Weight
+            capacity varies widely across compact models, which matters if you
+            have a laser printer rather than an inkjet. Some small stands include
+            built-in power outlets, which eliminates an extension cord from the
+            equation. Others are low-profile enough to slide under a desk entirely,
+            turning dead floor space into printer storage without adding height.
+          </p>
+          <p>
+            This guide covers 2-tier and 3-tier carts under 23 inches wide, with
+            dimensions and weight capacity listed for each pick. For larger
+            options with file drawer storage, see our{" "}
             <Link
               href="/guide/best-printer-stands-with-storage"
               className="text-brand hover:underline"
             >
               best printer stands with storage
-            </Link>{" "}
-            guide. For under-desk storage that pairs with any printer stand, see
-            our{" "}
-            <Link
-              href="/guide/best-under-desk-storage-drawers"
-              className="text-brand hover:underline"
-            >
-              best under desk storage drawers
             </Link>{" "}
             guide.
           </p>
@@ -658,7 +666,7 @@ export default async function BestSmallPrinterStandsPage() {
           <a
             href="https://www.amazon.com/s?k=small+printer+stand+home+office+2+tier&tag=deskfinds0d-20"
             target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
+            rel="noopener noreferrer sponsored"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors"
             style={{ color: "#FF9900" }}
           >

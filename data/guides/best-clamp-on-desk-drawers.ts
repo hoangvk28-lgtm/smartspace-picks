@@ -1,10 +1,9 @@
 const BASE = "/images/guides/best-clamp-on-desk-drawers";
 export const guideSlug = "best-clamp-on-desk-drawers";
 export const guideTitle = "8 Best Clamp-On Desk Drawers (2026)";
-export const metaTitle =
-  "Best Clamp-On Desk Drawers (2026): No-Drill, Swivel, and Keyboard Tray Options";
+export const metaTitle = "Best Clamp-On Desk Drawers (2026)";
 export const metaDescription =
-  "Find the best clamp-on desk drawers for home offices. No-drill storage drawers, 360-degree swivel options, keyboard tray combos, and sit-stand compatible picks ranked by reviews.";
+  "Clamp-on desk drawers compared for home offices. No-drill storage, 360-degree swivel options, keyboard tray combos, and sit-stand compatible picks.";
 export const lastUpdated = "2026-07-03";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/hero.webp`;

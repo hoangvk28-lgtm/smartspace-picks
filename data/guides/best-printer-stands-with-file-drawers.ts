@@ -2,8 +2,8 @@ const BASE = "/images/guides/best-printer-stands-with-file-drawers";
 
 export const guideSlug = "best-printer-stands-with-file-drawers";
 export const guideTitle = "8 Best Printer Stands with File Drawers (2026)";
-export const metaTitle = "Best Printer Stands with File Drawers (2026): Rolling File Cabinet Combos";
-export const metaDescription = "Need a printer stand that also holds hanging files? Compare the best printer stands with file drawers ranked by reviews. Lateral, vertical, fabric, and locking options.";
+export const metaTitle = "Best Printer Stands with File Drawers (2026)";
+export const metaDescription = "Need a printer stand that also holds hanging files? Compare lateral, vertical, fabric, and locking file drawer options for every home office setup.";
 export const lastUpdated = "2026-07-03";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/hero.webp`;

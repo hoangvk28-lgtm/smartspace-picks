@@ -43,7 +43,7 @@ function ProductSection({ product }: { product: GuideProduct }) {
           <a
             href={product.amazonUrl}
             target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
+            rel="noopener noreferrer sponsored"
             className="shrink-0 flex items-center justify-center w-full sm:w-60 h-52 rounded-xl border border-border bg-gray-50 overflow-hidden hover:opacity-90 transition-opacity"
           >
             <Image
@@ -90,7 +90,7 @@ function ProductSection({ product }: { product: GuideProduct }) {
             <a
               href={product.amazonUrl}
               target="_blank"
-              rel="nofollow sponsored noopener noreferrer"
+              rel="noopener noreferrer sponsored"
               className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90 transition-opacity w-fit mt-auto"
               style={{ background: "#FF9900" }}
             >
@@ -370,7 +370,7 @@ export default async function BestOverDeskShelvesPage() {
                       <a
                         href={p.amazonUrl}
                         target="_blank"
-                        rel="nofollow sponsored noopener noreferrer"
+                        rel="noopener noreferrer sponsored"
                         className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block"
                         style={{ background: "#FF9900" }}
                       >
@@ -387,23 +387,34 @@ export default async function BestOverDeskShelvesPage() {
         {/* Intro */}
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>
-            Over desk shelves attach to the desk edge via C-clamps, floating
-            above the surface without occupying any desk footprint. This guide
-            covers single-side clamp-on shelves, a desktop hutch, and a desk
-            extender. Products are ranked by review count. For shelves that sit
-            on the desk surface, see our{" "}
+            If your desk surface is full and there is no room for a riser or
+            bookshelf, an over desk shelf solves the problem differently. Instead
+            of sitting on top of the desk, these shelves clamp to the edge and
+            extend outward or hang above the surface, adding storage without
+            using any of the area you work on. That makes them one of the few
+            options that genuinely reclaims space rather than just reorganizing
+            it.
+          </p>
+          <p>
+            Two things catch buyers off guard. First, clamp compatibility: most
+            C-clamp shelves fit desk edges up to 1.5 to 2 inches thick, and many
+            modern desks, especially thick solid wood or standing desk frames,
+            sit outside that range. Check your desk edge thickness before buying.
+            Second, weight limits on wide shelves are often lower than expected.
+            The VIVO 30-inch wide shelf is rated at only 11 lbs per shelf despite
+            its size, which means it works for lightweight accessories but not
+            for a printer or stack of books. Width and capacity do not scale
+            together in this category.
+          </p>
+          <p>
+            This guide covers compact clamp-on shelves, a wide clamp-on option,
+            a desktop hutch, and a desk extender. For shelves that sit on the
+            desk surface rather than clamping to the edge, see our{" "}
             <Link
               href="/guide/best-desk-shelves-small-desks"
               className="text-brand hover:underline"
             >
               best desk shelves for small desks
-            </Link>{" "}
-            guide. For clamp-on drawers, see our{" "}
-            <Link
-              href="/guide/best-clamp-on-desk-drawers"
-              className="text-brand hover:underline"
-            >
-              best clamp-on desk drawers
             </Link>{" "}
             guide.
           </p>
@@ -663,7 +674,7 @@ export default async function BestOverDeskShelvesPage() {
           <a
             href="https://www.amazon.com/s?k=clamp+on+desk+shelf&tag=deskfinds0d-20"
             target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
+            rel="noopener noreferrer sponsored"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors"
             style={{ color: "#FF9900" }}
           >

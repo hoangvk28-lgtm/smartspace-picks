@@ -43,7 +43,7 @@ function ProductSection({ product }: { product: GuideProduct }) {
           <a
             href={product.amazonUrl}
             target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
+            rel="noopener noreferrer sponsored"
             className="shrink-0 flex items-center justify-center w-full sm:w-60 h-52 rounded-xl border border-border bg-gray-50 overflow-hidden hover:opacity-90 transition-opacity"
           >
             <Image
@@ -90,7 +90,7 @@ function ProductSection({ product }: { product: GuideProduct }) {
             <a
               href={product.amazonUrl}
               target="_blank"
-              rel="nofollow sponsored noopener noreferrer"
+              rel="noopener noreferrer sponsored"
               className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90 transition-opacity w-fit mt-auto"
               style={{ background: "#FF9900" }}
             >
@@ -371,7 +371,7 @@ export default async function BestRollingCartsHomeOfficePage() {
                       <a
                         href={product.amazonUrl}
                         target="_blank"
-                        rel="nofollow sponsored noopener noreferrer"
+                        rel="noopener noreferrer sponsored"
                         className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block"
                         style={{ background: "#FF9900" }}
                       >
@@ -388,12 +388,30 @@ export default async function BestRollingCartsHomeOfficePage() {
         {/* Intro */}
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>
-            Rolling carts are one of the most versatile home office storage
-            solutions: they move freely, support varied loads, and occupy no
-            fixed floor area. This guide covers metal utility carts, plastic
-            drawer carts, and a mobile file cabinet, ranked by review count.
-            Each has different weight capacities and storage formats. For
-            rolling carts with enclosed drawers specifically, see our{" "}
+            A rolling cart for a home office seems simple until you realize how
+            many different problems people are trying to solve with one. Some
+            need a printer stand that can also hold paper reams. Others want a
+            mobile supply station they can pull out from under the desk. Others
+            need something that moves between rooms without tipping. The product
+            category covers all of these, but any individual cart only solves
+            one or two of them well.
+          </p>
+          <p>
+            The most important variable is what you will actually put in or on
+            the cart and how heavy it will be. An open utility cart with wire
+            shelves handles a heavy printer on top but offers no concealed
+            storage. A cart with plastic drawers organizes small supplies well
+            but may flex under a 20-lb laser printer. Weight capacity and drawer
+            format are not interchangeable, and many listings blur the
+            distinction between the two. Lockable casters also vary: two locking
+            wheels are enough to keep a cart stationary during printing, but if
+            you need to park the cart permanently on uneven flooring, all four
+            matter.
+          </p>
+          <p>
+            This guide covers open utility carts, drawer carts, and a mobile
+            file cabinet across a range of sizes and price points. For carts
+            specifically designed for drawer storage, see our{" "}
             <Link
               href="/guide/best-rolling-carts-with-drawers"
               className="text-brand hover:underline"
@@ -664,7 +682,7 @@ export default async function BestRollingCartsHomeOfficePage() {
           <a
             href="https://www.amazon.com/s?k=rolling+cart+home+office+storage&tag=deskfinds0d-20"
             target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
+            rel="noopener noreferrer sponsored"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors"
             style={{ color: "#FF9900" }}
           >

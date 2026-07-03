@@ -43,7 +43,7 @@ function ProductSection({ product }: { product: GuideProduct }) {
           <a
             href={product.amazonUrl}
             target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
+            rel="noopener noreferrer sponsored"
             className="shrink-0 flex items-center justify-center w-full sm:w-60 h-52 rounded-xl border border-border bg-gray-50 overflow-hidden hover:opacity-90 transition-opacity"
           >
             <Image
@@ -90,7 +90,7 @@ function ProductSection({ product }: { product: GuideProduct }) {
             <a
               href={product.amazonUrl}
               target="_blank"
-              rel="nofollow sponsored noopener noreferrer"
+              rel="noopener noreferrer sponsored"
               className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90 transition-opacity w-fit mt-auto"
               style={{ background: "#FF9900" }}
             >
@@ -369,7 +369,7 @@ export default async function BestRollingCartsWithDrawersPage() {
                       <a
                         href={product.amazonUrl}
                         target="_blank"
-                        rel="nofollow sponsored noopener noreferrer"
+                        rel="noopener noreferrer sponsored"
                         className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block"
                         style={{ background: "#FF9900" }}
                       >
@@ -386,22 +386,34 @@ export default async function BestRollingCartsWithDrawersPage() {
         {/* Intro */}
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>
-            Rolling carts with drawers combine mobility with organized enclosed storage. This guide
-            covers clear-drawer carts, multi-drawer organizer carts, and hybrid open-plus-drawer
-            carts, ranked by review count. Each option differs in drawer count, capacity, and
-            material. For open-shelf utility carts, see our{" "}
+            If your home office desk has accumulated a collection of loose
+            supplies with no good place to put them, a rolling cart with drawers
+            is one of the most practical fixes. It stores the things you reach
+            for regularly, keeps them out of sight, and moves out of the way
+            when you need floor space. The decision is about finding the right
+            drawer format for what you actually need to store, not just picking
+            the most popular option.
+          </p>
+          <p>
+            The number of drawers and their depth matter more than most people
+            expect. A 10-drawer cart gives you more categories but each
+            compartment is shallow, which works for pens, sticky notes, and
+            small office supplies but not for notebooks, cables, or anything
+            bulky. A 4-drawer cart with deeper drawers handles a wider range of
+            item sizes but requires more discipline to stay organized. Clear
+            drawers versus opaque is also a real choice: clear lets you find
+            things at a glance, opaque looks cleaner but means opening drawers
+            to locate items. Neither is objectively better.
+          </p>
+          <p>
+            This guide covers clear-drawer carts, multi-drawer organizer carts,
+            and hybrid open-plus-drawer carts. For open-shelf utility carts that
+            prioritize load capacity over storage organization, see our{" "}
             <Link
               href="/guide/best-rolling-carts-home-office"
               className="text-brand hover:underline"
             >
               best rolling carts for home offices
-            </Link>{" "}
-            guide. For printer stand options with rolling storage, see our{" "}
-            <Link
-              href="/guide/best-printer-stands-with-storage"
-              className="text-brand hover:underline"
-            >
-              best printer stands with storage
             </Link>{" "}
             guide.
           </p>
@@ -637,7 +649,7 @@ export default async function BestRollingCartsWithDrawersPage() {
           <a
             href="https://www.amazon.com/s?k=rolling+cart+with+drawers+home+office&tag=deskfinds0d-20"
             target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
+            rel="noopener noreferrer sponsored"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors"
             style={{ color: "#FF9900" }}
           >

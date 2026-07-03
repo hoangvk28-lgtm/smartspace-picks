@@ -1,10 +1,9 @@
 const BASE = "/images/guides/best-rolling-carts-home-office";
 export const guideSlug = "best-rolling-carts-home-office";
 export const guideTitle = "8 Best Rolling Carts for Home Offices (2026)";
-export const metaTitle =
-  "Best Rolling Carts for Home Offices (2026): Utility, Drawer, and Storage Options";
+export const metaTitle = "Best Rolling Carts for Home Offices (2026)";
 export const metaDescription =
-  "Find the best rolling carts for home offices. Metal utility carts, plastic drawer carts, and mobile file cabinets ranked by reviews. Weight capacity and caster type compared.";
+  "Find the best rolling carts for home offices. Metal utility carts, plastic drawer carts, and mobile file cabinets compared by weight capacity and caster type.";
 export const lastUpdated = "2026-07-03";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/hero.webp`;

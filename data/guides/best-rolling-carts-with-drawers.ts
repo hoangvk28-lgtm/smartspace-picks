@@ -2,10 +2,9 @@ const BASE = "/images/guides/best-rolling-carts-with-drawers";
 
 export const guideSlug = "best-rolling-carts-with-drawers";
 export const guideTitle = "8 Best Rolling Carts with Drawers (2026)";
-export const metaTitle =
-  "Best Rolling Carts with Drawers (2026): Clear, Multi-Drawer, and Heavy Duty Options";
+export const metaTitle = "Best Rolling Carts with Drawers (2026)";
 export const metaDescription =
-  "Find the best rolling carts with drawers for home offices. Clear drawer, 4-drawer, 10-drawer, and metal frame options compared by reviews, weight capacity, and features.";
+  "Rolling carts with drawers compared for home offices. Clear drawer, 4-drawer, 10-drawer, and metal frame options evaluated by weight capacity and drawer depth.";
 export const lastUpdated = "2026-07-03";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/hero.webp`;

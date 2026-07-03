@@ -1,10 +1,9 @@
 const BASE = "/images/guides/best-under-desk-storage-drawers";
 export const guideSlug = "best-under-desk-storage-drawers";
 export const guideTitle = "8 Best Under Desk Storage Drawers (2026)";
-export const metaTitle =
-  "Best Under Desk Storage Drawers (2026): Adhesive, Clamp-On, and Lockable Picks";
+export const metaTitle = "Best Under Desk Storage Drawers (2026)";
 export const metaDescription =
-  "Find the best under desk drawers for home offices. Adhesive, clamp-on, and bracket-mount options compared by reviews. No-drill and renter-friendly picks included.";
+  "Under desk storage drawers compared by installation method: adhesive, clamp-on, and bracket-mount. No-drill and renter-friendly picks for home offices included.";
 export const lastUpdated = "2026-07-03";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/hero.webp`;

@@ -44,7 +44,7 @@ function ProductSection({ product }: { product: GuideProduct }) {
           <a
             href={product.amazonUrl}
             target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
+            rel="noopener noreferrer sponsored"
             className="shrink-0 flex items-center justify-center w-full sm:w-60 h-52 rounded-xl border border-border bg-gray-50 overflow-hidden hover:opacity-90 transition-opacity"
           >
             <Image
@@ -91,7 +91,7 @@ function ProductSection({ product }: { product: GuideProduct }) {
             <a
               href={product.amazonUrl}
               target="_blank"
-              rel="nofollow sponsored noopener noreferrer"
+              rel="noopener noreferrer sponsored"
               className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90 transition-opacity w-fit mt-auto"
               style={{ background: "#FF9900" }}
             >
@@ -371,7 +371,7 @@ export default async function BestUnderDeskStorageDrawersPage() {
                       <a
                         href={products[i].amazonUrl}
                         target="_blank"
-                        rel="nofollow sponsored noopener noreferrer"
+                        rel="noopener noreferrer sponsored"
                         className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block"
                         style={{ background: "#FF9900" }}
                       >
@@ -388,31 +388,34 @@ export default async function BestUnderDeskStorageDrawersPage() {
         {/* Intro */}
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>
-            Under desk storage drawers add hidden compartment space below the
-            desk surface without taking up floor or desktop area. This guide
-            covers adhesive, clamp-on, and bracket-mount options ranked by
-            review count and rating. Installation requirements differ by type.
-            For clamp-on drawers specifically, see our{" "}
+            Most desks are sold without drawers, which means pens, charging
+            cables, sticky notes, USB drives, and small accessories end up either
+            on the desk surface or scattered across the room. Under-desk storage
+            drawers reclaim the dead space between your desk surface and the
+            floor. They mount to the underside of the desk and pull out when you
+            need them, leaving the top clear and the floor below completely open.
+          </p>
+          <p>
+            The mounting method is the decision that matters most and it is the
+            one most buyers overlook. Adhesive drawers require a smooth, flat
+            underside with no texture or paint irregularities, otherwise they fall.
+            Clamp-on drawers grip the desk edge and can be moved or removed
+            without any damage, which makes them the right choice for renters or
+            anyone not sure about placement. Bracket-mount drawers screw into the
+            underside for the most secure hold but leave holes behind. Each type
+            also has a different weight limit, and most adhesive options max out
+            around 5 to 8 pounds, which covers small accessories but not anything
+            heavy.
+          </p>
+          <p>
+            This guide covers all three mounting types with notes on surface
+            requirements and weight limits for each pick. If you specifically
+            want a clamp-on drawer without any adhesive, see our{" "}
             <Link
               href="/guide/best-clamp-on-desk-drawers"
               className="text-brand hover:underline"
             >
               best clamp-on desk drawers
-            </Link>{" "}
-            guide. For desk-level cable routing that pairs with under-desk
-            storage, see our{" "}
-            <Link
-              href="/guide/under-desk-cable-management"
-              className="text-brand hover:underline"
-            >
-              under desk cable management
-            </Link>{" "}
-            guide. For general desk organization ideas, see our{" "}
-            <Link
-              href="/guide/small-desk-organization-ideas"
-              className="text-brand hover:underline"
-            >
-              small desk organization ideas
             </Link>{" "}
             guide.
           </p>
@@ -665,7 +668,7 @@ export default async function BestUnderDeskStorageDrawersPage() {
           <a
             href="https://www.amazon.com/s?k=under+desk+storage+drawer+home+office&tag=deskfinds0d-20"
             target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
+            rel="noopener noreferrer sponsored"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors"
             style={{ color: "#FF9900" }}
           >
