@@ -318,7 +318,8 @@ export default async function BestComputerDeskWithHutchPage() {
           <p>
             Open hutch configurations (shelves only) suit items you reach for frequently: reference books, speakers, headphones. Closed hutch configurations (cabinet doors over shelves) suit items you want hidden but accessible: charging cables, paper stock, storage boxes. Many designs offer a combination. If the primary use case is document storage, a{" "}
             <Link href="/guide/best-wooden-desk-with-drawers" className="text-brand hover:underline">wooden desk with drawers</Link>{" "}
-            may serve better than an overhead hutch.
+            may serve better than an overhead hutch. For standalone desk shelf options that add vertical storage without replacing your current desk, see our guide to{" "}
+            <Link href="/guide/best-desk-shelves-small-desks" className="text-brand hover:underline">desk shelves</Link>.
           </p>
         </section>
 

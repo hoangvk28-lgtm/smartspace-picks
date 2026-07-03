@@ -423,6 +423,13 @@ export default async function BestSolidWoodDesksPage() {
               desk mat
             </Link>{" "}
             extends the life of any real wood finish considerably.
+            To add vertical storage above a solid wood desk without drilling into the surface, see our guide to{" "}
+            <Link
+              href="/guide/best-over-desk-shelves"
+              className="text-brand hover:underline"
+            >
+              over-desk clamp-on shelves
+            </Link>.
           </p>
         </section>
 

@@ -401,6 +401,13 @@ export default async function BestStandingDeskWithDrawersPage() {
             this list use built-in frame-integrated drawers that rise and fall
             with the desk surface. A mobile pedestal placed under the desk stays
             on the floor when you stand - that is a different product category.
+            For add-on drawer options that attach to any desk, see our guide to{" "}
+            <Link
+              href="/guide/best-under-desk-storage-drawers"
+              className="text-brand hover:underline"
+            >
+              under-desk storage drawers
+            </Link>.
             For a comparison of the full FlexiSpot lineup including the Comhar,
             see our guide to{" "}
             <Link

@@ -1,4 +1,5 @@
 ﻿import type { Metadata } from "next";
+import Link from "next/link";
 import Image from "next/image";
 import { Container } from "@/components/layout/Container";
 import { buildMetadata, SITE_URL } from "@/lib/seo";
@@ -183,6 +184,13 @@ export default async function BestUnderDeskCableTraysPage() {
           </p>
           <p>
             This guide covers 10 cable trays from $12 to $310, organized by budget tier. Whether you are renting (no drilling allowed), using a glass desk, running 20+ cables from a standing desk, or just want the cheapest option that works - there is a specific recommendation below.
+            If you also want to add concealed storage under the desk surface, see our guide to{" "}
+            <Link
+              href="/guide/best-clamp-on-desk-drawers"
+              className="text-brand hover:underline"
+            >
+              clamp-on desk drawers
+            </Link>.
           </p>
         </section>
 

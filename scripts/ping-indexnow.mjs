@@ -117,6 +117,17 @@ const guideSlugs = [
   "best-solid-wood-file-cabinets",
   "best-vintage-wood-file-cabinets",
   "best-3-and-4-drawer-wood-file-cabinets",
+  // Printer stands and storage (added 2026-07-03)
+  "best-printer-stands-with-storage",
+  "best-printer-stands-with-file-drawers",
+  "best-small-printer-stands",
+  "best-under-desk-storage-drawers",
+  "best-clamp-on-desk-drawers",
+  "best-rolling-carts-home-office",
+  "best-rolling-carts-with-drawers",
+  "best-desk-shelves-small-desks",
+  "best-over-desk-shelves",
+  "best-wall-mounted-desks-small-spaces",
   // Info guides
   "standard-desk-height",
   "ergonomic-chair-vs-gaming-chair",

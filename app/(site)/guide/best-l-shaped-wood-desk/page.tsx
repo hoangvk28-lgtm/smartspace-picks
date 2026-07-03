@@ -267,6 +267,9 @@ export default async function BestLShapedWoodDeskPage() {
             covers the verified hardwood options. For standing desk configurations, the{" "}
             <Link href="/guide/best-solid-wood-standing-desk" className="text-brand hover:underline">solid wood standing desk guide</Link>{" "}
             covers motorized L-shaped options with real wood tops.
+            For rooms too small for an L-shaped desk, the{" "}
+            <Link href="/guide/best-wall-mounted-desks-small-spaces" className="text-brand hover:underline">wall-mounted desks for small spaces</Link>{" "}
+            guide covers fold-down and floating wall desk options.
           </p>
         </section>
 

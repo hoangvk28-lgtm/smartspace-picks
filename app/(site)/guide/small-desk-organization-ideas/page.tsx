@@ -238,7 +238,8 @@ export default async function SmallDeskOrganizationIdeasPage() {
                 <strong className="text-ink">Core idea:</strong> Your desk surface is limited. The air above it isn&apos;t. Every inch of vertical space you use is an inch of desktop you reclaim.
               </p>
               <p className="text-sm text-ink-secondary leading-relaxed mb-4">
-                Instead of spreading supplies horizontally across the desk, stack them vertically using risers, shelves, or wall-mounted storage. The goal is a desk surface that holds only your active work tools - laptop, keyboard, mouse - while everything else lives above or beside.
+                Instead of spreading supplies horizontally across the desk, stack them vertically using risers, shelves, or wall-mounted storage. The goal is a desk surface that holds only your active work tools - laptop, keyboard, mouse - while everything else lives above or beside. For a full comparison of riser and organizer options by footprint, see our guide to{" "}
+                <Link href="/guide/best-desk-shelves-small-desks" className="text-brand hover:underline">desk shelves for small desks</Link>.
               </p>
               <div className="space-y-3">
                 {methodProducts(1).map((p) => <ProductCard key={p.id} product={p} />)}
