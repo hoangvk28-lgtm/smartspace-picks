@@ -268,6 +268,15 @@ Every `/guide/[slug]` page must include (in order):
 - No marketing superlatives without specific backing ("the best" must be qualified)
 - Use "DeskFinds" as the brand name — never "Desk Finds" (two words) or "deskfinds" (all lowercase)
 
+### "About this pick" Product Description Rules (GuideProduct.description)
+- **Always split into 2 paragraphs** using `\n\n` as separator — never write one long block of text
+- First paragraph: 2-3 sentences covering the main feature or design approach
+- Second paragraph: 2-3 sentences covering tradeoffs, use-case fit, or secondary details
+- 4-6 sentences total per product description
+- Do NOT mention review count, purchase volume, or popularity signals ("most reviewed", "ranked by reviews")
+- Do NOT use em dash or en dash anywhere in descriptions
+- The `description` field is rendered by splitting on `\n\n` — each segment becomes a separate `<p>` tag in the UI
+
 ---
 
 ## 8. Scoring Rules
