@@ -39,7 +39,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/iris-usa-4-drawer.webp`,
     amazonUrl: "https://www.amazon.com/dp/B07Q4FHWV9?tag=deskfinds0d-20",
     description:
-      "7,851 reviews at 4.6 stars is the most validated rolling cart with drawers in this roundup. Clear drawers show contents without opening. A divided top tray adds an extra organized compartment. Made in USA is a quality signal. Removable casters allow use as a stationary unit.",
+      "Four clear plastic drawers let you see exactly what is stored in each compartment without pulling them open, which saves time when multiple drawers hold similar-looking supplies like pens, cables, and sticky notes. A divided top tray adds a fifth open storage zone for items you reach for constantly, such as scissors or a stapler, so they stay accessible without taking up drawer space. The casters are removable, meaning the cart can be locked into a corner permanently without rolling underfoot if your workspace does not require it to move. Made in the USA, which is relevant for buyers who prefer domestically manufactured products as a proxy for material consistency and quality control. At roughly $34, this sits in the mid-range for a four-drawer plastic cart, making it a reasonable choice for a home office that needs organized small-supply storage at desk level.",
     specs: ["4 drawers", "Clear drawers", "Made in USA", "Divided top"],
     pros: [
       "7,851 reviews at 4.6 stars most validated in roundup",
@@ -66,7 +66,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/homz-3-tier-clear.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0823H3Z95?tag=deskfinds0d-20",
     description:
-      "360-degree casters allow movement in any direction, useful in tight spaces and corners. Clear drawers identify contents without opening. 7,224 reviews at 4.6 stars is strong validation. Removable casters offer a stationary option.",
+      "Standard rolling carts only roll forward and backward, but this model uses 360-degree swivel casters that let you pull the cart sideways or diagonally out of a tight corner without repositioning yourself. This is particularly useful in compact home offices or closet setups where there is not enough clearance to roll a cart straight out. Three clear drawers allow you to identify contents at a glance from any angle, which is helpful when the cart is stored beside or under a desk at low eye level. The casters detach completely if you decide to convert the cart to a stationary unit once it is placed in a permanent spot. At roughly $50, you are paying a premium over the four-drawer IRIS USA model for fewer drawers, so this cart suits buyers who specifically need omnidirectional mobility more than storage volume.",
     specs: ["360-degree casters", "Clear drawers", "Removable casters", "3 drawers"],
     pros: [
       "360-degree casters for corner and tight space maneuverability",
@@ -93,7 +93,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/iris-usa-10-drawer.webp`,
     amazonUrl: "https://www.amazon.com/dp/B08S9RLZXC?tag=deskfinds0d-20",
     description:
-      "Ten drawers allow maximum category separation for a large variety of small supplies. Drawer stops prevent accidental full removal. Clear drawers identify contents from any of 10 compartments at a glance. Made in USA. Best for buyers managing many different small item types.",
+      "Ten individual clear drawers allow you to assign one drawer per supply category, which is useful for workers who manage a wide variety of small items such as different colored pens, binder clips, push pins, USB adapters, batteries, and tape, each in its own compartment. Built-in drawer stops prevent any drawer from being accidentally pulled completely out of the frame, which matters in a cart this tall where a falling drawer of small parts would scatter across the floor. Each drawer is shallow by design so that items do not pile on top of each other and get buried, making it easier to spot what you need quickly. Made in the USA using the same brand as the four-drawer version, so material quality is consistent. The tradeoff is that at roughly $63 this is the highest-priced dedicated drawer cart in this guide, and buyers who only need to store a few supply types will not use most of the compartments.",
     specs: ["10 drawers", "Clear drawers", "Drawer stops", "Made in USA"],
     pros: [
       "10 drawers maximum supply category separation",
@@ -120,7 +120,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/goovilla-hybrid.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0DNFB8FHD?tag=deskfinds0d-20",
     description:
-      "124-lb capacity is the highest in this roundup. At $23.99 it is also the lowest-priced option. A removable drawer plus open shelves combines concealed and open storage. Side cups and hooks extend accessory organization.",
+      "This three-tier cart has one removable drawer for concealed storage and two open shelves that can bear significant weight, rated to 124 pounds total, which is enough to support a full-size inkjet or laser printer on the top shelf without flexing. Side-mounted cups hold pens or scissors, and the included hooks can hold headphones, a bag, or charging cables along the frame exterior, turning the side of the cart into usable vertical storage. The design combines a hybrid approach: the single drawer conceals small items you do not want visible while the open shelves keep larger items accessible without having to open anything. At roughly $24 this is among the lowest-priced options in this guide. The main tradeoff is that only one drawer is included, so buyers who need to separate multiple categories of small supplies will find the storage options limited compared to four-drawer or ten-drawer alternatives.",
     specs: ["124 lbs capacity", "Removable drawer", "Cups and hooks", "$23.99"],
     pros: [
       "Lowest price at $23.99",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/sunally-waterproof.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0D34HFHZH?tag=deskfinds0d-20",
     description:
-      "Waterproof polypropylene construction is relevant for home offices in humid environments or near water sources. 124-lb capacity matches the Goovilla. At $22.99 it is the lowest-priced option in this roundup. 1,971 reviews at 4.5 stars.",
+      "The frame and shelves are made from polypropylene, a plastic known for resisting moisture without warping or degrading, which makes this cart appropriate for home offices in humid climates, basement workspaces, or rooms adjacent to kitchens and bathrooms where a standard particle-board cart would eventually absorb moisture and weaken. The 124-pound weight capacity matches heavier-duty carts in this guide and can support a printer or other heavy equipment on the top shelf. One removable drawer handles small concealed storage while two open shelves manage larger items. At roughly $23 this is one of the most affordable options in the guide. Buyers who do not have a moisture concern and need more drawers will find the Goovilla or IRIS USA options better suited to pure office-supply organization.",
     specs: ["Waterproof PP", "124 lbs", "3 tiers", "$22.99"],
     pros: [
       "Lowest price at $22.99",
@@ -174,7 +174,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/yasonic-mesh-baskets.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CRGNKHVW?tag=deskfinds0d-20",
     description:
-      "4.7 stars is the highest rating in this roundup. Open mesh baskets provide immediate access without drawers. 66-lb capacity per shelf is 3x the standard 22-lb rating. Cups and hooks are included. Note: this is open mesh storage, not enclosed drawers.",
+      "This cart uses open metal mesh baskets instead of enclosed drawers, meaning items placed inside are visible and accessible from all sides without needing to pull anything open, which suits buyers who prefer fast grab-and-go access over organized concealed storage. The metal frame and mesh construction make it considerably sturdier than the plastic drawer carts in this guide, and the per-shelf weight capacity of 66 pounds is roughly three times higher than typical plastic carts rated around 22 pounds per shelf. Side-mounted cups and hooks come included for storing pens, scissors, or accessories on the exterior of the cart frame. The important distinction to understand before buying is that the baskets are not drawers: items are not hidden from view and will not be contained if the cart tips or if small items slip through the mesh openings. Buyers who want enclosed drawer storage for small loose supplies should choose a different option in this guide.",
     specs: ["4.7 stars", "66 lbs per shelf", "Mesh baskets", "Cups and hooks"],
     pros: [
       "4.7 stars highest rating in roundup",
@@ -201,7 +201,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/aokitsink-wood-top.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0FDB2H7LD?tag=deskfinds0d-20",
     description:
-      "The only rolling cart in this roundup with a wood top surface. 150 lbs is the highest capacity here, more than enough for any home office printer. Metal frame with diamond mesh drawers is a distinct aesthetic. 267 reviews at 4.4 stars is limited validation for the price.",
+      "This cart combines a steel frame with a wood-finished top surface, which allows it to sit next to a wood desk or credenza without the visual mismatch that an all-plastic or all-metal cart would create in a furnished home office. The four drawers use a diamond mesh pattern rather than solid or clear panels, giving them an industrial aesthetic while still providing some visibility of larger items inside. The 150-pound weight capacity is the highest among all carts in this guide and can support heavy equipment including wide-format printers or stacked binders without stressing the frame. At roughly $60, the premium over the plastic four-drawer alternatives reflects the wood top and metal construction rather than additional compartmentalization. Buyers should note that the wood surface requires care around moisture and should not be left wet, and the relatively small number of purchasers means less real-world feedback on long-term durability compared to the more established options in this guide.",
     specs: ["Wood top", "150 lbs", "4 drawers", "Metal frame"],
     pros: [
       "Only wood top in roundup for desk matching",
@@ -228,7 +228,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/costway-10-drawer.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0BN4YD7M4?tag=deskfinds0d-20",
     description:
-      "Rainbow color option is unique in this category and suited for creative workspaces, art studios, or children homework stations. Galvanized metal construction resists rust. Removable individual drawers per compartment. The IRIS USA 10-drawer has 17x more reviews at a similar price.",
+      "This ten-drawer metal cart is offered in a rainbow color variant where each drawer is a different color, making it visually distinct from every other cart in this guide and suited for creative workspaces, art studios, children's homework areas, or craft rooms where color-coding storage by drawer is genuinely useful rather than purely decorative. The frame is made from galvanized steel, which resists rust better than standard untreated metal and is appropriate for slightly damp environments like garages or craft rooms. Individual drawers are removable so you can take an entire drawer to your workspace rather than bringing the whole cart. At roughly $50, this competes on price with the IRIS USA ten-drawer but uses opaque drawers instead of clear ones, meaning you cannot see the contents without opening each compartment. Buyers who work in neutral or minimalist home office spaces will likely prefer the clear-drawer alternatives, while buyers in creative or colorful environments will find the rainbow variant a practical aesthetic choice.",
     specs: ["10 drawers", "Rainbow color option", "Galvanized metal", "Removable drawers"],
     pros: [
       "Rainbow color option unique in this category",

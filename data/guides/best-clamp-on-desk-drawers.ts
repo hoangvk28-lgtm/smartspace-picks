@@ -38,7 +38,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/vivo-keyboard-tray-27.webp`,
     amazonUrl: "https://www.amazon.com/dp/B07HFDJCSL?tag=deskfinds0d-20",
     description:
-      "13,973 reviews at 4.4 stars is by far the strongest trust signal in this roundup. It repositions the keyboard ergonomically below desk height while a pencil drawer adds storage. Frees the entire desk surface of keyboard and mouse. A C-clamp mount requires no drilling.",
+      "This keyboard tray mounts under the desk via a C-clamp and slides out on a retractable arm, dropping the keyboard to a position below desk surface height so your wrists sit at a more neutral angle during long typing sessions. The 27-inch platform is wide enough to hold a full-size keyboard and a mouse side by side without crowding either. A shallow pencil drawer is built into the front edge of the platform, giving you a place for pens, sticky notes, and small supplies without taking up any space on the desk itself. Because the clamp mechanism attaches to the desk edge without drilling, the tray can be removed and reinstalled if you move or switch desks. This product is primarily a keyboard positioning tool with bonus storage, not a general-purpose under-desk drawer, so buyers expecting large compartments should look at pure storage options instead.",
     specs: ["27 inch platform", "C-clamp mount", "Pencil drawer", "Ergonomic tilt"],
     pros: [
       "13,973 reviews at 4.4 stars strongest trust signal by far",
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/bontec-keyboard-tray.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0D3F13YC4?tag=deskfinds0d-20",
     description:
-      "5,492 reviews at 4.4 stars makes this the second most validated keyboard tray combo in this roundup. At 25.6 inches it is slightly narrower than the VIVO, making it a better fit for smaller desks. Same price as VIVO with comparable features.",
+      "The BONTEC keyboard tray installs under the desk using a C-clamp that grips the desk edge without any screws or adhesives, making it a practical option for renters or anyone who cannot modify their furniture. The sliding platform measures 25.6 inches wide and 11.8 inches deep, which fits a compact or tenkeyless keyboard alongside a mouse without the overhanging footprint that a larger 27-inch model creates. Like the VIVO tray, it positions the keyboard below desk surface level to reduce shoulder and wrist strain during long work sessions. A small pencil drawer is integrated into the platform for storing pens, paper clips, or charging cables. Buyers with a narrower desk or a workstation where side clearance is limited will find this footprint more manageable than wider alternatives at the same price point.",
     specs: ["25.6 inch platform", "C-clamp mount", "Ergonomic", "Pencil drawer"],
     pros: [
       "5,492 reviews at 4.4 stars strong validation",
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/homeify-2-drawer-clamp.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0BR4K8HCZ?tag=deskfinds0d-20",
     description:
-      "The most reviewed pure clamp-on storage drawer in this roundup at 889 reviews. A patent-pending clamp design attaches without drilling. Two separate slide-out drawers let you organize by category. Good renter-friendly option with no surface modification required.",
+      "The Homeify attaches underneath a desk via a patent-pending clamp mechanism that grips the desk edge without drilling, adhesive, or any permanent modification to the surface. Two separate slide-out mesh drawers hang below the desk, each independently accessible, so you can keep categories of items separated, for example charging cables in one compartment and stationery in the other. The metal mesh construction keeps the unit lightweight while still allowing air circulation around stored items. This is a pure storage solution, meaning the entire desk surface stays free for work rather than holding a keyboard tray arm. The shallow drawer depth is suited to flat or lightweight items like notepads, USB drives, and small tools, and is not designed to hold thick binders or heavy equipment.",
     specs: ["2 drawers", "Clamp-on", "No drill", "Patent-pending clamp"],
     pros: [
       "889 reviews most reviewed pure clamp drawer",
@@ -118,7 +118,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/euyona-360-swivel.webp`,
     amazonUrl: "https://www.amazon.com/dp/B09ZHH2M44?tag=deskfinds0d-20",
     description:
-      "4.6 stars is the highest rating among pure storage drawers in this roundup. A 360-degree swivel allows the drawer to rotate to any orientation, useful for corner desks or angled sitting positions. Metal mesh construction. No drilling required.",
+      "The Euyona clamps to the underside of a desk edge via a C-clamp and incorporates a 360-degree swivel joint between the clamp arm and the drawer body, so the drawer can be rotated to face any direction once mounted. This matters most on corner desks where the user sits at an angle to the desk edge, or in shared workspaces where two people approach the desk from different sides. The drawer itself is made from metal mesh, which keeps it light and ventilated while holding small office supplies. No drilling is required, and the clamp releases cleanly if you need to relocate the unit. The single rotating tray offers less total storage volume than a two-drawer model, so buyers who need to separate items by category may prefer a fixed multi-drawer alternative instead.",
     specs: ["360-degree swivel", "C-clamp", "Mesh metal", "No drill"],
     pros: [
       "4.6 stars highest rating in pure drawer category",
@@ -145,7 +145,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/vivo-corner-system.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CLWRNCS5?tag=deskfinds0d-20",
     description:
-      "A 3-level corner storage concept from VIVO. At 3.9 stars from 108 reviews, both the rating and sample size are insufficient for confident purchase. Included here for completeness. Verify current reviews on Amazon before purchasing.",
+      "The VIVO Corner system is designed for L-shaped or corner desks where a standard straight clamp-on drawer would not span the angled junction of the two desk surfaces. It uses a clamp mount and provides three vertical levels of storage, combining a drawer compartment with open shelving tiers, so you can store both concealed and visible items in a single unit. The combination of engineered wood shelves and a steel frame gives it a sturdier appearance than all-plastic alternatives. At $79.99 it is the most expensive option in this roundup by a notable margin, which makes it difficult to justify without greater confidence in its long-term performance. Buyers considering this product should check the current review status on Amazon before purchasing, as the sample size at time of writing is not yet large enough to draw reliable conclusions about durability.",
     specs: ["3-level", "Corner design", "VIVO brand", "Engineered wood"],
     pros: [
       "3-level corner storage concept unique in roundup",
@@ -171,7 +171,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/vivo-22-sit-stand.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CBW85DDN?tag=deskfinds0d-20",
     description:
-      "The only pure storage drawer in this roundup explicitly rated as sit-stand compatible. Standard clamp-on drawers can loosen through height adjustment cycles. This alloy steel option is designed to maintain grip. 22-inch width provides more storage area than narrower alternatives.",
+      "Sit-stand desks rise and lower multiple times per day, and the repeated vibration and movement of those height changes can cause a standard clamp to gradually lose its grip and allow the drawer to shift or drop. This VIVO drawer is built from alloy steel and is explicitly rated as sit-stand compatible, meaning the clamp system is engineered to maintain consistent tension through repeated adjustment cycles rather than loosening over time. The 22-inch width gives it a larger storage footprint than narrower clamp drawers, making it practical for storing notepads, accessories, and documents side by side. Because it is a pure storage drawer rather than a keyboard tray, it does not require lap clearance when in use. The $69.99 price is higher than most other clamp drawers in this category, which is a meaningful tradeoff for buyers whose desks stay stationary and do not actually need sit-stand certification.",
     specs: ["Sit-stand compatible", "22 inch width", "Alloy steel", "C-clamp"],
     pros: [
       "Only product explicitly rated for sit-stand desks",
@@ -198,7 +198,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/inldy-adjustable-clamp.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CJDS9JZ8?tag=deskfinds0d-20",
     description:
-      "At $24.99, this is the lowest-priced pure clamp drawer in this roundup. An adjustable jaw may accommodate more desk thickness ranges than fixed-jaw alternatives. No drilling required. 66 reviews at 4.4 stars is a limited but positive early signal.",
+      "The INLDY uses an adjustable C-clamp jaw, meaning the clamp opening can be widened or narrowed to fit a range of desk thicknesses rather than being fixed to a single size, which makes it more likely to work on desks with unusually thick tops or non-standard profiles. The drawer body is made from metal mesh, keeping the weight low and ensuring the unit does not add significant load to the desk edge. At $24.99 it is the least expensive pure storage drawer in this roundup, making it a reasonable starting point for buyers who want to try a clamp-on drawer without committing to a higher-priced option. No drilling or adhesive is needed, so removal and reinstallation is straightforward. The single drawer offers a single compartment, and buyers who need to separate items by type will find a two-drawer model more practical for their needs.",
     specs: ["Adjustable clamp", "No drill", "Mesh metal", "$24.99"],
     pros: [
       "Lowest price among pure clamp drawers at $24.99",
@@ -224,7 +224,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/rhblme-360-swivel.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0C3YPYGKM?tag=deskfinds0d-20",
     description:
-      "Same 360-degree swivel concept as the Euyona at a lower price. Metal mesh construction. At 54 reviews, there is insufficient data to evaluate quality reliably. Listed here for completeness. The Euyona at $28.49 with 446 reviews is a more validated swivel choice.",
+      "The RHBLME shares the same core concept as the Euyona: a C-clamp mount paired with a 360-degree rotating joint so the drawer can be angled to face any direction after installation. The drawer tray is made from metal mesh and is shallow enough to hold typical desk accessories like pens, cable ties, and adhesive notes without adding significant weight to the clamp. At $24.99 it costs less than the Euyona, which makes it appealing for buyers on a tighter budget who still want swivel functionality. The swivel mechanism adds a point of mechanical complexity that a fixed-position drawer does not have, so buyers who do not specifically need rotation may find a simpler fixed drawer more reliable over time. The limited buyer data available at time of writing means the long-term durability of the swivel joint is harder to assess compared to options with a larger field history.",
     specs: ["360-degree swivel", "C-clamp", "Metal mesh", "No drill"],
     pros: [
       "Same 360-degree swivel concept as Euyona at lower price",

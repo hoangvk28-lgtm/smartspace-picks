@@ -38,7 +38,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/simple-houseware-3-tier.webp`,
     amazonUrl: "https://www.amazon.com/dp/B081KBXT5N?tag=deskfinds0d-20",
     description:
-      "32,107 reviews at 4.7 stars is the most validated rolling cart in this category by a significant margin. Open shelves provide immediate visual access to stored items. 22 lbs per shelf handles standard office supplies and most inkjet printers. Two lockable casters keep the cart in place.",
+      "This three-tier metal cart rolls on four casters and can be positioned next to a desk, inside a closet, or in any room in the office without requiring tools or assembly beyond basic frame snap-together. Each of the three open shelves holds up to 22 pounds, which is sufficient for an inkjet printer on the top tier alongside paper reams, reference binders, and supplies on the lower tiers. The open shelf design means you can see and grab items immediately without opening drawers or lifting lids, which suits frequently used office consumables. Two of the four casters lock in place to prevent the cart from rolling when you set items down or pull things off a shelf. The all-white alloy steel finish fits broadly into light-colored home office spaces, though the finish can show marks in high-contact areas over time.",
     specs: ["32,107 reviews", "3 tiers", "22 lbs per shelf", "2 lockable casters"],
     pros: [
       "32,107 reviews at 4.7 stars most validated cart in this roundup",
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/pipishell-3-tier.webp`,
     amazonUrl: "https://www.amazon.com/dp/B08GS9T78W?tag=deskfinds0d-20",
     description:
-      "Lower price than the Simple Houseware at $28.46 versus $37.97. A built-in handle allows carrying the cart over obstacles like door thresholds. 15,132 reviews at 4.6 stars is strong validation. Two lockable wheels and the same 22 lbs per shelf capacity.",
+      "The Pipishell cart has the same three open-shelf layout and 22-pound-per-shelf capacity as the Simple Houseware, but adds an integrated handle at the top of the frame that lets you lift and carry the cart rather than just rolling it. That handle is practical in home offices where door thresholds, area rugs, or furniture legs would catch a rolling cart and require it to be lifted anyway. At $28.46 it is priced below the Simple Houseware alternative, making it the less expensive choice between the two metal utility carts in this roundup with comparable shelf capacity. Two lockable casters prevent the cart from drifting when loaded. Like other open-shelf carts, it offers no concealment for items you would prefer to keep out of sight, so buyers who want enclosed storage should consider a drawer cart instead.",
     specs: ["Handle", "3 tiers", "22 lbs per shelf", "2 lockable wheels"],
     pros: [
       "Lower price than Simple Houseware at $28.46",
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/homz-4-drawer-black.webp`,
     amazonUrl: "https://www.amazon.com/dp/B071CLZG8T?tag=deskfinds0d-20",
     description:
-      "13,002 reviews make this the most validated enclosed-drawer rolling cart in this roundup. Four drawers compartmentalize by category. 360-degree casters allow movement in any direction in tight spaces. Made from 90% recycled materials.",
+      "The HOMZ 4-Drawer cart uses a stacked drawer design where each of the four compartments slides out independently, so contents are enclosed and out of sight when the drawers are closed, unlike open-shelf utility carts where everything is visible at all times. The four separate drawers make it practical to divide supplies by type, for example one drawer for paper and one for tech accessories, without mixing categories in a single compartment. Four 360-degree casters allow the cart to pivot in any direction, which helps when navigating tight spaces between desk chairs and furniture in small home offices. The body is made from 90% recycled plastic materials. Plastic construction is lighter than metal but generally less resistant to heavy loads or rough handling, and the drawers are slower to access than open shelves when you need to grab something quickly.",
     specs: ["4 drawers", "360-degree casters", "Recycled materials", "Enclosed storage"],
     pros: [
       "13,002 reviews most validated drawer cart in roundup",
@@ -119,7 +119,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/homz-3-tier-clear.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0823H3Z95?tag=deskfinds0d-20",
     description:
-      "Clear drawers let you see contents without opening each compartment. Removable wheels allow converting to a stationary storage unit. 7,224 reviews at 4.6 stars is strong validation. White finish broadly compatible with home office aesthetics.",
+      "The HOMZ 3-Tier clear-drawer cart differs from its four-drawer sibling in one key way: the drawer fronts and bodies are made from translucent plastic rather than opaque material, so you can see what is stored in each compartment without pulling the drawer open. That visibility benefit is useful when multiple people share the cart or when you need to find something quickly without sorting through every drawer. The wheels on this model are removable, which means the cart can be converted into a freestanding stationary storage unit if you decide to place it in a fixed location inside a cabinet or closet. The white frame and clear drawer combination fits neutral home office color schemes without standing out. Buyers who need more compartments should note that this model has three drawers where the black HOMZ has four, at a comparable price.",
     specs: ["Clear drawers", "Removable wheels", "3 drawers", "White"],
     pros: [
       "Clear drawers show contents without opening",
@@ -146,7 +146,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/ctsnslh-stackable-bins.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CHRNM2YF?tag=deskfinds0d-20",
     description:
-      "93-quart total capacity is the highest volume option in this roundup. Translucent lids allow partial content visibility. 5,690 reviews at 4.5 stars is solid validation at under $31. Best for bulk supply storage rather than a traditional rolling cart.",
+      "The CTSNSLH uses a stackable bin format rather than the shelf or drawer design of traditional rolling carts, with four large bins stacked vertically on a wheeled base and each bin covered by a translucent lid. At 93 quarts of total capacity across all four bins, it holds a considerably larger volume than standard rolling carts, making it practical for storing bulk paper stock, extra printer ink, packing materials, or large supply reorders that would overflow typical utility cart shelves. The translucent lids give you a partial view of what is inside each bin without fully removing the lid. The lid-based access adds one extra step compared to open-shelf carts when you need to reach items frequently throughout the day. This product suits home office supply management and overflow storage rather than functioning as a primary desktop accessory station.",
     specs: ["93 Qt capacity", "Translucent lids", "4 tiers", "Rolling wheels"],
     pros: [
       "93-quart capacity largest volume option in roundup",
@@ -173,7 +173,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/goovilla-124lb-cart.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0DNFB8FHD?tag=deskfinds0d-20",
     description:
-      "124-lb capacity is the highest of any utility cart in this roundup. At $23.99 it is also the lowest-priced option. A removable drawer plus open shelves combines concealed and open storage. Side cups and hooks add accessory organization.",
+      "The Goovilla cart is built to support a total load of 124 pounds across its frame, which is higher than any other cart in this roundup and high enough to safely hold a mid-range laser printer without approaching the weight limit. At $23.99 it is also the lowest-priced option in the roundup, which means buyers get both the highest weight rating and the lowest price point simultaneously. The cart combines a removable enclosed drawer with two open shelves, so you can keep items you want out of sight in the drawer while using the shelves for things you reach for frequently. Side-mounted cups and hooks add extra organization for smaller items like scissors, markers, and cables that would otherwise take up shelf space. The three-tier design keeps the footprint compact, which matters in home offices where floor space near the desk is limited.",
     specs: ["124 lbs capacity", "Removable drawer", "Cups and hooks", "$23.99"],
     pros: [
       "124-lb capacity highest in this roundup",
@@ -200,7 +200,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/yasonic-3-tier-black.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CRGNKHVW?tag=deskfinds0d-20",
     description:
-      "4.7 stars tied for the highest rating in this roundup. 66-lb capacity per shelf is 3x the standard 22-lb rating on most utility carts. Hanging cups and hooks are included for accessory storage. Black finish suits darker home office setups.",
+      "The YASONIC cart uses three metal mesh basket tiers rather than flat shelves, which keeps contents from sliding off the edges while still allowing air circulation around stored items. Each basket tier supports up to 66 pounds, which is three times the 22-pound limit on most utility carts in this price range and sufficient to hold heavier equipment like a small laser printer or stacked reams of paper without concern. Hanging cups are built into the frame side, providing dedicated holders for pens, scissors, or small tools without consuming basket space. Adhesive hooks are also included for attaching additional lightweight items to the frame exterior. The all-black metal finish is well suited to darker home office setups or spaces where a white cart would create visual contrast with existing furniture.",
     specs: ["4.7 stars", "66 lbs per shelf", "Cups and hooks", "Black metal mesh"],
     pros: [
       "4.7 stars tied highest rating in roundup",
@@ -227,7 +227,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/letaya-mobile-cabinet.webp`,
     amazonUrl: "https://www.amazon.com/dp/B09YVJN8R7?tag=deskfinds0d-20",
     description:
-      "Confirmed letter/legal/A4 file hanging capability makes this the best pick for active document storage on wheels. Locking drawers add document security. A 5-wheel design improves stability over standard 4-wheel cabinets. Metal construction is more durable than engineered wood alternatives.",
+      "The Letaya is a mobile filing cabinet rather than a utility cart, and its three metal drawers are designed to hold hanging file folders in letter, legal, and A4 sizes, making it the appropriate choice for anyone who needs to store and retrieve active paper documents on a rolling unit. A key lock on the drawers prevents unauthorized access to sensitive documents, which matters in shared home office spaces or for anyone storing financial or legal paperwork. The cabinet rides on five casters rather than the standard four, which spreads the load more evenly and reduces the chance of tipping when a heavy drawer is fully extended. Metal construction throughout gives it greater long-term durability than engineered wood filing cabinets. At $99.99 it is the most expensive product in this roundup by a significant margin, and it serves a specialized filing function rather than general supply storage, so it is not a replacement for a utility cart.",
     specs: ["3 drawers", "Locking drawers", "5 wheels", "Metal construction"],
     pros: [
       "Confirmed letter/legal/A4 file hanging capability",

@@ -39,7 +39,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/wali-adjustable-riser.webp`,
     amazonUrl: "https://www.amazon.com/dp/B094QTGHNZ?tag=deskfinds0d-20",
     description:
-      "15,617 reviews at 4.7 stars makes this the most reviewed desk shelf in this roundup. A 10-year warranty at $12.99 is the strongest durability signal in the category. Height adjustable from 3.9 to 5.5 inches allows optimal monitor positioning. 44-lb capacity handles all standard monitors.",
+      "This metal monitor riser sits beneath your monitor or laptop and raises the screen between 3.9 and 5.5 inches above the desk surface, which brings the display closer to eye level for most seated adults and reduces the neck strain that comes from looking downward at a flat screen for hours. The height is adjustable, so you can fine-tune the elevation in small increments rather than being locked into a single fixed height like most budget risers. At roughly $13, this is one of the most affordable monitor risers available with a warranty, and the 10-year warranty on a product at this price point is an unusual commitment that signals confidence in the material quality. The 44-pound capacity is sufficient for any standard 27-inch or 32-inch desktop monitor. One tradeoff to understand is that this riser provides no built-in storage: there is no drawer underneath and no pen holder on the surface, so it purely addresses monitor height without adding desk organization.",
     specs: ["Adjustable 3.9-5.5 inch", "44 lbs", "10-year warranty", "$12.99"],
     pros: [
       "15,617 reviews at 4.7 stars most reviewed in roundup",
@@ -66,7 +66,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/huanuo-monitor-riser.webp`,
     amazonUrl: "https://www.amazon.com/dp/B073VKC134?tag=deskfinds0d-20",
     description:
-      "4.8 stars is the highest rating in this entire roundup. Known dimensions (14.57 x 9.25 inches) allow accurate planning before purchase. Vented top improves airflow for laptops placed on the riser. 15,362 reviews at 4.8 stars represent exceptional validation.",
+      "This metal riser has a fixed height and a vented top surface, meaning the top panel has perforated openings that allow air to circulate underneath a laptop placed on the riser, which helps prevent heat buildup that can occur when a laptop sits on a solid flat surface for extended periods. The footprint is a specific 14.57 by 9.25 inches, which is a known measurement you can tape off on your desk before purchasing to confirm the riser fits without crowding your keyboard or mousepad. Unlike the WALI riser in this guide, the height is not adjustable, so you should verify that the fixed elevation works for your seated eye level before buying. At roughly $16, the price is modest for a well-finished metal riser with specific dimensions. The lack of any storage underneath the riser or on its surface is a limitation if you are hoping to reclaim the desk area beneath the monitor for a keyboard or small items.",
     specs: ["4.8 stars", "14.57x9.25 inches", "Vented top", "44 lbs"],
     pros: [
       "4.8 stars highest rating in entire roundup",
@@ -93,7 +93,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/bontec-dual-monitor.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0C4SZ286V?tag=deskfinds0d-20",
     description:
-      "A wood surface suits warm home office aesthetics that black metal risers do not match. Adjustable length from 31.5 to 42.5 inches accommodates different desk widths. Includes a smartphone holder and cable management. 7,846 reviews at 4.6 stars is strong validation.",
+      "This riser is designed for desks that hold two monitors side by side, and its length adjusts from 31.5 to 42.5 inches so it can span different desk widths without leaving an awkward gap between the monitors and the riser's edge. The top surface is wood-finished rather than bare metal, which suits home offices with warm wood desks where a black metal riser would create a visual mismatch. A built-in slot on the riser holds a smartphone upright at desk level so your phone is visible without taking up separate desk space, and the cable management channel along the back routes power cables and display cables out of sight. The minimum 31.5-inch length means this product takes up a substantial portion of the desk surface even at its shortest setting, so buyers with desks under 48 inches wide should measure carefully before purchasing. Height is fixed, not adjustable, which is a consideration if your seated eye level does not match the riser's elevation.",
     specs: ["Wood surface", "Adjustable 31.5-42.5 inches", "Smartphone holder", "Dual monitor"],
     pros: [
       "Wood surface suits warm home office aesthetics",
@@ -120,7 +120,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/opnice-riser-drawer.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0DB8F7GDN?tag=deskfinds0d-20",
     description:
-      "A built-in pull-out drawer plus two pen holders makes this the best monitor riser for adding concealed storage at desk level. 4,900 reviews at 4.7 stars is strong validation. Adjustable non-slip pads adapt to different surfaces. Under $20.",
+      "This two-tier monitor riser includes a shallow pull-out drawer built into the base, which slides out from the front and provides a concealed compartment for items like sticky notes, small adapters, a phone charger, or other small accessories that would otherwise sit loose on the desk surface. Two pen holders are positioned on the top surface of the riser, flanking the monitor position, so pens and styluses stay upright and accessible at screen level without a separate pen cup taking up desk space. The riser legs have adjustable non-slip pads that can compensate for slightly uneven desk surfaces, which prevents wobbling when typing on a keyboard placed in front of the riser. At under $20, it costs slightly more than a plain riser but less than most organizer units with equivalent functionality. One honest limitation is that the drawer is shallow, so it only fits items no taller than about an inch, ruling out anything bulky.",
     specs: ["Pull-out drawer", "2 pen holders", "44 lbs", "$19.79"],
     pros: [
       "Only monitor riser in roundup with built-in pull-out drawer",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/gianotter-dual-magnetic.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0DJKSMV2T?tag=deskfinds0d-20",
     description:
-      "USPTO-patented magnetic pen holders are a proprietary feature not found on other risers in this roundup. The drawer plus magnetic holders address both storage and daily-use organization. 2,908 reviews at 4.6 stars provides adequate confidence. Best for wide desks.",
+      "This dual monitor riser is 40.6 inches wide and spans two side-by-side monitors on a large desk, with a pull-out drawer built into the base for concealed small-item storage similar to the OPNICE riser but at a larger scale. The distinguishing feature is the pen holders, which attach magnetically to the sides of the riser rather than being permanently fixed, so you can reposition them, remove them when not needed, or add more if your desk layout changes. The magnetic attachment mechanism is covered by a USPTO patent, which distinguishes this from other dual risers that use fixed or glued-on pen holders. At 40.6 inches wide, this product is too large for any desk narrower than about 48 inches, which is an important sizing constraint for small-desk buyers. At roughly $29, it is the most expensive monitor riser in this guide, so buyers should confirm the width works for their setup before paying the premium over the narrower options.",
     specs: ["Magnetic pen holders", "40.6 inches", "Pull-out drawer", "USPTO patent"],
     pros: [
       "USPTO patent on magnetic pen holder is a proprietary differentiator",
@@ -174,7 +174,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/nutikas-adjustable.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0DR31GC3D?tag=deskfinds0d-20",
     description:
-      "Adjustable width from 16.2 to 27.8 inches makes this the most adaptable organizer for different desk sizes. Three shelves create vertical layers for books, binders, and supplies. White wood matches light home office setups. Under $26.",
+      "This desktop organizer functions more like a small shelving unit than a monitor riser: it has three horizontal shelves stacked vertically and is designed to hold books, binders, plants, small boxes, or decorative items at desk level rather than to raise a monitor to eye level. The width is adjustable between 16.2 and 27.8 inches, which means you can compress it to fit a smaller desk section or expand it to fill more of the available surface, and you can re-adjust the width if you move the organizer to a different desk. The white wood-look finish suits desks with a white, light wood, or Scandinavian aesthetic where darker or metal-finish organizers would stand out. At roughly $26, this is priced competitively for an adjustable-width shelf organizer. One consideration is that the rating is lower than several other products in this guide, so buyers who need a more proven product for heavier items should look at the desktop bookshelves further in the guide.",
     specs: ["Adjustable 16.2-27.8 inch width", "3 shelves", "Wood", "White"],
     pros: [
       "Adjustable width 16.2 to 27.8 inches fits different desk sizes",
@@ -201,7 +201,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/nromant-bookshelf.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CN4H17QL?tag=deskfinds0d-20",
     description:
-      "Anti-tip anchors are a safety feature for a 31.5-inch tall desktop bookshelf that the ChooChoo alternative lacks. 70-lb capacity handles heavy books and binders. Six shelves provide maximum vertical storage at desk level. 204 reviews at 4.5 stars.",
+      "This desktop bookshelf sits on top of your desk and rises 31.5 inches tall, providing six horizontal shelves for books, binders, file folders, decorative objects, or small storage boxes at desk level rather than requiring wall mounting or floor space. At 36 inches wide, the unit occupies a significant portion of the desk surface and is primarily suited for desks 48 inches or wider where it can sit to one side while leaving working space free. Anti-tip anchors are included, which attach the bookshelf to the desk surface and prevent the unit from tipping forward when heavy books are stored on upper shelves, a relevant safety feature at 31.5 inches of height that the ChooChoo model in this guide does not offer. The 70-pound weight capacity is the highest in this roundup and can hold a full row of large hardcovers on every shelf. At roughly $67, this is the most expensive product in the guide, which is a meaningful consideration for buyers who only need light or occasional shelf storage.",
     specs: ["Anti-tip anchors", "70 lbs", "6 shelves", "31.5 inch tall"],
     pros: [
       "Anti-tip anchors unique safety feature among desktop bookshelves",
@@ -228,7 +228,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/choochoo-bookshelf.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CWLCHKZD?tag=deskfinds0d-20",
     description:
-      "The tallest product in this roundup at 36.4 inches. Includes a drawer for concealed storage alongside 5 open shelves. 4.6 stars from 114 reviews is a promising initial signal. Slightly lower price than Nromant. Note: no anti-tip anchor system.",
+      "This desktop bookshelf is 36.4 inches tall and 37 inches wide, making it the largest product in this guide by height, and it includes five open shelves plus one enclosed drawer at the base so you can store books and binders on the open shelves while keeping smaller or private items hidden in the drawer below. The white engineered wood finish matches the Nromant bookshelf in this guide aesthetically, but this model edges out slightly taller and slightly wider, giving it more total storage surface across the combined shelves and drawer. At roughly $65, it costs slightly less than the Nromant despite the added drawer, which makes it appealing on price. However, the ChooChoo does not include an anti-tip anchor system, which is a meaningful safety consideration for a unit this tall: at 36.4 inches, forward tipping from heavy upper-shelf loads is a real risk, and buyers with children or pets nearby should factor this into the decision.",
     specs: ["36.4 inch tall", "5 shelves + 1 drawer", "White", "Engineered wood"],
     pros: [
       "Tallest product in roundup at 36.4 inches",

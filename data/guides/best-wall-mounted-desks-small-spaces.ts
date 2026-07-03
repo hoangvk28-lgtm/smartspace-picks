@@ -39,7 +39,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/nathan-james-ladder.webp`,
     amazonUrl: "https://www.amazon.com/dp/B084HCVNPZ?tag=deskfinds0d-20",
     description:
-      "1,216 reviews at 4.7 stars is the highest rated and most reviewed desk in this roundup. At 73 inches tall, it provides vertical shelf storage extending to ceiling height. Nathan James is a recognized brand in the budget furniture space. The industrial aesthetic suits modern and transitional home offices. Note: this is a permanent ladder desk, not a fold-down.",
+      "A ladder desk leans against the wall with two contact points at floor level and one anchor point near the top, taking up roughly the footprint of a standard dining chair rather than a full desk. This model stands 73 inches tall, which means the top shelf reaches close to ceiling height in a standard 8-foot room, making use of vertical wall space that would otherwise go unused. The 30-inch desktop surface is narrower than a standard 48-inch desk, which suits people working from a single laptop or one compact monitor rather than a dual-screen setup. The frame is matte black steel with wood shelf surfaces, a combination that reads as industrial-modern and fits offices styled around metal accents and neutral tones. Because the ladder configuration is permanent, the desk surface remains extended at all times and cannot be folded away when the space is needed for something else, so it works best in a dedicated daily workspace rather than a shared-use room. Two open shelves above the desktop provide storage for books, decorative items, or small bins without requiring wall drilling beyond the single top anchor.",
     specs: [
       "73-inch height",
       "30-inch wide",
@@ -71,7 +71,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/tangkula-murphy-white.webp`,
     amazonUrl: "https://www.amazon.com/dp/B07KJ4ZM9K?tag=deskfinds0d-20",
     description:
-      "988 reviews is the most-reviewed fold-down Murphy desk in this roundup. Storage shelves remain accessible when the desk is folded up. White finish suits residential home offices. Zero floor footprint when closed. 4.2 stars across nearly 1,000 reviews is an honest signal.",
+      "A Murphy-style fold-down desk mounts permanently to the wall and has a hinged work surface that folds flat against the wall when not in use, leaving no floor footprint and freeing the room for other purposes. This model includes storage shelves that remain accessible even when the desk leaf is folded up, so books, binders, or supplies stored on the shelves do not need to be cleared away just to close the unit. The white finish blends into painted residential walls more naturally than darker wood or black metal options, making it a low-visual-impact choice for living rooms or bedrooms that double as a workspace. Assembly requires drilling into wall studs, which is a one-time installation step but means the unit cannot easily be moved once set up. The desk surface itself is a fold-down panel supported by a hinged bracket, and the surface dimensions should be verified in the product listing before purchase to confirm a laptop fits comfortably. This format suits people who need a full desk during work hours but want the room to read as a living space outside of those hours.",
     specs: [
       "Fold-down Murphy style",
       "Storage shelves",
@@ -103,7 +103,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/haotian-sobuy-black.webp`,
     amazonUrl: "https://www.amazon.com/dp/B07988PS8K?tag=deskfinds0d-20",
     description:
-      "4.6 stars across 955 reviews is the strongest validation among fold-down desks in this roundup. Black finish suits industrial and modern home offices. Storage shelves remain accessible when folded. Under $100. The Haotian SoBuy brand is well-established in European markets for wall furniture.",
+      "This fold-down desk mounts to the wall and includes flanking storage shelves that stay upright and accessible regardless of whether the desk leaf is open or closed, so the unit functions as a display and storage shelf unit even on days when the workspace is not in use. The black finish works with industrial, mid-century modern, and minimalist office setups, and tends to show fewer scuffs and fingerprints over time compared to white-finished units. The desk surface folds down on a hinged bracket to create the work area, and the surrounding shelf structure gives the unit a more substantial, furniture-like appearance than plain single-panel fold-down options. The price falls under $100, which positions it as an accessible entry point for a wall-mounted desk with integrated shelving. Wall anchoring to studs is required, and the installation process involves measuring, leveling, and drilling, which takes more time than assembling a freestanding desk but results in a permanently fixed unit with no floor footprint. People furnishing compact apartments or small bedrooms where floor space is the primary constraint will find this a practical full-featured option.",
     specs: [
       "4.6 stars across 955 reviews",
       "Fold-down",
@@ -135,7 +135,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/homcom-chalkboard.webp`,
     amazonUrl: "https://www.amazon.com/dp/B08PDTSY7D?tag=deskfinds0d-20",
     description:
-      "The only fold-down desk in this roundup with an integrated chalkboard for planning and notes. 9 storage shelves is the most shelf capacity among fold-down options. 4.4 stars across 675 reviews is solid validation. Charcoal gray is versatile. This is the largest and heaviest fold-down unit in the roundup.",
+      "This unit combines a fold-down desk surface with an integrated chalkboard panel that stays permanently visible on the wall, providing a dedicated space for notes, to-do lists, sketches, or schedules directly at the work area without needing a separate whiteboard or pinboard. Nine storage shelves surround the desk and chalkboard area, which is the highest shelf count in this category and allows granular organization of books, binders, small bins, and decorative items without them competing for space on the desk surface. The desk leaf folds down from its position as part of the wall unit to create the work surface, then returns flush when not needed. Charcoal gray is a neutral, versatile finish that reads neither as stark black nor as warm wood and tends to work across a wide range of interior styles. The tradeoff is size: this is the largest and heaviest fold-down unit in the roundup, requiring more wall space and a more involved installation process than simpler two-shelf alternatives. Chalkboard dust can settle on the desk surface nearby, which may be a consideration for people sensitive to particulates or who use the surface for precision work.",
     specs: [
       "Integrated chalkboard",
       "9 shelves",
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/yusing-enclosed.webp`,
     amazonUrl: "https://www.amazon.com/dp/B07TDGP13T?tag=deskfinds0d-20",
     description:
-      "Enclosed compartments conceal contents when the unit is on the wall, unlike open shelves. Under $70 for a fold-down with enclosed storage is competitive. 642 reviews at 4.3 stars provides reasonable confidence. White finish.",
+      "Where most fold-down wall desks use open shelves that display their contents at all times, this model uses enclosed compartments with doors or panels that conceal what is stored inside, so the unit presents a cleaner, cabinet-like appearance when the desk is folded up. This makes it well suited to living rooms or shared spaces where the work setup needs to visually disappear outside of office hours rather than looking like a shelf of work supplies. The fold-down desk panel drops forward from the cabinet face to create the work surface, and the enclosed compartments provide storage for paperwork, chargers, notebooks, and other items that would otherwise clutter a visible shelf. The white finish blends with typical apartment and residential interior paint colors without drawing visual attention. The price falls under $70, making it the most affordable enclosed-storage fold-down option in this roundup. One consideration is that enclosed compartments may have fixed interior dimensions, so unusually large items like A3 notebooks or wide binders may not fit without checking the specific compartment measurements first.",
     specs: [
       "Enclosed compartments",
       "Fold-down",
@@ -199,7 +199,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/teamix-simple.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CMSYL7Q1?tag=deskfinds0d-20",
     description:
-      "$39.99 is the lowest price in this roundup. Simple fold-down surface with no surrounding shelves. 80-lb capacity handles a laptop and accessories. Folds completely flat against the wall. Heavy-duty brackets. Note: 11.8-inch depth is shallow, verify a laptop fits before purchasing.",
+      "This is a stripped-down fold-down wall surface consisting of a single panel and two heavy-duty support brackets, with no surrounding shelves, drawers, or hutch structure attached. When folded down, the surface measures 23.6 inches wide by 11.8 inches deep, which is enough for a compact laptop in clamshell mode or a small tablet and keyboard combination but is too shallow for a standard open laptop alongside a monitor. When folded up, the panel sits flat against the wall, taking up no floor space and presenting a clean, minimal surface that blends into the wall rather than reading as furniture. The heavy-duty metal brackets support up to 80 pounds, which comfortably handles a laptop, phone, and basic accessories. At under $40, this is the lowest-priced option in the roundup, with the tradeoff being that integrated storage must come from other sources such as wall shelves or nearby furniture. This format is best suited to secondary workspaces, hallway nooks, utility rooms, or any situation where a small occasional-use writing or typing surface is needed without committing floor space or budget to a full desk setup.",
     specs: ["$39.99", "23.6 x 11.8 inch", "80 lbs", "Folds completely flat"],
     pros: [
       "Lowest price at $39.99",
@@ -226,7 +226,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/arrowstone-vesa.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0DJCTCC7L?tag=deskfinds0d-20",
     description:
-      "The only fold-down desk in this roundup with an integrated VESA monitor mount. The monitor stays wall-mounted when the desk folds up, avoiding the need to move the monitor. 200-lb capacity is the highest in the roundup. 31-inch birch wood surface. Important: 3.9 stars from 66 reviews is insufficient confidence for a $209.89 purchase. Verify current reviews before buying.",
+      "This fold-down desk addresses a problem specific to monitor-based worksetups: when a fold-down desk is closed, the monitor has nowhere to go. This model solves that by integrating a VESA-compatible monitor mount directly into the wall-mounted structure, so the monitor remains wall-attached and at eye level whether the desk leaf is open or closed. The 31-inch birch wood desk surface is wide enough for a standard external keyboard with space for a notepad alongside it, and the warm birch grain provides a more furniture-like appearance than metal or engineered wood options at this price. The unit is rated at 200 pounds, the highest capacity in this roundup, which gives substantial headroom for heavier monitors, multiple devices, or dense accessories. The VESA mount must match the monitor's bolt pattern to be compatible, so buyers should confirm their monitor's VESA specification before ordering. At around $210, this is the most expensive fold-down option in the category, which reflects both the VESA integration and the birch wood construction. This suits small apartment home offices where a monitor is a permanent fixture and the space needs to convert fully back to a non-office room when work ends.",
     specs: [
       "VESA mount integrated",
       "200 lbs",
@@ -258,7 +258,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/modway-render-oak.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0B6CYBX5B?tag=deskfinds0d-20",
     description:
-      "60-inch surface width is the widest option in this roundup and suitable for dual monitors. Includes a pull-out keyboard tray and two drawers. Legless floating design creates a clean look. Oak finish is warm and residential. Important: 3.9 stars from only 42 reviews. Purchase based on feature set, not review validation.",
+      "A floating wall desk is permanently extended from the wall with no legs touching the floor, which means the floor space beneath the desk remains fully open for seating, storage, or movement. This model spans 60 inches wide, making it the largest surface in this roundup and the only one wide enough for a genuine dual-monitor setup with a keyboard and mouse between them. A pull-out keyboard tray sits below the main surface, allowing the keyboard to be stored out of view when the desk is not in use and freeing the full 60-inch surface for other work. Two drawers built into the desk body provide enclosed storage for papers, cables, and small accessories without requiring separate furniture nearby. The oak finish uses warm brown tones and visible grain that reads as residential furniture rather than office equipment, making it suitable for home offices that share space with living areas. The permanent installation means this desk cannot be folded away, so it is most appropriate for a room where a full-size desk is a long-term fixture rather than a temporary space-saving solution.",
     specs: ["60 inch surface", "Keyboard tray", "2 drawers", "Oak finish"],
     pros: [
       "60-inch surface widest for dual monitor setup",
