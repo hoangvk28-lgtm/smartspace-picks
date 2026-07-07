@@ -133,6 +133,17 @@ const guideSlugs = [
   "ergonomic-chair-vs-gaming-chair",
   "ultrawide-vs-dual-monitor",
   "desk-lamp-under-30",
+  // Desk hutch guides
+  "best-desk-hutches-for-small-desks",
+  "best-desk-hutches-for-dorm-rooms",
+  "best-desk-hutches",
+  "best-desk-hutches-with-storage",
+  "best-white-desk-hutches",
+  // Monitor light bar guides
+  "best-monitor-light-bars-for-curved-monitors",
+  "best-monitor-light-bars-for-gaming",
+  "best-monitor-light-bars-under-50",
+  "best-monitor-light-bars",
 ];
 
 const compareSlug = ["monitor-stand-vs-monitor-arm"];
