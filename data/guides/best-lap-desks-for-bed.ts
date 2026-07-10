@@ -38,11 +38,11 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/lapgear-home-office.webp`,
     amazonUrl: "https://www.amazon.com/dp/B07Z6BMLSY?tag=deskfinds0d-20",
     description:
-      "The LapGear Home Office lap desk is the most reviewed lap desk for bed use with over 18,000 verified ratings, featuring a cushioned pillow base that distributes laptop heat away from legs, a wrist pad, and a device ledge for phone storage. The cushion underside conforms to uneven bed surfaces and prevents sliding.\n\nAt $39.99 it is the established market leader for bed lap desks. The combination of cushioned base, wrist pad, and device storage makes it the most feature-complete option in this category.",
+      "The LapGear Home Office lap desk features a cushioned pillow base that distributes laptop heat away from legs, a built-in wrist pad, and a device ledge for phone storage. The cushion underside conforms to uneven bed surfaces and prevents sliding.\n\nAt $39.99 it is the established pick for bed lap desks. The combination of cushioned base, wrist pad, and device storage covers the most common in-bed laptop use cases in a single product.",
     specs: ["Cushioned pillow base", "Wrist pad included", "Phone device ledge", "Multiple size options"],
-    pros: ["18,432 reviews most in category", "4.5 stars", "Cushion distributes heat", "Wrist pad included"],
+    pros: ["4.5 stars", "Cushion distributes laptop heat", "Wrist pad included", "Device ledge for phone"],
     cons: ["No adjustable angle", "No LED lighting", "Phone ledge limits positioning"],
-    bestFor: "Users who want the most widely reviewed and feature-complete lap desk for regular bed use",
+    bestFor: "Users who want a feature-complete cushioned lap desk for regular in-bed laptop and tablet use",
   },
   {
     id: "huanuo-adjustable-bed",

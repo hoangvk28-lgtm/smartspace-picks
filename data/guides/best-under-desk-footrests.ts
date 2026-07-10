@@ -38,11 +38,11 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/everlasting-comfort.webp`,
     amazonUrl: "https://www.amazon.com/dp/B07D9ZC5ZG?tag=deskfinds0d-20",
     description:
-      "The Everlasting Comfort footrest is the best-selling under-desk footrest on Amazon with over 22,000 reviews, combining premium memory foam with a non-slip base and washable cover. The high-density foam provides consistent support without flattening under sustained use.\n\nAt $29.99 it is the top foam pick for most users. The pure memory foam design suits users who prioritize comfort for extended sessions over active rocking motion.",
+      "The Everlasting Comfort footrest combines premium memory foam with a non-slip base and washable velvet cover, providing consistent support without flattening under sustained use. The high-density foam maintains its shape better than standard pillow foam alternatives.\n\nAt $29.99 it is the top foam pick for most users. The pure memory foam design suits users who prioritize comfort for extended sessions over active rocking motion.",
     specs: ["Pure memory foam", "Non-slip bottom", "Washable velvet cover", "Ergonomic angle"],
-    pros: ["22,247 reviews largest sample", "Pure memory foam comfort", "Washable cover", "Non-slip base"],
+    pros: ["Washable velvet cover included", "Pure memory foam comfort", "Non-slip base", "Ergonomic angle"],
     cons: ["No height adjustment", "No rocking motion", "Foam compresses over months"],
-    bestFor: "Users who want the most widely reviewed under-desk footrest for all-day desk comfort",
+    bestFor: "Users who want a premium memory foam footrest with washable cover for all-day desk comfort",
   },
   {
     id: "comfilife",
@@ -72,7 +72,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/huanuo-adjustable.webp`,
     amazonUrl: "https://www.amazon.com/dp/B07Q35Z4BL?tag=deskfinds0d-20",
     description:
-      "The HUANUO under-desk footrest provides two height settings and an angle-adjustable platform with a massage-ball surface for improved circulation. Over 10,000 reviews confirm its popularity as the go-to adjustable footrest in this category.\n\nAt $34.99 it is the standard reference pick for adjustable footrests. Users who switch between standard chairs and drafting chairs benefit most from the dual height settings.",
+      "The HUANUO under-desk footrest provides two height settings and an angle-adjustable platform with a massage-ball surface for improved circulation. The dual height settings accommodate both standard desk chairs and higher drafting chairs.\n\nAt $34.99 it is the standard reference pick for adjustable footrests. Users who switch between different chair heights benefit most from the height adjustment and massage surface combination.",
     specs: ["2 height settings", "Angle adjustable", "Massage ball surface", "Non-slip"],
     pros: ["10,825 reviews", "Two height settings", "Massage surface", "Angle adjustable"],
     cons: ["$34.99 higher than foam picks", "Massage balls may be uncomfortable", "Plastic construction"],

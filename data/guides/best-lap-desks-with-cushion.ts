@@ -38,11 +38,11 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/lapgear-home-office-cushion.webp`,
     amazonUrl: "https://www.amazon.com/dp/B07Z6BMLSY?tag=deskfinds0d-20",
     description:
-      "The LapGear Home Office is the most widely reviewed cushion lap desk with over 18,000 ratings, combining a dual-cushion underside that distributes heat with a built-in wrist pad and phone slot. The dual-cushion base creates an air gap between the laptop and legs that reduces heat transfer significantly.\n\nAt $39.99 it is the reference standard for cushioned lap desks. The wrist pad addition elevates it beyond basic cushion boards for users who type extensively in bed or on the sofa.",
+      "The LapGear Home Office combines a dual-cushion underside that distributes heat with a built-in wrist pad and phone slot. The dual-cushion base creates an air gap between the laptop and legs that reduces heat transfer significantly.\n\nAt $39.99 it is the reference standard for cushioned lap desks. The wrist pad addition elevates it beyond basic cushion boards for users who type extensively in bed or on the sofa.",
     specs: ["Dual cushion base", "Wrist pad", "Phone device slot", "Multiple sizes"],
-    pros: ["18,432 reviews most in category", "4.5 stars", "Dual cushion heat distribution", "Wrist pad"],
+    pros: ["4.5 stars", "Dual cushion heat distribution", "Wrist pad included", "Phone slot storage"],
     cons: ["No angle adjustment", "Phone slot limits layout flexibility", "Cushion compresses over time"],
-    bestFor: "Users who want the most verified cushion lap desk with wrist pad support for extended typing sessions",
+    bestFor: "Users who want a trusted cushion lap desk with wrist pad support for extended typing sessions",
   },
   {
     id: "lapgear-designer-cushion",

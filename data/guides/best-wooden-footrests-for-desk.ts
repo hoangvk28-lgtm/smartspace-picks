@@ -38,11 +38,11 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/strongtek-cherry.webp`,
     amazonUrl: "https://www.amazon.com/dp/B07N1QCJGZ?tag=deskfinds0d-20",
     description:
-      "The StrongTek cherry wood footrest is the most widely reviewed wood footrest on the market, with a curved rocker base that delivers active balance board movement rather than a static platform. Cherry wood provides structural hardness and visual warmth that foam cannot replicate.\n\nAt $39.99 and 4.7 stars it is the established choice for a quality wood rocker at a reasonable price. The 350-pound capacity and no-assembly design reflect the straightforward build quality of this model.",
+      "The StrongTek cherry wood footrest uses a curved rocker base that delivers active balance board movement rather than a static platform. Cherry wood provides structural hardness and visual warmth that foam cannot replicate.\n\nAt $39.99 and 4.7 stars it is the established choice for a quality wood rocker at a reasonable price. The 350-pound capacity and no-assembly design reflect the straightforward build quality of this model.",
     specs: ["Cherry wood", "Rocker balance board", "350 lb capacity", "18 inches wide"],
-    pros: ["4.7 stars highest in roundup", "3,135 reviews most in category", "Cherry wood aesthetic", "No assembly required"],
+    pros: ["4.7 stars highest in roundup", "Active rocking motion", "Cherry wood aesthetic", "No assembly required"],
     cons: ["Fixed height", "Hard surface for bare feet", "Rocking only no flat mode"],
-    bestFor: "Users who want the most-reviewed cherry wood rocker as a straightforward starting point",
+    bestFor: "Users who want a highly-rated cherry wood rocker as a straightforward starting point",
   },
   {
     id: "strongtek-adjustable",

@@ -72,11 +72,11 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/soundance-aluminum.webp`,
     amazonUrl: "https://www.amazon.com/dp/B07BKQHSWT?tag=deskfinds0d-20",
     description:
-      "The Soundance aluminum vertical stand is the most widely reviewed laptop vertical stand on Amazon with nearly 15,000 reviews, featuring adjustable width to fit MacBook Air, MacBook Pro, and most PC laptops. The all-aluminum construction matches MacBook aesthetics without requiring model-specific inserts.\n\nAt $19.99 it is the best-value aluminum vertical stand for MacBook users. The adjustable width accommodates different MacBook thicknesses without switching inserts.",
+      "The Soundance aluminum vertical stand features adjustable width to fit MacBook Air, MacBook Pro, and most PC laptops, with all-aluminum construction that matches MacBook aesthetics without requiring model-specific inserts. The non-slip silicone pads protect device finishes.\n\nAt $19.99 it is the best-value aluminum vertical stand for MacBook users. The adjustable width accommodates different MacBook thicknesses without switching inserts.",
     specs: ["Aluminum construction", "Adjustable width", "Fits 11 to 17-inch laptops", "Non-slip silicone pads"],
-    pros: ["14,892 reviews most in roundup", "Adjustable width universal", "Aluminum matches Mac aesthetic", "Under $20"],
+    pros: ["Aluminum matches Mac aesthetic", "Adjustable width universal", "Non-slip silicone pads", "Under $20"],
     cons: ["No hub integration", "Width adjustment can slip", "4.5 stars"],
-    bestFor: "MacBook users who want the most widely reviewed aluminum vertical stand at the lowest price",
+    bestFor: "MacBook users who want an aluminum vertical stand at the lowest price with universal laptop compatibility",
   },
   {
     id: "jubor-vertical",

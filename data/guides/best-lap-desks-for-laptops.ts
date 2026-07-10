@@ -38,11 +38,11 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/lapgear-home-office-laptop.webp`,
     amazonUrl: "https://www.amazon.com/dp/B07Z6BMLSY?tag=deskfinds0d-20",
     description:
-      "The LapGear Home Office is the most reviewed lap desk for laptop use with over 18,000 ratings, featuring a hard surface that keeps laptop vents clear, a dual cushion base, and a wrist pad for extended typing. The hard surface is the critical feature for laptop use: soft surfaces like pillows block laptop vents and cause overheating.\n\nAt $39.99 it is the reference recommendation for most laptop users who work outside a desk. The combination of hard surface, cushion base, and wrist pad covers the most common lap laptop use cases.",
+      "The LapGear Home Office features a hard surface that keeps laptop vents clear, a dual cushion base, and a wrist pad for extended typing. The hard surface is the critical feature for laptop use: soft surfaces like pillows block laptop vents and cause overheating.\n\nAt $39.99 it is the reference recommendation for most laptop users who work outside a desk. The combination of hard surface, cushion base, and wrist pad covers the most common lap laptop use cases.",
     specs: ["Hard surface", "Dual cushion base", "Wrist pad", "Phone slot"],
-    pros: ["18,432 reviews most in category", "4.5 stars", "Hard surface keeps vents clear", "Wrist pad"],
+    pros: ["Hard surface keeps laptop vents clear", "4.5 stars", "Dual cushion base", "Wrist pad for typing"],
     cons: ["No active cooling", "No angle adjustment", "Cushion compresses over time"],
-    bestFor: "Most laptop users who want the most widely reviewed lap desk for regular laptop use outside a desk",
+    bestFor: "Most laptop users who want a hard-surface lap desk with cushion base and wrist pad for regular use outside a desk",
   },
   {
     id: "huanuo-ventilated",

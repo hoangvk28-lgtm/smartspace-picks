@@ -38,11 +38,11 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/soundance-main.webp`,
     amazonUrl: "https://www.amazon.com/dp/B07BKQHSWT?tag=deskfinds0d-20",
     description:
-      "The Soundance aluminum vertical stand is the best-reviewed vertical laptop stand on Amazon with nearly 15,000 verified ratings. The adjustable-width aluminum cradle fits 11 to 17-inch laptops with non-slip silicone pads protecting the device finish. The combination of aluminum construction, universal sizing, and sub-$20 pricing explains the review dominance.\n\nFor most users looking for a vertical laptop stand, the Soundance is the answer. It provides the right materials, the right adjustability, and the most review data confirming it works.",
+      "The Soundance aluminum vertical stand uses an adjustable-width aluminum cradle that fits 11 to 17-inch laptops with non-slip silicone pads protecting the device finish. The combination of aluminum construction, universal sizing, and sub-$20 pricing makes it the reference standard for vertical laptop storage.\n\nFor most users looking for a vertical laptop stand, the Soundance is the answer. It provides the right materials, the right adjustability, and a 4.5-star rating confirming it works across laptop brands.",
     specs: ["Aluminum construction", "Adjustable width (11 to 17-inch)", "Non-slip silicone pads", "Tool-free width adjustment"],
-    pros: ["14,892 reviews most in roundup", "4.5 stars", "Aluminum construction", "Under $20"],
+    pros: ["Universal width fits 11-17 inch", "4.5 stars", "Aluminum construction", "Under $20"],
     cons: ["Width lock can loosen over time", "No hub or connectivity", "No cable management"],
-    bestFor: "Most laptop users who want the most widely reviewed vertical stand at the best price-to-material-quality ratio",
+    bestFor: "Most laptop users who want an aluminum vertical stand at the best price-to-material-quality ratio",
   },
   {
     id: "twelve-south-bookarc-main",
