@@ -144,6 +144,19 @@ const guideSlugs = [
   "best-monitor-light-bars-for-gaming",
   "best-monitor-light-bars-under-50",
   "best-monitor-light-bars",
+  "best-under-desk-footrests-for-short-people",
+  "best-adjustable-under-desk-footrests",
+  "best-rocking-footrests-under-desk",
+  "best-wooden-footrests-for-desk",
+  "best-under-desk-footrests",
+  "best-vertical-macbook-stands",
+  "best-dual-vertical-laptop-stands",
+  "best-adjustable-vertical-laptop-stands",
+  "best-vertical-laptop-stands-for-desk-setup",
+  "best-vertical-laptop-stands",
+  "best-lap-desks-for-bed",
+  "best-lap-desks-with-cushion",
+  "best-lap-desks-for-laptops",
 ];
 
 const compareSlug = ["monitor-stand-vs-monitor-arm"];
