@@ -14,6 +14,7 @@ import {
   products,
   faq,
   relatedGuides,
+  buyingCriteria,
   type GuideProduct,
 } from "@/data/guides/best-under-desk-footrests";
 
@@ -273,6 +274,22 @@ export default async function BestUnderDeskFootrestsPage() {
           <p>This guide covers eight under-desk footrests ranked by Amazon buyer rating and verified review count, including memory foam, rocker, wood, and mesh options that cover the main footrest types at different price points.</p>
           <p>For footrests specifically suited to shorter users, see our <Link href='/guide/best-under-desk-footrests-for-short-people' className='text-brand hover:underline'>best under-desk footrests for short people</Link> guide.</p>
         </section>
+
+        {buyingCriteria.length > 0 && (
+          <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
+            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">How to Choose the Right One</h2>
+            <p className="text-sm text-ink-muted mb-5">Key buying criteria so you get the right fit the first time.</p>
+            <div className="divide-y divide-border">
+              {buyingCriteria.map((item, i) => (
+                <div key={i} className="py-4 first:pt-0 last:pb-0">
+                  <p className="text-sm font-bold text-ink mb-1">{item.criterion}</p>
+                  <p className="text-sm text-ink-secondary leading-relaxed">{item.explanation}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
 
         <nav className="mb-12 p-4 rounded-xl bg-bg border border-border">
           <p className="text-xs font-bold uppercase tracking-widest text-ink-muted mb-3">Jump to pick</p>

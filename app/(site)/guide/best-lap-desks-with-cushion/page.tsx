@@ -14,6 +14,7 @@ import {
   products,
   faq,
   relatedGuides,
+  buyingCriteria,
   type GuideProduct,
 } from "@/data/guides/best-lap-desks-with-cushion";
 
@@ -274,6 +275,22 @@ export default async function BestLapDesksWithCushionPage() {
           <p>For lap desks focused on bed use, see our <Link href='/guide/best-lap-desks-for-bed' className='text-brand hover:underline'>best lap desks for bed</Link> guide.</p>
         </section>
 
+        {buyingCriteria.length > 0 && (
+          <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
+            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">How to Choose the Right One</h2>
+            <p className="text-sm text-ink-muted mb-5">Key buying criteria so you get the right fit the first time.</p>
+            <div className="divide-y divide-border">
+              {buyingCriteria.map((item, i) => (
+                <div key={i} className="py-4 first:pt-0 last:pb-0">
+                  <p className="text-sm font-bold text-ink mb-1">{item.criterion}</p>
+                  <p className="text-sm text-ink-secondary leading-relaxed">{item.explanation}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+
         <nav className="mb-12 p-4 rounded-xl bg-bg border border-border">
           <p className="text-xs font-bold uppercase tracking-widest text-ink-muted mb-3">Jump to pick</p>
           <div className="flex flex-wrap gap-2">
@@ -311,8 +328,8 @@ export default async function BestLapDesksWithCushionPage() {
               <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
               <p className="text-sm text-ink-secondary">
                 <strong className="text-ink">best cushion lap desk:</strong>{" "}
-                <a href="#lapgear-home-office-cushion" className="font-bold text-ink hover:text-brand transition-colors">LapGear Home Office Lap Desk with Cushion</a>
-                 - 18,432 reviews at 4.5 stars, most reviewed cushion lap desk.
+                <a href="#lapgear-home-office-pro" className="font-bold text-ink hover:text-brand transition-colors">LapGear Home Office Pro Lap Desk</a>
+                 - 4.7 stars, integrated mouse pad and dual bolster cushion base.
               </p>
             </div>
             <p className="text-sm text-ink-secondary pl-5">See the full rankings above for all eight picks with pros, cons, and best-for summaries.</p>

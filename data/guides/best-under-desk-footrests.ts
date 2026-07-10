@@ -3,9 +3,8 @@ const BASE = "/images/guides/best-under-desk-footrests";
 export const guideSlug = "best-under-desk-footrests";
 export const guideTitle = "8 Best Under-Desk Footrests (2026)";
 export const metaTitle = "Best Under-Desk Footrests 2026";
-export const metaDescription =
-  "Best under-desk footrests in 2026. Memory foam, rocker, bamboo, and mesh models ranked by Amazon rating and verified buyer review count to help you pick the right footrest for your desk setup.";
-export const lastUpdated = "2026-07-08";
+export const metaDescription = "Best under-desk footrests in 2026. Memory foam, adjustable height, rocking balance boards, and massage roller options ranked by Amazon buyer rating.";
+export const lastUpdated = "2026-07-10";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/hero.webp`;
 
@@ -26,74 +25,75 @@ export interface GuideProduct {
   bestFor: string;
 }
 
+export interface BuyingCriterion {
+  criterion: string;
+  explanation: string;
+}
+
 export const products: GuideProduct[] = [
   {
     id: "everlasting-comfort",
     rank: 1,
     badge: "Best Overall",
     name: "Everlasting Comfort Foot Rest Cushion",
-    price: "$29.99",
-    rating: "4.5 stars",
-    reviews: "22,247 reviews",
+    price: "$22.79",
+    rating: "4.6 stars",
+    reviews: "28,108 ratings",
     imageUrl: `${BASE}/everlasting-comfort.webp`,
-    amazonUrl: "https://www.amazon.com/dp/B07D9ZC5ZG?tag=deskfinds0d-20",
-    description:
-      "The Everlasting Comfort footrest combines premium memory foam with a non-slip base and washable velvet cover, providing consistent support without flattening under sustained use. The high-density foam maintains its shape better than standard pillow foam alternatives.\n\nAt $29.99 it is the top foam pick for most users. The pure memory foam design suits users who prioritize comfort for extended sessions over active rocking motion.",
-    specs: ["Pure memory foam", "Non-slip bottom", "Washable velvet cover", "Ergonomic angle"],
-    pros: ["Washable velvet cover included", "Pure memory foam comfort", "Non-slip base", "Ergonomic angle"],
-    cons: ["No height adjustment", "No rocking motion", "Foam compresses over months"],
-    bestFor: "Users who want a premium memory foam footrest with washable cover for all-day desk comfort",
+    amazonUrl: "https://www.amazon.com/dp/B07PGLBCFG?tag=deskfinds0d-20",
+    description: "The Everlasting Comfort footrest operates in two modes: a stationary flat position for consistent elevation and a rocking position for active calf movement during long desk sessions. The memory foam top layer provides cushioning underfoot while the non-slip bottom keeps it in place on hard floors.\n\nAt $22.79 it is the most affordable pick in this roundup and the one with the largest buyer feedback base confirming consistent performance. The dual-mode design means users can switch between static support and active rocking without buying two separate products.",
+    specs: ["Dual-mode: stationary + rocker","Memory foam with mesh cover","Non-slip bottom","Machine washable cover","Universal size"],
+    pros: ["4.6 stars with the largest buyer base in this roundup","Dual-mode stationary and rocker","Memory foam cushioning","Machine washable cover"],
+    cons: ["Memory foam compresses over extended use","No height adjustment"],
+    bestFor: "",
   },
   {
-    id: "comfilife",
+    id: "comfilife-adjustable",
     rank: 2,
-    badge: "Best Foam Wedge",
-    name: "ComfiLife Foot Rest Under Desk",
-    price: "$24.99",
-    rating: "4.5 stars",
-    reviews: "16,083 reviews",
-    imageUrl: `${BASE}/comfilife.webp`,
-    amazonUrl: "https://www.amazon.com/dp/B08M8ZB9YV?tag=deskfinds0d-20",
-    description:
-      "The ComfiLife foot rest uses a high-density memory foam wedge design with a removable cover and anti-slip bottom. The wedge angle promotes natural foot positioning and has earned over 16,000 verified Amazon reviews.\n\nAt $24.99 it is the more affordable premium foam option. Users who prefer a wedge-angled surface rather than a flat foam pad will find the ComfiLife design more supportive for the natural foot angle.",
-    specs: ["Memory foam wedge", "Removable cover", "Anti-slip bottom", "Ergonomic wedge angle"],
-    pros: ["16,083 reviews", "Wedge angle for natural foot position", "Removable cover", "Under $25"],
-    cons: ["No height adjustment", "No rocking motion", "Fixed wedge angle"],
-    bestFor: "Users who want a premium memory foam wedge footrest at a lower price than the top pick",
-  },
-  {
-    id: "huanuo-adjustable",
-    rank: 3,
     badge: "Best Adjustable Height",
-    name: "HUANUO Under Desk Footrest",
-    price: "$34.99",
-    rating: "4.4 stars",
-    reviews: "10,825 reviews",
-    imageUrl: `${BASE}/huanuo-adjustable.webp`,
-    amazonUrl: "https://www.amazon.com/dp/B07Q35Z4BL?tag=deskfinds0d-20",
-    description:
-      "The HUANUO under-desk footrest provides two height settings and an angle-adjustable platform with a massage-ball surface for improved circulation. The dual height settings accommodate both standard desk chairs and higher drafting chairs.\n\nAt $34.99 it is the standard reference pick for adjustable footrests. Users who switch between different chair heights benefit most from the height adjustment and massage surface combination.",
-    specs: ["2 height settings", "Angle adjustable", "Massage ball surface", "Non-slip"],
-    pros: ["10,825 reviews", "Two height settings", "Massage surface", "Angle adjustable"],
-    cons: ["$34.99 higher than foam picks", "Massage balls may be uncomfortable", "Plastic construction"],
-    bestFor: "Users who need height adjustment and massage surface for circulation during long desk sessions",
+    name: "ComfiLife Adjustable Height Foot Rest",
+    price: "$34.19",
+    rating: "4.6 stars",
+    reviews: "13,977 ratings",
+    imageUrl: `${BASE}/comfilife-adjustable.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B08DHMMBFF?tag=deskfinds0d-20",
+    description: "The ComfiLife adjustable height footrest changes height to match different chair and desk configurations, making it practical for users who share a desk or alternate between different chairs. The high-density foam maintains its shape across multiple height settings and the removable cover is machine washable.\n\nAt $34.19 it is the height-adjustable mid-range pick. Users who cannot find a fixed-height footrest at the correct lift for their setup benefit from the adjustability more than users who always work at the same desk and chair combination.",
+    specs: ["Adjustable to multiple heights","Multi-purpose use","High-density foam","Non-slip bottom","Removable washable cover"],
+    pros: ["4.6 stars","Adjustable height for different chair heights","Multi-purpose for under desk and as a seat cushion","Removable washable cover"],
+    cons: ["$34.19 higher than single-mode alternatives","Fixed angle within each height setting"],
+    bestFor: "",
   },
   {
-    id: "ergofoam-xl",
+    id: "huanuo-footrest",
+    rank: 3,
+    badge: "Best with Massage Rollers",
+    name: "HUANUO Under Desk Footrest",
+    price: "$29.99",
+    rating: "4.2 stars",
+    reviews: "13,143 ratings",
+    imageUrl: `${BASE}/huanuo-footrest.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B07L3RVF7C?tag=deskfinds0d-20",
+    description: "The HUANUO footrest provides three height settings and a massage roller strip on the top surface that users roll their feet over during desk sessions to improve circulation. The combination of height adjustment and active massage functionality in one unit differentiates it from simple foam platforms.\n\nAt $29.99 it covers the mid-range price with added active functionality. Users who want to incorporate foot massage into their desk routine without buying a separate foot massager find the HUANUO a practical two-in-one option.",
+    specs: ["3 height settings","Massage roller surface","Non-slip bottom","Adjustable tilt","ABS frame"],
+    pros: ["3 height settings","Massage rollers for foot circulation","Under $30","Large buyer base confirming function"],
+    cons: ["4.2 stars lower than top picks","ABS frame less premium than foam alternatives"],
+    bestFor: "",
+  },
+  {
+    id: "ergofoam-standard",
     rank: 4,
-    badge: "Best XL Size",
-    name: "ErgoFoam Adjustable Foot Rest Under Desk XL",
-    price: "$39.99",
-    rating: "4.4 stars",
-    reviews: "4,234 reviews",
-    imageUrl: `${BASE}/ergofoam-xl.webp`,
-    amazonUrl: "https://www.amazon.com/dp/B08H4JJ6MB?tag=deskfinds0d-20",
-    description:
-      "The ErgoFoam XL provides the largest foam footrest surface area in this roundup, featuring two height settings and a plush knit cover over memory foam. The XL dimensions accommodate larger feet and users who need more surface coverage than standard footrests.\n\nAt $39.99 the ErgoFoam XL is the premium-sized foam pick for users with larger footprints or who prefer spreading feet wider when working.",
-    specs: ["XL size larger surface", "Memory foam", "2 height settings", "Plush knit cover"],
-    pros: ["Largest surface area", "Two height settings", "Memory foam comfort", "Plush cover"],
-    cons: ["$39.99 higher price", "4,234 reviews fewer than budget options", "No rocking"],
-    bestFor: "Users with larger feet or those who want the widest possible foam footrest surface",
+    badge: "Best High-Density Foam",
+    name: "ErgoFoam Ergonomic Foot Rest",
+    price: "$33.95",
+    rating: "4.6 stars",
+    reviews: "6,579 ratings",
+    imageUrl: `${BASE}/ergofoam-standard.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B07C8836PN?tag=deskfinds0d-20",
+    description: "The ErgoFoam standard footrest uses high-density foam developed with chiropractor input to provide firm, consistent support without compressing flat over time like standard pillow foam alternatives. The velvet cover is soft underfoot whether worn with socks or bare feet.\n\nAt $33.95 it is the ergonomics-focused mid-range option. Users who prioritize long-term foam integrity and professional ergonomic validation over adjustability or active features choose the ErgoFoam for sustained daily use.",
+    specs: ["High-density chiropractor-endorsed foam","Non-slip bottom","Velvet cover","Compact size","No assembly required"],
+    pros: ["4.6 stars","Chiropractor-endorsed ergonomic design","High-density foam holds shape longer","Velvet cover soft underfoot"],
+    cons: ["Fixed single height","No rocking mode","Velvet cover shows dirt faster"],
+    bestFor: "",
   },
   {
     id: "strongtek-wood",
@@ -102,95 +102,83 @@ export const products: GuideProduct[] = [
     name: "StrongTek Ergonomic Wood Foot Rest",
     price: "$39.99",
     rating: "4.7 stars",
-    reviews: "3,135 reviews",
+    reviews: "3,135 ratings",
     imageUrl: `${BASE}/strongtek-wood.webp`,
     amazonUrl: "https://www.amazon.com/dp/B07N1QCJGZ?tag=deskfinds0d-20",
-    description:
-      "The StrongTek cherry wood footrest is the highest-rated footrest in this roundup at 4.7 stars, featuring a rocker balance board design for active movement while sitting. The cherry wood construction provides durability that foam alternatives cannot match.\n\nFor users who prefer a wood footrest with active balance board movement, the StrongTek is the established market leader in this sub-category.",
-    specs: ["Cherry wood", "Rocker balance board", "350 lb capacity", "18 inches wide"],
-    pros: ["4.7 stars highest in roundup", "Active rocking motion", "Cherry wood durability", "No assembly"],
-    cons: ["No foam cushioning", "Hard surface for bare feet", "Fixed height"],
-    bestFor: "Users who want an active balance-board wood footrest with the highest rating in the category",
+    description: "The StrongTek wood footrest is a rocker balance board rather than a foam cushion, using the curved wood base to create active calf and ankle engagement during desk sessions. The wood material does not compress, deform, or develop permanent indentations over years of use.\n\nAt $39.99 and 4.7 stars it is the highest-rated footrest in this roundup. Users who prefer firm, durable materials over foam and want the added circulation benefit of rocking movement find the StrongTek the clear premium choice.",
+    specs: ["Wood rocker balance board","Natural wood surface","Curved rocking bottom","Non-marking finish","No foam or fabric"],
+    pros: ["4.7 stars, highest in this roundup","Wood material does not compress over time","Rocking balance board for calf activation","Natural aesthetic"],
+    cons: ["Hardwood underfoot, not cushioned","Louder rocking sound than foam alternatives","$39.99 premium"],
+    bestFor: "",
   },
   {
-    id: "blistrends",
+    id: "blistends-dual",
     rank: 6,
-    badge: "Best Budget",
-    name: "BLISTRENDS Foot Rest Under Desk",
-    price: "$18.99",
-    rating: "4.3 stars",
-    reviews: "2,141 reviews",
-    imageUrl: `${BASE}/blistrends.webp`,
-    amazonUrl: "https://www.amazon.com/dp/B0BGS4C3T9?tag=deskfinds0d-20",
-    description:
-      "The BLISTRENDS foot rest provides memory foam support with a washable cover at the lowest price in this roundup. At $18.99 it is the entry-level foam footrest for users who want basic memory foam comfort without spending on premium brands.\n\nWith over 2,100 reviews and a 4.3-star rating, it demonstrates strong value despite the budget price point. Users who are unsure if they need a footrest can test one at minimal investment.",
-    specs: ["Memory foam", "Washable cover", "Anti-slip base", "Ergonomic design"],
-    pros: ["Under $20", "Memory foam included", "Washable cover", "Entry-level pick"],
-    cons: ["4.3 stars lowest in foam category", "2,141 reviews fewer than top models", "Budget foam density"],
-    bestFor: "Users who want to try an under-desk footrest at the lowest price before committing to a premium model",
+    badge: "Best Budget Adjustable",
+    name: "BlissTrends Under Desk Footrest",
+    price: "$19.98",
+    rating: "4.4 stars",
+    reviews: "8,952 ratings",
+    imageUrl: `${BASE}/blistends-dual.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B0BFQX3YFY?tag=deskfinds0d-20",
+    description: "The BlissTrends footrest provides two height settings via a removable foam layer, letting users choose between a lower profile and a taller stance with the same base unit. The dual-layer foam design uses a softer top layer for comfort and a denser base layer for structural support.\n\nAt $19.98 it is the most affordable height-adjustable option with a large confirmed buyer base. Users who want the flexibility of two height options without paying for the fully adjustable ComfiLife find the BlissTrends a practical mid-step.",
+    specs: ["2 adjustable heights","Dual-layer foam","Soft top layer + firm base","Non-slip bottom","Machine washable cover"],
+    pros: ["Under $20","4.4 stars with large buyer base","Dual-layer foam for comfort and support","Two height settings"],
+    cons: ["Top layer softness varies by user weight","No rocking mode"],
+    bestFor: "",
   },
   {
-    id: "casazenith",
+    id: "casazenith-6height",
     rank: 7,
-    badge: "Best Rocking Foam",
-    name: "CasaZenith Foot Rest Under Desk Rocking",
-    price: "$32.99",
+    badge: "Best 6-Height Settings",
+    name: "CasaZenith Under Desk Footrest",
+    price: "$19.99",
     rating: "4.4 stars",
-    reviews: "1,427 reviews",
-    imageUrl: `${BASE}/casazenith.webp`,
-    amazonUrl: "https://www.amazon.com/dp/B0B6B1DRMY?tag=deskfinds0d-20",
-    description:
-      "The CasaZenith rocking footrest combines memory foam cushioning with a curved rocker base, providing the comfort of foam alongside the active movement of a rocker design. The combination is less common in this category and suits users who want both features without switching between products.\n\nAt $32.99 it is priced between budget foam and premium adjustable picks. For users who want active foot movement with foam softness, the CasaZenith is the direct option.",
-    specs: ["Memory foam on rocker base", "Non-slip strips", "Removable cover", "Rocking + static modes"],
-    pros: ["Foam comfort with rocking motion", "Removable cover", "Unique combination", "Mid-range price"],
-    cons: ["1,427 reviews smaller sample", "Rocking on hard floors may slide", "4.4 stars"],
-    bestFor: "Users who want memory foam cushioning and active rocking motion in a single under-desk footrest",
+    reviews: "1,162 ratings",
+    imageUrl: `${BASE}/casazenith-6height.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B0CW1ZYZ7S?tag=deskfinds0d-20",
+    description: "The CasaZenith footrest provides six height settings plus massage rollers in one unit, the highest height-setting count of any adjustable footrest in this roundup. The tilt adjustment changes the surface angle independently of the height, providing more fit options than single-axis adjustable alternatives.\n\nAt $19.99 it combines height adjustment, tilt, and massage functionality at the lowest combined-feature price in this roundup. Users who want maximum adjustability on a budget find the CasaZenith covers more positions than any other option under $20.",
+    specs: ["6 height settings","Massage rollers","Adjustable tilt angle","Non-slip bottom","ABS frame + foam surface"],
+    pros: ["6 height settings","Massage rollers for foot circulation","Tilt adjustment","Under $20"],
+    cons: ["Newer product with fewer buyer ratings","4.4 stars","ABS frame"],
+    bestFor: "",
   },
   {
-    id: "ergofoam-standard",
+    id: "ergofoam-xl",
     rank: 8,
-    badge: "Best Mesh Top",
-    name: "ErgoFoam Foot Rest Under Desk Standard",
-    price: "$27.99",
-    rating: "4.4 stars",
-    reviews: "4,234 reviews",
-    imageUrl: `${BASE}/ergofoam-standard.webp`,
-    amazonUrl: "https://www.amazon.com/dp/B07P8YJFZL?tag=deskfinds0d-20",
-    description:
-      "The ErgoFoam standard model features a breathable mesh top surface rather than velvet or knit, which is the main differentiation from other foam footrests. For users in warmer environments or who prefer mesh over fabric, the breathable surface is a meaningful practical difference.\n\nAt $27.99 it sits between budget and premium in price, offering the specific benefit of a breathable mesh surface over memory foam.",
-    specs: ["Memory foam", "Mesh top surface", "Non-slip base", "Two height positions"],
-    pros: ["Breathable mesh top", "Memory foam comfort", "Two height positions", "4,234 reviews"],
-    cons: ["Mesh may feel less cushioned", "4.4 stars vs 4.5 for top picks", "Mid-range price"],
-    bestFor: "Users in warm environments who want a breathable mesh surface on a memory foam footrest",
-  },
+    badge: "Best for Tall Desks",
+    name: "ErgoFoam Tall Foot Rest for Tall Desks",
+    price: "$54.95",
+    rating: "4.7 stars",
+    reviews: "588 ratings",
+    imageUrl: `${BASE}/ergofoam-xl.webp`,
+    amazonUrl: "https://www.amazon.com/dp/B093RF1S5J?tag=deskfinds0d-20",
+    description: "The ErgoFoam XL is a 7.5-inch tall high-density foam block designed for users at tall standing-desk heights or bar stools where standard 3 to 5-inch footrests do not provide enough lift. The wide footprint accommodates both feet side by side at the elevated height.\n\nAt $54.95 it is the premium option for a specific use case: users who need substantially more elevation than standard footrests provide. For average desk and chair height combinations, the standard ErgoFoam is sufficient. The XL addresses the tall desk and stool segment directly.",
+    specs: ["7.5 inch tall foam block","High-density foam","For tall desks and bar stools","Velvet cover","Wide footprint"],
+    pros: ["4.7 stars","7.5 inch height for tall desk users","High-density foam holds shape","Handles more lift than any competitor"],
+    cons: ["$54.95 premium price","Fewer ratings","Overkill for standard desk heights"],
+    bestFor: "",
+  }
+];
+
+export const buyingCriteria: BuyingCriterion[] = [
+  { criterion: "Adjustable height vs fixed", explanation: "A fixed footrest works when your desk and chair height never change. An adjustable footrest covers multiple chair heights, different desk configurations, and shared desks. If you sit at the same chair and desk daily, a quality fixed footrest is simpler and often cheaper." },
+  { criterion: "Foam type", explanation: "Memory foam conforms to foot shape and feels softer but compresses over months of daily use. High-density foam (ErgoFoam) is firmer and holds its shape longer. Dual-layer foam (BlissTrends) combines soft top feel with a firmer base for both comfort and longevity." },
+  { criterion: "Rocking vs stationary", explanation: "Rocking footrests (StrongTek, Everlasting Comfort) activate calf and ankle muscles during long desk sessions, which improves circulation compared to holding feet static. Stationary footrests provide consistent support for users who want no movement underfoot." },
+  { criterion: "Massage surface", explanation: "Massage roller strips (HUANUO, CasaZenith) add a circulation benefit that flat foam surfaces cannot provide. The rollers are most useful for users who experience foot fatigue during long desk sessions. Flat surfaces are quieter and easier to clean." },
+  { criterion: "Size and desk clearance", explanation: "Measure the open space between your feet and the underside of the desk before purchasing. Standard footrests fit most desk clearances, but sit-stand desk converters and height-adjustable desks sometimes have lower clearance at certain heights. Also check width: a wider footrest lets you shift foot position during the day." }
 ];
 
 export const faq: { q: string; a: string }[] = [
-  {
-    q: "What height should an under-desk footrest be?",
-    a: "The ideal footrest height places your feet flat while your knees sit at or below hip level. For most standard desk chairs, a footrest between 3 and 5 inches supports the natural seated posture. Taller users or users on drafting chairs may need 6 to 9 inches.",
-  },
-  {
-    q: "Is a rocking footrest or flat footrest better?",
-    a: "Rocking footrests encourage subtle active movement that improves circulation during long sitting sessions. Flat foam footrests provide consistent cushioned support with no movement. Users who fidget or have circulation issues often prefer rocking. Users who want stable support without movement prefer flat foam.",
-  },
-  {
-    q: "Do under-desk footrests actually help with back pain?",
-    a: "Footrests that bring your feet to a comfortable flat position can reduce lower back strain by supporting proper posture alignment. When feet dangle without support, the hip angle changes and increases lumbar pressure. A footrest is not a cure for back pain but it removes one common ergonomic stressor.",
-  },
-  {
-    q: "How do I keep an under-desk footrest from sliding?",
-    a: "Look for footrests with non-slip rubber bases or anti-slip strips on the bottom. On smooth hard floors, foam footrests with rubber bases hold better than wood rockers. If sliding remains a problem, placing a desk mat under both your chair and footrest creates a unified non-slip zone.",
-  },
-  {
-    q: "How long does a memory foam footrest last?",
-    a: "Memory foam footrests typically maintain their shape for 12 to 24 months with daily use before noticeable compression occurs. Premium high-density foam lasts longer than budget foam. Rotating the footrest periodically extends useful life by distributing compression across the surface.",
-  },
+  { q: "Do under-desk footrests actually help with posture?", a: "Yes, when feet dangle without reaching the floor the thigh pressure on the seat edge reduces circulation and increases lower back tension. A footrest restores the natural foot-to-floor contact angle without requiring desk or chair height changes, which directly reduces the fatigue from dangling feet." },
+  { q: "What height footrest do I need?", a: "The correct height depends on your chair and desk combination. With your chair at the proper height for your desk, measure the gap between your feet and the floor. That measurement is your target footrest height. Most standard under-desk footrests provide 2 to 4 inches of lift, which covers most common desk and chair combinations." },
+  { q: "Are rocking footrests better than flat ones?", a: "Rocking footrests actively engage calf muscles and improve circulation, which is beneficial for users who sit for long consecutive hours. Flat stationary footrests provide consistent elevation and are quieter. For users who find active foot movement distracting, a flat footrest is the better choice." },
+  { q: "Can I use a footrest at a standing desk?", a: "Yes. At a sitting height, a footrest works normally. The ErgoFoam XL is specifically designed for users whose standing desk is set to a taller sitting height or who use a bar stool at a standing desk. For standard floor-level sitting, the standard height footrests are sufficient." },
+  { q: "How long do foam footrests last?", a: "High-density foam footrests (ErgoFoam) maintain their shape for 2 to 3 years of daily use. Standard memory foam compresses faster, typically within 1 to 2 years. Wood rockers (StrongTek) last indefinitely as wood does not compress. Removable and washable covers extend the usable life of foam footrests by keeping the cover in good condition." }
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
-  { href: "/guide/best-adjustable-under-desk-footrests", title: "Best Adjustable Under-Desk Footrests (2026)" },
-  { href: "/guide/best-rocking-footrests-under-desk", title: "Best Rocking Footrests Under Desk (2026)" },
-  { href: "/guide/best-wooden-footrests-for-desk", title: "Best Wooden Footrests for Desk (2026)" },
   { href: "/guide/best-under-desk-footrests-for-short-people", title: "Best Under-Desk Footrests for Short People (2026)" },
+  { href: "/guide/best-adjustable-under-desk-footrests", title: "Best Adjustable Under-Desk Footrests (2026)" },
+  { href: "/guide/best-rocking-footrests-under-desk", title: "Best Rocking Footrests Under Desk (2026)" }
 ];

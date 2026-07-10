@@ -14,6 +14,7 @@ import {
   products,
   faq,
   relatedGuides,
+  buyingCriteria,
   type GuideProduct,
 } from "@/data/guides/best-vertical-laptop-stands";
 
@@ -274,6 +275,22 @@ export default async function BestVerticalLaptopStandsPage() {
           <p>For stands specifically suited to MacBook models, see our <Link href='/guide/best-vertical-macbook-stands' className='text-brand hover:underline'>best vertical MacBook stands</Link> guide.</p>
         </section>
 
+        {buyingCriteria.length > 0 && (
+          <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
+            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">How to Choose the Right One</h2>
+            <p className="text-sm text-ink-muted mb-5">Key buying criteria so you get the right fit the first time.</p>
+            <div className="divide-y divide-border">
+              {buyingCriteria.map((item, i) => (
+                <div key={i} className="py-4 first:pt-0 last:pb-0">
+                  <p className="text-sm font-bold text-ink mb-1">{item.criterion}</p>
+                  <p className="text-sm text-ink-secondary leading-relaxed">{item.explanation}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+
         <nav className="mb-12 p-4 rounded-xl bg-bg border border-border">
           <p className="text-xs font-bold uppercase tracking-widest text-ink-muted mb-3">Jump to pick</p>
           <div className="flex flex-wrap gap-2">
@@ -311,8 +328,8 @@ export default async function BestVerticalLaptopStandsPage() {
               <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
               <p className="text-sm text-ink-secondary">
                 <strong className="text-ink">best overall:</strong>{" "}
-                <a href="#soundance-main" className="font-bold text-ink hover:text-brand transition-colors">Soundance Aluminum Vertical Laptop Stand</a>
-                 - 14,892 reviews at 4.5 stars, most reviewed vertical laptop stand.
+                <a href="#omoton-single" className="font-bold text-ink hover:text-brand transition-colors">OMOTON Aluminum Vertical Laptop Stand</a>
+                 - 4.8 stars, lifetime warranty and widest adjustment range in this roundup.
               </p>
             </div>
             <p className="text-sm text-ink-secondary pl-5">See the full rankings above for all eight picks with pros, cons, and best-for summaries.</p>
