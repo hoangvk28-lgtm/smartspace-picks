@@ -263,6 +263,29 @@ Every `/guide/[slug]` page must include (in order):
 | Value for Money | 20% |
 | Buyer Feedback | 15% |
 
+### Advisory / Buying Criteria Section — MANDATORY in Every Guide
+
+**This is the primary content-gap differentiator vs competitors. Do not skip it.**
+
+Every buying guide (`/guide/[slug]`) must include a substantive "How to Choose" or "What to Look For" section containing **5 or more advisory headings**. This section must:
+
+- Appear **before or immediately after the product list** — not buried at the bottom
+- Contain **specific, actionable criteria** a buyer needs to evaluate — not generic filler
+- Cover **tradeoffs competitors never explain** (e.g., "Why a 40dB motor matters for video calls", "Why weight capacity matters even if you're under 200 lbs", "The hidden cost of a narrow belt at 2 mph")
+- Each criterion must have a **clear recommendation or rule of thumb** — not just a definition
+- Be written from the angle of **"what would trip a first-time buyer"** — surface non-obvious gotchas
+
+**In `data/guides/[slug].ts`:** Populate `buyingCriteria[]` with 5+ entries. Each entry:
+```ts
+{ criterion: "Short label (3-6 words)", explanation: "2-3 sentence advisory with specific numbers or thresholds." }
+```
+
+**In `page.tsx`:** The `buyingCriteria` section renders as a card with heading "How to Choose the Right One" above the product list. Do NOT omit this section if `buyingCriteria.length > 0`.
+
+**Quality bar:** If a competitor article for the same keyword has a buying criteria section, ours must cover at least 2 points theirs does not. If competitors have none, ours becomes the strongest signal for topical authority.
+
+---
+
 ### Content Tone
 - Direct, practical, space-conscious — written for people with limited desk/room space
 - No marketing superlatives without specific backing ("the best" must be qualified)
