@@ -6,7 +6,7 @@ export const metaTitle = "Best Corner Standing Desks 2026 – L-Shaped Electric 
 export const metaDescription = "Best corner standing desks in 2026. L-shaped electric sit-stand desks with dual and triple motors, built-in charging, and 4-leg stability ranked by size, features, and value.";
 export const lastUpdated = "2026-07-11";
 export const readTime = "12 min";
-export const heroImage = `${BASE}/fezibo-l-shaped-63.jpg`;
+export const heroImage = `/images/guides/best-corner-standing-desk/hero.webp`;
 
 export interface GuideProduct {
   id: string;

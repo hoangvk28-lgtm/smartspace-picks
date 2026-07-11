@@ -6,7 +6,7 @@ export const metaTitle = "Best Office Chairs for Tall People 2026 - High Seat & 
 export const metaDescription = "Best office chairs for tall people in 2026. We compare chairs with high seat ranges, tall back support, and adjustable lumbar for users 6'1\" and above to sit ergonomically all day.";
 export const lastUpdated = "2026-07-11";
 export const readTime = "11 min";
-export const heroImage = `${BASE}/steelcase-leap-v2-black.jpg`;
+export const heroImage = `/images/guides/best-office-chair-for-tall-person/hero.webp`;
 
 export interface GuideProduct {
   id: string;

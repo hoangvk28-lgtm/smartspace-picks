@@ -6,7 +6,7 @@ export const metaTitle = "Best Executive Office Chairs 2026 - Leather & High-Bac
 export const metaDescription = "Best executive office chairs in 2026. High-back leather and premium fabric chairs ranked for home office and corporate desk setups by comfort, build quality, and design.";
 export const lastUpdated = "2026-07-11";
 export const readTime = "10 min";
-export const heroImage = `${BASE}/steelcase-gesture-leather-executive.jpg`;
+export const heroImage = `/images/guides/best-executive-office-chair/hero.webp`;
 
 export interface GuideProduct {
   id: string;

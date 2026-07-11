@@ -6,7 +6,7 @@ export const metaTitle = "Best Standing Desks for Tall People 2026 - Up to 52\" 
 export const metaDescription = "Best standing desks for tall people in 2026. We compare desks reaching 50-52 inches high for users 6'2\" and above, ranked by height range, stability, and adjustability.";
 export const lastUpdated = "2026-07-11";
 export const readTime = "11 min";
-export const heroImage = `${BASE}/flexispot-e7-pro-white-55.jpg`;
+export const heroImage = `/images/guides/best-standing-desk-for-tall-person/hero.webp`;
 
 export interface GuideProduct {
   id: string;

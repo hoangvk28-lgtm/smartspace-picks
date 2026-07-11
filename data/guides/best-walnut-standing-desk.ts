@@ -6,7 +6,7 @@ export const metaTitle = "Best Walnut Standing Desks 2026 – Black Walnut Elect
 export const metaDescription = "Best walnut standing desks in 2026. Black walnut, dark walnut, and special walnut electric sit-stand desks with one-piece tops, drawer storage, L-shaped options, and XL widths ranked by build quality.";
 export const lastUpdated = "2026-07-11";
 export const readTime = "11 min";
-export const heroImage = `${BASE}/flexispot-en1-48-black-walnut.jpg`;
+export const heroImage = `/images/guides/best-walnut-standing-desk/hero.webp`;
 
 export interface GuideProduct {
   id: string;

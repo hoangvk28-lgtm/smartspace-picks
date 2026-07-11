@@ -6,7 +6,7 @@ export const metaTitle = "Best Glass Standing Desks 2026 – Tempered Glass Elec
 export const metaDescription = "Best glass standing desks in 2026. Tempered glass electric sit-stand desks with dry-erase surfaces, drawers, monitor risers, and frosted gaming tops ranked by build quality and value.";
 export const lastUpdated = "2026-07-11";
 export const readTime = "11 min";
-export const heroImage = `${BASE}/flexispot-comhar-48-glass.jpg`;
+export const heroImage = `/images/guides/best-glass-standing-desk/hero.webp`;
 
 export interface GuideProduct {
   id: string;

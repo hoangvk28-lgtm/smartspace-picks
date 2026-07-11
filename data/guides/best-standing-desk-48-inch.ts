@@ -6,7 +6,7 @@ export const metaTitle = "Best 48 Inch Standing Desks 2026 – Compact Electric 
 export const metaDescription = "Best 48 inch standing desks in 2026. Compact electric sit-stand desks with drawers, USB charging, power strips, and all-steel frames ranked by features and price.";
 export const lastUpdated = "2026-07-11";
 export const readTime = "11 min";
-export const heroImage = `${BASE}/ergear-48-electric.jpg`;
+export const heroImage = `/images/guides/best-standing-desk-48-inch/hero.webp`;
 
 export interface GuideProduct {
   id: string;

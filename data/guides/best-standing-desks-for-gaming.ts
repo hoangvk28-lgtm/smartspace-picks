@@ -6,7 +6,7 @@ export const metaTitle = "Best Standing Desks for Gaming 2026 – RGB, Wing-Shap
 export const metaDescription = "Best standing desks for gaming in 2026. Wing-shaped battlestations, RGB frames, L-shaped dual-motor desks, and budget electric options ranked by features, stability, and value.";
 export const lastUpdated = "2026-07-11";
 export const readTime = "12 min";
-export const heroImage = `${BASE}/flexispot-e6g-cyberx-rgb.jpg`;
+export const heroImage = `/images/guides/best-standing-desks-for-gaming/hero.webp`;
 
 export interface GuideProduct {
   id: string;

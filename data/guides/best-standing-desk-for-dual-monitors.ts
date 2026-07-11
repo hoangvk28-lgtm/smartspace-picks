@@ -6,7 +6,7 @@ export const metaTitle = "Best Standing Desks for Dual Monitors 2026 – Wide Su
 export const metaDescription = "Best standing desks for dual monitors in 2026. Wide 55 to 72 inch electric desks with bamboo options, drawer storage, monitor risers, and premium European builds ranked by width and features.";
 export const lastUpdated = "2026-07-11";
 export const readTime = "11 min";
-export const heroImage = `${BASE}/desktronic-homeone-60.jpg`;
+export const heroImage = `/images/guides/best-standing-desk-for-dual-monitors/hero.webp`;
 
 export interface GuideProduct {
   id: string;

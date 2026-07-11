@@ -6,7 +6,7 @@ export const metaTitle = "Best Mesh Office Chairs 2026 - Breathable & Ergonomic"
 export const metaDescription = "Best mesh office chairs in 2026. Breathable mesh back ergonomic chairs ranked by lumbar support, breathability, adjustability, and value for all-day home office and corporate use.";
 export const lastUpdated = "2026-07-11";
 export const readTime = "10 min";
-export const heroImage = `${BASE}/herman-miller-aeron-graphite.jpg`;
+export const heroImage = `/images/guides/best-mesh-office-chair/hero.webp`;
 
 export interface GuideProduct {
   id: string;

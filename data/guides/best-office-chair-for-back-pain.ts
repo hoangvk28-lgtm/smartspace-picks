@@ -6,7 +6,7 @@ export const metaTitle = "Best Office Chairs for Back Pain 2026 - Lumbar Support
 export const metaDescription = "Best office chairs for back pain in 2026. Ergonomic chairs with adjustable lumbar support, proper seat depth, and back-friendly design ranked for users with lower back, mid-back, and sciatica pain.";
 export const lastUpdated = "2026-07-11";
 export const readTime = "11 min";
-export const heroImage = `${BASE}/herman-miller-embody-black.jpg`;
+export const heroImage = `/images/guides/best-office-chair-for-back-pain/hero.webp`;
 
 export interface GuideProduct {
   id: string;

@@ -6,7 +6,7 @@ export const metaTitle = "Best Office Chairs Under $300 in 2026 - Ergonomic Valu
 export const metaDescription = "Best office chairs under $300 in 2026. Ergonomic mesh and fabric chairs with lumbar support, adjustable arms, and all-day comfort ranked for home office and budget buyers.";
 export const lastUpdated = "2026-07-11";
 export const readTime = "10 min";
-export const heroImage = `${BASE}/branch-ergonomic-black-300.jpg`;
+export const heroImage = `/images/guides/best-office-chair-under-300/hero.webp`;
 
 export interface GuideProduct {
   id: string;

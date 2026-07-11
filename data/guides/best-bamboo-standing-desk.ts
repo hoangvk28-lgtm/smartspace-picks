@@ -6,7 +6,7 @@ export const metaTitle = "Best Bamboo Standing Desks 2026 - FSC Eco Picks";
 export const metaDescription = "Best bamboo standing desks in 2026. FSC-certified, Low-VOC, and dual-motor bamboo sit-stand desks from FlexiSpot and FEZIBO ranked by sustainability credentials and value.";
 export const lastUpdated = "2026-07-11";
 export const readTime = "11 min";
-export const heroImage = `${BASE}/flexispot-e6-bamboo-55-fsc.jpg`;
+export const heroImage = `/images/guides/best-bamboo-standing-desk/hero.webp`;
 
 export interface GuideProduct {
   id: string;

@@ -6,7 +6,7 @@ export const metaTitle = "Best Office Chairs for Short People 2026 - Low Seat He
 export const metaDescription = "Best office chairs for short people in 2026. We compare chairs with low seat heights, shorter seat depths, and adjustable lumbar for users 5'4\" and under to sit ergonomically all day.";
 export const lastUpdated = "2026-07-11";
 export const readTime = "10 min";
-export const heroImage = `${BASE}/herman-miller-aeron-size-a-black.jpg`;
+export const heroImage = `/images/guides/best-office-chair-for-short-people/hero.webp`;
 
 export interface GuideProduct {
   id: string;
