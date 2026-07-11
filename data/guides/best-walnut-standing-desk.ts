@@ -1,4 +1,4 @@
-const BASE = "/images/guides/best-walnut-standing-desk";
+﻿const BASE = "/images/guides/best-walnut-standing-desk";
 
 export const guideSlug = "best-walnut-standing-desk";
 export const guideTitle = "8 Best Walnut Standing Desks in 2026";
@@ -181,5 +181,5 @@ export const faq: { q: string; a: string }[] = [
 export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-glass-standing-desk", title: "Best Glass Standing Desks (2026)" },
   { href: "/guide/best-standing-desk-under-1000", title: "Best Standing Desks Under $1000 (2026)" },
-  { href: "/guide/corner-standing-desk", title: "Best Corner Standing Desks (2026)" },
+  { href: "/guide/best-corner-standing-desk", title: "Best Corner Standing Desks (2026)" },
 ];

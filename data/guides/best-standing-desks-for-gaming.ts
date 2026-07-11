@@ -1,4 +1,4 @@
-const BASE = "/images/guides/best-standing-desks-for-gaming";
+﻿const BASE = "/images/guides/best-standing-desks-for-gaming";
 
 export const guideSlug = "best-standing-desks-for-gaming";
 export const guideTitle = "8 Best Standing Desks for Gaming in 2026";
@@ -179,7 +179,7 @@ export const faq: { q: string; a: string }[] = [
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
-  { href: "/guide/corner-standing-desk", title: "Best Corner Standing Desks (2026)" },
-  { href: "/guide/standing-desk-for-dual-monitors", title: "Best Standing Desks for Dual Monitors (2026)" },
+  { href: "/guide/best-corner-standing-desk", title: "Best Corner Standing Desks (2026)" },
+  { href: "/guide/best-standing-desk-for-dual-monitors", title: "Best Standing Desks for Dual Monitors (2026)" },
   { href: "/guide/best-standing-desk-under-1000", title: "Best Standing Desks Under $1000 (2026)" },
 ];

@@ -1,4 +1,4 @@
-const BASE = "/images/guides/best-leather-office-chair";
+﻿const BASE = "/images/guides/best-leather-office-chair";
 
 export const guideSlug = "best-leather-office-chair";
 export const guideTitle = "8 Best Leather Office Chairs in 2026";
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: `${BASE}/steelcase-gesture-black-leather.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B078X8YRS1?tag=deskfinds0d-20",
-    description: "The Steelcase Gesture with leather upholstery is the top-rated leather ergonomic office chair for intensive daily use. The Gesture is the only chair in this guide designed to support device-based postures - it follows arm and shoulder movement when using a tablet, phone at arm height, or laptop on lap, preventing the shoulder hunching that fixed-arm chairs create in modern computing positions.\n\nThe leather option comes in genuine top-grain leather on the seat and back, with the same 12-year frame warranty as the fabric version. At $1,299.00, the Gesture leather is the highest-investment chair in this guide. For professionals who work long hours across multiple devices and want genuine leather aesthetics with proven ergonomic engineering, the Gesture leather is the benchmark. Compare with other executive options in our [executive office chair](/guide/executive-office-chair) guide.",
+    description: "The Steelcase Gesture with leather upholstery is the top-rated leather ergonomic office chair for intensive daily use. The Gesture is the only chair in this guide designed to support device-based postures - it follows arm and shoulder movement when using a tablet, phone at arm height, or laptop on lap, preventing the shoulder hunching that fixed-arm chairs create in modern computing positions.\n\nThe leather option comes in genuine top-grain leather on the seat and back, with the same 12-year frame warranty as the fabric version. At $1,299.00, the Gesture leather is the highest-investment chair in this guide. For professionals who work long hours across multiple devices and want genuine leather aesthetics with proven ergonomic engineering, the Gesture leather is the benchmark. Compare with other executive options in our [executive office chair](/guide/best-executive-office-chair) guide.",
     specs: ["Top-grain genuine leather seat and back", "360-degree arm movement", "Adjustable lumbar and seat depth", "3D arms", "LiveBack flexible lumbar", "12-year warranty"],
     pros: ["Arm mechanism follows shoulder movement for device use", "Top-grain genuine leather", "12-year warranty", "Full adjustability profile"],
     cons: ["$1,299 premium price", "Leather warmer than mesh in summer"],
@@ -178,8 +178,8 @@ export const faq: { q: string; a: string }[] = [
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
-  { href: "/guide/executive-office-chair", title: "Best Executive Office Chairs (2026)" },
-  { href: "/guide/mesh-office-chair", title: "Best Mesh Office Chairs (2026)" },
-  { href: "/guide/office-chair-for-back-pain", title: "Best Office Chairs for Back Pain (2026)" },
-  { href: "/guide/office-chair-under-500", title: "Best Office Chairs Under $500 (2026)" },
+  { href: "/guide/best-executive-office-chair", title: "Best Executive Office Chairs (2026)" },
+  { href: "/guide/best-mesh-office-chair", title: "Best Mesh Office Chairs (2026)" },
+  { href: "/guide/best-office-chair-for-back-pain", title: "Best Office Chairs for Back Pain (2026)" },
+  { href: "/guide/best-office-chair-under-500", title: "Best Office Chairs Under $500 (2026)" },
 ];

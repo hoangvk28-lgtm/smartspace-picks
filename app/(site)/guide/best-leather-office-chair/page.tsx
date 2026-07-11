@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
@@ -261,7 +261,7 @@ export default async function Page() {
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>A leather office chair delivers a professional aesthetic that mesh chairs cannot replicate - the material type (genuine, PU, or bonded leather) determines how long the surface holds up over years of daily use.</p>
           <p>This guide covers eight leather office chairs ranked by leather type (genuine vs PU), ergonomic adjustability, reclining features, and price - from budget tufted options under $190 to premium Steelcase genuine leather.</p>
-          <p>For mesh chairs that prioritize breathability over aesthetics, see our <a href='/guide/mesh-office-chair' className='text-brand hover:underline'>best mesh office chairs</a> guide.</p>
+          <p>For mesh chairs that prioritize breathability over aesthetics, see our <a href='/guide/best-mesh-office-chair' className='text-brand hover:underline'>best mesh office chairs</a> guide.</p>
         </section>
 
         {buyingCriteria.length > 0 && (

@@ -1,4 +1,4 @@
-const BASE = "/guides/best-ergonomic-chair-under-500";
+﻿const BASE = "/guides/best-ergonomic-chair-under-500";
 
 export const guideSlug = "best-ergonomic-chair-under-500";
 export const guideTitle =
@@ -85,7 +85,7 @@ export const products: ErgoChair500[] = [
     capacity: "330 lb",
     seatType: "Full mesh",
     warranty: "3 years",
-    imageUrl: `${BASE}/chair-best-ergonomic-chair-under-500-sihoo-m57-ergonomic-mesh-office-chair.webp`,
+    imageUrl: `${BASE}/chair-best-ergonomic-chair-under-500-sihoo-m57-ergonomic-best-mesh-office-chair.webp`,
     amazonUrl: "https://www.amazon.com/dp/B07BDFW1Y7?tag=deskfinds0d-20",
     whyItWorks:
       "Full mesh on both back and seat for maximum airflow. 2D lumbar adjusts both height and depth. 3D armrests. Aluminum alloy base. 330 lb. 3-year Sihoo warranty. Best value-to-spec ratio in the entire guide - 3D armrests and 2D lumbar at the Tier 1 price.",
@@ -273,7 +273,7 @@ export const products: ErgoChair500[] = [
     capacity: "~300 lb",
     seatType: "Mesh V-back",
     warranty: "Brand warranty",
-    imageUrl: `${BASE}/chair-best-ergonomic-chair-under-500-holludle-ergonomic-mesh-office-chair.webp`,
+    imageUrl: `${BASE}/chair-best-ergonomic-chair-under-500-holludle-ergonomic-best-mesh-office-chair.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0DGTBNFRP?tag=deskfinds0d-20",
     whyItWorks:
       "V-shaped dual-panel back provides independent support to left and right sides of the spine. 3D lumbar (height + depth + tilt angle) is more precise than 2D. Available in white - the cleanest aesthetic option in this guide. 3D armrests.",
@@ -310,7 +310,7 @@ export const products: ErgoChair500[] = [
     capacity: "300 lb",
     seatType: "Wide seat pan mesh",
     warranty: "Brand warranty",
-    imageUrl: `${BASE}/chair-best-ergonomic-chair-under-500-elabest-ergonomic-mesh-office-chair.webp`,
+    imageUrl: `${BASE}/chair-best-ergonomic-chair-under-500-elabest-ergonomic-best-mesh-office-chair.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CH3P8KGT?tag=deskfinds0d-20",
     whyItWorks:
       "BIFMA 5.1 certified - independently tested to commercial standards (250,000 tilt cycles, 100,000 seat drop tests). Wide seat pan for users with wider hips or thighs. Built for commercial office daily use. Rare certification at under $350.",

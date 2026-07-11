@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
@@ -261,7 +261,7 @@ export default async function Page() {
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>A standing desk for gaming lets you alternate between sitting and standing during long sessions, reducing fatigue and back strain without changing your gaming position.</p>
           <p>This guide covers eight standing desks for gaming ranked by shape (wing, L-shaped, straight), RGB features, weight capacity, and price, from budget options under $130 to premium $1,000+ battlestation desks.</p>
-          <p>For the best L-shaped corner gaming setup, see our <a href='/guide/corner-standing-desk' className='text-brand hover:underline'>best corner standing desks</a> guide.</p>
+          <p>For the best L-shaped corner gaming setup, see our <a href='/guide/best-corner-standing-desk' className='text-brand hover:underline'>best corner standing desks</a> guide.</p>
         </section>
 
         {buyingCriteria.length > 0 && (

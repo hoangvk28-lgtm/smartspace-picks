@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
@@ -261,7 +261,7 @@ export default async function Page() {
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>A bamboo standing desk replaces MDF or laminate with FSC-certified bamboo - a surface that is harder, more moisture-resistant, and grown from one of the fastest-renewing raw materials in furniture production.</p>
           <p>This guide covers eight bamboo electric standing desks ranked by FSC certification, bamboo construction (one-piece vs laminate), motor type (single vs dual), height range, and price.</p>
-          <p>For bamboo desks with higher maximum height coverage for tall users, see our <a href='/guide/standing-desk-for-tall-person' className='text-brand hover:underline'>best standing desks for tall people</a> guide.</p>
+          <p>For bamboo desks with higher maximum height coverage for tall users, see our <a href='/guide/best-standing-desk-for-tall-person' className='text-brand hover:underline'>best standing desks for tall people</a> guide.</p>
         </section>
 
         {buyingCriteria.length > 0 && (
