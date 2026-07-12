@@ -221,7 +221,7 @@ export default async function Page() {
         </div>
 
         <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-bg">
-          <Image src={heroImg} alt="Best Office Chairs Under $300" width={900} height={420} className="w-full object-cover max-h-[420px]" priority unoptimized />
+          <Image src={heroImg} alt="Best Office Chairs Under $300" width={900} height={420} className="w-full h-auto object-contain" priority unoptimized />
         </div>
 
         <section className="mb-10">

@@ -316,7 +316,7 @@ export default async function BestClampOnDeskDrawersPage() {
             alt="Best clamp-on desk drawers for home offices"
             width={900}
             height={420}
-            className="w-full object-cover max-h-[420px]"
+            className="w-full h-auto object-contain"
             priority
             unoptimized
           />

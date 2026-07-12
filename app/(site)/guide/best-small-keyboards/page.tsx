@@ -118,7 +118,7 @@ export default async function BestSmallKeyboardsPage() {
             alt="Best small keyboards for desk and dorm room"
             width={900}
             height={400}
-            className="w-full object-cover max-h-[420px]"
+            className="w-full h-auto object-contain"
             priority
             unoptimized
           />

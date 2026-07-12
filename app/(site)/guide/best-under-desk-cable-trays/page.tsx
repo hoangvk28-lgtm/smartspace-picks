@@ -134,7 +134,7 @@ export default async function BestUnderDeskCableTraysPage() {
           alt="Under desk cable tray setup"
           width={900}
           height={420}
-          className="w-full object-cover max-h-[420px]"
+          className="w-full h-auto object-contain"
           priority
           unoptimized
         />

@@ -325,7 +325,7 @@ export default async function BestWoodFileCabinetsUnder200Page() {
             alt="Best wood file cabinets under $200 for home offices"
             width={900}
             height={420}
-            className="w-full object-cover max-h-[420px]"
+            className="w-full h-auto object-contain"
             priority
             unoptimized
           />

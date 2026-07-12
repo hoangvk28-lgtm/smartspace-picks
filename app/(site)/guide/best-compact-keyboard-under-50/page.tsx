@@ -357,7 +357,7 @@ export default async function BestCompactKeyboardUnder50Page() {
             alt="Best compact keyboards under $50 in 2026"
             width={900}
             height={420}
-            className="w-full object-cover max-h-[420px]"
+            className="w-full h-auto object-contain"
             priority
             unoptimized
           />

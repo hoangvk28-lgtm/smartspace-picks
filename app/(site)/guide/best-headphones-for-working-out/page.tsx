@@ -230,7 +230,7 @@ export default async function BestHeadphonesForWorkingOutPage() {
             alt="Best headphones for working out 2026"
             width={900}
             height={420}
-            className="w-full object-cover max-h-[420px]"
+            className="w-full h-auto object-contain"
             priority
             unoptimized
           />

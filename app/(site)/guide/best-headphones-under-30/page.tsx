@@ -367,7 +367,7 @@ export default async function BestHeadphonesUnder30Page() {
             alt="Best headphones under $30 in 2026"
             width={900}
             height={420}
-            className="w-full object-cover max-h-[420px]"
+            className="w-full h-auto object-contain"
             priority
             unoptimized
           />

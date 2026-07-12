@@ -326,7 +326,7 @@ export default async function BestSolidWoodDesksPage() {
             alt="Modern minimalist home office with solid wood desk"
             width={900}
             height={420}
-            className="w-full object-cover max-h-[420px]"
+            className="w-full h-auto object-contain"
             priority
             unoptimized
           />

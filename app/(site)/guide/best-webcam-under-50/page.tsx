@@ -254,7 +254,7 @@ export default async function BestWebcamUnder50Page() {
             alt="Best webcams under $50 for small desks and dorm rooms"
             width={900}
             height={420}
-            className="w-full object-cover max-h-[420px]"
+            className="w-full h-auto object-contain"
             priority
             unoptimized
           />

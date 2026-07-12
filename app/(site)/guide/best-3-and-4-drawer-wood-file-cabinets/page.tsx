@@ -324,7 +324,7 @@ export default async function Best3And4DrawerWoodFileCabinetsPage() {
             alt="Best 3-drawer and 4-drawer wood file cabinets for home office"
             width={900}
             height={420}
-            className="w-full object-cover max-h-[420px]"
+            className="w-full h-auto object-contain"
             priority
             unoptimized
           />

@@ -321,7 +321,7 @@ export default async function BestWallMountedDesksSmallSpacesPage() {
             alt="Best wall-mounted desks for small spaces"
             width={900}
             height={420}
-            className="w-full object-cover max-h-[420px]"
+            className="w-full h-auto object-contain"
             priority
             unoptimized
           />

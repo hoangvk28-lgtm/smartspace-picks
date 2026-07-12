@@ -321,7 +321,7 @@ export default async function BestSmallStandingDeskPage() {
             alt="Best small and compact electric standing desks"
             width={900}
             height={420}
-            className="w-full object-cover max-h-[420px]"
+            className="w-full h-auto object-contain"
             priority
             unoptimized
           />

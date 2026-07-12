@@ -325,7 +325,7 @@ export default async function Best2DrawerWoodFileCabinetsPage() {
             alt="Best 2-drawer wood file cabinets for home office"
             width={900}
             height={420}
-            className="w-full object-cover max-h-[420px]"
+            className="w-full h-auto object-contain"
             priority
             unoptimized
           />

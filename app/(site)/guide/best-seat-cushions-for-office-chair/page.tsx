@@ -226,7 +226,7 @@ export default async function BestSeatCushionsPage() {
             alt="Best seat cushions for office chair 2026"
             width={900}
             height={420}
-            className="w-full object-cover max-h-[420px]"
+            className="w-full h-auto object-contain"
             priority
             unoptimized
           />

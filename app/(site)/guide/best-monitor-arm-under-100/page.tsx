@@ -340,7 +340,7 @@ export default async function BestMonitorArmUnder100Page() {
             alt="Best monitor arm under $100 in 2026"
             width={900}
             height={420}
-            className="w-full object-cover max-h-[420px]"
+            className="w-full h-auto object-contain"
             priority
             unoptimized
           />

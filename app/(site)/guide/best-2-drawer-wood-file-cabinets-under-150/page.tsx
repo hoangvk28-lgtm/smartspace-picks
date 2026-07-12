@@ -326,7 +326,7 @@ export default async function Best2DrawerWoodFileCabinetsUnder150Page() {
             alt="Best 2-drawer wood file cabinets under $150 for home office"
             width={900}
             height={420}
-            className="w-full object-cover max-h-[420px]"
+            className="w-full h-auto object-contain"
             priority
             unoptimized
           />

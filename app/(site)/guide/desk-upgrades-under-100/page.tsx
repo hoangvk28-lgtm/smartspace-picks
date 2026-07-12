@@ -181,7 +181,7 @@ export default async function DeskUpgradesUnder100Page() {
             alt="10 desk upgrades under $100"
             width={900}
             height={420}
-            className="w-full object-cover max-h-[420px]"
+            className="w-full h-auto object-contain"
             priority
             unoptimized
           />

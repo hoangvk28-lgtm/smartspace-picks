@@ -189,7 +189,7 @@ export default async function BestWirelessChargingStationsPage() {
 
         {/* Hero */}
         <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-bg">
-          <Image src={heroImg} alt="Best wireless charging stations for desk" width={900} height={420} className="w-full object-cover max-h-[420px]" priority unoptimized />
+          <Image src={heroImg} alt="Best wireless charging stations for desk" width={900} height={420} className="w-full h-auto object-contain" priority unoptimized />
         </div>
 
         {/* Quick Picks */}

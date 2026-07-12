@@ -182,7 +182,7 @@ export default async function BestDeskSetupAccessoriesPage() {
 
         <div className="rounded-2xl overflow-hidden border border-border mb-8 bg-bg">
           <Image src={heroImg} alt="Best desk setup accessories" width={900} height={420}
-            className="w-full object-cover max-h-[420px]" priority unoptimized />
+            className="w-full h-auto object-contain" priority unoptimized />
         </div>
 
         {/* Intro */}
