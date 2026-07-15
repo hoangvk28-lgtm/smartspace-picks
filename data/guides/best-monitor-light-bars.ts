@@ -3,7 +3,7 @@ export const guideSlug = "best-monitor-light-bars";
 export const guideTitle = "8 Best Monitor Light Bars (2026 Reviews)";
 export const metaTitle = "Best Monitor Light Bars (2026 Reviews)";
 export const metaDescription =
-  "Best monitor light bars in 2026. Covers BenQ ScreenBar, Quntis, Xiaomi, and budget options ranked by review count, brightness, CRI, and curved monitor compatibility.";
+  "Best monitor light bars in 2026. Covers BenQ ScreenBar, Quntis, Xiaomi, and budget options ranked by review count, brightness, CRI, and curved compatibility.";
 export const lastUpdated = "2026-07-07";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/hero.webp`;

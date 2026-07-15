@@ -3,7 +3,8 @@
 export const guideSlug = "best-glass-standing-desk";
 export const guideTitle = "8 Best Glass Standing Desks in 2026";
 export const metaTitle = "Best Glass Standing Desks 2026 – Tempered Glass Electric Picks";
-export const metaDescription = "Best glass standing desks in 2026. Tempered glass electric sit-stand desks with dry-erase surfaces, drawers, monitor risers, and frosted gaming tops ranked by build quality and value.";
+export const metaDescription =
+  "Best glass standing desks in 2026. Tempered glass electric sit-stand desks with dry-erase surfaces, drawers, and frosted gaming tops ranked by build quality.";
 export const lastUpdated = "2026-07-11";
 export const readTime = "11 min";
 export const heroImage = `/images/guides/best-glass-standing-desk/hero.webp`;

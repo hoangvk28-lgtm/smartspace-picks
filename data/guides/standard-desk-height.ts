@@ -6,7 +6,7 @@ export const standardDeskHeightGuide: Guide = {
   categorySlug: "desk-setup",
   subcategorySlug: "desk-ergonomics",
   description:
-    "Standard desk height in the U.S. is 29-30 inches. Learn the correct desk height for your body height, how to measure your seated elbow height, and what to do when your desk is the wrong height.",
+    "Standard desk height in the U.S. is 29-30 inches. Learn the correct desk height for your body, how to measure elbow height, and what to do if it's wrong.",
   mainKeyword: "standard desk height",
   subKeywords: [
     "desk height inches",

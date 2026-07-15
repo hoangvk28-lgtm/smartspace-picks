@@ -5,7 +5,7 @@ const BASE = "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/
 export const compareSlug = "lap-desk-vs-standing-desk-converter";
 export const compareTitle = "Lap Desk vs Standing Desk Converter: Which Solves Your Space Problem?";
 export const compareDescription =
-  "Lap desk vs standing desk converter — we compare ergonomics, portability, price, and desk space with 5 picks. Includes a decision flowchart for remote workers, students, and small-space setups.";
+  "Lap desk vs standing desk converter — we compare ergonomics, portability, price, and space with 5 picks, plus a flowchart for remote workers and students.";
 export const lastUpdated = "2026-06-06";
 export const readTime = "11 min";
 export const heroImage = `${BASE}/06-lap-desk-vs-standing-desk-converter-hero.webp`;

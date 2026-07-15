@@ -5,7 +5,7 @@ export const guideDescription =
   "Every product below was chosen with its base dimensions as the primary filter. Only chargers that realistically fit the desk sizes most people actually have -- dorm desks, apartment work corners, shared home office setups, and small standing desks.";
 export const metaTitle = "Best Small Desk Charging Stations (2026)";
 export const metaDescription =
-  "5 compact charging stations chosen for small desks -- with real footprint dimensions, vertical vs flat comparison, and cable management tips for tight workspaces.";
+  "5 compact charging stations chosen for small desks -- with real footprint dimensions, vertical vs flat comparison, and cable management tips.";
 export const lastUpdated = "2026-06-03";
 export const readTime = "11 min";
 export const heroImage = `${BASE}/06-best-small-desk-charging-stations-hero.webp`;

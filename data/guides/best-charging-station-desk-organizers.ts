@@ -5,7 +5,7 @@ export const guideDescription =
   "One product, one cable, one footprint. Your phone charges. Your pens have a home. This guide breaks down the charging organizer category by use case -- every pick genuinely does both jobs.";
 export const metaTitle = "Best Charging Station Desk Organizers (2026)";
 export const metaDescription =
-  "6 desk organizers with built-in charging tested for real use -- wireless pads, USB hubs, and compact combos. Includes what slots you need and cable management tips.";
+  "6 desk organizers with built-in charging tested for real use -- wireless pads, USB hubs, and compact combos. Includes slot guidance and cable management tips.";
 export const lastUpdated = "2026-06-03";
 export const readTime = "11 min";
 export const heroImage = `${BASE}/07-hero-best-charging-station-desk-organizers.webp`;

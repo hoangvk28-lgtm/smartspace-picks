@@ -5,7 +5,7 @@ export const guideDescription =
   "Most people adjust their chair to match their desk. That's backwards -- and it's why neck pain, wrist strain, and eye fatigue are so common in home offices. Here is the correct order.";
 export const metaTitle = "Ergonomic Desk Setup: Position Everything Correctly (2026)";
 export const metaDescription =
-  "Learn how to set up an ergonomic desk the right way -- monitor height, chair position, keyboard placement, and the products that help. Research-based guide for small desks.";
+  "Learn how to set up an ergonomic desk the right way -- monitor height, chair position, keyboard placement, and the products that help. A research-based guide.";
 export const lastUpdated = "May 2026";
 export const readTime = "12 min";
 export const heroImage = `${BASE}/01-monitor-riser-with-storage-shelf.webp`;

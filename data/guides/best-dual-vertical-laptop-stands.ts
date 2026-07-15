@@ -3,7 +3,8 @@ const BASE = "/images/guides/best-dual-vertical-laptop-stands";
 export const guideSlug = "best-dual-vertical-laptop-stands";
 export const guideTitle = "8 Best Dual Vertical Laptop Stands (2026)";
 export const metaTitle = "Best Dual Vertical Laptop Stands 2026";
-export const metaDescription = "Best dual vertical laptop stands in 2026. Independent-slot aluminum stands, 4-in-1 organizers, 360-degree rotating designs, and walnut premium dual stands ranked by Amazon buyer rating.";
+export const metaDescription =
+  "Best dual vertical laptop stands in 2026. Independent-slot aluminum stands, 4-in-1 organizers, and walnut premium dual stands ranked by buyer rating.";
 export const lastUpdated = "2026-07-10";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/hero.webp`;

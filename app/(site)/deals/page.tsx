@@ -27,7 +27,7 @@ export const dynamic = "force-dynamic";
 export const metadata: Metadata = buildMetadata({
   title: "Amazon Finds for Small Spaces – Budget-Friendly Picks",
   description:
-    "Budget-friendly Amazon products for small spaces, dorm rooms, and compact desks. Curated for value – all picks scored on real criteria, not sponsored placements.",
+    "Budget-friendly Amazon products for small spaces, dorm rooms, and compact desks. Curated for value — scored on real criteria, not sponsored placement.",
   path: "/deals",
 });
 

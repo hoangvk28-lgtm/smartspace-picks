@@ -4,7 +4,7 @@ export const guideSlug = "best-desk-hutches-for-dorm-rooms";
 export const guideTitle = "8 Best Desk Hutches for Dorm Rooms (2026)";
 export const metaTitle = "Best Desk Hutches for Dorm Rooms 2026";
 export const metaDescription =
-  "Best desk hutches for dorm rooms in 2026. Compact options that fit twin XL setups, add vertical storage, and keep textbooks and supplies organized on a small desk.";
+  "Best desk hutches for dorm rooms in 2026. Compact options that fit twin XL setups, add vertical storage, and keep supplies organized on a small desk.";
 export const lastUpdated = "2026-07-07";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/hero.webp`;

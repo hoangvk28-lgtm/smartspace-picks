@@ -3,7 +3,8 @@
 export const guideSlug = "best-standing-desk-48-inch";
 export const guideTitle = "8 Best 48 Inch Standing Desks in 2026";
 export const metaTitle = "Best 48 Inch Standing Desks 2026 – Compact Electric Picks";
-export const metaDescription = "Best 48 inch standing desks in 2026. Compact electric sit-stand desks with drawers, USB charging, power strips, and all-steel frames ranked by features and price.";
+export const metaDescription =
+  "Best 48 inch standing desks in 2026. Compact electric sit-stand desks with drawers, USB charging, power strips, and all-steel frames ranked by features.";
 export const lastUpdated = "2026-07-11";
 export const readTime = "11 min";
 export const heroImage = `/images/guides/best-standing-desk-48-inch/hero.webp`;

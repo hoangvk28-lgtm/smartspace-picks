@@ -8,7 +8,7 @@ import { buildMetadata, SITE_URL } from "@/lib/seo";
 const baseMeta = buildMetadata({
   title: "About DeskFinds | Small-Space Desk Setup Buying Guides",
   description:
-    "DeskFinds helps students, remote workers, renters, and small-space users find practical desk setup products through research-based buying guides, comparisons, and transparent affiliate recommendations.",
+    "DeskFinds helps students, remote workers, and small-space users find practical desk products through research-based buying guides and comparisons.",
   path: "/about-deskfinds",
 });
 

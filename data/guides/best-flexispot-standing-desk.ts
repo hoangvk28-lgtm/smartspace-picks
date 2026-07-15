@@ -4,7 +4,7 @@ export const guideSlug = "best-flexispot-standing-desk";
 export const guideTitle = "Best FlexiSpot Standing Desks in 2026: Every Model Ranked";
 export const metaTitle = "Best FlexiSpot Standing Desks in 2026";
 export const metaDescription =
-  "Best FlexiSpot standing desks in 2026 - EN1, EN2, Comhar, and bamboo models ranked. Model hierarchy chart, 2-stage vs 3-stage explained, Reddit verdict included.";
+  "Best FlexiSpot standing desks in 2026 - EN1, EN2, Comhar, and bamboo models ranked. Model hierarchy chart and 2-stage vs 3-stage motor explained.";
 export const lastUpdated = "2026-06-30";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/00-hero.webp`;

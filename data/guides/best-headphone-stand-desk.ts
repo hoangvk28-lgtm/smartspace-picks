@@ -4,7 +4,8 @@ export const guideTitle =
 export const guideDescription =
   "We tested 8 headphone stands across desktop, under-desk, and clamp styles -- scored on footprint, stability, and bonus features. Includes budget picks, USB hub combos, and space-saving alternatives.";
 export const metaTitle = "Best Headphone Stand for Desk (2026)";
-export const metaDescription = "8 headphone stands for desk setups -- rated on footprint, stability, and features. USB hub combos, wireless charger options, and zero-footprint under-desk picks.";
+export const metaDescription =
+  "8 headphone stands for desk setups -- rated on footprint, stability, and features. USB hub combos, wireless charger options, and under-desk picks.";
 export const lastUpdated = "2026-05-27";
 export const readTime = "13 min";
 export const heroImage =

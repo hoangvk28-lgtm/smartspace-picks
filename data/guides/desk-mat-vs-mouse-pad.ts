@@ -5,7 +5,7 @@ const BASE = "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/
 export const compareSlug = "desk-mat-vs-mouse-pad";
 export const compareTitle = "Desk Mat vs Mouse Pad: Which One Is Right for Your Setup?";
 export const compareDescription =
-  "Desk mat vs mouse pad — we compare tracking surface, desk protection, aesthetics, price, and size with 5 specific picks. Includes a decision flowchart for gamers, WFH setups, and small desks.";
+  "Desk mat vs mouse pad — we compare tracking surface, desk protection, aesthetics, price, and size with 5 picks, plus a decision flowchart for gamers and WFH.";
 export const lastUpdated = "2026-06-06";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/06-desk-mat-vs-mouse-pad-hero.webp`;

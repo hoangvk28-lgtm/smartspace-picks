@@ -3,7 +3,8 @@
 export const guideSlug = "best-office-chair-for-back-pain";
 export const guideTitle = "8 Best Office Chairs for Back Pain in 2026";
 export const metaTitle = "Best Office Chairs for Back Pain 2026 - Lumbar Support Ranked";
-export const metaDescription = "Best office chairs for back pain in 2026. Ergonomic chairs with adjustable lumbar support, proper seat depth, and back-friendly design ranked for users with lower back, mid-back, and sciatica pain.";
+export const metaDescription =
+  "Best office chairs for back pain in 2026. Ergonomic chairs with adjustable lumbar support and seat depth ranked for lower back, mid-back, and sciatica pain.";
 export const lastUpdated = "2026-07-11";
 export const readTime = "11 min";
 export const heroImage = `/images/guides/best-office-chair-for-back-pain/hero.webp`;

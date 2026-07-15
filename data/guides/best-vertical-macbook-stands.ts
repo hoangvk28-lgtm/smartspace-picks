@@ -3,7 +3,8 @@ const BASE = "/images/guides/best-vertical-macbook-stands";
 export const guideSlug = "best-vertical-macbook-stands";
 export const guideTitle = "8 Best Vertical MacBook Stands (2026)";
 export const metaTitle = "Best Vertical MacBook Stands 2026";
-export const metaDescription = "Best vertical MacBook stands in 2026. Dedicated MacBook-only arc designs, universal aluminum stands, dual-slot options, and walnut premium stands ranked by Amazon buyer rating.";
+export const metaDescription =
+  "Best vertical MacBook stands in 2026. Dedicated arc designs, universal aluminum stands, dual-slot options, and walnut stands ranked by buyer rating.";
 export const lastUpdated = "2026-07-10";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/hero.webp`;

@@ -6,7 +6,7 @@ export const guideDescription =
   "The gaming headset market is full of RGB plastic and inflated specs. A $40 headset can genuinely outperform a $120 competitor if the drivers are tuned correctly and the microphone does not sound like a tin can. This guide covers 7 picks in 2026: budget wired, budget wireless, best AI mic under $80, mid-range wireless, and three premium options.";
 export const metaTitle = "7 Best Gaming Headsets: Budget to Premium (2026)";
 export const metaDescription =
-  "7 best gaming headsets in 2026 from $39 to $229, covering wired 3.5mm, wireless 2.4GHz, and premium ANC picks for PC, PS5, Xbox, and Switch. Compared by mic quality, battery, and platform support.";
+  "7 best gaming headsets in 2026 from $39-$229, covering wired, wireless 2.4GHz, and ANC picks for PC, PS5, Xbox, and Switch. Compared by mic and battery.";
 export const lastUpdated = "2026-06-14";
 export const readTime = "12 min";
 export const heroImage = `${BASE}/8-hero-best-gaming-headsets-2026.webp`;

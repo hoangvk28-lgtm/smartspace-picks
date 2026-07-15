@@ -4,7 +4,7 @@ export const guideSlug = "best-desk-hutches-for-small-desks";
 export const guideTitle = "8 Best Desk Hutches for Small Desks (2026)";
 export const metaTitle = "Best Desk Hutches for Small Desks (2026)";
 export const metaDescription =
-  "Best desk hutches for small desks in 2026. Compact designs under 40 inches wide that organize monitors, books, and supplies without overwhelming a tight workspace.";
+  "Best desk hutches for small desks in 2026. Compact designs under 40 inches wide that organize monitors, books, and supplies without overwhelming the space.";
 export const lastUpdated = "2026-07-07";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/hero.webp`;

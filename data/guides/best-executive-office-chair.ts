@@ -3,7 +3,8 @@
 export const guideSlug = "best-executive-office-chair";
 export const guideTitle = "8 Best Executive Office Chairs in 2026";
 export const metaTitle = "Best Executive Office Chairs 2026 - Leather & High-Back";
-export const metaDescription = "Best executive office chairs in 2026. High-back leather and premium fabric chairs ranked for home office and corporate desk setups by comfort, build quality, and design.";
+export const metaDescription =
+  "Best executive office chairs in 2026. High-back leather and premium fabric chairs ranked for home office setups by comfort and build quality.";
 export const lastUpdated = "2026-07-11";
 export const readTime = "10 min";
 export const heroImage = `/images/guides/best-executive-office-chair/hero.webp`;

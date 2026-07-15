@@ -5,7 +5,7 @@ export const guideDescription =
   "The challenge with multi-device chargers is picking the right wattage. Too low, and everything charges slowly. Too high, and you pay for capacity you will never use. This guide solves that with a watt-per-device calculator before the picks.";
 export const metaTitle = "Best Multi-Device Desk Charging Stations (2026)";
 export const metaDescription =
-  "6 multi-device desk charging stations ranked by device count. Includes a watt-per-device calculator to buy exactly the right wattage for your setup -- not too little, not too much.";
+  "6 multi-device desk charging stations ranked by device count. Includes a watt-per-device calculator to buy exactly the right wattage for your setup.";
 export const lastUpdated = "2026-06-03";
 export const readTime = "12 min";
 export const heroImage = `${BASE}/07-hero-charging-stations-for-multiple-devices-desk.webp`;

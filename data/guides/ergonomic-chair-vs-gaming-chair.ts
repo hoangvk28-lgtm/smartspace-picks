@@ -6,7 +6,7 @@ export const ergonomicChairVsGamingChairGuide: Guide = {
   categorySlug: "desk-setup",
   subcategorySlug: "ergonomic-chairs",
   description:
-    "Gaming chairs look good but perform poorly for 8-hour workdays. This guide compares lumbar support quality, materials, adjustability, and price tiers so you can make the right call.",
+    "Gaming chairs look good but perform poorly for 8-hour workdays. This guide compares lumbar support, materials, and price tiers to help you choose.",
   mainKeyword: "ergonomic chair vs gaming chair",
   subKeywords: [
     "gaming chair vs office chair",

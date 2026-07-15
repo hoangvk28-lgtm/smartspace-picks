@@ -5,7 +5,7 @@ export const guideDescription =
   "A docking station turns six cables into one. Plug in the Thunderbolt or USB-C cable, and the laptop instantly connects to every monitor, peripheral, and charger at once. Pick it up, pull one cable. Come back, plug in one cable.";
 export const metaTitle = "Best Docking Stations for Desk Setup (2026)";
 export const metaDescription =
-  "6 docking stations tested for desk setups -- TB4, USB4, and USB-C picks. Includes the plain-English TB4 vs USB-C guide nobody else writes, plus a 5-step setup walkthrough.";
+  "6 docking stations tested for desk setups -- TB4, USB4, and USB-C picks. Includes a plain-English TB4 vs USB-C guide plus a 5-step setup walkthrough.";
 export const lastUpdated = "2026-06-03";
 export const readTime = "14 min";
 export const heroImage = `${BASE}/07-hero-bai-6-best-docking-stations-for-desk-setup.webp`;

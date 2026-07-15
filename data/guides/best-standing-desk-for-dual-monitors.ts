@@ -3,7 +3,8 @@
 export const guideSlug = "best-standing-desk-for-dual-monitors";
 export const guideTitle = "8 Best Standing Desks for Dual Monitors in 2026";
 export const metaTitle = "Best Standing Desks for Dual Monitors 2026 – Wide Surface Picks";
-export const metaDescription = "Best standing desks for dual monitors in 2026. Wide 55 to 72 inch electric desks with bamboo options, drawer storage, monitor risers, and premium European builds ranked by width and features.";
+export const metaDescription =
+  "Best standing desks for dual monitors in 2026. Wide 55-72 inch electric desks with drawer storage and premium builds ranked by width and features.";
 export const lastUpdated = "2026-07-11";
 export const readTime = "11 min";
 export const heroImage = `/images/guides/best-standing-desk-for-dual-monitors/hero.webp`;

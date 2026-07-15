@@ -3,7 +3,8 @@
 export const guideSlug = "best-office-chair-under-500";
 export const guideTitle = "8 Best Office Chairs Under $500 in 2026";
 export const metaTitle = "Best Office Chairs Under $500 in 2026 - Mid-Range Picks";
-export const metaDescription = "Best office chairs under $500 in 2026. Mid-range ergonomic chairs with full adjustability, mesh and leather options, ranked for buyers who want more than budget but don't need premium branding.";
+export const metaDescription =
+  "Best office chairs under $500 in 2026. Mid-range ergonomic chairs with full adjustability, mesh and leather options, for buyers who want more than budget.";
 export const lastUpdated = "2026-07-11";
 export const readTime = "10 min";
 export const heroImage = `/images/guides/best-office-chair-under-500/hero.webp`;

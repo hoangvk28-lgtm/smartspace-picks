@@ -3,7 +3,8 @@
 export const guideSlug = "best-leather-office-chair";
 export const guideTitle = "8 Best Leather Office Chairs in 2026";
 export const metaTitle = "Best Leather Office Chairs 2026 - Genuine & PU Leather";
-export const metaDescription = "Best leather office chairs in 2026. Genuine leather, top-grain, and PU leather office chairs ranked by comfort, durability, lumbar support, and value for home offices and executive desks.";
+export const metaDescription =
+  "Best leather office chairs in 2026. Genuine, top-grain, and PU leather office chairs ranked by comfort, durability, lumbar support, and value.";
 export const lastUpdated = "2026-07-11";
 export const readTime = "10 min";
 export const heroImage = `/images/guides/best-leather-office-chair/hero.webp`;

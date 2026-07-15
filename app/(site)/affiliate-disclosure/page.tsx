@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "Affiliate Disclosure - DeskFinds",
   description:
-    "DeskFinds participates in the Amazon Associates program. Read our complete affiliate disclosure, including how we earn commissions and why it doesn't affect our recommendations.",
+    "DeskFinds participates in the Amazon Associates program. Read our disclosure on how we earn commissions and why it doesn't affect our recommendations.",
   path: "/affiliate-disclosure",
 });
 

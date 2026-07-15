@@ -141,7 +141,7 @@ export const guides: Guide[] = [
     categorySlug: "desk-setup",
     subcategorySlug: "desk-lamps",
     description:
-      "We compared 12 desk lamps specifically for small desk and dorm room use. Here are the top picks for students, remote workers, and compact home offices - evaluated on light quality, footprint, and value.",
+      "We compared 12 desk lamps for small desk and dorm room use. Top picks for students and compact home offices, evaluated on quality and footprint.",
     mainKeyword: "best desk lamp for small desk",
     subKeywords: [
       "desk lamp for dorm room",
@@ -212,7 +212,7 @@ export const guides: Guide[] = [
     categorySlug: "desk-setup",
     subcategorySlug: "monitor-stands",
     description:
-      "Eight monitor stands and arms evaluated specifically for small desk setups. Covers budget risers, bamboo stands, adjustable-height options, single and dual monitor arms, and minimalist wood picks - with honest tradeoffs for each.",
+      "Eight monitor stands and arms evaluated for small desk setups. Covers budget risers, bamboo stands, adjustable options, and monitor arms, with tradeoffs.",
     mainKeyword: "best monitor stand for small desk",
     subKeywords: [
       "best monitor stand",
@@ -308,7 +308,7 @@ export const guides: Guide[] = [
     categorySlug: "desk-setup",
     subcategorySlug: "laptop-stands",
     description:
-      "Six laptop stands evaluated for small desk and portable use. Top picks for students, remote workers, and dorm rooms - from premium aluminum to ultra-budget options.",
+      "Six laptop stands evaluated for small desk and portable use. Top picks for students, remote workers, and dorm rooms, from premium aluminum to ultra-budget.",
     mainKeyword: "best laptop stand for small desk",
     subKeywords: [
       "portable laptop stand",
@@ -492,7 +492,7 @@ export const guides: Guide[] = [
     categorySlug: "small-room-storage",
     subcategorySlug: "under-bed-storage",
     description:
-      "The space under your bed is the most underutilized room in a small bedroom. These are the best bags and containers that actually fit, stay organized, and last a full year.",
+      "The space under your bed is the most underutilized room in a small bedroom. These are the best bags and containers that actually fit and stay organized.",
     mainKeyword: "best under bed storage small room",
     subKeywords: [
       "under bed storage bags",
@@ -562,7 +562,7 @@ export const guides: Guide[] = [
     categorySlug: "desk-setup",
     subcategorySlug: "desk-organizers",
     description:
-      "We evaluated 14 desk organizers specifically for compact desks and dorm setups - comparing footprint, capacity, and whether they actually reduce clutter or just relocate it. Here are the picks worth buying.",
+      "We evaluated 14 desk organizers for compact desks and dorm setups, comparing footprint, capacity, and whether they reduce clutter. Top picks here.",
     mainKeyword: "best desk organizer for small desk",
     subKeywords: [
       "desk organizer dorm room",
@@ -637,7 +637,7 @@ export const guides: Guide[] = [
     categorySlug: "dorm-essentials",
     subcategorySlug: "shower-caddies",
     description:
-      "The walk from your dorm room to the communal shower is a daily ritual that a good caddy makes significantly less annoying. We compared 9 shower caddies for dorm-specific use - shared bathrooms, walk-to-shower carries, and rust resistance.",
+      "The walk to the communal shower is a daily ritual a good caddy makes less annoying. We compared 9 shower caddies for dorm-specific use and rust resistance.",
     mainKeyword: "best shower caddy for dorm room",
     subKeywords: [
       "dorm shower caddy",
@@ -707,7 +707,7 @@ export const guides: Guide[] = [
     categorySlug: "small-room-storage",
     subcategorySlug: "storage-bins",
     description:
-      "Small rooms and dorm closets fail in predictable ways. We evaluated the storage solutions that address the most common failure modes - overcrowded shelves, wasted door space, and bulky seasonal clothing - with specific picks for 2026.",
+      "Small rooms and dorm closets fail in predictable ways. We evaluated storage solutions for overcrowded shelves, wasted door space, and bulky seasonal clothing.",
     mainKeyword: "best storage solutions for small rooms",
     subKeywords: [
       "small room closet organization",
@@ -781,7 +781,7 @@ export const guides: Guide[] = [
     categorySlug: "dorm-essentials",
     subcategorySlug: "power-strips",
     description:
-      "Outlet access is one of the most frustrating constraints in a dorm room. These are the charging solutions that solve it - without violating housing electrical policies - evaluated for desk use, bedside charging, and the specific needs of students with multiple devices.",
+      "Outlet access is a frustrating dorm constraint. These charging solutions solve it without violating housing policies, for desks, bedside, and multiple devices.",
     mainKeyword: "best power strip for dorm room",
     subKeywords: [
       "dorm room power strip",

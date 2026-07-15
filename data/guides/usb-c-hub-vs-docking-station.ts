@@ -5,7 +5,7 @@ const BASE = "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/
 export const compareSlug = "usb-c-hub-vs-docking-station";
 export const compareTitle = "USB-C Hub vs Docking Station: Which One Does Your Desk Actually Need?";
 export const compareDescription =
-  "USB-C hub vs docking station — we compare ports, power delivery, display support, price, and portability with 5 specific picks. Includes a decision flowchart and real-use scenarios for small desks, laptops, and WFH setups.";
+  "USB-C hub vs docking station — we compare ports, power delivery, display support, and price with 5 picks, plus a decision flowchart for laptops and WFH setups.";
 export const lastUpdated = "2026-06-06";
 export const readTime = "12 min";
 export const heroImage = `${BASE}/06-usb-c-hub-vs-docking-station-hero.webp`;

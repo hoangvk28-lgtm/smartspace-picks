@@ -5,7 +5,7 @@ export const guideDescription =
   "Most webcam guides assume you have a spacious home studio, a wide monitor, and no roommate. This one doesn't. Here are the best budget webcams for small desks, dorm rooms, thin-bezel laptops, and buyers who just want something that works — no drivers, no fuss, no wasted desk space.";
 export const metaTitle = "Best Webcams Under $50 for Small Desks & Dorm Rooms (2026)";
 export const metaDescription =
-  "5 budget webcams under $50 for students and small-desk setups — best overall, under $30, under $20, privacy shutter picks, and Chromebook-compatible options with real buying guidance.";
+  "5 budget webcams under $50 for students and small-desk setups — best overall, under $30, under $20, privacy shutter, and Chromebook-compatible picks.";
 export const lastUpdated = "2026-06-06";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/06-best-webcam-under-50-hero.webp`;

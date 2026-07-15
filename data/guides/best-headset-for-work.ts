@@ -6,7 +6,7 @@ export const guideDescription =
   "Most best work headset guides start at $150. That ignores the reality that a $35 USB headset handles Zoom calls and Teams meetings just as well as a $250 ANC headphone, if you pick the right one. This guide covers 7 headsets for work in 2026: wired, wireless, budget to premium.";
 export const metaTitle = "7 Best Headsets for Work: Budget to Premium (2026)";
 export const metaDescription =
-  "7 best work headsets in 2026 from under $40 to $250: wired USB, wireless Bluetooth, Teams-certified, and consumer ANC picks. Compared by call clarity, battery, mic quality, and platform support.";
+  "7 best work headsets in 2026 from $40-$250: wired USB, wireless Bluetooth, Teams-certified, and consumer ANC picks compared by call clarity and mic quality.";
 export const lastUpdated = "2026-06-14";
 export const readTime = "11 min";
 export const heroImage = `${BASE}/8-hero-best-headset-for-work.webp`;

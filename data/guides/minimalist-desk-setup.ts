@@ -5,7 +5,7 @@ export const guideDescription =
   "A minimalist desk setup is not about removing everything from your workspace. It is about keeping only the items that make your desk easier to use, easier to clean, and easier to focus on.";
 export const metaTitle = "Minimalist Desk Setup Ideas for a Clean, Clutter-Free Workspace";
 export const metaDescription =
-  "Build a minimalist desk setup with 10 clean workspace ideas, including desk mats, slim organizers, cable trays, wireless chargers, compact lamps, and simple accessories that earn their place.";
+  "Build a minimalist desk setup with 10 clean workspace ideas, including desk mats, slim organizers, cable trays, wireless chargers, and simple accessories.";
 export const lastUpdated = "May 2026";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/11-hero-image.webp`;

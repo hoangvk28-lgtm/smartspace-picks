@@ -95,7 +95,7 @@ export const products: Product[] = [
       buyerFeedback: 8.4,
     },
     reviewSummary:
-      "The best budget desk lamp we evaluated for students. It trades some build quality for a very competitive price and includes features - five color temperatures, a USB port, and a memory function - that often cost twice as much on competing models. The slim base keeps most desk space clear, which matters on a typical 48-inch dorm or bedroom desk.",
+      "The best budget desk lamp we tested for students. Includes five color temperatures, a USB port, and memory function that often cost twice as much elsewhere.",
     alternatives: ["wide-angle-study-lamp"],
     relatedGuideSlugs: ["desk-lamps-small-desks"],
   },
@@ -151,7 +151,7 @@ export const products: Product[] = [
       buyerFeedback: 9.2,
     },
     reviewSummary:
-      "The top-rated option for serious desk users. Its wide illumination arc, ambient auto-dimming, and zero-flicker design address every major complaint seen in reviews of cheaper lamps. The clamp mount is genuinely transformative for small desks - it gives you back the footprint of a full lamp base. The premium price is justified for daily users; budget buyers should look at the Compact LED Lamp instead.",
+      "The top-rated option for serious desk users. Wide illumination arc, ambient auto-dimming, and zero-flicker design address complaints seen in cheaper lamps.",
     alternatives: ["compact-led-lamp-usb"],
     relatedGuideSlugs: ["desk-lamps-small-desks"],
   },
@@ -206,7 +206,7 @@ export const products: Product[] = [
       buyerFeedback: 8.5,
     },
     reviewSummary:
-      "The simplest high-quality monitor riser we evaluated. No assembly, generous load capacity, and a storage shelf that effectively adds a layer of usable desk space under your screen. The fixed 3-inch height works for most seated desk positions; users who need higher elevation should choose a monitor arm.",
+      "The simplest high-quality monitor riser we tested. No assembly, generous load capacity, and a storage shelf that adds usable desk space under your screen.",
     alternatives: ["dual-monitor-arm-mount"],
     relatedGuideSlugs: ["monitor-stands-small-desks"],
   },
@@ -262,7 +262,7 @@ export const products: Product[] = [
       buyerFeedback: 8.4,
     },
     reviewSummary:
-      "The best option for dual-monitor users who want to reclaim their desk surface. Once installed, both screens float freely above the desk, completely eliminating monitor bases. The one-time 30–45 minute setup is worth it for anyone who will benefit from this daily. Single-monitor users and those on lightweight desks are better served by a simple riser.",
+      "The best option for dual-monitor users who want to reclaim desk surface. Both screens float freely above the desk after a one-time 30-45 minute setup.",
     alternatives: ["adjustable-monitor-riser"],
     relatedGuideSlugs: ["monitor-stands-small-desks"],
   },
@@ -317,7 +317,7 @@ export const products: Product[] = [
       buyerFeedback: 8.2,
     },
     reviewSummary:
-      "WALI's STT003 is a no-nonsense steel riser under $28. Three sensible height settings, a vented platform, and a wide enough base for most 24-27 inch monitors. The push-button height adjustment is a practical detail most competitors at this price omit. Under-screen storage fits a standard keyboard. The pick for anyone who wants a reliable metal riser without paying extra for features they don't need.",
+      "WALI's STT003 is a no-nonsense steel riser under $28. Three height settings, a vented platform, and push-button adjustment most competitors at this price omit.",
     alternatives: ["huanuo-monitor-riser", "gianotter-monitor-stand"],
     relatedGuideSlugs: ["monitor-stands-small-desks"],
   },
@@ -372,7 +372,7 @@ export const products: Product[] = [
       buyerFeedback: 8.7,
     },
     reviewSummary:
-      "A practical upgrade over a plain riser for anyone who needs desk storage without adding footprint. The two drawers are sized for exactly the items that accumulate on small desks: charging cables, sticky notes, pens, earbuds. Vented steel construction means it will not trap heat under the monitor, and the 44 lb capacity covers nearly all consumer monitors. The best choice when hidden storage is the priority.",
+      "A practical upgrade over a plain riser for anyone needing desk storage without more footprint. Two drawers, vented steel, 44 lb capacity, hidden storage.",
     alternatives: ["wali-stt003-riser", "gianotter-monitor-stand"],
     relatedGuideSlugs: ["monitor-stands-small-desks"],
   },
@@ -427,7 +427,7 @@ export const products: Product[] = [
       buyerFeedback: 8.4,
     },
     reviewSummary:
-      "A smart combination of height adjustment and drawer storage at an accessible price. The vented grid platform and pull-out drawer make it one of the more functional fixed-riser options in this roundup. It works particularly well in compact dorm setups or small home offices where a separate desk organizer is not practical. Best for users who want a single organized unit rather than a bare riser plus a separate storage box.",
+      "A smart combination of height adjustment and drawer storage at an accessible price. Vented grid platform works well in compact dorm or small offices.",
     alternatives: ["huanuo-monitor-riser", "wali-stt003-riser"],
     relatedGuideSlugs: ["monitor-stands-small-desks"],
   },
@@ -482,7 +482,7 @@ export const products: Product[] = [
       buyerFeedback: 8.3,
     },
     reviewSummary:
-      "A straightforward solution for dual-monitor users who want both screens at the same height without installing a monitor arm. The 43-inch platform is wide enough to support two standard 24-27 inch monitors comfortably. The under-platform shelf adds practical storage space for keyboards or accessories when monitors are elevated. Best suited for desks that can accommodate the full width and users who prefer a zero-installation setup.",
+      "A straightforward solution for dual-monitor users who want equal screen height without a monitor arm. The 43-inch platform fits two 24-27 inch monitors.",
     alternatives: ["bontec-dual-riser", "simplehouseware-dual-drawer"],
     relatedGuideSlugs: ["monitor-stands-small-desks"],
   },
@@ -537,7 +537,7 @@ export const products: Product[] = [
       buyerFeedback: 8.8,
     },
     reviewSummary:
-      "The best option for users who want monitor arm flexibility but prefer a stable freestanding base over a desk clamp. The VESA mount holds the monitor directly and securely rather than resting it on a platform shelf. The 360-degree swivel is genuinely useful for shared workspaces or presentations. At 77 lbs capacity it handles even large professional monitors. The main tradeoff versus a standard arm is the fixed base footprint - it does not fully free your desk surface the way a clamp arm does.",
+      "The best option for monitor arm flexibility with a stable freestanding base instead of a desk clamp. VESA mount, 360-degree swivel, 77 lbs capacity.",
     alternatives: ["ergear-monitor-arm", "bontec-dual-riser-black"],
     relatedGuideSlugs: ["monitor-stands-small-desks"],
   },
@@ -592,7 +592,7 @@ export const products: Product[] = [
       buyerFeedback: 8.4,
     },
     reviewSummary:
-      "Identical in function to the black BONTEC dual riser but in a white finish that works noticeably better on light-toned or white desks. The 43-inch platform comfortably supports two monitors without the gap or height mismatch that comes from using two separate risers. Under-platform storage reclaims desk space that the monitor bases would otherwise occupy. The right choice for dual-monitor users on white desk setups who want a clean, coordinated look.",
+      "Identical to the black BONTEC dual riser but in white, which suits light-toned desks better. The 43-inch platform supports two monitors with storage.",
     alternatives: ["bontec-dual-riser-black", "simplehouseware-dual-drawer"],
     relatedGuideSlugs: ["monitor-stands-small-desks"],
   },
@@ -702,7 +702,7 @@ export const products: Product[] = [
       buyerFeedback: 8.7,
     },
     reviewSummary:
-      "The best option for small desk users who want to eliminate the monitor footprint entirely without spending on a premium arm. The tool-free VESA quick-release is a practical feature that makes swapping monitors or moving the setup much faster than standard VESA screws. At 17.5 inches of height range it works for both sitting and standing desk configurations. The 34-inch screen support and 19.8 lb capacity cover nearly all single-monitor setups found on compact desks.",
+      "The best option for small desk users who want to remove the monitor footprint without a premium arm. Tool-free VESA release, 17.5 inches of height range.",
     alternatives: ["huanuo-ht05b-stand", "wali-stt003-riser"],
     relatedGuideSlugs: ["monitor-stands-small-desks"],
   },
@@ -758,7 +758,7 @@ export const products: Product[] = [
       buyerFeedback: 9.0,
     },
     reviewSummary:
-      "Our top laptop stand for students and commuters. The combination of genuine aluminum construction, six height levels, and sub-1-inch folded thickness makes it the most portable full-featured stand in its price range. It consistently earns top marks among small-desk users because it doesn't fight for surface space when folded down.",
+      "Our top laptop stand for students and commuters. Aluminum construction, six height levels, and sub-1-inch folded thickness make it very portable.",
     alternatives: ["adjustable-portable-laptop-stand"],
     relatedGuideSlugs: ["laptop-stands-small-desks"],
   },
@@ -811,7 +811,7 @@ export const products: Product[] = [
       buyerFeedback: 8.0,
     },
     reviewSummary:
-      "The best budget entry in this category and the only stand we evaluated that comfortably fits 17-inch laptops. Build quality is the trade-off at this price - it works well for light use but flexes under sustained heavy typing. For casual use, travel, or a secondary stand, it represents extraordinary value.",
+      "The best budget entry in this category and the only stand tested that fits 17-inch laptops. It flexes under heavy typing but offers great casual value.",
     alternatives: ["foldable-aluminum-laptop-riser"],
     relatedGuideSlugs: ["laptop-stands-small-desks"],
   },
@@ -865,7 +865,7 @@ export const products: Product[] = [
       buyerFeedback: 8.8,
     },
     reviewSummary:
-      "The most practical cable management kit for dorm rooms. At under $12, it includes every type of accessory needed for a clean desk setup, and the heat-removable adhesive is specifically valuable for students in temporary housing. The velcro ties alone are worth the purchase price for anyone who currently uses zip ties on their cables.",
+      "The most practical cable management kit for dorm rooms. Under $12, it includes heat-removable adhesive valuable for students in temporary housing.",
     alternatives: ["under-desk-cable-tray"],
     relatedGuideSlugs: ["cable-management-dorm"],
   },
@@ -916,7 +916,7 @@ export const products: Product[] = [
       buyerFeedback: 8.2,
     },
     reviewSummary:
-      "The best option for eliminating floor-level cable clutter permanently. Where adhesive clips manage individual cables, this tray manages the entire power strip and all connected cables at once - making it the more complete solution for home office users. Students in dorm rooms should confirm their housing rules allow adhesive mounting before purchasing.",
+      "The best option for eliminating floor-level cable clutter permanently. This tray manages the entire power strip and cables for a complete solution.",
     alternatives: ["desk-cable-organizer-kit"],
     relatedGuideSlugs: ["cable-management-dorm"],
   },
@@ -971,7 +971,7 @@ export const products: Product[] = [
       buyerFeedback: 8.8,
     },
     reviewSummary:
-      "The most-reviewed item in this category and it earns the reputation. The no-installation design, large pocket count, and sub-$15 price make it an automatic addition to any dorm room setup. The main complaint in negative reviews - sliding on smooth sheets - is easily fixed by tucking more material under the mattress. Works equally well on lofted and standard dorm beds.",
+      "The most-reviewed item in this category, and it earns it. No-installation design, large pocket count, and a sub-$15 price make it an easy dorm room addition.",
     alternatives: ["over-mattress-pocket-organizer"],
     relatedGuideSlugs: ["bedside-caddies-students"],
   },
@@ -1022,7 +1022,7 @@ export const products: Product[] = [
       buyerFeedback: 7.5,
     },
     reviewSummary:
-      "An honest budget pick for users who only need a few pockets within reach. The trade-off is clear: fewer pockets, simpler design, lower price. Students who need to store more than 3–4 items will quickly outgrow it and wish they had bought the hanging caddy. But as a minimal solution for phone and charger access, it works reliably.",
+      "An honest budget pick for users who only need a few pockets within reach. Fewer pockets, simpler design, lower price — a minimal solution for phone access.",
     alternatives: ["hanging-bedside-caddy"],
     relatedGuideSlugs: ["bedside-caddies-students"],
   },
@@ -1078,7 +1078,7 @@ export const products: Product[] = [
       buyerFeedback: 9.0,
     },
     reviewSummary:
-      "The most-reviewed and consistently top-rated under-bed storage option for small rooms. The set-of-2 format is practical - most users immediately separate by category (summer clothing vs. winter bedding). The breathable non-woven fabric is the right material for clothing; avoid storing shoes or hard items, which can misshape the bags over time.",
+      "The most-reviewed, top-rated under-bed storage for small rooms. The set-of-2 lets you separate by category; breathable fabric suits clothing but not shoes.",
     alternatives: ["rolling-underbed-container"],
     relatedGuideSlugs: ["under-bed-storage-small-rooms"],
   },
@@ -1132,7 +1132,7 @@ export const products: Product[] = [
       buyerFeedback: 8.0,
     },
     reviewSummary:
-      "The best choice for items you access regularly - shoes, gym clothes, accessories - where the rolling feature genuinely pays off. The rigid lid keeps contents organized and prevents the shape distortion that affects fabric bags. However, it requires smooth floors and more bed clearance than fabric alternatives, making it a secondary recommendation behind the zippered bags for most dorm and small bedroom use cases.",
+      "The best choice for items you access often — shoes, gym clothes, accessories — where rolling pays off. Rigid lid keeps contents organized, needs smooth floors.",
     alternatives: ["zippered-underbed-bags"],
     relatedGuideSlugs: ["under-bed-storage-small-rooms"],
   },
@@ -1189,7 +1189,7 @@ export const products: Product[] = [
       buyerFeedback: 8.5,
     },
     reviewSummary:
-      "The most practical single-unit desk organizer for students who want their daily supplies consolidated in one place. The combination of open pen slots and enclosed drawers means frequently-used tools are immediately visible while the inevitable small clutter (eraser bits, USB drives, paperclips) stays out of sight. The plastic construction is lighter than premium alternatives, but for the price and the footprint, it's the strongest value in this category.",
+      "The most practical single-unit desk organizer for students. Open pen slots keep tools visible while drawers hide small clutter. Strong value for the price.",
     alternatives: ["desk-drawer-organizer-tray-set", "stackable-acrylic-desk-organizer"],
     relatedGuideSlugs: ["desk-organizers-small-desks"],
   },
@@ -1244,7 +1244,7 @@ export const products: Product[] = [
       buyerFeedback: 8.3,
     },
     reviewSummary:
-      "The most underrated study tool for dorm rooms. Sticky notes and scratch paper are inefficient - this foldable whiteboard gives you an always-ready reusable surface for to-do lists, problem-solving, and quick diagrams that doesn't generate waste. Its foldable design solves the dorm-room constraint of no available wall space. STEM students in particular find it indispensable within a week of purchase.",
+      "The most underrated study tool for dorm rooms. This foldable whiteboard gives an always-ready reusable surface for to-do lists and quick diagrams, no waste.",
     alternatives: [],
     relatedGuideSlugs: ["dorm-room-shower-essentials"],
   },
@@ -1299,7 +1299,7 @@ export const products: Product[] = [
       buyerFeedback: 8.4,
     },
     reviewSummary:
-      "The cleanest desk accessory upgrade for anyone still using a wired charging cable for their phone. At 3.9 inches wide and 7mm thin, it disappears on a small desk - just set your phone on it and it charges. The 10W output covers the vast majority of modern phones at full speed. The one real limitation is MagSafe: iPhone users who want 15W speeds need to spend more for a MagSafe-specific pad. For everyone else, this is the obvious pick.",
+      "The cleanest desk charging upgrade for anyone using a wired cable. At 3.9 inches wide and 7mm thin, it disappears on a small desk with 10W charging speed.",
     alternatives: ["bed-risers-with-outlets-usb"],
     relatedGuideSlugs: ["dorm-room-power-essentials"],
   },
@@ -1354,7 +1354,7 @@ export const products: Product[] = [
       buyerFeedback: 8.9,
     },
     reviewSummary:
-      "The most recommended keyboard upgrade for students using a laptop stand. The 75% layout shaves meaningful width off a standard keyboard without removing the function row, making it proportionally perfect for desks under 48 inches. The three-device Bluetooth switching is legitimately useful for students who move between laptop, tablet, and phone throughout a study session. USB-C charging and 6-month battery life eliminate any maintenance hassle.",
+      "The most recommended keyboard upgrade for a laptop stand. The 75% layout shaves width without removing the function row, fitting desks under 48 inches.",
     alternatives: [],
     relatedGuideSlugs: ["desk-organizers-small-desks"],
   },
@@ -1411,7 +1411,7 @@ export const products: Product[] = [
       buyerFeedback: 8.7,
     },
     reviewSummary:
-      "The highest-impact low-cost storage upgrade for a dorm room - it converts a blank door back panel into 24 usable storage slots without a single nail or screw. Students use it in three main configurations: shoe storage on the closet door, toiletry and personal care organization on the bathroom door, and school supply storage on the room door. The clear pockets prevent the 'out of sight, out of mind' problem that plagues opaque organizers. At under $20, it's one of the best value-per-square-inch storage products available.",
+      "A high-impact, low-cost dorm room upgrade — converts a door back panel into 24 storage slots without a single nail. Works for shoes, toiletries, or supplies.",
     alternatives: ["collapsible-storage-cubes"],
     relatedGuideSlugs: ["small-room-closet-storage"],
   },
@@ -1466,7 +1466,7 @@ export const products: Product[] = [
       buyerFeedback: 8.6,
     },
     reviewSummary:
-      "An essential buy for anyone with a cube bookshelf unit. Without cubes, an open cube shelf shows everything stored in it and looks perpetually messy. These fabric bins turn each cubby into a closed drawer-like compartment that can be pulled out completely. The set-of-6 value is strong - comparable single cubes cost $6–$8 each. The main practical limitation is the cardboard base: in humid environments or if stored with wet items, it softens. Replace the insert with a thin plastic cutting board if longevity is a concern.",
+      "An essential buy for a cube bookshelf unit. These fabric bins turn each cubby into a closed drawer-like compartment. The set-of-6 beats single cubes on value.",
     alternatives: ["over-door-pocket-organizer", "vacuum-storage-bags"],
     relatedGuideSlugs: ["small-room-closet-storage"],
   },
@@ -1523,7 +1523,7 @@ export const products: Product[] = [
       buyerFeedback: 9.0,
     },
     reviewSummary:
-      "The most durable shower caddy in this category. The rust-resistant coated steel outlasts the plastic caddies that deform, crack, or develop orange rust streaks within a semester. The removable shelf design is underappreciated: you can configure the interior to fit your specific bottles rather than working around fixed dividers. The S-hook provides a hands-free hang in the shower, and the carry handle is solid enough to trust fully loaded. The one honest limitation is capacity - heavy product users should look at a two-caddy system rather than overloading a single one.",
+      "The most durable shower caddy in this category. Rust-resistant coated steel outlasts plastic caddies that crack or rust. Removable shelf fits your bottles.",
     alternatives: [],
     relatedGuideSlugs: ["dorm-room-shower-essentials"],
   },
@@ -1578,7 +1578,7 @@ export const products: Product[] = [
       buyerFeedback: 8.4,
     },
     reviewSummary:
-      "A simple product that delivers consistently above its price point. The interlocking tabs are the differentiating feature - unlike loose trays that drift to one end of the drawer within a week, these stay in the configuration you set. The three-size system covers desk supplies well: small trays for erasers, staples, and SIM cards; medium trays for pens and markers; large trays for scissors, tape, and adapters. Measure your drawer width before purchasing to ensure the 8-piece set fills it adequately.",
+      "A simple product that delivers above its price point. Interlocking tabs keep trays in place, and the three-size system covers desk supplies well.",
     alternatives: ["desktop-organizer-with-drawers", "stackable-acrylic-desk-organizer"],
     relatedGuideSlugs: ["desk-organizers-small-desks"],
   },
@@ -1632,7 +1632,7 @@ export const products: Product[] = [
       buyerFeedback: 8.3,
     },
     reviewSummary:
-      "The aesthetically superior choice in desk organization. If the way your desk looks matters to you as much as the function, acrylic beats plastic alternatives hands down - the crystal clarity and polished finish make it look like a purposeful design choice rather than a utility purchase. The stacking feature is genuinely useful: buy one to start and add a second if needed without changing your desk footprint. The trade-offs are real: it scratches more easily and costs more. For budget-focused buyers, the ABS plastic organizer or tray set is the smarter pick.",
+      "The aesthetically superior desk organizer. Acrylic's clarity beats plastic for looks, and stacking lets you add a unit without changing footprint.",
     alternatives: ["desktop-organizer-with-drawers", "desk-drawer-organizer-tray-set"],
     relatedGuideSlugs: ["desk-organizers-small-desks"],
   },
@@ -1688,7 +1688,7 @@ export const products: Product[] = [
       buyerFeedback: 9.1,
     },
     reviewSummary:
-      "Arguably the highest-value single purchase for a dorm room. Bed risers alone sell for $15–$20 and solve the under-bed clearance problem. These solve that problem AND add four USB ports and two AC outlets at exactly the height where you want them: next to your pillow for overnight phone charging, at bed level for a desk lamp, or for a laptop charger that isn't stretching across the floor. The USB-A-only limitation is real in 2026, but the included outlets accept any USB-C brick you own. Confirm your dorm's electrical policy before purchasing.",
+      "Arguably the highest-value dorm purchase. Bed risers alone solve under-bed clearance; these add four USB ports and two outlets at pillow height.",
     alternatives: ["slim-wireless-charging-pad", "compact-power-strip-usb"],
     relatedGuideSlugs: ["dorm-room-power-essentials"],
   },
@@ -1744,7 +1744,7 @@ export const products: Product[] = [
       buyerFeedback: 8.7,
     },
     reviewSummary:
-      "The single most effective intervention for a closet that doesn't have enough space. Compressing a full winter wardrobe into vacuum bags at the start of spring semester or before summer storage can reclaim 60–70% of closet volume. The set-of-8 format with three sizes is the right purchasing unit - one jumbo bag for a comforter, two large bags for sweaters and jeans, and three medium bags for tees and light layers. Avoid using these for down items or structured pieces, and you'll get multiple semesters of use from a single set.",
+      "The most effective fix for a closet without enough space. Compressing a winter wardrobe into vacuum bags can reclaim 60-70% of closet volume. Set of 8.",
     alternatives: ["collapsible-storage-cubes", "over-door-pocket-organizer"],
     relatedGuideSlugs: ["small-room-closet-storage"],
   },
@@ -1799,7 +1799,7 @@ export const products: Product[] = [
       buyerFeedback: 9.0,
     },
     reviewSummary:
-      "The most practical desk accessory for dorm room setup. Older dorm buildings often have only one usable outlet per desk area - this power strip multiplies that into 3 AC outlets and 4 USB ports, which is enough for a fully equipped student desk setup. The slim profile means it can sit on the desk surface or be tucked against the wall without the clunky footprint of traditional power strips. The absence of USB-C is the most notable limitation in 2026, but an inexpensive USB-C to USB-A adapter solves this for devices that need it. ETL certification is important - confirm your dorm allows surge-protected strips (most do).",
+      "The most practical desk accessory for dorm setups. This power strip multiplies one outlet into 3 AC outlets and 4 USB ports for a fully equipped student desk.",
     alternatives: ["bed-risers-with-outlets-usb"],
     relatedGuideSlugs: ["dorm-room-power-essentials"],
   },
@@ -1855,7 +1855,7 @@ export const products: Product[] = [
       buyerFeedback: 9.0,
     },
     reviewSummary:
-      "The single most-versatile storage addition for small rooms. The narrow width is the key feature - it turns otherwise wasted gap space beside furniture into organized drawer storage. Students frequently report using one beside a dorm desk for school supplies, beside a bed for personal items, and taking it home for bathroom storage between semesters. The locking wheels are essential; make sure to engage them when parked to prevent unwanted rolling.",
+      "The most versatile storage addition for small rooms. The narrow width turns wasted gap space into organized drawer storage, with locking wheels for safety.",
     alternatives: ["compact-3tier-storage-tower"],
     relatedGuideSlugs: [],
   },
@@ -1908,7 +1908,7 @@ export const products: Product[] = [
       buyerFeedback: 7.8,
     },
     reviewSummary:
-      "A compact, zero-tool storage tower best suited for lightweight items like stationery, toiletries, or small accessories. The snap-together design and under-10-inch footprint make it one of the easiest storage additions to add to a dorm desk corner or shared bathroom. For items requiring more organization or protection, the rolling cart with drawers is the better choice.",
+      "A compact, zero-tool storage tower for lightweight items like stationery or toiletries. The snap-together design fits a dorm desk corner or shared bathroom.",
     alternatives: ["narrow-rolling-storage-cart"],
     relatedGuideSlugs: [],
   },

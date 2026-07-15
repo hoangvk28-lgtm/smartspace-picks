@@ -6,7 +6,7 @@ export const guideDescription =
   "Apple's official MagSafe Duo costs $149. For $25–$40 you can charge your iPhone, Apple Watch, and AirPods from a single stand that folds flat into your bag. These are the 5 best budget picks, all MagSafe-compatible, all under $40.";
 export const metaTitle = "5 Best Apple 3-in-1 Charging Stations Under $40 (2026)";
 export const metaDescription =
-  "5 best budget Apple 3-in-1 charging stations under $40, ESR HaloLock 15W, ESR 25W CryoBoost, KEEPRO Ultra-Compact, KEEPRO Travel Stand, and budget generic. All MagSafe-compatible.";
+  "5 best budget Apple 3-in-1 charging stations under $40: ESR HaloLock 15W, ESR 25W CryoBoost, KEEPRO Ultra-Compact, and Travel Stand. All MagSafe-compatible.";
 export const lastUpdated = "2026-06-07";
 export const readTime = "9 min";
 export const heroImage = `${BASE}/6-hero-best-budget-apple-3-in-1-charging-stations-under-40-2026.webp`;

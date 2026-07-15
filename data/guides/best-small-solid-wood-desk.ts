@@ -5,7 +5,7 @@ export const guideTitle =
   "Best Small Solid Wood Desks for Bedroom and Apartment in 2026";
 export const metaTitle = "Best Small Solid Wood Desks for Bedroom in 2026";
 export const metaDescription =
-  "Best small solid wood desks for bedroom and apartment in 2026 - under 48 inches wide with honest material labels. Covers depth vs width ergonomics and monitor arm guidance.";
+  "Best small solid wood desks for bedroom and apartment in 2026 - under 48 inches wide with honest material labels and monitor arm guidance.";
 export const lastUpdated = "2026-06-29";
 export const readTime = "9 min";
 export const heroImage = `${BASE}/01-small-solid-wood-desk.webp`;

@@ -3,7 +3,8 @@ const BASE = "/images/guides/best-lap-desks-for-laptops";
 export const guideSlug = "best-lap-desks-for-laptops";
 export const guideTitle = "8 Best Lap Desks for Laptops (2026)";
 export const metaTitle = "Best Lap Desks for Laptops 2026";
-export const metaDescription = "Best lap desks for laptops in 2026. Hard-surface cushion boards, integrated mouse pads, adjustable height and angle models, and foldable oversized options ranked by Amazon buyer rating.";
+export const metaDescription =
+  "Best lap desks for laptops in 2026. Hard-surface cushion boards, integrated mouse pads, adjustable height and angle models ranked by buyer rating.";
 export const lastUpdated = "2026-07-10";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/hero.webp`;

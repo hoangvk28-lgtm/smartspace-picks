@@ -3,7 +3,8 @@ const BASE = "/images/guides/best-cable-management-boxes-for-desks";
 export const guideSlug = "best-cable-management-boxes-for-desks";
 export const guideTitle = "8 Best Cable Management Boxes for Desks (2026)";
 export const metaTitle = "Best Cable Management Boxes for Desks 2026";
-export const metaDescription = "Best cable management boxes for desks in 2026. Power strip cord organizers, under-desk cable trays, and aesthetic cable boxes ranked by size, design, and safety features.";
+export const metaDescription =
+  "Best cable management boxes for desks in 2026. Power strip cord organizers, under-desk cable trays, and aesthetic cable boxes ranked by size and safety.";
 export const lastUpdated = "2026-07-11";
 export const readTime = "9 min";
 export const heroImage = `${BASE}/hero.webp`;

@@ -3,7 +3,8 @@
 export const guideSlug = "best-standing-desk-under-1000";
 export const guideTitle = "8 Best Standing Desks Under $1000 in 2026";
 export const metaTitle = "Best Standing Desks Under $1000 2026 – BIFMA, Bamboo, Premium Picks";
-export const metaDescription = "Best standing desks under $1000 in 2026. FlexiSpot, Vari, and UPLIFT electric desks with bamboo tops, BIFMA certification, curved waterfall edges, and dual motors ranked by features and value.";
+export const metaDescription =
+  "Best standing desks under Best standing desks under $1000 in 2026. FlexiSpot, Vari, and UPLIFT electric desks with bamboo tops, BIFMA certification, curved waterfall edges, and dual motors ranked by features and value.000 in 2026. FlexiSpot, Vari, and UPLIFT electric desks with bamboo tops and dual motors ranked by features and value.";
 export const lastUpdated = "2026-07-11";
 export const readTime = "12 min";
 export const heroImage = `/images/guides/best-standing-desk-under-1000/hero.webp`;

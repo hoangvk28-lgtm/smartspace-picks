@@ -7,7 +7,7 @@ export const guideDescription =
   "Most seat cushion guides skip the part where they explain which type of cushion addresses which problem. This guide covers 7 seat cushions from $30 to $70 across four cushion types, ranked from budget to premium.";
 export const metaTitle = "7 Best Seat Cushions for Office Chair in 2026";
 export const metaDescription =
-  "7 best office chair seat cushions in 2026: coccyx cutout, gel-infused, and flat contoured picks for tailbone pain, sciatica, and all-day WFH comfort. Ranked $30-$70.";
+  "7 best office chair seat cushions in 2026: coccyx cutout, gel-infused, and flat contoured picks for tailbone pain and all-day WFH comfort. Ranked $30-$70.";
 export const lastUpdated = "2026-06-16";
 export const readTime = "12 min";
 export const heroImage = `${BASE}/08-hero-7-best-seat-cushions-office-chair-2026.webp`;

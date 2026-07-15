@@ -6,7 +6,7 @@ export const bestBudget1080pWebcamGuide: Guide = {
   categorySlug: "desk-setup",
   subcategorySlug: "accessories",
   description:
-    "Best budget 1080p webcams in 2026: EMEET C960 review, NexiGo N60, Angetube 862 Pro (1080p/60fps), and Logitech C920x. Covers whether the C920 does 1080p at 60fps and when 60fps actually matters.",
+    "Best budget 1080p webcams in 2026: EMEET C960, NexiGo N60, Angetube 862 Pro (60fps), and Logitech C920x. Covers whether the C920 does 1080p at 60fps.",
   mainKeyword: "best budget 1080p webcam",
   subKeywords: [
     "emeet c960 review",

@@ -4,7 +4,7 @@ export const guideSlug = "best-adjustable-under-desk-footrests";
 export const guideTitle = "8 Best Adjustable Under-Desk Footrests (2026)";
 export const metaTitle = "Best Adjustable Under-Desk Footrests 2026";
 export const metaDescription =
-  "Best adjustable under-desk footrests in 2026. Memory foam models with multi-height settings, mesh teardrop designs, split-leg platforms, and budget picks ranked by buyer rating and review count.";
+  "Best adjustable under-desk footrests in 2026. Memory foam models, mesh teardrop designs, split-leg platforms, and budget picks ranked by buyer rating.";
 export const lastUpdated = "2026-07-08";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/hero.webp`;

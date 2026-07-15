@@ -5,7 +5,7 @@ export const guideDescription =
   "Your phone charges every time you set it down. No fumbling for a cable, no fraying connector. One wireless pad can replace three cables on your desk -- phone, watch, and earbuds -- in a single compact stand.";
 export const metaTitle = "Best Wireless Charging Stations for Desk (2026)";
 export const metaDescription =
-  "6 wireless desk charging stations tested -- 3-in-1 MagSafe stands, Qi2 pads, and charging desk mats. Includes the Qi vs Qi2 vs MagSafe comparison that nobody else explains clearly.";
+  "6 wireless desk charging stations tested -- 3-in-1 MagSafe stands, Qi2 pads, and charging desk mats. Includes a clear Qi vs Qi2 vs MagSafe comparison.";
 export const lastUpdated = "2026-06-03";
 export const readTime = "13 min";
 export const heroImage = `${BASE}/07-hero-best-wireless-charging-stations-for-desk.webp`;

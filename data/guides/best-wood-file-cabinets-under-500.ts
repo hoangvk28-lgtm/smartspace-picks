@@ -4,7 +4,7 @@ export const guideSlug = "best-wood-file-cabinets-under-500";
 export const guideTitle = "Best Wood File Cabinets Under $500 (2026): Lateral Picks";
 export const metaTitle = "Best Wood File Cabinets Under $500 (2026)";
 export const metaDescription =
-  "Best wood file cabinets under $500: Sauder Palladia, Bush Key West, Sauder Heritage Hill, Martin Furniture. Lateral file cabinets in wood finishes for home offices.";
+  "Best wood file cabinets under $500: Sauder Palladia, Bush Key West, Sauder Heritage Hill, and Martin Furniture lateral cabinets for home offices.";
 export const lastUpdated = "2026-07-02";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/hero.webp`;

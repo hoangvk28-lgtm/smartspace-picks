@@ -3,7 +3,8 @@ const BASE = "/images/guides/best-adjustable-vertical-laptop-stands";
 export const guideSlug = "best-adjustable-vertical-laptop-stands";
 export const guideTitle = "8 Best Adjustable Vertical Laptop Stands (2026)";
 export const metaTitle = "Best Adjustable Vertical Laptop Stands 2026";
-export const metaDescription = "Best adjustable vertical laptop stands in 2026. Wide-range screw-lock aluminum stands, multi-slot adjustable organizers, 360-degree rotating designs ranked by Amazon buyer rating.";
+export const metaDescription =
+  "Best adjustable vertical laptop stands in 2026. Wide-range screw-lock aluminum stands and multi-slot adjustable organizers ranked by buyer rating.";
 export const lastUpdated = "2026-07-10";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/hero.webp`;

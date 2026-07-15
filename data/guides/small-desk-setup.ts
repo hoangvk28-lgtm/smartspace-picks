@@ -5,7 +5,7 @@ export const guideDescription =
   "A small desk does not have to feel cramped. With the right layout, lighting, storage, and accessories, even a compact workspace can feel clean, comfortable, and easy to use.";
 export const metaTitle = "Small Desk Setup Ideas for a Cleaner, Smarter Workspace";
 export const metaDescription =
-  "Make the most of a small desk with practical setup ideas for lighting, storage, cable management, monitor stands, laptop stands, organizers, and compact workspace upgrades.";
+  "Make the most of a small desk with practical ideas for lighting, storage, cable management, monitor stands, laptop stands, and compact workspace upgrades.";
 export const lastUpdated = "May 2026";
 export const readTime = "9 min";
 export const heroImage = `${BASE}/01-clamp-desk-lamp.webp`;

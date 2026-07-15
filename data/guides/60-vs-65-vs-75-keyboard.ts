@@ -6,7 +6,7 @@ export const sixtyVs65Vs75KeyboardGuide: Guide = {
   categorySlug: "desk-setup",
   subcategorySlug: "accessories",
   description:
-    "60% vs 65% vs 75% keyboard: which compact layout fits your desk, gaming, and work needs. Direct pairwise comparisons, F-row vs no F-row, and a clear decision guide for each use case.",
+    "60% vs 65% vs 75% keyboard: which compact layout fits your desk, gaming, and work needs. Pairwise comparisons and a clear decision guide for each use case.",
   mainKeyword: "60 vs 65 vs 75 keyboard",
   subKeywords: [
     "65 vs 75 keyboard",

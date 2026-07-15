@@ -3,7 +3,7 @@ export const guideSlug = "best-desk-hutches-with-storage";
 export const guideTitle = "8 Best Desk Hutches with Storage (2026)";
 export const metaTitle = "Best Desk Hutches with Storage (2026)";
 export const metaDescription =
-  "Best desk hutches with storage in 2026. Covers open shelves, drawer hutches, LED-lit bookcases with outlets, and fabric drawer units that add organization to any desk.";
+  "Best desk hutches with storage in 2026. Covers open shelves, drawer hutches, LED-lit bookcases with outlets, and fabric drawer units for any desk.";
 export const lastUpdated = "2026-07-07";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/hero.webp`;

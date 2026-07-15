@@ -7,7 +7,7 @@ export const guideDescription =
   "Most phone gimbal reviews focus on outdoor and travel use. This guide covers 7 gimbals specifically evaluated for desk content, product shots, tutorials, and home studio recording from $60 to $200.";
 export const metaTitle = "7 Best Phone Gimbals for Content Creators in 2026";
 export const metaDescription =
-  "7 best phone gimbals for content creators in 2026: budget starter to all-in-one bundles, covering desk setup, home studio, tracking, fill light, and battery. Ranked $60-$200.";
+  "7 best phone gimbals for content creators in 2026: budget starter to all-in-one bundles, covering tracking, fill light, and battery. Ranked $60-$200.";
 export const lastUpdated = "2026-06-16";
 export const readTime = "12 min";
 export const heroImage = `${BASE}/08-hero-7-best-phone-gimbals-content-creators-2026.webp`;

@@ -5,7 +5,7 @@ export const guideTitle =
   "7 Best Monitor Arms Under $100 in 2026: Picks for Every Desk Size";
 export const metaTitle = "7 Best Monitor Arms Under $100 in 2026";
 export const metaDescription =
-  "Best monitor arms under $100: HUANUO FlowLift, North Bayou F80, VIVO for ultrawides, Amazon Basics. VESA check, weight guide, and desk space recovery comparison.";
+  "Best monitor arms under Best monitor arms under $100: HUANUO FlowLift, North Bayou F80, VIVO for ultrawides, Amazon Basics. VESA check, weight guide, and desk space recovery comparison.00: HUANUO FlowLift, North Bayou F80, VIVO for ultrawides, and Amazon Basics. VESA check, weight guide, and desk space comparison.";
 export const lastUpdated = "2026-06-23";
 export const readTime = "15 min";
 export const heroImage = `${BASE_IMAGES}/monitor-arm-best-monitor-arm-under-100-hero.webp`;

@@ -5,7 +5,7 @@ export const guideTitle =
   "Best Wood Executive Desks in 2026: Solid Wood, Veneer, and Engineered Wood Picks";
 export const metaTitle = "Best Wood Executive Desks in 2026";
 export const metaDescription =
-  "Best wood executive desk picks in 2026 - honest material breakdown across solid wood, veneer, and engineered wood. Sauder vs Bush Business comparison and the WFH video call appearance factor.";
+  "Best wood executive desk picks in 2026 - honest material breakdown across solid wood, veneer, and engineered wood. Sauder vs Bush Business comparison.";
 export const lastUpdated = "2026-06-29";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/01-best-wood-executive-desks.webp`;

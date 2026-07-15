@@ -3,7 +3,8 @@
 export const guideSlug = "best-mesh-office-chair";
 export const guideTitle = "8 Best Mesh Office Chairs in 2026";
 export const metaTitle = "Best Mesh Office Chairs 2026 - Breathable & Ergonomic";
-export const metaDescription = "Best mesh office chairs in 2026. Breathable mesh back ergonomic chairs ranked by lumbar support, breathability, adjustability, and value for all-day home office and corporate use.";
+export const metaDescription =
+  "Best mesh office chairs in 2026. Breathable mesh back ergonomic chairs ranked by lumbar support, breathability, adjustability, and value for daily use.";
 export const lastUpdated = "2026-07-11";
 export const readTime = "10 min";
 export const heroImage = `/images/guides/best-mesh-office-chair/hero.webp`;

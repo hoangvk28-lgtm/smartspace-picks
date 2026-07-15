@@ -3,7 +3,7 @@
 export const compareSlug = "monitor-stand-vs-monitor-arm";
 export const compareTitle = "Monitor Stand vs Monitor Arm: Which Is Worth It Under $50?";
 export const compareDescription =
-  "Monitor stand vs monitor arm — we compare adjustability, desk space, stability, and value with specific picks under $50. Includes scoring, a decision flowchart, and Reddit-tested advice.";
+  "Monitor stand vs monitor arm — we compare adjustability, desk space, stability, and value with picks under $50, plus a decision flowchart and scoring.";
 export const lastUpdated = "2026-05-27";
 export const readTime = "14 min";
 export const heroImageA =

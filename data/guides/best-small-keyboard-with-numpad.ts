@@ -7,7 +7,7 @@ export const guideDescription =
   "Most small keyboard guides tell you to give up the numpad. But the numpad is not a luxury for people who use it for data entry, Excel, or invoicing. This guide covers 7 options that keep the numpad: six 96% integrated keyboards from $25 to $200, and one separate wireless numpad that adds numpad capability to any existing compact keyboard.";
 export const metaTitle = "7 Best Small Keyboards with Numpad in 2026";
 export const metaDescription =
-  "7 compact keyboards with numpad in 2026: 96% integrated layouts from $30 to $200, plus a separate wireless numpad option. Compared by wireless, hot-swap, and desk footprint.";
+  "7 compact keyboards with numpad in 2026: 96% integrated layouts from $30-$200, plus a wireless numpad option. Compared by wireless, hot-swap, and footprint.";
 export const lastUpdated = "2026-06-17";
 export const readTime = "12 min";
 export const heroImage = `${BASE}/00-hero-best-small-keyboard-with-numpad.webp`;

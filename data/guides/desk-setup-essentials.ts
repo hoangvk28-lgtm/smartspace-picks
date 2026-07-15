@@ -6,7 +6,7 @@ export const metaTitle = "Desk Setup Essentials: 15 Must-Have Items";
 export const guideDescription =
   "A practical checklist of 15 desk setup essentials -- from lighting and cable management to organizers, stands, and desk mats. For students, remote workers, and small-space setups.";
 export const metaDescription =
-  "Build a cleaner, more practical workspace with these desk setup essentials -- lighting, cable management, organizers, stands, desk mats, and small-space upgrades.";
+  "Build a cleaner, more practical workspace with these desk setup essentials -- lighting, cable management, organizers, stands, and small-space upgrades.";
 export const lastUpdated = "2026-05-30";
 export const readTime = "13 min";
 export const heroImage = `${B}/01-voncerus-led-clamp-desk-lamp.webp`;

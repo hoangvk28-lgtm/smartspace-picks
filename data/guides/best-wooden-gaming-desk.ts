@@ -5,7 +5,7 @@ export const guideTitle =
   "Best Wooden Gaming Desks in 2026: Wood-Look L-Shaped Desks with Power, LED, and Storage";
 export const metaTitle = "Best Wooden Gaming Desks in 2026";
 export const metaDescription =
-  "Best wooden gaming desk picks in 2026 - honest material disclosure, power outlet reality, LED lighting practical value, and storage trade-offs across nine L-shaped and straight configurations.";
+  "Best wooden gaming desk picks in 2026 - honest material disclosure, power outlet reality, and storage trade-offs across nine desk configurations.";
 export const lastUpdated = "2026-06-29";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/01-best-wooden-gaming-desks.webp`;

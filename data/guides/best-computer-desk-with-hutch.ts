@@ -5,7 +5,7 @@ export const guideTitle =
   "Best Computer Desks with Hutch in 2026: Farmhouse, Executive, and L-Shaped";
 export const metaTitle = "Best Computer Desks with Hutch in 2026";
 export const metaDescription =
-  "Best computer desk with hutch picks for 2026 - farmhouse, executive, and L-shaped options. Covers monitor clearance issues, open vs closed hutch, and keyboard tray depth.";
+  "Best computer desk with hutch picks for 2026 - farmhouse, executive, and L-shaped options. Covers monitor clearance, open vs closed hutch, and tray depth.";
 export const lastUpdated = "2026-06-29";
 export const readTime = "9 min";
 export const heroImage = `${BASE}/01-best-computer-desks-with-hutch.webp`;

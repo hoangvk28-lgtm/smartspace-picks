@@ -3,7 +3,8 @@ const BASE = "/images/guides/best-lap-desks-with-cushion";
 export const guideSlug = "best-lap-desks-with-cushion";
 export const guideTitle = "8 Best Lap Desks with Cushion (2026)";
 export const metaTitle = "Best Lap Desks with Cushion 2026";
-export const metaDescription = "Best lap desks with cushion in 2026. Microbead bases, memory foam options, dual bolster cushions, wrist rests, and adjustable height cushion desks ranked by Amazon buyer rating.";
+export const metaDescription =
+  "Best lap desks with cushion in 2026. Microbead bases, memory foam options, dual bolster cushions, and adjustable height cushion desks ranked by buyer rating.";
 export const lastUpdated = "2026-07-10";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/hero.webp`;

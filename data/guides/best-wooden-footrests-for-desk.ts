@@ -4,7 +4,7 @@ export const guideSlug = "best-wooden-footrests-for-desk";
 export const guideTitle = "8 Best Wooden Footrests for Desk (2026)";
 export const metaTitle = "Best Wooden Footrests for Desk 2026";
 export const metaDescription =
-  "Best wooden footrests for desk in 2026. Cherry wood rockers, adjustable hardwood platforms, bamboo designs, and a premium steel-roller wood rocker ranked by buyer rating and review count.";
+  "Best wooden footrests for desk in 2026. Cherry wood rockers, adjustable hardwood platforms, bamboo designs, and a steel-roller rocker ranked by rating.";
 export const lastUpdated = "2026-07-08";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/hero.webp`;

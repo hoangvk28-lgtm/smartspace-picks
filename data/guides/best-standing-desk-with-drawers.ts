@@ -4,7 +4,7 @@ export const guideSlug = "best-standing-desk-with-drawers";
 export const guideTitle = "Best Standing Desks with Drawers in 2026: Electric Picks with Built-In Storage";
 export const metaTitle = "Best Standing Desks with Drawers in 2026";
 export const metaDescription =
-  "Best standing desks with drawers in 2026 - electric picks where the drawer rises with the desk. Covers drawer height mechanics, USB charging, and motor load math.";
+  "Best standing desks with drawers in 2026 - electric picks where the drawer rises with the desk. Covers drawer mechanics, USB charging, and motor load.";
 export const lastUpdated = "2026-06-30";
 export const readTime = "10 min";
 export const heroImage = `${BASE}/00-hero.webp`;

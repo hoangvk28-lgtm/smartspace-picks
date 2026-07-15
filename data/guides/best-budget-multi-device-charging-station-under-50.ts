@@ -6,7 +6,7 @@ export const guideDescription =
   "At $30–$50 you start getting GaN technology, USB-C Power Delivery that fast-charges newer phones and iPads, and multi-device organizers that handle everything in one spot. These are the 5 best picks for the money.";
 export const metaTitle = "5 Best Multi-Device Charging Stations Under $50 (2026)";
 export const metaDescription =
-  "5 best budget multi-device charging stations under $50, UGREEN Nexode GaN, Anker Premium PD, SooPii Watch arm, ORICO 10-port, and Sabrent USB 3.0 hub. Compared by GaN, USB-C PD, and value.";
+  "5 best budget charging stations under $50: UGREEN Nexode GaN, Anker Premium PD, SoopPii Watch arm, ORICO 10-port, Sabrent hub. Compared by GaN and value.";
 export const lastUpdated = "2026-06-07";
 export const readTime = "9 min";
 export const heroImage = `${BASE}/6-hero-best-budget-multi-device-charging-stations-under-50-2026.webp`;

@@ -5,7 +5,7 @@ export const guideTitle =
   "7 Best Headphones Under $50 in 2026: Wireless, ANC and Wired Picks";
 export const metaTitle = "7 Best Headphones Under $50 in 2026";
 export const metaDescription =
-  "7 headphones under $50 in 2026: wireless ANC, studio wired, and ANC earbuds. TOZO HT2, JBL Tune 520BT, Audio-Technica ATH-M20x compared by battery, ANC, and value.";
+  "7 headphones under $50 in 2026: wireless ANC, studio wired, and ANC earbuds. TOZO HT2, JBL Tune 520BT, and Audio-Technica ATH-M20x compared by value.";
 export const lastUpdated = "2026-06-18";
 export const readTime = "11 min";
 export const heroImage = `${BASE}/00-hero-best-headphones-under-50-16x9.webp`;

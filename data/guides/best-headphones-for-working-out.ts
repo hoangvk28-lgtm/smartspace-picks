@@ -6,7 +6,7 @@ export const guideDescription =
   "The wrong headphones for working out are not just annoying. They fall out mid-set, short-circuit from sweat in three months, or muffle ambient sound so completely that you do not hear the car coming. This guide covers 7 picks for 2026: budget earbuds, IP68-rated sport picks, open-ear bone conduction for runners, premium hooks for intense training, and one over-ear pick for controlled gym sessions.";
 export const metaTitle = "7 Best Headphones for Working Out (2026)";
 export const metaDescription =
-  "7 best workout headphones in 2026 from $45 to $350: IP68 earbuds, bone conduction for outdoor running, ANC sport picks, and over-ear for the gym. Compared by IP rating, fit security, and battery life.";
+  "7 best workout headphones in 2026 from $45-$350: IP68 earbuds, bone conduction, ANC sport picks, and over-ear for the gym. Compared by fit and battery.";
 export const lastUpdated = "2026-06-14";
 export const readTime = "11 min";
 export const heroImage = `${BASE}/8-hero-best-headphones-for-working-out-2026.webp`;

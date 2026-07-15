@@ -22,7 +22,7 @@ export const authors: Author[] = [
     role: "Lead Product Researcher & Editor",
     isPerson: true,
     avatarUrl: "", // user will provide after creating profile
-    bio: "Jamie Cole spent four years in a 180 sq ft college dorm and two more in a studio apartment before obsessing over what actually fits in a small workspace. As lead researcher at DeskFinds, Jamie evaluates products against real space constraints — not hypothetical home offices.",
+    bio: "Jamie Cole spent four years in a 180 sq ft dorm and two in a studio apartment before obsessing over small workspaces. Lead researcher at DeskFinds.",
     longBio:
       "Jamie Cole started researching small-space products out of personal necessity. Four years in a 180 sq ft college dorm taught a hard lesson: most buying guides are written for people with real home offices, not for students trying to fit a monitor, a lamp, and a keyboard on a 48-inch IKEA desk without losing the ability to eat dinner.\n\nAfter graduating, two years in a studio apartment meant every desk setup purchase required solving the same constraint — what's the smallest footprint that solves the actual problem? That question became the foundation for every evaluation at DeskFinds.\n\nJamie's research process prioritizes verified buyer feedback patterns over spec sheets, specifically looking at 1–3 star reviews to surface failure modes that don't appear in aggregate ratings. Every score on DeskFinds reflects this methodology: real constraints, real trade-offs, and honest disclaimers about what the research can and can't tell you.",
     expertise: [
@@ -57,7 +57,7 @@ export const authors: Author[] = [
     name: "DeskFinds Editorial Team",
     role: "Product Researchers & Editors",
     avatarUrl: "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/object/public/affiliate-media/authors/deskfinds-editorial-team/avatar.png",
-    bio: "We research and compare Amazon products specifically for small spaces — dorm rooms, compact desks, and budget home offices. Every guide is built on product specs, verified buyer data, and structured scoring, not sponsored placement.",
+    bio: "We research and compare Amazon products for small spaces — dorm rooms, compact desks, and budget offices. Built on specs and verified buyer data, not sponsorship.",
     longBio:
       "DeskFinds was built for people who live and work in tight spaces: studio apartments, college dorms, and compact home offices where every square inch counts. Our editorial team evaluates products across five weighted criteria — small-space fit, build quality, ease of use, value for money, and buyer feedback — and publishes structured buying guides that show the trade-offs clearly.\n\nWe do not accept payment for placement. Affiliate commissions from Amazon help keep the site running, but they do not influence which products we recommend or how we rank them. If a product scores poorly on our rubric, it does not appear in our top picks — regardless of commission rate.",
     expertise: [
