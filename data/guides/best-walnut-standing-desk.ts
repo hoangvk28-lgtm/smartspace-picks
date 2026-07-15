@@ -149,7 +149,7 @@ export const products: GuideProduct[] = [
     rank: 8,
     badge: "Best Walnut w/Drawers",
     name: "HUANUO 55x30 inch Walnut Standing Desk with 4 Drawers",
-    price: "$229.99",
+    price: "$219.98",
     rating: "4.3 stars",
     reviews: "Verified ratings",
     imageUrl: `${BASE}/huanuo-55-walnut-drawers.jpg`,

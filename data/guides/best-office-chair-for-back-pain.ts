@@ -37,7 +37,7 @@ export const products: GuideProduct[] = [
     rank: 1,
     badge: "Best Overall",
     name: "CLOUVOU Ergonomic Office Chair",
-    price: "$239.99",
+    price: "$299.99",
     rating: "4.8 stars",
     reviews: "Verified ratings",
     imageUrl: "https://m.media-amazon.com/images/I/718ihNc4u-L._AC_SL1500_.jpg",

@@ -101,7 +101,7 @@ export const products: GuideProduct[] = [
     rank: 5,
     badge: "Best with Built-in Charging",
     name: "SIAGO L-Shaped Standing Desk 63x55 inch",
-    price: "$229.99",
+    price: "$239.99",
     rating: "4.6 stars",
     reviews: "Verified ratings",
     imageUrl: `${BASE}/siago-corner-standing-desk.jpg`,

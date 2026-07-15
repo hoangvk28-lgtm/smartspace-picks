@@ -69,7 +69,7 @@ export const products: GuideProduct[] = [
     rank: 3,
     badge: "Best Heavy-Duty Wing",
     name: "JWX 72 inch Wing-Shaped Gaming Standing Desk",
-    price: "$599.99",
+    price: "$629.99",
     rating: "4.3 stars",
     reviews: "Verified ratings",
     imageUrl: `${BASE}/jwx-72-wing-shaped.jpg`,

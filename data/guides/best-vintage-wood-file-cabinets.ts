@@ -97,7 +97,7 @@ export const products: VintageCabinet[] = [
     rank: 3,
     badge: "Best Farmhouse Under $100",
     name: "VASAGLE 2-Drawer File Cabinet, Farmhouse Style, Honey Brown and Black",
-    price: "$85.49",
+    price: "$88.99",
     drawers: "2 Drawers",
     style: "Honey Brown Farmhouse",
     rating: "4.0 stars, 1,310 reviews",

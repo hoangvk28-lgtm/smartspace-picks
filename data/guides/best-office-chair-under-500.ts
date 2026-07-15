@@ -85,7 +85,7 @@ export const products: GuideProduct[] = [
     rank: 4,
     badge: "Best Big & Tall",
     name: "HON Sadie Big and Tall Chair",
-    price: "$378.64",
+    price: "$371.28",
     rating: "4.3 stars",
     reviews: "Verified ratings",
     imageUrl: "https://m.media-amazon.com/images/I/71xzimoBkjL._AC_SL1500_.jpg",

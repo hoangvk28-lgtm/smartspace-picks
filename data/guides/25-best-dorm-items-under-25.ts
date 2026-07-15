@@ -34,7 +34,7 @@ export interface DormItem {
 export const items: DormItem[] = [
   {
     number: 1, id: "anker-power-strip", name: "Anker Power Strip -- 6 Outlets + 4 USB Ports, 5ft Cord",
-    brand: "Anker", category: "power", price: "$22–$25",
+    brand: "Anker", category: "power", price: "$19.99",
     amazonUrl: "https://www.amazon.com/dp/B0CKR7B9T9?tag=deskfinds0d-20",
     imageUrl: `${B}/1-anker-power-strip-6ac-4usb.webp`,
     problemSolved: "Only 2 wall outlets for your entire room -- and your roommate also needs them.",
@@ -48,7 +48,7 @@ export const items: DormItem[] = [
   },
   {
     number: 2, id: "nuozhi-wall-extender", name: "NUOZHI Wall Outlet Extender -- 6 Outlets + 4 USB",
-    brand: "NUOZHI", category: "power", price: "$18–$22",
+    brand: "NUOZHI", category: "power", price: "$9.98",
     amazonUrl: "https://www.amazon.com/dp/B0FV356131?tag=deskfinds0d-20",
     imageUrl: `${B}/2-nuozhi-wall-outlet-extender.webp`,
     problemSolved: "Your desk is directly next to the wall outlet and you don't want a cord running across the room.",
@@ -63,7 +63,7 @@ export const items: DormItem[] = [
   },
   {
     number: 3, id: "addtam-lamp-strip", name: "Addtam LED Desk Lamp + Power Strip Combo",
-    brand: "Addtam", category: "power", price: "$20–$25",
+    brand: "Addtam", category: "power", price: "$19.99",
     amazonUrl: "https://www.amazon.com/dp/B0D2LGK82V?tag=deskfinds0d-20",
     imageUrl: `${B}/3-addtam-led-lamp-power-strip.webp`,
     problemSolved: "You need a desk lamp AND more outlets AND a USB charger but only have one outlet to spare.",
@@ -77,7 +77,7 @@ export const items: DormItem[] = [
   },
   {
     number: 4, id: "dline-cable-box-small-black", name: "D-Line Cable Management Box Small -- Black",
-    brand: "D-Line", category: "storage", price: "$12–$18",
+    brand: "D-Line", category: "storage", price: "$22.99",
     amazonUrl: "https://www.amazon.com/dp/B00846FO0I?tag=deskfinds0d-20",
     imageUrl: `${B}/4-d-line-cable-box-small-black.webp`,
     problemSolved: "Your power strip and charger pile sits in a tangled mess on the floor or desk, visible in every video call.",
@@ -91,7 +91,7 @@ export const items: DormItem[] = [
   },
   {
     number: 5, id: "mattress-protector", name: "Waterproof Quilted Twin XL Mattress Protector",
-    brand: "SureGuard", category: "sleep", price: "$18–$24",
+    brand: "SureGuard", category: "sleep", price: "$24.99",
     amazonUrl: "https://www.amazon.com/dp/B09X11K2HC?tag=deskfinds0d-20",
     imageUrl: `${B}/5-waterproof-twin-xl-mattress-protector.webp`,
     problemSolved: "Dorm mattresses are vinyl-covered institutional pads that crinkle every time you move and feel hot to sleep on.",
@@ -133,7 +133,7 @@ export const items: DormItem[] = [
   },
   {
     number: 8, id: "bunk-bed-hooks", name: "Ciieeo Dorm Bunk Bed Shelf Hooks 2-Pack",
-    brand: "Ciieeo", category: "sleep", price: "$8–$12",
+    brand: "Ciieeo", category: "sleep", price: "$20.49",
     amazonUrl: "https://www.amazon.com/dp/B0F4MCHF5L?tag=deskfinds0d-20",
     imageUrl: `${B}/8-ciieeo-bunk-bed-shelf-hooks-2-pack.webp`,
     problemSolved: "On a top bunk, you have zero surface storage -- phone, water, and lamp are all on the floor far below you.",
@@ -148,7 +148,7 @@ export const items: DormItem[] = [
   },
   {
     number: 9, id: "white-noise-machine", name: "Magicteam White Noise Machine -- 20 Sounds, 32 Volumes",
-    brand: "Magicteam", category: "sleep", price: "$20–$25",
+    brand: "Magicteam", category: "sleep", price: "$21.84",
     amazonUrl: "https://www.amazon.com/dp/B07RWRJ4XW?tag=deskfinds0d-20",
     imageUrl: `${B}/9-magicteam-white-noise-machine.webp`,
     problemSolved: "Your roommate stays up late, the hallway never quiets down, and you can't fall asleep without your home environment.",
@@ -162,7 +162,7 @@ export const items: DormItem[] = [
   },
   {
     number: 10, id: "command-shower-caddy", name: "Command Shower Caddy with Water-Resistant Strips",
-    brand: "Command (3M)", category: "bathroom", price: "$12–$18",
+    brand: "Command (3M)", category: "bathroom", price: "$17.98",
     amazonUrl: "https://www.amazon.com/dp/B09WBS7RLQ?tag=deskfinds0d-20",
     imageUrl: `${B}/10-command-shower-caddy.webp`,
     problemSolved: "Carrying shampoo and body wash to the communal shower in your arms -- and occasionally leaving something behind.",
@@ -205,7 +205,7 @@ export const items: DormItem[] = [
   },
   {
     number: 13, id: "amazon-basics-velvet-hangers", name: "Amazon Basics Slim Velvet Hangers 50-Pack",
-    brand: "Amazon Basics", category: "closet", price: "$10–$14",
+    brand: "Amazon Basics", category: "closet", price: "$20.98",
     amazonUrl: "https://www.amazon.com/dp/B00FXNAAW2?tag=deskfinds0d-20",
     imageUrl: `${B}/13-amazon-basics-velvet-hangers-50-pack.webp`,
     problemSolved: "A 24\" dorm closet rod fits maybe 20-25 plastic hangers -- not enough for a semester's worth of clothes.",
@@ -219,7 +219,7 @@ export const items: DormItem[] = [
   },
   {
     number: 14, id: "zober-velvet-hangers", name: "ZOBER Velvet Hangers 50-Pack -- with Pants Bar",
-    brand: "ZOBER", category: "closet", price: "$12–$16",
+    brand: "ZOBER", category: "closet", price: "$25.99",
     amazonUrl: "https://www.amazon.com/dp/B01IRHUV6A?tag=deskfinds0d-20",
     imageUrl: `${B}/14-zober-velvet-hangers-50-pack.webp`,
     problemSolved: "Same as #13 -- but you have pants, jeans, skirts, or scarves that need the integrated bar.",
@@ -234,7 +234,7 @@ export const items: DormItem[] = [
   },
   {
     number: 15, id: "onlyeasy-under-bed-shoes", name: "Onlyeasy Under-Bed Shoe Storage, Set of 2",
-    brand: "Onlyeasy", category: "storage", price: "$20–$25",
+    brand: "Onlyeasy", category: "storage", price: "$15.19",
     amazonUrl: "https://www.amazon.com/dp/B07VBJ5MSH?tag=deskfinds0d-20",
     imageUrl: `${B}/15-onlyeasy-under-bed-shoe-storage-2-pack.webp`,
     problemSolved: "Shoes pile up on the closet floor and open room floor, eating precious space in a 150 sq ft room.",
@@ -248,7 +248,7 @@ export const items: DormItem[] = [
   },
   {
     number: 16, id: "under-bed-600d-shoes", name: "Under Bed Shoe Storage 600D, 16-Pair",
-    brand: "WUFFEL", category: "storage", price: "$15–$20",
+    brand: "WUFFEL", category: "storage", price: "$14.39",
     amazonUrl: "https://www.amazon.com/dp/B08BND9MDS?tag=deskfinds0d-20",
     imageUrl: `${B}/16-under-bed-shoe-storage-600d-16-pair.webp`,
     problemSolved: "Same as #15, but you have heavier footwear -- boots, sneakers, men's shoes -- that stress lighter material.",
@@ -263,7 +263,7 @@ export const items: DormItem[] = [
   },
   {
     number: 17, id: "dpower-clip-lamp", name: "Dpower 48-LED Clip-On Desk Lamp",
-    brand: "Dpower", category: "desk", price: "$15–$20",
+    brand: "Dpower", category: "desk", price: "$11.00",
     amazonUrl: "https://www.amazon.com/dp/B08T24FJC9?tag=deskfinds0d-20",
     imageUrl: `${B}/17-dpower-48-led-clip-on-desk-lamp.webp`,
     problemSolved: "Dorm overhead lighting casts shadows directly on your desk, making reading and writing uncomfortable after an hour.",
@@ -291,7 +291,7 @@ export const items: DormItem[] = [
   },
   {
     number: 19, id: "one-beat-lamp-strip", name: "One Beat LED Desk Lamp + Power Strip Combo",
-    brand: "One Beat", category: "desk", price: "$22–$25",
+    brand: "One Beat", category: "desk", price: "$18.99",
     amazonUrl: "https://www.amazon.com/dp/B0CRY97FPB?tag=deskfinds0d-20",
     imageUrl: `${B}/19-one-beat-led-lamp-power-strip.webp`,
     problemSolved: "Same as the Addtam (#3) -- lamp + outlets + USB from one plug. Alternative if the Addtam's layout doesn't fit your desk.",
@@ -306,7 +306,7 @@ export const items: DormItem[] = [
   },
   {
     number: 20, id: "dline-cable-box-white", name: "D-Line Cable Management Box Small -- White",
-    brand: "D-Line", category: "storage", price: "$12–$18",
+    brand: "D-Line", category: "storage", price: "$22.99",
     amazonUrl: "https://www.amazon.com/dp/B00846E7JW?tag=deskfinds0d-20",
     imageUrl: `${B}/20-d-line-cable-box-white.webp`,
     problemSolved: "Same as #4 (black), but your desk or power strip is white and the black box stands out visually.",
@@ -321,7 +321,7 @@ export const items: DormItem[] = [
   },
   {
     number: 21, id: "laopao-lamp-charger-clock", name: "LAOPAO Desk Lamp + Wireless Charger + Clock -- 3-in-1",
-    brand: "LAOPAO", category: "desk", price: "$22–$25",
+    brand: "LAOPAO", category: "desk", price: "$23.49",
     amazonUrl: "https://www.amazon.com/dp/B08BL9DWXJ?tag=deskfinds0d-20",
     imageUrl: `${B}/21-laopao-desk-lamp-charger-clock.webp`,
     problemSolved: "Lamp + wireless charger + alarm clock taking up three separate desk spots and three separate outlet slots.",
@@ -336,7 +336,7 @@ export const items: DormItem[] = [
   },
   {
     number: 22, id: "house-day-velvet-hangers", name: "HOUSE DAY Velvet Hangers 60-Pack",
-    brand: "HOUSE DAY", category: "closet", price: "$12–$16",
+    brand: "HOUSE DAY", category: "closet", price: "$28.48",
     amazonUrl: "https://www.amazon.com/dp/B07GYLFFVR?tag=deskfinds0d-20",
     imageUrl: `${B}/22-house-day-velvet-hangers-60-pack.webp`,
     problemSolved: "You need more than 50 hangers, or you want to split a pack with your roommate.",
@@ -351,7 +351,7 @@ export const items: DormItem[] = [
   },
   {
     number: 23, id: "homyfort-under-bed-shoes", name: "homyfort Under-Bed Shoe Storage Set of 2",
-    brand: "homyfort", category: "storage", price: "$20–$25",
+    brand: "homyfort", category: "storage", price: "$18.99",
     amazonUrl: "https://www.amazon.com/dp/B07G78X321?tag=deskfinds0d-20",
     imageUrl: `${B}/23-homyfort-under-bed-shoe-storage-2-pack.webp`,
     problemSolved: "Same as #15, but you need a stiffer construction that holds its shape when you push it in and pull it out repeatedly.",
@@ -366,7 +366,7 @@ export const items: DormItem[] = [
   },
   {
     number: 24, id: "dline-cable-box-large-black", name: "D-Line Cable Management Box Large -- Black",
-    brand: "D-Line", category: "storage", price: "$18–$22",
+    brand: "D-Line", category: "storage", price: "$27.99",
     amazonUrl: "https://www.amazon.com/dp/B00B1EO1Z4?tag=deskfinds0d-20",
     imageUrl: `${B}/24-d-line-cable-box-large-black.webp`,
     problemSolved: "Your power strip is longer than 10.5\" and doesn't fit the small D-Line box (#4).",
@@ -381,7 +381,7 @@ export const items: DormItem[] = [
   },
   {
     number: 25, id: "utopia-velvet-hangers", name: "Utopia Home Velvet Hangers 50-Pack -- with Pants Bar",
-    brand: "Utopia Home", category: "closet", price: "$12–$16",
+    brand: "Utopia Home", category: "closet", price: "$21.99",
     amazonUrl: "https://www.amazon.com/dp/B01G3WS3PW?tag=deskfinds0d-20",
     imageUrl: `${B}/25-utopia-home-velvet-hangers-50-pack.webp`,
     problemSolved: "You want both a pants bar AND the smoothest swivel hook available at this price range.",

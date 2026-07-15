@@ -151,7 +151,7 @@ export const products: GuideProduct[] = [
     rank: 8,
     badge: "Best Premium Rocker",
     name: "Humanscale FR300 Foot Rocker",
-    price: "$118.99",
+    price: "$135.00",
     rating: "4.4 stars",
     reviews: "558 reviews",
     imageUrl: `${BASE}/humanscale-fr300.webp`,

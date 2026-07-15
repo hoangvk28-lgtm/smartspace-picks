@@ -33,7 +33,7 @@ export const products: MultiDrawerCabinet[] = [
     rank: 1,
     badge: "Best Overall by Trust Signal",
     name: "DEVAISE 3-Drawer Mobile File Cabinet, Printer Stand, Rustic Brown",
-    price: "$94.99",
+    price: "$80.74",
     format: "3-Drawer Mobile",
     drawers: "3 Drawers + Open Shelves",
     rating: "4.1 stars, 2,800+ reviews",

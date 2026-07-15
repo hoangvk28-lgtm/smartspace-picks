@@ -101,7 +101,7 @@ export const products: GuideProduct[] = [
     rank: 5,
     badge: "Best Bamboo",
     name: "FlexiSpot E6 Bamboo Standing Desk",
-    price: "$284.97",
+    price: "$329.99",
     rating: "4.4 stars",
     reviews: "Verified ratings",
     imageUrl: "https://m.media-amazon.com/images/I/81pTkZzga6L._AC_SL1500_.jpg",
