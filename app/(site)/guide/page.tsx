@@ -16,7 +16,7 @@ export const metadata: Metadata = buildMetadata({
   path: "/guide",
 });
 
-const LATEST_COUNT = 18;
+const LATEST_COUNT = 40;
 const PER_CATEGORY = 4;
 
 function GuideCard({ guide, priority = false }: { guide: { slug: string; title: string; description: string; heroImage?: string; thumbnailImage?: string; subcategorySlug: string; readTime: string; lastUpdated: string; recommendedProductIds: string[] }; priority?: boolean }) {
