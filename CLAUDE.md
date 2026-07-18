@@ -237,22 +237,23 @@ m.media-amazon.com   ← only for compliant Amazon PA API usage
 - All scores are **editorial assessments** based on structured criteria — not measurements
 
 ### Required Sections for Buying Guides
-Every `/guide/[slug]` page must include (in order):
+Every `/guide/[slug]` page must include (in order). As of the 2026-07-18 template revision (see "Guide Page Template — Three Mandatory Sections" below), the `data/guides/<slug>.ts` + `scripts/generate-guide-page.mjs` pipeline produces:
 1. Breadcrumbs
 2. Affiliate disclosure bar
 3. Article header (title, description, meta row)
-4. Quick recommendation box (`<GuideRecommendationBox>`)
-5. Comparison table (`<GuideComparisonTable>`) — if 2+ picks
-6. Intro section (first guide section)
-7. Buying criteria table (if `guide.buyingCriteria` is populated)
-8. Detailed product reviews (`<ProductPick>` for each pick)
-9. Middle guide sections
-10. "How We Picked" section (scoring criteria breakdown)
-11. "Who This Guide Is For" / "Who Should Skip" (from `bestFor`/`notIdealFor`)
-12. "The Competition" (alternatives from first pick's `.alternatives` array)
-13. FAQ section (if `guide.faq.length > 0`)
-14. Related buying guides
-15. Mobile sticky CTA (`<MobileStickyPicksCTA>`)
+4. Hero image
+5. **"How We Evaluated These [Products]"** — card grid, from `howWeEvaluated[]` (new, mandatory for guides created from 2026-07-18 onward)
+6. **"Comparison Table"** — renamed from "Quick Picks", from `products[]`
+7. Intro section
+8. **"N Criteria to Look For Before Buying a [Product]"** — card grid, from `buyingCriteria[]`, heading dynamically includes the count and singular product noun
+9. Jump nav
+10. Detailed product reviews (one section per product)
+11. FAQ section (if `faq.length > 0`)
+12. "Bottom Line" section
+13. Amazon browse CTA
+14. Related guides
+
+Legacy guides (predating 2026-07-18) built via the Supabase-backed `<GuideRecommendationBox>`/`<GuideComparisonTable>`/`<ProductPick>` component pipeline follow a similar but not identical structure — do not assume the two pipelines are interchangeable; check which pipeline a given guide actually uses (`app/guide/[slug]/page.tsx` dynamic route vs. a static `app/(site)/guide/<slug>/page.tsx` route) before editing.
 
 ### Scoring Criteria (Fixed — do not change weights)
 | Criterion | Weight |
@@ -283,6 +284,47 @@ Every buying guide (`/guide/[slug]`) must include a substantive "How to Choose" 
 **In `page.tsx`:** The `buyingCriteria` section renders as a card with heading "How to Choose the Right One" above the product list. Do NOT omit this section if `buyingCriteria.length > 0`.
 
 **Quality bar:** If a competitor article for the same keyword has a buying criteria section, ours must cover at least 2 points theirs does not. If competitors have none, ours becomes the strongest signal for topical authority.
+
+---
+
+### Content-Gap Research Step — MANDATORY, Never Skip (added 2026-07-18)
+
+**Every new guide must include a competitor content-gap research pass before the copy is written.** Skipping this step is the single most common quality failure in this project's guide pipeline — do not skip it to save time or tokens, even under token/time pressure.
+
+**What this means in practice, before drafting `buyingCriteria`, `faq`, or `howWeEvaluated`:**
+1. Run a `WebSearch` (or a small batch of searches covering a niche's shared sub-topics, not one search per guide if guides share a parent category — e.g. all "bookshelf" guides can share one research pass) for the guide's `mainKeyword` plus terms like "buying guide", "how to choose", "vs", or a safety/regulatory angle relevant to the product category.
+2. Identify genuinely useful buyer knowledge that is either (a) missing from typical top-ranking pages, or (b) present but vague/wrong on competitor pages — measurement pitfalls, material/spec trade-offs, safety standards and their actual scope (do not assume a cited standard/certification applies to this exact product category — verify), common buyer mistakes, or trade-offs competitors gloss over.
+3. Write 2-4 new `buyingCriteria` entries and 1-2 new `faq` entries per guide that encode this research as specific, actionable advice with real numbers/thresholds — not generic restatements of the product specs already in the pick descriptions.
+4. Cite findings naturally in the copy (state as established buying knowledge, the way the rest of the site's content already reads) — do not write "according to a study" or otherwise expose the research process in the visible copy.
+5. Never fabricate a statistic, standard, or regulation. If a claim can't be backed by what the search actually returned, leave it out.
+
+**Efficient execution for multi-guide batches:** research once per shared topic cluster (e.g. 4-6 targeted searches covering the whole niche), then apply the findings selectively per guide — each guide only gets the subset of findings actually relevant to its specific angle. Do not force irrelevant findings into a guide just to check a box.
+
+**This applies going forward to every new guide from 2026-07-18 onward** — both single guides and batch launches. It does not require retrofitting already-published guides unless the user explicitly asks for a retrofit pass.
+
+---
+
+### Guide Page Template — Three Mandatory Sections (added 2026-07-18)
+
+As of `scripts/generate-guide-page.mjs` (2026-07-18 revision), every generated guide page includes three sections in this fixed order. All three require corresponding exports in the `data/guides/<slug>.ts` file — **do not hand-write `page.tsx` for a new guide; always run the generator** so these sections are never accidentally omitted.
+
+1. **"How We Evaluated These [Products]"** — a card-grid section appearing near the top of the page, before the Comparison Table. Requires a new required export:
+   ```ts
+   export const howWeEvaluated: { title: string; description: string }[] = [
+     { title: "Stability", description: "Tested with a standard iPad Pro 11\" and a heavy 13\" Android tablet. Scored on tipping resistance under tapping and drawing load." },
+     // 4-5 entries total, specific to THIS guide's product category — not a generic reused list
+   ];
+   ```
+   Each entry must be genuinely specific to the product type being evaluated (see the tablet-stand example above: Stability, Adjustability, Build quality, Device compatibility, Value for price) — do not reuse the fixed site-wide "DeskFinds Fit Score" weights from Section 8 verbatim as filler; write category-specific evaluation angles.
+
+2. **"Comparison Table"** — renamed from the old "Quick Picks" table (same underlying `products` data, same position near the top of the page, directly after "How We Evaluated"). No new export required — this reuses `products`.
+
+3. **"N Criteria to Look For Before Buying a [Product]"** — the existing `buyingCriteria` section, but with two changes as of this revision:
+   - **Heading format:** dynamically generated as `"{buyingCriteria.length} Criteria to Look For Before Buying a {singular product noun}"` (e.g. "6 Criteria to Look For Before Buying a Small Keyboard") — the generator derives the singular noun from the guide's breadcrumb title automatically; no manual export needed for this.
+   - **Layout:** rendered as a 2-column card grid (matching the "How We Evaluated" section's visual style), not the old single-column divide-y list.
+   - **Position:** stays before the individual product reviews (unchanged) — this section must inform the buyer before they start reading pick-by-pick detail, not after.
+
+**When editing an EXISTING guide's `buyingCriteria`/`faq` only** (like a content-gap retrofit pass), you do not need to touch `howWeEvaluated` or regenerate the page if the guide predates this template revision and you are not asked to add the new sections — but any **newly created** guide from now on must include `howWeEvaluated` and go through the generator so it gets all three sections.
 
 ---
 

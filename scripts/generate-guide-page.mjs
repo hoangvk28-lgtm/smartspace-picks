@@ -4,8 +4,13 @@
  * app/(site)/guide/best-corner-standing-desk/page.tsx.
  *
  * The data file must export: guideSlug, guideTitle, metaTitle, metaDescription,
- * lastUpdated, readTime, heroImage, products, buyingCriteria, faq, relatedGuides,
- * mainKeyword, introParagraphs (string[], 2-3 sentences).
+ * lastUpdated, readTime, heroImage, products, buyingCriteria, howWeEvaluated, faq,
+ * relatedGuides, mainKeyword, introParagraphs (string[], 2-3 sentences).
+ *
+ * howWeEvaluated: { title: string; description: string }[] — 4-5 entries describing
+ * the guide-specific evaluation criteria (e.g. Stability, Adjustability, Build quality),
+ * rendered as a card grid in a "How We Evaluated These X" section. Required as of
+ * 2026-07 — do not omit even if empty (export an empty array only as a last resort).
  *
  * Usage:
  *   node scripts/generate-guide-page.mjs best-tv-stand-white
@@ -49,6 +54,17 @@ function toBreadcrumbTitle(guideTitle) {
 function toAmazonSearchQuery(mainKeyword, guideSlug) {
   const kw = mainKeyword || guideSlug.replace(/^best-/, "").replace(/-/g, " ");
   return kw.replace(/\s+/g, "+");
+}
+
+// Singularizes a breadcrumb-style title's trailing plural product noun for use in
+// "N Criteria to Look For Before Buying a ___" and "How We Evaluated These ___" headings.
+// Falls back to the first noun-ish token if no simple plural is detected.
+function toProductNounSingular(breadcrumbTitle) {
+  const words = breadcrumbTitle.replace(/^Best\s+/i, "").trim();
+  if (/ies$/i.test(words)) return words.replace(/ies$/i, "y");
+  if (/ches$|shes$|xes$|sses$/i.test(words)) return words.replace(/es$/i, "");
+  if (/s$/i.test(words) && !/ss$/i.test(words)) return words.replace(/s$/i, "");
+  return words;
 }
 
 async function main() {
@@ -95,6 +111,8 @@ async function main() {
     const breadcrumbTitle = toBreadcrumbTitle(guideTitle);
     const amazonQuery = toAmazonSearchQuery(mainKeyword, slug);
     const pascalSchemaName = breadcrumbTitle;
+    const productNoun = toProductNounSingular(breadcrumbTitle);
+    const productNounPlural = breadcrumbTitle.replace(/^Best\s+/i, "").trim();
 
     const introBlock = introParagraphs.map((p) => `          <p>${p}</p>`).join("\n");
 
@@ -115,6 +133,7 @@ import {
   faq,
   relatedGuides,
   buyingCriteria,
+  howWeEvaluated,
   type GuideProduct,
 } from "@/data/guides/${slug}";
 
@@ -324,8 +343,23 @@ export default async function Page() {
           <Image src={heroImg} alt="${breadcrumbTitle}" width={900} height={420} className="w-full h-auto object-contain" priority unoptimized />
         </div>
 
+        {howWeEvaluated.length > 0 && (
+          <section className="mb-10 p-6 rounded-2xl border border-border bg-white">
+            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">How We Evaluated These ${productNounPlural}</h2>
+            <p className="text-sm text-ink-muted mb-5">Each pick was assessed across {howWeEvaluated.length} criteria weighted for real-world use.</p>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {howWeEvaluated.map((item, i) => (
+                <div key={i} className="p-4 rounded-xl border border-border bg-bg">
+                  <p className="text-sm font-bold text-ink mb-1.5">{item.title}</p>
+                  <p className="text-sm text-ink-secondary leading-relaxed">{item.description}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
         <section className="mb-10">
-          <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">Quick Picks</h2>
+          <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">Comparison Table</h2>
           <div className="overflow-x-auto rounded-xl border border-border">
             <table className="w-full text-sm">
               <thead>
@@ -356,6 +390,7 @@ export default async function Page() {
               </tbody>
             </table>
           </div>
+          <p className="text-xs text-ink-muted mt-2">Prices are approximate. Check Amazon for current pricing before purchasing.</p>
         </section>
 
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
@@ -364,12 +399,12 @@ ${introBlock}
 
         {buyingCriteria.length > 0 && (
           <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
-            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">How to Choose the Right One</h2>
+            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">{buyingCriteria.length} Criteria to Look For Before Buying a ${productNoun}</h2>
             <p className="text-sm text-ink-muted mb-5">Key buying criteria so you get the right fit the first time.</p>
-            <div className="divide-y divide-border">
+            <div className="grid sm:grid-cols-2 gap-4">
               {buyingCriteria.map((item, i) => (
-                <div key={i} className="py-4 first:pt-0 last:pb-0">
-                  <p className="text-sm font-bold text-ink mb-1">{item.criterion}</p>
+                <div key={i} className="p-4 rounded-xl border border-border bg-bg">
+                  <p className="text-sm font-bold text-ink mb-1.5">{item.criterion}</p>
                   <p className="text-sm text-ink-secondary leading-relaxed">{item.explanation}</p>
                 </div>
               ))}
