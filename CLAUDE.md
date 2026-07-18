@@ -247,11 +247,12 @@ Every `/guide/[slug]` page must include (in order). As of the 2026-07-18 templat
 7. **"N Criteria to Look For Before Buying a [Product]"** — card grid, from `buyingCriteria[]`, heading dynamically includes the count and singular product noun, positioned before the reviews
 8. Jump nav
 9. Detailed product reviews (one section per product)
-10. **"How to Choose the Right [Products]"** — deep scenario-based advisory section, from `howToChoose[]` (new, mandatory for guides created from 2026-07-18 onward), positioned after the reviews and before the FAQ — this is the guide's primary content-gap section
-11. FAQ section (if `faq.length > 0`)
-12. "Bottom Line" section
-13. Amazon browse CTA
-14. Related guides
+10. **"How We Evaluated These [Products]"** — methodology card grid, from `howWeEvaluated[]` (mandatory for guides created from 2026-07-18 onward), positioned after the reviews
+11. **"How to Choose the Right [Products]"** — deep scenario-based advisory section, from `howToChoose[]` (mandatory for guides created from 2026-07-18 onward), positioned right after "How We Evaluated" and before the FAQ — this is the guide's primary content-gap section
+12. FAQ section (if `faq.length > 0`)
+13. "Bottom Line" section
+14. Amazon browse CTA
+15. Related guides
 
 Legacy guides (predating 2026-07-18) built via the Supabase-backed `<GuideRecommendationBox>`/`<GuideComparisonTable>`/`<ProductPick>` component pipeline follow a similar but not identical structure — do not assume the two pipelines are interchangeable; check which pipeline a given guide actually uses (`app/guide/[slug]/page.tsx` dynamic route vs. a static `app/(site)/guide/<slug>/page.tsx` route) before editing.
 
@@ -315,21 +316,29 @@ Breadcrumbs → header → affiliate note → hero image
 → "N Criteria to Look For Before Buying a [Product]"  (buyingCriteria[], card grid)
 → jump nav
 → individual product review sections
-→ "How to Choose the Right [Products]"  (howToChoose[], deep scenario tables)  ← NEW, this is the content-gap section
+→ "How We Evaluated These [Products]"  (howWeEvaluated[], methodology card grid)
+→ "How to Choose the Right [Products]"  (howToChoose[], deep scenario tables)  ← this is the content-gap section
 → FAQ
 → Bottom Line
 → Amazon browse CTA
 → Related guides
 ```
 
-Two exports are involved, and they serve **different purposes at different depths** — do not merge them or treat them as interchangeable:
+**Do not merge "How We Evaluated" and "How to Choose" into one section — they are two separate sections, both positioned after the product reviews, in that order, both before the FAQ.** An earlier revision of this rule mistakenly collapsed them into one; both must render independently.
+
+Three exports are involved, and they serve **different purposes at different depths** — do not merge them or treat them as interchangeable:
 
 1. **`buyingCriteria[]`** (existing, unchanged shape) → renders as **"N Criteria to Look For Before Buying a [Product]"**, a 2-column card grid, positioned **before** the product reviews. This is the quick, top-level orientation a buyer needs before reading pick-by-pick detail — short criterion + explanation pairs.
    ```ts
    { criterion: "Short label (3-6 words)", explanation: "2-3 sentence advisory with specific numbers or thresholds." }
    ```
 
-2. **`howToChoose[]`** (new, required as of 2026-07-18) → renders as **"How to Choose the Right [Products]"**, positioned **after** the product reviews and **before** the FAQ. This is the deep, scenario-based advisory section — the guide's primary content-gap / E-E-A-T asset — and should look like a mini reference tool a reader would bookmark, not a restatement of the buying criteria above it. Model it directly on this reference guide: **https://www.deskfinds.com/guide/best-small-keyboards** ("How to Choose an Office Chair Under $100" section — by sitting duration, by room type, a height-matching table, a small-desk-compatibility table, a "when to spend more" table, a warranty quick-reference table). Each entry is one subsection:
+2. **`howWeEvaluated[]`** (required as of 2026-07-18) → renders as **"How We Evaluated These [Products]"**, a 2-column card grid, positioned **right after** the product reviews (before "How to Choose"). 4-5 entries describing the guide-specific scoring methodology — category-specific angles (e.g. Stability, Adjustability, Build quality, Device compatibility, Value for price for a tablet-stand guide), not the generic site-wide "DeskFinds Fit Score" weights from the Scoring Criteria table above reused verbatim.
+   ```ts
+   { title: "Stability", description: "Tested with a standard iPad Pro 11\" and a heavy 13\" Android tablet. Scored on tipping resistance under tapping and drawing load." }
+   ```
+
+3. **`howToChoose[]`** (required as of 2026-07-18) → renders as **"How to Choose the Right [Products]"**, positioned **after "How We Evaluated"** and **before** the FAQ. This is the deep, scenario-based advisory section — the guide's primary content-gap / E-E-A-T asset — and should look like a mini reference tool a reader would bookmark, not a restatement of the buying criteria above it. Model it directly on this reference guide: **https://www.deskfinds.com/guide/best-small-keyboards** ("How to Choose an Office Chair Under $100" section — by sitting duration, by room type, a height-matching table, a small-desk-compatibility table, a "when to spend more" table, a warranty quick-reference table). Each entry is one subsection:
    ```ts
    export interface HowToChooseSection {
      subheading: string;              // e.g. "By Sitting Duration", "Chair Height vs Your Height"
