@@ -1,0 +1,333 @@
+export const guideSlug = "best-room-divider-bookcase";
+export const guideTitle = "7 Best Room Divider Bookcases in 2026";
+export const metaTitle = "Best Room Divider Bookcases in 2026 (Freestanding & Double-Sided)";
+export const metaDescription =
+  "7 best room divider bookcases in 2026, from freestanding etageres to double-sided shelves. Compare capacity, width, and design for splitting an open room.";
+export const mainKeyword = "room divider bookcase";
+export const introParagraphs = [
+  "A room divider bookcase has to earn its keep from both sides. Unlike a bookshelf pushed against a wall, it sits in the open, so its back looks almost as important as its front, and it needs to be stable enough to stand freely without tipping.",
+  "Below are 7 room divider bookcases we evaluated on width, total capacity, and how well they hold up as a genuine freestanding divider, ranging from a slim S-shaped geometric rack to a 70-inch-wide etagere built for splitting a large open-concept room.",
+];
+export const lastUpdated = "2026-07-18";
+export const readTime = "9 min";
+export const heroImage = "https://m.media-amazon.com/images/I/416nixYaeVL._SL500_.jpg";
+
+export interface GuideProduct {
+  id: string;
+  rank: number;
+  badge: string;
+  name: string;
+  price: string;
+  rating: string;
+  reviews: string;
+  imageUrl: string;
+  amazonUrl: string;
+  description: string;
+  specs: string[];
+  pros: string[];
+  cons: string[];
+  bestFor: string;
+}
+
+export interface BuyingCriterion {
+  criterion: string;
+  explanation: string;
+}
+
+export interface FaqItem {
+  q: string;
+  a: string;
+}
+
+export const products: GuideProduct[] = [
+  {
+    id: "vasagle-custos-5-tier-divider",
+    rank: 1,
+    badge: "Best-Selling",
+    name: "VASAGLE CUSTOS 5-Tier Room Divider Bookshelf",
+    price: "$59.99",
+    rating: "4.6",
+    reviews: "7,547",
+    imageUrl: "https://m.media-amazon.com/images/I/416nixYaeVL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B07PNFY7Q1?tag=deskfinds0d-20",
+    description:
+      "The VASAGLE CUSTOS is the best-selling pick in this entire list, with over 7,500 ratings, and it's explicitly designed and marketed as a freestanding room divider rather than a bookshelf pressed into double duty. Its open, five-tier frame lets light pass through while still visually breaking up a shared living space.\n\nEach shelf handles 33 lbs for a 165 lb total, built on a particleboard frame with an anti-tip kit included, a genuinely important detail on a piece meant to stand in the open rather than against a wall.",
+    specs: [
+      "27.6\"W x 9.4\"D x 62.6\"H",
+      "Particleboard construction",
+      "Freestanding design marketed as a room divider",
+      "33 lb/shelf (165 lb total)",
+      "Anti-tip kit included",
+    ],
+    pros: [
+      "Best-selling pick in this list with 7,547 ratings",
+      "Explicitly designed and marketed as a room divider",
+      "Open frame lets light pass through the room",
+      "Solid 33 lb per-shelf capacity",
+    ],
+    cons: [
+      "Not finished distinctly on both sides like a purpose-built divider",
+      "Mid-range width may not fully divide a very large room",
+      "Particleboard shelves, not solid wood",
+    ],
+    bestFor: "Buyers who want the most proven, best-reviewed room divider bookcase",
+  },
+  {
+    id: "furologee-s-shaped-rustic-divider",
+    rank: 2,
+    badge: "Most Versatile",
+    name: "Furologee 6-Tier S-Shaped Geometric Bookshelf",
+    price: "$59.99",
+    rating: "4.6",
+    reviews: "709",
+    imageUrl: "https://m.media-amazon.com/images/I/41tIPFRL6WL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CR2Y9BYR?tag=deskfinds0d-20",
+    description:
+      "Furologee's S-shaped frame is the most distinctive design in this list, with a sculptural silhouette that works upright as a room divider, laid horizontally as a wine rack, or repositioned as a TV stand, three placement options in one piece of furniture. That flexibility makes it a smart pick if you're not sure your room layout is permanent.\n\nP2-grade MDF paired with metal supports a 30 lb per-shelf rating for 180 lbs total, and an anti-tip kit is included despite its more artistic, less boxy shape.",
+    specs: [
+      "14.96\"W x 9.45\"D x 57.48\"H",
+      "P2 MDF + metal",
+      "S-shaped design, usable as divider, wine rack, or TV stand",
+      "30 lb/shelf (180 lb total)",
+      "Anti-tip kit included",
+    ],
+    pros: [
+      "Distinctive S-shaped geometric design",
+      "Most versatile pick with 3 different placement options",
+      "Artistic silhouette doubles as a decor statement",
+      "Solid 180 lb total capacity",
+    ],
+    cons: [
+      "Narrower 14.96\" width means less shelf surface per section",
+      "Unconventional shape may not suit a minimalist room",
+      "Fewer reviews than the best-selling picks here",
+    ],
+    bestFor: "A room divider that might later double as a wine rack or TV stand",
+  },
+  {
+    id: "furologee-s-shaped-black-oak-divider",
+    rank: 3,
+    badge: "Best Modern Finish",
+    name: "Furologee 6-Tier S-Shaped Bookshelf, Light Black Oak",
+    price: "$62.99",
+    rating: "4.6",
+    reviews: "709",
+    imageUrl: "https://m.media-amazon.com/images/I/41Afb0kNbFL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0D3FWVTLL?tag=deskfinds0d-20",
+    description:
+      "This is the same sculptural S-shaped room-divider rack as Furologee's rustic brown model, reworked in a modern light black oak tone that suits a more contemporary or minimalist space. Powder-coated metal supports pair with P2 MDF shelving for a 150 lb total capacity across six tiers.\n\nBoth waterproof and anti-scratch coatings, along with non-slip leg pads, make this the more durable-finished version of the two Furologee S-shaped dividers in this list, without sacrificing the flexible upright or horizontal placement options.",
+    specs: [
+      "14.96\"W x 9.45\"D x 57.48\"H",
+      "P2 MDF + powder-coated metal",
+      "S-shaped room-divider rack",
+      "30 lb/shelf (150 lb total)",
+      "Waterproof + anti-scratch, non-slip leg pads",
+    ],
+    pros: [
+      "Same versatile S-shaped design in a modern black oak tone",
+      "Waterproof and scratch-resistant finish",
+      "Non-slip leg pads add stability",
+      "Suits contemporary and minimalist rooms",
+    ],
+    cons: [
+      "Slightly lower total capacity than the rustic brown version",
+      "Narrower width limits shelf surface per section",
+      "Same modest review count as its rustic sibling",
+    ],
+    bestFor: "A modern room that wants the S-shaped divider design in a darker tone",
+  },
+  {
+    id: "ironck-triple-wide-etagere",
+    rank: 4,
+    badge: "Highest Capacity & Widest",
+    name: "IRONCK Triple Wide 6-Tier Etagere Bookcase",
+    price: "$219.99",
+    rating: "4.6",
+    reviews: "420",
+    imageUrl: "https://m.media-amazon.com/images/I/51OXUOdhrKL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0B3J58T4N?tag=deskfinds0d-20",
+    description:
+      "At 70.9 inches wide, the IRONCK Triple Wide is the widest bookcase in this entire list, built specifically to split a large open-concept living room or loft. It's rated for 220 lbs per shelf and 1,320 lbs total, the highest capacity here by a wide margin, so it can carry a genuinely heavy mixed load of books, bins, and decor across its full width.\n\nA back fence stops items from sliding off the rear of each shelf, a detail that matters on a piece viewed from both sides, and two anti-toppling brackets are included given its size.",
+    specs: [
+      "72.8\"H x 70.9\"W x 11.8\"D",
+      "P2 MDF + iron",
+      "220 lb/shelf, 1,320 lb total (highest in this list)",
+      "70.9\" wide (widest in this list)",
+      "Back fence + 2 anti-toppling brackets",
+    ],
+    pros: [
+      "Highest total capacity in this list at 1,320 lbs",
+      "Widest pick here at 70.9 inches, ideal for large rooms",
+      "Back fence keeps items from falling off the rear",
+      "Two anti-toppling brackets for a freestanding piece this size",
+    ],
+    cons: [
+      "Most expensive pick in this list by a large margin",
+      "Its size requires a genuinely large room to make sense",
+      "Heavier and more involved to assemble than the smaller picks",
+    ],
+    bestFor: "Dividing a large open-concept room that needs serious capacity",
+  },
+  {
+    id: "numenn-triple-column-divider",
+    rank: 5,
+    badge: "Highest Rated",
+    name: "NUMENN Triple Column 5-Tier Bookshelf",
+    price: "$89.97",
+    rating: "4.8",
+    reviews: "772",
+    imageUrl: "https://m.media-amazon.com/images/I/41bs1PbxlkL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0D3D378LB?tag=deskfinds0d-20",
+    description:
+      "The NUMENN Triple Column is the highest-rated pick in this list at 4.8 stars, built around three vertical columns and 14 open shelves that create visual rhythm when viewed as a room divider. Engineered wood and metal combine for a 70 lb per-shelf rating, the highest among the standard-size dividers here.\n\nAdjustable shelves let you customize the spacing per column, and an X-support bar plus adjustable feet keep the vintage brown frame steady as a freestanding piece.",
+    specs: [
+      "49.4\"W x 10.2\"D x 66.9\"H",
+      "Engineered wood + metal",
+      "3 columns + 14 open shelves",
+      "70 lb/shelf (highest among standard-size picks)",
+      "Adjustable shelves, X-support bar, adjustable feet",
+    ],
+    pros: [
+      "Highest rating in this list at 4.8 stars",
+      "Triple-column design with 14 open shelves",
+      "Highest per-shelf capacity among standard-size room dividers",
+      "Adjustable shelf spacing per column",
+    ],
+    cons: [
+      "Narrower overall width than the widest dividers here",
+      "Assembly is more involved with three separate columns",
+      "Vintage brown tone won't suit every room",
+    ],
+    bestFor: "Buyers who want the highest-rated, most customizable column-style divider",
+  },
+  {
+    id: "tribesigns-5-tier-double-wide",
+    rank: 6,
+    badge: "Second-Highest Capacity",
+    name: "Tribesigns 5-Tier Double Wide Bookshelf",
+    price: "$159.99",
+    rating: "4.5",
+    reviews: "176",
+    imageUrl: "https://m.media-amazon.com/images/I/51m8Fdzpc6L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0BFDFXJPC?tag=deskfinds0d-20",
+    description:
+      "Tribesigns' double-wide etagere spans 47.24 inches and carries a 450 lb total capacity, the second-highest in this list behind only the IRONCK Triple Wide. Engineered wood and metal combine for a sturdy freestanding frame, and a top edge guard keeps items from sliding off the highest shelf.\n\nAdjustable foot pads let you level it on uneven flooring, and both a waterproof and scratch-resistant finish help it hold up as a piece that gets viewed and touched from two sides rather than tucked against a wall.",
+    specs: [
+      "47.24\"W x 11.81\"D x 70.86\"H",
+      "Engineered wood + metal",
+      "450 lb total capacity",
+      "Top edge guard",
+      "Adjustable foot pads, waterproof + scratch-resistant",
+    ],
+    pros: [
+      "Second-highest total capacity in this list at 450 lbs",
+      "Wide 47-inch frame suits mid-to-large rooms",
+      "Top edge guard prevents items falling off",
+      "Waterproof and scratch-resistant finish",
+    ],
+    cons: [
+      "Fewer reviews than most other picks in this list",
+      "Large footprint needs a room with real open space",
+      "Pricier than the mid-tier options here",
+    ],
+    bestFor: "A wide, sturdy divider for a mid-to-large open room",
+  },
+  {
+    id: "homykic-bamboo-double-wide",
+    rank: 7,
+    badge: "Lightest to Reposition",
+    name: "Homykic Double Wide Bamboo Bookshelf",
+    price: "$115.99",
+    rating: "4.6",
+    reviews: "525",
+    imageUrl: "https://m.media-amazon.com/images/I/413ebmkF3aL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CKNB4VQF?tag=deskfinds0d-20",
+    description:
+      "The Homykic is the only pick in this list built from 100% bamboo, giving it a lighter, more natural look than the engineered wood and metal options elsewhere here, while still supporting a 528 lb total capacity across 12 shelves. That bamboo construction also makes it noticeably lighter to pick up and reposition than steel-framed alternatives.\n\nA clean white finish and an included anti-tip device round out a piece that's easy to move if you rearrange your room layout, which matters more for a divider than for a wall-mounted bookshelf.",
+    specs: [
+      "41.14\"W x 10.63\"D x 72.44\"H",
+      "100% bamboo",
+      "528 lb total capacity, 12 shelves",
+      "44 lb/shelf",
+      "Anti-tip device, lightweight bamboo build",
+    ],
+    pros: [
+      "Only genuine bamboo pick in this list",
+      "528 lb total capacity despite the lightweight material",
+      "Easiest to reposition if you rearrange your room",
+      "Best-looking white bamboo finish",
+    ],
+    cons: [
+      "Bamboo finish may show wear differently than painted wood",
+      "Not as heavy-duty feeling as the steel-reinforced picks",
+      "Mid-range width won't divide a very large room on its own",
+    ],
+    bestFor: "A lightweight, movable room divider that's easy to reposition later",
+  },
+];
+
+export const buyingCriteria: BuyingCriterion[] = [
+  {
+    criterion: "Look for pieces marketed as freestanding dividers",
+    explanation:
+      "The VASAGLE CUSTOS is explicitly designed and marketed as a room divider rather than a bookshelf repurposed for the job, which shows in how it's braced to stand freely in the open.",
+  },
+  {
+    criterion: "Flexible, multi-use designs",
+    explanation:
+      "Furologee's S-shaped design is the most flexible pick in this list, usable upright as a divider or repositioned as a wine rack or TV stand if your room layout changes.",
+  },
+  {
+    criterion: "Width and capacity for large rooms",
+    explanation:
+      "The IRONCK Triple Wide is both the widest (70.9\") and highest-capacity (1,320 lb) pick here, built specifically for splitting a large open-concept space.",
+  },
+  {
+    criterion: "Rating and per-shelf capacity",
+    explanation:
+      "The NUMENN Triple Column has the highest rating in this list at 4.8 stars and the highest per-shelf capacity among standard-size dividers, a good balance for most mid-size rooms.",
+  },
+  {
+    criterion: "Weight matters for repositioning",
+    explanation:
+      "Homykic's bamboo construction makes it the lightest and easiest pick to reposition, useful if you expect to rearrange your room layout more than once.",
+  },
+  {
+    criterion: "Stability hardware is essential",
+    explanation:
+      "Because a divider stands freely rather than against a wall, anti-tip kits and toppling brackets matter even more here than on a standard bookshelf. Every pick in this list includes some form of tip-resistance hardware.",
+  },
+];
+
+export const faq: FaqItem[] = [
+  {
+    q: "What's the best bookcase for dividing a room?",
+    a: "The VASAGLE CUSTOS 5-Tier Room Divider Bookshelf is the top pick, explicitly designed and marketed as a freestanding room divider and the best-selling option in this list with over 7,500 ratings.",
+  },
+  {
+    q: "Which room divider bookcase has the highest weight capacity?",
+    a: "The IRONCK Triple Wide 6-Tier Etagere has the highest capacity in this list at 1,320 lbs total, and it's also the widest pick at 70.9 inches.",
+  },
+  {
+    q: "Is there a room divider that can also be used as a TV stand?",
+    a: "Yes. Furologee's S-shaped 6-Tier Bookshelf is designed to work upright as a room divider, laid flat as a TV stand, or as a wine rack, making it the most versatile pick in this list.",
+  },
+  {
+    q: "What's the lightest room divider bookcase to move?",
+    a: "The Homykic Double Wide Bamboo Bookshelf is the lightest pick here thanks to its 100% bamboo construction, making it easier to reposition than the steel-framed alternatives.",
+  },
+  {
+    q: "Do room divider bookcases need to be anchored?",
+    a: "Yes. Since they stand freely in the open rather than against a wall, stability hardware matters even more. Every pick in this list includes some form of anti-tip kit or toppling bracket.",
+  },
+  {
+    q: "Which room divider bookcase is rated highest by buyers?",
+    a: "The NUMENN Triple Column 5-Tier Bookshelf has the highest rating in this list at 4.8 stars, combined with the highest per-shelf capacity among standard-size dividers.",
+  },
+];
+
+export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-bookshelf-room-divider", title: "Best Bookshelf Room Dividers (2026)" },
+  { href: "/guide/best-bookshelf-for-bedroom", title: "Best Bookshelves for Bedroom (2026)" },
+  { href: "/guide/best-bookshelf-l-shaped", title: "Best L-Shaped Bookshelves (2026)" },
+];
