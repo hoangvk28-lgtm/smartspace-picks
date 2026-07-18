@@ -237,17 +237,17 @@ m.media-amazon.com   ← only for compliant Amazon PA API usage
 - All scores are **editorial assessments** based on structured criteria — not measurements
 
 ### Required Sections for Buying Guides
-Every `/guide/[slug]` page must include (in order). As of the 2026-07-18 template revision (see "Guide Page Template — Three Mandatory Sections" below), the `data/guides/<slug>.ts` + `scripts/generate-guide-page.mjs` pipeline produces:
+Every `/guide/[slug]` page must include (in order). As of the 2026-07-18 template revision (see "Guide Page Template — Page Order & Mandatory Sections" below), the `data/guides/<slug>.ts` + `scripts/generate-guide-page.mjs` pipeline produces:
 1. Breadcrumbs
 2. Affiliate disclosure bar
 3. Article header (title, description, meta row)
 4. Hero image
-5. **"How We Evaluated These [Products]"** — card grid, from `howWeEvaluated[]` (new, mandatory for guides created from 2026-07-18 onward)
-6. **"Comparison Table"** — renamed from "Quick Picks", from `products[]`
-7. Intro section
-8. **"N Criteria to Look For Before Buying a [Product]"** — card grid, from `buyingCriteria[]`, heading dynamically includes the count and singular product noun
-9. Jump nav
-10. Detailed product reviews (one section per product)
+5. **"Comparison Table"** — renamed from "Quick Picks", from `products[]`
+6. Intro section
+7. **"N Criteria to Look For Before Buying a [Product]"** — card grid, from `buyingCriteria[]`, heading dynamically includes the count and singular product noun, positioned before the reviews
+8. Jump nav
+9. Detailed product reviews (one section per product)
+10. **"How to Choose the Right [Products]"** — deep scenario-based advisory section, from `howToChoose[]` (new, mandatory for guides created from 2026-07-18 onward), positioned after the reviews and before the FAQ — this is the guide's primary content-gap section
 11. FAQ section (if `faq.length > 0`)
 12. "Bottom Line" section
 13. Amazon browse CTA
@@ -304,27 +304,45 @@ Every buying guide (`/guide/[slug]`) must include a substantive "How to Choose" 
 
 ---
 
-### Guide Page Template — Three Mandatory Sections (added 2026-07-18)
+### Guide Page Template — Page Order & Mandatory Sections (added 2026-07-18, corrected 2026-07-18)
 
-As of `scripts/generate-guide-page.mjs` (2026-07-18 revision), every generated guide page includes three sections in this fixed order. All three require corresponding exports in the `data/guides/<slug>.ts` file — **do not hand-write `page.tsx` for a new guide; always run the generator** so these sections are never accidentally omitted.
+As of `scripts/generate-guide-page.mjs`, every generated guide page follows this section order top to bottom. **Do not hand-write `page.tsx` for a new guide; always run the generator** so these sections are never accidentally omitted or misplaced.
 
-1. **"How We Evaluated These [Products]"** — a card-grid section appearing near the top of the page, before the Comparison Table. Requires a new required export:
+```
+Breadcrumbs → header → affiliate note → hero image
+→ Comparison Table (products[])
+→ intro paragraphs
+→ "N Criteria to Look For Before Buying a [Product]"  (buyingCriteria[], card grid)
+→ jump nav
+→ individual product review sections
+→ "How to Choose the Right [Products]"  (howToChoose[], deep scenario tables)  ← NEW, this is the content-gap section
+→ FAQ
+→ Bottom Line
+→ Amazon browse CTA
+→ Related guides
+```
+
+Two exports are involved, and they serve **different purposes at different depths** — do not merge them or treat them as interchangeable:
+
+1. **`buyingCriteria[]`** (existing, unchanged shape) → renders as **"N Criteria to Look For Before Buying a [Product]"**, a 2-column card grid, positioned **before** the product reviews. This is the quick, top-level orientation a buyer needs before reading pick-by-pick detail — short criterion + explanation pairs.
    ```ts
-   export const howWeEvaluated: { title: string; description: string }[] = [
-     { title: "Stability", description: "Tested with a standard iPad Pro 11\" and a heavy 13\" Android tablet. Scored on tipping resistance under tapping and drawing load." },
-     // 4-5 entries total, specific to THIS guide's product category — not a generic reused list
-   ];
+   { criterion: "Short label (3-6 words)", explanation: "2-3 sentence advisory with specific numbers or thresholds." }
    ```
-   Each entry must be genuinely specific to the product type being evaluated (see the tablet-stand example above: Stability, Adjustability, Build quality, Device compatibility, Value for price) — do not reuse the fixed site-wide "DeskFinds Fit Score" weights from Section 8 verbatim as filler; write category-specific evaluation angles.
 
-2. **"Comparison Table"** — renamed from the old "Quick Picks" table (same underlying `products` data, same position near the top of the page, directly after "How We Evaluated"). No new export required — this reuses `products`.
+2. **`howToChoose[]`** (new, required as of 2026-07-18) → renders as **"How to Choose the Right [Products]"**, positioned **after** the product reviews and **before** the FAQ. This is the deep, scenario-based advisory section — the guide's primary content-gap / E-E-A-T asset — and should look like a mini reference tool a reader would bookmark, not a restatement of the buying criteria above it. Model it directly on this reference guide: **https://www.deskfinds.com/guide/best-small-keyboards** ("How to Choose an Office Chair Under $100" section — by sitting duration, by room type, a height-matching table, a small-desk-compatibility table, a "when to spend more" table, a warranty quick-reference table). Each entry is one subsection:
+   ```ts
+   export interface HowToChooseSection {
+     subheading: string;              // e.g. "By Sitting Duration", "Chair Height vs Your Height"
+     intro?: string;                  // optional 1-2 sentence framing before the table/cards
+     table?: { headers: string[]; rows: string[][] };  // scenario -> named pick mapping
+     cards?: { label: string; text: string }[];         // alternative to a table for 2-4 item breakdowns
+     note?: string;                   // optional closing callout (a practical tip, a caveat)
+   }
+   export const howToChoose: HowToChooseSection[] = [ /* 4-6 subsections */ ];
+   ```
+   **The defining trait of a good `howToChoose` table:** every row maps a concrete buyer situation (a measurement, a use case, a budget threshold, a room type) directly to a **named pick from this guide's `products[]`** — not a generic tip. If a row doesn't end in "→ therefore buy [specific product name]" or an equally concrete recommendation, it's not deep enough yet. This is where the mandatory content-gap research (see above) actually gets applied — the research findings should surface as these scenario rows, not as generic prose.
 
-3. **"N Criteria to Look For Before Buying a [Product]"** — the existing `buyingCriteria` section, but with two changes as of this revision:
-   - **Heading format:** dynamically generated as `"{buyingCriteria.length} Criteria to Look For Before Buying a {singular product noun}"` (e.g. "6 Criteria to Look For Before Buying a Small Keyboard") — the generator derives the singular noun from the guide's breadcrumb title automatically; no manual export needed for this.
-   - **Layout:** rendered as a 2-column card grid (matching the "How We Evaluated" section's visual style), not the old single-column divide-y list.
-   - **Position:** stays before the individual product reviews (unchanged) — this section must inform the buyer before they start reading pick-by-pick detail, not after.
-
-**When editing an EXISTING guide's `buyingCriteria`/`faq` only** (like a content-gap retrofit pass), you do not need to touch `howWeEvaluated` or regenerate the page if the guide predates this template revision and you are not asked to add the new sections — but any **newly created** guide from now on must include `howWeEvaluated` and go through the generator so it gets all three sections.
+**When editing an EXISTING guide's `buyingCriteria`/`faq` only** (a content-gap retrofit pass on an already-published guide), you do not need to add `howToChoose` or regenerate the page unless the user explicitly asks for a full template upgrade on that guide. But any **newly created** guide from 2026-07-18 onward must include a real `howToChoose[]` (not an empty array) and go through the generator.
 
 ---
 

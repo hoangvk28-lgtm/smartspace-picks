@@ -4,13 +4,21 @@
  * app/(site)/guide/best-corner-standing-desk/page.tsx.
  *
  * The data file must export: guideSlug, guideTitle, metaTitle, metaDescription,
- * lastUpdated, readTime, heroImage, products, buyingCriteria, howWeEvaluated, faq,
+ * lastUpdated, readTime, heroImage, products, buyingCriteria, howToChoose, faq,
  * relatedGuides, mainKeyword, introParagraphs (string[], 2-3 sentences).
  *
- * howWeEvaluated: { title: string; description: string }[] — 4-5 entries describing
- * the guide-specific evaluation criteria (e.g. Stability, Adjustability, Build quality),
- * rendered as a card grid in a "How We Evaluated These X" section. Required as of
- * 2026-07 — do not omit even if empty (export an empty array only as a last resort).
+ * howToChoose: a deep, multi-subsection "How to Choose the Right X" advisory block
+ * rendered AFTER the individual product reviews and BEFORE the FAQ section. Each
+ * entry is one subsection with a subheading plus an optional intro paragraph, an
+ * optional table, an optional 2-col card grid, and an optional closing note:
+ *   { subheading: string; intro?: string;
+ *     table?: { headers: string[]; rows: string[][] };
+ *     cards?: { label: string; text: string }[]; note?: string }[]
+ * Model this on scenario-based tables that map a buyer situation directly to a named
+ * pick (e.g. "By Sitting Duration" -> daily hours -> which pick to buy; "Chair Height
+ * vs Your Height" -> a measurement -> which picks fit). 4-6 subsections per guide is
+ * the target depth — this is the guide's primary E-E-A-T / content-gap section.
+ * Required as of 2026-07-18 — do not omit even if it ends up a short array.
  *
  * Usage:
  *   node scripts/generate-guide-page.mjs best-tv-stand-white
@@ -133,7 +141,7 @@ import {
   faq,
   relatedGuides,
   buyingCriteria,
-  howWeEvaluated,
+  howToChoose,
   type GuideProduct,
 } from "@/data/guides/${slug}";
 
@@ -343,21 +351,6 @@ export default async function Page() {
           <Image src={heroImg} alt="${breadcrumbTitle}" width={900} height={420} className="w-full h-auto object-contain" priority unoptimized />
         </div>
 
-        {howWeEvaluated.length > 0 && (
-          <section className="mb-10 p-6 rounded-2xl border border-border bg-white">
-            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">How We Evaluated These ${productNounPlural}</h2>
-            <p className="text-sm text-ink-muted mb-5">Each pick was assessed across {howWeEvaluated.length} criteria weighted for real-world use.</p>
-            <div className="grid sm:grid-cols-2 gap-4">
-              {howWeEvaluated.map((item, i) => (
-                <div key={i} className="p-4 rounded-xl border border-border bg-bg">
-                  <p className="text-sm font-bold text-ink mb-1.5">{item.title}</p>
-                  <p className="text-sm text-ink-secondary leading-relaxed">{item.description}</p>
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
-
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">Comparison Table</h2>
           <div className="overflow-x-auto rounded-xl border border-border">
@@ -429,6 +422,57 @@ ${introBlock}
         {products.map((product) => (
           <ProductSection key={product.id} product={product} />
         ))}
+
+        {howToChoose.length > 0 && (
+          <section className="mb-14">
+            <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">How to Choose the Right ${productNounPlural}</h2>
+            <div className="space-y-8">
+              {howToChoose.map((sub, i) => (
+                <div key={i}>
+                  <h3 className="text-lg font-bold text-ink mb-3">{sub.subheading}</h3>
+                  {sub.intro && (
+                    <p className="text-sm text-ink-secondary leading-relaxed mb-3">{sub.intro}</p>
+                  )}
+                  {sub.table && (
+                    <div className="overflow-x-auto rounded-xl border border-border mb-2">
+                      <table className="w-full text-sm">
+                        <thead>
+                          <tr className="bg-brand text-white">
+                            {sub.table.headers.map((h, hi) => (
+                              <th key={hi} className="text-left px-4 py-3 font-semibold">{h}</th>
+                            ))}
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {sub.table.rows.map((row, ri) => (
+                            <tr key={ri} className={ri % 2 === 0 ? "bg-white" : "bg-bg"}>
+                              {row.map((cell, ci) => (
+                                <td key={ci} className="px-4 py-3 text-ink-secondary text-xs">{cell}</td>
+                              ))}
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  )}
+                  {sub.cards && (
+                    <div className="grid sm:grid-cols-2 gap-3 mb-2">
+                      {sub.cards.map((c, ci) => (
+                        <div key={ci} className="p-4 rounded-xl border border-border bg-bg">
+                          <p className="text-sm font-bold text-ink mb-1">{c.label}</p>
+                          <p className="text-sm text-ink-secondary leading-relaxed">{c.text}</p>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                  {sub.note && (
+                    <p className="text-xs text-ink-muted leading-relaxed">{sub.note}</p>
+                  )}
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
 
         <section id="faq" className="mb-14 scroll-mt-20">
           <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">Frequently Asked Questions</h2>
