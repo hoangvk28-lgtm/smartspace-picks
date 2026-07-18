@@ -322,7 +322,15 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
 ];
 
-export const howToChoose = [
+export interface HowToChooseSection {
+  subheading: string;
+  intro?: string;
+  table?: { headers: string[]; rows: string[][] };
+  cards?: { label: string; text: string }[];
+  note?: string;
+}
+
+export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Room Height and Ceiling",
     intro:
