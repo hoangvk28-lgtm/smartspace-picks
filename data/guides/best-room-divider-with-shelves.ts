@@ -266,6 +266,34 @@ export const products: GuideProduct[] = [
   },
 ];
 
+export interface HowWeEvaluatedItem {
+  title: string;
+  description: string;
+}
+
+export const howWeEvaluated: HowWeEvaluatedItem[] = [
+  {
+    title: "Freestanding stability",
+    description: "Scored on base width, anti-tip hardware count, and center of gravity, since a true divider is walked around on both sides and usually can't rely on a wall anchor.",
+  },
+  {
+    title: "Height-to-privacy ratio",
+    description: "Weighed how well each height actually delivers on its intended purpose, from a half-wall visual boundary to full 72-84 inch separation, rather than just measuring inches.",
+  },
+  {
+    title: "Weight capacity",
+    description: "Compared per-shelf and total capacity against the material used (particleboard, E0-grade board, or reinforced metal), since these numbers vary widely across this list.",
+  },
+  {
+    title: "Layout flexibility",
+    description: "Assessed whether a pick is locked into one fixed position or can be repositioned, folded, or repurposed for a different use as your room layout changes.",
+  },
+  {
+    title: "Value for price",
+    description: "Weighed capacity, height, and included hardware against price, the VASAGLE CUSTOS and FACBOTALL 83.7\" sit at opposite ends of this trade-off between budget and maximum capacity.",
+  },
+];
+
 export const buyingCriteria: BuyingCriterion[] = [
   {
     criterion: "Match height to how much privacy you want",

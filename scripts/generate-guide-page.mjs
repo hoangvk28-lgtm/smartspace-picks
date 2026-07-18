@@ -4,21 +4,31 @@
  * app/(site)/guide/best-corner-standing-desk/page.tsx.
  *
  * The data file must export: guideSlug, guideTitle, metaTitle, metaDescription,
- * lastUpdated, readTime, heroImage, products, buyingCriteria, howToChoose, faq,
- * relatedGuides, mainKeyword, introParagraphs (string[], 2-3 sentences).
+ * lastUpdated, readTime, heroImage, products, buyingCriteria, howWeEvaluated,
+ * howToChoose, faq, relatedGuides, mainKeyword, introParagraphs (string[], 2-3
+ * sentences).
  *
- * howToChoose: a deep, multi-subsection "How to Choose the Right X" advisory block
- * rendered AFTER the individual product reviews and BEFORE the FAQ section. Each
- * entry is one subsection with a subheading plus an optional intro paragraph, an
- * optional table, an optional 2-col card grid, and an optional closing note:
- *   { subheading: string; intro?: string;
- *     table?: { headers: string[]; rows: string[][] };
- *     cards?: { label: string; text: string }[]; note?: string }[]
- * Model this on scenario-based tables that map a buyer situation directly to a named
- * pick (e.g. "By Sitting Duration" -> daily hours -> which pick to buy; "Chair Height
- * vs Your Height" -> a measurement -> which picks fit). 4-6 subsections per guide is
- * the target depth — this is the guide's primary E-E-A-T / content-gap section.
- * Required as of 2026-07-18 — do not omit even if it ends up a short array.
+ * Two advisory sections render AFTER the individual product reviews and BEFORE the
+ * FAQ section, in this order:
+ *
+ * 1. howWeEvaluated: { title: string; description: string }[] — 4-5 entries, a card
+ *    grid titled "How We Evaluated These X", explaining the guide-specific scoring
+ *    methodology (e.g. Stability, Adjustability, Build quality, Device compatibility,
+ *    Value for price for a tablet-stand guide). Category-specific, not generic filler.
+ *
+ * 2. howToChoose: a deep, multi-subsection "How to Choose the Right X" advisory block.
+ *    Each entry is one subsection with a subheading plus an optional intro paragraph,
+ *    an optional table, an optional 2-col card grid, and an optional closing note:
+ *      { subheading: string; intro?: string;
+ *        table?: { headers: string[]; rows: string[][] };
+ *        cards?: { label: string; text: string }[]; note?: string }[]
+ *    Model this on scenario-based tables that map a buyer situation directly to a
+ *    named pick (e.g. "By Sitting Duration" -> daily hours -> which pick to buy;
+ *    "Chair Height vs Your Height" -> a measurement -> which picks fit). 4-6
+ *    subsections per guide is the target depth — this is the guide's primary
+ *    E-E-A-T / content-gap section.
+ *
+ * Both are required as of 2026-07-18 — do not omit either, even if short.
  *
  * Usage:
  *   node scripts/generate-guide-page.mjs best-tv-stand-white
@@ -141,6 +151,7 @@ import {
   faq,
   relatedGuides,
   buyingCriteria,
+  howWeEvaluated,
   howToChoose,
   type GuideProduct,
 } from "@/data/guides/${slug}";
@@ -422,6 +433,21 @@ ${introBlock}
         {products.map((product) => (
           <ProductSection key={product.id} product={product} />
         ))}
+
+        {howWeEvaluated.length > 0 && (
+          <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
+            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">How We Evaluated These ${productNounPlural}</h2>
+            <p className="text-sm text-ink-muted mb-5">Each pick was assessed across {howWeEvaluated.length} criteria weighted for real-world use.</p>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {howWeEvaluated.map((item, i) => (
+                <div key={i} className="p-4 rounded-xl border border-border bg-bg">
+                  <p className="text-sm font-bold text-ink mb-1.5">{item.title}</p>
+                  <p className="text-sm text-ink-secondary leading-relaxed">{item.description}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
 
         {howToChoose.length > 0 && (
           <section className="mb-14">

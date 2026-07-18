@@ -15,6 +15,7 @@ import {
   faq,
   relatedGuides,
   buyingCriteria,
+  howWeEvaluated,
   howToChoose,
   type GuideProduct,
 } from "@/data/guides/best-room-divider-with-shelves";
@@ -297,6 +298,21 @@ export default async function Page() {
         {products.map((product) => (
           <ProductSection key={product.id} product={product} />
         ))}
+
+        {howWeEvaluated.length > 0 && (
+          <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
+            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">How We Evaluated These Room Dividers with Shelves</h2>
+            <p className="text-sm text-ink-muted mb-5">Each pick was assessed across {howWeEvaluated.length} criteria weighted for real-world use.</p>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {howWeEvaluated.map((item, i) => (
+                <div key={i} className="p-4 rounded-xl border border-border bg-bg">
+                  <p className="text-sm font-bold text-ink mb-1.5">{item.title}</p>
+                  <p className="text-sm text-ink-secondary leading-relaxed">{item.description}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
 
         {howToChoose.length > 0 && (
           <section className="mb-14">
