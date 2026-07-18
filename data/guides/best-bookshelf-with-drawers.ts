@@ -302,7 +302,12 @@ export const buyingCriteria: BuyingCriterion[] = [
   {
     criterion: "Stability and anti-tip hardware",
     explanation:
-      "Every pick in this list includes an anti-tip kit for wall anchoring, which matters most on taller units like the DICTAC and FINETONES where the risk of tipping is higher.",
+      "Every pick in this list includes an anti-tip kit for wall anchoring, which matters most on taller units like the DICTAC and FINETONES where the risk of tipping is higher. Loaded drawers near the base, like the fabric bins on the EXPERLAM or the wrap-around drawers on the FINETONES, actually help here by keeping the piece's weight low and the center of gravity stable, but that's a bonus, not a substitute for anchoring a tall unit to the wall.",
+  },
+  {
+    criterion: "Weight capacity by material",
+    explanation:
+      "Particleboard and P2 MDF shelves, used on most picks here, typically hold 30-50 lbs each. Solid wood, like the EXPERLAM's pine construction, can exceed 100 lbs per shelf, and reinforced metal-frame designs like the Furologee Ladder Shelf can reach 200+ lbs total. If you're storing hardcover books or bins rather than paperbacks, check the per-shelf rating, not just the total.",
   },
 ];
 
@@ -330,6 +335,10 @@ export const faq: FaqItem[] = [
   {
     q: "Was any product excluded from this list?",
     a: "Yes. One additional bookshelf with drawers was evaluated but excluded after its product images failed to verify against Amazon's catalog data.",
+  },
+  {
+    q: "Do the drawers on these bookshelves make them safer, or do I still need to anchor them?",
+    a: "You still need to anchor them. Filled drawers sitting low on the frame do lower the center of gravity and add stability, but that's a side benefit, not a safety feature on its own. Any tall, freestanding bookshelf, drawers or not, should be secured to the wall with the included anti-tip strap or an L-bracket, especially around kids or pets.",
   },
 ];
 

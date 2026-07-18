@@ -304,6 +304,21 @@ export const buyingCriteria: BuyingCriterion[] = [
     explanation:
       "Because these pieces stand freely without wall support in many divider setups, look for included anti-tip kits, wall anchor kits, or anti-toppling brackets, called out on every pick in this guide, to keep a tall freestanding unit safely secured.",
   },
+  {
+    criterion: "Ideal divider height",
+    explanation:
+      "How much of the room you actually want to close off should drive your height choice. A half-wall height around 3-4.5 feet, closer to the Furologee's 57.5 inches, mainly creates a visual boundary between zones while keeping sightlines and light open. A taller 72-84 inch piece, like the Tribesigns, HSH, or IRONCK, creates real privacy between the two sides without extending all the way to the ceiling.",
+  },
+  {
+    criterion: "Clearance around the divider",
+    explanation:
+      "Since a room divider gets walked around on both sides rather than pushed against a wall, leave at least 3 feet of clear walking space around it in addition to whatever floor space the piece itself occupies, more if the divider is near a main walkway.",
+  },
+  {
+    criterion: "Anchoring is harder for a true room divider",
+    explanation:
+      "A freestanding piece meant to be walked around on both sides usually can't be strapped to a wall the way a normal bookshelf can, so it's especially prone to tipping if it's tall and narrow. That makes a wide, heavy base and low center of gravity more important here than for a wall-adjacent bookshelf, look for the widest footprint and heaviest frame you can fit, and use any included anti-tip or anti-toppling brackets even when they can't anchor to a wall stud.",
+  },
 ];
 
 export const faq: FaqItem[] = [
@@ -330,6 +345,14 @@ export const faq: FaqItem[] = [
   {
     q: "What is the most affordable bookshelf room divider in this list?",
     a: "The Furologee Rustic Brown S-Shaped Bookshelf (Pick 1) is the most affordable at $59.99, followed closely by the Light Black Oak version (Pick 2) at $62.99.",
+  },
+  {
+    q: "How tall should a bookshelf room divider be?",
+    a: "It depends on how much privacy you want. A shorter piece around 3-4.5 feet, close to the Furologee's 57.5-inch height, creates a visual boundary without blocking light or sightlines. A taller 72-84 inch piece, like the Tribesigns, HSH, or IRONCK, gives real privacy between the two zones without extending to the ceiling like a full wall would.",
+  },
+  {
+    q: "Do room dividers need to be anchored like a wall bookshelf?",
+    a: "Yes, if anything they need more attention to stability, not less. A true room divider is walked around on both sides, so it often can't be strapped to a wall the way a normal bookshelf can. That makes a wide, heavy base and included anti-tip or anti-toppling hardware, present on every pick in this guide, especially important for keeping a tall freestanding piece from tipping.",
   },
 ];
 

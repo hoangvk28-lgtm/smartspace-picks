@@ -334,6 +334,16 @@ export const buyingCriteria: BuyingCriterion[] = [
     explanation:
       "Most picks use particleboard, engineered wood, or MDF on a metal frame. The Huuger is FSC-certified for sustainable sourcing, and the Armocity ships with pre-sorted, labeled parts for the fastest build in this list at about 30 minutes.",
   },
+  {
+    criterion: "Measure both walls, not just one",
+    explanation:
+      "An L-shaped unit concentrates its footprint into a room corner, so the depth on both walls matters, not just the width of the leg you're focused on. Buyers commonly measure a single wall and then find the shorter leg doesn't clear a baseboard, outlet, or door swing on the adjoining wall.",
+  },
+  {
+    criterion: "Weight capacity depends on material, not just shelf count",
+    explanation:
+      "Particleboard shelves like the entry-level HOOBRO black typically top out around 30-50 lbs, while metal-reinforced picks like the IRONCK and Shintenchi climb to 70-75 lbs per shelf and up to 750 lbs total. If you're filling both legs of the L with hardcovers, prioritize the material and frame reinforcement over the number of shelves.",
+  },
 ];
 
 export const faq: FaqItem[] = [
@@ -360,6 +370,10 @@ export const faq: FaqItem[] = [
   {
     q: "What is the most affordable L-shaped bookshelf in this list?",
     a: "The HOOBRO 5-Tier L-Shaped Corner Bookshelf in black (Pick 2) is the cheapest at $84.99, offering the same flexible 2-configuration design as the pricier rustic brown version.",
+  },
+  {
+    q: "How do I measure my corner for an L-shaped bookshelf?",
+    a: "Measure the length of both walls forming the corner, not just one, since corner units need clearance on both legs to fit flush. Also measure the depth each leg projects into the room, and check for baseboards, outlets, or door swings that could block a flush fit on either wall before ordering.",
   },
 ];
 

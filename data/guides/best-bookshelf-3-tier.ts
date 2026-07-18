@@ -333,6 +333,16 @@ export const buyingCriteria: BuyingCriterion[] = [
     explanation:
       "The Furinno picks and Hosfais use FSC-certified or CARB P2-certified wood for lower emissions, while the Homeiju and HOOBRO lean on genuine metal frames for added strength.",
   },
+  {
+    criterion: "Weight capacity by material",
+    explanation:
+      "This list spans particleboard composite picks like the Furinno LUDER, typically good for 30-50 lbs per shelf, up to reinforced metal-frame picks like the Homeiju and HOOBRO that can hold 200 lbs or more total. If you're mixing in heavier decor or dense hardcovers, the metal-frame picks have more headroom than the composite-wood options.",
+  },
+  {
+    criterion: "Shelf spacing and depth",
+    explanation:
+      "With only 3 tiers, each shelf on these picks tends to be deeper and more open than on a 5-tier frame, which suits oversized books, baskets, or decor better than a tightly packed paperback collection. If you specifically want to fit oversized or coffee-table books, look for wider spacing of 12-14 inches, closer to what the VASAGLE CUSTOS offers on its adjustable tiers, rather than a fixed-spacing frame built for standard books.",
+  },
 ];
 
 export const faq: FaqItem[] = [
@@ -359,6 +369,10 @@ export const faq: FaqItem[] = [
   {
     q: "Which 3-tier bookshelf assembles the fastest?",
     a: "The Hosfais 3-Tier Wood Bookcase (Pick 3) assembles in around 20 minutes, one of the fastest builds in this list.",
+  },
+  {
+    q: "What fits best on a 3-tier bookshelf's deeper, fewer shelves?",
+    a: "With only 3 tiers, each shelf tends to be deeper and more open than on a 5-tier frame, making these picks a better fit for oversized books, decorative bins, or a mixed display of books and decor rather than a tightly packed paperback collection. If you specifically need room for coffee-table books, the VASAGLE CUSTOS's adjustable tiers give you the most flexibility to widen the spacing.",
   },
 ];
 

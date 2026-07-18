@@ -329,6 +329,11 @@ export const buyingCriteria: BuyingCriterion[] = [
     explanation:
       "The LIKIMIO and OLEVS are the King-size options in this list, while the rest are Queen. Make sure your bedroom has room for a King footprint before choosing one of those two.",
   },
+  {
+    criterion: "Realistic headboard shelf weight limits",
+    explanation:
+      "It's easy to assume a bookshelf headboard can hold what a standalone bookcase can, but integrated headboard shelves are built lighter-duty. They're generally meant for a phone, a lamp, a paperback, or a glass of water within reach, not a stack of hardcovers. The overall bed frame weight rating (700-1,000 lbs here) reflects the mattress and sleeper load, not what the shelf itself can hold, so don't confuse the two when planning what you'll store.",
+  },
 ];
 
 export const faq: FaqItem[] = [
@@ -355,6 +360,10 @@ export const faq: FaqItem[] = [
   {
     q: "What is the most affordable bookshelf bed frame here?",
     a: "The Furnulem Queen Storage Headboard Bookshelf + LED + 2 Drawers (Pick 2) is the most affordable at $119.99, and it's also the most reviewed pick in this list.",
+  },
+  {
+    q: "How much weight can a bookshelf headboard's shelf actually hold?",
+    a: "Much less than a standalone bookshelf. The bed frame's overall weight rating (700-1,000 lbs in this list) is for the mattress and sleeper, not the shelf. The integrated headboard shelf itself is designed for light items like a phone, a lamp, or a couple of paperbacks, not a stack of hardcover books or heavy decor.",
   },
 ];
 

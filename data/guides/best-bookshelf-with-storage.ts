@@ -334,6 +334,16 @@ export const buyingCriteria: BuyingCriterion[] = [
     explanation:
       "Taller picks like the FOTOSOK 71\" and DICTAC 73\" include anti-tip kits for wall anchoring, which matters more as height increases and floor footprint stays narrow.",
   },
+  {
+    criterion: "Open cubes vs enclosed cabinet trade-off",
+    explanation:
+      "Fully open designs like the HOMIDEC and AWTATOS need weekly dusting since there's no barrier to keep dust or falling items contained, but they cost less and feel more spacious in a small room. Enclosed cabinets like the VASAGLE Liry block dust and hide clutter, but need extra clearance for the doors to swing open and typically cost more for a comparable number of storage zones.",
+  },
+  {
+    criterion: "Weight capacity by material",
+    explanation:
+      "Particleboard cube organizers like the HOMIDEC and AWTATOS typically hold 30-50 lbs per shelf or cube, while denser engineered wood picks like the FOTOSOK Media Tower and metal-reinforced units like the VASAGLE Liry can hold significantly more. Check per-cube or per-shelf ratings, not just the total, if you're storing dense hardcovers rather than decor.",
+  },
 ];
 
 export const faq: FaqItem[] = [
@@ -360,6 +370,10 @@ export const faq: FaqItem[] = [
   {
     q: "What is the most affordable bookshelf with storage in this list?",
     a: "The HOMIDEC 6-Cube Storage Organizer (Pick 1) is the most affordable at $24.99, followed by the SUNMORY 6-Tier Tree Bookshelf (Pick 2) at $39.99.",
+  },
+  {
+    q: "Should I get open cube storage or an enclosed cabinet?",
+    a: "Open cubes like the HOMIDEC or AWTATOS are cheaper, easier to access, and make a small room feel more open, but they need regular dusting and won't stop items from sliding off. An enclosed option like the VASAGLE Liry costs more and needs door clearance, but it keeps dust and clutter out of view, which matters more if the shelf sits in a high-traffic room.",
   },
 ];
 

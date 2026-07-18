@@ -337,6 +337,16 @@ export const buyingCriteria: BuyingCriterion[] = [
     explanation:
       "Prices span from $79.99 on the Shintenchi and VASAGLE up to $399.99 for the ORRD pair. The Sauder is the only pick backed by a 5-year warranty, worth factoring in if you want long-term coverage on a pricier piece.",
   },
+  {
+    criterion: "Why choose doors over open shelving",
+    explanation:
+      "Closed doors, whether swinging cabinet doors or sliding barn doors, block dust and hide clutter, which matters if you don't want to dust exposed shelves weekly or would rather not have your whole book collection on display. The trade-off is that doored sections cost more than open shelving of the same capacity, and swinging doors (unlike the barn-door style on the Joaxswe and FACBOTALL) need extra clearance in front of the unit to open fully. Open shelving, by contrast, is cheaper, gives instant access, and reads as more spacious in a smaller room, but leaves items exposed to dust and with nothing to stop them from being knocked off.",
+  },
+  {
+    criterion: "Shelf spacing and adjustability",
+    explanation:
+      "Several picks here, including the VASAGLE, Sauder, and Joaxswe, offer adjustable shelves so you can tailor spacing to what you're storing. As a general guideline, 10-11 inches between shelves fits most books, 8-9 inches is enough if you're storing paperbacks only, and 12-14 inches is needed for oversized art books, binders, or bins. Placing tighter spacing near the top and wider spacing toward the bottom also looks more visually balanced and keeps a tall unit from feeling top-heavy.",
+  },
 ];
 
 export const faq: FaqItem[] = [
@@ -363,6 +373,14 @@ export const faq: FaqItem[] = [
   {
     q: "Is there a fully enclosed, traditional-style bookcase with doors?",
     a: "Yes, the Sauder Palladia Library Bookcase (Pick 4) is the most traditional design in this guide, with framed double doors that fully enclose the shelving and a 5-year warranty.",
+  },
+  {
+    q: "Is a bookshelf with doors better than open shelving?",
+    a: "It depends on your priorities. Doors block dust and hide clutter, which saves you from dusting exposed shelves every week, but they add cost and, for swinging cabinet doors, need extra clearance in front to open. Open shelving is cheaper, gives instant access, and feels more spacious in a smaller room, but leaves everything exposed to dust with nothing stopping items from sliding off.",
+  },
+  {
+    q: "How much clearance do cabinet doors need to open?",
+    a: "Swinging cabinet doors, used on most picks in this guide, typically need at least 24-30 inches of clearance in front of the unit to open fully, so measure your walking space before placing one against a wall in a tight room. Sliding barn doors, like on the Joaxswe and FACBOTALL, avoid this issue entirely since they slide sideways along the frame instead of swinging outward.",
   },
 ];
 

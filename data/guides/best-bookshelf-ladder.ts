@@ -335,6 +335,16 @@ export const buyingCriteria: BuyingCriterion[] = [
     explanation:
       "The HOOBRO DIY (Pick 6) is the tallest at 79 inches and can be combined with additional units, while the VASAGLE BARNET picks max out around 54 inches, better suited to rooms with lower visual clutter.",
   },
+  {
+    criterion: "Shelf spacing narrows as you go up",
+    explanation:
+      "A ladder shelf's leaning frame means each shelf is shallower and narrower than the one below it. The bottom shelf typically has enough depth for oversized or coffee-table books, the middle shelves suit standard hardcovers at 10-11 inches of clearance, and the top shelf is often tight enough that only paperbacks or decor fit comfortably.",
+  },
+  {
+    criterion: "Anchoring matters more on a leaning frame",
+    explanation:
+      "Ladder shelves are tall, narrow, and lean against the wall by design, which makes them more tip-prone than a standard boxy bookcase. Always use the included anti-tip strap or an L-bracket, and keep heavier items on the lower shelves. Note that the CPSC's mandatory tip-over standard (ASTM F2057-23) applies to clothing storage furniture like dressers, not bookshelves, so a listing that references safety standards isn't citing a bookshelf-specific regulation; the anchoring hardware itself is what actually keeps it upright.",
+  },
 ];
 
 export const faq: FaqItem[] = [
@@ -361,6 +371,10 @@ export const faq: FaqItem[] = [
   {
     q: "Which ladder bookshelf is tallest?",
     a: "The HOOBRO 6-Tier DIY Ladder Shelf (Pick 6) is the tallest pick in this list at 79 inches and can be combined with additional units for a larger shelving wall.",
+  },
+  {
+    q: "Do ladder bookshelves need to be anchored to the wall?",
+    a: "Yes. Their tall, narrow, leaning frame makes them more prone to tipping than a boxy bookcase, so the included anti-tip strap or an L-bracket should always be used, with heavier books kept on the lower shelves. Bookshelves aren't covered by the CPSC's mandatory tip-over standard, which only applies to clothing storage furniture, so anchoring hardware is what actually protects against a tip-over here.",
   },
 ];
 

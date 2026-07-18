@@ -337,6 +337,16 @@ export const buyingCriteria: BuyingCriterion[] = [
     explanation:
       "Capacity ranges from 132 lbs on the foldable HOMCOM up to 500 lbs on the IRONCK. Match capacity to how many books, monitors, and accessories you plan to load onto the shelves and desktop combined.",
   },
+  {
+    criterion: "Weight capacity by material",
+    explanation:
+      "The wide range in listed capacity comes down to frame material as much as design. The IRONCK's iron X-frame supports 500 lbs, well beyond the roughly 30-80 lbs per shelf typical of particleboard or plywood construction, while lighter picks like the HOMCOM's 132 lb rating reflect an all-MDF build. If you're stacking textbooks, binders, and monitors on the same shelves, a metal-frame pick will hold up better long-term than an MDF-only one with a similar shelf count.",
+  },
+  {
+    criterion: "Open shelving vs closed storage",
+    explanation:
+      "Most picks here are fully open shelving, which is cheaper and gives instant access but needs regular dusting and offers no barrier to keep items from sliding off. The SEDETA's glass-front cabinet and the DLisiting's hutch are the exceptions, trading some of that open display space for a dust-free, enclosed section, useful if you want part of your desk storage to stay hidden and protected.",
+  },
 ];
 
 export const faq: FaqItem[] = [
@@ -363,6 +373,10 @@ export const faq: FaqItem[] = [
   {
     q: "What is the most affordable bookshelf desk in this list?",
     a: "The IRONCK 47\" Industrial Desk (Pick 1) is the most affordable at $79.85, followed by the Treesland Corner L-Shaped Desk (Pick 2) and Huuger L-Shaped Desk (Pick 3), both at $99.99.",
+  },
+  {
+    q: "Does the frame material actually affect how much a bookshelf desk can hold?",
+    a: "Yes, significantly. Metal-frame picks like the IRONCK handle up to 500 lbs, while lighter MDF or particleboard builds like the foldable HOMCOM top out around 132 lbs. If you plan to load the shelves with a full book collection plus desk gear, a metal-frame or reinforced steel pick will hold up better than an all-particleboard design with a similar shelf count.",
   },
 ];
 

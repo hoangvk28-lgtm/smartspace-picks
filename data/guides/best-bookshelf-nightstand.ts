@@ -329,6 +329,16 @@ export const buyingCriteria: BuyingCriterion[] = [
     explanation:
       "The Furinno and Simple Trending picks cost under $20, while the fully-featured tall nightstands range from about $46 to $66, and the design-forward IOTXY sits well above the rest at $194.99.",
   },
+  {
+    criterion: "What actually fits on a nightstand shelf",
+    explanation:
+      "A nightstand's tiers are shallow and short, typically 11-16 inches deep with only a few inches of clearance between shelves, so they're sized for paperbacks, a phone, a lamp, or a small stack of magazines, not oversized hardcovers, coffee-table books, or binders, which generally need 12-14 inches of shelf clearance to fit upright.",
+  },
+  {
+    criterion: "Weight capacity by material",
+    explanation:
+      "This list mixes lightweight engineered wood (the Furinno picks, around 30-45 lbs total) with metal-tube frames (Simple Trending, around 50 lbs) and solid wood legs (the IOTXY, 50 lbs per shelf). Particleboard and basic engineered wood tend to sag under a full load of books sooner than a metal frame or solid wood construction at a similar price point.",
+  },
 ];
 
 export const faq: FaqItem[] = [
@@ -355,6 +365,10 @@ export const faq: FaqItem[] = [
   {
     q: "What is the most affordable bookshelf nightstand here?",
     a: "The Furinno JUST (Pick 1) and Furinno Just 3-Tier Turn-N-Tube (Pick 2) are both the most affordable at $19.99, offering simple open-shelf storage with a proven track record.",
+  },
+  {
+    q: "Will a coffee-table book or binder fit on a bookshelf nightstand?",
+    a: "Usually not comfortably. Nightstand tiers are shallow and closely spaced, sized for paperbacks, a phone, or a lamp rather than oversized books or binders, which typically need 12-14 inches of shelf clearance. If you regularly keep larger books at your bedside, a nightstand's bottom tier or a dedicated small bookshelf will fit them better than the upper tiers here.",
   },
 ];
 

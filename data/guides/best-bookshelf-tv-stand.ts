@@ -265,6 +265,16 @@ export const buyingCriteria: BuyingCriterion[] = [
     explanation:
       "If you want more than a TV stand, the Breezestival adds an electric fireplace and wine cabinet, while the chartustriable's 15 shelves and 6 drawers can double as general living room storage.",
   },
+  {
+    criterion: "Weight capacity by material",
+    explanation:
+      "These wall units mix particleboard, MDF, and metal-frame construction, and that mix matters for load capacity: particleboard shelving typically holds 30-50 lbs per shelf, plywood or MDF around 50-80 lbs, and reinforced metal-frame sections can support up to 200 lbs. Picks like the TUSY that lean on MDF P2-grade board throughout will generally sag sooner under heavy books or electronics than a unit reinforced with metal shelf brackets.",
+  },
+  {
+    criterion: "Tip-over safety",
+    explanation:
+      "A 79-102\" wall unit is tall and top-heavy, so anchoring it to the wall with the included anti-tip hardware (found on the FACBOTALL, Merax, Breezestival, and chartustriable) matters regardless of what the listing calls it. Worth knowing: the CPSC's mandatory tip-over standard (ASTM F2057-23) applies specifically to clothing storage units like dressers, not to bookshelves or entertainment centers, so there's no equivalent required safety certification for these wall units. The anchoring hardware itself, not any listed compliance badge, is what actually keeps a tall piece from tipping.",
+  },
 ];
 
 export const faq: FaqItem[] = [
@@ -291,6 +301,10 @@ export const faq: FaqItem[] = [
   {
     q: "Which bookshelf TV stand has the highest rating?",
     a: "The Merax 102.3\" Farmhouse Wall Unit (Pick 4) has the highest rating in this list at 4.7 stars, with 6 deep drawers and adjustable open shelves.",
+  },
+  {
+    q: "Do bookshelf TV stands need to be anchored to the wall?",
+    a: "Yes, especially the taller units in this list. A 70-160\" wall unit is tall enough to be a genuine tip-over risk, and anti-tip hardware, included on the FACBOTALL, Merax, Breezestival, and chartustriable, should be used regardless of any safety claims on the listing. There's no mandatory federal tip-over standard specific to bookshelves or entertainment centers the way there is for dressers, so anchoring is on the buyer, not a certification.",
   },
 ];
 

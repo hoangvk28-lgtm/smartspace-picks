@@ -327,7 +327,12 @@ export const buyingCriteria: BuyingCriterion[] = [
   {
     criterion: "Anti-tip hardware is non-negotiable in a bedroom",
     explanation:
-      "Every pick on this list ships with an anti-tip kit. Always anchor a tall, narrow bookshelf to the wall, especially in a bedroom shared with kids or pets.",
+      "Every pick on this list ships with an anti-tip kit. Always anchor a tall, narrow bookshelf to the wall, especially in a bedroom shared with kids or pets, and keep heavier books on lower shelves rather than up top. Note that bookshelves aren't covered by the CPSC's mandatory tip-over standard, which applies to clothing storage furniture like dressers, so a listing referencing safety standards usually isn't citing a real bookshelf-specific regulation; the anchoring hardware is what actually matters.",
+  },
+  {
+    criterion: "Shelf spacing should match what you're actually storing",
+    explanation:
+      "Standard spacing of 10-11 inches fits most hardcovers, while 8-9 inches is enough if your bedroom collection is mostly paperbacks. If you're planning to store binders, photo albums, or oversized books on a nightstand-height shelf, look for at least 12 inches of clearance on the bottom tier.",
   },
 ];
 
@@ -346,7 +351,7 @@ export const faq: FaqItem[] = [
   },
   {
     q: "Do I need to anchor a bedroom bookshelf to the wall?",
-    a: "Yes, especially with tall, narrow units. Every bookshelf in this list ships with an anti-tip kit, and using it is important in any bedroom, particularly one shared with children or pets.",
+    a: "Yes, especially with tall, narrow units. Every bookshelf in this list ships with an anti-tip kit, and using it is important in any bedroom, particularly one shared with children or pets. Bookshelves fall outside the CPSC's mandatory tip-over rule, which only covers clothing storage furniture like dressers, so a 'meets safety standards' claim on a bookshelf isn't referencing a bookshelf-specific regulation, the anchoring hardware is what actually keeps it from tipping.",
   },
   {
     q: "Which bookshelf has the highest weight capacity for a bedroom?",

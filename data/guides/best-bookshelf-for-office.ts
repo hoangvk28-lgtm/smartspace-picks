@@ -329,6 +329,16 @@ export const buyingCriteria: BuyingCriterion[] = [
     explanation:
       "Measure your available wall space before choosing between the wide (26\") and narrow (15.7\") VASAGLE options; both share the same build quality, just at different widths.",
   },
+  {
+    criterion: "Material matters more here than in most rooms",
+    explanation:
+      "Office shelves often hold binders and file boxes rather than paperbacks, which pushes weight loads higher than a typical living-room bookcase. Particleboard shelves generally handle 30-50 lbs each, plywood around 50-80 lbs, and metal-reinforced frames like the VASAGLE Liry and Shintenchi can reach 70-80+ lbs per shelf. Wider spacing of 12-14 inches also matters more here for binders and file boxes than the tighter 10-11 inches that suits standard books.",
+  },
+  {
+    criterion: "Doors matter for document privacy",
+    explanation:
+      "If you're storing paperwork you don't want visible during video calls or client visits, the IRONCK with Doors and the VASAGLE Liry's enclosed cabinet section are the only picks here that fully hide their contents, unlike the open-shelf-only options.",
+  },
 ];
 
 export const faq: FaqItem[] = [
@@ -355,6 +365,10 @@ export const faq: FaqItem[] = [
   {
     q: "Is a narrow or wide bookshelf better for a small office?",
     a: "If floor space is limited, the VASAGLE 6-Tier Narrow Bookcase at 15.7 inches wide offers the same build quality as the wider version in a much smaller footprint.",
+  },
+  {
+    q: "How much weight can an office bookshelf actually hold per shelf?",
+    a: "It depends on the material more than the shelf count. Particleboard typically manages 30-50 lbs per shelf, plywood around 50-80 lbs, and metal-reinforced frames like the VASAGLE Liry and Shintenchi can handle 70-80+ lbs per shelf, which matters if you're storing binders or file boxes instead of paperbacks.",
   },
 ];
 

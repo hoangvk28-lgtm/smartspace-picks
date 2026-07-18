@@ -296,6 +296,16 @@ export const buyingCriteria: BuyingCriterion[] = [
     explanation:
       "The TUTOTAK's stackable, detachable design is unique in this list, letting it split into 2 end tables or combine into one tall bookcase depending on your space.",
   },
+  {
+    criterion: "Shelf spacing for your book sizes",
+    explanation:
+      "Standard 10-11 inch spacing suits most hardcovers and paperbacks, while 8-9 inches works if paperbacks are all you're storing. The Bevfint's 11.8-inch shelf height stands out here, purpose-built for oversized books and binders that won't fit on the narrower-spaced picks in this list.",
+  },
+  {
+    criterion: "Weight capacity by material",
+    explanation:
+      "White finishes in this list span budget composite to premium solid wood, and capacity tracks with that. Particleboard picks typically hold 30-50 lbs per shelf, while the OSCHF's solid beech wood legs push its total capacity to 400 lbs, the highest in this list.",
+  },
 ];
 
 export const faq: FaqItem[] = [
@@ -322,6 +332,10 @@ export const faq: FaqItem[] = [
   {
     q: "What is the most affordable white bookshelf in this list?",
     a: "The TUTOTAK 6-Tier Tall Bookshelf White (Pick 1) is the cheapest at $39.99, while also carrying the highest rating in this list.",
+  },
+  {
+    q: "Does shelf spacing matter if I only own paperbacks?",
+    a: "Yes, but you have more flexibility. Paperbacks only need about 8-9 inches of clearance, so a narrower-spaced white bookshelf works fine. If your collection includes hardcovers, oversized art books, or binders, look for a pick with taller clearance like the Bevfint at 11.8 inches, since a shelf built for paperback spacing won't fit them.",
   },
 ];
 

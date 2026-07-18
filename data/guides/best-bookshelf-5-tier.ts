@@ -335,6 +335,16 @@ export const buyingCriteria: BuyingCriterion[] = [
     explanation:
       "The Shintenchi is FSC-certified sustainable wood, while most other picks use P2 MDF or particleboard. Waterproof and anti-scratch coatings, common across this list, extend the shelf's usable life.",
   },
+  {
+    criterion: "Shelf spacing for your book sizes",
+    explanation:
+      "Standard spacing of 10-11 inches fits most books, while 8-9 inches is enough if you're storing paperbacks only. If you own oversized art books, binders, or a coffee-table collection, look for a pick like the Furologee with an adjustable middle tier, since a fixed 5-tier frame built for standard spacing won't fit anything taller.",
+  },
+  {
+    criterion: "Anchoring a 5-tier frame",
+    explanation:
+      "Every pick in this list ships with an anti-tip kit, and it's worth using regardless of the listed weight capacity. A tall, narrow 5-tier frame is inherently more top-heavy than a squat 3-tier one, so anchoring to the wall matters more here, especially in homes with kids or pets.",
+  },
 ];
 
 export const faq: FaqItem[] = [
@@ -361,6 +371,10 @@ export const faq: FaqItem[] = [
   {
     q: "What is the most affordable 5-tier bookshelf in this list?",
     a: "The DUMOS 5-Tier Bookshelf (Pick 6) is the cheapest full-size option at $39.98, followed closely by the Furologee 5-Tier Tall Bookshelf (Pick 3) at $39.99.",
+  },
+  {
+    q: "How much space should I leave between shelves on a 5-tier bookshelf?",
+    a: "10-11 inches works for most standard hardcovers and paperbacks, while 8-9 inches is enough if your collection is paperbacks only. If you need room for oversized books or binders, look for a pick with an adjustable tier, like the Furologee with 2 Storage Drawers, rather than a fixed frame built for standard spacing.",
   },
 ];
 

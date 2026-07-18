@@ -295,7 +295,12 @@ export const buyingCriteria: BuyingCriterion[] = [
   {
     criterion: "Stability hardware is essential",
     explanation:
-      "Because a divider stands freely rather than against a wall, anti-tip kits and toppling brackets matter even more here than on a standard bookshelf. Every pick in this list includes some form of tip-resistance hardware.",
+      "Because a divider stands freely rather than against a wall, anti-tip kits and toppling brackets matter even more here than on a standard bookshelf. Every pick in this list includes some form of tip-resistance hardware. But since a true divider is walked around on both sides, it can't always be strapped to a wall the way a standard bookshelf can, so a wide, heavy base and a low center of gravity matter just as much as the hardware itself, look for reinforced X-braces and a footprint that isn't top-heavy.",
+  },
+  {
+    criterion: "Match height to how much privacy you want",
+    explanation:
+      "A half-wall-height piece, roughly 3-4.5 feet, only creates a visual boundary between two areas and keeps the room feeling open. Something in the 72-84 inch range creates real separation and privacy without touching the ceiling in most rooms. Also leave at least 3 feet of walking clearance on both sides of any divider so it doesn't turn into a walkway bottleneck.",
   },
 ];
 
@@ -318,11 +323,15 @@ export const faq: FaqItem[] = [
   },
   {
     q: "Do room divider bookcases need to be anchored?",
-    a: "Yes. Since they stand freely in the open rather than against a wall, stability hardware matters even more. Every pick in this list includes some form of anti-tip kit or toppling bracket.",
+    a: "Yes, when possible, but a true divider is walked around on both sides, so it can't always be wall-strapped like a standard bookshelf. Every pick in this list includes some form of anti-tip kit or toppling bracket, and a wide, heavy base with a low center of gravity matters just as much for staying upright without a wall connection.",
   },
   {
     q: "Which room divider bookcase is rated highest by buyers?",
     a: "The NUMENN Triple Column 5-Tier Bookshelf has the highest rating in this list at 4.8 stars, combined with the highest per-shelf capacity among standard-size dividers.",
+  },
+  {
+    q: "What height room divider bookcase should I choose?",
+    a: "It depends on how much separation you want. A half-wall-height piece around 3-4.5 feet tall only creates a visual boundary and keeps the room feeling connected, while a taller unit in the 72-84 inch range creates real privacy between the two areas without reaching the ceiling in most homes. Whichever height you choose, leave at least 3 feet of walking clearance around it.",
   },
 ];
 

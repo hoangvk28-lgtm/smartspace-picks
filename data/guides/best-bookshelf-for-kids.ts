@@ -329,6 +329,16 @@ export const buyingCriteria: BuyingCriterion[] = [
     explanation:
       "Rounded corners appear across nearly every pick in this list, and the SpaceAid Toy Organizer adds a front-extended base specifically to resist tipping on its wider frame.",
   },
+  {
+    criterion: "What \"tip-over safe\" actually means for a kids' bookshelf",
+    explanation:
+      "The CPSC's mandatory ASTM F2057-23 tip-over standard applies to clothing storage units like dressers and chests 27 inches or taller, not to bookshelves or shelving units, so a kids' bookshelf listed as \"meets safety standards\" usually isn't referring to a real mandatory bookshelf-specific test. What actually matters is a wide, heavy base, included or purchased wall-anchor hardware, and rounded corners. Look for those features directly rather than relying on a certification claim.",
+  },
+  {
+    criterion: "Shelf height and reach for your child's age",
+    explanation:
+      "Beyond Montessori-style low, scalloped designs like the SpaceAid, general reachability matters for any kids' bookshelf. Lower shelves let a toddler or young child browse and put books back independently, while taller units, even at a kid-friendly height, may need an adult's help for the top tier. Match the shelf height to your child's age and reach, not just the room's available wall space.",
+  },
 ];
 
 export const faq: FaqItem[] = [
@@ -355,6 +365,14 @@ export const faq: FaqItem[] = [
   {
     q: "What is the lightest kids' bookshelf in this list?",
     a: "The UTEX 4-Tier Sling Kids Bookshelf (Pick 4) is the lightest freestanding pick at just 11.65 lbs.",
+  },
+  {
+    q: "Are these kids' bookshelves ASTM certified or tip-over safe?",
+    a: "The mandatory ASTM F2057-23 tip-over standard, enforced by the CPSC, legally applies to clothing storage furniture like dressers, not to bookshelves or shelving units, even ones marketed for kids' rooms. So a \"tip-over safe\" claim on a kids' bookshelf usually isn't referencing a real bookshelf-specific regulation. What actually reduces tip-over risk is a wide or front-extended base like the one on the SpaceAid Toy Organizer, using the included anti-tip hardware to anchor it to the wall, and choosing a pick with rounded corners, which nearly every product in this list has.",
+  },
+  {
+    q: "What bookshelf height is best for my child's age?",
+    a: "For toddlers around 1-3 years old, a low, scalloped design like the SpaceAid Montessori Bookshelf works best since it lets them reach and choose books entirely on their own. For older kids around 4-8, a taller 4-tier unit like the Humble Crew or UTEX is fine as long as the top shelf isn't so high they need to climb to reach it, and it's anchored to the wall regardless of height.",
   },
 ];
 

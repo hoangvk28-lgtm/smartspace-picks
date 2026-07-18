@@ -329,6 +329,11 @@ export const buyingCriteria: BuyingCriterion[] = [
     explanation:
       "The Sauder models stand out with a 5-year warranty and engineered wood construction, while budget picks like the YATINEY use particleboard with upholstery, trading some durability for comfort and price.",
   },
+  {
+    criterion: "Realistic weight limits for headboard shelves",
+    explanation:
+      "A headboard shelf is not a substitute for a standalone bookcase. Most are rated for light decor, a lamp, or a few paperbacks rather than a full stack of hardcovers, even when the model, like the Hzuaneri, advertises a specific per-shelf capacity (66 lbs there). Check the per-shelf rating specifically rather than assuming it matches the sturdier capacity of a dedicated bookshelf.",
+  },
 ];
 
 export const faq: FaqItem[] = [
@@ -355,6 +360,10 @@ export const faq: FaqItem[] = [
   {
     q: "What is the most affordable bookshelf headboard here?",
     a: "The YATINEY Queen Upholstered Bookshelf Headboard (Pick 4) is the most affordable at $84.99, with full-coverage soft padding and basic charging.",
+  },
+  {
+    q: "Can a bookshelf headboard hold as many books as a regular bookcase?",
+    a: "No, not usually. Headboard shelves are generally designed for lighter loads, a lamp, a phone, or a couple of books, rather than the 30-100+ lbs per shelf a standalone bookcase can handle depending on its material. The Hzuaneri in this list stands out for specifying a 66 lb per-shelf rating, but most picks don't publish a shelf-specific number, so treat headboard shelves as light-duty unless stated otherwise.",
   },
 ];
 

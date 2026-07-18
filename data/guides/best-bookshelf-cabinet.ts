@@ -329,6 +329,16 @@ export const buyingCriteria: BuyingCriterion[] = [
     explanation:
       "The BROTTAR Corner cabinet is purpose-built for a hexagonal room corner, the Dystler's waterproof build suits kitchens or bathrooms, and the compact Befrases and Shintenchi fit tighter rooms overall.",
   },
+  {
+    criterion: "Open shelving vs closed cabinet doors",
+    explanation:
+      "Closed cabinet doors, standard across most picks in this list, block dust and hide clutter behind a solid or glass panel, but they need extra clearance in front to swing open and generally cost more than an open shelf with a comparable number of storage zones. If dust-free enclosed storage isn't a priority, an open-shelf bookcase saves both money and floor clearance.",
+  },
+  {
+    criterion: "Glass door care and durability",
+    explanation:
+      "Glass-front picks like the BROTTAR and Dystler show fingerprints and smudges more visibly than solid wood or acrylic doors and need more frequent wiping to stay looking clean. They're also a breakage risk around young kids or pets, so if that's a concern in your home, a solid-door or acrylic-door cabinet like the PEUKC or OSCHF is the safer choice.",
+  },
 ];
 
 export const faq: FaqItem[] = [
@@ -355,6 +365,14 @@ export const faq: FaqItem[] = [
   {
     q: "Which bookshelf cabinet has the most premium materials?",
     a: "The OSCHF 11-Cube Bookcase + 4-Door Cabinet (Pick 8) uses genuine solid oak legs and beech wood door handles, the most premium construction in this list.",
+  },
+  {
+    q: "Should I get an open bookshelf or a cabinet with doors?",
+    a: "It depends on how much you value hidden storage versus cost and floor space. Doors, whether solid or glass, keep dust off your books and hide clutter, but they need room to swing open and cost more than an equivalent open shelf. If display and easy access matter more than tidiness, an open design is the cheaper, more space-efficient choice.",
+  },
+  {
+    q: "Are glass cabinet doors hard to keep clean?",
+    a: "Glass doors, like those on the BROTTAR and Dystler, show fingerprints and dust more visibly than solid wood or acrylic panels, so expect to wipe them down more often. They're also more prone to breakage if knocked into by kids or pets, so a solid or acrylic-door pick is the safer choice in a busy household.",
   },
 ];
 

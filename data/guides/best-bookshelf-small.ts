@@ -332,6 +332,16 @@ export const buyingCriteria: BuyingCriterion[] = [
     explanation:
       "The Casaottima (Pick 8) is the only pick with built-in RGB LED lighting, making it as much a decor accent as a storage piece, while the HOOBRO (Pick 5) offers the most flexible installation options.",
   },
+  {
+    criterion: "Small doesn't mean lightweight",
+    explanation:
+      "A compact footprint doesn't automatically mean low capacity. The Homeiju is one of the smaller picks here but uses a genuine carbon steel frame to hit 220 lbs total, well above what a similarly sized composite-wood unit like the MNEETRUNG can hold. If you're storing hardcovers rather than paperbacks, check the frame material, not just the dimensions.",
+  },
+  {
+    criterion: "Shallow shelves may not fit larger books",
+    explanation:
+      "Small bookshelves often shrink shelf depth along with footprint, which is fine for paperbacks at 8-9 inches of clearance but can leave oversized books, textbooks, or binders overhanging the edge. If you own any coffee-table-sized books, check the shelf depth specifically, not just the overall width.",
+  },
 ];
 
 export const faq: FaqItem[] = [
@@ -358,6 +368,10 @@ export const faq: FaqItem[] = [
   {
     q: "Which small bookshelf is best for a tight gap behind furniture?",
     a: "The SUNMORY (Pick 7) is the narrowest at 7.9 inches wide, and the Casaottima (Pick 8) is the thinnest front-to-back at 7.1 inches deep, both suited to tucking behind a sofa or beside a bed.",
+  },
+  {
+    q: "Can a small bookshelf still hold a lot of weight?",
+    a: "Yes, if the frame material supports it. The Homeiju keeps a compact footprint but uses a carbon steel frame to reach 220 lbs total, more than double what a similarly sized particleboard or composite-wood shelf typically handles, so don't assume a small unit means a low weight limit.",
   },
 ];
 
