@@ -37,7 +37,7 @@ export const categories: Category[] = [
     shortDescription: "Maximize every inch with smart storage.",
     icon: "Archive",
     color: "#0891b2",
-    subcategories: ["under-bed-storage", "storage-carts", "bed-frames", "bookshelves"],
+    subcategories: ["under-bed-storage", "storage-carts", "bed-frames", "bookshelves", "nightstands"],
   },
   {
     slug: "compact-home-office",
