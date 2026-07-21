@@ -37,7 +37,7 @@ export const categories: Category[] = [
     shortDescription: "Maximize every inch with smart storage.",
     icon: "Archive",
     color: "#0891b2",
-    subcategories: ["under-bed-storage", "storage-carts", "bed-frames", "bookshelves", "nightstands", "shoe-racks"],
+    subcategories: ["under-bed-storage", "storage-carts", "bed-frames", "bookshelves", "nightstands", "shoe-racks", "closet-organizers"],
   },
   {
     slug: "compact-home-office",
@@ -47,7 +47,7 @@ export const categories: Category[] = [
     shortDescription: "Professional setups for small home offices.",
     icon: "Briefcase",
     color: "#16a34a",
-    subcategories: ["monitor-stands", "laptop-stands", "desk-lamps", "cable-management", "tv-stands"],
+    subcategories: ["monitor-stands", "laptop-stands", "desk-lamps", "cable-management", "tv-stands", "chair-mats"],
   },
   {
     slug: "budget-finds",
