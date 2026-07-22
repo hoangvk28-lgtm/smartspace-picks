@@ -47,7 +47,7 @@ export const categories: Category[] = [
     shortDescription: "Professional setups for small home offices.",
     icon: "Briefcase",
     color: "#16a34a",
-    subcategories: ["monitor-stands", "laptop-stands", "desk-lamps", "cable-management", "tv-stands", "chair-mats", "under-desk-fitness"],
+    subcategories: ["monitor-stands", "laptop-stands", "desk-lamps", "cable-management", "tv-stands", "chair-mats", "under-desk-fitness", "nas-storage", "docking-stations"],
   },
   {
     slug: "budget-finds",
