@@ -359,6 +359,14 @@ export const buyingCriteria: BuyingCriterion[] = [
   },
 ];
 
+export interface HowToChooseSection {
+  subheading: string;
+  intro?: string;
+  table?: { headers: string[]; rows: string[][] };
+  cards?: { label: string; text: string }[];
+  note?: string;
+}
+
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "By Laptop Connection Type",
