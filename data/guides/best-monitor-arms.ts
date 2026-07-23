@@ -105,7 +105,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41FAEzhc2PL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07T3KCQ94?tag=deskfinds0d-20",
     description:
-      "The FlowLift covers 13 to 32 inch monitors and includes both a C-clamp and a grommet base in the box, so it works whether your desk edge is clampable or you would rather run the pole through a cable grommet hole. Rated for 4.4 to 19.8 lbs, it fits the panel weight of most mid-size monitors once the factory stand is off.\n\nAt under $35 it undercuts the Ergotron pair by more than $150 while still offering VESA mounting and tilt, swivel, and rotation. The tradeoff is a lighter overall build than the premium arms, which shows up most on larger 30"+ panels pushed toward the top of its weight rating.",
+      "The FlowLift covers 13 to 32 inch monitors and includes both a C-clamp and a grommet base in the box, so it works whether your desk edge is clampable or you would rather run the pole through a cable grommet hole. Rated for 4.4 to 19.8 lbs, it fits the panel weight of most mid-size monitors once the factory stand is off.\n\nAt under $35 it undercuts the Ergotron pair by more than $150 while still offering VESA mounting and tilt, swivel, and rotation. The tradeoff is a lighter overall build than the premium arms, which shows up most on larger 30\"+ panels pushed toward the top of its weight rating.",
     specs: [
       "Fits 13 to 32\" monitors",
       "4.4 to 19.8 lb capacity",
@@ -137,7 +137,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41--azXaNzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GK7FVTR4?tag=deskfinds0d-20",
     description:
-      "The FlowLift Pro's MechaSpring mechanism and tool-free VESA mount are built for buyers who do not want to keep an Allen key around after setup. It covers 13 to 32 inch screens with a 19.8 lb max load and includes both C-clamp and grommet base options.\n\nFull tilt, swivel, and rotation adjustment is included at under $30, making it one of the cheapest arms on this list with a genuinely tool-free installation. Like the standard FlowLift, its lighter build is best matched to monitors in the 20-27 inch range rather than a heavy 30"+ ultrawide.",
+      "The FlowLift Pro's MechaSpring mechanism and tool-free VESA mount are built for buyers who do not want to keep an Allen key around after setup. It covers 13 to 32 inch screens with a 19.8 lb max load and includes both C-clamp and grommet base options.\n\nFull tilt, swivel, and rotation adjustment is included at under $30, making it one of the cheapest arms on this list with a genuinely tool-free installation. Like the standard FlowLift, its lighter build is best matched to monitors in the 20-27 inch range rather than a heavy 30\"+ ultrawide.",
     specs: [
       "Fits 13 to 32\" screens",
       "Max load 19.8 lbs",
@@ -169,7 +169,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Wd1NwAowL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQM6QB48?tag=deskfinds0d-20",
     description:
-      "ErGear's arm spans 13 to 34 inch screens, the widest stated range of any single-monitor pick in this list, with a tool-free VESA mount and built-in cable management clips. At 19.98 dollars, it is the least expensive arm on this list.\n\nMax VESA is capped at 100x100mm and load capacity at 19.8 lbs, so it fits most panels but is not the pick for a heavy 30"+ ultrawide. Fast, tool-free installation makes it a reasonable entry point for a first monitor arm before deciding whether to upgrade to a premium gas spring model later.",
+      "ErGear's arm spans 13 to 34 inch screens, the widest stated range of any single-monitor pick in this list, with a tool-free VESA mount and built-in cable management clips. At 19.98 dollars, it is the least expensive arm on this list.\n\nMax VESA is capped at 100x100mm and load capacity at 19.8 lbs, so it fits most panels but is not the pick for a heavy 30\"+ ultrawide. Fast, tool-free installation makes it a reasonable entry point for a first monitor arm before deciding whether to upgrade to a premium gas spring model later.",
     specs: [
       "Fits 13 to 34\" screens",
       "Holds 19.8 lbs",
