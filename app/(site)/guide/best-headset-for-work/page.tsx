@@ -160,7 +160,7 @@ export default async function BestHeadsetForWorkPage() {
     "@type": "ItemList",
     name: "Best Headsets for Work 2026",
     description: "7 best work headsets from under $40 to $250, compared by call clarity, Teams certification, battery, and platform support.",
-    numberOfItems: 7,
+    numberOfItems: 11,
     itemListElement: products.map((p) => ({
       "@type": "ListItem",
       position: p.rank,

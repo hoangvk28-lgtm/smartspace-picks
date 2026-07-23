@@ -29,8 +29,101 @@ export interface LShapedDesk {
 
 export const products: LShapedDesk[] = [
   {
-    id: "bush-cabot-l-hutch",
+    id: "casaottima-l-electric-standing",
     rank: 1,
+    badge: "Best Electric L-Shaped Standing Desk",
+    name: "Casaottima 63\" L Shaped Electric Standing Desk",
+    size: "63\" main surface",
+    material: "Engineered wood top, steel frame",
+    standing: "Yes - full electric",
+    imageUrl: "https://m.media-amazon.com/images/I/41NQKkFmDPL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0FXWTQGWC?tag=deskfinds0d-20",
+    whyItWorks:
+      "Based on specs, the Casaottima is a full electric L-shaped standing desk at 63 inches, giving it more primary surface than the EUREKA ERGONOMIC standing pick elsewhere in this guide while staying in a similar electric-lift category. For buyers who want to alternate sitting and standing across a genuinely large L-shaped surface, the 63-inch main leg covers a dual-monitor or ultrawide setup with room to spare.",
+    tradeoffs: [
+      "Engineered wood top, not solid hardwood",
+      "Full electric L-standing desks require clearance behind and beside the frame for height transitions",
+      "Motor capacity should be checked against your intended monitor and equipment load before ordering",
+    ],
+    skipIf:
+      "Skip if you want a solid hardwood surface - the EUREKA ERGONOMIC elsewhere in this guide has a confirmed solid wood top. Skip if you mostly sit and don't need electric height adjustment - the Bush Home picks below cost less.",
+    pros: [
+      "63\" main surface - more primary desk space than the other standing option in this guide",
+      "Full electric lift across the L-shaped frame",
+      "Black finish suits a range of home office styles",
+      "Steel frame construction for stability at height",
+    ],
+    cons: [
+      "Engineered wood top, not solid hardwood",
+      "Requires floor clearance for height-adjustment travel",
+      "Heavier than fixed-height L-desks in this guide",
+    ],
+  },
+  {
+    id: "aodk-l-executive-file-cabinet",
+    rank: 2,
+    badge: "Best Executive Desk with Locking Cabinet",
+    name: "AODK L Shaped Desk with Wooden Drawers & Locking File Cabinet",
+    size: "61\" main surface",
+    material: "Engineered wood with walnut finish",
+    standing: "No",
+    imageUrl: "https://m.media-amazon.com/images/I/41W97aaR3DL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0F3X6725F?tag=deskfinds0d-20",
+    whyItWorks:
+      "Based on specs, the AODK is the most security-focused desk in this guide: a locking file cabinet is a step beyond the open drawers and shelves on the other storage-oriented picks here. Combined with a built-in power outlet, an LED strip, and a dedicated monitor stand and CPU stand, this is aimed at buyers who want a single furniture piece to replace a desk plus a filing cabinet plus a monitor riser.",
+    tradeoffs: [
+      "Engineered wood, not solid hardwood, despite the walnut finish",
+      "The locking file cabinet adds bulk versus simpler open-shelf L-desks in this guide",
+      "More assembly steps than a basic L-desk given the built-in outlet, monitor stand, and CPU stand",
+    ],
+    skipIf:
+      "Skip if you don't need a locking cabinet - the SEDETA 4-drawer desk below has more open storage without the lock. Skip if you want electric standing - the Casaottima above or the EUREKA ERGONOMIC are the standing options in this guide.",
+    pros: [
+      "Locking file cabinet - the only lockable storage in this guide",
+      "Built-in power outlet keeps chargers off the floor",
+      "Integrated monitor stand and CPU stand included",
+      "Walnut finish gives a more executive look than most engineered-wood competitors",
+    ],
+    cons: [
+      "Engineered wood, not solid hardwood",
+      "Locking cabinet adds bulk versus open-shelf alternatives",
+      "More assembly complexity due to the built-in outlet and stands",
+    ],
+  },
+  {
+    id: "sedeta-farmhouse-l-led-cabinet",
+    rank: 3,
+    badge: "Best Farmhouse Pick with Display Cabinet",
+    name: "SEDETA Farmhouse L Shaped Office Desk with Drawers",
+    size: "61\" main surface",
+    material: "Engineered wood, farmhouse light brown finish",
+    standing: "No",
+    imageUrl: "https://m.media-amazon.com/images/I/51v2YXEoMNL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GFN8CVDM?tag=deskfinds0d-20",
+    whyItWorks:
+      "Based on specs, this SEDETA farmhouse desk combines a 61-inch L-shaped surface with drawers, open storage shelves, a built-in power outlet, LED lighting, and a display cabinet - a broader storage and lighting package than the plainer farmhouse-style Bush Home Key West elsewhere in this guide. The light brown farmhouse finish suits home offices that share space with a living area or bedroom, while the display cabinet gives a place for books or decor rather than pure file storage.",
+    tradeoffs: [
+      "Engineered wood, not solid hardwood",
+      "LED lighting and a display cabinet add assembly steps versus a simpler L-desk",
+      "Display cabinet trades some enclosed storage for visible shelf space, unlike fully closed cabinet designs",
+    ],
+    skipIf:
+      "Skip if you want enclosed file storage rather than an open display cabinet - the AODK with locking file cabinet above is the better fit. Skip if you prefer a plainer farmhouse look without LED lighting - the Bush Home Key West below is simpler.",
+    pros: [
+      "61\" surface with drawers, shelves, and a display cabinet in one desk",
+      "Built-in power outlet and LED lighting - features the other farmhouse pick in this guide lacks",
+      "Farmhouse light brown finish works in shared living or bedroom office spaces",
+      "More total storage variety (drawers plus open shelves plus display cabinet) than most single desks here",
+    ],
+    cons: [
+      "Engineered wood, not solid hardwood",
+      "More assembly complexity due to LED lighting and cabinet hardware",
+      "Open display cabinet is not enclosed storage - not a substitute for a locking file drawer",
+    ],
+  },
+  {
+    id: "bush-cabot-l-hutch",
+    rank: 4,
     badge: "Best L-Shaped with Storage",
     name: "Bush Home Cabot L-Shaped Desk with Hutch",
     size: "60\" main surface",
@@ -62,7 +155,7 @@ export const products: LShapedDesk[] = [
   },
   {
     id: "bush-key-west-farmhouse-l",
-    rank: 2,
+    rank: 5,
     badge: "Best Farmhouse L-Shaped",
     name: "Bush Home Key West 60W Modern Farmhouse L-Shaped Desk",
     size: "60 inches (main leg)",
@@ -93,7 +186,7 @@ export const products: LShapedDesk[] = [
   },
   {
     id: "bush-somerset-l-storage",
-    rank: 3,
+    rank: 6,
     badge: "Best Contemporary with Side Shelves",
     name: "Bush Home Somerset 60\" L-Shaped Desk with Storage",
     size: "60 inches",
@@ -124,7 +217,7 @@ export const products: LShapedDesk[] = [
   },
   {
     id: "eureka-ergonomic-l-standing-solid-wood",
-    rank: 4,
+    rank: 7,
     badge: "Best L-Shaped Standing Desk - Solid Wood",
     name: "EUREKA ERGONOMIC 61\" L-Shaped Standing Desk with Solid Wood Top",
     size: "61x47\" total L footprint",
@@ -157,7 +250,7 @@ export const products: LShapedDesk[] = [
   },
   {
     id: "bestier-l-lift-top-standing",
-    rank: 5,
+    rank: 8,
     badge: "Best Budget L-Shaped with Standing Option",
     name: "Bestier L-Shaped Standing Desk with Lift Top, 55x55\"",
     size: "55x55\" (symmetric L)",
@@ -189,7 +282,7 @@ export const products: LShapedDesk[] = [
   },
   {
     id: "sedeta-l-4drawers-shelves",
-    rank: 6,
+    rank: 9,
     badge: "Best for Maximum Storage",
     name: "SEDETA L-Shaped Desk with 4 Drawers and Storage Shelves",
     size: "Varies",
@@ -220,7 +313,7 @@ export const products: LShapedDesk[] = [
   },
   {
     id: "bestier-l-file-drawer",
-    rank: 7,
+    rank: 10,
     badge: "Best with File Drawer",
     name: "Bestier L-Shaped Desk with File Drawer, 55.7x55\"",
     size: "55.7x55\"",

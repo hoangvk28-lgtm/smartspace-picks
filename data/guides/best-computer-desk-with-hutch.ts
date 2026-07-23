@@ -30,8 +30,39 @@ export interface HutchDesk {
 
 export const products: HutchDesk[] = [
   {
-    id: "bush-home-salinas-hutch",
+    id: "enhomee-l-shaped-monitor-shelf",
     rank: 1,
+    badge: "Monitor Shelf Alternative (Not a Hutch)",
+    name: "EnHomee 71\" L-Shaped Gaming Desk with Long Integrated Monitor Shelf",
+    style: "Gaming",
+    config: "L-shaped",
+    material: "Engineered wood, gaming finish",
+    price: "~$169.99",
+    imageUrl: "https://m.media-amazon.com/images/I/51pPkOaKvCL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DD6WMFTD?tag=deskfinds0d-20",
+    whyItWorks:
+      "We want to be upfront about this pick: based on its real Amazon listing, the EnHomee 71\" is a large L-shaped gaming desk with a long integrated monitor shelf running along the back edge, not a hutch in the traditional sense used elsewhere in this guide. A monitor shelf is a narrow raised platform that lifts one or more monitors and lightweight items like a small speaker or lamp off the desk surface; it does not include the closed cabinets or multi-tier open shelving that define a true hutch like the Bush Home or SEDETA picks above and below.",
+    tradeoffs: [
+      "Monitor shelf provides raised display space, not the enclosed or multi-shelf storage of a real hutch",
+      "71-inch L-shaped footprint requires significant corner room clearance",
+      "Gaming aesthetic will not suit a professional home office used for video calls",
+    ],
+    skipIf:
+      "Skip this if what you actually need is a hutch with enclosed storage or multiple open shelves for books and supplies -- see the Bush Home Salinas (Rank 2) or SEDETA Farmhouse (Rank 4) instead, both of which have genuine hutch storage. Consider this only if a raised monitor shelf plus a large L-shaped gaming surface is what you're after.",
+    pros: [
+      "Long integrated monitor shelf raises displays off the main desk surface",
+      "Large 71-inch L-shaped work surface",
+      "Priced well below most hutch desks in this roundup",
+    ],
+    cons: [
+      "Not actually a hutch -- no enclosed cabinet or multi-tier shelving",
+      "Gaming aesthetic is a mismatch for professional or shared-space offices",
+      "Large L-shaped footprint needs substantial corner clearance",
+    ],
+  },
+  {
+    id: "bush-home-salinas-hutch",
+    rank: 2,
     badge: "Best Established Brand",
     name: "Bush Home Salinas Computer Desk with Hutch",
     style: "Transitional",
@@ -64,7 +95,7 @@ export const products: HutchDesk[] = [
   },
   {
     id: "sauder-palladia-hutch",
-    rank: 2,
+    rank: 3,
     badge: "Best Sauder Executive",
     name: "Sauder Palladia Computer Desk with Hutch",
     style: "Executive",
@@ -98,7 +129,7 @@ export const products: HutchDesk[] = [
   },
   {
     id: "sedeta-l-shaped-hutch-3drawers",
-    rank: 3,
+    rank: 4,
     badge: "Best Farmhouse L-Shaped",
     name: "SEDETA Farmhouse L-Shaped Computer Desk with Hutch and 3 Drawers",
     style: "Farmhouse",
@@ -131,7 +162,7 @@ export const products: HutchDesk[] = [
   },
   {
     id: "sedeta-farmhouse-47-hutch",
-    rank: 4,
+    rank: 5,
     badge: "Best Compact Farmhouse",
     name: "SEDETA Farmhouse Computer Desk with Hutch and 3 Drawers 47.2\"",
     style: "Farmhouse",
@@ -164,7 +195,7 @@ export const products: HutchDesk[] = [
   },
   {
     id: "bush-cabot-l-shaped-hutch",
-    rank: 5,
+    rank: 6,
     badge: "Best L-Shaped 200lb Capacity",
     name: "Bush Home Cabot 60W L-Shaped Computer Desk with Hutch",
     style: "Transitional",
@@ -196,7 +227,7 @@ export const products: HutchDesk[] = [
   },
   {
     id: "bush-cabot-l-shaped-hutch-file",
-    rank: 6,
+    rank: 7,
     badge: "Best Full Office System",
     name: "Bush Furniture Cabot 60W L-Shaped Desk with Hutch and Lateral File Cabinet",
     style: "Transitional",
@@ -228,7 +259,7 @@ export const products: HutchDesk[] = [
   },
   {
     id: "sedeta-67-l-shaped-hutch",
-    rank: 7,
+    rank: 8,
     badge: "Best Large Farmhouse L-Shape",
     name: "SEDETA 67\" Farmhouse L-Shaped Desk with Hutch",
     style: "Farmhouse",
@@ -260,7 +291,7 @@ export const products: HutchDesk[] = [
   },
   {
     id: "aodk-l-shaped-gaming-hutch",
-    rank: 8,
+    rank: 9,
     badge: "Best Gaming with Overhead Storage",
     name: "AODK L-Shaped Gaming Desk with Hutch 59\"",
     style: "Gaming",
@@ -292,7 +323,7 @@ export const products: HutchDesk[] = [
   },
   {
     id: "bush-salinas-small-hutch",
-    rank: 9,
+    rank: 10,
     badge: "Best Compact for Small Rooms",
     name: "Bush Home Salinas Small Computer Desk with Hutch",
     style: "Cottage/farmhouse",

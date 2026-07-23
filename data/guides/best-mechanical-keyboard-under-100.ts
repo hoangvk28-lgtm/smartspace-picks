@@ -33,8 +33,116 @@ export interface MechKeyboard100 {
 
 export const products: MechKeyboard100[] = [
   {
-    id: "redragon-k552",
+    id: "epomaker-x-aula-f108-pro",
     rank: 1,
+    badge: "Best Full-Size Wireless with Display",
+    name: "EPOMAKER X Aula F108 PRO Wireless Gaming Keyboard with Screen",
+    price: "~$89.99",
+    layout: "Full-size 104-key",
+    wireless: "Yes (Bluetooth / 2.4GHz / Wired)",
+    switchType: "Hot-swappable (multiple options)",
+    hotSwap: "Yes",
+    mount: "Gasket-style with RGB backlight",
+    keycaps: "Double-shot",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/41Lei8oGwfL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0F38DZG3J?tag=deskfinds0d-20",
+    whyItWorks:
+      "The Aula F108 Pro is the only full-size, 104-key option in this guide, which matters for buyers who rely on a dedicated number pad for spreadsheet or accounting work rather than the TKL and 75% layouts the rest of this list favors. An 8000mAh battery is roughly double the capacity of the RK84's 4000mAh cell, and the built-in screen displays battery level, connection mode, and basic customization feedback without needing companion software running in the background. Hot-swappable sockets and a knob for quick volume or media control round out the feature set at just under $90.\n\nTriple connectivity (Bluetooth, 2.4GHz, and wired) covers most desk setups, and the RGB backlighting is fully programmable through the board's own controls. The main tradeoff against the 75% and TKL boards elsewhere in this guide is desk footprint: a full-size 104-key layout takes up several extra inches of desk width that a TKL or 75% board would free up.",
+    tradeoffs: [
+      "Full-size 104-key layout takes up more desk width than the TKL or 75% boards elsewhere in this guide",
+      "8000mAh battery and screen add weight versus the more compact wireless options",
+      "Verify current listing for exact switch options included at time of purchase",
+    ],
+    skipIf:
+      "Desk space is tight. The RK Royal Kludge RK84 (75% layout) or Keychron C3 Pro (TKL) reclaim several inches of desk width if a number pad is not required.",
+    pros: [
+      "Full-size 104-key layout with dedicated number pad, the only one in this guide",
+      "8000mAh battery, roughly double the capacity of the RK84",
+      "Built-in screen for battery and mode feedback",
+      "Hot-swappable switches and triple connectivity under $90",
+    ],
+    cons: [
+      "Largest footprint in this guide, not suited to tight desks",
+      "Heavier than the compact wireless options due to the battery and screen",
+      "Confirm current switch options on the listing before ordering",
+    ],
+  },
+  {
+    id: "yscp-typewriter-style",
+    rank: 2,
+    badge: "Best Retro Typewriter-Style Design",
+    name: "YSCP Typewriter Style Mechanical Gaming Keyboard, Blue Switch",
+    price: "~$39.50",
+    layout: "Full-size 104-key",
+    wireless: "No (wired)",
+    switchType: "Blue (clicky)",
+    hotSwap: "No (soldered)",
+    mount: "Tray mount",
+    keycaps: "Round retro-style keycaps",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/51BdRltoxHL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B08LNFY8Y7?tag=deskfinds0d-20",
+    whyItWorks:
+      "This is the only board in this guide built around a typewriter aesthetic, with round retro-profile keycaps and an RGB backlit case designed to stand out visually rather than to chase gasket-mount comfort or hot-swap flexibility. At under $40 it undercuts every other option on this list on price, which makes it a reasonable pick for buyers who want the mechanical-keyboard look and feel for a desk display or lighter-use setup without spending $50 or more.\n\nBlue switches mean an audible click on every keystroke, the same tradeoff flagged elsewhere in this guide's FAQ for anyone sharing a room or taking video calls. The tray mount and lack of hot-swap keep this firmly in budget-novelty territory rather than a daily-driver upgrade pick, but for the specific retro-look use case it fills a niche none of the other picks in this guide address.",
+    tradeoffs: [
+      "Blue switches click audibly on every keystroke, noticeable on video calls or in shared rooms",
+      "No hot-swap, switch changes require soldering",
+      "Tray mount gives a harsher, louder typing feel than the gasket-mount picks in this guide",
+    ],
+    skipIf:
+      "You want a quieter switch for calls, or hot-swap flexibility. The Keychron C3 Pro at a similar price point adds both gasket mount and hot-swap.",
+    pros: [
+      "Lowest price in this guide at under $40",
+      "Distinctive retro typewriter-style round keycaps and case design",
+      "RGB backlighting included",
+      "Full-size 104-key layout with number pad",
+    ],
+    cons: [
+      "Blue switches are loud, not ideal for calls or shared spaces",
+      "No hot-swap, soldering required to change switches",
+      "Tray mount, harsher feel than gasket-mount alternatives in this guide",
+    ],
+  },
+  {
+    id: "asus-rog-strix-scope-ii-x",
+    rank: 3,
+    badge: "Best Pre-Lubed Hot-Swap Under $100",
+    name: "ASUS ROG Strix Scope II X Wired Mechanical Gaming Keyboard",
+    price: "~$94.99",
+    layout: "Full-size 100%",
+    wireless: "No (wired USB)",
+    switchType: "ROG NX Snow V2 linear, pre-lubed (hot-swap)",
+    hotSwap: "Yes",
+    mount: "Gasket-mounted with sound dampening",
+    keycaps: "PBT",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/41v3KhzCFRL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0FGGZK4X7?tag=deskfinds0d-20",
+    whyItWorks:
+      "The ROG Strix Scope II X pairs factory pre-lubed ROG NX Snow V2 linear switches with hot-swap sockets and PBT keycaps, a combination that puts it near the top of this guide's feature list for buyers who want a full-size wired board with a premium switch feel out of the box. Pre-lubed switches mean smoother keystrokes without the aftermarket lubing process some enthusiasts do themselves on cheaper boards, and the gasket-mounted design with sound dampening foam is aimed at reducing the hollow, clacky resonance common on tray-mount boards at this price.\n\nAt just under $95, it is priced close to the ceiling of this guide's under-$100 range, competing directly with the Keychron V1 and Epomaker TH80 Pro for the higher end of the budget. The full-size 100% layout, rather than the 75% layout of the V1 and TH80 Pro, is the deciding factor for buyers who need a dedicated number pad and are willing to trade the smaller footprint for it.",
+    tradeoffs: [
+      "Full-size layout takes up more desk width than the 75% Keychron V1 or Epomaker TH80 Pro",
+      "Wired only, no wireless option on this model",
+      "Priced near the top of this guide's under-$100 range",
+    ],
+    skipIf:
+      "Desk space is tight or a number pad is not needed. The Keychron V1 (75%) offers double-gasket mount and QMK/VIA in a smaller footprint for a similar price.",
+    pros: [
+      "Pre-lubed ROG NX Snow V2 linear switches, smoother out of the box than unlubed alternatives",
+      "Hot-swap sockets with PBT keycaps",
+      "Gasket-mounted with sound dampening foam",
+      "Full-size 100% layout with dedicated number pad",
+    ],
+    cons: [
+      "Full-size footprint, larger than the 75% picks elsewhere in this guide",
+      "Wired only",
+      "Near the top of this guide's price range",
+    ],
+  },
+  {
+    id: "redragon-k552",
+    rank: 4,
     badge: "Best Budget Under $35",
     name: "Redragon K552",
     price: "~$28-35",
@@ -72,7 +180,7 @@ export const products: MechKeyboard100[] = [
   },
   {
     id: "keychron-c3-pro",
-    rank: 2,
+    rank: 5,
     badge: "Best Value Wired Under $50",
     name: "Keychron C3 Pro",
     price: "~$40-50",
@@ -108,7 +216,7 @@ export const products: MechKeyboard100[] = [
   },
   {
     id: "akko-3087-horizon-ds",
-    rank: 3,
+    rank: 6,
     badge: "Best TKL with PBT Keycaps",
     name: "Akko 3087 Horizon DS",
     price: "~$55-70",
@@ -144,7 +252,7 @@ export const products: MechKeyboard100[] = [
   },
   {
     id: "rk-royal-kludge-rk84",
-    rank: 4,
+    rank: 7,
     badge: "Best Wireless Mechanical Keyboard",
     name: "RK Royal Kludge RK84",
     price: "~$60-70",
@@ -182,7 +290,7 @@ export const products: MechKeyboard100[] = [
   },
   {
     id: "keychron-v1",
-    rank: 5,
+    rank: 8,
     badge: "Best Overall Wired Under $100",
     name: "Keychron V1",
     price: "~$69-84",
@@ -218,7 +326,7 @@ export const products: MechKeyboard100[] = [
   },
   {
     id: "epomaker-th80-pro",
-    rank: 6,
+    rank: 9,
     badge: "Best Wireless with Premium Features",
     name: "Epomaker TH80 Pro",
     price: "~$75-90",

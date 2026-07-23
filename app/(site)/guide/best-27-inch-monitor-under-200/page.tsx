@@ -224,7 +224,7 @@ export default async function Best27InchMonitorUnder200Page() {
     name: "Best 27-Inch Monitor Under $200 in 2026",
     description:
       "6 best 27-inch monitors under $200 in 2026 for work and gaming.",
-    numberOfItems: 6,
+    numberOfItems: 8,
     itemListElement: products.map((p) => ({
       "@type": "ListItem",
       position: p.rank,

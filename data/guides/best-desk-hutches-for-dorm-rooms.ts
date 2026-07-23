@@ -28,8 +28,33 @@ export interface GuideProduct {
 
 export const products: GuideProduct[] = [
   {
-    id: "furinno-classic-dorm",
+    id: "reibii-3tier-6shelf-dorm",
     rank: 1,
+    badge: "Best 6-Shelf Rustic Option",
+    name: "REIBII 3 Tier Desk Hutch, 6 Shelves, Rustic Brown",
+    price: "~$69.99",
+    rating: "Rating not yet established",
+    reviews: "New listing",
+    imageUrl: "https://m.media-amazon.com/images/I/51DMrqMbDIL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0F8BPTZ46?tag=deskfinds0d-20",
+    description:
+      "The REIBII packs six shelves into a three-tier rustic brown frame, giving it more individual shelf compartments than most hutches in this roundup while keeping the vertical footprint reasonable for a dorm desk. Based on its listed specs, the extra shelf divisions make it easier to separate textbooks by class, keep supplies grouped, and display personal items without everything stacking on top of each other.\n\nThe rustic brown finish pairs with wood-tone or neutral dorm furniture rather than the white finishes several other picks in this guide use, so it suits students who want a warmer look. As a newer listing it does not yet have an established review history, so it is worth checking current buyer feedback before ordering, especially regarding shelf sturdiness at this price.",
+    specs: ["3 tiers", "6 shelves", "Rustic brown finish", "Compact footprint"],
+    pros: [
+      "Six individual shelves for the most storage subdivision in this roundup",
+      "Rustic brown finish suits wood-tone dorm furniture",
+      "Compact three-tier design fits standard dorm desks",
+    ],
+    cons: [
+      "No established review history yet to confirm long-term sturdiness",
+      "No drawer for concealed storage",
+      "Rustic finish may not match white-heavy dorm decor",
+    ],
+    bestFor: "Students who want the most individual shelf compartments for separating textbooks and supplies by subject",
+  },
+  {
+    id: "furinno-classic-dorm",
+    rank: 2,
     badge: "Best Overall",
     name: "Furinno Classic 5-Shelf Desktop Hutch, 37-inch Wide",
     price: "Check price",
@@ -55,7 +80,7 @@ export const products: GuideProduct[] = [
   },
   {
     id: "choochoo-drawer-dorm",
-    rank: 2,
+    rank: 3,
     badge: "Best with Drawer",
     name: "ChooChoo Desktop Bookshelf with Drawer, White, 36.4-inch",
     price: "$79.99",
@@ -82,7 +107,7 @@ export const products: GuideProduct[] = [
   },
   {
     id: "tangkula-white-dorm",
-    rank: 3,
+    rank: 4,
     badge: "Best Premium Pick",
     name: "Tangkula Desktop Bookshelf, 5 Shelves, 3-Tier, White",
     price: "$79.99",
@@ -109,7 +134,7 @@ export const products: GuideProduct[] = [
   },
   {
     id: "hoobro-led-dorm",
-    rank: 4,
+    rank: 5,
     badge: "Best with LED + Outlets",
     name: "HOOBRO Desktop Bookcase with LED Light Strip and Outlets",
     price: "$61.99",
@@ -136,7 +161,7 @@ export const products: GuideProduct[] = [
   },
   {
     id: "snughome-31-rustic",
-    rank: 5,
+    rank: 6,
     badge: "Best Compact 31-inch",
     name: "Snughome 31.9-inch Desk Shelf, 3-Tier, Rustic Brown",
     price: "$42.99",
@@ -163,7 +188,7 @@ export const products: GuideProduct[] = [
   },
   {
     id: "snughome-38-rustic",
-    rank: 6,
+    rank: 7,
     badge: "Best 38-inch Rustic",
     name: "Snughome 38.6-inch Desk Shelf, 4-Tier, Rustic Brown",
     price: "$47.99",
@@ -190,7 +215,7 @@ export const products: GuideProduct[] = [
   },
   {
     id: "choochoo-7shelf",
-    rank: 7,
+    rank: 8,
     badge: "Best Tall Bookshelf",
     name: "ChooChoo Desktop Bookshelf, 7 Shelves, White, 37W x 33.5H",
     price: "$53.99",
@@ -217,7 +242,7 @@ export const products: GuideProduct[] = [
   },
   {
     id: "marbrasse-drawer-dorm",
-    rank: 8,
+    rank: 9,
     badge: "Best Black Option",
     name: "Marbrasse Desk Shelf with Drawer, 40-inch Wide, 4-Tier, Black",
     price: "$42.98",

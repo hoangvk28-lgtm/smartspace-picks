@@ -28,8 +28,41 @@ export interface GuideProduct {
 
 export const products: GuideProduct[] = [
   {
-    id: "nathan-james-ladder",
+    id: "wooofa-floating-drawers",
     rank: 1,
+    badge: "Best Floating Desk with Drawers",
+    name: "WOOOFA Floating Desk with Drawers, Wood Wall Mounted Desk, White",
+    price: "~$189.99",
+    rating: "Not independently verified",
+    reviews: "Verify current rating and review count on the Amazon listing",
+    imageUrl:
+      "https://m.media-amazon.com/images/I/412529hRqWL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0H1W3RJPH?tag=deskfinds0d-20",
+    description:
+      "This is a permanent floating desk in the same family as the Modway Render further down this list, but built around built-in drawers rather than a keyboard tray, and marketed with dual use as either a compact desk or a floating vanity. The white finish and slim profile are designed to read as a piece of bedroom or living-room furniture rather than office equipment, which suits buyers who need the surface to blend into a shared-use room. Drawer storage is built directly into the desk body, so small items like chargers, notebooks, or makeup accessories have an enclosed home without needing separate shelving.\n\nBecause this is a fixed floating design rather than a fold-down, the surface stays extended at all times and the wall space beneath it cannot be reclaimed when not in use, the same tradeoff as the other permanent floating desks in this roundup. Based on the product listing, it targets a lighter-duty use case than the industrial ladder or full drawer-equipped office desks, so buyers planning to run a monitor arm or heavy dual-monitor setup should check the weight rating on the current listing before ordering.",
+    specs: [
+      "Wood construction",
+      "Built-in drawers",
+      "White finish",
+      "Wall-mounted, permanent",
+    ],
+    pros: [
+      "Built-in drawers on a permanent floating desk, doubles as vanity or desk",
+      "White finish blends into bedroom or living room decor",
+      "No fold-down mechanism to maintain or wear out over time",
+      "Compact profile suited to small-space multi-purpose rooms",
+    ],
+    cons: [
+      "Rating and review volume not independently verified, check current listing",
+      "Permanent installation, surface stays extended at all times",
+      "Lighter-duty build than office-focused floating desks in this roundup",
+    ],
+    bestFor:
+      "buyers wanting a permanent floating desk with built-in drawer storage that can double as a vanity in a shared bedroom or living space",
+  },
+  {
+    id: "nathan-james-ladder",
+    rank: 2,
     badge: "Best Overall by Trust Signal",
     name: "Nathan James Theo 2-Shelf Industrial Wall Mount Ladder Desk, 30W x 73H inch, Nutmeg Brown and Matte Black",
     price: "~$139.63",
@@ -61,7 +94,7 @@ export const products: GuideProduct[] = [
   },
   {
     id: "tangkula-murphy-white",
-    rank: 2,
+    rank: 3,
     badge: "Most-Reviewed Fold-Down Murphy Desk",
     name: "Tangkula Folding Wall Mounted Desk, Storage Shelves, Murphy Style, White",
     price: "~$109.99",
@@ -93,7 +126,7 @@ export const products: GuideProduct[] = [
   },
   {
     id: "haotian-sobuy-black",
-    rank: 3,
+    rank: 4,
     badge: "Best Fold-Down by Rating and Reviews Balance",
     name: "Haotian SoBuy Wall Mounted Folding Desk, Storage Shelves, Black, FWT18-SCH",
     price: "~$99.99",
@@ -125,7 +158,7 @@ export const products: GuideProduct[] = [
   },
   {
     id: "homcom-chalkboard",
-    rank: 4,
+    rank: 5,
     badge: "Only Fold-Down with Chalkboard and 9 Shelves",
     name: "HOMCOM Foldable Wall Mounted Desk, Integrated Chalkboard, 9 Storage Shelves, Charcoal Gray",
     price: "~$129.99",
@@ -157,7 +190,7 @@ export const products: GuideProduct[] = [
   },
   {
     id: "yusing-enclosed-compartments",
-    rank: 5,
+    rank: 6,
     badge: "Best Fold-Down with Enclosed Storage Compartments",
     name: "YUSING Wall Mounted Fold Down Laptop Desk with Enclosed Storage Compartments, White",
     price: "~$65.54",
@@ -189,7 +222,7 @@ export const products: GuideProduct[] = [
   },
   {
     id: "teamix-simple-budget",
-    rank: 6,
+    rank: 7,
     badge: "Best Budget Fold-Down (No Storage Shelves)",
     name: "TEAMIX Wall Mounted Folding Table, 23.6 x 11.8 inch, 80 lbs, Heavy-Duty Brackets, Black",
     price: "~$39.99",
@@ -216,7 +249,7 @@ export const products: GuideProduct[] = [
   },
   {
     id: "arrowstone-vesa-mount",
-    rank: 7,
+    rank: 8,
     badge: "Only Fold-Down with Integrated VESA Monitor Mount (Verify Reviews)",
     name: "ARROWSTONE SKEENA Wall-Mounted Desk, Fold-Down, VESA Monitor Mount, 31 inch, Birch Wood",
     price: "~$209.89",
@@ -248,7 +281,7 @@ export const products: GuideProduct[] = [
   },
   {
     id: "modway-floating-desk",
-    rank: 8,
+    rank: 9,
     badge: "Best Permanent Floating Wall Desk (Not Fold-Down)",
     name: "Modway Render Mid-Century Modern Wall Mount Office Desk, 60 inch, Keyboard Tray and 2 Drawers, Oak",
     price: "~$269.00",

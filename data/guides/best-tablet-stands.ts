@@ -15,6 +15,87 @@ export const heroImage = "https://xlipolezpdkfmneqkncd.supabase.co/storage/v1/ob
 export const products: ProductReviewCardProps[] = [
   {
     rank: 1,
+    badge: "Runner-Up for Drawing",
+    name: "KABCON Adjustable Drawing Stand",
+    brand: "KABCON",
+    imageUrl: "https://m.media-amazon.com/images/I/31PbHQcLXWL._SL500_.jpg",
+    imageAlt: "KABCON adjustable eye-level aluminum tablet drawing stand for desk",
+    affiliateUrl: "https://www.amazon.com/dp/B09T6TG2FK?tag=deskfinds0d-20",
+    price: "$33.99",
+    style: "Eye-level aluminum, adjustable, drawing-oriented",
+    supportsCharging: true,
+    pros: [
+      { text: "Solid aluminum build, eye-level positioning for drawing" },
+      { text: "Supports iPad Pro 9.7/10.5, iPad Air, iPad mini, Surface Pro" },
+      { text: "Works with portable monitors up to 15\"" },
+      { text: "Adjustable to reduce neck strain during long drawing sessions" },
+    ],
+    cons: [
+      { text: "Priced above most budget stands in this guide", severity: "minor" },
+      { text: "Not the locking mechanism the MAGIPEA offers for stylus pressure", severity: "minor" },
+    ],
+    reviewText: [
+      "Based on specs, the KABCON is a second aluminum option for drawing use, positioned between the budget foldable stands and the MAGIPEA at the top of this category. It's built for eye-level positioning, which reduces neck strain during long drawing or note-taking sessions, and its solid aluminum stand construction supports devices up to 15 inches, including portable monitors.",
+      "The main difference from the MAGIPEA above is the locking mechanism: the MAGIPEA locks any angle in place under stylus pressure, while this stand relies on friction-hinge adjustment. For buyers who want an eye-level aluminum stand without paying for the MAGIPEA's locking hardware, this is a reasonable middle option.",
+    ],
+    scoreOverall: 8.3,
+  },
+  {
+    rank: 2,
+    badge: "Best Pillow Stand for Bed",
+    name: "RIWUCT Tablet Pillow Stand for Bed",
+    brand: "RIWUCT",
+    imageUrl: "https://m.media-amazon.com/images/I/41thJUd5v9L._SL500_.jpg",
+    imageAlt: "RIWUCT tablet pillow stand for bed with snack bowl gray",
+    affiliateUrl: "https://www.amazon.com/dp/B0H3682CZN?tag=deskfinds0d-20",
+    price: "$34.99",
+    style: "Soft pillow base, 360° rotating clip, hands-free",
+    supportsCharging: false,
+    pros: [
+      { text: "Soft pillow base rests comfortably on a lap or mattress" },
+      { text: "360° rotating clip fits 5–12.9\" phones, tablets, and e-readers" },
+      { text: "Built-in snack bowl for bedside or couch use" },
+      { text: "No clamp or desk edge required" },
+    ],
+    cons: [
+      { text: "Not designed for desk use", severity: "minor" },
+      { text: "Soft base offers less rigidity than a floor or gooseneck stand", severity: "minor" },
+    ],
+    reviewText: [
+      "Based on specs, the RIWUCT fills a different niche than the rest of this guide: a soft pillow-base stand meant for bed or couch use rather than a desk. The 360-degree rotating clip accommodates devices from 5 to 12.9 inches, covering everything from a phone to a full-size iPad, and the pillow shape rests naturally on a lap or mattress without needing a clamp or table edge.",
+      "The built-in snack bowl is a small but genuinely useful detail for bedside reading or watching video in bed. It is not a substitute for the gooseneck or floor stands in this guide if you need a fixed mounting point, but for hands-free reading or viewing while lying down, it solves that use case directly.",
+    ],
+    scoreOverall: 8.0,
+  },
+  {
+    rank: 3,
+    badge: "Best Pillow Stand with Storage Pockets",
+    name: "vizzicool Tablet Pillow Stand for Bed & Couch",
+    brand: "vizzicool",
+    imageUrl: "https://m.media-amazon.com/images/I/41ZSH6V1t6L._SL500_.jpg",
+    imageAlt: "vizzicool tablet pillow stand for bed and couch with side storage pockets",
+    affiliateUrl: "https://www.amazon.com/dp/B0FD3828QL?tag=deskfinds0d-20",
+    price: "$37.99",
+    style: "Soft lap pillow, 360° adjustable arm, hands-free",
+    supportsCharging: false,
+    pros: [
+      { text: "Washable soft lap pillow base" },
+      { text: "360° adjustable arm for fine-tuned viewing angle" },
+      { text: "Side storage pockets for a phone, remote, or charging cable" },
+      { text: "Fits 4.7\"–10\" tablets and phones" },
+    ],
+    cons: [
+      { text: "Most expensive pillow stand in this guide", severity: "minor" },
+      { text: "Smaller max device size than the RIWUCT above (10\" vs 12.9\")", severity: "minor" },
+    ],
+    reviewText: [
+      "Based on specs, the vizzicool is closely comparable to the RIWUCT above but adds a fully adjustable 360-degree arm rather than a fixed rotating clip, plus side storage pockets that hold a phone, remote, or charging cable within reach on the couch or in bed. The washable lap pillow base is a practical detail for a product that sits directly on furniture.",
+      "The tradeoff versus the RIWUCT is device size: it tops out at 10 inches rather than 12.9 inches, so it will not fit the largest iPad Pro models. For phones, standard iPads, and e-readers used on a couch or in bed, the added arm adjustability and storage pockets make it a reasonable step up for buyers who want more than a fixed clip.",
+    ],
+    scoreOverall: 8.2,
+  },
+  {
+    rank: 4,
     badge: "Top Pick",
     name: "LISEN Tablet Stand",
     brand: "LISEN",
@@ -41,7 +122,7 @@ export const products: ProductReviewCardProps[] = [
     scoreOverall: 8.9,
   },
   {
-    rank: 2,
+    rank: 5,
     badge: "Best Budget",
     name: "UGREEN Tablet Stand",
     brand: "UGREEN",
@@ -68,7 +149,7 @@ export const products: ProductReviewCardProps[] = [
     scoreOverall: 8.5,
   },
   {
-    rank: 3,
+    rank: 6,
     badge: "Best Premium",
     name: "Lamicall Tablet Stand",
     brand: "Lamicall",
@@ -94,7 +175,7 @@ export const products: ProductReviewCardProps[] = [
     scoreOverall: 9.1,
   },
   {
-    rank: 4,
+    rank: 7,
     badge: "Best for Large Tablets",
     name: "Aluminum Tablet Stand (Heavy Duty)",
     brand: "Quality Picks",
@@ -121,7 +202,7 @@ export const products: ProductReviewCardProps[] = [
     scoreOverall: 8.7,
   },
   {
-    rank: 5,
+    rank: 8,
     badge: "Most Versatile",
     name: "Gooseneck Tablet Holder",
     brand: "Generic",
@@ -149,7 +230,7 @@ export const products: ProductReviewCardProps[] = [
     scoreOverall: 7.8,
   },
   {
-    rank: 6,
+    rank: 9,
     badge: "Best for Dorms",
     name: "KABCON Tablet Stand",
     brand: "KABCON",
@@ -176,7 +257,7 @@ export const products: ProductReviewCardProps[] = [
     scoreOverall: 8.6,
   },
   {
-    rank: 7,
+    rank: 10,
     badge: "Best for Drawing",
     name: "MAGIPEA Tablet Stand",
     brand: "MAGIPEA",
@@ -203,7 +284,7 @@ export const products: ProductReviewCardProps[] = [
     scoreOverall: 8.8,
   },
   {
-    rank: 8,
+    rank: 11,
     badge: "Best Floor Stand",
     name: "Tounee Tablet Floor Stand",
     brand: "Tounee",
@@ -230,7 +311,7 @@ export const products: ProductReviewCardProps[] = [
     scoreOverall: 8.7,
   },
   {
-    rank: 9,
+    rank: 12,
     badge: "Editor's Choice",
     name: "ELEKPARTS Tablet Floor Stand",
     brand: "Elekpopu",
@@ -257,7 +338,7 @@ export const products: ProductReviewCardProps[] = [
     scoreOverall: 8.6,
   },
   {
-    rank: 10,
+    rank: 13,
     badge: "Best Compact",
     name: "Stump Stand",
     brand: "Stump",

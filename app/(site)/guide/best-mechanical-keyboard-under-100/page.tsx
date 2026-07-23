@@ -223,7 +223,7 @@ export default async function BestMechanicalKeyboardUnder100Page() {
     name: "Best Mechanical Keyboards Under $100 in 2026",
     description:
       "6 mechanical keyboards under $100 in 2026 across budget, wired, and wireless categories.",
-    numberOfItems: 6,
+    numberOfItems: 9,
     itemListElement: products.map((p) => ({
       "@type": "ListItem",
       position: p.rank,

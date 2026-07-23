@@ -32,8 +32,79 @@ export interface Monitor27Under200 {
 
 export const products: Monitor27Under200[] = [
   {
-    id: "msi-g274qpf-qd",
+    id: "z-edge-ug27q",
     rank: 1,
+    badge: "Best Curved 1440p Gaming Value",
+    name: "Z-Edge UG27Q 27-Inch Curved Gaming Monitor",
+    price: "~$170",
+    resolution: "2560x1440",
+    refresh: "165Hz (144Hz certified, 165Hz OC)",
+    panelType: "1500R Curved VA/IPS",
+    responseTime: "1ms MPRT",
+    colorGamut: "16.7M colors",
+    connectivity: "2x DP 1.4 + 2x HDMI 2.0, frameless bezel",
+    imageUrl: "https://m.media-amazon.com/images/I/51kPtvk-yML._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0BW47KFXB?tag=deskfinds0d-20",
+    whyItWorks:
+      "The Z-Edge UG27Q is the only curved panel in this guide, and the 1500R curvature is noticeably more immersive for gaming at close desk distances than the flat panels above. Dual DisplayPort 1.4 inputs let you connect two systems at full 1440p without switching cables, matching the KTC's dual-DP setup. At ~$170, it undercuts the MSI G274QPF-QD while staying in 1440p/165Hz territory.",
+    tradeoffs: [
+      "1500R curve is a preference, not a universal upgrade - flat-panel loyalists may not want it",
+      "No USB-C - separate cables needed for power and video",
+      "Fixed stand with no listed height adjustment, unlike the MSI and KTC picks",
+    ],
+    skipIf:
+      "You do color-critical or text-heavy work where a curved panel's edge distortion is a distraction. The MSI G274QPF-QD or Acer VG271U M3 above are flat and better suited to office use.",
+    pros: [
+      "1500R curve adds gaming immersion the flat panels in this guide don't offer",
+      "Dual DP 1.4 - connect two PCs at full 1440p resolution",
+      "165Hz at 1440p for a competitive price point",
+      "Frameless bezel design",
+      "Priced below the MSI G274QPF-QD for similar 1440p/165Hz specs",
+    ],
+    cons: [
+      "No USB-C connectivity",
+      "Curved panel is a preference, not for every desk setup",
+      "No listed height-adjustable stand",
+    ],
+  },
+  {
+    id: "dell-pro-p2725h-plus",
+    rank: 2,
+    badge: "Best Premium Business-Tier Alternative",
+    name: "Dell Pro P2725H Plus",
+    price: "~$260",
+    resolution: "1920x1080",
+    refresh: "Standard (business panel, not gaming-rated)",
+    panelType: "IPS",
+    responseTime: "Not gaming-rated",
+    colorGamut: "Standard sRGB business panel",
+    connectivity: "USB 3.0 upstream + DisplayPort + HDMI + power cable included",
+    imageUrl: "https://m.media-amazon.com/images/I/51Tkv1Zqv-L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GKHJRLLS?tag=deskfinds0d-20",
+    whyItWorks:
+      "At ~$260, the Dell Pro P2725H Plus is priced above this guide's under-$200 budget ceiling, and we are including it here as an honest premium alternative rather than pretending it fits the budget theme. Its case for inclusion is Dell's business-tier build quality and connectivity: USB 3.0 upstream and a full cable bundle (DisplayPort, HDMI, power) included in the box, which several budget picks above do not provide.",
+    tradeoffs: [
+      "Priced roughly $60-140 above every other pick in this guide - not an under-$200 option",
+      "1920x1080 resolution at 27 inches is the same 82 PPI softness noted on the LG and Samsung picks above",
+      "Not marketed or rated as a gaming panel - no listed high refresh rate or FreeSync/G-Sync support",
+    ],
+    skipIf:
+      "Your budget is firmly under $200. Every other monitor in this guide costs less and several match or beat this panel's resolution and features. Choose this only if Dell's business support and full cable bundle specifically matter to your setup.",
+    pros: [
+      "USB 3.0 upstream connectivity, useful for docking a laptop",
+      "Full cable bundle included: DisplayPort, HDMI, and power",
+      "Dell business-line build and support reputation",
+      "IPS panel for consistent viewing angles",
+    ],
+    cons: [
+      "Priced at ~$260, well above this guide's under-$200 theme",
+      "1080p at 27 inches - same text-sharpness tradeoff as the LG and Samsung budget picks",
+      "No gaming-focused specs like high refresh rate or adaptive sync",
+    ],
+  },
+  {
+    id: "msi-g274qpf-qd",
+    rank: 3,
     badge: "Best Overall",
     name: "MSI G274QPF-QD",
     price: "~$170-200",
@@ -69,7 +140,7 @@ export const products: Monitor27Under200[] = [
   },
   {
     id: "acer-vg271u-m3",
-    rank: 2,
+    rank: 4,
     badge: "Best 1440p Gaming Value",
     name: "Acer Nitro VG271U M3",
     price: "~$150-180",
@@ -107,7 +178,7 @@ export const products: Monitor27Under200[] = [
   },
   {
     id: "ktc-h27t22c3",
-    rank: 3,
+    rank: 5,
     badge: "Best Refresh Rate Under $200",
     name: "KTC H27T22C-3",
     price: "~$150-180",
@@ -143,7 +214,7 @@ export const products: Monitor27Under200[] = [
   },
   {
     id: "lg-27mr400-b",
-    rank: 4,
+    rank: 6,
     badge: "Best 1080p Productivity",
     name: "LG 27MR400-B",
     price: "~$120-150",
@@ -181,7 +252,7 @@ export const products: Monitor27Under200[] = [
   },
   {
     id: "samsung-odyssey-g30d",
-    rank: 5,
+    rank: 7,
     badge: "Best 1080p Gaming",
     name: "Samsung Odyssey G30D",
     price: "~$130-160",
@@ -217,7 +288,7 @@ export const products: Monitor27Under200[] = [
   },
   {
     id: "lg-27mp400-b",
-    rank: 6,
+    rank: 8,
     badge: "Best Budget Under $130",
     name: "LG 27MP400-B",
     price: "~$100-130",

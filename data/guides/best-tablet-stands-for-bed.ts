@@ -18,6 +18,72 @@ export const heroImage = `${BASE}/lamicall-pillow.jpg`;
 export const products: ProductReviewCardProps[] = [
   {
     rank: 1,
+    badge: "Best Hands-Free Pillow Stand",
+    name: "vizzicool Tablet Pillow Stand for Bed & Couch",
+    brand: "vizzicool",
+    price: "$37.99",
+    imageUrl: "https://m.media-amazon.com/images/I/41ZSH6V1t6L._SL500_.jpg",
+    affiliateUrl: "https://www.amazon.com/dp/B0FD3828QL?tag=deskfinds0d-20",
+    pros: [
+      { text: "360 degree adjustable arm swings the tablet into position without touching the base" },
+      { text: "Soft washable lap pillow stays comfortable across a full episode or reading session" },
+      { text: "Side storage pockets hold a phone, charger, or remote within reach" },
+      { text: "Works equally well propped on the couch or set on top of a comforter" },
+    ],
+    cons: [
+      { text: "Fits 4.7 to 10 inch devices only, larger iPads like the 12.9 inch Pro will not fit" },
+      { text: "The arm is fixed to the pillow base and cannot be clamped to a headboard" },
+    ],
+    reviewText:
+      "The vizzicool pillow stand pairs a soft lap cushion with a 360 degree arm, so instead of a fixed-angle slot you get real adjustability while lying down or curled up on the couch. The side storage pockets are a small but useful touch for keeping a phone or charging cable from sliding off the bed. Best suited to lighter tablets and phones given the 10 inch size ceiling.",
+    scoreOverall: 8.5,
+  },
+  {
+    rank: 2,
+    badge: "Best Pillow Stand with Snack Tray",
+    name: "RIWUCT Tablet Pillow Stand for Bed",
+    brand: "RIWUCT",
+    price: "$34.99",
+    imageUrl: "https://m.media-amazon.com/images/I/41thJUd5v9L._SL500_.jpg",
+    affiliateUrl: "https://www.amazon.com/dp/B0H3682CZN?tag=deskfinds0d-20",
+    pros: [
+      { text: "Built-in snack bowl doubles as a spot for a remote or phone during longer sessions" },
+      { text: "360 degree rotating clip switches between portrait and landscape without repositioning the base" },
+      { text: "Fits a wide 5 to 12.9 inch range, including full-size iPad Pro models" },
+      { text: "Soft pillow base sits flat on a mattress or sofa cushion without sliding" },
+    ],
+    cons: [
+      { text: "The rotating clip adds bulk compared to a simple pillow slot" },
+      { text: "Not designed for active typing, best for passive reading and streaming" },
+    ],
+    reviewText:
+      "The RIWUCT stand covers a wider size range than most bed pillow stands, up to a full 12.9 inch iPad Pro, and the built-in snack bowl is a genuinely useful detail for late-night reading or streaming sessions. The 360 degree rotating clip makes it easy to flip between portrait for reading and landscape for video without moving the base itself.",
+    scoreOverall: 8.6,
+  },
+  {
+    rank: 3,
+    badge: "Best Rigid Aluminum Stand",
+    name: "KABCON Adjustable Aluminum Tablet Stand",
+    brand: "KABCON",
+    price: "$33.99",
+    imageUrl: "https://m.media-amazon.com/images/I/31PbHQcLXWL._SL500_.jpg",
+    affiliateUrl: "https://www.amazon.com/dp/B09T6TG2FK?tag=deskfinds0d-20",
+    pros: [
+      { text: "Solid aluminum construction holds an eye-level angle without sagging" },
+      { text: "Height and angle are both adjustable, useful for propping on a nightstand while sitting up in bed" },
+      { text: "Fits a broad range up to 15 inches, covering tablets and portable monitors" },
+      { text: "More rigid than any pillow-based stand in this guide" },
+    ],
+    cons: [
+      { text: "Needs a flat, stable surface like a nightstand or desk edge, it will not balance directly on bedding" },
+      { text: "No clamp, so it cannot mount to a headboard for true overhead hands-free viewing" },
+    ],
+    reviewText:
+      "The KABCON stand is built primarily as a desk and drawing-tablet stand, but its solid aluminum frame and adjustable height make it a strong option for a nightstand next to the bed when you want a tablet at eye level while sitting up. It will not work sitting directly on a mattress or lap the way the pillow stands in this guide do, so it is best paired with a nightstand or similar flat surface.",
+    scoreOverall: 8.2,
+  },
+  {
+    rank: 4,
     badge: "Best Pillow Stand",
     name: "Lamicall Tablet Pillow Stand",
     brand: "Lamicall",
@@ -39,7 +105,7 @@ export const products: ProductReviewCardProps[] = [
     scoreOverall: 8.6,
   },
   {
-    rank: 2,
+    rank: 5,
     badge: "Best Gooseneck Holder",
     name: "Gooseneck Tablet Holder for Bed",
     brand: "SEASKY",
@@ -61,7 +127,7 @@ export const products: ProductReviewCardProps[] = [
     scoreOverall: 8.8,
   },
   {
-    rank: 3,
+    rank: 6,
     badge: "Best Lap Stand",
     name: "HUANUO Laptop Lap Desk with Tablet Slot",
     brand: "HUANUO",
@@ -83,7 +149,7 @@ export const products: ProductReviewCardProps[] = [
     scoreOverall: 8.4,
   },
   {
-    rank: 4,
+    rank: 7,
     badge: "Best Adjustable Bedside",
     name: "Adjustable Tablet Arm Mount - 30\" C-Clamp",
     brand: "SUPTEK",
@@ -105,7 +171,7 @@ export const products: ProductReviewCardProps[] = [
     scoreOverall: 9.0,
   },
   {
-    rank: 5,
+    rank: 8,
     badge: "Best for Dorm Beds",
     name: "LISEN Tablet Stand - Dual Clamp Mount",
     brand: "LISEN",

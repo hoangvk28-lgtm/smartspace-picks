@@ -33,8 +33,143 @@ export interface WorkHeadset {
 
 export const products: WorkHeadset[] = [
   {
-    id: "logitech-h390",
+    id: "acer-wireless-tri-mode-headset",
     rank: 1,
+    badge: "Best Battery Life",
+    name: "Acer Wireless Gaming Headset",
+    price: "~$65",
+    headsetType: "Wireless 2.4GHz + Bluetooth + Wired",
+    teamsCertified: "Works",
+    battery: "40+ hrs",
+    weight: "Not specified by manufacturer",
+    score: "8.6/10",
+    imageUrl: "https://m.media-amazon.com/images/I/41e6a-zo3zL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0H4QGJ5LQ?tag=deskfinds0d-20",
+    whyItWorks:
+      "Tri-mode connectivity covers 2.4GHz dongle, Bluetooth, and a wired 3.5mm fallback, so it pairs with a work laptop, a phone, and a wired backup device without buying separate hardware. Rated for 40+ hours on a charge, longer than every wireless pick in this guide. 50mm drivers deliver clear voice reproduction for calls even though the headset is marketed toward gaming rather than office use.",
+    tradeoffs: [
+      "Sold and branded as a gaming headset, not marketed or certified for office platforms",
+      "No Teams or Zoom hardware certification",
+      "Manufacturer does not publish a weight spec, based on similar tri-mode headsets expect a heavier build than dedicated work headsets",
+    ],
+    skipIf:
+      "You want a headset from an established office-audio brand with full published specs. For call-heavy Teams or Zoom use, the Jabra or Logitech picks in this guide have more transparent documentation.",
+    pros: [
+      "Tri-mode 2.4GHz, Bluetooth, and wired connectivity in one headset",
+      "40+ hour rated battery life, the longest wireless runtime in this guide",
+      "50mm drivers for clear voice reproduction",
+      "Works as a wired backup if the battery ever dies mid-call",
+    ],
+    cons: [
+      "Marketed as a gaming headset, not an office-certified product",
+      "No Teams or Zoom hardware certification",
+      "Weight not disclosed by the manufacturer",
+    ],
+  },
+  {
+    id: "fifine-ampligame-h9",
+    rank: 2,
+    badge: "Best Detachable Mic",
+    name: "FIFINE AmpliGame H9 Wired Headset",
+    price: "~$38",
+    headsetType: "Wired USB + 3.5mm",
+    teamsCertified: "Works",
+    battery: "N/A",
+    weight: "Not specified by manufacturer",
+    score: "8.4/10",
+    imageUrl: "https://m.media-amazon.com/images/I/41TSn76LbZL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0C4ND25FT?tag=deskfinds0d-20",
+    whyItWorks:
+      "Dual 3.5mm and USB connectivity means it works on a laptop with either jack type, and USB mode adds 7.1 surround processing on top of tuned 50mm drivers. The boom mic detaches entirely, useful if you want to use the headphones for music without a mic arm in the frame during video calls. Priced under $40, the lowest-cost wired option in this guide besides the H390.",
+    tradeoffs: [
+      "Designed and styled as a gaming headset, with an aesthetic that reads less professional on video than the Jabra or Logitech picks",
+      "Wired only, no wireless option",
+      "No Teams or Zoom hardware certification",
+    ],
+    skipIf:
+      "You want a headset that looks purpose-built for office video calls. For a more professional appearance at a similar price, the Jabra Evolve2 30 MS is the better fit.",
+    pros: [
+      "Dual 3.5mm and USB connectivity",
+      "Detachable boom mic",
+      "7.1 surround processing in USB mode",
+      "Under $40",
+    ],
+    cons: [
+      "Gaming-oriented look, less office-appropriate on video",
+      "Wired only",
+      "No Teams or Zoom hardware certification",
+    ],
+  },
+  {
+    id: "wireless-anc-headset-for-work",
+    rank: 3,
+    badge: "Best Budget Noise Cancelling",
+    name: "Wireless Headset with Mic for Work",
+    price: "~$70",
+    headsetType: "Wireless Bluetooth",
+    teamsCertified: "Works",
+    battery: "Not specified by manufacturer",
+    weight: "Not specified by manufacturer",
+    score: "8.3/10",
+    imageUrl: "https://m.media-amazon.com/images/I/41e+IoMn2uL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GFDWXFJW?tag=deskfinds0d-20",
+    whyItWorks:
+      "Marketed specifically for work use, with Bluetooth connectivity and a noise-cancelling mic aimed at video calls rather than gaming. At roughly $70 it sits in the same price band as the Logitech Zone Vibe 125, positioning it as a direct budget-wireless competitor for remote workers.",
+    tradeoffs: [
+      "A newer, less established brand than Jabra, Logitech, or Anker, with a thinner published spec sheet",
+      "Battery life and weight are not disclosed by the manufacturer",
+      "No Teams or Zoom hardware certification",
+    ],
+    skipIf:
+      "You want a headset from a brand with a fully documented spec sheet and a longer track record. The Logitech Zone Vibe 125 covers the same use case with published battery, weight, and multipoint specs.",
+    pros: [
+      "Bluetooth wireless with a noise-cancelling mic",
+      "Built and marketed specifically for work calls",
+      "Competitive pricing against established budget-wireless picks",
+    ],
+    cons: [
+      "Battery and weight specs not published by the manufacturer",
+      "Less established brand than other picks in this guide",
+      "No Teams or Zoom hardware certification",
+    ],
+  },
+  {
+    id: "nubwo-hg04l",
+    rank: 4,
+    badge: "Best Ultra-Budget Pick",
+    name: "NUBWO HG04L Wired Headset",
+    price: "~$20",
+    headsetType: "Wired 3.5mm",
+    teamsCertified: "Works",
+    battery: "N/A",
+    weight: "250g",
+    score: "8.0/10",
+    imageUrl: "https://m.media-amazon.com/images/I/41RG7y-pLeL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0FKTFMH2F?tag=deskfinds0d-20",
+    whyItWorks:
+      "At under $20 this is the least expensive pick in this guide, and it still covers the basics well: a unidirectional mic for clearer voice pickup, soft memory-foam earmuffs, and a 250g build that stays comfortable through a full workday. A simple 3.5mm jack means it works on any device with a headphone port, no drivers or pairing required.",
+    tradeoffs: [
+      "Designed and marketed as a gaming headset, not an office product",
+      "3.5mm-only connection, no USB-A or USB-C, so it will not work on laptops without a headphone jack",
+      "No Teams or Zoom hardware certification",
+    ],
+    skipIf:
+      "Your laptop lacks a 3.5mm jack, or you want a headset certified for a specific call platform. The Logitech H390 covers USB-only laptops at a similar price point.",
+    pros: [
+      "Lowest price in this guide at under $20",
+      "Unidirectional mic for clearer voice pickup",
+      "Lightweight 250g build with memory-foam earmuffs",
+      "Plug-and-play 3.5mm jack, no drivers needed",
+    ],
+    cons: [
+      "3.5mm only, no USB option",
+      "Marketed as a gaming headset, not an office product",
+      "No Teams or Zoom hardware certification",
+    ],
+  },
+  {
+    id: "logitech-h390",
+    rank: 5,
     badge: "Best Budget Wired",
     name: "Logitech H390",
     price: "~$25-$40",
@@ -69,7 +204,7 @@ export const products: WorkHeadset[] = [
   },
   {
     id: "jabra-evolve2-30-ms",
-    rank: 2,
+    rank: 6,
     badge: "Best Budget Teams-Certified",
     name: "Jabra Evolve2 30 MS",
     price: "~$55-$65",
@@ -104,7 +239,7 @@ export const products: WorkHeadset[] = [
   },
   {
     id: "logitech-zone-vibe-125",
-    rank: 3,
+    rank: 7,
     badge: "Best Budget Wireless",
     name: "Logitech Zone Vibe 125",
     price: "~$70-$90",
@@ -139,7 +274,7 @@ export const products: WorkHeadset[] = [
   },
   {
     id: "anker-powerconf-h700",
-    rank: 4,
+    rank: 8,
     badge: "Best Mid-Range Wireless",
     name: "Anker PowerConf H700",
     price: "~$89-$109",
@@ -174,7 +309,7 @@ export const products: WorkHeadset[] = [
   },
   {
     id: "jabra-evolve2-55-ms",
-    rank: 5,
+    rank: 9,
     badge: "Best Professional Wireless",
     name: "Jabra Evolve2 55 MS",
     price: "~$169",
@@ -209,7 +344,7 @@ export const products: WorkHeadset[] = [
   },
   {
     id: "bose-quietcomfort-45",
-    rank: 6,
+    rank: 10,
     badge: "Best Consumer ANC",
     name: "Bose QuietComfort 45",
     price: "~$199-$229",
@@ -244,7 +379,7 @@ export const products: WorkHeadset[] = [
   },
   {
     id: "sony-wh-1000xm5",
-    rank: 7,
+    rank: 11,
     badge: "Best Overall for Work",
     name: "Sony WH-1000XM5",
     price: "~$248",

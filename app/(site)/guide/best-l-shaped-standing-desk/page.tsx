@@ -208,7 +208,7 @@ export default async function BestLShapedStandingDeskPage() {
     name: "Best L-Shaped Standing Desks in 2026",
     description:
       "7 best L-shaped electric standing desks in 2026. Full electric L-frames where both sides rise together. Covers Type A vs Type B motor configurations, corner dead zone math, footprint measurement, and stability at height.",
-    numberOfItems: 7,
+    numberOfItems: 10,
     itemListElement: products.map((p) => ({
       "@type": "ListItem",
       position: p.rank,
