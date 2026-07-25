@@ -1,0 +1,460 @@
+export const guideSlug = "best-printers-for-home-offices";
+export const guideTitle = "8 Best Printers for Home Offices in 2026";
+export const metaTitle = "Best Printers for Home Offices in 2026 (Duty Cycle Explained)";
+export const metaDescription =
+  "8 printers we evaluated for home offices, covering duty cycle versus real monthly volume, multi-user wifi sharing, scan quality for documents, and an honest fax reality check.";
+export const mainKeyword = "home office printer";
+export const introParagraphs = [
+  "A home office printer has to handle more than an occasional home printer: multiple family members or roommates sharing it over wifi, scanning contracts and receipts that need to stay readable, and enough duty cycle headroom to not choke during a busy week. Most listings quote a rated duty cycle without explaining that it's a maximum ceiling, not a healthy day-to-day volume.",
+  "Below are 8 printers we evaluated on duty cycle versus realistic monthly volume, scan resolution, and genuinely useful features versus legacy ones like fax that most 2026 home offices don't need. We also include one Bluetooth label maker, called out honestly as a specialty accessory rather than a primary home-office printer.",
+];
+export const lastUpdated = "2026-07-23";
+export const readTime = "10 min";
+export const heroImage = "https://m.media-amazon.com/images/I/415PuxvZ1wL._SL500_.jpg";
+
+export interface GuideProduct {
+  id: string;
+  rank: number;
+  badge: string;
+  name: string;
+  price: string;
+  rating: string;
+  reviews: string;
+  imageUrl: string;
+  amazonUrl: string;
+  description: string;
+  specs: string[];
+  pros: string[];
+  cons: string[];
+  bestFor: string;
+}
+
+export interface BuyingCriterion {
+  criterion: string;
+  explanation: string;
+}
+
+export interface FaqItem {
+  q: string;
+  a: string;
+}
+
+export const products: GuideProduct[] = [
+  {
+    id: "canon-pixma-tr4720-home-office",
+    rank: 1,
+    badge: "Best Budget All-in-One",
+    name: "Canon PIXMA TR4720 All-in-One Wireless Printer",
+    price: "$69.00",
+    rating: "New listing",
+    reviews: "Not yet rated",
+    imageUrl: "https://m.media-amazon.com/images/I/415PuxvZ1wL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B09CDXKNB9?tag=deskfinds0d-20",
+    description:
+      "The PIXMA TR4720 covers the home-office basics, print, scan, copy, and an auto document feeder for multi-page jobs, at the lowest price in this list. Built-in fax is included too, though most home offices in 2026 will never touch it.\n\nAs a standard cartridge inkjet, its scan resolution is fine for everyday paperwork but isn't the pick for high-fidelity document archiving. It's a solid, low-cost starting point for a single-user home office with light-to-moderate volume.",
+    specs: [
+      "Auto document feeder",
+      "Built-in fax",
+      "Mobile printing support",
+      "Wireless all-in-one",
+      "Lowest price in this list",
+    ],
+    pros: [
+      "Lowest price in this list",
+      "Auto document feeder for multi-page scans",
+      "Straightforward wireless setup",
+      "Fax included if you happen to need it",
+    ],
+    cons: [
+      "Fax is unused by most home offices in 2026",
+      "Standard cartridges, higher cost per page than ink-tank models",
+      "Lighter-duty duty cycle than the higher-end picks",
+    ],
+    bestFor: "A single-user home office on a tight budget",
+  },
+  {
+    id: "canon-pixma-ts6520-home-office",
+    rank: 2,
+    badge: "Best Display for Shared Use",
+    name: "Canon PIXMA TS6520 Wireless Color Inkjet Printer",
+    price: "$74.00",
+    rating: "New listing",
+    reviews: "Not yet rated",
+    imageUrl: "https://m.media-amazon.com/images/I/21U5jLy1DeL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0FMBTJLX6?tag=deskfinds0d-20",
+    description:
+      "The PIXMA TS6520's 1.42-inch OLED display and clearer control panel make it easier for multiple household members to navigate menus without confusion, a real advantage in a shared home office. Duplex printing is built in for double-sided documents.\n\nOver wifi with 2-3 users, expect it to handle print jobs one at a time through its queue without issue at light-to-moderate combined volume; it isn't built for simultaneous heavy jobs from every device at once.",
+    specs: [
+      "1.42\" OLED display",
+      "Duplex printing",
+      "Wireless connectivity for multi-device use",
+      "Compact design",
+      "Intuitive control panel",
+    ],
+    pros: [
+      "Clear display simplifies shared, multi-user setups",
+      "Duplex printing standard",
+      "Handles a printer queue from multiple devices",
+      "Compact enough for most home offices",
+    ],
+    cons: [
+      "Standard cartridge inkjet, higher cost per page at volume",
+      "Not built for simultaneous heavy print jobs from multiple users",
+      "No fax if that's a requirement",
+    ],
+    bestFor: "A home office shared by 2-3 people over the same wifi network",
+  },
+  {
+    id: "brother-dcp-l2640dw-home-office",
+    rank: 3,
+    badge: "Best High-Volume Duty Cycle",
+    name: "Brother DCP-L2640DW Wireless Compact Monochrome Laser Printer",
+    price: "$209.99",
+    rating: "New listing",
+    reviews: "Not yet rated",
+    imageUrl: "https://m.media-amazon.com/images/I/41Pb1fcUXbL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CPLFTPCV?tag=deskfinds0d-20",
+    description:
+      "As the only laser printer in this list, the Brother DCP-L2640DW carries the highest rated duty cycle, but that ceiling number describes a maximum, not a healthy recommended volume. Realistic sustained monthly use should sit well under the rated maximum to avoid excess wear.\n\nDuplex printing, wireless and mobile support, and Alexa compatibility round out a genuinely office-grade machine, best suited to a home office with real, sustained text-document volume rather than occasional printing.",
+    specs: [
+      "Monochrome laser engine",
+      "Duplex printing",
+      "Highest duty cycle ceiling in this list",
+      "Wireless + mobile printing",
+      "Works with Alexa",
+    ],
+    pros: [
+      "Highest duty cycle headroom in this list",
+      "Lower cost per page at real high-volume use",
+      "Fast, sharp text output for documents",
+      "No idle-ink drying risk like inkjet cartridges",
+    ],
+    cons: [
+      "Highest upfront price in this list",
+      "Monochrome only, no color printing",
+      "Duty cycle rating should not be read as a recommended volume",
+    ],
+    bestFor: "A home office with genuinely high, sustained text-document volume",
+  },
+  {
+    id: "hp-officejet-pro-8125-home-office",
+    rank: 4,
+    badge: "Best for Multi-User Wifi Sharing",
+    name: "HP OfficeJet Pro 8125 Wireless All-in-One Color Inkjet Printer",
+    price: "$119.99",
+    rating: "New listing",
+    reviews: "Not yet rated",
+    imageUrl: "https://m.media-amazon.com/images/I/41MuruhvCqL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GPFHCYK7?tag=deskfinds0d-20",
+    description:
+      "The OfficeJet Pro 8125's auto document feeder and duplex printing are built with multi-device home-office setups in mind, and its higher-capacity cartridges hold up well against a print queue fed by 2-3 different household devices over the same wifi network.\n\nIt's rated Best-for-Home Office by HP, and in practice that shows up in steadier queue handling rather than any single standout spec, a solid mid-tier pick between the budget inkjets and the laser printer in this list.",
+    specs: [
+      "Auto document feeder",
+      "Duplex printing",
+      "3-month Instant Ink trial included",
+      "AI-capable setup",
+      "Best-for-Home Office rated",
+    ],
+    pros: [
+      "Handles a multi-device wifi print queue well",
+      "Auto document feeder for scanning multi-page paperwork",
+      "Higher-capacity cartridges than budget inkjets",
+      "AI-capable setup tools",
+    ],
+    cons: [
+      "Pricier than the basic PIXMA picks",
+      "Instant Ink subscription cost after the trial needs budgeting",
+      "Not as fast per page as the laser pick",
+    ],
+    bestFor: "A home office where 2-3 people print from different devices over wifi",
+  },
+  {
+    id: "hp-officejet-pro-8125e-home-office",
+    rank: 5,
+    badge: "Best for Frequent Daily Use",
+    name: "HP OfficeJet Pro 8125e Wireless All-in-One Color Inkjet Printer",
+    price: "$99.99",
+    rating: "New listing",
+    reviews: "Not yet rated",
+    imageUrl: "https://m.media-amazon.com/images/I/418KMpgzGBL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CT8ZJ7ZC?tag=deskfinds0d-20",
+    description:
+      "The OfficeJet Pro 8125e shares its sibling's auto document feeder and duplex printing at a slightly lower price, with HP's Instant Ink enrollment built into the setup flow. That makes it a good fit for a home office that prints frequently enough to want cartridge costs handled automatically.\n\nBecause it's aimed at more frequent daily use, its consumables are sized to avoid the idle-ink drying issues that affect low-volume inkjets, useful if the home office sees regular, steady printing rather than sporadic bursts.",
+    specs: [
+      "Auto document feeder",
+      "Duplex printing",
+      "3-month Instant Ink trial",
+      "AI-enabled setup",
+      "Best-for-Home Office rated",
+    ],
+    pros: [
+      "Sized for frequent, regular home-office printing",
+      "Auto document feeder built in",
+      "Instant Ink trial reduces early cartridge cost",
+      "Reasonable price for the feature set",
+    ],
+    cons: [
+      "Ties into HP's Instant Ink enrollment by default",
+      "Larger footprint than the compact PIXMA models",
+      "Overkill for very light, occasional home offices",
+    ],
+    bestFor: "A home office with regular, frequent daily printing",
+  },
+  {
+    id: "hp-deskjet-4355-home-office",
+    rank: 6,
+    badge: "Best Ultra-Budget Starter",
+    name: "HP DeskJet 4355 Wireless All-in-One Color Inkjet Printer",
+    price: "$69.99",
+    rating: "New listing",
+    reviews: "Not yet rated",
+    imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
+    description:
+      "For a new home office on a tight setup budget, the DeskJet 4355 covers print, scan, and copy for under $70, with a 3-month Instant Ink trial included. It's a fine starting point for a single desk that doesn't yet need multi-user wifi sharing or high duty cycle.\n\nScan resolution is adequate for everyday paperwork like receipts and forms, though buyers who need sharper OCR accuracy on dense contracts should look at a higher-resolution scanning pick instead.",
+    specs: [
+      "Wireless all-in-one: print, scan, copy",
+      "3-month Instant Ink trial included",
+      "Standard cartridge inkjet",
+      "AI-capable setup features",
+      "Lowest price in this list",
+    ],
+    pros: [
+      "Lowest price for a genuine home-office starter setup",
+      "Instant Ink trial softens initial cartridge cost",
+      "Compact wireless all-in-one",
+      "Simple setup for a single desk",
+    ],
+    cons: [
+      "Not built for multi-user wifi sharing at volume",
+      "Scan resolution is basic, not ideal for dense text documents",
+      "Standard cartridges carry idle-ink drying risk",
+    ],
+    bestFor: "A brand-new single-desk home office on a tight startup budget",
+  },
+  {
+    id: "canon-pixma-ts4320-home-office",
+    rank: 7,
+    badge: "Most Compact for Tight Spaces",
+    name: "Canon PIXMA TS4320 Wireless Color Inkjet Printer",
+    price: "$64.00",
+    rating: "New listing",
+    reviews: "Not yet rated",
+    imageUrl: "https://m.media-amazon.com/images/I/21igSrZPOwL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0FMBGXC2C?tag=deskfinds0d-20",
+    description:
+      "The PIXMA TS4320's compact footprint makes it the easiest fit for a home office carved out of a small room or a corner desk, without sacrificing duplex printing or basic scan and copy functions. It's a light-duty machine best matched to a lower monthly volume.\n\nFor security-conscious home offices, keeping any wifi-connected printer, including this one, on an isolated guest network with firmware kept current is a simple, often-overlooked precaution worth taking regardless of which printer you choose.",
+    specs: [
+      "Compact design",
+      "Duplex printing",
+      "Copier/scanner built in",
+      "1-year limited warranty",
+      "Easy setup",
+    ],
+    pros: [
+      "Smallest footprint in this list",
+      "Duplex printing included",
+      "1-year warranty",
+      "Easy setup for a small home office",
+    ],
+    cons: [
+      "Lower duty cycle than the office-grade picks",
+      "Standard cartridges, same idle-ink risk as other inkjets",
+      "Basic scan resolution for dense documents",
+    ],
+    bestFor: "A home office squeezed into a small room or corner desk",
+  },
+  {
+    id: "nelko-bluetooth-label-maker-home-office",
+    rank: 8,
+    badge: "Labeling Accessory, Not a Primary Printer",
+    name: "Nelko P21 Bluetooth Label Maker Machine with Tape",
+    price: "$16.98",
+    rating: "New listing",
+    reviews: "Not yet rated",
+    imageUrl: "https://m.media-amazon.com/images/I/31jXroCi2EL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0C3L93F2Q?tag=deskfinds0d-20",
+    description:
+      "This is a Bluetooth label maker, not a full home-office printer, and it belongs on this list strictly as a specialty labeling accessory. It's genuinely handy for labeling file folders, storage boxes, and cable bundles around a home office setup.\n\nAt under $17, it's worth adding alongside one of the actual printers above for a household filing system, but it cannot print documents, scans, or full pages, and shouldn't be positioned as a primary home-office printer recommendation.",
+    specs: [
+      "Bluetooth wireless connection",
+      "Mobile app with multiple templates",
+      "Compact, portable design",
+      "Includes starter label tape",
+      "Not a document printer substitute",
+    ],
+    pros: [
+      "Very affordable, genuinely useful for office filing systems",
+      "Compact, no desk space required",
+      "Easy setup via mobile app",
+      "Good for labeling folders, bins, and cables",
+    ],
+    cons: [
+      "Cannot print documents or full pages",
+      "Not a substitute for any of the printers in this list",
+      "Ongoing tape cost for heavy labeling use",
+    ],
+    bestFor: "A home-office filing and organization accessory, paired with a real printer",
+  },
+];
+
+export interface HowWeEvaluatedItem {
+  title: string;
+  description: string;
+}
+
+export const howWeEvaluated: HowWeEvaluatedItem[] = [
+  {
+    title: "Duty cycle versus realistic volume",
+    description: "Checked each printer's rated duty cycle and weighed it as a maximum ceiling, not a recommended monthly volume, since sustained use near the rated maximum wears a printer faster than intended.",
+  },
+  {
+    title: "Multi-user wifi handling",
+    description: "Considered how well each printer's print queue and wireless setup supports 2-3 people sharing it from different devices, a common home-office scenario.",
+  },
+  {
+    title: "Scan quality for real documents",
+    description: "Weighed scan resolution against practical home-office needs like reading contracts, receipts, and tax documents clearly, not just glossy photo scanning.",
+  },
+  {
+    title: "Feature relevance in 2026",
+    description: "Distinguished genuinely useful features from legacy ones like fax that add cost without matching how most home offices actually operate today.",
+  },
+  {
+    title: "Honest product category",
+    description: "Confirmed each pick is a genuine home-office printer or clearly flagged it as a specialty accessory, like the Bluetooth label maker, rather than blurring the two together.",
+  },
+];
+
+export const buyingCriteria: BuyingCriterion[] = [
+  {
+    criterion: "Duty cycle is a ceiling, not a target",
+    explanation:
+      "A printer rated for a 2,000-page monthly duty cycle is describing the maximum it can survive without excess wear, not a healthy volume to print at every month. Plan on sustained use well under the rated maximum, roughly a quarter to a third of it, for reliable long-term performance.",
+  },
+  {
+    criterion: "Confirm the printer handles a shared wifi queue smoothly",
+    explanation:
+      "A home office with 2-3 people printing from laptops and phones over the same network needs a printer that queues jobs cleanly rather than dropping or stalling on simultaneous requests. The HP OfficeJet Pro 8125 and 8125e in this list are built with multi-device setups specifically in mind.",
+  },
+  {
+    criterion: "Scan resolution matters more for text than photos",
+    explanation:
+      "For contracts, receipts, and tax documents, scan clarity at typical 600dpi settings affects whether OCR text-recognition software can read the result accurately later. If your home office relies on scanned documents for records or e-signing, don't assume every all-in-one scans text equally well.",
+  },
+  {
+    criterion: "Ask honestly whether you need fax",
+    explanation:
+      "Fax is still marketed as a selling point on many home-office all-in-ones despite being a dead feature for most 2026 workflows. If you genuinely don't send or receive faxes, skipping a fax-equipped model like the PIXMA TR4720 in favor of a non-fax pick can save $30-50 without losing anything you'd use.",
+  },
+  {
+    criterion: "Keep a home-office printer off your main network",
+    explanation:
+      "Wifi-connected printers are a commonly overlooked entry point for network intrusions if firmware isn't kept current. Isolating the printer on a guest network and applying firmware updates when prompted is a simple precaution worth taking regardless of which printer you choose.",
+  },
+  {
+    criterion: "Match print technology to your real text-to-color ratio",
+    explanation:
+      "A home office that prints mostly black-and-white text documents at real volume, like the Brother DCP-L2640DW's use case, benefits from a laser printer's lower per-page cost. A home office that regularly needs color, charts, or occasional photos is better served by one of the inkjet all-in-ones in this list.",
+  },
+];
+
+export interface HowToChooseSection {
+  subheading: string;
+  intro?: string;
+  table?: { headers: string[]; rows: string[][] };
+  cards?: { label: string; text: string }[];
+  note?: string;
+}
+
+export const howToChoose: HowToChooseSection[] = [
+  {
+    subheading: "Duty Cycle vs. Recommended Monthly Volume",
+    intro:
+      "The rated duty cycle on a spec sheet is not the volume you should actually print at every month.",
+    table: {
+      headers: ["What the spec sheet says", "What it actually means", "Practical guidance"],
+      rows: [
+        ["\"2,000 pages/month duty cycle\"", "Maximum survivable ceiling", "Sustain roughly 500-650 pages/month for longevity"],
+        ["Higher duty cycle rating", "More headroom for busy weeks", "Best fit for a shared, multi-user home office"],
+        ["Lower duty cycle rating", "Built for lighter, steadier use", "Fine for a single-desk, lower-volume office"],
+      ],
+    },
+  },
+  {
+    subheading: "By Number of People Sharing the Printer",
+    table: {
+      headers: ["Household setup", "What to prioritize", "Best pick"],
+      rows: [
+        ["1 person, light use", "Lowest cost", "HP DeskJet 4355, Canon PIXMA TS4320"],
+        ["2-3 people, shared wifi", "Reliable multi-device queue handling", "HP OfficeJet Pro 8125 / 8125e"],
+        ["Multiple people, high text volume", "Highest duty cycle headroom", "Brother DCP-L2640DW"],
+      ],
+    },
+  },
+  {
+    subheading: "Scan Quality for Real Documents",
+    intro:
+      "600dpi is fine for most everyday paperwork; 1200dpi becomes worth it for dense contracts you'll run through OCR software later.",
+    cards: [
+      {
+        label: "Everyday paperwork",
+        text: "Receipts, simple forms, and school documents scan clearly at standard resolution on any of the all-in-ones in this list.",
+      },
+      {
+        label: "Dense contracts or fine print",
+        text: "If you rely on OCR text recognition for scanned contracts or tax documents, test a sample scan at your printer's highest resolution setting before trusting it for records.",
+      },
+    ],
+  },
+  {
+    subheading: "Do You Actually Need Fax",
+    note: "Fax is included on several picks in this list, like the Canon PIXMA TR4720, but most 2026 home offices never use it. If you genuinely don't send or receive faxes, a non-fax model can save $30-50 with no real loss in functionality.",
+  },
+  {
+    subheading: "Basic Home-Office Printer Network Security",
+    cards: [
+      {
+        label: "Isolate it",
+        text: "Put wifi-connected printers on a guest network separate from your primary devices when your router supports it.",
+      },
+      {
+        label: "Keep firmware current",
+        text: "Apply firmware updates when the printer prompts for them rather than dismissing the notification indefinitely.",
+      },
+    ],
+  },
+];
+
+export const faq: FaqItem[] = [
+  {
+    q: "What does a printer's duty cycle actually mean?",
+    a: "Duty cycle is the maximum number of pages a printer can handle in a month without excess wear, not a recommended volume to print at regularly. For reliable long-term performance, aim to sustain print volume at roughly a quarter to a third of the rated duty cycle, not consistently near the ceiling.",
+  },
+  {
+    q: "Which printer in this list is best for 2-3 people sharing one printer over wifi?",
+    a: "The HP OfficeJet Pro 8125 and 8125e are built with multi-device home-office use in mind, handling a shared print queue from different devices more reliably than the budget PIXMA and DeskJet picks, which are better suited to a single user.",
+  },
+  {
+    q: "Do I need a fax-capable printer for a home office in 2026?",
+    a: "Most home offices don't use fax at all today. Unless you specifically send or receive faxes, skipping a fax-equipped model can save $30-50 without losing any functionality you'd actually use.",
+  },
+  {
+    q: "Is the Nelko label maker a home-office printer?",
+    a: "No. It's a Bluetooth label maker included as a specialty accessory pick, useful for labeling file folders and storage bins, but it cannot print documents or scans and shouldn't replace one of the actual printers in this list.",
+  },
+  {
+    q: "How do I keep a home-office printer secure on my network?",
+    a: "Two simple steps cover most of the risk: isolate the printer on a guest wifi network separate from your main devices if your router supports it, and install firmware updates when the printer prompts you rather than ignoring them.",
+  },
+  {
+    q: "Should I pick a laser or inkjet printer for a home office?",
+    a: "A laser printer like the Brother DCP-L2640DW makes sense if your home office prints mostly black-and-white text at real sustained volume, since it has a lower cost per page over time. If you need color printing or your volume is lighter, one of the inkjet all-in-ones in this list is the better fit.",
+  },
+];
+
+export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-printers-for-home-use", title: "Best Printers for Home Use (2026)" },
+  { href: "/guide/best-printer-stands-for-two-printers", title: "Best Printer Stands for Two Printers (2026)" },
+  { href: "/guide/best-printer-stands-with-storage", title: "Best Printer Stands with Storage (2026)" },
+];

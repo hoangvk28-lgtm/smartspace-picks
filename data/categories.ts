@@ -17,7 +17,7 @@ export const categories: Category[] = [
     shortDescription: "Ergonomic and organized setups for small desks.",
     icon: "Monitor",
     color: "#2563eb",
-    subcategories: ["desk-lamps", "monitor-stands", "laptop-stands", "cable-management", "monitor-arms", "microphones", "webcams", "ergonomic-keyboards", "mechanical-keyboards"],
+    subcategories: ["desk-lamps", "monitor-stands", "laptop-stands", "cable-management", "monitor-arms", "microphones", "webcams", "ergonomic-keyboards", "mechanical-keyboards", "printer-stands", "printers"],
   },
   {
     slug: "dorm-essentials",
