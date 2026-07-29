@@ -237,6 +237,7 @@ export default async function ProductReviewPage({ params }: Props) {
                   sizes="(max-width: 768px) 100vw, 448px"
                   className="object-contain p-4"
                   priority
+                  unoptimized
                 />
               </div>
             ) : (

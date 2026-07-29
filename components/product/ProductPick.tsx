@@ -39,6 +39,7 @@ export function ProductPick({ product, pickLabel, rank, lastUpdated }: ProductPi
             fill
             sizes="(max-width: 768px) 100vw, 800px"
             className="object-contain p-4"
+            unoptimized
           />
         </div>
       ) : (

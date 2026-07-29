@@ -163,6 +163,7 @@ export default async function BuyingGuidePage({ params }: Props) {
                         fill
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
+                        unoptimized
                       />
                     ) : (
                       <div className="w-full h-full flex items-center justify-center">
@@ -382,6 +383,7 @@ export default async function BuyingGuidePage({ params }: Props) {
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 800px"
               priority
+              unoptimized
             />
           </div>
         )}
@@ -815,6 +817,7 @@ function InlinePickCard({ pick, rank }: { pick: GuideProductPick; rank: number }
                 fill
                 className="object-contain"
                 sizes="144px"
+                unoptimized
               />
             </div>
           ) : (

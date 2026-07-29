@@ -65,6 +65,7 @@ export function DealsSection({ products }: DealsSectionProps) {
                   fill
                   sizes="(max-width: 640px) 100vw, 25vw"
                   className="object-contain p-3"
+                  unoptimized
                 />
               </div>
             ) : (

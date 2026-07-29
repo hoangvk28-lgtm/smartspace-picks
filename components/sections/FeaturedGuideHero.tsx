@@ -41,6 +41,7 @@ export function FeaturedGuideHero({ guide, products }: FeaturedGuideHeroProps) {
                 fill
                 sizes="(max-width: 1024px) 100vw, 60vw"
                 className="object-cover"
+                unoptimized
               />
             </div>
           ) : (

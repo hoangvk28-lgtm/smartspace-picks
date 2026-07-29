@@ -144,7 +144,7 @@ export default async function BestTabletStandsForBedPage() {
 
         {/* Hero image */}
         <div className="relative w-full max-w-3xl h-56 sm:h-72 rounded-xl overflow-hidden mb-10">
-          <Image src={heroImage} alt={guideTitle} fill sizes="(max-width: 768px) 100vw, 768px" className="object-cover" priority />
+          <Image src={heroImage} alt={guideTitle} fill sizes="(max-width: 768px) 100vw, 768px" className="object-cover" priority unoptimized />
         </div>
 
         {/* Intro */}
