@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41K5Wvne7oL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$64.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41K5Wvne7oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFFCPL26?tag=deskfinds0d-20",
     description:
       "UGREEN's switches typically support both hotkey combinations and a physical button, giving genuine backup flexibility if a hotkey conflict arises in a specific application.\n\nCheck the manual for the exact hotkey sequence, since this varies by manufacturer and isn't always the same combination across brands.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$69.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ZrB2w7oOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXF66SWR?tag=deskfinds0d-20",
     description:
       "Hotkey switching across a dual-monitor setup should synchronize both displays together, worth verifying this genuinely works as a single hotkey press rather than needing separate commands per monitor.\n\nExplicit 4 USB 3.0 ports round out reliable peripheral switching alongside the hotkey video control.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$32.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41uSOQO2ILL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFVBK4XQ?tag=deskfinds0d-20",
     description:
       "A budget-friendly switch appropriate for buyers wanting to test hotkey switching without a premium price commitment.\n\n3 USB 3.0 ports give reasonable peripheral switching capability alongside the hotkey video control.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$26.23",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ll9M3dnWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5D4FK1H?tag=deskfinds0d-20",
     description:
       "The absolute lowest price point in this guide, appropriate for buyers with a simple setup wanting the most affordable hotkey-capable switch.\n\n4K@60Hz support and USB 3.0 connectivity cover the essentials without any premium extras.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41EdJsfqo4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H2YVL93R?tag=deskfinds0d-20",
     description:
       "A purpose-built two-source switch at a genuinely budget-friendly price, appropriate for buyers wanting straightforward hotkey switching without unnecessary complexity.\n\n4K@60Hz support and USB 3.0 connectivity cover the essentials without any premium extras or unnecessary complexity.",

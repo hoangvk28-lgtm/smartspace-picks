@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41hpKXhqKnL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$449.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41hpKXhqKnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H1VFKC84?tag=deskfinds0d-20",
     description:
       "A genuinely massive 32:9 super-ultrawide panel, appropriate for buyers wanting the equivalent of two side-by-side QHD monitors without a bezel gap in between.\n\nPlan for window-snapping software to make the most of this extreme aspect ratio, default OS window management often isn't sufficient for a panel this wide.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$379.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41oTaXgx2fL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1H325FN?tag=deskfinds0d-20",
     description:
       "A standard 21:9 ultrawide format that most modern software handles gracefully, a safer choice than a 32:9 super-ultrawide for buyers concerned about app compatibility.\n\nExplicit eye comfort features and a 120Hz refresh rate round out a strong productivity-focused ultrawide.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$249.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41TB04lWCrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DR3YBSL4?tag=deskfinds0d-20",
     description:
       "A genuinely high 180Hz refresh rate on a standard 21:9 ultrawide, appropriate for buyers wanting both expansive workspace and smooth motion for gaming.\n\nA tight 1000R curve pairs well with the ultrawide format for a more immersive feel at typical desk viewing distances.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$414.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51jbyzHVvdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BLT79X2G?tag=deskfinds0d-20",
     description:
       "A premium 34-inch ultrawide from Samsung's Viewfinity line, HDR10 support adds genuine contrast benefit for both productivity and media consumption on the wide canvas.\n\nSamsung's panel quality and reliability make this a strong pick for buyers wanting a premium ultrawide experience.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$109.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/518zREWknqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DB8HLNPN?tag=deskfinds0d-20",
     description:
       "A more budget-friendly, standard-width curved monitor for buyers wanting to test whether a wider or curved format suits their workflow before committing to a true ultrawide.\n\nNote this is not a true ultrawide aspect ratio, it's a starting point for buyers unsure if they'll benefit from the extra width.",

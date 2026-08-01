@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41r-g4mzwpL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$92.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41r-g4mzwpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G34NJ11Y?tag=deskfinds0d-20",
     description:
       "Genuinely supports three monitors switching between two computers, its high 8K@60Hz per-port rating gives real headroom for total combined bandwidth across all three displays.\n\nBoth HDMI and DisplayPort connectivity give real flexibility for mixed-monitor multi-display setups.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$229.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/414CqbIpl1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GX1D9MCB?tag=deskfinds0d-20",
     description:
       "A genuinely high 4K@120Hz refresh rate via DisplayPort across three monitors, appropriate for buyers wanting smooth motion alongside multi-monitor switching.\n\nUSB-C docking functionality adds real convenience beyond simple video and peripheral switching for a demanding three-monitor setup.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$79.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51JLfbr+MVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H6X7Y3WZ?tag=deskfinds0d-20",
     description:
       "A strong combination of 8K@60Hz and 4K@120Hz support across mixed HDMI and dual DisplayPort connectivity, appropriate for buyers with varied monitor specs in their three-display setup.\n\nA relatively accessible price for this level of multi-monitor resolution and refresh rate flexibility.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$225.61",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31KfwfvqAqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CW2JGRN4?tag=deskfinds0d-20",
     description:
       "Included as a strong dual-monitor option for buyers whose multi-monitor needs top out at two displays rather than three, appropriate for laptop-and-desktop hybrid switching.\n\nDedicated docking functionality adds real convenience beyond a simple switch for buyers not needing a third display.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$314.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31N0WCJrr2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FWC9NS9V?tag=deskfinds0d-20",
     description:
       "A premium all-in-one docking solution explicitly built for three-monitor switching between a laptop and desktop, appropriate for buyers wanting the most robust multi-monitor docking experience.\n\nThe premium price reflects the combination of 8K support, three-monitor capability, and full docking functionality.",

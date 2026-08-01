@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41uYhQ+-HGL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$249.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41uYhQ+-HGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GD21577Z?tag=deskfinds0d-20",
     description:
       "A well-balanced QHD panel with clearly documented USB-C specs, appropriate for buyers wanting a reliable primary external display for their laptop.\n\n144Hz refresh rate adds smoothness for both productivity scrolling and casual gaming when paired with a capable laptop GPU.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$229.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41DSJsc4qKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09BXXWT6K?tag=deskfinds0d-20",
     description:
       "A more budget-friendly QHD option with built-in speakers, appropriate for buyers wanting reliable laptop connectivity without paying for the highest refresh rate.\n\nBuilt-in speakers avoid needing separate desk audio equipment, a genuine convenience for laptop-based video calls.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$229.00",
     rating: "4.6 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51+NCPHB1gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08K2NT2G7?tag=deskfinds0d-20",
     description:
       "Part of ASUS's ProArt professional line, appropriate for laptop-based design or photo work needing color-accurate calibration on the external display.\n\nA 24-inch 1080p panel keeps resolution reasonably close to many laptop screens, reducing the jarring mismatch some buyers notice with a larger, higher-resolution external monitor.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ye7a0oJkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHZVYNQ2?tag=deskfinds0d-20",
     description:
       "A genuinely budget-friendly 24-inch 1080p IPS monitor with a surprisingly high 120Hz refresh rate for everyday laptop productivity use.\n\nA sensible entry point for buyers who mainly want a larger external display without significant extra spend.",

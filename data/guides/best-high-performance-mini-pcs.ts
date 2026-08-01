@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41OccK3d-wL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$1,299.00",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41OccK3d-wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLF2KYKN?tag=deskfinds0d-20",
     description:
       "The most powerful processor in this guide, a genuine top-tier Ryzen AI 9 HX 370 with high AI processing capability alongside strong general performance.\n\nCheck current reviews for sustained-load benchmark reports specifically, since even this top-tier chip runs in a lower power envelope than a desktop tower equivalent.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$999.00",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41dRSelt6aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G19ZF99R?tag=deskfinds0d-20",
     description:
       "A powerful Ryzen 9 8945HS processor with 32GB DDR5 RAM, appropriate for buyers wanting genuinely strong performance for both demanding productivity and gaming.\n\n1TB SSD rounds out a well-specced high-performance build with real storage headroom.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$1,179.00",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/312DTHCV2TL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWSLBS9B?tag=deskfinds0d-20",
     description:
       "A genuine 8-core, 16-thread processor paired with massive 64GB DDR5 RAM, appropriate for buyers whose high-performance needs specifically involve virtualization or heavy multitasking.\n\nThe premium price reflects both the processor and the exceptional RAM capacity, worth it specifically for buyers with genuinely demanding memory-intensive workloads.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$769.00",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/3126EO7Hc7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHQX488K?tag=deskfinds0d-20",
     description:
       "A genuine flagship Intel Core i9-14900HX with an impressive 24-core, 32-thread configuration, appropriate for buyers specifically wanting Intel's top-tier mobile processor architecture.\n\n32GB RAM and 1TB storage round out a well-specced build matching this flagship processor's demanding capability.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$649.00",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41HfTCupHML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2C2CDR4?tag=deskfinds0d-20",
     description:
       "A genuinely powerful Ryzen 9 7940HS processor at a more accessible price than the top picks in this guide, appropriate for buyers wanting strong performance without the highest-end pricing.\n\nRecent 2026 edition hardware gives confidence in current-generation processing capability.",

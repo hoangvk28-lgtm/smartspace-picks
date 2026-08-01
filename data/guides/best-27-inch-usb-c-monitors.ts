@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41nZ0d6d6vL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$249.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41uYhQ+-HGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GD21577Z?tag=deskfinds0d-20",
     description:
       "QHD resolution genuinely avoids the softness 1080p would show at this size, while requiring less GPU power than a full 4K panel.\n\n144Hz refresh rate adds real value for buyers who also want smooth motion for casual gaming alongside productivity work.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$312.81",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41WGJRiwq3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1GFD44G?tag=deskfinds0d-20",
     description:
       "A genuinely high 120Hz refresh rate at true 4K resolution, appropriate for buyers wanting both sharp detail and smooth motion without stepping down to QHD.\n\n99% sRGB coverage gives strong color accuracy for buyers who also do color-sensitive work on this display.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$269.66",
     rating: "4.6 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41jGkitNULL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08LCPY1TR?tag=deskfinds0d-20",
     description:
       "A QHD ProArt panel combining sharp pixel density at 27 inches with professional color calibration, appropriate for buyers doing color-sensitive design or photo work.\n\nQHD resolution avoids the 1080p softness at this size while requiring less GPU power than 4K.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$229.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41DSJsc4qKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09BXXWT6K?tag=deskfinds0d-20",
     description:
       "A more budget-friendly QHD option at 27 inches with built-in speakers, appropriate for buyers wanting sharp resolution without the highest refresh rate.\n\nBuilt-in speakers avoid needing separate desk audio equipment, a genuine convenience for video calls.",

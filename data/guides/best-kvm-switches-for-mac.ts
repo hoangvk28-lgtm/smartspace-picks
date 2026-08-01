@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41K5Wvne7oL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$64.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41K5Wvne7oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFFCPL26?tag=deskfinds0d-20",
     description:
       "A genuinely high 8K@60Hz resolution ceiling future-proofs this switch well beyond typical Mac external display needs, backed by UGREEN's reliable aluminum build.\n\nVerify EDID emulation behavior specifically on your Mac model through current reviews before assuming smooth resolution retention when switching.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$92.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41r-g4mzwpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G34NJ11Y?tag=deskfinds0d-20",
     description:
       "Supports up to three monitors, appropriate for buyers with a MacBook Pro Max chip variant confirmed to support multiple external displays.\n\nVerify your specific Mac model and chip generation actually supports the intended monitor count before buying, since base M-series chips are often more limited.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$69.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ZrB2w7oOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXF66SWR?tag=deskfinds0d-20",
     description:
       "Explicit 4 USB 3.0 ports give real confidence this switch handles Mac peripherals reliably, including external drives common in creative Mac workflows.\n\nDual-monitor support at 4K@60Hz suits many Mac Pro and Max chip variants comfortably.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$32.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41uSOQO2ILL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFVBK4XQ?tag=deskfinds0d-20",
     description:
       "A budget-friendly switch appropriate for Mac buyers wanting to test whether a KVM switch fits their workflow before investing in a pricier model.\n\n3 USB 3.0 ports give reasonable peripheral switching capability at this accessible price point.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$26.23",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ll9M3dnWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5D4FK1H?tag=deskfinds0d-20",
     description:
       "The absolute lowest price point in this guide, appropriate for Mac buyers with a simple setup wanting the most affordable reliable option.\n\n4K@60Hz support and USB 3.0 connectivity cover the essentials without any premium extras.",

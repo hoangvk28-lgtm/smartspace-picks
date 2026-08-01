@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41LA4JXX5oL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$188.96",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41LA4JXX5oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FWHF97TT?tag=deskfinds0d-20",
     description:
       "Explicitly built as a docking monitor with an RJ45 Ethernet port alongside USB connectivity, genuinely reduces the number of separate dongles a desk setup needs.\n\nHeight-adjustable stand and integrated speakers add real desk-setup value beyond the hub functionality alone.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$179.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Du+XSAPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCXN5P3T?tag=deskfinds0d-20",
     description:
       "A dedicated docking station rather than a monitor with a built-in hub, genuinely useful for buyers who want to pair any monitor with a robust hub and switching capability.\n\n65W power delivery and gigabit Ethernet give real desk-setup consolidation beyond what most monitor-integrated hubs offer.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$249.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41uYhQ+-HGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GD21577Z?tag=deskfinds0d-20",
     description:
       "Includes downstream USB ports alongside its primary USB-C connectivity, appropriate for buyers who want basic hub functionality alongside a larger, higher-refresh-rate panel.\n\nVerify the exact USB standard on the downstream ports before assuming full-speed external drive performance through this monitor.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$39.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41jaFGKHJgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874M3KW4?tag=deskfinds0d-20",
     description:
       "A genuinely budget-friendly 8-in-1 hub for buyers who'd rather pair a separate hub with their monitor of choice than buy an all-in-one docking monitor.\n\nDual monitor support via 4K HDMI outputs makes this flexible for buyers wanting to drive two separate displays from one hub.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$225.61",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31KfwfvqAqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CW2JGRN4?tag=deskfinds0d-20",
     description:
       "A dedicated docking station explicitly built for laptop and desktop switching with dual monitor hub support, appropriate for buyers running both a laptop and desktop from one setup.\n\nHigher price reflects the dual-monitor KVM switching capability alongside the hub functionality, verify this level of feature set matches your actual setup needs.",

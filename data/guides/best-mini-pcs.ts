@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "10 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/415bG0b3CeL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$549.00",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/415bG0b3CeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DRP316J1?tag=deskfinds0d-20",
     description:
       "Explicitly upgradable DDR5 RAM alongside a genuinely capable Ryzen 7 6800H processor, a strong balance of current performance and future expandability.\n\n1TB PCIe 4.0 SSD gives fast storage out of the box, appropriate for buyers wanting a well-rounded mini PC without immediate upgrade needs.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$649.00",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41HfTCupHML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2C2CDR4?tag=deskfinds0d-20",
     description:
       "A genuinely powerful Ryzen 9 7940HS processor, appropriate for buyers wanting desktop-class multitasking performance in a mini PC form factor.\n\nCheck current reviews for sustained-load thermal reports, since this level of processor performance puts real cooling demands on a compact case.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$539.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51wdKUl+ERL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPC1J2L3?tag=deskfinds0d-20",
     description:
       "24GB of fast 4800MT/s RAM alongside a Ryzen 9 6900HX processor and 1TB PCIe 4.0 SSD, a genuinely well-specced combination for demanding multitasking.\n\nAppropriate for buyers wanting more RAM headroom than the typical 16GB configuration without stepping up to the highest-end processors.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$1,179.00",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/312DTHCV2TL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWSLBS9B?tag=deskfinds0d-20",
     description:
       "A genuinely massive 64GB DDR5 RAM configuration, appropriate for buyers with heavy multitasking, virtualization, or professional workload needs.\n\n8-core, 16-thread Ryzen 7 H255 processor rounds out a premium specification appropriate for demanding professional use cases.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$339.00",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41C5eN3lttL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DMCRSBNT?tag=deskfinds0d-20",
     description:
       "A budget-friendly mini PC with Windows 11 Pro included and a low 28W power draw, appropriate for buyers wanting an affordable everyday computing solution.\n\n16GB DDR4 RAM and 256GB SSD cover typical everyday productivity needs without the premium pricing of higher-spec models.",

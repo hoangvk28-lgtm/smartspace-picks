@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41tqJnA68CL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$79.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41tqJnA68CL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK46JV64?tag=deskfinds0d-20",
     description:
       "A genuinely compact 22-inch essential Samsung panel, appropriate for the smallest desk setups needing a reliable secondary or primary display without a large footprint.\n\nA tilt-only stand keeps the design simple and budget-friendly, straightforward scaling at standard resolution avoids any tiny-text concerns.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$189.98",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51jrQ-g06ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H4DCTPDL?tag=deskfinds0d-20",
     description:
       "A genuinely small 15.6-inch panel running true 4K resolution, plan for significant display scaling adjustments to avoid tiny, hard-to-read text at this pixel density.\n\nTouchscreen input and 125% sRGB coverage add real value for buyers wanting detail and color accuracy in a small, portable package.",

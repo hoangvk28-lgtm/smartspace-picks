@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41Du+XSAPIL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$179.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Du+XSAPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCXN5P3T?tag=deskfinds0d-20",
     description:
       "Explicit EDID emulation support in the listing itself is a genuinely reassuring sign, this means your window layout and resolution should persist across disconnect and reconnect cycles.\n\n65W power delivery and gigabit Ethernet round out a robust docking setup for buyers running two monitors and two PCs.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$188.96",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41LA4JXX5oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FWHF97TT?tag=deskfinds0d-20",
     description:
       "An all-in-one docking monitor combining a 120Hz IPS panel with RJ45 Ethernet and USB hub functionality, appropriate for buyers wanting a single-purchase docking solution.\n\nHeight-adjustable stand adds real ergonomic value beyond the docking functionality alone.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$225.61",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31KfwfvqAqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CW2JGRN4?tag=deskfinds0d-20",
     description:
       "A dedicated docking station explicitly built for switching between a laptop and desktop across dual monitors, appropriate for buyers running a hybrid setup.\n\nKVM switching capability adds genuine value for buyers who don't want to physically swap cables when switching between devices.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$169.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41NY0yTE9kL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DD3X51XS?tag=deskfinds0d-20",
     description:
       "A more budget-friendly docking station with 4K dual-display support, appropriate for buyers switching between two laptops rather than a laptop-and-desktop combination.\n\nCheck current reviews for reports on EDID emulation behavior specifically, since this feature isn't always explicitly documented in every listing.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$233.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41e02xrYlyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP4PD3SM?tag=deskfinds0d-20",
     description:
       "A premium 4K dual-monitor docking solution for two laptops, appropriate for buyers wanting the sharpest resolution alongside seamless KVM switching between devices.\n\nHigher price reflects the combination of 4K support, dual monitor output, and KVM switching, verify this feature set matches your actual setup needs.",

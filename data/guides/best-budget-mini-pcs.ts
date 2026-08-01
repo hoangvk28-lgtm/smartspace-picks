@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41NGsh2eXOL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$319.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41NGsh2eXOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C7437S8H?tag=deskfinds0d-20",
     description:
       "A genuinely capable 6-core, 12-thread Ryzen 5 processor at a budget-friendly price, well beyond what many cheaper Celeron or Atom-based mini PCs offer.\n\nAppropriate for buyers wanting real multitasking capability rather than the most bare-bones budget processor tier.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$339.00",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41C5eN3lttL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DMCRSBNT?tag=deskfinds0d-20",
     description:
       "Windows 11 Pro included at this budget price point is genuinely good value, avoiding a separate OS license purchase for buyers who need the Pro edition.\n\n16GB RAM and 256GB SSD cover typical everyday productivity, though verify the 256GB drive suits your actual storage needs before assuming it's enough.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$249.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41C8DZtap0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GFCMGHJT?tag=deskfinds0d-20",
     description:
       "The most budget-friendly Intel-based option in this guide, appropriate for buyers wanting a low-cost mini PC for basic web browsing and office work.\n\nSet realistic expectations for this entry-level N95 processor tier, appropriate for light everyday tasks rather than any demanding workload.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$246.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41sKXJEffSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CQ4C9ZY1?tag=deskfinds0d-20",
     description:
       "A genuine Intel Core i3 processor at a very budget-friendly price, appropriate for buyers wanting slightly more processing capability than the entry-level N-series chips.\n\n8GB RAM is on the lower side, verify this matches your actual multitasking needs before assuming it's sufficient for your workflow.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$309.00",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41WgxeHNYYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT68M444?tag=deskfinds0d-20",
     description:
       "A genuinely generous combination of 16GB RAM and 512GB SSD on an efficient N150 processor, appropriate for buyers wanting more storage headroom than typical budget mini PCs offer.\n\nThe N150 processor tier suits everyday productivity well, worth setting expectations appropriately below higher-tier Ryzen or Core i7 options.",

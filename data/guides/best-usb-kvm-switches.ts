@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41ZrB2w7oOL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$69.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ZrB2w7oOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXF66SWR?tag=deskfinds0d-20",
     description:
       "Explicit 4 USB 3.0 ports give real confidence this switch handles fast external drives at genuine USB 3.0 speeds, not just keyboard and mouse.\n\nDual-monitor video switching alongside the USB 3.0 ports makes this a complete KVM solution rather than a USB-only switch.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$32.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41uSOQO2ILL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFVBK4XQ?tag=deskfinds0d-20",
     description:
       "3 explicit USB 3.0 ports at a budget-friendly price, appropriate for buyers wanting genuine fast peripheral speeds without paying for dual-monitor video switching they don't need.\n\n4K@60Hz single-monitor video switching rounds out a complete, straightforward KVM solution.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$64.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51+oSuyEu7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BWNDX4VL?tag=deskfinds0d-20",
     description:
       "Supports up to four computers sharing genuine USB 3.0 peripheral switching, appropriate for buyers with more than just two sources needing fast peripheral access.\n\n3 USB ports give reasonable peripheral switching capability across whichever computers you actually connect.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$26.23",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ll9M3dnWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5D4FK1H?tag=deskfinds0d-20",
     description:
       "The absolute lowest price point in this guide, appropriate for buyers with a simple two-computer setup wanting genuine USB 3.0 speeds at the most affordable price.\n\n4K@60Hz support and USB 3.0 connectivity cover the essentials without any premium extras.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41EdJsfqo4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H2YVL93R?tag=deskfinds0d-20",
     description:
       "A purpose-built USB 3.0 switch for the most common two-computer, one-monitor use case, at a genuinely budget-friendly price.\n\n4K@60Hz support and USB 3.0 connectivity cover the essentials without any premium extras or unnecessary complexity.",

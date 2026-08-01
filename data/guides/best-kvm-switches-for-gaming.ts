@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/316j7WYjfbL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$69.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/316j7WYjfbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GYMRCQ7X?tag=deskfinds0d-20",
     description:
       "Explicitly rated at 4K@144Hz, this switch actually supports a genuine gaming monitor's full refresh rate rather than capping it down to 60Hz.\n\nExplicit USB 3.0 connectivity ensures fast, responsive peripheral switching for keyboard and mouse alongside the high-refresh video.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$64.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41K5Wvne7oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFFCPL26?tag=deskfinds0d-20",
     description:
       "An 8K@60Hz rating gives genuine bandwidth headroom, appropriate for gamers prioritizing resolution over the highest refresh rate for their gaming sessions.\n\nReliable aluminum build gives real confidence in signal handling quality across extended gaming sessions.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$69.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ZrB2w7oOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXF66SWR?tag=deskfinds0d-20",
     description:
       "Explicit 4 USB 3.0 ports give real confidence for fast, responsive gaming peripheral switching, including specialty gaming mice and keyboards.\n\nDual-monitor support at 4K@60Hz suits gamers wanting a main display plus a stream overlay or chat reference screen.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$32.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41uSOQO2ILL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFVBK4XQ?tag=deskfinds0d-20",
     description:
       "A budget-friendly switch appropriate for casual gamers wanting to test whether a KVM switch fits their setup without noticeable performance impact for non-competitive play.\n\n3 USB 3.0 ports give reasonable peripheral switching capability despite the low price point.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$79.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51JLfbr+MVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H6X7Y3WZ?tag=deskfinds0d-20",
     description:
       "A strong combination of 8K@60Hz and 4K@120Hz support, appropriate for gamers wanting both high resolution and a genuinely high refresh rate across a multi-monitor gaming setup.\n\nMixed HDMI and dual DisplayPort connectivity give flexibility for varied gaming monitor specs.",

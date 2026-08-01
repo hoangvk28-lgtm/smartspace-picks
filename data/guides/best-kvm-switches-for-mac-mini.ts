@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41K5Wvne7oL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$64.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41K5Wvne7oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFFCPL26?tag=deskfinds0d-20",
     description:
       "A genuinely high 8K@60Hz resolution ceiling future-proofs this switch well beyond typical Mac Mini display needs, backed by UGREEN's reliable aluminum build that aesthetically complements a Mac Mini desk setup.\n\nCompact aluminum design helps keep cable routing tidy behind a Mac Mini's visible rear ports.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$69.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ZrB2w7oOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXF66SWR?tag=deskfinds0d-20",
     description:
       "Appropriate for Mac Mini Pro variants confirmed to support dual external displays, explicit 4 USB 3.0 ports give real confidence for peripheral switching.\n\nVerify your specific Mac Mini chip generation supports dual external displays before assuming this switch's full capability applies to your setup.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$92.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41r-g4mzwpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G34NJ11Y?tag=deskfinds0d-20",
     description:
       "Supports up to three monitors, appropriate for a Mac Mini Pro or Max chip variant confirmed to support this many external displays.\n\nBoth HDMI and DisplayPort connectivity give real flexibility for a Mac Mini paired with a PC using different connector types.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$32.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41uSOQO2ILL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFVBK4XQ?tag=deskfinds0d-20",
     description:
       "A budget-friendly switch appropriate for Mac Mini buyers wanting to test whether a KVM switch fits their desk setup before investing in a pricier model.\n\n3 USB 3.0 ports give reasonable peripheral switching capability at this accessible price point.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$26.23",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ll9M3dnWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5D4FK1H?tag=deskfinds0d-20",
     description:
       "The absolute lowest price point in this guide, appropriate for Mac Mini buyers with a simple setup wanting the most affordable reliable option.\n\n4K@60Hz support and USB 3.0 connectivity cover the essentials without any premium extras.",

@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41K5Wvne7oL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$64.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41K5Wvne7oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFFCPL26?tag=deskfinds0d-20",
     description:
       "8K@60Hz support genuinely requires HDMI 2.1 bandwidth, a strong signal this switch handles the newer HDMI standard rather than being capped at HDMI 2.0 levels.\n\nReliable aluminum build and UGREEN's brand reputation give real confidence in this switch's HDMI signal handling quality.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$69.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ZrB2w7oOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXF66SWR?tag=deskfinds0d-20",
     description:
       "4K@60Hz across two HDMI-connected monitors, appropriate for buyers with a dual-monitor setup wanting reliable resolution without needing 8K headroom.\n\nExplicit 4 USB 3.0 ports give real confidence this switch handles more than just keyboard and mouse over HDMI-based switching.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$92.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41r-g4mzwpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G34NJ11Y?tag=deskfinds0d-20",
     description:
       "Both HDMI and DisplayPort connectivity give real flexibility for buyers with mixed-monitor setups not standardized on HDMI alone.\n\n8K@60Hz support across up to three monitors makes this a strong pick for a demanding multi-display, mixed-connector setup.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$32.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41uSOQO2ILL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFVBK4XQ?tag=deskfinds0d-20",
     description:
       "A budget-friendly HDMI switch appropriate for buyers wanting reliable 4K@60Hz support without paying for 8K headroom they don't currently need.\n\n3 USB 3.0 ports give reasonable peripheral switching capability despite the low price point.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$26.23",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ll9M3dnWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5D4FK1H?tag=deskfinds0d-20",
     description:
       "The absolute lowest price point in this guide, appropriate for buyers with a simple two-computer, one-monitor HDMI setup wanting the most affordable reliable option.\n\nUse a certified high-speed HDMI cable to ensure the switch's 4K@60Hz support performs reliably.",

@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41BxNjK7PrL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$55.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41BxNjK7PrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GY4R958W?tag=deskfinds0d-20",
     description:
       "Explicitly built for a laptop-and-desktop pairing with USB-C video input alongside HDMI, appropriate for buyers wanting single-cable laptop connectivity through the switch.\n\n4K@60Hz support keeps resolution sharp on the single connected monitor while keeping the switch itself simple and affordable.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$229.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/414CqbIpl1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GX1D9MCB?tag=deskfinds0d-20",
     description:
       "USB-C docking functionality alongside high-refresh DisplayPort and HDMI switching, genuinely combines a docking station's convenience with full KVM switching capability.\n\nAppropriate for buyers wanting single-cable USB-C connectivity for both video and power alongside demanding three-monitor switching.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$295.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/419nisVPE2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVMKWZRP?tag=deskfinds0d-20",
     description:
       "Thunderbolt 4 over USB-C gives genuinely high bandwidth headroom for demanding three-monitor docking, appropriate for buyers with Thunderbolt-capable laptops.\n\nDisplayLink technology adds real flexibility for buyers whose laptops don't natively support driving three external monitors via standard USB-C alone.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$179.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Du+XSAPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCXN5P3T?tag=deskfinds0d-20",
     description:
       "Explicit 65W power delivery over USB-C alongside gigabit Ethernet and EDID emulation, a genuinely well-rounded feature set at a more moderate price than the Thunderbolt alternative.\n\nDual monitor and dual PC support round out a robust station for demanding multi-device workflows.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$225.61",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31KfwfvqAqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CW2JGRN4?tag=deskfinds0d-20",
     description:
       "Explicitly built for switching between a laptop and desktop across dual monitors, appropriate for buyers wanting USB-C connectivity for the laptop side of a hybrid setup.\n\nKVM switching capability adds genuine value for buyers who don't want to physically swap cables when switching between devices.",

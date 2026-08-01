@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41EdJsfqo4L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41EdJsfqo4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H2YVL93R?tag=deskfinds0d-20",
     description:
       "A purpose-built 2-port switch at a genuinely budget-friendly price, 4K@60Hz support and USB 3.0 connectivity cover the essentials for this simplest KVM category.\n\nStraightforward design keeps setup simple, appropriate for buyers with exactly two computers and no plans to expand.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$64.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41K5Wvne7oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFFCPL26?tag=deskfinds0d-20",
     description:
       "A genuinely high 8K@60Hz resolution ceiling on a 2-port switch, future-proofing this simple category well beyond typical current monitor needs.\n\nReliable aluminum build gives real confidence in port durability and signal handling quality over repeated daily switching.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$32.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41uSOQO2ILL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFVBK4XQ?tag=deskfinds0d-20",
     description:
       "A budget-friendly 2-port switch with 3 USB 3.0 ports for reasonable peripheral switching capability beyond just keyboard and mouse.\n\nAppropriate for buyers wanting a bit more USB port flexibility than the most basic 2-port designs offer.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$26.23",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ll9M3dnWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5D4FK1H?tag=deskfinds0d-20",
     description:
       "The absolute lowest price point in this guide, appropriate for buyers with a simple 2-port setup wanting the most affordable reliable option.\n\n4K@60Hz support and USB 3.0 connectivity cover the essentials without any premium extras.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$55.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41BxNjK7PrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GY4R958W?tag=deskfinds0d-20",
     description:
       "Explicitly built for a common one-laptop-one-desktop pairing, USB-C connectivity alongside HDMI gives real flexibility for a mixed device setup.\n\n4K@60Hz support keeps resolution sharp on the single connected monitor while keeping the switch itself simple and affordable.",

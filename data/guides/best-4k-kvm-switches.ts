@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/316j7WYjfbL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$69.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/316j7WYjfbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GYMRCQ7X?tag=deskfinds0d-20",
     description:
       "Explicitly rated at 4K@144Hz, well beyond the choppier 30Hz some budget switches quietly cap out at, appropriate for buyers wanting genuinely smooth 4K motion.\n\nExplicit USB 3.0 connectivity rounds out a complete KVM solution with fast peripheral switching alongside the high-refresh video.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$64.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41K5Wvne7oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFFCPL26?tag=deskfinds0d-20",
     description:
       "An 8K@60Hz rating means 4K performance sits comfortably within this switch's bandwidth headroom, genuine confidence 4K runs at a smooth 60Hz rather than a choppier lower refresh rate.\n\nReliable aluminum build gives real confidence in long-term signal handling quality at this resolution ceiling.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$69.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ZrB2w7oOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXF66SWR?tag=deskfinds0d-20",
     description:
       "Explicitly documented 4K@60Hz across two simultaneous monitors, clear specs avoid the ambiguity some budget switches leave around actual achievable refresh rate.\n\nExplicit 4 USB 3.0 ports give real confidence this switch handles more than just keyboard and mouse alongside the sharp 4K video.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$32.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41uSOQO2ILL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFVBK4XQ?tag=deskfinds0d-20",
     description:
       "A budget-friendly switch explicitly rated at 4K@60Hz, not the choppier 30Hz some cheaper switches quietly cap out at without clear labeling.\n\n3 USB 3.0 ports give reasonable peripheral switching capability despite the low price point.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$26.23",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ll9M3dnWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5D4FK1H?tag=deskfinds0d-20",
     description:
       "The absolute lowest price point in this guide, explicitly documented at 4K@60Hz rather than leaving refresh rate ambiguous.\n\n4K@60Hz support and USB 3.0 connectivity cover the essentials without any premium extras.",

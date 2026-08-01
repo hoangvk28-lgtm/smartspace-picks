@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51+NCPHB1gL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$229.00",
     rating: "4.6 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51+NCPHB1gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08K2NT2G7?tag=deskfinds0d-20",
     description:
       "A 1080p resolution at 24 inches sits right in the pixel-density sweet spot, and this ProArt panel adds professional color accuracy on top of that solid resolution fit.\n\nAppropriate for buyers doing color-sensitive design or photo work who also want a compact, sharp desk footprint.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ye7a0oJkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHZVYNQ2?tag=deskfinds0d-20",
     description:
       "A genuinely budget-friendly 24-inch 1080p IPS monitor with a surprisingly high 120Hz refresh rate for everyday productivity use.\n\nThe pixel-density sweet spot at this size means text and UI elements stay sharp without needing display scaling adjustments.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$109.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41jwWmarZtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZ3KWC3P?tag=deskfinds0d-20",
     description:
       "A gaming-focused variant with a genuinely fast 1ms response time alongside 120Hz refresh rate, appropriate for buyers wanting the sharp pixel density of 24-inch 1080p with responsive gaming performance.\n\nThis fast response time reduces motion blur during quick on-screen movement, a real benefit for competitive or fast-paced gaming.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$79.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41tqJnA68CL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK46JV64?tag=deskfinds0d-20",
     description:
       "A slightly smaller 22-inch essential Samsung panel for buyers wanting an even more compact footprint than a 24-inch monitor, appropriate for the smallest desk setups.\n\nA tilt-only stand keeps the design simple and budget-friendly, appropriate for buyers not needing extensive ergonomic adjustability.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$396.26",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41z0BPiXo6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FNQDB6JY?tag=deskfinds0d-20",
     description:
       "Included as a reference point for buyers considering whether a much larger ultrawide might better serve their needs than staying within the compact 24-inch category.\n\nIf you find yourself needing significantly more workspace than 24 inches offers, this ultrawide format is worth comparing against a 24-inch panel directly.",

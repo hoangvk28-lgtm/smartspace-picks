@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/3126EO7Hc7L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$769.00",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/3126EO7Hc7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHQX488K?tag=deskfinds0d-20",
     description:
       "The highest core count in this guide at 24 cores and 32 threads, genuinely powerful for parallel workloads like compilation, video encoding, or heavy multitasking.\n\n32GB RAM and 1TB storage match this flagship processor's demanding capability, appropriate for buyers prioritizing raw multi-threaded throughput.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$1,299.00",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41OccK3d-wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLF2KYKN?tag=deskfinds0d-20",
     description:
       "A genuinely powerful Ryzen AI 9 HX 370 with high AI processing capability alongside strong general multi-threaded performance.\n\nAppropriate for buyers whose powerful-performance needs specifically include AI-accelerated workloads alongside general processing power.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$999.00",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41dRSelt6aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G19ZF99R?tag=deskfinds0d-20",
     description:
       "A powerful Ryzen 9 8945HS processor with 32GB DDR5 RAM, genuinely strong for both demanding multi-threaded productivity and integrated graphics gaming.\n\n1TB SSD rounds out a well-specced powerful build with real storage headroom.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$1,179.00",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/312DTHCV2TL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWSLBS9B?tag=deskfinds0d-20",
     description:
       "An 8-core, 16-thread processor paired with massive 64GB DDR5 RAM, genuinely powerful for buyers whose demanding workload is bottlenecked by memory rather than raw core count.\n\nAppropriate for buyers running memory-intensive workloads like virtualization alongside multi-threaded processing needs.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$539.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51wdKUl+ERL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPC1J2L3?tag=deskfinds0d-20",
     description:
       "A genuinely powerful Ryzen 9 6900HX processor with fast 4800MT/s RAM, appropriate for buyers wanting strong multi-threaded performance at a more accessible price than the top picks.\n\n1TB PCIe 4.0 SSD gives fast storage alongside the powerful processor and RAM combination.",

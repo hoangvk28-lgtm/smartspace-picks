@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41dRSelt6aL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$999.00",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41dRSelt6aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G19ZF99R?tag=deskfinds0d-20",
     description:
       "A powerful Ryzen 9 8945HS processor paired with 32GB fast DDR5 RAM, appropriate for buyers wanting genuinely strong performance across heavy multitasking and even light gaming.\n\n1TB SSD rounds out a well-specced build with real headroom for a large file library alongside the generous RAM.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$539.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51wdKUl+ERL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPC1J2L3?tag=deskfinds0d-20",
     description:
       "Included as a strong reference point at 24GB fast 4800MT/s RAM, close to the 32GB tier while offering a more moderate price than the top pick.\n\nAppropriate for buyers wanting most of the heavy-multitasking benefit at a meaningfully lower price than a full 32GB configuration.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$599.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ydc8fgeIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FLJQW1RD?tag=deskfinds0d-20",
     description:
       "A well-balanced Ryzen 7640HS processor with 32GB DDR5 RAM at a more moderate price than the top pick, appropriate for buyers wanting genuine 32GB capacity with gaming capability alongside productivity.\n\n1TB SSD gives generous storage headroom for both a game library and general file storage.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$499.98",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41mRy1hD2yL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FW43RV3D?tag=deskfinds0d-20",
     description:
       "The most budget-friendly genuine 32GB RAM configuration in this guide, appropriate for buyers wanting the memory headroom without the premium processor pricing.\n\nDual NIC networking adds real value for buyers also using this as a home server or network-focused build alongside heavy multitasking.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$619.00",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/418Qzuae+0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSPB26NK?tag=deskfinds0d-20",
     description:
       "Explicitly positioned for business bulk orders, a genuinely capable Ryzen 7 8745HS processor appropriate for professional multitasking needs.\n\nSilent operation branding adds real value for shared office environments where noise matters alongside solid RAM-supported multitasking performance.",

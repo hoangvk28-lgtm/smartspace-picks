@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/316j7WYjfbL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$69.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/316j7WYjfbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GYMRCQ7X?tag=deskfinds0d-20",
     description:
       "A genuinely high 4K@144Hz refresh rate over DisplayPort, appropriate for buyers wanting the smoothest possible motion on their dual-monitor setup.\n\nExplicit USB 3.0 connectivity rounds out a complete KVM solution with fast peripheral switching alongside the high-refresh video.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$74.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41jfRwJIO6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXF5Z23S?tag=deskfinds0d-20",
     description:
       "A genuinely high 8K@60Hz resolution ceiling over DisplayPort across two monitors, future-proofing this switch well beyond typical current monitor needs.\n\nReliable UGREEN aluminum build gives real confidence in long-term signal handling quality.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$54.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41WJ-pVY9oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTPW6ZMN?tag=deskfinds0d-20",
     description:
       "A more budget-friendly single-monitor DisplayPort switch with the same high 8K@60Hz resolution ceiling as its dual-monitor sibling.\n\nAppropriate for buyers with a single-monitor setup wanting DisplayPort's refresh rate advantage without paying for dual-monitor support they don't need.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$92.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41r-g4mzwpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G34NJ11Y?tag=deskfinds0d-20",
     description:
       "Both HDMI and DisplayPort connectivity give real flexibility for buyers with mixed-monitor setups not standardized on DisplayPort alone.\n\n8K@60Hz support across up to three monitors makes this a strong pick for a demanding multi-display, mixed-connector setup.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$249.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41nIPKpmEQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CRDQW4GT?tag=deskfinds0d-20",
     description:
       "A premium DisplayPort-focused docking station including 6 DP cables, genuinely reducing the hassle of sourcing separate certified cables for a three-monitor setup.\n\n8K support across three monitors makes this a strong high-end pick for buyers fully committed to DisplayPort connectivity.",

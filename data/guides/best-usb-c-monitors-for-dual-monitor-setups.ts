@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41uYhQ+-HGL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$249.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41uYhQ+-HGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GD21577Z?tag=deskfinds0d-20",
     description:
       "Buying two identical units of this monitor gives a matched dual-monitor setup with consistent resolution, height, and refresh rate across both screens.\n\nThe pass-through connectivity common on this monitor class can simplify connecting a second unit without needing two dedicated laptop ports.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$229.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41DSJsc4qKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09BXXWT6K?tag=deskfinds0d-20",
     description:
       "A more budget-friendly QHD option, buying two matched units keeps a dual-monitor setup visually consistent while managing total cost.\n\nBuilt-in speakers on both units mean you can choose either monitor's audio output for video calls without extra equipment.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$229.00",
     rating: "4.6 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51+NCPHB1gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08K2NT2G7?tag=deskfinds0d-20",
     description:
       "ProArt's professional calibration matters more across a dual-monitor setup used for color-sensitive work, since consistent color across both screens avoids a jarring mismatch.\n\nA 24-inch 1080p panel also keeps a matched pair's combined footprint more compact than two larger monitors.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ye7a0oJkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHZVYNQ2?tag=deskfinds0d-20",
     description:
       "A genuinely budget-friendly 24-inch panel, buying two matched units keeps total dual-monitor cost low while still avoiding visual mismatch between screens.\n\nA surprisingly high 120Hz refresh rate on both units gives smooth motion across the full dual-monitor workspace.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$312.81",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41WGJRiwq3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1GFD44G?tag=deskfinds0d-20",
     description:
       "A true 4K panel for buyers wanting the sharpest dual-monitor setup, aware that driving two 4K panels simultaneously puts real demand on your laptop's GPU and ports.\n\n99% sRGB coverage on both matched units ensures consistent color accuracy across the full dual-monitor workspace.",

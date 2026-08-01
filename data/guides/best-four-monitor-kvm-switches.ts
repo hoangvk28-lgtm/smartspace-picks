@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41r-g4mzwpL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$92.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41r-g4mzwpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G34NJ11Y?tag=deskfinds0d-20",
     description:
       "Since a genuine dedicated four-monitor switch isn't reliably available in the current market, this three-monitor switch represents the highest monitor count we could verify with confirmed product data.\n\nFor a true fourth display, consider pairing this with your computer's own additional native output port rather than searching for a single four-monitor switch.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$229.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/414CqbIpl1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GX1D9MCB?tag=deskfinds0d-20",
     description:
       "A genuinely high 4K@120Hz refresh rate via DisplayPort across three monitors, the closest realistic option for buyers wanting maximum switched display count with smooth motion.\n\nUSB-C docking functionality adds real convenience, though a true fourth monitor still requires a separate connection.",

@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$229.00",
     rating: "4.6 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51+NCPHB1gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08K2NT2G7?tag=deskfinds0d-20",
     description:
       "Part of ASUS's ProArt professional line, built for color-accurate work with reliable USB-C connectivity, appropriate for buyers doing color-sensitive design or photo work.\n\nA 24-inch 1080p panel keeps text and UI elements sharp at typical viewing distances without needing display scaling adjustments.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$249.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41uYhQ+-HGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GD21577Z?tag=deskfinds0d-20",
     description:
       "A 27-inch QHD panel with a genuinely high 144Hz refresh rate, appropriate for buyers who want both sharp productivity resolution and smooth motion for casual gaming.\n\nDell's USB-C implementation typically includes solid power delivery, verify the exact wattage against your laptop before assuming full charge-while-display operation.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$269.66",
     rating: "4.6 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41jGkitNULL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08LCPY1TR?tag=deskfinds0d-20",
     description:
       "A larger 27-inch QHD panel from the ProArt professional line, appropriate for buyers wanting more screen real estate than the 24-inch ProArt model with the same color-accuracy focus.\n\nUSB-C connectivity with ProArt's calibration focus makes this a strong pick for color-sensitive work at a larger size.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$399.00",
     rating: "4.6 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51BiaZGDKRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BQPSX5CR?tag=deskfinds0d-20",
     description:
       "A true 4K UHD ProArt panel explicitly positioned for Mac compatibility, appropriate for buyers wanting the highest resolution in this guide alongside professional color accuracy and HDR support.\n\nThe premium price reflects the combination of 4K resolution, HDR, and ProArt calibration, verify this level of specification matches your actual work needs before buying.",

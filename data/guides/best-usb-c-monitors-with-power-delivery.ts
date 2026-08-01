@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41qiWKr6LML._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$309.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41qiWKr6LML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08KFSMGJ8?tag=deskfinds0d-20",
     description:
       "A large 34-inch curved UWQHD panel with explicit USB-C power delivery branding, appropriate for buyers wanting a big single-cable productivity setup.\n\nVerify the exact PD wattage against your laptop's charging requirement in the fine print, since curved ultrawide monitors in this class often support high but not universal wattage.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$249.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41uYhQ+-HGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GD21577Z?tag=deskfinds0d-20",
     description:
       "Dell's monitor line typically documents power delivery wattage clearly in its spec sheets, a genuine convenience when comparing against your laptop's charging needs.\n\n144Hz refresh rate at QHD resolution adds real value for buyers who also want smooth motion alongside single-cable charging.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$312.81",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41WGJRiwq3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1GFD44G?tag=deskfinds0d-20",
     description:
       "A true 4K UHD panel with a genuinely high 120Hz refresh rate, appropriate for buyers wanting the sharpest resolution in this guide alongside single-cable USB-C charging.\n\n99% sRGB coverage gives strong color accuracy for buyers who also do color-sensitive work on this display.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$229.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41DSJsc4qKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09BXXWT6K?tag=deskfinds0d-20",
     description:
       "A more budget-friendly QHD option with built-in speakers, appropriate for buyers who don't need the highest refresh rate but still want reliable single-cable power delivery.\n\nBuilt-in speakers avoid needing separate desk audio equipment, a genuine convenience for video calls.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$396.26",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41z0BPiXo6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FNQDB6JY?tag=deskfinds0d-20",
     description:
       "A genuine 34-inch curved ultrawide WQHD panel at 100Hz, appropriate for buyers wanting maximum horizontal workspace alongside single-cable USB-C power delivery.\n\nIPS panel technology gives more consistent viewing angles than a VA alternative, worth the trade-off for buyers prioritizing color consistency across the wide curve.",

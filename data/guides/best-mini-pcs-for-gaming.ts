@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41dRSelt6aL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$999.00",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41dRSelt6aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G19ZF99R?tag=deskfinds0d-20",
     description:
       "Explicitly gaming-branded with a powerful Ryzen 9 8945HS processor and strong integrated graphics, appropriate for buyers wanting the best realistic gaming performance in mini PC form.\n\n32GB DDR5 RAM and 1TB SSD round out a well-specced gaming-focused build, set expectations for 1080p esports and moderate-settings AAA gaming rather than desktop-GPU-level performance.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$1,299.00",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41OccK3d-wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLF2KYKN?tag=deskfinds0d-20",
     description:
       "A genuinely powerful Ryzen AI 9 HX 370 processor with strong integrated graphics, appropriate for buyers wanting both gaming capability and AI-accelerated productivity workloads.\n\nThe premium price reflects this dual-purpose gaming-and-AI-productivity positioning, worth it specifically if you value both use cases.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$499.98",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41mRy1hD2yL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FW43RV3D?tag=deskfinds0d-20",
     description:
       "A more budget-friendly gaming-branded mini PC with 32GB RAM, appropriate for buyers wanting solid 1080p esports performance without the premium price of top-tier gaming mini PCs.\n\nDual NIC networking adds real value for buyers also using this as a home server or network-focused build alongside gaming.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$599.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ydc8fgeIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FLJQW1RD?tag=deskfinds0d-20",
     description:
       "A well-balanced Ryzen 7640HS gaming-branded mini PC with 32GB DDR5 RAM and 1TB SSD, appropriate for buyers wanting a strong middle ground between budget and premium gaming mini PCs.\n\nFast DDR5 RAM and generous 1TB storage give real headroom for a larger game library and smooth multitasking.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$319.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41NGsh2eXOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C7437S8H?tag=deskfinds0d-20",
     description:
       "A budget-friendly 6-core, 12-thread Ryzen 5 processor appropriate for buyers wanting entry-level gaming capability alongside general productivity use.\n\nAppropriate for lighter esports titles and older games rather than demanding modern AAA releases, set expectations accordingly.",

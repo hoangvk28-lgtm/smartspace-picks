@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/312DTHCV2TL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$1,179.00",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/312DTHCV2TL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWSLBS9B?tag=deskfinds0d-20",
     description:
       "A genuine 64GB DDR5 RAM configuration paired with an 8-core, 16-thread Ryzen 7 H255 processor, appropriate for buyers running virtualization, multiple VMs, or heavy professional multitasking.\n\nCheck current reviews for sustained-load thermal performance specifically, since this level of RAM and processing power puts real demands on the compact cooling design.",

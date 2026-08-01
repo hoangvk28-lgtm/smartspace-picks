@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/3126EO7Hc7L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$769.00",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/3126EO7Hc7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHQX488K?tag=deskfinds0d-20",
     description:
       "Intel's genuine flagship Core i9-14900HX with an impressive 24-core, 32-thread configuration, competitive with top-tier AMD chips on raw multi-threaded performance.\n\n32GB RAM and 1TB storage round out a well-specced build matching this flagship processor's demanding capability, appropriate for video editing workflows that benefit from Quick Sync.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$639.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31AGwhRxIHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CS31JRLG?tag=deskfinds0d-20",
     description:
       "A genuine Intel Core i7-1185G7 with a high 4.8GHz turbo clock speed, appropriate for buyers wanting strong single-threaded performance alongside Intel's Quick Sync encoding advantage.\n\n16GB RAM and 512GB SSD give solid everyday productivity headroom.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$549.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41e4GJOrtML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D79439GH?tag=deskfinds0d-20",
     description:
       "The same capable Core i7-1185G7 processor with Intel Iris Xe integrated graphics, appropriate for buyers wanting Intel's stronger integrated graphics tier alongside solid processing power.\n\nA more budget-friendly price than the flagship pick while retaining Quick Sync video encoding benefits.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$499.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31kyLYFtmBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C96FR8YC?tag=deskfinds0d-20",
     description:
       "A budget-friendly Core i7-1185G7 configuration with a generous 1TB SSD, appropriate for buyers wanting genuine Core i7 processing power with more storage headroom at a lower price.\n\n16GB RAM covers typical everyday productivity within this chip tier's capability.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$246.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41sKXJEffSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CQ4C9ZY1?tag=deskfinds0d-20",
     description:
       "A genuine Intel Core i3 processor at the most budget-friendly price in this guide, appropriate for buyers wanting basic Intel processing capability without demanding needs.\n\n8GB RAM is on the lower side, verify this matches your actual multitasking needs before assuming it's sufficient.",

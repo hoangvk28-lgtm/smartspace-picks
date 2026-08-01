@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41EdJsfqo4L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41EdJsfqo4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H2YVL93R?tag=deskfinds0d-20",
     description:
       "A straightforward, purpose-built two-computer, one-monitor switch at a genuinely budget-friendly price, appropriate for buyers with the most common simple KVM use case.\n\n4K@60Hz support and USB 3.0 connectivity cover the essentials without any premium extras or unnecessary complexity.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$64.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41K5Wvne7oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFFCPL26?tag=deskfinds0d-20",
     description:
       "A genuinely high 8K@60Hz resolution ceiling future-proofs this two-computer switch well beyond typical current monitor needs.\n\nReliable aluminum build and UGREEN's brand reputation give real confidence in this switch's overall build quality and signal handling.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$64.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51+oSuyEu7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BWNDX4VL?tag=deskfinds0d-20",
     description:
       "Included as an option for buyers currently needing two computers but who might expand to four sources later without buying a new switch.\n\n3 USB ports give reasonable peripheral switching capability across whichever computers you actually connect.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$32.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41uSOQO2ILL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFVBK4XQ?tag=deskfinds0d-20",
     description:
       "A budget-friendly, straightforward two-computer switch with 3 USB 3.0 ports for reasonable peripheral switching capability.\n\nAppropriate for buyers wanting to test whether a KVM switch fits their two-computer workflow before investing in a pricier model.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$26.23",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ll9M3dnWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5D4FK1H?tag=deskfinds0d-20",
     description:
       "The absolute lowest price point in this guide, appropriate for buyers with a simple two-computer, one-monitor setup wanting the most affordable reliable option.\n\n4K@60Hz support and USB 3.0 connectivity cover the essentials without any premium extras.",

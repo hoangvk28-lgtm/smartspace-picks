@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41nZ0d6d6vL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$399.00",
     rating: "4.6 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51BiaZGDKRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BQPSX5CR?tag=deskfinds0d-20",
     description:
       "A true 4K UHD ProArt panel with explicit Mac compatibility focus and professional color calibration, appropriate for buyers doing color-sensitive creative work.\n\nThe premium price reflects genuine professional-grade calibration alongside 4K resolution and HDR, worth it specifically for color-critical work.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$312.81",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41WGJRiwq3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1GFD44G?tag=deskfinds0d-20",
     description:
       "A genuinely high 120Hz refresh rate at true 4K resolution, appropriate for buyers wanting both sharp detail and smooth motion, whether for creative work or casual gaming.\n\nThis combination puts real demands on your laptop's port bandwidth, verify DisplayPort 1.4 or newer support before assuming full 4K at 120Hz.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$189.98",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51jrQ-g06ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H4DCTPDL?tag=deskfinds0d-20",
     description:
       "A rare combination of true 4K resolution, touchscreen input, and a genuinely portable 15.6-inch size, appropriate for buyers wanting high-resolution detail on the go.\n\n125% sRGB coverage exceeds standard color gamut, a genuine bonus for creative work while traveling.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$244.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41grMODJbhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR2222FL?tag=deskfinds0d-20",
     description:
       "A portable true 4K panel with an exceptionally wide 145% sRGB color coverage, appropriate for buyers wanting vivid color alongside sharp resolution while traveling.\n\nIntegrated speakers avoid needing separate travel audio equipment, a genuine convenience for portable creative or media use.",

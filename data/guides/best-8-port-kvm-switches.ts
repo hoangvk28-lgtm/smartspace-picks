@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51+oSuyEu7L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$64.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51+oSuyEu7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BWNDX4VL?tag=deskfinds0d-20",
     description:
       "Since a genuine consumer-grade 8-port switch isn't reliably available in typical desk-accessory product lines, this 4-port switch represents the highest verified port count we could confirm with real product data.\n\nFor a genuine 8-computer need, consider whether an enterprise or IT-department-grade rack-mount KVM system better fits your actual use case than a desk accessory.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$139.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/5157r3C3OmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GSZCW9NF?tag=deskfinds0d-20",
     description:
       "A four-computer, dual-monitor switch representing the most complex realistic desk-focused option we could verify, appropriate for buyers with demanding but not truly enterprise-scale needs.\n\nStill caps at four computers, but adds dual-monitor synchronized switching beyond a simple single-display setup.",

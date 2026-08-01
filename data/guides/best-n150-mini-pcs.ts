@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41IjiC3RdaL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$449.90",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41IjiC3RdaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZX5DWS5?tag=deskfinds0d-20",
     description:
       "Explicitly branded as 0dB fanless, this genuinely silent operation is a real benefit alongside 16GB RAM and 512GB SSD, a generous total package well beyond the chip upgrade alone.\n\n4K dual display support adds real desk setup value appropriate for a productive everyday workstation.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$549.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/511RCdDwIEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZGRLFLQ?tag=deskfinds0d-20",
     description:
       "Windows 11 Pro included alongside a fanless N150 build with 16GB RAM and 512GB SSD, a genuinely well-rounded package for buyers wanting the OS license included.\n\nAppropriate for buyers who'd otherwise need to purchase Windows separately, adding real value to the total package price.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$449.98",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51bh0tba6dL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1KCNPQV?tag=deskfinds0d-20",
     description:
       "The same well-rounded fanless N150 package with 16GB RAM, 512GB storage, and Windows 11 Pro as the pricier alternative above, at a more moderate price point.\n\nAppropriate for buyers wanting the full package value without the premium of the highest-priced configuration.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$309.00",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41WgxeHNYYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT68M444?tag=deskfinds0d-20",
     description:
       "A genuinely generous 16GB RAM and 512GB SSD combination on an N150 chip at the most budget-friendly price in this guide.\n\nAppropriate for buyers wanting the RAM and storage benefits without paying extra for a bundled OS license or fanless branding they might not need.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$249.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41C8DZtap0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GFCMGHJT?tag=deskfinds0d-20",
     description:
       "Included as a reference point for buyers reconsidering whether the N150's modest upgrade over N95/N100 justifies the price difference for their specific use case.\n\nIf your needs are genuinely light, this N95 alternative may serve you just as well at a lower price than stepping up to N150.",

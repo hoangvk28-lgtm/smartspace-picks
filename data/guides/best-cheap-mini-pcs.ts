@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41sKXJEffSL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$246.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41sKXJEffSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CQ4C9ZY1?tag=deskfinds0d-20",
     description:
       "The lowest price in this guide while still offering a genuine Intel Core i3 processor, the trade-off here is 8GB RAM rather than a lower-tier chip.\n\nAppropriate for buyers prioritizing processor capability over RAM headroom at the absolute lowest price point.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$249.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41C8DZtap0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GFCMGHJT?tag=deskfinds0d-20",
     description:
       "A very cheap entry-level N95 processor tier, appropriate specifically for basic web browsing, streaming, or a simple home server rather than any demanding workload.\n\nBe honest with yourself about matching this cheapest tier to a genuinely light use case rather than expecting more than an entry-level chip can deliver.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$339.00",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41C5eN3lttL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DMCRSBNT?tag=deskfinds0d-20",
     description:
       "Slightly higher than the cheapest picks here, but the included Windows 11 Pro license and 16GB RAM represent a different trade-off, more upfront cost for less to configure separately.\n\nAppropriate for buyers who'd otherwise need to buy a Windows license separately, making this genuinely cheap in total cost of ownership.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$319.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41NGsh2eXOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C7437S8H?tag=deskfinds0d-20",
     description:
       "The trade-off here is a slightly higher price than the absolute cheapest picks for genuinely more processing capability via a 6-core, 12-thread Ryzen 5 chip.\n\nAppropriate for buyers who need more than basic browsing capability but still want to stay in the cheap price tier overall.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$309.00",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41WgxeHNYYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT68M444?tag=deskfinds0d-20",
     description:
       "The trade-off here is giving up the absolute lowest price for a more generous 512GB SSD and 16GB RAM combination, appropriate for buyers who need more storage than the cheapest picks offer.\n\nStill in the cheap price tier overall while avoiding the storage limitations some ultra-budget picks impose.",

@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41Du+XSAPIL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$179.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Du+XSAPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCXN5P3T?tag=deskfinds0d-20",
     description:
       "A dedicated KVM docking station pairing with any monitor of your choosing, its EDID emulation genuinely helps with seamless switching between two PCs.\n\nVerify the specific switching method, whether hotkey or button, matches your preferred daily workflow before buying.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$225.61",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31KfwfvqAqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CW2JGRN4?tag=deskfinds0d-20",
     description:
       "Explicitly built for laptop and desktop switching across dual monitors, appropriate for buyers running a hybrid setup wanting seamless KVM switching.\n\nCheck current reviews for reports on the specific switching method's day-to-day convenience for a laptop-desktop workflow specifically.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$169.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41NY0yTE9kL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DD3X51XS?tag=deskfinds0d-20",
     description:
       "A more budget-friendly docking station with 4K dual-display support and KVM switching between two laptops.\n\nVerify audio switching is included if your workflow needs headset or speaker switching alongside video and peripherals.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$233.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41e02xrYlyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP4PD3SM?tag=deskfinds0d-20",
     description:
       "A premium 4K dual-monitor KVM solution for two laptops, appropriate for buyers wanting sharp resolution alongside seamless switching between devices.\n\nHigher price reflects the combination of 4K support, dual monitor output, and KVM switching, verify this feature set matches your actual setup needs.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$55.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41BxNjK7PrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GY4R958W?tag=deskfinds0d-20",
     description:
       "A straightforward, budget-friendly single-monitor KVM switch appropriate for buyers with a simpler one-laptop-one-desktop setup who don't need dual-monitor complexity.\n\n4K@60Hz support keeps resolution sharp on the single connected monitor while keeping the switch itself simple and affordable.",

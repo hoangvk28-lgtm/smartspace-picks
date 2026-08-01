@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/419nisVPE2L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$295.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/419nisVPE2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVMKWZRP?tag=deskfinds0d-20",
     description:
       "Explicit Thunderbolt 4 support gives genuinely high bandwidth headroom for demanding three-monitor docking across two laptops, the only true Thunderbolt-branded option in this guide.\n\nDisplayLink technology adds real flexibility for buyers whose laptops don't natively support driving three external monitors via Thunderbolt bandwidth alone.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$229.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/414CqbIpl1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GX1D9MCB?tag=deskfinds0d-20",
     description:
       "A genuinely high 4K@120Hz refresh rate via DisplayPort across three monitors without requiring true Thunderbolt certification, a more accessible alternative for buyers wanting strong bandwidth.\n\nVerify this specific model's actual protocol support rather than assuming it matches Thunderbolt's full certified bandwidth.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$179.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Du+XSAPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCXN5P3T?tag=deskfinds0d-20",
     description:
       "Included as a reference point for buyers whose actual bandwidth needs don't justify Thunderbolt pricing, standard USB-C with 65W power delivery covers a two-monitor setup well.\n\nAppropriate for buyers realizing their two-monitor, moderate-refresh-rate needs don't require Thunderbolt's premium bandwidth.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$233.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41e02xrYlyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP4PD3SM?tag=deskfinds0d-20",
     description:
       "A premium 4K dual-monitor docking solution for two laptops without requiring Thunderbolt certification, appropriate for buyers wanting sharp resolution and dual-laptop switching at a lower price than true Thunderbolt.\n\nVerify this covers your actual bandwidth needs before assuming you need to step up to a Thunderbolt-certified model.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$225.61",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31KfwfvqAqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CW2JGRN4?tag=deskfinds0d-20",
     description:
       "Included as a solid alternative for buyers running a laptop-and-desktop hybrid setup whose needs don't require Thunderbolt's premium bandwidth.\n\nKVM switching capability adds genuine value for buyers who don't want to physically swap cables, without the Thunderbolt price premium.",

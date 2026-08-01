@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31KfwfvqAqL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$225.61",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31KfwfvqAqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CW2JGRN4?tag=deskfinds0d-20",
     description:
       "Explicitly built for switching between a laptop and desktop across dual monitors, its design specifically accommodates the asymmetric connection needs of each device type.\n\nKVM switching capability adds genuine value for buyers who dock and undock their laptop daily while the desktop stays permanently connected.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$179.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Du+XSAPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCXN5P3T?tag=deskfinds0d-20",
     description:
       "Explicit EDID emulation and 65W power delivery work well together for the daily dock-and-undock laptop workflow, while gigabit Ethernet benefits the permanently connected desktop.\n\nA more moderate price than the dedicated laptop-and-desktop model while still covering the core needs well.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$55.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41BxNjK7PrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GY4R958W?tag=deskfinds0d-20",
     description:
       "Explicitly labeled for 1 laptop and 1 desktop, USB-C and HDMI ports directly accommodate each device's typical connection type.\n\n4K@60Hz support keeps resolution sharp on the single connected monitor while keeping the switch itself simple and affordable.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$233.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41e02xrYlyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP4PD3SM?tag=deskfinds0d-20",
     description:
       "While marketed for two laptops, its dual-monitor 4K KVM switching also works well for a laptop-and-desktop combination given the flexible connectivity options.\n\nHigher price reflects the combination of 4K support, dual monitor output, and robust KVM switching capability.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41EdJsfqo4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H2YVL93R?tag=deskfinds0d-20",
     description:
       "A purpose-built two-source switch at a genuinely budget-friendly price, straightforward HDMI connectivity works well for a desktop's dedicated graphics output paired with a laptop's HDMI port.\n\n4K@60Hz support and USB 3.0 connectivity cover the essentials without any premium extras.",

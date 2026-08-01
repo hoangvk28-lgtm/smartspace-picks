@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$399.00",
     rating: "4.6 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51BiaZGDKRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BQPSX5CR?tag=deskfinds0d-20",
     description:
       "A true 4K UHD panel with professional calibration, appropriate for MacBook Pro users whose Thunderbolt bandwidth can fully drive 4K resolution alongside HDR.\n\nExplicit Mac focus and professional-grade color accuracy make this a strong match for MacBook Pro's typical creative professional use case.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$249.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41uYhQ+-HGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GD21577Z?tag=deskfinds0d-20",
     description:
       "A genuinely high 144Hz refresh rate, MacBook Pro's Thunderbolt bandwidth on M1 Pro/Max and later chips generally supports this refresh rate at QHD resolution.\n\nAppropriate for MacBook Pro users wanting smoother motion for creative work like video timeline scrubbing or casual gaming.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$269.66",
     rating: "4.6 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41jGkitNULL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08LCPY1TR?tag=deskfinds0d-20",
     description:
       "A QHD ProArt panel appropriate for MacBook Pro users wanting professional color calibration at a resolution comfortably within any MacBook Pro's Thunderbolt bandwidth.\n\nQHD resolution avoids any concern about bandwidth limitations even on lower-tier MacBook Pro chip variants.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$229.00",
     rating: "4.6 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51+NCPHB1gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08K2NT2G7?tag=deskfinds0d-20",
     description:
       "A more accessible ProArt panel for MacBook Pro users, standard 1080p resolution is easily driven by any MacBook Pro's Thunderbolt bandwidth without any compatibility concerns.\n\nProArt calibration credentials make this suitable for design work despite the lower resolution than the 27-inch alternatives.",

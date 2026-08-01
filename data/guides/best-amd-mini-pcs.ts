@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41OccK3d-wL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$1,299.00",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41OccK3d-wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLF2KYKN?tag=deskfinds0d-20",
     description:
       "AMD's genuinely most current Ryzen AI 9 HX 370 chip with strong integrated Radeon graphics and high AI processing capability.\n\nAppropriate for buyers wanting the strongest current-generation AMD chip alongside its characteristically strong integrated graphics performance.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$999.00",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41dRSelt6aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G19ZF99R?tag=deskfinds0d-20",
     description:
       "Ryzen 9 8945HS with genuinely strong integrated Radeon graphics, appropriate for buyers wanting AMD's characteristic graphics advantage for light gaming alongside productivity.\n\n32GB DDR5 RAM and 1TB SSD round out a well-specced AMD-powered build.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$649.00",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41HfTCupHML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2C2CDR4?tag=deskfinds0d-20",
     description:
       "A genuinely powerful Ryzen 9 7940HS processor at a more accessible price than the top AMD picks, appropriate for buyers wanting strong AMD performance without top-tier pricing.\n\nRecent 2026 edition hardware gives confidence in current-generation AMD processing capability.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$549.00",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/415bG0b3CeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DRP316J1?tag=deskfinds0d-20",
     description:
       "Explicitly upgradable DDR5 RAM alongside a genuinely capable Ryzen 7 6800H processor, appropriate for buyers wanting AMD performance with future expandability.\n\n1TB PCIe 4.0 SSD gives fast storage out of the box, a well-rounded AMD-powered build.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$319.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41NGsh2eXOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C7437S8H?tag=deskfinds0d-20",
     description:
       "A genuinely capable 6-core, 12-thread Ryzen 5 processor at a budget-friendly price, well beyond what many cheaper Celeron or Atom-based mini PCs offer.\n\nAppropriate for budget-conscious buyers wanting AMD's characteristic graphics performance without a premium price commitment.",

@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51+oSuyEu7L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$64.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51+oSuyEu7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BWNDX4VL?tag=deskfinds0d-20",
     description:
       "Purpose-built for four computers sharing one monitor, its explicit 3 USB ports give reasonable peripheral switching capability across whichever computer is active.\n\n4K@60Hz support keeps resolution sharp regardless of which of the four sources you're currently viewing.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$139.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/5157r3C3OmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GSZCW9NF?tag=deskfinds0d-20",
     description:
       "A genuinely more ambitious switch supporting four computers across two synchronized monitors, appropriate for buyers wanting more than a single shared display.\n\nHybrid USB-C docking functionality adds real convenience beyond simple video and peripheral switching for this expanded four-source setup.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41EdJsfqo4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H2YVL93R?tag=deskfinds0d-20",
     description:
       "Included as a reference point for buyers reconsidering whether they truly need four ports versus a simpler two-port switch for their most frequently used computers.\n\nIf you only actively switch between two of your four computers regularly, this simpler and cheaper option may actually suit your real workflow better.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$32.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41uSOQO2ILL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFVBK4XQ?tag=deskfinds0d-20",
     description:
       "Another two-port reference option for buyers who realize their actual daily workflow only needs two switchable sources despite owning four computers.\n\n3 USB 3.0 ports give reasonable peripheral switching capability for this simpler, more affordable alternative.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$139.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/5157r3C3OmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GSZCW9NF?tag=deskfinds0d-20",
     description:
       "Listed again here as the strongest genuine four-port, dual-monitor option in this guide for buyers with a demanding mix of laptops and desktops needing full switching capability.\n\nAppropriate for buyers whose workflow genuinely spans four active computers with a two-monitor workspace.",

@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41TB04lWCrL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$249.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41TB04lWCrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DR3YBSL4?tag=deskfinds0d-20",
     description:
       "A genuinely tight 1000R curve radius at 34 inches, appropriate for buyers sitting closer to their desk who want the curve's immersion benefit to feel meaningful rather than subtle.\n\nA very high 180Hz refresh rate adds real value for buyers who also game on this display alongside productivity use.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$379.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41oTaXgx2fL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1H325FN?tag=deskfinds0d-20",
     description:
       "A 34-inch curved WQHD panel with explicit eye comfort features, appropriate for buyers spending long hours in front of the screen for productivity work.\n\nDell's build quality and 120Hz refresh rate give a solid balance of comfort and smooth motion for extended desk sessions.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$109.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/518zREWknqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DB8HLNPN?tag=deskfinds0d-20",
     description:
       "A budget-friendly 27-inch curved panel with a genuinely high 120Hz refresh rate, appropriate for buyers testing whether curved monitors suit their setup without a premium price commitment.\n\nAt 27 inches, verify the curvature feels meaningful to you rather than assuming any curved panel delivers the same immersion benefit as a larger ultrawide.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$414.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51jbyzHVvdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BLT79X2G?tag=deskfinds0d-20",
     description:
       "A premium 34-inch curved ultrawide from Samsung's Viewfinity line, HDR10 support adds genuine contrast benefit for both productivity and media consumption.\n\nThe premium price reflects Samsung's panel quality and HDR10 support alongside the ultrawide curved format.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$449.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41hpKXhqKnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H1VFKC84?tag=deskfinds0d-20",
     description:
       "A genuinely massive 49-inch super-ultrawide effectively replacing a dual-monitor setup with one curved panel, appropriate for buyers wanting maximum horizontal workspace.\n\nA 1500R curve radius is gentler than the tightest curves in this guide, appropriate given the greater viewing distance a 49-inch panel typically requires.",

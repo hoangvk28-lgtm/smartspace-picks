@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41uYhQ+-HGL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$249.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41uYhQ+-HGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GD21577Z?tag=deskfinds0d-20",
     description:
       "Dell's business monitor line typically documents MST support clearly, a genuine convenience for buyers specifically planning a daisy-chained multi-monitor setup.\n\nVerify current specs and reviews confirm MST support specifically, since not every port labeled DisplayPort automatically means chaining capability.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$229.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41DSJsc4qKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09BXXWT6K?tag=deskfinds0d-20",
     description:
       "A more budget-friendly QHD option appropriate for buyers building a multi-monitor chain who don't need the highest refresh rate on each linked panel.\n\nSince chained bandwidth is shared, a lower per-monitor refresh rate target can actually make more sense across a multi-monitor chain.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$229.00",
     rating: "4.6 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51+NCPHB1gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08K2NT2G7?tag=deskfinds0d-20",
     description:
       "ProArt's professional calibration credentials matter for buyers chaining multiple monitors who need consistent color across every panel in the chain.\n\nA 24-inch 1080p resolution reduces per-monitor bandwidth demand, helpful when splitting available bandwidth across a chain.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ye7a0oJkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHZVYNQ2?tag=deskfinds0d-20",
     description:
       "A genuinely budget-friendly 24-inch panel for buyers wanting to test whether a daisy-chained setup suits their workflow before committing to pricier monitors.\n\nVerify MST support explicitly through the manual or manufacturer specs before buying multiple units expecting chaining to work.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$312.81",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41WGJRiwq3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1GFD44G?tag=deskfinds0d-20",
     description:
       "A true 4K panel for buyers wanting the sharpest resolution across a chained setup, aware this puts real demand on shared chain bandwidth.\n\nBe realistic that chaining multiple 4K panels at full 120Hz simultaneously is unlikely, verify actual achievable refresh rate across your intended chain length.",

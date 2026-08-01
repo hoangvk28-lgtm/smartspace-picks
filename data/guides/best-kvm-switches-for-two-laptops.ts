@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41NY0yTE9kL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$169.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41NY0yTE9kL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DD3X51XS?tag=deskfinds0d-20",
     description:
       "Explicitly built for two-laptop switching with 4K dual-display support, a budget-friendly docking station appropriate for buyers with exactly this use case.\n\nVerify both your laptops' USB-C ports support video output before assuming symmetric switching performance across both devices.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$233.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41e02xrYlyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP4PD3SM?tag=deskfinds0d-20",
     description:
       "A premium 4K dual-monitor docking solution explicitly for two laptops, appropriate for buyers wanting sharper resolution and more robust switching than budget alternatives.\n\nHigher price reflects the combination of 4K support, dual monitor output, and KVM switching, verify this feature set matches your actual setup needs.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$295.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/419nisVPE2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVMKWZRP?tag=deskfinds0d-20",
     description:
       "Thunderbolt 4 connectivity gives genuinely high bandwidth headroom for two laptops sharing up to three monitors, appropriate for buyers with Thunderbolt-capable laptops wanting maximum performance.\n\nBoth laptops need genuine Thunderbolt support to fully benefit from this switch's bandwidth capability.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$55.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41BxNjK7PrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GY4R958W?tag=deskfinds0d-20",
     description:
       "A budget-friendly single-monitor switch with USB-C and HDMI connectivity, appropriate for buyers with two laptops who only need to switch one shared monitor rather than a full dual-display setup.\n\n4K@60Hz support keeps resolution sharp on the single connected monitor while keeping the switch itself simple and affordable.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41EdJsfqo4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H2YVL93R?tag=deskfinds0d-20",
     description:
       "A purpose-built two-source switch at a genuinely budget-friendly price, appropriate for buyers with two laptops using HDMI connectivity rather than USB-C for video.\n\n4K@60Hz support and USB 3.0 connectivity cover the essentials without any premium extras or unnecessary complexity.",

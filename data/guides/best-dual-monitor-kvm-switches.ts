@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41ZrB2w7oOL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$69.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ZrB2w7oOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXF66SWR?tag=deskfinds0d-20",
     description:
       "Explicit dual-monitor support at 4K@60Hz per monitor with 4 USB 3.0 ports, appropriate for buyers wanting confirmed synchronized switching across both video and peripherals.\n\nUGREEN's reliable build quality gives real confidence this handles the combined bandwidth demand of two simultaneous 4K signals.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$92.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41r-g4mzwpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G34NJ11Y?tag=deskfinds0d-20",
     description:
       "Supports up to three monitors, genuinely covers dual-monitor needs with room to expand to a third screen later without buying a new switch.\n\nBoth HDMI and DisplayPort connectivity give real flexibility for mixed-monitor dual or triple setups.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$233.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41e02xrYlyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP4PD3SM?tag=deskfinds0d-20",
     description:
       "A premium docking-station-style solution specifically built for switching two laptops across dual monitors, appropriate for buyers wanting an all-in-one docking and switching solution.\n\nThe higher price reflects genuine docking functionality alongside the dual-monitor KVM switching capability.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$225.61",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31KfwfvqAqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CW2JGRN4?tag=deskfinds0d-20",
     description:
       "Explicitly built for switching between a laptop and desktop across dual monitors, appropriate for buyers running a hybrid setup wanting seamless synchronized switching.\n\nKVM switching capability adds genuine value for buyers who don't want to physically swap cables when switching between devices.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$139.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/5157r3C3OmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GSZCW9NF?tag=deskfinds0d-20",
     description:
       "A genuinely more ambitious switch supporting four computers across two synchronized monitors, appropriate for buyers with more than just two devices needing dual-monitor switching.\n\nHybrid USB-C docking functionality adds real convenience beyond simple video and peripheral switching.",

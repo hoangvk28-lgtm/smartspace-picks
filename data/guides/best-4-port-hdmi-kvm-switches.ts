@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51+oSuyEu7L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$64.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51+oSuyEu7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BWNDX4VL?tag=deskfinds0d-20",
     description:
       "Purpose-built for four computers sharing one monitor via HDMI, its explicit 3 USB ports give reasonable peripheral switching capability across whichever computer is active.\n\nUse certified high-speed HDMI cables across all four connections to minimize the chance of a weak link affecting your switching reliability.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$64.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41K5Wvne7oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFFCPL26?tag=deskfinds0d-20",
     description:
       "Included as a reference point for buyers wanting UGREEN's proven HDMI build quality, though this specific model supports two computers rather than four.\n\nIf your genuine need is only two active HDMI sources, this higher-resolution-ceiling switch may be a better match than a four-port model you won't fully use.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$139.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/5157r3C3OmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GSZCW9NF?tag=deskfinds0d-20",
     description:
       "A genuinely more ambitious switch supporting four computers across two synchronized monitors, appropriate for buyers wanting more than a single shared HDMI display.\n\nHybrid USB-C docking functionality adds real convenience beyond simple HDMI video and peripheral switching for this expanded setup.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41EdJsfqo4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H2YVL93R?tag=deskfinds0d-20",
     description:
       "Another budget-friendly reference option for buyers who realize their actual daily workflow only needs two switchable HDMI sources despite owning more computers.\n\n4K@60Hz support and USB 3.0 connectivity cover the essentials without any premium extras.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$32.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41uSOQO2ILL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFVBK4XQ?tag=deskfinds0d-20",
     description:
       "A budget-friendly two-port HDMI alternative with 3 USB 3.0 ports for buyers wanting more peripheral flexibility than the most basic two-port option.\n\nAppropriate for buyers whose genuine HDMI switching need tops out at two sources rather than four.",

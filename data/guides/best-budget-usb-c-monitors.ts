@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41ye7a0oJkL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ye7a0oJkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHZVYNQ2?tag=deskfinds0d-20",
     description:
       "A genuinely solid IPS panel with a surprisingly high 120Hz refresh rate, proving budget doesn't have to mean a compromised panel type or motion smoothness.\n\nVerify the specific USB-C power delivery wattage still meets your laptop's charging needs before assuming full single-cable operation.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$79.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41tqJnA68CL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK46JV64?tag=deskfinds0d-20",
     description:
       "A genuine Samsung IPS panel at a compact 22-inch size and accessible price, appropriate for buyers wanting reliable brand quality without a large spend.\n\nA tilt-only stand keeps the design simple and the price low, appropriate for buyers not needing extensive ergonomic adjustability.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$109.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/518zREWknqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DB8HLNPN?tag=deskfinds0d-20",
     description:
       "A budget-friendly curved panel with a genuinely high 120Hz refresh rate, appropriate for buyers wanting to try a curved format without a premium price commitment.\n\nAt 27 inches, verify the curvature feels meaningful to you and check the power delivery wattage against your laptop's needs.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$109.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41jwWmarZtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZ3KWC3P?tag=deskfinds0d-20",
     description:
       "A gaming-focused budget variant with a genuinely fast 1ms response time alongside 120Hz refresh rate, appropriate for buyers wanting responsive gaming performance without a premium price.\n\nThis fast response time reduces motion blur during quick on-screen movement, real value for the price point.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$229.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41DSJsc4qKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09BXXWT6K?tag=deskfinds0d-20",
     description:
       "The most premium pick in this budget guide, still meaningfully more affordable than many QHD alternatives while offering sharper resolution than the 1080p picks above.\n\nBuilt-in speakers add real value at this price point, avoiding the need for separate desk audio equipment.",

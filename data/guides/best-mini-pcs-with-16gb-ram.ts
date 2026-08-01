@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/415bG0b3CeL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$549.00",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/415bG0b3CeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DRP316J1?tag=deskfinds0d-20",
     description:
       "Explicitly upgradable 16GB DDR5 RAM alongside a genuinely capable Ryzen 7 6800H processor, giving genuine future-proofing if your needs grow beyond 16GB later.\n\n1TB PCIe 4.0 SSD gives fast storage out of the box, appropriate for buyers wanting a well-rounded 16GB mini PC without immediate upgrade needs.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$549.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/511RCdDwIEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZGRLFLQ?tag=deskfinds0d-20",
     description:
       "Explicitly fanless with Windows 11 Pro included, a genuinely well-rounded 16GB package for buyers wanting silent operation alongside the included OS license value.\n\n512GB SSD gives real headroom for everyday productivity within an efficient, quiet build.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$339.00",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41C5eN3lttL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DMCRSBNT?tag=deskfinds0d-20",
     description:
       "Windows 11 Pro included at this budget price point is genuinely good value, avoiding a separate OS license purchase for buyers who need the Pro edition.\n\n16GB RAM covers typical everyday productivity, though the 256GB SSD is smaller than some alternatives, verify this suits your storage needs.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$449.98",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51bh0tba6dL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1KCNPQV?tag=deskfinds0d-20",
     description:
       "A more moderately priced fanless 16GB option with 512GB storage and Windows 11 Pro included, appropriate for buyers wanting the well-rounded package at a somewhat lower price.\n\nFanless design gives genuinely silent operation for buyers prioritizing quiet alongside solid everyday 16GB performance.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$309.00",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41WgxeHNYYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT68M444?tag=deskfinds0d-20",
     description:
       "A genuinely generous 512GB SSD alongside the 16GB RAM configuration at a budget-friendly price, appropriate for buyers wanting more storage headroom than typical budget picks offer.\n\nAppropriate for buyers wanting the specs without paying extra for a bundled OS license they might not need.",

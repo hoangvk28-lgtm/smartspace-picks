@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$399.00",
     rating: "4.6 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51BiaZGDKRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BQPSX5CR?tag=deskfinds0d-20",
     description:
       "Explicitly positioned for Mac with professional color calibration, appropriate for Mac-based creative professionals doing color-critical design or photo work.\n\nThe premium price reflects genuine professional-grade calibration alongside true 4K resolution and HDR, worth it specifically for color-critical work on macOS's color-managed workflow.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$269.66",
     rating: "4.6 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41jGkitNULL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08LCPY1TR?tag=deskfinds0d-20",
     description:
       "A QHD ProArt panel appropriate for Mac users wanting professional color accuracy at a more moderate resolution than 4K, which can simplify macOS scaling.\n\nQHD resolution often maps more predictably to macOS's 'Looks like' scaling presets than an unusual resolution might.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$229.00",
     rating: "4.6 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51+NCPHB1gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08K2NT2G7?tag=deskfinds0d-20",
     description:
       "A more budget-friendly ProArt panel for Mac users, standard 1080p resolution at 24 inches keeps macOS scaling straightforward without needing higher-resolution adjustments.\n\nProArt calibration credentials make this suitable for design work despite the lower resolution than the 27-inch alternatives.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$249.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41uYhQ+-HGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GD21577Z?tag=deskfinds0d-20",
     description:
       "A QHD panel with a genuinely high 144Hz refresh rate, appropriate for Mac users wanting smoother motion for casual gaming or scrolling alongside general productivity work.\n\nVerify your specific Mac model and chip generation can actually drive 144Hz externally before assuming full refresh rate support.",

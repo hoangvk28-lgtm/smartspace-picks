@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41IjiC3RdaL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$449.90",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41IjiC3RdaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZX5DWS5?tag=deskfinds0d-20",
     description:
       "Explicitly branded as 0dB, genuinely completely silent operation, paired appropriately with an efficient N150 chip that generates little heat to begin with.\n\n16GB RAM and 512GB SSD give real headroom for everyday productivity within this fanless design's appropriate light-task scope.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$549.99",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/511RCdDwIEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZGRLFLQ?tag=deskfinds0d-20",
     description:
       "Explicitly fanless with Windows 11 Pro included, a genuinely well-rounded package for buyers wanting silent operation alongside the included OS license value.\n\n16GB RAM and 512GB SSD give real headroom for everyday productivity within this efficient chip's appropriate light-task scope.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$449.98",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51bh0tba6dL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1KCNPQV?tag=deskfinds0d-20",
     description:
       "The same well-rounded fanless package with 16GB RAM, 512GB storage, and Windows 11 Pro as the pricier alternative above, at a more moderate price point.\n\nAppropriate for buyers wanting genuinely silent operation and solid everyday specs without the premium of the highest-priced configuration.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$249.99",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41C8DZtap0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GFCMGHJT?tag=deskfinds0d-20",
     description:
       "An efficient N95 chip in the same low-heat-generating family commonly used for fanless designs, appropriate for buyers wanting a very budget-friendly quiet-operation-adjacent machine.\n\nVerify the specific listing's fanless or active cooling design details, since not every N95 configuration is necessarily marketed as fanless.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$309.00",
     rating: "4.3 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41K6xTLW3dL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41WgxeHNYYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT68M444?tag=deskfinds0d-20",
     description:
       "A genuinely generous 16GB RAM and 512GB SSD combination on an efficient N150 chip commonly used in low-heat, quiet-adjacent designs, at a budget-friendly price.\n\nVerify the specific listing's actual fanless versus minimal-fan cooling design before assuming completely silent operation.",
