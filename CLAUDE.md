@@ -493,6 +493,7 @@ Do not undo these:
 - **Canonical URLs** always set via `buildMetadata()` `alternates.canonical` field
 - **Security headers** set globally in `next.config.ts`: X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy, HSTS
 - **AI crawler allowlist** in `robots.ts` — GPTBot, ClaudeBot, PerplexityBot, etc. are explicitly allowed
+- **IndexNow auto-ping on publish** — `.github/workflows/indexnow.yml` runs on every push to `main` that touches `data/guides/**` or `app/(site)/guide/**`, waits 90s for the Vercel deploy to go live, then runs `node scripts/indexnow.mjs --auto` which diffs the pushed commit for new/changed guide slugs and submits them to Bing + Yandex via the IndexNow API. Current key file: `public/a7c91f60c6ae407994153f996878409e.txt` (must match the `KEY` constant in `scripts/indexnow.mjs`). To manually ping specific slugs: `node scripts/indexnow.mjs <slug1> <slug2> ...`. Do not delete the key `.txt` file from `public/` or IndexNow submissions will fail verification. `scripts/ping-indexnow.mjs` is a legacy one-off script (older key, hardcoded slug list) kept for historical reference — use `scripts/indexnow.mjs` going forward.
 - **`/admin` and `/api/` blocked** in `robots.ts`
 - **Supabase + static fallback** in sitemap — site doesn't break if DB is unreachable
 - **OG image handling** — `buildMetadata()` correctly handles both absolute Supabase URLs and relative paths
