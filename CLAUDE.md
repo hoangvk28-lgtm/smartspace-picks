@@ -142,11 +142,14 @@ buildMetadata({
 - **Never** manually append `| DeskFinds` — `buildMetadata()` appends it automatically
 - The root layout uses `template: "%s | DeskFinds"` — `buildMetadata()` uses `{ absolute: fullTitle }` to prevent double-suffix
 - Guide/review titles should be descriptive: `"Best Monitor Stands for Small Desks"` not just `"Monitor Stands"`
+- **Hard character budget — check before writing, not after:** `metaTitle` (the `data/guides/<slug>.ts` export) must be **≤48 characters**, because the site auto-appends `" | DeskFinds"` (12 chars) on render, and the combined title must stay **≤60 characters** total or it gets flagged/truncated in search results and SEO tooling. Count the actual string length — `"Best Ryzen Mini PCs, Honestly Reviewed (2026)"` is already 46 chars before the suffix, so anything with a longer product name or an added qualifier will blow the budget. Prefer a plain `"Best X in 2026"` or `"Best X, Reviewed (2026)"` pattern over `"Best X, Honestly Reviewed (2026)"` when the product name itself is long.
+- Before finalizing any `metaTitle`, run the actual string length check (`metaTitle.length + 12 <= 60`) — do not eyeball it. This was a recurring, systemic error across a prior 87-guide batch (most titles landed in the 65–80 char range) and must not recur.
 
 ### Description Rules
 - Must be unique per page — never reuse the site-level `SITE_DESCRIPTION`
-- 120–160 characters preferred
-- For guides: describe what the guide covers and who it helps
+- **Hard character budget: 120–160 characters, no exceptions.** This is not a loose preference — SEO tooling flags anything outside this range as an error. A prior 87-guide batch shipped descriptions averaging 220–260 characters (some over 300) because they packed a full "content-gap" explainer sentence into the meta description instead of writing an actual concise summary; that pattern must not recur.
+- Before finalizing any `metaDescription`, run the actual string length check (`120 <= metaDescription.length <= 160`) — do not eyeball it. If the natural sentence runs long, cut it — do not rely on the reader finishing a 250-character sentence in a search snippet that truncates around 155–160 characters anyway.
+- For guides: describe what the guide covers and who it helps, in one tight sentence — save the deeper "content-gap" advisory angle for the in-body `introParagraphs` and `buyingCriteria`, not the meta description.
 - For products: describe the product, its niche, and key differentiator
 
 ### OG Image Rules
