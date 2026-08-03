@@ -1,8 +1,8 @@
 export const guideSlug = "best-backlit-ergonomic-keyboards";
-export const guideTitle = "4 Best Backlit Ergonomic Keyboards in 2026";
+export const guideTitle = "7 Best Backlit Ergonomic Keyboards in 2026";
 export const metaTitle = "Best Backlit Ergonomic Keyboards (2026)";
 export const metaDescription =
-  "4 backlit ergonomic keyboards we evaluated honestly for who actually benefits from illuminated keys, plus battery-life and daylight-visibility tradeoffs.";
+  "7 backlit ergonomic keyboards we evaluated honestly for who actually benefits from illuminated keys, plus battery-life and daylight-visibility tradeoffs.";
 export const mainKeyword = "backlit ergonomic keyboard";
 export const introParagraphs = [
   "Backlighting has limited practical value for genuine touch typists who don't look down at the keys while typing, it mainly benefits people who glance at keys occasionally or type in low light, worth being honest about which group you're in before paying extra for illumination. On wireless models, backlighting also draws more power, meaning shorter time between charges than a non-backlit equivalent, a real tradeoff rarely disclosed alongside 'type in the dark' marketing.",
@@ -88,6 +88,57 @@ export const products: GuideProduct[] = [
     cons: ["Backlighting shortens time between charges", "Limited value for pure touch typists", "Legend visibility can wash out in bright light"],
     bestFor: "Buyers who want the ProtoArc backlit design at the lowest price of the three color variants",
   },
+  {
+    id: "colikes-backlit-rgb-budget",
+    rank: 5,
+    badge: "Best Budget RGB Backlit Pick",
+    name: "COLIKES Wireless Ergonomic Keyboard, Backlit Silent with 15 RGB modes",
+    price: "$39.99",
+    rating: "4.2 stars from Amazon ratings",
+    reviews: "132 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/4111FGMHFCL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0G6ZZ95GB?tag=deskfinds0d-20",
+    description:
+      "A wireless keyboard offering 15 RGB backlight modes at a lower price than the ProtoArc variants in this guide, appropriate for buyers who want color customization without paying premium prices. Its RGB lighting draws power over wireless just like any backlit model, shortening time between charges relative to a non-backlit equivalent.\n\nIts smaller verified review base means less long-term reliability data than the more established picks above, worth weighing against the Arteck and ProtoArc options if proven track record matters more than price.",
+    specs: ["Wireless connectivity", "15 RGB backlight modes", "Curved ergonomic layout", "Budget price point"],
+    pros: ["Lowest price among backlit picks in this guide", "15 RGB modes for color customization", "Curved ergonomic frame", "Reasonable entry point for RGB customization"],
+    cons: ["Smaller verified review base than established picks", "Backlighting shortens time between charges", "Less proven long-term reliability data"],
+    bestFor: "Budget buyers who want RGB backlight customization without paying premium prices",
+  },
+  {
+    id: "meetion-wired-backlit-budget",
+    rank: 6,
+    badge: "Best Budget Wired Backlit Pick",
+    name: "MEETION Wired Ergonomic Keyboard with Backlit Keys and Wrist Rest",
+    price: "$35.99",
+    rating: "3.4 stars from Amazon ratings",
+    reviews: "21 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41kuxYbya+L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GXKJWH2H?tag=deskfinds0d-20",
+    description:
+      "A wired backlit keyboard with an attached wrist rest, avoiding any battery-life tradeoff from illumination since it draws power directly from the USB port like the Arteck pick above. Its rating and review base are both notably lower than the other picks in this guide, worth treating as a lighter-weight signal until more buyer feedback accumulates.\n\nBuyers prioritizing proven reliability over the lowest price should compare it directly against the Arteck wired backlit pick, which has a far larger and more consistently positive review history.",
+    specs: ["Backlit keys, wired power (no battery drain)", "Attached wrist rest", "Curved ergonomic layout", "Budget price point"],
+    pros: ["No battery-life tradeoff since it's wired", "Attached wrist rest included", "Budget price point", "Simple USB plug-and-play"],
+    cons: ["Lowest rating among backlit picks in this guide", "Smallest verified review base here", "Limited value for genuine touch typists"],
+    bestFor: "Budget buyers who want a wired backlit keyboard with a wrist rest, aware of its limited review history",
+  },
+  {
+    id: "wired-rgb-led-mini-backlit",
+    rank: 7,
+    badge: "Best Compact LED Backlit Pick",
+    name: "Wired RGB Gaming Membrane Keyboard, 100 Percent Mini Creamy LED",
+    price: "$22.90",
+    rating: "4.6 stars from Amazon ratings",
+    reviews: "53 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41yeJ-XPp7L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0F66LFC8Q?tag=deskfinds0d-20",
+    description:
+      "A compact wired keyboard with LED backlighting at the lowest price in this guide, drawing power directly from the USB port so illumination carries no battery-life cost. It's a flat, standard layout rather than a curved or split ergonomic frame, so buyers specifically seeking wrist-angle relief should treat this as a budget backlit option rather than a true ergonomic pick.\n\nIts compact footprint suits a tight desk, and the high rating relative to price makes it a reasonable secondary keyboard, though it lacks the split or curved design that defines the other picks in this guide.",
+    specs: ["Backlit keys, wired power (no battery drain)", "Compact mini layout", "RGB LED backlighting", "Membrane key switches"],
+    pros: ["Lowest price in this guide", "No battery-life tradeoff since it's wired", "Compact footprint for tight desks", "High rating relative to price"],
+    cons: ["Flat layout, not curved or split for ergonomic relief", "Smaller verified review base than top picks here", "Limited value for genuine touch typists"],
+    bestFor: "Buyers who want a low-cost compact LED backlit keyboard and don't need a split or curved frame",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -117,6 +168,9 @@ export const howToChoose: HowToChooseSection[] = [
         ["Wireless backlit for occasional glancing", "ProtoArc EK01 Plus White Silver"],
         ["Full-size backlit for a dark desk aesthetic", "ProtoArc EK01 Plus Black"],
         ["Lowest price for the same backlit design", "ProtoArc EK01 Plus Gray"],
+        ["Budget RGB customization, wireless", "COLIKES Backlit RGB"],
+        ["Budget wired backlit with wrist rest", "MEETION Wired Backlit"],
+        ["Lowest overall price, compact LED", "Wired RGB LED Mini"],
       ],
     },
   },

@@ -1,8 +1,8 @@
 export const guideSlug = "best-vertical-mice-for-wrist-pain";
-export const guideTitle = "4 Best Vertical Mice for Wrist Pain in 2026";
+export const guideTitle = "8 Best Vertical Mice for Wrist Pain in 2026";
 export const metaTitle = "Best Vertical Mice for Wrist Pain 2026";
 export const metaDescription =
-  "We evaluated 4 vertical mice that reduce ulnar deviation and forearm rotation, two genuine strain patterns, with professional consultation guidance included.";
+  "We evaluated 8 vertical mice that reduce ulnar deviation and forearm rotation, two genuine strain patterns, with professional consultation guidance included.";
 export const mainKeyword = "best vertical mice for wrist pain";
 export const introParagraphs = [
   "'Wrist pain' is a broad symptom that can come from many different causes, including tendonitis, arthritis, general repetitive strain, or conditions related or unrelated to carpal tunnel syndrome. A vertical mouse does not address wrist pain generically. What it specifically targets is reduced ulnar deviation, the sideways bending of the wrist toward the pinky finger that happens with a standard mouse, along with reduced forearm rotation from resting the hand flat. These are genuine, specific strain patterns, but they are not the only possible source of wrist pain, and a vertical mouse is not guaranteed to help if your pain comes from something else.",
@@ -88,6 +88,74 @@ export const products: GuideProduct[] = [
     cons: ["Right-hand only", "AA batteries add weight", "Click force and button layout not built specifically to minimize repetitive strain"],
     bestFor: "Buyers who want a low-cost way to test whether reduced ulnar deviation eases wrist discomfort, alongside professional guidance for persistent pain.",
   },
+  {
+    id: "b00427taik-wp",
+    rank: 5,
+    badge: "Best Established Wired Pick",
+    name: "Evoluent - World's Original Vertical Mouse, Wired Ergonomic Mouse",
+    price: "$89.95",
+    rating: "4.4 stars from Amazon ratings",
+    reviews: "2,295 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31o5C5jFQAL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B00427TAIK?tag=deskfinds0d-20",
+    description:
+      "A long-established, fixed vertical angle reducing both ulnar deviation and forearm rotation, wired rather than wireless, which eliminates battery weight for a lighter feel across long work sessions.\n\nThis product does not diagnose or treat wrist pain and is not a substitute for medical evaluation. If pain is persistent or severe, consult a doctor or physical therapist.",
+    specs: ["Fixed, well-documented tilt angle", "Wired USB connection", "No battery, lighter body", "Premium price point"],
+    pros: ["Long track record reducing ulnar deviation and forearm rotation", "No battery weight, a genuine ergonomic upside", "Strong 4.4-star rating across a meaningful sample", "Consistent, fixed design"],
+    cons: ["Does not address wrist pain from causes unrelated to grip angle", "Premium price for a wired-only mouse", "No wireless option"],
+    bestFor: "Buyers who want a long-established design reducing ulnar deviation and don't need wireless, alongside professional guidance for persistent pain.",
+  },
+  {
+    id: "b0cx18lhws-wp",
+    rank: 6,
+    badge: "Best Compact Pick for Ulnar Deviation",
+    name: "ProtoArc EM11 NL Wireless Ergonomic Vertical Mouse, Rechargeable",
+    price: "$22.99",
+    rating: "4.4 stars from Amazon ratings",
+    reviews: "5,670 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31PGrLfkUxL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CX18LHWS?tag=deskfinds0d-20",
+    description:
+      "A compact, rechargeable body reducing ulnar deviation and forearm rotation at a budget-to-mid price, suited to average or smaller hands that find the premium picks oversized.\n\nAs with any vertical mouse, this addresses specific strain mechanisms rather than wrist pain broadly, and ongoing or worsening pain deserves professional evaluation.",
+    specs: ["Compact ergonomic body", "Rechargeable built-in battery", "2.4GHz wireless dongle", "Budget-to-mid price point"],
+    pros: ["Compact body suits average to smaller hands", "Rechargeable battery avoids AA bulk", "Solid review rating", "Budget-friendly for the category"],
+    cons: ["Does not address wrist pain unrelated to grip angle", "No Bluetooth option", "Smaller review base than mainstream picks"],
+    bestFor: "Buyers wanting a compact ulnar-deviation-reducing mouse as part of a broader ergonomic setup.",
+  },
+  {
+    id: "b0cmc1f5wb-wp",
+    rank: 7,
+    badge: "Best Wired Budget Pick",
+    name: "TECKNET Wired Mouse, Comfortable Ergonomic Mouse with 6400 DPI",
+    price: "$19.19",
+    rating: "4.4 stars from Amazon ratings",
+    reviews: "3,694 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31vAjZuq+pL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CMC1F5WB?tag=deskfinds0d-20",
+    description:
+      "A low-cost wired option reducing ulnar deviation through its vertical shape, with adjustable DPI and no battery weight to add to the grip, at a much lower price than the premium wired pick.\n\nAs with every pick here, this is a general consumer product, not a medical device, and does not diagnose or treat wrist pain.",
+    specs: ["Wired USB connection", "6400 DPI adjustable sensor", "Ergonomic vertical design", "Budget price point"],
+    pros: ["Low-cost way to reduce ulnar deviation", "No battery weight", "Adjustable DPI sensor", "Strong review rating for the price"],
+    cons: ["Does not address wrist pain unrelated to grip angle", "No wireless option", "Click force not independently measured"],
+    bestFor: "Budget-conscious buyers wanting a wired ulnar-deviation-reducing mouse, alongside professional guidance for persistent pain.",
+  },
+  {
+    id: "b0gnmpgm7g-wp",
+    rank: 8,
+    badge: "Best Small-Hand Pick",
+    name: "Luhaso Ergonomic Vertical Wireless Mouse, 57 degree, Small/Medium Hands",
+    price: "$19.99",
+    rating: "4.7 stars from Amazon ratings",
+    reviews: "57 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31ttLEqu0hL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GNMPGM7G?tag=deskfinds0d-20",
+    description:
+      "Explicitly sized for small to medium hands with a disclosed 57-degree tilt, relevant to buyers whose hands are smaller than the average this category is usually designed around.\n\nThe review base is small, so weigh the very strong 4.7-star rating against the limited sample size, and remember this addresses ulnar deviation and rotation specifically, not wrist pain broadly.",
+    specs: ["Explicit small/medium hand sizing", "57-degree tilt angle", "Wireless connectivity", "Budget price point"],
+    pros: ["Genuinely sized for small to medium hands", "Very strong review rating", "Budget-friendly price", "Disclosed tilt angle"],
+    cons: ["Small review sample size, verify current feedback", "Less established brand track record than premium picks", "Does not address wrist pain from unrelated causes"],
+    bestFor: "Small-handed buyers wanting a budget pick for reduced ulnar deviation, alongside professional guidance for persistent pain.",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -121,6 +189,9 @@ export const howToChoose: HowToChooseSection[] = [
         ["Natural button reach on a compact body", "Logitech Lift Vertical"],
         ["Budget option for testing the concept", "Lekvey Ergonomic Rechargeable Mouse"],
         ["Lowest-cost way to try the grip", "Anker 2.4G Wireless Ergonomic Mouse"],
+        ["Established wired design reducing ulnar deviation", "Evoluent Wired Ergonomic Mouse"],
+        ["Compact rechargeable pick for smaller hands", "ProtoArc EM11 NL Wireless"],
+        ["Small-hand-specific fit", "Luhaso Ergonomic Vertical Wireless Mouse"],
       ],
     },
   },

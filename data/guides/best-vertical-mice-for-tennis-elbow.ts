@@ -1,8 +1,8 @@
 export const guideSlug = "best-vertical-mice-for-tennis-elbow";
-export const guideTitle = "4 Best Vertical Mice for Tennis Elbow in 2026";
+export const guideTitle = "8 Best Vertical Mice for Tennis Elbow in 2026";
 export const metaTitle = "Best Vertical Mice for Tennis Elbow";
 export const metaDescription =
-  "We evaluated 4 vertical mice for forearm rotation, mouse weight, and DPI settings relevant to tennis elbow, alongside professional consultation guidance.";
+  "We evaluated 8 vertical mice for forearm rotation, mouse weight, and DPI settings relevant to tennis elbow, alongside professional consultation guidance.";
 export const mainKeyword = "best vertical mice for tennis elbow";
 export const introParagraphs = [
   "Tennis elbow, medically known as lateral epicondylitis, primarily involves strain on the forearm extensor tendons from gripping and repetitive clicking motions. A vertical mouse's main benefit, reduced forearm rotation, is a secondary and partial mitigation at best for this condition, not an address of its primary cause. We're being deliberately cautious with this wording: a vertical mouse does not treat lateral epicondylitis, and if you have persistent elbow pain, we recommend consulting a doctor or physical therapist for proper diagnosis and treatment rather than relying on a mouse purchase.",
@@ -88,6 +88,74 @@ export const products: GuideProduct[] = [
     cons: ["More moderate 4.1-star rating than other picks in this guide", "Premium price", "Click actuation force not independently measured"],
     bestFor: "Buyers wanting a specialist ergonomic design focused on forearm-neutral positioning as a secondary mitigation, alongside professional guidance for persistent pain.",
   },
+  {
+    id: "b00427taik-te",
+    rank: 5,
+    badge: "Best Established Wired Pick",
+    name: "Evoluent - World's Original Vertical Mouse, Wired Ergonomic Mouse",
+    price: "$89.95",
+    rating: "4.4 stars from Amazon ratings",
+    reviews: "2,295 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31o5C5jFQAL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B00427TAIK?tag=deskfinds0d-20",
+    description:
+      "A long-established, fixed tilt angle reducing forearm rotation as a secondary mitigation, wired rather than wireless, which eliminates battery weight for a lighter feel across long sessions.\n\nExact click actuation force in grams isn't independently stated for this product. This is not a treatment for tennis elbow, and persistent elbow pain should be evaluated by a doctor or physical therapist.",
+    specs: ["Fixed, well-documented tilt angle", "Wired USB connection", "No battery, lighter body", "Premium price point"],
+    pros: ["Long track record reducing forearm rotation", "No battery weight, a genuine ergonomic upside", "Strong 4.4-star rating across a meaningful sample", "Consistent, fixed design"],
+    cons: ["Click actuation force not independently measured", "Does not address the primary tendon-strain cause of tennis elbow", "Premium price for a wired-only mouse"],
+    bestFor: "Buyers who want a long-established forearm-rotation-reducing design and don't need wireless, alongside professional guidance for persistent pain.",
+  },
+  {
+    id: "b0cx18lhws-te",
+    rank: 6,
+    badge: "Best Compact Lighter-Feel Pick",
+    name: "ProtoArc EM11 NL Wireless Ergonomic Vertical Mouse, Rechargeable",
+    price: "$22.99",
+    rating: "4.4 stars from Amazon ratings",
+    reviews: "5,670 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31PGrLfkUxL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CX18LHWS?tag=deskfinds0d-20",
+    description:
+      "A compact, lighter-feeling rechargeable body that reduces forearm rotation at a budget-to-mid price, relevant since mouse body weight is a distinct strain factor from click force for tennis elbow.\n\nAs with any vertical mouse, treat this as a secondary, partial mitigation for tennis elbow discomfort, and consult a doctor or physical therapist if elbow pain is persistent.",
+    specs: ["Compact, lighter body", "Rechargeable built-in battery", "2.4GHz wireless dongle", "Budget-to-mid price point"],
+    pros: ["Lighter compact body may reduce grip-related strain", "Rechargeable battery avoids AA bulk", "Solid review rating", "Budget-friendly for the category"],
+    cons: ["Click actuation force not independently measured", "Does not address the primary tendon-strain cause of tennis elbow", "No Bluetooth option"],
+    bestFor: "Buyers wanting a lighter-feeling, compact mouse as part of a broader approach to elbow strain, not a standalone fix.",
+  },
+  {
+    id: "b0cmc1f5wb-te",
+    rank: 7,
+    badge: "Best Wired Budget Pick",
+    name: "TECKNET Wired Mouse, Comfortable Ergonomic Mouse with 6400 DPI",
+    price: "$19.19",
+    rating: "4.4 stars from Amazon ratings",
+    reviews: "3,694 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31vAjZuq+pL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CMC1F5WB?tag=deskfinds0d-20",
+    description:
+      "A low-cost wired option with adjustable DPI, letting you raise sensitivity to reduce forearm movement for a given cursor distance, a practical software-level mitigation at a budget price.\n\nAs with every pick here, this is a general consumer product, not a treatment for tennis elbow, and persistent elbow pain should be evaluated by a medical professional.",
+    specs: ["Wired USB connection", "6400 DPI adjustable sensor", "Ergonomic vertical design", "Budget price point"],
+    pros: ["Adjustable DPI helps limit forearm movement", "No battery weight", "Strong review rating for the price", "Low-cost way to try the mitigation"],
+    cons: ["Click actuation force not independently measured", "Does not address the primary tendon-strain cause of tennis elbow", "No wireless option"],
+    bestFor: "Budget-conscious buyers wanting adjustable DPI and a wired grip as part of a broader approach to elbow strain.",
+  },
+  {
+    id: "b0cw38n1hq-te",
+    rank: 8,
+    badge: "Best Foldable Ergonomic Alternative",
+    name: "R-Go Twister Ambidextrous Mouse, Foldable design, Ergonomic vertical",
+    price: "$108.09",
+    rating: "3.4 stars from Amazon ratings",
+    reviews: "8 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/310Sf1eVbUL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CW38N1HQ?tag=deskfinds0d-20",
+    description:
+      "A foldable ergonomic design that adjusts its vertical angle, giving buyers with tennis elbow the option to dial in a gentler or steeper tilt as symptoms change, rather than committing to one fixed angle.\n\nIts review sample is very small and the 3.4-star average is meaningfully lower than the other picks in this guide, so weigh the adjustable-angle concept carefully against that limited, more mixed feedback before buying.",
+    specs: ["Foldable, adjustable vertical angle", "Ambidextrous design", "Premium price point", "Small review sample"],
+    pros: ["Adjustable angle lets you dial in a gentler tilt as symptoms change", "Foldable design is a genuinely different approach to this niche", "Ambidextrous usability", "Distinct from fixed-angle picks in this guide"],
+    cons: ["Very small review sample and a meaningfully lower 3.4-star average", "Premium price given the mixed feedback", "Click actuation force not independently measured"],
+    bestFor: "Buyers curious about an adjustable-angle alternative who are comfortable weighing a small, more mixed review sample.",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -121,6 +189,9 @@ export const howToChoose: HowToChooseSection[] = [
         ["Lighter-feeling compact body", "Logitech Lift Vertical"],
         ["Budget option for testing the concept", "Lekvey Ergonomic Rechargeable Mouse"],
         ["Specialist ergonomic forearm-neutral design", "KINESIS DXT2 Ergonomic Vertical Mouse"],
+        ["Established wired design reducing forearm rotation", "Evoluent Wired Ergonomic Mouse"],
+        ["Compact lighter-feel body", "ProtoArc EM11 NL Wireless"],
+        ["Adjustable angle as symptoms change", "R-Go Twister Ambidextrous Mouse"],
       ],
     },
   },

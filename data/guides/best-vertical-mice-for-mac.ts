@@ -1,8 +1,8 @@
 export const guideSlug = "best-vertical-mice-for-mac";
-export const guideTitle = "4 Best Vertical Mice for Mac in 2026";
+export const guideTitle = "8 Best Vertical Mice for Mac in 2026";
 export const metaTitle = "Best Vertical Mice for Mac in 2026";
 export const metaDescription =
-  "We evaluated 4 vertical mice for macOS compatibility, checking natural scrolling setup and realistic expectations versus a Magic Mouse gesture workflow.";
+  "We evaluated 8 vertical mice for macOS compatibility, checking natural scrolling setup and realistic expectations versus a Magic Mouse gesture workflow.";
 export const mainKeyword = "best vertical mice for mac";
 export const introParagraphs = [
   "Not every vertical mouse offers seamless macOS software support out of the box. Many require manually mapping side buttons through System Settings rather than a dedicated Mac app handling it automatically, and natural scrolling direction sometimes needs adjusting separately from the mouse's own settings. We checked what each pick's macOS support actually looks like rather than assuming universal, effortless compatibility just because a mouse connects over standard Bluetooth or USB.",
@@ -88,6 +88,74 @@ export const products: GuideProduct[] = [
     cons: ["No dedicated macOS software for advanced customization", "No Bluetooth option, dongle only", "Manual scroll and button configuration needed"],
     bestFor: "Budget-conscious Mac users who want basic wireless functionality without needing deep customization software.",
   },
+  {
+    id: "b00bifntmc-mac",
+    rank: 5,
+    badge: "Best Ultra-Budget Mac Pick",
+    name: "Anker 2.4G Wireless Ergonomic Mouse, Right Hand Vertical Mouse",
+    price: "$19.98",
+    rating: "4.2 stars from Amazon ratings",
+    reviews: "53,313 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31z5JT0yL+L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B00BIFNTMC?tag=deskfinds0d-20",
+    description:
+      "A 2.4GHz dongle pairs reliably with a Mac's USB-A port for basic pointing and clicking, at the lowest price in this guide, though it has no dedicated macOS software for advanced button mapping.\n\nExpect to configure natural scrolling and any extra buttons manually, and note this is right-hand specific with no left-handed version available.",
+    specs: ["2.4GHz USB-A dongle", "No dedicated macOS companion app", "Right-hand specific design", "Budget price point"],
+    pros: ["Lowest price in this guide for Mac compatibility", "Large review base", "Simple plug-and-play pairing", "Reliable core pointing and clicking"],
+    cons: ["No dedicated macOS software for advanced customization", "Right-hand only", "AA batteries add weight versus rechargeable picks"],
+    bestFor: "Budget-conscious Mac users who want the lowest-cost way to try a vertical mouse.",
+  },
+  {
+    id: "b0dvd5rtz5-mac",
+    rank: 6,
+    badge: "Best Pick for Extra Buttons on Mac",
+    name: "Razer Pro Click V2 Vertical Wireless Mouse, 6 Button Ergonomic Design",
+    price: "$99.99",
+    rating: "4.0 stars from Amazon ratings",
+    reviews: "461 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41DVlxxe4WL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DVD5RTZ5?tag=deskfinds0d-20",
+    description:
+      "A 6-button layout gives more Mac shortcut remapping options than most picks in this guide, from a brand with cross-platform software support, though macOS-specific driver behavior should be verified on the current listing.\n\nIts smaller review base and more moderate 4.0-star rating are worth weighing against the premium price and extra button count.",
+    specs: ["6 programmable buttons", "Wireless connectivity", "Rechargeable battery", "Premium price point"],
+    pros: ["More programmable buttons for Mac shortcuts", "Rechargeable battery", "Cross-platform software support", "Ergonomic vertical body"],
+    cons: ["Smaller review base and more moderate 4.0-star rating", "Premium price relative to its rating", "macOS-specific driver behavior not independently confirmed"],
+    bestFor: "Mac users who want more programmable buttons and are comfortable with a smaller review sample.",
+  },
+  {
+    id: "b0gnmpgm7g-mac",
+    rank: 7,
+    badge: "Best Small-Hand Mac Pick",
+    name: "Luhaso Ergonomic Vertical Wireless Mouse, 57 degree, Small/Medium Hands",
+    price: "$19.99",
+    rating: "4.7 stars from Amazon ratings",
+    reviews: "57 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31ttLEqu0hL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GNMPGM7G?tag=deskfinds0d-20",
+    description:
+      "Explicitly sized for small to medium hands with a very strong review rating, though on a small sample size, and it pairs with a Mac's Bluetooth or dongle stack for basic functions without dedicated macOS software.\n\nConfirm the specific wireless method and current driver behavior on the listing before buying, since this wasn't independently verified for advanced macOS features.",
+    specs: ["Explicit small/medium hand sizing", "57-degree tilt angle", "No dedicated macOS companion app", "Budget price point"],
+    pros: ["Genuinely sized for small to medium hands", "Very strong review rating", "Budget-friendly price", "Basic Mac pairing for core functions"],
+    cons: ["Small review sample size, verify current feedback", "No dedicated macOS software for advanced mapping", "Less established brand track record than premium picks"],
+    bestFor: "Mac users with small to medium hands who want a low-cost pick for core pointing and clicking.",
+  },
+  {
+    id: "b0cmc1f5wb-mac",
+    rank: 8,
+    badge: "Best Wired Mac Pick",
+    name: "TECKNET Wired Mouse, Comfortable Ergonomic Mouse with 6400 DPI",
+    price: "$19.19",
+    rating: "4.4 stars from Amazon ratings",
+    reviews: "3,694 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31vAjZuq+pL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CMC1F5WB?tag=deskfinds0d-20",
+    description:
+      "A wired USB connection plugs directly into a Mac without any pairing steps at all, avoiding Bluetooth reconnection quirks entirely, with adjustable DPI included at a low price.\n\nIt has no dedicated macOS companion software, so expect to configure natural scrolling and any extra buttons manually through System Settings.",
+    specs: ["Wired USB connection", "6400 DPI adjustable sensor", "No dedicated macOS companion app", "Budget price point"],
+    pros: ["No pairing steps, plugs directly into a Mac's USB port", "Adjustable DPI sensor", "Avoids Bluetooth reconnection quirks entirely", "Strong review rating for the price"],
+    cons: ["No dedicated macOS software for advanced customization", "No wireless option", "Manual scroll and button configuration needed"],
+    bestFor: "Mac users who want a simple wired connection without any Bluetooth pairing steps.",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -117,6 +185,10 @@ export const howToChoose: HowToChooseSection[] = [
         ["Compact body with the same software support", "Logitech Lift Vertical"],
         ["Budget pick for basic Mac pairing", "ProtoArc EM11 NL Wireless"],
         ["Best value for core Mac functionality", "Lekvey Ergonomic Rechargeable Mouse"],
+        ["Lowest price for basic Mac compatibility", "Anker 2.4G Wireless Ergonomic Mouse"],
+        ["More programmable buttons for Mac shortcuts", "Razer Pro Click V2 Vertical"],
+        ["Small-hand-specific fit", "Luhaso Ergonomic Vertical Wireless Mouse"],
+        ["Simple wired connection, no pairing", "TECKNET Wired Ergonomic Mouse 6400 DPI"],
       ],
     },
   },

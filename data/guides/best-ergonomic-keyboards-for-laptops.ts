@@ -1,8 +1,8 @@
 export const guideSlug = "best-ergonomic-keyboards-for-laptops";
-export const guideTitle = "4 Best Ergonomic Keyboards for Laptops in 2026";
+export const guideTitle = "7 Best Ergonomic Keyboards for Laptops in 2026";
 export const metaTitle = "Best Ergonomic Keyboards for Laptops 2026";
 export const metaDescription =
-  "4 ergonomic keyboards for laptop pairing we evaluated as part of a full setup, including the stand and mouse a laptop-height mismatch actually requires.";
+  "7 ergonomic keyboards for laptop pairing we evaluated as part of a full setup, including the stand and mouse a laptop-height mismatch actually requires.";
 export const mainKeyword = "ergonomic keyboard for laptop";
 export const introParagraphs = [
   "Pairing an external ergonomic keyboard with a laptop actually raises a second problem rarely mentioned in keyboard-only marketing, the laptop's own screen sits too low once you're typing on an external keyboard at a comfortable height, which means a genuine ergonomic laptop setup usually needs a laptop stand or riser as an additional piecemeal purchase, not just the keyboard alone. This is different from a purely portability-focused pick, here the goal is a complete pairing setup rather than the smallest possible travel footprint.",
@@ -88,6 +88,57 @@ export const products: GuideProduct[] = [
     cons: ["Uses a USB-A port some ultra-thin laptops have few of", "Still requires a separate laptop stand for a complete setup", "Basic build materials at this price"],
     bestFor: "Budget-conscious laptop users with enough USB-A ports or an existing hub",
   },
+  {
+    id: "protoarc-xk03-laptop-tablet",
+    rank: 5,
+    badge: "Best Foldable Pick for Laptop and Tablet Users",
+    name: "ProtoArc XK03 Ergonomic Foldable Keyboard for iPad, iPhone, Tablet, Laptop",
+    price: "$55.99",
+    rating: "4.4 stars from Amazon ratings",
+    reviews: "489 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41Qw9A3JiYL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0D3HG7XZL?tag=deskfinds0d-20",
+    description:
+      "A foldable keyboard built for switching between a laptop and tablet devices, useful for buyers whose full setup includes both rather than a laptop alone. Its solid verified review base and cross-device compatibility make it a flexible pick for anyone who works from a laptop at a desk but also uses a tablet on the go.\n\nAs with any laptop-pairing pick, this doesn't solve the laptop-height mismatch problem on its own, budget for a laptop stand if you're setting up a genuinely complete ergonomic workstation around it.",
+    specs: ["Foldable design for iPad, iPhone, tablet, and laptop", "Solid verified review base", "Compact folded footprint", "Cross-device travel focus"],
+    pros: ["Works across laptop and tablet devices", "Strong verified review base for a portable keyboard", "Compact folded footprint for travel", "Reasonable mid-range price"],
+    cons: ["Still requires a separate laptop stand for full ergonomic benefit", "Verify true split ergonomic benefit versus folding compactness", "Case bundling should be verified on current listing"],
+    bestFor: "Laptop users who also regularly use a tablet and want one keyboard for both",
+  },
+  {
+    id: "perixx-periduo-laptop-compact",
+    rank: 6,
+    badge: "Best Compact 2-in-1 Pick for Laptop Pairing",
+    name: "Perixx PERIDUO-606II 2-in-1 Wireless Compact Ergonomic Keyboard",
+    price: "$69.99",
+    rating: "4.7 stars from Amazon ratings",
+    reviews: "21 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/3120zwwhcDL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GMQMKVKF?tag=deskfinds0d-20",
+    description:
+      "A compact 2-in-1 wireless keyboard that combines the keyboard and a built-in pointing surface, reducing the number of separate accessories needed to pair with a laptop. This can simplify a laptop setup somewhat compared to sourcing a keyboard and a separate mouse individually.\n\nIt carries the highest rating among laptop-pairing picks in this guide, though its smaller review base means less long-term data, and it still doesn't address the laptop-height mismatch that a stand solves.",
+    specs: ["Compact 2-in-1 wireless design", "Built-in pointing surface, reduces separate mouse need", "Highest rating among picks in this guide", "Rechargeable battery"],
+    pros: ["Highest rating among laptop-pairing picks here", "Combines keyboard and pointing surface in one device", "Compact footprint for a laptop-adjacent setup", "Rechargeable battery"],
+    cons: ["Smaller verified review base", "Still requires a separate laptop stand for full ergonomic benefit", "Less split ergonomic benefit than a true split keyboard"],
+    bestFor: "Laptop users who want to reduce the number of separate accessories in their setup",
+  },
+  {
+    id: "protoarc-ekm02-laptop-combo",
+    rank: 7,
+    badge: "Best Rated Combo Pick for Laptop Pairing",
+    name: "ProtoArc EKM02 Wave Keys Ergonomic Wireless Keyboard and Mouse, Black",
+    price: "$65.99",
+    rating: "4.8 stars from Amazon ratings",
+    reviews: "46 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41tPXfJxdzL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GQ95XNQX?tag=deskfinds0d-20",
+    description:
+      "A wave-style keyboard and mouse combo carrying the highest rating in this guide, providing both pieces of a laptop-pairing setup in a single purchase similar to the ProtoArc XKM03 combo above but in a one-piece wave layout instead of a fold-and-split design. Its Bluetooth connection avoids using a scarce USB-A port on an ultra-thin laptop.\n\nIts review base is still small relative to the Logitech and Perixx picks in this guide, so weigh the strong early rating against more established alternatives if proven long-term reliability matters more to you than the newest option.",
+    specs: ["Bluetooth wireless keyboard and mouse combo", "Wave ergonomic frame", "No USB-A port used", "Highest rating among picks in this guide"],
+    pros: ["Highest rating among laptop-pairing picks here", "Matched keyboard and mouse in one purchase", "Bluetooth avoids using a scarce USB-A port", "Wireless, no cable clutter"],
+    cons: ["Smaller verified review base than established picks", "Still requires a separate laptop stand for full ergonomic benefit", "Less proven long-term track record"],
+    bestFor: "Laptop users who want a highly rated wave-style keyboard and mouse combo over Bluetooth",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -117,6 +168,9 @@ export const howToChoose: HowToChooseSection[] = [
         ["True split ergonomic benefit, single port used", "Arteck Split Ergonomic 2.4G"],
         ["Keyboard and mouse together in one purchase", "ProtoArc XKM03 Foldable Combo"],
         ["Lowest-cost true split, wired", "Perixx PERIBOARD-512B"],
+        ["Works across laptop and tablet", "ProtoArc XK03 Foldable"],
+        ["Fewer separate accessories needed", "Perixx PERIDUO-606II Compact"],
+        ["Highest-rated combo option", "ProtoArc EKM02 Wave Combo"],
       ],
     },
   },

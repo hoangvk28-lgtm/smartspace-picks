@@ -1,8 +1,8 @@
 export const guideSlug = "best-vertical-mice-for-laptops";
-export const guideTitle = "4 Best Vertical Mice for Laptops in 2026";
+export const guideTitle = "8 Best Vertical Mice for Laptops in 2026";
 export const metaTitle = "Best Vertical Mice for Laptops 2026";
 export const metaDescription =
-  "We evaluated 4 vertical mice for laptop use, weighing bulk versus portability, dongle storage, battery life on the go, and USB-C compatibility gaps.";
+  "We evaluated 8 vertical mice for laptop use, weighing bulk versus portability, dongle storage, battery life on the go, and USB-C compatibility gaps.";
 export const mainKeyword = "best vertical mice for laptops";
 export const introParagraphs = [
   "There's a real tension between what makes a vertical mouse ergonomically effective and what a laptop user typically prioritizes: portability. A genuinely comfortable ergonomic angle usually comes with a bulkier body than most laptop users want to carry around, so this guide is honest about that tradeoff rather than pretending you can have maximum ergonomic benefit and minimum bulk at the same time. We also checked dongle storage availability specifically for laptop use, since a loose USB receiver is easy to lose when you're packing up and moving locations regularly.",
@@ -88,6 +88,74 @@ export const products: GuideProduct[] = [
     cons: ["USB-A only, needs an adapter for USB-C-only laptops", "Confirm dongle storage for frequent travel use", "Battery life under mobile power-cycling not independently verified"],
     bestFor: "Budget-conscious laptop users who want a smaller, rechargeable option for frequent travel.",
   },
+  {
+    id: "b0gnmpgm7g-lap",
+    rank: 5,
+    badge: "Best Small-Hand Laptop Pick",
+    name: "Luhaso Ergonomic Vertical Wireless Mouse, 57 degree, Small/Medium Hands",
+    price: "$19.99",
+    rating: "4.7 stars from Amazon ratings",
+    reviews: "57 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31ttLEqu0hL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GNMPGM7G?tag=deskfinds0d-20",
+    description:
+      "Explicitly sized for small to medium hands, which pairs well with the general portability priorities of laptop users, at a very strong review rating though on a small sample size.\n\nConfirm the specific wireless method and dongle storage on the current listing before relying on this for frequent travel between locations.",
+    specs: ["Explicit small/medium hand sizing", "57-degree tilt angle", "Wireless connectivity", "Budget price point"],
+    pros: ["Genuinely sized for small to medium hands", "Very strong review rating", "Budget-friendly price", "Reasonably compact for a laptop bag"],
+    cons: ["Small review sample size, verify current feedback", "Dongle storage should be confirmed for travel", "Less established brand track record than premium picks"],
+    bestFor: "Laptop users with small to medium hands who want a low-cost, appropriately sized pick.",
+  },
+  {
+    id: "b0cmc1f5wb-lap",
+    rank: 6,
+    badge: "Best Wired Laptop Pick",
+    name: "TECKNET Wired Mouse, Comfortable Ergonomic Mouse with 6400 DPI",
+    price: "$19.19",
+    rating: "4.4 stars from Amazon ratings",
+    reviews: "3,694 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31vAjZuq+pL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CMC1F5WB?tag=deskfinds0d-20",
+    description:
+      "A wired option that plugs directly into a laptop's USB-A port, avoiding any wireless pairing or dongle-loss risk entirely, with adjustable DPI included at a low price.\n\nA wired mouse means one more cable to manage while traveling, which is a real tradeoff against the freedom of a wireless dongle or Bluetooth pick, so weigh this against your specific travel habits.",
+    specs: ["Wired USB-A connection", "6400 DPI adjustable sensor", "No dongle to lose", "Budget price point"],
+    pros: ["No dongle to lose during travel", "Adjustable DPI sensor", "Strong review rating for the price", "No battery weight"],
+    cons: ["Cable adds one more item to manage while traveling", "USB-A only, needs an adapter for USB-C-only laptops", "No wireless freedom of movement"],
+    bestFor: "Laptop users who prefer a simple wired connection with zero pairing steps or dongle-loss risk.",
+  },
+  {
+    id: "b00fpavuhc-lap",
+    rank: 7,
+    badge: "Best Wired Value Pick",
+    name: "Anker USB Wired Vertical Mouse, Ergonomic Mouse for Computer and Laptop",
+    price: "$25.99",
+    rating: "4.4 stars from Amazon ratings",
+    reviews: "9,039 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41h3oxMYtPL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B00FPAVUHC?tag=deskfinds0d-20",
+    description:
+      "A large review base for a wired mouse marketed explicitly for both computer and laptop use, with no battery weight or dongle to keep track of while traveling.\n\nAs with any wired pick, factor in the cable itself as one more item to manage in your bag, and confirm USB-C adapter needs if your laptop lacks a USB-A port.",
+    specs: ["Wired USB connection", "Marketed for computer and laptop use", "No battery, lighter body", "Mid-range price point"],
+    pros: ["Large review base backing laptop and desktop use", "No battery weight or dongle to lose", "Mid-range price", "Works across desktop and laptop USB-A ports"],
+    cons: ["USB-A only, needs an adapter for USB-C-only laptops", "Cable adds one more item to manage while traveling", "No wireless option"],
+    bestFor: "Laptop users who want a well-reviewed wired mouse without worrying about a dongle or battery.",
+  },
+  {
+    id: "b0f9pdryzk-lap",
+    rank: 8,
+    badge: "Best Crossover Pick for Gaming on a Laptop",
+    name: "Attoe Gaming Mouse with 5D Rocker, Wireless Vertical Mouse with 2400 DPI",
+    price: "$35.99",
+    rating: "4.4 stars from Amazon ratings",
+    reviews: "116 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41XVdqDE3aL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0F9PDRYZK?tag=deskfinds0d-20",
+    description:
+      "A wireless vertical mouse with a 2400 DPI sensor and a 5D rocker button, useful for laptop users who want one mouse that reasonably covers both work tasks and casual gaming while traveling.\n\nIts review sample is small, so verify current buyer feedback on wireless connection stability and dongle storage before relying on it for frequent travel.",
+    specs: ["2400 DPI sensor", "5D rocker button", "Wireless connectivity", "Small review sample"],
+    pros: ["Works for both laptop office tasks and casual gaming", "5D rocker button adds a genuinely extra input", "Budget-friendly for the feature set", "Wireless connectivity"],
+    cons: ["Small review sample size, verify current feedback", "2400 DPI ceiling is modest compared to dedicated gaming mice", "Dongle storage not independently confirmed"],
+    bestFor: "Laptop users who want one wireless mouse for both office work and occasional casual gaming.",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -121,6 +189,10 @@ export const howToChoose: HowToChooseSection[] = [
         ["Most compact body for mobile use", "Logitech Lift Vertical"],
         ["Rechargeable value pick", "Lekvey Ergonomic Rechargeable Mouse"],
         ["Compact rechargeable budget pick", "ProtoArc EM11 NL Wireless"],
+        ["Small-hand-specific laptop fit", "Luhaso Ergonomic Vertical Wireless Mouse"],
+        ["No dongle to lose, simple wired connection", "TECKNET Wired Ergonomic Mouse 6400 DPI"],
+        ["Well-reviewed wired pick for laptop and desktop", "Anker USB Wired Vertical Mouse"],
+        ["One mouse for laptop work and casual gaming", "Attoe Gaming Mouse with 5D Rocker"],
       ],
     },
   },

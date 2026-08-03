@@ -1,8 +1,8 @@
 export const guideSlug = "best-compact-vertical-mice-for-travel";
-export const guideTitle = "4 Best Compact Vertical Mice for Travel in 2026";
+export const guideTitle = "6 Best Compact Vertical Mice for Travel in 2026";
 export const metaTitle = "Best Compact Vertical Mice for Travel";
 export const metaDescription =
-  "We evaluated 4 compact vertical mice for travel, being honest that a smaller body may offer less ergonomic benefit than a full-size vertical mouse.";
+  "We evaluated 6 compact vertical mice for travel, being honest that a smaller body may offer less ergonomic benefit than a full-size vertical mouse.";
 export const mainKeyword = "best compact vertical mice for travel";
 export const introParagraphs = [
   "There's an unavoidable design tension in this category worth naming directly: compactness reduces the very body size and angle that makes a vertical mouse ergonomically effective in the first place. A 'compact vertical mouse' may genuinely offer less ergonomic benefit than a full-size one, since a smaller body often means a shallower tilt and less room for your hand to rest naturally. We're honest here that this is a real compromise, not a solved problem, and picked products that manage that tradeoff reasonably rather than claiming a compact design with no downside.",
@@ -88,6 +88,40 @@ export const products: GuideProduct[] = [
     cons: ["Not purpose-built or marketed specifically for travel durability", "Confirm dongle storage before frequent travel use", "Bulkier than the dedicated folding or sliding travel picks"],
     bestFor: "Buyers who want more ergonomic angle than a dedicated travel mouse offers and only travel occasionally.",
   },
+  {
+    id: "b0gnmpgm7g-tr",
+    rank: 5,
+    badge: "Best Small-Hand Travel Pick",
+    name: "Luhaso Ergonomic Vertical Wireless Mouse, 57 degree, Small/Medium Hands",
+    price: "$19.99",
+    rating: "4.7 stars from Amazon ratings",
+    reviews: "57 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31ttLEqu0hL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GNMPGM7G?tag=deskfinds0d-20",
+    description:
+      "Explicitly sized for small to medium hands, which naturally overlaps with the compact footprint travelers want, at a very strong review rating though on a small sample size.\n\nIt isn't purpose-built or marketed as a travel mouse specifically, so confirm dongle storage and current charging cable type on the listing before relying on this for frequent packing.",
+    specs: ["Explicit small/medium hand sizing", "57-degree tilt angle", "Wireless connectivity", "Budget price point"],
+    pros: ["Genuinely sized for small to medium hands, naturally compact", "Very strong review rating", "Budget-friendly price", "Disclosed tilt angle"],
+    cons: ["Small review sample size, verify current feedback", "Not purpose-built or marketed specifically for travel durability", "Dongle storage should be confirmed for frequent packing"],
+    bestFor: "Travelers with small to medium hands who want a compact, budget-friendly pick.",
+  },
+  {
+    id: "b0f4jns3px-tr",
+    rank: 6,
+    badge: "Best Ultra-Budget Compact Pick",
+    name: "KUNSI Wired Ergonomic Mouse, USB Wired Vertical Mouse with adjustable DPI",
+    price: "$9.99",
+    rating: "4.1 stars from Amazon ratings",
+    reviews: "181 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41VQ8m4r1iL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0F4JNS3PX?tag=deskfinds0d-20",
+    description:
+      "The lowest price in this guide, a wired compact mouse with adjustable DPI, useful for travelers who don't mind packing a cable in exchange for zero dongle-loss risk and no charging to manage.\n\nIts 4.1-star rating is more moderate than the other picks here, and being wired rather than wireless is a real tradeoff against the freedom the other picks in this guide offer.",
+    specs: ["Wired USB connection", "Adjustable DPI", "Compact ergonomic body", "Ultra-budget price point"],
+    pros: ["Lowest price in this guide", "No dongle to lose or battery to charge while traveling", "Adjustable DPI even at this price tier", "Compact body"],
+    cons: ["More moderate 4.1-star rating than other picks", "Wired only, no wireless freedom of movement", "Smaller review sample size"],
+    bestFor: "Budget-conscious travelers who don't mind a cable in exchange for zero dongle-loss risk.",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -117,6 +151,8 @@ export const howToChoose: HowToChooseSection[] = [
         ["Lowest price and maximum bag-space savings", "TECKNET Folding Wireless Mouse"],
         ["Expandable pocket-to-full-size design", "DELUX Wireless Bluetooth Pocket Mouse"],
         ["More ergonomic angle for occasional travel", "ProtoArc EM11 NL Wireless"],
+        ["Small-hand-specific compact fit", "Luhaso Ergonomic Vertical Wireless Mouse"],
+        ["Cheapest way to travel with zero dongle risk", "KUNSI Wired Ergonomic Mouse"],
       ],
     },
   },

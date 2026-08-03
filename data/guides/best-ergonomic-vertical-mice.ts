@@ -1,8 +1,8 @@
 export const guideSlug = "best-ergonomic-vertical-mice";
-export const guideTitle = "4 Best Ergonomic Vertical Mice in 2026";
+export const guideTitle = "8 Best Ergonomic Vertical Mice in 2026";
 export const metaTitle = "Best Ergonomic Vertical Mice 2026";
 export const metaDescription =
-  "We checked which vertical mice back up the ergonomic label with real measurable features like angle and button placement, not just marketing claims.";
+  "We checked which of 8 vertical mice back up the ergonomic label with measurable features like disclosed angle and button placement, not marketing claims.";
 export const mainKeyword = "best ergonomic vertical mice";
 export const introParagraphs = [
   "The word 'ergonomic' has no certification or regulated standard behind it, so any mouse can carry the label regardless of actual design quality. What matters is whether specific, measurable features back up the claim: a disclosed tilt angle, more than one size option, and a button layout that lets your thumb rest naturally rather than reach. This guide holds each pick to that higher bar rather than accepting the label at face value.",
@@ -88,6 +88,74 @@ export const products: GuideProduct[] = [
     cons: ["Right-hand only", "AA battery adds bulk versus rechargeable picks", "No size options or shaped thumb rest"],
     bestFor: "Buyers who want to confirm the ergonomic vertical grip works for them before spending more.",
   },
+  {
+    id: "b00427taik-erg",
+    rank: 5,
+    badge: "Best Established Ergonomic Wired Design",
+    name: "Evoluent - World's Original Vertical Mouse, Wired Ergonomic Mouse",
+    price: "$89.95",
+    rating: "4.4 stars from Amazon ratings",
+    reviews: "2,295 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31o5C5jFQAL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B00427TAIK?tag=deskfinds0d-20",
+    description:
+      "One of the longest-running ergonomic designs in the category, with a fixed, well-documented tilt angle that has years of buyer feedback behind it rather than a newer, unproven claim.\n\nGoing wired eliminates battery weight entirely, a genuine ergonomic upside some buyers find meaningfully changes the feel of an already unusual grip angle, though it means giving up wireless freedom.",
+    specs: ["Fixed, well-documented tilt angle", "Wired USB connection", "No battery, lighter body", "Premium price point"],
+    pros: ["Long track record of disclosed angle and design feedback", "No battery weight, a genuine ergonomic upside", "Strong 4.4-star rating across a meaningful sample", "Consistent, fixed design"],
+    cons: ["Premium price for a wired-only mouse", "No wireless option", "Angle is fixed, no size or angle variants offered"],
+    bestFor: "Buyers who want a long-established ergonomic design with real disclosed specs and don't need wireless.",
+  },
+  {
+    id: "b0cx18lhws-erg",
+    rank: 6,
+    badge: "Best Compact Ergonomic Value Pick",
+    name: "ProtoArc EM11 NL Wireless Ergonomic Vertical Mouse, Rechargeable",
+    price: "$22.99",
+    rating: "4.4 stars from Amazon ratings",
+    reviews: "5,670 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31PGrLfkUxL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CX18LHWS?tag=deskfinds0d-20",
+    description:
+      "A genuinely compact ergonomic body at a budget-to-mid price, with a rechargeable battery that avoids the weight and bulk of AA cells found in some entry-level ergonomic picks.\n\nIt lacks the precisely disclosed angle specs of the premium picks in this guide, so treat it as a solid general ergonomic option rather than one engineered around a specific measurable tilt.",
+    specs: ["Compact ergonomic body", "Rechargeable built-in battery", "2.4GHz wireless dongle", "Budget-to-mid price point"],
+    pros: ["Rechargeable battery avoids AA bulk", "Compact body suits average to smaller hands", "Solid review rating", "Budget-friendly for the ergonomic category"],
+    cons: ["Less precisely disclosed angle specs than premium picks", "No Bluetooth option", "Smaller review base than mainstream picks"],
+    bestFor: "Buyers who want a compact, rechargeable ergonomic mouse without paying premium pricing.",
+  },
+  {
+    id: "b00fpavuhc-erg",
+    rank: 7,
+    badge: "Best Wired Ergonomic Value Pick",
+    name: "Anker USB Wired Vertical Mouse, Ergonomic Mouse for Computer and Laptop",
+    price: "$25.99",
+    rating: "4.4 stars from Amazon ratings",
+    reviews: "9,039 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41h3oxMYtPL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B00FPAVUHC?tag=deskfinds0d-20",
+    description:
+      "A large review base backing its ergonomic design at a mid-range price, with no battery weight since it's wired, which some buyers find genuinely improves the feel of the grip angle.\n\nIt lacks the size options or dual connectivity of the premium picks, so treat this as a straightforward ergonomic mouse rather than one built around configurability.",
+    specs: ["Wired USB connection", "Ergonomic vertical design", "No battery, lighter body", "Mid-range price point"],
+    pros: ["Large review base backing the ergonomic design", "No battery weight", "Mid-range price between budget and premium picks", "Works across desktop and laptop ports"],
+    cons: ["No wireless option", "No size variants offered", "Fewer programmable buttons than premium picks"],
+    bestFor: "Buyers who want a well-reviewed, straightforward ergonomic mouse without configurability extras.",
+  },
+  {
+    id: "b0cmc1f5wb-erg",
+    rank: 8,
+    badge: "Best Budget Wired Ergonomic Pick",
+    name: "TECKNET Wired Mouse, Comfortable Ergonomic Mouse with 6400 DPI",
+    price: "$19.19",
+    rating: "4.4 stars from Amazon ratings",
+    reviews: "3,694 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31vAjZuq+pL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CMC1F5WB?tag=deskfinds0d-20",
+    description:
+      "The lowest price in this guide for an ergonomic mouse, with an adjustable DPI sensor and a strong review rating despite the budget positioning, no battery weight since it's wired.\n\nIt lacks the disclosed precision angle specs of the premium picks, so treat it as a solid entry-level ergonomic option rather than one engineered around a specific measurable tilt.",
+    specs: ["Wired USB connection", "6400 DPI adjustable sensor", "Ergonomic vertical design", "Budget price point"],
+    pros: ["Lowest price in this guide", "Adjustable DPI sensor", "No battery weight", "Strong review rating for the price"],
+    cons: ["Less precisely disclosed angle specs than premium picks", "No wireless option", "Fewer established years on the market than the Evoluent design"],
+    bestFor: "Budget-conscious buyers who want the lowest-cost entry point into this ergonomic category.",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -121,6 +189,10 @@ export const howToChoose: HowToChooseSection[] = [
         ["Ergonomic fit for smaller hands", "Logitech Lift Vertical"],
         ["Best value ergonomic pick", "Lekvey Ergonomic Rechargeable Mouse"],
         ["Lowest-cost way to test the ergonomic grip", "Anker 2.4G Wireless Ergonomic Mouse"],
+        ["Long-established design with real disclosed specs", "Evoluent Wired Ergonomic Mouse"],
+        ["Compact rechargeable ergonomic value", "ProtoArc EM11 NL Wireless"],
+        ["Straightforward wired ergonomic pick", "Anker USB Wired Vertical Mouse"],
+        ["Lowest price entry point", "TECKNET Wired Ergonomic Mouse 6400 DPI"],
       ],
     },
   },

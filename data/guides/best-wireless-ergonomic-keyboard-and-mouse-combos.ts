@@ -1,8 +1,8 @@
 export const guideSlug = "best-wireless-ergonomic-keyboard-and-mouse-combos";
-export const guideTitle = "5 Best Wireless Ergonomic Keyboard and Mouse Combos in 2026";
+export const guideTitle = "8 Best Wireless Ergonomic Keyboard and Mouse Combos in 2026";
 export const metaTitle = "Wireless Ergonomic Keyboard & Mouse Combos";
 export const metaDescription =
-  "5 wireless ergonomic keyboard and mouse combos we evaluated for single-dongle versus dual-dongle architecture, the real differentiator competitors skip.";
+  "8 wireless ergonomic keyboard and mouse combos we evaluated for single-dongle versus dual-dongle architecture, the real differentiator competitors skip.";
 export const mainKeyword = "wireless ergonomic keyboard and mouse combo";
 export const introParagraphs = [
   "The wireless architecture behind a keyboard and mouse combo matters more than most listings make clear, a genuine single unifying dongle serving both devices saves a USB port and reduces interference compared to a combo that actually ships with two separate dongles despite unified 'combo' marketing. Worth checking the current listing specifically for this distinction before assuming any combo uses one shared connection.",
@@ -105,6 +105,57 @@ export const products: GuideProduct[] = [
     cons: ["More moderate rating than other picks here", "Verify single-dongle architecture, split keyboards may need separate pairing", "Longer combined adjustment period for both devices"],
     bestFor: "Buyers wanting a genuinely split keyboard paired with a vertical mouse, accepting a longer adjustment period",
   },
+  {
+    id: "sablute-rechargeable-combo",
+    rank: 6,
+    badge: "Best Rechargeable Wireless Combo",
+    name: "SABLUTE Ergonomic Wireless Keyboard and Mouse Combo, Rechargeable",
+    price: "$51.99",
+    rating: "4.3 stars from Amazon ratings",
+    reviews: "368 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/51sxkeGyuJL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0FJWMGFF5?tag=deskfinds0d-20",
+    description:
+      "A rechargeable wireless combo that avoids disposable battery waste entirely, a distinct maintenance approach compared to the other combos in this guide which may use replaceable batteries. Verify the current listing for single-dongle versus dual-dongle wireless architecture before assuming a unified connection based on the combo packaging alone.\n\nRechargeable batteries mean checking the charge cycle timing between the keyboard and mouse specifically, since a rechargeable design shifts the battery maintenance question from replacement cost to charging frequency and cable access.",
+    specs: ["Rechargeable keyboard and mouse combo", "Verify single vs dual dongle on current listing", "Matched ergonomic design", "Mid-range price point"],
+    pros: ["Rechargeable, no disposable battery waste", "Matched ergonomic keyboard and mouse design", "Solid rating", "Mid-range price"],
+    cons: ["Verify single-dongle architecture before assuming it", "Verify charging cycle timing between devices", "Smaller review base than the ProtoArc EKM01 Plus"],
+    bestFor: "Buyers who want a rechargeable combo to avoid disposable battery waste",
+  },
+  {
+    id: "sablute-ma41-quiet-combo-2",
+    rank: 7,
+    badge: "Best Quiet Wireless Combo",
+    name: "SABLUTE MA41 Wireless Keyboard and Mouse Combo, 30dB Quiet Ergonomic",
+    price: "$39.99",
+    rating: "4.3 stars from Amazon ratings",
+    reviews: "924 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41E+F4HE3IL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0FJQVD15L?tag=deskfinds0d-20",
+    description:
+      "This combo advertises a specific quiet decibel rating on both the keyboard and mouse, appropriate for buyers wanting matched quiet peripherals for shared spaces or video calls rather than a single quiet device paired with a clicky counterpart. Treat the specific decibel figure as manufacturer-stated rather than independently verified, and check current buyer feedback for confirmation.\n\nAs with any combo, verify the current listing for single-dongle versus dual-dongle wireless architecture, and check battery replacement scheduling if you rely on both devices daily without backups.",
+    specs: ["Manufacturer-stated quiet rating", "Keyboard and mouse combo", "Verify single vs dual dongle on current listing", "Budget price point"],
+    pros: ["Lowest price among combos in this guide", "Matched quiet keyboard and mouse", "Solid review base", "Wireless, no cable clutter"],
+    cons: ["Manufacturer decibel claim not independently verified", "Verify single-dongle architecture before assuming it", "Verify battery replacement scheduling in buyer feedback"],
+    bestFor: "Buyers wanting a matched quiet keyboard and mouse combo at the lowest price in this guide",
+  },
+  {
+    id: "wireless-combo-wave-black-6",
+    rank: 8,
+    badge: "Best High-Volume Reviewed Wireless Combo",
+    name: "Wireless Keyboard and Mouse Combo, 2.4G Ergonomic Wave Keys, Black",
+    price: "$34.97",
+    rating: "4.2 stars from Amazon ratings",
+    reviews: "2,121 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41PN1jDkweL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DX791FXY?tag=deskfinds0d-20",
+    description:
+      "A budget wave-shaped combo carrying the largest verified review base of any combo in this guide despite its low price, connecting over a 2.4G receiver rather than Bluetooth. As with any 2.4G combo, verify the current listing for whether the keyboard and mouse share one receiver or require two separate ones, since 2.4G combos aren't automatically single-dongle by design.\n\nIts strong review volume at a low price makes it a reasonable entry point, though its one-piece wave shape offers less ergonomic benefit than the genuinely split MEETION combo above.",
+    specs: ["Wave-shaped ergonomic keyboard and mouse combo", "2.4G wireless connectivity", "Largest verified review base in this guide", "Lowest price in this guide"],
+    pros: ["Largest verified review base among these combos", "Lowest price in this guide", "2.4G connection stable for sustained use", "Solid rating for the price"],
+    cons: ["Verify single-dongle architecture before assuming it", "Less ergonomic benefit than a genuinely split combo", "Basic build materials at this price"],
+    bestFor: "Budget-conscious buyers wanting the most reviewed low-cost wireless combo in this guide",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -135,6 +186,9 @@ export const howToChoose: HowToChooseSection[] = [
         ["Most reviewed budget combo", "ProtoArc EKM01 Plus Combo"],
         ["Highest rated, smaller sample size", "ProtoArc EKM02 Wave Keys Combo"],
         ["Genuinely split keyboard with vertical mouse", "MEETION Split Design Combo"],
+        ["Rechargeable, no disposable batteries", "SABLUTE Rechargeable Combo"],
+        ["Matched quiet keyboard and mouse", "SABLUTE MA41 Quiet Combo"],
+        ["Most reviewed, lowest price overall", "Wireless Combo Wave Keys Black"],
       ],
     },
   },

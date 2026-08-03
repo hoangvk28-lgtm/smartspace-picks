@@ -1,8 +1,8 @@
 export const guideSlug = "best-ergonomic-keyboards-for-wrist-pain";
-export const guideTitle = "4 Best Ergonomic Keyboards for Wrist Pain in 2026";
+export const guideTitle = "8 Best Ergonomic Keyboards for Wrist Pain in 2026";
 export const metaTitle = "Best Ergonomic Keyboards for Wrist Pain";
 export const metaDescription =
-  "4 ergonomic keyboards we evaluated for wrist pain relevant to positioning and wrist rest use. Not medical treatment, see a doctor for diagnosis or symptoms.";
+  "8 ergonomic keyboards we evaluated for wrist pain relevant to positioning and wrist rest use. Not medical treatment, see a doctor for diagnosis or symptoms.";
 export const mainKeyword = "ergonomic keyboard for wrist pain";
 export const introParagraphs = [
   "Wrist pain is a broader category than carpal tunnel syndrome specifically, it can come from tendon strain, poor posture, overuse, or several other causes, so please see a doctor for a proper diagnosis if pain persists rather than assuming a new keyboard alone will resolve it. An ergonomic keyboard can support a more neutral wrist position, but it is not medical treatment, and this guide is not a substitute for professional evaluation.",
@@ -88,6 +88,74 @@ export const products: GuideProduct[] = [
     cons: ["Fixed split angle, not tenting-adjustable", "Not a treatment for wrist pain", "Windows-focused compatibility"],
     bestFor: "Buyers who want a stable wireless split keyboard alongside a properly used wrist rest",
   },
+  {
+    id: "arteck-split-wired-backlit-wristpain",
+    rank: 5,
+    badge: "Best Backlit Split Pick",
+    name: "Arteck Split Ergonomic Keyboard with Palm Rest, USB Wired Backlit Keyboard",
+    price: "$53.99",
+    rating: "4.3 stars from Amazon ratings",
+    reviews: "1,166 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/51mIgAEAexL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CGL8X4H6?tag=deskfinds0d-20",
+    description:
+      "A split, backlit keyboard connecting over wired USB with a built-in cushioned palm rest, offering the same positioning and support design as the other Arteck pick in this guide plus illuminated keys. This remains a positioning and comfort aid only, not a treatment for wrist pain, and persistent discomfort should be evaluated by a doctor.\n\nAs with every pick here, hover your wrists while actively typing and use the rest only during pauses, continuous resting can increase pressure rather than relieve it regardless of how cushioned the rest feels.",
+    specs: ["Split, angled key layout", "Backlit keys", "Built-in cushioned palm rest, for use between bursts", "Wired USB connection"],
+    pros: ["True split, angled layout for wrist support", "Backlit keys for low-light typing", "Built-in cushioned rest, no extra purchase", "No battery to manage"],
+    cons: ["Fixed split angle, not tenting-adjustable", "Not a treatment for wrist pain", "Limited backlighting value for touch typists"],
+    bestFor: "Buyers who want backlit keys alongside a properly used cushioned wrist rest",
+  },
+  {
+    id: "nulea-split-cushioned-wristpain",
+    rank: 6,
+    badge: "Best Cushioned Wrist Rest Pick",
+    name: "Nulea Wireless Ergonomic Keyboard, Split Keyboard with Cushioned Wrist Rest",
+    price: "$49.99",
+    rating: "4.2 stars from Amazon ratings",
+    reviews: "541 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41M-dFoGk+L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0F1TLPDWT?tag=deskfinds0d-20",
+    description:
+      "A split wireless keyboard built specifically around a cushioned wrist rest, at a lower price than the premium Logitech pick above. As with every keyboard in this guide, it addresses positioning and comfort only, it is not medical treatment, and persistent wrist pain warrants a doctor's evaluation.\n\nIts cushioned rest is designed for support during pauses between typing bursts, not for continuous leaning while actively typing, the same correction that applies across every pick in this guide.",
+    specs: ["Split ergonomic layout", "Cushioned wrist rest, for use between bursts", "Wireless connectivity", "Mid-range price point"],
+    pros: ["True split layout for neutral wrist positioning", "Dedicated cushioned wrist rest design", "Reasonable mid-range price", "Wireless, no cable clutter"],
+    cons: ["Smaller verified review base than the top picks here", "Not a treatment for wrist pain", "Adjustment period for new split-layout users"],
+    bestFor: "Buyers who want a keyboard purpose-built around a cushioned wrist rest at a mid-range price",
+  },
+  {
+    id: "arteck-cushioned-palm-multi-wristpain",
+    rank: 7,
+    badge: "Best Multi-Device Cushioned Pick",
+    name: "Arteck Ergonomic Keyboard with Cushioned Wrist Palm Rest, Multi-Device",
+    price: "$56.99",
+    rating: "4.3 stars from Amazon ratings",
+    reviews: "69 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41ersIiDGuL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0FPR2GR6F?tag=deskfinds0d-20",
+    description:
+      "A cushioned-palm-rest ergonomic keyboard supporting multi-device pairing, appropriate for buyers who switch between a laptop and desktop and want consistent wrist support on both. This is a positioning and comfort aid, not a treatment for wrist pain, please see a doctor if pain persists.\n\nIts cushioned palm rest is intended for use during pauses, hover your wrists while actively typing rather than leaning on it continuously for the intended benefit, consistent with every pick in this guide.",
+    specs: ["Cushioned wrist palm rest, for use between bursts", "Multi-device pairing support", "Curved ergonomic layout", "Wireless connectivity"],
+    pros: ["Cushioned palm rest included", "Multi-device pairing for switching between computers", "Curved ergonomic layout", "Reasonable price for the feature set"],
+    cons: ["Smaller verified review base than the top picks here", "Not a treatment for wrist pain", "Not a true split layout"],
+    bestFor: "Buyers who switch between multiple devices and want consistent cushioned wrist support on each",
+  },
+  {
+    id: "wireless-combo-wave-wristpain",
+    rank: 8,
+    badge: "Best Budget Combo Pick",
+    name: "Wireless Keyboard and Mouse Combo, 2.4G Ergonomic Wave Keys, Black",
+    price: "$34.97",
+    rating: "4.2 stars from Amazon ratings",
+    reviews: "2,121 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41PN1jDkweL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DX791FXY?tag=deskfinds0d-20",
+    description:
+      "A budget wave-shaped keyboard and mouse combo at the lowest price in this guide, offering a matched positioning-focused pair for buyers who also want wrist support on the mouse hand. As with every pick here, it is not medical treatment, and existing wrist pain should be evaluated by a doctor rather than addressed through a keyboard purchase alone.\n\nA large verified review base for its price point suggests reasonably consistent buyer satisfaction, though its one-piece wave shape offers less positioning benefit than a true split layout like the Logitech or Perixx picks above.",
+    specs: ["Wave-shaped ergonomic keyboard and mouse combo", "2.4G wireless connectivity", "Large verified review base", "Lowest price in this guide"],
+    pros: ["Lowest price in this guide", "Matched keyboard and mouse for both-hand support", "Large verified review base for the price", "2.4G connection stable for sustained use"],
+    cons: ["Less positioning benefit than a true split layout", "Not a treatment for wrist pain", "Basic build materials at this price"],
+    bestFor: "Budget-conscious buyers who want a matched keyboard and mouse combo for both-hand wrist support",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -122,6 +190,10 @@ export const howToChoose: HowToChooseSection[] = [
         ["Lowest-cost way to test wrist-supportive habits", "Perixx PERIBOARD-512B"],
         ["Gentle, low-commitment introduction", "Logitech Wave Keys Graphite"],
         ["Stable wireless split with cushioned rest", "Arteck Split Ergonomic 2.4G"],
+        ["Backlit split for low-light typing", "Arteck Split Wired Backlit"],
+        ["Purpose-built cushioned wrist rest", "Nulea Split Cushioned"],
+        ["Multi-device cushioned support", "Arteck Cushioned Palm Multi-Device"],
+        ["Lowest-cost combo, both-hand support", "Wireless Combo Wave Keys Black"],
       ],
     },
   },

@@ -1,8 +1,8 @@
 export const guideSlug = "best-vertical-mice-for-small-hands";
-export const guideTitle = "4 Best Vertical Mice for Small Hands in 2026";
+export const guideTitle = "7 Best Vertical Mice for Small Hands in 2026";
 export const metaTitle = "Best Vertical Mice for Small Hands 2026";
 export const metaDescription =
-  "We evaluated 4 vertical mice with genuinely smaller bodies, checking scroll wheel reach and overall fit for buyers with smaller hands specifically.";
+  "We evaluated 7 vertical mice with genuinely smaller bodies, checking scroll wheel reach and overall fit for buyers with smaller hands specifically.";
 export const mainKeyword = "best vertical mice for small hands";
 export const introParagraphs = [
   "Most vertical mice are sized for an average to large hand, and dedicated small-hand-specific variants are genuinely less common than standard-size options. It's a mistake to assume any mouse labeled 'ergonomic' automatically accommodates smaller hands, since body length, width, and height vary a lot between models marketed identically. We looked specifically for products with a genuinely smaller body or explicit small/medium hand sizing rather than assuming a standard-size mouse will simply feel fine.",
@@ -88,6 +88,57 @@ export const products: GuideProduct[] = [
     cons: ["Not explicitly marketed or sized for small hands specifically", "Scroll wheel reach not independently confirmed", "No Bluetooth option"],
     bestFor: "Buyers with average to slightly smaller hands who want a well-reviewed mid-size body at a low price.",
   },
+  {
+    id: "b0f4jns3px-sh",
+    rank: 5,
+    badge: "Best Ultra-Budget Compact Pick",
+    name: "KUNSI Wired Ergonomic Mouse, USB Wired Vertical Mouse with adjustable DPI",
+    price: "$9.99",
+    rating: "4.1 stars from Amazon ratings",
+    reviews: "181 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41VQ8m4r1iL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0F4JNS3PX?tag=deskfinds0d-20",
+    description:
+      "The lowest price in this guide, with a compact wired body and adjustable DPI, a genuine option for buyers with smaller hands who want to try a vertical grip without much financial commitment.\n\nIts 4.1-star rating is more moderate than the other picks here, so weigh the very low price against a smaller review sample and less established brand track record.",
+    specs: ["Wired USB connection", "Adjustable DPI", "Compact ergonomic body", "Ultra-budget price point"],
+    pros: ["Lowest price in this guide", "Compact body suits smaller hands", "Adjustable DPI even at this price tier", "No battery weight"],
+    cons: ["More moderate 4.1-star rating than other picks", "Smaller review sample size", "Less established brand track record"],
+    bestFor: "Buyers with smaller hands who want the cheapest possible way to try a compact vertical mouse.",
+  },
+  {
+    id: "b00fpavuhc-sh",
+    rank: 6,
+    badge: "Best Wired Compact Value Pick",
+    name: "Anker USB Wired Vertical Mouse, Ergonomic Mouse for Computer and Laptop",
+    price: "$25.99",
+    rating: "4.4 stars from Amazon ratings",
+    reviews: "9,039 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41h3oxMYtPL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B00FPAVUHC?tag=deskfinds0d-20",
+    description:
+      "A large review base for a reasonably sized wired body, backed by strong buyer feedback that suggests a comfortable fit across a broad range of hand sizes, including some smaller-handed buyers.\n\nThis isn't marketed toward small hands specifically, so treat it as a reasonable mid-size option rather than a guaranteed fit if your hands are notably smaller than average.",
+    specs: ["Wired USB connection", "Ergonomic vertical design", "No battery, lighter body", "Mid-range price point"],
+    pros: ["Large review base suggesting broad comfort across hand sizes", "No battery weight", "Works across desktop and laptop ports", "Mid-range price"],
+    cons: ["Not explicitly marketed or sized for small hands specifically", "Scroll wheel reach not independently confirmed", "No wireless option"],
+    bestFor: "Buyers with average to smaller hands who want a well-reviewed wired option without paying for a niche small-hand label.",
+  },
+  {
+    id: "b0cmc1f5wb-sh",
+    rank: 7,
+    badge: "Best Budget Wired Pick",
+    name: "TECKNET Wired Mouse, Comfortable Ergonomic Mouse with 6400 DPI",
+    price: "$19.19",
+    rating: "4.4 stars from Amazon ratings",
+    reviews: "3,694 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31vAjZuq+pL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CMC1F5WB?tag=deskfinds0d-20",
+    description:
+      "A low-cost wired pick with adjustable DPI and a strong review rating, offering a reasonably compact footprint for buyers who want to try a vertical grip without paying a premium.\n\nCheck current listing photos and buyer feedback for actual dimensions and scroll wheel reach before assuming a comfortable fit for smaller hands specifically.",
+    specs: ["Wired USB connection", "6400 DPI adjustable sensor", "Compact ergonomic body", "Budget price point"],
+    pros: ["Strong review rating at a low price", "Adjustable DPI sensor", "No battery weight", "Compact footprint"],
+    cons: ["Not explicitly marketed as small-hand-specific", "Scroll wheel reach not independently confirmed", "No wireless option"],
+    bestFor: "Budget-conscious buyers with smaller hands who want an adjustable-DPI wired mouse.",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -117,6 +168,9 @@ export const howToChoose: HowToChooseSection[] = [
         ["Well-reviewed compact body from an established brand", "Logitech Lift Vertical"],
         ["Budget compact footprint", "ProtoArc EM11 NL Wireless"],
         ["Mid-size fit at a low price", "Lekvey Ergonomic Rechargeable Mouse"],
+        ["Cheapest way to try a compact grip", "KUNSI Wired Ergonomic Mouse"],
+        ["Well-reviewed wired option, mid-size", "Anker USB Wired Vertical Mouse"],
+        ["Budget wired pick with adjustable DPI", "TECKNET Wired Ergonomic Mouse 6400 DPI"],
       ],
     },
   },

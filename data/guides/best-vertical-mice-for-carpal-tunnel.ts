@@ -1,8 +1,8 @@
 export const guideSlug = "best-vertical-mice-for-carpal-tunnel";
-export const guideTitle = "4 Best Vertical Mice for Carpal Tunnel in 2026";
+export const guideTitle = "8 Best Vertical Mice for Carpal Tunnel in 2026";
 export const metaTitle = "Best Vertical Mice for Carpal Tunnel";
 export const metaDescription =
-  "We evaluated 4 vertical mice that reduce forearm pronation, a factor linked to carpal tunnel discomfort, alongside professional guidance on next steps.";
+  "We evaluated 8 vertical mice that reduce forearm pronation, a factor linked to carpal tunnel discomfort, alongside professional guidance on next steps.";
 export const mainKeyword = "best vertical mice for carpal tunnel";
 export const introParagraphs = [
   "Carpal tunnel syndrome has multiple contributing factors, including wrist flexion and extension, sustained grip pressure, and tendon involvement in the wrist. A vertical mouse primarily addresses one piece of that picture: forearm pronation, the twisting of the forearm that happens when you rest your hand flat on a standard mouse. Reducing that twist can ease discomfort for some people, but a vertical mouse does not treat or address carpal tunnel syndrome comprehensively, and it is not a substitute for a proper diagnosis. If you have persistent numbness, tingling, or pain, we recommend speaking with a doctor or a hand specialist rather than relying on a product purchase alone.",
@@ -88,6 +88,74 @@ export const products: GuideProduct[] = [
     cons: ["Right-hand only", "AA batteries add weight", "Does not address the full range of carpal tunnel contributing factors"],
     bestFor: "Buyers who want a low-cost way to test whether reduced forearm pronation helps their comfort, alongside professional medical guidance for persistent symptoms.",
   },
+  {
+    id: "b00427taik-ct",
+    rank: 5,
+    badge: "Best Established Wired Pronation-Reducing Design",
+    name: "Evoluent - World's Original Vertical Mouse, Wired Ergonomic Mouse",
+    price: "$89.95",
+    rating: "4.4 stars from Amazon ratings",
+    reviews: "2,295 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31o5C5jFQAL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B00427TAIK?tag=deskfinds0d-20",
+    description:
+      "A long-established, fixed tilt angle designed to reduce forearm pronation, with a wired connection that eliminates battery weight for a lighter, more consistent feel across long sessions.\n\nThis is not a medical device and does not diagnose or treat carpal tunnel syndrome. If you have persistent numbness, tingling, or pain, consult a doctor or hand specialist.",
+    specs: ["Fixed, well-documented tilt angle", "Wired USB connection", "No battery, lighter body", "Premium price point"],
+    pros: ["Long track record targeting forearm pronation specifically", "No battery weight, a genuine ergonomic upside", "Strong 4.4-star rating across a meaningful sample", "Consistent, fixed design"],
+    cons: ["Does not address wrist flexion, grip pressure, or tendon factors", "Premium price for a wired-only mouse", "No wireless option"],
+    bestFor: "Buyers who want a long-established pronation-reducing design and don't need wireless, alongside professional guidance for persistent symptoms.",
+  },
+  {
+    id: "b0cx18lhws-ct",
+    rank: 6,
+    badge: "Best Compact Pronation-Reducing Pick",
+    name: "ProtoArc EM11 NL Wireless Ergonomic Vertical Mouse, Rechargeable",
+    price: "$22.99",
+    rating: "4.4 stars from Amazon ratings",
+    reviews: "5,670 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31PGrLfkUxL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CX18LHWS?tag=deskfinds0d-20",
+    description:
+      "A compact, rechargeable vertical mouse offering the same general pronation-reduction mechanism as pricier picks, at a budget-to-mid price point suited to average or smaller hands.\n\nAs with any vertical mouse, this addresses forearm pronation specifically, not carpal tunnel syndrome as a whole, and persistent symptoms should be evaluated by a medical professional.",
+    specs: ["Compact ergonomic body", "Rechargeable built-in battery", "2.4GHz wireless dongle", "Budget-to-mid price point"],
+    pros: ["Compact body suits average to smaller hands", "Rechargeable battery avoids AA bulk", "Solid review rating", "Budget-friendly for the category"],
+    cons: ["Does not address the full range of carpal tunnel contributing factors", "No Bluetooth option", "Smaller review base than mainstream picks"],
+    bestFor: "Buyers wanting a compact, rechargeable pronation-reducing mouse as part of a broader ergonomic setup.",
+  },
+  {
+    id: "b0cmc1f5wb-ct",
+    rank: 7,
+    badge: "Best Wired Budget Pick",
+    name: "TECKNET Wired Mouse, Comfortable Ergonomic Mouse with 6400 DPI",
+    price: "$19.19",
+    rating: "4.4 stars from Amazon ratings",
+    reviews: "3,694 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31vAjZuq+pL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CMC1F5WB?tag=deskfinds0d-20",
+    description:
+      "A low-cost wired option offering forearm pronation reduction through its vertical shape, with no battery weight to add to the grip, at a much lower price than the premium wired pick in this guide.\n\nAs with every pick here, this is a general consumer product, not a medical device, and does not diagnose or treat carpal tunnel syndrome.",
+    specs: ["Wired USB connection", "6400 DPI adjustable sensor", "Ergonomic vertical design", "Budget price point"],
+    pros: ["Low-cost way to try reduced forearm pronation", "No battery weight", "Adjustable DPI sensor", "Strong review rating for the price"],
+    cons: ["Does not address wrist flexion or grip-related factors", "No wireless option", "Fewer established years on the market than the Evoluent design"],
+    bestFor: "Budget-conscious buyers wanting a wired pronation-reducing mouse, alongside professional guidance for persistent symptoms.",
+  },
+  {
+    id: "b0gnmpgm7g-ct",
+    rank: 8,
+    badge: "Best Small-Hand Pronation-Reducing Pick",
+    name: "Luhaso Ergonomic Vertical Wireless Mouse, 57 degree, Small/Medium Hands",
+    price: "$19.99",
+    rating: "4.7 stars from Amazon ratings",
+    reviews: "57 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31ttLEqu0hL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GNMPGM7G?tag=deskfinds0d-20",
+    description:
+      "Explicitly sized for small to medium hands with a disclosed 57-degree tilt, relevant to buyers whose hands are smaller than the average this category is usually designed around.\n\nThe review base is small, so weigh the very strong 4.7-star rating against the limited sample size, and remember this addresses pronation specifically, not carpal tunnel syndrome as a whole.",
+    specs: ["Explicit small/medium hand sizing", "57-degree tilt angle", "Wireless connectivity", "Budget price point"],
+    pros: ["Genuinely sized for small to medium hands", "Very strong review rating", "Budget-friendly price", "Disclosed tilt angle"],
+    cons: ["Small review sample size, verify current feedback", "Less established brand track record than premium picks", "Does not address the full range of contributing factors"],
+    bestFor: "Small-handed buyers wanting a budget pronation-reducing pick, alongside professional guidance for persistent symptoms.",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -121,6 +189,9 @@ export const howToChoose: HowToChooseSection[] = [
         ["Gentler introduction to the grip", "Logitech Lift Vertical"],
         ["Budget option for testing the concept", "Lekvey Ergonomic Rechargeable Mouse"],
         ["Lowest-cost way to try the grip", "Anker 2.4G Wireless Ergonomic Mouse"],
+        ["Established wired pronation-reducing design", "Evoluent Wired Ergonomic Mouse"],
+        ["Compact rechargeable pronation-reducing pick", "ProtoArc EM11 NL Wireless"],
+        ["Small-hand-specific pronation-reducing fit", "Luhaso Ergonomic Vertical Wireless Mouse"],
       ],
     },
   },

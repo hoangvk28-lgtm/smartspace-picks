@@ -1,8 +1,8 @@
 export const guideSlug = "best-bluetooth-vertical-mice";
-export const guideTitle = "4 Best Bluetooth Vertical Mice in 2026";
+export const guideTitle = "6 Best Bluetooth Vertical Mice in 2026";
 export const metaTitle = "Best Bluetooth Vertical Mice 2026";
 export const metaDescription =
-  "We evaluated 4 Bluetooth vertical mice on multi-device pairing, reconnection speed, and whether Bluetooth latency matters for everyday use.";
+  "We evaluated 6 Bluetooth vertical mice on multi-device pairing, reconnection speed, and whether Bluetooth latency matters for everyday use.";
 export const mainKeyword = "best bluetooth vertical mice";
 export const introParagraphs = [
   "The main reason to choose Bluetooth over a 2.4GHz dongle is multi-device convenience, being able to pair one mouse across a desktop, a laptop, and a tablet and switch between them without swapping a physical receiver. That convenience can come with a small latency tradeoff versus a dedicated dongle, though whether it's actually perceptible depends on your use case; for general browsing and document work it's rarely noticeable, for fast precision tasks it's worth testing for yourself.",
@@ -88,6 +88,40 @@ export const products: GuideProduct[] = [
     cons: ["Smaller review base and more moderate 4.0-star rating", "Premium price relative to its rating", "Bluetooth version and reconnection speed not independently confirmed"],
     bestFor: "Buyers who want more programmable buttons over Bluetooth and are comfortable with a smaller review sample.",
   },
+  {
+    id: "b0gnmpgm7g-bt",
+    rank: 5,
+    badge: "Best Small-Hand Pick, Wireless Method Unconfirmed",
+    name: "Luhaso Ergonomic Vertical Wireless Mouse, 57 degree, Small/Medium Hands",
+    price: "$19.99",
+    rating: "4.7 stars from Amazon ratings",
+    reviews: "57 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31ttLEqu0hL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GNMPGM7G?tag=deskfinds0d-20",
+    description:
+      "Marketed as wireless and explicitly sized for small to medium hands, though its listing title does not specifically confirm Bluetooth versus a 2.4GHz-only dongle, so we're including it here with that caveat rather than assuming Bluetooth support.\n\nIf multi-device Bluetooth pairing is essential to you, verify this detail directly on the current product page before buying, since we can't confirm it from the title alone.",
+    specs: ["Explicit small/medium hand sizing", "Wireless connectivity, Bluetooth not independently confirmed", "57-degree tilt angle", "Budget price point"],
+    pros: ["Genuinely sized for small to medium hands", "Very strong review rating", "Budget-friendly price", "Disclosed tilt angle"],
+    cons: ["Bluetooth support not independently confirmed from the listing", "Small review sample size", "Less established brand track record than premium picks"],
+    bestFor: "Small-handed buyers who want a budget wireless pick, provided they confirm Bluetooth support on the current listing first.",
+  },
+  {
+    id: "b0f9pdryzk-bt",
+    rank: 6,
+    badge: "Best Casual Gaming Crossover, Wireless Method Unconfirmed",
+    name: "Attoe Gaming Mouse with 5D Rocker, Wireless Vertical Mouse with 2400 DPI",
+    price: "$35.99",
+    rating: "4.4 stars from Amazon ratings",
+    reviews: "116 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41XVdqDE3aL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0F9PDRYZK?tag=deskfinds0d-20",
+    description:
+      "A wireless gaming-oriented vertical mouse with a 2400 DPI sensor and 5D rocker button, listed as wireless without the title specifically stating Bluetooth, so verify this detail on the current listing rather than assuming it here.\n\nIf confirmed Bluetooth, this is a reasonable crossover pick for buyers who want one mouse that pairs across devices for both office use and casual gaming.",
+    specs: ["2400 DPI sensor", "5D rocker button", "Wireless connectivity, Bluetooth not independently confirmed", "Small review sample"],
+    pros: ["Wireless connectivity with an extra control input", "Budget-friendly for the feature set", "Works for both office and casual gaming use", "5D rocker button adds versatility"],
+    cons: ["Bluetooth support not independently confirmed from the listing", "Small review sample size", "2400 DPI ceiling is modest for dedicated gaming use"],
+    bestFor: "Buyers wanting a crossover office and casual gaming mouse, provided they confirm Bluetooth support before buying.",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -117,6 +151,8 @@ export const howToChoose: HowToChooseSection[] = [
         ["Compact body with Bluetooth switching", "Logitech Lift Vertical"],
         ["Budget Bluetooth pairing", "ProtoArc EM11 NL Wireless"],
         ["More programmable buttons over Bluetooth", "Razer Pro Click V2 Vertical"],
+        ["Small-hand fit, verify Bluetooth first", "Luhaso Ergonomic Vertical Wireless Mouse"],
+        ["Office and casual gaming crossover, verify Bluetooth first", "Attoe Gaming Mouse with 5D Rocker"],
       ],
     },
   },

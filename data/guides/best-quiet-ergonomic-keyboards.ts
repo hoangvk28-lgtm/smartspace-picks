@@ -1,8 +1,8 @@
 export const guideSlug = "best-quiet-ergonomic-keyboards";
-export const guideTitle = "4 Best Quiet Ergonomic Keyboards in 2026";
+export const guideTitle = "8 Best Quiet Ergonomic Keyboards in 2026";
 export const metaTitle = "Best Quiet Ergonomic Keyboards (2026)";
 export const metaDescription =
-  "4 quiet ergonomic keyboards we evaluated for real typing noise, membrane vs quiet-mechanical tactile tradeoffs, and open-office suitability.";
+  "8 quiet ergonomic keyboards we evaluated for real typing noise, membrane vs quiet-mechanical tactile tradeoffs, and open-office suitability.";
 export const mainKeyword = "quiet ergonomic keyboard";
 export const introParagraphs = [
   "Membrane keyboards are typically quieter than even dampened mechanical switches, but that comes with a genuine tactile-feedback tradeoff some ergonomic typists rely on to know a key has registered, this is a real tradeoff to weigh rather than an assumed hierarchy where membrane always wins. What actually matters for a shared home-office or open-office environment is realistic typing noise during active use, not just how quiet the keyboard sounds when idle or with a single isolated keypress.",
@@ -88,6 +88,74 @@ export const products: GuideProduct[] = [
     cons: ["Manufacturer decibel claim not independently verified", "Softer tactile feedback than scissor or mechanical switches", "Not a split or negative-tilt ergonomic layout"],
     bestFor: "Buyers wanting a matched quiet keyboard and mouse combo at a budget price",
   },
+  {
+    id: "colikes-wireless-silent-quiet",
+    rank: 5,
+    badge: "Best Budget Silent Pick",
+    name: "COLIKES Wireless Ergonomic Keyboard, Backlit Silent with 15 RGB modes",
+    price: "$39.99",
+    rating: "4.2 stars from Amazon ratings",
+    reviews: "132 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/4111FGMHFCL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0G6ZZ95GB?tag=deskfinds0d-20",
+    description:
+      "Marketed explicitly as silent, this budget wireless keyboard combines a quiet keypress with RGB backlighting, an unusual pairing since most quiet keyboards skip lighting features to keep the design simple. As with any manufacturer-stated silent claim, treat the marketing label as a starting point and check current buyer feedback for real-world noise confirmation.\n\nIts smaller review base than the Logitech and Arteck picks in this guide means less long-term data on how consistently quiet it stays over months of use, worth weighing against the more established options above.",
+    specs: ["Manufacturer-stated silent keypress", "Wireless connectivity", "15 RGB backlight modes", "Curved ergonomic layout"],
+    pros: ["Lowest price among quiet picks in this guide", "Silent keypress claim plus RGB customization", "Curved ergonomic frame", "Wireless, no cable clutter"],
+    cons: ["Smaller verified review base than established quiet picks", "Silent claim is manufacturer-stated, verify with buyer feedback", "Less proven long-term reliability data"],
+    bestFor: "Budget buyers who want a silent-marketed keyboard with RGB customization",
+  },
+  {
+    id: "logitech-wave-keys-rose-quiet",
+    rank: 6,
+    badge: "Best Quiet Pick, Rose Colorway",
+    name: "Logitech Wave Keys Wireless Ergonomic Keyboard - Rose",
+    price: "$59.99",
+    rating: "4.3 stars from Amazon ratings",
+    reviews: "2,972 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/418t+cQnsOL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0BTNZWYT5?tag=deskfinds0d-20",
+    description:
+      "The same quiet scissor-switch mechanism as the Graphite Wave Keys pick in this guide, offered in a Rose colorway for buyers who want quiet typing without the standard gray or black look. Its noise profile and tactile feel are otherwise identical to the Graphite version already covered above.\n\nChoose between colorways purely on aesthetic preference since the underlying quiet-typing mechanism, battery, and pairing behavior are the same across both.",
+    specs: ["Quiet scissor-switch mechanism", "One-piece wave frame", "Cushioned attached palm rest", "Rose colorway"],
+    pros: ["Quiet typing suited to shared spaces", "Distinct colorway option", "Minimal adjustment period", "Solid review base shared with the Graphite version"],
+    cons: ["Less tactile feedback than a mechanical switch", "Less ergonomic benefit than a true split design", "Same tradeoffs as the Graphite colorway, choose based on aesthetics only"],
+    bestFor: "Buyers who want the same quiet Wave Keys typing experience in a different color",
+  },
+  {
+    id: "logitech-wave-keys-mac-quiet",
+    rank: 7,
+    badge: "Best Quiet Pick for Mac Users",
+    name: "Logitech Wave Keys for Mac Wireless Ergonomic Keyboard - Off White",
+    price: "$69.95",
+    rating: "4.2 stars from Amazon ratings",
+    reviews: "343 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41ogsiz47VL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0BTNZSXLG?tag=deskfinds0d-20",
+    description:
+      "A Mac-layout version of the quiet Wave Keys scissor-switch design, useful for Mac users who want both quiet typing and native modifier key labeling in one keyboard. Its noise profile follows the same scissor-switch quiet tier as the other Wave Keys picks in this guide.\n\nIts smaller review base than the standard Windows-oriented Wave Keys reflects a more niche audience, but the underlying quiet mechanism is the same well-established design.",
+    specs: ["Quiet scissor-switch mechanism", "Mac-specific keycap legends", "One-piece wave frame", "Cushioned attached palm rest"],
+    pros: ["Quiet typing with native Mac key labeling", "No manual remapping needed", "Minimal adjustment period", "Same proven quiet mechanism as other Wave Keys picks"],
+    cons: ["Smaller review base than the standard Windows-oriented model", "Less tactile feedback than a mechanical switch", "Less ergonomic benefit than a true split design"],
+    bestFor: "Mac users who want quiet typing without remapping modifier keys",
+  },
+  {
+    id: "arteck-split-wired-backlit-quiet",
+    rank: 8,
+    badge: "Best Quiet Wired Backlit Pick",
+    name: "Arteck Split Ergonomic Keyboard with Palm Rest, USB Wired Backlit Keyboard",
+    price: "$53.99",
+    rating: "4.3 stars from Amazon ratings",
+    reviews: "1,166 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/51mIgAEAexL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CGL8X4H6?tag=deskfinds0d-20",
+    description:
+      "A split, backlit scissor-switch keyboard connecting over USB, offering the same quiet-typing tier as the wireless Arteck pick in this guide with the added convenience of backlit keys and no battery to manage. Its wired connection removes any Bluetooth or 2.4G variability from the noise equation entirely.\n\nBacklighting draws power directly from the USB port, so there's no battery-life tradeoff, though as with any quiet keyboard verify current buyer feedback for real-world noise confirmation on your specific desk surface.",
+    specs: ["Quiet scissor-switch mechanism", "Wired USB connection", "Backlit keys", "Built-in cushioned palm rest"],
+    pros: ["Quiet typing with no battery to manage", "Backlit keys with no battery-life tradeoff", "Built-in palm rest", "True split, angled layout"],
+    cons: ["Less tactile feedback than a mechanical switch", "Fixed split angle, not tenting-adjustable", "Desk surface can still amplify typing sound"],
+    bestFor: "Buyers who want quiet, backlit typing without any wireless battery concerns",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -117,6 +185,10 @@ export const howToChoose: HowToChooseSection[] = [
         ["Quiet one-piece keyboard, budget-friendly", "Logitech Wave Keys Graphite"],
         ["Quiet split layout at a mid-range price", "Arteck Split Ergonomic 2.4G"],
         ["Matched quiet keyboard and mouse combo", "SABLUTE MA41 Combo"],
+        ["Lowest price, silent-marketed with RGB", "COLIKES Wireless Silent"],
+        ["Same quiet mechanism, different colorway", "Logitech Wave Keys Rose"],
+        ["Quiet typing with native Mac key labeling", "Logitech Wave Keys for Mac"],
+        ["Quiet, backlit, wired with no battery", "Arteck Split Wired Backlit"],
       ],
     },
   },

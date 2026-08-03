@@ -1,8 +1,8 @@
 export const guideSlug = "best-ergonomic-keyboards-for-home-offices";
-export const guideTitle = "4 Best Ergonomic Keyboards for Home Offices in 2026";
+export const guideTitle = "8 Best Ergonomic Keyboards for Home Offices in 2026";
 export const metaTitle = "Ergonomic Keyboards for Home Offices 2026";
 export const metaDescription =
-  "4 ergonomic keyboards we evaluated for full-workday comfort and video-call mic pickup, synthesizing our quiet and compact keyboard research for home offices.";
+  "8 ergonomic keyboards we evaluated for full-workday comfort and video-call mic pickup, synthesizing our quiet and compact keyboard research for home offices.";
 export const mainKeyword = "ergonomic keyboard for home office";
 export const introParagraphs = [
   "A home office setup raises two considerations that cut across our other research, quiet typing and a compact footprint, both matter more here because a home office implies many continuous daily hours at the same desk plus frequent video calls where a microphone can pick up typing noise in a way that's rarely a concern in a larger, busier physical office. Rather than repeating first-principles research already covered in our quiet and compact keyboard guides, this guide applies those specific findings through a full-workday, video-call-aware lens.",
@@ -88,6 +88,74 @@ export const products: GuideProduct[] = [
     cons: ["Fixed split angle, not tenting-adjustable", "Verify sustained typing noise for video calls in buyer feedback", "Windows-focused compatibility"],
     bestFor: "Home-office buyers wanting a stable wireless connection alongside true split ergonomic benefit",
   },
+  {
+    id: "arteck-split-wired-backlit-homeoffice",
+    rank: 5,
+    badge: "Best Backlit Home Office Pick",
+    name: "Arteck Split Ergonomic Keyboard with Palm Rest, USB Wired Backlit Keyboard",
+    price: "$53.99",
+    rating: "4.3 stars from Amazon ratings",
+    reviews: "1,166 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/51mIgAEAexL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CGL8X4H6?tag=deskfinds0d-20",
+    description:
+      "A split, backlit keyboard connecting over wired USB, useful for a home office where evening or low-light sessions are common alongside daytime video calls. As with our quiet keyboard research, its scissor-switch mechanism keeps typing reasonably quiet for microphone pickup during calls, and the wired connection removes any battery-check interruption during a full workday.\n\nIts built-in cushioned palm rest supports full-workday comfort, and as with every pick here, desk surface and room acoustics also factor into what a call's microphone actually picks up.",
+    specs: ["Split, angled key layout", "Backlit keys for low-light sessions", "Wired USB connection, no battery interruptions", "Built-in cushioned palm rest"],
+    pros: ["Backlit keys useful for evening home-office sessions", "No battery to manage during a full workday", "True split, angled layout for sustained comfort", "Reasonably quiet for video calls"],
+    cons: ["Fixed split angle, not tenting-adjustable", "Verify sustained typing noise for video calls in buyer feedback", "Limited backlighting value for touch typists"],
+    bestFor: "Home-office buyers who work evening sessions and want backlit keys alongside quiet, wired reliability",
+  },
+  {
+    id: "protoarc-ekm01-plus-homeoffice",
+    rank: 6,
+    badge: "Best Combo Pick for Home Offices",
+    name: "ProtoArc EKM01 Plus Wireless Ergonomic Keyboard Mouse Combo, Gray Black",
+    price: "$76.99",
+    rating: "4.3 stars from Amazon ratings",
+    reviews: "872 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31nNQhQDCpL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DZ6DR13F?tag=deskfinds0d-20",
+    description:
+      "A wireless keyboard and mouse combo appropriate for a home office where sourcing a matched ergonomic pair in one purchase simplifies setup, applying our synthesis of quiet and compact research to both devices rather than just the keyboard. Its solid verified review base reflects reasonable buyer satisfaction for a combo product.\n\nAs with our compact keyboard research, a curved rather than fully split layout suits smaller home-office desks better while sacrificing some split ergonomic benefit, worth weighing against the split picks above if desk space allows.",
+    specs: ["Wireless keyboard and mouse combo", "Curved ergonomic keyboard layout", "Ergonomic mouse included", "Solid verified review base"],
+    pros: ["Matched keyboard and mouse for a complete home-office setup", "Solid verified review base", "Wireless, no cable clutter", "Reasonably compact footprint for smaller desks"],
+    cons: ["Not a true split keyboard layout", "Verify sustained typing noise for video calls in buyer feedback", "Higher price than a keyboard-only pick"],
+    bestFor: "Home-office buyers who want a matched keyboard and mouse combo in a smaller footprint",
+  },
+  {
+    id: "nulea-split-cushioned-homeoffice",
+    rank: 7,
+    badge: "Best Budget Split Home Office Pick",
+    name: "Nulea Wireless Ergonomic Keyboard, Split Keyboard with Cushioned Wrist Rest",
+    price: "$49.99",
+    rating: "4.2 stars from Amazon ratings",
+    reviews: "541 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41M-dFoGk+L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0F1TLPDWT?tag=deskfinds0d-20",
+    description:
+      "A split wireless keyboard with a cushioned wrist rest at a lower price than the Arteck picks above, supporting full-workday comfort at a home-office-friendly budget. Its scissor-switch typing keeps things reasonably quiet for microphone pickup during video calls, consistent with our quiet keyboard research findings applied here.\n\nIts smaller verified review base compared to the Logitech and Perixx picks means less long-term reliability data, worth weighing against the more established options in this guide.",
+    specs: ["Split ergonomic layout", "Cushioned wrist rest for full-workday comfort", "Wireless connectivity", "Budget-friendly price point"],
+    pros: ["True split layout for sustained ergonomic comfort", "Dedicated cushioned wrist rest", "Reasonable price for a home office", "Reasonably quiet for video calls"],
+    cons: ["Smaller verified review base than established picks", "Verify sustained typing noise in buyer feedback", "Adjustment period for new split-layout users"],
+    bestFor: "Budget-conscious home-office buyers wanting a genuinely split keyboard with a cushioned rest",
+  },
+  {
+    id: "sablute-rechargeable-combo-homeoffice",
+    rank: 8,
+    badge: "Best Rechargeable Combo for Home Offices",
+    name: "SABLUTE Ergonomic Wireless Keyboard and Mouse Combo, Rechargeable",
+    price: "$51.99",
+    rating: "4.3 stars from Amazon ratings",
+    reviews: "368 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/51sxkeGyuJL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0FJWMGFF5?tag=deskfinds0d-20",
+    description:
+      "A rechargeable keyboard and mouse combo that avoids disposable battery waste, a genuine convenience for a home office where daily reliance on both devices makes battery maintenance a recurring consideration. Its matched design applies our compact and quiet research findings to a budget-friendly combo purchase.\n\nAs with any combo, verify current listings for charging cycle timing between the keyboard and mouse, and check sustained typing noise in buyer feedback rather than an isolated keypress impression for video-call suitability.",
+    specs: ["Rechargeable keyboard and mouse combo", "Curved ergonomic layout", "Wireless connectivity", "Budget-friendly price point"],
+    pros: ["Rechargeable, no disposable battery waste", "Matched keyboard and mouse for a complete setup", "Reasonable price for a home office", "Solid rating"],
+    cons: ["Verify charging cycle timing between devices", "Not a true split keyboard layout", "Verify sustained typing noise for video calls in buyer feedback"],
+    bestFor: "Home-office buyers who want a rechargeable combo to avoid disposable battery waste",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -117,6 +185,10 @@ export const howToChoose: HowToChooseSection[] = [
         ["Most reviewed budget option", "Perixx PERIBOARD-512B"],
         ["Compact footprint for a small home-office desk", "Logitech Wave Keys Graphite"],
         ["Stable wireless in a busy home-office environment", "Arteck Split Ergonomic 2.4G"],
+        ["Backlit split for evening sessions", "Arteck Split Wired Backlit"],
+        ["Matched combo in a compact footprint", "ProtoArc EKM01 Plus Combo"],
+        ["Budget split with cushioned rest", "Nulea Split Cushioned"],
+        ["Rechargeable combo, no disposable batteries", "SABLUTE Rechargeable Combo"],
       ],
     },
   },

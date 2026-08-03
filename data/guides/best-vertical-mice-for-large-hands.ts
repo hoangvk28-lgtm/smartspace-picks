@@ -1,8 +1,8 @@
 export const guideSlug = "best-vertical-mice-for-large-hands";
-export const guideTitle = "4 Best Vertical Mice for Large Hands in 2026";
+export const guideTitle = "8 Best Vertical Mice for Large Hands in 2026";
 export const metaTitle = "Best Vertical Mice for Large Hands 2026";
 export const metaDescription =
-  "We evaluated 4 vertical mice for genuine palm support and finger-to-button reach for larger hands, not just products marginally bigger than average.";
+  "We evaluated 8 vertical mice for genuine palm support and finger-to-button reach for larger hands, not just products marginally bigger than average.";
 export const mainKeyword = "best vertical mice for large hands";
 export const introParagraphs = [
   "A product labeled or perceived as suited to 'large hands' doesn't always provide genuine full-palm coverage. Some vertical mice are only marginally larger than standard-size options, which isn't the same as a body genuinely built to support a larger hand end to end. We checked actual dimensions where available and weighed buyer feedback specifically from larger-handed users rather than assuming size alone from a product photo.",
@@ -88,6 +88,74 @@ export const products: GuideProduct[] = [
     cons: ["Not explicitly marketed or sized for large hands", "May feel undersized for very large hands", "No wireless option"],
     bestFor: "Budget-conscious buyers with moderately larger hands who want a wired option without premium pricing.",
   },
+  {
+    id: "b0dvd5rtz5-lh",
+    rank: 5,
+    badge: "Best 6-Button Pick for Larger Hands",
+    name: "Razer Pro Click V2 Vertical Wireless Mouse, 6 Button Ergonomic Design",
+    price: "$99.99",
+    rating: "4.0 stars from Amazon ratings",
+    reviews: "461 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41DVlxxe4WL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DVD5RTZ5?tag=deskfinds0d-20",
+    description:
+      "A 6-button vertical body with a wireless connection, offering more programmable options for larger hands that have room to comfortably reach extra side buttons without an overextended grip.\n\nIts smaller review base and more moderate 4.0-star rating are worth weighing against the premium price and extra button count before choosing this over the better-reviewed picks above.",
+    specs: ["6 programmable buttons", "Wireless connectivity", "Rechargeable battery", "Premium price point"],
+    pros: ["More programmable buttons for larger hands to reach comfortably", "Rechargeable battery", "Ergonomic vertical body", "Software support for remapping"],
+    cons: ["Smaller review base and more moderate 4.0-star rating", "Premium price relative to its rating", "Body dimensions not independently confirmed as large-hand-specific"],
+    bestFor: "Larger-handed buyers who want more programmable buttons within comfortable reach.",
+  },
+  {
+    id: "b0cx18lhws-lh",
+    rank: 6,
+    badge: "Best Budget Pick to Try First",
+    name: "ProtoArc EM11 NL Wireless Ergonomic Vertical Mouse, Rechargeable",
+    price: "$22.99",
+    rating: "4.4 stars from Amazon ratings",
+    reviews: "5,670 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31PGrLfkUxL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CX18LHWS?tag=deskfinds0d-20",
+    description:
+      "A rechargeable, budget-to-mid priced option that isn't explicitly marketed for large hands, but its solid review base makes it a reasonable lower-cost pick to try before committing to a premium full-size mouse.\n\nCheck current listing dimensions and buyer feedback specifically from larger-handed users before assuming this fully accommodates a large palm, since it leans more compact than the dedicated full-size picks above.",
+    specs: ["Rechargeable built-in battery", "2.4GHz wireless dongle", "Compact-to-mid body size", "Budget-to-mid price point"],
+    pros: ["Budget-friendly way to try the category", "Rechargeable battery", "Solid review base", "Reasonably sized for moderately larger hands"],
+    cons: ["Not marketed or built specifically for large hands", "May feel undersized for very large hands", "No Bluetooth option"],
+    bestFor: "Buyers with moderately larger hands who want a lower-cost rechargeable option before committing to a premium pick.",
+  },
+  {
+    id: "b00f0y3iiw-lh",
+    rank: 7,
+    badge: "Best Adjustable Positioning Pick",
+    name: "KINESIS DXT2 Ergonomic Vertical Mouse (RF Wireless)",
+    price: "$104.00",
+    rating: "4.1 stars from Amazon ratings",
+    reviews: "269 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/310x3mOUwBL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B00F0Y3IIW?tag=deskfinds0d-20",
+    description:
+      "A specialist ergonomic design built around adjustable positioning, relevant to larger-handed buyers who want to fine-tune hand placement rather than accept one fixed body shape.\n\nThe premium price and a more moderate 4.1-star rating are worth weighing against the more mainstream, better-reviewed picks in this guide, and the brand's RF wireless connectivity is distinct from typical Bluetooth or 2.4GHz dongle setups.",
+    specs: ["Adjustable ergonomic positioning", "RF wireless connectivity", "Specialist ergonomic brand", "Premium price point"],
+    pros: ["Adjustable positioning suits varied larger-hand shapes", "RF wireless connectivity", "Distinct design approach from mainstream vertical mice", "Specialist ergonomic brand with an established track record"],
+    cons: ["More moderate 4.1-star rating than other picks in this guide", "Premium price", "Body dimensions not independently confirmed as large-hand-specific"],
+    bestFor: "Larger-handed buyers who want adjustable positioning from a specialist ergonomic brand.",
+  },
+  {
+    id: "b0894qx7sk-lh",
+    rank: 8,
+    badge: "Best Pick With Extra Input Options",
+    name: "zelotes Wired Gaming Mouse with Joystick, 10000 DPI, 11 Programmable Buttons",
+    price: "$29.99",
+    rating: "4.2 stars from Amazon ratings",
+    reviews: "247 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31fim6uc3BL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0894QX7SK?tag=deskfinds0d-20",
+    description:
+      "A wired pick with a built-in joystick and 11 programmable buttons, giving larger hands room to spread across more inputs than a typical vertical mouse offers, at a budget-friendly price.\n\nIts vertical tilt angle is less documented than the dedicated ergonomic picks in this guide, so it leans more toward a gaming mouse with vertical-leaning shape than a full ergonomic large-hand design.",
+    specs: ["Built-in joystick control", "11 programmable buttons", "10000 DPI sensor", "Wired USB connection"],
+    pros: ["11 programmable buttons give larger hands more inputs to spread across", "Joystick control is a genuinely unique extra", "Wired connection avoids battery weight", "Budget-friendly price"],
+    cons: ["Vertical tilt angle less documented than dedicated ergonomic picks", "Leans more gaming-oriented than purely ergonomic", "Smaller review sample than the top picks"],
+    bestFor: "Larger-handed buyers who want extra input options and don't mind a gaming-oriented shape.",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -117,6 +185,10 @@ export const howToChoose: HowToChooseSection[] = [
         ["Established full-size wired design", "Evoluent Wired Ergonomic Mouse"],
         ["Lower-cost mid-size option to try first", "Lekvey Ergonomic Rechargeable Mouse"],
         ["Budget wired option for moderately larger hands", "TECKNET Wired Ergonomic Mouse 6400 DPI"],
+        ["More programmable buttons within comfortable reach", "Razer Pro Click V2 Vertical"],
+        ["Lower-cost rechargeable option to try first", "ProtoArc EM11 NL Wireless"],
+        ["Adjustable positioning from a specialist brand", "KINESIS DXT2 Ergonomic Vertical Mouse"],
+        ["Extra input options like a joystick", "zelotes Wired Gaming Mouse with Joystick"],
       ],
     },
   },

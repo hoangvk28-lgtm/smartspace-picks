@@ -1,8 +1,8 @@
 export const guideSlug = "best-ergonomic-keyboards-for-mac";
-export const guideTitle = "4 Best Ergonomic Keyboards for Mac in 2026";
+export const guideTitle = "8 Best Ergonomic Keyboards for Mac in 2026";
 export const metaTitle = "Best Ergonomic Keyboards for Mac (2026)";
 export const metaDescription =
-  "4 ergonomic keyboards for Mac we evaluated for real Command and Option key labeling, macOS media key support, and Magic Keyboard switching considerations.";
+  "8 ergonomic keyboards for Mac we evaluated for real Command and Option key labeling, macOS media key support, and Magic Keyboard switching considerations.";
 export const mainKeyword = "ergonomic keyboard for mac";
 export const introParagraphs = [
   "Not every ergonomic keyboard marketed as Mac-compatible actually ships with correct out-of-box Command and Option key labeling, many require manual remapping through System Settings even if they technically work once configured, worth verifying which is true for a specific listing before assuming universal plug-and-play compatibility. Native macOS media key support, brightness and volume specifically, is a separate thing worth checking too, since some models need a workaround rather than working natively.",
@@ -88,6 +88,74 @@ export const products: GuideProduct[] = [
     cons: ["No dedicated Mac keycap legends", "Requires manual Command/Option remapping", "Highest price in this guide, without Mac-native design to match"],
     bestFor: "Buyers who want a premium ergonomic keyboard and don't mind remapping keys manually for Mac",
   },
+  {
+    id: "protoarc-ek01-black-mac-remap",
+    rank: 5,
+    badge: "Best Backlit Pick, Mac-Usable via Remapping",
+    name: "ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard, Full Size, Black",
+    price: "$79.99",
+    rating: "4.2 stars from Amazon ratings",
+    reviews: "1,488 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41q4ds4LGsL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DCVVBT3C?tag=deskfinds0d-20",
+    description:
+      "A Windows-oriented full-size backlit keyboard, usable on a Mac over Bluetooth after manually remapping Command and Option through System Settings like the Ergo K860 and Wave Keys Graphite above. Its backlit keys and number pad add functionality not covered by the dedicated Mac-layout Wave Keys, at the cost of native modifier labeling.\n\nVerify current listings for macOS media key behavior before assuming full native support, since this is not a dedicated Mac-layout product despite working over standard Bluetooth pairing.",
+    specs: ["Standard Windows-oriented keycap layout", "Bluetooth wireless connectivity", "Backlit keys, full-size layout", "May require manual Mac key remapping"],
+    pros: ["Number pad and backlighting not on the dedicated Mac-layout Wave Keys", "Works with Mac after manual remapping", "Bluetooth pairing across devices", "Rechargeable battery"],
+    cons: ["No dedicated Mac keycap legends", "Requires manual Command/Option remapping", "Verify macOS media key support before buying"],
+    bestFor: "Mac users who want backlighting and a number pad and don't mind remapping keys",
+  },
+  {
+    id: "protoarc-ek01-gray-mac-remap",
+    rank: 6,
+    badge: "Best Value Backlit Pick, Mac-Usable via Remapping",
+    name: "ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard, Full Size, Gray",
+    price: "$69.99",
+    rating: "4.2 stars from Amazon ratings",
+    reviews: "1,488 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41b1vrBnYfL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DQ4T5M8C?tag=deskfinds0d-20",
+    description:
+      "The gray colorway of the full-size EK01 Plus, priced slightly below its black counterpart above and usable with a Mac through the same manual remapping process. It's a reasonable value pick for Mac users who want backlighting and a number pad without paying the dedicated Mac-layout Wave Keys premium.\n\nAs with the black variant, verify current listings for macOS media key support and confirm you're comfortable remapping modifier keys through System Settings before buying.",
+    specs: ["Standard Windows-oriented keycap layout", "Bluetooth wireless connectivity", "Backlit keys, full-size layout", "May require manual Mac key remapping"],
+    pros: ["Lowest price among the backlit ProtoArc picks here", "Number pad included", "Works with Mac after manual remapping", "Bluetooth pairing across devices"],
+    cons: ["No dedicated Mac keycap legends", "Requires manual Command/Option remapping", "Verify macOS media key support before buying"],
+    bestFor: "Budget-conscious Mac users who want backlighting and a number pad and accept remapping",
+  },
+  {
+    id: "logitech-wave-keys-rose-mac-remap",
+    rank: 7,
+    badge: "Best Colorway Pick, Mac-Usable via Remapping",
+    name: "Logitech Wave Keys Wireless Ergonomic Keyboard - Rose",
+    price: "$59.99",
+    rating: "4.3 stars from Amazon ratings",
+    reviews: "2,972 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/418t+cQnsOL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0BTNZWYT5?tag=deskfinds0d-20",
+    description:
+      "The Rose colorway of the standard Windows-oriented Wave Keys, priced the same as the Graphite version above and requiring the same manual Command and Option remapping for Mac use. Choose this over Graphite purely on color preference, since the underlying remapping requirement and ergonomic design are identical.\n\nIf correct out-of-box Mac labeling matters more than color choice, the dedicated Wave Keys for Mac variant remains the better fit despite its higher price and off-white-only color option.",
+    specs: ["Standard Windows-oriented keycap layout", "Bluetooth wireless connectivity", "One-piece wave frame, single battery", "Rose colorway"],
+    pros: ["Same wave ergonomic design as the Graphite version", "Distinct Rose colorway option", "Works with Mac after manual remapping", "Solid review base"],
+    cons: ["Requires manual Command/Option remapping for Mac use", "No native Mac keycap legends", "Verify macOS media key support before buying"],
+    bestFor: "Mac users who want the Wave Keys design in a Rose colorway and accept remapping",
+  },
+  {
+    id: "protoarc-ekm02-wave-combo-mac",
+    rank: 8,
+    badge: "Best Keyboard and Mouse Combo, Mac-Usable via Remapping",
+    name: "ProtoArc EKM02 Wave Keys Ergonomic Wireless Keyboard and Mouse, Black",
+    price: "$65.99",
+    rating: "4.8 stars from Amazon ratings",
+    reviews: "46 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41tPXfJxdzL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GQ95XNQX?tag=deskfinds0d-20",
+    description:
+      "A wave-style keyboard and mouse combo carrying the highest rating in this guide, usable on a Mac over Bluetooth after remapping modifier keys the same way as the other Windows-oriented picks above. Buying keyboard and mouse together avoids sourcing a separate ergonomic mouse for Mac use.\n\nIts small review base makes the high rating an early signal rather than a fully proven track record, and as with any non-dedicated Mac product, verify macOS media key behavior before assuming complete native support.",
+    specs: ["Standard Windows-oriented keycap layout", "Bluetooth wireless keyboard and mouse combo", "Wave ergonomic frame", "May require manual Mac key remapping"],
+    pros: ["Highest rating among Mac-usable picks in this guide", "Matched keyboard and mouse in one purchase", "Works with Mac after manual remapping", "Wireless, no cable clutter"],
+    cons: ["Smaller verified review base than established picks", "No native Mac keycap legends", "Requires manual Command/Option remapping"],
+    bestFor: "Mac users who want a matched keyboard and mouse combo and accept remapping",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -117,6 +185,10 @@ export const howToChoose: HowToChooseSection[] = [
         ["Strongest split ergonomic benefit, remapping accepted", "Logitech Ergo K860"],
         ["Budget wave design, remapping accepted", "Logitech Wave Keys Graphite"],
         ["Premium build, remapping accepted", "Microsoft Surface Ergonomic"],
+        ["Backlit and number pad, remapping accepted", "ProtoArc EK01 Plus Full Size Black"],
+        ["Backlit at a lower price, remapping accepted", "ProtoArc EK01 Plus Full Size Gray"],
+        ["Wave Keys design in Rose colorway", "Logitech Wave Keys Rose"],
+        ["Matched keyboard and mouse combo", "ProtoArc EKM02 Wave Combo"],
       ],
     },
   },

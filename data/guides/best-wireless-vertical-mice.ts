@@ -1,8 +1,8 @@
 export const guideSlug = "best-wireless-vertical-mice";
-export const guideTitle = "5 Best Wireless Vertical Mice in 2026";
+export const guideTitle = "8 Best Wireless Vertical Mice in 2026";
 export const metaTitle = "Best Wireless Vertical Mice 2026";
 export const metaDescription =
-  "We compared 5 wireless vertical mice on dongle versus Bluetooth reliability, battery type, and signal range for real desk setups.";
+  "We compared 8 wireless vertical mice on dongle versus Bluetooth reliability, battery type, and signal range for real desk setups.";
 export const mainKeyword = "best wireless vertical mice";
 export const introParagraphs = [
   "'Wireless' covers two genuinely different methods, a 2.4GHz USB dongle or Bluetooth, and they behave differently in practice. A dongle generally connects faster and holds a more consistent connection in busy signal environments, while Bluetooth trades some of that reliability for not needing a free USB port. Check which method (or both) a specific mouse uses before assuming 'wireless' means the same experience across every pick.",
@@ -105,6 +105,57 @@ export const products: GuideProduct[] = [
     cons: ["No Bluetooth option", "Smaller review base than the top picks in this guide", "Dongle storage should be confirmed before buying"],
     bestFor: "Budget-conscious buyers who want a rechargeable dongle-based mouse without paying for Bluetooth.",
   },
+  {
+    id: "b0dvd5rtz5-wl",
+    rank: 6,
+    badge: "Best Wireless Pick for Extra Buttons",
+    name: "Razer Pro Click V2 Vertical Wireless Mouse, 6 Button Ergonomic Design",
+    price: "$99.99",
+    rating: "4.0 stars from Amazon ratings",
+    reviews: "461 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41DVlxxe4WL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DVD5RTZ5?tag=deskfinds0d-20",
+    description:
+      "A 6-button wireless layout gives more programmable shortcuts than most picks in this guide, useful for buyers who want productivity remapping across their wireless setup.\n\nIts review base is smaller and the average rating is more moderate than the other picks here, so weigh that against the extra buttons and rechargeable convenience before choosing this over a better-reviewed alternative.",
+    specs: ["Wireless connectivity", "6 programmable buttons", "Rechargeable battery", "Premium price point"],
+    pros: ["More programmable buttons than most wireless vertical mice", "Rechargeable battery", "Ergonomic vertical body", "Software support for button remapping"],
+    cons: ["Smaller review base and more moderate 4.0-star rating", "Premium price relative to its rating", "Dongle storage and range not independently confirmed"],
+    bestFor: "Buyers who want more programmable buttons over a wireless connection and are comfortable with a smaller review sample.",
+  },
+  {
+    id: "b0gnmpgm7g-wl",
+    rank: 7,
+    badge: "Best Small-Hand Wireless Pick",
+    name: "Luhaso Ergonomic Vertical Wireless Mouse, 57 degree, Small/Medium Hands",
+    price: "$19.99",
+    rating: "4.7 stars from Amazon ratings",
+    reviews: "57 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31ttLEqu0hL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GNMPGM7G?tag=deskfinds0d-20",
+    description:
+      "A wireless vertical mouse explicitly sized for small to medium hands, with a very strong review rating though on a small sample size worth weighing against the more established picks in this guide.\n\nCheck the current listing for whether it uses a 2.4GHz dongle, Bluetooth, or both, since this detail matters if you plan to pair it across multiple devices.",
+    specs: ["Explicit small/medium hand sizing", "57-degree tilt angle", "Wireless connectivity", "Budget price point"],
+    pros: ["Genuinely sized for small to medium hands", "Very strong review rating", "Budget-friendly price", "Disclosed tilt angle"],
+    cons: ["Small review sample size, verify current feedback", "Wireless method (dongle versus Bluetooth) should be confirmed in the listing", "Less established brand track record than premium picks"],
+    bestFor: "Buyers with small to medium hands who want a low-cost wireless mouse genuinely sized for their hand size.",
+  },
+  {
+    id: "b0f9pdryzk-wl",
+    rank: 8,
+    badge: "Best Wireless Pick for Casual Gaming",
+    name: "Attoe Gaming Mouse with 5D Rocker, Wireless Vertical Mouse with 2400 DPI",
+    price: "$35.99",
+    rating: "4.4 stars from Amazon ratings",
+    reviews: "116 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41XVdqDE3aL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0F9PDRYZK?tag=deskfinds0d-20",
+    description:
+      "A wireless vertical mouse with a 2400 DPI sensor and a 5D rocker button for extra controls, a reasonable crossover pick if you want a single wireless mouse for both office use and casual gaming.\n\nIts review sample is small, so verify current buyer feedback on wireless connection stability before relying on it for daily use.",
+    specs: ["2400 DPI sensor", "5D rocker button for extra controls", "Wireless connectivity", "Small review sample"],
+    pros: ["Wireless connectivity with a genuinely extra control input", "Budget-friendly price for the feature set", "Works for both office and casual gaming use", "5D rocker button adds versatility"],
+    cons: ["Small review sample size, verify current buyer feedback", "2400 DPI ceiling is modest compared to dedicated gaming mice", "Wireless method not fully detailed in the listing"],
+    bestFor: "Buyers who want one wireless mouse that reasonably covers both office tasks and casual gaming.",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -135,6 +186,9 @@ export const howToChoose: HowToChooseSection[] = [
         ["Rechargeable value on a single desk", "Lekvey Ergonomic Rechargeable Mouse"],
         ["Compact body with dual connectivity", "Logitech Lift Vertical"],
         ["Rechargeable dongle mouse on a budget", "ProtoArc EM11 NL Wireless"],
+        ["More programmable buttons wirelessly", "Razer Pro Click V2 Vertical"],
+        ["Small-hand-specific wireless fit", "Luhaso Ergonomic Vertical Wireless Mouse"],
+        ["One wireless mouse for office and casual gaming", "Attoe Gaming Mouse with 5D Rocker"],
       ],
     },
   },

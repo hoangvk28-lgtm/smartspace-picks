@@ -2,7 +2,7 @@ export const guideSlug = "best-portable-ergonomic-keyboards";
 export const guideTitle = "4 Best Portable Ergonomic Keyboards in 2026";
 export const metaTitle = "Best Portable Ergonomic Keyboards 2026";
 export const metaDescription =
-  "4 portable ergonomic keyboards we evaluated honestly for how much true split or foldable ergonomic benefit survives the trip to a smaller travel footprint.";
+  "4 portable ergonomic keyboards we evaluated for how much true split or foldable ergonomic benefit survives a smaller travel footprint, with case notes.";
 export const mainKeyword = "portable ergonomic keyboard";
 export const introParagraphs = [
   "Portability and genuine ergonomic benefit are frequently in tension, a truly compact travel keyboard often has to sacrifice some of the split or tenting features that make an ergonomic keyboard actually helpful, worth stating this tradeoff directly rather than assuming 'portable' and 'ergonomic' are automatically compatible. It's worth distinguishing genuinely foldable or split-and-collapsible keyboards that retain real ergonomic benefit from keyboards that are simply smaller and more travel-friendly while sacrificing more of the ergonomic design in the process.",
@@ -71,6 +71,23 @@ export const products: GuideProduct[] = [
     cons: ["Higher combined weight than a keyboard-only pick", "Verify true split ergonomic benefit versus folding compactness", "Higher price than standalone folding keyboards"],
     bestFor: "Business travelers who want a matched folding keyboard and mouse set in one purchase",
   },
+  {
+    id: "perixx-periduo-606ii-compact",
+    rank: 4,
+    badge: "Best Compact 2-in-1 Travel Pick",
+    name: "Perixx PERIDUO-606II 2-in-1 Wireless Compact Ergonomic Keyboard",
+    price: "$69.99",
+    rating: "4.7 stars from Amazon ratings",
+    reviews: "21 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/3120zwwhcDL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GMQMKVKF?tag=deskfinds0d-20",
+    description:
+      "A compact 2-in-1 wireless keyboard built around a smaller travel-friendly footprint rather than a fully split or folding mechanism, useful for buyers who want a smaller keyboard for a bag without a hinge to manage. It carries the highest rating among the picks in this guide, though its review base is still small.\n\nSince it isn't a genuinely split or folding design, its ergonomic benefit leans more toward the compact-size end of the tradeoff described in this guide's intro, worth comparing against the MEETION and ProtoArc folding picks if retaining maximum split ergonomic benefit while traveling matters more than sheer size.",
+    specs: ["Compact 2-in-1 wireless design", "Smaller travel footprint, no folding hinge", "Highest rating among picks in this guide", "Rechargeable battery"],
+    pros: ["Highest rating among portable picks here", "No folding hinge to wear out over repeated trips", "Genuinely compact footprint for a bag", "Rechargeable battery"],
+    cons: ["Smaller verified review base", "Less split ergonomic benefit than a genuinely split or foldable pick", "Not a folding design, so footprint reduction is more modest"],
+    bestFor: "Travelers who want a smaller compact keyboard without a folding hinge to manage",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -99,6 +116,7 @@ export const howToChoose: HowToChooseSection[] = [
         ["Genuine split ergonomic benefit while folding", "MEETION Foldable Split"],
         ["Cross-device use with tablets and phones", "ProtoArc XK03 Foldable"],
         ["Matched keyboard and mouse for business travel", "ProtoArc XKM03 Foldable Combo"],
+        ["Smaller footprint without a folding hinge", "Perixx PERIDUO-606II Compact"],
       ],
     },
   },

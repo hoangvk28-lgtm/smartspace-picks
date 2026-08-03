@@ -1,8 +1,8 @@
 export const guideSlug = "best-vertical-ergonomic-keyboards";
-export const guideTitle = "3 Best 'Vertical' Ergonomic Keyboards in 2026 (Split and Tented, Explained)";
+export const guideTitle = "6 Best 'Vertical' Ergonomic Keyboards in 2026 (Split and Tented, Explained)";
 export const metaTitle = "Best Vertical Ergonomic Keyboards";
 export const metaDescription =
-  "Before you search further: genuinely vertical-tilt keyboards are rare. We clarify the split vs tented vs vertical terminology and evaluate the closest options.";
+  "Genuinely vertical-tilt keyboards are rare, so we clarify split vs tented vs vertical terminology and evaluate the closest verified split and tented options.";
 export const mainKeyword = "vertical ergonomic keyboard";
 export const introParagraphs = [
   "It's worth clarifying terminology before recommending anything here, a 'vertical ergonomic keyboard' in the truest sense, one with the entire key surface tilted up on its side similar to a vertical mouse, is a genuinely rare product category, much rarer than split or tented keyboards which are frequently mislabeled as 'vertical' in search results and product titles. Split means the keyboard is divided into two halves that can be positioned apart, tented means the halves are angled upward toward the center, and vertical in the strictest sense means the whole board is tilted onto its side, these are three different things and we won't call a product 'vertical' if its actual design is split or tented.",
@@ -71,6 +71,57 @@ export const products: GuideProduct[] = [
     cons: ["Not a true vertical-tilt keyboard", "Fixed split angle, not tenting-adjustable", "Smaller review base than the Perixx or Logitech picks here"],
     bestFor: "Buyers wanting a wireless split, tented option while understanding it isn't a true vertical-tilt design",
   },
+  {
+    id: "arteck-split-wired-backlit-tented",
+    rank: 4,
+    badge: "Best Backlit Split and Tented Pick",
+    name: "Arteck Split Ergonomic Keyboard with Palm Rest, USB Wired Backlit Keyboard",
+    price: "$53.99",
+    rating: "4.3 stars from Amazon ratings",
+    reviews: "1,166 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/51mIgAEAexL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CGL8X4H6?tag=deskfinds0d-20",
+    description:
+      "To be direct, this is a split, angled keyboard, not a true vertical-tilt design, the same terminology distinction that applies to every pick in this guide. It adds backlit keys to the same split, tented layout as the wireless Arteck pick above, connecting over wired USB instead.\n\nWe're being explicit again here because this exact product sometimes surfaces in 'vertical keyboard' searches due to loose category labeling, its actual design is split and tented, not vertical.",
+    specs: ["Split, angled layout (not true vertical-tilt)", "Backlit keys", "Wired USB connection", "Built-in cushioned palm rest"],
+    pros: ["True split, angled layout with backlit keys", "Built-in palm rest, no extra purchase", "No battery to manage", "Solid review base"],
+    cons: ["Not a true vertical-tilt keyboard", "Fixed split angle, not adjustable", "Limited backlighting value for touch typists"],
+    bestFor: "Buyers wanting a backlit split, tented option while understanding it isn't a true vertical-tilt design",
+  },
+  {
+    id: "nulea-split-cushioned-tented",
+    rank: 5,
+    badge: "Best Cushioned Split and Tented Pick",
+    name: "Nulea Wireless Ergonomic Keyboard, Split Keyboard with Cushioned Wrist Rest",
+    price: "$49.99",
+    rating: "4.2 stars from Amazon ratings",
+    reviews: "541 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41M-dFoGk+L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0F1TLPDWT?tag=deskfinds0d-20",
+    description:
+      "Again, to be direct, this is a split keyboard with a cushioned wrist rest, not a true vertical-tilt design despite sometimes appearing in loosely labeled 'vertical keyboard' search results. Its dedicated cushioned wrist rest is a genuine feature worth noting alongside the split, tented layout shared by the other picks in this guide.\n\nAs with every pick here, we're calling this split, not vertical, terminology accuracy matters more than matching a search term loosely.",
+    specs: ["Split layout (not true vertical-tilt)", "Cushioned wrist rest", "Wireless connectivity", "Mid-range price point"],
+    pros: ["True split layout for neutral wrist positioning", "Dedicated cushioned wrist rest", "Reasonable mid-range price", "Wireless, no cable clutter"],
+    cons: ["Not a true vertical-tilt keyboard", "Smaller verified review base than the top picks here", "Adjustment period for new split-layout users"],
+    bestFor: "Buyers wanting a cushioned split option while understanding it isn't a true vertical-tilt design",
+  },
+  {
+    id: "logitech-wave-keys-one-piece-not-split",
+    rank: 6,
+    badge: "One-Piece Wave Pick (Not Split, Not Vertical)",
+    name: "Logitech Wave Keys Wireless Ergonomic Keyboard - Graphite",
+    price: "$59.99",
+    rating: "4.3 stars from Amazon ratings",
+    reviews: "2,972 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/4114VdW9JcL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0BTNY72VD?tag=deskfinds0d-20",
+    description:
+      "To be fully accurate, this is neither split nor tented, it's a one-piece wave-shaped keyboard with a gentle curve across a single frame, included here only because it's a common alternative buyers researching 'vertical' keyboards end up considering once they learn true vertical-tilt options are rare and thinly reviewed. It does not separate into two halves the way every other pick in this guide does.\n\nIf the split or tented ergonomic benefit is actually what you're after, choose one of the genuinely split picks above instead, this one-piece design is a gentler, lower-commitment alternative, not a substitute for split or tented positioning.",
+    specs: ["One-piece wave-shaped frame (not split, not tented)", "Cushioned attached palm rest", "Bluetooth or USB receiver", "Minimal adjustment period"],
+    pros: ["Minimal adjustment period versus any split option", "Attached palm rest, no separate purchase", "Reliable multi-device wireless", "Solid review base"],
+    cons: ["Not split, tented, or true vertical-tilt", "Cannot be positioned shoulder-width apart", "Less ergonomic benefit than the split picks in this guide"],
+    bestFor: "Buyers who searched 'vertical' but decide a gentler one-piece curve suits them better than a split layout",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -99,6 +150,9 @@ export const howToChoose: HowToChooseSection[] = [
         ["Most reviewed split, tented option", "Logitech Ergo K860"],
         ["Lowest-cost way to test split, tented ergonomics", "Perixx PERIBOARD-512B"],
         ["Wireless split, tented option", "Arteck Split Ergonomic 2.4G"],
+        ["Backlit split, tented option", "Arteck Split Wired Backlit"],
+        ["Cushioned split option", "Nulea Split Cushioned"],
+        ["Gentler one-piece alternative (not split)", "Logitech Wave Keys Graphite"],
       ],
     },
   },

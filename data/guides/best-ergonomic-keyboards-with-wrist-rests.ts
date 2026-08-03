@@ -1,8 +1,8 @@
 export const guideSlug = "best-ergonomic-keyboards-with-wrist-rests";
-export const guideTitle = "5 Best Ergonomic Keyboards with Wrist Rests in 2026";
+export const guideTitle = "8 Best Ergonomic Keyboards with Wrist Rests in 2026";
 export const metaTitle = "Ergonomic Keyboards with Wrist Rests 2026";
 export const metaDescription =
-  "5 ergonomic keyboards with wrist rests we evaluated for firmness, angle, and built-in vs detachable design, plus the resting-vs-hovering habit that matters.";
+  "8 ergonomic keyboards with wrist rests we evaluated for firmness, angle, and built-in vs detachable design, plus the resting-vs-hovering habit that matters.";
 export const mainKeyword = "ergonomic keyboard with wrist rest";
 export const introParagraphs = [
   "Before comparing specific wrist rests, it's worth correcting a common misconception, most ergonomic guidance recommends hovering your wrists while actively typing and resting them on the wrist rest only during pauses, continuous resting while typing can actually increase strain rather than relieve it. With that in mind, wrist rest firmness and angle are genuine differentiating specs worth comparing, not a single 'has a wrist rest' checkbox every keyboard either passes or fails.",
@@ -105,6 +105,57 @@ export const products: GuideProduct[] = [
     cons: ["Verify rest length against the split width on current listing", "Verify detachability if cleaning or replacement matters", "Fixed split angle, not tenting-adjustable"],
     bestFor: "Budget-conscious buyers wanting a genuinely split keyboard with a cushioned rest included",
   },
+  {
+    id: "arteck-split-wired-backlit-wristrest",
+    rank: 6,
+    badge: "Best Backlit Wrist Rest Pick",
+    name: "Arteck Split Ergonomic Keyboard with Palm Rest, USB Wired Backlit Keyboard",
+    price: "$53.99",
+    rating: "4.3 stars from Amazon ratings",
+    reviews: "1,166 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/51mIgAEAexL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CGL8X4H6?tag=deskfinds0d-20",
+    description:
+      "A built-in cushioned palm rest paired with a split, backlit layout, connecting over wired USB rather than the 2.4G receiver on the other Arteck pick in this guide. Verify current listings for rest length relative to this keyboard's split width, the same consideration that applies to any wide split frame.\n\nAs with every pick here, hover your wrists while actively typing and use the rest only during pauses, backlighting doesn't change the correct usage habit.",
+    specs: ["Cushioned wrist and palm rest", "Split, angled key layout", "Backlit keys", "Wired USB connection"],
+    pros: ["Built-in cushioned rest, no extra purchase", "True split, angled layout", "Backlit keys for low-light use", "No battery to manage"],
+    cons: ["Verify rest length adequately spans the split width", "Fixed split angle, not tenting-adjustable", "Rest material breathability not independently verified"],
+    bestFor: "Buyers who want a cushioned rest paired with a backlit, wired split keyboard",
+  },
+  {
+    id: "reccazr-wired-wristrest-2",
+    rank: 7,
+    badge: "Best Budget Attached Wrist Rest Pick",
+    name: "RECCAZR Ergonomic Keyboard, Wired Computer USB Keyboard with Wrist Rest",
+    price: "$29.98",
+    rating: "4.3 stars from Amazon ratings",
+    reviews: "280 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/419u8a5c96L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DMDJB6G2?tag=deskfinds0d-20",
+    description:
+      "An attached wrist rest at the lowest price in this guide, plugging in over a single wired USB cable with no battery to manage. Verify the current listing for whether the rest is detachable for cleaning, and check its length against the keyboard's own width before assuming full support.\n\nAs with every pick here, hover your wrists while actively typing and rest them only during pauses, correct usage matters more than which specific rest you choose.",
+    specs: ["Attached wrist rest", "Wired USB connection", "Curved ergonomic layout", "Lowest price in this guide"],
+    pros: ["Lowest price of any pick in this guide", "Attached wrist rest included", "No battery to manage", "Simple plug-and-play setup"],
+    cons: ["Smaller verified review base than other picks here", "Verify detachability on current listing", "Basic build materials at this price"],
+    bestFor: "Budget-conscious buyers who want the lowest-cost attached wrist rest option",
+  },
+  {
+    id: "meetion-wired-backlit-wristrest-2",
+    rank: 8,
+    badge: "Best Budget Backlit Wrist Rest Pick",
+    name: "MEETION Wired Ergonomic Keyboard with Backlit Keys and Wrist Rest",
+    price: "$35.99",
+    rating: "3.4 stars from Amazon ratings",
+    reviews: "21 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41kuxYbya+L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GXKJWH2H?tag=deskfinds0d-20",
+    description:
+      "A backlit keyboard with an attached wrist rest at a low price, drawing illumination power directly from the USB port so there's no battery-life tradeoff from the backlighting. Its rating and review base are both notably lower than the other picks in this guide, worth treating as a lighter-weight signal until more buyer feedback accumulates.\n\nAs with the RECCAZR pick above, verify current listings for rest detachability and length against the keyboard's width, and remember to hover while actively typing regardless of which rest you choose.",
+    specs: ["Attached wrist rest", "Backlit keys, wired power (no battery drain)", "Curved ergonomic layout", "Budget price point"],
+    pros: ["No battery-life tradeoff since it's wired", "Attached wrist rest included", "Budget price point", "Backlit keys for low-light typing"],
+    cons: ["Lowest rating among picks in this guide", "Smallest verified review base here", "Verify detachability on current listing"],
+    bestFor: "Budget buyers who want a backlit keyboard with an attached wrist rest, aware of its limited review history",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -135,6 +186,9 @@ export const howToChoose: HowToChooseSection[] = [
         ["Simple attached rest, low commitment", "Logitech Wave Keys Graphite"],
         ["Cushioned rest with a stable wireless split", "Arteck Split Ergonomic 2.4G"],
         ["Budget split with a cushioned rest", "Nulea Split Ergonomic"],
+        ["Backlit split rest, wired", "Arteck Split Wired Backlit"],
+        ["Lowest price, attached rest", "RECCAZR Wired Wrist Rest"],
+        ["Backlit, budget attached rest", "MEETION Wired Backlit Wrist Rest"],
       ],
     },
   },

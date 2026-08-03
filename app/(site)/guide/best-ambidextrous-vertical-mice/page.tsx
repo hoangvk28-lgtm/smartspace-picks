@@ -144,7 +144,7 @@ export default async function Page() {
     author: { "@type": "Person", name: "Jamie Cole", url: `${SITE_URL}/author/jamie-cole` },
     publisher: { "@type": "Organization", name: "DeskFinds", url: SITE_URL },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/guide/best-ambidextrous-vertical-mice` },
-    about: [{"@type":"Thing","name":"The Best Ambidextrous Vertical Mouse"}],
+    about: [{"@type":"Thing","name":"Best Ambidextrous Vertical Mice"}],
   };
 
   const breadcrumbSchema = {
@@ -153,7 +153,7 @@ export default async function Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "The Best Ambidextrous Vertical Mouse", item: `${SITE_URL}/guide/best-ambidextrous-vertical-mice` },
+      { "@type": "ListItem", position: 3, name: "Best Ambidextrous Vertical Mice", item: `${SITE_URL}/guide/best-ambidextrous-vertical-mice` },
     ],
   };
 
@@ -182,7 +182,7 @@ export default async function Page() {
           <span>/</span>
           <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
-          <span className="text-ink">The Best Ambidextrous Vertical Mouse</span>
+          <span className="text-ink">Best Ambidextrous Vertical Mice</span>
         </nav>
 
         <header className="mb-8">
@@ -223,7 +223,7 @@ export default async function Page() {
         </div>
 
         <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-bg">
-          <Image src={heroImg} alt="The Best Ambidextrous Vertical Mouse" width={900} height={420} className="w-full h-auto object-contain" priority unoptimized />
+          <Image src={heroImg} alt="Best Ambidextrous Vertical Mice" width={900} height={420} className="w-full h-auto object-contain" priority unoptimized />
         </div>
 
         <section className="mb-10">
@@ -263,12 +263,12 @@ export default async function Page() {
 
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>True ambidextrous ergonomic design is inherently harder to pull off than a handed-specific design, because natural hand curvature genuinely differs between the left and right hand. Most vertical mice marketed as ambidextrous represent a compromise rather than an optimized fit for either hand, and many products don't clearly state ambidextrous capability in their titles or specs at all, which makes it hard to verify the claim from listing data alone rather than guessing.</p>
-          <p>From the verified product pool available to us, only one model has a design history and adjustable structure consistent with genuine ambidextrous use, rather than a symmetric shape that quietly sacrifices the pronounced curve and thumb rest that make handed-specific mice comfortable. We're keeping this guide to that single verified pick rather than padding it with products whose ambidextrous claims we can't back up from the actual listing text. If a true handed-specific design would serve you better, our left-handed and right-handed vertical mice guides are a better starting point.</p>
+          <p>From the verified product pool available to us, two models have a design history or an explicit title claim consistent with genuine ambidextrous use, rather than a symmetric shape that quietly sacrifices the pronounced curve and thumb rest that make handed-specific mice comfortable. We're keeping this guide to those two verified picks rather than padding it with products whose ambidextrous claims we can't back up from the actual listing text. If a true handed-specific design would serve you better, our left-handed and right-handed vertical mice guides are a better starting point.</p>
         </section>
 
         {buyingCriteria.length > 0 && (
           <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
-            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">{buyingCriteria.length} Criteria to Look For Before Buying a The Best Ambidextrous Vertical Mouse</h2>
+            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">{buyingCriteria.length} Criteria to Look For Before Buying a Ambidextrous Vertical Mice</h2>
             <p className="text-sm text-ink-muted mb-5">Key buying criteria so you get the right fit the first time.</p>
             <div className="grid sm:grid-cols-2 gap-4">
               {buyingCriteria.map((item, i) => (
@@ -301,7 +301,7 @@ export default async function Page() {
 
         {howWeEvaluated.length > 0 && (
           <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
-            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">How We Evaluated These The Best Ambidextrous Vertical Mouse</h2>
+            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">How We Evaluated These Ambidextrous Vertical Mice</h2>
             <p className="text-sm text-ink-muted mb-5">Each pick was assessed across {howWeEvaluated.length} criteria weighted for real-world use.</p>
             <div className="grid sm:grid-cols-2 gap-4">
               {howWeEvaluated.map((item, i) => (
@@ -316,7 +316,7 @@ export default async function Page() {
 
         {howToChoose.length > 0 && (
           <section className="mb-14">
-            <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">How to Choose the Right The Best Ambidextrous Vertical Mouse</h2>
+            <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">How to Choose the Right Ambidextrous Vertical Mice</h2>
             <div className="space-y-8">
               {howToChoose.map((sub, i) => (
                 <div key={i}>

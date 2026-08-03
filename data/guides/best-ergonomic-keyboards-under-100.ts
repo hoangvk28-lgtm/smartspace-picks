@@ -1,8 +1,8 @@
 export const guideSlug = "best-ergonomic-keyboards-under-100";
-export const guideTitle = "5 Best Ergonomic Keyboards Under $100 in 2026";
+export const guideTitle = "8 Best Ergonomic Keyboards Under $100 in 2026";
 export const metaTitle = "Best Ergonomic Keyboards Under $100";
 export const metaDescription =
-  "5 ergonomic keyboards genuinely under $100 we evaluated, verifying every listed price and setting modest, realistic expectations for first-time buyers.";
+  "8 ergonomic keyboards genuinely under $100 we evaluated, verifying every listed price and setting modest, realistic expectations for first-time buyers.";
 export const mainKeyword = "ergonomic keyboard under 100";
 export const introParagraphs = [
   "Every product in this guide is verified at a price genuinely under $100 based on current listing data at the time of writing, keyboard pricing shifts often enough that we recommend double-checking the live price before purchase rather than assuming it holds indefinitely. This price ceiling carries forward the same design-tier questions covered in our budget ergonomic keyboard research, some of these picks deliver genuine split layouts, useful to verify against a one-piece design marketed as ergonomic at a similar price.",
@@ -105,6 +105,57 @@ export const products: GuideProduct[] = [
     cons: ["Highest price in this guide, though still under $100", "Verify single vs dual dongle architecture on current listing", "Check current listing for specific warranty terms"],
     bestFor: "Buyers wanting a matched keyboard and mouse combo while staying under a $100 total budget",
   },
+  {
+    id: "x9-wired-ergonomic-under100",
+    rank: 6,
+    badge: "Best Lowest-Price One-Piece Pick Under $100",
+    name: "X9 Wired Ergonomic Keyboard - Comfortable Typing, Ergonomic Full Size",
+    price: "$29.99",
+    rating: "4.5 stars from Amazon ratings",
+    reviews: "1,141 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41LVGOn5JLL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B08G1WNS6F?tag=deskfinds0d-20",
+    description:
+      "Verified at $29.99, one of the lowest prices in this guide, a one-piece curved keyboard rather than a genuine split design, worth being direct about that tradeoff at this price. Its high rating relative to price is a reasonable signal for a low-risk first purchase.\n\nIts wired connection removes battery management from the equation, and as with any one-piece design under $100, expect a shorter adjustment period than the genuine split picks above, at the cost of less ergonomic benefit.",
+    specs: ["Verified price $29.99, well under $100", "One-piece curved ergonomic frame", "Wired USB connection", "Full-size layout"],
+    pros: ["Verified genuinely under $100, one of the lowest prices here", "High rating relative to price", "No battery to manage", "Minimal adjustment period versus a true split"],
+    cons: ["One-piece shape, not a true split design", "Basic build materials at this price", "Check current listing for specific warranty length"],
+    bestFor: "First-time buyers wanting the lowest-cost entry point under $100",
+  },
+  {
+    id: "reccazr-wired-under100",
+    rank: 7,
+    badge: "Best Pick with Included Wrist Rest Under $100",
+    name: "RECCAZR Ergonomic Keyboard, Wired Computer USB Keyboard with Wrist Rest",
+    price: "$29.98",
+    rating: "4.3 stars from Amazon ratings",
+    reviews: "280 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/419u8a5c96L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DMDJB6G2?tag=deskfinds0d-20",
+    description:
+      "Verified at $29.98, nearly identical in price to the X9 pick above but with an attached wrist rest included, a small added value at this price point. As with the X9, this is a one-piece design rather than genuine split, verify your ergonomic expectations against what this price tier actually delivers.\n\nIts smaller verified review base than the split picks in this guide means less long-term reliability data, worth checking current buyer feedback for durability signals.",
+    specs: ["Verified price $29.98, well under $100", "Attached wrist rest", "Wired USB connection", "Curved ergonomic layout"],
+    pros: ["Verified genuinely under $100", "Attached wrist rest included at a low price", "No battery to manage", "Simple plug-and-play setup"],
+    cons: ["One-piece shape, not a true split design", "Smaller verified review base than other picks here", "Check current listing for specific warranty length"],
+    bestFor: "Budget buyers under $100 who want an included wrist rest without paying more for one",
+  },
+  {
+    id: "wired-rgb-gaming-membrane-under100",
+    rank: 8,
+    badge: "Best Lowest Overall Price Under $100",
+    name: "Wired RGB Gaming Membrane Keyboard, 100 Percent Mini Creamy LED",
+    price: "$22.90",
+    rating: "4.6 stars from Amazon ratings",
+    reviews: "53 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41yeJ-XPp7L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0F66LFC8Q?tag=deskfinds0d-20",
+    description:
+      "Verified at $22.90, the single lowest price in this entire guide, a compact wired keyboard with RGB backlighting rather than a curved or split ergonomic frame. Buyers specifically seeking wrist-angle relief should treat this as a budget compact option rather than a true ergonomic pick, and compare it against the genuinely split picks above if ergonomic benefit is the priority.\n\nIts high rating relative to price and compact footprint make it a reasonable secondary keyboard for a tight desk, though it lacks the split or curved design that defines most other picks in this guide.",
+    specs: ["Verified price $22.90, lowest in this guide", "Compact mini layout", "RGB backlighting", "Wired USB connection"],
+    pros: ["Verified genuinely under $100, lowest price in this guide", "Compact footprint for tight desks", "High rating relative to price", "No battery to manage"],
+    cons: ["Flat layout, not curved or split for ergonomic relief", "Smaller verified review base than top picks here", "Limited value for genuine wrist-angle relief"],
+    bestFor: "Budget buyers under $100 who want the lowest possible price and don't need a split or curved frame",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -135,6 +186,9 @@ export const howToChoose: HowToChooseSection[] = [
         ["Genuine split, wireless under $100", "Arteck Split Ergonomic 2.4G"],
         ["Genuine split with backlighting under $100", "Arteck Split Wired Backlit"],
         ["Matched combo under $100 total", "ProtoArc EKM01 Plus Combo"],
+        ["Lowest-price one-piece option", "X9 Wired Ergonomic Keyboard"],
+        ["Included wrist rest at a low price", "RECCAZR Wired Wrist Rest"],
+        ["Absolute lowest price in this guide", "Wired RGB Gaming Membrane Mini"],
       ],
     },
   },

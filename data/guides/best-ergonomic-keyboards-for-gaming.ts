@@ -1,8 +1,8 @@
 export const guideSlug = "best-ergonomic-keyboards-for-gaming";
-export const guideTitle = "4 Best Ergonomic Keyboards for Gaming in 2026";
+export const guideTitle = "6 Best Ergonomic Keyboards for Gaming in 2026";
 export const metaTitle = "Best Ergonomic Keyboards for Gaming 2026";
 export const metaDescription =
-  "4 ergonomic keyboards for gaming we evaluated honestly for the WASD-cluster tradeoff, N-key rollover, and semi-split versus fully split gaming comfort.";
+  "6 ergonomic keyboards for gaming we evaluated honestly for the WASD-cluster tradeoff, N-key rollover, and semi-split versus fully split gaming comfort.";
 export const mainKeyword = "ergonomic keyboard for gaming";
 export const introParagraphs = [
   "A fully split ergonomic keyboard physically separates the WASD cluster from the rest of the layout, which disrupts simultaneous multi-key combinations and muscle memory built up over years of gaming on a standard board, worth stating this tradeoff directly rather than assuming any 'ergonomic gaming keyboard' works the same way a standard one does. A semi-split or one-piece curved layout keeps the WASD cluster intact and is generally the gaming-friendlier choice, at the cost of some of the larger ergonomic benefit a fully split design offers.",
@@ -88,6 +88,40 @@ export const products: GuideProduct[] = [
     cons: ["WASD cluster is physically split, disrupting muscle memory", "Smaller review base, verify current feedback", "Longer adjustment period than semi-split alternatives"],
     bestFor: "Gamers prioritizing true split ergonomic benefit who accept a real WASD adjustment period",
   },
+  {
+    id: "ragnok-split-mechanical-gaming",
+    rank: 5,
+    badge: "Best RGB Split Mechanical Pick for Gaming",
+    name: "RAGNOK Ergonomic Mechanical Keyboard, Split Keyboard Wireless with RGB",
+    price: "$99.99",
+    rating: "4.1 stars from Amazon ratings",
+    reviews: "11 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/412SZO4U0rL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GW95B1Z8?tag=deskfinds0d-20",
+    description:
+      "A genuinely split mechanical keyboard with RGB lighting and wireless connectivity, appropriate for gamers who want the full ergonomic benefit of a split layout with the visual customization typically found on dedicated gaming boards. As with the Royal Kludge Alice pick above, expect a real WASD-cluster adjustment period since this is a true split, not a semi-split design.\n\nIts small review base means less long-term data than the other picks in this guide, verify current buyer feedback for N-key rollover specifics before relying on it for competitive timing-sensitive play.",
+    specs: ["Genuine mechanical switches", "Split, wireless ergonomic frame", "RGB backlighting", "Two-piece design"],
+    pros: ["True split mechanical layout with RGB customization", "Wireless connectivity", "Strongest ergonomic benefit alongside the Alice split pick", "Reasonable price for a split mechanical gaming board"],
+    cons: ["Smallest verified review base in this guide", "WASD cluster is physically split, disrupting muscle memory", "Verify N-key rollover on current listing before competitive use"],
+    bestFor: "Gamers who want true split ergonomics with RGB lighting and accept a WASD adjustment period",
+  },
+  {
+    id: "wired-rgb-gaming-membrane-compact",
+    rank: 6,
+    badge: "Best Budget Compact Gaming Pick",
+    name: "Wired RGB Gaming Membrane Keyboard, 100 Percent Mini Creamy LED",
+    price: "$22.90",
+    rating: "4.6 stars from Amazon ratings",
+    reviews: "53 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41yeJ-XPp7L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0F66LFC8Q?tag=deskfinds0d-20",
+    description:
+      "A compact wired gaming keyboard with RGB lighting at the lowest price in this guide, keeping the full WASD cluster intact on a standard layout rather than any split or curved ergonomic frame. It's a membrane keyboard rather than mechanical, so buyers expecting mechanical tactile feedback should compare it against the Cloud Nine or AULA picks above.\n\nIts compact footprint and wired connection suit budget-conscious gamers who prioritize price and RGB aesthetics over ergonomic wrist positioning, and its high rating relative to price makes it a reasonable secondary or backup board.",
+    specs: ["Wired USB connection", "Compact mini layout, full WASD cluster intact", "RGB backlighting", "Membrane key switches, not mechanical"],
+    pros: ["Lowest price in this guide", "Compact footprint for tight desks", "Full WASD cluster with no ergonomic split compromise", "High rating relative to price"],
+    cons: ["Membrane switches rather than mechanical", "Minimal ergonomic wrist-positioning benefit", "Verify N-key rollover on current listing before competitive use"],
+    bestFor: "Budget-conscious gamers who want RGB and full WASD performance without an ergonomic frame",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -117,6 +151,8 @@ export const howToChoose: HowToChooseSection[] = [
         ["Budget mechanical with a wired competitive option", "X9 Performance Wireless Mechanical"],
         ["Largest review base, full WASD performance", "AULA F2088 Typewriter Style"],
         ["Strongest ergonomic benefit, adjustment accepted", "Royal Kludge A72 Alice Split"],
+        ["True split with RGB, adjustment accepted", "RAGNOK Split Mechanical RGB"],
+        ["Lowest price, full WASD, RGB", "Wired RGB Gaming Membrane Mini"],
       ],
     },
   },

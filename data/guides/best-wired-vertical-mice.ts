@@ -1,8 +1,8 @@
 export const guideSlug = "best-wired-vertical-mice";
-export const guideTitle = "3 Best Wired Vertical Mice in 2026";
+export const guideTitle = "6 Best Wired Vertical Mice in 2026";
 export const metaTitle = "Best Wired Vertical Mice in 2026";
 export const metaDescription =
-  "We evaluated 3 genuinely wired vertical mice, weighing cable drag on the tilted body, cable length, and the ergonomic upside of no battery weight.";
+  "We evaluated 6 genuinely wired vertical mice, weighing cable drag on the tilted body, cable length, and the ergonomic upside of no battery weight.";
 export const mainKeyword = "best wired vertical mice";
 export const introParagraphs = [
   "A wired vertical mouse has one design challenge a standard mouse doesn't face as much: the cable can tug the body slightly out of its resting tilt angle during use, since the mouse already sits at an angle rather than flat on the desk. A braided cable that lies flatter and moves more freely tends to interfere with the angle less than a stiffer standard cable, though this is worth checking through buyer feedback rather than assuming any wired mouse handles it well.",
@@ -71,6 +71,57 @@ export const products: GuideProduct[] = [
     cons: ["Cable drag on the tilted resting angle possible, check buyer feedback", "Cable type not confirmed as braided", "No wireless option"],
     bestFor: "Buyers who want a well-reviewed wired mouse at a mid-range price point.",
   },
+  {
+    id: "b0d14d4p98-wd",
+    rank: 4,
+    badge: "Best 6-Button Wired Pick",
+    name: "Perixx PERIMICE-513 Wired Ergonomic Vertical Mouse, 6 Buttons",
+    price: "$16.99",
+    rating: "4.6 stars from Amazon ratings",
+    reviews: "181 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41ebwPVvIjL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0D14D4P98?tag=deskfinds0d-20",
+    description:
+      "A 6-button layout gives more programmable options than most budget wired picks, at a low price with a strong 4.6-star rating, though on a smaller review sample than the more established picks in this guide.\n\nAs with any wired vertical mouse, check buyer feedback for cable stiffness and whether it interferes with the resting tilt angle during use.",
+    specs: ["Wired USB connection", "6 programmable buttons", "Ergonomic vertical design", "Budget price point"],
+    pros: ["More programmable buttons than most budget wired picks", "Strong 4.6-star rating", "No battery weight", "Low price point"],
+    cons: ["Smaller review sample than the top wired picks", "Cable type and stiffness not independently confirmed", "Less established brand track record"],
+    bestFor: "Budget-conscious buyers who want more programmable buttons on a wired mouse.",
+  },
+  {
+    id: "b0f4jns3px-wd",
+    rank: 5,
+    badge: "Best Ultra-Budget Wired Pick",
+    name: "KUNSI Wired Ergonomic Mouse, USB Wired Vertical Mouse with adjustable DPI",
+    price: "$9.99",
+    rating: "4.1 stars from Amazon ratings",
+    reviews: "181 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41VQ8m4r1iL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0F4JNS3PX?tag=deskfinds0d-20",
+    description:
+      "The lowest price in this guide for a wired vertical mouse, with adjustable DPI included even at this budget tier, useful for buyers who mainly want to try the wired vertical grip cheaply.\n\nIts 4.1-star rating is more moderate than the other picks here, so weigh the very low price against a smaller review sample and less established brand track record.",
+    specs: ["Wired USB connection", "Adjustable DPI", "Ergonomic vertical design", "Ultra-budget price point"],
+    pros: ["Lowest price in this guide", "Adjustable DPI even at this price tier", "No battery weight", "Simple plug-and-play setup"],
+    cons: ["More moderate 4.1-star rating than other wired picks", "Smaller review sample size", "Less established brand track record"],
+    bestFor: "Buyers who want the cheapest possible way to try a wired vertical mouse.",
+  },
+  {
+    id: "b0894qx7sk-wd",
+    rank: 6,
+    badge: "Best Wired Pick With a Joystick Control",
+    name: "zelotes Wired Gaming Mouse with Joystick, 10000 DPI, 11 Programmable Buttons",
+    price: "$29.99",
+    rating: "4.2 stars from Amazon ratings",
+    reviews: "247 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31fim6uc3BL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0894QX7SK?tag=deskfinds0d-20",
+    description:
+      "An unusual wired pick with a built-in joystick control and 11 programmable buttons, plus a 10000 DPI sensor that far exceeds the other wired picks in this guide, though it leans more gaming-oriented than purely ergonomic.\n\nCheck the current listing for actual vertical tilt angle, since this model's ergonomic shaping is less documented than the dedicated ergonomic wired picks above.",
+    specs: ["Wired USB connection", "Built-in joystick control", "11 programmable buttons", "10000 DPI sensor"],
+    pros: ["Far higher DPI ceiling than other wired picks in this guide", "Joystick control is a genuinely unique input option", "11 programmable buttons", "No battery weight"],
+    cons: ["Leans more gaming-oriented than purely ergonomic", "Vertical tilt angle less documented than dedicated ergonomic picks", "Smaller review sample than the top picks"],
+    bestFor: "Buyers who want extra input options like a joystick and high DPI alongside a wired vertical-leaning design.",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -99,6 +150,9 @@ export const howToChoose: HowToChooseSection[] = [
         ["Established, well-reviewed premium design", "Evoluent Wired Ergonomic Mouse"],
         ["Lowest price for a wired vertical mouse", "TECKNET Wired Ergonomic Mouse"],
         ["Largest review base at a mid-range price", "Anker USB Wired Vertical Mouse"],
+        ["More programmable buttons on a budget", "Perixx PERIMICE-513 Wired Ergonomic Mouse"],
+        ["Cheapest way to try a wired vertical mouse", "KUNSI Wired Ergonomic Mouse"],
+        ["Joystick control and high DPI", "zelotes Wired Gaming Mouse with Joystick"],
       ],
     },
   },

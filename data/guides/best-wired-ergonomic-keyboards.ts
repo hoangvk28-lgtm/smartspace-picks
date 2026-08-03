@@ -1,8 +1,8 @@
 export const guideSlug = "best-wired-ergonomic-keyboards";
-export const guideTitle = "4 Best Wired Ergonomic Keyboards in 2026";
+export const guideTitle = "7 Best Wired Ergonomic Keyboards in 2026";
 export const metaTitle = "Best Wired Ergonomic Keyboards (2026)";
 export const metaDescription =
-  "4 wired ergonomic keyboards we evaluated for cable management, inter-half cable flexibility, and build quality, with honest notes on desk setup constraints.";
+  "7 wired ergonomic keyboards we evaluated for cable management, inter-half cable flexibility, and build quality, with honest notes on desk setup constraints.";
 export const mainKeyword = "wired ergonomic keyboard";
 export const introParagraphs = [
   "A wired ergonomic keyboard removes battery anxiety entirely, but on a genuinely split design the cable connecting the two halves is often a fixed, non-standard length, which limits how far apart you can actually place them, a real flexibility constraint that rarely shows up in product photos. Worth checking cable exit direction too, since a rear-exiting cable tucks away more cleanly on most desks than one exiting from the side.",
@@ -88,6 +88,57 @@ export const products: GuideProduct[] = [
     cons: ["Highest price in this guide", "Verify cable exit direction and length before buying", "Larger desk footprint than a compact wired keyboard"],
     bestFor: "Buyers who want a wired mechanical ergonomic keyboard with no wireless variability",
   },
+  {
+    id: "reccazr-wired-wrist-rest",
+    rank: 5,
+    badge: "Best Budget Wired Pick with Wrist Rest",
+    name: "RECCAZR Ergonomic Keyboard, Wired Computer USB Keyboard with Wrist Rest",
+    price: "$29.98",
+    rating: "4.3 stars from Amazon ratings",
+    reviews: "280 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/419u8a5c96L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DMDJB6G2?tag=deskfinds0d-20",
+    description:
+      "A low-cost wired keyboard that includes an attached wrist rest out of the box, plugging in over a single standard USB cable with no battery or pairing to configure. Its lower price puts it near the X9 pick in this guide, but the included wrist rest is a small added value the X9 doesn't offer.\n\nAs with any budget wired option, verify build quality expectations against the price point, and check the current listing photos for the cable's exit direction if your desk setup has limited routing space.",
+    specs: ["Wired USB connection", "Attached wrist rest", "Curved ergonomic layout", "Budget price point"],
+    pros: ["Lowest price in this guide", "Attached wrist rest included", "Simple plug-and-play setup", "No battery or pairing to manage"],
+    cons: ["Smaller verified review base than other picks here", "Basic build materials at this price", "No backlighting"],
+    bestFor: "Budget buyers who want an included wrist rest without paying more for one",
+  },
+  {
+    id: "meetion-wired-backlit-wrist-rest",
+    rank: 6,
+    badge: "Best Wired Backlit Pick with Wrist Rest",
+    name: "MEETION Wired Ergonomic Keyboard with Backlit Keys and Wrist Rest",
+    price: "$35.99",
+    rating: "3.4 stars from Amazon ratings",
+    reviews: "21 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41kuxYbya+L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GXKJWH2H?tag=deskfinds0d-20",
+    description:
+      "A wired keyboard combining backlit keys with a built-in wrist rest at a low price point, drawing power directly from the USB port so backlighting carries no battery-life tradeoff. Its review base is considerably smaller than the other wired picks in this guide, so treat the rating as a lighter-weight signal until more buyer feedback accumulates.\n\nGiven the smaller sample size behind its rating, buyers prioritizing proven reliability may prefer the Perixx or Arteck picks in this guide, both with far larger verified review bases.",
+    specs: ["Wired USB connection", "Backlit keys", "Attached wrist rest", "Budget price point"],
+    pros: ["Backlighting with no battery-life tradeoff since it's wired", "Attached wrist rest included", "Budget price point", "Simple USB plug-and-play"],
+    cons: ["Smallest verified review base in this guide", "Lower average rating than other wired picks here", "Basic build materials at this price"],
+    bestFor: "Buyers who want a budget wired keyboard with backlighting and a wrist rest, aware of its limited review history",
+  },
+  {
+    id: "wired-rgb-gaming-membrane-mini",
+    rank: 7,
+    badge: "Best Wired Compact RGB Pick",
+    name: "Wired RGB Gaming Membrane Keyboard, 100 Percent Mini Creamy LED",
+    price: "$22.90",
+    rating: "4.6 stars from Amazon ratings",
+    reviews: "53 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41yeJ-XPp7L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0F66LFC8Q?tag=deskfinds0d-20",
+    description:
+      "A compact wired membrane keyboard with RGB lighting at the lowest price in this guide, plugging in over a single USB cable. It's a standard flat layout rather than a curved or split ergonomic frame, so buyers specifically seeking wrist-angle relief should treat this as a budget compact option rather than a true ergonomic pick.\n\nIts small footprint suits a tight desk, and the wired connection means no battery to manage, but it lacks the split or curved design that defines the other wired picks in this guide.",
+    specs: ["Wired USB connection", "Compact mini layout", "RGB backlighting", "Membrane key switches"],
+    pros: ["Lowest price in this guide", "Compact footprint for tight desks", "RGB backlighting", "High rating relative to price"],
+    cons: ["Flat layout, not curved or split for ergonomic relief", "Smaller verified review base than top picks here", "Membrane switches rather than mechanical"],
+    bestFor: "Buyers who want a low-cost compact wired keyboard with RGB and don't need a split or curved frame",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -117,6 +168,9 @@ export const howToChoose: HowToChooseSection[] = [
         ["Simplest single-cable setup", "X9 Wired Ergonomic Keyboard"],
         ["Backlit split with no battery tradeoff", "Arteck Split Wired Backlit"],
         ["Premium mechanical feel, wired", "Cloud Nine C989M Mechanical"],
+        ["Budget option with included wrist rest", "RECCAZR Wired Wrist Rest"],
+        ["Backlit budget pick with wrist rest", "MEETION Wired Backlit Wrist Rest"],
+        ["Lowest price, compact RGB, no split needed", "Wired RGB Gaming Membrane Mini"],
       ],
     },
   },

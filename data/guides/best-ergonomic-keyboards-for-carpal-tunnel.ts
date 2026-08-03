@@ -1,8 +1,8 @@
 export const guideSlug = "best-ergonomic-keyboards-for-carpal-tunnel";
-export const guideTitle = "4 Best Ergonomic Keyboards for Carpal Tunnel in 2026";
+export const guideTitle = "8 Best Ergonomic Keyboards for Carpal Tunnel in 2026";
 export const metaTitle = "Ergonomic Keyboards for Carpal Tunnel";
 export const metaDescription =
-  "4 ergonomic keyboards we evaluated for wrist positioning relevant to carpal tunnel prevention. Not medical treatment, see a doctor for diagnosis or symptoms.";
+  "8 ergonomic keyboards we evaluated for wrist positioning relevant to carpal tunnel prevention. Not medical treatment, see a doctor for diagnosis or symptoms.";
 export const mainKeyword = "ergonomic keyboard for carpal tunnel";
 export const introParagraphs = [
   "It's important to be direct about what an ergonomic keyboard can and cannot do for carpal tunnel syndrome. A split or tented keyboard primarily addresses wrist positioning during typing, keeping the wrist closer to a neutral angle instead of bent or twisted, but it does not treat or cure carpal tunnel syndrome. If you have symptoms such as pain, numbness, tingling, or weakness in your hand or wrist, please see a doctor for proper diagnosis and treatment rather than relying on a keyboard purchase to resolve it. What's more, self-diagnosed 'carpal tunnel' symptoms sometimes reflect a different underlying condition that needs a different approach, another reason professional evaluation matters.",
@@ -88,6 +88,74 @@ export const products: GuideProduct[] = [
     cons: ["Highest price in this guide", "Not a treatment for carpal tunnel syndrome", "Exact actuation force not stated, verify before assuming lighter feel"],
     bestFor: "Buyers who want mechanical feel combined with a wrist-positioning-focused curved layout",
   },
+  {
+    id: "arteck-split-2-4g-carpal",
+    rank: 5,
+    badge: "Best Mid-Range Split Pick",
+    name: "Arteck Split Ergonomic Keyboard with Palm Rest, 2.4G USB Wireless",
+    price: "$54.99",
+    rating: "4.3 stars from Amazon ratings",
+    reviews: "1,624 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41O4m5cUOVL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0BKKYRQ31?tag=deskfinds0d-20",
+    description:
+      "A split, angled keyboard with a built-in cushioned palm rest, offering a middle-ground positioning option between the budget Perixx pick and the premium Logitech K860 above. As with every keyboard in this guide, this addresses wrist positioning only, it is not medical treatment, and existing pain, numbness, tingling, or weakness should be evaluated by a doctor rather than managed through hardware alone.\n\nIts 2.4G wireless receiver keeps setup simple, and the fixed split angle offers a more neutral wrist position than a flat keyboard, though it lacks the adjustable tenting of some premium splits.",
+    specs: ["Split, angled key layout", "Built-in cushioned palm rest", "2.4G USB wireless receiver", "Mid-range price point"],
+    pros: ["True split, angled layout for neutral wrist positioning", "Built-in palm rest, no extra purchase", "Stable 2.4G wireless connection", "Mid-range price between budget and premium picks"],
+    cons: ["Fixed split angle, not tenting-adjustable", "Not a treatment for carpal tunnel syndrome", "Adjustment period for new split-layout users"],
+    bestFor: "Buyers who are symptom-free and want a mid-range split option between budget and premium",
+  },
+  {
+    id: "arteck-split-wired-backlit-carpal",
+    rank: 6,
+    badge: "Best Backlit Split Pick",
+    name: "Arteck Split Ergonomic Keyboard with Palm Rest, USB Wired Backlit Keyboard",
+    price: "$53.99",
+    rating: "4.3 stars from Amazon ratings",
+    reviews: "1,166 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/51mIgAEAexL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CGL8X4H6?tag=deskfinds0d-20",
+    description:
+      "A split, backlit keyboard connecting over wired USB, combining the same wrist-positioning benefit as the other Arteck pick in this guide with illuminated keys for low-light typing. This remains strictly a positioning aid, not a treatment for carpal tunnel syndrome, and existing symptoms still warrant a doctor's evaluation rather than a hardware purchase.\n\nIts wired connection removes any battery concern, and the built-in palm rest is meant for use between typing bursts, not for leaning on continuously while actively typing.",
+    specs: ["Split, angled key layout", "Backlit keys", "Built-in cushioned palm rest", "Wired USB connection"],
+    pros: ["True split, angled layout for neutral wrist positioning", "Backlit keys for low-light use", "Built-in palm rest, no extra purchase", "No battery to manage"],
+    cons: ["Fixed split angle, not tenting-adjustable", "Not a treatment for carpal tunnel syndrome", "Limited backlighting value for touch typists"],
+    bestFor: "Buyers who are symptom-free and want backlit keys alongside split wrist positioning",
+  },
+  {
+    id: "protoarc-ekm01-plus-carpal",
+    rank: 7,
+    badge: "Best Wireless Combo Pick",
+    name: "ProtoArc EKM01 Plus Wireless Ergonomic Keyboard Mouse Combo, Gray Black",
+    price: "$76.99",
+    rating: "4.3 stars from Amazon ratings",
+    reviews: "872 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31nNQhQDCpL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DZ6DR13F?tag=deskfinds0d-20",
+    description:
+      "A wireless ergonomic keyboard and mouse combo, offering a matched positioning-focused pair rather than sourcing a separate ergonomic mouse to complement the keyboard. Neither the keyboard nor the included mouse treats or cures carpal tunnel syndrome, and a matched combo is not a substitute for seeing a doctor about existing symptoms.\n\nA neutral wrist position matters for the mouse hand as well as the typing hand, worth considering a matched combo like this one for a more complete positioning setup rather than addressing only the keyboard side.",
+    specs: ["Wireless keyboard and mouse combo", "Curved ergonomic keyboard layout", "Ergonomic mouse included", "Solid verified review base"],
+    pros: ["Matched keyboard and mouse for a complete positioning setup", "Solid verified review base", "Wireless, no cable clutter", "Addresses mouse-hand positioning alongside typing"],
+    cons: ["Not a true split keyboard layout", "Not a treatment for carpal tunnel syndrome", "Higher price than a keyboard-only pick"],
+    bestFor: "Buyers who are symptom-free and want a matched keyboard and mouse positioning setup",
+  },
+  {
+    id: "x9-wired-ergonomic-carpal",
+    rank: 8,
+    badge: "Best Budget One-Piece Pick",
+    name: "X9 Wired Ergonomic Keyboard - Comfortable Typing, Ergonomic Full Size",
+    price: "$29.99",
+    rating: "4.5 stars from Amazon ratings",
+    reviews: "1,141 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41LVGOn5JLL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B08G1WNS6F?tag=deskfinds0d-20",
+    description:
+      "A one-piece curved keyboard at the lowest price in this guide, offering a gentler introduction to wrist-positioning-focused typing than a fully split layout. As with every pick here, this is not a treatment for carpal tunnel syndrome, and symptoms should be evaluated by a doctor rather than managed through a keyboard purchase.\n\nIts single-piece frame means a shorter adjustment period than a true split, at the cost of less positioning benefit since it cannot be separated to shoulder width like the Perixx or Arteck picks above.",
+    specs: ["One-piece curved ergonomic frame", "Wired USB connection", "Full-size layout", "Lowest price in this guide"],
+    pros: ["Lowest price of any pick in this guide", "Minimal adjustment period versus a true split", "No battery to manage", "High rating relative to price"],
+    cons: ["Cannot be separated for shoulder-width positioning", "Less positioning benefit than a true split layout", "Not a treatment for carpal tunnel syndrome"],
+    bestFor: "Budget-conscious, symptom-free buyers who want the gentlest, lowest-cost introduction to ergonomic positioning",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -122,6 +190,10 @@ export const howToChoose: HowToChooseSection[] = [
         ["Lowest-cost way to test a split layout", "Perixx PERIBOARD-512B"],
         ["Gentle, low-commitment introduction", "Logitech Wave Keys Graphite"],
         ["Mechanical feel with curved positioning", "Cloud Nine C989M"],
+        ["Mid-range split option", "Arteck Split Ergonomic 2.4G"],
+        ["Backlit split for low-light typing", "Arteck Split Wired Backlit"],
+        ["Matched keyboard and mouse positioning", "ProtoArc EKM01 Plus Combo"],
+        ["Lowest-cost, gentlest introduction", "X9 Wired Ergonomic Keyboard"],
       ],
     },
   },

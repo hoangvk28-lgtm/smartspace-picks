@@ -1,8 +1,8 @@
 export const guideSlug = "best-ergonomic-keyboards-for-small-hands";
-export const guideTitle = "4 Best Ergonomic Keyboards for Small Hands in 2026";
+export const guideTitle = "7 Best Ergonomic Keyboards for Small Hands in 2026";
 export const metaTitle = "Ergonomic Keyboards for Small Hands (2026)";
 export const metaDescription =
-  "4 ergonomic keyboards we evaluated for genuine reach-to-modifier-key comfort and adjustable split-distance limits relevant to smaller hand and shoulder width.";
+  "7 ergonomic keyboards we evaluated for genuine reach-to-modifier-key comfort and adjustable split-distance limits relevant to smaller hand and shoulder width.";
 export const mainKeyword = "ergonomic keyboard for small hands";
 export const introParagraphs = [
   "Not every keyboard marketed as 'ergonomic' actually accommodates smaller hand or finger dimensions well, reach to modifier keys like Ctrl, Alt, and Fn can still feel like a stretch on some designs regardless of the overall ergonomic label, worth checking specific buyer feedback from smaller-handed users rather than assuming a curved or split shape solves this automatically. On fully split keyboards specifically, there's usually a minimum gap between the halves that isn't always narrow enough for a smaller shoulder width, verify this on the current listing if you plan to position the halves close together.",
@@ -88,6 +88,57 @@ export const products: GuideProduct[] = [
     cons: ["Verify current listing's exact gap measurement before buying", "Genuine niche category with limited dedicated options overall", "Fixed split angle, not tenting-adjustable"],
     bestFor: "Budget-conscious buyers wanting a genuinely split keyboard, after verifying the gap width suits their shoulder width",
   },
+  {
+    id: "arteck-cushioned-palm-multi-smallhands",
+    rank: 5,
+    badge: "Best Multi-Device Pick for Smaller Hands",
+    name: "Arteck Ergonomic Keyboard with Cushioned Wrist Palm Rest, Multi-Device",
+    price: "$56.99",
+    rating: "4.3 stars from Amazon ratings",
+    reviews: "69 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41ersIiDGuL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0FPR2GR6F?tag=deskfinds0d-20",
+    description:
+      "A curved, not fully split, keyboard with a cushioned palm rest and multi-device pairing support, sidestepping the split-gap minimum-width question entirely since it's a single fixed frame. This makes it a reasonable option for smaller hands who want to switch between devices without worrying about shoulder-width gap measurements.\n\nAs with any curved one-piece design, verify current buyer feedback specifically from smaller-handed users regarding modifier key reach, since standard keycap spacing applies here rather than any downsized layout.",
+    specs: ["Curved layout, no split-gap concern", "Cushioned wrist palm rest", "Multi-device pairing support", "Standard keycap size and spacing"],
+    pros: ["No split-gap minimum width to worry about", "Multi-device pairing for switching between computers", "Cushioned palm rest included", "Reasonable price for the feature set"],
+    cons: ["Standard keycap spacing, not specifically downsized", "Verify modifier key reach comfort in buyer feedback", "Not a true split layout"],
+    bestFor: "Buyers with smaller hands who switch between devices and want to avoid split-gap width concerns",
+  },
+  {
+    id: "perixx-periduo-smallhands",
+    rank: 6,
+    badge: "Best Compact 2-in-1 Pick for Smaller Hands",
+    name: "Perixx PERIDUO-606II 2-in-1 Wireless Compact Ergonomic Keyboard",
+    price: "$69.99",
+    rating: "4.7 stars from Amazon ratings",
+    reviews: "21 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/3120zwwhcDL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GMQMKVKF?tag=deskfinds0d-20",
+    description:
+      "A compact 2-in-1 keyboard design with the highest rating among picks in this guide, its smaller overall footprint may suit smaller hands reaching across the board even though it isn't purpose-built specifically for hand size. As it's not a fully split design, the split-gap minimum-width question doesn't apply here.\n\nIts smaller review count means less long-term data than the more established picks above, verify current buyer feedback specifically on modifier key reach before assuming comfort.",
+    specs: ["Compact 2-in-1 design, no split-gap concern", "Highest rating among picks in this guide", "Wireless connectivity", "Purpose-built compact footprint"],
+    pros: ["Highest rating of any pick in this guide", "Compact footprint may ease overall reach", "No split-gap minimum width to worry about", "2-in-1 design consolidates functionality"],
+    cons: ["Smaller review sample size, verify current feedback", "Not purpose-built specifically for small hands", "Verify modifier key reach comfort in buyer feedback"],
+    bestFor: "Buyers with smaller hands wanting a highly rated, compact, non-split option",
+  },
+  {
+    id: "protoarc-xk03-smallhands",
+    rank: 7,
+    badge: "Best Foldable Pick for Smaller Hands",
+    name: "ProtoArc XK03 Ergonomic Foldable Keyboard for iPad, iPhone, Tablet, Laptop",
+    price: "$55.99",
+    rating: "4.4 stars from Amazon ratings",
+    reviews: "489 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41Qw9A3JiYL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0D3HG7XZL?tag=deskfinds0d-20",
+    description:
+      "A foldable keyboard with a solid verified review base, its smaller folded footprint may appeal to smaller-handed buyers who also want a keyboard usable across tablets, phones, and laptops. It is not purpose-built for small hand dimensions specifically, so verify current buyer feedback on modifier key reach before assuming it solves the reach concerns this guide focuses on.\n\nGiven the genuine niche nature of small-hand-focused ergonomic keyboards, treat this as a reasonable secondary option rather than a dedicated fit, and compare against the genuinely split Arteck and Nulea picks above if split ergonomic benefit matters more to you.",
+    specs: ["Foldable design for iPad, iPhone, tablet, and laptop", "Solid verified review base", "Compact folded footprint", "Standard keycap size and spacing"],
+    pros: ["Strong verified review base for a portable keyboard", "Works across tablets, phones, and laptops", "Compact folded footprint", "Reasonable mid-range price"],
+    cons: ["Not purpose-built specifically for small hands", "Verify modifier key reach comfort in buyer feedback", "Genuine niche category with limited dedicated options overall"],
+    bestFor: "Buyers with smaller hands who also want a foldable keyboard for tablet or travel use",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -117,6 +168,9 @@ export const howToChoose: HowToChooseSection[] = [
         ["Same design, different colorway", "Logitech Wave Keys Rose"],
         ["Split benefit after verifying gap width", "Arteck Split Ergonomic 2.4G"],
         ["Budget split option, verify gap width first", "Nulea Split Ergonomic"],
+        ["Multi-device, avoid split-gap concerns", "Arteck Cushioned Palm Multi-Device"],
+        ["Highest rated, compact, non-split", "Perixx PERIDUO-606II"],
+        ["Foldable, usable across tablet and laptop", "ProtoArc XK03 Foldable"],
       ],
     },
   },

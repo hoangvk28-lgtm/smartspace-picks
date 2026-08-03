@@ -1,8 +1,8 @@
 export const guideSlug = "best-vertical-mice-for-gaming";
-export const guideTitle = "4 Best Vertical Mice for Gaming in 2026";
+export const guideTitle = "6 Best Vertical Mice for Gaming in 2026";
 export const metaTitle = "Best Vertical Mice for Gaming 2026";
 export const metaDescription =
-  "We evaluated 4 vertical mice marketed for gaming, checking sensor quality, button count, and fast lateral movement comfort against the claims.";
+  "We evaluated 6 vertical mice marketed for gaming, checking sensor quality, button count, and fast lateral movement comfort against the claims.";
 export const mainKeyword = "best vertical mice for gaming";
 export const introParagraphs = [
   "Gaming-marketed vertical mice are a genuinely small niche, and the label 'gaming' doesn't guarantee the sensor and DPI quality of a dedicated gaming mouse at a similar price. This category tends to see less R&D investment than mainstream gaming mice, so it's worth checking actual DPI figures and buyer feedback on tracking accuracy rather than assuming parity just because a product uses gaming branding or RGB lighting.",
@@ -88,6 +88,40 @@ export const products: GuideProduct[] = [
     cons: ["Not marketed or designed specifically for gaming", "No RGB, macro software, or adjustable weight", "Basic button count for complex genres"],
     bestFor: "Buyers who want a higher DPI ceiling and wired responsiveness on a budget, without needing gaming-specific extras.",
   },
+  {
+    id: "b0894qx7sk-gm",
+    rank: 5,
+    badge: "Best for Joystick Control and Highest DPI",
+    name: "zelotes Wired Gaming Mouse with Joystick, 10000 DPI, 11 Programmable Buttons",
+    price: "$29.99",
+    rating: "4.2 stars from Amazon ratings",
+    reviews: "247 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31fim6uc3BL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0894QX7SK?tag=deskfinds0d-20",
+    description:
+      "A genuinely gaming-oriented design with a 10000 DPI sensor, the highest ceiling in this guide, plus a built-in joystick and 11 programmable buttons that suit MMO or strategy genres needing many shortcuts.\n\nIts vertical tilt is less pronounced than the dedicated ergonomic picks in this guide, so it leans more toward a gaming mouse with vertical-leaning shape than a full ergonomic design.",
+    specs: ["10000 DPI sensor", "Built-in joystick control", "11 programmable buttons", "Wired USB connection"],
+    pros: ["Highest DPI ceiling in this guide", "Joystick control is a genuinely unique input for gaming", "11 programmable buttons suit MMO or strategy genres", "Wired connection avoids latency concerns"],
+    cons: ["Less pronounced vertical tilt than dedicated ergonomic picks", "Not marketed as a purely ergonomic vertical mouse", "Smaller review sample than the top picks"],
+    bestFor: "Gaming-focused buyers who want the highest DPI ceiling and joystick control, with a lighter emphasis on ergonomic angle.",
+  },
+  {
+    id: "b0dvd5rtz5-gm",
+    rank: 6,
+    badge: "Best Gaming Brand Vertical Pick",
+    name: "Razer Pro Click V2 Vertical Wireless Mouse, 6 Button Ergonomic Design",
+    price: "$99.99",
+    rating: "4.0 stars from Amazon ratings",
+    reviews: "461 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41DVlxxe4WL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DVD5RTZ5?tag=deskfinds0d-20",
+    description:
+      "From an established gaming brand, this pairs a 6-button ergonomic vertical body with wireless connectivity, useful for gaming-adjacent buyers who want brand-name software support for remapping.\n\nIts smaller review sample and more moderate 4.0-star rating are worth weighing against the premium price, and its sensor is not positioned as a top-tier competitive gaming sensor despite the brand name.",
+    specs: ["Wireless connectivity", "6 programmable buttons", "Rechargeable battery", "Premium price point"],
+    pros: ["Established gaming brand with software support", "6 programmable buttons for remapping", "Rechargeable battery", "Ergonomic vertical body"],
+    cons: ["Smaller review base and more moderate 4.0-star rating", "Premium price relative to its rating", "Sensor not positioned as top-tier for competitive play"],
+    bestFor: "Buyers who want a recognizable gaming brand's take on a vertical mouse with reliable remapping software.",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -117,6 +151,8 @@ export const howToChoose: HowToChooseSection[] = [
         ["Casual gaming as a secondary use case", "Anker 2.4G Wireless Ergonomic Mouse"],
         ["Programmable shortcuts for MMO or strategy genres", "Logitech MX Vertical"],
         ["Higher DPI ceiling on a budget", "TECKNET Wired Ergonomic Mouse 6400 DPI"],
+        ["Highest DPI ceiling with joystick control", "zelotes Wired Gaming Mouse with Joystick"],
+        ["Established gaming brand with software support", "Razer Pro Click V2 Vertical"],
       ],
     },
   },

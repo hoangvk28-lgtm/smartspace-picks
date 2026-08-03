@@ -1,8 +1,8 @@
 export const guideSlug = "best-wireless-ergonomic-keyboards";
-export const guideTitle = "4 Best Wireless Ergonomic Keyboards in 2026";
+export const guideTitle = "7 Best Wireless Ergonomic Keyboards in 2026";
 export const metaTitle = "Best Wireless Ergonomic Keyboards 2026";
 export const metaDescription =
-  "4 wireless ergonomic keyboards we evaluated for input latency, battery life, and multi-device pairing, with honest notes on split-half battery drain.";
+  "7 wireless ergonomic keyboards we evaluated for input latency, battery life, and multi-device pairing, with honest notes on split-half battery drain.";
 export const mainKeyword = "wireless ergonomic keyboard";
 export const introParagraphs = [
   "Wireless ergonomic keyboards trade a cable for two things worth checking before buying: input latency and battery logistics. Fast touch typists can sometimes notice a Bluetooth connection lag behind a wired one during rapid bursts, and on genuinely split designs each half often runs on its own battery, which means the half handling more modifier keys can drain faster than the other, an uneven wear pattern rarely mentioned in wireless keyboard marketing.",
@@ -88,6 +88,57 @@ export const products: GuideProduct[] = [
     cons: ["Backlighting reduces battery life versus non-backlit models", "Limited practical value for pure touch typists", "Verify multi-device pairing slots on current listing"],
     bestFor: "Buyers who want backlit keys and don't mind a modest battery-life tradeoff for it",
   },
+  {
+    id: "logitech-wave-keys-mac-off-white",
+    rank: 5,
+    badge: "Best Wireless Pick for Mac Users",
+    name: "Logitech Wave Keys for Mac Wireless Ergonomic Keyboard - Off White",
+    price: "$69.95",
+    rating: "4.2 stars from Amazon ratings",
+    reviews: "343 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41ogsiz47VL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0BTNZSXLG?tag=deskfinds0d-20",
+    description:
+      "A wave-shaped single-piece frame built around Mac-specific key legends and shortcuts, pairing over Bluetooth or a USB receiver like its Windows-oriented sibling. Because it's a one-piece design rather than a true split, battery logistics stay simple with a single rechargeable cell rather than two independently draining halves.\n\nThe Mac-specific layout means the modifier keys line up with actual macOS shortcuts instead of requiring a mental remap, a small but real convenience over using a Windows-labeled wireless keyboard on a Mac.",
+    specs: ["Bluetooth and USB receiver connectivity", "Mac-specific key legends and shortcuts", "One-piece wave frame, single battery", "Rechargeable battery"],
+    pros: ["Native Mac key layout, no remapping needed", "Single battery, simpler than split-half logistics", "Rechargeable, no disposable batteries", "Cushioned attached palm rest"],
+    cons: ["Less ergonomic benefit than a true split design", "Smaller review base than the standard Wave Keys", "Verify current pairing slot count on listing"],
+    bestFor: "Mac users who want native shortcut keys on a wireless ergonomic keyboard without remapping",
+  },
+  {
+    id: "protoarc-ek01-plus-black-full",
+    rank: 6,
+    badge: "Best Full-Size Backlit Wireless Pick",
+    name: "ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard, Full Size, Black",
+    price: "$79.99",
+    rating: "4.2 stars from Amazon ratings",
+    reviews: "1,488 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41q4ds4LGsL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DCVVBT3C?tag=deskfinds0d-20",
+    description:
+      "The full-size version of the EK01 Plus keeps the number pad that the white silver model in this guide is missing, useful for anyone doing regular spreadsheet or data entry work who still wants Bluetooth and a curved ergonomic layout. It pairs over Bluetooth the same way, with the same backlit-key battery tradeoff to weigh.\n\nThe extra width from the number pad means it needs more desk real estate than the compact wireless picks in this guide, worth checking your desk footprint before ordering.",
+    specs: ["Bluetooth wireless connectivity", "Full-size layout with number pad", "Backlit keys", "Curved ergonomic frame"],
+    pros: ["Number pad included for spreadsheet-heavy work", "Bluetooth pairing across devices", "Rechargeable battery", "Curved ergonomic layout"],
+    cons: ["Wider footprint than compact wireless keyboards", "Backlighting reduces battery life versus non-backlit models", "Verify multi-device pairing slots on current listing"],
+    bestFor: "Buyers who need a number pad and Bluetooth in one wireless ergonomic keyboard",
+  },
+  {
+    id: "colikes-wireless-backlit-rgb",
+    rank: 7,
+    badge: "Best Budget Wireless RGB Pick",
+    name: "COLIKES Wireless Ergonomic Keyboard, Backlit Silent with 15 RGB modes",
+    price: "$39.99",
+    rating: "4.2 stars from Amazon ratings",
+    reviews: "132 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/4111FGMHFCL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0G6ZZ95GB?tag=deskfinds0d-20",
+    description:
+      "A lower-priced wireless option that adds 15 RGB backlight modes on top of the curved ergonomic layout, aimed at buyers who want visual customization without paying premium prices. Its smaller verified review base than the Logitech and Arteck picks in this guide means less long-term reliability data to lean on.\n\nIt's a reasonable entry point for someone testing whether a wireless ergonomic layout suits them before spending more on a proven split design like the K860 or Arteck 2.4G.",
+    specs: ["Wireless connectivity", "15 RGB backlight modes", "Curved ergonomic layout", "Budget price point"],
+    pros: ["Lowest price among wireless picks in this guide", "RGB customization options", "Curved ergonomic frame", "Reasonable entry point for wireless-curious buyers"],
+    cons: ["Smallest verified review base in this guide", "Less proven long-term reliability data", "RGB backlighting draws more battery power"],
+    bestFor: "Budget-conscious buyers who want RGB customization on an entry-level wireless ergonomic keyboard",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -117,6 +168,9 @@ export const howToChoose: HowToChooseSection[] = [
         ["Simplest battery logistics", "Logitech Wave Keys Graphite"],
         ["Stable 2.4G connection over Bluetooth", "Arteck Split Ergonomic 2.4G"],
         ["Backlit keys for occasional glancing", "ProtoArc EK01 Plus White Silver"],
+        ["Mac-native shortcut keys", "Logitech Wave Keys for Mac Off White"],
+        ["Full-size layout with number pad", "ProtoArc EK01 Plus Full Size Black"],
+        ["Lowest price with RGB customization", "COLIKES Wireless Backlit RGB"],
       ],
     },
   },

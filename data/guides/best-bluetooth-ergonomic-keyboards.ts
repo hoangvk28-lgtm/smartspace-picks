@@ -1,8 +1,8 @@
 export const guideSlug = "best-bluetooth-ergonomic-keyboards";
-export const guideTitle = "4 Best Bluetooth Ergonomic Keyboards in 2026";
+export const guideTitle = "8 Best Bluetooth Ergonomic Keyboards in 2026";
 export const metaTitle = "Best Bluetooth Ergonomic Keyboards (2026)";
 export const metaDescription =
-  "4 Bluetooth ergonomic keyboards we evaluated for multi-device pairing switching, connection stability over long sessions, and anti-ghosting reliability.";
+  "8 Bluetooth ergonomic keyboards we evaluated for multi-device pairing switching, connection stability over long sessions, and anti-ghosting reliability.";
 export const mainKeyword = "bluetooth ergonomic keyboard";
 export const introParagraphs = [
   "The main reason to pick Bluetooth over 2.4G on an ergonomic keyboard is multi-device convenience, being able to switch between a laptop, tablet, and desktop with a single hotkey rather than swapping a USB receiver. Worth verifying how reliably that switch actually works and how many devices a specific model remembers, since some budget boards support fewer pairing slots than their marketing implies.",
@@ -88,6 +88,74 @@ export const products: GuideProduct[] = [
     cons: ["Highest price in this guide", "Less ergonomic benefit than a true split design", "Verify current pairing slot count before buying"],
     bestFor: "Buyers wanting a premium one-piece Bluetooth ergonomic keyboard from an established brand",
   },
+  {
+    id: "protoarc-ek01-plus-white-bluetooth",
+    rank: 5,
+    badge: "Best Backlit Bluetooth Pick",
+    name: "ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard, White Silver",
+    price: "$79.99",
+    rating: "4.2 stars from Amazon ratings",
+    reviews: "1,488 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/31Z1xwT6cFL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DJ6SJF2V?tag=deskfinds0d-20",
+    description:
+      "A curved Bluetooth keyboard with backlit keys, useful for occasional low-light glancing rather than pure touch typing. Backlighting draws more power over Bluetooth than a non-backlit model, so expect somewhat shorter time between charges as a real tradeoff for the illumination.\n\nIts mid-range price sits between the budget Wave Keys picks and the premium Microsoft and Logitech K860 options in this guide, a reasonable middle ground for buyers who want backlighting without paying top dollar.",
+    specs: ["Bluetooth wireless connectivity", "Backlit keys", "Curved ergonomic layout", "Rechargeable battery"],
+    pros: ["Backlighting for low-light glancing", "Mid-range price point", "Rechargeable battery", "Curved ergonomic frame"],
+    cons: ["Backlighting reduces battery life versus non-backlit models", "Verify current pairing slot count on listing", "Limited value for pure touch typists"],
+    bestFor: "Buyers who want backlit keys over Bluetooth without paying premium prices",
+  },
+  {
+    id: "protoarc-ek01-plus-black-bluetooth",
+    rank: 6,
+    badge: "Best Full-Size Backlit Bluetooth Pick",
+    name: "ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard, Full Size, Black",
+    price: "$79.99",
+    rating: "4.2 stars from Amazon ratings",
+    reviews: "1,488 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41q4ds4LGsL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DCVVBT3C?tag=deskfinds0d-20",
+    description:
+      "The full-size sibling of the white silver EK01 Plus in this guide, keeping the number pad for spreadsheet-heavy work while pairing the same way over Bluetooth. Buyers who need dedicated numeric entry alongside Bluetooth switching should look here rather than a compact layout.\n\nIts extra width does mean more desk space is needed than a compact Bluetooth board, worth confirming against your desk footprint before ordering.",
+    specs: ["Bluetooth wireless connectivity", "Full-size layout with number pad", "Backlit keys", "Curved ergonomic frame"],
+    pros: ["Number pad for spreadsheet-heavy work", "Bluetooth multi-device pairing", "Rechargeable battery", "Curved ergonomic layout"],
+    cons: ["Wider footprint than compact Bluetooth keyboards", "Backlighting reduces battery life versus non-backlit models", "Verify current pairing slot count on listing"],
+    bestFor: "Buyers who need a number pad alongside Bluetooth pairing",
+  },
+  {
+    id: "protoarc-ek01-plus-gray-bluetooth",
+    rank: 7,
+    badge: "Best Full-Size Bluetooth Pick, Gray",
+    name: "ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard, Full Size, Gray",
+    price: "$69.99",
+    rating: "4.2 stars from Amazon ratings",
+    reviews: "1,488 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41b1vrBnYfL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DQ4T5M8C?tag=deskfinds0d-20",
+    description:
+      "A gray colorway of the full-size EK01 Plus at a slightly lower price than its black counterpart, keeping the same number pad and Bluetooth pairing behavior. For buyers deciding purely on price among the full-size backlit Bluetooth options here, this is the cheaper of the two.\n\nAs with the other EK01 Plus variants in this guide, backlighting draws more power over Bluetooth, so weigh that against how often you'd actually use the illumination.",
+    specs: ["Bluetooth wireless connectivity", "Full-size layout with number pad", "Backlit keys", "Curved ergonomic frame"],
+    pros: ["Lower price than the black full-size variant", "Number pad included", "Bluetooth multi-device pairing", "Rechargeable battery"],
+    cons: ["Wider footprint than compact Bluetooth keyboards", "Backlighting reduces battery life versus non-backlit models", "Verify current pairing slot count on listing"],
+    bestFor: "Buyers who want the full-size EK01 Plus at the lowest available price among its variants",
+  },
+  {
+    id: "meetion-foldable-bluetooth-split",
+    rank: 8,
+    badge: "Best Portable Bluetooth Split Pick",
+    name: "MEETION Foldable Ergonomic Bluetooth Keyboard, Split, Portable, Black",
+    price: "$28.49",
+    rating: "4.2 stars from Amazon ratings",
+    reviews: "45 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41JiJNItp9L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GCZNDB69?tag=deskfinds0d-20",
+    description:
+      "A folding, split Bluetooth keyboard built for portability rather than all-day desktop use, useful for buyers who want an ergonomic split layout they can pack alongside a laptop or tablet. Its low price and Bluetooth pairing make it a reasonable travel companion rather than a primary desk keyboard.\n\nIts smaller review base compared to the desktop-oriented picks in this guide reflects its more niche portable use case, so weigh that against the desktop-focused Logitech and Microsoft options if you mainly type at a fixed desk.",
+    specs: ["Bluetooth wireless connectivity", "Foldable, split ergonomic layout", "Portable, compact when folded", "Lightweight build"],
+    pros: ["Lowest price in this guide", "Folds for portability", "True split ergonomic layout", "Good fit for travel or tablet use"],
+    cons: ["Smaller verified review base than desktop-oriented picks", "Less suited to all-day desktop use", "Verify current pairing slot count on listing"],
+    bestFor: "Buyers who want a portable, foldable split Bluetooth keyboard for travel or tablet use",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -117,6 +185,10 @@ export const howToChoose: HowToChooseSection[] = [
         ["Simple single-battery Bluetooth pairing", "Logitech Wave Keys Graphite"],
         ["Native Mac modifier key labeling", "Logitech Wave Keys for Mac"],
         ["Premium brand ecosystem preference", "Microsoft Surface Ergonomic"],
+        ["Backlit keys, compact layout", "ProtoArc EK01 Plus White Silver"],
+        ["Backlit keys with a number pad", "ProtoArc EK01 Plus Full Size Black"],
+        ["Full-size layout at a lower price", "ProtoArc EK01 Plus Full Size Gray"],
+        ["Portable, foldable split for travel", "MEETION Foldable Bluetooth Split"],
       ],
     },
   },

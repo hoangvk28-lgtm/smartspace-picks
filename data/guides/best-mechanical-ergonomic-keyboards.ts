@@ -1,8 +1,8 @@
 export const guideSlug = "best-mechanical-ergonomic-keyboards";
-export const guideTitle = "4 Best Mechanical Ergonomic Keyboards in 2026";
+export const guideTitle = "6 Best Mechanical Ergonomic Keyboards in 2026";
 export const metaTitle = "Best Mechanical Ergonomic Keyboards 2026";
 export const metaDescription =
-  "4 mechanical ergonomic keyboards we evaluated for switch type, hot-swap availability, keycap material, and stabilizer quality on larger keys.";
+  "6 mechanical ergonomic keyboards we evaluated for switch type, hot-swap availability, keycap material, and stabilizer quality on larger keys.";
 export const mainKeyword = "mechanical ergonomic keyboard";
 export const introParagraphs = [
   "Most mechanical ergonomic keyboards ship with standard-weight switches rather than the lighter actuation force sometimes recommended for RSI-focused buyers, and exact actuation force isn't always stated on the listing, worth treating that as buyer-advisory guidance and verifying the current spec sheet rather than assuming a lighter feel by default. Whether the switches are hot-swappable also matters for anyone who wants to customize feel later without buying a whole new board.",
@@ -88,6 +88,40 @@ export const products: GuideProduct[] = [
     cons: ["Not a split or negative-tilt ergonomic layout", "Loud clicky switches may not suit shared spaces", "Limited wrist-positioning benefit compared to true ergonomic designs"],
     bestFor: "Buyers who want mechanical typing feel first and a standard layout rather than a split ergonomic design",
   },
+  {
+    id: "ragnok-split-mechanical-rgb",
+    rank: 5,
+    badge: "Best Split Mechanical RGB Pick",
+    name: "RAGNOK Ergonomic Mechanical Keyboard, Split Keyboard Wireless with RGB",
+    price: "$99.99",
+    rating: "4.1 stars from Amazon ratings",
+    reviews: "11 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/412SZO4U0rL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GW95B1Z8?tag=deskfinds0d-20",
+    description:
+      "A genuinely split mechanical keyboard with wireless connectivity and RGB lighting, combining true mechanical switches with an actual two-piece ergonomic frame rather than the standard row-stagger layout of the AULA pick in this guide. That combination is less common at this price point than a one-piece mechanical board.\n\nIts review base is still small, so treat its rating as an early signal rather than a proven long-term track record, and verify current buyer feedback on stabilizer quality on the space bar before assuming premium-level rattle control at this price.",
+    specs: ["Genuine mechanical switches", "Split, wireless ergonomic frame", "RGB backlighting", "Two-piece design"],
+    pros: ["True split mechanical layout, not just row-stagger", "RGB backlighting included", "Wireless connectivity", "Reasonable price for a split mechanical board"],
+    cons: ["Smallest verified review base in this guide", "Verify stabilizer quality on current listing", "Less established brand track record than Logitech or Cloud Nine"],
+    bestFor: "Buyers who want a genuinely split mechanical keyboard with RGB at a mid-range price",
+  },
+  {
+    id: "royal-kludge-a72-alice-split-mech",
+    rank: 6,
+    badge: "Best Alice-Layout Mechanical Pick",
+    name: "RK ROYAL KLUDGE A72 Alice Ergonomic Wireless Mechanical Keyboard, Split",
+    price: "$74.99",
+    rating: "4.5 stars from Amazon ratings",
+    reviews: "37 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41pQRggFooL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0FY2XRSJX?tag=deskfinds0d-20",
+    description:
+      "A wireless mechanical keyboard using the Alice layout, a split design with rotated key clusters that keeps a more compact footprint than a fully separated two-piece board. It's a genuinely mechanical switch keyboard rather than the scissor-switch K860 also listed in this guide, giving buyers a true mechanical Alice-style option to compare.\n\nThe rotated Alice layout has a learning curve of its own separate from a standard split board's adjustment period, worth trying briefly before committing if you've never typed on this specific layout style.",
+    specs: ["Genuine mechanical switches", "Alice split layout", "Wireless connectivity", "Compact split footprint"],
+    pros: ["Highest rating among mechanical picks in this guide", "True mechanical switches in a compact Alice layout", "Wireless connectivity", "Reasonable price for a genuine mechanical split board"],
+    cons: ["Alice layout has its own separate learning curve", "Smaller verified review base than premium picks", "Fixed layout, not tenting-adjustable"],
+    bestFor: "Buyers who want a genuinely mechanical, compact Alice-layout split keyboard",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -117,6 +151,8 @@ export const howToChoose: HowToChooseSection[] = [
         ["Genuine mechanical tactile switches in a curved layout", "Cloud Nine C989M"],
         ["Flexible connection options with mechanical feel", "X9 Performance Wireless Mechanical"],
         ["Satisfying clicky typing feel over ergonomic layout", "AULA F2088 Typewriter Style"],
+        ["Genuinely split mechanical board with RGB", "RAGNOK Split Mechanical RGB"],
+        ["Compact Alice-layout true mechanical split", "RK ROYAL KLUDGE A72 Alice"],
       ],
     },
   },

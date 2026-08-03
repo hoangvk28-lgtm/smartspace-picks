@@ -1,8 +1,8 @@
 export const guideSlug = "best-compact-ergonomic-keyboards";
-export const guideTitle = "4 Best Compact Ergonomic Keyboards in 2026";
+export const guideTitle = "7 Best Compact Ergonomic Keyboards in 2026";
 export const metaTitle = "Best Compact Ergonomic Keyboards (2026)";
 export const metaDescription =
-  "4 compact ergonomic keyboards we evaluated for whether they retain genuine split benefit and how much you actually lose without a number pad or nav cluster.";
+  "7 compact ergonomic keyboards we evaluated for whether they retain genuine split benefit and how much you actually lose without a number pad or nav cluster.";
 export const mainKeyword = "compact ergonomic keyboard";
 export const introParagraphs = [
   "Compact ergonomic keyboards face the same core tension as portable ones, shrinking the footprint sometimes means sacrificing the split or tenting features that provide real ergonomic benefit, worth verifying whether a specific compact model retains genuine split design or is simply a smaller one-piece board. It's also worth separating two different tradeoffs, the functional loss of a number pad or navigation cluster is a distinct issue from any ergonomic design compromise, you may lose specific functionality in addition to, not instead of, ergonomic tradeoffs.",
@@ -88,6 +88,57 @@ export const products: GuideProduct[] = [
     cons: ["Smaller review sample size, verify current feedback", "Verify exact 2-in-1 functionality on current listing", "Higher price than some compact alternatives"],
     bestFor: "Small-desk buyers wanting a purpose-built 2-in-1 compact design, comfortable with a smaller review sample",
   },
+  {
+    id: "nulea-split-cushioned-compact",
+    rank: 5,
+    badge: "Best Cushioned Split Compact Pick",
+    name: "Nulea Wireless Ergonomic Keyboard, Split Keyboard with Cushioned Wrist Rest",
+    price: "$49.99",
+    rating: "4.2 stars from Amazon ratings",
+    reviews: "541 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41M-dFoGk+L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0F1TLPDWT?tag=deskfinds0d-20",
+    description:
+      "A genuinely split keyboard with a relatively compact combined footprint and a dedicated cushioned wrist rest, retaining real split ergonomic benefit at a lower price than the Arteck split pick above. Verify current listings for number pad and navigation cluster presence separately from its ergonomic layout, since it makes its own tradeoffs there.\n\nIts smaller verified review base compared to the Logitech picks in this guide means less long-term reliability data, worth weighing against the more established compact options above.",
+    specs: ["Split layout, compact combined footprint", "Cushioned wrist rest", "Wireless connectivity", "Mid-range price point"],
+    pros: ["True split layout retains ergonomic benefit", "Dedicated cushioned wrist rest", "Reasonable mid-range price", "Wireless, no cable clutter"],
+    cons: ["Smaller verified review base than established picks", "Larger combined footprint than a one-piece compact design", "Verify number pad/nav cluster inclusion on current listing"],
+    bestFor: "Buyers who want genuine split benefit and a cushioned rest in a relatively compact footprint",
+  },
+  {
+    id: "arteck-cushioned-palm-multi-compact",
+    rank: 6,
+    badge: "Best Multi-Device Compact Pick",
+    name: "Arteck Ergonomic Keyboard with Cushioned Wrist Palm Rest, Multi-Device",
+    price: "$56.99",
+    rating: "4.3 stars from Amazon ratings",
+    reviews: "69 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41ersIiDGuL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0FPR2GR6F?tag=deskfinds0d-20",
+    description:
+      "A cushioned-palm-rest keyboard with multi-device pairing support, appropriate for compact-desk buyers who switch between a laptop and desktop. Its curved layout is compact but not a true split, worth comparing against the Arteck split pick above if genuine split ergonomic benefit matters more than multi-device switching.\n\nAs with the other compact picks, verify current listings for number pad and navigation cluster inclusion separately from the ergonomic layout question.",
+    specs: ["Cushioned wrist palm rest", "Multi-device pairing support", "Curved compact layout, not a true split", "Wireless connectivity"],
+    pros: ["Cushioned palm rest included", "Multi-device pairing for switching between computers", "Compact curved layout", "Reasonable price for the feature set"],
+    cons: ["Not a true split layout", "Smaller verified review base than the top picks here", "Verify number pad/nav cluster inclusion on current listing"],
+    bestFor: "Compact-desk buyers who switch between multiple devices and want consistent cushioned support",
+  },
+  {
+    id: "protoarc-xk03-foldable-compact",
+    rank: 7,
+    badge: "Best Foldable Compact Pick",
+    name: "ProtoArc XK03 Ergonomic Foldable Keyboard for iPad, iPhone, Tablet, Laptop",
+    price: "$55.99",
+    rating: "4.4 stars from Amazon ratings",
+    reviews: "489 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41Qw9A3JiYL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0D3HG7XZL?tag=deskfinds0d-20",
+    description:
+      "A foldable keyboard that shrinks even further than the other compact picks in this guide when folded, appropriate for buyers whose small desk doubles as a travel or tablet-use setup. Its solid verified review base reflects general buyer satisfaction with the cross-device folding design.\n\nAs with the folding picks covered in this guide's portability sibling, verify whether this specific model retains genuine split ergonomic benefit or is primarily a folding compact shape, these are different tradeoffs to weigh.",
+    specs: ["Foldable design for iPad, iPhone, tablet, and laptop", "Solid verified review base", "Compact folded footprint", "Cross-device compatibility"],
+    pros: ["Smallest folded footprint among compact picks here", "Works across tablets, phones, and laptops", "Strong verified review base for a compact keyboard", "Reasonable mid-range price"],
+    cons: ["Verify true split ergonomic benefit versus folding compactness", "Folding hinge adds some bulk", "Verify number pad/nav cluster inclusion on current listing"],
+    bestFor: "Compact-desk buyers who also want a keyboard that folds smaller for travel or tablet use",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -117,6 +168,9 @@ export const howToChoose: HowToChooseSection[] = [
         ["Same design, different colorway", "Logitech Wave Keys Rose"],
         ["Genuine split benefit in a compact footprint", "Arteck Split Ergonomic 2.4G"],
         ["Purpose-built 2-in-1 small-desk design", "Perixx PERIDUO-606II"],
+        ["Cushioned split at a lower price", "Nulea Split Cushioned"],
+        ["Multi-device switching support", "Arteck Cushioned Palm Multi-Device"],
+        ["Smallest footprint when folded", "ProtoArc XK03 Foldable"],
       ],
     },
   },

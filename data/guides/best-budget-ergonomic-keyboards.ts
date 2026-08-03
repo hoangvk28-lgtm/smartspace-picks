@@ -1,8 +1,8 @@
 export const guideSlug = "best-budget-ergonomic-keyboards";
-export const guideTitle = "5 Best Budget Ergonomic Keyboards in 2026";
+export const guideTitle = "8 Best Budget Ergonomic Keyboards in 2026";
 export const metaTitle = "Best Budget Ergonomic Keyboards (2026)";
 export const metaDescription =
-  "5 budget ergonomic keyboards we evaluated honestly for how much real split or ergonomic design survives price-cutting, plus warranty and return-friendliness.";
+  "8 budget ergonomic keyboards we evaluated honestly for how much real split or ergonomic design survives price-cutting, plus warranty and return-friendliness.";
 export const mainKeyword = "budget ergonomic keyboard";
 export const introParagraphs = [
   "It's worth being upfront that 'ergonomic' at any price doesn't guarantee a meaningful design benefit, budget-tier keyboards are more likely to be membrane-based, one-piece designs with minimal split or tenting adjustability compared to pricier options, worth verifying which genuine design tier a specific budget listing actually offers rather than assuming the label alone means much. We applied extra scrutiny to whether the genuinely beneficial but costlier features, real split layout, column stagger, tenting, survive price-cutting at each specific price point.",
@@ -105,6 +105,57 @@ export const products: GuideProduct[] = [
     cons: ["Verify true split vs one-piece ergonomic design on current listing", "Build quality likely more compromised at this price tier", "Check current listing for specific warranty length"],
     bestFor: "Budget-conscious buyers who specifically want a rechargeable combo to avoid disposable battery costs",
   },
+  {
+    id: "x9-wired-ergonomic-budget",
+    rank: 6,
+    badge: "Best Lowest-Price One-Piece Pick",
+    name: "X9 Wired Ergonomic Keyboard - Comfortable Typing, Ergonomic Full Size",
+    price: "$29.99",
+    rating: "4.5 stars from Amazon ratings",
+    reviews: "1,141 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41LVGOn5JLL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B08G1WNS6F?tag=deskfinds0d-20",
+    description:
+      "A one-piece curved keyboard at one of the lowest prices in this guide, worth being direct that this is a one-piece shape rather than genuine split design, a common tradeoff at this price tier. Its high rating relative to price is a reasonable signal, though verify recent buyer feedback for durability under sustained daily use.\n\nIts wired connection removes any battery concern, and as a low-risk, low-cost entry point it's worth considering for a first-time buyer who wants to test the ergonomic keyboard concept before committing to a genuine split design.",
+    specs: ["One-piece curved ergonomic frame", "Wired USB connection", "Full-size layout", "One of the lowest prices in this guide"],
+    pros: ["One of the lowest prices in this guide", "High rating relative to price", "No battery to manage", "Simple plug-and-play setup"],
+    cons: ["One-piece shape, not a true split design", "Build quality likely more compromised at this price tier", "Check current listing for specific warranty length"],
+    bestFor: "First-time buyers wanting the lowest-cost entry point, aware it's a one-piece design rather than true split",
+  },
+  {
+    id: "reccazr-wired-budget",
+    rank: 7,
+    badge: "Best Budget Pick with Included Wrist Rest",
+    name: "RECCAZR Ergonomic Keyboard, Wired Computer USB Keyboard with Wrist Rest",
+    price: "$29.98",
+    rating: "4.3 stars from Amazon ratings",
+    reviews: "280 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/419u8a5c96L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DMDJB6G2?tag=deskfinds0d-20",
+    description:
+      "A low-cost wired keyboard that includes an attached wrist rest out of the box, a small added value at nearly the same price as the X9 pick above. As with any budget one-piece keyboard, this isn't a genuine split design, verify your ergonomic expectations against what this price tier actually delivers.\n\nIts smaller verified review base than the other budget picks in this guide means less long-term reliability data, worth checking current buyer feedback for durability signals before committing.",
+    specs: ["Wired USB connection", "Attached wrist rest", "Curved ergonomic layout", "Budget price point"],
+    pros: ["Attached wrist rest included at a low price", "Simple plug-and-play setup", "No battery to manage", "Reasonable rating for the price"],
+    cons: ["One-piece shape, not a true split design", "Smaller verified review base than other picks here", "Check current listing for specific warranty length"],
+    bestFor: "Budget buyers who want an included wrist rest without paying more for one",
+  },
+  {
+    id: "meetion-wired-backlit-budget-2",
+    rank: 8,
+    badge: "Best Budget Backlit Wrist Rest Pick",
+    name: "MEETION Wired Ergonomic Keyboard with Backlit Keys and Wrist Rest",
+    price: "$35.99",
+    rating: "3.4 stars from Amazon ratings",
+    reviews: "21 ratings",
+    imageUrl: "https://m.media-amazon.com/images/I/41kuxYbya+L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GXKJWH2H?tag=deskfinds0d-20",
+    description:
+      "A wired keyboard combining backlit keys with a built-in wrist rest at a low price, drawing illumination power directly from the USB port with no battery-life tradeoff. Its rating and review base are both notably lower than the other picks in this guide, worth treating as a lighter-weight signal until more buyer feedback accumulates.\n\nGiven the smaller sample size behind its rating, buyers prioritizing proven reliability at this price may prefer the Perixx or RECCAZR picks above, both with a stronger or larger review history.",
+    specs: ["Wired USB connection", "Backlit keys", "Attached wrist rest", "Budget price point"],
+    pros: ["Backlit keys with no battery-life tradeoff since it's wired", "Attached wrist rest included", "Budget price point", "Simple USB plug-and-play"],
+    cons: ["Lowest rating among budget picks in this guide", "Smallest verified review base here", "Check current listing for specific warranty length"],
+    bestFor: "Budget buyers who want backlit keys and a wrist rest, aware of its limited review history",
+  },
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -135,6 +186,9 @@ export const howToChoose: HowToChooseSection[] = [
         ["Genuine split design with backlighting", "Arteck Split Wired Backlit"],
         ["Lowest price, one-piece wave combo", "Wireless Wave Keys Combo 2.4G"],
         ["Rechargeable combo, avoid disposable batteries", "SABLUTE Rechargeable Combo"],
+        ["Lowest price, one-piece shape", "X9 Wired Ergonomic Keyboard"],
+        ["Included wrist rest at low price", "RECCAZR Wired Wrist Rest"],
+        ["Backlit keys with included wrist rest", "MEETION Wired Backlit Wrist Rest"],
       ],
     },
   },
