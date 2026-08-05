@@ -110,6 +110,19 @@ async function main() {
       continue;
     }
 
+    // This template unconditionally imports howWeEvaluated/howToChoose/buyingCriteria.
+    // Legacy guides created before the 2026-07-18 template revision don't export these
+    // fields, so generating a page for them would produce a page.tsx with a broken
+    // import and fail the build. Skip rather than emit unbuildable output.
+    const requiredExports = ["howWeEvaluated", "howToChoose", "buyingCriteria"];
+    const missingExports = requiredExports.filter(
+      (name) => !new RegExp(`export const ${name}\\b`).test(content)
+    );
+    if (missingExports.length > 0) {
+      console.error(`✗ ${slug}: missing required export(s) [${missingExports.join(", ")}] — skipping (legacy guide, needs backfill first)`);
+      continue;
+    }
+
     let introParagraphs = [];
     if (introParagraphsRaw) {
       // crude but reliable extraction of double-quoted or template strings in the array
