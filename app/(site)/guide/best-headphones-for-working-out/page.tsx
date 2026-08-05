@@ -6,20 +6,21 @@ import { buildMetadata, SITE_URL } from "@/lib/seo";
 import { getPublicGuideBySlug } from "@/lib/public-guides";
 import {
   guideTitle,
-  guideDescription,
   metaTitle,
   metaDescription,
   lastUpdated,
   readTime,
   heroImage as fallbackHeroImage,
   products,
-  atAGlanceRows,
   faq,
   relatedGuides,
-  type WorkoutHeadphone,
+  buyingCriteria,
+  howWeEvaluated,
+  howToChoose,
+  type GuideProduct,
 } from "@/data/guides/best-headphones-for-working-out";
 
-export const revalidate = false;
+export const revalidate = 86400;
 
 export const metadata: Metadata = buildMetadata({
   title: metaTitle,
@@ -29,22 +30,23 @@ export const metadata: Metadata = buildMetadata({
   type: "article",
 });
 
-function ProductSection({ product }: { product: WorkoutHeadphone }) {
-  const isHighIP = product.ipRating.startsWith("IP68") || product.ipRating === "IPX7";
+function ProductSection({ product }: { product: GuideProduct }) {
   return (
     <section id={product.id} className="mb-14 scroll-mt-20">
       <div className="flex flex-wrap items-center gap-2 mb-4">
         <span className="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest text-white bg-brand shrink-0">
           {product.badge}
         </span>
-        <h2 className="text-2xl font-bold text-ink tracking-tight min-w-0 break-words">{product.name}</h2>
+        <h2 className="text-2xl font-bold text-ink tracking-tight min-w-0 break-words">
+          {product.name}
+        </h2>
       </div>
       <div className="rounded-2xl border border-border bg-white overflow-hidden shadow-card">
         <div className="flex flex-col sm:flex-row gap-5 p-5">
           <a
             href={product.amazonUrl}
             target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
+            rel="noopener noreferrer sponsored"
             className="shrink-0 flex items-center justify-center w-full sm:w-60 h-52 rounded-xl border border-border bg-gray-50 overflow-hidden hover:opacity-90 transition-opacity"
           >
             <Image
@@ -52,45 +54,43 @@ function ProductSection({ product }: { product: WorkoutHeadphone }) {
               alt={product.name}
               width={220}
               height={200}
-              className="object-contain w-full h-full p-3"
+              className="object-cover w-full h-full"
               unoptimized
             />
           </a>
           <div className="flex-1 min-w-0 flex flex-col gap-3">
             <div className="flex flex-wrap gap-2">
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-brand-muted text-brand font-bold">{product.price}</span>
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">{product.headphoneType}</span>
-              <span className={`text-xs px-2.5 py-1 rounded-lg font-bold ${isHighIP ? "bg-cta-light text-cta" : "bg-gray-100 text-ink-secondary"}`}>
-                {product.ipRating}
+              <span className="text-xs px-2.5 py-1 rounded-lg bg-brand-muted text-brand font-bold">
+                {product.price}
               </span>
-              {product.battery !== "N/A" && (
-                <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">{product.battery}</span>
-              )}
-              {product.hasANC && (
-                <span className="text-xs px-2.5 py-1 rounded-lg bg-brand/10 text-brand font-bold">ANC</span>
-              )}
+              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
+                {product.rating}
+              </span>
+              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
+                {product.reviews}
+              </span>
+              {product.specs.map((spec, i) => (
+                <span key={i} className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
+                  {spec}
+                </span>
+              ))}
             </div>
             <div>
-              <p className="text-xs font-bold uppercase tracking-widest text-brand mb-1">Why it works</p>
-              <p className="text-sm text-ink-secondary leading-relaxed">{product.whyItWorks}</p>
+              <p className="text-xs font-bold uppercase tracking-widest text-brand mb-1">About this pick</p>
+              {product.description.split("\n\n").map((para, i) => (
+                <p key={i} className="text-sm text-ink-secondary leading-relaxed">
+                  {para}
+                </p>
+              ))}
             </div>
-            {product.tradeoffs.length > 0 && (
-              <div>
-                <p className="text-xs font-bold uppercase tracking-widest text-ink-muted mb-1">Trade-offs</p>
-                <ul className="space-y-1">
-                  {product.tradeoffs.map((t, i) => (
-                    <li key={i} className="text-xs text-ink-secondary">&middot; {t}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
             <p className="text-xs text-ink-muted">
-              <span className="font-semibold text-ink">Skip if:</span> {product.skipIf}
+              <span className="font-semibold text-ink">Best for:</span>{" "}
+              {product.bestFor}
             </p>
             <a
               href={product.amazonUrl}
               target="_blank"
-              rel="nofollow sponsored noopener noreferrer"
+              rel="noopener noreferrer sponsored"
               className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90 transition-opacity w-fit mt-auto"
               style={{ background: "#FF9900" }}
             >
@@ -130,7 +130,7 @@ function ProductSection({ product }: { product: WorkoutHeadphone }) {
   );
 }
 
-export default async function BestHeadphonesForWorkingOutPage() {
+export default async function Page() {
   const guide = await getPublicGuideBySlug("best-headphones-for-working-out");
   const heroImg = guide?.thumbnailImage ?? guide?.heroImage ?? fallbackHeroImage;
 
@@ -144,31 +144,29 @@ export default async function BestHeadphonesForWorkingOutPage() {
     author: { "@type": "Person", name: "Jamie Cole", url: `${SITE_URL}/author/jamie-cole` },
     publisher: { "@type": "Organization", name: "DeskFinds", url: SITE_URL },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/guide/best-headphones-for-working-out` },
-    about: [
-      { "@type": "Thing", name: "Workout Headphones" },
-      { "@type": "Thing", name: "Sport Earbuds" },
-      { "@type": "Thing", name: "Waterproof Headphones" },
-    ],
+    about: [{"@type":"Thing","name":"Best Headphones for Working Out (2026)"}],
   };
+
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Headphones for Working Out", item: `${SITE_URL}/guide/best-headphones-for-working-out` },
+      { "@type": "ListItem", position: 3, name: "Best Headphones for Working Out (2026)", item: `${SITE_URL}/guide/best-headphones-for-working-out` },
     ],
   };
+
   const itemListSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Best Headphones for Working Out 2026",
-    description: "7 best workout headphones from $45 to $350, compared by IP rating, fit security, battery, and use case.",
-    numberOfItems: 7,
+    name: guideTitle,
+    description: metaDescription,
+    numberOfItems: products.length,
     itemListElement: products.map((p) => ({
       "@type": "ListItem",
       position: p.rank,
-      name: `${p.name}, ${p.badge}`,
+      name: `${p.name} - ${p.badge}`,
       url: `${SITE_URL}/guide/best-headphones-for-working-out#${p.id}`,
     })),
   };
@@ -179,26 +177,28 @@ export default async function BestHeadphonesForWorkingOutPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
       <Container className="py-12 max-w-4xl">
-        {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
           <Link href="/" className="hover:text-brand transition-colors">Home</Link>
           <span>/</span>
           <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
-          <span className="text-ink">Best Headphones for Working Out</span>
+          <span className="text-ink">Best Headphones for Working Out (2026)</span>
         </nav>
 
-        {/* Header */}
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-3">
             <span className="text-xs font-bold uppercase tracking-widest text-brand">Buying Guide</span>
             <span className="text-ink-muted">&middot;</span>
             <span className="text-xs text-ink-muted">{readTime} read</span>
             <span className="text-ink-muted">&middot;</span>
-            <span className="text-xs text-ink-muted">Updated June 2026</span>
+            <span className="text-xs text-ink-muted">Updated July 2026</span>
           </div>
-          <h1 className="text-3xl sm:text-4xl font-bold text-ink leading-tight tracking-tight mb-4">{guideTitle}</h1>
-          <p className="text-lg text-ink-secondary leading-relaxed max-w-3xl">{guideDescription}</p>
+          <h1 className="text-3xl sm:text-4xl font-bold text-ink leading-tight tracking-tight mb-4">
+            {guideTitle}
+          </h1>
+          <p className="text-lg text-ink-secondary leading-relaxed max-w-3xl">
+            {metaDescription}
+          </p>
           <div className="flex flex-wrap items-center gap-4 mt-5 pt-5 border-t border-border">
             <div className="flex items-center gap-2 text-sm text-ink-secondary">
               <div className="w-7 h-7 rounded-full bg-brand-muted flex items-center justify-center">
@@ -212,69 +212,62 @@ export default async function BestHeadphonesForWorkingOutPage() {
               <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
               </svg>
-              7 picks evaluated, earbuds, open-ear, and over-ear
+              {products.length} options evaluated
             </div>
           </div>
         </header>
 
-        {/* Affiliate disclosure */}
         <div className="mb-8 p-4 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
-          <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. As an Amazon Associate, DeskFinds earns from qualifying purchases.{" "}
+          <strong className="text-ink">Quick note:</strong> We may earn a commission when you buy through Amazon links. This guide is based on product specs, buyer feedback, use cases, and comparison criteria, not paid placement.{" "}
           <Link href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
         </div>
 
-        {/* Hero image */}
-        <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-bg">
-          <Image
-            src={heroImg}
-            alt="Best headphones for working out 2026"
-            width={900}
-            height={420}
-            className="w-full h-auto object-contain"
-            priority
-            unoptimized
-          />
+        <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-white h-56 sm:h-64 md:hidden flex items-center justify-center p-3">
+          <Image src={heroImg} alt="Best Headphones for Working Out (2026)" width={900} height={420} className="w-full h-full object-contain" priority unoptimized />
+        </div>
+        <div
+          className="hidden md:grid rounded-2xl overflow-hidden border border-border mb-10 gap-px bg-border"
+          style={{ gridTemplateColumns: `repeat(${products.length}, minmax(0,1fr))` }}
+        >
+          {products.map((product, i) => (
+            <div key={product.id} className="h-56 bg-white flex items-center justify-center p-4">
+              <Image
+                src={product.imageUrl}
+                alt={product.name}
+                width={300}
+                height={300}
+                className="w-full h-full object-contain"
+                priority={i === 0}
+                unoptimized
+              />
+            </div>
+          ))}
         </div>
 
-        {/* Quick Picks table */}
         <section className="mb-10">
-          <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">Quick Picks</h2>
+          <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">Comparison Table</h2>
           <div className="overflow-x-auto rounded-xl border border-border">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-brand text-white">
                   <th className="text-left px-4 py-3 font-semibold">Pick</th>
                   <th className="text-left px-4 py-3 font-semibold">Product</th>
-                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Type</th>
-                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">IP Rating</th>
-                  <th className="text-left px-4 py-3 font-semibold hidden md:table-cell">Battery</th>
-                  <th className="text-left px-4 py-3 font-semibold">Price</th>
+                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Price</th>
+                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Rating</th>
                   <th className="px-4 py-3"></th>
                 </tr>
               </thead>
               <tbody>
-                {atAGlanceRows.map((row, i) => (
-                  <tr key={row.id} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
+                {products.map((product, i) => (
+                  <tr key={product.id} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                     <td className="px-4 py-3">
-                      <a href={`#${row.id}`} className="text-xs font-bold text-brand hover:underline">{row.badge}</a>
+                      <a href={`#${product.id}`} className="text-xs font-bold text-brand hover:underline">{product.badge}</a>
                     </td>
-                    <td className="px-4 py-3 font-semibold text-ink text-xs">{row.name}</td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{row.headphoneType}</td>
-                    <td className="px-4 py-3 text-xs hidden sm:table-cell">
-                      <span className={row.ipRating.startsWith("IP68") ? "text-cta font-bold" : "text-ink-secondary"}>
-                        {row.ipRating}
-                      </span>
-                    </td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs hidden md:table-cell">{row.battery}</td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs">{row.price}</td>
+                    <td className="px-4 py-3 font-semibold text-ink text-xs">{product.name}</td>
+                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{product.price}</td>
+                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{product.rating}</td>
                     <td className="px-4 py-3">
-                      <a
-                        href={products[i].amazonUrl}
-                        target="_blank"
-                        rel="nofollow sponsored noopener noreferrer"
-                        className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block"
-                        style={{ background: "#FF9900" }}
-                      >
+                      <a href={product.amazonUrl} target="_blank" rel="noopener noreferrer sponsored" className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>
                         Check price
                       </a>
                     </td>
@@ -283,103 +276,33 @@ export default async function BestHeadphonesForWorkingOutPage() {
               </tbody>
             </table>
           </div>
+          <p className="text-xs text-ink-muted mt-2">Prices are approximate. Check Amazon for current pricing before purchasing.</p>
         </section>
 
-        {/* Intro */}
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
-          <p>The wrong headphones for working out are not just annoying. They fall out mid-set, short-circuit from sweat in three months, or muffle ambient sound so completely that you do not hear the car coming.</p>
-          <p>This guide covers 7 picks: budget earbuds under $55, IP68-rated sport earbuds, open-ear bone conduction for runners, premium hooks for intense training, and one over-ear pick for gym sessions where isolation matters more than sweat resistance.</p>
-          <p>If you also need headphones for work calls, see our <Link href="/guide/best-headset-for-work" className="text-brand hover:underline">best work headsets guide</Link>. For a dedicated headphone stand at your desk, see our <Link href="/guide/best-headphone-stand-desk" className="text-brand hover:underline">headphone stand guide</Link>.</p>
+          <p>This guide covers the top picks for 7 best headphones for working out (2026), ranked by real product specs, weight capacity, and buyer feedback.</p>
         </section>
 
-        {/* Buying Guide */}
-        <section className="mb-12 scroll-mt-20" id="buying-guide">
-          <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">What to Look For in Workout Headphones</h2>
-
-          <div className="mb-8">
-            <h3 className="text-lg font-bold text-ink mb-3">1. IP Rating: What the Numbers Mean</h3>
-            <div className="overflow-x-auto rounded-xl border border-border mb-4">
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="bg-brand text-white">
-                    <th className="text-left px-4 py-3 font-semibold">Rating</th>
-                    <th className="text-left px-4 py-3 font-semibold">What It Withstands</th>
-                    <th className="text-left px-4 py-3 font-semibold">Best For</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {[
-                    { rating: "IPX4", desc: "Sweat and light rain, any direction", best: "Light gym, yoga, walking" },
-                    { rating: "IPX7", desc: "Submerged to 1m for 30 min", best: "Running in rain, heavy sweat" },
-                    { rating: "IP68", desc: "Full submersion plus dustproof", best: "Any workout, any condition" },
-                    { rating: "IP55", desc: "Dust resistant plus water jets", best: "Running, outdoor use" },
-                    { rating: "IP57", desc: "Fully dustproof plus some submersion", best: "Gym and outdoor training" },
-                  ].map((row, i) => (
-                    <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
-                      <td className="px-4 py-3 font-bold text-ink text-xs">{row.rating}</td>
-                      <td className="px-4 py-3 text-ink-secondary text-xs">{row.desc}</td>
-                      <td className="px-4 py-3 text-ink-secondary text-xs">{row.best}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+        {buyingCriteria.length > 0 && (
+          <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
+            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">{buyingCriteria.length} Criteria to Look For Before Buying a Headphones for Working Out (2026)</h2>
+            <p className="text-sm text-ink-muted mb-5">Key buying criteria so you get the right fit the first time.</p>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {buyingCriteria.map((item, i) => (
+                <div key={i} className="p-4 rounded-xl border border-border bg-bg">
+                  <p className="text-sm font-bold text-ink mb-1.5">{item.criterion}</p>
+                  <p className="text-sm text-ink-secondary leading-relaxed">{item.explanation}</p>
+                </div>
+              ))}
             </div>
-            <p className="text-sm text-ink-secondary">The second digit is water resistance. The first digit is dust resistance. IP68 beats IPX7 because it adds dustproofing, critical for gym chalk, outdoor dust, and lint.</p>
-          </div>
+          </section>
+        )}
 
-          <div className="mb-8">
-            <h3 className="text-lg font-bold text-ink mb-3">2. ANC vs Open-Ear: When Safety Matters</h3>
-            <p className="text-sm text-ink-secondary mb-3">ANC is excellent for gym use. But for outdoor running, ANC is a safety risk. You need to hear cars, cyclists, and pedestrians.</p>
-            <div className="grid sm:grid-cols-2 gap-3 mb-3">
-              <div className="p-3 rounded-xl bg-brand/5 border border-brand/20 text-sm text-ink-secondary">
-                <strong className="text-ink">Run outdoors:</strong> Get the Shokz OpenRun Pro 2 (open-ear) or use Transparency Mode if your earbuds have it.
-              </div>
-              <div className="p-3 rounded-xl bg-gray-50 border border-border text-sm text-ink-secondary">
-                <strong className="text-ink">Train indoors only:</strong> ANC is a feature, not a safety risk. Any pick in this guide works.
-              </div>
-            </div>
-          </div>
-
-          <div className="mb-4">
-            <h3 className="text-lg font-bold text-ink mb-3">3. Where the Value Lands</h3>
-            <div className="overflow-x-auto rounded-xl border border-border">
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="bg-brand text-white">
-                    <th className="text-left px-4 py-3 font-semibold">Budget</th>
-                    <th className="text-left px-4 py-3 font-semibold">Best pick</th>
-                    <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Why</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {[
-                    { budget: "Under $60", pick: "JBL Endurance Peak 3", why: "IP68 at this price is exceptional" },
-                    { budget: "$60-$130", pick: "Jabra Elite 4 Active", why: "ANC plus transparency plus IP57 under $120" },
-                    { budget: "$130-$200", pick: "Shokz OpenRun Pro 2 or Powerbeats Pro 2", why: "Best at their specific use case" },
-                    { budget: "$200+", pick: "Jabra Elite 8 Active Gen 2", why: "No meaningful compromise" },
-                  ].map((row, i) => (
-                    <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
-                      <td className="px-4 py-3 font-medium text-ink text-xs">{row.budget}</td>
-                      <td className="px-4 py-3 text-ink-secondary text-xs">{row.pick}</td>
-                      <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{row.why}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </section>
-
-        {/* Jump nav */}
         <nav className="mb-12 p-4 rounded-xl bg-bg border border-border">
           <p className="text-xs font-bold uppercase tracking-widest text-ink-muted mb-3">Jump to pick</p>
           <div className="flex flex-wrap gap-2">
             {products.map((p) => (
-              <a
-                key={p.id}
-                href={`#${p.id}`}
-                className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors"
-              >
+              <a key={p.id} href={`#${p.id}`} className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors">
                 #{p.rank} {p.badge}
               </a>
             ))}
@@ -387,12 +310,78 @@ export default async function BestHeadphonesForWorkingOutPage() {
           </div>
         </nav>
 
-        <h2 className="text-2xl font-bold text-ink mb-8 tracking-tight">7 Best Headphones for Working Out</h2>
+        <h2 className="text-2xl font-bold text-ink mb-8 tracking-tight">{guideTitle}</h2>
+
         {products.map((product) => (
           <ProductSection key={product.id} product={product} />
         ))}
 
-        {/* FAQ */}
+        {howWeEvaluated.length > 0 && (
+          <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
+            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">How We Evaluated These Headphones for Working Out (2026)</h2>
+            <p className="text-sm text-ink-muted mb-5">Each pick was assessed across {howWeEvaluated.length} criteria weighted for real-world use.</p>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {howWeEvaluated.map((item, i) => (
+                <div key={i} className="p-4 rounded-xl border border-border bg-bg">
+                  <p className="text-sm font-bold text-ink mb-1.5">{item.title}</p>
+                  <p className="text-sm text-ink-secondary leading-relaxed">{item.description}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {howToChoose.length > 0 && (
+          <section className="mb-14">
+            <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">How to Choose the Right Headphones for Working Out (2026)</h2>
+            <div className="space-y-8">
+              {howToChoose.map((sub, i) => (
+                <div key={i}>
+                  <h3 className="text-lg font-bold text-ink mb-3">{sub.subheading}</h3>
+                  {sub.intro && (
+                    <p className="text-sm text-ink-secondary leading-relaxed mb-3">{sub.intro}</p>
+                  )}
+                  {sub.table && (
+                    <div className="overflow-x-auto rounded-xl border border-border mb-2">
+                      <table className="w-full text-sm">
+                        <thead>
+                          <tr className="bg-brand text-white">
+                            {sub.table.headers.map((h, hi) => (
+                              <th key={hi} className="text-left px-4 py-3 font-semibold">{h}</th>
+                            ))}
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {sub.table.rows.map((row, ri) => (
+                            <tr key={ri} className={ri % 2 === 0 ? "bg-white" : "bg-bg"}>
+                              {row.map((cell, ci) => (
+                                <td key={ci} className="px-4 py-3 text-ink-secondary text-xs">{cell}</td>
+                              ))}
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  )}
+                  {sub.cards && (
+                    <div className="grid sm:grid-cols-2 gap-3 mb-2">
+                      {sub.cards.map((c, ci) => (
+                        <div key={ci} className="p-4 rounded-xl border border-border bg-bg">
+                          <p className="text-sm font-bold text-ink mb-1">{c.label}</p>
+                          <p className="text-sm text-ink-secondary leading-relaxed">{c.text}</p>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                  {sub.note && (
+                    <p className="text-xs text-ink-muted leading-relaxed">{sub.note}</p>
+                  )}
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
         <section id="faq" className="mb-14 scroll-mt-20">
           <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">Frequently Asked Questions</h2>
           <div className="space-y-4">
@@ -405,52 +394,34 @@ export default async function BestHeadphonesForWorkingOutPage() {
           </div>
         </section>
 
-        {/* Bottom Line */}
         <section className="mb-14 p-6 rounded-2xl border border-border bg-white">
           <h2 className="text-xl font-bold text-ink mb-5 tracking-tight">Bottom Line</h2>
           <div className="space-y-4">
-            {[
-              { context: "Tightest budget", id: "jbl-endurance-peak-3", name: "JBL Endurance Peak 3", verdict: ", IP68 under $80, FlexSoft hooks, 40-hour total battery." },
-              { context: "Run outdoors", id: "shokz-openrun-pro-2", name: "Shokz OpenRun Pro 2", verdict: ", open ears for safety, 12-hour battery, fits any gear." },
-              { context: "No-compromise workout earbuds", id: "jabra-elite-8-active-gen-2", name: "Jabra Elite 8 Active Gen 2", verdict: ", IP68 plus MIL-STD, best-in-class ANC, wireless charging case." },
-            ].map((item, i) => (
-              <div key={i} className="flex items-start gap-3">
-                <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
-                <p className="text-sm text-ink-secondary">
-                  <strong className="text-ink">{item.context}:</strong>{" "}
-                  <a href={`#${item.id}`} className="font-bold text-ink hover:text-brand transition-colors">{item.name}</a>
-                  {item.verdict}
-                </p>
-              </div>
-            ))}
+            <div className="flex items-start gap-3">
+              <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
+              <p className="text-sm text-ink-secondary">
+                <strong className="text-ink">best overall:</strong>{" "}
+                <a href={`#${products[0]?.id}`} className="font-bold text-ink hover:text-brand transition-colors">{products[0]?.name}</a>
+                {" "}- {products[0]?.badge.toLowerCase()} pick in this roundup.
+              </p>
+            </div>
+            <p className="text-sm text-ink-secondary pl-5">See the full rankings above for all picks with pros, cons, and best-for summaries.</p>
           </div>
         </section>
 
-        {/* CTA */}
         <section className="mb-14 p-6 rounded-2xl flex flex-col items-center text-center" style={{ background: "linear-gradient(135deg, #FF9900 0%, #e68900 100%)" }}>
-          <h2 className="text-xl font-bold text-white mb-2">Browse workout headphones on Amazon</h2>
-          <p className="text-white/90 text-sm mb-5">All Prime-eligible. IPX7, IP68, and bone conduction options.</p>
-          <a
-            href="https://www.amazon.com/s?k=workout+headphones+ipx7&tag=deskfinds0d-20"
-            target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors"
-            style={{ color: "#FF9900" }}
-          >
+          <h2 className="text-xl font-bold text-white mb-2">Browse on Amazon</h2>
+          <p className="text-white/90 text-sm mb-5">All Prime-eligible options with current pricing.</p>
+          <a href={`https://www.amazon.com/s?k=headphones+for+working+out&tag=deskfinds0d-20`} target="_blank" rel="noopener noreferrer sponsored" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors" style={{ color: "#FF9900" }}>
             Shop on Amazon &rarr;
           </a>
         </section>
 
-        {/* Related */}
         <section>
           <h2 className="text-xl font-bold text-ink mb-4 tracking-tight">Related Guides</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {relatedGuides.map((g) => (
-              <Link
-                key={g.href}
-                href={g.href}
-                className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group"
-              >
+              <Link key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
                 <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">
                   <svg className="w-4 h-4 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
@@ -462,7 +433,6 @@ export default async function BestHeadphonesForWorkingOutPage() {
               </Link>
             ))}
           </div>
-          <p className="text-xs text-ink-muted mt-4 text-center">Last updated: June 2026. Verify current Amazon prices before purchasing.</p>
         </section>
       </Container>
     </>

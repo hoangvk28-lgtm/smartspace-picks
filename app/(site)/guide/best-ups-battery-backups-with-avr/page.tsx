@@ -222,8 +222,26 @@ export default async function Page() {
           <Link href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
         </div>
 
-        <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-bg">
-          <Image src={heroImg} alt="Best UPS Battery Backups with AVR" width={900} height={420} className="w-full h-auto object-contain" priority unoptimized />
+        <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-white h-56 sm:h-64 md:hidden flex items-center justify-center p-3">
+          <Image src={heroImg} alt="Best UPS Battery Backups with AVR" width={900} height={420} className="w-full h-full object-contain" priority unoptimized />
+        </div>
+        <div
+          className="hidden md:grid rounded-2xl overflow-hidden border border-border mb-10 gap-px bg-border"
+          style={{ gridTemplateColumns: `repeat(${products.length}, minmax(0,1fr))` }}
+        >
+          {products.map((product, i) => (
+            <div key={product.id} className="h-56 bg-white flex items-center justify-center p-4">
+              <Image
+                src={product.imageUrl}
+                alt={product.name}
+                width={300}
+                height={300}
+                className="w-full h-full object-contain"
+                priority={i === 0}
+                unoptimized
+              />
+            </div>
+          ))}
         </div>
 
         <section className="mb-10">

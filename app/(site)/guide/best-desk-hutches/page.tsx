@@ -14,6 +14,9 @@ import {
   products,
   faq,
   relatedGuides,
+  buyingCriteria,
+  howWeEvaluated,
+  howToChoose,
   type GuideProduct,
 } from "@/data/guides/best-desk-hutches";
 
@@ -74,12 +77,15 @@ function ProductSection({ product }: { product: GuideProduct }) {
             </div>
             <div>
               <p className="text-xs font-bold uppercase tracking-widest text-brand mb-1">About this pick</p>
-              {product.description.split('\n\n').map((para, i) => (
-                <p key={i} className="text-sm text-ink-secondary leading-relaxed">{para}</p>
+              {product.description.split("\n\n").map((para, i) => (
+                <p key={i} className="text-sm text-ink-secondary leading-relaxed">
+                  {para}
+                </p>
               ))}
             </div>
             <p className="text-xs text-ink-muted">
-              <span className="font-semibold text-ink">Best for:</span> {product.bestFor}
+              <span className="font-semibold text-ink">Best for:</span>{" "}
+              {product.bestFor}
             </p>
             <a
               href={product.amazonUrl}
@@ -124,7 +130,7 @@ function ProductSection({ product }: { product: GuideProduct }) {
   );
 }
 
-export default async function BestDeskHutchesPage() {
+export default async function Page() {
   const guide = await getPublicGuideBySlug("best-desk-hutches");
   const heroImg = guide?.thumbnailImage ?? guide?.heroImage ?? fallbackHeroImage;
 
@@ -138,11 +144,7 @@ export default async function BestDeskHutchesPage() {
     author: { "@type": "Person", name: "Jamie Cole", url: `${SITE_URL}/author/jamie-cole` },
     publisher: { "@type": "Organization", name: "DeskFinds", url: SITE_URL },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/guide/best-desk-hutches` },
-    about: [
-      { "@type": "Thing", name: "Desk Hutch" },
-      { "@type": "Thing", name: "Desktop Storage" },
-      { "@type": "Thing", name: "Home Office Organization" },
-    ],
+    about: [{"@type":"Thing","name":"Best Desk Hutches for Any Setup (2026)"}],
   };
 
   const breadcrumbSchema = {
@@ -151,7 +153,7 @@ export default async function BestDeskHutchesPage() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Desk Hutches", item: `${SITE_URL}/guide/best-desk-hutches` },
+      { "@type": "ListItem", position: 3, name: "Best Desk Hutches for Any Setup (2026)", item: `${SITE_URL}/guide/best-desk-hutches` },
     ],
   };
 
@@ -180,7 +182,7 @@ export default async function BestDeskHutchesPage() {
           <span>/</span>
           <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
-          <span className="text-ink">Best Desk Hutches</span>
+          <span className="text-ink">Best Desk Hutches for Any Setup (2026)</span>
         </nav>
 
         <header className="mb-8">
@@ -195,9 +197,7 @@ export default async function BestDeskHutchesPage() {
             {guideTitle}
           </h1>
           <p className="text-lg text-ink-secondary leading-relaxed max-w-3xl">
-            Eight desk hutches ranked by buyer rating and review count. Covers wall-mounted floating
-            hutches, floor-to-desk units with drawers, bookcase-style hutches, and standard above-desk
-            storage models across a range of prices and finishes.
+            {metaDescription}
           </p>
           <div className="flex flex-wrap items-center gap-4 mt-5 pt-5 border-t border-border">
             <div className="flex items-center gap-2 text-sm text-ink-secondary">
@@ -212,22 +212,40 @@ export default async function BestDeskHutchesPage() {
               <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
               </svg>
-              8 desk hutches evaluated
+              {products.length} options evaluated
             </div>
           </div>
         </header>
 
         <div className="mb-8 p-4 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
-          <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. As an Amazon Associate, DeskFinds earns from qualifying purchases.{" "}
+          <strong className="text-ink">Quick note:</strong> We may earn a commission when you buy through Amazon links. This guide is based on product specs, buyer feedback, use cases, and comparison criteria, not paid placement.{" "}
           <Link href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
         </div>
 
-        <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-bg">
-          <Image src={heroImg} alt="Best desk hutches" width={900} height={420} className="w-full h-auto object-contain" priority unoptimized />
+        <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-white h-56 sm:h-64 md:hidden flex items-center justify-center p-3">
+          <Image src={heroImg} alt="Best Desk Hutches for Any Setup (2026)" width={900} height={420} className="w-full h-full object-contain" priority unoptimized />
+        </div>
+        <div
+          className="hidden md:grid rounded-2xl overflow-hidden border border-border mb-10 gap-px bg-border"
+          style={{ gridTemplateColumns: `repeat(${products.length}, minmax(0,1fr))` }}
+        >
+          {products.map((product, i) => (
+            <div key={product.id} className="h-56 bg-white flex items-center justify-center p-4">
+              <Image
+                src={product.imageUrl}
+                alt={product.name}
+                width={300}
+                height={300}
+                className="w-full h-full object-contain"
+                priority={i === 0}
+                unoptimized
+              />
+            </div>
+          ))}
         </div>
 
         <section className="mb-10">
-          <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">Quick Picks</h2>
+          <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">Comparison Table</h2>
           <div className="overflow-x-auto rounded-xl border border-border">
             <table className="w-full text-sm">
               <thead>
@@ -236,91 +254,49 @@ export default async function BestDeskHutchesPage() {
                   <th className="text-left px-4 py-3 font-semibold">Product</th>
                   <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Price</th>
                   <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Rating</th>
-                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Reviews</th>
                   <th className="px-4 py-3"></th>
                 </tr>
               </thead>
               <tbody>
                 {products.map((product, i) => (
                   <tr key={product.id} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
-                    <td className="px-4 py-3"><a href={`#${product.id}`} className="text-xs font-bold text-brand hover:underline">{product.badge}</a></td>
+                    <td className="px-4 py-3">
+                      <a href={`#${product.id}`} className="text-xs font-bold text-brand hover:underline">{product.badge}</a>
+                    </td>
                     <td className="px-4 py-3 font-semibold text-ink text-xs">{product.name}</td>
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{product.price}</td>
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{product.rating}</td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{product.reviews}</td>
                     <td className="px-4 py-3">
-                      <a href={product.amazonUrl} target="_blank" rel="noopener noreferrer sponsored" className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>Check price</a>
+                      <a href={product.amazonUrl} target="_blank" rel="noopener noreferrer sponsored" className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>
+                        Check price
+                      </a>
                     </td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
+          <p className="text-xs text-ink-muted mt-2">Prices are approximate. Check Amazon for current pricing before purchasing.</p>
         </section>
 
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
-          <p>
-            A desk hutch is the simplest way to add vertical storage above a desk surface
-            without committing to wall mounting or a new desk entirely. The hutch sits on
-            the desk itself and adds shelves, drawers, and compartments where there was
-            previously empty air. The main tradeoff is that it reduces usable desk depth
-            below the hutch, which matters more on desks under 24 inches deep.
-          </p>
-          <p>
-            The most useful hutches keep the width at or under the desk width, include
-            at least one enclosed compartment or drawer for items you do not want
-            permanently visible, and use a construction material that does not flex or
-            wobble under book or monitor weight. White and natural wood finishes are the
-            most versatile across different room styles.
-          </p>
-          <p>
-            This guide covers eight hutches ranked by rating and buyer count across the
-            full desk hutch category. For more specific use cases, see our guides on
-            {" "}
-            <Link href="/guide/best-desk-hutches-for-small-desks" className="text-brand hover:underline">desk hutches for small desks</Link>,{" "}
-            <Link href="/guide/best-desk-hutches-for-dorm-rooms" className="text-brand hover:underline">desk hutches for dorm rooms</Link>,{" "}
-            <Link href="/guide/best-desk-hutches-with-storage" className="text-brand hover:underline">desk hutches with storage</Link>, and{" "}
-            <Link href="/guide/best-white-desk-hutches" className="text-brand hover:underline">white desk hutches</Link>.
-          </p>
+          <p>This guide covers the top picks for 8 best desk hutches for any setup (2026), ranked by real product specs, weight capacity, and buyer feedback.</p>
         </section>
 
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold text-ink mb-5 tracking-tight">What to Know Before Buying</h2>
-          <div className="space-y-6">
-            <div className="p-4 rounded-xl border border-border bg-white">
-              <h3 className="text-base font-bold text-ink mb-2">Above-Desk vs. Wall-Mounted Hutches</h3>
-              <p className="text-sm text-ink-secondary leading-relaxed">
-                Above-desk hutches sit on the desk surface and require no wall attachment.
-                Wall-mounted floating hutches (like the TANGKULA unit in this roundup) attach
-                directly to the wall at desk height and leave the desk surface completely
-                clear below them. Wall-mounted units require wall anchoring and studs or
-                wall anchors rated for the load, but they do not reduce desk depth at all.
-                Above-desk hutches require no installation beyond placement.
-              </p>
+        {buyingCriteria.length > 0 && (
+          <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
+            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">{buyingCriteria.length} Criteria to Look For Before Buying a Desk Hutches for Any Setup (2026)</h2>
+            <p className="text-sm text-ink-muted mb-5">Key buying criteria so you get the right fit the first time.</p>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {buyingCriteria.map((item, i) => (
+                <div key={i} className="p-4 rounded-xl border border-border bg-bg">
+                  <p className="text-sm font-bold text-ink mb-1.5">{item.criterion}</p>
+                  <p className="text-sm text-ink-secondary leading-relaxed">{item.explanation}</p>
+                </div>
+              ))}
             </div>
-            <div className="p-4 rounded-xl border border-border bg-white">
-              <h3 className="text-base font-bold text-ink mb-2">Width and Depth Matching</h3>
-              <p className="text-sm text-ink-secondary leading-relaxed">
-                A hutch wider than your desk extends past the desk edges and looks unintentional.
-                Match hutch width to desk width, or go slightly narrower. Depth is less critical
-                for above-desk hutches since they sit at the back of the desk, but hutches deeper
-                than 12 inches start to noticeably reduce forward desk space. Most standard hutches
-                in this roundup are 9 to 12 inches deep.
-              </p>
-            </div>
-            <div className="p-4 rounded-xl border border-border bg-white">
-              <h3 className="text-base font-bold text-ink mb-2">Assembly Quality and Stability</h3>
-              <p className="text-sm text-ink-secondary leading-relaxed">
-                Hutches in the $40 to $80 range use particle board or MDF with laminate
-                finish. The difference in quality comes from connector design: cam locks and
-                wooden dowels stay tight longer than simple screws in particle board. Furinno
-                models use a tube-in-socket system that is extremely simple to assemble and
-                stays stable for lighter loads. Sorbus and ChooChoo models use traditional
-                panel-and-cam construction that handles heavier book loads better.
-              </p>
-            </div>
-          </div>
-        </section>
+          </section>
+        )}
 
         <nav className="mb-12 p-4 rounded-xl bg-bg border border-border">
           <p className="text-xs font-bold uppercase tracking-widest text-ink-muted mb-3">Jump to pick</p>
@@ -330,48 +306,81 @@ export default async function BestDeskHutchesPage() {
                 #{p.rank} {p.badge}
               </a>
             ))}
-            <a href="#buying-guide" className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors">Buying Guide</a>
             <a href="#faq" className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors">FAQ</a>
           </div>
         </nav>
 
-        <h2 className="text-2xl font-bold text-ink mb-8 tracking-tight">8 Best Desk Hutches</h2>
+        <h2 className="text-2xl font-bold text-ink mb-8 tracking-tight">{guideTitle}</h2>
 
         {products.map((product) => (
           <ProductSection key={product.id} product={product} />
         ))}
 
-        <section className="mb-12 scroll-mt-20" id="buying-guide">
-          <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">How to Choose a Desk Hutch</h2>
-          <div className="mb-8">
-            <h3 className="text-lg font-bold text-ink mb-3">Hutch Type Comparison</h3>
-            <div className="overflow-x-auto rounded-xl border border-border">
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="bg-brand text-white">
-                    <th className="text-left px-4 py-3 font-semibold">Type</th>
-                    <th className="text-left px-4 py-3 font-semibold">Best For</th>
-                    <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Notes</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {[
-                    { type: "Above-desk shelf hutch", bestFor: "No-install vertical storage", notes: "Furinno, Sorbus, ChooChoo models" },
-                    { type: "Wall-mounted floating hutch", bestFor: "Maximum desk surface clearance", notes: "TANGKULA floating shelf unit" },
-                    { type: "With drawers", bestFor: "Concealed storage", notes: "Marbrasse, Bush Furniture models" },
-                    { type: "Bookcase-style hutch", bestFor: "Maximum book and document storage", notes: "Bush Furniture Cabot model" },
-                  ].map((row, i) => (
-                    <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
-                      <td className="px-4 py-3 font-medium text-ink text-xs">{row.type}</td>
-                      <td className="px-4 py-3 text-ink-secondary text-xs">{row.bestFor}</td>
-                      <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{row.notes}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+        {howWeEvaluated.length > 0 && (
+          <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
+            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">How We Evaluated These Desk Hutches for Any Setup (2026)</h2>
+            <p className="text-sm text-ink-muted mb-5">Each pick was assessed across {howWeEvaluated.length} criteria weighted for real-world use.</p>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {howWeEvaluated.map((item, i) => (
+                <div key={i} className="p-4 rounded-xl border border-border bg-bg">
+                  <p className="text-sm font-bold text-ink mb-1.5">{item.title}</p>
+                  <p className="text-sm text-ink-secondary leading-relaxed">{item.description}</p>
+                </div>
+              ))}
             </div>
-          </div>
-        </section>
+          </section>
+        )}
+
+        {howToChoose.length > 0 && (
+          <section className="mb-14">
+            <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">How to Choose the Right Desk Hutches for Any Setup (2026)</h2>
+            <div className="space-y-8">
+              {howToChoose.map((sub, i) => (
+                <div key={i}>
+                  <h3 className="text-lg font-bold text-ink mb-3">{sub.subheading}</h3>
+                  {sub.intro && (
+                    <p className="text-sm text-ink-secondary leading-relaxed mb-3">{sub.intro}</p>
+                  )}
+                  {sub.table && (
+                    <div className="overflow-x-auto rounded-xl border border-border mb-2">
+                      <table className="w-full text-sm">
+                        <thead>
+                          <tr className="bg-brand text-white">
+                            {sub.table.headers.map((h, hi) => (
+                              <th key={hi} className="text-left px-4 py-3 font-semibold">{h}</th>
+                            ))}
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {sub.table.rows.map((row, ri) => (
+                            <tr key={ri} className={ri % 2 === 0 ? "bg-white" : "bg-bg"}>
+                              {row.map((cell, ci) => (
+                                <td key={ci} className="px-4 py-3 text-ink-secondary text-xs">{cell}</td>
+                              ))}
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  )}
+                  {sub.cards && (
+                    <div className="grid sm:grid-cols-2 gap-3 mb-2">
+                      {sub.cards.map((c, ci) => (
+                        <div key={ci} className="p-4 rounded-xl border border-border bg-bg">
+                          <p className="text-sm font-bold text-ink mb-1">{c.label}</p>
+                          <p className="text-sm text-ink-secondary leading-relaxed">{c.text}</p>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                  {sub.note && (
+                    <p className="text-xs text-ink-muted leading-relaxed">{sub.note}</p>
+                  )}
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
 
         <section id="faq" className="mb-14 scroll-mt-20">
           <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">Frequently Asked Questions</h2>
@@ -388,32 +397,22 @@ export default async function BestDeskHutchesPage() {
         <section className="mb-14 p-6 rounded-2xl border border-border bg-white">
           <h2 className="text-xl font-bold text-ink mb-5 tracking-tight">Bottom Line</h2>
           <div className="space-y-4">
-            {[
-              { context: "Best overall", id: "furinno-turn-n-tube-5shelf", name: "Furinno Turn-N-Tube 5-Shelf", verdict: " - 29,411 reviews at 4.2 stars, $35.99, most validated desk hutch in this roundup." },
-              { context: "Best wall-mounted", id: "tangkula-floating-hutch", name: "TANGKULA Floating Shelf Wall Hutch", verdict: " - 1,139 reviews at 4.5 stars, $79.99, keeps desk surface fully clear." },
-              { context: "Best with drawer", id: "marbrasse-4tier-drawer", name: "Marbrasse 4-Tier with Drawer", verdict: " - 2,714 reviews at 4.4 stars, $41.98, most reviews of any drawer model." },
-              { context: "Best premium", id: "bush-cabot-hutch", name: "Bush Furniture Cabot Hutch", verdict: " - 1,087 reviews at 4.6 stars, $129.99, fully enclosed bookcase-style with adjustable shelves." },
-              { context: "Best small", id: "sorbus-2tier-hutch", name: "Sorbus 2-Tier Desktop Hutch", verdict: " - 1,022 reviews at 4.4 stars, $39.99, best for desks under 36 inches." },
-              { context: "Best 48-inch", id: "choochoo-48inch-hutch", name: "ChooChoo 48-inch Desktop Hutch", verdict: " - 847 reviews at 4.5 stars, $64.99, widest hutch for 48-inch or larger desks." },
-              { context: "Best adjustable", id: "bestier-adjustable-hutch", name: "Bestier Adjustable Shelf Hutch", verdict: " - 523 reviews at 4.5 stars, $59.99, adjustable shelf heights for monitor-over-monitor." },
-              { context: "Best under $30", id: "furinno-basic-3tier", name: "Furinno Basic 3-Tier 37W", verdict: " - 314 reviews at 4.3 stars, $24.99, entry-level open shelf." },
-            ].map((item, i) => (
-              <div key={i} className="flex items-start gap-3">
-                <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
-                <p className="text-sm text-ink-secondary">
-                  <strong className="text-ink">{item.context}:</strong>{" "}
-                  <a href={`#${item.id}`} className="font-bold text-ink hover:text-brand transition-colors">{item.name}</a>
-                  {item.verdict}
-                </p>
-              </div>
-            ))}
+            <div className="flex items-start gap-3">
+              <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
+              <p className="text-sm text-ink-secondary">
+                <strong className="text-ink">best overall:</strong>{" "}
+                <a href={`#${products[0]?.id}`} className="font-bold text-ink hover:text-brand transition-colors">{products[0]?.name}</a>
+                {" "}- {products[0]?.badge.toLowerCase()} pick in this roundup.
+              </p>
+            </div>
+            <p className="text-sm text-ink-secondary pl-5">See the full rankings above for all picks with pros, cons, and best-for summaries.</p>
           </div>
         </section>
 
         <section className="mb-14 p-6 rounded-2xl flex flex-col items-center text-center" style={{ background: "linear-gradient(135deg, #FF9900 0%, #e68900 100%)" }}>
-          <h2 className="text-xl font-bold text-white mb-2">Browse all desk hutches on Amazon</h2>
-          <p className="text-white/90 text-sm mb-5">Filter by size, finish, and shelf count. All Prime-eligible options.</p>
-          <a href="https://www.amazon.com/s?k=desk+hutch&tag=deskfinds0d-20" target="_blank" rel="noopener noreferrer sponsored" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors" style={{ color: "#FF9900" }}>
+          <h2 className="text-xl font-bold text-white mb-2">Browse on Amazon</h2>
+          <p className="text-white/90 text-sm mb-5">All Prime-eligible options with current pricing.</p>
+          <a href={`https://www.amazon.com/s?k=desk+hutches&tag=deskfinds0d-20`} target="_blank" rel="noopener noreferrer sponsored" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors" style={{ color: "#FF9900" }}>
             Shop on Amazon &rarr;
           </a>
         </section>
@@ -434,7 +433,6 @@ export default async function BestDeskHutchesPage() {
               </Link>
             ))}
           </div>
-          <p className="text-xs text-ink-muted mt-4 text-center">Last updated: July 2026. Verify current Amazon prices before purchasing.</p>
         </section>
       </Container>
     </>

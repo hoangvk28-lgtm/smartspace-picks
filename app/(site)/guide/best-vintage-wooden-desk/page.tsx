@@ -12,10 +12,12 @@ import {
   readTime,
   heroImage as fallbackHeroImage,
   products,
-  atAGlanceRows,
   faq,
   relatedGuides,
-  type VintageDesk,
+  buyingCriteria,
+  howWeEvaluated,
+  howToChoose,
+  type GuideProduct,
 } from "@/data/guides/best-vintage-wooden-desk";
 
 export const revalidate = 86400;
@@ -28,7 +30,7 @@ export const metadata: Metadata = buildMetadata({
   type: "article",
 });
 
-function ProductSection({ product }: { product: VintageDesk }) {
+function ProductSection({ product }: { product: GuideProduct }) {
   return (
     <section id={product.id} className="mb-14 scroll-mt-20">
       <div className="flex flex-wrap items-center gap-2 mb-4">
@@ -44,35 +46,54 @@ function ProductSection({ product }: { product: VintageDesk }) {
           <a
             href={product.amazonUrl}
             target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
+            rel="noopener noreferrer sponsored"
             className="shrink-0 flex items-center justify-center w-full sm:w-60 h-52 rounded-xl border border-border bg-gray-50 overflow-hidden hover:opacity-90 transition-opacity"
           >
-            <Image src={product.imageUrl} alt={product.name} width={220} height={200} className="object-cover w-full h-full" unoptimized />
+            <Image
+              src={product.imageUrl}
+              alt={product.name}
+              width={220}
+              height={200}
+              className="object-cover w-full h-full"
+              unoptimized
+            />
           </a>
           <div className="flex-1 min-w-0 flex flex-col gap-3">
             <div className="flex flex-wrap gap-2">
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">{product.width}</span>
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">{product.style}</span>
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">{product.materialReality}</span>
+              <span className="text-xs px-2.5 py-1 rounded-lg bg-brand-muted text-brand font-bold">
+                {product.price}
+              </span>
+              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
+                {product.rating}
+              </span>
+              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
+                {product.reviews}
+              </span>
+              {product.specs.map((spec, i) => (
+                <span key={i} className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
+                  {spec}
+                </span>
+              ))}
             </div>
             <div>
-              <p className="text-xs font-bold uppercase tracking-widest text-brand mb-1">Why it works</p>
-              <p className="text-sm text-ink-secondary leading-relaxed">{product.whyItWorks}</p>
+              <p className="text-xs font-bold uppercase tracking-widest text-brand mb-1">About this pick</p>
+              {product.description.split("\n\n").map((para, i) => (
+                <p key={i} className="text-sm text-ink-secondary leading-relaxed">
+                  {para}
+                </p>
+              ))}
             </div>
-            {product.tradeoffs.length > 0 && (
-              <div>
-                <p className="text-xs font-bold uppercase tracking-widest text-ink-muted mb-1">Trade-offs</p>
-                <ul className="space-y-1">
-                  {product.tradeoffs.map((t, i) => (
-                    <li key={i} className="text-xs text-ink-secondary">&middot; {t}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
             <p className="text-xs text-ink-muted">
-              <span className="font-semibold text-ink">Skip if:</span> {product.skipIf}
+              <span className="font-semibold text-ink">Best for:</span>{" "}
+              {product.bestFor}
             </p>
-            <a href={product.amazonUrl} target="_blank" rel="nofollow sponsored noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90 transition-opacity w-fit mt-auto" style={{ background: "#FF9900" }}>
+            <a
+              href={product.amazonUrl}
+              target="_blank"
+              rel="noopener noreferrer sponsored"
+              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90 transition-opacity w-fit mt-auto"
+              style={{ background: "#FF9900" }}
+            >
               <svg className="w-3.5 h-3.5 shrink-0" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12.26 18.36C9.18 20.34 4.76 21.38 1 20.16c-.38-.13-.33-.44.08-.35 3.47.67 7.77-.07 10.6-1.82.47-.27.87.17.58.37zm1.06-1.17c-.43-.56-2.85-.27-3.94-.13-.33.04-.38-.25-.08-.46 1.93-1.36 5.1-.97 5.47-.51.37.46-.1 3.63-1.91 5.14-.28.23-.54.11-.42-.2.41-.98 1.32-3.28.88-3.84z" />
               </svg>
@@ -109,7 +130,7 @@ function ProductSection({ product }: { product: VintageDesk }) {
   );
 }
 
-export default async function BestVintageWoodenDeskPage() {
+export default async function Page() {
   const guide = await getPublicGuideBySlug("best-vintage-wooden-desk");
   const heroImg = guide?.thumbnailImage ?? guide?.heroImage ?? fallbackHeroImage;
 
@@ -123,11 +144,7 @@ export default async function BestVintageWoodenDeskPage() {
     author: { "@type": "Person", name: "Jamie Cole", url: `${SITE_URL}/author/jamie-cole` },
     publisher: { "@type": "Organization", name: "DeskFinds", url: SITE_URL },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/guide/best-vintage-wooden-desk` },
-    about: [
-      { "@type": "Thing", name: "Vintage Wooden Desk" },
-      { "@type": "Thing", name: "Mid-Century Modern Desk" },
-      { "@type": "Thing", name: "Retro Home Office Desk" },
-    ],
+    about: [{"@type":"Thing","name":"Best Vintage and Mid-Century Modern Wooden Desks"}],
   };
 
   const breadcrumbSchema = {
@@ -143,8 +160,8 @@ export default async function BestVintageWoodenDeskPage() {
   const itemListSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Best Vintage and Mid-Century Modern Wooden Desks 2026",
-    description: "8 best vintage wooden desk and mid-century modern desk picks in 2026.",
+    name: guideTitle,
+    description: metaDescription,
     numberOfItems: products.length,
     itemListElement: products.map((p) => ({
       "@type": "ListItem",
@@ -174,11 +191,13 @@ export default async function BestVintageWoodenDeskPage() {
             <span className="text-ink-muted">&middot;</span>
             <span className="text-xs text-ink-muted">{readTime} read</span>
             <span className="text-ink-muted">&middot;</span>
-            <span className="text-xs text-ink-muted">Updated June 2026</span>
+            <span className="text-xs text-ink-muted">Updated July 2026</span>
           </div>
-          <h1 className="text-3xl sm:text-4xl font-bold text-ink leading-tight tracking-tight mb-4">{guideTitle}</h1>
+          <h1 className="text-3xl sm:text-4xl font-bold text-ink leading-tight tracking-tight mb-4">
+            {guideTitle}
+          </h1>
           <p className="text-lg text-ink-secondary leading-relaxed max-w-3xl">
-            The vintage wooden desk and mid-century modern categories are some of the most material-label abused on Amazon. Most &ldquo;walnut&rdquo; desks contain no walnut. This guide covers 8 vintage and MCM-style desks with honest material disclosure, plus what design elements actually define mid-century modern.
+            {metaDescription}
           </p>
           <div className="flex flex-wrap items-center gap-4 mt-5 pt-5 border-t border-border">
             <div className="flex items-center gap-2 text-sm text-ink-secondary">
@@ -193,75 +212,175 @@ export default async function BestVintageWoodenDeskPage() {
               <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
               </svg>
-              8 vintage and MCM desks evaluated
+              {products.length} options evaluated
             </div>
           </div>
         </header>
 
         <div className="mb-8 p-4 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
-          <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. As an Amazon Associate, DeskFinds earns from qualifying purchases.{" "}
+          <strong className="text-ink">Quick note:</strong> We may earn a commission when you buy through Amazon links. This guide is based on product specs, buyer feedback, use cases, and comparison criteria, not paid placement.{" "}
           <Link href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
         </div>
 
-        <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-bg">
-          <Image src={heroImg} alt="Best vintage and mid-century modern wooden desks" width={900} height={420} className="w-full h-auto object-contain" priority unoptimized />
+        <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-white h-56 sm:h-64 md:hidden flex items-center justify-center p-3">
+          <Image src={heroImg} alt="Best Vintage and Mid-Century Modern Wooden Desks" width={900} height={420} className="w-full h-full object-contain" priority unoptimized />
+        </div>
+        <div
+          className="hidden md:grid rounded-2xl overflow-hidden border border-border mb-10 gap-px bg-border"
+          style={{ gridTemplateColumns: `repeat(${products.length}, minmax(0,1fr))` }}
+        >
+          {products.map((product, i) => (
+            <div key={product.id} className="h-56 bg-white flex items-center justify-center p-4">
+              <Image
+                src={product.imageUrl}
+                alt={product.name}
+                width={300}
+                height={300}
+                className="w-full h-full object-contain"
+                priority={i === 0}
+                unoptimized
+              />
+            </div>
+          ))}
         </div>
 
         <section className="mb-10">
-          <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">Quick Picks</h2>
+          <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">Comparison Table</h2>
           <div className="overflow-x-auto rounded-xl border border-border">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-brand text-white">
                   <th className="text-left px-4 py-3 font-semibold">Pick</th>
                   <th className="text-left px-4 py-3 font-semibold">Product</th>
-                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Style</th>
-                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Material Reality</th>
+                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Price</th>
+                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Rating</th>
                   <th className="px-4 py-3"></th>
                 </tr>
               </thead>
               <tbody>
-                {atAGlanceRows.map((row, i) => (
-                  <tr key={row.id} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
-                    <td className="px-4 py-3"><a href={`#${row.id}`} className="text-xs font-bold text-brand hover:underline">{row.badge}</a></td>
-                    <td className="px-4 py-3 font-semibold text-ink text-xs">{row.name}</td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{row.style}</td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{row.materialReality}</td>
+                {products.map((product, i) => (
+                  <tr key={product.id} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                     <td className="px-4 py-3">
-                      <a href={products[i].amazonUrl} target="_blank" rel="nofollow sponsored noopener noreferrer" className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>Check price</a>
+                      <a href={`#${product.id}`} className="text-xs font-bold text-brand hover:underline">{product.badge}</a>
+                    </td>
+                    <td className="px-4 py-3 font-semibold text-ink text-xs">{product.name}</td>
+                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{product.price}</td>
+                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{product.rating}</td>
+                    <td className="px-4 py-3">
+                      <a href={product.amazonUrl} target="_blank" rel="noopener noreferrer sponsored" className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>
+                        Check price
+                      </a>
                     </td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
+          <p className="text-xs text-ink-muted mt-2">Prices are approximate. Check Amazon for current pricing before purchasing.</p>
         </section>
 
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
-          <p>
-            Vintage wooden desks and mid-century modern desks are distinct styles that Amazon frequently conflates. True MCM design (1945 to 1969 era reference) features angled or tapered legs, clean horizontal lines, warm wood tones, and minimal ornamentation. Most &ldquo;mid-century modern&rdquo; desks on Amazon are contemporary furniture with some MCM-inspired elements rather than authentic period reproductions. For genuine solid wood construction in any style,{" "}
-            <Link href="/guide/best-solid-wood-desk" className="text-brand hover:underline">the solid wood desk guide</Link>{" "}
-            covers verified hardwood options. For desks with vintage styling plus drawer storage,{" "}
-            <Link href="/guide/best-wooden-desk-with-drawers" className="text-brand hover:underline">the wooden desk with drawers guide</Link>{" "}
-            includes vintage-styled options.
-          </p>
+          <p>This guide covers the top picks for best vintage and mid-century modern wooden desks in 2026, ranked by real product specs, weight capacity, and buyer feedback.</p>
         </section>
+
+        {buyingCriteria.length > 0 && (
+          <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
+            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">{buyingCriteria.length} Criteria to Look For Before Buying a Vintage and Mid-Century Modern Wooden Desk</h2>
+            <p className="text-sm text-ink-muted mb-5">Key buying criteria so you get the right fit the first time.</p>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {buyingCriteria.map((item, i) => (
+                <div key={i} className="p-4 rounded-xl border border-border bg-bg">
+                  <p className="text-sm font-bold text-ink mb-1.5">{item.criterion}</p>
+                  <p className="text-sm text-ink-secondary leading-relaxed">{item.explanation}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
 
         <nav className="mb-12 p-4 rounded-xl bg-bg border border-border">
           <p className="text-xs font-bold uppercase tracking-widest text-ink-muted mb-3">Jump to pick</p>
           <div className="flex flex-wrap gap-2">
             {products.map((p) => (
-              <a key={p.id} href={`#${p.id}`} className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors">#{p.rank} {p.badge}</a>
+              <a key={p.id} href={`#${p.id}`} className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors">
+                #{p.rank} {p.badge}
+              </a>
             ))}
             <a href="#faq" className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors">FAQ</a>
           </div>
         </nav>
 
-        <h2 className="text-2xl font-bold text-ink mb-8 tracking-tight">{products.length} Best Vintage and Mid-Century Modern Wooden Desks</h2>
+        <h2 className="text-2xl font-bold text-ink mb-8 tracking-tight">{guideTitle}</h2>
 
         {products.map((product) => (
           <ProductSection key={product.id} product={product} />
         ))}
+
+        {howWeEvaluated.length > 0 && (
+          <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
+            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">How We Evaluated These Vintage and Mid-Century Modern Wooden Desks</h2>
+            <p className="text-sm text-ink-muted mb-5">Each pick was assessed across {howWeEvaluated.length} criteria weighted for real-world use.</p>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {howWeEvaluated.map((item, i) => (
+                <div key={i} className="p-4 rounded-xl border border-border bg-bg">
+                  <p className="text-sm font-bold text-ink mb-1.5">{item.title}</p>
+                  <p className="text-sm text-ink-secondary leading-relaxed">{item.description}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {howToChoose.length > 0 && (
+          <section className="mb-14">
+            <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">How to Choose the Right Vintage and Mid-Century Modern Wooden Desks</h2>
+            <div className="space-y-8">
+              {howToChoose.map((sub, i) => (
+                <div key={i}>
+                  <h3 className="text-lg font-bold text-ink mb-3">{sub.subheading}</h3>
+                  {sub.intro && (
+                    <p className="text-sm text-ink-secondary leading-relaxed mb-3">{sub.intro}</p>
+                  )}
+                  {sub.table && (
+                    <div className="overflow-x-auto rounded-xl border border-border mb-2">
+                      <table className="w-full text-sm">
+                        <thead>
+                          <tr className="bg-brand text-white">
+                            {sub.table.headers.map((h, hi) => (
+                              <th key={hi} className="text-left px-4 py-3 font-semibold">{h}</th>
+                            ))}
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {sub.table.rows.map((row, ri) => (
+                            <tr key={ri} className={ri % 2 === 0 ? "bg-white" : "bg-bg"}>
+                              {row.map((cell, ci) => (
+                                <td key={ci} className="px-4 py-3 text-ink-secondary text-xs">{cell}</td>
+                              ))}
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  )}
+                  {sub.cards && (
+                    <div className="grid sm:grid-cols-2 gap-3 mb-2">
+                      {sub.cards.map((c, ci) => (
+                        <div key={ci} className="p-4 rounded-xl border border-border bg-bg">
+                          <p className="text-sm font-bold text-ink mb-1">{c.label}</p>
+                          <p className="text-sm text-ink-secondary leading-relaxed">{c.text}</p>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                  {sub.note && (
+                    <p className="text-xs text-ink-muted leading-relaxed">{sub.note}</p>
+                  )}
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
 
         <section id="faq" className="mb-14 scroll-mt-20">
           <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">Frequently Asked Questions</h2>
@@ -273,6 +392,29 @@ export default async function BestVintageWoodenDeskPage() {
               </div>
             ))}
           </div>
+        </section>
+
+        <section className="mb-14 p-6 rounded-2xl border border-border bg-white">
+          <h2 className="text-xl font-bold text-ink mb-5 tracking-tight">Bottom Line</h2>
+          <div className="space-y-4">
+            <div className="flex items-start gap-3">
+              <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
+              <p className="text-sm text-ink-secondary">
+                <strong className="text-ink">best overall:</strong>{" "}
+                <a href={`#${products[0]?.id}`} className="font-bold text-ink hover:text-brand transition-colors">{products[0]?.name}</a>
+                {" "}- {products[0]?.badge.toLowerCase()} pick in this roundup.
+              </p>
+            </div>
+            <p className="text-sm text-ink-secondary pl-5">See the full rankings above for all picks with pros, cons, and best-for summaries.</p>
+          </div>
+        </section>
+
+        <section className="mb-14 p-6 rounded-2xl flex flex-col items-center text-center" style={{ background: "linear-gradient(135deg, #FF9900 0%, #e68900 100%)" }}>
+          <h2 className="text-xl font-bold text-white mb-2">Browse on Amazon</h2>
+          <p className="text-white/90 text-sm mb-5">All Prime-eligible options with current pricing.</p>
+          <a href={`https://www.amazon.com/s?k=vintage+wooden+desk&tag=deskfinds0d-20`} target="_blank" rel="noopener noreferrer sponsored" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors" style={{ color: "#FF9900" }}>
+            Shop on Amazon &rarr;
+          </a>
         </section>
 
         <section>
@@ -291,7 +433,6 @@ export default async function BestVintageWoodenDeskPage() {
               </Link>
             ))}
           </div>
-          <p className="text-xs text-ink-muted mt-4 text-center">Last updated: June 2026. Verify current Amazon prices before purchasing.</p>
         </section>
       </Container>
     </>

@@ -5,13 +5,22 @@ import { Container } from "@/components/layout/Container";
 import { buildMetadata, SITE_URL } from "@/lib/seo";
 import { getPublicGuideBySlug } from "@/lib/public-guides";
 import {
-  guideTitle, guideDescription, metaTitle, metaDescription, readTime,
-  heroImage as fallbackHeroImage, products, atAGlanceItems,
-  buyingCriteria, faq,
-  type BudgetWebcam,
+  guideTitle,
+  metaTitle,
+  metaDescription,
+  lastUpdated,
+  readTime,
+  heroImage as fallbackHeroImage,
+  products,
+  faq,
+  relatedGuides,
+  buyingCriteria,
+  howWeEvaluated,
+  howToChoose,
+  type GuideProduct,
 } from "@/data/guides/best-webcam-under-50";
 
-export const revalidate = false;
+export const revalidate = 86400;
 
 export const metadata: Metadata = buildMetadata({
   title: metaTitle,
@@ -21,79 +30,67 @@ export const metadata: Metadata = buildMetadata({
   type: "article",
 });
 
-function FitScoreBadge({ score }: { score: number }) {
-  const color = score >= 8.5 ? "#16a34a" : score >= 8.0 ? "#2563eb" : "#d97706";
+function ProductSection({ product }: { product: GuideProduct }) {
   return (
-    <span
-      className="inline-flex flex-col items-center justify-center w-14 h-14 rounded-xl border-2 shrink-0"
-      style={{ borderColor: color }}
-    >
-      <span className="text-xl font-bold leading-none tabular-nums" style={{ color }}>{score.toFixed(1)}</span>
-      <span className="text-[8px] font-bold uppercase tracking-widest text-ink-muted mt-0.5">Fit Score</span>
-    </span>
-  );
-}
-
-function WebcamSection({ cam }: { cam: BudgetWebcam }) {
-  return (
-    <section id={cam.id} className="mb-14 scroll-mt-20">
+    <section id={product.id} className="mb-14 scroll-mt-20">
       <div className="flex flex-wrap items-center gap-2 mb-4">
         <span className="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest text-white bg-brand shrink-0">
-          {cam.badge}
+          {product.badge}
         </span>
-        <h2 className="text-2xl font-bold text-ink tracking-tight min-w-0 break-words">{cam.name}</h2>
+        <h2 className="text-2xl font-bold text-ink tracking-tight min-w-0 break-words">
+          {product.name}
+        </h2>
       </div>
-
       <div className="rounded-2xl border border-border bg-white overflow-hidden shadow-card">
         <div className="flex flex-col sm:flex-row gap-5 p-5">
           <a
-            href={cam.amazonUrl}
+            href={product.amazonUrl}
             target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
-            className="shrink-0 flex items-center justify-center w-full sm:w-56 h-48 rounded-xl border border-border bg-gray-50 overflow-hidden hover:opacity-90 transition-opacity"
+            rel="noopener noreferrer sponsored"
+            className="shrink-0 flex items-center justify-center w-full sm:w-60 h-52 rounded-xl border border-border bg-gray-50 overflow-hidden hover:opacity-90 transition-opacity"
           >
             <Image
-              src={cam.imageUrl}
-              alt={cam.name}
-              width={210}
-              height={190}
-              className="object-contain w-full h-full p-3"
+              src={product.imageUrl}
+              alt={product.name}
+              width={220}
+              height={200}
+              className="object-cover w-full h-full"
               unoptimized
             />
           </a>
-
           <div className="flex-1 min-w-0 flex flex-col gap-3">
-            <div className="flex flex-wrap items-start gap-3">
-              <FitScoreBadge score={cam.fitScore} />
-              <div className="flex flex-col gap-1.5">
-                <div className="flex flex-wrap gap-1.5">
-                  <span className="text-xs px-2.5 py-1 rounded-lg bg-brand-muted text-brand font-bold">{cam.priceRange}</span>
-                  <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">{cam.resolution} · {cam.fps}</span>
-                  {cam.privacyShutter && (
-                    <span className="text-xs px-2.5 py-1 rounded-lg bg-emerald-50 text-emerald-700 font-semibold border border-emerald-200">
-                      🔒 Privacy shutter
-                    </span>
-                  )}
-                  {cam.chromebookOk && (
-                    <span className="text-xs px-2.5 py-1 rounded-lg bg-blue-50 text-blue-700 font-semibold border border-blue-200">
-                      ✓ Chromebook
-                    </span>
-                  )}
-                </div>
-                <span className="text-xs text-ink-muted">{cam.bestFor}</span>
-              </div>
+            <div className="flex flex-wrap gap-2">
+              <span className="text-xs px-2.5 py-1 rounded-lg bg-brand-muted text-brand font-bold">
+                {product.price}
+              </span>
+              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
+                {product.rating}
+              </span>
+              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
+                {product.reviews}
+              </span>
+              {product.specs.map((spec, i) => (
+                <span key={i} className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
+                  {spec}
+                </span>
+              ))}
             </div>
-
             <div>
-              <p className="text-xs font-bold uppercase tracking-widest text-brand mb-1">Why it wins</p>
-              <p className="text-sm text-ink-secondary leading-relaxed">{cam.whyItWins}</p>
+              <p className="text-xs font-bold uppercase tracking-widest text-brand mb-1">About this pick</p>
+              {product.description.split("\n\n").map((para, i) => (
+                <p key={i} className="text-sm text-ink-secondary leading-relaxed">
+                  {para}
+                </p>
+              ))}
             </div>
-            <p className="text-sm text-ink-secondary leading-relaxed">{cam.bodyParagraph}</p>
-
+            <p className="text-xs text-ink-muted">
+              <span className="font-semibold text-ink">Best for:</span>{" "}
+              {product.bestFor}
+            </p>
             <a
-              href={cam.amazonUrl}
+              href={product.amazonUrl}
               target="_blank"
-              rel="nofollow sponsored noopener noreferrer"
+              rel="noopener noreferrer sponsored"
               className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90 transition-opacity w-fit mt-auto"
               style={{ background: "#FF9900" }}
             >
@@ -104,22 +101,11 @@ function WebcamSection({ cam }: { cam: BudgetWebcam }) {
             </a>
           </div>
         </div>
-
-        <div className="border-t border-border grid sm:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-border">
-          <div className="p-4">
-            <p className="text-xs font-bold uppercase tracking-widest text-ink mb-3">Specs</p>
-            <ul className="space-y-1.5">
-              {cam.specs.map((spec, i) => (
-                <li key={i} className="text-xs text-ink-secondary">
-                  <span className="font-semibold text-ink">{spec.label}:</span> {spec.value}
-                </li>
-              ))}
-            </ul>
-          </div>
+        <div className="border-t border-border grid sm:grid-cols-2 divide-y sm:divide-y-0 sm:divide-x divide-border">
           <div className="p-4">
             <p className="text-[10px] font-bold uppercase tracking-widest text-cta mb-3">Pros</p>
             <ul className="space-y-1.5">
-              {cam.pros.map((pro, i) => (
+              {product.pros.map((pro, i) => (
                 <li key={i} className="flex items-start gap-1.5 text-xs text-ink">
                   <span className="mt-0.5 w-3.5 h-3.5 rounded-full bg-cta-light text-cta flex items-center justify-center shrink-0 font-bold text-[9px]">+</span>
                   {pro}
@@ -130,16 +116,13 @@ function WebcamSection({ cam }: { cam: BudgetWebcam }) {
           <div className="p-4">
             <p className="text-[10px] font-bold uppercase tracking-widest text-accent-dark mb-3">Cons</p>
             <ul className="space-y-1.5">
-              {cam.cons.map((con, i) => (
+              {product.cons.map((con, i) => (
                 <li key={i} className="flex items-start gap-1.5 text-xs text-ink">
                   <span className="mt-0.5 w-3.5 h-3.5 rounded-full bg-yellow-100 text-yellow-600 flex items-center justify-center shrink-0 font-bold text-[9px]">&minus;</span>
                   {con}
                 </li>
               ))}
             </ul>
-            <p className="text-xs text-ink-muted mt-3 pt-3 border-t border-border">
-              <span className="font-semibold text-ink">Best for:</span> {cam.bestForDetail}
-            </p>
           </div>
         </div>
       </div>
@@ -147,7 +130,7 @@ function WebcamSection({ cam }: { cam: BudgetWebcam }) {
   );
 }
 
-export default async function BestWebcamUnder50Page() {
+export default async function Page() {
   const guide = await getPublicGuideBySlug("best-webcam-under-50");
   const heroImg = guide?.thumbnailImage ?? guide?.heroImage ?? fallbackHeroImage;
 
@@ -156,16 +139,12 @@ export default async function BestWebcamUnder50Page() {
     "@type": "Article",
     headline: guideTitle,
     description: metaDescription,
-    datePublished: "2026-06-06",
-    dateModified: "2026-06-06",
+    datePublished: lastUpdated,
+    dateModified: lastUpdated,
     author: { "@type": "Person", name: "Jamie Cole", url: `${SITE_URL}/author/jamie-cole` },
     publisher: { "@type": "Organization", name: "DeskFinds", url: SITE_URL },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/guide/best-webcam-under-50` },
-    about: [
-      { "@type": "Thing", name: "Webcam" },
-      { "@type": "Thing", name: "Budget Webcam" },
-      { "@type": "Thing", name: "Dorm Room Essentials" },
-    ],
+    about: [{"@type":"Thing","name":"Best Webcams Under $50 for Small Desks and Dorm Rooms (2026)"}],
   };
 
   const breadcrumbSchema = {
@@ -174,20 +153,20 @@ export default async function BestWebcamUnder50Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Webcams Under $50", item: `${SITE_URL}/guide/best-webcam-under-50` },
+      { "@type": "ListItem", position: 3, name: "Best Webcams Under $50 for Small Desks and Dorm Rooms (2026)", item: `${SITE_URL}/guide/best-webcam-under-50` },
     ],
   };
 
   const itemListSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Best Webcams Under $50 for Small Desks and Dorm Rooms 2026",
-    description: "5 budget webcams under $50 evaluated for small-desk fit, plug-and-play compatibility, Chromebook support, and privacy shutter availability.",
-    numberOfItems: 5,
+    name: guideTitle,
+    description: metaDescription,
+    numberOfItems: products.length,
     itemListElement: products.map((p) => ({
       "@type": "ListItem",
       position: p.rank,
-      name: `${p.name} — ${p.badge}`,
+      name: `${p.name} - ${p.badge}`,
       url: `${SITE_URL}/guide/best-webcam-under-50#${p.id}`,
     })),
   };
@@ -197,32 +176,29 @@ export default async function BestWebcamUnder50Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
-
       <Container className="py-12 max-w-4xl">
-
-        {/* Breadcrumbs */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
           <Link href="/" className="hover:text-brand transition-colors">Home</Link>
           <span>/</span>
           <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
-          <span className="text-ink">Best Webcams Under $50</span>
+          <span className="text-ink">Best Webcams Under $50 for Small Desks and Dorm Rooms (2026)</span>
         </nav>
 
-        {/* Header */}
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-3">
-            <span className="text-xs font-bold uppercase tracking-widest text-brand">Budget Guide</span>
+            <span className="text-xs font-bold uppercase tracking-widest text-brand">Buying Guide</span>
             <span className="text-ink-muted">&middot;</span>
             <span className="text-xs text-ink-muted">{readTime} read</span>
             <span className="text-ink-muted">&middot;</span>
-            <span className="text-xs text-ink-muted">Updated June 2026</span>
+            <span className="text-xs text-ink-muted">Updated July 2026</span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-bold text-ink leading-tight tracking-tight mb-4">
             {guideTitle}
           </h1>
-          <p className="text-lg text-ink-secondary leading-relaxed max-w-3xl">{guideDescription}</p>
-
+          <p className="text-lg text-ink-secondary leading-relaxed max-w-3xl">
+            {metaDescription}
+          </p>
           <div className="flex flex-wrap items-center gap-4 mt-5 pt-5 border-t border-border">
             <div className="flex items-center gap-2 text-sm text-ink-secondary">
               <div className="w-7 h-7 rounded-full bg-brand-muted flex items-center justify-center">
@@ -236,77 +212,62 @@ export default async function BestWebcamUnder50Page() {
               <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
               </svg>
-              5 picks — all under $50, all plug-and-play, all Chromebook-compatible
+              {products.length} options evaluated
             </div>
           </div>
         </header>
 
-        {/* Affiliate disclosure */}
         <div className="mb-8 p-4 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
-          <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission — at no extra cost to you. This guide is based on product specs, buyer feedback, use cases, and comparison criteria — not paid placement.{" "}
+          <strong className="text-ink">Quick note:</strong> We may earn a commission when you buy through Amazon links. This guide is based on product specs, buyer feedback, use cases, and comparison criteria, not paid placement.{" "}
           <Link href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
         </div>
 
-        {/* Hero image */}
-        <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-bg">
-          <Image
-            src={heroImg}
-            alt="Best webcams under $50 for small desks and dorm rooms"
-            width={900}
-            height={420}
-            className="w-full h-auto object-contain"
-            priority
-            unoptimized
-          />
+        <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-white h-56 sm:h-64 md:hidden flex items-center justify-center p-3">
+          <Image src={heroImg} alt="Best Webcams Under $50 for Small Desks and Dorm Rooms (2026)" width={900} height={420} className="w-full h-full object-contain" priority unoptimized />
+        </div>
+        <div
+          className="hidden md:grid rounded-2xl overflow-hidden border border-border mb-10 gap-px bg-border"
+          style={{ gridTemplateColumns: `repeat(${products.length}, minmax(0,1fr))` }}
+        >
+          {products.map((product, i) => (
+            <div key={product.id} className="h-56 bg-white flex items-center justify-center p-4">
+              <Image
+                src={product.imageUrl}
+                alt={product.name}
+                width={300}
+                height={300}
+                className="w-full h-full object-contain"
+                priority={i === 0}
+                unoptimized
+              />
+            </div>
+          ))}
         </div>
 
-        {/* Quick picks table */}
         <section className="mb-10">
-          <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">Our Top Picks at a Glance</h2>
+          <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">Comparison Table</h2>
           <div className="overflow-x-auto rounded-xl border border-border">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-brand text-white">
                   <th className="text-left px-4 py-3 font-semibold">Pick</th>
                   <th className="text-left px-4 py-3 font-semibold">Product</th>
-                  <th className="text-center px-4 py-3 font-semibold hidden sm:table-cell">Fit Score</th>
-                  <th className="text-left px-4 py-3 font-semibold hidden md:table-cell">Resolution</th>
-                  <th className="text-center px-4 py-3 font-semibold hidden md:table-cell">Privacy Shutter</th>
-                  <th className="text-center px-4 py-3 font-semibold hidden lg:table-cell">Chromebook</th>
-                  <th className="text-left px-4 py-3 font-semibold">Price</th>
+                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Price</th>
+                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Rating</th>
                   <th className="px-4 py-3"></th>
                 </tr>
               </thead>
               <tbody>
-                {atAGlanceItems.map((p, i) => (
-                  <tr key={p.id} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
+                {products.map((product, i) => (
+                  <tr key={product.id} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                     <td className="px-4 py-3">
-                      <a href={`#${p.id}`} className="text-xs font-bold text-brand hover:underline whitespace-nowrap">{p.badge}</a>
+                      <a href={`#${product.id}`} className="text-xs font-bold text-brand hover:underline">{product.badge}</a>
                     </td>
-                    <td className="px-4 py-3 font-semibold text-ink text-xs whitespace-nowrap">{p.name}</td>
-                    <td className="px-4 py-3 text-center hidden sm:table-cell">
-                      <span className="text-sm font-bold text-brand tabular-nums">{p.fitScore.toFixed(1)}</span>
-                    </td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs hidden md:table-cell">{p.resolution}</td>
-                    <td className="px-4 py-3 text-center hidden md:table-cell">
-                      {p.privacyShutter ? (
-                        <span className="text-emerald-600 font-bold text-xs">Yes</span>
-                      ) : (
-                        <span className="text-ink-muted text-xs">No</span>
-                      )}
-                    </td>
-                    <td className="px-4 py-3 text-center hidden lg:table-cell">
-                      <span className="text-emerald-600 font-bold text-xs">✓</span>
-                    </td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs whitespace-nowrap">{p.price}</td>
+                    <td className="px-4 py-3 font-semibold text-ink text-xs">{product.name}</td>
+                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{product.price}</td>
+                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{product.rating}</td>
                     <td className="px-4 py-3">
-                      <a
-                        href={p.amazonUrl}
-                        target="_blank"
-                        rel="nofollow sponsored noopener noreferrer"
-                        className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block"
-                        style={{ background: "#FF9900" }}
-                      >
+                      <a href={product.amazonUrl} target="_blank" rel="noopener noreferrer sponsored" className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>
                         Check price
                       </a>
                     </td>
@@ -315,354 +276,164 @@ export default async function BestWebcamUnder50Page() {
               </tbody>
             </table>
           </div>
+          <p className="text-xs text-ink-muted mt-2">Prices are approximate. Check Amazon for current pricing before purchasing.</p>
         </section>
 
-        {/* Intro */}
-        <section className="mb-12 space-y-4 text-base text-ink-secondary leading-relaxed">
-          <p>
-            Most webcam guides are written by tech reviewers with dedicated home offices, wide monitors, and no budget constraints. The result: roundups that lead with $150 4K cameras and treat &ldquo;budget&rdquo; as anything under $80.
-          </p>
-          <p>
-            This guide is written for people with different constraints: a small desk, a shared dorm room, a laptop that might be a Chromebook, a budget that caps out at $50, and a requirement that the thing just <em>works</em> when plugged in — no driver download on a school-managed machine.
-          </p>
-          <p>
-            Every pick here is under $50, plug-and-play on Chromebook, and evaluated specifically for compact desk setups. No 4K cameras, no AI tracking, no features you&apos;ll never use.
-          </p>
+        <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
+          <p>This guide covers the top picks for best webcams under $50 for small desks and dorm rooms (2026), ranked by real product specs, weight capacity, and buyer feedback.</p>
         </section>
 
-        {/* Do you actually need a webcam? */}
-        <section id="do-you-need-a-webcam" className="mb-12 scroll-mt-20">
-          <h2 className="text-2xl font-bold text-ink mb-5 tracking-tight">Do You Actually Need an External Webcam?</h2>
-          <p className="text-sm text-ink-secondary leading-relaxed mb-4">
-            Most laptop built-in cameras are 720p with poor low-light performance and a wide lens that distorts your face at close range. An external webcam is a genuine upgrade — but it&apos;s not always necessary.
-          </p>
-          <div className="grid sm:grid-cols-2 gap-4 mb-5">
-            <div className="p-4 rounded-xl border border-cta/30 bg-cta-light/10">
-              <p className="text-xs font-bold uppercase tracking-widest text-cta mb-3">Get an external webcam if…</p>
-              <ul className="space-y-2">
-                {[
-                  "You're on video calls daily (remote work or online classes)",
-                  "People frequently comment on your video quality",
-                  "Your laptop camera produces a yellow or grainy image",
-                  "You share a room and want a physical privacy shutter",
-                  "Your laptop camera aims upward (thin-and-light angle problem)",
-                ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-2 text-xs text-ink-secondary">
-                    <span className="w-4 h-4 rounded-full bg-cta-light text-cta flex items-center justify-center shrink-0 font-bold text-[9px] mt-0.5">✓</span>
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="p-4 rounded-xl border border-border bg-bg">
-              <p className="text-xs font-bold uppercase tracking-widest text-ink-muted mb-3">Your built-in camera is fine if…</p>
-              <ul className="space-y-2">
-                {[
-                  "You're on video calls once a week or less",
-                  "Your laptop is less than 2 years old with a 1080p built-in",
-                  "You have good window lighting directly in front of you",
-                  "Calls are audio-first (camera optional in your workflow)",
-                  "You're genuinely on a tight budget — save it for something else",
-                ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-2 text-xs text-ink-secondary">
-                    <span className="w-4 h-4 rounded-full bg-gray-100 text-ink-muted flex items-center justify-center shrink-0 font-bold text-[9px] mt-0.5">—</span>
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-          <div className="p-4 rounded-xl bg-brand/5 border border-brand/20 text-sm text-ink-secondary">
-            <strong className="text-ink">Honest benchmark:</strong> A $25 external webcam + natural light from a window in front of you will look noticeably better than a built-in camera in most conditions. The light matters more than the camera. More on this below.
-          </div>
-        </section>
-
-        {/* Small-desk placement */}
-        <section id="small-desk-placement" className="mb-12 scroll-mt-20">
-          <h2 className="text-2xl font-bold text-ink mb-5 tracking-tight">Webcam Placement for Small Desks</h2>
-          <p className="text-sm text-ink-secondary leading-relaxed mb-5">
-            No competitor guide addresses the physical placement challenge on a small desk. Here&apos;s what matters.
-          </p>
-          <div className="space-y-4">
-            {[
-              {
-                title: "Eye-level beats top-of-monitor",
-                body: "A webcam perched on a monitor that sits below eye level shoots upward — nostrils, ceiling, unflattering angle. On a small desk, your screen is often lower than ideal. Fix it: put a book or stand under your laptop/monitor to raise it so the webcam is level with your eyes, or use an adjustable-arm monitor mount.",
-              },
-              {
-                title: "90° FOV is the right choice at small-desk distances",
-                body: "Wider FOVs (110°+) are popular in marketing but show more background — your entire room behind you. At 18–24 inches from a small desk screen, a 90° FOV fills the frame naturally with just your head and shoulders. All five picks use 90° for exactly this reason.",
-              },
-              {
-                title: "Clip-on fits thin bezels without a tool",
-                body: "All five picks in this guide clip directly onto your monitor or laptop screen. For thin-bezel laptops (most modern ultrabooks), confirm the clip grip on day one. Logitech's clip mechanism is the most reliable for thin bezels; the NexiGo and EMEET clips are functional but stiffer.",
-              },
-              {
-                title: "Cable length and desk clutter",
-                body: "Budget webcams ship with ~1.5m USB-A cables. On a small desk, route the cable behind the monitor stand or use a small cable clip to keep it from occupying surface space. A cable that crosses the desk surface is the primary cause of webcam-related clutter.",
-              },
-            ].map((item, i) => (
-              <div key={i} className="flex gap-4 p-4 rounded-xl border border-border bg-white">
-                <span className="flex items-center justify-center w-7 h-7 rounded-full bg-brand text-white font-bold text-sm shrink-0 mt-0.5">{i + 1}</span>
-                <div>
-                  <p className="text-sm font-bold text-ink mb-1">{item.title}</p>
-                  <p className="text-sm text-ink-secondary leading-relaxed">{item.body}</p>
+        {buyingCriteria.length > 0 && (
+          <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
+            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">{buyingCriteria.length} Criteria to Look For Before Buying a Webcams Under $50 for Small Desks and Dorm Rooms (2026)</h2>
+            <p className="text-sm text-ink-muted mb-5">Key buying criteria so you get the right fit the first time.</p>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {buyingCriteria.map((item, i) => (
+                <div key={i} className="p-4 rounded-xl border border-border bg-bg">
+                  <p className="text-sm font-bold text-ink mb-1.5">{item.criterion}</p>
+                  <p className="text-sm text-ink-secondary leading-relaxed">{item.explanation}</p>
                 </div>
-              </div>
-            ))}
-          </div>
-        </section>
+              ))}
+            </div>
+          </section>
+        )}
 
-        {/* Criteria to Look for Before You Buy */}
-        <section id="buying-criteria-pre" className="mb-12 scroll-mt-20">
-          <h2 className="text-2xl font-bold text-ink mb-2 tracking-tight">Criteria to Look for Before You Buy a Webcam</h2>
-          <p className="text-sm text-ink-secondary leading-relaxed mb-6">
-            At the under-$50 price point, spec sheets are often misleading. Here&apos;s what actually matters — and what you can safely ignore.
-          </p>
-          <div className="space-y-3">
-            {[
-              {
-                icon: "📹",
-                label: "Resolution: 1080p is the minimum in 2026",
-                must: true,
-                body: "Skip any webcam labeled 720p — the difference is visible on modern screens and most video platforms support 1080p. Beware of cheap no-name units that advertise \"1080p\" but deliver noticeably softer video. Every pick in this guide is genuine 1080p verified by buyer reports.",
-              },
-              {
-                icon: "🔒",
-                label: "Physical privacy shutter",
-                must: false,
-                body: "A physical lens cover blocks the camera mechanically — software can't override it. Critical for shared dorm rooms and shared home offices. Nice-to-have for everyone else. Two picks in this guide include one (NexiGo N60 and EMEET C960); the Logitech Brio 100 also includes a built-in shutter.",
-              },
-              {
-                icon: "🎤",
-                label: "Built-in microphone quality",
-                must: false,
-                body: "Most budget webcams include a basic mono mic — adequate for weekly calls, not for daily remote work in noisy environments. If audio matters to you, the EMEET C960's dual-mic with noise cancellation is the clear winner at this price point. If audio is critical, consider a separate USB mic instead.",
-              },
-              {
-                icon: "🔌",
-                label: "Plug-and-play (no driver required)",
-                must: true,
-                body: "School-managed laptops and Chromebooks often can't install software. All picks in this guide are UVC-compliant: plug in, use immediately on Windows, macOS, and Chrome OS. Avoid webcams that require companion app installs — they fail on managed devices.",
-              },
-              {
-                icon: "📐",
-                label: "Field of view: 78°–90° for small desks",
-                must: false,
-                body: "Wider FOV (110°+) sounds better on paper but shows more background at typical small-desk distances. At 18–24 inches from your screen, 90° frames you cleanly without exposing your room. All five picks here use 90°.",
-              },
-              {
-                icon: "📎",
-                label: "Clip mechanism and thin-bezel compatibility",
-                must: true,
-                body: "Verify the clip fits your monitor or laptop. Logitech clips are specifically designed for thin bezels. Generic clips on cheap models often droop on modern thin-screen laptops within weeks. If you have an ultra-thin laptop (under 4mm bezel), Logitech is the safest choice.",
-              },
-              {
-                icon: "⚡",
-                label: "Frame rate: 30fps is fine for calls, not for streaming",
-                must: false,
-                body: "Every webcam under $50 caps at 30fps. This is perfectly adequate for Zoom, Teams, and Google Meet. If you need 60fps for smooth streaming or content creation, you need to spend more — the Logitech C920x (~$55–$60) is the entry point for 60fps.",
-              },
-              {
-                icon: "🏷️",
-                label: "Brand reliability over spec padding",
-                must: false,
-                body: "At under $20, generic brands routinely fail at the hinge within 3 months or deliver below-spec video quality. Stick with EMEET, NexiGo, or Logitech — they have real product support and consistent quality. The $5 you save on a no-name unit rarely outlasts a semester.",
-              },
-            ].map((c, i) => (
-              <div key={i} className="flex gap-4 p-4 rounded-xl border border-border bg-white">
-                <span className="text-xl shrink-0 mt-0.5">{c.icon}</span>
-                <div className="flex-1 min-w-0">
-                  <div className="flex flex-wrap items-center gap-2 mb-1">
-                    <p className="text-sm font-bold text-ink">{c.label}</p>
-                    {c.must && (
-                      <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-brand text-white uppercase tracking-widest">Must-have</span>
-                    )}
-                  </div>
-                  <p className="text-sm text-ink-secondary leading-relaxed">{c.body}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* Jump nav */}
         <nav className="mb-12 p-4 rounded-xl bg-bg border border-border">
           <p className="text-xs font-bold uppercase tracking-widest text-ink-muted mb-3">Jump to pick</p>
           <div className="flex flex-wrap gap-2">
             {products.map((p) => (
-              <a
-                key={p.id}
-                href={`#${p.id}`}
-                className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors"
-              >
-                {p.badge}
+              <a key={p.id} href={`#${p.id}`} className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors">
+                #{p.rank} {p.badge}
               </a>
             ))}
-            <a href="#buying-criteria-pre" className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors">What to look for</a>
-            <a href="#lighting-tips" className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors">Lighting tips</a>
-            <a href="#buying-criteria" className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors">How we scored</a>
             <a href="#faq" className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors">FAQ</a>
           </div>
         </nav>
 
-        {/* Product sections */}
-        <h2 className="text-2xl font-bold text-ink mb-8 tracking-tight">Our Top 5 Picks</h2>
-        {products.map((cam) => <WebcamSection key={cam.id} cam={cam} />)}
+        <h2 className="text-2xl font-bold text-ink mb-8 tracking-tight">{guideTitle}</h2>
 
-        {/* Lighting tips — unique content gap */}
-        <section id="lighting-tips" className="mb-14 scroll-mt-20">
-          <h2 className="text-2xl font-bold text-ink mb-5 tracking-tight">How to Look Good on a Budget Webcam (Without Buying a Ring Light)</h2>
-          <p className="text-sm text-ink-secondary leading-relaxed mb-6">
-            The single biggest mistake in budget webcam setups: spending $30 on a webcam and sitting in front of a dark wall with overhead fluorescent lighting. The camera is not the problem. Here&apos;s how to fix your image quality for free.
-          </p>
-          <div className="space-y-4 mb-6">
-            {[
-              {
-                label: "Face a window",
-                impact: "Biggest free improvement",
-                description: "Natural light from a window directly in front of you — not behind or to the side — transforms any webcam. Even a $18 webcam looks clean with good window light. If the window is behind you, you become a silhouette. Move your desk or flip your chair.",
-                color: "#16a34a",
-              },
-              {
-                label: "Put a lamp at eye level in front of you",
-                impact: "Free if you already have a lamp",
-                description: "A desk lamp placed at monitor level, facing you, acts as a basic fill light. Aim for 4000–5000K (cool white or daylight) for a clean, natural look on camera — warm light at 2700K will make you appear orange-toned. Position it slightly to the side, not directly behind the screen.",
-                color: "#2563eb",
-              },
-              {
-                label: "Raise your camera to eye level",
-                impact: "Free — use books or a stand",
-                description: "A webcam that points upward shows ceiling, nostrils, and a generally unflattering angle. Stack books, use a laptop stand, or mount your monitor higher until the webcam lens is level with your eyes. This alone changes how others perceive your setup.",
-                color: "#7c3aed",
-              },
-              {
-                label: "Put a light-colored surface or wall behind you",
-                impact: "Reflects light back onto face",
-                description: "A white or light-grey wall behind your desk reflects ambient light back toward your face, acting as a soft reflector. Dark walls absorb light and deepen shadows. If you can rearrange, sit with the lighter wall behind you.",
-                color: "#d97706",
-              },
-            ].map((tip, i) => (
-              <div key={i} className="flex gap-4 p-4 rounded-xl border border-border bg-white">
-                <span className="flex items-center justify-center w-7 h-7 rounded-full text-white font-bold text-sm shrink-0 mt-0.5" style={{ background: tip.color }}>{i + 1}</span>
-                <div className="flex-1 min-w-0">
-                  <div className="flex flex-wrap items-center gap-2 mb-1">
-                    <p className="text-sm font-bold text-ink">{tip.label}</p>
-                    <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full" style={{ background: `${tip.color}15`, color: tip.color }}>{tip.impact}</span>
-                  </div>
-                  <p className="text-sm text-ink-secondary leading-relaxed">{tip.description}</p>
+        {products.map((product) => (
+          <ProductSection key={product.id} product={product} />
+        ))}
+
+        {howWeEvaluated.length > 0 && (
+          <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
+            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">How We Evaluated These Webcams Under $50 for Small Desks and Dorm Rooms (2026)</h2>
+            <p className="text-sm text-ink-muted mb-5">Each pick was assessed across {howWeEvaluated.length} criteria weighted for real-world use.</p>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {howWeEvaluated.map((item, i) => (
+                <div key={i} className="p-4 rounded-xl border border-border bg-bg">
+                  <p className="text-sm font-bold text-ink mb-1.5">{item.title}</p>
+                  <p className="text-sm text-ink-secondary leading-relaxed">{item.description}</p>
                 </div>
-              </div>
-            ))}
-          </div>
-          <div className="p-4 rounded-xl bg-bg border border-border text-sm text-ink-secondary">
-            <strong className="text-ink">If you do want a ring light:</strong> A basic 6-inch ring light costs $12–$18 on Amazon. Paired with any webcam in this guide, it&apos;s a complete setup. Look for one with adjustable color temperature (warm to cool) and brightness — you&apos;ll want to adjust it based on your room lighting.
-          </div>
-        </section>
+              ))}
+            </div>
+          </section>
+        )}
 
-        {/* Chromebook & laptop compat */}
-        <section id="chromebook-compatibility" className="mb-14 scroll-mt-20">
-          <h2 className="text-2xl font-bold text-ink mb-5 tracking-tight">Chromebook and Laptop Compatibility Notes</h2>
-          <p className="text-sm text-ink-secondary leading-relaxed mb-5">
-            Every pick in this guide works on Chromebook without driver installation. Chrome OS natively supports all UVC-compliant webcams — which includes all mainstream brands. The only webcams that don&apos;t work on Chromebook are those requiring proprietary software (AI tracking cameras, specialized streaming cams).
-          </p>
-          <div className="overflow-x-auto rounded-xl border border-border mb-5">
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="bg-brand text-white">
-                  <th className="text-left px-4 py-3 font-semibold">Webcam</th>
-                  <th className="text-center px-4 py-3 font-semibold">Windows</th>
-                  <th className="text-center px-4 py-3 font-semibold">macOS</th>
-                  <th className="text-center px-4 py-3 font-semibold">Chromebook</th>
-                  <th className="text-center px-4 py-3 font-semibold hidden sm:table-cell">Driver needed?</th>
-                </tr>
-              </thead>
-              <tbody>
-                {products.map((p, i) => (
-                  <tr key={p.id} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
-                    <td className="px-4 py-3 font-semibold text-ink text-xs">{p.name}</td>
-                    <td className="px-4 py-3 text-center text-emerald-600 font-bold text-xs">✓</td>
-                    <td className="px-4 py-3 text-center text-emerald-600 font-bold text-xs">✓</td>
-                    <td className="px-4 py-3 text-center text-emerald-600 font-bold text-xs">✓</td>
-                    <td className="px-4 py-3 text-center hidden sm:table-cell">
-                      <span className="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-full">No — plug and play</span>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <div className="p-4 rounded-xl bg-bg border border-border text-sm text-ink-secondary">
-            <strong className="text-ink">School-managed Chromebooks:</strong> If your Chromebook is managed by your school, camera permissions may be restricted at the policy level — not by the webcam hardware. Check with your IT department if the webcam is not recognized on a managed device. The webcam itself is plug-and-play; restrictions come from device policy, not the camera.
-          </div>
-        </section>
-
-        {/* Buying criteria / Fit Score explained */}
-        <section id="buying-criteria" className="mb-14 scroll-mt-20">
-          <h2 className="text-2xl font-bold text-ink mb-2 tracking-tight">How We Scored These Webcams</h2>
-          <p className="text-sm text-ink-secondary mb-6 leading-relaxed">
-            The <strong className="text-ink">DeskFinds Fit Score</strong> rates every pick on five criteria weighted toward small-space and student use cases. A $20 webcam that genuinely delivers for its intended use case scores higher than a $40 webcam with overstated specs.
-          </p>
-          <div className="space-y-3">
-            {buyingCriteria.map((c, i) => (
-              <div key={i} className="flex gap-4 p-4 rounded-xl border border-border bg-white">
-                <div className="flex flex-col items-center shrink-0">
-                  <span className="text-sm font-bold text-brand">{c.weight}</span>
-                  <span className="text-[9px] text-ink-muted uppercase tracking-widest">weight</span>
+        {howToChoose.length > 0 && (
+          <section className="mb-14">
+            <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">How to Choose the Right Webcams Under $50 for Small Desks and Dorm Rooms (2026)</h2>
+            <div className="space-y-8">
+              {howToChoose.map((sub, i) => (
+                <div key={i}>
+                  <h3 className="text-lg font-bold text-ink mb-3">{sub.subheading}</h3>
+                  {sub.intro && (
+                    <p className="text-sm text-ink-secondary leading-relaxed mb-3">{sub.intro}</p>
+                  )}
+                  {sub.table && (
+                    <div className="overflow-x-auto rounded-xl border border-border mb-2">
+                      <table className="w-full text-sm">
+                        <thead>
+                          <tr className="bg-brand text-white">
+                            {sub.table.headers.map((h, hi) => (
+                              <th key={hi} className="text-left px-4 py-3 font-semibold">{h}</th>
+                            ))}
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {sub.table.rows.map((row, ri) => (
+                            <tr key={ri} className={ri % 2 === 0 ? "bg-white" : "bg-bg"}>
+                              {row.map((cell, ci) => (
+                                <td key={ci} className="px-4 py-3 text-ink-secondary text-xs">{cell}</td>
+                              ))}
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  )}
+                  {sub.cards && (
+                    <div className="grid sm:grid-cols-2 gap-3 mb-2">
+                      {sub.cards.map((c, ci) => (
+                        <div key={ci} className="p-4 rounded-xl border border-border bg-bg">
+                          <p className="text-sm font-bold text-ink mb-1">{c.label}</p>
+                          <p className="text-sm text-ink-secondary leading-relaxed">{c.text}</p>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                  {sub.note && (
+                    <p className="text-xs text-ink-muted leading-relaxed">{sub.note}</p>
+                  )}
                 </div>
-                <div>
-                  <p className="text-sm font-bold text-ink mb-1">{c.label}</p>
-                  <p className="text-xs text-ink-secondary leading-relaxed">{c.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-          <p className="text-xs text-ink-muted mt-4 leading-relaxed">
-            Scores reflect DeskFinds editorial assessment based on product specifications, verified buyer reports, and structured comparison criteria. They are not crowd-sourced ratings.{" "}
-            <Link href="/how-we-review" className="text-brand hover:underline">How we review →</Link>
-          </p>
-        </section>
+              ))}
+            </div>
+          </section>
+        )}
 
-        {/* FAQ */}
         <section id="faq" className="mb-14 scroll-mt-20">
           <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">Frequently Asked Questions</h2>
           <div className="space-y-4">
             {faq.map((item, i) => (
-              <div key={i} className="rounded-xl border border-border bg-white overflow-hidden">
-                <div className="flex gap-3 p-5">
-                  <span className="flex items-center justify-center w-6 h-6 rounded-full bg-brand-muted text-brand font-bold text-xs shrink-0 mt-0.5">Q</span>
-                  <div>
-                    <p className="text-sm font-bold text-ink mb-2">{item.q}</p>
-                    <p className="text-sm text-ink-secondary leading-relaxed">{item.a}</p>
-                  </div>
-                </div>
+              <div key={i} className="p-5 rounded-xl border border-border bg-white">
+                <p className="font-bold text-ink text-sm mb-2">{item.q}</p>
+                <p className="text-sm text-ink-secondary leading-relaxed">{item.a}</p>
               </div>
             ))}
           </div>
         </section>
 
-        {/* Related guides */}
-        <section className="mb-8">
-          <h2 className="text-xl font-bold text-ink mb-4 tracking-tight">Related Buying Guides</h2>
+        <section className="mb-14 p-6 rounded-2xl border border-border bg-white">
+          <h2 className="text-xl font-bold text-ink mb-5 tracking-tight">Bottom Line</h2>
+          <div className="space-y-4">
+            <div className="flex items-start gap-3">
+              <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
+              <p className="text-sm text-ink-secondary">
+                <strong className="text-ink">best overall:</strong>{" "}
+                <a href={`#${products[0]?.id}`} className="font-bold text-ink hover:text-brand transition-colors">{products[0]?.name}</a>
+                {" "}- {products[0]?.badge.toLowerCase()} pick in this roundup.
+              </p>
+            </div>
+            <p className="text-sm text-ink-secondary pl-5">See the full rankings above for all picks with pros, cons, and best-for summaries.</p>
+          </div>
+        </section>
+
+        <section className="mb-14 p-6 rounded-2xl flex flex-col items-center text-center" style={{ background: "linear-gradient(135deg, #FF9900 0%, #e68900 100%)" }}>
+          <h2 className="text-xl font-bold text-white mb-2">Browse on Amazon</h2>
+          <p className="text-white/90 text-sm mb-5">All Prime-eligible options with current pricing.</p>
+          <a href={`https://www.amazon.com/s?k=webcam+under+50&tag=deskfinds0d-20`} target="_blank" rel="noopener noreferrer sponsored" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors" style={{ color: "#FF9900" }}>
+            Shop on Amazon &rarr;
+          </a>
+        </section>
+
+        <section>
+          <h2 className="text-xl font-bold text-ink mb-4 tracking-tight">Related Guides</h2>
           <div className="grid sm:grid-cols-2 gap-3">
-            {[
-              { href: "/guide/best-desk-lamp-under-30", label: "Best Desk Lamps Under $30", description: "Light your desk setup without sacrificing outlet space." },
-              { href: "/guide/desk-setup-essentials", label: "Desk Setup Essentials", description: "The complete small-desk setup checklist for students." },
-              { href: "/guide/best-docking-stations-for-desk-setup", label: "Best Docking Stations for Desk Setups", description: "One cable to rule all your peripherals." },
-              { href: "/guide/best-desk-mat-for-small-desk", label: "Best Desk Mats for Small Desks", description: "Protect your surface and unify your setup." },
-            ].map((g) => (
-              <Link
-                key={g.href}
-                href={g.href}
-                className="flex flex-col gap-1 p-4 rounded-xl border border-border bg-white hover:border-brand hover:shadow-card transition-all"
-              >
-                <span className="text-sm font-semibold text-ink">{g.label}</span>
-                <span className="text-xs text-ink-secondary">{g.description}</span>
+            {relatedGuides.map((g) => (
+              <Link key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
+                <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">
+                  <svg className="w-4 h-4 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+                  </svg>
+                </div>
+                <div>
+                  <p className="font-bold text-ink text-sm group-hover:text-brand transition-colors">{g.title}</p>
+                </div>
               </Link>
             ))}
           </div>
         </section>
-
       </Container>
     </>
   );
