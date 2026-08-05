@@ -12,12 +12,10 @@ import {
   readTime,
   heroImage as fallbackHeroImage,
   products,
+  atAGlanceRows,
   faq,
   relatedGuides,
-  buyingCriteria,
-  howWeEvaluated,
-  howToChoose,
-  type GuideProduct,
+  type HutchDesk,
 } from "@/data/guides/best-computer-desk-with-hutch";
 
 export const revalidate = 86400;
@@ -30,7 +28,7 @@ export const metadata: Metadata = buildMetadata({
   type: "article",
 });
 
-function ProductSection({ product }: { product: GuideProduct }) {
+function ProductSection({ product }: { product: HutchDesk }) {
   return (
     <section id={product.id} className="mb-14 scroll-mt-20">
       <div className="flex flex-wrap items-center gap-2 mb-4">
@@ -46,7 +44,7 @@ function ProductSection({ product }: { product: GuideProduct }) {
           <a
             href={product.amazonUrl}
             target="_blank"
-            rel="noopener noreferrer sponsored"
+            rel="nofollow sponsored noopener noreferrer"
             className="shrink-0 flex items-center justify-center w-full sm:w-60 h-52 rounded-xl border border-border bg-gray-50 overflow-hidden hover:opacity-90 transition-opacity"
           >
             <Image
@@ -64,33 +62,45 @@ function ProductSection({ product }: { product: GuideProduct }) {
                 {product.price}
               </span>
               <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
-                {product.rating}
+                {product.style}
               </span>
               <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
-                {product.reviews}
+                {product.config}
               </span>
-              {product.specs.map((spec, i) => (
-                <span key={i} className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
-                  {spec}
-                </span>
-              ))}
+              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
+                {product.material}
+              </span>
             </div>
             <div>
-              <p className="text-xs font-bold uppercase tracking-widest text-brand mb-1">About this pick</p>
-              {product.description.split("\n\n").map((para, i) => (
-                <p key={i} className="text-sm text-ink-secondary leading-relaxed">
-                  {para}
-                </p>
-              ))}
+              <p className="text-xs font-bold uppercase tracking-widest text-brand mb-1">
+                Why it works
+              </p>
+              <p className="text-sm text-ink-secondary leading-relaxed">
+                {product.whyItWorks}
+              </p>
             </div>
+            {product.tradeoffs.length > 0 && (
+              <div>
+                <p className="text-xs font-bold uppercase tracking-widest text-ink-muted mb-1">
+                  Trade-offs
+                </p>
+                <ul className="space-y-1">
+                  {product.tradeoffs.map((t, i) => (
+                    <li key={i} className="text-xs text-ink-secondary">
+                      &middot; {t}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
             <p className="text-xs text-ink-muted">
-              <span className="font-semibold text-ink">Best for:</span>{" "}
-              {product.bestFor}
+              <span className="font-semibold text-ink">Skip if:</span>{" "}
+              {product.skipIf}
             </p>
             <a
               href={product.amazonUrl}
               target="_blank"
-              rel="noopener noreferrer sponsored"
+              rel="nofollow sponsored noopener noreferrer"
               className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90 transition-opacity w-fit mt-auto"
               style={{ background: "#FF9900" }}
             >
@@ -130,7 +140,7 @@ function ProductSection({ product }: { product: GuideProduct }) {
   );
 }
 
-export default async function Page() {
+export default async function BestComputerDeskWithHutchPage() {
   const guide = await getPublicGuideBySlug("best-computer-desk-with-hutch");
   const heroImg = guide?.thumbnailImage ?? guide?.heroImage ?? fallbackHeroImage;
 
@@ -141,10 +151,25 @@ export default async function Page() {
     description: metaDescription,
     datePublished: lastUpdated,
     dateModified: lastUpdated,
-    author: { "@type": "Person", name: "Jamie Cole", url: `${SITE_URL}/author/jamie-cole` },
-    publisher: { "@type": "Organization", name: "DeskFinds", url: SITE_URL },
-    mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/guide/best-computer-desk-with-hutch` },
-    about: [{"@type":"Thing","name":"Best Computer Desks with Hutch in 2026: Farmhouse, Executive, and L-Shaped"}],
+    author: {
+      "@type": "Person",
+      name: "Jamie Cole",
+      url: `${SITE_URL}/author/jamie-cole`,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "DeskFinds",
+      url: SITE_URL,
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `${SITE_URL}/guide/best-computer-desk-with-hutch`,
+    },
+    about: [
+      { "@type": "Thing", name: "Computer Desk with Hutch" },
+      { "@type": "Thing", name: "Home Office Desk" },
+      { "@type": "Thing", name: "Farmhouse Desk" },
+    ],
   };
 
   const breadcrumbSchema = {
@@ -153,15 +178,15 @@ export default async function Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Computer Desks with Hutch in 2026: Farmhouse, Executive, and L-Shaped", item: `${SITE_URL}/guide/best-computer-desk-with-hutch` },
+      { "@type": "ListItem", position: 3, name: "Best Computer Desks with Hutch", item: `${SITE_URL}/guide/best-computer-desk-with-hutch` },
     ],
   };
 
   const itemListSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: guideTitle,
-    description: metaDescription,
+    name: "Best Computer Desks with Hutch 2026",
+    description: "9 best computer desks with hutch in farmhouse, executive, L-shaped, and floating configurations.",
     numberOfItems: products.length,
     itemListElement: products.map((p) => ({
       "@type": "ListItem",
@@ -177,27 +202,31 @@ export default async function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
       <Container className="py-12 max-w-4xl">
+        {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
           <Link href="/" className="hover:text-brand transition-colors">Home</Link>
           <span>/</span>
           <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
-          <span className="text-ink">Best Computer Desks with Hutch in 2026: Farmhouse, Executive, and L-Shaped</span>
+          <span className="text-ink">Best Computer Desks with Hutch</span>
         </nav>
 
+        {/* Header */}
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-3">
             <span className="text-xs font-bold uppercase tracking-widest text-brand">Buying Guide</span>
             <span className="text-ink-muted">&middot;</span>
             <span className="text-xs text-ink-muted">{readTime} read</span>
             <span className="text-ink-muted">&middot;</span>
-            <span className="text-xs text-ink-muted">Updated July 2026</span>
+            <span className="text-xs text-ink-muted">Updated June 2026</span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-bold text-ink leading-tight tracking-tight mb-4">
             {guideTitle}
           </h1>
           <p className="text-lg text-ink-secondary leading-relaxed max-w-3xl">
-            {metaDescription}
+            A desk with hutch adds vertical storage without requiring additional shelving or wall brackets.
+            This guide covers 9 hutch desks across farmhouse, executive, L-shaped, and floating configurations,
+            with honest notes on monitor clearance, open versus closed hutch storage, and keyboard tray depth.
           </p>
           <div className="flex flex-wrap items-center gap-4 mt-5 pt-5 border-t border-border">
             <div className="flex items-center gap-2 text-sm text-ink-secondary">
@@ -212,62 +241,63 @@ export default async function Page() {
               <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
               </svg>
-              {products.length} options evaluated
+              9 hutch desks evaluated across all major styles
             </div>
           </div>
         </header>
 
+        {/* Affiliate disclosure */}
         <div className="mb-8 p-4 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
-          <strong className="text-ink">Quick note:</strong> We may earn a commission when you buy through Amazon links. This guide is based on product specs, buyer feedback, use cases, and comparison criteria, not paid placement.{" "}
+          <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. As an Amazon Associate, DeskFinds earns from qualifying purchases.{" "}
           <Link href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
         </div>
 
-        <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-white h-56 sm:h-64 md:hidden flex items-center justify-center p-3">
-          <Image src={heroImg} alt="Best Computer Desks with Hutch in 2026: Farmhouse, Executive, and L-Shaped" width={900} height={420} className="w-full h-full object-contain" priority unoptimized />
-        </div>
-        <div
-          className="hidden md:grid rounded-2xl overflow-hidden border border-border mb-10 gap-px bg-border"
-          style={{ gridTemplateColumns: `repeat(${products.length}, minmax(0,1fr))` }}
-        >
-          {products.map((product, i) => (
-            <div key={product.id} className="h-56 bg-white flex items-center justify-center p-4">
-              <Image
-                src={product.imageUrl}
-                alt={product.name}
-                width={300}
-                height={300}
-                className="w-full h-full object-contain"
-                priority={i === 0}
-                unoptimized
-              />
-            </div>
-          ))}
+        {/* Hero image */}
+        <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-bg">
+          <Image
+            src={heroImg}
+            alt="Best computer desks with hutch for home office"
+            width={900}
+            height={420}
+            className="w-full h-auto object-contain"
+            priority
+            unoptimized
+          />
         </div>
 
+        {/* Quick Picks */}
         <section className="mb-10">
-          <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">Comparison Table</h2>
+          <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">Quick Picks</h2>
           <div className="overflow-x-auto rounded-xl border border-border">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-brand text-white">
                   <th className="text-left px-4 py-3 font-semibold">Pick</th>
                   <th className="text-left px-4 py-3 font-semibold">Product</th>
-                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Price</th>
-                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Rating</th>
+                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Style</th>
+                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Config</th>
+                  <th className="text-left px-4 py-3 font-semibold">Price</th>
                   <th className="px-4 py-3"></th>
                 </tr>
               </thead>
               <tbody>
-                {products.map((product, i) => (
-                  <tr key={product.id} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
+                {atAGlanceRows.map((row, i) => (
+                  <tr key={row.id} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                     <td className="px-4 py-3">
-                      <a href={`#${product.id}`} className="text-xs font-bold text-brand hover:underline">{product.badge}</a>
+                      <a href={`#${row.id}`} className="text-xs font-bold text-brand hover:underline">{row.badge}</a>
                     </td>
-                    <td className="px-4 py-3 font-semibold text-ink text-xs">{product.name}</td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{product.price}</td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{product.rating}</td>
+                    <td className="px-4 py-3 font-semibold text-ink text-xs">{row.name}</td>
+                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{row.style}</td>
+                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{row.config}</td>
+                    <td className="px-4 py-3 text-ink-secondary text-xs">{row.price}</td>
                     <td className="px-4 py-3">
-                      <a href={product.amazonUrl} target="_blank" rel="noopener noreferrer sponsored" className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>
+                      <a
+                        href={products[i].amazonUrl}
+                        target="_blank"
+                        rel="nofollow sponsored noopener noreferrer"
+                        className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block"
+                        style={{ background: "#FF9900" }}
+                      >
                         Check price
                       </a>
                     </td>
@@ -276,28 +306,24 @@ export default async function Page() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-ink-muted mt-2">Prices are approximate. Check Amazon for current pricing before purchasing.</p>
         </section>
 
+        {/* Intro */}
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
-          <p>This guide covers the top picks for best computer desks with hutch in 2026: farmhouse, executive, and l-shaped, ranked by real product specs, weight capacity, and buyer feedback.</p>
+          <p>
+            The hutch format adds overhead storage above a standard{" "}
+            <Link href="/guide/best-solid-wood-desk" className="text-brand hover:underline">solid wood desk</Link>{" "}
+            or engineered wood base. Before ordering, measure the clearance between your hutch deck and the bottom of the overhead shelf: most hutches ship with 12 to 18 inches of monitor clearance space, which accommodates a 24&quot; to 27&quot; monitor with the stand but not a monitor arm placed above hutch-deck height.
+          </p>
+          <p>
+            Open hutch configurations (shelves only) suit items you reach for frequently: reference books, speakers, headphones. Closed hutch configurations (cabinet doors over shelves) suit items you want hidden but accessible: charging cables, paper stock, storage boxes. Many designs offer a combination. If the primary use case is document storage, a{" "}
+            <Link href="/guide/best-wooden-desk-with-drawers" className="text-brand hover:underline">wooden desk with drawers</Link>{" "}
+            may serve better than an overhead hutch. For standalone desk shelf options that add vertical storage without replacing your current desk, see our guide to{" "}
+            <Link href="/guide/best-desk-shelves-small-desks" className="text-brand hover:underline">desk shelves</Link>.
+          </p>
         </section>
 
-        {buyingCriteria.length > 0 && (
-          <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
-            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">{buyingCriteria.length} Criteria to Look For Before Buying a Computer Desks with Hutch in 2026: Farmhouse, Executive, and L-Shaped</h2>
-            <p className="text-sm text-ink-muted mb-5">Key buying criteria so you get the right fit the first time.</p>
-            <div className="grid sm:grid-cols-2 gap-4">
-              {buyingCriteria.map((item, i) => (
-                <div key={i} className="p-4 rounded-xl border border-border bg-bg">
-                  <p className="text-sm font-bold text-ink mb-1.5">{item.criterion}</p>
-                  <p className="text-sm text-ink-secondary leading-relaxed">{item.explanation}</p>
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
-
+        {/* Jump nav */}
         <nav className="mb-12 p-4 rounded-xl bg-bg border border-border">
           <p className="text-xs font-bold uppercase tracking-widest text-ink-muted mb-3">Jump to pick</p>
           <div className="flex flex-wrap gap-2">
@@ -310,78 +336,15 @@ export default async function Page() {
           </div>
         </nav>
 
-        <h2 className="text-2xl font-bold text-ink mb-8 tracking-tight">{guideTitle}</h2>
+        <h2 className="text-2xl font-bold text-ink mb-8 tracking-tight">
+          {products.length} Best Computer Desks with Hutch
+        </h2>
 
         {products.map((product) => (
           <ProductSection key={product.id} product={product} />
         ))}
 
-        {howWeEvaluated.length > 0 && (
-          <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
-            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">How We Evaluated These Computer Desks with Hutch in 2026: Farmhouse, Executive, and L-Shaped</h2>
-            <p className="text-sm text-ink-muted mb-5">Each pick was assessed across {howWeEvaluated.length} criteria weighted for real-world use.</p>
-            <div className="grid sm:grid-cols-2 gap-4">
-              {howWeEvaluated.map((item, i) => (
-                <div key={i} className="p-4 rounded-xl border border-border bg-bg">
-                  <p className="text-sm font-bold text-ink mb-1.5">{item.title}</p>
-                  <p className="text-sm text-ink-secondary leading-relaxed">{item.description}</p>
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
-
-        {howToChoose.length > 0 && (
-          <section className="mb-14">
-            <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">How to Choose the Right Computer Desks with Hutch in 2026: Farmhouse, Executive, and L-Shaped</h2>
-            <div className="space-y-8">
-              {howToChoose.map((sub, i) => (
-                <div key={i}>
-                  <h3 className="text-lg font-bold text-ink mb-3">{sub.subheading}</h3>
-                  {sub.intro && (
-                    <p className="text-sm text-ink-secondary leading-relaxed mb-3">{sub.intro}</p>
-                  )}
-                  {sub.table && (
-                    <div className="overflow-x-auto rounded-xl border border-border mb-2">
-                      <table className="w-full text-sm">
-                        <thead>
-                          <tr className="bg-brand text-white">
-                            {sub.table.headers.map((h, hi) => (
-                              <th key={hi} className="text-left px-4 py-3 font-semibold">{h}</th>
-                            ))}
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {sub.table.rows.map((row, ri) => (
-                            <tr key={ri} className={ri % 2 === 0 ? "bg-white" : "bg-bg"}>
-                              {row.map((cell, ci) => (
-                                <td key={ci} className="px-4 py-3 text-ink-secondary text-xs">{cell}</td>
-                              ))}
-                            </tr>
-                          ))}
-                        </tbody>
-                      </table>
-                    </div>
-                  )}
-                  {sub.cards && (
-                    <div className="grid sm:grid-cols-2 gap-3 mb-2">
-                      {sub.cards.map((c, ci) => (
-                        <div key={ci} className="p-4 rounded-xl border border-border bg-bg">
-                          <p className="text-sm font-bold text-ink mb-1">{c.label}</p>
-                          <p className="text-sm text-ink-secondary leading-relaxed">{c.text}</p>
-                        </div>
-                      ))}
-                    </div>
-                  )}
-                  {sub.note && (
-                    <p className="text-xs text-ink-muted leading-relaxed">{sub.note}</p>
-                  )}
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
-
+        {/* FAQ */}
         <section id="faq" className="mb-14 scroll-mt-20">
           <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">Frequently Asked Questions</h2>
           <div className="space-y-4">
@@ -394,29 +357,7 @@ export default async function Page() {
           </div>
         </section>
 
-        <section className="mb-14 p-6 rounded-2xl border border-border bg-white">
-          <h2 className="text-xl font-bold text-ink mb-5 tracking-tight">Bottom Line</h2>
-          <div className="space-y-4">
-            <div className="flex items-start gap-3">
-              <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
-              <p className="text-sm text-ink-secondary">
-                <strong className="text-ink">best overall:</strong>{" "}
-                <a href={`#${products[0]?.id}`} className="font-bold text-ink hover:text-brand transition-colors">{products[0]?.name}</a>
-                {" "}- {products[0]?.badge.toLowerCase()} pick in this roundup.
-              </p>
-            </div>
-            <p className="text-sm text-ink-secondary pl-5">See the full rankings above for all picks with pros, cons, and best-for summaries.</p>
-          </div>
-        </section>
-
-        <section className="mb-14 p-6 rounded-2xl flex flex-col items-center text-center" style={{ background: "linear-gradient(135deg, #FF9900 0%, #e68900 100%)" }}>
-          <h2 className="text-xl font-bold text-white mb-2">Browse on Amazon</h2>
-          <p className="text-white/90 text-sm mb-5">All Prime-eligible options with current pricing.</p>
-          <a href={`https://www.amazon.com/s?k=computer+desk+with+hutch&tag=deskfinds0d-20`} target="_blank" rel="noopener noreferrer sponsored" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors" style={{ color: "#FF9900" }}>
-            Shop on Amazon &rarr;
-          </a>
-        </section>
-
+        {/* Related guides */}
         <section>
           <h2 className="text-xl font-bold text-ink mb-4 tracking-tight">Related Guides</h2>
           <div className="grid sm:grid-cols-2 gap-3">
@@ -433,6 +374,7 @@ export default async function Page() {
               </Link>
             ))}
           </div>
+          <p className="text-xs text-ink-muted mt-4 text-center">Last updated: June 2026. Verify current Amazon prices before purchasing.</p>
         </section>
       </Container>
     </>

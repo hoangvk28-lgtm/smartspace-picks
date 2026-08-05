@@ -14,9 +14,6 @@ import {
   products,
   faq,
   relatedGuides,
-  buyingCriteria,
-  howWeEvaluated,
-  howToChoose,
   type GuideProduct,
 } from "@/data/guides/best-desk-hutches-for-dorm-rooms";
 
@@ -70,14 +67,19 @@ function ProductSection({ product }: { product: GuideProduct }) {
                 {product.reviews}
               </span>
               {product.specs.map((spec, i) => (
-                <span key={i} className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
+                <span
+                  key={i}
+                  className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium"
+                >
                   {spec}
                 </span>
               ))}
             </div>
             <div>
-              <p className="text-xs font-bold uppercase tracking-widest text-brand mb-1">About this pick</p>
-              {product.description.split("\n\n").map((para, i) => (
+              <p className="text-xs font-bold uppercase tracking-widest text-brand mb-1">
+                About this pick
+              </p>
+              {product.description.split('\n\n').map((para, i) => (
                 <p key={i} className="text-sm text-ink-secondary leading-relaxed">
                   {para}
                 </p>
@@ -130,7 +132,7 @@ function ProductSection({ product }: { product: GuideProduct }) {
   );
 }
 
-export default async function Page() {
+export default async function BestDeskHutchesDormRoomsPage() {
   const guide = await getPublicGuideBySlug("best-desk-hutches-for-dorm-rooms");
   const heroImg = guide?.thumbnailImage ?? guide?.heroImage ?? fallbackHeroImage;
 
@@ -144,7 +146,11 @@ export default async function Page() {
     author: { "@type": "Person", name: "Jamie Cole", url: `${SITE_URL}/author/jamie-cole` },
     publisher: { "@type": "Organization", name: "DeskFinds", url: SITE_URL },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/guide/best-desk-hutches-for-dorm-rooms` },
-    about: [{"@type":"Thing","name":"Best Desk Hutches for Dorm Rooms (2026)"}],
+    about: [
+      { "@type": "Thing", name: "Desk Hutch" },
+      { "@type": "Thing", name: "Dorm Room Organization" },
+      { "@type": "Thing", name: "Desktop Storage" },
+    ],
   };
 
   const breadcrumbSchema = {
@@ -153,7 +159,7 @@ export default async function Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Desk Hutches for Dorm Rooms (2026)", item: `${SITE_URL}/guide/best-desk-hutches-for-dorm-rooms` },
+      { "@type": "ListItem", position: 3, name: "Best Desk Hutches for Dorm Rooms", item: `${SITE_URL}/guide/best-desk-hutches-for-dorm-rooms` },
     ],
   };
 
@@ -182,7 +188,7 @@ export default async function Page() {
           <span>/</span>
           <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
-          <span className="text-ink">Best Desk Hutches for Dorm Rooms (2026)</span>
+          <span className="text-ink">Best Desk Hutches for Dorm Rooms</span>
         </nav>
 
         <header className="mb-8">
@@ -197,7 +203,10 @@ export default async function Page() {
             {guideTitle}
           </h1>
           <p className="text-lg text-ink-secondary leading-relaxed max-w-3xl">
-            {metaDescription}
+            Eight desk hutches for dorm rooms ranked by buyer rating and review count.
+            Covers compact open-shelf models, units with drawers, LED-lit bookcases
+            with power outlets, and tall shelf designs for maximizing vertical space on
+            a tight dorm desk.
           </p>
           <div className="flex flex-wrap items-center gap-4 mt-5 pt-5 border-t border-border">
             <div className="flex items-center gap-2 text-sm text-ink-secondary">
@@ -212,40 +221,22 @@ export default async function Page() {
               <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
               </svg>
-              {products.length} options evaluated
+              8 desk hutches evaluated
             </div>
           </div>
         </header>
 
         <div className="mb-8 p-4 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
-          <strong className="text-ink">Quick note:</strong> We may earn a commission when you buy through Amazon links. This guide is based on product specs, buyer feedback, use cases, and comparison criteria, not paid placement.{" "}
+          <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. As an Amazon Associate, DeskFinds earns from qualifying purchases.{" "}
           <Link href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
         </div>
 
-        <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-white h-56 sm:h-64 md:hidden flex items-center justify-center p-3">
-          <Image src={heroImg} alt="Best Desk Hutches for Dorm Rooms (2026)" width={900} height={420} className="w-full h-full object-contain" priority unoptimized />
-        </div>
-        <div
-          className="hidden md:grid rounded-2xl overflow-hidden border border-border mb-10 gap-px bg-border"
-          style={{ gridTemplateColumns: `repeat(${products.length}, minmax(0,1fr))` }}
-        >
-          {products.map((product, i) => (
-            <div key={product.id} className="h-56 bg-white flex items-center justify-center p-4">
-              <Image
-                src={product.imageUrl}
-                alt={product.name}
-                width={300}
-                height={300}
-                className="w-full h-full object-contain"
-                priority={i === 0}
-                unoptimized
-              />
-            </div>
-          ))}
+        <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-bg">
+          <Image src={heroImg} alt="Best desk hutches for dorm rooms" width={900} height={420} className="w-full h-auto object-contain" priority unoptimized />
         </div>
 
         <section className="mb-10">
-          <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">Comparison Table</h2>
+          <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">Quick Picks</h2>
           <div className="overflow-x-auto rounded-xl border border-border">
             <table className="w-full text-sm">
               <thead>
@@ -254,6 +245,7 @@ export default async function Page() {
                   <th className="text-left px-4 py-3 font-semibold">Product</th>
                   <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Price</th>
                   <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Rating</th>
+                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Reviews</th>
                   <th className="px-4 py-3"></th>
                 </tr>
               </thead>
@@ -266,6 +258,7 @@ export default async function Page() {
                     <td className="px-4 py-3 font-semibold text-ink text-xs">{product.name}</td>
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{product.price}</td>
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{product.rating}</td>
+                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{product.reviews}</td>
                     <td className="px-4 py-3">
                       <a href={product.amazonUrl} target="_blank" rel="noopener noreferrer sponsored" className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>
                         Check price
@@ -276,27 +269,77 @@ export default async function Page() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-ink-muted mt-2">Prices are approximate. Check Amazon for current pricing before purchasing.</p>
         </section>
 
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
-          <p>This guide covers the top picks for 8 best desk hutches for dorm rooms (2026), ranked by real product specs, weight capacity, and buyer feedback.</p>
+          <p>
+            Dorm desks present a specific set of constraints that most hutch designs
+            do not account for. The desk is small, the room is shared, and the setup
+            needs to handle textbooks, a laptop, a monitor, and a charging setup
+            without taking over the entire surface. A hutch that works for a home
+            office is often too wide, too deep, or too visually heavy for a dorm.
+          </p>
+          <p>
+            The most useful dorm hutches add vertical storage above the monitor
+            without extending past the desk edges, include at least one drawer for
+            supplies you do not want visible, and use a white or neutral finish that
+            does not clash with standard dorm furniture. LED-lit models with built-in
+            power outlets solve the dorm charging problem without adding a separate
+            power strip.
+          </p>
+          <p>
+            This guide covers eight hutches ranked by rating and buyer count for dorm
+            use. For hutches specifically sized for compact workspaces under 40 inches,
+            see our{" "}
+            <Link href="/guide/best-desk-hutches-for-small-desks" className="text-brand hover:underline">
+              best desk hutches for small desks
+            </Link>{" "}
+            guide. For the full hutch category overview, see our{" "}
+            <Link href="/guide/best-desk-hutches" className="text-brand hover:underline">
+              best desk hutches
+            </Link>{" "}
+            guide.
+          </p>
         </section>
 
-        {buyingCriteria.length > 0 && (
-          <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
-            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">{buyingCriteria.length} Criteria to Look For Before Buying a Desk Hutches for Dorm Rooms (2026)</h2>
-            <p className="text-sm text-ink-muted mb-5">Key buying criteria so you get the right fit the first time.</p>
-            <div className="grid sm:grid-cols-2 gap-4">
-              {buyingCriteria.map((item, i) => (
-                <div key={i} className="p-4 rounded-xl border border-border bg-bg">
-                  <p className="text-sm font-bold text-ink mb-1.5">{item.criterion}</p>
-                  <p className="text-sm text-ink-secondary leading-relaxed">{item.explanation}</p>
-                </div>
-              ))}
+        <section className="mb-10">
+          <h2 className="text-2xl font-bold text-ink mb-5 tracking-tight">What to Know Before Buying</h2>
+          <div className="space-y-6">
+            <div className="p-4 rounded-xl border border-border bg-white">
+              <h3 className="text-base font-bold text-ink mb-2">Space Constraints in Dorm Rooms</h3>
+              <p className="text-sm text-ink-secondary leading-relaxed">
+                Standard dorm desks range from 30 to 48 inches wide. A hutch wider
+                than the desk extends past the desk edge and reduces usable surface.
+                Hutches in the 31 to 38-inch range fit most dorm desks without
+                overhanging. Measure the desk width and the monitor width before
+                choosing a hutch. A hutch that matches the desk width looks intentional
+                rather than overcrowded.
+              </p>
             </div>
-          </section>
-        )}
+            <div className="p-4 rounded-xl border border-border bg-white">
+              <h3 className="text-base font-bold text-ink mb-2">LED and Outlet Features</h3>
+              <p className="text-sm text-ink-secondary leading-relaxed">
+                The HOOBRO bookcase in this roundup includes a built-in LED light strip,
+                two AC outlets, and two USB ports. For dorm rooms where charging options
+                are limited, this eliminates the need for a separate power strip on the
+                desk. The LED strip adds ambient lighting without requiring a desk lamp.
+                If your dorm has adequate outlets nearby, the LED and outlet feature adds
+                cost with less benefit.
+              </p>
+            </div>
+            <div className="p-4 rounded-xl border border-border bg-white">
+              <h3 className="text-base font-bold text-ink mb-2">Style and Roommate Compatibility</h3>
+              <p className="text-sm text-ink-secondary leading-relaxed">
+                White finishes are the most common choice for dorm hutches because they
+                match standard dorm furniture and brighten small spaces. Rustic brown
+                adds warmth but can clash with standard institutional dorm furniture.
+                Black finishes work in dark-themed setups but make small rooms feel
+                smaller. For shared dorm rooms, a neutral white or wood-tone finish is
+                the least likely to conflict with a roommate's aesthetic.
+              </p>
+            </div>
+          </div>
+        </section>
 
         <nav className="mb-12 p-4 rounded-xl bg-bg border border-border">
           <p className="text-xs font-bold uppercase tracking-widest text-ink-muted mb-3">Jump to pick</p>
@@ -306,81 +349,48 @@ export default async function Page() {
                 #{p.rank} {p.badge}
               </a>
             ))}
+            <a href="#buying-guide" className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors">Buying Guide</a>
             <a href="#faq" className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors">FAQ</a>
           </div>
         </nav>
 
-        <h2 className="text-2xl font-bold text-ink mb-8 tracking-tight">{guideTitle}</h2>
+        <h2 className="text-2xl font-bold text-ink mb-8 tracking-tight">8 Best Desk Hutches for Dorm Rooms</h2>
 
         {products.map((product) => (
           <ProductSection key={product.id} product={product} />
         ))}
 
-        {howWeEvaluated.length > 0 && (
-          <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
-            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">How We Evaluated These Desk Hutches for Dorm Rooms (2026)</h2>
-            <p className="text-sm text-ink-muted mb-5">Each pick was assessed across {howWeEvaluated.length} criteria weighted for real-world use.</p>
-            <div className="grid sm:grid-cols-2 gap-4">
-              {howWeEvaluated.map((item, i) => (
-                <div key={i} className="p-4 rounded-xl border border-border bg-bg">
-                  <p className="text-sm font-bold text-ink mb-1.5">{item.title}</p>
-                  <p className="text-sm text-ink-secondary leading-relaxed">{item.description}</p>
-                </div>
-              ))}
+        <section className="mb-12 scroll-mt-20" id="buying-guide">
+          <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">How to Choose a Dorm Room Desk Hutch</h2>
+          <div className="mb-8">
+            <h3 className="text-lg font-bold text-ink mb-3">Hutch Type Comparison</h3>
+            <div className="overflow-x-auto rounded-xl border border-border">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="bg-brand text-white">
+                    <th className="text-left px-4 py-3 font-semibold">Type</th>
+                    <th className="text-left px-4 py-3 font-semibold">Best For</th>
+                    <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Notes</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    { type: "Open shelf hutch", bestFor: "Maximum vertical storage, easy access", notes: "Furinno Classic, Snughome models" },
+                    { type: "Hutch with drawer", bestFor: "Concealed supply storage", notes: "ChooChoo drawer model, Marbrasse" },
+                    { type: "LED + outlet hutch", bestFor: "Charging and ambient lighting in one", notes: "HOOBRO bookcase with LED and USB ports" },
+                    { type: "Tall 7-shelf hutch", bestFor: "Maximum book and binder storage", notes: "ChooChoo 7-shelf model" },
+                  ].map((row, i) => (
+                    <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
+                      <td className="px-4 py-3 font-medium text-ink text-xs">{row.type}</td>
+                      <td className="px-4 py-3 text-ink-secondary text-xs">{row.bestFor}</td>
+                      <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{row.notes}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
-          </section>
-        )}
-
-        {howToChoose.length > 0 && (
-          <section className="mb-14">
-            <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">How to Choose the Right Desk Hutches for Dorm Rooms (2026)</h2>
-            <div className="space-y-8">
-              {howToChoose.map((sub, i) => (
-                <div key={i}>
-                  <h3 className="text-lg font-bold text-ink mb-3">{sub.subheading}</h3>
-                  {sub.intro && (
-                    <p className="text-sm text-ink-secondary leading-relaxed mb-3">{sub.intro}</p>
-                  )}
-                  {sub.table && (
-                    <div className="overflow-x-auto rounded-xl border border-border mb-2">
-                      <table className="w-full text-sm">
-                        <thead>
-                          <tr className="bg-brand text-white">
-                            {sub.table.headers.map((h, hi) => (
-                              <th key={hi} className="text-left px-4 py-3 font-semibold">{h}</th>
-                            ))}
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {sub.table.rows.map((row, ri) => (
-                            <tr key={ri} className={ri % 2 === 0 ? "bg-white" : "bg-bg"}>
-                              {row.map((cell, ci) => (
-                                <td key={ci} className="px-4 py-3 text-ink-secondary text-xs">{cell}</td>
-                              ))}
-                            </tr>
-                          ))}
-                        </tbody>
-                      </table>
-                    </div>
-                  )}
-                  {sub.cards && (
-                    <div className="grid sm:grid-cols-2 gap-3 mb-2">
-                      {sub.cards.map((c, ci) => (
-                        <div key={ci} className="p-4 rounded-xl border border-border bg-bg">
-                          <p className="text-sm font-bold text-ink mb-1">{c.label}</p>
-                          <p className="text-sm text-ink-secondary leading-relaxed">{c.text}</p>
-                        </div>
-                      ))}
-                    </div>
-                  )}
-                  {sub.note && (
-                    <p className="text-xs text-ink-muted leading-relaxed">{sub.note}</p>
-                  )}
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
+          </div>
+        </section>
 
         <section id="faq" className="mb-14 scroll-mt-20">
           <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">Frequently Asked Questions</h2>
@@ -397,22 +407,32 @@ export default async function Page() {
         <section className="mb-14 p-6 rounded-2xl border border-border bg-white">
           <h2 className="text-xl font-bold text-ink mb-5 tracking-tight">Bottom Line</h2>
           <div className="space-y-4">
-            <div className="flex items-start gap-3">
-              <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
-              <p className="text-sm text-ink-secondary">
-                <strong className="text-ink">best overall:</strong>{" "}
-                <a href={`#${products[0]?.id}`} className="font-bold text-ink hover:text-brand transition-colors">{products[0]?.name}</a>
-                {" "}- {products[0]?.badge.toLowerCase()} pick in this roundup.
-              </p>
-            </div>
-            <p className="text-sm text-ink-secondary pl-5">See the full rankings above for all picks with pros, cons, and best-for summaries.</p>
+            {[
+              { context: "Best overall", id: "furinno-classic-dorm", name: "Furinno Classic 5-Shelf 37-inch", verdict: " - 39,764 reviews at 4.2 stars, widest selection, fits most dorm desk widths." },
+              { context: "Best with drawer", id: "choochoo-drawer-dorm", name: "ChooChoo Desktop Bookshelf with Drawer", verdict: " - 564 reviews at 4.6 stars, $59.99, 5 shelves plus 1 drawer." },
+              { context: "Best premium", id: "tangkula-white-dorm", name: "Tangkula Desktop Bookshelf White", verdict: " - 564 reviews at 4.5 stars, $79.99, anti-tip kit included." },
+              { context: "Best LED plus outlets", id: "hoobro-led-dorm", name: "HOOBRO Desktop Bookcase with LED", verdict: " - 193 reviews at 4.6 stars, $49.99, 2 outlets and 2 USB ports built in." },
+              { context: "Best compact 31-inch", id: "snughome-31-rustic", name: "Snughome 31.9-inch Rustic Brown", verdict: " - 122 reviews at 4.7 stars, $42.99, smallest footprint in roundup." },
+              { context: "Best 38-inch rustic", id: "snughome-38-rustic", name: "Snughome 38.6-inch Rustic Brown", verdict: " - 454 reviews at 4.7 stars, $46.99, highest-rated in dorm roundup." },
+              { context: "Best tall 7-shelf", id: "choochoo-7shelf", name: "ChooChoo 7-Shelf 37W White", verdict: " - 129 reviews at 4.4 stars, $56.99, tallest storage option." },
+              { context: "Best black option", id: "marbrasse-drawer-dorm", name: "Marbrasse 4-Tier with Drawer Black", verdict: " - 134 reviews at 4.3 stars, $41.98, black finish for dark dorm setups." },
+            ].map((item, i) => (
+              <div key={i} className="flex items-start gap-3">
+                <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
+                <p className="text-sm text-ink-secondary">
+                  <strong className="text-ink">{item.context}:</strong>{" "}
+                  <a href={`#${item.id}`} className="font-bold text-ink hover:text-brand transition-colors">{item.name}</a>
+                  {item.verdict}
+                </p>
+              </div>
+            ))}
           </div>
         </section>
 
         <section className="mb-14 p-6 rounded-2xl flex flex-col items-center text-center" style={{ background: "linear-gradient(135deg, #FF9900 0%, #e68900 100%)" }}>
-          <h2 className="text-xl font-bold text-white mb-2">Browse on Amazon</h2>
-          <p className="text-white/90 text-sm mb-5">All Prime-eligible options with current pricing.</p>
-          <a href={`https://www.amazon.com/s?k=desk+hutches+for+dorm+rooms&tag=deskfinds0d-20`} target="_blank" rel="noopener noreferrer sponsored" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors" style={{ color: "#FF9900" }}>
+          <h2 className="text-xl font-bold text-white mb-2">Browse dorm desk hutches on Amazon</h2>
+          <p className="text-white/90 text-sm mb-5">Filter by width, finish, and shelf count. All Prime-eligible options.</p>
+          <a href="https://www.amazon.com/s?k=desk+hutch+dorm+room&tag=deskfinds0d-20" target="_blank" rel="noopener noreferrer sponsored" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors" style={{ color: "#FF9900" }}>
             Shop on Amazon &rarr;
           </a>
         </section>
@@ -433,6 +453,7 @@ export default async function Page() {
               </Link>
             ))}
           </div>
+          <p className="text-xs text-ink-muted mt-4 text-center">Last updated: July 2026. Verify current Amazon prices before purchasing.</p>
         </section>
       </Container>
     </>

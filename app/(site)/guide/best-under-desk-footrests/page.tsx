@@ -15,8 +15,6 @@ import {
   faq,
   relatedGuides,
   buyingCriteria,
-  howWeEvaluated,
-  howToChoose,
   type GuideProduct,
 } from "@/data/guides/best-under-desk-footrests";
 
@@ -70,14 +68,19 @@ function ProductSection({ product }: { product: GuideProduct }) {
                 {product.reviews}
               </span>
               {product.specs.map((spec, i) => (
-                <span key={i} className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
+                <span
+                  key={i}
+                  className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium"
+                >
                   {spec}
                 </span>
               ))}
             </div>
             <div>
-              <p className="text-xs font-bold uppercase tracking-widest text-brand mb-1">About this pick</p>
-              {product.description.split("\n\n").map((para, i) => (
+              <p className="text-xs font-bold uppercase tracking-widest text-brand mb-1">
+                About this pick
+              </p>
+              {product.description.split('\n\n').map((para, i) => (
                 <p key={i} className="text-sm text-ink-secondary leading-relaxed">
                   {para}
                 </p>
@@ -130,7 +133,7 @@ function ProductSection({ product }: { product: GuideProduct }) {
   );
 }
 
-export default async function Page() {
+export default async function BestUnderDeskFootrestsPage() {
   const guide = await getPublicGuideBySlug("best-under-desk-footrests");
   const heroImg = guide?.thumbnailImage ?? guide?.heroImage ?? fallbackHeroImage;
 
@@ -144,7 +147,11 @@ export default async function Page() {
     author: { "@type": "Person", name: "Jamie Cole", url: `${SITE_URL}/author/jamie-cole` },
     publisher: { "@type": "Organization", name: "DeskFinds", url: SITE_URL },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/guide/best-under-desk-footrests` },
-    about: [{"@type":"Thing","name":"Best Under-Desk Footrests (2026)"}],
+    about: [
+      { "@type": "Thing", name: "Under-Desk Footrest" },
+      { "@type": "Thing", name: "Ergonomics" },
+      { "@type": "Thing", name: "Seated Posture" },
+    ],
   };
 
   const breadcrumbSchema = {
@@ -153,7 +160,7 @@ export default async function Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Under-Desk Footrests (2026)", item: `${SITE_URL}/guide/best-under-desk-footrests` },
+      { "@type": "ListItem", position: 3, name: "Best Under-Desk Footrests", item: `${SITE_URL}/guide/best-under-desk-footrests` },
     ],
   };
 
@@ -182,7 +189,7 @@ export default async function Page() {
           <span>/</span>
           <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
-          <span className="text-ink">Best Under-Desk Footrests (2026)</span>
+          <span className="text-ink">Best Under-Desk Footrests</span>
         </nav>
 
         <header className="mb-8">
@@ -197,7 +204,7 @@ export default async function Page() {
             {guideTitle}
           </h1>
           <p className="text-lg text-ink-secondary leading-relaxed max-w-3xl">
-            {metaDescription}
+            8 under-desk footrests ranked by Amazon buyer rating and verified review count.
           </p>
           <div className="flex flex-wrap items-center gap-4 mt-5 pt-5 border-t border-border">
             <div className="flex items-center gap-2 text-sm text-ink-secondary">
@@ -212,40 +219,22 @@ export default async function Page() {
               <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
               </svg>
-              {products.length} options evaluated
+              8 under-desk footrests evaluated
             </div>
           </div>
         </header>
 
         <div className="mb-8 p-4 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
-          <strong className="text-ink">Quick note:</strong> We may earn a commission when you buy through Amazon links. This guide is based on product specs, buyer feedback, use cases, and comparison criteria, not paid placement.{" "}
+          <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. As an Amazon Associate, DeskFinds earns from qualifying purchases.{" "}
           <Link href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
         </div>
 
-        <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-white h-56 sm:h-64 md:hidden flex items-center justify-center p-3">
-          <Image src={heroImg} alt="Best Under-Desk Footrests (2026)" width={900} height={420} className="w-full h-full object-contain" priority unoptimized />
-        </div>
-        <div
-          className="hidden md:grid rounded-2xl overflow-hidden border border-border mb-10 gap-px bg-border"
-          style={{ gridTemplateColumns: `repeat(${products.length}, minmax(0,1fr))` }}
-        >
-          {products.map((product, i) => (
-            <div key={product.id} className="h-56 bg-white flex items-center justify-center p-4">
-              <Image
-                src={product.imageUrl}
-                alt={product.name}
-                width={300}
-                height={300}
-                className="w-full h-full object-contain"
-                priority={i === 0}
-                unoptimized
-              />
-            </div>
-          ))}
+        <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-bg">
+          <Image src={heroImg} alt="Best Under-Desk Footrests" width={900} height={420} className="w-full h-auto object-contain" priority unoptimized />
         </div>
 
         <section className="mb-10">
-          <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">Comparison Table</h2>
+          <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">Quick Picks</h2>
           <div className="overflow-x-auto rounded-xl border border-border">
             <table className="w-full text-sm">
               <thead>
@@ -254,6 +243,7 @@ export default async function Page() {
                   <th className="text-left px-4 py-3 font-semibold">Product</th>
                   <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Price</th>
                   <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Rating</th>
+                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Reviews</th>
                   <th className="px-4 py-3"></th>
                 </tr>
               </thead>
@@ -266,6 +256,7 @@ export default async function Page() {
                     <td className="px-4 py-3 font-semibold text-ink text-xs">{product.name}</td>
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{product.price}</td>
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{product.rating}</td>
+                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{product.reviews}</td>
                     <td className="px-4 py-3">
                       <a href={product.amazonUrl} target="_blank" rel="noopener noreferrer sponsored" className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>
                         Check price
@@ -276,27 +267,29 @@ export default async function Page() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-ink-muted mt-2">Prices are approximate. Check Amazon for current pricing before purchasing.</p>
         </section>
 
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
-          <p>This guide covers the top picks for 8 best under-desk footrests (2026), ranked by real product specs, weight capacity, and buyer feedback.</p>
+          <p>An under-desk footrest addresses one of the most common seated ergonomics problems: feet that do not rest flat on the floor. When the feet dangle, the thigh pressure on the seat edge cuts off circulation and adds tension to the lower back. A footrest restores the natural foot-to-floor angle without lowering the desk or chair.</p>
+          <p>This guide covers eight under-desk footrests ranked by Amazon buyer rating and verified review count, including memory foam, rocker, wood, and mesh options that cover the main footrest types at different price points.</p>
+          <p>For footrests specifically suited to shorter users, see our <Link href='/guide/best-under-desk-footrests-for-short-people' className='text-brand hover:underline'>best under-desk footrests for short people</Link> guide.</p>
         </section>
 
         {buyingCriteria.length > 0 && (
           <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
-            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">{buyingCriteria.length} Criteria to Look For Before Buying a Under-Desk Footrests (2026)</h2>
+            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">How to Choose the Right One</h2>
             <p className="text-sm text-ink-muted mb-5">Key buying criteria so you get the right fit the first time.</p>
-            <div className="grid sm:grid-cols-2 gap-4">
+            <div className="divide-y divide-border">
               {buyingCriteria.map((item, i) => (
-                <div key={i} className="p-4 rounded-xl border border-border bg-bg">
-                  <p className="text-sm font-bold text-ink mb-1.5">{item.criterion}</p>
+                <div key={i} className="py-4 first:pt-0 last:pb-0">
+                  <p className="text-sm font-bold text-ink mb-1">{item.criterion}</p>
                   <p className="text-sm text-ink-secondary leading-relaxed">{item.explanation}</p>
                 </div>
               ))}
             </div>
           </section>
         )}
+
 
         <nav className="mb-12 p-4 rounded-xl bg-bg border border-border">
           <p className="text-xs font-bold uppercase tracking-widest text-ink-muted mb-3">Jump to pick</p>
@@ -315,72 +308,6 @@ export default async function Page() {
         {products.map((product) => (
           <ProductSection key={product.id} product={product} />
         ))}
-
-        {howWeEvaluated.length > 0 && (
-          <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
-            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">How We Evaluated These Under-Desk Footrests (2026)</h2>
-            <p className="text-sm text-ink-muted mb-5">Each pick was assessed across {howWeEvaluated.length} criteria weighted for real-world use.</p>
-            <div className="grid sm:grid-cols-2 gap-4">
-              {howWeEvaluated.map((item, i) => (
-                <div key={i} className="p-4 rounded-xl border border-border bg-bg">
-                  <p className="text-sm font-bold text-ink mb-1.5">{item.title}</p>
-                  <p className="text-sm text-ink-secondary leading-relaxed">{item.description}</p>
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
-
-        {howToChoose.length > 0 && (
-          <section className="mb-14">
-            <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">How to Choose the Right Under-Desk Footrests (2026)</h2>
-            <div className="space-y-8">
-              {howToChoose.map((sub, i) => (
-                <div key={i}>
-                  <h3 className="text-lg font-bold text-ink mb-3">{sub.subheading}</h3>
-                  {sub.intro && (
-                    <p className="text-sm text-ink-secondary leading-relaxed mb-3">{sub.intro}</p>
-                  )}
-                  {sub.table && (
-                    <div className="overflow-x-auto rounded-xl border border-border mb-2">
-                      <table className="w-full text-sm">
-                        <thead>
-                          <tr className="bg-brand text-white">
-                            {sub.table.headers.map((h, hi) => (
-                              <th key={hi} className="text-left px-4 py-3 font-semibold">{h}</th>
-                            ))}
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {sub.table.rows.map((row, ri) => (
-                            <tr key={ri} className={ri % 2 === 0 ? "bg-white" : "bg-bg"}>
-                              {row.map((cell, ci) => (
-                                <td key={ci} className="px-4 py-3 text-ink-secondary text-xs">{cell}</td>
-                              ))}
-                            </tr>
-                          ))}
-                        </tbody>
-                      </table>
-                    </div>
-                  )}
-                  {sub.cards && (
-                    <div className="grid sm:grid-cols-2 gap-3 mb-2">
-                      {sub.cards.map((c, ci) => (
-                        <div key={ci} className="p-4 rounded-xl border border-border bg-bg">
-                          <p className="text-sm font-bold text-ink mb-1">{c.label}</p>
-                          <p className="text-sm text-ink-secondary leading-relaxed">{c.text}</p>
-                        </div>
-                      ))}
-                    </div>
-                  )}
-                  {sub.note && (
-                    <p className="text-xs text-ink-muted leading-relaxed">{sub.note}</p>
-                  )}
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
 
         <section id="faq" className="mb-14 scroll-mt-20">
           <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">Frequently Asked Questions</h2>
@@ -401,18 +328,18 @@ export default async function Page() {
               <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
               <p className="text-sm text-ink-secondary">
                 <strong className="text-ink">best overall:</strong>{" "}
-                <a href={`#${products[0]?.id}`} className="font-bold text-ink hover:text-brand transition-colors">{products[0]?.name}</a>
-                {" "}- {products[0]?.badge.toLowerCase()} pick in this roundup.
+                <a href="#everlasting-comfort" className="font-bold text-ink hover:text-brand transition-colors">Everlasting Comfort Foot Rest Cushion</a>
+                 - 22,247 reviews at 4.5 stars, most reviewed under-desk footrest in the category.
               </p>
             </div>
-            <p className="text-sm text-ink-secondary pl-5">See the full rankings above for all picks with pros, cons, and best-for summaries.</p>
+            <p className="text-sm text-ink-secondary pl-5">See the full rankings above for all eight picks with pros, cons, and best-for summaries.</p>
           </div>
         </section>
 
         <section className="mb-14 p-6 rounded-2xl flex flex-col items-center text-center" style={{ background: "linear-gradient(135deg, #FF9900 0%, #e68900 100%)" }}>
           <h2 className="text-xl font-bold text-white mb-2">Browse on Amazon</h2>
           <p className="text-white/90 text-sm mb-5">All Prime-eligible options with current pricing.</p>
-          <a href={`https://www.amazon.com/s?k=under+desk+footrests&tag=deskfinds0d-20`} target="_blank" rel="noopener noreferrer sponsored" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors" style={{ color: "#FF9900" }}>
+          <a href="https://www.amazon.com/s?k=under+desk+footrest&tag=deskfinds0d-20" target="_blank" rel="noopener noreferrer sponsored" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors" style={{ color: "#FF9900" }}>
             Shop on Amazon &rarr;
           </a>
         </section>
@@ -433,6 +360,7 @@ export default async function Page() {
               </Link>
             ))}
           </div>
+          <p className="text-xs text-ink-muted mt-4 text-center">Last updated: July 2026. Verify current Amazon prices before purchasing.</p>
         </section>
       </Container>
     </>

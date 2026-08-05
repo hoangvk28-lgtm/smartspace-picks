@@ -14,9 +14,6 @@ import {
   products,
   faq,
   relatedGuides,
-  buyingCriteria,
-  howWeEvaluated,
-  howToChoose,
   type GuideProduct,
 } from "@/data/guides/best-clamp-on-desk-drawers";
 
@@ -70,14 +67,19 @@ function ProductSection({ product }: { product: GuideProduct }) {
                 {product.reviews}
               </span>
               {product.specs.map((spec, i) => (
-                <span key={i} className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
+                <span
+                  key={i}
+                  className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium"
+                >
                   {spec}
                 </span>
               ))}
             </div>
             <div>
-              <p className="text-xs font-bold uppercase tracking-widest text-brand mb-1">About this pick</p>
-              {product.description.split("\n\n").map((para, i) => (
+              <p className="text-xs font-bold uppercase tracking-widest text-brand mb-1">
+                About this pick
+              </p>
+              {product.description.split('\n\n').map((para, i) => (
                 <p key={i} className="text-sm text-ink-secondary leading-relaxed">
                   {para}
                 </p>
@@ -94,7 +96,11 @@ function ProductSection({ product }: { product: GuideProduct }) {
               className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90 transition-opacity w-fit mt-auto"
               style={{ background: "#FF9900" }}
             >
-              <svg className="w-3.5 h-3.5 shrink-0" viewBox="0 0 24 24" fill="currentColor">
+              <svg
+                className="w-3.5 h-3.5 shrink-0"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
                 <path d="M12.26 18.36C9.18 20.34 4.76 21.38 1 20.16c-.38-.13-.33-.44.08-.35 3.47.67 7.77-.07 10.6-1.82.47-.27.87.17.58.37zm1.06-1.17c-.43-.56-2.85-.27-3.94-.13-.33.04-.38-.25-.08-.46 1.93-1.36 5.1-.97 5.47-.51.37.46-.1 3.63-1.91 5.14-.28.23-.54.11-.42-.2.41-.98 1.32-3.28.88-3.84z" />
               </svg>
               Check price on Amazon
@@ -103,22 +109,30 @@ function ProductSection({ product }: { product: GuideProduct }) {
         </div>
         <div className="border-t border-border grid sm:grid-cols-2 divide-y sm:divide-y-0 sm:divide-x divide-border">
           <div className="p-4">
-            <p className="text-[10px] font-bold uppercase tracking-widest text-cta mb-3">Pros</p>
+            <p className="text-[10px] font-bold uppercase tracking-widest text-cta mb-3">
+              Pros
+            </p>
             <ul className="space-y-1.5">
               {product.pros.map((pro, i) => (
                 <li key={i} className="flex items-start gap-1.5 text-xs text-ink">
-                  <span className="mt-0.5 w-3.5 h-3.5 rounded-full bg-cta-light text-cta flex items-center justify-center shrink-0 font-bold text-[9px]">+</span>
+                  <span className="mt-0.5 w-3.5 h-3.5 rounded-full bg-cta-light text-cta flex items-center justify-center shrink-0 font-bold text-[9px]">
+                    +
+                  </span>
                   {pro}
                 </li>
               ))}
             </ul>
           </div>
           <div className="p-4">
-            <p className="text-[10px] font-bold uppercase tracking-widest text-accent-dark mb-3">Cons</p>
+            <p className="text-[10px] font-bold uppercase tracking-widest text-accent-dark mb-3">
+              Cons
+            </p>
             <ul className="space-y-1.5">
               {product.cons.map((con, i) => (
                 <li key={i} className="flex items-start gap-1.5 text-xs text-ink">
-                  <span className="mt-0.5 w-3.5 h-3.5 rounded-full bg-yellow-100 text-yellow-600 flex items-center justify-center shrink-0 font-bold text-[9px]">&minus;</span>
+                  <span className="mt-0.5 w-3.5 h-3.5 rounded-full bg-yellow-100 text-yellow-600 flex items-center justify-center shrink-0 font-bold text-[9px]">
+                    &minus;
+                  </span>
                   {con}
                 </li>
               ))}
@@ -130,9 +144,10 @@ function ProductSection({ product }: { product: GuideProduct }) {
   );
 }
 
-export default async function Page() {
+export default async function BestClampOnDeskDrawersPage() {
   const guide = await getPublicGuideBySlug("best-clamp-on-desk-drawers");
-  const heroImg = guide?.thumbnailImage ?? guide?.heroImage ?? fallbackHeroImage;
+  const heroImg =
+    guide?.thumbnailImage ?? guide?.heroImage ?? fallbackHeroImage;
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -141,10 +156,25 @@ export default async function Page() {
     description: metaDescription,
     datePublished: lastUpdated,
     dateModified: lastUpdated,
-    author: { "@type": "Person", name: "Jamie Cole", url: `${SITE_URL}/author/jamie-cole` },
-    publisher: { "@type": "Organization", name: "DeskFinds", url: SITE_URL },
-    mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/guide/best-clamp-on-desk-drawers` },
-    about: [{"@type":"Thing","name":"Best Clamp-On Desk Drawers (2026)"}],
+    author: {
+      "@type": "Person",
+      name: "Jamie Cole",
+      url: `${SITE_URL}/author/jamie-cole`,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "DeskFinds",
+      url: SITE_URL,
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `${SITE_URL}/guide/best-clamp-on-desk-drawers`,
+    },
+    about: [
+      { "@type": "Thing", name: "Desk Drawer" },
+      { "@type": "Thing", name: "Home Office Organization" },
+      { "@type": "Thing", name: "Under Desk Storage" },
+    ],
   };
 
   const breadcrumbSchema = {
@@ -152,8 +182,18 @@ export default async function Page() {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Clamp-On Desk Drawers (2026)", item: `${SITE_URL}/guide/best-clamp-on-desk-drawers` },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Buying Guides",
+        item: `${SITE_URL}/guide`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: "Best Clamp-On Desk Drawers",
+        item: `${SITE_URL}/guide/best-clamp-on-desk-drawers`,
+      },
     ],
   };
 
@@ -173,21 +213,38 @@ export default async function Page() {
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
       <Container className="py-12 max-w-4xl">
+        {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">Home</Link>
+          <Link href="/" className="hover:text-brand transition-colors">
+            Home
+          </Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
+          <Link href="/guide" className="hover:text-brand transition-colors">
+            Buying Guides
+          </Link>
           <span>/</span>
-          <span className="text-ink">Best Clamp-On Desk Drawers (2026)</span>
+          <span className="text-ink">Best Clamp-On Desk Drawers</span>
         </nav>
 
+        {/* Header */}
         <header className="mb-8">
           <div className="flex items-center gap-2 mb-3">
-            <span className="text-xs font-bold uppercase tracking-widest text-brand">Buying Guide</span>
+            <span className="text-xs font-bold uppercase tracking-widest text-brand">
+              Buying Guide
+            </span>
             <span className="text-ink-muted">&middot;</span>
             <span className="text-xs text-ink-muted">{readTime} read</span>
             <span className="text-ink-muted">&middot;</span>
@@ -197,63 +254,94 @@ export default async function Page() {
             {guideTitle}
           </h1>
           <p className="text-lg text-ink-secondary leading-relaxed max-w-3xl">
-            {metaDescription}
+            Eight clamp-on desk drawers ranked by review count and rating.
+            Covers keyboard tray combos, pure storage drawers, swivel options,
+            and sit-stand compatible picks. All mount without drilling using a
+            C-clamp mechanism.
           </p>
           <div className="flex flex-wrap items-center gap-4 mt-5 pt-5 border-t border-border">
             <div className="flex items-center gap-2 text-sm text-ink-secondary">
               <div className="w-7 h-7 rounded-full bg-brand-muted flex items-center justify-center">
-                <svg className="w-4 h-4 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                <svg
+                  className="w-4 h-4 text-brand"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
+                  />
                 </svg>
               </div>
               <span>Jamie Cole, Lead Product Researcher</span>
             </div>
             <div className="flex items-center gap-1.5 text-xs text-ink-muted">
-              <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              <svg
+                className="w-3.5 h-3.5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                />
               </svg>
-              {products.length} options evaluated
+              8 clamp-on desk drawers evaluated
             </div>
           </div>
         </header>
 
+        {/* Affiliate disclosure */}
         <div className="mb-8 p-4 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
-          <strong className="text-ink">Quick note:</strong> We may earn a commission when you buy through Amazon links. This guide is based on product specs, buyer feedback, use cases, and comparison criteria, not paid placement.{" "}
-          <Link href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
+          <strong className="text-ink">Quick note:</strong> This page contains
+          affiliate links. If you buy through our links, we may earn a small
+          commission at no extra cost to you. As an Amazon Associate, DeskFinds
+          earns from qualifying purchases.{" "}
+          <Link href="/affiliate-disclosure" className="text-brand hover:underline">
+            Affiliate disclosure
+          </Link>
+          .
         </div>
 
-        <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-white h-56 sm:h-64 md:hidden flex items-center justify-center p-3">
-          <Image src={heroImg} alt="Best Clamp-On Desk Drawers (2026)" width={900} height={420} className="w-full h-full object-contain" priority unoptimized />
-        </div>
-        <div
-          className="hidden md:grid rounded-2xl overflow-hidden border border-border mb-10 gap-px bg-border"
-          style={{ gridTemplateColumns: `repeat(${products.length}, minmax(0,1fr))` }}
-        >
-          {products.map((product, i) => (
-            <div key={product.id} className="h-56 bg-white flex items-center justify-center p-4">
-              <Image
-                src={product.imageUrl}
-                alt={product.name}
-                width={300}
-                height={300}
-                className="w-full h-full object-contain"
-                priority={i === 0}
-                unoptimized
-              />
-            </div>
-          ))}
+        {/* Hero image */}
+        <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-bg">
+          <Image
+            src={heroImg}
+            alt="Best clamp-on desk drawers for home offices"
+            width={900}
+            height={420}
+            className="w-full h-auto object-contain"
+            priority
+            unoptimized
+          />
         </div>
 
+        {/* Quick Picks table */}
         <section className="mb-10">
-          <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">Comparison Table</h2>
+          <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">
+            Quick Picks
+          </h2>
           <div className="overflow-x-auto rounded-xl border border-border">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-brand text-white">
                   <th className="text-left px-4 py-3 font-semibold">Pick</th>
                   <th className="text-left px-4 py-3 font-semibold">Product</th>
-                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Price</th>
-                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Rating</th>
+                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">
+                    Price
+                  </th>
+                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">
+                    Rating
+                  </th>
+                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">
+                    Reviews
+                  </th>
                   <th className="px-4 py-3"></th>
                 </tr>
               </thead>
@@ -261,13 +349,33 @@ export default async function Page() {
                 {products.map((product, i) => (
                   <tr key={product.id} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                     <td className="px-4 py-3">
-                      <a href={`#${product.id}`} className="text-xs font-bold text-brand hover:underline">{product.badge}</a>
+                      <a
+                        href={`#${product.id}`}
+                        className="text-xs font-bold text-brand hover:underline"
+                      >
+                        {product.badge}
+                      </a>
                     </td>
-                    <td className="px-4 py-3 font-semibold text-ink text-xs">{product.name}</td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{product.price}</td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{product.rating}</td>
+                    <td className="px-4 py-3 font-semibold text-ink text-xs">
+                      {product.name}
+                    </td>
+                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">
+                      {product.price}
+                    </td>
+                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">
+                      {product.rating}
+                    </td>
+                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">
+                      {product.reviews}
+                    </td>
                     <td className="px-4 py-3">
-                      <a href={product.amazonUrl} target="_blank" rel="noopener noreferrer sponsored" className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>
+                      <a
+                        href={product.amazonUrl}
+                        target="_blank"
+                        rel="noopener noreferrer sponsored"
+                        className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block"
+                        style={{ background: "#FF9900" }}
+                      >
                         Check price
                       </a>
                     </td>
@@ -276,163 +384,337 @@ export default async function Page() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-ink-muted mt-2">Prices are approximate. Check Amazon for current pricing before purchasing.</p>
         </section>
 
+        {/* Intro */}
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
-          <p>This guide covers the top picks for 8 best clamp-on desk drawers (2026), ranked by real product specs, weight capacity, and buyer feedback.</p>
+          <p>
+            If your desk has no built-in drawers and you do not want to drill
+            holes or commit to permanent adhesive, a clamp-on drawer is the
+            practical middle ground. It grips the desk edge with a C-clamp
+            mechanism, requiring no tools beyond tightening a knob. The drawer
+            installs in minutes and comes off the same way, which makes it
+            suitable for renters, people who move their setup frequently, or
+            anyone who wants to try under-desk storage without a permanent
+            commitment.
+          </p>
+          <p>
+            Two things trip up buyers in this category. First, desk thickness
+            compatibility: most clamp-on products fit desks between 0.75 and 2
+            inches thick, but thick frames, beveled edges, or unusual desk
+            profiles can fall outside that range. Measure your desk edge before
+            buying. Second, the distinction between a keyboard tray with a small
+            pencil drawer and a dedicated storage drawer is easy to miss in
+            listings: two products in this guide are primarily keyboard trays
+            while the rest are storage-first. If keyboard repositioning is not
+            your goal, those are not the right picks.
+          </p>
+          <p>
+            This guide covers keyboard tray combos, pure storage drawers, and
+            swivel options for corner desks. For adhesive and bracket-mount
+            alternatives, see our{" "}
+            <Link
+              href="/guide/best-under-desk-storage-drawers"
+              className="text-brand hover:underline"
+            >
+              best under desk storage drawers
+            </Link>{" "}
+            guide.
+          </p>
         </section>
 
-        {buyingCriteria.length > 0 && (
-          <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
-            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">{buyingCriteria.length} Criteria to Look For Before Buying a Clamp-On Desk Drawers (2026)</h2>
-            <p className="text-sm text-ink-muted mb-5">Key buying criteria so you get the right fit the first time.</p>
-            <div className="grid sm:grid-cols-2 gap-4">
-              {buyingCriteria.map((item, i) => (
-                <div key={i} className="p-4 rounded-xl border border-border bg-bg">
-                  <p className="text-sm font-bold text-ink mb-1.5">{item.criterion}</p>
-                  <p className="text-sm text-ink-secondary leading-relaxed">{item.explanation}</p>
-                </div>
-              ))}
+        {/* What to Know section */}
+        <section className="mb-10">
+          <h2 className="text-2xl font-bold text-ink mb-5 tracking-tight">
+            What to Know Before Buying
+          </h2>
+          <div className="space-y-6">
+            <div className="p-4 rounded-xl border border-border bg-white">
+              <h3 className="text-base font-bold text-ink mb-2">
+                Keyboard Tray vs Pure Storage Drawer
+              </h3>
+              <p className="text-sm text-ink-secondary leading-relaxed">
+                Two products in this roundup (VIVO and BONTEC) are primarily
+                keyboard trays that also include a small pencil drawer. The
+                other six are pure storage drawers designed for concealed item
+                storage. Choose based on whether ergonomic keyboard
+                repositioning is the priority or storage is.
+              </p>
             </div>
-          </section>
-        )}
+            <div className="p-4 rounded-xl border border-border bg-white">
+              <h3 className="text-base font-bold text-ink mb-2">
+                Sit-Stand Desk Compatibility
+              </h3>
+              <p className="text-sm text-ink-secondary leading-relaxed">
+                Standard clamp-on drawers may shift or loosen through repeated
+                height adjustment cycles. The VIVO 22-inch and VIVO keyboard
+                tray are the only products in this roundup explicitly rated for
+                sit-stand desks. If you have a height-adjustable desk, check
+                for this specification before purchasing.
+              </p>
+            </div>
+            <div className="p-4 rounded-xl border border-border bg-white">
+              <h3 className="text-base font-bold text-ink mb-2">
+                Verifying Desk Thickness Compatibility
+              </h3>
+              <p className="text-sm text-ink-secondary leading-relaxed">
+                Most clamp-on products fit desks 0.75 to 2 inches thick.
+                Measure your desk thickness before purchasing. Desks with
+                beveled edges, thick frames, or unusual profiles may fall
+                outside the clamp range. Check the product specification for
+                the exact clamp range measurement.
+              </p>
+            </div>
+          </div>
+        </section>
 
+        {/* Jump nav */}
         <nav className="mb-12 p-4 rounded-xl bg-bg border border-border">
-          <p className="text-xs font-bold uppercase tracking-widest text-ink-muted mb-3">Jump to pick</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-ink-muted mb-3">
+            Jump to pick
+          </p>
           <div className="flex flex-wrap gap-2">
             {products.map((p) => (
-              <a key={p.id} href={`#${p.id}`} className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors">
+              <a
+                key={p.id}
+                href={`#${p.id}`}
+                className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors"
+              >
                 #{p.rank} {p.badge}
               </a>
             ))}
-            <a href="#faq" className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors">FAQ</a>
+            <a
+              href="#buying-guide"
+              className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors"
+            >
+              Buying Guide
+            </a>
+            <a
+              href="#faq"
+              className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors"
+            >
+              FAQ
+            </a>
           </div>
         </nav>
 
-        <h2 className="text-2xl font-bold text-ink mb-8 tracking-tight">{guideTitle}</h2>
+        <h2 className="text-2xl font-bold text-ink mb-8 tracking-tight">
+          8 Best Clamp-On Desk Drawers
+        </h2>
 
         {products.map((product) => (
           <ProductSection key={product.id} product={product} />
         ))}
 
-        {howWeEvaluated.length > 0 && (
-          <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
-            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">How We Evaluated These Clamp-On Desk Drawers (2026)</h2>
-            <p className="text-sm text-ink-muted mb-5">Each pick was assessed across {howWeEvaluated.length} criteria weighted for real-world use.</p>
-            <div className="grid sm:grid-cols-2 gap-4">
-              {howWeEvaluated.map((item, i) => (
-                <div key={i} className="p-4 rounded-xl border border-border bg-bg">
-                  <p className="text-sm font-bold text-ink mb-1.5">{item.title}</p>
-                  <p className="text-sm text-ink-secondary leading-relaxed">{item.description}</p>
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
+        {/* Buying Guide */}
+        <section className="mb-12 scroll-mt-20" id="buying-guide">
+          <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">
+            How to Choose a Clamp-On Desk Drawer
+          </h2>
 
-        {howToChoose.length > 0 && (
-          <section className="mb-14">
-            <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">How to Choose the Right Clamp-On Desk Drawers (2026)</h2>
-            <div className="space-y-8">
-              {howToChoose.map((sub, i) => (
-                <div key={i}>
-                  <h3 className="text-lg font-bold text-ink mb-3">{sub.subheading}</h3>
-                  {sub.intro && (
-                    <p className="text-sm text-ink-secondary leading-relaxed mb-3">{sub.intro}</p>
-                  )}
-                  {sub.table && (
-                    <div className="overflow-x-auto rounded-xl border border-border mb-2">
-                      <table className="w-full text-sm">
-                        <thead>
-                          <tr className="bg-brand text-white">
-                            {sub.table.headers.map((h, hi) => (
-                              <th key={hi} className="text-left px-4 py-3 font-semibold">{h}</th>
-                            ))}
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {sub.table.rows.map((row, ri) => (
-                            <tr key={ri} className={ri % 2 === 0 ? "bg-white" : "bg-bg"}>
-                              {row.map((cell, ci) => (
-                                <td key={ci} className="px-4 py-3 text-ink-secondary text-xs">{cell}</td>
-                              ))}
-                            </tr>
-                          ))}
-                        </tbody>
-                      </table>
-                    </div>
-                  )}
-                  {sub.cards && (
-                    <div className="grid sm:grid-cols-2 gap-3 mb-2">
-                      {sub.cards.map((c, ci) => (
-                        <div key={ci} className="p-4 rounded-xl border border-border bg-bg">
-                          <p className="text-sm font-bold text-ink mb-1">{c.label}</p>
-                          <p className="text-sm text-ink-secondary leading-relaxed">{c.text}</p>
-                        </div>
-                      ))}
-                    </div>
-                  )}
-                  {sub.note && (
-                    <p className="text-xs text-ink-muted leading-relaxed">{sub.note}</p>
-                  )}
-                </div>
-              ))}
+          <div className="mb-8">
+            <h3 className="text-lg font-bold text-ink mb-3">
+              Format Comparison
+            </h3>
+            <div className="overflow-x-auto rounded-xl border border-border">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="bg-brand text-white">
+                    <th className="text-left px-4 py-3 font-semibold">Format</th>
+                    <th className="text-left px-4 py-3 font-semibold">Best For</th>
+                    <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">
+                      Notes
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    {
+                      format: "Keyboard tray combo",
+                      bestFor: "Ergonomic keyboard positioning plus storage",
+                      notes: "VIVO and BONTEC, tray is primary, drawer is secondary",
+                    },
+                    {
+                      format: "Pure storage drawer",
+                      bestFor: "Concealed item storage, no keyboard",
+                      notes: "Homeify, Euyona, INLDY, RHBLME options",
+                    },
+                    {
+                      format: "Swivel drawer",
+                      bestFor: "Corner desks, angled sitting positions",
+                      notes: "Euyona 4.6 stars best validated swivel",
+                    },
+                  ].map((row, i) => (
+                    <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
+                      <td className="px-4 py-3 font-medium text-ink text-xs">
+                        {row.format}
+                      </td>
+                      <td className="px-4 py-3 text-ink-secondary text-xs">
+                        {row.bestFor}
+                      </td>
+                      <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">
+                        {row.notes}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
-          </section>
-        )}
+          </div>
+        </section>
 
+        {/* FAQ */}
         <section id="faq" className="mb-14 scroll-mt-20">
-          <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">Frequently Asked Questions</h2>
+          <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">
+            Frequently Asked Questions
+          </h2>
           <div className="space-y-4">
             {faq.map((item, i) => (
               <div key={i} className="p-5 rounded-xl border border-border bg-white">
                 <p className="font-bold text-ink text-sm mb-2">{item.q}</p>
-                <p className="text-sm text-ink-secondary leading-relaxed">{item.a}</p>
+                <p className="text-sm text-ink-secondary leading-relaxed">
+                  {item.a}
+                </p>
               </div>
             ))}
           </div>
         </section>
 
+        {/* Bottom Line */}
         <section className="mb-14 p-6 rounded-2xl border border-border bg-white">
-          <h2 className="text-xl font-bold text-ink mb-5 tracking-tight">Bottom Line</h2>
+          <h2 className="text-xl font-bold text-ink mb-5 tracking-tight">
+            Bottom Line
+          </h2>
           <div className="space-y-4">
-            <div className="flex items-start gap-3">
-              <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
-              <p className="text-sm text-ink-secondary">
-                <strong className="text-ink">best overall:</strong>{" "}
-                <a href={`#${products[0]?.id}`} className="font-bold text-ink hover:text-brand transition-colors">{products[0]?.name}</a>
-                {" "}- {products[0]?.badge.toLowerCase()} pick in this roundup.
-              </p>
-            </div>
-            <p className="text-sm text-ink-secondary pl-5">See the full rankings above for all picks with pros, cons, and best-for summaries.</p>
+            {[
+              {
+                context: "Best overall by reviews",
+                id: "vivo-keyboard-tray-drawer",
+                name: "VIVO Keyboard Tray",
+                verdict: " - 13,973 reviews at 4.4 stars, ergonomic tray plus pencil drawer.",
+              },
+              {
+                context: "Best for smaller desks",
+                id: "bontec-keyboard-tray",
+                name: "BONTEC KMT01",
+                verdict: " - 5,492 reviews at 4.4 stars, 25.6-inch width.",
+              },
+              {
+                context: "Best pure clamp drawer by reviews",
+                id: "homeify-2-drawer-clamp",
+                name: "Homeify 2-Drawer",
+                verdict: " - 889 reviews at 4.2 stars, 2 drawers, renter-friendly.",
+              },
+              {
+                context: "Best swivel drawer",
+                id: "euyona-360-swivel",
+                name: "Euyona 360-Degree",
+                verdict: " - 446 reviews at 4.6 stars, rotating for corner desks.",
+              },
+              {
+                context: "Corner system (low rating, verify first)",
+                id: "vivo-corner-system",
+                name: "VIVO Corner System",
+                verdict: " - 3.9 stars from 108 reviews, verify before purchasing.",
+              },
+              {
+                context: "Best for sit-stand desks",
+                id: "vivo-22-sit-stand",
+                name: "VIVO 22 inch Sit-Stand",
+                verdict: " - 63 reviews at 4.4 stars, only sit-stand rated pure drawer.",
+              },
+              {
+                context: "Best budget adjustable clamp",
+                id: "inldy-adjustable-clamp",
+                name: "INLDY Adjustable",
+                verdict: " - 66 reviews at 4.4 stars, lowest price at $24.99.",
+              },
+              {
+                context: "Budget swivel alternative",
+                id: "rhblme-360-swivel",
+                name: "RHBLME 360-Degree",
+                verdict: " - 54 reviews at 4.2 stars, insufficient sample for confident buy.",
+              },
+            ].map((item, i) => (
+              <div key={i} className="flex items-start gap-3">
+                <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
+                <p className="text-sm text-ink-secondary">
+                  <strong className="text-ink">{item.context}:</strong>{" "}
+                  <a
+                    href={`#${item.id}`}
+                    className="font-bold text-ink hover:text-brand transition-colors"
+                  >
+                    {item.name}
+                  </a>
+                  {item.verdict}
+                </p>
+              </div>
+            ))}
           </div>
         </section>
 
-        <section className="mb-14 p-6 rounded-2xl flex flex-col items-center text-center" style={{ background: "linear-gradient(135deg, #FF9900 0%, #e68900 100%)" }}>
-          <h2 className="text-xl font-bold text-white mb-2">Browse on Amazon</h2>
-          <p className="text-white/90 text-sm mb-5">All Prime-eligible options with current pricing.</p>
-          <a href={`https://www.amazon.com/s?k=clamp+on+desk+drawers&tag=deskfinds0d-20`} target="_blank" rel="noopener noreferrer sponsored" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors" style={{ color: "#FF9900" }}>
+        {/* CTA */}
+        <section
+          className="mb-14 p-6 rounded-2xl flex flex-col items-center text-center"
+          style={{ background: "linear-gradient(135deg, #FF9900 0%, #e68900 100%)" }}
+        >
+          <h2 className="text-xl font-bold text-white mb-2">
+            Browse clamp-on desk drawers on Amazon
+          </h2>
+          <p className="text-white/90 text-sm mb-5">
+            No-drill options for renters and sit-stand compatible options
+            available.
+          </p>
+          <a
+            href="https://www.amazon.com/s?k=clamp+on+desk+drawer+no+drill&tag=deskfinds0d-20"
+            target="_blank"
+            rel="noopener noreferrer sponsored"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors"
+            style={{ color: "#FF9900" }}
+          >
             Shop on Amazon &rarr;
           </a>
         </section>
 
+        {/* Related guides */}
         <section>
-          <h2 className="text-xl font-bold text-ink mb-4 tracking-tight">Related Guides</h2>
+          <h2 className="text-xl font-bold text-ink mb-4 tracking-tight">
+            Related Guides
+          </h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {relatedGuides.map((g) => (
-              <Link key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
+              <Link
+                key={g.href}
+                href={g.href}
+                className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group"
+              >
                 <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">
-                  <svg className="w-4 h-4 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+                  <svg
+                    className="w-4 h-4 text-brand"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"
+                    />
                   </svg>
                 </div>
                 <div>
-                  <p className="font-bold text-ink text-sm group-hover:text-brand transition-colors">{g.title}</p>
+                  <p className="font-bold text-ink text-sm group-hover:text-brand transition-colors">
+                    {g.title}
+                  </p>
                 </div>
               </Link>
             ))}
           </div>
+          <p className="text-xs text-ink-muted mt-4 text-center">
+            Last updated: July 2026. Verify current Amazon prices before
+            purchasing.
+          </p>
         </section>
       </Container>
     </>

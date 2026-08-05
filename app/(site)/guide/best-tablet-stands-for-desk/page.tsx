@@ -1,439 +1,374 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 import { Container } from "@/components/layout/Container";
+import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
+import { AffiliateDisclosureBar } from "@/components/affiliate/AffiliateDisclosureBar";
+import { ProductReviewCard } from "@/components/product/ProductReviewCard";
+import { AtAGlance } from "@/components/product/AtAGlance";
 import { buildMetadata, SITE_URL } from "@/lib/seo";
+import { formatDate } from "@/lib/utils";
 import { getPublicGuideBySlug } from "@/lib/public-guides";
 import {
+  products,
+  atAGlanceItems,
+  faq,
   guideTitle,
-  metaTitle,
-  metaDescription,
+  guideDescription,
   lastUpdated,
   readTime,
   heroImage as fallbackHeroImage,
-  products,
-  faq,
-  relatedGuides,
-  buyingCriteria,
-  howWeEvaluated,
-  howToChoose,
-  type GuideProduct,
+  mainKeyword,
 } from "@/data/guides/best-tablet-stands-for-desk";
 
 export const revalidate = 86400;
 
-export const metadata: Metadata = buildMetadata({
-  title: metaTitle,
-  description: metaDescription,
-  path: "/guide/best-tablet-stands-for-desk",
+export const metadata: Metadata = {
+  ...buildMetadata({
+    title: "Best Tablet Stands for Desk (2026)",
+    description:
+      "The best tablet stand for desk use should save space, stay stable when you tap, and fit how you use your tablet — studying, reading, video calls, or second-screen work. Seven picks for small desks and dorm rooms.",
+    path: "/guide/best-tablet-stands-for-desk",
+    image: fallbackHeroImage,
+    type: "article",
+  }),
+  keywords: [
+    mainKeyword,
+    "tablet stand for small desk",
+    "best tablet stand for studying",
+    "tablet stand for video calls",
+    "ipad stand for desk",
+    "compact tablet stand",
+    "portable tablet stand",
+    "adjustable tablet stand desk",
+    "tablet stand dorm room",
+    "foldable tablet stand",
+  ],
+};
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: guideTitle,
+  description: guideDescription,
+  datePublished: lastUpdated,
+  dateModified: lastUpdated,
+  author: { "@type": "Organization", name: "DeskFinds Editorial Team", url: `${SITE_URL}/author/deskfinds-editorial-team` },
+  publisher: { "@type": "Organization", name: "DeskFinds", url: SITE_URL },
+  mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/guide/best-tablet-stands-for-desk` },
   image: fallbackHeroImage,
-  type: "article",
-});
+};
 
-function ProductSection({ product }: { product: GuideProduct }) {
-  return (
-    <section id={product.id} className="mb-14 scroll-mt-20">
-      <div className="flex flex-wrap items-center gap-2 mb-4">
-        <span className="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest text-white bg-brand shrink-0">
-          {product.badge}
-        </span>
-        <h2 className="text-2xl font-bold text-ink tracking-tight min-w-0 break-words">
-          {product.name}
-        </h2>
-      </div>
-      <div className="rounded-2xl border border-border bg-white overflow-hidden shadow-card">
-        <div className="flex flex-col sm:flex-row gap-5 p-5">
-          <a
-            href={product.amazonUrl}
-            target="_blank"
-            rel="noopener noreferrer sponsored"
-            className="shrink-0 flex items-center justify-center w-full sm:w-60 h-52 rounded-xl border border-border bg-gray-50 overflow-hidden hover:opacity-90 transition-opacity"
-          >
-            <Image
-              src={product.imageUrl}
-              alt={product.name}
-              width={220}
-              height={200}
-              className="object-cover w-full h-full"
-              unoptimized
-            />
-          </a>
-          <div className="flex-1 min-w-0 flex flex-col gap-3">
-            <div className="flex flex-wrap gap-2">
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-brand-muted text-brand font-bold">
-                {product.price}
-              </span>
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
-                {product.rating}
-              </span>
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
-                {product.reviews}
-              </span>
-              {product.specs.map((spec, i) => (
-                <span key={i} className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
-                  {spec}
-                </span>
-              ))}
-            </div>
-            <div>
-              <p className="text-xs font-bold uppercase tracking-widest text-brand mb-1">About this pick</p>
-              {product.description.split("\n\n").map((para, i) => (
-                <p key={i} className="text-sm text-ink-secondary leading-relaxed">
-                  {para}
-                </p>
-              ))}
-            </div>
-            <p className="text-xs text-ink-muted">
-              <span className="font-semibold text-ink">Best for:</span>{" "}
-              {product.bestFor}
-            </p>
-            <a
-              href={product.amazonUrl}
-              target="_blank"
-              rel="noopener noreferrer sponsored"
-              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold text-white hover:opacity-90 transition-opacity w-fit mt-auto"
-              style={{ background: "#FF9900" }}
-            >
-              <svg className="w-3.5 h-3.5 shrink-0" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12.26 18.36C9.18 20.34 4.76 21.38 1 20.16c-.38-.13-.33-.44.08-.35 3.47.67 7.77-.07 10.6-1.82.47-.27.87.17.58.37zm1.06-1.17c-.43-.56-2.85-.27-3.94-.13-.33.04-.38-.25-.08-.46 1.93-1.36 5.1-.97 5.47-.51.37.46-.1 3.63-1.91 5.14-.28.23-.54.11-.42-.2.41-.98 1.32-3.28.88-3.84z" />
-              </svg>
-              Check price on Amazon
-            </a>
-          </div>
-        </div>
-        <div className="border-t border-border grid sm:grid-cols-2 divide-y sm:divide-y-0 sm:divide-x divide-border">
-          <div className="p-4">
-            <p className="text-[10px] font-bold uppercase tracking-widest text-cta mb-3">Pros</p>
-            <ul className="space-y-1.5">
-              {product.pros.map((pro, i) => (
-                <li key={i} className="flex items-start gap-1.5 text-xs text-ink">
-                  <span className="mt-0.5 w-3.5 h-3.5 rounded-full bg-cta-light text-cta flex items-center justify-center shrink-0 font-bold text-[9px]">+</span>
-                  {pro}
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className="p-4">
-            <p className="text-[10px] font-bold uppercase tracking-widest text-accent-dark mb-3">Cons</p>
-            <ul className="space-y-1.5">
-              {product.cons.map((con, i) => (
-                <li key={i} className="flex items-start gap-1.5 text-xs text-ink">
-                  <span className="mt-0.5 w-3.5 h-3.5 rounded-full bg-yellow-100 text-yellow-600 flex items-center justify-center shrink-0 font-bold text-[9px]">&minus;</span>
-                  {con}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+    { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
+    { "@type": "ListItem", position: 3, name: "Best Tablet Stands", item: `${SITE_URL}/guide/best-tablet-stands` },
+    { "@type": "ListItem", position: 4, name: guideTitle, item: `${SITE_URL}/guide/best-tablet-stands-for-desk` },
+  ],
+};
 
-export default async function Page() {
-  const guide = await getPublicGuideBySlug("best-tablet-stands-for-desk");
-  const heroImg = guide?.thumbnailImage ?? guide?.heroImage ?? fallbackHeroImage;
 
-  const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: guideTitle,
-    description: metaDescription,
-    datePublished: lastUpdated,
-    dateModified: lastUpdated,
-    author: { "@type": "Person", name: "Jamie Cole", url: `${SITE_URL}/author/jamie-cole` },
-    publisher: { "@type": "Organization", name: "DeskFinds", url: SITE_URL },
-    mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/guide/best-tablet-stands-for-desk` },
-    about: [{"@type":"Thing","name":"Best Tablet Stands for Desk: Stable Picks for Study, Work, and Video Calls"}],
-  };
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  name: guideTitle,
+  numberOfItems: products.length,
+  itemListElement: products.map((p, i) => ({
+    "@type": "ListItem",
+    position: i + 1,
+    name: p.name,
+    url: p.affiliateUrl,
+  })),
+};
 
-  const breadcrumbSchema = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Tablet Stands for Desk: Stable Picks for Study, Work, and Video Calls", item: `${SITE_URL}/guide/best-tablet-stands-for-desk` },
-    ],
-  };
+const sections = [
+  {
+    heading: "Best Overall Tablet Stand for Desk: Lamicall S1",
+    sub: "Simple, stable, and compact — the right starting point for most small desk setups.",
+    index: 0,
+    amazonUrl: "https://www.amazon.com/s?k=lamicall+tablet+stand+for+desk&tag=deskfinds0d-20",
+    amazonLabel: "Browse Lamicall Tablet Stands on Amazon",
+    also: "Also consider the UGREEN compact stand ($9.99) if you primarily move your stand between locations — it has a slightly smaller footprint and folds even flatter.",
+  },
+  {
+    heading: "Best Compact Tablet Stand: LISEN Aluminum",
+    sub: "A compact aluminum stand for phones, small tablets, and anyone who wants an upgrade over plastic.",
+    index: 1,
+    amazonUrl: "https://www.amazon.com/s?k=compact+aluminum+tablet+stand&tag=deskfinds0d-20",
+    amazonLabel: "Browse Compact Aluminum Tablet Stands on Amazon",
+    also: "Also consider the UGREEN stand ($9.99) if you have a tablet up to 11\" and want the lightest possible option for carrying between locations.",
+  },
+  {
+    heading: "Best Rotating Tablet Stand: Lamicall 360°",
+    sub: "For video calls, shared viewing, and anyone who switches between portrait and landscape often.",
+    index: 2,
+    amazonUrl: "https://www.amazon.com/s?k=360+rotating+tablet+stand+for+desk&tag=deskfinds0d-20",
+    amazonLabel: "Browse Rotating Tablet Stands on Amazon",
+    also: "Also consider the Lamicall S1 if you rarely rotate your screen — you get the same brand quality and stable base for slightly less.",
+  },
+  {
+    heading: "Best for Large Tablets and Portable Monitors: LISEN Foldable",
+    sub: "Handles iPad Pro 12.9\", Surface Pro, and 15.6\" portable monitors while still folding to pocket size.",
+    index: 3,
+    amazonUrl: "https://www.amazon.com/s?k=tablet+stand+for+large+tablets+portable+monitor&tag=deskfinds0d-20",
+    amazonLabel: "Browse Large Tablet Stands on Amazon",
+    also: "Also consider the Twelve South HoverBar Duo if you want the large tablet raised to eye level on an arm rather than sitting low on the desk surface.",
+  },
+  {
+    heading: "Best Portable Tablet Stand: UGREEN",
+    sub: "The smallest footprint in this guide — easy to carry between desk, library, and class.",
+    index: 4,
+    amazonUrl: "https://www.amazon.com/s?k=ugreen+tablet+stand+adjustable&tag=deskfinds0d-20",
+    amazonLabel: "Browse UGREEN Tablet Stands on Amazon",
+    also: "Also consider the Amazon Basics stand if your main use is e-reader or Kindle viewing and you want the lowest-cost option — the UGREEN is more adjustable but both are affordable.",
+  },
+  {
+    heading: "Best Premium Tablet Stand: Twelve South HoverBar Duo",
+    sub: "A weighted arm that positions your iPad at exactly the height and angle you need for desk work and calls.",
+    index: 5,
+    amazonUrl: "https://www.amazon.com/s?k=twelve+south+hoverbar+duo&tag=deskfinds0d-20",
+    amazonLabel: "Browse Twelve South iPad Stands on Amazon",
+    also: "Also consider a LISEN clamp arm mount if you want a flexible arm at a lower price point — the HoverBar Duo is specifically designed for iPad and has a cleaner aesthetic.",
+  },
+  {
+    heading: "Best Budget Tablet Stand: Amazon Basics Foldable",
+    sub: "A simple, affordable stand for occasional desk viewing, Kindle reading, and light use.",
+    index: 6,
+    amazonUrl: "https://www.amazon.com/s?k=amazon+basics+tablet+stand+foldable&tag=deskfinds0d-20",
+    amazonLabel: "Browse Budget Foldable Tablet Stands on Amazon",
+    also: "Also consider the UGREEN stand for a small price increase — it has a better angle range and slightly more stable construction for regular desk use.",
+  },
+];
 
-  const itemListSchema = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    name: guideTitle,
-    description: metaDescription,
-    numberOfItems: products.length,
-    itemListElement: products.map((p) => ({
-      "@type": "ListItem",
-      position: p.rank,
-      name: `${p.name} - ${p.badge}`,
-      url: `${SITE_URL}/guide/best-tablet-stands-for-desk#${p.id}`,
-    })),
-  };
-
+export default async function BestTabletStandsForDeskPage() {
+  const dbGuide = await getPublicGuideBySlug("best-tablet-stands-for-desk");
+  const heroImage = dbGuide?.heroImage || fallbackHeroImage;
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
-      <Container className="py-12 max-w-4xl">
-        <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">Home</Link>
-          <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
-          <span>/</span>
-          <span className="text-ink">Best Tablet Stands for Desk: Stable Picks for Study, Work, and Video Calls</span>
-        </nav>
 
-        <header className="mb-8">
-          <div className="flex items-center gap-2 mb-3">
-            <span className="text-xs font-bold uppercase tracking-widest text-brand">Buying Guide</span>
-            <span className="text-ink-muted">&middot;</span>
-            <span className="text-xs text-ink-muted">{readTime} read</span>
-            <span className="text-ink-muted">&middot;</span>
-            <span className="text-xs text-ink-muted">Updated July 2026</span>
+      <Container className="py-10">
+
+        {/* Breadcrumbs */}
+        <Breadcrumbs
+          crumbs={[
+            { label: "Buying Guides", href: "/guide" },
+            { label: "Best Tablet Stands", href: "/guide/best-tablet-stands" },
+            { label: "For Desk" },
+          ]}
+        />
+
+        {/* Header */}
+        <header className="mt-6 mb-6 max-w-3xl">
+          <div className="flex flex-wrap items-center gap-2 mb-3">
+            <Link href="/guide/desk-setup" className="text-xs font-bold uppercase tracking-widest text-brand hover:text-brand-dark transition-colors">
+              Desk Setup
+            </Link>
           </div>
-          <h1 className="text-3xl sm:text-4xl font-bold text-ink leading-tight tracking-tight mb-4">
+          <h1 className="text-3xl sm:text-4xl font-bold text-ink mb-4 tracking-tight leading-tight">
             {guideTitle}
           </h1>
-          <p className="text-lg text-ink-secondary leading-relaxed max-w-3xl">
-            {metaDescription}
+          <p className="text-lg text-ink-secondary leading-relaxed mb-5">
+            {guideDescription}
           </p>
-          <div className="flex flex-wrap items-center gap-4 mt-5 pt-5 border-t border-border">
-            <div className="flex items-center gap-2 text-sm text-ink-secondary">
-              <div className="w-7 h-7 rounded-full bg-brand-muted flex items-center justify-center">
-                <svg className="w-4 h-4 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
-                </svg>
-              </div>
-              <span>Jamie Cole, Lead Product Researcher</span>
-            </div>
-            <div className="flex items-center gap-1.5 text-xs text-ink-muted">
-              <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-              </svg>
-              {products.length} options evaluated
-            </div>
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5 text-sm text-ink-muted pb-5 border-b border-border">
+            <span className="flex items-center gap-1.5">
+              <svg className="w-3.5 h-3.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" /></svg>
+              <Link href="/author/deskfinds-editorial-team" className="hover:text-ink hover:underline transition-colors">
+                DeskFinds Editorial Team
+              </Link>
+            </span>
+            <span aria-hidden="true">·</span>
+            <span className="flex items-center gap-1.5">
+              <svg className="w-3.5 h-3.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" /></svg>
+              Updated {formatDate(lastUpdated)}
+            </span>
+            <span aria-hidden="true">·</span>
+            <span>{readTime} read</span>
+            <span aria-hidden="true">·</span>
+            <span>{products.length} products compared</span>
           </div>
         </header>
 
-        <div className="mb-8 p-4 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
-          <strong className="text-ink">Quick note:</strong> We may earn a commission when you buy through Amazon links. This guide is based on product specs, buyer feedback, use cases, and comparison criteria, not paid placement.{" "}
-          <Link href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
+        {/* Affiliate disclosure */}
+        <AffiliateDisclosureBar
+          variant="banner"
+          disclosureText="We may earn a commission when you buy through Amazon links. This guide is based on product specs, buyer feedback, and comparison criteria - not paid placement."
+          className="mb-8 max-w-3xl"
+        />
+
+        {/* Hero image */}
+        <div className="relative w-full max-w-3xl h-56 sm:h-72 rounded-xl overflow-hidden mb-10">
+          <Image src={heroImage} alt={guideTitle} fill sizes="(max-width: 768px) 100vw, 768px" className="object-cover" priority unoptimized />
         </div>
 
-        <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-white h-56 sm:h-64 md:hidden flex items-center justify-center p-3">
-          <Image src={heroImg} alt="Best Tablet Stands for Desk: Stable Picks for Study, Work, and Video Calls" width={900} height={420} className="w-full h-full object-contain" priority unoptimized />
-        </div>
-        <div
-          className="hidden md:grid rounded-2xl overflow-hidden border border-border mb-10 gap-px bg-border"
-          style={{ gridTemplateColumns: `repeat(${products.length}, minmax(0,1fr))` }}
-        >
-          {products.map((product, i) => (
-            <div key={product.id} className="h-56 bg-white flex items-center justify-center p-4">
-              <Image
-                src={product.imageUrl}
-                alt={product.name}
-                width={300}
-                height={300}
-                className="w-full h-full object-contain"
-                priority={i === 0}
-                unoptimized
-              />
-            </div>
-          ))}
+        {/* Intro */}
+        <div className="prose max-w-3xl mb-10">
+          <p>
+            A good tablet stand for desk use should do more than hold your tablet upright. It should save space, stay stable when you tap the screen, and fit the way you actually use your tablet: studying, reading, video calls, second-screen work, or light typing. For small desks, dorm rooms, and compact workspaces, the best stand is not always the biggest or most adjustable one.
+          </p>
+          <p>
+            This guide covers seven picks across the main desk use cases: a reliable all-around stand, a compact aluminum option for phones and small tablets, a rotating stand for video calls and shared viewing, a large-tablet stand that handles up to 15.6&quot;, a portable pick for students who move between locations, a premium arm-style stand, and a budget foldable option.
+          </p>
+          <p>
+            Unless clearly stated otherwise, DeskFinds guides are research-based, not hands-on lab tests. We analyze product specs, public product information, and buyer feedback to help you make a better decision.
+          </p>
+          <p>
+            See also: <Link href="/guide/best-tablet-stands">Best Tablet Stands (all uses)</Link> | <Link href="/guide/best-tablet-stands-for-bed">Best Tablet Stands for Bed</Link> | <Link href="/how-we-review">How We Review</Link>
+          </p>
         </div>
 
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold text-ink mb-4 tracking-tight">Comparison Table</h2>
-          <div className="overflow-x-auto rounded-xl border border-border">
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="bg-brand text-white">
-                  <th className="text-left px-4 py-3 font-semibold">Pick</th>
-                  <th className="text-left px-4 py-3 font-semibold">Product</th>
-                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Price</th>
-                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Rating</th>
-                  <th className="px-4 py-3"></th>
+        {/* At a Glance */}
+        <section id="picks" className="mb-12 scroll-mt-20">
+          <h2 className="text-2xl font-bold text-ink mb-2 tracking-tight">Quick Picks</h2>
+          <p className="text-sm text-ink-secondary mb-6 max-w-2xl">All seven picks at a glance — toggle pros and cons to compare before reading full reviews below.</p>
+          <AtAGlance items={atAGlanceItems} />
+        </section>
+
+        {/* Comparison table */}
+        <section className="mb-12 max-w-3xl overflow-x-auto">
+          <h2 className="text-xl font-bold text-ink mb-4 tracking-tight">Comparison Table</h2>
+          <table className="w-full text-sm border border-border rounded-xl overflow-hidden">
+            <thead>
+              <tr className="bg-brand text-white">
+                <th className="text-left px-4 py-3 font-semibold">Product</th>
+                <th className="text-left px-4 py-3 font-semibold">Best For</th>
+                <th className="text-left px-4 py-3 font-semibold">Price</th>
+                <th className="text-left px-4 py-3 font-semibold">Score</th>
+                <th className="px-4 py-3"></th>
+              </tr>
+            </thead>
+            <tbody>
+              {products.map((p, i) => (
+                <tr key={p.rank} className={i % 2 === 0 ? "bg-white" : "bg-bg/40"}>
+                  <td className="px-4 py-3 font-medium text-ink">{p.name}</td>
+                  <td className="px-4 py-3 text-ink-secondary">{p.badge}</td>
+                  <td className="px-4 py-3 font-bold text-ink">{p.price}</td>
+                  <td className="px-4 py-3 font-bold text-brand">{p.scoreOverall}/10</td>
+                  <td className="px-4 py-3">
+                    <a href={p.affiliateUrl} target="_blank" rel="nofollow sponsored noopener noreferrer"
+                      className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-[#FF9900] text-white text-xs font-bold hover:bg-[#e68900] transition-colors whitespace-nowrap">
+                      Amazon
+                    </a>
+                  </td>
                 </tr>
-              </thead>
-              <tbody>
-                {products.map((product, i) => (
-                  <tr key={product.id} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
-                    <td className="px-4 py-3">
-                      <a href={`#${product.id}`} className="text-xs font-bold text-brand hover:underline">{product.badge}</a>
-                    </td>
-                    <td className="px-4 py-3 font-semibold text-ink text-xs">{product.name}</td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{product.price}</td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{product.rating}</td>
-                    <td className="px-4 py-3">
-                      <a href={product.amazonUrl} target="_blank" rel="noopener noreferrer sponsored" className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>
-                        Check price
-                      </a>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <p className="text-xs text-ink-muted mt-2">Prices are approximate. Check Amazon for current pricing before purchasing.</p>
-        </section>
-
-        <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
-          <p>This guide covers the top picks for best tablet stands for desk, ranked by real product specs, weight capacity, and buyer feedback.</p>
-        </section>
-
-        {buyingCriteria.length > 0 && (
-          <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
-            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">{buyingCriteria.length} Criteria to Look For Before Buying a Tablet Stands for Desk: Stable Picks for Study, Work, and Video Call</h2>
-            <p className="text-sm text-ink-muted mb-5">Key buying criteria so you get the right fit the first time.</p>
-            <div className="grid sm:grid-cols-2 gap-4">
-              {buyingCriteria.map((item, i) => (
-                <div key={i} className="p-4 rounded-xl border border-border bg-bg">
-                  <p className="text-sm font-bold text-ink mb-1.5">{item.criterion}</p>
-                  <p className="text-sm text-ink-secondary leading-relaxed">{item.explanation}</p>
-                </div>
               ))}
+            </tbody>
+          </table>
+        </section>
+
+        {/* Product sections */}
+        {sections.map((section) => (
+          <section key={section.index} className="mb-14">
+            <h2 className="text-2xl font-bold text-ink mb-1 tracking-tight">{section.heading}</h2>
+            <p className="text-sm text-ink-secondary mb-6 max-w-2xl">{section.sub}</p>
+            <div id={`pick-${section.index + 1}`} className="scroll-mt-20">
+              <ProductReviewCard {...products[section.index]} />
+            </div>
+            <div className="mt-5 p-4 bg-bg rounded-xl border border-border max-w-3xl">
+              <p className="text-sm text-ink-secondary">
+                <strong className="text-ink">Also consider: </strong>
+                {section.also}
+              </p>
+              <a href={section.amazonUrl} target="_blank" rel="nofollow sponsored noopener noreferrer"
+                className="inline-flex items-center gap-2 mt-3 px-4 py-2 rounded-lg bg-[#FF9900] text-white text-sm font-bold hover:bg-[#e68900] transition-colors">
+                {section.amazonLabel}
+              </a>
             </div>
           </section>
-        )}
-
-        <nav className="mb-12 p-4 rounded-xl bg-bg border border-border">
-          <p className="text-xs font-bold uppercase tracking-widest text-ink-muted mb-3">Jump to pick</p>
-          <div className="flex flex-wrap gap-2">
-            {products.map((p) => (
-              <a key={p.id} href={`#${p.id}`} className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors">
-                #{p.rank} {p.badge}
-              </a>
-            ))}
-            <a href="#faq" className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-border text-ink-secondary hover:text-brand hover:border-brand transition-colors">FAQ</a>
-          </div>
-        </nav>
-
-        <h2 className="text-2xl font-bold text-ink mb-8 tracking-tight">{guideTitle}</h2>
-
-        {products.map((product) => (
-          <ProductSection key={product.id} product={product} />
         ))}
 
-        {howWeEvaluated.length > 0 && (
-          <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
-            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">How We Evaluated These Tablet Stands for Desk: Stable Picks for Study, Work, and Video Calls</h2>
-            <p className="text-sm text-ink-muted mb-5">Each pick was assessed across {howWeEvaluated.length} criteria weighted for real-world use.</p>
-            <div className="grid sm:grid-cols-2 gap-4">
-              {howWeEvaluated.map((item, i) => (
-                <div key={i} className="p-4 rounded-xl border border-border bg-bg">
-                  <p className="text-sm font-bold text-ink mb-1.5">{item.title}</p>
-                  <p className="text-sm text-ink-secondary leading-relaxed">{item.description}</p>
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
-
-        {howToChoose.length > 0 && (
-          <section className="mb-14">
-            <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">How to Choose the Right Tablet Stands for Desk: Stable Picks for Study, Work, and Video Calls</h2>
-            <div className="space-y-8">
-              {howToChoose.map((sub, i) => (
-                <div key={i}>
-                  <h3 className="text-lg font-bold text-ink mb-3">{sub.subheading}</h3>
-                  {sub.intro && (
-                    <p className="text-sm text-ink-secondary leading-relaxed mb-3">{sub.intro}</p>
-                  )}
-                  {sub.table && (
-                    <div className="overflow-x-auto rounded-xl border border-border mb-2">
-                      <table className="w-full text-sm">
-                        <thead>
-                          <tr className="bg-brand text-white">
-                            {sub.table.headers.map((h, hi) => (
-                              <th key={hi} className="text-left px-4 py-3 font-semibold">{h}</th>
-                            ))}
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {sub.table.rows.map((row, ri) => (
-                            <tr key={ri} className={ri % 2 === 0 ? "bg-white" : "bg-bg"}>
-                              {row.map((cell, ci) => (
-                                <td key={ci} className="px-4 py-3 text-ink-secondary text-xs">{cell}</td>
-                              ))}
-                            </tr>
-                          ))}
-                        </tbody>
-                      </table>
-                    </div>
-                  )}
-                  {sub.cards && (
-                    <div className="grid sm:grid-cols-2 gap-3 mb-2">
-                      {sub.cards.map((c, ci) => (
-                        <div key={ci} className="p-4 rounded-xl border border-border bg-bg">
-                          <p className="text-sm font-bold text-ink mb-1">{c.label}</p>
-                          <p className="text-sm text-ink-secondary leading-relaxed">{c.text}</p>
-                        </div>
-                      ))}
-                    </div>
-                  )}
-                  {sub.note && (
-                    <p className="text-xs text-ink-muted leading-relaxed">{sub.note}</p>
-                  )}
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
-
-        <section id="faq" className="mb-14 scroll-mt-20">
-          <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">Frequently Asked Questions</h2>
-          <div className="space-y-4">
-            {faq.map((item, i) => (
-              <div key={i} className="p-5 rounded-xl border border-border bg-white">
-                <p className="font-bold text-ink text-sm mb-2">{item.q}</p>
-                <p className="text-sm text-ink-secondary leading-relaxed">{item.a}</p>
+        {/* How to Choose */}
+        <section className="mb-12 max-w-3xl">
+          <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">How to Choose a Tablet Stand for Desk</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {[
+              {
+                title: "Start with desk footprint",
+                body: "If your desk is small, the base size matters as much as the stand height. A tall stand with a large base can take up space you need for a keyboard, notebook, or desk lamp. For small desks, prioritize a compact base with stable weight distribution.",
+              },
+              {
+                title: "Check portrait mode stability",
+                body: "Many tablet stands work fine in landscape mode but feel less stable when the tablet is vertical. This matters if you use your tablet for reading, FaceTime, Zoom, notes, or digital planning. Check whether buyers mention wobble in portrait mode before buying.",
+              },
+              {
+                title: "Think about how much you tap",
+                body: "If you mostly watch or read, a lightweight stand is usually enough. If you type, draw, annotate PDFs, or tap frequently, you need a more stable stand with a weighted base, firm hinge, and anti-slip pads.",
+              },
+              {
+                title: "Verify charging clearance",
+                body: "A good desk stand should allow charging while the tablet is upright. If the bottom support blocks the charging port, you have to rotate or remove the device every time. Look for cable cutouts or a raised bottom support with enough clearance for USB-C or Lightning.",
+              },
+            ].map((tip) => (
+              <div key={tip.title} className="p-5 bg-white rounded-card border border-border">
+                <h3 className="font-bold text-ink text-sm mb-2">{tip.title}</h3>
+                <p className="text-sm text-ink-secondary leading-relaxed">{tip.body}</p>
               </div>
             ))}
           </div>
         </section>
 
-        <section className="mb-14 p-6 rounded-2xl border border-border bg-white">
-          <h2 className="text-xl font-bold text-ink mb-5 tracking-tight">Bottom Line</h2>
-          <div className="space-y-4">
-            <div className="flex items-start gap-3">
-              <span className="w-2 h-2 rounded-full bg-brand mt-2 shrink-0" />
-              <p className="text-sm text-ink-secondary">
-                <strong className="text-ink">best overall:</strong>{" "}
-                <a href={`#${products[0]?.id}`} className="font-bold text-ink hover:text-brand transition-colors">{products[0]?.name}</a>
-                {" "}- {products[0]?.badge.toLowerCase()} pick in this roundup.
-              </p>
-            </div>
-            <p className="text-sm text-ink-secondary pl-5">See the full rankings above for all picks with pros, cons, and best-for summaries.</p>
-          </div>
-        </section>
-
-        <section className="mb-14 p-6 rounded-2xl flex flex-col items-center text-center" style={{ background: "linear-gradient(135deg, #FF9900 0%, #e68900 100%)" }}>
-          <h2 className="text-xl font-bold text-white mb-2">Browse on Amazon</h2>
-          <p className="text-white/90 text-sm mb-5">All Prime-eligible options with current pricing.</p>
-          <a href={`https://www.amazon.com/s?k=best+tablet+stands+for+desk&tag=deskfinds0d-20`} target="_blank" rel="noopener noreferrer sponsored" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors" style={{ color: "#FF9900" }}>
-            Shop on Amazon &rarr;
-          </a>
-        </section>
-
-        <section>
-          <h2 className="text-xl font-bold text-ink mb-4 tracking-tight">Related Guides</h2>
-          <div className="grid sm:grid-cols-2 gap-3">
-            {relatedGuides.map((g) => (
-              <Link key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
-                <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">
-                  <svg className="w-4 h-4 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
-                  </svg>
-                </div>
-                <div>
-                  <p className="font-bold text-ink text-sm group-hover:text-brand transition-colors">{g.title}</p>
-                </div>
-              </Link>
+        {/* FAQ */}
+        <section className="mb-12 max-w-3xl">
+          <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">Frequently Asked Questions</h2>
+          <div className="flex flex-col gap-0 rounded-card border border-border overflow-hidden">
+            {faq.map((item, i) => (
+              <div key={i} className={`p-5 ${i < faq.length - 1 ? "border-b border-border" : ""} ${i % 2 === 0 ? "bg-white" : "bg-bg/40"}`}>
+                <h3 className="font-bold text-ink text-sm mb-2 leading-snug">{item.question}</h3>
+                <p className="text-sm text-ink-secondary leading-relaxed">{item.answer}</p>
+              </div>
             ))}
           </div>
         </section>
+
+        {/* Amazon CTA */}
+        <div className="max-w-3xl mb-8 p-5 rounded-xl border border-border bg-bg flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div>
+            <p className="font-semibold text-ink mb-1">Browse all tablet stands for desk on Amazon</p>
+            <p className="text-sm text-ink-secondary">Current prices, customer photos, and more options.</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=tablet+stands+for+desk&tag=deskfinds0d-20" target="_blank" rel="nofollow sponsored noopener noreferrer"
+            className="shrink-0 inline-flex items-center gap-2 px-5 py-3 rounded-lg text-sm font-bold bg-[#FF9900] text-white hover:bg-[#e68900] transition-colors whitespace-nowrap">
+            <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12.26 18.36C9.18 20.34 4.76 21.38 1 20.16c-.38-.13-.33-.44.08-.35 3.47.67 7.77-.07 10.6-1.82.47-.27.87.17.58.37zm1.06-1.17c-.43-.56-2.85-.27-3.94-.13-.33.04-.38-.25-.08-.46 1.93-1.36 5.1-.97 5.47-.51.37.46-.1 3.63-1.91 5.14-.28.23-.54.11-.42-.2.41-.98 1.32-3.28.88-3.84z"/></svg>
+            Shop on Amazon
+          </a>
+        </div>
+
+        {/* Internal links */}
+        <div className="max-w-3xl mb-6 p-5 bg-white rounded-card border border-border">
+          <p className="text-sm font-semibold text-ink mb-3">Related guides</p>
+          <div className="flex flex-wrap gap-2">
+            {[
+              { label: "Best Tablet Stands (all uses)", href: "/guide/best-tablet-stands" },
+              { label: "Best Tablet Stands for Bed", href: "/guide/best-tablet-stands-for-bed" },
+              { label: "Desk Setup Guides", href: "/guide/desk-setup" },
+              { label: "Compact Home Office", href: "/guide/compact-home-office" },
+              { label: "Budget Finds", href: "/guide/budget-finds" },
+            ].map((link) => (
+              <Link key={link.href} href={link.href}
+                className="px-3 py-1.5 bg-bg border border-border rounded-badge text-sm font-medium text-brand hover:bg-brand hover:text-white transition-colors">
+                {link.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+
+        {/* Methodology note */}
+        <div className="max-w-3xl p-5 bg-bg rounded-card border border-border mb-6">
+          <p className="text-sm text-ink-secondary leading-relaxed">
+            <strong className="text-ink">Evaluation note: </strong>
+            Products were assessed on stability, adjustability, build quality, compatibility, portability, and verified buyer feedback from Amazon. We do not claim hands-on product testing.
+          </p>
+          <Link href="/how-we-review" className="inline-flex items-center gap-1 mt-3 text-sm font-semibold text-brand hover:text-brand-dark transition-colors">
+            Read our full methodology →
+          </Link>
+        </div>
+
       </Container>
     </>
   );
