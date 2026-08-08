@@ -18,7 +18,7 @@ import {
   type FileCabinet,
 } from "@/data/guides/best-wood-file-cabinets-under-200";
 
-export const revalidate = 86400;
+export const revalidate = 604800;
 
 export const metadata: Metadata = buildMetadata({
   title: metaTitle,

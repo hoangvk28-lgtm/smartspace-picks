@@ -20,7 +20,7 @@ import {
   type GuideProduct,
 } from "@/data/guides/best-budget-nas-for-beginners";
 
-export const revalidate = 86400;
+export const revalidate = 604800;
 
 export const metadata: Metadata = buildMetadata({
   title: metaTitle,

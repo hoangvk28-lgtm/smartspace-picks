@@ -20,7 +20,7 @@ import {
   type GuideProduct,
 } from "@/data/guides/best-standing-desks-with-built-in-power-outlets";
 
-export const revalidate = 86400;
+export const revalidate = 604800;
 
 export const metadata: Metadata = buildMetadata({
   title: metaTitle,

@@ -18,7 +18,7 @@ import {
   type GuideProduct,
 } from "@/data/guides/best-tv-stand-for-100-inch-tv";
 
-export const revalidate = 86400;
+export const revalidate = 604800;
 
 export const metadata: Metadata = buildMetadata({
   title: metaTitle,

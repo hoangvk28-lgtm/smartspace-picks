@@ -18,7 +18,7 @@ import {
   type FlexiSpotDesk,
 } from "@/data/guides/best-flexispot-standing-desk";
 
-export const revalidate = 86400;
+export const revalidate = 604800;
 
 export const metadata: Metadata = buildMetadata({
   title: metaTitle,

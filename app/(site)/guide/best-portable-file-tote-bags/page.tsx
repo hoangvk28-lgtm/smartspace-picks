@@ -20,7 +20,7 @@ import {
   type GuideProduct,
 } from "@/data/guides/best-portable-file-tote-bags";
 
-export const revalidate = 86400;
+export const revalidate = 604800;
 
 export const metadata: Metadata = buildMetadata({
   title: metaTitle,

@@ -17,7 +17,7 @@ import {
   type GuideProduct,
 } from "@/data/guides/best-desk-shelves-small-desks";
 
-export const revalidate = 86400;
+export const revalidate = 604800;
 
 export const metadata: Metadata = buildMetadata({
   title: metaTitle,

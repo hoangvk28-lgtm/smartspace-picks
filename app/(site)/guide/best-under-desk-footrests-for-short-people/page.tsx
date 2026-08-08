@@ -17,7 +17,7 @@ import {
   type GuideProduct,
 } from "@/data/guides/best-under-desk-footrests-for-short-people";
 
-export const revalidate = 86400;
+export const revalidate = 604800;
 
 export const metadata: Metadata = buildMetadata({
   title: metaTitle,

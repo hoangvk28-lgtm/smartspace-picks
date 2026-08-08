@@ -18,7 +18,7 @@ import {
   type HutchDesk,
 } from "@/data/guides/best-computer-desk-with-hutch";
 
-export const revalidate = 86400;
+export const revalidate = 604800;
 
 export const metadata: Metadata = buildMetadata({
   title: metaTitle,

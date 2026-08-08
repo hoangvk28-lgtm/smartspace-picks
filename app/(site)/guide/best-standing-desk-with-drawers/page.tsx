@@ -18,7 +18,7 @@ import {
   type DrawerStandingDesk,
 } from "@/data/guides/best-standing-desk-with-drawers";
 
-export const revalidate = 86400;
+export const revalidate = 604800;
 
 export const metadata: Metadata = buildMetadata({
   title: metaTitle,
