@@ -1,0 +1,201 @@
+export const guideSlug = "best-small-safes-for-documents";
+export const guideTitle = "8 Best Small Safes for Documents in 2026";
+export const metaTitle = "Best Small Safes for Documents (2026)";
+export const metaDescription =
+  "8 safes compared on flat letter-size fit, fire protection duration, and organizational layout, from a soft fireproof organizer to a hanging-file steel safe.";
+export const mainKeyword = "small safes for documents";
+export const introParagraphs = [
+  "Document storage changes what actually matters: whether letter-size papers, passports, and folders fit flat without bending, and whether fire protection is documented specifically, not implied. We compared confirmed interior geometry and fire-rating specifics across these picks rather than assuming any small safe handles documents equally well.",
+  "We also separated genuinely fireproof document storage from basic steel security boxes without a fire rating, since a document safe's core job (surviving a fire) differs from a general valuables safe's job (deterring theft).",
+];
+export const lastUpdated = "2026-08-09";
+export const readTime = "8 min";
+export const heroImage = "https://m.media-amazon.com/images/I/41DOhkXmzOL._SL500_.jpg";
+
+export interface GuideProduct {
+  id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
+  imageUrl: string; amazonUrl: string; description: string; specs: string[]; pros: string[]; cons: string[]; bestFor: string;
+}
+export interface BuyingCriterion { criterion: string; explanation: string; }
+export interface FaqItem { q: string; a: string; }
+
+export const products: GuideProduct[] = [
+  {
+    id: "b00ge57dfk-ssfd",
+    rank: 1,
+    badge: "Best Overall for Hanging File Folders",
+    name: "SentrySafe Black Fireproof and Waterproof Safe, File Folder and Document Box",
+    price: "$67.99",
+    rating: "4.5",
+    reviews: "14963",
+    imageUrl: "https://m.media-amazon.com/images/I/51T8rsbqkgL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B00GE57DFK?tag=deskfinds0d-20",
+    description: "The interior is specifically sized for hanging file folders, a genuine organizational advantage over a flat compartment where documents can slide and bend. UL Classified to withstand high temperatures for up to 30 minutes and separately ETL Verified for water exposure, both hazards independently documented.\n\nA durable key lock (2 keys included) prevents unauthorized access, and the compact footprint fits a closet or under a desk while remaining portable enough to grab during an evacuation.",
+    specs: ["Hanging file folder capacity", "UL Classified fire + ETL Verified water protection", "Key lock, 2 keys included"],
+    pros: ["Only pick here specifically organized for hanging file folders", "Independently documented fire AND water protection"],
+    cons: ["Higher price than the basic chest options"],
+    bestFor: "Buyers wanting genuine hanging-folder organization for passports, insurance records, and legal paperwork.",
+  },
+  {
+    id: "b008nhkwzu-ssfd",
+    rank: 2,
+    badge: "Most Documented Fire Rating",
+    name: "SentrySafe Fireproof Safe Box with Key Lock, Chest Safe with Carrying Handle",
+    price: "See listing",
+    rating: "4.6",
+    reviews: "22264",
+    imageUrl: "https://m.media-amazon.com/images/I/41DOhkXmzOL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B008NHKWZU?tag=deskfinds0d-20",
+    description: "UL classified for fire endurance at 1/2 hour at 1550°F specifically for documents, with a separate ETL verification for digital media like CDs, DVDs, and memory sticks, two distinct certifications for the two content types a document safe typically holds. A lifetime after-fire replacement guarantee backs the claim directly.\n\nA privacy key lock (2 keys included) specifically prevents the lid from opening during a fire event, and built-in carrying grips make it genuinely portable during an evacuation.",
+    specs: ["UL classified: 1/2 hr at 1550°F (documents)", "ETL verified: 1/2 hr at 1550°F (digital media)", "Lifetime after-fire replacement guarantee"],
+    pros: ["Most explicitly documented fire certification in this comparison", "Lifetime after-fire replacement guarantee"],
+    cons: ["No confirmed hanging-folder organization like the top pick"],
+    bestFor: "Buyers wanting the most rigorously certified fire protection for mixed paper and digital documents.",
+  },
+  {
+    id: "b0crr524vk-ssfd",
+    rank: 3,
+    badge: "Highest Temperature Rating, Soft Case",
+    name: "DocSafe 5200°F Fireproof Document Organizer Box with Lock, Heat Insulated",
+    price: "$31.33",
+    rating: "4.5",
+    reviews: "312",
+    imageUrl: "https://m.media-amazon.com/images/I/51xzFNOAeLL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CRR524VK?tag=deskfinds0d-20",
+    description: "This is genuinely a soft fireproof organizer rather than a steel safe, made of thickened silicone-coated fireproof cotton with 8 layers and an aluminum foil lining, claimed to withstand up to 5200°F. The large-capacity interior includes 8 passport mesh bags, 16 card slots, 4 USB drive pockets, and 7 folder layers, genuinely deep organization a steel box doesn't offer.\n\nA combination lock secures the bag closed, and waterproof zippers are rated to withstand a high-speed fire hose spray. Lighter and easier to carry than a steel safe, though it's a soft bag rather than a rigid box, worth weighing against your specific durability needs.",
+    specs: ["Soft fireproof organizer, claimed 5200°F resistance", "8 passport bags, 16 card slots, 4 USB pockets, 7 folder layers", "Combination lock, waterproof zippers"],
+    pros: ["Highest claimed temperature resistance in this comparison", "Extensive dedicated organization (passport bags, card slots, folder layers) unmatched by steel safes"],
+    cons: ["Soft bag construction, not a rigid steel box, offers less physical impact resistance"],
+    bestFor: "Buyers wanting maximum document organization in a lightweight, portable fireproof bag rather than a steel box.",
+  },
+  {
+    id: "b008hzui34-ssfd",
+    rank: 4,
+    badge: "Best for Travel Document Portability",
+    name: "SentrySafe Fireproof Safe with Key Lock, Chest Lock Box for Home or Travel",
+    price: "$39.98",
+    rating: "4.6",
+    reviews: "2807",
+    imageUrl: "https://m.media-amazon.com/images/I/41ZBhxLuCQL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B008HZUI34?tag=deskfinds0d-20",
+    description: "UL Classified to endure 1/2 hour at 1550°F for documents and separately ETL Verified for CDs, DVDs, and USBs, with a flat key lock design preventing the lid from opening during a fire. Bolt-down hardware ships included, letting you anchor important documents at home rather than leaving the safe portable only.\n\nA built-in carrying handle explicitly supports travel or moving documents between home and another location, useful if you need to grab critical paperwork during a trip.",
+    specs: ["UL Classified: 1/2 hr at 1550°F", "ETL Verified for CDs/DVDs/USBs specifically", "Bolt-down hardware included, carrying handle"],
+    pros: ["Bolt-down hardware included for at-home document security", "Carrying handle supports genuine travel document portability"],
+    cons: ["No hanging-folder organization"],
+    bestFor: "Buyers wanting the flexibility to anchor documents at home or carry them while traveling.",
+  },
+  {
+    id: "b000z8r73u-ssfd",
+    rank: 5,
+    badge: "Best for Combined Documents + Electronics",
+    name: "SentrySafe Shelf Safe with Digital Keypad Lock, Steel Safe with Interior Light",
+    price: "$101.96",
+    rating: "4.4",
+    reviews: "3891",
+    imageUrl: "https://m.media-amazon.com/images/I/31NRp-xRm+S._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B000Z8R73U?tag=deskfinds0d-20",
+    description: "This is directly stated as not a fireproof safe, a basic security safe with digital combination access, two live-locking bolts, and bolt-down hardware, worth weighing honestly against the fire-rated picks above if fire protection is your actual priority. It's rated for laptops, cash, and small valuables alongside documents, and California DOJ certified as a gun safe.\n\nAt 16.9\" W x 14.6\" D x 7.1\" H exterior (16.8\" x 11.6\" x 6.9\" interior), this is the widest, most laptop-friendly interior in this comparison, useful if your document storage overlaps with securing a device too.",
+    specs: ["16.9×14.6×7.1 in exterior, 0.78 cu ft, NOT fireproof", "Digital combination, 2 live-locking bolts, bolt-down hardware", "CA DOJ certified gun safe"],
+    pros: ["Widest interior in this comparison, fits documents alongside a laptop", "CA DOJ gun safe certification, a distinct security credential"],
+    cons: ["Explicitly not a fireproof or waterproof safe, security-only design"],
+    bestFor: "Buyers wanting to combine document storage with laptop or device security, without fire protection as a requirement.",
+  },
+  {
+    id: "b0ckpf8gf9-ssfd",
+    rank: 6,
+    badge: "Best General Steel Box for Documents",
+    name: "Bonsaii Safe Box with Electronic Keypad for Home Office, 0.6 Cu.Ft",
+    price: "$52.24",
+    rating: "4.6",
+    reviews: "1326",
+    imageUrl: "https://m.media-amazon.com/images/I/41Q5YDqAEdL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CKPF8GF9?tag=deskfinds0d-20",
+    description: "A removable shelf lets you separate documents from cash or jewelry onto different layers rather than mixing everything together, at the largest capacity among the non-fireproof security boxes here. No fire rating is documented for this listing, so weigh it as a security-focused document box rather than a disaster-protection one.\n\nThree access methods, personal code, emergency key, or Type-C emergency power, mean multiple recovery paths if you need a document urgently and face a dead battery.",
+    specs: ["0.6 cu ft, removable shelf for organizing", "No documented fire resistance", "3 access methods: code, key, or USB-C emergency power"],
+    pros: ["Removable shelf helps separate documents from other valuables"],
+    cons: ["No documented fire protection, security-only design"],
+    bestFor: "Buyers wanting general document security without requiring fire protection.",
+  },
+  {
+    id: "b078myjyd5-ssfd",
+    rank: 7,
+    badge: "Most Proven General Steel Box",
+    name: "Yuanshikj Small Steel Security Safe Box with Keypad, Key, 0.23 CuFt, Black",
+    price: "$23.99",
+    rating: "4.4",
+    reviews: "22969",
+    imageUrl: "https://m.media-amazon.com/images/I/413jIpPxMOL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B078MYJYD5?tag=deskfinds0d-20",
+    description: "A magnetic auto-locking door and reinforced solid steel construction with dual door locking bolts provide basic security for documents, though this listing doesn't document fire protection either. Interior dimensions of 6.29\" x 8.9\" x 5.12\" fit standard documents without hanging-folder organization.\n\nTwo emergency keys back up the keypad if you forget your code, and pre-drilled mounting holes with included bolts let you anchor it, at the lowest price in this comparison for a mountable steel option.",
+    specs: ["0.2 cu ft, mountable, no documented fire resistance", "6.29×8.9×5.12 in interior", "Magnetic auto-lock door"],
+    pros: ["Lowest price among the mountable steel options here"],
+    cons: ["No documented fire protection, security-only design"],
+    bestFor: "Budget-conscious buyers wanting basic document security without fire protection.",
+  },
+  {
+    id: "b0crh68745-ssfd",
+    rank: 8,
+    badge: "Best Backup Access for Urgent Document Needs",
+    name: "Bonsaii Small Safe Box with Electronic Keypad for Valuables, 0.23 Cu.Ft",
+    price: "$37.99",
+    rating: "4.6",
+    reviews: "0",
+    imageUrl: "https://m.media-amazon.com/images/I/41H5aPFQ4kL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CRH68745?tag=deskfinds0d-20",
+    description: "A USB-C interface supporting an external power bank means you're not locked out of an urgently needed document, like a passport before a flight, over a dead battery. Two 0.71-inch steel reinforcement bolts and hidden hinges back the mounting, though this listing doesn't document fire protection.\n\nPre-drilled installation holes let you fix it under a closet, drawer, or table, at 8.98 x 6.46 x 6.61 inches of usable interior.",
+    specs: ["0.23 cu ft, mountable, no documented fire resistance", "USB-C emergency power backup", "Pre-drilled installation holes"],
+    pros: ["USB-C emergency power backup ensures access to urgently needed documents"],
+    cons: ["No documented fire protection, security-only design"],
+    bestFor: "Buyers prioritizing guaranteed access to documents over fire protection.",
+  },
+];
+
+export interface HowWeEvaluatedItem { title: string; description: string; }
+export const howWeEvaluated: HowWeEvaluatedItem[] = [
+  { title: "Required a fireproof interior geometry check, not just cubic feet", description: "We looked at whether hanging file folders, passports, and letter-size paper fit flat without bending, a genuine organizational factor a raw capacity number doesn't capture." },
+  { title: "Separated fireproof document safes from basic steel security boxes honestly", description: "Three picks here explicitly document no fire rating; we labeled these as security-only rather than blending them into a fireproof-document ranking." },
+  { title: "Compared soft fireproof organizers against rigid steel safes", description: "The DocSafe soft organizer claims a higher temperature rating with extensive internal organization but offers less physical impact resistance than a steel box. We flagged that genuine tradeoff." },
+  { title: "Noted digital media protection separately from paper document protection", description: "Several picks separately certify CD/DVD/USB protection alongside paper documents, since digital media has different heat sensitivity." },
+];
+
+export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
+export const howToChoose: HowToChooseSection[] = [
+  {
+    subheading: "By What Matters Most",
+    table: {
+      headers: ["Priority", "Recommended pick"],
+      rows: [
+        ["Hanging file folder organization", "SentrySafe Black Fireproof and Waterproof Safe"],
+        ["Highest claimed fire temperature", "DocSafe 5200°F Fireproof Document Organizer"],
+        ["Documents + laptop combined storage", "SentrySafe Shelf Safe with Digital Keypad Lock"],
+        ["Budget security-only document box", "Yuanshikj Small Steel Security Safe Box"],
+      ],
+    },
+  },
+  {
+    subheading: "Fireproof vs. Security-Only Document Storage",
+    note: "Three picks in this comparison (the Bonsaii and Yuanshikj options, and the SentrySafe Shelf Safe) explicitly do not document fire protection, they're security boxes, not disaster protection. If surviving a house fire is your actual priority for important documents, choose from the four picks here with a documented UL or ETL fire rating instead.",
+  },
+];
+
+export const buyingCriteria: BuyingCriterion[] = [
+  { criterion: "Confirm fire protection is actually documented before assuming any document safe has it", explanation: "Three picks here explicitly lack a fire rating. Don't assume steel construction alone protects documents from fire without a stated UL or ETL classification." },
+  { criterion: "Check whether the interior fits hanging file folders or just loose flat storage", explanation: "Only the top SentrySafe pick specifically organizes for hanging folders. Other picks require you to manage loose documents within a general compartment." },
+  { criterion: "Weigh a soft fireproof organizer against a rigid steel box based on your durability needs", explanation: "The DocSafe soft organizer claims a higher temperature rating with more internal organization, but a steel box offers better resistance to physical impact and crushing." },
+  { criterion: "Consider whether digital media protection is separately documented if you're storing USB drives or discs", explanation: "Several picks certify paper and digital media protection separately, since digital media is more heat-sensitive than paper." },
+  { criterion: "Match capacity to your actual document volume, not just cubic feet", explanation: "A hanging-folder-organized safe may hold fewer raw cubic feet but organize documents more usefully than a larger, unorganized compartment." },
+];
+
+export const faq: FaqItem[] = [
+  { q: "What's the best safe for hanging file folders specifically?", a: "The SentrySafe Black Fireproof and Waterproof Safe, with an interior specifically sized for hanging file folders." },
+  { q: "Is there a soft, portable fireproof document organizer?", a: "Yes, the DocSafe 5200°F Fireproof Document Organizer Box is a soft bag with extensive internal organization, lighter than a steel safe." },
+  { q: "Are all these picks actually fireproof?", a: "No, three picks here explicitly don't document fire protection, they're security-focused document boxes. Check our comparison table for which picks have a genuine UL or ETL fire rating." },
+  { q: "Is there an option that also fits a laptop alongside documents?", a: "Yes, the SentrySafe Shelf Safe with Digital Keypad Lock has the widest interior in this comparison, though it's explicitly not fireproof." },
+  { q: "Which pick has the highest claimed fire temperature resistance?", a: "The DocSafe 5200°F Fireproof Document Organizer Box, though as a soft bag it offers less physical impact resistance than a steel safe." },
+];
+
+export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-small-fireproof-safes", title: "Best Small Fireproof Safes (2026)" },
+  { href: "/guide/best-small-fireproof-and-waterproof-safes", title: "Best Small Fireproof and Waterproof Safes (2026)" },
+  { href: "/guide/best-small-safe-boxes", title: "Best Small Safe Boxes (2026)" },
+];

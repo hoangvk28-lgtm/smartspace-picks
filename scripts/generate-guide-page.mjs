@@ -227,7 +227,7 @@ function ProductSection({ product }: { product: GuideProduct }) {
             <div>
               <p className="text-xs font-bold uppercase tracking-widest text-brand mb-1">About this pick</p>
               {product.description.split("\\n\\n").map((para, i) => (
-                <p key={i} className="text-sm text-ink-secondary leading-relaxed">
+                <p key={i} className={"text-sm text-ink-secondary leading-relaxed indent-6 " + (i > 0 ? "mt-2" : "")}>
                   {para}
                 </p>
               ))}

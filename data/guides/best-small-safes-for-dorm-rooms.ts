@@ -1,0 +1,185 @@
+export const guideSlug = "best-small-safes-for-dorm-rooms";
+export const guideTitle = "7 Best Small Safes for Dorm Rooms in 2026";
+export const metaTitle = "Best Small Safes for Dorm Rooms (2026)";
+export const metaDescription =
+  "7 verified dorm-appropriate safes compared on tethering versus drilling, roommate privacy, and move-out portability, after excluding one inaccessible ASIN.";
+export const mainKeyword = "small safes for dorm rooms";
+export const introParagraphs = [
+  "Dorm rooms usually prohibit permanent wall drilling, so we prioritized tether-cable and portable designs over mounting-hardware-dependent safes, and flagged where a pick's anchoring assumes permissions a dorm resident won't have. One original candidate ASIN was not accessible through the product catalog at research time.",
+  "We also weighed roommate privacy specifically, since a dorm safe's main threat model is usually a roommate or visitor, not a break-in, which changes which features actually matter.",
+];
+export const lastUpdated = "2026-08-09";
+export const readTime = "8 min";
+export const heroImage = "https://m.media-amazon.com/images/I/41oN5m8A2mL._SL500_.jpg";
+
+export interface GuideProduct {
+  id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
+  imageUrl: string; amazonUrl: string; description: string; specs: string[]; pros: string[]; cons: string[]; bestFor: string;
+}
+export interface BuyingCriterion { criterion: string; explanation: string; }
+export interface FaqItem { q: string; a: string; }
+
+export const products: GuideProduct[] = [
+  {
+    id: "b005k6jqxq-ssfdr",
+    rank: 1,
+    badge: "Best for No-Drilling Dorm Rules",
+    name: "Master Lock Small Travel Safe with Cable, Gray Combination Lock Box, 5900D",
+    price: "$16.17",
+    rating: "4.3",
+    reviews: "18027",
+    imageUrl: "https://m.media-amazon.com/images/I/41oN5m8A2mL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B005K6JQXQ?tag=deskfinds0d-20",
+    description: "A tether cable secures this to a bed frame, desk leg, or radiator, exactly the kind of anti-removal method that works within typical dorm no-drilling policies. A set-your-own four-digit combination avoids carrying a key a roommate could borrow and forget to return.\n\nA dedicated ear bud or charging cable access port lets you charge a phone while it stays locked and tethered, and shock-absorbing foam construction is designed to be water-resistant, useful for the general wear of dorm life.",
+    specs: ["Tether cable, works within no-drilling dorm rules", "4-digit combination, no key to lose or lend", "Charging cable access port"],
+    pros: ["Tether cable specifically avoids needing permission to drill into dorm walls", "No physical key that a roommate could borrow"],
+    cons: ["Tether-only anti-removal, lighter than a mounted steel box"],
+    bestFor: "Students whose housing prohibits wall drilling but who still want anchored security.",
+  },
+  {
+    id: "b004lamjvi-ssfdr",
+    rank: 2,
+    badge: "Best Compact Tethered Option",
+    name: "SentrySafe Small Safe, Black Lock Box with Combination Lock for Office or Dorm",
+    price: "$21.99",
+    rating: "4.3",
+    reviews: "2541",
+    imageUrl: "https://m.media-amazon.com/images/I/317kzwqRXbL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B004LAMJVI?tag=deskfinds0d-20",
+    description: "Explicitly marketed by SentrySafe for dorm use, a resettable three-digit mechanical combination needs no batteries, one less thing to manage during a busy semester. A tethering cable secures it to a fixed object rather than requiring drilling.\n\nSolid steel construction backs the physical protection at a genuinely compact 2.6\" H x 5.9\" W x 8.0\" D exterior, sized for compact items like keys, cash, credit cards, and a USB drive, the realistic scope of what a student actually needs to secure.",
+    specs: ["Explicitly dorm-marketed, tethering cable", "Resettable 3-digit mechanical combination, no batteries", "Compact-item sized (2.6×5.9×8.0 in)"],
+    pros: ["Explicitly marketed by the manufacturer for dorm use", "No-battery mechanical reliability during a busy semester"],
+    cons: ["Small interior, compact items only, not for a laptop"],
+    bestFor: "Students wanting a compact, no-battery, explicitly dorm-marketed safe.",
+  },
+  {
+    id: "b077k1yh8z-ssfdr",
+    rank: 3,
+    badge: "Best for Move-Out Portability",
+    name: "Amazon Basics Portable Security Case Lock Box Safe with Combination Lock",
+    price: "$17.84",
+    rating: "4.4",
+    reviews: "9964",
+    imageUrl: "https://m.media-amazon.com/images/I/31iXiZaJiIL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B077K1YH8Z?tag=deskfinds0d-20",
+    description: "Anti-pry steel construction with a foam-padded interior is explicitly rated for cash, jewelry, documents, and firearms together, a broad scope for a student's actual belongings. A zinc alloy combination lock avoids managing a physical key across a semester's worth of moves in and out of the dorm.\n\nSmall enough to store discreetly and genuinely portable, this packs easily into a moving box or car at the end of the semester without needing to be unmounted first, unlike a bolted-down alternative.",
+    specs: ["Portable, no unmounting needed at move-out", "Foam-padded interior, rated for firearms", "Zinc alloy combination lock"],
+    pros: ["No unmounting required at semester's end, genuinely move-out friendly", "Broad item coverage for typical student belongings"],
+    cons: ["No tether or mounting option, purely portable"],
+    bestFor: "Students prioritizing easy move-out over anchored security.",
+  },
+  {
+    id: "b0fx2969y8-ssfdr",
+    rank: 4,
+    badge: "Best Roommate Privacy Deterrent",
+    name: "Small Safe for Home, 6.69\"H Safe Box with Fireproof Waterproof Bag",
+    price: "$34.99",
+    rating: "4.5",
+    reviews: "298",
+    imageUrl: "https://m.media-amazon.com/images/I/41L5x2i66HL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0FX2969Y8?tag=deskfinds0d-20",
+    description: "The manufacturer directly frames this as a deterrent against roommates, guests, and landlord access, exactly the threat model a dorm safe actually faces. A wrong password entered 3 times triggers a 60-second alarm with mute mode available for discreet use when you don't want to announce you're accessing valuables.\n\nThree unlocking ways, keypad, key, and external battery case, mean no risk of a roommate borrowing your key and forgetting to return it. Reserved anchor holes offer optional concealed mounting if your dorm allows it.",
+    specs: ["10.63×6.69×6.69 in, roommate-privacy framed by manufacturer", "Alarm with mute mode, explicitly for shared-space deterrence", "3 unlocking ways, no risk of a borrowed-and-lost key"],
+    pros: ["Manufacturer explicitly frames this for roommate/guest deterrence, matching the real dorm threat model", "Alarm mute mode avoids announcing valuables in a shared room"],
+    cons: ["Safe body itself is explicitly not fireproof"],
+    bestFor: "Students specifically concerned about roommate or guest access, not break-ins.",
+  },
+  {
+    id: "b078myjyd5-ssfdr",
+    rank: 5,
+    badge: "Most Proven Budget Option",
+    name: "Yuanshikj Small Steel Security Safe Box with Keypad, Key, 0.23 CuFt, Black",
+    price: "$23.99",
+    rating: "4.4",
+    reviews: "22969",
+    imageUrl: "https://m.media-amazon.com/images/I/413jIpPxMOL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B078MYJYD5?tag=deskfinds0d-20",
+    description: "A magnetic auto-locking door means a student rushing to class doesn't need to remember to manually lock up, it secures itself the instant the door closes. Reinforced solid steel construction with dual door locking bolts backs the physical security.\n\nMountable if dorm policy allows, or usable as a portable cash box otherwise, with two emergency keys backing up the keypad, at the lowest price in this comparison for a student budget.",
+    specs: ["0.2 cu ft, self-locking door", "Mountable OR portable depending on dorm policy", "Lowest price in this comparison"],
+    pros: ["Self-locking door suits a rushed student schedule", "Lowest price in this comparison"],
+    cons: ["Compact interior, verify your specific items fit"],
+    bestFor: "Budget-conscious students wanting a proven, self-locking safe.",
+  },
+  {
+    id: "b0d1x55sw4-ssfdr",
+    rank: 6,
+    badge: "Best for Roommate-Shared Access",
+    name: "Digital Electronic Money Safe, Steel Security Lock Box with Keypad, Office",
+    price: "$29.99",
+    rating: "4.2",
+    reviews: "4957",
+    imageUrl: "https://m.media-amazon.com/images/I/41JIC2u6yIL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0D1X55SW4?tag=deskfinds0d-20",
+    description: "Two separate access codes work simultaneously, genuinely useful if you and a trusted roommate want to share a safe without sharing one code. SPCC steel construction with 18mm dual locking bolts backs the physical security at a 4.6-liter capacity.\n\nHidden pry-resistant hinges reinforce privacy, and two mounting pegs let you conceal it on a shelf or wall if your dorm allows light attachment, at a compact footprint suited to shared dorm space.",
+    specs: ["4.6L, SPCC steel, peg-mounting for concealment", "2 independent access codes supported", "Fits closet, drawer, or under a desk"],
+    pros: ["Two independent codes support genuinely shared roommate access"],
+    cons: ["4-step setup process is more involved than simpler competitors"],
+    bestFor: "Roommates wanting to share one safe with independent codes.",
+  },
+  {
+    id: "b0crh68745-ssfdr",
+    rank: 7,
+    badge: "Best Dead-Battery Backup for Dorm Use",
+    name: "Bonsaii Small Safe Box with Electronic Keypad for Valuables, 0.23 Cu.Ft",
+    price: "$37.99",
+    rating: "4.6",
+    reviews: "0",
+    imageUrl: "https://m.media-amazon.com/images/I/41H5aPFQ4kL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CRH68745?tag=deskfinds0d-20",
+    description: "A USB-C interface supporting an external power bank is particularly useful for a dorm room, where a student might not have spare AA batteries on hand but almost certainly has a phone charger or power bank. Two 0.71-inch steel reinforcement bolts and hidden hinges back the mounting.\n\nPre-drilled installation holes let you fix it under a desk, in a closet, or on a shelf if your dorm allows, at 8.98 x 6.46 x 6.61 inches of usable interior.",
+    specs: ["0.23 cu ft, mountable if dorm allows", "USB-C emergency power backup", "Pre-drilled installation holes"],
+    pros: ["USB-C emergency power backup uses a phone charger a student already has on hand"],
+    cons: ["No confirmed usage history for this specific listing yet"],
+    bestFor: "Students wanting dead-battery protection using equipment they already own.",
+  },
+];
+
+export interface HowWeEvaluatedItem { title: string; description: string; }
+export const howWeEvaluated: HowWeEvaluatedItem[] = [
+  { title: "Prioritized tether or portable designs over drilling-dependent mounting", description: "Most dorm housing prohibits permanent wall drilling. We weighted tether-cable and genuinely portable picks accordingly, rather than assuming every buyer can freely install mounting hardware." },
+  { title: "Matched features to the actual dorm threat model: roommates and guests, not break-ins", description: "One pick specifically frames its alarm deterrent around roommate and guest access. We recognized this as matching the real dorm security concern more than generic burglary resistance." },
+  { title: "Weighted move-out portability as a genuine dorm-specific factor", description: "A safe that requires unmounting at semester's end is more friction than a genuinely portable one. We flagged this tradeoff directly." },
+  { title: "Excluded the inaccessible ASIN rather than fabricating its data", description: "One original candidate ASIN returned ItemNotAccessible from the product catalog API at research time. We excluded it and disclosed the gap rather than guessing." },
+];
+
+export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
+export const howToChoose: HowToChooseSection[] = [
+  {
+    subheading: "By Dorm-Specific Priority",
+    table: {
+      headers: ["Priority", "Recommended pick"],
+      rows: [
+        ["No-drilling housing rules", "Master Lock Small Travel Safe with Cable"],
+        ["Explicitly dorm-marketed, compact", "SentrySafe Small Safe with Combination Lock"],
+        ["Easy move-out at semester's end", "Amazon Basics Portable Security Case"],
+        ["Roommate/guest privacy deterrent", "Small Safe for Home, 6.69\"H (alarm + mute)"],
+      ],
+    },
+  },
+  {
+    subheading: "Check Your Housing Policy Before Drilling",
+    note: "Confirm your specific dorm or housing policy on wall drilling and permanent fixtures before assuming any mounting-hardware-included safe can actually be installed. If you're unsure or the policy prohibits it, the tether-cable and genuinely portable picks here avoid that problem entirely.",
+  },
+];
+
+export const buyingCriteria: BuyingCriterion[] = [
+  { criterion: "Confirm your housing's drilling policy before buying a mountable safe", explanation: "Many dorms prohibit permanent wall fixtures. Verify this before assuming mounting hardware included in the box can actually be installed." },
+  { criterion: "Weigh the real dorm threat model: roommates and guests, not break-ins", explanation: "A dorm safe's main job is usually privacy from people who already have room access, not resisting a forced break-in. Features like alarm deterrents matter more here than raw steel thickness." },
+  { criterion: "Consider move-out portability if you'll relocate at semester's end", explanation: "A genuinely portable safe avoids the hassle of unmounting hardware every time you move between semesters or housing." },
+  { criterion: "Avoid relying on a physical key a roommate could borrow", explanation: "A combination or keypad design avoids the specific dorm risk of a roommate borrowing your only key and losing it." },
+  { criterion: "Match capacity to actual student belongings, not a full valuables collection", explanation: "Most dorm safes here suit cash, a passport, jewelry, and small electronics, not a laptop or bulky items. Check interior dimensions against your specific needs." },
+];
+
+export const faq: FaqItem[] = [
+  { q: "What's the best dorm safe if I can't drill into the walls?", a: "The Master Lock Small Travel Safe with Cable, which tethers to a bed frame or desk rather than requiring wall mounting." },
+  { q: "Is there an option specifically marketed for dorm use?", a: "Yes, the SentrySafe Small Safe with Combination Lock is explicitly marketed by the manufacturer for office or dorm use." },
+  { q: "What's easiest to move out at the end of the semester?", a: "The Amazon Basics Portable Security Case, which requires no unmounting since it was never fixed in place." },
+  { q: "Is there an option specifically designed to deter roommates rather than burglars?", a: "Yes, the Small Safe for Home is explicitly framed by the manufacturer around roommate, guest, and landlord access deterrence." },
+  { q: "Why does this list have 7 products instead of 8?", a: "One original candidate ASIN was not accessible through the Amazon catalog API at research time, so we excluded it rather than fabricating its data." },
+];
+
+export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-personal-small-safes", title: "Best Personal Small Safes (2026)" },
+  { href: "/guide/best-portable-small-safes", title: "Best Portable Small Safes (2026)" },
+  { href: "/guide/best-small-safes-for-apartments", title: "Best Small Safes for Apartments (2026)" },
+];

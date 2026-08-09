@@ -1,0 +1,201 @@
+export const guideSlug = "best-small-safe-boxes";
+export const guideTitle = "8 Best Small Safe Boxes in 2026";
+export const metaTitle = "Best Small Safe Boxes (2026)";
+export const metaDescription =
+  "8 safe boxes compared by actual construction type, mountable steel security boxes versus lighter portable lockboxes, since the two aren't equally theft-resistant.";
+export const mainKeyword = "small safe boxes";
+export const introParagraphs = [
+  "Safe box is a loose term covering everything from a mountable steel security safe to a lightweight portable lockbox, and the two aren't equally resistant to being carried away by a thief. We classified each pick by its actual construction and mounting capability rather than treating every safe box as the same product.",
+  "We also checked whether each pick includes mounting hardware directly in the box, since a safe box that's genuinely anchorable is a meaningfully different purchase from one that only locks its door.",
+];
+export const lastUpdated = "2026-08-09";
+export const readTime = "8 min";
+export const heroImage = "https://m.media-amazon.com/images/I/413jIpPxMOL._SL500_.jpg";
+
+export interface GuideProduct {
+  id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
+  imageUrl: string; amazonUrl: string; description: string; specs: string[]; pros: string[]; cons: string[]; bestFor: string;
+}
+export interface BuyingCriterion { criterion: string; explanation: string; }
+export interface FaqItem { q: string; a: string; }
+
+export const products: GuideProduct[] = [
+  {
+    id: "b078myjyd5-ssb",
+    rank: 1,
+    badge: "Best Overall Mountable Box",
+    name: "Yuanshikj Small Steel Security Safe Box with Keypad, Key, 0.23 CuFt, Black",
+    price: "$23.99",
+    rating: "4.4",
+    reviews: "22969",
+    imageUrl: "https://m.media-amazon.com/images/I/413jIpPxMOL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B078MYJYD5?tag=deskfinds0d-20",
+    description: "A genuine mountable steel security box, not just a lockbox, with dual steel door locking bolts and a corrosion-resistant powder coat finish over reinforced solid steel wall construction. Pre-drilled mounting holes with bolts included let you actually anchor it rather than leave it sitting loose.\n\nA magnetic auto-locking door closes and locks itself the moment you shut it, removing the risk of an accidentally unsecured box, at 9.05 x 6.69 x 6.69 inches exterior with 2 emergency keys included for backup access.",
+    specs: ["0.2 cu ft, mountable steel security box", "Dual steel locking bolts, magnetic auto-lock door", "Pre-drilled mounting holes + bolts included"],
+    pros: ["Genuine mountable security box with included hardware, not just a lockbox", "Magnetic auto-locking door prevents accidental unlocked storage"],
+    cons: ["Compact interior, verify your specific items fit"],
+    bestFor: "Buyers wanting a true anchored security box rather than a portable lockbox.",
+  },
+  {
+    id: "b0crh68745-ssb",
+    rank: 2,
+    badge: "Best for Dead-Battery Backup",
+    name: "Bonsaii Small Safe Box with Electronic Keypad for Valuables, 0.23 Cu.Ft",
+    price: "$37.99",
+    rating: "4.6",
+    reviews: "0",
+    imageUrl: "https://m.media-amazon.com/images/I/41H5aPFQ4kL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CRH68745?tag=deskfinds0d-20",
+    description: "Two 0.71-inch steel reinforcement bolts and hidden hinges back a mountable steel design, but the real differentiator is the USB-C interface that supports an external power bank if the internal battery dies, avoiding a full lockout. Personal password or emergency key both work for daily or backup access.\n\nTwo pre-drilled installation holes on the back and bottom let you fix it under a closet, drawer, or table, at 9.06 x 6.69 x 6.69 inches exterior with 8.98 x 6.46 x 6.61 inches of usable interior.",
+    specs: ["0.23 cu ft, mountable steel security box", "USB-C emergency power backup", "Pre-drilled installation holes"],
+    pros: ["USB-C emergency power backup, unique dead-battery solution among the safe boxes here"],
+    cons: ["No confirmed usage history for this specific listing yet"],
+    bestFor: "Buyers wanting a mountable box with a genuine dead-battery recovery plan.",
+  },
+  {
+    id: "b0d1x55sw4-ssb",
+    rank: 3,
+    badge: "Best for Multi-Code Access",
+    name: "Digital Electronic Money Safe, Steel Security Lock Box with Keypad, Office",
+    price: "$29.99",
+    rating: "4.2",
+    reviews: "4957",
+    imageUrl: "https://m.media-amazon.com/images/I/41JIC2u6yIL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0D1X55SW4?tag=deskfinds0d-20",
+    description: "A genuinely mountable box built from SPCC steel with 18mm dual locking bolts, sized at 4.6 liters to fit a closet, drawer, or under a table. It accepts two separate access codes for multi-user access, useful if two household members each want an independent code rather than sharing one.\n\nHidden pry-resistant hinges back up the code system with physical resistance, and the package includes an anti-scratch carpet liner to protect the mounting surface plus a full printed manual.",
+    specs: ["4.6L, SPCC steel, mountable design", "2 independent access codes supported", "Includes anti-scratch carpet liner + manual"],
+    pros: ["Supports two independent codes for multi-user households"],
+    cons: ["4-step setup process is more involved than simpler competitors"],
+    bestFor: "Two-person households wanting independent access codes on a mountable box.",
+  },
+  {
+    id: "b09sz6gpgr-ssb",
+    rank: 4,
+    badge: "Best for Low-Light Access",
+    name: "Voncabay Money Safe Box for Home with Digital Keypad, 0.23 Cu. Ft., Black",
+    price: "$31.99",
+    rating: "4.5",
+    reviews: "3167",
+    imageUrl: "https://m.media-amazon.com/images/I/41QPOblOKSL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B09SZ6GPGR?tag=deskfinds0d-20",
+    description: "An automatic interior light switches on for 30 seconds when the keypad opens the box, a genuine usability feature if it's tucked into a dim closet or cabinet. The keypad confirms correct entries with an indicator light and warns of a low battery before it actually dies.\n\nReinforced alloy steel construction with pry-resistant concealed hinges backs the physical security, and a three-wrong-entries lockout triggers a 5-minute cooldown as a real deterrent against code guessing.",
+    specs: ["0.23 cu ft, mountable steel box", "Auto interior light, low-battery warning", "3-wrong-entry lockout (5 min)"],
+    pros: ["Auto interior light genuinely helps in dim storage locations", "Low-battery warning avoids a surprise lockout"],
+    cons: ["Compact interior similar to the other budget mountable options"],
+    bestFor: "Buyers placing the box somewhere dim and wanting light-assisted access.",
+  },
+  {
+    id: "b0ckpf8gf9-ssb",
+    rank: 5,
+    badge: "Largest Capacity Mountable Box",
+    name: "Bonsaii Safe Box with Electronic Keypad for Home Office, 0.6 Cu.Ft",
+    price: "$52.24",
+    rating: "4.6",
+    reviews: "1326",
+    imageUrl: "https://m.media-amazon.com/images/I/41Q5YDqAEdL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CKPF8GF9?tag=deskfinds0d-20",
+    description: "At 0.6 cubic feet, this is the largest genuinely mountable box in this comparison, with a removable shelf for splitting valuables into layers and a felt-lined bottom to prevent scratching. Two 18mm steel locking bolts back the mounting holes and two included expansion screws.\n\nThree access methods, personal code, an emergency override key, or a Type-C cable into the battery box, mean no single point of failure locks you out, genuinely useful for a box holding more than the compact budget options here.",
+    specs: ["0.6 cu ft, removable shelf, mountable design", "Two 18mm steel locking bolts", "3 access methods: code, key, or USB-C emergency power"],
+    pros: ["Largest capacity mountable box in this comparison", "Three independent access methods including dead-battery recovery"],
+    cons: ["Highest price among the mountable steel box options here"],
+    bestFor: "Buyers wanting the roomiest mountable box with a real backup access plan.",
+  },
+  {
+    id: "b0f62vkh88-ssb",
+    rank: 6,
+    badge: "Most Configurable Access Features",
+    name: "[UPGRADED] Small Safes for Home, 0.30 Cuft Mini Safe Box",
+    price: "$35.99",
+    rating: "4.3",
+    reviews: "902",
+    imageUrl: "https://m.media-amazon.com/images/I/414LF-aE4zL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0F62VKH88?tag=deskfinds0d-20",
+    description: "The manufacturer directly states this is a light-duty box, not built for thick binders, positioning it for cash, jewelry, and passports specifically at a 42mm-thick door with two 20mm locking bolts. Two pre-drilled holes make it mountable rather than a loose portable box.\n\nA wrong-entry alarm includes a toggleable silent mode, useful if the box sits somewhere a loud alarm would be disruptive, and a serial-number-based backup key replacement service covers a lost key, a genuine service most competitors don't offer.",
+    specs: ["0.3 cu ft, mountable, 42mm door", "Toggleable silent alarm on wrong entry", "Serial-number backup key replacement service"],
+    pros: ["Serial-number key replacement service if the physical key is lost", "Toggleable silent alarm for discreet placement"],
+    cons: ["Manufacturer explicitly states it's not built for bulkier items"],
+    bestFor: "Buyers wanting a mountable box with a documented lost-key recovery path.",
+  },
+  {
+    id: "b0dwmhjghp-ssb",
+    rank: 7,
+    badge: "Best Documented Setup Instructions",
+    name: "PATRON Small Safe Box for Money with Code and Keys, Solid Mini Safe for Kids",
+    price: "$28.99",
+    rating: "4.5",
+    reviews: "298",
+    imageUrl: "https://m.media-amazon.com/images/I/41iTPTu+ahL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DWMHJGHP?tag=deskfinds0d-20",
+    description: "A mountable design with pre-drilled holes and two expansion screws included, and the listing carries a genuinely useful explicit warning: never store the emergency keys inside the box itself. Two solid anti-pry bolts and a corrosion-resistant coating back the physical construction.\n\nA full accessory bundle, two emergency keys, two mounting bolts, a scratch-resistant carpet liner, and a manual, matches the pricier picks here at a lower cost, at 6.7 x 9.0 x 6.7 inches for a drawer, cabinet, or nightstand.",
+    specs: ["0.236 cu ft, mountable design", "2 anti-pry steel bolts, corrosion-resistant coating", "Explicit warning against storing keys inside the box"],
+    pros: ["Explicit key-storage warning, a genuinely useful detail most listings skip", "Full accessory bundle at a lower price than comparable picks"],
+    cons: ["Compact capacity similar to the other budget mountable options"],
+    bestFor: "First-time buyers who'll appreciate the explicit setup and key-storage guidance.",
+  },
+  {
+    id: "b07ddfqhvp-ssb",
+    rank: 8,
+    badge: "True Portable Lockbox (Not Mountable)",
+    name: "KYODOLED Small Metal Lock Box with Key for Cash and Medication, 2 Keys",
+    price: "$13.49",
+    rating: "4.6",
+    reviews: "17441",
+    imageUrl: "https://m.media-amazon.com/images/I/41rUL1UQtbL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B07DDFQHVP?tag=deskfinds0d-20",
+    description: "This is genuinely a portable lockbox, not a mountable security safe, included honestly here since safe box searches often surface this lighter category too. A built-in handle makes it easy to carry, and a 2-layer design includes a removable coin tray with 5 compartments over a bottom space for checks or small valuables.\n\nBasic key-lock privacy suits petty cash, medication, or kids' small treasures rather than genuine theft deterrence, and 2 keys are included for backup. At the lowest price in this entire comparison by a wide margin.",
+    specs: ["Portable lockbox, not mountable", "2-layer design with removable 5-compartment coin tray", "Built-in carry handle, 2 keys included"],
+    pros: ["Lowest price in this entire comparison by a wide margin", "Removable coin tray adds genuine small-item organization"],
+    cons: ["Not mountable, provides basic privacy rather than genuine theft deterrence"],
+    bestFor: "Buyers needing basic privacy for petty cash or medication, not anchored security.",
+  },
+];
+
+export interface HowWeEvaluatedItem { title: string; description: string; }
+export const howWeEvaluated: HowWeEvaluatedItem[] = [
+  { title: "Classified mountable security boxes separately from portable lockboxes", description: "Seven picks here are genuinely mountable steel security boxes with included hardware; one is a true portable lockbox. We labeled the distinction directly rather than ranking them on one undifferentiated scale." },
+  { title: "Verified mounting hardware inclusion, not just door locking", description: "We checked whether pre-drilled holes and expansion bolts ship in the box, since an unanchored box, however well locked, can simply be carried away." },
+  { title: "Compared access-recovery methods across picks", description: "Several picks confirm USB-C or external battery backup for dead-battery scenarios; others rely on key-only backup. We noted which offers a genuine recovery path versus which requires finding a physical key." },
+  { title: "Distinguished genuine theft deterrence from basic privacy", description: "The one true portable lockbox here offers basic privacy, not anchored security. We labeled it honestly rather than implying equivalent protection to the mountable steel boxes." },
+];
+
+export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
+export const howToChoose: HowToChooseSection[] = [
+  {
+    subheading: "By What Matters Most",
+    table: {
+      headers: ["Priority", "Recommended pick"],
+      rows: [
+        ["Best overall mountable box", "Yuanshikj Small Steel Security Safe Box"],
+        ["Largest mountable capacity", "Bonsaii Safe Box with Electronic Keypad, 0.6 Cu.Ft"],
+        ["Dead-battery backup access", "Bonsaii Small Safe Box (USB-C backup)"],
+        ["Basic portable privacy, lowest cost", "KYODOLED Small Metal Lock Box"],
+      ],
+    },
+  },
+  {
+    subheading: "Mountable Security Box vs. Portable Lockbox",
+    note: "If genuine theft deterrence matters, choose a mountable steel box with included hardware and actually anchor it, an unmounted box can simply be carried away regardless of lock quality. If you just need basic privacy for petty cash or medication in a low-risk setting, a portable lockbox like the KYODOLED pick is a reasonable, much cheaper choice.",
+  },
+];
+
+export const buyingCriteria: BuyingCriterion[] = [
+  { criterion: "Confirm whether the safe box is genuinely mountable or just a portable lockbox", explanation: "Seven picks here include mounting hardware for real anchoring; one is a lighter portable lockbox offering privacy, not theft deterrence. Verify which category actually matches your security need." },
+  { criterion: "Check for a dead-battery or lost-key recovery path", explanation: "Several picks here confirm USB-C emergency power or a documented key-replacement service. A box with no recovery plan can leave you fully locked out." },
+  { criterion: "Weigh interior capacity against your actual items, not just cubic feet", explanation: "Interior dimensions vary meaningfully between picks even at similar exterior sizes. Check specific interior measurements against what you're storing." },
+  { criterion: "Verify mounting hardware is included, not sold separately", explanation: "All the mountable picks here include pre-drilled holes and expansion bolts. Don't assume a competitor listing includes this without checking." },
+  { criterion: "Consider a light auto-lock or auto-illumination feature if the box sits somewhere dim or high-traffic", explanation: "Auto-locking doors and interior lights are genuine usability features that reduce accidental unlocked storage or fumbling in a dark closet." },
+];
+
+export const faq: FaqItem[] = [
+  { q: "What's the best overall mountable safe box?", a: "The Yuanshikj Small Steel Security Safe Box, with genuine mounting hardware and a magnetic auto-locking door." },
+  { q: "Is there a portable lockbox rather than a mountable safe?", a: "Yes, the KYODOLED Small Metal Lock Box is a true portable lockbox offering basic privacy rather than anchored security, at the lowest price in this comparison." },
+  { q: "Which pick has the largest mountable capacity?", a: "The Bonsaii Safe Box with Electronic Keypad at 0.6 cubic feet." },
+  { q: "Is there an option with a dead-battery backup?", a: "Yes, the Bonsaii Small Safe Box confirms a USB-C interface supporting an external power bank if the internal battery dies." },
+  { q: "What happens if I lose the physical key?", a: "The [UPGRADED] Small Safes for Home pick offers a serial-number-based backup key replacement service; most other picks require keeping a spare key stored separately from the safe." },
+];
+
+export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-small-safe-lock-boxes", title: "Best Small Safe Lock Boxes (2026)" },
+  { href: "/guide/best-small-safes", title: "Best Small Safes (2026)" },
+  { href: "/guide/best-small-safes-for-money", title: "Best Small Safes for Money (2026)" },
+];

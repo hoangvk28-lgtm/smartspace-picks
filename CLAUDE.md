@@ -372,6 +372,18 @@ Three exports are involved, and they serve **different purposes at different dep
 - Do NOT use em dash or en dash anywhere in descriptions
 - The `description` field is rendered by splitting on `\n\n` — each segment becomes a separate `<p>` tag in the UI
 
+### MANDATORY: Mine the real `features` data before writing any description — never write generic filler
+
+**This is a recurring, systemic failure mode — do not repeat it.** A batch of 17 guides (carts cluster, 2026-08-09) shipped with product descriptions that were pure filler: paraphrased rating/price/capacity with no real product-specific detail (e.g. "A proven, well-documented choice... strong review base... reasonable option"). This reads as templated and provides zero buyer value, even though the *data* to do better was already sitting in the fetch script's cached JSON (`scripts/lookup-*.json`, `data-*.json`) the whole time — the API's `itemInfo.features` bullet points contain genuinely specific details (exact dimensions, bolt/hinge specs, wattage per port, included accessories, unique mechanisms) that were simply never read before writing.
+
+**Required workflow for every product description, no exceptions:**
+1. Before writing a single description, dump the full `features` array for every ASIN in the batch (e.g. `node -e "..."` printing `lookup[asin].features.join('\n')` per ASIN) and actually read it.
+2. Pull out 2-4 concrete, specific facts per product — exact measurements, a named mechanism (e.g. "18mm locking bolts", "magnetic auto-lock door", "one-point lock with 2 cable grommet holes"), a wattage/port spec, an included-accessory list, a distinguishing behavior no other pick in the same article has.
+3. Build the description around those specifics, explaining *why* the detail matters to the buyer's actual use case — not just restating the spec sheet as a list.
+4. **A description is not acceptable if it could be reused verbatim for a different product in the same category by swapping the name.** If you can't point to a sentence that only makes sense for *this exact ASIN*, go back to the features data.
+5. This applies per-article even when the same ASIN reappears across sibling guides (e.g. the same cart shows up in both "best laptop charging carts" and "best laptop charging carts for schools") — reframe the same real facts around that article's specific angle (a district-procurement angle vs. a home-office angle) rather than copy-pasting the paragraph. Do not, however, re-fetch data you already have cached for that ASIN.
+6. Before marking a batch done, spot-check: pick 3 random product descriptions and ask "does this sentence exist because of a real feature, or because it sounds plausible?" If any answer is the latter, the batch is not done.
+
 ---
 
 ## 8. Scoring Rules

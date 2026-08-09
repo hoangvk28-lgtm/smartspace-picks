@@ -1,0 +1,201 @@
+export const guideSlug = "best-small-safes-for-home";
+export const guideTitle = "8 Best Small Safes for Home in 2026";
+export const metaTitle = "Best Small Safes for Home (2026)";
+export const metaDescription =
+  "8 small safes compared for household placement, access recovery, and protection type, from basic security boxes to one confirmed fireproof option.";
+export const mainKeyword = "small safes for home";
+export const introParagraphs = [
+  "A home safe needs to fit realistically in a closet, cabinet, or bedroom, with an access plan the whole household can actually use. We compared confirmed capacity, access method, and protection type across these picks, and flagged the one listing here that specifically claims fire resistance versus the others that only offer basic theft deterrence.",
+  "None of these listings had independently verified anchoring instructions specific to common home substrates like drywall over wood studs, so we're noting that as something to confirm directly before installation.",
+];
+export const lastUpdated = "2026-08-09";
+export const readTime = "8 min";
+export const heroImage = "https://m.media-amazon.com/images/I/41Q5YDqAEdL._SL500_.jpg";
+
+export interface GuideProduct {
+  id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
+  imageUrl: string; amazonUrl: string; description: string; specs: string[]; pros: string[]; cons: string[]; bestFor: string;
+}
+export interface BuyingCriterion { criterion: string; explanation: string; }
+export interface FaqItem { q: string; a: string; }
+
+export const products: GuideProduct[] = [
+  {
+    id: "b0ckpf8gf9-ssfh",
+    rank: 1,
+    badge: "Best Overall",
+    name: "Bonsaii Safe Box with Electronic Keypad for Home Office, 0.6 Cu.Ft",
+    price: "$52.24",
+    rating: "4.6",
+    reviews: "1326",
+    imageUrl: "https://m.media-amazon.com/images/I/41Q5YDqAEdL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CKPF8GF9?tag=deskfinds0d-20",
+    description: "For a household that wants one safe covering passports, jewelry, and a laptop's worth of documents, this is the roomiest option here at 13.78 x 9.84 x 9.84 inches with a removable interior shelf for splitting valuables into layers. It's built from SPCC steel with two 18mm locking bolts, and pre-drilled holes with two included expansion screws let you actually fix it inside a wall cabinet, so it isn't just sitting loose in a closet.\n\nThe household-relevant detail is the three-way access: personal code for daily use, an emergency override key for backup, or a Type-C cable into the battery box if the internal batteries die and no one in the house has the code memorized. That third path matters specifically for shared home use, where a dead battery at an inconvenient moment (say, needing a passport before a flight) shouldn't mean being locked out entirely.",
+    specs: ["0.6 cu ft (13.78×9.84×9.84 in), removable shelf", "Two 18mm steel locking bolts", "3 access methods: code, key, or USB-C emergency power"],
+    pros: ["Largest capacity here, fits passports, jewelry, and documents together", "USB-C emergency power backup prevents a full lockout if batteries die", "Wall-cabinet mounting holes and screws included"],
+    cons: ["No claimed fire or water resistance, theft deterrence only", "Needs a separately owned power bank to use the USB-C backup"],
+    bestFor: "Households wanting one roomy safe for mixed valuables with a real backup-access plan.",
+  },
+  {
+    id: "b078myjyd5-ssfh",
+    rank: 2,
+    badge: "Most Proven Overall",
+    name: "Yuanshikj Small Steel Security Safe Box with Keypad, Key, 0.23 CuFt, Black",
+    price: "$23.99",
+    rating: "4.4",
+    reviews: "22969",
+    imageUrl: "https://m.media-amazon.com/images/I/413jIpPxMOL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B078MYJYD5?tag=deskfinds0d-20",
+    description: "With nearly 23,000 reviews, this is by a wide margin the most bought and reviewed small safe on the market, and for a household deciding between a dozen similar-looking options, that sample size alone is a meaningful signal. It's built from reinforced solid steel with dual door locking bolts and a corrosion-resistant powder coat finish, which matters if the safe ends up in a garage, basement, or humid closet rather than climate-controlled.\n\nThe magnetic auto-locking door is the standout household feature: it locks itself the instant you close it, so there's no risk of a kid or guest finding it accidentally left open. At 9.05 x 6.69 x 6.69 inches exterior, it's genuinely compact, sized for cash, a passport, or jewelry rather than a stack of files, and two emergency keys ship in the box in case someone in the household forgets the code.",
+    specs: ["0.2 cu ft (9.05×6.69×6.69 in ext, 6.29×8.9×5.12 in int)", "Dual steel locking bolts, magnetic auto-lock door", "Pre-drilled mounting holes + bolts included"],
+    pros: ["By far the largest and most proven review base of any safe in this comparison", "Self-locking door removes the risk of an accidentally unsecured safe", "Mounting hardware included for wall or floor anchoring"],
+    cons: ["Compact interior, verify your household's specific items fit before buying", "No fire or water resistance claim"],
+    bestFor: "Budget-conscious households wanting the single most proven small safe available.",
+  },
+  {
+    id: "b09sz6gpgr-ssfh",
+    rank: 3,
+    badge: "Best Reviewed Budget Option",
+    name: "Voncabay Money Safe Box for Home with Digital Keypad, 0.23 Cu. Ft., Black",
+    price: "$31.99",
+    rating: "4.5",
+    reviews: "3167",
+    imageUrl: "https://m.media-amazon.com/images/I/41QPOblOKSL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B09SZ6GPGR?tag=deskfinds0d-20",
+    description: "The automatic interior light here is a genuinely practical household feature: it switches on for 30 seconds when the keypad opens the door, useful if the safe lives on a low closet shelf or in a dim corner where digging around for a passport or jewelry by feel isn't ideal. The keypad also gives clear feedback, an indicator light confirms whether your code was entered correctly, and it warns with a red light before the batteries actually run out.\n\nBuilt from reinforced alloy steel with pry-resistant concealed hinges and a tamper-proof door, it also includes a separate waterproof and fireproof document bag inside, useful for birth certificates or a passport specifically, even though the safe body itself isn't fire-rated. A three-wrong-entries lockout (5-minute cooldown) adds a real deterrent if a curious kid tries guessing the code repeatedly.",
+    specs: ["0.23 cu ft (9×6.6×6.5 in exterior, 8.6×6.2×6.1 in interior)", "Auto interior light, low-battery warning light", "3-wrong-entry lockout (5 min), includes fireproof document bag"],
+    pros: ["Auto interior light genuinely helps in a dim closet or cabinet", "Low-battery warning avoids a surprise lockout", "Includes a fireproof/waterproof bag for critical paper documents"],
+    cons: ["Smaller interior than the Bonsaii top pick", "The included bag protects documents specifically, not the whole safe, from fire"],
+    bestFor: "Households wanting light-assisted access in a dim storage spot plus a documented low-battery warning.",
+  },
+  {
+    id: "b00csmv7be-ssfh",
+    rank: 4,
+    badge: "Best for Anti-Removal Security",
+    name: "Honeywell Safes & Door Locks - Bolt Down Small Safe Box with Digital Lock",
+    price: "$65.99",
+    rating: "4.4",
+    reviews: "2317",
+    imageUrl: "https://m.media-amazon.com/images/I/31i0vOFYG3L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B00CSMV7BE?tag=deskfinds0d-20",
+    description: "For a household specifically worried about a break-in rather than just casual access by family members, this is the pick that actually addresses that threat model: it ships with pre-drilled mounting holes and all hardware needed to bolt it to a closet floor or shelf. A locked-but-unanchored safe can simply be picked up and carried out by an intruder; this one is designed to be physically fixed in place first.\n\nBeyond the anchoring, it's solid steel cabinet and door construction with two solid steel live lock bolts and a programmable digital keypad, backed by two emergency override keys. The scratch-resistant black powder coat finish is a small durability detail worth noting: it resists the chipping that exposes bare steel to rust on cheaper painted safes over years of household use.",
+    specs: ["Bolt-down mounting hardware + pre-drilled holes included", "Solid steel cabinet and door, 2 solid steel live lock bolts", "Scratch-resistant black powder coat finish, 2 emergency keys"],
+    pros: ["Only pick here with confirmed factory bolt-down hardware for genuine anti-removal security", "Established brand with a longer institutional track record"],
+    cons: ["Highest price in this comparison", "Requires suitable flooring or shelving to bolt into"],
+    bestFor: "Households whose primary concern is a break-in, not just casual access by family members.",
+  },
+  {
+    id: "b0g4cx2w7j-ssfh",
+    rank: 5,
+    badge: "Only Fireproof Option",
+    name: "1.3 Cub Small Fireproof Safe for Home, Security Anti-Theft Fire Proof Safe",
+    price: "$69.99",
+    rating: "4.5",
+    reviews: "114",
+    imageUrl: "https://m.media-amazon.com/images/I/41DIhJjyfIL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0G4CX2W7J?tag=deskfinds0d-20",
+    description: "If your household's actual priority is protecting irreplaceable documents and heirlooms from a house fire, not just theft, this is the only pick in this entire comparison that claims fire resistance, and it's also the largest at 1.3 cubic feet with a removable shelf and soft felt-lined flooring to keep items from scratching each other. Solid steel construction includes three round 20mm locking bolts, a 45mm reinforced pry-resistant door, and internal concealed hinges.\n\nThe household-specific features are genuinely thoughtful: a dual alarm system triggers after three wrong password attempts (with a silent mode so it doesn't wake a sleeping household), and an automatic LED light activates for visibility in low light. Three access paths, code, spare keys, or external battery case, mean no single point of failure locks a family out, and anchoring hardware is included for wall or floor mounting.",
+    specs: ["1.3 cu ft, 45mm door, 3× 20mm locking bolts", "Claimed fire resistance, removable shelf, felt-lined interior", "3 access methods, dual alarm with silent mode, auto LED light"],
+    pros: ["Only pick with a claimed fire protection rating, largest capacity too", "Silent alarm mode avoids waking a sleeping household", "Three independent access paths (code, key, external battery)"],
+    cons: ["Smaller review base than the top budget-security picks", "Exact fire rating duration/temperature not independently confirmed in our data"],
+    bestFor: "Households prioritizing document and heirloom protection from fire, not just theft deterrence.",
+  },
+  {
+    id: "b0f62vkh88-ssfh",
+    rank: 6,
+    badge: "Moderate Capacity Option",
+    name: "[UPGRADED] Small Safes for Home, 0.30 Cuft Mini Safe Box",
+    price: "$35.99",
+    rating: "4.3",
+    reviews: "902",
+    imageUrl: "https://m.media-amazon.com/images/I/414LF-aE4zL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0F62VKH88?tag=deskfinds0d-20",
+    description: "The manufacturer is explicit that this is a light-duty safe, not meant for thick binders or multiple books, positioning it squarely for cash, jewelry, passports, and a handful of documents at 10.63 x 6.69 x 6.69 inches. It uses two 20mm locking bolts and a 42mm-thick door, thicker than several cheaper competitors, in a matte black finish designed to blend into a closet rather than stand out.\n\nTwo household-relevant details push it above a generic budget safe: a wrong-entry alarm with a toggleable silent mode (hold * then press 8), useful if the safe sits in a bedroom and you don't want an alarm blaring at 2am over a mistyped code, and a backup-key replacement service tied to the safe's unique serial number if a household member ever loses the physical key entirely. It also includes a separate fireproof bag, though the safe body itself isn't rated.",
+    specs: ["0.3 cu ft (10.63×6.69×6.69 in), 42mm door thickness", "2× 20mm bolts, wrong-entry alarm with toggleable silent mode", "Serial-number-based backup key replacement service"],
+    pros: ["Toggleable silent alarm avoids waking the household over a mistyped code", "Serial-number key replacement service if the physical key is lost", "Thicker 42mm door than several cheaper competitors"],
+    cons: ["Manufacturer states it's not built for bulkier items like binders", "No fire rating on the safe body itself, only the included bag"],
+    bestFor: "Households wanting an alarm deterrent that won't disturb sleep, plus a real lost-key recovery path.",
+  },
+  {
+    id: "b0crh68745-ssfh",
+    rank: 7,
+    badge: "Same Trusted Brand, Compact Size",
+    name: "Bonsaii Small Safe Box with Electronic Keypad for Valuables, 0.23 Cu.Ft",
+    price: "$37.99",
+    rating: "4.6",
+    reviews: "0",
+    imageUrl: "https://m.media-amazon.com/images/I/41H5aPFQ4kL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CRH68745?tag=deskfinds0d-20",
+    description: "For a household that likes the Bonsaii top pick's design and backup-access system but doesn't need 0.6 cubic feet of space, this scales the same idea down to 9.06 x 6.69 x 6.69 inches exterior. It keeps the SPHC steel body, two 0.71-inch reinforcement bolts, hidden hinges, and, importantly, the same USB-C emergency power interface, so a dead battery still doesn't mean a full lockout if a household member has a power bank on hand.\n\nThe accessory bundle matches the larger model: two emergency keys, two expansion bolts for mounting, a floor mat, and a manual. This specific listing hadn't accumulated a confirmed review count in our data pull at research time, so weigh the strong track record of the sister Bonsaii product against the fact that this exact compact SKU is comparatively unproven.",
+    specs: ["0.23 cu ft (9.06×6.69×6.69 in ext, 8.98×6.46×6.61 in int)", "SPHC steel, two 0.71-inch reinforcement bolts, hidden hinges", "USB-C emergency power backup, same as the larger Bonsaii pick"],
+    pros: ["Same trusted Bonsaii construction and USB-C backup access in a smaller footprint", "Full accessory bundle: keys, mounting bolts, floor mat, manual"],
+    cons: ["No confirmed review count for this specific listing yet"],
+    bestFor: "Households wanting the Bonsaii brand's backup-power convenience in a more compact size.",
+  },
+  {
+    id: "b0dwmhjghp-ssfh",
+    rank: 8,
+    badge: "Best for Kid-Inclusive Households",
+    name: "PATRON Small Safe Box for Money with Code and Keys, Solid Mini Safe for Kids",
+    price: "$28.99",
+    rating: "4.5",
+    reviews: "298",
+    imageUrl: "https://m.media-amazon.com/images/I/41iTPTu+ahL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DWMHJGHP?tag=deskfinds0d-20",
+    description: "At 6.7 x 9.0 x 6.7 inches and 0.236 cubic feet, this fits easily in a drawer, nightstand, or shelf, and the listing carries an explicit, genuinely useful reminder: never store the emergency keys inside the safe itself. That's a common household mistake this listing specifically calls out rather than leaving buyers to figure out on their own.\n\nConstruction is heavy-duty steel with a corrosion-resistant coating and two solid anti-pry bolts, the same security-grade hardware as the adult-focused picks here despite the kid-friendly marketing angle. The full accessory bundle, two emergency keys, two mounting bolts, a scratch-resistant carpet liner, and a manual, matches pricier competitors at a lower cost, making it a reasonable pick for a household wanting a genuinely secure first safe for a kid's allowance or small valuables, not a toy-grade lockbox.",
+    specs: ["0.236 cu ft (6.7×9.0×6.7 in)", "2 anti-pry steel bolts, corrosion-resistant coating", "2 access methods: digital password or manual key turn"],
+    pros: ["Full-strength steel and bolt construction despite kid-focused marketing", "Explicit reminder against storing keys inside the safe, a common household mistake", "Complete accessory bundle at a lower price than comparable picks"],
+    cons: ["Smaller review base than the top three picks", "No fire or water resistance claim"],
+    bestFor: "Households wanting a genuinely secure (not toy-grade) first safe for a kid, or a second unit for shared family use.",
+  },
+];
+
+export interface HowWeEvaluatedItem { title: string; description: string; }
+export const howWeEvaluated: HowWeEvaluatedItem[] = [
+  { title: "Separated the one confirmed fireproof pick from basic security safes", description: "Only one listing (the 1.3 cubic foot pick) claims fire protection. We flagged this clearly rather than implying the other seven offer equivalent disaster protection." },
+  { title: "Weighed anchoring for households wanting anti-removal security", description: "Only the Honeywell bolt-down pick confirms factory anchor support, a meaningful differentiator for households worried about a small, light safe being carried away." },
+  { title: "Matched capacity against realistic home placement", description: "We compared 0.23 to 1.3 cubic foot capacity directly, since household document and cash storage needs vary meaningfully by family size and use case." },
+  { title: "Noted kid-inclusive design as a genuine household differentiator", description: "The PATRON pick specifically markets to households with kids, a distinct use case from the general security-focused picks." },
+];
+
+export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
+export const howToChoose: HowToChooseSection[] = [
+  {
+    subheading: "By Household Priority",
+    table: {
+      headers: ["Priority", "Recommended pick"],
+      rows: [
+        ["Most proven overall", "Yuanshikj Small Steel Security Safe Box"],
+        ["Fire protection is a requirement", "1.3 Cub Small Fireproof Safe for Home"],
+        ["Anti-removal security (bolted down)", "Honeywell Bolt Down Small Safe Box"],
+        ["Kid-inclusive household", "PATRON Small Safe Box for Kids"],
+      ],
+    },
+  },
+  {
+    subheading: "Before Installing in a Closet or Cabinet",
+    note: "None of these listings had independently verified anchoring instructions for common home substrates like drywall over wood studs. If you plan to bolt any of these down, confirm the required substrate and hardware directly with the manufacturer before drilling, since the wrong anchor point can compromise the intended security.",
+  },
+];
+
+export const buyingCriteria: BuyingCriterion[] = [
+  { criterion: "Confirm whether fire protection is actually documented before assuming any small safe offers it", explanation: "Only one pick in this comparison claims fire resistance. The other seven are basic security safes without that protection." },
+  { criterion: "Weigh anchoring if the safe could otherwise be carried away", explanation: "Only the Honeywell bolt-down pick confirms factory anchor support. An unanchored safe deters casual access but not outright removal." },
+  { criterion: "Match capacity to your actual household storage needs", explanation: "Capacity here ranges from 0.23 to 1.3 cubic feet. Consider what you're storing (cash, documents, jewelry) before choosing the smallest or largest option by default." },
+  { criterion: "Plan a household access strategy before buying", explanation: "Decide who knows the code, where a backup key is kept (not directly beside the safe), and how access changes if household members change." },
+  { criterion: "Verify anchoring hardware compatibility with your specific closet or cabinet substrate", explanation: "None of these listings confirm anchoring compatibility for common home substrates like drywall over studs. Check directly before drilling." },
+];
+
+export const faq: FaqItem[] = [
+  { q: "What's the best overall small safe for home?", a: "The Bonsaii Safe Box with Electronic Keypad, with the largest confirmed capacity among the top-rated picks in this comparison." },
+  { q: "Is there a fireproof option?", a: "Yes, the 1.3 Cub Small Fireproof Safe for Home is the only pick here that specifically claims fire protection." },
+  { q: "Which pick has the most proven track record?", a: "The Yuanshikj Small Steel Security Safe Box, with by far the largest review base at nearly 23,000 reviews." },
+  { q: "Is there an option that bolts down for anti-removal security?", a: "Yes, the Honeywell Bolt Down Small Safe Box is the only pick here with confirmed factory bolt-down support." },
+  { q: "Is there a kid-friendly option?", a: "Yes, the PATRON Small Safe Box is explicitly marketed for households with kids." },
+];
+
+export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-small-safes", title: "Best Small Safes (2026)" },
+  { href: "/guide/best-small-fireproof-safes", title: "Best Small Fireproof Safes (2026)" },
+  { href: "/guide/best-small-safes-for-closets", title: "Best Small Safes for Closets (2026)" },
+];
