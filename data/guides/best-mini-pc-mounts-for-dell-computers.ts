@@ -1,0 +1,141 @@
+export const guideSlug = "best-mini-pc-mounts-for-dell-computers";
+export const guideTitle = "5 Best Mini PC Mounts for Dell Computers in 2026";
+export const metaTitle = "Best Mini PC Mounts for Dell Computers (2026)";
+export const metaDescription =
+  "Honest finding: current listings are universal VESA brackets with claimed Dell compatibility, not Dell-exclusive accessories with a verified chassis-by-chassis fit matrix.";
+export const mainKeyword = "Dell mini PC mount";
+export const introParagraphs = [
+  "We need to be direct here: the current product pool for this search is universal VESA-mount brackets that claim Dell compatibility among several brands, not Dell-specific accessories verified against exact OptiPlex Micro chassis generations. Confirm your specific Dell model's dimensions and VESA support before ordering.",
+  "For guaranteed fit, Dell's own support documentation for OptiPlex Micro mounting options is worth checking directly alongside these third-party brackets.",
+];
+export const lastUpdated = "2026-08-08";
+export const readTime = "8 min";
+export const heroImage = "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg";
+
+export interface GuideProduct {
+  id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
+  imageUrl: string; amazonUrl: string; description: string; specs: string[]; pros: string[]; cons: string[]; bestFor: string;
+}
+export interface BuyingCriterion { criterion: string; explanation: string; }
+export interface FaqItem { q: string; a: string; }
+
+export const products: GuideProduct[] = [
+  {
+    id: "b0dzbpr859-dellmount",
+    rank: 1,
+    badge: "Best Overall",
+    name: "Yimaut Adjustable Mini PC Vesa Mount Bracket Behind Monitor, Under Desk",
+    price: "$21.99",
+    rating: "n/a",
+    reviews: "0",
+    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DZBPR859?tag=deskfinds0d-20",
+    description: "Explicitly lists Dell compatibility in its product description alongside HP, Mac Mini, and GMKtec, with wide device width support and a 12 lb weight capacity — verify against your specific OptiPlex Micro generation's dimensions.",
+    specs: ["Fits 0.63-2.8 in device width", "Supports up to 12 lbs", "Explicitly lists Dell compatibility"],
+    pros: ["Explicit Dell compatibility claim in the listing", "Wide device width range"],
+    cons: ["No review history yet to verify real-world fit with specific Dell models"],
+    bestFor: "Dell OptiPlex Micro owners who verify their specific model's dimensions fit the stated range.",
+  },
+  {
+    id: "b07ky3lhvg-dellmount",
+    rank: 2,
+    badge: "Most Proven",
+    name: "HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm, Under Desk",
+    price: "$26.99",
+    rating: "4.4",
+    reviews: "702",
+    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B07KY3LHVG?tag=deskfinds0d-20",
+    description: "The largest review base in this comparison, a general-purpose VESA bracket that should fit most compact Dell OptiPlex Micro models within its stated depth range, though not marketed as Dell-specific.",
+    specs: ["Fits 0.65-2.55 in device depth", "75x75 and 100x100mm VESA", "702 reviews at 4.4 stars"],
+    pros: ["Largest, most proven review base in this comparison"],
+    cons: ["Not marketed specifically for Dell, verify depth compatibility with your model"],
+    bestFor: "Buyers who want the most proven general bracket and will verify Dell-model fit themselves.",
+  },
+  {
+    id: "b0cj7bk9cm-dellmount",
+    rank: 3,
+    badge: "Highest Rated",
+    name: "Monzlteck Adjustable Small Device Wall Mount Or VESA Mount Behind the Monitor",
+    price: "$19.99",
+    rating: "4.6",
+    reviews: "190",
+    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CJ7BK9CM?tag=deskfinds0d-20",
+    description: "The highest rating in this comparison, a flexible wall or VESA mount that should accommodate compact Dell devices, at a lower price than the top pick.",
+    specs: ["Wall mount or VESA behind-monitor mount", "190 reviews at 4.6 stars"],
+    pros: ["Highest rating in this comparison", "Flexible wall or VESA mounting"],
+    cons: ["Not marketed specifically for Dell devices"],
+    bestFor: "Buyers who want the highest-rated general bracket at a lower price.",
+  },
+  {
+    id: "b0db5rqh7v-dellmount",
+    rank: 4,
+    badge: "Most Mounting Flexibility",
+    name: "Adjustable Thin Client Mini PC Mount Bracket, Mini PC Vesa Mount, Under Desk",
+    price: "$19.99",
+    rating: "4.4",
+    reviews: "40",
+    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DB5RQH7V?tag=deskfinds0d-20",
+    description: "Supports under-desk, wall, and monitor-arm mounting, a versatile option for various Dell workstation setups, at a lower price with a smaller review base.",
+    specs: ["Under-desk, wall, or monitor-arm mount", "40 reviews at 4.4 stars"],
+    pros: ["Multiple mounting locations for different desk setups"],
+    cons: ["Smaller review base than the top picks"],
+    bestFor: "Buyers who want mounting-location flexibility for a Dell workstation setup.",
+  },
+  {
+    id: "b076n6b6gq-dellmount",
+    rank: 5,
+    badge: "Best From an Established Hardware Brand",
+    name: "StarTech Thin Client Mount, Adjustable .7 to 2.8\", Mac Mini Monitor Mount",
+    price: "$32.99",
+    rating: "n/a",
+    reviews: "0",
+    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B076N6B6GQ?tag=deskfinds0d-20",
+    description: "From StarTech, a well-established computer-hardware brand, with a wide depth range that should accommodate most Dell OptiPlex Micro configurations, at the highest price here.",
+    specs: ["Fits 0.7-2.8 in device depth", "Multiple mounting configurations"],
+    pros: ["From a well-established computer-hardware brand", "Wide device depth range"],
+    cons: ["Highest price in this comparison", "Not marketed specifically for Dell"],
+    bestFor: "Buyers who want a trusted hardware brand and will verify Dell-model dimensions themselves.",
+  },
+];
+
+export interface HowWeEvaluatedItem { title: string; description: string; }
+export const howWeEvaluated: HowWeEvaluatedItem[] = [
+  { title: "Honest disclosure: universal brackets, not Dell-exclusive", description: "We verified none of these are official Dell accessories with a confirmed chassis-by-chassis fit matrix, and disclosed this directly rather than implying OEM-specific compatibility." },
+  { title: "Explicit Dell compatibility claims noted where present", description: "We flagged where a listing specifically mentions Dell compatibility versus general VESA compatibility without brand-specific claims." },
+  { title: "Device depth/width range against typical OptiPlex Micro dimensions", description: "We compared each bracket's stated compatible range, recommending buyers verify their specific Dell model's exact dimensions." },
+  { title: "Review volume as general reliability evidence", description: "Since Dell-specific fit data isn't independently verifiable from these listings, we weighted general review history for overall build quality." },
+];
+
+export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
+export const howToChoose: HowToChooseSection[] = [
+  {
+    subheading: "Check Dell's Own Mounting Documentation Too",
+    note: "Dell publishes official OptiPlex Micro mounting guidance and accessory options directly. Cross-reference that with these third-party brackets for the most confident fit, especially for VESA pattern and depth clearance.",
+  },
+];
+
+export const buyingCriteria: BuyingCriterion[] = [
+  { criterion: "Verify your exact Dell OptiPlex Micro generation and dimensions", explanation: "These are universal VESA brackets, not Dell-exclusive accessories — confirm your specific chassis fits the stated depth/width range." },
+  { criterion: "Check Dell's own support documentation as a cross-reference", explanation: "Dell publishes official mounting options for OptiPlex Micro systems, useful to verify against third-party bracket specs." },
+  { criterion: "Confirm VESA pattern support on both your monitor and the bracket", explanation: "Most Dell Micro systems support 100x100mm VESA — verify this matches the bracket you choose." },
+  { criterion: "Weigh explicit Dell compatibility claims where available", explanation: "Some listings specifically mention Dell in their compatibility list — this is stronger evidence than a purely generic VESA claim." },
+  { criterion: "Check port and power-button access after mounting", explanation: "Verify the bracket doesn't block ports or the power button you need regular access to on your specific Dell model." },
+];
+
+export const faq: FaqItem[] = [
+  { q: "Are any of these official Dell accessories?", a: "No — these are universal VESA-compatible brackets, some with explicit Dell compatibility claims in their listings, but none are Dell-branded official accessories." },
+  { q: "Which has an explicit Dell compatibility claim?", a: "The Yimaut Adjustable Mini PC Vesa Mount Bracket specifically lists Dell in its stated compatibility." },
+  { q: "Which has the most reviews?", a: "The HumanCentric Thin Client Mount Bracket, with 702 reviews at 4.4 stars." },
+  { q: "Should I check Dell's own documentation too?", a: "Yes — Dell publishes official OptiPlex Micro mounting guidance directly, useful to cross-reference against these third-party bracket specs." },
+  { q: "What's the highest-rated option?", a: "The Monzlteck Adjustable Small Device Wall Mount, at 4.6 stars." },
+];
+
+export const relatedGuides: { href: string; title: string }[] = [
+  { href: "/guide/best-mini-pc-mounts-for-hp-computers", title: "Best Mini PC Mounts for HP Computers (2026)" },
+  { href: "/guide/best-mini-pc-mounts-for-lenovo-computers", title: "Best Mini PC Mounts for Lenovo Computers (2026)" },
+  { href: "/guide/best-mini-pc-desk-mounts", title: "Best Mini PC Desk Mounts (2026)" },
+];
