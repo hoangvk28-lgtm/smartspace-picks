@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/419DmulGkeL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$34.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/419DmulGkeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B016RBRLWA?tag=deskfinds0d-20",
     description: "The highest independently confirmed fan speed in our entire research pass, at 2,630 RPM across 5 fans, with dual USB pass-through ports — well below 5,000 RPM but the closest verified match to this search.",
     specs: ["5 fans at confirmed 2,630 RPM", "Dual USB pass-through ports", "Adjustable height"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$27.99",
     rating: "4.5",
     reviews: "45,172",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51+142vwVRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00NNMB3KS?tag=deskfinds0d-20",
     description: "No specific RPM figure confirmed in the listing, but by far the largest review base in our entire cooling pad research — included as the most proven option for buyers prioritizing overall reliability over an unverifiable RPM claim.",
     specs: ["Fan speed not specified in listing", "45,172 reviews at 4.5 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$21.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51KmjcikP8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B082SSJY2C?tag=deskfinds0d-20",
     description: "6 fans, the highest fan count in this comparison, with no specific RPM confirmed but the most total moving air potential.",
     specs: ["6 quiet LED fans, speed not specified"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$16.99",
     rating: "4.4",
     reviews: "1,775",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/513ogekjTDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08H5FBRD4?tag=deskfinds0d-20",
     description: "Two large fans without a specific RPM figure confirmed, the cheapest option in this comparison with a solid review base.",
     specs: ["2 large fans, speed not specified", "1,775 reviews at 4.4 stars"],

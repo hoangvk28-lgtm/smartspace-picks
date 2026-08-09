@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/51LJJ4eL26L._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41PL86m8b8L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;

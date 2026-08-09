@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71p5-p3xkFL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41oOz8w2OYL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$549.00",
     rating: "4.7",
     reviews: "1,418",
-    imageUrl: "https://m.media-amazon.com/images/I/71p5-p3xkFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41oOz8w2OYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00UVHTGJ8?tag=deskfinds0d-20",
     description: "A wide 48 inch platform with genuine room for two monitor bases side by side, from a brand with a strong track record and a substantial review base.\n\nThe highest price in this comparison; verify your desk can accommodate both the platform width and its base footprint.",
     specs: ["48 inch platform, wide monitor-base support"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$343.20",
     rating: "4.8",
     reviews: "3,153",
-    imageUrl: "https://m.media-amazon.com/images/I/71xLKGrNfhL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41I06ihR+sL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00JI6NCCK?tag=deskfinds0d-20",
     description: "The highest rating and largest review base of the VariDesk options, at 36 inches, still wide enough for two standard monitor bases with careful placement.\n\nA lower price than the 48 inch Pro Plus while retaining the same proven 11-setting mechanism.",
     specs: ["36 inch platform, 11 height settings"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$279.99",
     rating: "4.4",
     reviews: "480",
-    imageUrl: "https://m.media-amazon.com/images/I/61qm3jXtQYL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41rhOnTY0jL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0728H2YP5?tag=deskfinds0d-20",
     description: "The only pick in this comparison with two dedicated monitor mounts included rather than open platform space, a genuinely different approach that eliminates the need for separate monitor stands.\n\nIntegrated mounts free up desk space for keyboard and mouse, though verify VESA compatibility with your specific monitors.",
     specs: ["Integrated dual monitor mounts included"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$169.99",
     rating: "4.6",
     reviews: "1,872",
-    imageUrl: "https://m.media-amazon.com/images/I/71jTx8VqXcL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41cvTPf-cXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08RHKKX6K?tag=deskfinds0d-20",
     description: "A 32 inch platform with an integrated dual monitor stand rated for 13 to 30 inch displays, a strong review base and lower price than the Mount-It! integrated option.\n\nA reasonable middle ground between an open wide platform and a fully dedicated monitor-arm system.",
     specs: ["32 inch platform, integrated dual 13-30 inch monitor stand"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$239.99",
     rating: "4.6",
     reviews: "10,111",
-    imageUrl: "https://m.media-amazon.com/images/I/61lLQZM7T-L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41i7KiJ9rwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07H9DM38X?tag=deskfinds0d-20",
     description: "A large open 42 inch platform with a substantial review base, wide enough for two monitor bases plus keyboard and mouse space.\n\nAn open platform gives more flexibility in monitor placement than an integrated mount, but requires your own monitor stands or bases.",
     specs: ["42 inch open platform"],
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     price: "$349.00",
     rating: "4.5",
     reviews: "497",
-    imageUrl: "https://m.media-amazon.com/images/I/61P9m5nq7CL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41M1ekKczDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0864RSM5S?tag=deskfinds0d-20",
     description: "An electric 36 inch open platform, wide enough for two monitor bases, with push-button adjustment for effortless height changes even with a heavier dual-monitor load.\n\nElectric lift is a genuine advantage with a heavier dual-monitor setup, since manual gas-spring converters can feel harder to adjust under more weight.",
     specs: ["36 inch platform, electric push-button lift"],
@@ -124,7 +124,7 @@ export const products: GuideProduct[] = [
     price: "$159.99",
     rating: "4.6",
     reviews: "2,550",
-    imageUrl: "https://m.media-amazon.com/images/I/71xqQhZmDwL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51sPBSqTYXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LCCT6VS?tag=deskfinds0d-20",
     description: "A 36 inch open platform at a lower price than the VIVO or Vari alternatives, with a solid review base for a budget-focused dual-monitor setup.\n\nAn open platform design, so verify your monitor bases fit comfortably alongside keyboard and mouse space at this width.",
     specs: ["36 inch open platform"],

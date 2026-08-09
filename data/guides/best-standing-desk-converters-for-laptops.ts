@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61vQ2WqPYuL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41Eh8j3wCSL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$107.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/61vQ2WqPYuL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Eh8j3wCSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VMNYMY3?tag=deskfinds0d-20",
     description: "A compact 26 inch platform with the largest review base in our research, plenty of surface area for a laptop plus an external keyboard and mouse.\n\nConsider pairing with an external keyboard for proper standing posture, since raising the laptop alone tends to put the built-in keyboard too high for neutral typing.",
     specs: ["26 inch platform"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "See listing",
     rating: "4.4",
     reviews: "381",
-    imageUrl: "https://m.media-amazon.com/images/I/61tX+8k4hCL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Eh8j3wCSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0765BQ7RN?tag=deskfinds0d-20",
     description: "A compact design from Mount-It!, an ergonomic-focused brand, well suited to a laptop-plus-keyboard setup.\n\nCurrent price was not confirmed at research time; verify directly on the listing.",
     specs: ["Compact platform, gas-spring lift"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$159.99",
     rating: "4.6",
     reviews: "2,550",
-    imageUrl: "https://m.media-amazon.com/images/I/71xqQhZmDwL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51sPBSqTYXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LCCT6VS?tag=deskfinds0d-20",
     description: "A wider 36 inch platform giving comfortable room for a laptop, external keyboard, and mouse together, with a strong review base.\n\nA solid choice if you want to run the laptop with a full external keyboard and mouse setup for genuine ergonomic posture.",
     specs: ["36 inch platform"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$128.97",
     rating: "4.5",
     reviews: "282",
-    imageUrl: "https://m.media-amazon.com/images/I/61LhWc3vsML._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41EwRQZYUsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CKGL1M7P?tag=deskfinds0d-20",
     description: "A 30 inch platform at a reasonable price, wide enough for a laptop and external keyboard without the largest footprint.\n\nA solid mid-size option between the most compact laptop-only platforms and the wider dual-device setups.",
     specs: ["30 inch platform, gas-spring lift"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.5",
     reviews: "632",
-    imageUrl: "https://m.media-amazon.com/images/I/61yK3nQvXTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Br1CxfavL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07K8WZ19K?tag=deskfinds0d-20",
     description: "A single-top compact design well suited to laptop-only use where an external keyboard isn't a priority.\n\nWithout a separate keyboard tray, the laptop's built-in keyboard sits directly on the raised platform; verify this height works for your standing posture before committing to laptop-only use.",
     specs: ["29 inch platform, single-top design"],
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     price: "$59.99",
     rating: "4.2",
     reviews: "109",
-    imageUrl: "https://m.media-amazon.com/images/I/61gJ5FQxULL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41azPSHnDnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F4FN3SNT?tag=deskfinds0d-20",
     description: "The lowest price in this comparison, a simple riser design suited to basic laptop elevation.\n\nA smaller review base than the established VIVO options, a reasonable low-cost way to test whether standing while using a laptop suits your workflow.",
     specs: ["Adjustable height riser, simple design"],

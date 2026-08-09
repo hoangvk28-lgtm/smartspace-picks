@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41PdCI0nCgL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$28.54",
     rating: "4.4",
     reviews: "5,076",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41PdCI0nCgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08T6P8LB6?tag=deskfinds0d-20",
     description: "Confirmed file rails from Pendaflex, an established filing-products brand, with by far the largest review base in this comparison.",
     specs: ["Confirmed file rails", "5,076 reviews at 4.4 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$56.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41vOA84B1YL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000GP0Z6I?tag=deskfinds0d-20",
     description: "The highest price in this comparison, from Vaultz, a brand known for more structurally reinforced storage products, at specific dimensions for letter-size files.",
     specs: ["14 x 7 x 12.19 in, letter size", "From Vaultz, a reinforced-storage brand"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$18.99",
     rating: "4.3",
     reviews: "3,139",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41GQ8rqDXhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FVJZD3L?tag=deskfinds0d-20",
     description: "From IRIS USA, an established storage-products brand, with a large review base at a lower price than the Pendaflex top pick.",
     specs: ["Letter file, portable handle", "3,139 reviews at 4.3 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$24.15",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31VVX+PgVwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D92V2XZT?tag=deskfinds0d-20",
     description: "A transparent design so you can see file contents at a glance, from an established office-supply retailer, at a mid-range price.",
     specs: ["Clear plastic, letter size", "Portable storage tote design"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$16.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/317LJOZfFQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D8CNX88V?tag=deskfinds0d-20",
     description: "The cheapest option in this comparison, still supporting letter-size hanging files, from Staples.",
     specs: ["Letter size hanging file support", "From Staples"],

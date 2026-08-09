@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61k9nQvXTQL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51rQq+TqKyL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$159.99",
     rating: "4.6",
     reviews: "1,923",
-    imageUrl: "https://m.media-amazon.com/images/I/61k9nQvXTQL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51rQq+TqKyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07613BR1D?tag=deskfinds0d-20",
     description: "Explicitly confirms MDF wood construction directly in the product listing, a solid review base at a 37 inch platform.\n\nMDF wood is a genuine engineered wood material, denser and heavier than particleboard, distinct from a laminate-over-composite finish.",
     specs: ["37 inch platform, confirmed MDF wood construction"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$129.99",
     rating: "4.5",
     reviews: "2,847",
-    imageUrl: "https://m.media-amazon.com/images/I/61h9K3nQvWL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51rafiFi9aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B077Z3GCDL?tag=deskfinds0d-20",
     description: "A smaller 32 inch platform sharing the same confirmed MDF wood construction as the larger TechOrbits model, with a larger review base.\n\nThe lowest price for confirmed MDF wood construction in this comparison.",
     specs: ["32 inch platform, confirmed MDF wood construction"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$143.99",
     rating: "4.6",
     reviews: "892",
-    imageUrl: "https://m.media-amazon.com/images/I/71QqYVmR5jL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31p0Yglw5jL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C7SCRXMX?tag=deskfinds0d-20",
     description: "Explicitly labeled real bamboo rather than a wood-look laminate, a genuinely different material category from the MDF wood options.\n\nBamboo is a distinct, faster-renewing material than traditional wood species, and this listing confirms the real material rather than a cosmetic finish.",
     specs: ["32 inch platform, confirmed real bamboo construction"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$64.99",
     rating: "4.5",
     reviews: "318",
-    imageUrl: "https://m.media-amazon.com/images/I/61jK5nQvXPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41eSj5kZ-BL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8VR922C?tag=deskfinds0d-20",
     description: "A compact 22 inch bamboo riser at a much lower price than the standard-size VIVO bamboo option, with a dual-purpose lap desk function.\n\nA solid review base for a compact bamboo option, well below the price of the larger bamboo alternative.",
     specs: ["22 inch platform, confirmed bamboo, lap desk function"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$159.99",
     rating: "4.6",
     reviews: "715",
-    imageUrl: "https://m.media-amazon.com/images/I/71H8jNq3RvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41pKou67Z0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07B44LD4S?tag=deskfinds0d-20",
     description: "This corner-desk converter's construction material was not explicitly confirmed as wood in our specific data pull; verify the exact material on the current listing before assuming it matches the wood options above.\n\nIncluded here for buyers specifically needing a corner-desk design who are comparing against the confirmed wood options, since it's the strongest corner option in our broader research.",
     specs: ["38 inch corner platform", "Material composition not confirmed in our specific data"],

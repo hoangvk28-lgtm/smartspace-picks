@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61tK3nQvXTL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/411ZEuCs0FL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$69.99",
     rating: "4.5",
     reviews: "987",
-    imageUrl: "https://m.media-amazon.com/images/I/61tK3nQvXTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/411ZEuCs0FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07SD7YH8T?tag=deskfinds0d-20",
     description: "A single-top tabletop design at a low price with a solid review base, generally easier to carry between rooms than a dual-tier converter.\n\nA single-top structure has fewer moving parts and a lighter overall build than models with a separate keyboard tray mechanism.",
     specs: ["28 inch platform, single-top tabletop design"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.5",
     reviews: "632",
-    imageUrl: "https://m.media-amazon.com/images/I/61yK3nQvXTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Br1CxfavL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07K8WZ19K?tag=deskfinds0d-20",
     description: "A slightly larger single-top platform than the top pick, at a higher price, still lighter and simpler than dual-tier converters.\n\nA reasonable alternative if you want slightly more platform space while still prioritizing portability.",
     specs: ["29 inch platform, single-top design"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.5",
     reviews: "1,243",
-    imageUrl: "https://m.media-amazon.com/images/I/61qK5nQvXTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/412VP8wOKyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08GKXXT22?tag=deskfinds0d-20",
     description: "Explicitly marketed as ultra-slim with a larger review base than the standard single-top options, a genuinely low-profile design that's easier to slide into a bag or against a wall for storage.\n\nA slim profile makes this easier to store or transport than a bulkier converter, even at a similar weight class.",
     specs: ["Ultra-slim single-top compact design"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$49.99",
     rating: "4.1",
     reviews: "64",
-    imageUrl: "https://m.media-amazon.com/images/I/61hK8nQvWTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/418VudppzfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1C9LBN5?tag=deskfinds0d-20",
     description: "The smallest platform in this comparison at 24 by 14 inches, likely the lightest option here given its minimal size, at the lowest price.\n\nA smaller review base and lower rating than the VIVO options, but the smallest and cheapest genuinely portable design.",
     specs: ["24 x 14 inch platform, manual lift"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$59.99",
     rating: "4.2",
     reviews: "109",
-    imageUrl: "https://m.media-amazon.com/images/I/61gJ5FQxULL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41azPSHnDnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F4FN3SNT?tag=deskfinds0d-20",
     description: "A simple keyboard riser design, likely one of the lightest options here given its minimal construction, at a reasonable low price.\n\nA smaller review base than the more established VIVO options, but a genuinely simple, minimal-weight design.",
     specs: ["Adjustable height keyboard riser, simple design"],

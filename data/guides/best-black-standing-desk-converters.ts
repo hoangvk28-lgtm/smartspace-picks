@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$129.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075JYG2TB?tag=deskfinds0d-20",
     description: "The largest review base of any converter we researched, confirmed black, the same product that tops our general standing desk converter comparison.\n\nSince black is the default finish for most listings, this ranking mirrors our broader research rather than representing a narrower category.",
     specs: ["32 inch platform, confirmed black finish"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$139.99",
     rating: "4.6",
     reviews: "2,412",
-    imageUrl: "https://m.media-amazon.com/images/I/71b2wLXe8vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Z4mzo+NKS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LCCJD6B?tag=deskfinds0d-20",
     description: "Confirmed black at a similar price and platform size to the VIVO top pick, with a solid review base.\n\nA reasonable alternative for buyers who want to compare beyond the single most-reviewed black converter.",
     specs: ["32 inch platform, confirmed black finish"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$161.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/61lLQZM7T-L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41mkQi1Vv9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09XVQ9YJN?tag=deskfinds0d-20",
     description: "A confirmed black 42 inch platform sharing VIVO's massive review pool, for buyers who need a larger surface than the standard 32 inch tier.\n\nThe explicit \"Black\" naming in this product line confirms the finish directly.",
     specs: ["42 inch platform, confirmed black finish"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$159.99",
     rating: "4.6",
     reviews: "1,923",
-    imageUrl: "https://m.media-amazon.com/images/I/61k9nQvXTQL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51rQq+TqKyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07613BR1D?tag=deskfinds0d-20",
     description: "A confirmed black finish with genuine MDF wood construction underneath, the highest rating among TechOrbits' current lineup.\n\nA good option if you want a black finish specifically over a wood-composite core rather than a metal frame.",
     specs: ["37 inch platform, confirmed black finish, MDF wood construction"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$349.00",
     rating: "4.5",
     reviews: "497",
-    imageUrl: "https://m.media-amazon.com/images/I/61P9m5nq7CL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41M1ekKczDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0864RSM5S?tag=deskfinds0d-20",
     description: "A strong review base for an electric option, with push-button adjustment instead of manual gas-spring.\n\nA meaningful price premium over the manual black converters for effortless electric lift.",
     specs: ["36 inch platform, electric push-button lift"],
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     price: "$242.99",
     rating: "4.4",
     reviews: "1,279",
-    imageUrl: "https://m.media-amazon.com/images/I/71YHqhV3grL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/411LiqBlrgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DTR12D3V?tag=deskfinds0d-20",
     description: "A solid review base with a genuinely retractable keyboard tray feature not offered by the fixed-tier alternatives.\n\nA reasonable choice if you want the specific retractable tray feature alongside a confirmed black finish.",
     specs: ["45 inch platform, retractable keyboard tray"],

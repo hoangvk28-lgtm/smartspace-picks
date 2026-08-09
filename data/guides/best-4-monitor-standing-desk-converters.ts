@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71YHqhV3grL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41brvuY+FwL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$197.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/71RVQZmY-6L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41brvuY+FwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CG7HG8L1?tag=deskfinds0d-20",
     description: "Not a dedicated four-monitor mount, but the largest confirmed open platform in our broader research, potentially accommodating four smaller thin-bezel monitors with careful arrangement and separate stands.\n\nThe largest review base of any large-format converter, though four monitors on this platform requires very careful measurement of your specific setup's combined width.",
     specs: ["48 inch open platform"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$279.99",
     rating: "4.6",
     reviews: "1,693",
-    imageUrl: "https://m.media-amazon.com/images/I/71YHqhV3grL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41sW5lDV5eL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07K217DXS?tag=deskfinds0d-20",
     description: "Purpose-built for three monitors, included here as the strongest large-format specialist option, though it's rated for three rather than four displays.\n\nIf your fourth device is a laptop rather than a fourth monitor, this triple-mount platform may still work with the laptop placed alongside.",
     specs: ["46 inch platform, triple-monitor mount"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$389.00",
     rating: "4.5",
     reviews: "497",
-    imageUrl: "https://m.media-amazon.com/images/I/61tP7jcYqoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41jeNZ2uiSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08KFPDGX1?tag=deskfinds0d-20",
     description: "Not a dedicated four-monitor mount, an electric open platform included for buyers who might fit four small monitors with electric lift handling the heavier combined weight.\n\nElectric adjustment is genuinely useful for the significant combined weight four monitors would add, though this remains an open platform requiring your own stands.",
     specs: ["40 inch open platform, electric lift"],

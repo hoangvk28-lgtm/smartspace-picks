@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41uG7qo+QwL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$17.99",
     rating: "4.4",
     reviews: "281",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41uG7qo+QwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DW9JZ1MF?tag=deskfinds0d-20",
     description:
       "At 3.5x5.5 inches, this is the only product in the entire pocket-adjacent search results that fits a standard jacket breast pocket without a folio. It's thin enough that it doesn't print a visible bulge, which the Executive-size options below can't claim.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$14.99",
     rating: "4.4",
     reviews: "11,065",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41E9SFRPDeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CZF628C?tag=deskfinds0d-20",
     description:
       "Same mini footprint as the pick above but spiral-bound, which fits a bag pocket or backpack front pocket more comfortably than a coat pocket because the spiral adds a little rigidity and width. With over 11,000 reviews it's the most-tested option at this size.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$25.99",
     rating: "4.5",
     reviews: "226",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41BvyAlSv+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DP3HLY4J?tag=deskfinds0d-20",
     description:
       "This does not pass a coat-pocket test — it's Executive size, 6x8.8 inches — but it fits comfortably in most bag pockets and gives meaningfully more writing area than the Mini sizes. Include this only if your actual use case is a backpack or tote pocket, not a jacket.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.4",
     reviews: "23,751",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41VG6OVaZCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHYZ32M?tag=deskfinds0d-20",
     description:
       "Same executive footprint as the Core above, but with built-in planner and calendar page templates, and a much larger review base (23,751) to back up long-term durability claims. This is a bag-pocket size, not a coat-pocket size.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "4.5",
     reviews: "100",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41RhAqe3azL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DP3JMP14?tag=deskfinds0d-20",
     description:
       "Full letter size fails both the coat-pocket and most bag-pocket tests — it needs a full compartment or tote, not a pocket. We're including it so buyers can see exactly how much writing area they give up by going down to Mini or Executive size.",

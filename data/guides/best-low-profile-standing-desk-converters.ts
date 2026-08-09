@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61tX+8k4hCL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41CL16+db2L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$194.99",
     rating: "4.6",
     reviews: "330",
-    imageUrl: "https://m.media-amazon.com/images/I/61tX+8k4hCL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41CL16+db2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0747WDDMC?tag=deskfinds0d-20",
     description: "The highest rating among low-profile-oriented converters we researched, from Mount-It!, a brand focused on ergonomic engineering.\n\nA solid review base for a design specifically engineered to minimize added seated height.",
     specs: ["32 x 22 inch platform, gas-spring lift"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.5",
     reviews: "1,243",
-    imageUrl: "https://m.media-amazon.com/images/I/61qK5nQvXTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/412VP8wOKyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08GKXXT22?tag=deskfinds0d-20",
     description: "Explicitly marketed as ultra-slim, a genuinely low-profile single-top design with a strong review base.\n\nA single-top structure means less added base height than a dual-tier converter, directly addressing the low-profile need.",
     specs: ["Ultra-slim single-top compact design"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$49.99",
     rating: "4.1",
     reviews: "64",
-    imageUrl: "https://m.media-amazon.com/images/I/61hK8nQvWTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/418VudppzfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1C9LBN5?tag=deskfinds0d-20",
     description: "Explicitly marketed as extra-slim, the smallest and cheapest option in this comparison, likely adding the least height above your existing desk.\n\nA smaller review base and lower rating than the more established picks, but the most explicitly low-profile design by name.",
     specs: ["24 x 14 inch platform, extra-slim, manual lift"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$107.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/61vQ2WqPYuL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Eh8j3wCSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VMNYMY3?tag=deskfinds0d-20",
     description: "Not explicitly marketed as slim, but its compact 26 inch size and the massive review base suggest a reasonably low profile for VIVO's standard design line.\n\nVerify the specific minimum seated height against your desk, since this isn't explicitly marketed as low-profile the way the other picks are.",
     specs: ["26 inch platform, compact"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "See listing",
     rating: "4.4",
     reviews: "381",
-    imageUrl: "https://m.media-amazon.com/images/I/61tX+8k4hCL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Eh8j3wCSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0765BQ7RN?tag=deskfinds0d-20",
     description: "A compact design from Mount-It!, an ergonomic-focused brand likely to have considered low-profile fit in its engineering.\n\nCurrent price was not confirmed at research time; verify directly on the listing.",
     specs: ["Compact platform, gas-spring lift"],

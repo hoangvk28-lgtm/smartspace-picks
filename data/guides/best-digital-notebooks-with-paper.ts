@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$449.00",
     rating: "4.4",
     reviews: "1,354",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HDL3XJR?tag=deskfinds0d-20",
     description: "No real paper here — a textured E Ink screen and friction-tip stylus simulate the paper feel. Largest, highest-rated review base of any device in this comparison.",
     specs: ["Textured E Ink display, no real paper", "Marker Plus stylus included", "1,354 reviews at 4.4 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$34.99",
     rating: "4.6",
     reviews: "26,593",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41DUQEUXetL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHZ82DK?tag=deskfinds0d-20",
     description: "Actual physical paper pages, scanned via app and erased with a damp cloth — the highest-rated, most-reviewed real-paper option in this entire comparison.",
     specs: ["Real paper pages", "Scan-to-app capture, reusable", "26,593 reviews at 4.6 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$399.00",
     rating: "4.1",
     reviews: "18",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31KAykcDD+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVKBLJK2?tag=deskfinds0d-20",
     description: "Same paper-feel E Ink technology as the reMarkable 2 without real paper, in a distraction-free device, with a smaller review base as a newer entry.",
     specs: ["Textured E Ink display, no real paper", "Marker stylus included", "18 reviews at 4.1 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "4.5",
     reviews: "100",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41RhAqe3azL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DP3JMP14?tag=deskfinds0d-20",
     description: "Real paper, plain dot-grid pages, at a fraction of the cost of the E Ink tablets in this comparison.",
     specs: ["Real paper pages", "Plain dot-grid layout", "8.5 x 11 in"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$779.00",
     rating: "4.2",
     reviews: "540",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41yKUd9lhbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGBDR2PM?tag=deskfinds0d-20",
     description: "The flagship of the paper-feel E Ink lineup, with color display and bundled accessories, at nearly double the price of the base reMarkable 2.",
     specs: ["Color E Ink display, no real paper", "Marker Plus stylus and Basalt Book Folio included", "540 reviews at 4.2 stars"],

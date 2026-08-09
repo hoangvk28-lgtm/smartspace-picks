@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61vQ2WqPYuL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41Eh8j3wCSL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$107.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/61vQ2WqPYuL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Eh8j3wCSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VMNYMY3?tag=deskfinds0d-20",
     description: "At 26 inches, narrow enough for a shallow desk while still fitting a full-size keyboard, mouse, and single monitor.\n\nThe largest review base of any converter in our research, proving this specific narrow width works well for real buyers.",
     specs: ["26 inch platform"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$129.99",
     rating: "4.6",
     reviews: "2,127",
-    imageUrl: "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ci1d+OvpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08B2L36HF?tag=deskfinds0d-20",
     description: "A slightly wider option than the strictest narrow threshold, but still a manageable footprint with a solid review base.\n\nA reasonable middle ground if 26 inches feels too tight for your keyboard and mouse setup.",
     specs: ["32 inch platform"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.5",
     reviews: "632",
-    imageUrl: "https://m.media-amazon.com/images/I/61yK3nQvXTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Br1CxfavL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07K8WZ19K?tag=deskfinds0d-20",
     description: "A single-top narrow design at 29 inches, offering a slightly wider keyboard area than the 26 inch top pick.\n\nA solid review base for buyers who want a narrow footprint with a bit more keyboard width than the narrowest options.",
     specs: ["29 inch platform, single-top design"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$69.99",
     rating: "4.5",
     reviews: "987",
-    imageUrl: "https://m.media-amazon.com/images/I/61tK3nQvXTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/411ZEuCs0FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07SD7YH8T?tag=deskfinds0d-20",
     description: "A lower price than the 29 inch alternative at a similar narrow width, with a larger review base.\n\nA reasonable value alternative for buyers comparing VIVO's narrow single-top options.",
     specs: ["28 inch platform, single-top design"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.5",
     reviews: "1,243",
-    imageUrl: "https://m.media-amazon.com/images/I/61qK5nQvXTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/412VP8wOKyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08GKXXT22?tag=deskfinds0d-20",
     description: "A genuinely narrow and thin design with a strong review base, combining narrow width with a low-profile build.\n\nExplicitly marketed for its slim, compact design, suited to the shallowest and narrowest desk spaces.",
     specs: ["Ultra-slim single-top compact design"],
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.6",
     reviews: "2,127",
-    imageUrl: "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41KPjLPGisL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8114738?tag=deskfinds0d-20",
     description: "A well-reviewed 28 inch narrow option with a higher rating than the single-top tabletop alternative at a similar price.\n\nA solid review base and higher rating make this a strong alternative at this narrow width.",
     specs: ["28 inch platform"],

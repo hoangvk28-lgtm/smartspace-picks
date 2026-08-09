@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41aTFk156tL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$27.99",
     rating: "4.8",
     reviews: "1,524",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41aTFk156tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09C1VT7X8?tag=deskfinds0d-20",
     description: "Purpose-built to sit behind a keyboard on a single desk, with the highest rating and largest review base of any product in this specific comparison.",
     specs: ["Glass surface, keyboard-stand design", "1,524 reviews at 4.8 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$25.99",
     rating: "4.7",
     reviews: "2,500",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41+-w5AGGrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B089NL8QMN?tag=deskfinds0d-20",
     description: "The largest review base in this entire comparison at 2,500 reviews, slightly cheaper than the top pick with a nearly identical keyboard-stand design.",
     specs: ["Glass surface, keyboard-stand design", "2,500 reviews at 4.7 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$24.99",
     rating: "4.8",
     reviews: "1,020",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41KvzD4pxFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B093B83ZSN?tag=deskfinds0d-20",
     description: "Combines the whiteboard with a built-in storage organizer for personal desk items, tied for the highest rating in this comparison.",
     specs: ["Glass surface with storage organizer", "To-do list section", "1,020 reviews at 4.8 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$24.99",
     rating: "4.7",
     reviews: "723",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31W4Q2LBraL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09PHHT8DM?tag=deskfinds0d-20",
     description: "Same core storage-organizer concept as the pick above at an identical price — check the current listing for exact feature differences before choosing between them.",
     specs: ["Glass surface with storage organizer", "723 reviews at 4.7 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$15.74",
     rating: "4.7",
     reviews: "279",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/313bG76j1CL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DMZYK585?tag=deskfinds0d-20",
     description: "The cheapest organizer-equipped whiteboard in this comparison, from a well-established general retail brand, with a smaller review base as it's a newer listing.",
     specs: ["Dry erase surface with organizer accessories", "279 reviews at 4.7 stars"],

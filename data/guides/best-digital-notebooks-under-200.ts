@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41StVO0JWOL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$299.98",
     rating: "4.3",
     reviews: "329",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41StVO0JWOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DX234NWP?tag=deskfinds0d-20",
     description: "Actually priced above $200 at $299.98 as listed — we're flagging this directly so buyers targeting a strict $200 ceiling know to look at the picks below instead, or watch for a price drop on this specific listing.",
     specs: ["10.95 inch color display", "16384 pressure levels", "329 reviews at 4.3 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$439.00",
     rating: "4.4",
     reviews: "118",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31VzGzvO4SL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FKT9PNFC?tag=deskfinds0d-20",
     description: "At $439, this is well above a $200 budget. Included for direct price context against the genuinely under-$200 options below.",
     specs: ["10.3 inch E Ink display", "Pen included", "118 reviews at 4.4 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$69.98",
     rating: "4.4",
     reviews: "1,889",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31djMiO0-jL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GCDRFJQG?tag=deskfinds0d-20",
     description: "Genuinely well under $200 with the pen included in the price, real Bluetooth sync to your phone, and the largest review base of any product in this specific comparison.",
     specs: ["Bluetooth writing tablet with pen included", "Syncs notes to phone", "1,889 reviews at 4.4 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$87.99",
     rating: "4.2",
     reviews: "671",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41PJ-F0w37L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BG2T9SGV?tag=deskfinds0d-20",
     description: "A battery-free pen is included at this price, and the device doubles as a drawing tablet, well within a $200 budget.",
     specs: ["Battery-free pen included", "2-in-1 notebook and drawing tablet", "671 reviews at 4.2 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$74.99",
     rating: "3.9",
     reviews: "58",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41eM5RJPa2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F5P2186C?tag=deskfinds0d-20",
     description: "A different approach: a smart pen that syncs handwriting from real paper in real time, rather than a digital tablet screen. Included for comparison, though its rating and review base are the smallest and lowest in this comparison — worth reading current feedback before choosing it over the more established options above.",
     specs: ["Smart pen for real paper", "Real-time sync to app", "58 reviews at 3.9 stars"],

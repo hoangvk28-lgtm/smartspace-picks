@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "6 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41mQqnKMytL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$18.29",
     rating: "4.7",
     reviews: "1,563",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41mQqnKMytL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09GP3H4SM?tag=deskfinds0d-20",
     description: "Ten repositionable physical dividers with genuine tab organization, the highest-rated product in this comparison. This is a real paper notebook, not a digital device.",
     specs: ["B5 size, physical paper notebook", "10 repositionable dividers", "1,563 reviews at 4.7 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$13.28",
     rating: "4.8",
     reviews: "3,341",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51qkkJ8SPkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00X7X2KDM?tag=deskfinds0d-20",
     description: "Highest rating and largest review base in this comparison, with physical subject dividers and a companion study app — though the app is a separate study tool, not a scan-and-sync note capture system.",
     specs: ["3-subject, college ruled", "Physical dividers", "3,341 reviews at 4.8 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$20.99",
     rating: "4.8",
     reviews: "177",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41mij-vhczL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHR17YZP?tag=deskfinds0d-20",
     description: "A leather-bound hardcover journal with organizational tabs, tied for the highest rating in this comparison though with a smaller review base than the top picks.",
     specs: ["8x10 in, leather hardcover", "College ruled with tabs", "177 reviews at 4.8 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.7",
     reviews: "503",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51nZ2zi-zqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F6BJWY8N?tag=deskfinds0d-20",
     description: "Full letter-size pages with removable dividers, giving more writing area per section than the smaller options in this comparison.",
     specs: ["8.5 x 11 in", "Removable dividers", "503 reviews at 4.7 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$14.98",
     rating: "4.7",
     reviews: "316",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41eaK401yuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FGCHJHTR?tag=deskfinds0d-20",
     description: "The cheapest leather-bound option with removable dividers in this comparison, at a rating in line with the pricier picks.",
     specs: ["Leather-bound hardcover, lined pages", "Removable dividers", "316 reviews at 4.7 stars"],

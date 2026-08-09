@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41DUQEUXetL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$34.99",
     rating: "4.6",
     reviews: "26,593",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41DUQEUXetL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHZ82DK?tag=deskfinds0d-20",
     description: "Real paper pages captured through the Rocketbook app, with the highest review count and rating of any product we found for this search. The undated planner templates work alongside blank capture pages.",
     specs: ["Letter size, real paper pages", "Scan-to-app capture via Rocketbook app", "26,593 reviews at 4.6 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.4",
     reviews: "23,751",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41VG6OVaZCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHYZ32M?tag=deskfinds0d-20",
     description: "Same real-paper capture concept in the smaller Executive size, with a nearly-as-large review base as the letter-size version above.",
     specs: ["6 x 8.8 in", "Scan-to-app capture via Rocketbook app", "23,751 reviews at 4.4 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$14.99",
     rating: "4.4",
     reviews: "11,065",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41E9SFRPDeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CZF628C?tag=deskfinds0d-20",
     description: "The cheapest real-paper capture notebook we tracked, still backed by over 11,000 reviews, in a mini spiral format for quick capture rather than planning.",
     specs: ["Mini spiral-bound", "Scan-to-app capture via Rocketbook app", "11,065 reviews at 4.4 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "4.5",
     reviews: "100",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41RhAqe3azL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DP3JMP14?tag=deskfinds0d-20",
     description: "Plain dot-grid, full letter-size paper pages for real-paper capture without the Fusion's built-in planner templates.",
     specs: ["8.5 x 11 in", "Plain dot-grid pages", "Scan-to-app capture via Rocketbook app"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$31.99",
     rating: "4.4",
     reviews: "3,200",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/416XcHl7ssL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLPPZZJL?tag=deskfinds0d-20",
     description: "The newer template revision of the Fusion line at Executive size, with real-paper capture and updated page layouts.",
     specs: ["6 x 8.8 in", "Fusion Plus template revision", "3,200 reviews at 4.4 stars"],

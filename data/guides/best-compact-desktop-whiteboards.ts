@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41FLEFa9xDL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$18.99",
     rating: "4.6",
     reviews: "1,356",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41FLEFa9xDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVM9YJCS?tag=deskfinds0d-20",
     description: "The largest writing area in this comparison at a mid-range price, double-sided with a magnetic surface for holding notes, backed by a large review base.",
     specs: ["16 x 12 in, double-sided", "Magnetic surface", "1,356 reviews at 4.6 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$14.44",
     rating: "4.6",
     reviews: "1,254",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31noWsDrPcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09K7G5VW8?tag=deskfinds0d-20",
     description: "A genuine glass surface at a compact size, avoiding the ghosting risk of cheaper melamine boards, with a large well-established review base.",
     specs: ["Glass writing surface", "Compact stand-mounted design", "1,254 reviews at 4.6 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$16.99",
     rating: "4.7",
     reviews: "1,191",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/4180Al3c9zL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09MZ5ZD4N?tag=deskfinds0d-20",
     description: "At 8x6 inches this is one of the smallest glass options here, with the highest rating in the comparison, ideal for buyers who genuinely need minimal desk footprint.",
     specs: ["8 x 6 in, glass surface", "1,191 reviews at 4.7 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$9.99",
     rating: "4.6",
     reviews: "212",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31YDQS8Gh1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F5LZXS3W?tag=deskfinds0d-20",
     description: "Under $10, double-sided for effectively doubling usable writing area within a 10x10 inch footprint, with a solid rating though a smaller review base as a newer listing.",
     specs: ["10 x 10 in, double-sided", "212 reviews at 4.6 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$8.99",
     rating: "4.7",
     reviews: "1,027",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41fFLL-HlwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C8777YJQ?tag=deskfinds0d-20",
     description: "The smallest and cheapest option in this comparison, a 2-pack of 5x7 memo pads for quick notes rather than an upright whiteboard, at the highest rating tied with the TSJ glass pick.",
     specs: ["5x7 in, notepad format", "2-pack", "1,027 reviews at 4.7 stars"],

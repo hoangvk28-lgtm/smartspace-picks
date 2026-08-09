@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71jTx8VqXcL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41cvTPf-cXL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$169.99",
     rating: "4.6",
     reviews: "1,872",
-    imageUrl: "https://m.media-amazon.com/images/I/71jTx8VqXcL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41cvTPf-cXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08RHKKX6K?tag=deskfinds0d-20",
     description: "The largest review base among converters with integrated monitor mounts, a 32 inch platform with a dual monitor stand rated for 13 to 30 inch displays.\n\nA strong review base confirms real-world satisfaction with this specific integrated mount design.",
     specs: ["32 inch platform, integrated dual 13-30 inch monitor stand"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$179.99",
     rating: "4.6",
     reviews: "1,872",
-    imageUrl: "https://m.media-amazon.com/images/I/71jTx8VqXcL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31C5pHLfGNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BJ4R6FPV?tag=deskfinds0d-20",
     description: "The same design and review pool as the top pick, listed separately at a slightly higher price.\n\nCheck both listings for current stock and pricing before ordering, since the same product can appear at different prices across listings.",
     specs: ["32 inch platform, integrated dual 13-30 inch monitor stand"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$199.99",
     rating: "4.5",
     reviews: "743",
-    imageUrl: "https://m.media-amazon.com/images/I/71kK5nQvXTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ue0-15IEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGQTS2QP?tag=deskfinds0d-20",
     description: "The 36 inch version of VIVO's integrated dual-monitor mount design, more platform space than the 32 inch model for keyboard and mouse.\n\nA solid review base with the same monitor mount rating, at a modest price increase over the 32 inch alternative.",
     specs: ["36 inch platform, integrated dual 13-30 inch monitor stand"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$179.99",
     rating: "4.5",
     reviews: "612",
-    imageUrl: "https://m.media-amazon.com/images/I/71jTx8VqXcL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41KTE2pi9QL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZZB1ZRY?tag=deskfinds0d-20",
     description: "A single-monitor mount rather than dual, useful if you only run one display and want maximum remaining platform space for other items.\n\nA solid review base for buyers who specifically need a single-monitor integrated mount rather than dual.",
     specs: ["32 inch platform, single monitor mount"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$459.99",
     rating: "4.4",
     reviews: "298",
-    imageUrl: "https://m.media-amazon.com/images/I/61qm3jXtQYL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41K6Ey3-RSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5SC49BN?tag=deskfinds0d-20",
     description: "Combines an integrated dual-monitor arm with electric lift and an extra-large platform, the only pick in this comparison offering both electric adjustment and integrated mounts.\n\nThe highest price in this comparison, but a genuinely unique combination of features.",
     specs: ["X-Large platform, integrated dual monitor arm, electric lift"],
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     price: "$244.99",
     rating: "4.5",
     reviews: "1,038",
-    imageUrl: "https://m.media-amazon.com/images/I/61qm3jXtQYL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/414XZnNA-lL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01N383I0J?tag=deskfinds0d-20",
     description: "A well-established Mount-It! design with an integrated dual-monitor mount, a solid review base and rating.\n\nA higher price than the VIVO integrated mount options, but from a brand specifically focused on ergonomic mounting hardware.",
     specs: ["Platform with integrated dual monitor mount"],

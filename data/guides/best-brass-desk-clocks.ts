@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51Ee1NBJrWL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.4",
     reviews: "1,700",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Ee1NBJrWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07WMVHP2J?tag=deskfinds0d-20",
     description: "A genuine metal body clock in a brass-adjacent gold tone, with the largest review base and highest rating in this comparison, non-ticking for quiet desk use.",
     specs: ["Metal body, gold/brass-toned finish", "Non-ticking movement", "1,700 reviews at 4.4 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.3",
     reviews: "62",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51vOzTtxG9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFDWS9R8?tag=deskfinds0d-20",
     description: "A mantel-style vintage clock with brass-tone detailing, battery operated, at a higher price than the basic table clocks in this comparison but with a smaller review base.",
     specs: ["Mantel-style, vintage design", "Battery operated", "62 reviews at 4.3 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$9.99",
     rating: "4.4",
     reviews: "1,512",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/4110W9wBQYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09SB6ZY4P?tag=deskfinds0d-20",
     description: "A genuine metal body clock at the lowest price in this comparison, with a large, well-established review base for the price point.",
     specs: ["Metal body", "Retro analog design", "1,512 reviews at 4.4 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$39.99",
     rating: "4.2",
     reviews: "63",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41+mFh63FwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK6R22KD?tag=deskfinds0d-20",
     description: "The largest, most premium option in this comparison, a mantel-style clock with a silent movement, at the highest price and a smaller review base.",
     specs: ["8.3 x 9.1 in, mantel style", "Silent movement", "63 reviews at 4.2 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$39.90",
     rating: "4.4",
     reviews: "822",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41c1kZ9IKNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07PYN9YZN?tag=deskfinds0d-20",
     description: "A genuinely different mechanism — an auto-flip display rather than a traditional dial — with brass-adjacent retro styling, at a solid review base for its category.",
     specs: ["Auto-flip mechanism", "Retro vintage design", "822 reviews at 4.4 stars"],

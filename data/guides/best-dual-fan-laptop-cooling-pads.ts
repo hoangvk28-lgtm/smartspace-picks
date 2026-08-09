@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41HgpVRGRnL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$31.74",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41HgpVRGRnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B002NU5O9C?tag=deskfinds0d-20",
     description: "A confirmed genuine dual-fan design from Targus, an established laptop-accessory brand, using a soft neoprene surface for lap use rather than a rigid desk stand.",
     specs: ["Confirmed dual-fan design", "Soft neoprene surface", "Fits up to 17 inch laptops"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$16.99",
     rating: "4.4",
     reviews: "1,775",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/513ogekjTDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08H5FBRD4?tag=deskfinds0d-20",
     description: "A confirmed 2-large-fan design at the lowest price in this comparison, with RGB lighting and a solid review base.",
     specs: ["2 large fans, RGB lighting", "1,775 reviews at 4.4 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$27.99",
     rating: "4.5",
     reviews: "45,172",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51+142vwVRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00NNMB3KS?tag=deskfinds0d-20",
     description: "Being direct: this is 3 fans, not dual — included because it's by far the most proven cooling pad in our entire research pass, with 45,172 reviews, for buyers open to one extra fan for that level of evidence.",
     specs: ["3 fans, not dual-fan", "Slim, portable, USB powered", "45,172 reviews at 4.5 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$21.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51KmjcikP8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B082SSJY2C?tag=deskfinds0d-20",
     description: "The maximum fan count in this comparison at 6 LED fans, included for buyers who want to compare a much higher fan count directly against the dual-fan and 3-fan options.",
     specs: ["6 quiet LED fans, not dual-fan", "Fan speed switch control"],

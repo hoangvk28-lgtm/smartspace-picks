@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61k9nQvXTQL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51rafiFi9aL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$129.99",
     rating: "4.5",
     reviews: "2,847",
-    imageUrl: "https://m.media-amazon.com/images/I/61h9K3nQvWL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51rafiFi9aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B077Z3GCDL?tag=deskfinds0d-20",
     description: "The largest review base in TechOrbits' current converter lineup, a confirmed MDF wood platform at 32 inches.\n\nThe lowest price among TechOrbits' current lineup at the highest review base, a strong entry point into the brand.",
     specs: ["32 inch platform, confirmed MDF wood construction"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$159.99",
     rating: "4.6",
     reviews: "1,923",
-    imageUrl: "https://m.media-amazon.com/images/I/61k9nQvXTQL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51rQq+TqKyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07613BR1D?tag=deskfinds0d-20",
     description: "The highest rating in TechOrbits' current lineup, a step up in platform size from the 32 inch model, still confirmed MDF wood construction.\n\nA meaningful price increase over the 32 inch model for the additional platform width and slightly higher rating.",
     specs: ["37 inch platform, confirmed MDF wood construction"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$199.99",
     rating: "4.5",
     reviews: "1,204",
-    imageUrl: "https://m.media-amazon.com/images/I/61h9K3nQvWL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51ql3SmLQXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09G9L9X8B?tag=deskfinds0d-20",
     description: "TechOrbits' largest confirmed current platform, at 42 inches, the highest price in the lineup with a still-solid review base.\n\nA reasonable choice for buyers who want the TechOrbits brand's largest available platform for dual-monitor or monitor-plus-laptop use.",
     specs: ["42 inch platform, confirmed MDF wood construction"],

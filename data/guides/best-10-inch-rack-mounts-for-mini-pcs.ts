@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41KVUYtCF9L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$25.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41KVUYtCF9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G9C4S2MG?tag=deskfinds0d-20",
     description: "Explicitly compatible with Dell Micro OptiPlex, Lenovo ThinkCentre, and HP Desktop Mini in a single 1U rack shelf, with RJ45 CAT6 and HDMI port cutouts for cleaner cable routing — the most brand-flexible option in this comparison.",
     specs: ["1U, 10 inch rack shelf", "Compatible with Dell, Lenovo, HP mini PCs", "RJ45 CAT6 and HDMI port cutouts"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$14.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/21CpF7UUF1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H1BBN6FK?tag=deskfinds0d-20",
     description: "Purpose-built for Mac mini models spanning 2010 to 2023, secure screw-in installation, fits standard 19-inch racks as well via adapter — a specific fit for a wide range of Mac mini generations.",
     specs: ["1U, 10 inch rack mount", "Fits Mac mini 2010-2023", "Screw-in installation"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$14.99",
     rating: "4.4",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31qkrJ347eL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTWYJTR8?tag=deskfinds0d-20",
     description: "A half-width shelf bracket, useful for a rack setup where you want to leave room for another device alongside the mini PC in the same rack unit.",
     specs: ["Half-width, 10 inch rack shelf", "Secure screw-in installation", "4.4 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "See listing",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31th3R8aMzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GY5V935K?tag=deskfinds0d-20",
     description: "A contour-matched panel specifically for M1 and M2 Mac mini models, designed to keep the front I/O ports accessible after mounting — useful if you need regular front-panel access in your rack.",
     specs: ["10 inch rack bracket", "Fits M1/M2 Mac mini", "Front-accessible I/O design"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$12.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31mtZrZsgiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2Y8B6J3?tag=deskfinds0d-20",
     description: "Not a true rack-mount product — a wall-mounted shelf alternative for buyers who don't have or want a dedicated 10-inch rack but still need mini PC and router placement off the desk.",
     specs: ["Adjustable wall mount shelf", "Not a rack-format product"],

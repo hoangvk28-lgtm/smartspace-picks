@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41A45jPnYsL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$18.99",
     rating: "4.6",
     reviews: "2,643",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41A45jPnYsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D4DNSBDD?tag=deskfinds0d-20",
     description: "The product literally named \"aesthetic\" by the manufacturer, a slim mirror-finish design with a strong rating and review base.",
     specs: ["Slim mirror-surface design", "2,643 reviews at 4.6 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$16.99",
     rating: "4.6",
     reviews: "2,342",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41C5ApXltRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DHHFNGLT?tag=deskfinds0d-20",
     description: "A warm wooden-bodied clock with full dimmable brightness control, a genuinely different aesthetic direction than the mirror-finish picks, with a strong review base.",
     specs: ["Wooden body", "0-100% dimmable display", "2,342 reviews at 4.6 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$15.99",
     rating: "4.5",
     reviews: "2,862",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/319M-pNc3NL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DPYZ68GK?tag=deskfinds0d-20",
     description: "A wooden-bodied clock with large legible numbers, a strong review base at a slightly lower price than the uscce dimmable option.",
     specs: ["Wooden body, large numbers", "2,862 reviews at 4.5 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$15.29",
     rating: "4.6",
     reviews: "6,145",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51BRnPQhRcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYSVGS2Q?tag=deskfinds0d-20",
     description: "Appears to be a very similar wooden design to the pick above from the same brand, with a much larger review base — check current listing details to confirm any differences.",
     specs: ["Wooden body, large numbers", "6,145 reviews at 4.6 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$16.99",
     rating: "4.6",
     reviews: "2,342",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41MsObIQ3nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DHJK3MB4?tag=deskfinds0d-20",
     description: "The same core dimmable wooden design as another uscce listing at the same price and review data — likely a color or minor variant.",
     specs: ["Wooden body", "0-100% dimmable display", "2,342 reviews at 4.6 stars"],

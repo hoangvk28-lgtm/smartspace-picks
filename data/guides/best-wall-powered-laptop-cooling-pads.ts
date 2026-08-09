@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51+142vwVRL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$27.99",
     rating: "4.5",
     reviews: "45,172",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51+142vwVRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00NNMB3KS?tag=deskfinds0d-20",
     description: "USB powered, explicitly stated in the product name — can be plugged into a USB wall charger for wall power, with by far the largest review base in our entire cooling pad research.",
     specs: ["USB powered (not dedicated AC)", "45,172 reviews at 4.5 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$21.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51KmjcikP8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B082SSJY2C?tag=deskfinds0d-20",
     description: "Explicitly USB powered, 6 fans in an ultra-slim design, works with any USB wall charger for wall placement.",
     specs: ["USB powered", "6 quiet LED fans"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41T6SH91WcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07JJTMR7R?tag=deskfinds0d-20",
     description: "USB powered with 3-speed adjustment, working from a USB wall charger just as well as a laptop USB port, with multi-device flexibility.",
     specs: ["USB powered", "3-speed adjustable"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$34.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/419DmulGkeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B016RBRLWA?tag=deskfinds0d-20",
     description: "5 fans rated at 2630 RPM, USB powered with dual USB ports for pass-through charging, the highest price in this comparison.",
     specs: ["USB powered", "5 fans at 2630 RPM", "Dual USB pass-through ports"],

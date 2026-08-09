@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61P9m5nq7CL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41M1ekKczDL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$349.00",
     rating: "4.5",
     reviews: "497",
-    imageUrl: "https://m.media-amazon.com/images/I/61P9m5nq7CL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41M1ekKczDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0864RSM5S?tag=deskfinds0d-20",
     description: "The largest review base of any electric converter we researched, from VERSADESK, a brand specializing in electric desk products, at a 36 inch platform.\n\nA meaningful price premium over manual converters at this size, reflecting the motor and control system.",
     specs: ["36 inch platform, electric push-button lift"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$389.00",
     rating: "4.5",
     reviews: "497",
-    imageUrl: "https://m.media-amazon.com/images/I/61tP7jcYqoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41jeNZ2uiSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08KFPDGX1?tag=deskfinds0d-20",
     description: "The 40 inch version of the VERSADESK PowerPro, sharing the same review pool and rating as the 36 inch model, for buyers who need more platform width.\n\nA modest price increase over the 36 inch model for the additional 4 inches of platform width.",
     specs: ["40 inch platform, electric push-button lift"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$239.99",
     rating: "4.5",
     reviews: "214",
-    imageUrl: "https://m.media-amazon.com/images/I/71QW4LhLcVL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/416Vd3ngfML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2H2PZ5X?tag=deskfinds0d-20",
     description: "A large 42 inch electric platform at a lower price than the VERSADESK options, from FlexiSpot, an established standing-desk brand.\n\nA smaller review base than VERSADESK's proven electric line, worth watching as review volume builds.",
     specs: ["42 inch platform, electric motorized lift"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$239.99",
     rating: "4.5",
     reviews: "214",
-    imageUrl: "https://m.media-amazon.com/images/I/71R3nJmZFyL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Vv9ixEe8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2H3HDS2?tag=deskfinds0d-20",
     description: "A separate listing for a 42 inch FlexiSpot electric converter at the same price, sharing a similar review count to the other FlexiSpot 42 inch pick, emphasizing weight capacity specifically.\n\nWorth checking both FlexiSpot 42 inch listings for stock and any minor spec differences before ordering.",
     specs: ["42 inch platform, electric lift, emphasized weight capacity"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$219.99",
     rating: "4.5",
     reviews: "214",
-    imageUrl: "https://m.media-amazon.com/images/I/71N4vXt3jML._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/4145NueHmqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2H3NH6W?tag=deskfinds0d-20",
     description: "The lowest price for a FlexiSpot 40+ inch electric converter in this comparison, sharing the same review pool as the 42 inch alternatives.\n\nA slightly smaller platform than the 42 inch options at a lower price, a reasonable tradeoff for a budget-focused electric buyer.",
     specs: ["40 inch platform, electric lift"],
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     price: "$219.99",
     rating: "4.5",
     reviews: "241",
-    imageUrl: "https://m.media-amazon.com/images/I/71xJmqXt6VL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41XNBWjje9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6R2Z2F8?tag=deskfinds0d-20",
     description: "VIVO's electric converter line, distinct from their much larger manual K Series review pool, a 42 inch platform at a competitive price against FlexiSpot's electric options.\n\nA smaller review base than VIVO's manual converters, since electric is a newer addition to VIVO's lineup.",
     specs: ["42 inch platform, electric lift"],
@@ -124,7 +124,7 @@ export const products: GuideProduct[] = [
     price: "$249.99",
     rating: "4.5",
     reviews: "241",
-    imageUrl: "https://m.media-amazon.com/images/I/71jK5tYmXBL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41VIhJn9AfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D9J8FSL9?tag=deskfinds0d-20",
     description: "The largest VIVO electric platform we confirmed, at 47 inches, sharing the same review pool as the 42 inch electric model.\n\nA modest price increase over the 42 inch electric model for a significantly larger platform.",
     specs: ["47 inch platform, electric lift"],
@@ -140,7 +140,7 @@ export const products: GuideProduct[] = [
     price: "$279.99",
     rating: "4.6",
     reviews: "159",
-    imageUrl: "https://m.media-amazon.com/images/I/61Rk3nY7fRL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Cnso48ORL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LBBZR7V?tag=deskfinds0d-20",
     description: "The only electric converter in this comparison specifically built for corner desks, with the highest rating among VIVO's electric options.\n\nA smaller review base than the standard electric converters, but a genuinely distinct form factor for buyers with an L-shaped desk.",
     specs: ["43 inch corner platform, electric lift"],

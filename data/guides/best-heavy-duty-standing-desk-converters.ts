@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71YHqhV3grL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41sW5lDV5eL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$279.99",
     rating: "4.6",
     reviews: "1,693",
-    imageUrl: "https://m.media-amazon.com/images/I/71YHqhV3grL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41sW5lDV5eL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07K217DXS?tag=deskfinds0d-20",
     description: "A large-format platform explicitly built to support three monitors, implying a genuinely robust load rating and structural design, with a solid review base.\n\nVerify your desk's own weight capacity can handle this converter plus a triple-monitor load, since the converter's own rating doesn't account for your desk's limits.",
     specs: ["46 inch platform, triple-monitor mount"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$349.00",
     rating: "4.5",
     reviews: "497",
-    imageUrl: "https://m.media-amazon.com/images/I/61P9m5nq7CL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41M1ekKczDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0864RSM5S?tag=deskfinds0d-20",
     description: "Electric lift generally handles heavier loads more predictably than manual gas-spring mechanisms, which are tuned for a specific weight range.\n\nA solid review base for a heavy-duty electric option, worth it if your setup exceeds the typical load range manual converters are designed for.",
     specs: ["36 inch platform, electric push-button lift"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$389.00",
     rating: "4.5",
     reviews: "497",
-    imageUrl: "https://m.media-amazon.com/images/I/61tP7jcYqoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41jeNZ2uiSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08KFPDGX1?tag=deskfinds0d-20",
     description: "A larger electric platform sharing the same review pool as the 36 inch model, more surface area for a heavier multi-monitor load.\n\nThe additional platform width gives more room to distribute a heavier device load evenly.",
     specs: ["40 inch platform, electric push-button lift"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$259.99",
     rating: "3.9",
     reviews: "22",
-    imageUrl: "https://m.media-amazon.com/images/I/71qXjKtYqQL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41J+LChTT-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CV298XR3?tag=deskfinds0d-20",
     description: "A dedicated triple-monitor mount kit at a large 48 inch platform, though with a small review base and below-average rating for VIVO.\n\nWeigh the smaller review base and lower rating against the genuine heavy-duty triple-monitor mount capability.",
     specs: ["48 inch platform, triple-monitor mount kit"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$269.99",
     rating: "4.6",
     reviews: "743",
-    imageUrl: "https://m.media-amazon.com/images/I/61tX+8k4hCL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ljwbh0mjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06XKLMMNM?tag=deskfinds0d-20",
     description: "A large 48 inch platform from Mount-It!, an ergonomic-focused brand, with a solid review base at this size.\n\nA large-format design suited to a heavier multi-device load, from a brand specifically focused on ergonomic engineering.",
     specs: ["48 inch platform, extra large desk riser"],

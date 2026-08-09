@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41nWvL8pqlL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "4.4",
     reviews: "702",
-    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41nWvL8pqlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KY3LHVG?tag=deskfinds0d-20",
     description: "Fits devices 0.65 to 2.55 inches deep, supports both 75x75 and 100x100mm VESA patterns, and can mount under a desk, to a pole, or on a flat surface — the most flexible mounting options in this comparison with a solid review base.",
     specs: ["Fits 0.65-2.55 in device depth", "75x75 and 100x100mm VESA", "Under-desk, pole, or surface mount", "702 reviews at 4.4 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$21.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31L4FiZcVdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZBPR859?tag=deskfinds0d-20",
     description: "Fits equipment 0.63 to 2.8 inches wide, supports up to 12 lbs, and is explicitly compatible with HP, Dell, KAMRUI, Mac Mini, and GMKtec devices, plus routers and cable boxes — a wide brand-compatibility claim worth verifying against your specific device dimensions.",
     specs: ["Fits 0.63-2.8 in device width", "Supports up to 12 lbs", "Compatible with HP, Dell, Mac Mini, GMKtec and more"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$14.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41yUqhBzwzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BR8M9RLF?tag=deskfinds0d-20",
     description: "The cheapest option in this comparison, uniquely able to work as a freestanding desk holder in addition to behind-monitor or monitor-arm mounting, from an established mounting-hardware brand.",
     specs: ["75x75mm and 100x100mm VESA", "Freestanding desk stand option", "Behind-monitor or monitor-arm mounting"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$32.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Ohj6NQqpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B076N6B6GQ?tag=deskfinds0d-20",
     description: "From StarTech, a well-established computer-hardware brand, with a wide device depth range and multiple installation options (behind-monitor, pole, or under-desk), at the highest price in this comparison.",
     specs: ["Fits 0.7-2.8 in device depth", "Behind-monitor, pole, or under-desk mount"],

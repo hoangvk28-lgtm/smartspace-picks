@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "6 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61lLQZM7T-L._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41i7KiJ9rwL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$239.99",
     rating: "4.6",
     reviews: "10,111",
-    imageUrl: "https://m.media-amazon.com/images/I/61lLQZM7T-L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41i7KiJ9rwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07H9DM38X?tag=deskfinds0d-20",
     description: "Not an Ergotron product, included as a verified alternative: a large 42 inch platform with a substantial review base, since we could not confirm current Ergotron listing data.\n\nIf you specifically want the Ergotron brand for its ergonomic engineering reputation, check Ergotron's official site directly for current WorkFit pricing and specs.",
     specs: ["42 inch platform"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$343.20",
     rating: "4.8",
     reviews: "3,153",
-    imageUrl: "https://m.media-amazon.com/images/I/71xLKGrNfhL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41I06ihR+sL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00JI6NCCK?tag=deskfinds0d-20",
     description: "Not an Ergotron product, but a comparable premium-tier alternative from another established ergonomic brand with a verified, highly-rated track record.\n\nBoth Ergotron and Vari are established names in office ergonomics; this is a verified option in that same premium tier while Ergotron's current listing data remains unconfirmed here.",
     specs: ["36 inch platform, 11 height settings"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$107.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/61vQ2WqPYuL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Eh8j3wCSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VMNYMY3?tag=deskfinds0d-20",
     description: "Not an Ergotron product, a lower-cost verified alternative with a massive review base, useful if you're comparing Ergotron's typically premium pricing against a budget option.\n\nErgotron's WorkFit line generally sits at a premium price point; this is a verified budget-tier comparison point.",
     specs: ["26 inch platform, compact"],

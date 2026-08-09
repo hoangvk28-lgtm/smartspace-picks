@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41bV8TgkNlL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$20.00",
     rating: "4.5",
     reviews: "342",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41bV8TgkNlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B092D5PZ23?tag=deskfinds0d-20",
     description: "A decorative mirrored clock with crystal accents and a silent movement, a genuinely light, bright aesthetic well-suited to a white-decor desk.",
     specs: ["8x8x2 in, mirrored with crystal accents", "Silent movement", "342 reviews at 4.5 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$18.98",
     rating: "4.6",
     reviews: "2,514",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51nkvcknNtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXCKLRCQ?tag=deskfinds0d-20",
     description: "A large, well-reviewed mirror-surface LED clock with dimmable brightness, the highest rating in this comparison.",
     specs: ["Mirror-surface LED display", "Dimming function", "2,514 reviews at 4.6 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$15.99",
     rating: "4.6",
     reviews: "6,039",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41zup4v0gaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYST53T6?tag=deskfinds0d-20",
     description: "By far the largest review base of any pick here, with large legible numbers, at a lower price than the more decorative options.",
     specs: ["Digital display, large numbers", "6,039 reviews at 4.6 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "See listing",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41zup4v0gaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B092LYZZRP?tag=deskfinds0d-20",
     description: "This listing was not accessible through our product data lookup at time of research — verify current details, price, and availability directly before considering it.",
     specs: ["Verify current specs on the listing page"],

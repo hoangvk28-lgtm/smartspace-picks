@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41vN0nq6nJL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41Yl3UVTsiL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$36.88",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41vN0nq6nJL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Yl3UVTsiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01EZ3C7L2?tag=deskfinds0d-20",
     description: "From La Crosse Technology, an established clock brand, with atomic radio-controlled time sync and a full calendar display on a backlit screen.\n\nAtomic sync means the clock corrects itself automatically without manual adjustment, useful for a set-and-forget desk or wall clock, though verify current signal reliability in your area since radio sync depends on regional signal strength.",
     specs: ["Atomic radio-controlled sync", "Backlit, full calendar display"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$27.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41vN0nq6nJL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41JQmUaahzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DL9LYJJT?tag=deskfinds0d-20",
     description: "Explicitly marketed for dementia and memory care, with 15 alarm slots and 5 color options for the display, more configuration than a standard clock offers.\n\nThe high alarm count supports multiple daily medication or activity reminders, a genuine need in caregiving settings rather than a marketing feature.",
     specs: ["15 alarms, 5 color display options", "Explicitly dementia-care marketed"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$25.49",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41vN0nq6nJL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41pMYakghzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJW6NP4M?tag=deskfinds0d-20",
     description: "A 7 inch large display at a lower price than the dementia-specific SSINI pick, with day and date shown clearly for elderly users who need a simple at-a-glance format.\n\nA more basic feature set than the SSINI pick, without the higher alarm count, but a lower price for buyers who mainly need the large day and date display.",
     specs: ["7 inch large display"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41vN0nq6nJL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Ojv38DwyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07C2LL3XF?tag=deskfinds0d-20",
     description: "A 7 inch calendar clock with 12 alarm options and 5-level auto-dimming, useful for a bedroom setting where screen brightness needs to adjust automatically at night.\n\nThe auto-dimming feature is a genuine plus over fixed-brightness alternatives, reducing the need to manually adjust the screen before sleep.",
     specs: ["7 inch, 12 alarms, 5-level auto dimming"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "See listing",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41vN0nq6nJL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
     amazonUrl: "https://www.amazon.com/dp/B0GRFXGY3L?tag=deskfinds0d-20",
     description: "A large digital calendar day clock from Yescom with 6 alarm slots, a straightforward option for buyers who want a simple large-format display without extra configuration.\n\nPrice data was not confirmed at research time, so verify the current listing price directly before ordering.",
     specs: ["Large display, 6 alarms"],

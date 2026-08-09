@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "6 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71QqYVmR5jL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31p0Yglw5jL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$143.99",
     rating: "4.6",
     reviews: "892",
-    imageUrl: "https://m.media-amazon.com/images/I/71QqYVmR5jL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31p0Yglw5jL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C7SCRXMX?tag=deskfinds0d-20",
     description: "Explicitly labeled real bamboo directly in the product name, the largest review base among confirmed bamboo converters, at a standard 32 inch platform.\n\nA modest price premium over VIVO's standard black finish for genuine bamboo construction.",
     specs: ["32 inch platform, confirmed real bamboo construction"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$65.99",
     rating: "4.5",
     reviews: "318",
-    imageUrl: "https://m.media-amazon.com/images/I/61jK5nQvXPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/418xya2Mz8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FT336DT2?tag=deskfinds0d-20",
     description: "A compact 22 inch bamboo riser with a genuine dual-purpose lap desk function, at a much lower price than the standard-size VIVO bamboo option.\n\nA reasonable review base for a compact bamboo option, well below the price of the larger standard-size alternative.",
     specs: ["22 inch platform, confirmed bamboo, lap desk function"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$64.99",
     rating: "4.5",
     reviews: "318",
-    imageUrl: "https://m.media-amazon.com/images/I/61jK5nQvXPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41eSj5kZ-BL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8VR922C?tag=deskfinds0d-20",
     description: "The same compact bamboo design as the pick above, listed separately at a nearly identical price, worth checking both for current stock.\n\nSame confirmed bamboo construction and lap desk function; verify current stock between the two listings.",
     specs: ["22 inch platform, confirmed bamboo, lap desk function"],

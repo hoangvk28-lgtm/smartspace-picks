@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51Ee1NBJrWL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.4",
     reviews: "1,700",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Ee1NBJrWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07WMVHP2J?tag=deskfinds0d-20",
     description: "A non-ticking analog clock, consistent with quartz movement behavior, with the largest review base and highest rating in this comparison.",
     specs: ["Metal body", "Non-ticking movement", "1,700 reviews at 4.4 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$9.99",
     rating: "4.4",
     reviews: "1,512",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/4110W9wBQYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09SB6ZY4P?tag=deskfinds0d-20",
     description: "A genuine metal-body analog clock at the lowest price in this comparison, with a large, proven review base.",
     specs: ["Metal body", "Analog movement", "1,512 reviews at 4.4 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$18.98",
     rating: "4.6",
     reviews: "2,514",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51nkvcknNtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXCKLRCQ?tag=deskfinds0d-20",
     description: "Not a traditional quartz analog movement, but a digital clock with its own accurate quartz-crystal-based internal timing — included for buyers who want quartz-accurate timekeeping without an analog dial.",
     specs: ["Mirror-surface LED display", "Dimming function", "2,514 reviews at 4.6 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "See listing",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51nkvcknNtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B092LYZZRP?tag=deskfinds0d-20",
     description: "This listing was not accessible through our product data lookup at time of research — verify current details, quartz-movement specifics, price, and availability directly before considering it.",
     specs: ["Verify current specs on the listing page"],

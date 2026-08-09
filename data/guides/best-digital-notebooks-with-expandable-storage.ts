@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31TxeKtPWwL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$679.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31TxeKtPWwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FC1VJJFP?tag=deskfinds0d-20",
     description: "64GB is the largest fixed capacity in this comparison, not expandable via removable card but the most storage you can buy in a single configuration.",
     specs: ["64GB fixed storage", "Color E Ink display", "No removable card slot"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$529.99",
     rating: "4.3",
     reviews: "310",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41BunSeRP3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR4KXMKF?tag=deskfinds0d-20",
     description: "64GB fixed storage matched with Android's cloud-storage app flexibility — you can offload files to cloud services more easily than on closed ecosystems, effectively extending usable capacity even without a physical expansion slot.",
     specs: ["64GB fixed storage, 6GB RAM", "Runs Android for cloud storage app flexibility", "310 reviews at 4.3 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$323.99",
     rating: "4.3",
     reviews: "425",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31vXCSmH+ML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D4JKM1S7?tag=deskfinds0d-20",
     description: "Same 64GB fixed capacity as the new Colorsoft above, in Like-New refurbished condition at less than half the price.",
     specs: ["64GB fixed storage, Like-New condition", "425 reviews at 4.3 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$399.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/316t+ALq6FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZ9VFQ2P?tag=deskfinds0d-20",
     description: "A quarter of the storage of the top picks above at a higher price than the refurbished 64GB option — included so buyers can see this isn't the best value if storage is the priority.",
     specs: ["16GB fixed storage", "New condition, full warranty"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$449.00",
     rating: "4.4",
     reviews: "1,354",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HDL3XJR?tag=deskfinds0d-20",
     description: "The largest, highest-rated review base of any device here, though storage is a fixed tier without a removable expansion option, same as the rest of the lineup.",
     specs: ["Fixed storage tier — check current spec", "Marker Plus stylus included", "1,354 reviews at 4.4 stars"],

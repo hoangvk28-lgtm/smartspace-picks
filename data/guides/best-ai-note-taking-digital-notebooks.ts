@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31TxeKtPWwL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$679.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31TxeKtPWwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FC1VJJFP?tag=deskfinds0d-20",
     description: "The newest, highest-capacity Kindle Scribe with handwriting-to-text conversion included in the ecosystem, plus a color display for reviewing marked-up notes and documents.",
     specs: ["64GB storage", "Color E Ink display", "Handwriting-to-text conversion included"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$399.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/316t+ALq6FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZ9VFQ2P?tag=deskfinds0d-20",
     description: "Same handwriting-to-text feature set as the Colorsoft above without the color display or extra storage, at roughly 40% less cost.",
     specs: ["16GB storage", "Handwriting-to-text conversion included", "Monochrome E Ink display"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$299.98",
     rating: "4.3",
     reviews: "329",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41StVO0JWOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DX234NWP?tag=deskfinds0d-20",
     description: "Cheaper than the Kindle Scribe options and includes handwriting recognition alongside a full 16384-level pressure-sensitive stylus for sketching, a combination the Kindle and reMarkable lineups don't offer in the same device.",
     specs: ["10.95 inch color display", "16384 pressure levels", "Handwriting-to-text conversion", "329 reviews at 4.3 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$324.95",
     rating: "4.2",
     reviews: "180",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31dwpvU+C7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2SHL3DH?tag=deskfinds0d-20",
     description: "The same core XPPen hardware and AI handwriting features as the pick above, listed as a separate bundle at a slightly higher price — compare the current listings for exact accessory differences before choosing between the two.",
     specs: ["10.95 inch color display", "16384 pressure levels", "Handwriting-to-text conversion", "180 reviews at 4.2 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$449.00",
     rating: "4.4",
     reviews: "1,354",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HDL3XJR?tag=deskfinds0d-20",
     description: "Handwriting conversion is available, but advanced AI note-organization features require the paid reMarkable Connect subscription. Included here for its large, well-established review base even with that caveat.",
     specs: ["Marker Plus stylus included", "Handwriting conversion available", "Advanced AI organization requires reMarkable Connect subscription"],

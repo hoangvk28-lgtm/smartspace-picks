@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71ETRxKxLTL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41lRsmegvML._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$152.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/71ETRxKxLTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41lRsmegvML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B4T8DJW7?tag=deskfinds0d-20",
     description: "The largest review base of any confirmed 36 inch converter, sharing VIVO's massive K Series review pool.\n\nA reasonable mid-range price for the most proven option at this size tier.",
     specs: ["36 inch platform"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$159.99",
     rating: "4.6",
     reviews: "2,550",
-    imageUrl: "https://m.media-amazon.com/images/I/71xqQhZmDwL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51sPBSqTYXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LCCT6VS?tag=deskfinds0d-20",
     description: "A well-reviewed 36 inch alternative to the VIVO top pick at a similar price, worth comparing directly.\n\nA solid choice for buyers who want to compare beyond the single most-reviewed 36 inch option.",
     specs: ["36 inch platform"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$159.99",
     rating: "4.6",
     reviews: "2,550",
-    imageUrl: "https://m.media-amazon.com/images/I/71xqQhZmDwL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51s11gEjB2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08TBDMJPK?tag=deskfinds0d-20",
     description: "The same 36 inch FITUEYES design and review pool as the alternative pick, listed separately.\n\nCheck both FITUEYES listings for current stock before ordering, since they share identical specs.",
     specs: ["36 inch platform"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$115.99",
     rating: "4.4",
     reviews: "97",
-    imageUrl: "https://m.media-amazon.com/images/I/61hK8nQvXTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41-wbYmFoXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GYRDQQML?tag=deskfinds0d-20",
     description: "The lowest price for a confirmed 36 inch converter in this comparison, marketed specifically for its effortless lift mechanism.\n\nA smaller review base than the established VIVO and FITUEYES options, but a genuine budget alternative at this size.",
     specs: ["36 inch platform, effortless lift mechanism"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$119.99",
     rating: "4.4",
     reviews: "73",
-    imageUrl: "https://m.media-amazon.com/images/I/61tYbFqXPRL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41AqM0yRs2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVCDDCYG?tag=deskfinds0d-20",
     description: "A budget-friendly 36 inch platform from FlexiSpot, a well-established standing-desk brand, at a similarly low price to the SANODESK alternative.\n\nA smaller review base than the top picks, but a genuine value option from an established brand at this size.",
     specs: ["36 inch platform"],

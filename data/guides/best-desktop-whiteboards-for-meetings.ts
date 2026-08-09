@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41+-w5AGGrL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$25.99",
     rating: "4.7",
     reviews: "2,500",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41+-w5AGGrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B089NL8QMN?tag=deskfinds0d-20",
     description: "Positioned right behind the keyboard, easily within webcam framing for video calls, with the largest review base in this comparison.",
     specs: ["Glass surface, keyboard-adjacent position", "2,500 reviews at 4.7 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$27.99",
     rating: "4.8",
     reviews: "1,524",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41aTFk156tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09C1VT7X8?tag=deskfinds0d-20",
     description: "The highest rating in this comparison, similarly positioned for webcam visibility, at a slightly higher price than the top pick.",
     specs: ["Glass surface, keyboard-adjacent position", "1,524 reviews at 4.8 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$23.99",
     rating: "4.8",
     reviews: "2,486",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41caJzrXfNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07RT4LWYY?tag=deskfinds0d-20",
     description: "The largest writing area in this comparison, useful for sketching diagrams or process flows during a call that requires more than quick notes.",
     specs: ["16 x 12 in, double-sided, magnetic", "2,486 reviews at 4.8 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$24.99",
     rating: "4.7",
     reviews: "723",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31W4Q2LBraL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09PHHT8DM?tag=deskfinds0d-20",
     description: "Combines the meeting-notes whiteboard with an organizer section, useful for keeping meeting materials nearby without extra desk clutter.",
     specs: ["Glass surface with organizer", "723 reviews at 4.7 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$16.99",
     rating: "4.7",
     reviews: "1,191",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/4180Al3c9zL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09MZ5ZD4N?tag=deskfinds0d-20",
     description: "A cheaper, smaller glass board for quick meeting reminders rather than detailed notes, with a high rating despite the compact size.",
     specs: ["8 x 6 in, glass surface", "1,191 reviews at 4.7 stars"],

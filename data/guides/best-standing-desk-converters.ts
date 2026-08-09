@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "10 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$129.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075JYG2TB?tag=deskfinds0d-20",
     description: "By far the largest review base of any converter we researched, a 32 inch platform with dual-monitor support at a reasonable mid-range price.\n\nCheck your existing desk's height before ordering, since a gas-spring riser like this adds meaningful height even at its lowest setting, potentially pushing keyboard height too high on a standard 29 to 30 inch desk.",
     specs: ["32 inch platform, dual-monitor support", "Gas-spring lift"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$343.20",
     rating: "4.8",
     reviews: "3,153",
-    imageUrl: "https://m.media-amazon.com/images/I/71xLKGrNfhL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41I06ihR+sL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00JI6NCCK?tag=deskfinds0d-20",
     description: "The highest rating of any converter with a substantial review base, from Vari, an established brand with a long history in this category, offering 11 distinct height settings for fine-tuned adjustment.\n\nA significant price premium over the VIVO options; the 11-setting range is a genuine ergonomic advantage over a continuous gas-spring lift for finding a precise repeatable position.",
     specs: ["36 inch platform, 11 height settings"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$239.99",
     rating: "4.6",
     reviews: "10,111",
-    imageUrl: "https://m.media-amazon.com/images/I/61lLQZM7T-L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41i7KiJ9rwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07H9DM38X?tag=deskfinds0d-20",
     description: "A large 42 inch platform with a substantial review base, suited to a dual-monitor or monitor-plus-laptop setup that needs more surface area than the 32 inch tier offers.\n\nA wider platform also means a larger base footprint on your existing desk; measure your desk depth before ordering to confirm the converter's full lift path clears comfortably.",
     specs: ["42 inch platform", "Gas-spring lift"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$279.99",
     rating: "4.6",
     reviews: "1,693",
-    imageUrl: "https://m.media-amazon.com/images/I/71YHqhV3grL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41sW5lDV5eL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07K217DXS?tag=deskfinds0d-20",
     description: "The largest platform in this comparison at 46 inches, explicitly built with triple-monitor mounting in mind, with a solid review base for this specialized size.\n\nA converter this large needs a genuinely large desk to sit on; confirm your desk's width and depth accommodate both the platform and its base before ordering.",
     specs: ["46 inch platform, triple-monitor mount"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$349.00",
     rating: "4.5",
     reviews: "497",
-    imageUrl: "https://m.media-amazon.com/images/I/61P9m5nq7CL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41M1ekKczDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0864RSM5S?tag=deskfinds0d-20",
     description: "A push-button electric lift rather than a manual gas-spring mechanism, useful for buyers who want precise, effortless height changes without pulling a lever or handle.\n\nA meaningful price premium over manual converters at this size; verify power outlet access near your desk before ordering, since electric converters need a nearby plug.",
     specs: ["36 inch platform, electric push-button lift"],
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     price: "$139.99",
     rating: "4.6",
     reviews: "2,412",
-    imageUrl: "https://m.media-amazon.com/images/I/71b2wLXe8vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Z4mzo+NKS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LCCJD6B?tag=deskfinds0d-20",
     description: "A well-reviewed 32 inch converter at a competitive price close to the VIVO top pick, worth comparing directly on specific features that matter to you.\n\nA solid alternative if you want to compare beyond the single most-reviewed option at this size.",
     specs: ["32 inch platform", "Gas-spring lift"],
@@ -124,7 +124,7 @@ export const products: GuideProduct[] = [
     price: "$239.99",
     rating: "4.5",
     reviews: "214",
-    imageUrl: "https://m.media-amazon.com/images/I/71QW4LhLcVL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/416Vd3ngfML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2H2PZ5X?tag=deskfinds0d-20",
     description: "A large 42 inch electric converter at a lower price than the VERSADESK electric option, from FlexiSpot, an established standing-desk brand.\n\nA smaller review base than the more established picks in this comparison, worth watching as review volume builds.",
     specs: ["42 inch platform, electric motorized lift"],
@@ -140,7 +140,7 @@ export const products: GuideProduct[] = [
     price: "$107.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/61vQ2WqPYuL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Eh8j3wCSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VMNYMY3?tag=deskfinds0d-20",
     description: "The most compact option in this comparison, at 26 inches, sharing the same large review base pool as VIVO's other K Series and standard converters.\n\nThe lowest price in this comparison alongside a substantial review base, a strong choice for a smaller desk or a single-monitor setup.",
     specs: ["26 inch platform, compact"],

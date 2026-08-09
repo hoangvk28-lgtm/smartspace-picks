@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51phX6jwL9L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$26.84",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51phX6jwL9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B016CL2DE6?tag=deskfinds0d-20",
     description: "Explicitly marketed as slim and portable, covering a wide 12-17 inch laptop range, directly matching the thin/slim category this search targets.",
     specs: ["Explicitly slim, portable design", "Fits 12-17 inch laptops"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$27.99",
     rating: "4.5",
     reviews: "45,172",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51+142vwVRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00NNMB3KS?tag=deskfinds0d-20",
     description: "Also explicitly marketed as slim and portable, with by far the largest review base of any cooling pad in our entire research pass at 45,172 reviews.",
     specs: ["Slim, portable design", "45,172 reviews at 4.5 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$21.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51KmjcikP8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B082SSJY2C?tag=deskfinds0d-20",
     description: "Explicitly described as \"ultra slim\" in the listing, fitting 6 fans into a low-profile design, at a mid-range price.",
     specs: ["Explicitly ultra-slim design", "6 quiet LED fans"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/412Uv1YKYyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08TRGT9VZ?tag=deskfinds0d-20",
     description: "An aluminum-bodied pad that's inherently lower profile than plastic fan-array designs, with 7 height settings and the lowest price in this comparison.",
     specs: ["Aluminum body, single fan", "7 height-adjustable positions"],

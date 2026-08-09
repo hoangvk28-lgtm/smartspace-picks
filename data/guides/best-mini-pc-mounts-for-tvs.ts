@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31L4FiZcVdL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$21.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31L4FiZcVdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZBPR859?tag=deskfinds0d-20",
     description: "Explicitly designed for behind-display mounting, supports up to 12 lbs, and lists wide device compatibility including HP, Dell, KAMRUI, Mac Mini, and GMKtec devices — verify weight and VESA compatibility with your specific TV mount.",
     specs: ["Fits 0.63-2.8 in device width", "Supports up to 12 lbs", "Behind-monitor/display mounting"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "4.4",
     reviews: "702",
-    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41nWvL8pqlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KY3LHVG?tag=deskfinds0d-20",
     description: "The largest review base in this comparison, supports both major VESA patterns and multiple mounting locations including pole mounting, which can help route around a wall-mounted TV setup.",
     specs: ["Fits 0.65-2.55 in device depth", "75x75 and 100x100mm VESA", "702 reviews at 4.4 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.6",
     reviews: "190",
-    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31l-EL12D-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJ7BK9CM?tag=deskfinds0d-20",
     description: "Explicitly supports both wall mounting and behind-monitor VESA mounting, the highest rating in this comparison, useful for buyers who want to mount directly to the wall near a TV rather than sharing VESA holes.",
     specs: ["Wall mount or VESA behind-monitor mount", "190 reviews at 4.6 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$32.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Ohj6NQqpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B076N6B6GQ?tag=deskfinds0d-20",
     description: "From StarTech, an established computer-hardware brand, with multiple mounting options including behind-display, at the highest price in this comparison.",
     specs: ["Fits 0.7-2.8 in device depth", "Behind-monitor, pole, or under-desk mount"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$33.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31NPNbWgygL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F66MHHWH?tag=deskfinds0d-20",
     description: "A compact VESA bracket supporting both wall and desk-hanging configurations, useful for tight spaces behind a wall-mounted TV where a bulkier bracket won't fit.",
     specs: ["Compact VESA bracket", "Wall or desk-hanging configuration"],

@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71YHqhV3grL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41sW5lDV5eL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$279.99",
     rating: "4.6",
     reviews: "1,693",
-    imageUrl: "https://m.media-amazon.com/images/I/71YHqhV3grL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41sW5lDV5eL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07K217DXS?tag=deskfinds0d-20",
     description: "A large 46 inch platform with a solid review base, likely offering a wider height adjustment range given its overall large-format design.\n\nCalculate your specific desk height plus this converter's maximum lift against your actual standing elbow height before ordering.",
     specs: ["46 inch platform"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$161.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/61lLQZM7T-L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41mkQi1Vv9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09XVQ9YJN?tag=deskfinds0d-20",
     description: "A large 42 inch platform sharing VIVO's massive K Series review pool, at a reasonable price for the size.\n\nCalculate the total standing height (your desk plus this converter's maximum lift) against your actual elbow height while standing.",
     specs: ["42 inch platform"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$197.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/71RVQZmY-6L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41brvuY+FwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CG7HG8L1?tag=deskfinds0d-20",
     description: "The largest confirmed standard platform in our research, sharing VIVO's broad review pool, giving taller users the most viewing distance flexibility.\n\nA large platform also generally correlates with a taller overall converter design suited to larger users' proportions.",
     specs: ["48 inch platform"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$269.99",
     rating: "4.6",
     reviews: "743",
-    imageUrl: "https://m.media-amazon.com/images/I/61tX+8k4hCL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ljwbh0mjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06XKLMMNM?tag=deskfinds0d-20",
     description: "A confirmed 48 inch platform from Mount-It!, an ergonomic-focused brand likely to have engineered a wider height range for larger users.\n\nA solid review base for this large-format alternative from a brand specifically focused on ergonomic fit.",
     specs: ["48 inch platform, extra large desk riser"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$549.00",
     rating: "4.7",
     reviews: "1,418",
-    imageUrl: "https://m.media-amazon.com/images/I/71p5-p3xkFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41oOz8w2OYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00UVHTGJ8?tag=deskfinds0d-20",
     description: "11 distinct height settings across a 48 inch platform, useful for finding and consistently returning to the exact right height for your specific stature.\n\nThe highest price in this comparison, but the precise fixed-setting mechanism is genuinely useful for a tall user who needs to hit an exact position repeatedly.",
     specs: ["48 inch platform, 11 height settings"],
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     price: "$239.99",
     rating: "4.6",
     reviews: "10,111",
-    imageUrl: "https://m.media-amazon.com/images/I/61lLQZM7T-L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41i7KiJ9rwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07H9DM38X?tag=deskfinds0d-20",
     description: "A large 42 inch platform with a substantial review base, an alternative VIVO listing worth comparing against the K Series option.\n\nCheck current pricing between VIVO's 42 inch listings, since specific models can vary in price at different times.",
     specs: ["42 inch platform"],

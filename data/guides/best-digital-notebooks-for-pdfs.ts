@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31TxeKtPWwL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$679.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31TxeKtPWwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FC1VJJFP?tag=deskfinds0d-20",
     description: "64GB of storage for a large PDF library, color display for reviewing marked-up documents, and PDF annotation tools built into Amazon's reading ecosystem.",
     specs: ["64GB storage", "Color E Ink display", "PDF annotation tools included"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$399.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/316t+ALq6FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZ9VFQ2P?tag=deskfinds0d-20",
     description: "Same PDF annotation toolset as the Colorsoft without color or the larger storage tier, at a significantly lower price for buyers with a smaller document library.",
     specs: ["16GB storage", "PDF annotation tools included", "Monochrome E Ink display"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$449.00",
     rating: "4.4",
     reviews: "1,354",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HDL3XJR?tag=deskfinds0d-20",
     description: "The largest, highest-rated review base of any device here, with strong PDF annotation tools, though cloud-based document organization requires the paid Connect subscription.",
     specs: ["Marker Plus stylus included", "PDF annotation tools", "1,354 reviews at 4.4 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$299.98",
     rating: "4.3",
     reviews: "329",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41StVO0JWOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DX234NWP?tag=deskfinds0d-20",
     description: "The cheapest option here with full-color PDF viewing and annotation via its 10.95 inch display, though verify current PDF app support before buying if that's your primary use case.",
     specs: ["10.95 inch color display", "PDF viewing and annotation", "329 reviews at 4.3 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$529.99",
     rating: "4.3",
     reviews: "310",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41BunSeRP3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR4KXMKF?tag=deskfinds0d-20",
     description: "Running Android means you can install dedicated third-party PDF readers with advanced organization tools beyond the built-in options on closed ecosystems.",
     specs: ["Color E Ink display", "Runs Android for third-party PDF apps", "310 reviews at 4.3 stars"],

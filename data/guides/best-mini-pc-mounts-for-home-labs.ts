@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41KVUYtCF9L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$25.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41KVUYtCF9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G9C4S2MG?tag=deskfinds0d-20",
     description: "For home labs with a dedicated 10-inch rack, this shelf works across Dell, Lenovo, and HP mini PCs with cable-routing cutouts, the most flexible rack-format option in this comparison.",
     specs: ["1U, 10 inch rack shelf", "Compatible with Dell, Lenovo, HP mini PCs", "RJ45 CAT6 and HDMI port cutouts"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$14.99",
     rating: "4.4",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31qkrJ347eL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTWYJTR8?tag=deskfinds0d-20",
     description: "A half-width rack shelf, useful for home labs where you want to pack more devices per rack unit.",
     specs: ["Half-width, 10 inch rack shelf", "4.4 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "4.4",
     reviews: "702",
-    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41nWvL8pqlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KY3LHVG?tag=deskfinds0d-20",
     description: "For home labs without a dedicated rack, this VESA bracket mounts under a desk, to a pole, or on a surface, with by far the largest review base in this comparison.",
     specs: ["Fits 0.65-2.55 in device depth", "Under-desk, pole, or surface mount", "702 reviews at 4.4 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.6",
     reviews: "190",
-    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31l-EL12D-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJ7BK9CM?tag=deskfinds0d-20",
     description: "The highest rating in this comparison, useful for a home-lab node mounted directly to a wall in a closet or utility space rather than a formal rack.",
     specs: ["Wall mount or VESA behind-monitor mount", "190 reviews at 4.6 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$12.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31mtZrZsgiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2Y8B6J3?tag=deskfinds0d-20",
     description: "The cheapest option in this comparison, a simple wall-mounted shelf that also accommodates a router, useful for a minimal home-lab setup with a mini PC and networking gear together.",
     specs: ["Adjustable wall mount shelf", "Also fits WiFi routers"],

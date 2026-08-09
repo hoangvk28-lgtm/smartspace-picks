@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "6 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$129.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075JYG2TB?tag=deskfinds0d-20",
     description: "Not an IKEA product, included as the strongest overall alternative in our research: the largest review base of any converter we found, at a mid-range price.\n\nIf you specifically wanted an IKEA product for aesthetic or brand consistency with existing IKEA furniture, this won't match that, but it's a proven converter that works on any standard desk.",
     specs: ["32 inch platform, dual-monitor support"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$139.99",
     rating: "4.6",
     reviews: "2,412",
-    imageUrl: "https://m.media-amazon.com/images/I/71b2wLXe8vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Z4mzo+NKS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LCCJD6B?tag=deskfinds0d-20",
     description: "A well-reviewed alternative at a similar price point and platform size to the top pick, worth comparing directly.\n\nAlso not an IKEA product, included for buyers deciding between the two most-reviewed 32 inch options in our research.",
     specs: ["32 inch platform", "Gas-spring lift"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$59.99",
     rating: "4.2",
     reviews: "109",
-    imageUrl: "https://m.media-amazon.com/images/I/61gJ5FQxULL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41azPSHnDnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F4FN3SNT?tag=deskfinds0d-20",
     description: "A simple, budget-priced keyboard riser closer in spirit to IKEA's minimal furniture aesthetic and pricing, though not an actual IKEA product.\n\nA smaller review base and lower rating than the established brands, but the cheapest option if budget is the primary concern.",
     specs: ["Adjustable height keyboard riser"],

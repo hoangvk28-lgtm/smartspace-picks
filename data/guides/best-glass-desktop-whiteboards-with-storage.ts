@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41KvzD4pxFL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$24.99",
     rating: "4.8",
     reviews: "1,020",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41KvzD4pxFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B093B83ZSN?tag=deskfinds0d-20",
     description: "Highest rating in this comparison, with genuine organizer compartments and a to-do list section built into the glass board, not just a marker groove.",
     specs: ["Glass surface with organizer compartments", "To-do list section", "1,020 reviews at 4.8 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$24.99",
     rating: "4.7",
     reviews: "723",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31W4Q2LBraL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09PHHT8DM?tag=deskfinds0d-20",
     description: "The same core storage design as the top pick, at the same price — check the current listing for any accessory differences between the two.",
     specs: ["Glass surface with organizer compartments", "723 reviews at 4.7 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$27.99",
     rating: "4.8",
     reviews: "1,524",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41aTFk156tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09C1VT7X8?tag=deskfinds0d-20",
     description: "The largest review base among the glass options here, designed for keyboard-adjacent placement with integrated storage, at the highest price in this comparison.",
     specs: ["Glass surface, keyboard-stand design with storage", "1,524 reviews at 4.8 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$25.99",
     rating: "4.7",
     reviews: "2,500",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41+-w5AGGrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B089NL8QMN?tag=deskfinds0d-20",
     description: "The largest review base in this entire comparison at 2,500 reviews, slightly cheaper than the top-rated keyboard-stand pick with a similar storage design.",
     specs: ["Glass surface with storage", "2,500 reviews at 4.7 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$23.74",
     rating: "4.2",
     reviews: "287",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41p7y7rrfnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CL42YP8H?tag=deskfinds0d-20",
     description: "The cheapest glass-with-storage option in this comparison, though with a noticeably lower rating and smaller review base than the other picks — worth reading current feedback before choosing this over the Varhomax or TSJ options.",
     specs: ["Glass surface with storage", "287 reviews at 4.2 stars"],

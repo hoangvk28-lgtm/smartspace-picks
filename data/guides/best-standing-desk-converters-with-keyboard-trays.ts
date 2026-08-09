@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$129.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075JYG2TB?tag=deskfinds0d-20",
     description: "VIVO's K Series design includes a lower keyboard tier below the main monitor platform, the largest review base of any converter with this two-tier structure.\n\nVerify the specific tray depth and vertical offset accommodate your keyboard and mouse comfortably.",
     specs: ["32 inch platform, dual-tier with keyboard tray"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$159.99",
     rating: "4.6",
     reviews: "2,550",
-    imageUrl: "https://m.media-amazon.com/images/I/71xqQhZmDwL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51sPBSqTYXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LCCT6VS?tag=deskfinds0d-20",
     description: "A wider 36 inch two-tier design giving more room on both the monitor platform and keyboard tray levels.\n\nA strong review base at a slightly higher price than the VIVO top pick, worth it for the additional tray width.",
     specs: ["36 inch platform, dual-tier with keyboard tray"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$161.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/61lLQZM7T-L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41mkQi1Vv9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09XVQ9YJN?tag=deskfinds0d-20",
     description: "A larger 42 inch version of VIVO's proven two-tier design, sharing the same massive review pool for buyers who need more surface at both levels.\n\nA reasonable price for the largest confirmed two-tier design with a genuine keyboard tray.",
     specs: ["42 inch platform, dual-tier with keyboard tray"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$139.99",
     rating: "4.6",
     reviews: "2,412",
-    imageUrl: "https://m.media-amazon.com/images/I/71b2wLXe8vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Z4mzo+NKS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LCCJD6B?tag=deskfinds0d-20",
     description: "A well-reviewed two-tier alternative at the 32 inch size, worth comparing directly against the VIVO top pick.\n\nA solid review base for buyers who want to compare beyond the single most-reviewed two-tier option.",
     specs: ["32 inch platform, dual-tier with keyboard tray"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$242.99",
     rating: "4.4",
     reviews: "1,279",
-    imageUrl: "https://m.media-amazon.com/images/I/71YHqhV3grL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/411LiqBlrgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DTR12D3V?tag=deskfinds0d-20",
     description: "The only pick in this comparison with an explicitly retractable, slide-out keyboard tray rather than a fixed lower tier.\n\nA solid review base for this genuinely different tray mechanism, useful if you want to slide the tray away entirely for standing-only use.",
     specs: ["45 inch platform, slide-out retractable keyboard tray"],
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     price: "$219.99",
     rating: "4.5",
     reviews: "214",
-    imageUrl: "https://m.media-amazon.com/images/I/71N4vXt3jML._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/4145NueHmqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2H3NH6W?tag=deskfinds0d-20",
     description: "Combines a two-tier keyboard tray design with electric lift, useful for buyers who want both independent keyboard positioning and effortless height adjustment.\n\nA meaningful price premium over the manual dual-tier alternatives, but a genuine combination of features.",
     specs: ["40 inch platform, dual-tier with keyboard tray, electric lift"],

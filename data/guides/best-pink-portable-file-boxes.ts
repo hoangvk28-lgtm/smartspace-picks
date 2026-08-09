@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41IFgVCQh9L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$24.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41IFgVCQh9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C9TQQ4SS?tag=deskfinds0d-20",
     description: "Confirmed pink directly in the product name, with a lock and collapsible design — verify any fireproof marketing claim's specific certification before relying on it for irreplaceable documents.",
     specs: ["Confirmed pink", "Lock, collapsible design"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "See listing",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
     amazonUrl: "https://www.amazon.com/dp/B0H3SXSVH2?tag=deskfinds0d-20",
     description: "\"Pink\" is directly in the product name, with an easy-slide organizer design specifically for hanging files.",
     specs: ["Confirmed pink in product name", "Easy-slide hanging file organizer"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.5",
     reviews: "3,073",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41CNUmxe5pL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08XJPHGGP?tag=deskfinds0d-20",
     description: "A real review base for this product, the largest of any pink-confirmed or pink-adjacent option in this comparison, though verify pink specifically remains a current color option since this listing serves multiple colors.",
     specs: ["Letter file storage", "3,073 reviews at 4.5 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$31.99",
     rating: "4.6",
     reviews: "6,123",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51m3PHmzj0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B2PQ59SK?tag=deskfinds0d-20",
     description: "The largest review base and highest rating in this entire comparison, with zipper pockets and a lock, though verify pink availability and any fireproof certification directly on the current listing.",
     specs: ["Lock, zipper pockets, collapsible", "6,123 reviews at 4.6 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$18.99",
     rating: "4.3",
     reviews: "3,139",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41GQ8rqDXhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FVJZD3L?tag=deskfinds0d-20",
     description: "A well-reviewed general file organizer from IRIS USA that may offer color variants — verify pink availability on the current listing before ordering, since our confirmed data shows black.",
     specs: ["Letter file organizer, portable handle", "3,139 reviews at 4.3 stars"],

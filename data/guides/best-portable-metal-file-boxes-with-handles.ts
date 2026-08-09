@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41vOA84B1YL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$56.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41vOA84B1YL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000GP0Z6I?tag=deskfinds0d-20",
     description: "From Vaultz, a brand specifically known for reinforced storage products, at specific dimensions with more structural presence than the plastic-only options in our other guides.",
     specs: ["14 x 7 x 12.19 in, letter size", "Vaultz reinforced construction"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$31.99",
     rating: "4.4",
     reviews: "1,865",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Gx6GHP52L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BRTQ3C7G?tag=deskfinds0d-20",
     description: "A solid review base for a fireproof-marketed box, though verify the specific certification standard cited in the current listing before relying on this rating for irreplaceable documents.",
     specs: ["Marketed as fireproof, with lids", "1,865 reviews at 4.4 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$22.99",
     rating: "4.4",
     reviews: "593",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/410gBpEnZAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DMDJF8R2?tag=deskfinds0d-20",
     description: "Combines fireproof and waterproof marketing with a lock, at the lowest price of the marketed-fireproof options, with a solid review base.",
     specs: ["Marketed as fireproof and waterproof, with lock", "593 reviews at 4.4 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$20.99",
     rating: "4.4",
     reviews: "405",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51chUNq-ZzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F37SXGQ5?tag=deskfinds0d-20",
     description: "The cheapest marketed-fireproof option with real review data, specifically emphasizing handle design in its listing.",
     specs: ["Marketed as fireproof, with handle emphasis", "405 reviews at 4.4 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$39.99",
     rating: "4.4",
     reviews: "82",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41VTQqtPRTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D2TTGLDX?tag=deskfinds0d-20",
     description: "Dual compartments and locking storage, at a mid-range price with a smaller but positive review sample.",
     specs: ["Dual compartments, locking storage", "82 reviews at 4.4 stars"],

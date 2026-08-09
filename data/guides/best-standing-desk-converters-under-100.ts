@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61vQ2WqPYuL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41Eh8j3wCSL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$107.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/61vQ2WqPYuL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Eh8j3wCSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VMNYMY3?tag=deskfinds0d-20",
     description: "This is priced slightly over our strict $100 line at research time, included as the reference point with by far the largest review base of any converter we found.\n\nCheck the current listing, since pricing on this specific model fluctuates and may fall under $100 depending on current promotions.",
     specs: ["26 inch platform"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.5",
     reviews: "632",
-    imageUrl: "https://m.media-amazon.com/images/I/61yK3nQvXTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Br1CxfavL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07K8WZ19K?tag=deskfinds0d-20",
     description: "Confirmed right at the $100 threshold, a single-top design with a solid review base.\n\nThe strongest genuinely confirmed under-$100 option in this comparison.",
     specs: ["29 inch platform, single-top design"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.6",
     reviews: "2,127",
-    imageUrl: "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41KPjLPGisL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8114738?tag=deskfinds0d-20",
     description: "A larger review base than the other 29 inch alternative at the same $99.99 price point, with a slightly higher rating.\n\nThe best combination of review volume and rating among confirmed under-$100 options.",
     specs: ["28 inch platform"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.5",
     reviews: "1,243",
-    imageUrl: "https://m.media-amazon.com/images/I/61qK5nQvXTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/412VP8wOKyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08GKXXT22?tag=deskfinds0d-20",
     description: "A genuinely slim design confirmed right at $99.99, with a strong review base for this specific low-profile design.\n\nA reasonable choice if you want a thin-profile design without exceeding a strict $100 ceiling.",
     specs: ["Ultra-slim single-top compact design"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$128.97",
     rating: "4.5",
     reviews: "282",
-    imageUrl: "https://m.media-amazon.com/images/I/61LhWc3vsML._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41EwRQZYUsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CKGL1M7P?tag=deskfinds0d-20",
     description: "This listing is above our strict $100 line at research time, included as the reference point for a compact Mount-It! design; check the current listing for updated pricing that might fall under the ceiling.\n\nWorth checking regularly for sale pricing that could bring this ergonomic-focused option under $100.",
     specs: ["30 inch platform, gas-spring lift"],
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     price: "$49.99",
     rating: "4.1",
     reviews: "64",
-    imageUrl: "https://m.media-amazon.com/images/I/61hK8nQvWTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/418VudppzfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1C9LBN5?tag=deskfinds0d-20",
     description: "By far the lowest confirmed price in this comparison, a small extra-slim platform.\n\nA smaller review base and lower rating than the VIVO options, but confirmed well under $100 with a real, if smaller, review history.",
     specs: ["24 x 14 inch platform, manual lift"],

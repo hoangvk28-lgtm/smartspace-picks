@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/316t+ALq6FL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$399.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/316t+ALq6FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZ9VFQ2P?tag=deskfinds0d-20",
     description: "Kindle Scribe includes handwriting-to-text tools and note summarization features tied to Amazon's ecosystem, on top of full e-reader functionality. Verify the current listing for exactly which AI features are active on your firmware version, since Amazon rolls these out in stages.",
     specs: ["16GB storage", "Handwriting-to-text and note summary tools", "Full Kindle e-reader ecosystem"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$679.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31TxeKtPWwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FC1VJJFP?tag=deskfinds0d-20",
     description: "The newest, highest-capacity Kindle Scribe model with a color E Ink display and the same AI note tooling as the base Scribe, at a substantially higher price for the color upgrade and larger 64GB storage.",
     specs: ["64GB storage", "Color E Ink display", "Same AI note/summary tooling as base Kindle Scribe"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$399.00",
     rating: "4.1",
     reviews: "18",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31KAykcDD+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVKBLJK2?tag=deskfinds0d-20",
     description: "reMarkable's AI features (handwriting conversion, some summarization) are largely gated behind the paid Connect subscription rather than being free out of the box — a real cost difference from the Kindle Scribe worth knowing before buying.",
     specs: ["Marker stylus included", "Handwriting conversion available", "Advanced AI features require reMarkable Connect subscription"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$449.00",
     rating: "4.4",
     reviews: "1,354",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HDL3XJR?tag=deskfinds0d-20",
     description: "The most-reviewed device in this comparison, with the same subscription-gated AI feature structure as the Paper Pure above but a much larger base of real-world testing.",
     specs: ["Marker Plus stylus included", "Handwriting conversion available", "Advanced AI features require reMarkable Connect subscription"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$439.00",
     rating: "4.4",
     reviews: "118",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31VzGzvO4SL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FKT9PNFC?tag=deskfinds0d-20",
     description: "This is explicitly marketed as an AI note-taking device, but has a much smaller review base than the Kindle Scribe or reMarkable options. Worth considering, but verify the specific AI claims against current buyer feedback before choosing it over the more established options above.",
     specs: ["10.3 inch E Ink display", "Pen included", "AI note-taking marketed as a core feature"],

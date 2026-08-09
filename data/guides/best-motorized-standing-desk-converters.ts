@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "6 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61P9m5nq7CL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41M1ekKczDL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$349.00",
     rating: "4.5",
     reviews: "497",
-    imageUrl: "https://m.media-amazon.com/images/I/61P9m5nq7CL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41M1ekKczDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0864RSM5S?tag=deskfinds0d-20",
     description: "The largest review base of any motorized (electric) converter we researched, from VERSADESK, a brand specializing in electric desk products.\n\nThis is the same product category as \"electric standing desk converter\"; see our full electric guide for the complete comparison.",
     specs: ["36 inch platform, motorized push-button lift"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$239.99",
     rating: "4.5",
     reviews: "214",
-    imageUrl: "https://m.media-amazon.com/images/I/71QW4LhLcVL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/416Vd3ngfML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2H2PZ5X?tag=deskfinds0d-20",
     description: "A large 42 inch motorized platform at a lower price than the VERSADESK option, from FlexiSpot.\n\nA smaller review base than VERSADESK, worth watching as review volume builds for this large budget-friendly motorized platform.",
     specs: ["42 inch platform, motorized lift"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$219.99",
     rating: "4.5",
     reviews: "241",
-    imageUrl: "https://m.media-amazon.com/images/I/71xJmqXt6VL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41XNBWjje9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6R2Z2F8?tag=deskfinds0d-20",
     description: "VIVO's motorized converter line, distinct from their much larger manual K Series review pool, at a 42 inch platform.\n\nA competitive price against FlexiSpot's motorized options at the same size.",
     specs: ["42 inch platform, motorized lift"],

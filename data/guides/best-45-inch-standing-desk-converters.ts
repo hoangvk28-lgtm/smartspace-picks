@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71YHqhV3grL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/411LiqBlrgL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$242.99",
     rating: "4.4",
     reviews: "1,279",
-    imageUrl: "https://m.media-amazon.com/images/I/71YHqhV3grL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/411LiqBlrgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DTR12D3V?tag=deskfinds0d-20",
     description: "The strongest confirmed genuine 45 inch converter we found, with a solid review base and a genuinely retractable keyboard tray feature not offered at the nearby size tiers.\n\nA real product at this exact width, unlike some competitor listings that round nearby sizes up or down to \"45 inches\" loosely.",
     specs: ["45 inch platform, slide-out retractable keyboard tray"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$197.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/71RVQZmY-6L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41brvuY+FwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CG7HG8L1?tag=deskfinds0d-20",
     description: "Not exactly 45 inches, included as a well-populated nearby alternative: a confirmed 48 inch platform with by far the largest review base of any large-format converter.\n\nIf a few inches of flexibility works for your desk, this offers dramatically more proven review history than the exact 45 inch option.",
     specs: ["48 inch platform, not exactly 45"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$269.99",
     rating: "4.6",
     reviews: "743",
-    imageUrl: "https://m.media-amazon.com/images/I/61tX+8k4hCL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ljwbh0mjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06XKLMMNM?tag=deskfinds0d-20",
     description: "Another confirmed 48 inch alternative, from Mount-It!, an ergonomic-focused brand, included for buyers comparing nearby sizes.\n\nNot exactly 45 inches; verify this larger nearby size still fits your desk before ordering.",
     specs: ["48 inch platform, not exactly 45"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$199.99",
     rating: "4.5",
     reviews: "1,204",
-    imageUrl: "https://m.media-amazon.com/images/I/61h9K3nQvWL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51ql3SmLQXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09G9L9X8B?tag=deskfinds0d-20",
     description: "Not exactly 45 inches, a confirmed 42 inch alternative with genuine MDF wood construction and a solid review base.\n\nIf you'd rather have a slightly smaller platform than exactly 45 inches, this offers confirmed wood construction as a differentiator.",
     specs: ["42 inch platform, confirmed MDF wood construction, not exactly 45"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$389.00",
     rating: "4.5",
     reviews: "497",
-    imageUrl: "https://m.media-amazon.com/images/I/61tP7jcYqoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41jeNZ2uiSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08KFPDGX1?tag=deskfinds0d-20",
     description: "Not exactly 45 inches, a confirmed 40 inch electric alternative for buyers who want push-button adjustment near this size range.\n\nThe only electric option among these nearby-size alternatives, worth considering if effortless adjustment matters more than exact width.",
     specs: ["40 inch platform, electric push-button lift, not exactly 45"],

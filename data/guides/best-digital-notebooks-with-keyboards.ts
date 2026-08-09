@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41StVO0JWOL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$299.98",
     rating: "4.3",
     reviews: "329",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41StVO0JWOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DX234NWP?tag=deskfinds0d-20",
     description: "This is not sold with a keyboard, but XPPen's note-taking tablets are more likely to run an open enough OS to support a paired Bluetooth keyboard than the closed Kindle Scribe or reMarkable ecosystems — verify current OS/app support before assuming typing works as expected.",
     specs: ["10.95 inch color display", "16384 pressure levels", "329 reviews at 4.3 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$324.95",
     rating: "4.2",
     reviews: "180",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31dwpvU+C7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2SHL3DH?tag=deskfinds0d-20",
     description: "Same core hardware as the pick above at a slightly higher price. Neither XPPen listing includes a keyboard; check the current listing for exact accessory bundle differences.",
     specs: ["10.95 inch color display", "16384 pressure levels", "180 reviews at 4.2 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$679.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31TxeKtPWwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FC1VJJFP?tag=deskfinds0d-20",
     description: "Kindle's closed ecosystem does not support a general Bluetooth keyboard for note-taking the way an Android-based device might. Included here as the honest \"no\" case: if you need real typing, this is not the device, regardless of its other strengths.",
     specs: ["64GB storage", "Color E Ink display", "Closed Amazon ecosystem, no general Bluetooth keyboard support"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$399.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/316t+ALq6FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZ9VFQ2P?tag=deskfinds0d-20",
     description: "Same closed ecosystem and lack of keyboard support as the Colorsoft above, at a lower price without color display or extra storage.",
     specs: ["16GB storage", "Monochrome E Ink display", "Closed Amazon ecosystem, no general Bluetooth keyboard support"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$449.00",
     rating: "4.4",
     reviews: "1,354",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HDL3XJR?tag=deskfinds0d-20",
     description: "reMarkable's Type Folio keyboard accessory exists for other models in their lineup, but check the current listing to confirm compatibility with this specific reMarkable 2 configuration before assuming it will work.",
     specs: ["Marker Plus stylus included", "reMarkable Type Folio may be compatible — verify current model support", "1,354 reviews at 4.4 stars"],

@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$129.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075JYG2TB?tag=deskfinds0d-20",
     description: "The largest review base of any converter we researched, a reassuring sign of reliable daily stability for video calls and typing.\n\nA 32 inch platform fits comfortably in most home office setups without dominating the room.",
     specs: ["32 inch platform, dual-monitor support"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$139.99",
     rating: "4.6",
     reviews: "2,412",
-    imageUrl: "https://m.media-amazon.com/images/I/71b2wLXe8vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Z4mzo+NKS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LCCJD6B?tag=deskfinds0d-20",
     description: "A well-reviewed alternative to the VIVO top pick at a similar price and platform size.\n\nA solid choice for a home office desk that needs the same reliable 32 inch footprint without the largest review pool.",
     specs: ["32 inch platform"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$139.99",
     rating: "4.5",
     reviews: "1,347",
-    imageUrl: "https://m.media-amazon.com/images/I/71kK5nQvXTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/415w+aB6IqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VZ4CQG9?tag=deskfinds0d-20",
     description: "Marketed specifically for quick height transitions, useful for a home office where you might switch positions frequently between calls and focused work.\n\nA solid review base at a similar price to the FITUEYES alternative, worth comparing on the specific quick-adjust mechanism.",
     specs: ["32 inch platform, quick sit-to-stand design"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "See listing",
     rating: "4.5",
     reviews: "987",
-    imageUrl: "https://m.media-amazon.com/images/I/61lLQZM7T-L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/415w+aB6IqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CC5LS9F2?tag=deskfinds0d-20",
     description: "A larger platform option for a home office needing more surface area for dual monitors or a monitor-plus-laptop setup.\n\nCurrent price wasn't confirmed in our data pull; verify directly on the listing before ordering.",
     specs: ["Larger platform, verify exact size on listing"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$279.99",
     rating: "4.6",
     reviews: "1,693",
-    imageUrl: "https://m.media-amazon.com/images/I/71YHqhV3grL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41sW5lDV5eL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07K217DXS?tag=deskfinds0d-20",
     description: "For a dedicated home office room with a large desk, this platform accommodates a serious multi-monitor productivity setup.\n\nA large desk is required to accommodate the full footprint; verify your home office desk has adequate space.",
     specs: ["46 inch platform, triple-monitor mount"],
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     price: "$349.00",
     rating: "4.5",
     reviews: "497",
-    imageUrl: "https://m.media-amazon.com/images/I/61P9m5nq7CL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41M1ekKczDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0864RSM5S?tag=deskfinds0d-20",
     description: "Push-button electric adjustment is genuinely useful for a home office worker with frequent video calls, letting you quietly reposition between meetings without a lever pull that might be visible or audible on camera.\n\nRequires power outlet access at your home office desk; a real convenience upgrade for anyone adjusting position multiple times daily.",
     specs: ["36 inch platform, electric push-button lift"],

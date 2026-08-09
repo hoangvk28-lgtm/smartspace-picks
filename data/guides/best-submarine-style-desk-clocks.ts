@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51Ee1NBJrWL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.4",
     reviews: "1,700",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Ee1NBJrWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07WMVHP2J?tag=deskfinds0d-20",
     description: "A genuine metal-bodied vintage clock with the largest review base and highest rating among this search's actual results, though it has no dive-watch or submarine design elements — it's a general retro table clock.",
     specs: ["Metal body, vintage design", "No nautical/dive-watch theming", "1,700 reviews at 4.4 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.3",
     reviews: "62",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51vOzTtxG9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFDWS9R8?tag=deskfinds0d-20",
     description: "A more substantial mantel-style vintage clock, still with no submarine or dive-watch design elements, at a higher price with a smaller review base.",
     specs: ["Mantel-style, vintage design", "No nautical/dive-watch theming", "62 reviews at 4.3 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$9.99",
     rating: "4.4",
     reviews: "1,512",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/4110W9wBQYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09SB6ZY4P?tag=deskfinds0d-20",
     description: "A genuine metal-body analog clock at the lowest price among this search's actual results, with a large, proven review base.",
     specs: ["Metal body, vintage design", "No nautical/dive-watch theming", "1,512 reviews at 4.4 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$39.90",
     rating: "4.4",
     reviews: "822",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41c1kZ9IKNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07PYN9YZN?tag=deskfinds0d-20",
     description: "An auto-flip mechanical display clock with a solid review base, still no submarine connection but a genuinely distinctive mechanism if novelty matters more than theme to you.",
     specs: ["Auto-flip mechanism", "No nautical/dive-watch theming", "822 reviews at 4.4 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$16.95",
     rating: "4.6",
     reviews: "2,643",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41HXEjNzdTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D4DJ5TYP?tag=deskfinds0d-20",
     description: "The single highest-rated and most-reviewed clock among this search's actual results, a modern mirror-finish design with no connection to diving or submarines whatsoever.",
     specs: ["Slim mirror-surface design", "No nautical/dive-watch theming", "2,643 reviews at 4.6 stars"],

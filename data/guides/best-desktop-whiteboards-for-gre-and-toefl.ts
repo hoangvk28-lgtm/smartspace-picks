@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41aTFk156tL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$27.99",
     rating: "4.8",
     reviews: "1,524",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41aTFk156tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09C1VT7X8?tag=deskfinds0d-20",
     description: "Compact enough to sit within camera view during an at-home exam, with fast erasing and the highest rating in this comparison.",
     specs: ["Glass surface, compact size", "1,524 reviews at 4.8 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$25.99",
     rating: "4.7",
     reviews: "2,500",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41+-w5AGGrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B089NL8QMN?tag=deskfinds0d-20",
     description: "The largest review base in this entire comparison, similarly compact and slightly cheaper than the top pick.",
     specs: ["Glass surface, compact size", "2,500 reviews at 4.7 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$23.99",
     rating: "4.8",
     reviews: "2,486",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41caJzrXfNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07RT4LWYY?tag=deskfinds0d-20",
     description: "The largest writing area in this comparison, useful for quantitative scratch work that needs more room than a compact glass board offers, double-sided for extended sessions.",
     specs: ["16 x 12 in, double-sided, magnetic", "2,486 reviews at 4.8 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$16.99",
     rating: "4.7",
     reviews: "1,191",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/4180Al3c9zL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09MZ5ZD4N?tag=deskfinds0d-20",
     description: "At 8x6 inches this is one of the smallest options here, cheaper than the larger glass boards, ideal for minimizing desk clutter during a proctored exam.",
     specs: ["8 x 6 in, glass surface", "1,191 reviews at 4.7 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$18.99",
     rating: "4.6",
     reviews: "1,356",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41FLEFa9xDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVM9YJCS?tag=deskfinds0d-20",
     description: "Similar large writing area to the Tankee pick above at a lower price, useful for scratch-heavy sections without the higher cost.",
     specs: ["16 x 12 in, double-sided, magnetic", "1,356 reviews at 4.6 stars"],

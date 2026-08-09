@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$129.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075JYG2TB?tag=deskfinds0d-20",
     description: "The largest review base of any converter we researched, with a continuous gas-spring adjustment range rather than fixed height settings.\n\nContinuous adjustment lets you find any height within the range rather than stepping between preset positions.",
     specs: ["32 inch platform, continuous gas-spring adjustment"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$343.20",
     rating: "4.8",
     reviews: "3,153",
-    imageUrl: "https://m.media-amazon.com/images/I/71xLKGrNfhL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41I06ihR+sL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00JI6NCCK?tag=deskfinds0d-20",
     description: "Offers 11 distinct fixed height settings rather than continuous adjustment, useful for finding and returning to the exact same position repeatedly.\n\nThe highest rating in our broader converter research; a premium price for this specific adjustment mechanism.",
     specs: ["36 inch platform, 11 fixed height settings"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$349.00",
     rating: "4.5",
     reviews: "497",
-    imageUrl: "https://m.media-amazon.com/images/I/61P9m5nq7CL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41M1ekKczDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0864RSM5S?tag=deskfinds0d-20",
     description: "The most effortless adjustment mechanism in this comparison, using a motor and push-button control rather than a lever or handle.\n\nRequires power outlet access; a genuine convenience upgrade if you adjust height frequently throughout the day.",
     specs: ["36 inch platform, electric push-button adjustment"],

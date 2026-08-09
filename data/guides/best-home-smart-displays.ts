@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61c1KfXvJUL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41go8J1bt3L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$369.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/61c1KfXvJUL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41go8J1bt3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FDGG67ZJ?tag=deskfinds0d-20",
     description: "At 21.5 inches, this is by far the largest screen across our entire smart display research, roughly double the diagonal size of the standard 10.1 inch tablet-style options.\n\nConfirmed calendar sync and chore chart features make this function as a genuine family command center rather than a personal desk tablet; the price reflects the significantly larger screen.",
     specs: ["21.5 inch touchscreen", "Calendar sync, chore chart"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$209.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/61c1KfXvJUL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41nd6tJY5SL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHX7124V?tag=deskfinds0d-20",
     description: "Explicitly advertised as subscription-free at 15.6 inches, a meaningful step up in screen size from the 10.1 inch entry tier without reaching the Apolosign pick's price or size.\n\nAirzeen also offers a 10.1 inch model at a lower price within the same product line, worth comparing if the larger screen isn't necessary for your space.",
     specs: ["15.6 inch touchscreen", "No subscription required"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$161.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/61c1KfXvJUL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Wbv61kbBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPR1L223?tag=deskfinds0d-20",
     description: "The same 15.6 inch screen size as the Airzeen pick above, also explicitly subscription-free, but at a notably lower price, worth comparing feature-by-feature against Airzeen at this size tier.\n\nA newer brand than some alternatives in this space, so weigh the price advantage against brand track record for a device meant for daily household use.",
     specs: ["15.6 inch touchscreen", "No subscription required"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$249.00",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/61c1KfXvJUL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41NUEI-nAdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C9V811L6?tag=deskfinds0d-20",
     description: "The most established brand name in the family-calendar category, at a 15 inch screen size close to the Airzeen and Westsee picks, with a dedicated chore chart feature.\n\nVerify current subscription requirements directly on the listing, since Skylight wasn't confirmed subscription-free in our research the way the Airzeen and Westsee picks were.",
     specs: ["15 inch touchscreen", "Chore chart feature"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$59.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/61c1KfXvJUL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51BHkAZaKEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GY3FYHGF?tag=deskfinds0d-20",
     description: "The cheapest entry point into a household smart display in our entire research, explicitly subscription-free, though the 10.1 inch screen is noticeably smaller than the other picks here.\n\nA reasonable way for a household to try the format in a smaller shared space, like an entryway, before committing to a larger and pricier wall-mounted unit.",
     specs: ["10.1 inch touchscreen", "No subscription required"],

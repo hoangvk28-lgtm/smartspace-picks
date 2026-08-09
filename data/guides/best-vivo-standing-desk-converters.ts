@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "10 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$129.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075JYG2TB?tag=deskfinds0d-20",
     description: "The largest review base in VIVO's entire lineup, a 32 inch K Series platform with dual-monitor support at a mid-range price.\n\nThe most representative VIVO converter, with the deepest track record behind it.",
     specs: ["32 inch platform, dual-monitor support"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$197.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/71RVQZmY-6L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41brvuY+FwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CG7HG8L1?tag=deskfinds0d-20",
     description: "VIVO's largest confirmed standard platform, at 48 inches, sharing the same broad review pool as the smaller K Series models.\n\nA reasonable price for the largest platform size, well below the cost of a specialized triple-monitor-mount system.",
     specs: ["48 inch platform"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$219.99",
     rating: "4.5",
     reviews: "241",
-    imageUrl: "https://m.media-amazon.com/images/I/71xJmqXt6VL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41XNBWjje9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6R2Z2F8?tag=deskfinds0d-20",
     description: "VIVO's electric line, distinct from the massive manual K Series review pool, offering push-button adjustment at a 42 inch platform.\n\nA smaller review base than the manual K Series, since electric is a newer addition to VIVO's lineup.",
     specs: ["42 inch platform, electric lift"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$159.99",
     rating: "4.6",
     reviews: "715",
-    imageUrl: "https://m.media-amazon.com/images/I/71H8jNq3RvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41pKou67Z0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07B44LD4S?tag=deskfinds0d-20",
     description: "A dedicated corner desk design, distinct from VIVO's rectangular converters, with a solid review base for this specialized geometry.\n\nBuilt specifically for L-shaped desk corners; verify your desk's return depth and corner dimensions match before ordering.",
     specs: ["38 inch corner platform"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$169.99",
     rating: "4.6",
     reviews: "1,872",
-    imageUrl: "https://m.media-amazon.com/images/I/71jTx8VqXcL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41cvTPf-cXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08RHKKX6K?tag=deskfinds0d-20",
     description: "An integrated dual-monitor mount design rated for 13 to 30 inch displays, a strong review base for this specific configuration.\n\nA genuinely different setup than VIVO's open-platform models, freeing keyboard space by mounting monitors on arms instead.",
     specs: ["32 inch platform, integrated dual 13-30 inch monitor stand"],
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     price: "$279.99",
     rating: "4.6",
     reviews: "159",
-    imageUrl: "https://m.media-amazon.com/images/I/61Rk3nY7fRL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Cnso48ORL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LBBZR7V?tag=deskfinds0d-20",
     description: "Combines VIVO's corner design with electric lift, the only pick in this comparison offering both, at the highest rating among VIVO's electric options.\n\nA smaller review base than the manual corner option, but a genuinely unique combination of features.",
     specs: ["43 inch corner platform, electric lift"],
@@ -124,7 +124,7 @@ export const products: GuideProduct[] = [
     price: "$143.99",
     rating: "4.6",
     reviews: "892",
-    imageUrl: "https://m.media-amazon.com/images/I/71QqYVmR5jL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31p0Yglw5jL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C7SCRXMX?tag=deskfinds0d-20",
     description: "Explicitly confirmed real bamboo construction rather than a bamboo-look laminate finish, at the same 32 inch platform size as VIVO's most popular model.\n\nA solid review base for this material-specific option, at a modest price premium over the standard black finish.",
     specs: ["32 inch platform, real bamboo construction"],
@@ -140,7 +140,7 @@ export const products: GuideProduct[] = [
     price: "$107.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/61vQ2WqPYuL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Eh8j3wCSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VMNYMY3?tag=deskfinds0d-20",
     description: "VIVO's most compact standard converter, at 26 inches, sharing the same massive review pool as the 32 inch top pick.\n\nThe lowest price in VIVO's lineup at this proven review level, ideal for a smaller desk or single-device setup.",
     specs: ["26 inch platform, compact"],

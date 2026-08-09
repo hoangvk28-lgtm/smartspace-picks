@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61c1KfXvJUL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41AciyKwigL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$79.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/61c1KfXvJUL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41AciyKwigL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQ7TQVBW?tag=deskfinds0d-20",
     description: "From Dragon Touch, a brand with an existing track record building budget Android tablets, at a moderate price with a genuinely interactive touchscreen interface.\n\nThe chore chart feature adds real organizational function beyond a basic calendar app, useful for a desk or kitchen counter that doubles as a family task hub.",
     specs: ["10.1 inch interactive touchscreen", "Chore chart feature"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$59.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/61c1KfXvJUL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51BHkAZaKEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GY3FYHGF?tag=deskfinds0d-20",
     description: "The lowest price in this comparison, at the same 10.1 inch screen size as the Dragon Touch pick, with no subscription requirement explicitly confirmed.\n\nA newer brand than Dragon Touch, but the confirmed subscription-free operation is a meaningful long-term cost advantage over unconfirmed alternatives.",
     specs: ["10.1 inch touchscreen", "No subscription required"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$89.98",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/61c1KfXvJUL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/413qIxwyFZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FKMRM3WT?tag=deskfinds0d-20",
     description: "A 10.1 inch touchscreen positioned at the top of this comparison's price range, marketed with a broad electronic-organizer feature set beyond a basic calendar view.\n\nVerify current subscription terms directly on the listing, since this wasn't explicitly confirmed subscription-free in our research.",
     specs: ["10.1 inch touchscreen", "Electronic organizer features"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$112.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/61c1KfXvJUL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/418VBQ43fnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GXFR4YR2?tag=deskfinds0d-20",
     description: "Also explicitly subscription-free like the Cotoala pick, at the same 10.1 inch screen size, but priced nearly double, from a brand that also offers a larger 15.6 inch model.\n\nWorth comparing feature-by-feature against the cheaper Cotoala pick, since screen size alone doesn't explain the price gap between the two.",
     specs: ["10.1 inch touchscreen", "No subscription required"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$249.00",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/61c1KfXvJUL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41NUEI-nAdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C9V811L6?tag=deskfinds0d-20",
     description: "The largest screen and highest price among this specific comparison's tablet-style options, from the most established brand in the family-calendar category.\n\nThis moves beyond a simple desk tablet into a larger dedicated display, worth the premium if brand track record and screen real estate matter more than staying compact.",
     specs: ["15 inch touchscreen", "Chore chart feature"],

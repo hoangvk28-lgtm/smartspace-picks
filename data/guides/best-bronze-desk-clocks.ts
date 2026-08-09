@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41KKs7gB4tL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$59.99",
     rating: "4.1",
     reviews: "46",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41KKs7gB4tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSK1PRGV?tag=deskfinds0d-20",
     description: "A confirmed bronze finish with a genuine revolving pendulum mechanism, the most substantial mantel-style piece in this comparison.",
     specs: ["9 inch mantel clock, bronze finish", "Genuine revolving pendulum", "46 reviews at 4.1 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$28.98",
     rating: "4.0",
     reviews: "6",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41EgSE7MtOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G785C5D9?tag=deskfinds0d-20",
     description: "A genuinely bronze-labeled small table clock with a silent movement, though with a very small review sample worth noting.",
     specs: ["Small table clock, bronze finish", "Silent movement", "6 reviews at 4.0 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.3",
     reviews: "62",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51vOzTtxG9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFDWS9R8?tag=deskfinds0d-20",
     description: "A vintage mantel-style piece with bronze-adjacent tones, battery operated, at a solid rating with a moderate review base.",
     specs: ["Mantel-style, vintage design", "Battery operated", "62 reviews at 4.3 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$24.99",
     rating: "4.2",
     reviews: "447",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41n3D2P5IpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08CMPGYN9?tag=deskfinds0d-20",
     description: "The largest review base among the mantel-style options in this comparison, combining a bronze-toned finish with alarm functionality.",
     specs: ["Mantel style, bronze-toned finish", "Alarm function", "447 reviews at 4.2 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$12.99",
     rating: "4.4",
     reviews: "3,530",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41QEWuh36ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06XRXN7QT?tag=deskfinds0d-20",
     description: "The cheapest and by far the most-reviewed option in this comparison, a vintage-styled analog clock with bronze-adjacent tones.",
     specs: ["Vintage analog design", "3,530 reviews at 4.4 stars"],

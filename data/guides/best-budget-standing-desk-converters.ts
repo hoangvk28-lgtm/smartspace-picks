@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61vQ2WqPYuL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41Eh8j3wCSL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$107.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/61vQ2WqPYuL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Eh8j3wCSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VMNYMY3?tag=deskfinds0d-20",
     description: "The largest review base of any budget converter we researched, proving genuine buyer satisfaction at this price point rather than just a low sticker price.\n\nA solid 4.6 rating across over 15,000 reviews is meaningful evidence this holds up to real-world use, not just an untested cheap product.",
     specs: ["26 inch platform"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$139.99",
     rating: "4.6",
     reviews: "2,412",
-    imageUrl: "https://m.media-amazon.com/images/I/71b2wLXe8vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Z4mzo+NKS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LCCJD6B?tag=deskfinds0d-20",
     description: "A larger 32 inch platform than the top pick, still at a genuinely affordable price with a solid review base.\n\nA reasonable step up in surface area while staying within a value-focused budget.",
     specs: ["32 inch platform"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$219.99",
     rating: "4.3",
     reviews: "224",
-    imageUrl: "https://m.media-amazon.com/images/I/61v6-VQvQyL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41e-fWH+dQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0747733JH?tag=deskfinds0d-20",
     description: "The most expensive pick in this comparison but still well below premium converters, from Mount-It!, an ergonomic-focused brand.\n\nA solid rating for this price tier, though not as cheap or as reviewed as the VIVO and FITUEYES top picks.",
     specs: ["Compact platform, gas-spring lift"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "See listing",
     rating: "4.4",
     reviews: "381",
-    imageUrl: "https://m.media-amazon.com/images/I/61tX+8k4hCL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41e-fWH+dQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0765BQ7RN?tag=deskfinds0d-20",
     description: "A larger review base than the other Mount-It! budget pick, with a better rating, though current price wasn't confirmed in our data.\n\nVerify the current listing price directly, since this wasn't available at research time.",
     specs: ["Compact design, gas-spring lift"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$159.99",
     rating: "4.6",
     reviews: "715",
-    imageUrl: "https://m.media-amazon.com/images/I/71H8jNq3RvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41pKou67Z0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07B44LD4S?tag=deskfinds0d-20",
     description: "For buyers with a corner desk, this offers a genuinely affordable corner-specific option with a solid review base.\n\nA reasonable price for a specialized corner-desk design, well below premium corner converter alternatives.",
     specs: ["38 inch corner platform"],
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     price: "$49.99",
     rating: "4.1",
     reviews: "64",
-    imageUrl: "https://m.media-amazon.com/images/I/61hK8nQvWTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41r8Q+lVJdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1CGBX89?tag=deskfinds0d-20",
     description: "The lowest price in this comparison, meeting our minimum 4.1 rating threshold, a small compact platform.\n\nA smaller review base than the more established picks; this is the entry-level pick for the tightest budget while still meeting a real quality bar.",
     specs: ["24 x 14 inch platform"],

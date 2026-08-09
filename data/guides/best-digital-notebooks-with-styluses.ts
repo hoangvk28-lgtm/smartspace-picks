@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41StVO0JWOL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$299.98",
     rating: "4.3",
     reviews: "329",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41StVO0JWOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DX234NWP?tag=deskfinds0d-20",
     description: "16384 pressure levels puts this well ahead of basic active-pen devices for anyone doing real sketching alongside note-taking, with the pen included in the listed price.",
     specs: ["16384 pressure levels", "Pen included in price", "329 reviews at 4.3 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$324.95",
     rating: "4.2",
     reviews: "180",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31dwpvU+C7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2SHL3DH?tag=deskfinds0d-20",
     description: "Same 16384-pressure-level pen included in the price, listed as a separate bundle at a higher cost — verify accessory differences on the current listing before choosing this over the cheaper option above.",
     specs: ["16384 pressure levels", "Pen included in price", "180 reviews at 4.2 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$69.98",
     rating: "4.4",
     reviews: "1,889",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31djMiO0-jL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GCDRFJQG?tag=deskfinds0d-20",
     description: "Pen included at a fraction of the cost of the pressure-sensitive drawing tablets above, with the largest review base in this comparison, though without the same pressure-level sophistication.",
     specs: ["Pen included in price", "Bluetooth sync to phone", "1,889 reviews at 4.4 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$87.99",
     rating: "4.2",
     reviews: "671",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41PJ-F0w37L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BG2T9SGV?tag=deskfinds0d-20",
     description: "The pen here is battery-free, using electromagnetic resonance rather than an internal battery — one less thing to charge or lose track of, with the pen included in the price.",
     specs: ["Battery-free electromagnetic pen included", "2-in-1 notebook/drawing tablet", "671 reviews at 4.2 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$679.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31TxeKtPWwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FC1VJJFP?tag=deskfinds0d-20",
     description: "The highest-end device in this comparison; check the current listing carefully for exactly which pen tier is bundled, since Amazon offers multiple pen options at different price points for the Kindle Scribe lineup.",
     specs: ["Color E Ink display", "Pen bundle varies — verify current listing", "64GB storage"],

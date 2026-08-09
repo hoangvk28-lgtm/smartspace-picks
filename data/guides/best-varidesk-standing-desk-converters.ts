@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71xLKGrNfhL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41I06ihR+sL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$343.20",
     rating: "4.8",
     reviews: "3,153",
-    imageUrl: "https://m.media-amazon.com/images/I/71xLKGrNfhL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41I06ihR+sL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00JI6NCCK?tag=deskfinds0d-20",
     description: "The highest rating in this comparison, with 11 distinct height settings for precise, repeatable positioning rather than a continuous gas-spring range.\n\nA meaningful review base for a premium-priced converter, suggesting this rating reflects genuine buyer satisfaction rather than a small early sample.",
     specs: ["36 inch platform, 11 height settings"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$549.00",
     rating: "4.7",
     reviews: "1,418",
-    imageUrl: "https://m.media-amazon.com/images/I/71p5-p3xkFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41oOz8w2OYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00UVHTGJ8?tag=deskfinds0d-20",
     description: "The largest VariDesk platform we confirmed currently available, at 48 inches, sharing the same 11-height-setting mechanism as the Pro Plus 36.\n\nThe highest price in this comparison, reflecting the significantly larger platform size suited to dual or triple monitor setups.",
     specs: ["48 inch platform, 11 height settings"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "See listing",
     rating: "4.7",
     reviews: "351",
-    imageUrl: "https://m.media-amazon.com/images/I/71qP5nZ8vDL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41IZD0fQpmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B098TTXF4G?tag=deskfinds0d-20",
     description: "A two-tier design separating the monitor platform from the keyboard tray, a genuinely different ergonomic approach than the single-platform Pro Plus models.\n\nPrice was not confirmed at research time; verify the current listing price directly. A smaller review base than the Pro Plus models but a solid rating.",
     specs: ["36 inch, two-tier design"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$299.00",
     rating: "4.4",
     reviews: "27",
-    imageUrl: "https://m.media-amazon.com/images/I/61Z8m5xLLwL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/416gcQocpUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GXCG8S8W?tag=deskfinds0d-20",
     description: "The only electric-lift VariDesk we confirmed currently available, priced lower than the manual Pro Plus 36, though on a much smaller review base.\n\nA small review count makes this rating less certain than the manual Pro Plus models; worth watching as review volume builds if you specifically want electric adjustment in the VariDesk lineup.",
     specs: ["36 inch platform, electric lift"],

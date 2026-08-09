@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71RVQZmY-6L._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41brvuY+FwL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$197.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/71RVQZmY-6L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41brvuY+FwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CG7HG8L1?tag=deskfinds0d-20",
     description: "The largest review base of any confirmed 48 inch converter, sharing VIVO's broad K Series review pool at a reasonable price for this size tier.\n\nA strong value at this width, well below the price of the premium VariDesk equivalent.",
     specs: ["48 inch platform"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$549.00",
     rating: "4.7",
     reviews: "1,418",
-    imageUrl: "https://m.media-amazon.com/images/I/71p5-p3xkFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41oOz8w2OYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00UVHTGJ8?tag=deskfinds0d-20",
     description: "A strong review base for the premium tier at this size, with a 11-setting fixed-position mechanism rather than continuous adjustment.\n\nThe highest price in this comparison, reflecting both the premium brand and the precise adjustment mechanism.",
     specs: ["48 inch platform, 11 height settings"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$279.99",
     rating: "4.5",
     reviews: "412",
-    imageUrl: "https://m.media-amazon.com/images/I/71RVQZmY-6L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/519TulaiIFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C8V8WCNV?tag=deskfinds0d-20",
     description: "A separate 48 inch VIVO listing at a higher price than the K Series equivalent, worth comparing directly since the platform size is identical.\n\nCheck both VIVO 48 inch listings for current stock and pricing before ordering.",
     specs: ["48 inch platform"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$289.99",
     rating: "4.5",
     reviews: "387",
-    imageUrl: "https://m.media-amazon.com/images/I/71dK3nQvXTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41iLOFraj3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CMG121PC?tag=deskfinds0d-20",
     description: "The white finish version of VIVO's 48 inch converter, confirmed explicitly in the listing, useful if a white desk aesthetic matters to your setup.\n\nA solid review base for a confirmed color-specific 48 inch option.",
     specs: ["48 inch platform, confirmed white finish"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$269.99",
     rating: "4.6",
     reviews: "743",
-    imageUrl: "https://m.media-amazon.com/images/I/61tX+8k4hCL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ljwbh0mjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06XKLMMNM?tag=deskfinds0d-20",
     description: "A confirmed 48 inch platform from Mount-It!, an ergonomic-focused brand, with a solid review base for this specific listing.\n\nA higher price than the VIVO K Series equivalent, but worth it if you specifically trust Mount-It!'s engineering at this large size.",
     specs: ["48 inch platform, extra large desk riser"],

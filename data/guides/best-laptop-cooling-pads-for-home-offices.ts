@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51+142vwVRL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$27.99",
     rating: "4.5",
     reviews: "45,172",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51+142vwVRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00NNMB3KS?tag=deskfinds0d-20",
     description: "By far the largest review base in our entire cooling pad research at 45,172 reviews, a slim design that fits well on a home-office desk without dominating it.",
     specs: ["Slim, portable design, 3 fans", "45,172 reviews at 4.5 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$33.99",
     rating: "4.7",
     reviews: "10,756",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41aQ9tiORbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07N9L5934?tag=deskfinds0d-20",
     description: "Explicitly named for home office use, the highest rating in this comparison, a lap-desk-style product for buyers who work from a couch or non-desk seating at home.",
     specs: ["Lap desk, explicitly \"Home Office\" branded", "10,756 reviews at 4.7 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$26.84",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51phX6jwL9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B016CL2DE6?tag=deskfinds0d-20",
     description: "Slim and portable across a wide laptop size range, suited to a home-office desk with limited space.",
     specs: ["Explicitly slim, portable design", "Fits 12-17 inch laptops"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$31.74",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41HgpVRGRnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B002NU5O9C?tag=deskfinds0d-20",
     description: "A soft neoprene lap mat from an established laptop-accessory brand, useful for home-office workers who move between a desk chair and a couch or bed.",
     specs: ["Soft neoprene mat", "Confirmed dual-fan design"],

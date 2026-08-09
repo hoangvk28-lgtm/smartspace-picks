@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41+mFh63FwL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$39.99",
     rating: "4.2",
     reviews: "63",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41+mFh63FwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK6R22KD?tag=deskfinds0d-20",
     description: "A larger, mantel-style gold clock at 8.3x9.1 inches, silent movement, the most premium option in this comparison.",
     specs: ["8.3 x 9.1 in, mantel style", "Silent movement", "63 reviews at 4.2 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$20.99",
     rating: "4.2",
     reviews: "164",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41UWG5fDWPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D6JXP8MJ?tag=deskfinds0d-20",
     description: "A modern, stand-mounted golden clock that works for both desk and shelf placement, priced between the budget and premium options here.",
     specs: ["Stand-mounted, modern design", "164 reviews at 4.2 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.4",
     reviews: "1,700",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Ee1NBJrWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07WMVHP2J?tag=deskfinds0d-20",
     description: "A genuine metal body with a non-ticking movement, the highest rating and by far the largest review base in this comparison at a reasonable price.",
     specs: ["Metal body", "Non-ticking movement", "1,700 reviews at 4.4 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$16.95",
     rating: "4.6",
     reviews: "2,643",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41HXEjNzdTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D4DJ5TYP?tag=deskfinds0d-20",
     description: "The highest rating and largest review base of any clock in this comparison, a digital mirror-surface design that leans more aesthetic-decor than traditional gold metal styling — verify the current listing's finish before assuming a classic gold look.",
     specs: ["Digital mirror-surface design", "Slim profile", "2,643 reviews at 4.6 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$9.99",
     rating: "4.4",
     reviews: "1,512",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/4110W9wBQYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09SB6ZY4P?tag=deskfinds0d-20",
     description: "A genuine metal body clock at the lowest price in this comparison, with a large, proven review base for a budget option.",
     specs: ["Metal body", "Retro analog design", "1,512 reviews at 4.4 stars"],

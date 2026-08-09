@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61tX+8k4hCL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41rhOnTY0jL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "See listing",
     rating: "4.4",
     reviews: "381",
-    imageUrl: "https://m.media-amazon.com/images/I/61tX+8k4hCL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41rhOnTY0jL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0765BQ7RN?tag=deskfinds0d-20",
     description: "The largest review base among Mount-It!'s current converter lineup, with a solid rating for a compact design.\n\nCurrent price was not confirmed at research time; verify directly on the listing.",
     specs: ["Compact design, gas-spring lift"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$279.99",
     rating: "4.4",
     reviews: "480",
-    imageUrl: "https://m.media-amazon.com/images/I/61qm3jXtQYL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41rhOnTY0jL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0728H2YP5?tag=deskfinds0d-20",
     description: "Includes two dedicated monitor mounts rather than open platform space, a genuinely distinct design within Mount-It!'s lineup.\n\nThe second-largest review base among current Mount-It! models, verify VESA compatibility with your specific monitors.",
     specs: ["Integrated dual monitor mounts included"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$194.99",
     rating: "4.6",
     reviews: "330",
-    imageUrl: "https://m.media-amazon.com/images/I/61tX+8k4hCL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41CL16+db2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0747WDDMC?tag=deskfinds0d-20",
     description: "The highest-rated model in Mount-It!'s current lineup, a standard 32 by 22 inch gas-spring platform.\n\nA reasonable mid-range price for Mount-It!'s highest-rated current converter.",
     specs: ["32 x 22 inch platform, gas-spring lift"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$219.99",
     rating: "4.3",
     reviews: "224",
-    imageUrl: "https://m.media-amazon.com/images/I/61v6-VQvQyL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41e-fWH+dQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0747733JH?tag=deskfinds0d-20",
     description: "A compact ergonomic riser design, the lowest-rated model in Mount-It!'s current lineup though still a reasonable score.\n\nSuited to smaller desks that need a genuine sit-stand solution within a compact footprint.",
     specs: ["Compact platform, gas-spring lift"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$128.97",
     rating: "4.5",
     reviews: "282",
-    imageUrl: "https://m.media-amazon.com/images/I/61LhWc3vsML._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41EwRQZYUsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CKGL1M7P?tag=deskfinds0d-20",
     description: "The lowest price in Mount-It!'s current lineup, a 30 inch compact tabletop design with a solid rating.\n\nA reasonable entry point into the Mount-It! brand at the lowest current price.",
     specs: ["30 inch platform, gas-spring lift"],
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     price: "$482.99",
     rating: "3.8",
     reviews: "63",
-    imageUrl: "https://m.media-amazon.com/images/I/71jY9nZKW+L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31jvlJZc1RL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07GLCF1JM?tag=deskfinds0d-20",
     description: "The only current Mount-It! model built for three monitors with electric lift, at the highest price in this comparison.\n\nBoth the lowest rating and smallest review base among Mount-It!'s current lineup; weigh this carefully against the specialized triple-monitor electric capability it offers.",
     specs: ["Triple monitor mounts, electric lift"],

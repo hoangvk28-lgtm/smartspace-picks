@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$449.00",
     rating: "4.4",
     reviews: "1,354",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HDL3XJR?tag=deskfinds0d-20",
     description: "The most-reviewed device in this comparison, with the option to keep notes fully offline and unsynced if cloud storage is a compliance concern for your organization. No independent HIPAA certification exists — verify current encryption and BAA availability directly with reMarkable before deploying it for protected health information.",
     specs: ["Marker Plus stylus included", "Can operate fully offline without cloud sync", "No independent HIPAA certification — verify current compliance posture directly"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$399.00",
     rating: "4.1",
     reviews: "18",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31KAykcDD+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVKBLJK2?tag=deskfinds0d-20",
     description: "Same offline-capable architecture as the reMarkable 2, distraction-free by design, at a smaller review base since it's a newer entry in the lineup.",
     specs: ["Marker stylus included", "Can operate fully offline", "No independent HIPAA certification"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$399.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/316t+ALq6FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZ9VFQ2P?tag=deskfinds0d-20",
     description: "Kindle Scribe integrates with Amazon's broader cloud ecosystem by default, which means data handling for sensitive notes should be reviewed against Amazon's current consumer terms of service — these are not written for healthcare compliance use cases and do not include a consumer BAA.",
     specs: ["16GB storage", "Integrates with Amazon cloud services by default", "No consumer BAA or HIPAA certification available"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$679.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31TxeKtPWwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FC1VJJFP?tag=deskfinds0d-20",
     description: "Same Amazon consumer ecosystem and lack of a consumer BAA as the base Kindle Scribe, with color display and more storage at a significantly higher price.",
     specs: ["64GB storage", "Color E Ink display", "No consumer BAA or HIPAA certification available"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$299.98",
     rating: "4.3",
     reviews: "329",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41StVO0JWOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DX234NWP?tag=deskfinds0d-20",
     description: "As a more open, Android-adjacent device, this potentially allows more direct control over where data is stored versus a closed cloud-first ecosystem, though this also means you bear more responsibility for securing that data appropriately. No HIPAA certification exists for this device either.",
     specs: ["10.95 inch color display", "More open software environment", "No HIPAA certification"],

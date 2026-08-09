@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41fFLL-HlwL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$8.99",
     rating: "4.7",
     reviews: "1,027",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41fFLL-HlwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C8777YJQ?tag=deskfinds0d-20",
     description: "A genuine flat pad format at 5x7 inches, lined for structured notes, and cheap enough that a 2-pack costs less than most single upright boards.",
     specs: ["5x7 in, flat pad format", "Lined surface", "2-pack", "1,027 reviews at 4.7 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$8.99",
     rating: "4.7",
     reviews: "1,027",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/418NG2kDqiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B72F9VJQ?tag=deskfinds0d-20",
     description: "Same brand and price as the pick above but larger (9x12 in) and double-sided, giving more usable writing area in the same flat-pad format.",
     specs: ["9x12 in, double-sided", "Lined surface", "1,027 reviews at 4.7 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$9.99",
     rating: "4.6",
     reviews: "212",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31YDQS8Gh1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F5LZXS3W?tag=deskfinds0d-20",
     description: "Includes a low-profile stand rather than lying completely flat, useful if you want the pad slightly elevated for visibility without a full upright placement.",
     specs: ["10 x 10 in, double-sided", "Low-profile stand", "212 reviews at 4.6 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$14.44",
     rating: "4.6",
     reviews: "1,254",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31noWsDrPcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09K7G5VW8?tag=deskfinds0d-20",
     description: "A glass surface with a low-angle stand rather than a paper pad, resisting ghosting better than the paper-based options while still sitting close to keyboard level.",
     specs: ["Glass surface, low-angle stand", "1,254 reviews at 4.6 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$16.99",
     rating: "4.7",
     reviews: "1,191",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/4180Al3c9zL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09MZ5ZD4N?tag=deskfinds0d-20",
     description: "The smallest glass option in this comparison, with the highest rating, for buyers who want minimal desk footprint even in a low-profile glass format.",
     specs: ["8 x 6 in, glass surface", "1,191 reviews at 4.7 stars"],

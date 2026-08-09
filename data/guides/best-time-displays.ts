@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41vN0nq6nJL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41Yl3UVTsiL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$36.88",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41vN0nq6nJL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Yl3UVTsiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01EZ3C7L2?tag=deskfinds0d-20",
     description: "Atomic radio sync means the displayed time self-corrects continuously without manual adjustment, the most accurate time-keeping method of any pick in this comparison.\n\nThe backlit display adds visibility in low light, though verify current radio signal reliability in your specific area, since atomic sync depends on regional signal strength.",
     specs: ["Atomic radio-controlled sync", "Backlit display"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41vN0nq6nJL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Ojv38DwyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07C2LL3XF?tag=deskfinds0d-20",
     description: "5-level auto-dimming automatically adjusts screen brightness through the day, more control than a fixed-brightness display offers.\n\nA 7 inch screen keeps digits large enough to read from across a bedroom or office, with 12 alarm options as a secondary feature.",
     specs: ["7 inch screen, 5-level auto dimming"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$25.49",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41vN0nq6nJL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41pMYakghzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJW6NP4M?tag=deskfinds0d-20",
     description: "A 7 inch display at the lowest price among the large-screen options here, straightforward without extensive extra configuration to manage.\n\nA simpler feature set than the auto-dimming SSYA pick, but a lower price for buyers who mainly need large, readable digits.",
     specs: ["7 inch large display"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$27.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41vN0nq6nJL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41JQmUaahzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DL9LYJJT?tag=deskfinds0d-20",
     description: "5 color display options let you choose the text color that's easiest for you to read against the black background, a genuinely useful feature for users with specific color-contrast needs.\n\n15 alarm slots make this the most configurable option here, originally designed for memory care but useful for anyone managing a busy daily schedule.",
     specs: ["5 display color options, 15 alarms"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "See listing",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41vN0nq6nJL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
     amazonUrl: "https://www.amazon.com/dp/B0GRFXGY3L?tag=deskfinds0d-20",
     description: "A large digital display with 6 alarm slots, a middle-ground option between the most basic clocks and the fully configurable SSINI pick.\n\nCurrent price was not confirmed at research time, so verify the live listing before ordering.",
     specs: ["Large display, 6 alarms"],

@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61yQxKcXpDL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31PPBEL2O-L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$159.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/61yQxKcXpDL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31PPBEL2O-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGGJRBYF?tag=deskfinds0d-20",
     description: "A genuine mobile standing desk with rolling casters and a built-in drawer, no cup holder included, but confirmed rolling mobility for a work-from-anywhere setup.\n\nPair this with the clip-on cup holder pick below to add drink storage, since no rolling desk in our research ships with one built in.",
     specs: ["28 inch, rolling casters, storage drawer"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$169.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/61yQxKcXpDL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31C18JJfnmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSZB1M2R?tag=deskfinds0d-20",
     description: "The same rolling desk design as the pick above, listed separately at a slightly higher price, worth checking both listings before ordering in case pricing or stock availability differs.\n\nAs with the pick above, no built-in cup holder, so plan to add one separately.",
     specs: ["28 inch, rolling casters, storage drawer"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$52.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/61yQxKcXpDL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41S0gBOLz6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FP2KDSJC?tag=deskfinds0d-20",
     description: "The lowest price of the rolling desk options here, with a wide 28.3 to 46.1 inch adjustable height range for both sitting and standing use.\n\nA rolling laptop cart design rather than a full desk, worth considering if you need a lighter-duty mobile surface rather than a full workstation.",
     specs: ["Adjustable 28.3-46.1 inches, wheels"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$69.98",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/61yQxKcXpDL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ZTtOVSigL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9PBT5X3?tag=deskfinds0d-20",
     description: "A pneumatic adjustable rolling table with hidden swivel wheels, designed specifically for bedside or sofa-side mobile use rather than a dedicated workstation.\n\nThe pneumatic lift mechanism adjusts height without manual crank turning, a genuine convenience feature for frequent height changes.",
     specs: ["Pneumatic height adjustment, hidden swivel wheels"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$19.95",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/61yQxKcXpDL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/412z4nVerUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C77Z8WMM?tag=deskfinds0d-20",
     description: "This is the actual cup holder in this comparison, a clip-on under-desk organizer that adds a rotating cup holder and headphone hanger to any of the rolling desks above.\n\nThis is the honest solution to \"rolling desk with cup holder,\" since it clamps onto most desk edges regardless of brand, rather than requiring a specific integrated model that doesn't currently exist.",
     specs: ["Under-desk clamp mount, rotating cup holder, headphone hanger"],

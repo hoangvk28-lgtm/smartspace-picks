@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$129.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075JYG2TB?tag=deskfinds0d-20",
     description: "The largest review base of any 32 inch converter, the most proven option in this single most common size tier.\n\nA reasonable mid-range price for the most-reviewed converter across our entire broader research.",
     specs: ["32 inch platform"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$139.99",
     rating: "4.6",
     reviews: "2,412",
-    imageUrl: "https://m.media-amazon.com/images/I/71b2wLXe8vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Z4mzo+NKS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LCCJD6B?tag=deskfinds0d-20",
     description: "A well-reviewed 32 inch alternative at a similar price to the VIVO top pick, worth comparing directly.\n\nA solid choice for buyers who want to compare beyond the single most-reviewed 32 inch option.",
     specs: ["32 inch platform"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$127.99",
     rating: "4.6",
     reviews: "2,412",
-    imageUrl: "https://m.media-amazon.com/images/I/71b2wLXe8vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/514KmaaLSgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B087PB5X7X?tag=deskfinds0d-20",
     description: "The same FITUEYES design and review pool as the pick above, at a slightly lower price.\n\nCheck both FITUEYES listings for current stock and pricing, since they share identical specs.",
     specs: ["32 inch platform"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$129.99",
     rating: "4.5",
     reviews: "2,847",
-    imageUrl: "https://m.media-amazon.com/images/I/61h9K3nQvWL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51rafiFi9aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B077Z3GCDL?tag=deskfinds0d-20",
     description: "The largest review base among 32 inch converters with confirmed genuine MDF wood construction.\n\nA strong choice at the same price as the VIVO top pick, if wood construction specifically matters to you.",
     specs: ["32 inch platform, confirmed MDF wood construction"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$143.99",
     rating: "4.6",
     reviews: "892",
-    imageUrl: "https://m.media-amazon.com/images/I/71QqYVmR5jL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31p0Yglw5jL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C7SCRXMX?tag=deskfinds0d-20",
     description: "Confirmed genuine bamboo construction at the same platform size as VIVO's standard black model, with a solid review base.\n\nA modest price premium over the standard finish for genuine bamboo material.",
     specs: ["32 inch platform, confirmed real bamboo construction"],
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     price: "$206.99",
     rating: "4.5",
     reviews: "282",
-    imageUrl: "https://m.media-amazon.com/images/I/61LhWc3vsML._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41XkN4AlbTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CKFL6BF7?tag=deskfinds0d-20",
     description: "A slightly narrower confirmed platform from Mount-It!, an ergonomic-focused brand, included for buyers comparing this size tier's alternatives.\n\nHigher priced than the VIVO and FITUEYES 32 inch options, from a brand specifically focused on ergonomic mounting hardware.",
     specs: ["30 inch platform (verify against exact 32 inch requirement)"],

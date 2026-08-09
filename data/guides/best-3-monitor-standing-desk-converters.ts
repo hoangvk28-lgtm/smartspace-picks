@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71YHqhV3grL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41sW5lDV5eL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$279.99",
     rating: "4.6",
     reviews: "1,693",
-    imageUrl: "https://m.media-amazon.com/images/I/71YHqhV3grL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41sW5lDV5eL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07K217DXS?tag=deskfinds0d-20",
     description: "By far the largest review base of any triple-monitor converter we researched, explicitly built with a 46 inch platform for three displays.\n\nA large desk is required to accommodate both the wide platform and its base footprint; measure your desk before ordering.",
     specs: ["46 inch platform, triple-monitor mount"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$349.00",
     rating: "4.5",
     reviews: "497",
-    imageUrl: "https://m.media-amazon.com/images/I/61P9m5nq7CL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41M1ekKczDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0864RSM5S?tag=deskfinds0d-20",
     description: "Not a dedicated triple-monitor mount system, but a wide open platform with electric lift, giving three thin-bezel monitors a realistic chance to fit with tight but usable spacing.\n\nVerify your specific three-monitor setup's combined width fits this 36 inch platform before ordering, since it's not purpose-built for three displays the way the Rocelco pick is.",
     specs: ["36 inch open platform, electric lift"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$389.00",
     rating: "4.5",
     reviews: "497",
-    imageUrl: "https://m.media-amazon.com/images/I/61tP7jcYqoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41jeNZ2uiSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08KFPDGX1?tag=deskfinds0d-20",
     description: "The 40 inch version of the VERSADESK PowerPro, sharing the same review pool as the 36 inch model, with more platform width for a three-monitor setup.\n\nStill an open platform rather than a dedicated triple-monitor mount; the extra width over the 36 inch option gives more margin for three displays.",
     specs: ["40 inch open platform, electric lift"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$482.99",
     rating: "3.8",
     reviews: "63",
-    imageUrl: "https://m.media-amazon.com/images/I/71jY9nZKW+L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31jvlJZc1RL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07GLCF1JM?tag=deskfinds0d-20",
     description: "The only converter in this comparison combining an explicit triple-monitor mount system with electric lift, at the highest price in this comparison.\n\nBoth the lowest rating and smallest review base here; weigh this carefully against the unique combination of features it offers.",
     specs: ["Triple monitor mounts, electric lift"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$259.99",
     rating: "3.9",
     reviews: "22",
-    imageUrl: "https://m.media-amazon.com/images/I/71qXjKtYqQL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41J+LChTT-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CV298XR3?tag=deskfinds0d-20",
     description: "A dedicated triple-monitor mount kit from VIVO at a 48 inch platform, though with a small review base and a below-average rating for VIVO's typical standard.\n\nA lower price than the Mount-It! electric alternative for a true triple-monitor mount, but weigh the smaller review base and lower rating before ordering.",
     specs: ["48 inch platform, triple-monitor mount kit"],

@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41zup4v0gaL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$15.99",
     rating: "4.6",
     reviews: "6,039",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41zup4v0gaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYST53T6?tag=deskfinds0d-20",
     description: "The largest review base and highest rating in this comparison by a wide margin, large numbers for strong legibility from a normal desk distance.",
     specs: ["Digital display, large numbers", "6,039 reviews at 4.6 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$39.90",
     rating: "4.4",
     reviews: "822",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41c1kZ9IKNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07PYN9YZN?tag=deskfinds0d-20",
     description: "A genuinely different auto-flip mechanical display, confirmed black colorway, with a solid review base for its category.",
     specs: ["Auto-flip mechanism, black", "822 reviews at 4.4 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$14.99",
     rating: "4.2",
     reviews: "274",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41RTGQppK1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CCYBV2WX?tag=deskfinds0d-20",
     description: "A traditional analog dial with a silent, non-ticking movement, useful for buyers who want a classic clock face rather than digital numbers.",
     specs: ["4 inch analog dial", "Non-ticking movement", "274 reviews at 4.2 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$9.99",
     rating: "4.5",
     reviews: "68",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41D7sGB-aQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GCFGS5QJ?tag=deskfinds0d-20",
     description: "At 3.5 inches this is the smallest black clock in this comparison, battery-powered, at the lowest price alongside the AMIR pick below.",
     specs: ["3.5 inch, battery-powered", "68 reviews at 4.5 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$9.99",
     rating: "3.8",
     reviews: "11,246",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31lCkRe812L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B093FJ45JJ?tag=deskfinds0d-20",
     description: "By far the largest review base in this comparison at 11,246, though a noticeably lower rating (3.8) than the other picks — worth reading current reviews carefully for common complaints before buying at this scale of adoption.",
     specs: ["LED digital display", "Battery-powered", "11,246 reviews at 3.8 stars"],

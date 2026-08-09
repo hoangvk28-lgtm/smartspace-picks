@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31TxeKtPWwL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$679.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31TxeKtPWwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FC1VJJFP?tag=deskfinds0d-20",
     description: "Exports notebooks and annotated PDFs cleanly for manual import into OneNote, with color notes preserved in the exported file. There is no automatic sync — you export from Kindle's app and import into OneNote as separate steps.",
     specs: ["64GB storage", "Color E Ink display", "PDF export for manual import to OneNote (no native sync)"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$399.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/316t+ALq6FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZ9VFQ2P?tag=deskfinds0d-20",
     description: "Same manual PDF export workflow as the Colorsoft, without color notes, at a significantly lower price.",
     specs: ["16GB storage", "Monochrome E Ink display", "PDF export for manual import to OneNote (no native sync)"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$449.00",
     rating: "4.4",
     reviews: "1,354",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HDL3XJR?tag=deskfinds0d-20",
     description: "Exports to PDF for manual OneNote import, with the largest and most proven review base in this comparison. Full cloud sync features require the paid reMarkable Connect subscription.",
     specs: ["Marker Plus stylus included", "PDF export for manual import to OneNote", "Advanced cloud features require reMarkable Connect subscription"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$299.98",
     rating: "4.3",
     reviews: "329",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41StVO0JWOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DX234NWP?tag=deskfinds0d-20",
     description: "Cheapest option here with a manual PDF/image export path, and a more open Android-adjacent app environment that may make transferring files to OneNote's app more direct than the closed Kindle or reMarkable ecosystems.",
     specs: ["10.95 inch color display", "PDF/image export for manual import", "329 reviews at 4.3 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$34.99",
     rating: "4.6",
     reviews: "26,593",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41DUQEUXetL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHZ82DK?tag=deskfinds0d-20",
     description: "A real-paper alternative: the Rocketbook app can export scanned pages to cloud services, from which they can be manually brought into OneNote, and it's the highest-rated, most-reviewed product in this entire comparison.",
     specs: ["Real paper pages, scanned via Rocketbook app", "Export to cloud services for manual OneNote import", "26,593 reviews at 4.6 stars"],

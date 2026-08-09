@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71p5-p3xkFL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41c3Ie75PRL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$129.00",
     rating: "4.8",
     reviews: "26",
-    imageUrl: "https://m.media-amazon.com/images/I/61P9m5nq7CL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41c3Ie75PRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0799RVHLN?tag=deskfinds0d-20",
     description: "The highest rating among UPLIFT's current converter listings, a compact E3 model at a much lower price than the flagship E7 electric line.\n\nA smaller review base than some general-market converters, but the strongest rated option within UPLIFT's specific lineup.",
     specs: ["Compact platform, black finish"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$199.00",
     rating: "5.0",
     reviews: "3",
-    imageUrl: "https://m.media-amazon.com/images/I/71xLKGrNfhL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31hJr2UT9AL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07WV656J1?tag=deskfinds0d-20",
     description: "UPLIFT's manual converter design, at a perfect rating but on a very small review sample.\n\nToo few reviews to draw meaningful conclusions from the perfect rating; worth watching as this listing builds review volume.",
     specs: ["Manual lift design, black finish"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$619.00",
     rating: "5.0",
     reviews: "2",
-    imageUrl: "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31IqkBYAsjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CCSVRBQN?tag=deskfinds0d-20",
     description: "UPLIFT's flagship E7 electric converter with a genuine bamboo worksurface option, at the premium price point of UPLIFT's top-tier line.\n\nAn extremely small review base makes this rating far from statistically confident; the premium price reflects UPLIFT's flagship positioning.",
     specs: ["Electric lift, black base, bamboo worksurface"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$668.00",
     rating: "N/A",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/71xLKGrNfhL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31QanIOVIhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07TYJJXJ3?tag=deskfinds0d-20",
     description: "UPLIFT's flagship E7 electric converter with a natural rubberwood worksurface and black base, no confirmed review data available at research time.\n\nNo rating or review history was available for this specific listing in our research; verify current reviews directly before ordering.",
     specs: ["Electric lift, black base, natural rubberwood worksurface"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$619.00",
     rating: "N/A",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/71xLKGrNfhL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31xy7JIvkYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07TWJ4W25?tag=deskfinds0d-20",
     description: "The white base variant of UPLIFT's E7 flagship electric converter, at a lower price than the black base rubberwood equivalent.\n\nNo confirmed rating or review data available for this specific listing; verify current reviews directly before ordering.",
     specs: ["Electric lift, white base, natural rubberwood worksurface"],
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     price: "$668.00",
     rating: "N/A",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/71xLKGrNfhL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31WTLITRHgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07TXM4DT9?tag=deskfinds0d-20",
     description: "A 30 inch variant of UPLIFT's E7 electric converter platform, no confirmed review data available at research time.\n\nVerify current pricing and reviews directly on the listing, since no confirmed rating data was available in our research.",
     specs: ["30 inch platform, electric lift"],

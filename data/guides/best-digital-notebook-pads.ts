@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41DUQEUXetL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$34.99",
     rating: "4.6",
     reviews: "26,593",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41DUQEUXetL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHZ82DK?tag=deskfinds0d-20",
     description: "The highest-rated and most-reviewed pad in this comparison by a wide margin, combining note pages with planner templates.",
     specs: ["Letter size", "Planner templates plus note pages", "26,593 reviews at 4.6 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$17.99",
     rating: "4.4",
     reviews: "281",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41uG7qo+QwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DW9JZ1MF?tag=deskfinds0d-20",
     description: "A genuine notepad-format product, the smallest in the entire search, fitting a coat pocket without a folio.",
     specs: ["3.5 x 5.5 in", "Notepad format", "281 reviews at 4.4 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "4.5",
     reviews: "100",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41RhAqe3azL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DP3JMP14?tag=deskfinds0d-20",
     description: "Full letter-size dot-grid pages without built-in planning templates, for buyers who want a blank writing surface.",
     specs: ["8.5 x 11 in", "Plain dot-grid pages"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$14.99",
     rating: "4.4",
     reviews: "11,065",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41E9SFRPDeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CZF628C?tag=deskfinds0d-20",
     description: "The cheapest option here with a very large proven review base, spiral-bound for lying flat while writing.",
     specs: ["Mini spiral-bound", "11,065 reviews at 4.4 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$31.99",
     rating: "4.4",
     reviews: "3,200",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/416XcHl7ssL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLPPZZJL?tag=deskfinds0d-20",
     description: "An updated version of the planning templates at a compact Executive size, with a smaller review base as the newer revision.",
     specs: ["6 x 8.8 in", "Updated template set", "3,200 reviews at 4.4 stars"],

@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61LhWc3vsML._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41ci1d+OvpL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$129.99",
     rating: "4.6",
     reviews: "2,127",
-    imageUrl: "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ci1d+OvpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08B2L36HF?tag=deskfinds0d-20",
     description: "Confirmed close to our 30 inch threshold at a solid review base, from VIVO's broader converter line.\n\nA strong choice for buyers who want a platform slightly larger than the smallest compact tier.",
     specs: ["Confirmed near 30 inch platform"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$116.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Hmx57N1yL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGYGTSR5?tag=deskfinds0d-20",
     description: "Close to the 30 inch tier at 28 inches, sharing VIVO's massive K Series review pool, at a lower price than the standard 32 inch model.\n\nThe largest review base among converters near this size tier, a strong choice if 28 inches works for your desk.",
     specs: ["28 inch platform, dual-monitor support"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.6",
     reviews: "2,127",
-    imageUrl: "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41KPjLPGisL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8114738?tag=deskfinds0d-20",
     description: "A well-reviewed 28 inch alternative under $100, with a solid rating close to the top pick's review level.\n\nA reasonable value option near the 30 inch size tier at a notably lower price.",
     specs: ["28 inch platform"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$139.99",
     rating: "4.5",
     reviews: "1,347",
-    imageUrl: "https://m.media-amazon.com/images/I/71kK5nQvXTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/415w+aB6IqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VZ4CQG9?tag=deskfinds0d-20",
     description: "Slightly larger than the strict 30 inch tier at 32 inches, marketed for quick sit-to-stand transitions, with a solid review base.\n\nA reasonable alternative if you want slightly more surface area than the 28-30 inch tier offers.",
     specs: ["32 inch platform, quick sit-to-stand design"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "See listing",
     rating: "4.5",
     reviews: "265",
-    imageUrl: "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/415w+aB6IqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CC5LS9F2?tag=deskfinds0d-20",
     description: "A confirmed review base near this size tier, current pricing wasn't confirmed in our specific data pull.\n\nVerify exact dimensions and current pricing directly on the listing before ordering.",
     specs: ["Near 30 inch platform, verify exact dimensions"],

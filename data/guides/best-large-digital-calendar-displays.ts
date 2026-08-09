@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61c1KfXvJUL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41NUEI-nAdL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$249.00",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/61c1KfXvJUL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41NUEI-nAdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C9V811L6?tag=deskfinds0d-20",
     description: "Skylight is one of the most established brands in this category, with a 15 inch touchscreen and a dedicated chore chart feature for family task management.\n\nVerify whether Skylight requires an ongoing subscription for full functionality on the current listing, since some family-calendar brands gate features behind a paid plan.",
     specs: ["15 inch touchscreen", "Chore chart feature"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$59.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/61c1KfXvJUL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51BHkAZaKEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GY3FYHGF?tag=deskfinds0d-20",
     description: "The lowest price in this comparison, explicitly advertised with no subscription requirement, at a 10.1 inch screen size suitable for a kitchen counter or entryway.\n\nA smaller screen than the premium picks, but confirmed subscription-free operation is a genuine long-term cost advantage over models that gate features behind a paid plan.",
     specs: ["10.1 inch touchscreen", "No subscription required"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$112.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/61c1KfXvJUL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/418VBQ43fnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GXFR4YR2?tag=deskfinds0d-20",
     description: "Also explicitly subscription-free at the same 10.1 inch screen size as the Cotoala pick, but at nearly double the price, worth comparing directly against that cheaper option for the same screen size.\n\nVerify what specific features justify the price difference, since screen size alone doesn't explain the gap between this and the Cotoala pick.",
     specs: ["10.1 inch touchscreen", "No subscription required"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$79.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/61c1KfXvJUL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41AciyKwigL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQ7TQVBW?tag=deskfinds0d-20",
     description: "From Dragon Touch, a brand also known for budget Android tablets, with an interactive touchscreen and dedicated chore chart at a moderate price point.\n\nVerify current subscription terms on the listing, as this wasn't explicitly confirmed subscription-free in our research unlike the Cotoala and Airzeen picks.",
     specs: ["10.1 inch interactive touchscreen", "Chore chart feature"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$89.98",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/61c1KfXvJUL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/413qIxwyFZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FKMRM3WT?tag=deskfinds0d-20",
     description: "A 10.1 inch electronic organizer positioned between the Dragon Touch and Airzeen picks on price, marketed with a general electronic-organizer feature set.\n\nAs with the Dragon Touch pick, verify current subscription terms directly since this wasn't explicitly confirmed subscription-free in our research.",
     specs: ["10.1 inch touchscreen", "Electronic organizer features"],
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     price: "$369.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/61c1KfXvJUL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41go8J1bt3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FDGG67ZJ?tag=deskfinds0d-20",
     description: "By far the largest screen in this comparison at 21.5 inches, roughly double the diagonal size of the standard 10.1 inch options, with confirmed calendar sync and chore chart features.\n\nThe highest price here reflects the significantly larger screen; this makes sense as a family command-center wall display rather than a countertop unit, given both the size and price.",
     specs: ["21.5 inch touchscreen", "Calendar sync, chore chart"],

@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31TxeKtPWwL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$679.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31TxeKtPWwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FC1VJJFP?tag=deskfinds0d-20",
     description: "Kindle devices have used front-light technology for years across their e-reader lineup, and the Scribe carries this forward with adjustable brightness for low-light note-taking and reading.",
     specs: ["Adjustable front light", "Color E Ink display", "64GB storage"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$399.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/316t+ALq6FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZ9VFQ2P?tag=deskfinds0d-20",
     description: "Same established front-light technology as the Colorsoft, without color, at a significantly lower price.",
     specs: ["Adjustable front light", "16GB storage", "Monochrome E Ink display"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$529.99",
     rating: "4.3",
     reviews: "310",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41BunSeRP3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR4KXMKF?tag=deskfinds0d-20",
     description: "BOOX's Note Air lineup includes adjustable front lighting with warm/cool tone control on most models — verify the current listing's exact lighting spec before buying if this is a priority.",
     specs: ["Front light with warm/cool adjustment — verify current spec", "Color E Ink display", "310 reviews at 4.3 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$449.00",
     rating: "4.4",
     reviews: "1,354",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HDL3XJR?tag=deskfinds0d-20",
     description: "Being direct here: the reMarkable 2 does not have a front light, and needs external lighting in dim rooms. Included as the honest \"no\" case for buyers assuming every premium E Ink device has one.",
     specs: ["No front light", "Marker Plus stylus included", "1,354 reviews at 4.4 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$299.98",
     rating: "4.3",
     reviews: "329",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41StVO0JWOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DX234NWP?tag=deskfinds0d-20",
     description: "As an LCD-based color display rather than E Ink, this uses backlighting technology (like a normal tablet) rather than a front light specifically — verify current specs if front-light-style E Ink lighting is important to your use case.",
     specs: ["LCD backlight, not E Ink front light", "Color display", "329 reviews at 4.3 stars"],

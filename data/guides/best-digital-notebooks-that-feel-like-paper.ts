@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/316t+ALq6FL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$399.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/316t+ALq6FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZ9VFQ2P?tag=deskfinds0d-20",
     description:
       "Kindle Scribe combines the textured E Ink display with Amazon's e-reader ecosystem, so it's the pick for anyone who wants to read books and annotate PDFs on the same device they take notes on. At $399.99 it undercuts the comparable reMarkable Paper Pure at the same price point while adding e-book library access reMarkable doesn't have.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$399.00",
     rating: "4.1",
     reviews: "18",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31KAykcDD+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVKBLJK2?tag=deskfinds0d-20",
     description:
       "reMarkable built its whole product line around the paper-feel promise and doesn't sell e-books or run distracting apps, which keeps the device singularly focused on writing and reading documents. At the same $399 price as the Kindle Scribe, the tradeoff is a smaller review base at time of writing, since this is a newer entry in the lineup.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$449.00",
     rating: "4.4",
     reviews: "1,354",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HDL3XJR?tag=deskfinds0d-20",
     description:
       "reMarkable 2 has by far the largest review base of any paper-feel device in this comparison at 1,354 reviews and a 4.4 rating, which matters when you're evaluating a claim as subjective as \"feels like paper\" — this is the model most buyers have actually tested against their expectations.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$529.99",
     rating: "4.3",
     reviews: "310",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41BunSeRP3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR4KXMKF?tag=deskfinds0d-20",
     description:
       "This is the only genuinely color E Ink display in this comparison — the reMarkable and base Kindle Scribe are monochrome. Color E Ink still has visibly lower saturation and contrast than an LCD, which is a real tradeoff to understand before paying the premium, but it's the honest option if color matters for your notes or PDFs.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$779.00",
     rating: "4.2",
     reviews: "540",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41yKUd9lhbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGBDR2PM?tag=deskfinds0d-20",
     description:
       "At $779 this is nearly double the price of the base reMarkable 2, bundling color display, the upgraded Marker Plus stylus, and a physical folio. It's the flagship of the lineup, but the price jump is real and buyers should confirm the color and larger screen actually matter to them before paying the premium over the reMarkable 2.",

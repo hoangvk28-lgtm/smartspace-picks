@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$129.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075JYG2TB?tag=deskfinds0d-20",
     description: "The largest review base of any manual converter in our research, a 32 inch gas-spring platform with dual-monitor support.\n\nA reasonable mid-range price for the platform size and review history behind it.",
     specs: ["32 inch platform, gas-spring lift"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$152.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/71ETRxKxLTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41lRsmegvML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B4T8DJW7?tag=deskfinds0d-20",
     description: "A step up in platform size from the 32 inch top pick, sharing the same broad VIVO review pool, useful for a slightly larger monitor and keyboard setup.\n\nA modest price increase over the 32 inch model for the additional 4 inches of platform width.",
     specs: ["36 inch platform, gas-spring lift"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$279.99",
     rating: "4.6",
     reviews: "1,693",
-    imageUrl: "https://m.media-amazon.com/images/I/71YHqhV3grL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41sW5lDV5eL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07K217DXS?tag=deskfinds0d-20",
     description: "The largest manual platform in this comparison, explicitly built for triple-monitor mounting, with a solid review base for a specialized large-format converter.\n\nA gas-spring lift at this size means adjusting a heavier loaded platform, so verify the manufacturer's stated load range against your actual monitor setup.",
     specs: ["46 inch platform, triple-monitor mount, gas-spring"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$139.99",
     rating: "4.6",
     reviews: "2,412",
-    imageUrl: "https://m.media-amazon.com/images/I/71b2wLXe8vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Z4mzo+NKS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LCCJD6B?tag=deskfinds0d-20",
     description: "A well-reviewed 32 inch manual gas-spring converter, a solid alternative to the VIVO top pick at a similar price point.\n\nWorth comparing directly against VIVO's 32 inch model on the specific features that matter most to you.",
     specs: ["32 inch platform, gas-spring lift"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$159.99",
     rating: "4.6",
     reviews: "2,550",
-    imageUrl: "https://m.media-amazon.com/images/I/71xqQhZmDwL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51sPBSqTYXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LCCT6VS?tag=deskfinds0d-20",
     description: "The 36 inch version of the FITUEYES converter, with a slightly larger review base than its 32 inch sibling, at a modest price increase.\n\nA reasonable alternative to VIVO's 36 inch pick if you want to compare brands at this platform size.",
     specs: ["36 inch platform, gas-spring lift"],
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     price: "$194.99",
     rating: "4.6",
     reviews: "330",
-    imageUrl: "https://m.media-amazon.com/images/I/61tX+8k4hCL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41CL16+db2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0747WDDMC?tag=deskfinds0d-20",
     description: "A 32 by 22 inch gas-spring converter from Mount-It!, an established ergonomic-mount brand, with a solid rating on a smaller review base than the VIVO and FITUEYES picks.\n\nA higher price than similarly sized VIVO or FITUEYES options; worth it if you specifically want Mount-It!'s build.",
     specs: ["32 x 22 inch platform, gas-spring lift"],
@@ -124,7 +124,7 @@ export const products: GuideProduct[] = [
     price: "$107.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/61vQ2WqPYuL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Eh8j3wCSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VMNYMY3?tag=deskfinds0d-20",
     description: "The most compact manual converter in this comparison, at 26 inches, and also the cheapest, sharing VIVO's large K Series review pool.\n\nLimited surface area for anything beyond a single monitor or laptop setup.",
     specs: ["26 inch platform, gas-spring lift"],

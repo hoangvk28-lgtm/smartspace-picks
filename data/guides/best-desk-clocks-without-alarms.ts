@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41zup4v0gaL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$15.99",
     rating: "4.6",
     reviews: "6,039",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41zup4v0gaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYST53T6?tag=deskfinds0d-20",
     description: "This does have an alarm function you can simply leave unset — by far the largest review base and highest rating in this comparison, with large legible numbers.",
     specs: ["Digital display, large numbers", "Alarm function present but optional to use", "6,039 reviews at 4.6 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$13.99",
     rating: "4.3",
     reviews: "3",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Kc4Z1GX0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GSZMM9SZ?tag=deskfinds0d-20",
     description: "A genuinely minimalist analog design without alarm functionality complicating the interface — a real no-alarm option, though with a very small review base worth noting.",
     specs: ["Minimalist analog design", "No alarm interface", "3 reviews at 4.3 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.3",
     reviews: "78",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/410BDyZsOkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D4TLDZ1H?tag=deskfinds0d-20",
     description: "A vintage-styled analog clock without a digital alarm interface, useful for buyers who want a genuinely simple, decorative desk piece.",
     specs: ["Vintage design, analog", "Battery operated", "78 reviews at 4.3 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$15.29",
     rating: "4.6",
     reviews: "6,145",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51BRnPQhRcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYSVGS2Q?tag=deskfinds0d-20",
     description: "A very similar listing to the top pick from the same brand, also with an alarm function you can leave unset, at a nearly identical rating and review count.",
     specs: ["Digital display, large numbers", "Alarm function present but optional to use", "6,145 reviews at 4.6 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$18.99",
     rating: "4.6",
     reviews: "2,643",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41A45jPnYsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D4DNSBDD?tag=deskfinds0d-20",
     description: "Also has an alarm function you can leave unset, a modern mirror-finish design with a strong review base and rating.",
     specs: ["Slim mirror-surface design", "Alarm function present but optional to use", "2,643 reviews at 4.6 stars"],

@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41uG7qo+QwL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$17.99",
     rating: "4.4",
     reviews: "281",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41uG7qo+QwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DW9JZ1MF?tag=deskfinds0d-20",
     description:
       "At 3.5x5.5 inches this is genuinely pocket-sized, not just smaller than a full letter pad. It's a reusable paper notepad: you write with a Pilot FriXion pen, scan pages into the Rocketbook app, then wipe the page clean with a damp cloth to reuse it. There's no screen and no battery to charge, which is the tradeoff for the small size and low price.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$14.99",
     rating: "4.4",
     reviews: "11,065",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41E9SFRPDeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CZF628C?tag=deskfinds0d-20",
     description:
       "The most reviewed product in this comparison by a wide margin, which matters for a reusable-paper product where the erase mechanism and page durability need to hold up over many cycles. Spiral binding makes it lie flatter on a small surface than the Mini's notepad format.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$25.99",
     rating: "4.5",
     reviews: "226",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41BvyAlSv+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DP3HLY4J?tag=deskfinds0d-20",
     description:
       "Executive size (6x8.8 in) is the middle ground between the pocket-only Mini and a full letter pad: still small enough for most bags, but with meaningfully more writing area per page than the Mini. This is the Core line, Rocketbook's standard dot-grid notebook rather than the planner-formatted Fusion line.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "4.5",
     reviews: "100",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41RhAqe3azL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DP3JMP14?tag=deskfinds0d-20",
     description:
       "This is the honest disqualifier pick: full letter size is what most people picture when they search \"digital notebook,\" but it is not actually small by any physical measure. We're including it so buyers can see exactly how much writing area they're giving up by choosing the Mini or Executive sizes above, and so anyone who really needs full-page notes doesn't end up with something too cramped.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$34.99",
     rating: "4.6",
     reviews: "26,593",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41DUQEUXetL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHZ82DK?tag=deskfinds0d-20",
     description:
       "The highest-rated and most-reviewed product across the entire small-digital-notebook search, but it's a letter-size planner, not a compact notebook. It's included because it shows the ceiling of what this product family can do (calendar pages, to-do templates, goal trackers built into the reusable pages), which the truly small formats above don't offer.",

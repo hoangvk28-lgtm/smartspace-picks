@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41nWvL8pqlL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "4.4",
     reviews: "702",
-    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41nWvL8pqlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KY3LHVG?tag=deskfinds0d-20",
     description: "Explicitly supports monitor-arm mounting alongside behind-monitor placement, with a wide device depth range and by far the largest review base in this comparison.",
     specs: ["Fits 0.65-2.55 in device depth", "75x75 and 100x100mm VESA", "702 reviews at 4.4 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$24.99",
     rating: "4.6",
     reviews: "15",
-    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Eo1z7YlBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FKWP592F?tag=deskfinds0d-20",
     description: "From VIVO, an established mounting-hardware brand, explicitly designed for Dell OptiPlex Micro CPU behind-monitor placement, with the highest rating in this comparison.",
     specs: ["Designed for Dell OptiPlex Micro", "Behind-monitor VESA mount", "15 reviews at 4.6 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.6",
     reviews: "190",
-    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31l-EL12D-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJ7BK9CM?tag=deskfinds0d-20",
     description: "Tied for the highest rating in this comparison, with the flexibility to mount either directly to a wall or behind the monitor via VESA, useful if you're unsure which approach fits your setup.",
     specs: ["Wall mount or VESA behind-monitor mount", "190 reviews at 4.6 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$14.99",
     rating: "4.5",
     reviews: "1,131",
-    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41TsuHcXczL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KB4YWQS?tag=deskfinds0d-20",
     description: "Purpose-built specifically for Intel NUC mini PCs, at the lowest price in this comparison with a very large review base for a niche-specific product.",
     specs: ["75x75mm VESA, designed for Intel NUC", "1,131 reviews at 4.5 stars"],

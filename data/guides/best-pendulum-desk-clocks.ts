@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41NtvBNxzsL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$59.99",
     rating: "4.1",
     reviews: "46",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41NtvBNxzsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSJC5ZKH?tag=deskfinds0d-20",
     description: "A genuine revolving pendulum, confirmed directly in the product name, at a mid-range mantel-clock price, with a silver finish.",
     specs: ["9 inch mantel clock", "Genuine revolving pendulum", "46 reviews at 4.1 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$59.99",
     rating: "4.1",
     reviews: "46",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41KKs7gB4tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSK1PRGV?tag=deskfinds0d-20",
     description: "The same confirmed pendulum mechanism as the silver pick above, in a bronze finish, at an identical price and review profile.",
     specs: ["9 inch mantel clock", "Genuine revolving pendulum", "46 reviews at 4.1 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$81.50",
     rating: "5.0",
     reviews: "8",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41L7kAQi4nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B001811X7Y?tag=deskfinds0d-20",
     description: "A premium Bulova tabletop clock with a perfect rating, though from a very small review sample — a well-established watch and clock brand worth considering despite limited review volume.",
     specs: ["Tabletop clock", "Bulova brand", "8 reviews at 5.0 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$97.95",
     rating: "4.2",
     reviews: "257",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ookx2nhgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09Q7PZ9QV?tag=deskfinds0d-20",
     description: "A genuine rotating crystal mechanism under a glass dome, a distinctive anniversary-clock design with a solid review base for its premium category.",
     specs: ["9 inch glass dome", "Rotating crystal mechanism", "257 reviews at 4.2 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$175.99",
     rating: "4.0",
     reviews: "57",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41HYB7M0qKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000BUNKLU?tag=deskfinds0d-20",
     description: "The most premium mantel clock in this comparison at nearly $176, dark mahogany finish, for buyers who want a genuine statement piece rather than a budget option.",
     specs: ["Dark mahogany finish", "Premium mantel clock", "57 reviews at 4.0 stars"],

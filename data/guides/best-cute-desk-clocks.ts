@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41HXEjNzdTL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$16.95",
     rating: "4.6",
     reviews: "2,643",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41HXEjNzdTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D4DJ5TYP?tag=deskfinds0d-20",
     description: "A slim, mirror-finish clock with a genuinely decor-focused aesthetic, the highest rating and largest review base in this comparison.",
     specs: ["Slim mirror-surface design", "2,643 reviews at 4.6 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$9.99",
     rating: "4.5",
     reviews: "68",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41D7sGB-aQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GCFGS5QJ?tag=deskfinds0d-20",
     description: "At 3.5 inches this is the smallest, most desk-friendly option here, cheap enough to not feel like a big commitment for a playful desk accent.",
     specs: ["3.5 inch, battery-powered", "68 reviews at 4.5 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$15.99",
     rating: "4.6",
     reviews: "6,039",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41zup4v0gaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYST53T6?tag=deskfinds0d-20",
     description: "By far the largest review base of any pick here, a warm wooden-bodied clock with large legible numbers that reads friendlier than a stark plastic digital clock.",
     specs: ["Wooden body, digital display", "6,039 reviews at 4.6 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$14.99",
     rating: "4.2",
     reviews: "274",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41RTGQppK1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CCYBV2WX?tag=deskfinds0d-20",
     description: "A small, quiet analog clock with a classic round face, a softer aesthetic than a digital display for buyers who want cute without the harsh LED look.",
     specs: ["4 inch analog dial", "Non-ticking movement", "274 reviews at 4.2 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$39.90",
     rating: "4.4",
     reviews: "822",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41c1kZ9IKNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07PYN9YZN?tag=deskfinds0d-20",
     description: "The most genuinely playful and distinctive mechanism in this comparison, an auto-flip retro display that's fun to watch update, at a solid review base though the highest price here.",
     specs: ["Auto-flip mechanism, retro vintage design", "822 reviews at 4.4 stars"],

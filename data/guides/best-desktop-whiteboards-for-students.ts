@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41sEyXE5tML._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$8.99",
     rating: "4.6",
     reviews: "307",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41sEyXE5tML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B091Y79CXZ?tag=deskfinds0d-20",
     description: "The cheapest board in this comparison, portable and magnetic, ideal for a tight student budget and dorm-desk footprint.",
     specs: ["10 x 10 in, portable, magnetic", "307 reviews at 4.6 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$18.99",
     rating: "4.6",
     reviews: "1,356",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41FLEFa9xDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVM9YJCS?tag=deskfinds0d-20",
     description: "The largest writing area in this comparison for study notes and practice problems, with a substantial review base backing its durability.",
     specs: ["16 x 12 in, double-sided, magnetic", "1,356 reviews at 4.6 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$16.99",
     rating: "4.7",
     reviews: "1,055",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41+fn-v10QL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BRZZ26FS?tag=deskfinds0d-20",
     description: "Same 16x12 footprint as the AMUSIGHT pick above at a slightly lower price and marginally higher rating.",
     specs: ["16 x 12 in, magnetic", "1,055 reviews at 4.7 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$24.99",
     rating: "4.7",
     reviews: "723",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31W4Q2LBraL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09PHHT8DM?tag=deskfinds0d-20",
     description: "Combines whiteboard and storage, useful for keeping pens, notes, and small study materials organized on a limited dorm desk.",
     specs: ["Glass surface with organizer", "723 reviews at 4.7 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$15.74",
     rating: "4.7",
     reviews: "279",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/313bG76j1CL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DMZYK585?tag=deskfinds0d-20",
     description: "Organizer functionality at a lower price than the Varhomax option, a reasonable middle ground for budget-conscious students.",
     specs: ["Dry erase surface with organizer accessories", "279 reviews at 4.7 stars"],

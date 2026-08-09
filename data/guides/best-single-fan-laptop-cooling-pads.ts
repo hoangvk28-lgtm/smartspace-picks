@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/412Uv1YKYyL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/412Uv1YKYyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08TRGT9VZ?tag=deskfinds0d-20",
     description: "A genuine single-fan design with an aluminum body for passive heat dissipation on top of the active fan, and 7 height settings for ergonomic angle adjustment, at the lowest price in this comparison.",
     specs: ["Single large fan", "Aluminum body", "7 height-adjustable positions", "Two USB ports"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41T6SH91WcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07JJTMR7R?tag=deskfinds0d-20",
     description: "A cross-flow turbine fan design with 3-speed adjustment, doubling as a general desk fan for a tablet or phone as well as a laptop.",
     specs: ["Cross-flow turbine fan", "3-speed adjustable", "Adjustable stand", "Works for laptop, tablet, or phone"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$27.99",
     rating: "4.5",
     reviews: "45,172",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51+142vwVRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00NNMB3KS?tag=deskfinds0d-20",
     description: "Being direct here: this is a 3-fan design, not single-fan — included because it's by far the most proven cooling pad we found in this entire research pass, with 45,172 reviews, for buyers open to more fans if it means more evidence.",
     specs: ["3 fans, not single-fan", "Slim, portable, USB powered", "45,172 reviews at 4.5 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$26.84",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51phX6jwL9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B016CL2DE6?tag=deskfinds0d-20",
     description: "A slim, portable design covering a wide laptop size range, at a moderate price, useful for buyers who want to minimize desk footprint alongside cooling.",
     specs: ["Slim, portable design", "Fits 12-17 inch laptops"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$16.99",
     rating: "4.4",
     reviews: "1,775",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/513ogekjTDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08H5FBRD4?tag=deskfinds0d-20",
     description: "Also not a true single-fan design (2 big fans), but included as the cheapest well-reviewed option with genuinely large fans rather than several small ones, plus RGB lighting.",
     specs: ["2 large fans, RGB lighting", "1,775 reviews at 4.4 stars"],

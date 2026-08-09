@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61yQxKcXpDL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41a-xcPsuBL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$15.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/61yQxKcXpDL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41a-xcPsuBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GQMLXYV6?tag=deskfinds0d-20",
     description: "The lowest price per unit for a 12-pack of adjustable cup holders in this comparison, built specifically for classroom desk edges rather than repurposed from a general-use holder.\n\nAdjustable sizing accommodates different bottle and cup diameters, useful across a classroom of students with different drink containers.",
     specs: ["12-pack, adjustable sizing, desk clip"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$17.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/61yQxKcXpDL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51k0-N+hxxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F82XP4MR?tag=deskfinds0d-20",
     description: "Includes 50 zip ties alongside the 12 cup holders, useful for mounting to chair frames rather than just desk edges, and marketed with an anti-spill design.\n\nA slightly higher price than the Ferrochef pack, but the included zip ties add real value if you're mounting to chairs rather than desks specifically.",
     specs: ["12-pack, anti-spill design, includes 50 zip ties"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$41.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/61yQxKcXpDL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51OM1XYgptL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMFKJH4D?tag=deskfinds0d-20",
     description: "A 24-pack for larger classrooms or multiple classroom sets, with a 360-degree rotating design and compatibility with both desk and chair mounting.\n\nAt roughly double the unit count of the other packs, this is the better per-classroom value if you need to outfit two full rooms or a larger single class.",
     specs: ["24-pack, 360-degree rotation, desk or chair mount"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$19.95",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/61yQxKcXpDL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/412z4nVerUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C77Z8WMM?tag=deskfinds0d-20",
     description: "Unlike the classroom multi-packs above, this is a single-unit organizer aimed at one desk, adding a rotating cup holder and headphone hanger in one clamp-on accessory.\n\nA better fit for a single dorm room or home-study desk than a classroom set, since it's sold individually rather than in bulk.",
     specs: ["Single unit, rotating cup holder, headphone hanger"],

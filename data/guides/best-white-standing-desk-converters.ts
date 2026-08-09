@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71p5-p3xkFL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/218ugZvMiSL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$179.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/71sK9WnQZ8L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/218ugZvMiSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B8BDLQ8H?tag=deskfinds0d-20",
     description: "Explicitly confirmed white in the product listing, sharing VIVO's large K Series review pool at a 42 inch platform.\n\nA lower price than the equivalent black model in some cases; verify current pricing between color variants directly.",
     specs: ["42 inch platform, confirmed white finish"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$289.99",
     rating: "4.5",
     reviews: "387",
-    imageUrl: "https://m.media-amazon.com/images/I/71dK3nQvXTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41iLOFraj3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CMG121PC?tag=deskfinds0d-20",
     description: "The largest confirmed white platform in this comparison, at 48 inches, with a solid rating on a smaller review base than the smaller white variant.\n\nA meaningful price increase over the 42 inch white model for the additional platform size.",
     specs: ["48 inch platform, confirmed white finish"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$279.99",
     rating: "4.5",
     reviews: "412",
-    imageUrl: "https://m.media-amazon.com/images/I/71RVQZmY-6L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/519TulaiIFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C8V8WCNV?tag=deskfinds0d-20",
     description: "This specific listing confirms black in our research, included here since it shares the same base model as the white 48 inch pick and may offer a white variant on the current product page; verify color options directly before ordering.\n\nCheck the live listing's color selector, since our confirmed data shows this specific ASIN in black.",
     specs: ["48 inch platform", "Confirmed black in our research, verify current color options"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$49.99",
     rating: "4.1",
     reviews: "64",
-    imageUrl: "https://m.media-amazon.com/images/I/61hK8nQvWTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41r8Q+lVJdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1CGBX89?tag=deskfinds0d-20",
     description: "Explicitly confirmed white, a compact 24 by 14 inch design at the lowest price in this comparison, manual lift.\n\nA small platform suited to a single laptop or small monitor, at a much lower price than the larger VIVO white options.",
     specs: ["24 x 14 inch platform, confirmed white finish"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.1",
     reviews: "40",
-    imageUrl: "https://m.media-amazon.com/images/I/61gN8kQvT8L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41zpkkoPYML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D4MD3T4B?tag=deskfinds0d-20",
     description: "Explicitly confirmed white, the only corner-desk-specific option in this comparison at a 32 inch platform.\n\nA smaller review base than the VIVO options, but the only confirmed white corner converter we found.",
     specs: ["32 inch corner platform, confirmed white finish"],

@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61yK3nQvXTL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41Eh8j3wCSL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$107.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/61vQ2WqPYuL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Eh8j3wCSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VMNYMY3?tag=deskfinds0d-20",
     description: "At 26 inches, well under our 30 inch small threshold, with the largest review base of any converter in our research.\n\nStill large enough for a single monitor and keyboard comfortably, the strongest option in this narrower size category.",
     specs: ["26 inch platform"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$69.99",
     rating: "4.5",
     reviews: "987",
-    imageUrl: "https://m.media-amazon.com/images/I/61tK3nQvXTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/411ZEuCs0FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07SD7YH8T?tag=deskfinds0d-20",
     description: "Explicitly labeled \"small\" directly in the product name, a 28 inch single-top design at a lower price than the 26 inch top pick.\n\nA solid review base for a genuinely small, budget-friendly option.",
     specs: ["28 inch platform, single-top, explicitly labeled small"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.5",
     reviews: "632",
-    imageUrl: "https://m.media-amazon.com/images/I/61yK3nQvXTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Br1CxfavL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07K8WZ19K?tag=deskfinds0d-20",
     description: "At 29 inches, just under our small threshold, with a solid review base and single-top design.\n\nA slightly larger platform than the smallest options here while still qualifying as genuinely small.",
     specs: ["29 inch platform, single-top design"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "See listing",
     rating: "4.4",
     reviews: "381",
-    imageUrl: "https://m.media-amazon.com/images/I/61tX+8k4hCL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Br1CxfavL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0765BQ7RN?tag=deskfinds0d-20",
     description: "A compact design from Mount-It!, an ergonomic-focused brand, though exact platform width wasn't confirmed against our small threshold.\n\nVerify the exact dimensions on the current listing to confirm it fits within our small category before ordering.",
     specs: ["Compact platform, gas-spring lift"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$64.99",
     rating: "4.5",
     reviews: "318",
-    imageUrl: "https://m.media-amazon.com/images/I/61jK5nQvXPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41eSj5kZ-BL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8VR922C?tag=deskfinds0d-20",
     description: "The smallest platform in this comparison at 22 inches, with genuine bamboo construction and a dual-purpose lap desk function.\n\nA solid review base for the smallest, most budget-friendly option here, well suited to a laptop-only setup.",
     specs: ["22 inch platform, bamboo, lap desk function"],

@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31G9bJljgSL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$35.99",
     rating: "4.8",
     reviews: "115",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31G9bJljgSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CQJX27P1?tag=deskfinds0d-20",
     description: "The highest rating in this comparison, from a brand that already appears in our storage-focused whiteboard picks, suggesting consistent build quality across their product line.",
     specs: ["Glass surface with built-in calculator", "115 reviews at 4.8 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$36.99",
     rating: "4.3",
     reviews: "21",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/418ckAuBf3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D72NPK4Z?tag=deskfinds0d-20",
     description: "Combines the calculator with additional storage compartments, the only product in this comparison to add that extra function, at a small premium over the others.",
     specs: ["Glass surface, calculator, plus storage", "21 reviews at 4.3 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$35.99",
     rating: "4.4",
     reviews: "1,201",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Cd-+gDG2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09BNCB3Y7?tag=deskfinds0d-20",
     description: "By far the largest review base of any calculator whiteboard here at 1,201 reviews, with the biggest writing area (18x6 in) in this comparison at the same price as the top pick.",
     specs: ["18 x 6 in, glass surface with calculator", "Desk organizer", "1,201 reviews at 4.4 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$36.99",
     rating: "4.4",
     reviews: "1,201",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41gU+wVBaCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CRK225LS?tag=deskfinds0d-20",
     description: "The same TOWON design as the pick above, one inch narrower and in black, sharing the identical review count and rating — likely the same underlying listing data shared across color variants.",
     specs: ["17 x 6 in, glass surface with calculator", "1,201 reviews at 4.4 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$35.99",
     rating: "4.7",
     reviews: "40",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/412yC+NmOVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CYWWFJPW?tag=deskfinds0d-20",
     description: "Designed for keyboard-adjacent placement like our personal desktop whiteboard picks, with a calculator added, at a strong rating though smaller review base.",
     specs: ["Glass surface, keyboard-stand design with calculator", "40 reviews at 4.7 stars"],

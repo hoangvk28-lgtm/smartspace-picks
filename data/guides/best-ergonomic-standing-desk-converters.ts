@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71p5-p3xkFL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41i7KiJ9rwL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$239.99",
     rating: "4.6",
     reviews: "10,111",
-    imageUrl: "https://m.media-amazon.com/images/I/61lLQZM7T-L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41i7KiJ9rwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07H9DM38X?tag=deskfinds0d-20",
     description: "A large 42 inch platform with a substantial review base, providing enough surface area to position keyboard and monitors comfortably rather than cramping them together.\n\nStill a single-platform design, meaning keyboard and monitor move together; verify this offset works for your specific desk height before assuming full ergonomic fit.",
     specs: ["42 inch platform, single-tier"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$343.20",
     rating: "4.8",
     reviews: "3,153",
-    imageUrl: "https://m.media-amazon.com/images/I/71xLKGrNfhL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41I06ihR+sL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00JI6NCCK?tag=deskfinds0d-20",
     description: "11 distinct height settings allow finer-grained positioning than a continuous gas-spring range, useful for finding the exact neutral elbow height and returning to it consistently.\n\nThe highest rating in our broader research, worth the premium if precise, repeatable positioning genuinely matters to your ergonomic setup.",
     specs: ["36 inch platform, 11 fixed height settings"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$194.99",
     rating: "4.6",
     reviews: "330",
-    imageUrl: "https://m.media-amazon.com/images/I/61tX+8k4hCL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41CL16+db2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0747WDDMC?tag=deskfinds0d-20",
     description: "From Mount-It!, a brand specifically focused on ergonomic mounting products, with a solid rating on a smaller review base.\n\nA higher price than similarly sized VIVO options; worth it if you specifically trust Mount-It!'s ergonomic-focused engineering.",
     specs: ["32 x 22 inch platform, gas-spring lift"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$219.99",
     rating: "4.3",
     reviews: "224",
-    imageUrl: "https://m.media-amazon.com/images/I/61v6-VQvQyL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41e-fWH+dQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0747733JH?tag=deskfinds0d-20",
     description: "A compact ergonomic riser from Mount-It!, suited to a smaller desk that still needs a genuine sit-stand ergonomic solution.\n\nA lower rating than the other Mount-It! pick in this comparison; weigh this against the compact form factor's benefits for your specific desk.",
     specs: ["Compact platform, gas-spring lift"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$206.99",
     rating: "4.5",
     reviews: "282",
-    imageUrl: "https://m.media-amazon.com/images/I/61LhWc3vsML._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41XkN4AlbTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CKFL6BF7?tag=deskfinds0d-20",
     description: "A 30 inch compact tabletop riser from Mount-It!, with a solid rating better than the other compact Mount-It! option in this comparison.\n\nA reasonable middle ground between the fully compact and standard-size Mount-It! ergonomic risers.",
     specs: ["30 inch platform, gas-spring lift"],
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     price: "$128.97",
     rating: "4.5",
     reviews: "282",
-    imageUrl: "https://m.media-amazon.com/images/I/61LhWc3vsML._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41EwRQZYUsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CKGL1M7P?tag=deskfinds0d-20",
     description: "The same 30 inch compact design and rating as the pick above, listed at a notably lower price, worth checking both listings for current stock and pricing.\n\nSame ergonomic 30 inch tabletop design at a more budget-friendly price point.",
     specs: ["30 inch platform, gas-spring lift"],
@@ -124,7 +124,7 @@ export const products: GuideProduct[] = [
     price: "$389.00",
     rating: "4.5",
     reviews: "497",
-    imageUrl: "https://m.media-amazon.com/images/I/61tP7jcYqoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41jeNZ2uiSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08KFPDGX1?tag=deskfinds0d-20",
     description: "Push-button electric adjustment genuinely supports better ergonomic habits, since effortless height changes make you more likely to actually transition between sitting and standing throughout the day.\n\nThe highest price in this comparison; the ergonomic benefit of frictionless adjustment is real but comes at a real cost.",
     specs: ["40 inch platform, electric push-button lift"],
@@ -140,7 +140,7 @@ export const products: GuideProduct[] = [
     price: "$279.99",
     rating: "4.6",
     reviews: "1,693",
-    imageUrl: "https://m.media-amazon.com/images/I/71YHqhV3grL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41sW5lDV5eL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07K217DXS?tag=deskfinds0d-20",
     description: "For buyers running multiple monitors, proper monitor spacing and viewing distance matter as much as keyboard height for ergonomic comfort, and this platform's width supports that spacing.\n\nA large platform needs a large desk; verify your desk accommodates the full footprint before ordering.",
     specs: ["46 inch platform, triple-monitor mount"],

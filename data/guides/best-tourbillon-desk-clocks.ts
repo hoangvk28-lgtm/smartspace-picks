@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41PeCofUgxL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$103.99",
     rating: "4.1",
     reviews: "1,329",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41PeCofUgxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09LGTWHKF?tag=deskfinds0d-20",
     description: "A genuine build-it-yourself 3D wooden puzzle clock with an actual tourbillon rotating escapement mechanism, by far the largest review base in this comparison for its category.",
     specs: ["3D wooden puzzle build", "Genuine tourbillon rotating escapement", "1,329 reviews at 4.1 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$65.99",
     rating: "4.0",
     reviews: "3",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/516EanREgQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DS26J419?tag=deskfinds0d-20",
     description: "Being direct about the labeling here: this is described as an imitation movement model, so verify current listing language on mechanism authenticity before assuming genuine escapement function.",
     specs: ["3D-printed build", "Described as imitation movement model", "3 reviews at 4.0 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$31.99",
     rating: "4.4",
     reviews: "15",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41WBbpK+7sL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BX9FKDCC?tag=deskfinds0d-20",
     description: "The cheapest entry point in this comparison, also labeled as an imitation structure — verify mechanism authenticity on the current listing before purchase.",
     specs: ["3D-printed build", "Described as imitation escapement structure", "15 reviews at 4.4 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$97.95",
     rating: "4.2",
     reviews: "257",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ookx2nhgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09Q7PZ9QV?tag=deskfinds0d-20",
     description: "Not a tourbillon mechanism specifically, but a genuine rotating crystal display under glass, a ready-made alternative for buyers who want visible rotating motion without assembly.",
     specs: ["9 inch glass dome", "Rotating crystal, not a tourbillon escapement", "257 reviews at 4.2 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$175.99",
     rating: "4.0",
     reviews: "57",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41HYB7M0qKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000BUNKLU?tag=deskfinds0d-20",
     description: "The most premium ready-made piece here, though again not a genuine tourbillon mechanism — included as a high-end statement-piece alternative to the mechanical puzzle builds.",
     specs: ["Dark mahogany finish", "Premium mantel clock, no tourbillon mechanism"],

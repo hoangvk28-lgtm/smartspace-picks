@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "See listing",
     rating: "4.5",
     reviews: "1,872",
-    imageUrl: "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09D3QJXYZ?tag=deskfinds0d-20",
     description: "A confirmed FEZIBO converter listing with a real review base, though current pricing wasn't available in our specific data pull.\n\nVerify the current listing's exact specifications directly, since FEZIBO's product line has shifted toward full standing desks more broadly.",
     specs: ["Specifications not fully confirmed, verify on listing"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$129.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075JYG2TB?tag=deskfinds0d-20",
     description: "Not a FEZIBO product, included as the strongest verified alternative: the largest review base of any converter in our research, at a mid-range price.\n\nA proven option if you're open to a different brand with a clearer current converter product line.",
     specs: ["32 inch platform, dual-monitor support"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$239.99",
     rating: "4.5",
     reviews: "214",
-    imageUrl: "https://m.media-amazon.com/images/I/71QW4LhLcVL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/416Vd3ngfML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2H2PZ5X?tag=deskfinds0d-20",
     description: "Not a FEZIBO product, included as a verified electric alternative from FlexiSpot, a brand with a clearer current converter lineup.\n\nA large 42 inch electric platform with a confirmed review base, worth considering if FEZIBO's current converter selection doesn't meet your needs.",
     specs: ["42 inch platform, electric motorized lift"],

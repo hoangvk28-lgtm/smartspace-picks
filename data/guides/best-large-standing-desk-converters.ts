@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71RVQZmY-6L._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41oOz8w2OYL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$549.00",
     rating: "4.7",
     reviews: "1,418",
-    imageUrl: "https://m.media-amazon.com/images/I/71p5-p3xkFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41oOz8w2OYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00UVHTGJ8?tag=deskfinds0d-20",
     description: "A genuinely large 48 inch platform with a strong review base and proven 11-setting height mechanism.\n\nThe highest price in this comparison; verify your desk can handle both the platform's footprint and its load before ordering.",
     specs: ["48 inch platform, 11 height settings"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$197.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/71RVQZmY-6L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41brvuY+FwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CG7HG8L1?tag=deskfinds0d-20",
     description: "A 48 inch platform sharing VIVO's massive review pool at less than half the price of the VariDesk Pro Plus 48.\n\nA compelling value at this size, though it lacks the VariDesk's fixed-setting precision mechanism.",
     specs: ["48 inch platform"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$279.99",
     rating: "4.6",
     reviews: "1,693",
-    imageUrl: "https://m.media-amazon.com/images/I/71YHqhV3grL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41sW5lDV5eL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07K217DXS?tag=deskfinds0d-20",
     description: "A large 46 inch platform explicitly built with triple-monitor mounting, a solid review base for this specialized use case.\n\nA dedicated purpose-built design for three monitors, unlike the open platforms at similar sizes.",
     specs: ["46 inch platform, triple-monitor mount"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$389.00",
     rating: "4.5",
     reviews: "497",
-    imageUrl: "https://m.media-amazon.com/images/I/61tP7jcYqoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41jeNZ2uiSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08KFPDGX1?tag=deskfinds0d-20",
     description: "A large 40 inch platform with electric push-button adjustment, useful given the heavier combined load a large platform with multiple devices carries.\n\nElectric lift handles the increased weight of a fully loaded large platform more predictably than a manual mechanism.",
     specs: ["40 inch platform, electric push-button lift"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$149.99",
     rating: "4.4",
     reviews: "73",
-    imageUrl: "https://m.media-amazon.com/images/I/61qKQZ5RTFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41jps08I7XL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H5JSLCSL?tag=deskfinds0d-20",
     description: "A large 42 inch manual platform at a much lower price than the electric alternatives, from FlexiSpot.\n\nA smaller review base than the VIVO options, but a genuine value for buyers who want a large manual platform without electric pricing.",
     specs: ["42 inch platform, manual gas-spring lift"],
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     price: "$279.99",
     rating: "4.5",
     reviews: "412",
-    imageUrl: "https://m.media-amazon.com/images/I/71RVQZmY-6L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/519TulaiIFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C8V8WCNV?tag=deskfinds0d-20",
     description: "A separate 48 inch VIVO listing at a higher price than the K Series equivalent, worth comparing directly since the size is the same.\n\nCheck both VIVO 48 inch listings for stock and current pricing before ordering, since specific model variants can differ in minor features.",
     specs: ["48 inch platform"],

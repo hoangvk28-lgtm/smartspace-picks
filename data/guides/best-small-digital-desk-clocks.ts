@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41zup4v0gaL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$15.99",
     rating: "4.6",
     reviews: "6,039",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41zup4v0gaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYST53T6?tag=deskfinds0d-20",
     description: "Large numbers specifically, addressing the compact-but-legible requirement directly, with by far the largest review base of any pick here.",
     specs: ["Digital display, large numbers", "6,039 reviews at 4.6 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$9.99",
     rating: "3.8",
     reviews: "11,246",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31lCkRe812L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B093FJ45JJ?tag=deskfinds0d-20",
     description: "By far the largest review base in this comparison, showing widespread adoption at a low price, though with a noticeably lower rating than the other picks — worth reading current reviews for common complaints.",
     specs: ["LED digital display", "Battery-powered", "11,246 reviews at 3.8 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$14.99",
     rating: "4.2",
     reviews: "274",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41RTGQppK1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CCYBV2WX?tag=deskfinds0d-20",
     description: "Not strictly digital — an analog dial — but included as the honest compact/quiet alternative for buyers who assumed \"digital\" but would actually prefer a silent analog face at this small size.",
     specs: ["4 inch analog dial", "Non-ticking movement", "274 reviews at 4.2 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$9.99",
     rating: "4.5",
     reviews: "68",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41D7sGB-aQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GCFGS5QJ?tag=deskfinds0d-20",
     description: "At 3.5 inches this is the smallest true footprint in this comparison, battery-powered, at a strong rating despite the smaller review base.",
     specs: ["3.5 inch, battery-powered", "68 reviews at 4.5 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$16.95",
     rating: "4.6",
     reviews: "2,643",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41HXEjNzdTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D4DJ5TYP?tag=deskfinds0d-20",
     description: "A slim-profile mirror-surface digital design with the second-largest review base in this comparison, tied for the highest rating.",
     specs: ["Slim mirror-surface design", "2,643 reviews at 4.6 stars"],

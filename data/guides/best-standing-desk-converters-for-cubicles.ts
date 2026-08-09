@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61vQ2WqPYuL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$129.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/71rWcOWmY9L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075JYG2TB?tag=deskfinds0d-20",
     description: "A proven mid-size 32 inch platform that fits most standard cubicle desks without excessive forward projection.\n\nThe largest review base of any converter we researched, a reasonable size for a shared office environment.",
     specs: ["32 inch platform"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$194.99",
     rating: "4.6",
     reviews: "330",
-    imageUrl: "https://m.media-amazon.com/images/I/61tX+8k4hCL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41CL16+db2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0747WDDMC?tag=deskfinds0d-20",
     description: "A compact 32 by 22 inch footprint from Mount-It!, an ergonomic-focused brand, well suited to a smaller cubicle desk.\n\nA solid rating with a manageable footprint that shouldn't project excessively into shared aisle space.",
     specs: ["32 x 22 inch platform, gas-spring lift"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$139.99",
     rating: "4.6",
     reviews: "2,412",
-    imageUrl: "https://m.media-amazon.com/images/I/71b2wLXe8vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Z4mzo+NKS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LCCJD6B?tag=deskfinds0d-20",
     description: "A well-reviewed alternative at the same 32 inch size as our top pick, a reasonable option for a standard cubicle desk.\n\nA solid review base at a competitive price for cubicle-appropriate sizing.",
     specs: ["32 inch platform"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$159.99",
     rating: "4.6",
     reviews: "2,550",
-    imageUrl: "https://m.media-amazon.com/images/I/71xqQhZmDwL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51sPBSqTYXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LCCT6VS?tag=deskfinds0d-20",
     description: "A slightly wider 36 inch platform for a cubicle desk that needs dual-monitor space, at a still-manageable footprint.\n\nA strong review base for a wider option that still fits most cubicle configurations.",
     specs: ["36 inch platform"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.5",
     reviews: "1,243",
-    imageUrl: "https://m.media-amazon.com/images/I/61qK5nQvXTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/412VP8wOKyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08GKXXT22?tag=deskfinds0d-20",
     description: "An ultra-slim, compact design well suited to a small cubicle desk where every inch of surface and clearance matters.\n\nA strong review base for a genuinely space-efficient design in a shared office environment.",
     specs: ["Ultra-slim single-top compact design"],

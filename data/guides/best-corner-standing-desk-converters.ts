@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71H8jNq3RvL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/517aMgUqrpL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$249.99",
     rating: "4.6",
     reviews: "421",
-    imageUrl: "https://m.media-amazon.com/images/I/71K5j8vQXHL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/517aMgUqrpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B078WZCYP7?tag=deskfinds0d-20",
     description: "A dedicated 43 inch corner platform with a solid review base, built specifically for L-shaped desk geometry rather than adapted from a rectangular design.\n\nVerify your desk's corner return depth matches this converter's rear-corner dimensions before ordering.",
     specs: ["43 inch corner platform"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$159.99",
     rating: "4.6",
     reviews: "715",
-    imageUrl: "https://m.media-amazon.com/images/I/71H8jNq3RvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41pKou67Z0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07B44LD4S?tag=deskfinds0d-20",
     description: "The larger review base among VIVO's corner options, an extra-wide 38 inch design at a lower price than the 43 inch alternative.\n\nA reasonable value for buyers with a corner desk who want proven review history at a lower price than the largest corner option.",
     specs: ["38 inch corner platform, extra wide"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$279.99",
     rating: "4.6",
     reviews: "159",
-    imageUrl: "https://m.media-amazon.com/images/I/61Rk3nY7fRL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Cnso48ORL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LBBZR7V?tag=deskfinds0d-20",
     description: "The only electric-lift corner converter we confirmed, combining L-shaped desk fit with push-button height adjustment.\n\nA smaller review base than the manual corner options, but a genuinely unique combination for corner-desk buyers who also want electric lift.",
     specs: ["43 inch corner platform, electric lift"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$219.99",
     rating: "4.7",
     reviews: "8",
-    imageUrl: "https://m.media-amazon.com/images/I/71tK5jGxV3L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41OWaJEiRaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXDZM4F1?tag=deskfinds0d-20",
     description: "The largest corner converter platform we confirmed, at 47 inches, though with only 8 reviews at research time.\n\nToo few reviews to draw strong conclusions from the rating; worth watching as this larger corner option builds review volume.",
     specs: ["47 inch corner platform"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.1",
     reviews: "40",
-    imageUrl: "https://m.media-amazon.com/images/I/61gN8kQvT8L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41zpkkoPYML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D4MD3T4B?tag=deskfinds0d-20",
     description: "The lowest price for a corner converter in this comparison, a 32 inch design in white, though with a lower rating and smaller review base than the VIVO options.\n\nA reasonable entry point for a smaller corner desk on a tighter budget.",
     specs: ["32 inch corner platform, white finish"],
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     price: "$349.00",
     rating: "4.5",
     reviews: "497",
-    imageUrl: "https://m.media-amazon.com/images/I/61P9m5nq7CL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41M1ekKczDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0864RSM5S?tag=deskfinds0d-20",
     description: "Not a corner-specific design, included as reference: this rectangular electric converter has a far larger review base than any corner option here, useful context if your corner desk has a wide enough straight section to fit a standard platform.\n\nOnly consider this if your desk's usable straight surface (away from the actual corner joint) is wide enough for a standard rectangular platform.",
     specs: ["36 inch rectangular platform, electric lift", "Not corner-shaped"],

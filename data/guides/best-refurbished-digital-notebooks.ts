@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31vXCSmH+ML._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$323.99",
     rating: "4.3",
     reviews: "425",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31vXCSmH+ML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D4JKM1S7?tag=deskfinds0d-20",
     description: "64GB of storage for $323.99 in Like-New condition, which undercuts the new 16GB base Kindle Scribe's $399.99 price while offering four times the storage. This is the clearest value pick in the entire refurbished comparison.",
     specs: ["64GB storage", "Like-New certified condition", "425 reviews at 4.3 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$302.39",
     rating: "4.3",
     reviews: "425",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/316t+ALq6FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D4JHQGW2?tag=deskfinds0d-20",
     description: "The cheapest Kindle Scribe in this comparison, though the price gap to the 64GB Like-New model above is small enough ($21.60) that most buyers should size up unless storage genuinely doesn't matter to them.",
     specs: ["32GB storage", "Like-New certified condition", "425 reviews at 4.3 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$418.90",
     rating: "3.7",
     reviews: "26",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31-hgq49eJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D7BTHTPS?tag=deskfinds0d-20",
     description: "A refurbished path into the reMarkable ecosystem at a discount versus the new $449 price, but with a noticeably lower rating (3.7) and much smaller review count (26) than the new reMarkable 2 listing — worth reading current reviews carefully before choosing this over buying new.",
     specs: ["10.3 inch digital paper display", "Marker Plus pen included", "3.7 stars from 26 reviews"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$449.00",
     rating: "4.4",
     reviews: "1,354",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HDL3XJR?tag=deskfinds0d-20",
     description: "We're including the new-condition listing directly next to the refurbished one above so you can see the real tradeoff: $30.10 more for a meaningfully higher 4.4 rating and a much larger, more established review base of 1,354.",
     specs: ["Marker Plus stylus included", "New condition", "1,354 reviews at 4.4 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$399.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/316t+ALq6FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZ9VFQ2P?tag=deskfinds0d-20",
     description: "Included as the direct new-condition comparison point: the Like-New 64GB refurbished Kindle Scribe above costs $76 less than this new 16GB base model while offering four times the storage, which is the clearest reason to consider refurbished in this entire comparison.",
     specs: ["16GB storage", "New condition, full warranty"],

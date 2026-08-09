@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31L4FiZcVdL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$21.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31L4FiZcVdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZBPR859?tag=deskfinds0d-20",
     description: "Explicitly lists Dell compatibility in its product description alongside HP, Mac Mini, and GMKtec, with wide device width support and a 12 lb weight capacity — verify against your specific OptiPlex Micro generation's dimensions.",
     specs: ["Fits 0.63-2.8 in device width", "Supports up to 12 lbs", "Explicitly lists Dell compatibility"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "4.4",
     reviews: "702",
-    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41nWvL8pqlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KY3LHVG?tag=deskfinds0d-20",
     description: "The largest review base in this comparison, a general-purpose VESA bracket that should fit most compact Dell OptiPlex Micro models within its stated depth range, though not marketed as Dell-specific.",
     specs: ["Fits 0.65-2.55 in device depth", "75x75 and 100x100mm VESA", "702 reviews at 4.4 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.6",
     reviews: "190",
-    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31l-EL12D-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJ7BK9CM?tag=deskfinds0d-20",
     description: "The highest rating in this comparison, a flexible wall or VESA mount that should accommodate compact Dell devices, at a lower price than the top pick.",
     specs: ["Wall mount or VESA behind-monitor mount", "190 reviews at 4.6 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$32.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Ohj6NQqpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B076N6B6GQ?tag=deskfinds0d-20",
     description: "From StarTech, a well-established computer-hardware brand, with a wide depth range that should accommodate most Dell OptiPlex Micro configurations, at the highest price here.",
     specs: ["Fits 0.7-2.8 in device depth", "Multiple mounting configurations"],

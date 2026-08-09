@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51+142vwVRL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$27.99",
     rating: "4.5",
     reviews: "45,172",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51+142vwVRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00NNMB3KS?tag=deskfinds0d-20",
     description: "A genuine raised stand with by far the largest review base in our entire cooling pad research, well-suited to a stable desk surface.",
     specs: ["Raised stand, 3 fans", "45,172 reviews at 4.5 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$26.84",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51phX6jwL9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B016CL2DE6?tag=deskfinds0d-20",
     description: "A slim raised stand covering a wide laptop size range, well-suited to a desk with limited surface depth.",
     specs: ["Explicitly slim raised stand", "Fits 12-17 inch laptops"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$16.99",
     rating: "4.4",
     reviews: "1,775",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/513ogekjTDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08H5FBRD4?tag=deskfinds0d-20",
     description: "The cheapest genuine raised stand in this comparison, with 2 large fans and RGB lighting for a gaming-adjacent desk aesthetic.",
     specs: ["Raised stand, 2 large fans, RGB", "1,775 reviews at 4.4 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "See listing",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/513ogekjTDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07TKDDZ87?tag=deskfinds0d-20",
     description: "This listing was not accessible through our product data lookup at time of research — verify current details, price, and availability directly before considering it.",
     specs: ["Verify current specs on the listing page"],

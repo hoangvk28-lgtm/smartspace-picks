@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71p5-p3xkFL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41oOz8w2OYL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$549.00",
     rating: "4.7",
     reviews: "1,418",
-    imageUrl: "https://m.media-amazon.com/images/I/71p5-p3xkFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41oOz8w2OYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00UVHTGJ8?tag=deskfinds0d-20",
     description: "A wide 48 inch platform with the strongest review base among premium options, genuinely wide enough for two monitor bases plus an open laptop and keyboard.\n\nThe highest price in this comparison; the 48 inch width is what makes a genuine three-device setup realistic without cramping.",
     specs: ["48 inch platform"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$279.99",
     rating: "4.6",
     reviews: "1,693",
-    imageUrl: "https://m.media-amazon.com/images/I/71YHqhV3grL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41sW5lDV5eL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07K217DXS?tag=deskfinds0d-20",
     description: "A very large 46 inch platform built for triple-monitor mounting, adaptable to a two-monitor plus laptop setup with room to spare.\n\nDesigned for three monitors but flexible enough to swap one mount position for a laptop instead.",
     specs: ["46 inch platform, triple-monitor mount"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$239.99",
     rating: "4.6",
     reviews: "10,111",
-    imageUrl: "https://m.media-amazon.com/images/I/61lLQZM7T-L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41i7KiJ9rwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07H9DM38X?tag=deskfinds0d-20",
     description: "A large 42 inch platform with a substantial review base, wide enough for two monitor bases and a laptop with careful arrangement.\n\nA lower price than the largest alternatives while still offering meaningful width for a three-device setup.",
     specs: ["42 inch platform"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$389.00",
     rating: "4.5",
     reviews: "497",
-    imageUrl: "https://m.media-amazon.com/images/I/61tP7jcYqoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41jeNZ2uiSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08KFPDGX1?tag=deskfinds0d-20",
     description: "A wide 40 inch electric platform, useful given the meaningful combined weight of two monitors and a laptop.\n\nElectric lift handles this heavier three-device load more predictably than a manual gas-spring mechanism.",
     specs: ["40 inch platform, electric push-button lift"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$169.99",
     rating: "4.6",
     reviews: "1,872",
-    imageUrl: "https://m.media-amazon.com/images/I/71jTx8VqXcL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41cvTPf-cXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08RHKKX6K?tag=deskfinds0d-20",
     description: "By mounting both monitors on independent arms rather than open platform space, this frees the full 32 inch surface for a laptop and keyboard.\n\nAn integrated mount approach that solves the space problem differently, mounting monitors overhead to preserve desk surface for the laptop.",
     specs: ["32 inch platform, integrated dual 13-30 inch monitor stand"],
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     price: "$459.99",
     rating: "4.4",
     reviews: "298",
-    imageUrl: "https://m.media-amazon.com/images/I/61qm3jXtQYL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41K6Ey3-RSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5SC49BN?tag=deskfinds0d-20",
     description: "Combines an integrated dual-monitor arm with electric lift and an extra-large platform, freeing surface space for the laptop while offering effortless adjustment.\n\nThe highest price in this comparison, but the only pick combining integrated monitor mounts, electric lift, and an extra-large platform together.",
     specs: ["X-Large platform, integrated dual monitor arm, electric lift"],

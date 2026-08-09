@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$449.00",
     rating: "4.4",
     reviews: "1,354",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HDL3XJR?tag=deskfinds0d-20",
     description: "reMarkable offers a dedicated Windows desktop app that syncs notes over WiFi when a reMarkable Connect subscription is active, which is a more direct Windows connection than most competitors' mobile-first or browser-only options.",
     specs: ["Marker Plus stylus included", "Dedicated Windows desktop app", "Full sync requires reMarkable Connect subscription"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$399.00",
     rating: "4.1",
     reviews: "18",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31KAykcDD+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVKBLJK2?tag=deskfinds0d-20",
     description: "Same Windows desktop app support as the reMarkable 2, in a distraction-free device without e-reader or app-store features, at a smaller review base since it's a newer entry.",
     specs: ["Marker stylus included", "Dedicated Windows desktop app", "Full sync requires reMarkable Connect subscription"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$399.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/316t+ALq6FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZ9VFQ2P?tag=deskfinds0d-20",
     description: "Kindle Scribe connects to Windows through Amazon's send-to-Kindle and cloud content tools rather than a dedicated notebook desktop app, which works but is a less direct Windows workflow than reMarkable's native app.",
     specs: ["16GB storage", "Send-to-Kindle and Amazon cloud tools accessible from Windows", "No dedicated Windows notebook desktop app"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$679.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31TxeKtPWwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FC1VJJFP?tag=deskfinds0d-20",
     description: "Same Amazon-ecosystem Windows connection as the base Kindle Scribe, with a color display and higher storage, at a significantly higher price.",
     specs: ["64GB storage", "Color E Ink display", "Same Amazon cloud/send-to-Kindle Windows connection as the base model"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$299.98",
     rating: "4.3",
     reviews: "329",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41StVO0JWOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DX234NWP?tag=deskfinds0d-20",
     description: "As a more open, Android-adjacent device, this is realistically the most straightforward option for basic USB file transfer to a Windows PC, at the lowest price in this comparison, though it lacks a purpose-built Windows notebook app.",
     specs: ["10.95 inch color display", "USB file transfer to Windows", "329 reviews at 4.3 stars"],

@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41DUQEUXetL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$34.99",
     rating: "4.6",
     reviews: "26,593",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41DUQEUXetL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHZ82DK?tag=deskfinds0d-20",
     description: "Combines free dot-grid note pages with undated planning templates in the same reusable notebook, backed by the largest and highest-rated review base of any product in this comparison.",
     specs: ["Letter size", "Mix of note pages and undated planning templates", "26,593 reviews at 4.6 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.4",
     reviews: "23,751",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41VG6OVaZCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHYZ32M?tag=deskfinds0d-20",
     description: "Same note-page-plus-planner-template combo in a smaller, bag-friendly footprint, with nearly the same scale of review evidence.",
     specs: ["6 x 8.8 in", "Mix of note pages and planning templates", "23,751 reviews at 4.4 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$31.99",
     rating: "4.4",
     reviews: "3,200",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/416XcHl7ssL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLPPZZJL?tag=deskfinds0d-20",
     description: "An updated combo of note pages and planning templates at the same Executive size, with a smaller review base since it's the newer revision.",
     specs: ["6 x 8.8 in", "Updated note-and-planner template mix", "3,200 reviews at 4.4 stars"],

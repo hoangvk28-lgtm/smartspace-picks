@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/413N-zNM2KL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$41.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/413N-zNM2KL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08V21RXFY?tag=deskfinds0d-20",
     description: "Confirmed genuine 12x12 inch compatibility, made in the USA, in a 6-pack of clear cases — the most directly matched product to the true scrapbook-storage use case.",
     specs: ["Confirmed 12x12 in compatibility", "Made in USA", "6-pack, clear"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$28.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31-lyBAM93L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VJSH9F9?tag=deskfinds0d-20",
     description: "A 3-pack of clear project cases with latching lids, useful for organizing scrapbook supplies and smaller crafting materials into separate secure containers.",
     specs: ["3-pack, latching lids, clear", "Portable project case design"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$28.54",
     rating: "4.4",
     reviews: "5,076",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41PdCI0nCgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08T6P8LB6?tag=deskfinds0d-20",
     description: "A letter-size file box, not a genuine 12x12 scrapbook fit, but with by far the largest review base in this comparison — included for scrapbook supplies and materials that fit standard letter dimensions.",
     specs: ["Letter size, file rails", "5,076 reviews at 4.4 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$24.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31wbmOtAjWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CN6G2DJ6?tag=deskfinds0d-20",
     description: "A 6-pack of A4-sized clear project cases, useful for organizing smaller scrapbook embellishments and supplies rather than full 12x12 pages.",
     specs: ["6-pack, A4 size, clear plastic"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$24.15",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31VVX+PgVwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D92V2XZT?tag=deskfinds0d-20",
     description: "A transparent letter-size tote from an established office-supply retailer, suited to smaller-format scrapbook materials or general craft supply storage.",
     specs: ["Letter size, clear plastic"],

@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41qKWKeFzUL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.4",
     reviews: "7,504",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41qKWKeFzUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYCC4YLN?tag=deskfinds0d-20",
     description: "Self-setting atomic sync with automatic daylight-saving adjustment, the largest review base among the atomic-clock options in this comparison.",
     specs: ["Self-setting atomic sync", "Auto DST adjustment", "7,504 reviews at 4.4 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$36.88",
     rating: "4.4",
     reviews: "2,327",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Yl3UVTsiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01EZ3C7L2?tag=deskfinds0d-20",
     description: "From La Crosse Technology, a well-established brand specifically known for atomic clocks, with a backlit full calendar display alongside the time.",
     specs: ["Atomic sync, backlit display", "Full calendar function", "2,327 reviews at 4.4 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$18.70",
     rating: "4.6",
     reviews: "3,295",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41gO7GRycsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D97SZPC9?tag=deskfinds0d-20",
     description: "The highest rating in this comparison, a large-display clock with date and day-of-week information, at a reasonable price.",
     specs: ["Large display with date/day", "3,295 reviews at 4.6 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$25.99",
     rating: "4.2",
     reviews: "289",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/413aK8nsTNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CDBR17LL?tag=deskfinds0d-20",
     description: "Explicitly designed with accessibility for seniors in mind, with 2 USB charging ports built in — a genuine functional addition to the core atomic-sync feature.",
     specs: ["Atomic sync", "2 USB charging ports", "289 reviews at 4.2 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$23.99",
     rating: "4.0",
     reviews: "72",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/413bqHe5D7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07NBNTRND?tag=deskfinds0d-20",
     description: "A big-screen atomic clock for maximum readability, with a smaller review base than the top picks worth noting.",
     specs: ["Big screen display", "Atomic sync", "72 reviews at 4.0 stars"],

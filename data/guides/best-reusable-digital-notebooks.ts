@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41DUQEUXetL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$34.99",
     rating: "4.6",
     reviews: "26,593",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41DUQEUXetL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHZ82DK?tag=deskfinds0d-20",
     description:
       "With 26,593 reviews at 4.6 stars, this is the most reviewed and highest-rated reusable notebook in the entire search, by a wide margin. It's undated, so the planning pages don't force you to start on a specific date, and it mixes dot-grid, to-do, and calendar page templates within the same reusable notebook.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.4",
     reviews: "23,751",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41VG6OVaZCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHYZ32M?tag=deskfinds0d-20",
     description:
       "Same Fusion planner-template concept as the top pick, but in the smaller 6x8.8 Executive size, with an enormous 23,751-review base of its own. If the full letter-size Fusion above is too large for your bag, this is the direct smaller alternative with nearly identical proof of reliability.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$31.99",
     rating: "4.4",
     reviews: "3,200",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/416XcHl7ssL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLPPZZJL?tag=deskfinds0d-20",
     description:
       "Fusion Plus is the newer, upgraded version of the standard Fusion template set at the same Executive size — check the current listing for what specifically changed in the page layouts, since \"Plus\" products in this lineup typically mean refined templates rather than a different erase mechanism.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "4.5",
     reviews: "100",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41RhAqe3azL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DP3JMP14?tag=deskfinds0d-20",
     description:
       "If you don't want built-in planner templates and just want dot-grid pages to write on freely, the Core line skips the Fusion's calendar/to-do page structure entirely. It's cheaper than the Fusion options and gives you a blank canvas rather than pre-formatted pages.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$17.99",
     rating: "4.4",
     reviews: "281",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41uG7qo+QwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DW9JZ1MF?tag=deskfinds0d-20",
     description:
       "The smallest and cheapest reusable notebook in this comparison, with plain dotted pages and no planner formatting. It's the pick if you want the reusable mechanic in its simplest, most portable form rather than a full planner system.",

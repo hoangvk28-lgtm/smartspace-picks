@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61lLQZM7T-L._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41mkQi1Vv9L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$161.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/61lLQZM7T-L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41mkQi1Vv9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09XVQ9YJN?tag=deskfinds0d-20",
     description: "The largest review base of any confirmed 42 inch converter, sharing VIVO's massive K Series review pool.\n\nA strong value at this size, with the most proven track record of any 42 inch option.",
     specs: ["42 inch platform, manual lift"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$179.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/71sK9WnQZ8L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/218ugZvMiSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B8BDLQ8H?tag=deskfinds0d-20",
     description: "The same proven design and review pool as the black top pick, confirmed in white for buyers who want that specific finish.\n\nA modest price increase over the black version for the confirmed white finish.",
     specs: ["42 inch platform, confirmed white finish, manual lift"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$149.99",
     rating: "4.4",
     reviews: "73",
-    imageUrl: "https://m.media-amazon.com/images/I/61qKQZ5RTFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41jps08I7XL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H5JSLCSL?tag=deskfinds0d-20",
     description: "A lower price than the VIVO options at this size, from FlexiSpot, an established standing-desk brand.\n\nA smaller review base than VIVO's massive pool, but a genuine value alternative at 42 inches.",
     specs: ["42 inch platform, manual lift"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$239.99",
     rating: "4.5",
     reviews: "214",
-    imageUrl: "https://m.media-amazon.com/images/I/71QW4LhLcVL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/416Vd3ngfML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2H2PZ5X?tag=deskfinds0d-20",
     description: "The strongest review base among 42 inch electric options, push-button adjustment instead of manual gas-spring.\n\nA meaningful price premium over the manual 42 inch alternatives for effortless electric lift.",
     specs: ["42 inch platform, electric motorized lift"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$219.99",
     rating: "4.5",
     reviews: "241",
-    imageUrl: "https://m.media-amazon.com/images/I/71xJmqXt6VL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41XNBWjje9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6R2Z2F8?tag=deskfinds0d-20",
     description: "VIVO's electric line at 42 inches, a lower price than the FlexiSpot electric alternative.\n\nA smaller review base than VIVO's manual K Series, since electric is a newer addition to VIVO's lineup.",
     specs: ["42 inch platform, electric lift"],
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     price: "$199.99",
     rating: "4.5",
     reviews: "1,204",
-    imageUrl: "https://m.media-amazon.com/images/I/61h9K3nQvWL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51ql3SmLQXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09G9L9X8B?tag=deskfinds0d-20",
     description: "The only confirmed MDF wood-construction option at 42 inches, with a solid review base from TechOrbits.\n\nA genuine material differentiator if wood construction matters to your aesthetic or durability preferences.",
     specs: ["42 inch platform, confirmed MDF wood construction, manual lift"],

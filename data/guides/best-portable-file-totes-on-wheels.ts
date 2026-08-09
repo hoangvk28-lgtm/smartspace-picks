@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31mp3hJnkrL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$39.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31mp3hJnkrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0798J37V7?tag=deskfinds0d-20",
     description: "A genuine collapsible rolling crate from dbest Products, an established rolling-cart brand, useful for hauling files plus other supplies at once.",
     specs: ["Collapsible rolling crate", "Genuine wheels"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$36.39",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31TrnNtNTmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B074T8WDJV?tag=deskfinds0d-20",
     description: "The same dbest Products rolling crate design as the pick above in black, at a slightly lower price.",
     specs: ["Collapsible rolling crate", "Genuine wheels"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$34.99",
     rating: "4.1",
     reviews: "683",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41NLaHUn3NL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFDCLJ3G?tag=deskfinds0d-20",
     description: "A more compact rolling crate variant with real review data, cheaper than the standard-size dbest options above.",
     specs: ["Compact collapsible rolling crate", "683 reviews at 4.1 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$69.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41+l9E6emcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D4DDSWXH?tag=deskfinds0d-20",
     description: "The highest price in this comparison, a rolling bag designed to carry both files and a 15.6 inch laptop together, useful for buyers who need one rolling bag for their entire workday kit.",
     specs: ["Rolling bag with wheels", "Fits 15.6 inch laptop plus files"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$59.49",
     rating: "3.5",
     reviews: "586",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41a1aVHqNOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B009JY00YE?tag=deskfinds0d-20",
     description: "Being direct here: this has the lowest rating in this comparison at 3.5 stars despite a real review base — worth reading current feedback carefully for common complaints before choosing it over the higher-rated dbest options.",
     specs: ["15 x 16 x 14.25 in", "Genuine wheels", "586 reviews at 3.5 stars"],

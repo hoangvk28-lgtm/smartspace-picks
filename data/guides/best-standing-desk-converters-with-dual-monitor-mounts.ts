@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71jTx8VqXcL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41cvTPf-cXL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$169.99",
     rating: "4.6",
     reviews: "1,872",
-    imageUrl: "https://m.media-amazon.com/images/I/71jTx8VqXcL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41cvTPf-cXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08RHKKX6K?tag=deskfinds0d-20",
     description: "The largest review base among converters with a true dual-monitor arm system, rated for 13 to 30 inch displays on each independent arm.\n\nEach monitor arm can be positioned independently, unlike an open platform where both screens share the same fixed height.",
     specs: ["32 inch platform, dual independent monitor arms, 13-30 inch rated"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$179.99",
     rating: "4.6",
     reviews: "1,872",
-    imageUrl: "https://m.media-amazon.com/images/I/71jTx8VqXcL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31C5pHLfGNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BJ4R6FPV?tag=deskfinds0d-20",
     description: "The same proven dual-arm design as the top pick, listed separately at a slightly higher price.\n\nCheck both listings for current stock and pricing, since the same product can appear at different prices across separate listings.",
     specs: ["32 inch platform, dual independent monitor arms, 13-30 inch rated"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$199.99",
     rating: "4.5",
     reviews: "743",
-    imageUrl: "https://m.media-amazon.com/images/I/71kK5nQvXTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ue0-15IEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGQTS2QP?tag=deskfinds0d-20",
     description: "The same dual independent monitor arm system as the 32 inch pick, on a wider 36 inch platform for more keyboard and mouse space.\n\nA solid review base with the same proven mount mechanism, at a modest price increase for the extra platform width.",
     specs: ["36 inch platform, dual independent monitor arms, 13-30 inch rated"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$179.99",
     rating: "4.5",
     reviews: "612",
-    imageUrl: "https://m.media-amazon.com/images/I/71jTx8VqXcL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41KTE2pi9QL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZZB1ZRY?tag=deskfinds0d-20",
     description: "Actually a single-monitor mount rather than dual; included here for buyers comparing single versus dual mount options at similar prices.\n\nVerify you specifically need dual-monitor mounting before choosing this over the genuine dual-arm picks above, since this only supports one monitor.",
     specs: ["32 inch platform, single monitor mount only"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$459.99",
     rating: "4.4",
     reviews: "298",
-    imageUrl: "https://m.media-amazon.com/images/I/61qm3jXtQYL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41K6Ey3-RSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5SC49BN?tag=deskfinds0d-20",
     description: "Combines a genuine dual-monitor arm system with electric lift and an extra-large platform, the only pick here offering electric adjustment.\n\nThe highest price in this comparison, but a unique combination for buyers who want both electric lift and dual independent monitor arms.",
     specs: ["X-Large platform, dual monitor arm, electric lift"],
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     price: "$244.99",
     rating: "4.5",
     reviews: "1,038",
-    imageUrl: "https://m.media-amazon.com/images/I/61qm3jXtQYL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/414XZnNA-lL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01N383I0J?tag=deskfinds0d-20",
     description: "A well-established Mount-It! design with a genuine dual-monitor mount, a solid review base for this manual, non-electric alternative.\n\nA higher price than the VIVO options, but from a brand with a long track record specifically in ergonomic mounting hardware.",
     specs: ["Platform with dual monitor mount"],

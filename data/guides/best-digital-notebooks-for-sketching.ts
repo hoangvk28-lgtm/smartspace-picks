@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41StVO0JWOL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$299.98",
     rating: "4.3",
     reviews: "329",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41StVO0JWOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DX234NWP?tag=deskfinds0d-20",
     description: "16384 pressure levels and full color, at a lower price than the E Ink options, purpose-built for drawing rather than adapted from a reading device.",
     specs: ["16384 pressure levels", "Full color display", "329 reviews at 4.3 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$324.95",
     rating: "4.2",
     reviews: "180",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31dwpvU+C7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2SHL3DH?tag=deskfinds0d-20",
     description: "Same pressure-sensitive drawing hardware as the pick above at a higher price — verify accessory differences on the current listing.",
     specs: ["16384 pressure levels", "Full color display", "180 reviews at 4.2 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$529.99",
     rating: "4.3",
     reviews: "310",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41BunSeRP3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR4KXMKF?tag=deskfinds0d-20",
     description: "The only genuine color E Ink option for sketching in this comparison, though color E Ink still looks less saturated than the XPPen's LCD-based color display.",
     specs: ["Color E Ink display", "Runs Android for third-party drawing apps", "310 reviews at 4.3 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$779.00",
     rating: "4.2",
     reviews: "540",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41yKUd9lhbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGBDR2PM?tag=deskfinds0d-20",
     description: "reMarkable's flagship color device, bundling an upgraded pen and folio, at the highest price in this comparison.",
     specs: ["Color E Ink display", "Marker Plus stylus and folio included", "540 reviews at 4.2 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$449.00",
     rating: "4.4",
     reviews: "1,354",
-    imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HDL3XJR?tag=deskfinds0d-20",
     description: "The largest, highest-rated review base of any device here, though it's monochrome only — included for sketchers who prioritize the writing/drawing feel over color.",
     specs: ["Monochrome E Ink display", "Marker Plus stylus included", "1,354 reviews at 4.4 stars"],

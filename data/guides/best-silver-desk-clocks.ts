@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41zup4v0gaL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$15.99",
     rating: "4.6",
     reviews: "6,039",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41zup4v0gaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYST53T6?tag=deskfinds0d-20",
     description: "By far the largest review base and highest rating in this comparison, a wooden-bodied digital clock with large, legible numbers and a silver-toned display.",
     specs: ["Wooden body, digital display", "Large numbers", "6,039 reviews at 4.6 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$18.98",
     rating: "4.6",
     reviews: "2,514",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51nkvcknNtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXCKLRCQ?tag=deskfinds0d-20",
     description: "A genuine mirror-finish silver surface with dimmable LED display, a large and well-established review base.",
     specs: ["Mirror-surface LED display", "Dimming function", "2,514 reviews at 4.6 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$9.99",
     rating: "4.4",
     reviews: "1,512",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/4110W9wBQYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09SB6ZY4P?tag=deskfinds0d-20",
     description: "A genuine metal-body clock, likely the closest to a traditional silver metal aesthetic in this comparison, at the lowest price with a large proven review base.",
     specs: ["Metal body", "Retro analog design", "1,512 reviews at 4.4 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$20.00",
     rating: "4.5",
     reviews: "342",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41bV8TgkNlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B092D5PZ23?tag=deskfinds0d-20",
     description: "A decorative, crystal-accented mirrored silver clock with a silent movement, more ornamental than the functional options above.",
     specs: ["8x8x2 in, mirrored with crystal accents", "Silent movement", "342 reviews at 4.5 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$36.01",
     rating: "4.0",
     reviews: "12",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/318gy1dNxbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09QDTMNT9?tag=deskfinds0d-20",
     description: "A genuine stainless steel clock with a marble base, the most premium material combination in this comparison, though with a much smaller review base worth checking current feedback on.",
     specs: ["Stainless steel with marble base", "6 x 4 x 10 in", "12 reviews at 4.0 stars"],

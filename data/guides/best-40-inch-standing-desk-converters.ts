@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61tP7jcYqoL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41jeNZ2uiSL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$389.00",
     rating: "4.5",
     reviews: "497",
-    imageUrl: "https://m.media-amazon.com/images/I/61tP7jcYqoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41jeNZ2uiSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08KFPDGX1?tag=deskfinds0d-20",
     description: "The largest review base of any confirmed 40 inch converter, electric push-button lift for effortless adjustment.\n\nThe highest price in this comparison, reflecting the electric mechanism at this proven size and review history.",
     specs: ["40 inch platform, electric push-button lift"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$219.99",
     rating: "4.5",
     reviews: "214",
-    imageUrl: "https://m.media-amazon.com/images/I/71N4vXt3jML._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/4145NueHmqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2H3NH6W?tag=deskfinds0d-20",
     description: "A significantly lower price than VERSADESK's equivalent, still electric lift at the confirmed 40 inch width.\n\nA smaller review base than VERSADESK, but a genuine value electric alternative at this size.",
     specs: ["40 inch platform, electric lift"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$161.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/61lLQZM7T-L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41mkQi1Vv9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09XVQ9YJN?tag=deskfinds0d-20",
     description: "This VIVO listing is confirmed 42 inches in our data, close to but not exactly 40; included for buyers comparing nearby sizes who want VIVO's massive review pool.\n\nVerify exact dimensions on the listing if 40 inches specifically, rather than 42, is a hard requirement for your desk.",
     specs: ["42 inch platform (verify against a strict 40 inch requirement)"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$139.99",
     rating: "4.4",
     reviews: "73",
-    imageUrl: "https://m.media-amazon.com/images/I/61v8kEZTQGL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41-0gh3MViL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GX945CJZ?tag=deskfinds0d-20",
     description: "A confirmed 40 inch manual platform at a much lower price than the electric alternatives, from FlexiSpot.\n\nA smaller review base than the more established picks, but the lowest confirmed price at this specific size.",
     specs: ["40 inch platform, manual gas-spring lift"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$242.99",
     rating: "4.4",
     reviews: "1,279",
-    imageUrl: "https://m.media-amazon.com/images/I/71YHqhV3grL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/411LiqBlrgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DTR12D3V?tag=deskfinds0d-20",
     description: "This Rocelco listing is confirmed at 45 inches, larger than our strict 40 inch category; included for buyers comparing nearby sizes who specifically want a retractable keyboard tray feature.\n\nVerify exact dimensions if 40 inches specifically is a hard requirement, since this is confirmed larger at 45 inches.",
     specs: ["45 inch platform (verify against a strict 40 inch requirement)", "Slide-out retractable keyboard tray"],

@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51Ee1NBJrWL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.4",
     reviews: "1,700",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Ee1NBJrWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07WMVHP2J?tag=deskfinds0d-20",
     description: "A genuine metal-bodied vintage clock with the largest review base and highest rating among the decorative vintage-styled options here.",
     specs: ["Metal body, gold-toned vintage design", "1,700 reviews at 4.4 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.3",
     reviews: "62",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51vOzTtxG9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFDWS9R8?tag=deskfinds0d-20",
     description: "A more substantial mantel-style vintage piece for a stronger decorative presence, at a higher price with a smaller review base.",
     specs: ["Mantel-style, vintage design", "Battery operated", "62 reviews at 4.3 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$16.95",
     rating: "4.6",
     reviews: "2,643",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41HXEjNzdTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D4DJ5TYP?tag=deskfinds0d-20",
     description: "The highest rating and largest review base of any pick in this comparison, a modern mirror-finish design rather than traditional vintage styling.",
     specs: ["Slim mirror-surface design", "2,643 reviews at 4.6 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$20.00",
     rating: "4.5",
     reviews: "342",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41bV8TgkNlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B092D5PZ23?tag=deskfinds0d-20",
     description: "A distinctly ornamental crystal-accented mirrored design, the most decorative-forward option in this comparison, with a silent movement.",
     specs: ["8x8x2 in, mirrored with crystal accents", "Silent movement", "342 reviews at 4.5 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$18.98",
     rating: "4.6",
     reviews: "2,514",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51nkvcknNtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXCKLRCQ?tag=deskfinds0d-20",
     description: "A large, well-reviewed mirror-surface digital clock with dimming, tied for the highest rating in this comparison.",
     specs: ["Mirror-surface LED display", "Dimming function", "2,514 reviews at 4.6 stars"],

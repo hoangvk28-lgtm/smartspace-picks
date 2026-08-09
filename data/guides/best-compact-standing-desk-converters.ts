@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61vQ2WqPYuL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41Eh8j3wCSL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$107.99",
     rating: "4.6",
     reviews: "15,583",
-    imageUrl: "https://m.media-amazon.com/images/I/61vQ2WqPYuL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Eh8j3wCSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VMNYMY3?tag=deskfinds0d-20",
     description: "The most compact standard converter with the largest review base in our research, at 26 inches, still large enough for a single monitor and keyboard.\n\nA meaningful step down in footprint from VIVO's 32 inch model while sharing the same proven review pool.",
     specs: ["26 inch platform, compact"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.5",
     reviews: "632",
-    imageUrl: "https://m.media-amazon.com/images/I/61yK3nQvXTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Br1CxfavL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07K8WZ19K?tag=deskfinds0d-20",
     description: "A single-top compact design at 29 inches, the lowest price among VIVO's compact options, with a solid review base.\n\nA single-top design has a smaller base footprint than a dual-tier converter, useful for the shallowest desks.",
     specs: ["29 inch platform, single-top compact design"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$69.99",
     rating: "4.5",
     reviews: "987",
-    imageUrl: "https://m.media-amazon.com/images/I/61tK3nQvXTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/411ZEuCs0FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07SD7YH8T?tag=deskfinds0d-20",
     description: "A lower price than the 29 inch single-top pick at a similar 28 inch size, with a larger review base.\n\nA reasonable value alternative for buyers comparing VIVO's compact single-top options.",
     specs: ["28 inch platform, single-top compact design"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "See listing",
     rating: "4.4",
     reviews: "381",
-    imageUrl: "https://m.media-amazon.com/images/I/61tX+8k4hCL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/411ZEuCs0FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0765BQ7RN?tag=deskfinds0d-20",
     description: "A compact design from Mount-It!, a brand specifically focused on ergonomic mounting products, with a solid review base.\n\nCurrent price was not confirmed at research time; verify directly on the listing.",
     specs: ["Compact platform, gas-spring lift"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$219.99",
     rating: "4.3",
     reviews: "224",
-    imageUrl: "https://m.media-amazon.com/images/I/61v6-VQvQyL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41e-fWH+dQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0747733JH?tag=deskfinds0d-20",
     description: "An ergonomic-focused compact workstation design at a higher price than the VIVO compact options, from Mount-It!.\n\nA lower rating than the VIVO compact picks, weigh this against Mount-It!'s specific ergonomic engineering claims.",
     specs: ["Compact platform, gas-spring lift"],
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     price: "$128.97",
     rating: "4.5",
     reviews: "282",
-    imageUrl: "https://m.media-amazon.com/images/I/61LhWc3vsML._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41EwRQZYUsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CKGL1M7P?tag=deskfinds0d-20",
     description: "A better rating than the other Mount-It! compact pick, at a lower price, a 30 inch tabletop design.\n\nA reasonable middle ground between VIVO's smaller footprint options and Mount-It!'s larger compact workstation.",
     specs: ["30 inch platform, gas-spring lift"],

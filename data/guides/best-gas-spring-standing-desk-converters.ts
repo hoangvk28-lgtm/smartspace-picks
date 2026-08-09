@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61lLQZM7T-L._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41i7KiJ9rwL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$239.99",
     rating: "4.6",
     reviews: "10,111",
-    imageUrl: "https://m.media-amazon.com/images/I/61lLQZM7T-L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41i7KiJ9rwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07H9DM38X?tag=deskfinds0d-20",
     description: "A large 42 inch gas-spring platform with a substantial review base, proven smooth adjustment for a typical dual-monitor load.\n\nVerify your specific device load falls within the tuned counterbalance range for the smoothest adjustment feel.",
     specs: ["42 inch platform, gas-spring lift"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$206.99",
     rating: "4.5",
     reviews: "282",
-    imageUrl: "https://m.media-amazon.com/images/I/61LhWc3vsML._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41XkN4AlbTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CKFL6BF7?tag=deskfinds0d-20",
     description: "A gas-spring platform from Mount-It!, a brand specifically focused on ergonomic and mounting hardware engineering.\n\nA smaller review base than VIVO's massive pool, but a solid rating from a specialized brand.",
     specs: ["30 inch platform, gas-spring lift"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$128.97",
     rating: "4.5",
     reviews: "282",
-    imageUrl: "https://m.media-amazon.com/images/I/61LhWc3vsML._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41EwRQZYUsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CKGL1M7P?tag=deskfinds0d-20",
     description: "The same 30 inch gas-spring design as the pick above, listed at a notably lower price, worth checking both listings for current stock.\n\nVerify current pricing between the two listings before ordering, since pricing between duplicate listings can shift.",
     specs: ["30 inch platform, gas-spring lift"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$549.00",
     rating: "4.7",
     reviews: "1,418",
-    imageUrl: "https://m.media-amazon.com/images/I/71p5-p3xkFL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41oOz8w2OYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00UVHTGJ8?tag=deskfinds0d-20",
     description: "Uses a gas-spring mechanism with 11 fixed detent positions rather than fully continuous adjustment, at a 48 inch platform.\n\nThe fixed-position design still relies on gas-spring counterbalancing internally, but locks into specific heights rather than allowing infinite positioning.",
     specs: ["48 inch platform, gas-spring with 11 fixed settings"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "See listing",
     rating: "4.6",
     reviews: "412",
-    imageUrl: "https://m.media-amazon.com/images/I/71xLKGrNfhL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41oOz8w2OYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BFPJH73M?tag=deskfinds0d-20",
     description: "A separate VariDesk Pro Plus listing sharing the same gas-spring mechanism as the flagship model, at a smaller confirmed review base.\n\nVerify current pricing and stock directly, since this specific listing wasn't fully confirmed in our data pull.",
     specs: ["36 inch platform, gas-spring with fixed settings"],
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     price: "$343.20",
     rating: "4.8",
     reviews: "3,153",
-    imageUrl: "https://m.media-amazon.com/images/I/71xLKGrNfhL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41I06ihR+sL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00JI6NCCK?tag=deskfinds0d-20",
     description: "The highest rating among gas-spring converters in our research, with 11 fixed detent positions built on the same internal counterbalance principle.\n\nA premium price for the highest-rated gas-spring mechanism with the most precise, repeatable positioning.",
     specs: ["36 inch platform, gas-spring with 11 fixed settings"],

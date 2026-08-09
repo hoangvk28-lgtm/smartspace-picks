@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41wEeIwx-TL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$19.90",
     rating: "4.1",
     reviews: "124",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41wEeIwx-TL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GFMNCYT2?tag=deskfinds0d-20",
     description: "This is the only product in this comparison with a genuine electronic LCD screen and battery — an erase-with-one-button digital writing pad, not a dry-erase glass board. Two included, at the lowest price here.",
     specs: ["16 inch LCD screen", "Battery-powered, one-button erase", "2-pack", "124 reviews at 4.1 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$27.99",
     rating: "4.8",
     reviews: "1,524",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41aTFk156tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09C1VT7X8?tag=deskfinds0d-20",
     description: "A standard glass dry-erase board with no electronic component, included here because it's what most results for this search actually are, with the highest rating in this comparison.",
     specs: ["Glass surface, no electronic component", "1,524 reviews at 4.8 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$25.99",
     rating: "4.7",
     reviews: "2,500",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41+-w5AGGrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B089NL8QMN?tag=deskfinds0d-20",
     description: "Also a standard glass dry-erase board, not electronic, with the largest review base in this entire comparison and a slightly lower price than the pick above.",
     specs: ["Glass surface, no electronic component", "2,500 reviews at 4.7 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$23.99",
     rating: "4.8",
     reviews: "2,486",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41caJzrXfNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07RT4LWYY?tag=deskfinds0d-20",
     description: "A large, magnetic dry-erase board, not electronic, with a review base and rating nearly matching the top glass picks at a lower price.",
     specs: ["16 x 12 in, magnetic, double-sided", "2,486 reviews at 4.8 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$18.99",
     rating: "4.6",
     reviews: "1,356",
-    imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41FLEFa9xDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVM9YJCS?tag=deskfinds0d-20",
     description: "A similarly sized magnetic dry-erase board to the Tankee pick above, at a lower price, still not electronic.",
     specs: ["16 x 12 in, magnetic, double-sided", "1,356 reviews at 4.6 stars"],

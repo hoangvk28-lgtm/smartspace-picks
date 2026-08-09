@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31xwXNHjTaL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$14.99",
     rating: "4.6",
     reviews: "29,253",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31xwXNHjTaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07FNC6N1L?tag=deskfinds0d-20",
     description: "Supports a 24-hour display setting alongside large, easily readable numbers, with by far the largest review base in this comparison.",
     specs: ["Supports 24-hour display mode", "Large numbers", "29,253 reviews at 4.6 stars"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$18.70",
     rating: "4.6",
     reviews: "3,295",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41gO7GRycsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D97SZPC9?tag=deskfinds0d-20",
     description: "Tied for the highest rating in this comparison, with date and day-of-week display alongside 24-hour time format support.",
     specs: ["Supports 24-hour display mode", "Date/day display", "3,295 reviews at 4.6 stars"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$11.99",
     rating: "4.6",
     reviews: "2,005",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31LrvBuzvpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCM2SX6N?tag=deskfinds0d-20",
     description: "The cheapest option in this comparison, a compact 3-in-1 design supporting 24-hour mode, with a strong rating.",
     specs: ["Supports 24-hour display mode", "Compact 3-in-1 design", "2,005 reviews at 4.6 stars"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$15.99",
     rating: "4.6",
     reviews: "6,039",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41zup4v0gaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYST53T6?tag=deskfinds0d-20",
     description: "A wooden-bodied alternative with 24-hour mode support and large numbers, a strong review base for a different aesthetic than the plastic options.",
     specs: ["Supports 24-hour display mode", "Wooden body, large numbers", "6,039 reviews at 4.6 stars"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.4",
     reviews: "7,504",
-    imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41qKWKeFzUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYCC4YLN?tag=deskfinds0d-20",
     description: "Adds atomic radio-sync to the 24-hour display feature, with automatic daylight-saving adjustment, useful for buyers who want both accurate sync and military time.",
     specs: ["Supports 24-hour display mode", "Atomic sync, auto DST", "7,504 reviews at 4.4 stars"],

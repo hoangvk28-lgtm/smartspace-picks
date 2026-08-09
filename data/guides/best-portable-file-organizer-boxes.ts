@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41Euy8HwZYL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$21.74",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Euy8HwZYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCSK78XL?tag=deskfinds0d-20",
     description: "Fits both letter and legal size hanging folders with a lock, slide rails, and a soft-wrapped handle specifically designed for comfortable carrying, at a reasonable single-unit price.",
     specs: ["15.5\" x 12.3\" x 10.5\"", "Fits Letter and Legal size", "Lock, slide rails, soft-wrapped handle"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.4",
     reviews: "23,751",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41VG6OVaZCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHYZ32M?tag=deskfinds0d-20",
     description: "We need to be direct: this is actually a reusable notebook, not a file box, and it appeared in our original data due to a mismatched product reference. We're keeping it out of our ranked recommendations and noting the correction here for transparency.",
     specs: ["Not a file organizer box — data correction noted"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$18.99",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41cIgVWh8zS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B091TJYTBZ?tag=deskfinds0d-20",
     description: "The cheapest option in this comparison, a transparent design so you can see contents without opening the box, with a carrying handle and A4/letter capacity.",
     specs: ["Transparent plastic, A4/letter capacity", "Carrying handle"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$107.89",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41JQsGWn0tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HXBX5RJ?tag=deskfinds0d-20",
     description: "An 8-pack from Sterilite, an established storage-products brand, working out to roughly $13.50 per box — genuinely competitive per-unit pricing if you need multiple boxes.",
     specs: ["8-pack", "Latching lids", "~$13.50 per box"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "See listing",
     rating: "n/a",
     reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/3162zeD+iXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H87NWK6F?tag=deskfinds0d-20",
     description: "Explicitly includes internal organizer compartments in the lid, not just a plain box interior, with a comfort-grip handle and durable latch.",
     specs: ["Letter size", "Lid organizer compartments", "Comfort-grip handle"],

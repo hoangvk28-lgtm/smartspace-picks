@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-09";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61qK5nQvXTL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/412VP8wOKyL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.5",
     reviews: "1,243",
-    imageUrl: "https://m.media-amazon.com/images/I/61qK5nQvXTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/412VP8wOKyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08GKXXT22?tag=deskfinds0d-20",
     description: "Explicitly marketed as ultra-slim, the largest review base among products specifically using this exact language.\n\nA genuinely thin profile designed for easier storage or a lower base height, with a proven track record.",
     specs: ["Ultra-slim single-top compact design"],
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     price: "$194.99",
     rating: "4.6",
     reviews: "330",
-    imageUrl: "https://m.media-amazon.com/images/I/61tX+8k4hCL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41CL16+db2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0747WDDMC?tag=deskfinds0d-20",
     description: "The highest rating among slim-profile-oriented converters, from Mount-It!, an ergonomic-focused brand.\n\nA larger platform than the ultra-slim VIVO pick while still engineered with a thin profile in mind.",
     specs: ["32 x 22 inch platform, gas-spring lift"],
@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     price: "$49.99",
     rating: "4.1",
     reviews: "64",
-    imageUrl: "https://m.media-amazon.com/images/I/61hK8nQvWTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/418VudppzfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1C9LBN5?tag=deskfinds0d-20",
     description: "Explicitly marketed as extra-slim, the cheapest option in this comparison at the smallest platform size.\n\nA smaller review base and lower rating than the more established picks, but the most literally slim-named product here.",
     specs: ["24 x 14 inch platform, extra-slim design"],
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     price: "$49.99",
     rating: "4.1",
     reviews: "64",
-    imageUrl: "https://m.media-amazon.com/images/I/61hK8nQvWTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41r8Q+lVJdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1CGBX89?tag=deskfinds0d-20",
     description: "The same extra-slim design and price as the black alternative, confirmed in white for buyers who want that specific finish.\n\nSame confirmed specs as the black version; choose based on color preference alone.",
     specs: ["24 x 14 inch platform, extra-slim design, confirmed white"],
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.5",
     reviews: "632",
-    imageUrl: "https://m.media-amazon.com/images/I/61yK3nQvXTL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Br1CxfavL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07K8WZ19K?tag=deskfinds0d-20",
     description: "Not explicitly marketed as slim, but a genuine single-top design that generally has a thinner profile than dual-tier alternatives.\n\nVerify the exact profile dimensions against your specific needs, since this isn't marketed with slim-specific language.",
     specs: ["29 inch platform, single-top design"],
