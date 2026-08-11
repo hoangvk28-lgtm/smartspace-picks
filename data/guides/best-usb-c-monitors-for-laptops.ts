@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$194.97",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41nZ0d6d6vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41f7dOeOBuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B6PCXZ79?tag=deskfinds0d-20",
     description:
       "Explicitly marketed for laptop use, a genuine 4K IPS panel at a highly competitive price for buyers wanting sharper resolution than their laptop's own screen.\n\nVerify your laptop's USB-C port supports DisplayPort 1.4 or newer for full 4K at 60Hz over the single cable.",

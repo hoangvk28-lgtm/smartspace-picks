@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41Xk9Q8zPPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41f-9zIZ9rL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$27.94",
     rating: "4.4",
     reviews: "1,328",
-    imageUrl: "https://m.media-amazon.com/images/I/41Xk9Q8zPPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41f-9zIZ9rL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00CZOKOWI?tag=deskfinds0d-20",
     description:
       "IRIS USA's 'WeatherPro' line name directly signals genuine weather-focused design intent, and this pick's 32-quart capacity with letter/legal compatibility, backed by a strong review count, gives real confidence in its actual weathertight performance.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$24.99",
     rating: "3.8",
     reviews: "278",
-    imageUrl: "https://m.media-amazon.com/images/I/41Xk9Q8zPPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31xT22Ii6RL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FVM5RNL?tag=deskfinds0d-20",
     description:
       "Honesty note: this pick's rating (3.8) is meaningfully lower than the 32-quart alternative above, worth weighing against its more compact 19-quart size if you don't need maximum capacity.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$18.99",
     rating: "4.3",
     reviews: "3,133",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41GQ8rqDXhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FVJZD3L?tag=deskfinds0d-20",
     description:
       "Honesty note: this is a standard IRIS USA file box, not part of the WeatherPro line, included as a budget comparison point since it lacks the dedicated weather-focused design of the WeatherPro picks above.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.4",
     reviews: "574",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31C0AH1punL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F6FGSF7Z?tag=deskfinds0d-20",
     description:
       "This box's latching lid is more secure than a simple friction fit, a genuine partial-weather-resistance benefit even though it's not part of the dedicated WeatherPro line, at the largest capacity of any pick in this comparison.",

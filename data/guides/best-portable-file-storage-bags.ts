@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41WX5LqZcIL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.5",
     reviews: "117",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41WX5LqZcIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKDY3QMT?tag=deskfinds0d-20",
     description:
       "This UNICITII bag's own product name uses 'tote bag' terminology, directly confirming our finding that 'storage bag' and 'tote bag' largely describe the same soft-sided product category rather than distinct types. Its semi-rigid internal frame genuinely supports hanging folders.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.8",
     reviews: "229",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51KmDhar90L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CDFHM4PR?tag=deskfinds0d-20",
     description:
       "This collapsible soft-sided design carries the highest rating in this comparison, genuinely useful for buyers who want to fold the bag flat when not transporting documents, more suited to occasional transport than permanent stationary storage.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.4",
     reviews: "84",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31SD47V9S6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DRFNCHJZ?tag=deskfinds0d-20",
     description:
       "This pick's lid adds meaningfully more long-term storage suitability than an open-top bag design, better protecting contents during extended stationary storage while still remaining genuinely portable when needed.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "4.1",
     reviews: "77",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41c0VaamgBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FWRNWZKZ?tag=deskfinds0d-20",
     description:
       "Another UNICITII variant, confirming further overlap with 'tote bag' terminology directly in the product name, at a slightly lower rating than the top pick from the same brand.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$29.59",
     rating: "4.5",
     reviews: "1,842",
-    imageUrl: "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51vuz0wg9DL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09KWY77P5?tag=deskfinds0d-20",
     description:
       "Honesty note: verify the current listing's specific construction, since this product's 'storage organizer' framing and fireproof marketing suggest a more rigid or semi-rigid construction than the soft tote bags elsewhere in this comparison, genuinely better suited to long-term storage if confirmed.",

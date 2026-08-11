@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/419pjtp0ZDL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$23.73",
     rating: "4.4",
     reviews: "7,808",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/419pjtp0ZDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B005T7XNDK?tag=deskfinds0d-20",
     description:
       "This box's organizer lid is explicitly named in the product title and confirmed by the highest review count of any pick in this comparison, real evidence this hybrid feature works genuinely well for buyers rather than being a token add-on.\n\nThe lid's small compartments hold pens, paper clips, or sticky notes without compromising the box's overall closure, since the organizer sections sit within the lid's own structure rather than interfering with the seal.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$16.99",
     rating: "4.3",
     reviews: "1,128",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/317LJOZfFQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D8CNX88V?tag=deskfinds0d-20",
     description:
       "Honesty note: this box doesn't advertise a dedicated organizer lid, included as a budget comparison point for buyers deciding whether the organizer-lid premium is worth it over a standard closure-only lid.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.4",
     reviews: "574",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31C0AH1punL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F6FGSF7Z?tag=deskfinds0d-20",
     description:
       "This box's lid is a latching closure design rather than an organizer-compartment lid, included as an alternative for buyers who want maximum capacity and a secure latch over the organizer function.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$33.99",
     rating: "4.1",
     reviews: "137",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/3124zqaZi+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09QRWT4ZF?tag=deskfinds0d-20",
     description:
       "This pick's 'XL Storage Lid' naming suggests the lid itself provides extra storage capacity, potentially organizer-style, verify the current listing's specific lid compartment details before ordering if organizer function is your priority.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$35.29",
     rating: "4.4",
     reviews: "7,808",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/415EMQdiz0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00TT1SX9Q?tag=deskfinds0d-20",
     description:
       "This box's XL lid provides disclosed, concrete dimensions (11 x 13.5 x 11 inches) and extra clearance, worth considering if you want a larger lid profile that may accommodate more organizer-style storage than a standard-height lid.",

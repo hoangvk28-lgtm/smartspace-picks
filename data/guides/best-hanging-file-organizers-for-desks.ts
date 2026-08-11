@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41x8fqzKQaL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51NHUcgYmoL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "4.7",
     reviews: "491",
-    imageUrl: "https://m.media-amazon.com/images/I/41x8fqzKQaL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51NHUcgYmoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B8MK52TC?tag=deskfinds0d-20",
     description:
       "This adjustable 5-tier metal organizer holds the highest rating in this comparison, and its tier spacing can be customized to accommodate legal size folders in some tiers and letter size in others, a genuine flexibility advantage over fixed-spacing alternatives.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$16.98",
     rating: "4.4",
     reviews: "366",
-    imageUrl: "https://m.media-amazon.com/images/I/41x8fqzKQaL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51jmG3xLXjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSMRXZKX?tag=deskfinds0d-20",
     description:
       "This organizer's fixed-spacing tiers are sized for standard letter documents; if you regularly use legal size folders, verify the tier depth against your folder's exact dimensions before ordering, since fixed-spacing designs don't adjust like the Jakyitvi pick above.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$17.97",
     rating: "4.6",
     reviews: "280",
-    imageUrl: "https://m.media-amazon.com/images/I/41x8fqzKQaL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51XpqFad+GL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CXCS7YBL?tag=deskfinds0d-20",
     description:
       "The mesh construction on this 7-tier design offers genuinely better folder tab visibility than a solid-walled organizer, letting you scan labeled tabs at a glance rather than pulling folders partway out to check labels, a real filing-system usability advantage.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$47.69",
     rating: "4.5",
     reviews: "405",
-    imageUrl: "https://m.media-amazon.com/images/I/41mQ7L2xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Cr5PIjCqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01DPWLUU8?tag=deskfinds0d-20",
     description:
       "This genuinely hangs from a desk edge without drilling, an established Safco office furniture design with 3 vertical mesh trays sized for standard letter documents, at the highest price in this comparison reflecting its premium brand positioning.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$24.60",
     rating: "4.4",
     reviews: "199",
-    imageUrl: "https://m.media-amazon.com/images/I/41zQ7kXqLPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Z7iBgMAJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0856Y4YZD?tag=deskfinds0d-20",
     description:
       "This freestanding desktop organizer includes an internal hanging-file compartment explicitly listed as letter size, appropriate if you'd rather not drill or clamp anything and are comfortable with the desk-surface footprint tradeoff.",

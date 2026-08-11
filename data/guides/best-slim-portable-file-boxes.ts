@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31XsRKHF0uL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$18.99",
     rating: "4.2",
     reviews: "51",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31XsRKHF0uL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHJ4YM1X?tag=deskfinds0d-20",
     description:
       "This is explicitly marketed as 'slim' by IRIS USA, a genuinely narrow-footprint design confirmed for letter-size hanging files, though its small review count means less proven long-term reliability than the standard-size IRIS USA alternatives.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$25.37",
     rating: "5.0",
     reviews: "1",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31XbH3gO1KL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTWSYYCC?tag=deskfinds0d-20",
     description:
       "Honesty note: this pick's perfect rating comes from an extremely small review count (just 1), so treat it as unproven rather than confidently recommended, though a 2-pack of genuinely slim, letter-size totes is a reasonable option for two narrow-footprint boxes.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$9.99",
     rating: "4.4",
     reviews: "867",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41BoSK8sBwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK3BCNFQ?tag=deskfinds0d-20",
     description:
       "Honesty note: this is marketed as compact rather than explicitly 'slim,' but its cardboard footprint is genuinely narrower than a standard plastic box, and it carries a far stronger review count than the dedicated slim picks in this comparison.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$18.99",
     rating: "4.3",
     reviews: "3,133",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41GQ8rqDXhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FVJZD3L?tag=deskfinds0d-20",
     description:
       "Included as a direct comparison point: this is the standard-width version of the same IRIS USA product line as our top pick, useful for confirming exactly how much width the 'slim' variant genuinely saves.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$16.99",
     rating: "4.3",
     reviews: "1,128",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/317LJOZfFQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D8CNX88V?tag=deskfinds0d-20",
     description:
       "This tote-style Staples box has a naturally narrower profile than a boxy rigid design due to its soft-sided construction, a reasonable budget alternative if a dedicated slim-labeled box's small review counts concern you.",

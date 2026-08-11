@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$179.99",
     rating: "4.6 stars from 31,954 Amazon ratings",
     reviews: "31,954 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/51V0i-yOEIL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Wb8TGSnPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT4F8T4L?tag=deskfinds0d-20",
     description:
       "PlasmaWave technology is marketed under a 'plasma' name, but marketing terms like 'ionic' or 'plasma' don't automatically mean a unit generates ozone, WINIX publishes this technology as producing negligible ozone output.\n\nA large, well-established review base backs this as a proven pick, buyers with heightened ozone sensitivity should still verify current published specifications directly before purchasing.",

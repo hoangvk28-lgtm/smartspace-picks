@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41x8fqzKQaL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51NHUcgYmoL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "4.7",
     reviews: "491",
-    imageUrl: "https://m.media-amazon.com/images/I/41x8fqzKQaL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51NHUcgYmoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B8MK52TC?tag=deskfinds0d-20",
     description:
       "Honesty note: this is a wall-mounted organizer, requiring drilling into drywall or a stud, not a desk-edge clamp. Its adjustable 5-tier metal design carries the highest rating in this comparison, well-suited for a genuinely substantial hanging file collection above your desk.\n\nEach tier is independently adjustable, letting you customize spacing for different folder or mail sizes rather than accepting a fixed-height layout.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$18.89",
     rating: "4.6",
     reviews: "415",
-    imageUrl: "https://m.media-amazon.com/images/I/41vQ8kzLpKL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61LUc7Gy89L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CNT2HNS1?tag=deskfinds0d-20",
     description:
       "Honesty note: also wall-mounted, not desk-clamped. This is the most affordable well-reviewed pick in this comparison, doubling as a magazine holder alongside standard file storage, useful for mixed document and periodical organization.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$16.98",
     rating: "4.4",
     reviews: "366",
-    imageUrl: "https://m.media-amazon.com/images/I/41x8fqzKQaL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51jmG3xLXjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSMRXZKX?tag=deskfinds0d-20",
     description:
       "This wall-mounted 5-tier organizer adds 5 hooks for hanging keys, small tools, or a lanyard alongside its file storage, a genuine multi-purpose addition beyond pure document organization at the lowest price of the 5-tier options here.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$17.97",
     rating: "4.6",
     reviews: "280",
-    imageUrl: "https://m.media-amazon.com/images/I/41x8fqzKQaL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51XpqFad+GL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CXCS7YBL?tag=deskfinds0d-20",
     description:
       "This 7-tier mesh design offers the highest tier count in this comparison, though the accessibility tradeoff of a taller vertical design means top and bottom tiers require more reach than a compact 3-4 tier alternative.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$24.60",
     rating: "4.4",
     reviews: "199",
-    imageUrl: "https://m.media-amazon.com/images/I/41zQ7kXqLPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Z7iBgMAJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0856Y4YZD?tag=deskfinds0d-20",
     description:
       "This is a genuinely different product type: a freestanding desktop organizer that sits on your desk surface rather than hanging from a wall or desk edge, with an internal hanging-file compartment built into its structure. Choose this if you'd rather not drill or clamp anything.",
@@ -113,7 +113,7 @@ export const products: GuideProduct[] = [
     price: "$47.69",
     rating: "4.5",
     reviews: "405",
-    imageUrl: "https://m.media-amazon.com/images/I/41mQ7L2xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Cr5PIjCqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01DPWLUU8?tag=deskfinds0d-20",
     description:
       "This is the genuine under-desk or desk-edge hanging organizer in this comparison, with 3 vertical mesh trays that hang from a desk edge without drilling into a wall. It's the most premium-priced pick here, reflecting Safco's established office furniture brand positioning.",
@@ -130,7 +130,7 @@ export const products: GuideProduct[] = [
     price: "$26.63",
     rating: "4.3",
     reviews: "54",
-    imageUrl: "https://m.media-amazon.com/images/I/41zQ7kXqLPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51YaIGrGE4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQ8CP4RC?tag=deskfinds0d-20",
     description:
       "This slides onto the underside of your desk without tools, a genuine no-drill, no-clamp attachment method distinct from both the wall-mounted picks and the Safco hanging trays above, though its small review count means less proven long-term reliability.",

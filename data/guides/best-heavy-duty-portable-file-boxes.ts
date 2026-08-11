@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31tgxXrxOrL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.2",
     reviews: "1,935",
-    imageUrl: "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31tgxXrxOrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000K3GBGY?tag=deskfinds0d-20",
     description:
       "This is a genuinely heavy-duty design, with a reinforced dual-lock body and handle rated for its own substantial weight, the most robust construction in this comparison and priced accordingly as the most premium pick here.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$56.99",
     rating: "4.5",
     reviews: "2,705",
-    imageUrl: "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41vOA84B1YL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000GP0Z6I?tag=deskfinds0d-20",
     description:
       "From the same established locking-storage brand as our top pick, this box's construction is genuinely more reinforced than a standard plastic box while remaining meaningfully more affordable than the dual-lock premium option above.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$23.73",
     rating: "4.4",
     reviews: "7,808",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/419pjtp0ZDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B005T7XNDK?tag=deskfinds0d-20",
     description:
       "Honesty note: this is a standard-tier plastic box, not genuinely heavy-duty construction, included here as a direct comparison point for buyers deciding whether the premium picks above justify their added price and weight over this proven, affordable alternative.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$28.54",
     rating: "4.4",
     reviews: "5,076",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41PdCI0nCgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08T6P8LB6?tag=deskfinds0d-20",
     description:
       "Also a standard-tier box rather than genuinely heavy-duty, this Pendaflex pick's strong review history demonstrates that standard-tier construction can hold up reliably for most buyers who don't need the premium reinforcement of a true heavy-duty design.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$55.99",
     rating: "4.5",
     reviews: "721",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41khvywa+7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004GXB6RI?tag=deskfinds0d-20",
     description:
       "Another standard-tier alternative, this 4-pack works out to a strong per-unit cost if you need multiple boxes and have decided premium heavy-duty reinforcement isn't necessary for your realistic use case.",

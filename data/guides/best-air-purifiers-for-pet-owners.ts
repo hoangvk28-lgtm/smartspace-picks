@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$179.99",
     rating: "4.6 stars from 31,954 Amazon ratings",
     reviews: "31,954 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/51V0i-yOEIL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Wb8TGSnPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT4F8T4L?tag=deskfinds0d-20",
     description:
       "PlasmaWave technology adds a genuine odor-neutralizing layer beyond mechanical carbon filtration alone, a meaningful advantage for a pet owner whose primary complaint is smell rather than visible hair or dander.\n\nA large, well-established review base backs this as a proven pick specifically for the odor side of pet ownership, though it still needs the same regular pre-filter cleaning as any pick here.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$349.00",
     rating: "4.5 stars from 3,559 Amazon ratings",
     reviews: "3,559 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/41T8P8ptGSL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31K9NLoXncL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BN2MGV5H?tag=deskfinds0d-20",
     description:
       "HEPASilent technology moves genuinely more air than a standard design, and higher airflow matters more for pet hair specifically since hair particles are physically larger and heavier than dander or odor molecules.\n\nA heavy-shedding-breed household benefits most from this airflow advantage, buyers whose primary issue is odor or dander alone may not need this level of airflow specifically.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$80.74",
     rating: "4.6 stars from 63,485 Amazon ratings",
     reviews: "63,485 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/41c0eBmqPXL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/316AtkHoSdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004VGIGVY?tag=deskfinds0d-20",
     description:
       "A large review base at the lowest price in this guide, genuinely capable for a single-pet home with a moderate combined hair, dander, and odor load.\n\nA moderate single-pet load is a reasonable fit here, a multi-pet or heavy-odor household likely needs one of the specialized picks in this guide instead.",

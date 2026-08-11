@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41nZ0d6d6vL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41f7dOeOBuL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$194.97",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41nZ0d6d6vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41f7dOeOBuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B6PCXZ79?tag=deskfinds0d-20",
     description:
       "A true 4K resolution at 27 inches keeps pixel density genuinely sharp, avoiding the softness a 1080p panel at this size would show.\n\nA highly competitive price for true 4K makes this the strongest overall value pick at this screen size.",

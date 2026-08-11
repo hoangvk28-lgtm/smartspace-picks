@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$799.99",
     rating: "4.6 stars from 616 Amazon ratings",
     reviews: "616 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/51X2LFmqmqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31CulL9tCOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08K3R8QPF?tag=deskfinds0d-20",
     description:
       "A 5-stage design with substantial filtration depth, genuinely built for a heavier ongoing mold-spore load such as a basement or a home with chronic humidity issues.\n\nEven this higher-capacity unit only manages airborne spore circulation, addressing chronic humidity with a dehumidifier alongside this unit is what actually reduces the source generating new spores.",

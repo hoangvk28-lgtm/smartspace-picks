@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41oQm3F0kQL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41Ut4+ko99L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$18.95",
     rating: "4.6",
     reviews: "2,491",
-    imageUrl: "https://m.media-amazon.com/images/I/41oQm3F0kQL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Ut4+ko99L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C77YK94D?tag=deskfinds0d-20",
     description:
       "The top pick from our under-desk cup holder research, this rotating cup holder combined with a genuine headphone hanger has the strongest review history of any hanging accessory across our entire research batch.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "4.5",
     reviews: "162",
-    imageUrl: "https://m.media-amazon.com/images/I/41sKzHnZOL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41z6n2eEheL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DLLCWTR4?tag=deskfinds0d-20",
     description:
       "The largest disclosed cup capacity across our cup holder research, this metal clip combines a 40oz-rated cup holder with headphone and accessory hanging points on one desk-edge clamp.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "4.7",
     reviews: "491",
-    imageUrl: "https://m.media-amazon.com/images/I/41x8fqzKQaL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51NHUcgYmoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B8MK52TC?tag=deskfinds0d-20",
     description:
       "Our top file organizer pick, though honesty note: this requires drilling into a wall rather than a no-drill desk clamp, the highest-rated hanging accessory in our entire research batch for buyers willing to drill.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$47.69",
     rating: "4.5",
     reviews: "405",
-    imageUrl: "https://m.media-amazon.com/images/I/41mQ7L2xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Cr5PIjCqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01DPWLUU8?tag=deskfinds0d-20",
     description:
       "For buyers who specifically want a no-drill hanging accessory, this genuinely hangs from a desk edge, an established Safco office furniture design at the highest price of any pick in this roundup.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$27.99",
     rating: "4.2",
     reviews: "896",
-    imageUrl: "https://m.media-amazon.com/images/I/41oXqB2vKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51YpYvY4LwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BR4K8HCZ?tag=deskfinds0d-20",
     description:
       "Our top hanging drawer pick, this clamp-on unit adds two genuine slide-out compartments under the desk without drilling, carrying a strong review count from our under-desk organizer research.",
@@ -113,7 +113,7 @@ export const products: GuideProduct[] = [
     price: "$17.97",
     rating: "4.6",
     reviews: "280",
-    imageUrl: "https://m.media-amazon.com/images/I/41x8fqzKQaL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51XpqFad+GL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CXCS7YBL?tag=deskfinds0d-20",
     description:
       "The highest tier count across our vertical organizer research, this mesh design maximizes document category separation, though it requires wall drilling and ideally a stud mount given its height.",
@@ -130,7 +130,7 @@ export const products: GuideProduct[] = [
     price: "$16.98",
     rating: "4.4",
     reviews: "366",
-    imageUrl: "https://m.media-amazon.com/images/I/41x8fqzKQaL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51jmG3xLXjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSMRXZKX?tag=deskfinds0d-20",
     description:
       "The most affordable well-reviewed wall-mounted pick across our research, combining 5-tier file storage with 5 hooks for keys or small items, at the lowest price of any 5-tier design we found.",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     price: "$24.99",
     rating: "4.5",
     reviews: "75",
-    imageUrl: "https://m.media-amazon.com/images/I/41oXqB2vKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61-H71DCbEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJDS9JZ8?tag=deskfinds0d-20",
     description:
       "A compact, no-drill clamp-on mesh drawer that rounds out this hub with a genuinely small-footprint storage option, well-suited to buyers who want just one added compartment rather than a larger combined system.",

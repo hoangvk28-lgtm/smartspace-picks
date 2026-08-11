@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41oQm3F0kQL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41Ut4+ko99L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$18.95",
     rating: "4.6",
     reviews: "2,491",
-    imageUrl: "https://m.media-amazon.com/images/I/41oQm3F0kQL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Ut4+ko99L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C77YK94D?tag=deskfinds0d-20",
     description:
       "This pick's four functions are a rotating cup holder, a headphone hanger, an accessory hook, and the under-desk clamp mount itself, each independently verifiable against its strong review history, the highest volume of any 4-in-1 pick in this comparison.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$19.95",
     rating: "4.6",
     reviews: "2,491",
-    imageUrl: "https://m.media-amazon.com/images/I/41oQm3F0kQL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/412z4nVerUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C77Z8WMM?tag=deskfinds0d-20",
     description:
       "This pick's four functions are a cup holder, a headphone hanger, and two dedicated wire routing holes, a genuinely distinct combination from the standard KDD 4-in-1 above, swapping the general accessory hook for cable-specific management.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.5",
     reviews: "89",
-    imageUrl: "https://m.media-amazon.com/images/I/41sKzHnZOL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51C8lJCJtrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPDDQ29F?tag=deskfinds0d-20",
     description:
       "This pick's combination centers on a dual-slot design, a large primary cup slot rated for up to 40oz, a secondary small-item slot, plus the clamp attachment and metal construction as the remaining functional elements the listing counts toward its combined framing.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "4.5",
     reviews: "162",
-    imageUrl: "https://m.media-amazon.com/images/I/41sKzHnZOL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41z6n2eEheL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DLLCWTR4?tag=deskfinds0d-20",
     description:
       "This pick's four functions are a large-capacity cup holder rated to 40oz, headphone hanging, an accessory hook, and metal clip attachment, verified against a solid review history. It's the most expensive pick here, reflecting its largest disclosed cup capacity in this comparison.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$16.14",
     rating: "3.9",
     reviews: "14",
-    imageUrl: "https://m.media-amazon.com/images/I/41sKzHnZOL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41k4318vh1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GFVV4QXV?tag=deskfinds0d-20",
     description:
       "Honesty note: this pick's rating (3.9) and very small review count (14) are the weakest of any product in this cup holder research batch, so we include it with appropriate caution. Its four functions per the listing are a cup holder, headphone hanger, detachable pen holder, and under-desk clamp mount.",

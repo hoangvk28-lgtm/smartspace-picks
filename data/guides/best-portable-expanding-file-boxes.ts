@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51WRR0ZSLKL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$16.14",
     rating: "4.6",
     reviews: "7,485",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51WRR0ZSLKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07H82MBZ4?tag=deskfinds0d-20",
     description:
       "This is a genuine accordion-style expanding file, not a rigid box, with 26 individual pockets, the highest pocket count in this comparison, and a strong combined rating and review volume giving real confidence in its labeling and pocket durability.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$8.98",
     rating: "4.6",
     reviews: "3,842",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Yt43Rxi2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09S9JD5G5?tag=deskfinds0d-20",
     description:
       "This 13-pocket design offers a more compact category count than the 26-pocket top pick, at a notably lower price, and explicitly confirms both letter and A4 compatibility, a genuine dual-standard sizing benefit.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$9.99",
     rating: "4.7",
     reviews: "1,270",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51qEP38LdsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CS2ZZ8LH?tag=deskfinds0d-20",
     description:
       "This variant carries the highest rating of any pick in this comparison, a slightly different letter-only sizing than its A4-compatible sibling above, worth choosing if you don't need A4 compatibility and want the top-rated option.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$29.97",
     rating: "4.6",
     reviews: "3,356",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ezwydgtmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08221QMF2?tag=deskfinds0d-20",
     description:
       "With 24 pockets, this is nearly as high-capacity as the top pick, at a notably higher price point, worth considering if the ABC life pick above is unavailable or if you prefer this specific brand's construction quality.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$23.76",
     rating: "4.2",
     reviews: "1,143",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31HNh-plIeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00256FXQI?tag=deskfinds0d-20",
     description:
       "From Pendaflex, the same established brand behind several of our top picks across other file box guides, this 19-pocket case includes an assorted color option, a genuine visual organization aid beyond just pocket count.",

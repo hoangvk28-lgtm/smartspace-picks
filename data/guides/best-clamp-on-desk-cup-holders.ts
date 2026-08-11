@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41KzHnZOD1L._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41C-eWZ9gfL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$15.33",
     rating: "4.6",
     reviews: "762",
-    imageUrl: "https://m.media-amazon.com/images/I/41KzHnZOD1L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41C-eWZ9gfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYZG2YBY?tag=deskfinds0d-20",
     description:
       "This metal clamp is sized for oversized tumblers and holds the strongest combined rating and review volume in this comparison, a genuine indicator of proven clamp torque under sustained real-world use. The deep cavity keeps a full, potentially off-balance drink centered rather than relying on clamp friction alone.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$12.99",
     rating: "4.7",
     reviews: "171",
-    imageUrl: "https://m.media-amazon.com/images/I/41oXhI2rGCL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/314m46JYkhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FH231Z93?tag=deskfinds0d-20",
     description:
       "This clamp uses heavy-duty reinforced plastic rather than metal, and carries the highest rating in this comparison, suggesting the reinforcement genuinely holds up under everyday clamping torque despite the lighter material choice.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$9.99",
     rating: "4.4",
     reviews: "70",
-    imageUrl: "https://m.media-amazon.com/images/I/41yYmZbXQqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61tWyW9bgvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FRMMZ3RG?tag=deskfinds0d-20",
     description:
       "The lowest-priced clamp in this comparison still uses a fully covered cavity rather than a bare ring, though its small review count means the clamp's long-term torque-holding performance is less proven than the top two picks.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$14.99",
     rating: "4.5",
     reviews: "68",
-    imageUrl: "https://m.media-amazon.com/images/I/41x1oCf2c8L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41alv7Sev2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FBRMLLPY?tag=deskfinds0d-20",
     description:
       "This clamp rotates independently of the cup cavity, letting you swing the holder out of your way or reorient it toward you without loosening the base clamp itself, useful for a desk edge you share with other clamp-on accessories.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$16.99",
     rating: "5.0",
     reviews: "17",
-    imageUrl: "https://m.media-amazon.com/images/I/41oXhI2rGCL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41L3KdIx3zL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G4QTWVWS?tag=deskfinds0d-20",
     description:
       "This listing discloses a specific 3.9 inch clamp cavity diameter, useful for confirming your exact mug or tumbler fits before ordering rather than trusting a vague 'large' label. Its perfect rating reflects a very small review count and should be weighed accordingly.",

@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41KzHnZOD1L._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41C-eWZ9gfL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$15.33",
     rating: "4.6",
     reviews: "762",
-    imageUrl: "https://m.media-amazon.com/images/I/41KzHnZOD1L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41C-eWZ9gfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYZG2YBY?tag=deskfinds0d-20",
     description:
       "This holder's mechanism is a genuine deep, form-fitting cavity rather than a shallow ring, meaningfully containing a cup or tumbler on multiple sides against incidental bumps. Its strong combined rating and review volume gives real-world confidence beyond the marketing label alone.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$9.99",
     rating: "4.4",
     reviews: "70",
-    imageUrl: "https://m.media-amazon.com/images/I/41yYmZbXQqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61tWyW9bgvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FRMMZ3RG?tag=deskfinds0d-20",
     description:
       "The word 'fully covered' in this listing's title is a genuine mechanism description, not just marketing language, referring to a cavity that wraps the container more completely than a simple ring. This is the most affordable pick with a verified real anti-spill design.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$12.99",
     rating: "4.7",
     reviews: "171",
-    imageUrl: "https://m.media-amazon.com/images/I/41oXhI2rGCL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/314m46JYkhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FH231Z93?tag=deskfinds0d-20",
     description:
       "This large-diameter cavity holder carries the highest rating of any pick in this comparison, suggesting its actual containment mechanism holds up well against real-world incidental bumps despite using plastic rather than metal.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$17.99",
     rating: "4.7",
     reviews: "1,510",
-    imageUrl: "https://m.media-amazon.com/images/I/41c3G6Zt5cL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31XgT+O+XQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CPBXYH4?tag=deskfinds0d-20",
     description:
       "This holder's covered cavity design performs consistently across both narrow bottles and wide mugs based on its strong review history, a genuine container-shape versatility test that a mechanism optimized for only one shape would fail. Its headphone hanger is a verified genuine bonus feature, not a token add-on.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$19.94",
     rating: "4.6",
     reviews: "324",
-    imageUrl: "https://m.media-amazon.com/images/I/41KzHnZOD1L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31kr6fpVxgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CG16LSPG?tag=deskfinds0d-20",
     description:
       "This variant's deeper cavity is the strongest containment mechanism in this comparison, a genuine, verifiable design difference from the standard-depth OOKUU pick, better resisting tip-over from a harder incidental knock or elbow bump.",

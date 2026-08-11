@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41oQm3F0kQL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41Ut4+ko99L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$18.95",
     rating: "4.6",
     reviews: "2,491",
-    imageUrl: "https://m.media-amazon.com/images/I/41oQm3F0kQL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Ut4+ko99L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C77YK94D?tag=deskfinds0d-20",
     description:
       "This combines a rotating cup holder with a genuine headphone hanger and additional accessory hooks, verified as a real functioning combination given its strong review history, one of the highest in this entire cup holder research batch. It clamps under the desk to keep the visible surface clear.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$19.95",
     rating: "4.6",
     reviews: "2,491",
-    imageUrl: "https://m.media-amazon.com/images/I/41oQm3F0kQL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/412z4nVerUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C77Z8WMM?tag=deskfinds0d-20",
     description:
       "This variant adds two dedicated wire holes to the same proven 4-in-1 base, a genuine organizer-specific feature for routing charging cables cleanly alongside the cup holder and headphone hanger, addressing real desk cable clutter rather than just holding a drink.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$13.95",
     rating: "4.4",
     reviews: "897",
-    imageUrl: "https://m.media-amazon.com/images/I/41oQm3F0kQL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41IGPpikgiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CH9VBM6R?tag=deskfinds0d-20",
     description:
       "This is the most feature-dense organizer in this comparison, adding controller or accessory storage to the cup holder and headphone hanger combination, at the lowest price of the KDD lineup here despite the added function.\n\nEach individual function is necessarily more compact than a dedicated single-purpose product, a real tradeoff for this combined design's desk-space savings.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.5",
     reviews: "89",
-    imageUrl: "https://m.media-amazon.com/images/I/41sKzHnZOL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51C8lJCJtrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPDDQ29F?tag=deskfinds0d-20",
     description:
       "This holder's genuine organizer value comes from its two separate slots, letting you store a drink in one and a pen cup, phone, or small item in the other, rather than a single-purpose cup cavity. It's rated for cups up to 40oz in the primary slot.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "4.5",
     reviews: "162",
-    imageUrl: "https://m.media-amazon.com/images/I/41sKzHnZOL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41z6n2eEheL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DLLCWTR4?tag=deskfinds0d-20",
     description:
       "This combines a large-capacity cup holder with headphone and accessory hanging points, genuinely organizer-relevant for a gaming or general desk with a headset and other accessories needing a home rather than cluttering the desk surface.",

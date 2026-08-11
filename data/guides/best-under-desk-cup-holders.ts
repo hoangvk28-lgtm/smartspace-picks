@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41oQm3F0kQL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41Ut4+ko99L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$18.95",
     rating: "4.6",
     reviews: "2,491",
-    imageUrl: "https://m.media-amazon.com/images/I/41oQm3F0kQL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Ut4+ko99L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C77YK94D?tag=deskfinds0d-20",
     description:
       "This is a genuine under-desk mount, clamping to the underside of your desk edge with a rotating cup holder that swings out when needed. Combined with a headphone hanger, it's a proven hybrid design given its strong review volume, one of the highest in this entire cup holder research batch.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$17.99",
     rating: "4.7",
     reviews: "1,510",
-    imageUrl: "https://m.media-amazon.com/images/I/41c3G6Zt5cL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31XgT+O+XQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CPBXYH4?tag=deskfinds0d-20",
     description:
       "This clamp mounts to a desk edge and can be positioned under the desk lip rather than on top, keeping the cup out of sight similarly to a dedicated under-desk design. Its covered cavity provides genuine spill protection for this hidden placement.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$16.50",
     rating: "4.8",
     reviews: "53",
-    imageUrl: "https://m.media-amazon.com/images/I/41xB1J8W1eL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31kNuj75XgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FS7RVCMF?tag=deskfinds0d-20",
     description:
       "Purpose-built for under-desk mounting with genuine 360-degree rotation, this holder is explicitly marketed as space-saving for home office use, addressing the knee-clearance concern directly by letting you rotate it fully out of the way when not retrieving a drink.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$16.99",
     rating: "4.8",
     reviews: "14",
-    imageUrl: "https://m.media-amazon.com/images/I/41zR6QwYcXL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/413rBD7AS7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHPSSS33?tag=deskfinds0d-20",
     description:
       "This under-table mount discloses a specific 90mm inner diameter and combines a cup holder with a small pen holder attachment, a genuine dual-purpose design for this hidden placement. Its review count is very small, so treat the strong rating as promising but unproven.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$13.95",
     rating: "4.4",
     reviews: "897",
-    imageUrl: "https://m.media-amazon.com/images/I/41oQm3F0kQL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41IGPpikgiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CH9VBM6R?tag=deskfinds0d-20",
     description:
       "This is the most feature-dense pick in this comparison, combining a cup holder with a rotating headphone hanger and additional controller storage under one clamp base, verified as a genuinely multi-function design given its substantial review count.\n\nEach individual function is necessarily more compact than a dedicated single-purpose holder, a real tradeoff for this combined design's desk-space savings.",

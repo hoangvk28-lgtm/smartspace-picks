@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41KzHnZOD1L._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41C-eWZ9gfL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$15.33",
     rating: "4.6",
     reviews: "762",
-    imageUrl: "https://m.media-amazon.com/images/I/41KzHnZOD1L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41C-eWZ9gfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYZG2YBY?tag=deskfinds0d-20",
     description:
       "No RGB or gaming branding here, just the strongest bump resistance in this comparison from a deep, form-fitting cavity, the priority we weighted most heavily for a gaming desk surrounded by expensive peripherals. This remains the most proven pick across our entire cup holder research by combined rating and review volume.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$14.99",
     rating: "4.5",
     reviews: "107",
-    imageUrl: "https://m.media-amazon.com/images/I/41x1oCf2c8L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41O6g1jvklL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C8M2JYP1?tag=deskfinds0d-20",
     description:
       "The 360-degree rotation lets you swing the cup away from your keyboard, mouse, and graphics card during intense gameplay moments where accidental bumps are more likely, an extra safety margin worth having on a crowded gaming setup.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "4.5",
     reviews: "162",
-    imageUrl: "https://m.media-amazon.com/images/I/41sKzHnZOL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41z6n2eEheL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DLLCWTR4?tag=deskfinds0d-20",
     description:
       "This is explicitly marketed for gaming desks in its title, though the gaming relevance is mainly the large 40oz capacity common among gamers' oversized tumblers, not RGB or aesthetic features. It combines the cup holder with headphone and accessory hanging points on one clamp.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$13.95",
     rating: "4.4",
     reviews: "897",
-    imageUrl: "https://m.media-amazon.com/images/I/41oQm3F0kQL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41IGPpikgiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CH9VBM6R?tag=deskfinds0d-20",
     description:
       "Its name references controller storage specifically, a genuine relevance to gaming setups with a spare gamepad or headset needing a home, combined with a rotating cup holder and headphone hanger on one clamp base.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$9.99",
     rating: "4.4",
     reviews: "70",
-    imageUrl: "https://m.media-amazon.com/images/I/41yYmZbXQqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61tWyW9bgvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FRMMZ3RG?tag=deskfinds0d-20",
     description:
       "The most affordable pick still uses a fully covered cavity, real spill protection at a budget price for gamers who don't need the higher capacity or combined features of the pricier picks above.",

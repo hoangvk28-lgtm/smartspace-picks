@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41T5c8QwZlL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31+F3sAWSTL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$12.99",
     rating: "4.3",
     reviews: "32,606",
-    imageUrl: "https://m.media-amazon.com/images/I/41T5c8QwZlL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31+F3sAWSTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07P2VK93P?tag=deskfinds0d-20",
     description:
       "This clip's 4.0-6.3 inch width range comfortably fits the base iPhone through the Pro Max without a case, though buyers with a thick case on the wider Pro Max models should double check the actual cased width before assuming a snug fit. It is not MagSafe compatible, this is a physical spring clip.\n\nAt this price and review volume, it remains the most proven basic option for mounting any current iPhone at a desk.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$14.99",
     rating: "4.4",
     reviews: "23,326",
-    imageUrl: "https://m.media-amazon.com/images/I/41WYQwv7hyL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31sVYQbspmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B079QY6RFQ?tag=deskfinds0d-20",
     description:
       "MAGIPEA explicitly lists compatibility with the iPhone 17, 16, and 15 Pro Max lines, and its 3.5-7 inch clip range is generous enough to hold a Pro Max with most protective cases attached, unlike narrower clips in this comparison. This is again a physical clip, not a MagSafe magnetic mount.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$19.68",
     rating: "4.4",
     reviews: "2,655",
-    imageUrl: "https://m.media-amazon.com/images/I/41vZ0Q8V1lL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/515BergNltL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CKYS81T4?tag=deskfinds0d-20",
     description:
       "The one-touch spring clip on this arm matches its bite force to the phone size automatically, addressing the too-tight grip risk on a Pro Max with a bulky MagSafe-compatible case. Tension knobs let you fine-tune further for your specific iPhone and case combination.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$33.90",
     rating: "4.4",
     reviews: "1,732",
-    imageUrl: "https://m.media-amazon.com/images/I/41hqB2xR0rL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/419C11rQcXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5YJ42CX?tag=deskfinds0d-20",
     description:
       "This magic arm's phone clamp fits 5.5-8.5cm wide, enough for a cased iPhone Pro Max, and locks via friction for a position that won't drift during a video call, a real consideration for Face ID unlock and camera framing that benefits from a stable, repeatable angle.\n\nIt is not a MagSafe mount, and the phone clamp is a separate attachment rather than integrated into the arm.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$24.99",
     rating: "4.3",
     reviews: "11,813",
-    imageUrl: "https://m.media-amazon.com/images/I/41n8k1KcO7L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31HD++Czq5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9N41MCS?tag=deskfinds0d-20",
     description:
       "At 38 inches this is the longest arm in this comparison, useful for positioning an iPhone farther from a cramped desk clamp point. The clip itself is a standard spring design without MagSafe, sized for typical iPhone widths including cased models.",

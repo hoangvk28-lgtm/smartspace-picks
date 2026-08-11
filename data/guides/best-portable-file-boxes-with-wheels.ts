@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51c1uDWDoaL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$47.49",
     rating: "4.3",
     reviews: "1,526",
-    imageUrl: "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51c1uDWDoaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B5STNV6J?tag=deskfinds0d-20",
     description:
       "This wheeled box combines fireproof-marketed construction with a 2-layer design and lock, genuinely useful wheels given the box's own substantial weight before documents are even added, making the caster addition a real mobility benefit rather than unnecessary bulk.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$59.48",
     rating: "3.5",
     reviews: "586",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41a1aVHqNOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B009JY00YE?tag=deskfinds0d-20",
     description:
       "Honesty note: this box's rating (3.5) is meaningfully lower than other picks in this comparison, so weigh that against its established Storex brand name and larger dimensions before choosing it over a higher-rated alternative.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$35.99",
     rating: "4.4",
     reviews: "401",
-    imageUrl: "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51psKIGXypL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B3JSCMTS?tag=deskfinds0d-20",
     description:
       "This collapsible design folds flat when not in use, a genuine storage-space advantage over a rigid wheeled box, combined with fireproof marketing and a lock, at a more moderate price than the DocSafe pick above.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$36.39",
     rating: "4.3",
     reviews: "15,883",
-    imageUrl: "https://m.media-amazon.com/images/I/41Xk8QzKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31TrnNtNTmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B074T8WDJV?tag=deskfinds0d-20",
     description:
       "Honesty note: this is a general rolling crate rather than a dedicated file box, though it accommodates hanging files loosely and carries the highest review count of any pick in this comparison by a wide margin, real evidence of broad, proven reliability.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$55.99",
     rating: "4.5",
     reviews: "189",
-    imageUrl: "https://m.media-amazon.com/images/I/41Xk8QzKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41KwjjYZ6-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DP51HKWS?tag=deskfinds0d-20",
     description:
       "Honesty note: this is a rolling filing cabinet with 3 drawers, a genuinely different, larger product than a single portable file box, included for buyers whose actual need is closer to a mobile filing cabinet than a compact box. Its wheels are explicitly lockable.",

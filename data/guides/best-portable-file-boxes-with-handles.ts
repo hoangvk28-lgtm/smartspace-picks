@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41PdCI0nCgL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$28.54",
     rating: "4.4",
     reviews: "5,076",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41PdCI0nCgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08T6P8LB6?tag=deskfinds0d-20",
     description:
       "This box's handle is molded directly into the body rather than a separate hinged piece, meaning it can't loosen or wear at a hinge point over years of use, a genuine durability advantage for the integrated design.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.2",
     reviews: "1,935",
-    imageUrl: "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31tgxXrxOrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000K3GBGY?tag=deskfinds0d-20",
     description:
       "This premium Vaultz box's reinforced handle is built for its heavier overall construction, genuinely tested for a fully loaded box given the box's own substantial weight even before documents are added.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.5",
     reviews: "1,820",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41U02LvHAEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09TQ6HY4J?tag=deskfinds0d-20",
     description:
       "This variant pairs a sturdy molded handle with a hinged, double-latched lid, giving genuine confidence that both the handle and lid hold up under realistic loaded-weight transport.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$55.99",
     rating: "4.5",
     reviews: "721",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41khvywa+7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004GXB6RI?tag=deskfinds0d-20",
     description:
       "Each box in this 4-pack includes a molded carrying handle proportioned for the box's letter-size capacity, a proven, comfortable design at a strong per-unit value if you need multiple boxes.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$16.99",
     rating: "4.3",
     reviews: "1,128",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/317LJOZfFQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D8CNX88V?tag=deskfinds0d-20",
     description:
       "This tote-style handle design provides a wider grip surface than a slim molded handle, spreading the loaded weight across your palm more comfortably at the most affordable price in this comparison.",

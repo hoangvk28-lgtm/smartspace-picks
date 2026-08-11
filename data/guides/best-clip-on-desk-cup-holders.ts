@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41yYmZbXQqL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/61tWyW9bgvL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$9.99",
     rating: "4.4",
     reviews: "70",
-    imageUrl: "https://m.media-amazon.com/images/I/41yYmZbXQqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61tWyW9bgvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FRMMZ3RG?tag=deskfinds0d-20",
     description:
       "This is explicitly marketed as clip-on, and the mechanism is genuinely a lighter, more compact clip than the heavier metal clamps found in our clamp-focused guide. The fully covered cavity design still provides real spill protection despite the lighter-duty attachment.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$12.99",
     rating: "4.7",
     reviews: "171",
-    imageUrl: "https://m.media-amazon.com/images/I/41oXhI2rGCL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/314m46JYkhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FH231Z93?tag=deskfinds0d-20",
     description:
       "This listing uses \"clamp-on\" in its own title, an honest example of the overlapping terminology this guide addresses, since the mechanism functions identically to the clip-on picks here. It carries the highest rating in this comparison.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$14.99",
     rating: "4.5",
     reviews: "68",
-    imageUrl: "https://m.media-amazon.com/images/I/41x1oCf2c8L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41alv7Sev2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FBRMLLPY?tag=deskfinds0d-20",
     description:
       "This clip rotates independently of its base, a genuine functional differentiator over a fixed clip. It attaches with the same squeeze-clip mechanism as the other picks in this comparison, sized for standard mugs and tumblers.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$15.33",
     rating: "4.6",
     reviews: "762",
-    imageUrl: "https://m.media-amazon.com/images/I/41KzHnZOD1L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41C-eWZ9gfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYZG2YBY?tag=deskfinds0d-20",
     description:
       "Honesty note: this is genuinely a heavier metal clamp rather than a lightweight clip, included here because it's frequently returned in \"clip-on cup holder\" search results despite the terminology mismatch. If you specifically want the lightest clip mechanism, the HzTinT pick above is the better fit; this pick trades that for a sturdier hold on larger drinks.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$17.99",
     rating: "4.7",
     reviews: "1,510",
-    imageUrl: "https://m.media-amazon.com/images/I/41c3G6Zt5cL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31XgT+O+XQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CPBXYH4?tag=deskfinds0d-20",
     description:
       "This combines a covered cup cavity with an integrated headphone hanger on one clip base, verified as a genuine combined feature given its strong review history. The clip mechanism itself is standard, similar in scale to the other picks in this comparison.",

@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41oXqB2vKPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51YpYvY4LwL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$27.99",
     rating: "4.2",
     reviews: "896",
-    imageUrl: "https://m.media-amazon.com/images/I/41oXqB2vKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51YpYvY4LwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BR4K8HCZ?tag=deskfinds0d-20",
     description:
       "This clamps to your desk underside without drilling, adding two genuine slide-out drawer compartments where none existed before, the clearest match for a buyer specifically wanting a hanging drawer unit rather than an insert tray for an existing drawer.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$24.99",
     rating: "4.5",
     reviews: "75",
-    imageUrl: "https://m.media-amazon.com/images/I/41oXqB2vKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61-H71DCbEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJDS9JZ8?tag=deskfinds0d-20",
     description:
       "A more compact single-drawer alternative to the Homeify pick above, this clamp-on unit carries a higher rating despite a smaller review count, appropriate if you only need one added compartment rather than two.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$16.42",
     rating: "4.7",
     reviews: "1,000",
-    imageUrl: "https://m.media-amazon.com/images/I/41Kj7QpXqLL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51FalFi-PqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B005XK3R02?tag=deskfinds0d-20",
     description:
       "Honesty note: this is genuinely a different product from the clamp-on picks above, an insert tray that organizes the inside of an existing desk drawer with adjustable compartments, not a hanging unit that adds a new drawer. It carries the highest rating in this comparison.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$13.09",
     rating: "4.6",
     reviews: "148",
-    imageUrl: "https://m.media-amazon.com/images/I/41Kj7QpXqLL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31L34YVEzzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CRT7XZT?tag=deskfinds0d-20",
     description:
       "Also an in-drawer insert tray rather than a hanging unit, this 7-compartment design offers more distinct storage sections than the Officemate tray, at a lower price, for buyers organizing small supplies within an existing drawer.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$20.00",
     rating: "4.1",
     reviews: "22",
-    imageUrl: "https://m.media-amazon.com/images/I/41mQ7L2xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41AwVl4-0IL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSZMWPW2?tag=deskfinds0d-20",
     description:
       "A third interpretation of this ambiguous search: a hanging file organizer rather than a general drawer, purpose-built for hanging documents under the desk. Include this if your actual need is file storage rather than a general small-supply drawer.",

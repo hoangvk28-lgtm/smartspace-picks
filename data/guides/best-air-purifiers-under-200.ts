@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$179.99",
     rating: "4.6 stars from 31,954 Amazon ratings",
     reviews: "31,954 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/51V0i-yOEIL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Wb8TGSnPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT4F8T4L?tag=deskfinds0d-20",
     description:
       "A large, well-established review base with PlasmaWave odor-neutralizing technology, genuinely useful for a buyer whose priority is odor control alongside particulate filtration.\n\nAt this tier, you're paying for the added PlasmaWave layer and established brand track record, not a fundamentally different core filtration mechanism than a budget True HEPA unit.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$349.00",
     rating: "4.5 stars from 3,559 Amazon ratings",
     reviews: "3,559 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/41T8P8ptGSL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31K9NLoXncL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BN2MGV5H?tag=deskfinds0d-20",
     description:
       "The smaller sibling Blueair 511i Max variant brings HEPASilent high-airflow technology into a similar price range, genuinely useful for a buyer prioritizing airflow over other features.\n\nCheck current pricing on the specific Blueair model, as the lineup includes variants that fall within and outside this budget tier depending on promotions.",

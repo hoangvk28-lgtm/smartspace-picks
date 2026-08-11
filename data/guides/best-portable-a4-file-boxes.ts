@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31C0AH1punL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.4",
     reviews: "574",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31C0AH1punL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F6FGSF7Z?tag=deskfinds0d-20",
     description:
       "Honesty note: this is explicitly marketed as a US letter/legal box, not A4, though its generous 35-quart capacity and larger internal dimensions than a standard letter box give it the best realistic chance of accommodating A4 documents despite the minor size mismatch versus a purpose-built A4 box. Verify dimensions carefully against your specific A4 folder size before ordering.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "See listing",
     rating: "4.4",
     reviews: "546",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31HnKVfkMlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F62NH31N?tag=deskfinds0d-20",
     description:
       "Also US letter-sized rather than genuine A4, this more compact IRIS USA design is a reasonable alternative if you don't need the maximum 35-quart capacity of the top pick and are comfortable with the same dimensional caveat.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$23.99",
     rating: "4.1",
     reviews: "77",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/410XaitYMWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FWRFZPHW?tag=deskfinds0d-20",
     description:
       "A soft-sided tote design, this pick's semi-rigid frame is more forgiving of minor size mismatches than a rigid box's fixed dimensions, worth considering if you're struggling to find a genuinely A4-dimensioned rigid alternative.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$16.99",
     rating: "4.3",
     reviews: "1,128",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/317LJOZfFQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D8CNX88V?tag=deskfinds0d-20",
     description:
       "This affordable US letter-size box carries the same dimensional caveat as the other picks in this comparison, included as a budget option for international buyers who've decided the size mismatch is acceptable for their specific documents.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$18.99",
     rating: "4.3",
     reviews: "3,133",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41GQ8rqDXhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FVJZD3L?tag=deskfinds0d-20",
     description:
       "This is the most well-reviewed US letter-size box in this comparison, a solid value alternative for A4 documents given the widespread lack of purpose-built A4 file boxes we found available in this research.",

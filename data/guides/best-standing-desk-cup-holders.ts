@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41KzHnZOD1L._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41C-eWZ9gfL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$15.33",
     rating: "4.6",
     reviews: "762",
-    imageUrl: "https://m.media-amazon.com/images/I/41KzHnZOD1L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41C-eWZ9gfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYZG2YBY?tag=deskfinds0d-20",
     description:
       "This clamp attaches directly to the desktop edge rather than a frame leg, meaning it travels naturally with your standing desk at any height. The deep, form-fitting cavity resists spilling during the desk's raising and lowering motion better than a shallow ring design would.\n\nIts wide clamp opening also accommodates the thicker desktop edges common on many standing desk models.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$12.99",
     rating: "4.7",
     reviews: "171",
-    imageUrl: "https://m.media-amazon.com/images/I/41oXhI2rGCL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/314m46JYkhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FH231Z93?tag=deskfinds0d-20",
     description:
       "This clamp's universal fit and reinforced plastic construction handle the thicker desktop edges common on standing desks, since many height-adjustable desktops use a laminated multi-layer construction thicker than a standard desk.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$14.99",
     rating: "4.5",
     reviews: "107",
-    imageUrl: "https://m.media-amazon.com/images/I/41x1oCf2c8L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41O6g1jvklL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C8M2JYP1?tag=deskfinds0d-20",
     description:
       "The rotating base lets you reposition the cup as your reach angle changes between sitting and standing height, a genuine standing-desk-specific usability benefit over a fixed-angle holder.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$19.94",
     rating: "4.6",
     reviews: "324",
-    imageUrl: "https://m.media-amazon.com/images/I/41KzHnZOD1L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31kr6fpVxgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CG16LSPG?tag=deskfinds0d-20",
     description:
       "The deeper cavity on this variant provides extra insurance against spilling during the desk's raising and lowering motion, especially relevant if your desk motor moves at a faster or jarring speed. A tall tumbler stays more securely contained here than in a shallow-ring alternative.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$9.99",
     rating: "4.4",
     reviews: "70",
-    imageUrl: "https://m.media-amazon.com/images/I/41yYmZbXQqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61tWyW9bgvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FRMMZ3RG?tag=deskfinds0d-20",
     description:
       "This budget clip still mounts to the desktop edge and travels with height adjustments, using a covered cavity for genuine spill resistance during transitions despite its lower price point.",

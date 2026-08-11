@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41hqB2xR0rL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/419C11rQcXL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$33.90",
     rating: "4.4",
     reviews: "1,732",
-    imageUrl: "https://m.media-amazon.com/images/I/41hqB2xR0rL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/419C11rQcXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5YJ42CX?tag=deskfinds0d-20",
     description:
       "At 22 inches with double-ball clamp joints at each segment, this arm is purpose-built for overhead shooting, with an anti-deflection interface designed to stay secure even if accidentally bumped mid-recording. Its 600g load rating accounts for the extra leverage stress of a fully extended overhead reach.\n\nThe crab clamp opens to 63.5mm, fitting most desk edges, and twelve silicone contact points prevent both scratching and slippage under the sustained torque of an overhead extension.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$33.99",
     rating: "4.5",
     reviews: "988",
-    imageUrl: "https://m.media-amazon.com/images/I/41GgKqfKX+L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31jBgnNJK5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DN1C9RH2?tag=deskfinds0d-20",
     description:
       "This magic arm's anti-twist mounting pins hold the connection firm specifically under the sustained overhead torque this guide focuses on, and it swaps between a phone holder, action camera, or microphone using standard threading. It edges out the SMALLRIG pick slightly on rating.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.4",
     reviews: "1,809",
-    imageUrl: "https://m.media-amazon.com/images/I/41ZQ2xvR0jL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Gvf-8IhNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXPJZ93B?tag=deskfinds0d-20",
     description:
       "This is a genuinely distinct overhead product combining a 10 inch selfie ring light with an integrated phone mount and tripod stand, purpose-built for overhead streaming, Zoom calls, or TikTok recording where lighting matters as much as camera angle.\n\nAs a combined lighting-plus-mount product, verify the light's genuine quality independently, since the mounting arm itself is a secondary feature to the ring light here.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "See listing",
     rating: "4.4",
     reviews: "43,079",
-    imageUrl: "https://m.media-amazon.com/images/I/41T5c8QwZlL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31-9l0KA5YL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07S9JXQP2?tag=deskfinds0d-20",
     description:
       "This long gooseneck arm has the highest review count of any overhead-capable pick in this comparison, extending far enough to reach a genuine top-down angle from a desk-edge clamp. As a gooseneck rather than a magic arm, expect it to hold shape less rigidly under extended overhead extension than the SMALLRIG or NEEWER picks.\n\nIt remains a strong budget-conscious option if your overhead use is occasional rather than a daily recording setup.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$24.99",
     rating: "4.3",
     reviews: "11,813",
-    imageUrl: "https://m.media-amazon.com/images/I/41n8k1KcO7L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31HD++Czq5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9N41MCS?tag=deskfinds0d-20",
     description:
       "At 38 inches, this is the longest reach in this comparison, useful for centering an overhead shot over a wide desk when your only available clamp point is at the desk's edge. The nylon-braided sleeve resists the abrasion that comes from routing a long arm across desk objects.",

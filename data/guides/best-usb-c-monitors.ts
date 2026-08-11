@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$194.97",
     rating: "4.5 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
-    imageUrl: "https://m.media-amazon.com/images/I/41nZ0d6d6vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41f7dOeOBuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B6PCXZ79?tag=deskfinds0d-20",
     description:
       "A genuine 4K IPS panel at 27 inches with single-cable USB-C connectivity, appropriate for buyers wanting sharp resolution and simplified cabling for a MacBook or Mac mini setup.\n\nVerify the specific power delivery wattage against your laptop's charging needs before assuming full single-cable charge-and-display operation.",

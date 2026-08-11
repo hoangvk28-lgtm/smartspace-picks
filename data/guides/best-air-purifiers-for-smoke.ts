@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$179.99",
     rating: "4.6 stars from 31,954 Amazon ratings",
     reviews: "31,954 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/51V0i-yOEIL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Wb8TGSnPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT4F8T4L?tag=deskfinds0d-20",
     description:
       "PlasmaWave technology adds a genuine odor-neutralizing layer beyond mechanical carbon filtration alone, meaningful for lingering smoke smell rather than just particulate removal.\n\nActivated carbon mass, not HEPA alone, is what actually captures smoke odor at the molecular level, this unit's added PlasmaWave layer complements that mechanical carbon stage.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$799.99",
     rating: "4.6 stars from 616 Amazon ratings",
     reviews: "616 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/51X2LFmqmqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31CulL9tCOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08K3R8QPF?tag=deskfinds0d-20",
     description:
       "A multi-stage design with a substantial carbon mass genuinely built for heavier smoke exposure, appropriate for a wildfire-smoke season or a heavy indoor-smoking household.\n\nThe higher price reflects genuinely more carbon mass and filtration stages than a standard HEPA-only unit, worth it for a heavier or more persistent smoke exposure scenario.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$80.74",
     rating: "4.6 stars from 63,485 Amazon ratings",
     reviews: "63,485 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/41c0eBmqPXL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/316AtkHoSdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004VGIGVY?tag=deskfinds0d-20",
     description:
       "A large review base at the lowest price in this guide, genuinely capable for occasional light smoke exposure rather than heavy or persistent smoke odor.\n\nOccasional light exposure is a reasonable fit here, a heavier or more persistent smoke scenario likely needs one of the deeper-carbon picks in this guide instead.",

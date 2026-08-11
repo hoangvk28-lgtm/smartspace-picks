@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51T8rsbqkgL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$67.99",
     rating: "4.5",
     reviews: "14,944",
-    imageUrl: "https://m.media-amazon.com/images/I/41Xk9Q8zPPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51T8rsbqkgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00GE57DFK?tag=deskfinds0d-20",
     description:
       "SentrySafe is an established, dedicated safe manufacturer, not a general storage brand adding fireproof marketing to a standard box, and this product carries the highest review count in this entire comparison by a wide margin. It explicitly claims both fireproof and waterproof protection with a genuine key lock.\n\nEven with this brand's stronger track record in fire safety products specifically, verify the manufacturer's current certification and rated protection duration directly on their website before storing truly irreplaceable documents.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$31.99",
     rating: "4.6",
     reviews: "6,117",
-    imageUrl: "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51nPPyA9QPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08D6JLTXJ?tag=deskfinds0d-20",
     description:
       "This ENGPOW box's zipper closure and internal pockets add genuine organizational structure beyond a simple lidded box, at a much lower price than the SentrySafe pick, carrying a strong review count of its own for this fireproof-marketed category.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$32.99",
     rating: "4.6",
     reviews: "2,864",
-    imageUrl: "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Ywia8nvNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09W5B4B8V?tag=deskfinds0d-20",
     description:
       "This DocSafe box combines mesh interior pockets for small item organization with its fireproof marketing and lock, a genuine organizational feature at a similar price and rating tier to the ENGPOW pick above.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$22.98",
     rating: "4.5",
     reviews: "1,559",
-    imageUrl: "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/515qOe6OjLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BF4Y5WCS?tag=deskfinds0d-20",
     description:
       "This is the most affordable fireproof-marketed pick with a lock in this comparison, a reasonable entry point if budget is your primary constraint, though as with every pick here except SentrySafe, verify the manufacturer's specific certification claims directly before relying on it for truly irreplaceable documents.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$38.68",
     rating: "4.6",
     reviews: "1,864",
-    imageUrl: "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Q4Dj-+dCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DTJWWDQZ?tag=deskfinds0d-20",
     description:
       "This variant uses a rigid hard-shell case rather than a collapsible fabric-covered body, genuinely more resistant to crushing impact than a collapsible design, at a moderate price point within this comparison.",

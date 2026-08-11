@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$107.99",
     rating: "3.9 stars from 197 Amazon ratings",
     reviews: "197 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/41-cyzsBcOL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51SEA4kds4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08GQ9BQB4?tag=deskfinds0d-20",
     description:
       "Rated for both allergies and pets with real removal specification down to 0.1 microns, a genuine headroom pick for a home combining higher dust and pet-hair load.\n\nThe smaller review base than the top pick means less real-world evidence specifically for combined-load pre-filter durability, weigh that against its coverage and spec advantages.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$179.99",
     rating: "4.6 stars from 31,954 Amazon ratings",
     reviews: "31,954 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/51V0i-yOEIL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Wb8TGSnPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT4F8T4L?tag=deskfinds0d-20",
     description:
       "A large, well-established review base with PlasmaWave technology addressing pet odor alongside dust and hair filtration, a genuinely multi-issue pick for combined-load homes.\n\nPlasmaWave technology is an added odor-neutralizing layer, not a replacement for the mechanical pre-filter cleaning that combined dust-and-hair loads still require on a regular schedule.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$80.74",
     rating: "4.6 stars from 63,485 Amazon ratings",
     reviews: "63,485 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/41c0eBmqPXL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/316AtkHoSdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004VGIGVY?tag=deskfinds0d-20",
     description:
       "A large review base at the lowest price in this guide, genuinely capable for a smaller home with a moderate combined dust-and-pet-hair load rather than a heavy multi-pet household.\n\nA moderate combined load is a reasonable fit for this unit's capacity, a multi-pet or larger-home load likely needs one of the higher-coverage picks in this guide instead.",

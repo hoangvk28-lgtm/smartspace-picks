@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$799.99",
     rating: "4.6 stars from 616 Amazon ratings",
     reviews: "616 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/51X2LFmqmqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31CulL9tCOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08K3R8QPF?tag=deskfinds0d-20",
     description:
       "A 5-stage design with a substantial carbon mass genuinely built for a heavier VOC scenario, appropriate for fresh paint, new furniture off-gassing, or a recent renovation.\n\nThe amount of carbon correlates with real VOC-capture capacity far more than a marketing label alone, this unit's multi-stage depth reflects genuinely more carbon mass than a standard single-stage design.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$349.00",
     rating: "4.5 stars from 3,559 Amazon ratings",
     reviews: "3,559 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/41T8P8ptGSL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31K9NLoXncL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BN2MGV5H?tag=deskfinds0d-20",
     description:
       "HEPASilent technology moves genuinely more air through the carbon stage than a standard design, which helps cycle gas-phase compounds through the filter media faster.\n\nAn air quality sensor gives real-time feedback on ambient conditions, though it typically detects general particulate and general air quality rather than VOC concentration specifically.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$80.74",
     rating: "4.6 stars from 63,485 Amazon ratings",
     reviews: "63,485 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/41c0eBmqPXL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/316AtkHoSdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004VGIGVY?tag=deskfinds0d-20",
     description:
       "A large, well-established review base at a low price, genuinely capable for a small room with low-level ambient VOC exposure rather than an intense renovation scenario.\n\nA small room with low-level exposure is a reasonable fit here, a larger space or a heavier VOC source benefits more from one of the higher-capacity picks in this guide.",

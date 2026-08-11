@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41PdCI0nCgL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$28.54",
     rating: "4.4",
     reviews: "5,076",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41PdCI0nCgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08T6P8LB6?tag=deskfinds0d-20",
     description:
       "Confirmed letter-size with genuine hanging file rails, this Pendaflex box carries the strongest combined rating and review volume in this comparison, real evidence of reliable long-term performance for standard document storage.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$18.99",
     rating: "4.3",
     reviews: "3,133",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41GQ8rqDXhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FVJZD3L?tag=deskfinds0d-20",
     description:
       "The most affordable well-reviewed letter-size pick here, this IRIS USA box's lid and portable handle are proven at scale via a substantial review count, a solid choice for standard letter document storage.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$55.99",
     rating: "4.5",
     reviews: "721",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41khvywa+7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004GXB6RI?tag=deskfinds0d-20",
     description:
       "This Sterilite 4-pack of letter-size boxes offers a strong per-unit value if you need multiple boxes for a household or small office, at roughly $14 per box.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$16.99",
     rating: "4.3",
     reviews: "1,128",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/317LJOZfFQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D8CNX88V?tag=deskfinds0d-20",
     description:
       "This Staples tote-style box is explicitly confirmed for letter-size hanging files at the most affordable price in this comparison, a solid budget-friendly alternative.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$29.03",
     rating: "4.3",
     reviews: "1,128",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31xiANpUwWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTWYT23D?tag=deskfinds0d-20",
     description:
       "A 2-pack version of the letter-size Staples tote, this offers a good middle-ground value between buying a single box and the larger Sterilite 4-pack, for buyers who need exactly two boxes.",

@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41vOA84B1YL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$56.99",
     rating: "4.5",
     reviews: "2,705",
-    imageUrl: "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41vOA84B1YL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000GP0Z6I?tag=deskfinds0d-20",
     description:
       "Vaultz specializes in locking storage products, and this box's key lock mechanism is genuinely more robust than a basic latch, appropriate for deterring casual access to sensitive documents at home or in a shared office.\n\nBe realistic that this still isn't a safe-grade lock capable of resisting determined tampering with tools; it's a deterrent lock, not a security vault.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.2",
     reviews: "1,935",
-    imageUrl: "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31tgxXrxOrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000K3GBGY?tag=deskfinds0d-20",
     description:
       "This premium Vaultz box uses two separate locking points rather than one, genuinely more resistant to prying open at a single weak point than a single-lock design, at the highest price in this comparison.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$39.99",
     rating: "4.3",
     reviews: "81",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41VTQqtPRTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D2TTGLDX?tag=deskfinds0d-20",
     description:
       "This box uses a combination lock rather than a key, eliminating the lost-key risk entirely in favor of a code you set yourself, though you should verify the reset process before relying on it, since combination locks can occasionally jam or require a factory-reset procedure if forgotten.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$23.73",
     rating: "4.4",
     reviews: "7,808",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/419pjtp0ZDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B005T7XNDK?tag=deskfinds0d-20",
     description:
       "Honesty note: this box uses a basic latch closure, not a genuine key or combination lock, included here for buyers who searched 'lockable' but whose actual need is simply a secure-closing lid rather than a true locking mechanism.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.5",
     reviews: "1,820",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41U02LvHAEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09TQ6HY4J?tag=deskfinds0d-20",
     description:
       "Honesty note: also not a genuine lock, this double-latch closure is genuinely more secure against accidental opening than a single latch, but doesn't restrict deliberate access the way a key or combination lock does.",

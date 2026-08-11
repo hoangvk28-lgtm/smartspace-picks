@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41xJqz7L2vL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31irI2uhBtL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$21.95",
     rating: "4.2",
     reviews: "4,180",
-    imageUrl: "https://m.media-amazon.com/images/I/41xJqz7L2vL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31irI2uhBtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B001YJGDY8?tag=deskfinds0d-20",
     description:
       "This is the one genuinely relevant product for this search, an armrest-mounted cup holder originally designed for wheelchairs and mobility scooters but compatible with many standard office chair armrests given its 'nearly universal' fit claim and strong review history.\n\nBe aware this attaches to your existing chair's armrest rather than being a built-in feature, so verify your specific chair's armrest shape and width before ordering.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$69.91",
     rating: "4.1",
     reviews: "3,873",
-    imageUrl: "https://m.media-amazon.com/images/I/41cB2xQmZzL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31TCjuvei2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GDFRLKPV?tag=deskfinds0d-20",
     description:
       "Honesty note: this well-reviewed PU leather chair does not include a built-in cup holder as a standard feature. We include it because it's a genuinely strong desk chair with adjustable arms, useful if you plan to pair it with the armrest cup holder accessory above.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$54.98",
     rating: "4.3",
     reviews: "1,953",
-    imageUrl: "https://m.media-amazon.com/images/I/41RwQ4xKQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51cXeitIZML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGXH8F67?tag=deskfinds0d-20",
     description:
       "Honesty note: this ergonomic mesh chair also does not include a built-in cup holder. Its flip-up armrests may or may not be compatible with the clamp-style cup holder accessory above depending on the armrest's exact width and shape, so verify before buying both together.",

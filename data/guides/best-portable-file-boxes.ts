@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41PdCI0nCgL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$28.54",
     rating: "4.4",
     reviews: "5,076",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41PdCI0nCgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08T6P8LB6?tag=deskfinds0d-20",
     description:
       "This Pendaflex box includes genuine hanging file rails, not just an open storage bin, confirmed directly in the product name, and carries the strongest combined rating and review volume in this comparison. Its molded handle is built for the realistic weight of a fully loaded box of documents.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$18.99",
     rating: "4.3",
     reviews: "3,133",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41GQ8rqDXhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FVJZD3L?tag=deskfinds0d-20",
     description:
       "This IRIS USA box is the most affordable well-reviewed pick in this comparison, with a lid and portable handle sized for letter documents, a solid choice if you don't need legal-size compatibility or premium build materials.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$23.73",
     rating: "4.4",
     reviews: "7,808",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/419pjtp0ZDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B005T7XNDK?tag=deskfinds0d-20",
     description:
       "This Storex box explicitly accommodates both letter and legal size hanging files in the same 14.5 x 10.5 x 12 inch box, genuinely useful for buyers with mixed document sizes rather than needing separate boxes for each.\n\nIt carries the highest review count of any pick in this comparison, real evidence of reliable long-term performance across a large buyer base.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.5",
     reviews: "1,820",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41U02LvHAEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09TQ6HY4J?tag=deskfinds0d-20",
     description:
       "This variant's hinged lid with a double latch closure addresses the core transport-security concern directly, genuinely more resistant to popping open during tilting or a firm setdown than a simple friction-fit lid.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$55.99",
     rating: "4.5",
     reviews: "721",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41khvywa+7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004GXB6RI?tag=deskfinds0d-20",
     description:
       "This Sterilite 4-pack works out to roughly $14 per box, a strong per-unit value if you need multiple file boxes for a household or small office rather than a single unit.",
@@ -113,7 +113,7 @@ export const products: GuideProduct[] = [
     price: "$16.99",
     rating: "4.3",
     reviews: "1,128",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/317LJOZfFQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D8CNX88V?tag=deskfinds0d-20",
     description:
       "This Staples tote-style box is explicitly built for letter size hanging files at a lower price point, a solid budget-friendly alternative for buyers who don't need legal-size capacity or premium latching hardware.",
@@ -130,7 +130,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.4",
     reviews: "574",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31C0AH1punL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F6FGSF7Z?tag=deskfinds0d-20",
     description:
       "At 35 quarts, this is the highest-capacity pick in this comparison, accommodating both letter and legal size files with a latching lid, and its clear construction lets you identify contents without opening the box.",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     price: "$24.15",
     rating: "4.3",
     reviews: "258",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31VVX+PgVwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D92V2XZT?tag=deskfinds0d-20",
     description:
       "A more compact clear alternative to the IRIS USA 35 quart box, this Staples pick suits buyers who want content visibility without the bulk of a maximum-capacity design.",

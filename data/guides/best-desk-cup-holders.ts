@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41KzHnZOD1L._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41C-eWZ9gfL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$15.33",
     rating: "4.6",
     reviews: "762",
-    imageUrl: "https://m.media-amazon.com/images/I/41KzHnZOD1L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41C-eWZ9gfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYZG2YBY?tag=deskfinds0d-20",
     description:
       "This large-diameter metal clamp holder is built to accommodate oversized tumblers and water bottles, not just a standard mug, and carries the strongest combination of rating and review volume in this comparison. The clamp mechanism is metal rather than plastic, a genuine durability advantage under repeated tightening cycles.\n\nIt holds a deep, form-fitting cup cavity rather than a shallow ring, a meaningfully more secure design against incidental bumps than the flat-ring holders found on some competitors.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$14.99",
     rating: "4.5",
     reviews: "107",
-    imageUrl: "https://m.media-amazon.com/images/I/41x1oCf2c8L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41O6g1jvklL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C8M2JYP1?tag=deskfinds0d-20",
     description:
       "This holder rotates 360 degrees on its clamp base, letting you swing the cup out of the way when not in use or reposition it without unclamping. The metal construction matches the top pick's material quality at a similar price point.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$9.99",
     rating: "4.4",
     reviews: "70",
-    imageUrl: "https://m.media-amazon.com/images/I/41yYmZbXQqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61tWyW9bgvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FRMMZ3RG?tag=deskfinds0d-20",
     description:
       "The cheapest pick in this comparison, this clip-on holder still uses a fully covered cavity design for genuine spill resistance rather than a bare-bones flat ring. Its review count is the smallest here, so treat the strong rating with appropriately less confidence than the higher-volume picks.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$12.99",
     rating: "4.7",
     reviews: "171",
-    imageUrl: "https://m.media-amazon.com/images/I/41oXhI2rGCL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/314m46JYkhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FH231Z93?tag=deskfinds0d-20",
     description:
       "This holder uses heavy-duty plastic rather than metal, a legitimate tradeoff that keeps weight and cost down while the listing states it is reinforced against cracking under a full beverage's weight. It carries the highest rating of any pick in this comparison.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$17.99",
     rating: "4.7",
     reviews: "1,510",
-    imageUrl: "https://m.media-amazon.com/images/I/41c3G6Zt5cL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31XgT+O+XQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CPBXYH4?tag=deskfinds0d-20",
     description:
       "This is a genuine hybrid, combining a covered anti-spill cup cavity with an integrated headphone hanger on the same clamp base, verified as a real combined feature rather than a token add-on given its strong review volume. The combined structure remains stable since the headphone hanger sits above the cup cavity rather than competing for the same clamp point.",
@@ -113,7 +113,7 @@ export const products: GuideProduct[] = [
     price: "$24.35",
     rating: "4.5",
     reviews: "117",
-    imageUrl: "https://m.media-amazon.com/images/I/41KzHnZOD1L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51QfNEhRbkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CCXFJYNK?tag=deskfinds0d-20",
     description:
       "This is the same OOKUU design as our top pick, sold as a 2-pack, useful for a shared desk, a second monitor station, or simply having a backup without buying separately. Per-unit cost works out lower than buying the single OOKUU listing twice.",
@@ -130,7 +130,7 @@ export const products: GuideProduct[] = [
     price: "$19.94",
     rating: "4.6",
     reviews: "324",
-    imageUrl: "https://m.media-amazon.com/images/I/41KzHnZOD1L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31kr6fpVxgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CG16LSPG?tag=deskfinds0d-20",
     description:
       "This variant of the OOKUU design uses a deeper cavity than the brand's standard holder, better containing a tall tumbler or bottle against tipping. The extra depth is a genuine, verifiable design difference rather than a marketing-only variant name.",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     price: "$16.99",
     rating: "5.0",
     reviews: "17",
-    imageUrl: "https://m.media-amazon.com/images/I/41oXhI2rGCL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41L3KdIx3zL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G4QTWVWS?tag=deskfinds0d-20",
     description:
       "This holder discloses a specific 3.9 inch cavity diameter, useful for confirming compatibility with a specific mug or tumbler before buying rather than guessing from vague sizing language. Its perfect rating comes from a very small review count, so treat it as a promising but less-proven option.",

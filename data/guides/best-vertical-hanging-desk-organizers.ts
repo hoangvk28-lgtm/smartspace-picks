@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41x8fqzKQaL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51XpqFad+GL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$17.97",
     rating: "4.6",
     reviews: "280",
-    imageUrl: "https://m.media-amazon.com/images/I/41x8fqzKQaL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51XpqFad+GL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CXCS7YBL?tag=deskfinds0d-20",
     description:
       "With 7 tiers, this is the tallest genuine vertical design in this comparison, and its mesh wire construction keeps overall weight lower than a solid metal equivalent, reducing leverage stress on the wall mounting point despite the height.\n\nTop and bottom tiers do require more reach than a compact 3-4 tier design, a real accessibility tradeoff for this maximum-capacity vertical structure.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "4.7",
     reviews: "491",
-    imageUrl: "https://m.media-amazon.com/images/I/41x8fqzKQaL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51NHUcgYmoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B8MK52TC?tag=deskfinds0d-20",
     description:
       "This 5-tier metal design's independently adjustable tier spacing is a genuine advantage for a vertical structure, letting you customize each level's height for varied document or folder sizes rather than accepting fixed uniform spacing throughout.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$16.98",
     rating: "4.4",
     reviews: "366",
-    imageUrl: "https://m.media-amazon.com/images/I/41x8fqzKQaL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51jmG3xLXjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSMRXZKX?tag=deskfinds0d-20",
     description:
       "This 5-tier design's fixed spacing keeps the overall height moderate, minimizing the reach-difficulty tradeoff of a taller vertical structure, while its added hooks provide extra hanging points at the same wall footprint.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$47.69",
     rating: "4.5",
     reviews: "405",
-    imageUrl: "https://m.media-amazon.com/images/I/41mQ7L2xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Cr5PIjCqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01DPWLUU8?tag=deskfinds0d-20",
     description:
       "This 3-tier vertical design hangs from a desk edge rather than a wall, avoiding the leverage-on-mounting-point concern entirely since it doesn't rely on wall anchors, though its more compact tier count offers less maximum capacity than the wall-mounted alternatives.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$24.60",
     rating: "4.4",
     reviews: "199",
-    imageUrl: "https://m.media-amazon.com/images/I/41zQ7kXqLPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Z7iBgMAJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0856Y4YZD?tag=deskfinds0d-20",
     description:
       "A freestanding alternative with vertical compartment stacking, this design's wide base entirely avoids any mounting-point leverage question since it sits on the desk surface rather than hanging from anything.",

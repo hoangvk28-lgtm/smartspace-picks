@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$179.99",
     rating: "4.6 stars from 31,954 Amazon ratings",
     reviews: "31,954 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/51V0i-yOEIL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Wb8TGSnPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT4F8T4L?tag=deskfinds0d-20",
     description:
       "PlasmaWave technology adds a genuine odor-neutralizing layer beyond mechanical carbon filtration alone, a large review base backing it as a proven odor-control pick.\n\nPlasmaWave is not an ozone generator in the EPA-flagged sense, it operates differently from ionizer designs that carry the lung-irritant tradeoff at elevated concentrations.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$79.99",
     rating: "4.6 stars from 1,384 Amazon ratings",
     reviews: "1,384 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/41Y2LKzLmSL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31MxpE4keLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CHW2LLSJ?tag=deskfinds0d-20",
     description:
       "An affordable pick appropriate for a smaller room with a moderate odor source, genuinely capable within its rated coverage rather than an intense single-source scenario.\n\nA smaller room with a strong source concentrates odor compounds faster per cubic foot, meaning the carbon layer saturates quicker than in a larger open space with the same source.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$80.74",
     rating: "4.6 stars from 63,485 Amazon ratings",
     reviews: "63,485 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/41c0eBmqPXL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/316AtkHoSdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004VGIGVY?tag=deskfinds0d-20",
     description:
       "A large, well-established review base at a low price, genuinely capable for routine household odor rather than an intense cooking or litter-box source.\n\nRoutine background odor is a reasonable fit here, an intense single source benefits more from a dedicated odor-technology pick like the top choice in this guide.",

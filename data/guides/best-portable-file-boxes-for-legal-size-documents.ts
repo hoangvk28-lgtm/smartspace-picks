@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/419pjtp0ZDL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$23.73",
     rating: "4.4",
     reviews: "7,808",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/419pjtp0ZDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B005T7XNDK?tag=deskfinds0d-20",
     description:
       "This box explicitly confirms dual letter and legal size compatibility in its name, verified against its 14.5 x 10.5 x 12 inch dimensions, genuinely large enough for legal-size hanging folders while also accommodating letter-size documents in the same box.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$31.99",
     rating: "4.6",
     reviews: "6,117",
-    imageUrl: "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51nPPyA9QPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08D6JLTXJ?tag=deskfinds0d-20",
     description:
       "Verify legal-size compatibility against the current listing's specific dimensions before ordering; this fireproof-marketed box with zipper pockets is sized generously enough for many legal-size use cases, combined with a lock for document security.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$32.99",
     rating: "4.6",
     reviews: "2,864",
-    imageUrl: "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Ywia8nvNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09W5B4B8V?tag=deskfinds0d-20",
     description:
       "This box's mesh interior pockets add organizational structure for sub-documents alongside its main capacity, verify the specific listing's legal-size dimension support before ordering if legal-size compatibility is essential.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$47.49",
     rating: "4.3",
     reviews: "1,526",
-    imageUrl: "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51c1uDWDoaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B5STNV6J?tag=deskfinds0d-20",
     description:
       "Legal-size documents plus a 2-layer design add up to real weight, and this pick's wheels genuinely help offset the proportionally greater bulk that legal-size capacity requires compared to a letter-only box.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$56.99",
     rating: "4.5",
     reviews: "2,705",
-    imageUrl: "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41vOA84B1YL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000GP0Z6I?tag=deskfinds0d-20",
     description:
       "Honesty note: check the current listing carefully, as this Vaultz product's title specifies letter size; if you need legal-size compatibility with genuine locking security, verify this specific dimension before ordering or consider the Vaultz dual-lock legal-compatible variant instead.",

@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41KzHnZOD1L._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41C-eWZ9gfL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$15.33",
     rating: "4.6",
     reviews: "762",
-    imageUrl: "https://m.media-amazon.com/images/I/41KzHnZOD1L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41C-eWZ9gfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYZG2YBY?tag=deskfinds0d-20",
     description:
       "This holder's large diameter cavity is explicitly built for oversized tumblers, comfortably fitting most Yeti and Stanley coffee tumblers alongside a standard ceramic mug. The staining risk of a coffee spill onto a desk or carpet makes its deep, form-fitting cavity a genuine practical benefit over a shallow ring.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$19.94",
     rating: "4.6",
     reviews: "324",
-    imageUrl: "https://m.media-amazon.com/images/I/41KzHnZOD1L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31kr6fpVxgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CG16LSPG?tag=deskfinds0d-20",
     description:
       "Many popular coffee tumblers, including tall Yeti and Stanley models, are taller than a standard mug, and this deeper cavity variant provides extra containment for that added height, better resisting tip-over from an incidental bump.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$12.99",
     rating: "4.7",
     reviews: "171",
-    imageUrl: "https://m.media-amazon.com/images/I/41oXhI2rGCL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/314m46JYkhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FH231Z93?tag=deskfinds0d-20",
     description:
       "This large-diameter holder accommodates most standard ceramic mugs and mid-size coffee tumblers, carrying the highest rating in this comparison at a lower price than the metal OOKUU picks.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$17.99",
     rating: "4.7",
     reviews: "1,510",
-    imageUrl: "https://m.media-amazon.com/images/I/41c3G6Zt5cL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31XgT+O+XQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CPBXYH4?tag=deskfinds0d-20",
     description:
       "This holder's covered cavity handles a coffee mug or tumbler securely while the integrated headphone hanger gives you a place to hang your headset during a coffee break away from your desk, a genuinely useful pairing for a work-from-home coffee routine.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$9.99",
     rating: "4.4",
     reviews: "70",
-    imageUrl: "https://m.media-amazon.com/images/I/41yYmZbXQqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61tWyW9bgvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FRMMZ3RG?tag=deskfinds0d-20",
     description:
       "This budget clip's fully covered cavity handles a standard coffee mug securely at the lowest price in this comparison, appropriate if you don't need oversized tumbler compatibility.",

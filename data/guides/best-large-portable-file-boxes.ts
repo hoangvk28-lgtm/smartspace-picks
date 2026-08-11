@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41Xk9Q8zPPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41f-9zIZ9rL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$27.94",
     rating: "4.4",
     reviews: "1,328",
-    imageUrl: "https://m.media-amazon.com/images/I/41Xk9Q8zPPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41f-9zIZ9rL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00CZOKOWI?tag=deskfinds0d-20",
     description:
       "At 32 quarts with dual letter/legal compatibility, this weather-protective design offers substantial capacity plus genuine moisture resistance, a real bonus for a large box that may see storage in a garage or basement.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$35.29",
     rating: "4.4",
     reviews: "7,808",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/415EMQdiz0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00TT1SX9Q?tag=deskfinds0d-20",
     description:
       "This box's explicitly disclosed 11 x 13.5 x 11 inch dimensions give you concrete sizing to plan around, with an XL lid that provides more clearance for a fuller load than a standard-height lid design.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$33.99",
     rating: "4.1",
     reviews: "137",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/3124zqaZi+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09QRWT4ZF?tag=deskfinds0d-20",
     description:
       "A 2-pack of large XL-lid Storex boxes, this offers a reasonable per-unit value if you need two large-capacity boxes for separate collections, at a similar rating tier to the single-unit Storex large box above.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$47.49",
     rating: "4.3",
     reviews: "1,526",
-    imageUrl: "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51c1uDWDoaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B5STNV6J?tag=deskfinds0d-20",
     description:
       "For buyers who honestly assess that a large fully loaded box will be too heavy to comfortably hand-carry, this pick's wheels directly address that reality, a genuinely more practical solution at this capacity tier than relying on handle comfort alone.",

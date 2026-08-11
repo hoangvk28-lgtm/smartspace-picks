@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41x8fqzKQaL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51NHUcgYmoL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "4.7",
     reviews: "491",
-    imageUrl: "https://m.media-amazon.com/images/I/41x8fqzKQaL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51NHUcgYmoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B8MK52TC?tag=deskfinds0d-20",
     description:
       "This metal 5-tier organizer carries the highest rating in this comparison and its adjustable tier spacing lets you customize the layout for your specific document mix. Mounting to a stud rather than drywall alone will support the heaviest realistic fully-loaded weight.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$18.89",
     rating: "4.6",
     reviews: "415",
-    imageUrl: "https://m.media-amazon.com/images/I/41vQ8kzLpKL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61LUc7Gy89L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CNT2HNS1?tag=deskfinds0d-20",
     description:
       "This is the most affordable well-reviewed wall-mounted pick, lighter in overall build than the 5-tier metal options and appropriate for drywall-anchor mounting given its more modest realistic loaded weight.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$16.98",
     rating: "4.4",
     reviews: "366",
-    imageUrl: "https://m.media-amazon.com/images/I/41x8fqzKQaL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51jmG3xLXjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSMRXZKX?tag=deskfinds0d-20",
     description:
       "This wall-mounted organizer adds 5 hooks for keys or small tools alongside its 5-tier file storage, at the lowest price of the 5-tier options in this comparison. Confirm your anchor supports the combined weight of files plus hung items.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$17.97",
     rating: "4.6",
     reviews: "280",
-    imageUrl: "https://m.media-amazon.com/images/I/41x8fqzKQaL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51XpqFad+GL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CXCS7YBL?tag=deskfinds0d-20",
     description:
       "This 7-tier mesh design has the highest tier count in this comparison, and its taller vertical footprint means the mounting point should be secured to a stud to safely bear the fully-loaded weight distributed across all seven tiers.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$16.98",
     rating: "4.4",
     reviews: "366",
-    imageUrl: "https://m.media-amazon.com/images/I/41x8fqzKQaL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51jmG3xLXjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSMRXZKX?tag=deskfinds0d-20",
     description:
       "Included again here specifically for its relatively light unloaded weight among the 5-tier options, an easier drywall-anchor mount for renters who accept the wall-patching tradeoff of any wall-mounted organizer over a completely no-drill alternative.",

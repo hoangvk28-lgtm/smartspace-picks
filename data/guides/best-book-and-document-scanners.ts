@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-29";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61x83j9wI7L._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41AkGJtV+CL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$649.00",
     rating: "4.4 stars from 318 Amazon ratings",
     reviews: "318 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/61x83j9wI7L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41AkGJtV+CL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BM92YPHW?tag=deskfinds0d-20",
     description:
       "Genuinely built for bound-book scanning, with auto-flatten curve correction that digitally straightens the page curve near the spine, a real problem plain flatbed or sheetfed scanners can't solve for books. A3 overhead capture handles larger books and bound documents a sheetfed ADF scanner physically cannot feed.\n\nNot built for loose-page document scanning at all, no ADF hopper, no duplex, this is a book-specific tool, not a document workhorse. If your actual need is mostly loose paperwork, this isn't the right primary scanner.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$199.00",
     rating: "4.4 stars from 488 Amazon ratings",
     reviews: "488 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/51j3ozWmxCL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31LQNyy7U0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08NSJQ65L?tag=deskfinds0d-20",
     description:
       "A more affordable overhead book scanner with the same auto-flatten curve correction technology as the Pro, real value if occasional book digitization is your actual need rather than a heavy ongoing workload. Portable design makes it easy to store when not scanning.\n\nSame fundamental limitation as every book scanner here, no ADF, not built for loose-page document batches.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$329.00",
     rating: "4.0 stars from 562 Amazon ratings",
     reviews: "562 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/31KqCH-mBlL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41VkoizD+9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCBVYMC6?tag=deskfinds0d-20",
     description:
       "A flatbed-style scanner genuinely suited to photos and individual loose documents you don't want to feed through an ADF, useful middle ground if your book-scanning need is actually just occasional single-page flat items rather than full bound books.\n\nNot a true book scanner, no auto-flatten curve correction for bound spines, and not a high-volume document ADF scanner either, it occupies a narrower niche than either dedicated category.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$408.99",
     rating: "4.1 stars from 102 Amazon ratings",
     reviews: "102 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/51xhXhCw7ML._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41OkxTvAv+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09TRFK7D2?tag=deskfinds0d-20",
     description:
       "A2/A3 overhead capture handles genuinely large bound materials, oversized books, blueprints, or large-format bound documents that smaller book scanners can't fully capture in one pass.\n\nSmaller review base than the CZUR picks, weigh that against the real large-format capability if your books or bound materials exceed standard A3.",
@@ -113,7 +113,7 @@ export const products: GuideProduct[] = [
     price: "$649.99",
     rating: "5.0 stars from 1 Amazon rating",
     reviews: "1 rating",
-    imageUrl: "https://m.media-amazon.com/images/I/41x2Kp0X0LL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41LGj+P7TPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GXZJ5FC6?tag=deskfinds0d-20",
     description:
       "The only product in this guide attempting to genuinely bridge both use cases, an overhead book-scanning cradle paired with an ADF attachment for loose documents. Interesting concept, but with only a single rating on record, there isn't yet meaningful real-world evidence of how well it performs at either task compared to dedicated single-purpose scanners.\n\nWorth watching as the category matures, but we can't yet honestly recommend it over the proven dedicated picks in this guide based on this thin a review base.",

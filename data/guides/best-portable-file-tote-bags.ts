@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41WX5LqZcIL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.5",
     reviews: "117",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41WX5LqZcIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKDY3QMT?tag=deskfinds0d-20",
     description:
       "This UNICITII tote genuinely includes hanging file capability despite its soft-sided construction, using a semi-rigid internal frame to support standard hanging folders, a real structural feature not every tote in this category offers.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$24.99",
     rating: "4.4",
     reviews: "29",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41sV+9i1pGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKDYHRHF?tag=deskfinds0d-20",
     description:
       "A larger-capacity variant of the same UNICITII tote design, this pick genuinely holds more documents at a moderate price increase, though its very small review count means less proven long-term reliability than the standard size.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.7",
     reviews: "2,150",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41NoJhPJlCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJ2FNCTQ?tag=deskfinds0d-20",
     description:
       "Honesty note: this is a general utility tote, not specifically a hanging-file tote, but its reinforced bottom genuinely improves structural rigidity over a typical soft bag, and its highest review count in this comparison gives real confidence in its overall durability for general document and supply carrying.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.4",
     reviews: "84",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31SD47V9S6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DRFNCHJZ?tag=deskfinds0d-20",
     description:
       "This is a genuine soft-sided tote with hanging file support and a lid for enclosed protection, sold as a 2-pack, useful if you need two separate document totes for different projects or categories.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$23.99",
     rating: "4.1",
     reviews: "77",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/410XaitYMWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FWRFZPHW?tag=deskfinds0d-20",
     description:
       "Another UNICITII tote variant, this pick carries a slightly lower rating than the top two picks from the same brand, worth weighing against its similar feature set and price point before choosing over the higher-rated alternatives.",

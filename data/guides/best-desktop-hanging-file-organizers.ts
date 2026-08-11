@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41zQ7kXqLPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51Z7iBgMAJL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$24.60",
     rating: "4.4",
     reviews: "199",
-    imageUrl: "https://m.media-amazon.com/images/I/41zQ7kXqLPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Z7iBgMAJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0856Y4YZD?tag=deskfinds0d-20",
     description:
       "This is the clearest genuine match for this exact search, a freestanding desktop organizer with an internal hanging-file compartment plus three additional storage compartments for mixed office supplies. Its wide base relative to height provides solid tip-over resistance even when loaded.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "4.7",
     reviews: "491",
-    imageUrl: "https://m.media-amazon.com/images/I/41x8fqzKQaL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51NHUcgYmoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B8MK52TC?tag=deskfinds0d-20",
     description:
       "Honesty note: this is genuinely wall-mounted, not a desktop-sitting design, included here for buyers who search 'desktop hanging file organizer' but would actually be better served by a wall-mounted alternative if desk surface space is at a premium.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$47.69",
     rating: "4.5",
     reviews: "405",
-    imageUrl: "https://m.media-amazon.com/images/I/41mQ7L2xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Cr5PIjCqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01DPWLUU8?tag=deskfinds0d-20",
     description:
       "Despite the 'desktop' in its product name, this genuinely hangs from a desk edge rather than sitting on the surface, an important distinction we verified directly against the listing. It preserves desk surface footprint similarly to a wall mount but without any drilling.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$16.98",
     rating: "4.4",
     reviews: "366",
-    imageUrl: "https://m.media-amazon.com/images/I/41x8fqzKQaL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51jmG3xLXjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSMRXZKX?tag=deskfinds0d-20",
     description:
       "Also genuinely wall-mounted rather than desktop-sitting, included as the most affordable alternative for buyers who decide a wall mount better serves their desk-space needs than a true freestanding desktop design.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$17.97",
     rating: "4.6",
     reviews: "280",
-    imageUrl: "https://m.media-amazon.com/images/I/41x8fqzKQaL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51XpqFad+GL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CXCS7YBL?tag=deskfinds0d-20",
     description:
       "The highest-capacity wall-mounted alternative in this comparison, with 7 tiers providing far more document separation than the single 4-compartment true desktop pick above, worth considering if your document volume exceeds what a compact freestanding organizer can hold.",

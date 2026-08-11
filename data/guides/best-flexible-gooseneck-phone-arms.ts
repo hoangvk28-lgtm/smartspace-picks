@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41T5c8QwZlL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31-9l0KA5YL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "See listing",
     rating: "4.4",
     reviews: "43,079",
-    imageUrl: "https://m.media-amazon.com/images/I/41T5c8QwZlL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31-9l0KA5YL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07S9JXQP2?tag=deskfinds0d-20",
     description:
       "With the highest review volume of any gooseneck in this comparison, this arm has the broadest real-world track record for holding position over time. It uses a standard flexible metal core rather than a stiff-core design, meaning it bends more easily with one hand but can drift slightly under heavier phone-plus-case combinations.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$12.99",
     rating: "4.3",
     reviews: "32,606",
-    imageUrl: "https://m.media-amazon.com/images/I/41T5c8QwZlL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31+F3sAWSTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07P2VK93P?tag=deskfinds0d-20",
     description:
       "This is one of the few picks in this comparison to disclose an actual material gauge, an 8.5mm aluminum alloy core the listing states is hard to fracture. At 33.46 inches it offers substantial reach while maintaining a reasonably firm hold, backed by a 12-month replacement warranty against defects.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$14.99",
     rating: "4.4",
     reviews: "23,326",
-    imageUrl: "https://m.media-amazon.com/images/I/41WYQwv7hyL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31sVYQbspmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B079QY6RFQ?tag=deskfinds0d-20",
     description:
       "MAGIPEA explicitly markets this arm's stiffness as intentional, using a high-density aluminum alloy core specifically to prevent drooping, a direct answer to the sag problem this whole category is prone to. The tradeoff is that repositioning requires two hands rather than a light one-handed push.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$24.99",
     rating: "4.3",
     reviews: "11,813",
-    imageUrl: "https://m.media-amazon.com/images/I/41n8k1KcO7L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31HD++Czq5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9N41MCS?tag=deskfinds0d-20",
     description:
       "This arm's nylon-braided outer sleeve is a genuine long-term durability feature, protecting the internal flexible core from abrasion if the arm regularly rubs against a desk edge or nearby objects during repositioning, a wear factor most competitors don't address.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$19.68",
     rating: "4.4",
     reviews: "2,655",
-    imageUrl: "https://m.media-amazon.com/images/I/41vZ0Q8V1lL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/515BergNltL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CKYS81T4?tag=deskfinds0d-20",
     description:
       "Rather than relying on a single flexible core, this arm uses a steel body with shock-absorbing springs and individually adjustable tension knobs at each joint, a genuinely different reinforcement approach that lets you dial in exact firmness per joint rather than relying on uniform material stiffness alone.",

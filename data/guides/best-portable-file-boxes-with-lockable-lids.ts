@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41D-nemyNXL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$44.99",
     rating: "4.1",
     reviews: "1,066",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41D-nemyNXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01GTX5WT0?tag=deskfinds0d-20",
     description:
       "This 4-pack offers a lid closure at a strong per-unit value, verify the specific lock mechanism on the current listing since this variant's locking specifics should be confirmed directly rather than assumed from the general product family name.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$18.99",
     rating: "4.3",
     reviews: "3,133",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41GQ8rqDXhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FVJZD3L?tag=deskfinds0d-20",
     description:
       "Honesty note: this box uses a basic lid latch, not a genuine key or combination lock at the lid, included as a budget alternative for buyers whose actual need is a secure-closing lid rather than true locking access control.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$56.99",
     rating: "4.5",
     reviews: "2,705",
-    imageUrl: "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41vOA84B1YL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000GP0Z6I?tag=deskfinds0d-20",
     description:
       "This box's key lock is genuinely integrated into the lid closure itself, from an established locking-storage brand, real evidence this is a purpose-built lid-lock design rather than a separate front-panel mechanism.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.2",
     reviews: "1,935",
-    imageUrl: "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31tgxXrxOrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000K3GBGY?tag=deskfinds0d-20",
     description:
       "This premium Vaultz box uses two separate lid-locking points rather than one, genuinely more resistant to prying open at a single weak point, at the highest price in this comparison.",

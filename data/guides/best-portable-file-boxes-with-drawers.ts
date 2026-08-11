@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/312xwvFlDeL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$25.53",
     rating: "4.2",
     reviews: "786",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/312xwvFlDeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B002JGJ47S?tag=deskfinds0d-20",
     description:
       "This box's drawer tray sits independently from the main hanging-file compartment, with a latching lid securing the whole unit. As a genuine combined hybrid from an established Storex product line, it offers a real value proposition over separate purchases.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$35.83",
     rating: "4.3",
     reviews: "103",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/519O+KmCe0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004I2GLJK?tag=deskfinds0d-20",
     description:
       "This 18-inch archive storage drawer offers substantially more drawer capacity than the standard combined box above, with an integrated lock, though verify whether this is genuinely a hanging-file-plus-drawer hybrid or primarily an archive drawer with file capability.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$18.99",
     rating: "4.3",
     reviews: "3,133",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41GQ8rqDXhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FVJZD3L?tag=deskfinds0d-20",
     description:
       "Honesty note: this is a single-compartment box without a separate drawer, included as a direct comparison point for buyers deciding whether the combined drawer feature is worth the added bulk and price over this simpler, more affordable alternative.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$28.54",
     rating: "4.4",
     reviews: "5,076",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41PdCI0nCgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08T6P8LB6?tag=deskfinds0d-20",
     description:
       "Also without a separate drawer, this Pendaflex pick's confirmed hanging file rails and strong review history give another honest single-compartment comparison point against the drawer-hybrid picks above.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$16.99",
     rating: "4.3",
     reviews: "1,128",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/317LJOZfFQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D8CNX88V?tag=deskfinds0d-20",
     description:
       "The most affordable single-compartment alternative in this comparison, confirming that if you don't need a separate drawer, a straightforward tote-style box provides confirmed hanging file storage at the lowest price.",

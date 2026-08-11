@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41KzHnZOD1L._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41C-eWZ9gfL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$15.33",
     rating: "4.6",
     reviews: "762",
-    imageUrl: "https://m.media-amazon.com/images/I/41KzHnZOD1L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41C-eWZ9gfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYZG2YBY?tag=deskfinds0d-20",
     description:
       "This attaches via a metal squeeze clamp, not adhesive, the same mechanism covered in our dedicated clamp-on guide. It remains the strongest all-around pick across every terminology variant of this product we researched, given its combined rating and review volume.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$9.99",
     rating: "4.4",
     reviews: "70",
-    imageUrl: "https://m.media-amazon.com/images/I/41yYmZbXQqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61tWyW9bgvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FRMMZ3RG?tag=deskfinds0d-20",
     description:
       "This attaches via a lightweight clip, the most affordable attachment mechanism in this comparison, still using a fully covered cavity for genuine spill protection despite the lower price.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$12.99",
     rating: "4.7",
     reviews: "171",
-    imageUrl: "https://m.media-amazon.com/images/I/41oXhI2rGCL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/314m46JYkhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FH231Z93?tag=deskfinds0d-20",
     description:
       "This attaches via a reinforced plastic clamp, the highest-rated attachment mechanism in this comparison, striking a balance between the lightweight HzTinT clip and the heavier OOKUU metal clamp.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "4.5",
     reviews: "162",
-    imageUrl: "https://m.media-amazon.com/images/I/41sKzHnZOL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41z6n2eEheL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DLLCWTR4?tag=deskfinds0d-20",
     description:
       "This attaches via a metal clip explicitly rated for cups up to 40oz, the largest disclosed capacity in this comparison, combined with additional headphone and accessory hanging points on the same clamp base.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$19.94",
     rating: "4.6",
     reviews: "324",
-    imageUrl: "https://m.media-amazon.com/images/I/41KzHnZOD1L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31kr6fpVxgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CG16LSPG?tag=deskfinds0d-20",
     description:
       "This variant attaches identically to our top pick but uses a deeper cavity, genuinely better for tall containers against tipping. It's a proven brand design with solid review history behind it.",

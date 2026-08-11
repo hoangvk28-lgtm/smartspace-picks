@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41hqB2xR0rL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/515BergNltL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$19.68",
     rating: "4.4",
     reviews: "2,655",
-    imageUrl: "https://m.media-amazon.com/images/I/41vZ0Q8V1lL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/515BergNltL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CKYS81T4?tag=deskfinds0d-20",
     description:
       "This clamp base is genuinely bi-directional, adjusting to fit desks, bedside tables, and other edge types without drilling. Cable storage is built into the base, keeping a charging cable tidy rather than dangling loose near the clamp point.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$12.99",
     rating: "4.3",
     reviews: "32,606",
-    imageUrl: "https://m.media-amazon.com/images/I/41T5c8QwZlL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31+F3sAWSTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07P2VK93P?tag=deskfinds0d-20",
     description:
       "The anti-slip silicone base pad on this clamp is explicitly designed not to damage furniture, addressing the marking-risk concern this guide highlights. It remains the most proven clamp design by review volume across our phone arm research.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$14.99",
     rating: "4.4",
     reviews: "23,326",
-    imageUrl: "https://m.media-amazon.com/images/I/41WYQwv7hyL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31sVYQbspmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B079QY6RFQ?tag=deskfinds0d-20",
     description:
       "This clamp opens up to 3 inches, the widest opening in this comparison, securely fitting thick bed frames, headboards, and raised standing-desk edges other clamps in this cluster can't reach around. Anti-slip EVA pads protect the surface without scratching.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$33.90",
     rating: "4.4",
     reviews: "1,732",
-    imageUrl: "https://m.media-amazon.com/images/I/41hqB2xR0rL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/419C11rQcXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5YJ42CX?tag=deskfinds0d-20",
     description:
       "This crab clamp opens to 63.5mm and uses a friction knob to lock down rather than spring tension alone, the firmest hold of any clamp in this comparison. Twelve silicone contact points across the clamp and arm prevent both slipping and desk-surface marking under that added torque.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$33.99",
     rating: "4.5",
     reviews: "988",
-    imageUrl: "https://m.media-amazon.com/images/I/41GgKqfKX+L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31jBgnNJK5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DN1C9RH2?tag=deskfinds0d-20",
     description:
       "This C clamp uses anti-twist pins at each mounting interface to keep the connection from rotating unexpectedly, a genuine stability feature over a simple friction-only clamp. It carries the highest rating of any clamp-on pick in this comparison.",

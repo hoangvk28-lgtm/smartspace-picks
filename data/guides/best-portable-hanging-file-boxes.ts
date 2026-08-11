@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41PdCI0nCgL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$28.54",
     rating: "4.4",
     reviews: "5,076",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41PdCI0nCgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08T6P8LB6?tag=deskfinds0d-20",
     description:
       "This box's rails are explicitly named in the product title and use standard letter-size spacing compatible with generically purchased hanging folders, verified against Pendaflex's own established hanging-file product line credibility.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$35.97",
     rating: "4.4",
     reviews: "2,531",
-    imageUrl: "https://m.media-amazon.com/images/I/41Xk8QzKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/513nA08nU6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B082B29YKM?tag=deskfinds0d-20",
     description:
       "This mesh design's rails are visible through the wire construction, letting you verify folder placement and spacing at a glance, sold as a 2-pack for good value if you need multiple hanging-file boxes.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$23.73",
     rating: "4.4",
     reviews: "7,808",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/419pjtp0ZDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B005T7XNDK?tag=deskfinds0d-20",
     description:
       "This box's rails accommodate both letter and legal size hanging folders explicitly, genuinely useful if your rail spacing needs vary by document type rather than being fixed to one size only.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.5",
     reviews: "1,820",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41U02LvHAEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09TQ6HY4J?tag=deskfinds0d-20",
     description:
       "This variant pairs the same proven Pendaflex rail design with a hinged, double-latched lid, genuine added transport security for your hanging files during repeated use over the years.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$16.99",
     rating: "4.3",
     reviews: "1,128",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/317LJOZfFQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D8CNX88V?tag=deskfinds0d-20",
     description:
       "This box's rails are explicitly confirmed for letter size hanging files in the product name at the most affordable price in this comparison, a solid budget-friendly choice for standard-spacing rail compatibility.",

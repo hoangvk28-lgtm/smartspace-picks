@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41T5c8QwZlL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31+F3sAWSTL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$12.99",
     rating: "4.3",
     reviews: "32,606",
-    imageUrl: "https://m.media-amazon.com/images/I/41T5c8QwZlL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31+F3sAWSTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07P2VK93P?tag=deskfinds0d-20",
     description:
       "The holder clip on this arm fits phones from 4.0 to 6.3 inches wide and is the most widely proven grip mechanism in this comparison by review volume. The 33.46 inch aluminum arm gives ample reach from a desk clamp to eye level.\n\nBuyers with a larger phone and a thick case should double check the clip width tolerance, since 6.3 inches is measured for a bare or lightly-cased device.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$14.99",
     rating: "4.4",
     reviews: "23,326",
-    imageUrl: "https://m.media-amazon.com/images/I/41WYQwv7hyL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31sVYQbspmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B079QY6RFQ?tag=deskfinds0d-20",
     description:
       "This holder clip accepts devices from 3.5 to 7 inches wide with soft TPE inner pads, the widest fit range in this comparison, genuinely accommodating larger phones with thick cases attached. The semi-enclosed clamp design grips more securely than a simple spring clip.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$19.68",
     rating: "4.4",
     reviews: "2,655",
-    imageUrl: "https://m.media-amazon.com/images/I/41vZ0Q8V1lL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/515BergNltL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CKYS81T4?tag=deskfinds0d-20",
     description:
       "This holder uses a one-touch release spring clip with a built-in silicone pad and matches its bite force to the phone's size, addressing the too-tight or too-loose grip common on cheaper clips. Tension adjustment knobs let you fine-tune the hold for your specific phone and case.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$33.90",
     rating: "4.4",
     reviews: "1,732",
-    imageUrl: "https://m.media-amazon.com/images/I/41hqB2xR0rL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/419C11rQcXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5YJ42CX?tag=deskfinds0d-20",
     description:
       "The phone clamp accessory included with this magic arm fits devices 5.5-8.5cm wide and locks via friction rather than spring tension alone, holding steady even under repeated touch interaction. It is the most secure holder mechanism in this comparison, at a premium price.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$24.99",
     rating: "4.3",
     reviews: "11,813",
-    imageUrl: "https://m.media-amazon.com/images/I/41n8k1KcO7L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31HD++Czq5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9N41MCS?tag=deskfinds0d-20",
     description:
       "This Lamicall arm uses a nylon-braided outer sleeve over its 38 inch gooseneck, adding abrasion resistance the plain-metal arms in this comparison lack, useful if the arm will rub against a desk edge or bed frame regularly. The holder clip itself is a standard spring clamp.\n\nAt 38 inches it is also the longest reach in this comparison, suited to buyers who need to route the arm around obstacles to reach their preferred phone position.",

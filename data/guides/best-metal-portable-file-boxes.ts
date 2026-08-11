@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41vOA84B1YL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$56.99",
     rating: "4.5",
     reviews: "2,705",
-    imageUrl: "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41vOA84B1YL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000GP0Z6I?tag=deskfinds0d-20",
     description:
       "This is a genuine metal-bodied box from a brand established in locking storage products, carrying the strongest combined rating and review volume of any metal pick in this comparison, real evidence of durable construction over time.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$39.99",
     rating: "4.3",
     reviews: "81",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41VTQqtPRTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D2TTGLDX?tag=deskfinds0d-20",
     description:
       "This metal-construction box pairs its durable body with a combination lock, avoiding lost-key risk while still benefiting from metal's dent resistance over a plastic equivalent at a more moderate price than the top pick.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.2",
     reviews: "1,935",
-    imageUrl: "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31tgxXrxOrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000K3GBGY?tag=deskfinds0d-20",
     description:
       "This is the most heavy-duty metal construction in this comparison, with a reinforced dual-lock body genuinely resistant to prying, at the tradeoff of being the heaviest and most expensive pick here, a real consideration given this category's portable promise.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$35.97",
     rating: "4.4",
     reviews: "2,531",
-    imageUrl: "https://m.media-amazon.com/images/I/41Xk8QzKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/513nA08nU6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B082B29YKM?tag=deskfinds0d-20",
     description:
       "Honesty note: this mesh wire construction is a lighter metal alternative to a solid-walled steel box, genuinely reducing the weight tradeoff this category faces while still offering metal's dent resistance, sold as a 2-pack for good per-unit value.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.5",
     reviews: "1,820",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41U02LvHAEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09TQ6HY4J?tag=deskfinds0d-20",
     description:
       "Honesty note: this Pendaflex pick is plastic, not metal, included here as an intentional comparison point for buyers deciding between the two materials, since its lighter weight and lower price directly illustrate the metal-vs-plastic tradeoff this guide addresses.",

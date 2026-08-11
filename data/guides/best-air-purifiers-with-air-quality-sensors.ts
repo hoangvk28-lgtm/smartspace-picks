@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$349.00",
     rating: "4.5 stars from 3,559 Amazon ratings",
     reviews: "3,559 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/41T8P8ptGSL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31K9NLoXncL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BN2MGV5H?tag=deskfinds0d-20",
     description:
       "An air quality sensor paired with HEPASilent high-airflow technology, genuinely useful for a large room where the sensor-driven auto mode needs to ramp fan speed up quickly when triggered.\n\nA sensor-driven auto mode saves energy and noise when air is clear, but understand the fan runs slower during those periods too, a real tradeoff versus running at a fixed high speed continuously.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$179.99",
     rating: "4.6 stars from 31,954 Amazon ratings",
     reviews: "31,954 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/51V0i-yOEIL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Wb8TGSnPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT4F8T4L?tag=deskfinds0d-20",
     description:
       "A large, well-established review base with sensor-driven auto mode and PlasmaWave odor-neutralizing technology, a genuinely proven combination pick.\n\nAn indicator light shows general air quality status at a glance, useful for a quick check without needing to open an app or read a numeric display.",

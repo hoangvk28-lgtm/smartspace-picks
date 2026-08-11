@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "6 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41K2gxLb6DL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31OR4pkm28L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$9.99",
     rating: "4.7",
     reviews: "80,616",
-    imageUrl: "https://m.media-amazon.com/images/I/41K2gxLb6DL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31OR4pkm28L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07F8S18D5?tag=deskfinds0d-20",
     description:
       "This is a static folding stand, not an articulating arm, but its dual-folding aluminum hinge and low-profile footprint make it a genuinely good fit next to a gaming keyboard and mouse where desk space is tight. It has by far the highest review count in this comparison.\n\nThere is no gaming-specific feature here beyond the compact size, an honest tradeoff for the very low price and strong reliability track record.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$9.95",
     rating: "4.5",
     reviews: "71,226",
-    imageUrl: "https://m.media-amazon.com/images/I/41xj2Nlj0jL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41O6vIuvY5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07Z82895W?tag=deskfinds0d-20",
     description:
       "This is the only pick in this comparison explicitly marketed for gaming use, specifically dual compatibility with phones and the Nintendo Switch. It remains a static stand rather than an arm, holding the device at a fixed adjustable angle for tabletop-mode Switch gaming or mobile gaming on a desk.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$7.99",
     rating: "4.8",
     reviews: "2,652",
-    imageUrl: "https://m.media-amazon.com/images/I/41yTQ2f3fVL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41MFNPQ2hAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DP42G526?tag=deskfinds0d-20",
     description:
       "The cheapest pick in this comparison, this Lamicall stand rotates 360 degrees on its base, useful for switching between portrait and landscape viewing without repositioning the whole stand. It carries the highest star rating here, though with a much smaller review count than the top two picks.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$6.95",
     rating: "4.6",
     reviews: "4,299",
-    imageUrl: "https://m.media-amazon.com/images/I/41dqzO0hOnL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/417vAC5YHAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLKRZYSQ?tag=deskfinds0d-20",
     description:
       "This COOPER stand folds flat for storage or travel, a genuine advantage over the fixed-shape aluminum picks in this comparison if you want to move the stand between a gaming desk and elsewhere. Its metal base rotates for angle adjustment similar to the Lamicall pick.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$9.99",
     rating: "4.4",
     reviews: "590",
-    imageUrl: "https://m.media-amazon.com/images/I/41bqW9-QpAL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41xaBwnZk1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZTSXN5D?tag=deskfinds0d-20",
     description:
       "Honesty note: this is a novelty item shaped like a miniature gaming chair, and its actual holding capacity is limited to devices up to about 19cm tall, more suited to a Kindle or small phone than a large modern smartphone. It has the smallest review count of any pick here.\n\nWe include it only because it is the single genuinely gaming-themed product this research turned up, appropriate as a desk decoration and light-duty holder rather than a primary phone stand.",

@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41Xk9Q8zPPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51qCZHhqU3L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "See listing",
     rating: "4.6",
     reviews: "933",
-    imageUrl: "https://m.media-amazon.com/images/I/41Xk9Q8zPPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51qCZHhqU3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BS9R6WN2?tag=deskfinds0d-20",
     description:
       "This pick carries the strongest combined rating and review count in this decorative-styling comparison, real evidence that its aesthetic finish doesn't come at the cost of genuine functional quality for actual document storage.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.6",
     reviews: "2,436",
-    imageUrl: "https://m.media-amazon.com/images/I/41Xk9Q8zPPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ni8CvEKQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D62TW71V?tag=deskfinds0d-20",
     description:
       "This linen fabric-covered set genuinely leans toward the discreet, non-descript end of the decorative spectrum, blending into a home office aesthetic rather than visually announcing itself as document storage, sold as a set of 2 for good value.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.4",
     reviews: "13",
-    imageUrl: "https://m.media-amazon.com/images/I/41Xk9Q8zPPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51RGJmCSNML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GX12QFSV?tag=deskfinds0d-20",
     description:
       "This genuinely wood-finished box offers a distinctly different decorative aesthetic than the linen or clear-accent picks, appropriate for a home office with wood furniture, though its small review count means less proven long-term reliability.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.8",
     reviews: "229",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51KmDhar90L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CDFHM4PR?tag=deskfinds0d-20",
     description:
       "This pick carries the highest rating in this entire decorative comparison, with a collapsible design that stores flat when not in use, genuinely useful if you don't need the box permanently assembled.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$24.99",
     rating: "3.8",
     reviews: "278",
-    imageUrl: "https://m.media-amazon.com/images/I/41Xk9Q8zPPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31xT22Ii6RL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FVM5RNL?tag=deskfinds0d-20",
     description:
       "Honesty note: this pick's rating (3.8) is the lowest in this decorative comparison, so weigh its pearl aesthetic finish and weather-protective construction against that comparatively weaker rating before choosing it over the higher-rated alternatives.",

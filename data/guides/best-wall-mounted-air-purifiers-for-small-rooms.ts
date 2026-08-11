@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41vqCq8T7SL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/211o7kU79XL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$649.98",
     rating: "4.6 stars from 11 Amazon ratings",
     reviews: "11 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/41vqCq8T7SL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/211o7kU79XL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B84JLVBZ?tag=deskfinds0d-20",
     description:
       "A dedicated wall-mounted design genuinely built to be installed rather than adapted from a floor unit, freeing real floor area in a small room where every square foot matters.\n\nWall-mounted units are a genuinely smaller product category, expect a smaller review base per model than an equivalent floor-standing purifier, weigh the reviews accordingly.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$350.00",
     rating: "4.4 stars from 3 Amazon ratings",
     reviews: "3 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/41z8rXQqXVL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41uGnGaebGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09MF98MD2?tag=deskfinds0d-20",
     description:
       "A more affordable wall-mounted option than the premium pick, genuinely useful for a small room on a tighter budget still wanting to free floor space.\n\nThe very small review base here means less real-world evidence than an established floor unit, weigh this against the genuine floor-space benefit for your specific small room.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$79.00",
     rating: "3.7 stars from 7 Amazon ratings",
     reviews: "7 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/31lYQGZzFSL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ORfA+RcJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJVKNBGN?tag=deskfinds0d-20",
     description:
       "The most affordable wall-mounted option in this guide, genuinely appropriate for a very small room where a compact wall unit is sufficient rather than a full-capacity floor purifier.\n\nThe lower average rating and very small review base here mean more caution is warranted, this is best treated as a supplemental unit for a small space rather than a primary whole-room solution.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$80.74",
     rating: "4.6 stars from 63,485 Amazon ratings",
     reviews: "63,485 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/41c0eBmqPXL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/316AtkHoSdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004VGIGVY?tag=deskfinds0d-20",
     description:
       "A large, well-established review base at a low price, another compact floor-unit alternative for a small room where a corner or shelf placement is acceptable instead of true wall mounting.\n\nIf floor space is only a mild concern rather than a hard constraint, this proven budget option offers far more real-world evidence than any dedicated wall-mount pick in this guide.",

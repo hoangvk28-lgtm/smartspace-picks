@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41Xk9Q8zPPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31C0AH1punL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.4",
     reviews: "574",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31C0AH1punL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F6FGSF7Z?tag=deskfinds0d-20",
     description:
       "This clear 35-quart box offers the largest capacity and a latching lid for security, genuinely useful content visibility for a box this size where finding a specific document without opening saves real time.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$24.15",
     rating: "4.3",
     reviews: "258",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31VVX+PgVwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D92V2XZT?tag=deskfinds0d-20",
     description:
       "A more compact clear alternative to the IRIS USA 35-quart box, this Staples pick offers content visibility without the bulk of a maximum-capacity design, suited to buyers who don't need the largest clear box available.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.3",
     reviews: "1,128",
-    imageUrl: "https://m.media-amazon.com/images/I/41Xk9Q8zPPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31k-MjMGnsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTWW1Z9Q?tag=deskfinds0d-20",
     description:
       "This clear Storex box supports both letter and legal size documents at an affordable price, with a stronger review count than the compact Staples alternative, real evidence of proven reliability at this price tier.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "See listing",
     rating: "4.6",
     reviews: "933",
-    imageUrl: "https://m.media-amazon.com/images/I/41Xk9Q8zPPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51qCZHhqU3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BS9R6WN2?tag=deskfinds0d-20",
     description:
       "This pick combines decorative styling with clear elements for partial content visibility, a genuine middle-ground option if you want some aesthetic appeal without a fully transparent, contents-visible design.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "See listing",
     rating: "4.3",
     reviews: "132",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31ENgn42OyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D2HMKRLR?tag=deskfinds0d-20",
     description:
       "This is the most compact clear pick in this comparison, appropriate for a modest document collection where you want to quickly see contents without needing large capacity.",

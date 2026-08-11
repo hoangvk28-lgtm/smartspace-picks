@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-07-31";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41-cyzsBcOL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51SEA4kds4L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$107.99",
     rating: "3.9 stars from 197 Amazon ratings",
     reviews: "197 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/41-cyzsBcOL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51SEA4kds4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08GQ9BQB4?tag=deskfinds0d-20",
     description:
       "A compact footprint with genuine 330 sq ft coverage rating and a specific 0.1-micron removal specification, appropriate for a small bedroom or home office rather than a whole apartment.\n\nA small footprint doesn't automatically mean lower performance here, this unit's disclosed coverage and micron specification give real confidence in its capacity for its size.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$79.99",
     rating: "4.6 stars from 4,454 Amazon ratings",
     reviews: "4,454 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/41oQGJqYNKL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51nlbgobV2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCBC8KKV?tag=deskfinds0d-20",
     description:
       "An affordable compact option with a solid review base, genuinely capable for a small room or desk zone rather than an open-plan space.\n\nCheck the disclosed coverage rating against your actual room size before buying, a small footprint here does correspond to a genuinely smaller-room CADR rather than an oversized promise.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$45.30",
     rating: "4.5 stars from 9,252 Amazon ratings",
     reviews: "9,252 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/41mBUdCzQwL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41zOBElZS-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08PJQ3MWB?tag=deskfinds0d-20",
     description:
       "The lowest price and most compact footprint in this guide with a large review base, genuinely appropriate for a small desk zone or a personal space within a larger room.\n\nA small footprint often means a smaller fan and less filter surface area, resulting in a genuinely lower CADR, this unit is best matched to a desk-zone scope rather than a full small bedroom.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$80.74",
     rating: "4.6 stars from 63,485 Amazon ratings",
     reviews: "63,485 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/41c0eBmqPXL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/316AtkHoSdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004VGIGVY?tag=deskfinds0d-20",
     description:
       "A compact, well-established design with a large review base, genuinely capable for a small bedroom or home office at a reasonable price.\n\nMatch your expectation of coverage to this unit's actual rated small-room size, not a whole apartment, for realistic results.",

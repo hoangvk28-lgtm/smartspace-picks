@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41BoSK8sBwL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$9.99",
     rating: "4.4",
     reviews: "867",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41BoSK8sBwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK3BCNFQ?tag=deskfinds0d-20",
     description:
       "This genuinely compact cardboard box is the most affordable pick in this comparison, sold as a 2-pack, appropriate for a modest personal document collection like tax records or a small project's files rather than an active larger filing system.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.5",
     reviews: "1,820",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41U02LvHAEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09TQ6HY4J?tag=deskfinds0d-20",
     description:
       "While not the smallest pick here, this compact plastic box's hinged double-latch lid provides more durable, secure containment than the cardboard alternative above, worth the price premium if you want a more durable small box.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$18.99",
     rating: "4.4",
     reviews: "975",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/413ecwU-oVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BHNSXXPQ?tag=deskfinds0d-20",
     description:
       "This compact box's mesh pocket adds a genuine small-item organization feature beyond just hanging file storage, useful for a modest collection of documents plus loose small items like receipts or paper clips.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$18.99",
     rating: "4.3",
     reviews: "3,133",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41GQ8rqDXhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FVJZD3L?tag=deskfinds0d-20",
     description:
       "This IRIS USA box sits between the most compact cardboard picks and a full standard-size box, offering the highest review count in this comparison as evidence of proven reliability at this moderate size tier.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$55.99",
     rating: "4.5",
     reviews: "721",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41khvywa+7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004GXB6RI?tag=deskfinds0d-20",
     description:
       "If your need is several small, separate document collections (one per year, one per project), this 4-pack offers a strong per-unit value rather than buying four compact boxes individually.",

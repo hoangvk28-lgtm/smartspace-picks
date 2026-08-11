@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41WX5LqZcIL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.5",
     reviews: "117",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41WX5LqZcIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKDY3QMT?tag=deskfinds0d-20",
     description:
       "This pick's own product name includes 'organizer,' 'tote bag,' and 'filing box' terminology all together, directly illustrating the three-way overlap this guide addresses. Its semi-rigid internal frame genuinely organizes hanging folders beyond a simple single-pocket design.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$24.99",
     rating: "4.4",
     reviews: "29",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41sV+9i1pGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKDYHRHF?tag=deskfinds0d-20",
     description:
       "This larger variant of the same organizer-tote design accommodates more document categories within its internal structure, at a moderate price increase over the standard size.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: "4.4",
     reviews: "84",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31SD47V9S6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DRFNCHJZ?tag=deskfinds0d-20",
     description:
       "This pick's own name combines 'file folder organizer,' 'hanging file,' and 'tote bag' language, again confirming the overlap this guide addresses, while its lid adds genuine organizational and protective structure beyond an open-top single-pocket tote.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: "4.7",
     reviews: "2,150",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41NoJhPJlCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJ2FNCTQ?tag=deskfinds0d-20",
     description:
       "Honesty note: this isn't specifically a hanging-file organizer tote, but its genuine multiple pockets represent real internal organization structure, the specific spec this guide focuses on, and it carries the highest review count of any pick here.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: "4.1",
     reviews: "77",
-    imageUrl: "https://m.media-amazon.com/images/I/41oWQz8xKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41c0VaamgBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FWRNWZKZ?tag=deskfinds0d-20",
     description:
       "Another UNICITII variant combining all three terminology types ('tote bag,' 'organizer box,' 'filing box') in its own name, at a slightly lower rating than the top pick from the same brand family.",

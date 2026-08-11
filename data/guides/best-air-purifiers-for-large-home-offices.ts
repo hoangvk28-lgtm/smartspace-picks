@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$799.99",
     rating: "4.6 stars from 616 Amazon ratings",
     reviews: "616 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/51X2LFmqmqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31CulL9tCOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08K3R8QPF?tag=deskfinds0d-20",
     description:
       "A 5-stage design genuinely built for maximum coverage and CFM, appropriate for a very large open-plan home office or one with significant furniture and room dividers.\n\nAchieving 4-5 air changes per hour requires proportionally more CFM in a large room, this unit's higher-capacity design is built for that math rather than a standard-size room.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$179.99",
     rating: "4.6 stars from 31,954 Amazon ratings",
     reviews: "31,954 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/51V0i-yOEIL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Wb8TGSnPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT4F8T4L?tag=deskfinds0d-20",
     description:
       "A large, well-established review base with True HEPA filtration and PlasmaWave odor control, a genuinely proven pick for a large office with a mix of dust, odor, and general air-quality needs.\n\nSize this against your actual room dimensions and furniture density, a heavily obstructed large office may still need to supplement with a second unit.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$349.00",
     rating: "4.5 stars from 3,559 Amazon ratings",
     reviews: "3,559 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/41T8P8ptGSL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31K9NLoXncL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BN2MGV5H?tag=deskfinds0d-20",
     description:
       "HEPASilent technology moves genuinely more air than a standard design, meaningful for a large office needing to hit 4-5 air changes per hour across more cubic footage.\n\nHigher CFM at a quieter operating level matters for a large office used for calls throughout the day, this unit balances that airflow-versus-noise tradeoff well.",

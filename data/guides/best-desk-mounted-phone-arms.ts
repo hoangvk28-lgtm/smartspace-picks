@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41T5c8QwZlL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31+F3sAWSTL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$12.99",
     rating: "4.3",
     reviews: "32,606",
-    imageUrl: "https://m.media-amazon.com/images/I/41T5c8QwZlL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31+F3sAWSTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07P2VK93P?tag=deskfinds0d-20",
     description:
       "This gooseneck arm clamps to desk edges via an anti-slip silicone base pad that the listing specifies will not mark furniture, a genuine desk-mounting concern this narrower guide focuses on. The 33.46 inch aluminum arm reaches well above a standard desk surface for hands-free viewing.\n\nAt this price and review volume it is the most proven desk-clamp option in this cluster, though the clip's 4.0-6.3 inch phone width tolerance should be checked against your phone plus case combined.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$14.99",
     rating: "4.4",
     reviews: "23,326",
-    imageUrl: "https://m.media-amazon.com/images/I/41WYQwv7hyL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31sVYQbspmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B079QY6RFQ?tag=deskfinds0d-20",
     description:
       "MAGIPEA's clamp opens to 3 inches, wider than most competitors in this cluster, making it a better fit for thick standing-desk tops or desks with a raised edge lip. EVA pads at the contact points protect the desk finish.\n\nThe arm itself uses a stiff aluminum core rather than a spring, so repositioning takes two hands, but the tradeoff is minimal sag over time once set.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$19.68",
     rating: "4.4",
     reviews: "2,655",
-    imageUrl: "https://m.media-amazon.com/images/I/41vZ0Q8V1lL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/515BergNltL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CKYS81T4?tag=deskfinds0d-20",
     description:
       "This LISEN arm's bi-directional clamp base is designed to work equally well on a desk, bed frame, or nightstand, useful if you move the arm between locations rather than leaving it permanently desk-mounted. Tension knobs at each joint let you dial in exact clip firmness for your phone and case combination.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$33.90",
     rating: "4.4",
     reviews: "1,732",
-    imageUrl: "https://m.media-amazon.com/images/I/41hqB2xR0rL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/419C11rQcXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5YJ42CX?tag=deskfinds0d-20",
     description:
       "The crab clamp on this magic arm opens to 63.5mm and locks via a friction knob rather than spring tension alone, giving it the most secure desk-edge grip in this cluster. Twelve silicone contact points protect both the clamp and the desk surface from scratches.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$33.99",
     rating: "4.5",
     reviews: "988",
-    imageUrl: "https://m.media-amazon.com/images/I/41GgKqfKX+L._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31jBgnNJK5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DN1C9RH2?tag=deskfinds0d-20",
     description:
       "NEEWER's C clamp uses anti-twist mounting pins at each interface, keeping the connection secure specifically at the desk-edge attachment point even under repeated adjustment. It carries the highest rating of this cluster's magic arms, at a nearly identical price to the SMALLRIG pick.",

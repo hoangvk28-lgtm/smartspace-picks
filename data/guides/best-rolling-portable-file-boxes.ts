@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41MRJ+Td0jL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$94.99",
     rating: "5.0",
     reviews: "3",
-    imageUrl: "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41MRJ+Td0jL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GY8TFHMG?tag=deskfinds0d-20",
     description:
       "Honesty note: this aluminum alloy rolling case's perfect rating comes from a very small review count (just 3), so treat it as unproven despite its genuinely premium-sounding construction and integrated lock, at the highest price in this comparison.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$47.49",
     rating: "4.3",
     reviews: "1,526",
-    imageUrl: "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51c1uDWDoaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B5STNV6J?tag=deskfinds0d-20",
     description:
       "This carries a substantially stronger review count than the aluminum pick above, real evidence of proven rolling reliability, combining wheels with a 2-layer design, lock, and fireproof marketing.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: "4.2",
     reviews: "1,935",
-    imageUrl: "https://m.media-amazon.com/images/I/41vB8xKzQPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31tgxXrxOrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000K3GBGY?tag=deskfinds0d-20",
     description:
       "Honesty note: this is a hand-carried box, not wheeled at all, included here as a direct comparison point for buyers deciding whether they actually need rolling mobility or would be equally well served by this premium hand-carried, dual-lock alternative.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$18.99",
     rating: "4.3",
     reviews: "3,133",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41GQ8rqDXhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FVJZD3L?tag=deskfinds0d-20",
     description:
       "Also without wheels, this affordable IRIS USA box is a strong comparison point for buyers who decide their box is light enough to hand-carry, without paying the added cost and bulk of a rolling mechanism.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$55.99",
     rating: "4.5",
     reviews: "721",
-    imageUrl: "https://m.media-amazon.com/images/I/41nQxLz8fPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41khvywa+7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004GXB6RI?tag=deskfinds0d-20",
     description:
       "If your actual need is several separate lighter boxes rather than one large rolling unit, this 4-pack offers a strong per-unit value without any of the added cost and complexity of rolling wheels.",

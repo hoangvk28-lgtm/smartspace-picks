@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$349.00",
     rating: "4.5 stars from 3,559 Amazon ratings",
     reviews: "3,559 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/41T8P8ptGSL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31K9NLoXncL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BN2MGV5H?tag=deskfinds0d-20",
     description:
       "HEPASilent technology moves genuinely more air than a standard HEPA-only design, and higher airflow matters more for pet hair than odor since hair particles are physically larger and heavier than gas molecules.\n\nMore air movement is needed to actually capture hair before it settles, this unit's higher CFM design addresses that specific physics rather than relying on filtration density alone.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$80.74",
     rating: "4.6 stars from 63,485 Amazon ratings",
     reviews: "63,485 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/41c0eBmqPXL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/316AtkHoSdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004VGIGVY?tag=deskfinds0d-20",
     description:
       "A large review base at the lowest price in this guide, genuinely capable for a single-pet home with a moderate hair load rather than a heavy multi-pet household.\n\nA single-pet moderate load is a reasonable fit for this unit's standard CFM, a multi-pet or heavy-shedding-breed home likely needs the higher-airflow pick in this guide instead.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$179.99",
     rating: "4.6 stars from 31,954 Amazon ratings",
     reviews: "31,954 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/51V0i-yOEIL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Wb8TGSnPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT4F8T4L?tag=deskfinds0d-20",
     description:
       "A large, well-established review base with PlasmaWave technology addressing pet odor alongside hair filtration, a genuinely multi-issue pick for pet owners dealing with both.\n\nPlasmaWave is an added odor-neutralizing layer, it doesn't replace the mechanical pre-filter cleaning that pet hair still requires on a weekly basis.",

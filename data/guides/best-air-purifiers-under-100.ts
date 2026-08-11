@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$80.74",
     rating: "4.6 stars from 63,485 Amazon ratings",
     reviews: "63,485 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/41c0eBmqPXL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/316AtkHoSdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004VGIGVY?tag=deskfinds0d-20",
     description:
       "A large, well-established review base at a low price, genuine True HEPA filtration with a carbon component included at this budget tier.\n\nCheck the manufacturer's stated filter lifespan and current replacement filter price before buying, since ongoing cost over a year can rival the unit's original purchase price.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$79.99",
     rating: "4.6 stars from 4,454 Amazon ratings",
     reviews: "4,454 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/41oQGJqYNKL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51nlbgobV2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCBC8KKV?tag=deskfinds0d-20",
     description:
       "An affordable option with a solid review base, marketed for a larger room than a typical budget desktop unit while staying under $100.\n\nA budget unit under $100 can still be genuinely capable for a small-to-medium room, this pick's disclosed coverage rating supports that at its price point.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$79.99",
     rating: "4.6 stars from 1,384 Amazon ratings",
     reviews: "1,384 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/41Y2LKzLmSL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31MxpE4keLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CHW2LLSJ?tag=deskfinds0d-20",
     description:
       "An affordable pick with a genuine 900 sq ft coverage claim and True HEPA PM2.5 filtration, a solid review base backing its performance at this price tier.\n\nCompare the manufacturer's filter lifespan claim against your actual usage before buying, cooking or pet-heavy homes will need more frequent replacement than the standard estimate.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$45.30",
     rating: "4.5 stars from 9,252 Amazon ratings",
     reviews: "9,252 ratings",
-    imageUrl: "https://m.media-amazon.com/images/I/41mBUdCzQwL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41zOBElZS-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08PJQ3MWB?tag=deskfinds0d-20",
     description:
       "The lowest price in this guide by a wide margin with a large review base, genuinely appropriate for a desk zone or small personal space on a tight budget.\n\nAt this price point, the ongoing filter replacement cost matters even more proportionally, factor that into your true cost of ownership over a year.",

@@ -10,7 +10,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41oXqB2vKPL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/61-H71DCbEL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: string; reviews: string;
@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     price: "$24.99",
     rating: "4.5",
     reviews: "75",
-    imageUrl: "https://m.media-amazon.com/images/I/41oXqB2vKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61-H71DCbEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJDS9JZ8?tag=deskfinds0d-20",
     description:
       "This mesh metal drawer functions well as a basket-style storage option, with a weave tight enough to genuinely contain small office supplies rather than letting them fall through, while still offering visibility into contents at a glance.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     price: "$27.99",
     rating: "4.2",
     reviews: "896",
-    imageUrl: "https://m.media-amazon.com/images/I/41oXqB2vKPL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51YpYvY4LwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BR4K8HCZ?tag=deskfinds0d-20",
     description:
       "Two mesh compartments provide genuinely more basket-style storage capacity than a single-basket alternative, and the strong review count gives real confidence in the weave's durability under repeated use.",
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     price: "$17.97",
     rating: "4.6",
     reviews: "280",
-    imageUrl: "https://m.media-amazon.com/images/I/41x8fqzKQaL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51XpqFad+GL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CXCS7YBL?tag=deskfinds0d-20",
     description:
       "Honesty note: this is genuinely wall-mounted rather than desk-edge or under-desk hung, included as an alternative for buyers who'd consider a wall-mounted mesh design if it offers meaningfully more capacity, which its 7 tiers genuinely do.",
@@ -79,7 +79,7 @@ export const products: GuideProduct[] = [
     price: "$16.42",
     rating: "4.7",
     reviews: "1,000",
-    imageUrl: "https://m.media-amazon.com/images/I/41Kj7QpXqLL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51FalFi-PqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B005XK3R02?tag=deskfinds0d-20",
     description:
       "Honesty note: this is a solid-walled in-drawer tray, not a mesh hanging basket, included as the alternative for buyers who decide they want fully solid containment for very small items (paper clips, pins) rather than any mesh weave's small gaps.",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     price: "$13.09",
     rating: "4.6",
     reviews: "148",
-    imageUrl: "https://m.media-amazon.com/images/I/41Kj7QpXqLL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31L34YVEzzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CRT7XZT?tag=deskfinds0d-20",
     description:
       "Also a solid-walled in-drawer tray rather than a mesh hanging basket, this 7-compartment design is the most affordable pick in this comparison and offers the finest small-item separation of any option here.",
