@@ -91,6 +91,7 @@ export default async function AuthorPage({ params }: Props) {
               width={96}
               height={96}
               className="rounded-full shrink-0 object-cover"
+              unoptimized
             />
           ) : (
             <div className="w-24 h-24 rounded-full bg-accent/10 border-2 border-accent/20 flex items-center justify-center shrink-0">
@@ -233,6 +234,7 @@ export default async function AuthorPage({ params }: Props) {
                         fill
                         sizes="80px"
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
+                        unoptimized
                       />
                     </div>
                   )}
