@@ -371,6 +371,10 @@ Three exports are involved, and they serve **different purposes at different dep
 - This applies to all guides going forward and required a retrofit pass across all existing guides on 2026-08-13 (regenerated via `scripts/generate-guide-page.mjs` after the template was stripped of rating/review markup).
 - Do not reintroduce a rating/review display, an `AggregateRating`/`Review` schema populated with Amazon's numbers, or any UI element surfacing this data without explicit user sign-off.
 
+### Pros / Cons List Length (GuideProduct.pros / GuideProduct.cons)
+- **Every product needs at least 3-4 `pros` entries.** Two pros reads thin to a reader and undersells a pick even when the product is genuinely good — this was flagged as a real defect in a shipped batch. Cons can be fewer (2-3 is fine) since editorial judgment naturally surfaces fewer genuine drawbacks than strengths for a product that made the cut to begin with, but don't pad cons artificially just to hit a count.
+- Every pro and con must still be a real, mined fact (a spec, a feature, a tradeoff) — never generic filler like "reliable" or "good value" with nothing backing it up. Padding to 4 pros with a vague line is worse than 3 sharp ones; mine the `features` data harder before inventing filler.
+
 ### "About this pick" Product Description Rules (GuideProduct.description)
 - **Always split into 2 paragraphs** using `\n\n` as separator — never write one long block of text
 - First paragraph: 2-3 sentences covering the main feature or design approach
@@ -379,6 +383,17 @@ Three exports are involved, and they serve **different purposes at different dep
 - Do NOT mention review count, purchase volume, or popularity signals ("most reviewed", "ranked by reviews")
 - Do NOT use em dash or en dash anywhere in descriptions
 - The `description` field is rendered by splitting on `\n\n` — each segment becomes a separate `<p>` tag in the UI
+
+### Guide-Generation Script Pitfalls (added 2026-08-13) — check before running any custom `gen-*-data.mjs` script
+
+When writing a throwaway data-generation script for a batch of guides (the pattern used for e.g. laptop-locks and mini-UPS batches), verify all four of these before running `generate-guide-page.mjs`, not after — each one caused a real, shipped bug in this project:
+
+1. **No em dash (`—`) or en dash (`–`) anywhere in generated text**, including `description`, `buyingCriteria`, `howToChoose`, `faq`, and intro paragraphs — not just the product description field. Run `grep -c "—\|–" scripts/your-gen-script.mjs` before generating, and again on the output `data/guides/*.ts` files after. This rule was violated across an entire 16-article batch because the mined-feature descriptions used dashes as a stylistic connector; a global `" — " → ", "` replace fixed it, but the check should happen before writing, not after a user catches it live.
+2. **`introParagraphs` must serialize as a multi-line array ending in a bare `];` on its own line**, e.g. `JSON.stringify(intro, null, 2)`, never `JSON.stringify(intro)` (single-line). `scripts/generate-guide-page.mjs` extracts `introParagraphs` via the regex `/export const introParagraphs[^=]*=\s*\[([\s\S]*?)\n\];/` — if the array is single-line, this regex fails to close at the intro array and instead greedily matches all the way through to the *next* `\n];` in the file (typically the end of the `products` array), silently pulling every product field (id, badge, price, image URL, full description, pros, cons) into the rendered intro section as literal `<p>` tags. This produces a visibly broken page that still returns HTTP 200 and passes `tsc`, so it will not be caught by the standard verification steps — only by opening the page.
+3. **FAQ entries must use `{ q: "...", a: "..." }` keys**, not `{ question: "...", answer: "..." }`. The generated `page.tsx` template renders `item.q` / `item.a` directly; the wrong key names produce an empty-looking FAQ section with no error anywhere in the build.
+4. **Every product's `specs` array must be populated with 2-3 short, real spec highlights** (e.g. `"20,000mAh with AVR regulation"`, `"36W max, 12-month warranty"`), mined from the same feature data as the description — never leave `specs: []`. The UI renders these as visible chip badges directly under the price in both the product card and comparison view; an empty array silently drops that entire row from the page with no build-time signal.
+
+None of these four bugs throw a build error or a TypeScript error — they only show up as visibly wrong output in the browser. **Always load the actual guide page in a browser (or `curl` it and grep for expected content) after running a new custom gen script, before telling the user a batch is done** — `tsc --noEmit` passing is not sufficient evidence the pages render correctly.
 
 ### MANDATORY: Mine the real `features` data before writing any description — never write generic filler
 
