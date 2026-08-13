@@ -74,7 +74,15 @@ export const howWeEvaluated = [
   }
 ];
 
-export const howToChoose = [
+export interface HowToChooseSection {
+  subheading: string;
+  intro?: string;
+  table?: { headers: string[]; rows: string[][] };
+  cards?: { label: string; text: string }[];
+  note?: string;
+}
+
+export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "A Note on This Capacity Tier",
     "intro": "TalentCell's listing is actually labeled 27,000mAh at the pack level, but the underlying cell rating is 8,800mAh at 11.1V, a good example of why comparing mAh numbers across listings without checking whether the figure is cell-level or pack-level can be misleading.",

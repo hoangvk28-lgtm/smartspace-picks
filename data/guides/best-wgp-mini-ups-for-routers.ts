@@ -122,7 +122,15 @@ export const howWeEvaluated = [
   }
 ];
 
-export const howToChoose = [
+export interface HowToChooseSection {
+  subheading: string;
+  intro?: string;
+  table?: { headers: string[]; rows: string[][] };
+  cards?: { label: string; text: string }[];
+  note?: string;
+}
+
+export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "A Note on This Brand Comparison",
     "intro": "WGP's own documentation (wgp.com.bd and wgpups.com) publishes exact Wh figures for its router-and-ONU models, which is the standard we held every pick on this page to, even when the product itself is a different brand.",

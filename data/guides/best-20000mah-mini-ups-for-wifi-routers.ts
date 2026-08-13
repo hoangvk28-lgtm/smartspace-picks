@@ -90,7 +90,15 @@ export const howWeEvaluated = [
   }
 ];
 
-export const howToChoose = [
+export interface HowToChooseSection {
+  subheading: string;
+  intro?: string;
+  table?: { headers: string[]; rows: string[][] };
+  cards?: { label: string; text: string }[];
+  note?: string;
+}
+
+export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "Why the Same mAh Number Isn't the Same Battery",
     "intro": "The Mini UPS Battery Backup 20000mAh publishes a 74Wh rating, meaning its pack runs at a higher voltage per cell than a generic 20,000mAh power bank rated closer to 37Wh would. When a listing doesn't publish Wh, assume it sits closer to the lower end of this range rather than the higher one.",

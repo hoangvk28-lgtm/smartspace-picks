@@ -138,7 +138,15 @@ export const howWeEvaluated = [
   }
 ];
 
-export const howToChoose = [
+export interface HowToChooseSection {
+  subheading: string;
+  intro?: string;
+  table?: { headers: string[]; rows: string[][] };
+  cards?: { label: string; text: string }[];
+  note?: string;
+}
+
+export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "Simultaneous Output Reality Check",
     "intro": "Before assuming two routers can share a UPS, confirm the unit documents simultaneous multi-port output at full current, not just a total wattage figure that assumes only one port is active at a time.",

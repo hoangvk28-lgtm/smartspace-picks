@@ -122,7 +122,15 @@ export const howWeEvaluated = [
   }
 ];
 
-export const howToChoose = [
+export interface HowToChooseSection {
+  subheading: string;
+  intro?: string;
+  table?: { headers: string[]; rows: string[][] };
+  cards?: { label: string; text: string }[];
+  note?: string;
+}
+
+export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "A Note on This Brand Comparison",
     "intro": "Treat any brand's zero-lag or zero-second switchover claim, including Cuzor's, as manufacturer-stated until independently reproduced. The practical question to ask before buying is whether your specific router reboots on a mains-to-battery transfer, which varies by router firmware as much as by the UPS itself.",

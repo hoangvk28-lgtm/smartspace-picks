@@ -335,7 +335,13 @@ export const dontNeedYet = [
   { item: "Standing desk converter", reason: "A good footrest and posture habit outperforms a converter at a fraction of the cost" },
 ];
 
-export const howToChoose = [
+export interface HowToChooseSection {
+  icon: string;
+  tip: string;
+  body: string;
+}
+
+export const howToChoose: HowToChooseSection[] = [
   { icon: "🔧", tip: "Start with your biggest daily frustration", body: "If cables are a mess -- fix cables first. If you're squinting at a dark screen -- fix lighting first. Don't start with decor." },
   { icon: "📏", tip: "Measure your desk before buying", body: "A 35\" desk mat on a 32\" desk hangs off the edge. A monitor stand too wide for your monitor looks unbalanced. Measure width, depth, and edge thickness before any purchase." },
   { icon: "🔌", tip: "Solve power first", body: "A powered USB hub and cable tray should come before aesthetic items. Getting all devices connected cleanly changes the baseline of your setup. Everything else looks better after this is fixed." },

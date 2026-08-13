@@ -122,7 +122,15 @@ export const howWeEvaluated = [
   }
 ];
 
-export const howToChoose = [
+export interface HowToChooseSection {
+  subheading: string;
+  intro?: string;
+  table?: { headers: string[]; rows: string[][] };
+  cards?: { label: string; text: string }[];
+  note?: string;
+}
+
+export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "Same Label, Different Energy",
     "intro": "The Yuuki Power unit publishes 38Wh at 10,400mAh, while the Luqeeg and two similarly-labeled competitors publish 18Wh at the same mAh figure, more than double the real energy difference under an identical headline number.",

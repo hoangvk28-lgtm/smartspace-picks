@@ -138,7 +138,15 @@ export const howWeEvaluated = [
   }
 ];
 
-export const howToChoose = [
+export interface HowToChooseSection {
+  subheading: string;
+  intro?: string;
+  table?: { headers: string[]; rows: string[][] };
+  cards?: { label: string; text: string }[];
+  note?: string;
+}
+
+export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "9V Current Headroom",
     "intro": "Most units in this cluster rate their 9V rail at 2A. Check your router's power label for its actual 9V current draw, since a router needing more than 2A at 9V would need a different unit or a higher-capacity option entirely."

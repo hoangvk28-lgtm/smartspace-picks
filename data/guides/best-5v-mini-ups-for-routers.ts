@@ -138,7 +138,15 @@ export const howWeEvaluated = [
   }
 ];
 
-export const howToChoose = [
+export interface HowToChooseSection {
+  subheading: string;
+  intro?: string;
+  table?: { headers: string[]; rows: string[][] };
+  cards?: { label: string; text: string }[];
+  note?: string;
+}
+
+export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "USB vs DC Barrel at 5V",
     "intro": "Check whether your router's 5V input uses a USB connector (common on small travel routers) or a DC barrel jack (common on standard home routers), since a mismatched connector type needs an adapter even when the voltage is correct."

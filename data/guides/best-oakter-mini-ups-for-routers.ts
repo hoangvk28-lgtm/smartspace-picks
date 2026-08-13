@@ -106,7 +106,15 @@ export const howWeEvaluated = [
   }
 ];
 
-export const howToChoose = [
+export interface HowToChooseSection {
+  subheading: string;
+  intro?: string;
+  table?: { headers: string[]; rows: string[][] };
+  cards?: { label: string; text: string }[];
+  note?: string;
+}
+
+export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "A Note on This Brand Comparison",
     "intro": "We could not verify every product in Oakter's current lineup through Amazon's product catalog at the time of research. The picks above represent verified, currently accessible alternatives that match Oakter's router-focused positioning rather than a direct Oakter-only ranking.",

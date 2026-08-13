@@ -154,7 +154,15 @@ export const howWeEvaluated = [
   }
 ];
 
-export const howToChoose = [
+export interface HowToChooseSection {
+  subheading: string;
+  intro?: string;
+  table?: { headers: string[]; rows: string[][] };
+  cards?: { label: string; text: string }[];
+  note?: string;
+}
+
+export const howToChoose: HowToChooseSection[] = [
   {
     "subheading": "Identify Your Fiber Equipment First",
     "intro": "Before buying, check whether your ISP-provided box is an ONU/ONT (converts fiber to Ethernet only) or a combined modem-router. Many ISPs label these devices inconsistently on their own paperwork.",

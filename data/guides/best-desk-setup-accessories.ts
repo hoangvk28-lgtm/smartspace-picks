@@ -320,7 +320,13 @@ export const quickPicks = picks.map((p) => ({
   badge: p.badge,
 }));
 
-export const howToChoose = [
+export interface HowToChooseSection {
+  icon: string;
+  title: string;
+  body: string;
+}
+
+export const howToChoose: HowToChooseSection[] = [
   { icon: "📐", title: "Start with your desk size constraint", body: "Everything on a small desk competes for space. Before buying any accessory, measure your desk and decide which items earn surface area (organizer, mat) vs. which should disappear (cable tray under desk, lamp on edge). Accessories that create more space than they consume earn their place." },
   { icon: "🔌", title: "Solve power first, then organize around it", body: "A powered USB hub and cable management tray should come before aesthetic accessories. Getting all your devices connected and cables hidden changes the baseline of your setup. Desk mats and organizers look better and function better when the power situation is resolved." },
   { icon: "🪑", title: "Ergonomics before aesthetics", body: "Monitor stand, laptop stand, and footrest address posture -- the things that affect you physically every day. A desk plant looks good; a monitor at the wrong height causes neck tension over months. Prioritize the ergonomic purchases before the visual ones." },
