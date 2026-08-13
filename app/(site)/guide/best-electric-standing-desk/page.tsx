@@ -64,9 +64,6 @@ function ProductSection({ product }: { product: ElectricDesk }) {
               <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
                 {product.heightRange}
               </span>
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
-                {product.rating}
-              </span>
             </div>
             <div>
               <p className="text-xs font-bold uppercase tracking-widest text-brand mb-1">
@@ -344,7 +341,6 @@ export default async function BestElectricStandingDeskPage() {
                   <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">
                     Height Range
                   </th>
-                  <th className="text-left px-4 py-3 font-semibold">Rating</th>
                   <th className="px-4 py-3"></th>
                 </tr>
               </thead>
@@ -367,9 +363,6 @@ export default async function BestElectricStandingDeskPage() {
                     </td>
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">
                       {row.heightRange}
-                    </td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs">
-                      {row.rating}
                     </td>
                     <td className="px-4 py-3">
                       <a

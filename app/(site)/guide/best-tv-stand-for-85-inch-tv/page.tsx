@@ -61,12 +61,6 @@ function ProductSection({ product }: { product: GuideProduct }) {
               <span className="text-xs px-2.5 py-1 rounded-lg bg-brand-muted text-brand font-bold">
                 {product.price}
               </span>
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
-                {product.rating}
-              </span>
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
-                {product.reviews}
-              </span>
               {product.specs.map((spec, i) => (
                 <span key={i} className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
                   {spec}
@@ -233,7 +227,6 @@ export default async function Page() {
                   <th className="text-left px-4 py-3 font-semibold">Pick</th>
                   <th className="text-left px-4 py-3 font-semibold">Product</th>
                   <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Price</th>
-                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Rating</th>
                   <th className="px-4 py-3"></th>
                 </tr>
               </thead>
@@ -245,7 +238,6 @@ export default async function Page() {
                     </td>
                     <td className="px-4 py-3 font-semibold text-ink text-xs">{product.name}</td>
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{product.price}</td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{product.rating}</td>
                     <td className="px-4 py-3">
                       <a href={product.amazonUrl} target="_blank" rel="noopener noreferrer sponsored" className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>
                         Check price
@@ -317,7 +309,7 @@ export default async function Page() {
               <p className="text-sm text-ink-secondary">
                 <strong className="text-ink">best overall:</strong>{" "}
                 <a href={`#${products[0]?.id}`} className="font-bold text-ink hover:text-brand transition-colors">{products[0]?.name}</a>
-                {" "}- {products[0]?.rating}, {products[0]?.badge.toLowerCase()} pick in this roundup.
+                {" "}{products[0]?.badge.toLowerCase()} pick in this roundup.
               </p>
             </div>
             <p className="text-sm text-ink-secondary pl-5">See the full rankings above for all six picks with pros, cons, and best-for summaries.</p>

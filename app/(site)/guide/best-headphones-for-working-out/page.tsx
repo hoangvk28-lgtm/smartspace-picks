@@ -302,7 +302,6 @@ export default async function BestHeadphonesForWorkingOutPage() {
               <table className="w-full text-sm">
                 <thead>
                   <tr className="bg-brand text-white">
-                    <th className="text-left px-4 py-3 font-semibold">Rating</th>
                     <th className="text-left px-4 py-3 font-semibold">What It Withstands</th>
                     <th className="text-left px-4 py-3 font-semibold">Best For</th>
                   </tr>
@@ -316,7 +315,6 @@ export default async function BestHeadphonesForWorkingOutPage() {
                     { rating: "IP57", desc: "Fully dustproof plus some submersion", best: "Gym and outdoor training" },
                   ].map((row, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
-                      <td className="px-4 py-3 font-bold text-ink text-xs">{row.rating}</td>
                       <td className="px-4 py-3 text-ink-secondary text-xs">{row.desc}</td>
                       <td className="px-4 py-3 text-ink-secondary text-xs">{row.best}</td>
                     </tr>

@@ -61,12 +61,6 @@ function ProductSection({ product }: { product: GuideProduct }) {
               <span className="text-xs px-2.5 py-1 rounded-lg bg-brand-muted text-brand font-bold">
                 {product.price}
               </span>
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
-                {product.rating}
-              </span>
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
-                {product.reviews}
-              </span>
               {product.specs.map((spec, i) => (
                 <span key={i} className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
                   {spec}
@@ -333,12 +327,6 @@ export default async function BestPrinterStandsWithStoragePage() {
                   <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">
                     Price
                   </th>
-                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">
-                    Rating
-                  </th>
-                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">
-                    Reviews
-                  </th>
                   <th className="px-4 py-3"></th>
                 </tr>
               </thead>
@@ -358,12 +346,6 @@ export default async function BestPrinterStandsWithStoragePage() {
                     </td>
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">
                       {row.price}
-                    </td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">
-                      {row.rating}
-                    </td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">
-                      {row.reviews}
                     </td>
                     <td className="px-4 py-3">
                       <a

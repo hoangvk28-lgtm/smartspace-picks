@@ -64,9 +64,6 @@ function ProductSection({ product }: { product: LateralCabinet }) {
               <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
                 {product.finish}
               </span>
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
-                {product.rating}
-              </span>
             </div>
             <div>
               <p className="text-xs font-bold uppercase tracking-widest text-brand mb-1">
@@ -344,7 +341,6 @@ export default async function BestWoodFileCabinetsUnder500Page() {
                   <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">
                     Finish
                   </th>
-                  <th className="text-left px-4 py-3 font-semibold">Rating</th>
                   <th className="px-4 py-3"></th>
                 </tr>
               </thead>
@@ -367,9 +363,6 @@ export default async function BestWoodFileCabinetsUnder500Page() {
                     </td>
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">
                       {row.finish}
-                    </td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs">
-                      {row.rating}
                     </td>
                     <td className="px-4 py-3">
                       <a

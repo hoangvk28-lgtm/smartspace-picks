@@ -60,12 +60,6 @@ function ProductSection({ product }: { product: GuideProduct }) {
               <span className="text-xs px-2.5 py-1 rounded-lg bg-brand-muted text-brand font-bold">
                 {product.price}
               </span>
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
-                {product.rating}
-              </span>
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
-                {product.reviews}
-              </span>
               {product.specs.map((spec, i) => (
                 <span
                   key={i}
@@ -335,12 +329,6 @@ export default async function BestDeskShelvesSmallDesksPage() {
                   <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">
                     Price
                   </th>
-                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">
-                    Rating
-                  </th>
-                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">
-                    Reviews
-                  </th>
                   <th className="px-4 py-3"></th>
                 </tr>
               </thead>
@@ -360,12 +348,6 @@ export default async function BestDeskShelvesSmallDesksPage() {
                     </td>
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">
                       {product.price}
-                    </td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">
-                      {product.rating}
-                    </td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">
-                      {product.reviews}
                     </td>
                     <td className="px-4 py-3">
                       <a

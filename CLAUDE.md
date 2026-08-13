@@ -363,6 +363,14 @@ Three exports are involved, and they serve **different purposes at different dep
 - No marketing superlatives without specific backing ("the best" must be qualified)
 - Use "DeskFinds" as the brand name — never "Desk Finds" (two words) or "deskfinds" (all lowercase)
 
+### Amazon Rating / Review Count Display — FORBIDDEN (added 2026-08-13)
+
+**Never display Amazon's star rating or review count anywhere in guide page content.** This includes the product badge row under "About this pick" and the "Rating" column in the Comparison Table. Amazon's affiliate program terms prohibit republishing their customer rating/review data on third-party sites — doing so risks penalties against the affiliate account. `scripts/generate-guide-page.mjs` must not render `product.rating` or `product.reviews` anywhere in the generated `page.tsx`.
+
+- The `rating` and `reviews` fields may still exist in `data/guides/<slug>.ts` product data (useful internally for ranking/picking which product to feature), but they must never be rendered in the page output.
+- This applies to all guides going forward and required a retrofit pass across all existing guides on 2026-08-13 (regenerated via `scripts/generate-guide-page.mjs` after the template was stripped of rating/review markup).
+- Do not reintroduce a rating/review display, an `AggregateRating`/`Review` schema populated with Amazon's numbers, or any UI element surfacing this data without explicit user sign-off.
+
 ### "About this pick" Product Description Rules (GuideProduct.description)
 - **Always split into 2 paragraphs** using `\n\n` as separator — never write one long block of text
 - First paragraph: 2-3 sentences covering the main feature or design approach
