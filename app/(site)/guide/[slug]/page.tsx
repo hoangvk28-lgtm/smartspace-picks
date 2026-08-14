@@ -32,7 +32,31 @@ type Props = { params: Promise<{ slug: string }> };
 export async function generateStaticParams() {
   const [guideSlugs] = await Promise.all([getPublicGuideSlugs()]);
   const categorySlugs = categories.map((c) => c.slug);
-  const all = [...new Set([...guideSlugs, ...categorySlugs])];
+
+  // Slugs that already have a dedicated static route at app/(site)/guide/<slug>/page.tsx
+  // are fully handled by that literal route and must be excluded here. Including them
+  // causes this dynamic route to rebuild (and ISR-write) the same page a second time on
+  // every deploy, needlessly multiplying Vercel Fast Data Cache read/write usage across
+  // 1500+ guides.
+  const fs = await import("fs");
+  const path = await import("path");
+  const guideDir = path.join(process.cwd(), "app", "(site)", "guide");
+  let staticRouteSlugs = new Set<string>();
+  try {
+    staticRouteSlugs = new Set(
+      fs
+        .readdirSync(guideDir, { withFileTypes: true })
+        .filter((d) => d.isDirectory() && !d.name.startsWith("[") && !d.name.startsWith("("))
+        .map((d) => d.name)
+    );
+  } catch {
+    // If the directory can't be read for any reason, fall back to including everything
+    // rather than silently dropping legitimate DB-only guides.
+  }
+
+  const all = [...new Set([...guideSlugs, ...categorySlugs])].filter(
+    (slug) => !staticRouteSlugs.has(slug)
+  );
   return all.map((slug) => ({ slug }));
 }
 
