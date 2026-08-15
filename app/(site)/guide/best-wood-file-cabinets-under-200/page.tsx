@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
 import { buildMetadata, SITE_URL } from "@/lib/seo";
-import { getPublicGuideBySlug } from "@/lib/public-guides";
 import {
   guideTitle,
   metaTitle,
@@ -150,9 +149,7 @@ function ProductSection({ product }: { product: FileCabinet }) {
 }
 
 export default async function BestWoodFileCabinetsUnder200Page() {
-  const guide = await getPublicGuideBySlug("best-wood-file-cabinets-under-200");
-  const heroImg =
-    guide?.thumbnailImage ?? guide?.heroImage ?? fallbackHeroImage;
+  const heroImg = fallbackHeroImage;
 
   const articleSchema = {
     "@context": "https://schema.org",

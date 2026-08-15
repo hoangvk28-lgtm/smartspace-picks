@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
 import { buildMetadata, SITE_URL } from "@/lib/seo";
-import { getPublicGuideBySlug } from "@/lib/public-guides";
 import {
   guideTitle,
   guideDescription,
@@ -127,8 +126,7 @@ function ProductSection({ product }: { product: WorkHeadset }) {
 }
 
 export default async function BestHeadsetForWorkPage() {
-  const guide = await getPublicGuideBySlug("best-headset-for-work");
-  const heroImg = guide?.thumbnailImage ?? guide?.heroImage ?? fallbackHeroImage;
+  const heroImg = fallbackHeroImage;
 
   const articleSchema = {
     "@context": "https://schema.org",

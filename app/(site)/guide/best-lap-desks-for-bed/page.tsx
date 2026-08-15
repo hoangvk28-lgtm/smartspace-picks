@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
 import { buildMetadata, SITE_URL } from "@/lib/seo";
-import { getPublicGuideBySlug } from "@/lib/public-guides";
 import {
   guideTitle,
   metaTitle,
@@ -128,8 +127,7 @@ function ProductSection({ product }: { product: GuideProduct }) {
 }
 
 export default async function BestLapDesksForBedPage() {
-  const guide = await getPublicGuideBySlug("best-lap-desks-for-bed");
-  const heroImg = guide?.thumbnailImage ?? guide?.heroImage ?? fallbackHeroImage;
+  const heroImg = fallbackHeroImage;
 
   const articleSchema = {
     "@context": "https://schema.org",

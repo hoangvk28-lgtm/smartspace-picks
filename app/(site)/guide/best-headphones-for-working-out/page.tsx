@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
 import { buildMetadata, SITE_URL } from "@/lib/seo";
-import { getPublicGuideBySlug } from "@/lib/public-guides";
 import {
   guideTitle,
   guideDescription,
@@ -131,8 +130,7 @@ function ProductSection({ product }: { product: WorkoutHeadphone }) {
 }
 
 export default async function BestHeadphonesForWorkingOutPage() {
-  const guide = await getPublicGuideBySlug("best-headphones-for-working-out");
-  const heroImg = guide?.thumbnailImage ?? guide?.heroImage ?? fallbackHeroImage;
+  const heroImg = fallbackHeroImage;
 
   const articleSchema = {
     "@context": "https://schema.org",

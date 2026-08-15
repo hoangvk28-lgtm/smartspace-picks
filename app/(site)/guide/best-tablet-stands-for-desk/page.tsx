@@ -8,7 +8,6 @@ import { ProductReviewCard } from "@/components/product/ProductReviewCard";
 import { AtAGlance } from "@/components/product/AtAGlance";
 import { buildMetadata, SITE_URL } from "@/lib/seo";
 import { formatDate } from "@/lib/utils";
-import { getPublicGuideBySlug } from "@/lib/public-guides";
 import {
   products,
   atAGlanceItems,
@@ -144,8 +143,7 @@ const sections = [
 ];
 
 export default async function BestTabletStandsForDeskPage() {
-  const dbGuide = await getPublicGuideBySlug("best-tablet-stands-for-desk");
-  const heroImage = dbGuide?.heroImage || fallbackHeroImage;
+  const heroImage = fallbackHeroImage;
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />

@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
 import { buildMetadata, SITE_URL } from "@/lib/seo";
-import { getPublicGuideBySlug } from "@/lib/public-guides";
 import {
   guideTitle, guideDescription, metaTitle, metaDescription, lastUpdated, readTime,
   heroImage as fallbackHeroImage, products, faq,
@@ -82,8 +81,7 @@ function ProductSection({ product }: { product: MultiCharger }) {
 }
 
 export default async function BestBudgetMultiDeviceChargingStationUnder50Page() {
-  const guide = await getPublicGuideBySlug("best-budget-multi-device-charging-station-under-50");
-  const heroImg = guide?.thumbnailImage ?? guide?.heroImage ?? fallbackHeroImage;
+  const heroImg = fallbackHeroImage;
 
   const articleSchema = {
     "@context": "https://schema.org", "@type": "Article",

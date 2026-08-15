@@ -5,7 +5,6 @@ import { Container } from "@/components/layout/Container";
 import { AtAGlance } from "@/components/product/AtAGlance";
 import { ProductReviewCard } from "@/components/product/ProductReviewCard";
 import { buildMetadata, SITE_URL } from "@/lib/seo";
-import { getPublicGuideBySlug } from "@/lib/public-guides";
 import {
   guideTitle,
   guideDescription, metaTitle, metaDescription,
@@ -28,8 +27,7 @@ export const metadata: Metadata = buildMetadata({
 });
 
 export default async function BestTabletStandsPage() {
-  const dbGuide = await getPublicGuideBySlug("best-tablet-stands");
-  const heroImage = dbGuide?.thumbnailImage || dbGuide?.heroImage || fallbackHeroImage;
+  const heroImage = fallbackHeroImage;
   const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: guideTitle, description: metaDescription, datePublished: "2026-05-24", dateModified: "2026-05-24", author: { "@type": "Person", name: "Jamie Cole", url: `${SITE_URL}/author/jamie-cole` }, publisher: { "@type": "Organization", name: "DeskFinds", url: SITE_URL }, mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/guide/best-tablet-stands` } };
   const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: SITE_URL }, { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` }, { "@type": "ListItem", position: 3, name: guideTitle, item: `${SITE_URL}/guide/best-tablet-stands` }] };
 

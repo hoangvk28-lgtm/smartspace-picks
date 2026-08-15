@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
 import { buildMetadata, SITE_URL } from "@/lib/seo";
-import { getPublicGuideBySlug } from "@/lib/public-guides";
 import { AtAGlance } from "@/components/product/AtAGlance";
 import {
   guideTitle, guideDescription, metaTitle, metaDescription, lastUpdated, readTime,
@@ -80,8 +79,7 @@ function LampSection({ lamp }: { lamp: BudgetLamp }) {
 }
 
 export default async function BestDeskLampUnder30Page() {
-  const guide = await getPublicGuideBySlug("best-desk-lamp-under-30");
-  const heroImg = guide?.thumbnailImage ?? guide?.heroImage ?? fallbackHeroImage;
+  const heroImg = fallbackHeroImage;
   const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: guideTitle, description: metaDescription, datePublished: "2026-06-04", dateModified: "2026-06-04", author: { "@type": "Person", name: "Jamie Cole", url: `${SITE_URL}/author/jamie-cole` }, publisher: { "@type": "Organization", name: "DeskFinds", url: SITE_URL }, mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/guide/best-desk-lamp-under-30` }, about: [{ "@type": "Thing", name: "Desk Lamp" }, { "@type": "Thing", name: "Student Desk Accessories" }, { "@type": "Thing", name: "Dorm Room Essentials" }] };
   const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: SITE_URL }, { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` }, { "@type": "ListItem", position: 3, name: "Best Desk Lamp Under $30", item: `${SITE_URL}/guide/best-desk-lamp-under-30` }] };
   const itemListSchema = { "@context": "https://schema.org", "@type": "ItemList", name: "Best Desk Lamps Under $30 2026", description: "Top 5 desk lamps under $30 for students -- chosen for small-desk footprint, color temperature options, USB power, and dorm compatibility.", numberOfItems: 5, itemListElement: products.map((p) => ({ "@type": "ListItem", position: p.rank, name: `${p.name} -- ${p.badge}`, url: `${SITE_URL}/guide/best-desk-lamp-under-30#${p.id}` })) };

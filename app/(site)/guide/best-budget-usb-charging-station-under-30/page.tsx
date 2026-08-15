@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
 import { buildMetadata, SITE_URL } from "@/lib/seo";
-import { getPublicGuideBySlug } from "@/lib/public-guides";
 import {
   guideTitle, guideDescription, metaTitle, metaDescription, lastUpdated, readTime,
   heroImage as fallbackHeroImage, products, atAGlanceRows, faq,
@@ -81,8 +80,7 @@ function ProductSection({ product }: { product: ChargingProduct }) {
 }
 
 export default async function BestBudgetUsbChargingStationUnder30Page() {
-  const guide = await getPublicGuideBySlug("best-budget-usb-charging-station-under-30");
-  const heroImg = guide?.thumbnailImage ?? guide?.heroImage ?? fallbackHeroImage;
+  const heroImg = fallbackHeroImage;
 
   const articleSchema = {
     "@context": "https://schema.org", "@type": "Article",

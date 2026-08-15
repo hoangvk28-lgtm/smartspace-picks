@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
 import { buildMetadata, SITE_URL } from "@/lib/seo";
-import { getPublicGuideBySlug } from "@/lib/public-guides";
 import {
   guideTitle, guideDescription, metaTitle, metaDescription, lastUpdated, readTime,
   heroImage as fallbackHeroImage, products, faq,
@@ -81,8 +80,7 @@ function ProductSection({ product }: { product: Apple3in1 }) {
 }
 
 export default async function BestBudgetApple3in1ChargingStationUnder40Page() {
-  const guide = await getPublicGuideBySlug("best-budget-apple-3-in-1-charging-station-under-40");
-  const heroImg = guide?.thumbnailImage ?? guide?.heroImage ?? fallbackHeroImage;
+  const heroImg = fallbackHeroImage;
 
   const articleSchema = {
     "@context": "https://schema.org", "@type": "Article",

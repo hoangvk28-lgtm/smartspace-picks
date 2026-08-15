@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
 import { buildMetadata, SITE_URL } from "@/lib/seo";
-import { getPublicGuideBySlug } from "@/lib/public-guides";
 import { AtAGlance } from "@/components/product/AtAGlance";
 import {
   guideTitle,
@@ -117,8 +116,7 @@ function ProductSection({ product }: { product: DockProduct }) {
 }
 
 export default async function BestDockingStationsPage() {
-  const guide = await getPublicGuideBySlug("best-docking-stations-for-desk-setup");
-  const heroImg = guide?.thumbnailImage ?? guide?.heroImage ?? fallbackHeroImage;
+  const heroImg = fallbackHeroImage;
   const articleSchema = { "@context": "https://schema.org", "@type": "Article", headline: guideTitle, description: metaDescription, datePublished: "2026-06-03", dateModified: "2026-06-03", author: { "@type": "Person", name: "Jamie Cole", url: `${SITE_URL}/author/jamie-cole` }, publisher: { "@type": "Organization", name: "DeskFinds", url: SITE_URL }, mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/guide/best-docking-stations-for-desk-setup` }, about: [{ "@type": "Thing", name: "Docking Station" }, { "@type": "Thing", name: "Thunderbolt 4 Dock" }, { "@type": "Thing", name: "Laptop Desk Setup" }], mentions: [{ "@type": "Thing", name: "Thunderbolt 4" }, { "@type": "Thing", name: "Thunderbolt 5" }, { "@type": "Thing", name: "USB4" }, { "@type": "Thing", name: "USB-C Power Delivery" }, { "@type": "Thing", name: "Dual Monitor Setup" }] };
   const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: SITE_URL }, { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` }, { "@type": "ListItem", position: 3, name: "Best Docking Stations for Desk Setup", item: `${SITE_URL}/guide/best-docking-stations-for-desk-setup` }] };
   const itemListSchema = { "@context": "https://schema.org", "@type": "ItemList", name: "Best Docking Stations for Desk Setup 2026", description: "Top 6 docking stations for laptop desk setups -- from budget USB-C hubs to Thunderbolt 5 powerhouses, ranked by use case.", numberOfItems: 6, itemListElement: products.map((p) => ({ "@type": "ListItem", position: p.rank, name: `${p.name} -- ${p.badge}`, url: `${SITE_URL}/guide/best-docking-stations-for-desk-setup#${p.id}` })) };

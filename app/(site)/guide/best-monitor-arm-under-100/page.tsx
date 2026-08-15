@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
 import { buildMetadata, SITE_URL } from "@/lib/seo";
-import { getPublicGuideBySlug } from "@/lib/public-guides";
 import {
   guideTitle,
   metaTitle,
@@ -162,9 +161,7 @@ function ProductSection({ product }: { product: MonitorArm100 }) {
 }
 
 export default async function BestMonitorArmUnder100Page() {
-  const guide = await getPublicGuideBySlug("best-monitor-arm-under-100");
-  const heroImg =
-    guide?.thumbnailImage ?? guide?.heroImage ?? fallbackHeroImage;
+  const heroImg = fallbackHeroImage;
 
   const articleSchema = {
     "@context": "https://schema.org",
