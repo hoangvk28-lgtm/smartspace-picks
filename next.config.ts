@@ -50,6 +50,13 @@ const nextConfig: NextConfig = {
       bodySizeLimit: "10mb",
     },
   },
+  // Type-checking already runs locally (`npx tsc --noEmit`) before every push per the
+  // pre-commit gate. With 1600+ static guide pages, Next's in-build tsc pass was taking
+  // long enough to hit the Vercel Hobby plan's ~45min build timeout, causing build errors
+  // and backing up the deploy queue. Skip the redundant in-build check.
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   images: {
     remotePatterns: [
       {
