@@ -235,6 +235,22 @@ export const faq = [
   {
     "q": "Do I need to buy drives separately for an enclosure?",
     "a": "Yes, every product in this list ships diskless. Budget SATA HDDs or SSDs (or NVMe SSDs for hybrid/NVMe-specific enclosures) separately when comparing total cost against a preconfigured external drive."
+  },
+  {
+    "q": "Does RAID replace the need for a separate backup?",
+    "a": "No. RAID protects against a single drive's hardware failure, but it does not protect against accidental deletion, ransomware, fire, theft, or a controller failure that affects the whole array at once. Keep a genuine separate backup copy of anything you can't afford to lose."
+  },
+  {
+    "q": "Will any USB-C or Thunderbolt cable give me full DAS speed?",
+    "a": "No. Cable quality and rated bandwidth matter as much as the port. A basic charging-only USB-C cable can bottleneck a 10Gbps or faster enclosure well below its rated speed. Use the cable included with the enclosure, or one explicitly rated for the matching USB or Thunderbolt generation."
+  },
+  {
+    "q": "Can I add or remove drives from a DAS enclosure without powering it down?",
+    "a": "Only if the specific enclosure documents hot-swap support, which most tool-free tray designs in this category do. Always check your specific product's hot-swap capability before removing a drive live, since not every budget enclosure supports it, especially some fixed-RAID-mode units."
+  },
+  {
+    "q": "How long is the typical warranty on a DAS enclosure?",
+    "a": "Warranty terms vary meaningfully by brand in this category, from 1 year (often extendable to 2 with registration) on enclosures like Sabrent's docks, up to 5 years on premium products like OWC's Envoy Ultra. Check the specific product's warranty length before assuming it matches a competitor's."
   }
 ];
 

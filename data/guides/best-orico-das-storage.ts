@@ -223,6 +223,22 @@ export const faq = [
   {
     "q": "Why do some ORICO enclosures only read one drive at a time on Linux?",
     "a": "ORICO documents this as a known limitation across its multi-bay enclosure line specifically on Linux systems, unrelated to Windows or macOS behavior. Check this explicitly if Linux compatibility across all bays simultaneously is required."
+  },
+  {
+    "q": "Does RAID replace the need for a separate backup?",
+    "a": "No. RAID protects against a single drive's hardware failure, but it does not protect against accidental deletion, ransomware, fire, theft, or a controller failure that affects the whole array at once. Keep a genuine separate backup copy of anything you can't afford to lose."
+  },
+  {
+    "q": "Do DAS enclosures come with drives included?",
+    "a": "Most multi-bay DAS enclosures in this category ship completely diskless, you supply your own 2.5in or 3.5in SATA HDDs/SSDs or M.2 NVMe SSDs depending on the model. Budget for drive cost separately when comparing total price against a preconfigured external drive."
+  },
+  {
+    "q": "Will any USB-C or Thunderbolt cable give me full DAS speed?",
+    "a": "No. Cable quality and rated bandwidth matter as much as the port. A basic charging-only USB-C cable can bottleneck a 10Gbps or faster enclosure well below its rated speed. Use the cable included with the enclosure, or one explicitly rated for the matching USB or Thunderbolt generation."
+  },
+  {
+    "q": "Can I add or remove drives from a DAS enclosure without powering it down?",
+    "a": "Only if the specific enclosure documents hot-swap support, which most tool-free tray designs in this category do. Always check your specific product's hot-swap capability before removing a drive live, since not every budget enclosure supports it, especially some fixed-RAID-mode units."
   }
 ];
 

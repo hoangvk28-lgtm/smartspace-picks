@@ -239,6 +239,22 @@ export const faq = [
   {
     "q": "Does a faster NVMe enclosure always mean faster real-world transfers?",
     "a": "Only if your host port, cable, and SSD can all sustain that speed. An 80Gbps enclosure on a Thunderbolt 3 host caps out around 40Gbps, and a slower SSD becomes the bottleneck regardless of enclosure speed."
+  },
+  {
+    "q": "Does RAID replace the need for a separate backup?",
+    "a": "No. RAID protects against a single drive's hardware failure, but it does not protect against accidental deletion, ransomware, fire, theft, or a controller failure that affects the whole array at once. Keep a genuine separate backup copy of anything you can't afford to lose."
+  },
+  {
+    "q": "Do DAS enclosures come with drives included?",
+    "a": "Most multi-bay DAS enclosures in this category ship completely diskless, you supply your own 2.5in or 3.5in SATA HDDs/SSDs or M.2 NVMe SSDs depending on the model. Budget for drive cost separately when comparing total price against a preconfigured external drive."
+  },
+  {
+    "q": "Can I add or remove drives from a DAS enclosure without powering it down?",
+    "a": "Only if the specific enclosure documents hot-swap support, which most tool-free tray designs in this category do. Always check your specific product's hot-swap capability before removing a drive live, since not every budget enclosure supports it, especially some fixed-RAID-mode units."
+  },
+  {
+    "q": "How long is the typical warranty on a DAS enclosure?",
+    "a": "Warranty terms vary meaningfully by brand in this category, from 1 year (often extendable to 2 with registration) on enclosures like Sabrent's docks, up to 5 years on premium products like OWC's Envoy Ultra. Check the specific product's warranty length before assuming it matches a competitor's."
   }
 ];
 

@@ -20,6 +20,35 @@ const howWeEvaluatedDefault = [
   { title: "Total Ownership Cost", description: "Considered that most DAS enclosures ship diskless, factoring in drive cost, cables, and RAID software where relevant rather than judging price on the empty enclosure alone." },
 ];
 
+// Shared, factually-grounded FAQ pool used to top up every article's bespoke FAQ
+// entries to the required 5-6 count without repeating a topic already covered
+// by that article's own specific questions.
+const sharedFaqPool = [
+  { key: "raid-not-backup", q: "Does RAID replace the need for a separate backup?", a: "No. RAID protects against a single drive's hardware failure, but it does not protect against accidental deletion, ransomware, fire, theft, or a controller failure that affects the whole array at once. Keep a genuine separate backup copy of anything you can't afford to lose." },
+  { key: "diskless", q: "Do DAS enclosures come with drives included?", a: "Most multi-bay DAS enclosures in this category ship completely diskless, you supply your own 2.5in or 3.5in SATA HDDs/SSDs or M.2 NVMe SSDs depending on the model. Budget for drive cost separately when comparing total price against a preconfigured external drive." },
+  { key: "cable-speed", q: "Will any USB-C or Thunderbolt cable give me full DAS speed?", a: "No. Cable quality and rated bandwidth matter as much as the port. A basic charging-only USB-C cable can bottleneck a 10Gbps or faster enclosure well below its rated speed. Use the cable included with the enclosure, or one explicitly rated for the matching USB or Thunderbolt generation." },
+  { key: "hotswap", q: "Can I add or remove drives from a DAS enclosure without powering it down?", a: "Only if the specific enclosure documents hot-swap support, which most tool-free tray designs in this category do. Always check your specific product's hot-swap capability before removing a drive live, since not every budget enclosure supports it, especially some fixed-RAID-mode units." },
+  { key: "warranty", q: "How long is the typical warranty on a DAS enclosure?", a: "Warranty terms vary meaningfully by brand in this category, from 1 year (often extendable to 2 with registration) on enclosures like Sabrent's docks, up to 5 years on premium products like OWC's Envoy Ultra. Check the specific product's warranty length before assuming it matches a competitor's." },
+  { key: "noise", q: "Are multi-bay DAS enclosures loud?", a: "It varies by brand and cooling design. Several enclosures explicitly disclose fan noise in the 40-50 decibel range, audible in a quiet room, while others like TerraMaster's D-series document sub-21dB(A) standby noise. Check the specific product's noise disclosure if it will sit somewhere quiet." },
+  { key: "sata-vs-nvme", q: "Should I choose a SATA or NVMe DAS enclosure?", a: "SATA HDD/SSD enclosures cost less per TB and suit bulk capacity or archive storage. NVMe enclosures cost more per TB but deliver several times the throughput, worth it specifically for active video editing, large working files, or any workflow where transfer speed is the bottleneck rather than total capacity." },
+  { key: "power-loss", q: "What happens to a DAS enclosure if power is interrupted mid-transfer?", a: "Behavior depends on the specific product. Some enclosures, like TerraMaster's D8 Hybrid and D4 SSD, document automatic power-loss recovery that restarts the unit after an outage. Enclosures without this feature may require manually reconnecting or, in rare cases, risk incomplete writes if power drops during an active transfer." },
+];
+
+function fillFaq(specificFaq, count = 5) {
+  const specificKeys = new Set();
+  const out = [...specificFaq];
+  const specificText = specificFaq.map((f) => (f.q + f.a).toLowerCase()).join(" ");
+  for (const item of sharedFaqPool) {
+    if (out.length >= count) break;
+    // Skip a shared question if its core topic is already substantively covered.
+    const topicWords = item.key.split("-");
+    const alreadyCovered = topicWords.every((w) => specificText.includes(w));
+    if (alreadyCovered) continue;
+    out.push({ q: item.q, a: item.a });
+  }
+  return out;
+}
+
 function badge(i, total) {
   if (i === 0) return "Best Overall";
   if (i === total - 1 && total > 2) return "Budget Pick";
@@ -378,7 +407,7 @@ export const howToChoose: HowToChooseSection[] = ${JSON.stringify(howToChoose, n
 
 export const buyingCriteria = ${JSON.stringify(buyingCriteriaDefault, null, 2)};
 
-export const faq = ${JSON.stringify(faq.map(f => ({ q: f.q, a: f.a })), null, 2)};
+export const faq = ${JSON.stringify(fillFaq(faq, 5).map(f => ({ q: f.q, a: f.a })), null, 2)};
 
 export const relatedGuides: { href: string; title: string }[] = ${JSON.stringify(related.map((s) => ({ href: `/guide/${s}`, title: titleMap[s] || s })))};
 `;

@@ -243,6 +243,18 @@ export const faq = [
   {
     "q": "Do I need RAID in a DAS enclosure?",
     "a": "Only if you specifically need redundancy against a single drive failure or want combined capacity/speed across drives. Many buyers are better served by a non-RAID JBOD enclosure plus a genuine separate backup, since RAID adds complexity and cost without replacing backup."
+  },
+  {
+    "q": "Does RAID replace the need for a separate backup?",
+    "a": "No. RAID protects against a single drive's hardware failure, but it does not protect against accidental deletion, ransomware, fire, theft, or a controller failure that affects the whole array at once. Keep a genuine separate backup copy of anything you can't afford to lose."
+  },
+  {
+    "q": "Do DAS enclosures come with drives included?",
+    "a": "Most multi-bay DAS enclosures in this category ship completely diskless, you supply your own 2.5in or 3.5in SATA HDDs/SSDs or M.2 NVMe SSDs depending on the model. Budget for drive cost separately when comparing total price against a preconfigured external drive."
+  },
+  {
+    "q": "Will any USB-C or Thunderbolt cable give me full DAS speed?",
+    "a": "No. Cable quality and rated bandwidth matter as much as the port. A basic charging-only USB-C cable can bottleneck a 10Gbps or faster enclosure well below its rated speed. Use the cable included with the enclosure, or one explicitly rated for the matching USB or Thunderbolt generation."
   }
 ];
 

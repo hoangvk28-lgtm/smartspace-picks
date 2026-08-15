@@ -235,6 +235,22 @@ export const faq = [
   {
     "q": "Does interface bandwidth really become a bottleneck with more bays?",
     "a": "Yes. A 5Gbps USB 3.0 connection realistically supports about 2-3 HDDs running at full sustained speed simultaneously before the shared bus becomes the limiting factor, not all 8 drives in an 8-bay enclosure at once."
+  },
+  {
+    "q": "Does RAID replace the need for a separate backup?",
+    "a": "No. RAID protects against a single drive's hardware failure, but it does not protect against accidental deletion, ransomware, fire, theft, or a controller failure that affects the whole array at once. Keep a genuine separate backup copy of anything you can't afford to lose."
+  },
+  {
+    "q": "Do DAS enclosures come with drives included?",
+    "a": "Most multi-bay DAS enclosures in this category ship completely diskless, you supply your own 2.5in or 3.5in SATA HDDs/SSDs or M.2 NVMe SSDs depending on the model. Budget for drive cost separately when comparing total price against a preconfigured external drive."
+  },
+  {
+    "q": "Will any USB-C or Thunderbolt cable give me full DAS speed?",
+    "a": "No. Cable quality and rated bandwidth matter as much as the port. A basic charging-only USB-C cable can bottleneck a 10Gbps or faster enclosure well below its rated speed. Use the cable included with the enclosure, or one explicitly rated for the matching USB or Thunderbolt generation."
+  },
+  {
+    "q": "Can I add or remove drives from a DAS enclosure without powering it down?",
+    "a": "Only if the specific enclosure documents hot-swap support, which most tool-free tray designs in this category do. Always check your specific product's hot-swap capability before removing a drive live, since not every budget enclosure supports it, especially some fixed-RAID-mode units."
   }
 ];
 
