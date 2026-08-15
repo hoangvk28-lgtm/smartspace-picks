@@ -1,0 +1,218 @@
+export const guideSlug = "best-reception-desks-for-beauty-salon";
+export const guideTitle = "6 Best Reception Desks for Beauty Salon in 2026";
+export const metaTitle = "Best Beauty Salon Reception Desks 2026";
+export const metaDescription = "We checked finish cleanability against lotions and frequent salon cleaning, and staged appointment and payment workflow before ranking beauty salon reception desks.";
+export const mainKeyword = "reception desk for beauty salon";
+export const introParagraphs = [
+  "Beauty-salon reception combines appointment check-in, payment, and retail merchandising while the desk surface faces lotions, oils, and frequent cleaning that a generic office desk isn't tested for.",
+  "We verified finish care against manufacturer guidance for repeated cleaning, checked retail-display visibility against receptionist eye contact, and provided a client bag or purse landing area away from the keyboard and POS electronics."
+];
+export const lastUpdated = "2026-08-15";
+export const readTime = "8 min";
+export const heroImage = "https://m.media-amazon.com/images/I/51TUb8MOmRL._SL500_.jpg";
+
+export interface GuideProduct {
+  id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
+  imageUrl: string; amazonUrl: string; description: string; specs: string[]; pros: string[]; cons: string[]; bestFor: string;
+}
+
+export const products: GuideProduct[] = [
+  {
+    id: "best-reception-desks-for-beauty-salon-1",
+    rank: 1,
+    badge: "Best Overall",
+    name: "Tribesigns Reception Desk with Counter, 47\"",
+    price: "$169.99",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/51TUb8MOmRL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CVR8GQH3?tag=deskfinds0d-20",
+    description: "The 46.5\"W x 19.7\"D desktop sits behind a 43.9\"-tall front counter tall enough for visitors to stand comfortably at, with wraparound side panels creating a genuinely private staff-side area rather than just a decorative front panel. A raised upper shelf doubles as either a writing ledge for visitors or a cash register perch.\n\nConstruction pairs thickened MDF with a steel frame for a 220 lb weight capacity, and grommet holes are built in for cord management. Four adjustable feet handle minor floor unevenness, which matters at this price point where many competitors skip leveling entirely.",
+    specs: ["46.5\"W x 19.7\"D desktop, 43.9\" counter height","220 lb weight capacity, steel-reinforced MDF frame","4 adjustable feet, grommet cord holes"],
+    pros: ["220 lb capacity is high for its $170 price tier","Wraparound side panels give real staff privacy, not just a front screen","Adjustable feet included at a budget price point"],
+    cons: ["47\" width limits it to single-person reception use","No lock on the storage compartment"],
+    bestFor: "buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height",
+  },
+  {
+    id: "best-reception-desks-for-beauty-salon-2",
+    rank: 2,
+    badge: "Best Fluted",
+    name: "Kikihouse 63\" Fluted Reception Desk with LED, Maple",
+    price: "$299.99",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/41w1qSc1ZKL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GMQ32NXF?tag=deskfinds0d-20",
+    description: "Identical build to Kikihouse's Red Oak fluted desk but in a Maple finish: 63\"W x 22\"D x 42\"H with vertical fluting and LED lighting, a dedicated off-ground computer tower compartment, lockable drawers, storage cabinets, and a sliding keyboard tray.\n\nThe fluted panel also works as a promotional or logo display surface, and the desk is sized for offices, lobbies, nail salons, dental offices, and spas alike.",
+    specs: ["63\"W x 22\"D x 42\"H fluted-front desk, Maple","Dedicated off-ground computer tower space","Lockable drawers, cabinets, sliding keyboard tray"],
+    pros: ["Maple finish suits brighter, lighter salon and clinic interiors","Same dedicated computer tower protection as the Red Oak version","Full storage set including sliding keyboard tray"],
+    cons: ["Fluted panels may be harder to wipe clean than a flat surface","42\" height suits standard interaction, not a raised transaction counter"],
+    bestFor: "buyers prioritizing 63\"w x 22\"d x 42\"h fluted-front desk, maple",
+  },
+  {
+    id: "best-reception-desks-for-beauty-salon-3",
+    rank: 3,
+    badge: "Best with LED",
+    name: "AHB Reception Desk with Counter and LED Light Strips",
+    price: "$249.99",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/31JMmht+p4L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CWGR4YHS?tag=deskfinds0d-20",
+    description: "AHB builds tabletop sockets directly into this desk for light-strip plugs and device chargers, then ships it with remote-controllable color-changing LED strips and two metallic decal color options so the front panel can be customized rather than left plain. The double front-panel storage and multi-purpose crossbar make use of the open tabletop area for personalization.\n\nTwo lockable drawers and high side panels handle privacy and document security, and the P2 solid particle board panels use veneer edges that wipe clean with a damp cloth rather than needing special cleaners.",
+    specs: ["Built-in tabletop sockets for LED/charger plugs","2 lockable drawers, high side panels","P2 solid particle board, damp-cloth cleanable"],
+    pros: ["Remote-controllable LED lighting included, not an add-on","Tabletop sockets purpose-built for light strips and chargers","Easy-clean veneer edges suit high-traffic salon use"],
+    cons: ["DIY decal customization means visible seams if not applied carefully","Particle board core, not solid wood or steel-reinforced"],
+    bestFor: "buyers prioritizing built-in tabletop sockets for led/charger plugs",
+  },
+  {
+    id: "best-reception-desks-for-beauty-salon-4",
+    rank: 4,
+    badge: "Best Curved",
+    name: "47\" Reception Desk with LED and Power Outlets",
+    price: "$599.99",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/41QM2ur7ZmL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0H7S7HFBQ?tag=deskfinds0d-20",
+    description: "The smooth curved silhouette and soft matte white finish with a textured wave-panel exterior give this 47\" desk a genuinely upscale, minimalist look, backed by a built-in warm LED strip at the bottom for a welcoming atmosphere. A pull-out keyboard tray, lockable drawer, and large open cabinet keep the computer, cash register, and documents organized and secure.\n\nHigh-quality wood construction resists scratches and wipes clean easily, and the compact, streamlined footprint suits small reception areas, lobbies, or checkout corners without looking undersized next to larger desks.",
+    specs: ["47\" curved desk, matte white wave-panel finish","Built-in warm LED strip","Pull-out keyboard tray + lockable drawer + open cabinet"],
+    pros: ["Curved silhouette and wave-panel texture stand out from flat-panel competitors","Pull-out keyboard tray adds ergonomics most 47\" desks skip","Compact footprint suits small salons, spas, and boutique lobbies"],
+    cons: ["47\" width limits it to a single staff position","Matte white finish shows scuffs more visibly than darker tones"],
+    bestFor: "buyers prioritizing 47\" curved desk, matte white wave-panel finish",
+  },
+  {
+    id: "best-reception-desks-for-beauty-salon-5",
+    rank: 5,
+    badge: "Best Large",
+    name: "ZIMASYA 87\" Reception Counter with Combination Lock Drawers",
+    price: "$649.99",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/41X2uOnWTZL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GXB26RLF?tag=deskfinds0d-20",
+    description: "The larger 86.6\" version of ZIMASYA's combination-lock reception counter, offering substantially more workspace for checking in guests, organizing documents, and managing appointments while keeping the same built-in LED lighting, power outlets, and combination-lock drawer security.\n\nA front privacy screen and clean white finish carry over from the smaller model, and the sturdy, scratch-resistant engineered wood construction is built for offices, beauty salons, lobbies, and retail spaces handling higher daily traffic.",
+    specs: ["86.6\" L-shaped desk, white finish","Combination-lock drawers","Built-in LED lights + power outlets"],
+    pros: ["86.6\" length suits higher-traffic lobbies needing more workspace","Same combination-lock security as the smaller ZIMASYA model","Built-in power outlets for salon tools and office equipment"],
+    cons: ["White finish shows scuffs more visibly than darker tones","Larger size needs a genuinely spacious lobby footprint"],
+    bestFor: "buyers prioritizing 86.6\" l-shaped desk, white finish",
+  },
+  {
+    id: "best-reception-desks-for-beauty-salon-6",
+    rank: 6,
+    badge: "Best with Privacy Screen",
+    name: "ZIMASYA 87\" Reception Counter with Privacy Screen, White",
+    price: "$649.99",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/41nRKQmGVJL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0H68Z6T1F?tag=deskfinds0d-20",
+    description: "The 86.6\" ZIMASYA counter with a front privacy screen creating a genuine private workspace for the receptionist while boosting the professional look of the reception area overall. Built-in LED lighting and power outlets support charging computers, printers, and beauty tools directly at the desk.\n\nCombination-lock drawers secure documents, cash, and valuables without a physical key, and the sturdy, scratch-resistant engineered wood construction wipes clean easily for daily high-traffic use.",
+    specs: ["86.6\" L-shaped desk, white finish","Front privacy screen","Combination-lock drawers, built-in LED + power outlets"],
+    pros: ["Front privacy screen genuinely separates staff and visitor sightlines","86.6\" length suits higher-traffic salon or office lobbies","Combination locks eliminate lost-key risk"],
+    cons: ["White finish shows scuffs more visibly than darker tones","Larger size needs a genuinely spacious footprint"],
+    bestFor: "buyers prioritizing 86.6\" l-shaped desk, white finish",
+  }
+];
+
+export const howWeEvaluated = [
+  {
+    "title": "Usable Staff-Side Dimensions",
+    "description": "Measured actual usable worksurface depth and width after end panels, counters, storage, and center supports, since nominal desk width is consistently smaller than usable work area once storage is installed."
+  },
+  {
+    "title": "Visitor Transaction Geometry",
+    "description": "Checked counter height, depth, and uninterrupted usable length where a raised transaction top exists, since a decorative ledge does not function the same as a real service counter."
+  },
+  {
+    "title": "Storage and Cable Routing",
+    "description": "Traced power and cable paths from the desk's grommets and cutouts through drawers and storage, and verified lockable versus open storage split rather than counting drawers alone."
+  },
+  {
+    "title": "Material and Finish Durability",
+    "description": "Compared documented substrate, edge construction, and finish care claims across MDF, particleboard, engineered wood, veneer, and stone-look surfaces rather than judging by color photography."
+  },
+  {
+    "title": "Installed Footprint and Serviceability",
+    "description": "Weighed assembly complexity, multi-package shipping, and realistic room fit against the desk's stated dimensions before ranking."
+  }
+];
+
+export interface HowToChooseSection {
+  subheading: string;
+  intro?: string;
+  table?: { headers: string[]; rows: string[][] };
+  cards?: { label: string; text: string }[];
+  note?: string;
+}
+
+export const howToChoose: HowToChooseSection[] = [
+  {
+    "subheading": "Combine Check-In and Payment Without Losing Handoff Space",
+    "note": "Stage appointment check-in, rebooking, and payment together without crowding out the signature and handoff area where clients sign or tap to pay."
+  },
+  {
+    "subheading": "Verify Finish Care Against Salon Products",
+    "note": "Check finish care against manufacturer guidance for lotions, oils, sprays, and routine salon cleaning rather than assuming any laminate or MDF surface resists product residue equally."
+  },
+  {
+    "subheading": "Balance Retail Display with Eye Contact",
+    "note": "Measure retail-display visibility without blocking the receptionist's eye contact with arriving clients, since a tall display can create a visual barrier at exactly the wrong spot."
+  },
+  {
+    "subheading": "Provide a Client Bag Landing Area",
+    "note": "Reserve a client bag or purse landing area away from the keyboard and POS electronics, since a crowded desktop pushes personal items onto sensitive equipment."
+  },
+  {
+    "subheading": "Check Circulation Around Waiting Chairs",
+    "note": "Verify circulation around waiting chairs, product shelves, and the reception counter itself, since a salon entry is typically more compact than a corporate lobby."
+  }
+];
+
+export const buyingCriteria = [
+  {
+    "criterion": "Combine Check-In and Payment Without Losing Handoff Space",
+    "explanation": "Stage appointment check-in, rebooking, and payment together without crowding out the signature and handoff area where clients sign or tap to pay."
+  },
+  {
+    "criterion": "Verify Finish Care Against Salon Products",
+    "explanation": "Check finish care against manufacturer guidance for lotions, oils, sprays, and routine salon cleaning rather than assuming any laminate or MDF surface resists product residue equally."
+  },
+  {
+    "criterion": "Balance Retail Display with Eye Contact",
+    "explanation": "Measure retail-display visibility without blocking the receptionist's eye contact with arriving clients, since a tall display can create a visual barrier at exactly the wrong spot."
+  },
+  {
+    "criterion": "Provide a Client Bag Landing Area",
+    "explanation": "Reserve a client bag or purse landing area away from the keyboard and POS electronics, since a crowded desktop pushes personal items onto sensitive equipment."
+  },
+  {
+    "criterion": "Check Circulation Around Waiting Chairs",
+    "explanation": "Verify circulation around waiting chairs, product shelves, and the reception counter itself, since a salon entry is typically more compact than a corporate lobby."
+  }
+];
+
+export const faq = [
+  {
+    "q": "What desk finish holds up best to salon products like hair color and lotions?",
+    "a": "A sealed laminate or thickened MDF surface with a scratch- and water-resistant coating generally holds up well to routine wipe-downs, but always check the manufacturer's specific cleaning guidance for chemical exposure like hair color or oil-based products before assuming any finish is fully resistant."
+  },
+  {
+    "q": "How much retail display space should a salon reception desk have?",
+    "a": "It depends on how much retail product the salon sells, but keeping display shelving to the side or below eye level (rather than directly in front of the receptionist's line of sight) helps maintain visitor eye contact while still showing product."
+  },
+  {
+    "q": "Does a salon reception desk need a raised counter for payment?",
+    "a": "A raised counter helps for card readers and signature pads, but it's not strictly required if the salon uses a mobile or countertop payment terminal that fits comfortably on a flat desktop."
+  },
+  {
+    "q": "Do reception desks with storage always include a lock?",
+    "a": "No. Many listings include one lockable drawer alongside open shelving or cabinets, but not every storage compartment locks. Check the specific listing for which drawers or cabinets are lockable versus open before assuming full document security."
+  },
+  {
+    "q": "Does a cable grommet hole guarantee tidy cable management?",
+    "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
+  }
+];
+
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks-for-salon","title":"6 Best Reception Desks for Salon in 2026"},{"href":"/guide/best-reception-desks-for-hair-salon","title":"6 Best Reception Desks for Hair Salon in 2026"},{"href":"/guide/best-reception-desks-for-nail-salon","title":"best-reception-desks-for-nail-salon"}];
