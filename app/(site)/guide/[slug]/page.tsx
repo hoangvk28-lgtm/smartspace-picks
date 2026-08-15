@@ -22,6 +22,8 @@ import { SITE_URL } from "@/lib/seo";
 import { amazonSearchLinks } from "@/lib/amazon-links";
 import { categories, getCategoryBySlug } from "@/data/categories";
 import { authorToSlug, getAuthorByName } from "@/data/authors";
+import { guideDataLoaders } from "@/data/guides-index.generated";
+import { RichGuidePage } from "@/components/guide/RichGuidePage";
 
 export const revalidate = 604800;
 
@@ -54,8 +56,12 @@ export async function generateStaticParams() {
     // rather than silently dropping legitimate DB-only guides.
   }
 
+  // Slugs backed by a rich data/guides/<slug>.ts file (via guideDataLoaders) are
+  // rendered on-demand through the RichGuidePage branch below and must also stay out
+  // of eager static generation here, whether or not they still have a literal route
+  // directory - that's the whole point of moving them off the eager-build path.
   const all = [...new Set([...guideSlugs, ...categorySlugs])].filter(
-    (slug) => !staticRouteSlugs.has(slug)
+    (slug) => !staticRouteSlugs.has(slug) && !guideDataLoaders[slug]
   );
   return all.map((slug) => ({ slug }));
 }
@@ -70,6 +76,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: `${category.name} Buying Guides`,
       description: category.description,
       path: `/guide/${slug}`,
+    });
+  }
+
+  // Rich guide (data/guides/<slug>.ts), rendered on-demand instead of via a literal route
+  const loadRichGuide = guideDataLoaders[slug];
+  if (loadRichGuide) {
+    const richData = await loadRichGuide();
+    return buildMetadata({
+      title: richData.metaTitle,
+      description: richData.metaDescription,
+      path: `/guide/${slug}`,
+      image: richData.heroImage,
+      type: "article",
     });
   }
 
@@ -144,6 +163,18 @@ const scoringCriteria = [
 
 export default async function BuyingGuidePage({ params }: Props) {
   const { slug } = await params;
+
+  // ── Rich guide (data/guides/<slug>.ts), rendered on-demand ────────────────
+  // Guides that ship without a literal app/(site)/guide/<slug>/page.tsx route (either
+  // because they were never generated as one, or because they were demoted off the
+  // eager-build path) render here instead, via the same template every generated
+  // static page uses. First request renders and ISR-caches it; it never costs build
+  // time regardless of how many guides exist.
+  const loadRichGuide = guideDataLoaders[slug];
+  if (loadRichGuide) {
+    const richData = await loadRichGuide();
+    return <RichGuidePage slug={slug} {...richData} />;
+  }
 
   // ── Category listing page ─────────────────────────────────────────────────
   const category = getCategoryBySlug(slug);

@@ -1,33 +1,71 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
-import { buildMetadata, SITE_URL } from "@/lib/seo";
-import {
-  guideTitle,
-  metaTitle,
-  metaDescription,
-  lastUpdated,
-  readTime,
-  heroImage as fallbackHeroImage,
-  products,
-  faq,
-  relatedGuides,
-  buyingCriteria,
-  howWeEvaluated,
-  howToChoose,
-  type GuideProduct,
-} from "@/data/guides/best-reception-desks-for-vet";
+import { SITE_URL } from "@/lib/seo";
 
-export const revalidate = 604800;
+export interface GuideProduct {
+  id: string;
+  rank: number;
+  badge: string;
+  name: string;
+  price: string;
+  // Never rendered (Amazon rating/review display is forbidden per CLAUDE.md), but kept
+  // loosely typed since older data/guides/<slug>.ts files stored this as a string.
+  rating?: number | string | null;
+  reviews?: number | string | null;
+  imageUrl: string;
+  amazonUrl: string;
+  description: string;
+  specs: string[];
+  pros: string[];
+  cons: string[];
+  bestFor: string;
+}
 
-export const metadata: Metadata = buildMetadata({
-  title: metaTitle,
-  description: metaDescription,
-  path: "/guide/best-reception-desks-for-vet",
-  image: fallbackHeroImage,
-  type: "article",
-});
+export interface HowToChooseSection {
+  subheading: string;
+  intro?: string;
+  table?: { headers: string[]; rows: string[][] };
+  cards?: { label: string; text: string }[];
+  note?: string;
+}
+
+export interface RichGuidePageProps {
+  slug: string;
+  guideTitle: string;
+  metaDescription: string;
+  mainKeyword?: string;
+  introParagraphs?: string[];
+  lastUpdated: string;
+  readTime: string;
+  heroImage: string;
+  products: GuideProduct[];
+  howWeEvaluated?: { title: string; description: string }[];
+  howToChoose?: HowToChooseSection[];
+  buyingCriteria?: { criterion: string; explanation: string }[];
+  faq?: { q: string; a: string }[];
+  relatedGuides?: { href: string; title: string }[];
+}
+
+// Mirrors scripts/generate-guide-page.mjs's toBreadcrumbTitle/toAmazonSearchQuery/
+// toProductNounSingular helpers exactly, so demoted guides render byte-identical
+// breadcrumbs/headings/Amazon search links to their previous statically-generated page.
+function toBreadcrumbTitle(guideTitle: string) {
+  return guideTitle.replace(/^\d+\s+/, "").replace(/\s+in\s+2026$/i, "");
+}
+
+function toAmazonSearchQuery(mainKeyword: string | undefined, slug: string) {
+  const kw = mainKeyword || slug.replace(/^best-/, "").replace(/-/g, " ");
+  return kw.replace(/\s+/g, "+");
+}
+
+function toProductNounSingular(breadcrumbTitle: string) {
+  const words = breadcrumbTitle.replace(/^Best\s+/i, "").trim();
+  if (/ies$/i.test(words)) return words.replace(/ies$/i, "y");
+  if (/ches$|shes$|xes$|sses$/i.test(words)) return words.replace(/es$/i, "");
+  if (/s$/i.test(words) && !/ss$/i.test(words)) return words.replace(/s$/i, "");
+  return words;
+}
 
 function ProductSection({ product }: { product: GuideProduct }) {
   return (
@@ -123,8 +161,22 @@ function ProductSection({ product }: { product: GuideProduct }) {
   );
 }
 
-export default async function Page() {
-  const heroImg = fallbackHeroImage;
+export function RichGuidePage(props: RichGuidePageProps) {
+  const {
+    slug, guideTitle, metaDescription, mainKeyword, readTime,
+    heroImage, products, lastUpdated,
+  } = props;
+  const introParagraphs = props.introParagraphs ?? [];
+  const howWeEvaluated = props.howWeEvaluated ?? [];
+  const howToChoose = props.howToChoose ?? [];
+  const buyingCriteria = props.buyingCriteria ?? [];
+  const faq = props.faq ?? [];
+  const relatedGuides = props.relatedGuides ?? [];
+
+  const breadcrumbTitle = toBreadcrumbTitle(guideTitle);
+  const amazonQuery = toAmazonSearchQuery(mainKeyword, slug);
+  const productNoun = toProductNounSingular(breadcrumbTitle);
+  const productNounPlural = breadcrumbTitle.replace(/^Best\s+/i, "").trim();
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -135,8 +187,8 @@ export default async function Page() {
     dateModified: lastUpdated,
     author: { "@type": "Person", name: "Jamie Cole", url: `${SITE_URL}/author/jamie-cole` },
     publisher: { "@type": "Organization", name: "DeskFinds", url: SITE_URL },
-    mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/guide/best-reception-desks-for-vet` },
-    about: [{"@type":"Thing","name":"Best Reception Desks for Vet"}],
+    mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/guide/${slug}` },
+    about: [{ "@type": "Thing", name: breadcrumbTitle }],
   };
 
   const breadcrumbSchema = {
@@ -145,7 +197,7 @@ export default async function Page() {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Buying Guides", item: `${SITE_URL}/guide` },
-      { "@type": "ListItem", position: 3, name: "Best Reception Desks for Vet", item: `${SITE_URL}/guide/best-reception-desks-for-vet` },
+      { "@type": "ListItem", position: 3, name: breadcrumbTitle, item: `${SITE_URL}/guide/${slug}` },
     ],
   };
 
@@ -159,7 +211,7 @@ export default async function Page() {
       "@type": "ListItem",
       position: p.rank,
       name: `${p.name} - ${p.badge}`,
-      url: `${SITE_URL}/guide/best-reception-desks-for-vet#${p.id}`,
+      url: `${SITE_URL}/guide/${slug}#${p.id}`,
     })),
   };
 
@@ -174,7 +226,7 @@ export default async function Page() {
           <span>/</span>
           <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
-          <span className="text-ink">Best Reception Desks for Vet</span>
+          <span className="text-ink">{breadcrumbTitle}</span>
         </nav>
 
         <header className="mb-8">
@@ -215,7 +267,7 @@ export default async function Page() {
         </div>
 
         <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-white h-56 sm:h-64 md:hidden flex items-center justify-center p-3">
-          <Image src={heroImg} alt="Best Reception Desks for Vet" width={900} height={420} className="w-full h-full object-contain" priority unoptimized />
+          <Image src={heroImage} alt={breadcrumbTitle} width={900} height={420} className="w-full h-full object-contain" priority unoptimized />
         </div>
         <div
           className="hidden md:grid rounded-2xl overflow-hidden border border-border mb-10 gap-px bg-border"
@@ -270,13 +322,12 @@ export default async function Page() {
         </section>
 
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
-          <p>Veterinary reception adds owners, pets, leashes or carriers, and cleaning challenges at floor level that a generic office reception desk isn't specifically built to handle.</p>
-          <p>We kept leashes, carriers, and pets out of staff leg space in our evaluation, used durable cleanable lower fronts and corners, and verified accessible service approach without queueing animals blocking the route.</p>
+          {introParagraphs.map((p, i) => <p key={i}>{p}</p>)}
         </section>
 
         {buyingCriteria.length > 0 && (
           <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
-            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">{buyingCriteria.length} Criteria to Look For Before Buying a Reception Desks for Vet</h2>
+            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">{buyingCriteria.length} Criteria to Look For Before Buying a {productNoun}</h2>
             <p className="text-sm text-ink-muted mb-5">Key buying criteria so you get the right fit the first time.</p>
             <div className="grid sm:grid-cols-2 gap-4">
               {buyingCriteria.map((item, i) => (
@@ -309,7 +360,7 @@ export default async function Page() {
 
         {howWeEvaluated.length > 0 && (
           <section className="mb-12 p-6 rounded-2xl border border-border bg-white">
-            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">How We Evaluated These Reception Desks for Vet</h2>
+            <h2 className="text-xl font-bold text-ink mb-1 tracking-tight">How We Evaluated These {productNounPlural}</h2>
             <p className="text-sm text-ink-muted mb-5">Each pick was assessed across {howWeEvaluated.length} criteria weighted for real-world use.</p>
             <div className="grid sm:grid-cols-2 gap-4">
               {howWeEvaluated.map((item, i) => (
@@ -324,7 +375,7 @@ export default async function Page() {
 
         {howToChoose.length > 0 && (
           <section className="mb-14">
-            <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">How to Choose the Right Reception Desks for Vet</h2>
+            <h2 className="text-2xl font-bold text-ink mb-6 tracking-tight">How to Choose the Right {productNounPlural}</h2>
             <div className="space-y-8">
               {howToChoose.map((sub, i) => (
                 <div key={i}>
@@ -403,7 +454,7 @@ export default async function Page() {
         <section className="mb-14 p-6 rounded-2xl flex flex-col items-center text-center" style={{ background: "linear-gradient(135deg, #FF9900 0%, #e68900 100%)" }}>
           <h2 className="text-xl font-bold text-white mb-2">Browse on Amazon</h2>
           <p className="text-white/90 text-sm mb-5">All Prime-eligible options with current pricing.</p>
-          <a href={`https://www.amazon.com/s?k=reception+desk+for+vet&tag=deskfinds0d-20`} target="_blank" rel="noopener noreferrer sponsored" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors" style={{ color: "#FF9900" }}>
+          <a href={`https://www.amazon.com/s?k=${amazonQuery}&tag=deskfinds0d-20`} target="_blank" rel="noopener noreferrer sponsored" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white font-bold text-sm hover:bg-gray-50 transition-colors" style={{ color: "#FF9900" }}>
             Shop on Amazon &rarr;
           </a>
         </section>

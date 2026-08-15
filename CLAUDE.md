@@ -359,6 +359,24 @@ Three exports are involved, and they serve **different purposes at different dep
 
 ---
 
+### CHANGED 2026-08-15: New guides no longer get a literal `app/(site)/guide/<slug>/page.tsx` route — do not run `scripts/generate-guide-page.mjs` for new batches
+
+**Why this changed:** every literal `app/(site)/guide/<slug>/page.tsx` file gets eagerly rebuilt on **every single deploy**, forever, regardless of whether that guide changed. At ~1750 guides this exceeded Vercel Hobby's 45-minute build timeout — confirmed across multiple real Vercel builds and local build attempts, even after fixing an unrelated per-page Supabase call and removing the unused admin panel. The project can't move to Vercel Pro right now and is planning several hundred more guides, so the fix is architectural: stop adding new guides to the eager-build set at all. New guides render on first request via the existing dynamic `app/(site)/guide/[slug]/page.tsx` route and are ISR-cached from then on (`revalidate = 604800`, unchanged) — this costs **zero** build time no matter how many guides exist.
+
+**What this means for the batch pipeline, starting now:**
+1. Write `data/guides/<slug>.ts` exactly as before (unchanged — same `guideTitle`/`metaTitle`/`metaDescription`/`products`/`howWeEvaluated`/`howToChoose`/`buyingCriteria`/`faq`/`relatedGuides`/`mainKeyword`/`introParagraphs`/`lastUpdated`/`readTime`/`heroImage` shape).
+2. Register the guide in `data/guides.ts` exactly as before (unchanged — the existing `append-guides-registry-*.mjs` pattern).
+3. **Do NOT run `scripts/generate-guide-page.mjs`.** No literal `app/(site)/guide/<slug>/page.tsx` file should be created for a new guide.
+4. **Run `node scripts/generate-guides-index.mjs`** and commit the resulting `data/guides-index.generated.ts`. This regenerates the slug → dynamic-import map that `app/(site)/guide/[slug]/page.tsx` uses to find and render the guide's rich content via `components/guide/RichGuidePage.tsx`. Skipping this step means the new guide's URL 404s.
+
+The rendering itself (`components/guide/RichGuidePage.tsx`) is a faithful extraction of the exact JSX `generate-guide-page.mjs` used to emit per-file — same breadcrumb/heading/Amazon-search-link derivation logic, same section order, same schema markup. A guide rendered this way is visually and structurally identical to one that would have gotten a literal route file; only the build-time cost differs.
+
+`scripts/generate-guides-index.mjs` only includes files that export the modern `products`/`howWeEvaluated`/`howToChoose`/`buyingCriteria` shape (same compatibility check `generate-guide-page.mjs` already used to skip legacy files) — it silently skips anything older, so it's always safe to re-run across the whole `data/guides/` directory.
+
+**Existing already-literal guide pages are untouched by this policy** — they keep working exactly as before. Only *new* guides skip the literal-route step. (Separately, a first batch of already-published guides — the Reception Desks cluster, 98 guides — has been retroactively demoted off the eager-build path the same way, as a build-time fix; more clusters may follow the same treatment over time. Demoting an existing guide means deleting only its `app/(site)/guide/<slug>/` directory — never touch `data/guides/<slug>.ts` or its `data/guides.ts` registry entry, and always re-run `generate-guides-index.mjs` first so the slug is actually resolvable before the literal route disappears.)
+
+---
+
 ### Content Tone
 - Direct, practical, space-conscious — written for people with limited desk/room space
 - No marketing superlatives without specific backing ("the best" must be qualified)
