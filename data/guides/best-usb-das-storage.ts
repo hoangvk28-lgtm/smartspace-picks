@@ -1,0 +1,241 @@
+export const guideSlug = "best-usb-das-storage";
+export const guideTitle = "8 Best USB DAS Storage Options";
+export const metaTitle = "Best USB DAS Storage in 2026";
+export const metaDescription = "USB DAS speed depends on protocol generation and bridge controller, not the USB-C connector shape. We verified real speed tiers before ranking.";
+export const mainKeyword = "usb das storage";
+export const introParagraphs = [
+  "USB DAS spans 5Gbps USB 3.0 enclosures through 10Gbps USB 3.2 Gen 2 docks, and the USB-C connector shape alone doesn't tell you which tier you're getting. A multi-drive SATA array can also saturate a slower USB bridge well before any individual drive hits its own maximum.",
+  "We required the actual documented USB protocol generation for every product here, and flagged which enclosures use a dedicated per-bay controller chip (a real reliability differentiator) versus a single shared bridge chip across all bays."
+];
+export const lastUpdated = "2026-08-14";
+export const readTime = "11 min";
+export const heroImage = "https://m.media-amazon.com/images/I/41rmuqxnscL._SL500_.jpg";
+
+export interface GuideProduct {
+  id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
+  imageUrl: string; amazonUrl: string; description: string; specs: string[]; pros: string[]; cons: string[]; bestFor: string;
+}
+
+export const products: GuideProduct[] = [
+  {
+    id: "best-usb-das-storage-1",
+    rank: 1,
+    badge: "Best 10Gbps, Dedicated Per-Bay Controller",
+    name: "Sabrent 4-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC4B)",
+    price: "$229.99",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/41rmuqxnscL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B07Y3WDHLD?tag=deskfinds0d-20",
+    description: "Sabrent's 4-bay dock gives every drive its own dedicated ASMedia ASM1351 controller rather than sharing one bridge chip, so each of the four 3.5-inch SATA bays gets a stable, independent connection up to 80TB total (4x20TB) over a single 10Gbps USB-C port.\n\nDrives ship empty and mount individually, JBOD-style, not hardware RAID. Tool-free trays, a locking key, a Kensington slot, and a 92mm active-cooling fan round out a build meant for 24/7 desk use, backed by a 1-year warranty extendable to 2 years.",
+    specs: ["4x 3.5in bays, 10Gbps USB-C","Dedicated ASM1351 controller per bay","JBOD only, no RAID"],
+    pros: ["Independent controller per bay avoids one bad drive taking down the bus","Tool-free trayless hot-swap with lockable bays","92mm active cooling for sustained 24/7 use"],
+    cons: ["No RAID, individual disks only","Drives not included"],
+    bestFor: "buyers prioritizing 4x 3.5in bays, 10gbps usb-c",
+  },
+  {
+    id: "best-usb-das-storage-2",
+    rank: 2,
+    badge: "Best 5-Bay 10Gbps",
+    name: "Sabrent 5-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC5B)",
+    price: "$279.95",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/41OiiopY9QL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B07Y4F5SCK?tag=deskfinds0d-20",
+    description: "Sabrent's 5-bay dock steps up from its 4-bay sibling with the same dedicated ASMedia ASM1351 controller per bay, supporting up to 100TB total (5x20TB) of empty 3.5-inch bays over a 10Gbps USB-C connection, with a rear USB-C port for daisy-chaining a second dock.\n\nA 120mm PWM temperature-controlled fan only ramps up as drives warm, keeping it quieter during light use while protecting drives during heavy transfers. Like the 4-bay model, it's JBOD-only DAS, not RAID and not a NAS, with a 1-year warranty extendable to 2 years.",
+    specs: ["5x 3.5in bays, 10Gbps USB-C","Dedicated ASM1351 controller per bay","Daisy-chain via rear USB-C port"],
+    pros: ["PWM fan only ramps up under load, quieter at idle","Daisy-chain port for expanding beyond one dock","Internal auto-switching power supply, no external brick"],
+    cons: ["No RAID, individual disks only","Drives not included"],
+    bestFor: "buyers prioritizing 5x 3.5in bays, 10gbps usb-c",
+  },
+  {
+    id: "best-usb-das-storage-3",
+    rank: 3,
+    badge: "Best Budget 5Gbps",
+    name: "CENMATE Aluminum 4-Bay Hard Drive Enclosure (5Gbps)",
+    price: "$119.99",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/41VaMoSo3VL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DD3GSSCX?tag=deskfinds0d-20",
+    description: "CENMATE's 4-bay aluminum enclosure supports 2.5/3.5-inch HDD/SSD up to 80TB total (20TB per drive), using a JMS-class chip over USB A/C 3.0 at up to 5Gbps under UASP, with hot-swap and tool-free tray installation.\n\nThe company is upfront that its 2-inch cooling fan runs around 40-50 decibels, a real noise consideration for a desk setup, and this is explicitly a DAS unit with no RAID or NAS function, drives mount individually with a stable DC 12V power adapter.",
+    specs: ["4-bay, 2.5/3.5in, up to 80TB total","USB A/C 3.0, 5Gbps under UASP","No RAID/NAS, individual disks"],
+    pros: ["Hot-swap and tool-free tray design","Stable dedicated DC power adapter for multi-drive reliability","Honest fan noise disclosure (40-50dB) upfront"],
+    cons: ["Fan noise may bother sound-sensitive desk setups","No RAID despite 4 bays"],
+    bestFor: "buyers prioritizing 4-bay, 2.5/3.5in, up to 80tb total",
+  },
+  {
+    id: "best-usb-das-storage-4",
+    rank: 4,
+    badge: "Best Compact 2-Bay",
+    name: "CENMATE Aluminum 2-Bay Hard Drive Enclosure (Daisy-Chain)",
+    price: "$57.99",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/31AKIUFggEL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DD3GSZBP?tag=deskfinds0d-20",
+    description: "CENMATE's 2-bay model supports 2.5/3.5-inch HDD/SSD up to 20TB per drive over USB A/C 3.0 at up to 5Gbps, and adds a genuine daisy-chain USB host port that lets you expand storage across up to 3 chained devices for a combined 120TB.\n\nHot-swap and tool-free tray installation carry over from CENMATE's larger enclosures, along with the same 40-50 decibel fan-noise disclosure and 24-hour technical support response commitment.",
+    specs: ["2-bay, up to 20TB/drive","Daisy-chain up to 3 devices, 120TB combined","USB A/C 3.0, 5Gbps"],
+    pros: ["Daisy-chain port genuinely extends capacity across multiple units","Hot-swap and tool-free installation","Compact 2-bay entry point at a lower price than 4/6-bay models"],
+    cons: ["Fan noise around 40-50 decibels per CENMATE's own disclosure","No RAID, individual disks only"],
+    bestFor: "buyers prioritizing 2-bay, up to 20tb/drive",
+  },
+  {
+    id: "best-usb-das-storage-5",
+    rank: 5,
+    badge: "Best 3-Bay",
+    name: "CENMATE Aluminum 3-Bay Hard Drive Enclosure (Daisy-Chain)",
+    price: "$74.99",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/41S3JRc491L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DD3KCGWS?tag=deskfinds0d-20",
+    description: "CENMATE's 3-bay model fills the gap between its 2-bay and 4-bay enclosures, supporting up to 20TB per drive over USB A/C 3.0 at up to 5Gbps, with a larger 2.7-inch fan than the 2-bay version to manage the added drive's heat output.\n\nThe same daisy-chain USB host port carries over, scaling to a stated 180TB combined across up to 3 chained devices, along with hot-swap and tool-free tray installation and CENMATE's standard 24-hour support response commitment.",
+    specs: ["3-bay, up to 20TB/drive","Daisy-chain up to 180TB combined","USB A/C 3.0, 5Gbps"],
+    pros: ["Fills a genuine 3-bay gap between CENMATE's 2-bay and 4-bay models","Daisy-chain scales to a stated 180TB across 3 units","Hot-swap and tool-free tray installation"],
+    cons: ["Fan noise around 40-50 decibels per CENMATE's disclosure","No RAID, individual disks only"],
+    bestFor: "buyers prioritizing 3-bay, up to 20tb/drive",
+  },
+  {
+    id: "best-usb-das-storage-6",
+    rank: 6,
+    badge: "Best Value Diskless",
+    name: "TerraMaster D4-320 4-Bay USB DAS Enclosure (Diskless)",
+    price: "$151.99",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/21z94zz6wGL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CTTL9R7Z?tag=deskfinds0d-20",
+    description: "The D4-320 hits up to 1,016MB/s combined read/write with four 8TB SATA HDDs installed, or 510MB/s with a single SATA SSD, over USB 3.2 Gen 2's 10Gbps link, and supports drives up to 30TB each for 120TB total.\n\nIt's explicitly 4 individual disks with no RAID function, using TerraMaster's tool-free Push-Lock tray design and hot-swap support. An intelligent temperature-controlled fan plus sound-absorbing panels cut noise up to 50% versus the prior generation, dropping under 21dB(A) in standby.",
+    specs: ["4-bay, up to 1,016MB/s combined","USB 3.2 Gen 2, 30TB/drive max","No RAID, individual disks only"],
+    pros: ["Documented real-world throughput, not just link-rate marketing","Under 21dB(A) standby noise is genuinely quiet","Push-Lock tray design prevents accidental drive ejection"],
+    cons: ["No RAID function despite 4 bays","Diskless, drives sold separately"],
+    bestFor: "buyers prioritizing 4-bay, up to 1,016mb/s combined",
+  },
+  {
+    id: "best-usb-das-storage-7",
+    rank: 7,
+    badge: "Budget 5-Bay",
+    name: "ORICO 5-Bay Hard Drive Enclosure (5Gbps USB 3.0)",
+    price: "$109.99",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/31kD7ZF4zgL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0734G79FW?tag=deskfinds0d-20",
+    description: "ORICO's 5-bay enclosure uses magnetic, tool-free covers that recognize inserted drives in about 3 seconds, supporting both 2.5 and 3.5-inch SATA HDD/SSDs up to 110TB total (22TB per drive) over a USB 3.0 Type-B connection at up to 5Gbps.\n\nA 60mm double-ball-bearing fan plus honeycomb rear venting handles cooling, and multi-layer protection (over-voltage, over-current, overheat, short-circuit) guards the drives. ORICO notes that on Linux, multi-bay enclosures like this one can only read one drive at a time, a real platform limitation worth knowing before a Linux-based NAS-replacement plan.",
+    specs: ["5-bay, 2.5/3.5in, up to 110TB total","USB 3.0 Type-B, 5Gbps","60mm cooling fan"],
+    pros: ["Magnetic tool-free covers recognize drives in ~3 seconds","Multi-layer electrical protection built in","Supports both 2.5in and 3.5in drives in the same bays"],
+    cons: ["Linux limited to reading one drive at a time","5Gbps USB 3.0 Type-B, not the newer 10Gbps Type-C tier"],
+    bestFor: "buyers prioritizing 5-bay, 2.5/3.5in, up to 110tb total",
+  },
+  {
+    id: "best-usb-das-storage-8",
+    rank: 8,
+    badge: "Best USB-C 5-Bay",
+    name: "ORICO 5-Bay Hard Drive Enclosure (USB-C, 5Gbps)",
+    price: "$114.99",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/31kD7ZF4zgL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B07VMK6ND7?tag=deskfinds0d-20",
+    description: "This ORICO 5-bay model mirrors the USB 3.0 version's magnetic tool-free design and 110TB total capacity (22TB per drive), but swaps to a USB 3.1 Gen 1 Type-C interface, still capped at 5Gbps but with the newer connector shape.\n\nThe same 60mm cooling fan, honeycomb venting, and multi-layer electrical protection carry over, and ORICO again notes the same Linux one-drive-at-a-time limitation across its multi-bay enclosure line.",
+    specs: ["5-bay, 2.5/3.5in, up to 110TB total","USB 3.1 Gen 1 Type-C, 5Gbps","60mm cooling fan"],
+    pros: ["USB-C connector for broader modern host compatibility","Same fast 3-second drive recognition as ORICO's USB-A model","Multi-layer electrical protection built in"],
+    cons: ["Still capped at 5Gbps despite the USB-C connector","Linux limited to reading one drive at a time"],
+    bestFor: "buyers prioritizing 5-bay, 2.5/3.5in, up to 110tb total",
+  }
+];
+
+export const howWeEvaluated = [
+  {
+    "title": "Connection & Drive Architecture",
+    "description": "Verified whether each product is genuinely direct-attached storage (USB, Thunderbolt, or SAS to one host) and whether drives mount individually, in JBOD, or under real hardware RAID, rather than assuming any multi-bay box works the same way."
+  },
+  {
+    "title": "Real Interface Speed",
+    "description": "Checked the documented USB generation, Thunderbolt generation, or SAS link speed against real sustained throughput figures where manufacturers publish them, rather than repeating theoretical link-rate marketing numbers."
+  },
+  {
+    "title": "RAID/JBOD Implementation",
+    "description": "Distinguished hardware-controller RAID from host-software RAID from plain JBOD/individual-disk presentation, since these have very different failure, portability, and rebuild behavior."
+  },
+  {
+    "title": "Build, Cooling & Serviceability",
+    "description": "Weighed tool-free tray design, hot-swap support, fan noise where documented, and daisy-chain or expansion options against the product's likely desk, closet, or rack environment."
+  },
+  {
+    "title": "Total Ownership Cost",
+    "description": "Considered that most DAS enclosures ship diskless, factoring in drive cost, cables, and RAID software where relevant rather than judging price on the empty enclosure alone."
+  }
+];
+
+export interface HowToChooseSection {
+  subheading: string;
+  intro?: string;
+  table?: { headers: string[]; rows: string[][] };
+  cards?: { label: string; text: string }[];
+  note?: string;
+}
+
+export const howToChoose: HowToChooseSection[] = [
+  {
+    "subheading": "USB Generation Cheat Sheet",
+    "table": {
+      "headers": [
+        "USB spec",
+        "Real max speed"
+      ],
+      "rows": [
+        [
+          "USB 3.0 / 3.1 Gen 1",
+          "5Gbps (~500MB/s theoretical)"
+        ],
+        [
+          "USB 3.2 Gen 2",
+          "10Gbps (~1,000MB/s theoretical)"
+        ],
+        [
+          "USB4 / Thunderbolt 3/4",
+          "40Gbps"
+        ]
+      ]
+    }
+  }
+];
+
+export const buyingCriteria = [
+  {
+    "criterion": "DAS means direct host attachment, not RAID",
+    "explanation": "USB, Thunderbolt, and enterprise SAS storage can all be DAS. The term describes how the storage connects to a host, not whether it has RAID, what drive type it uses, or how many bays it has. Check those separately."
+  },
+  {
+    "criterion": "Bay count is not usable capacity",
+    "explanation": "An 8-bay enclosure with 8x20TB drives does not give you 160TB of usable space in RAID 5 or RAID 6, parity drives eat real capacity. Calculate usable capacity under your intended RAID mode, not raw bay count times drive size."
+  },
+  {
+    "criterion": "Hardware RAID and host software RAID are not interchangeable",
+    "explanation": "Hardware/enclosure RAID keeps the array portable across hosts and survives an OS reinstall; host software RAID (or SoftRAID on Mac) ties the array to specific software but is often more flexible and doesn't depend on one controller chip surviving."
+  },
+  {
+    "criterion": "The interface link rate is not your real transfer speed",
+    "explanation": "A 10Gbps USB-C enclosure with 5 mechanical HDDs running simultaneously will bottleneck well below 10Gbps once you account for real sustained HDD throughput, typically 150-250MB/s per drive. Multi-drive aggregate speed matters more than the port's rated maximum."
+  },
+  {
+    "criterion": "RAID is not backup",
+    "explanation": "RAID 1 or RAID 5 protects against a single drive failure, not against accidental deletion, ransomware, fire, or theft. Keep a genuine separate backup copy of anything irreplaceable, regardless of how much RAID redundancy your DAS provides."
+  },
+  {
+    "criterion": "Diskless enclosures need drives budgeted separately",
+    "explanation": "Most multi-bay DAS enclosures ship completely empty. Factor in 2-8 hard drives or SSDs at your target capacity before comparing the enclosure's sticker price against a similarly-priced preconfigured external drive."
+  }
+];
+
+export const faq = [
+  {
+    "q": "Does a USB-C connector guarantee 10Gbps speed?",
+    "a": "No. USB-C is a connector shape, not a speed guarantee. Several enclosures in this cluster use USB-C but only support 5Gbps USB 3.1 Gen 1. Check the documented USB generation, not just the port shape."
+  }
+];
+
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-usb-c-das-storage","title":"8 Best USB-C DAS Storage Options"},{"href":"/guide/best-usb4-das-storage","title":"8 Best USB4 DAS Storage Options"},{"href":"/guide/best-das-storage-enclosures","title":"8 Best DAS Storage Enclosures in 2026"}];

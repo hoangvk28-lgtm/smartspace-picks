@@ -1,0 +1,222 @@
+export const guideSlug = "best-6-drive-das-storage";
+export const guideTitle = "6 Best 6-Drive DAS Storage Options";
+export const metaTitle = "Best 6-Drive DAS Storage in 2026";
+export const metaDescription = "Drive count and bay count describe the same product class here. We compared current 6-bay DAS by capacity, speed, and RAID support.";
+export const mainKeyword = "6-drive das storage";
+export const introParagraphs = [
+  "\"6-drive\" and \"6-bay\" describe the identical practical product class in this category, both mean an enclosure holding 6 physical drives, so we evaluated this cluster against the same criteria as our 6-bay guide.",
+  "We counted genuinely usable drive slots, verified per-drive capacity limits, and checked cooling design for all 6 drives running simultaneously, the same verification standard we apply across every bay-count tier in this cluster."
+];
+export const lastUpdated = "2026-08-14";
+export const readTime = "11 min";
+export const heroImage = "https://m.media-amazon.com/images/I/31ONkXRfq7L._SL500_.jpg";
+
+export interface GuideProduct {
+  id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
+  imageUrl: string; amazonUrl: string; description: string; specs: string[]; pros: string[]; cons: string[]; bestFor: string;
+}
+
+export const products: GuideProduct[] = [
+  {
+    id: "best-6-drive-das-storage-1",
+    rank: 1,
+    badge: "Best Non-RAID, High-Capacity",
+    name: "TerraMaster D6-320 6-Bay USB DAS Enclosure (Diskless)",
+    price: "$239.99",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/31ONkXRfq7L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0BZHSK29B?tag=deskfinds0d-20",
+    description: "The D6-320 scales TerraMaster's DAS line to 6 bays with up to 132TB total capacity (22TB per drive), hitting 1,030MB/s combined read/write with six 8TB HDDs installed, or 510MB/s with a single SATA SSD, over a 10Gbps USB 3.2 Gen 2 connection.\n\nTerraMaster explicitly notes the D6-320 does not support RAID arrays, working only with individual disks. It carries the same hot-swap, tool-free tray, and intelligent temperature-controlled cooling as the rest of the D-series, with USB Type-C compatible with USB 3.0/3.1/3.2, Thunderbolt 3, and Thunderbolt 4 hosts.",
+    specs: ["6-bay, up to 132TB total","1,030MB/s combined (6x HDD)","No RAID, individual disks only"],
+    pros: ["Broad host compatibility across USB and Thunderbolt generations","Documented sustained throughput with all 6 bays populated","Hot-swap without powering down the enclosure"],
+    cons: ["No RAID function despite 6 bays","Diskless, drives sold separately"],
+    bestFor: "buyers prioritizing 6-bay, up to 132tb total",
+  },
+  {
+    id: "best-6-drive-das-storage-2",
+    rank: 2,
+    badge: "Best Budget 5Gbps",
+    name: "CENMATE Aluminum 6-Bay Hard Drive Enclosure (5Gbps)",
+    price: "$179.99",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/41AgGhlmqML._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DD3H377C?tag=deskfinds0d-20",
+    description: "CENMATE's 6-bay model supports up to 20TB per drive (120TB total) over USB A/C 3.0 at up to 5Gbps, with two 2.7-inch fans handling the added thermal load of six simultaneously-running drives, and a daisy-chain port that scales to a stated 360TB across 3 chained units.\n\nHot-swap and tool-free installation carry over from CENMATE's smaller enclosures, and the company again discloses fan noise in the 40-50 decibel range, worth planning for in a quiet office.",
+    specs: ["6-bay, up to 120TB total","Daisy-chain up to 360TB combined","USB A/C 3.0, 5Gbps"],
+    pros: ["Daisy-chain scales to a stated 360TB across 3 units","Dual 2.7in fans for 6-bay thermal load","Hot-swap without powering down the enclosure"],
+    cons: ["5Gbps USB 3.0 ceiling, not the newer 10Gbps tier","No RAID, individual disks only"],
+    bestFor: "buyers prioritizing 6-bay, up to 120tb total",
+  },
+  {
+    id: "best-6-drive-das-storage-3",
+    rank: 3,
+    badge: "Best 10Gbps Upgrade",
+    name: "CENMATE Aluminum 6-Bay 10Gbps Hard Drive Enclosure",
+    price: "$209.99",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/41P2WqefQ9L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GJ3DD7XJ?tag=deskfinds0d-20",
+    description: "This CENMATE 6-bay model upgrades to USB 3.2 Gen 2's 10Gbps ceiling, documenting 500MB/s total with 2 HDDs or 510MB/s with a single SSD active, while retaining the same 20TB-per-drive capacity and dual 2.7-inch fan cooling as the 5Gbps version.\n\nIts USB Type-C interface spans USB 3.0 through 3.2 plus Thunderbolt 3/4 host compatibility, and it keeps the same daisy-chain expansion (up to 120TB combined across 3 devices) and hot-swap tray design.",
+    specs: ["6-bay, up to 10Gbps","USB 3.2 Gen 2, Thunderbolt 3/4 compatible","Daisy-chain up to 3 devices"],
+    pros: ["Real 10Gbps upgrade over CENMATE's 5Gbps 6-bay model","Broad host compatibility including Thunderbolt 3/4","Dual fans manage heat across 6 active bays"],
+    cons: ["Fan noise around 40-50 decibels per CENMATE's disclosure","No RAID, individual disks only"],
+    bestFor: "buyers prioritizing 6-bay, up to 10gbps",
+  },
+  {
+    id: "best-6-drive-das-storage-4",
+    rank: 4,
+    badge: "Best 4-Drive Alternative",
+    name: "Sabrent 4-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC4B)",
+    price: "$229.99",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/41rmuqxnscL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B07Y3WDHLD?tag=deskfinds0d-20",
+    description: "Sabrent's 4-bay dock gives every drive its own dedicated ASMedia ASM1351 controller rather than sharing one bridge chip, so each of the four 3.5-inch SATA bays gets a stable, independent connection up to 80TB total (4x20TB) over a single 10Gbps USB-C port.\n\nDrives ship empty and mount individually, JBOD-style, not hardware RAID. Tool-free trays, a locking key, a Kensington slot, and a 92mm active-cooling fan round out a build meant for 24/7 desk use, backed by a 1-year warranty extendable to 2 years.",
+    specs: ["4x 3.5in bays, 10Gbps USB-C","Dedicated ASM1351 controller per bay","JBOD only, no RAID"],
+    pros: ["Independent controller per bay avoids one bad drive taking down the bus","Tool-free trayless hot-swap with lockable bays","92mm active cooling for sustained 24/7 use"],
+    cons: ["No RAID, individual disks only","Drives not included"],
+    bestFor: "buyers prioritizing 4x 3.5in bays, 10gbps usb-c",
+  },
+  {
+    id: "best-6-drive-das-storage-5",
+    rank: 5,
+    badge: "Best RAID Alternative",
+    name: "CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB)",
+    price: "$129.99",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/41kWVoXPWgL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CXPD9J6X?tag=deskfinds0d-20",
+    description: "Unlike CENMATE's non-RAID 4-bay model, this version adds a genuine hardware RAID controller (JMS567+JMB393 chip) supporting 8 modes: RAID 0/1/3/5/10, CLONE, LARGE, and NORMAL, switched via a physical toggle and reset-button sequence rather than software.\n\nIt supports up to 80TB total (20TB per drive) over USB A/C 3.0 plus an eSATA output for an alternate connection path, at up to 5Gbps. CENMATE notes macOS has no RAID software support for this unit and warns that switching RAID modes can cause data loss, back up first.",
+    specs: ["4-bay hardware RAID, 8 modes, up to 80TB","USB 3.0 + eSATA, 5Gbps","Physical DIP-switch RAID mode selection"],
+    pros: ["Genuine hardware RAID controller with 8 selectable modes","Dual USB/eSATA connectivity options","150W-class stable power design for multi-drive RAID"],
+    cons: ["No macOS RAID software support","RAID mode switching risks data loss if not backed up first"],
+    bestFor: "buyers prioritizing 4-bay hardware raid, 8 modes, up to 80tb",
+  },
+  {
+    id: "best-6-drive-das-storage-6",
+    rank: 6,
+    badge: "Best RAID Alternative 2",
+    name: "QNAP TR-004 4-Bay USB-C DAS with Hardware RAID (Diskless)",
+    price: "$219.00",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/310l7keevAS._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B07K4RC7X9?tag=deskfinds0d-20",
+    description: "The TR-004 is a genuine hardware-RAID DAS, supporting RAID 0, 1, 5, JBOD, and individual disks across 4 x 3.5-inch SATA bays, connected via USB Type-C for use as either standalone external storage or QNAP NAS backup expansion.\n\nQNAP is explicit about a real limitation: the TR-004's storage pool cannot be combined into a connected NAS's own pool, and drives can only migrate between TR-004 units, not to a different NAS model, a genuine gotcha worth knowing before buying it purely as NAS expansion.",
+    specs: ["4x 3.5in bays, hardware RAID 0/1/5/JBOD","USB Type-C","Lockable drive bays"],
+    pros: ["True hardware RAID controller, not host software RAID","Doubles as standalone DAS or NAS backup expansion","Lockable bays for physical security"],
+    cons: ["Storage pool cannot merge into a connected NAS's own pool","Drive migration limited to other TR-004 units only"],
+    bestFor: "buyers prioritizing 4x 3.5in bays, hardware raid 0/1/5/jbod",
+  },
+  {
+    id: "best-6-drive-das-storage-7",
+    rank: 7,
+    badge: "Budget RAID Alternative",
+    name: "ORICO 4-Bay RAID Hard Drive Enclosure (88TB, Aluminum)",
+    price: "$179.95",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/51wHCBQoDhL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0F4QJZL6X?tag=deskfinds0d-20",
+    description: "ORICO's 4-bay RAID enclosure supports the same 8 RAID modes as its 5-bay sibling (0/1/3/5/10/JBOD/CLONE/CLEAR) for up to 88TB total (22TB per drive), reaching 235MB/s over a USB 3.0 interface matched to SATA 6Gbps drives.\n\nA built-in 150W power supply avoids a bulky external adapter even with 4 high-consumption mechanical drives running simultaneously, and an 80mm silent cooling fan with front/rear vents handles sustained heat load. A tray-less design with an independent safety lock secures drives against accidental ejection.",
+    specs: ["4-bay RAID, 8 modes, up to 88TB","235MB/s, built-in 150W power supply","80mm cooling fan, tray-less lock design"],
+    pros: ["Built-in 150W power supply eliminates a bulky external brick","8 RAID modes cover backup, capacity, and redundancy use cases","Independent safety lock prevents accidental drive ejection"],
+    cons: ["235MB/s ceiling is modest for a RAID-capable 4-bay unit","22TB per-drive limit caps total capacity below newer competitors"],
+    bestFor: "buyers prioritizing 4-bay raid, 8 modes, up to 88tb",
+  },
+  {
+    id: "best-6-drive-das-storage-8",
+    rank: 8,
+    badge: "Best 5-Drive RAID Alternative",
+    name: "ORICO RAID 5-Bay HDD Enclosure (110TB, Aluminum)",
+    price: "$199.95",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/51QZ11oOYXL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DDX8PVH7?tag=deskfinds0d-20",
+    description: "This ORICO 5-bay RAID enclosure matches the 4-bay model's 8 RAID modes (0/1/3/5/10/JBOD/CLONE/CLEAR) but scales to 110TB total (22TB per drive) with the same 235MB/s USB 3.0 transfer speed and a built-in 150W power supply for stable multi-disk operation.\n\nAn 80mm silent cooling fan with front and rear vents handles the added thermal load of a fifth drive, and the same bracket-free, independently-locked tray design carries over from ORICO's smaller RAID enclosures.",
+    specs: ["5-bay RAID, 8 modes, up to 110TB","235MB/s, built-in 150W power supply","80mm cooling fan"],
+    pros: ["8 RAID modes at a larger 5-bay capacity tier","Built-in 150W power supply avoids a bulky adapter","Independent locking mechanism per the bracket-free tray design"],
+    cons: ["235MB/s ceiling limits sustained multi-drive throughput","Back up data before switching RAID modes, per ORICO's own guidance"],
+    bestFor: "buyers prioritizing 5-bay raid, 8 modes, up to 110tb",
+  }
+];
+
+export const howWeEvaluated = [
+  {
+    "title": "Connection & Drive Architecture",
+    "description": "Verified whether each product is genuinely direct-attached storage (USB, Thunderbolt, or SAS to one host) and whether drives mount individually, in JBOD, or under real hardware RAID, rather than assuming any multi-bay box works the same way."
+  },
+  {
+    "title": "Real Interface Speed",
+    "description": "Checked the documented USB generation, Thunderbolt generation, or SAS link speed against real sustained throughput figures where manufacturers publish them, rather than repeating theoretical link-rate marketing numbers."
+  },
+  {
+    "title": "RAID/JBOD Implementation",
+    "description": "Distinguished hardware-controller RAID from host-software RAID from plain JBOD/individual-disk presentation, since these have very different failure, portability, and rebuild behavior."
+  },
+  {
+    "title": "Build, Cooling & Serviceability",
+    "description": "Weighed tool-free tray design, hot-swap support, fan noise where documented, and daisy-chain or expansion options against the product's likely desk, closet, or rack environment."
+  },
+  {
+    "title": "Total Ownership Cost",
+    "description": "Considered that most DAS enclosures ship diskless, factoring in drive cost, cables, and RAID software where relevant rather than judging price on the empty enclosure alone."
+  }
+];
+
+export interface HowToChooseSection {
+  subheading: string;
+  intro?: string;
+  table?: { headers: string[]; rows: string[][] };
+  cards?: { label: string; text: string }[];
+  note?: string;
+}
+
+export const howToChoose: HowToChooseSection[] = [
+  {
+    "subheading": "Same Buying Logic as 6-Bay",
+    "note": "Whether you search '6-drive' or '6-bay,' the buying decision is identical: verify true usable slot count, per-drive capacity limit, host interface speed, RAID/JBOD mode, and all-drive cooling before comparing price."
+  }
+];
+
+export const buyingCriteria = [
+  {
+    "criterion": "DAS means direct host attachment, not RAID",
+    "explanation": "USB, Thunderbolt, and enterprise SAS storage can all be DAS. The term describes how the storage connects to a host, not whether it has RAID, what drive type it uses, or how many bays it has. Check those separately."
+  },
+  {
+    "criterion": "Bay count is not usable capacity",
+    "explanation": "An 8-bay enclosure with 8x20TB drives does not give you 160TB of usable space in RAID 5 or RAID 6, parity drives eat real capacity. Calculate usable capacity under your intended RAID mode, not raw bay count times drive size."
+  },
+  {
+    "criterion": "Hardware RAID and host software RAID are not interchangeable",
+    "explanation": "Hardware/enclosure RAID keeps the array portable across hosts and survives an OS reinstall; host software RAID (or SoftRAID on Mac) ties the array to specific software but is often more flexible and doesn't depend on one controller chip surviving."
+  },
+  {
+    "criterion": "The interface link rate is not your real transfer speed",
+    "explanation": "A 10Gbps USB-C enclosure with 5 mechanical HDDs running simultaneously will bottleneck well below 10Gbps once you account for real sustained HDD throughput, typically 150-250MB/s per drive. Multi-drive aggregate speed matters more than the port's rated maximum."
+  },
+  {
+    "criterion": "RAID is not backup",
+    "explanation": "RAID 1 or RAID 5 protects against a single drive failure, not against accidental deletion, ransomware, fire, or theft. Keep a genuine separate backup copy of anything irreplaceable, regardless of how much RAID redundancy your DAS provides."
+  },
+  {
+    "criterion": "Diskless enclosures need drives budgeted separately",
+    "explanation": "Most multi-bay DAS enclosures ship completely empty. Factor in 2-8 hard drives or SSDs at your target capacity before comparing the enclosure's sticker price against a similarly-priced preconfigured external drive."
+  }
+];
+
+export const faq = [
+  {
+    "q": "Is a 6-drive enclosure the same product as a 6-bay enclosure?",
+    "a": "Yes, these terms describe the identical physical product, an enclosure with 6 drive slots. There's no meaningful distinction between the two phrasings in current DAS product listings."
+  }
+];
+
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-6-bay-direct-attached-storage","title":"6 Best 6-Bay Direct-Attached Storage"},{"href":"/guide/best-multi-bay-das-storage","title":"8 Best Multi-Bay DAS Storage Options"},{"href":"/guide/best-8-bay-das-storage","title":"6 Best 8-Bay DAS Storage Options"}];
