@@ -8,12 +8,10 @@ export function ScrollToTop() {
 
   useEffect(() => {
     if (typeof window === "undefined") return;
-    // Let the browser handle scroll position on back/forward (popstate) navigations
-    // natively so returning to a previous page restores where the user actually was,
-    // instead of forcing everything to the top.
-    if ("scrollRestoration" in history) {
-      history.scrollRestoration = "auto";
-    }
+    // Deliberately do NOT touch history.scrollRestoration here. Next.js's App
+    // Router manages it internally for its own client-side navigation cache, and
+    // a previous version of this component overriding it to "manual" is what
+    // broke both scroll-to-top-on-navigate and restoring position on back/forward.
     const handlePopState = () => {
       isPopNavigation.current = true;
     };
