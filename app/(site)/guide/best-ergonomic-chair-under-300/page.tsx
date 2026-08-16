@@ -57,9 +57,6 @@ function ProductSection({ product }: { product: ErgoChair300 }) {
           </a>
           <div className="flex-1 min-w-0 flex flex-col gap-3">
             <div className="flex flex-wrap gap-2">
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-brand-muted text-brand font-bold">
-                {product.price}
-              </span>
               <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
                 Lumbar: {product.lumbar}
               </span>
@@ -360,7 +357,6 @@ export default async function BestErgonomicChairUnder300Page() {
                   <th className="text-left px-4 py-3 font-semibold hidden md:table-cell">
                     Capacity
                   </th>
-                  <th className="text-left px-4 py-3 font-semibold">Price</th>
                   <th className="px-4 py-3"></th>
                 </tr>
               </thead>
@@ -386,9 +382,6 @@ export default async function BestErgonomicChairUnder300Page() {
                     </td>
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden md:table-cell">
                       {products[i].capacity}
-                    </td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs">
-                      {row.price}
                     </td>
                     <td className="px-4 py-3">
                       <a
@@ -725,7 +718,6 @@ export default async function BestErgonomicChairUnder300Page() {
                   <th className="text-left px-4 py-3 font-semibold whitespace-nowrap">Capacity</th>
                   <th className="text-left px-4 py-3 font-semibold whitespace-nowrap">Seat</th>
                   <th className="text-left px-4 py-3 font-semibold whitespace-nowrap">Warranty</th>
-                  <th className="text-left px-4 py-3 font-semibold whitespace-nowrap">Price</th>
                 </tr>
               </thead>
               <tbody>
@@ -742,7 +734,6 @@ export default async function BestErgonomicChairUnder300Page() {
                     <td className="px-4 py-3 text-ink-secondary text-xs whitespace-nowrap">{p.capacity}</td>
                     <td className="px-4 py-3 text-ink-secondary text-xs">{p.seatType}</td>
                     <td className="px-4 py-3 text-ink-secondary text-xs whitespace-nowrap">{p.warranty}</td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs whitespace-nowrap">{p.price}</td>
                   </tr>
                 ))}
               </tbody>

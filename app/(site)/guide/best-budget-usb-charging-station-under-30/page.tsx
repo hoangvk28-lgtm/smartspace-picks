@@ -32,7 +32,6 @@ function ProductSection({ product }: { product: ChargingProduct }) {
           </a>
           <div className="flex-1 min-w-0 flex flex-col gap-3">
             <div className="flex flex-wrap gap-2">
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-brand-muted text-brand font-bold">{product.price}</span>
               <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">{product.ports}</span>
               <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">{product.wattage}</span>
               {product.usbC && <span className="text-xs px-2.5 py-1 rounded-lg bg-cta-light text-cta font-bold">USB-C PD</span>}
@@ -162,7 +161,6 @@ export default async function BestBudgetUsbChargingStationUnder30Page() {
                 <th className="text-left px-4 py-3 font-semibold">Product</th>
                 <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Ports</th>
                 <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">USB-C?</th>
-                <th className="text-left px-4 py-3 font-semibold">Price</th>
                 <th className="px-4 py-3"></th>
               </tr></thead>
               <tbody>
@@ -174,7 +172,6 @@ export default async function BestBudgetUsbChargingStationUnder30Page() {
                     <td className="px-4 py-3 text-xs hidden sm:table-cell">
                       <span className={row.usbC === "✓" ? "text-cta font-bold" : "text-ink-muted"}>{row.usbC}</span>
                     </td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs">{row.price}</td>
                     <td className="px-4 py-3">
                       <a href={products[i].amazonUrl} target="_blank" rel="nofollow sponsored noopener noreferrer"
                         className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>

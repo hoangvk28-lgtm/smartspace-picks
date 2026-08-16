@@ -57,9 +57,6 @@ function ProductSection({ product }: { product: MonitorArm100 }) {
           </a>
           <div className="flex-1 min-w-0 flex flex-col gap-3">
             <div className="flex flex-wrap gap-2">
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-amber-100 text-amber-700 font-bold">
-                {product.price}
-              </span>
               <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
                 Weight: {product.weightCap}
               </span>
@@ -360,7 +357,6 @@ export default async function BestMonitorArmUnder100Page() {
                   <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">
                     Screen Size
                   </th>
-                  <th className="text-left px-4 py-3 font-semibold">Price</th>
                   <th className="px-4 py-3"></th>
                 </tr>
               </thead>
@@ -383,9 +379,6 @@ export default async function BestMonitorArmUnder100Page() {
                     </td>
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">
                       {row.screenSize}
-                    </td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs">
-                      {row.price}
                     </td>
                     <td className="px-4 py-3">
                       <a
@@ -704,7 +697,6 @@ export default async function BestMonitorArmUnder100Page() {
                   <th className="text-left px-4 py-3 font-semibold hidden lg:table-cell">
                     Best for
                   </th>
-                  <th className="text-left px-4 py-3 font-semibold">Price</th>
                 </tr>
               </thead>
               <tbody>
@@ -735,9 +727,6 @@ export default async function BestMonitorArmUnder100Page() {
                     </td>
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden lg:table-cell">
                       {p.badge}
-                    </td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs font-semibold">
-                      {p.price}
                     </td>
                   </tr>
                 ))}

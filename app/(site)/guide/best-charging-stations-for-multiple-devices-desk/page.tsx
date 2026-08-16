@@ -53,7 +53,6 @@ function ProductSection({ product }: { product: MultiDeviceProduct }) {
             <div className="flex flex-wrap gap-2">
               <span className="text-xs px-2.5 py-1 rounded-lg bg-brand-muted text-brand font-bold">{product.totalWattage}</span>
               <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">{product.ports}</span>
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">{product.priceRange}</span>
             </div>
 
             <div>
@@ -186,7 +185,6 @@ export default async function BestMultipleDevicesChargingPage() {
                   <th className="text-left px-4 py-3 font-semibold">Best Pick</th>
                   <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Ports</th>
                   <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Total W</th>
-                  <th className="text-left px-4 py-3 font-semibold">Price</th>
                   <th className="px-4 py-3"></th>
                 </tr>
               </thead>
@@ -197,7 +195,6 @@ export default async function BestMultipleDevicesChargingPage() {
                     <td className="px-4 py-3 text-ink text-xs"><a href={`#${row.id}`} className="font-bold text-brand hover:underline">{row.pick}</a></td>
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{row.ports}</td>
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{row.wattage}</td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs">{row.price}</td>
                     <td className="px-4 py-3">
                       <a href={`#${row.id}`} className="text-xs font-medium px-2.5 py-1 rounded-lg bg-brand-muted text-brand hover:bg-brand hover:text-white transition-colors whitespace-nowrap">See pick</a>
                     </td>

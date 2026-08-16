@@ -52,7 +52,6 @@ function ProductSection({ product }: { product: DockProduct }) {
               <span className="text-xs px-2.5 py-1 rounded-lg bg-brand-muted text-brand font-bold">{product.connection}</span>
               <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">{product.monitors} monitors</span>
               <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">{product.charging} charging</span>
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">{product.priceRange}</span>
             </div>
 
             <div>
@@ -185,7 +184,6 @@ export default async function BestDockingStationsPage() {
                   <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Connection</th>
                   <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Monitors</th>
                   <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Charging</th>
-                  <th className="text-left px-4 py-3 font-semibold">Price</th>
                   <th className="px-4 py-3"></th>
                 </tr>
               </thead>
@@ -197,7 +195,6 @@ export default async function BestDockingStationsPage() {
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{p.connection}</td>
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{p.monitors}</td>
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{p.charging}</td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs">{p.priceRange}</td>
                     <td className="px-4 py-3">
                       <a href={p.amazonUrl} target="_blank" rel="nofollow sponsored noopener noreferrer" className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>Check price</a>
                     </td>

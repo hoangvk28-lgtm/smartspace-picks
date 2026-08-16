@@ -554,7 +554,6 @@ export default async function BestElectricStandingDeskPage() {
                       <td className="px-4 py-3 font-medium text-ink text-xs">{row.type}</td>
                       <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{row.stability}</td>
                       <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{row.noise}</td>
-                      <td className="px-4 py-3 text-ink-secondary text-xs">{row.price}</td>
                     </tr>
                   ))}
                 </tbody>

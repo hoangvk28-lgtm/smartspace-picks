@@ -97,7 +97,7 @@ function PickCard({ pick }: { pick: ComparePick }) {
             </div>
           </div>
           <p className="text-xs text-ink-muted mb-3">
-            {pick.price} &middot; {pick.surface} &middot; {pick.adjustability}
+            {pick.surface} &middot; {pick.adjustability}
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div>
@@ -356,7 +356,6 @@ export default function LapDeskVsStandingDeskConverterPage() {
                     <div className="flex-1">
                       <div className="flex items-center gap-2 mb-1.5">
                         <p className="font-bold text-ink text-sm">{s.productName}</p>
-                        <span className="text-xs text-ink-muted">{s.price}</span>
                       </div>
                       <p className="text-sm text-ink-secondary mb-3">{s.detail}</p>
                       {s.exception && (

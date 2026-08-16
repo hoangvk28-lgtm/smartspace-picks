@@ -100,7 +100,7 @@ function StandCard({ stand }: { stand: HeadphoneStand }) {
           </div>
 
           <p className="text-xs text-ink-muted mb-1">
-            {stand.price} &middot; Footprint: {stand.footprint} &middot; {stand.features}
+            Footprint: {stand.footprint} &middot; {stand.features}
           </p>
           <p className="text-xs text-ink-secondary italic mb-3">Best for: {stand.bestFor}</p>
 
@@ -248,7 +248,6 @@ export default async function BestHeadphoneStandDeskPage() {
                 </div>
                 <div className="flex flex-col items-end gap-0.5 shrink-0">
                   <ScoreChip score={pick.score} />
-                  <span className="text-xs text-ink-muted">{pick.price}</span>
                 </div>
               </a>
             ))}
@@ -384,7 +383,6 @@ export default async function BestHeadphoneStandDeskPage() {
                   <th className="text-left px-4 py-3 font-semibold">Footprint</th>
                   <th className="text-left px-4 py-3 font-semibold">Features</th>
                   <th className="text-center px-4 py-3 font-semibold">Score</th>
-                  <th className="text-left px-4 py-3 font-semibold">Price</th>
                   <th className="px-4 py-3"></th>
                 </tr>
               </thead>
@@ -405,7 +403,6 @@ export default async function BestHeadphoneStandDeskPage() {
                     <td className="px-4 py-3 text-ink-secondary">{s.footprint}</td>
                     <td className="px-4 py-3 text-ink-secondary">{s.features}</td>
                     <td className="px-4 py-3 text-center"><ScoreChip score={s.score} /></td>
-                    <td className="px-4 py-3 text-ink-secondary font-medium">{s.price}</td>
                     <td className="px-4 py-3">
                       <a
                         href={s.amazonUrl}
@@ -422,7 +419,6 @@ export default async function BestHeadphoneStandDeskPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-ink-muted mt-2 italic">Prices are approximate. Check Amazon for current pricing before purchasing.</p>
         </section>
 
         {/* How to Choose by Desk Size */}
@@ -443,7 +439,7 @@ export default async function BestHeadphoneStandDeskPage() {
                           <path d="M3 8l3 3 7-7" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
                         <div>
-                          <p className="font-semibold text-ink text-sm">{pick.name} <span className="font-normal text-ink-muted">({pick.price})</span></p>
+                          <p className="font-semibold text-ink text-sm">{pick.name}</p>
                           <p className="text-xs text-ink-secondary">{pick.why}</p>
                         </div>
                       </a>

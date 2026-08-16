@@ -56,9 +56,6 @@ function ProductSection({ product }: { product: GuideProduct }) {
           </a>
           <div className="flex-1 min-w-0 flex flex-col gap-3">
             <div className="flex flex-wrap gap-2">
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-brand-muted text-brand font-bold">
-                {product.price}
-              </span>
               {product.specs.map((spec, i) => (
                 <span
                   key={i}
@@ -327,9 +324,6 @@ export default async function BestWallMountedDesksSmallSpacesPage() {
                 <tr className="bg-brand text-white">
                   <th className="text-left px-4 py-3 font-semibold">Pick</th>
                   <th className="text-left px-4 py-3 font-semibold">Product</th>
-                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">
-                    Price
-                  </th>
                   <th className="px-4 py-3"></th>
                 </tr>
               </thead>
@@ -346,9 +340,6 @@ export default async function BestWallMountedDesksSmallSpacesPage() {
                     </td>
                     <td className="px-4 py-3 font-semibold text-ink text-xs">
                       {p.name}
-                    </td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">
-                      {p.price}
                     </td>
                     <td className="px-4 py-3">
                       <a

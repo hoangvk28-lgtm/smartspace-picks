@@ -133,7 +133,7 @@ export default async function BestSmallDeskAccessoriesPage() {
                       </span>
                     )}
                     <p className="font-semibold text-sm text-ink leading-snug">{item.name}</p>
-                    <p className="text-xs text-ink-muted mt-0.5">{item.price} &middot; {item.footprint}</p>
+                    <p className="text-xs text-ink-muted mt-0.5">{item.footprint}</p>
                   </div>
                   <a
                     href={item.amazonUrl}
@@ -266,7 +266,7 @@ export default async function BestSmallDeskAccessoriesPage() {
                               )}
                               <h4 className="text-base font-bold text-ink leading-tight">{item.name}</h4>
                               <p className="text-xs text-ink-muted mt-0.5">
-                                {item.price} &middot; Footprint: {item.footprint}
+                                Footprint: {item.footprint}
                               </p>
                             </div>
                           </div>
@@ -347,7 +347,6 @@ export default async function BestSmallDeskAccessoriesPage() {
                 <tr className="bg-brand text-white">
                   <th className="text-left px-4 py-3 font-semibold">Accessory</th>
                   <th className="text-left px-4 py-3 font-semibold">Category</th>
-                  <th className="text-left px-4 py-3 font-semibold">Price</th>
                   <th className="text-left px-4 py-3 font-semibold">Footprint</th>
                   <th className="text-center px-4 py-3 font-semibold">Score</th>
                   <th className="px-4 py-3"></th>
@@ -363,7 +362,6 @@ export default async function BestSmallDeskAccessoriesPage() {
                       </div>
                     </td>
                     <td className="px-4 py-3 text-ink-secondary text-xs">{item.categoryLabel}</td>
-                    <td className="px-4 py-3 text-ink-secondary font-medium whitespace-nowrap">{item.price}</td>
                     <td className="px-4 py-3 text-ink-secondary text-xs">{item.footprint}</td>
                     <td className="px-4 py-3 text-center">
                       <span
@@ -409,13 +407,11 @@ export default async function BestSmallDeskAccessoriesPage() {
             {setupCombos.map((combo) => (
               <div key={combo.label} className="p-5 rounded-2xl border border-border bg-white">
                 <p className="text-xs font-bold uppercase tracking-widest text-brand mb-1">{combo.label}</p>
-                <p className="text-xl font-bold text-ink mb-1">{combo.price}</p>
                 <p className="text-xs text-ink-secondary mb-4 italic">{combo.tagline}</p>
                 <ul className="space-y-2">
                   {combo.items.map((ci) => (
                     <li key={ci.name} className="flex items-start justify-between gap-2 text-xs">
                       <span className="text-ink-secondary leading-snug">{ci.name}</span>
-                      <span className="font-semibold text-ink shrink-0">{ci.price}</span>
                     </li>
                   ))}
                 </ul>

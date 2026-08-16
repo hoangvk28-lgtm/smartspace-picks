@@ -186,7 +186,6 @@ export default async function BestTabletStandsPage() {
               <thead>
                 <tr className="bg-brand text-white">
                   <th className="text-left px-4 py-3 font-semibold">Stand</th>
-                  <th className="text-left px-4 py-3 font-semibold">Price</th>
                   <th className="text-left px-4 py-3 font-semibold">Build</th>
                   <th className="text-left px-4 py-3 font-semibold">Max Size</th>
                   <th className="text-center px-4 py-3 font-semibold">Score</th>
@@ -202,7 +201,6 @@ export default async function BestTabletStandsPage() {
                         {p.name}
                       </div>
                     </td>
-                    <td className="px-4 py-3 text-ink-secondary font-medium">{p.price}</td>
                     <td className="px-4 py-3 text-ink-secondary">
                       {p.brand === "LISEN" || p.brand === "UGREEN" ? "ABS plastic" :
                        p.brand === "Stump" ? "Rubber/silicone" : "Aluminum alloy"}

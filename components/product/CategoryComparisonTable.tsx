@@ -33,9 +33,6 @@ export function CategoryComparisonTable({ products }: CategoryComparisonTablePro
               Best For
             </th>
             <th className="px-4 py-3 font-semibold text-ink-secondary text-xs uppercase tracking-wide text-center whitespace-nowrap">
-              Price
-            </th>
-            <th className="px-4 py-3 font-semibold text-ink-secondary text-xs uppercase tracking-wide text-center whitespace-nowrap">
               Score
             </th>
             <th className="px-4 py-3 font-semibold text-ink-secondary text-xs uppercase tracking-wide text-center whitespace-nowrap hidden md:table-cell">
@@ -70,13 +67,6 @@ export function CategoryComparisonTable({ products }: CategoryComparisonTablePro
                 <p className="text-xs text-ink-secondary leading-relaxed max-w-[200px]">
                   {product.bestFor[0] ?? "-"}
                 </p>
-              </td>
-
-              {/* Price */}
-              <td className="px-4 py-3.5 text-center">
-                <span className="font-bold text-ink text-sm whitespace-nowrap">
-                  {product.priceRange}
-                </span>
               </td>
 
               {/* Overall score */}

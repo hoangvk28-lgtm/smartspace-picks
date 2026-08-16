@@ -124,7 +124,6 @@ export async function HeroSection({ settings: propSettings }: Props = {}) {
                   <span className="w-6 h-6 rounded-full text-white text-[10px] font-bold flex items-center justify-center shrink-0" style={{ background: "rgba(59,130,246,0.75)" }}>{i + 1}</span>
                   <div className="flex-1 min-w-0">
                     <p className="text-sm font-semibold leading-snug line-clamp-1" style={{ color: "rgba(255,255,255,0.96)" }}>{p.name}</p>
-                    <p className="text-xs mt-0.5" style={{ color: "rgba(255,255,255,0.62)" }}>{p.priceRange}</p>
                   </div>
                   <span className="text-sm font-bold tabular-nums shrink-0 px-2 py-0.5 rounded-md" style={{ color: "#ffffff", background: "rgba(59,130,246,0.35)", border: "1px solid rgba(59,130,246,0.50)" }}>
                     {p.scores.overall.toFixed(1)}

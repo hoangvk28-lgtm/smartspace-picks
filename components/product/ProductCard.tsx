@@ -69,18 +69,17 @@ export function ProductCard({ product, showScore = true }: ProductCardProps) {
           {product.shortDescription}
         </p>
 
-        {/* Score + price row */}
-        <div className="flex items-center justify-between gap-3">
-          {showScore && (
+        {/* Score row */}
+        {showScore && (
+          <div className="flex items-center gap-3">
             <div className="flex items-baseline gap-1">
               <span className={clsx("text-2xl font-bold tabular-nums", scoreToColor(product.scores.overall))}>
                 {product.scores.overall.toFixed(1)}
               </span>
               <span className="text-xs text-ink-muted">/10</span>
             </div>
-          )}
-          <p className="text-base font-bold text-ink">{product.priceRange}</p>
-        </div>
+          </div>
+        )}
 
         {/* Actions */}
         <div className="flex flex-col gap-2 pt-3 border-t border-border">

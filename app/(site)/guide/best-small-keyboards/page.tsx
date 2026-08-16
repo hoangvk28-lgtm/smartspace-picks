@@ -220,7 +220,6 @@ export default async function BestSmallKeyboardsPage() {
               <thead>
                 <tr className="bg-brand text-white">
                   <th className="text-left px-4 py-3 font-semibold">Keyboard</th>
-                  <th className="text-left px-4 py-3 font-semibold">Price</th>
                   <th className="text-left px-4 py-3 font-semibold">Layout</th>
                   <th className="text-left px-4 py-3 font-semibold">Connection</th>
                   <th className="text-center px-4 py-3 font-semibold">Score</th>
@@ -236,7 +235,6 @@ export default async function BestSmallKeyboardsPage() {
                         {p.name}
                       </div>
                     </td>
-                    <td className="px-4 py-3 text-ink-secondary font-medium">{p.price}</td>
                     <td className="px-4 py-3 text-ink-secondary">{layoutByRank[p.rank]}</td>
                     <td className="px-4 py-3 text-ink-secondary">{connectionByRank[p.rank]}</td>
                     <td className="px-4 py-3 text-center">

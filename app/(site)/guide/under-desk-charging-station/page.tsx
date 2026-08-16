@@ -35,7 +35,6 @@ function ProductSection({ product }: { product: UnderDeskProduct }) {
           <div className="flex-1 min-w-0 flex flex-col gap-3">
             <div className="flex flex-wrap gap-2">
               <span className="text-xs px-2.5 py-1 rounded-lg bg-brand-muted text-brand font-bold">{product.mountType}</span>
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">{product.priceRange}</span>
             </div>
             <div>
               <p className="text-xs font-bold uppercase tracking-widest text-brand mb-1">Why it wins</p>
@@ -149,7 +148,6 @@ export default async function UnderDeskChargingPage() {
                 <th className="text-left px-4 py-3 font-semibold">Product</th>
                 <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Mount Type</th>
                 <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Charging</th>
-                <th className="text-left px-4 py-3 font-semibold">Price</th>
                 <th className="px-4 py-3"></th>
               </tr></thead>
               <tbody>
@@ -159,7 +157,6 @@ export default async function UnderDeskChargingPage() {
                     <td className="px-4 py-3 font-semibold text-ink text-xs">{p.name}</td>
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{p.mountType}</td>
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{p.charging}</td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs">{p.priceRange}</td>
                     <td className="px-4 py-3"><a href={p.amazonUrl} target="_blank" rel="nofollow sponsored noopener noreferrer" className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>Check price</a></td>
                   </tr>
                 ))}

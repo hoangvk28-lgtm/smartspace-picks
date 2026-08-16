@@ -99,7 +99,7 @@ function PickCard({ pick }: { pick: ComparePick }) {
             </div>
           </div>
           <p className="text-xs text-ink-muted mb-3">
-            {pick.price} &middot; Limit: {pick.weightLimit} &middot; {pick.adjustability}
+            Limit: {pick.weightLimit} &middot; {pick.adjustability}
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div>
@@ -303,7 +303,6 @@ export default function MonitorStandVsArmPage() {
                   <th className="text-left p-3 font-bold text-ink border-b border-border">Score</th>
                   <th className="text-left p-3 font-bold text-ink border-b border-border">Weight</th>
                   <th className="text-left p-3 font-bold text-ink border-b border-border">Adjust</th>
-                  <th className="text-left p-3 font-bold text-ink border-b border-border">Price</th>
                 </tr>
               </thead>
               <tbody>
@@ -320,7 +319,6 @@ export default function MonitorStandVsArmPage() {
                       <td className="p-3 border-b border-border"><ScoreChip score={p.score} /></td>
                       <td className="p-3 text-xs text-ink-secondary border-b border-border">{p.weightLimit}</td>
                       <td className="p-3 text-xs text-ink-secondary border-b border-border">{p.adjustability}</td>
-                      <td className="p-3 text-xs text-ink-secondary border-b border-border">{p.price}</td>
                     </tr>
                   );
                 })}
@@ -413,7 +411,6 @@ export default function MonitorStandVsArmPage() {
                     <div className="flex items-center gap-2 flex-wrap">
                       <span className="text-xs font-semibold text-ink">Pick:</span>
                       <a href={`#${s.productId}`} className="text-xs font-bold hover:underline" style={{ color: style.text }}>{s.productName}</a>
-                      <span className="text-xs text-ink-muted">{s.price}</span>
                     </div>
                     {s.exception && (
                       <p className="mt-2 text-xs text-amber-700 bg-amber-50 rounded-lg px-3 py-2">

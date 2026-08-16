@@ -57,9 +57,6 @@ function ProductSection({ product }: { product: GuideProduct }) {
           </a>
           <div className="flex-1 min-w-0 flex flex-col gap-3">
             <div className="flex flex-wrap gap-2">
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-brand-muted text-brand font-bold">
-                {product.price}
-              </span>
               {product.specs.map((spec, i) => (
                 <span
                   key={i}
@@ -242,7 +239,6 @@ export default async function BestWalkingPadsPage() {
                 <tr className="bg-brand text-white">
                   <th className="text-left px-4 py-3 font-semibold">Pick</th>
                   <th className="text-left px-4 py-3 font-semibold">Product</th>
-                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Price</th>
                   <th className="px-4 py-3"></th>
                 </tr>
               </thead>
@@ -253,7 +249,6 @@ export default async function BestWalkingPadsPage() {
                       <a href={`#${product.id}`} className="text-xs font-bold text-brand hover:underline">{product.badge}</a>
                     </td>
                     <td className="px-4 py-3 font-semibold text-ink text-xs">{product.name}</td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{product.price}</td>
                     <td className="px-4 py-3">
                       <a href={product.amazonUrl} target="_blank" rel="noopener noreferrer sponsored" className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>
                         Check price

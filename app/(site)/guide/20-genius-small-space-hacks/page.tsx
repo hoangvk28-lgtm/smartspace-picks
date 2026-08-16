@@ -49,7 +49,6 @@ function HackCard({ hack }: { hack: SpaceHack }) {
           {hack.number}
         </span>
         <span className="text-xs font-bold" style={{ color: c.text }}>{zoneLabel[hack.zone]}</span>
-        <span className="ml-auto text-xs font-semibold text-ink-muted">{hack.price}</span>
       </div>
 
       <div className="flex flex-col sm:flex-row gap-4 p-5">
@@ -314,7 +313,7 @@ export default async function SmallSpaceHacksPage() {
                       <td className="px-4 py-2.5">
                         <a href={h.amazonUrl} target="_blank" rel="nofollow sponsored noopener noreferrer"
                           className="text-xs font-semibold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>
-                          {h.price}
+                          Check price
                         </a>
                       </td>
                     </tr>

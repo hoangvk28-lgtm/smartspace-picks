@@ -66,7 +66,6 @@ function WebcamSection({ cam }: { cam: BudgetWebcam }) {
               <FitScoreBadge score={cam.fitScore} />
               <div className="flex flex-col gap-1.5">
                 <div className="flex flex-wrap gap-1.5">
-                  <span className="text-xs px-2.5 py-1 rounded-lg bg-brand-muted text-brand font-bold">{cam.priceRange}</span>
                   <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">{cam.resolution} · {cam.fps}</span>
                   {cam.privacyShutter && (
                     <span className="text-xs px-2.5 py-1 rounded-lg bg-emerald-50 text-emerald-700 font-semibold border border-emerald-200">
@@ -271,7 +270,6 @@ export default async function BestWebcamUnder50Page() {
                   <th className="text-left px-4 py-3 font-semibold hidden md:table-cell">Resolution</th>
                   <th className="text-center px-4 py-3 font-semibold hidden md:table-cell">Privacy Shutter</th>
                   <th className="text-center px-4 py-3 font-semibold hidden lg:table-cell">Chromebook</th>
-                  <th className="text-left px-4 py-3 font-semibold">Price</th>
                   <th className="px-4 py-3"></th>
                 </tr>
               </thead>
@@ -296,7 +294,6 @@ export default async function BestWebcamUnder50Page() {
                     <td className="px-4 py-3 text-center hidden lg:table-cell">
                       <span className="text-emerald-600 font-bold text-xs">✓</span>
                     </td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs whitespace-nowrap">{p.price}</td>
                     <td className="px-4 py-3">
                       <a
                         href={p.amazonUrl}

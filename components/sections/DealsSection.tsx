@@ -103,9 +103,8 @@ export function DealsSection({ products }: DealsSectionProps) {
               </p>
             </div>
 
-            {/* Price + CTA */}
+            {/* CTA */}
             <div className="mt-auto pt-3 border-t border-border flex flex-col gap-2.5">
-              <p className="font-bold text-ink text-base">{product.priceRange}</p>
               <CTAButton href={product.amazonUrl} size="sm" fullWidth>
                 Check on Amazon
               </CTAButton>
@@ -123,7 +122,7 @@ export function DealsSection({ products }: DealsSectionProps) {
 
       {/* Disclaimer */}
       <p className="mt-6 text-xs text-ink-muted">
-        Prices shown are approximate ranges. Check Amazon for current pricing. Prices fluctuate and deals may not always be available.
+        Check Amazon for current pricing and availability.
       </p>
     </section>
   );

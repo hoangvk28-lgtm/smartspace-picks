@@ -61,16 +61,6 @@ export function ComparisonTable({ products, showSpecs = false }: ComparisonTable
             </tr>
           ))}
 
-          {/* Price range */}
-          <tr className="border-b border-border bg-white">
-            <td className="px-4 py-3 text-ink-secondary font-medium">Price Range</td>
-            {products.map((p) => (
-              <td key={p.id} className="px-4 py-3 text-center font-bold text-ink">
-                {p.priceRange}
-              </td>
-            ))}
-          </tr>
-
           {/* Specs rows */}
           {showSpecs &&
             products[0]?.specs &&

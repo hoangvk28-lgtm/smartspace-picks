@@ -71,7 +71,7 @@ function AtAGlanceRow({ item }: { item: AtAGlanceItem }) {
         onClick={() => setOpen((v) => !v)}
         className="w-full flex items-center justify-center gap-1.5 py-2 text-[11px] font-bold uppercase tracking-widest text-ink-muted hover:text-ink transition-colors border-t border-dashed border-border"
       >
-        {open ? "Hide" : "Show"} Pros &amp; Cons
+        {`${open ? "Hide" : "Show"} Pros & Cons`}
         <svg
           className={`w-3.5 h-3.5 transition-transform duration-200 ${open ? "rotate-180" : ""}`}
           fill="none"

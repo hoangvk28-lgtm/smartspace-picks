@@ -36,7 +36,6 @@ function PickSection({ pick }: { pick: AccessoryPick }) {
             </a>
             <p className="text-xs text-ink-muted mt-0.5">{pick.brand}</p>
           </div>
-          <span className="shrink-0 text-sm font-bold text-ink">{pick.price}</span>
         </div>
 
         <div className="p-5">
@@ -117,7 +116,7 @@ function PickSection({ pick }: { pick: AccessoryPick }) {
                     <a href={alt.amazonUrl} target="_blank" rel="nofollow sponsored noopener noreferrer"
                       className="shrink-0 text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap"
                       style={{ background: "#FF9900" }}>
-                      {alt.price}
+                      Check price
                     </a>
                   </div>
                 ))}
@@ -202,7 +201,6 @@ export default async function BestDeskSetupAccessoriesPage() {
                 <tr className="bg-brand text-white">
                   <th className="text-left px-4 py-3 font-semibold">Category</th>
                   <th className="text-left px-4 py-3 font-semibold">Best Pick</th>
-                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Price</th>
                   <th className="px-4 py-3"></th>
                 </tr>
               </thead>
@@ -213,7 +211,6 @@ export default async function BestDeskSetupAccessoriesPage() {
                       <a href={`#${p.id}`} className="hover:text-brand transition-colors">{p.category}</a>
                     </td>
                     <td className="px-4 py-3 text-ink-secondary">{p.name}</td>
-                    <td className="px-4 py-3 text-ink-secondary font-medium hidden sm:table-cell">{p.price}</td>
                     <td className="px-4 py-3">
                       <a href={p.amazonUrl} target="_blank" rel="nofollow sponsored noopener noreferrer"
                         className="text-xs font-semibold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block"

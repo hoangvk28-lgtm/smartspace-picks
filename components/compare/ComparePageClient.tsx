@@ -162,9 +162,6 @@ function ComparePageInner({ products, categories, lockedCategorySlug }: Props) {
               <th className="text-left px-4 py-3 font-semibold text-ink-secondary text-xs uppercase tracking-wide hidden lg:table-cell">
                 Best For
               </th>
-              <th className="px-3 py-3 text-center font-semibold text-ink-secondary text-xs uppercase tracking-wide whitespace-nowrap">
-                Price
-              </th>
               {SCORE_COLS.map((col) => (
                 <th
                   key={col.key}
@@ -215,7 +212,6 @@ function ComparePageInner({ products, categories, lockedCategorySlug }: Props) {
                         >
                           {product.name}
                         </Link>
-                        <p className="text-xs text-ink-muted mt-0.5">{product.priceRange}</p>
                       </div>
                     </div>
                   </td>
@@ -239,13 +235,6 @@ function ComparePageInner({ products, categories, lockedCategorySlug }: Props) {
                     <p className="text-xs text-ink-secondary leading-relaxed max-w-[200px]">
                       {product.bestFor[0] ?? "-"}
                     </p>
-                  </td>
-
-                  {/* Price */}
-                  <td className="px-3 py-4 text-center align-top">
-                    <span className="font-bold text-ink text-sm whitespace-nowrap">
-                      {product.priceRange}
-                    </span>
                   </td>
 
                   {/* Score columns */}
@@ -384,8 +373,7 @@ function ProductCard({
         </div>
 
         {/* Footer */}
-        <div className="flex items-center justify-between gap-2 pt-3 border-t border-border">
-          <span className="font-bold text-ink text-sm">{product.priceRange}</span>
+        <div className="flex items-center justify-end gap-2 pt-3 border-t border-border">
           <div className="flex items-center gap-2">
             <Link
               href={`/reviews/${product.slug}`}

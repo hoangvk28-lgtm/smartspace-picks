@@ -468,7 +468,6 @@ export default async function BestWoodFileCabinetsUnder500Page() {
                       <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-bg"}>
                         <td className="px-4 py-3 font-medium text-ink text-xs">{row.type}</td>
                         <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{row.surface}</td>
-                        <td className="px-4 py-3 text-ink-secondary text-xs">{row.price}</td>
                       </tr>
                     ))}
                   </tbody>

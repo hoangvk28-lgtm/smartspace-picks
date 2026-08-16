@@ -91,10 +91,9 @@ export function DealsProductCard({ product }: DealsProductCardProps) {
         {/* Spacer */}
         <div className="flex-1" />
 
-        {/* Price + CTA */}
+        {/* CTA */}
         <div className="pt-3 border-t border-border space-y-2.5">
-          <div className="flex items-center justify-between">
-            <span className="font-bold text-ink text-base">{product.priceRange}</span>
+          <div className="flex items-center justify-end">
             <Link
               href={`/reviews/${product.slug}`}
               className="text-xs font-medium text-brand hover:text-brand-dark transition-colors"

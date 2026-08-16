@@ -705,7 +705,6 @@ export default async function BuyingGuidePage({ params }: Props) {
                     <span className={`font-bold tabular-nums text-base block ${scoreToColor(alt.scores.overall)}`}>
                       {alt.scores.overall.toFixed(1)}
                     </span>
-                    <span className="text-xs text-ink-muted">{alt.priceRange}</span>
                   </div>
                 </Link>
               ))}

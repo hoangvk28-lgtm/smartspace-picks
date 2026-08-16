@@ -57,9 +57,6 @@ function ProductSection({ product }: { product: MechKeyboard100 }) {
           </a>
           <div className="flex-1 min-w-0 flex flex-col gap-3">
             <div className="flex flex-wrap gap-2">
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-brand-muted text-brand font-bold">
-                {product.price}
-              </span>
               <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
                 Layout: {product.layout}
               </span>
@@ -366,7 +363,6 @@ export default async function BestMechanicalKeyboardUnder100Page() {
                   <th className="text-left px-4 py-3 font-semibold hidden md:table-cell">
                     Switch
                   </th>
-                  <th className="text-left px-4 py-3 font-semibold">Price</th>
                   <th className="px-4 py-3"></th>
                 </tr>
               </thead>
@@ -392,9 +388,6 @@ export default async function BestMechanicalKeyboardUnder100Page() {
                     </td>
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden md:table-cell">
                       {row.switchType}
-                    </td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs">
-                      {row.price}
                     </td>
                     <td className="px-4 py-3">
                       <a
@@ -666,7 +659,6 @@ export default async function BestMechanicalKeyboardUnder100Page() {
               <thead>
                 <tr className="bg-brand text-white">
                   <th className="text-left px-4 py-3 font-semibold">Keyboard</th>
-                  <th className="text-left px-4 py-3 font-semibold">Price</th>
                   <th className="text-left px-4 py-3 font-semibold">Layout</th>
                   <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Wireless</th>
                   <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Hot-Swap</th>
@@ -688,9 +680,6 @@ export default async function BestMechanicalKeyboardUnder100Page() {
                       <div className="text-ink-muted font-normal mt-0.5">
                         {p.badge}
                       </div>
-                    </td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs font-semibold">
-                      {p.price}
                     </td>
                     <td className="px-4 py-3 text-ink-secondary text-xs">
                       {p.layout}

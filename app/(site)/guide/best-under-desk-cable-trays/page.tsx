@@ -53,7 +53,7 @@ function TrayCard({ tray }: { tray: CableTray }) {
               )}
             </div>
             <p className="font-bold text-ink leading-snug">{tray.name}</p>
-            <p className="text-xs text-ink-muted mt-0.5">{tray.price} &middot; {tray.mountLabel} &middot; {tray.cableCapacity}</p>
+            <p className="text-xs text-ink-muted mt-0.5">{tray.mountLabel} &middot; {tray.cableCapacity}</p>
           </div>
           <div className="flex flex-col items-end gap-2 shrink-0">
             <span
@@ -168,7 +168,6 @@ export default async function BestUnderDeskCableTraysPage() {
                 <p className="font-semibold text-ink text-sm leading-snug mb-1">{pick.name}</p>
                 <div className="flex items-center gap-2">
                   <span className="text-xs font-bold text-green-700 bg-green-100 px-1.5 py-0.5 rounded">{pick.score.toFixed(1)}</span>
-                  <span className="text-xs text-ink-muted">{pick.price}</span>
                 </div>
               </a>
             ))}
@@ -314,7 +313,6 @@ export default async function BestUnderDeskCableTraysPage() {
                 <tr className="bg-gray-50">
                   <th className="text-left p-3 font-bold text-ink border-b border-border">Tray</th>
                   <th className="text-left p-3 font-bold text-ink border-b border-border">Score</th>
-                  <th className="text-left p-3 font-bold text-ink border-b border-border">Price</th>
                   <th className="text-left p-3 font-bold text-ink border-b border-border">Mount</th>
                   <th className="text-left p-3 font-bold text-ink border-b border-border">Capacity</th>
                 </tr>
@@ -338,7 +336,6 @@ export default async function BestUnderDeskCableTraysPage() {
                         {t.score.toFixed(1)}
                       </span>
                     </td>
-                    <td className="p-3 text-ink-secondary border-b border-border">{t.price}</td>
                     <td className="p-3 text-ink-secondary border-b border-border">{t.mountLabel}</td>
                     <td className="p-3 text-ink-secondary border-b border-border">{t.cableCapacity}</td>
                   </tr>

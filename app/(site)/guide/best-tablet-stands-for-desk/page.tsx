@@ -236,7 +236,6 @@ export default async function BestTabletStandsForDeskPage() {
               <tr className="bg-brand text-white">
                 <th className="text-left px-4 py-3 font-semibold">Product</th>
                 <th className="text-left px-4 py-3 font-semibold">Best For</th>
-                <th className="text-left px-4 py-3 font-semibold">Price</th>
                 <th className="text-left px-4 py-3 font-semibold">Score</th>
                 <th className="px-4 py-3"></th>
               </tr>
@@ -246,7 +245,6 @@ export default async function BestTabletStandsForDeskPage() {
                 <tr key={p.rank} className={i % 2 === 0 ? "bg-white" : "bg-bg/40"}>
                   <td className="px-4 py-3 font-medium text-ink">{p.name}</td>
                   <td className="px-4 py-3 text-ink-secondary">{p.badge}</td>
-                  <td className="px-4 py-3 font-bold text-ink">{p.price}</td>
                   <td className="px-4 py-3 font-bold text-brand">{p.scoreOverall}/10</td>
                   <td className="px-4 py-3">
                     <a href={p.affiliateUrl} target="_blank" rel="nofollow sponsored noopener noreferrer"

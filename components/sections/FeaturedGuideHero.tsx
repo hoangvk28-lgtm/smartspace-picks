@@ -132,14 +132,11 @@ export function FeaturedGuideHero({ guide, products }: FeaturedGuideHeroProps) {
                   <p className="text-xs text-ink-secondary leading-relaxed line-clamp-2 mb-2">
                     {product.shortDescription}
                   </p>
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-baseline gap-1">
-                      <span className={`text-base font-bold tabular-nums ${scoreToColor(product.scores.overall)}`}>
-                        {product.scores.overall.toFixed(1)}
-                      </span>
-                      <span className="text-xs text-ink-muted">/10</span>
-                    </div>
-                    <span className="text-sm font-bold text-ink">{product.priceRange}</span>
+                  <div className="flex items-center gap-1">
+                    <span className={`text-base font-bold tabular-nums ${scoreToColor(product.scores.overall)}`}>
+                      {product.scores.overall.toFixed(1)}
+                    </span>
+                    <span className="text-xs text-ink-muted">/10</span>
                   </div>
                 </div>
               </Link>

@@ -106,16 +106,15 @@ export default async function ReviewsIndexPage() {
                 </div>
               )}
 
-              {/* Score + price + CTA */}
+              {/* Score + CTA */}
               <div className="pt-3 border-t border-border mt-auto space-y-2">
-                <div className="flex items-center justify-between">
+                <div className="flex items-center gap-1">
                   <div className="flex items-baseline gap-1">
                     <span className={`text-2xl font-bold tabular-nums ${scoreToColor(product.scores.overall)}`}>
                       {product.scores.overall.toFixed(1)}
                     </span>
                     <span className="text-xs text-ink-muted">/10</span>
                   </div>
-                  <span className="font-bold text-ink text-base">{product.priceRange}</span>
                 </div>
                 <Link
                   href={`/reviews/${product.slug}`}

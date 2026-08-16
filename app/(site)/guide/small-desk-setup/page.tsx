@@ -73,7 +73,7 @@ function IdeaSection({ idea, flip }: { idea: SetupIdea; flip: boolean }) {
                 {idea.productType}
               </p>
               <p className="text-sm font-bold text-ink leading-snug">{idea.productName}</p>
-              <p className="text-xs text-ink-muted mt-0.5">{idea.price} &middot; Amazon Prime eligible</p>
+              <p className="text-xs text-ink-muted mt-0.5">Amazon Prime eligible</p>
             </div>
             <a
               href={idea.amazonUrl}

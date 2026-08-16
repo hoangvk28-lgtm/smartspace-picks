@@ -43,7 +43,7 @@ function ProductCard({ product }: { product: OrgProduct }) {
         <div className="flex items-start justify-between gap-3 mb-2">
           <div>
             <p className="font-bold text-ink text-sm leading-snug">{product.name}</p>
-            <p className="text-xs text-ink-muted mt-0.5">{product.price} &middot; Footprint: {product.footprint}</p>
+            <p className="text-xs text-ink-muted mt-0.5">Footprint: {product.footprint}</p>
           </div>
           <div className="flex items-center gap-2 shrink-0">
             <span
@@ -439,7 +439,6 @@ export default async function SmallDeskOrganizationIdeasPage() {
                   <th className="text-left px-4 py-3 font-semibold">Product</th>
                   <th className="text-center px-4 py-3 font-semibold">Method</th>
                   <th className="text-left px-4 py-3 font-semibold">Footprint</th>
-                  <th className="text-left px-4 py-3 font-semibold">Price</th>
                   <th className="text-center px-4 py-3 font-semibold">Score</th>
                   <th className="px-4 py-3"></th>
                 </tr>
@@ -455,7 +454,6 @@ export default async function SmallDeskOrganizationIdeasPage() {
                         <span className="inline-block w-6 h-6 rounded-full bg-brand text-white text-xs font-bold flex items-center justify-center">{item.method}</span>
                       </td>
                       <td className="px-4 py-2.5 text-ink-secondary text-xs">{item.footprint}</td>
-                      <td className="px-4 py-2.5 text-ink-secondary font-medium text-xs whitespace-nowrap">{item.price}</td>
                       <td className="px-4 py-2.5 text-center">
                         <span
                           className="inline-block text-xs font-bold px-2 py-0.5 rounded-lg tabular-nums"
@@ -486,7 +484,6 @@ export default async function SmallDeskOrganizationIdeasPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-ink-muted mt-2 italic">Prices are approximate. Check Amazon for current pricing before purchasing.</p>
         </section>
 
         {/* By Situation */}
@@ -598,7 +595,6 @@ export default async function SmallDeskOrganizationIdeasPage() {
                   <p className="text-sm font-semibold text-ink mb-1 leading-snug">{item.name}</p>
                   <p className="text-xs text-ink-muted mb-2">{item.note}</p>
                   <div className="flex items-center justify-between">
-                    <span className="text-sm font-bold text-ink">{item.price}</span>
                     {prod && (
                       <a href={prod.amazonUrl} target="_blank" rel="nofollow sponsored noopener noreferrer" className="text-xs font-bold px-2.5 py-1 rounded-lg text-white" style={{ background: "#FF9900" }}>View</a>
                     )}

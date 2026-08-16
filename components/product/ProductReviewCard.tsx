@@ -177,12 +177,8 @@ export function ProductReviewCard({
               </div>
             </div>
 
-            {/* Price + CTA */}
+            {/* CTA */}
             <div className="flex flex-wrap items-center gap-3 mt-1">
-              <div>
-                <p className="text-[10px] text-ink-muted uppercase tracking-wide">List Price</p>
-                <p className="text-lg font-bold text-ink">{price}</p>
-              </div>
               <a
                 href={affiliateUrl}
                 target="_blank"

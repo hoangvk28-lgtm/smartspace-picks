@@ -56,7 +56,6 @@ function ProductSection({ product }: { product: WorkHeadset }) {
           </a>
           <div className="flex-1 min-w-0 flex flex-col gap-3">
             <div className="flex flex-wrap gap-2">
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-brand-muted text-brand font-bold">{product.price}</span>
               <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">{product.headsetType}</span>
               {product.battery !== "N/A" && (
                 <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">{product.battery}</span>
@@ -242,7 +241,6 @@ export default async function BestHeadsetForWorkPage() {
                   <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Type</th>
                   <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Teams</th>
                   <th className="text-left px-4 py-3 font-semibold hidden md:table-cell">Battery</th>
-                  <th className="text-left px-4 py-3 font-semibold">Price</th>
                   <th className="px-4 py-3"></th>
                 </tr>
               </thead>
@@ -260,7 +258,6 @@ export default async function BestHeadsetForWorkPage() {
                       </span>
                     </td>
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden md:table-cell">{row.battery}</td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs">{row.price}</td>
                     <td className="px-4 py-3">
                       <a
                         href={products[i].amazonUrl}

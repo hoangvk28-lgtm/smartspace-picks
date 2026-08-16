@@ -37,7 +37,6 @@ function ItemCard({ item }: { item: DormItem }) {
           </a>
           <p className="text-xs mt-0.5 font-semibold" style={{ color: c.text }}>{item.brand}</p>
         </div>
-        <span className="shrink-0 text-sm font-bold text-ink">{item.price}</span>
       </div>
 
       <div className="p-5">
@@ -294,7 +293,7 @@ export default async function DormItems25Page() {
                       <td className="px-4 py-2.5">
                         <a href={item.amazonUrl} target="_blank" rel="nofollow sponsored noopener noreferrer"
                           className="text-xs font-semibold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>
-                          {item.price}
+                          Check price
                         </a>
                       </td>
                     </tr>

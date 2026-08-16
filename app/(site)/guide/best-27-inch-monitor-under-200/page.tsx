@@ -57,9 +57,6 @@ function ProductSection({ product }: { product: Monitor27Under200 }) {
           </a>
           <div className="flex-1 min-w-0 flex flex-col gap-3">
             <div className="flex flex-wrap gap-2">
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-brand-muted text-brand font-bold">
-                {product.price}
-              </span>
               <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
                 {product.resolution}
               </span>
@@ -365,7 +362,6 @@ export default async function Best27InchMonitorUnder200Page() {
                   <th className="text-left px-4 py-3 font-semibold hidden md:table-cell">
                     Color
                   </th>
-                  <th className="text-left px-4 py-3 font-semibold">Price</th>
                   <th className="px-4 py-3"></th>
                 </tr>
               </thead>
@@ -391,9 +387,6 @@ export default async function Best27InchMonitorUnder200Page() {
                     </td>
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden md:table-cell">
                       {row.colorGamut}
-                    </td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs">
-                      {row.price}
                     </td>
                     <td className="px-4 py-3">
                       <a
@@ -623,7 +616,6 @@ export default async function Best27InchMonitorUnder200Page() {
                   <th className="text-left px-4 py-3 font-semibold">USB-C</th>
                   <th className="text-left px-4 py-3 font-semibold">Height Adj</th>
                   <th className="text-left px-4 py-3 font-semibold">Speakers</th>
-                  <th className="text-left px-4 py-3 font-semibold">Price</th>
                 </tr>
               </thead>
               <tbody>
@@ -674,9 +666,6 @@ export default async function Best27InchMonitorUnder200Page() {
                       ) : (
                         <span className="text-ink-muted">No</span>
                       )}
-                    </td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs font-semibold">
-                      {p.price}
                     </td>
                   </tr>
                 ))}

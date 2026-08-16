@@ -46,7 +46,6 @@ function ProductCard({ product }: { product: ErgoProduct }) {
           {product.score.toFixed(1)}
         </span>
         <span className="text-xs font-bold uppercase tracking-widest text-brand flex-1">{product.category}</span>
-        <span className="text-sm font-bold text-ink">{product.priceRange}</span>
       </div>
 
       <div className="flex flex-col sm:flex-row gap-5 p-5">
@@ -78,7 +77,7 @@ function ProductCard({ product }: { product: ErgoProduct }) {
             >
               {product.name}
             </a>
-            <p className="text-xs text-ink-muted mt-0.5">{product.brand} &middot; {product.price} &middot; Amazon Prime eligible</p>
+            <p className="text-xs text-ink-muted mt-0.5">{product.brand} &middot; Amazon Prime eligible</p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -494,7 +493,6 @@ export default async function ErgonomicDeskSetupPage() {
                 <tr className="bg-brand text-white">
                   <th className="text-left px-4 py-3 font-semibold">Product</th>
                   <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Solves</th>
-                  <th className="text-left px-4 py-3 font-semibold">Price</th>
                   <th className="text-left px-4 py-3 font-semibold">Score</th>
                   <th className="px-4 py-3"></th>
                 </tr>
@@ -509,7 +507,6 @@ export default async function ErgonomicDeskSetupPage() {
                       <p className="text-xs text-ink-muted mt-0.5">{p.category}</p>
                     </td>
                     <td className="px-4 py-3 text-xs text-ink-secondary hidden sm:table-cell">{p.solves}</td>
-                    <td className="px-4 py-3 font-semibold text-ink text-sm">{p.priceRange}</td>
                     <td className="px-4 py-3">
                       <span
                         className="text-xs font-bold px-2 py-0.5 rounded-lg"

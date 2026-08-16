@@ -36,7 +36,6 @@ function ProductSection({ product }: { product: LaptopDesktopDock }) {
               <span className="text-xs px-2.5 py-1 rounded-lg bg-brand-muted text-brand font-bold">{product.hosts} host{product.hosts !== "1 (TB4)" ? "s" : ""}</span>
               <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">{product.monitors}</span>
               <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">{product.charging}</span>
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">{product.priceRange}</span>
             </div>
             <div>
               <p className="text-xs font-bold uppercase tracking-widest text-brand mb-1">Why it wins</p>
@@ -151,7 +150,6 @@ export default async function DockingLaptopDesktopPage() {
                 <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Hosts</th>
                 <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">Monitors</th>
                 <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">PD</th>
-                <th className="text-left px-4 py-3 font-semibold">Price</th>
                 <th className="px-4 py-3"></th>
               </tr></thead>
               <tbody>
@@ -162,7 +160,6 @@ export default async function DockingLaptopDesktopPage() {
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{p.hosts}</td>
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{p.monitors}</td>
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">{p.charging}</td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs">{p.priceRange}</td>
                     <td className="px-4 py-3"><a href={p.amazonUrl} target="_blank" rel="nofollow sponsored noopener noreferrer" className="text-xs font-bold px-3 py-1.5 rounded-lg text-white whitespace-nowrap inline-block" style={{ background: "#FF9900" }}>Check price</a></td>
                   </tr>
                 ))}

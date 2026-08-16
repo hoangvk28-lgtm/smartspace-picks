@@ -436,6 +436,17 @@ None of these four bugs throw a build error or a TypeScript error — they only 
 5. This applies per-article even when the same ASIN reappears across sibling guides (e.g. the same cart shows up in both "best laptop charging carts" and "best laptop charging carts for schools") — reframe the same real facts around that article's specific angle (a district-procurement angle vs. a home-office angle) rather than copy-pasting the paragraph. Do not, however, re-fetch data you already have cached for that ASIN.
 6. Before marking a batch done, spot-check: pick 3 random product descriptions and ask "does this sentence exist because of a real feature, or because it sounds plausible?" If any answer is the latter, the batch is not done.
 
+### MANDATORY: Mining ≠ copy-pasting — reading real features is only step one, the description must be *rewritten* in reviewer voice
+
+**A second, distinct failure mode on top of #7 above — do not repeat it either.** The Conference Tables cluster (93 articles, 2026-08-16) shipped with `description`/`pros`/`cons` that *did* pull from real `itemInfo.features` text (satisfying the "no generic filler" rule) but left it almost verbatim: raw Amazon bullet headers (e.g. `"Robust Build & Versatile Layout Options: The tabletop is assembled from two pieces of premium MDF, with a."`) were left in as if they were prose, sometimes truncated mid-sentence where the source bullet had been cut off. The user caught this live on the rendered page — a `specs` pill and a `pros` line reading as an unfinished, copy-pasted product-listing fragment, not an original sentence a reviewer would write.
+
+**The fix, required for every mined field going forward:**
+1. Read the real feature text first (per the workflow above) — this step was never the problem.
+2. Then **close the source text and write the description from what you learned**, in your own sentences, the way `scripts/recd-products.mjs` does it (the approved gold-standard reference — study it before writing a new product dictionary). Never paste an Amazon bullet's header phrase (the `【...】` / `ALL CAPS:` / `Title Case:` lead-in) into `description`, `pros`, or `cons` as if it were your own sentence.
+3. `specs` entries must be short factual phrases (roughly 5–12 words, e.g. `"46.46\"L x 19.69\"W desktop, 30\" height"`), never a full sentence and never a truncated fragment — if a spec doesn't fit in a short phrase, it belongs in `description` instead.
+4. `pros`/`cons` must each be a complete, original evaluative sentence making a comparative or evaluative claim, not a restated marketing bullet.
+5. Before marking a batch done, grep the generated `data/guides/*.ts` files for tell-tale copy-paste artifacts: bullet-header punctuation left mid-string (`":"` immediately after a short capitalized phrase inside a `description`/`pros`/`cons` array value), and sentences that end mid-clause (no closing punctuation, or trailing on a dangling preposition/article like `"...with a."`). Either is a sign the source bullet was pasted, not rewritten.
+
 ---
 
 ## 8. Scoring Rules

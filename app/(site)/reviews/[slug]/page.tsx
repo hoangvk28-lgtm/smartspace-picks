@@ -278,9 +278,8 @@ export default async function ProductReviewPage({ params }: Props) {
                 </div>
               </div>
 
-              {/* Price + CTA */}
+              {/* CTA */}
               <div>
-                <p className="text-2xl font-bold text-ink mb-1">{product.priceRange}</p>
                 <CTAButton href={product.amazonUrl} size="lg" fullWidth>
                   Check Price on Amazon
                 </CTAButton>
@@ -621,8 +620,7 @@ export default async function ProductReviewPage({ params }: Props) {
                   </div>
 
                   <div className="shrink-0 text-right">
-                    <p className="font-bold text-ink text-sm">{alt.priceRange}</p>
-                    <p className="text-xs text-brand mt-1 group-hover:text-brand-dark transition-colors">
+                    <p className="text-xs text-brand group-hover:text-brand-dark transition-colors">
                       Full review →
                     </p>
                   </div>
@@ -703,8 +701,6 @@ export default async function ProductReviewPage({ params }: Props) {
           <div>
             <p className="font-bold text-ink text-base">{product.name}</p>
             <div className="flex items-center gap-2 mt-0.5">
-              <span className="text-sm font-bold text-ink">{product.priceRange}</span>
-              <span className="text-border" aria-hidden="true">·</span>
               <span className={`text-sm font-bold ${scoreToColor(product.scores.overall)}`}>
                 {product.scores.overall.toFixed(1)} / 10
               </span>

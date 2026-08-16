@@ -58,9 +58,6 @@ function ProductSection({ product }: { product: FileCabinet }) {
           </a>
           <div className="flex-1 min-w-0 flex flex-col gap-3">
             <div className="flex flex-wrap gap-2">
-              <span className="text-xs px-2.5 py-1 rounded-lg bg-brand-muted text-brand font-bold">
-                {product.price}
-              </span>
               <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-ink-secondary font-medium">
                 {product.drawers}
               </span>
@@ -337,9 +334,6 @@ export default async function Best2DrawerWoodFileCabinetsPage() {
                   <th className="text-left px-4 py-3 font-semibold">Pick</th>
                   <th className="text-left px-4 py-3 font-semibold">Product</th>
                   <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">
-                    Price
-                  </th>
-                  <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">
                     Drawers
                   </th>
                   <th className="text-left px-4 py-3 font-semibold hidden sm:table-cell">
@@ -361,9 +355,6 @@ export default async function Best2DrawerWoodFileCabinetsPage() {
                     </td>
                     <td className="px-4 py-3 font-semibold text-ink text-xs">
                       {row.name}
-                    </td>
-                    <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">
-                      {row.price}
                     </td>
                     <td className="px-4 py-3 text-ink-secondary text-xs hidden sm:table-cell">
                       {row.drawers}
