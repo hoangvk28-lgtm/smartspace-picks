@@ -394,6 +394,26 @@ The rendering itself (`components/guide/RichGuidePage.tsx`) is a faithful extrac
 - **Every product needs at least 3-4 `pros` entries.** Two pros reads thin to a reader and undersells a pick even when the product is genuinely good — this was flagged as a real defect in a shipped batch. Cons can be fewer (2-3 is fine) since editorial judgment naturally surfaces fewer genuine drawbacks than strengths for a product that made the cut to begin with, but don't pad cons artificially just to hit a count.
 - Every pro and con must still be a real, mined fact (a spec, a feature, a tradeoff) — never generic filler like "reliable" or "good value" with nothing backing it up. Padding to 4 pros with a vague line is worse than 3 sharp ones; mine the `features` data harder before inventing filler.
 
+### MANDATORY: Pros/Cons must be short, scannable, and friendly — not full analytical sentences (added 2026-08-18)
+
+**A real defect flagged live across the Fireproof Safes and Office Credenzas batches (109 articles, 2026-08-18).** Every pro/con was a real, mined fact in reviewer voice (satisfying the rules above), but each entry was written as a long, formal, comparative sentence — e.g. `"Lifetime after-fire replacement guarantee backs the rating directly, not just a general warranty"` — which reads like analytical prose copied out of a spec sheet, not a quick scannable pro/con a reader can absorb in one glance. The user's exact words: pros/cons should be **"ngắn gọn, thân thiện dễ hiểu"** (short, friendly, easy to understand).
+
+**Required going forward for every `pros`/`cons` entry:**
+1. **Target roughly 6-14 words.** A pro/con is a scannable bullet, not a sentence with a subordinate clause. If it needs a comma-separated qualifier ("..., not just a...", "..., a detail most competitors skip...") to make its point, cut the qualifier — state the plain fact instead and let the reader draw the comparison.
+2. **Write it the way you'd say it out loud to a friend**, not the way you'd write it in a spec comparison. "Two keys included, so losing one isn't a crisis" beats "A lifetime after-fire replacement guarantee backs the fire rating directly, not just a general warranty."
+3. Still must be a real mined fact (per the rule above) — short does not mean vague. Cut words, not substance.
+4. Before marking a batch done, spot-check word counts on a handful of `pros`/`cons` entries across the batch — if several run past ~16 words, the batch is not done.
+
+### MANDATORY: Every guide's intro paragraphs (and any other templated prose) must be genuinely unique per article — never a fill-in-the-blank template (added 2026-08-18)
+
+**A second real defect from the same batch.** Both the Fireproof Safes and Office Credenzas generator scripts (`scripts/gen-firesafe-all.mjs`, `scripts/gen-officecred-all.mjs`) built `introParagraphs` from a single fixed two-sentence template per cluster, only swapping in the article's own title/keyword — e.g. every one of the 62 Fireproof Safes articles used the identical second sentence verbatim: `"We compared this cluster's current lineup on independent fire evidence, usable interior capacity, and how water or security claims are documented separately, since a safe's nominal size and marketing language regularly overstate what's actually verified."` This is near-duplicate content across dozens of live URLs and is a real thin-content/doorway-page risk under Google's and Bing's duplicate-content and spam policies, not just a stylistic nitpick.
+
+**Required going forward for any batch-generated prose that appears on every article in a cluster** (intro paragraphs, "how we evaluated" framing text, or any other boilerplate-adjacent section):
+1. **Vary the template by the same category classification already used for `howToChoose`/`faq`** (the `classify(title)` pattern) — write 3-5 distinct phrasings per category, not one phrasing per cluster, and rotate/select among them so no two articles in the same category read identically either.
+2. The unique, article-specific noun phrase (the exact product/keyword) is not enough variation on its own — the surrounding sentence structure and reasoning must differ meaningfully between articles, not just the subject swapped into an otherwise identical sentence.
+3. Before marking a batch done, run a mechanical duplicate check: extract every article's `introParagraphs` (or equivalent) and diff/grep for repeated multi-word phrases (8+ consecutive words) appearing across more than 2-3 articles. Any hit means the template needs more variation, not a one-off fix.
+4. This applies to any future cluster generator script, not just the two named above — check this before considering a batch-generation script done.
+
 ### "About this pick" Product Description Rules (GuideProduct.description)
 - **Always split into 2 paragraphs** using `\n\n` as separator — never write one long block of text
 - First paragraph: 2-3 sentences covering the main feature or design approach
