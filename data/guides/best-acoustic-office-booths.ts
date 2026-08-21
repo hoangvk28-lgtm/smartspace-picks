@@ -101,36 +101,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "\"Acoustic\" and \"Soundproof\" Describe the Same Listings Here",
-    note: "Across this niche, \"acoustic panels\" and \"soundproof\" are used interchangeably to describe the same interior construction, not two different performance tiers. Don't pay a premium expecting an \"acoustic\" listing to outperform a \"soundproof\" one, or vice versa, without independent verification.",
-  },
-  {
-    subheading: "See Our Soundproof Home Office Booths Guide for the Full Comparison",
-    note: "This guide's product pool substantially overlaps with our soundproof home office booths guide, cross-reference both rather than treating them as separate research.",
-  },
-  {
-    subheading: "No Acoustic Test Data Backs Either Term",
-    note: "\"Soundproof\" in a listing title is marketing language, not a test result, none of the verified listings in this niche publish an STC or NRC number, and real sound leakage most often comes through door seals, floor gaps, or ventilation openings rather than the wall panels the marketing photos highlight.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Single-occupant, furniture included", "Quiet Meeting Pod with Acoustic Panels"],
-        ["Group meetings, 4-6 people", "Soundproof Office Pod Booth"],
-        ["Comparing entry-level options (verify listing details directly)", "SoundGuard Studio Pod"],
-        ["Largest group capacity, 5-7 people", "Soundproof Office Pod Booth for 5-7 People"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Quiet Meeting Pod with Acoustic Panels"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Quiet Meeting Pod with Acoustic Panels"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $4",
+          "Quiet Meeting Pod with Acoustic Panels"
+        ],
+        [
+          "Up to $NaN",
+          "Soundproof Office Pod Booth for 5"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Review Base vs Price",
+    "cards": [
+      {
+        "label": "Quiet Meeting Pod with Acoustic Panels",
+        "text": "The lower-priced option in this comparison, worth checking its acoustic and ventilation specs against your needs."
+      },
+      {
+        "label": "Soundproof Office Pod Booth for 5",
+        "text": "The higher-priced option, worth it if it offers real acoustic or space headroom above the cheaper pick."
+      }
+    ],
+    "note": "Default to Quiet Meeting Pod with Acoustic Panels unless your specific needs genuinely call for the pricier pick."
+  },
+  {
+    "subheading": "By Disclosed Dimensions",
+    "note": "Check each pick's listed exterior dimensions in inches against your actual available space before buying, not just its size category label. Quiet Meeting Pod with Acoustic Panels is the most-reviewed option here if you want the safer bet."
+  },
+  {
+    "subheading": "For Remote Work Video Calls Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A verified STC or dB reduction rating, plus confirmed ventilation with a stated CFM figure for comfortable extended use during calls."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Quiet Meeting Pod with Acoustic Panels is worth checking against its listed acoustic and ventilation specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need verified acoustic isolation and ventilation for daily extended use, where Soundproof Office Pod Booth for 5's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need occasional light use, where Quiet Meeting Pod with Acoustic Panels covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Don't assume \"acoustic\" outperforms \"soundproof\"", explanation: "These terms are used interchangeably across this niche's listings, without independent test data neither term reliably indicates better performance." },
-  { criterion: "Cross-check the soundproof home office booths guide", explanation: "This guide's product pool overlaps substantially with that one, review both before deciding rather than treating them as separate categories." },
-  { criterion: "Ask for any independent acoustic test data before buying", explanation: "No listing in this niche, acoustic or soundproof-labeled, discloses formal STC or NRC numbers, ask the seller directly if this matters for your use case." },
-  { criterion: "Match occupancy to your actual use case", explanation: "Pick occupancy (single, group of 4-6, or 5-7) based on your real headcount need, not based on which acoustic terminology a listing uses." },
+  {
+    "criterion": "Verify actual acoustic performance, not just the word \"soundproof\"",
+    "explanation": "\"Soundproof\" is a marketing term with no fixed technical meaning, while a genuine sound-dampening spec is usually expressed as an STC (Sound Transmission Class) or dB reduction rating, and many pod listings use the word freely without disclosing any such figure at all.\n\nThis matters directly if the pod's purpose is blocking distracting noise for calls or focused work, since a pod with acoustic panels but no verified STC rating may reduce noise only modestly rather than genuinely isolating sound.\n\nCheck the listing specifically for a stated STC rating or dB reduction figure, and treat the bare word \"soundproof\" with no supporting number as an unverified marketing claim."
+  },
+  {
+    "criterion": "Check ventilation claims against real airflow data, not just the word \"ventilated\"",
+    "explanation": "An enclosed pod needs active air circulation to stay comfortable during extended use, and a listing that mentions \"ventilation\" or \"silent airflow\" without stating a CFM (cubic feet per minute) figure or fan specification is making an unverifiable claim, since the word alone doesn't confirm the pod actually moves enough air to prevent it from feeling stuffy after 20-30 minutes of occupied use.\n\nThis matters more the longer you'll realistically sit inside the pod at a stretch, and less for very short, occasional use.\n\nCheck the listing for a specific fan CFM rating or described ventilation system, not just the presence of the word \"ventilation\" in the feature list."
+  },
+  {
+    "criterion": "Confirm actual exterior and interior dimensions against your specific space",
+    "explanation": "Office pod listings vary widely in how precisely they disclose dimensions, some state an exact exterior footprint in inches, others describe size only in vague relative terms like \"compact\" or \"small\", and the difference between exterior footprint and usable interior space can be substantial once wall thickness and acoustic panel depth are accounted for.\n\nThis matters directly for fitting a pod into a specific room or corner, measuring your actual available space against a vague size description is guesswork.\n\nCheck the listing for exact exterior dimensions in inches, and if not stated, contact the seller directly for measurements before assuming any pod described as \"small\" or \"compact\" will fit your space."
+  },
+  {
+    "criterion": "Factor in delivery, assembly, and floor-loading requirements before buying",
+    "explanation": "Most office pods are heavy, large structures shipped via freight delivery rather than standard parcel shipping, requiring a clear delivery path, assembly time (sometimes requiring more than one person or professional installation), and genuine floor-loading consideration, especially for an upper-floor apartment or a building with older flooring.\n\nThis matters a great deal because these logistics are easy to overlook when comparing pods purely on price and features, but can turn into a real problem on delivery day if the pod can't physically reach its intended spot or the floor isn't rated to support its weight.\n\nCheck the listing for stated weight, whether professional installation is included or required, and confirm your specific building's floor-loading capacity and delivery access before ordering."
+  },
+  {
+    "criterion": "Weigh mobility features like wheels against the pod's actual weight and your real need to relocate it",
+    "explanation": "Wheels or casters make repositioning a pod within a room more realistic, but they don't change the fundamental reality that these are heavy, large structures, wheels ease movement across a flat floor but don't substitute for verifying weight limits or making the pod meaningfully portable between rooms or floors.\n\nThis distinction matters if you expect to actually relocate the pod periodically versus placing it once and leaving it in position long-term, a pod marketed as \"portable\" still generally requires real effort and often more than one person to move safely.\n\nCheck reviews specifically for real-world mentions of repositioning the pod after initial setup, not just the presence of wheels in the spec list."
+  }
 ];
 
 export const faq: FaqItem[] = [
