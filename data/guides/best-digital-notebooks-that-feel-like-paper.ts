@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/316t+ALq6FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZ9VFQ2P?tag=deskfinds0d-20",
-    description:
-      "Kindle Scribe combines the textured E Ink display with Amazon's e-reader ecosystem, so it's the pick for anyone who wants to read books and annotate PDFs on the same device they take notes on. At $399.99 it undercuts the comparable reMarkable Paper Pure at the same price point while adding e-book library access reMarkable doesn't have.",
-    specs: ["16GB storage", "E Ink display with textured writing surface", "Includes Premium Pen (check current listing)", "Kindle e-reader ecosystem built in"],
-    pros: ["Doubles as a full Kindle e-reader, not just a notebook", "Competitively priced against similarly specced competitors", "Integrates with Amazon's existing content library"],
-    cons: ["Tied to Amazon's ecosystem for book purchases", "Verify current pen bundle on the live listing before ordering"],
+    description: "Kindle Scribe combines the textured E Ink display with Amazon's e-reader ecosystem, so it's the pick for anyone who wants to read books and annotate PDFs on the same device they take notes on. At $399.99 it undercuts the comparable reMarkable Paper Pure at the same price point while adding e-book library access reMarkable doesn't have.\n\nIt earns the top spot in this comparison over reMarkable Paper Pure with Marker for one main reason. Doubles as a full Kindle e-reader, not just a notebook. On price, it's actually priced above reMarkable Paper Pure with Marker, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Competitively priced against similarly specced competitors. On the other side, Verify current pen bundle on the live listing before ordering. That's the main tradeoff to weigh against everything above.",
+    specs: ["16GB storage","E Ink display with textured writing surface","Includes Premium Pen (check current listing)","Kindle e-reader ecosystem built in"],
+    pros: ["Doubles as a full Kindle e-reader, not just a notebook","Competitively priced against similarly specced competitors","Integrates with Amazon's existing content library"],
+    cons: ["Tied to Amazon's ecosystem for book purchases","Verify current pen bundle on the live listing before ordering"],
     bestFor: "Buyers who already read on Kindle and want note-taking on the same device.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "18",
     imageUrl: "https://m.media-amazon.com/images/I/31KAykcDD+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVKBLJK2?tag=deskfinds0d-20",
-    description:
-      "reMarkable built its whole product line around the paper-feel promise and doesn't sell e-books or run distracting apps, which keeps the device singularly focused on writing and reading documents. At the same $399 price as the Kindle Scribe, the tradeoff is a smaller review base at time of writing, since this is a newer entry in the lineup.",
-    specs: ["Marker stylus included", "No backlight on this model — check current specs", "Distraction-free interface, no app store", "reMarkable cloud subscription available for extra features"],
-    pros: ["Purpose-built for a paper-like writing feel, not a repurposed e-reader", "No app-store distractions"],
-    cons: ["Smaller review count than more established models in this lineup", "Some features require a paid reMarkable Connect subscription"],
+    description: "reMarkable built its whole product line around the paper-feel promise and doesn't sell e-books or run distracting apps, which keeps the device singularly focused on writing and reading documents. At the same $399 price as the Kindle Scribe, the tradeoff is a smaller review base at time of writing, since this is a newer entry in the lineup.\n\nOne spot below Amazon Kindle Scribe in this ranking, it's priced lower than Amazon Kindle Scribe. The compromise here is straightforward: Smaller review count than more established models in this lineup. What you gain in return: Purpose-built for a paper-like writing feel, not a repurposed e-reader. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: No app-store distractions. On the other side, Some features require a paid reMarkable Connect subscription. That's the main tradeoff to weigh against everything above.",
+    specs: ["Marker stylus included","No backlight on this model, check current specs","Distraction-free interface, no app store","reMarkable cloud subscription available for extra features"],
+    pros: ["Purpose-built for a paper-like writing feel, not a repurposed e-reader","No app-store distractions"],
+    cons: ["Smaller review count than more established models in this lineup","Some features require a paid reMarkable Connect subscription"],
     bestFor: "Buyers who want a distraction-free writing device without e-reader or app features pulling focus.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "1,354",
     imageUrl: "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HDL3XJR?tag=deskfinds0d-20",
-    description:
-      "reMarkable 2 has by far the largest review base of any paper-feel device in this comparison at 1,354 reviews and a 4.4 rating, which matters when you're evaluating a claim as subjective as \"feels like paper\" — this is the model most buyers have actually tested against their expectations.",
-    specs: ["Marker Plus stylus included", "10.3 inch textured E Ink display", "1,354 reviews at 4.4 stars", "reMarkable cloud subscription optional"],
-    pros: ["Largest, highest-rated review base in this entire comparison", "Marker Plus stylus included at this price, not sold separately"],
-    cons: ["No backlight, so it's not usable in low light without an external light source", "Some advanced features are behind a subscription"],
+    description: "reMarkable 2 has by far the largest review base of any paper-feel device in this comparison at 1,354 reviews and a 4.4 rating, which matters when you're evaluating a claim as subjective as \"feels like paper\", this is the model most buyers have actually tested against their expectations.\n\nSitting just under reMarkable Paper Pure with Marker, it costs more than reMarkable Paper Pure with Marker. Here's the honest tradeoff: No backlight, so it's not usable in low light without an external light source. And here's what it gets you instead: Largest, highest-rated review base in this entire comparison. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Marker Plus stylus included at this price, not sold separately. On the other side, Some advanced features are behind a subscription. That's the main tradeoff to weigh against everything above.",
+    specs: ["Marker Plus stylus included","10.3 inch textured E Ink display","1,354 reviews at 4.4 stars","reMarkable cloud subscription optional"],
+    pros: ["Largest, highest-rated review base in this entire comparison","Marker Plus stylus included at this price, not sold separately"],
+    cons: ["No backlight, so it's not usable in low light without an external light source","Some advanced features are behind a subscription"],
     bestFor: "Buyers who want the most field-tested paper-feel device with the most independent verification of the writing experience.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "310",
     imageUrl: "https://m.media-amazon.com/images/I/41BunSeRP3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR4KXMKF?tag=deskfinds0d-20",
-    description:
-      "This is the only genuinely color E Ink display in this comparison — the reMarkable and base Kindle Scribe are monochrome. Color E Ink still has visibly lower saturation and contrast than an LCD, which is a real tradeoff to understand before paying the premium, but it's the honest option if color matters for your notes or PDFs.",
-    specs: ["6GB RAM / 64GB storage", "10.3 inch color E Ink display", "Runs Android, supports third-party apps", "310 reviews at 4.3 stars"],
-    pros: ["Only true color E Ink display in this comparison", "Runs Android apps, unlike the closed reMarkable and Kindle ecosystems"],
-    cons: ["Color E Ink has noticeably less vibrant color than an LCD screen", "Android app support adds complexity most single-purpose notebooks don't have"],
+    description: "This is the only genuinely color E Ink display in this comparison, the reMarkable and base Kindle Scribe are monochrome. Color E Ink still has visibly lower saturation and contrast than an LCD, which is a real tradeoff to understand before paying the premium, but it's the honest option if color matters for your notes or PDFs.\n\nRanked just behind reMarkable 2 with Marker Plus, it costs more than reMarkable 2 with Marker Plus. The real tradeoff against that pick: Color E Ink has noticeably less vibrant color than an LCD screen. In exchange, it offers this instead: Only true color E Ink display in this comparison. That's the swap that decides whether this pick or the one above it is the better fit for your note-taking needs.\n\nWorth knowing before you decide: Runs Android apps, unlike the closed reMarkable and Kindle ecosystems. On the other side, Android app support adds complexity most single-purpose notebooks don't have. That's the main tradeoff to weigh against everything above.",
+    specs: ["6GB RAM / 64GB storage","10.3 inch color E Ink display","Runs Android, supports third-party apps","310 reviews at 4.3 stars"],
+    pros: ["Only true color E Ink display in this comparison","Runs Android apps, unlike the closed reMarkable and Kindle ecosystems"],
+    cons: ["Color E Ink has noticeably less vibrant color than an LCD screen","Android app support adds complexity most single-purpose notebooks don't have"],
     bestFor: "Buyers who specifically need color note-taking or PDF annotation and accept the tradeoffs of color E Ink.",
   },
   {
@@ -98,13 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "540",
     imageUrl: "https://m.media-amazon.com/images/I/41yKUd9lhbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGBDR2PM?tag=deskfinds0d-20",
-    description:
-      "At $779 this is nearly double the price of the base reMarkable 2, bundling color display, the upgraded Marker Plus stylus, and a physical folio. It's the flagship of the lineup, but the price jump is real and buyers should confirm the color and larger screen actually matter to them before paying the premium over the reMarkable 2.",
-    specs: ["Color display", "Marker Plus stylus included", "Basalt Book Folio included", "540 reviews at 4.2 stars"],
-    pros: ["Bundles accessories (folio, upgraded pen) that are sold separately for other models", "Color display without the Android app complexity of the BOOX"],
-    cons: ["Significantly more expensive than the reMarkable 2 for a color upgrade", "Rating is slightly lower than the established reMarkable 2, worth weighing against the price premium"],
+    description: "At $779 this is nearly double the price of the base reMarkable 2, bundling color display, the upgraded Marker Plus stylus, and a physical folio. It's the flagship of the lineup, but the price jump is real and buyers should confirm the color and larger screen actually matter to them before paying the premium over the reMarkable 2.\n\nOne spot below BOOX Note Air 5 C in this ranking, it costs more than BOOX Note Air 5 C. The compromise here is straightforward: Significantly more expensive than the reMarkable 2 for a color upgrade. What you gain in return: Bundles accessories (folio, upgraded pen) that are sold separately for other models. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Color display without the Android app complexity of the BOOX. On the other side, Rating is slightly lower than the established reMarkable 2, worth weighing against the price premium. That's the main tradeoff to weigh against everything above.",
+    specs: ["Color display","Marker Plus stylus included","Basalt Book Folio included","540 reviews at 4.2 stars"],
+    pros: ["Bundles accessories (folio, upgraded pen) that are sold separately for other models","Color display without the Android app complexity of the BOOX"],
+    cons: ["Significantly more expensive than the reMarkable 2 for a color upgrade","Rating is slightly lower than the established reMarkable 2, worth weighing against the price premium"],
     bestFor: "Buyers who want the top-of-line reMarkable experience with color and don't mind the price premium.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,36 +113,135 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Priority",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Best value, reads e-books too", "Amazon Kindle Scribe (16GB)"],
-        ["Distraction-free writing, no app store", "reMarkable Paper Pure with Marker"],
-        ["Most proven track record", "reMarkable 2 with Marker Plus"],
-        ["Need actual color notes/PDFs", "BOOX Note Air 5 C"],
-        ["Want the flagship experience, budget allows", "reMarkable Paper Pro with Marker Plus and Basalt Folio"],
+    "subheading": "By Use Case",
+    "table": {
+      "headers": [
+        "What you need it for",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Everyday note-taking and reading",
+          "reMarkable Paper Pure with Marker"
+        ],
+        [
+          "AI-assisted or document-heavy work",
+          "reMarkable Paper Pro with Marker Plus and Basalt Book Folio"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Color E Ink Is a Real Tradeoff, Not a Free Upgrade",
-    note: "Color E Ink (BOOX Note Air 5 C, reMarkable Paper Pro) still looks noticeably less saturated than an LCD screen. If color isn't essential to your notes, the monochrome reMarkable 2 or Kindle Scribe give you the same core writing feel for meaningfully less money.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $399",
+          "reMarkable Paper Pure with Marker"
+        ],
+        [
+          "Mid-range",
+          "reMarkable 2 with Marker Plus"
+        ],
+        [
+          "No firm budget ceiling, prioritizing storage or ecosystem",
+          "reMarkable Paper Pro with Marker Plus and Basalt Book Folio"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "AI Features Included vs Subscription-Gated",
+    "cards": [
+      {
+        "label": "Included, No Subscription",
+        "text": "AI note tools come with the purchase price, no ongoing cost. In this comparison: check each listing's terms directly."
+      },
+      {
+        "label": "Subscription-Gated",
+        "text": "Advanced AI features require an ongoing paid plan on top of the hardware price. In this comparison: reMarkable Paper Pure with Marker, reMarkable 2 with Marker Plus."
+      }
+    ],
+    "note": "Check each specific listing for current subscription terms, since these change over time."
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "reMarkable 2 with Marker Plus"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "reMarkable 2 with Marker Plus"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Handwriting-to-Text Conversion Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation of handwriting-to-text conversion (not just \"AI\" generally), and whether that specific feature is included or requires a subscription."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Amazon Kindle Scribe fits this specifically: Doubles as a full Kindle e-reader, not just a notebook."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what reMarkable Paper Pro with Marker Plus and Basalt Book Folio offers: Bundles accessories (folio, upgraded pen) that are sold separately for other models. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "reMarkable Paper Pure with Marker already covers the essentials: Purpose-built for a paper-like writing feel, not a repurposed e-reader. The main thing you'd be paying extra for elsewhere in this list is features or storage you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm the device has a textured E Ink screen and friction-tip stylus", explanation: "These two hardware features, not software, are what actually produce a paper-like feel. All five picks here have them; a glass-screen tablet marketed as \"paper-like\" typically doesn't." },
-  { criterion: "Decide if you need color", explanation: "Only the BOOX Note Air 5 C and reMarkable Paper Pro offer color E Ink, and it's visibly less saturated than an LCD. Don't pay the premium unless color genuinely matters for your use case." },
-  { criterion: "Check whether advanced features need a subscription", explanation: "reMarkable's cloud sync and some AI features sit behind a paid Connect subscription. Kindle Scribe and BOOX have different ecosystem tradeoffs — verify what's free before buying." },
-  { criterion: "Weigh review volume for a subjective claim", explanation: "\"Feels like paper\" is inherently a matter of feel. The reMarkable 2, with the largest review base here, has the most independent verification of that specific claim." },
-  { criterion: "Decide if e-reader or app features matter", explanation: "Kindle Scribe adds a full e-book library; BOOX runs Android apps; reMarkable stays deliberately distraction-free. Pick based on whether you want a single-purpose writing device or a multi-function tablet." },
+  {
+    "criterion": "Check whether AI or handwriting-conversion features are included or require a subscription",
+    "explanation": "Digital notebook brands take genuinely different approaches to their software features: some bundle handwriting-to-text conversion, document summarization, and cloud sync into the purchase price, while others, most notably reMarkable's Connect plan, gate the more advanced versions of these same features behind an ongoing monthly subscription that continues costing money long after the initial purchase.\n\nThis is a real total-cost-of-ownership difference that a one-time hardware price comparison completely misses, since a cheaper device with a required subscription can cost more over two or three years than a pricier device with everything included upfront.\n\nCheck the specific listing and manufacturer's website for whether the features you actually want are included in the base purchase or require an ongoing plan, and factor that recurring cost into your real comparison."
+  },
+  {
+    "criterion": "Understand that \"AI\" and \"handwriting conversion\" mean different things across different devices",
+    "explanation": "The marketing term \"AI\" gets applied to several genuinely different features across this product category: converting your handwriting into typed text, summarizing a long document or your own notes, organizing notes automatically by topic, or simply offering a chatbot-style writing assistant, and a device marketed heavily around \"AI\" doesn't necessarily include all, or even most, of these specific capabilities.\n\nThis matters because two devices can both claim AI features while actually doing completely different things, so a buyer specifically wanting handwriting-to-text conversion could end up with a device whose \"AI\" feature is actually a summarization tool that doesn't address their actual need at all.\n\nRead the specific feature list rather than the marketing headline, and confirm the device does the exact task you need (handwriting conversion specifically, not just \"AI\" generally) before buying."
+  },
+  {
+    "criterion": "Confirm the stylus situation: included, sold separately, or requiring a specific model",
+    "explanation": "Some digital notebooks include a compatible stylus in the box as part of the purchase price, while others sell the device and stylus as separate purchases, or require a specific proprietary stylus model that isn't interchangeable with a generic capacitive pen, and this distinction can add a meaningful hidden cost on top of the listed device price if you assumed a stylus was included.\n\nBeyond just the cost, stylus quality itself varies in pressure sensitivity, tilt detection, and palm rejection quality, features that matter significantly more for sketching and detailed note-taking than for simple text entry.\n\nCheck the listing specifically for whether a stylus ships in the box, and if writing feel matters to you, look for mentions of pressure levels and palm rejection quality rather than assuming any included stylus performs the same as another."
+  },
+  {
+    "criterion": "Check the export and sync ecosystem, since notes trapped on one device have limited long-term value",
+    "explanation": "A digital notebook's real usefulness depends heavily on getting your notes and documents off the device and into a format you can actually use elsewhere, whether that's cloud sync to a phone or computer, export to PDF or Word, or direct integration with a note-taking platform like OneNote or Google Drive, and devices differ meaningfully in which of these paths they actually support natively versus not at all.\n\nThis matters concretely for anyone using the device for professional or academic work where notes need to end up in a shared document, an email, or a specific software ecosystem, since a device with limited export options can leave your handwritten notes effectively stranded on the device itself.\n\nCheck the manufacturer's stated export formats and sync options against the specific software or workflow you actually need to feed notes into, rather than assuming any device syncs to everything."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, especially for newer AI-branded entrants",
+    "explanation": "Established digital notebook brands with years on the market carry review counts in the thousands, giving genuine statistical confidence in their ratings, while newer devices, especially ones marketing themselves heavily around AI features to ride current interest in the category, sometimes carry only a few dozen or a few hundred reviews, which is a meaningfully thinner sample to judge long-term reliability and whether the marketed features actually work as claimed.\n\nThis doesn't mean a newer, less-reviewed device is automatically worse, but it does mean the claims on its listing carry less independently verified weight than a device with years of real-world feedback behind it.\n\nWhen comparing an established brand against a newer AI-branded entrant, check both the star rating and the review count together, and weigh a smaller but heavily AI-marketed device's claims more skeptically until more real-world feedback accumulates."
+  }
 ];
 
 export const faq: FaqItem[] = [
   { q: "What actually makes a screen \"feel like paper\"?", a: "A textured E Ink display combined with a friction-tip stylus, which together replicate the drag of pen on paper. All five products here have both; a standard glass touchscreen device does not, regardless of marketing." },
   { q: "Is color E Ink worth the extra cost?", a: "Only if you specifically need color for your notes or PDF annotations. Color E Ink is still visibly less saturated than an LCD screen, so it's a real tradeoff, not a straightforward upgrade." },
-  { q: "Do I need a subscription to use these?", a: "Core writing and reading works offline on all five without a subscription. Some advanced features, particularly on reMarkable, are behind a paid Connect plan — check the current listing for specifics." },
+  { q: "Do I need a subscription to use these?", a: "Core writing and reading works offline on all five without a subscription. Some advanced features, particularly on reMarkable, are behind a paid Connect plan, check the current listing for specifics." },
   { q: "Which has the most independent evidence the writing feel is good?", a: "The reMarkable 2, with 1,354 reviews at 4.4 stars, has by far the largest tested base of any product in this comparison." },
   { q: "Can these replace a Kindle for reading books?", a: "The Kindle Scribe can, since it runs Amazon's full e-reader ecosystem. The reMarkable and BOOX are built around notes and PDF documents rather than a book storefront." },
 ];

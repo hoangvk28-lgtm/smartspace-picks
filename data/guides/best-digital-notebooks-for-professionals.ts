@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41yKUd9lhbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGBDR2PM?tag=deskfinds0d-20",
-    description:
-      "The reMarkable Paper Pro with its included folio is a complete premium kit, appropriate for professionals who want a polished device and case ready on day one. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nThe color display and larger screen genuinely help with document review and structured note organization for daily professional use. It's the most expensive pick in this guide, reflecting both the hardware and included accessories.",
-    specs: ["E-ink digital notebook device, Type 2", "Color e-paper display", "Marker Plus and Basalt Book Folio included", "Largest screen in this guide"],
-    pros: ["Complete premium kit with case included", "Color e-paper display", "Largest screen among these picks", "Marker Plus stylus included"],
-    cons: ["The most expensive pick in this guide", "Verify current cloud subscription requirements", "Overkill for occasional note-takers"],
+    description: "The reMarkable Paper Pro with its included folio is a complete premium kit, appropriate for professionals who want a polished device and case ready on day one. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nIt earns the top spot in this comparison over reMarkable Paper Pro with Marker Plus for one main reason. Complete premium kit with case included. On price, it's actually priced above reMarkable Paper Pro with Marker Plus, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Color e-paper display. On the other side, Overkill for occasional note-takers. That's the main tradeoff to weigh against everything above.",
+    specs: ["E-ink digital notebook device, Type 2","Color e-paper display","Marker Plus and Basalt Book Folio included","Largest screen in this guide"],
+    pros: ["Complete premium kit with case included","Color e-paper display","Largest screen among these picks","Marker Plus stylus included"],
+    cons: ["The most expensive pick in this guide","Verify current cloud subscription requirements","Overkill for occasional note-takers"],
     bestFor: "Professionals wanting a complete, ready-to-use premium device from day one.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/412wtt+9l5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DG9ZXWMK?tag=deskfinds0d-20",
-    description:
-      "This is the same premium reMarkable Paper Pro hardware at a lower cost if you already have or plan to source your own case. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nThe color display and writing quality are identical to the folio bundle, a genuine cost-saving option for budget-conscious professionals. Still a meaningful investment relative to the rest of this category, appropriate for daily professional use.",
-    specs: ["E-ink digital notebook device, Type 2", "Color e-paper display", "Marker Plus included", "No folio bundled"],
-    pros: ["Same premium color display as the folio bundle", "Lower cost than the folio-included version", "Marker Plus included", "Polished, professional interface"],
-    cons: ["No case included", "Still a premium price overall", "Verify current cloud subscription requirements"],
+    description: "This is the same premium reMarkable Paper Pro hardware at a lower cost if you already have or plan to source your own case. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nOne spot below reMarkable Paper Pro with Marker Plus and Basalt Book Folio in this ranking, it's priced lower than reMarkable Paper Pro with Marker Plus and Basalt Book Folio. The compromise here is straightforward: No case included. What you gain in return: Same premium color display as the folio bundle. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Lower cost than the folio-included version. On the other side, Verify current cloud subscription requirements. That's the main tradeoff to weigh against everything above.",
+    specs: ["E-ink digital notebook device, Type 2","Color e-paper display","Marker Plus included","No folio bundled"],
+    pros: ["Same premium color display as the folio bundle","Lower cost than the folio-included version","Marker Plus included","Polished, professional interface"],
+    cons: ["No case included","Still a premium price overall","Verify current cloud subscription requirements"],
     bestFor: "Professionals who want the premium hardware without paying for a bundled case.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HDL3XJR?tag=deskfinds0d-20",
-    description:
-      "The reMarkable 2 offers most of the professional-grade writing quality of the Paper Pro at a meaningfully lower price, a genuine value pick within the premium tier. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nIts distraction-free interface suits professionals who want to avoid app notifications during focused work. Long battery life measured in weeks means it can realistically go a full work week without charging.",
-    specs: ["E-ink digital notebook device, Type 2", "Marker Plus included", "Weeks of battery life", "Distraction-free interface"],
-    pros: ["Meaningfully lower price than the Paper Pro", "Long battery life across a full work week", "Distraction-free interface", "Marker Plus included"],
-    cons: ["Black and white display only", "Verify current cloud subscription requirements", "Smaller screen than the Paper Pro"],
+    description: "The reMarkable 2 offers most of the professional-grade writing quality of the Paper Pro at a meaningfully lower price, a genuine value pick within the premium tier. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nSitting just under reMarkable Paper Pro with Marker Plus, it's priced lower than reMarkable Paper Pro with Marker Plus. Here's the honest tradeoff: Black and white display only. And here's what it gets you instead: Meaningfully lower price than the Paper Pro. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Long battery life across a full work week. On the other side, Smaller screen than the Paper Pro. That's the main tradeoff to weigh against everything above.",
+    specs: ["E-ink digital notebook device, Type 2","Marker Plus included","Weeks of battery life","Distraction-free interface"],
+    pros: ["Meaningfully lower price than the Paper Pro","Long battery life across a full work week","Distraction-free interface","Marker Plus included"],
+    cons: ["Black and white display only","Verify current cloud subscription requirements","Smaller screen than the Paper Pro"],
     bestFor: "Professionals wanting premium writing quality without the top-tier price.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41BunSeRP3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR4L5XMV?tag=deskfinds0d-20",
-    description:
-      "The BOOX Note Air 5 C runs Android, giving professionals genuine access to productivity apps beyond just note-taking, unlike reMarkable's single-purpose interface. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\n6GB RAM and 64GB storage support real multitasking for professionals who want more than a basic writing tool. The color ePaper display adds a useful markup dimension for reviewing documents on the go.",
-    specs: ["E-ink digital notebook device, Type 2", "Color ePaper display", "6GB RAM, 64GB storage", "Android-based"],
-    pros: ["Android app access for broader productivity use", "Color ePaper display", "Genuine multitasking with 6GB RAM", "Newer-generation hardware"],
-    cons: ["Android interface has more complexity than a single-purpose device", "Verify current price on the listing", "Premium price point"],
+    description: "The BOOX Note Air 5 C runs Android, giving professionals genuine access to productivity apps beyond just note-taking, unlike reMarkable's single-purpose interface. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nRanked just behind reMarkable 2 with Marker Plus, it costs more than reMarkable 2 with Marker Plus. The real tradeoff against that pick: Android interface has more complexity than a single-purpose device. In exchange, it offers this instead: Android app access for broader productivity use. That's the swap that decides whether this pick or the one above it is the better fit for your note-taking needs.\n\nWorth knowing before you decide: Color ePaper display. On the other side, Premium price point. That's the main tradeoff to weigh against everything above.",
+    specs: ["E-ink digital notebook device, Type 2","Color ePaper display","6GB RAM, 64GB storage","Android-based"],
+    pros: ["Android app access for broader productivity use","Color ePaper display","Genuine multitasking with 6GB RAM","Newer-generation hardware"],
+    cons: ["Android interface has more complexity than a single-purpose device","Verify current price on the listing","Premium price point"],
     bestFor: "Professionals who want app flexibility beyond basic note-taking on their e-ink device.",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41+UCf2-LrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FM4K63P3?tag=deskfinds0d-20",
-    description:
-      "The Noteorius set gives professionals real-time synced notes on real paper, a middle ground between a full e-ink device and a plain paper notebook. This is a smart pen and paper digitizer set (a sensor-equipped pen used with special dot-pattern paper that captures your handwriting in real time and syncs it to an app as you write).\n\nCloud storage backs up professional notes automatically, reducing the risk of losing important records. A reasonable investment for professionals who prefer a pen-on-paper feel but still want digital searchability.",
-    specs: ["Smart pen and paper digitizer set, Type 3", "Real-time sync as you write", "App sync with cloud storage", "Pen and folio included"],
-    pros: ["Real-time sync and cloud backup for professional records", "Still writes on real paper", "Pen and folio included", "Mid-range price relative to full e-ink hardware"],
-    cons: ["Requires the specific paired pen", "Pen needs periodic charging", "Smaller ecosystem than Rocketbook or reMarkable"],
+    description: "The Noteorius set gives professionals real-time synced notes on real paper, a middle ground between a full e-ink device and a plain paper notebook. This is a smart pen and paper digitizer set (a sensor-equipped pen used with special dot-pattern paper that captures your handwriting in real time and syncs it to an app as you write).\n\nOne spot below BOOX Tablet 10.3in Note Air 5 C in this ranking, it's priced lower than BOOX Tablet 10.3in Note Air 5 C. The compromise here is straightforward: Requires the specific paired pen. What you gain in return: Real-time sync and cloud backup for professional records. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Still writes on real paper. On the other side, Smaller ecosystem than Rocketbook or reMarkable. That's the main tradeoff to weigh against everything above.",
+    specs: ["Smart pen and paper digitizer set, Type 3","Real-time sync as you write","App sync with cloud storage","Pen and folio included"],
+    pros: ["Real-time sync and cloud backup for professional records","Still writes on real paper","Pen and folio included","Mid-range price relative to full e-ink hardware"],
+    cons: ["Requires the specific paired pen","Pen needs periodic charging","Smaller ecosystem than Rocketbook or reMarkable"],
     bestFor: "Professionals who want real-time digital sync without switching from paper.",
   },
   {
@@ -115,11 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41GKOIDaTmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2M2T6VN?tag=deskfinds0d-20",
-    description:
-      "This smart pen tablet explicitly states compatibility with both design and meeting use cases, useful for professionals whose work spans both. This is a smart pen and paper digitizer set (a sensor-equipped pen used with special dot-pattern paper that captures your handwriting in real time and syncs it to an app as you write).\n\nConfirmed Android and iOS support matters for professionals collaborating across mixed-device teams. It's priced closer to entry-level e-ink hardware than a basic smart pen set, reflecting its broader stated feature set.",
-    specs: ["Smart pen and paper digitizer set, Type 3", "Real-Time Sync Electronic Writing", "Compatible with Android and iOS", "Stated for design and meetings"],
-    pros: ["States design and meeting use cases explicitly", "Confirmed Android and iOS compatibility", "Real-time electronic writing sync", "Useful for cross-platform professional teams"],
-    cons: ["Higher price than most smart pen sets", "Smaller brand, verify current reviews", "Requires the specific paired pen"],
+    description: "This smart pen tablet explicitly states compatibility with both design and meeting use cases, useful for professionals whose work spans both. This is a smart pen and paper digitizer set (a sensor-equipped pen used with special dot-pattern paper that captures your handwriting in real time and syncs it to an app as you write).\n\nSitting just under Noteorius Smart Notebook with Pen and Folio, it costs more than Noteorius Smart Notebook with Pen and Folio. Here's the honest tradeoff: Higher price than most smart pen sets. And here's what it gets you instead: States design and meeting use cases explicitly. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Confirmed Android and iOS compatibility. On the other side, Requires the specific paired pen. That's the main tradeoff to weigh against everything above.",
+    specs: ["Smart pen and paper digitizer set, Type 3","Real-Time Sync Electronic Writing","Compatible with Android and iOS","Stated for design and meetings"],
+    pros: ["States design and meeting use cases explicitly","Confirmed Android and iOS compatibility","Real-time electronic writing sync","Useful for cross-platform professional teams"],
+    cons: ["Higher price than most smart pen sets","Smaller brand, verify current reviews","Requires the specific paired pen"],
     bestFor: "Professionals whose work spans both design and meeting note-taking.",
   },
   {
@@ -132,11 +126,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31TxeKtPWwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FC1VJJFP?tag=deskfinds0d-20",
-    description:
-      "The Kindle Scribe Colorsoft suits professionals who read extensively for their role, combining a full e-reader with notebook and annotation functionality on the same screen. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nThe included pen and large 11 inch color display make document review and markup straightforward. A premium investment best justified by professionals who genuinely read and annotate reports or reference material regularly.",
-    specs: ["E-ink digital notebook device, Type 2", "11 inch color paper-like display", "Pen included", "Combines notebook and e-reader"],
-    pros: ["Combines e-reader and notebook in one device", "Large color display for document review", "Pen included", "Genuinely useful for reading-heavy roles"],
-    cons: ["Premium price point", "Best value if you're already in the Kindle ecosystem", "Verify current handwriting conversion accuracy"],
+    description: "The Kindle Scribe Colorsoft suits professionals who read extensively for their role, combining a full e-reader with notebook and annotation functionality on the same screen. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nRanked just behind Digital Notebook Tablet with Smart Pen, it costs more than Digital Notebook Tablet with Smart Pen. The real tradeoff against that pick: Premium price point. In exchange, it offers this instead: Combines e-reader and notebook in one device. That's the swap that decides whether this pick or the one above it is the better fit for your note-taking needs.\n\nWorth knowing before you decide: Large color display for document review. On the other side, Verify current handwriting conversion accuracy. That's the main tradeoff to weigh against everything above.",
+    specs: ["E-ink digital notebook device, Type 2","11 inch color paper-like display","Pen included","Combines notebook and e-reader"],
+    pros: ["Combines e-reader and notebook in one device","Large color display for document review","Pen included","Genuinely useful for reading-heavy roles"],
+    cons: ["Premium price point","Best value if you're already in the Kindle ecosystem","Verify current handwriting conversion accuracy"],
     bestFor: "Professionals who read and annotate extensively as part of their role.",
   }
 ];
@@ -152,35 +145,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Premium Pricing Is Justified by Daily Use, Not Assumed",
-    note: "A professional using a digital notebook every working day gets real value from premium build quality, longer battery life, and better organization features. If you'd only use it occasionally, the premium tier in this guide is genuinely overkill, consider the budget or student-focused guides instead.",
-  },
-  {
-    subheading: "Android Access vs a Focused Single-Purpose Interface",
-    note: "BOOX's Android-based e-ink tablets give professionals genuine access to productivity apps beyond note-taking, useful for roles needing more than a writing tool. reMarkable's focused interface intentionally avoids that complexity, better suited to professionals who specifically want to avoid app distractions.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Complete premium kit, ready on day one", "reMarkable Paper Pro with Marker Plus and Basalt Book Folio"],
-        ["Best value within the premium tier", "reMarkable 2 with Marker Plus"],
-        ["Android app access on an e-ink screen", "BOOX Note Air 5 C"],
-        ["Real-time sync while staying on paper", "Noteorius Smart Notebook with Pen and Folio"],
-        ["Cross-platform work spanning design and meetings", "Digital Notebook Tablet with Smart Pen"],
-        ["Reading-heavy roles needing annotation", "Kindle Scribe Colorsoft"]
+    "subheading": "By Use Case",
+    "table": {
+      "headers": [
+        "What you need it for",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Everyday note-taking and reading",
+          "Noteorius Smart Notebook with Pen and Folio"
+        ],
+        [
+          "AI-assisted or document-heavy work",
+          "reMarkable Paper Pro with Marker Plus and Basalt Book Folio"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $449",
+          "Noteorius Smart Notebook with Pen and Folio"
+        ],
+        [
+          "Mid-range",
+          "BOOX Tablet 10.3in Note Air 5 C"
+        ],
+        [
+          "No firm budget ceiling, prioritizing storage or ecosystem",
+          "reMarkable Paper Pro with Marker Plus and Basalt Book Folio"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "AI Features Included vs Subscription-Gated",
+    "cards": [
+      {
+        "label": "Included, No Subscription",
+        "text": "AI note tools come with the purchase price, no ongoing cost. In this comparison: check each listing's terms directly."
+      },
+      {
+        "label": "Subscription-Gated",
+        "text": "Advanced AI features require an ongoing paid plan on top of the hardware price. In this comparison: reMarkable Paper Pro with Marker Plus and Basalt Book Folio, reMarkable Paper Pro with Marker Plus, reMarkable 2 with Marker Plus."
+      }
+    ],
+    "note": "Check each specific listing for current subscription terms, since these change over time."
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "reMarkable Paper Pro with Marker Plus and Basalt Book Folio"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "reMarkable Paper Pro with Marker Plus and Basalt Book Folio"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Handwriting-to-Text Conversion Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation of handwriting-to-text conversion (not just \"AI\" generally), and whether that specific feature is included or requires a subscription."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Noteorius Smart Notebook with Pen and Folio fits this specifically: Real-time sync and cloud backup for professional records."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what reMarkable Paper Pro with Marker Plus and Basalt Book Folio offers: Complete premium kit with case included. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Noteorius Smart Notebook with Pen and Folio already covers the essentials: Real-time sync and cloud backup for professional records. The main thing you'd be paying extra for elsewhere in this list is features or storage you may not need."
+      }
+    ]
   }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Justify premium pricing with actual daily use, not aspiration", explanation: "A device used every working day earns back its premium price in build quality and battery life, an occasional-use buyer is better served by a cheaper pick." },
-  { criterion: "Decide if you need app flexibility beyond note-taking", explanation: "Android-based e-ink tablets give broader productivity app access, a focused single-purpose device avoids that complexity but does less." },
-  { criterion: "Weigh document review needs against a plain notebook", explanation: "A larger, color display genuinely helps if you review or annotate documents regularly, unnecessary if you only take plain notes." },
-  { criterion: "Factor in subscription costs for premium e-ink devices", explanation: "Some premium models have historically required a subscription for full cloud features, verify current requirements before committing to daily professional use." },
-  { criterion: "Consider cross-platform compatibility for collaborative work", explanation: "Confirm Android and iOS support explicitly if you'll share notes with colleagues on different devices." },
+  {
+    "criterion": "Check whether AI or handwriting-conversion features are included or require a subscription",
+    "explanation": "Digital notebook brands take genuinely different approaches to their software features: some bundle handwriting-to-text conversion, document summarization, and cloud sync into the purchase price, while others, most notably reMarkable's Connect plan, gate the more advanced versions of these same features behind an ongoing monthly subscription that continues costing money long after the initial purchase.\n\nThis is a real total-cost-of-ownership difference that a one-time hardware price comparison completely misses, since a cheaper device with a required subscription can cost more over two or three years than a pricier device with everything included upfront.\n\nCheck the specific listing and manufacturer's website for whether the features you actually want are included in the base purchase or require an ongoing plan, and factor that recurring cost into your real comparison."
+  },
+  {
+    "criterion": "Understand that \"AI\" and \"handwriting conversion\" mean different things across different devices",
+    "explanation": "The marketing term \"AI\" gets applied to several genuinely different features across this product category: converting your handwriting into typed text, summarizing a long document or your own notes, organizing notes automatically by topic, or simply offering a chatbot-style writing assistant, and a device marketed heavily around \"AI\" doesn't necessarily include all, or even most, of these specific capabilities.\n\nThis matters because two devices can both claim AI features while actually doing completely different things, so a buyer specifically wanting handwriting-to-text conversion could end up with a device whose \"AI\" feature is actually a summarization tool that doesn't address their actual need at all.\n\nRead the specific feature list rather than the marketing headline, and confirm the device does the exact task you need (handwriting conversion specifically, not just \"AI\" generally) before buying."
+  },
+  {
+    "criterion": "Confirm the stylus situation: included, sold separately, or requiring a specific model",
+    "explanation": "Some digital notebooks include a compatible stylus in the box as part of the purchase price, while others sell the device and stylus as separate purchases, or require a specific proprietary stylus model that isn't interchangeable with a generic capacitive pen, and this distinction can add a meaningful hidden cost on top of the listed device price if you assumed a stylus was included.\n\nBeyond just the cost, stylus quality itself varies in pressure sensitivity, tilt detection, and palm rejection quality, features that matter significantly more for sketching and detailed note-taking than for simple text entry.\n\nCheck the listing specifically for whether a stylus ships in the box, and if writing feel matters to you, look for mentions of pressure levels and palm rejection quality rather than assuming any included stylus performs the same as another."
+  },
+  {
+    "criterion": "Check the export and sync ecosystem, since notes trapped on one device have limited long-term value",
+    "explanation": "A digital notebook's real usefulness depends heavily on getting your notes and documents off the device and into a format you can actually use elsewhere, whether that's cloud sync to a phone or computer, export to PDF or Word, or direct integration with a note-taking platform like OneNote or Google Drive, and devices differ meaningfully in which of these paths they actually support natively versus not at all.\n\nThis matters concretely for anyone using the device for professional or academic work where notes need to end up in a shared document, an email, or a specific software ecosystem, since a device with limited export options can leave your handwritten notes effectively stranded on the device itself.\n\nCheck the manufacturer's stated export formats and sync options against the specific software or workflow you actually need to feed notes into, rather than assuming any device syncs to everything."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, especially for newer AI-branded entrants",
+    "explanation": "Established digital notebook brands with years on the market carry review counts in the thousands, giving genuine statistical confidence in their ratings, while newer devices, especially ones marketing themselves heavily around AI features to ride current interest in the category, sometimes carry only a few dozen or a few hundred reviews, which is a meaningfully thinner sample to judge long-term reliability and whether the marketed features actually work as claimed.\n\nThis doesn't mean a newer, less-reviewed device is automatically worse, but it does mean the claims on its listing carry less independently verified weight than a device with years of real-world feedback behind it.\n\nWhen comparing an established brand against a newer AI-branded entrant, check both the star rating and the review count together, and weigh a smaller but heavily AI-marketed device's claims more skeptically until more real-world feedback accumulates."
+  }
 ];
 
 export const faq: FaqItem[] = [

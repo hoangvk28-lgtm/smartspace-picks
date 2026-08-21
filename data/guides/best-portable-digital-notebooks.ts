@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41-otDgyvAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DP3JFY1Q?tag=deskfinds0d-20",
-    description:
-      "The Rocketbook Mini in black is genuinely pocket-sized at 3.5x5.5 inches, the most compact reusable paper notebook in this guide. This is a reusable paper notebook (write with a pen, then scan the pages with a phone app to digitize them before wiping the pages clean and reusing the notebook).\n\nIt still functions like the larger Rocketbook models, scanning to the cloud through the app, just in a smaller, more portable footprint. The tradeoff is less writing space per page than a full letter-size notebook, appropriate for quick notes rather than long-form writing.",
-    specs: ["Reusable paper notebook, Type 1", "3.5x5.5 inch mini size", "Dotted pages, wipe clean and reuse", "App-connected scanning"],
-    pros: ["Genuinely pocket-sized at 3.5x5.5 inches", "App-connected scanning like larger Rocketbook models", "Budget-friendly, one of the cheapest picks here", "Wipes clean and reuses"],
-    cons: ["Small writing area limits longer notes", "Requires a compatible erasable pen", "No on-device digital storage"],
+    description: "The Rocketbook Mini in black is genuinely pocket-sized at 3.5x5.5 inches, the most compact reusable paper notebook in this guide. This is a reusable paper notebook (write with a pen, then scan the pages with a phone app to digitize them before wiping the pages clean and reusing the notebook).\n\nIt earns the top spot in this comparison over Rocketbook Mini Reusable Smart Notepad for one main reason. Genuinely pocket-sized at 3.5x5.5 inches. On price, it comes in below Rocketbook Mini Reusable Smart Notepad, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: App-connected scanning like larger Rocketbook models. On the other side, No on-device digital storage. That's the main tradeoff to weigh against everything above.",
+    specs: ["Reusable paper notebook, Type 1","3.5x5.5 inch mini size","Dotted pages, wipe clean and reuse","App-connected scanning"],
+    pros: ["Genuinely pocket-sized at 3.5x5.5 inches","App-connected scanning like larger Rocketbook models","Budget-friendly, one of the cheapest picks here","Wipes clean and reuses"],
+    cons: ["Small writing area limits longer notes","Requires a compatible erasable pen","No on-device digital storage"],
     bestFor: "Buyers who want the smallest possible reusable paper notebook for quick notes on the go.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41TPpwMWTXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DP3JGGJ9?tag=deskfinds0d-20",
-    description:
-      "This is the same pocket-sized Rocketbook Mini format in navy blue, offering an identical compact 3.5x5.5 inch footprint for on-the-go notes. This is a reusable paper notebook (write with a pen, then scan the pages with a phone app to digitize them before wiping the pages clean and reusing the notebook).\n\nIt shares the same app-connected scanning workflow as the larger Rocketbook notebooks, just easier to carry in a bag or pocket. A genuinely lightweight option since there's no battery or screen, just coated paper.",
-    specs: ["Reusable paper notebook, Type 1", "3.5x5.5 inch mini size", "Dotted pages, wipe clean and reuse", "App-connected scanning"],
-    pros: ["Genuinely pocket-sized footprint", "No battery weight, just lightweight coated paper", "App-connected scanning", "Budget-friendly price"],
-    cons: ["Small writing area limits longer notes", "Requires a compatible erasable pen", "No on-device digital storage"],
+    description: "This is the same pocket-sized Rocketbook Mini format in navy blue, offering an identical compact 3.5x5.5 inch footprint for on-the-go notes. This is a reusable paper notebook (write with a pen, then scan the pages with a phone app to digitize them before wiping the pages clean and reusing the notebook).\n\nOne spot below Rocketbook Mini Reusable Smart Notepad in this ranking, it costs more than Rocketbook Mini Reusable Smart Notepad. The compromise here is straightforward: Small writing area limits longer notes. What you gain in return: Genuinely pocket-sized footprint. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: No battery weight, just lightweight coated paper. On the other side, No on-device digital storage. That's the main tradeoff to weigh against everything above.",
+    specs: ["Reusable paper notebook, Type 1","3.5x5.5 inch mini size","Dotted pages, wipe clean and reuse","App-connected scanning"],
+    pros: ["Genuinely pocket-sized footprint","No battery weight, just lightweight coated paper","App-connected scanning","Budget-friendly price"],
+    cons: ["Small writing area limits longer notes","Requires a compatible erasable pen","No on-device digital storage"],
     bestFor: "Buyers wanting the lightest possible portable notebook with a color choice.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HDL3XJR?tag=deskfinds0d-20",
-    description:
-      "The reMarkable 2 is noticeably thinner and lighter than the Paper Pro, making it the more portable choice among standalone e-ink tablets when you need an actual screen on the go. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nIts long e-ink battery life also means less need to carry a charger, a genuine portability advantage over a typical LCD tablet. It's still meaningfully bulkier and heavier than a paper notepad, so it suits buyers who specifically need a digital screen while traveling.",
-    specs: ["E-ink digital notebook device, Type 2", "Thinner and lighter than the Pro model", "Marker Plus included", "Weeks of battery life"],
-    pros: ["Thinner and lighter than the Paper Pro", "Long battery life reduces charger dependence", "Marker Plus included", "Genuine digital screen for on-the-go note taking"],
-    cons: ["Heavier and bulkier than any paper-based option", "Higher price than portable paper notebooks", "Black and white display only"],
+    description: "The reMarkable 2 is noticeably thinner and lighter than the Paper Pro, making it the more portable choice among standalone e-ink tablets when you need an actual screen on the go. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nSitting just under Rocketbook Mini Reusable Smart Notepad, it costs more than Rocketbook Mini Reusable Smart Notepad. Here's the honest tradeoff: Heavier and bulkier than any paper-based option. And here's what it gets you instead: Thinner and lighter than the Paper Pro. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Long battery life reduces charger dependence. On the other side, Black and white display only. That's the main tradeoff to weigh against everything above.",
+    specs: ["E-ink digital notebook device, Type 2","Thinner and lighter than the Pro model","Marker Plus included","Weeks of battery life"],
+    pros: ["Thinner and lighter than the Paper Pro","Long battery life reduces charger dependence","Marker Plus included","Genuine digital screen for on-the-go note taking"],
+    cons: ["Heavier and bulkier than any paper-based option","Higher price than portable paper notebooks","Black and white display only"],
     bestFor: "Buyers who need a genuine digital screen while traveling and want the lightest e-ink option.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41eM5RJPa2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F5P2186C?tag=deskfinds0d-20",
-    description:
-      "SyncPen's pen itself is slim and pocket-friendly, and the companion notebook is not much bulkier than a standard paper notepad. This is a smart pen and paper digitizer set (a sensor-equipped pen used with special dot-pattern paper that captures your handwriting in real time and syncs it to an app as you write).\n\nReal-time sync means you don't need to carry a phone out to scan pages later, the app updates as you write. It's one of the more travel-friendly smart pen sets in terms of both size and price.",
-    specs: ["Smart pen and paper digitizer set, Type 3", "Compact Bluetooth pen", "Real-time sync from paper to app", "Budget price point"],
-    pros: ["Slim, pocket-friendly pen design", "Real-time sync while writing, no separate scanning step", "Budget-friendly for a smart pen set", "OCR and audio recording included"],
-    cons: ["Pen requires periodic charging", "Still bulkier overall than a paper-only notepad", "OCR accuracy should be verified through current reviews"],
+    description: "SyncPen's pen itself is slim and pocket-friendly, and the companion notebook is not much bulkier than a standard paper notepad. This is a smart pen and paper digitizer set (a sensor-equipped pen used with special dot-pattern paper that captures your handwriting in real time and syncs it to an app as you write).\n\nRanked just behind reMarkable 2 with Marker Plus, it's priced lower than reMarkable 2 with Marker Plus. The real tradeoff against that pick: Pen requires periodic charging. In exchange, it offers this instead: Slim, pocket-friendly pen design. That's the swap that decides whether this pick or the one above it is the better fit for your note-taking needs.\n\nWorth knowing before you decide: Real-time sync while writing, no separate scanning step. On the other side, OCR accuracy should be verified through current reviews. That's the main tradeoff to weigh against everything above.",
+    specs: ["Smart pen and paper digitizer set, Type 3","Compact Bluetooth pen","Real-time sync from paper to app","Budget price point"],
+    pros: ["Slim, pocket-friendly pen design","Real-time sync while writing, no separate scanning step","Budget-friendly for a smart pen set","OCR and audio recording included"],
+    cons: ["Pen requires periodic charging","Still bulkier overall than a paper-only notepad","OCR accuracy should be verified through current reviews"],
     bestFor: "Buyers wanting a compact real-time smart pen for travel.",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/411Fba5TlmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FM3WLT2H?tag=deskfinds0d-20",
-    description:
-      "The Ophayapen set pairs a compact pen with a modestly sized notebook, keeping the whole kit reasonably travel-friendly. This is a smart pen and paper digitizer set (a sensor-equipped pen used with special dot-pattern paper that captures your handwriting in real time and syncs it to an app as you write).\n\nReal-time mobile sync means notes are captured and backed up as you write, without needing to scan pages after the fact. It sits at a mid-range price point between the cheapest smart pens and the bulkier premium e-ink hardware.",
-    specs: ["Smart pen and paper digitizer set, Type 3", "Real-time mobile sync", "Compact pen and notebook set", "Mid-range price"],
-    pros: ["Compact pen and notebook combination", "Real-time mobile sync while writing", "Mid-range price for the feature set", "Still writes on real paper"],
-    cons: ["Pen requires periodic charging", "Bulkier overall than a paper-only notepad", "Smaller brand, verify current reviews"],
+    description: "The Ophayapen set pairs a compact pen with a modestly sized notebook, keeping the whole kit reasonably travel-friendly. This is a smart pen and paper digitizer set (a sensor-equipped pen used with special dot-pattern paper that captures your handwriting in real time and syncs it to an app as you write).\n\nOne spot below SyncPen Digital Notebook Smart Pen Set in this ranking, it costs more than SyncPen Digital Notebook Smart Pen Set. The compromise here is straightforward: Pen requires periodic charging. What you gain in return: Compact pen and notebook combination. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Real-time mobile sync while writing. On the other side, Smaller brand, verify current reviews. That's the main tradeoff to weigh against everything above.",
+    specs: ["Smart pen and paper digitizer set, Type 3","Real-time mobile sync","Compact pen and notebook set","Mid-range price"],
+    pros: ["Compact pen and notebook combination","Real-time mobile sync while writing","Mid-range price for the feature set","Still writes on real paper"],
+    cons: ["Pen requires periodic charging","Bulkier overall than a paper-only notepad","Smaller brand, verify current reviews"],
     bestFor: "Buyers wanting a compact real-time smart pen set at a mid-range price.",
   },
   {
@@ -115,11 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B071Y3MSRK?tag=deskfinds0d-20",
-    description:
-      "The Rocketbook Core is a full letter-size notebook, but since it's just coated paper with no battery or screen, it still packs flat and light in a bag compared to any electronic tablet. This is a reusable paper notebook (write with a pen, then scan the pages with a phone app to digitize them before wiping the pages clean and reusing the notebook).\n\nIt offers considerably more writing space than the Mini format while remaining far more portable by weight than an e-ink device. A reasonable middle ground if you want portability without sacrificing writing area.",
-    specs: ["Reusable paper notebook, Type 1", "Letter size 8.5x11, dotted pages", "Wipe clean and reuse", "Packs flat in a bag"],
-    pros: ["Packs flat and light despite full letter size", "No battery weight at all", "More writing space than the Mini format", "App-connected scanning"],
-    cons: ["Bulkier than the Mini notepad format", "Requires a compatible erasable pen", "No on-device digital storage"],
+    description: "The Rocketbook Core is a full letter-size notebook, but since it's just coated paper with no battery or screen, it still packs flat and light in a bag compared to any electronic tablet. This is a reusable paper notebook (write with a pen, then scan the pages with a phone app to digitize them before wiping the pages clean and reusing the notebook).\n\nSitting just under Ophayapen Smart Pen and Smart Digital Notebook, it's priced lower than Ophayapen Smart Pen and Smart Digital Notebook. Here's the honest tradeoff: Bulkier than the Mini notepad format. And here's what it gets you instead: Packs flat and light despite full letter size. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: No battery weight at all. On the other side, No on-device digital storage. That's the main tradeoff to weigh against everything above.",
+    specs: ["Reusable paper notebook, Type 1","Letter size 8.5x11, dotted pages","Wipe clean and reuse","Packs flat in a bag"],
+    pros: ["Packs flat and light despite full letter size","No battery weight at all","More writing space than the Mini format","App-connected scanning"],
+    cons: ["Bulkier than the Mini notepad format","Requires a compatible erasable pen","No on-device digital storage"],
     bestFor: "Buyers wanting full-size writing space in a still genuinely lightweight package.",
   }
 ];
@@ -135,33 +129,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Portability Looks Different Across the Three Types",
-    note: "A paper notepad's portability comes down to page size and whether it packs flat, with zero battery weight involved. An e-ink tablet's portability depends on screen size, thickness, and battery life, since a heavier device with a short battery life is a genuine travel burden. A smart pen set's bulk usually comes from the companion notebook rather than the pen, check both together.",
-  },
-  {
-    subheading: "When Full-Size Writing Space Is Worth the Extra Bulk",
-    note: "If you're only jotting quick notes, a mini notepad or compact pen set genuinely disappears into a bag or pocket. If you need to write full pages of notes regularly, a full letter-size notebook or a screen-based tablet is worth the added bulk despite being less pocketable.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Smallest possible paper notebook", "Rocketbook Mini (Black or Navy Blue)"],
-        ["Lightest genuine digital screen for travel", "reMarkable 2 with Marker Plus"],
-        ["Most compact real-time smart pen, budget", "SyncPen Digital Notebook Smart Pen Set"],
-        ["Compact smart pen, mid-range", "Ophayapen Smart Pen and Smart Digital Notebook"],
-        ["Full writing space that still packs flat", "Rocketbook Core"]
+    "subheading": "By Use Case",
+    "table": {
+      "headers": [
+        "What you need it for",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Everyday note-taking and reading",
+          "Rocketbook Mini Reusable Smart Notepad"
+        ],
+        [
+          "AI-assisted or document-heavy work",
+          "reMarkable 2 with Marker Plus"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $15",
+          "Rocketbook Mini Reusable Smart Notepad"
+        ],
+        [
+          "Mid-range",
+          "SyncPen Digital Notebook Smart Pen Set"
+        ],
+        [
+          "No firm budget ceiling, prioritizing storage or ecosystem",
+          "reMarkable 2 with Marker Plus"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "AI Features Included vs Subscription-Gated",
+    "cards": [
+      {
+        "label": "Included, No Subscription",
+        "text": "AI note tools come with the purchase price, no ongoing cost. In this comparison: check each listing's terms directly."
+      },
+      {
+        "label": "Subscription-Gated",
+        "text": "Advanced AI features require an ongoing paid plan on top of the hardware price. In this comparison: none explicitly confirmed in this specific roundup, check the listing before assuming."
+      }
+    ],
+    "note": "Check each specific listing for current subscription terms, since these change over time."
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "Rocketbook Mini Reusable Smart Notepad"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "Rocketbook Mini Reusable Smart Notepad"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Handwriting-to-Text Conversion Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation of handwriting-to-text conversion (not just \"AI\" generally), and whether that specific feature is included or requires a subscription."
+      },
+      {
+        "label": "In this comparison",
+        "text": "SyncPen Digital Notebook Smart Pen Set fits this specifically: Slim, pocket-friendly pen design."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what reMarkable 2 with Marker Plus offers: Thinner and lighter than the Paper Pro. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Rocketbook Mini Reusable Smart Notepad already covers the essentials: Genuinely pocket-sized at 3.5x5.5 inches. The main thing you'd be paying extra for elsewhere in this list is features or storage you may not need."
+      }
+    ]
   }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Check actual dimensions, not just the product category", explanation: "A \"portable\" e-ink tablet can still be heavier than a stack of paper notepads, compare actual stated dimensions and weight." },
-  { criterion: "Factor in battery weight and charger dependence for electronics", explanation: "A device with long e-ink battery life reduces how often you need to carry a charger while traveling." },
-  { criterion: "Weigh writing area against compactness", explanation: "A pocket-sized mini notepad has meaningfully less writing space than a full letter-size notebook, decide which matters more for your use case." },
-  { criterion: "For smart pen sets, check the notebook size too", explanation: "A compact pen paired with a bulky companion notebook isn't genuinely portable overall, look at both pieces together." },
+  {
+    "criterion": "Check whether AI or handwriting-conversion features are included or require a subscription",
+    "explanation": "Digital notebook brands take genuinely different approaches to their software features: some bundle handwriting-to-text conversion, document summarization, and cloud sync into the purchase price, while others, most notably reMarkable's Connect plan, gate the more advanced versions of these same features behind an ongoing monthly subscription that continues costing money long after the initial purchase.\n\nThis is a real total-cost-of-ownership difference that a one-time hardware price comparison completely misses, since a cheaper device with a required subscription can cost more over two or three years than a pricier device with everything included upfront.\n\nCheck the specific listing and manufacturer's website for whether the features you actually want are included in the base purchase or require an ongoing plan, and factor that recurring cost into your real comparison."
+  },
+  {
+    "criterion": "Understand that \"AI\" and \"handwriting conversion\" mean different things across different devices",
+    "explanation": "The marketing term \"AI\" gets applied to several genuinely different features across this product category: converting your handwriting into typed text, summarizing a long document or your own notes, organizing notes automatically by topic, or simply offering a chatbot-style writing assistant, and a device marketed heavily around \"AI\" doesn't necessarily include all, or even most, of these specific capabilities.\n\nThis matters because two devices can both claim AI features while actually doing completely different things, so a buyer specifically wanting handwriting-to-text conversion could end up with a device whose \"AI\" feature is actually a summarization tool that doesn't address their actual need at all.\n\nRead the specific feature list rather than the marketing headline, and confirm the device does the exact task you need (handwriting conversion specifically, not just \"AI\" generally) before buying."
+  },
+  {
+    "criterion": "Confirm the stylus situation: included, sold separately, or requiring a specific model",
+    "explanation": "Some digital notebooks include a compatible stylus in the box as part of the purchase price, while others sell the device and stylus as separate purchases, or require a specific proprietary stylus model that isn't interchangeable with a generic capacitive pen, and this distinction can add a meaningful hidden cost on top of the listed device price if you assumed a stylus was included.\n\nBeyond just the cost, stylus quality itself varies in pressure sensitivity, tilt detection, and palm rejection quality, features that matter significantly more for sketching and detailed note-taking than for simple text entry.\n\nCheck the listing specifically for whether a stylus ships in the box, and if writing feel matters to you, look for mentions of pressure levels and palm rejection quality rather than assuming any included stylus performs the same as another."
+  },
+  {
+    "criterion": "Check the export and sync ecosystem, since notes trapped on one device have limited long-term value",
+    "explanation": "A digital notebook's real usefulness depends heavily on getting your notes and documents off the device and into a format you can actually use elsewhere, whether that's cloud sync to a phone or computer, export to PDF or Word, or direct integration with a note-taking platform like OneNote or Google Drive, and devices differ meaningfully in which of these paths they actually support natively versus not at all.\n\nThis matters concretely for anyone using the device for professional or academic work where notes need to end up in a shared document, an email, or a specific software ecosystem, since a device with limited export options can leave your handwritten notes effectively stranded on the device itself.\n\nCheck the manufacturer's stated export formats and sync options against the specific software or workflow you actually need to feed notes into, rather than assuming any device syncs to everything."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, especially for newer AI-branded entrants",
+    "explanation": "Established digital notebook brands with years on the market carry review counts in the thousands, giving genuine statistical confidence in their ratings, while newer devices, especially ones marketing themselves heavily around AI features to ride current interest in the category, sometimes carry only a few dozen or a few hundred reviews, which is a meaningfully thinner sample to judge long-term reliability and whether the marketed features actually work as claimed.\n\nThis doesn't mean a newer, less-reviewed device is automatically worse, but it does mean the claims on its listing carry less independently verified weight than a device with years of real-world feedback behind it.\n\nWhen comparing an established brand against a newer AI-branded entrant, check both the star rating and the review count together, and weigh a smaller but heavily AI-marketed device's claims more skeptically until more real-world feedback accumulates."
+  }
 ];
 
 export const faq: FaqItem[] = [

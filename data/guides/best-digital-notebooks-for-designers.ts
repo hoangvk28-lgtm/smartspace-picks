@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41yKUd9lhbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGBDR2PM?tag=deskfinds0d-20",
-    description:
-      "The reMarkable Paper Pro's color display and larger screen make it the most capable sketching surface in this pool, though it remains a note-taking device rather than a dedicated illustration tablet. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nIt's appropriate for rough concept sketches, mood notes, or idea capture rather than production-quality design work. Designers wanting pressure-sensitive precision drawing for finished work should look at a dedicated graphics tablet instead.",
-    specs: ["E-ink digital notebook device, Type 2", "Color e-paper display", "Marker Plus and folio included", "Larger writing and sketching surface"],
-    pros: ["Color e-paper display for basic sketch coding", "Largest screen in this pool for sketching", "Marker Plus and folio included", "Genuinely useful for idea capture and rough concepts"],
-    cons: ["Not a dedicated illustration or graphics tablet", "No advanced pressure-sensitivity software built for design work", "Premium price for what is fundamentally a note-taking device"],
+    description: "The reMarkable Paper Pro's color display and larger screen make it the most capable sketching surface in this pool, though it remains a note-taking device rather than a dedicated illustration tablet. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nIt earns the top spot in this comparison over reMarkable Paper Pro with Marker Plus for one main reason. Color e-paper display for basic sketch coding. On price, it's actually priced above reMarkable Paper Pro with Marker Plus, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Largest screen in this pool for sketching. On the other side, Premium price for what is fundamentally a note-taking device. That's the main tradeoff to weigh against everything above.",
+    specs: ["E-ink digital notebook device, Type 2","Color e-paper display","Marker Plus and folio included","Larger writing and sketching surface"],
+    pros: ["Color e-paper display for basic sketch coding","Largest screen in this pool for sketching","Marker Plus and folio included","Genuinely useful for idea capture and rough concepts"],
+    cons: ["Not a dedicated illustration or graphics tablet","No advanced pressure-sensitivity software built for design work","Premium price for what is fundamentally a note-taking device"],
     bestFor: "Designers who want to sketch rough ideas and take notes, not produce finished illustration work.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/412wtt+9l5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DG9ZXWMK?tag=deskfinds0d-20",
-    description:
-      "Same color e-paper sketching surface as the folio bundle at a lower price if you don't need the included case. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nAs with the folio version, this is a note-taking device with sketching capability, not a purpose-built design tablet. Reasonable for capturing visual ideas during meetings or early concept stages, not for finished design deliverables.",
-    specs: ["E-ink digital notebook device, Type 2", "Color e-paper display", "Marker Plus included", "No folio bundled"],
-    pros: ["Same color display as the folio bundle", "Lower cost without the case", "Marker Plus included", "Useful for early concept sketching"],
-    cons: ["Not a dedicated illustration tablet", "No production-grade drawing software", "Still a premium price for a note-taking device"],
+    description: "Same color e-paper sketching surface as the folio bundle at a lower price if you don't need the included case. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nOne spot below reMarkable Paper Pro with Marker Plus and Basalt Book Folio in this ranking, it's priced lower than reMarkable Paper Pro with Marker Plus and Basalt Book Folio. The compromise here is straightforward: Not a dedicated illustration tablet. What you gain in return: Same color display as the folio bundle. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Lower cost without the case. On the other side, Still a premium price for a note-taking device. That's the main tradeoff to weigh against everything above.",
+    specs: ["E-ink digital notebook device, Type 2","Color e-paper display","Marker Plus included","No folio bundled"],
+    pros: ["Same color display as the folio bundle","Lower cost without the case","Marker Plus included","Useful for early concept sketching"],
+    cons: ["Not a dedicated illustration tablet","No production-grade drawing software","Still a premium price for a note-taking device"],
     bestFor: "Designers wanting a lower-cost way into color sketch notes.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HDL3XJR?tag=deskfinds0d-20",
-    description:
-      "The reMarkable 2 offers a genuinely paper-like feel for rough black-and-white sketches and notes at a lower price than the color models. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nIts stylus is responsive enough for quick concept doodles but lacks the pressure-sensitivity software depth of a dedicated illustration tablet. Best treated as a sketchbook substitute for early ideation, not a production tool for finished design work.",
-    specs: ["E-ink digital notebook device, Type 2", "Marker Plus included", "Black and white e-paper display", "Weeks of battery life"],
-    pros: ["Genuinely paper-like sketching feel", "Lower price than color e-ink options", "Marker Plus included", "Long battery life"],
-    cons: ["Black and white only, limiting for color-dependent design work", "Not a dedicated illustration tablet", "No production-grade design software"],
+    description: "The reMarkable 2 offers a genuinely paper-like feel for rough black-and-white sketches and notes at a lower price than the color models. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nSitting just under reMarkable Paper Pro with Marker Plus, it's priced lower than reMarkable Paper Pro with Marker Plus. Here's the honest tradeoff: Black and white only, limiting for color-dependent design work. And here's what it gets you instead: Genuinely paper-like sketching feel. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Lower price than color e-ink options. On the other side, No production-grade design software. That's the main tradeoff to weigh against everything above.",
+    specs: ["E-ink digital notebook device, Type 2","Marker Plus included","Black and white e-paper display","Weeks of battery life"],
+    pros: ["Genuinely paper-like sketching feel","Lower price than color e-ink options","Marker Plus included","Long battery life"],
+    cons: ["Black and white only, limiting for color-dependent design work","Not a dedicated illustration tablet","No production-grade design software"],
     bestFor: "Designers wanting a lower-cost sketchbook substitute for early ideation.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31EchKlKb3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT3Q52PN?tag=deskfinds0d-20",
-    description:
-      "Running Android, the BOOX Note Air 4C can install some Android sketching or note apps beyond its built-in tools, a modest advantage for designers wanting more software flexibility. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nIt remains an e-ink device though, meaning color contrast and refresh rate are meaningfully behind a dedicated LCD-based graphics tablet. Consider this a flexible note-and-sketch device rather than a replacement for professional illustration hardware.",
-    specs: ["E-ink digital notebook device, Type 2", "Color ePaper display", "6GB RAM, 64GB storage", "Android-based, runs compatible apps"],
-    pros: ["Android app access for broader sketching app options", "Color ePaper display", "6GB RAM for genuine multitasking", "Newer-generation hardware"],
-    cons: ["E-ink refresh rate and color depth well behind a dedicated graphics tablet", "Not built for professional illustration work", "Verify current price on the listing"],
+    description: "Running Android, the BOOX Note Air 4C can install some Android sketching or note apps beyond its built-in tools, a modest advantage for designers wanting more software flexibility. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nRanked just behind reMarkable 2 with Marker Plus, it's priced lower than reMarkable 2 with Marker Plus. The real tradeoff against that pick: E-ink refresh rate and color depth well behind a dedicated graphics tablet. In exchange, it offers this instead: Android app access for broader sketching app options. That's the swap that decides whether this pick or the one above it is the better fit for your note-taking needs.\n\nWorth knowing before you decide: Color ePaper display. On the other side, Verify current price on the listing. That's the main tradeoff to weigh against everything above.",
+    specs: ["E-ink digital notebook device, Type 2","Color ePaper display","6GB RAM, 64GB storage","Android-based, runs compatible apps"],
+    pros: ["Android app access for broader sketching app options","Color ePaper display","6GB RAM for genuine multitasking","Newer-generation hardware"],
+    cons: ["E-ink refresh rate and color depth well behind a dedicated graphics tablet","Not built for professional illustration work","Verify current price on the listing"],
     bestFor: "Designers wanting some app flexibility on an e-ink sketching device.",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41BunSeRP3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR4L5XMV?tag=deskfinds0d-20",
-    description:
-      "The BOOX Note Air 5 C is the newer generation of the same Android e-ink line, with the same fundamental limitation for design work: an e-ink screen, not an LCD or OLED illustration display. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nIt's a reasonable note-and-sketch device for a designer's idea capture and meeting notes, not a production illustration tool. Priced above the entry BOOX tablets but below reMarkable's premium color device.",
-    specs: ["E-ink digital notebook device, Type 2", "10.3 inch color ePaper display", "6GB RAM, 64GB storage", "Android-based"],
-    pros: ["Newer-generation hardware and software", "Color ePaper display", "Android app flexibility", "Larger 10.3 inch screen"],
-    cons: ["Still an e-ink device, not suited to production illustration", "Verify current battery life claims", "Mid-range price for what remains a note-taking tool"],
+    description: "The BOOX Note Air 5 C is the newer generation of the same Android e-ink line, with the same fundamental limitation for design work: an e-ink screen, not an LCD or OLED illustration display. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nOne spot below BOOX Tablet Note Air 4C in this ranking, pricing between it and BOOX Tablet Note Air 4C isn't directly comparable here. The compromise here is straightforward: Still an e-ink device, not suited to production illustration. What you gain in return: Newer-generation hardware and software. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Color ePaper display. On the other side, Mid-range price for what remains a note-taking tool. That's the main tradeoff to weigh against everything above.",
+    specs: ["E-ink digital notebook device, Type 2","10.3 inch color ePaper display","6GB RAM, 64GB storage","Android-based"],
+    pros: ["Newer-generation hardware and software","Color ePaper display","Android app flexibility","Larger 10.3 inch screen"],
+    cons: ["Still an e-ink device, not suited to production illustration","Verify current battery life claims","Mid-range price for what remains a note-taking tool"],
     bestFor: "Designers wanting the latest e-ink sketch-and-note device generation.",
   },
   {
@@ -115,11 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31TxeKtPWwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FC1VJJFP?tag=deskfinds0d-20",
-    description:
-      "The Kindle Scribe Colorsoft's large color display is genuinely useful for annotating design references, mood boards, or reading material rather than producing original illustration. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nThe included pen and 11 inch screen make markup and note-taking on reference material straightforward. Best understood as an annotation and reference tool for designers, not a drawing tablet for finished creative output.",
-    specs: ["E-ink digital notebook device, Type 2", "11 inch color paper-like display", "Pen included", "Combines notebook and e-reader"],
-    pros: ["Large color display for annotating references", "Pen included", "Doubles as a reading device for research", "Genuinely useful for markup, not just notes"],
-    cons: ["Premium price for a note-and-annotation device", "Not suited to production illustration work", "Verify current handwriting conversion accuracy"],
+    description: "The Kindle Scribe Colorsoft's large color display is genuinely useful for annotating design references, mood boards, or reading material rather than producing original illustration. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nSitting just under BOOX Tablet 10.3in Note Air 5 C, it costs more than BOOX Tablet 10.3in Note Air 5 C. Here's the honest tradeoff: Premium price for a note-and-annotation device. And here's what it gets you instead: Large color display for annotating references. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Pen included. On the other side, Verify current handwriting conversion accuracy. That's the main tradeoff to weigh against everything above.",
+    specs: ["E-ink digital notebook device, Type 2","11 inch color paper-like display","Pen included","Combines notebook and e-reader"],
+    pros: ["Large color display for annotating references","Pen included","Doubles as a reading device for research","Genuinely useful for markup, not just notes"],
+    cons: ["Premium price for a note-and-annotation device","Not suited to production illustration work","Verify current handwriting conversion accuracy"],
     bestFor: "Designers who mainly need to annotate references and reading material, not draw finished work.",
   }
 ];
@@ -135,33 +129,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Read This Before Buying: These Are Not Illustration Tablets",
-    note: "Every product in this guide is fundamentally a note-taking device with an e-ink screen, not a graphics tablet built for professional design or illustration work. If you need pressure-sensitive precision drawing, layered artwork, or production-quality output, look at a dedicated graphics tablet instead, a genuinely different product category with different display technology (LCD or OLED rather than e-ink) and dedicated creative software support.",
-  },
-  {
-    subheading: "What These Devices Are Actually Good For",
-    note: "Rough concept sketches, idea capture during meetings, annotating references or mood boards, and general note-taking with occasional doodles. E-ink's slower refresh rate and limited color depth compared to an LCD or OLED screen make it a poor fit for detailed or fast-paced illustration work.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Best available color sketching surface in this pool", "reMarkable Paper Pro with Marker Plus and Basalt Book Folio"],
-        ["Lower-cost color sketch notes", "reMarkable Paper Pro with Marker Plus"],
-        ["Cheapest rough-sketch note device", "reMarkable 2 with Marker Plus"],
-        ["Android app flexibility for sketching apps", "BOOX Note Air 4C"],
-        ["Annotating references and reading material", "Kindle Scribe Colorsoft"]
+    "subheading": "By Use Case",
+    "table": {
+      "headers": [
+        "What you need it for",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Everyday note-taking and reading",
+          "reMarkable 2 with Marker Plus"
+        ],
+        [
+          "AI-assisted or document-heavy work",
+          "reMarkable Paper Pro with Marker Plus and Basalt Book Folio"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $449",
+          "reMarkable 2 with Marker Plus"
+        ],
+        [
+          "Mid-range",
+          "reMarkable Paper Pro with Marker Plus"
+        ],
+        [
+          "No firm budget ceiling, prioritizing storage or ecosystem",
+          "reMarkable Paper Pro with Marker Plus and Basalt Book Folio"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "AI Features Included vs Subscription-Gated",
+    "cards": [
+      {
+        "label": "Included, No Subscription",
+        "text": "AI note tools come with the purchase price, no ongoing cost. In this comparison: check each listing's terms directly."
+      },
+      {
+        "label": "Subscription-Gated",
+        "text": "Advanced AI features require an ongoing paid plan on top of the hardware price. In this comparison: none explicitly confirmed in this specific roundup, check the listing before assuming."
+      }
+    ],
+    "note": "Check each specific listing for current subscription terms, since these change over time."
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "reMarkable Paper Pro with Marker Plus and Basalt Book Folio"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "reMarkable Paper Pro with Marker Plus and Basalt Book Folio"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Handwriting-to-Text Conversion Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation of handwriting-to-text conversion (not just \"AI\" generally), and whether that specific feature is included or requires a subscription."
+      },
+      {
+        "label": "In this comparison",
+        "text": "reMarkable Paper Pro with Marker Plus and Basalt Book Folio fits this specifically: Color e-paper display for basic sketch coding."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what reMarkable Paper Pro with Marker Plus and Basalt Book Folio offers: Color e-paper display for basic sketch coding. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "reMarkable 2 with Marker Plus already covers the essentials: Genuinely paper-like sketching feel. The main thing you'd be paying extra for elsewhere in this list is features or storage you may not need."
+      }
+    ]
   }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Understand these are note-taking devices, not illustration tablets", explanation: "None of the products in this research pool are marketed for professional design work, if you need production-quality drawing tools, look at a dedicated graphics tablet instead." },
-  { criterion: "Use color and screen size as your best proxy signal here", explanation: "Since dedicated design features aren't present, a larger color e-ink display is the closest available indicator of sketching usefulness within this category." },
-  { criterion: "Consider Android app access for extra sketching software", explanation: "Android-based e-ink devices can install some additional sketching apps, a modest advantage over closed single-purpose interfaces." },
-  { criterion: "Match the device to idea capture, not production work", explanation: "Use these devices for rough sketches, mood notes, and reference annotation, not for delivering finished creative output to a client." },
+  {
+    "criterion": "Check whether AI or handwriting-conversion features are included or require a subscription",
+    "explanation": "Digital notebook brands take genuinely different approaches to their software features: some bundle handwriting-to-text conversion, document summarization, and cloud sync into the purchase price, while others, most notably reMarkable's Connect plan, gate the more advanced versions of these same features behind an ongoing monthly subscription that continues costing money long after the initial purchase.\n\nThis is a real total-cost-of-ownership difference that a one-time hardware price comparison completely misses, since a cheaper device with a required subscription can cost more over two or three years than a pricier device with everything included upfront.\n\nCheck the specific listing and manufacturer's website for whether the features you actually want are included in the base purchase or require an ongoing plan, and factor that recurring cost into your real comparison."
+  },
+  {
+    "criterion": "Understand that \"AI\" and \"handwriting conversion\" mean different things across different devices",
+    "explanation": "The marketing term \"AI\" gets applied to several genuinely different features across this product category: converting your handwriting into typed text, summarizing a long document or your own notes, organizing notes automatically by topic, or simply offering a chatbot-style writing assistant, and a device marketed heavily around \"AI\" doesn't necessarily include all, or even most, of these specific capabilities.\n\nThis matters because two devices can both claim AI features while actually doing completely different things, so a buyer specifically wanting handwriting-to-text conversion could end up with a device whose \"AI\" feature is actually a summarization tool that doesn't address their actual need at all.\n\nRead the specific feature list rather than the marketing headline, and confirm the device does the exact task you need (handwriting conversion specifically, not just \"AI\" generally) before buying."
+  },
+  {
+    "criterion": "Confirm the stylus situation: included, sold separately, or requiring a specific model",
+    "explanation": "Some digital notebooks include a compatible stylus in the box as part of the purchase price, while others sell the device and stylus as separate purchases, or require a specific proprietary stylus model that isn't interchangeable with a generic capacitive pen, and this distinction can add a meaningful hidden cost on top of the listed device price if you assumed a stylus was included.\n\nBeyond just the cost, stylus quality itself varies in pressure sensitivity, tilt detection, and palm rejection quality, features that matter significantly more for sketching and detailed note-taking than for simple text entry.\n\nCheck the listing specifically for whether a stylus ships in the box, and if writing feel matters to you, look for mentions of pressure levels and palm rejection quality rather than assuming any included stylus performs the same as another."
+  },
+  {
+    "criterion": "Check the export and sync ecosystem, since notes trapped on one device have limited long-term value",
+    "explanation": "A digital notebook's real usefulness depends heavily on getting your notes and documents off the device and into a format you can actually use elsewhere, whether that's cloud sync to a phone or computer, export to PDF or Word, or direct integration with a note-taking platform like OneNote or Google Drive, and devices differ meaningfully in which of these paths they actually support natively versus not at all.\n\nThis matters concretely for anyone using the device for professional or academic work where notes need to end up in a shared document, an email, or a specific software ecosystem, since a device with limited export options can leave your handwritten notes effectively stranded on the device itself.\n\nCheck the manufacturer's stated export formats and sync options against the specific software or workflow you actually need to feed notes into, rather than assuming any device syncs to everything."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, especially for newer AI-branded entrants",
+    "explanation": "Established digital notebook brands with years on the market carry review counts in the thousands, giving genuine statistical confidence in their ratings, while newer devices, especially ones marketing themselves heavily around AI features to ride current interest in the category, sometimes carry only a few dozen or a few hundred reviews, which is a meaningfully thinner sample to judge long-term reliability and whether the marketed features actually work as claimed.\n\nThis doesn't mean a newer, less-reviewed device is automatically worse, but it does mean the claims on its listing carry less independently verified weight than a device with years of real-world feedback behind it.\n\nWhen comparing an established brand against a newer AI-branded entrant, check both the star rating and the review count together, and weigh a smaller but heavily AI-marketed device's claims more skeptically until more real-world feedback accumulates."
+  }
 ];
 
 export const faq: FaqItem[] = [

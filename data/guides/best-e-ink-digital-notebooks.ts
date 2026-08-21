@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41+shKsz0LL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08H83GCBT?tag=deskfinds0d-20",
-    description:
-      "The e-ink panel on the BOOX Note Air 10.3 reads glare-free even in bright light, a genuine advantage of e-paper technology over an LCD tablet screen. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nThe front light extends that glare-free reading into dim rooms without switching to a backlit panel that strains the eyes over long sessions. Running Android on top of e-ink is a less common combination that adds app flexibility without giving up the paper-like display.",
-    specs: ["E-ink digital notebook device, Type 2", "10.3 inch ePaper display", "Front light for low-light use", "Android-based, G-sensor"],
-    pros: ["Glare-free e-ink display readable in bright light", "Front light for low-light use without switching to LCD", "Android app flexibility", "Established product line"],
-    cons: ["Not a color display", "Verify current price and battery specs", "Android adds some interface complexity"],
+    description: "The e-ink panel on the BOOX Note Air 10.3 reads glare-free even in bright light, a genuine advantage of e-paper technology over an LCD tablet screen. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nIt earns the top spot in this comparison over BOOX Tablet 10.3in Note Air 5 C for one main reason. Glare-free e-ink display readable in bright light. On price, it comes in below BOOX Tablet 10.3in Note Air 5 C, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Front light for low-light use without switching to LCD. On the other side, Android adds some interface complexity. That's the main tradeoff to weigh against everything above.",
+    specs: ["E-ink digital notebook device, Type 2","10.3 inch ePaper display","Front light for low-light use","Android-based, G-sensor"],
+    pros: ["Glare-free e-ink display readable in bright light","Front light for low-light use without switching to LCD","Android app flexibility","Established product line"],
+    cons: ["Not a color display","Verify current price and battery specs","Android adds some interface complexity"],
     bestFor: "Buyers who want glare-free reading and writing with Android app access.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41BunSeRP3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR4L5XMV?tag=deskfinds0d-20",
-    description:
-      "The BOOX Note Air 5 C brings color to the same glare-free e-paper technology, useful for color-coded notes without the eye strain of a backlit color LCD. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nBecause e-ink only redraws power when the screen content changes, standby battery life stretches to weeks rather than the hours typical of an LCD tablet. It represents the current generation of color e-ink hardware, at a price between black-and-white e-ink tablets and reMarkable's premium color device.",
-    specs: ["E-ink digital notebook device, Type 2", "10.3 inch color ePaper display", "6GB RAM, 64GB storage", "Weeks of standby battery life"],
-    pros: ["Color ePaper display with genuine glare-free reading", "Long standby battery life from the e-ink panel", "Newer-generation hardware", "Android app support"],
-    cons: ["Color e-ink panels have less contrast than black-and-white", "Verify current price on the listing", "Premium price relative to black-and-white e-ink"],
+    description: "The BOOX Note Air 5 C brings color to the same glare-free e-paper technology, useful for color-coded notes without the eye strain of a backlit color LCD. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nOne spot below BOOX Note Air 10.3 E Ink Tablet in this ranking, pricing between it and BOOX Note Air 10.3 E Ink Tablet isn't directly comparable here. The compromise here is straightforward: Color e-ink panels have less contrast than black-and-white. What you gain in return: Color ePaper display with genuine glare-free reading. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Long standby battery life from the e-ink panel. On the other side, Premium price relative to black-and-white e-ink. That's the main tradeoff to weigh against everything above.",
+    specs: ["E-ink digital notebook device, Type 2","10.3 inch color ePaper display","6GB RAM, 64GB storage","Weeks of standby battery life"],
+    pros: ["Color ePaper display with genuine glare-free reading","Long standby battery life from the e-ink panel","Newer-generation hardware","Android app support"],
+    cons: ["Color e-ink panels have less contrast than black-and-white","Verify current price on the listing","Premium price relative to black-and-white e-ink"],
     bestFor: "Buyers wanting color notes without giving up e-ink's glare-free, low-strain reading.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HDL3XJR?tag=deskfinds0d-20",
-    description:
-      "The reMarkable 2's e-ink screen only draws power when the display changes, giving it battery life measured in weeks rather than the daily charging cycle of a typical LCD tablet. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nThe glare-free, black-and-white e-paper display closely mimics reading and writing on real paper, with less eye strain over long sessions than a backlit screen. It remains one of the most refined single-purpose e-ink writing devices in this category.",
-    specs: ["E-ink digital notebook device, Type 2", "Marker Plus included", "Weeks of battery life", "Black and white e-paper display"],
-    pros: ["Long battery life, a direct benefit of e-ink's power model", "Glare-free display reduces eye strain over long sessions", "Marker Plus stylus included", "Refined, distraction-free interface"],
-    cons: ["Black and white display only", "Verify current cloud subscription requirements", "Premium price versus paper-based notebooks"],
+    description: "The reMarkable 2's e-ink screen only draws power when the display changes, giving it battery life measured in weeks rather than the daily charging cycle of a typical LCD tablet. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nSitting just under BOOX Tablet 10.3in Note Air 5 C, it's priced lower than BOOX Tablet 10.3in Note Air 5 C. Here's the honest tradeoff: Black and white display only. And here's what it gets you instead: Long battery life, a direct benefit of e-ink's power model. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Glare-free display reduces eye strain over long sessions. On the other side, Premium price versus paper-based notebooks. That's the main tradeoff to weigh against everything above.",
+    specs: ["E-ink digital notebook device, Type 2","Marker Plus included","Weeks of battery life","Black and white e-paper display"],
+    pros: ["Long battery life, a direct benefit of e-ink's power model","Glare-free display reduces eye strain over long sessions","Marker Plus stylus included","Refined, distraction-free interface"],
+    cons: ["Black and white display only","Verify current cloud subscription requirements","Premium price versus paper-based notebooks"],
     bestFor: "Buyers who most value e-ink's battery life and glare-free reading.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41yKUd9lhbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGBDR2PM?tag=deskfinds0d-20",
-    description:
-      "The reMarkable Paper Pro's color e-paper display retains e-ink's glare-free readability in bright daylight, a real advantage over a color LCD tablet outdoors or under strong light. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nBattery life still benefits from e-ink's power-only-on-change model even with the added color layer. The premium price reflects both the color panel and the larger writing surface, the most capable e-ink display in this guide.",
-    specs: ["E-ink digital notebook device, Type 2", "Color e-paper display", "Marker Plus and folio included", "Glare-free even in daylight"],
-    pros: ["Color e-paper display, still glare-free in bright light", "Marker Plus stylus and folio included", "Larger screen than the standard reMarkable 2", "E-ink battery efficiency retained with color"],
-    cons: ["The most expensive pick in this guide", "Verify current cloud subscription requirements", "Color e-ink still trades some contrast versus black-and-white"],
+    description: "The reMarkable Paper Pro's color e-paper display retains e-ink's glare-free readability in bright daylight, a real advantage over a color LCD tablet outdoors or under strong light. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nRanked just behind reMarkable 2 with Marker Plus, it costs more than reMarkable 2 with Marker Plus. The real tradeoff against that pick: The most expensive pick in this guide. In exchange, it offers this instead: Color e-paper display, still glare-free in bright light. That's the swap that decides whether this pick or the one above it is the better fit for your note-taking needs.\n\nWorth knowing before you decide: Marker Plus stylus and folio included. On the other side, Color e-ink still trades some contrast versus black-and-white. That's the main tradeoff to weigh against everything above.",
+    specs: ["E-ink digital notebook device, Type 2","Color e-paper display","Marker Plus and folio included","Glare-free even in daylight"],
+    pros: ["Color e-paper display, still glare-free in bright light","Marker Plus stylus and folio included","Larger screen than the standard reMarkable 2","E-ink battery efficiency retained with color"],
+    cons: ["The most expensive pick in this guide","Verify current cloud subscription requirements","Color e-ink still trades some contrast versus black-and-white"],
     bestFor: "Buyers wanting the best color e-ink display with glare-free reading in any light.",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/412wtt+9l5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DG9ZXWMK?tag=deskfinds0d-20",
-    description:
-      "This is the same color e-paper display and glare-free daylight readability as the folio bundle, just without the included case. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nE-ink's power-on-change model still applies here, giving genuinely long battery life relative to an LCD tablet. A lower-cost way into the same premium color e-ink display if you don't need the bundled folio.",
-    specs: ["E-ink digital notebook device, Type 2", "Color e-paper display", "Marker Plus included", "Glare-free daylight readability"],
-    pros: ["Same color e-paper display as the folio bundle", "Marker Plus included", "Lower price than the folio-included version", "Long e-ink battery life"],
-    cons: ["No case included", "Still a premium price overall", "Verify current cloud subscription requirements"],
+    description: "This is the same color e-paper display and glare-free daylight readability as the folio bundle, just without the included case. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nOne spot below reMarkable Paper Pro with Marker Plus and Basalt Book Folio in this ranking, it's priced lower than reMarkable Paper Pro with Marker Plus and Basalt Book Folio. The compromise here is straightforward: No case included. What you gain in return: Same color e-paper display as the folio bundle. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Marker Plus included. On the other side, Verify current cloud subscription requirements. That's the main tradeoff to weigh against everything above.",
+    specs: ["E-ink digital notebook device, Type 2","Color e-paper display","Marker Plus included","Glare-free daylight readability"],
+    pros: ["Same color e-paper display as the folio bundle","Marker Plus included","Lower price than the folio-included version","Long e-ink battery life"],
+    cons: ["No case included","Still a premium price overall","Verify current cloud subscription requirements"],
     bestFor: "Buyers wanting the Paper Pro display without paying for a case they may not need.",
   },
   {
@@ -115,11 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31yGU6PCN2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8Z354YW?tag=deskfinds0d-20",
-    description:
-      "This reMarkable 2 bundle pairs the same glare-free, long-battery-life e-ink screen with an included folio case for a complete kit. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nE-ink's low power draw when the screen is static means the device can sit idle for weeks without a meaningful battery drop. A complete mid-range option for buyers who want the case included rather than sourced separately.",
-    specs: ["E-ink digital notebook device, Type 2", "Marker Plus and folio included", "Black and white e-paper display", "Long standby battery life"],
-    pros: ["Complete kit with folio included", "Long battery life from the e-ink display", "Glare-free, low-eye-strain writing surface", "Marker Plus stylus included"],
-    cons: ["Costs more than the tablet-only bundle", "Black and white display only", "Verify current cloud subscription requirements"],
+    description: "This reMarkable 2 bundle pairs the same glare-free, long-battery-life e-ink screen with an included folio case for a complete kit. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nSitting just under reMarkable Paper Pro with Marker Plus, it's priced lower than reMarkable Paper Pro with Marker Plus. Here's the honest tradeoff: Costs more than the tablet-only bundle. And here's what it gets you instead: Complete kit with folio included. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Long battery life from the e-ink display. On the other side, Verify current cloud subscription requirements. That's the main tradeoff to weigh against everything above.",
+    specs: ["E-ink digital notebook device, Type 2","Marker Plus and folio included","Black and white e-paper display","Long standby battery life"],
+    pros: ["Complete kit with folio included","Long battery life from the e-ink display","Glare-free, low-eye-strain writing surface","Marker Plus stylus included"],
+    cons: ["Costs more than the tablet-only bundle","Black and white display only","Verify current cloud subscription requirements"],
     bestFor: "Buyers wanting a complete mid-range e-ink kit including a case.",
   },
   {
@@ -132,11 +126,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31TxeKtPWwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FC1VJJFP?tag=deskfinds0d-20",
-    description:
-      "The Kindle Scribe Colorsoft's e-ink display is built for exactly this kind of long reading and writing session, with a front light and stated color paper-like screen that avoids LCD glare and eye strain. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nBecause it shares Amazon's e-reader hardware lineage, the panel is specifically tuned for extended reading comfort, with notebook functionality layered on top. Battery life benefits from the same e-ink power model as the other picks in this guide, lasting well beyond a typical LCD tablet.",
-    specs: ["E-ink digital notebook device, Type 2", "11 inch color paper-like display", "Front light included", "Pen included"],
-    pros: ["Color paper-like display tuned for reading comfort", "Front light for low-light sessions", "Pen included", "Long e-ink battery life"],
-    cons: ["Premium price similar to reMarkable Paper Pro", "Best suited to buyers who also want an e-reader", "Verify current handwriting conversion accuracy"],
+    description: "The Kindle Scribe Colorsoft's e-ink display is built for exactly this kind of long reading and writing session, with a front light and stated color paper-like screen that avoids LCD glare and eye strain. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nRanked just behind reMarkable 2 with Marker Plus and Basalt Book Folio, pricing between it and reMarkable 2 with Marker Plus and Basalt Book Folio isn't directly comparable here. The real tradeoff against that pick: Premium price similar to reMarkable Paper Pro. In exchange, it offers this instead: Color paper-like display tuned for reading comfort. That's the swap that decides whether this pick or the one above it is the better fit for your note-taking needs.\n\nWorth knowing before you decide: Front light for low-light sessions. On the other side, Verify current handwriting conversion accuracy. That's the main tradeoff to weigh against everything above.",
+    specs: ["E-ink digital notebook device, Type 2","11 inch color paper-like display","Front light included","Pen included"],
+    pros: ["Color paper-like display tuned for reading comfort","Front light for low-light sessions","Pen included","Long e-ink battery life"],
+    cons: ["Premium price similar to reMarkable Paper Pro","Best suited to buyers who also want an e-reader","Verify current handwriting conversion accuracy"],
     bestFor: "Buyers who spend long sessions reading and writing and want minimal eye strain.",
   },
   {
@@ -149,11 +142,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41E5eVmzxxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5Y7DLXQ?tag=deskfinds0d-20",
-    description:
-      "This Android-based e-paper tablet offers the same core glare-free, low-eye-strain e-ink display as the pricier names in this guide, with a stylus and case included. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nCloud sync and screen casting are stated features, useful for pulling notes off the device without a subscription-gated ecosystem. As a less established brand than reMarkable or BOOX, it's worth checking current reviews for build quality and software reliability.",
-    specs: ["E-ink digital notebook device, Type 2", "Paper-white e-paper display", "Stylus and case included", "Cloud sync and screen casting"],
-    pros: ["Stylus and case included", "Cloud sync and screen casting stated on the listing", "Same core e-ink glare-free display benefits", "More accessible price than premium brand-name devices"],
-    cons: ["Less established brand, verify current reviews", "Verify current price on the listing", "Software polish may lag behind reMarkable or BOOX"],
+    description: "This Android-based e-paper tablet offers the same core glare-free, low-eye-strain e-ink display as the pricier names in this guide, with a stylus and case included. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nOne spot below Amazon Kindle Scribe Colorsoft 64GB in this ranking, it's priced lower than Amazon Kindle Scribe Colorsoft 64GB. The compromise here is straightforward: Less established brand, verify current reviews. What you gain in return: Stylus and case included. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Cloud sync and screen casting stated on the listing. On the other side, Software polish may lag behind reMarkable or BOOX. That's the main tradeoff to weigh against everything above.",
+    specs: ["E-ink digital notebook device, Type 2","Paper-white e-paper display","Stylus and case included","Cloud sync and screen casting"],
+    pros: ["Stylus and case included","Cloud sync and screen casting stated on the listing","Same core e-ink glare-free display benefits","More accessible price than premium brand-name devices"],
+    cons: ["Less established brand, verify current reviews","Verify current price on the listing","Software polish may lag behind reMarkable or BOOX"],
     bestFor: "Buyers wanting e-ink's core display benefits at a more accessible price.",
   }
 ];
@@ -169,35 +161,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Why E-Ink's Battery Life Is a Real Advantage, Not Just a Spec",
-    note: "E-ink displays only draw power when the screen content actually changes, unlike an LCD tablet that continuously refreshes and backlights the screen. This is why e-ink devices genuinely last weeks per charge instead of the single day typical of a backlit tablet, a real practical difference for anyone tired of daily charging.",
-  },
-  {
-    subheading: "Glare-Free Reading vs a Backlit LCD Screen",
-    note: "E-ink panels reflect ambient light like paper rather than emitting their own, which is why they stay readable in direct sunlight where an LCD screen washes out, and why many people report less eye strain during long writing or reading sessions on e-ink.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Longest realistic battery life", "reMarkable 2 with Marker Plus"],
-        ["Best color e-ink with glare-free reading", "reMarkable Paper Pro with Marker Plus and Basalt Book Folio"],
-        ["Glare-free reading plus Android apps", "BOOX Note Air 10.3"],
-        ["Color e-ink with Android app support", "BOOX Note Air 5 C"],
-        ["Long reading sessions plus note-taking", "Kindle Scribe Colorsoft"],
-        ["Lower-cost entry into e-ink's display benefits", "Android E-Ink ePaper Tablet, Paperwhite eBook Reader"]
+    "subheading": "By Use Case",
+    "table": {
+      "headers": [
+        "What you need it for",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Everyday note-taking and reading",
+          "reMarkable 2 with Marker Plus"
+        ],
+        [
+          "AI-assisted or document-heavy work",
+          "reMarkable Paper Pro with Marker Plus and Basalt Book Folio"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $449",
+          "reMarkable 2 with Marker Plus"
+        ],
+        [
+          "Mid-range",
+          "reMarkable Paper Pro with Marker Plus"
+        ],
+        [
+          "No firm budget ceiling, prioritizing storage or ecosystem",
+          "reMarkable Paper Pro with Marker Plus and Basalt Book Folio"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "AI Features Included vs Subscription-Gated",
+    "cards": [
+      {
+        "label": "Included, No Subscription",
+        "text": "AI note tools come with the purchase price, no ongoing cost. In this comparison: check each listing's terms directly."
+      },
+      {
+        "label": "Subscription-Gated",
+        "text": "Advanced AI features require an ongoing paid plan on top of the hardware price. In this comparison: reMarkable 2 with Marker Plus, reMarkable Paper Pro with Marker Plus and Basalt Book Folio, reMarkable Paper Pro with Marker Plus."
+      }
+    ],
+    "note": "Check each specific listing for current subscription terms, since these change over time."
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "BOOX Note Air 10.3 E Ink Tablet"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "BOOX Note Air 10.3 E Ink Tablet"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Handwriting-to-Text Conversion Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation of handwriting-to-text conversion (not just \"AI\" generally), and whether that specific feature is included or requires a subscription."
+      },
+      {
+        "label": "In this comparison",
+        "text": "BOOX Note Air 10.3 E Ink Tablet fits this specifically: Glare-free e-ink display readable in bright light."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what reMarkable Paper Pro with Marker Plus and Basalt Book Folio offers: Color e-paper display, still glare-free in bright light. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "reMarkable 2 with Marker Plus already covers the essentials: Long battery life, a direct benefit of e-ink's power model. The main thing you'd be paying extra for elsewhere in this list is features or storage you may not need."
+      }
+    ]
   }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm the display is genuine e-ink or e-paper", explanation: "Some \"digital notebook\" listings use an LCD panel loosely marketed as digital paper, verify e-ink or ePaper is explicitly stated." },
-  { criterion: "Understand why e-ink battery life is genuinely different", explanation: "E-ink only draws power when the screen changes, giving weeks of battery life versus a day on a typical backlit tablet, not just a marginally better spec." },
-  { criterion: "Weigh color against contrast and price", explanation: "Color e-ink panels add a real feature but trade some contrast versus black-and-white and cost meaningfully more." },
-  { criterion: "Consider a front light for low-light use", explanation: "A front light extends e-ink's glare-free reading into dim rooms without switching to a power-hungry backlit LCD panel." },
-  { criterion: "Factor in subscription costs for premium models", explanation: "Some premium e-ink devices have historically required a subscription for full cloud features, verify current requirements." },
+  {
+    "criterion": "Check whether AI or handwriting-conversion features are included or require a subscription",
+    "explanation": "Digital notebook brands take genuinely different approaches to their software features: some bundle handwriting-to-text conversion, document summarization, and cloud sync into the purchase price, while others, most notably reMarkable's Connect plan, gate the more advanced versions of these same features behind an ongoing monthly subscription that continues costing money long after the initial purchase.\n\nThis is a real total-cost-of-ownership difference that a one-time hardware price comparison completely misses, since a cheaper device with a required subscription can cost more over two or three years than a pricier device with everything included upfront.\n\nCheck the specific listing and manufacturer's website for whether the features you actually want are included in the base purchase or require an ongoing plan, and factor that recurring cost into your real comparison."
+  },
+  {
+    "criterion": "Understand that \"AI\" and \"handwriting conversion\" mean different things across different devices",
+    "explanation": "The marketing term \"AI\" gets applied to several genuinely different features across this product category: converting your handwriting into typed text, summarizing a long document or your own notes, organizing notes automatically by topic, or simply offering a chatbot-style writing assistant, and a device marketed heavily around \"AI\" doesn't necessarily include all, or even most, of these specific capabilities.\n\nThis matters because two devices can both claim AI features while actually doing completely different things, so a buyer specifically wanting handwriting-to-text conversion could end up with a device whose \"AI\" feature is actually a summarization tool that doesn't address their actual need at all.\n\nRead the specific feature list rather than the marketing headline, and confirm the device does the exact task you need (handwriting conversion specifically, not just \"AI\" generally) before buying."
+  },
+  {
+    "criterion": "Confirm the stylus situation: included, sold separately, or requiring a specific model",
+    "explanation": "Some digital notebooks include a compatible stylus in the box as part of the purchase price, while others sell the device and stylus as separate purchases, or require a specific proprietary stylus model that isn't interchangeable with a generic capacitive pen, and this distinction can add a meaningful hidden cost on top of the listed device price if you assumed a stylus was included.\n\nBeyond just the cost, stylus quality itself varies in pressure sensitivity, tilt detection, and palm rejection quality, features that matter significantly more for sketching and detailed note-taking than for simple text entry.\n\nCheck the listing specifically for whether a stylus ships in the box, and if writing feel matters to you, look for mentions of pressure levels and palm rejection quality rather than assuming any included stylus performs the same as another."
+  },
+  {
+    "criterion": "Check the export and sync ecosystem, since notes trapped on one device have limited long-term value",
+    "explanation": "A digital notebook's real usefulness depends heavily on getting your notes and documents off the device and into a format you can actually use elsewhere, whether that's cloud sync to a phone or computer, export to PDF or Word, or direct integration with a note-taking platform like OneNote or Google Drive, and devices differ meaningfully in which of these paths they actually support natively versus not at all.\n\nThis matters concretely for anyone using the device for professional or academic work where notes need to end up in a shared document, an email, or a specific software ecosystem, since a device with limited export options can leave your handwritten notes effectively stranded on the device itself.\n\nCheck the manufacturer's stated export formats and sync options against the specific software or workflow you actually need to feed notes into, rather than assuming any device syncs to everything."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, especially for newer AI-branded entrants",
+    "explanation": "Established digital notebook brands with years on the market carry review counts in the thousands, giving genuine statistical confidence in their ratings, while newer devices, especially ones marketing themselves heavily around AI features to ride current interest in the category, sometimes carry only a few dozen or a few hundred reviews, which is a meaningfully thinner sample to judge long-term reliability and whether the marketed features actually work as claimed.\n\nThis doesn't mean a newer, less-reviewed device is automatically worse, but it does mean the claims on its listing carry less independently verified weight than a device with years of real-world feedback behind it.\n\nWhen comparing an established brand against a newer AI-branded entrant, check both the star rating and the review count together, and weigh a smaller but heavily AI-marketed device's claims more skeptically until more real-world feedback accumulates."
+  }
 ];
 
 export const faq: FaqItem[] = [

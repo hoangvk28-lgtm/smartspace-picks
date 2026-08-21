@@ -6,7 +6,7 @@ export const metaDescription =
 export const mainKeyword = "digital notebook paper";
 export const introParagraphs = [
   "This search mixes two genuinely different product types: Rocketbook notebooks that use real physical paper captured via an app, and E Ink tablets like the reMarkable that only visually and texturally resemble paper but have no actual paper page.",
-  "We're covering both categories directly rather than picking one, since the search term itself is ambiguous — check which one actually matches what you're picturing before choosing a pick.",
+  "We're covering both categories directly rather than picking one, since the search term itself is ambiguous, check which one actually matches what you're picturing before choosing a pick.",
 ];
 export const lastUpdated = "2026-08-08";
 export const readTime = "8 min";
@@ -30,10 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "1,354",
     imageUrl: "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HDL3XJR?tag=deskfinds0d-20",
-    description: "No real paper here — a textured E Ink screen and friction-tip stylus simulate the paper feel. Largest, highest-rated review base of any device in this comparison.",
-    specs: ["Textured E Ink display, no real paper", "Marker Plus stylus included", "1,354 reviews at 4.4 stars"],
-    pros: ["Most proven paper-feel E Ink device here", "No paper to buy, scan, or run out of"],
-    cons: ["Not actual paper — verify this matches what you're looking for"],
+    description: "No real paper here, a textured E Ink screen and friction-tip stylus simulate the paper feel. Largest, highest-rated review base of any device in this comparison.\n\nIt earns the top spot in this comparison over Rocketbook Fusion Reusable Undated Productivity Planner for one main reason. Most proven paper-feel E Ink device here. On price, it's actually priced above Rocketbook Fusion Reusable Undated Productivity Planner, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: No paper to buy, scan, or run out of. On the other side, Not actual paper, verify this matches what you're looking for. That's the main tradeoff to weigh against everything above.",
+    specs: ["Textured E Ink display, no real paper","Marker Plus stylus included","1,354 reviews at 4.4 stars"],
+    pros: ["Most proven paper-feel E Ink device here","No paper to buy, scan, or run out of"],
+    cons: ["Not actual paper, verify this matches what you're looking for"],
     bestFor: "Buyers who want the paper-like feel without real paper.",
   },
   {
@@ -46,9 +46,9 @@ export const products: GuideProduct[] = [
     reviews: "26,593",
     imageUrl: "https://m.media-amazon.com/images/I/41DUQEUXetL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHZ82DK?tag=deskfinds0d-20",
-    description: "Actual physical paper pages, scanned via app and erased with a damp cloth — the highest-rated, most-reviewed real-paper option in this entire comparison.",
-    specs: ["Real paper pages", "Scan-to-app capture, reusable", "26,593 reviews at 4.6 stars"],
-    pros: ["Genuinely real paper, unlike the E Ink options", "Most proven product across this whole comparison"],
+    description: "Actual physical paper pages, scanned via app and erased with a damp cloth, the highest-rated, most-reviewed real-paper option in this entire comparison.\n\nOne spot below reMarkable 2 with Marker Plus in this ranking, it's priced lower than reMarkable 2 with Marker Plus. The compromise here is straightforward: Requires scanning each page before erasing, no live digital sync. What you gain in return: Genuinely real paper, unlike the E Ink options. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Most proven product across this whole comparison. On the other side, Requires scanning each page before erasing, no live digital sync. That's the main tradeoff to weigh against everything above.",
+    specs: ["Real paper pages","Scan-to-app capture, reusable","26,593 reviews at 4.6 stars"],
+    pros: ["Genuinely real paper, unlike the E Ink options","Most proven product across this whole comparison"],
     cons: ["Requires scanning each page before erasing, no live digital sync"],
     bestFor: "Buyers who specifically want real paper with digital capture, not a screen.",
   },
@@ -62,8 +62,8 @@ export const products: GuideProduct[] = [
     reviews: "18",
     imageUrl: "https://m.media-amazon.com/images/I/31KAykcDD+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVKBLJK2?tag=deskfinds0d-20",
-    description: "Same paper-feel E Ink technology as the reMarkable 2 without real paper, in a distraction-free device, with a smaller review base as a newer entry.",
-    specs: ["Textured E Ink display, no real paper", "Marker stylus included", "18 reviews at 4.1 stars"],
+    description: "Same paper-feel E Ink technology as the reMarkable 2 without real paper, in a distraction-free device, with a smaller review base as a newer entry.\n\nSitting just under Rocketbook Fusion Reusable Undated Productivity Planner, it costs more than Rocketbook Fusion Reusable Undated Productivity Planner. Here's the honest tradeoff: Much smaller review base than the reMarkable 2. And here's what it gets you instead: Distraction-free device, no app-store clutter. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Distraction-free device, no app-store clutter. On the other side, Much smaller review base than the reMarkable 2. That's the main tradeoff to weigh against everything above.",
+    specs: ["Textured E Ink display, no real paper","Marker stylus included","18 reviews at 4.1 stars"],
     pros: ["Distraction-free device, no app-store clutter"],
     cons: ["Much smaller review base than the reMarkable 2"],
     bestFor: "Buyers who want the newest paper-feel device without app distractions.",
@@ -78,10 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "100",
     imageUrl: "https://m.media-amazon.com/images/I/41RhAqe3azL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DP3JMP14?tag=deskfinds0d-20",
-    description: "Real paper, plain dot-grid pages, at a fraction of the cost of the E Ink tablets in this comparison.",
-    specs: ["Real paper pages", "Plain dot-grid layout", "8.5 x 11 in"],
+    description: "Real paper, plain dot-grid pages, at a fraction of the cost of the E Ink tablets in this comparison.\n\nRanked just behind reMarkable Paper Pure with Marker, it's priced lower than reMarkable Paper Pure with Marker. The real tradeoff against that pick: No pre-built planning templates. In exchange, it offers this instead: Real paper at a much lower price than the E Ink options. That's the swap that decides whether this pick or the one above it is the better fit for your note-taking needs.\n\nWorth knowing before you decide: Real paper at a much lower price than the E Ink options. On the other side, Smaller review count than the Fusion line. That's the main tradeoff to weigh against everything above.",
+    specs: ["Real paper pages","Plain dot-grid layout","8.5 x 11 in"],
     pros: ["Real paper at a much lower price than the E Ink options"],
-    cons: ["No pre-built planning templates", "Smaller review count than the Fusion line"],
+    cons: ["No pre-built planning templates","Smaller review count than the Fusion line"],
     bestFor: "Budget-focused buyers who want real paper with digital capture.",
   },
   {
@@ -94,12 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "540",
     imageUrl: "https://m.media-amazon.com/images/I/41yKUd9lhbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGBDR2PM?tag=deskfinds0d-20",
-    description: "The flagship of the paper-feel E Ink lineup, with color display and bundled accessories, at nearly double the price of the base reMarkable 2.",
-    specs: ["Color E Ink display, no real paper", "Marker Plus stylus and Basalt Book Folio included", "540 reviews at 4.2 stars"],
+    description: "The flagship of the paper-feel E Ink lineup, with color display and bundled accessories, at nearly double the price of the base reMarkable 2.\n\nOne spot below Rocketbook Core Reusable Smart Notebook in this ranking, it costs more than Rocketbook Core Reusable Smart Notebook. The compromise here is straightforward: Significantly more expensive than the base reMarkable 2 for a color upgrade. What you gain in return: Bundles a folio and upgraded pen that are sold separately for other models. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Bundles a folio and upgraded pen that are sold separately for other models. On the other side, Significantly more expensive than the base reMarkable 2 for a color upgrade. That's the main tradeoff to weigh against everything above.",
+    specs: ["Color E Ink display, no real paper","Marker Plus stylus and Basalt Book Folio included","540 reviews at 4.2 stars"],
     pros: ["Bundles a folio and upgraded pen that are sold separately for other models"],
     cons: ["Significantly more expensive than the base reMarkable 2 for a color upgrade"],
     bestFor: "Buyers who want the top-tier paper-feel E Ink experience and don't mind the premium.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -113,28 +113,137 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Real Paper or Paper-Feel Screen?",
-    cards: [
-      { label: "Real paper (Rocketbook)", text: "Actual physical pages, scanned via app, erased with a damp cloth. Much cheaper." },
-      { label: "Paper-feel E Ink (reMarkable)", text: "No real paper — a textured screen and friction-tip stylus simulate the feel. More expensive, but digital-native." },
-    ],
+    "subheading": "By Use Case",
+    "table": {
+      "headers": [
+        "What you need it for",
+        "Recommended pick in this comparison"
+      ],
+      "rows": [
+        [
+          "Everyday note-taking and reading",
+          "Rocketbook Core Reusable Smart Notebook"
+        ],
+        [
+          "AI-assisted or document-heavy work",
+          "reMarkable Paper Pro with Marker Plus and Basalt Book Folio"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $27",
+          "Rocketbook Core Reusable Smart Notebook"
+        ],
+        [
+          "Mid-range",
+          "reMarkable Paper Pure with Marker"
+        ],
+        [
+          "No firm budget ceiling, prioritizing storage or ecosystem",
+          "reMarkable Paper Pro with Marker Plus and Basalt Book Folio"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "AI Features Included vs Subscription-Gated",
+    "cards": [
+      {
+        "label": "Included, No Subscription",
+        "text": "AI note tools come with the purchase price, no ongoing cost. In this comparison: check each listing's terms directly."
+      },
+      {
+        "label": "Subscription-Gated",
+        "text": "Advanced AI features require an ongoing paid plan on top of the hardware price. In this comparison: none explicitly confirmed in this specific roundup, check the listing before assuming."
+      }
+    ],
+    "note": "Check each specific listing for current subscription terms, since these change over time."
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "Rocketbook Fusion Reusable Undated Productivity Planner"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "Rocketbook Fusion Reusable Undated Productivity Planner"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Handwriting-to-Text Conversion Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation of handwriting-to-text conversion (not just \"AI\" generally), and whether that specific feature is included or requires a subscription."
+      },
+      {
+        "label": "In this comparison",
+        "text": "reMarkable 2 with Marker Plus fits this specifically: Most proven paper-feel E Ink device here."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what reMarkable Paper Pro with Marker Plus and Basalt Book Folio offers: Bundles a folio and upgraded pen that are sold separately for other models. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Rocketbook Core Reusable Smart Notebook already covers the essentials: Real paper at a much lower price than the E Ink options. The main thing you'd be paying extra for elsewhere in this list is features or storage you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Decide which category you actually want", explanation: "\"Paper\" here can mean real physical pages (Rocketbook) or a screen designed to feel like paper (reMarkable). These are genuinely different products." },
-  { criterion: "Weigh price against category", explanation: "Real-paper options are dramatically cheaper than paper-feel E Ink tablets — factor that in if budget matters." },
-  { criterion: "Check review volume within your chosen category", explanation: "Don't compare a real-paper product's reviews directly against an E Ink device's — they solve different problems for different buyers." },
-  { criterion: "Understand the capture workflow difference", explanation: "Real paper requires scanning each page before erasing; E Ink devices store notes digitally without a separate scan step." },
-  { criterion: "Confirm you have the right accessories", explanation: "Real paper Rocketbooks need Pilot FriXion pens; E Ink devices come with their own dedicated stylus." },
+  {
+    "criterion": "Check whether AI or handwriting-conversion features are included or require a subscription",
+    "explanation": "Digital notebook brands take genuinely different approaches to their software features: some bundle handwriting-to-text conversion, document summarization, and cloud sync into the purchase price, while others, most notably reMarkable's Connect plan, gate the more advanced versions of these same features behind an ongoing monthly subscription that continues costing money long after the initial purchase.\n\nThis is a real total-cost-of-ownership difference that a one-time hardware price comparison completely misses, since a cheaper device with a required subscription can cost more over two or three years than a pricier device with everything included upfront.\n\nCheck the specific listing and manufacturer's website for whether the features you actually want are included in the base purchase or require an ongoing plan, and factor that recurring cost into your real comparison."
+  },
+  {
+    "criterion": "Understand that \"AI\" and \"handwriting conversion\" mean different things across different devices",
+    "explanation": "The marketing term \"AI\" gets applied to several genuinely different features across this product category: converting your handwriting into typed text, summarizing a long document or your own notes, organizing notes automatically by topic, or simply offering a chatbot-style writing assistant, and a device marketed heavily around \"AI\" doesn't necessarily include all, or even most, of these specific capabilities.\n\nThis matters because two devices can both claim AI features while actually doing completely different things, so a buyer specifically wanting handwriting-to-text conversion could end up with a device whose \"AI\" feature is actually a summarization tool that doesn't address their actual need at all.\n\nRead the specific feature list rather than the marketing headline, and confirm the device does the exact task you need (handwriting conversion specifically, not just \"AI\" generally) before buying."
+  },
+  {
+    "criterion": "Confirm the stylus situation: included, sold separately, or requiring a specific model",
+    "explanation": "Some digital notebooks include a compatible stylus in the box as part of the purchase price, while others sell the device and stylus as separate purchases, or require a specific proprietary stylus model that isn't interchangeable with a generic capacitive pen, and this distinction can add a meaningful hidden cost on top of the listed device price if you assumed a stylus was included.\n\nBeyond just the cost, stylus quality itself varies in pressure sensitivity, tilt detection, and palm rejection quality, features that matter significantly more for sketching and detailed note-taking than for simple text entry.\n\nCheck the listing specifically for whether a stylus ships in the box, and if writing feel matters to you, look for mentions of pressure levels and palm rejection quality rather than assuming any included stylus performs the same as another."
+  },
+  {
+    "criterion": "Check the export and sync ecosystem, since notes trapped on one device have limited long-term value",
+    "explanation": "A digital notebook's real usefulness depends heavily on getting your notes and documents off the device and into a format you can actually use elsewhere, whether that's cloud sync to a phone or computer, export to PDF or Word, or direct integration with a note-taking platform like OneNote or Google Drive, and devices differ meaningfully in which of these paths they actually support natively versus not at all.\n\nThis matters concretely for anyone using the device for professional or academic work where notes need to end up in a shared document, an email, or a specific software ecosystem, since a device with limited export options can leave your handwritten notes effectively stranded on the device itself.\n\nCheck the manufacturer's stated export formats and sync options against the specific software or workflow you actually need to feed notes into, rather than assuming any device syncs to everything."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, especially for newer AI-branded entrants",
+    "explanation": "Established digital notebook brands with years on the market carry review counts in the thousands, giving genuine statistical confidence in their ratings, while newer devices, especially ones marketing themselves heavily around AI features to ride current interest in the category, sometimes carry only a few dozen or a few hundred reviews, which is a meaningfully thinner sample to judge long-term reliability and whether the marketed features actually work as claimed.\n\nThis doesn't mean a newer, less-reviewed device is automatically worse, but it does mean the claims on its listing carry less independently verified weight than a device with years of real-world feedback behind it.\n\nWhen comparing an established brand against a newer AI-branded entrant, check both the star rating and the review count together, and weigh a smaller but heavily AI-marketed device's claims more skeptically until more real-world feedback accumulates."
+  }
 ];
 
 export const faq: FaqItem[] = [
-  { q: "Is this about real paper or a screen that feels like paper?", a: "Both — the search term is ambiguous, so we covered real-paper Rocketbook notebooks and paper-feel E Ink tablets like the reMarkable separately." },
+  { q: "Is this about real paper or a screen that feels like paper?", a: "Both, the search term is ambiguous, so we covered real-paper Rocketbook notebooks and paper-feel E Ink tablets like the reMarkable separately." },
   { q: "Which is cheaper, real paper or E Ink?", a: "Real paper, significantly. The Rocketbook Core starts at $26.99 versus $399+ for the E Ink options." },
   { q: "Which is the most proven real-paper option?", a: "The Rocketbook Fusion, with 26,593 reviews at 4.6 stars." },
   { q: "Which is the most proven E Ink option?", a: "The reMarkable 2, with 1,354 reviews at 4.4 stars." },
-  { q: "Do I need a special pen for either category?", a: "Yes — real paper Rocketbooks require Pilot FriXion pens; E Ink devices use their own dedicated stylus." },
+  { q: "Do I need a special pen for either category?", a: "Yes, real paper Rocketbooks require Pilot FriXion pens; E Ink devices use their own dedicated stylus." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

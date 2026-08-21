@@ -30,9 +30,9 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/31TxeKtPWwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FC1VJJFP?tag=deskfinds0d-20",
-    description: "64GB of storage for a large PDF library, color display for reviewing marked-up documents, and PDF annotation tools built into Amazon's reading ecosystem.",
-    specs: ["64GB storage", "Color E Ink display", "PDF annotation tools included"],
-    pros: ["Largest storage capacity of any device in this comparison", "Color display for reviewing highlighted documents"],
+    description: "64GB of storage for a large PDF library, color display for reviewing marked-up documents, and PDF annotation tools built into Amazon's reading ecosystem.\n\nIt earns the top spot in this comparison over Amazon Kindle Scribe for one main reason. Largest storage capacity of any device in this comparison. On price, it's actually priced above Amazon Kindle Scribe, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Color display for reviewing highlighted documents. On the other side, Highest price in this comparison. That's the main tradeoff to weigh against everything above.",
+    specs: ["64GB storage","Color E Ink display","PDF annotation tools included"],
+    pros: ["Largest storage capacity of any device in this comparison","Color display for reviewing highlighted documents"],
     cons: ["Highest price in this comparison"],
     bestFor: "Buyers with a large PDF library who want ample storage and color annotation review.",
   },
@@ -46,8 +46,8 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/316t+ALq6FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZ9VFQ2P?tag=deskfinds0d-20",
-    description: "Same PDF annotation toolset as the Colorsoft without color or the larger storage tier, at a significantly lower price for buyers with a smaller document library.",
-    specs: ["16GB storage", "PDF annotation tools included", "Monochrome E Ink display"],
+    description: "Same PDF annotation toolset as the Colorsoft without color or the larger storage tier, at a significantly lower price for buyers with a smaller document library.\n\nOne spot below Amazon Kindle Scribe Colorsoft 64GB in this ranking, it's priced lower than Amazon Kindle Scribe Colorsoft 64GB. The compromise here is straightforward: 16GB fills up faster than the Colorsoft's 64GB with a large PDF library. What you gain in return: Lower price than the Colorsoft for the same annotation tools. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Lower price than the Colorsoft for the same annotation tools. On the other side, 16GB fills up faster than the Colorsoft's 64GB with a large PDF library. That's the main tradeoff to weigh against everything above.",
+    specs: ["16GB storage","PDF annotation tools included","Monochrome E Ink display"],
     pros: ["Lower price than the Colorsoft for the same annotation tools"],
     cons: ["16GB fills up faster than the Colorsoft's 64GB with a large PDF library"],
     bestFor: "Buyers with a moderate PDF library who don't need color or maximum storage.",
@@ -62,8 +62,8 @@ export const products: GuideProduct[] = [
     reviews: "1,354",
     imageUrl: "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HDL3XJR?tag=deskfinds0d-20",
-    description: "The largest, highest-rated review base of any device here, with strong PDF annotation tools, though cloud-based document organization requires the paid Connect subscription.",
-    specs: ["Marker Plus stylus included", "PDF annotation tools", "1,354 reviews at 4.4 stars"],
+    description: "The largest, highest-rated review base of any device here, with strong PDF annotation tools, though cloud-based document organization requires the paid Connect subscription.\n\nSitting just under Amazon Kindle Scribe, it costs more than Amazon Kindle Scribe. Here's the honest tradeoff: Full cloud document organization requires reMarkable Connect subscription. And here's what it gets you instead: Largest, most proven review base in this comparison. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Largest, most proven review base in this comparison. On the other side, Full cloud document organization requires reMarkable Connect subscription. That's the main tradeoff to weigh against everything above.",
+    specs: ["Marker Plus stylus included","PDF annotation tools","1,354 reviews at 4.4 stars"],
     pros: ["Largest, most proven review base in this comparison"],
     cons: ["Full cloud document organization requires reMarkable Connect subscription"],
     bestFor: "Buyers who want the most field-tested PDF annotation experience.",
@@ -78,9 +78,9 @@ export const products: GuideProduct[] = [
     reviews: "329",
     imageUrl: "https://m.media-amazon.com/images/I/41StVO0JWOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DX234NWP?tag=deskfinds0d-20",
-    description: "The cheapest option here with full-color PDF viewing and annotation via its 10.95 inch display, though verify current PDF app support before buying if that's your primary use case.",
-    specs: ["10.95 inch color display", "PDF viewing and annotation", "329 reviews at 4.3 stars"],
-    pros: ["Lowest price in this comparison", "Full color for reviewing marked-up documents"],
+    description: "The cheapest option here with full-color PDF viewing and annotation via its 10.95 inch display, though verify current PDF app support before buying if that's your primary use case.\n\nRanked just behind reMarkable 2 with Marker Plus, it's priced lower than reMarkable 2 with Marker Plus. The real tradeoff against that pick: Smaller review base specifically for PDF workflows than Kindle Scribe or reMarkable. In exchange, it offers this instead: Lowest price in this comparison. That's the swap that decides whether this pick or the one above it is the better fit for your note-taking needs.\n\nWorth knowing before you decide: Full color for reviewing marked-up documents. On the other side, Smaller review base specifically for PDF workflows than Kindle Scribe or reMarkable. That's the main tradeoff to weigh against everything above.",
+    specs: ["10.95 inch color display","PDF viewing and annotation","329 reviews at 4.3 stars"],
+    pros: ["Lowest price in this comparison","Full color for reviewing marked-up documents"],
     cons: ["Smaller review base specifically for PDF workflows than Kindle Scribe or reMarkable"],
     bestFor: "Budget-focused buyers who want color PDF annotation at the lowest cost.",
   },
@@ -94,12 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "310",
     imageUrl: "https://m.media-amazon.com/images/I/41BunSeRP3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR4KXMKF?tag=deskfinds0d-20",
-    description: "Running Android means you can install dedicated third-party PDF readers with advanced organization tools beyond the built-in options on closed ecosystems.",
-    specs: ["Color E Ink display", "Runs Android for third-party PDF apps", "310 reviews at 4.3 stars"],
-    pros: ["Access to dedicated third-party PDF apps via Android", "Color E Ink for annotation review"],
+    description: "Running Android means you can install dedicated third-party PDF readers with advanced organization tools beyond the built-in options on closed ecosystems.\n\nOne spot below XPPen 3 in 1 Color Digital Notebook 10.95\" in this ranking, it costs more than XPPen 3 in 1 Color Digital Notebook 10.95\". The compromise here is straightforward: More expensive than the base Kindle Scribe or XPPen options. What you gain in return: Access to dedicated third-party PDF apps via Android. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Color E Ink for annotation review. On the other side, More expensive than the base Kindle Scribe or XPPen options. That's the main tradeoff to weigh against everything above.",
+    specs: ["Color E Ink display","Runs Android for third-party PDF apps","310 reviews at 4.3 stars"],
+    pros: ["Access to dedicated third-party PDF apps via Android","Color E Ink for annotation review"],
     cons: ["More expensive than the base Kindle Scribe or XPPen options"],
     bestFor: "Buyers who want the flexibility of choosing their own PDF app rather than a built-in tool.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -113,26 +113,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Priority",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Large document library, color review", "Kindle Scribe Colorsoft 64GB"],
-        ["Moderate library, lower cost", "Kindle Scribe 16GB"],
-        ["Most proven annotation tools", "reMarkable 2 with Marker Plus"],
-        ["Lowest cost, color display", "XPPen 3 in 1 Color Digital Notebook"],
-        ["Want to choose your own PDF app", "BOOX Note Air 5 C"],
+    "subheading": "By Use Case",
+    "table": {
+      "headers": [
+        "What you need it for",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Everyday note-taking and reading",
+          "XPPen 3 in 1 Color Digital Notebook 10.95\""
+        ],
+        [
+          "AI-assisted or document-heavy work",
+          "Amazon Kindle Scribe Colorsoft 64GB"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $300",
+          "XPPen 3 in 1 Color Digital Notebook 10.95\""
+        ],
+        [
+          "Mid-range",
+          "reMarkable 2 with Marker Plus"
+        ],
+        [
+          "No firm budget ceiling, prioritizing storage or ecosystem",
+          "Amazon Kindle Scribe Colorsoft 64GB"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "AI Features Included vs Subscription-Gated",
+    "cards": [
+      {
+        "label": "Included, No Subscription",
+        "text": "AI note tools come with the purchase price, no ongoing cost. In this comparison: check each listing's terms directly."
+      },
+      {
+        "label": "Subscription-Gated",
+        "text": "Advanced AI features require an ongoing paid plan on top of the hardware price. In this comparison: reMarkable 2 with Marker Plus."
+      }
+    ],
+    "note": "Check each specific listing for current subscription terms, since these change over time."
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "reMarkable 2 with Marker Plus"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "reMarkable 2 with Marker Plus"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Handwriting-to-Text Conversion Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation of handwriting-to-text conversion (not just \"AI\" generally), and whether that specific feature is included or requires a subscription."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Amazon Kindle Scribe Colorsoft 64GB fits this specifically: Largest storage capacity of any device in this comparison."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Amazon Kindle Scribe Colorsoft 64GB offers: Largest storage capacity of any device in this comparison. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "XPPen 3 in 1 Color Digital Notebook 10.95\" already covers the essentials: Lowest price in this comparison. The main thing you'd be paying extra for elsewhere in this list is features or storage you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Match storage to your actual document library size", explanation: "PDFs consume storage much faster than handwritten notes. 16GB may be tight for a large library; 64GB gives real headroom." },
-  { criterion: "Confirm real annotation tools, not just PDF viewing", explanation: "Verify the device can actually mark up a PDF, not merely display it as a static file." },
-  { criterion: "Weigh color against price", explanation: "Color helps for reviewing highlighted documents but adds real cost — the Kindle Scribe Colorsoft costs significantly more than the base model." },
-  { criterion: "Consider Android for third-party PDF app flexibility", explanation: "The BOOX Note Air 5 C lets you install a dedicated PDF reader of your choice rather than relying on built-in tools alone." },
-  { criterion: "Check cloud organization subscription requirements", explanation: "reMarkable's advanced cloud document organization requires the paid Connect subscription." },
+  {
+    "criterion": "Check whether AI or handwriting-conversion features are included or require a subscription",
+    "explanation": "Digital notebook brands take genuinely different approaches to their software features: some bundle handwriting-to-text conversion, document summarization, and cloud sync into the purchase price, while others, most notably reMarkable's Connect plan, gate the more advanced versions of these same features behind an ongoing monthly subscription that continues costing money long after the initial purchase.\n\nThis is a real total-cost-of-ownership difference that a one-time hardware price comparison completely misses, since a cheaper device with a required subscription can cost more over two or three years than a pricier device with everything included upfront.\n\nCheck the specific listing and manufacturer's website for whether the features you actually want are included in the base purchase or require an ongoing plan, and factor that recurring cost into your real comparison."
+  },
+  {
+    "criterion": "Understand that \"AI\" and \"handwriting conversion\" mean different things across different devices",
+    "explanation": "The marketing term \"AI\" gets applied to several genuinely different features across this product category: converting your handwriting into typed text, summarizing a long document or your own notes, organizing notes automatically by topic, or simply offering a chatbot-style writing assistant, and a device marketed heavily around \"AI\" doesn't necessarily include all, or even most, of these specific capabilities.\n\nThis matters because two devices can both claim AI features while actually doing completely different things, so a buyer specifically wanting handwriting-to-text conversion could end up with a device whose \"AI\" feature is actually a summarization tool that doesn't address their actual need at all.\n\nRead the specific feature list rather than the marketing headline, and confirm the device does the exact task you need (handwriting conversion specifically, not just \"AI\" generally) before buying."
+  },
+  {
+    "criterion": "Confirm the stylus situation: included, sold separately, or requiring a specific model",
+    "explanation": "Some digital notebooks include a compatible stylus in the box as part of the purchase price, while others sell the device and stylus as separate purchases, or require a specific proprietary stylus model that isn't interchangeable with a generic capacitive pen, and this distinction can add a meaningful hidden cost on top of the listed device price if you assumed a stylus was included.\n\nBeyond just the cost, stylus quality itself varies in pressure sensitivity, tilt detection, and palm rejection quality, features that matter significantly more for sketching and detailed note-taking than for simple text entry.\n\nCheck the listing specifically for whether a stylus ships in the box, and if writing feel matters to you, look for mentions of pressure levels and palm rejection quality rather than assuming any included stylus performs the same as another."
+  },
+  {
+    "criterion": "Check the export and sync ecosystem, since notes trapped on one device have limited long-term value",
+    "explanation": "A digital notebook's real usefulness depends heavily on getting your notes and documents off the device and into a format you can actually use elsewhere, whether that's cloud sync to a phone or computer, export to PDF or Word, or direct integration with a note-taking platform like OneNote or Google Drive, and devices differ meaningfully in which of these paths they actually support natively versus not at all.\n\nThis matters concretely for anyone using the device for professional or academic work where notes need to end up in a shared document, an email, or a specific software ecosystem, since a device with limited export options can leave your handwritten notes effectively stranded on the device itself.\n\nCheck the manufacturer's stated export formats and sync options against the specific software or workflow you actually need to feed notes into, rather than assuming any device syncs to everything."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, especially for newer AI-branded entrants",
+    "explanation": "Established digital notebook brands with years on the market carry review counts in the thousands, giving genuine statistical confidence in their ratings, while newer devices, especially ones marketing themselves heavily around AI features to ride current interest in the category, sometimes carry only a few dozen or a few hundred reviews, which is a meaningfully thinner sample to judge long-term reliability and whether the marketed features actually work as claimed.\n\nThis doesn't mean a newer, less-reviewed device is automatically worse, but it does mean the claims on its listing carry less independently verified weight than a device with years of real-world feedback behind it.\n\nWhen comparing an established brand against a newer AI-branded entrant, check both the star rating and the review count together, and weigh a smaller but heavily AI-marketed device's claims more skeptically until more real-world feedback accumulates."
+  }
 ];
 
 export const faq: FaqItem[] = [

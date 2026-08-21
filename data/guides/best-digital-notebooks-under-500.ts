@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31x5OLmX1ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HDL3XJR?tag=deskfinds0d-20",
-    description:
-      "The reMarkable 2 is the one genuine standalone e-ink hardware device that fits under this $500 ceiling, a real step up from paper-based options for buyers ready to invest in a screen-based device. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nIts distraction-free interface and paper-like writing feel are a meaningful difference from any product in the under-$300 tier. This is the most expensive pick in this guide, but still the most accessible entry point into true e-ink hardware.",
-    specs: ["E-ink digital notebook device, Type 2", "Marker Plus included", "Weeks of battery life", "Distraction-free interface"],
-    pros: ["The only genuine standalone e-ink device under $500 in this guide", "Distraction-free, paper-like writing feel", "Long battery life measured in weeks", "Marker Plus included"],
-    cons: ["The most expensive pick in this guide", "Verify current cloud subscription requirements", "Black and white display only"],
+    description: "The reMarkable 2 is the one genuine standalone e-ink hardware device that fits under this $500 ceiling, a real step up from paper-based options for buyers ready to invest in a screen-based device. This is a true e-ink digital notebook device (a standalone tablet with an e-paper screen you write on directly with a stylus, with files stored and synced digitally).\n\nIt earns the top spot in this comparison over Rocketbook Core Reusable Spiral Notebook for one main reason. The only genuine standalone e-ink device under $500 in this guide. On price, it's actually priced above Rocketbook Core Reusable Spiral Notebook, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Distraction-free, paper-like writing feel. On the other side, Black and white display only. That's the main tradeoff to weigh against everything above.",
+    specs: ["E-ink digital notebook device, Type 2","Marker Plus included","Weeks of battery life","Distraction-free interface"],
+    pros: ["The only genuine standalone e-ink device under $500 in this guide","Distraction-free, paper-like writing feel","Long battery life measured in weeks","Marker Plus included"],
+    cons: ["The most expensive pick in this guide","Verify current cloud subscription requirements","Black and white display only"],
     bestFor: "Buyers ready to step up from paper-based notebooks to genuine e-ink hardware within a $500 budget.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41-39oI5gtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B071Y3MSRK?tag=deskfinds0d-20",
-    description:
-      "The Rocketbook Core remains a strong value pick at the low end of this wider price range, well under $500 with established app support. This is a reusable paper notebook (write with a pen, then scan the pages with a phone app to digitize them before wiping the pages clean and reusing the notebook).\n\nIt gives full letter-size writing space with the same wipe-clean, reusable pages as the rest of the Rocketbook lineup. A reliable, well-known choice if you're not ready to invest in the e-ink hardware option in this guide.",
-    specs: ["Reusable paper notebook, Type 1", "Letter size 8.5x11, dotted pages", "Wipe clean and reuse", "App-connected cloud scanning"],
-    pros: ["Comfortably under $500, one of the cheapest picks here", "Well-known, established app support", "Full letter-size writing space", "Wipes clean and reuses"],
-    cons: ["Requires a compatible erasable pen", "Sync happens after scanning, not live", "No on-device digital storage"],
+    description: "The Rocketbook Core remains a strong value pick at the low end of this wider price range, well under $500 with established app support. This is a reusable paper notebook (write with a pen, then scan the pages with a phone app to digitize them before wiping the pages clean and reusing the notebook).\n\nOne spot below reMarkable 2 with Marker Plus in this ranking, it's priced lower than reMarkable 2 with Marker Plus. The compromise here is straightforward: Requires a compatible erasable pen. What you gain in return: Comfortably under $500, one of the cheapest picks here. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Well-known, established app support. On the other side, No on-device digital storage. That's the main tradeoff to weigh against everything above.",
+    specs: ["Reusable paper notebook, Type 1","Letter size 8.5x11, dotted pages","Wipe clean and reuse","App-connected cloud scanning"],
+    pros: ["Comfortably under $500, one of the cheapest picks here","Well-known, established app support","Full letter-size writing space","Wipes clean and reuses"],
+    cons: ["Requires a compatible erasable pen","Sync happens after scanning, not live","No on-device digital storage"],
     bestFor: "Buyers wanting the most established low-cost pick before considering e-ink hardware.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31PNIC3U3AL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B33BQL8X?tag=deskfinds0d-20",
-    description:
-      "This compact Rocketbook Flip stays well under $500 while offering flexible lined and dot grid pages in a portable notepad format. This is a reusable paper notebook (write with a pen, then scan the pages with a phone app to digitize them before wiping the pages clean and reusing the notebook).\n\nIt shares the same reusable, app-connected scanning workflow as the larger Rocketbook Core. A lighter-weight, budget-friendly option if you don't need the reMarkable's screen-based capability.",
-    specs: ["Reusable paper notebook, Type 1", "Flip notepad format, lined and dot grid", "Wipe clean and reuse", "App-connected scanning"],
-    pros: ["Well under $500", "Flexible lined and dot grid page combination", "Compact, portable notepad format", "Wipes clean and reuses"],
-    cons: ["Requires a compatible erasable pen", "Sync happens after scanning, not live", "Smaller writing area than a full notebook"],
+    description: "This compact Rocketbook Flip stays well under $500 while offering flexible lined and dot grid pages in a portable notepad format. This is a reusable paper notebook (write with a pen, then scan the pages with a phone app to digitize them before wiping the pages clean and reusing the notebook).\n\nSitting just under Rocketbook Core Reusable Spiral Notebook, it costs more than Rocketbook Core Reusable Spiral Notebook. Here's the honest tradeoff: Requires a compatible erasable pen. And here's what it gets you instead: Well under $500. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Flexible lined and dot grid page combination. On the other side, Smaller writing area than a full notebook. That's the main tradeoff to weigh against everything above.",
+    specs: ["Reusable paper notebook, Type 1","Flip notepad format, lined and dot grid","Wipe clean and reuse","App-connected scanning"],
+    pros: ["Well under $500","Flexible lined and dot grid page combination","Compact, portable notepad format","Wipes clean and reuses"],
+    cons: ["Requires a compatible erasable pen","Sync happens after scanning, not live","Smaller writing area than a full notebook"],
     bestFor: "Buyers wanting a compact, budget-friendly notepad within this wider price ceiling.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41dnaLOfVqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DP3JPMDC?tag=deskfinds0d-20",
-    description:
-      "This executive-size Rocketbook Flip offers a comfortable middle-ground writing space, well under $500 and reusable across multiple projects. This is a reusable paper notebook (write with a pen, then scan the pages with a phone app to digitize them before wiping the pages clean and reusing the notebook).\n\nIt shares the same core reusable, app-connected scanning workflow as the rest of the lineup. A reasonable pick for buyers wanting more space than a mini notepad without stepping up to e-ink hardware.",
-    specs: ["Reusable paper notebook, Type 1", "Executive size 6x8.8", "Wipe clean and reuse", "App-connected scanning"],
-    pros: ["Well under $500", "More writing space than the Mini format", "Reusable, wipes clean for repeated use", "App-connected scanning"],
-    cons: ["Requires a compatible erasable pen", "Sync happens after scanning, not live", "No on-device digital storage"],
+    description: "This executive-size Rocketbook Flip offers a comfortable middle-ground writing space, well under $500 and reusable across multiple projects. This is a reusable paper notebook (write with a pen, then scan the pages with a phone app to digitize them before wiping the pages clean and reusing the notebook).\n\nRanked just behind Rocketbook Flip Smart Notepad, it's priced lower than Rocketbook Flip Smart Notepad. The real tradeoff against that pick: Requires a compatible erasable pen. In exchange, it offers this instead: Well under $500. That's the swap that decides whether this pick or the one above it is the better fit for your note-taking needs.\n\nWorth knowing before you decide: More writing space than the Mini format. On the other side, No on-device digital storage. That's the main tradeoff to weigh against everything above.",
+    specs: ["Reusable paper notebook, Type 1","Executive size 6x8.8","Wipe clean and reuse","App-connected scanning"],
+    pros: ["Well under $500","More writing space than the Mini format","Reusable, wipes clean for repeated use","App-connected scanning"],
+    cons: ["Requires a compatible erasable pen","Sync happens after scanning, not live","No on-device digital storage"],
     bestFor: "Buyers wanting a mid-size reusable notebook within this wider budget.",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41oSOgieC8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B087QN42VM?tag=deskfinds0d-20",
-    description:
-      "This Rocketbook Flip bundle includes the compatible pen and cleaning cloth, a complete kit well under this price ceiling with no separate pen purchase needed. This is a reusable paper notebook (write with a pen, then scan the pages with a phone app to digitize them before wiping the pages clean and reusing the notebook).\n\nThe dotted and lined combo pages offer flexibility for both structured notes and free-form sketches. A genuinely good value pick since the included pen would otherwise be an added cost.",
-    specs: ["Reusable paper notebook, Type 1", "Pen, cloth, and app included", "Dotted and lined combo pages", "Wipe clean and reuse"],
-    pros: ["Complete kit well under $500", "Pen and cleaning cloth included", "Dotted and lined combo pages", "Wipes clean and reuses"],
-    cons: ["Sync happens after scanning, not live", "Smaller notepad format than a full notebook", "No on-device digital storage"],
+    description: "This Rocketbook Flip bundle includes the compatible pen and cleaning cloth, a complete kit well under this price ceiling with no separate pen purchase needed. This is a reusable paper notebook (write with a pen, then scan the pages with a phone app to digitize them before wiping the pages clean and reusing the notebook).\n\nOne spot below Rocketbook Flip Reusable Smart Notepad in this ranking, it costs more than Rocketbook Flip Reusable Smart Notepad. The compromise here is straightforward: Sync happens after scanning, not live. What you gain in return: Complete kit well under $500. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Pen and cleaning cloth included. On the other side, No on-device digital storage. That's the main tradeoff to weigh against everything above.",
+    specs: ["Reusable paper notebook, Type 1","Pen, cloth, and app included","Dotted and lined combo pages","Wipe clean and reuse"],
+    pros: ["Complete kit well under $500","Pen and cleaning cloth included","Dotted and lined combo pages","Wipes clean and reuses"],
+    cons: ["Sync happens after scanning, not live","Smaller notepad format than a full notebook","No on-device digital storage"],
     bestFor: "Buyers wanting a complete reusable notebook kit without separate pen costs.",
   },
   {
@@ -115,11 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41Rr5sOXeTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07RSH69HC?tag=deskfinds0d-20",
-    description:
-      "The Rocketbook Fusion Hybrid Planner combines structured planner pages with regular notebook pages, well under $500 and useful for tracking agendas alongside free-form notes. This is a reusable paper notebook (write with a pen, then scan the pages with a phone app to digitize them before wiping the pages clean and reusing the notebook).\n\nIt shares the same reusable, wipe-clean paper as other Rocketbook models, digitized by scanning with the app. A genuine value pick for buyers who want a structured layout without stepping up to e-ink hardware.",
-    specs: ["Reusable paper notebook, Type 1", "Hybrid planner and notebook layout", "Wipe clean and reuse", "Executive size 6x8.8"],
-    pros: ["Well under $500", "Structured planner pages for agendas", "Reusable, wipes clean for repeated use", "Compact executive size"],
-    cons: ["Sync happens after scanning, not live", "Requires a compatible erasable pen", "Structured layout less flexible for free-form brainstorming"],
+    description: "The Rocketbook Fusion Hybrid Planner combines structured planner pages with regular notebook pages, well under $500 and useful for tracking agendas alongside free-form notes. This is a reusable paper notebook (write with a pen, then scan the pages with a phone app to digitize them before wiping the pages clean and reusing the notebook).\n\nSitting just under Rocketbook Flip Reusable Smart Notepad, it costs more than Rocketbook Flip Reusable Smart Notepad. Here's the honest tradeoff: Sync happens after scanning, not live. And here's what it gets you instead: Well under $500. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Structured planner pages for agendas. On the other side, Structured layout less flexible for free-form brainstorming. That's the main tradeoff to weigh against everything above.",
+    specs: ["Reusable paper notebook, Type 1","Hybrid planner and notebook layout","Wipe clean and reuse","Executive size 6x8.8"],
+    pros: ["Well under $500","Structured planner pages for agendas","Reusable, wipes clean for repeated use","Compact executive size"],
+    cons: ["Sync happens after scanning, not live","Requires a compatible erasable pen","Structured layout less flexible for free-form brainstorming"],
     bestFor: "Buyers wanting a structured planner-style notebook within this budget.",
   },
   {
@@ -132,11 +126,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41eM5RJPa2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F5P2186C?tag=deskfinds0d-20",
-    description:
-      "SyncPen brings real-time sync and OCR to this price range at a genuinely affordable cost within the smart pen category. This is a smart pen and paper digitizer set (a sensor-equipped pen used with special dot-pattern paper that captures your handwriting in real time and syncs it to an app as you write).\n\nIt's the most feature-rich budget pick relative to price, syncing handwriting live and including audio recording alongside OCR. Verify current OCR accuracy through recent reviews since handwriting-to-text conversion is a software feature that improves over time.",
-    specs: ["Smart pen and paper digitizer set, Type 3", "Real time sync from paper to app", "OCR and audio recording", "Bluetooth pen"],
-    pros: ["Well under $500, one of the more affordable smart pens", "Real-time sync while writing", "OCR and audio recording included", "Bluetooth connectivity"],
-    cons: ["OCR accuracy should be verified through current reviews", "Pen requires periodic charging", "Smaller ecosystem than larger brands"],
+    description: "SyncPen brings real-time sync and OCR to this price range at a genuinely affordable cost within the smart pen category. This is a smart pen and paper digitizer set (a sensor-equipped pen used with special dot-pattern paper that captures your handwriting in real time and syncs it to an app as you write).\n\nRanked just behind Rocketbook Fusion Hybrid Reusable Planner Notebook, it costs more than Rocketbook Fusion Hybrid Reusable Planner Notebook. The real tradeoff against that pick: OCR accuracy should be verified through current reviews. In exchange, it offers this instead: Well under $500, one of the more affordable smart pens. That's the swap that decides whether this pick or the one above it is the better fit for your note-taking needs.\n\nWorth knowing before you decide: Real-time sync while writing. On the other side, Smaller ecosystem than larger brands. That's the main tradeoff to weigh against everything above.",
+    specs: ["Smart pen and paper digitizer set, Type 3","Real time sync from paper to app","OCR and audio recording","Bluetooth pen"],
+    pros: ["Well under $500, one of the more affordable smart pens","Real-time sync while writing","OCR and audio recording included","Bluetooth connectivity"],
+    cons: ["OCR accuracy should be verified through current reviews","Pen requires periodic charging","Smaller ecosystem than larger brands"],
     bestFor: "Buyers wanting real-time smart pen sync at an affordable price within this budget.",
   },
   {
@@ -149,11 +142,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/411Fba5TlmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FM3WLT2H?tag=deskfinds0d-20",
-    description:
-      "The Ophayapen set sits comfortably under this ceiling, syncing notes to your phone in real time with a compact pen and notebook combination. This is a smart pen and paper digitizer set (a sensor-equipped pen used with special dot-pattern paper that captures your handwriting in real time and syncs it to an app as you write).\n\nIt's a reasonable mid-tier pick for buyers who want more capability than the cheapest smart pens without stepping up to e-ink hardware. Still writes on real paper, appropriate for buyers who want digital sync without switching to a glass screen.",
-    specs: ["Smart pen and paper digitizer set, Type 3", "Real-time mobile sync", "Compact pen and notebook set", "Mid-range price"],
-    pros: ["Comfortably under $500", "Real-time mobile sync while writing", "Compact pen and notebook combination", "Still writes on real paper"],
-    cons: ["Pen requires periodic charging", "Smaller brand, verify current reviews", "Bulkier overall than a paper-only notepad"],
+    description: "The Ophayapen set sits comfortably under this ceiling, syncing notes to your phone in real time with a compact pen and notebook combination. This is a smart pen and paper digitizer set (a sensor-equipped pen used with special dot-pattern paper that captures your handwriting in real time and syncs it to an app as you write).\n\nOne spot below SyncPen Digital Notebook Smart Pen Set in this ranking, it costs more than SyncPen Digital Notebook Smart Pen Set. The compromise here is straightforward: Pen requires periodic charging. What you gain in return: Comfortably under $500. Whether that trade is worth it depends on which side matters more for how you'll actually use it.\n\nWorth knowing before you decide: Real-time mobile sync while writing. On the other side, Bulkier overall than a paper-only notepad. That's the main tradeoff to weigh against everything above.",
+    specs: ["Smart pen and paper digitizer set, Type 3","Real-time mobile sync","Compact pen and notebook set","Mid-range price"],
+    pros: ["Comfortably under $500","Real-time mobile sync while writing","Compact pen and notebook combination","Still writes on real paper"],
+    cons: ["Pen requires periodic charging","Smaller brand, verify current reviews","Bulkier overall than a paper-only notepad"],
     bestFor: "Buyers wanting a mid-range real-time smart pen set within this budget.",
   }
 ];
@@ -169,34 +161,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "This Is Where True E-Ink Hardware Becomes Realistic",
-    note: "Under $500 is the first price ceiling in this guide cluster where a genuine standalone e-ink device, the reMarkable 2, becomes available. If you've been using a paper notebook or smart pen and are considering the jump to real digital hardware, this budget tier is where that decision actually becomes affordable.",
-  },
-  {
-    subheading: "Decide If the E-Ink Step-Up Is Worth It Over Paper or a Smart Pen",
-    note: "The reMarkable 2 costs meaningfully more than any paper notebook or smart pen set in this guide, but delivers a genuinely different writing experience: no scanning, no separate pen electronics, just a screen you write on directly with weeks of battery life. Worth it if you'll use it heavily, otherwise the cheaper picks in this guide cover most practical needs.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Genuine e-ink hardware, the biggest step up available", "reMarkable 2 with Marker Plus"],
-        ["Most established budget-friendly notebook", "Rocketbook Core"],
-        ["Structured planner layout for agendas", "Rocketbook Fusion Hybrid Reusable Planner Notebook"],
-        ["Cheapest real-time smart pen with OCR", "SyncPen Digital Notebook Smart Pen Set"],
-        ["Mid-range real-time smart pen", "Ophayapen Smart Pen and Smart Digital Notebook"]
+    "subheading": "By Use Case",
+    "table": {
+      "headers": [
+        "What you need it for",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Everyday note-taking and reading",
+          "Rocketbook Flip Reusable Smart Notepad"
+        ],
+        [
+          "AI-assisted or document-heavy work",
+          "reMarkable 2 with Marker Plus"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick in this comparison"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "reMarkable 2 with Marker Plus"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "reMarkable 2 with Marker Plus"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "AI Features Included vs Subscription-Gated",
+    "cards": [
+      {
+        "label": "Included, No Subscription",
+        "text": "AI note tools come with the purchase price, no ongoing cost. In this comparison: check each listing's terms directly."
+      },
+      {
+        "label": "Subscription-Gated",
+        "text": "Advanced AI features require an ongoing paid plan on top of the hardware price. In this comparison: reMarkable 2 with Marker Plus."
+      }
+    ],
+    "note": "Check each specific listing for current subscription terms, since these change over time."
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "reMarkable 2 with Marker Plus"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "reMarkable 2 with Marker Plus"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Handwriting-to-Text Conversion Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation of handwriting-to-text conversion (not just \"AI\" generally), and whether that specific feature is included or requires a subscription."
+      },
+      {
+        "label": "In this comparison",
+        "text": "SyncPen Digital Notebook Smart Pen Set fits this specifically: Well under $500, one of the more affordable smart pens."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what reMarkable 2 with Marker Plus offers: The only genuine standalone e-ink device under $500 in this guide. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Rocketbook Flip Reusable Smart Notepad already covers the essentials: Well under $500. The main thing you'd be paying extra for elsewhere in this list is features or storage you may not need."
+      }
+    ]
   }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify the current price before buying, not just the guide's stated price", explanation: "Prices change over time, always check the current listing against this $500 ceiling before purchasing." },
-  { criterion: "Decide if genuine e-ink hardware is worth the jump from paper", explanation: "The reMarkable 2 costs significantly more than the paper and smart pen options in this guide, worth it for heavy daily use, less so for occasional notes." },
-  { criterion: "Check smart pen brand reputation and current reviews", explanation: "Several smart pen options in this range are from smaller, less established brands than Rocketbook or reMarkable, verify current reviews before buying." },
-  { criterion: "Factor in the erasable pen cost for paper notebooks if not included", explanation: "Rocketbook-style notebooks generally need a specific erasable pen, check whether it's bundled or add it to your total budget." },
-  { criterion: "Verify current cloud subscription requirements for the e-ink device", explanation: "Full cloud sync and backup features on some e-ink devices have historically required a subscription, factor this into your total cost before committing." },
+  {
+    "criterion": "Check whether AI or handwriting-conversion features are included or require a subscription",
+    "explanation": "Digital notebook brands take genuinely different approaches to their software features: some bundle handwriting-to-text conversion, document summarization, and cloud sync into the purchase price, while others, most notably reMarkable's Connect plan, gate the more advanced versions of these same features behind an ongoing monthly subscription that continues costing money long after the initial purchase.\n\nThis is a real total-cost-of-ownership difference that a one-time hardware price comparison completely misses, since a cheaper device with a required subscription can cost more over two or three years than a pricier device with everything included upfront.\n\nCheck the specific listing and manufacturer's website for whether the features you actually want are included in the base purchase or require an ongoing plan, and factor that recurring cost into your real comparison."
+  },
+  {
+    "criterion": "Understand that \"AI\" and \"handwriting conversion\" mean different things across different devices",
+    "explanation": "The marketing term \"AI\" gets applied to several genuinely different features across this product category: converting your handwriting into typed text, summarizing a long document or your own notes, organizing notes automatically by topic, or simply offering a chatbot-style writing assistant, and a device marketed heavily around \"AI\" doesn't necessarily include all, or even most, of these specific capabilities.\n\nThis matters because two devices can both claim AI features while actually doing completely different things, so a buyer specifically wanting handwriting-to-text conversion could end up with a device whose \"AI\" feature is actually a summarization tool that doesn't address their actual need at all.\n\nRead the specific feature list rather than the marketing headline, and confirm the device does the exact task you need (handwriting conversion specifically, not just \"AI\" generally) before buying."
+  },
+  {
+    "criterion": "Confirm the stylus situation: included, sold separately, or requiring a specific model",
+    "explanation": "Some digital notebooks include a compatible stylus in the box as part of the purchase price, while others sell the device and stylus as separate purchases, or require a specific proprietary stylus model that isn't interchangeable with a generic capacitive pen, and this distinction can add a meaningful hidden cost on top of the listed device price if you assumed a stylus was included.\n\nBeyond just the cost, stylus quality itself varies in pressure sensitivity, tilt detection, and palm rejection quality, features that matter significantly more for sketching and detailed note-taking than for simple text entry.\n\nCheck the listing specifically for whether a stylus ships in the box, and if writing feel matters to you, look for mentions of pressure levels and palm rejection quality rather than assuming any included stylus performs the same as another."
+  },
+  {
+    "criterion": "Check the export and sync ecosystem, since notes trapped on one device have limited long-term value",
+    "explanation": "A digital notebook's real usefulness depends heavily on getting your notes and documents off the device and into a format you can actually use elsewhere, whether that's cloud sync to a phone or computer, export to PDF or Word, or direct integration with a note-taking platform like OneNote or Google Drive, and devices differ meaningfully in which of these paths they actually support natively versus not at all.\n\nThis matters concretely for anyone using the device for professional or academic work where notes need to end up in a shared document, an email, or a specific software ecosystem, since a device with limited export options can leave your handwritten notes effectively stranded on the device itself.\n\nCheck the manufacturer's stated export formats and sync options against the specific software or workflow you actually need to feed notes into, rather than assuming any device syncs to everything."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, especially for newer AI-branded entrants",
+    "explanation": "Established digital notebook brands with years on the market carry review counts in the thousands, giving genuine statistical confidence in their ratings, while newer devices, especially ones marketing themselves heavily around AI features to ride current interest in the category, sometimes carry only a few dozen or a few hundred reviews, which is a meaningfully thinner sample to judge long-term reliability and whether the marketed features actually work as claimed.\n\nThis doesn't mean a newer, less-reviewed device is automatically worse, but it does mean the claims on its listing carry less independently verified weight than a device with years of real-world feedback behind it.\n\nWhen comparing an established brand against a newer AI-branded entrant, check both the star rating and the review count together, and weigh a smaller but heavily AI-marketed device's claims more skeptically until more real-world feedback accumulates."
+  }
 ];
 
 export const faq: FaqItem[] = [
