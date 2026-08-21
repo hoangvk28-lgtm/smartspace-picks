@@ -333,35 +333,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Define small by an actual footprint tier",
-    explanation:
-      "Small space needs a number attached to it. A footprint under roughly 16 by 14 inches suits a tight desk nook or dorm corner, while a footprint under 20 by 16 inches still counts as compact but leaves room for a slightly larger printer. Compare the stand's listed dimensions against your specific room before assuming small in the title means small enough.",
+    "criterion": "Verify real weight capacity against your printer's actual weight, not the display model",
+    "explanation": "A printer stand's listed weight capacity is often demonstrated with a small inkjet in marketing photos, which understates the load a genuinely heavy all-in-one laser printer or multifunction unit with a large paper tray actually places on the platform.\n\nThis matters because a stand rated below your specific printer's real weight can flex, wobble, or fail over time even if it looks sturdy when empty, and this category overlaps heavily with CPU tower stands and monitor risers that were never marketed for printer weight specifically.\n\nCheck your printer's actual listed weight in its own spec sheet, and compare it directly against the stand's stated capacity with real margin, not just enough to technically clear the number."
   },
   {
-    criterion: "Consider going vertical instead of wide",
-    explanation:
-      "A taller, narrower stand often solves a small-space problem better than a wide, low one, since floor width is usually the scarcer resource in an apartment or dorm room. The HOOBRO and HUANUO both use a narrower, taller profile that leaves more clear floor space around them than a wide utility cart would.",
+    "criterion": "Check for genuine vibration stability, not just static weight capacity",
+    "explanation": "A printer generates real vibration during operation, especially a laser printer's internal mechanisms or an inkjet's print head carriage moving back and forth, and a stand that holds static weight fine can still wobble or transmit noise during active printing if its construction isn't rigid enough.\n\nThis matters more for a printer used frequently throughout the day, where vibration and noise become a real recurring annoyance, less for one used only occasionally.\n\nCheck reviews specifically for mentions of stability or wobble during actual printing, not just whether the stand holds the printer's weight while sitting idle."
   },
   {
-    criterion: "Account for printer overhang in your total footprint math",
-    explanation:
-      "A printer typically overhangs its stand's base by 2 to 4 inches per side once set on top, so the real footprint you need to plan for is always larger than the stand's own listed dimensions. Measure your available space with this overhang included, not just the bare stand size.",
+    "criterion": "Consider ventilation clearance for a printer's exhaust and paper path",
+    "explanation": "Many printers vent heat from internal components and need clearance around the paper output tray for pages to eject without jamming, and a stand or enclosure that boxes the printer in too tightly can interfere with both, and this becomes a real issue with fully enclosed cabinet-style stands versus open shelf designs.\n\nThis matters more for a printer under regular heavy use generating real internal heat, and for any stand style that partially encloses the unit rather than a simple open platform.\n\nCheck the stand's design for open sides or back clearance around where your printer vents and ejects paper, not just its front-facing dimensions."
   },
   {
-    criterion: "Leave clearance for the paper tray to open",
-    explanation:
-      "A stand pushed too far into a corner can block a front-load or top-load paper tray from opening fully. Top-load printers need clearance above the unit, while front-load printers need clearance in front. Check which type your printer uses before finalizing a tight corner placement.",
+    "criterion": "Match storage features to what you'll actually use them for",
+    "explanation": "Many printer stands include drawers or shelves for paper and supplies, and while this consolidates printer supplies in one spot, an oversized storage-heavy stand can eat significantly more floor or desk space than a simple platform-only riser, without adding proportional benefit if you don't actually keep much paper or supplies nearby.\n\nThis matters directly if floor or desk space is genuinely tight, where a simpler platform-only design maximizes the space savings that's likely the whole point of buying a stand in the first place.\n\nCheck the stand's actual footprint including any drawers or shelves against your available space, not just the platform surface dimensions."
   },
   {
-    criterion: "Corner-specific stands are worth considering",
-    explanation:
-      "Very few stands are designed specifically for a corner placement, even though a triangular or angled fit uses small-room space more efficiently than a square stand pushed against two walls. If none of your options are corner-shaped, prioritize the narrowest square footprint available instead.",
-  },
-  {
-    criterion: "A repurposed cart or stand is a legitimate choice, if labeled honestly",
-    explanation:
-      "A CPU stand, monitor riser, or utility cart was not designed for a printer, but several hold a compact printer just fine and often cost less than dedicated printer furniture. The key is matching the printer's actual weight and base size to the repurposed platform's rated capacity, not assuming it will work simply because it is flat and sturdy.",
-  },
+    "criterion": "Weigh honest labeling: a CPU stand or monitor riser can work just as well as a dedicated printer stand",
+    "explanation": "This product category overlaps heavily with CPU tower stands and monitor risers, since a low, stable platform rated for real weight works just as well under a compact printer as under a computer tower, even when it was never marketed specifically as a printer stand, and this often means more design and price options than searching \"printer stand\" alone would surface.\n\nThis matters because limiting your search strictly to products labeled \"printer stand\" can mean missing a better-built, better-priced option marketed for a different but functionally identical use case.\n\nCheck listed dimensions and real weight capacity rather than the product category label alone, since a well-built CPU stand or monitor riser with adequate capacity is a legitimate substitute."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -374,80 +364,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Footprint Tier",
-    intro:
-      "Match your room's actual available space to a footprint tier rather than trusting the word small alone.",
-    table: {
-      headers: ["Available space", "Footprint tier", "Best pick"],
-      rows: [
-        ["Tight desk nook, under 16\" wide", "Compact vertical", "WALI Monitor Riser, Liitrton CPU Stand"],
-        ["Small dorm or studio corner", "Under 20\" x 16\"", "HUANUO, HOOBRO 2-Tier"],
-        ["Small room, printer is the bigger constraint", "20\"+ tabletop needed", "YAOHUOO 22x15"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "HUANUO Printer Stand with Cable Management and Storage Drawer"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "HUANUO Printer Stand with Cable Management and Storage Drawer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Dedicated Stand or Repurposed Platform",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $10",
+          "WALI Computer Monitor Stand with Underneath Storage"
+        ],
+        [
+          "Up to $40",
+          "YAOHUOO 22x15 Large Printer Stand with Drawer"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Rolling vs Stationary",
+    "cards": [
       {
-        label: "Want furniture built specifically as a printer stand",
-        text: "The HUANUO and HOOBRO are genuinely marketed and designed as printer stands, with cable management and drawer storage to match.",
+        "label": "Rolling (casters)",
+        "text": "Easy to reposition for access or cleaning, worth it if the stand needs to move regularly. In this comparison: HUANUO Printer Stand with Cable Management and Storage Drawer, YAOHUOO 22x15 Large Printer Stand with Drawer, Liitrton Mobile CPU Stand, Simple Houseware 3, Pipishell 3 Tier Rolling Cart, Sywhitta 3."
       },
       {
-        label: "Want the absolute smallest footprint, repurposed is fine",
-        text: "The Liitrton CPU stand and WALI monitor riser were not built for printers but their small, adjustable platforms fit the tightest corners.",
-      },
-      {
-        label: "Want one cart to double as printer stand and general storage",
-        text: "The Simple Houseware, Pipishell, and Sywhitta utility carts are flexible enough to hold a printer on one tier and supplies on another.",
-      },
+        "label": "Stationary",
+        "text": "More stable under a heavy printer since there's no wheel mechanism to add wobble. In this comparison: HOOBRO 2, WALI Computer Monitor Stand with Underneath Storage."
+      }
     ],
+    "note": "Default to stationary unless you specifically need to reposition the stand often."
   },
   {
-    subheading: "Tray Clearance by Printer Type",
-    intro:
-      "Top-load and front-load printers need clearance in different directions, which matters most in a tight corner placement.",
-    table: {
-      headers: ["Printer paper tray type", "Clearance needed", "Placement tip"],
-      rows: [
-        ["Top-load", "Clearance above the unit", "Avoid placing directly under a shelf or cabinet"],
-        ["Front-load", "Clearance in front of the unit", "Leave at least 12 inches of open floor in front"],
-      ],
-    },
+    "subheading": "By Ventilation Clearance",
+    "note": "Check each pick's design for open clearance around your printer's exhaust and paper output path before buying, not just its front-facing dimensions. HUANUO Printer Stand with Cable Management and Storage Drawer is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Total Footprint: Stand Plus Printer Overhang",
-    intro:
-      "The real space a printer stand occupies is larger than its own dimensions once the printer sits on top.",
-    table: {
-      headers: ["Stand tabletop", "Typical overhang added", "Real total footprint"],
-      rows: [
-        ["WALI riser (compact)", "+2-3\" per side", "Small compact printer only"],
-        ["HUANUO / HOOBRO", "+2-4\" per side", "Plan for roughly 18\" x 16\" total"],
-        ["YAOHUOO 22x15", "+2-4\" per side", "Plan for roughly 26\" x 19\" total"],
-      ],
-    },
+    "subheading": "For a Heavy All-in-One Printer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A weight capacity with real margin above your printer's actual listed weight, and genuine vibration stability confirmed in reviews, not just static capacity."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Check each pick's listing directly, since weight capacity isn't consistently disclosed across every stand in this comparison."
+      }
+    ]
   },
   {
-    subheading: "When a Repurposed CPU Stand or Utility Cart Makes Sense",
-    intro:
-      "These picks were not designed for printers, but each has a genuine, honestly-framed use case in a small space.",
-    cards: [
+    "subheading": "When to Spend More",
+    "cards": [
       {
-        label: "Liitrton CPU Stand",
-        text: "Best for the smallest possible footprint next to a desk, suited to a lightweight compact printer only.",
+        "label": "Spend more if",
+        "text": "Your printer is heavy or used frequently throughout the day, where YAOHUOO 22x15 Large Printer Stand with Drawer's capacity and stability give real headroom over the cheaper picks."
       },
       {
-        label: "WALI Monitor Riser",
-        text: "Best when there is zero floor space and the printer must sit on the desk itself.",
-      },
-      {
-        label: "Simple Houseware / Pipishell / Sywhitta Utility Carts",
-        text: "Best when you want one rolling cart to handle the printer plus general small-space storage across multiple tiers.",
-      },
-    ],
-    note: "None of these three categories are printer-branded furniture. If a purpose-built option like the HUANUO or HOOBRO fits your space and budget, it will generally offer better cable management and a cleaner finish.",
-  },
+        "label": "Save if",
+        "text": "You have a light, compact printer used only occasionally, where WALI Computer Monitor Stand with Underneath Storage covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

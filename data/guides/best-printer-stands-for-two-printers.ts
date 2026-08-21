@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Put the heavier printer on the lower, wider tier",
-    explanation:
-      "If you do find a genuine two-tier stand like the YAOHUOO, load the heavier machine, typically a laser printer, on the bottom tier for a lower center of gravity. The lighter inkjet or label printer belongs on top, where its lower weight won't destabilize the stand.",
+    "criterion": "Verify real weight capacity against your printer's actual weight, not the display model",
+    "explanation": "A printer stand's listed weight capacity is often demonstrated with a small inkjet in marketing photos, which understates the load a genuinely heavy all-in-one laser printer or multifunction unit with a large paper tray actually places on the platform.\n\nThis matters because a stand rated below your specific printer's real weight can flex, wobble, or fail over time even if it looks sturdy when empty, and this category overlaps heavily with CPU tower stands and monitor risers that were never marketed for printer weight specifically.\n\nCheck your printer's actual listed weight in its own spec sheet, and compare it directly against the stand's stated capacity with real margin, not just enough to technically clear the number."
   },
   {
-    criterion: "Check per-shelf capacity, not just the total rating",
-    explanation:
-      "A stand rated for 100 lbs total might have a top shelf rated for only 30 lbs, which a heavier laser printer can exceed even though the stand's overall rating looks fine. Look specifically for a per-shelf number before assuming a two-tier stand can hold your heavier machine on either level.",
+    "criterion": "Check for genuine vibration stability, not just static weight capacity",
+    "explanation": "A printer generates real vibration during operation, especially a laser printer's internal mechanisms or an inkjet's print head carriage moving back and forth, and a stand that holds static weight fine can still wobble or transmit noise during active printing if its construction isn't rigid enough.\n\nThis matters more for a printer used frequently throughout the day, where vibration and noise become a real recurring annoyance, less for one used only occasionally.\n\nCheck reviews specifically for mentions of stability or wobble during actual printing, not just whether the stand holds the printer's weight while sitting idle."
   },
   {
-    criterion: "Most 'printer stands for two printers' are actually two single-tier cabinets",
-    explanation:
-      "Searching this term mostly surfaces mobile file cabinets with one flat top, not dual-tier furniture. If a listing doesn't clearly show two separate flat surfaces in its photos, plan on buying two matching single-tier units side by side instead of one product that does double duty.",
+    "criterion": "Consider ventilation clearance for a printer's exhaust and paper path",
+    "explanation": "Many printers vent heat from internal components and need clearance around the paper output tray for pages to eject without jamming, and a stand or enclosure that boxes the printer in too tightly can interfere with both, and this becomes a real issue with fully enclosed cabinet-style stands versus open shelf designs.\n\nThis matters more for a printer under regular heavy use generating real internal heat, and for any stand style that partially encloses the unit rather than a simple open platform.\n\nCheck the stand's design for open sides or back clearance around where your printer vents and ejects paper, not just its front-facing dimensions."
   },
   {
-    criterion: "Access ergonomics differ by tier",
-    explanation:
-      "A printer on a bottom tier means bending down to load paper and clear jams, while a top-tier printer means reaching up. If you print frequently from one machine, put that one on whichever tier is easiest for you to reach, not automatically the top.",
+    "criterion": "Match storage features to what you'll actually use them for",
+    "explanation": "Many printer stands include drawers or shelves for paper and supplies, and while this consolidates printer supplies in one spot, an oversized storage-heavy stand can eat significantly more floor or desk space than a simple platform-only riser, without adding proportional benefit if you don't actually keep much paper or supplies nearby.\n\nThis matters directly if floor or desk space is genuinely tight, where a simpler platform-only design maximizes the space savings that's likely the whole point of buying a stand in the first place.\n\nCheck the stand's actual footprint including any drawers or shelves against your available space, not just the platform surface dimensions."
   },
   {
-    criterion: "Plan cable routing for double the cords",
-    explanation:
-      "Two printers mean two power cables and two USB or ethernet cables at minimum, plus a possible network cable each. Picks with built-in cable channels, like the HUANUO, keep four or more cords from tangling into one mess behind the stand.",
-  },
-  {
-    criterion: "A padding mat reduces vibration transfer between printers",
-    explanation:
-      "When two printers on the same stand run at the same time, vibration from one can transfer through the shared surface to the other, which can slightly affect print quality on sensitive jobs. A thin rubber or foam mat under each machine helps isolate that vibration.",
-  },
+    "criterion": "Weigh honest labeling: a CPU stand or monitor riser can work just as well as a dedicated printer stand",
+    "explanation": "This product category overlaps heavily with CPU tower stands and monitor risers, since a low, stable platform rated for real weight works just as well under a compact printer as under a computer tower, even when it was never marketed specifically as a printer stand, and this often means more design and price options than searching \"printer stand\" alone would surface.\n\nThis matters because limiting your search strictly to products labeled \"printer stand\" can mean missing a better-built, better-priced option marketed for a different but functionally identical use case.\n\nCheck listed dimensions and real weight capacity rather than the product category label alone, since a well-built CPU stand or monitor riser with adequate capacity is a legitimate substitute."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,77 +359,83 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Whether You Need One Stand or Two",
-    intro:
-      "Only one pick in this list is a genuine two-tier stand. Everyone else needs to decide between a wide single surface or two matching cabinets.",
-    table: {
-      headers: ["What you need", "Best approach", "Best pick"],
-      rows: [
-        ["Both printers on one piece of furniture", "Genuine 2-tier stand", "YAOHUOO 22x15 2-Tier Cart"],
-        ["Two compact machines side by side", "Widest single top surface", "GYIIYUO 24\" Extended Desktop"],
-        ["Two full-size printers in separate spots", "Buy two matching single-tier units", "DEVAISE, VASAGLE CUSTOS, or HUANUO x2"],
-        ["Centralized supply storage for both", "Deepest drawer capacity", "OLIXIS 7-Drawer"],
+    "subheading": "By Disclosed Weight Capacity",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Most-reviewed, strongest reliability signal",
+          "YAOHUOO 22x15 Large Printer Stand with Drawer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Tier Placement for Stability",
-    intro:
-      "On the one true two-tier pick, tier placement affects both stability and how easy each printer is to reach.",
-    cards: [
-      {
-        label: "Bottom tier",
-        text: "Put the heavier printer, usually a laser model, on the bottom tier of the YAOHUOO for a lower center of gravity and a sturdier overall stand.",
-      },
-      {
-        label: "Top tier",
-        text: "The lighter inkjet or label printer belongs on top, where less weight keeps the stand from feeling front-heavy when you reach for it.",
-      },
-      {
-        label: "Reach tradeoff",
-        text: "A bottom-tier printer means bending down to load paper; a top-tier printer means reaching up. Put whichever machine you use more often on the tier that's easiest for you personally.",
-      },
-    ],
-  },
-  {
-    subheading: "Weight Capacity, Per Shelf Not Just Total",
-    intro:
-      "A stand's total weight rating can hide a lower per-shelf limit that matters more for a heavier printer.",
-    table: {
-      headers: ["Printer type", "Typical weight", "What to check"],
-      rows: [
-        ["Compact inkjet or label printer", "Under 15 lbs", "Fits comfortably on any tier in this list"],
-        ["Standard all-in-one inkjet", "15-25 lbs", "Confirm the specific shelf, not just total, capacity"],
-        ["Compact laser printer", "20-35 lbs", "Place on the lower, wider tier or widest single top"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $40",
+          "YAOHUOO 22x15 Large Printer Stand with Drawer"
+        ],
+        [
+          "Up to $100",
+          "Letaya 3"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Cable Management for Two Printers",
-    intro:
-      "Two machines multiply the cords you need to route, so plan for at least 4-5 cables total.",
-    cards: [
+    "subheading": "Rolling vs Stationary",
+    "cards": [
       {
-        label: "Power",
-        text: "2 power cables minimum, one per printer, ideally routed to separate outlets or a surge-protected power strip rated for the combined load.",
+        "label": "Rolling (casters)",
+        "text": "Easy to reposition for access or cleaning, worth it if the stand needs to move regularly. In this comparison: YAOHUOO 22x15 Large Printer Stand with Drawer, DEVAISE 3, GYIIYUO 2, OLIXIS 7, VASAGLE CUSTOS 2, HUANUO Printer Stand with Cable Management and Storage Drawer."
       },
       {
-        label: "Data",
-        text: "2 USB or ethernet cables if both printers connect wired rather than over wifi, best routed through a stand with built-in channels like the HUANUO.",
-      },
-      {
-        label: "Slack",
-        text: "Leave extra cable slack on whichever tier or unit you access most often, since frequent paper loading or jam clearing means the cables get tugged repeatedly.",
-      },
+        "label": "Stationary",
+        "text": "More stable under a heavy printer since there's no wheel mechanism to add wobble. In this comparison: DUMOS File Cabinet with 3 Drawers, Letaya 3."
+      }
     ],
-    note: "A dedicated cable-channel stand isn't required, but zip ties or a cable sleeve behind a plain single-tier cabinet accomplish nearly the same result for less money.",
+    "note": "Default to stationary unless you specifically need to reposition the stand often."
   },
   {
-    subheading: "Vibration and Simultaneous Printing",
-    intro:
-      "If both printers might run at the same time, shared-surface vibration is worth a small precaution.",
-    note: "A thin rubber or foam pad under each printer on a shared stand reduces vibration transfer between the two machines, which can matter for jobs where consistent print alignment counts, like labels or photo prints.",
+    "subheading": "By Ventilation Clearance",
+    "note": "Check each pick's design for open clearance around your printer's exhaust and paper output path before buying, not just its front-facing dimensions. YAOHUOO 22x15 Large Printer Stand with Drawer is the most-reviewed option here if you want the safer bet."
   },
+  {
+    "subheading": "For a Heavy All-in-One Printer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A weight capacity with real margin above your printer's actual listed weight, and genuine vibration stability confirmed in reviews, not just static capacity."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Check each pick's listing directly, since weight capacity isn't consistently disclosed across every stand in this comparison."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Your printer is heavy or used frequently throughout the day, where Letaya 3's capacity and stability give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You have a light, compact printer used only occasionally, where YAOHUOO 22x15 Large Printer Stand with Drawer covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

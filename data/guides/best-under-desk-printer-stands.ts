@@ -341,110 +341,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Run the fit-test math before you buy",
-    explanation:
-      "Add your stand's height, your printer's height (typically 10 to 15 inches), and compare the total against your desk's actual clearance. A standard desk clears about 24 inches, so a 14-inch stand plus a 12-inch printer already totals 26 inches, which will not fit under a standard desk even though each piece looks compact on its own.",
+    "criterion": "Verify real weight capacity against your printer's actual weight, not the display model",
+    "explanation": "A printer stand's listed weight capacity is often demonstrated with a small inkjet in marketing photos, which understates the load a genuinely heavy all-in-one laser printer or multifunction unit with a large paper tray actually places on the platform.\n\nThis matters because a stand rated below your specific printer's real weight can flex, wobble, or fail over time even if it looks sturdy when empty, and this category overlaps heavily with CPU tower stands and monitor risers that were never marketed for printer weight specifically.\n\nCheck your printer's actual listed weight in its own spec sheet, and compare it directly against the stand's stated capacity with real margin, not just enough to technically clear the number."
   },
   {
-    criterion: "Be honest about under-desk usability tradeoffs",
-    explanation:
-      "Placing a printer under a desk makes it harder to load paper, harder to see status lights, and harder to grab printed pages quickly. Rolling casters that let you slide the stand out for use meaningfully offset this, so prioritize a stand with wheels over one that stays fixed in place.",
+    "criterion": "Check for genuine vibration stability, not just static weight capacity",
+    "explanation": "A printer generates real vibration during operation, especially a laser printer's internal mechanisms or an inkjet's print head carriage moving back and forth, and a stand that holds static weight fine can still wobble or transmit noise during active printing if its construction isn't rigid enough.\n\nThis matters more for a printer used frequently throughout the day, where vibration and noise become a real recurring annoyance, less for one used only occasionally.\n\nCheck reviews specifically for mentions of stability or wobble during actual printing, not just whether the stand holds the printer's weight while sitting idle."
   },
   {
-    criterion: "Watch for noise amplification in an enclosed space",
-    explanation:
-      "Sound can reflect off the underside of a desk and make a printer's fan or paper feed noticeably louder than the same printer sitting in the open. An open-frame stand, rather than a fully boxed-in cabinet, avoids compounding this effect.",
+    "criterion": "Consider ventilation clearance for a printer's exhaust and paper path",
+    "explanation": "Many printers vent heat from internal components and need clearance around the paper output tray for pages to eject without jamming, and a stand or enclosure that boxes the printer in too tightly can interfere with both, and this becomes a real issue with fully enclosed cabinet-style stands versus open shelf designs.\n\nThis matters more for a printer under regular heavy use generating real internal heat, and for any stand style that partially encloses the unit rather than a simple open platform.\n\nCheck the stand's design for open sides or back clearance around where your printer vents and ejects paper, not just its front-facing dimensions."
   },
   {
-    criterion: "Know when under-desk placement is a bad idea",
-    explanation:
-      "An all-in-one with a top-opening scanner lid needs overhead clearance that a desk blocks entirely, so it does not belong under a desk regardless of stand height. Front-load printers with a pull-out paper tray generally handle under-desk placement much better than top-load designs.",
+    "criterion": "Match storage features to what you'll actually use them for",
+    "explanation": "Many printer stands include drawers or shelves for paper and supplies, and while this consolidates printer supplies in one spot, an oversized storage-heavy stand can eat significantly more floor or desk space than a simple platform-only riser, without adding proportional benefit if you don't actually keep much paper or supplies nearby.\n\nThis matters directly if floor or desk space is genuinely tight, where a simpler platform-only design maximizes the space savings that's likely the whole point of buying a stand in the first place.\n\nCheck the stand's actual footprint including any drawers or shelves against your available space, not just the platform surface dimensions."
   },
   {
-    criterion: "Ventilation matters more than it looks like it would",
-    explanation:
-      "A laser printer generates real heat and needs airflow to dissipate it during longer print jobs. An enclosed under-desk space with no airflow can trap that heat, so an open, ventilated stand design is worth prioritizing over a solid enclosed platform if you own a laser printer.",
-  },
-  {
-    criterion: "A repurposed CPU stand or riser is a legitimate under-desk option",
-    explanation:
-      "CPU tower stands and monitor risers were not designed for printers, but their low, adjustable, often ventilated platforms happen to solve the exact height-stacking problem an under-desk printer stand needs to solve. The tradeoff is no dedicated cable management and a lower weight rating than purpose-built printer furniture.",
-  },
+    "criterion": "Weigh honest labeling: a CPU stand or monitor riser can work just as well as a dedicated printer stand",
+    "explanation": "This product category overlaps heavily with CPU tower stands and monitor risers, since a low, stable platform rated for real weight works just as well under a compact printer as under a computer tower, even when it was never marketed specifically as a printer stand, and this often means more design and price options than searching \"printer stand\" alone would surface.\n\nThis matters because limiting your search strictly to products labeled \"printer stand\" can mean missing a better-built, better-priced option marketed for a different but functionally identical use case.\n\nCheck listed dimensions and real weight capacity rather than the product category label alone, since a well-built CPU stand or monitor riser with adequate capacity is a legitimate substitute."
+  }
 ];
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "The Fit-Test Table: Desk Height Plus Stand Plus Printer",
-    intro:
-      "Add up all three numbers before ordering, since a stand that looks compact alone can still push the total over your desk's clearance.",
-    table: {
-      headers: ["Desk clearance", "Stand height budget", "Best pick"],
-      rows: [
-        ["Standard desk, ~24\"", "Under 12\" stand height", "WALI Riser (on desk, not under), Liitrton CPU Stand"],
-        ["Standing desk lowest, ~27\"", "Up to 14\" stand height", "HUANUO, HOOBRO 2-Tier, Hovadova CPU Stand"],
-        ["Adjustable desk, 28-30\"", "Up to 20\" stand height", "VASAGLE CUSTOS, Letaya, SISESOL"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "HUANUO Printer Stand with Cable Management and Storage Drawer"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "HUANUO Printer Stand with Cable Management and Storage Drawer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Honest Usability: Loading Paper, Checking Status, Grabbing Pages",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $10",
+          "WALI Computer Monitor Stand with Underneath Storage"
+        ],
+        [
+          "Up to $100",
+          "Letaya 3 Drawer Mobile File Cabinet with Lock"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Rolling vs Stationary",
+    "cards": [
       {
-        label: "Easiest access under a desk",
-        text: "The HUANUO and Liitrton CPU stand both roll out fully on casters, so you slide them out to load paper rather than reaching in blind.",
+        "label": "Rolling (casters)",
+        "text": "Easy to reposition for access or cleaning, worth it if the stand needs to move regularly. In this comparison: HUANUO Printer Stand with Cable Management and Storage Drawer, Liitrton Mobile CPU Stand, Hovadova Adjustable Mobile CPU Stand, VASAGLE CUSTOS 2."
       },
       {
-        label: "Hardest access under a desk",
-        text: "Fixed-position file cabinets like the SISESOL require crouching down and reaching in, since they are not designed to roll fully clear of the desk.",
-      },
-      {
-        label: "Best middle ground",
-        text: "The HOOBRO's low, open-front 2-tier design lets you see and reach the printer without fully rolling it out first.",
-      },
+        "label": "Stationary",
+        "text": "More stable under a heavy printer since there's no wheel mechanism to add wobble. In this comparison: HOOBRO 2, WALI Computer Monitor Stand with Underneath Storage, Letaya 3 Drawer Mobile File Cabinet with Lock, SISESOL 2 Drawer File Cabinet with Lock."
+      }
     ],
+    "note": "Default to stationary unless you specifically need to reposition the stand often."
   },
   {
-    subheading: "When NOT to Use Under-Desk Placement",
-    intro:
-      "Some printer and desk combinations genuinely do not work under a desk, no matter how low the stand is.",
-    table: {
-      headers: ["Situation", "Why it fails under-desk", "Better placement"],
-      rows: [
-        ["AIO with a top-opening scanner lid", "Needs 12-15\" of overhead clearance a desk blocks", "Desktop riser like the WALI"],
-        ["Top-load paper tray printer", "Tray needs to open upward, desk blocks it", "Open desktop or shelf placement"],
-        ["Laser printer in a fully enclosed cabinet stand", "Heat and ozone buildup with no airflow", "Ventilated open-frame stand like the Hovadova CPU stand"],
-      ],
-    },
+    "subheading": "By Ventilation Clearance",
+    "note": "Check each pick's design for open clearance around your printer's exhaust and paper output path before buying, not just its front-facing dimensions. HUANUO Printer Stand with Cable Management and Storage Drawer is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Noise and Ventilation Under an Enclosed Desk",
-    intro:
-      "An enclosed space under a desk can both amplify printer sound and trap heat, two separate problems worth solving with the same open-frame choice.",
-    cards: [
+    "subheading": "For a Heavy All-in-One Printer Specifically",
+    "cards": [
       {
-        label: "Best for noise-sensitive spaces",
-        text: "Open-frame stands like the HOOBRO avoid the sound reflection a fully boxed-in cabinet can cause under a desk.",
+        "label": "Look for",
+        "text": "A weight capacity with real margin above your printer's actual listed weight, and genuine vibration stability confirmed in reviews, not just static capacity."
       },
       {
-        label: "Best for laser printer heat",
-        text: "The Hovadova ventilated CPU stand's open frame lets warm air escape rather than building up in an enclosed pocket.",
-      },
-    ],
-    note: "If you own a laser printer specifically, prioritize an open-frame stand over a solid-sided cabinet regardless of how compact the cabinet looks.",
+        "label": "In this comparison",
+        "text": "Check each pick's listing directly, since weight capacity isn't consistently disclosed across every stand in this comparison."
+      }
+    ]
   },
   {
-    subheading: "If You Also Need Locked Document Storage",
-    intro:
-      "A few picks combine under-desk printer placement with genuine document security, useful if your printer handles sensitive paperwork.",
-    table: {
-      headers: ["Need", "Best pick", "Why"],
-      rows: [
-        ["Maximum lockable storage", "Letaya 3 Drawer", "3 lockable drawers, fully assembled"],
-        ["Narrower under-desk gap with a lock", "SISESOL 2 Drawer", "Narrow vertical profile, still lockable"],
-        ["Printer-branded stand with light storage", "VASAGLE CUSTOS", "Marketed specifically as a printer stand"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Your printer is heavy or used frequently throughout the day, where Letaya 3 Drawer Mobile File Cabinet with Lock's capacity and stability give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You have a light, compact printer used only occasionally, where WALI Computer Monitor Stand with Underneath Storage covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

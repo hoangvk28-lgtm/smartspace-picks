@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Rubber casters protect floors, plastic ones can mark them",
-    explanation:
-      "Plastic caster wheels are common on budget carts, and over months of rolling across hardwood or vinyl, they can leave faint scuff marks or even light scratches. If the stand will live on a hard floor rather than carpet, rubber or soft-wheeled casters are worth the small upgrade in cost.",
+    "criterion": "Verify real weight capacity against your printer's actual weight, not the display model",
+    "explanation": "A printer stand's listed weight capacity is often demonstrated with a small inkjet in marketing photos, which understates the load a genuinely heavy all-in-one laser printer or multifunction unit with a large paper tray actually places on the platform.\n\nThis matters because a stand rated below your specific printer's real weight can flex, wobble, or fail over time even if it looks sturdy when empty, and this category overlaps heavily with CPU tower stands and monitor risers that were never marketed for printer weight specifically.\n\nCheck your printer's actual listed weight in its own spec sheet, and compare it directly against the stand's stated capacity with real margin, not just enough to technically clear the number."
   },
   {
-    criterion: "A locking caster only helps if the lock actually holds",
-    explanation:
-      "Locking wheels are meant to stop drift while you're actively printing, but a weak lock can still slip when the printer is bumped or a paper tray is pulled out. Test the lock by pushing the loaded cart firmly from the side before trusting it near a wall outlet or narrow hallway.",
+    "criterion": "Check for genuine vibration stability, not just static weight capacity",
+    "explanation": "A printer generates real vibration during operation, especially a laser printer's internal mechanisms or an inkjet's print head carriage moving back and forth, and a stand that holds static weight fine can still wobble or transmit noise during active printing if its construction isn't rigid enough.\n\nThis matters more for a printer used frequently throughout the day, where vibration and noise become a real recurring annoyance, less for one used only occasionally.\n\nCheck reviews specifically for mentions of stability or wobble during actual printing, not just whether the stand holds the printer's weight while sitting idle."
   },
   {
-    criterion: "Match caster type to your actual floor",
-    explanation:
-      "Hard floors like tile and hardwood roll easily under almost any caster, but carpet adds real resistance and can make a lightly built cart hard to push once loaded. If the stand needs to cross carpet regularly, prioritize larger wheels with a wider caster base over a slim, budget frame.",
+    "criterion": "Consider ventilation clearance for a printer's exhaust and paper path",
+    "explanation": "Many printers vent heat from internal components and need clearance around the paper output tray for pages to eject without jamming, and a stand or enclosure that boxes the printer in too tightly can interfere with both, and this becomes a real issue with fully enclosed cabinet-style stands versus open shelf designs.\n\nThis matters more for a printer under regular heavy use generating real internal heat, and for any stand style that partially encloses the unit rather than a simple open platform.\n\nCheck the stand's design for open sides or back clearance around where your printer vents and ejects paper, not just its front-facing dimensions."
   },
   {
-    criterion: "Check cable length against your realistic roll distance",
-    explanation:
-      "A rolling printer stand is only as mobile as its power cord allows. Measure how far you actually intend to roll the cart away from the outlet, most printer power cables run 4-6 feet, and confirm that distance leaves slack rather than pulling the cord taut every time you reposition it.",
+    "criterion": "Match storage features to what you'll actually use them for",
+    "explanation": "Many printer stands include drawers or shelves for paper and supplies, and while this consolidates printer supplies in one spot, an oversized storage-heavy stand can eat significantly more floor or desk space than a simple platform-only riser, without adding proportional benefit if you don't actually keep much paper or supplies nearby.\n\nThis matters directly if floor or desk space is genuinely tight, where a simpler platform-only design maximizes the space savings that's likely the whole point of buying a stand in the first place.\n\nCheck the stand's actual footprint including any drawers or shelves against your available space, not just the platform surface dimensions."
   },
   {
-    criterion: "General-purpose utility carts are a legitimate option, not a compromise",
-    explanation:
-      "A plain 3-tier metal or plastic utility cart was not designed with printers in mind, but open shelving, decent caster wheels, and a flat top mean it performs the job just as well as a printer-branded cart, often for less money. Don't overpay for the word 'printer' on the box if a utility cart meets your actual specs.",
-  },
-  {
-    criterion: "Leave slack in the cable path, don't just measure the shelf height",
-    explanation:
-      "Cable management cutouts help keep cords tidy, but they don't eliminate the need to route the cable so it isn't pinched when the cart rolls fully forward or back. Loop a small amount of slack near the base rather than running the cable taut from outlet to printer.",
-  },
+    "criterion": "Weigh honest labeling: a CPU stand or monitor riser can work just as well as a dedicated printer stand",
+    "explanation": "This product category overlaps heavily with CPU tower stands and monitor risers, since a low, stable platform rated for real weight works just as well under a compact printer as under a computer tower, even when it was never marketed specifically as a printer stand, and this often means more design and price options than searching \"printer stand\" alone would surface.\n\nThis matters because limiting your search strictly to products labeled \"printer stand\" can mean missing a better-built, better-priced option marketed for a different but functionally identical use case.\n\nCheck listed dimensions and real weight capacity rather than the product category label alone, since a well-built CPU stand or monitor riser with adequate capacity is a legitimate substitute."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,77 +359,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Floor Type",
-    intro:
-      "Caster material and wheel size matter more on some floors than others, so match the stand to what it will actually roll across most days.",
-    table: {
-      headers: ["Floor type", "What to prioritize", "Best pick"],
-      rows: [
-        ["Hardwood or tile", "Rubber or soft-wheeled casters to avoid marks", "HUANUO Printer Stand"],
-        ["Carpet", "Larger wheels, wider caster base for less resistance", "Simple Houseware 3-Tier Utility Cart"],
-        ["Mixed hard floor and rugs", "General-purpose metal cart with sturdy wheels", "YASONIC 3 Tier Metal Rolling Cart"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "HUANUO Printer Stand with Cable Management and Storage Drawer"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "HUANUO Printer Stand with Cable Management and Storage Drawer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Printer Size",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $26",
+          "Sywhitta 3"
+        ],
+        [
+          "Up to $95",
+          "DEVAISE 3"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Weight Capacity vs Price",
+    "cards": [
       {
-        label: "Full-size all-in-one printer",
-        text: "The YAOHUOO's 22x15-inch top surface and 2-tier design give a bulkier all-in-one the room it needs without overhanging the edge.",
+        "label": "Sywhitta 3",
+        "text": "The lower-priced option in this comparison, worth checking its weight capacity against your printer's actual weight."
       },
       {
-        label: "Compact single-function printer",
-        text: "The Sywhitta or Pipishell's slim 3-tier frame comfortably holds a smaller inkjet or laser printer without wasting floor space.",
-      },
-      {
-        label: "Printer plus a real filing need",
-        text: "The DEVAISE 3-Drawer or GYIIYUO file cabinet combine a rolling printer surface with genuine lateral file storage in one purchase.",
-      },
+        "label": "DEVAISE 3",
+        "text": "The higher-priced option, worth it if it offers real capacity or stability headroom above the cheaper pick."
+      }
     ],
+    "note": "Default to Sywhitta 3 unless your printer's weight genuinely calls for more capacity."
   },
   {
-    subheading: "Stability Reality Check While Printing",
-    intro:
-      "A cart that rolls smoothly isn't automatically a cart that stays still once the printer starts working.",
-    table: {
-      headers: ["Pick", "Stability feature", "Extra tip"],
-      rows: [
-        ["HUANUO Printer Stand", "Locking caster wheels", "Engage the lock fully before starting a print job"],
-        ["Simple Houseware Utility Cart", "Heavy duty steel frame", "Load the bottom tier heaviest to lower the center of gravity"],
-        ["DEVAISE 3-Drawer Cabinet", "Wide lateral base", "Keep drawers closed while the printer is running for extra stability"],
-      ],
-    },
-    note: "If a stand doesn't have locking casters, park it against a wall or furniture edge on at least one side before printing to cut down on drift.",
+    "subheading": "By Ventilation Clearance",
+    "note": "Check each pick's design for open clearance around your printer's exhaust and paper output path before buying, not just its front-facing dimensions. HUANUO Printer Stand with Cable Management and Storage Drawer is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Purpose-Built Cart vs. General Utility Cart",
-    intro:
-      "Both approaches work well; the right one depends on whether you want dedicated printer features or maximum flexibility.",
-    table: {
-      headers: ["Priority", "Recommendation", "Best pick"],
-      rows: [
-        ["Cable cutouts and a hidden drawer", "Choose a dedicated printer cart", "HUANUO Printer Stand, YAOHUOO Large Printer Stand"],
-        ["Lowest price, most shelving flexibility", "Choose a general utility cart", "Pipishell 3 Tier Rolling Cart, Sywhitta 3-Tier Cart"],
-        ["Combined file storage", "Choose a mobile file cabinet with a flat top", "DEVAISE 3-Drawer, GYIIYUO Extended Desktop Cabinet"],
-      ],
-    },
-  },
-  {
-    subheading: "Cable Length vs. Realistic Roll Distance",
-    intro:
-      "A rolling stand that can't actually reach its intended spot without straining the cord defeats its own purpose.",
-    cards: [
+    "subheading": "For a Heavy All-in-One Printer Specifically",
+    "cards": [
       {
-        label: "Rolling less than 3 feet from the outlet",
-        text: "Almost any pick in this list works, since standard printer cables comfortably cover that distance with slack to spare.",
+        "label": "Look for",
+        "text": "A weight capacity with real margin above your printer's actual listed weight, and genuine vibration stability confirmed in reviews, not just static capacity."
       },
       {
-        label: "Rolling across a room or into a closet",
-        text: "Favor a stand you'll park in one of two fixed spots rather than one you expect to roll freely room to room, and consider a short extension cord rated for the printer's wattage.",
-      },
-    ],
+        "label": "In this comparison",
+        "text": "Check each pick's listing directly, since weight capacity isn't consistently disclosed across every stand in this comparison."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Your printer is heavy or used frequently throughout the day, where DEVAISE 3's capacity and stability give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You have a light, compact printer used only occasionally, where Sywhitta 3 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [
