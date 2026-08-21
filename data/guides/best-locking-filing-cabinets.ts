@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Locks are privacy devices, not security devices",
-    explanation:
-      "The standard cam lock used on every budget metal filing cabinet, including all 8 picks in this guide, can typically be opened in seconds with basic tools or even a paperclip. It deters casual snooping from roommates or kids, but it is not a substitute for a real safe, and sensitive documents like tax records or legal paperwork need a genuine UL-rated safe instead.",
+    "criterion": "Verify actual steel gauge, not just \"metal\" in the listing",
+    "explanation": "A filing cabinet described as \"metal\" can still be built with a thin metal face over a particleboard or MDF core rather than genuine steel construction throughout, and even among fully steel cabinets, gauge thickness (a lower number means thicker, sturdier steel) varies meaningfully between products that look nearly identical in listing photos.\n\nThis matters directly for how the cabinet holds up to years of drawer use and how well it resists denting or flexing under a fully loaded drawer's weight.\n\nCheck the listing specifically for a stated steel gauge number, and be skeptical of the word \"metal\" alone without a gauge figure or a clear description of full-steel versus metal-faced construction."
   },
   {
-    criterion: "COM keys mean your key may not be unique",
-    explanation:
-      "Many budget cabinets use COM, or common, keys, meaning the same key can sometimes open other cabinets from the same brand and lock supplier. If you're storing anything sensitive, don't assume your lock is uniquely keyed just because it came with its own key.",
+    "criterion": "Check for full-extension versus partial-extension drawer slides",
+    "explanation": "Full-extension drawer slides let a drawer pull completely out of the cabinet body, giving access to files at the very back, while partial-extension slides only pull the drawer out part way, leaving files at the rear harder to reach without leaning or reaching awkwardly into the cabinet.\n\nThis distinction matters a lot for daily usability, especially for a deep drawer holding hanging files toward the back, but rarely gets mentioned clearly in listing bullet points that focus on drawer count instead.\n\nCheck the listing specifically for \"full-extension\" language, and check reviews for mentions of how far drawers actually pull out in practice."
   },
   {
-    criterion: "UL Group 2 rating is the real benchmark for document security",
-    explanation:
-      "A genuine UL Group 2 rated lock is built to resist roughly 20 hours of expert manipulation, which is the appropriate minimum standard for actual tax or legal document security. None of the budget cabinets in this guide claim a UL rating, so treat their locks as a deterrent layer, not a security guarantee.",
+    "criterion": "Confirm anti-tip safety features if you have kids, pets, or plan a fully loaded cabinet",
+    "explanation": "A filing cabinet with multiple drawers can tip forward if more than one drawer is pulled open at once while loaded with paper, a real safety hazard, and better-designed cabinets include an anti-tip interlock mechanism that physically prevents opening a second drawer while another is already open.\n\nThis matters more in a household with kids or pets who might pull on drawers, or if you plan to keep the cabinet fully loaded with heavy paper files rather than lightly used.\n\nCheck the listing specifically for a stated anti-tip or interlock safety feature, since this detail is frequently omitted from budget cabinet listings entirely."
   },
   {
-    criterion: "Bar lock vs individual drawer lock",
-    explanation:
-      "A bar lock secures every drawer at once with a single mechanism, which is simple but means one point of failure if that lock breaks. Individual drawer locks are more granular and let you leave some drawers unlocked, but require separate mechanisms and sometimes separate keys per drawer.",
+    "criterion": "Match hanging file compatibility to your actual folder sizes",
+    "explanation": "Not every filing cabinet drawer accommodates both letter-size and legal-size hanging files, some are sized for letter only, and a drawer that looks roomy in a photo may not actually fit the wider legal-size folders many home offices and small businesses still use for certain documents.\n\nThis matters directly if any portion of your filing includes legal-size paperwork, buying based on drawer count or overall cabinet size alone without checking hanging-file compatibility is a common and easily avoidable mistake.\n\nCheck the listing specifically for stated letter and/or legal-size hanging file compatibility, not just the general drawer dimensions."
   },
   {
-    criterion: "Replacement keys and locks can become unavailable",
-    explanation:
-      "Proprietary locks on budget cabinets can become unavailable from the manufacturer within 3 to 5 years, especially on lower-volume listings. If you lose your key after that window, expect to pay a locksmith around $50 for a drill-out rather than simply ordering a replacement key.",
-  },
-  {
-    criterion: "Match drawer count to how much you actually file",
-    explanation:
-      "A 2 drawer cabinet is enough for most single-person home offices, but if you're archiving several years of paperwork or running a small business from home, a 3 or 4 drawer option like the Letaya 3 drawer pick or the Livofloral 4 drawer pick avoids running out of space within a year.",
-  },
+    "criterion": "Weigh assembly requirements and real delivered weight before ordering",
+    "explanation": "Filing cabinets range from fully assembled units shipped ready to use to flat-packed kits requiring meaningful assembly time and, for a genuinely heavy steel cabinet, more than one person to safely maneuver into place.\n\nThis matters because assembly difficulty and real shipped weight are easy to underestimate from a product photo, and a fully assembled cabinet costs more but eliminates that setup friction and the risk of a DIY assembly not being as sturdy as a factory-built one.\n\nCheck the listing for whether the cabinet ships assembled or requires assembly, and check the stated shipping weight against how much lifting and maneuvering you're actually prepared to handle at delivery."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,92 +359,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Which Listings Actually Confirm a Lock",
-    intro:
-      "Amazon listing titles are the most reliable signal we have for lock confirmation. Here's exactly which of these 8 cabinets confirm one and which is the exception.",
-    table: {
-      headers: ["Cabinet", "Lock confirmed on listing?", "Notes"],
-      rows: [
-        ["Letaya 3 Drawer Mobile", "Yes", "Cam lock, standard privacy feature"],
-        ["Yizosh Garage Storage Cabinet", "Yes", "Hybrid shelf storage, not primarily hanging folders"],
-        ["Letaya 2 Drawer Lateral", "Yes", "Cam lock, standard privacy feature"],
-        ["GYIIYUO 2 Drawer with Desktop", "No, not mentioned on listing", "Verify with seller if a lock is required"],
-        ["SISESOL 2 Drawer Narrow", "Yes", "Cam lock, standard privacy feature"],
-        ["BYNSOE 2 Drawer Vertical", "Yes", "Cam lock, standard privacy feature"],
-        ["SteeLoong 2 Drawer", "Yes", "Cam lock, standard privacy feature"],
-        ["Livofloral 4 Drawer", "Yes, 2 locks", "Small ratings sample, only 4 at time of review"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "If a confirmed lock is non-negotiable for your purchase, avoid the GYIIYUO pick and choose any of the other 7.",
+      "rows": [
+        [
+          "Highest average rating",
+          "Livofloral Vertical File Cabinet with 4 Drawers and 1 Door"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Yizosh Metal Garage Storage Cabinet with 2 Doors and 5 Adjustable Shelves"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Buyer Scenario",
-    cards: [
-      {
-        label: "I need the most drawers for heavy filing",
-        text: "The Livofloral 4 Drawer with its 2 confirmed locks and extra storage door holds more than any other pick here, though its 4-rating sample is worth weighing against the higher-volume picks.",
-      },
-      {
-        label: "I have limited floor space under my desk",
-        text: "The SISESOL 2 Drawer Narrow Vertical is built specifically to slide under a desk without eating into legroom.",
-      },
-      {
-        label: "I want a work surface on top, not just a lock",
-        text: "The GYIIYUO 2 Drawer with 24-inch Extended Desktop offers a genuine bonus work surface, but it has no confirmed lock, so choose it only if drawer security isn't your priority.",
-      },
-      {
-        label: "I need storage for bulkier items, not just hanging folders",
-        text: "The Yizosh Garage Storage Cabinet's 2 doors and 5 adjustable shelves suit binders, supplies, and mixed storage better than a drawer-only design.",
-      },
-      {
-        label: "I want the best balance of price and drawer count",
-        text: "The Letaya 3 Drawer Mobile gives three drawers, a confirmed lock, and full assembly out of the box for under $100.",
-      },
-    ],
-  },
-  {
-    subheading: "How Secure Is a Cam Lock, Really",
-    intro:
-      "Every locking cabinet in this guide, aside from the one exception noted above, uses a standard cam lock. It's worth understanding what that actually protects against before you buy.",
-    table: {
-      headers: ["Threat", "Does a cam lock stop it?", "What actually stops it"],
-      rows: [
-        ["Casual snooping by a roommate or child", "Yes, effectively", "A cam lock is sufficient here"],
-        ["A determined person with basic tools", "No, typically defeated in seconds", "A UL Group 2 rated lock or a fireproof safe"],
-        ["Fire damage to tax or legal documents", "No, not designed for this", "A fireproof, UL-rated document safe"],
-        ["Someone with a common COM key for the same brand", "No", "A cabinet with a uniquely keyed lock, verified with the seller"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $45",
+          "SISESOL 2 Drawer File Cabinet with Lock"
+        ],
+        [
+          "Up to $NaN",
+          "Livofloral Vertical File Cabinet with 4 Drawers and 1 Door"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Bar Lock vs Individual Drawer Lock",
-    cards: [
+    "subheading": "Legal-Size vs Letter-Size Compatibility",
+    "cards": [
       {
-        label: "Bar lock (single mechanism for all drawers)",
-        text: "Simpler to use, one key locks everything, but it's a single point of failure if that one lock or mechanism breaks.",
+        "label": "Legal-size compatible",
+        "text": "Fits wider legal-size hanging folders in addition to letter-size. In this comparison: SISESOL 2 Drawer File Cabinet with Lock."
       },
       {
-        label: "Individual drawer locks",
-        text: "More granular control, letting you leave some drawers unlocked, but requires separate mechanisms and can mean more parts that eventually wear out.",
-      },
+        "label": "Letter-size only",
+        "text": "Usually more compact and cheaper, fine if you never file legal-size documents. In this comparison: Letaya 3 Drawer Mobile File Cabinet with Lock, Yizosh Metal Garage Storage Cabinet with 2 Doors and 5 Adjustable Shelves, Letaya 2 Drawer File Cabinet with Lock, GYIIYUO 2 Drawer File Cabinet with 24, BYNSOE 2 Drawer File Cabinet with Lock, SteeLoong 2 Drawer File Cabinet with Lock, Livofloral Vertical File Cabinet with 4 Drawers and 1 Door."
+      }
     ],
-    note: "Most budget cabinets, including the picks in this guide, use a bar lock design rather than individually locking drawers.",
+    "note": "Default to letter-size only unless you specifically file legal-size documents."
   },
   {
-    subheading: "When to Spend More Than a Budget Cabinet",
-    intro:
-      "None of the 8 picks in this guide claim a UL security rating, which is fine for everyday privacy but not for genuinely sensitive records.",
-    cards: [
-      {
-        label: "Everyday household paperwork, bills, non-sensitive files",
-        text: "Any of the 7 confirmed-lock picks in this guide are appropriate.",
-      },
-      {
-        label: "Tax records, legal documents, or anything fire-sensitive",
-        text: "Step up to a dedicated UL Group 2 rated, fireproof document safe instead of relying on a budget cabinet's cam lock.",
-      },
-    ],
+    "subheading": "By Drawer Count",
+    "note": "Check each pick's listed drawer count and interior dimensions against your actual filing volume before buying. Yizosh Metal Garage Storage Cabinet with 2 Doors and 5 Adjustable Shelves is the most-reviewed option here if you want the safer bet."
   },
+  {
+    "subheading": "For Legal-Size Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Confirmed letter and legal-size hanging file compatibility, not just general drawer dimensions."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Yizosh Metal Garage Storage Cabinet with 2 Doors and 5 Adjustable Shelves is worth checking against its listed hanging-file compatibility before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real steel construction, anti-tip safety, and full-extension drawers, where Livofloral Vertical File Cabinet with 4 Drawers and 1 Door's higher price buys real build-quality headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need light, occasional storage for a small volume of documents, where SISESOL 2 Drawer File Cabinet with Lock covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -257,35 +257,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Check shelf load capacity against real book weight, not just 'sturdy'",
-    explanation:
-      "Open shelves in this category commonly cap out between 25 and 50 pounds per shelf. A single shelf packed with hardcover books can approach or exceed that limit quickly, so check the stated capacity rather than trusting a generic 'sturdy shelf' description.",
+    "criterion": "Verify actual steel gauge, not just \"metal\" in the listing",
+    "explanation": "A filing cabinet described as \"metal\" can still be built with a thin metal face over a particleboard or MDF core rather than genuine steel construction throughout, and even among fully steel cabinets, gauge thickness (a lower number means thicker, sturdier steel) varies meaningfully between products that look nearly identical in listing photos.\n\nThis matters directly for how the cabinet holds up to years of drawer use and how well it resists denting or flexing under a fully loaded drawer's weight.\n\nCheck the listing specifically for a stated steel gauge number, and be skeptical of the word \"metal\" alone without a gauge figure or a clear description of full-steel versus metal-faced construction."
   },
   {
-    criterion: "Filing capacity drops sharply in combo units",
-    explanation:
-      "Most filing-and-bookshelf combos in this category offer only 1 to 2 drawers, versus 3 to 5 drawers on dedicated filing cabinets. If you file heavily, a combo unit may force you to choose between books and paperwork storage sooner than expected.",
+    "criterion": "Check for full-extension versus partial-extension drawer slides",
+    "explanation": "Full-extension drawer slides let a drawer pull completely out of the cabinet body, giving access to files at the very back, while partial-extension slides only pull the drawer out part way, leaving files at the rear harder to reach without leaning or reaching awkwardly into the cabinet.\n\nThis distinction matters a lot for daily usability, especially for a deep drawer holding hanging files toward the back, but rarely gets mentioned clearly in listing bullet points that focus on drawer count instead.\n\nCheck the listing specifically for \"full-extension\" language, and check reviews for mentions of how far drawers actually pull out in practice."
   },
   {
-    criterion: "Material matters more in humid rooms",
-    explanation:
-      "MDF and particleboard combo units are more prone to swelling or warping in humid basements or un-air-conditioned rooms than solid wood or all-metal builds. If your home office is in a humid climate or a below-grade room, prioritize steel or solid wood construction.",
+    "criterion": "Confirm anti-tip safety features if you have kids, pets, or plan a fully loaded cabinet",
+    "explanation": "A filing cabinet with multiple drawers can tip forward if more than one drawer is pulled open at once while loaded with paper, a real safety hazard, and better-designed cabinets include an anti-tip interlock mechanism that physically prevents opening a second drawer while another is already open.\n\nThis matters more in a household with kids or pets who might pull on drawers, or if you plan to keep the cabinet fully loaded with heavy paper files rather than lightly used.\n\nCheck the listing specifically for a stated anti-tip or interlock safety feature, since this detail is frequently omitted from budget cabinet listings entirely."
   },
   {
-    criterion: "Tall combo units need anti-tip anchoring, not just careful loading",
-    explanation:
-      "A 72-inch combo tower loaded with books on upper shelves is genuinely top-heavy. Anti-tip wall anchoring, the same hardware used for bookshelves and dressers around children and pets, is a real safety requirement here, not an optional add-on.",
+    "criterion": "Match hanging file compatibility to your actual folder sizes",
+    "explanation": "Not every filing cabinet drawer accommodates both letter-size and legal-size hanging files, some are sized for letter only, and a drawer that looks roomy in a photo may not actually fit the wider legal-size folders many home offices and small businesses still use for certain documents.\n\nThis matters directly if any portion of your filing includes legal-size paperwork, buying based on drawer count or overall cabinet size alone without checking hanging-file compatibility is a common and easily avoidable mistake.\n\nCheck the listing specifically for stated letter and/or legal-size hanging file compatibility, not just the general drawer dimensions."
   },
   {
-    criterion: "Open shelving requires organizational discipline",
-    explanation:
-      "Open shelves show everything, which suits people who keep books and binders tidy, but clutter is visible immediately. If your storage habits run messier, a combo unit with a closed-door top section will hide clutter better than fully open shelving.",
-  },
-  {
-    criterion: "Verify a listing actually has shelving before assuming from search placement",
-    explanation:
-      "Several cabinets that surface in bookshelf-and-filing searches only include a single internal adjustable shelf, not genuine open bookshelving. Read the specific wording in the listing rather than assuming a shelf feature from the product category alone.",
-  },
+    "criterion": "Weigh assembly requirements and real delivered weight before ordering",
+    "explanation": "Filing cabinets range from fully assembled units shipped ready to use to flat-packed kits requiring meaningful assembly time and, for a genuinely heavy steel cabinet, more than one person to safely maneuver into place.\n\nThis matters because assembly difficulty and real shipped weight are easy to underestimate from a product photo, and a fully assembled cabinet costs more but eliminates that setup friction and the risk of a DIY assembly not being as sturdy as a factory-built one.\n\nCheck the listing for whether the cabinet ships assembled or requires assembly, and check the stated shipping weight against how much lifting and maneuvering you're actually prepared to handle at delivery."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -298,56 +288,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Genuine Shelf Need",
-    intro: "Start by deciding whether you need real multi-tier open shelving or just a single flexible shelf.",
-    table: {
-      headers: ["Need", "Best pick"],
-      rows: [
-        ["Genuine 3-tier open shelving", "NORTHSKY 72'' Tall Bookshelf with Power Outlet"],
-        ["Compact genuine open shelf plus filing", "SISESOL 2 Drawer with Open Storage Shelves"],
-        ["Just a single flexible interior shelf, decorative finish", "SEDETA 2 Drawer Wood Adjustable Shelf"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "SISESOL 2 Drawer File Cabinet with Lock and Shelf"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "DEVAISE 3"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Filing Capacity Priority",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $95",
+          "DEVAISE 3"
+        ],
+        [
+          "Up to $240",
+          "NORTHSKY 72'' Tall Bookshelf with Power Outlet"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Locking vs Non-Locking",
+    "cards": [
       {
-        label: "Books matter more than filing volume",
-        text: "The NORTHSKY tower gives the most genuine shelf space but only 2 drawers of filing capacity.",
+        "label": "Locking cabinet",
+        "text": "Genuine security for sensitive documents, worth it if the cabinet sits in a shared or semi-public space. In this comparison: SISESOL 2 Drawer File Cabinet with Lock and Shelf, SEDETA 2 Drawer File Cabinet with Lock, Letaya 4 Drawer File Cabinets with Lock."
       },
       {
-        label: "Filing matters more than shelving",
-        text: "The Letaya 4 Drawer Lateral or DEVAISE 5-Drawer offer far more drawer capacity, with only modest or no shelf storage.",
-      },
-      {
-        label: "Want a balance of both",
-        text: "The SISESOL 2 Drawer with Open Storage Shelves keeps a genuine open shelf without sacrificing all filing capacity.",
-      },
+        "label": "Non-locking",
+        "text": "Simpler and usually cheaper, fine for a private home office. In this comparison: NORTHSKY 72'' Tall Bookshelf with Power Outlet, DEVAISE 5, DEVAISE 3."
+      }
     ],
+    "note": "Default to locking unless the cabinet stays in a fully private, controlled-access space."
   },
   {
-    subheading: "Material by Room Environment",
-    table: {
-      headers: ["Room condition", "Best material", "Best pick"],
-      rows: [
-        ["Humid basement or un-air-conditioned room", "All-metal construction", "SISESOL 2 Drawer or Letaya 4 Drawer Lateral"],
-        ["Climate-controlled home office", "Wood finish acceptable", "SEDETA 2 Drawer or DEVAISE 5-Drawer"],
-      ],
-    },
-    note: "Wood and wood-composite bodies are more prone to warping in humid conditions than steel, so match material to your room before finish preference.",
+    "subheading": "By Drawer Count",
+    "note": "Check each pick's listed drawer count and interior dimensions against your actual filing volume before buying. DEVAISE 3 is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "By Budget Tier",
-    table: {
-      headers: ["Budget", "Trade-off", "Best pick"],
-      rows: [
-        ["Under $100", "No shelving, filing-only, largest review base", "DEVAISE 3-Drawer Lateral"],
-        ["$100-$150", "Genuine open shelf or high filing capacity", "SISESOL 2 Drawer or DEVAISE 5-Drawer"],
-        ["$150-$240", "Maximum filing capacity or genuine tall bookshelf", "Letaya 4 Drawer Lateral or NORTHSKY Tall Bookshelf"],
-      ],
-    },
+    "subheading": "For Legal-Size Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Confirmed letter and legal-size hanging file compatibility, not just general drawer dimensions."
+      },
+      {
+        "label": "In this comparison",
+        "text": "DEVAISE 3 is worth checking against its listed hanging-file compatibility before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real steel construction, anti-tip safety, and full-extension drawers, where NORTHSKY 72'' Tall Bookshelf with Power Outlet's higher price buys real build-quality headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need light, occasional storage for a small volume of documents, where DEVAISE 3 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -317,35 +317,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Steel gauge is rarely disclosed but matters for dent resistance",
-    explanation:
-      "18-gauge steel is the heaviest and most dent-resistant, typically found on premium cabinets. 20-gauge is standard mid-range, while 22-24-gauge budget cabinets dent more easily under daily use. Most listings in this price range don't state gauge directly, so treat price and stated 'heavy-duty' claims as rough proxies rather than certainties.",
+    "criterion": "Verify actual steel gauge, not just \"metal\" in the listing",
+    "explanation": "A filing cabinet described as \"metal\" can still be built with a thin metal face over a particleboard or MDF core rather than genuine steel construction throughout, and even among fully steel cabinets, gauge thickness (a lower number means thicker, sturdier steel) varies meaningfully between products that look nearly identical in listing photos.\n\nThis matters directly for how the cabinet holds up to years of drawer use and how well it resists denting or flexing under a fully loaded drawer's weight.\n\nCheck the listing specifically for a stated steel gauge number, and be skeptical of the word \"metal\" alone without a gauge figure or a clear description of full-steel versus metal-faced construction."
   },
   {
-    criterion: "Full-extension drawers matter more than drawer count",
-    explanation:
-      "A 3/4-extension drawer leaves files at the back partially inaccessible without pulling the whole drawer forward, while a full-extension drawer slides completely out. Few listings specify which type they use, so check buyer photos and reviews for extension complaints before assuming full access to every file.",
+    "criterion": "Check for full-extension versus partial-extension drawer slides",
+    "explanation": "Full-extension drawer slides let a drawer pull completely out of the cabinet body, giving access to files at the very back, while partial-extension slides only pull the drawer out part way, leaving files at the rear harder to reach without leaning or reaching awkwardly into the cabinet.\n\nThis distinction matters a lot for daily usability, especially for a deep drawer holding hanging files toward the back, but rarely gets mentioned clearly in listing bullet points that focus on drawer count instead.\n\nCheck the listing specifically for \"full-extension\" language, and check reviews for mentions of how far drawers actually pull out in practice."
   },
   {
-    criterion: "Anti-tip interlock is a real safety feature, not a marketing term",
-    explanation:
-      "Cabinets 28 inches or taller should include an anti-tip interlock that prevents multiple drawers from opening at once, since two open drawers loaded with files can tip a cabinet forward. ANSI/BIFMA standards call for this on qualifying cabinet heights, but budget imports sometimes skip it, so check listing photos for an interlock bar if this matters to you.",
+    "criterion": "Confirm anti-tip safety features if you have kids, pets, or plan a fully loaded cabinet",
+    "explanation": "A filing cabinet with multiple drawers can tip forward if more than one drawer is pulled open at once while loaded with paper, a real safety hazard, and better-designed cabinets include an anti-tip interlock mechanism that physically prevents opening a second drawer while another is already open.\n\nThis matters more in a household with kids or pets who might pull on drawers, or if you plan to keep the cabinet fully loaded with heavy paper files rather than lightly used.\n\nCheck the listing specifically for a stated anti-tip or interlock safety feature, since this detail is frequently omitted from budget cabinet listings entirely."
   },
   {
-    criterion: "'Metal' cabinets can still have a particleboard or MDF core",
-    explanation:
-      "Some cabinets marketed as metal use a thin metal face over a wood-composite body, which is lighter but less durable than true all-metal construction. All-metal cabinets are noticeably heavier to lift and typically require less assembly since the frame doesn't rely on wood joinery.",
+    "criterion": "Match hanging file compatibility to your actual folder sizes",
+    "explanation": "Not every filing cabinet drawer accommodates both letter-size and legal-size hanging files, some are sized for letter only, and a drawer that looks roomy in a photo may not actually fit the wider legal-size folders many home offices and small businesses still use for certain documents.\n\nThis matters directly if any portion of your filing includes legal-size paperwork, buying based on drawer count or overall cabinet size alone without checking hanging-file compatibility is a common and easily avoidable mistake.\n\nCheck the listing specifically for stated letter and/or legal-size hanging file compatibility, not just the general drawer dimensions."
   },
   {
-    criterion: "Hanging file drawer width determines legal-size compatibility",
-    explanation:
-      "Letter-size hanging files need about 12-13 inches of internal drawer width, while legal-size needs 15-16 inches. Some cabinets marketed as legal-compatible actually require a separate adapter rail, so confirm true internal width rather than trusting the size label alone.",
-  },
-  {
-    criterion: "Lateral cabinets need side clearance, vertical cabinets need depth clearance",
-    explanation:
-      "A lateral cabinet like the Letaya 2 Drawer Lateral opens along its wide side, needing clearance along a wall rather than in front. A vertical cabinet needs roughly 38-40 inches of total front-to-back clearance when a drawer is fully open, which can conflict with a nearby desk chair path in a tight office.",
-  },
+    "criterion": "Weigh assembly requirements and real delivered weight before ordering",
+    "explanation": "Filing cabinets range from fully assembled units shipped ready to use to flat-packed kits requiring meaningful assembly time and, for a genuinely heavy steel cabinet, more than one person to safely maneuver into place.\n\nThis matters because assembly difficulty and real shipped weight are easy to underestimate from a product photo, and a fully assembled cabinet costs more but eliminates that setup friction and the risk of a DIY assembly not being as sturdy as a factory-built one.\n\nCheck the listing for whether the cabinet ships assembled or requires assembly, and check the stated shipping weight against how much lifting and maneuvering you're actually prepared to handle at delivery."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -358,58 +348,83 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Assembly Preference",
-    intro: "Whether you want a cabinet ready to use immediately or don't mind assembly changes which picks make sense.",
-    table: {
-      headers: ["Preference", "Best pick"],
-      rows: [
-        ["Fully assembled, no setup", "Letaya 3 Drawer Mobile or DEVAISE 2 Drawer Metal"],
-        ["Willing to assemble for a lower price", "BYNSOE 2 Drawer Vertical Steel"],
-        ["Fully assembled, budget-focused", "VASAGLE CUSTOS 2-Drawer"],
+    "subheading": "By Drawer Extension Type",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Most-reviewed, strongest reliability signal",
+          "VASAGLE CUSTOS 2"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Footprint Constraint",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $53",
+          "VASAGLE CUSTOS 2"
+        ],
+        [
+          "Up to $130",
+          "DEVAISE 2 Drawer Metal File Cabinet"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Locking vs Non-Locking",
+    "cards": [
       {
-        label: "Limited front-to-back space, room along a wall",
-        text: "The Letaya 2 Drawer Lateral or DEVAISE 3-Drawer Lateral need less depth clearance than vertical cabinets, opening along their wider side instead.",
+        "label": "Locking cabinet",
+        "text": "Genuine security for sensitive documents, worth it if the cabinet sits in a shared or semi-public space. In this comparison: Letaya 3 Drawer Mobile File Cabinet with Lock, DEVAISE 2 Drawer Metal File Cabinet, Letaya 2 Drawer File Cabinet with Lock, BYNSOE 2 Drawer File Cabinet with Lock, SteeLoong 2 Drawer File Cabinet."
       },
       {
-        label: "Limited side space, room to open a drawer forward",
-        text: "The BYNSOE 2 Drawer Vertical Steel needs less side clearance, but plan for roughly 38-40 inches of depth when a drawer is fully open.",
-      },
-      {
-        label: "Very tight home office corner",
-        text: "The VASAGLE CUSTOS is the most compact option in this list at 15.7 x 16.5 x 27.6 inches and doubles as a printer stand.",
-      },
+        "label": "Non-locking",
+        "text": "Simpler and usually cheaper, fine for a private home office. In this comparison: DEVAISE 3, VASAGLE CUSTOS 2, GYIIYUO 2 Drawer File Cabinet with 24 Inch Extended Desktop."
+      }
     ],
+    "note": "Default to locking unless the cabinet stays in a fully private, controlled-access space."
   },
   {
-    subheading: "Steel Cabinets vs Fabric-Drawer Cabinets",
-    intro: "Not every cabinet here is true all-metal construction, and that changes durability expectations.",
-    table: {
-      headers: ["Type", "Example", "Trade-off"],
-      rows: [
-        ["Explicit steel construction", "BYNSOE 2 Drawer Vertical Steel", "Heavier, more dent-resistant, requires assembly"],
-        ["Metal cabinet, gauge not specified", "Letaya, DEVAISE, SteeLoong picks", "Likely mid-range gauge, treat price as a rough proxy"],
-        ["Fabric drawer fronts", "GYIIYUO with Extended Desktop", "Lighter weight, less dent-resistant than steel"],
-      ],
-    },
-    note: "If dent resistance matters most, prioritize cabinets that explicitly state steel construction over ones that only say 'metal' without further detail.",
+    "subheading": "By Drawer Count",
+    "note": "Check each pick's listed drawer count and interior dimensions against your actual filing volume before buying. VASAGLE CUSTOS 2 is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "By Budget Tier",
-    table: {
-      headers: ["Budget", "Trade-off", "Best pick"],
-      rows: [
-        ["Under $60", "Lightest gauge, smallest footprint", "VASAGLE CUSTOS or GYIIYUO with Extended Desktop"],
-        ["$65-$100", "Mid-range steel, assembly varies", "BYNSOE, SteeLoong, Letaya 3 Drawer, DEVAISE 3-Drawer Brown"],
-        ["$100-$130", "Fully assembled, strongest review base", "Letaya 3 Drawer Mobile or DEVAISE 2 Drawer Metal"],
-      ],
-    },
+    "subheading": "For Legal-Size Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Confirmed letter and legal-size hanging file compatibility, not just general drawer dimensions."
+      },
+      {
+        "label": "In this comparison",
+        "text": "VASAGLE CUSTOS 2 is worth checking against its listed hanging-file compatibility before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real steel construction, anti-tip safety, and full-extension drawers, where DEVAISE 2 Drawer Metal File Cabinet's higher price buys real build-quality headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need light, occasional storage for a small volume of documents, where VASAGLE CUSTOS 2 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

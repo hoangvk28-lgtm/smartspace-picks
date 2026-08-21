@@ -333,35 +333,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Measure your desk's actual clearance before assuming under-desk fit",
-    explanation:
-      "These cabinets typically stand 24 to 28 inches tall, but a standing desk set to sitting height may offer only 22 to 28 inches of clearance beneath the desktop. Measure the actual gap at your desk's normal working height rather than trusting the words under-desk in a listing title.",
+    "criterion": "Verify actual steel gauge, not just \"metal\" in the listing",
+    "explanation": "A filing cabinet described as \"metal\" can still be built with a thin metal face over a particleboard or MDF core rather than genuine steel construction throughout, and even among fully steel cabinets, gauge thickness (a lower number means thicker, sturdier steel) varies meaningfully between products that look nearly identical in listing photos.\n\nThis matters directly for how the cabinet holds up to years of drawer use and how well it resists denting or flexing under a fully loaded drawer's weight.\n\nCheck the listing specifically for a stated steel gauge number, and be skeptical of the word \"metal\" alone without a gauge figure or a clear description of full-steel versus metal-faced construction."
   },
   {
-    criterion: "The heavier file drawer belongs on the bottom",
-    explanation:
-      "A properly designed pedestal cabinet places the heavier letter or legal file drawer on the bottom and lighter box or supply drawers above it, which keeps the cabinet's center of gravity low and stable. Some budget units invert this order, so check drawer labeling in the listing images before assuming correct placement.",
+    "criterion": "Check for full-extension versus partial-extension drawer slides",
+    "explanation": "Full-extension drawer slides let a drawer pull completely out of the cabinet body, giving access to files at the very back, while partial-extension slides only pull the drawer out part way, leaving files at the rear harder to reach without leaning or reaching awkwardly into the cabinet.\n\nThis distinction matters a lot for daily usability, especially for a deep drawer holding hanging files toward the back, but rarely gets mentioned clearly in listing bullet points that focus on drawer count instead.\n\nCheck the listing specifically for \"full-extension\" language, and check reviews for mentions of how far drawers actually pull out in practice."
   },
   {
-    criterion: "The pedestal top is not a substitute desk surface",
-    explanation:
-      "A pedestal cabinet top typically sits 24 to 28 inches high, noticeably lower than a standard desk surface at 28 to 30 inches. Treat any extended top, like the GYIIYUO's, as a spot for a printer or supplies rather than a comfortable secondary work surface for typing or writing.",
+    "criterion": "Confirm anti-tip safety features if you have kids, pets, or plan a fully loaded cabinet",
+    "explanation": "A filing cabinet with multiple drawers can tip forward if more than one drawer is pulled open at once while loaded with paper, a real safety hazard, and better-designed cabinets include an anti-tip interlock mechanism that physically prevents opening a second drawer while another is already open.\n\nThis matters more in a household with kids or pets who might pull on drawers, or if you plan to keep the cabinet fully loaded with heavy paper files rather than lightly used.\n\nCheck the listing specifically for a stated anti-tip or interlock safety feature, since this detail is frequently omitted from budget cabinet listings entirely."
   },
   {
-    criterion: "Check for cable pass-through if the cabinet sits near power strips",
-    explanation:
-      "A solid-backed budget cabinet can block cable routing between your desk and nearby outlets, forcing cables to run around rather than through the cabinet. Pre-punched cable holes or an open back design, where stated, make routing power and charging cables significantly easier.",
+    "criterion": "Match hanging file compatibility to your actual folder sizes",
+    "explanation": "Not every filing cabinet drawer accommodates both letter-size and legal-size hanging files, some are sized for letter only, and a drawer that looks roomy in a photo may not actually fit the wider legal-size folders many home offices and small businesses still use for certain documents.\n\nThis matters directly if any portion of your filing includes legal-size paperwork, buying based on drawer count or overall cabinet size alone without checking hanging-file compatibility is a common and easily avoidable mistake.\n\nCheck the listing specifically for stated letter and/or legal-size hanging file compatibility, not just the general drawer dimensions."
   },
   {
-    criterion: "Match rolling vs. stationary to your desk's shape",
-    explanation:
-      "An L-shaped desk benefits from a rolling cabinet like the GYIIYUO or either DEVAISE model, since it can tuck into the corner and roll out when needed. A straight desk with a fixed under-desk gap is usually just as well served by a stationary cabinet, and stationary units tend to feel more solid when fully loaded with files.",
-  },
-  {
-    criterion: "Lateral cabinets need side clearance, not just under-desk depth",
-    explanation:
-      "A lateral cabinet, like the Letaya 2 Drawer Lateral in this list, is roughly 28 inches wide and built for side-to-side hanging file access, a meaningfully different footprint than a narrow pedestal cabinet. It's a better fit placed beside a desk with open floor space than squeezed into a narrow under-desk gap.",
-  },
+    "criterion": "Weigh assembly requirements and real delivered weight before ordering",
+    "explanation": "Filing cabinets range from fully assembled units shipped ready to use to flat-packed kits requiring meaningful assembly time and, for a genuinely heavy steel cabinet, more than one person to safely maneuver into place.\n\nThis matters because assembly difficulty and real shipped weight are easy to underestimate from a product photo, and a fully assembled cabinet costs more but eliminates that setup friction and the risk of a DIY assembly not being as sturdy as a factory-built one.\n\nCheck the listing for whether the cabinet ships assembled or requires assembly, and check the stated shipping weight against how much lifting and maneuvering you're actually prepared to handle at delivery."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -374,67 +364,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Confirmed Under-Desk Fit",
-    intro: "Not every cabinet in this list is explicitly built for under-desk use. Here's what's actually stated.",
-    table: {
-      headers: ["Fit type", "Cabinets", "Recommendation"],
-      rows: [
-        ["Explicitly under-desk, pedestal footprint", "Letaya 3 Drawer, SISESOL 2 Drawer", "Safest confirmed fit for tight gaps"],
-        ["Pedestal-style, no explicit claim", "SteeLoong, BYNSOE, both DEVAISE models", "Measure your clearance before buying"],
-        ["Wider lateral, not pedestal-style", "Letaya 2 Drawer Lateral", "Better suited to side placement, not a tight under-desk gap"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Letaya 3 Drawer Mobile File Cabinet with Lock"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Letaya 3 Drawer Mobile File Cabinet with Lock"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Desk Clearance Height",
-    table: {
-      headers: ["Your desk clearance", "What fits", "Best pick"],
-      rows: [
-        ["22-24 inches", "Narrowest 2-drawer pedestal", "SISESOL 2 Drawer Under Desk"],
-        ["24-26 inches", "Standard 2-drawer pedestal", "SteeLoong or BYNSOE"],
-        ["26-28 inches", "3-drawer pedestal fits comfortably", "Letaya 3 Drawer Under Desk"],
-        ["Open floor space beside the desk", "Wider lateral cabinet", "Letaya 2 Drawer Lateral"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
-    note: "Measure from the floor to the underside of your desktop at your normal sitting or standing height, not the desk's maximum height setting.",
+      "rows": [
+        [
+          "Under $45",
+          "SISESOL 2 Drawer File Cabinet with Lock"
+        ],
+        [
+          "Up to $NaN",
+          "DEVAISE 2 Drawer Mobile File Cabinet"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Desk Shape",
-    cards: [
+    "subheading": "Locking vs Non-Locking",
+    "cards": [
       {
-        label: "L-shaped desk with corner space",
-        text: "A rolling cabinet like the GYIIYUO or either DEVAISE model can tuck into the corner and roll out when you need drawer access.",
+        "label": "Locking cabinet",
+        "text": "Genuine security for sensitive documents, worth it if the cabinet sits in a shared or semi-public space. In this comparison: Letaya 3 Drawer Mobile File Cabinet with Lock, Letaya 2 Drawer File Cabinet with Lock, SISESOL 2 Drawer File Cabinet with Lock, SteeLoong 2 Drawer File Cabinets, BYNSOE 2 Drawer File Cabinet with Lock."
       },
       {
-        label: "Straight desk with a fixed gap",
-        text: "A stationary pedestal like the Letaya 3 Drawer or SISESOL feels more solid when fully loaded and doesn't need rolling clearance.",
-      },
+        "label": "Non-locking",
+        "text": "Simpler and usually cheaper, fine for a private home office. In this comparison: GYIIYUO 2 Drawer File Cabinet with 24 Inch Extended Desktop, DEVAISE Mobile File Cabinet, DEVAISE 2 Drawer Mobile File Cabinet."
+      }
     ],
+    "note": "Default to locking unless the cabinet stays in a fully private, controlled-access space."
   },
   {
-    subheading: "By Added Function",
-    table: {
-      headers: ["Need", "Feature", "Best pick"],
-      rows: [
-        ["Extra surface for a printer", "Open top shelf", "DEVAISE Open Shelf Printer Stand"],
-        ["Extended side work surface", "24 inch extended top", "GYIIYUO 2 Drawer"],
-        ["Document security", "Lockable drawers", "Letaya 3 Drawer, SISESOL, or Letaya Lateral"],
-        ["Wood-grain home office look", "Wood-grain print finish", "DEVAISE Wood Grain 2 Drawer"],
-      ],
-    },
+    "subheading": "By Drawer Count",
+    "note": "Check each pick's listed drawer count and interior dimensions against your actual filing volume before buying. Letaya 3 Drawer Mobile File Cabinet with Lock is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "By Budget Tier",
-    table: {
-      headers: ["Budget", "Tradeoff", "Best pick"],
-      rows: [
-        ["Under $50", "Narrower capacity, smaller review base", "SISESOL 2 Drawer Under Desk"],
-        ["$56.99-$64.99", "General-purpose, no explicit under-desk claim", "GYIIYUO, SteeLoong, or BYNSOE"],
-        ["$99.99", "Confirmed under-desk pedestal or wider lateral", "Letaya 3 Drawer or Letaya Lateral"],
-        ["Price not currently listed", "Verify current Amazon price before comparing", "Either DEVAISE model"],
-      ],
-    },
+    "subheading": "For Legal-Size Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Confirmed letter and legal-size hanging file compatibility, not just general drawer dimensions."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Letaya 3 Drawer Mobile File Cabinet with Lock is worth checking against its listed hanging-file compatibility before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real steel construction, anti-tip safety, and full-extension drawers, where DEVAISE 2 Drawer Mobile File Cabinet's higher price buys real build-quality headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need light, occasional storage for a small volume of documents, where SISESOL 2 Drawer File Cabinet with Lock covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

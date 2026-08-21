@@ -257,35 +257,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "UL or ETL certification is the only real filter for a fireproof claim",
-    explanation:
-      "A cabinet marketed as fireproof or fire-resistant without a stated UL or ETL certification is making an unverified claim. Look specifically for the certification and its class rating in the listing itself, not just the word fireproof in the title, before trusting any fire-safety claim.",
+    "criterion": "Verify actual steel gauge, not just \"metal\" in the listing",
+    "explanation": "A filing cabinet described as \"metal\" can still be built with a thin metal face over a particleboard or MDF core rather than genuine steel construction throughout, and even among fully steel cabinets, gauge thickness (a lower number means thicker, sturdier steel) varies meaningfully between products that look nearly identical in listing photos.\n\nThis matters directly for how the cabinet holds up to years of drawer use and how well it resists denting or flexing under a fully loaded drawer's weight.\n\nCheck the listing specifically for a stated steel gauge number, and be skeptical of the word \"metal\" alone without a gauge figure or a clear description of full-steel versus metal-faced construction."
   },
   {
-    criterion: "UL Class 350 protects paper, UL Class 150 protects digital media",
-    explanation:
-      "UL Class 350 is rated to keep interior temperatures below 350 degrees Fahrenheit, suitable for paper documents. UL Class 150 keeps interior temperatures below 150 degrees Fahrenheit, the lower threshold needed to protect USB drives, discs, and other digital media, which most home cabinets, fireproof-labeled or not, are not rated for.",
+    "criterion": "Check for full-extension versus partial-extension drawer slides",
+    "explanation": "Full-extension drawer slides let a drawer pull completely out of the cabinet body, giving access to files at the very back, while partial-extension slides only pull the drawer out part way, leaving files at the rear harder to reach without leaning or reaching awkwardly into the cabinet.\n\nThis distinction matters a lot for daily usability, especially for a deep drawer holding hanging files toward the back, but rarely gets mentioned clearly in listing bullet points that focus on drawer count instead.\n\nCheck the listing specifically for \"full-extension\" language, and check reviews for mentions of how far drawers actually pull out in practice."
   },
   {
-    criterion: "A fire duration rating should match realistic response times",
-    explanation:
-      "Genuine fireproof safes carry a duration rating, commonly 30 minutes, 1 hour, or 2 hours, describing how long the interior stays below its rated temperature. Match this to a realistic residential fire response scenario in your area rather than assuming any duration is sufficient.",
+    "criterion": "Confirm anti-tip safety features if you have kids, pets, or plan a fully loaded cabinet",
+    "explanation": "A filing cabinet with multiple drawers can tip forward if more than one drawer is pulled open at once while loaded with paper, a real safety hazard, and better-designed cabinets include an anti-tip interlock mechanism that physically prevents opening a second drawer while another is already open.\n\nThis matters more in a household with kids or pets who might pull on drawers, or if you plan to keep the cabinet fully loaded with heavy paper files rather than lightly used.\n\nCheck the listing specifically for a stated anti-tip or interlock safety feature, since this detail is frequently omitted from budget cabinet listings entirely."
   },
   {
-    criterion: "Water resistance is a separate protection from fire rating",
-    explanation:
-      "Fire suppression systems and firefighting efforts commonly involve water, which can damage documents a fire itself did not reach. A genuinely protective safe should address both fire and water exposure, and a fire rating alone does not guarantee water resistance.",
+    "criterion": "Match hanging file compatibility to your actual folder sizes",
+    "explanation": "Not every filing cabinet drawer accommodates both letter-size and legal-size hanging files, some are sized for letter only, and a drawer that looks roomy in a photo may not actually fit the wider legal-size folders many home offices and small businesses still use for certain documents.\n\nThis matters directly if any portion of your filing includes legal-size paperwork, buying based on drawer count or overall cabinet size alone without checking hanging-file compatibility is a common and easily avoidable mistake.\n\nCheck the listing specifically for stated letter and/or legal-size hanging file compatibility, not just the general drawer dimensions."
   },
   {
-    criterion: "Genuine fireproof units are 2 to 4 times heavier than standard cabinets",
-    explanation:
-      "Real fire-rated safes use dense insulating materials that add significant weight, often 2 to 4 times that of a standard steel cabinet of similar size. If a product marketed as fireproof feels comparable in weight to the standard cabinets in this guide, that is a signal to double-check its actual certification before trusting the claim.",
-  },
-  {
-    criterion: "None of the standard cabinets in this guide are a substitute for a certified fireproof safe",
-    explanation:
-      "If protecting irreplaceable documents or digital backups from fire is a genuine requirement, buy a dedicated safe with a stated UL Class 350 or 150 rating and duration rating. The cabinets in this guide are included as standard, non-certified alternatives for buyers researching this category, not as a recommended substitute.",
-  },
+    "criterion": "Weigh assembly requirements and real delivered weight before ordering",
+    "explanation": "Filing cabinets range from fully assembled units shipped ready to use to flat-packed kits requiring meaningful assembly time and, for a genuinely heavy steel cabinet, more than one person to safely maneuver into place.\n\nThis matters because assembly difficulty and real shipped weight are easy to underestimate from a product photo, and a fully assembled cabinet costs more but eliminates that setup friction and the risk of a DIY assembly not being as sturdy as a factory-built one.\n\nCheck the listing for whether the cabinet ships assembled or requires assembly, and check the stated shipping weight against how much lifting and maneuvering you're actually prepared to handle at delivery."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -298,58 +288,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "If Fire Protection Is a Genuine Requirement",
-    intro: "Read this section before choosing anything in this guide.",
-    table: {
-      headers: ["Situation", "Recommendation"],
-      rows: [
-        ["Need certified protection for paper documents", "Buy a dedicated safe with a stated UL Class 350 rating, not any product in this guide"],
-        ["Need certified protection for digital media (USB, discs)", "Buy a dedicated safe with a stated UL Class 150 rating specifically, since Class 350 alone does not cover this"],
-        ["Just want a lockable, sturdy standard cabinet", "Any pick in this guide is a reasonable choice for that narrower goal"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "None of the products in this guide carry a confirmed fireproof certification. This table exists to redirect genuine fire-protection needs to the correct product category.",
+      "rows": [
+        [
+          "Highest average rating",
+          "Letaya Mobile File Cabinet with Lock"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Yizosh Metal Garage Storage Cabinet with 2 Doors and 5 Adjustable Shelves"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Build Sturdiness (Standard Cabinets Only)",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $45",
+          "SISESOL 2 Drawer File Cabinet with Lock"
+        ],
+        [
+          "Up to $145",
+          "Yizosh Metal Garage Storage Cabinet with 2 Doors and 5 Adjustable Shelves"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Locking vs Non-Locking",
+    "cards": [
       {
-        label: "Want the heaviest, most robust standard steel build",
-        text: "The Yizosh Metal Garage Storage Cabinet is the largest and most solidly built option, though still not fireproof-certified.",
+        "label": "Locking cabinet",
+        "text": "Genuine security for sensitive documents, worth it if the cabinet sits in a shared or semi-public space. In this comparison: Yizosh Metal Garage Storage Cabinet with 2 Doors and 5 Adjustable Shelves, Letaya Mobile File Cabinet with Lock, Letaya 3 Drawer Mobile File Cabinet with Lock, Letaya 2 Drawer File Cabinet with Lock, SISESOL 2 Drawer File Cabinet with Lock."
       },
       {
-        label: "Want a lighter, more compact standard cabinet",
-        text: "The SISESOL 2 Drawer Narrow Vertical is the most space-efficient pick, again with no fire rating.",
-      },
-      {
-        label: "Want the best-reviewed locking option",
-        text: "The Letaya Mobile 2 Drawer and Letaya 3 Drawer both carry the strongest 4.5-star feedback in this list.",
-      },
+        "label": "Non-locking",
+        "text": "Simpler and usually cheaper, fine for a private home office. In this comparison: GYIIYUO 2 Drawer File Cabinet with 24 Inch Extended Desktop."
+      }
     ],
+    "note": "Default to locking unless the cabinet stays in a fully private, controlled-access space."
   },
   {
-    subheading: "By Footprint Constraint",
-    table: {
-      headers: ["Space available", "Best pick"],
-      rows: [
-        ["Large garage or storage room", "Yizosh Metal Garage Storage Cabinet"],
-        ["Standard home office corner", "Letaya 3 Drawer Mobile or Letaya 2 Drawer Lateral"],
-        ["Very tight space", "SISESOL 2 Drawer Narrow Vertical"],
-      ],
-    },
+    "subheading": "By Drawer Count",
+    "note": "Check each pick's listed drawer count and interior dimensions against your actual filing volume before buying. Yizosh Metal Garage Storage Cabinet with 2 Doors and 5 Adjustable Shelves is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "By Budget Tier",
-    table: {
-      headers: ["Budget", "Trade-off", "Best pick"],
-      rows: [
-        ["Under $60", "Smallest footprint, lightest build", "SISESOL 2 Drawer or GYIIYUO with Extended Desktop"],
-        ["$95-$110", "Fully assembled steel cabinets", "Letaya 3 Drawer, Letaya Mobile 2 Drawer, or Letaya Lateral"],
-        ["$140-$150", "Largest, most robust standard build", "Yizosh Metal Garage Storage Cabinet"],
-      ],
-    },
-    note: "None of these tiers include a fireproof-certified option. Budget accordingly for a separate dedicated safe if fire protection is required.",
+    "subheading": "For Legal-Size Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Confirmed letter and legal-size hanging file compatibility, not just general drawer dimensions."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Yizosh Metal Garage Storage Cabinet with 2 Doors and 5 Adjustable Shelves is worth checking against its listed hanging-file compatibility before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real steel construction, anti-tip safety, and full-extension drawers, where Yizosh Metal Garage Storage Cabinet with 2 Doors and 5 Adjustable Shelves's higher price buys real build-quality headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need light, occasional storage for a small volume of documents, where SISESOL 2 Drawer File Cabinet with Lock covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

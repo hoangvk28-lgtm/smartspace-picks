@@ -257,35 +257,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Internal drawer width, not cabinet width, determines legal fit",
-    explanation:
-      "Legal hanging files need about 15.25 inches or more of internal drawer width. A cabinet's external dimensions can look spacious while the actual drawer interior is too narrow, so check internal width specs rather than assuming from the outer footprint.",
+    "criterion": "Verify actual steel gauge, not just \"metal\" in the listing",
+    "explanation": "A filing cabinet described as \"metal\" can still be built with a thin metal face over a particleboard or MDF core rather than genuine steel construction throughout, and even among fully steel cabinets, gauge thickness (a lower number means thicker, sturdier steel) varies meaningfully between products that look nearly identical in listing photos.\n\nThis matters directly for how the cabinet holds up to years of drawer use and how well it resists denting or flexing under a fully loaded drawer's weight.\n\nCheck the listing specifically for a stated steel gauge number, and be skeptical of the word \"metal\" alone without a gauge figure or a clear description of full-steel versus metal-faced construction."
   },
   {
-    criterion: "Hanging rail spacing must match legal, not letter, sizing",
-    explanation:
-      "Legal-size hanging rails sit about 14.25 inches apart, roughly two inches wider than letter-size spacing. A cabinet built for letter-size rails will not hold legal folders correctly without a separate adapter rail, which many buyers only discover after unboxing.",
+    "criterion": "Check for full-extension versus partial-extension drawer slides",
+    "explanation": "Full-extension drawer slides let a drawer pull completely out of the cabinet body, giving access to files at the very back, while partial-extension slides only pull the drawer out part way, leaving files at the rear harder to reach without leaning or reaching awkwardly into the cabinet.\n\nThis distinction matters a lot for daily usability, especially for a deep drawer holding hanging files toward the back, but rarely gets mentioned clearly in listing bullet points that focus on drawer count instead.\n\nCheck the listing specifically for \"full-extension\" language, and check reviews for mentions of how far drawers actually pull out in practice."
   },
   {
-    criterion: "Full-extension slides matter more at legal length",
-    explanation:
-      "Legal files are longer front to back than letter files, so a partial-extension drawer leaves more of the back contents out of reach compared to a letter-size drawer. Full-extension slides give complete access, which matters more as file length increases.",
+    "criterion": "Confirm anti-tip safety features if you have kids, pets, or plan a fully loaded cabinet",
+    "explanation": "A filing cabinet with multiple drawers can tip forward if more than one drawer is pulled open at once while loaded with paper, a real safety hazard, and better-designed cabinets include an anti-tip interlock mechanism that physically prevents opening a second drawer while another is already open.\n\nThis matters more in a household with kids or pets who might pull on drawers, or if you plan to keep the cabinet fully loaded with heavy paper files rather than lightly used.\n\nCheck the listing specifically for a stated anti-tip or interlock safety feature, since this detail is frequently omitted from budget cabinet listings entirely."
   },
   {
-    criterion: "A higher slide load rating protects against sag under legal paper weight",
-    explanation:
-      "Legal paper runs roughly 27 percent heavier per sheet than letter paper, so a fully loaded legal drawer puts more strain on its slides. A 100-pound-rated slide gives more headroom for a packed legal drawer than a lighter-duty slide built with letter-size loads in mind.",
+    "criterion": "Match hanging file compatibility to your actual folder sizes",
+    "explanation": "Not every filing cabinet drawer accommodates both letter-size and legal-size hanging files, some are sized for letter only, and a drawer that looks roomy in a photo may not actually fit the wider legal-size folders many home offices and small businesses still use for certain documents.\n\nThis matters directly if any portion of your filing includes legal-size paperwork, buying based on drawer count or overall cabinet size alone without checking hanging-file compatibility is a common and easily avoidable mistake.\n\nCheck the listing specifically for stated letter and/or legal-size hanging file compatibility, not just the general drawer dimensions."
   },
   {
-    criterion: "Lateral cabinets are an underused alternative for legal-size storage",
-    explanation:
-      "A lateral cabinet's wider drawer body can accommodate legal folders with less front-to-back depth than a vertical cabinet, at the cost of needing more side clearance along a wall. This trade-off is rarely mentioned in general filing cabinet guides.",
-  },
-  {
-    criterion: "A 'fits legal' label alone is not a substitute for confirmed specs",
-    explanation:
-      "Some listings claim legal-size compatibility without stating internal width or rail spacing. If a listing only says 'fits legal' without further detail, treat it as a softer signal than one that also states internal drawer dimensions.",
-  },
+    "criterion": "Weigh assembly requirements and real delivered weight before ordering",
+    "explanation": "Filing cabinets range from fully assembled units shipped ready to use to flat-packed kits requiring meaningful assembly time and, for a genuinely heavy steel cabinet, more than one person to safely maneuver into place.\n\nThis matters because assembly difficulty and real shipped weight are easy to underestimate from a product photo, and a fully assembled cabinet costs more but eliminates that setup friction and the risk of a DIY assembly not being as sturdy as a factory-built one.\n\nCheck the listing for whether the cabinet ships assembled or requires assembly, and check the stated shipping weight against how much lifting and maneuvering you're actually prepared to handle at delivery."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -298,56 +288,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Confirmed Legal-Size Fit",
-    intro: "Not every cabinet in a general filing search confirms legal-size compatibility, so start here.",
-    table: {
-      headers: ["Need", "Best pick"],
-      rows: [
-        ["Fully confirmed legal fit, fully assembled", "Letaya 3 Drawer Mobile or DEVAISE 2 Drawer Metal"],
-        ["Confirmed legal fit, tight budget", "SISESOL 2 Drawer Narrow Vertical"],
-        ["Confirmed legal fit, lateral footprint", "Letaya 2 Drawer Lateral"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "If legal-size storage is your primary need, avoid the two picks in this list that only confirm letter size, even though they are otherwise well reviewed.",
+      "rows": [
+        [
+          "Highest average rating",
+          "Letaya 3 Drawer Mobile File Cabinet with Lock"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "DEVAISE 2 Drawer Metal File Cabinet"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Footprint Constraint",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $45",
+          "SISESOL 2 Drawer File Cabinet with Lock"
+        ],
+        [
+          "Up to $130",
+          "DEVAISE 2 Drawer Metal File Cabinet"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Locking vs Non-Locking",
+    "cards": [
       {
-        label: "Room along a wall, limited front-to-back space",
-        text: "The Letaya 2 Drawer Lateral gives legal folders more side-to-side room without needing extra depth clearance.",
+        "label": "Locking cabinet",
+        "text": "Genuine security for sensitive documents, worth it if the cabinet sits in a shared or semi-public space. In this comparison: Letaya 3 Drawer Mobile File Cabinet with Lock, DEVAISE 2 Drawer Metal File Cabinet, Letaya 2 Drawer File Cabinet with Lock, SISESOL 2 Drawer File Cabinet with Lock, BYNSOE 2 Drawer File Cabinet with Lock."
       },
       {
-        label: "Very tight home office corner",
-        text: "The SISESOL 2 Drawer Narrow Vertical is the most compact confirmed-legal option in this list at the lowest price.",
-      },
-      {
-        label: "Need an extra work surface too",
-        text: "The GYIIYUO with Extended Desktop adds a printer stand surface, though legal-size fit is not confirmed for this model.",
-      },
+        "label": "Non-locking",
+        "text": "Simpler and usually cheaper, fine for a private home office. In this comparison: GYIIYUO 2 Drawer File Cabinet with 24 Inch Extended Desktop."
+      }
     ],
+    "note": "Default to locking unless the cabinet stays in a fully private, controlled-access space."
   },
   {
-    subheading: "Legal-Confirmed vs Letter-Only Cabinets",
-    table: {
-      headers: ["Status", "Examples", "What it means"],
-      rows: [
-        ["Legal-size confirmed in listing", "Letaya 3 Drawer, DEVAISE 2 Drawer, Letaya Lateral, SISESOL", "Safer bet if legal files are your main storage need"],
-        ["Letter and A4 only, no legal claim", "GYIIYUO, BYNSOE", "Included as budget alternatives, not verified legal-size picks"],
-      ],
-    },
+    "subheading": "By Drawer Count",
+    "note": "Check each pick's listed drawer count and interior dimensions against your actual filing volume before buying. DEVAISE 2 Drawer Metal File Cabinet is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "By Budget Tier",
-    table: {
-      headers: ["Budget", "Trade-off", "Best pick"],
-      rows: [
-        ["Under $60", "Confirmed legal fit at the lowest price", "SISESOL 2 Drawer Narrow Vertical"],
-        ["$60-$100", "Mix of confirmed and unconfirmed legal fit", "Letaya 2 Drawer Lateral (confirmed) or BYNSOE (letter only)"],
-        ["$100-$130", "Fully assembled, strongest confirmed legal fit", "Letaya 3 Drawer Mobile or DEVAISE 2 Drawer Metal"],
-      ],
-    },
+    "subheading": "For Legal-Size Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Confirmed letter and legal-size hanging file compatibility, not just general drawer dimensions."
+      },
+      {
+        "label": "In this comparison",
+        "text": "DEVAISE 2 Drawer Metal File Cabinet is worth checking against its listed hanging-file compatibility before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real steel construction, anti-tip safety, and full-extension drawers, where DEVAISE 2 Drawer Metal File Cabinet's higher price buys real build-quality headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need light, occasional storage for a small volume of documents, where SISESOL 2 Drawer File Cabinet with Lock covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

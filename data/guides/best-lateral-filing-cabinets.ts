@@ -333,35 +333,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Only one drawer opens at a time on a lateral cabinet",
-    explanation:
-      "Genuine lateral cabinets include an anti-tip interlock that physically prevents more than one drawer from opening simultaneously, a safety feature that also slows down multi-drawer workflows compared to a vertical cabinet without the same restriction. If you frequently need two drawers open at once, factor this in before choosing a lateral cabinet.",
+    "criterion": "Verify actual steel gauge, not just \"metal\" in the listing",
+    "explanation": "A filing cabinet described as \"metal\" can still be built with a thin metal face over a particleboard or MDF core rather than genuine steel construction throughout, and even among fully steel cabinets, gauge thickness (a lower number means thicker, sturdier steel) varies meaningfully between products that look nearly identical in listing photos.\n\nThis matters directly for how the cabinet holds up to years of drawer use and how well it resists denting or flexing under a fully loaded drawer's weight.\n\nCheck the listing specifically for a stated steel gauge number, and be skeptical of the word \"metal\" alone without a gauge figure or a clear description of full-steel versus metal-faced construction."
   },
   {
-    criterion: "Lateral cabinets need front clearance for their full width, not just their depth",
-    explanation:
-      "A 28 to 36 inch wide lateral cabinet needs that same amount of floor space clear in front of it to open drawers comfortably, which can directly conflict with a chair path in a tight home office. Measure your actual clearance in front of the intended spot, not just the wall space the cabinet's width will occupy.",
+    "criterion": "Check for full-extension versus partial-extension drawer slides",
+    "explanation": "Full-extension drawer slides let a drawer pull completely out of the cabinet body, giving access to files at the very back, while partial-extension slides only pull the drawer out part way, leaving files at the rear harder to reach without leaning or reaching awkwardly into the cabinet.\n\nThis distinction matters a lot for daily usability, especially for a deep drawer holding hanging files toward the back, but rarely gets mentioned clearly in listing bullet points that focus on drawer count instead.\n\nCheck the listing specifically for \"full-extension\" language, and check reviews for mentions of how far drawers actually pull out in practice."
   },
   {
-    criterion: "Not every cabinet supports both file orientations",
-    explanation:
-      "Lateral files can hang front-to-back or side-to-side depending on the hanging rail configuration, and not every model supports both orientations out of the box. Check the specific listing's hanging rail adjustability before assuming your existing folders will fit the orientation you expect.",
+    "criterion": "Confirm anti-tip safety features if you have kids, pets, or plan a fully loaded cabinet",
+    "explanation": "A filing cabinet with multiple drawers can tip forward if more than one drawer is pulled open at once while loaded with paper, a real safety hazard, and better-designed cabinets include an anti-tip interlock mechanism that physically prevents opening a second drawer while another is already open.\n\nThis matters more in a household with kids or pets who might pull on drawers, or if you plan to keep the cabinet fully loaded with heavy paper files rather than lightly used.\n\nCheck the listing specifically for a stated anti-tip or interlock safety feature, since this detail is frequently omitted from budget cabinet listings entirely."
   },
   {
-    criterion: "Top surface load capacity is usually lower than it looks",
-    explanation:
-      "A file cabinet's flat top can typically hold somewhere between 50 and 180 lbs depending on construction, and a printer plus monitor combo can exceed a budget lateral cabinet's limit even though the surface looks sturdy. Check the specific weight rating before using the top as a workspace, not just the general build quality.",
+    "criterion": "Match hanging file compatibility to your actual folder sizes",
+    "explanation": "Not every filing cabinet drawer accommodates both letter-size and legal-size hanging files, some are sized for letter only, and a drawer that looks roomy in a photo may not actually fit the wider legal-size folders many home offices and small businesses still use for certain documents.\n\nThis matters directly if any portion of your filing includes legal-size paperwork, buying based on drawer count or overall cabinet size alone without checking hanging-file compatibility is a common and easily avoidable mistake.\n\nCheck the listing specifically for stated letter and/or legal-size hanging file compatibility, not just the general drawer dimensions."
   },
   {
-    criterion: "A credenza is not the same thing as a lateral file cabinet",
-    explanation:
-      "Credenzas offer mixed storage, shelves, cabinets, sometimes a mix of open and closed compartments, while a genuine lateral file cabinet is file storage only, built around hanging rails rather than general shelving. If you need mixed storage beyond just files, a credenza is a different purchase, not a substitute lateral cabinet.",
-  },
-  {
-    criterion: "A 'lateral' search result is often a vertical pedestal cabinet in disguise",
-    explanation:
-      "Many listings use the word 'lateral' for search visibility on a cabinet that's actually a narrow vertical pedestal by its own dimensions. Check the listed width and depth directly, a genuinely lateral cabinet is wide and shallow, roughly 28 to 36 inches wide, while a vertical cabinet is typically 15 to 18 inches wide and deeper front to back.",
-  },
+    "criterion": "Weigh assembly requirements and real delivered weight before ordering",
+    "explanation": "Filing cabinets range from fully assembled units shipped ready to use to flat-packed kits requiring meaningful assembly time and, for a genuinely heavy steel cabinet, more than one person to safely maneuver into place.\n\nThis matters because assembly difficulty and real shipped weight are easy to underestimate from a product photo, and a fully assembled cabinet costs more but eliminates that setup friction and the risk of a DIY assembly not being as sturdy as a factory-built one.\n\nCheck the listing for whether the cabinet ships assembled or requires assembly, and check the stated shipping weight against how much lifting and maneuvering you're actually prepared to handle at delivery."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -374,69 +364,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Genuinely Lateral vs Vertical Need",
-    intro: "Start here, since most of the buying decision comes down to which shape actually fits your space and workflow.",
-    table: {
-      headers: ["What you actually need", "Cabinet type", "Best pick"],
-      rows: [
-        ["Wide file view, have front clearance to spare", "True lateral", "Letaya 2 Drawer Lateral"],
-        ["True lateral with a third drawer, want mobility", "True lateral, mobile", "DEVAISE 3-Drawer Lateral Mobile"],
-        ["Small footprint, fits under a desk", "Vertical pedestal", "DEVAISE 2 Drawer Under Desk or Letaya 3 Drawer Mobile"],
-        ["Smallest footprint available, budget-conscious", "Vertical, compact", "VASAGLE CUSTOS 2-Drawer"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "DEVAISE 2 Drawer Metal File Cabinet"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "VASAGLE CUSTOS 2"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Front Clearance Available",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $53",
+          "VASAGLE CUSTOS 2"
+        ],
+        [
+          "Up to $130",
+          "DEVAISE 2 Drawer Metal File Cabinet"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Locking vs Non-Locking",
+    "cards": [
       {
-        label: "3 feet or more clear in front of the cabinet spot",
-        text: "A true lateral cabinet like the Letaya 2 Drawer or DEVAISE 3-Drawer Lateral works well and gives the wider file view lateral cabinets are known for.",
+        "label": "Locking cabinet",
+        "text": "Genuine security for sensitive documents, worth it if the cabinet sits in a shared or semi-public space. In this comparison: Letaya 2 Drawer File Cabinet with Lock, DEVAISE 2 Drawer Metal File Cabinet, Letaya 3 Drawer Mobile File Cabinet with Lock, BYNSOE 2 Drawer File Cabinet with Lock, 3 Drawers Fluted Mobile File Cabinet with Lock."
       },
       {
-        label: "Under 3 feet of clearance, or a chair path nearby",
-        text: "Choose a vertical pedestal instead, such as the VASAGLE CUSTOS or BYNSOE, since their narrower drawers need less swing room to open.",
-      },
+        "label": "Non-locking",
+        "text": "Simpler and usually cheaper, fine for a private home office. In this comparison: DEVAISE 3, GYIIYUO 2 Drawer File Cabinet with 24, VASAGLE CUSTOS 2."
+      }
     ],
+    "note": "Default to locking unless the cabinet stays in a fully private, controlled-access space."
   },
   {
-    subheading: "File Orientation Support by Pick",
-    table: {
-      headers: ["Pick", "Orientation support", "Note"],
-      rows: [
-        ["Letaya 2 Drawer Lateral", "Hanging, letter/legal/A4", "Check current listing for front-to-back vs side-to-side rail adjustability"],
-        ["DEVAISE 3-Drawer Lateral Mobile", "Hanging, letter/legal/A4", "Confirm rail configuration before buying if you need a specific orientation"],
-        ["Vertical pedestal picks (DEVAISE 2 Drawer, Letaya 3 Drawer, BYNSOE)", "Standard vertical hanging only", "Not side-to-side lateral orientation"],
-      ],
-    },
-    note: "When file orientation is critical to your existing folder system, verify directly with the current Amazon listing before buying, since configurations can change between production runs.",
+    "subheading": "By Drawer Count",
+    "note": "Check each pick's listed drawer count and interior dimensions against your actual filing volume before buying. VASAGLE CUSTOS 2 is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Top Surface as Workspace: What It Can Actually Hold",
-    intro: "Every cabinet on this list has a flat top, but not every top is rated for the same load.",
-    table: {
-      headers: ["Use case", "Load consideration", "Best pick"],
-      rows: [
-        ["Light decor or a small lamp only", "Any pick handles this easily", "Any cabinet in this list"],
-        ["A single printer", "Mid-range load, check listing rating", "VASAGLE CUSTOS or Fluted Mobile Cabinet, both marketed as printer stands"],
-        ["Printer plus monitor combo", "May exceed a budget lateral cabinet's rating", "Verify the specific weight rating on the current listing before committing"],
-      ],
-    },
-  },
-  {
-    subheading: "Lateral Cabinet vs Credenza: Which Do You Actually Need",
-    cards: [
+    "subheading": "For Legal-Size Documents Specifically",
+    "cards": [
       {
-        label: "You only need to store hanging files",
-        text: "A true lateral cabinet, like the Letaya or DEVAISE lateral picks, is purpose-built for this and nothing else.",
+        "label": "Look for",
+        "text": "Confirmed letter and legal-size hanging file compatibility, not just general drawer dimensions."
       },
       {
-        label: "You need mixed storage, files plus general shelving",
-        text: "None of the picks in this guide are credenzas; a credenza is a separate furniture category worth researching directly if mixed storage is the real need.",
-      },
-    ],
-    note: "Don't buy a lateral file cabinet expecting general-purpose shelving. It's built around hanging rails, not open shelves.",
+        "label": "In this comparison",
+        "text": "VASAGLE CUSTOS 2 is worth checking against its listed hanging-file compatibility before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real steel construction, anti-tip safety, and full-extension drawers, where DEVAISE 2 Drawer Metal File Cabinet's higher price buys real build-quality headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need light, occasional storage for a small volume of documents, where VASAGLE CUSTOS 2 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [
