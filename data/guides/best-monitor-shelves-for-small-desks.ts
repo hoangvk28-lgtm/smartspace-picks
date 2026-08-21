@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "15,385 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41kQEYuq+KL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B073VKC134?tag=deskfinds0d-20",
-    description:
-      "For buyers wanting the smallest reasonable footprint on a genuinely limited desk Built with a metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nDo the actual math of your desk depth minus this shelf's depth minus keyboard clearance before buying. As with any shelf in this weight class, a single heavy item centered on the platform concentrates more stress than the rating reflects, so keep that margin in mind.",
-    specs: ["44 lbs rated capacity (evenly distributed)", "metal construction", "Priced at $15.99", "15,385 ratings on Amazon"],
-    pros: ["Solid 4.8-star rating with 15,385 ratings", "Metal build appropriate for this use case", "Reasonable price at $15.99", "A compact vented riser with a shallower footprint than bulkier shelf designs."],
-    cons: ["Rated capacity assumes evenly distributed weight, not a single point load", "Footprint reduces some usable desk depth", "Verify current buyer feedback before assuming fit for an edge-case desk"],
+    description: "For buyers wanting the smallest reasonable footprint on a genuinely limited desk Built with a metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nIt earns the top spot in this comparison over WALI Computer Monitor Stand for Desk for one main reason. Solid 4.8-star rating with 15,385 ratings. On price, it's actually priced above WALI Computer Monitor Stand for Desk, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","metal construction","Priced at $15.99","15,385 ratings on Amazon"],
+    pros: ["Solid 4.8-star rating with 15,385 ratings","Metal build appropriate for this use case","Reasonable price at $15.99","A compact vented riser with a shallower footprint than bulkier shelf designs."],
+    cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A compact vented riser with a shallower footprint than bulkier shelf designs.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "15,803 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31VzBQ+jwWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B094QTGHNZ?tag=deskfinds0d-20",
-    description:
-      "For buyers wanting some height flexibility without a bulky footprint Built with a metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nIts lighter, more compact build trades some structural strength for the smaller footprint, appropriate for lighter monitors. As with any shelf in this weight class, a single heavy item centered on the platform concentrates more stress than the rating reflects, so keep that margin in mind.",
-    specs: ["44 lbs rated capacity (evenly distributed)", "metal construction", "Priced at $14.99", "15,803 ratings on Amazon"],
-    pros: ["Solid 4.7-star rating with 15,803 ratings", "Metal build appropriate for this use case", "Reasonable price at $14.99", "A compact metal riser with adjustable height and a modest footprint."],
-    cons: ["Rated capacity assumes evenly distributed weight, not a single point load", "Footprint reduces some usable desk depth", "Verify current buyer feedback before assuming fit for an edge-case desk"],
+    description: "For buyers wanting some height flexibility without a bulky footprint Built with a metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nOne spot below HUANUO Monitor Riser for Desk in this ranking, it's priced lower than HUANUO Monitor Riser for Desk. The compromise here is straightforward: Rated capacity assumes evenly distributed weight, not a single point load. What you gain in return: Solid 4.7-star rating with 15,803 ratings. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Metal build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["44 lbs rated capacity (evenly distributed)","metal construction","Priced at $14.99","15,803 ratings on Amazon"],
+    pros: ["Solid 4.7-star rating with 15,803 ratings","Metal build appropriate for this use case","Reasonable price at $14.99","A compact metal riser with adjustable height and a modest footprint."],
+    cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A compact metal riser with adjustable height and a modest footprint.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "2,613 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31U1QumsMxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B083JYX48S?tag=deskfinds0d-20",
-    description:
-      "For buyers wanting the shelf to occupy as little visual and physical space as possible Built with a acrylic platform rated to 20 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nAcrylic's lighter build suits lighter loads, verify capacity against your actual monitor weight. As with any shelf in this weight class, a single heavy item centered on the platform concentrates more stress than the rating reflects, so keep that margin in mind.",
-    specs: ["20 lbs rated capacity (evenly distributed)", "acrylic construction", "Priced at $21.39", "2,613 ratings on Amazon"],
-    pros: ["Solid 4.7-star rating with 2,613 ratings", "Acrylic build appropriate for this use case", "Reasonable price at $21.39", "A slim acrylic riser that visually and physically takes up less depth than a bulkier metal or wood shelf."],
-    cons: ["Rated capacity assumes evenly distributed weight, not a single point load", "Footprint reduces some usable desk depth", "Verify current buyer feedback before assuming fit for an edge-case desk"],
+    description: "For buyers wanting the shelf to occupy as little visual and physical space as possible Built with a acrylic platform rated to 20 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nSitting just under WALI Computer Monitor Stand for Desk, it costs more than WALI Computer Monitor Stand for Desk. Here's the honest tradeoff: Rated capacity assumes evenly distributed weight, not a single point load. And here's what it gets you instead: Solid 4.7-star rating with 2,613 ratings. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Acrylic build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["20 lbs rated capacity (evenly distributed)","acrylic construction","Priced at $21.39","2,613 ratings on Amazon"],
+    pros: ["Solid 4.7-star rating with 2,613 ratings","Acrylic build appropriate for this use case","Reasonable price at $21.39","A slim acrylic riser that visually and physically takes up less depth than a bulkier metal or wood shelf."],
+    cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A slim acrylic riser that visually and physically takes up less depth than a bulkier metal or wood shelf.",
   },
   {
@@ -81,13 +78,12 @@ export const products: GuideProduct[] = [
     reviews: "603 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41iqiC3V+BL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BHNVC7HN?tag=deskfinds0d-20",
-    description:
-      "For buyers who realize a freestanding shelf still costs desk depth no matter how compact Built with a acrylic platform rated to 22 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nSee our clamp-on and wall-mounted shelf guides for zero-footprint alternatives if desk depth is truly tight. As with any shelf in this weight class, a single heavy item centered on the platform concentrates more stress than the rating reflects, so keep that margin in mind.",
-    specs: ["22 lbs rated capacity (evenly distributed)", "acrylic construction", "Priced at $25.99", "603 ratings on Amazon"],
-    pros: ["Solid 4.8-star rating with 603 ratings", "Acrylic build appropriate for this use case", "Reasonable price at $25.99", "A larger acrylic riser included here as a reminder that a clamp-on or wall-mounted shelf with zero desk footprint is worth comparing against any freestanding option for a genuinely small desk."],
-    cons: ["Rated capacity assumes evenly distributed weight, not a single point load", "Footprint reduces some usable desk depth", "Verify current buyer feedback before assuming fit for an edge-case desk"],
+    description: "For buyers who realize a freestanding shelf still costs desk depth no matter how compact Built with a acrylic platform rated to 22 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nRanked just behind AMT Premium Acrylic Clear Monitor Riser for Home Office, it costs more than AMT Premium Acrylic Clear Monitor Riser for Home Office. The real tradeoff against that pick: Rated capacity assumes evenly distributed weight, not a single point load. In exchange, it offers this instead: Solid 4.8-star rating with 603 ratings. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nWorth knowing before you decide: Acrylic build appropriate for this use case. On the other side, Verify current buyer feedback before assuming fit for an edge-case desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["22 lbs rated capacity (evenly distributed)","acrylic construction","Priced at $25.99","603 ratings on Amazon"],
+    pros: ["Solid 4.8-star rating with 603 ratings","Acrylic build appropriate for this use case","Reasonable price at $25.99","A larger acrylic riser included here as a reminder that a clamp-on or wall-mounted shelf with zero desk footprint is worth comparing against any freestanding option for a genuinely small desk."],
+    cons: ["Rated capacity assumes evenly distributed weight, not a single point load","Footprint reduces some usable desk depth","Verify current buyer feedback before assuming fit for an edge-case desk"],
     bestFor: "A larger acrylic riser included here as a reminder that a clamp-on or wall-mounted shelf with zero desk footprint is worth comparing against any freestanding option for a genuinely small desk.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -101,32 +97,128 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Do the Actual Depth Math Before Buying",
-    note: "Subtract the shelf's stated depth from your desk's actual usable depth, then subtract space for a keyboard at a comfortable typing position. If the remaining number feels tight on paper, it will feel tight in daily use, don't rely on a shelf being labeled 'compact' to solve this for you.",
-  },
-  {
-    subheading: "Consider a Zero-Footprint Option If Depth Is Truly Limited",
-    note: "A clamp-on or wall-mounted shelf adds no desk-surface footprint at all, which sidesteps the small-desk depth tradeoff entirely rather than just minimizing it. If your desk depth is genuinely tight, it's worth comparing these against any freestanding shelf before deciding.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Smallest reasonable freestanding footprint", "HUANUO Vented Riser"],
-        ["Compact shelf with height adjustment", "WALI Adjustable Monitor Stand"],
-        ["Lightest visual footprint (acrylic)", "AMT Premium Acrylic Riser"],
-        ["Willing to consider a zero-footprint option", "See our clamp-on shelf guide"],
+    "subheading": "By Material",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Prioritizing metal",
+          "HUANUO Monitor Riser for Desk"
+        ],
+        [
+          "Prioritizing acrylic",
+          "AMT Premium Acrylic Clear Monitor Riser for Home Office"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $15",
+          "WALI Computer Monitor Stand for Desk"
+        ],
+        [
+          "Mid-range",
+          "AMT Premium Acrylic Clear Monitor Riser for Home Office"
+        ],
+        [
+          "No firm budget ceiling, prioritizing capacity or storage",
+          "GoldOrcle Acrylic Monitor Stand Riser"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Freestanding vs Clamp/Clip-On",
+    "cards": [
+      {
+        "label": "Freestanding",
+        "text": "Sits directly on the desk with zero installation, at the cost of using up some desk depth. In this comparison: HUANUO Monitor Riser for Desk, WALI Computer Monitor Stand for Desk, AMT Premium Acrylic Clear Monitor Riser for Home Office."
+      },
+      {
+        "label": "Clamp/Clip-On",
+        "text": "Attaches to the desk's back edge, freeing up desk surface underneath, but needs a compatible edge thickness. In this comparison: none explicitly confirmed in this specific roundup, check the listing before assuming."
+      }
+    ]
+  },
+  {
+    "subheading": "With Storage vs Platform-Only",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Extra storage tier or drawer",
+          "HUANUO Monitor Riser for Desk"
+        ],
+        [
+          "Simplest platform-only design",
+          "AMT Premium Acrylic Clear Monitor Riser for Home Office"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Heavy or Ultrawide Monitor Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A stated weight capacity with real margin above your monitor's actual weight, a rigid material like metal or thick wood, and a wide enough platform to support the monitor's full base without overhang."
+      },
+      {
+        "label": "In this comparison",
+        "text": "GoldOrcle Acrylic Monitor Stand Riser fits this specifically: Solid 4.8-star rating with 603 ratings."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what GoldOrcle Acrylic Monitor Stand Riser offers: Solid 4.8-star rating with 603 ratings. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "WALI Computer Monitor Stand for Desk already covers the essentials: Solid 4.7-star rating with 15,803 ratings. The main thing you'd be paying extra for elsewhere in this list is capacity or storage you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Calculate remaining desk depth explicitly", explanation: "Subtract the shelf's depth and keyboard clearance from your desk's actual depth, don't rely on a 'compact' label alone." },
-  { criterion: "Check keyboard clearance including incline-leg height", explanation: "A keyboard's incline legs add height that can interact with the shelf's clearance in ways flat placement doesn't reveal." },
-  { criterion: "Consider clamp-on or wall-mounted alternatives", explanation: "These add zero desk footprint, worth comparing against any freestanding shelf if your desk depth is genuinely tight." },
-  { criterion: "Check whether a lighter compact build sacrifices strength", explanation: "Materials chosen for a smaller footprint can trade away some structural strength versus a bulkier full-size shelf." },
+  {
+    "criterion": "Check the rated weight capacity against your actual monitor weight, not a rough guess",
+    "explanation": "A monitor shelf's stated weight capacity, usually given in pounds, assumes weight distributed evenly across the platform, and this number is genuinely lower than what a single heavy point-load in the center of the shelf can safely bear, since concentrated weight stresses the platform and its support points differently than a spread-out load.\n\nModern monitors vary widely in actual weight, from under 10 lbs for a small panel to well over 20 lbs for a large curved or ultrawide display, so a shelf rated for 20 lbs isn't automatically safe for any monitor simply because monitors are generally assumed to be light.\n\nCheck your specific monitor's actual weight (usually listed in its own spec sheet) against the shelf's stated capacity, and favor a shelf with real margin above your monitor's weight rather than one rated right at the edge."
+  },
+  {
+    "criterion": "Understand that shelf material affects weight capacity, appearance upkeep, and long-term durability differently",
+    "explanation": "Common monitor shelf materials each carry genuinely different tradeoffs: metal typically offers the highest weight capacity and most consistent rigidity, wood and bamboo offer a warmer look with solid capacity but can show wear differently over time, glass looks sleek but carries real shatter risk if struck and is usually heavier itself, and acrylic is lightweight and affordable but generally has the lowest capacity of the group along with a tendency to scratch visibly and yellow with sustained sun exposure.\n\nThis matters because the material isn't just a style choice, it directly determines how much monitor weight the shelf can safely support and how it will look and perform a year into ownership, not just on day one.\n\nMatch the material to both your monitor's actual weight and your tolerance for that material's specific long-term quirks (scratching, yellowing, visible wear) rather than choosing based on appearance alone."
+  },
+  {
+    "criterion": "Measure the clearance height the shelf creates and confirm it doesn't push your monitor too high",
+    "explanation": "A monitor shelf elevates whatever sits on top of it by the shelf's own platform height plus any legs or risers, and this added height needs to keep your monitor's center at a comfortable eye level, not push it uncomfortably high, especially if you're also using a monitor arm, a stack of items underneath, or an already-tall desk setup.\n\nThis is a genuinely easy detail to overlook when focused on weight capacity and material, but a shelf that seemed like a good height in photos can leave your monitor sitting several inches higher than ideal once you account for the shelf's actual platform thickness and any legs.\n\nMeasure your current monitor's eye-level height and calculate what the shelf adds before ordering, rather than assuming any shelf marketed for \"ergonomic height\" will suit your specific desk and chair combination."
+  },
+  {
+    "criterion": "Confirm the shelf's footprint and mounting style actually fits your desk, not just your monitor",
+    "explanation": "Monitor shelves come in genuinely different mounting styles: freestanding shelves simply sit on the desk surface and take up real desk depth in exchange for zero installation, clamp-on or clip-on shelves attach to the desk's back edge and free up the surface underneath but require a compatible desk edge thickness, and wall-mounted or VESA-mounted shelves attach to a wall or monitor arm entirely independent of the desk itself.\n\nBuying a clamp-on shelf for a desk edge that's too thick or too thin for the clamp mechanism, or a freestanding shelf that doesn't leave enough remaining desk depth for a keyboard and mouse, are both genuine and common fit failures that show up only after the shelf arrives.\n\nCheck your desk's actual edge thickness for clamp or clip designs, and measure remaining desk depth for freestanding designs, before assuming any shelf style will fit your specific desk."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, since near-identical listings sometimes share a review pool",
+    "explanation": "Monitor shelf listings, especially from budget manufacturers, sometimes reuse the same base design across multiple product variants or color options, and Amazon's review system can pool ratings across these variants in ways that make a specific listing's review count look larger or smaller than the reviews actually describing that exact product.\n\nA shelf with a high star rating built on a genuinely large, focused review base gives more confidence than one with a similar rating but a thin or ambiguous review history.\n\nWhen comparing two similarly priced and specified shelves, check both the star rating and the review count together, and read a handful of recent reviews specifically to confirm they're describing the exact variant you're considering rather than a related but different listing."
+  }
 ];
 
 export const faq: FaqItem[] = [
