@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41RxYHHkJxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FDL1LS3B?tag=deskfinds0d-20",
     description:
-      "The Envy Photo 7975 is the only printer in this list explicitly built and marketed around home photo printing, with a design tuned for photo output alongside standard print, scan, and copy functions. Its color engine handles gradients and skin tones with less visible banding than a general 4-color AIO not designed with photo output in mind.\n\nA 3-month Instant Ink trial helps offset the ink cost during setup, though photo printing uses substantially more ink per page than document printing, so budget for that after the trial ends. This is the pick to choose if photo quality and keepsake prints are the priority over pure cost per page.",
+      "The Envy Photo 7975 is the only printer in this list explicitly built and marketed around home photo printing, with a design tuned for photo output alongside standard print, scan, and copy functions. Its color engine handles gradients and skin tones with less visible banding than a general 4-color AIO not designed with photo output in mind.\n\nA 3-month Instant Ink trial helps offset the ink cost during setup, though photo printing uses substantially more ink per page than document printing, so budget for that after the trial ends. This is the pick to choose if photo quality and keepsake prints are the priority over pure cost per page.\n\nBetter gradient and skin tone handling than standard 4-color AIOs. That's a real strength, but weigh it against the flip side: highest price in this list.",
     specs: [
       "Color inkjet, photo-focused engine",
       "Print, scan, and copy",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31eKmxnpbkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B096N8DN2H?tag=deskfinds0d-20",
     description:
-      "The EcoTank ET-2800 is a general-purpose ink-tank all-in-one, not a dedicated photo printer, but its refillable ink system changes the cost-per-photo math dramatically compared to cartridge-based printers, since photo printing burns through ink fast. For a family printing photos regularly, the lower per-print cost adds up quickly against drugstore or subscription photo printing.\n\nColor accuracy is solid for a 4-color general AIO, though it won't match a dedicated photo printer's gradient smoothness on skin tones and complex color transitions. It is dye-based ink, which fades faster than pigment ink over years, so treat prints from it as everyday photos rather than long-term archival keepsakes.",
+      "The EcoTank ET-2800 is a general-purpose ink-tank all-in-one, not a dedicated photo printer, but its refillable ink system changes the cost-per-photo math dramatically compared to cartridge-based printers, since photo printing burns through ink fast. For a family printing photos regularly, the lower per-print cost adds up quickly against drugstore or subscription photo printing.\n\nColor accuracy is solid for a 4-color general AIO, though it won't match a dedicated photo printer's gradient smoothness on skin tones and complex color transitions. It is dye-based ink, which fades faster than pigment ink over years, so treat prints from it as everyday photos rather than long-term archival keepsakes.\n\nWorth calling out specifically: good for families printing photos regularly. The catch is general AIO, not a dedicated photo printer.",
     specs: [
       "Cartridge-free EcoTank refillable ink system",
       "Color print, scan, and copy",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31jPKfRqWSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BSMSYM9N?tag=deskfinds0d-20",
     description:
-      "The MegaTank G3270 brings refillable ink-tank economics to a lower price than the EcoTank pick above, a reasonable option for occasional photo printing where keeping cost per print down matters more than dedicated photo-engine color accuracy. It is a genuinely appropriate budget alternative for casual photo printing, not a specialist model.\n\nLike other general AIOs in this list, its 4-color system will show more visible banding on skin tone gradients than a 6-color or dedicated photo printer, so expect good, not exceptional, photo output. It covers print, scan, and copy without a document feeder or fax.",
+      "The MegaTank G3270 brings refillable ink-tank economics to a lower price than the EcoTank pick above, a reasonable option for occasional photo printing where keeping cost per print down matters more than dedicated photo-engine color accuracy. It is a genuinely appropriate budget alternative for casual photo printing, not a specialist model.\n\nLike other general AIOs in this list, its 4-color system will show more visible banding on skin tone gradients than a 6-color or dedicated photo printer, so expect good, not exceptional, photo output. It covers print, scan, and copy without a document feeder or fax.\n\nInk-tank economics for regular photo printing. Set against that, 4-color system shows more banding than dedicated photo printers. Both matter when comparing it to the other picks here.",
     specs: [
       "MegaTank refillable ink system",
       "Print, scan, and copy",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21U5jLy1DeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBTJLX6?tag=deskfinds0d-20",
     description:
-      "The PIXMA TS6520 is a general home inkjet AIO, not a photo specialist, but its 1.42-inch OLED display makes it easy to switch between document and photo paper settings, an important step since photo mode adjusts ink saturation for better results. It handles occasional snapshot printing reasonably well for a printer at this price.\n\nBudget photo paper cost into your expectations here just as with any inkjet, since photo paper alone typically runs $0.20 to $0.50 per sheet before ink, and this printer's cartridge-based ink system pushes cost per photo higher than the ink-tank picks in this list.",
+      "The PIXMA TS6520 is a general home inkjet AIO, not a photo specialist, but its 1.42-inch OLED display makes it easy to switch between document and photo paper settings, an important step since photo mode adjusts ink saturation for better results. It handles occasional snapshot printing reasonably well for a printer at this price.\n\nBudget photo paper cost into your expectations here just as with any inkjet, since photo paper alone typically runs $0.20 to $0.50 per sheet before ink, and this printer's cartridge-based ink system pushes cost per photo higher than the ink-tank picks in this list.\n\nA genuine advantage here is that affordable upfront price. The tradeoff is cartridge ink raises true cost per photo print.",
     specs: [
       "Color inkjet, duplex printing",
       "1.42-inch OLED display",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21igSrZPOwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBGXC2C?tag=deskfinds0d-20",
     description:
-      "The PIXMA TS4320 is the lowest-cost printer in this list and works for genuinely occasional photo printing, a few snapshots here and there rather than a regular photo-printing habit. It is a general AIO, honestly best framed as a budget alternative for light photo needs rather than a photo specialist.\n\nCartridge ink costs add up quickly if photo printing becomes a regular habit on this model, so factor that into the true cost before assuming the low sticker price makes it the cheapest option overall for photo printing specifically.",
+      "The PIXMA TS4320 is the lowest-cost printer in this list and works for genuinely occasional photo printing, a few snapshots here and there rather than a regular photo-printing habit. It is a general AIO, honestly best framed as a budget alternative for light photo needs rather than a photo specialist.\n\nCartridge ink costs add up quickly if photo printing becomes a regular habit on this model, so factor that into the true cost before assuming the low sticker price makes it the cheapest option overall for photo printing specifically.\n\nFine for occasional, light photo printing. That's a real strength, but weigh it against the flip side: cartridge ink cost adds up fast with regular photo printing.",
     specs: [
       "Color inkjet, duplex printing",
       "Standard paper tray feed",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "The DeskJet 4355 covers print, scan, and copy in a small chassis, a reasonable general AIO for buyers who want to print an occasional photo alongside regular document tasks rather than a household that prints photos frequently. A 3-month Instant Ink trial is included.\n\nHonestly, this is a budget alternative for light photo needs rather than a specialist pick, since its 4-color inkjet engine and dye-based ink won't match dedicated photo printers on gradient smoothness or fade resistance for keepsake prints meant to last decades.",
+      "The DeskJet 4355 covers print, scan, and copy in a small chassis, a reasonable general AIO for buyers who want to print an occasional photo alongside regular document tasks rather than a household that prints photos frequently. A 3-month Instant Ink trial is included.\n\nHonestly, this is a budget alternative for light photo needs rather than a specialist pick, since its 4-color inkjet engine and dye-based ink won't match dedicated photo printers on gradient smoothness or fade resistance for keepsake prints meant to last decades.\n\nWorth calling out specifically: included Instant Ink trial offsets initial ink cost. The catch is not a dedicated photo printer.",
     specs: [
       "Color inkjet all-in-one",
       "3-month Instant Ink trial included",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415PuxvZ1wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXKNB9?tag=deskfinds0d-20",
     description:
-      "The PIXMA TR4720 adds an automatic document feeder to a budget color inkjet, aimed primarily at document and light home-office use rather than photo printing. It can produce decent occasional snapshot prints, but photo quality is not its design focus.\n\nBe honest with yourself about how this model fits your needs, it is a general AIO with photo capability as a secondary feature, not a dedicated photo printer, so buyers prioritizing print quality for keepsake photos should look at the HP Envy Photo 7975 or an ink-tank pick instead.",
+      "The PIXMA TR4720 adds an automatic document feeder to a budget color inkjet, aimed primarily at document and light home-office use rather than photo printing. It can produce decent occasional snapshot prints, but photo quality is not its design focus.\n\nBe honest with yourself about how this model fits your needs, it is a general AIO with photo capability as a secondary feature, not a dedicated photo printer, so buyers prioritizing print quality for keepsake photos should look at the HP Envy Photo 7975 or an ink-tank pick instead.\n\nADF useful for document-heavy households. Set against that, photo printing is a secondary feature, not the design focus. Both matter when comparing it to the other picks here.",
     specs: [
       "Color inkjet all-in-one with ADF",
       "Mobile printing and built-in fax",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31G4p897b8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09P45LR5T?tag=deskfinds0d-20",
     description:
-      "The ET-4800 pairs EcoTank's ink-tank economics with an automatic document feeder, fax, and Ethernet, aimed at a household or home office that wants low cost per print across both documents and occasional photos. The ink-tank system keeps photo printing costs down compared to cartridge-based general AIOs.\n\nIt is a general-purpose printer with photo capability rather than a dedicated photo printer, so gradient and skin tone handling will be good but not exceptional, and its dye-based ink is best suited to everyday prints rather than long-term archival keepsakes.",
+      "The ET-4800 pairs EcoTank's ink-tank economics with an automatic document feeder, fax, and Ethernet, aimed at a household or home office that wants low cost per print across both documents and occasional photos. The ink-tank system keeps photo printing costs down compared to cartridge-based general AIOs.\n\nIt is a general-purpose printer with photo capability rather than a dedicated photo printer, so gradient and skin tone handling will be good but not exceptional, and its dye-based ink is best suited to everyday prints rather than long-term archival keepsakes.\n\nA genuine advantage here is that aDF and fax useful for a mixed home office workload. The tradeoff is largest footprint in this list.",
     specs: [
       "Cartridge-free EcoTank refillable ink system",
       "Automatic document feeder and fax",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "6/8-color photo printers beat 4-color AIOs on skin tones and gradients",
-    explanation:
-      "A dedicated photo printer with 6 or more ink colors blends subtle gradients, like skin tones and sky transitions, far more smoothly than a standard 4-color AIO, which tends to show visible banding in those same areas. None of the picks in this list use a 6+ color system, so treat all 8 as good-to-very-good rather than professional-photo-lab quality.",
+    "criterion": "Understand duty cycle as a maximum ceiling, not a healthy day-to-day volume",
+    "explanation": "A printer's rated duty cycle is the absolute maximum number of pages it can print in a month before risking premature wear, not a figure representing comfortable, sustained daily use, printing consistently near that ceiling month after month accelerates wear on the print mechanism well beyond what the same printer would experience at a more moderate, realistic volume.\n\nThis matters because buying a printer rated just barely above your expected monthly volume often means running it closer to its stress limit than its comfortable operating range.\n\nCheck the listed duty cycle figure, and target a printer rated at 3 to 5 times your actual expected monthly volume for genuinely comfortable long-term use, not a printer rated just above what you think you'll print."
   },
   {
-    criterion: "Calculate the true cost per photo print, not just ink cost",
-    explanation:
-      "Photo paper alone typically costs $0.20 to $0.50 per sheet before any ink, and a single photo print can use several times the ink of a text page. Add paper and ink together and home printing a 4x6 photo often lands close to what a drugstore or online photo service charges, so the convenience of home printing, not always the cost savings, is the real advantage.",
+    "criterion": "Match multi-user wifi sharing to how many people will actually print from it",
+    "explanation": "A printer's wireless sharing capability varies in real-world reliability between models, some handle multiple simultaneous connection requests from different devices smoothly, while others can drop connections or queue print jobs unreliably when more than one person tries to print around the same time.\n\nThis matters directly for a shared home office or household with multiple people printing throughout the day, less for a single dedicated user.\n\nCheck reviews specifically for mentions of multi-device wifi reliability, not just whether wireless printing is listed as a supported feature, since the feature existing and working reliably under real multi-user load aren't the same thing."
   },
   {
-    criterion: "Pigment ink lasts decades, dye ink lasts years",
-    explanation:
-      "Every printer in this list uses dye-based ink, which produces vivid colors but typically fades noticeably within 10 to 25 years depending on storage conditions, while pigment ink used in dedicated archival photo printers can last 100+ years under proper conditions. For true keepsake prints meant to last generations, dye-based output from these printers should be treated as display prints, not permanent archives.",
+    "criterion": "Check scan resolution against what you're actually digitizing, not just print quality",
+    "explanation": "Print quality specs get most of the attention in printer listings, but scan resolution, measured in DPI, determines whether a scanned document stays genuinely readable when zoomed in or printed again later, and this spec is often buried or only briefly mentioned compared to print specs.\n\nThis matters more if you regularly scan contracts, receipts, or other documents where legibility of fine print matters, less if scanning is an occasional, low-stakes task.\n\nCheck the listed optical scan resolution in DPI specifically, not just the printer's overall feature list, if document scanning is a real part of your workflow."
   },
   {
-    criterion: "Ink-tank systems pay off fastest for frequent photo printing",
-    explanation:
-      "Photo printing burns through ink much faster than document printing, so a refillable ink-tank printer like the EcoTank or MegaTank picks in this list keeps cost per photo meaningfully lower than a cartridge-based printer once you're printing photos regularly. For occasional printing, the cost difference matters less.",
+    "criterion": "Weigh whether legacy features like fax are worth paying for in a 2026 home office",
+    "explanation": "Many home-office printers still bundle a fax feature as a holdover from an earlier era, adding to the printer's cost and complexity even though most home offices in 2026 will genuinely never use it, having largely moved to email and digital document sharing entirely.\n\nThis matters for value, paying for a feature you'll never touch is a real, if often overlooked, inefficiency when a fax-free model at a lower price covers the same core printing and scanning needs.\n\nCheck whether fax is a genuine requirement for your specific situation before treating its presence as a meaningful selling point, and consider a fax-free model if it isn't."
   },
   {
-    criterion: "Know which picks are dedicated photo printers vs general AIOs",
-    explanation:
-      "Only the HP Envy Photo 7975 in this list is explicitly designed around home photo printing. The rest are general all-in-one printers that handle occasional photos reasonably well but were not engineered specifically for photo color accuracy, and buyers prioritizing image quality for keepsakes should weigh that difference.",
-  },
-  {
-    criterion: "Switch to photo mode and the correct paper setting every time",
-    explanation:
-      "Skipping the photo paper setting in the print driver under-saturates colors and can waste an expensive sheet of photo paper. Always confirm the paper type setting matches what's loaded before printing, especially on general AIOs that default to plain paper settings.",
-  },
+    "criterion": "Consider ink versus toner cost per page for your actual print volume, not just the printer's price",
+    "explanation": "An inkjet printer is typically cheaper to buy upfront but has a meaningfully higher cost per printed page than a laser printer using toner, a gap that adds up significantly over months of real use at moderate to high volume, while a laser printer costs more initially but can work out cheaper in total ownership cost if you print regularly.\n\nThis matters directly based on your actual expected volume, a low-volume occasional printer may never recoup a laser printer's higher upfront cost, while a high-volume home office likely will.\n\nCheck the manufacturer's stated or estimated cost-per-page for both ink and toner options, and weigh that against your realistic monthly print volume, not just the printer's sticker price."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,61 +359,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By How Often You Print Photos",
-    intro:
-      "Print frequency should drive whether ink-tank economics or a dedicated photo engine matters more for your situation.",
-    table: {
-      headers: ["Photo printing frequency", "Priority", "Recommended pick"],
-      rows: [
-        ["Rarely, a few prints a year", "Lowest upfront cost", "Canon PIXMA TS4320"],
-        ["Occasionally, mixed with documents", "Balance of cost and convenience", "HP DeskJet 4355 or Canon PIXMA TR4720"],
-        ["Regularly, dedicated hobby", "Lowest cost per print", "Epson EcoTank ET-2800 or Canon MegaTank G3270"],
-        ["Frequently, quality-focused keepsakes", "Best color accuracy", "HP Envy Photo 7975"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "HP Envy Photo 7975 Wireless Color Inkjet Photo Printer"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "HP Envy Photo 7975 Wireless Color Inkjet Photo Printer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "True Cost Per 4x6 Photo Print",
-    intro:
-      "Adding paper cost to ink cost changes the calculation most buyers skip when comparing home printing to drugstore or online photo services.",
-    table: {
-      headers: ["Cost component", "Typical range", "Note"],
-      rows: [
-        ["Photo paper (per sheet)", "$0.20-$0.50", "Varies by brand and glossy vs matte finish"],
-        ["Ink, cartridge-based printer", "Higher, adds up fast at volume", "Applies to the TS4320, TS6520, TR4720, DeskJet 4355, Envy Photo 7975"],
-        ["Ink, ink-tank printer", "Lower per print at volume", "Applies to the EcoTank ET-2800, ET-4800, MegaTank G3270"],
-        ["Drugstore/online photo printing", "Roughly $0.15-$0.30 per 4x6 print", "Often cheaper than cartridge-based home printing at low volume"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
-    note: "Home printing usually wins on convenience and instant results, not always on raw cost, unless you print frequently enough for an ink-tank printer's economics to pull ahead.",
+      "rows": [
+        [
+          "Under $64",
+          "Canon PIXMA TS4320 Wireless Color Inkjet Printer"
+        ],
+        [
+          "Up to $240",
+          "HP Envy Photo 7975 Wireless Color Inkjet Photo Printer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "6/8-Color vs 4-Color: What the Difference Looks Like",
-    cards: [
+    "subheading": "Duplex vs Simplex Printing",
+    "cards": [
       {
-        label: "4-color (all 8 picks in this list)",
-        text: "Good for everyday snapshots, family photos, and casual prints, but expect visible banding in smooth gradients like sunsets or skin tones under close inspection.",
+        "label": "Duplex (auto two-sided)",
+        "text": "Prints both sides automatically, saves paper and time for double-sided documents. In this comparison: Canon PIXMA TS6520 Wireless Color Inkjet Printer, Canon PIXMA TS4320 Wireless Color Inkjet Printer."
       },
       {
-        label: "6/8-color dedicated photo printers (not in this list)",
-        text: "Blend subtle tones more smoothly with dedicated light cyan and light magenta inks, worth researching separately if professional-level photo quality is the priority.",
-      },
+        "label": "Simplex only",
+        "text": "Usually cheaper, fine if you rarely need double-sided printing. In this comparison: HP Envy Photo 7975 Wireless Color Inkjet Photo Printer, Epson EcoTank ET, Canon MegaTank G3270 All, HP DeskJet 4355 Wireless All, Canon PIXMA TR4720 All, Epson EcoTank ET."
+      }
     ],
-    note: "The HP Envy Photo 7975 in this list is the closest to a photo specialist here, but it is still a 4-color engine, choose it for its photo-tuned processing, not for a 6/8-color ink system.",
+    "note": "Default to duplex unless you're confident your printing is mostly single-sided."
   },
   {
-    subheading: "Archival Guidance: Pigment vs Dye for Keepsakes",
-    intro:
-      "Every printer in this list uses dye-based ink. Here's what that means for photos you want to keep long-term.",
-    table: {
-      headers: ["Ink type", "Typical fade timeline", "Best use"],
-      rows: [
-        ["Dye ink (all 8 picks here)", "Noticeable fading within roughly 10-25 years depending on storage", "Everyday prints, display photos, frequently refreshed albums"],
-        ["Pigment ink (not in this list)", "Can last 100+ years under proper storage", "True archival keepsakes meant to last generations"],
-      ],
-    },
-    note: "Store dye-ink prints away from direct sunlight and humidity to slow fading, and consider a professional pigment-ink print service for irreplaceable heirloom photos.",
+    "subheading": "By Scan Resolution",
+    "note": "Check each pick's listed optical scan resolution in DPI against how you'll actually use scanning before buying, not just print specs. HP Envy Photo 7975 Wireless Color Inkjet Photo Printer is the most-reviewed option here if you want the safer bet."
   },
+  {
+    "subheading": "For Scanning Contracts or Receipts Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A disclosed optical scan resolution in DPI high enough to keep fine print legible, not just the printer's overall feature list."
+      },
+      {
+        "label": "In this comparison",
+        "text": "HP Envy Photo 7975 Wireless Color Inkjet Photo Printer is worth checking against its listed scan resolution before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You print regularly at moderate to high volume, where HP Envy Photo 7975 Wireless Color Inkjet Photo Printer's duty cycle and cost-per-page give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only print occasionally at low volume, where Canon PIXMA TS4320 Wireless Color Inkjet Printer covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

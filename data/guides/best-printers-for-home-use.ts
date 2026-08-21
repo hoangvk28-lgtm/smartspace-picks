@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "The HP DeskJet 4355 covers print, scan, and copy for under $70, with a 3-month Instant Ink trial that softens the usual cartridge cost for new owners. It's the lowest upfront cost in this list, making it a reasonable pick for genuinely light, occasional home printing.\n\nBecause it's a standard cartridge inkjet rather than an ink-tank model, infrequent use is the one thing to plan around: cartridges left idle for 2-4 weeks can dry out, triggering wasted cleaning cycles. Households that print a handful of pages a month should budget for that when comparing it against a pricier ink-tank printer.",
+      "The HP DeskJet 4355 covers print, scan, and copy for under $70, with a 3-month Instant Ink trial that softens the usual cartridge cost for new owners. It's the lowest upfront cost in this list, making it a reasonable pick for genuinely light, occasional home printing.\n\nBecause it's a standard cartridge inkjet rather than an ink-tank model, infrequent use is the one thing to plan around: cartridges left idle for 2-4 weeks can dry out, triggering wasted cleaning cycles. Households that print a handful of pages a month should budget for that when comparing it against a pricier ink-tank printer.\n\nInstant Ink trial reduces initial cartridge spend. That's a real strength, but weigh it against the flip side: standard cartridges can dry out with infrequent use.",
     specs: [
       "Wireless all-in-one: print, scan, copy",
       "3-month Instant Ink trial included",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415PuxvZ1wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXKNB9?tag=deskfinds0d-20",
     description:
-      "The PIXMA TR4720 pairs its price with an auto document feeder and built-in fax, features usually reserved for pricier office printers. That combination suits households that occasionally scan or fax multi-page documents, like signed forms or school paperwork, without adding a separate machine.\n\nAs a standard inkjet, it shares the same idle-ink consideration as any cartridge printer: expect 1-2 wasted cartridges a year from auto-cleaning cycles if it sits unused for weeks at a time between print jobs.",
+      "The PIXMA TR4720 pairs its price with an auto document feeder and built-in fax, features usually reserved for pricier office printers. That combination suits households that occasionally scan or fax multi-page documents, like signed forms or school paperwork, without adding a separate machine.\n\nAs a standard inkjet, it shares the same idle-ink consideration as any cartridge printer: expect 1-2 wasted cartridges a year from auto-cleaning cycles if it sits unused for weeks at a time between print jobs.\n\nWorth calling out specifically: built-in fax, useful for households that still need it. The catch is fax is a feature most households in 2026 won't use.",
     specs: [
       "Auto document feeder",
       "Built-in fax",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21igSrZPOwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBGXC2C?tag=deskfinds0d-20",
     description:
-      "The PIXMA TS4320 is built around a compact footprint, aimed at homes without a dedicated office nook. Duplex printing lets it handle double-sided pages without manual flipping, a small time saver for anyone printing school assignments or forms.\n\nAt this price point it's a light-duty inkjet, best suited to households printing under roughly 20 pages a month. Higher-volume printing will wear on ink costs faster than an ink-tank model built for that kind of use.",
+      "The PIXMA TS4320 is built around a compact footprint, aimed at homes without a dedicated office nook. Duplex printing lets it handle double-sided pages without manual flipping, a small time saver for anyone printing school assignments or forms.\n\nAt this price point it's a light-duty inkjet, best suited to households printing under roughly 20 pages a month. Higher-volume printing will wear on ink costs faster than an ink-tank model built for that kind of use.\n\nDuplex printing saves paper and time. Set against that, best suited to lighter print volumes. Both matter when comparing it to the other picks here.",
     specs: [
       "Compact design",
       "Duplex (double-sided) printing",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21U5jLy1DeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBTJLX6?tag=deskfinds0d-20",
     description:
-      "The PIXMA TS6520 steps up with a 1.42-inch OLED display and a more intuitive control panel, useful for households where more than one person uses the printer and needs a quick, legible menu rather than guessing at cryptic icons. Duplex printing and a compact design carry over from the rest of the PIXMA lineup.\n\nIt remains a standard cartridge inkjet, so the same volume and idle-ink math applies: it's most cost-effective for households printing well under 100 pages a month rather than heavy daily use.",
+      "The PIXMA TS6520 steps up with a 1.42-inch OLED display and a more intuitive control panel, useful for households where more than one person uses the printer and needs a quick, legible menu rather than guessing at cryptic icons. Duplex printing and a compact design carry over from the rest of the PIXMA lineup.\n\nIt remains a standard cartridge inkjet, so the same volume and idle-ink math applies: it's most cost-effective for households printing well under 100 pages a month rather than heavy daily use.\n\nA genuine advantage here is that duplex printing built in. The tradeoff is standard cartridges, not an ink-tank system.",
     specs: [
       "1.42\" OLED display",
       "Duplex printing",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Pb1fcUXbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPLFTPCV?tag=deskfinds0d-20",
     description:
-      "As the only laser printer in this list, the Brother DCP-L2640DW is built for households that print mostly black-and-white text, homework, forms, shipping labels, at higher volume than an inkjet handles economically. Toner doesn't dry out sitting idle the way inkjet cartridges do, removing the idle-ink cost that affects every other pick here.\n\nDuplex printing and a mobile-ready design round it out, plus a refresh subscription trial for toner. The higher $209.99 upfront price only pays off if your household prints enough pages a month to offset it against a cheaper inkjet's higher per-page cost.",
+      "As the only laser printer in this list, the Brother DCP-L2640DW is built for households that print mostly black-and-white text, homework, forms, shipping labels, at higher volume than an inkjet handles economically. Toner doesn't dry out sitting idle the way inkjet cartridges do, removing the idle-ink cost that affects every other pick here.\n\nDuplex printing and a mobile-ready design round it out, plus a refresh subscription trial for toner. The higher $209.99 upfront price only pays off if your household prints enough pages a month to offset it against a cheaper inkjet's higher per-page cost.\n\nLower cost per page at higher print volumes. That's a real strength, but weigh it against the flip side: highest upfront price in this list.",
     specs: [
       "Monochrome laser engine",
       "Duplex printing",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/418KMpgzGBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CT8ZJ7ZC?tag=deskfinds0d-20",
     description:
-      "The OfficeJet Pro 8125e is built for households closer to regular, frequent home printing rather than occasional use, with an auto document feeder, duplex printing, and a 3-month Instant Ink trial to soften early cartridge costs. Its higher-capacity cartridges hold up better against print jobs spread across a busy week.\n\nBecause it's marketed for frequent use, idle-ink drying is less of a concern here than on the budget picks, though the total cost of ownership over 3-5 years still depends heavily on your actual monthly volume relative to the cartridge cost.",
+      "The OfficeJet Pro 8125e is built for households closer to regular, frequent home printing rather than occasional use, with an auto document feeder, duplex printing, and a 3-month Instant Ink trial to soften early cartridge costs. Its higher-capacity cartridges hold up better against print jobs spread across a busy week.\n\nBecause it's marketed for frequent use, idle-ink drying is less of a concern here than on the budget picks, though the total cost of ownership over 3-5 years still depends heavily on your actual monthly volume relative to the cartridge cost.\n\nWorth calling out specifically: auto document feeder for multi-page jobs. The catch is pricier than the basic PIXMA and DeskJet picks.",
     specs: [
       "Auto document feeder",
       "Duplex printing",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41MuruhvCqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GPFHCYK7?tag=deskfinds0d-20",
     description:
-      "The standard OfficeJet Pro 8125 shares the 8125e's auto document feeder and duplex printing at a slightly higher price, without the e in the name tying it to HP's specific Instant Ink enrollment defaults. That gives buyers who want the same hardware but more control over their ink subscription choice a cleaner option.\n\nLike its sibling, it's aimed at households printing regularly enough that its higher-capacity cartridges make sense against a cheaper but smaller-cartridge inkjet.",
+      "The standard OfficeJet Pro 8125 shares the 8125e's auto document feeder and duplex printing at a slightly higher price, without the e in the name tying it to HP's specific Instant Ink enrollment defaults. That gives buyers who want the same hardware but more control over their ink subscription choice a cleaner option.\n\nLike its sibling, it's aimed at households printing regularly enough that its higher-capacity cartridges make sense against a cheaper but smaller-cartridge inkjet.\n\nAuto document feeder and duplex printing. Set against that, highest price among the general-purpose inkjets here. Both matter when comparing it to the other picks here.",
     specs: [
       "Auto document feeder",
       "Duplex printing",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31jXroCi2EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C3L93F2Q?tag=deskfinds0d-20",
     description:
-      "This is a Bluetooth label maker, not a general-purpose home printer, and it's included here specifically as a specialty labeling pick rather than a substitute for any of the printers above. It's genuinely useful for organizing pantry jars, storage bins, and file folders around the house from a phone app with multiple templates.\n\nAt under $17, it's a low-cost add-on for a household that already owns one of the printers in this list for actual document printing, not a replacement for one.",
+      "This is a Bluetooth label maker, not a general-purpose home printer, and it's included here specifically as a specialty labeling pick rather than a substitute for any of the printers above. It's genuinely useful for organizing pantry jars, storage bins, and file folders around the house from a phone app with multiple templates.\n\nAt under $17, it's a low-cost add-on for a household that already owns one of the printers in this list for actual document printing, not a replacement for one.\n\nA genuine advantage here is that compact and portable, no desk space required. The tradeoff is cannot print documents, photos, or full pages.",
     specs: [
       "Bluetooth wireless connection",
       "Mobile app with multiple templates",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Match the printer to your real monthly volume",
-    explanation:
-      "Under 20 pages a month, any budget inkjet like the DeskJet 4355 or PIXMA TS4320 is fine. Between 20 and 100 pages a month, step up to a higher-capacity inkjet like the OfficeJet Pro 8125 or 8125e. Above 100-200 pages a month, especially text-heavy printing, a laser printer like the Brother DCP-L2640DW usually costs less per page over time.",
+    "criterion": "Understand duty cycle as a maximum ceiling, not a healthy day-to-day volume",
+    "explanation": "A printer's rated duty cycle is the absolute maximum number of pages it can print in a month before risking premature wear, not a figure representing comfortable, sustained daily use, printing consistently near that ceiling month after month accelerates wear on the print mechanism well beyond what the same printer would experience at a more moderate, realistic volume.\n\nThis matters because buying a printer rated just barely above your expected monthly volume often means running it closer to its stress limit than its comfortable operating range.\n\nCheck the listed duty cycle figure, and target a printer rated at 3 to 5 times your actual expected monthly volume for genuinely comfortable long-term use, not a printer rated just above what you think you'll print."
   },
   {
-    criterion: "Factor in total cost of ownership, not just the sticker price",
-    explanation:
-      "A $65 inkjet with expensive replacement cartridges can cost more over 3-5 years than a $200 laser or ink-tank printer with cheaper refills, once your real print volume is factored in. Estimate your pages per month and multiply by each printer's per-page ink or toner cost before comparing sticker prices alone.",
+    "criterion": "Match multi-user wifi sharing to how many people will actually print from it",
+    "explanation": "A printer's wireless sharing capability varies in real-world reliability between models, some handle multiple simultaneous connection requests from different devices smoothly, while others can drop connections or queue print jobs unreliably when more than one person tries to print around the same time.\n\nThis matters directly for a shared home office or household with multiple people printing throughout the day, less for a single dedicated user.\n\nCheck reviews specifically for mentions of multi-device wifi reliability, not just whether wireless printing is listed as a supported feature, since the feature existing and working reliably under real multi-user load aren't the same thing."
   },
   {
-    criterion: "Infrequent home use has a real, hidden ink cost",
-    explanation:
-      "Inkjet cartridges left idle for 2-4 weeks can dry out, triggering wasted cleaning cycles that burn through ink without printing a single page, often costing 1-2 wasted cartridges a year for occasional home printers. Laser printers and ink-tank systems avoid this entirely, since toner and tank ink don't dry out the same way.",
+    "criterion": "Check scan resolution against what you're actually digitizing, not just print quality",
+    "explanation": "Print quality specs get most of the attention in printer listings, but scan resolution, measured in DPI, determines whether a scanned document stays genuinely readable when zoomed in or printed again later, and this spec is often buried or only briefly mentioned compared to print specs.\n\nThis matters more if you regularly scan contracts, receipts, or other documents where legibility of fine print matters, less if scanning is an occasional, low-stakes task.\n\nCheck the listed optical scan resolution in DPI specifically, not just the printer's overall feature list, if document scanning is a real part of your workflow."
   },
   {
-    criterion: "Check startup time if you print quick one-off jobs",
-    explanation:
-      "Laser printers typically warm up from cold in about 10-15 seconds, while inkjets often run a 30-60 second nozzle check before the first page. If you frequently print a single page and walk away, that difference adds up over a year of quick jobs.",
+    "criterion": "Weigh whether legacy features like fax are worth paying for in a 2026 home office",
+    "explanation": "Many home-office printers still bundle a fax feature as a holdover from an earlier era, adding to the printer's cost and complexity even though most home offices in 2026 will genuinely never use it, having largely moved to email and digital document sharing entirely.\n\nThis matters for value, paying for a feature you'll never touch is a real, if often overlooked, inefficiency when a fax-free model at a lower price covers the same core printing and scanning needs.\n\nCheck whether fax is a genuine requirement for your specific situation before treating its presence as a meaningful selling point, and consider a fax-free model if it isn't."
   },
   {
-    criterion: "Confirm driver support before buying an off-brand model",
-    explanation:
-      "Some printer brands quietly drop driver support a few years after release, which can break printing after a routine OS update on your computer or phone. Stick to major brands with a track record of longer driver support, like the HP and Canon picks in this list, especially if you expect to keep the printer for 5+ years.",
-  },
-  {
-    criterion: "Noise matters more than most guides admit",
-    explanation:
-      "If the printer sits near a bedroom or shared living space, a machine you'll run late at night or early morning benefits from a quieter engine. Compact inkjets are generally quieter than laser printers during operation, worth weighing if noise near sleeping family members is a real concern in your home.",
-  },
+    "criterion": "Consider ink versus toner cost per page for your actual print volume, not just the printer's price",
+    "explanation": "An inkjet printer is typically cheaper to buy upfront but has a meaningfully higher cost per printed page than a laser printer using toner, a gap that adds up significantly over months of real use at moderate to high volume, while a laser printer costs more initially but can work out cheaper in total ownership cost if you print regularly.\n\nThis matters directly based on your actual expected volume, a low-volume occasional printer may never recoup a laser printer's higher upfront cost, while a high-volume home office likely will.\n\nCheck the manufacturer's stated or estimated cost-per-page for both ink and toner options, and weigh that against your realistic monthly print volume, not just the printer's sticker price."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,69 +359,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Monthly Print Volume",
-    intro:
-      "Print volume, not brand or price alone, should drive the decision between the picks in this list.",
-    table: {
-      headers: ["Pages per month", "Best fit", "Best pick"],
-      rows: [
-        ["Under 20 pages", "Cheapest standard inkjet", "HP DeskJet 4355, Canon PIXMA TS4320"],
-        ["20-100 pages", "Higher-capacity inkjet all-in-one", "HP OfficeJet Pro 8125e / 8125"],
-        ["100-500 pages, mostly text", "Monochrome laser", "Brother DCP-L2640DW"],
-        ["Occasional labeling only", "Not a general printer", "Nelko Bluetooth Label Maker"],
+    "subheading": "By Print Technology",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Laser, lower cost per page at volume",
+          "Brother DCP"
+        ],
+        [
+          "Most-reviewed, strongest reliability signal",
+          "HP DeskJet 4355 Wireless All"
+        ]
+      ]
+    }
   },
   {
-    subheading: "3-Year Total Cost Estimate",
-    intro:
-      "Rough total cost including cartridges or toner over 3 years at moderate home use, upfront price plus estimated consumable spend.",
-    table: {
-      headers: ["Printer", "Upfront price", "3-year cost profile"],
-      rows: [
-        ["HP DeskJet 4355", "$69.99", "Low upfront, higher per-page ink cost at moderate use"],
-        ["Canon PIXMA TS4320", "$64.00", "Similar profile, best kept to light use"],
-        ["HP OfficeJet Pro 8125e", "$99.99", "Higher-capacity cartridges reduce cost at regular use"],
-        ["Brother DCP-L2640DW", "$209.99", "Highest upfront, lowest cost per page at high text volume"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
-    note: "These are directional comparisons based on stated cartridge capacity and print technology, not measured lab results, use them to guide the shape of the decision rather than as exact dollar figures.",
+      "rows": [
+        [
+          "Under $17",
+          "Nelko P21 Bluetooth Label Maker Machine with Tape"
+        ],
+        [
+          "Up to $210",
+          "Brother DCP"
+        ]
+      ]
+    }
   },
   {
-    subheading: "The Idle-Ink Problem for Occasional Printers",
-    cards: [
+    "subheading": "Duplex vs Simplex Printing",
+    "cards": [
       {
-        label: "The risk",
-        text: "Standard inkjet cartridges left unused for 2-4 weeks can dry out, and the printer runs cleaning cycles that consume ink without producing a page.",
+        "label": "Duplex (auto two-sided)",
+        "text": "Prints both sides automatically, saves paper and time for double-sided documents. In this comparison: Canon PIXMA TS4320 Wireless Color Inkjet Printer, Canon PIXMA TS6520 Wireless Color Inkjet Printer, Brother DCP, HP OfficeJet Pro 8125e Wireless All, HP OfficeJet Pro 8125 Wireless All."
       },
       {
-        label: "Who it affects",
-        text: "Households that print rarely, once every few weeks, are the most exposed. The DeskJet 4355 and both PIXMA picks fall into this category if usage is light.",
-      },
-      {
-        label: "How to avoid it",
-        text: "Print a test page every 1-2 weeks even without a real need to, or choose the Brother laser printer, where toner doesn't dry out sitting idle.",
-      },
+        "label": "Simplex only",
+        "text": "Usually cheaper, fine if you rarely need double-sided printing. In this comparison: HP DeskJet 4355 Wireless All, Canon PIXMA TR4720 All, Nelko P21 Bluetooth Label Maker Machine with Tape."
+      }
     ],
+    "note": "Default to duplex unless you're confident your printing is mostly single-sided."
   },
   {
-    subheading: "Cold-Start Speed for Quick Jobs",
-    intro:
-      "If you frequently print just one page and walk away, warm-up time is worth weighing.",
-    table: {
-      headers: ["Printer type", "Typical warm-up", "Picks"],
-      rows: [
-        ["Laser", "About 10-15 seconds from cold", "Brother DCP-L2640DW"],
-        ["Inkjet", "About 30-60 seconds nozzle check", "All other picks in this list"],
-      ],
-    },
+    "subheading": "By Scan Resolution",
+    "note": "Check each pick's listed optical scan resolution in DPI against how you'll actually use scanning before buying, not just print specs. HP DeskJet 4355 Wireless All is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Do You Actually Need the Label Maker Too",
-    intro:
-      "The Nelko is not a replacement for any printer above, it solves a different, narrower job.",
-    note: "If your household regularly labels pantry jars, storage bins, or file folders, the Nelko Bluetooth label maker is a genuinely useful $17 add-on alongside whichever general printer you choose from this list, not a competing option to it.",
+    "subheading": "For Scanning Contracts or Receipts Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A disclosed optical scan resolution in DPI high enough to keep fine print legible, not just the printer's overall feature list."
+      },
+      {
+        "label": "In this comparison",
+        "text": "HP DeskJet 4355 Wireless All is worth checking against its listed scan resolution before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You print regularly at moderate to high volume, where Brother DCP's duty cycle and cost-per-page give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only print occasionally at low volume, where Nelko P21 Bluetooth Label Maker Machine with Tape covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

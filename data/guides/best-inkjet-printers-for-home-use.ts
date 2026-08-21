@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "The DeskJet 4355 is a standard cartridge inkjet covering print, scan, and copy for under $70, with a 3-month Instant Ink trial that softens the first few months of cartridge cost. It's the cheapest entry point in this list for a household that just needs occasional color and document printing.\n\nBecause it uses dye-based cartridges rather than an ink tank, infrequent use is the real thing to plan for: nozzles can dry and clog after 2-4 weeks idle, triggering cleaning cycles that burn ink without printing a page. A quick weekly test print avoids most of that waste.",
+      "The DeskJet 4355 is a standard cartridge inkjet covering print, scan, and copy for under $70, with a 3-month Instant Ink trial that softens the first few months of cartridge cost. It's the cheapest entry point in this list for a household that just needs occasional color and document printing.\n\nBecause it uses dye-based cartridges rather than an ink tank, infrequent use is the real thing to plan for: nozzles can dry and clog after 2-4 weeks idle, triggering cleaning cycles that burn ink without printing a page. A quick weekly test print avoids most of that waste.\n\nInstant Ink trial reduces early cartridge spend. That's a real strength, but weigh it against the flip side: nozzles can dry out with infrequent use.",
     specs: [
       "Standard cartridge inkjet",
       "Wireless print, scan, copy",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21igSrZPOwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBGXC2C?tag=deskfinds0d-20",
     description:
-      "A compact cartridge inkjet built for homes without a dedicated office nook, with duplex printing that flips pages automatically instead of requiring a manual reload. Built-in copier and scanner cover the basics without adding a second device.\n\nIt's a standard dye-based cartridge printer, so the same nozzle-drying maintenance applies as any inkjet in this list: a weekly test page or a nozzle check after 2+ weeks idle keeps print quality consistent.",
+      "A compact cartridge inkjet built for homes without a dedicated office nook, with duplex printing that flips pages automatically instead of requiring a manual reload. Built-in copier and scanner cover the basics without adding a second device.\n\nIt's a standard dye-based cartridge printer, so the same nozzle-drying maintenance applies as any inkjet in this list: a weekly test page or a nozzle check after 2+ weeks idle keeps print quality consistent.\n\nWorth calling out specifically: duplex printing saves paper. The catch is best suited to lighter print volumes.",
     specs: [
       "Compact standard cartridge inkjet",
       "Duplex (double-sided) printing",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21U5jLy1DeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBTJLX6?tag=deskfinds0d-20",
     description:
-      "This cartridge inkjet steps up with a 1.42-inch OLED display and a more intuitive control panel, useful when more than one person in the household uses the printer and needs a quick, legible menu. Duplex printing and a compact design carry over from the rest of the PIXMA lineup.\n\nIt remains a standard cartridge inkjet, so the same idle-ink math applies as the rest of this list: it's most cost-effective printing well under 100 pages a month rather than sustained daily use.",
+      "This cartridge inkjet steps up with a 1.42-inch OLED display and a more intuitive control panel, useful when more than one person in the household uses the printer and needs a quick, legible menu. Duplex printing and a compact design carry over from the rest of the PIXMA lineup.\n\nIt remains a standard cartridge inkjet, so the same idle-ink math applies as the rest of this list: it's most cost-effective printing well under 100 pages a month rather than sustained daily use.\n\nDuplex printing built in. Set against that, standard cartridges, not an ink-tank system. Both matter when comparing it to the other picks here.",
     specs: [
       "1.42-inch OLED display",
       "Standard cartridge inkjet",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415PuxvZ1wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXKNB9?tag=deskfinds0d-20",
     description:
-      "The PIXMA TR4720 pairs a budget price with an auto document feeder and built-in fax, features usually reserved for pricier office printers. That combination suits households that occasionally scan or fax multi-page documents, like signed forms or school paperwork.\n\nAs a standard cartridge inkjet, it carries the same idle-ink drying consideration as any dye-based printer: expect the occasional wasted cleaning cycle if it sits unused for weeks between print jobs.",
+      "The PIXMA TR4720 pairs a budget price with an auto document feeder and built-in fax, features usually reserved for pricier office printers. That combination suits households that occasionally scan or fax multi-page documents, like signed forms or school paperwork.\n\nAs a standard cartridge inkjet, it carries the same idle-ink drying consideration as any dye-based printer: expect the occasional wasted cleaning cycle if it sits unused for weeks between print jobs.\n\nA genuine advantage here is that built-in fax, useful for households that still need it. The tradeoff is fax is a feature most households won't use in 2026.",
     specs: [
       "Auto document feeder",
       "Built-in fax",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31eKmxnpbkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B096N8DN2H?tag=deskfinds0d-20",
     description:
-      "This is a genuine ink-tank printer, not a cartridge inkjet, refilling from bottles instead of replaceable cartridges. That difference matters for households printing more than 20-30 pages a month, where the per-page ink cost runs meaningfully lower than any cartridge printer in this list over a year or two.\n\nInk-tank printers still aren't fully maintenance-free: a common misconception is that tank ink never dries out, but it can settle and clog nozzles if the printer sits idle for 4+ weeks, so an occasional test print still matters.",
+      "This is a genuine ink-tank printer, not a cartridge inkjet, refilling from bottles instead of replaceable cartridges. That difference matters for households printing more than 20-30 pages a month, where the per-page ink cost runs meaningfully lower than any cartridge printer in this list over a year or two.\n\nInk-tank printers still aren't fully maintenance-free: a common misconception is that tank ink never dries out, but it can settle and clog nozzles if the printer sits idle for 4+ weeks, so an occasional test print still matters.\n\nNo cartridges to buy or replace. That's a real strength, but weigh it against the flip side: higher upfront price than the cartridge picks.",
     specs: [
       "Cartridge-free ink-tank engine",
       "Wireless print, scan, copy",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31Yt+pSHuGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B096N8CNBZ?tag=deskfinds0d-20",
     description:
-      "Identical hardware and ink-tank engine to the black ET-2800 above, offered here in a white finish for households that prefer it to match their desk or home office decor. The cost-per-page and maintenance profile are the same as the black version.\n\nWe list both finishes separately since color choice is a genuine factor for some buyers, but the underlying printer, ink system, and idle-ink guidance are identical to the black model.",
+      "Identical hardware and ink-tank engine to the black ET-2800 above, offered here in a white finish for households that prefer it to match their desk or home office decor. The cost-per-page and maintenance profile are the same as the black version.\n\nWe list both finishes separately since color choice is a genuine factor for some buyers, but the underlying printer, ink system, and idle-ink guidance are identical to the black model.\n\nWorth calling out specifically: white finish for a different aesthetic. The catch is higher upfront price than the cartridge picks.",
     specs: [
       "Cartridge-free ink-tank engine",
       "Wireless print, scan, copy",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31TonwUym9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BM9BFLMX?tag=deskfinds0d-20",
     description:
-      "A slightly cheaper ink-tank model than the ET-2800, aimed at everyday home printing rather than heavier document scanning needs, with print, scan, and copy but a simpler feature set overall. It's still a genuine ink-tank printer, not a cartridge model.\n\nFor households comparing a budget laser against an ink-tank printer at low-to-moderate volume, this is one of the more accessible ink-tank entry points, and it avoids the cartridge idle-drying issue that affects every non-tank pick in this list.",
+      "A slightly cheaper ink-tank model than the ET-2800, aimed at everyday home printing rather than heavier document scanning needs, with print, scan, and copy but a simpler feature set overall. It's still a genuine ink-tank printer, not a cartridge model.\n\nFor households comparing a budget laser against an ink-tank printer at low-to-moderate volume, this is one of the more accessible ink-tank entry points, and it avoids the cartridge idle-drying issue that affects every non-tank pick in this list.\n\nNo cartridges to buy or replace. Set against that, fewer features than the ET-2800. Both matter when comparing it to the other picks here.",
     specs: [
       "Cartridge-free ink-tank engine",
       "Wireless print, scan, copy",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41xOh51IRUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BL466Y41?tag=deskfinds0d-20",
     description:
-      "HP's ink-tank entry in this list ships with 2 years of ink included, the longest bundled ink supply of any pick here, alongside print, scan, and copy over 2.4GHz wireless. It's the lowest-priced genuine ink-tank printer in this roundup.\n\nLike the Epson ink-tank picks, it avoids standard cartridge idle-drying risk, though the included wireless is 2.4GHz only, worth checking against your router setup before buying if you rely on a 5GHz network band.",
+      "HP's ink-tank entry in this list ships with 2 years of ink included, the longest bundled ink supply of any pick here, alongside print, scan, and copy over 2.4GHz wireless. It's the lowest-priced genuine ink-tank printer in this roundup.\n\nLike the Epson ink-tank picks, it avoids standard cartridge idle-drying risk, though the included wireless is 2.4GHz only, worth checking against your router setup before buying if you rely on a 5GHz network band.\n\nA genuine advantage here is that lowest price among the ink-tank options. The tradeoff is 2.4GHz-only wireless, no 5GHz band.",
     specs: [
       "Cartridge-free ink-tank engine",
       "2 years of ink included",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Know which inkjet sub-category you're actually buying",
-    explanation:
-      "Standard cartridge inkjets, like the DeskJet 4355 and PIXMA TS4320, cost less upfront but more per page. Ink-tank supertanks, like the Epson EcoTank and HP Smart Tank picks, cost more upfront but meaningfully less per page. Confirm which one a listing actually is before comparing price alone.",
+    "criterion": "Understand duty cycle as a maximum ceiling, not a healthy day-to-day volume",
+    "explanation": "A printer's rated duty cycle is the absolute maximum number of pages it can print in a month before risking premature wear, not a figure representing comfortable, sustained daily use, printing consistently near that ceiling month after month accelerates wear on the print mechanism well beyond what the same printer would experience at a more moderate, realistic volume.\n\nThis matters because buying a printer rated just barely above your expected monthly volume often means running it closer to its stress limit than its comfortable operating range.\n\nCheck the listed duty cycle figure, and target a printer rated at 3 to 5 times your actual expected monthly volume for genuinely comfortable long-term use, not a printer rated just above what you think you'll print."
   },
   {
-    criterion: "Run a weekly maintenance routine to prevent clogs",
-    explanation:
-      "The number one home inkjet problem is ink drying and clogging the print head. Print something at least weekly, and run a nozzle check if the printer sits idle for 2+ weeks, since this is the single best way to avoid a wasted cartridge or a streaky first print.",
+    "criterion": "Match multi-user wifi sharing to how many people will actually print from it",
+    "explanation": "A printer's wireless sharing capability varies in real-world reliability between models, some handle multiple simultaneous connection requests from different devices smoothly, while others can drop connections or queue print jobs unreliably when more than one person tries to print around the same time.\n\nThis matters directly for a shared home office or household with multiple people printing throughout the day, less for a single dedicated user.\n\nCheck reviews specifically for mentions of multi-device wifi reliability, not just whether wireless printing is listed as a supported feature, since the feature existing and working reliably under real multi-user load aren't the same thing."
   },
   {
-    criterion: "Paper choice affects quality more than most buyers expect",
-    explanation:
-      "Cheap copier paper causes visible feathering and blur on inkjet text, while a quality paper stock prints noticeably crisper. For photos, OEM photo paper produces a real, visible quality gap over generic third-party stock, worth the extra cost for anything you plan to display.",
+    "criterion": "Check scan resolution against what you're actually digitizing, not just print quality",
+    "explanation": "Print quality specs get most of the attention in printer listings, but scan resolution, measured in DPI, determines whether a scanned document stays genuinely readable when zoomed in or printed again later, and this spec is often buried or only briefly mentioned compared to print specs.\n\nThis matters more if you regularly scan contracts, receipts, or other documents where legibility of fine print matters, less if scanning is an occasional, low-stakes task.\n\nCheck the listed optical scan resolution in DPI specifically, not just the printer's overall feature list, if document scanning is a real part of your workflow."
   },
   {
-    criterion: "Let ink dry before handling printed pages",
-    explanation:
-      "Standard paper needs roughly 30-60 seconds before handling, while glossy photo paper needs 5+ minutes. Handling a page too soon is the most common cause of smeared inkjet prints, and it's rarely mentioned in setup guides.",
+    "criterion": "Weigh whether legacy features like fax are worth paying for in a 2026 home office",
+    "explanation": "Many home-office printers still bundle a fax feature as a holdover from an earlier era, adding to the printer's cost and complexity even though most home offices in 2026 will genuinely never use it, having largely moved to email and digital document sharing entirely.\n\nThis matters for value, paying for a feature you'll never touch is a real, if often overlooked, inefficiency when a fax-free model at a lower price covers the same core printing and scanning needs.\n\nCheck whether fax is a genuine requirement for your specific situation before treating its presence as a meaningful selling point, and consider a fax-free model if it isn't."
   },
   {
-    criterion: "Pigment vs dye ink matters for what you're printing",
-    explanation:
-      "Pigment ink is more waterproof and archival with sharper text, while dye ink produces more vivid color but fades faster and isn't water-resistant. Most budget cartridge inkjets in this list use dye-based black or hybrid systems, worth checking if you need water-resistant documents.",
-  },
-  {
-    criterion: "Match ink-tank vs cartridge to your real monthly volume",
-    explanation:
-      "Under roughly 20-30 pages a month, a cheap cartridge inkjet like the DeskJet 4355 is fine and the ink-tank premium won't pay off quickly. Above that, an ink-tank printer like the EcoTank or Smart Tank picks usually recoups its higher upfront cost within a year or two through lower per-page ink cost.",
-  },
+    "criterion": "Consider ink versus toner cost per page for your actual print volume, not just the printer's price",
+    "explanation": "An inkjet printer is typically cheaper to buy upfront but has a meaningfully higher cost per printed page than a laser printer using toner, a gap that adds up significantly over months of real use at moderate to high volume, while a laser printer costs more initially but can work out cheaper in total ownership cost if you print regularly.\n\nThis matters directly based on your actual expected volume, a low-volume occasional printer may never recoup a laser printer's higher upfront cost, while a high-volume home office likely will.\n\nCheck the manufacturer's stated or estimated cost-per-page for both ink and toner options, and weigh that against your realistic monthly print volume, not just the printer's sticker price."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,65 +359,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Print Volume",
-    intro:
-      "Volume, more than any spec sheet, should decide between a cartridge inkjet and an ink-tank model.",
-    table: {
-      headers: ["Pages per month", "Best fit", "Best pick"],
-      rows: [
-        ["Under 20 pages", "Cheapest cartridge inkjet", "HP DeskJet 4355 or Canon PIXMA TS4320"],
-        ["20-50 pages, occasional fax/scan needs", "Feature-rich cartridge inkjet", "Canon PIXMA TR4720 or TS6520"],
-        ["50+ pages, regular household printing", "Ink-tank supertank", "Epson EcoTank ET-2800 or ET-2400"],
-        ["Lowest-cost ink-tank entry", "Budget ink-tank", "HP Smart Tank 5101"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "HP DeskJet 4355 Wireless All"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "HP DeskJet 4355 Wireless All"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Weekly Maintenance Routine to Prevent Clogs",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $64",
+          "Canon PIXMA TS4320 Wireless Color Inkjet Printer"
+        ],
+        [
+          "Up to $200",
+          "Epson EcoTank ET"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Duplex vs Simplex Printing",
+    "cards": [
       {
-        label: "If you print daily or weekly",
-        text: "Normal use keeps the nozzles clear on their own, no extra routine needed for any pick in this list.",
+        "label": "Duplex (auto two-sided)",
+        "text": "Prints both sides automatically, saves paper and time for double-sided documents. In this comparison: Canon PIXMA TS4320 Wireless Color Inkjet Printer, Canon PIXMA TS6520 Wireless Color Inkjet Printer."
       },
       {
-        label: "If you print every 2-4 weeks",
-        text: "Print a quick test page before you need something urgently, since this is the window where cartridge inkjets like the DeskJet 4355 start risking clogs.",
-      },
-      {
-        label: "If you print less than monthly",
-        text: "Run a manual nozzle check from the printer's menu before any important job, and consider an ink-tank pick instead, since tank ink tolerates longer idle gaps better than cartridges.",
-      },
+        "label": "Simplex only",
+        "text": "Usually cheaper, fine if you rarely need double-sided printing. In this comparison: HP DeskJet 4355 Wireless All, Canon PIXMA TR4720 All, Epson EcoTank ET, Epson EcoTank ET, Epson EcoTank ET, HP Smart Tank 5101 Wireless All."
+      }
     ],
+    "note": "Default to duplex unless you're confident your printing is mostly single-sided."
   },
   {
-    subheading: "Cartridge vs Ink-Tank: 2-Year Cost Profile",
-    table: {
-      headers: ["Type", "Upfront price", "2-year cost profile"],
-      rows: [
-        ["Cartridge inkjet (DeskJet 4355, PIXMA line)", "$64-74", "Lowest upfront, cartridges add up faster at real volume"],
-        ["Ink-tank (EcoTank ET-2400/ET-2800)", "$190-200", "Higher upfront, bottles cost far less per page"],
-        ["Ink-tank with bundled ink (Smart Tank 5101)", "$169.89", "2 years of ink included softens the higher upfront cost"],
-      ],
-    },
-    note: "These are directional comparisons based on stated ink system and typical bottle or cartridge pricing, not measured lab results.",
+    "subheading": "By Scan Resolution",
+    "note": "Check each pick's listed optical scan resolution in DPI against how you'll actually use scanning before buying, not just print specs. HP DeskJet 4355 Wireless All is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Paper Guide for Better Print Quality",
-    table: {
-      headers: ["Print type", "Recommended paper", "Why it matters"],
-      rows: [
-        ["Everyday text documents", "Standard 20lb copier paper", "Cheap paper causes visible feathering and blur on fine text"],
-        ["Photos for display", "OEM photo paper, glossy or matte", "Third-party photo paper often shows a visible color and sharpness gap"],
-        ["Documents you'll handle immediately", "Standard paper, wait 30-60 seconds", "Prevents smearing before ink fully sets"],
-      ],
-    },
+    "subheading": "For Scanning Contracts or Receipts Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A disclosed optical scan resolution in DPI high enough to keep fine print legible, not just the printer's overall feature list."
+      },
+      {
+        "label": "In this comparison",
+        "text": "HP DeskJet 4355 Wireless All is worth checking against its listed scan resolution before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Pigment vs Dye Ink for Your Use Case",
-    intro:
-      "Most inkjets in this list use dye-based or hybrid ink systems rather than pure pigment.",
-    note: "If you specifically need waterproof or archival-quality prints, like important records, check the ink type before buying, since dye ink can smear if it gets wet and fades faster over years than pigment.",
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You print regularly at moderate to high volume, where Epson EcoTank ET's duty cycle and cost-per-page give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only print occasionally at low volume, where Canon PIXMA TS4320 Wireless Color Inkjet Printer covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

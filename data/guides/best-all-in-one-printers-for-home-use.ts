@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "The DeskJet 4355 covers the core all-in-one trio, print, scan, and copy, without piling on features most home buyers skip. Setup is quick over wireless, and the included 3-month Instant Ink trial removes the guesswork around cartridge buying for someone new to the printer.\n\nThis is a 3-in-1, not a 4-in-1, there's no automatic document feeder or fax line, so multi-page scanning means placing one sheet at a time on the flatbed glass. For most home buyers who scan the occasional single document, that's a fair trade for the lower price and simpler unit.",
+      "The DeskJet 4355 covers the core all-in-one trio, print, scan, and copy, without piling on features most home buyers skip. Setup is quick over wireless, and the included 3-month Instant Ink trial removes the guesswork around cartridge buying for someone new to the printer.\n\nThis is a 3-in-1, not a 4-in-1, there's no automatic document feeder or fax line, so multi-page scanning means placing one sheet at a time on the flatbed glass. For most home buyers who scan the occasional single document, that's a fair trade for the lower price and simpler unit.\n\nFast, simple wireless setup. That's a real strength, but weigh it against the flip side: no automatic document feeder.",
     specs: [
       "Print, scan, copy (3-in-1)",
       "No automatic document feeder",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21igSrZPOwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBGXC2C?tag=deskfinds0d-20",
     description:
-      "The PIXMA TS4320 packs print, scan, and copy plus built-in duplex printing into a single compact tray, a real convenience for two-sided documents without a fax line or ADF adding bulk. Easy setup and a 1-year limited warranty round out a straightforward home printer.\n\nThe flatbed scanner is fine for the occasional single-page scan or photo, but without an ADF, scanning a multi-page document means feeding pages one at a time, worth knowing before buying if you regularly scan longer stacks.",
+      "The PIXMA TS4320 packs print, scan, and copy plus built-in duplex printing into a single compact tray, a real convenience for two-sided documents without a fax line or ADF adding bulk. Easy setup and a 1-year limited warranty round out a straightforward home printer.\n\nThe flatbed scanner is fine for the occasional single-page scan or photo, but without an ADF, scanning a multi-page document means feeding pages one at a time, worth knowing before buying if you regularly scan longer stacks.\n\nWorth calling out specifically: compact single-tray footprint. The catch is no automatic document feeder.",
     specs: [
       "Print, scan, copy with duplex printing",
       "No automatic document feeder",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21U5jLy1DeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBTJLX6?tag=deskfinds0d-20",
     description:
-      "This is another 3-in-1, print, scan, and copy with duplex printing, distinguished by a 1.42-inch OLED display and intuitive control panel that make daily use noticeably easier than a printer relying on indicator lights alone. Copy scaling and basic scan options are easy to find without digging through menus.\n\nLike the TS4320, there's no automatic document feeder, so this is a better fit for occasional single-page scanning than for digitizing stacks of paper regularly.",
+      "This is another 3-in-1, print, scan, and copy with duplex printing, distinguished by a 1.42-inch OLED display and intuitive control panel that make daily use noticeably easier than a printer relying on indicator lights alone. Copy scaling and basic scan options are easy to find without digging through menus.\n\nLike the TS4320, there's no automatic document feeder, so this is a better fit for occasional single-page scanning than for digitizing stacks of paper regularly.\n\nDuplex printing built in. Set against that, no automatic document feeder. Both matter when comparing it to the other picks here.",
     specs: [
       "Print, scan, copy with duplex printing",
       "1.42-inch OLED display",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415PuxvZ1wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXKNB9?tag=deskfinds0d-20",
     description:
-      "The PIXMA TR4720 is a genuine 4-in-1, print, scan, copy, and a built-in fax line, plus an automatic document feeder that makes scanning a multi-page document far less tedious than feeding sheets one by one on a flatbed. That combination makes it the pick here for anyone who scans multi-page paperwork regularly, tax documents, old records, kids' school forms.\n\nMost home buyers won't touch the fax feature in 2026, but it doesn't complicate daily print, scan, and copy use. Mobile printing setup follows a short guided process for pairing a phone.",
+      "The PIXMA TR4720 is a genuine 4-in-1, print, scan, copy, and a built-in fax line, plus an automatic document feeder that makes scanning a multi-page document far less tedious than feeding sheets one by one on a flatbed. That combination makes it the pick here for anyone who scans multi-page paperwork regularly, tax documents, old records, kids' school forms.\n\nMost home buyers won't touch the fax feature in 2026, but it doesn't complicate daily print, scan, and copy use. Mobile printing setup follows a short guided process for pairing a phone.\n\nA genuine advantage here is that full 4-in-1 feature set including fax. The tradeoff is fax feature adds a menu option most won't use.",
     specs: [
       "Print, scan, copy, fax (4-in-1)",
       "Automatic document feeder",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/418KMpgzGBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CT8ZJ7ZC?tag=deskfinds0d-20",
     description:
-      "The OfficeJet Pro 8125e steps up to a full print, scan, copy setup with both an automatic document feeder and duplex printing, aimed at home-office use rather than occasional home printing. A 3-month Instant Ink trial softens the entry cost of ongoing ink.\n\nThis is the pick for a household that genuinely uses every feature on the box, ADF for scanning receipts and contracts, duplex for reports, and steady wireless printing from multiple devices. It costs more upfront than the simpler 3-in-1 picks in this list, which is worth it only if you'll use the extra capability.",
+      "The OfficeJet Pro 8125e steps up to a full print, scan, copy setup with both an automatic document feeder and duplex printing, aimed at home-office use rather than occasional home printing. A 3-month Instant Ink trial softens the entry cost of ongoing ink.\n\nThis is the pick for a household that genuinely uses every feature on the box, ADF for scanning receipts and contracts, duplex for reports, and steady wireless printing from multiple devices. It costs more upfront than the simpler 3-in-1 picks in this list, which is worth it only if you'll use the extra capability.\n\nInstant Ink trial reduces early ink cost. That's a real strength, but weigh it against the flip side: higher upfront price than basic 3-in-1 picks.",
     specs: [
       "Print, scan, copy with ADF and duplex printing",
       "3-month Instant Ink trial included",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/319DqCyLa3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09TRZLPXP?tag=deskfinds0d-20",
     description:
-      "The TR8620a is the fullest 4-in-1 in this list, print, copy, scan, fax, plus an automatic document feeder, AirPrint support, and Alexa compatibility for voice-triggered print jobs. It's also the most expensive pick here, so it only makes sense if you'll actually use most of that feature list.\n\nFor a household that wants photo printing quality alongside document handling and doesn't mind paying more for the full set of capabilities, this covers nearly everything a home all-in-one can do. Buyers who only need 2 or 3 of these features are better served by a cheaper pick above.",
+      "The TR8620a is the fullest 4-in-1 in this list, print, copy, scan, fax, plus an automatic document feeder, AirPrint support, and Alexa compatibility for voice-triggered print jobs. It's also the most expensive pick here, so it only makes sense if you'll actually use most of that feature list.\n\nFor a household that wants photo printing quality alongside document handling and doesn't mind paying more for the full set of capabilities, this covers nearly everything a home all-in-one can do. Buyers who only need 2 or 3 of these features are better served by a cheaper pick above.\n\nWorth calling out specifically: airPrint and Alexa support. The catch is most expensive pick in this list.",
     specs: [
       "Print, copy, scan, fax, ADF",
       "AirPrint and Android compatible",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31C067ZosFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FGCCWV6T?tag=deskfinds0d-20",
     description:
-      "Brother's INKvestment 4355 is an ink-tank-style all-in-one with a 1.8-inch color display and a dedicated manual feed slot, useful for occasionally printing on envelopes or cardstock without disturbing the main paper tray. A Refresh Subscription trial is included for the ink system.\n\nThe listing doesn't specifically confirm an automatic document feeder, so if fast multi-page scanning is a priority, verify that spec on the product page before buying rather than assuming it's included based on the MFC model name alone.",
+      "Brother's INKvestment 4355 is an ink-tank-style all-in-one with a 1.8-inch color display and a dedicated manual feed slot, useful for occasionally printing on envelopes or cardstock without disturbing the main paper tray. A Refresh Subscription trial is included for the ink system.\n\nThe listing doesn't specifically confirm an automatic document feeder, so if fast multi-page scanning is a priority, verify that spec on the product page before buying rather than assuming it's included based on the MFC model name alone.\n\nInk-tank system reduces per-page cost over time. Set against that, automatic document feeder not confirmed in the listing, verify before buying if needed. Both matter when comparing it to the other picks here.",
     specs: [
       "Print, scan, copy, ink-tank system",
       "1.8-inch color display",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41MuruhvCqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GPFHCYK7?tag=deskfinds0d-20",
     description:
-      "The standard OfficeJet Pro 8125 offers the same ADF and duplex printing combination as the 8125e above, print, scan, copy with automatic document feeder and two-sided printing, at a slightly different price point depending on current promotions. It's built for home-office volume rather than occasional use.\n\nA 3-month Instant Ink trial is included here too, and the AI-capable printing features are optional extras rather than requirements for basic daily printing.",
+      "The standard OfficeJet Pro 8125 offers the same ADF and duplex printing combination as the 8125e above, print, scan, copy with automatic document feeder and two-sided printing, at a slightly different price point depending on current promotions. It's built for home-office volume rather than occasional use.\n\nA 3-month Instant Ink trial is included here too, and the AI-capable printing features are optional extras rather than requirements for basic daily printing.\n\nA genuine advantage here is that instant Ink trial reduces early ink cost. The tradeoff is higher upfront price than basic 3-in-1 picks.",
     specs: [
       "Print, scan, copy with ADF and duplex printing",
       "3-month Instant Ink trial included",
@@ -328,40 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Figure out which of the 4 features you'll actually use",
-    explanation:
-      "Print, scan, copy, and fax get bundled as \"all-in-one,\" but fax is unnecessary for roughly 95% of home users in 2026, and many people only scan occasionally. Skipping a 4-in-1 for a 2-in-1 or 3-in-1 model when you don't need every feature can save $30-50 without losing anything you'd actually use.",
+    "criterion": "Understand duty cycle as a maximum ceiling, not a healthy day-to-day volume",
+    "explanation": "A printer's rated duty cycle is the absolute maximum number of pages it can print in a month before risking premature wear, not a figure representing comfortable, sustained daily use, printing consistently near that ceiling month after month accelerates wear on the print mechanism well beyond what the same printer would experience at a more moderate, realistic volume.\n\nThis matters because buying a printer rated just barely above your expected monthly volume often means running it closer to its stress limit than its comfortable operating range.\n\nCheck the listed duty cycle figure, and target a printer rated at 3 to 5 times your actual expected monthly volume for genuinely comfortable long-term use, not a printer rated just above what you think you'll print."
   },
   {
-    criterion: "ADF capacity and duplex ADF matter if you scan multi-page stacks",
-    explanation:
-      "A 35-sheet ADF versus a 50-sheet ADF matters when scanning something like a 20-page tax return in one pass, and duplex ADF, which scans both sides automatically, saves real time over a single-sided ADF that requires manually flipping the stack halfway through.",
+    "criterion": "Match multi-user wifi sharing to how many people will actually print from it",
+    "explanation": "A printer's wireless sharing capability varies in real-world reliability between models, some handle multiple simultaneous connection requests from different devices smoothly, while others can drop connections or queue print jobs unreliably when more than one person tries to print around the same time.\n\nThis matters directly for a shared home office or household with multiple people printing throughout the day, less for a single dedicated user.\n\nCheck reviews specifically for mentions of multi-device wifi reliability, not just whether wireless printing is listed as a supported feature, since the feature existing and working reliably under real multi-user load aren't the same thing."
   },
   {
-    criterion: "Flatbed scan quality is not the same as ADF scan quality",
-    explanation:
-      "AIO scanners commonly offer a flatbed resolution around 1200dpi for photos and documents placed directly on the glass, while ADF scanning often runs lower, closer to 300dpi, adequate for text but noticeably worse for photos or detailed graphics. If you plan to scan old photographs, use the flatbed, not the feeder.",
+    "criterion": "Check scan resolution against what you're actually digitizing, not just print quality",
+    "explanation": "Print quality specs get most of the attention in printer listings, but scan resolution, measured in DPI, determines whether a scanned document stays genuinely readable when zoomed in or printed again later, and this spec is often buried or only briefly mentioned compared to print specs.\n\nThis matters more if you regularly scan contracts, receipts, or other documents where legibility of fine print matters, less if scanning is an occasional, low-stakes task.\n\nCheck the listed optical scan resolution in DPI specifically, not just the printer's overall feature list, if document scanning is a real part of your workflow."
   },
   {
-    criterion: "Compare an AIO against a dedicated scanner plus a basic printer",
-    explanation:
-      "For someone who scans heavily but prints lightly, a dedicated scanner paired with a basic printer can beat an AIO on scan quality per dollar, since AIO scanners are built as a secondary feature rather than the primary product. Consider this split setup before assuming an all-in-one is automatically the more efficient choice.",
+    "criterion": "Weigh whether legacy features like fax are worth paying for in a 2026 home office",
+    "explanation": "Many home-office printers still bundle a fax feature as a holdover from an earlier era, adding to the printer's cost and complexity even though most home offices in 2026 will genuinely never use it, having largely moved to email and digital document sharing entirely.\n\nThis matters for value, paying for a feature you'll never touch is a real, if often overlooked, inefficiency when a fax-free model at a lower price covers the same core printing and scanning needs.\n\nCheck whether fax is a genuine requirement for your specific situation before treating its presence as a meaningful selling point, and consider a fax-free model if it isn't."
   },
   {
-    criterion: "Set up scan-to-cloud before you need it",
-    explanation:
-      "Digitizing receipts to Google Drive, emailing scanned contracts, or backing up old photos to Dropbox or OneDrive works best when the workflow is configured ahead of time. Check the manufacturer's app for direct cloud upload support rather than scanning to your computer and uploading manually every time.",
-  },
-  {
-    criterion: "Copy quality at non-100% scaling is worth testing early",
-    explanation:
-      "Reducing a legal-size page to fit letter paper or enlarging a small document for readability can introduce quality loss that varies by printer. Run a test copy at a non-standard scale soon after setup so you know what to expect before you need it for something important.",
-  },
-  {
-    criterion: "A fax line is a legacy feature for almost everyone now",
-    explanation:
-      "Unless you deal with a business, medical office, or government agency that still requires fax, this feature adds a menu option you'll never touch rather than real value. Don't pay a premium for fax capability unless you have a specific, ongoing need for it.",
-  },
+    "criterion": "Consider ink versus toner cost per page for your actual print volume, not just the printer's price",
+    "explanation": "An inkjet printer is typically cheaper to buy upfront but has a meaningfully higher cost per printed page than a laser printer using toner, a gap that adds up significantly over months of real use at moderate to high volume, while a laser printer costs more initially but can work out cheaper in total ownership cost if you print regularly.\n\nThis matters directly based on your actual expected volume, a low-volume occasional printer may never recoup a laser printer's higher upfront cost, while a high-volume home office likely will.\n\nCheck the manufacturer's stated or estimated cost-per-page for both ink and toner options, and weigh that against your realistic monthly print volume, not just the printer's sticker price."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -374,79 +359,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Which Features Do You Actually Need? A Quick Flowchart",
-    intro:
-      "Work through this in order, most home buyers stop after the first or second question.",
-    table: {
-      headers: ["Do you need this feature?", "If yes", "If no"],
-      rows: [
-        ["Print + scan only, no ADF or fax", "HP DeskJet 4355 or Canon PIXMA TS4320", "Keep going"],
-        ["Multi-page ADF scanning", "Canon PIXMA TR4720 (with ADF)", "Skip ADF picks, save $20-30"],
-        ["Duplex two-sided printing", "Canon PIXMA TS6520 or HP OfficeJet Pro 8125", "A basic 3-in-1 is enough"],
-        ["Fax line for business or medical forms", "Canon PIXMA TR4720 or TR8620a", "Skip fax-equipped picks entirely"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "Each unnecessary feature you skip typically saves $20-50 on the sticker price without costing you anything you'd have used.",
+      "rows": [
+        [
+          "Highest average rating",
+          "HP DeskJet 4355 Wireless All"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "HP DeskJet 4355 Wireless All"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By How Much You Scan",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $64",
+          "Canon PIXMA TS4320 Wireless Color Inkjet Printer"
+        ],
+        [
+          "Up to $209",
+          "Brother INKvestment 4355 Wireless Color Inkjet All"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Duplex vs Simplex Printing",
+    "cards": [
       {
-        label: "Occasional single-page scans",
-        text: "A flatbed-only pick like the HP DeskJet 4355 or Canon PIXMA TS4320 is enough; you won't miss the ADF.",
+        "label": "Duplex (auto two-sided)",
+        "text": "Prints both sides automatically, saves paper and time for double-sided documents. In this comparison: Canon PIXMA TS4320 Wireless Color Inkjet Printer, Canon PIXMA TS6520 Wireless Color Inkjet Printer, HP OfficeJet Pro 8125e Wireless All, HP OfficeJet Pro 8125 Wireless All."
       },
       {
-        label: "Regular multi-page documents",
-        text: "The Canon PIXMA TR4720 or HP OfficeJet Pro 8125 include an automatic document feeder built for stacks of pages.",
-      },
-      {
-        label: "Heavy scanning of photos or fine detail",
-        text: "Use the flatbed on any pick, not the ADF, flatbed resolution is typically far higher than ADF scan resolution.",
-      },
+        "label": "Simplex only",
+        "text": "Usually cheaper, fine if you rarely need double-sided printing. In this comparison: HP DeskJet 4355 Wireless All, Canon PIXMA TR4720 All, Canon PIXMA TR8620a All, Brother INKvestment 4355 Wireless Color Inkjet All."
+      }
     ],
+    "note": "Default to duplex unless you're confident your printing is mostly single-sided."
   },
   {
-    subheading: "AIO vs. a Dedicated Scanner Plus a Basic Printer",
-    intro:
-      "If scanning quality matters more to you than printing, consider splitting the job instead of buying one all-in-one.",
-    table: {
-      headers: ["Your priority", "Better approach", "Why"],
-      rows: [
-        ["Balanced print + scan + copy use", "Any AIO in this list", "One device, reasonable quality across all 3"],
-        ["Scan quality is the top priority", "Dedicated scanner + HP DeskJet 4355", "AIO scanners are a secondary feature, not optimized like standalone scanners"],
-        ["Print quality is the top priority, scanning is rare", "Canon PIXMA TR8620a for photo + document quality", "Full-featured pick justifies its price with heavier daily use"],
-      ],
-    },
+    "subheading": "By Scan Resolution",
+    "note": "Check each pick's listed optical scan resolution in DPI against how you'll actually use scanning before buying, not just print specs. HP DeskJet 4355 Wireless All is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Scan-to-Cloud Setup by Service",
-    cards: [
+    "subheading": "For Scanning Contracts or Receipts Specifically",
+    "cards": [
       {
-        label: "Google Drive",
-        text: "Most manufacturer apps, including HP Smart and Canon PRINT, support direct scan-to-Drive once you sign into your Google account inside the app.",
+        "label": "Look for",
+        "text": "A disclosed optical scan resolution in DPI high enough to keep fine print legible, not just the printer's overall feature list."
       },
       {
-        label: "Dropbox and OneDrive",
-        text: "Supported on the same apps, though setup steps vary by manufacturer; check the app's cloud settings menu after initial printer setup rather than assuming it's automatic.",
-      },
-    ],
-    note: "Set this up once, right after unboxing, rather than scanning to your computer and manually uploading every time.",
+        "label": "In this comparison",
+        "text": "HP DeskJet 4355 Wireless All is worth checking against its listed scan resolution before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "ADF Spec Comparison",
-    table: {
-      headers: ["Pick", "ADF included", "Duplex printing"],
-      rows: [
-        ["HP DeskJet 4355", "No", "No"],
-        ["Canon PIXMA TS4320", "No", "Yes"],
-        ["Canon PIXMA TS6520", "No", "Yes"],
-        ["Canon PIXMA TR4720", "Yes", "No"],
-        ["HP OfficeJet Pro 8125e / 8125", "Yes", "Yes"],
-        ["Canon PIXMA TR8620a", "Yes", "No"],
-      ],
-    },
-    note: "If you need both ADF and duplex printing together, the HP OfficeJet Pro 8125e or 8125 is the clearest match in this list.",
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You print regularly at moderate to high volume, where Brother INKvestment 4355 Wireless Color Inkjet All's duty cycle and cost-per-page give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only print occasionally at low volume, where Canon PIXMA TS4320 Wireless Color Inkjet Printer covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [
