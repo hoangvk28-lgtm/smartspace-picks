@@ -31,11 +31,10 @@ export const products: GuideProduct[] = [
     reviews: "7,992 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41EsewSK2nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZWK2TQT?tag=deskfinds0d-20",
-    description:
-      "A very large review base and the highest rating in this guide, this split, tented design's dome-shaped layout is specifically engineered around natural hand positioning during sustained prose typing rather than gaming or coding-specific key remapping.\n\nExpect a genuine adaptation period when switching to this curved, split layout, most buyers report a temporary typing speed reduction during the first one to two weeks before speed recovers and often exceeds their prior standard-keyboard pace, this transition period is central to understanding the real typing-performance value here.",
-    specs: ["Dome-shaped split ergonomic layout", "Very large review base", "Highest rating in this guide", "Genuine tenting adjustability"],
-    pros: ["Very large, well-established review base", "Dome-shaped layout specifically engineered for natural hand positioning during prose typing", "Highest average rating of any pick in this guide", "Genuine tenting adjustability for personalized comfort"],
-    cons: ["Highest price in this guide by a significant margin", "Genuine adaptation period required before typing speed recovers", "Larger footprint than a standard flat keyboard due to the split, tented design"],
+    description: "A very large review base and the highest rating in this guide, this split, tented design's dome-shaped layout is specifically engineered around natural hand positioning during sustained prose typing rather than gaming or coding-specific key remapping.\n\nIt earns the top spot in this comparison over Perixx PERIBOARD-512B Wired Ergonomic Keyboard for one main reason. Very large, well-established review base. On price, it's actually priced above Perixx PERIBOARD-512B Wired Ergonomic Keyboard, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Dome-shaped layout specifically engineered for natural hand positioning during prose typing. On the other side, Larger footprint than a standard flat keyboard due to the split, tented design. That's the main tradeoff to weigh against everything above.",
+    specs: ["Dome-shaped split ergonomic layout","Very large review base","Highest rating in this guide","Genuine tenting adjustability"],
+    pros: ["Very large, well-established review base","Dome-shaped layout specifically engineered for natural hand positioning during prose typing","Highest average rating of any pick in this guide","Genuine tenting adjustability for personalized comfort"],
+    cons: ["Highest price in this guide by a significant margin","Genuine adaptation period required before typing speed recovers","Larger footprint than a standard flat keyboard due to the split, tented design"],
     bestFor: "Buyers wanting the most ergonomically engineered layout for sustained document typing, willing to accept an adaptation period",
   },
   {
@@ -48,11 +47,10 @@ export const products: GuideProduct[] = [
     reviews: "9,553 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41MgdS5CMFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075GZVD4T?tag=deskfinds0d-20",
-    description:
-      "A very large review base at a fraction of the premium pick's price, explicitly marketed for 'natural typing,' this design's split layout genuinely targets the same prose and document typing comfort goal without the flagship price tag.\n\nKeycap profile and spacing on this design suit touch-typing accuracy well, the split layout keeps standard keycap sizing and spacing within each half rather than compressing keys to fit a smaller footprint, a real advantage for typing accuracy over more compact alternatives.",
-    specs: ["Split layout, explicitly marketed for natural typing", "Very large review base", "Standard keycap sizing within each half", "Wired USB connectivity"],
-    pros: ["Very large, well-established review base at a budget-friendly price", "Explicitly marketed and designed for natural typing comfort", "Standard keycap sizing and spacing supports touch-typing accuracy", "No battery or wireless receiver to manage"],
-    cons: ["Same genuine adaptation period as any split keyboard applies here", "Wired-only, no wireless flexibility for buyers wanting that", "No tenting adjustability like the premium top pick"],
+    description: "A very large review base at a fraction of the premium pick's price, explicitly marketed for 'natural typing,' this design's split layout genuinely targets the same prose and document typing comfort goal without the flagship price tag.\n\nOne spot below Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest in this ranking, it's priced lower than Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest. The compromise here is straightforward: Same genuine adaptation period as any split keyboard applies here. What you gain in return: Very large, well-established review base at a budget-friendly price. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Explicitly marketed and designed for natural typing comfort. On the other side, No tenting adjustability like the premium top pick. That's the main tradeoff to weigh against everything above.",
+    specs: ["Split layout, explicitly marketed for natural typing","Very large review base","Standard keycap sizing within each half","Wired USB connectivity"],
+    pros: ["Very large, well-established review base at a budget-friendly price","Explicitly marketed and designed for natural typing comfort","Standard keycap sizing and spacing supports touch-typing accuracy","No battery or wireless receiver to manage"],
+    cons: ["Same genuine adaptation period as any split keyboard applies here","Wired-only, no wireless flexibility for buyers wanting that","No tenting adjustability like the premium top pick"],
     bestFor: "Budget-conscious buyers wanting genuine split-layout typing comfort",
   },
   {
@@ -65,11 +63,10 @@ export const products: GuideProduct[] = [
     reviews: "1,624 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41O4m5cUOVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BKKYRQ31?tag=deskfinds0d-20",
-    description:
-      "A large review base with an included palm rest specifically proportioned to this design, appropriate for multi-hour sustained typing sessions, writing or transcription work, distinct from a general home-office all-day-use framing that covers a broader range of tasks.\n\nThe wireless 2.4G connectivity here removes a cable from your typing setup entirely, a small but real comfort factor over a full multi-hour writing session where cable management around your hands matters more than it might for shorter typing bursts.",
-    specs: ["Split layout with proportioned palm rest", "Large review base", "2.4G wireless connectivity", "Designed for multi-hour sessions"],
-    pros: ["Large, well-established review base", "Included palm rest specifically proportioned for the keyboard design", "Wireless connectivity removes cable clutter for long sessions", "Solid value for genuinely multi-hour typing comfort"],
-    cons: ["Membrane rather than mechanical switches, a different typing feel", "Same adaptation period as any split keyboard applies here", "Battery management adds a small maintenance task over a wired design"],
+    description: "A large review base with an included palm rest specifically proportioned to this design, appropriate for multi-hour sustained typing sessions, writing or transcription work, distinct from a general home-office all-day-use framing that covers a broader range of tasks.\n\nSitting just under Perixx PERIBOARD-512B Wired Ergonomic Keyboard, it costs more than Perixx PERIBOARD-512B Wired Ergonomic Keyboard. Here's the honest tradeoff: Membrane rather than mechanical switches, a different typing feel. And here's what it gets you instead: Large, well-established review base. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Included palm rest specifically proportioned for the keyboard design. On the other side, Battery management adds a small maintenance task over a wired design. That's the main tradeoff to weigh against everything above.",
+    specs: ["Split layout with proportioned palm rest","Large review base","2.4G wireless connectivity","Designed for multi-hour sessions"],
+    pros: ["Large, well-established review base","Included palm rest specifically proportioned for the keyboard design","Wireless connectivity removes cable clutter for long sessions","Solid value for genuinely multi-hour typing comfort"],
+    cons: ["Membrane rather than mechanical switches, a different typing feel","Same adaptation period as any split keyboard applies here","Battery management adds a small maintenance task over a wired design"],
     bestFor: "Writers and transcriptionists doing genuinely multi-hour sustained typing sessions",
   },
   {
@@ -82,11 +79,10 @@ export const products: GuideProduct[] = [
     reviews: "60 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51yI4NqNkGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BLZPLWX4?tag=deskfinds0d-20",
-    description:
-      "A genuine mechanical switch keyboard included here for buyers who prioritize consistent, tactile-free keystroke feedback for sustained prose typing over a split ergonomic layout specifically, the linear switch's smooth actuation avoids the small bump some typists find fatiguing over thousands of keystrokes.\n\nThis compact form factor keeps standard keycap spacing intact despite its smaller footprint, worth checking this specific model's exact layout diagram since compact keyboards sometimes compress spacing in ways that hurt touch-typing accuracy, a tradeoff this design largely avoids.",
-    specs: ["Genuine mechanical low-profile switches", "Compact form factor with standard spacing", "Smaller review base", "Programmable macro keys"],
-    pros: ["Genuine mechanical switch feedback for consistent sustained typing feel", "Compact footprint while maintaining standard keycap spacing", "Linear switches avoid tactile-bump fatigue over long sessions", "Programmable macro keys as a bonus feature"],
-    cons: ["Smaller review base limits confidence in long-term evidence", "No split ergonomic layout like the other picks in this guide", "Not explicitly marketed for the 'natural typing' use case specifically"],
+    description: "A genuine mechanical switch keyboard included here for buyers who prioritize consistent, tactile-free keystroke feedback for sustained prose typing over a split ergonomic layout specifically, the linear switch's smooth actuation avoids the small bump some typists find fatiguing over thousands of keystrokes.\n\nRanked just behind Arteck Split Ergonomic Keyboard with Palm Rest, it's priced lower than Arteck Split Ergonomic Keyboard with Palm Rest. The real tradeoff against that pick: Smaller review base limits confidence in long-term evidence. In exchange, it offers this instead: Genuine mechanical switch feedback for consistent sustained typing feel. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Compact footprint while maintaining standard keycap spacing. On the other side, Not explicitly marketed for the 'natural typing' use case specifically. That's the main tradeoff to weigh against everything above.",
+    specs: ["Genuine mechanical low-profile switches","Compact form factor with standard spacing","Smaller review base","Programmable macro keys"],
+    pros: ["Genuine mechanical switch feedback for consistent sustained typing feel","Compact footprint while maintaining standard keycap spacing","Linear switches avoid tactile-bump fatigue over long sessions","Programmable macro keys as a bonus feature"],
+    cons: ["Smaller review base limits confidence in long-term evidence","No split ergonomic layout like the other picks in this guide","Not explicitly marketed for the 'natural typing' use case specifically"],
     bestFor: "Typists prioritizing mechanical switch feedback over a split ergonomic layout",
   },
   {
@@ -99,13 +95,12 @@ export const products: GuideProduct[] = [
     reviews: "219 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41nJBsy2cuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G3PCSK8B?tag=deskfinds0d-20",
-    description:
-      "A solid rating with a genuinely cushioned wrist rest, appropriate for buyers whose primary typing discomfort centers on wrist pressure during extended document work rather than finger travel or key spacing specifically.\n\nRechargeable battery convenience avoids disposable battery costs over the lifespan of daily typing use, a genuine long-term ownership advantage for a keyboard you'll be using for hours of sustained document typing on a regular basis.",
-    specs: ["Split layout with cushioned wrist rest", "Rechargeable battery", "Solid rating", "Wireless connectivity"],
-    pros: ["Genuinely cushioned wrist rest addresses wrist-pressure discomfort specifically", "Rechargeable, avoiding disposable battery costs over time", "Solid rating for the price point", "Wireless connectivity for a clean typing setup"],
-    cons: ["Smaller review base than the more established picks in this guide", "Same adaptation period as any split keyboard applies here", "Membrane rather than mechanical switches"],
+    description: "A solid rating with a genuinely cushioned wrist rest, appropriate for buyers whose primary typing discomfort centers on wrist pressure during extended document work rather than finger travel or key spacing specifically.\n\nOne spot below Perixx PERIBOARD-335RD Wired Ergonomic Mechanical Compact Keyboard in this ranking, it costs more than Perixx PERIBOARD-335RD Wired Ergonomic Mechanical Compact Keyboard. The compromise here is straightforward: Smaller review base than the more established picks in this guide. What you gain in return: Genuinely cushioned wrist rest addresses wrist-pressure discomfort specifically. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Rechargeable, avoiding disposable battery costs over time. On the other side, Membrane rather than mechanical switches. That's the main tradeoff to weigh against everything above.",
+    specs: ["Split layout with cushioned wrist rest","Rechargeable battery","Solid rating","Wireless connectivity"],
+    pros: ["Genuinely cushioned wrist rest addresses wrist-pressure discomfort specifically","Rechargeable, avoiding disposable battery costs over time","Solid rating for the price point","Wireless connectivity for a clean typing setup"],
+    cons: ["Smaller review base than the more established picks in this guide","Same adaptation period as any split keyboard applies here","Membrane rather than mechanical switches"],
     bestFor: "Buyers whose typing discomfort centers on wrist pressure specifically",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -120,38 +115,113 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Expect a Real Adaptation Period Before Speed Improves",
-    note: "Switching to any split or curved ergonomic layout comes with a genuine temporary speed reduction while your hands adjust to the new key positions and hand angle. Most buyers report this adaptation period lasts roughly one to two weeks of regular use, after which typing speed typically recovers and often exceeds the pre-switch baseline once muscle memory rebuilds around the more natural hand position.",
+    "subheading": "By Layout Type",
+    "note": "Every pick in this specific comparison uses a similar layout approach; check the product names above for the exact curve, split, or angle."
   },
   {
-    subheading: "Match Your Typing Priority to a Specific Pick",
-    table: {
-      headers: ["Your typing priority", "Recommended pick"],
-      rows: [
-        ["Maximum ergonomic engineering for sustained prose typing", "Logitech Ergo K860"],
-        ["Genuine split-layout comfort on a budget", "Perixx PERIBOARD-512B"],
-        ["Multi-hour writing or transcription sessions", "Arteck Split Wireless with Palm Rest"],
-        ["Mechanical switch feedback over a split layout", "Perixx PERIBOARD-335RD Low-Profile"],
-        ["Wrist-pressure relief as the primary discomfort", "Nulea Split with Cushioned Wrist Rest"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $45",
+          "Perixx PERIBOARD-512B Wired Ergonomic Keyboard"
+        ],
+        [
+          "Mid-range",
+          "Nulea Ergonomic Split Keyboard Wireless Cushioned Wrist Rest Rechargeable"
+        ],
+        [
+          "No firm budget ceiling, prioritizing switch quality or ergonomics",
+          "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Keycap Spacing Matters More Here Than for Other Use Cases",
-    note: "Keycap profile and spacing, affecting touch-typing accuracy and speed specifically, deserves more weight in this typing-focused framing than in a gaming or coding-specific keyboard review, where macro keys or RGB might take priority instead. A compact keyboard that compresses key spacing to save desk space can hurt touch-typing accuracy in ways that matter more for sustained prose work than for occasional gaming inputs.",
+    "subheading": "Wired vs Wireless",
+    "cards": [
+      {
+        "label": "Wired",
+        "text": "Zero input latency and no battery to manage, including no backlight battery drain if illuminated. In this comparison: Perixx PERIBOARD-512B Wired Ergonomic Keyboard, Perixx PERIBOARD-335RD Wired Ergonomic Mechanical Compact Keyboard."
+      },
+      {
+        "label": "Wireless (Bluetooth/2.4GHz)",
+        "text": "Cable-free desk setup, at the cost of battery management and, for Bluetooth, potentially more input latency. In this comparison: Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest, Arteck Split Ergonomic Keyboard with Palm Rest, Nulea Ergonomic Split Keyboard Wireless Cushioned Wrist Rest Rechargeable."
+      }
+    ]
   },
   {
-    subheading: "Distinguish Multi-Hour Writing Sessions from General All-Day Office Use",
-    note: "Long typing session comfort, genuinely multi-hour sustained typing such as writing or transcription work, is a distinct evaluation from a general home-office all-day-use framing that covers a broader mix of typing, mousing, and other tasks throughout the day. If your work involves hours of continuous typing specifically, prioritize picks tested against that sustained-typing scenario rather than general all-day comfort alone.",
+    "subheading": "By Switch Type and Typing Feel",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Lowest cost, quiet typing",
+          "Perixx PERIBOARD-512B Wired Ergonomic Keyboard"
+        ],
+        [
+          "Tactile feedback, lighter actuation force",
+          "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For Wrist Pain or Carpal Tunnel Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine split or vertical layout (not just a curved surface), a negative tilt option or naturally downward-sloping design, and an included wrist rest sized for your hand."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest fits this specifically: Very large, well-established review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest offers: Very large, well-established review base. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Perixx PERIBOARD-512B Wired Ergonomic Keyboard already covers the essentials: Very large, well-established review base at a budget-friendly price. The main thing you'd be paying extra for elsewhere in this list is adjustability you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Expect a temporary typing speed reduction during the adaptation period", explanation: "Switching to a split or curved layout typically causes a one-to-two-week adjustment period before speed recovers, often exceeding your prior baseline once muscle memory rebuilds." },
-  { criterion: "Prioritize keycap profile and spacing over gaming-specific features", explanation: "Touch-typing accuracy and speed depend heavily on standard keycap spacing, more central to this typing-focused framing than macro keys or RGB lighting." },
-  { criterion: "Test against sustained typing speed, not just short-burst comfort", explanation: "Words per minute over an extended session is the meaningful metric here, distinct from a quick comfort impression during a brief typing test." },
-  { criterion: "Distinguish multi-hour writing sessions from general all-day office use", explanation: "Genuinely sustained multi-hour typing, writing or transcription work, is a distinct comfort scenario from a broader mix of typing and other tasks throughout the day." },
-  { criterion: "Decide whether mechanical or membrane switches suit your sustained typing feel", explanation: "Mechanical switches offer consistent tactile feedback over thousands of keystrokes, membrane switches offer a softer feel some typists prefer for extended sessions." },
+  {
+    "criterion": "Understand what split, curved, and vertical layouts each actually change about your hand position",
+    "explanation": "A curved keyboard bends the key rows into an arc that reduces how far your fingers reach across the board but keeps both hands in a fixed relative position, a split keyboard physically separates the two halves so each hand and wrist can angle independently to a more natural position, and a fully vertical keyboard rotates the hands toward a handshake-like orientation that reduces forearm rotation (pronation) more aggressively than either curved or split designs.\n\nThese are meaningfully different interventions, not just cosmetic variations on the same idea, and the amount of adjustment period and the specific relief they provide differs: a curved board requires almost no adaptation, a split board requires learning a new hand spacing, and a vertical board requires the most significant adaptation period but addresses forearm rotation most directly.\n\nIf a specific pain type (wrist deviation, forearm rotation, shoulder width) has been identified, match the layout type to that specific issue rather than assuming any keyboard labeled \"ergonomic\" addresses the same problem."
+  },
+  {
+    "criterion": "Check the key switch type, since it affects both typing feel and finger force required",
+    "explanation": "Ergonomic keyboards commonly use one of three switch technologies: membrane (a soft rubber dome under each key, quiet and inexpensive but requiring the key to bottom out fully to register), scissor or low-profile (a shorter, more stable keystroke similar to a laptop keyboard), or mechanical (an individual physical switch per key with more configurable actuation force and travel distance, generally louder but often preferred for tactile feedback and reduced bottoming-out force).\n\nThis matters for anyone with existing wrist or finger strain specifically because mechanical switches can be selected for lighter actuation force, requiring less pressure to register a keystroke than a standard membrane keyboard, a genuine factor in repetitive strain rather than just a preference for typing feel.\n\nIf finger fatigue or strain is a specific concern, check for stated actuation force (measured in grams) rather than assuming all keyboards require the same finger pressure to type."
+  },
+  {
+    "criterion": "Confirm wireless connection type matches your actual devices, and know the battery tradeoffs",
+    "explanation": "Wireless ergonomic keyboards connect via Bluetooth (works with virtually any modern device without a dongle, but can have more noticeable input latency and reconnection delay), a dedicated 2.4GHz USB receiver (generally lower latency and more reliable than Bluetooth, but requires a free USB port and the receiver can be lost), or wired USB (zero latency and no battery to manage, but no cable-free movement).\n\nMulti-device Bluetooth models that support pairing with several devices and switching between them are a genuine convenience for anyone alternating between a work laptop and a personal computer, but this feature isn't universal even among Bluetooth keyboards.\n\nCheck the specific connection type and, for wireless models, confirm multi-device pairing support explicitly if you need to switch between more than one computer regularly, and factor in that backlit wireless models draw more power and need more frequent charging than non-backlit equivalents."
+  },
+  {
+    "criterion": "Check for a negative tilt option and separate wrist rest, since flat isn't always neutral",
+    "explanation": "A truly neutral wrist position during typing involves the hands tilting slightly downward from the wrist toward the keys (negative tilt), which is the opposite of the upward tilt most standard and even many \"ergonomic\" keyboards default to with their built-in feet, and only some ergonomic models offer an actual negative-tilt adjustment or come with a design that achieves this angle by default.\n\nA separate, adequately sized wrist rest matters independently of the keyboard's own tilt, since resting the wrist (not just the palm) on a support surface during typing reduces the upward bend at the wrist that a raised keyboard back otherwise creates.\n\nCheck specifically for a stated negative tilt option or a naturally downward-sloping design, and confirm whether a wrist rest is included versus needing to be purchased separately, rather than assuming any \"ergonomic\" label includes proper tilt geometry."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, since some ergonomic keyboards share variants with different genuine track records",
+    "explanation": "Ergonomic keyboards, especially from smaller brands, are frequently sold in multiple color or configuration variants that share the same underlying design and sometimes the same pooled review history despite being technically separate listings, which can make one specific variant's review count look artificially large or, conversely, leave a genuinely new design with almost no independent track record despite looking similar to an established model.\n\nA keyboard central to your daily work deserves a design with genuinely substantial, focused review history behind it, not just a plausible-looking rating built on a thin or shared sample.\n\nWhen comparing keyboards, especially similarly-designed variants from the same brand, check both the star rating and the review count together, and read a handful of reviews to confirm they describe the exact variant you're considering."
+  }
 ];
 
 export const faq: FaqItem[] = [

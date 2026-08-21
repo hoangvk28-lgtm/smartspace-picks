@@ -31,11 +31,10 @@ export const products: GuideProduct[] = [
     reviews: "1,624 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41O4m5cUOVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BKKYRQ31?tag=deskfinds0d-20",
-    description:
-      "A large review base backing this connected-body split design, unlike a fully separated two-piece split keyboard, this design's halves remain physically joined by an internal connector, meaning a single charging port serves the entire keyboard rather than requiring two separate charging cables.\n\nThis genuinely simplifies the charging logistics that fully separated split keyboards face, a real practical advantage worth understanding before assuming every 'split' ergonomic keyboard requires managing two charge points.",
-    specs: ["Connected-body split, single charge point", "Large review base", "2.4G wireless connectivity", "Included palm rest"],
-    pros: ["Large, well-established review base", "Single charging port despite the split ergonomic layout", "Simplified charging logistics versus fully separated split designs", "Included proportioned palm rest"],
-    cons: ["Not a fully separated split keyboard for buyers wanting maximum hand-distance adjustment", "Realistic charge frequency under heavy daily use not independently disclosed", "Charge-while-typing capability should be verified through current documentation"],
+    description: "A large review base backing this connected-body split design, unlike a fully separated two-piece split keyboard, this design's halves remain physically joined by an internal connector, meaning a single charging port serves the entire keyboard rather than requiring two separate charging cables.\n\nIt earns the top spot in this comparison over ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard for one main reason. Large, well-established review base. On price, it comes in below ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Single charging port despite the split ergonomic layout. On the other side, Charge-while-typing capability should be verified through current documentation. That's the main tradeoff to weigh against everything above.",
+    specs: ["Connected-body split, single charge point","Large review base","2.4G wireless connectivity","Included palm rest"],
+    pros: ["Large, well-established review base","Single charging port despite the split ergonomic layout","Simplified charging logistics versus fully separated split designs","Included proportioned palm rest"],
+    cons: ["Not a fully separated split keyboard for buyers wanting maximum hand-distance adjustment","Realistic charge frequency under heavy daily use not independently disclosed","Charge-while-typing capability should be verified through current documentation"],
     bestFor: "Buyers wanting simplified single-point charging on a split ergonomic layout",
   },
   {
@@ -48,11 +47,10 @@ export const products: GuideProduct[] = [
     reviews: "1,488 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/417L5Ta5edL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJ6TC9D8?tag=deskfinds0d-20",
-    description:
-      "A solid review base with backlit keys and a single-body full-size ergonomic layout, this genuinely avoids the per-half charging complexity entirely since the design isn't physically split into separate charging units in the first place.\n\nThe backlit feature adds a real power-consumption consideration beyond just typing, verify current reviews specifically address whether extended backlight use meaningfully shortens the charge cycle compared to the manufacturer's quoted maximum battery life figure.",
-    specs: ["Single-body full-size ergonomic layout", "Backlit keys", "Solid review base", "Bluetooth connectivity"],
-    pros: ["Solid review base and rating", "Single-body design avoids per-half charging complexity entirely", "Backlit keys for visibility in dim lighting", "Full-size layout for complete key coverage"],
-    cons: ["Backlight use may meaningfully affect realistic charge frequency beyond the quoted maximum", "Not a genuinely split ergonomic layout like some competitors in this guide", "Charge-while-typing capability should be verified through current documentation"],
+    description: "A solid review base with backlit keys and a single-body full-size ergonomic layout, this genuinely avoids the per-half charging complexity entirely since the design isn't physically split into separate charging units in the first place.\n\nOne spot below Arteck Split Ergonomic Keyboard with Palm Rest in this ranking, it costs more than Arteck Split Ergonomic Keyboard with Palm Rest. The compromise here is straightforward: Backlight use may meaningfully affect realistic charge frequency beyond the quoted maximum. What you gain in return: Solid review base and rating. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Single-body design avoids per-half charging complexity entirely. On the other side, Charge-while-typing capability should be verified through current documentation. That's the main tradeoff to weigh against everything above.",
+    specs: ["Single-body full-size ergonomic layout","Backlit keys","Solid review base","Bluetooth connectivity"],
+    pros: ["Solid review base and rating","Single-body design avoids per-half charging complexity entirely","Backlit keys for visibility in dim lighting","Full-size layout for complete key coverage"],
+    cons: ["Backlight use may meaningfully affect realistic charge frequency beyond the quoted maximum","Not a genuinely split ergonomic layout like some competitors in this guide","Charge-while-typing capability should be verified through current documentation"],
     bestFor: "Buyers wanting a full-size rechargeable ergonomic keyboard without split-charging complexity",
   },
   {
@@ -65,11 +63,10 @@ export const products: GuideProduct[] = [
     reviews: "1,488 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41b1vrBnYfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQ4T5M8C?tag=deskfinds0d-20",
-    description:
-      "The grey color sibling of the same proven ProtoArc design, sharing identical single-body construction, backlighting, and charging logistics, appropriate for buyers wanting a lighter desk aesthetic while keeping the same practical single-charge-point simplicity.\n\nSince this shares identical internal hardware with its black sibling, the same realistic charge frequency and backlight power-consumption considerations apply here equally, color choice is purely cosmetic for this specific product line.",
-    specs: ["Single-body full-size ergonomic layout", "Backlit keys, grey finish", "Solid review base", "Bluetooth connectivity"],
-    pros: ["Solid review base and rating, shared with the black variant", "Single-body design avoids per-half charging complexity", "Grey finish for a lighter desk aesthetic", "Backlit keys for visibility in dim lighting"],
-    cons: ["Same backlight power-consumption consideration as the black variant applies here", "Not a genuinely split ergonomic layout", "Charge-while-typing capability should be verified through current documentation"],
+    description: "The grey color sibling of the same proven ProtoArc design, sharing identical single-body construction, backlighting, and charging logistics, appropriate for buyers wanting a lighter desk aesthetic while keeping the same practical single-charge-point simplicity.\n\nSitting just under ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard, it costs more than ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard. Here's the honest tradeoff: Same backlight power-consumption consideration as the black variant applies here. And here's what it gets you instead: Solid review base and rating, shared with the black variant. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Single-body design avoids per-half charging complexity. On the other side, Charge-while-typing capability should be verified through current documentation. That's the main tradeoff to weigh against everything above.",
+    specs: ["Single-body full-size ergonomic layout","Backlit keys, grey finish","Solid review base","Bluetooth connectivity"],
+    pros: ["Solid review base and rating, shared with the black variant","Single-body design avoids per-half charging complexity","Grey finish for a lighter desk aesthetic","Backlit keys for visibility in dim lighting"],
+    cons: ["Same backlight power-consumption consideration as the black variant applies here","Not a genuinely split ergonomic layout","Charge-while-typing capability should be verified through current documentation"],
     bestFor: "Buyers wanting the proven ProtoArc design in a lighter grey finish",
   },
   {
@@ -82,11 +79,10 @@ export const products: GuideProduct[] = [
     reviews: "219 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41nJBsy2cuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G3PCSK8B?tag=deskfinds0d-20",
-    description:
-      "A solid rating with a genuinely cushioned wrist rest, this is explicitly marketed as rechargeable directly in the product name, addressing the rechargeable-versus-replaceable-battery distinction clearly upfront rather than leaving it ambiguous.\n\nRealistic charge frequency for daily use matters most for a keyboard you're relying on throughout a full workday, verify current reviews specifically address how often this design actually needs charging under genuine daily typing hours rather than trusting the maximum-battery-life claim alone.",
-    specs: ["Explicitly labeled rechargeable, split layout", "Cushioned wrist rest", "Solid rating", "Wireless connectivity"],
-    pros: ["Explicitly and clearly labeled rechargeable, not ambiguous about battery type", "Genuinely cushioned wrist rest for wrist-pressure comfort", "Solid rating for the price point", "Split ergonomic layout"],
-    cons: ["Smaller review base than the more established picks in this guide", "Per-half charging logistics not explicitly clarified for this split design", "Realistic charge frequency under heavy daily use not independently disclosed"],
+    description: "A solid rating with a genuinely cushioned wrist rest, this is explicitly marketed as rechargeable directly in the product name, addressing the rechargeable-versus-replaceable-battery distinction clearly upfront rather than leaving it ambiguous.\n\nRanked just behind ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard, it's priced lower than ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard. The real tradeoff against that pick: Smaller review base than the more established picks in this guide. In exchange, it offers this instead: Explicitly and clearly labeled rechargeable, not ambiguous about battery type. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Genuinely cushioned wrist rest for wrist-pressure comfort. On the other side, Realistic charge frequency under heavy daily use not independently disclosed. That's the main tradeoff to weigh against everything above.",
+    specs: ["Explicitly labeled rechargeable, split layout","Cushioned wrist rest","Solid rating","Wireless connectivity"],
+    pros: ["Explicitly and clearly labeled rechargeable, not ambiguous about battery type","Genuinely cushioned wrist rest for wrist-pressure comfort","Solid rating for the price point","Split ergonomic layout"],
+    cons: ["Smaller review base than the more established picks in this guide","Per-half charging logistics not explicitly clarified for this split design","Realistic charge frequency under heavy daily use not independently disclosed"],
     bestFor: "Buyers wanting an explicitly labeled rechargeable split keyboard with wrist cushioning",
   },
   {
@@ -99,13 +95,12 @@ export const products: GuideProduct[] = [
     reviews: "132 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/4111FGMHFCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G6ZZ95GB?tag=deskfinds0d-20",
-    description:
-      "A genuinely disclosed 2500mAh battery capacity, a rare specificity most competitors don't publish, appropriate for a buyer wanting real capacity numbers to compare against other rechargeable keyboards rather than a vague maximum-battery-life claim alone.\n\n15 RGB lighting effects add a real power-consumption factor beyond typing itself, similar to the backlighting consideration on the ProtoArc picks, extended RGB use will meaningfully affect realistic charge frequency compared to running with lighting disabled.",
-    specs: ["Disclosed 2500mAh battery capacity", "15 RGB lighting effects", "Leather wrist rest", "Multimedia keys included"],
-    pros: ["Genuinely disclosed 2500mAh battery capacity, rare specificity in this category", "15 RGB lighting effects for aesthetic customization", "Leather wrist rest for a premium comfort feel", "Multimedia keys as a bonus feature"],
-    cons: ["RGB lighting use will meaningfully affect realistic charge frequency", "Smaller review base than the more established picks in this guide", "Per-half charging logistics not applicable, but verify if this is a genuine split design"],
+    description: "A genuinely disclosed 2500mAh battery capacity, a rare specificity most competitors don't publish, appropriate for a buyer wanting real capacity numbers to compare against other rechargeable keyboards rather than a vague maximum-battery-life claim alone.\n\nOne spot below Nulea Ergonomic Split Keyboard Wireless Cushioned Wrist Rest Rechargeable in this ranking, it's priced lower than Nulea Ergonomic Split Keyboard Wireless Cushioned Wrist Rest Rechargeable. The compromise here is straightforward: RGB lighting use will meaningfully affect realistic charge frequency. What you gain in return: Genuinely disclosed 2500mAh battery capacity, rare specificity in this category. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: 15 RGB lighting effects for aesthetic customization. On the other side, Per-half charging logistics not applicable, but verify if this is a genuine split design. That's the main tradeoff to weigh against everything above.",
+    specs: ["Disclosed 2500mAh battery capacity","15 RGB lighting effects","Leather wrist rest","Multimedia keys included"],
+    pros: ["Genuinely disclosed 2500mAh battery capacity, rare specificity in this category","15 RGB lighting effects for aesthetic customization","Leather wrist rest for a premium comfort feel","Multimedia keys as a bonus feature"],
+    cons: ["RGB lighting use will meaningfully affect realistic charge frequency","Smaller review base than the more established picks in this guide","Per-half charging logistics not applicable, but verify if this is a genuine split design"],
     bestFor: "Buyers wanting a disclosed battery capacity number and RGB customization",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -120,37 +115,113 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Understand Whether You're Buying a Split or Single-Body Rechargeable Design",
-    note: "Charging cable type and charge port location per half matters specifically for split keyboards, since charging two separate physical halves requires either two charging cables or a keyboard design that allows charging one half at a time. A single-body ergonomic design, like the ProtoArc EK01 Plus picks in this guide, sidesteps this logistics question entirely by never splitting into separate charging units in the first place.",
+    "subheading": "By Layout Type",
+    "note": "Every pick in this specific comparison uses a similar layout approach; check the product names above for the exact curve, split, or angle."
   },
   {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Split layout with simplified single-charge-point logistics", "Arteck Split Wireless with Palm Rest"],
-        ["Full-size, single-body, no per-half charging complexity", "ProtoArc EK01 Plus (Black or Grey)"],
-        ["Explicitly labeled rechargeable with wrist cushioning", "Nulea Split with Cushioned Wrist Rest"],
-        ["Disclosed battery capacity for real comparison", "COLIKES 2500mAh with RGB Lighting"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $40",
+          "COLIKES Wireless Ergonomic Keyboard"
+        ],
+        [
+          "Mid-range",
+          "Arteck Split Ergonomic Keyboard with Palm Rest"
+        ],
+        [
+          "No firm budget ceiling, prioritizing switch quality or ergonomics",
+          "ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Backlighting and RGB Meaningfully Affect Real Charge Frequency",
-    note: "Realistic charge frequency for daily use depends heavily on whether you run backlighting or RGB lighting effects, since these features draw meaningfully more power than typing alone. If a manufacturer's maximum-battery-life claim assumes lighting disabled, expect a shorter realistic interval between charges if you keep backlighting or RGB effects active throughout your workday.",
+    "subheading": "Wired vs Wireless",
+    "cards": [
+      {
+        "label": "Wired",
+        "text": "Zero input latency and no battery to manage, including no backlight battery drain if illuminated. In this comparison: check each listing's connection type directly."
+      },
+      {
+        "label": "Wireless (Bluetooth/2.4GHz)",
+        "text": "Cable-free desk setup, at the cost of battery management and, for Bluetooth, potentially more input latency. In this comparison: Arteck Split Ergonomic Keyboard with Palm Rest, ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard, ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard."
+      }
+    ]
   },
   {
-    subheading: "Verify You Can Keep Typing While It Charges",
-    note: "Charge-while-typing capability, using the keyboard via USB cable while its battery charges, is a genuine usability feature worth confirming before you're caught with a dead keyboard mid-task and no way to keep working during the charge cycle. Check current reviews specifically for this, since not every rechargeable keyboard listing discloses it clearly upfront.",
+    "subheading": "By Switch Type and Typing Feel",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Lowest cost, quiet typing",
+          "COLIKES Wireless Ergonomic Keyboard"
+        ],
+        [
+          "Tactile feedback, lighter actuation force",
+          "ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For Wrist Pain or Carpal Tunnel Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine split or vertical layout (not just a curved surface), a negative tilt option or naturally downward-sloping design, and an included wrist rest sized for your hand."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Arteck Split Ergonomic Keyboard with Palm Rest fits this specifically: Large, well-established review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what ProtoArc EK01 Plus Backlit Bluetooth Ergonomic Keyboard offers: Solid review base and rating, shared with the black variant. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "COLIKES Wireless Ergonomic Keyboard already covers the essentials: Genuinely disclosed 2500mAh battery capacity, rare specificity in this category. The main thing you'd be paying extra for elsewhere in this list is adjustability you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Understand split versus single-body charging logistics before buying", explanation: "A fully separated split keyboard may need two charging cables, while a single-body design or connected-halves design sidesteps this complexity entirely." },
-  { criterion: "Don't trust the maximum-battery-life claim alone", explanation: "Realistic charge frequency for daily use, especially with backlighting or RGB active, matters more than a manufacturer's best-case quoted figure." },
-  { criterion: "Verify charge-while-typing capability before you need it", explanation: "Some keyboards remain usable via USB cable during charging, others don't, confirm this before you're stuck mid-task with a dead battery." },
-  { criterion: "Look for a disclosed battery capacity number when comparing options", explanation: "A specific mAh figure, like the COLIKES pick's disclosed 2500mAh, gives a more comparable data point than a vague maximum-battery-life marketing claim." },
-  { criterion: "Factor in backlighting's real power draw beyond typing alone", explanation: "RGB and backlit features meaningfully shorten realistic charge intervals compared to running the keyboard with lighting disabled." },
+  {
+    "criterion": "Understand what split, curved, and vertical layouts each actually change about your hand position",
+    "explanation": "A curved keyboard bends the key rows into an arc that reduces how far your fingers reach across the board but keeps both hands in a fixed relative position, a split keyboard physically separates the two halves so each hand and wrist can angle independently to a more natural position, and a fully vertical keyboard rotates the hands toward a handshake-like orientation that reduces forearm rotation (pronation) more aggressively than either curved or split designs.\n\nThese are meaningfully different interventions, not just cosmetic variations on the same idea, and the amount of adjustment period and the specific relief they provide differs: a curved board requires almost no adaptation, a split board requires learning a new hand spacing, and a vertical board requires the most significant adaptation period but addresses forearm rotation most directly.\n\nIf a specific pain type (wrist deviation, forearm rotation, shoulder width) has been identified, match the layout type to that specific issue rather than assuming any keyboard labeled \"ergonomic\" addresses the same problem."
+  },
+  {
+    "criterion": "Check the key switch type, since it affects both typing feel and finger force required",
+    "explanation": "Ergonomic keyboards commonly use one of three switch technologies: membrane (a soft rubber dome under each key, quiet and inexpensive but requiring the key to bottom out fully to register), scissor or low-profile (a shorter, more stable keystroke similar to a laptop keyboard), or mechanical (an individual physical switch per key with more configurable actuation force and travel distance, generally louder but often preferred for tactile feedback and reduced bottoming-out force).\n\nThis matters for anyone with existing wrist or finger strain specifically because mechanical switches can be selected for lighter actuation force, requiring less pressure to register a keystroke than a standard membrane keyboard, a genuine factor in repetitive strain rather than just a preference for typing feel.\n\nIf finger fatigue or strain is a specific concern, check for stated actuation force (measured in grams) rather than assuming all keyboards require the same finger pressure to type."
+  },
+  {
+    "criterion": "Confirm wireless connection type matches your actual devices, and know the battery tradeoffs",
+    "explanation": "Wireless ergonomic keyboards connect via Bluetooth (works with virtually any modern device without a dongle, but can have more noticeable input latency and reconnection delay), a dedicated 2.4GHz USB receiver (generally lower latency and more reliable than Bluetooth, but requires a free USB port and the receiver can be lost), or wired USB (zero latency and no battery to manage, but no cable-free movement).\n\nMulti-device Bluetooth models that support pairing with several devices and switching between them are a genuine convenience for anyone alternating between a work laptop and a personal computer, but this feature isn't universal even among Bluetooth keyboards.\n\nCheck the specific connection type and, for wireless models, confirm multi-device pairing support explicitly if you need to switch between more than one computer regularly, and factor in that backlit wireless models draw more power and need more frequent charging than non-backlit equivalents."
+  },
+  {
+    "criterion": "Check for a negative tilt option and separate wrist rest, since flat isn't always neutral",
+    "explanation": "A truly neutral wrist position during typing involves the hands tilting slightly downward from the wrist toward the keys (negative tilt), which is the opposite of the upward tilt most standard and even many \"ergonomic\" keyboards default to with their built-in feet, and only some ergonomic models offer an actual negative-tilt adjustment or come with a design that achieves this angle by default.\n\nA separate, adequately sized wrist rest matters independently of the keyboard's own tilt, since resting the wrist (not just the palm) on a support surface during typing reduces the upward bend at the wrist that a raised keyboard back otherwise creates.\n\nCheck specifically for a stated negative tilt option or a naturally downward-sloping design, and confirm whether a wrist rest is included versus needing to be purchased separately, rather than assuming any \"ergonomic\" label includes proper tilt geometry."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, since some ergonomic keyboards share variants with different genuine track records",
+    "explanation": "Ergonomic keyboards, especially from smaller brands, are frequently sold in multiple color or configuration variants that share the same underlying design and sometimes the same pooled review history despite being technically separate listings, which can make one specific variant's review count look artificially large or, conversely, leave a genuinely new design with almost no independent track record despite looking similar to an established model.\n\nA keyboard central to your daily work deserves a design with genuinely substantial, focused review history behind it, not just a plausible-looking rating built on a thin or shared sample.\n\nWhen comparing keyboards, especially similarly-designed variants from the same brand, check both the star rating and the review count together, and read a handful of reviews to confirm they describe the exact variant you're considering."
+  }
 ];
 
 export const faq: FaqItem[] = [

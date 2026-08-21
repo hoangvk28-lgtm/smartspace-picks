@@ -50,26 +50,10 @@ export const products: GuideProduct[] = [
     reviews: "Not yet rated",
     imageUrl: "https://m.media-amazon.com/images/I/4114VdW9JcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BTNY72VD?tag=deskfinds0d-20",
-    description:
-      "Wave Keys is the closest thing in this list to a purpose-built ergonomic keyboard rather than a standard board wearing the label. Its curved key deck and attached rocking palm rest genuinely reduce wrist bend compared to a flat keyboard, even though it is a wave curve rather than a true split that separates into two halves.\n\nIt is most often sold and reviewed as a standalone keyboard, so treat any bundled mouse pairing as a sculpted mouse for grip comfort, not a vertical mouse for pronation relief. Pair it with a dedicated vertical mouse if wrist rotation is your main concern.",
-    specs: [
-      "Wave-curved key deck, single-piece frame",
-      "Rocking cushioned palm rest",
-      "Bluetooth and USB receiver pairing",
-      "Compact footprint",
-      "Graphite finish",
-    ],
-    pros: [
-      "Genuinely ergonomic curved design, not just labeled that way",
-      "Rocking palm rest adjusts to wrist angle",
-      "Dual wireless connection options",
-      "Compact footprint fits smaller desks",
-    ],
-    cons: [
-      "Costs more than the standard combos in this list",
-      "Wave curve, not a true split layout",
-      "No bundled mouse in this specific listing",
-    ],
+    description: "Wave Keys is the closest thing in this list to a purpose-built ergonomic keyboard rather than a standard board wearing the label. Its curved key deck and attached rocking palm rest genuinely reduce wrist bend compared to a flat keyboard, even though it is a wave curve rather than a true split that separates into two halves.\n\nIt earns the top spot in this comparison over Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest for one main reason. Genuinely ergonomic curved design, not just labeled that way. On price, it comes in below Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Rocking palm rest adjusts to wrist angle. On the other side, No bundled mouse in this specific listing. That's the main tradeoff to weigh against everything above.",
+    specs: ["Wave-curved key deck, single-piece frame","Rocking cushioned palm rest","Bluetooth and USB receiver pairing","Compact footprint","Graphite finish"],
+    pros: ["Genuinely ergonomic curved design, not just labeled that way","Rocking palm rest adjusts to wrist angle","Dual wireless connection options","Compact footprint fits smaller desks"],
+    cons: ["Costs more than the standard combos in this list","Wave curve, not a true split layout","No bundled mouse in this specific listing"],
     bestFor: "Buyers who want a keyboard that is actually ergonomic, not just labeled as a set",
   },
   {
@@ -82,26 +66,10 @@ export const products: GuideProduct[] = [
     reviews: "Not yet rated",
     imageUrl: "https://m.media-amazon.com/images/I/41EsewSK2nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZWK2TQT?tag=deskfinds0d-20",
-    description:
-      "The Ergo K860 uses a genuinely separated key layout split into two angled halves, not a single curved wave surface, and it is the only pick in this list built around a true split rather than a curve marketed as one. A dense memory foam palm rest runs the full width of the board.\n\nAs with the Wave Keys pick, this is most commonly sold as a standalone keyboard. Pairing it with Logitech's MX Vertical or Lift mouse separately gets you a genuinely matched ergonomic set, since no bundled mouse here offers the same level of wrist relief as the keyboard itself.",
-    specs: [
-      "True split key layout, not a wave curve",
-      "Full-width memory foam palm rest",
-      "Multi-device Bluetooth, up to 3 devices",
-      "Wireless, Logi Bolt USB receiver included",
-      "Reverse tilt keeps wrists in a more neutral angle",
-    ],
-    pros: [
-      "Only genuinely split layout in this list",
-      "Dense memory foam rest across the full width",
-      "Pairs with up to 3 devices over Bluetooth",
-      "Reverse tilt reduces wrist extension",
-    ],
-    cons: [
-      "Most expensive pick in this list",
-      "No bundled mouse in this specific listing",
-      "Wider overall footprint than a wave keyboard",
-    ],
+    description: "The Ergo K860 uses a genuinely separated key layout split into two angled halves, not a single curved wave surface, and it is the only pick in this list built around a true split rather than a curve marketed as one. A dense memory foam palm rest runs the full width of the board.\n\nOne spot below Logitech Wave Keys Wireless Ergonomic Keyboard in this ranking, it costs more than Logitech Wave Keys Wireless Ergonomic Keyboard. The compromise here is straightforward: Most expensive pick in this list. What you gain in return: Only genuinely split layout in this list. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Dense memory foam rest across the full width. On the other side, Wider overall footprint than a wave keyboard. That's the main tradeoff to weigh against everything above.",
+    specs: ["True split key layout, not a wave curve","Full-width memory foam palm rest","Multi-device Bluetooth, up to 3 devices","Wireless, Logi Bolt USB receiver included","Reverse tilt keeps wrists in a more neutral angle"],
+    pros: ["Only genuinely split layout in this list","Dense memory foam rest across the full width","Pairs with up to 3 devices over Bluetooth","Reverse tilt reduces wrist extension"],
+    cons: ["Most expensive pick in this list","No bundled mouse in this specific listing","Wider overall footprint than a wave keyboard"],
     bestFor: "Buyers who want the most ergonomically serious keyboard and are willing to pair a vertical mouse separately",
   },
   {
@@ -114,26 +82,10 @@ export const products: GuideProduct[] = [
     reviews: "Not yet rated",
     imageUrl: "https://m.media-amazon.com/images/I/41MgdS5CMFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075GZVD4T?tag=deskfinds0d-20",
-    description:
-      "The PERIBOARD-512B pairs a genuinely split key section with a wired USB connection, the cheapest way in this list to get a real split layout rather than a curved single-piece frame. Its firmer molded plastic wrist rest trades softness for a surface that resists flattening over years of use.\n\nLike the other standalone ergonomic keyboards here, it is not sold with a matched ergonomic mouse. Because it is wired, there is no pairing and no battery to manage, a real advantage if your desk already has enough wireless devices competing for a connection.",
-    specs: [
-      "Genuine split key layout",
-      "Molded plastic wrist rest",
-      "Wired USB connection",
-      "Windows-specific shortcut key row",
-      "Natural typing angle",
-    ],
-    pros: [
-      "Cheapest true split layout in this list",
-      "No battery or wireless pairing to manage",
-      "Firm wrist rest resists flattening over time",
-      "Dedicated Windows shortcut keys",
-    ],
-    cons: [
-      "No bundled ergonomic mouse",
-      "Wired only, no Bluetooth option",
-      "Shortcut row is Windows-specific",
-    ],
+    description: "The PERIBOARD-512B pairs a genuinely split key section with a wired USB connection, the cheapest way in this list to get a real split layout rather than a curved single-piece frame. Its firmer molded plastic wrist rest trades softness for a surface that resists flattening over years of use.\n\nSitting just under Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest, it's priced lower than Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest. Here's the honest tradeoff: No bundled ergonomic mouse. And here's what it gets you instead: Cheapest true split layout in this list. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: No battery or wireless pairing to manage. On the other side, Shortcut row is Windows-specific. That's the main tradeoff to weigh against everything above.",
+    specs: ["Genuine split key layout","Molded plastic wrist rest","Wired USB connection","Windows-specific shortcut key row","Natural typing angle"],
+    pros: ["Cheapest true split layout in this list","No battery or wireless pairing to manage","Firm wrist rest resists flattening over time","Dedicated Windows shortcut keys"],
+    cons: ["No bundled ergonomic mouse","Wired only, no Bluetooth option","Shortcut row is Windows-specific"],
     bestFor: "Budget buyers who want a true split layout without paying for wireless",
   },
   {
@@ -146,26 +98,10 @@ export const products: GuideProduct[] = [
     reviews: "Not yet rated",
     imageUrl: "https://m.media-amazon.com/images/I/41UwyzL63IL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DLBD36HL?tag=deskfinds0d-20",
-    description:
-      "This set is genuinely a matched keyboard and mouse pairing sold together, unlike most of the standalone ergonomic keyboards above. The keyboard has a mildly curved key layout marketed as ergonomic, though it is a much gentler curve than the Wave Keys or true split picks, and the included mouse is a standard sculpted shape rather than anything vertical.\n\nAt under $20 for the pair, this is the cheapest way into a matched wireless set, and the quiet switches reduce typing noise, but treat the ergonomic claims here as modest compared to the dedicated ergonomic keyboards elsewhere in this list.",
-    specs: [
-      "Mildly curved full-size key layout",
-      "Standard sculpted mouse (not vertical)",
-      "2.4G wireless, single USB receiver for both",
-      "Quiet/silent key switches",
-      "Long battery life claimed",
-    ],
-    pros: [
-      "Genuinely sold as a matched keyboard + mouse pair",
-      "Cheapest set in this list",
-      "Single receiver pairs both devices at once",
-      "Quiet typing for shared spaces",
-    ],
-    cons: [
-      "Curve is much milder than a true wave or split keyboard",
-      "Mouse is sculpted, not vertical, minimal pronation relief",
-      "Build quality expectations should match the price",
-    ],
+    description: "This set is genuinely a matched keyboard and mouse pairing sold together, unlike most of the standalone ergonomic keyboards above. The keyboard has a mildly curved key layout marketed as ergonomic, though it is a much gentler curve than the Wave Keys or true split picks, and the included mouse is a standard sculpted shape rather than anything vertical.\n\nRanked just behind Perixx PERIBOARD-512B Wired Ergonomic Keyboard, it's priced lower than Perixx PERIBOARD-512B Wired Ergonomic Keyboard. The real tradeoff against that pick: Curve is much milder than a true wave or split keyboard. In exchange, it offers this instead: Genuinely sold as a matched keyboard + mouse pair. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Cheapest set in this list. On the other side, Build quality expectations should match the price. That's the main tradeoff to weigh against everything above.",
+    specs: ["Mildly curved full-size key layout","Standard sculpted mouse (not vertical)","2.4G wireless, single USB receiver for both","Quiet/silent key switches","Long battery life claimed"],
+    pros: ["Genuinely sold as a matched keyboard + mouse pair","Cheapest set in this list","Single receiver pairs both devices at once","Quiet typing for shared spaces"],
+    cons: ["Curve is much milder than a true wave or split keyboard","Mouse is sculpted, not vertical, minimal pronation relief","Build quality expectations should match the price"],
     bestFor: "Budget buyers who want a genuinely matched set, with modest ergonomic benefit",
   },
   {
@@ -178,26 +114,10 @@ export const products: GuideProduct[] = [
     reviews: "Not yet rated",
     imageUrl: "https://m.media-amazon.com/images/I/41F9wsyh5rL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DDT75R2R?tag=deskfinds0d-20",
-    description:
-      "This is functionally the same tier of product as the previous pick: a matched wireless keyboard and mouse set with a mildly curved keyboard shape and a standard sculpted mouse, sold here in an Avocado Green finish for buyers who want a colorway beyond black or graphite.\n\nThe 3-level DPI adjustable mouse and Fn multimedia key row are the practical extras here. As with the other budget combo, the ergonomic benefit is real but modest compared to a genuine wave or split keyboard.",
-    specs: [
-      "Mildly curved full-size key layout",
-      "3-level DPI adjustable mouse",
-      "2.4G wireless, single USB receiver for both",
-      "Fn multimedia key row",
-      "Avocado Green colorway",
-    ],
-    pros: [
-      "Genuinely matched keyboard + mouse set",
-      "Adjustable mouse DPI",
-      "Distinct colorway for desk setups that want it",
-      "Budget-friendly price",
-    ],
-    cons: [
-      "Curve is much milder than a true wave or split keyboard",
-      "Mouse is sculpted, not vertical",
-      "Same modest ergonomic benefit as the black budget option",
-    ],
+    description: "This is functionally the same tier of product as the previous pick: a matched wireless keyboard and mouse set with a mildly curved keyboard shape and a standard sculpted mouse, sold here in an Avocado Green finish for buyers who want a colorway beyond black or graphite.\n\nOne spot below Wireless Keyboard and Mouse Combo in this ranking, it costs more than Wireless Keyboard and Mouse Combo. The compromise here is straightforward: Curve is much milder than a true wave or split keyboard. What you gain in return: Genuinely matched keyboard + mouse set. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Adjustable mouse DPI. On the other side, Same modest ergonomic benefit as the black budget option. That's the main tradeoff to weigh against everything above.",
+    specs: ["Mildly curved full-size key layout","3-level DPI adjustable mouse","2.4G wireless, single USB receiver for both","Fn multimedia key row","Avocado Green colorway"],
+    pros: ["Genuinely matched keyboard + mouse set","Adjustable mouse DPI","Distinct colorway for desk setups that want it","Budget-friendly price"],
+    cons: ["Curve is much milder than a true wave or split keyboard","Mouse is sculpted, not vertical","Same modest ergonomic benefit as the black budget option"],
     bestFor: "Buyers who want the budget matched set in a specific color",
   },
   {
@@ -210,26 +130,10 @@ export const products: GuideProduct[] = [
     reviews: "Not yet rated",
     imageUrl: "https://m.media-amazon.com/images/I/318zs7Y1XML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00QXT5T3U?tag=deskfinds0d-20",
-    description:
-      "The MK345 is a standard flat keyboard and mouse combo, not an ergonomic one, and it is included here specifically as a comparison point rather than a recommended ergonomic pick. There is no curve to the key deck and no sculpted shaping to the mouse beyond a basic contour.\n\nIf wrist comfort is your actual goal, one of the genuinely curved or split keyboards above will do more for you at a similar or lower price. This is a reasonable pick only if reliability and simplicity from an established brand matter more than ergonomics.",
-    specs: [
-      "Flat, standard key layout",
-      "Basic contoured mouse, no ergonomic shaping",
-      "2.4GHz wireless, single USB receiver",
-      "Spill-resistant keyboard design",
-      "Full-size layout with numpad",
-    ],
-    pros: [
-      "Reliable, established brand hardware",
-      "Simple single-receiver wireless pairing",
-      "Full-size layout with numpad",
-      "Reasonably priced",
-    ],
-    cons: [
-      "Not ergonomic despite frequently appearing in ergonomic set searches",
-      "Flat key deck, no wrist relief",
-      "Mouse has no real ergonomic shaping",
-    ],
+    description: "The MK345 is a standard flat keyboard and mouse combo, not an ergonomic one, and it is included here specifically as a comparison point rather than a recommended ergonomic pick. There is no curve to the key deck and no sculpted shaping to the mouse beyond a basic contour.\n\nSitting just under Wireless Keyboard and Mouse Combo, it costs more than Wireless Keyboard and Mouse Combo. Here's the honest tradeoff: Not ergonomic despite frequently appearing in ergonomic set searches. And here's what it gets you instead: Reliable, established brand hardware. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Simple single-receiver wireless pairing. On the other side, Mouse has no real ergonomic shaping. That's the main tradeoff to weigh against everything above.",
+    specs: ["Flat, standard key layout","Basic contoured mouse, no ergonomic shaping","2.4GHz wireless, single USB receiver","Spill-resistant keyboard design","Full-size layout with numpad"],
+    pros: ["Reliable, established brand hardware","Simple single-receiver wireless pairing","Full-size layout with numpad","Reasonably priced"],
+    cons: ["Not ergonomic despite frequently appearing in ergonomic set searches","Flat key deck, no wrist relief","Mouse has no real ergonomic shaping"],
     bestFor: "Buyers who want a reliable standard combo and don't actually need ergonomic features",
   },
   {
@@ -242,26 +146,10 @@ export const products: GuideProduct[] = [
     reviews: "Not yet rated",
     imageUrl: "https://m.media-amazon.com/images/I/31proj8-YIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CBPNWCVS?tag=deskfinds0d-20",
-    description:
-      "Like the MK345, the MK540 is a standard flat combo, not an ergonomic one, despite frequently surfacing in searches for ergonomic keyboard and mouse sets. It adds a spill-resistant design and a slightly more refined mouse shape than the MK345, along with a longer claimed battery life.\n\nAt this price, a genuinely curved keyboard like Wave Keys costs about the same, so choose the MK540 only if you specifically want this combo's other features (numpad, battery life, build quality) over any ergonomic benefit.",
-    specs: [
-      "Flat, standard key layout",
-      "Contoured mouse, no ergonomic shaping",
-      "2.4GHz wireless, single USB receiver",
-      "Spill-resistant keyboard design",
-      "Extended battery life claimed",
-    ],
-    pros: [
-      "Refined build quality from an established brand",
-      "Spill-resistant design",
-      "Longer claimed battery life than the MK345",
-      "Simple single-receiver setup",
-    ],
-    cons: [
-      "Not ergonomic, priced similarly to a genuinely curved keyboard",
-      "Flat key deck, no wrist relief",
-      "Mouse has no real ergonomic shaping",
-    ],
+    description: "Like the MK345, the MK540 is a standard flat combo, not an ergonomic one, despite frequently surfacing in searches for ergonomic keyboard and mouse sets. It adds a spill-resistant design and a slightly more refined mouse shape than the MK345, along with a longer claimed battery life.\n\nRanked just behind Logitech MK345 Full Size Wireless Keyboard and Mouse Combo, it costs more than Logitech MK345 Full Size Wireless Keyboard and Mouse Combo. The real tradeoff against that pick: Not ergonomic, priced similarly to a genuinely curved keyboard. In exchange, it offers this instead: Refined build quality from an established brand. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Spill-resistant design. On the other side, Mouse has no real ergonomic shaping. That's the main tradeoff to weigh against everything above.",
+    specs: ["Flat, standard key layout","Contoured mouse, no ergonomic shaping","2.4GHz wireless, single USB receiver","Spill-resistant keyboard design","Extended battery life claimed"],
+    pros: ["Refined build quality from an established brand","Spill-resistant design","Longer claimed battery life than the MK345","Simple single-receiver setup"],
+    cons: ["Not ergonomic, priced similarly to a genuinely curved keyboard","Flat key deck, no wrist relief","Mouse has no real ergonomic shaping"],
     bestFor: "Buyers who specifically want this combo's features and don't need ergonomic design",
   },
   {
@@ -274,28 +162,12 @@ export const products: GuideProduct[] = [
     reviews: "Not yet rated",
     imageUrl: "https://m.media-amazon.com/images/I/41N1LPbRaCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B079JLY5M5?tag=deskfinds0d-20",
-    description:
-      "The MK270 is the cheapest pick in this entire list and, like the MK345 and MK540, is a standard flat combo with no ergonomic shaping to either the keyboard or mouse. It is a reasonable no-frills pick if all you need is a working wireless keyboard and mouse for basic tasks.\n\nWe include it as the clear budget baseline: at roughly the same price as the two genuinely curved budget combos above, it offers zero wrist relief benefit, so there is little reason to choose it over them unless brand familiarity or specific compatibility matters to you.",
-    specs: [
-      "Flat, standard key layout",
-      "Basic mouse, no ergonomic shaping",
-      "2.4GHz wireless, single USB receiver",
-      "Full-size layout with numpad",
-      "Long battery life claimed",
-    ],
-    pros: [
-      "Cheapest pick in this list",
-      "Established, reliable brand",
-      "Simple single-receiver setup",
-      "Full-size layout with numpad",
-    ],
-    cons: [
-      "Not ergonomic at all",
-      "Priced close to genuinely curved budget alternatives",
-      "No wrist relief benefit whatsoever",
-    ],
+    description: "The MK270 is the cheapest pick in this entire list and, like the MK345 and MK540, is a standard flat combo with no ergonomic shaping to either the keyboard or mouse. It is a reasonable no-frills pick if all you need is a working wireless keyboard and mouse for basic tasks.\n\nOne spot below Logitech MK540 Full Size Advanced Wireless Keyboard and Mouse Combo in this ranking, it's priced lower than Logitech MK540 Full Size Advanced Wireless Keyboard and Mouse Combo. The compromise here is straightforward: Not ergonomic at all. What you gain in return: Cheapest pick in this list. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Established, reliable brand. On the other side, No wrist relief benefit whatsoever. That's the main tradeoff to weigh against everything above.",
+    specs: ["Flat, standard key layout","Basic mouse, no ergonomic shaping","2.4GHz wireless, single USB receiver","Full-size layout with numpad","Long battery life claimed"],
+    pros: ["Cheapest pick in this list","Established, reliable brand","Simple single-receiver setup","Full-size layout with numpad"],
+    cons: ["Not ergonomic at all","Priced close to genuinely curved budget alternatives","No wrist relief benefit whatsoever"],
     bestFor: "Buyers who want the absolute cheapest working combo and don't need any ergonomic features",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -328,35 +200,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Most \"ergonomic sets\" pair a curved keyboard with a non-ergonomic mouse",
-    explanation:
-      "A sculpted mouse, the kind included in most sets, has a contoured grip but does not rotate your hand the way a true vertical mouse does. If pronation relief from the mouse specifically is your goal, a dedicated vertical mouse purchased separately will do more than any bundled mouse in a set.",
+    "criterion": "Understand what split, curved, and vertical layouts each actually change about your hand position",
+    "explanation": "A curved keyboard bends the key rows into an arc that reduces how far your fingers reach across the board but keeps both hands in a fixed relative position, a split keyboard physically separates the two halves so each hand and wrist can angle independently to a more natural position, and a fully vertical keyboard rotates the hands toward a handshake-like orientation that reduces forearm rotation (pronation) more aggressively than either curved or split designs.\n\nThese are meaningfully different interventions, not just cosmetic variations on the same idea, and the amount of adjustment period and the specific relief they provide differs: a curved board requires almost no adaptation, a split board requires learning a new hand spacing, and a vertical board requires the most significant adaptation period but addresses forearm rotation most directly.\n\nIf a specific pain type (wrist deviation, forearm rotation, shoulder width) has been identified, match the layout type to that specific issue rather than assuming any keyboard labeled \"ergonomic\" addresses the same problem."
   },
   {
-    criterion: "Wave and true split are not the same ergonomic benefit",
-    explanation:
-      "A wave keyboard curves the key deck but keeps both hands on one continuous frame. A true split keyboard separates into two independently positioned halves. If you specifically need to widen the gap between your hands, confirm the listing describes a genuine split, not a curve marketed as one.",
+    "criterion": "Check the key switch type, since it affects both typing feel and finger force required",
+    "explanation": "Ergonomic keyboards commonly use one of three switch technologies: membrane (a soft rubber dome under each key, quiet and inexpensive but requiring the key to bottom out fully to register), scissor or low-profile (a shorter, more stable keystroke similar to a laptop keyboard), or mechanical (an individual physical switch per key with more configurable actuation force and travel distance, generally louder but often preferred for tactile feedback and reduced bottoming-out force).\n\nThis matters for anyone with existing wrist or finger strain specifically because mechanical switches can be selected for lighter actuation force, requiring less pressure to register a keystroke than a standard membrane keyboard, a genuine factor in repetitive strain rather than just a preference for typing feel.\n\nIf finger fatigue or strain is a specific concern, check for stated actuation force (measured in grams) rather than assuming all keyboards require the same finger pressure to type."
   },
   {
-    criterion: "Some products in \"ergonomic set\" search results are not ergonomic at all",
-    explanation:
-      "Standard flat combos frequently rank in ergonomic keyboard and mouse searches purely on sales volume and price. Check the actual key deck shape in product photos before assuming a listing labeled or categorized as ergonomic is genuinely curved or split.",
+    "criterion": "Confirm wireless connection type matches your actual devices, and know the battery tradeoffs",
+    "explanation": "Wireless ergonomic keyboards connect via Bluetooth (works with virtually any modern device without a dongle, but can have more noticeable input latency and reconnection delay), a dedicated 2.4GHz USB receiver (generally lower latency and more reliable than Bluetooth, but requires a free USB port and the receiver can be lost), or wired USB (zero latency and no battery to manage, but no cable-free movement).\n\nMulti-device Bluetooth models that support pairing with several devices and switching between them are a genuine convenience for anyone alternating between a work laptop and a personal computer, but this feature isn't universal even among Bluetooth keyboards.\n\nCheck the specific connection type and, for wireless models, confirm multi-device pairing support explicitly if you need to switch between more than one computer regularly, and factor in that backlit wireless models draw more power and need more frequent charging than non-backlit equivalents."
   },
   {
-    criterion: "Receiver compatibility affects multi-device setups",
-    explanation:
-      "A single 2.4GHz USB receiver pairs both keyboard and mouse together but only connects to one device at a time and occupies a USB port. Bluetooth models can pair with multiple devices, useful if you switch between a laptop and desktop regularly.",
+    "criterion": "Check for a negative tilt option and separate wrist rest, since flat isn't always neutral",
+    "explanation": "A truly neutral wrist position during typing involves the hands tilting slightly downward from the wrist toward the keys (negative tilt), which is the opposite of the upward tilt most standard and even many \"ergonomic\" keyboards default to with their built-in feet, and only some ergonomic models offer an actual negative-tilt adjustment or come with a design that achieves this angle by default.\n\nA separate, adequately sized wrist rest matters independently of the keyboard's own tilt, since resting the wrist (not just the palm) on a support surface during typing reduces the upward bend at the wrist that a raised keyboard back otherwise creates.\n\nCheck specifically for a stated negative tilt option or a naturally downward-sloping design, and confirm whether a wrist rest is included versus needing to be purchased separately, rather than assuming any \"ergonomic\" label includes proper tilt geometry."
   },
   {
-    criterion: "Genuinely matched sets are rarer than standalone ergonomic keyboards",
-    explanation:
-      "Many of the most ergonomically serious keyboards, like true split boards, are sold standalone without a matched mouse. If you want a keyboard-and-mouse set that is truly ergonomic on both ends, expect to pair a dedicated ergonomic keyboard with a separately purchased vertical mouse rather than finding both in one box.",
-  },
-  {
-    criterion: "Left-handed users have limited options in this category",
-    explanation:
-      "Every mouse in this list, sculpted or basic, is shaped for right-hand use. If you are left-handed, none of these sets offer a left-hand ergonomic mouse option, and you will need to source one separately regardless of which set you choose.",
-  },
+    "criterion": "Weigh review volume against star rating, since some ergonomic keyboards share variants with different genuine track records",
+    "explanation": "Ergonomic keyboards, especially from smaller brands, are frequently sold in multiple color or configuration variants that share the same underlying design and sometimes the same pooled review history despite being technically separate listings, which can make one specific variant's review count look artificially large or, conversely, leave a genuinely new design with almost no independent track record despite looking similar to an established model.\n\nA keyboard central to your daily work deserves a design with genuinely substantial, focused review history behind it, not just a plausible-looking rating built on a thin or shared sample.\n\nWhen comparing keyboards, especially similarly-designed variants from the same brand, check both the star rating and the review count together, and read a handful of reviews to confirm they describe the exact variant you're considering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,64 +231,109 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Genuinely Ergonomic vs Standard Combo: Which Is Which",
-    intro:
-      "Of the 8 products in this list, only 3 have a true ergonomic keyboard shape (wave or split), 2 are budget combos with a mild curve, and 3 are entirely standard flat combos included for honest comparison.",
-    table: {
-      headers: ["Product", "Keyboard shape", "Mouse ergonomics"],
-      rows: [
-        ["Logitech Wave Keys", "Genuine wave curve", "No bundled mouse (pair separately)"],
-        ["Logitech Ergo K860", "True split", "No bundled mouse (pair separately)"],
-        ["Perixx PERIBOARD-512B", "True split", "No bundled mouse (pair separately)"],
-        ["Budget silent combo ($19.99)", "Mild curve", "Standard sculpted, not vertical"],
-        ["Budget avocado combo ($19.99)", "Mild curve", "Standard sculpted, not vertical"],
-        ["Logitech MK270 / MK345 / MK540", "Flat, no curve", "Basic, no ergonomic shaping"],
+    "subheading": "By Layout Type",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Minimal adjustment period",
+          "Logitech Wave Keys Wireless Ergonomic Keyboard"
+        ],
+        [
+          "Independent hand and wrist angling",
+          "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest"
+        ],
+        [
+          "Maximum forearm rotation relief",
+          "Wireless Keyboard and Mouse Combo"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Priority",
-    cards: [
-      {
-        label: "Wrist relief is your top priority",
-        text: "Pick the Logitech Ergo K860 or Perixx PERIBOARD-512B for a true split keyboard, and pair it separately with a dedicated vertical mouse for the most complete ergonomic setup in this list.",
-      },
-      {
-        label: "You want a genuinely matched keyboard + mouse pair on a budget",
-        text: "The $19.99 silent or avocado combos are the cheapest way to get a real matched set with mild curve benefit, though the mouse is sculpted, not vertical.",
-      },
-      {
-        label: "You don't actually need ergonomic features",
-        text: "The Logitech MK270 is the cheapest reliable standard combo in this list and makes no ergonomic claims worth paying extra for.",
-      },
-    ],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $20",
+          "Wireless Keyboard and Mouse Combo"
+        ],
+        [
+          "Mid-range",
+          "Perixx PERIBOARD-512B Wired Ergonomic Keyboard"
+        ],
+        [
+          "No firm budget ceiling, prioritizing switch quality or ergonomics",
+          "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Set vs Buying Separately",
-    intro:
-      "Buying a keyboard and mouse separately is usually better for ergonomics but costs more and may need two receivers.",
-    table: {
-      headers: ["Situation", "Recommendation"],
-      rows: [
-        ["Budget is limited, no strong pronation concern", "A genuinely matched set like the $19.99 curved combos"],
-        ["You want the most ergonomic setup possible", "Buy a true split keyboard (K860 or Perixx) plus a dedicated vertical mouse separately"],
-        ["You already own a vertical mouse", "Buy any of the standalone ergonomic keyboards here without worrying about a bundled mouse"],
-        ["You need Bluetooth multi-device switching for both", "The Logitech Ergo K860 or Wave Keys, though you'll still pair a mouse separately"],
-      ],
-    },
-    note: "None of the sets in this list include a true vertical mouse, so treat every product here as a keyboard-first decision.",
+    "subheading": "Wired vs Wireless",
+    "cards": [
+      {
+        "label": "Wired",
+        "text": "Zero input latency and no battery to manage, including no backlight battery drain if illuminated. In this comparison: Perixx PERIBOARD-512B Wired Ergonomic Keyboard."
+      },
+      {
+        "label": "Wireless (Bluetooth/2.4GHz)",
+        "text": "Cable-free desk setup, at the cost of battery management and, for Bluetooth, potentially more input latency. In this comparison: Logitech Wave Keys Wireless Ergonomic Keyboard, Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest, Wireless Keyboard and Mouse Combo."
+      }
+    ]
   },
   {
-    subheading: "Receiver and Connection Type",
-    table: {
-      headers: ["Connection need", "Best pick", "Why"],
-      rows: [
-        ["No pairing, no battery", "Perixx PERIBOARD-512B", "Wired USB, works immediately"],
-        ["Single dongle for both keyboard and mouse", "Either $19.99 budget combo", "One 2.4G receiver pairs both devices"],
-        ["Switch between multiple devices", "Logitech Ergo K860 or Wave Keys", "Bluetooth pairing supports device switching"],
+    "subheading": "By Switch Type and Typing Feel",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Lowest cost, quiet typing",
+          "Wireless Keyboard and Mouse Combo"
+        ],
+        [
+          "Tactile feedback, lighter actuation force",
+          "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For Wrist Pain or Carpal Tunnel Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine split or vertical layout (not just a curved surface), a negative tilt option or naturally downward-sloping design, and an included wrist rest sized for your hand."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Wireless Keyboard and Mouse Combo fits this specifically: Genuinely sold as a matched keyboard + mouse pair."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest offers: Only genuinely split layout in this list. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Wireless Keyboard and Mouse Combo already covers the essentials: Genuinely sold as a matched keyboard + mouse pair. The main thing you'd be paying extra for elsewhere in this list is adjustability you may not need."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

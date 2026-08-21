@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "7,992 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41EsewSK2nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZWK2TQT?tag=deskfinds0d-20",
-    description:
-      "A quieter scissor-switch mechanism than a clicky mechanical board, relevant for video-call microphone pickup, combined with a negative-tilt split frame suited to full-workday sustained typing comfort. Its largest verified review base among home-office picks here reflects consistent long-term satisfaction.\n\nAs with our dedicated quiet keyboard research, actual typing noise picked up by a video-call microphone also depends on your desk surface, worth testing on your actual setup before assuming any keyboard alone solves the concern.",
-    specs: ["Quieter scissor-switch mechanism", "Split, negative-tilt frame for full-workday comfort", "Largest verified review base here", "Rechargeable battery"],
-    pros: ["Quieter typing relevant to video-call mic pickup", "Largest verified review base in this guide", "Strong full-workday ergonomic support", "Reliable multi-device wireless"],
-    cons: ["Highest price in this guide", "Desk surface can still amplify sound during calls", "Split adjustment period for new users"],
+    description: "A quieter scissor-switch mechanism than a clicky mechanical board, relevant for video-call microphone pickup, combined with a negative-tilt split frame suited to full-workday sustained typing comfort. Its largest verified review base among home-office picks here reflects consistent long-term satisfaction.\n\nIt earns the top spot in this comparison over Perixx PERIBOARD-512B Wired Ergonomic Keyboard for one main reason. Quieter typing relevant to video-call mic pickup. On price, it's actually priced above Perixx PERIBOARD-512B Wired Ergonomic Keyboard, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Largest verified review base in this guide. On the other side, Split adjustment period for new users. That's the main tradeoff to weigh against everything above.",
+    specs: ["Quieter scissor-switch mechanism","Split, negative-tilt frame for full-workday comfort","Largest verified review base here","Rechargeable battery"],
+    pros: ["Quieter typing relevant to video-call mic pickup","Largest verified review base in this guide","Strong full-workday ergonomic support","Reliable multi-device wireless"],
+    cons: ["Highest price in this guide","Desk surface can still amplify sound during calls","Split adjustment period for new users"],
     bestFor: "Home-office buyers wanting the strongest full-workday ergonomic comfort with reasonably quiet typing",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "9,553 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41MgdS5CMFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075GZVD4T?tag=deskfinds0d-20",
-    description:
-      "A wired split keyboard with the largest verified review base of any pick in this guide, appropriate for a home office where a wired connection removes battery-check interruptions during a full workday. Its padded wrist rest supports sustained comfort across long sessions.\n\nAs a scissor-switch design it's reasonably quiet for video calls, though check current buyer feedback specifically about sustained typing noise rather than an isolated keypress impression.",
-    specs: ["Wired USB connection, no battery interruptions", "Fixed-angle split layout", "Padded wrist rest for full-workday comfort", "Largest verified review base of any pick here"],
-    pros: ["No battery to manage during a full workday", "Largest review base of any pick in this guide", "Lowest price for a true split keyboard", "Reasonably quiet for video calls"],
-    cons: ["Fixed split angle, not tenting-adjustable", "Basic build materials at this price", "Desk surface can still amplify sound during calls"],
+    description: "A wired split keyboard with the largest verified review base of any pick in this guide, appropriate for a home office where a wired connection removes battery-check interruptions during a full workday. Its padded wrist rest supports sustained comfort across long sessions.\n\nOne spot below Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest in this ranking, it's priced lower than Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest. The compromise here is straightforward: Fixed split angle, not tenting-adjustable. What you gain in return: No battery to manage during a full workday. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Largest review base of any pick in this guide. On the other side, Desk surface can still amplify sound during calls. That's the main tradeoff to weigh against everything above.",
+    specs: ["Wired USB connection, no battery interruptions","Fixed-angle split layout","Padded wrist rest for full-workday comfort","Largest verified review base of any pick here"],
+    pros: ["No battery to manage during a full workday","Largest review base of any pick in this guide","Lowest price for a true split keyboard","Reasonably quiet for video calls"],
+    cons: ["Fixed split angle, not tenting-adjustable","Basic build materials at this price","Desk surface can still amplify sound during calls"],
     bestFor: "Budget-conscious home-office buyers wanting a reliable, reasonably quiet split keyboard for daily use",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "2,972 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/4114VdW9JcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BTNY72VD?tag=deskfinds0d-20",
-    description:
-      "A compact one-piece wave keyboard suited to a smaller home-office desk, applying our compact keyboard research's finding that this footprint sacrifices some split ergonomic benefit for a smaller daily-use footprint. Its quiet scissor-switch typing is also relevant for anyone on frequent video calls in a shared home space.\n\nIts webcam-frame visual presentation is minor but real, a low-profile compact keyboard sits less prominently in frame during video calls than a bulkier split design.",
-    specs: ["One-piece wave frame, compact footprint", "Quiet scissor-switch mechanism", "Cushioned attached palm rest", "Suited to smaller home-office desks"],
-    pros: ["Compact footprint suited to smaller home-office desks", "Quiet typing relevant to video calls", "Minimal adjustment period", "Solid review base"],
-    cons: ["Less ergonomic benefit than a true split design", "Verify sustained typing noise in buyer feedback", "Cannot be positioned shoulder-width apart"],
+    description: "A compact one-piece wave keyboard suited to a smaller home-office desk, applying our compact keyboard research's finding that this footprint sacrifices some split ergonomic benefit for a smaller daily-use footprint. Its quiet scissor-switch typing is also relevant for anyone on frequent video calls in a shared home space.\n\nSitting just under Perixx PERIBOARD-512B Wired Ergonomic Keyboard, it costs more than Perixx PERIBOARD-512B Wired Ergonomic Keyboard. Here's the honest tradeoff: Less ergonomic benefit than a true split design. And here's what it gets you instead: Compact footprint suited to smaller home-office desks. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Quiet typing relevant to video calls. On the other side, Cannot be positioned shoulder-width apart. That's the main tradeoff to weigh against everything above.",
+    specs: ["One-piece wave frame, compact footprint","Quiet scissor-switch mechanism","Cushioned attached palm rest","Suited to smaller home-office desks"],
+    pros: ["Compact footprint suited to smaller home-office desks","Quiet typing relevant to video calls","Minimal adjustment period","Solid review base"],
+    cons: ["Less ergonomic benefit than a true split design","Verify sustained typing noise in buyer feedback","Cannot be positioned shoulder-width apart"],
     bestFor: "Home-office buyers with a smaller desk who also want reasonably quiet, video-call-friendly typing",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "1,624 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41O4m5cUOVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BKKYRQ31?tag=deskfinds0d-20",
-    description:
-      "A split, angled keyboard using a 2.4G receiver, generally a stable connection choice for a home office with several other wireless devices competing for bandwidth. Its built-in cushioned palm rest supports full-workday comfort alongside a true split ergonomic benefit.\n\nAs with the other picks here, its quiet typing is relevant for video calls, though desk surface and room acoustics also factor into what a call's microphone actually picks up.",
-    specs: ["Split, angled key layout", "2.4G USB wireless receiver, stable in busy wireless environments", "Built-in cushioned palm rest", "Mid-range price point"],
-    pros: ["Stable 2.4G connection in a busy home-office wireless environment", "Built-in palm rest supports full-workday comfort", "True split, angled layout", "Mid-range price for the design"],
-    cons: ["Fixed split angle, not tenting-adjustable", "Verify sustained typing noise for video calls in buyer feedback", "Windows-focused compatibility"],
+    description: "A split, angled keyboard using a 2.4G receiver, generally a stable connection choice for a home office with several other wireless devices competing for bandwidth. Its built-in cushioned palm rest supports full-workday comfort alongside a true split ergonomic benefit.\n\nRanked just behind Logitech Wave Keys Wireless Ergonomic Keyboard, it's priced lower than Logitech Wave Keys Wireless Ergonomic Keyboard. The real tradeoff against that pick: Fixed split angle, not tenting-adjustable. In exchange, it offers this instead: Stable 2.4G connection in a busy home-office wireless environment. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Built-in palm rest supports full-workday comfort. On the other side, Windows-focused compatibility. That's the main tradeoff to weigh against everything above.",
+    specs: ["Split, angled key layout","2.4G USB wireless receiver, stable in busy wireless environments","Built-in cushioned palm rest","Mid-range price point"],
+    pros: ["Stable 2.4G connection in a busy home-office wireless environment","Built-in palm rest supports full-workday comfort","True split, angled layout","Mid-range price for the design"],
+    cons: ["Fixed split angle, not tenting-adjustable","Verify sustained typing noise for video calls in buyer feedback","Windows-focused compatibility"],
     bestFor: "Home-office buyers wanting a stable wireless connection alongside true split ergonomic benefit",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "1,166 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51mIgAEAexL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CGL8X4H6?tag=deskfinds0d-20",
-    description:
-      "A split, backlit keyboard connecting over wired USB, useful for a home office where evening or low-light sessions are common alongside daytime video calls. As with our quiet keyboard research, its scissor-switch mechanism keeps typing reasonably quiet for microphone pickup during calls, and the wired connection removes any battery-check interruption during a full workday.\n\nIts built-in cushioned palm rest supports full-workday comfort, and as with every pick here, desk surface and room acoustics also factor into what a call's microphone actually picks up.",
-    specs: ["Split, angled key layout", "Backlit keys for low-light sessions", "Wired USB connection, no battery interruptions", "Built-in cushioned palm rest"],
-    pros: ["Backlit keys useful for evening home-office sessions", "No battery to manage during a full workday", "True split, angled layout for sustained comfort", "Reasonably quiet for video calls"],
-    cons: ["Fixed split angle, not tenting-adjustable", "Verify sustained typing noise for video calls in buyer feedback", "Limited backlighting value for touch typists"],
+    description: "A split, backlit keyboard connecting over wired USB, useful for a home office where evening or low-light sessions are common alongside daytime video calls. As with our quiet keyboard research, its scissor-switch mechanism keeps typing reasonably quiet for microphone pickup during calls, and the wired connection removes any battery-check interruption during a full workday.\n\nOne spot below Arteck Split Ergonomic Keyboard with Palm Rest in this ranking, it's priced lower than Arteck Split Ergonomic Keyboard with Palm Rest. The compromise here is straightforward: Fixed split angle, not tenting-adjustable. What you gain in return: Backlit keys useful for evening home-office sessions. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: No battery to manage during a full workday. On the other side, Limited backlighting value for touch typists. That's the main tradeoff to weigh against everything above.",
+    specs: ["Split, angled key layout","Backlit keys for low-light sessions","Wired USB connection, no battery interruptions","Built-in cushioned palm rest"],
+    pros: ["Backlit keys useful for evening home-office sessions","No battery to manage during a full workday","True split, angled layout for sustained comfort","Reasonably quiet for video calls"],
+    cons: ["Fixed split angle, not tenting-adjustable","Verify sustained typing noise for video calls in buyer feedback","Limited backlighting value for touch typists"],
     bestFor: "Home-office buyers who work evening sessions and want backlit keys alongside quiet, wired reliability",
   },
   {
@@ -115,11 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "872 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31nNQhQDCpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZ6DR13F?tag=deskfinds0d-20",
-    description:
-      "A wireless keyboard and mouse combo appropriate for a home office where sourcing a matched ergonomic pair in one purchase simplifies setup, applying our synthesis of quiet and compact research to both devices rather than just the keyboard. Its solid verified review base reflects reasonable buyer satisfaction for a combo product.\n\nAs with our compact keyboard research, a curved rather than fully split layout suits smaller home-office desks better while sacrificing some split ergonomic benefit, worth weighing against the split picks above if desk space allows.",
-    specs: ["Wireless keyboard and mouse combo", "Curved ergonomic keyboard layout", "Ergonomic mouse included", "Solid verified review base"],
-    pros: ["Matched keyboard and mouse for a complete home-office setup", "Solid verified review base", "Wireless, no cable clutter", "Reasonably compact footprint for smaller desks"],
-    cons: ["Not a true split keyboard layout", "Verify sustained typing noise for video calls in buyer feedback", "Higher price than a keyboard-only pick"],
+    description: "A wireless keyboard and mouse combo appropriate for a home office where sourcing a matched ergonomic pair in one purchase simplifies setup, applying our synthesis of quiet and compact research to both devices rather than just the keyboard. Its solid verified review base reflects reasonable buyer satisfaction for a combo product.\n\nSitting just under Arteck Split Ergonomic Keyboard with Palm Rest, it costs more than Arteck Split Ergonomic Keyboard with Palm Rest. Here's the honest tradeoff: Not a true split keyboard layout. And here's what it gets you instead: Matched keyboard and mouse for a complete home-office setup. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Solid verified review base. On the other side, Higher price than a keyboard-only pick. That's the main tradeoff to weigh against everything above.",
+    specs: ["Wireless keyboard and mouse combo","Curved ergonomic keyboard layout","Ergonomic mouse included","Solid verified review base"],
+    pros: ["Matched keyboard and mouse for a complete home-office setup","Solid verified review base","Wireless, no cable clutter","Reasonably compact footprint for smaller desks"],
+    cons: ["Not a true split keyboard layout","Verify sustained typing noise for video calls in buyer feedback","Higher price than a keyboard-only pick"],
     bestFor: "Home-office buyers who want a matched keyboard and mouse combo in a smaller footprint",
   },
   {
@@ -132,11 +126,10 @@ export const products: GuideProduct[] = [
     reviews: "541 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41M-dFoGk+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1TLPDWT?tag=deskfinds0d-20",
-    description:
-      "A split wireless keyboard with a cushioned wrist rest at a lower price than the Arteck picks above, supporting full-workday comfort at a home-office-friendly budget. Its scissor-switch typing keeps things reasonably quiet for microphone pickup during video calls, consistent with our quiet keyboard research findings applied here.\n\nIts smaller verified review base compared to the Logitech and Perixx picks means less long-term reliability data, worth weighing against the more established options in this guide.",
-    specs: ["Split ergonomic layout", "Cushioned wrist rest for full-workday comfort", "Wireless connectivity", "Budget-friendly price point"],
-    pros: ["True split layout for sustained ergonomic comfort", "Dedicated cushioned wrist rest", "Reasonable price for a home office", "Reasonably quiet for video calls"],
-    cons: ["Smaller verified review base than established picks", "Verify sustained typing noise in buyer feedback", "Adjustment period for new split-layout users"],
+    description: "A split wireless keyboard with a cushioned wrist rest at a lower price than the Arteck picks above, supporting full-workday comfort at a home-office-friendly budget. Its scissor-switch typing keeps things reasonably quiet for microphone pickup during video calls, consistent with our quiet keyboard research findings applied here.\n\nRanked just behind ProtoArc EKM01 Plus Wireless Ergonomic Keyboard Mouse Combo, it's priced lower than ProtoArc EKM01 Plus Wireless Ergonomic Keyboard Mouse Combo. The real tradeoff against that pick: Smaller verified review base than established picks. In exchange, it offers this instead: True split layout for sustained ergonomic comfort. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Dedicated cushioned wrist rest. On the other side, Adjustment period for new split-layout users. That's the main tradeoff to weigh against everything above.",
+    specs: ["Split ergonomic layout","Cushioned wrist rest for full-workday comfort","Wireless connectivity","Budget-friendly price point"],
+    pros: ["True split layout for sustained ergonomic comfort","Dedicated cushioned wrist rest","Reasonable price for a home office","Reasonably quiet for video calls"],
+    cons: ["Smaller verified review base than established picks","Verify sustained typing noise in buyer feedback","Adjustment period for new split-layout users"],
     bestFor: "Budget-conscious home-office buyers wanting a genuinely split keyboard with a cushioned rest",
   },
   {
@@ -149,13 +142,12 @@ export const products: GuideProduct[] = [
     reviews: "368 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51sxkeGyuJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FJWMGFF5?tag=deskfinds0d-20",
-    description:
-      "A rechargeable keyboard and mouse combo that avoids disposable battery waste, a genuine convenience for a home office where daily reliance on both devices makes battery maintenance a recurring consideration. Its matched design applies our compact and quiet research findings to a budget-friendly combo purchase.\n\nAs with any combo, verify current listings for charging cycle timing between the keyboard and mouse, and check sustained typing noise in buyer feedback rather than an isolated keypress impression for video-call suitability.",
-    specs: ["Rechargeable keyboard and mouse combo", "Curved ergonomic layout", "Wireless connectivity", "Budget-friendly price point"],
-    pros: ["Rechargeable, no disposable battery waste", "Matched keyboard and mouse for a complete setup", "Reasonable price for a home office", "Solid rating"],
-    cons: ["Verify charging cycle timing between devices", "Not a true split keyboard layout", "Verify sustained typing noise for video calls in buyer feedback"],
+    description: "A rechargeable keyboard and mouse combo that avoids disposable battery waste, a genuine convenience for a home office where daily reliance on both devices makes battery maintenance a recurring consideration. Its matched design applies our compact and quiet research findings to a budget-friendly combo purchase.\n\nOne spot below Nulea Wireless Ergonomic Keyboard in this ranking, it costs more than Nulea Wireless Ergonomic Keyboard. The compromise here is straightforward: Verify charging cycle timing between devices. What you gain in return: Rechargeable, no disposable battery waste. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Matched keyboard and mouse for a complete setup. On the other side, Verify sustained typing noise for video calls in buyer feedback. That's the main tradeoff to weigh against everything above.",
+    specs: ["Rechargeable keyboard and mouse combo","Curved ergonomic layout","Wireless connectivity","Budget-friendly price point"],
+    pros: ["Rechargeable, no disposable battery waste","Matched keyboard and mouse for a complete setup","Reasonable price for a home office","Solid rating"],
+    cons: ["Verify charging cycle timing between devices","Not a true split keyboard layout","Verify sustained typing noise for video calls in buyer feedback"],
     bestFor: "Home-office buyers who want a rechargeable combo to avoid disposable battery waste",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -169,36 +161,128 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "This Guide Builds on Our Quiet and Compact Research",
-    note: "Rather than repeating first-principles findings, this guide applies our quiet keyboard research (membrane vs quiet-mechanical tradeoffs) and compact keyboard research (split benefit vs footprint tradeoffs) specifically through a home-office lens, see those guides directly for the deeper mechanics behind each finding.",
-  },
-  {
-    subheading: "Full-Workday Comfort Over a Quick Typing Impression",
-    note: "A home office implies many continuous daily hours at the same desk, so sustained comfort across a full workday matters more here than a five-minute first impression. Look for buyer feedback specifically describing all-day use rather than initial unboxing reactions.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Strongest full-workday comfort overall", "Logitech Ergo K860"],
-        ["Most reviewed budget option", "Perixx PERIBOARD-512B"],
-        ["Compact footprint for a small home-office desk", "Logitech Wave Keys Graphite"],
-        ["Stable wireless in a busy home-office environment", "Arteck Split Ergonomic 2.4G"],
-        ["Backlit split for evening sessions", "Arteck Split Wired Backlit"],
-        ["Matched combo in a compact footprint", "ProtoArc EKM01 Plus Combo"],
-        ["Budget split with cushioned rest", "Nulea Split Cushioned"],
-        ["Rechargeable combo, no disposable batteries", "SABLUTE Rechargeable Combo"],
+    "subheading": "By Layout Type",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Minimal adjustment period",
+          "ProtoArc EKM01 Plus Wireless Ergonomic Keyboard Mouse Combo"
+        ],
+        [
+          "Independent hand and wrist angling",
+          "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $50",
+          "Perixx PERIBOARD-512B Wired Ergonomic Keyboard"
+        ],
+        [
+          "Mid-range",
+          "Arteck Split Ergonomic Keyboard with Palm Rest"
+        ],
+        [
+          "No firm budget ceiling, prioritizing switch quality or ergonomics",
+          "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Wired vs Wireless",
+    "cards": [
+      {
+        "label": "Wired",
+        "text": "Zero input latency and no battery to manage, including no backlight battery drain if illuminated. In this comparison: Perixx PERIBOARD-512B Wired Ergonomic Keyboard, Arteck Split Ergonomic Keyboard with Palm Rest."
+      },
+      {
+        "label": "Wireless (Bluetooth/2.4GHz)",
+        "text": "Cable-free desk setup, at the cost of battery management and, for Bluetooth, potentially more input latency. In this comparison: Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest, Logitech Wave Keys Wireless Ergonomic Keyboard, Arteck Split Ergonomic Keyboard with Palm Rest."
+      }
+    ]
+  },
+  {
+    "subheading": "By Switch Type and Typing Feel",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Lowest cost, quiet typing",
+          "Perixx PERIBOARD-512B Wired Ergonomic Keyboard"
+        ],
+        [
+          "Tactile feedback, lighter actuation force",
+          "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Wrist Pain or Carpal Tunnel Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine split or vertical layout (not just a curved surface), a negative tilt option or naturally downward-sloping design, and an included wrist rest sized for your hand."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest fits this specifically: Quieter typing relevant to video-call mic pickup."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest offers: Quieter typing relevant to video-call mic pickup. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Perixx PERIBOARD-512B Wired Ergonomic Keyboard already covers the essentials: No battery to manage during a full workday. The main thing you'd be paying extra for elsewhere in this list is adjustability you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Cross-reference quiet and compact considerations, don't research from scratch", explanation: "Our quiet and compact keyboard guides cover the underlying tradeoffs in depth, apply those specific findings to your home-office decision rather than starting over." },
-  { criterion: "Prioritize full-workday comfort over a quick first impression", explanation: "A home office implies many continuous daily hours, look for buyer feedback about sustained all-day use rather than an initial unboxing reaction." },
-  { criterion: "Consider video-call microphone pickup specifically", explanation: "Typing noise picked up by a video-call microphone is a genuinely home-office-specific concern, distinct from general room-noise comparisons." },
-  { criterion: "Weigh webcam-frame visual presentation as a minor factor", explanation: "If you're on frequent video calls with the keyboard visible in frame, a lower-profile compact design presents less prominently than a bulkier split keyboard." },
+  {
+    "criterion": "Understand what split, curved, and vertical layouts each actually change about your hand position",
+    "explanation": "A curved keyboard bends the key rows into an arc that reduces how far your fingers reach across the board but keeps both hands in a fixed relative position, a split keyboard physically separates the two halves so each hand and wrist can angle independently to a more natural position, and a fully vertical keyboard rotates the hands toward a handshake-like orientation that reduces forearm rotation (pronation) more aggressively than either curved or split designs.\n\nThese are meaningfully different interventions, not just cosmetic variations on the same idea, and the amount of adjustment period and the specific relief they provide differs: a curved board requires almost no adaptation, a split board requires learning a new hand spacing, and a vertical board requires the most significant adaptation period but addresses forearm rotation most directly.\n\nIf a specific pain type (wrist deviation, forearm rotation, shoulder width) has been identified, match the layout type to that specific issue rather than assuming any keyboard labeled \"ergonomic\" addresses the same problem."
+  },
+  {
+    "criterion": "Check the key switch type, since it affects both typing feel and finger force required",
+    "explanation": "Ergonomic keyboards commonly use one of three switch technologies: membrane (a soft rubber dome under each key, quiet and inexpensive but requiring the key to bottom out fully to register), scissor or low-profile (a shorter, more stable keystroke similar to a laptop keyboard), or mechanical (an individual physical switch per key with more configurable actuation force and travel distance, generally louder but often preferred for tactile feedback and reduced bottoming-out force).\n\nThis matters for anyone with existing wrist or finger strain specifically because mechanical switches can be selected for lighter actuation force, requiring less pressure to register a keystroke than a standard membrane keyboard, a genuine factor in repetitive strain rather than just a preference for typing feel.\n\nIf finger fatigue or strain is a specific concern, check for stated actuation force (measured in grams) rather than assuming all keyboards require the same finger pressure to type."
+  },
+  {
+    "criterion": "Confirm wireless connection type matches your actual devices, and know the battery tradeoffs",
+    "explanation": "Wireless ergonomic keyboards connect via Bluetooth (works with virtually any modern device without a dongle, but can have more noticeable input latency and reconnection delay), a dedicated 2.4GHz USB receiver (generally lower latency and more reliable than Bluetooth, but requires a free USB port and the receiver can be lost), or wired USB (zero latency and no battery to manage, but no cable-free movement).\n\nMulti-device Bluetooth models that support pairing with several devices and switching between them are a genuine convenience for anyone alternating between a work laptop and a personal computer, but this feature isn't universal even among Bluetooth keyboards.\n\nCheck the specific connection type and, for wireless models, confirm multi-device pairing support explicitly if you need to switch between more than one computer regularly, and factor in that backlit wireless models draw more power and need more frequent charging than non-backlit equivalents."
+  },
+  {
+    "criterion": "Check for a negative tilt option and separate wrist rest, since flat isn't always neutral",
+    "explanation": "A truly neutral wrist position during typing involves the hands tilting slightly downward from the wrist toward the keys (negative tilt), which is the opposite of the upward tilt most standard and even many \"ergonomic\" keyboards default to with their built-in feet, and only some ergonomic models offer an actual negative-tilt adjustment or come with a design that achieves this angle by default.\n\nA separate, adequately sized wrist rest matters independently of the keyboard's own tilt, since resting the wrist (not just the palm) on a support surface during typing reduces the upward bend at the wrist that a raised keyboard back otherwise creates.\n\nCheck specifically for a stated negative tilt option or a naturally downward-sloping design, and confirm whether a wrist rest is included versus needing to be purchased separately, rather than assuming any \"ergonomic\" label includes proper tilt geometry."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, since some ergonomic keyboards share variants with different genuine track records",
+    "explanation": "Ergonomic keyboards, especially from smaller brands, are frequently sold in multiple color or configuration variants that share the same underlying design and sometimes the same pooled review history despite being technically separate listings, which can make one specific variant's review count look artificially large or, conversely, leave a genuinely new design with almost no independent track record despite looking similar to an established model.\n\nA keyboard central to your daily work deserves a design with genuinely substantial, focused review history behind it, not just a plausible-looking rating built on a thin or shared sample.\n\nWhen comparing keyboards, especially similarly-designed variants from the same brand, check both the star rating and the review count together, and read a handful of reviews to confirm they describe the exact variant you're considering."
+  }
 ];
 
 export const faq: FaqItem[] = [

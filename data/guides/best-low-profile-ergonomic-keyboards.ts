@@ -31,11 +31,10 @@ export const products: GuideProduct[] = [
     reviews: "60 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51yI4NqNkGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BLZPLWX4?tag=deskfinds0d-20",
-    description:
-      "This explicitly discloses 'low-profile red linear switches' in its title, clarifying that low-profile refers to switch height specifically rather than an ambiguous overall case description, a genuine transparency advantage over vaguer marketing.\n\nLinear switches have a smooth, consistent actuation force throughout the shorter low-profile travel distance rather than a tactile bump, worth understanding this feels genuinely different from a standard-height tactile switch, not simply a shorter version of the same feel.",
-    specs: ["Explicitly disclosed low-profile red linear switches", "Programmable macro keys", "Compact form factor", "Windows and Mac compatible"],
-    pros: ["Explicitly disclosed switch type and profile, not vague marketing", "Genuine mechanical switches at the low-profile height", "Programmable macro keys for technical workflows", "Cross-platform Windows and Mac compatibility"],
-    cons: ["Smaller review base limits confidence in long-term durability", "Linear switches lack tactile feedback some typists prefer", "Split/tenting adjustability not included in this compact design"],
+    description: "This explicitly discloses 'low-profile red linear switches' in its title, clarifying that low-profile refers to switch height specifically rather than an ambiguous overall case description, a genuine transparency advantage over vaguer marketing.\n\nIt earns the top spot in this comparison over Arteck Split Ergonomic Keyboard with Palm Rest for one main reason. Explicitly disclosed switch type and profile, not vague marketing. On price, it comes in below Arteck Split Ergonomic Keyboard with Palm Rest, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Genuine mechanical switches at the low-profile height. On the other side, Split/tenting adjustability not included in this compact design. That's the main tradeoff to weigh against everything above.",
+    specs: ["Explicitly disclosed low-profile red linear switches","Programmable macro keys","Compact form factor","Windows and Mac compatible"],
+    pros: ["Explicitly disclosed switch type and profile, not vague marketing","Genuine mechanical switches at the low-profile height","Programmable macro keys for technical workflows","Cross-platform Windows and Mac compatibility"],
+    cons: ["Smaller review base limits confidence in long-term durability","Linear switches lack tactile feedback some typists prefer","Split/tenting adjustability not included in this compact design"],
     bestFor: "Buyers wanting explicitly disclosed low-profile mechanical switches with programmable macros",
   },
   {
@@ -48,11 +47,10 @@ export const products: GuideProduct[] = [
     reviews: "1,624 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41O4m5cUOVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BKKYRQ31?tag=deskfinds0d-20",
-    description:
-      "A large review base confirming this split ergonomic design maintains genuine low-profile case thickness while still accommodating the split-key layout, addressing the internal-room concern that thinner cases can face for split mechanisms.\n\nWrist elevation needs change with a lower-profile keyboard body, since a thinner keyboard requires less wrist rest height for proper positioning, this design's included palm rest is specifically proportioned for the lower case thickness rather than a generic taller rest.",
-    specs: ["Low-profile case with split key layout", "Included proportioned palm rest", "Large review base", "2.4G wireless connectivity"],
-    pros: ["Large, well-established review base", "Genuine split layout within a low-profile case thickness", "Included palm rest proportioned for the lower keyboard height", "Wireless 2.4G connectivity"],
-    cons: ["Membrane rather than mechanical switches, different actuation feel", "Tenting adjustability more limited than a taller split keyboard", "Verify low-profile switch hot-swappability isn't applicable since this uses membrane keys"],
+    description: "A large review base confirming this split ergonomic design maintains genuine low-profile case thickness while still accommodating the split-key layout, addressing the internal-room concern that thinner cases can face for split mechanisms.\n\nOne spot below Perixx PERIBOARD-335RD Wired Ergonomic Mechanical Compact Keyboard in this ranking, it costs more than Perixx PERIBOARD-335RD Wired Ergonomic Mechanical Compact Keyboard. The compromise here is straightforward: Membrane rather than mechanical switches, different actuation feel. What you gain in return: Large, well-established review base. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Genuine split layout within a low-profile case thickness. On the other side, Verify low-profile switch hot-swappability isn't applicable since this uses membrane keys. That's the main tradeoff to weigh against everything above.",
+    specs: ["Low-profile case with split key layout","Included proportioned palm rest","Large review base","2.4G wireless connectivity"],
+    pros: ["Large, well-established review base","Genuine split layout within a low-profile case thickness","Included palm rest proportioned for the lower keyboard height","Wireless 2.4G connectivity"],
+    cons: ["Membrane rather than mechanical switches, different actuation feel","Tenting adjustability more limited than a taller split keyboard","Verify low-profile switch hot-swappability isn't applicable since this uses membrane keys"],
     bestFor: "Buyers wanting a genuine split layout in a low-profile wireless design",
   },
   {
@@ -65,11 +63,10 @@ export const products: GuideProduct[] = [
     reviews: "1,166 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51mIgAEAexL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CGL8X4H6?tag=deskfinds0d-20",
-    description:
-      "The wired sibling of the wireless split pick, backlit for visibility in dim lighting, a solid review base confirms the same low-profile case thickness and proportioned palm rest without needing to manage a wireless receiver or battery.\n\nWrist rest height sizing matters the same way here as its wireless sibling, this design's included rest is specifically proportioned for this lower-profile keyboard body rather than a generic taller rest meant for standard-height keyboards.",
-    specs: ["Low-profile case with split key layout", "Backlit keys, wired connectivity", "Solid review base", "Included proportioned palm rest"],
-    pros: ["Solid review base and rating", "Backlit keys for visibility in low-light conditions", "No battery or wireless receiver to manage", "Same proportioned palm rest as its wireless sibling"],
-    cons: ["Membrane rather than mechanical switches", "Wired-only, no wireless flexibility for buyers wanting that", "Tenting adjustability more limited than a taller split keyboard"],
+    description: "The wired sibling of the wireless split pick, backlit for visibility in dim lighting, a solid review base confirms the same low-profile case thickness and proportioned palm rest without needing to manage a wireless receiver or battery.\n\nSitting just under Arteck Split Ergonomic Keyboard with Palm Rest, it's priced lower than Arteck Split Ergonomic Keyboard with Palm Rest. Here's the honest tradeoff: Membrane rather than mechanical switches. And here's what it gets you instead: Solid review base and rating. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Backlit keys for visibility in low-light conditions. On the other side, Tenting adjustability more limited than a taller split keyboard. That's the main tradeoff to weigh against everything above.",
+    specs: ["Low-profile case with split key layout","Backlit keys, wired connectivity","Solid review base","Included proportioned palm rest"],
+    pros: ["Solid review base and rating","Backlit keys for visibility in low-light conditions","No battery or wireless receiver to manage","Same proportioned palm rest as its wireless sibling"],
+    cons: ["Membrane rather than mechanical switches","Wired-only, no wireless flexibility for buyers wanting that","Tenting adjustability more limited than a taller split keyboard"],
     bestFor: "Buyers wanting a wired, backlit split low-profile keyboard without battery management",
   },
   {
@@ -82,11 +79,10 @@ export const products: GuideProduct[] = [
     reviews: "147 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41AHyk+btpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGTKJV5M?tag=deskfinds0d-20",
-    description:
-      "Explicitly disclosed as low-profile with a genuinely useful integrated phone holder, this full-size layout suits buyers wanting complete key coverage rather than a compact form factor alongside their thin case design.\n\nThis is genuinely marketed as silent alongside low-profile, a combination worth understanding as two separate specs rather than assuming low-profile automatically implies quiet operation, since these address different aspects of the typing experience.",
-    specs: ["Explicitly low-profile, full-size layout", "Integrated phone holder", "Silent operation marketed", "2.4GHz wireless"],
-    pros: ["Full-size layout for complete key coverage", "Genuinely useful integrated phone holder", "Marketed silent operation alongside low-profile design", "Affordable price for the feature set"],
-    cons: ["Smaller review base limits confidence in long-term evidence", "Membrane rather than mechanical switches", "No split or tenting adjustability in this full-size layout"],
+    description: "Explicitly disclosed as low-profile with a genuinely useful integrated phone holder, this full-size layout suits buyers wanting complete key coverage rather than a compact form factor alongside their thin case design.\n\nRanked just behind Arteck Split Ergonomic Keyboard with Palm Rest, it's priced lower than Arteck Split Ergonomic Keyboard with Palm Rest. The real tradeoff against that pick: Smaller review base limits confidence in long-term evidence. In exchange, it offers this instead: Full-size layout for complete key coverage. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Genuinely useful integrated phone holder. On the other side, No split or tenting adjustability in this full-size layout. That's the main tradeoff to weigh against everything above.",
+    specs: ["Explicitly low-profile, full-size layout","Integrated phone holder","Silent operation marketed","2.4GHz wireless"],
+    pros: ["Full-size layout for complete key coverage","Genuinely useful integrated phone holder","Marketed silent operation alongside low-profile design","Affordable price for the feature set"],
+    cons: ["Smaller review base limits confidence in long-term evidence","Membrane rather than mechanical switches","No split or tenting adjustability in this full-size layout"],
     bestFor: "Buyers wanting a full-size low-profile keyboard with a bonus phone holder",
   },
   {
@@ -99,13 +95,12 @@ export const products: GuideProduct[] = [
     reviews: "7,992 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41EsewSK2nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZWK2TQT?tag=deskfinds0d-20",
-    description:
-      "A very large review base and the highest average rating in this guide, this premium ergonomic split design includes genuine tenting adjustability, a real feature the more compact low-profile picks in this guide can't match given their thinner case constraints.\n\nSplit and tenting adjustability compatibility with a low-profile case design was a real consideration here, this keyboard's case is genuinely taller than the strictly low-profile picks above, included specifically because it represents the tradeoff point where more tenting room becomes available at the cost of a thinner profile.",
-    specs: ["Genuine tenting adjustability", "Very large review base", "Highest rating in this guide", "Split ergonomic layout with wrist rest"],
-    pros: ["Very large, well-established review base", "Highest average rating of any pick in this guide", "Genuine tenting adjustability, a real tradeoff against strict low-profile thinness", "Established Logitech reliability"],
-    cons: ["Highest price in this guide by a significant margin", "Not as thin as the more strictly low-profile picks in this guide", "The added tenting mechanism trades against the thinnest possible case"],
+    description: "A very large review base and the highest average rating in this guide, this premium ergonomic split design includes genuine tenting adjustability, a real feature the more compact low-profile picks in this guide can't match given their thinner case constraints.\n\nOne spot below JOYACCESS Ergonomic Wireless Keyboard with Wrist Rest in this ranking, it costs more than JOYACCESS Ergonomic Wireless Keyboard with Wrist Rest. The compromise here is straightforward: Highest price in this guide by a significant margin. What you gain in return: Very large, well-established review base. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Highest average rating of any pick in this guide. On the other side, The added tenting mechanism trades against the thinnest possible case. That's the main tradeoff to weigh against everything above.",
+    specs: ["Genuine tenting adjustability","Very large review base","Highest rating in this guide","Split ergonomic layout with wrist rest"],
+    pros: ["Very large, well-established review base","Highest average rating of any pick in this guide","Genuine tenting adjustability, a real tradeoff against strict low-profile thinness","Established Logitech reliability"],
+    cons: ["Highest price in this guide by a significant margin","Not as thin as the more strictly low-profile picks in this guide","The added tenting mechanism trades against the thinnest possible case"],
     bestFor: "Buyers wanting genuine tenting adjustability, willing to trade some case thinness for it",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -120,43 +115,113 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Clarify Whether 'Low-Profile' Means Switches, Case, or Both",
-    intro: "This distinction genuinely matters for how the keyboard feels and what tradeoffs it makes.",
-    cards: [
-      { label: "Low-profile switches", text: "The individual key mechanisms have shorter travel distance, this affects actuation feel directly, found on the Perixx PERIBOARD-335RD in this guide with explicitly disclosed 'low-profile red linear switches.'" },
-      { label: "Low-profile case", text: "The overall keyboard body is thinner, which may or may not use low-profile switches underneath, this affects wrist elevation needs and desk footprint more than typing feel directly." },
-      { label: "Both together", text: "The most common combination in genuinely marketed 'low-profile' products, a thinner case paired with shorter-travel switches for a consistently sleek, low overall typing height." },
-    ],
+    "subheading": "By Layout Type",
+    "note": "Every pick in this specific comparison uses a similar layout approach; check the product names above for the exact curve, split, or angle."
   },
   {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Explicitly disclosed mechanical low-profile switches", "Perixx PERIBOARD-335RD"],
-        ["Wireless split layout in a genuine low-profile case", "Arteck Split Wireless"],
-        ["Wired, backlit split layout, no battery to manage", "Arteck Split Wired Backlit"],
-        ["Full-size layout with a bonus phone holder", "JOYACCESS Low-Profile with Phone Holder"],
-        ["Genuine tenting adjustability, willing to trade thinness", "Logitech Ergo K860"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $28",
+          "JOYACCESS Ergonomic Wireless Keyboard with Wrist Rest"
+        ],
+        [
+          "Mid-range",
+          "Arteck Split Ergonomic Keyboard with Palm Rest"
+        ],
+        [
+          "No firm budget ceiling, prioritizing switch quality or ergonomics",
+          "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Expect a Different Typing Feel, Not Just a Shorter One",
-    note: "Low-profile switches typically have different actuation characteristics, shorter travel and a different force curve, than standard switches. Don't assume a low-profile switch rated at the same actuation force as your current standard-height switch will feel identical, the shorter travel genuinely changes how the keystroke feels from press to bottom-out.",
+    "subheading": "Wired vs Wireless",
+    "cards": [
+      {
+        "label": "Wired",
+        "text": "Zero input latency and no battery to manage, including no backlight battery drain if illuminated. In this comparison: Perixx PERIBOARD-335RD Wired Ergonomic Mechanical Compact Keyboard, Arteck Split Ergonomic Keyboard with Palm Rest."
+      },
+      {
+        "label": "Wireless (Bluetooth/2.4GHz)",
+        "text": "Cable-free desk setup, at the cost of battery management and, for Bluetooth, potentially more input latency. In this comparison: Arteck Split Ergonomic Keyboard with Palm Rest, JOYACCESS Ergonomic Wireless Keyboard with Wrist Rest, Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest."
+      }
+    ]
   },
   {
-    subheading: "Adjust Your Wrist Rest Expectations for a Thinner Keyboard",
-    note: "Wrist elevation needs change with a lower-profile keyboard, since a thinner keyboard body may require less wrist rest height for proper positioning than a taller standard keyboard. If you're pairing a low-profile keyboard with a wrist rest designed for a taller keyboard, your wrists may sit at an uncomfortable angle, look for a rest genuinely proportioned to the keyboard's actual height.",
+    "subheading": "By Switch Type and Typing Feel",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Lowest cost, quiet typing",
+          "JOYACCESS Ergonomic Wireless Keyboard with Wrist Rest"
+        ],
+        [
+          "Tactile feedback, lighter actuation force",
+          "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For Wrist Pain or Carpal Tunnel Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine split or vertical layout (not just a curved surface), a negative tilt option or naturally downward-sloping design, and an included wrist rest sized for your hand."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Arteck Split Ergonomic Keyboard with Palm Rest fits this specifically: Large, well-established review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest offers: Very large, well-established review base. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "JOYACCESS Ergonomic Wireless Keyboard with Wrist Rest already covers the essentials: Full-size layout for complete key coverage. The main thing you'd be paying extra for elsewhere in this list is adjustability you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Clarify whether 'low-profile' means the switches, the case, or both", explanation: "These are related but genuinely distinct specs, verify which applies since it affects both typing feel and desk footprint differently." },
-  { criterion: "Expect a genuinely different typing feel, not just a shorter one", explanation: "Low-profile switches have different actuation characteristics, shorter travel and a different force curve, don't assume they feel identical to standard switches at the same force rating." },
-  { criterion: "Verify tenting adjustability if the case is genuinely low-profile", explanation: "A thinner case may have less internal room for tenting mechanisms, the strictest low-profile designs often sacrifice this adjustability entirely." },
-  { criterion: "Match your wrist rest height to the keyboard's actual thinner profile", explanation: "A lower-profile keyboard body needs less wrist rest height for proper positioning than a taller standard keyboard, mismatched height creates an uncomfortable wrist angle." },
-  { criterion: "Check hot-swappability separately for low-profile mechanical switches", explanation: "Low-profile switches use a different physical format than standard switches, verify replacement compatibility rather than assuming standard hot-swap sockets apply." },
+  {
+    "criterion": "Understand what split, curved, and vertical layouts each actually change about your hand position",
+    "explanation": "A curved keyboard bends the key rows into an arc that reduces how far your fingers reach across the board but keeps both hands in a fixed relative position, a split keyboard physically separates the two halves so each hand and wrist can angle independently to a more natural position, and a fully vertical keyboard rotates the hands toward a handshake-like orientation that reduces forearm rotation (pronation) more aggressively than either curved or split designs.\n\nThese are meaningfully different interventions, not just cosmetic variations on the same idea, and the amount of adjustment period and the specific relief they provide differs: a curved board requires almost no adaptation, a split board requires learning a new hand spacing, and a vertical board requires the most significant adaptation period but addresses forearm rotation most directly.\n\nIf a specific pain type (wrist deviation, forearm rotation, shoulder width) has been identified, match the layout type to that specific issue rather than assuming any keyboard labeled \"ergonomic\" addresses the same problem."
+  },
+  {
+    "criterion": "Check the key switch type, since it affects both typing feel and finger force required",
+    "explanation": "Ergonomic keyboards commonly use one of three switch technologies: membrane (a soft rubber dome under each key, quiet and inexpensive but requiring the key to bottom out fully to register), scissor or low-profile (a shorter, more stable keystroke similar to a laptop keyboard), or mechanical (an individual physical switch per key with more configurable actuation force and travel distance, generally louder but often preferred for tactile feedback and reduced bottoming-out force).\n\nThis matters for anyone with existing wrist or finger strain specifically because mechanical switches can be selected for lighter actuation force, requiring less pressure to register a keystroke than a standard membrane keyboard, a genuine factor in repetitive strain rather than just a preference for typing feel.\n\nIf finger fatigue or strain is a specific concern, check for stated actuation force (measured in grams) rather than assuming all keyboards require the same finger pressure to type."
+  },
+  {
+    "criterion": "Confirm wireless connection type matches your actual devices, and know the battery tradeoffs",
+    "explanation": "Wireless ergonomic keyboards connect via Bluetooth (works with virtually any modern device without a dongle, but can have more noticeable input latency and reconnection delay), a dedicated 2.4GHz USB receiver (generally lower latency and more reliable than Bluetooth, but requires a free USB port and the receiver can be lost), or wired USB (zero latency and no battery to manage, but no cable-free movement).\n\nMulti-device Bluetooth models that support pairing with several devices and switching between them are a genuine convenience for anyone alternating between a work laptop and a personal computer, but this feature isn't universal even among Bluetooth keyboards.\n\nCheck the specific connection type and, for wireless models, confirm multi-device pairing support explicitly if you need to switch between more than one computer regularly, and factor in that backlit wireless models draw more power and need more frequent charging than non-backlit equivalents."
+  },
+  {
+    "criterion": "Check for a negative tilt option and separate wrist rest, since flat isn't always neutral",
+    "explanation": "A truly neutral wrist position during typing involves the hands tilting slightly downward from the wrist toward the keys (negative tilt), which is the opposite of the upward tilt most standard and even many \"ergonomic\" keyboards default to with their built-in feet, and only some ergonomic models offer an actual negative-tilt adjustment or come with a design that achieves this angle by default.\n\nA separate, adequately sized wrist rest matters independently of the keyboard's own tilt, since resting the wrist (not just the palm) on a support surface during typing reduces the upward bend at the wrist that a raised keyboard back otherwise creates.\n\nCheck specifically for a stated negative tilt option or a naturally downward-sloping design, and confirm whether a wrist rest is included versus needing to be purchased separately, rather than assuming any \"ergonomic\" label includes proper tilt geometry."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, since some ergonomic keyboards share variants with different genuine track records",
+    "explanation": "Ergonomic keyboards, especially from smaller brands, are frequently sold in multiple color or configuration variants that share the same underlying design and sometimes the same pooled review history despite being technically separate listings, which can make one specific variant's review count look artificially large or, conversely, leave a genuinely new design with almost no independent track record despite looking similar to an established model.\n\nA keyboard central to your daily work deserves a design with genuinely substantial, focused review history behind it, not just a plausible-looking rating built on a thin or shared sample.\n\nWhen comparing keyboards, especially similarly-designed variants from the same brand, check both the star rating and the review count together, and read a handful of reviews to confirm they describe the exact variant you're considering."
+  }
 ];
 
 export const faq: FaqItem[] = [

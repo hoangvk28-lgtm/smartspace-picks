@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "675 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51J8PEUgcWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B084BP8T18?tag=deskfinds0d-20",
-    description:
-      "A curved, not fully split, ergonomic mechanical keyboard that keeps the WASD cluster intact for simultaneous multi-key gaming combos, using genuine Kailh tactile mechanical switches for responsive feel. This semi-split approach is generally the gaming-friendlier choice compared to a fully separated split layout.\n\nVerify current listings and buyer feedback for N-key rollover and anti-ghosting specifics before assuming feature parity with a dedicated gaming keyboard, and note that dedicated macro key availability is more limited here than on purpose-built gaming boards.",
-    specs: ["Curved layout, WASD cluster intact", "Kailh tactile mechanical switches", "Ergonomic design without full split", "Premium build"],
-    pros: ["WASD cluster stays intact for gaming muscle memory", "Genuine mechanical tactile switches", "Curved layout offers some ergonomic benefit", "Solid review base for a premium product"],
-    cons: ["Verify N-key rollover and anti-ghosting on current listing", "Limited macro key availability versus dedicated gaming boards", "Highest price in this guide"],
+    description: "A curved, not fully split, ergonomic mechanical keyboard that keeps the WASD cluster intact for simultaneous multi-key gaming combos, using genuine Kailh tactile mechanical switches for responsive feel. This semi-split approach is generally the gaming-friendlier choice compared to a fully separated split layout.\n\nIt earns the top spot in this comparison over X9 Performance Wireless Mechanical Ergonomic Keyboard for one main reason. WASD cluster stays intact for gaming muscle memory. On price, it's actually priced above X9 Performance Wireless Mechanical Ergonomic Keyboard, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Genuine mechanical tactile switches. On the other side, Highest price in this guide. That's the main tradeoff to weigh against everything above.",
+    specs: ["Curved layout, WASD cluster intact","Kailh tactile mechanical switches","Ergonomic design without full split","Premium build"],
+    pros: ["WASD cluster stays intact for gaming muscle memory","Genuine mechanical tactile switches","Curved layout offers some ergonomic benefit","Solid review base for a premium product"],
+    cons: ["Verify N-key rollover and anti-ghosting on current listing","Limited macro key availability versus dedicated gaming boards","Highest price in this guide"],
     bestFor: "Gamers who want mechanical feel and an intact WASD cluster over full split ergonomics",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "28 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41QWgEXf8hL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FTZLXBCZ?tag=deskfinds0d-20",
-    description:
-      "A mechanical ergonomic keyboard offering wired, 2.4G, and Bluetooth connection modes, useful for competitive gaming where wired latency matters as well as casual use where wireless convenience is preferred. Its curved, not fully split, layout keeps WASD combos intact.\n\nGiven its smaller review count, verify current buyer feedback specifically for N-key rollover reliability and wired-versus-wireless latency before relying on it for competitive timing-sensitive play.",
-    specs: ["Mechanical switches, WASD cluster intact", "Bluetooth, 2.4G, and wired connectivity", "Ergonomic curved layout", "Budget mechanical price point"],
-    pros: ["Wired mode available for competitive latency needs", "Lower price than premium mechanical gaming picks", "WASD cluster stays intact", "Flexible connection options"],
-    cons: ["Smaller review base, verify current feedback", "Verify N-key rollover explicitly before competitive use", "Limited macro key availability"],
+    description: "A mechanical ergonomic keyboard offering wired, 2.4G, and Bluetooth connection modes, useful for competitive gaming where wired latency matters as well as casual use where wireless convenience is preferred. Its curved, not fully split, layout keeps WASD combos intact.\n\nOne spot below Cloud Nine C989M Ergonomic Mechanical Keyboard for PC in this ranking, it's priced lower than Cloud Nine C989M Ergonomic Mechanical Keyboard for PC. The compromise here is straightforward: Smaller review base, verify current feedback. What you gain in return: Wired mode available for competitive latency needs. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Lower price than premium mechanical gaming picks. On the other side, Limited macro key availability. That's the main tradeoff to weigh against everything above.",
+    specs: ["Mechanical switches, WASD cluster intact","Bluetooth, 2.4G, and wired connectivity","Ergonomic curved layout","Budget mechanical price point"],
+    pros: ["Wired mode available for competitive latency needs","Lower price than premium mechanical gaming picks","WASD cluster stays intact","Flexible connection options"],
+    cons: ["Smaller review base, verify current feedback","Verify N-key rollover explicitly before competitive use","Limited macro key availability"],
     bestFor: "Budget-conscious gamers who want mechanical switches with a wired option for competitive play",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "2,671 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51FECyi9omL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09DKQWTNC?tag=deskfinds0d-20",
-    description:
-      "A standard row-stagger mechanical gaming keyboard with blue clicky switches, not a split or curved ergonomic layout, included here for gamers who want the largest verified review base and full WASD-cluster gaming performance over any ergonomic wrist-positioning benefit. Marketed explicitly as a gaming keyboard, so verify N-key rollover specs directly on the listing rather than assuming it from the ergonomic keyboards in this guide.\n\nIts retro typewriter styling and satisfying clicky feedback are the draw, worth weighing against the more explicitly ergonomic, WASD-intact picks above if wrist comfort during long sessions is your priority.",
-    specs: ["Blue clicky mechanical switches", "Standard row-stagger layout, full WASD cluster", "Largest verified review base in this guide", "Marketed as a gaming keyboard"],
-    pros: ["Largest verified review base here", "Full WASD cluster with no ergonomic split compromise", "Satisfying clicky tactile feedback", "Budget-friendly mechanical price"],
-    cons: ["Minimal ergonomic wrist-positioning benefit", "Loud clicky switches may not suit shared spaces", "Verify N-key rollover specs directly rather than assuming"],
+    description: "A standard row-stagger mechanical gaming keyboard with blue clicky switches, not a split or curved ergonomic layout, included here for gamers who want the largest verified review base and full WASD-cluster gaming performance over any ergonomic wrist-positioning benefit. Marketed explicitly as a gaming keyboard, so verify N-key rollover specs directly on the listing rather than assuming it from the ergonomic keyboards in this guide.\n\nSitting just under X9 Performance Wireless Mechanical Ergonomic Keyboard, it's priced lower than X9 Performance Wireless Mechanical Ergonomic Keyboard. Here's the honest tradeoff: Minimal ergonomic wrist-positioning benefit. And here's what it gets you instead: Largest verified review base here. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Full WASD cluster with no ergonomic split compromise. On the other side, Verify N-key rollover specs directly rather than assuming. That's the main tradeoff to weigh against everything above.",
+    specs: ["Blue clicky mechanical switches","Standard row-stagger layout, full WASD cluster","Largest verified review base in this guide","Marketed as a gaming keyboard"],
+    pros: ["Largest verified review base here","Full WASD cluster with no ergonomic split compromise","Satisfying clicky tactile feedback","Budget-friendly mechanical price"],
+    cons: ["Minimal ergonomic wrist-positioning benefit","Loud clicky switches may not suit shared spaces","Verify N-key rollover specs directly rather than assuming"],
     bestFor: "Gamers who prioritize full WASD performance and reviews over ergonomic wrist positioning",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "37 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41pQRggFooL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FY2XRSJX?tag=deskfinds0d-20",
-    description:
-      "A genuinely split Alice-layout mechanical keyboard, included for gamers specifically interested in the larger ergonomic benefit of a true split despite the WASD-cluster disruption that comes with it. Muscle memory built on a standard board will need real re-adjustment time here, more so than with the semi-split picks above.\n\nGiven its smaller review count, verify current buyer feedback on N-key rollover and wireless latency before committing to this layout for competitive play, and expect a genuine adjustment period before regaining full gaming speed.",
-    specs: ["Genuinely split Alice mechanical layout", "Wireless connectivity", "Stronger ergonomic benefit than semi-split designs", "Smaller review base"],
-    pros: ["Strongest ergonomic benefit of any pick in this guide", "Genuine mechanical switches", "High rating despite smaller sample size", "Distinctive split Alice layout"],
-    cons: ["WASD cluster is physically split, disrupting muscle memory", "Smaller review base, verify current feedback", "Longer adjustment period than semi-split alternatives"],
+    description: "A genuinely split Alice-layout mechanical keyboard, included for gamers specifically interested in the larger ergonomic benefit of a true split despite the WASD-cluster disruption that comes with it. Muscle memory built on a standard board will need real re-adjustment time here, more so than with the semi-split picks above.\n\nRanked just behind AULA F2088 Typewriter Style Mechanical Gaming Keyboard, it costs more than AULA F2088 Typewriter Style Mechanical Gaming Keyboard. The real tradeoff against that pick: WASD cluster is physically split, disrupting muscle memory. In exchange, it offers this instead: Strongest ergonomic benefit of any pick in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Genuine mechanical switches. On the other side, Longer adjustment period than semi-split alternatives. That's the main tradeoff to weigh against everything above.",
+    specs: ["Genuinely split Alice mechanical layout","Wireless connectivity","Stronger ergonomic benefit than semi-split designs","Smaller review base"],
+    pros: ["Strongest ergonomic benefit of any pick in this guide","Genuine mechanical switches","High rating despite smaller sample size","Distinctive split Alice layout"],
+    cons: ["WASD cluster is physically split, disrupting muscle memory","Smaller review base, verify current feedback","Longer adjustment period than semi-split alternatives"],
     bestFor: "Gamers prioritizing true split ergonomic benefit who accept a real WASD adjustment period",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "11 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/412SZO4U0rL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GW95B1Z8?tag=deskfinds0d-20",
-    description:
-      "A genuinely split mechanical keyboard with RGB lighting and wireless connectivity, appropriate for gamers who want the full ergonomic benefit of a split layout with the visual customization typically found on dedicated gaming boards. As with the Royal Kludge Alice pick above, expect a real WASD-cluster adjustment period since this is a true split, not a semi-split design.\n\nIts small review base means less long-term data than the other picks in this guide, verify current buyer feedback for N-key rollover specifics before relying on it for competitive timing-sensitive play.",
-    specs: ["Genuine mechanical switches", "Split, wireless ergonomic frame", "RGB backlighting", "Two-piece design"],
-    pros: ["True split mechanical layout with RGB customization", "Wireless connectivity", "Strongest ergonomic benefit alongside the Alice split pick", "Reasonable price for a split mechanical gaming board"],
-    cons: ["Smallest verified review base in this guide", "WASD cluster is physically split, disrupting muscle memory", "Verify N-key rollover on current listing before competitive use"],
+    description: "A genuinely split mechanical keyboard with RGB lighting and wireless connectivity, appropriate for gamers who want the full ergonomic benefit of a split layout with the visual customization typically found on dedicated gaming boards. As with the Royal Kludge Alice pick above, expect a real WASD-cluster adjustment period since this is a true split, not a semi-split design.\n\nOne spot below RK ROYAL KLUDGE A72 Alice Ergonomic Wireless Mechanical Keyboard in this ranking, it costs more than RK ROYAL KLUDGE A72 Alice Ergonomic Wireless Mechanical Keyboard. The compromise here is straightforward: Smallest verified review base in this guide. What you gain in return: True split mechanical layout with RGB customization. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Wireless connectivity. On the other side, Verify N-key rollover on current listing before competitive use. That's the main tradeoff to weigh against everything above.",
+    specs: ["Genuine mechanical switches","Split, wireless ergonomic frame","RGB backlighting","Two-piece design"],
+    pros: ["True split mechanical layout with RGB customization","Wireless connectivity","Strongest ergonomic benefit alongside the Alice split pick","Reasonable price for a split mechanical gaming board"],
+    cons: ["Smallest verified review base in this guide","WASD cluster is physically split, disrupting muscle memory","Verify N-key rollover on current listing before competitive use"],
     bestFor: "Gamers who want true split ergonomics with RGB lighting and accept a WASD adjustment period",
   },
   {
@@ -115,13 +110,12 @@ export const products: GuideProduct[] = [
     reviews: "53 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41yeJ-XPp7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F66LFC8Q?tag=deskfinds0d-20",
-    description:
-      "A compact wired gaming keyboard with RGB lighting at the lowest price in this guide, keeping the full WASD cluster intact on a standard layout rather than any split or curved ergonomic frame. It's a membrane keyboard rather than mechanical, so buyers expecting mechanical tactile feedback should compare it against the Cloud Nine or AULA picks above.\n\nIts compact footprint and wired connection suit budget-conscious gamers who prioritize price and RGB aesthetics over ergonomic wrist positioning, and its high rating relative to price makes it a reasonable secondary or backup board.",
-    specs: ["Wired USB connection", "Compact mini layout, full WASD cluster intact", "RGB backlighting", "Membrane key switches, not mechanical"],
-    pros: ["Lowest price in this guide", "Compact footprint for tight desks", "Full WASD cluster with no ergonomic split compromise", "High rating relative to price"],
-    cons: ["Membrane switches rather than mechanical", "Minimal ergonomic wrist-positioning benefit", "Verify N-key rollover on current listing before competitive use"],
+    description: "A compact wired gaming keyboard with RGB lighting at the lowest price in this guide, keeping the full WASD cluster intact on a standard layout rather than any split or curved ergonomic frame. It's a membrane keyboard rather than mechanical, so buyers expecting mechanical tactile feedback should compare it against the Cloud Nine or AULA picks above.\n\nSitting just under RAGNOK Ergonomic Mechanical Keyboard, it's priced lower than RAGNOK Ergonomic Mechanical Keyboard. Here's the honest tradeoff: Membrane switches rather than mechanical. And here's what it gets you instead: Lowest price in this guide. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Compact footprint for tight desks. On the other side, Verify N-key rollover on current listing before competitive use. That's the main tradeoff to weigh against everything above.",
+    specs: ["Wired USB connection","Compact mini layout, full WASD cluster intact","RGB backlighting","Membrane key switches, not mechanical"],
+    pros: ["Lowest price in this guide","Compact footprint for tight desks","Full WASD cluster with no ergonomic split compromise","High rating relative to price"],
+    cons: ["Membrane switches rather than mechanical","Minimal ergonomic wrist-positioning benefit","Verify N-key rollover on current listing before competitive use"],
     bestFor: "Budget-conscious gamers who want RGB and full WASD performance without an ergonomic frame",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -135,34 +129,128 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Semi-Split vs. Fully Split for Gaming",
-    note: "A semi-split or one-piece curved ergonomic keyboard keeps the WASD cluster intact, preserving gaming muscle memory, while a fully split design offers more ergonomic benefit at the cost of physically separating WASD and disrupting simultaneous multi-key combos. Choose based on whether gaming performance or wrist comfort matters more to you.",
-  },
-  {
-    subheading: "Don't Assume Gaming-Grade N-Key Rollover",
-    note: "Just because a keyboard is marketed toward gamers doesn't guarantee N-key rollover and anti-ghosting at the same level as a dedicated gaming keyboard. Verify this explicitly on the current listing, especially if you play games requiring many simultaneous key presses.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Mechanical feel with WASD cluster intact", "Cloud Nine C989M"],
-        ["Budget mechanical with a wired competitive option", "X9 Performance Wireless Mechanical"],
-        ["Largest review base, full WASD performance", "AULA F2088 Typewriter Style"],
-        ["Strongest ergonomic benefit, adjustment accepted", "Royal Kludge A72 Alice Split"],
-        ["True split with RGB, adjustment accepted", "RAGNOK Split Mechanical RGB"],
-        ["Lowest price, full WASD, RGB", "Wired RGB Gaming Membrane Mini"],
+    "subheading": "By Layout Type",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Minimal adjustment period",
+          "X9 Performance Wireless Mechanical Ergonomic Keyboard"
+        ],
+        [
+          "Independent hand and wrist angling",
+          "Cloud Nine C989M Ergonomic Mechanical Keyboard for PC"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $49",
+          "Wired RGB Gaming Membrane Keyboard"
+        ],
+        [
+          "Mid-range",
+          "RK ROYAL KLUDGE A72 Alice Ergonomic Wireless Mechanical Keyboard"
+        ],
+        [
+          "No firm budget ceiling, prioritizing switch quality or ergonomics",
+          "Cloud Nine C989M Ergonomic Mechanical Keyboard for PC"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Wired vs Wireless",
+    "cards": [
+      {
+        "label": "Wired",
+        "text": "Zero input latency and no battery to manage, including no backlight battery drain if illuminated. In this comparison: Wired RGB Gaming Membrane Keyboard."
+      },
+      {
+        "label": "Wireless (Bluetooth/2.4GHz)",
+        "text": "Cable-free desk setup, at the cost of battery management and, for Bluetooth, potentially more input latency. In this comparison: X9 Performance Wireless Mechanical Ergonomic Keyboard, RK ROYAL KLUDGE A72 Alice Ergonomic Wireless Mechanical Keyboard, RAGNOK Ergonomic Mechanical Keyboard."
+      }
+    ]
+  },
+  {
+    "subheading": "By Switch Type and Typing Feel",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Lowest cost, quiet typing",
+          "Wired RGB Gaming Membrane Keyboard"
+        ],
+        [
+          "Tactile feedback, lighter actuation force",
+          "Cloud Nine C989M Ergonomic Mechanical Keyboard for PC"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Wrist Pain or Carpal Tunnel Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine split or vertical layout (not just a curved surface), a negative tilt option or naturally downward-sloping design, and an included wrist rest sized for your hand."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Cloud Nine C989M Ergonomic Mechanical Keyboard for PC fits this specifically: WASD cluster stays intact for gaming muscle memory."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Cloud Nine C989M Ergonomic Mechanical Keyboard for PC offers: WASD cluster stays intact for gaming muscle memory. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Wired RGB Gaming Membrane Keyboard already covers the essentials: Lowest price in this guide. The main thing you'd be paying extra for elsewhere in this list is adjustability you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Decide if you can accept a split WASD cluster", explanation: "A fully split keyboard disrupts simultaneous multi-key gaming combos and muscle memory, a semi-split or one-piece layout keeps WASD intact at the cost of some ergonomic benefit." },
-  { criterion: "Verify N-key rollover explicitly, don't assume it", explanation: "Gaming marketing doesn't guarantee feature parity with a dedicated gaming keyboard, check the specific listing for N-key rollover and anti-ghosting claims." },
-  { criterion: "Consider wired for competitive timing-sensitive play", explanation: "If competitive latency matters, a wired connection removes wireless variability from the equation, verify feedback on wireless latency if you prefer that connection type." },
-  { criterion: "Check macro and programmable key availability", explanation: "Ergonomic keyboards typically offer fewer dedicated macro keys than purpose-built gaming keyboards, relevant if you rely on extra bindable keys for MMO or MOBA play." },
+  {
+    "criterion": "Understand what split, curved, and vertical layouts each actually change about your hand position",
+    "explanation": "A curved keyboard bends the key rows into an arc that reduces how far your fingers reach across the board but keeps both hands in a fixed relative position, a split keyboard physically separates the two halves so each hand and wrist can angle independently to a more natural position, and a fully vertical keyboard rotates the hands toward a handshake-like orientation that reduces forearm rotation (pronation) more aggressively than either curved or split designs.\n\nThese are meaningfully different interventions, not just cosmetic variations on the same idea, and the amount of adjustment period and the specific relief they provide differs: a curved board requires almost no adaptation, a split board requires learning a new hand spacing, and a vertical board requires the most significant adaptation period but addresses forearm rotation most directly.\n\nIf a specific pain type (wrist deviation, forearm rotation, shoulder width) has been identified, match the layout type to that specific issue rather than assuming any keyboard labeled \"ergonomic\" addresses the same problem."
+  },
+  {
+    "criterion": "Check the key switch type, since it affects both typing feel and finger force required",
+    "explanation": "Ergonomic keyboards commonly use one of three switch technologies: membrane (a soft rubber dome under each key, quiet and inexpensive but requiring the key to bottom out fully to register), scissor or low-profile (a shorter, more stable keystroke similar to a laptop keyboard), or mechanical (an individual physical switch per key with more configurable actuation force and travel distance, generally louder but often preferred for tactile feedback and reduced bottoming-out force).\n\nThis matters for anyone with existing wrist or finger strain specifically because mechanical switches can be selected for lighter actuation force, requiring less pressure to register a keystroke than a standard membrane keyboard, a genuine factor in repetitive strain rather than just a preference for typing feel.\n\nIf finger fatigue or strain is a specific concern, check for stated actuation force (measured in grams) rather than assuming all keyboards require the same finger pressure to type."
+  },
+  {
+    "criterion": "Confirm wireless connection type matches your actual devices, and know the battery tradeoffs",
+    "explanation": "Wireless ergonomic keyboards connect via Bluetooth (works with virtually any modern device without a dongle, but can have more noticeable input latency and reconnection delay), a dedicated 2.4GHz USB receiver (generally lower latency and more reliable than Bluetooth, but requires a free USB port and the receiver can be lost), or wired USB (zero latency and no battery to manage, but no cable-free movement).\n\nMulti-device Bluetooth models that support pairing with several devices and switching between them are a genuine convenience for anyone alternating between a work laptop and a personal computer, but this feature isn't universal even among Bluetooth keyboards.\n\nCheck the specific connection type and, for wireless models, confirm multi-device pairing support explicitly if you need to switch between more than one computer regularly, and factor in that backlit wireless models draw more power and need more frequent charging than non-backlit equivalents."
+  },
+  {
+    "criterion": "Check for a negative tilt option and separate wrist rest, since flat isn't always neutral",
+    "explanation": "A truly neutral wrist position during typing involves the hands tilting slightly downward from the wrist toward the keys (negative tilt), which is the opposite of the upward tilt most standard and even many \"ergonomic\" keyboards default to with their built-in feet, and only some ergonomic models offer an actual negative-tilt adjustment or come with a design that achieves this angle by default.\n\nA separate, adequately sized wrist rest matters independently of the keyboard's own tilt, since resting the wrist (not just the palm) on a support surface during typing reduces the upward bend at the wrist that a raised keyboard back otherwise creates.\n\nCheck specifically for a stated negative tilt option or a naturally downward-sloping design, and confirm whether a wrist rest is included versus needing to be purchased separately, rather than assuming any \"ergonomic\" label includes proper tilt geometry."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, since some ergonomic keyboards share variants with different genuine track records",
+    "explanation": "Ergonomic keyboards, especially from smaller brands, are frequently sold in multiple color or configuration variants that share the same underlying design and sometimes the same pooled review history despite being technically separate listings, which can make one specific variant's review count look artificially large or, conversely, leave a genuinely new design with almost no independent track record despite looking similar to an established model.\n\nA keyboard central to your daily work deserves a design with genuinely substantial, focused review history behind it, not just a plausible-looking rating built on a thin or shared sample.\n\nWhen comparing keyboards, especially similarly-designed variants from the same brand, check both the star rating and the review count together, and read a handful of reviews to confirm they describe the exact variant you're considering."
+  }
 ];
 
 export const faq: FaqItem[] = [

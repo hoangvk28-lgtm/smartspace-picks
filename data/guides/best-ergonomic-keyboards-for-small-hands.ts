@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "2,972 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/4114VdW9JcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BTNY72VD?tag=deskfinds0d-20",
-    description:
-      "A one-piece wave keyboard that sidesteps the split-gap minimum-width question entirely since it's a single fixed frame, worth considering if a fully split keyboard's minimum gap has felt too wide for your shoulder width in the past. It carries the largest verified review base among picks in this guide.\n\nStandard keycap size and spacing apply here, verify current buyer feedback specifically from smaller-handed users regarding modifier key reach before assuming comfort.",
-    specs: ["One-piece wave frame, no split-gap concern", "Standard keycap size and spacing", "Cushioned attached palm rest", "Largest verified review base here"],
-    pros: ["No split-gap minimum width to worry about", "Largest verified review base in this guide", "Minimal adjustment period", "Reliable multi-device wireless"],
-    cons: ["Standard keycap spacing, not specifically downsized", "Verify modifier key reach comfort in buyer feedback", "Less ergonomic benefit than a true split for shoulder-width flexibility"],
+    description: "A one-piece wave keyboard that sidesteps the split-gap minimum-width question entirely since it's a single fixed frame, worth considering if a fully split keyboard's minimum gap has felt too wide for your shoulder width in the past. It carries the largest verified review base among picks in this guide.\n\nIt earns the top spot in this comparison over Logitech Wave Keys Wireless Ergonomic Keyboard for one main reason. No split-gap minimum width to worry about. On price, it comes in below Logitech Wave Keys Wireless Ergonomic Keyboard, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Largest verified review base in this guide. On the other side, Less ergonomic benefit than a true split for shoulder-width flexibility. That's the main tradeoff to weigh against everything above.",
+    specs: ["One-piece wave frame, no split-gap concern","Standard keycap size and spacing","Cushioned attached palm rest","Largest verified review base here"],
+    pros: ["No split-gap minimum width to worry about","Largest verified review base in this guide","Minimal adjustment period","Reliable multi-device wireless"],
+    cons: ["Standard keycap spacing, not specifically downsized","Verify modifier key reach comfort in buyer feedback","Less ergonomic benefit than a true split for shoulder-width flexibility"],
     bestFor: "Buyers with smaller hands who want to avoid the split-gap minimum-width question entirely",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "2,972 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/418t+cQnsOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BTNZWYT5?tag=deskfinds0d-20",
-    description:
-      "The identical Wave Keys hardware as the Graphite pick above in a Rose colorway, same reach and spacing considerations apply since it's the same physical design. A reasonable alternative if color matters but the ergonomic considerations for smaller hands are your priority.\n\nAs with the Graphite version, this sidesteps the split-gap minimum-width concern that fully split keyboards raise for smaller shoulder widths.",
-    specs: ["One-piece wave frame, no split-gap concern", "Rose colorway", "Standard keycap size and spacing", "Cushioned attached palm rest"],
-    pros: ["No split-gap minimum width to worry about", "Distinct Rose colorway option", "Minimal adjustment period", "Solid review base"],
-    cons: ["Standard keycap spacing, not specifically downsized", "Verify modifier key reach comfort in buyer feedback", "Less ergonomic benefit than a true split for shoulder-width flexibility"],
+    description: "The identical Wave Keys hardware as the Graphite pick above in a Rose colorway, same reach and spacing considerations apply since it's the same physical design. A reasonable alternative if color matters but the ergonomic considerations for smaller hands are your priority.\n\nOne spot below Logitech Wave Keys Wireless Ergonomic Keyboard in this ranking, it costs more than Logitech Wave Keys Wireless Ergonomic Keyboard. The compromise here is straightforward: Standard keycap spacing, not specifically downsized. What you gain in return: No split-gap minimum width to worry about. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Distinct Rose colorway option. On the other side, Less ergonomic benefit than a true split for shoulder-width flexibility. That's the main tradeoff to weigh against everything above.",
+    specs: ["One-piece wave frame, no split-gap concern","Rose colorway","Standard keycap size and spacing","Cushioned attached palm rest"],
+    pros: ["No split-gap minimum width to worry about","Distinct Rose colorway option","Minimal adjustment period","Solid review base"],
+    cons: ["Standard keycap spacing, not specifically downsized","Verify modifier key reach comfort in buyer feedback","Less ergonomic benefit than a true split for shoulder-width flexibility"],
     bestFor: "Buyers who want the same small-hands considerations as the Graphite Wave Keys in a different color",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "1,624 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41O4m5cUOVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BKKYRQ31?tag=deskfinds0d-20",
-    description:
-      "A genuinely split keyboard with a fixed gap between the halves, worth verifying the current listing's exact minimum gap width before assuming it suits a narrower shoulder width. If you specifically want split ergonomic benefit despite smaller hand or shoulder dimensions, this is worth checking carefully against your own measurements.\n\nIts built-in cushioned palm rest and mid-range price make it a reasonable option if the gap width does work for you after verification.",
-    specs: ["Split, angled layout with a fixed gap between halves", "Built-in cushioned palm rest", "2.4G USB wireless receiver", "Verify gap width for your shoulder width"],
-    pros: ["True split ergonomic benefit if the gap width suits you", "Built-in palm rest, no extra purchase", "Stable 2.4G connection", "Mid-range price for the design"],
-    cons: ["Fixed gap width may not suit a narrower shoulder width", "Verify current listing's exact gap measurement before buying", "Fixed split angle, not tenting-adjustable"],
+    description: "A genuinely split keyboard with a fixed gap between the halves, worth verifying the current listing's exact minimum gap width before assuming it suits a narrower shoulder width. If you specifically want split ergonomic benefit despite smaller hand or shoulder dimensions, this is worth checking carefully against your own measurements.\n\nSitting just under Logitech Wave Keys Wireless Ergonomic Keyboard, it's priced lower than Logitech Wave Keys Wireless Ergonomic Keyboard. Here's the honest tradeoff: Fixed gap width may not suit a narrower shoulder width. And here's what it gets you instead: True split ergonomic benefit if the gap width suits you. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Built-in palm rest, no extra purchase. On the other side, Fixed split angle, not tenting-adjustable. That's the main tradeoff to weigh against everything above.",
+    specs: ["Split, angled layout with a fixed gap between halves","Built-in cushioned palm rest","2.4G USB wireless receiver","Verify gap width for your shoulder width"],
+    pros: ["True split ergonomic benefit if the gap width suits you","Built-in palm rest, no extra purchase","Stable 2.4G connection","Mid-range price for the design"],
+    cons: ["Fixed gap width may not suit a narrower shoulder width","Verify current listing's exact gap measurement before buying","Fixed split angle, not tenting-adjustable"],
     bestFor: "Buyers who want split ergonomic benefit and have verified the fixed gap width suits their shoulder width",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "541 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41M-dFoGk+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1TLPDWT?tag=deskfinds0d-20",
-    description:
-      "Another genuinely split keyboard with a cushioned wrist rest, offered at a lower price point than the Arteck pick above. As with any split keyboard, verify the current listing's minimum gap width against your shoulder width before assuming it will feel comfortable.\n\nGiven the genuine niche nature of small-hand-focused ergonomic keyboards, treat any specific reach or spacing claims as something to verify in current buyer feedback rather than an assumed given.",
-    specs: ["Split layout with a fixed gap between halves", "Cushioned wrist rest included", "Wireless connectivity", "Budget-friendly price point"],
-    pros: ["Lower price than other split picks in this guide", "Cushioned wrist rest included", "True split ergonomic layout", "Solid review base"],
-    cons: ["Verify current listing's exact gap measurement before buying", "Genuine niche category with limited dedicated options overall", "Fixed split angle, not tenting-adjustable"],
+    description: "Another genuinely split keyboard with a cushioned wrist rest, offered at a lower price point than the Arteck pick above. As with any split keyboard, verify the current listing's minimum gap width against your shoulder width before assuming it will feel comfortable.\n\nRanked just behind Arteck Split Ergonomic Keyboard with Palm Rest, it's priced lower than Arteck Split Ergonomic Keyboard with Palm Rest. The real tradeoff against that pick: Verify current listing's exact gap measurement before buying. In exchange, it offers this instead: Lower price than other split picks in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Cushioned wrist rest included. On the other side, Fixed split angle, not tenting-adjustable. That's the main tradeoff to weigh against everything above.",
+    specs: ["Split layout with a fixed gap between halves","Cushioned wrist rest included","Wireless connectivity","Budget-friendly price point"],
+    pros: ["Lower price than other split picks in this guide","Cushioned wrist rest included","True split ergonomic layout","Solid review base"],
+    cons: ["Verify current listing's exact gap measurement before buying","Genuine niche category with limited dedicated options overall","Fixed split angle, not tenting-adjustable"],
     bestFor: "Budget-conscious buyers wanting a genuinely split keyboard, after verifying the gap width suits their shoulder width",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "69 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41ersIiDGuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPR2GR6F?tag=deskfinds0d-20",
-    description:
-      "A curved, not fully split, keyboard with a cushioned palm rest and multi-device pairing support, sidestepping the split-gap minimum-width question entirely since it's a single fixed frame. This makes it a reasonable option for smaller hands who want to switch between devices without worrying about shoulder-width gap measurements.\n\nAs with any curved one-piece design, verify current buyer feedback specifically from smaller-handed users regarding modifier key reach, since standard keycap spacing applies here rather than any downsized layout.",
-    specs: ["Curved layout, no split-gap concern", "Cushioned wrist palm rest", "Multi-device pairing support", "Standard keycap size and spacing"],
-    pros: ["No split-gap minimum width to worry about", "Multi-device pairing for switching between computers", "Cushioned palm rest included", "Reasonable price for the feature set"],
-    cons: ["Standard keycap spacing, not specifically downsized", "Verify modifier key reach comfort in buyer feedback", "Not a true split layout"],
+    description: "A curved, not fully split, keyboard with a cushioned palm rest and multi-device pairing support, sidestepping the split-gap minimum-width question entirely since it's a single fixed frame. This makes it a reasonable option for smaller hands who want to switch between devices without worrying about shoulder-width gap measurements.\n\nOne spot below Nulea Wireless Ergonomic Keyboard in this ranking, it costs more than Nulea Wireless Ergonomic Keyboard. The compromise here is straightforward: Standard keycap spacing, not specifically downsized. What you gain in return: No split-gap minimum width to worry about. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Multi-device pairing for switching between computers. On the other side, Not a true split layout. That's the main tradeoff to weigh against everything above.",
+    specs: ["Curved layout, no split-gap concern","Cushioned wrist palm rest","Multi-device pairing support","Standard keycap size and spacing"],
+    pros: ["No split-gap minimum width to worry about","Multi-device pairing for switching between computers","Cushioned palm rest included","Reasonable price for the feature set"],
+    cons: ["Standard keycap spacing, not specifically downsized","Verify modifier key reach comfort in buyer feedback","Not a true split layout"],
     bestFor: "Buyers with smaller hands who switch between devices and want to avoid split-gap width concerns",
   },
   {
@@ -115,11 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "21 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/3120zwwhcDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GMQMKVKF?tag=deskfinds0d-20",
-    description:
-      "A compact 2-in-1 keyboard design with the highest rating among picks in this guide, its smaller overall footprint may suit smaller hands reaching across the board even though it isn't purpose-built specifically for hand size. As it's not a fully split design, the split-gap minimum-width question doesn't apply here.\n\nIts smaller review count means less long-term data than the more established picks above, verify current buyer feedback specifically on modifier key reach before assuming comfort.",
-    specs: ["Compact 2-in-1 design, no split-gap concern", "Highest rating among picks in this guide", "Wireless connectivity", "Purpose-built compact footprint"],
-    pros: ["Highest rating of any pick in this guide", "Compact footprint may ease overall reach", "No split-gap minimum width to worry about", "2-in-1 design consolidates functionality"],
-    cons: ["Smaller review sample size, verify current feedback", "Not purpose-built specifically for small hands", "Verify modifier key reach comfort in buyer feedback"],
+    description: "A compact 2-in-1 keyboard design with the highest rating among picks in this guide, its smaller overall footprint may suit smaller hands reaching across the board even though it isn't purpose-built specifically for hand size. As it's not a fully split design, the split-gap minimum-width question doesn't apply here.\n\nSitting just under Arteck Ergonomic Keyboard with Cushioned Wrist Palm Rest, it costs more than Arteck Ergonomic Keyboard with Cushioned Wrist Palm Rest. Here's the honest tradeoff: Smaller review sample size, verify current feedback. And here's what it gets you instead: Highest rating of any pick in this guide. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Compact footprint may ease overall reach. On the other side, Verify modifier key reach comfort in buyer feedback. That's the main tradeoff to weigh against everything above.",
+    specs: ["Compact 2-in-1 design, no split-gap concern","Highest rating among picks in this guide","Wireless connectivity","Purpose-built compact footprint"],
+    pros: ["Highest rating of any pick in this guide","Compact footprint may ease overall reach","No split-gap minimum width to worry about","2-in-1 design consolidates functionality"],
+    cons: ["Smaller review sample size, verify current feedback","Not purpose-built specifically for small hands","Verify modifier key reach comfort in buyer feedback"],
     bestFor: "Buyers with smaller hands wanting a highly rated, compact, non-split option",
   },
   {
@@ -132,13 +126,12 @@ export const products: GuideProduct[] = [
     reviews: "489 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41Qw9A3JiYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D3HG7XZL?tag=deskfinds0d-20",
-    description:
-      "A foldable keyboard with a solid verified review base, its smaller folded footprint may appeal to smaller-handed buyers who also want a keyboard usable across tablets, phones, and laptops. It is not purpose-built for small hand dimensions specifically, so verify current buyer feedback on modifier key reach before assuming it solves the reach concerns this guide focuses on.\n\nGiven the genuine niche nature of small-hand-focused ergonomic keyboards, treat this as a reasonable secondary option rather than a dedicated fit, and compare against the genuinely split Arteck and Nulea picks above if split ergonomic benefit matters more to you.",
-    specs: ["Foldable design for iPad, iPhone, tablet, and laptop", "Solid verified review base", "Compact folded footprint", "Standard keycap size and spacing"],
-    pros: ["Strong verified review base for a portable keyboard", "Works across tablets, phones, and laptops", "Compact folded footprint", "Reasonable mid-range price"],
-    cons: ["Not purpose-built specifically for small hands", "Verify modifier key reach comfort in buyer feedback", "Genuine niche category with limited dedicated options overall"],
+    description: "A foldable keyboard with a solid verified review base, its smaller folded footprint may appeal to smaller-handed buyers who also want a keyboard usable across tablets, phones, and laptops. It is not purpose-built for small hand dimensions specifically, so verify current buyer feedback on modifier key reach before assuming it solves the reach concerns this guide focuses on.\n\nRanked just behind Perixx PERIDUO-606II 2-in-1 Wireless Compact Ergonomic Keyboard, it's priced lower than Perixx PERIDUO-606II 2-in-1 Wireless Compact Ergonomic Keyboard. The real tradeoff against that pick: Not purpose-built specifically for small hands. In exchange, it offers this instead: Strong verified review base for a portable keyboard. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Works across tablets, phones, and laptops. On the other side, Genuine niche category with limited dedicated options overall. That's the main tradeoff to weigh against everything above.",
+    specs: ["Foldable design for iPad, iPhone, tablet, and laptop","Solid verified review base","Compact folded footprint","Standard keycap size and spacing"],
+    pros: ["Strong verified review base for a portable keyboard","Works across tablets, phones, and laptops","Compact folded footprint","Reasonable mid-range price"],
+    cons: ["Not purpose-built specifically for small hands","Verify modifier key reach comfort in buyer feedback","Genuine niche category with limited dedicated options overall"],
     bestFor: "Buyers with smaller hands who also want a foldable keyboard for tablet or travel use",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -152,35 +145,113 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Split-Gap Minimum Width Matters for Shoulder Width",
-    note: "Fully split keyboards have a minimum gap between the halves that isn't always narrow enough for a smaller shoulder width, verify this measurement on the current listing rather than assuming any split keyboard will comfortably narrow enough.",
+    "subheading": "By Layout Type",
+    "note": "Every pick in this specific comparison uses a similar layout approach; check the product names above for the exact curve, split, or angle."
   },
   {
-    subheading: "This Is a Genuine Niche with Limited Options",
-    note: "There aren't many ergonomic keyboards purpose-built specifically for smaller hands, we're being upfront that this guide features the closest verified fits rather than a wide selection of dedicated small-hand products.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Avoid split-gap width concerns entirely", "Logitech Wave Keys Graphite"],
-        ["Same design, different colorway", "Logitech Wave Keys Rose"],
-        ["Split benefit after verifying gap width", "Arteck Split Ergonomic 2.4G"],
-        ["Budget split option, verify gap width first", "Nulea Split Ergonomic"],
-        ["Multi-device, avoid split-gap concerns", "Arteck Cushioned Palm Multi-Device"],
-        ["Highest rated, compact, non-split", "Perixx PERIDUO-606II"],
-        ["Foldable, usable across tablet and laptop", "ProtoArc XK03 Foldable"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $55",
+          "Nulea Wireless Ergonomic Keyboard"
+        ],
+        [
+          "Mid-range",
+          "Arteck Ergonomic Keyboard with Cushioned Wrist Palm Rest"
+        ],
+        [
+          "No firm budget ceiling, prioritizing switch quality or ergonomics",
+          "Perixx PERIDUO-606II 2-in-1 Wireless Compact Ergonomic Keyboard"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Wired vs Wireless",
+    "cards": [
+      {
+        "label": "Wired",
+        "text": "Zero input latency and no battery to manage, including no backlight battery drain if illuminated. In this comparison: check each listing's connection type directly."
+      },
+      {
+        "label": "Wireless (Bluetooth/2.4GHz)",
+        "text": "Cable-free desk setup, at the cost of battery management and, for Bluetooth, potentially more input latency. In this comparison: Logitech Wave Keys Wireless Ergonomic Keyboard, Logitech Wave Keys Wireless Ergonomic Keyboard, Arteck Split Ergonomic Keyboard with Palm Rest."
+      }
+    ]
+  },
+  {
+    "subheading": "By Switch Type and Typing Feel",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Lowest cost, quiet typing",
+          "Nulea Wireless Ergonomic Keyboard"
+        ],
+        [
+          "Tactile feedback, lighter actuation force",
+          "Perixx PERIDUO-606II 2-in-1 Wireless Compact Ergonomic Keyboard"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Wrist Pain or Carpal Tunnel Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine split or vertical layout (not just a curved surface), a negative tilt option or naturally downward-sloping design, and an included wrist rest sized for your hand."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Logitech Wave Keys Wireless Ergonomic Keyboard fits this specifically: No split-gap minimum width to worry about."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Perixx PERIDUO-606II 2-in-1 Wireless Compact Ergonomic Keyboard offers: Highest rating of any pick in this guide. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Nulea Wireless Ergonomic Keyboard already covers the essentials: Lower price than other split picks in this guide. The main thing you'd be paying extra for elsewhere in this list is adjustability you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Check reach to modifier keys, not just overall shape", explanation: "A curved or split label doesn't guarantee comfortable modifier key reach for smaller hands, check specific buyer feedback from smaller-handed users." },
-  { criterion: "Verify the split-gap minimum width against your shoulder width", explanation: "Fully split keyboards have a fixed minimum gap that isn't always narrow enough for smaller shoulder widths, check the current listing's measurement before buying." },
-  { criterion: "Consider keycap size and spacing, not just board width", explanation: "Keycap dimensions affect comfortable reach for smaller fingers independently of overall board width, worth checking both factors." },
-  { criterion: "Accept this is a niche category with limited dedicated options", explanation: "There aren't many purpose-built small-hand ergonomic keyboards, treat this guide's picks as the closest verified fits rather than an extensive dedicated selection." },
+  {
+    "criterion": "Understand what split, curved, and vertical layouts each actually change about your hand position",
+    "explanation": "A curved keyboard bends the key rows into an arc that reduces how far your fingers reach across the board but keeps both hands in a fixed relative position, a split keyboard physically separates the two halves so each hand and wrist can angle independently to a more natural position, and a fully vertical keyboard rotates the hands toward a handshake-like orientation that reduces forearm rotation (pronation) more aggressively than either curved or split designs.\n\nThese are meaningfully different interventions, not just cosmetic variations on the same idea, and the amount of adjustment period and the specific relief they provide differs: a curved board requires almost no adaptation, a split board requires learning a new hand spacing, and a vertical board requires the most significant adaptation period but addresses forearm rotation most directly.\n\nIf a specific pain type (wrist deviation, forearm rotation, shoulder width) has been identified, match the layout type to that specific issue rather than assuming any keyboard labeled \"ergonomic\" addresses the same problem."
+  },
+  {
+    "criterion": "Check the key switch type, since it affects both typing feel and finger force required",
+    "explanation": "Ergonomic keyboards commonly use one of three switch technologies: membrane (a soft rubber dome under each key, quiet and inexpensive but requiring the key to bottom out fully to register), scissor or low-profile (a shorter, more stable keystroke similar to a laptop keyboard), or mechanical (an individual physical switch per key with more configurable actuation force and travel distance, generally louder but often preferred for tactile feedback and reduced bottoming-out force).\n\nThis matters for anyone with existing wrist or finger strain specifically because mechanical switches can be selected for lighter actuation force, requiring less pressure to register a keystroke than a standard membrane keyboard, a genuine factor in repetitive strain rather than just a preference for typing feel.\n\nIf finger fatigue or strain is a specific concern, check for stated actuation force (measured in grams) rather than assuming all keyboards require the same finger pressure to type."
+  },
+  {
+    "criterion": "Confirm wireless connection type matches your actual devices, and know the battery tradeoffs",
+    "explanation": "Wireless ergonomic keyboards connect via Bluetooth (works with virtually any modern device without a dongle, but can have more noticeable input latency and reconnection delay), a dedicated 2.4GHz USB receiver (generally lower latency and more reliable than Bluetooth, but requires a free USB port and the receiver can be lost), or wired USB (zero latency and no battery to manage, but no cable-free movement).\n\nMulti-device Bluetooth models that support pairing with several devices and switching between them are a genuine convenience for anyone alternating between a work laptop and a personal computer, but this feature isn't universal even among Bluetooth keyboards.\n\nCheck the specific connection type and, for wireless models, confirm multi-device pairing support explicitly if you need to switch between more than one computer regularly, and factor in that backlit wireless models draw more power and need more frequent charging than non-backlit equivalents."
+  },
+  {
+    "criterion": "Check for a negative tilt option and separate wrist rest, since flat isn't always neutral",
+    "explanation": "A truly neutral wrist position during typing involves the hands tilting slightly downward from the wrist toward the keys (negative tilt), which is the opposite of the upward tilt most standard and even many \"ergonomic\" keyboards default to with their built-in feet, and only some ergonomic models offer an actual negative-tilt adjustment or come with a design that achieves this angle by default.\n\nA separate, adequately sized wrist rest matters independently of the keyboard's own tilt, since resting the wrist (not just the palm) on a support surface during typing reduces the upward bend at the wrist that a raised keyboard back otherwise creates.\n\nCheck specifically for a stated negative tilt option or a naturally downward-sloping design, and confirm whether a wrist rest is included versus needing to be purchased separately, rather than assuming any \"ergonomic\" label includes proper tilt geometry."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, since some ergonomic keyboards share variants with different genuine track records",
+    "explanation": "Ergonomic keyboards, especially from smaller brands, are frequently sold in multiple color or configuration variants that share the same underlying design and sometimes the same pooled review history despite being technically separate listings, which can make one specific variant's review count look artificially large or, conversely, leave a genuinely new design with almost no independent track record despite looking similar to an established model.\n\nA keyboard central to your daily work deserves a design with genuinely substantial, focused review history behind it, not just a plausible-looking rating built on a thin or shared sample.\n\nWhen comparing keyboards, especially similarly-designed variants from the same brand, check both the star rating and the review count together, and read a handful of reviews to confirm they describe the exact variant you're considering."
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "9,553 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41MgdS5CMFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075GZVD4T?tag=deskfinds0d-20",
-    description:
-      "Verified at $44.99, well under the $100 ceiling, this genuinely split, fixed-angle keyboard carries the largest verified review base among the picks in this guide. Expect a normal one-to-two-week adjustment period if you're new to split layouts, a real transition rather than a product flaw.\n\nIts wired connection removes battery management from the equation, and build materials reflect this accessible price point, basic but functional for a first ergonomic keyboard purchase.",
-    specs: ["Verified price $44.99, well under $100", "Genuine split, fixed-angle layout", "Padded wrist rest included", "Largest verified review base of any pick here"],
-    pros: ["Verified genuinely under $100", "Largest verified review base in this guide", "Genuine split design, not a one-piece shape", "No battery to manage"],
-    cons: ["Basic build materials at this price", "Fixed split angle, not tenting-adjustable", "Check current listing for specific warranty length"],
+    description: "Verified at $44.99, well under the $100 ceiling, this genuinely split, fixed-angle keyboard carries the largest verified review base among the picks in this guide. Expect a normal one-to-two-week adjustment period if you're new to split layouts, a real transition rather than a product flaw.\n\nIt earns the top spot in this comparison over Logitech Wave Keys Wireless Ergonomic Keyboard for one main reason. Verified genuinely under $100. On price, it comes in below Logitech Wave Keys Wireless Ergonomic Keyboard, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Largest verified review base in this guide. On the other side, Check current listing for specific warranty length. That's the main tradeoff to weigh against everything above.",
+    specs: ["Verified price $44.99, well under $100","Genuine split, fixed-angle layout","Padded wrist rest included","Largest verified review base of any pick here"],
+    pros: ["Verified genuinely under $100","Largest verified review base in this guide","Genuine split design, not a one-piece shape","No battery to manage"],
+    cons: ["Basic build materials at this price","Fixed split angle, not tenting-adjustable","Check current listing for specific warranty length"],
     bestFor: "First-time buyers wanting a verified genuine split keyboard well under $100",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "2,972 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/4114VdW9JcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BTNY72VD?tag=deskfinds0d-20",
-    description:
-      "Verified at $59.99, a one-piece wave-shaped keyboard offering a gentler introduction to ergonomic typing than a fully split design, with a much shorter adjustment period as a result. Its wireless connection and solid review base make it a reasonable low-commitment first purchase under $100.\n\nAs a one-piece design, its ergonomic benefit is more modest than a true split, worth knowing this tradeoff going in rather than expecting split-level benefit at this design tier.",
-    specs: ["Verified price $59.99, under $100", "One-piece wave-shaped frame", "Cushioned attached palm rest", "Minimal adjustment period"],
-    pros: ["Verified genuinely under $100", "Minimal adjustment period versus a true split", "Solid review base", "Reliable multi-device wireless"],
-    cons: ["Less ergonomic benefit than a true split design", "Cannot be positioned shoulder-width apart", "Check current listing for specific warranty length"],
+    description: "Verified at $59.99, a one-piece wave-shaped keyboard offering a gentler introduction to ergonomic typing than a fully split design, with a much shorter adjustment period as a result. Its wireless connection and solid review base make it a reasonable low-commitment first purchase under $100.\n\nOne spot below Perixx PERIBOARD-512B Wired Ergonomic Keyboard in this ranking, it costs more than Perixx PERIBOARD-512B Wired Ergonomic Keyboard. The compromise here is straightforward: Less ergonomic benefit than a true split design. What you gain in return: Verified genuinely under $100. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Minimal adjustment period versus a true split. On the other side, Check current listing for specific warranty length. That's the main tradeoff to weigh against everything above.",
+    specs: ["Verified price $59.99, under $100","One-piece wave-shaped frame","Cushioned attached palm rest","Minimal adjustment period"],
+    pros: ["Verified genuinely under $100","Minimal adjustment period versus a true split","Solid review base","Reliable multi-device wireless"],
+    cons: ["Less ergonomic benefit than a true split design","Cannot be positioned shoulder-width apart","Check current listing for specific warranty length"],
     bestFor: "First-time buyers wanting a gentle, low-commitment introduction to ergonomic typing under $100",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "1,624 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41O4m5cUOVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BKKYRQ31?tag=deskfinds0d-20",
-    description:
-      "Verified at $54.99, a genuinely split, angled keyboard connecting over a stable 2.4G receiver, well under the $100 ceiling. Its built-in cushioned palm rest is included at no extra cost, and its genuine split layout means expecting a real adjustment period rather than the shorter one-piece transition.\n\nAs with any true split keyboard, its fixed split angle offers less tenting adjustability than premium options above the $100 mark.",
-    specs: ["Verified price $54.99, under $100", "Genuine split, angled layout", "Built-in cushioned palm rest", "2.4G USB wireless receiver"],
-    pros: ["Verified genuinely under $100", "Genuine split design with wireless convenience", "Built-in palm rest, no extra purchase", "Stable 2.4G connection"],
-    cons: ["Fixed split angle, not tenting-adjustable", "Genuine adjustment period expected for new split users", "Check current listing for specific warranty length"],
+    description: "Verified at $54.99, a genuinely split, angled keyboard connecting over a stable 2.4G receiver, well under the $100 ceiling. Its built-in cushioned palm rest is included at no extra cost, and its genuine split layout means expecting a real adjustment period rather than the shorter one-piece transition.\n\nSitting just under Logitech Wave Keys Wireless Ergonomic Keyboard, it's priced lower than Logitech Wave Keys Wireless Ergonomic Keyboard. Here's the honest tradeoff: Fixed split angle, not tenting-adjustable. And here's what it gets you instead: Verified genuinely under $100. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Genuine split design with wireless convenience. On the other side, Check current listing for specific warranty length. That's the main tradeoff to weigh against everything above.",
+    specs: ["Verified price $54.99, under $100","Genuine split, angled layout","Built-in cushioned palm rest","2.4G USB wireless receiver"],
+    pros: ["Verified genuinely under $100","Genuine split design with wireless convenience","Built-in palm rest, no extra purchase","Stable 2.4G connection"],
+    cons: ["Fixed split angle, not tenting-adjustable","Genuine adjustment period expected for new split users","Check current listing for specific warranty length"],
     bestFor: "Buyers wanting a verified genuine split, wireless keyboard under $100",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "1,166 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51mIgAEAexL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CGL8X4H6?tag=deskfinds0d-20",
-    description:
-      "Verified at $53.99, a genuinely split, backlit keyboard well under $100, its wired connection removes any backlight battery-life tradeoff entirely. Its built-in cushioned palm rest is included at this price, no separate purchase required.\n\nAs a genuine split design, expect the same one-to-two-week adjustment period as other true split picks in this guide, a normal transition rather than a flaw.",
-    specs: ["Verified price $53.99, under $100", "Genuine split, angled layout", "Backlit keys, wired power", "Built-in cushioned palm rest"],
-    pros: ["Verified genuinely under $100", "Genuine split design with backlighting included", "No backlight battery-life tradeoff since it's wired", "Built-in palm rest, no extra purchase"],
-    cons: ["Genuine adjustment period expected for new split users", "Fixed split angle, not tenting-adjustable", "Check current listing for specific warranty length"],
+    description: "Verified at $53.99, a genuinely split, backlit keyboard well under $100, its wired connection removes any backlight battery-life tradeoff entirely. Its built-in cushioned palm rest is included at this price, no separate purchase required.\n\nRanked just behind Arteck Split Ergonomic Keyboard with Palm Rest, it's priced lower than Arteck Split Ergonomic Keyboard with Palm Rest. The real tradeoff against that pick: Genuine adjustment period expected for new split users. In exchange, it offers this instead: Verified genuinely under $100. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Genuine split design with backlighting included. On the other side, Check current listing for specific warranty length. That's the main tradeoff to weigh against everything above.",
+    specs: ["Verified price $53.99, under $100","Genuine split, angled layout","Backlit keys, wired power","Built-in cushioned palm rest"],
+    pros: ["Verified genuinely under $100","Genuine split design with backlighting included","No backlight battery-life tradeoff since it's wired","Built-in palm rest, no extra purchase"],
+    cons: ["Genuine adjustment period expected for new split users","Fixed split angle, not tenting-adjustable","Check current listing for specific warranty length"],
     bestFor: "Buyers wanting backlit keys alongside a verified genuine split design under $100",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "872 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31nNQhQDCpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZ6DR13F?tag=deskfinds0d-20",
-    description:
-      "Verified at $76.99, a matched wireless ergonomic keyboard and mouse combo, the highest price in this guide but still comfortably under the $100 ceiling for both devices together. Solid verified review base for a combo product at this price point.\n\nVerify the current listing for single-dongle versus dual-dongle wireless architecture, and check specific warranty terms for both devices before purchase.",
-    specs: ["Verified price $76.99, under $100 for keyboard and mouse together", "Wireless ergonomic keyboard and mouse combo", "Solid verified review base", "Matched ergonomic design"],
-    pros: ["Verified genuinely under $100 for both devices", "Matched keyboard and mouse in one purchase", "Solid review base", "Ergonomic design across both peripherals"],
-    cons: ["Highest price in this guide, though still under $100", "Verify single vs dual dongle architecture on current listing", "Check current listing for specific warranty terms"],
+    description: "Verified at $76.99, a matched wireless ergonomic keyboard and mouse combo, the highest price in this guide but still comfortably under the $100 ceiling for both devices together. Solid verified review base for a combo product at this price point.\n\nOne spot below Arteck Split Ergonomic Keyboard with Palm Rest in this ranking, it costs more than Arteck Split Ergonomic Keyboard with Palm Rest. The compromise here is straightforward: Highest price in this guide, though still under $100. What you gain in return: Verified genuinely under $100 for both devices. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Matched keyboard and mouse in one purchase. On the other side, Check current listing for specific warranty terms. That's the main tradeoff to weigh against everything above.",
+    specs: ["Verified price $76.99, under $100 for keyboard and mouse together","Wireless ergonomic keyboard and mouse combo","Solid verified review base","Matched ergonomic design"],
+    pros: ["Verified genuinely under $100 for both devices","Matched keyboard and mouse in one purchase","Solid review base","Ergonomic design across both peripherals"],
+    cons: ["Highest price in this guide, though still under $100","Verify single vs dual dongle architecture on current listing","Check current listing for specific warranty terms"],
     bestFor: "Buyers wanting a matched keyboard and mouse combo while staying under a $100 total budget",
   },
   {
@@ -115,11 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "1,141 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41LVGOn5JLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08G1WNS6F?tag=deskfinds0d-20",
-    description:
-      "Verified at $29.99, one of the lowest prices in this guide, a one-piece curved keyboard rather than a genuine split design, worth being direct about that tradeoff at this price. Its high rating relative to price is a reasonable signal for a low-risk first purchase.\n\nIts wired connection removes battery management from the equation, and as with any one-piece design under $100, expect a shorter adjustment period than the genuine split picks above, at the cost of less ergonomic benefit.",
-    specs: ["Verified price $29.99, well under $100", "One-piece curved ergonomic frame", "Wired USB connection", "Full-size layout"],
-    pros: ["Verified genuinely under $100, one of the lowest prices here", "High rating relative to price", "No battery to manage", "Minimal adjustment period versus a true split"],
-    cons: ["One-piece shape, not a true split design", "Basic build materials at this price", "Check current listing for specific warranty length"],
+    description: "Verified at $29.99, one of the lowest prices in this guide, a one-piece curved keyboard rather than a genuine split design, worth being direct about that tradeoff at this price. Its high rating relative to price is a reasonable signal for a low-risk first purchase.\n\nSitting just under ProtoArc EKM01 Plus Wireless Ergonomic Keyboard Mouse Combo, it's priced lower than ProtoArc EKM01 Plus Wireless Ergonomic Keyboard Mouse Combo. Here's the honest tradeoff: One-piece shape, not a true split design. And here's what it gets you instead: Verified genuinely under $100, one of the lowest prices here. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: High rating relative to price. On the other side, Check current listing for specific warranty length. That's the main tradeoff to weigh against everything above.",
+    specs: ["Verified price $29.99, well under $100","One-piece curved ergonomic frame","Wired USB connection","Full-size layout"],
+    pros: ["Verified genuinely under $100, one of the lowest prices here","High rating relative to price","No battery to manage","Minimal adjustment period versus a true split"],
+    cons: ["One-piece shape, not a true split design","Basic build materials at this price","Check current listing for specific warranty length"],
     bestFor: "First-time buyers wanting the lowest-cost entry point under $100",
   },
   {
@@ -132,11 +126,10 @@ export const products: GuideProduct[] = [
     reviews: "280 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/419u8a5c96L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DMDJB6G2?tag=deskfinds0d-20",
-    description:
-      "Verified at $29.98, nearly identical in price to the X9 pick above but with an attached wrist rest included, a small added value at this price point. As with the X9, this is a one-piece design rather than genuine split, verify your ergonomic expectations against what this price tier actually delivers.\n\nIts smaller verified review base than the split picks in this guide means less long-term reliability data, worth checking current buyer feedback for durability signals.",
-    specs: ["Verified price $29.98, well under $100", "Attached wrist rest", "Wired USB connection", "Curved ergonomic layout"],
-    pros: ["Verified genuinely under $100", "Attached wrist rest included at a low price", "No battery to manage", "Simple plug-and-play setup"],
-    cons: ["One-piece shape, not a true split design", "Smaller verified review base than other picks here", "Check current listing for specific warranty length"],
+    description: "Verified at $29.98, nearly identical in price to the X9 pick above but with an attached wrist rest included, a small added value at this price point. As with the X9, this is a one-piece design rather than genuine split, verify your ergonomic expectations against what this price tier actually delivers.\n\nRanked just behind X9 Wired Ergonomic Keyboard, it's priced lower than X9 Wired Ergonomic Keyboard. The real tradeoff against that pick: One-piece shape, not a true split design. In exchange, it offers this instead: Verified genuinely under $100. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Attached wrist rest included at a low price. On the other side, Check current listing for specific warranty length. That's the main tradeoff to weigh against everything above.",
+    specs: ["Verified price $29.98, well under $100","Attached wrist rest","Wired USB connection","Curved ergonomic layout"],
+    pros: ["Verified genuinely under $100","Attached wrist rest included at a low price","No battery to manage","Simple plug-and-play setup"],
+    cons: ["One-piece shape, not a true split design","Smaller verified review base than other picks here","Check current listing for specific warranty length"],
     bestFor: "Budget buyers under $100 who want an included wrist rest without paying more for one",
   },
   {
@@ -149,13 +142,12 @@ export const products: GuideProduct[] = [
     reviews: "53 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41yeJ-XPp7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F66LFC8Q?tag=deskfinds0d-20",
-    description:
-      "Verified at $22.90, the single lowest price in this entire guide, a compact wired keyboard with RGB backlighting rather than a curved or split ergonomic frame. Buyers specifically seeking wrist-angle relief should treat this as a budget compact option rather than a true ergonomic pick, and compare it against the genuinely split picks above if ergonomic benefit is the priority.\n\nIts high rating relative to price and compact footprint make it a reasonable secondary keyboard for a tight desk, though it lacks the split or curved design that defines most other picks in this guide.",
-    specs: ["Verified price $22.90, lowest in this guide", "Compact mini layout", "RGB backlighting", "Wired USB connection"],
-    pros: ["Verified genuinely under $100, lowest price in this guide", "Compact footprint for tight desks", "High rating relative to price", "No battery to manage"],
-    cons: ["Flat layout, not curved or split for ergonomic relief", "Smaller verified review base than top picks here", "Limited value for genuine wrist-angle relief"],
+    description: "Verified at $22.90, the single lowest price in this entire guide, a compact wired keyboard with RGB backlighting rather than a curved or split ergonomic frame. Buyers specifically seeking wrist-angle relief should treat this as a budget compact option rather than a true ergonomic pick, and compare it against the genuinely split picks above if ergonomic benefit is the priority.\n\nOne spot below RECCAZR Ergonomic Keyboard in this ranking, it's priced lower than RECCAZR Ergonomic Keyboard. The compromise here is straightforward: Flat layout, not curved or split for ergonomic relief. What you gain in return: Verified genuinely under $100, lowest price in this guide. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Compact footprint for tight desks. On the other side, Limited value for genuine wrist-angle relief. That's the main tradeoff to weigh against everything above.",
+    specs: ["Verified price $22.90, lowest in this guide","Compact mini layout","RGB backlighting","Wired USB connection"],
+    pros: ["Verified genuinely under $100, lowest price in this guide","Compact footprint for tight desks","High rating relative to price","No battery to manage"],
+    cons: ["Flat layout, not curved or split for ergonomic relief","Smaller verified review base than top picks here","Limited value for genuine wrist-angle relief"],
     bestFor: "Budget buyers under $100 who want the lowest possible price and don't need a split or curved frame",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -169,37 +161,124 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Prices Verified at Time of Writing, Always Double-Check",
-    note: "Keyboard pricing shifts often enough that we recommend confirming the live price on the current listing before purchase, rather than assuming the prices verified here hold indefinitely.",
-  },
-  {
-    subheading: "Genuine Split Options Do Exist Under $100",
-    note: "Unlike some price ceilings where variety is limited, several genuinely split, tented options are verified under $100 in this guide, alongside one-piece designs. Decide which design tier matters more to you rather than assuming this price point is dominated by only one-piece keyboards.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Most reviewed genuine split option under $100", "Perixx PERIBOARD-512B"],
-        ["Gentlest adjustment period under $100", "Logitech Wave Keys Graphite"],
-        ["Genuine split, wireless under $100", "Arteck Split Ergonomic 2.4G"],
-        ["Genuine split with backlighting under $100", "Arteck Split Wired Backlit"],
-        ["Matched combo under $100 total", "ProtoArc EKM01 Plus Combo"],
-        ["Lowest-price one-piece option", "X9 Wired Ergonomic Keyboard"],
-        ["Included wrist rest at a low price", "RECCAZR Wired Wrist Rest"],
-        ["Absolute lowest price in this guide", "Wired RGB Gaming Membrane Mini"],
+    "subheading": "By Layout Type",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Minimal adjustment period",
+          "X9 Wired Ergonomic Keyboard"
+        ],
+        [
+          "Independent hand and wrist angling",
+          "Perixx PERIBOARD-512B Wired Ergonomic Keyboard"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick in this comparison"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "Wired RGB Gaming Membrane Keyboard"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "Perixx PERIBOARD-512B Wired Ergonomic Keyboard"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Wired vs Wireless",
+    "cards": [
+      {
+        "label": "Wired",
+        "text": "Zero input latency and no battery to manage, including no backlight battery drain if illuminated. In this comparison: Perixx PERIBOARD-512B Wired Ergonomic Keyboard, Arteck Split Ergonomic Keyboard with Palm Rest, X9 Wired Ergonomic Keyboard."
+      },
+      {
+        "label": "Wireless (Bluetooth/2.4GHz)",
+        "text": "Cable-free desk setup, at the cost of battery management and, for Bluetooth, potentially more input latency. In this comparison: Logitech Wave Keys Wireless Ergonomic Keyboard, Arteck Split Ergonomic Keyboard with Palm Rest, ProtoArc EKM01 Plus Wireless Ergonomic Keyboard Mouse Combo."
+      }
+    ]
+  },
+  {
+    "subheading": "By Switch Type and Typing Feel",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Lowest cost, quiet typing",
+          "Wired RGB Gaming Membrane Keyboard"
+        ],
+        [
+          "Tactile feedback, lighter actuation force",
+          "ProtoArc EKM01 Plus Wireless Ergonomic Keyboard Mouse Combo"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Wrist Pain or Carpal Tunnel Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine split or vertical layout (not just a curved surface), a negative tilt option or naturally downward-sloping design, and an included wrist rest sized for your hand."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Perixx PERIBOARD-512B Wired Ergonomic Keyboard fits this specifically: Verified genuinely under $100."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what ProtoArc EKM01 Plus Wireless Ergonomic Keyboard Mouse Combo offers: Verified genuinely under $100 for both devices. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Wired RGB Gaming Membrane Keyboard already covers the essentials: Verified genuinely under $100, lowest price in this guide. The main thing you'd be paying extra for elsewhere in this list is adjustability you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Always double-check the live price before buying", explanation: "Keyboard pricing shifts often, the prices verified in this guide were accurate at time of writing but should be confirmed on the current listing." },
-  { criterion: "Verify whether a genuine split design exists at this price", explanation: "Several picks in this guide are genuinely split under $100, don't assume this price ceiling is dominated only by one-piece designs." },
-  { criterion: "Set modest durability expectations at this price tier", explanation: "Build quality under sustained daily use is more likely compromised than a premium option, check recent buyer feedback for durability signals." },
-  { criterion: "Expect a genuine adjustment period on split layouts", explanation: "Typing speed commonly dips for one to two weeks after switching to a genuine split layout, a normal transition rather than a sign of a bad purchase." },
-  { criterion: "Check warranty length directly on the current listing", explanation: "Warranty terms vary meaningfully at this price tier, verify the specific listing rather than assuming a standard warranty length across all under-$100 options." },
+  {
+    "criterion": "Understand what split, curved, and vertical layouts each actually change about your hand position",
+    "explanation": "A curved keyboard bends the key rows into an arc that reduces how far your fingers reach across the board but keeps both hands in a fixed relative position, a split keyboard physically separates the two halves so each hand and wrist can angle independently to a more natural position, and a fully vertical keyboard rotates the hands toward a handshake-like orientation that reduces forearm rotation (pronation) more aggressively than either curved or split designs.\n\nThese are meaningfully different interventions, not just cosmetic variations on the same idea, and the amount of adjustment period and the specific relief they provide differs: a curved board requires almost no adaptation, a split board requires learning a new hand spacing, and a vertical board requires the most significant adaptation period but addresses forearm rotation most directly.\n\nIf a specific pain type (wrist deviation, forearm rotation, shoulder width) has been identified, match the layout type to that specific issue rather than assuming any keyboard labeled \"ergonomic\" addresses the same problem."
+  },
+  {
+    "criterion": "Check the key switch type, since it affects both typing feel and finger force required",
+    "explanation": "Ergonomic keyboards commonly use one of three switch technologies: membrane (a soft rubber dome under each key, quiet and inexpensive but requiring the key to bottom out fully to register), scissor or low-profile (a shorter, more stable keystroke similar to a laptop keyboard), or mechanical (an individual physical switch per key with more configurable actuation force and travel distance, generally louder but often preferred for tactile feedback and reduced bottoming-out force).\n\nThis matters for anyone with existing wrist or finger strain specifically because mechanical switches can be selected for lighter actuation force, requiring less pressure to register a keystroke than a standard membrane keyboard, a genuine factor in repetitive strain rather than just a preference for typing feel.\n\nIf finger fatigue or strain is a specific concern, check for stated actuation force (measured in grams) rather than assuming all keyboards require the same finger pressure to type."
+  },
+  {
+    "criterion": "Confirm wireless connection type matches your actual devices, and know the battery tradeoffs",
+    "explanation": "Wireless ergonomic keyboards connect via Bluetooth (works with virtually any modern device without a dongle, but can have more noticeable input latency and reconnection delay), a dedicated 2.4GHz USB receiver (generally lower latency and more reliable than Bluetooth, but requires a free USB port and the receiver can be lost), or wired USB (zero latency and no battery to manage, but no cable-free movement).\n\nMulti-device Bluetooth models that support pairing with several devices and switching between them are a genuine convenience for anyone alternating between a work laptop and a personal computer, but this feature isn't universal even among Bluetooth keyboards.\n\nCheck the specific connection type and, for wireless models, confirm multi-device pairing support explicitly if you need to switch between more than one computer regularly, and factor in that backlit wireless models draw more power and need more frequent charging than non-backlit equivalents."
+  },
+  {
+    "criterion": "Check for a negative tilt option and separate wrist rest, since flat isn't always neutral",
+    "explanation": "A truly neutral wrist position during typing involves the hands tilting slightly downward from the wrist toward the keys (negative tilt), which is the opposite of the upward tilt most standard and even many \"ergonomic\" keyboards default to with their built-in feet, and only some ergonomic models offer an actual negative-tilt adjustment or come with a design that achieves this angle by default.\n\nA separate, adequately sized wrist rest matters independently of the keyboard's own tilt, since resting the wrist (not just the palm) on a support surface during typing reduces the upward bend at the wrist that a raised keyboard back otherwise creates.\n\nCheck specifically for a stated negative tilt option or a naturally downward-sloping design, and confirm whether a wrist rest is included versus needing to be purchased separately, rather than assuming any \"ergonomic\" label includes proper tilt geometry."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, since some ergonomic keyboards share variants with different genuine track records",
+    "explanation": "Ergonomic keyboards, especially from smaller brands, are frequently sold in multiple color or configuration variants that share the same underlying design and sometimes the same pooled review history despite being technically separate listings, which can make one specific variant's review count look artificially large or, conversely, leave a genuinely new design with almost no independent track record despite looking similar to an established model.\n\nA keyboard central to your daily work deserves a design with genuinely substantial, focused review history behind it, not just a plausible-looking rating built on a thin or shared sample.\n\nWhen comparing keyboards, especially similarly-designed variants from the same brand, check both the star rating and the review count together, and read a handful of reviews to confirm they describe the exact variant you're considering."
+  }
 ];
 
 export const faq: FaqItem[] = [

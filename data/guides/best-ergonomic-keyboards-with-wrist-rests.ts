@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "7,992 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41EsewSK2nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZWK2TQT?tag=deskfinds0d-20",
-    description:
-      "Its dense foam wrist rest is built into the frame rather than detachable, sized specifically for the curved split layout, and its largest verified review base among the picks here reflects consistent buyer satisfaction with the rest's comfort. Remember to hover your wrists while actively typing and rest them here only during pauses for the intended benefit.\n\nBecause the rest is integrated rather than detachable, it can't be removed or swapped if your preference changes, worth weighing against the detachable options later in this guide.",
-    specs: ["Built-in, non-removable dense foam wrist rest", "Sized specifically for the curved split frame", "Largest verified review base here", "Bluetooth or USB receiver"],
-    pros: ["Largest verified review base in this guide", "Wrist rest sized precisely for this keyboard's width", "Dense foam material for sustained comfort", "No separate rest purchase needed"],
-    cons: ["Built-in rest can't be removed or swapped", "Highest price in this guide", "Foam material breathability not independently verified"],
+    description: "Its dense foam wrist rest is built into the frame rather than detachable, sized specifically for the curved split layout, and its largest verified review base among the picks here reflects consistent buyer satisfaction with the rest's comfort. Remember to hover your wrists while actively typing and rest them here only during pauses for the intended benefit.\n\nIt earns the top spot in this comparison over Perixx PERIBOARD-512B Wired Ergonomic Keyboard for one main reason. Largest verified review base in this guide. On price, it's actually priced above Perixx PERIBOARD-512B Wired Ergonomic Keyboard, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Wrist rest sized precisely for this keyboard's width. On the other side, Foam material breathability not independently verified. That's the main tradeoff to weigh against everything above.",
+    specs: ["Built-in, non-removable dense foam wrist rest","Sized specifically for the curved split frame","Largest verified review base here","Bluetooth or USB receiver"],
+    pros: ["Largest verified review base in this guide","Wrist rest sized precisely for this keyboard's width","Dense foam material for sustained comfort","No separate rest purchase needed"],
+    cons: ["Built-in rest can't be removed or swapped","Highest price in this guide","Foam material breathability not independently verified"],
     bestFor: "Buyers who want an integrated wrist rest sized specifically for a split, curved layout",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "9,553 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41MgdS5CMFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075GZVD4T?tag=deskfinds0d-20",
-    description:
-      "A padded wrist rest at the lowest price in this guide, with the largest verified review base of any pick here. Verify the current listing for whether the padding is detachable for cleaning or replacement, and check that its length adequately spans this keyboard's split, angled width.\n\nAs with every pick in this guide, use the rest only during pauses between typing bursts, not as a continuous support while actively typing.",
-    specs: ["Padded wrist rest", "Fixed-angle split layout", "Largest verified review base of any pick here", "Wired USB connection"],
-    pros: ["Lowest price of any pick in this guide", "Largest verified review base here", "No battery to manage", "True split, angled layout"],
-    cons: ["Verify whether the padding is detachable on current listing", "Basic build materials at this price", "Rest material breathability not independently verified"],
+    description: "A padded wrist rest at the lowest price in this guide, with the largest verified review base of any pick here. Verify the current listing for whether the padding is detachable for cleaning or replacement, and check that its length adequately spans this keyboard's split, angled width.\n\nOne spot below Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest in this ranking, it's priced lower than Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest. The compromise here is straightforward: Verify whether the padding is detachable on current listing. What you gain in return: Lowest price of any pick in this guide. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Largest verified review base here. On the other side, Rest material breathability not independently verified. That's the main tradeoff to weigh against everything above.",
+    specs: ["Padded wrist rest","Fixed-angle split layout","Largest verified review base of any pick here","Wired USB connection"],
+    pros: ["Lowest price of any pick in this guide","Largest verified review base here","No battery to manage","True split, angled layout"],
+    cons: ["Verify whether the padding is detachable on current listing","Basic build materials at this price","Rest material breathability not independently verified"],
     bestFor: "Budget-conscious buyers who want a padded wrist rest at the lowest price here",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "2,972 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/4114VdW9JcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BTNY72VD?tag=deskfinds0d-20",
-    description:
-      "A cushioned palm rest attached to the front edge of a one-piece wave frame, offering a gentler introduction than a fully split keyboard's wrist rest setup. Its rest is sized proportionally to the compact wave frame, verify current listings for whether it's detachable if cleaning or replacement matters to you.\n\nAgain, the correct usage habit applies here too, hover while actively typing and rest during pauses only.",
-    specs: ["Cushioned attached palm rest", "One-piece wave frame", "Bluetooth or USB receiver", "Minimal adjustment period"],
-    pros: ["Low-commitment entry point with attached rest included", "Minimal adjustment period versus a true split", "Solid review base", "Reliable multi-device wireless"],
-    cons: ["Rest sized for the compact wave frame, not adjustable", "Verify detachability on current listing", "Less ergonomic benefit than a true split design"],
+    description: "A cushioned palm rest attached to the front edge of a one-piece wave frame, offering a gentler introduction than a fully split keyboard's wrist rest setup. Its rest is sized proportionally to the compact wave frame, verify current listings for whether it's detachable if cleaning or replacement matters to you.\n\nSitting just under Perixx PERIBOARD-512B Wired Ergonomic Keyboard, it costs more than Perixx PERIBOARD-512B Wired Ergonomic Keyboard. Here's the honest tradeoff: Rest sized for the compact wave frame, not adjustable. And here's what it gets you instead: Low-commitment entry point with attached rest included. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Minimal adjustment period versus a true split. On the other side, Less ergonomic benefit than a true split design. That's the main tradeoff to weigh against everything above.",
+    specs: ["Cushioned attached palm rest","One-piece wave frame","Bluetooth or USB receiver","Minimal adjustment period"],
+    pros: ["Low-commitment entry point with attached rest included","Minimal adjustment period versus a true split","Solid review base","Reliable multi-device wireless"],
+    cons: ["Rest sized for the compact wave frame, not adjustable","Verify detachability on current listing","Less ergonomic benefit than a true split design"],
     bestFor: "First-time buyers who want a simple attached wrist rest without a true split's learning curve",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "1,624 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41O4m5cUOVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BKKYRQ31?tag=deskfinds0d-20",
-    description:
-      "A built-in cushioned wrist and palm rest paired with a true split, angled layout, connecting over a stable 2.4G receiver. Verify the current listing for rest length relative to this keyboard's split width, since a too-short rest can leave part of a wide split frame unsupported.\n\nIts mid-range price and solid review base make it a reasonable middle option between the budget and premium wrist-rest picks in this guide.",
-    specs: ["Cushioned wrist and palm rest", "Split, angled key layout", "2.4G USB wireless receiver", "Verify rest length against split width"],
-    pros: ["Built-in cushioned rest, no extra purchase", "True split, angled layout", "Stable 2.4G connection", "Mid-range price for the design"],
-    cons: ["Verify rest length adequately spans the split width", "Fixed split angle, not tenting-adjustable", "Rest material breathability not independently verified"],
+    description: "A built-in cushioned wrist and palm rest paired with a true split, angled layout, connecting over a stable 2.4G receiver. Verify the current listing for rest length relative to this keyboard's split width, since a too-short rest can leave part of a wide split frame unsupported.\n\nRanked just behind Logitech Wave Keys Wireless Ergonomic Keyboard, it's priced lower than Logitech Wave Keys Wireless Ergonomic Keyboard. The real tradeoff against that pick: Verify rest length adequately spans the split width. In exchange, it offers this instead: Built-in cushioned rest, no extra purchase. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: True split, angled layout. On the other side, Rest material breathability not independently verified. That's the main tradeoff to weigh against everything above.",
+    specs: ["Cushioned wrist and palm rest","Split, angled key layout","2.4G USB wireless receiver","Verify rest length against split width"],
+    pros: ["Built-in cushioned rest, no extra purchase","True split, angled layout","Stable 2.4G connection","Mid-range price for the design"],
+    cons: ["Verify rest length adequately spans the split width","Fixed split angle, not tenting-adjustable","Rest material breathability not independently verified"],
     bestFor: "Buyers who want a cushioned rest paired with a genuinely split, wireless keyboard",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "541 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41M-dFoGk+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1TLPDWT?tag=deskfinds0d-20",
-    description:
-      "A cushioned wrist rest paired with a genuinely split layout at a budget-friendly price point, positioned between the Perixx and Arteck picks above. Verify the current listing for detachability and rest length against the split width before assuming it fits your keyboard's full span.\n\nAs with every pick in this guide, hover your wrists while actively typing and use the rest only during pauses for the intended comfort benefit.",
-    specs: ["Cushioned wrist rest", "Split layout", "Wireless connectivity", "Budget-friendly price point"],
-    pros: ["Lower price than the Arteck split pick", "Cushioned wrist rest included", "True split ergonomic layout", "Solid review base"],
-    cons: ["Verify rest length against the split width on current listing", "Verify detachability if cleaning or replacement matters", "Fixed split angle, not tenting-adjustable"],
+    description: "A cushioned wrist rest paired with a genuinely split layout at a budget-friendly price point, positioned between the Perixx and Arteck picks above. Verify the current listing for detachability and rest length against the split width before assuming it fits your keyboard's full span.\n\nOne spot below Arteck Split Ergonomic Keyboard with Palm Rest in this ranking, it's priced lower than Arteck Split Ergonomic Keyboard with Palm Rest. The compromise here is straightforward: Verify rest length against the split width on current listing. What you gain in return: Lower price than the Arteck split pick. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Cushioned wrist rest included. On the other side, Fixed split angle, not tenting-adjustable. That's the main tradeoff to weigh against everything above.",
+    specs: ["Cushioned wrist rest","Split layout","Wireless connectivity","Budget-friendly price point"],
+    pros: ["Lower price than the Arteck split pick","Cushioned wrist rest included","True split ergonomic layout","Solid review base"],
+    cons: ["Verify rest length against the split width on current listing","Verify detachability if cleaning or replacement matters","Fixed split angle, not tenting-adjustable"],
     bestFor: "Budget-conscious buyers wanting a genuinely split keyboard with a cushioned rest included",
   },
   {
@@ -115,11 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "1,166 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51mIgAEAexL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CGL8X4H6?tag=deskfinds0d-20",
-    description:
-      "A built-in cushioned palm rest paired with a split, backlit layout, connecting over wired USB rather than the 2.4G receiver on the other Arteck pick in this guide. Verify current listings for rest length relative to this keyboard's split width, the same consideration that applies to any wide split frame.\n\nAs with every pick here, hover your wrists while actively typing and use the rest only during pauses, backlighting doesn't change the correct usage habit.",
-    specs: ["Cushioned wrist and palm rest", "Split, angled key layout", "Backlit keys", "Wired USB connection"],
-    pros: ["Built-in cushioned rest, no extra purchase", "True split, angled layout", "Backlit keys for low-light use", "No battery to manage"],
-    cons: ["Verify rest length adequately spans the split width", "Fixed split angle, not tenting-adjustable", "Rest material breathability not independently verified"],
+    description: "A built-in cushioned palm rest paired with a split, backlit layout, connecting over wired USB rather than the 2.4G receiver on the other Arteck pick in this guide. Verify current listings for rest length relative to this keyboard's split width, the same consideration that applies to any wide split frame.\n\nSitting just under Nulea Wireless Ergonomic Keyboard, it costs more than Nulea Wireless Ergonomic Keyboard. Here's the honest tradeoff: Verify rest length adequately spans the split width. And here's what it gets you instead: Built-in cushioned rest, no extra purchase. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: True split, angled layout. On the other side, Rest material breathability not independently verified. That's the main tradeoff to weigh against everything above.",
+    specs: ["Cushioned wrist and palm rest","Split, angled key layout","Backlit keys","Wired USB connection"],
+    pros: ["Built-in cushioned rest, no extra purchase","True split, angled layout","Backlit keys for low-light use","No battery to manage"],
+    cons: ["Verify rest length adequately spans the split width","Fixed split angle, not tenting-adjustable","Rest material breathability not independently verified"],
     bestFor: "Buyers who want a cushioned rest paired with a backlit, wired split keyboard",
   },
   {
@@ -132,11 +126,10 @@ export const products: GuideProduct[] = [
     reviews: "280 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/419u8a5c96L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DMDJB6G2?tag=deskfinds0d-20",
-    description:
-      "An attached wrist rest at the lowest price in this guide, plugging in over a single wired USB cable with no battery to manage. Verify the current listing for whether the rest is detachable for cleaning, and check its length against the keyboard's own width before assuming full support.\n\nAs with every pick here, hover your wrists while actively typing and rest them only during pauses, correct usage matters more than which specific rest you choose.",
-    specs: ["Attached wrist rest", "Wired USB connection", "Curved ergonomic layout", "Lowest price in this guide"],
-    pros: ["Lowest price of any pick in this guide", "Attached wrist rest included", "No battery to manage", "Simple plug-and-play setup"],
-    cons: ["Smaller verified review base than other picks here", "Verify detachability on current listing", "Basic build materials at this price"],
+    description: "An attached wrist rest at the lowest price in this guide, plugging in over a single wired USB cable with no battery to manage. Verify the current listing for whether the rest is detachable for cleaning, and check its length against the keyboard's own width before assuming full support.\n\nRanked just behind Arteck Split Ergonomic Keyboard with Palm Rest, it's priced lower than Arteck Split Ergonomic Keyboard with Palm Rest. The real tradeoff against that pick: Smaller verified review base than other picks here. In exchange, it offers this instead: Lowest price of any pick in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Attached wrist rest included. On the other side, Basic build materials at this price. That's the main tradeoff to weigh against everything above.",
+    specs: ["Attached wrist rest","Wired USB connection","Curved ergonomic layout","Lowest price in this guide"],
+    pros: ["Lowest price of any pick in this guide","Attached wrist rest included","No battery to manage","Simple plug-and-play setup"],
+    cons: ["Smaller verified review base than other picks here","Verify detachability on current listing","Basic build materials at this price"],
     bestFor: "Budget-conscious buyers who want the lowest-cost attached wrist rest option",
   },
   {
@@ -149,13 +142,12 @@ export const products: GuideProduct[] = [
     reviews: "21 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41kuxYbya+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GXKJWH2H?tag=deskfinds0d-20",
-    description:
-      "A backlit keyboard with an attached wrist rest at a low price, drawing illumination power directly from the USB port so there's no battery-life tradeoff from the backlighting. Its rating and review base are both notably lower than the other picks in this guide, worth treating as a lighter-weight signal until more buyer feedback accumulates.\n\nAs with the RECCAZR pick above, verify current listings for rest detachability and length against the keyboard's width, and remember to hover while actively typing regardless of which rest you choose.",
-    specs: ["Attached wrist rest", "Backlit keys, wired power (no battery drain)", "Curved ergonomic layout", "Budget price point"],
-    pros: ["No battery-life tradeoff since it's wired", "Attached wrist rest included", "Budget price point", "Backlit keys for low-light typing"],
-    cons: ["Lowest rating among picks in this guide", "Smallest verified review base here", "Verify detachability on current listing"],
+    description: "A backlit keyboard with an attached wrist rest at a low price, drawing illumination power directly from the USB port so there's no battery-life tradeoff from the backlighting. Its rating and review base are both notably lower than the other picks in this guide, worth treating as a lighter-weight signal until more buyer feedback accumulates.\n\nOne spot below RECCAZR Ergonomic Keyboard in this ranking, it costs more than RECCAZR Ergonomic Keyboard. The compromise here is straightforward: Lowest rating among picks in this guide. What you gain in return: No battery-life tradeoff since it's wired. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Attached wrist rest included. On the other side, Verify detachability on current listing. That's the main tradeoff to weigh against everything above.",
+    specs: ["Attached wrist rest","Backlit keys, wired power (no battery drain)","Curved ergonomic layout","Budget price point"],
+    pros: ["No battery-life tradeoff since it's wired","Attached wrist rest included","Budget price point","Backlit keys for low-light typing"],
+    cons: ["Lowest rating among picks in this guide","Smallest verified review base here","Verify detachability on current listing"],
     bestFor: "Budget buyers who want a backlit keyboard with an attached wrist rest, aware of its limited review history",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -169,37 +161,128 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Hover While Typing, Rest Only During Pauses",
-    note: "This is the single most important habit correction in this category, most ergonomic guidance recommends hovering your wrists while actively typing and resting them on the pad only during pauses. Continuous resting while typing can increase pressure rather than relieve it, regardless of which keyboard's rest you're using.",
-  },
-  {
-    subheading: "Built-In vs. Detachable Rests",
-    note: "A built-in rest is sized precisely for its keyboard but can't be removed or swapped, while a detachable rest allows cleaning, replacement, or complete removal if your approach changes. Neither is universally better, decide based on whether long-term flexibility or a precisely matched fit matters more to you.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Integrated rest sized precisely for a split layout", "Logitech Ergo K860"],
-        ["Lowest-cost padded rest with a split layout", "Perixx PERIBOARD-512B"],
-        ["Simple attached rest, low commitment", "Logitech Wave Keys Graphite"],
-        ["Cushioned rest with a stable wireless split", "Arteck Split Ergonomic 2.4G"],
-        ["Budget split with a cushioned rest", "Nulea Split Ergonomic"],
-        ["Backlit split rest, wired", "Arteck Split Wired Backlit"],
-        ["Lowest price, attached rest", "RECCAZR Wired Wrist Rest"],
-        ["Backlit, budget attached rest", "MEETION Wired Backlit Wrist Rest"],
+    "subheading": "By Layout Type",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Minimal adjustment period",
+          "RECCAZR Ergonomic Keyboard"
+        ],
+        [
+          "Independent hand and wrist angling",
+          "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $36",
+          "RECCAZR Ergonomic Keyboard"
+        ],
+        [
+          "Mid-range",
+          "Arteck Split Ergonomic Keyboard with Palm Rest"
+        ],
+        [
+          "No firm budget ceiling, prioritizing switch quality or ergonomics",
+          "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Wired vs Wireless",
+    "cards": [
+      {
+        "label": "Wired",
+        "text": "Zero input latency and no battery to manage, including no backlight battery drain if illuminated. In this comparison: Perixx PERIBOARD-512B Wired Ergonomic Keyboard, Arteck Split Ergonomic Keyboard with Palm Rest, RECCAZR Ergonomic Keyboard."
+      },
+      {
+        "label": "Wireless (Bluetooth/2.4GHz)",
+        "text": "Cable-free desk setup, at the cost of battery management and, for Bluetooth, potentially more input latency. In this comparison: Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest, Logitech Wave Keys Wireless Ergonomic Keyboard, Arteck Split Ergonomic Keyboard with Palm Rest."
+      }
+    ]
+  },
+  {
+    "subheading": "By Switch Type and Typing Feel",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Lowest cost, quiet typing",
+          "RECCAZR Ergonomic Keyboard"
+        ],
+        [
+          "Tactile feedback, lighter actuation force",
+          "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Wrist Pain or Carpal Tunnel Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine split or vertical layout (not just a curved surface), a negative tilt option or naturally downward-sloping design, and an included wrist rest sized for your hand."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest fits this specifically: Largest verified review base in this guide."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest offers: Largest verified review base in this guide. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "RECCAZR Ergonomic Keyboard already covers the essentials: Lowest price of any pick in this guide. The main thing you'd be paying extra for elsewhere in this list is adjustability you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Hover while typing, rest only during pauses", explanation: "Continuous resting on the wrist pad while actively typing can increase strain rather than relieve it, correct usage matters as much as which rest you choose." },
-  { criterion: "Compare firmness and angle as real specs", explanation: "Wrist rest firmness and angle genuinely differ between models, treat this as a comparison point, not a single pass/fail checkbox." },
-  { criterion: "Decide between built-in and detachable designs", explanation: "A built-in rest fits its keyboard precisely but can't be swapped, a detachable rest allows cleaning or replacement, weigh which matters more for your long-term use." },
-  { criterion: "Check rest material for breathability where knowable", explanation: "Memory foam, gel, and plastic differ in comfort and heat buildup during long sessions, verify current buyer feedback if this matters to you." },
-  { criterion: "Verify rest length against the keyboard's own width", explanation: "A too-short rest can leave part of a wide split keyboard unsupported, check this specifically rather than assuming any 'included wrist rest' spans the full width." },
+  {
+    "criterion": "Understand what split, curved, and vertical layouts each actually change about your hand position",
+    "explanation": "A curved keyboard bends the key rows into an arc that reduces how far your fingers reach across the board but keeps both hands in a fixed relative position, a split keyboard physically separates the two halves so each hand and wrist can angle independently to a more natural position, and a fully vertical keyboard rotates the hands toward a handshake-like orientation that reduces forearm rotation (pronation) more aggressively than either curved or split designs.\n\nThese are meaningfully different interventions, not just cosmetic variations on the same idea, and the amount of adjustment period and the specific relief they provide differs: a curved board requires almost no adaptation, a split board requires learning a new hand spacing, and a vertical board requires the most significant adaptation period but addresses forearm rotation most directly.\n\nIf a specific pain type (wrist deviation, forearm rotation, shoulder width) has been identified, match the layout type to that specific issue rather than assuming any keyboard labeled \"ergonomic\" addresses the same problem."
+  },
+  {
+    "criterion": "Check the key switch type, since it affects both typing feel and finger force required",
+    "explanation": "Ergonomic keyboards commonly use one of three switch technologies: membrane (a soft rubber dome under each key, quiet and inexpensive but requiring the key to bottom out fully to register), scissor or low-profile (a shorter, more stable keystroke similar to a laptop keyboard), or mechanical (an individual physical switch per key with more configurable actuation force and travel distance, generally louder but often preferred for tactile feedback and reduced bottoming-out force).\n\nThis matters for anyone with existing wrist or finger strain specifically because mechanical switches can be selected for lighter actuation force, requiring less pressure to register a keystroke than a standard membrane keyboard, a genuine factor in repetitive strain rather than just a preference for typing feel.\n\nIf finger fatigue or strain is a specific concern, check for stated actuation force (measured in grams) rather than assuming all keyboards require the same finger pressure to type."
+  },
+  {
+    "criterion": "Confirm wireless connection type matches your actual devices, and know the battery tradeoffs",
+    "explanation": "Wireless ergonomic keyboards connect via Bluetooth (works with virtually any modern device without a dongle, but can have more noticeable input latency and reconnection delay), a dedicated 2.4GHz USB receiver (generally lower latency and more reliable than Bluetooth, but requires a free USB port and the receiver can be lost), or wired USB (zero latency and no battery to manage, but no cable-free movement).\n\nMulti-device Bluetooth models that support pairing with several devices and switching between them are a genuine convenience for anyone alternating between a work laptop and a personal computer, but this feature isn't universal even among Bluetooth keyboards.\n\nCheck the specific connection type and, for wireless models, confirm multi-device pairing support explicitly if you need to switch between more than one computer regularly, and factor in that backlit wireless models draw more power and need more frequent charging than non-backlit equivalents."
+  },
+  {
+    "criterion": "Check for a negative tilt option and separate wrist rest, since flat isn't always neutral",
+    "explanation": "A truly neutral wrist position during typing involves the hands tilting slightly downward from the wrist toward the keys (negative tilt), which is the opposite of the upward tilt most standard and even many \"ergonomic\" keyboards default to with their built-in feet, and only some ergonomic models offer an actual negative-tilt adjustment or come with a design that achieves this angle by default.\n\nA separate, adequately sized wrist rest matters independently of the keyboard's own tilt, since resting the wrist (not just the palm) on a support surface during typing reduces the upward bend at the wrist that a raised keyboard back otherwise creates.\n\nCheck specifically for a stated negative tilt option or a naturally downward-sloping design, and confirm whether a wrist rest is included versus needing to be purchased separately, rather than assuming any \"ergonomic\" label includes proper tilt geometry."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, since some ergonomic keyboards share variants with different genuine track records",
+    "explanation": "Ergonomic keyboards, especially from smaller brands, are frequently sold in multiple color or configuration variants that share the same underlying design and sometimes the same pooled review history despite being technically separate listings, which can make one specific variant's review count look artificially large or, conversely, leave a genuinely new design with almost no independent track record despite looking similar to an established model.\n\nA keyboard central to your daily work deserves a design with genuinely substantial, focused review history behind it, not just a plausible-looking rating built on a thin or shared sample.\n\nWhen comparing keyboards, especially similarly-designed variants from the same brand, check both the star rating and the review count together, and read a handful of reviews to confirm they describe the exact variant you're considering."
+  }
 ];
 
 export const faq: FaqItem[] = [

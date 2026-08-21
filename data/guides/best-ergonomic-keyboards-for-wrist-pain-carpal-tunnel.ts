@@ -50,26 +50,10 @@ export const products: GuideProduct[] = [
     reviews: "Not yet rated",
     imageUrl: "https://m.media-amazon.com/images/I/41EsewSK2nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZWK2TQT?tag=deskfinds0d-20",
-    description:
-      "The Ergo K860 uses a curved split layout with a negative tilt, meaning the front of the keyboard sits higher than the back, which keeps your wrists closer to a neutral, straight position instead of bending them upward the way a traditional flat keyboard does. That negative tilt is one of the most consistently cited design features for reducing wrist extension during long typing sessions.\n\nIt ships with a dense foam wrist rest built into the frame, and the whole unit connects over Bluetooth or a USB receiver so it works across multiple devices. It is a true split shape rather than a one-piece wave, so the two halves are angled outward but not separable, a middle ground between a flat keyboard and a fully independent split.",
-    specs: [
-      "Curved split layout with negative tilt",
-      "Integrated dense foam wrist rest",
-      "Bluetooth or USB Logi Bolt receiver",
-      "Multi-device switching",
-      "Rechargeable battery",
-    ],
-    pros: [
-      "Negative tilt keeps wrists in a straighter typing position",
-      "Built-in wrist rest sized for the curved layout",
-      "Works across multiple paired devices",
-      "Widely available replacement/compatible parts",
-    ],
-    cons: [
-      "Not a true separable split keyboard",
-      "Curved layout has a short adjustment period",
-      "Premium price versus a basic wave keyboard",
-    ],
+    description: "The Ergo K860 uses a curved split layout with a negative tilt, meaning the front of the keyboard sits higher than the back, which keeps your wrists closer to a neutral, straight position instead of bending them upward the way a traditional flat keyboard does. That negative tilt is one of the most consistently cited design features for reducing wrist extension during long typing sessions.\n\nIt earns the top spot in this comparison over Logitech Wave Keys Wireless Ergonomic Keyboard for one main reason. Negative tilt keeps wrists in a straighter typing position. On price, it's actually priced above Logitech Wave Keys Wireless Ergonomic Keyboard, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Built-in wrist rest sized for the curved layout. On the other side, Premium price versus a basic wave keyboard. That's the main tradeoff to weigh against everything above.",
+    specs: ["Curved split layout with negative tilt","Integrated dense foam wrist rest","Bluetooth or USB Logi Bolt receiver","Multi-device switching","Rechargeable battery"],
+    pros: ["Negative tilt keeps wrists in a straighter typing position","Built-in wrist rest sized for the curved layout","Works across multiple paired devices","Widely available replacement/compatible parts"],
+    cons: ["Not a true separable split keyboard","Curved layout has a short adjustment period","Premium price versus a basic wave keyboard"],
     bestFor: "Buyers who want the strongest negative-tilt design without a fully separable split",
   },
   {
@@ -82,26 +66,10 @@ export const products: GuideProduct[] = [
     reviews: "Not yet rated",
     imageUrl: "https://m.media-amazon.com/images/I/4114VdW9JcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BTNY72VD?tag=deskfinds0d-20",
-    description:
-      "Wave Keys uses a single-piece wave-shaped frame rather than a true split, so there is far less adjustment period than a separable ergonomic keyboard while still introducing a gentle wave curve and negative tilt to the typing surface. It is a reasonable first step for someone who wants to try ergonomic typing without committing to a steep learning curve.\n\nA cushioned palm rest is attached to the front edge, and the keyboard runs on Bluetooth or a USB receiver with a battery rated for extended use between charges. Because it is one solid piece, it cannot be positioned shoulder-width apart the way a true split keyboard can, which caps how much it can reduce shoulder and forearm rotation compared to the split picks in this list.",
-    specs: [
-      "One-piece wave-shaped frame",
-      "Cushioned attached palm rest",
-      "Bluetooth or USB receiver",
-      "Extended battery life",
-      "Compact wave curve, not a true split",
-    ],
-    pros: [
-      "Low-cost, low-commitment entry point into ergonomic typing",
-      "Minimal adjustment period versus a true split layout",
-      "Attached palm rest needs no separate purchase",
-      "Reliable multi-device wireless connection",
-    ],
-    cons: [
-      "Cannot be separated for shoulder-width positioning",
-      "Less pronounced ergonomic benefit than a true split",
-      "Palm rest is fixed, not adjustable",
-    ],
+    description: "Wave Keys uses a single-piece wave-shaped frame rather than a true split, so there is far less adjustment period than a separable ergonomic keyboard while still introducing a gentle wave curve and negative tilt to the typing surface. It is a reasonable first step for someone who wants to try ergonomic typing without committing to a steep learning curve.\n\nOne spot below Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest in this ranking, it's priced lower than Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest. The compromise here is straightforward: Cannot be separated for shoulder-width positioning. What you gain in return: Low-cost, low-commitment entry point into ergonomic typing. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Minimal adjustment period versus a true split layout. On the other side, Palm rest is fixed, not adjustable. That's the main tradeoff to weigh against everything above.",
+    specs: ["One-piece wave-shaped frame","Cushioned attached palm rest","Bluetooth or USB receiver","Extended battery life","Compact wave curve, not a true split"],
+    pros: ["Low-cost, low-commitment entry point into ergonomic typing","Minimal adjustment period versus a true split layout","Attached palm rest needs no separate purchase","Reliable multi-device wireless connection"],
+    cons: ["Cannot be separated for shoulder-width positioning","Less pronounced ergonomic benefit than a true split","Palm rest is fixed, not adjustable"],
     bestFor: "First-time buyers who want a gentle, low-effort introduction to ergonomic typing",
   },
   {
@@ -114,26 +82,10 @@ export const products: GuideProduct[] = [
     reviews: "Not yet rated",
     imageUrl: "https://m.media-amazon.com/images/I/41-HdWjXFRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B083XT2WWD?tag=deskfinds0d-20",
-    description:
-      "This bundle pairs the same curved, negative-tilt Ergo K860 with the MX Vertical, a mouse angled at 57 degrees to keep the forearm in a handshake position instead of rotated flat. That matters because wrist strain often comes from mouse use as much as, or more than, keyboard use, and pairing an ergonomic keyboard with a standard flat mouse leaves half the problem unaddressed.\n\nBoth devices connect wirelessly and can pair to the same receiver setup, giving you a matched ergonomic pair out of the box rather than having to research and buy a compatible mouse separately. It is the highest-priced pick here, but it solves the keyboard-and-mouse gap in one purchase.",
-    specs: [
-      "Ergo K860 curved split keyboard with wrist rest",
-      "MX Vertical mouse at 57-degree angle",
-      "Wireless pairing for both devices",
-      "Rechargeable mouse battery",
-      "Matched ergonomic keyboard and mouse set",
-    ],
-    pros: [
-      "Addresses both keyboard and mouse wrist strain together",
-      "Vertical mouse angle reduces forearm rotation",
-      "No separate research needed to find a compatible mouse",
-      "Same negative-tilt keyboard benefits as the standalone K860",
-    ],
-    cons: [
-      "Highest price in this list",
-      "Vertical mouse has its own adjustment period",
-      "Bulkier combined footprint on a small desk",
-    ],
+    description: "This bundle pairs the same curved, negative-tilt Ergo K860 with the MX Vertical, a mouse angled at 57 degrees to keep the forearm in a handshake position instead of rotated flat. That matters because wrist strain often comes from mouse use as much as, or more than, keyboard use, and pairing an ergonomic keyboard with a standard flat mouse leaves half the problem unaddressed.\n\nSitting just under Logitech Wave Keys Wireless Ergonomic Keyboard, it costs more than Logitech Wave Keys Wireless Ergonomic Keyboard. Here's the honest tradeoff: Highest price in this list. And here's what it gets you instead: Addresses both keyboard and mouse wrist strain together. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Vertical mouse angle reduces forearm rotation. On the other side, Bulkier combined footprint on a small desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["Ergo K860 curved split keyboard with wrist rest","MX Vertical mouse at 57-degree angle","Wireless pairing for both devices","Rechargeable mouse battery","Matched ergonomic keyboard and mouse set"],
+    pros: ["Addresses both keyboard and mouse wrist strain together","Vertical mouse angle reduces forearm rotation","No separate research needed to find a compatible mouse","Same negative-tilt keyboard benefits as the standalone K860"],
+    cons: ["Highest price in this list","Vertical mouse has its own adjustment period","Bulkier combined footprint on a small desk"],
     bestFor: "Buyers who know mouse grip is part of their wrist strain, not just the keyboard",
   },
   {
@@ -146,26 +98,10 @@ export const products: GuideProduct[] = [
     reviews: "Not yet rated",
     imageUrl: "https://m.media-amazon.com/images/I/41MgdS5CMFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075GZVD4T?tag=deskfinds0d-20",
-    description:
-      "The PERIBOARD-512B is a wired split keyboard with an angled key layout and a padded wrist rest, and it is the most affordable true split option in this list. Because it is wired, there is no battery to manage and no wireless dropout risk, which some buyers prefer for an all-day desk setup.\n\nThe split angle is fixed rather than adjustable, so it delivers a more neutral wrist position than a flat keyboard but not the fully customizable tenting some premium split keyboards offer. At this price it is a practical way to test whether a split layout helps before spending more on an adjustable model.",
-    specs: [
-      "Wired USB connection",
-      "Fixed-angle split layout",
-      "Padded wrist rest included",
-      "Natural typing curve",
-      "No battery or pairing required",
-    ],
-    pros: [
-      "Lowest price of any true split keyboard here",
-      "No battery to charge or replace",
-      "Padded wrist rest included in the box",
-      "Simple plug-and-play wired setup",
-    ],
-    cons: [
-      "Split angle is fixed, not adjustable",
-      "Wired cable limits desk placement flexibility",
-      "Build materials are basic at this price point",
-    ],
+    description: "The PERIBOARD-512B is a wired split keyboard with an angled key layout and a padded wrist rest, and it is the most affordable true split option in this list. Because it is wired, there is no battery to manage and no wireless dropout risk, which some buyers prefer for an all-day desk setup.\n\nRanked just behind Logitech Ergo K860 Wireless Ergonomic Keyboard with Wrist Rest and MX Vertical Wireless Mouse, it's priced lower than Logitech Ergo K860 Wireless Ergonomic Keyboard with Wrist Rest and MX Vertical Wireless Mouse. The real tradeoff against that pick: Split angle is fixed, not adjustable. In exchange, it offers this instead: Lowest price of any true split keyboard here. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: No battery to charge or replace. On the other side, Build materials are basic at this price point. That's the main tradeoff to weigh against everything above.",
+    specs: ["Wired USB connection","Fixed-angle split layout","Padded wrist rest included","Natural typing curve","No battery or pairing required"],
+    pros: ["Lowest price of any true split keyboard here","No battery to charge or replace","Padded wrist rest included in the box","Simple plug-and-play wired setup"],
+    cons: ["Split angle is fixed, not adjustable","Wired cable limits desk placement flexibility","Build materials are basic at this price point"],
     bestFor: "Budget-conscious buyers who want to try a true split layout risk-free",
   },
   {
@@ -178,26 +114,10 @@ export const products: GuideProduct[] = [
     reviews: "Not yet rated",
     imageUrl: "https://m.media-amazon.com/images/I/41t-gi6gelL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVQ99JB5?tag=deskfinds0d-20",
-    description:
-      "This is the same Wave Keys wave-shaped, negative-tilt design as the Graphite model above, offered in a lighter Sand colorway with the same cushioned palm rest built into the front edge. If the entry-level wave layout fits your needs but graphite does not match your desk setup, this variant covers the same ergonomic ground with a different finish.\n\nLike the Graphite version, it is a one-piece frame rather than a separable split, so the ergonomic benefit comes mainly from the wave curve and reduced tilt angle rather than shoulder-width positioning.",
-    specs: [
-      "One-piece wave-shaped frame",
-      "Sand colorway with cushioned palm rest",
-      "Bluetooth or USB receiver",
-      "Extended battery life",
-      "Same negative-tilt design as the Graphite model",
-    ],
-    pros: [
-      "Identical ergonomic benefit to the Graphite Wave Keys",
-      "Lighter colorway for brighter desk setups",
-      "Low adjustment period",
-      "Attached, no-assembly palm rest",
-    ],
-    cons: [
-      "Cannot be separated for shoulder-width positioning",
-      "Lighter finish may show wear more visibly",
-      "Same capped ergonomic benefit as any single-piece wave design",
-    ],
+    description: "This is the same Wave Keys wave-shaped, negative-tilt design as the Graphite model above, offered in a lighter Sand colorway with the same cushioned palm rest built into the front edge. If the entry-level wave layout fits your needs but graphite does not match your desk setup, this variant covers the same ergonomic ground with a different finish.\n\nOne spot below Perixx PERIBOARD-512B Wired Ergonomic Split Keyboard with Wrist Rest in this ranking, it costs more than Perixx PERIBOARD-512B Wired Ergonomic Split Keyboard with Wrist Rest. The compromise here is straightforward: Cannot be separated for shoulder-width positioning. What you gain in return: Identical ergonomic benefit to the Graphite Wave Keys. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Lighter colorway for brighter desk setups. On the other side, Same capped ergonomic benefit as any single-piece wave design. That's the main tradeoff to weigh against everything above.",
+    specs: ["One-piece wave-shaped frame","Sand colorway with cushioned palm rest","Bluetooth or USB receiver","Extended battery life","Same negative-tilt design as the Graphite model"],
+    pros: ["Identical ergonomic benefit to the Graphite Wave Keys","Lighter colorway for brighter desk setups","Low adjustment period","Attached, no-assembly palm rest"],
+    cons: ["Cannot be separated for shoulder-width positioning","Lighter finish may show wear more visibly","Same capped ergonomic benefit as any single-piece wave design"],
     bestFor: "Buyers who want the Wave Keys experience in a lighter finish",
   },
   {
@@ -210,26 +130,10 @@ export const products: GuideProduct[] = [
     reviews: "Not yet rated",
     imageUrl: "https://m.media-amazon.com/images/I/41O4m5cUOVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BKKYRQ31?tag=deskfinds0d-20",
-    description:
-      "The Arteck combines a split, angled key layout with a cushioned wrist and palm rest built into the frame, connecting over a 2.4G wireless receiver rather than Bluetooth. That receiver choice tends to give a more consistent connection than Bluetooth in offices with a lot of competing wireless devices.\n\nIts fixed split angle sits between the compact wave keyboards and the fully separable premium splits in this list, giving a noticeably more neutral wrist posture than a flat keyboard at a mid-range price.",
-    specs: [
-      "Split, angled key layout",
-      "Cushioned wrist and palm rest",
-      "2.4G USB wireless receiver",
-      "Compatible with Windows desktop and laptop",
-      "Compact wireless dongle storage",
-    ],
-    pros: [
-      "2.4G connection is more stable than Bluetooth in crowded offices",
-      "Built-in cushioned rest needs no separate purchase",
-      "Mid-range price for a true split layout",
-      "Simple wireless setup with a single receiver",
-    ],
-    cons: [
-      "Split angle is fixed, not tenting-adjustable",
-      "Windows-focused compatibility",
-      "Receiver can be misplaced since it is a separate small dongle",
-    ],
+    description: "The Arteck combines a split, angled key layout with a cushioned wrist and palm rest built into the frame, connecting over a 2.4G wireless receiver rather than Bluetooth. That receiver choice tends to give a more consistent connection than Bluetooth in offices with a lot of competing wireless devices.\n\nSitting just under Logitech Wave Keys Wireless Ergonomic Keyboard with Cushioned Palm Rest, it's priced lower than Logitech Wave Keys Wireless Ergonomic Keyboard with Cushioned Palm Rest. Here's the honest tradeoff: Split angle is fixed, not tenting-adjustable. And here's what it gets you instead: 2.4G connection is more stable than Bluetooth in crowded offices. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Built-in cushioned rest needs no separate purchase. On the other side, Receiver can be misplaced since it is a separate small dongle. That's the main tradeoff to weigh against everything above.",
+    specs: ["Split, angled key layout","Cushioned wrist and palm rest","2.4G USB wireless receiver","Compatible with Windows desktop and laptop","Compact wireless dongle storage"],
+    pros: ["2.4G connection is more stable than Bluetooth in crowded offices","Built-in cushioned rest needs no separate purchase","Mid-range price for a true split layout","Simple wireless setup with a single receiver"],
+    cons: ["Split angle is fixed, not tenting-adjustable","Windows-focused compatibility","Receiver can be misplaced since it is a separate small dongle"],
     bestFor: "Buyers who want a stable 2.4G wireless connection over Bluetooth",
   },
   {
@@ -242,26 +146,10 @@ export const products: GuideProduct[] = [
     reviews: "Not yet rated",
     imageUrl: "https://m.media-amazon.com/images/I/31NAjc93zoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B688M8MW?tag=deskfinds0d-20",
-    description:
-      "This bundle pairs the Ergo K860 with the Lift, a smaller vertical mouse angled at 57 degrees but built for a more compact hand size and desk footprint than the MX Vertical. Both connect over Bluetooth or Logi Bolt, and the vertical grip keeps the forearm from rotating flat the way a standard mouse forces it to.\n\nFor buyers with smaller hands, Lift's reduced size can feel more natural during long sessions than a full-size vertical mouse, while still delivering the same wrist-neutral angle as the larger option.",
-    specs: [
-      "Ergo K860 curved split keyboard with wrist rest",
-      "Lift vertical mouse at 57-degree angle",
-      "Bluetooth or Logi Bolt USB receiver",
-      "Compact mouse size for smaller hands",
-      "Quiet click buttons",
-    ],
-    pros: [
-      "Compact vertical mouse suits smaller hand sizes",
-      "Addresses both keyboard and mouse wrist strain",
-      "Quiet clicks reduce noise in shared spaces",
-      "Flexible Bluetooth or receiver pairing",
-    ],
-    cons: [
-      "Still a premium combined price",
-      "Vertical mouse angle needs an adjustment period",
-      "Smaller mouse body may not suit larger hands",
-    ],
+    description: "This bundle pairs the Ergo K860 with the Lift, a smaller vertical mouse angled at 57 degrees but built for a more compact hand size and desk footprint than the MX Vertical. Both connect over Bluetooth or Logi Bolt, and the vertical grip keeps the forearm from rotating flat the way a standard mouse forces it to.\n\nRanked just behind Arteck Split Ergonomic Keyboard with Cushioned Wrist and Palm Rest, it costs more than Arteck Split Ergonomic Keyboard with Cushioned Wrist and Palm Rest. The real tradeoff against that pick: Still a premium combined price. In exchange, it offers this instead: Compact vertical mouse suits smaller hand sizes. That's the swap that decides whether this pick or the one above it is the better fit for your hands and setup.\n\nWorth knowing before you decide: Addresses both keyboard and mouse wrist strain. On the other side, Smaller mouse body may not suit larger hands. That's the main tradeoff to weigh against everything above.",
+    specs: ["Ergo K860 curved split keyboard with wrist rest","Lift vertical mouse at 57-degree angle","Bluetooth or Logi Bolt USB receiver","Compact mouse size for smaller hands","Quiet click buttons"],
+    pros: ["Compact vertical mouse suits smaller hand sizes","Addresses both keyboard and mouse wrist strain","Quiet clicks reduce noise in shared spaces","Flexible Bluetooth or receiver pairing"],
+    cons: ["Still a premium combined price","Vertical mouse angle needs an adjustment period","Smaller mouse body may not suit larger hands"],
     bestFor: "Buyers with smaller hands who still want a matched vertical mouse and keyboard set",
   },
   {
@@ -274,28 +162,12 @@ export const products: GuideProduct[] = [
     reviews: "Not yet rated",
     imageUrl: "https://m.media-amazon.com/images/I/41UUVLpm0DL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09DKMB981?tag=deskfinds0d-20",
-    description:
-      "This Business edition of the Ergo K860 keeps the same curved, negative-tilt split layout and integrated wrist rest, packaged for IT procurement and fleet deployment rather than individual retail sale. It is a fit for an employer or office manager sourcing ergonomic keyboards for an entire team rather than a single desk.\n\nErgonomically it performs the same as the standard Ergo K860, so the choice between the two mainly comes down to purchasing and support needs rather than any difference in wrist comfort.",
-    specs: [
-      "Curved split layout with negative tilt",
-      "Integrated foam wrist rest",
-      "Business-focused packaging and support",
-      "Bluetooth or USB Logi Bolt receiver",
-      "Multi-device switching",
-    ],
-    pros: [
-      "Identical ergonomic design to the standard K860",
-      "Suited to office-wide procurement",
-      "Same negative-tilt wrist benefit",
-      "Multi-device support for shared or rotating desks",
-    ],
-    cons: [
-      "Priced above the standard retail K860 in some listings",
-      "Business packaging is unnecessary for a single home desk",
-      "No meaningful ergonomic upgrade over the standard model",
-    ],
+    description: "This Business edition of the Ergo K860 keeps the same curved, negative-tilt split layout and integrated wrist rest, packaged for IT procurement and fleet deployment rather than individual retail sale. It is a fit for an employer or office manager sourcing ergonomic keyboards for an entire team rather than a single desk.\n\nOne spot below Logitech Ergo K860 Wireless Ergonomic Keyboard and Lift Vertical Ergonomic Mouse in this ranking, it's priced lower than Logitech Ergo K860 Wireless Ergonomic Keyboard and Lift Vertical Ergonomic Mouse. The compromise here is straightforward: Priced above the standard retail K860 in some listings. What you gain in return: Identical ergonomic design to the standard K860. Whether that trade is worth it depends on which side matters more for your typing routine.\n\nWorth knowing before you decide: Suited to office-wide procurement. On the other side, No meaningful ergonomic upgrade over the standard model. That's the main tradeoff to weigh against everything above.",
+    specs: ["Curved split layout with negative tilt","Integrated foam wrist rest","Business-focused packaging and support","Bluetooth or USB Logi Bolt receiver","Multi-device switching"],
+    pros: ["Identical ergonomic design to the standard K860","Suited to office-wide procurement","Same negative-tilt wrist benefit","Multi-device support for shared or rotating desks"],
+    cons: ["Priced above the standard retail K860 in some listings","Business packaging is unnecessary for a single home desk","No meaningful ergonomic upgrade over the standard model"],
     bestFor: "Office managers sourcing ergonomic keyboards for multiple employees",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem {
@@ -328,35 +200,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "A keyboard is not a substitute for medical treatment",
-    explanation:
-      "If you already have symptoms of carpal tunnel syndrome such as pain, numbness, tingling, or weakness, please see a doctor before assuming a new keyboard will resolve it. An ergonomic keyboard is a prevention and mild-relief tool for people managing typing strain proactively, not a treatment for an existing diagnosed or suspected condition.",
+    "criterion": "Understand what split, curved, and vertical layouts each actually change about your hand position",
+    "explanation": "A curved keyboard bends the key rows into an arc that reduces how far your fingers reach across the board but keeps both hands in a fixed relative position, a split keyboard physically separates the two halves so each hand and wrist can angle independently to a more natural position, and a fully vertical keyboard rotates the hands toward a handshake-like orientation that reduces forearm rotation (pronation) more aggressively than either curved or split designs.\n\nThese are meaningfully different interventions, not just cosmetic variations on the same idea, and the amount of adjustment period and the specific relief they provide differs: a curved board requires almost no adaptation, a split board requires learning a new hand spacing, and a vertical board requires the most significant adaptation period but addresses forearm rotation most directly.\n\nIf a specific pain type (wrist deviation, forearm rotation, shoulder width) has been identified, match the layout type to that specific issue rather than assuming any keyboard labeled \"ergonomic\" addresses the same problem."
   },
   {
-    criterion: "Negative tilt matters more than the split itself",
-    explanation:
-      "A keyboard tilted with the front higher than the back keeps the wrist in a straighter position while typing, while traditional positive tilt, back higher than front, forces the wrist into extension, a known contributor to carpal tunnel pressure. Prioritize negative-tilt or flat designs over keyboards with built-in rear feet propping the back up.",
+    "criterion": "Check the key switch type, since it affects both typing feel and finger force required",
+    "explanation": "Ergonomic keyboards commonly use one of three switch technologies: membrane (a soft rubber dome under each key, quiet and inexpensive but requiring the key to bottom out fully to register), scissor or low-profile (a shorter, more stable keystroke similar to a laptop keyboard), or mechanical (an individual physical switch per key with more configurable actuation force and travel distance, generally louder but often preferred for tactile feedback and reduced bottoming-out force).\n\nThis matters for anyone with existing wrist or finger strain specifically because mechanical switches can be selected for lighter actuation force, requiring less pressure to register a keystroke than a standard membrane keyboard, a genuine factor in repetitive strain rather than just a preference for typing feel.\n\nIf finger fatigue or strain is a specific concern, check for stated actuation force (measured in grams) rather than assuming all keyboards require the same finger pressure to type."
   },
   {
-    criterion: "Use a wrist rest correctly, or skip it",
-    explanation:
-      "A wrist rest is meant to support the wrist during pauses between typing bursts, not to be leaned on continuously while actively typing. Leaning on a wrist rest while typing increases pressure on the carpal tunnel rather than relieving it, so treat it as a resting spot, not a permanent armrest.",
+    "criterion": "Confirm wireless connection type matches your actual devices, and know the battery tradeoffs",
+    "explanation": "Wireless ergonomic keyboards connect via Bluetooth (works with virtually any modern device without a dongle, but can have more noticeable input latency and reconnection delay), a dedicated 2.4GHz USB receiver (generally lower latency and more reliable than Bluetooth, but requires a free USB port and the receiver can be lost), or wired USB (zero latency and no battery to manage, but no cable-free movement).\n\nMulti-device Bluetooth models that support pairing with several devices and switching between them are a genuine convenience for anyone alternating between a work laptop and a personal computer, but this feature isn't universal even among Bluetooth keyboards.\n\nCheck the specific connection type and, for wireless models, confirm multi-device pairing support explicitly if you need to switch between more than one computer regularly, and factor in that backlit wireless models draw more power and need more frequent charging than non-backlit equivalents."
   },
   {
-    criterion: "Your mouse matters as much as your keyboard",
-    explanation:
-      "Gripping, click force, and wrist deviation from mouse use frequently contribute to wrist strain as much as or more than keyboard use. Pairing an ergonomic keyboard with a standard flat mouse leaves half the problem unaddressed, which is why several picks in this list bundle a vertical mouse.",
+    "criterion": "Check for a negative tilt option and separate wrist rest, since flat isn't always neutral",
+    "explanation": "A truly neutral wrist position during typing involves the hands tilting slightly downward from the wrist toward the keys (negative tilt), which is the opposite of the upward tilt most standard and even many \"ergonomic\" keyboards default to with their built-in feet, and only some ergonomic models offer an actual negative-tilt adjustment or come with a design that achieves this angle by default.\n\nA separate, adequately sized wrist rest matters independently of the keyboard's own tilt, since resting the wrist (not just the palm) on a support surface during typing reduces the upward bend at the wrist that a raised keyboard back otherwise creates.\n\nCheck specifically for a stated negative tilt option or a naturally downward-sloping design, and confirm whether a wrist rest is included versus needing to be purchased separately, rather than assuming any \"ergonomic\" label includes proper tilt geometry."
   },
   {
-    criterion: "Breaks matter more than keyboard choice alone",
-    explanation:
-      "Taking a 5 to 10 minute break every hour, combined with good posture, does more for wrist comfort than any single keyboard choice. Pair whichever keyboard you buy with a consistent break schedule rather than expecting the hardware alone to solve typing strain.",
-  },
-  {
-    criterion: "Expect a short adjustment period on any split or wave layout",
-    explanation:
-      "Typing speed commonly dips for the first one to two weeks after switching to a split or wave layout as your hands relearn key positions and hand placement. This is a normal part of the transition, not a sign the keyboard is wrong for you, so give it a fair trial period before switching back.",
-  },
+    "criterion": "Weigh review volume against star rating, since some ergonomic keyboards share variants with different genuine track records",
+    "explanation": "Ergonomic keyboards, especially from smaller brands, are frequently sold in multiple color or configuration variants that share the same underlying design and sometimes the same pooled review history despite being technically separate listings, which can make one specific variant's review count look artificially large or, conversely, leave a genuinely new design with almost no independent track record despite looking similar to an established model.\n\nA keyboard central to your daily work deserves a design with genuinely substantial, focused review history behind it, not just a plausible-looking rating built on a thin or shared sample.\n\nWhen comparing keyboards, especially similarly-designed variants from the same brand, check both the star rating and the review count together, and read a handful of reviews to confirm they describe the exact variant you're considering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,76 +231,105 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Important: Prevention vs. Treatment",
-    intro:
-      "Before picking a keyboard, be honest with yourself about which category you're in. This distinction changes what a keyboard can realistically do for you.",
-    cards: [
-      {
-        label: "You are symptom-free and typing long hours",
-        text: "Any of the picks in this list can help prevent strain from building up. Start with a lower-commitment option like the Logitech Wave Keys before moving to a fully separable split.",
-      },
-      {
-        label: "You have mild, occasional wrist discomfort",
-        text: "An ergonomic keyboard paired with a break schedule and posture check may offer mild relief, but if discomfort persists past a couple of weeks, see a doctor rather than continuing to self-manage with hardware alone.",
-      },
-      {
-        label: "You have diagnosed or suspected carpal tunnel symptoms",
-        text: "Pain, numbness, tingling, or weakness in the hand or wrist are signs to see a doctor first. A keyboard is not medical treatment and should not delay a proper diagnosis or care plan.",
-      },
-    ],
-  },
-  {
-    subheading: "By Layout Commitment Level",
-    intro:
-      "The picks in this list range from a low-effort wave curve to a fully separable split, so match the layout to how much adjustment period you're willing to accept.",
-    table: {
-      headers: ["Commitment level", "Layout type", "Best pick"],
-      rows: [
-        ["Minimal adjustment, first try", "One-piece wave", "Logitech Wave Keys (Graphite or Sand)"],
-        ["Moderate adjustment, budget-friendly", "Fixed-angle split, wired", "Perixx PERIBOARD-512B"],
-        ["Moderate adjustment, wireless", "Fixed-angle split, 2.4G", "Arteck Split Ergonomic"],
-        ["Full curved split experience", "Curved split with negative tilt", "Logitech Ergo K860 (standalone or Business)"],
+    "subheading": "By Layout Type",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Independent hand and wrist angling",
+          "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest"
+        ],
+        [
+          "Maximum forearm rotation relief",
+          "Logitech Ergo K860 Wireless Ergonomic Keyboard with Wrist Rest and MX Vertical Wireless Mouse"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Whether Your Mouse Also Needs to Change",
-    intro:
-      "If your wrist strain comes from mouse use as much as typing, a keyboard-only purchase will only address half the issue.",
-    cards: [
-      {
-        label: "Keyboard-only strain from typing",
-        text: "Any standalone keyboard pick, the Ergo K860, Wave Keys, PERIBOARD-512B, or Arteck Split, addresses the typing side without the added cost of a mouse.",
-      },
-      {
-        label: "Strain from both typing and mouse grip, standard hand size",
-        text: "The Ergo K860 with MX Vertical Wireless Mouse bundle pairs a negative-tilt keyboard with a 57-degree vertical mouse sized for an average to larger hand.",
-      },
-      {
-        label: "Strain from both typing and mouse grip, smaller hand size",
-        text: "The Ergo K860 and Lift Vertical Mouse bundle offers the same wrist-neutral mouse angle in a more compact body.",
-      },
-    ],
-  },
-  {
-    subheading: "By Wireless Connection Preference",
-    table: {
-      headers: ["Environment", "Recommended connection", "Best pick"],
-      rows: [
-        ["Simple single-device desk setup", "Wired, no battery to manage", "Perixx PERIBOARD-512B"],
-        ["Crowded office with many wireless devices", "2.4G receiver over Bluetooth", "Arteck Split Ergonomic"],
-        ["Multiple personal devices, home office", "Bluetooth or Logi Bolt, multi-device switching", "Logitech Ergo K860, Wave Keys"],
-        ["Office-wide deployment across many desks", "Business-support Bluetooth/receiver combo", "Logitech Ergo K860 Split for Business"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $55",
+          "Perixx PERIBOARD-512B Wired Ergonomic Split Keyboard with Wrist Rest"
+        ],
+        [
+          "Mid-range",
+          "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest"
+        ],
+        [
+          "No firm budget ceiling, prioritizing switch quality or ergonomics",
+          "Logitech Ergo K860 Wireless Ergonomic Keyboard with Wrist Rest and MX Vertical Wireless Mouse"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Setting Up Your Whole Desk, Not Just the Keyboard",
-    intro:
-      "An ergonomic keyboard alone will not fully resolve wrist strain if the rest of your desk setup is working against you.",
-    note:
-      "Check that your monitor sits at eye level, your chair supports your elbows near a 90-degree angle, and your keyboard height allows your wrists to stay roughly level with your forearms, not angled up or down. Combine the right keyboard with a 5 to 10 minute break every hour, and revisit posture before assuming the keyboard alone will fix ongoing discomfort.",
+    "subheading": "Wired vs Wireless",
+    "cards": [
+      {
+        "label": "Wired",
+        "text": "Zero input latency and no battery to manage, including no backlight battery drain if illuminated. In this comparison: Perixx PERIBOARD-512B Wired Ergonomic Split Keyboard with Wrist Rest."
+      },
+      {
+        "label": "Wireless (Bluetooth/2.4GHz)",
+        "text": "Cable-free desk setup, at the cost of battery management and, for Bluetooth, potentially more input latency. In this comparison: Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest, Logitech Wave Keys Wireless Ergonomic Keyboard, Logitech Ergo K860 Wireless Ergonomic Keyboard with Wrist Rest and MX Vertical Wireless Mouse."
+      }
+    ]
   },
+  {
+    "subheading": "By Switch Type and Typing Feel",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Lowest cost, quiet typing",
+          "Perixx PERIBOARD-512B Wired Ergonomic Split Keyboard with Wrist Rest"
+        ],
+        [
+          "Tactile feedback, lighter actuation force",
+          "Logitech Ergo K860 Wireless Ergonomic Keyboard with Wrist Rest and MX Vertical Wireless Mouse"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Wrist Pain or Carpal Tunnel Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine split or vertical layout (not just a curved surface), a negative tilt option or naturally downward-sloping design, and an included wrist rest sized for your hand."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Logitech Ergo K860 Wireless Ergonomic Keyboard with Wrist Rest and MX Vertical Wireless Mouse fits this specifically: Addresses both keyboard and mouse wrist strain together."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Logitech Ergo K860 Wireless Ergonomic Keyboard with Wrist Rest and MX Vertical Wireless Mouse offers: Addresses both keyboard and mouse wrist strain together. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Perixx PERIBOARD-512B Wired Ergonomic Split Keyboard with Wrist Rest already covers the essentials: Lowest price of any true split keyboard here. The main thing you'd be paying extra for elsewhere in this list is adjustability you may not need."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [
