@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419pAe7T0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTKAPUU?tag=deskfinds0d-20",
     description:
-      "A genuine air quality monitor with Auto and Eco modes, a large review base backing it as a proven pick for real-time feedback and automatic fan adjustment.\n\nThis sensor detects general particulate concentration, not VOCs or CO2 specifically, a good reading means clear particulate air, not necessarily an absence of odor-causing compounds.",
+      "A genuine air quality monitor with Auto and Eco modes, a large review base backing it as a proven pick for real-time feedback and automatic fan adjustment.\n\nThis sensor detects general particulate concentration, not VOCs or CO2 specifically, a good reading means clear particulate air, not necessarily an absence of odor-causing compounds.\n\nWorth knowing before you decide: Auto and Eco modes adjust fan speed automatically. On the other side, Sensor detects general particulate, not VOCs or CO2 specifically. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Air quality monitor with Auto and Eco modes", "Filter indicator", "3-year warranty", "Large review base"],
     pros: ["Genuine air quality monitor with real-time feedback", "Auto and Eco modes adjust fan speed automatically", "Large, well-established review base", "3-year warranty"],
     cons: ["Sensor detects general particulate, not VOCs or CO2 specifically", "Auto mode ramps down fan speed during clear-reading periods", "Higher price than budget alternatives"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31K9NLoXncL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BN2MGV5H?tag=deskfinds0d-20",
     description:
-      "An air quality sensor paired with HEPASilent high-airflow technology, genuinely useful for a large room where the sensor-driven auto mode needs to ramp fan speed up quickly when triggered.\n\nA sensor-driven auto mode saves energy and noise when air is clear, but understand the fan runs slower during those periods too, a real tradeoff versus running at a fixed high speed continuously.",
+      "An air quality sensor paired with HEPASilent high-airflow technology, genuinely useful for a large room where the sensor-driven auto mode needs to ramp fan speed up quickly when triggered.\n\nA sensor-driven auto mode saves energy and noise when air is clear, but understand the fan runs slower during those periods too, a real tradeoff versus running at a fixed high speed continuously.\n\nWorth knowing before you decide: HEPASilent technology keeps noise down even at higher fan speeds. On the other side, Higher price than budget alternatives. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Air quality sensor", "HEPASilent high-airflow technology", "99.97% removal of airborne particulates", "Large-room rated"],
     pros: ["Air quality sensor paired with genuinely high airflow capacity", "HEPASilent technology keeps noise down even at higher fan speeds", "Large-room coverage", "99.97% particulate removal"],
     cons: ["Higher price than budget alternatives", "Smaller review base than other picks here", "Sensor still limited to general particulate detection"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
-      "A large, well-established review base with smart app control and sensor-driven feedback, genuinely useful for checking readings remotely rather than only via an on-unit display.\n\nApp-based sensor history helps you spot patterns in your room's particulate levels over time, more useful than a single on-unit reading in the moment.",
+      "A large, well-established review base with smart app control and sensor-driven feedback, genuinely useful for checking readings remotely rather than only via an on-unit display.\n\nApp-based sensor history helps you spot patterns in your room's particulate levels over time, more useful than a single on-unit reading in the moment.\n\nWorth knowing before you decide: Large rated coverage. On the other side, Higher price than budget alternatives. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Smart app control with sensor feedback", "Up to 1875 sq ft rated (open room)", "Large review base", "Sensor-driven auto adjustment"],
     pros: ["Smart app control shows sensor history over time", "Large rated coverage", "Large, well-established review base", "Sensor-driven auto mode adjusts fan speed"],
     cons: ["Higher price than budget alternatives", "Sensor still limited to general particulate detection", "Larger footprint than compact picks"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
-      "A more affordable pick without a built-in sensor, by far the largest review base of any pick here, appropriate for buyers who'd rather run at a fixed speed than deal with sensor-driven ramp-down.\n\nRunning at a manually chosen fixed speed avoids the fan-ramp-down tradeoff of sensor-driven auto mode entirely, a reasonable choice if you prefer predictable, consistent airflow.",
+      "A more affordable pick without a built-in sensor, by far the largest review base of any pick here, appropriate for buyers who'd rather run at a fixed speed than deal with sensor-driven ramp-down.\n\nRunning at a manually chosen fixed speed avoids the fan-ramp-down tradeoff of sensor-driven auto mode entirely, a reasonable choice if you prefer predictable, consistent airflow.\n\nWorth knowing before you decide: Avoids sensor-driven fan ramp-down tradeoff entirely. On the other side, No real-time air quality feedback. That's the main tradeoff to weigh against your specific needs.",
     specs: ["True HEPA H13, 99.97% particulate removal", "No built-in sensor, manual speed control", "Largest review base in this guide", "24dB quoted noise level"],
     pros: ["By far the largest review base of any pick here", "Avoids sensor-driven fan ramp-down tradeoff entirely", "Affordable price", "Certified True HEPA H13 filtration"],
     cons: ["No real-time air quality feedback", "No automatic adjustment based on sensed conditions", "Manual speed selection only"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Wb8TGSnPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT4F8T4L?tag=deskfinds0d-20",
     description:
-      "A large, well-established review base with sensor-driven auto mode and PlasmaWave odor-neutralizing technology, a genuinely proven combination pick.\n\nAn indicator light shows general air quality status at a glance, useful for a quick check without needing to open an app or read a numeric display.",
+      "A large, well-established review base with sensor-driven auto mode and PlasmaWave odor-neutralizing technology, a genuinely proven combination pick.\n\nAn indicator light shows general air quality status at a glance, useful for a quick check without needing to open an app or read a numeric display.\n\nWorth knowing before you decide: Sensor-driven auto mode with at-a-glance indicator light. On the other side, Higher price than the budget pick. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Sensor-driven auto mode with indicator light", "PlasmaWave odor-neutralizing technology", "Large, established review base", "True HEPA filtration"],
     pros: ["Large, well-established review base", "Sensor-driven auto mode with at-a-glance indicator light", "PlasmaWave addresses odor alongside particulate", "Proven, established design"],
     cons: ["Higher price than the budget pick", "Sensor still limited to general particulate detection", "Larger footprint than compact alternatives"],

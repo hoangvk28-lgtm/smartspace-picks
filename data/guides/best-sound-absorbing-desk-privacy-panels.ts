@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51TKKfxMxNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTQM26FB?tag=deskfinds0d-20",
     description:
-      "Felt material genuinely absorbs some reflected sound within your immediate desk area, softening echo from typing and nearby ambient noise, though it won't stop a neighboring conversation from being audible. 4 bases and 8 mini crown clips let you shape the panel to your desk.\n\nNo tested NRC or STC rating disclosed, as expected at this product scale, treat the acoustic benefit as a modest bonus alongside visual privacy, not a soundproofing solution.",
+      "Felt material genuinely absorbs some reflected sound within your immediate desk area, softening echo from typing and nearby ambient noise, though it won't stop a neighboring conversation from being audible. 4 bases and 8 mini crown clips let you shape the panel to your desk.\n\nNo tested NRC or STC rating disclosed, as expected at this product scale, treat the acoustic benefit as a modest bonus alongside visual privacy, not a soundproofing solution.\n\nWorth knowing before you decide: Flexible configuration with included bases and clips. On the other side, Very limited review history. That's the main tradeoff to weigh against your specific needs.",
     specs: ["16 x 48 inches, felt material", "4 bases, 8 mini crown clips", "Modest sound absorption, no tested NRC/STC rating", "Folds flat for storage"],
     pros: ["Felt material genuinely absorbs some reflected sound", "Flexible configuration with included bases and clips", "Folds flat for storage", "Perfect early rating"],
     cons: ["Very limited review history", "No tested acoustic rating, absorption is modest, not dramatic", "Won't block sound transmission from neighboring conversations"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41KEH+uK0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GL8CKJMS?tag=deskfinds0d-20",
     description:
-      "A larger felt board panel than the Poola Voidra, genuinely more surface area to absorb reflected sound within your desk area, though still a modest effect, not a soundproofing solution. Strong early rating on a modest review count.\n\nSame honest caveat applies, felt absorbs reflected sound locally, it doesn't block sound transmission from elsewhere in the room.",
+      "A larger felt board panel than the Poola Voidra, genuinely more surface area to absorb reflected sound within your desk area, though still a modest effect, not a soundproofing solution. Strong early rating on a modest review count.\n\nSame honest caveat applies, felt absorbs reflected sound locally, it doesn't block sound transmission from elsewhere in the room.\n\nWorth knowing before you decide: Strong early rating. On the other side, Modest review count. That's the main tradeoff to weigh against your specific needs.",
     specs: ["47.3 x 15.7 inches, felt board", "Retro style", "Larger absorption surface than compact panels", "Portable fold design"],
     pros: ["Larger felt surface area than compact panels", "Strong early rating", "Portable, folds for storage", "Retro aesthetic"],
     cons: ["Modest review count", "No tested acoustic rating", "Absorption is local, doesn't block sound transmission from elsewhere"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51bb1Hf-33L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8B7N5K6?tag=deskfinds0d-20",
     description:
-      "Despite 'sound proof pad' in the listing name, this is acoustic absorption material, not genuine soundproofing, be aware of that marketing language before expecting it to block noise transmission. 6 panels let you outfit multiple desks with the same modest local sound softening.\n\nLower rating than the other picks here, worth weighing the multi-panel value against more mixed feedback.",
+      "Despite 'sound proof pad' in the listing name, this is acoustic absorption material, not genuine soundproofing, be aware of that marketing language before expecting it to block noise transmission. 6 panels let you outfit multiple desks with the same modest local sound softening.\n\nLower rating than the other picks here, worth weighing the multi-panel value against more mixed feedback.\n\nWorth knowing before you decide: Budget-friendly per panel. On the other side, 'Sound proof' in the listing name is misleading, this is absorption, not blocking. That's the main tradeoff to weigh against your specific needs.",
     specs: ["6 panels, 24\" x 16\" each", "Support feet, freestanding", "Acoustic absorption material, not soundproofing despite listing name", "Budget-friendly per panel"],
     pros: ["6 panels for outfitting multiple desks with sound-absorbing material", "Budget-friendly per panel", "Support feet for basic stability", "Modest local sound softening"],
     cons: ["'Sound proof' in the listing name is misleading, this is absorption, not blocking", "Lower rating than other picks in this guide", "Small review base"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/3191Pvq11bL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FYPJNB82?tag=deskfinds0d-20",
     description:
-      "Explicitly marketed around sound absorption for office use, a reasonable mid-priced option between the budget felt panels and premium picks. Same honest expectation as every panel in this guide, absorption softens your immediate area, it doesn't block sound from elsewhere.\n\nSolid rating base for a dedicated sound-focused desk panel, real-world evidence of reasonable performance for its category.",
+      "Explicitly marketed around sound absorption for office use, a reasonable mid-priced option between the budget felt panels and premium picks. Same honest expectation as every panel in this guide, absorption softens your immediate area, it doesn't block sound from elsewhere.\n\nSolid rating base for a dedicated sound-focused desk panel, real-world evidence of reasonable performance for its category.\n\nWorth knowing before you decide: Solid rating base. On the other side, Absorption is local, doesn't block sound transmission from elsewhere. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Sound absorbing desk panel", "Office-focused design", "Acoustic material", "Mid-range price point"],
     pros: ["Explicitly designed around sound absorption for office use", "Solid rating base", "Reasonable mid-range price", "Dedicated acoustic material"],
     cons: ["Absorption is local, doesn't block sound transmission from elsewhere", "No tested NRC/STC rating disclosed", "Higher price than the budget felt panel options"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41mXUjTJozL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DDK7VFNV?tag=deskfinds0d-20",
     description:
-      "A movable partition design at 48x18 inches, genuinely useful if you want to reposition your sound-softening panel between different desk configurations. Solid review base as evidence of reliable real-world performance.\n\nSame category-wide caveat, this softens reflected sound locally, it's not a substitute for a genuinely soundproof partition if blocking transmitted noise is your actual goal.",
+      "A movable partition design at 48x18 inches, genuinely useful if you want to reposition your sound-softening panel between different desk configurations. Solid review base as evidence of reliable real-world performance.\n\nSame category-wide caveat, this softens reflected sound locally, it's not a substitute for a genuinely soundproof partition if blocking transmitted noise is your actual goal.\n\nWorth knowing before you decide: Solid, well-established review base. On the other side, Absorption is local, not a substitute for genuine soundproofing. That's the main tradeoff to weigh against your specific needs.",
     specs: ["48x18 inches, movable partition", "Midnight (dark) finish", "Repositionable design", "Solid review base"],
     pros: ["Movable design, easy to reposition between desk configurations", "Solid, well-established review base", "Dark finish option", "Reasonable mid-size coverage"],
     cons: ["Absorption is local, not a substitute for genuine soundproofing", "No tested acoustic rating", "Higher price than the budget felt options"],

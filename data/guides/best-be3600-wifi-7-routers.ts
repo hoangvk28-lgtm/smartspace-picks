@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41u8VJ6j2gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DC99N2T8?tag=deskfinds0d-20",
     description:
-      "A dual-band-only design, TP-Link's own listing confirms no 6GHz radio at this tier, with dual 2.5G ports and a quad-core processor that genuinely outperform a comparable Wi-Fi 6 router at this price.\n\nThe '3600' figure splits into roughly 688Mbps (2.4GHz) plus 2882Mbps (5GHz) per TP-Link's own spec sheet, no single device reaches that combined number, treat it as a theoretical ceiling, not an achievable real-world speed.",
+      "A dual-band-only design, TP-Link's own listing confirms no 6GHz radio at this tier, with dual 2.5G ports and a quad-core processor that genuinely outperform a comparable Wi-Fi 6 router at this price.\n\nThe '3600' figure splits into roughly 688Mbps (2.4GHz) plus 2882Mbps (5GHz) per TP-Link's own spec sheet, no single device reaches that combined number, treat it as a theoretical ceiling, not an achievable real-world speed.\n\nWorth knowing before you decide: Dual 2.5G ports for multi-gig wired devices. On the other side, No 6GHz radio despite Wi-Fi 7 branding. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Dual-band only, no 6GHz radio", "2×2.5G + 3×1G ports", "2.0GHz quad-core processor", "MLO listed, structurally limited to one high-speed band"],
     pros: ["Genuine real-world upgrade over aging Wi-Fi 6 hardware at this price", "Dual 2.5G ports for multi-gig wired devices", "Quad-core processor keeps up with routing demands", "EasyMesh expansion supported"],
     cons: ["No 6GHz radio despite Wi-Fi 7 branding", "MLO has no second high-speed band to aggregate with at this tier", "'3600' number is a combined theoretical ceiling, not a per-device speed"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21--ly92xtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DW27FNG3?tag=deskfinds0d-20",
     description:
-      "A large, well-established review base from an established networking brand, rated for 2,000 sq ft and 50 devices, a genuinely disclosed coverage figure at this entry tier.\n\nLike the other BE3600 picks here, this is dual-band only with no 6GHz radio, verify this before buying if you assumed 'BE' branding guaranteed tri-band capability.",
+      "A large, well-established review base from an established networking brand, rated for 2,000 sq ft and 50 devices, a genuinely disclosed coverage figure at this entry tier.\n\nLike the other BE3600 picks here, this is dual-band only with no 6GHz radio, verify this before buying if you assumed 'BE' branding guaranteed tri-band capability.\n\nWorth knowing before you decide: Genuine disclosed coverage rating for this tier. On the other side, No 6GHz radio despite Wi-Fi 7 branding. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Dual-band only, no 6GHz radio", "2.5 Gig internet port", "Rated for 2,000 sq ft, 50 devices", "Large, established review base"],
     pros: ["Large, well-established review base", "Genuine disclosed coverage rating for this tier", "2.5 Gig WAN port for fast internet plans", "Established Nighthawk brand track record"],
     cons: ["No 6GHz radio despite Wi-Fi 7 branding", "Higher price than the TP-Link Archer BE230 at this tier", "MLO's core cross-band benefit doesn't exist at this single-high-band tier"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31vfCX-04BL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHZGXZH7?tag=deskfinds0d-20",
     description:
-      "A genuinely portable form factor bringing BE3600 branding to a travel router category, appropriate for a buyer wanting a compact secondary router rather than primary home coverage.\n\nThis inherits the same dual-band-only limitation as other BE3600 products, confirmed no 6GHz radio, don't expect tri-band performance from the portable form factor either.",
+      "A genuinely portable form factor bringing BE3600 branding to a travel router category, appropriate for a buyer wanting a compact secondary router rather than primary home coverage.\n\nThis inherits the same dual-band-only limitation as other BE3600 products, confirmed no 6GHz radio, don't expect tri-band performance from the portable form factor either.\n\nWorth knowing before you decide: 2.5G port for faster wired connections while traveling. On the other side, No 6GHz radio despite Wi-Fi 7 branding. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Dual-band only, no 6GHz radio", "2.5G port, USB 3.0", "Compact portable form factor", "Solid review base for a travel router"],
     pros: ["Genuinely compact and portable form factor", "2.5G port for faster wired connections while traveling", "Solid review base for this niche category", "USB 3.0 for additional connectivity"],
     cons: ["No 6GHz radio despite Wi-Fi 7 branding", "Not intended as a primary whole-home router", "Smaller review base than the established brand picks"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41EClf31jxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQP4DNNJ?tag=deskfinds0d-20",
     description:
-      "A 3-pack mesh system genuinely rated for 6,500 sq ft, appropriate for a larger home needing multiple access points rather than a single-router setup.\n\nWired backhaul via the 2.5G ports is a genuine advantage over wireless-only mesh systems, though this remains dual-band only, the same BE3600-tier limitation applies across all three units.",
+      "A 3-pack mesh system genuinely rated for 6,500 sq ft, appropriate for a larger home needing multiple access points rather than a single-router setup.\n\nWired backhaul via the 2.5G ports is a genuine advantage over wireless-only mesh systems, though this remains dual-band only, the same BE3600-tier limitation applies across all three units.\n\nWorth knowing before you decide: Wired backhaul option avoids wireless mesh overhead. On the other side, Highest price in this guide, though it includes 3 units. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Dual-band only, no 6GHz radio", "3-pack mesh, up to 6,500 sq ft", "Wired 2.5G backhaul supported", "4-stream, 160MHz channel width"],
     pros: ["Genuine large-home coverage via 3-pack mesh design", "Wired backhaul option avoids wireless mesh overhead", "Solid review base for a mesh system", "AI-Roaming and HomeShield included"],
     cons: ["Highest price in this guide, though it includes 3 units", "No 6GHz radio despite Wi-Fi 7 branding", "Overkill for a single small room or apartment"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21NuupEXJgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F114274T?tag=deskfinds0d-20",
     description:
-      "Technically a BE5000 rather than BE3600, included here as the honest next step up for a buyer whose device count or square footage exceeds what the BE3600 tier comfortably covers.\n\nStill dual-band only despite the higher combined number, the same tier-honesty gap applies, verify actual radio configuration rather than assuming a bigger number means tri-band.",
+      "Technically a BE5000 rather than BE3600, included here as the honest next step up for a buyer whose device count or square footage exceeds what the BE3600 tier comfortably covers.\n\nStill dual-band only despite the higher combined number, the same tier-honesty gap applies, verify actual radio configuration rather than assuming a bigger number means tri-band.\n\nWorth knowing before you decide: Established Nighthawk brand track record. On the other side, Still dual-band only despite the higher combined number. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Dual-band only, no 6GHz radio", "Rated for 2,250 sq ft, 80 devices", "2.5 Gig internet port", "Established Nighthawk brand"],
     pros: ["Genuine step-up coverage and device count over BE3600 tier", "Established Nighthawk brand track record", "2.5 Gig WAN port for fast internet plans", "Reasonable price for the added capacity"],
     cons: ["Still dual-band only despite the higher combined number", "Smaller review base than other picks in this guide", "Higher price than genuine BE3600-tier options"],

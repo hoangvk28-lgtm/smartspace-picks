@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31rIE-toOYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08GRY1W93?tag=deskfinds0d-20",
     description:
-      "Explicitly listed as active-PFC compatible, meaning it's designed to work cleanly with the APFC power supplies found in essentially all modern desktop PCs, avoiding the buzzing and overheating that modified sine wave units can trigger on this exact hardware. Up to 73 minutes of runtime at 100W gives real headroom for a full desktop setup during an outage.\n\nAt $299.99, this genuinely commands the 30-50% premium pure sine wave designs typically carry over modified sine wave, worth it specifically because APFC power supplies are now the desktop standard, not a niche case.",
+      "Explicitly listed as active-PFC compatible, meaning it's designed to work cleanly with the APFC power supplies found in essentially all modern desktop PCs, avoiding the buzzing and overheating that modified sine wave units can trigger on this exact hardware. Up to 73 minutes of runtime at 100W gives real headroom for a full desktop setup during an outage.\n\nAt $299.99, this genuinely commands the 30-50% premium pure sine wave designs typically carry over modified sine wave, worth it specifically because APFC power supplies are now the desktop standard, not a niche case.\n\nWorth knowing before you decide: Strong runtime headroom at 100W load. On the other side, Real price premium over modified sine wave models. That's the main tradeoff to weigh against your specific needs.",
     specs: ["1500VA/900W, pure sine wave", "Active PFC compatible design", "10 outlets, coax/Ethernet surge protection", "Replaceable battery, USB-C/A charging ports"],
     pros: ["Explicit APFC compatibility avoids buzzing/overheating on modern PC power supplies", "Strong runtime headroom at 100W load", "User-replaceable battery", "Large, well-established review base"],
     cons: ["Real price premium over modified sine wave models", "Overkill if connected equipment lacks APFC power supplies", "Larger footprint than compact battery-only models"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41mMZ5UlDyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0779KYKLB?tag=deskfinds0d-20",
     description:
-      "A lower-capacity pure sine wave option at a meaningfully lower price than the 1500VA model, a reasonable middle ground if your APFC equipment load is a single PC plus monitor rather than a full multi-device desktop setup.\n\nStill genuinely APFC compatible, so you get the buzzing/shutdown-avoidance benefit without paying for headroom you don't need.",
+      "A lower-capacity pure sine wave option at a meaningfully lower price than the 1500VA model, a reasonable middle ground if your APFC equipment load is a single PC plus monitor rather than a full multi-device desktop setup.\n\nStill genuinely APFC compatible, so you get the buzzing/shutdown-avoidance benefit without paying for headroom you don't need.\n\nWorth knowing before you decide: Genuine APFC compatibility at this capacity tier. On the other side, Less headroom than the 1500VA model for larger setups. That's the main tradeoff to weigh against your specific needs.",
     specs: ["1000VA/600W, pure sine wave", "APFC compatible design", "Multiple outlets with surge protection", "Compact tower form factor"],
     pros: ["Meaningfully cheaper than the 1500VA pure sine wave option", "Genuine APFC compatibility at this capacity tier", "Reasonable footprint", "Solid review base"],
     cons: ["Less headroom than the 1500VA model for larger setups", "No coax/Ethernet surge protection confirmed", "Runtime will be shorter under heavier loads"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31DYxDN0bTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00429N19W?tag=deskfinds0d-20",
     description:
-      "The largest review base in this guide by a wide margin, real-world evidence this PFC sinewave design holds up. AVR is bundled in, correcting moderate brownouts without draining the battery, a genuine complement to the pure sine wave output for APFC equipment.\n\n12 outlets and UL certification round out a genuinely well-equipped mid-tier pick at a lower price than the top APC option.",
+      "The largest review base in this guide by a wide margin, real-world evidence this PFC sinewave design holds up. AVR is bundled in, correcting moderate brownouts without draining the battery, a genuine complement to the pure sine wave output for APFC equipment.\n\n12 outlets and UL certification round out a genuinely well-equipped mid-tier pick at a lower price than the top APC option.\n\nWorth knowing before you decide: AVR bundled for brownout correction without battery drain. On the other side, Bulkier mini-tower form factor. That's the main tradeoff to weigh against your specific needs.",
     specs: ["1500VA/1000W, PFC sinewave", "AVR included", "12 outlets, UL certified", "Mini tower form factor"],
     pros: ["Largest review base in this guide, strong real-world track record", "AVR bundled for brownout correction without battery drain", "12 outlets, generous for a multi-device desk setup", "Lower price than the top APC pure sine wave pick"],
     cons: ["Bulkier mini-tower form factor", "No explicit coax/Ethernet surge protection confirmed", "Still carries the standard pure-sine price premium over modified sine models"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31nDi+6Lz+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00429N192?tag=deskfinds0d-20",
     description:
-      "A more affordable 1000W-class PFC sinewave alternative to the APC BR1000MS, genuinely useful if you want CyberPower's ecosystem or a lower price point at a similar capacity tier.\n\nLower rating than its sibling products in this guide, worth weighing against the price savings if APFC compatibility at this capacity is your main requirement.",
+      "A more affordable 1000W-class PFC sinewave alternative to the APC BR1000MS, genuinely useful if you want CyberPower's ecosystem or a lower price point at a similar capacity tier.\n\nLower rating than its sibling products in this guide, worth weighing against the price savings if APFC compatibility at this capacity is your main requirement.\n\nWorth knowing before you decide: AVR bundled in. On the other side, Lower rating than other picks in this guide. That's the main tradeoff to weigh against your specific needs.",
     specs: ["PFC sinewave output", "AVR included", "LCD status display", "Multiple outlets"],
     pros: ["Lower price than comparable APC pure sine models", "AVR bundled in", "LCD display for runtime/load visibility", "Reasonable capacity for a single desktop setup"],
     cons: ["Lower rating than other picks in this guide", "Smaller footprint may mean fewer outlets than the 1500VA sibling", "Runtime headroom lower than the 1500W-class picks"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/317PvPHMHKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00429N18S?tag=deskfinds0d-20",
     description:
-      "The lowest-capacity pure sine wave pick in this guide, appropriately sized for a single APFC-equipped PC without extra peripherals rather than a full multi-monitor desktop setup.\n\nStill genuinely PFC sinewave, so you avoid the buzzing/shutdown risk on modern power supplies without paying for capacity you won't use.",
+      "The lowest-capacity pure sine wave pick in this guide, appropriately sized for a single APFC-equipped PC without extra peripherals rather than a full multi-monitor desktop setup.\n\nStill genuinely PFC sinewave, so you avoid the buzzing/shutdown risk on modern power supplies without paying for capacity you won't use.\n\nWorth knowing before you decide: Appropriately sized for a single-PC setup. On the other side, Lowest capacity in this guide, not for multi-device loads. That's the main tradeoff to weigh against your specific needs.",
     specs: ["850VA PFC sinewave", "AVR included", "LCD display", "Compact footprint"],
     pros: ["Most affordable genuine pure sine wave pick here", "Appropriately sized for a single-PC setup", "AVR bundled", "Compact footprint"],
     cons: ["Lowest capacity in this guide, not for multi-device loads", "Shorter runtime under any real load", "Fewer outlets than the higher-capacity picks"],
@@ -116,7 +116,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/319TmSlbEUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B077Y62GSJ?tag=deskfinds0d-20",
     description:
-      "A genuine step up to line-interactive topology with SmartConnect cloud monitoring, worth the significantly higher price if you want remote visibility into UPS health and battery status rather than just an in-room LCD.\n\nThe highest price in this guide by a wide margin, this is a workstation/server-grade pick, not the right choice for a simple desktop setup that just needs APFC compatibility.",
+      "A genuine step up to line-interactive topology with SmartConnect cloud monitoring, worth the significantly higher price if you want remote visibility into UPS health and battery status rather than just an in-room LCD.\n\nThe highest price in this guide by a wide margin, this is a workstation/server-grade pick, not the right choice for a simple desktop setup that just needs APFC compatibility.\n\nWorth knowing before you decide: SmartConnect remote monitoring, genuinely useful for unattended equipment. On the other side, Highest price in this guide by a large margin. That's the main tradeoff to weigh against your specific needs.",
     specs: ["1500VA/900W, line-interactive, pure sine wave", "SmartConnect cloud monitoring", "APFC compatible", "Higher-grade build than consumer picks"],
     pros: ["Line-interactive topology for cleaner power conditioning", "SmartConnect remote monitoring, genuinely useful for unattended equipment", "Pure sine wave APFC compatibility", "Well-reviewed for its tier"],
     cons: ["Highest price in this guide by a large margin", "Overkill for a simple single-desktop setup", "Smaller review base than the budget picks"],
@@ -133,7 +133,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41lBJ4oYPfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5QSYK69?tag=deskfinds0d-20",
     description:
-      "A lithium-battery-based alternative to the traditional lead-acid designs used by the APC and CyberPower picks in this guide, lithium batteries generally handle heat and charge cycles better over the long term, worth considering if longevity matters more than upfront cost.\n\nStill genuinely pure sine wave, so APFC compatibility holds, at a competitive price versus the APC 1000VA pick.",
+      "A lithium-battery-based alternative to the traditional lead-acid designs used by the APC and CyberPower picks in this guide, lithium batteries generally handle heat and charge cycles better over the long term, worth considering if longevity matters more than upfront cost.\n\nStill genuinely pure sine wave, so APFC compatibility holds, at a competitive price versus the APC 1000VA pick.\n\nWorth knowing before you decide: Competitive price at this capacity tier. On the other side, Newer entrant with less long-term track record than APC/CyberPower. That's the main tradeoff to weigh against your specific needs.",
     specs: ["1000VA/800W, lithium battery, pure sine wave", "Surge protection included", "Compact footprint", "White finish option"],
     pros: ["Lithium battery chemistry, generally better long-term charge-cycle life than lead-acid", "Competitive price at this capacity tier", "Genuine pure sine wave APFC compatibility", "Solid rating base"],
     cons: ["Newer entrant with less long-term track record than APC/CyberPower", "Not user-replaceable in the same established ecosystem as APC batteries", "Mid-tier capacity, not for heavy multi-device loads"],

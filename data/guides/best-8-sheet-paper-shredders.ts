@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31QbluTUmKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6LZ8S34?tag=deskfinds0d-20",
     description:
-      "Rated for 8 sheets of standard 20 lb bond paper, expect closer to 5-6 sheets in real-world use with letterhead or slightly heavier stock, the typical reduction at this capacity tier. Still, this is genuinely P-4 rated, a higher security level than some 8-sheet competitors settle for, plus handles credit cards.\n\nMassive review base gives strong real-world confidence at this exact capacity and price point.",
+      "Rated for 8 sheets of standard 20 lb bond paper, expect closer to 5-6 sheets in real-world use with letterhead or slightly heavier stock, the typical reduction at this capacity tier. Still, this is genuinely P-4 rated, a higher security level than some 8-sheet competitors settle for, plus handles credit cards.\n\nMassive review base gives strong real-world confidence at this exact capacity and price point.\n\nWorth knowing before you decide: Massive proven review base. On the other side, Real-world capacity with mixed paper is meaningfully below the rated 8 sheets. That's the main tradeoff to weigh against your specific needs.",
     specs: ["8-sheet rated (5-6 sheets realistic with mixed paper)", "P-4 cross-cut, 5x18mm particles", "3-minute continuous run time", "3.7-gallon bin"],
     pros: ["P-4 security level, higher than typical entry-tier shredders", "Massive proven review base", "Handles credit cards too", "Lowest price among the P-4 picks here"],
     cons: ["Real-world capacity with mixed paper is meaningfully below the rated 8 sheets", "Shortest continuous run time in this guide (3 minutes)", "Small 3.7-gallon bin needs frequent emptying"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31WGmZ4xo0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6LXGNY1?tag=deskfinds0d-20",
     description:
-      "Identical rated capacity, security level, and price to the rank-1 pick, just in white rather than black, essentially a colorway decision rather than a different product tier. Same real-world capacity caveat applies, expect 5-6 sheets reliably rather than the full rated 8.\n\nChoose based on which finish matches your workspace, the underlying shredder is the same.",
+      "Identical rated capacity, security level, and price to the rank-1 pick, just in white rather than black, essentially a colorway decision rather than a different product tier. Same real-world capacity caveat applies, expect 5-6 sheets reliably rather than the full rated 8.\n\nChoose based on which finish matches your workspace, the underlying shredder is the same.\n\nWorth knowing before you decide: Massive proven review base. On the other side, Same real-world capacity reduction as the rank-1 pick. That's the main tradeoff to weigh against your specific needs.",
     specs: ["8-sheet rated (5-6 sheets realistic with mixed paper)", "P-4 cross-cut, 5x18mm particles", "3-minute continuous run time", "3.7-gallon bin, white finish"],
     pros: ["Same P-4 security as the rank-1 pick", "Massive proven review base", "White finish option", "Handles credit cards too"],
     cons: ["Same real-world capacity reduction as the rank-1 pick", "Shortest continuous run time in this guide", "Small bin needs frequent emptying"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41R3dsJ1InL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GXZVRK3R?tag=deskfinds0d-20",
     description:
-      "This is genuine micro-cut, higher security than the P-4 cross-cut picks in this guide, at the same 8-sheet rated tier, an unusual security step up for this price and capacity. Its safety-first design stops the blades immediately if the bin lid is lifted while running, a genuine child/pet safety feature.\n\nOnly a 2-minute continuous run time is the shortest in this guide, expect frequent cooldown breaks for anything beyond very light use.",
+      "This is genuine micro-cut, higher security than the P-4 cross-cut picks in this guide, at the same 8-sheet rated tier, an unusual security step up for this price and capacity. Its safety-first design stops the blades immediately if the bin lid is lifted while running, a genuine child/pet safety feature.\n\nOnly a 2-minute continuous run time is the shortest in this guide, expect frequent cooldown breaks for anything beyond very light use.\n\nWorth knowing before you decide: Explicit safety auto-shutoff on lid lift. On the other side, Shortest continuous run time in this guide at just 2 minutes. That's the main tradeoff to weigh against your specific needs.",
     specs: ["8-sheet rated micro-cut, P-4, 4x12mm particles", "Safety-first design, auto-shutoff on lid lift", "2-minute continuous run time", "4-gallon bin"],
     pros: ["Genuine micro-cut security at the 8-sheet capacity tier", "Explicit safety auto-shutoff on lid lift", "Highest rating among the 8-sheet picks in this guide", "Larger 4-gallon bin than the basic cross-cut picks"],
     cons: ["Shortest continuous run time in this guide at just 2 minutes", "Smaller review base than the Amazon Basics picks", "Micro-cut is less staple/clip-tolerant than cross-cut alternatives"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31AtA7qsSwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08J2N4CS2?tag=deskfinds0d-20",
     description:
-      "Explicitly designed to fit under a desk, a genuinely useful compact form factor for a small home office at the 8-sheet tier. P-4 security and a 4-gallon bin (larger than the basic Amazon Basics picks) round out a well-equipped entry-level option.\n\nSame real-world capacity caveat as every pick in this guide, treat 8 sheets as an upper bound, not a guarantee with mixed paper.",
+      "Explicitly designed to fit under a desk, a genuinely useful compact form factor for a small home office at the 8-sheet tier. P-4 security and a 4-gallon bin (larger than the basic Amazon Basics picks) round out a well-equipped entry-level option.\n\nSame real-world capacity caveat as every pick in this guide, treat 8 sheets as an upper bound, not a guarantee with mixed paper.\n\nWorth knowing before you decide: Larger 4-gallon bin than the basic picks. On the other side, Real-world capacity with mixed paper is below the rated 8 sheets. That's the main tradeoff to weigh against your specific needs.",
     specs: ["8-sheet rated cross-cut, P-4", "Compact under-desk design", "5-minute continuous run time", "4-gallon bin, lift-off handle, ETL certified"],
     pros: ["Explicitly designed to fit under a desk", "Larger 4-gallon bin than the basic picks", "Longer 5-minute run time than the shortest picks here", "ETL certified"],
     cons: ["Real-world capacity with mixed paper is below the rated 8 sheets", "Smaller review base than the Amazon Basics picks", "Basic P-4 without micro-cut security"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31RMWoUZy7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FFJPQGD?tag=deskfinds0d-20",
     description:
-      "Rated for 10 sheets (higher than this guide's 8-sheet target, but included since strip-cut mechanisms handle staples and clips without removal, unlike some cross-cut picks), this is P-2 security level, meaningfully lower than the P-4 picks elsewhere in this guide. A genuine tradeoff, lower security for easier staple/clip handling and low noise.\n\nIf security level matters as much as convenience, the P-4 picks above are the better choice; if ease of use and noise matter more, this is worth considering despite exceeding the nominal 8-sheet target.",
+      "Rated for 10 sheets (higher than this guide's 8-sheet target, but included since strip-cut mechanisms handle staples and clips without removal, unlike some cross-cut picks), this is P-2 security level, meaningfully lower than the P-4 picks elsewhere in this guide. A genuine tradeoff, lower security for easier staple/clip handling and low noise.\n\nIf security level matters as much as convenience, the P-4 picks above are the better choice; if ease of use and noise matter more, this is worth considering despite exceeding the nominal 8-sheet target.\n\nWorth knowing before you decide: Low-noise operation. On the other side, P-2 security level, lower than the P-4 picks in this guide. That's the main tradeoff to weigh against your specific needs.",
     specs: ["10-sheet rated strip-cut (P-2, lower security)", "Low-noise design", "5-minute continuous run time", "3.17-gallon basket"],
     pros: ["Handles staples and clips without removal", "Low-noise operation", "US patented cutter reduces jams", "Reasonable price"],
     cons: ["P-2 security level, lower than the P-4 picks in this guide", "Rated capacity exceeds the 8-sheet tier this guide targets", "Not suitable for sensitive document destruction requiring higher security"],
@@ -116,7 +116,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31wkQYg97oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09MHR4457?tag=deskfinds0d-20",
     description:
-      "Rated 10 sheets, technically above this guide's 8-sheet target, but priced close enough and commonly compared against 8-sheet picks that it's worth including. A larger 5.5-gallon bin than the true 8-sheet picks is a genuine plus if you're willing to spend slightly more.\n\nStrong review base offers real-world confidence, though real-world capacity should still be treated as somewhat below the rated 10 sheets.",
+      "Rated 10 sheets, technically above this guide's 8-sheet target, but priced close enough and commonly compared against 8-sheet picks that it's worth including. A larger 5.5-gallon bin than the true 8-sheet picks is a genuine plus if you're willing to spend slightly more.\n\nStrong review base offers real-world confidence, though real-world capacity should still be treated as somewhat below the rated 10 sheets.\n\nWorth knowing before you decide: Strong review base. On the other side, Rated capacity (10 sheets) exceeds this guide's 8-sheet target. That's the main tradeoff to weigh against your specific needs.",
     specs: ["10-sheet rated cross-cut, P-4", "Destroys junk mail, staples, credit cards", "4-minute continuous run time", "5.5-gallon bin"],
     pros: ["Larger 5.5-gallon bin than the true 8-sheet picks", "Strong review base", "P-4 security level", "Handles staples and credit cards"],
     cons: ["Rated capacity (10 sheets) exceeds this guide's 8-sheet target", "Higher price than the true 8-sheet picks", "Short 4-minute continuous run time"],
@@ -133,7 +133,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41QmnUvb1tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6LXQTST?tag=deskfinds0d-20",
     description:
-      "The finest particle size among the true 8-sheet picks in this guide (4.5x12mm micro-cut), plus caster wheels and a pull-out bin, genuinely more premium features than the basic cross-cut picks at this capacity tier. Also destroys CDs and DVDs.\n\nHighest price among the true 8-sheet picks, worth it specifically for the security level and added mobility features.",
+      "The finest particle size among the true 8-sheet picks in this guide (4.5x12mm micro-cut), plus caster wheels and a pull-out bin, genuinely more premium features than the basic cross-cut picks at this capacity tier. Also destroys CDs and DVDs.\n\nHighest price among the true 8-sheet picks, worth it specifically for the security level and added mobility features.\n\nWorth knowing before you decide: Caster wheels and pull-out bin. On the other side, Highest price among the true 8-sheet picks in this guide. That's the main tradeoff to weigh against your specific needs.",
     specs: ["8-sheet rated micro-cut, P-4, 4.5x12mm particles (finest here)", "Destroys CDs, DVDs, credit cards", "5-minute continuous run time", "4-gallon pull-out bin, casters"],
     pros: ["Finest particle security among the true 8-sheet picks", "Caster wheels and pull-out bin", "Also destroys CDs and DVDs", "P-4 high security"],
     cons: ["Highest price among the true 8-sheet picks in this guide", "Smaller review base than the basic Amazon Basics picks", "Real-world capacity still below the rated 8 sheets"],
@@ -150,7 +150,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31IjAexycEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVNH9RY2?tag=deskfinds0d-20",
     description:
-      "The lowest explicit noise rating among the 8-sheet picks in this guide, under 58dB, genuinely useful if quiet operation matters as much as capacity in a shared home office. P-4 cross-cut security at the standard 8-sheet tier.\n\nSmall review count reflects a newer listing, weigh that against the genuinely quiet operation claim.",
+      "The lowest explicit noise rating among the 8-sheet picks in this guide, under 58dB, genuinely useful if quiet operation matters as much as capacity in a shared home office. P-4 cross-cut security at the standard 8-sheet tier.\n\nSmall review count reflects a newer listing, weigh that against the genuinely quiet operation claim.\n\nWorth knowing before you decide: P-4 security level. On the other side, Small review count, limited track record. That's the main tradeoff to weigh against your specific needs.",
     specs: ["8-sheet rated cross-cut, P-4", "<58dB explicit quiet rating", "3-minute continuous run time", "4-gallon bin, reverse function"],
     pros: ["Quietest explicit rating among the 8-sheet picks here", "P-4 security level", "Reverse function for jam clearing", "1-year warranty"],
     cons: ["Small review count, limited track record", "Short 3-minute continuous run time", "Priced higher than the basic Amazon Basics 8-sheet picks"],

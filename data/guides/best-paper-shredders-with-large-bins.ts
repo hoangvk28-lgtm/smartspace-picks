@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41FCXr1akDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00IOFD08C?tag=deskfinds0d-20",
     description:
-      "At 6 gallons holding over 400 sheets, this has the largest confirmed bin capacity in this guide, cross-cut particles pack more densely than strip-cut, so this genuinely holds more source paper than a strip-cut shredder with the same gallon rating would. Its transparent window lets you monitor fill level at a glance rather than guessing.\n\nThe largest review base here reflects real-world satisfaction with both the shredding performance and the bin's capacity holding up to daily use.",
+      "At 6 gallons holding over 400 sheets, this has the largest confirmed bin capacity in this guide, cross-cut particles pack more densely than strip-cut, so this genuinely holds more source paper than a strip-cut shredder with the same gallon rating would. Its transparent window lets you monitor fill level at a glance rather than guessing.\n\nThe largest review base here reflects real-world satisfaction with both the shredding performance and the bin's capacity holding up to daily use.\n\nWorth knowing before you decide: Cross-cut density packs more source sheets per gallon than strip-cut. On the other side, Larger bin adds real footprint and weight to move. That's the main tradeoff to weigh against your specific needs.",
     specs: ["6-gallon bin, 400+ sheet capacity", "18-sheet cross-cut, P-4", "60-minute continuous run time", "Transparent fill window, casters"],
     pros: ["Largest confirmed bin capacity in this guide", "Cross-cut density packs more source sheets per gallon than strip-cut", "Transparent window for fill-level visibility", "Largest review base here"],
     cons: ["Larger bin adds real footprint and weight to move", "Full bin will be noticeably heavier to lift for emptying", "Highest price in this guide"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31lBbbWrCsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSJ3K6T3?tag=deskfinds0d-20",
     description:
-      "Also a 6-gallon bin, but paired with micro-cut particles, even more compact than cross-cut for the same original sheet count, meaning this bin can genuinely hold the most source paper per gallon in this entire guide. Sized appropriately for the 120-sheet auto-feed hopper it serves.\n\n360-degree casters help offset the real weight and footprint tradeoff of carrying this much bin capacity around a shared office.",
+      "Also a 6-gallon bin, but paired with micro-cut particles, even more compact than cross-cut for the same original sheet count, meaning this bin can genuinely hold the most source paper per gallon in this entire guide. Sized appropriately for the 120-sheet auto-feed hopper it serves.\n\n360-degree casters help offset the real weight and footprint tradeoff of carrying this much bin capacity around a shared office.\n\nWorth knowing before you decide: Bin sized appropriately for its large auto-feed hopper. On the other side, Same price as the rank-1 pick with a lower rating. That's the main tradeoff to weigh against your specific needs.",
     specs: ["6-gallon bin, micro-cut density (most compact per gallon)", "120-sheet auto-feed hopper", "30-minute continuous run time", "360° casters"],
     pros: ["Micro-cut density holds the most source sheets per gallon in this guide", "Bin sized appropriately for its large auto-feed hopper", "Mobile on 360° casters", "P-4 high security"],
     cons: ["Same price as the rank-1 pick with a lower rating", "Real weight and footprint tradeoff for a bin this size", "Micro-cut has less foreign-object tolerance than cross-cut"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31VvTJMBXPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DG2MGVMV?tag=deskfinds0d-20",
     description:
-      "A smaller 4.2-gallon bin than the top two picks, but still genuinely sized for its 100-sheet auto-feed hopper, and priced lower than the 6-gallon alternatives. A bin-full indicator helps you catch the right moment to empty rather than overfilling.\n\nA reasonable choice if you want auto-feed convenience with a large-but-not-largest bin at a friendlier price.",
+      "A smaller 4.2-gallon bin than the top two picks, but still genuinely sized for its 100-sheet auto-feed hopper, and priced lower than the 6-gallon alternatives. A bin-full indicator helps you catch the right moment to empty rather than overfilling.\n\nA reasonable choice if you want auto-feed convenience with a large-but-not-largest bin at a friendlier price.\n\nWorth knowing before you decide: Micro-cut density still holds meaningful source-sheet capacity. On the other side, Smaller bin than the top two picks in this guide. That's the main tradeoff to weigh against your specific needs.",
     specs: ["4.2-gallon bin, micro-cut density", "100-sheet auto-feed hopper", "30-minute continuous run time", "Bin-full indicator, casters"],
     pros: ["Lower price than the 6-gallon picks", "Micro-cut density still holds meaningful source-sheet capacity", "Bin-full indicator", "Mobile on casters"],
     cons: ["Smaller bin than the top two picks in this guide", "Requires more frequent emptying during a large purge", "Same micro-cut foreign-object caveat as the pricier picks"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/413GY12YKjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CX4DZ4Z?tag=deskfinds0d-20",
     description:
-      "A 5-gallon bin with the highest rating and review base in this guide, genuinely large even if not the absolute biggest, and its micro-cut density means real capacity per gallon that rivals the larger-rated bins above. LED indicators show bin-full status directly.\n\nA proven, well-trusted pick if you want a large bin without the largest footprint of the rank 1-2 picks.",
+      "A 5-gallon bin with the highest rating and review base in this guide, genuinely large even if not the absolute biggest, and its micro-cut density means real capacity per gallon that rivals the larger-rated bins above. LED indicators show bin-full status directly.\n\nA proven, well-trusted pick if you want a large bin without the largest footprint of the rank 1-2 picks.\n\nWorth knowing before you decide: Micro-cut density gives strong per-gallon capacity. On the other side, Not the absolute largest bin in this guide. That's the main tradeoff to weigh against your specific needs.",
     specs: ["5-gallon bin, micro-cut density", "12-sheet manual feed, P-4", "60-minute continuous run time", "LED bin-full indicator"],
     pros: ["Highest rating and review base in this guide", "Micro-cut density gives strong per-gallon capacity", "Long 60-minute run time complements the large bin", "Destroys CDs and credit cards too"],
     cons: ["Not the absolute largest bin in this guide", "12-sheet per-pass capacity is lower than the 18-sheet pick", "No transparent window explicitly confirmed"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/310qS+3q87L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5XPJ524?tag=deskfinds0d-20",
     description:
-      "A 5.5-gallon bin at a moderate price, genuinely large for the cost, holding roughly 900 sheets per full cycle when run continuously. Cross-cut particle density here is a reasonable middle ground between the most compact micro-cut picks and looser strip-cut alternatives.\n\nA solid mid-price choice if you want meaningful bin capacity without paying premium prices.",
+      "A 5.5-gallon bin at a moderate price, genuinely large for the cost, holding roughly 900 sheets per full cycle when run continuously. Cross-cut particle density here is a reasonable middle ground between the most compact micro-cut picks and looser strip-cut alternatives.\n\nA solid mid-price choice if you want meaningful bin capacity without paying premium prices.\n\nWorth knowing before you decide: Solid rating. On the other side, Shorter continuous run time than the premium picks. That's the main tradeoff to weigh against your specific needs.",
     specs: ["5.5-gallon bin, cross-cut density", "12-sheet manual feed, P-4", "15-minute continuous run time, ~900 sheets/cycle", "Jam-proof reverse system"],
     pros: ["Large 5.5-gallon bin at a moderate price", "Solid rating", "Jam-proof reverse system", "Reasonable capacity for the price"],
     cons: ["Shorter continuous run time than the premium picks", "12-sheet per-pass capacity limits total volume per session", "Not the largest bin in this guide"],
@@ -116,7 +116,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31H0gGU7jHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09N991KVT?tag=deskfinds0d-20",
     description:
-      "Also a 5.5-gallon bin, matching the rank-5 pick's capacity at a lower price, but with a shorter 6-minute continuous run time, meaning you'll fill this large bin more gradually across multiple shorter sessions rather than one long run. Its compact overall footprint is a genuine plus for tight spaces despite the large bin.\n\nA reasonable budget pick for buyers who want a large bin in a compact overall unit.",
+      "Also a 5.5-gallon bin, matching the rank-5 pick's capacity at a lower price, but with a shorter 6-minute continuous run time, meaning you'll fill this large bin more gradually across multiple shorter sessions rather than one long run. Its compact overall footprint is a genuine plus for tight spaces despite the large bin.\n\nA reasonable budget pick for buyers who want a large bin in a compact overall unit.\n\nWorth knowing before you decide: Compact overall footprint despite the bin size. On the other side, Shortest continuous run time in this guide, filling the bin takes multiple sessions. That's the main tradeoff to weigh against your specific needs.",
     specs: ["5.5-gallon bin, compact overall footprint", "12-sheet manual feed, P-4", "6-minute continuous run time", "Lowest price in this guide"],
     pros: ["Large 5.5-gallon bin at the lowest price in this guide", "Compact overall footprint despite the bin size", "Strong rating and review base", "Fits under a desk"],
     cons: ["Shortest continuous run time in this guide, filling the bin takes multiple sessions", "12-sheet per-pass capacity is modest", "Not the largest bin overall"],
@@ -133,7 +133,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31LSE9gHSWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DTKBX3D9?tag=deskfinds0d-20",
     description:
-      "A 5.3-gallon bin proportioned well against its 14-sheet capacity and 20-minute run time, capable of holding output from up to 1,400 sheets in one session before needing to empty. Casters help offset the weight of a fuller bin when moving it.\n\nLowest rating among the higher-capacity picks here, weigh that against the genuinely well-matched bin-to-capacity ratio.",
+      "A 5.3-gallon bin proportioned well against its 14-sheet capacity and 20-minute run time, capable of holding output from up to 1,400 sheets in one session before needing to empty. Casters help offset the weight of a fuller bin when moving it.\n\nLowest rating among the higher-capacity picks here, weigh that against the genuinely well-matched bin-to-capacity ratio.\n\nWorth knowing before you decide: Casters help with moving a fuller bin. On the other side, Lowest rating among the higher-capacity picks in this guide. That's the main tradeoff to weigh against your specific needs.",
     specs: ["5.3-gallon bin, casters", "14-sheet manual feed, P-4", "20-minute continuous run, up to 1,400 sheets/session", "ETL listed"],
     pros: ["Bin proportioned well to its higher run capacity", "Casters help with moving a fuller bin", "Higher per-pass capacity than 12-sheet picks", "Reasonable price"],
     cons: ["Lowest rating among the higher-capacity picks in this guide", "Not the largest bin overall", "Priced close to larger-bin alternatives"],
@@ -150,7 +150,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31GNS0CdNOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6LZG69W?tag=deskfinds0d-20",
     description:
-      "A 5-gallon bin at a very reasonable price, with by far the largest review base of any pick in this entire batch, real evidence of widespread satisfaction across a huge number of buyers. P-3 security is a step below the P-4 picks elsewhere in this guide, worth knowing if security level matters as much as bin size to you.\n\nA reasonable, extremely well-vetted choice if bin size, price, and proven reliability at scale matter most.",
+      "A 5-gallon bin at a very reasonable price, with by far the largest review base of any pick in this entire batch, real evidence of widespread satisfaction across a huge number of buyers. P-3 security is a step below the P-4 picks elsewhere in this guide, worth knowing if security level matters as much as bin size to you.\n\nA reasonable, extremely well-vetted choice if bin size, price, and proven reliability at scale matter most.\n\nWorth knowing before you decide: Reasonable price for the bin size. On the other side, P-3 security level, lower than the P-4 picks elsewhere in this guide. That's the main tradeoff to weigh against your specific needs.",
     specs: ["5-gallon bin, P-3 cross-cut", "12-sheet manual feed", "9-minute continuous run time", "4-mode control, LED indicators"],
     pros: ["Largest review base of any shredder in this entire guide series", "Reasonable price for the bin size", "9-minute run time is a genuine step up from the shortest picks", "Amazon Basics quality-tested"],
     cons: ["P-3 security level, lower than the P-4 picks elsewhere in this guide", "Not the largest bin in this specific guide", "12-sheet capacity is modest"],

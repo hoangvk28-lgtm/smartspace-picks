@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51+NCPHB1gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08K2NT2G7?tag=deskfinds0d-20",
     description:
-      "A 1080p resolution at 24 inches sits right in the pixel-density sweet spot, and this ProArt panel adds professional color accuracy on top of that solid resolution fit.\n\nAppropriate for buyers doing color-sensitive design or photo work who also want a compact, sharp desk footprint.",
+      "A 1080p resolution at 24 inches sits right in the pixel-density sweet spot, and this ProArt panel adds professional color accuracy on top of that solid resolution fit.\n\nAppropriate for buyers doing color-sensitive design or photo work who also want a compact, sharp desk footprint.\n\nWorth knowing before you decide: ProArt color accuracy suited to design and photo work. On the other side, Higher price than general-purpose 24-inch monitors. That's the main tradeoff to weigh against your specific needs.",
     specs: ["24-inch 1080p IPS panel", "USB-C connectivity", "ProArt color accuracy calibration", "Professional-grade build"],
     pros: ["1080p at 24 inches avoids visible pixelation", "ProArt color accuracy suited to design and photo work", "USB-C single-cable connectivity", "Professional-grade build quality"],
     cons: ["Higher price than general-purpose 24-inch monitors", "Verify USB-C power delivery wattage against your laptop", "1080p won't satisfy buyers wanting higher resolution at this size"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ye7a0oJkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHZVYNQ2?tag=deskfinds0d-20",
     description:
-      "A genuinely budget-friendly 24-inch 1080p IPS monitor with a surprisingly high 120Hz refresh rate for everyday productivity use.\n\nThe pixel-density sweet spot at this size means text and UI elements stay sharp without needing display scaling adjustments.",
+      "A genuinely budget-friendly 24-inch 1080p IPS monitor with a surprisingly high 120Hz refresh rate for everyday productivity use.\n\nThe pixel-density sweet spot at this size means text and UI elements stay sharp without needing display scaling adjustments.\n\nWorth knowing before you decide: Surprisingly high 120Hz refresh rate at this price point. On the other side, Fewer professional features than the ProArt alternative. That's the main tradeoff to weigh against your specific needs.",
     specs: ["24-inch 1080p IPS panel", "120Hz refresh rate", "USB-C connectivity", "Lowest price in this guide"],
     pros: ["Lowest price in this guide for a full-featured monitor", "Surprisingly high 120Hz refresh rate at this price point", "IPS panel for consistent viewing angles", "1080p at 24 inches avoids visible pixelation"],
     cons: ["Fewer professional features than the ProArt alternative", "Verify USB-C power delivery wattage against your laptop", "Standard 1080p resolution, not higher-end"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41jwWmarZtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZ3KWC3P?tag=deskfinds0d-20",
     description:
-      "A gaming-focused variant with a genuinely fast 1ms response time alongside 120Hz refresh rate, appropriate for buyers wanting the sharp pixel density of 24-inch 1080p with responsive gaming performance.\n\nThis fast response time reduces motion blur during quick on-screen movement, a real benefit for competitive or fast-paced gaming.",
+      "A gaming-focused variant with a genuinely fast 1ms response time alongside 120Hz refresh rate, appropriate for buyers wanting the sharp pixel density of 24-inch 1080p with responsive gaming performance.\n\nThis fast response time reduces motion blur during quick on-screen movement, a real benefit for competitive or fast-paced gaming.\n\nWorth knowing before you decide: 120Hz refresh rate for smooth gaming motion. On the other side, Verify USB-C power delivery wattage against your laptop. That's the main tradeoff to weigh against your specific needs.",
     specs: ["24-inch 1080p IPS panel", "120Hz refresh rate, 1ms response time", "USB-C connectivity", "Gaming-focused build"],
     pros: ["Genuinely fast 1ms response time reduces motion blur", "120Hz refresh rate for smooth gaming motion", "1080p at 24 inches avoids visible pixelation", "Budget-friendly for a gaming-focused monitor"],
     cons: ["Verify USB-C power delivery wattage against your laptop", "Gaming-focused features add little value for pure productivity use", "Standard 1080p resolution, not higher-end"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41tqJnA68CL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK46JV64?tag=deskfinds0d-20",
     description:
-      "A slightly smaller 22-inch essential Samsung panel for buyers wanting an even more compact footprint than a 24-inch monitor, appropriate for the smallest desk setups.\n\nA tilt-only stand keeps the design simple and budget-friendly, appropriate for buyers not needing extensive ergonomic adjustability.",
+      "A slightly smaller 22-inch essential Samsung panel for buyers wanting an even more compact footprint than a 24-inch monitor, appropriate for the smallest desk setups.\n\nA tilt-only stand keeps the design simple and budget-friendly, appropriate for buyers not needing extensive ergonomic adjustability.\n\nWorth knowing before you decide: Budget-friendly Samsung build quality. On the other side, Smaller than the 24-inch sweet spot, some buyers may want more workspace. That's the main tradeoff to weigh against your specific needs.",
     specs: ["22-inch IPS panel", "Tilt-only stand", "Compact footprint smaller than 24-inch", "Budget-friendly price"],
     pros: ["Very compact footprint smaller than a full 24-inch monitor", "Budget-friendly Samsung build quality", "IPS panel for consistent viewing angles", "Good fit for the smallest desk setups"],
     cons: ["Smaller than the 24-inch sweet spot, some buyers may want more workspace", "Tilt-only stand offers less ergonomic adjustability", "Verify USB-C power delivery wattage against your laptop"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41z0BPiXo6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FNQDB6JY?tag=deskfinds0d-20",
     description:
-      "Included as a reference point for buyers considering whether a much larger ultrawide might better serve their needs than staying within the compact 24-inch category.\n\nIf you find yourself needing significantly more workspace than 24 inches offers, this ultrawide format is worth comparing against a 24-inch panel directly.",
+      "Included as a reference point for buyers considering whether a much larger ultrawide might better serve their needs than staying within the compact 24-inch category.\n\nIf you find yourself needing significantly more workspace than 24 inches offers, this ultrawide format is worth comparing against a 24-inch panel directly.\n\nWorth knowing before you decide: IPS panel for consistent viewing angles across the curve. On the other side, Much larger desk footprint than a 24-inch monitor. That's the main tradeoff to weigh against your specific needs.",
     specs: ["34-inch curved ultrawide WQHD panel", "100Hz refresh rate", "IPS panel technology", "USB-C connectivity"],
     pros: ["Significantly more workspace than any 24-inch panel", "IPS panel for consistent viewing angles across the curve", "100Hz refresh rate for smoother motion", "Single-cable USB-C power delivery"],
     cons: ["Much larger desk footprint than a 24-inch monitor", "Significantly higher price than the 24-inch picks in this guide", "Not suited for the smallest desk setups"],

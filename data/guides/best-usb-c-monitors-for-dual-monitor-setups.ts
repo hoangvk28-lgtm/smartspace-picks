@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41uYhQ+-HGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GD21577Z?tag=deskfinds0d-20",
     description:
-      "Buying two identical units of this monitor gives a matched dual-monitor setup with consistent resolution, height, and refresh rate across both screens.\n\nThe pass-through connectivity common on this monitor class can simplify connecting a second unit without needing two dedicated laptop ports.",
+      "Buying two identical units of this monitor gives a matched dual-monitor setup with consistent resolution, height, and refresh rate across both screens.\n\nThe pass-through connectivity common on this monitor class can simplify connecting a second unit without needing two dedicated laptop ports.\n\nWorth knowing before you decide: 144Hz refresh rate for smoother motion across both monitors. On the other side, Verify pass-through connectivity specifics before assuming a simple second-monitor connection. That's the main tradeoff to weigh against your specific needs.",
     specs: ["27-inch QHD (2560x1440) panel", "144Hz refresh rate", "USB-C with power delivery", "Pass-through connectivity for a second unit"],
     pros: ["Buying two identical units avoids visual mismatch between screens", "144Hz refresh rate for smoother motion across both monitors", "Good value for building a matched pair", "Reliable Dell build quality"],
     cons: ["Verify pass-through connectivity specifics before assuming a simple second-monitor connection", "Two units at this price adds up, budget accordingly", "27-inch size needs adequate desk depth for two side-by-side panels"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41DSJsc4qKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09BXXWT6K?tag=deskfinds0d-20",
     description:
-      "A more budget-friendly QHD option, buying two matched units keeps a dual-monitor setup visually consistent while managing total cost.\n\nBuilt-in speakers on both units mean you can choose either monitor's audio output for video calls without extra equipment.",
+      "A more budget-friendly QHD option, buying two matched units keeps a dual-monitor setup visually consistent while managing total cost.\n\nBuilt-in speakers on both units mean you can choose either monitor's audio output for video calls without extra equipment.\n\nWorth knowing before you decide: Built-in speakers on both units for flexible audio setup. On the other side, Standard 75Hz refresh rate, not high-refresh gaming tier. That's the main tradeoff to weigh against your specific needs.",
     specs: ["27-inch WQHD (2560x1440) panel", "75Hz refresh rate", "USB-C connectivity", "Built-in speakers"],
     pros: ["Budget-friendly price for building a matched dual-monitor pair", "Built-in speakers on both units for flexible audio setup", "AMD FreeSync for smoother casual gaming motion", "Reliable Dell build quality"],
     cons: ["Standard 75Hz refresh rate, not high-refresh gaming tier", "Verify pass-through or dual-cable connectivity for your laptop's port count", "27-inch size needs adequate desk depth for two side-by-side panels"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51+NCPHB1gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08K2NT2G7?tag=deskfinds0d-20",
     description:
-      "ProArt's professional calibration matters more across a dual-monitor setup used for color-sensitive work, since consistent color across both screens avoids a jarring mismatch.\n\nA 24-inch 1080p panel also keeps a matched pair's combined footprint more compact than two larger monitors.",
+      "ProArt's professional calibration matters more across a dual-monitor setup used for color-sensitive work, since consistent color across both screens avoids a jarring mismatch.\n\nA 24-inch 1080p panel also keeps a matched pair's combined footprint more compact than two larger monitors.\n\nWorth knowing before you decide: Compact 24-inch size keeps combined footprint manageable. On the other side, Higher price for two units than general-purpose 1080p monitors. That's the main tradeoff to weigh against your specific needs.",
     specs: ["24-inch 1080p IPS panel", "USB-C connectivity", "ProArt color accuracy calibration", "Compact combined footprint for a matched pair"],
     pros: ["ProArt calibration ensures color consistency across both matched monitors", "Compact 24-inch size keeps combined footprint manageable", "USB-C single-cable connectivity", "Professional-grade build quality"],
     cons: ["Higher price for two units than general-purpose 1080p monitors", "1080p resolution won't satisfy buyers wanting higher resolution per panel", "Verify pass-through connectivity or budget for two laptop ports"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ye7a0oJkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHZVYNQ2?tag=deskfinds0d-20",
     description:
-      "A genuinely budget-friendly 24-inch panel, buying two matched units keeps total dual-monitor cost low while still avoiding visual mismatch between screens.\n\nA surprisingly high 120Hz refresh rate on both units gives smooth motion across the full dual-monitor workspace.",
+      "A genuinely budget-friendly 24-inch panel, buying two matched units keeps total dual-monitor cost low while still avoiding visual mismatch between screens.\n\nA surprisingly high 120Hz refresh rate on both units gives smooth motion across the full dual-monitor workspace.\n\nWorth knowing before you decide: Surprisingly high 120Hz refresh rate at this price point. On the other side, Fewer professional features than the ProArt alternative. That's the main tradeoff to weigh against your specific needs.",
     specs: ["24-inch 1080p IPS panel", "120Hz refresh rate", "USB-C connectivity", "Lowest price in this guide"],
     pros: ["Lowest combined price in this guide for a matched dual-monitor pair", "Surprisingly high 120Hz refresh rate at this price point", "IPS panel for consistent viewing angles across both screens", "Good entry point for a first dual-monitor setup"],
     cons: ["Fewer professional features than the ProArt alternative", "Standard 1080p resolution, not higher-end", "Verify your laptop has enough ports or pass-through support for two units"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41WGJRiwq3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1GFD44G?tag=deskfinds0d-20",
     description:
-      "A true 4K panel for buyers wanting the sharpest dual-monitor setup, aware that driving two 4K panels simultaneously puts real demand on your laptop's GPU and ports.\n\n99% sRGB coverage on both matched units ensures consistent color accuracy across the full dual-monitor workspace.",
+      "A true 4K panel for buyers wanting the sharpest dual-monitor setup, aware that driving two 4K panels simultaneously puts real demand on your laptop's GPU and ports.\n\n99% sRGB coverage on both matched units ensures consistent color accuracy across the full dual-monitor workspace.\n\nWorth knowing before you decide: 99% sRGB coverage for consistent color accuracy across both screens. On the other side, Highest combined price in this guide for two units. That's the main tradeoff to weigh against your specific needs.",
     specs: ["27-inch true 4K UHD IPS panel", "120Hz refresh rate", "99% sRGB color coverage", "High combined bandwidth demand for two units"],
     pros: ["True 4K resolution for the sharpest dual-monitor setup in this guide", "99% sRGB coverage for consistent color accuracy across both screens", "FreeSync Premium for smoother gaming", "IPS panel for consistent viewing angles"],
     cons: ["Highest combined price in this guide for two units", "Driving two 4K panels simultaneously demands a capable laptop GPU and port bandwidth", "Verify your laptop can handle the combined resolution and refresh rate demand"],

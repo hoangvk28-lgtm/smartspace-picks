@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41eopoolt1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FBXD383M?tag=deskfinds0d-20",
     description:
-      "The SD25TB4 Pro is Dell's current top-tier Thunderbolt 4 Smart Dock, bundled with a 180W adapter and support for 8K displays. As a Dell-branded dock it negotiates full-rated power delivery with a Dell laptop through Dell's proprietary power protocol, something a third-party dock can't replicate.\n\nIt ships with the Thunderbolt cable and a carrying cloth, and the 3-year warranty matches the support window most business-purchased Dell laptops carry. This is the pick for a Dell fleet where matching OEM support windows across the laptop and dock actually simplifies IT.",
+      "The SD25TB4 Pro is Dell's current top-tier Thunderbolt 4 Smart Dock, bundled with a 180W adapter and support for 8K displays. As a Dell-branded dock it negotiates full-rated power delivery with a Dell laptop through Dell's proprietary power protocol, something a third-party dock can't replicate.\n\nIt ships with the Thunderbolt cable and a carrying cloth, and the 3-year warranty matches the support window most business-purchased Dell laptops carry. This is the pick for a Dell fleet where matching OEM support windows across the laptop and dock actually simplifies IT.\n\nWorth knowing before you decide: 8K display support, the highest resolution ceiling in this list. On the other side, Most expensive pick in this list. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "Thunderbolt 4, supports 8K display output",
       "180W power adapter included",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21-k4dyJK1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F7SFQM2Y?tag=deskfinds0d-20",
     description:
-      "This SD25TB4 configuration delivers the same Thunderbolt 4 Smart Dock platform as the Pro model above, with 130W delivery, four display outputs, and built-in 2.5GbE and Wi-Fi, for meaningfully less money. Two DisplayPort 1.4 outputs plus HDMI 2.1 cover most multi-monitor Dell desk setups without needing a separate network adapter.\n\nIt's still a Dell-branded dock, so it gets the same OEM power negotiation advantage with Dell laptops that the Pro model does, just without the 8K ceiling or the 180W adapter.",
+      "This SD25TB4 configuration delivers the same Thunderbolt 4 Smart Dock platform as the Pro model above, with 130W delivery, four display outputs, and built-in 2.5GbE and Wi-Fi, for meaningfully less money. Two DisplayPort 1.4 outputs plus HDMI 2.1 cover most multi-monitor Dell desk setups without needing a separate network adapter.\n\nIt's still a Dell-branded dock, so it gets the same OEM power negotiation advantage with Dell laptops that the Pro model does, just without the 8K ceiling or the 180W adapter.\n\nWorth knowing before you decide: Built-in 2.5GbE, no separate network adapter needed. On the other side, No 8K support like the Pro model. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "130W power delivery",
       "Supports 4 displays, 4K resolution",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31HeDuEyhoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B13Y2QVW?tag=deskfinds0d-20",
     description:
-      "The WD22TB4 is Dell's previous-generation Thunderbolt 4 dock, one step below the newer SD25TB4 Smart Dock line but still a fully Dell-branded, OEM-power-negotiating dock at a lower price. At 130W it covers most Dell laptop charging needs without the newer model's extra networking hardware.\n\nBuyers considering a Dell dock marketed as modular or upgradeable should treat that claim carefully, no upgrade module is currently available for this generation despite the marketing language on similar Dell dock listings, so buy it for what it does today, not a future upgrade path.",
+      "The WD22TB4 is Dell's previous-generation Thunderbolt 4 dock, one step below the newer SD25TB4 Smart Dock line but still a fully Dell-branded, OEM-power-negotiating dock at a lower price. At 130W it covers most Dell laptop charging needs without the newer model's extra networking hardware.\n\nBuyers considering a Dell dock marketed as modular or upgradeable should treat that claim carefully, no upgrade module is currently available for this generation despite the marketing language on similar Dell dock listings, so buy it for what it does today, not a future upgrade path.\n\nWorth knowing before you decide: Lower price than the current SD25TB4 generation. On the other side, One generation behind Dell's current Smart Dock line. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "Thunderbolt 4, 130W power delivery",
       "Previous-generation Dell Smart Dock line",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21BjU0gArXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0916F5DTM?tag=deskfinds0d-20",
     description:
-      "The WD19TBS is the entry point into Dell's Thunderbolt dock lineup, with 130W power delivery and the same OEM power negotiation advantage as Dell's pricier docks. It's the WD19 family's Thunderbolt variant, distinct from the base USB-C-only WD19 that tops out lower on non-Dell laptops.\n\nOn first connection to a newer Dell laptop, this dock may not be recognized immediately, that's almost always Dell's Thunderbolt BIOS authorization defaulting to \"user authorization\" mode rather than a defective dock, and it's resolved by approving the device through the Windows notification or BIOS security settings.",
+      "The WD19TBS is the entry point into Dell's Thunderbolt dock lineup, with 130W power delivery and the same OEM power negotiation advantage as Dell's pricier docks. It's the WD19 family's Thunderbolt variant, distinct from the base USB-C-only WD19 that tops out lower on non-Dell laptops.\n\nOn first connection to a newer Dell laptop, this dock may not be recognized immediately, that's almost always Dell's Thunderbolt BIOS authorization defaulting to \"user authorization\" mode rather than a defective dock, and it's resolved by approving the device through the Windows notification or BIOS security settings.\n\nWorth knowing before you decide: Full OEM 130W delivery to Dell laptops. On the other side, Thunderbolt 3, not Thunderbolt 4 like the newer docks here. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "Thunderbolt 3, 130W power delivery",
       "Entry-level Dell Thunderbolt dock",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31mqa4FsYcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FGFW5FVD?tag=deskfinds0d-20",
     description:
-      "Plugable's TBT-UDM is a driverless, Thunderbolt-certified dock that works across Dell, Mac, and other Thunderbolt 4 laptops rather than being tied to one brand. It delivers 100W of power and drives a single 6K display or dual 4K displays over HDMI, with 6 USB ports plus SD and Ethernet.\n\nSince it's a third-party dock, a Dell laptop plugged into it gets standard 100W USB-C Power Delivery rather than Dell's proprietary OEM negotiation, worth knowing if you were expecting Dell's full-rated wattage from a non-Dell dock.",
+      "Plugable's TBT-UDM is a driverless, Thunderbolt-certified dock that works across Dell, Mac, and other Thunderbolt 4 laptops rather than being tied to one brand. It delivers 100W of power and drives a single 6K display or dual 4K displays over HDMI, with 6 USB ports plus SD and Ethernet.\n\nSince it's a third-party dock, a Dell laptop plugged into it gets standard 100W USB-C Power Delivery rather than Dell's proprietary OEM negotiation, worth knowing if you were expecting Dell's full-rated wattage from a non-Dell dock.\n\nWorth knowing before you decide: Works across brands, not locked to Dell. On the other side, Standard 100W PD to Dell laptops, not Dell's OEM full-rated wattage. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "Thunderbolt 4 certified, driverless setup",
       "100W charging",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ptzq7E2JL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CW9249DK?tag=deskfinds0d-20",
     description:
-      "Anker's Prime dock packs 14 ports and 160W max output into a single unit explicitly marketed as compatible with Dell, HP, Lenovo, and more, along with dual 4K displays and 10Gbps fast data transfer. The real-time smart interface shows connection status at a glance, useful when troubleshooting a port that isn't behaving.\n\nAs a third-party dock, it charges a Dell laptop at standard USB-C PD rates rather than Dell's proprietary OEM wattage, so treat its 160W max as an upper ceiling shared across ports rather than a guaranteed Dell-specific charge rate.",
+      "Anker's Prime dock packs 14 ports and 160W max output into a single unit explicitly marketed as compatible with Dell, HP, Lenovo, and more, along with dual 4K displays and 10Gbps fast data transfer. The real-time smart interface shows connection status at a glance, useful when troubleshooting a port that isn't behaving.\n\nAs a third-party dock, it charges a Dell laptop at standard USB-C PD rates rather than Dell's proprietary OEM wattage, so treat its 160W max as an upper ceiling shared across ports rather than a guaranteed Dell-specific charge rate.\n\nWorth knowing before you decide: Fast 10Gbps data transfer. On the other side, Standard USB-C PD to Dell laptops, not Dell's proprietary full-rated wattage. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "14 ports, 160W max output",
       "10Gbps fast data transfer",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31VkRux4RUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08DDH5CPW?tag=deskfinds0d-20",
     description:
-      "This Plugable dock drives 3 displays, one at 4K@30Hz and two at 1080p@60Hz, through DisplayLink software rather than native Thunderbolt, which is how it manages three simultaneous outputs at this price. That 4K output caps at 30Hz, which shows as noticeable cursor and video motion blur compared to a 60Hz connection, worth knowing before assuming any \"4K dock\" performs the same.\n\nIt delivers 100W PD to charge a Dell laptop over USB-C at standard rates, with 6 USB 5Gbps ports rounding out the connection options for accessories.",
+      "This Plugable dock drives 3 displays, one at 4K@30Hz and two at 1080p@60Hz, through DisplayLink software rather than native Thunderbolt, which is how it manages three simultaneous outputs at this price. That 4K output caps at 30Hz, which shows as noticeable cursor and video motion blur compared to a 60Hz connection, worth knowing before assuming any \"4K dock\" performs the same.\n\nIt delivers 100W PD to charge a Dell laptop over USB-C at standard rates, with 6 USB 5Gbps ports rounding out the connection options for accessories.\n\nWorth knowing before you decide: 100W charging over USB-C. On the other side, 4K output is capped at 30Hz, not 60Hz. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "3 displays: 1x 4K@30Hz HDMI, 2x 1080p@60Hz HDMI",
       "100W USB-C power delivery",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31RkQ3P6p3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08TQPTPCK?tag=deskfinds0d-20",
     description:
-      "HP's G5 is an 11-in-1 dock built for both USB-C and Thunderbolt-enabled laptops, including Dell machines, covering charging, networking, and data transfer in a compact enclosure. It's the cheapest pick in this list and still built for secure, remote-manageable business deployments.\n\nAs an HP-branded dock, Dell laptops connected to it charge at standard USB-C rates rather than Dell's proprietary OEM wattage, so it fits best as a low-cost universal option for a mixed-brand office rather than a Dell power-delivery upgrade.",
+      "HP's G5 is an 11-in-1 dock built for both USB-C and Thunderbolt-enabled laptops, including Dell machines, covering charging, networking, and data transfer in a compact enclosure. It's the cheapest pick in this list and still built for secure, remote-manageable business deployments.\n\nAs an HP-branded dock, Dell laptops connected to it charge at standard USB-C rates rather than Dell's proprietary OEM wattage, so it fits best as a low-cost universal option for a mixed-brand office rather than a Dell power-delivery upgrade.\n\nWorth knowing before you decide: Works across both USB-C and Thunderbolt laptops. On the other side, Standard PD to Dell laptops, not Dell's OEM full-rated wattage. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "11-in-1 USB-C and Thunderbolt compatible",
       "Charging, networking, and data transfer",

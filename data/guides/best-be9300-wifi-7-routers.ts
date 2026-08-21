@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/3179Kj81G3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJSNSVMR?tag=deskfinds0d-20",
     description:
-      "By far the largest review base of any pick in this guide, a genuine tri-band design with 6 internal antennas, offering real 6GHz radio capability at a competitive price for this tier.\n\nThe slightly lower average rating relative to review volume is worth noting, likely reflecting the broad range of home network conditions this popular model is tested against.",
+      "By far the largest review base of any pick in this guide, a genuine tri-band design with 6 internal antennas, offering real 6GHz radio capability at a competitive price for this tier.\n\nThe slightly lower average rating relative to review volume is worth noting, likely reflecting the broad range of home network conditions this popular model is tested against.\n\nWorth knowing before you decide: Genuine tri-band with real 6GHz radio. On the other side, Slightly lower average rating than smaller-sample picks. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Genuine tri-band with 6GHz radio", "6-stream, full 2.5G ports", "6 internal antennas", "Largest review base in this guide"],
     pros: ["By far the largest review base of any pick in this guide", "Genuine tri-band with real 6GHz radio", "Full 2.5G port configuration", "Competitive price for this tier"],
     cons: ["Slightly lower average rating than smaller-sample picks", "6GHz channel width should be verified per current firmware version", "EasyMesh expansion adds cost for larger homes"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21jixzpoeiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK7Q5SCN?tag=deskfinds0d-20",
     description:
-      "Rated for 2,500 sq ft and 100 devices, a genuinely larger coverage claim than the top pick, appropriate for a bigger home or higher device-count household at this tier.\n\nNETGEAR's established Nighthawk brand track record and gaming-focused tri-band marketing back this as a solid pick, though the higher price reflects the larger coverage and device-count rating.",
+      "Rated for 2,500 sq ft and 100 devices, a genuinely larger coverage claim than the top pick, appropriate for a bigger home or higher device-count household at this tier.\n\nNETGEAR's established Nighthawk brand track record and gaming-focused tri-band marketing back this as a solid pick, though the higher price reflects the larger coverage and device-count rating.\n\nWorth knowing before you decide: Established Nighthawk brand track record. On the other side, Higher price than the TP-Link Archer BE550. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Genuine tri-band, 9.3Gbps wireless speed", "Rated for 2,500 sq ft, 100 devices", "2.5 Gigabit internet port", "Gaming-focused tri-band design"],
     pros: ["Larger rated coverage and device count than the top pick", "Established Nighthawk brand track record", "2.5 Gigabit WAN port for fast internet plans", "Gaming-focused tri-band marketing"],
     cons: ["Higher price than the TP-Link Archer BE550", "Smaller review base than the top pick", "Verify actual 6GHz channel width for this specific model"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31aDV5B5NkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FB8X43KJ?tag=deskfinds0d-20",
     description:
-      "Five full 2.5G ports is a genuine differentiator at this tier, appropriate for a buyer with multiple wired multi-gig devices like a NAS, workstation, or additional switch to connect.\n\nGL.iNet's more technical, VPN-focused firmware appeals to buyers wanting deeper configuration control, verify MLO implementation maturity specifically for this chipset given per-vendor variation at this tier.",
+      "Five full 2.5G ports is a genuine differentiator at this tier, appropriate for a buyer with multiple wired multi-gig devices like a NAS, workstation, or additional switch to connect.\n\nGL.iNet's more technical, VPN-focused firmware appeals to buyers wanting deeper configuration control, verify MLO implementation maturity specifically for this chipset given per-vendor variation at this tier.\n\nWorth knowing before you decide: Strong VPN configuration options. On the other side, Less mainstream brand recognition than TP-Link or NETGEAR. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Genuine tri-band, 5×2.5G ports", "VPN-focused firmware", "More technical configuration options", "Solid review base"],
     pros: ["Five 2.5G ports, more than typical for this tier", "Strong VPN configuration options", "Solid review base and rating", "Appeals to technical buyers wanting configuration depth"],
     cons: ["Less mainstream brand recognition than TP-Link or NETGEAR", "Interface complexity may not suit less technical buyers", "MLO implementation maturity should be verified per current firmware"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415NxCTrJpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F76PQ2T8?tag=deskfinds0d-20",
     description:
-      "Technically a BE9700, included here as a genuine step-up option offering the full 320MHz 6GHz channel width, addressing the very channel-width cap concern that limits some BE6500/BE9300-tier products.\n\nA 10G port is a real differentiator for a buyer with 10-gigabit internet or a 10GbE NAS setup, worth the modest price premium over standard BE9300 picks if that infrastructure matters to you.",
+      "Technically a BE9700, included here as a genuine step-up option offering the full 320MHz 6GHz channel width, addressing the very channel-width cap concern that limits some BE6500/BE9300-tier products.\n\nA 10G port is a real differentiator for a buyer with 10-gigabit internet or a 10GbE NAS setup, worth the modest price premium over standard BE9300 picks if that infrastructure matters to you.\n\nWorth knowing before you decide: 10G port for 10-gigabit internet or NAS setups. On the other side, Technically a step above BE9300 branding. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Genuine tri-band, full 320MHz 6GHz channel width", "10G port plus 2.5G port and 3×2.5G LAN", "Rated for 2,600 sq ft, 120 devices", "HomeShield security included"],
     pros: ["Full 320MHz 6GHz channel width, no capped-tier limitation", "10G port for 10-gigabit internet or NAS setups", "Largest rated coverage and device count in this guide", "Solid review base and rating"],
     cons: ["Technically a step above BE9300 branding", "Higher price than pure BE9300-tier picks", "10G port benefit only matters with matching infrastructure"],

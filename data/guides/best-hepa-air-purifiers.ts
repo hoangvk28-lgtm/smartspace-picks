@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
-      "Explicitly certified True HEPA H13, removing 99.97% of particulates at 0.3 microns, genuinely verifiable rather than a vague 'HEPA-type' claim. By far the largest review base of any pick in this guide.\n\nNo substantial activated carbon layer confirmed, this HEPA filtration handles particulates well but won't meaningfully reduce smoke smell or chemical odors on its own.",
+      "Explicitly certified True HEPA H13, removing 99.97% of particulates at 0.3 microns, genuinely verifiable rather than a vague 'HEPA-type' claim. By far the largest review base of any pick in this guide.\n\nNo substantial activated carbon layer confirmed, this HEPA filtration handles particulates well but won't meaningfully reduce smoke smell or chemical odors on its own.\n\nWorth knowing before you decide: By far the largest review base of any pick in this guide. On the other side, No substantial activated carbon layer confirmed for odor control. That's the main tradeoff to weigh against your specific needs.",
     specs: ["True HEPA H13, removes 99.97% at 0.3 microns", "24dB quoted noise level", "Largest review base in this guide", "Affordable"],
     pros: ["Explicitly certified True HEPA, not a vague 'HEPA-type' claim", "By far the largest review base of any pick in this guide", "Removes 99.97% of particulates at 0.3 microns", "Affordable price"],
     cons: ["No substantial activated carbon layer confirmed for odor control", "Mid-life CADR degradation as the filter loads not independently tested", "No smart features"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419pAe7T0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTKAPUU?tag=deskfinds0d-20",
     description:
-      "An established, long-running HEPA design with a large review base and filter indicator to help track replacement timing before mid-life CADR degradation becomes significant. 3-year warranty.\n\nGenuinely listed for odor alongside HEPA filtration, verify the specific carbon layer's substantiality if odor control is a priority alongside particulate filtration.",
+      "An established, long-running HEPA design with a large review base and filter indicator to help track replacement timing before mid-life CADR degradation becomes significant. 3-year warranty.\n\nGenuinely listed for odor alongside HEPA filtration, verify the specific carbon layer's substantiality if odor control is a priority alongside particulate filtration.\n\nWorth knowing before you decide: Filter indicator helps track replacement timing. On the other side, Verify HEPA certification level and carbon layer substantiality. That's the main tradeoff to weigh against your specific needs.",
     specs: ["HEPA filter, up to 1748 sq ft rated", "Filter indicator, Auto/Eco mode", "3-year warranty", "Large review base"],
     pros: ["Large, well-established review base", "Filter indicator helps track replacement timing", "3-year warranty", "Marketed for both particulates and odor"],
     cons: ["Verify HEPA certification level and carbon layer substantiality", "Higher price than the top pick", "Whole-unit seal quality not independently tested"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31CcBFzC6wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08ND7C7P4?tag=deskfinds0d-20",
     description:
-      "A genuinely more affordable option with a solid review base, though verify whether this specific listing uses certified True HEPA or a looser 'HEPA-type' claim before assuming premium filtration performance.\n\nAt this budget tier, HEPA certification verification matters more, not less, since manufacturers competing on price have less incentive to pursue the stricter certified standard.",
+      "A genuinely more affordable option with a solid review base, though verify whether this specific listing uses certified True HEPA or a looser 'HEPA-type' claim before assuming premium filtration performance.\n\nAt this budget tier, HEPA certification verification matters more, not less, since manufacturers competing on price have less incentive to pursue the stricter certified standard.\n\nWorth knowing before you decide: Solid review base. On the other side, Verify certified True HEPA vs. HEPA-type claim before buying. That's the main tradeoff to weigh against your specific needs.",
     specs: ["HEPA filtration (verify certification level)", "Solid review base", "Budget-friendly", "Compact design"],
     pros: ["More affordable than premium alternatives", "Solid review base", "Compact design", "Reasonable performance for the price"],
     cons: ["Verify certified True HEPA vs. HEPA-type claim before buying", "No activated carbon layer confirmed", "No smart features or filter indicator"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/414NIpA+xLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B4ZSKPNL?tag=deskfinds0d-20",
     description:
-      "Explicitly certified True HEPA H13 in a genuinely compact, portable design at an affordable price, a real HEPA certification claim rather than 'HEPA-type' marketing language.\n\nSame HEPA-only limitation applies, no activated carbon layer confirmed here, understand this won't meaningfully reduce odors on its own.",
+      "Explicitly certified True HEPA H13 in a genuinely compact, portable design at an affordable price, a real HEPA certification claim rather than 'HEPA-type' marketing language.\n\nSame HEPA-only limitation applies, no activated carbon layer confirmed here, understand this won't meaningfully reduce odors on its own.\n\nWorth knowing before you decide: Portable with a useful night light feature. On the other side, No activated carbon layer confirmed for odor control. That's the main tradeoff to weigh against your specific needs.",
     specs: ["True HEPA H13 filter", "Night light feature", "Portable, small design", "Solid review base"],
     pros: ["Explicitly certified True HEPA H13, not a vague claim", "Portable with a useful night light feature", "Affordable", "Compact design"],
     cons: ["No activated carbon layer confirmed for odor control", "Lower rating than the top picks", "Smaller filter media, frequent replacement"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415AbiHqgpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BNDM2RNG?tag=deskfinds0d-20",
     description:
-      "A genuine washable pre-filter alongside HEPA filtration, understand the washable component captures larger particles only, the main HEPA filter itself still requires periodic replacement. Solid rating base.\n\nThe washable pre-filter reduces how quickly the main HEPA filter loads with large debris, but doesn't eliminate the HEPA filter's own replacement need entirely.",
+      "A genuine washable pre-filter alongside HEPA filtration, understand the washable component captures larger particles only, the main HEPA filter itself still requires periodic replacement. Solid rating base.\n\nThe washable pre-filter reduces how quickly the main HEPA filter loads with large debris, but doesn't eliminate the HEPA filter's own replacement need entirely.\n\nWorth knowing before you decide: Solid, well-established review base. On the other side, Main HEPA filter still requires periodic replacement. That's the main tradeoff to weigh against your specific needs.",
     specs: ["HEPA filtration with washable pre-filter", "Up to 1073 sq ft rated", "Solid review base", "Reduces pre-filter replacement cost"],
     pros: ["Washable pre-filter genuinely reduces some ongoing cost", "Solid, well-established review base", "Up to 1073 sq ft rated coverage", "HEPA filtration for particulates"],
     cons: ["Main HEPA filter still requires periodic replacement", "Higher price than basic HEPA-only picks", "Verify HEPA certification level"],

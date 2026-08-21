@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41MYGQyCPSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJ9G6F49?tag=deskfinds0d-20",
     description:
-      "Included accessories use standard hole-spacing hooks rather than proprietary gaming-specific mounting, a genuine compatibility advantage since you can add off-the-shelf pegboard hooks later.\n\nThis clamp-on design's weight capacity is worth testing against realistic gaming accessory weights, headset hooks and controller charging docks are meaningfully heavier than typical office pegboard items.",
+      "Included accessories use standard hole-spacing hooks rather than proprietary gaming-specific mounting, a genuine compatibility advantage since you can add off-the-shelf pegboard hooks later.\n\nThis clamp-on design's weight capacity is worth testing against realistic gaming accessory weights, headset hooks and controller charging docks are meaningfully heavier than typical office pegboard items.\n\nWorth knowing before you decide: 10 included accessories provide immediate functionality. On the other side, Compact size may limit total gaming accessory capacity. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Standard hole-spacing, clamp-on mount", "10 included accessories", "16.5\" x 12.6\"", "Solid review base"],
     pros: ["Standard hole-spacing compatible with off-the-shelf accessories", "10 included accessories provide immediate functionality", "Solid review base and rating", "Clamp-on mount doesn't require wall drilling"],
     cons: ["Compact size may limit total gaming accessory capacity", "Verify weight capacity against your specific heavier gaming items", "No RGB or gaming-specific lighting feature"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41L0K5UFHAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJ9HJGLB?tag=deskfinds0d-20",
     description:
-      "The same proven design and standard hole-spacing as the black variant, in white for a gaming desk aesthetic matching lighter color schemes.\n\nAesthetic gaming-desk-matching should be treated as a secondary consideration distinct from functional pegboard quality, this shares identical hole-spacing and weight capacity as the higher-rated black variant.",
+      "The same proven design and standard hole-spacing as the black variant, in white for a gaming desk aesthetic matching lighter color schemes.\n\nAesthetic gaming-desk-matching should be treated as a secondary consideration distinct from functional pegboard quality, this shares identical hole-spacing and weight capacity as the higher-rated black variant.\n\nWorth knowing before you decide: 10 included accessories. On the other side, Compact size may limit total gaming accessory capacity. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Standard hole-spacing, clamp-on mount", "10 included accessories", "16.5\" x 12.6\"", "Same proven design as black variant"],
     pros: ["Same proven standard hole-spacing as the black variant", "10 included accessories", "Matches lighter gaming desk aesthetics", "Slightly lower price than the black version"],
     cons: ["Compact size may limit total gaming accessory capacity", "White finish shows dust more visibly per general color-finish research", "No RGB or gaming-specific lighting feature"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41cKMuT+q0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DHRMN1CK?tag=deskfinds0d-20",
     description:
-      "Explicitly marketed for gaming setups with genuine wall-mounting flexibility, adhesive or screw mounts, appropriate for a buyer wanting a larger 33x22-inch pegboard area than the compact clamp-on options.\n\nThis larger surface area gives more room for gaming-specific accessories, headset hooks and controller mounts, verify these use standard mounting rather than a proprietary system specific to this kit.",
+      "Explicitly marketed for gaming setups with genuine wall-mounting flexibility, adhesive or screw mounts, appropriate for a buyer wanting a larger 33x22-inch pegboard area than the compact clamp-on options.\n\nThis larger surface area gives more room for gaming-specific accessories, headset hooks and controller mounts, verify these use standard mounting rather than a proprietary system specific to this kit.\n\nWorth knowing before you decide: Larger 33x22-inch surface area than compact alternatives. On the other side, Lower average rating than the compact PEGZONE picks. That's the main tradeoff to weigh against your specific needs.",
     specs: ["33\" x 22\", explicitly gaming-marketed", "Adhesive and screw mounting options", "Includes gaming-oriented accessories", "Solid review base"],
     pros: ["Explicitly marketed and designed for gaming setups", "Larger 33x22-inch surface area than compact alternatives", "Flexible adhesive or screw wall mounting", "Includes gaming-oriented accessory set"],
     cons: ["Lower average rating than the compact PEGZONE picks", "Requires wall space rather than desk-clamp convenience", "Verify accessory hole-spacing compatibility with standard hooks"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/4159H0T34aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CHMZNFB8?tag=deskfinds0d-20",
     description:
-      "A modular storage system design with a solid review base, genuinely useful for a gaming desk wanting to expand organization piece by piece as accessory needs grow.\n\nCross-reference this against the foundational pegboard hole-spacing and material-quality research, the modular system's individual pieces should share consistent standard spacing across the kit.",
+      "A modular storage system design with a solid review base, genuinely useful for a gaming desk wanting to expand organization piece by piece as accessory needs grow.\n\nCross-reference this against the foundational pegboard hole-spacing and material-quality research, the modular system's individual pieces should share consistent standard spacing across the kit.\n\nWorth knowing before you decide: Solid review base and rating. On the other side, Modularity adds assembly complexity versus a fixed single panel. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Modular storage system, black finish", "Solid review base", "Expandable configuration", "Wall-mounted design"],
     pros: ["Modular design allows expanding storage over time", "Solid review base and rating", "Flexible configuration for evolving gaming setups", "Reasonable price for a modular system"],
     cons: ["Modularity adds assembly complexity versus a fixed single panel", "Verify consistent hole-spacing across all modular pieces", "No explicit gaming-branded accessory kit included"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51q0NC8hQPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09NCZ53X9?tag=deskfinds0d-20",
     description:
-      "By far the largest review base of any pick in this guide, a plastic modular pegboard panel system genuinely marketed for gaming setups among other use cases.\n\nPlastic pegboard panels have a different weight-capacity profile than metal alternatives, verify this against realistic gaming-accessory weights specifically, heavier headsets and charging docks may need a metal-based option instead.",
+      "By far the largest review base of any pick in this guide, a plastic modular pegboard panel system genuinely marketed for gaming setups among other use cases.\n\nPlastic pegboard panels have a different weight-capacity profile than metal alternatives, verify this against realistic gaming-accessory weights specifically, heavier headsets and charging docks may need a metal-based option instead.\n\nWorth knowing before you decide: Genuinely modular and expandable system. On the other side, Plastic construction has a different weight-capacity profile than metal. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Plastic modular panels, tan brown finish", "22\" x 22\"", "By far the largest review base in this guide", "Multi-use marketing including gaming"],
     pros: ["By far the largest review base of any pick in this guide", "Genuinely modular and expandable system", "Multi-use design suits gaming and other organization needs", "Proven track record from massive review volume"],
     cons: ["Plastic construction has a different weight-capacity profile than metal", "Tan brown color may not match darker gaming aesthetics", "Verify capacity for heavier gaming-specific accessories"],

@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31z5JT0yL+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BIFNTMC?tag=deskfinds0d-20",
     description:
-      "Uses a 2.4GHz USB dongle rather than Bluetooth, which tends to give a more consistent connection than Bluetooth in a crowded desk environment with other wireless devices nearby.\n\nIt runs on AA batteries rather than a built-in rechargeable cell, which adds some weight to the body. Check the packaging or listing for whether a dongle storage slot is included before assuming one is.",
+      "Uses a 2.4GHz USB dongle rather than Bluetooth, which tends to give a more consistent connection than Bluetooth in a crowded desk environment with other wireless devices nearby.\n\nIt runs on AA batteries rather than a built-in rechargeable cell, which adds some weight to the body. Check the packaging or listing for whether a dongle storage slot is included before assuming one is.\n\nWorth knowing before you decide: Large review base for a wireless budget pick. On the other side, AA batteries add weight versus a rechargeable design. That's the main tradeoff to weigh against your specific needs.",
     specs: ["2.4GHz USB dongle", "AA battery powered", "Right-hand specific", "Budget price point"],
     pros: ["2.4GHz dongle tends to be more reliable than Bluetooth in busy signal environments", "Large review base for a wireless budget pick", "Simple plug-and-play pairing", "Low price"],
     cons: ["AA batteries add weight versus a rechargeable design", "No Bluetooth option for multi-device pairing", "Right-hand only"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31Ig2YzI5iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07FNJB8TT?tag=deskfinds0d-20",
     description:
-      "Supports both a 2.4GHz receiver and Bluetooth, letting you choose the more reliable dongle connection for your primary desk and Bluetooth for switching to a laptop or tablet on the go.\n\nIt uses a rechargeable built-in battery rather than AA cells, avoiding the added bulk, and the dongle has a small storage slot inside the mouse body on this model line, worth confirming in the current listing.",
+      "Supports both a 2.4GHz receiver and Bluetooth, letting you choose the more reliable dongle connection for your primary desk and Bluetooth for switching to a laptop or tablet on the go.\n\nIt uses a rechargeable built-in battery rather than AA cells, avoiding the added bulk, and the dongle has a small storage slot inside the mouse body on this model line, worth confirming in the current listing.\n\nWorth knowing before you decide: Rechargeable battery avoids AA bulk. On the other side, Premium price versus dongle-only picks. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Dual 2.4GHz and Bluetooth connectivity", "Rechargeable built-in battery", "Multi-device pairing", "Premium build"],
     pros: ["Genuine choice between dongle reliability and Bluetooth convenience", "Rechargeable battery avoids AA bulk", "Multi-device pairing support", "Strong review base"],
     cons: ["Premium price versus dongle-only picks", "Bluetooth mode may introduce more latency than the dongle", "Larger body may not suit smaller hands"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31rCoH07kzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07BFCVJZC?tag=deskfinds0d-20",
     description:
-      "Pairs a 2.4GHz dongle connection with a built-in rechargeable battery, which is a genuine advantage over AA-powered wireless mice at a similar price point since it avoids the added weight.\n\nIt does not include Bluetooth, so it's best suited to a single primary desk setup rather than frequent switching between multiple paired devices.",
+      "Pairs a 2.4GHz dongle connection with a built-in rechargeable battery, which is a genuine advantage over AA-powered wireless mice at a similar price point since it avoids the added weight.\n\nIt does not include Bluetooth, so it's best suited to a single primary desk setup rather than frequent switching between multiple paired devices.\n\nWorth knowing before you decide: Dongle connection tends to be reliable in busy environments. On the other side, No Bluetooth for multi-device switching. That's the main tradeoff to weigh against your specific needs.",
     specs: ["2.4GHz USB dongle", "Rechargeable built-in battery", "Budget price point", "Single-device pairing"],
     pros: ["Rechargeable battery at a genuinely budget price", "Dongle connection tends to be reliable in busy environments", "Strong review base", "Lightweight compared to AA-powered picks"],
     cons: ["No Bluetooth for multi-device switching", "Charging cable and port specifics should be confirmed in the listing", "Fewer buttons than premium picks"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31nb5ALnDvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09J1TB35S?tag=deskfinds0d-20",
     description:
-      "A more compact version of the dual-connectivity approach, supporting both a 2.4GHz dongle and Bluetooth in a smaller body suited to average and smaller hands.\n\nThe rechargeable battery avoids AA bulk, and multi-device software lets you remap buttons per paired device, useful if you regularly switch between a desktop and a laptop.",
+      "A more compact version of the dual-connectivity approach, supporting both a 2.4GHz dongle and Bluetooth in a smaller body suited to average and smaller hands.\n\nThe rechargeable battery avoids AA bulk, and multi-device software lets you remap buttons per paired device, useful if you regularly switch between a desktop and a laptop.\n\nWorth knowing before you decide: Rechargeable battery. On the other side, Mid-to-premium price versus budget dongle-only picks. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Dual 2.4GHz and Bluetooth connectivity", "Compact rechargeable body", "Multi-device software", "Mid-to-premium price"],
     pros: ["Compact body with full dual connectivity", "Rechargeable battery", "Multi-device button remapping software", "Strong review base"],
     cons: ["Mid-to-premium price versus budget dongle-only picks", "Bluetooth mode may add slight latency", "Fewer buttons than the larger MX Vertical"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31PGrLfkUxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CX18LHWS?tag=deskfinds0d-20",
     description:
-      "A 2.4GHz dongle-based wireless mouse with a rechargeable battery at a price close to AA-powered budget picks, which is a genuine value combination for buyers who want to avoid battery swaps.\n\nCheck the current listing for dongle storage and specific signal range claims, since real-world range in a cluttered desk setup is usually shorter than an idealized open-space figure.",
+      "A 2.4GHz dongle-based wireless mouse with a rechargeable battery at a price close to AA-powered budget picks, which is a genuine value combination for buyers who want to avoid battery swaps.\n\nCheck the current listing for dongle storage and specific signal range claims, since real-world range in a cluttered desk setup is usually shorter than an idealized open-space figure.\n\nWorth knowing before you decide: Solid review rating. On the other side, No Bluetooth option. That's the main tradeoff to weigh against your specific needs.",
     specs: ["2.4GHz USB dongle", "Rechargeable built-in battery", "Budget-to-mid price point", "Single-device pairing"],
     pros: ["Rechargeable battery at a competitive price", "Solid review rating", "Dongle connection tends to be reliable", "Lightweight body"],
     cons: ["No Bluetooth option", "Smaller review base than the top picks in this guide", "Dongle storage should be confirmed before buying"],
@@ -116,7 +116,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41DVlxxe4WL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DVD5RTZ5?tag=deskfinds0d-20",
     description:
-      "A 6-button wireless layout gives more programmable shortcuts than most picks in this guide, useful for buyers who want productivity remapping across their wireless setup.\n\nIts review base is smaller and the average rating is more moderate than the other picks here, so weigh that against the extra buttons and rechargeable convenience before choosing this over a better-reviewed alternative.",
+      "A 6-button wireless layout gives more programmable shortcuts than most picks in this guide, useful for buyers who want productivity remapping across their wireless setup.\n\nIts review base is smaller and the average rating is more moderate than the other picks here, so weigh that against the extra buttons and rechargeable convenience before choosing this over a better-reviewed alternative.\n\nWorth knowing before you decide: Rechargeable battery. On the other side, Smaller review base and more moderate 4.0-star rating. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Wireless connectivity", "6 programmable buttons", "Rechargeable battery", "Premium price point"],
     pros: ["More programmable buttons than most wireless vertical mice", "Rechargeable battery", "Ergonomic vertical body", "Software support for button remapping"],
     cons: ["Smaller review base and more moderate 4.0-star rating", "Premium price relative to its rating", "Dongle storage and range not independently confirmed"],
@@ -133,7 +133,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ttLEqu0hL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GNMPGM7G?tag=deskfinds0d-20",
     description:
-      "A wireless vertical mouse explicitly sized for small to medium hands, with a very strong review rating though on a small sample size worth weighing against the more established picks in this guide.\n\nCheck the current listing for whether it uses a 2.4GHz dongle, Bluetooth, or both, since this detail matters if you plan to pair it across multiple devices.",
+      "A wireless vertical mouse explicitly sized for small to medium hands, with a very strong review rating though on a small sample size worth weighing against the more established picks in this guide.\n\nCheck the current listing for whether it uses a 2.4GHz dongle, Bluetooth, or both, since this detail matters if you plan to pair it across multiple devices.\n\nWorth knowing before you decide: Very strong review rating. On the other side, Small review sample size, verify current feedback. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Explicit small/medium hand sizing", "57-degree tilt angle", "Wireless connectivity", "Budget price point"],
     pros: ["Genuinely sized for small to medium hands", "Very strong review rating", "Budget-friendly price", "Disclosed tilt angle"],
     cons: ["Small review sample size, verify current feedback", "Wireless method (dongle versus Bluetooth) should be confirmed in the listing", "Less established brand track record than premium picks"],
@@ -150,7 +150,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41XVdqDE3aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9PDRYZK?tag=deskfinds0d-20",
     description:
-      "A wireless vertical mouse with a 2400 DPI sensor and a 5D rocker button for extra controls, a reasonable crossover pick if you want a single wireless mouse for both office use and casual gaming.\n\nIts review sample is small, so verify current buyer feedback on wireless connection stability before relying on it for daily use.",
+      "A wireless vertical mouse with a 2400 DPI sensor and a 5D rocker button for extra controls, a reasonable crossover pick if you want a single wireless mouse for both office use and casual gaming.\n\nIts review sample is small, so verify current buyer feedback on wireless connection stability before relying on it for daily use.\n\nWorth knowing before you decide: Budget-friendly price for the feature set. On the other side, Small review sample size, verify current buyer feedback. That's the main tradeoff to weigh against your specific needs.",
     specs: ["2400 DPI sensor", "5D rocker button for extra controls", "Wireless connectivity", "Small review sample"],
     pros: ["Wireless connectivity with a genuinely extra control input", "Budget-friendly price for the feature set", "Works for both office and casual gaming use", "5D rocker button adds versatility"],
     cons: ["Small review sample size, verify current buyer feedback", "2400 DPI ceiling is modest compared to dedicated gaming mice", "Wireless method not fully detailed in the listing"],

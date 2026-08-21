@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31Nz-Myx-1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09YVJN8R7?tag=deskfinds0d-20",
     description:
-      "The Letaya 3-drawer arrives fully assembled, a real time-saver compared to the assembly-required picks in this list, and its size is built specifically to slide under a standard desk. It includes a locking mechanism across the drawers and supports letter, legal, and A4 sized hanging files, covering the most common document sizes in a home office.\n\nAt 3 drawers it holds more than the compact 2-drawer picks below without taking up floor space beyond the desk footprint, making it a strong pick if under-desk storage is the priority over a larger standalone cabinet.",
+      "The Letaya 3-drawer arrives fully assembled, a real time-saver compared to the assembly-required picks in this list, and its size is built specifically to slide under a standard desk. It includes a locking mechanism across the drawers and supports letter, legal, and A4 sized hanging files, covering the most common document sizes in a home office.\n\nAt 3 drawers it holds more than the compact 2-drawer picks below without taking up floor space beyond the desk footprint, making it a strong pick if under-desk storage is the priority over a larger standalone cabinet.\n\nWorth knowing before you decide: Fits under a standard desk. On the other side, Higher price than the basic 2-drawer picks. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "3 drawers, fully assembled",
       "Locking drawers",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31VGu0v5vDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B3MB5F56?tag=deskfinds0d-20",
     description:
-      "This is a different category of product than the rest of this list, a 71 inch tall lockable storage cabinet with 2 doors and 5 adjustable shelves rather than a traditional pull-out drawer file cabinet. It suits buyers who need general steel storage capacity, binders, supplies, or boxes, more than they need dedicated hanging file drawers.\n\nIts height and shelf count give it far more total storage volume than any drawer-based cabinet in this list, and the adjustable shelves let you configure the interior around whatever you're storing rather than being locked into fixed drawer heights.",
+      "This is a different category of product than the rest of this list, a 71 inch tall lockable storage cabinet with 2 doors and 5 adjustable shelves rather than a traditional pull-out drawer file cabinet. It suits buyers who need general steel storage capacity, binders, supplies, or boxes, more than they need dedicated hanging file drawers.\n\nIts height and shelf count give it far more total storage volume than any drawer-based cabinet in this list, and the adjustable shelves let you configure the interior around whatever you're storing rather than being locked into fixed drawer heights.\n\nWorth knowing before you decide: Adjustable shelves configure to your needs. On the other side, Not designed for hanging letter or legal files like the drawer cabinets in this list. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "71 inch tall cabinet",
       "2 lockable doors",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ukHwAN+yL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTNJY2HB?tag=deskfinds0d-20",
     description:
-      "This second Letaya pick uses a lateral layout, meaning the drawers open along the wider side of the cabinet rather than the narrower front, which needs more side clearance but less front-to-back depth than a vertical cabinet. It supports letter, legal, and A4 hanging files and includes a lock, matching the file compatibility of the 3-drawer pick above in a smaller 2-drawer footprint.\n\nAt roughly 28 inches wide, it's noticeably wider than the vertical cabinets in this list, worth checking against your available wall space before buying if your office is tight on side-to-side room.",
+      "This second Letaya pick uses a lateral layout, meaning the drawers open along the wider side of the cabinet rather than the narrower front, which needs more side clearance but less front-to-back depth than a vertical cabinet. It supports letter, legal, and A4 hanging files and includes a lock, matching the file compatibility of the 3-drawer pick above in a smaller 2-drawer footprint.\n\nAt roughly 28 inches wide, it's noticeably wider than the vertical cabinets in this list, worth checking against your available wall space before buying if your office is tight on side-to-side room.\n\nWorth knowing before you decide: Locking drawers. On the other side, Wider footprint needs more side clearance. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "2 drawers, lateral layout",
       "Locking drawers",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Aix6uWuJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBZ98D94?tag=deskfinds0d-20",
     description:
-      "The GYIIYUO adds a flat 24 inch extended desktop surface on top, functional as a printer stand or extra work surface, which none of the other drawer cabinets in this list include. Note that its drawer fronts use fabric rather than solid metal, so if all-metal construction throughout is a priority, this pick is a partial exception to that.\n\nIt also includes a side hanging bag for extra storage and rolls on casters for repositioning, fitting A4 and letter size files. This is a good pick specifically if you want a combined filing-and-surface solution rather than a pure file cabinet.",
+      "The GYIIYUO adds a flat 24 inch extended desktop surface on top, functional as a printer stand or extra work surface, which none of the other drawer cabinets in this list include. Note that its drawer fronts use fabric rather than solid metal, so if all-metal construction throughout is a priority, this pick is a partial exception to that.\n\nIt also includes a side hanging bag for extra storage and rolls on casters for repositioning, fitting A4 and letter size files. This is a good pick specifically if you want a combined filing-and-surface solution rather than a pure file cabinet.\n\nWorth knowing before you decide: Includes a side hanging bag for extra storage. On the other side, Fabric drawer fronts, not full metal construction. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "2 drawers, fabric drawer fronts",
       "24 inch extended desktop top",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31cXnfFFSML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQL795FX?tag=deskfinds0d-20",
     description:
-      "This is the narrowest vertical cabinet in this list, built specifically to slide into a tight under-desk gap rather than sit as a standalone piece. It includes a lock and supports letter, A4, and legal size files despite its slim footprint, and its listing notes easy assembly, a point worth checking against your own tolerance for cabinet setup.\n\nAt a low price point with a lock and multi-size file support, it's a reasonable pick if under-desk space is your main constraint and you don't need a wide, high-capacity cabinet.",
+      "This is the narrowest vertical cabinet in this list, built specifically to slide into a tight under-desk gap rather than sit as a standalone piece. It includes a lock and supports letter, A4, and legal size files despite its slim footprint, and its listing notes easy assembly, a point worth checking against your own tolerance for cabinet setup.\n\nAt a low price point with a lock and multi-size file support, it's a reasonable pick if under-desk space is your main constraint and you don't need a wide, high-capacity cabinet.\n\nWorth knowing before you decide: Locking drawers. On the other side, Smallest drawer capacity given the narrow width. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "2 drawers, narrow vertical layout",
       "Locking drawers",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31IIIyTZ29L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D2QSQZ1X?tag=deskfinds0d-20",
     description:
-      "The SteeLoong is a straightforward 2-drawer metal cabinet with a lock and no extra features beyond the core function, a fine choice if you just need basic locked file storage without an under-desk footprint requirement or extended top surface. Its rating and review count are both on the lower end of this list, which is worth weighing against the more established picks if long-term reliability data matters to you.\n\nThere's nothing distinctive about this pick beyond being a competent, no-frills locking metal file cabinet at a mid-range price.",
+      "The SteeLoong is a straightforward 2-drawer metal cabinet with a lock and no extra features beyond the core function, a fine choice if you just need basic locked file storage without an under-desk footprint requirement or extended top surface. Its rating and review count are both on the lower end of this list, which is worth weighing against the more established picks if long-term reliability data matters to you.\n\nThere's nothing distinctive about this pick beyond being a competent, no-frills locking metal file cabinet at a mid-range price.\n\nWorth knowing before you decide: Standard metal construction. On the other side, Lowest rating average in this list. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "2 drawers",
       "Locking mechanism",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31VM3xK++PL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D9XYD75W?tag=deskfinds0d-20",
     description:
-      "The BYNSOE is a standard 2-drawer vertical steel cabinet with a lock, letter size file support, and an assembly-required setup, similar in spec to the SteeLoong pick above but with a considerably higher review count backing its identical 4.0-star rating. That larger sample size gives its rating slightly more confidence than a cabinet with only a few hundred reviews.\n\nIt's a reasonable middle-of-the-list pick if you want a locked, all-steel cabinet with more buyer feedback behind it than the SteeLoong without paying extra for the assembled or under-desk-specific picks.",
+      "The BYNSOE is a standard 2-drawer vertical steel cabinet with a lock, letter size file support, and an assembly-required setup, similar in spec to the SteeLoong pick above but with a considerably higher review count backing its identical 4.0-star rating. That larger sample size gives its rating slightly more confidence than a cabinet with only a few hundred reviews.\n\nIt's a reasonable middle-of-the-list pick if you want a locked, all-steel cabinet with more buyer feedback behind it than the SteeLoong without paying extra for the assembled or under-desk-specific picks.\n\nWorth knowing before you decide: Locking drawers. On the other side, Assembly required. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "2 drawers, vertical layout",
       "Locking drawers",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31SplwEKN2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCG99Y8Y?tag=deskfinds0d-20",
     description:
-      "Honest note upfront: this listing has only 4 ratings so far, meaning its early 4.7-star average has essentially no statistical weight yet. It's included here for its spec sheet, 4 drawers plus a separate door compartment, 2 separate locks, and anti-tip design, all features none of the other picks in this list combine in one cabinet.\n\nIf you want the largest drawer count in this list and the anti-tip interlock, this is worth watching for more reviews to accumulate before treating the rating as reliable, or you can weigh the spec sheet on its own merits in the meantime.",
+      "Honest note upfront: this listing has only 4 ratings so far, meaning its early 4.7-star average has essentially no statistical weight yet. It's included here for its spec sheet, 4 drawers plus a separate door compartment, 2 separate locks, and anti-tip design, all features none of the other picks in this list combine in one cabinet.\n\nIf you want the largest drawer count in this list and the anti-tip interlock, this is worth watching for more reviews to accumulate before treating the rating as reliable, or you can weigh the spec sheet on its own merits in the meantime.\n\nWorth knowing before you decide: Anti-tip design, a safety feature many budget cabinets skip. On the other side, Very few ratings so far, early data only. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "4 drawers plus 1 door compartment",
       "2 separate locks",

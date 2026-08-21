@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41tqJnA68CL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK46JV64?tag=deskfinds0d-20",
     description:
-      "A genuinely compact 22-inch essential Samsung panel, appropriate for the smallest desk setups needing a reliable secondary or primary display without a large footprint.\n\nA tilt-only stand keeps the design simple and budget-friendly, straightforward scaling at standard resolution avoids any tiny-text concerns.",
+      "A genuinely compact 22-inch essential Samsung panel, appropriate for the smallest desk setups needing a reliable secondary or primary display without a large footprint.\n\nA tilt-only stand keeps the design simple and budget-friendly, straightforward scaling at standard resolution avoids any tiny-text concerns.\n\nWorth knowing before you decide: Budget-friendly Samsung build quality. On the other side, Tilt-only stand offers less ergonomic adjustability. That's the main tradeoff to weigh against your specific needs.",
     specs: ["22-inch IPS panel", "Tilt-only stand", "Compact footprint", "Budget-friendly price"],
     pros: ["Very compact footprint suited to the smallest desk setups", "Budget-friendly Samsung build quality", "IPS panel for consistent viewing angles", "Standard resolution avoids scaling complications"],
     cons: ["Tilt-only stand offers less ergonomic adjustability", "Verify USB-C power delivery wattage against your laptop", "Not suited as a primary display for extensive multitasking"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51jrQ-g06ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H4DCTPDL?tag=deskfinds0d-20",
     description:
-      "A genuinely small 15.6-inch panel running true 4K resolution, plan for significant display scaling adjustments to avoid tiny, hard-to-read text at this pixel density.\n\nTouchscreen input and 125% sRGB coverage add real value for buyers wanting detail and color accuracy in a small, portable package.",
+      "A genuinely small 15.6-inch panel running true 4K resolution, plan for significant display scaling adjustments to avoid tiny, hard-to-read text at this pixel density.\n\nTouchscreen input and 125% sRGB coverage add real value for buyers wanting detail and color accuracy in a small, portable package.\n\nWorth knowing before you decide: Touchscreen input for direct interaction. On the other side, Requires significant display scaling adjustment to avoid tiny text. That's the main tradeoff to weigh against your specific needs.",
     specs: ["15.6-inch true 4K portable panel", "Touchscreen input", "125% sRGB color coverage", "Requires significant display scaling"],
     pros: ["True 4K resolution in a genuinely small, portable panel", "Touchscreen input for direct interaction", "125% sRGB coverage exceeds standard color gamut", "USB-C single-cable connectivity"],
     cons: ["Requires significant display scaling adjustment to avoid tiny text", "Verify power draw from your laptop for extended use", "Not suited as a primary all-day productivity display"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51qgAD7WZSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP7XRW9S?tag=deskfinds0d-20",
     description:
-      "A straightforward, budget-friendly small 15.6-inch panel, appropriate for buyers wanting a compact secondary display for reference material or chat.\n\nStandard resolution at this size avoids the aggressive scaling adjustments a small 4K panel requires.",
+      "A straightforward, budget-friendly small 15.6-inch panel, appropriate for buyers wanting a compact secondary display for reference material or chat.\n\nStandard resolution at this size avoids the aggressive scaling adjustments a small 4K panel requires.\n\nWorth knowing before you decide: Standard resolution avoids aggressive scaling adjustments. On the other side, Fewer extra features than pricier alternatives. That's the main tradeoff to weigh against your specific needs.",
     specs: ["15.6-inch panel", "USB-C connectivity", "Budget-friendly price", "Standard resolution, minimal scaling needed"],
     pros: ["Budget-friendly price for a compact secondary display", "Standard resolution avoids aggressive scaling adjustments", "Compact, genuinely portable build", "Straightforward single-cable setup"],
     cons: ["Fewer extra features than pricier alternatives", "Not suited as a primary all-day productivity display", "Verify brightness rating for your intended use environment"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51qgAD7WZSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09K3FWMPL?tag=deskfinds0d-20",
     description:
-      "Includes a protective sleeve and built-in adjustable stand, genuinely useful extras for a small monitor intended as a secondary or travel-friendly display.\n\n1080P resolution at this size avoids scaling complications while still offering a meaningful resolution bump for reference material.",
+      "Includes a protective sleeve and built-in adjustable stand, genuinely useful extras for a small monitor intended as a secondary or travel-friendly display.\n\n1080P resolution at this size avoids scaling complications while still offering a meaningful resolution bump for reference material.\n\nWorth knowing before you decide: Built-in adjustable stand avoids extra accessories. On the other side, Not suited as a primary all-day productivity display. That's the main tradeoff to weigh against your specific needs.",
     specs: ["15.6-inch 1080P panel", "Included protective sleeve", "Built-in 90° adjustable stand", "Budget-friendly price"],
     pros: ["Included protective sleeve adds real travel value", "Built-in adjustable stand avoids extra accessories", "1080P resolution at this size avoids scaling complications", "Budget-friendly price"],
     cons: ["Not suited as a primary all-day productivity display", "Verify brightness rating for varied lighting use", "Standard resolution, not higher-end"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51qgAD7WZSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9NNWXVP?tag=deskfinds0d-20",
     description:
-      "The most budget-friendly small monitor option in this guide, appropriate for buyers wanting to test whether a compact secondary display fits their workflow before investing more.\n\nHDR support and IPS panel technology give reasonably good picture quality despite the low price point.",
+      "The most budget-friendly small monitor option in this guide, appropriate for buyers wanting to test whether a compact secondary display fits their workflow before investing more.\n\nHDR support and IPS panel technology give reasonably good picture quality despite the low price point.\n\nWorth knowing before you decide: HDR support and IPS panel for reasonable picture quality. On the other side, Lower rating than other picks in this guide, verify current reviews. That's the main tradeoff to weigh against your specific needs.",
     specs: ["15.6-inch FHD IPS panel", "HDR support", "USB-C and HDMI connectivity", "Lowest price in this guide"],
     pros: ["Lowest price in this guide for a full-featured small monitor", "HDR support and IPS panel for reasonable picture quality", "Good entry point for testing the small monitor format", "USB-C and HDMI dual connectivity"],
     cons: ["Lower rating than other picks in this guide, verify current reviews", "Not suited as a primary all-day productivity display", "Build quality less proven than higher-priced alternatives"],

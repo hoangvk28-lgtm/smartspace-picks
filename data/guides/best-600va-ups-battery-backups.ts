@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41h0sXfkrSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01FWAZEIU?tag=deskfinds0d-20",
     description:
-      "By far the largest review base of any UPS across this entire batch of guides, remarkably strong real-world evidence at the 600VA entry tier. 330W real capacity is genuinely enough for a computer, router, or NAS, but not a full desktop with a monitor.\n\nStandard replaceable battery keeps long-term cost predictable once the lead-acid cell ages out on its normal 3-5 year cycle.",
+      "By far the largest review base of any UPS across this entire batch of guides, remarkably strong real-world evidence at the 600VA entry tier. 330W real capacity is genuinely enough for a computer, router, or NAS, but not a full desktop with a monitor.\n\nStandard replaceable battery keeps long-term cost predictable once the lead-acid cell ages out on its normal 3-5 year cycle.\n\nWorth knowing before you decide: Most affordable pick here. On the other side, 330W real capacity, not for a full desktop with monitor. That's the main tradeoff to weigh against your specific needs.",
     specs: ["600VA/330W real capacity", "Standard replaceable battery", "Computer/router/NAS rated", "Most-reviewed UPS across this batch"],
     pros: ["Largest review base of any UPS in this entire batch of guides", "Most affordable pick here", "Standard replaceable battery", "Well-suited to a single low-power device"],
     cons: ["330W real capacity, not for a full desktop with monitor", "Short runtime under any real load", "Not pure sine wave"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41oXxtOnuAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00DBAAJQ6?tag=deskfinds0d-20",
     description:
-      "CyberPower's 'Ecologic' line focuses on reduced standby power draw, worth considering if you're optimizing for 24/7 energy cost at this capacity tier rather than just upfront price. LCD display shows load and runtime.\n\nSame realistic capacity expectation as every 600VA pick here, enough for a single low-power device, not a full desktop.",
+      "CyberPower's 'Ecologic' line focuses on reduced standby power draw, worth considering if you're optimizing for 24/7 energy cost at this capacity tier rather than just upfront price. LCD display shows load and runtime.\n\nSame realistic capacity expectation as every 600VA pick here, enough for a single low-power device, not a full desktop.\n\nWorth knowing before you decide: LCD for load/runtime visibility. On the other side, Not pure sine wave. That's the main tradeoff to weigh against your specific needs.",
     specs: ["600VA class, Ecologic reduced standby draw", "LCD display", "Surge protection", "Compact"],
     pros: ["Reduced standby power draw versus standard designs", "LCD for load/runtime visibility", "Solid rating base", "Reasonable price"],
     cons: ["Not pure sine wave", "Real capacity still modest at this tier", "Fewer outlets than higher-capacity picks"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41JHxO-mGhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0010DF6UK?tag=deskfinds0d-20",
     description:
-      "10 outlets at the 600VA tier, notably more than most competitors offer at this capacity, genuinely useful if you have several low-draw peripherals to plug in. The 3-year warranty with $100,000 connected-equipment insurance adds real peace of mind.\n\n325W real capacity, in line with the typical power factor math for this VA class, size accordingly.",
+      "10 outlets at the 600VA tier, notably more than most competitors offer at this capacity, genuinely useful if you have several low-draw peripherals to plug in. The 3-year warranty with $100,000 connected-equipment insurance adds real peace of mind.\n\n325W real capacity, in line with the typical power factor math for this VA class, size accordingly.\n\nWorth knowing before you decide: 3-year warranty with substantial connected-equipment insurance. On the other side, 325W real capacity, appropriate only for low-power devices. That's the main tradeoff to weigh against your specific needs.",
     specs: ["600VA/325W", "10 outlets", "3-Year warranty, $100,000 connected equipment insurance", "Compact form factor"],
     pros: ["10 outlets, more than most competitors at this capacity", "3-year warranty with substantial connected-equipment insurance", "Solid rating base", "Reasonable price"],
     cons: ["325W real capacity, appropriate only for low-power devices", "Not pure sine wave", "Short runtime under real load"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41RpdrMTUFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07GZR9DSK?tag=deskfinds0d-20",
     description:
-      "A genuinely affordable standby-topology option at this capacity, appropriate if your only need is basic outage protection for a router or single low-power device rather than a PC with any real headroom.\n\nStandby topology means it switches to battery on any sag rather than correcting voltage in-line, a real limitation to understand at this budget tier.",
+      "A genuinely affordable standby-topology option at this capacity, appropriate if your only need is basic outage protection for a router or single low-power device rather than a PC with any real headroom.\n\nStandby topology means it switches to battery on any sag rather than correcting voltage in-line, a real limitation to understand at this budget tier.\n\nWorth knowing before you decide: Solid rating base. On the other side, Standby topology only, no AVR or in-line correction. That's the main tradeoff to weigh against your specific needs.",
     specs: ["625VA class, standby topology", "Surge protection", "Compact", "Budget-friendly"],
     pros: ["Very affordable at this capacity tier", "Solid rating base", "Compact footprint", "Adequate for basic router/device protection"],
     cons: ["Standby topology only, no AVR or in-line correction", "Least real headroom among the 600VA picks", "Not suited to any device with real power demands"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41LNvUtwb2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000BMBT4I?tag=deskfinds0d-20",
     description:
-      "AVR included at this budget capacity tier, correcting minor brownouts in-line without draining the battery, genuinely useful over the ST625U's basic standby-only design. 8 outlets and dataline protection round out a well-equipped budget pick.\n\nSmaller review base than the other 600VA picks in this guide, weigh that against the genuine AVR feature advantage.",
+      "AVR included at this budget capacity tier, correcting minor brownouts in-line without draining the battery, genuinely useful over the ST625U's basic standby-only design. 8 outlets and dataline protection round out a well-equipped budget pick.\n\nSmaller review base than the other 600VA picks in this guide, weigh that against the genuine AVR feature advantage.\n\nWorth knowing before you decide: 8 outlets, dataline protection included. On the other side, Smaller review base than other picks in this guide. That's the main tradeoff to weigh against your specific needs.",
     specs: ["550VA class, AVR included", "8 outlets, dataline protection", "3-Year warranty with insurance", "Compact"],
     pros: ["AVR included, a real step up from basic standby designs at this price", "8 outlets, dataline protection included", "Warranty with connected-equipment insurance", "Reasonable price"],
     cons: ["Smaller review base than other picks in this guide", "Lowest capacity among the 600VA-class picks", "Not pure sine wave"],

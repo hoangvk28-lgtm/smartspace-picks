@@ -50,7 +50,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ptzq7E2JL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CW9249DK?tag=deskfinds0d-20",
     description:
-      "The Anker Prime packs 14 ports into a single dock, covering dual 4K displays, 10Gbps data transfer, and up to 160W of max output for buyers who want one dock to handle nearly everything a modern Surface Pro or Surface Laptop can throw at it. It's built for the newer USB-C-equipped Surface generations, Surface Pro 8 and later, Surface Laptop 4 and later, rather than older Surface Connect-only models.\n\nThe high port count means fewer daisy-chained hubs cluttering a desk, which matters for a Surface that gets picked up and carried around more than a typical laptop. Just confirm your specific Surface model actually has USB-C before buying, since not every generation does.",
+      "The Anker Prime packs 14 ports into a single dock, covering dual 4K displays, 10Gbps data transfer, and up to 160W of max output for buyers who want one dock to handle nearly everything a modern Surface Pro or Surface Laptop can throw at it. It's built for the newer USB-C-equipped Surface generations, Surface Pro 8 and later, Surface Laptop 4 and later, rather than older Surface Connect-only models.\n\nThe high port count means fewer daisy-chained hubs cluttering a desk, which matters for a Surface that gets picked up and carried around more than a typical laptop. Just confirm your specific Surface model actually has USB-C before buying, since not every generation does.\n\nWorth knowing before you decide: Strong 160W max output for power-hungry setups. On the other side, Requires a Surface generation with full USB-C, not Surface Connect-only models. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "14 ports total",
       "Up to 160W max output",
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41vRhWPsvhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BQJWKBMF?tag=deskfinds0d-20",
     description:
-      "This Plugable dock carries genuine Thunderbolt 4 certification, which matters more than it might seem: Thunderbolt 4 goes through strict Intel certification testing that guarantees compatibility, while USB4 docks are only \"should work\" compatible with Thunderbolt devices without that same guarantee. For a newer Surface Pro or Surface Laptop with a real Thunderbolt port, that certification removes a layer of guesswork.\n\nDual 4K monitor support and 100W charging cover most desk setups, and the dock is driverless, meaning it doesn't rely on manufacturer software that can lag behind Windows updates. It's the pick for buyers who specifically want the certified standard rather than a generic USB-C hub.",
+      "This Plugable dock carries genuine Thunderbolt 4 certification, which matters more than it might seem: Thunderbolt 4 goes through strict Intel certification testing that guarantees compatibility, while USB4 docks are only \"should work\" compatible with Thunderbolt devices without that same guarantee. For a newer Surface Pro or Surface Laptop with a real Thunderbolt port, that certification removes a layer of guesswork.\n\nDual 4K monitor support and 100W charging cover most desk setups, and the dock is driverless, meaning it doesn't rely on manufacturer software that can lag behind Windows updates. It's the pick for buyers who specifically want the certified standard rather than a generic USB-C hub.\n\nWorth knowing before you decide: Dual 4K display support. On the other side, Most expensive pick in this list. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "Genuine Thunderbolt 4 certification",
       "Dual 4K monitor support",
@@ -114,7 +114,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41e9eAIvbjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1XSKZRJ?tag=deskfinds0d-20",
     description:
-      "The UGREEN Revodok Pro is the cheapest pick in this entire guide, yet it still covers dual 4K@60Hz HDMI output and 10Gbps data transfer in a 7-in-1 design. For a Surface that mostly needs an extra monitor or two plus a few USB ports, this covers the basics without the higher price of a full-featured dock.\n\nIts 100W PD passthrough charges the Surface while it's docked, though buyers should remember that a dock rated for 100W typically delivers about 10-15W less to the laptop after the dock's own circuitry draws power, so the real charging speed will land a bit under the rated number.",
+      "The UGREEN Revodok Pro is the cheapest pick in this entire guide, yet it still covers dual 4K@60Hz HDMI output and 10Gbps data transfer in a 7-in-1 design. For a Surface that mostly needs an extra monitor or two plus a few USB ports, this covers the basics without the higher price of a full-featured dock.\n\nIts 100W PD passthrough charges the Surface while it's docked, though buyers should remember that a dock rated for 100W typically delivers about 10-15W less to the laptop after the dock's own circuitry draws power, so the real charging speed will land a bit under the rated number.\n\nWorth knowing before you decide: Dual 4K@60Hz HDMI support. On the other side, Fewer total ports than the higher-tier docks. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "7-in-1 USB-C hub",
       "Dual 4K@60Hz HDMI",
@@ -146,7 +146,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31mqa4FsYcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FGFW5FVD?tag=deskfinds0d-20",
     description:
-      "This Plugable model is genuinely Thunderbolt 4 certified and offers real display flexibility, dual 4K HDMI monitors or a single 6K display, making it a strong fit for a Surface Pro or Surface Laptop driving a demanding multi-monitor desk setup. Driverless setup keeps it simple across Windows updates.\n\n100W charging covers most Surface configurations, though buyers running high refresh rates on a Surface should check for a firmware update if they see flickering, since Windows handles external GPU signaling differently on 2-in-1 hardware than on standard laptops, and firmware updates are a genuinely useful first troubleshooting step.",
+      "This Plugable model is genuinely Thunderbolt 4 certified and offers real display flexibility, dual 4K HDMI monitors or a single 6K display, making it a strong fit for a Surface Pro or Surface Laptop driving a demanding multi-monitor desk setup. Driverless setup keeps it simple across Windows updates.\n\n100W charging covers most Surface configurations, though buyers running high refresh rates on a Surface should check for a firmware update if they see flickering, since Windows handles external GPU signaling differently on 2-in-1 hardware than on standard laptops, and firmware updates are a genuinely useful first troubleshooting step.\n\nWorth knowing before you decide: Certified Thunderbolt 4. On the other side, Pricier than the budget USB-C hub picks. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "Genuine Thunderbolt 4 certification",
       "Dual 4K HDMI or single 6K display",
@@ -178,7 +178,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41jaFGKHJgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874M3KW4?tag=deskfinds0d-20",
     description:
-      "This 8-in-1 Anker dock is the most compact, portable pick in this guide, which fits Surface's tablet-mode-friendly use case better than a bulky desktop dock. Surface owners tend to undock and redock far more often than typical clamshell laptop users, so a smaller, lighter dock that's easy to toss in a bag matters more here than raw port count.\n\nDual 4K monitor support and 85W PD passthrough cover a typical single-desk setup, and the smaller size means less desk clutter for a device that's frequently used away from the desk entirely.",
+      "This 8-in-1 Anker dock is the most compact, portable pick in this guide, which fits Surface's tablet-mode-friendly use case better than a bulky desktop dock. Surface owners tend to undock and redock far more often than typical clamshell laptop users, so a smaller, lighter dock that's easy to toss in a bag matters more here than raw port count.\n\nDual 4K monitor support and 85W PD passthrough cover a typical single-desk setup, and the smaller size means less desk clutter for a device that's frequently used away from the desk entirely.\n\nWorth knowing before you decide: Dual 4K monitor support. On the other side, Lower max charging output than the higher-power docks. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "8-in-1 port configuration",
       "Dual 4K monitor support",
@@ -210,7 +210,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Zt6JO09EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DW85W3FV?tag=deskfinds0d-20",
     description:
-      "The Acer 9-in-1 covers dual monitor output through 2 separate HDMI ports at a low price point, a straightforward option for a Surface user who just needs 2 external displays and a handful of USB ports without paying for Thunderbolt certification or a high wattage rating.\n\nIt's a good starter dock for a home office setup, though buyers pushing heavy simultaneous loads, dual displays plus a fast file transfer plus a USB drive, should watch for random disconnects, which are usually a bandwidth or load issue rather than a defective dock.",
+      "The Acer 9-in-1 covers dual monitor output through 2 separate HDMI ports at a low price point, a straightforward option for a Surface user who just needs 2 external displays and a handful of USB ports without paying for Thunderbolt certification or a high wattage rating.\n\nIt's a good starter dock for a home office setup, though buyers pushing heavy simultaneous loads, dual displays plus a fast file transfer plus a USB drive, should watch for random disconnects, which are usually a bandwidth or load issue rather than a defective dock.\n\nWorth knowing before you decide: Straightforward setup, no drivers. On the other side, Not Thunderbolt certified. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "9-in-1 port configuration",
       "2 HDMI ports for dual monitor output",
@@ -242,7 +242,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415StnCe4ML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GWH4ZZ7T?tag=deskfinds0d-20",
     description:
-      "Anker's Nano 8-in-1 covers dual monitor output at 4K@60Hz through HDMI, 85W PD, and an SD/TF card reader, useful for a Surface owner who also handles photo or video files on the side. It's priced close to the cheapest pick in this guide while adding the card reader the UGREEN model skips.\n\nIts nano form factor keeps it easy to carry, matching Surface's on-the-go use pattern, though buyers should still confirm real charging speed lands a bit under the rated 85W once the dock's own circuitry draws its share.",
+      "Anker's Nano 8-in-1 covers dual monitor output at 4K@60Hz through HDMI, 85W PD, and an SD/TF card reader, useful for a Surface owner who also handles photo or video files on the side. It's priced close to the cheapest pick in this guide while adding the card reader the UGREEN model skips.\n\nIts nano form factor keeps it easy to carry, matching Surface's on-the-go use pattern, though buyers should still confirm real charging speed lands a bit under the rated 85W once the dock's own circuitry draws its share.\n\nWorth knowing before you decide: Includes SD/TF card reader. On the other side, Not Thunderbolt certified. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "8-in-1 port configuration",
       "Dual monitor 4K@60Hz HDMI",
@@ -274,7 +274,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/310OoVrsP4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCLC1RMM?tag=deskfinds0d-20",
     description:
-      "This Anker Nano dock supports 3 displays at once through a 13-in-1 configuration with a detachable 6-in-1 hub, letting a Surface Pro or Surface Laptop drive a genuinely large multi-monitor setup without a Thunderbolt-only dock's higher price tag. 10Gbps USB-C data transfer and up to 100W max PD round it out.\n\nThe detachable hub is a practical touch for Surface's tablet-first use pattern, letting buyers carry just the smaller piece when working away from the main desk setup and reattach the full dock when back at their monitors.",
+      "This Anker Nano dock supports 3 displays at once through a 13-in-1 configuration with a detachable 6-in-1 hub, letting a Surface Pro or Surface Laptop drive a genuinely large multi-monitor setup without a Thunderbolt-only dock's higher price tag. 10Gbps USB-C data transfer and up to 100W max PD round it out.\n\nThe detachable hub is a practical touch for Surface's tablet-first use pattern, letting buyers carry just the smaller piece when working away from the main desk setup and reattach the full dock when back at their monitors.\n\nWorth knowing before you decide: Detachable hub adds travel flexibility. On the other side, Not Thunderbolt certified, USB-C only. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "13-in-1 with detachable 6-in-1 hub",
       "Supports 3 displays at once",

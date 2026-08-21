@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ODC2Uu41L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09GTRVJQM?tag=deskfinds0d-20",
     description:
-      "A genuinely compact design at an affordable price with a large review base, appropriately sized for a small room rather than oversized capacity that would run unnecessarily loud. \n\nCheck for dead zones in small rooms with poor air circulation, closed doors and minimal HVAC airflow can create corners this unit's effective range doesn't fully reach.",
+      "A genuinely compact design at an affordable price with a large review base, appropriately sized for a small room rather than oversized capacity that would run unnecessarily loud. \n\nCheck for dead zones in small rooms with poor air circulation, closed doors and minimal HVAC airflow can create corners this unit's effective range doesn't fully reach.\n\nWorth knowing before you decide: Large, well-established review base. On the other side, Verify dead-zone coverage in rooms with poor circulation. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Compact small-room design", "Large review base", "Affordable", "Appropriately sized for small spaces"],
     pros: ["Genuinely appropriately sized for a small room, not oversized", "Large, well-established review base", "Very affordable", "Compact footprint"],
     cons: ["Verify dead-zone coverage in rooms with poor circulation", "Filter media surface area likely smaller, check replacement frequency", "No smart features"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31e6d46ZnyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09LMF648R?tag=deskfinds0d-20",
     description:
-      "A large review base for a small-room-focused, quiet-emphasis design, genuinely appropriate scale rather than an oversized unit running loud to hit an unnecessary CADR rating.\n\nA small room's proportionally higher occupant-to-volume ratio makes hitting a real air-changes-per-hour target more meaningful here, appropriately sized capacity like this helps achieve that without excess noise.",
+      "A large review base for a small-room-focused, quiet-emphasis design, genuinely appropriate scale rather than an oversized unit running loud to hit an unnecessary CADR rating.\n\nA small room's proportionally higher occupant-to-volume ratio makes hitting a real air-changes-per-hour target more meaningful here, appropriately sized capacity like this helps achieve that without excess noise.\n\nWorth knowing before you decide: Quiet-focused design appropriate for small spaces. On the other side, Smaller filter media surface area than larger units. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Small-room, quiet-focused design", "Large review base", "Affordable", "Compact footprint"],
     pros: ["Large, well-established review base", "Quiet-focused design appropriate for small spaces", "Very affordable", "Appropriately scaled, not oversized"],
     cons: ["Smaller filter media surface area than larger units", "No smart features", "Check dead-zone coverage in your specific room layout"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41BE3lVftQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DY4S3HP2?tag=deskfinds0d-20",
     description:
-      "The most affordable pick in this guide with a solid review base, though rated up to 1076 sq ft, meaning it's genuinely oversized capacity for a truly small room if run at the same speed as its rated coverage.\n\nFor a genuinely small room, you can run this at a lower speed than its rated maximum, getting quieter operation while still meeting your actual air-changes-per-hour need.",
+      "The most affordable pick in this guide with a solid review base, though rated up to 1076 sq ft, meaning it's genuinely oversized capacity for a truly small room if run at the same speed as its rated coverage.\n\nFor a genuinely small room, you can run this at a lower speed than its rated maximum, getting quieter operation while still meeting your actual air-changes-per-hour need.\n\nWorth knowing before you decide: Solid review base. On the other side, Oversized capacity for a truly small room if run at full speed. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Up to 1076 sq ft rated", "Solid review base", "Most affordable in this guide", "High efficiency filter"],
     pros: ["Most affordable pick in this guide", "Solid review base", "Can run at lower, quieter speeds for a genuinely small room", "High efficiency filter"],
     cons: ["Oversized capacity for a truly small room if run at full speed", "No smart features", "Verify true HEPA certification"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/414NIpA+xLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B4ZSKPNL?tag=deskfinds0d-20",
     description:
-      "True HEPA H13 filtration in a genuinely portable, small design with a night light feature, appropriately scaled for a small room rather than an oversized unit. Solid review base.\n\nA small room's higher occupant-to-volume ratio makes actual air changes more perceptibly meaningful, this appropriately-sized unit is designed for that scale specifically.",
+      "True HEPA H13 filtration in a genuinely portable, small design with a night light feature, appropriately scaled for a small room rather than an oversized unit. Solid review base.\n\nA small room's higher occupant-to-volume ratio makes actual air changes more perceptibly meaningful, this appropriately-sized unit is designed for that scale specifically.\n\nWorth knowing before you decide: Portable design with a useful night light feature. On the other side, Lower rating than other picks in this guide. That's the main tradeoff to weigh against your specific needs.",
     specs: ["True HEPA H13 filter", "Night light feature", "Portable, small design", "Solid review base"],
     pros: ["Certified True HEPA H13 filtration", "Portable design with a useful night light feature", "Appropriately sized for a small room", "Affordable"],
     cons: ["Lower rating than other picks in this guide", "Smaller filter media, check replacement frequency", "No smart features"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Apo3YcVHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9SL7894?tag=deskfinds0d-20",
     description:
-      "Rated up to 880 sq ft, still meaningfully larger than a truly small room, meaning genuine headroom to run at a lower, quieter speed for your actual small space. Solid review base at an affordable price.\n\nRunning this below its rated maximum speed for a genuinely small room gets you quieter operation while still meeting your real ACH need.",
+      "Rated up to 880 sq ft, still meaningfully larger than a truly small room, meaning genuine headroom to run at a lower, quieter speed for your actual small space. Solid review base at an affordable price.\n\nRunning this below its rated maximum speed for a genuinely small room gets you quieter operation while still meeting your real ACH need.\n\nWorth knowing before you decide: Solid review base. On the other side, Rated coverage exceeds a truly small room's need. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Up to 880 sq ft rated", "Solid review base", "Affordable", "Compact design"],
     pros: ["Genuine headroom to run quieter in a small room", "Solid review base", "Affordable price", "Compact design"],
     cons: ["Rated coverage exceeds a truly small room's need", "No smart features", "Verify true HEPA certification specifics"],

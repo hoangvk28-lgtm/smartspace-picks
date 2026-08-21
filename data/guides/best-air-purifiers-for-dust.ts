@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
-      "Explicitly marketed for dust removal with certified True HEPA H13, by far the largest review base of any pick in this guide as real-world evidence of dust-reduction performance.\n\nUnderstand this meaningfully reduces airborne dust, it doesn't replace regular surface cleaning, dust settles faster than any purifier can capture it airborne.",
+      "Explicitly marketed for dust removal with certified True HEPA H13, by far the largest review base of any pick in this guide as real-world evidence of dust-reduction performance.\n\nUnderstand this meaningfully reduces airborne dust, it doesn't replace regular surface cleaning, dust settles faster than any purifier can capture it airborne.\n\nWorth knowing before you decide: By far the largest review base of any pick in this guide. On the other side, Doesn't replace regular surface cleaning. That's the main tradeoff to weigh against your specific needs.",
     specs: ["True HEPA H13, marketed for dust", "24dB quoted noise level", "Removes 99.97% of particulates", "Largest review base in this guide"],
     pros: ["Explicitly marketed and reviewed for dust removal", "By far the largest review base of any pick in this guide", "Certified True HEPA H13 filtration", "Affordable price"],
     cons: ["Doesn't replace regular surface cleaning", "Dust-heavy use shortens filter replacement intervals below standard estimate", "No activated carbon layer"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419pAe7T0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTKAPUU?tag=deskfinds0d-20",
     description:
-      "A filter indicator genuinely helps track replacement timing for dust-heavy environments where filters load faster than average use. Large review base, 3-year warranty.\n\nOlder homes with more settled dust reservoirs in carpets or vents may need more aggressive filter replacement than this unit's standard estimate suggests, adjust based on your home's specific dust source intensity.",
+      "A filter indicator genuinely helps track replacement timing for dust-heavy environments where filters load faster than average use. Large review base, 3-year warranty.\n\nOlder homes with more settled dust reservoirs in carpets or vents may need more aggressive filter replacement than this unit's standard estimate suggests, adjust based on your home's specific dust source intensity.\n\nWorth knowing before you decide: Filter indicator helps track dust-accelerated replacement timing. On the other side, Higher price than the top pick. That's the main tradeoff to weigh against your specific needs.",
     specs: ["HEPA filter, filter indicator", "Up to 1748 sq ft rated (open room)", "3-year warranty", "Large review base"],
     pros: ["Large, well-established review base", "Filter indicator helps track dust-accelerated replacement timing", "3-year warranty", "Established, proven design"],
     cons: ["Higher price than the top pick", "Doesn't replace regular surface dusting", "No specific construction-dust-tier durability claims"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31pCHKKqN2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01728NLRG?tag=deskfinds0d-20",
     description:
-      "The same proven dust-reduction design with a filter indicator in a white finish, appropriate for a lighter aesthetic while keeping the same maintenance tracking capability. Same 3-year warranty.\n\nA purifier actively stirring room air to capture dust can temporarily increase perceived airborne dust near the intake as settled dust gets re-suspended, don't worry if this happens during initial operation in a very dusty room.",
+      "The same proven dust-reduction design with a filter indicator in a white finish, appropriate for a lighter aesthetic while keeping the same maintenance tracking capability. Same 3-year warranty.\n\nA purifier actively stirring room air to capture dust can temporarily increase perceived airborne dust near the intake as settled dust gets re-suspended, don't worry if this happens during initial operation in a very dusty room.\n\nWorth knowing before you decide: 3-year warranty. On the other side, Higher price than the top pick. That's the main tradeoff to weigh against your specific needs.",
     specs: ["HEPA filter, filter indicator", "Up to 1748 sq ft rated (open room)", "3-year warranty", "White finish"],
     pros: ["Same proven dust-reduction design as the black variant", "3-year warranty", "White finish for lighter aesthetics", "Large, well-established review base"],
     cons: ["Higher price than the top pick", "Doesn't replace regular surface dusting", "Temporary dust-resuspension effect during initial operation"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31CcBFzC6wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08ND7C7P4?tag=deskfinds0d-20",
     description:
-      "A genuinely more affordable option with a solid review base, appropriate for routine household dust rather than a heavier-duty construction or renovation dust scenario.\n\nConstruction or renovation dust is finer and more abrasive than routine household dust and can clog filters faster than this unit may be designed for, use a more heavy-duty pick for that specific scenario.",
+      "A genuinely more affordable option with a solid review base, appropriate for routine household dust rather than a heavier-duty construction or renovation dust scenario.\n\nConstruction or renovation dust is finer and more abrasive than routine household dust and can clog filters faster than this unit may be designed for, use a more heavy-duty pick for that specific scenario.\n\nWorth knowing before you decide: Solid review base. On the other side, Not intended for construction/renovation-level dust. That's the main tradeoff to weigh against your specific needs.",
     specs: ["HEPA filtration", "Solid review base", "Budget-friendly", "Compact design"],
     pros: ["More affordable than premium alternatives", "Solid review base", "Compact design", "Reasonable performance for routine household dust"],
     cons: ["Not intended for construction/renovation-level dust", "No filter indicator to track accelerated replacement", "No smart features"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
-      "Rated up to 1875 sq ft, real headroom for a dustier environment near high-traffic areas or older homes with settled dust reservoirs in carpets and vents. Smart app control.\n\nDust composition varies by home type and nearby outdoor sources, size up if you're near construction, agricultural activity, or high-traffic roads specifically.",
+      "Rated up to 1875 sq ft, real headroom for a dustier environment near high-traffic areas or older homes with settled dust reservoirs in carpets and vents. Smart app control.\n\nDust composition varies by home type and nearby outdoor sources, size up if you're near construction, agricultural activity, or high-traffic roads specifically.\n\nWorth knowing before you decide: Smart app control for monitoring. On the other side, Higher price than compact alternatives. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Up to 1875 sq ft rated (open room)", "Smart app control", "Large review base", "Higher capacity for heavier dust loads"],
     pros: ["Large rated coverage for heavier dust environments", "Smart app control for monitoring", "Large, well-established review base", "Genuine headroom for older homes or outdoor dust sources"],
     cons: ["Higher price than compact alternatives", "Filter replacement schedule not adjusted for dust intensity specifically", "Larger footprint for a small room"],

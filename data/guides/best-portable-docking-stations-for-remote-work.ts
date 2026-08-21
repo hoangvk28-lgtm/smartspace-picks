@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41HZ73O5J4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXDQS4BD?tag=deskfinds0d-20",
     description:
-      "The UGREEN Revodok Pro 210 balances a genuinely portable footprint with dual 4K HDMI output, gigabit ethernet, and 100W pass-through charging, which is the combination most remote workers need without carrying two devices. It is bus-powered, so it draws from your laptop rather than needing its own brick, which keeps it light enough for a daily bag.\n\nA 5Gbps USB-C and USB-A data port plus an SD/TF 3.0 card reader round it out for anyone offloading photos or video on the road. Because it has no power brick of its own, it also clears airport security screening without needing a separate bin the way plug-in docks do.",
+      "The UGREEN Revodok Pro 210 balances a genuinely portable footprint with dual 4K HDMI output, gigabit ethernet, and 100W pass-through charging, which is the combination most remote workers need without carrying two devices. It is bus-powered, so it draws from your laptop rather than needing its own brick, which keeps it light enough for a daily bag.\n\nA 5Gbps USB-C and USB-A data port plus an SD/TF 3.0 card reader round it out for anyone offloading photos or video on the road. Because it has no power brick of its own, it also clears airport security screening without needing a separate bin the way plug-in docks do.\n\nWorth knowing before you decide: Dual 4K output covers most remote desk setups. On the other side, Bus-powered, so it can't charge your laptop and power displays simultaneously the way an AC dock can. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "10-in-1 USB-C hub, bus-powered",
       "Dual HDMI, single 8K@30Hz or dual 4K@60Hz",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ptzq7E2JL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CW9249DK?tag=deskfinds0d-20",
     description:
-      "The Anker Prime is the pick for remote workers who have one anchor location, a home office or a permanent desk at a co-working space, and want a dock that stays plugged in and charges the laptop while driving dual 4K displays at the same time. Its own 160W power supply means it isn't limited by what the laptop's USB-C port can output.\n\nA real-time smart interface, 10Gbps data transfer, and dedicated audio and ethernet ports make it feel closer to a permanent workstation than a travel accessory. It's heavier than the bus-powered picks in this list, so it's better left at a fixed location than carried daily.",
+      "The Anker Prime is the pick for remote workers who have one anchor location, a home office or a permanent desk at a co-working space, and want a dock that stays plugged in and charges the laptop while driving dual 4K displays at the same time. Its own 160W power supply means it isn't limited by what the laptop's USB-C port can output.\n\nA real-time smart interface, 10Gbps data transfer, and dedicated audio and ethernet ports make it feel closer to a permanent workstation than a travel accessory. It's heavier than the bus-powered picks in this list, so it's better left at a fixed location than carried daily.\n\nWorth knowing before you decide: Own power supply, not limited by laptop USB-C output. On the other side, Power brick must go in a separate bin at airport security. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "14-Port dock with dedicated 160W power supply",
       "Dual 4K display support",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31RkQ3P6p3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08TQPTPCK?tag=deskfinds0d-20",
     description:
-      "HP built the Dock G5 to work across both USB-C and Thunderbolt-enabled laptops, which matters for remote workers issued a corporate machine they didn't choose themselves. It handles charging, networking, and data transfer in one 11-in-1 unit designed with secure and remote management scenarios in mind.\n\nBecause it's an HP-branded business dock, IT departments are more likely to have pre-approved drivers for it, which sidesteps the driver-approval friction that can slow down third-party docks on locked-down corporate laptops.",
+      "HP built the Dock G5 to work across both USB-C and Thunderbolt-enabled laptops, which matters for remote workers issued a corporate machine they didn't choose themselves. It handles charging, networking, and data transfer in one 11-in-1 unit designed with secure and remote management scenarios in mind.\n\nBecause it's an HP-branded business dock, IT departments are more likely to have pre-approved drivers for it, which sidesteps the driver-approval friction that can slow down third-party docks on locked-down corporate laptops.\n\nWorth knowing before you decide: More likely to already be IT-approved on corporate devices. On the other side, Pricier than the bus-powered hub-style picks. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "11-in-1 adapter",
       "Works with both USB-C and Thunderbolt-enabled laptops",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41e9eAIvbjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1XSKZRJ?tag=deskfinds0d-20",
     description:
-      "At the cheapest price and among the lightest builds in this list, the UGREEN 7-in-1 still manages dual 4K@60Hz HDMI output and 10Gbps USB-A/C data ports in an aluminum shell. That combination of low weight and real dual-display support is rare at this price.\n\nIts 100W PD pass-through keeps a laptop topped up while docked, and the aluminum body dissipates heat better than plastic hubs of similar size, useful for anyone running it for full workdays in a warm coffee shop or shared office.",
+      "At the cheapest price and among the lightest builds in this list, the UGREEN 7-in-1 still manages dual 4K@60Hz HDMI output and 10Gbps USB-A/C data ports in an aluminum shell. That combination of low weight and real dual-display support is rare at this price.\n\nIts 100W PD pass-through keeps a laptop topped up while docked, and the aluminum body dissipates heat better than plastic hubs of similar size, useful for anyone running it for full workdays in a warm coffee shop or shared office.\n\nWorth knowing before you decide: Dual 4K@60Hz output despite its compact size. On the other side, Fewer total ports than the higher-end picks. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "7-in-1 USB-C hub",
       "Dual 4K@60Hz HDMI display support",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415StnCe4ML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GWH4ZZ7T?tag=deskfinds0d-20",
     description:
-      "Anker's Nano line is built around one goal, shrinking the dock as small as possible without dropping the ports a remote worker actually uses daily. It packs 4K@60Hz HDMI, a 10Gbps USB-C port, two USB-A ports, and an SD/TF card reader into a genuinely pocket-sized shell.\n\n85W PD pass-through covers most ultrabooks, though heavier gaming or workstation laptops may want more headroom. Because it has no brick, it's one of the easiest docks in this list to clear airport security with.",
+      "Anker's Nano line is built around one goal, shrinking the dock as small as possible without dropping the ports a remote worker actually uses daily. It packs 4K@60Hz HDMI, a 10Gbps USB-C port, two USB-A ports, and an SD/TF card reader into a genuinely pocket-sized shell.\n\n85W PD pass-through covers most ultrabooks, though heavier gaming or workstation laptops may want more headroom. Because it has no brick, it's one of the easiest docks in this list to clear airport security with.\n\nWorth knowing before you decide: 10Gbps USB-C data port is fast for its size. On the other side, Single external display only. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "8-in-1 USB-C dock, nano form factor",
       "4K@60Hz HDMI",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31AV-seE2eL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B088F7SY6S?tag=deskfinds0d-20",
     description:
-      "This 13-in-1 Anker dock supports triple display output across 2 HDMI ports and 1 DisplayPort, which suits a remote worker who sets up a temporary multi-monitor desk at a hotel business center or a co-working space with a spare monitor available. 10Gbps USB-C and 5Gbps USB-A data ports keep large file transfers reasonably quick.\n\n85W charging, ethernet, audio, and an SD reader round out the port list. One caveat worth knowing before connecting to a hotel TV: most hotel HDTVs run older HDMI versions with HDCP content protection, so a dock will usually mirror a desktop display fine but streaming apps on that same TV may still be blocked.",
+      "This 13-in-1 Anker dock supports triple display output across 2 HDMI ports and 1 DisplayPort, which suits a remote worker who sets up a temporary multi-monitor desk at a hotel business center or a co-working space with a spare monitor available. 10Gbps USB-C and 5Gbps USB-A data ports keep large file transfers reasonably quick.\n\n85W charging, ethernet, audio, and an SD reader round out the port list. One caveat worth knowing before connecting to a hotel TV: most hotel HDTVs run older HDMI versions with HDCP content protection, so a dock will usually mirror a desktop display fine but streaming apps on that same TV may still be blocked.\n\nWorth knowing before you decide: Fast 10Gbps USB-C data transfer. On the other side, Heavier and bulkier than the nano-style picks. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "13-in-1 USB-C docking station",
       "Triple display, 2x HDMI + 1x DisplayPort",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41jaFGKHJgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874M3KW4?tag=deskfinds0d-20",
     description:
-      "This 8-in-1 Anker dock hits a middle ground between the ultra-cheap nano hubs and the pricier multi-display docks, offering dual 4K HDMI output, gigabit ethernet, and 85W power delivery in a compact travel-friendly shell. An SD card reader covers basic photo offload needs.\n\nOne detail worth checking before relying on it for video calls: the included USB-A port on many docks in this price tier runs USB 2.0, which is fine for a standard 1080p webcam but not enough bandwidth for a full-resolution 4K webcam, so verify the port speed against your specific camera if image quality matters for client calls.",
+      "This 8-in-1 Anker dock hits a middle ground between the ultra-cheap nano hubs and the pricier multi-display docks, offering dual 4K HDMI output, gigabit ethernet, and 85W power delivery in a compact travel-friendly shell. An SD card reader covers basic photo offload needs.\n\nOne detail worth checking before relying on it for video calls: the included USB-A port on many docks in this price tier runs USB 2.0, which is fine for a standard 1080p webcam but not enough bandwidth for a full-resolution 4K webcam, so verify the port speed against your specific camera if image quality matters for client calls.\n\nWorth knowing before you decide: Gigabit ethernet is useful for stable video calls. On the other side, USB-A port is often USB 2.0, insufficient for a 4K webcam. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "8-in-1 USB-C hub",
       "4K dual monitor with 2 HDMI ports",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/5190VfU0ZEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D2BW24HM?tag=deskfinds0d-20",
     description:
-      "This 14-in-1 hub packs dual HDMI, DisplayPort, gigabit ethernet, 4 USB ports, 2 USB-C ports, a 100W PD charger port, an SD/TF reader, and audio into one bus-powered unit. That port density makes it a strong cafe or co-working companion since it needs no outlet of its own to function as a hub.\n\nBeing bus-powered means it draws battery from your laptop rather than an outlet, a real consideration on a longer cafe session without a free plug nearby, since running a docked setup off battery alone drains a laptop noticeably faster per hour than plugging in directly.",
+      "This 14-in-1 hub packs dual HDMI, DisplayPort, gigabit ethernet, 4 USB ports, 2 USB-C ports, a 100W PD charger port, an SD/TF reader, and audio into one bus-powered unit. That port density makes it a strong cafe or co-working companion since it needs no outlet of its own to function as a hub.\n\nBeing bus-powered means it draws battery from your laptop rather than an outlet, a real consideration on a longer cafe session without a free plug nearby, since running a docked setup off battery alone drains a laptop noticeably faster per hour than plugging in directly.\n\nWorth knowing before you decide: No outlet required to function as a hub. On the other side, Running docked off laptop battery alone drains it faster per hour than an AC dock would. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "14-in-1 multiport adapter, bus-powered",
       "Dual HDMI + DisplayPort, 4K support",

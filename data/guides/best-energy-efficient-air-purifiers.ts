@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419pAe7T0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTKAPUU?tag=deskfinds0d-20",
     description:
-      "Explicit Eco mode alongside a large rated coverage, genuine real-world evidence from a large review base of efficient operation over years of use. 3-year warranty.\n\nHigh CADR at this rated coverage genuinely supports a favorable CADR-per-watt ratio, more meaningful than raw wattage alone for assessing true efficiency.",
+      "Explicit Eco mode alongside a large rated coverage, genuine real-world evidence from a large review base of efficient operation over years of use. 3-year warranty.\n\nHigh CADR at this rated coverage genuinely supports a favorable CADR-per-watt ratio, more meaningful than raw wattage alone for assessing true efficiency.\n\nWorth knowing before you decide: Explicit Eco mode for efficient operation. On the other side, CADR-per-watt not explicitly calculated by the manufacturer. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Auto/Eco mode", "Up to 1748 sq ft rated (open room)", "3-year warranty", "Large review base"],
     pros: ["Large, well-established review base", "Explicit Eco mode for efficient operation", "High rated CADR supports favorable efficiency ratio", "3-year warranty"],
     cons: ["CADR-per-watt not explicitly calculated by the manufacturer", "Standby phantom power draw not disclosed", "Higher price than basic alternatives"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31pCHKKqN2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01728NLRG?tag=deskfinds0d-20",
     description:
-      "The same proven Eco-mode design in a white finish, appropriate for a lighter aesthetic while keeping the same efficiency claims and CADR-per-watt profile. Same 3-year warranty.\n\nSame efficiency considerations apply, raw wattage alone doesn't tell you efficiency, this pick's high CADR at this power draw supports a genuinely favorable ratio.",
+      "The same proven Eco-mode design in a white finish, appropriate for a lighter aesthetic while keeping the same efficiency claims and CADR-per-watt profile. Same 3-year warranty.\n\nSame efficiency considerations apply, raw wattage alone doesn't tell you efficiency, this pick's high CADR at this power draw supports a genuinely favorable ratio.\n\nWorth knowing before you decide: 3-year warranty. On the other side, CADR-per-watt not explicitly calculated by the manufacturer. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Auto/Eco mode", "Up to 1748 sq ft rated (open room)", "3-year warranty", "White finish"],
     pros: ["Same proven Eco-mode design as the black variant", "3-year warranty", "White finish for lighter aesthetics", "Large, well-established review base"],
     cons: ["CADR-per-watt not explicitly calculated by the manufacturer", "Standby phantom power draw not disclosed", "Higher price than basic alternatives"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
-      "By far the largest review base of any pick in this guide at an affordable price, appropriately sized for lower wattage draw for its coverage tier. True HEPA H13 filtration.\n\nDon't assume this unit's lower wattage automatically means better efficiency, verify its CADR at that wattage against a larger unit's CADR-per-watt ratio before assuming it's the more efficient choice.",
+      "By far the largest review base of any pick in this guide at an affordable price, appropriately sized for lower wattage draw for its coverage tier. True HEPA H13 filtration.\n\nDon't assume this unit's lower wattage automatically means better efficiency, verify its CADR at that wattage against a larger unit's CADR-per-watt ratio before assuming it's the more efficient choice.\n\nWorth knowing before you decide: Affordable price. On the other side, CADR-per-watt not independently calculated for comparison. That's the main tradeoff to weigh against your specific needs.",
     specs: ["True HEPA H13 filter", "Compact, lower wattage design", "Largest review base in this guide", "Affordable"],
     pros: ["By far the largest review base of any pick in this guide", "Affordable price", "Compact, appropriately sized wattage draw", "True HEPA H13 filtration"],
     cons: ["CADR-per-watt not independently calculated for comparison", "No Eco mode confirmed", "Standby phantom power draw not disclosed"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
-      "Rated up to 1875 sq ft, real capacity that supports a genuinely favorable CADR-per-watt ratio if run at an appropriately matched speed for your actual room rather than maxed out unnecessarily.\n\nSmart features add some standby power draw from WiFi circuitry, a minor phantom-load consideration alongside the unit's core operational efficiency.",
+      "Rated up to 1875 sq ft, real capacity that supports a genuinely favorable CADR-per-watt ratio if run at an appropriately matched speed for your actual room rather than maxed out unnecessarily.\n\nSmart features add some standby power draw from WiFi circuitry, a minor phantom-load consideration alongside the unit's core operational efficiency.\n\nWorth knowing before you decide: Smart app control for monitoring. On the other side, Smart WiFi circuitry adds some standby power draw. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Up to 1875 sq ft rated (open room)", "Smart app control", "Large review base", "Higher capacity design"],
     pros: ["Large rated coverage supports a favorable CADR-per-watt ratio", "Smart app control for monitoring", "Large, well-established review base", "Genuine capacity for a demanding room"],
     cons: ["Smart WiFi circuitry adds some standby power draw", "CADR-per-watt not explicitly calculated by the manufacturer", "Higher price than basic alternatives"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31CcBFzC6wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08ND7C7P4?tag=deskfinds0d-20",
     description:
-      "A genuinely more affordable option with a solid review base, appropriate if your primary concern is upfront price rather than a verified CADR-per-watt efficiency claim.\n\nAt this budget tier, running cost estimates are rarely provided with clear methodology, calculate your own realistic annual cost based on your actual usage pattern.",
+      "A genuinely more affordable option with a solid review base, appropriate if your primary concern is upfront price rather than a verified CADR-per-watt efficiency claim.\n\nAt this budget tier, running cost estimates are rarely provided with clear methodology, calculate your own realistic annual cost based on your actual usage pattern.\n\nWorth knowing before you decide: Solid review base. On the other side, No Eco mode or efficiency claims confirmed. That's the main tradeoff to weigh against your specific needs.",
     specs: ["HEPA filtration", "Solid review base", "Budget-friendly", "Compact design"],
     pros: ["More affordable than premium alternatives", "Solid review base", "Compact design", "Reasonable performance for the price"],
     cons: ["No Eco mode or efficiency claims confirmed", "CADR-per-watt not calculated for comparison", "No smart features"],

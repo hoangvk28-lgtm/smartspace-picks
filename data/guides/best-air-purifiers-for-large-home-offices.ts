@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
-      "Rated up to 1875 sq ft with smart app control, genuine headroom for a large home office where furniture and shelving obstruct airflow beyond what an open-room rating assumes.\n\nA large office with obstructions needs meaningfully more capacity than raw square footage suggests, this unit's rating provides real margin for that furniture-heavy reality.",
+      "Rated up to 1875 sq ft with smart app control, genuine headroom for a large home office where furniture and shelving obstruct airflow beyond what an open-room rating assumes.\n\nA large office with obstructions needs meaningfully more capacity than raw square footage suggests, this unit's rating provides real margin for that furniture-heavy reality.\n\nWorth knowing before you decide: Smart app control for monitoring. On the other side, Higher price than compact alternatives. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Up to 1875 sq ft rated (open room)", "Smart app control", "Large review base", "Genuine headroom for obstructed large rooms"],
     pros: ["Large rated coverage with real margin for furniture obstruction", "Smart app control for monitoring", "Large, well-established review base", "Genuine headroom for a big home office"],
     cons: ["Higher price than compact alternatives", "Larger footprint requires floor space", "Still needs supplemental coverage for a very large or open-plan office"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31CulL9tCOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08K3R8QPF?tag=deskfinds0d-20",
     description:
-      "A 5-stage design genuinely built for maximum coverage and CFM, appropriate for a very large open-plan home office or one with significant furniture and room dividers.\n\nAchieving 4-5 air changes per hour requires proportionally more CFM in a large room, this unit's higher-capacity design is built for that math rather than a standard-size room.",
+      "A 5-stage design genuinely built for maximum coverage and CFM, appropriate for a very large open-plan home office or one with significant furniture and room dividers.\n\nAchieving 4-5 air changes per hour requires proportionally more CFM in a large room, this unit's higher-capacity design is built for that math rather than a standard-size room.\n\nWorth knowing before you decide: Smart app control for monitoring. On the other side, Highest price in this guide by a wide margin. That's the main tradeoff to weigh against your specific needs.",
     specs: ["5-stage filtration", "Smart app control", "Higher CFM for very large rooms", "Multi-stage design"],
     pros: ["Highest CFM capacity in this guide for very large offices", "Smart app control for monitoring", "Multi-stage filtration depth", "Genuinely built for the largest home office spaces"],
     cons: ["Highest price in this guide by a wide margin", "Smaller review base than budget alternatives", "Overkill for a moderately sized home office"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Wb8TGSnPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT4F8T4L?tag=deskfinds0d-20",
     description:
-      "A large, well-established review base with True HEPA filtration and PlasmaWave odor control, a genuinely proven pick for a large office with a mix of dust, odor, and general air-quality needs.\n\nSize this against your actual room dimensions and furniture density, a heavily obstructed large office may still need to supplement with a second unit.",
+      "A large, well-established review base with True HEPA filtration and PlasmaWave odor control, a genuinely proven pick for a large office with a mix of dust, odor, and general air-quality needs.\n\nSize this against your actual room dimensions and furniture density, a heavily obstructed large office may still need to supplement with a second unit.\n\nWorth knowing before you decide: PlasmaWave addresses odor alongside particulate. On the other side, Not the largest rated coverage in this guide. That's the main tradeoff to weigh against your specific needs.",
     specs: ["PlasmaWave odor-neutralizing technology", "Large, established review base", "True HEPA filtration", "Multi-stage filtration"],
     pros: ["Large, well-established review base", "PlasmaWave addresses odor alongside particulate", "True HEPA filtration", "Proven, established design"],
     cons: ["Not the largest rated coverage in this guide", "Larger footprint than compact picks", "Furniture-heavy offices may need a second unit"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419pAe7T0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTKAPUU?tag=deskfinds0d-20",
     description:
-      "Rated for a substantial open-room coverage with an air quality monitor and filter indicator, genuinely useful in a large office where higher airflow accelerates filter loading.\n\nThe air quality monitor gives real-time feedback on whether the unit is actually keeping up with the room's real size and obstruction level.",
+      "Rated for a substantial open-room coverage with an air quality monitor and filter indicator, genuinely useful in a large office where higher airflow accelerates filter loading.\n\nThe air quality monitor gives real-time feedback on whether the unit is actually keeping up with the room's real size and obstruction level.\n\nWorth knowing before you decide: Air quality monitor confirms real-time performance. On the other side, Rated coverage assumes an open room without furniture. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Up to 1748 sq ft rated (open room)", "Air quality monitor, filter indicator", "3-year warranty", "Large review base"],
     pros: ["Substantial rated coverage for a large office", "Air quality monitor confirms real-time performance", "Filter indicator tracks accelerated large-room loading", "3-year warranty"],
     cons: ["Rated coverage assumes an open room without furniture", "Higher price than budget alternatives", "Not the highest CFM pick in this guide"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31K9NLoXncL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BN2MGV5H?tag=deskfinds0d-20",
     description:
-      "HEPASilent technology moves genuinely more air than a standard design, meaningful for a large office needing to hit 4-5 air changes per hour across more cubic footage.\n\nHigher CFM at a quieter operating level matters for a large office used for calls throughout the day, this unit balances that airflow-versus-noise tradeoff well.",
+      "HEPASilent technology moves genuinely more air than a standard design, meaningful for a large office needing to hit 4-5 air changes per hour across more cubic footage.\n\nHigher CFM at a quieter operating level matters for a large office used for calls throughout the day, this unit balances that airflow-versus-noise tradeoff well.\n\nWorth knowing before you decide: Air quality sensor for real-time monitoring. On the other side, Highest price relative to coverage among these picks. That's the main tradeoff to weigh against your specific needs.",
     specs: ["HEPASilent high-airflow technology", "Air quality sensor", "99.97% removal of airborne particulates", "Large-room rated"],
     pros: ["Higher airflow helps hit target air changes per hour in a large room", "Air quality sensor for real-time monitoring", "HEPASilent technology keeps noise down at high airflow", "Large-room coverage"],
     cons: ["Highest price relative to coverage among these picks", "Smaller review base than other picks here", "Not the largest rated square footage in this guide"],

@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
-      "Explicitly marketed across hair, dander, and odor together, with by far the largest review base of any pick here as real-world evidence it handles all three reasonably well rather than excelling at just one.\n\nA generalist design like this is a strong starting point, buyers with an especially heavy odor issue may still want a thicker carbon layer pick for longer-lasting odor control.",
+      "Explicitly marketed across hair, dander, and odor together, with by far the largest review base of any pick here as real-world evidence it handles all three reasonably well rather than excelling at just one.\n\nA generalist design like this is a strong starting point, buyers with an especially heavy odor issue may still want a thicker carbon layer pick for longer-lasting odor control.\n\nWorth knowing before you decide: By far the largest review base of any pick here. On the other side, Standard carbon layer thickness, not the deepest odor-control pick here. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Washable pre-filter for hair and dander", "True HEPA H13, 99.97% particulate removal", "Largest review base in this guide", "24dB quoted noise level"],
     pros: ["Explicitly marketed for the full pet-owner issue set", "By far the largest review base of any pick here", "Washable pre-filter design", "Affordable price"],
     cons: ["Standard carbon layer thickness, not the deepest odor-control pick here", "No smart app control", "Pre-filter still needs weekly pet-home attention"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Wb8TGSnPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT4F8T4L?tag=deskfinds0d-20",
     description:
-      "PlasmaWave technology adds a genuine odor-neutralizing layer beyond mechanical carbon filtration alone, a meaningful advantage for a pet owner whose primary complaint is smell rather than visible hair or dander.\n\nA large, well-established review base backs this as a proven pick specifically for the odor side of pet ownership, though it still needs the same regular pre-filter cleaning as any pick here.",
+      "PlasmaWave technology adds a genuine odor-neutralizing layer beyond mechanical carbon filtration alone, a meaningful advantage for a pet owner whose primary complaint is smell rather than visible hair or dander.\n\nA large, well-established review base backs this as a proven pick specifically for the odor side of pet ownership, though it still needs the same regular pre-filter cleaning as any pick here.\n\nWorth knowing before you decide: Large, well-established review base. On the other side, Higher price than the top pick. That's the main tradeoff to weigh against your specific needs.",
     specs: ["PlasmaWave odor-neutralizing technology", "Large, established review base", "True HEPA filtration", "Multi-stage filtration"],
     pros: ["PlasmaWave specifically targets odor beyond carbon alone", "Large, well-established review base", "True HEPA captures hair and dander too", "Proven, established design"],
     cons: ["Higher price than the top pick", "Larger footprint than compact alternatives", "Still needs regular mechanical pre-filter cleaning"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419pAe7T0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTKAPUU?tag=deskfinds0d-20",
     description:
-      "Explicitly marketed for pet dander with a filter indicator that helps track replacement timing, genuinely useful for an allergy-sensitive household where dander control is the priority over hair or odor alone.\n\nA large review base and 3-year warranty back this as a proven pick specifically for dander-sensitive buyers, though it costs more than the top generalist pick.",
+      "Explicitly marketed for pet dander with a filter indicator that helps track replacement timing, genuinely useful for an allergy-sensitive household where dander control is the priority over hair or odor alone.\n\nA large review base and 3-year warranty back this as a proven pick specifically for dander-sensitive buyers, though it costs more than the top generalist pick.\n\nWorth knowing before you decide: Filter indicator helps track replacement timing. On the other side, Higher price than the top generalist pick. That's the main tradeoff to weigh against your specific needs.",
     specs: ["HEPA filter marketed for pet dander", "Filter indicator for replacement timing", "3-year warranty", "Large review base"],
     pros: ["Explicitly marketed for pet dander control", "Filter indicator helps track replacement timing", "3-year warranty", "Large, well-established review base"],
     cons: ["Higher price than the top generalist pick", "No specific deep-carbon odor-control callout", "Larger footprint than compact picks"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31K9NLoXncL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BN2MGV5H?tag=deskfinds0d-20",
     description:
-      "HEPASilent technology moves genuinely more air than a standard design, and higher airflow matters more for pet hair specifically since hair particles are physically larger and heavier than dander or odor molecules.\n\nA heavy-shedding-breed household benefits most from this airflow advantage, buyers whose primary issue is odor or dander alone may not need this level of airflow specifically.",
+      "HEPASilent technology moves genuinely more air than a standard design, and higher airflow matters more for pet hair specifically since hair particles are physically larger and heavier than dander or odor molecules.\n\nA heavy-shedding-breed household benefits most from this airflow advantage, buyers whose primary issue is odor or dander alone may not need this level of airflow specifically.\n\nWorth knowing before you decide: Air quality sensor for real-time monitoring. On the other side, Highest price in this guide. That's the main tradeoff to weigh against your specific needs.",
     specs: ["HEPASilent high-airflow technology", "Air quality sensor", "99.97% removal of airborne particulates", "Large-room rated"],
     pros: ["Higher airflow specifically helps capture heavier pet hair", "Air quality sensor for real-time monitoring", "HEPASilent technology reduces noise at high airflow", "Large-room coverage"],
     cons: ["Highest price in this guide", "Smaller review base than other picks here", "Airflow advantage matters less for odor-only or dander-only households"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/316AtkHoSdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004VGIGVY?tag=deskfinds0d-20",
     description:
-      "A large review base at the lowest price in this guide, genuinely capable for a single-pet home with a moderate combined hair, dander, and odor load.\n\nA moderate single-pet load is a reasonable fit here, a multi-pet or heavy-odor household likely needs one of the specialized picks in this guide instead.",
+      "A large review base at the lowest price in this guide, genuinely capable for a single-pet home with a moderate combined hair, dander, and odor load.\n\nA moderate single-pet load is a reasonable fit here, a multi-pet or heavy-odor household likely needs one of the specialized picks in this guide instead.\n\nWorth knowing before you decide: Large, well-established review base. On the other side, Not specialized for heavy odor or heavy shedding. That's the main tradeoff to weigh against your specific needs.",
     specs: ["True HEPA filtration", "Large review base", "Budget-friendly", "Compact design"],
     pros: ["Lowest price in this guide", "Large, well-established review base", "True HEPA captures hair and dander", "Compact footprint"],
     cons: ["Not specialized for heavy odor or heavy shedding", "No filter indicator", "Fewer smart features than premium alternatives"],

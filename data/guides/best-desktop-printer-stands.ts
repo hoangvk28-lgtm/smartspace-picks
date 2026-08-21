@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41vlbbgz9NL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CBV7YJ8?tag=deskfinds0d-20",
     description:
-      "The HUANUO is a genuinely purpose-built desktop printer stand, with a 14.1-inch maximum shelf height, cable management cutouts, and a storage drawer underneath for paper or ink. Locking wheels let you shift it slightly without losing the level platform a printer needs to feed paper evenly.\n\nBecause it is designed specifically around printer dimensions rather than a computer tower, the shelf width and clearance fit typical desktop printers without the overhang risk that a repurposed riser can have.",
+      "The HUANUO is a genuinely purpose-built desktop printer stand, with a 14.1-inch maximum shelf height, cable management cutouts, and a storage drawer underneath for paper or ink. Locking wheels let you shift it slightly without losing the level platform a printer needs to feed paper evenly.\n\nBecause it is designed specifically around printer dimensions rather than a computer tower, the shelf width and clearance fit typical desktop printers without the overhang risk that a repurposed riser can have.\n\nWorth knowing before you decide: Cable cutouts keep cords tidy. On the other side, Taller footprint than a flat low riser. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "14.1\" maximum shelf height",
       "Locking caster wheels",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41IHibC0OTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CCV5YC4L?tag=deskfinds0d-20",
     description:
-      "HOOBRO's 2-tier stand is a real desktop printer riser designed for under-desk or on-desk use, with a built-in charging station that saves you from running an extra power strip for the printer or a phone. The rustic finish gives it a furniture look rather than a bare utility shelf appearance.\n\nTwo tiers mean the printer sits up top while paper or supplies sit on the shelf below, keeping both within reach without stacking one on top of the other.",
+      "HOOBRO's 2-tier stand is a real desktop printer riser designed for under-desk or on-desk use, with a built-in charging station that saves you from running an extra power strip for the printer or a phone. The rustic finish gives it a furniture look rather than a bare utility shelf appearance.\n\nTwo tiers mean the printer sits up top while paper or supplies sit on the shelf below, keeping both within reach without stacking one on top of the other.\n\nWorth knowing before you decide: 2 tiers separate printer and supply storage. On the other side, Smaller top shelf than dedicated printer carts. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "2-tier shelf design",
       "Built-in charging station",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GXCFMvygL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2RTY746?tag=deskfinds0d-20",
     description:
-      "This WALI is a monitor and laptop riser, not a printer-marketed product, and it belongs in this list because its low, flat, stable platform is genuinely usable as a small printer riser once you look past the branding. The underneath storage area gives you a spot for a paper stack or small supplies.\n\nAt this price it is the cheapest way to lift a compact printer a few inches off the desk, though its lower weight rating means it fits light single-function printers far better than a bulky all-in-one.",
+      "This WALI is a monitor and laptop riser, not a printer-marketed product, and it belongs in this list because its low, flat, stable platform is genuinely usable as a small printer riser once you look past the branding. The underneath storage area gives you a spot for a paper stack or small supplies.\n\nAt this price it is the cheapest way to lift a compact printer a few inches off the desk, though its lower weight rating means it fits light single-function printers far better than a bulky all-in-one.\n\nWorth knowing before you decide: Underneath storage adds a supply spot. On the other side, Not marketed or rated specifically for printers. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "Adjustable riser height",
       "Underneath storage area",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31hxCzq3j0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B083DMYKC9?tag=deskfinds0d-20",
     description:
-      "The Liitrton is built and marketed as a mobile CPU tower stand, not a printer riser, but its low, flat, adjustable platform is stable enough to use under a compact desktop printer instead of a computer tower. Rolling casters let you slide it out from under the desk when you need access.\n\nBecause it is designed around a tower's narrower footprint, check your printer's base dimensions against the platform before buying, wider all-in-one printers can overhang the edges.",
+      "The Liitrton is built and marketed as a mobile CPU tower stand, not a printer riser, but its low, flat, adjustable platform is stable enough to use under a compact desktop printer instead of a computer tower. Rolling casters let you slide it out from under the desk when you need access.\n\nBecause it is designed around a tower's narrower footprint, check your printer's base dimensions against the platform before buying, wider all-in-one printers can overhang the edges.\n\nWorth knowing before you decide: Rolling casters for easy repositioning. On the other side, Not designed with printer dimensions in mind. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "Adjustable width to fit different tower sizes",
       "Rolling casters",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/318IsyAsPXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C4T42TPC?tag=deskfinds0d-20",
     description:
-      "Another product built and sold as a mobile CPU tower stand rather than a printer riser, the Hovadova has a ventilated platform design with 4 caster wheels, which happens to be a genuine advantage for a printer riser since open ventilation helps dissipate heat better than a solid acrylic shelf would.\n\nIts adjustable width fits most tower-sized footprints, and the low profile keeps a compact printer at a comfortable reach height rather than stacking it awkwardly on a stack of books or a shelf that is too tall.",
+      "Another product built and sold as a mobile CPU tower stand rather than a printer riser, the Hovadova has a ventilated platform design with 4 caster wheels, which happens to be a genuine advantage for a printer riser since open ventilation helps dissipate heat better than a solid acrylic shelf would.\n\nIts adjustable width fits most tower-sized footprints, and the low profile keeps a compact printer at a comfortable reach height rather than stacking it awkwardly on a stack of books or a shelf that is too tall.\n\nWorth knowing before you decide: 4 casters make repositioning simple. On the other side, Not marketed or dimensioned for printers specifically. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "Ventilated platform design",
       "4 caster wheels",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ywKqvAx6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C4T4R1NN?tag=deskfinds0d-20",
     description:
-      "This is the white version of the Hovadova CPU tower stand, again sold and marketed as a computer tower riser rather than a printer stand, included here because the same ventilated, adjustable, wheeled platform works equally well under a compact printer as it does under a PC tower.\n\nThe white finish matches lighter desk setups better than the black version, and the functional specs, ventilation, 4 casters, adjustable width, are identical to its black sibling.",
+      "This is the white version of the Hovadova CPU tower stand, again sold and marketed as a computer tower riser rather than a printer stand, included here because the same ventilated, adjustable, wheeled platform works equally well under a compact printer as it does under a PC tower.\n\nThe white finish matches lighter desk setups better than the black version, and the functional specs, ventilation, 4 casters, adjustable width, are identical to its black sibling.\n\nWorth knowing before you decide: White finish suits lighter desk setups. On the other side, Not marketed or dimensioned for printers specifically. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "Ventilated platform design",
       "4 caster wheels",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31stRsB6CqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08GS9T78W?tag=deskfinds0d-20",
     description:
-      "The Pipishell is a general-purpose 3-tier rolling utility cart rather than a printer-specific product, but its slim open-shelf design gives a printer its own tier while the two remaining tiers handle paper and ink. The built-in handle makes it easy to roll the whole setup out from under a desk when you need floor space back.\n\nCompared to the low, flat risers in this list, the Pipishell adds real height, so it suits buyers who want the printer raised to counter or eye level rather than sitting just a few inches above the desk.",
+      "The Pipishell is a general-purpose 3-tier rolling utility cart rather than a printer-specific product, but its slim open-shelf design gives a printer its own tier while the two remaining tiers handle paper and ink. The built-in handle makes it easy to roll the whole setup out from under a desk when you need floor space back.\n\nCompared to the low, flat risers in this list, the Pipishell adds real height, so it suits buyers who want the printer raised to counter or eye level rather than sitting just a few inches above the desk.\n\nWorth knowing before you decide: Rolls easily to reclaim floor space. On the other side, Taller than a low desktop riser, not always desirable. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "3 tier open metal shelving",
       "Built-in push handle",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31aZXrzUvzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B081KBXT5N?tag=deskfinds0d-20",
     description:
-      "Another general-purpose metal utility cart rather than a printer-branded product, the Simple Houseware's heavy-duty steel frame gives it more real weight capacity than the acrylic risers and CPU stands in this list, which matters if your printer is a heavier laser all-in-one.\n\nThe open 3-tier design means airflow around the printer is unrestricted, a genuine plus for heat dissipation compared to a solid acrylic riser shelf, and the lower two tiers hold paper reams or a spare toner box.",
+      "Another general-purpose metal utility cart rather than a printer-branded product, the Simple Houseware's heavy-duty steel frame gives it more real weight capacity than the acrylic risers and CPU stands in this list, which matters if your printer is a heavier laser all-in-one.\n\nThe open 3-tier design means airflow around the printer is unrestricted, a genuine plus for heat dissipation compared to a solid acrylic riser shelf, and the lower two tiers hold paper reams or a spare toner box.\n\nWorth knowing before you decide: Open shelving allows good airflow around the printer. On the other side, Not marketed or designed specifically for printers. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "3 open metal shelves",
       "Heavy duty steel frame",

@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41gtl-pSU5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GXVK3G7S?tag=deskfinds0d-20",
     description:
-      "The TobenONE DL7400 drives up to 5 monitors including a quad 4K@120Hz configuration through DisplayLink rather than native Thunderbolt video, using 5 HDMI outputs plus a built-in cooling fan to manage the heat that much video processing generates. A 2.5GbE port and 45W of charging round out an 18-in-1 port count aimed at Thunderbolt-equipped MacBooks and Windows laptops.\n\nBecause it uses DisplayLink compression, Mac users should note that DisplayLink output tops out at 4K@60Hz on macOS regardless of dock capability, so the 4K@120Hz claim applies specifically to supported Windows configurations. A high-bandwidth HDMI 2.1 cable is required to actually reach 120Hz on any connected display.",
+      "The TobenONE DL7400 drives up to 5 monitors including a quad 4K@120Hz configuration through DisplayLink rather than native Thunderbolt video, using 5 HDMI outputs plus a built-in cooling fan to manage the heat that much video processing generates. A 2.5GbE port and 45W of charging round out an 18-in-1 port count aimed at Thunderbolt-equipped MacBooks and Windows laptops.\n\nBecause it uses DisplayLink compression, Mac users should note that DisplayLink output tops out at 4K@60Hz on macOS regardless of dock capability, so the 4K@120Hz claim applies specifically to supported Windows configurations. A high-bandwidth HDMI 2.1 cable is required to actually reach 120Hz on any connected display.\n\nWorth knowing before you decide: Cooling fan helps sustain performance under heavy multi-display load. On the other side, 4K@120Hz via DisplayLink is a Windows-only ceiling, Mac tops out at 4K@60Hz. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "18-in-1 DisplayLink dock, up to 5 monitors",
       "Quad 4K@120Hz support (Windows, driver required)",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41OTlEa81fL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FD38VQMJ?tag=deskfinds0d-20",
     description:
-      "This TobenONE dock supports quad 4K displays at 60Hz through a 150W power supply built for Thunderbolt 5, 4, and 3 laptops as well as USB-C Windows, Chrome OS, and MacBook systems. It's positioned for buyers who value 4 simultaneous 4K displays over chasing 120Hz on fewer screens, a real productivity vs. performance trade-off worth weighing before buying.\n\nFor home office work that's mostly static content, 4K@60Hz across 4 screens is often visually superior in practice to fewer screens running higher refresh rates, since desktop productivity rarely benefits from 120Hz the way gaming does.",
+      "This TobenONE dock supports quad 4K displays at 60Hz through a 150W power supply built for Thunderbolt 5, 4, and 3 laptops as well as USB-C Windows, Chrome OS, and MacBook systems. It's positioned for buyers who value 4 simultaneous 4K displays over chasing 120Hz on fewer screens, a real productivity vs. performance trade-off worth weighing before buying.\n\nFor home office work that's mostly static content, 4K@60Hz across 4 screens is often visually superior in practice to fewer screens running higher refresh rates, since desktop productivity rarely benefits from 120Hz the way gaming does.\n\nWorth knowing before you decide: 150W power supply supports demanding laptop charging. On the other side, Capped at 60Hz, not a 120Hz solution. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "20-in-1 dock, quad 4K@60Hz displays",
       "150W power supply",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41kwTA+BkXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HLZ4X8Q?tag=deskfinds0d-20",
     description:
-      "This budget dock supports dual monitors at up to 4K@144Hz through 2 HDMI and DisplayPort outputs, making it a lower-cost path to high refresh rate output for buyers running 2 screens rather than 3 or more. A 150W DC power input, Ethernet, and card readers round out the port list for a compact price point.\n\nHitting 144Hz in practice still depends on the display cable used, an older HDMI cable will cap the connection well below 144Hz even if both the dock and monitor support it, so budget for a certified high-bandwidth cable alongside this dock.",
+      "This budget dock supports dual monitors at up to 4K@144Hz through 2 HDMI and DisplayPort outputs, making it a lower-cost path to high refresh rate output for buyers running 2 screens rather than 3 or more. A 150W DC power input, Ethernet, and card readers round out the port list for a compact price point.\n\nHitting 144Hz in practice still depends on the display cable used, an older HDMI cable will cap the connection well below 144Hz even if both the dock and monitor support it, so budget for a certified high-bandwidth cable alongside this dock.\n\nWorth knowing before you decide: 144Hz ceiling suits both productivity and light gaming use. On the other side, Only 2 monitor outputs, not suited to 3+ screen setups. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "Dual monitor support, up to 4K@144Hz",
       "2x HDMI, 2x DisplayPort outputs",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41yf74dFdZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F6MTC9LR?tag=deskfinds0d-20",
     description:
-      "The AV Access dock is built specifically for buyers running 2 computers into the same dual-monitor setup, with 8K output ceiling and Gigabit Ethernet, switching displays and peripherals between a laptop and desktop without unplugging cables. This solves a different problem than a pure single-laptop docking station, sharing 2 monitors across 2 machines cleanly.\n\nIf your workflow involves a work laptop and a personal desktop sharing the same monitors, this KVM switch approach is worth considering over a standard dock, though it comes with its own EDID emulation quirks worth testing with your specific displays.",
+      "The AV Access dock is built specifically for buyers running 2 computers into the same dual-monitor setup, with 8K output ceiling and Gigabit Ethernet, switching displays and peripherals between a laptop and desktop without unplugging cables. This solves a different problem than a pure single-laptop docking station, sharing 2 monitors across 2 machines cleanly.\n\nIf your workflow involves a work laptop and a personal desktop sharing the same monitors, this KVM switch approach is worth considering over a standard dock, though it comes with its own EDID emulation quirks worth testing with your specific displays.\n\nWorth knowing before you decide: 8K ceiling gives headroom well above 4K@120Hz needs. On the other side, Solves a KVM-specific problem, overkill if you only use 1 computer. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "KVM switch dock, 2 monitors, 2 computers",
       "8K resolution ceiling",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31mqa4FsYcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FGFW5FVD?tag=deskfinds0d-20",
     description:
-      "Plugable's Thunderbolt 4 dock is Thunderbolt Certified and driverless, using native Thunderbolt video output rather than DisplayLink compression, which matters for Mac users since DisplayLink docks are capped at 4K@60Hz on macOS regardless of dock spec. Reaching 4K@120Hz on a MacBook requires this kind of native Thunderbolt output on a higher-tier Pro or Max chip, not a DisplayLink adapter.\n\nIt supports 4K dual monitor output or a single 6K display, and its 100W charging keeps even power-hungry MacBook Pro models fed while docked, with 6 USB ports, SD, and Ethernet rounding out the connectivity.",
+      "Plugable's Thunderbolt 4 dock is Thunderbolt Certified and driverless, using native Thunderbolt video output rather than DisplayLink compression, which matters for Mac users since DisplayLink docks are capped at 4K@60Hz on macOS regardless of dock spec. Reaching 4K@120Hz on a MacBook requires this kind of native Thunderbolt output on a higher-tier Pro or Max chip, not a DisplayLink adapter.\n\nIt supports 4K dual monitor output or a single 6K display, and its 100W charging keeps even power-hungry MacBook Pro models fed while docked, with 6 USB ports, SD, and Ethernet rounding out the connectivity.\n\nWorth knowing before you decide: Driverless, true plug-and-play on Mac. On the other side, 4K@120Hz still requires a higher-tier Pro/Max chip for native output. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "Thunderbolt 4 Certified, driverless",
       "4K dual monitor or single 6K display",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Gpx+DZnSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FFS34WRY?tag=deskfinds0d-20",
     description:
-      "The WAVLINK 13-in-1 supports dual 5K or 4K@60Hz displays across M1 through M4 Mac and Windows systems, positioned as a mid-price DisplayLink option for buyers who need dual high-resolution output without chasing 120Hz. Its 2x HDMI and 2x DisplayPort outputs give flexibility in how the 2 displays connect.\n\n130W power delivery, Gigabit Ethernet, and 5 USB ports round out the connectivity, making this a solid general-purpose dual-monitor dock for home office use where 60Hz is genuinely sufficient for the work being done.",
+      "The WAVLINK 13-in-1 supports dual 5K or 4K@60Hz displays across M1 through M4 Mac and Windows systems, positioned as a mid-price DisplayLink option for buyers who need dual high-resolution output without chasing 120Hz. Its 2x HDMI and 2x DisplayPort outputs give flexibility in how the 2 displays connect.\n\n130W power delivery, Gigabit Ethernet, and 5 USB ports round out the connectivity, making this a solid general-purpose dual-monitor dock for home office use where 60Hz is genuinely sufficient for the work being done.\n\nWorth knowing before you decide: Good port variety across HDMI and DisplayPort. On the other side, 60Hz ceiling, not built for high refresh rate gaming or 120Hz work. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "13-in-1 dock, dual 5K/4K@60Hz",
       "2x HDMI, 2x DisplayPort",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ptzq7E2JL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CW9249DK?tag=deskfinds0d-20",
     description:
-      "Anker's Prime Docking Station packs 14 ports and up to 160W of output into a single unit supporting dual 4K displays, backed by Anker's Real-Time Smart Interface that shows live power draw across connected devices. Its 10Gbps data transfer rate stands out for buyers who move large files frequently alongside driving displays.\n\nIt's a strong general-purpose pick for Dell, HP, and Lenovo laptops that want dual 4K output plus fast data transfer and reliable build quality, even though it doesn't chase the 120Hz ceiling the way the DisplayLink-focused docks in this list do.",
+      "Anker's Prime Docking Station packs 14 ports and up to 160W of output into a single unit supporting dual 4K displays, backed by Anker's Real-Time Smart Interface that shows live power draw across connected devices. Its 10Gbps data transfer rate stands out for buyers who move large files frequently alongside driving displays.\n\nIt's a strong general-purpose pick for Dell, HP, and Lenovo laptops that want dual 4K output plus fast data transfer and reliable build quality, even though it doesn't chase the 120Hz ceiling the way the DisplayLink-focused docks in this list do.\n\nWorth knowing before you decide: 10Gbps data transfer is faster than most docks in this list. On the other side, Dual 4K only, not built for 120Hz or 5-monitor setups. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "14-port docking station, up to 160W output",
       "Dual 4K display support",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41zZDSI+zhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMQVLGX3?tag=deskfinds0d-20",
     description:
-      "This 13-in-1 aluminum KVM switch dock explicitly supports both 4K@60Hz and 4K@120Hz output, combining USB-C and HDMI/DP inputs so 2 computers can share 2 monitors with a genuine path to 120Hz rather than being capped at 60Hz like most KVM-focused docks. A 100W PD budget per connected PC keeps both machines charged while docked.\n\nReaching 120Hz still depends on using a certified high-bandwidth HDMI or DisplayPort cable and confirming both the monitor and the active input support DSC where the connection needs compression to fit within available bandwidth, the same caveat that applies to any 4K@120Hz claim regardless of dock brand.",
+      "This 13-in-1 aluminum KVM switch dock explicitly supports both 4K@60Hz and 4K@120Hz output, combining USB-C and HDMI/DP inputs so 2 computers can share 2 monitors with a genuine path to 120Hz rather than being capped at 60Hz like most KVM-focused docks. A 100W PD budget per connected PC keeps both machines charged while docked.\n\nReaching 120Hz still depends on using a certified high-bandwidth HDMI or DisplayPort cable and confirming both the monitor and the active input support DSC where the connection needs compression to fit within available bandwidth, the same caveat that applies to any 4K@120Hz claim regardless of dock brand.\n\nWorth knowing before you decide: 100W PD per PC keeps both machines charged. On the other side, 120Hz still requires a certified high-bandwidth cable to actually reach. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "13-in-1 KVM switch dock, 2 monitors, 2 computers",
       "4K60Hz/4K120Hz supported",

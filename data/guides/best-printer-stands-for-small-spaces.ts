@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41vlbbgz9NL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CBV7YJ8?tag=deskfinds0d-20",
     description:
-      "The HUANUO is a genuinely purpose-built printer stand, sized to slide under a desk at just 14.1 inches maximum height rather than sitting as a bulky standalone piece in a small room. A rear cable management channel keeps power and USB cords from adding visible clutter to a tight space.\n\nLocking wheels let you park it exactly where it fits, and the storage drawer keeps ink or paper out of sight instead of taking up separate shelf space elsewhere in the room. This is the clearest purpose-built pick in this list for buyers who specifically want printer stand furniture rather than a repurposed cart or riser.",
+      "The HUANUO is a genuinely purpose-built printer stand, sized to slide under a desk at just 14.1 inches maximum height rather than sitting as a bulky standalone piece in a small room. A rear cable management channel keeps power and USB cords from adding visible clutter to a tight space.\n\nLocking wheels let you park it exactly where it fits, and the storage drawer keeps ink or paper out of sight instead of taking up separate shelf space elsewhere in the room. This is the clearest purpose-built pick in this list for buyers who specifically want printer stand furniture rather than a repurposed cart or riser.\n\nWorth knowing before you decide: Slides fully under most desks when not in use. On the other side, Not sized for large business AIO printers. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "14.1-inch maximum height",
       "Rear cable management channel",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41IHibC0OTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CCV5YC4L?tag=deskfinds0d-20",
     description:
-      "The HOOBRO is a dedicated under-desk printer stand with a low, narrow profile that suits studio apartments and small home offices where floor space is the scarcest resource. Its built-in charging shelf adds function without adding footprint, since it uses vertical space rather than a wider base.\n\nThe 2-tier open design keeps the total footprint tight while still separating the printer from a paper ream or accessories below. At $26.98 it is one of the more affordable dedicated printer stands in this list, and its rustic finish reads as real furniture rather than a utility cart.",
+      "The HOOBRO is a dedicated under-desk printer stand with a low, narrow profile that suits studio apartments and small home offices where floor space is the scarcest resource. Its built-in charging shelf adds function without adding footprint, since it uses vertical space rather than a wider base.\n\nThe 2-tier open design keeps the total footprint tight while still separating the printer from a paper ream or accessories below. At $26.98 it is one of the more affordable dedicated printer stands in this list, and its rustic finish reads as real furniture rather than a utility cart.\n\nWorth knowing before you decide: Charging shelf adds function without extra floor space. On the other side, Open shelves offer less dust protection. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "2-tier open shelf design",
       "Built-in charging station shelf",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/414d9YEDZYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CGHMP9BH?tag=deskfinds0d-20",
     description:
-      "This is a genuine tradeoff pick: the largest tabletop in this list at 22 by 15 inches, which fits a business-class printer that would overhang a smaller stand, but it also occupies more floor space than the other picks. If your printer itself is large, a bigger stand designed to hold it properly is often the better small-space choice than squeezing an oversized printer onto an undersized platform.\n\nThe 2-tier rolling design adds a lower shelf for paper, and the built-in drawer keeps ink and cables contained. Measure your available floor footprint carefully, including the printer's overhang once placed on top, before choosing this over a more compact pick.",
+      "This is a genuine tradeoff pick: the largest tabletop in this list at 22 by 15 inches, which fits a business-class printer that would overhang a smaller stand, but it also occupies more floor space than the other picks. If your printer itself is large, a bigger stand designed to hold it properly is often the better small-space choice than squeezing an oversized printer onto an undersized platform.\n\nThe 2-tier rolling design adds a lower shelf for paper, and the built-in drawer keeps ink and cables contained. Measure your available floor footprint carefully, including the printer's overhang once placed on top, before choosing this over a more compact pick.\n\nWorth knowing before you decide: 2-tier layout adds real storage. On the other side, Largest footprint in this list, needs more floor space. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "22\"W x 15\"D tabletop",
       "2-tier rolling design",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31hxCzq3j0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B083DMYKC9?tag=deskfinds0d-20",
     description:
-      "To be direct, this is a CPU tower stand, not a printer stand, and it is not marketed as printer furniture. What makes it worth including here is its small, low, adjustable platform with rolling casters, which genuinely can support a compact desktop printer for a buyer who needs the smallest possible footprint and does not mind repurposing a computer accessory.\n\nIts adjustable width fits it into a tight gap beside a desk, and the low profile keeps it out of sight. This works as a flexible, budget small-footprint platform, not as a dedicated printer solution, so check your printer's weight and base size against the stand's adjustable width before relying on it.",
+      "To be direct, this is a CPU tower stand, not a printer stand, and it is not marketed as printer furniture. What makes it worth including here is its small, low, adjustable platform with rolling casters, which genuinely can support a compact desktop printer for a buyer who needs the smallest possible footprint and does not mind repurposing a computer accessory.\n\nIts adjustable width fits it into a tight gap beside a desk, and the low profile keeps it out of sight. This works as a flexible, budget small-footprint platform, not as a dedicated printer solution, so check your printer's weight and base size against the stand's adjustable width before relying on it.\n\nWorth knowing before you decide: Adjustable width fits narrow gaps beside furniture. On the other side, Not designed or marketed as a printer stand. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "Adjustable width, fits most tower sizes",
       "Rolling casters",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GXCFMvygL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2RTY746?tag=deskfinds0d-20",
     description:
-      "This is a monitor and laptop riser, not a printer stand, and we are labeling it honestly rather than pretending otherwise. It earns a spot here because its flat, sturdy top and underneath storage compartment can hold a small compact printer on a desk corner, which is a genuinely useful option in a tiny room with no floor space to spare for a standalone stand.\n\nAt $9.99 it is the cheapest pick in this list by a wide margin. It is best thought of as a desktop-level platform rather than a floor-standing printer stand, and it will not accommodate a printer heavier than a small compact model.",
+      "This is a monitor and laptop riser, not a printer stand, and we are labeling it honestly rather than pretending otherwise. It earns a spot here because its flat, sturdy top and underneath storage compartment can hold a small compact printer on a desk corner, which is a genuinely useful option in a tiny room with no floor space to spare for a standalone stand.\n\nAt $9.99 it is the cheapest pick in this list by a wide margin. It is best thought of as a desktop-level platform rather than a floor-standing printer stand, and it will not accommodate a printer heavier than a small compact model.\n\nWorth knowing before you decide: Underneath storage adds a bonus compartment. On the other side, Not designed or marketed as a printer stand. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "Desktop riser platform",
       "Underneath storage compartment",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31aZXrzUvzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B081KBXT5N?tag=deskfinds0d-20",
     description:
-      "This is a general-purpose 3-tier rolling utility cart, not a printer-specific product, and we are framing it that way rather than mislabeling it. Its genuine strength for a small room is flexibility: the narrow metal frame rolls easily between rooms and can hold a printer on one tier while keeping paper or supplies on another.\n\nHeavy-duty metal construction supports more total weight than most dedicated printer stands, useful if you want one cart to double as printer storage and general organization in a tight apartment. The tradeoff is an open wire-shelf look rather than furniture-style finish.",
+      "This is a general-purpose 3-tier rolling utility cart, not a printer-specific product, and we are framing it that way rather than mislabeling it. Its genuine strength for a small room is flexibility: the narrow metal frame rolls easily between rooms and can hold a printer on one tier while keeping paper or supplies on another.\n\nHeavy-duty metal construction supports more total weight than most dedicated printer stands, useful if you want one cart to double as printer storage and general organization in a tight apartment. The tradeoff is an open wire-shelf look rather than furniture-style finish.\n\nWorth knowing before you decide: Higher total weight capacity than most dedicated stands. On the other side, Not designed or marketed as printer furniture. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "3-tier heavy duty metal frame",
       "Rolling casters",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31stRsB6CqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08GS9T78W?tag=deskfinds0d-20",
     description:
-      "Another general-purpose rolling utility cart rather than dedicated printer furniture, the Pipishell's narrow 3-tier metal frame and built-in handle make it easy to wheel between a closet and a desk in a small apartment, which suits buyers who do not want a printer stand taking up permanent floor space.\n\nIts handle is a small but genuinely useful detail for maneuvering the cart in a tight room where a wide turning radius is not an option. Like the other utility carts in this list, expect an open wire-shelf appearance rather than a furniture finish.",
+      "Another general-purpose rolling utility cart rather than dedicated printer furniture, the Pipishell's narrow 3-tier metal frame and built-in handle make it easy to wheel between a closet and a desk in a small apartment, which suits buyers who do not want a printer stand taking up permanent floor space.\n\nIts handle is a small but genuinely useful detail for maneuvering the cart in a tight room where a wide turning radius is not an option. Like the other utility carts in this list, expect an open wire-shelf appearance rather than a furniture finish.\n\nWorth knowing before you decide: Narrow frame fits between furniture. On the other side, Not designed or marketed as printer furniture. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "3-tier metal frame",
       "Built-in handle for maneuvering",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Oqqi7ImgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09R1TMP83?tag=deskfinds0d-20",
     description:
-      "This is the lightest and most affordable general utility cart in this list, plastic rather than metal, and again not marketed as a printer stand. Its lighter weight makes it easier to lift and reposition in a small room, though it also means a lower overall weight capacity than the metal utility carts above.\n\nA 3-tier layout works the same way as the metal carts, separating a compact printer from paper and supplies across separate shelves. This is the pick for buyers who want the absolute lowest-cost flexible platform and are working with a lighter, compact printer rather than a heavier business AIO.",
+      "This is the lightest and most affordable general utility cart in this list, plastic rather than metal, and again not marketed as a printer stand. Its lighter weight makes it easier to lift and reposition in a small room, though it also means a lower overall weight capacity than the metal utility carts above.\n\nA 3-tier layout works the same way as the metal carts, separating a compact printer from paper and supplies across separate shelves. This is the pick for buyers who want the absolute lowest-cost flexible platform and are working with a lighter, compact printer rather than a heavier business AIO.\n\nWorth knowing before you decide: Lightweight and easy to lift or reposition. On the other side, Lower weight capacity than metal utility carts. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "3-tier plastic frame",
       "Rolling wheels",

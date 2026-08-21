@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41DYTURTAyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G8HFLYTN?tag=deskfinds0d-20",
     description:
-      "This WAVLINK dock is explicitly built around DisplayLink to drive 3 monitors at up to 4K 60Hz each, a genuine triple-display capability at a price well below most DisplayLink competitors in this list. The DisplayLink driver install is required on first setup for Windows and Mac.\n\n100W PD charging and a mix of HDMI, DisplayPort, Gigabit Ethernet, and 5Gbps USB 3.0 round out a genuinely well-equipped hub. It's the pick for buyers who want 3 extra screens without paying for a premium DisplayLink brand name.",
+      "This WAVLINK dock is explicitly built around DisplayLink to drive 3 monitors at up to 4K 60Hz each, a genuine triple-display capability at a price well below most DisplayLink competitors in this list. The DisplayLink driver install is required on first setup for Windows and Mac.\n\n100W PD charging and a mix of HDMI, DisplayPort, Gigabit Ethernet, and 5Gbps USB 3.0 round out a genuinely well-equipped hub. It's the pick for buyers who want 3 extra screens without paying for a premium DisplayLink brand name.\n\nWorth knowing before you decide: Lowest price among the true triple-display picks here. On the other side, Requires installing and maintaining the DisplayLink driver. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "12-in-1 DisplayLink dock",
       "Triple 4K@60Hz output",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31hyr0S1C9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DTSZC5Y7?tag=deskfinds0d-20",
     description:
-      "The Anker Prime DL7400 is upfront that the latest DisplayLink driver must be installed for correct operation, and in return it delivers a genuinely rare spec: triple 4K 60Hz output driven entirely through DisplayLink. That's more display real estate than most non-DisplayLink docks can offer at all.\n\nBecause DisplayLink's video compression runs through the CPU, sustained use generates real heat, which is why this dock includes an active cooling fan and a high 140W max output aimed at buyers who leave it running all day rather than plugging in occasionally.",
+      "The Anker Prime DL7400 is upfront that the latest DisplayLink driver must be installed for correct operation, and in return it delivers a genuinely rare spec: triple 4K 60Hz output driven entirely through DisplayLink. That's more display real estate than most non-DisplayLink docks can offer at all.\n\nBecause DisplayLink's video compression runs through the CPU, sustained use generates real heat, which is why this dock includes an active cooling fan and a high 140W max output aimed at buyers who leave it running all day rather than plugging in occasionally.\n\nWorth knowing before you decide: Active cooling for sustained all-day use. On the other side, Requires the latest DisplayLink driver installed and kept current. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "14-in-1 DisplayLink dock",
       "Triple 4K 60Hz output",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41UFXtYm5ML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01FKTZLBS?tag=deskfinds0d-20",
     description:
-      "This Plugable dock explicitly requires a DisplayLink driver on Mac to drive its triple-HDMI output, which is exactly the workaround base Apple Silicon Macs need since they natively support only a single external display. Once the driver is installed, it runs 3 monitors plus 100W charging over one cable.\n\nGigabit Ethernet, an SD reader, and 4 extra USB ports round it out as a complete desk hub for Mac users, though buyers doing color-critical creative work should keep their primary editing monitor off DisplayLink and route it natively instead.",
+      "This Plugable dock explicitly requires a DisplayLink driver on Mac to drive its triple-HDMI output, which is exactly the workaround base Apple Silicon Macs need since they natively support only a single external display. Once the driver is installed, it runs 3 monitors plus 100W charging over one cable.\n\nGigabit Ethernet, an SD reader, and 4 extra USB ports round it out as a complete desk hub for Mac users, though buyers doing color-critical creative work should keep their primary editing monitor off DisplayLink and route it natively instead.\n\nWorth knowing before you decide: 100W charging plus a secondary 20W USB-C output. On the other side, Requires installing and maintaining a DisplayLink driver. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "13-in-1 hub, triple HDMI output",
       "DisplayLink driver required on Mac",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31VkRux4RUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08DDH5CPW?tag=deskfinds0d-20",
     description:
-      "This Plugable dock drives a 4K 30Hz display plus two 1080p 60Hz displays through USB-based video output, giving Windows, macOS, and ChromeOS users a genuinely broad compatibility range for adding extra screens at a moderate price.\n\n100W PD charging and 6 USB ports at 5Gbps round out a solid everyday hub. It's a fit for buyers who want more than one extra display and don't need the highest resolution on every panel, since the main display here caps at 4K 30Hz rather than 60Hz.",
+      "This Plugable dock drives a 4K 30Hz display plus two 1080p 60Hz displays through USB-based video output, giving Windows, macOS, and ChromeOS users a genuinely broad compatibility range for adding extra screens at a moderate price.\n\n100W PD charging and 6 USB ports at 5Gbps round out a solid everyday hub. It's a fit for buyers who want more than one extra display and don't need the highest resolution on every panel, since the main display here caps at 4K 30Hz rather than 60Hz.\n\nWorth knowing before you decide: 100W charging covers most laptops. On the other side, Main 4K display is capped at 30Hz, not 60Hz. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "Triple display: 1x 4K 30Hz + 2x 1080p 60Hz",
       "100W PD charging",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31mqa4FsYcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FGFW5FVD?tag=deskfinds0d-20",
     description:
-      "Unlike every other pick in this list, the Plugable TBT-UDM is not a DisplayLink product; it's a Thunderbolt Certified dock that drives displays natively through the laptop's own GPU rather than compressing video over USB. That's the right call whenever DisplayLink's known color calibration limitations aren't acceptable.\n\nIt runs driverless on both macOS and Windows with dual 4K or single 6K output and 100W charging. Buyers doing photo, video, or design work who need one accurately-calibrated display should route that monitor through a native dock like this one rather than a DisplayLink hub.",
+      "Unlike every other pick in this list, the Plugable TBT-UDM is not a DisplayLink product; it's a Thunderbolt Certified dock that drives displays natively through the laptop's own GPU rather than compressing video over USB. That's the right call whenever DisplayLink's known color calibration limitations aren't acceptable.\n\nIt runs driverless on both macOS and Windows with dual 4K or single 6K output and 100W charging. Buyers doing photo, video, or design work who need one accurately-calibrated display should route that monitor through a native dock like this one rather than a DisplayLink hub.\n\nWorth knowing before you decide: No driver installation or maintenance required. On the other side, Only dual displays, not triple like the DisplayLink picks. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "Thunderbolt 4 Certified, native display output",
       "Dual 4K HDMI or single 6K display",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21-k4dyJK1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F7SFQM2Y?tag=deskfinds0d-20",
     description:
-      "Like the Plugable TBT-UDM, the Dell SD25TB4 is a certified Thunderbolt 4 dock rather than a DisplayLink product, included here as the native alternative for Dell laptop owners who need reliable, color-accurate multi-display output instead of USB-compressed video.\n\nIt supports up to 4 displays natively when the host laptop's own TB4 controller allows it, plus 130W charging and built-in 2.5GbE and Wi-Fi. For Dell users specifically, this is the more dependable path to extra screens than layering a DisplayLink hub on top of a native TB4 port.",
+      "Like the Plugable TBT-UDM, the Dell SD25TB4 is a certified Thunderbolt 4 dock rather than a DisplayLink product, included here as the native alternative for Dell laptop owners who need reliable, color-accurate multi-display output instead of USB-compressed video.\n\nIt supports up to 4 displays natively when the host laptop's own TB4 controller allows it, plus 130W charging and built-in 2.5GbE and Wi-Fi. For Dell users specifically, this is the more dependable path to extra screens than layering a DisplayLink hub on top of a native TB4 port.\n\nWorth knowing before you decide: Supports up to 4 displays without any driver install. On the other side, Optimized around Dell hardware, less proven elsewhere. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "Thunderbolt 4 Certified, native display output",
       "Up to 4 displays (2x DP 1.4 + HDMI 2.1)",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ptzq7E2JL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CW9249DK?tag=deskfinds0d-20",
     description:
-      "This Anker Prime dock is a USB4-class hub rather than a DisplayLink or certified Thunderbolt device, included as a middle-ground option for buyers who want dual 4K output without either DisplayLink's driver dependency or the price premium of certified TB4 hardware.\n\nIts standout spec is 160W total power output across the host laptop and downstream accessories, unusually high for a 14-port hub, which lets it power both the laptop and connected peripherals without a separate charger.",
+      "This Anker Prime dock is a USB4-class hub rather than a DisplayLink or certified Thunderbolt device, included as a middle-ground option for buyers who want dual 4K output without either DisplayLink's driver dependency or the price premium of certified TB4 hardware.\n\nIts standout spec is 160W total power output across the host laptop and downstream accessories, unusually high for a 14-port hub, which lets it power both the laptop and connected peripherals without a separate charger.\n\nWorth knowing before you decide: Very high 160W total power output. On the other side, Only dual display, not a triple-display DisplayLink alternative. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "USB4-class hub, native dual 4K output",
       "160W total output across host and peripherals",

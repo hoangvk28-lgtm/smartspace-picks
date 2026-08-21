@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
-      "By far the largest review base of any pick in this guide, genuine evidence of reliable performance across many home office setups. True HEPA H13 filtration at a quoted 24dB, though check this figure against the speed needed for real air changes in a furnished room.\n\nA furnished home office with a closed door reduces effective coverage below the open-room CADR rating, size up from the manufacturer's nominal square footage claim for your specific room.",
+      "By far the largest review base of any pick in this guide, genuine evidence of reliable performance across many home office setups. True HEPA H13 filtration at a quoted 24dB, though check this figure against the speed needed for real air changes in a furnished room.\n\nA furnished home office with a closed door reduces effective coverage below the open-room CADR rating, size up from the manufacturer's nominal square footage claim for your specific room.\n\nWorth knowing before you decide: True HEPA H13 filtration. On the other side, 24dB figure likely reflects the lowest fan speed, not the effective-CADR speed. That's the main tradeoff to weigh against your specific needs.",
     specs: ["True HEPA H13 filter", "24dB quoted noise level", "Removes 99.97% of particulates", "Largest review base in this guide"],
     pros: ["By far the largest review base of any pick in this guide", "True HEPA H13 filtration", "Established, well-reviewed design", "Reasonable price"],
     cons: ["24dB figure likely reflects the lowest fan speed, not the effective-CADR speed", "Furnished room reduces effective coverage below rated square footage", "No activated carbon layer confirmed for odor control"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
-      "Rated up to 1875 square feet in open-room conditions, genuine extra headroom for a furnished home office where effective coverage falls below the open-room rating. Smart controls for app-based monitoring.\n\nEven with this large rated coverage, a closed-door furnished office still reduces effective air changes, this headroom helps offset that gap.",
+      "Rated up to 1875 square feet in open-room conditions, genuine extra headroom for a furnished home office where effective coverage falls below the open-room rating. Smart controls for app-based monitoring.\n\nEven with this large rated coverage, a closed-door furnished office still reduces effective air changes, this headroom helps offset that gap.\n\nWorth knowing before you decide: Smart app control for monitoring. On the other side, Higher price than compact alternatives. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Up to 1875 sq ft rated (open room)", "Smart app control", "Large review base", "Higher capacity for furnished rooms"],
     pros: ["Large rated coverage gives real headroom for a furnished office", "Smart app control for monitoring", "Large, well-established review base", "Genuine capacity for a bigger home office"],
     cons: ["Higher price than compact alternatives", "Noise at effective CADR speed not independently verified", "Larger footprint for a small office"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419pAe7T0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTKAPUU?tag=deskfinds0d-20",
     description:
-      "An established, long-running model with a large review base and a built-in air quality monitor, genuinely useful for verifying real-time conditions in your specific home office. Auto and Eco modes plus a 3-year warranty.\n\nAir quality monitor readings reflect conditions near the unit's own intake, which may not represent the whole furnished room, especially with a desk and shelving nearby.",
+      "An established, long-running model with a large review base and a built-in air quality monitor, genuinely useful for verifying real-time conditions in your specific home office. Auto and Eco modes plus a 3-year warranty.\n\nAir quality monitor readings reflect conditions near the unit's own intake, which may not represent the whole furnished room, especially with a desk and shelving nearby.\n\nWorth knowing before you decide: Built-in air quality monitor for real-time feedback. On the other side, Air quality monitor reflects intake-proximity readings, not whole-room conditions. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Up to 1748 sq ft rated (open room)", "Air quality monitor, Auto/Eco mode", "3-year warranty", "Large review base"],
     pros: ["Large, well-established review base", "Built-in air quality monitor for real-time feedback", "Auto/Eco mode for efficient operation", "3-year warranty"],
     cons: ["Air quality monitor reflects intake-proximity readings, not whole-room conditions", "Higher price than the top pick", "No activated carbon layer confirmed"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31pCHKKqN2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01728NLRG?tag=deskfinds0d-20",
     description:
-      "The same proven design as the black Coway pick in a white finish, appropriate if you want this model's air quality monitor and warranty in a lighter aesthetic for your home office.\n\nSame considerations apply, monitor readings reflect intake-proximity conditions, and effective coverage in a furnished room falls below the open-room rating.",
+      "The same proven design as the black Coway pick in a white finish, appropriate if you want this model's air quality monitor and warranty in a lighter aesthetic for your home office.\n\nSame considerations apply, monitor readings reflect intake-proximity conditions, and effective coverage in a furnished room falls below the open-room rating.\n\nWorth knowing before you decide: Air quality monitor for real-time feedback. On the other side, Air quality monitor reflects intake-proximity readings. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Up to 1748 sq ft rated (open room)", "Air quality monitor, Auto/Eco mode", "3-year warranty", "White finish"],
     pros: ["Same proven design as the black variant", "Air quality monitor for real-time feedback", "3-year warranty", "White finish for lighter office aesthetics"],
     cons: ["Air quality monitor reflects intake-proximity readings", "Higher price than the top pick", "No activated carbon layer confirmed"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31CcBFzC6wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08ND7C7P4?tag=deskfinds0d-20",
     description:
-      "A genuinely more affordable option with a solid review base, appropriate for a smaller or less furniture-dense home office. Basic HEPA filtration.\n\nVerify whether this specific listing uses certified True HEPA or a looser 'HEPA-type' claim before assuming premium filtration performance.",
+      "A genuinely more affordable option with a solid review base, appropriate for a smaller or less furniture-dense home office. Basic HEPA filtration.\n\nVerify whether this specific listing uses certified True HEPA or a looser 'HEPA-type' claim before assuming premium filtration performance.\n\nWorth knowing before you decide: Solid review base. On the other side, Verify certified True HEPA vs. HEPA-type claim. That's the main tradeoff to weigh against your specific needs.",
     specs: ["HEPA filtration", "Solid review base", "Budget-friendly", "Compact design"],
     pros: ["More affordable than premium alternatives", "Solid review base", "Compact for a smaller office", "Reasonable performance for the price"],
     cons: ["Verify certified True HEPA vs. HEPA-type claim", "Lower rated coverage than premium picks", "No smart features or air quality monitor"],
@@ -116,7 +116,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ezUHfn5wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08FJ678YK?tag=deskfinds0d-20",
     description:
-      "A very large review base with smart and voice control features, genuinely convenient for adjusting fan speed hands-free during a work call without reaching over. Affordable price.\n\nVoice control convenience doesn't change the underlying CADR-vs-furnished-room math, still size up from the open-room rating for your actual home office.",
+      "A very large review base with smart and voice control features, genuinely convenient for adjusting fan speed hands-free during a work call without reaching over. Affordable price.\n\nVoice control convenience doesn't change the underlying CADR-vs-furnished-room math, still size up from the open-room rating for your actual home office.\n\nWorth knowing before you decide: Smart and voice control for hands-free adjustment. On the other side, Smaller rated coverage than premium picks. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Smart and voice control", "Large review base", "Affordable", "Compact design"],
     pros: ["Very large review base", "Smart and voice control for hands-free adjustment", "Affordable price", "Compact for a home office desk area"],
     cons: ["Smaller rated coverage than premium picks", "Verify certified True HEPA specifics", "No activated carbon layer confirmed"],

@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31z5JT0yL+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BIFNTMC?tag=deskfinds0d-20",
     description:
-      "A widely bought entry point into vertical mice, using a 2.4GHz wireless receiver rather than Bluetooth, which keeps setup simple across most desktops and laptops. The large review base gives a genuinely useful signal for a budget pick in this category.\n\nThe grip angle is moderate rather than extreme, which can make the adjustment period shorter for first-time vertical mouse users. It is right-hand specific, so left-handed buyers should look elsewhere in this cluster.",
+      "A widely bought entry point into vertical mice, using a 2.4GHz wireless receiver rather than Bluetooth, which keeps setup simple across most desktops and laptops. The large review base gives a genuinely useful signal for a budget pick in this category.\n\nThe grip angle is moderate rather than extreme, which can make the adjustment period shorter for first-time vertical mouse users. It is right-hand specific, so left-handed buyers should look elsewhere in this cluster.\n\nWorth knowing before you decide: Simple 2.4GHz plug-and-play setup. On the other side, Right-hand only, no left-handed version in this line. That's the main tradeoff to weigh against your specific needs.",
     specs: ["2.4GHz wireless USB receiver", "Right-hand specific design", "Moderate vertical tilt", "AA battery powered"],
     pros: ["Large, genuinely useful review base for a budget pick", "Simple 2.4GHz plug-and-play setup", "Moderate tilt angle eases the adjustment period", "Low price point for trying the category"],
     cons: ["Right-hand only, no left-handed version in this line", "AA battery adds bulk versus a rechargeable design", "Button layout is basic compared to premium picks"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31Ig2YzI5iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07FNJB8TT?tag=deskfinds0d-20",
     description:
-      "A more pronounced tilt angle than most budget vertical mice, aimed at reducing forearm rotation more aggressively. It supports both a 2.4GHz receiver and Bluetooth, giving flexibility across devices.\n\nThe body is sized for an average to large hand, and the higher price reflects build materials and multi-device software support rather than a fundamentally different mechanism. Expect a longer adjustment period given the steeper angle compared to entry-level picks.",
+      "A more pronounced tilt angle than most budget vertical mice, aimed at reducing forearm rotation more aggressively. It supports both a 2.4GHz receiver and Bluetooth, giving flexibility across devices.\n\nThe body is sized for an average to large hand, and the higher price reflects build materials and multi-device software support rather than a fundamentally different mechanism. Expect a longer adjustment period given the steeper angle compared to entry-level picks.\n\nWorth knowing before you decide: Rechargeable battery avoids AA bulk. On the other side, Steeper angle may extend the adjustment period. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Dual 2.4GHz and Bluetooth connectivity", "Steeper vertical tilt angle", "Rechargeable battery", "Multi-device software support"],
     pros: ["Dual connectivity gives flexibility across devices", "Rechargeable battery avoids AA bulk", "Strong, consistent review rating across a large sample", "Premium build materials"],
     cons: ["Steeper angle may extend the adjustment period", "Higher price than entry-level vertical mice", "Sized for average to large hands, may not suit smaller hands well"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31rCoH07kzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07BFCVJZC?tag=deskfinds0d-20",
     description:
-      "Combines a rechargeable battery with a budget price point, which is a genuine advantage over AA-powered mice at a similar price since it avoids the added weight and periodic battery swaps.\n\nThe body size sits in the middle of the pool, comfortable for a broad range of hand sizes without being marketed toward either extreme. A solid all-around choice if you want rechargeable convenience without paying premium pricing.",
+      "Combines a rechargeable battery with a budget price point, which is a genuine advantage over AA-powered mice at a similar price since it avoids the added weight and periodic battery swaps.\n\nThe body size sits in the middle of the pool, comfortable for a broad range of hand sizes without being marketed toward either extreme. A solid all-around choice if you want rechargeable convenience without paying premium pricing.\n\nWorth knowing before you decide: Strong review rating across a large sample. On the other side, No Bluetooth option, receiver only. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Rechargeable built-in battery", "2.4GHz wireless receiver", "Mid-size body", "Budget price point"],
     pros: ["Rechargeable battery at a genuinely budget price", "Strong review rating across a large sample", "Mid-size body suits a broad range of hand sizes", "Simple wireless setup"],
     cons: ["No Bluetooth option, receiver only", "Fewer programmable buttons than premium picks", "Charging cable and port specifics should be checked in the listing"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31nb5ALnDvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09J1TB35S?tag=deskfinds0d-20",
     description:
-      "A more compact vertical mouse than the MX Vertical, aimed at buyers with average to smaller hands who still want a reduced-rotation grip angle. It uses a gentler tilt than the steeper premium picks.\n\nDual 2.4GHz and Bluetooth connectivity is included, along with software for remapping buttons across multiple paired devices. It is a reasonable middle ground between the entry-level and top-tier premium picks in this guide.",
+      "A more compact vertical mouse than the MX Vertical, aimed at buyers with average to smaller hands who still want a reduced-rotation grip angle. It uses a gentler tilt than the steeper premium picks.\n\nDual 2.4GHz and Bluetooth connectivity is included, along with software for remapping buttons across multiple paired devices. It is a reasonable middle ground between the entry-level and top-tier premium picks in this guide.\n\nWorth knowing before you decide: Dual connectivity for multi-device use. On the other side, Gentler angle means less pronounced ergonomic benefit than steeper designs. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Compact vertical body", "Dual 2.4GHz and Bluetooth connectivity", "Gentler tilt angle than premium full-size picks", "Rechargeable battery"],
     pros: ["More compact body suits smaller to average hands", "Dual connectivity for multi-device use", "Rechargeable battery", "Strong review rating across a large sample"],
     cons: ["Gentler angle means less pronounced ergonomic benefit than steeper designs", "Mid-to-premium pricing", "Fewer buttons than the top-tier MX Vertical"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31o5C5jFQAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00427TAIK?tag=deskfinds0d-20",
     description:
-      "One of the longest-standing designs in the vertical mouse category, wired rather than wireless, which eliminates battery weight entirely for a lighter, more consistent feel in hand over long sessions.\n\nThe premium price reflects an established, well-reviewed design rather than a newer untested one. Buyers who want a wireless option should look elsewhere in this guide, since this model is wired-only.",
+      "One of the longest-standing designs in the vertical mouse category, wired rather than wireless, which eliminates battery weight entirely for a lighter, more consistent feel in hand over long sessions.\n\nThe premium price reflects an established, well-reviewed design rather than a newer untested one. Buyers who want a wireless option should look elsewhere in this guide, since this model is wired-only.\n\nWorth knowing before you decide: Long-established, well-reviewed design. On the other side, Premium price for a wired-only mouse. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Wired USB connection", "Fixed ergonomic tilt angle", "No battery, lighter body", "Premium price point"],
     pros: ["No battery weight, a genuine ergonomic advantage", "Long-established, well-reviewed design", "Consistent 4.4-star rating across a meaningful sample", "Fixed angle avoids weight changes over time"],
     cons: ["Premium price for a wired-only mouse", "No wireless option", "Cable drag on the tilted body possible, check buyer feedback"],
@@ -116,7 +116,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31PGrLfkUxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CX18LHWS?tag=deskfinds0d-20",
     description:
-      "A 2.4GHz dongle-based wireless mouse with a rechargeable battery at a price close to AA-powered budget picks, a genuine value combination for buyers who want to avoid battery swaps.\n\nThe body is compact relative to the premium picks in this guide, which suits average to smaller hands, though check current listing photos for dongle storage before relying on it for frequent moves around your desk.",
+      "A 2.4GHz dongle-based wireless mouse with a rechargeable battery at a price close to AA-powered budget picks, a genuine value combination for buyers who want to avoid battery swaps.\n\nThe body is compact relative to the premium picks in this guide, which suits average to smaller hands, though check current listing photos for dongle storage before relying on it for frequent moves around your desk.\n\nWorth knowing before you decide: Solid review rating. On the other side, No Bluetooth option. That's the main tradeoff to weigh against your specific needs.",
     specs: ["2.4GHz USB dongle", "Rechargeable built-in battery", "Compact body", "Budget-to-mid price point"],
     pros: ["Rechargeable battery at a competitive price", "Solid review rating", "Compact body suits average to smaller hands", "Lightweight overall feel"],
     cons: ["No Bluetooth option", "Smaller review base than the top picks in this guide", "Dongle storage should be confirmed before buying"],
@@ -133,7 +133,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41h3oxMYtPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00FPAVUHC?tag=deskfinds0d-20",
     description:
-      "A large review base for a wired vertical mouse, sitting at a mid-range price between the cheapest wired picks and the established premium wired design in this guide.\n\nNo battery weight is a genuine ergonomic upside over wireless alternatives, and it works across both desktop and laptop USB-A ports without any pairing steps.",
+      "A large review base for a wired vertical mouse, sitting at a mid-range price between the cheapest wired picks and the established premium wired design in this guide.\n\nNo battery weight is a genuine ergonomic upside over wireless alternatives, and it works across both desktop and laptop USB-A ports without any pairing steps.\n\nWorth knowing before you decide: No battery weight or bulk. On the other side, No wireless option. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Wired USB connection", "Ergonomic vertical design", "No battery, lighter body", "Mid-range price point"],
     pros: ["Large review base among wired-only picks", "No battery weight or bulk", "Mid-range price between budget and premium wired options", "Works across desktop and laptop USB ports"],
     cons: ["No wireless option", "Cable drag on the tilted resting angle possible", "Cable type not confirmed as braided"],
@@ -150,7 +150,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31vAjZuq+pL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CMC1F5WB?tag=deskfinds0d-20",
     description:
-      "The lowest price in this guide for a wired vertical mouse, with a 6400 DPI sensor and adjustable DPI switch that gives more sensitivity control than most budget picks.\n\nAs with any wired vertical mouse, cable drag pulling the body out of its resting angle is worth checking in buyer feedback, and the cable here is a standard rather than braided cord.",
+      "The lowest price in this guide for a wired vertical mouse, with a 6400 DPI sensor and adjustable DPI switch that gives more sensitivity control than most budget picks.\n\nAs with any wired vertical mouse, cable drag pulling the body out of its resting angle is worth checking in buyer feedback, and the cable here is a standard rather than braided cord.\n\nWorth knowing before you decide: Adjustable DPI sensor. On the other side, Standard rather than braided cable, may move less freely. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Wired USB connection", "6400 DPI sensor", "Adjustable DPI levels", "Budget price point"],
     pros: ["Lowest price in this guide", "Adjustable DPI sensor", "No battery weight", "Strong review rating for the price"],
     cons: ["Standard rather than braided cable, may move less freely", "No wireless option", "Fewer established years on the market than the Evoluent design"],

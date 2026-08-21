@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31xnh5VoQ4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06WP9Q8ZN?tag=deskfinds0d-20",
     description:
-      "510W real capacity, right at the top of the typical range for this VA class, genuinely enough headroom for a basic PC and single monitor combination. AVR included corrects brownouts in-line without draining the battery.\n\nHighest rating among the 850VA-class picks in this guide, a genuinely strong track record at this capacity tier.",
+      "510W real capacity, right at the top of the typical range for this VA class, genuinely enough headroom for a basic PC and single monitor combination. AVR included corrects brownouts in-line without draining the battery.\n\nHighest rating among the 850VA-class picks in this guide, a genuinely strong track record at this capacity tier.\n\nWorth knowing before you decide: AVR included. On the other side, Not pure sine wave. That's the main tradeoff to weigh against your specific needs.",
     specs: ["850VA/510W", "AVR included", "Compact form factor", "Office electronics rated"],
     pros: ["510W real capacity, strong for this VA class", "AVR included", "Highest rating among 850VA picks here", "Compact footprint"],
     cons: ["Not pure sine wave", "Not enough headroom for a multi-monitor setup", "Fewer outlets than higher-capacity picks"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31pgnLVo0dL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B005GZRUZW?tag=deskfinds0d-20",
     description:
-      "A large, well-established review base at a genuinely lower price than the BX850M, though at 390W real capacity it sits toward the lower end of this capacity range, verify your specific PC and monitor's combined draw before choosing this over the higher-capacity top pick.\n\nStandard replaceable battery keeps long-term ownership cost predictable.",
+      "A large, well-established review base at a genuinely lower price than the BX850M, though at 390W real capacity it sits toward the lower end of this capacity range, verify your specific PC and monitor's combined draw before choosing this over the higher-capacity top pick.\n\nStandard replaceable battery keeps long-term ownership cost predictable.\n\nWorth knowing before you decide: Lower price than the BX850M. On the other side, 390W real capacity, less headroom than the true 850VA-class top pick. That's the main tradeoff to weigh against your specific needs.",
     specs: ["650VA/390W", "Standard replaceable battery", "Surge protection", "PC/NAS rated"],
     pros: ["Large, well-established review base", "Lower price than the BX850M", "Standard replaceable battery", "Good fit for lower-power setups"],
     cons: ["390W real capacity, less headroom than the true 850VA-class top pick", "Not pure sine wave", "Not suited to a demanding PC and monitor combination"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/313IpZaRpEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B085JJZDFK?tag=deskfinds0d-20",
     description:
-      "450W real capacity from an 850VA rating, in line with the typical power factor for this tier, and a strong review base as real-world evidence. Rated for PC, router, and NAS use, genuinely versatile at this capacity.\n\nA lower price than the BX850M top pick, worth considering if you don't need the extra outlet count or AVR feature set.",
+      "450W real capacity from an 850VA rating, in line with the typical power factor for this tier, and a strong review base as real-world evidence. Rated for PC, router, and NAS use, genuinely versatile at this capacity.\n\nA lower price than the BX850M top pick, worth considering if you don't need the extra outlet count or AVR feature set.\n\nWorth knowing before you decide: Versatile PC/router/NAS rating. On the other side, No AVR confirmed. That's the main tradeoff to weigh against your specific needs.",
     specs: ["850VA/450W", "PC, router, NAS rated", "Surge protection", "Strong review base"],
     pros: ["Strong review base at this capacity tier", "Versatile PC/router/NAS rating", "Lower price than the top pick", "Genuine 450W real capacity"],
     cons: ["No AVR confirmed", "Not pure sine wave", "Slightly less capacity than the BX850M top pick"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/317PvPHMHKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00429N18S?tag=deskfinds0d-20",
     description:
-      "The only genuinely pure sine wave option at this capacity tier, worth the small price premium if your PC has an APFC power supply, standard on most desktops built in the last decade. AVR included and LCD display for load/runtime visibility.\n\nLower rating than the top APC picks, but the pure sine wave APFC compatibility is a real differentiator most 850VA-class competitors don't offer.",
+      "The only genuinely pure sine wave option at this capacity tier, worth the small price premium if your PC has an APFC power supply, standard on most desktops built in the last decade. AVR included and LCD display for load/runtime visibility.\n\nLower rating than the top APC picks, but the pure sine wave APFC compatibility is a real differentiator most 850VA-class competitors don't offer.\n\nWorth knowing before you decide: AVR included. On the other side, Lower rating than the top APC picks. That's the main tradeoff to weigh against your specific needs.",
     specs: ["850VA, PFC sinewave", "AVR included", "LCD display", "APFC compatible"],
     pros: ["Only genuine pure sine wave pick at this capacity tier", "AVR included", "LCD for load/runtime visibility", "APFC compatibility avoids buzzing/shutdown risk"],
     cons: ["Lower rating than the top APC picks", "Higher price than the APC BE850M alternative", "Smaller review base"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31Y6I8mjmKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000RZPK1W?tag=deskfinds0d-20",
     description:
-      "Intelligent LCD gives real-time visibility into load and runtime, genuinely useful for understanding whether AVR is actively correcting or the unit has switched to battery. AVR included handles brownouts without draining the battery.\n\nSmallest review base of the 850VA-class picks here, weigh that against the genuine display and monitoring feature.",
+      "Intelligent LCD gives real-time visibility into load and runtime, genuinely useful for understanding whether AVR is actively correcting or the unit has switched to battery. AVR included handles brownouts without draining the battery.\n\nSmallest review base of the 850VA-class picks here, weigh that against the genuine display and monitoring feature.\n\nWorth knowing before you decide: AVR included. On the other side, Smallest review base among 850VA-class picks here. That's the main tradeoff to weigh against your specific needs.",
     specs: ["850VA class, AVR included", "Intelligent LCD display", "Surge protection", "Compact"],
     pros: ["Intelligent LCD for load/AVR status visibility", "AVR included", "Reasonable price at this tier", "Compact footprint"],
     cons: ["Smallest review base among 850VA-class picks here", "Not pure sine wave", "No coax/Ethernet surge protection confirmed"],

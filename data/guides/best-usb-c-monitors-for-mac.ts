@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41f7dOeOBuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B6PCXZ79?tag=deskfinds0d-20",
     description:
-      "Explicitly marketed for MacBook and Mac mini compatibility, a true 4K resolution works well with macOS's 'Looks like' scaling presets at common Mac-friendly sizes.\n\nAt a highly competitive price for true 4K, this is a strong entry point for Mac users wanting sharper resolution than most Mac-branded displays at this price.",
+      "Explicitly marketed for MacBook and Mac mini compatibility, a true 4K resolution works well with macOS's 'Looks like' scaling presets at common Mac-friendly sizes.\n\nAt a highly competitive price for true 4K, this is a strong entry point for Mac users wanting sharper resolution than most Mac-branded displays at this price.\n\nWorth knowing before you decide: True 4K resolution works well with macOS scaling presets. On the other side, Verify your specific Mac model's external display support limit. That's the main tradeoff to weigh against your specific needs.",
     specs: ["27-inch true 4K (3840x2160) IPS panel", "HDR support", "Explicit Mac compatibility", "USB-C single-cable connectivity"],
     pros: ["Explicitly marketed and tested for Mac compatibility", "True 4K resolution works well with macOS scaling presets", "Highly competitive price for true 4K", "HDR support for richer contrast"],
     cons: ["Verify your specific Mac model's external display support limit", "27-inch size needs adequate desk depth", "Check current Mac-user reviews for scaling experience reports"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51BiaZGDKRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BQPSX5CR?tag=deskfinds0d-20",
     description:
-      "Explicitly positioned for Mac with professional color calibration, appropriate for Mac-based creative professionals doing color-critical design or photo work.\n\nThe premium price reflects genuine professional-grade calibration alongside true 4K resolution and HDR, worth it specifically for color-critical work on macOS's color-managed workflow.",
+      "Explicitly positioned for Mac with professional color calibration, appropriate for Mac-based creative professionals doing color-critical design or photo work.\n\nThe premium price reflects genuine professional-grade calibration alongside true 4K resolution and HDR, worth it specifically for color-critical work on macOS's color-managed workflow.\n\nWorth knowing before you decide: True 4K UHD resolution with HDR support. On the other side, Highest price in this guide by a significant margin. That's the main tradeoff to weigh against your specific needs.",
     specs: ["27-inch true 4K UHD IPS panel", "HDR support", "ProArt color accuracy calibration", "Explicit Mac compatibility"],
     pros: ["Explicit Mac compatibility with professional color calibration", "True 4K UHD resolution with HDR support", "ProArt calibration suited to macOS color-managed workflows", "USB-C single-cable connectivity"],
     cons: ["Highest price in this guide by a significant margin", "Verify your Mac's chip generation supports the intended resolution and refresh rate", "Premium calibration is unnecessary expense if you don't do color-critical work"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41jGkitNULL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08LCPY1TR?tag=deskfinds0d-20",
     description:
-      "A QHD ProArt panel appropriate for Mac users wanting professional color accuracy at a more moderate resolution than 4K, which can simplify macOS scaling.\n\nQHD resolution often maps more predictably to macOS's 'Looks like' scaling presets than an unusual resolution might.",
+      "A QHD ProArt panel appropriate for Mac users wanting professional color accuracy at a more moderate resolution than 4K, which can simplify macOS scaling.\n\nQHD resolution often maps more predictably to macOS's 'Looks like' scaling presets than an unusual resolution might.\n\nWorth knowing before you decide: ProArt color accuracy suited to Mac-based design work. On the other side, Not true 4K, verify this matches your resolution needs. That's the main tradeoff to weigh against your specific needs.",
     specs: ["27-inch QHD (1440p) IPS panel", "USB-C connectivity", "ProArt color accuracy calibration", "Professional-grade build"],
     pros: ["QHD resolution often maps predictably to macOS scaling presets", "ProArt color accuracy suited to Mac-based design work", "USB-C single-cable connectivity", "Professional-grade build quality"],
     cons: ["Not true 4K, verify this matches your resolution needs", "Verify USB-C power delivery wattage against your specific Mac model", "Higher price than general-purpose QHD monitors"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51+NCPHB1gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08K2NT2G7?tag=deskfinds0d-20",
     description:
-      "A more budget-friendly ProArt panel for Mac users, standard 1080p resolution at 24 inches keeps macOS scaling straightforward without needing higher-resolution adjustments.\n\nProArt calibration credentials make this suitable for design work despite the lower resolution than the 27-inch alternatives.",
+      "A more budget-friendly ProArt panel for Mac users, standard 1080p resolution at 24 inches keeps macOS scaling straightforward without needing higher-resolution adjustments.\n\nProArt calibration credentials make this suitable for design work despite the lower resolution than the 27-inch alternatives.\n\nWorth knowing before you decide: Straightforward macOS scaling at 1080p resolution. On the other side, 1080p resolution is modest for a 24-inch professional monitor. That's the main tradeoff to weigh against your specific needs.",
     specs: ["24-inch 1080p IPS panel", "USB-C connectivity", "ProArt color accuracy calibration", "Straightforward macOS scaling"],
     pros: ["ProArt color accuracy at a more accessible price than the 27-inch alternatives", "Straightforward macOS scaling at 1080p resolution", "USB-C single-cable connectivity", "Professional-grade build quality"],
     cons: ["1080p resolution is modest for a 24-inch professional monitor", "Verify USB-C power delivery wattage against your specific Mac model", "Less screen real estate than the 27-inch options"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41uYhQ+-HGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GD21577Z?tag=deskfinds0d-20",
     description:
-      "A QHD panel with a genuinely high 144Hz refresh rate, appropriate for Mac users wanting smoother motion for casual gaming or scrolling alongside general productivity work.\n\nVerify your specific Mac model and chip generation can actually drive 144Hz externally before assuming full refresh rate support.",
+      "A QHD panel with a genuinely high 144Hz refresh rate, appropriate for Mac users wanting smoother motion for casual gaming or scrolling alongside general productivity work.\n\nVerify your specific Mac model and chip generation can actually drive 144Hz externally before assuming full refresh rate support.\n\nWorth knowing before you decide: QHD resolution for good productivity workspace. On the other side, Verify your Mac's chip generation actually supports 144Hz externally. That's the main tradeoff to weigh against your specific needs.",
     specs: ["27-inch QHD (2560x1440) panel", "144Hz refresh rate", "USB-C connectivity", "Not Mac-exclusive branding but broadly compatible"],
     pros: ["144Hz refresh rate for smoother motion on capable Mac models", "QHD resolution for good productivity workspace", "Good value for the resolution and refresh rate combination", "Reliable Dell build quality"],
     cons: ["Verify your Mac's chip generation actually supports 144Hz externally", "Not explicitly Mac-branded, check compatibility details", "27-inch size needs adequate desk depth"],

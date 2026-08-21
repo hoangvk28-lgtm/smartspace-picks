@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
-      "Explicitly marketed for pets and dust together, with a washable pre-filter that catches hair before it reaches the HEPA layer, genuinely extending true filter life between replacements when cleaned regularly.\n\nHair strands trap dust particles and accelerate pre-filter saturation compared to either issue alone, plan to clean the pre-filter on a set schedule rather than waiting for a change indicator.",
+      "Explicitly marketed for pets and dust together, with a washable pre-filter that catches hair before it reaches the HEPA layer, genuinely extending true filter life between replacements when cleaned regularly.\n\nHair strands trap dust particles and accelerate pre-filter saturation compared to either issue alone, plan to clean the pre-filter on a set schedule rather than waiting for a change indicator.\n\nWorth knowing before you decide: Washable pre-filter extends true HEPA life. On the other side, Pre-filter needs regular manual cleaning, not just indicator-based. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Washable pre-filter catches hair before HEPA layer", "True HEPA H13, 99.97% particulate removal", "Largest review base in this guide", "24dB quoted noise level"],
     pros: ["Explicitly marketed for combined dust and pet hair", "Washable pre-filter extends true HEPA life", "By far the largest review base of any pick here", "Affordable price"],
     cons: ["Pre-filter needs regular manual cleaning, not just indicator-based", "No smart app control", "Combined dust-hair load still shortens filter intervals overall"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51SEA4kds4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08GQ9BQB4?tag=deskfinds0d-20",
     description:
-      "Rated for both allergies and pets with real removal specification down to 0.1 microns, a genuine headroom pick for a home combining higher dust and pet-hair load.\n\nThe smaller review base than the top pick means less real-world evidence specifically for combined-load pre-filter durability, weigh that against its coverage and spec advantages.",
+      "Rated for both allergies and pets with real removal specification down to 0.1 microns, a genuine headroom pick for a home combining higher dust and pet-hair load.\n\nThe smaller review base than the top pick means less real-world evidence specifically for combined-load pre-filter durability, weigh that against its coverage and spec advantages.\n\nWorth knowing before you decide: Solid coverage for a larger room. On the other side, Smaller review base than top pick, less combined-load evidence. That's the main tradeoff to weigh against your specific needs.",
     specs: ["99.9% removal to 0.1 microns", "330 sq ft coverage", "H13 True HEPA", "Marketed for pets and dust together"],
     pros: ["Explicit 0.1-micron removal specification", "Solid coverage for a larger room", "Marketed for both dust and pets", "Reasonable price"],
     cons: ["Smaller review base than top pick, less combined-load evidence", "Lower average rating than other picks in this guide", "No washable pre-filter callout"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Wb8TGSnPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT4F8T4L?tag=deskfinds0d-20",
     description:
-      "A large, well-established review base with PlasmaWave technology addressing pet odor alongside dust and hair filtration, a genuinely multi-issue pick for combined-load homes.\n\nPlasmaWave technology is an added odor-neutralizing layer, not a replacement for the mechanical pre-filter cleaning that combined dust-and-hair loads still require on a regular schedule.",
+      "A large, well-established review base with PlasmaWave technology addressing pet odor alongside dust and hair filtration, a genuinely multi-issue pick for combined-load homes.\n\nPlasmaWave technology is an added odor-neutralizing layer, not a replacement for the mechanical pre-filter cleaning that combined dust-and-hair loads still require on a regular schedule.\n\nWorth knowing before you decide: PlasmaWave addresses pet odor alongside particulate filtration. On the other side, Higher price than the top pick. That's the main tradeoff to weigh against your specific needs.",
     specs: ["PlasmaWave odor-neutralizing technology", "Large, established review base", "True HEPA filtration", "Multi-stage filtration"],
     pros: ["Large, well-established review base", "PlasmaWave addresses pet odor alongside particulate filtration", "True HEPA captures dust and hair", "Proven, established design"],
     cons: ["Higher price than the top pick", "PlasmaWave doesn't replace mechanical pre-filter cleaning", "Larger footprint than compact alternatives"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/316AtkHoSdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004VGIGVY?tag=deskfinds0d-20",
     description:
-      "A large review base at the lowest price in this guide, genuinely capable for a smaller home with a moderate combined dust-and-pet-hair load rather than a heavy multi-pet household.\n\nA moderate combined load is a reasonable fit for this unit's capacity, a multi-pet or larger-home load likely needs one of the higher-coverage picks in this guide instead.",
+      "A large review base at the lowest price in this guide, genuinely capable for a smaller home with a moderate combined dust-and-pet-hair load rather than a heavy multi-pet household.\n\nA moderate combined load is a reasonable fit for this unit's capacity, a multi-pet or larger-home load likely needs one of the higher-coverage picks in this guide instead.\n\nWorth knowing before you decide: Large, well-established review base. On the other side, Not intended for heavy multi-pet or larger-home loads. That's the main tradeoff to weigh against your specific needs.",
     specs: ["True HEPA filtration", "Large review base", "Budget-friendly", "Compact design for smaller rooms"],
     pros: ["Lowest price in this guide", "Large, well-established review base", "True HEPA captures dust and pet hair", "Compact footprint"],
     cons: ["Not intended for heavy multi-pet or larger-home loads", "No washable pre-filter callout", "Fewer smart features than premium alternatives"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
-      "Rated up to 1875 sq ft with smart app control, genuine headroom for a multi-pet household combined with a dustier home, where the combined load saturates a standard-capacity unit faster.\n\nA multi-pet, heavier-dust household benefits from this extra coverage headroom, since combined loads shorten real filter and pre-filter cleaning intervals below a single-issue estimate.",
+      "Rated up to 1875 sq ft with smart app control, genuine headroom for a multi-pet household combined with a dustier home, where the combined load saturates a standard-capacity unit faster.\n\nA multi-pet, heavier-dust household benefits from this extra coverage headroom, since combined loads shorten real filter and pre-filter cleaning intervals below a single-issue estimate.\n\nWorth knowing before you decide: Smart app control for monitoring filter status. On the other side, Higher price than budget alternatives. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Up to 1875 sq ft rated (open room)", "Smart app control", "Large review base", "Extra headroom for combined heavy loads"],
     pros: ["Large rated coverage for a multi-pet or dustier home", "Smart app control for monitoring filter status", "Large, well-established review base", "Genuine headroom for the heaviest combined loads"],
     cons: ["Higher price than budget alternatives", "Larger footprint than compact picks", "Combined load still requires regular pre-filter cleaning regardless of coverage headroom"],

@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31Nz-Myx-1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09YVJN8R7?tag=deskfinds0d-20",
     description:
-      "This Letaya explicitly markets itself as under-desk in its listing title and ships fully assembled, a genuine pedestal-style build with three drawers and a lock, well suited to sliding beneath a standing or sitting-height desk. The narrower pedestal footprint compared to a lateral cabinet makes it easier to fit into the tight space most desks actually leave underneath.\n\nBefore ordering, measure your desk's actual clearance from floor to the underside of the desktop at your typical sitting height, since a pedestal cabinet still needs 24 or more inches of vertical room even when marketed as under-desk. Fully assembled construction also means no setup time once it arrives.",
+      "This Letaya explicitly markets itself as under-desk in its listing title and ships fully assembled, a genuine pedestal-style build with three drawers and a lock, well suited to sliding beneath a standing or sitting-height desk. The narrower pedestal footprint compared to a lateral cabinet makes it easier to fit into the tight space most desks actually leave underneath.\n\nBefore ordering, measure your desk's actual clearance from floor to the underside of the desktop at your typical sitting height, since a pedestal cabinet still needs 24 or more inches of vertical room even when marketed as under-desk. Fully assembled construction also means no setup time once it arrives.\n\nWorth knowing before you decide: Fully assembled, no setup required. On the other side, Highest price alongside the Letaya lateral cabinet. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "3 drawers with lock",
       "Fully assembled on arrival",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Aix6uWuJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBZ98D94?tag=deskfinds0d-20",
     description:
-      "The GYIIYUO adds a 24 inch extended top surface to a compact two-drawer mobile cabinet, though its own top sits at pedestal height, roughly 24 to 28 inches, lower than a standard desk surface of 28 to 30 inches, so treat that extended top as a printer stand or side shelf rather than a true secondary work surface. A side storage bag adds a small amount of extra organization for loose items.\n\nRolling casters make it easy to reposition, useful if your desk is L-shaped and benefits from a cabinet that can slide into a corner rather than staying fixed in one spot. Fabric drawer fronts keep the price down compared to an all-metal build.",
+      "The GYIIYUO adds a 24 inch extended top surface to a compact two-drawer mobile cabinet, though its own top sits at pedestal height, roughly 24 to 28 inches, lower than a standard desk surface of 28 to 30 inches, so treat that extended top as a printer stand or side shelf rather than a true secondary work surface. A side storage bag adds a small amount of extra organization for loose items.\n\nRolling casters make it easy to reposition, useful if your desk is L-shaped and benefits from a cabinet that can slide into a corner rather than staying fixed in one spot. Fabric drawer fronts keep the price down compared to an all-metal build.\n\nWorth knowing before you decide: Rolling casters for repositioning around an L-shaped desk. On the other side, Extended top sits lower than a standard desk surface. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "2 drawers plus 24 inch extended top",
       "Rolling casters",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ukHwAN+yL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTNJY2HB?tag=deskfinds0d-20",
     description:
-      "We're including this Letaya as a wider lateral alternative rather than a like-for-like pedestal pick. Lateral cabinets orient drawers side to side across a wider body, roughly 28 inches wide by this listing's stated dimensions, which is a different footprint than the narrower front-facing pedestal cabinets that fit most easily into tight under-desk gaps.\n\nIf your desk has generous side clearance rather than a narrow center gap, a lateral cabinet like this can still work well and offers a stable, wide base for hanging letter, legal, or A4 files. But measure carefully before assuming it slides under a standard desk the way a pedestal cabinet does, since lateral cabinets are typically built for standalone placement beside a desk rather than tucked directly beneath it.",
+      "We're including this Letaya as a wider lateral alternative rather than a like-for-like pedestal pick. Lateral cabinets orient drawers side to side across a wider body, roughly 28 inches wide by this listing's stated dimensions, which is a different footprint than the narrower front-facing pedestal cabinets that fit most easily into tight under-desk gaps.\n\nIf your desk has generous side clearance rather than a narrow center gap, a lateral cabinet like this can still work well and offers a stable, wide base for hanging letter, legal, or A4 files. But measure carefully before assuming it slides under a standard desk the way a pedestal cabinet does, since lateral cabinets are typically built for standalone placement beside a desk rather than tucked directly beneath it.\n\nWorth knowing before you decide: Locking drawers for document security. On the other side, Wider footprint may not clear a narrow under-desk gap. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "2 drawers with lock",
       "Lateral (side-loading) orientation",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31cXnfFFSML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQL795FX?tag=deskfinds0d-20",
     description:
-      "The SISESOL is the lowest priced cabinet in this list that also explicitly states under desk in its listing title, describing a narrow vertical design meant to fit into a tight gap rather than sit beside the desk. Its narrower profile compared to the lateral pick makes it a safer bet for genuinely tight under-desk clearance.\n\nWith a smaller review base than the top picks, weigh that against its strong price-to-fit ratio if budget matters as much as confirmed under-desk sizing. Easy assembly is stated in the listing, worth factoring in if you'd rather not deal with a fully knocked-down build.",
+      "The SISESOL is the lowest priced cabinet in this list that also explicitly states under desk in its listing title, describing a narrow vertical design meant to fit into a tight gap rather than sit beside the desk. Its narrower profile compared to the lateral pick makes it a safer bet for genuinely tight under-desk clearance.\n\nWith a smaller review base than the top picks, weigh that against its strong price-to-fit ratio if budget matters as much as confirmed under-desk sizing. Easy assembly is stated in the listing, worth factoring in if you'd rather not deal with a fully knocked-down build.\n\nWorth knowing before you decide: Narrow vertical profile suits tight clearance. On the other side, Smaller review base than the top picks. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "2 drawers with lock",
       "Narrow vertical, under-desk profile",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31IIIyTZ29L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D2QSQZ1X?tag=deskfinds0d-20",
     description:
-      "The SteeLoong is a general two-drawer metal pedestal cabinet without an explicit under-desk claim in its listing, though its compact two-drawer size is consistent with the pedestal footprint that typically fits under most desks. It carries the lowest rating and a smaller review base in this list, worth weighing against its mid-range price.\n\nA basic metal build with a lock covers the essentials without extra features like an extended top or side storage. If a confirmed under-desk claim matters to you, the Letaya 3 Drawer or SISESOL are safer choices at similar or lower prices.",
+      "The SteeLoong is a general two-drawer metal pedestal cabinet without an explicit under-desk claim in its listing, though its compact two-drawer size is consistent with the pedestal footprint that typically fits under most desks. It carries the lowest rating and a smaller review base in this list, worth weighing against its mid-range price.\n\nA basic metal build with a lock covers the essentials without extra features like an extended top or side storage. If a confirmed under-desk claim matters to you, the Letaya 3 Drawer or SISESOL are safer choices at similar or lower prices.\n\nWorth knowing before you decide: Metal construction with lock. On the other side, Lowest rating in this list. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "2 drawers with lock",
       "Metal construction",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31VM3xK++PL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D9XYD75W?tag=deskfinds0d-20",
     description:
-      "The BYNSOE is a vertical steel two-drawer cabinet, again without an explicit under-desk claim, but its vertical rather than lateral orientation puts it closer to the pedestal footprint that clears most under-desk gaps. Assembly is required, unlike the fully assembled Letaya 3 Drawer, so factor in setup time.\n\nWith a larger review base than the SteeLoong at a similar price and rating, it's a reasonable general-purpose steel filing cabinet if you're comfortable measuring your own clearance rather than relying on an explicit under-desk claim.",
+      "The BYNSOE is a vertical steel two-drawer cabinet, again without an explicit under-desk claim, but its vertical rather than lateral orientation puts it closer to the pedestal footprint that clears most under-desk gaps. Assembly is required, unlike the fully assembled Letaya 3 Drawer, so factor in setup time.\n\nWith a larger review base than the SteeLoong at a similar price and rating, it's a reasonable general-purpose steel filing cabinet if you're comfortable measuring your own clearance rather than relying on an explicit under-desk claim.\n\nWorth knowing before you decide: Larger review base than the SteeLoong. On the other side, Assembly required, unlike the fully assembled Letaya. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "2 drawers with lock",
       "Vertical steel construction",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419tPkjAfvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09KT9RG1M?tag=deskfinds0d-20",
     description:
-      "The DEVAISE combines a compact rolling file drawer with an open storage shelf on top, effectively doubling as a printer stand that still tucks into an under-desk or beside-desk gap. Rolling casters make repositioning easy, useful for pulling it out from under a desk when you need to access the open shelf.\n\nFabric drawer fronts keep the design lightweight but are less durable than an all-metal build over years of heavy use. Its price wasn't listed at the time of research, so check current Amazon pricing directly before comparing it against the other picks here.",
+      "The DEVAISE combines a compact rolling file drawer with an open storage shelf on top, effectively doubling as a printer stand that still tucks into an under-desk or beside-desk gap. Rolling casters make repositioning easy, useful for pulling it out from under a desk when you need to access the open shelf.\n\nFabric drawer fronts keep the design lightweight but are less durable than an all-metal build over years of heavy use. Its price wasn't listed at the time of research, so check current Amazon pricing directly before comparing it against the other picks here.\n\nWorth knowing before you decide: Rolling casters for easy repositioning. On the other side, Price not currently listed. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "Rolling file drawer plus open top shelf",
       "Fabric vertical filing cabinet",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41UqyQ9zIGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09ZXSY378?tag=deskfinds0d-20",
     description:
-      "This DEVAISE sibling swaps the open shelf for a two-drawer configuration in a charcoal black wood-grain print, a more finished look for a home office that wants the cabinet to blend in visually rather than read as purely utilitarian metal. It shares the same rolling mobile base and compact vertical footprint as the open-shelf version.\n\nLike its sibling, the fabric drawer fronts trade some durability for a lighter build and lower cost, and current pricing wasn't listed at the time of research, so verify on Amazon directly before comparing against the metal picks in this list.",
+      "This DEVAISE sibling swaps the open shelf for a two-drawer configuration in a charcoal black wood-grain print, a more finished look for a home office that wants the cabinet to blend in visually rather than read as purely utilitarian metal. It shares the same rolling mobile base and compact vertical footprint as the open-shelf version.\n\nLike its sibling, the fabric drawer fronts trade some durability for a lighter build and lower cost, and current pricing wasn't listed at the time of research, so verify on Amazon directly before comparing against the metal picks in this list.\n\nWorth knowing before you decide: Rolling mobile base. On the other side, Price not currently listed. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "2 drawers, fabric vertical filing cabinet",
       "Charcoal black wood grain print",

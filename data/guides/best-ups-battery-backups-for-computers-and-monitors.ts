@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31rIE-toOYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08GRY1W93?tag=deskfinds0d-20",
     description:
-      "900W of real usable capacity, genuine headroom for a gaming or workstation PC plus monitor, well above the typical combined draw of most desktop setups. Pure sine wave and APFC compatibility avoid buzzing or shutdown risk on a modern PC power supply.\n\nThe 1500VA rating on the box overstates real capacity, 900W is the number that actually matters for sizing against your equipment's combined draw.",
+      "900W of real usable capacity, genuine headroom for a gaming or workstation PC plus monitor, well above the typical combined draw of most desktop setups. Pure sine wave and APFC compatibility avoid buzzing or shutdown risk on a modern PC power supply.\n\nThe 1500VA rating on the box overstates real capacity, 900W is the number that actually matters for sizing against your equipment's combined draw.\n\nWorth knowing before you decide: Pure sine wave avoids APFC compatibility issues. On the other side, Highest price in this guide. That's the main tradeoff to weigh against your specific needs.",
     specs: ["1500VA/900W real capacity", "Pure sine wave, APFC compatible", "10 outlets, coax/Ethernet surge protection", "Replaceable battery"],
     pros: ["Genuine 900W headroom for a PC plus monitor", "Pure sine wave avoids APFC compatibility issues", "10 outlets for additional peripherals", "Strong review base"],
     cons: ["Highest price in this guide", "Overkill for a basic office PC and monitor", "Larger footprint"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31VPmugfqML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06VY12HW4?tag=deskfinds0d-20",
     description:
-      "600W of real capacity, a genuine match for a standard office desktop PC and monitor combination, most such setups draw well under 300W combined, leaving real headroom without paying for a 1500VA unit's excess.\n\nAVR included handles brownouts without draining the battery, extending runtime for the outages that matter.",
+      "600W of real capacity, a genuine match for a standard office desktop PC and monitor combination, most such setups draw well under 300W combined, leaving real headroom without paying for a 1500VA unit's excess.\n\nAVR included handles brownouts without draining the battery, extending runtime for the outages that matter.\n\nWorth knowing before you decide: AVR extends battery life on minor sags. On the other side, Not pure sine wave. That's the main tradeoff to weigh against your specific needs.",
     specs: ["1000VA/600W real capacity", "AVR included", "Multiple outlets", "Office electronics rated"],
     pros: ["Genuine watt headroom for a standard PC and monitor setup", "AVR extends battery life on minor sags", "Reasonable price", "Solid rating base"],
     cons: ["Not pure sine wave", "Less headroom than the top pick for a high-performance PC", "Runtime shorter under a heavier load"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31xnh5VoQ4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06WP9Q8ZN?tag=deskfinds0d-20",
     description:
-      "510W of real capacity, a lower-cost option genuinely sized for a basic PC and monitor pairing rather than a demanding gaming build. Do the wattage math on your specific equipment before assuming this is enough headroom.\n\nAVR included, the same brownout-correction benefit as the higher-capacity APC picks in this guide.",
+      "510W of real capacity, a lower-cost option genuinely sized for a basic PC and monitor pairing rather than a demanding gaming build. Do the wattage math on your specific equipment before assuming this is enough headroom.\n\nAVR included, the same brownout-correction benefit as the higher-capacity APC picks in this guide.\n\nWorth knowing before you decide: Genuinely sized for a basic PC and monitor combination. On the other side, Less headroom for a demanding PC build. That's the main tradeoff to weigh against your specific needs.",
     specs: ["850VA/510W real capacity", "AVR included", "Compact form factor", "Office electronics rated"],
     pros: ["Lower price than the 1000VA+ picks", "Genuinely sized for a basic PC and monitor combination", "AVR included", "Compact footprint"],
     cons: ["Less headroom for a demanding PC build", "Not pure sine wave", "Shorter runtime under real load"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41axhgC1IXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5QNMS8N?tag=deskfinds0d-20",
     description:
-      "A notably high real-watt-to-VA ratio, 800W of real capacity out of a 1000VA rating, better than the roughly 0.6 power factor typical of many UPS designs, genuine extra headroom for a PC and monitor at this capacity tier.\n\nLithium battery chemistry generally handles heat and charge cycles better long-term than the lead-acid designs used by most APC picks here.",
+      "A notably high real-watt-to-VA ratio, 800W of real capacity out of a 1000VA rating, better than the roughly 0.6 power factor typical of many UPS designs, genuine extra headroom for a PC and monitor at this capacity tier.\n\nLithium battery chemistry generally handles heat and charge cycles better long-term than the lead-acid designs used by most APC picks here.\n\nWorth knowing before you decide: Lithium battery, better long-term charge-cycle life. On the other side, Newer entrant, less long-term track record than APC. That's the main tradeoff to weigh against your specific needs.",
     specs: ["1000VA/800W, above-average real-watt ratio", "Lithium battery", "Surge protection", "Compact footprint"],
     pros: ["Higher real-watt-to-VA ratio than most competitors at this capacity", "Lithium battery, better long-term charge-cycle life", "Solid rating base", "Competitive price"],
     cons: ["Newer entrant, less long-term track record than APC", "Not pure sine wave confirmed", "Battery not confirmed as a standard replaceable part"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31pgnLVo0dL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B005GZRUZW?tag=deskfinds0d-20",
     description:
-      "390W of real capacity at a genuinely budget-friendly price, do the math on your specific PC and monitor's combined typical draw (not the power supply's maximum rating) before assuming this covers your setup.\n\nLarge, well-established review base gives real-world confidence in reliability at this capacity tier.",
+      "390W of real capacity at a genuinely budget-friendly price, do the math on your specific PC and monitor's combined typical draw (not the power supply's maximum rating) before assuming this covers your setup.\n\nLarge, well-established review base gives real-world confidence in reliability at this capacity tier.\n\nWorth knowing before you decide: Genuinely affordable. On the other side, Limited real-watt headroom, verify your equipment's actual combined draw. That's the main tradeoff to weigh against your specific needs.",
     specs: ["650VA/390W real capacity", "Standard replaceable battery", "Surge protection", "Budget-friendly"],
     pros: ["Large, well-established review base", "Genuinely affordable", "Standard replaceable battery", "Good fit for a basic low-power setup"],
     cons: ["Limited real-watt headroom, verify your equipment's actual combined draw", "Not suited to a high-performance PC", "Not pure sine wave"],
@@ -116,7 +116,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31nDi+6Lz+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00429N192?tag=deskfinds0d-20",
     description:
-      "A PFC sinewave alternative at a competitive price if your PC has an APFC power supply and you don't need the full 900W headroom of the top pick. LCD display shows real-time load and runtime.\n\nCheck the actual watt rating on this unit's specific listing before buying, as with every pick in this guide, VA alone doesn't tell the full sizing story.",
+      "A PFC sinewave alternative at a competitive price if your PC has an APFC power supply and you don't need the full 900W headroom of the top pick. LCD display shows real-time load and runtime.\n\nCheck the actual watt rating on this unit's specific listing before buying, as with every pick in this guide, VA alone doesn't tell the full sizing story.\n\nWorth knowing before you decide: AVR included. On the other side, Lower rating than other picks in this guide. That's the main tradeoff to weigh against your specific needs.",
     specs: ["PFC sinewave output", "AVR included", "LCD display", "Multiple outlets"],
     pros: ["PFC sinewave, APFC compatible", "AVR included", "LCD for load/runtime visibility", "Reasonable price for the capability"],
     cons: ["Lower rating than other picks in this guide", "Smaller headroom than the top APC pick", "Verify exact watt rating before buying, not just VA"],

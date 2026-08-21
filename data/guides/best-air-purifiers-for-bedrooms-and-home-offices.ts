@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
-      "By far the largest review base of any pick in this guide, genuine evidence this design holds up for combined bedroom-office use. True HEPA H13 filtration quoted at 24dB.\n\nA combined bedroom-office space runs near-continuous occupancy, calculate filter replacement against this heavier real-world usage rather than assuming daytime-only or nighttime-only schedules.",
+      "By far the largest review base of any pick in this guide, genuine evidence this design holds up for combined bedroom-office use. True HEPA H13 filtration quoted at 24dB.\n\nA combined bedroom-office space runs near-continuous occupancy, calculate filter replacement against this heavier real-world usage rather than assuming daytime-only or nighttime-only schedules.\n\nWorth knowing before you decide: True HEPA H13 filtration. On the other side, No night mode confirmed for sleep-specific dimming. That's the main tradeoff to weigh against your specific needs.",
     specs: ["True HEPA H13 filter", "24dB quoted noise level", "Removes 99.97% of particulates", "Largest review base in this guide"],
     pros: ["By far the largest review base of any pick in this guide", "True HEPA H13 filtration", "Established, well-reviewed design", "Reasonable price"],
     cons: ["No night mode confirmed for sleep-specific dimming", "24dB likely reflects lowest speed, not effective-CADR speed", "Near-continuous combined-space use accelerates filter loading"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
-      "Smart app control genuinely useful for scheduling different modes between nighttime sleep and daytime work in the same combined space. Large rated coverage.\n\nIf this offers a night mode, understand it's a sleep benefit that could be counterproductive if left engaged during daytime home-office use, reducing effective CADR when you need it most.",
+      "Smart app control genuinely useful for scheduling different modes between nighttime sleep and daytime work in the same combined space. Large rated coverage.\n\nIf this offers a night mode, understand it's a sleep benefit that could be counterproductive if left engaged during daytime home-office use, reducing effective CADR when you need it most.\n\nWorth knowing before you decide: Large rated coverage for a combined-use space. On the other side, Higher price than compact alternatives. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Up to 1875 sq ft rated (open room)", "Smart app control", "Large review base", "Higher capacity for combined-use rooms"],
     pros: ["Smart app control for scheduling day/night modes separately", "Large rated coverage for a combined-use space", "Large, well-established review base", "Genuine capacity for near-24/7 operation"],
     cons: ["Higher price than compact alternatives", "Verify night mode doesn't stay engaged during daytime use", "Larger footprint for a small combined space"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31e6d46ZnyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09LMF648R?tag=deskfinds0d-20",
     description:
-      "A large review base for a quiet-focused design, genuinely relevant for both nighttime sleep-compatible noise and daytime call-compatible noise in a combined space. Affordable.\n\nThese are genuinely different noise-tolerance contexts, verify this design's noise level at the speed needed for real air changes works for both your sleep and your calls.",
+      "A large review base for a quiet-focused design, genuinely relevant for both nighttime sleep-compatible noise and daytime call-compatible noise in a combined space. Affordable.\n\nThese are genuinely different noise-tolerance contexts, verify this design's noise level at the speed needed for real air changes works for both your sleep and your calls.\n\nWorth knowing before you decide: Quiet-focused design relevant to both sleep and calls. On the other side, No confirmed separate day/night mode. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Small, quiet-focused design", "Large review base", "Affordable", "Compact footprint"],
     pros: ["Large, well-established review base", "Quiet-focused design relevant to both sleep and calls", "Very affordable", "Compact for a small combined space"],
     cons: ["No confirmed separate day/night mode", "Filter replacement more frequent given compact media", "Smaller rated coverage than premium picks"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31CcBFzC6wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08ND7C7P4?tag=deskfinds0d-20",
     description:
-      "A genuinely more affordable option with a solid review base, appropriate for a smaller combined bedroom-office space common in studios and small apartments.\n\nCalculate filter loading against near-24/7 combined-space occupancy rather than assuming a lighter single-purpose schedule.",
+      "A genuinely more affordable option with a solid review base, appropriate for a smaller combined bedroom-office space common in studios and small apartments.\n\nCalculate filter loading against near-24/7 combined-space occupancy rather than assuming a lighter single-purpose schedule.\n\nWorth knowing before you decide: Solid review base. On the other side, Verify certified True HEPA vs. HEPA-type claim. That's the main tradeoff to weigh against your specific needs.",
     specs: ["HEPA filtration", "Solid review base", "Budget-friendly", "Compact design"],
     pros: ["More affordable than premium alternatives", "Solid review base", "Compact for a smaller combined space", "Reasonable performance for the price"],
     cons: ["Verify certified True HEPA vs. HEPA-type claim", "No night mode or smart features confirmed", "Lower rated coverage than premium picks"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ezUHfn5wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08FJ678YK?tag=deskfinds0d-20",
     description:
-      "A very large review base with smart and voice control, genuinely convenient for adjusting fan speed hands-free whether you're settling in for sleep or on a work call in the same space. Affordable.\n\nVoice control convenience doesn't change the underlying noise-context math, verify the actual dB level at your typical operating speed suits both use cases.",
+      "A very large review base with smart and voice control, genuinely convenient for adjusting fan speed hands-free whether you're settling in for sleep or on a work call in the same space. Affordable.\n\nVoice control convenience doesn't change the underlying noise-context math, verify the actual dB level at your typical operating speed suits both use cases.\n\nWorth knowing before you decide: Smart and voice control for hands-free adjustment day or night. On the other side, Smaller rated coverage than premium picks. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Smart and voice control", "Large review base", "Affordable", "Compact design"],
     pros: ["Very large review base", "Smart and voice control for hands-free adjustment day or night", "Affordable price", "Compact for a combined bedroom-office space"],
     cons: ["Smaller rated coverage than premium picks", "No confirmed dedicated night mode", "Verify certified True HEPA specifics"],

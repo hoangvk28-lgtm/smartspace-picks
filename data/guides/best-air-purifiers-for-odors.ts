@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Wb8TGSnPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT4F8T4L?tag=deskfinds0d-20",
     description:
-      "PlasmaWave technology adds a genuine odor-neutralizing layer beyond mechanical carbon filtration alone, a large review base backing it as a proven odor-control pick.\n\nPlasmaWave is not an ozone generator in the EPA-flagged sense, it operates differently from ionizer designs that carry the lung-irritant tradeoff at elevated concentrations.",
+      "PlasmaWave technology adds a genuine odor-neutralizing layer beyond mechanical carbon filtration alone, a large review base backing it as a proven odor-control pick.\n\nPlasmaWave is not an ozone generator in the EPA-flagged sense, it operates differently from ionizer designs that carry the lung-irritant tradeoff at elevated concentrations.\n\nWorth knowing before you decide: Large, well-established review base. On the other side, Higher price than budget alternatives. That's the main tradeoff to weigh against your specific needs.",
     specs: ["PlasmaWave odor-neutralizing technology", "Large, established review base", "True HEPA filtration", "Multi-stage filtration"],
     pros: ["PlasmaWave specifically targets household odors", "Large, well-established review base", "True HEPA captures particulate alongside odor", "Proven, established design"],
     cons: ["Higher price than budget alternatives", "Larger footprint than compact picks", "Carbon stage still saturates and needs periodic replacement"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
-      "Explicitly marketed as an odor eliminator with by far the largest review base of any pick here, a genuinely proven affordable choice for moderate household odor.\n\nActivated carbon has a finite absorption capacity, in a small room with a strong odor source like a litter box, expect faster saturation than the standard replacement estimate assumes.",
+      "Explicitly marketed as an odor eliminator with by far the largest review base of any pick here, a genuinely proven affordable choice for moderate household odor.\n\nActivated carbon has a finite absorption capacity, in a small room with a strong odor source like a litter box, expect faster saturation than the standard replacement estimate assumes.\n\nWorth knowing before you decide: By far the largest review base of any pick here. On the other side, Standard carbon layer saturates faster with a strong odor source. That's the main tradeoff to weigh against your specific needs.",
     specs: ["True HEPA H13, marketed as odor eliminator", "24dB quoted noise level", "Removes 99.97% of particulates", "Largest review base in this guide"],
     pros: ["Explicitly marketed for odor elimination", "By far the largest review base of any pick here", "Certified True HEPA H13 filtration", "Affordable price"],
     cons: ["Standard carbon layer saturates faster with a strong odor source", "No smart app control", "Not specialized for a single intense odor source"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31MxpE4keLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CHW2LLSJ?tag=deskfinds0d-20",
     description:
-      "An affordable pick appropriate for a smaller room with a moderate odor source, genuinely capable within its rated coverage rather than an intense single-source scenario.\n\nA smaller room with a strong source concentrates odor compounds faster per cubic foot, meaning the carbon layer saturates quicker than in a larger open space with the same source.",
+      "An affordable pick appropriate for a smaller room with a moderate odor source, genuinely capable within its rated coverage rather than an intense single-source scenario.\n\nA smaller room with a strong source concentrates odor compounds faster per cubic foot, meaning the carbon layer saturates quicker than in a larger open space with the same source.\n\nWorth knowing before you decide: Solid review base. On the other side, Not specialized for an intense single odor source. That's the main tradeoff to weigh against your specific needs.",
     specs: ["True HEPA PM2.5 filtration", "Up to 900 sq ft rated (open room)", "Solid review base", "Budget-friendly"],
     pros: ["Affordable price for the coverage offered", "Solid review base", "True HEPA captures particulate alongside odor", "Reasonable performance for moderate odor"],
     cons: ["Not specialized for an intense single odor source", "Carbon saturates faster in a small room with strong source", "No smart app control"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/316AtkHoSdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004VGIGVY?tag=deskfinds0d-20",
     description:
-      "A large, well-established review base at a low price, genuinely capable for routine household odor rather than an intense cooking or litter-box source.\n\nRoutine background odor is a reasonable fit here, an intense single source benefits more from a dedicated odor-technology pick like the top choice in this guide.",
+      "A large, well-established review base at a low price, genuinely capable for routine household odor rather than an intense cooking or litter-box source.\n\nRoutine background odor is a reasonable fit here, an intense single source benefits more from a dedicated odor-technology pick like the top choice in this guide.\n\nWorth knowing before you decide: Low price. On the other side, Not specialized for an intense single odor source. That's the main tradeoff to weigh against your specific needs.",
     specs: ["True HEPA filtration", "Large review base", "Budget-friendly", "Compact design"],
     pros: ["Large, well-established review base", "Low price", "True HEPA captures particulate", "Compact footprint"],
     cons: ["Not specialized for an intense single odor source", "Standard carbon layer, no added neutralizing technology", "Fewer smart features than premium alternatives"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
-      "Rated up to 1875 sq ft with smart app control, genuine headroom for a larger space where a strong odor source (cooking, a large litter setup) would otherwise saturate a standard-capacity carbon layer faster.\n\nDilution across more air volume genuinely slows carbon saturation compared to a small standard-capacity unit facing the same intense source.",
+      "Rated up to 1875 sq ft with smart app control, genuine headroom for a larger space where a strong odor source (cooking, a large litter setup) would otherwise saturate a standard-capacity carbon layer faster.\n\nDilution across more air volume genuinely slows carbon saturation compared to a small standard-capacity unit facing the same intense source.\n\nWorth knowing before you decide: Smart app control for monitoring. On the other side, Higher price than budget alternatives. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Up to 1875 sq ft rated (open room)", "Smart app control", "Large review base", "Extra headroom slows carbon saturation"],
     pros: ["Large rated coverage dilutes odor concentration, slowing carbon saturation", "Smart app control for monitoring", "Large, well-established review base", "Genuine headroom for an intense odor source"],
     cons: ["Higher price than budget alternatives", "Larger footprint than compact picks", "No added neutralizing technology beyond carbon and HEPA"],

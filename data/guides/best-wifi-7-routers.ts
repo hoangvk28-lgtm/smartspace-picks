@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/3179Kj81G3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJSNSVMR?tag=deskfinds0d-20",
     description:
-      "A genuine tri-band router including the 6GHz radio that defines the Wi-Fi 7 standard, appropriate for buyers wanting the real capability rather than a dual-band product carrying the Wi-Fi 7 label without 6GHz.\n\nFull 2.5G ports across the board prevent the wired bottleneck that undermines many otherwise capable Wi-Fi 7 routers paired with gigabit-only LAN.",
+      "A genuine tri-band router including the 6GHz radio that defines the Wi-Fi 7 standard, appropriate for buyers wanting the real capability rather than a dual-band product carrying the Wi-Fi 7 label without 6GHz.\n\nFull 2.5G ports across the board prevent the wired bottleneck that undermines many otherwise capable Wi-Fi 7 routers paired with gigabit-only LAN.\n\nWorth knowing before you decide: Full 2.5G ports avoid the wired bottleneck common on gigabit-only alternatives. On the other side, More moderate 4.1-star rating, verify current reviews for firmware stability. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Tri-band, genuine 6GHz radio", "BE9300 combined rating", "Full 2.5G Ethernet ports", "6-stream configuration"],
     pros: ["Genuine tri-band with the 6GHz radio that defines real Wi-Fi 7 capability", "Full 2.5G ports avoid the wired bottleneck common on gigabit-only alternatives", "Large review base for real-world reliability confidence", "Reasonable price for genuine tri-band Wi-Fi 7 capability"],
     cons: ["More moderate 4.1-star rating, verify current reviews for firmware stability", "MLO benefit requires Wi-Fi 7 client devices most households don't yet own", "6GHz has shorter wall-penetration range than 5GHz or 2.4GHz"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41u8VJ6j2gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DC99N2T8?tag=deskfinds0d-20",
     description:
-      "A genuinely affordable entry into Wi-Fi 7 with a high rating and large review base, appropriate for buyers wanting newer-standard features without the tri-band price premium.\n\nThis is a dual-band product, meaning it skips the 6GHz radio entirely, so verify that tradeoff matches your expectations before assuming full Wi-Fi 7 capability.",
+      "A genuinely affordable entry into Wi-Fi 7 with a high rating and large review base, appropriate for buyers wanting newer-standard features without the tri-band price premium.\n\nThis is a dual-band product, meaning it skips the 6GHz radio entirely, so verify that tradeoff matches your expectations before assuming full Wi-Fi 7 capability.\n\nWorth knowing before you decide: Genuinely affordable entry point into the Wi-Fi 7 standard. On the other side, Dual-band means no 6GHz radio, the standard's headline capability is absent. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Dual-band (no 6GHz radio)", "BE3600 combined rating", "2x 2.5G + 3x 1G ports", "4-stream configuration"],
     pros: ["High 4.4-star rating with a large review base for real confidence", "Genuinely affordable entry point into the Wi-Fi 7 standard", "2.5G ports included despite the budget positioning", "Good option for households not yet owning 6GHz-capable devices"],
     cons: ["Dual-band means no 6GHz radio, the standard's headline capability is absent", "Without 6GHz, cross-band MLO aggregation benefit is limited", "BE3600 is a modest combined rating relative to premium alternatives"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415NxCTrJpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F76PQ2T8?tag=deskfinds0d-20",
     description:
-      "A genuine 10G port alongside multiple 2.5G LAN ports, appropriate for buyers with fiber plans exceeding 1Gbps or a NAS setup wanting genuinely fast wired transfers.\n\n320MHz channel width support is genuine Wi-Fi 7 capability, though real-world 320MHz operation is less reliable in dense apartment environments than in a standalone house.",
+      "A genuine 10G port alongside multiple 2.5G LAN ports, appropriate for buyers with fiber plans exceeding 1Gbps or a NAS setup wanting genuinely fast wired transfers.\n\n320MHz channel width support is genuine Wi-Fi 7 capability, though real-world 320MHz operation is less reliable in dense apartment environments than in a standalone house.\n\nWorth knowing before you decide: Multiple 2.5G LAN ports for a genuinely multi-gig wired network. On the other side, 320MHz reliability drops meaningfully in dense apartment environments. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Tri-band with genuine 6GHz radio", "10G port plus 3x 2.5G LAN", "320MHz channel width support", "BE9700 combined rating"],
     pros: ["Genuine 10G port prevents the WAN bottleneck on fast fiber plans", "Multiple 2.5G LAN ports for a genuinely multi-gig wired network", "Genuine tri-band with 6GHz and 320MHz channel width support", "Good balance of wired and wireless capability at this price"],
     cons: ["320MHz reliability drops meaningfully in dense apartment environments", "Realizing 10G speed requires matching adapter, cable, and switch hardware", "Smaller review base than the most established picks"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41iU+ggyo7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GCQFVDNJ?tag=deskfinds0d-20",
     description:
-      "A higher BE12000 combined rating with a genuine 6GHz band, appropriate for buyers with a denser device count wanting more total capacity across bands.\n\nRemember that BE12000 is a combined theoretical sum across all bands, not a speed any single device will reach on its own.",
+      "A higher BE12000 combined rating with a genuine 6GHz band, appropriate for buyers with a denser device count wanting more total capacity across bands.\n\nRemember that BE12000 is a combined theoretical sum across all bands, not a speed any single device will reach on its own.\n\nWorth knowing before you decide: Higher combined capacity for households with many simultaneous devices. On the other side, Small review base, verify current reviews before purchase. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Tri-band with genuine 6GHz radio", "BE12000 combined rating", "Higher total band capacity", "Newer product generation"],
     pros: ["Genuine tri-band including the 6GHz radio for real Wi-Fi 7 capability", "Higher combined capacity for households with many simultaneous devices", "Newer product generation with more mature Wi-Fi 7 firmware likely", "Solid 4.3-star rating for early confidence"],
     cons: ["Small review base, verify current reviews before purchase", "BE12000 is a theoretical combined sum, not achievable single-device speed", "Higher price than mid-tier tri-band alternatives"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21--ly92xtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DW27FNG3?tag=deskfinds0d-20",
     description:
-      "A well-reviewed NETGEAR Nighthawk option at a competitive price, appropriate for buyers preferring NETGEAR's firmware and app ecosystem over TP-Link alternatives.\n\nThis is a dual-band product without the 6GHz radio, verify that tradeoff matches what you expect from a Wi-Fi 7 purchase.",
+      "A well-reviewed NETGEAR Nighthawk option at a competitive price, appropriate for buyers preferring NETGEAR's firmware and app ecosystem over TP-Link alternatives.\n\nThis is a dual-band product without the 6GHz radio, verify that tradeoff matches what you expect from a Wi-Fi 7 purchase.\n\nWorth knowing before you decide: Competitive price for the NETGEAR Nighthawk platform. On the other side, Dual-band means no 6GHz radio, the standard's headline capability is absent. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Dual-band (no 6GHz radio)", "BE3600 wireless rating", "NETGEAR Nighthawk platform", "Large review base"],
     pros: ["Large review base with a solid 4.3-star rating", "Competitive price for the NETGEAR Nighthawk platform", "Established brand with a mature firmware update track record", "Good option for buyers preferring NETGEAR's app ecosystem"],
     cons: ["Dual-band means no 6GHz radio, the standard's headline capability is absent", "Without 6GHz, cross-band MLO aggregation benefit is limited", "Verify port speeds match your internet plan before purchase"],

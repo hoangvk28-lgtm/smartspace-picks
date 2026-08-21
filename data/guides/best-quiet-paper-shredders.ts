@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31IjAexycEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVNH9RY2?tag=deskfinds0d-20",
     description:
-      "The lowest explicitly-disclosed dB rating in this guide at under 58dB, roughly library-quiet by the listing's own comparison. Remember this rating almost certainly reflects idle or light-load conditions, actual shredding of a stapled stack will be louder and more variable than the quoted number.\n\nIts small review count reflects a newer or lower-volume listing, weigh that against the genuinely lowest quoted noise spec here.",
+      "The lowest explicitly-disclosed dB rating in this guide at under 58dB, roughly library-quiet by the listing's own comparison. Remember this rating almost certainly reflects idle or light-load conditions, actual shredding of a stapled stack will be louder and more variable than the quoted number.\n\nIts small review count reflects a newer or lower-volume listing, weigh that against the genuinely lowest quoted noise spec here.\n\nWorth knowing before you decide: P-4 high security cross-cut. On the other side, Small review count, limited track record. That's the main tradeoff to weigh against your specific needs.",
     specs: ["8-sheet manual feed, P-4 cross-cut", "<58dB explicit quiet rating", "4-gallon bin", "REV reverse function"],
     pros: ["Lowest explicitly-disclosed dB rating in this guide", "P-4 high security cross-cut", "Reverse function for jam clearing", "1-year warranty"],
     cons: ["Small review count, limited track record", "8-sheet manual capacity is modest", "Real-world loaded noise will exceed the idle-condition rating"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/413GY12YKjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CX4DZ4Z?tag=deskfinds0d-20",
     description:
-      "This listing explicitly claims \"ultra-quiet operation\" without a specific dB figure, but the highest rating and review base in this guide suggest real-world user satisfaction with its actual noise level, not just a marketing claim. Micro-cut mechanisms are inherently louder than basic cutting at the same motor size, so factor that engineering reality against the ultra-quiet marketing.\n\n60-minute continuous run time and CD/credit card destruction round out a genuinely strong all-around pick, not just a quiet one.",
+      "This listing explicitly claims \"ultra-quiet operation\" without a specific dB figure, but the highest rating and review base in this guide suggest real-world user satisfaction with its actual noise level, not just a marketing claim. Micro-cut mechanisms are inherently louder than basic cutting at the same motor size, so factor that engineering reality against the ultra-quiet marketing.\n\n60-minute continuous run time and CD/credit card destruction round out a genuinely strong all-around pick, not just a quiet one.\n\nWorth knowing before you decide: Strong real-world satisfaction despite no specific dB spec. On the other side, No specific dB figure disclosed, unlike the rank-1 pick. That's the main tradeoff to weigh against your specific needs.",
     specs: ["12-sheet manual feed, P-4 micro-cut", "\"Ultra-quiet\" claimed, no specific dB figure", "60-minute continuous run time", "5-gallon bin, LED indicators"],
     pros: ["Highest rating and review base in this guide", "Strong real-world satisfaction despite no specific dB spec", "Long 60-minute run time", "Destroys CDs and credit cards"],
     cons: ["No specific dB figure disclosed, unlike the rank-1 pick", "Micro-cut mechanisms are inherently louder than basic cutting", "12-sheet capacity is modest for bulk use"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41FCXr1akDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00IOFD08C?tag=deskfinds0d-20",
     description:
-      "This listing explicitly discloses a 62dB noise level, higher than the rank-1 pick's <58dB claim but still genuinely low for an 18-sheet, 60-minute continuous-run shredder, a real engineering tradeoff between capacity/run time and pure quiet operation. Largest review base in this guide.\n\nIf you need higher capacity and longer run time and are willing to accept slightly more noise than the quietest picks, this is a strong choice.",
+      "This listing explicitly discloses a 62dB noise level, higher than the rank-1 pick's <58dB claim but still genuinely low for an 18-sheet, 60-minute continuous-run shredder, a real engineering tradeoff between capacity/run time and pure quiet operation. Largest review base in this guide.\n\nIf you need higher capacity and longer run time and are willing to accept slightly more noise than the quietest picks, this is a strong choice.\n\nWorth knowing before you decide: Largest review base in this guide. On the other side, Higher dB than the rank-1 and rank-4 picks. That's the main tradeoff to weigh against your specific needs.",
     specs: ["18-sheet manual feed, P-4 cross-cut", "62dB explicit rating", "60-minute continuous run time", "6-gallon bin, 400+ sheet capacity"],
     pros: ["Explicit dB rating disclosed", "Largest review base in this guide", "Much higher capacity and run time than the quietest picks", "Large 6-gallon bin"],
     cons: ["Higher dB than the rank-1 and rank-4 picks", "Highest price in this guide", "62dB is still audible in a quiet room"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31+FGUUD5bL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GFD6JYH1?tag=deskfinds0d-20",
     description:
-      "The only auto-feed hopper model in this guide with an explicit noise rating (under 63dB), genuinely useful if you want hands-free bulk shredding without excessive noise, its own marketing explicitly compares this to library-level quiet, though a full 100-sheet auto-feed run will likely be louder and more sustained than a quick manual batch.\n\nLower rating than the other picks in this guide reflects a newer, smaller-volume listing.",
+      "The only auto-feed hopper model in this guide with an explicit noise rating (under 63dB), genuinely useful if you want hands-free bulk shredding without excessive noise, its own marketing explicitly compares this to library-level quiet, though a full 100-sheet auto-feed run will likely be louder and more sustained than a quick manual batch.\n\nLower rating than the other picks in this guide reflects a newer, smaller-volume listing.\n\nWorth knowing before you decide: Long 40-minute continuous run time. On the other side, Lowest rating in this guide. That's the main tradeoff to weigh against your specific needs.",
     specs: ["100-sheet auto-feed hopper, 6-sheet manual", "<63dB explicit rating", "40-minute continuous run", "4.5-gallon bin"],
     pros: ["Only auto-feed hopper pick in this guide with an explicit dB rating", "Long 40-minute continuous run time", "Auto-shutoff safety on bin removal", "2-year warranty"],
     cons: ["Lowest rating in this guide", "Sustained auto-feed run is louder overall than a quick manual batch despite the per-decibel rating", "Smallest review base here"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31H0gGU7jHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09N991KVT?tag=deskfinds0d-20",
     description:
-      "No specific dB rating is disclosed here, but its compact size and strong review base suggest reasonable real-world noise levels for occasional home office use. At this price point, it's a reasonable budget-friendly option if a specific quiet certification matters less to you than overall value.\n\nOnly a 6-minute continuous run time limits how much sustained noise (or shredding) you'll experience in one session either way.",
+      "No specific dB rating is disclosed here, but its compact size and strong review base suggest reasonable real-world noise levels for occasional home office use. At this price point, it's a reasonable budget-friendly option if a specific quiet certification matters less to you than overall value.\n\nOnly a 6-minute continuous run time limits how much sustained noise (or shredding) you'll experience in one session either way.\n\nWorth knowing before you decide: Compact size fits under a desk. On the other side, No specific dB rating disclosed. That's the main tradeoff to weigh against your specific needs.",
     specs: ["12-sheet manual feed, P-4 cross-cut", "No specific dB rating disclosed", "6-minute continuous run time", "5.5-gallon bin, compact"],
     pros: ["Lowest price in this guide", "Compact size fits under a desk", "Strong rating and review base", "Short run time limits sustained noise exposure"],
     cons: ["No specific dB rating disclosed", "Shortest continuous run time in this guide", "Not marketed specifically as quiet"],
@@ -116,7 +116,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31RMWoUZy7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FFJPQGD?tag=deskfinds0d-20",
     description:
-      "This is explicitly marketed as low-noise, and strip-cut mechanisms are generally quieter than cross-cut or micro-cut at similar motor sizes since they involve less cutting-surface contact per sheet, a genuine mechanical reason to expect lower noise here, at the cost of lower P-2 security versus the P-4 picks elsewhere in this guide.\n\nCheapest pick in this guide, a reasonable choice if security level matters less than noise and price.",
+      "This is explicitly marketed as low-noise, and strip-cut mechanisms are generally quieter than cross-cut or micro-cut at similar motor sizes since they involve less cutting-surface contact per sheet, a genuine mechanical reason to expect lower noise here, at the cost of lower P-2 security versus the P-4 picks elsewhere in this guide.\n\nCheapest pick in this guide, a reasonable choice if security level matters less than noise and price.\n\nWorth knowing before you decide: Cheapest pick in this guide. On the other side, P-2 security level, lower than the P-4 picks elsewhere in this guide. That's the main tradeoff to weigh against your specific needs.",
     specs: ["10-sheet manual feed, P-2 strip-cut", "Explicitly marketed low-noise", "5-minute continuous run time", "3.17-gallon basket"],
     pros: ["Strip-cut mechanism is inherently quieter than cross-cut/micro-cut", "Cheapest pick in this guide", "Explicitly marketed for low-noise home office use", "Large review base"],
     cons: ["P-2 security level, lower than the P-4 picks elsewhere in this guide", "Short 5-minute continuous run time", "No specific dB figure quoted"],
@@ -133,7 +133,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31AtA7qsSwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08J2N4CS2?tag=deskfinds0d-20",
     description:
-      "Designed to fit under a desk, a genuinely useful compact form factor for a quiet home-office setup, though no specific dB rating is disclosed. P-4 security level despite the compact size is a real plus over the strip-cut alternative above.\n\nA reasonable budget pick for buyers who want P-4 security in a small footprint without a certified noise rating.",
+      "Designed to fit under a desk, a genuinely useful compact form factor for a quiet home-office setup, though no specific dB rating is disclosed. P-4 security level despite the compact size is a real plus over the strip-cut alternative above.\n\nA reasonable budget pick for buyers who want P-4 security in a small footprint without a certified noise rating.\n\nWorth knowing before you decide: P-4 security level at a low price. On the other side, No specific dB rating disclosed. That's the main tradeoff to weigh against your specific needs.",
     specs: ["8-sheet manual feed, P-4 cross-cut", "Compact under-desk design", "5-minute continuous run time", "4-gallon bin, lift-off handle"],
     pros: ["Compact enough to fit under a desk", "P-4 security level at a low price", "Strong review base", "ETL certified"],
     cons: ["No specific dB rating disclosed", "Short 5-minute continuous run time", "8-sheet capacity is modest"],
@@ -150,7 +150,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/310qS+3q87L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5XPJ524?tag=deskfinds0d-20",
     description:
-      "No specific dB rating disclosed, but a genuinely longer 15-minute continuous run time than the compact picks above, useful if you want to shred more in one sustained session and are comfortable with an unquantified but presumably moderate noise level.\n\nIncluded here as a reasonable middle-ground option, not the quietest by any confirmed spec, but a solid all-around pick.",
+      "No specific dB rating disclosed, but a genuinely longer 15-minute continuous run time than the compact picks above, useful if you want to shred more in one sustained session and are comfortable with an unquantified but presumably moderate noise level.\n\nIncluded here as a reasonable middle-ground option, not the quietest by any confirmed spec, but a solid all-around pick.\n\nWorth knowing before you decide: P-4 security level. On the other side, No specific dB rating disclosed, unlike the top 4 picks. That's the main tradeoff to weigh against your specific needs.",
     specs: ["12-sheet manual feed, P-4 cross-cut", "No specific dB rating disclosed", "15-minute continuous run time, ~900 sheets/cycle", "5.5-gallon bin, jam-proof reverse"],
     pros: ["Longer continuous run time than the compact budget picks", "P-4 security level", "Jam-proof reverse system", "Solid rating"],
     cons: ["No specific dB rating disclosed, unlike the top 4 picks", "Not specifically marketed as quiet", "Mid-range price without a quiet-specific advantage"],

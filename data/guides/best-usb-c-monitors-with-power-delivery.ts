@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41qiWKr6LML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08KFSMGJ8?tag=deskfinds0d-20",
     description:
-      "A large 34-inch curved UWQHD panel with explicit USB-C power delivery branding, appropriate for buyers wanting a big single-cable productivity setup.\n\nVerify the exact PD wattage against your laptop's charging requirement in the fine print, since curved ultrawide monitors in this class often support high but not universal wattage.",
+      "A large 34-inch curved UWQHD panel with explicit USB-C power delivery branding, appropriate for buyers wanting a big single-cable productivity setup.\n\nVerify the exact PD wattage against your laptop's charging requirement in the fine print, since curved ultrawide monitors in this class often support high but not universal wattage.\n\nWorth knowing before you decide: 100Hz refresh rate for smoother motion. On the other side, Verify exact PD wattage against your laptop's actual charging requirement. That's the main tradeoff to weigh against your specific needs.",
     specs: ["34-inch curved UWQHD panel", "100Hz refresh rate", "USB-C with power delivery", "VA panel technology"],
     pros: ["Large curved ultrawide workspace with single-cable USB-C", "100Hz refresh rate for smoother motion", "Explicit power delivery branding", "Good value for the panel size and features"],
     cons: ["Verify exact PD wattage against your laptop's actual charging requirement", "VA panel has narrower viewing angles than IPS", "Large curved size needs generous desk space"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41uYhQ+-HGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GD21577Z?tag=deskfinds0d-20",
     description:
-      "Dell's monitor line typically documents power delivery wattage clearly in its spec sheets, a genuine convenience when comparing against your laptop's charging needs.\n\n144Hz refresh rate at QHD resolution adds real value for buyers who also want smooth motion alongside single-cable charging.",
+      "Dell's monitor line typically documents power delivery wattage clearly in its spec sheets, a genuine convenience when comparing against your laptop's charging needs.\n\n144Hz refresh rate at QHD resolution adds real value for buyers who also want smooth motion alongside single-cable charging.\n\nWorth knowing before you decide: 144Hz refresh rate alongside QHD resolution. On the other side, Still verify the documented wattage against your specific laptop model. That's the main tradeoff to weigh against your specific needs.",
     specs: ["27-inch QHD (2560x1440) panel", "144Hz refresh rate", "USB-C with power delivery", "Clearly documented PD wattage"],
     pros: ["Dell typically documents PD wattage clearly for easy comparison", "144Hz refresh rate alongside QHD resolution", "Good value for the spec combination", "Reliable monitor build quality"],
     cons: ["Still verify the documented wattage against your specific laptop model", "27-inch size needs adequate desk depth", "144Hz benefit depends on your GPU"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41WGJRiwq3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1GFD44G?tag=deskfinds0d-20",
     description:
-      "A true 4K UHD panel with a genuinely high 120Hz refresh rate, appropriate for buyers wanting the sharpest resolution in this guide alongside single-cable USB-C charging.\n\n99% sRGB coverage gives strong color accuracy for buyers who also do color-sensitive work on this display.",
+      "A true 4K UHD panel with a genuinely high 120Hz refresh rate, appropriate for buyers wanting the sharpest resolution in this guide alongside single-cable USB-C charging.\n\n99% sRGB coverage gives strong color accuracy for buyers who also do color-sensitive work on this display.\n\nWorth knowing before you decide: 99% sRGB coverage for strong color accuracy. On the other side, Verify PD wattage against your laptop's specific charging requirement. That's the main tradeoff to weigh against your specific needs.",
     specs: ["27-inch 4K UHD IPS panel", "120Hz refresh rate", "99% sRGB color coverage", "USB-C with power delivery"],
     pros: ["True 4K UHD resolution with a high 120Hz refresh rate", "99% sRGB coverage for strong color accuracy", "FreeSync Premium for smoother gaming motion", "IPS panel for consistent viewing angles"],
     cons: ["Verify PD wattage against your laptop's specific charging requirement", "Higher price reflecting the 4K/120Hz combination", "4K at 27 inches may need scaling adjustments for some users"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41DSJsc4qKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09BXXWT6K?tag=deskfinds0d-20",
     description:
-      "A more budget-friendly QHD option with built-in speakers, appropriate for buyers who don't need the highest refresh rate but still want reliable single-cable power delivery.\n\nBuilt-in speakers avoid needing separate desk audio equipment, a genuine convenience for video calls.",
+      "A more budget-friendly QHD option with built-in speakers, appropriate for buyers who don't need the highest refresh rate but still want reliable single-cable power delivery.\n\nBuilt-in speakers avoid needing separate desk audio equipment, a genuine convenience for video calls.\n\nWorth knowing before you decide: Built-in speakers avoid separate audio equipment. On the other side, Standard 75Hz refresh rate, not high-refresh gaming tier. That's the main tradeoff to weigh against your specific needs.",
     specs: ["27-inch WQHD (2560x1440) panel", "75Hz refresh rate", "USB-C with power delivery", "Built-in speakers"],
     pros: ["Budget-friendly price for QHD with power delivery", "Built-in speakers avoid separate audio equipment", "AMD FreeSync for smoother casual gaming motion", "Reliable Dell build quality"],
     cons: ["Standard 75Hz refresh rate, not high-refresh gaming tier", "Verify PD wattage against your laptop's actual charging requirement", "27-inch size needs adequate desk depth"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41z0BPiXo6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FNQDB6JY?tag=deskfinds0d-20",
     description:
-      "A genuine 34-inch curved ultrawide WQHD panel at 100Hz, appropriate for buyers wanting maximum horizontal workspace alongside single-cable USB-C power delivery.\n\nIPS panel technology gives more consistent viewing angles than a VA alternative, worth the trade-off for buyers prioritizing color consistency across the wide curve.",
+      "A genuine 34-inch curved ultrawide WQHD panel at 100Hz, appropriate for buyers wanting maximum horizontal workspace alongside single-cable USB-C power delivery.\n\nIPS panel technology gives more consistent viewing angles than a VA alternative, worth the trade-off for buyers prioritizing color consistency across the wide curve.\n\nWorth knowing before you decide: IPS panel for consistent viewing angles across the curve. On the other side, Highest price in this guide. That's the main tradeoff to weigh against your specific needs.",
     specs: ["34-inch curved ultrawide WQHD panel", "100Hz refresh rate", "IPS panel technology", "USB-C with power delivery"],
     pros: ["Genuine ultrawide workspace for multitasking without a multi-monitor setup", "IPS panel for consistent viewing angles across the curve", "100Hz refresh rate for smoother motion", "Single-cable USB-C power delivery"],
     cons: ["Highest price in this guide", "Verify PD wattage against your laptop's actual charging requirement", "Large curved size needs generous desk space"],

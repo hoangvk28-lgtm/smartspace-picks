@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41vlbbgz9NL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CBV7YJ8?tag=deskfinds0d-20",
     description:
-      "The HUANUO is a purpose-built rolling printer stand with a 14.1-inch maximum shelf height, a built-in storage drawer, and dedicated cable management cutouts so power and USB cords do not dangle or get pinched when the cart rolls. Locking wheels hold it in place once positioned, which matters more than most buyers expect once a printer is actually mid-job on top.\n\nThe drawer underneath gives you a place for paper or ink without adding a second piece of furniture. It is sized for under-desk use, so it slides into a tight gap and rolls back out when you need the drawer or want to reposition it.",
+      "The HUANUO is a purpose-built rolling printer stand with a 14.1-inch maximum shelf height, a built-in storage drawer, and dedicated cable management cutouts so power and USB cords do not dangle or get pinched when the cart rolls. Locking wheels hold it in place once positioned, which matters more than most buyers expect once a printer is actually mid-job on top.\n\nThe drawer underneath gives you a place for paper or ink without adding a second piece of furniture. It is sized for under-desk use, so it slides into a tight gap and rolls back out when you need the drawer or want to reposition it.\n\nWorth knowing before you decide: Locking wheels hold position during printing. On the other side, Single shelf plus drawer limits total storage. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "14.1\" maximum shelf height",
       "Locking caster wheels",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/414d9YEDZYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CGHMP9BH?tag=deskfinds0d-20",
     description:
-      "At 22 by 15 inches, the YAOHUOO has one of the largest top surfaces in this list, enough room for a full-size all-in-one printer plus a paper tray beside it. The 2-tier rolling design adds a lower shelf for supplies, and the included drawer keeps small items like ink cartridges or labels out of view.\n\nBecause the platform is larger, it needs a bit more floor clearance to roll cleanly, so measure the path before committing to it in a tight room. The tradeoff is worth it if your printer itself runs large.",
+      "At 22 by 15 inches, the YAOHUOO has one of the largest top surfaces in this list, enough room for a full-size all-in-one printer plus a paper tray beside it. The 2-tier rolling design adds a lower shelf for supplies, and the included drawer keeps small items like ink cartridges or labels out of view.\n\nBecause the platform is larger, it needs a bit more floor clearance to roll cleanly, so measure the path before committing to it in a tight room. The tradeoff is worth it if your printer itself runs large.\n\nWorth knowing before you decide: 2-tier design adds a full lower shelf. On the other side, Larger footprint needs more rolling clearance. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "22\" x 15\" top surface",
       "2-tier rolling table design",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Aix6uWuJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBZ98D94?tag=deskfinds0d-20",
     description:
-      "This is a mobile 2-drawer file cabinet with a 24-inch extended desktop on top, not a dedicated printer cart, but the flat rolling top surface and fabric-lined drawers make it a genuinely useful rolling printer stand for anyone who also needs A4 or letter-size file storage nearby. The extended top gives more surface area than a standard file cabinet lid.\n\nRolling casters let you push it wherever the printer needs to sit that day, and the side bag adds a spot for cables, mail, or loose papers that would otherwise clutter the desktop.",
+      "This is a mobile 2-drawer file cabinet with a 24-inch extended desktop on top, not a dedicated printer cart, but the flat rolling top surface and fabric-lined drawers make it a genuinely useful rolling printer stand for anyone who also needs A4 or letter-size file storage nearby. The extended top gives more surface area than a standard file cabinet lid.\n\nRolling casters let you push it wherever the printer needs to sit that day, and the side bag adds a spot for cables, mail, or loose papers that would otherwise clutter the desktop.\n\nWorth knowing before you decide: Extended top gives more surface than a standard cabinet. On the other side, Marketed as a file cabinet first, printer stand second. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "2 drawers, fits A4/letter size",
       "24\" extended desktop surface",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51vzgnkbcjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0989HLF81?tag=deskfinds0d-20",
     description:
-      "The DEVAISE is a lateral mobile file cabinet with 3 drawers, and its flat, wide top makes a stable rolling platform for a printer once the drawers are handling paper and supply storage. Rustic brown styling means it looks like furniture rather than office equipment, useful if the cart sits somewhere visible.\n\nIts caster base makes repositioning easy, though the lateral width means it needs a wider footprint than a narrow printer-specific cart. For anyone who wants a rolling printer stand and a real filing cabinet in one purchase, this covers both.",
+      "The DEVAISE is a lateral mobile file cabinet with 3 drawers, and its flat, wide top makes a stable rolling platform for a printer once the drawers are handling paper and supply storage. Rustic brown styling means it looks like furniture rather than office equipment, useful if the cart sits somewhere visible.\n\nIts caster base makes repositioning easy, though the lateral width means it needs a wider footprint than a narrow printer-specific cart. For anyone who wants a rolling printer stand and a real filing cabinet in one purchase, this covers both.\n\nWorth knowing before you decide: Wide flat top gives a stable printer platform. On the other side, Most expensive pick in this list. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "3 lateral drawers",
       "Rolling caster base",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31aZXrzUvzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B081KBXT5N?tag=deskfinds0d-20",
     description:
-      "This is a general-purpose 3-tier metal utility rolling cart, not a printer-branded product, but its heavy-duty steel frame and 3 open shelves make it a genuinely solid fit for this guide's theme since every tier rolls and every tier can hold a printer or supplies. The white finish keeps it neutral enough to sit in a home office without looking industrial.\n\nBecause it is open-shelf rather than enclosed, cables run freely without cutouts to worry about, and the lower two tiers give you paper and ink storage right below wherever you place the printer.",
+      "This is a general-purpose 3-tier metal utility rolling cart, not a printer-branded product, but its heavy-duty steel frame and 3 open shelves make it a genuinely solid fit for this guide's theme since every tier rolls and every tier can hold a printer or supplies. The white finish keeps it neutral enough to sit in a home office without looking industrial.\n\nBecause it is open-shelf rather than enclosed, cables run freely without cutouts to worry about, and the lower two tiers give you paper and ink storage right below wherever you place the printer.\n\nWorth knowing before you decide: 3 full shelves for printer plus supplies. On the other side, Not marketed or designed specifically for printers. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "3 open metal shelves",
       "Heavy duty steel frame",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31stRsB6CqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08GS9T78W?tag=deskfinds0d-20",
     description:
-      "The Pipishell is another general-purpose metal utility cart rather than a printer-specific stand, but its slim 3-tier profile and built-in push handle make it easy to roll a compact printer in and out of a tight nook. It was originally designed for rooms like nurseries and kitchens, which tells you the frame prioritizes narrow footprints over bulk storage.\n\nThat slim build is exactly what a small home office often needs: a rolling platform that does not eat floor space when it is not in active use, with two extra tiers below for paper and ink.",
+      "The Pipishell is another general-purpose metal utility cart rather than a printer-specific stand, but its slim 3-tier profile and built-in push handle make it easy to roll a compact printer in and out of a tight nook. It was originally designed for rooms like nurseries and kitchens, which tells you the frame prioritizes narrow footprints over bulk storage.\n\nThat slim build is exactly what a small home office often needs: a rolling platform that does not eat floor space when it is not in active use, with two extra tiers below for paper and ink.\n\nWorth knowing before you decide: Push handle makes rolling easier one-handed. On the other side, Not printer-specific, no cable routing features. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "3 tier open metal shelving",
       "Built-in push handle",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Oqqi7ImgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09R1TMP83?tag=deskfinds0d-20",
     description:
-      "This Sywhitta cart is a plastic, multi-functional storage trolley, not a dedicated printer cart, but its 3 open tiers and rolling wheels make it the lightest option in this list to reposition. Plastic construction means no risk of the caster mounts rusting or scuffing floors the way some metal frames can.\n\nIt is the cheapest pick here, which makes sense for buyers who want a rolling printer stand mainly to solve a floor-space problem rather than to make a design statement. Keep the printer's actual weight in mind since plastic shelving has a lower ceiling than steel.",
+      "This Sywhitta cart is a plastic, multi-functional storage trolley, not a dedicated printer cart, but its 3 open tiers and rolling wheels make it the lightest option in this list to reposition. Plastic construction means no risk of the caster mounts rusting or scuffing floors the way some metal frames can.\n\nIt is the cheapest pick here, which makes sense for buyers who want a rolling printer stand mainly to solve a floor-space problem rather than to make a design statement. Keep the printer's actual weight in mind since plastic shelving has a lower ceiling than steel.\n\nWorth knowing before you decide: Lowest price of any rolling option here. On the other side, Lower weight capacity than metal utility carts. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "3 tier plastic shelving",
       "Built-in handle",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41E0AvqYlFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F373KBDG?tag=deskfinds0d-20",
     description:
-      "The YASONIC is a black metal utility cart with 3 open tiers, another general-purpose rolling cart rather than a printer-branded product, but the all-black finish gives it a more modern look than the white carts in this list. Its metal frame holds up well under a mid-weight inkjet or laser printer.\n\nLike the other utility carts here, the open shelving means cables run freely without dedicated cutouts, and the two lower tiers handle paper, ink, or a paper shredder if the printer itself does not fill the whole cart.",
+      "The YASONIC is a black metal utility cart with 3 open tiers, another general-purpose rolling cart rather than a printer-branded product, but the all-black finish gives it a more modern look than the white carts in this list. Its metal frame holds up well under a mid-weight inkjet or laser printer.\n\nLike the other utility carts here, the open shelving means cables run freely without dedicated cutouts, and the two lower tiers handle paper, ink, or a paper shredder if the printer itself does not fill the whole cart.\n\nWorth knowing before you decide: Solid metal frame for the price. On the other side, Not printer-specific, no cable cutouts. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "3 tier open metal shelving",
       "Black finish",

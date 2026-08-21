@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419pAe7T0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTKAPUU?tag=deskfinds0d-20",
     description:
-      "A combined HEPA and odor-filtration design with an air quality monitor, a large review base backing it as a proven pick for an office with both toner particulate and general odor.\n\nLaser printers genuinely emit trace ozone during operation, this unit's mechanical filtration approach addresses particulate and odor without adding any additional ozone-generating technology to the room.",
+      "A combined HEPA and odor-filtration design with an air quality monitor, a large review base backing it as a proven pick for an office with both toner particulate and general odor.\n\nLaser printers genuinely emit trace ozone during operation, this unit's mechanical filtration approach addresses particulate and odor without adding any additional ozone-generating technology to the room.\n\nWorth knowing before you decide: Air quality monitor for real-time feedback. On the other side, Higher price than budget alternatives. That's the main tradeoff to weigh against your specific needs.",
     specs: ["HEPA filtration plus odor-control layer", "Air quality monitor, filter indicator", "3-year warranty", "Large review base"],
     pros: ["Combined particulate and odor filtration for toner and VOCs", "Air quality monitor for real-time feedback", "Large, well-established review base", "3-year warranty"],
     cons: ["Higher price than budget alternatives", "Doesn't address the printer's own trace ozone emission at the source", "Larger footprint than compact picks"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Wb8TGSnPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT4F8T4L?tag=deskfinds0d-20",
     description:
-      "PlasmaWave technology adds a genuine odor-neutralizing layer beyond mechanical carbon filtration alone, meaningful for VOCs from ink and adhesives beyond just toner particulate.\n\nToner particulate and VOCs from ink and adhesives are the other real office-odor sources beyond the printer itself, this unit's added layer targets that gas-phase component specifically.",
+      "PlasmaWave technology adds a genuine odor-neutralizing layer beyond mechanical carbon filtration alone, meaningful for VOCs from ink and adhesives beyond just toner particulate.\n\nToner particulate and VOCs from ink and adhesives are the other real office-odor sources beyond the printer itself, this unit's added layer targets that gas-phase component specifically.\n\nWorth knowing before you decide: Large, well-established review base. On the other side, Higher price than budget alternatives. That's the main tradeoff to weigh against your specific needs.",
     specs: ["PlasmaWave odor-neutralizing technology", "Large, established review base", "True HEPA filtration", "Multi-stage filtration"],
     pros: ["PlasmaWave specifically targets VOCs and odor beyond particulate", "Large, well-established review base", "True HEPA captures toner particulate too", "Proven, established design"],
     cons: ["Higher price than budget alternatives", "Larger footprint than compact alternatives", "Doesn't address printer's own ozone emission at the source"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
-      "By far the largest review base of any pick here, a genuinely proven affordable choice for a small office with a single printer and moderate toner odor.\n\nA single-printer office with moderate use is a reasonable fit here, a shared print room with multiple heavy-duty printers likely needs one of the deeper-carbon picks in this guide instead.",
+      "By far the largest review base of any pick here, a genuinely proven affordable choice for a small office with a single printer and moderate toner odor.\n\nA single-printer office with moderate use is a reasonable fit here, a shared print room with multiple heavy-duty printers likely needs one of the deeper-carbon picks in this guide instead.\n\nWorth knowing before you decide: Certified True HEPA H13 filtration for toner particulate. On the other side, Standard carbon layer, not the deepest for heavy printer use. That's the main tradeoff to weigh against your specific needs.",
     specs: ["True HEPA H13 plus basic carbon layer", "24dB quoted noise level", "Largest review base in this guide", "Affordable price"],
     pros: ["By far the largest review base of any pick here", "Certified True HEPA H13 filtration for toner particulate", "Includes a basic carbon layer for odor", "Affordable price"],
     cons: ["Standard carbon layer, not the deepest for heavy printer use", "No smart app control", "Not intended for a shared multi-printer print room"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/316AtkHoSdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004VGIGVY?tag=deskfinds0d-20",
     description:
-      "A large, well-established review base at a low price, a compact option suitable for placement near a desk-adjacent printer in a home office setup.\n\nPlacement close to the printer itself genuinely helps capture toner particulate and trace ozone before it disperses through the whole room.",
+      "A large, well-established review base at a low price, a compact option suitable for placement near a desk-adjacent printer in a home office setup.\n\nPlacement close to the printer itself genuinely helps capture toner particulate and trace ozone before it disperses through the whole room.\n\nWorth knowing before you decide: Compact footprint fits near a desk-adjacent printer. On the other side, Not intended for heavy multi-printer use. That's the main tradeoff to weigh against your specific needs.",
     specs: ["True HEPA filtration", "Large review base", "Compact design", "Budget-friendly"],
     pros: ["Large, well-established review base", "Compact footprint fits near a desk-adjacent printer", "True HEPA captures toner particulate", "Low price"],
     cons: ["Not intended for heavy multi-printer use", "Standard carbon layer for odor", "No smart features"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
-      "Rated up to 1875 sq ft with smart app control, genuine headroom for a shared print room or larger office space with multiple printers running throughout the day.\n\nMultiple printers running together compound both toner particulate and trace ozone beyond what a single-printer setup produces, this unit's coverage headroom is genuinely suited to that scenario.",
+      "Rated up to 1875 sq ft with smart app control, genuine headroom for a shared print room or larger office space with multiple printers running throughout the day.\n\nMultiple printers running together compound both toner particulate and trace ozone beyond what a single-printer setup produces, this unit's coverage headroom is genuinely suited to that scenario.\n\nWorth knowing before you decide: Smart app control for monitoring. On the other side, Higher price than budget alternatives. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Up to 1875 sq ft rated (open room)", "Smart app control", "Large review base", "Extra headroom for multi-printer use"],
     pros: ["Large rated coverage for a shared print room", "Smart app control for monitoring", "Large, well-established review base", "Genuine headroom for multiple printers running together"],
     cons: ["Higher price than budget alternatives", "Larger footprint than compact picks", "Doesn't address individual printer's ozone emission at the source"],

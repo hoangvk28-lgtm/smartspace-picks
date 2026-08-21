@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419pAe7T0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTKAPUU?tag=deskfinds0d-20",
     description:
-      "Rated up to 1748 sq ft with an air quality monitor, genuine headroom to account for multiple occupants generating more particulates than the room's square footage alone suggests. Auto and Eco modes, 3-year warranty.\n\nSize this occupancy-adjusted, not just to room square footage, multiple coworkers generate more airborne particulates than a single-person room the same size.",
+      "Rated up to 1748 sq ft with an air quality monitor, genuine headroom to account for multiple occupants generating more particulates than the room's square footage alone suggests. Auto and Eco modes, 3-year warranty.\n\nSize this occupancy-adjusted, not just to room square footage, multiple coworkers generate more airborne particulates than a single-person room the same size.\n\nWorth knowing before you decide: Real headroom for occupancy-driven particulate generation. On the other side, Higher price than budget alternatives. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Up to 1748 sq ft rated (open room)", "Air quality monitor, Auto/Eco mode", "3-year warranty", "Large review base"],
     pros: ["Large, well-established review base", "Real headroom for occupancy-driven particulate generation", "Built-in air quality monitor", "3-year warranty"],
     cons: ["Higher price than budget alternatives", "Noise at effective CADR speed for shared-office tolerance not independently verified", "No activated carbon layer confirmed"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
-      "By far the largest review base of any pick in this guide, genuine evidence of reliable performance. True HEPA H13 filtration at an affordable price.\n\nFor a shared small office with several occupants, consider whether this unit's coverage rating still holds up against occupancy-adjusted particulate generation, not just square footage.",
+      "By far the largest review base of any pick in this guide, genuine evidence of reliable performance. True HEPA H13 filtration at an affordable price.\n\nFor a shared small office with several occupants, consider whether this unit's coverage rating still holds up against occupancy-adjusted particulate generation, not just square footage.\n\nWorth knowing before you decide: True HEPA H13 filtration. On the other side, May under-serve a heavily occupied small office. That's the main tradeoff to weigh against your specific needs.",
     specs: ["True HEPA H13 filter", "24dB quoted noise level", "Removes 99.97% of particulates", "Largest review base in this guide"],
     pros: ["By far the largest review base of any pick in this guide", "True HEPA H13 filtration", "Affordable price", "Established, well-reviewed design"],
     cons: ["May under-serve a heavily occupied small office", "24dB likely reflects lowest speed, not effective-CADR speed", "No activated carbon layer confirmed"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31CcBFzC6wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08ND7C7P4?tag=deskfinds0d-20",
     description:
-      "A genuinely more affordable option with a solid review base, appropriate for a smaller shared office with modest occupancy. Basic HEPA filtration.\n\nFor a shared office, factor in a practical facilities-management question, who monitors and replaces the filter in this space, a real-world adoption barrier competitors don't address.",
+      "A genuinely more affordable option with a solid review base, appropriate for a smaller shared office with modest occupancy. Basic HEPA filtration.\n\nFor a shared office, factor in a practical facilities-management question, who monitors and replaces the filter in this space, a real-world adoption barrier competitors don't address.\n\nWorth knowing before you decide: Solid review base. On the other side, May under-serve a heavily occupied office. That's the main tradeoff to weigh against your specific needs.",
     specs: ["HEPA filtration", "Solid review base", "Budget-friendly", "Compact design"],
     pros: ["More affordable than premium alternatives", "Solid review base", "Compact for a smaller shared office", "Reasonable performance for the price"],
     cons: ["May under-serve a heavily occupied office", "Verify certified True HEPA vs. HEPA-type claim", "No smart features or air quality monitor"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
-      "Rated up to 1875 sq ft, genuine extra headroom appropriate for a small office with several occupants generating more particulates than the room's square footage alone suggests. Smart app control.\n\nA shared office typically runs continuously across a full workday, this occupancy-adjusted headroom helps offset the sustained particulate generation from multiple people.",
+      "Rated up to 1875 sq ft, genuine extra headroom appropriate for a small office with several occupants generating more particulates than the room's square footage alone suggests. Smart app control.\n\nA shared office typically runs continuously across a full workday, this occupancy-adjusted headroom helps offset the sustained particulate generation from multiple people.\n\nWorth knowing before you decide: Smart app control for monitoring. On the other side, Higher price than budget alternatives. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Up to 1875 sq ft rated (open room)", "Smart app control", "Large review base", "Higher capacity for occupied rooms"],
     pros: ["Large rated coverage for occupancy-driven particulate generation", "Smart app control for monitoring", "Large, well-established review base", "Genuine headroom for a busier shared office"],
     cons: ["Higher price than budget alternatives", "Multi-occupant noise tolerance at effective speed not independently verified", "Larger footprint for a small shared space"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41JtWEcZKjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09SKXDKF1?tag=deskfinds0d-20",
     description:
-      "Rated for large 1700 sq ft rooms from an established Honeywell brand, genuine headroom for a busier shared office space. HEPA filtration.\n\nContinuous full-workday operation in a shared office means more relevant cumulative filter loading than intermittent home use, factor this into replacement expectations.",
+      "Rated for large 1700 sq ft rooms from an established Honeywell brand, genuine headroom for a busier shared office space. HEPA filtration.\n\nContinuous full-workday operation in a shared office means more relevant cumulative filter loading than intermittent home use, factor this into replacement expectations.\n\nWorth knowing before you decide: Large rated coverage for a shared office. On the other side, Smaller review base than mass-market Levoit picks. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Up to 1700 sq ft rated", "Established Honeywell brand", "HEPA filtration", "Solid rating base"],
     pros: ["Established Honeywell brand reputation", "Large rated coverage for a shared office", "Solid rating base", "Genuine headroom for occupancy-driven needs"],
     cons: ["Smaller review base than mass-market Levoit picks", "Higher price", "Noise at effective speed not independently verified for multi-occupant tolerance"],

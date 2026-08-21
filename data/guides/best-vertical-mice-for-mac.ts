@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31Ig2YzI5iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07FNJB8TT?tag=deskfinds0d-20",
     description:
-      "Logitech's companion software has genuine macOS support for remapping buttons, though some buyers still report needing to adjust natural scrolling separately in System Settings rather than it being handled entirely automatically.\n\nConfirm current driver compatibility with your specific macOS version before buying, since software support can lag slightly behind the very latest OS release.",
+      "Logitech's companion software has genuine macOS support for remapping buttons, though some buyers still report needing to adjust natural scrolling separately in System Settings rather than it being handled entirely automatically.\n\nConfirm current driver compatibility with your specific macOS version before buying, since software support can lag slightly behind the very latest OS release.\n\nWorth knowing before you decide: Dual connectivity works reliably with Mac Bluetooth stacks. On the other side, Natural scrolling may need separate manual adjustment. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Dual 2.4GHz and Bluetooth", "Companion macOS software for button mapping", "Rechargeable battery", "Premium build"],
     pros: ["Companion software genuinely supports macOS button remapping", "Dual connectivity works reliably with Mac Bluetooth stacks", "Strong review base", "Rechargeable battery"],
     cons: ["Natural scrolling may need separate manual adjustment", "Premium price", "Loses Magic Mouse-style gesture support"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31nb5ALnDvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09J1TB35S?tag=deskfinds0d-20",
     description:
-      "Shares the same brand's macOS companion software approach in a more compact body, useful for Mac users with smaller to average hands.\n\nAs with its larger sibling, expect to manually configure natural scrolling and confirm current driver support against your macOS version rather than assuming automatic, effortless compatibility.",
+      "Shares the same brand's macOS companion software approach in a more compact body, useful for Mac users with smaller to average hands.\n\nAs with its larger sibling, expect to manually configure natural scrolling and confirm current driver support against your macOS version rather than assuming automatic, effortless compatibility.\n\nWorth knowing before you decide: Dual connectivity for reliable Mac pairing. On the other side, Manual scrolling adjustment likely needed. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Dual 2.4GHz and Bluetooth", "Companion macOS software", "Compact body", "Rechargeable battery"],
     pros: ["Same established companion software approach in a smaller body", "Dual connectivity for reliable Mac pairing", "Rechargeable battery", "Strong review base"],
     cons: ["Manual scrolling adjustment likely needed", "Mid-to-premium price", "Loses Magic Mouse-style gesture support"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31PGrLfkUxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CX18LHWS?tag=deskfinds0d-20",
     description:
-      "A budget wireless option that generally pairs fine with a Mac's Bluetooth stack for basic pointing and clicking, though it does not include Mac-specific companion software for advanced button mapping.\n\nExpect to map any extra buttons manually through System Settings rather than a dedicated app, and confirm natural scrolling behavior after pairing.",
+      "A budget wireless option that generally pairs fine with a Mac's Bluetooth stack for basic pointing and clicking, though it does not include Mac-specific companion software for advanced button mapping.\n\nExpect to map any extra buttons manually through System Settings rather than a dedicated app, and confirm natural scrolling behavior after pairing.\n\nWorth knowing before you decide: Rechargeable battery. On the other side, No dedicated macOS software for advanced button mapping. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Bluetooth and wireless dongle options", "No dedicated macOS companion app", "Rechargeable built-in battery", "Budget price point"],
     pros: ["Works for basic Mac pairing and pointing at a low price", "Rechargeable battery", "Solid review base", "Simple setup for core functions"],
     cons: ["No dedicated macOS software for advanced button mapping", "Manual configuration needed for extra buttons and scrolling", "Fewer Mac-specific compatibility confirmations than premium picks"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31rCoH07kzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07BFCVJZC?tag=deskfinds0d-20",
     description:
-      "A budget-friendly wireless option with a strong review base, generally reported by buyers as working for basic use with a Mac, though it lacks dedicated macOS software support.\n\nSet expectations that this is a core-function pick rather than one with deep macOS-specific customization, and manually verify scroll direction and button behavior after pairing.",
+      "A budget-friendly wireless option with a strong review base, generally reported by buyers as working for basic use with a Mac, though it lacks dedicated macOS software support.\n\nSet expectations that this is a core-function pick rather than one with deep macOS-specific customization, and manually verify scroll direction and button behavior after pairing.\n\nWorth knowing before you decide: Rechargeable battery. On the other side, No dedicated macOS software for advanced customization. That's the main tradeoff to weigh against your specific needs.",
     specs: ["2.4GHz wireless receiver", "No dedicated macOS companion app", "Rechargeable built-in battery", "Budget price point"],
     pros: ["Low price for basic Mac compatibility", "Rechargeable battery", "Strong review base", "Simple pairing for core pointing functions"],
     cons: ["No dedicated macOS software for advanced customization", "No Bluetooth option, dongle only", "Manual scroll and button configuration needed"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31z5JT0yL+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BIFNTMC?tag=deskfinds0d-20",
     description:
-      "A 2.4GHz dongle pairs reliably with a Mac's USB-A port for basic pointing and clicking, at the lowest price in this guide, though it has no dedicated macOS software for advanced button mapping.\n\nExpect to configure natural scrolling and any extra buttons manually, and note this is right-hand specific with no left-handed version available.",
+      "A 2.4GHz dongle pairs reliably with a Mac's USB-A port for basic pointing and clicking, at the lowest price in this guide, though it has no dedicated macOS software for advanced button mapping.\n\nExpect to configure natural scrolling and any extra buttons manually, and note this is right-hand specific with no left-handed version available.\n\nWorth knowing before you decide: Large review base. On the other side, No dedicated macOS software for advanced customization. That's the main tradeoff to weigh against your specific needs.",
     specs: ["2.4GHz USB-A dongle", "No dedicated macOS companion app", "Right-hand specific design", "Budget price point"],
     pros: ["Lowest price in this guide for Mac compatibility", "Large review base", "Simple plug-and-play pairing", "Reliable core pointing and clicking"],
     cons: ["No dedicated macOS software for advanced customization", "Right-hand only", "AA batteries add weight versus rechargeable picks"],
@@ -116,7 +116,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41DVlxxe4WL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DVD5RTZ5?tag=deskfinds0d-20",
     description:
-      "A 6-button layout gives more Mac shortcut remapping options than most picks in this guide, from a brand with cross-platform software support, though macOS-specific driver behavior should be verified on the current listing.\n\nIts smaller review base and more moderate 4.0-star rating are worth weighing against the premium price and extra button count.",
+      "A 6-button layout gives more Mac shortcut remapping options than most picks in this guide, from a brand with cross-platform software support, though macOS-specific driver behavior should be verified on the current listing.\n\nIts smaller review base and more moderate 4.0-star rating are worth weighing against the premium price and extra button count.\n\nWorth knowing before you decide: Rechargeable battery. On the other side, Smaller review base and more moderate 4.0-star rating. That's the main tradeoff to weigh against your specific needs.",
     specs: ["6 programmable buttons", "Wireless connectivity", "Rechargeable battery", "Premium price point"],
     pros: ["More programmable buttons for Mac shortcuts", "Rechargeable battery", "Cross-platform software support", "Ergonomic vertical body"],
     cons: ["Smaller review base and more moderate 4.0-star rating", "Premium price relative to its rating", "macOS-specific driver behavior not independently confirmed"],
@@ -133,7 +133,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ttLEqu0hL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GNMPGM7G?tag=deskfinds0d-20",
     description:
-      "Explicitly sized for small to medium hands with a very strong review rating, though on a small sample size, and it pairs with a Mac's Bluetooth or dongle stack for basic functions without dedicated macOS software.\n\nConfirm the specific wireless method and current driver behavior on the listing before buying, since this wasn't independently verified for advanced macOS features.",
+      "Explicitly sized for small to medium hands with a very strong review rating, though on a small sample size, and it pairs with a Mac's Bluetooth or dongle stack for basic functions without dedicated macOS software.\n\nConfirm the specific wireless method and current driver behavior on the listing before buying, since this wasn't independently verified for advanced macOS features.\n\nWorth knowing before you decide: Very strong review rating. On the other side, Small review sample size, verify current feedback. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Explicit small/medium hand sizing", "57-degree tilt angle", "No dedicated macOS companion app", "Budget price point"],
     pros: ["Genuinely sized for small to medium hands", "Very strong review rating", "Budget-friendly price", "Basic Mac pairing for core functions"],
     cons: ["Small review sample size, verify current feedback", "No dedicated macOS software for advanced mapping", "Less established brand track record than premium picks"],
@@ -150,7 +150,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31vAjZuq+pL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CMC1F5WB?tag=deskfinds0d-20",
     description:
-      "A wired USB connection plugs directly into a Mac without any pairing steps at all, avoiding Bluetooth reconnection quirks entirely, with adjustable DPI included at a low price.\n\nIt has no dedicated macOS companion software, so expect to configure natural scrolling and any extra buttons manually through System Settings.",
+      "A wired USB connection plugs directly into a Mac without any pairing steps at all, avoiding Bluetooth reconnection quirks entirely, with adjustable DPI included at a low price.\n\nIt has no dedicated macOS companion software, so expect to configure natural scrolling and any extra buttons manually through System Settings.\n\nWorth knowing before you decide: Adjustable DPI sensor. On the other side, No dedicated macOS software for advanced customization. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Wired USB connection", "6400 DPI adjustable sensor", "No dedicated macOS companion app", "Budget price point"],
     pros: ["No pairing steps, plugs directly into a Mac's USB port", "Adjustable DPI sensor", "Avoids Bluetooth reconnection quirks entirely", "Strong review rating for the price"],
     cons: ["No dedicated macOS software for advanced customization", "No wireless option", "Manual scroll and button configuration needed"],

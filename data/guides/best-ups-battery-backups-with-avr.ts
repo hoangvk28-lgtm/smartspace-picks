@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31DYxDN0bTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00429N19W?tag=deskfinds0d-20",
     description:
-      "The largest review base in this guide, genuine evidence this AVR implementation holds up over years of real brownout events, not just a spec-sheet claim. AVR here corrects moderate under/over-voltage in-line, preserving battery charge cycles for actual outages rather than draining them on every minor sag.\n\n12 outlets and UL certification round out a well-equipped mid-tier pick, though the exact AVR correction range isn't disclosed, a common gap across most consumer UPS listings.",
+      "The largest review base in this guide, genuine evidence this AVR implementation holds up over years of real brownout events, not just a spec-sheet claim. AVR here corrects moderate under/over-voltage in-line, preserving battery charge cycles for actual outages rather than draining them on every minor sag.\n\n12 outlets and UL certification round out a well-equipped mid-tier pick, though the exact AVR correction range isn't disclosed, a common gap across most consumer UPS listings.\n\nWorth knowing before you decide: AVR preserves battery life by handling brownouts without switching to battery. On the other side, Exact AVR correction range not disclosed. That's the main tradeoff to weigh against your specific needs.",
     specs: ["1500VA/1000W, AVR included", "12 outlets, UL certified", "PFC sinewave output", "LCD status display"],
     pros: ["Largest review base in this guide, strong long-term track record", "AVR preserves battery life by handling brownouts without switching to battery", "12 outlets for a multi-device desk setup", "PFC sinewave output, APFC-compatible"],
     cons: ["Exact AVR correction range not disclosed", "Bulkier mini-tower form factor", "AVR response time not specified for sensitive-electronics compatibility"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41OE+tVig0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BCMLLSHL?tag=deskfinds0d-20",
     description:
-      "The 'intelligent LCD' branding reflects real-time load and runtime monitoring, useful for understanding when AVR is actively correcting versus when the unit has switched to battery, a distinction blurred by simpler indicator-light designs.\n\nAVR here is the standard complementary feature, handling brownouts/sags in real-time without draining the battery, understand that it doesn't replace battery backup during a full outage.",
+      "The 'intelligent LCD' branding reflects real-time load and runtime monitoring, useful for understanding when AVR is actively correcting versus when the unit has switched to battery, a distinction blurred by simpler indicator-light designs.\n\nAVR here is the standard complementary feature, handling brownouts/sags in real-time without draining the battery, understand that it doesn't replace battery backup during a full outage.\n\nWorth knowing before you decide: Solid rating base. On the other side, Lower capacity than the 1500VA/1000W top pick. That's the main tradeoff to weigh against your specific needs.",
     specs: ["AVR included, intelligent LCD display", "Real-time load/runtime monitoring", "Multiple outlets with surge protection", "Compact tower design"],
     pros: ["Intelligent LCD gives visibility into AVR-correction vs. battery-mode status", "Solid rating base", "Lower price than the top CyberPower AVR pick", "Compact footprint"],
     cons: ["Lower capacity than the 1500VA/1000W top pick", "AVR correction range and response time not disclosed", "No coax/Ethernet surge protection confirmed"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31p-5+FvTgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06VY6FXMM?tag=deskfinds0d-20",
     description:
-      "The single largest review base of any product across this entire UPS lineup, strong real-world evidence for both the AVR correction and overall reliability. AVR here preserves battery life for genuine outages rather than draining it on every minor voltage sag.\n\nUnderstand AVR is a complementary feature, not a full outage replacement, this unit still relies on its battery for complete power loss, AVR just reduces how often that battery gets tapped.",
+      "The single largest review base of any product across this entire UPS lineup, strong real-world evidence for both the AVR correction and overall reliability. AVR here preserves battery life for genuine outages rather than draining it on every minor voltage sag.\n\nUnderstand AVR is a complementary feature, not a full outage replacement, this unit still relies on its battery for complete power loss, AVR just reduces how often that battery gets tapped.\n\nWorth knowing before you decide: AVR meaningfully extends battery lifespan by handling brownouts in-line. On the other side, AVR correction range not disclosed. That's the main tradeoff to weigh against your specific needs.",
     specs: ["1500VA/900W, AVR included", "Battery backup for PCs and office electronics", "Multiple outlets, surge protection", "Well-established APC BX series"],
     pros: ["Largest review base of any pick across this guide", "AVR meaningfully extends battery lifespan by handling brownouts in-line", "Strong reliability track record", "Reasonable price for the capacity"],
     cons: ["AVR correction range not disclosed", "Not pure sine wave, avoid pairing with heavy APFC loads without checking compatibility separately", "Standby power draw from AVR circuitry not disclosed"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31VPmugfqML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06VY12HW4?tag=deskfinds0d-20",
     description:
-      "A lower-capacity sibling to the BX1500M, genuinely appropriate if your equipment load is a single PC and monitor rather than a full multi-device desk. Same AVR-preserves-battery-life logic applies at this smaller capacity tier.\n\nA reasonable middle ground on price between the budget and premium AVR picks in this guide.",
+      "A lower-capacity sibling to the BX1500M, genuinely appropriate if your equipment load is a single PC and monitor rather than a full multi-device desk. Same AVR-preserves-battery-life logic applies at this smaller capacity tier.\n\nA reasonable middle ground on price between the budget and premium AVR picks in this guide.\n\nWorth knowing before you decide: AVR reduces unnecessary battery cycling. On the other side, Lower capacity than the top two picks. That's the main tradeoff to weigh against your specific needs.",
     specs: ["1000VA/600W, AVR included", "Office electronics battery backup", "Multiple outlets", "Compact tower form"],
     pros: ["Appropriately sized for a single-PC setup", "AVR reduces unnecessary battery cycling", "Solid rating base", "Reasonable middle-of-the-road price"],
     cons: ["Lower capacity than the top two picks", "AVR correction range and response time not disclosed", "Shorter runtime under real load"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41bNhavHbjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00K8ZMTAQ?tag=deskfinds0d-20",
     description:
-      "The most affordable AVR-equipped pick in this guide, genuinely useful if your priority is basic brownout correction for a modest desk setup rather than a high-capacity outage buffer. 12 outlets is generous for its compact size and price.\n\nAVR standby circuitry does add a small amount of continuous power draw versus a battery-only model of similar capacity, a minor but real tradeoff at this budget tier.",
+      "The most affordable AVR-equipped pick in this guide, genuinely useful if your priority is basic brownout correction for a modest desk setup rather than a high-capacity outage buffer. 12 outlets is generous for its compact size and price.\n\nAVR standby circuitry does add a small amount of continuous power draw versus a battery-only model of similar capacity, a minor but real tradeoff at this budget tier.\n\nWorth knowing before you decide: 12 outlets despite compact size. On the other side, Lowest capacity in this guide. That's the main tradeoff to weigh against your specific needs.",
     specs: ["750VA/450W, AVR included", "12 outlets, compact design", "Standard surge protection", "Budget-friendly"],
     pros: ["Most affordable AVR pick in this guide", "12 outlets despite compact size", "AVR reduces unnecessary battery drain on minor sags", "Good rating base for the price"],
     cons: ["Lowest capacity in this guide", "AVR standby draw adds marginal continuous power cost versus battery-only models", "Not suited to a full multi-device desktop"],
@@ -116,7 +116,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31DlLYCaalL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000QZ3UG0?tag=deskfinds0d-20",
     description:
-      "A large, well-established review base for a 1000VA-class AVR pick with the same intelligent LCD status display as its bigger sibling, giving visibility into when AVR is correcting versus when the battery has kicked in.\n\nGenuine value at this capacity tier, though as with every pick here, the exact AVR correction range and response time aren't disclosed by the manufacturer.",
+      "A large, well-established review base for a 1000VA-class AVR pick with the same intelligent LCD status display as its bigger sibling, giving visibility into when AVR is correcting versus when the battery has kicked in.\n\nGenuine value at this capacity tier, though as with every pick here, the exact AVR correction range and response time aren't disclosed by the manufacturer.\n\nWorth knowing before you decide: Intelligent LCD for AVR/battery-mode visibility. On the other side, AVR correction range not disclosed. That's the main tradeoff to weigh against your specific needs.",
     specs: ["1000VA, AVR included, intelligent LCD", "Real-time status display", "Multiple outlets, surge protection", "Established CyberPower design"],
     pros: ["Large, well-established review base", "Intelligent LCD for AVR/battery-mode visibility", "Solid capacity for a single-PC setup", "Reasonable price"],
     cons: ["AVR correction range not disclosed", "Not the highest capacity option here", "Standby power draw from AVR circuitry not quantified"],

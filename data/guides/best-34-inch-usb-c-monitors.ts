@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41TB04lWCrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DR3YBSL4?tag=deskfinds0d-20",
     description:
-      "A genuinely high 180Hz refresh rate at 34 inches, appropriate for buyers with adequate desk depth wanting both expansive workspace and smooth motion.\n\nA tight 1000R curve suits closer viewing distances, pairing well with a desk depth around the 30-inch minimum this size typically needs.",
+      "A genuinely high 180Hz refresh rate at 34 inches, appropriate for buyers with adequate desk depth wanting both expansive workspace and smooth motion.\n\nA tight 1000R curve suits closer viewing distances, pairing well with a desk depth around the 30-inch minimum this size typically needs.\n\nWorth knowing before you decide: Good value for the resolution and refresh rate combination. On the other side, Verify your desk depth meets the roughly 30-inch minimum this size needs. That's the main tradeoff to weigh against your specific needs.",
     specs: ["34-inch curved 21:9 ultrawide UWQHD panel", "180Hz refresh rate", "1000R curve radius", "USB-C connectivity"],
     pros: ["Very high 180Hz refresh rate for smooth motion", "Good value for the resolution and refresh rate combination", "Tight 1000R curve for genuine immersion at closer desk depths", "21:9 ultrawide aspect ratio for expansive workspace"],
     cons: ["Verify your desk depth meets the roughly 30-inch minimum this size needs", "Verify USB-C power delivery wattage against your laptop", "21:9 aspect ratio, not a simple larger 16:9 panel"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41oTaXgx2fL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1H325FN?tag=deskfinds0d-20",
     description:
-      "Explicit eye comfort features matter more at this larger size, since buyers spending long hours at a 34-inch panel benefit meaningfully from reduced eye strain design.\n\n120Hz refresh rate and FreeSync Premium round out a solid productivity-focused 34-inch panel.",
+      "Explicit eye comfort features matter more at this larger size, since buyers spending long hours at a 34-inch panel benefit meaningfully from reduced eye strain design.\n\n120Hz refresh rate and FreeSync Premium round out a solid productivity-focused 34-inch panel.\n\nWorth knowing before you decide: 120Hz refresh rate for smoother motion. On the other side, Higher price than the Pixio alternative. That's the main tradeoff to weigh against your specific needs.",
     specs: ["34-inch curved 21:9 ultrawide WQHD panel", "120Hz refresh rate", "FreeSync Premium", "Explicit eye comfort features"],
     pros: ["Explicit eye comfort features valuable for long sessions at this larger size", "120Hz refresh rate for smoother motion", "FreeSync Premium for smoother gaming", "Reliable Dell build quality"],
     cons: ["Higher price than the Pixio alternative", "Verify your desk depth meets the roughly 30-inch minimum this size needs", "21:9 aspect ratio, not a simple larger 16:9 panel"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51jbyzHVvdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BLT79X2G?tag=deskfinds0d-20",
     description:
-      "A premium 34-inch curved panel from Samsung's Viewfinity line, HDR10 support adds genuine contrast benefit for both productivity and media consumption on the wide canvas.\n\nSamsung's panel quality and reliability make this a strong pick for buyers wanting a premium 34-inch experience.",
+      "A premium 34-inch curved panel from Samsung's Viewfinity line, HDR10 support adds genuine contrast benefit for both productivity and media consumption on the wide canvas.\n\nSamsung's panel quality and reliability make this a strong pick for buyers wanting a premium 34-inch experience.\n\nWorth knowing before you decide: Samsung panel quality and reliability. On the other side, Highest price in this guide. That's the main tradeoff to weigh against your specific needs.",
     specs: ["34-inch curved 21:9 ultrawide QHD panel", "100Hz refresh rate", "HDR10 support", "USB-C connectivity"],
     pros: ["HDR10 support for richer contrast in both work and media use", "Samsung panel quality and reliability", "100Hz refresh rate for smoother motion", "USB-C single-cable connectivity"],
     cons: ["Highest price in this guide", "Verify your desk depth meets the roughly 30-inch minimum this size needs", "Verify USB-C power delivery wattage against your laptop"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41WGJRiwq3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1GFD44G?tag=deskfinds0d-20",
     description:
-      "Included as a reference point for buyers whose desk depth doesn't comfortably fit a 34-inch panel's roughly 30-inch minimum requirement.\n\nA true 4K 27-inch panel offers sharp detail and a smaller footprint, worth comparing directly against a 34-inch ultrawide if desk space is limited.",
+      "Included as a reference point for buyers whose desk depth doesn't comfortably fit a 34-inch panel's roughly 30-inch minimum requirement.\n\nA true 4K 27-inch panel offers sharp detail and a smaller footprint, worth comparing directly against a 34-inch ultrawide if desk space is limited.\n\nWorth knowing before you decide: True 4K resolution with high refresh rate. On the other side, Less horizontal workspace than a true 34-inch ultrawide. That's the main tradeoff to weigh against your specific needs.",
     specs: ["27-inch true 4K UHD IPS panel", "120Hz refresh rate", "99% sRGB color coverage", "Smaller footprint than 34-inch"],
     pros: ["Smaller footprint fits desks that can't accommodate a 34-inch panel's depth needs", "True 4K resolution with high refresh rate", "99% sRGB coverage for strong color accuracy", "Standard 16:9 aspect ratio, not ultrawide"],
     cons: ["Less horizontal workspace than a true 34-inch ultrawide", "Higher price reflecting the 4K/120Hz combination", "Not the ultrawide format some buyers specifically want"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41hpKXhqKnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H1VFKC84?tag=deskfinds0d-20",
     description:
-      "Included as a reference point for buyers whose desk depth comfortably exceeds 34-inch requirements and might benefit from even more width via a 32:9 super-ultrawide.\n\nIf you have the desk space, this genuinely replaces a dual-monitor setup rather than simply being a bigger version of a 34-inch panel.",
+      "Included as a reference point for buyers whose desk depth comfortably exceeds 34-inch requirements and might benefit from even more width via a 32:9 super-ultrawide.\n\nIf you have the desk space, this genuinely replaces a dual-monitor setup rather than simply being a bigger version of a 34-inch panel.\n\nWorth knowing before you decide: 1500R curve appropriately gentler for the greater viewing distance. On the other side, Requires substantially more desk depth and width than a 34-inch panel. That's the main tradeoff to weigh against your specific needs.",
     specs: ["49-inch curved super-ultrawide panel", "5120x1440 Dual QHD, 32:9 aspect ratio", "1500R curve radius", "HDR400 support"],
     pros: ["Genuinely more workspace than any 34-inch panel", "1500R curve appropriately gentler for the greater viewing distance", "HDR400 support for richer contrast", "Effectively replaces a dual-monitor setup"],
     cons: ["Requires substantially more desk depth and width than a 34-inch panel", "Highest price in this guide", "Only worth it if you have the desk space to support it"],

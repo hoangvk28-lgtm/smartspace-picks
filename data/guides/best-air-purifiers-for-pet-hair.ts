@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
-      "Explicitly marketed for pet hair with a washable pre-filter that catches hair before it reaches the HEPA layer, by far the largest review base of any pick here as real-world pet-hair evidence.\n\nPet hair mats a pre-filter mesh faster than dust alone, plan for weekly pre-filter cleaning in a pet home rather than a monthly cadence.",
+      "Explicitly marketed for pet hair with a washable pre-filter that catches hair before it reaches the HEPA layer, by far the largest review base of any pick here as real-world pet-hair evidence.\n\nPet hair mats a pre-filter mesh faster than dust alone, plan for weekly pre-filter cleaning in a pet home rather than a monthly cadence.\n\nWorth knowing before you decide: By far the largest review base of any pick here. On the other side, Pre-filter needs weekly attention in pet homes. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Washable pre-filter for hair", "True HEPA H13, 99.97% particulate removal", "Largest review base in this guide", "24dB quoted noise level"],
     pros: ["Explicitly marketed and reviewed for pet hair", "By far the largest review base of any pick here", "Washable pre-filter design", "Affordable price"],
     cons: ["Pre-filter needs weekly attention in pet homes", "No smart app control", "Standard CFM, not the highest airflow in this guide"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31K9NLoXncL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BN2MGV5H?tag=deskfinds0d-20",
     description:
-      "HEPASilent technology moves genuinely more air than a standard HEPA-only design, and higher airflow matters more for pet hair than odor since hair particles are physically larger and heavier than gas molecules.\n\nMore air movement is needed to actually capture hair before it settles, this unit's higher CFM design addresses that specific physics rather than relying on filtration density alone.",
+      "HEPASilent technology moves genuinely more air than a standard HEPA-only design, and higher airflow matters more for pet hair than odor since hair particles are physically larger and heavier than gas molecules.\n\nMore air movement is needed to actually capture hair before it settles, this unit's higher CFM design addresses that specific physics rather than relying on filtration density alone.\n\nWorth knowing before you decide: Air quality sensor for real-time monitoring. On the other side, Higher price than budget alternatives. That's the main tradeoff to weigh against your specific needs.",
     specs: ["HEPASilent high-airflow technology", "Air quality sensor", "99.97% removal of airborne particulates", "Large-room rated"],
     pros: ["Higher airflow specifically helps capture heavier pet hair particles", "Air quality sensor for real-time monitoring", "HEPASilent technology reduces noise at high airflow", "Large-room coverage"],
     cons: ["Higher price than budget alternatives", "Smaller review base than the top pick", "Larger footprint for a small room"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/316AtkHoSdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004VGIGVY?tag=deskfinds0d-20",
     description:
-      "A large review base at the lowest price in this guide, genuinely capable for a single-pet home with a moderate hair load rather than a heavy multi-pet household.\n\nA single-pet moderate load is a reasonable fit for this unit's standard CFM, a multi-pet or heavy-shedding-breed home likely needs the higher-airflow pick in this guide instead.",
+      "A large review base at the lowest price in this guide, genuinely capable for a single-pet home with a moderate hair load rather than a heavy multi-pet household.\n\nA single-pet moderate load is a reasonable fit for this unit's standard CFM, a multi-pet or heavy-shedding-breed home likely needs the higher-airflow pick in this guide instead.\n\nWorth knowing before you decide: Large, well-established review base. On the other side, Standard CFM, not ideal for heavy multi-pet shedding. That's the main tradeoff to weigh against your specific needs.",
     specs: ["True HEPA filtration", "Large review base", "Budget-friendly", "Standard CFM airflow"],
     pros: ["Lowest price in this guide", "Large, well-established review base", "True HEPA captures pet hair effectively", "Compact footprint"],
     cons: ["Standard CFM, not ideal for heavy multi-pet shedding", "No washable pre-filter callout", "Fewer smart features than premium alternatives"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
-      "Rated up to 1875 sq ft with smart app control, genuine headroom for a multi-pet household where the combined hair load saturates a standard-capacity unit faster.\n\nA multi-pet home with heavy shedding benefits from this extra coverage and airflow headroom, since more pets mean proportionally more hair mass moving through the pre-filter.",
+      "Rated up to 1875 sq ft with smart app control, genuine headroom for a multi-pet household where the combined hair load saturates a standard-capacity unit faster.\n\nA multi-pet home with heavy shedding benefits from this extra coverage and airflow headroom, since more pets mean proportionally more hair mass moving through the pre-filter.\n\nWorth knowing before you decide: Smart app control for monitoring filter status. On the other side, Higher price than budget alternatives. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Up to 1875 sq ft rated (open room)", "Smart app control", "Large review base", "Extra headroom for multi-pet loads"],
     pros: ["Large rated coverage for a multi-pet household", "Smart app control for monitoring filter status", "Large, well-established review base", "Genuine headroom for heavy shedding breeds"],
     cons: ["Higher price than budget alternatives", "Larger footprint than compact picks", "Pre-filter still needs weekly cleaning regardless of coverage headroom"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Wb8TGSnPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT4F8T4L?tag=deskfinds0d-20",
     description:
-      "A large, well-established review base with PlasmaWave technology addressing pet odor alongside hair filtration, a genuinely multi-issue pick for pet owners dealing with both.\n\nPlasmaWave is an added odor-neutralizing layer, it doesn't replace the mechanical pre-filter cleaning that pet hair still requires on a weekly basis.",
+      "A large, well-established review base with PlasmaWave technology addressing pet odor alongside hair filtration, a genuinely multi-issue pick for pet owners dealing with both.\n\nPlasmaWave is an added odor-neutralizing layer, it doesn't replace the mechanical pre-filter cleaning that pet hair still requires on a weekly basis.\n\nWorth knowing before you decide: PlasmaWave addresses pet odor alongside hair filtration. On the other side, Higher price than the top pick. That's the main tradeoff to weigh against your specific needs.",
     specs: ["PlasmaWave odor-neutralizing technology", "Large, established review base", "True HEPA filtration", "Multi-stage filtration"],
     pros: ["Large, well-established review base", "PlasmaWave addresses pet odor alongside hair filtration", "True HEPA captures pet hair effectively", "Proven, established design"],
     cons: ["Higher price than the top pick", "PlasmaWave doesn't replace mechanical pre-filter cleaning", "Larger footprint than compact alternatives"],

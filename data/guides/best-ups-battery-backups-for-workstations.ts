@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/319TmSlbEUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B077Y62GSJ?tag=deskfinds0d-20",
     description:
-      "Genuine line-interactive topology, actively regulating voltage through an autotransformer rather than just switching to battery, a real advantage for the sustained heavy and variable loads a workstation running renders or compiles puts on power delivery. SmartConnect adds remote monitoring, so you can check battery health and runtime status without walking over to an unattended machine.\n\nThe highest price in this guide reflects genuine workstation-grade build quality, not just a bigger battery, this is the pick if remote visibility into an overnight render job's power status matters to you.",
+      "Genuine line-interactive topology, actively regulating voltage through an autotransformer rather than just switching to battery, a real advantage for the sustained heavy and variable loads a workstation running renders or compiles puts on power delivery. SmartConnect adds remote monitoring, so you can check battery health and runtime status without walking over to an unattended machine.\n\nThe highest price in this guide reflects genuine workstation-grade build quality, not just a bigger battery, this is the pick if remote visibility into an overnight render job's power status matters to you.\n\nWorth knowing before you decide: Remote monitoring prevents discovering a dead UPS after an overnight job. On the other side, Highest price in this guide by a wide margin. That's the main tradeoff to weigh against your specific needs.",
     specs: ["1500VA/900W, line-interactive topology", "SmartConnect cloud monitoring", "Pure sine wave, APFC compatible", "Workstation-grade build"],
     pros: ["Genuine line-interactive topology for demanding variable workstation loads", "Remote monitoring prevents discovering a dead UPS after an overnight job", "Pure sine wave APFC compatibility", "Well-reviewed for its tier"],
     cons: ["Highest price in this guide by a wide margin", "Smaller review base than the budget picks", "Overkill for a light workstation load"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31rIE-toOYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08GRY1W93?tag=deskfinds0d-20",
     description:
-      "900W real capacity and confirmed active-PFC compatibility, genuinely important for a multi-GPU or high-wattage workstation power supply where modified sine wave could trigger buzzing or shutdown under heavy load.\n\nStandby topology rather than line-interactive, a real tradeoff versus the top pick, but at roughly half the price with the same real-watt headroom for most single-workstation setups.",
+      "900W real capacity and confirmed active-PFC compatibility, genuinely important for a multi-GPU or high-wattage workstation power supply where modified sine wave could trigger buzzing or shutdown under heavy load.\n\nStandby topology rather than line-interactive, a real tradeoff versus the top pick, but at roughly half the price with the same real-watt headroom for most single-workstation setups.\n\nWorth knowing before you decide: APFC compatibility important for multi-GPU builds. On the other side, Standby topology, not line-interactive like the top pick. That's the main tradeoff to weigh against your specific needs.",
     specs: ["1500VA/900W, pure sine wave, standby topology", "APFC compatible", "10 outlets, coax/Ethernet surge protection", "Replaceable battery"],
     pros: ["Strong real-watt headroom for a demanding workstation power supply", "APFC compatibility important for multi-GPU builds", "Roughly half the price of the line-interactive pick", "Large, established review base"],
     cons: ["Standby topology, not line-interactive like the top pick", "No remote monitoring built in", "Larger footprint"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31DYxDN0bTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00429N19W?tag=deskfinds0d-20",
     description:
-      "12 outlets and 1000W real capacity, genuinely useful for a workstation with multiple monitors, external storage, and peripherals all needing battery backup simultaneously. Largest review base in this guide, strong evidence of reliability under sustained real-world use.\n\nAVR handles brownouts without draining the battery, useful for a workstation that stays powered on continuously.",
+      "12 outlets and 1000W real capacity, genuinely useful for a workstation with multiple monitors, external storage, and peripherals all needing battery backup simultaneously. Largest review base in this guide, strong evidence of reliability under sustained real-world use.\n\nAVR handles brownouts without draining the battery, useful for a workstation that stays powered on continuously.\n\nWorth knowing before you decide: 1000W real capacity. On the other side, Standby topology, not line-interactive. That's the main tradeoff to weigh against your specific needs.",
     specs: ["1500VA/1000W, PFC sinewave, AVR included", "12 outlets", "UL certified", "Mini tower form factor"],
     pros: ["Most outlets of any pick in this guide", "1000W real capacity", "Largest review base, strong reliability evidence", "AVR bundled for always-on workstations"],
     cons: ["Standby topology, not line-interactive", "No remote monitoring built in", "Bulkier mini-tower form factor"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31p-5+FvTgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06VY6FXMM?tag=deskfinds0d-20",
     description:
-      "The single largest review base across this entire UPS lineup, strong evidence this capacity holds up for demanding continuous workstation use even without pure sine wave or line-interactive topology.\n\nCheck your workstation's power supply for APFC before relying on this modified sine wave design, if it has one, step up to a pure sine wave pick from this guide instead.",
+      "The single largest review base across this entire UPS lineup, strong evidence this capacity holds up for demanding continuous workstation use even without pure sine wave or line-interactive topology.\n\nCheck your workstation's power supply for APFC before relying on this modified sine wave design, if it has one, step up to a pure sine wave pick from this guide instead.\n\nWorth knowing before you decide: 900W real capacity at a notably lower price. On the other side, Not pure sine wave, verify workstation PSU compatibility first. That's the main tradeoff to weigh against your specific needs.",
     specs: ["1500VA/900W", "AVR included", "Multiple outlets", "Well-established APC BX series"],
     pros: ["Largest review base of any pick across this entire guide", "900W real capacity at a notably lower price", "AVR included", "Strong reliability track record"],
     cons: ["Not pure sine wave, verify workstation PSU compatibility first", "Standby topology", "No remote monitoring"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51bQ0-kLFqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GJ5WBM5D?tag=deskfinds0d-20",
     description:
-      "1000W real capacity, strong headroom for a demanding workstation load, with lithium battery chemistry that generally handles the sustained heat of an always-on workstation environment better than lead-acid designs over the long term.\n\nA small review base given how new this model is, weigh that against its genuinely strong capacity and battery chemistry advantages.",
+      "1000W real capacity, strong headroom for a demanding workstation load, with lithium battery chemistry that generally handles the sustained heat of an always-on workstation environment better than lead-acid designs over the long term.\n\nA small review base given how new this model is, weigh that against its genuinely strong capacity and battery chemistry advantages.\n\nWorth knowing before you decide: Lithium battery, better long-term heat and charge-cycle tolerance. On the other side, Small review base, less long-term evidence for continuous workstation use. That's the main tradeoff to weigh against your specific needs.",
     specs: ["1500VA/1000W, lithium battery", "Strong real-watt-to-VA ratio", "Surge protection", "Compact for its capacity"],
     pros: ["1000W real capacity, strong ratio for its VA rating", "Lithium battery, better long-term heat and charge-cycle tolerance", "Very high early rating", "Compact footprint for the capacity"],
     cons: ["Small review base, less long-term evidence for continuous workstation use", "Higher price than comparable lead-acid options", "No remote monitoring confirmed"],
@@ -116,7 +116,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31VPmugfqML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06VY12HW4?tag=deskfinds0d-20",
     description:
-      "600W real capacity, appropriate for a lighter workstation load, such as CAD or content work on a single-GPU system, rather than a multi-GPU rendering rig. Don't undersize here, a workstation's sustained load profile is different from a basic desktop's occasional bursts.\n\nAVR included handles brownouts without draining the battery, useful for continuous operation.",
+      "600W real capacity, appropriate for a lighter workstation load, such as CAD or content work on a single-GPU system, rather than a multi-GPU rendering rig. Don't undersize here, a workstation's sustained load profile is different from a basic desktop's occasional bursts.\n\nAVR included handles brownouts without draining the battery, useful for continuous operation.\n\nWorth knowing before you decide: AVR included. On the other side, Not enough headroom for a multi-GPU rendering rig. That's the main tradeoff to weigh against your specific needs.",
     specs: ["1000VA/600W", "AVR included", "Multiple outlets", "Office electronics rated"],
     pros: ["Reasonable price for a light workstation load", "AVR included", "Solid rating base", "Adequate for single-GPU professional work"],
     cons: ["Not enough headroom for a multi-GPU rendering rig", "Not pure sine wave", "No remote monitoring"],

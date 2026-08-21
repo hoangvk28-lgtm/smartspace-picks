@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ttLEqu0hL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GNMPGM7G?tag=deskfinds0d-20",
     description:
-      "Explicitly marketed and sized for small to medium hands, which is a genuine differentiator in a category where most products are built around an average to large hand.\n\nThe review base is small, so weigh the very strong 4.7-star rating against the limited sample size and check current buyer feedback specifically on scroll wheel reach before buying.",
+      "Explicitly marketed and sized for small to medium hands, which is a genuine differentiator in a category where most products are built around an average to large hand.\n\nThe review base is small, so weigh the very strong 4.7-star rating against the limited sample size and check current buyer feedback specifically on scroll wheel reach before buying.\n\nWorth knowing before you decide: Very strong review rating. On the other side, Small review sample size, verify current feedback. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Explicit small/medium hand sizing", "57-degree tilt angle", "Wireless connectivity", "Budget price point"],
     pros: ["Genuinely marketed and sized for small to medium hands", "Very strong review rating", "Budget-friendly price", "Disclosed tilt angle"],
     cons: ["Small review sample size, verify current feedback", "Scroll wheel reach not independently confirmed", "Less established brand track record than premium picks"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31nb5ALnDvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09J1TB35S?tag=deskfinds0d-20",
     description:
-      "A more compact body than the brand's full-size premium model, marketed with smaller hands in mind, backed by a large and consistent review base.\n\nThe scroll wheel position on this compact body has generally positive buyer feedback for reach, though we recommend checking current reviews for your specific hand size before assuming it's a perfect fit.",
+      "A more compact body than the brand's full-size premium model, marketed with smaller hands in mind, backed by a large and consistent review base.\n\nThe scroll wheel position on this compact body has generally positive buyer feedback for reach, though we recommend checking current reviews for your specific hand size before assuming it's a perfect fit.\n\nWorth knowing before you decide: Large, consistent review base. On the other side, Mid-to-premium price versus budget small-hand picks. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Compact body", "Dual 2.4GHz and Bluetooth", "Rechargeable battery", "Large review base"],
     pros: ["Compact body genuinely smaller than the brand's full-size model", "Large, consistent review base", "Dual connectivity", "Rechargeable battery"],
     cons: ["Mid-to-premium price versus budget small-hand picks", "Still not explicitly marketed as small-hand-specific like the top pick", "Fewer buttons than the larger MX Vertical"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31PGrLfkUxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CX18LHWS?tag=deskfinds0d-20",
     description:
-      "A budget option with a solid review base, offering a smaller overall footprint than the largest vertical mice in this category, though it isn't explicitly marketed toward small hands specifically.\n\nCheck current listing photos and buyer feedback for actual dimensions and scroll wheel reach before assuming a comfortable fit for your hand size.",
+      "A budget option with a solid review base, offering a smaller overall footprint than the largest vertical mice in this category, though it isn't explicitly marketed toward small hands specifically.\n\nCheck current listing photos and buyer feedback for actual dimensions and scroll wheel reach before assuming a comfortable fit for your hand size.\n\nWorth knowing before you decide: Rechargeable battery. On the other side, Not explicitly marketed as small-hand-specific. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Compact wireless body", "Rechargeable built-in battery", "Budget-to-mid price point", "Solid review base"],
     pros: ["Smaller footprint than full-size vertical mice", "Rechargeable battery", "Solid review rating", "Budget-friendly price"],
     cons: ["Not explicitly marketed as small-hand-specific", "Scroll wheel reach not independently confirmed for smaller hands", "Smaller brand track record than the premium picks"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31rCoH07kzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07BFCVJZC?tag=deskfinds0d-20",
     description:
-      "A mid-size body that a broad range of buyers, including some with smaller hands, report as comfortable, backed by a large and consistent review base.\n\nThis isn't marketed toward small hands specifically, so treat the mid-size fit as a reasonable middle ground rather than a guaranteed fit if your hands are notably smaller than average.",
+      "A mid-size body that a broad range of buyers, including some with smaller hands, report as comfortable, backed by a large and consistent review base.\n\nThis isn't marketed toward small hands specifically, so treat the mid-size fit as a reasonable middle ground rather than a guaranteed fit if your hands are notably smaller than average.\n\nWorth knowing before you decide: Rechargeable battery. On the other side, Not explicitly marketed or sized for small hands specifically. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Mid-size body", "Rechargeable built-in battery", "2.4GHz wireless receiver", "Budget price point"],
     pros: ["Large review base suggests broad comfort across hand sizes", "Rechargeable battery", "Budget-friendly price", "Solid mid-size fit for many buyers"],
     cons: ["Not explicitly marketed or sized for small hands specifically", "Scroll wheel reach not independently confirmed", "No Bluetooth option"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41VQ8m4r1iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F4JNS3PX?tag=deskfinds0d-20",
     description:
-      "The lowest price in this guide, with a compact wired body and adjustable DPI, a genuine option for buyers with smaller hands who want to try a vertical grip without much financial commitment.\n\nIts 4.1-star rating is more moderate than the other picks here, so weigh the very low price against a smaller review sample and less established brand track record.",
+      "The lowest price in this guide, with a compact wired body and adjustable DPI, a genuine option for buyers with smaller hands who want to try a vertical grip without much financial commitment.\n\nIts 4.1-star rating is more moderate than the other picks here, so weigh the very low price against a smaller review sample and less established brand track record.\n\nWorth knowing before you decide: Compact body suits smaller hands. On the other side, More moderate 4.1-star rating than other picks. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Wired USB connection", "Adjustable DPI", "Compact ergonomic body", "Ultra-budget price point"],
     pros: ["Lowest price in this guide", "Compact body suits smaller hands", "Adjustable DPI even at this price tier", "No battery weight"],
     cons: ["More moderate 4.1-star rating than other picks", "Smaller review sample size", "Less established brand track record"],
@@ -116,7 +116,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41h3oxMYtPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00FPAVUHC?tag=deskfinds0d-20",
     description:
-      "A large review base for a reasonably sized wired body, backed by strong buyer feedback that suggests a comfortable fit across a broad range of hand sizes, including some smaller-handed buyers.\n\nThis isn't marketed toward small hands specifically, so treat it as a reasonable mid-size option rather than a guaranteed fit if your hands are notably smaller than average.",
+      "A large review base for a reasonably sized wired body, backed by strong buyer feedback that suggests a comfortable fit across a broad range of hand sizes, including some smaller-handed buyers.\n\nThis isn't marketed toward small hands specifically, so treat it as a reasonable mid-size option rather than a guaranteed fit if your hands are notably smaller than average.\n\nWorth knowing before you decide: No battery weight. On the other side, Not explicitly marketed or sized for small hands specifically. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Wired USB connection", "Ergonomic vertical design", "No battery, lighter body", "Mid-range price point"],
     pros: ["Large review base suggesting broad comfort across hand sizes", "No battery weight", "Works across desktop and laptop ports", "Mid-range price"],
     cons: ["Not explicitly marketed or sized for small hands specifically", "Scroll wheel reach not independently confirmed", "No wireless option"],
@@ -133,7 +133,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31vAjZuq+pL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CMC1F5WB?tag=deskfinds0d-20",
     description:
-      "A low-cost wired pick with adjustable DPI and a strong review rating, offering a reasonably compact footprint for buyers who want to try a vertical grip without paying a premium.\n\nCheck current listing photos and buyer feedback for actual dimensions and scroll wheel reach before assuming a comfortable fit for smaller hands specifically.",
+      "A low-cost wired pick with adjustable DPI and a strong review rating, offering a reasonably compact footprint for buyers who want to try a vertical grip without paying a premium.\n\nCheck current listing photos and buyer feedback for actual dimensions and scroll wheel reach before assuming a comfortable fit for smaller hands specifically.\n\nWorth knowing before you decide: Adjustable DPI sensor. On the other side, Not explicitly marketed as small-hand-specific. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Wired USB connection", "6400 DPI adjustable sensor", "Compact ergonomic body", "Budget price point"],
     pros: ["Strong review rating at a low price", "Adjustable DPI sensor", "No battery weight", "Compact footprint"],
     cons: ["Not explicitly marketed as small-hand-specific", "Scroll wheel reach not independently confirmed", "No wireless option"],

@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51v-7P2kqkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DVDSJPL5?tag=deskfinds0d-20",
     description:
-      "A full pegboard system with a steel storage shelf included, mounted with three clamp points rather than one, which meaningfully helps offset the extra forward leverage the shelf adds once loaded.\n\nIt's worth checking the shelf's own weight rating separately from the board's general hook capacity, since the two aren't automatically the same number even on a well-built system like this.",
+      "A full pegboard system with a steel storage shelf included, mounted with three clamp points rather than one, which meaningfully helps offset the extra forward leverage the shelf adds once loaded.\n\nIt's worth checking the shelf's own weight rating separately from the board's general hook capacity, since the two aren't automatically the same number even on a well-built system like this.\n\nWorth knowing before you decide: Steel shelf construction holds up to real daily use. On the other side, Small review count so far. That's the main tradeoff to weigh against your specific needs.",
     specs: ["47 x 31 inch steel panel", "Triple clamp mount", "Storage shelf included", "2 monitor mounts included"],
     pros: ["Triple clamp helps offset the shelf's added forward leverage", "Steel shelf construction holds up to real daily use", "Combines shelf and pegboard hooks in one system", "Strong 4.7-star rating"],
     cons: ["Small review count so far", "Shelf's own weight limit should be checked separately from the board's", "Requires desk edge space for three clamp points"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41oUaLqsLtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G4R17HMV?tag=deskfinds0d-20",
     description:
-      "A compact clamp-on metal shelf with a small pegboard section and pencil holder, a lighter-weight option for buyers who want shelf storage without a full desk-back panel.\n\nBecause the shelf itself is the main feature here rather than an add-on to a larger board, its forward leverage on a single clamp is worth checking against your desk edge stability before loading it heavily.",
+      "A compact clamp-on metal shelf with a small pegboard section and pencil holder, a lighter-weight option for buyers who want shelf storage without a full desk-back panel.\n\nBecause the shelf itself is the main feature here rather than an add-on to a larger board, its forward leverage on a single clamp is worth checking against your desk edge stability before loading it heavily.\n\nWorth knowing before you decide: Metal build holds up better than a plastic shelf. On the other side, Single clamp point carries the shelf's full forward leverage. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Metal clamp-on shelf", "Small pegboard section", "Pencil holder included", "Compact footprint"],
     pros: ["Compact size fits desks with limited edge space", "Metal build holds up better than a plastic shelf", "Combines shelf and small pegboard section", "Lower price than a full panel-and-shelf system"],
     cons: ["Single clamp point carries the shelf's full forward leverage", "Small pegboard section limits hanging capacity", "Moderate 4.3-star rating relative to others in this list"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31h2QOu6ArL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQJ21TD4?tag=deskfinds0d-20",
     description:
-      "A tray-style shelf mounted under the desk rather than on the back edge, which changes the leverage profile entirely since the load hangs below the desk rather than projecting forward at height.\n\nThe high 4.9-star rating with a solid review base is a strong signal for this specific horizontal, under-desk use case, though it isn't a substitute for a full vertical desk-back shelf system.",
+      "A tray-style shelf mounted under the desk rather than on the back edge, which changes the leverage profile entirely since the load hangs below the desk rather than projecting forward at height.\n\nThe high 4.9-star rating with a solid review base is a strong signal for this specific horizontal, under-desk use case, though it isn't a substitute for a full vertical desk-back shelf system.\n\nWorth knowing before you decide: Under-desk mounting avoids the forward-leverage tipping risk of a back shelf. On the other side, Not a vertical desk-back shelf, serves a narrower cable-focused role. That's the main tradeoff to weigh against your specific needs.",
     specs: ["30.2 inch tray length", "No-drill C-clamp mount", "Under-desk horizontal mounting", "High review rating"],
     pros: ["Highest rating in this list with a solid review base", "Under-desk mounting avoids the forward-leverage tipping risk of a back shelf", "No-drill C-clamp avoids permanent desk modification", "Compact size fits most standard desks"],
     cons: ["Not a vertical desk-back shelf, serves a narrower cable-focused role", "Smaller capacity than a full pegboard shelf", "Under-desk placement can reduce knee clearance for some setups"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41XfsAb0YwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK13ZHNJ?tag=deskfinds0d-20",
     description:
-      "A larger 36-inch under-desk cable tray with a strong review base of over 700 ratings, appropriate for buyers wanting a wider shelf-style tray for cable management alongside a separate desk-back pegboard.\n\nLike the PEGZONE tray, this mounts horizontally under the desk, which keeps its tipping-leverage profile lower than a vertically mounted shelf would carry.",
+      "A larger 36-inch under-desk cable tray with a strong review base of over 700 ratings, appropriate for buyers wanting a wider shelf-style tray for cable management alongside a separate desk-back pegboard.\n\nLike the PEGZONE tray, this mounts horizontally under the desk, which keeps its tipping-leverage profile lower than a vertically mounted shelf would carry.\n\nWorth knowing before you decide: 36 inch length covers wider desks. On the other side, Not a vertical desk-back shelf, complements rather than replaces one. That's the main tradeoff to weigh against your specific needs.",
     specs: ["36 inch tray length", "No-drill mount", "Under-desk horizontal mounting", "Large review base"],
     pros: ["Very large, well-established review base for a cable tray", "36 inch length covers wider desks", "No-drill mount avoids permanent desk modification", "Lower tipping-leverage profile than a back-mounted shelf"],
     cons: ["Not a vertical desk-back shelf, complements rather than replaces one", "Under-desk placement can reduce knee clearance for some setups", "Mounting hardware must be checked against your desk's underside construction"],

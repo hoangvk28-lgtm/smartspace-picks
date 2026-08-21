@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31pH3EPb-mL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FG52KXT9?tag=deskfinds0d-20",
     description:
-      "A freestanding, no-clamp panel pair that sets up with its own support feet, a low-cost entry point for buyers curious whether desk-level panels help before committing to a larger clamp-on setup.\n\nThe 'soundproof' language in the title is marketing shorthand, treat it as modest absorption of reflected sound near your own desk rather than a verified blocking spec.",
+      "A freestanding, no-clamp panel pair that sets up with its own support feet, a low-cost entry point for buyers curious whether desk-level panels help before committing to a larger clamp-on setup.\n\nThe 'soundproof' language in the title is marketing shorthand, treat it as modest absorption of reflected sound near your own desk rather than a verified blocking spec.\n\nWorth knowing before you decide: No clamping needed, works on any flat desk. On the other side, No published NRC rating. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Freestanding, 2-pack", "15.74 x 11.81 x 3.93 inches", "No clamp required", "No published NRC rating"],
     pros: ["Lowest price entry point in this smaller set", "No clamping needed, works on any flat desk", "Two panels included for slightly wider coverage", "Easy to reposition"],
     cons: ["No published NRC rating", "Compact size limits coverage per panel", "Freestanding feet are less stable than a clamped panel"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21S6a6AhTTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07S8DRKHC?tag=deskfinds0d-20",
     description:
-      "A 23 by 18 inch shield explicitly labeled sound absorbing, part of the same broader product family covered in more depth in our sound-absorbing desk privacy panel guide, worth checking there for additional size and color options.\n\nAt 18 inches tall, verify this against your own seated eye level before assuming it fully covers your sightline, the same caveat that applies across this entire panel category.",
+      "A 23 by 18 inch shield explicitly labeled sound absorbing, part of the same broader product family covered in more depth in our sound-absorbing desk privacy panel guide, worth checking there for additional size and color options.\n\nAt 18 inches tall, verify this against your own seated eye level before assuming it fully covers your sightline, the same caveat that applies across this entire panel category.\n\nWorth knowing before you decide: Straightforward single-color option. On the other side, 18 inch height may not cover a taller seated eye level. That's the main tradeoff to weigh against your specific needs.",
     specs: ["23\" W x 18\" H", "Dark blue finish", "Marketed for student and office desks", "No published NRC rating"],
     pros: ["Sized for standard student and office desk widths", "Straightforward single-color option", "Reasonable coverage for a single desk", "Part of a well-documented product family, see our sound-absorbing panel guide for more variants"],
     cons: ["18 inch height may not cover a taller seated eye level", "No published NRC rating", "Material thickness not detailed in the listing"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ssVs0VXYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B4JZCR89?tag=deskfinds0d-20",
     description:
-      "The smallest panel in this three-pick set at 15.6 by 11.7 inches, better suited as an accent panel softening one sightline than a full privacy solution across a desk.\n\nPair this with a larger panel if genuine coverage is the goal, on its own it addresses only a small portion of your immediate desk area.",
+      "The smallest panel in this three-pick set at 15.6 by 11.7 inches, better suited as an accent panel softening one sightline than a full privacy solution across a desk.\n\nPair this with a larger panel if genuine coverage is the goal, on its own it addresses only a small portion of your immediate desk area.\n\nWorth knowing before you decide: Easy to reposition given the small size. On the other side, Limited coverage given the small dimensions. That's the main tradeoff to weigh against your specific needs.",
     specs: ["15.6\" x 11.7\" panel", "Dark grey finish", "Compact footprint", "No published NRC rating"],
     pros: ["Affordable compact option", "Easy to reposition given the small size", "Fits tight desk spaces", "Low-commitment way to test panel-based privacy"],
     cons: ["Limited coverage given the small dimensions", "Not a substitute for a full-height panel", "No published NRC rating"],

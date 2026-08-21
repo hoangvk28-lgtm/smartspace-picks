@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31mqa4FsYcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FGFW5FVD?tag=deskfinds0d-20",
     description:
-      "This is a Thunderbolt-certified dock built around the newer M4 and M5 MacBook Air chips, using the full 40Gbps Thunderbolt connection rather than a slower USB-C Alt Mode link. A certified controller means it should reliably drive a 4K display or a single 6K panel without the compatibility gaps that come with uncertified chipsets.\n\nA 100W charging spec sounds like overkill for a 45W laptop, but that extra headroom goes toward charging an iPad or iPhone through the dock's other ports while the Air itself charges. Six USB ports, SD, and Ethernet round it out for a genuinely full desk setup.",
+      "This is a Thunderbolt-certified dock built around the newer M4 and M5 MacBook Air chips, using the full 40Gbps Thunderbolt connection rather than a slower USB-C Alt Mode link. A certified controller means it should reliably drive a 4K display or a single 6K panel without the compatibility gaps that come with uncertified chipsets.\n\nA 100W charging spec sounds like overkill for a 45W laptop, but that extra headroom goes toward charging an iPad or iPhone through the dock's other ports while the Air itself charges. Six USB ports, SD, and Ethernet round it out for a genuinely full desk setup.\n\nWorth knowing before you decide: Single 6K display support for M4/M5 Air. On the other side, Overkill wattage for a 45W MacBook Air. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "Thunderbolt 4 certified, 40Gbps",
       "4K HDMI dual monitor or single 6K",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31+9spHrv7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G7C8Q9FX?tag=deskfinds0d-20",
     description:
-      "The TobenONE targets Air owners who need two external displays right now, not just one, using a DisplayLink chip to push a second 4K@60Hz signal past the chip's native single-display limit. Its 150W power adapter covers the Air's charging needs with plenty left over for downstream devices.\n\n2.5G Ethernet and 10Gbps USB-C data give it faster wired networking than most docks in this price range, and a 7-port USB spread plus SD 4.0 reader means card offloading and peripherals don't compete for the same connection.",
+      "The TobenONE targets Air owners who need two external displays right now, not just one, using a DisplayLink chip to push a second 4K@60Hz signal past the chip's native single-display limit. Its 150W power adapter covers the Air's charging needs with plenty left over for downstream devices.\n\n2.5G Ethernet and 10Gbps USB-C data give it faster wired networking than most docks in this price range, and a 7-port USB spread plus SD 4.0 reader means card offloading and peripherals don't compete for the same connection.\n\nWorth knowing before you decide: 2.5G Ethernet, faster than standard gigabit. On the other side, DisplayLink displays are not suitable for color-critical editing. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "4K@60Hz HDMI and USB-C dual display",
       "150W power adapter",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415xnkJZznL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLXBNVJ5?tag=deskfinds0d-20",
     description:
-      "PULWTOP delivers the same DisplayLink dual-4K@60Hz functionality as pricier docks at under $70, making it the budget entry point for Air owners who specifically need two external displays. Dual HDMI outputs cover most desk monitor setups without needing DisplayPort adapters.\n\nUSB-A and USB-C data run at 10Gbps, and an SD/TF combo slot handles memory cards directly. It's a straightforward pick for anyone prioritizing dual-display function over premium build extras.",
+      "PULWTOP delivers the same DisplayLink dual-4K@60Hz functionality as pricier docks at under $70, making it the budget entry point for Air owners who specifically need two external displays. Dual HDMI outputs cover most desk monitor setups without needing DisplayPort adapters.\n\nUSB-A and USB-C data run at 10Gbps, and an SD/TF combo slot handles memory cards directly. It's a straightforward pick for anyone prioritizing dual-display function over premium build extras.\n\nWorth knowing before you decide: Dual HDMI covers common desk monitor pairs. On the other side, DisplayLink adds CPU load versus native Thunderbolt output. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "Dual HDMI, 4K@60Hz",
       "10Gbps USB-A/C data",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41aaaej1RPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GF7XFTWQ?tag=deskfinds0d-20",
     description:
-      "This 17-port TobenONE covers the wider M1 through M5 Mac range with the same dual-4K DisplayLink approach, backed by a 150W charger that comfortably covers the Air's 30-45W charging needs with room to spare for downstream USB devices.\n\n2.5G Ethernet again outpaces standard gigabit for anyone moving large files to a NAS or file server, and 7 USB ports at up to 10Gbps keep peripherals from bottlenecking on a shared bus. It's built for a shared home office or studio where more than one MacBook generation passes through the same desk.",
+      "This 17-port TobenONE covers the wider M1 through M5 Mac range with the same dual-4K DisplayLink approach, backed by a 150W charger that comfortably covers the Air's 30-45W charging needs with room to spare for downstream USB devices.\n\n2.5G Ethernet again outpaces standard gigabit for anyone moving large files to a NAS or file server, and 7 USB ports at up to 10Gbps keep peripherals from bottlenecking on a shared bus. It's built for a shared home office or studio where more than one MacBook generation passes through the same desk.\n\nWorth knowing before you decide: 150W charger with peripheral headroom. On the other side, DisplayLink limitation applies to color-critical work. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "Dual 4K monitor support",
       "150W charger included",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31+VC96D8wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09XH3PD25?tag=deskfinds0d-20",
     description:
-      "Anker's DL6350 pushes past dual displays into true triple-monitor territory, a genuine DisplayLink accomplishment for any MacBook Air chip generation, since no Air natively drives three displays. Dual HDMI plus DisplayPort output gives flexibility for mixed monitor setups.\n\nAt 10 total ports, it covers most desk accessories on one connection, and Anker's driver support has a longer track record than newer market entrants, which matters given DisplayLink drivers occasionally lag behind macOS updates.",
+      "Anker's DL6350 pushes past dual displays into true triple-monitor territory, a genuine DisplayLink accomplishment for any MacBook Air chip generation, since no Air natively drives three displays. Dual HDMI plus DisplayPort output gives flexibility for mixed monitor setups.\n\nAt 10 total ports, it covers most desk accessories on one connection, and Anker's driver support has a longer track record than newer market entrants, which matters given DisplayLink drivers occasionally lag behind macOS updates.\n\nWorth knowing before you decide: Mixed HDMI/DisplayPort outputs add flexibility. On the other side, Most expensive pick in this list. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "Triple display via DisplayLink",
       "Dual HDMI + DisplayPort",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41jaFGKHJgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874M3KW4?tag=deskfinds0d-20",
     description:
-      "Anker's 8-in-1 hub covers dual 4K HDMI output at a genuinely budget price, an easy entry point for Air owners who mainly want two monitors and a handful of extra ports without paying for Thunderbolt certification or triple-display support they won't use.\n\nAn 85W power delivery rating comfortably exceeds the Air's 45W charging requirement, and a built-in SD card reader plus gigabit Ethernet round out the essentials. Note the charger itself isn't included, so budget for that separately if you don't already have a compatible USB-C PD adapter.",
+      "Anker's 8-in-1 hub covers dual 4K HDMI output at a genuinely budget price, an easy entry point for Air owners who mainly want two monitors and a handful of extra ports without paying for Thunderbolt certification or triple-display support they won't use.\n\nAn 85W power delivery rating comfortably exceeds the Air's 45W charging requirement, and a built-in SD card reader plus gigabit Ethernet round out the essentials. Note the charger itself isn't included, so budget for that separately if you don't already have a compatible USB-C PD adapter.\n\nWorth knowing before you decide: 85W PD comfortably covers Air charging needs. On the other side, Power adapter sold separately. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "Dual HDMI, 4K support",
       "85W Power Delivery",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Gpx+DZnSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FFS34WRY?tag=deskfinds0d-20",
     description:
-      "WAVLINK's 13-in-1 dock supports dual displays up to 5K, ahead of the 4K ceiling most competitors in this list top out at, and offers both HDMI and DisplayPort outputs so mixed-monitor setups don't need extra adapters. It covers M1 through M4 Mac chips as well as Windows laptops.\n\nA 130W power delivery rating gives real headroom over the Air's charging draw, useful if you're also charging accessories through the dock, and 5 USB ports plus audio keep peripheral connections from being an afterthought.",
+      "WAVLINK's 13-in-1 dock supports dual displays up to 5K, ahead of the 4K ceiling most competitors in this list top out at, and offers both HDMI and DisplayPort outputs so mixed-monitor setups don't need extra adapters. It covers M1 through M4 Mac chips as well as Windows laptops.\n\nA 130W power delivery rating gives real headroom over the Air's charging draw, useful if you're also charging accessories through the dock, and 5 USB ports plus audio keep peripheral connections from being an afterthought.\n\nWorth knowing before you decide: Mixed HDMI/DisplayPort outputs for flexible monitor pairing. On the other side, DisplayLink compression still applies at 5K. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "Dual 5K/4K@60Hz via DisplayLink",
       "2x HDMI, 2x DP outputs",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41HZ73O5J4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXDQS4BD?tag=deskfinds0d-20",
     description:
-      "UGREEN's Revodok Pro 210 is the smallest and cheapest pick in this list, a straightforward 10-in-1 hub covering dual HDMI up to 4K@60Hz or a single 8K@30Hz display for Air owners who mostly need one extra monitor and basic connectivity. This is a USB-C hub, not a Thunderbolt dock, so it uses Alt Mode display output rather than TB4 bandwidth.\n\n100W PD keeps the Air charging at full speed, and a 5Gbps data rate covers everyday file transfers even if it falls short of Thunderbolt speeds. Its small footprint makes it the easiest pick to keep in a bag for travel.",
+      "UGREEN's Revodok Pro 210 is the smallest and cheapest pick in this list, a straightforward 10-in-1 hub covering dual HDMI up to 4K@60Hz or a single 8K@30Hz display for Air owners who mostly need one extra monitor and basic connectivity. This is a USB-C hub, not a Thunderbolt dock, so it uses Alt Mode display output rather than TB4 bandwidth.\n\n100W PD keeps the Air charging at full speed, and a 5Gbps data rate covers everyday file transfers even if it falls short of Thunderbolt speeds. Its small footprint makes it the easiest pick to keep in a bag for travel.\n\nWorth knowing before you decide: Compact size ideal for travel or a small desk. On the other side, USB-C Alt Mode output, not Thunderbolt bandwidth. That's the main tradeoff to weigh against your specific needs.",
     specs: [
       "Dual HDMI 4K@60Hz or single 8K@30Hz",
       "100W Power Delivery",

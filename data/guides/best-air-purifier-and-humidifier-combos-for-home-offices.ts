@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41p66KxYQ6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1QNCRFH?tag=deskfinds0d-20",
     description:
-      "A genuine dual-function design with a solid review base, appropriate for a home office wanting both particulate filtration and humidity control from a single footprint.\n\nA combo unit means two separate maintenance schedules in one device, not half the upkeep, budget time for both filter replacement and regular water tank cleaning.",
+      "A genuine dual-function design with a solid review base, appropriate for a home office wanting both particulate filtration and humidity control from a single footprint.\n\nA combo unit means two separate maintenance schedules in one device, not half the upkeep, budget time for both filter replacement and regular water tank cleaning.\n\nWorth knowing before you decide: Genuine dual-function design in one footprint. On the other side, Two separate maintenance schedules, not less upkeep than two units. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Combined air purifier and humidifier", "Solid review base", "Single footprint for both functions", "Reasonable price"],
     pros: ["Solid review base for a combo category", "Genuine dual-function design in one footprint", "Reasonable price for combined features", "Good fit for a home office wanting both functions"],
     cons: ["Two separate maintenance schedules, not less upkeep than two units", "Smaller review base than a dedicated single-function purifier", "Water tank needs regular cleaning to avoid mold growth"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/413ztUazlCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CYHBHRHW?tag=deskfinds0d-20",
     description:
-      "A larger review base than the bedroom-specific variant at a lower price, a genuinely proven combo option for a home office on a moderate budget.\n\nA neglected water tank can become a source of mold that the same unit's purifier side then has to filter back out, treat tank cleaning as non-negotiable rather than optional the way filter changes can sometimes be stretched.",
+      "A larger review base than the bedroom-specific variant at a lower price, a genuinely proven combo option for a home office on a moderate budget.\n\nA neglected water tank can become a source of mold that the same unit's purifier side then has to filter back out, treat tank cleaning as non-negotiable rather than optional the way filter changes can sometimes be stretched.\n\nWorth knowing before you decide: Lower price for combined features. On the other side, Water tank cleaning is non-negotiable maintenance, not optional. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Combined air purifier and humidifier", "Larger review base than similar variant", "Lower price", "Single footprint"],
     pros: ["Larger review base than the bedroom-specific variant", "Lower price for combined features", "Genuine dual-function design", "Good value for a home office combo"],
     cons: ["Water tank cleaning is non-negotiable maintenance, not optional", "Two separate maintenance schedules to track", "Smaller footprint may limit humidifier tank capacity"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41LumZk9dtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B92W3QYY?tag=deskfinds0d-20",
     description:
-      "A 4-in-1 design adding functions beyond just filtration and humidification, appropriate for a buyer wanting the most consolidated single-device solution despite the higher price.\n\nMore functions in one device mean more individual components to maintain, not a shortcut around the two-schedule reality of filter replacement and tank cleaning.",
+      "A 4-in-1 design adding functions beyond just filtration and humidification, appropriate for a buyer wanting the most consolidated single-device solution despite the higher price.\n\nMore functions in one device mean more individual components to maintain, not a shortcut around the two-schedule reality of filter replacement and tank cleaning.\n\nWorth knowing before you decide: Solid review base for a specialty combo category. On the other side, Highest price in this guide. That's the main tradeoff to weigh against your specific needs.",
     specs: ["4-in-1 combined functions", "Solid review base", "Higher price for consolidated features", "Multi-function design"],
     pros: ["Most consolidated multi-function design in this guide", "Solid review base for a specialty combo category", "Single device replaces multiple appliances", "Good for buyers prioritizing consolidation"],
     cons: ["Highest price in this guide", "More individual components to maintain, not less overall upkeep", "Lower average rating than simpler combo picks"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41R+N2t3vlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DG3PS4FY?tag=deskfinds0d-20",
     description:
-      "A mid-range combo option from an established air-quality brand, appropriate for a home office wanting a recognized name in the combo category specifically.\n\nCheck the water tank capacity and stated cleaning interval before buying, larger tanks mean less frequent refilling but the same non-negotiable cleaning cadence.",
+      "A mid-range combo option from an established air-quality brand, appropriate for a home office wanting a recognized name in the combo category specifically.\n\nCheck the water tank capacity and stated cleaning interval before buying, larger tanks mean less frequent refilling but the same non-negotiable cleaning cadence.\n\nWorth knowing before you decide: Mid-range price for combined features. On the other side, Lower average rating than the top picks in this guide. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Combined air purifier and humidifier", "Established brand in air quality category", "Mid-range price", "Solid review base for a combo unit"],
     pros: ["Established brand track record in air-quality category", "Mid-range price for combined features", "Reasonable review base for a combo unit", "Genuine dual-function design"],
     cons: ["Lower average rating than the top picks in this guide", "Two separate maintenance schedules to track", "Not the largest review base in this guide"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/418o1rKD45L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DPXVHFSB?tag=deskfinds0d-20",
     description:
-      "An accessible price point for a combo unit from a well-known home-goods brand, a reasonable entry option for a home office trying the combo category for the first time.\n\nThe lower average rating here suggests weighing this against the higher-rated picks in this guide, particularly if reliability over time is your priority.",
+      "An accessible price point for a combo unit from a well-known home-goods brand, a reasonable entry option for a home office trying the combo category for the first time.\n\nThe lower average rating here suggests weighing this against the higher-rated picks in this guide, particularly if reliability over time is your priority.\n\nWorth knowing before you decide: Recognized home-goods brand. On the other side, Lower average rating than other picks in this guide. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Combined air purifier and humidifier", "Accessible price point", "Recognized home-goods brand", "Single footprint"],
     pros: ["Accessible price for a combo unit", "Recognized home-goods brand", "Single footprint for both functions", "Reasonable entry point into the combo category"],
     cons: ["Lower average rating than other picks in this guide", "Two separate maintenance schedules to track", "Smaller review base than the top combo picks"],

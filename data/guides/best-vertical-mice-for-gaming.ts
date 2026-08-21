@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41XVdqDE3aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9PDRYZK?tag=deskfinds0d-20",
     description:
-      "One of the few vertical mice explicitly designed and marketed for gaming, with a 2400 DPI sensor and a 5D rocker button for extra in-game controls beyond a standard vertical mouse's layout.\n\nIts 2400 DPI ceiling is modest next to dedicated gaming mice that often exceed 16000 DPI, so buyers doing fast-flick FPS play should temper expectations, while slower-paced genres are less demanding on raw sensor ceiling.",
+      "One of the few vertical mice explicitly designed and marketed for gaming, with a 2400 DPI sensor and a 5D rocker button for extra in-game controls beyond a standard vertical mouse's layout.\n\nIts 2400 DPI ceiling is modest next to dedicated gaming mice that often exceed 16000 DPI, so buyers doing fast-flick FPS play should temper expectations, while slower-paced genres are less demanding on raw sensor ceiling.\n\nWorth knowing before you decide: 5D rocker adds a genuinely extra control input. On the other side, 2400 DPI ceiling is modest compared to dedicated gaming mice. That's the main tradeoff to weigh against your specific needs.",
     specs: ["2400 DPI sensor", "5D rocker button for extra controls", "Wireless connectivity", "Small review sample"],
     pros: ["Explicitly gaming-marketed vertical design, not a repurposed office mouse", "5D rocker adds a genuinely extra control input", "Budget-friendly price for a gaming-focused vertical mouse", "Wireless connectivity"],
     cons: ["2400 DPI ceiling is modest compared to dedicated gaming mice", "Small review sample size, verify current buyer feedback", "Fixed weight, no adjustable weight system"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31z5JT0yL+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BIFNTMC?tag=deskfinds0d-20",
     description:
-      "Not marketed as a gaming mouse, but its large review base and low price make it a reasonable crossover pick for buyers who mostly want an ergonomic mouse and only occasionally play less demanding games.\n\nIts sensor and button count are built for office use, not fast lateral FPS movement, so treat this as a general-use mouse that happens to work for casual gaming rather than a genuine gaming product.",
+      "Not marketed as a gaming mouse, but its large review base and low price make it a reasonable crossover pick for buyers who mostly want an ergonomic mouse and only occasionally play less demanding games.\n\nIts sensor and button count are built for office use, not fast lateral FPS movement, so treat this as a general-use mouse that happens to work for casual gaming rather than a genuine gaming product.\n\nWorth knowing before you decide: Large review base for general reliability. On the other side, Not designed or marketed for gaming, sensor quality is unverified for fast play. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Office-grade sensor", "2.4GHz wireless receiver", "Right-hand specific", "Budget price point"],
     pros: ["Very low price if gaming is a secondary use case", "Large review base for general reliability", "Moderate tilt eases the adjustment period", "Simple setup"],
     cons: ["Not designed or marketed for gaming, sensor quality is unverified for fast play", "No adjustable weight or RGB customization", "Limited button count for complex game genres"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31Ig2YzI5iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07FNJB8TT?tag=deskfinds0d-20",
     description:
-      "Also not marketed as a gaming mouse, but its programmable buttons and companion software can be remapped for game shortcuts, which suits slower-paced MMO or strategy genres more than fast FPS play.\n\nCheck buyer feedback specifically for gaming use before relying on this for competitive play, since Logitech's gaming-specific mouse lines are a separate product family with different sensors.",
+      "Also not marketed as a gaming mouse, but its programmable buttons and companion software can be remapped for game shortcuts, which suits slower-paced MMO or strategy genres more than fast FPS play.\n\nCheck buyer feedback specifically for gaming use before relying on this for competitive play, since Logitech's gaming-specific mouse lines are a separate product family with different sensors.\n\nWorth knowing before you decide: Strong general review base. On the other side, Not a dedicated gaming sensor or DPI ceiling. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Programmable buttons via companion software", "Dual 2.4GHz and Bluetooth", "Not a dedicated gaming sensor", "Premium price"],
     pros: ["Programmable buttons remappable for game shortcuts", "Strong general review base", "Comfortable for long non-competitive play sessions", "Dual connectivity"],
     cons: ["Not a dedicated gaming sensor or DPI ceiling", "Premium price if gaming is your primary use case", "No adjustable weight or RGB"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31vAjZuq+pL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CMC1F5WB?tag=deskfinds0d-20",
     description:
-      "A 6400 DPI sensor is a genuinely higher ceiling than most vertical mice in this guide, and the wired connection avoids any wireless input latency, both relevant for gaming even though this isn't marketed as a gaming product.\n\nIt lacks gaming-specific extras like RGB or macro software, so it suits buyers who prioritize sensor responsiveness over dedicated gaming features.",
+      "A 6400 DPI sensor is a genuinely higher ceiling than most vertical mice in this guide, and the wired connection avoids any wireless input latency, both relevant for gaming even though this isn't marketed as a gaming product.\n\nIt lacks gaming-specific extras like RGB or macro software, so it suits buyers who prioritize sensor responsiveness over dedicated gaming features.\n\nWorth knowing before you decide: Wired connection avoids wireless latency concerns. On the other side, Not marketed or designed specifically for gaming. That's the main tradeoff to weigh against your specific needs.",
     specs: ["6400 DPI sensor", "Wired USB connection", "Adjustable DPI levels", "Budget price point"],
     pros: ["Higher DPI ceiling than most picks in this guide", "Wired connection avoids wireless latency concerns", "Strong review rating at a low price", "Adjustable DPI switch"],
     cons: ["Not marketed or designed specifically for gaming", "No RGB, macro software, or adjustable weight", "Basic button count for complex genres"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31fim6uc3BL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0894QX7SK?tag=deskfinds0d-20",
     description:
-      "A genuinely gaming-oriented design with a 10000 DPI sensor, the highest ceiling in this guide, plus a built-in joystick and 11 programmable buttons that suit MMO or strategy genres needing many shortcuts.\n\nIts vertical tilt is less pronounced than the dedicated ergonomic picks in this guide, so it leans more toward a gaming mouse with vertical-leaning shape than a full ergonomic design.",
+      "A genuinely gaming-oriented design with a 10000 DPI sensor, the highest ceiling in this guide, plus a built-in joystick and 11 programmable buttons that suit MMO or strategy genres needing many shortcuts.\n\nIts vertical tilt is less pronounced than the dedicated ergonomic picks in this guide, so it leans more toward a gaming mouse with vertical-leaning shape than a full ergonomic design.\n\nWorth knowing before you decide: Joystick control is a genuinely unique input for gaming. On the other side, Less pronounced vertical tilt than dedicated ergonomic picks. That's the main tradeoff to weigh against your specific needs.",
     specs: ["10000 DPI sensor", "Built-in joystick control", "11 programmable buttons", "Wired USB connection"],
     pros: ["Highest DPI ceiling in this guide", "Joystick control is a genuinely unique input for gaming", "11 programmable buttons suit MMO or strategy genres", "Wired connection avoids latency concerns"],
     cons: ["Less pronounced vertical tilt than dedicated ergonomic picks", "Not marketed as a purely ergonomic vertical mouse", "Smaller review sample than the top picks"],
@@ -116,7 +116,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41DVlxxe4WL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DVD5RTZ5?tag=deskfinds0d-20",
     description:
-      "From an established gaming brand, this pairs a 6-button ergonomic vertical body with wireless connectivity, useful for gaming-adjacent buyers who want brand-name software support for remapping.\n\nIts smaller review sample and more moderate 4.0-star rating are worth weighing against the premium price, and its sensor is not positioned as a top-tier competitive gaming sensor despite the brand name.",
+      "From an established gaming brand, this pairs a 6-button ergonomic vertical body with wireless connectivity, useful for gaming-adjacent buyers who want brand-name software support for remapping.\n\nIts smaller review sample and more moderate 4.0-star rating are worth weighing against the premium price, and its sensor is not positioned as a top-tier competitive gaming sensor despite the brand name.\n\nWorth knowing before you decide: 6 programmable buttons for remapping. On the other side, Smaller review base and more moderate 4.0-star rating. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Wireless connectivity", "6 programmable buttons", "Rechargeable battery", "Premium price point"],
     pros: ["Established gaming brand with software support", "6 programmable buttons for remapping", "Rechargeable battery", "Ergonomic vertical body"],
     cons: ["Smaller review base and more moderate 4.0-star rating", "Premium price relative to its rating", "Sensor not positioned as top-tier for competitive play"],

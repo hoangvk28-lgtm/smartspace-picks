@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
-      "Explicitly marketed for smoke with by far the largest review base of any pick here as real-world evidence, True HEPA H13 captures fine smoke particulate at 99.97%.\n\nA HEPA-only design removes visible particulate but does little for lingering smell without a substantial carbon stage, check whether persistent odor is your bigger concern than particulate.",
+      "Explicitly marketed for smoke with by far the largest review base of any pick here as real-world evidence, True HEPA H13 captures fine smoke particulate at 99.97%.\n\nA HEPA-only design removes visible particulate but does little for lingering smell without a substantial carbon stage, check whether persistent odor is your bigger concern than particulate.\n\nWorth knowing before you decide: By far the largest review base of any pick here. On the other side, Standard carbon layer, not the deepest odor-control pick here. That's the main tradeoff to weigh against your specific needs.",
     specs: ["True HEPA H13, marketed for smoke", "24dB quoted noise level", "Removes 99.97% of particulates", "Largest review base in this guide"],
     pros: ["Explicitly marketed and reviewed for smoke", "By far the largest review base of any pick here", "Certified True HEPA H13 filtration", "Affordable price"],
     cons: ["Standard carbon layer, not the deepest odor-control pick here", "No smart app control", "Smoke-specific CADR not separately published"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Wb8TGSnPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT4F8T4L?tag=deskfinds0d-20",
     description:
-      "PlasmaWave technology adds a genuine odor-neutralizing layer beyond mechanical carbon filtration alone, meaningful for lingering smoke smell rather than just particulate removal.\n\nActivated carbon mass, not HEPA alone, is what actually captures smoke odor at the molecular level, this unit's added PlasmaWave layer complements that mechanical carbon stage.",
+      "PlasmaWave technology adds a genuine odor-neutralizing layer beyond mechanical carbon filtration alone, meaningful for lingering smoke smell rather than just particulate removal.\n\nActivated carbon mass, not HEPA alone, is what actually captures smoke odor at the molecular level, this unit's added PlasmaWave layer complements that mechanical carbon stage.\n\nWorth knowing before you decide: Large, well-established review base. On the other side, Higher price than the top pick. That's the main tradeoff to weigh against your specific needs.",
     specs: ["PlasmaWave odor-neutralizing technology", "Large, established review base", "True HEPA filtration", "Multi-stage filtration"],
     pros: ["PlasmaWave specifically targets lingering smoke odor", "Large, well-established review base", "True HEPA captures fine smoke particulate too", "Proven, established design"],
     cons: ["Higher price than the top pick", "Larger footprint than compact alternatives", "Carbon and plasma stages still saturate and need periodic filter replacement"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31CulL9tCOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08K3R8QPF?tag=deskfinds0d-20",
     description:
-      "A multi-stage design with a substantial carbon mass genuinely built for heavier smoke exposure, appropriate for a wildfire-smoke season or a heavy indoor-smoking household.\n\nThe higher price reflects genuinely more carbon mass and filtration stages than a standard HEPA-only unit, worth it for a heavier or more persistent smoke exposure scenario.",
+      "A multi-stage design with a substantial carbon mass genuinely built for heavier smoke exposure, appropriate for a wildfire-smoke season or a heavy indoor-smoking household.\n\nThe higher price reflects genuinely more carbon mass and filtration stages than a standard HEPA-only unit, worth it for a heavier or more persistent smoke exposure scenario.\n\nWorth knowing before you decide: Multi-stage filtration for both particulate and odor. On the other side, Highest price in this guide by a wide margin. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Multi-stage filtration with substantial carbon mass", "Smart app control", "5-stage filtration system", "Higher capacity for heavy smoke exposure"],
     pros: ["Substantial carbon mass genuinely built for heavy smoke odor", "Multi-stage filtration for both particulate and odor", "Smart app control for monitoring", "Higher capacity for wildfire-season or heavy indoor smoke"],
     cons: ["Highest price in this guide by a wide margin", "Smaller review base than budget alternatives", "Overkill for occasional light smoke exposure"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/316AtkHoSdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004VGIGVY?tag=deskfinds0d-20",
     description:
-      "A large review base at the lowest price in this guide, genuinely capable for occasional light smoke exposure rather than heavy or persistent smoke odor.\n\nOccasional light exposure is a reasonable fit here, a heavier or more persistent smoke scenario likely needs one of the deeper-carbon picks in this guide instead.",
+      "A large review base at the lowest price in this guide, genuinely capable for occasional light smoke exposure rather than heavy or persistent smoke odor.\n\nOccasional light exposure is a reasonable fit here, a heavier or more persistent smoke scenario likely needs one of the deeper-carbon picks in this guide instead.\n\nWorth knowing before you decide: Large, well-established review base. On the other side, Not built for heavy or persistent smoke odor. That's the main tradeoff to weigh against your specific needs.",
     specs: ["True HEPA filtration", "Large review base", "Budget-friendly", "Compact design"],
     pros: ["Lowest price in this guide", "Large, well-established review base", "True HEPA captures fine smoke particulate", "Compact footprint"],
     cons: ["Not built for heavy or persistent smoke odor", "Standard carbon layer, saturates faster under heavy smoke load", "Fewer smart features than premium alternatives"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
-      "Rated up to 1875 sq ft with smart app control, genuine headroom for a larger room affected by smoke where the smoke-specific CADR runs lower than the general dust or pollen number.\n\nSize up from a standard-capacity unit for a larger affected room, since a general CADR rating overstates real smoke-clearing speed for that specific space.",
+      "Rated up to 1875 sq ft with smart app control, genuine headroom for a larger room affected by smoke where the smoke-specific CADR runs lower than the general dust or pollen number.\n\nSize up from a standard-capacity unit for a larger affected room, since a general CADR rating overstates real smoke-clearing speed for that specific space.\n\nWorth knowing before you decide: Smart app control for monitoring. On the other side, Higher price than budget alternatives. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Up to 1875 sq ft rated (open room)", "Smart app control", "Large review base", "Extra headroom for larger smoke-affected rooms"],
     pros: ["Large rated coverage compensates for lower smoke-specific CADR", "Smart app control for monitoring", "Large, well-established review base", "Genuine headroom for a larger room"],
     cons: ["Higher price than budget alternatives", "Larger footprint than compact picks", "Smoke-specific CADR not separately published, sizing up is still the safest approach"],

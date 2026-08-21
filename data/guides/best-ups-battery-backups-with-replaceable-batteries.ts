@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31rIE-toOYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08GRY1W93?tag=deskfinds0d-20",
     description:
-      "Uses the widely available APCRBC163 replacement battery, a standard part sold directly by APC and third parties, meaning genuine long-term cost savings rather than a proprietary cell that erodes the replaceable-battery value proposition. Front USB ports let you charge devices without tapping a protected outlet.\n\nAs a lead-acid design, budget for battery replacement roughly every 3-5 years regardless of how often outages actually occur, this is normal wear, not a defect.",
+      "Uses the widely available APCRBC163 replacement battery, a standard part sold directly by APC and third parties, meaning genuine long-term cost savings rather than a proprietary cell that erodes the replaceable-battery value proposition. Front USB ports let you charge devices without tapping a protected outlet.\n\nAs a lead-acid design, budget for battery replacement roughly every 3-5 years regardless of how often outages actually occur, this is normal wear, not a defect.\n\nWorth knowing before you decide: Genuine long-term cost savings versus proprietary replacement cells. On the other side, Lead-acid battery still needs replacement every 3-5 years regardless of outage frequency. That's the main tradeoff to weigh against your specific needs.",
     specs: ["1500VA/900W, pure sine wave", "User-replaceable APCRBC163 battery", "Widely available standard replacement part", "3-Year warranty"],
     pros: ["Standard, widely available replacement battery part number", "Genuine long-term cost savings versus proprietary replacement cells", "Pure sine wave, APFC compatible", "Strong review base"],
     cons: ["Lead-acid battery still needs replacement every 3-5 years regardless of outage frequency", "Higher upfront price than simpler picks", "Larger footprint"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31p-5+FvTgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06VY6FXMM?tag=deskfinds0d-20",
     description:
-      "The largest review base in this guide, and APC's BX series uses standard, widely stocked replacement battery cartridges rather than a proprietary part, genuinely lowering your long-term ownership cost compared to units that lock you into an expensive branded replacement.\n\nStill a lead-acid design, so plan on a replacement cell every 3-5 years as normal wear, the standard part pricing makes that recurring cost predictable rather than punishing.",
+      "The largest review base in this guide, and APC's BX series uses standard, widely stocked replacement battery cartridges rather than a proprietary part, genuinely lowering your long-term ownership cost compared to units that lock you into an expensive branded replacement.\n\nStill a lead-acid design, so plan on a replacement cell every 3-5 years as normal wear, the standard part pricing makes that recurring cost predictable rather than punishing.\n\nWorth knowing before you decide: Standard, affordable replacement battery cartridge. On the other side, Not pure sine wave. That's the main tradeoff to weigh against your specific needs.",
     specs: ["1500VA/900W", "Standard replaceable battery cartridge", "AVR included", "Widely available replacement part"],
     pros: ["Largest review base of any pick in this guide", "Standard, affordable replacement battery cartridge", "AVR included, extends time between battery swaps", "Strong reliability track record"],
     cons: ["Not pure sine wave", "Lead-acid battery still ages out every 3-5 years", "Bulkier than compact battery-only models"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31VPmugfqML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06VY12HW4?tag=deskfinds0d-20",
     description:
-      "Same standard, widely available replacement battery approach as its 1500VA sibling, at a lower capacity appropriate for a single-PC setup. Genuine long-term cost predictability rather than a proprietary lock-in cell.\n\nAs with every lead-acid pick in this guide, expect to budget for a replacement cell roughly every 3-5 years as normal age-related wear.",
+      "Same standard, widely available replacement battery approach as its 1500VA sibling, at a lower capacity appropriate for a single-PC setup. Genuine long-term cost predictability rather than a proprietary lock-in cell.\n\nAs with every lead-acid pick in this guide, expect to budget for a replacement cell roughly every 3-5 years as normal age-related wear.\n\nWorth knowing before you decide: Appropriately sized for a single-PC setup. On the other side, Lower capacity than the 1500VA picks. That's the main tradeoff to weigh against your specific needs.",
     specs: ["1000VA/600W", "Standard replaceable battery", "AVR included", "Office electronics rated"],
     pros: ["Standard, affordable replacement battery part", "Appropriately sized for a single-PC setup", "AVR included", "Solid rating base"],
     cons: ["Lower capacity than the 1500VA picks", "Lead-acid battery still needs periodic replacement", "Not pure sine wave"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31xnh5VoQ4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06WP9Q8ZN?tag=deskfinds0d-20",
     description:
-      "A compact, lower-capacity option that still uses APC's standard replaceable battery cartridge design, a genuinely lower upfront price without sacrificing the long-term replacement-cost predictability that makes replaceable-battery UPS units worth choosing over sealed alternatives.\n\nAppropriately sized for a modest single-device setup rather than a full desktop with multiple peripherals.",
+      "A compact, lower-capacity option that still uses APC's standard replaceable battery cartridge design, a genuinely lower upfront price without sacrificing the long-term replacement-cost predictability that makes replaceable-battery UPS units worth choosing over sealed alternatives.\n\nAppropriately sized for a modest single-device setup rather than a full desktop with multiple peripherals.\n\nWorth knowing before you decide: Compact footprint. On the other side, Lower capacity, not for a full multi-device desktop. That's the main tradeoff to weigh against your specific needs.",
     specs: ["850VA/510W", "Standard replaceable battery", "AVR included", "Compact form factor"],
     pros: ["Standard replacement battery part, predictable long-term cost", "Compact footprint", "Good rating base", "Lower upfront price than the 1000VA+ picks"],
     cons: ["Lower capacity, not for a full multi-device desktop", "Lead-acid battery still ages out on a normal 3-5 year cycle", "Shorter runtime under real load"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31pgnLVo0dL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B005GZRUZW?tag=deskfinds0d-20",
     description:
-      "A large review base at a genuinely budget-friendly price, and still built around APC's standard replaceable battery design rather than a sealed unit you'd have to fully replace once the battery ages out.\n\nAppropriately sized for a PC or small NAS device rather than a full desktop setup, the tradeoff for the lower capacity and price.",
+      "A large review base at a genuinely budget-friendly price, and still built around APC's standard replaceable battery design rather than a sealed unit you'd have to fully replace once the battery ages out.\n\nAppropriately sized for a PC or small NAS device rather than a full desktop setup, the tradeoff for the lower capacity and price.\n\nWorth knowing before you decide: Genuinely affordable while keeping a standard replaceable battery. On the other side, Lowest capacity among the higher-rated picks here. That's the main tradeoff to weigh against your specific needs.",
     specs: ["650VA/390W", "Standard replaceable battery", "Surge protection for PC/NAS", "Budget-friendly"],
     pros: ["Large, well-established review base", "Genuinely affordable while keeping a standard replaceable battery", "Good fit for a PC or small NAS device", "High rating for the price tier"],
     cons: ["Lowest capacity among the higher-rated picks here", "Not suited to a full multi-device desktop", "Lead-acid battery still needs periodic replacement"],
@@ -116,7 +116,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41h0sXfkrSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01FWAZEIU?tag=deskfinds0d-20",
     description:
-      "By far the largest review base across every UPS product in this entire batch, remarkably strong real-world evidence at the lowest price point in this guide. Still built around a standard replaceable battery, keeping long-term ownership cost predictable.\n\nEntry-level capacity, genuinely suited to a computer, router, or NAS rather than a full desktop with multiple peripherals.",
+      "By far the largest review base across every UPS product in this entire batch, remarkably strong real-world evidence at the lowest price point in this guide. Still built around a standard replaceable battery, keeping long-term ownership cost predictable.\n\nEntry-level capacity, genuinely suited to a computer, router, or NAS rather than a full desktop with multiple peripherals.\n\nWorth knowing before you decide: Most affordable price here. On the other side, Lowest capacity in this guide. That's the main tradeoff to weigh against your specific needs.",
     specs: ["600VA/330W", "Standard replaceable battery", "Battery backup for computer, router, NAS", "Most affordable pick in this guide"],
     pros: ["Largest review base of any UPS across this entire batch of guides", "Most affordable price here", "Standard replaceable battery, predictable long-term cost", "Well-suited to computer, router, or NAS protection"],
     cons: ["Lowest capacity in this guide", "Not for a full multi-device desktop setup", "Lead-acid battery still needs periodic replacement"],

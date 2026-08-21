@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41u8VJ6j2gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DC99N2T8?tag=deskfinds0d-20",
     description:
-      "Two genuine 2.5G ports at a very affordable price, appropriate for buyers wanting the cost-effective middle wired tier without the expense of a full 10GbE setup.\n\nVerify your specific devices have 2.5GbE-capable adapters before expecting the upgrade to apply everywhere, since many laptops and desktops still ship with 1GbE-only adapters.",
+      "Two genuine 2.5G ports at a very affordable price, appropriate for buyers wanting the cost-effective middle wired tier without the expense of a full 10GbE setup.\n\nVerify your specific devices have 2.5GbE-capable adapters before expecting the upgrade to apply everywhere, since many laptops and desktops still ship with 1GbE-only adapters.\n\nWorth knowing before you decide: High 4.4-star rating with a large review base. On the other side, No 6GHz radio limits full Wi-Fi 7 wireless feature set. That's the main tradeoff to weigh against your specific needs.",
     specs: ["2x 2.5G ports + 3x 1G ports", "Dual-band, no 6GHz radio", "4-stream configuration", "USB 3.0 port"],
     pros: ["Very affordable entry into 2.5GbE wired capability", "High 4.4-star rating with a large review base", "Right-sized middle tier between 1GbE and full 10GbE", "Good match for fiber plans in the 1-2.5Gbps range"],
     cons: ["No 6GHz radio limits full Wi-Fi 7 wireless feature set", "Full 2.5GbE speed requires a matching adapter on the connected device", "Multiple 2.5GbE devices networked together still need a compatible switch"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41kg9-1bsvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DVBP5L6Y?tag=deskfinds0d-20",
     description:
-      "Dual 2.5Gbps ports allow dedicating one to WAN and one to a fast local device like a NAS, appropriate for buyers wanting more flexibility than a single 2.5G port setup.\n\nThis positions well for fiber plans in the 1-2.5Gbps range specifically, worth confirming your plan's actual speed against these ports rather than overpaying for a 10GbE router you won't fully use.",
+      "Dual 2.5Gbps ports allow dedicating one to WAN and one to a fast local device like a NAS, appropriate for buyers wanting more flexibility than a single 2.5G port setup.\n\nThis positions well for fiber plans in the 1-2.5Gbps range specifically, worth confirming your plan's actual speed against these ports rather than overpaying for a 10GbE router you won't fully use.\n\nWorth knowing before you decide: High 4.4-star rating with a large review base. On the other side, No 6GHz radio limits full Wi-Fi 7 wireless feature set. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Dual 2.5Gbps ports", "Dual-band, no 6GHz radio", "Covers up to 2,400 sq. ft.", "USB 3.0 port"],
     pros: ["Dual 2.5G ports for flexible WAN and local-device configuration", "High 4.4-star rating with a large review base", "Well matched to fiber plans in the 1-2.5Gbps range", "Reasonable mid-range price for the added port"],
     cons: ["No 6GHz radio limits full Wi-Fi 7 wireless feature set", "Full 2.5GbE speed still requires a matching adapter on the connected device", "Unnecessary if your fiber plan or devices don't reach 1Gbps already"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41EClf31jxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQP4DNNJ?tag=deskfinds0d-20",
     description:
-      "2x 2.5G wired backhaul ports let this mesh kit use a genuine wired connection between nodes rather than relying entirely on wireless backhaul, appropriate for buyers with existing in-wall wiring wanting the 2.5GbE middle tier across a whole-home mesh setup.\n\nWired 2.5GbE backhaul avoids the shared-bandwidth tradeoff wireless backhaul creates, a genuine reliability advantage over mesh kits without this option.",
+      "2x 2.5G wired backhaul ports let this mesh kit use a genuine wired connection between nodes rather than relying entirely on wireless backhaul, appropriate for buyers with existing in-wall wiring wanting the 2.5GbE middle tier across a whole-home mesh setup.\n\nWired 2.5GbE backhaul avoids the shared-bandwidth tradeoff wireless backhaul creates, a genuine reliability advantage over mesh kits without this option.\n\nWorth knowing before you decide: High 4.4-star rating with a solid review base. On the other side, Wired backhaul benefit only applies if you have existing in-wall wiring. That's the main tradeoff to weigh against your specific needs.",
     specs: ["2x 2.5G wired backhaul ports", "Dual-band mesh, 3-pack", "Covers up to 6,500 sq. ft.", "TP-Link Deco app"],
     pros: ["Wired 2.5GbE backhaul avoids the wireless bandwidth tradeoff entirely", "High 4.4-star rating with a solid review base", "Genuinely affordable for a 3-pack whole-home mesh kit", "2.5GbE middle tier across a whole-home mesh setup"],
     cons: ["Wired backhaul benefit only applies if you have existing in-wall wiring", "Dual-band design skips the 6GHz radio", "Full 2.5GbE speed still requires matching client-device adapters"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31cXnHQNtzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKVDZXSN?tag=deskfinds0d-20",
     description:
-      "A higher BE5000-rated Deco mesh system for buyers wanting more total capacity than the entry-tier Deco 7 BE23 while staying within the useful 2.5GbE wired tier rather than jumping to full 10GbE cost and complexity.\n\n240MHz channel width gives real wireless headroom for households with many simultaneous devices, pairing well with the 2.5GbE wired middle tier for a balanced whole-home setup.",
+      "A higher BE5000-rated Deco mesh system for buyers wanting more total capacity than the entry-tier Deco 7 BE23 while staying within the useful 2.5GbE wired tier rather than jumping to full 10GbE cost and complexity.\n\n240MHz channel width gives real wireless headroom for households with many simultaneous devices, pairing well with the 2.5GbE wired middle tier for a balanced whole-home setup.\n\nWorth knowing before you decide: Large review base with a high 4.4-star rating. On the other side, Higher price than the entry-tier Deco 7 BE23. That's the main tradeoff to weigh against your specific needs.",
     specs: ["Dual-band mesh with 2.5GbE-class ports", "BE5000 combined rating", "240MHz channel width", "4-stream configuration"],
     pros: ["Higher BE5000 rating gives more capacity than entry-tier mesh kits", "Large review base with a high 4.4-star rating", "240MHz channel width for real headroom with many devices", "Balanced middle-tier wired and wireless capacity"],
     cons: ["Higher price than the entry-tier Deco 7 BE23", "Dual-band design skips the 6GHz radio", "Full 2.5GbE speed still requires matching client-device adapters"],

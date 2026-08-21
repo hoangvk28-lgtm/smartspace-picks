@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41aNszeDMHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHP4N5T?tag=deskfinds0d-20",
     description:
-      "60 x 24 inches genuinely covers a standard desk width for real visual privacy from neighboring desks, and VIVO's clamp mechanism mounts securely without drilling. Verify your desk edge's thickness fits the clamp's stated range before ordering.\n\nSolid, consistent rating base across VIVO's whole clamp-on panel line, real evidence of reliable mounting hardware.",
+      "60 x 24 inches genuinely covers a standard desk width for real visual privacy from neighboring desks, and VIVO's clamp mechanism mounts securely without drilling. Verify your desk edge's thickness fits the clamp's stated range before ordering.\n\nSolid, consistent rating base across VIVO's whole clamp-on panel line, real evidence of reliable mounting hardware.\n\nWorth knowing before you decide: Secure clamp mount, no drilling or adhesive. On the other side, Verify desk edge thickness fits the clamp range before buying. That's the main tradeoff to weigh against your specific needs.",
     specs: ["60 x 24 inch panel", "Clamp-on mount, no drilling", "Gray finish", "No adhesive required"],
     pros: ["Full desk-width coverage for real privacy", "Secure clamp mount, no drilling or adhesive", "Solid, consistent rating base", "No tools beyond the included clamp hardware"],
     cons: ["Verify desk edge thickness fits the clamp range before buying", "Larger panel, needs adequate desk depth", "Gray finish only in this size"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Bt+sW01IL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJ5PSVDP?tag=deskfinds0d-20",
     description:
-      "The widest clamp-on option in this guide at 71 inches, genuinely necessary coverage for a larger desk or an L-shaped setup where the standard 60-inch panel would leave a visible gap.\n\nSame reliable clamp mechanism as the rest of VIVO's line, verify your desk edge thickness fits before ordering.",
+      "The widest clamp-on option in this guide at 71 inches, genuinely necessary coverage for a larger desk or an L-shaped setup where the standard 60-inch panel would leave a visible gap.\n\nSame reliable clamp mechanism as the rest of VIVO's line, verify your desk edge thickness fits before ordering.\n\nWorth knowing before you decide: Same reliable clamp mount as the standard-width model. On the other side, Higher price for the extra width. That's the main tradeoff to weigh against your specific needs.",
     specs: ["71 x 24 inch panel", "Clamp-on mount, no drilling", "Gray finish", "No adhesive required"],
     pros: ["Widest coverage in this guide for larger desks", "Same reliable clamp mount as the standard-width model", "Solid, consistent rating base", "No tools beyond included hardware"],
     cons: ["Higher price for the extra width", "Verify desk edge thickness fits the clamp range", "Larger panel needs more storage space if removed"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41MyIJ8y2rL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B4N5QKC1?tag=deskfinds0d-20",
     description:
-      "Identical dimensions and clamp mechanism to the standard gray 60-inch panel, in a dark gray finish that blends better with darker desk setups or office decor.\n\nSame desk-thickness compatibility consideration applies, verify your desk edge before ordering.",
+      "Identical dimensions and clamp mechanism to the standard gray 60-inch panel, in a dark gray finish that blends better with darker desk setups or office decor.\n\nSame desk-thickness compatibility consideration applies, verify your desk edge before ordering.\n\nWorth knowing before you decide: Same reliable clamp mechanism. On the other side, Verify desk edge thickness fits the clamp range. That's the main tradeoff to weigh against your specific needs.",
     specs: ["60 x 24 inch panel, dark gray finish", "Clamp-on mount, no drilling", "No adhesive required", "Same hardware as the gray variant"],
     pros: ["Dark gray finish for darker desk setups", "Same reliable clamp mechanism", "Full desk-width coverage", "Solid, consistent rating base"],
     cons: ["Verify desk edge thickness fits the clamp range", "Same price as the standard gray finish", "Larger panel needs adequate desk depth"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51wO7YI9JIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHPPV9J?tag=deskfinds0d-20",
     description:
-      "A much smaller 24 x 24 inch panel at a notably lower price, genuinely appropriate if you only need a targeted privacy screen at one section of your desk rather than full-width coverage.\n\nSame secure clamp mounting as the larger VIVO panels, just at a fraction of the size and cost.",
+      "A much smaller 24 x 24 inch panel at a notably lower price, genuinely appropriate if you only need a targeted privacy screen at one section of your desk rather than full-width coverage.\n\nSame secure clamp mounting as the larger VIVO panels, just at a fraction of the size and cost.\n\nWorth knowing before you decide: Same reliable clamp mechanism as larger VIVO models. On the other side, Doesn't cover a full desk width. That's the main tradeoff to weigh against your specific needs.",
     specs: ["24 x 24 inch panel", "Clamp-on mount, no drilling", "Gray finish", "Compact, budget-friendly"],
     pros: ["Most affordable clamp-on pick in this guide", "Same reliable clamp mechanism as larger VIVO models", "Compact, targeted privacy coverage", "Easy to reposition along the desk edge"],
     cons: ["Doesn't cover a full desk width", "Same VIVO clamp thickness compatibility to verify", "Limited to a single section of the desk"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41mXUjTJozL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DDK7VFNV?tag=deskfinds0d-20",
     description:
-      "A movable rather than fixed-clamp design, genuinely useful if you want to reposition the panel or remove it entirely without unclamping hardware. 48x18 inches suits a mid-size desk section.\n\nSmaller review base than the established VIVO line, but the movable mounting style is a real alternative if you don't want a permanently clamped panel.",
+      "A movable rather than fixed-clamp design, genuinely useful if you want to reposition the panel or remove it entirely without unclamping hardware. 48x18 inches suits a mid-size desk section.\n\nSmaller review base than the established VIVO line, but the movable mounting style is a real alternative if you don't want a permanently clamped panel.\n\nWorth knowing before you decide: No permanent clamp hardware needed. On the other side, Smaller review base than VIVO's established clamp-on line. That's the main tradeoff to weigh against your specific needs.",
     specs: ["48x18 inch panel, movable partition", "Midnight (dark) finish", "Repositionable design", "No permanent clamp hardware"],
     pros: ["Movable design, easy to reposition or remove", "No permanent clamp hardware needed", "Solid rating base", "Dark finish option"],
     cons: ["Smaller review base than VIVO's established clamp-on line", "Less rigid than a true clamp mount for daily bumping", "Mid-size coverage, not full desk width"],
