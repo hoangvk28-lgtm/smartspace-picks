@@ -84,35 +84,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "No Verified Listing in This Niche Is Actually Foldable",
-    note: "We checked all nine verified products for folding, collapsible, or hinge-based language and found none, every listing describes \"portable\" or \"mobile\" instead, which typically means reposition-able once assembled, not fold-flat for storage.",
-  },
-  {
-    subheading: "\"Portable\" Still Means Freight Delivery and Assembly",
-    note: "These are large, heavy freight items, not standard furniture, expect a freight delivery appointment, a multi-person assembly crew, and in many buildings a floor-load check before you commit, none of which resembles a typical Amazon furniture purchase.",
-  },
-  {
-    subheading: "Ask the Seller Directly if Fold-and-Store Is a Hard Requirement",
-    note: "If you specifically need a structure that folds flat for storage or transport, none of the currently verified listings in this niche confirm that capability, ask the seller directly before ordering rather than assuming \"portable\" implies foldable.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Larger portable single-occupant pod", "Portable Noise-Reducing Pod for Enhanced Privacy and Productivity (L)"],
-        ["Portable pod with disclosed exact dimensions", "Portable Soundproof Office Pod Booth"],
-        ["Most mobile portable pod (wheels)", "Mobile Office Pod Booth"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Portable Noise"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Portable Noise"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $NaN",
+          "Portable Noise"
+        ],
+        [
+          "Up to $4",
+          "Mobile Office Pod Booth"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Mobile on Wheels vs Fixed Placement",
+    "cards": [
+      {
+        "label": "Wheels for repositioning",
+        "text": "Easier to reposition within a room, though still heavy and not truly portable between floors. In this comparison: Mobile Office Pod Booth."
+      },
+      {
+        "label": "Fixed placement",
+        "text": "No mobility, but often a more stable, permanent installation. In this comparison: Portable Noise, Portable Soundproof Office Pod Booth."
+      }
+    ],
+    "note": "Default to fixed placement unless you specifically expect to reposition the pod within a room."
+  },
+  {
+    "subheading": "By Disclosed Dimensions",
+    "note": "Check each pick's listed exterior dimensions in inches against your actual available space before buying, not just its size category label. Portable Noise is the most-reviewed option here if you want the safer bet."
+  },
+  {
+    "subheading": "For Remote Work Video Calls Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A verified STC or dB reduction rating, plus confirmed ventilation with a stated CFM figure for comfortable extended use during calls."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Portable Noise is worth checking against its listed acoustic and ventilation specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need verified acoustic isolation and ventilation for daily extended use, where Mobile Office Pod Booth's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need occasional light use, where Portable Noise covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Don't assume \"portable\" means \"foldable\"", explanation: "None of the verified listings in this niche describe a folding mechanism, \"portable\" here typically means reposition-able once assembled, not fold-flat for storage." },
-  { criterion: "Ask directly if you need genuine fold-and-store capability", explanation: "This specific feature was not confirmed in any listing in this research pass, verify with the seller before ordering if it's a hard requirement." },
-  { criterion: "Expect freight delivery and assembly regardless of \"portable\" labeling", explanation: "Portable in this niche doesn't mean lightweight parcel shipping, plan for a freight delivery appointment and assembly labor." },
-  { criterion: "Weigh wheels vs a fixed-position design for your actual mobility need", explanation: "Only one pick in this pool is explicitly described with wheels for repositioning, the others are portable in the sense of being deliverable and assembled on-site, not easily moved afterward." },
+  {
+    "criterion": "Verify actual acoustic performance, not just the word \"soundproof\"",
+    "explanation": "\"Soundproof\" is a marketing term with no fixed technical meaning, while a genuine sound-dampening spec is usually expressed as an STC (Sound Transmission Class) or dB reduction rating, and many pod listings use the word freely without disclosing any such figure at all.\n\nThis matters directly if the pod's purpose is blocking distracting noise for calls or focused work, since a pod with acoustic panels but no verified STC rating may reduce noise only modestly rather than genuinely isolating sound.\n\nCheck the listing specifically for a stated STC rating or dB reduction figure, and treat the bare word \"soundproof\" with no supporting number as an unverified marketing claim."
+  },
+  {
+    "criterion": "Check ventilation claims against real airflow data, not just the word \"ventilated\"",
+    "explanation": "An enclosed pod needs active air circulation to stay comfortable during extended use, and a listing that mentions \"ventilation\" or \"silent airflow\" without stating a CFM (cubic feet per minute) figure or fan specification is making an unverifiable claim, since the word alone doesn't confirm the pod actually moves enough air to prevent it from feeling stuffy after 20-30 minutes of occupied use.\n\nThis matters more the longer you'll realistically sit inside the pod at a stretch, and less for very short, occasional use.\n\nCheck the listing for a specific fan CFM rating or described ventilation system, not just the presence of the word \"ventilation\" in the feature list."
+  },
+  {
+    "criterion": "Confirm actual exterior and interior dimensions against your specific space",
+    "explanation": "Office pod listings vary widely in how precisely they disclose dimensions, some state an exact exterior footprint in inches, others describe size only in vague relative terms like \"compact\" or \"small\", and the difference between exterior footprint and usable interior space can be substantial once wall thickness and acoustic panel depth are accounted for.\n\nThis matters directly for fitting a pod into a specific room or corner, measuring your actual available space against a vague size description is guesswork.\n\nCheck the listing for exact exterior dimensions in inches, and if not stated, contact the seller directly for measurements before assuming any pod described as \"small\" or \"compact\" will fit your space."
+  },
+  {
+    "criterion": "Factor in delivery, assembly, and floor-loading requirements before buying",
+    "explanation": "Most office pods are heavy, large structures shipped via freight delivery rather than standard parcel shipping, requiring a clear delivery path, assembly time (sometimes requiring more than one person or professional installation), and genuine floor-loading consideration, especially for an upper-floor apartment or a building with older flooring.\n\nThis matters a great deal because these logistics are easy to overlook when comparing pods purely on price and features, but can turn into a real problem on delivery day if the pod can't physically reach its intended spot or the floor isn't rated to support its weight.\n\nCheck the listing for stated weight, whether professional installation is included or required, and confirm your specific building's floor-loading capacity and delivery access before ordering."
+  },
+  {
+    "criterion": "Weigh mobility features like wheels against the pod's actual weight and your real need to relocate it",
+    "explanation": "Wheels or casters make repositioning a pod within a room more realistic, but they don't change the fundamental reality that these are heavy, large structures, wheels ease movement across a flat floor but don't substitute for verifying weight limits or making the pod meaningfully portable between rooms or floors.\n\nThis distinction matters if you expect to actually relocate the pod periodically versus placing it once and leaving it in position long-term, a pod marketed as \"portable\" still generally requires real effort and often more than one person to move safely.\n\nCheck reviews specifically for real-world mentions of repositioning the pod after initial setup, not just the presence of wheels in the spec list."
+  }
 ];
 
 export const faq: FaqItem[] = [

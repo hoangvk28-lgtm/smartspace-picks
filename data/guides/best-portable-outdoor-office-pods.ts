@@ -50,34 +50,113 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Verified Outdoor-Rated Pods Are Genuinely Rare Right Now",
-    note: "Only one of nine verified listings in this niche explicitly claims outdoor use. If you need a genuinely outdoor-rated structure, expect a limited selection and plan to verify weatherproofing specs directly with the seller before purchase.",
-  },
-  {
-    subheading: "Confirm Weatherproofing Before You Buy, Not After Delivery",
-    note: "Ask the seller directly what weatherproofing standard the pod meets, how electrical outlets and any lighting are protected from moisture, and whether the manufacturer states a temperature or precipitation exposure limit. None of this is disclosed in the listing itself.",
-  },
-  {
-    subheading: "Check Local Building Code and Permit Requirements",
-    note: "An outdoor structure this size may require a permit or fall under local accessory-structure rules in some jurisdictions, check with your local building department before installation, this is a real safety and legal consideration the listing does not address.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["The only verified outdoor-claimed pod in this niche", "Luxury Acoustic Home Office Pod for Meeting and Multipurpose Use"],
-        ["An indoor-only pod (see our main guide instead)", "See our full Office Pod buying guide"],
+    "subheading": "By Acoustic Performance",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "This guide's featured pod",
+          "Luxury Acoustic Home Office Pod for Meeting and Multipurpose Use"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Check current price on Amazon",
+          "Luxury Acoustic Home Office Pod for Meeting and Multipurpose Use"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Luxury Acoustic Home Office Pod for Meeting and Multipurpose Use vs a Basic Room Divider",
+    "cards": [
+      {
+        "label": "Luxury Acoustic Home Office Pod for Meeting and Multipurpose Use",
+        "text": "Provides genuine enclosed acoustic isolation, worth checking its actual STC rating against your noise concerns."
+      },
+      {
+        "label": "A basic room divider",
+        "text": "Much cheaper but offers minimal sound isolation, worth it only for visual privacy, not noise blocking."
+      }
+    ],
+    "note": "Most buyers evaluating this guide's keyword should default to Luxury Acoustic Home Office Pod for Meeting and Multipurpose Use unless a basic divider meets your specific, limited need."
+  },
+  {
+    "subheading": "By Footprint",
+    "table": {
+      "headers": [
+        "Priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Disclosed exact dimensions",
+          "Luxury Acoustic Home Office Pod for Meeting and Multipurpose Use"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Remote Work Video Calls Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A verified STC or dB reduction rating, plus confirmed ventilation with a stated CFM figure for comfortable extended use."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Luxury Acoustic Home Office Pod for Meeting and Multipurpose Use is worth checking against its listed acoustic and ventilation specs before buying."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need verified acoustic isolation and ventilation for daily extended use, where Luxury Acoustic Home Office Pod for Meeting and Multipurpose Use's specs give real headroom over a basic divider."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need occasional light visual privacy, not real sound blocking."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm a documented weatherproof rating before buying", explanation: "\"Indoor and outdoor\" in a title is not the same as a tested weatherproof rating, ask the seller for specifics before installing outdoors." },
-  { criterion: "Verify electrical safety for outdoor moisture exposure", explanation: "Confirm how outlets and any lighting are protected from rain and humidity, this is a real safety issue the listing does not address." },
-  { criterion: "Plan for foundation and anchoring", explanation: "An outdoor pod needs a stable, level foundation and likely anchoring against wind, confirm what's included versus what you'll need to arrange separately." },
-  { criterion: "Check local permit requirements", explanation: "A structure this size installed outdoors may require a permit in some jurisdictions, verify with your local building department before ordering." },
+  {
+    "criterion": "Verify actual acoustic performance, not just the word \"soundproof\"",
+    "explanation": "\"Soundproof\" is a marketing term with no fixed technical meaning, while a genuine sound-dampening spec is usually expressed as an STC (Sound Transmission Class) or dB reduction rating, and many pod listings use the word freely without disclosing any such figure at all.\n\nThis matters directly if the pod's purpose is blocking distracting noise for calls or focused work, since a pod with acoustic panels but no verified STC rating may reduce noise only modestly rather than genuinely isolating sound.\n\nCheck the listing specifically for a stated STC rating or dB reduction figure, and treat the bare word \"soundproof\" with no supporting number as an unverified marketing claim."
+  },
+  {
+    "criterion": "Check ventilation claims against real airflow data, not just the word \"ventilated\"",
+    "explanation": "An enclosed pod needs active air circulation to stay comfortable during extended use, and a listing that mentions \"ventilation\" or \"silent airflow\" without stating a CFM (cubic feet per minute) figure or fan specification is making an unverifiable claim, since the word alone doesn't confirm the pod actually moves enough air to prevent it from feeling stuffy after 20-30 minutes of occupied use.\n\nThis matters more the longer you'll realistically sit inside the pod at a stretch, and less for very short, occasional use.\n\nCheck the listing for a specific fan CFM rating or described ventilation system, not just the presence of the word \"ventilation\" in the feature list."
+  },
+  {
+    "criterion": "Confirm actual exterior and interior dimensions against your specific space",
+    "explanation": "Office pod listings vary widely in how precisely they disclose dimensions, some state an exact exterior footprint in inches, others describe size only in vague relative terms like \"compact\" or \"small\", and the difference between exterior footprint and usable interior space can be substantial once wall thickness and acoustic panel depth are accounted for.\n\nThis matters directly for fitting a pod into a specific room or corner, measuring your actual available space against a vague size description is guesswork.\n\nCheck the listing for exact exterior dimensions in inches, and if not stated, contact the seller directly for measurements before assuming any pod described as \"small\" or \"compact\" will fit your space."
+  },
+  {
+    "criterion": "Factor in delivery, assembly, and floor-loading requirements before buying",
+    "explanation": "Most office pods are heavy, large structures shipped via freight delivery rather than standard parcel shipping, requiring a clear delivery path, assembly time (sometimes requiring more than one person or professional installation), and genuine floor-loading consideration, especially for an upper-floor apartment or a building with older flooring.\n\nThis matters a great deal because these logistics are easy to overlook when comparing pods purely on price and features, but can turn into a real problem on delivery day if the pod can't physically reach its intended spot or the floor isn't rated to support its weight.\n\nCheck the listing for stated weight, whether professional installation is included or required, and confirm your specific building's floor-loading capacity and delivery access before ordering."
+  },
+  {
+    "criterion": "Weigh mobility features like wheels against the pod's actual weight and your real need to relocate it",
+    "explanation": "Wheels or casters make repositioning a pod within a room more realistic, but they don't change the fundamental reality that these are heavy, large structures, wheels ease movement across a flat floor but don't substitute for verifying weight limits or making the pod meaningfully portable between rooms or floors.\n\nThis distinction matters if you expect to actually relocate the pod periodically versus placing it once and leaving it in position long-term, a pod marketed as \"portable\" still generally requires real effort and often more than one person to move safely.\n\nCheck reviews specifically for real-world mentions of repositioning the pod after initial setup, not just the presence of wheels in the spec list."
+  }
 ];
 
 export const faq: FaqItem[] = [

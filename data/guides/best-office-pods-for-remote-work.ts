@@ -101,45 +101,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Ventilation Matters More Than Soundproofing for a Full Workday",
-    note: "Ventilation is the most consistently undisclosed spec across office pod listings on Amazon, most titles emphasize soundproofing and say nothing about airflow, even though CO2 buildup and stuffiness matter more than acoustic rating for anyone sitting inside for a full workday. Ask the seller directly for an airflow rate or fan CFM figure before buying.",
-  },
-  {
-    subheading: "Video Call Lighting and Background Aren't Addressed in Any Listing",
-    note: "None of these listings specify interior lighting fixtures or background wall treatment for video calls, plan to add your own lighting and consider the interior wall finish shown in listing photos before assuming it looks professional on camera.",
-  },
-  {
-    subheading: "Sustained-Use Ergonomics Is a Real Gap",
-    note: "No listing in this niche details seating ergonomics or adjustable desk height, if you'll work full days inside, plan to add your own ergonomic chair and consider whether the built-in desk height (where included) suits your setup.",
-  },
-  {
-    subheading: "Weigh the Cost Against Home Renovation or Co-Working Alternatives",
-    note: "At $4,000-$8,000, a pod is a significant investment, honestly compare it against a home office renovation or a co-working membership before committing, a pod makes the most sense when you need a dedicated, immediately available space within your existing home rather than a permanent room conversion.",
-  },
-  {
-    subheading: "See Our Home Office Booth Guides for More Comparison",
-    note: "This guide overlaps with our home office booths and soundproof home office booths guides, cross-reference both for a fuller comparison rather than treating this as an isolated product set.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Maximum headroom for full-workday use", "Portable Noise-Reducing Pod for Enhanced Privacy and Productivity (L)"],
-        ["Flexible space for calls and general work", "Luxury Acoustic Home Office Pod for Meeting and Multipurpose Use"],
-        ["Comparing entry-level options (verify listing details directly)", "SoundGuard Studio Pod"],
-        ["Limited space, compact footprint", "Soundproof Office Pod Booth"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Portable Noise"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Portable Noise"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $NaN",
+          "Portable Noise"
+        ],
+        [
+          "Up to $4",
+          "Soundproof Office Pod Booth"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Review Base vs Price",
+    "cards": [
+      {
+        "label": "Portable Noise",
+        "text": "The lower-priced option in this comparison, worth checking its acoustic and ventilation specs against your needs."
+      },
+      {
+        "label": "Soundproof Office Pod Booth",
+        "text": "The higher-priced option, worth it if it offers real acoustic or space headroom above the cheaper pick."
+      }
+    ],
+    "note": "Default to Portable Noise unless your specific needs genuinely call for the pricier pick."
+  },
+  {
+    "subheading": "By Disclosed Dimensions",
+    "note": "Check each pick's listed exterior dimensions in inches against your actual available space before buying, not just its size category label. Portable Noise is the most-reviewed option here if you want the safer bet."
+  },
+  {
+    "subheading": "For Remote Work Video Calls Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A verified STC or dB reduction rating, plus confirmed ventilation with a stated CFM figure for comfortable extended use during calls."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Portable Noise is worth checking against its listed acoustic and ventilation specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need verified acoustic isolation and ventilation for daily extended use, where Soundproof Office Pod Booth's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need occasional light use, where Portable Noise covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Ask about ventilation before committing to full-workday use", explanation: "No listing in this niche discloses an airflow rate, ask the seller directly if you'll be inside for full workdays rather than short calls." },
-  { criterion: "Plan your own lighting and camera background", explanation: "No listing specifies video-call-oriented interior lighting, budget for your own lighting setup for a professional on-camera appearance." },
-  { criterion: "Add your own ergonomic seating", explanation: "No listing details seating ergonomics, plan to bring your own chair suited to full-day sitting rather than assuming an included seat is ergonomic." },
-  { criterion: "Compare the real cost against renovation or co-working alternatives", explanation: "At $4,000-$8,000, honestly weigh a pod against a home office renovation or a co-working membership before committing to this specific solution." },
-  { criterion: "Cross-check our home office booth guides", explanation: "This guide's product pool and reasoning overlap with our broader home office booth content, review both for the fullest comparison." },
+  {
+    "criterion": "Verify actual acoustic performance, not just the word \"soundproof\"",
+    "explanation": "\"Soundproof\" is a marketing term with no fixed technical meaning, while a genuine sound-dampening spec is usually expressed as an STC (Sound Transmission Class) or dB reduction rating, and many pod listings use the word freely without disclosing any such figure at all.\n\nThis matters directly if the pod's purpose is blocking distracting noise for calls or focused work, since a pod with acoustic panels but no verified STC rating may reduce noise only modestly rather than genuinely isolating sound.\n\nCheck the listing specifically for a stated STC rating or dB reduction figure, and treat the bare word \"soundproof\" with no supporting number as an unverified marketing claim."
+  },
+  {
+    "criterion": "Check ventilation claims against real airflow data, not just the word \"ventilated\"",
+    "explanation": "An enclosed pod needs active air circulation to stay comfortable during extended use, and a listing that mentions \"ventilation\" or \"silent airflow\" without stating a CFM (cubic feet per minute) figure or fan specification is making an unverifiable claim, since the word alone doesn't confirm the pod actually moves enough air to prevent it from feeling stuffy after 20-30 minutes of occupied use.\n\nThis matters more the longer you'll realistically sit inside the pod at a stretch, and less for very short, occasional use.\n\nCheck the listing for a specific fan CFM rating or described ventilation system, not just the presence of the word \"ventilation\" in the feature list."
+  },
+  {
+    "criterion": "Confirm actual exterior and interior dimensions against your specific space",
+    "explanation": "Office pod listings vary widely in how precisely they disclose dimensions, some state an exact exterior footprint in inches, others describe size only in vague relative terms like \"compact\" or \"small\", and the difference between exterior footprint and usable interior space can be substantial once wall thickness and acoustic panel depth are accounted for.\n\nThis matters directly for fitting a pod into a specific room or corner, measuring your actual available space against a vague size description is guesswork.\n\nCheck the listing for exact exterior dimensions in inches, and if not stated, contact the seller directly for measurements before assuming any pod described as \"small\" or \"compact\" will fit your space."
+  },
+  {
+    "criterion": "Factor in delivery, assembly, and floor-loading requirements before buying",
+    "explanation": "Most office pods are heavy, large structures shipped via freight delivery rather than standard parcel shipping, requiring a clear delivery path, assembly time (sometimes requiring more than one person or professional installation), and genuine floor-loading consideration, especially for an upper-floor apartment or a building with older flooring.\n\nThis matters a great deal because these logistics are easy to overlook when comparing pods purely on price and features, but can turn into a real problem on delivery day if the pod can't physically reach its intended spot or the floor isn't rated to support its weight.\n\nCheck the listing for stated weight, whether professional installation is included or required, and confirm your specific building's floor-loading capacity and delivery access before ordering."
+  },
+  {
+    "criterion": "Weigh mobility features like wheels against the pod's actual weight and your real need to relocate it",
+    "explanation": "Wheels or casters make repositioning a pod within a room more realistic, but they don't change the fundamental reality that these are heavy, large structures, wheels ease movement across a flat floor but don't substitute for verifying weight limits or making the pod meaningfully portable between rooms or floors.\n\nThis distinction matters if you expect to actually relocate the pod periodically versus placing it once and leaving it in position long-term, a pod marketed as \"portable\" still generally requires real effort and often more than one person to move safely.\n\nCheck reviews specifically for real-world mentions of repositioning the pod after initial setup, not just the presence of wheels in the spec list."
+  }
 ];
 
 export const faq: FaqItem[] = [
