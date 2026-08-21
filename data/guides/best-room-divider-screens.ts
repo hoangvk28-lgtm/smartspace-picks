@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51tB64reaAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00A7YV51C?tag=deskfinds0d-20",
     description:
-      "With over 7,000 ratings, this Roundhill screen is the best-selling pick in this list by a wide margin. Its printed plum-blossom pattern in red and black over a translucent rice paper panel gives it the most distinctive look here, closer to wall art than a plain divider.\n\nHardwood framing keeps it sturdy despite being the lightest pick in this list at just 11 lbs, and it needs no assembly, so it goes from box to standing divider in minutes.",
+      "With over 7,000 ratings, this Roundhill screen is the best-selling pick in this list by a wide margin. Its printed plum-blossom pattern in red and black over a translucent rice paper panel gives it the most distinctive look here, closer to wall art than a plain divider.\n\nHardwood framing keeps it sturdy despite being the lightest pick in this list at just 11 lbs, and it needs no assembly, so it goes from box to standing divider in minutes.\n\nMost distinctive printed shoji pattern. That's a real strength, but weigh it against the flip side: rice paper panels are translucent, not fully private.",
     specs: [
       "71\"W x 71\"H (4 panels)",
       "Hardwood + rice paper",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51aORYQ0Y7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01LYKP60O?tag=deskfinds0d-20",
     description:
-      "The Giyano trades the traditional shoji look for an intricate white mosaic chip-themed frame, the most refined and modern design among the group. Pine and MDF construction is wrapped in non-woven fabric panels rather than rice paper, giving it a slightly different texture and feel.\n\nAt 70\"H x 70\"W it's sized to match most standard shoji screens, and like the rest of the Roundhill lineup it needs no assembly out of the box.",
+      "The Giyano trades the traditional shoji look for an intricate white mosaic chip-themed frame, the most refined and modern design among the group. Pine and MDF construction is wrapped in non-woven fabric panels rather than rice paper, giving it a slightly different texture and feel.\n\nAt 70\"H x 70\"W it's sized to match most standard shoji screens, and like the rest of the Roundhill lineup it needs no assembly out of the box.\n\nWorth calling out specifically: strong 4.6-star rating across 3,422 ratings. The catch is pricier than most other picks in this list.",
     specs: [
       "70\"H x 70\"W (4 panels)",
       "Pine + MDF + non-woven fabric",
@@ -114,7 +114,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51lVjlsR99L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01MSXEB3B?tag=deskfinds0d-20",
     description:
-      "This cherry-finish screen is the most authentic traditional shoji design in this list, built from real cherry wood with translucent rice paper panels that let natural light filter through rather than blocking it entirely. Two-way hinges let the panels fold in either direction for flexible placement.\n\nAt 15 lbs it's the lightest wood-framed shoji pick here, and it arrives fully assembled. Traditional rice paper shoji does need gentler care than synthetic panels; expect to touch up or replace the paper every couple of years in sun-exposed spots.",
+      "This cherry-finish screen is the most authentic traditional shoji design in this list, built from real cherry wood with translucent rice paper panels that let natural light filter through rather than blocking it entirely. Two-way hinges let the panels fold in either direction for flexible placement.\n\nAt 15 lbs it's the lightest wood-framed shoji pick here, and it arrives fully assembled. Traditional rice paper shoji does need gentler care than synthetic panels; expect to touch up or replace the paper every couple of years in sun-exposed spots.\n\nTranslucent panels let natural light through. Set against that, rice paper offers light diffusion, not real privacy. Both matter when comparing it to the other picks here.",
     specs: [
       "72\"W x 71\"H (4 panels)",
       "Cherry wood + rice paper",
@@ -146,7 +146,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51eN5STzThL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0135AV5XC?tag=deskfinds0d-20",
     description:
-      "The FDW wood mesh screen has more reviews than any other pick in this list at over 7,600, driven by its distinctive hand-woven lattice look that stands apart from both shoji paper and rattan weave designs. Eco wood construction paired with metal hinges keeps it foldable and genuinely lightweight.\n\nThe open mesh pattern trades privacy for airflow and light, more of a visual softener between spaces than a true opaque barrier, which is worth knowing before you buy.",
+      "The FDW wood mesh screen has more reviews than any other pick in this list at over 7,600, driven by its distinctive hand-woven lattice look that stands apart from both shoji paper and rattan weave designs. Eco wood construction paired with metal hinges keeps it foldable and genuinely lightweight.\n\nThe open mesh pattern trades privacy for airflow and light, more of a visual softener between spaces than a true opaque barrier, which is worth knowing before you buy.\n\nA genuine advantage here is that distinctive hand-woven mesh look. The tradeoff is open mesh pattern offers less visual privacy than solid panels.",
     specs: [
       "71\"H x 70.5\"W (4 panels)",
       "Eco wood + metal hinges",
@@ -177,7 +177,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/518FUSm-OqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07QQ25W3P?tag=deskfinds0d-20",
     description:
-      "At $34.28, the RHF rattan screen is the cheapest pick in this list without sacrificing craftsmanship, its handmade 5-medallion diamond weave gives it a distinctly boho look that the modern acrylic and shoji picks don't offer. Two-way hinges make it flexible to position around furniture or corners.\n\nRattan and wood construction keeps it lightweight, and like most picks here it arrives needing no assembly, straight out of the box and ready to unfold.",
+      "At $34.28, the RHF rattan screen is the cheapest pick in this list without sacrificing craftsmanship, its handmade 5-medallion diamond weave gives it a distinctly boho look that the modern acrylic and shoji picks don't offer. Two-way hinges make it flexible to position around furniture or corners.\n\nRattan and wood construction keeps it lightweight, and like most picks here it arrives needing no assembly, straight out of the box and ready to unfold.\n\nHandmade diamond-weave pattern. That's a real strength, but weigh it against the flip side: open weave offers less privacy than solid panels.",
     specs: [
       "63\"W x 72\"H (4 panels)",
       "Rattan + wood",
@@ -209,7 +209,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51j59-Hw-bL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CNP8K3GC?tag=deskfinds0d-20",
     description:
-      "JOSTYLE uses stainless steel 180-degree hinges instead of the standard metal hinges found on most screens in this list, a detail that matters since repeated folding is usually where screen hinges wear out first. Handmade pine framing keeps the natural wood look intact without paint or heavy stain.\n\nNon-woven fabric panels are odor-free out of the box, and like the rest of the shoji-style picks here, it arrives fully assembled and ready to unfold.",
+      "JOSTYLE uses stainless steel 180-degree hinges instead of the standard metal hinges found on most screens in this list, a detail that matters since repeated folding is usually where screen hinges wear out first. Handmade pine framing keeps the natural wood look intact without paint or heavy stain.\n\nNon-woven fabric panels are odor-free out of the box, and like the rest of the shoji-style picks here, it arrives fully assembled and ready to unfold.\n\nWorth calling out specifically: handmade pine construction. The catch is smallest review sample in this list at 135 ratings.",
     specs: [
       "70.9\"H x 69\"W (4 panels)",
       "Pine wood + non-woven fabric",
@@ -241,7 +241,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51l6YdJzIPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DL95KY4S?tag=deskfinds0d-20",
     description:
-      "VEVOR steps up to 6 panels spanning 95.3 inches wide, the widest screen in this list, built for rooms where a standard 4-panel screen wouldn't stretch far enough to fully divide the space. Durable tung wood framing holds up better against humidity than typical pine.\n\n360-degree bidirectional hinges are the most flexible in this list, letting panels fold either direction freely, and waterproof fabric panels add some resilience the paper-based shoji screens don't have.",
+      "VEVOR steps up to 6 panels spanning 95.3 inches wide, the widest screen in this list, built for rooms where a standard 4-panel screen wouldn't stretch far enough to fully divide the space. Durable tung wood framing holds up better against humidity than typical pine.\n\n360-degree bidirectional hinges are the most flexible in this list, letting panels fold either direction freely, and waterproof fabric panels add some resilience the paper-based shoji screens don't have.\n\nMost flexible 360° bidirectional hinges. Set against that, shorter 66.9\" height than most other picks. Both matter when comparing it to the other picks here.",
     specs: [
       "95.3\"W x 66.9\"H (6 panels)",
       "Tung wood + MDF + non-woven fabric",
@@ -273,7 +273,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51eRFao9PCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F32JPNGD?tag=deskfinds0d-20",
     description:
-      "Svimi is the only frosted acrylic pick in this list, a genuinely different material category from every wood, rattan, and fabric screen above it. Premium acrylic panels are rated roughly 3 times more durable than glass and shatter-resistant, a real advantage over the paper and fabric panels that dominate the rest of this list.\n\nThe frosted finish diffuses light beautifully while staying stain-resistant, and its black metal frame gives it the most modern, minimalist look here, closer to a design piece than a traditional screen.",
+      "Svimi is the only frosted acrylic pick in this list, a genuinely different material category from every wood, rattan, and fabric screen above it. Premium acrylic panels are rated roughly 3 times more durable than glass and shatter-resistant, a real advantage over the paper and fabric panels that dominate the rest of this list.\n\nThe frosted finish diffuses light beautifully while staying stain-resistant, and its black metal frame gives it the most modern, minimalist look here, closer to a design piece than a traditional screen.\n\nA genuine advantage here is that more durable and shatter-resistant than glass. The tradeoff is most expensive pick in this list.",
     specs: [
       "67\"H x 63\"W (4 panels)",
       "Premium acrylic + metal frame",
@@ -325,30 +325,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Screens create visual separation, not soundproofing",
-    explanation:
-      "A folding screen gives an instant visual wall, but none of the materials in this list, paper, fabric, rattan, wood mesh, or acrylic, meaningfully block sound the way a solid bookcase or actual wall would. If noise separation matters as much as visual privacy, a screen alone likely won't solve it.",
+    "criterion": "Check freestanding stability against your actual floor type, not just an empty room demo",
+    "explanation": "A freestanding divider relies entirely on its own base footprint and panel angle for stability, with no wall support, and how well it actually stays upright varies depending on floor type, a divider that stands solidly on carpet can behave differently on hardwood or tile, and panels catching a draft from an HVAC vent can wobble more than expected.\n\nThis matters because a divider that looks stable in a still product photo can still tip or shift with regular foot traffic brushing past it.\n\nCheck reviews specifically for real-world stability mentions on floor types similar to yours, and check the base footprint width relative to the divider's height, since a taller divider needs a wider base to stay stable."
   },
   {
-    criterion: "Position multi-panel screens in a zigzag, not a straight line",
-    explanation:
-      "A screen stood perfectly flat in the middle of a room is easier to knock over than one angled into a zigzag or gentle curve, which widens its effective base and improves stability. This matters most in homes with kids or pets, where a straight-line screen is more likely to get bumped and tip.",
+    "criterion": "Confirm genuine sound dampening if acoustic privacy is the actual goal, not just visual blocking",
+    "explanation": "A room divider marketed as \"acoustic\" should use a real sound-dampening material, typically a felt or fabric-wrapped panel core, that measurably reduces noise transmission, distinct from a simple solid panel or bookcase that only blocks the sightline without doing anything meaningful for sound.\n\nThis distinction matters directly if noise reduction for calls or focused work is your actual goal, since a purely visual divider does very little to dampen adjacent conversation or ambient noise regardless of how solid it looks.\n\nCheck the listing specifically for a stated acoustic material, not just the word \"acoustic\" in the title with no supporting material description."
   },
   {
-    criterion: "Traditional shoji paper needs different care than synthetic panels",
-    explanation:
-      "Real rice paper shoji screens, like the Roundhill Oriental Shoji, should be dusted with a soft brush and spot-cleaned with a dry microfiber cloth only, never water or alcohol, and the paper is often replaced every 18-24 months in sun-exposed rooms. Synthetic fabric or PVC-coated panels resist water and tearing better but can turn brittle or cloudy within 3-5 years under sustained UV exposure, so neither material is maintenance-free long-term.",
+    "criterion": "Match panel height to your ceiling and the actual privacy level you need",
+    "explanation": "Panel height determines both visual privacy and how much of the room's overall openness the divider preserves, a shorter divider maintains more light and airflow but offers less real privacy, while a taller divider that extends closer to the ceiling gives stronger separation at the cost of feeling like a more permanent wall.\n\nThis matters more in a room with a high ceiling, where a standard-height divider can look and feel undersized, and less in a room with a standard 8-foot ceiling where most divider heights work proportionally.\n\nCheck the listed divider height against your room's actual ceiling height and how much visual openness you want to preserve, not just the divider's general size category."
   },
   {
-    criterion: "Open-weave and mesh designs trade privacy for airflow",
-    explanation:
-      "Rattan diamond weaves and wood mesh panels look distinctive and let light and air pass through, but they offer noticeably less visual privacy than a solid fabric, paper, or acrylic panel. Choose an open-weave screen for softening a space visually, not for full concealment.",
+    "criterion": "Weigh assembly and mounting requirements against whether you're renting or own the space",
+    "explanation": "Room dividers span a wide range of setup requirements, from a no-drill freestanding panel that requires zero installation to a wall-mounted or track-based divider requiring drilling and potentially professional installation, and which one is appropriate depends heavily on whether you're in a rented space where drilling isn't an option, or a space you own where a more permanent installation is fine.\n\nThis matters directly for a renter, discovering after purchase that a divider requires wall-mounting hardware is a real and avoidable problem in a space where drilling isn't allowed.\n\nCheck the listing specifically for the mounting method, freestanding, no-drill, or requiring wall anchors, before ordering, especially in a rented space."
   },
   {
-    criterion: "Hinge material affects long-term durability more than panel material",
-    explanation:
-      "Repeated folding puts the most wear on hinges and panel seams, not the panel surface itself. Stainless steel or wide-rotation hinges, like on the JOSTYLE and VEVOR picks, hold up to daily folding better than basic metal pin hinges found on cheaper screens.",
-  },
+    "criterion": "Consider mobility needs if the divider will move between rooms or configurations regularly",
+    "explanation": "A divider on wheels or casters can be repositioned easily between rooms or reconfigured for different layouts throughout the week, useful for anyone who needs flexible zoning rather than a permanent room split, but wheels also mean the divider is inherently less stable than a fixed-base design and can shift underfoot if bumped.\n\nThis matters more if you genuinely need to move the divider often, like separating a home office from a living space only during work hours, less if it'll stay in one position long-term.\n\nCheck whether casters are lockable to prevent unwanted movement once positioned, and weigh mobility against the reduced stability it typically brings."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -361,67 +356,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Privacy Level Needed",
-    intro:
-      "Panel material determines how much a screen actually conceals versus just visually softens the space, from fully translucent to solid and opaque.",
-    table: {
-      headers: ["Privacy need", "Panel type", "Best pick"],
-      rows: [
-        ["Soft light diffusion, some visibility through", "Translucent rice paper", "Roundhill Oriental Shoji, Roundhill Black Plum Blossom"],
-        ["Visual softening, airflow more important than privacy", "Open weave or mesh", "RHF Rattan, FDW Wood Mesh"],
-        ["Solid, opaque visual block", "Dense fabric", "Roundhill Giyano, JOSTYLE Shoji"],
-        ["Maximum opacity with a modern look", "Frosted acrylic", "Svimi Acrylic Frosted"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Roundhill Furniture Black Japanese 4"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "FDW Wood Mesh Hand"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Material Durability",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $35",
+          "RHF 4"
+        ],
+        [
+          "Up to $140",
+          "Svimi 4"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Stability vs Price",
+    "cards": [
       {
-        label: "Want the longest-lasting panels with least upkeep",
-        text: "The Svimi acrylic screen is roughly 3 times more durable than glass, shatter-resistant, and stain-resistant, with none of the periodic paper replacement traditional shoji needs.",
+        "label": "RHF 4",
+        "text": "The lower-priced option in this comparison, worth checking its base footprint and stability against your floor type."
       },
       {
-        label: "Love the traditional shoji look and don't mind upkeep",
-        text: "The Roundhill Oriental Shoji and Black Plum Blossom use real rice paper, expect to dust gently and possibly replace panels every 18-24 months in sunny rooms.",
-      },
-      {
-        label: "Want water and humidity resistance",
-        text: "The VEVOR 6-Panel uses waterproof fabric over durable tung wood, a better fit near a bathroom or humid climate than paper-based screens.",
-      },
-      {
-        label: "Want the most durable hinges for daily folding",
-        text: "JOSTYLE's stainless steel 180° hinges and VEVOR's 360° bidirectional hinges outlast the basic metal hinges on cheaper screens.",
-      },
+        "label": "Svimi 4",
+        "text": "The higher-priced option, worth it if it offers real stability or material headroom above the cheaper pick."
+      }
     ],
+    "note": "Default to RHF 4 unless your specific needs genuinely call for the pricier pick."
   },
   {
-    subheading: "By Room Width",
-    intro:
-      "Most screens in this list use 4 panels, but room width should decide how many panels and how wide a span you actually need.",
-    table: {
-      headers: ["Room width", "Panel count", "Best pick"],
-      rows: [
-        ["Narrow nook or apartment corner", "4 panels, under 65\" wide", "RHF Rattan, Svimi Acrylic"],
-        ["Standard room, typical opening", "4 panels, 69-72\" wide", "Roundhill Oriental Shoji, JOSTYLE, FDW Wood Mesh"],
-        ["Wide open-concept space", "6 panels, 95\"+ wide", "VEVOR 6-Panel"],
-      ],
-    },
+    "subheading": "By Panel Height",
+    "note": "Check each pick's listed panel height against your room's ceiling and the actual privacy level you need before buying. FDW Wood Mesh Hand is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Placement and Stability Reality Check",
-    intro:
-      "A screen's biggest weakness is standing freely in an open room rather than against a wall, positioning technique matters as much as the screen itself.",
-    table: {
-      headers: ["Setup", "Stability approach", "Notes"],
-      rows: [
-        ["Straight line in the middle of a room", "Least stable", "Easiest to knock over, avoid with pets or kids nearby"],
-        ["Zigzag or gentle curve", "Most stable freestanding option", "Widens the effective base without extra hardware"],
-        ["Against a wall or in a corner", "Most stable overall", "One side is naturally braced"],
-      ],
-    },
-    note: "None of the screens in this list meaningfully block sound, so if noise separation matters as much as visual privacy, pair a screen with soft furnishings like a rug or curtains rather than expecting the panels alone to solve it.",
+    "subheading": "For a Rented Space Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine freestanding or no-drill design that requires zero wall modification, not a divider that turns out to need wall anchors."
+      },
+      {
+        "label": "In this comparison",
+        "text": "FDW Wood Mesh Hand is worth checking against its listed mounting method before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real acoustic dampening or a taller, more stable divider, where Svimi 4's material and construction give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need light visual separation without noise or stability concerns, where RHF 4 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

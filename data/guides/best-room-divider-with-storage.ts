@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/416nixYaeVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07PNFY7Q1?tag=deskfinds0d-20",
     description:
-      "The VASAGLE CUSTOS is the most proven freestanding storage divider in this list, with over 7,500 ratings backing its five-tier open frame. Each shelf holds 33 lbs for a 165 lb total, and hidden screw caps give it a cleaner finish than most particleboard bookcases at this price.\n\nIt ships with an anti-tip kit, a genuinely necessary feature on a piece meant to stand freely rather than lean against a wall. The open design lets light pass through while still creating a real visual break between two zones.",
+      "The VASAGLE CUSTOS is the most proven freestanding storage divider in this list, with over 7,500 ratings backing its five-tier open frame. Each shelf holds 33 lbs for a 165 lb total, and hidden screw caps give it a cleaner finish than most particleboard bookcases at this price.\n\nIt ships with an anti-tip kit, a genuinely necessary feature on a piece meant to stand freely rather than lean against a wall. The open design lets light pass through while still creating a real visual break between two zones.\n\nHidden screw caps for a polished look. That's a real strength, but weigh it against the flip side: particleboard shelves, not solid wood.",
     specs: [
       "27.6\"W x 9.4\"D x 62.6\"H",
       "Particleboard construction, 5 tiers",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41tIPFRL6WL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CR2Y9BYR?tag=deskfinds0d-20",
     description:
-      "Furologee's sculptural S-curve works upright as a divider, flat as a wine rack, or repositioned as a TV stand, giving it three uses in one piece of furniture. That flexibility is worth a lot if you're not fully committed to your current room layout.\n\nP2-grade MDF and metal support a 30 lb per-shelf rating for 180 lbs total, and the whole unit is waterproof despite its narrow, artistic profile. It effectively doubles as storage art rather than a boxy shelving unit.",
+      "Furologee's sculptural S-curve works upright as a divider, flat as a wine rack, or repositioned as a TV stand, giving it three uses in one piece of furniture. That flexibility is worth a lot if you're not fully committed to your current room layout.\n\nP2-grade MDF and metal support a 30 lb per-shelf rating for 180 lbs total, and the whole unit is waterproof despite its narrow, artistic profile. It effectively doubles as storage art rather than a boxy shelving unit.\n\nWorth calling out specifically: distinctive S-shaped silhouette doubles as decor. The catch is narrower 14.96\" width limits shelf surface per section.",
     specs: [
       "14.96\"W x 9.45\"D x 57.48\"H",
       "P2 MDF + metal",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41jJ8ERvqQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXXG3HVR?tag=deskfinds0d-20",
     description:
-      "Gadroad brings the same S-shaped silhouette to a clean white finish, and its 44 lb per-shelf rating is the highest among the S-shaped picks in this list. That extra capacity matters if you're loading it with real books instead of light decor.\n\nEngineered wood and metal construction is backed by a 1-year warranty, a reassuring detail on a freestanding piece that has to stay upright without wall support.",
+      "Gadroad brings the same S-shaped silhouette to a clean white finish, and its 44 lb per-shelf rating is the highest among the S-shaped picks in this list. That extra capacity matters if you're loading it with real books instead of light decor.\n\nEngineered wood and metal construction is backed by a 1-year warranty, a reassuring detail on a freestanding piece that has to stay upright without wall support.\n\nCleanest white finish in this list. Set against that, pricier than the other S-shaped picks. Both matter when comparing it to the other picks here.",
     specs: [
       "27.56\"W x 11.8\"D x 62\"H",
       "Engineered wood + metal",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51r8pb6nsNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07JGJQN67?tag=deskfinds0d-20",
     description:
-      "The FDW is the only pick in this list that combines a folding privacy screen with actual built-in storage, two solid handmade shelves set into a wood-framed, metal-hinged panel system. It gives you the fold-away flexibility of a screen without giving up shelf space entirely.\n\nAt 70.9 inches tall and foldable for easy repositioning or storage, it's the pick for buyers who want a traditional screen silhouette but still need somewhere to set a lamp, plants, or a few books.",
+      "The FDW is the only pick in this list that combines a folding privacy screen with actual built-in storage, two solid handmade shelves set into a wood-framed, metal-hinged panel system. It gives you the fold-away flexibility of a screen without giving up shelf space entirely.\n\nAt 70.9 inches tall and foldable for easy repositioning or storage, it's the pick for buyers who want a traditional screen silhouette but still need somewhere to set a lamp, plants, or a few books.\n\nA genuine advantage here is that removable shelves add flexibility. The tradeoff is only 2 shelves, far less capacity than a full bookcase.",
     specs: [
       "70.9\"H x 31\"W (4 panels)",
       "Wood frame + metal hinges",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41WJ+2bJthL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08S3BKJLC?tag=deskfinds0d-20",
     description:
-      "Yusong's white S-shaped bookcase is the cheapest S-shaped pick in this list while still offering a water-resistant finish, useful if the divider sits anywhere near a kitchen, bathroom, or humid climate. Five staggered shelves keep the silhouette visually light despite the storage packed in.\n\nIt can also lay flat to work as a wine rack, giving it a second use if your room layout changes and you no longer need a vertical divider.",
+      "Yusong's white S-shaped bookcase is the cheapest S-shaped pick in this list while still offering a water-resistant finish, useful if the divider sits anywhere near a kitchen, bathroom, or humid climate. Five staggered shelves keep the silhouette visually light despite the storage packed in.\n\nIt can also lay flat to work as a wine rack, giving it a second use if your room layout changes and you no longer need a vertical divider.\n\nWater-resistant finish. That's a real strength, but weigh it against the flip side: lower per-shelf capacity than the Gadroad pick.",
     specs: [
       "27.8\"W x 9.5\"D x 61.8\"H",
       "Particleboard + melamine",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Kxi8xrdiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DFXS9X72?tag=deskfinds0d-20",
     description:
-      "The EXPERLAM stands out as the only genuinely solid pine wood pick in this list, not MDF or particleboard dressed up to look like it. Four matching fabric storage bins are included, so closed storage for laundry, toys, or clutter sits right alongside open cube shelving.\n\nTwo removable back panels let it work either as a fully open cube shelf or a semi-enclosed unit, and it can be oriented vertically as a divider or horizontally as a low console, adding real flexibility for a piece built from solid wood.",
+      "The EXPERLAM stands out as the only genuinely solid pine wood pick in this list, not MDF or particleboard dressed up to look like it. Four matching fabric storage bins are included, so closed storage for laundry, toys, or clutter sits right alongside open cube shelving.\n\nTwo removable back panels let it work either as a fully open cube shelf or a semi-enclosed unit, and it can be oriented vertically as a divider or horizontally as a low console, adding real flexibility for a piece built from solid wood.\n\nWorth calling out specifically: includes 4 matching fabric storage bins for closed storage. The catch is lower and wider than most other picks, less privacy per square foot.",
     specs: [
       "47\"L x 11.8\"W x 24\"H",
       "Solid pine wood + fabric bins",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51d9kf7kPXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CDZYCF79?tag=deskfinds0d-20",
     description:
-      "At 71.4 inches tall and 61.4 inches wide, the Homykic is the tallest and widest pick in this entire list, built from 100% bamboo rather than particleboard or MDF. Seventeen open shelves, the most of any pick here, add up to a 748 lb total capacity that dwarfs every other option.\n\nTwo anti-tilt straps help anchor a piece this large, and the genuine bamboo construction gives it a warmer, more natural look than the engineered-wood bookcases in this list. This is the pick for a real book or plant collection that needs serious shelf real estate.",
+      "At 71.4 inches tall and 61.4 inches wide, the Homykic is the tallest and widest pick in this entire list, built from 100% bamboo rather than particleboard or MDF. Seventeen open shelves, the most of any pick here, add up to a 748 lb total capacity that dwarfs every other option.\n\nTwo anti-tilt straps help anchor a piece this large, and the genuine bamboo construction gives it a warmer, more natural look than the engineered-wood bookcases in this list. This is the pick for a real book or plant collection that needs serious shelf real estate.\n\nMost individual shelves of any pick at 17. Set against that, most expensive pick in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "61.4\"W x 9.84\"D x 71.4\"H",
       "100% bamboo construction",
@@ -296,30 +296,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Freestanding storage dividers need their own stability, not a wall",
-    explanation:
-      "A true room divider is walked around on both sides, so it usually can't rely on a wall anchor the way a normal bookshelf can. When wall anchoring isn't possible, pairing two dividers back-to-back creates a freestanding, double-sided unit that's inherently more stable than a single piece standing alone, and it doubles as storage for both zones at once.",
+    "criterion": "Check freestanding stability against your actual floor type, not just an empty room demo",
+    "explanation": "A freestanding divider relies entirely on its own base footprint and panel angle for stability, with no wall support, and how well it actually stays upright varies depending on floor type, a divider that stands solidly on carpet can behave differently on hardwood or tile, and panels catching a draft from an HVAC vent can wobble more than expected.\n\nThis matters because a divider that looks stable in a still product photo can still tip or shift with regular foot traffic brushing past it.\n\nCheck reviews specifically for real-world stability mentions on floor types similar to yours, and check the base footprint width relative to the divider's height, since a taller divider needs a wider base to stay stable."
   },
   {
-    criterion: "Load heavy items low to keep the center of gravity down",
-    explanation:
-      "Heavier items like books and bins belong on the lowest shelves, with lighter or decorative pieces higher up. A top-heavy freestanding divider is far more likely to tip, especially on taller units like the Homykic bamboo tower, so loading order matters as much as the anti-tip hardware itself.",
+    "criterion": "Confirm genuine sound dampening if acoustic privacy is the actual goal, not just visual blocking",
+    "explanation": "A room divider marketed as \"acoustic\" should use a real sound-dampening material, typically a felt or fabric-wrapped panel core, that measurably reduces noise transmission, distinct from a simple solid panel or bookcase that only blocks the sightline without doing anything meaningful for sound.\n\nThis distinction matters directly if noise reduction for calls or focused work is your actual goal, since a purely visual divider does very little to dampen adjacent conversation or ambient noise regardless of how solid it looks.\n\nCheck the listing specifically for a stated acoustic material, not just the word \"acoustic\" in the title with no supporting material description."
   },
   {
-    criterion: "Match capacity to what you're actually storing",
-    explanation:
-      "Particleboard shelves in this list typically hold 30-33 lbs each, while reinforced S-shaped or bamboo designs reach 44-55 lbs per shelf. If you're dividing a room to hold a real book collection rather than light decor, prioritize the higher per-shelf ratings over a lower price.",
+    "criterion": "Match panel height to your ceiling and the actual privacy level you need",
+    "explanation": "Panel height determines both visual privacy and how much of the room's overall openness the divider preserves, a shorter divider maintains more light and airflow but offers less real privacy, while a taller divider that extends closer to the ceiling gives stronger separation at the cost of feeling like a more permanent wall.\n\nThis matters more in a room with a high ceiling, where a standard-height divider can look and feel undersized, and less in a room with a standard 8-foot ceiling where most divider heights work proportionally.\n\nCheck the listed divider height against your room's actual ceiling height and how much visual openness you want to preserve, not just the divider's general size category."
   },
   {
-    criterion: "Open shelving trades display for maintenance",
-    explanation:
-      "An open-shelf divider lets light and air move through the room and keeps items visible, but it also collects dust faster than closed storage. If you want the same divider function with less upkeep, a cube design with fabric bins like the EXPERLAM hides clutter behind fabric rather than leaving it exposed.",
+    "criterion": "Weigh assembly and mounting requirements against whether you're renting or own the space",
+    "explanation": "Room dividers span a wide range of setup requirements, from a no-drill freestanding panel that requires zero installation to a wall-mounted or track-based divider requiring drilling and potentially professional installation, and which one is appropriate depends heavily on whether you're in a rented space where drilling isn't an option, or a space you own where a more permanent installation is fine.\n\nThis matters directly for a renter, discovering after purchase that a divider requires wall-mounting hardware is a real and avoidable problem in a space where drilling isn't allowed.\n\nCheck the listing specifically for the mounting method, freestanding, no-drill, or requiring wall anchors, before ordering, especially in a rented space."
   },
   {
-    criterion: "Leave real walking clearance on both sides",
-    explanation:
-      "Plan for at least 3 feet of clearance around any freestanding storage divider so it doesn't turn a walkway into a bottleneck. Measure your room's actual traffic path, not just the floor footprint the divider itself occupies.",
-  },
+    "criterion": "Consider mobility needs if the divider will move between rooms or configurations regularly",
+    "explanation": "A divider on wheels or casters can be repositioned easily between rooms or reconfigured for different layouts throughout the week, useful for anyone who needs flexible zoning rather than a permanent room split, but wheels also mean the divider is inherently less stable than a fixed-base design and can shift underfoot if bumped.\n\nThis matters more if you genuinely need to move the divider often, like separating a home office from a living space only during work hours, less if it'll stay in one position long-term.\n\nCheck whether casters are lockable to prevent unwanted movement once positioned, and weigh mobility against the reduced stability it typically brings."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -332,68 +327,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By How Much You're Storing",
-    intro:
-      "The picks in this list range from a light 2-shelf folding screen to a 748 lb-capacity bamboo tower, so match the divider to what you'll actually load onto it.",
-    table: {
-      headers: ["What you're storing", "Capacity needed", "Best pick"],
-      rows: [
-        ["A lamp, plants, or a few books", "Under 100 lbs total", "FDW 4-Panel with 2 Shelves"],
-        ["A modest book or decor collection", "165-180 lbs total", "VASAGLE CUSTOS, Furologee S-Shaped"],
-        ["Mixed open shelving plus closed bins", "Moderate, spread across cubes", "EXPERLAM 8-Cube with Bins"],
-        ["A large book or plant collection", "700 lbs+", "Homykic 6-Tier Bamboo"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "EXPERLAM 8"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "VASAGLE CUSTOS 5"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Storage Style You Need",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $60",
+          "VASAGLE CUSTOS 5"
+        ],
+        [
+          "Up to $159",
+          "Homykic 6"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Built-In Storage vs Panel-Only",
+    "cards": [
       {
-        label: "Want everything visible and easy to grab",
-        text: "VASAGLE CUSTOS and Homykic use fully open shelving, the fastest way to see and reach everything stored on the divider.",
+        "label": "Built-in storage (bookcase/cube)",
+        "text": "Doubles as shelving while dividing the room, useful in a smaller space. In this comparison: VASAGLE CUSTOS 5, Furologee 6, FDW 4, Yusong 5, EXPERLAM 8, Homykic 6."
       },
       {
-        label: "Want to hide clutter, not just store it",
-        text: "The EXPERLAM's 4 fabric bins tuck loose items like toys or laundry out of sight while still leaving open cube shelves for display.",
-      },
-      {
-        label: "Want a traditional privacy screen with a little storage",
-        text: "The FDW 4-Panel folds flat like a standard screen but includes 2 solid shelves, a middle ground between a pure screen and a full bookcase.",
-      },
-      {
-        label: "Might repurpose it later",
-        text: "The Furologee S-Shaped works as a divider, wine rack, or TV stand, useful if your room layout isn't final yet.",
-      },
+        "label": "Panel-only",
+        "text": "Simpler, focused purely on visual or acoustic separation. In this comparison: Gadroad 5."
+      }
     ],
+    "note": "Default to panel-only unless built-in storage genuinely solves a real space problem for you."
   },
   {
-    subheading: "By Room Size and Layout",
-    intro:
-      "A narrow apartment nook and a large open-concept room call for very different footprints to look proportional rather than cramped or lost.",
-    table: {
-      headers: ["Room type", "Recommended footprint", "Best pick"],
-      rows: [
-        ["Narrow apartment or studio nook", "Slim under 15\" wide", "Furologee S-Shaped"],
-        ["Standard living room or bedroom", "27-31\" wide", "VASAGLE CUSTOS, Gadroad, FDW"],
-        ["Low console or entryway divider", "Wide but low, 24\" tall", "EXPERLAM 8-Cube"],
-        ["Large open-concept great room", "60\"+ wide", "Homykic 6-Tier Bamboo"],
-      ],
-    },
+    "subheading": "By Panel Height",
+    "note": "Check each pick's listed panel height against your room's ceiling and the actual privacy level you need before buying. VASAGLE CUSTOS 5 is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Stability Reality Check for Freestanding Storage",
-    intro:
-      "Since most storage dividers in this list can't be wall-anchored on both sides, base design and loading habits are what actually keep them upright.",
-    table: {
-      headers: ["Pick", "Stability feature", "Extra tip"],
-      rows: [
-        ["VASAGLE CUSTOS", "Wide rectangular base + anti-tip kit", "Load books on the bottom 2 shelves first"],
-        ["Furologee / Gadroad / Yusong S-Shaped", "Low, wide S-curve base", "Curve distributes weight better than a straight column"],
-        ["Homykic 6-Tier Bamboo", "2 anti-tilt straps for its 71.4\" height", "Anchor to a wall stud if the layout allows it"],
-      ],
-    },
-    note: "If wall anchoring isn't an option in a rental, positioning two dividers back-to-back creates a freestanding, double-sided unit that resists tipping far better than a single piece standing alone, while giving each side of the room its own storage.",
+    "subheading": "For a Rented Space Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine freestanding or no-drill design that requires zero wall modification, not a divider that turns out to need wall anchors."
+      },
+      {
+        "label": "In this comparison",
+        "text": "VASAGLE CUSTOS 5 is worth checking against its listed mounting method before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real acoustic dampening or a taller, more stable divider, where Homykic 6's material and construction give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need light visual separation without noise or stability concerns, where VASAGLE CUSTOS 5 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

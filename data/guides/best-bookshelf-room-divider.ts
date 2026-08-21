@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41tIPFRL6WL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CR2Y9BYR?tag=deskfinds0d-20",
     description:
-      "The Furologee's S-shaped silhouette is what makes it a true room divider rather than a wall-hugging bookcase: the curved zigzag of shelves reads well from both sides, so it can sit in the middle of a studio or open floor plan without an obvious 'back.' Six tiers split into two staggered sections for 12 total compartments, and the brand markets it as a triple-purpose piece, working equally well as a wine rack or a TV stand depending on where you place it.\n\nP2-grade MDF panels pair with a powder-coated metal frame for a look that's warmer than typical industrial shelving, and the whole unit is waterproof and scratch-resistant for durability in a busy shared space. An anti-tip kit and non-slip pads come included, and each shelf holds up to 30 lbs for a total capacity of 180 lbs across the unit.",
+      "The Furologee's S-shaped silhouette is what makes it a true room divider rather than a wall-hugging bookcase: the curved zigzag of shelves reads well from both sides, so it can sit in the middle of a studio or open floor plan without an obvious 'back.' Six tiers split into two staggered sections for 12 total compartments, and the brand markets it as a triple-purpose piece, working equally well as a wine rack or a TV stand depending on where you place it.\n\nP2-grade MDF panels pair with a powder-coated metal frame for a look that's warmer than typical industrial shelving, and the whole unit is waterproof and scratch-resistant for durability in a busy shared space. An anti-tip kit and non-slip pads come included, and each shelf holds up to 30 lbs for a total capacity of 180 lbs across the unit.\n\nLooks good from both sides, ideal for open floor plans. That's a real strength, but weigh it against the flip side: 180 lb total capacity is modest next to taller straight bookshelves.",
     specs: [
       "15\"W x 9.4\"D x 57.5\"H",
       "P2-grade MDF + metal frame",
@@ -84,7 +84,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Afb0kNbFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D3FWVTLL?tag=deskfinds0d-20",
     description:
-      "This is the same S-shaped divider as our top pick, reworked in a Light Black Oak tone that leans more industrial than rustic. The frame's edges are sealed and screw holes are covered for a cleaner finish overall, a small but noticeable upgrade if you plan on viewing the piece from every angle in an open room.\n\nLike the Rustic Brown version, it can be installed vertically as a tall bookshelf or laid on its side horizontally, giving some flexibility in how it divides a space. Six shelves across two staggered sections still add up to 12 compartments, with an anti-tip kit included and each shelf rated for 30 lbs, for 150 lbs total.",
+      "This is the same S-shaped divider as our top pick, reworked in a Light Black Oak tone that leans more industrial than rustic. The frame's edges are sealed and screw holes are covered for a cleaner finish overall, a small but noticeable upgrade if you plan on viewing the piece from every angle in an open room.\n\nLike the Rustic Brown version, it can be installed vertically as a tall bookshelf or laid on its side horizontally, giving some flexibility in how it divides a space. Six shelves across two staggered sections still add up to 12 compartments, with an anti-tip kit included and each shelf rated for 30 lbs, for 150 lbs total.\n\nWorth calling out specifically: can be installed vertically or laid horizontally. The catch is slightly lower total capacity than the Rustic Brown version.",
     specs: [
       "15\"W x 9.4\"D x 57.5\"H",
       "P2-grade MDF + powder-coated metal",
@@ -117,7 +117,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41jJ8ERvqQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXXG3HVR?tag=deskfinds0d-20",
     description:
-      "The Gadroad steps up in both size and strength compared to the Furologee pair, with a wider 27.6-inch footprint and shelves rated for 44 lbs each, the highest per-shelf capacity of any S-shaped divider in this guide. Engineered wood shelves sit on a metal frame in a geometric zigzag that still functions as a light-permeable room divider despite the added bulk.\n\nA clean white finish gives it a more modern, less rustic feel than the Furologee options, and it comes backed by a 1-year warranty plus round-the-clock customer service, useful reassurance for a piece meant to anchor the middle of a room.",
+      "The Gadroad steps up in both size and strength compared to the Furologee pair, with a wider 27.6-inch footprint and shelves rated for 44 lbs each, the highest per-shelf capacity of any S-shaped divider in this guide. Engineered wood shelves sit on a metal frame in a geometric zigzag that still functions as a light-permeable room divider despite the added bulk.\n\nA clean white finish gives it a more modern, less rustic feel than the Furologee options, and it comes backed by a 1-year warranty plus round-the-clock customer service, useful reassurance for a piece meant to anchor the middle of a room.\n\nWider 27.6-inch footprint holds more per section. Set against that, larger footprint takes up more floor space than the Furologee. Both matter when comparing it to the other picks here.",
     specs: [
       "27.6\"W x 11.8\"D x 62\"H",
       "Engineered wood + metal frame",
@@ -150,7 +150,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51JOxRZSvmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09X2N5PXG?tag=deskfinds0d-20",
     description:
-      "At 79 inches, the Tribesigns is the tallest solid bookshelf in this guide, and its 8-tier staggered layout is deliberately open-backed so it functions as a room divider without fully blocking light or sightlines the way a solid wall unit would. E1 particle board shelves sit in a heavy-duty metal frame rated for 200 lbs total, and the piece ships with a wall anchor kit for extra stability given its height.\n\nIt also carries the highest customer rating in this entire guide at 4.7 stars. For anyone who wants a divider that reads more like a traditional bookshelf than a curved sculptural piece, but still lets light filter through, this is the strongest option here.",
+      "At 79 inches, the Tribesigns is the tallest solid bookshelf in this guide, and its 8-tier staggered layout is deliberately open-backed so it functions as a room divider without fully blocking light or sightlines the way a solid wall unit would. E1 particle board shelves sit in a heavy-duty metal frame rated for 200 lbs total, and the piece ships with a wall anchor kit for extra stability given its height.\n\nIt also carries the highest customer rating in this entire guide at 4.7 stars. For anyone who wants a divider that reads more like a traditional bookshelf than a curved sculptural piece, but still lets light filter through, this is the strongest option here.\n\nA genuine advantage here is that staggered open-back design lets light pass through. The tradeoff is bulkier footprint than the S-shaped picks.",
     specs: [
       "39.3\"W x 11.8\"D x 79\"H",
       "E1 particle board + heavy-duty metal frame",
@@ -183,7 +183,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51MEtLxD6kL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFF2M45V?tag=deskfinds0d-20",
     description:
-      "The HSH is the tallest bookshelf in this entire guide at 84.4 inches, built around 4 metal frames with X-bracing for stability at that height. P2-grade MDF shelves are rated for a massive 220 lbs each, adding up to 1,320 lbs total, more than enough for a divider loaded with books, bins, and decor on both sides.\n\nAdjustable levelers correct for uneven flooring, and anti-tip kits keep the tall frame secured, both important details for a piece this size standing freely in the middle of a room. It also holds the highest customer rating and review count of any pick in this guide, a strong signal of reliability at scale.",
+      "The HSH is the tallest bookshelf in this entire guide at 84.4 inches, built around 4 metal frames with X-bracing for stability at that height. P2-grade MDF shelves are rated for a massive 220 lbs each, adding up to 1,320 lbs total, more than enough for a divider loaded with books, bins, and decor on both sides.\n\nAdjustable levelers correct for uneven flooring, and anti-tip kits keep the tall frame secured, both important details for a piece this size standing freely in the middle of a room. It also holds the highest customer rating and review count of any pick in this guide, a strong signal of reliability at scale.\n\nEnormous 1,320 lb total weight capacity. That's a real strength, but weigh it against the flip side: most expensive pick in this guide besides the widest option.",
     specs: [
       "47.2\"W x 12.7\"D x 84.4\"H (tallest in this guide)",
       "P2-grade MDF + iron",
@@ -216,7 +216,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51OXUOdhrKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B3J58T4N?tag=deskfinds0d-20",
     description:
-      "The IRONCK spans 70.9 inches wide, the widest single bookshelf in this guide, making it well suited to splitting a large open room in one continuous piece rather than combining smaller units. Four metal frames support the structure, and unique upright fence panels along each shelf edge stop books and decor from sliding or falling off, a detail none of the other picks here include.\n\nEach shelf is rated for 220 lbs, for 1,320 lbs total, matching the HSH's capacity while offering a much wider footprint. Two anti-toppling brackets anchor the piece for safety when placed freestanding in the middle of a room.",
+      "The IRONCK spans 70.9 inches wide, the widest single bookshelf in this guide, making it well suited to splitting a large open room in one continuous piece rather than combining smaller units. Four metal frames support the structure, and unique upright fence panels along each shelf edge stop books and decor from sliding or falling off, a detail none of the other picks here include.\n\nEach shelf is rated for 220 lbs, for 1,320 lbs total, matching the HSH's capacity while offering a much wider footprint. Two anti-toppling brackets anchor the piece for safety when placed freestanding in the middle of a room.\n\nWorth calling out specifically: unique fence panels stop items from falling off. The catch is most expensive pick in this guide.",
     specs: [
       "70.9\"W x 11.8\"D x 72.8\"H (widest in this guide)",
       "P2-grade MDF + iron",
@@ -249,7 +249,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/5173Dik0hvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCGH38DZ?tag=deskfinds0d-20",
     description:
-      "The Keyluv is the only pick in this guide with 2 enclosed cabinet doors, giving it a mix of open display shelves and private, dust-free storage that the other tall bookshelves here don't offer. It's built around a notably thick 1.1-inch alloy steel frame paired with 0.6-inch particle board shelving, and the brand specifically designed it to be combined with additional units side by side to form a longer room divider.\n\nSix open tiers plus the enclosed cabinet section give 45 lbs of capacity per shelf, for 150 lbs total, and an anti-tip kit keeps the 76-inch frame stable. If you want to close off a portion of your storage while still dividing a room, this is the pick built for that specific use case.",
+      "The Keyluv is the only pick in this guide with 2 enclosed cabinet doors, giving it a mix of open display shelves and private, dust-free storage that the other tall bookshelves here don't offer. It's built around a notably thick 1.1-inch alloy steel frame paired with 0.6-inch particle board shelving, and the brand specifically designed it to be combined with additional units side by side to form a longer room divider.\n\nSix open tiers plus the enclosed cabinet section give 45 lbs of capacity per shelf, for 150 lbs total, and an anti-tip kit keeps the 76-inch frame stable. If you want to close off a portion of your storage while still dividing a room, this is the pick built for that specific use case.\n\nThickest 1.1-inch alloy steel frame in this guide. Set against that, smallest review count in this guide (79 ratings). Both matter when comparing it to the other picks here.",
     specs: [
       "39\"W x 12\"D x 76\"H",
       "1.1\" alloy steel frame + 0.6\" particle board",
@@ -275,50 +275,25 @@ export const products: GuideProduct[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "S-shaped vs tall straight dividers",
-    explanation:
-      "S-shaped designs like the Furologee and Gadroad picks are true room dividers meant to sit in the middle of a room, looking finished from both sides while letting light and sightlines pass through the curves. Tall straight bookshelves like the Tribesigns, HSH, IRONCK, and Keyluv work best as 'open shelving partitions' when placed side by side or back to back to close off a longer stretch of space.",
+    "criterion": "Check freestanding stability against your actual floor type, not just an empty room demo",
+    "explanation": "A freestanding divider relies entirely on its own base footprint and panel angle for stability, with no wall support, and how well it actually stays upright varies depending on floor type, a divider that stands solidly on carpet can behave differently on hardwood or tile, and panels catching a draft from an HVAC vent can wobble more than expected.\n\nThis matters because a divider that looks stable in a still product photo can still tip or shift with regular foot traffic brushing past it.\n\nCheck reviews specifically for real-world stability mentions on floor types similar to yours, and check the base footprint width relative to the divider's height, since a taller divider needs a wider base to stay stable."
   },
   {
-    criterion: "Height and ceiling clearance",
-    explanation:
-      "Height ranges from 57.5 inches on the compact Furologee units up to 84.4 inches on the HSH. Taller pieces divide a room more completely but need wall anchoring and enough ceiling clearance, while shorter S-shaped units stay more visually open.",
+    "criterion": "Confirm genuine sound dampening if acoustic privacy is the actual goal, not just visual blocking",
+    "explanation": "A room divider marketed as \"acoustic\" should use a real sound-dampening material, typically a felt or fabric-wrapped panel core, that measurably reduces noise transmission, distinct from a simple solid panel or bookcase that only blocks the sightline without doing anything meaningful for sound.\n\nThis distinction matters directly if noise reduction for calls or focused work is your actual goal, since a purely visual divider does very little to dampen adjacent conversation or ambient noise regardless of how solid it looks.\n\nCheck the listing specifically for a stated acoustic material, not just the word \"acoustic\" in the title with no supporting material description."
   },
   {
-    criterion: "Weight capacity",
-    explanation:
-      "Per-shelf capacity ranges widely in this guide, from 30 lbs on the compact Furologee dividers up to 220 lbs per shelf on the HSH and IRONCK. Match capacity to what you actually plan to store, books add up quickly compared to decor alone.",
+    "criterion": "Match panel height to your ceiling and the actual privacy level you need",
+    "explanation": "Panel height determines both visual privacy and how much of the room's overall openness the divider preserves, a shorter divider maintains more light and airflow but offers less real privacy, while a taller divider that extends closer to the ceiling gives stronger separation at the cost of feeling like a more permanent wall.\n\nThis matters more in a room with a high ceiling, where a standard-height divider can look and feel undersized, and less in a room with a standard 8-foot ceiling where most divider heights work proportionally.\n\nCheck the listed divider height against your room's actual ceiling height and how much visual openness you want to preserve, not just the divider's general size category."
   },
   {
-    criterion: "Open vs enclosed storage",
-    explanation:
-      "Most picks here are fully open for a light, airy divide, but the Keyluv adds 2 cabinet doors for anyone who wants part of their storage hidden from view while still dividing the room.",
+    "criterion": "Weigh assembly and mounting requirements against whether you're renting or own the space",
+    "explanation": "Room dividers span a wide range of setup requirements, from a no-drill freestanding panel that requires zero installation to a wall-mounted or track-based divider requiring drilling and potentially professional installation, and which one is appropriate depends heavily on whether you're in a rented space where drilling isn't an option, or a space you own where a more permanent installation is fine.\n\nThis matters directly for a renter, discovering after purchase that a divider requires wall-mounting hardware is a real and avoidable problem in a space where drilling isn't allowed.\n\nCheck the listing specifically for the mounting method, freestanding, no-drill, or requiring wall anchors, before ordering, especially in a rented space."
   },
   {
-    criterion: "Footprint and floor space",
-    explanation:
-      "S-shaped dividers use a narrower footprint (around 9-12 inches deep) and work well in smaller rooms, while the wide IRONCK at 70.9 inches needs a larger open area to make sense as a divider rather than a wall-hugging bookcase.",
-  },
-  {
-    criterion: "Stability hardware",
-    explanation:
-      "Because these pieces stand freely without wall support in many divider setups, look for included anti-tip kits, wall anchor kits, or anti-toppling brackets, called out on every pick in this guide, to keep a tall freestanding unit safely secured.",
-  },
-  {
-    criterion: "Ideal divider height",
-    explanation:
-      "How much of the room you actually want to close off should drive your height choice. A half-wall height around 3-4.5 feet, closer to the Furologee's 57.5 inches, mainly creates a visual boundary between zones while keeping sightlines and light open. A taller 72-84 inch piece, like the Tribesigns, HSH, or IRONCK, creates real privacy between the two sides without extending all the way to the ceiling.",
-  },
-  {
-    criterion: "Clearance around the divider",
-    explanation:
-      "Since a room divider gets walked around on both sides rather than pushed against a wall, leave at least 3 feet of clear walking space around it in addition to whatever floor space the piece itself occupies, more if the divider is near a main walkway.",
-  },
-  {
-    criterion: "Anchoring is harder for a true room divider",
-    explanation:
-      "A freestanding piece meant to be walked around on both sides usually can't be strapped to a wall the way a normal bookshelf can, so it's especially prone to tipping if it's tall and narrow. That makes a wide, heavy base and low center of gravity more important here than for a wall-adjacent bookshelf, look for the widest footprint and heaviest frame you can fit, and use any included anti-tip or anti-toppling brackets even when they can't anchor to a wall stud.",
-  },
+    "criterion": "Consider mobility needs if the divider will move between rooms or configurations regularly",
+    "explanation": "A divider on wheels or casters can be repositioned easily between rooms or reconfigured for different layouts throughout the week, useful for anyone who needs flexible zoning rather than a permanent room split, but wheels also mean the divider is inherently less stable than a fixed-base design and can shift underfoot if bumped.\n\nThis matters more if you genuinely need to move the divider often, like separating a home office from a living space only during work hours, less if it'll stay in one position long-term.\n\nCheck whether casters are lockable to prevent unwanted movement once positioned, and weigh mobility against the reduced stability it typically brings."
+  }
 ];
 
 export const faq: FaqItem[] = [

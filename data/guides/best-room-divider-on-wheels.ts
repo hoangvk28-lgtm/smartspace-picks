@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/412nDJFwHPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMDTGYK2?tag=deskfinds0d-20",
     description:
-      "SUNALLY pairs a powder-coated steel frame with 240gsm polyester, the thickest fabric of any 4-panel wheeled divider in this list, so it blocks more light and sightline than the thinner options at a similar price. Each panel rolls on 4 silent PE lockable wheels that won't scratch hardwood or scuff softly across carpet.\n\nExtended, widened feet give it a noticeably steadier stance once the wheels are locked than most 4-panel dividers, and the wrinkle, abrasion, and water-resistant fabric holds up better to daily bumping than a standard folding screen. At 88 inches wide by 72 inches tall, it splits a room cleanly without needing a second unit.",
+      "SUNALLY pairs a powder-coated steel frame with 240gsm polyester, the thickest fabric of any 4-panel wheeled divider in this list, so it blocks more light and sightline than the thinner options at a similar price. Each panel rolls on 4 silent PE lockable wheels that won't scratch hardwood or scuff softly across carpet.\n\nExtended, widened feet give it a noticeably steadier stance once the wheels are locked than most 4-panel dividers, and the wrinkle, abrasion, and water-resistant fabric holds up better to daily bumping than a standard folding screen. At 88 inches wide by 72 inches tall, it splits a room cleanly without needing a second unit.\n\nSilent PE wheels that won't scratch floors. That's a real strength, but weigh it against the flip side: only 4 wheels per panel, fewer than some competitors.",
     specs: [
       "88\"W x 72\"H, 4 panels",
       "240gsm polyester + powder-coated steel",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41YngJMiXvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C7BHSXG7?tag=deskfinds0d-20",
     description:
-      "HOMSCREENER's 4-panel divider carries 10 self-locking universal PE castors, the most of any 4-panel pick in this list, spread across a 17.7-inch metal base that's also the longest in the group. That combination makes it the steadiest 4-panel option to roll into place and lock down without it drifting on an uneven floor.\n\nDouble hinges let it fold into L, W, C, or Z configurations, so it can wrap a corner or hug an irregular room shape instead of only standing in a straight line. At 88 inches wide and 71.3 inches tall, it covers roughly the same footprint as the top pick but leans harder into reconfigurability.",
+      "HOMSCREENER's 4-panel divider carries 10 self-locking universal PE castors, the most of any 4-panel pick in this list, spread across a 17.7-inch metal base that's also the longest in the group. That combination makes it the steadiest 4-panel option to roll into place and lock down without it drifting on an uneven floor.\n\nDouble hinges let it fold into L, W, C, or Z configurations, so it can wrap a corner or hug an irregular room shape instead of only standing in a straight line. At 88 inches wide and 71.3 inches tall, it covers roughly the same footprint as the top pick but leans harder into reconfigurability.\n\nWorth calling out specifically: longest 17.7\" metal base for stability. The catch is lower 3.9-star average than most other picks here.",
     specs: [
       "88\"W x 71.3\"H, 4 panels",
       "240gsm polyester + steel",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GuCphr6pL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJ98HRR5?tag=deskfinds0d-20",
     description:
-      "Stepping up to 6 panels, this HOMSCREENER divider spans 132 inches wide, the widest pick in this entire list, making it the option for a genuinely large open floor plan a 4-panel unit can't fully close off. It still rolls on 8 self-lockable PE universal wheels, and the 240gsm fabric is the thickest among the 6-panel picks here.\n\nThe steel tube frame is scratch-resistant and rust-proof, a detail worth noting on a wide piece that gets rolled and repositioned more often than a fixed screen. At 72 inches tall it delivers full privacy across the entire width.",
+      "Stepping up to 6 panels, this HOMSCREENER divider spans 132 inches wide, the widest pick in this entire list, making it the option for a genuinely large open floor plan a 4-panel unit can't fully close off. It still rolls on 8 self-lockable PE universal wheels, and the 240gsm fabric is the thickest among the 6-panel picks here.\n\nThe steel tube frame is scratch-resistant and rust-proof, a detail worth noting on a wide piece that gets rolled and repositioned more often than a fixed screen. At 72 inches tall it delivers full privacy across the entire width.\n\nThickest fabric in the 6-panel group. Set against that, fewer wheels per panel than the 4-panel options. Both matter when comparing it to the other picks here.",
     specs: [
       "132\"W x 72\"H, 6 panels",
       "240gsm polyester + steel tube",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31qktdguQHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BDL4GYLV?tag=deskfinds0d-20",
     description:
-      "Giantex loads its 6-panel, 132-inch beige divider with 14 universal lockable casters, more than any other pick in this list, at 1.5 inches in diameter each. That density of wheels means every panel gets independent rolling and locking, which matters when you're squaring up a long divider across an uneven room.\n\nThe powder-coated metal frame resists rust, and durable buckle connections hold the panels together more securely than simple hinge pins. It configures into either an L or a straight W shape, and the neutral beige tone blends into more decor styles than the black options dominating this list.",
+      "Giantex loads its 6-panel, 132-inch beige divider with 14 universal lockable casters, more than any other pick in this list, at 1.5 inches in diameter each. That density of wheels means every panel gets independent rolling and locking, which matters when you're squaring up a long divider across an uneven room.\n\nThe powder-coated metal frame resists rust, and durable buckle connections hold the panels together more securely than simple hinge pins. It configures into either an L or a straight W shape, and the neutral beige tone blends into more decor styles than the black options dominating this list.\n\nA genuine advantage here is that powder-coated rust-resistant frame. The tradeoff is slightly shorter at 68\" than most 6-panel picks.",
     specs: [
       "132\"W x 68\"H, 6 panels",
       "Polyester + powder-coated metal",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31anmTx6WcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXL5NCN8?tag=deskfinds0d-20",
     description:
-      "GOFLAME's grey 4-panel divider rolls on 10 lockable 360-degree swivel wheels with individual brakes on each one, so you can lock down exactly the panels you need steady while leaving others free to adjust. That per-wheel control is unusual at this price point and helps on floors that aren't perfectly level.\n\nIt folds down to just 22 inches wide when not in use, the most compact fold of any pick in this list, making it the easiest to tuck into a closet or behind furniture. L, W, and C-shaped configurations cover most common room layouts at 89 inches wide by 68 inches tall.",
+      "GOFLAME's grey 4-panel divider rolls on 10 lockable 360-degree swivel wheels with individual brakes on each one, so you can lock down exactly the panels you need steady while leaving others free to adjust. That per-wheel control is unusual at this price point and helps on floors that aren't perfectly level.\n\nIt folds down to just 22 inches wide when not in use, the most compact fold of any pick in this list, making it the easiest to tuck into a closet or behind furniture. L, W, and C-shaped configurations cover most common room layouts at 89 inches wide by 68 inches tall.\n\nFolds down to the most compact width in the 4-panel group at just 22\". That's a real strength, but weigh it against the flip side: shorter 68\" height than the top two 4-panel picks.",
     specs: [
       "89\"W x 68\"H, 4 panels",
       "Polyester + metal",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21MKrKyQK7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DG54HMNC?tag=deskfinds0d-20",
     description:
-      "MAYOLIAH takes a different approach: one large 71-inch-wide panel instead of several folding sections, reaching 75 inches tall, the tallest pick in this entire list. A no-gap design held together with 6 fasteners means there's no seam for anyone to see through, making it the most private option here by design rather than by fabric thickness alone.\n\nFour lockable wheels keep the single panel steady once rolled into place, and the fabric is waterproof and non-see-through even under direct light. It's also the cheapest pick in this list, a strong value if you don't need multiple folding panels.",
+      "MAYOLIAH takes a different approach: one large 71-inch-wide panel instead of several folding sections, reaching 75 inches tall, the tallest pick in this entire list. A no-gap design held together with 6 fasteners means there's no seam for anyone to see through, making it the most private option here by design rather than by fabric thickness alone.\n\nFour lockable wheels keep the single panel steady once rolled into place, and the fabric is waterproof and non-see-through even under direct light. It's also the cheapest pick in this list, a strong value if you don't need multiple folding panels.\n\nWorth calling out specifically: no-gap 6-fastener design blocks sightlines completely. The catch is only 4 wheels, fewer than the multi-panel picks.",
     specs: [
       "71\"W x 75\"H, single panel",
       "Fabric + iron",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/316-kiRX-PL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZNRLW9S?tag=deskfinds0d-20",
     description:
-      "Kokorona's grey 6-panel divider is the only pick in this list that ships with cover strips designed specifically to hide the gaps between panels, a detail that matters more than it sounds, since folding screens usually leak sightlines right at each hinge. It spans 119 inches wide and 70 inches tall on 180gsm polyester over an iron frame.\n\nSeven sets of lockable wheels roll it into place, and large support feet add extra tip resistance beyond the wheels themselves. The fabric is waterproof and tear-resistant, holding up to the kind of daily bumping a rolling divider takes on more than a fixed screen.",
+      "Kokorona's grey 6-panel divider is the only pick in this list that ships with cover strips designed specifically to hide the gaps between panels, a detail that matters more than it sounds, since folding screens usually leak sightlines right at each hinge. It spans 119 inches wide and 70 inches tall on 180gsm polyester over an iron frame.\n\nSeven sets of lockable wheels roll it into place, and large support feet add extra tip resistance beyond the wheels themselves. The fabric is waterproof and tear-resistant, holding up to the kind of daily bumping a rolling divider takes on more than a fixed screen.\n\n7 lockable wheel sets. Set against that, thinner 180gsm fabric than the 240gsm picks in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "119\"W x 70\"H, 6 panels",
       "180gsm polyester + iron",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41nRpYgy7WL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GK97X5WP?tag=deskfinds0d-20",
     description:
-      "This 3-panel HOMSCREENER is the only genuinely soundproof pick in this list, absorbing over 85% of noise thanks to an ECO PET core layered with polyester fabric, a meaningful upgrade over the purely visual privacy every other divider here offers. It's built for a home office or studio where noise bleed, not just sightlines, is the actual problem.\n\nIt also carries the most wheels of any pick in this list at 12 self-locking casters, and zipper connections join the panels more securely than standard hinges. A tackable surface lets you pin fabric swatches or notes directly to the panel, a small bonus most acoustic dividers skip.",
+      "This 3-panel HOMSCREENER is the only genuinely soundproof pick in this list, absorbing over 85% of noise thanks to an ECO PET core layered with polyester fabric, a meaningful upgrade over the purely visual privacy every other divider here offers. It's built for a home office or studio where noise bleed, not just sightlines, is the actual problem.\n\nIt also carries the most wheels of any pick in this list at 12 self-locking casters, and zipper connections join the panels more securely than standard hinges. A tackable surface lets you pin fabric swatches or notes directly to the panel, a small bonus most acoustic dividers skip.\n\nA genuine advantage here is that most wheels of any pick at 12. The tradeoff is by far the most expensive pick, over 3x most others in this list.",
     specs: [
       "72\"W x 66\"H, 3 panels",
       "ECO PET + polyester fabric",
@@ -328,30 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Check your floor before trusting the wheels alone",
-    explanation:
-      "A rolling divider without self-leveling casters can rock or eventually tip on an uneven floor, so run a level across the spot you plan to use before buying. On smooth hardwood or tile, the wheels themselves can slide even when locked, so budget for rubber floor pads if you're on a hard surface rather than carpet.",
+    "criterion": "Check freestanding stability against your actual floor type, not just an empty room demo",
+    "explanation": "A freestanding divider relies entirely on its own base footprint and panel angle for stability, with no wall support, and how well it actually stays upright varies depending on floor type, a divider that stands solidly on carpet can behave differently on hardwood or tile, and panels catching a draft from an HVAC vent can wobble more than expected.\n\nThis matters because a divider that looks stable in a still product photo can still tip or shift with regular foot traffic brushing past it.\n\nCheck reviews specifically for real-world stability mentions on floor types similar to yours, and check the base footprint width relative to the divider's height, since a taller divider needs a wider base to stay stable."
   },
   {
-    criterion: "Lock every wheel, not just the corners",
-    explanation:
-      "Some dividers only lock the corner casters while the middle wheels stay free-rolling, which leaves the whole unit able to pivot or creep even when it looks locked. Picks in this list with individually lockable wheels on every panel, like the GOFLAME and Kokorona, give you more control on an imperfect floor than corner-only locking designs.",
+    "criterion": "Confirm genuine sound dampening if acoustic privacy is the actual goal, not just visual blocking",
+    "explanation": "A room divider marketed as \"acoustic\" should use a real sound-dampening material, typically a felt or fabric-wrapped panel core, that measurably reduces noise transmission, distinct from a simple solid panel or bookcase that only blocks the sightline without doing anything meaningful for sound.\n\nThis distinction matters directly if noise reduction for calls or focused work is your actual goal, since a purely visual divider does very little to dampen adjacent conversation or ambient noise regardless of how solid it looks.\n\nCheck the listing specifically for a stated acoustic material, not just the word \"acoustic\" in the title with no supporting material description."
   },
   {
-    criterion: "A wider base beats a taller frame for tip resistance",
-    explanation:
-      "Height alone doesn't cause tipping, a narrow base under a tall panel does. The picks with the longest metal base or the most support feet in this list, like the HOMSCREENER 4-panel and Kokorona, sit more securely once rolled into place than a tall, narrow single panel on minimal feet.",
+    "criterion": "Match panel height to your ceiling and the actual privacy level you need",
+    "explanation": "Panel height determines both visual privacy and how much of the room's overall openness the divider preserves, a shorter divider maintains more light and airflow but offers less real privacy, while a taller divider that extends closer to the ceiling gives stronger separation at the cost of feeling like a more permanent wall.\n\nThis matters more in a room with a high ceiling, where a standard-height divider can look and feel undersized, and less in a room with a standard 8-foot ceiling where most divider heights work proportionally.\n\nCheck the listed divider height against your room's actual ceiling height and how much visual openness you want to preserve, not just the divider's general size category."
   },
   {
-    criterion: "Wood dividers are more durable but heavier to roll",
-    explanation:
-      "Wood and metal-framed panels hold up to daily wear better than fabric alone and keep their shape longer, but that added weight makes them harder to reposition, even with wheels attached. If you're moving the divider often, a lighter fabric-over-metal design like most picks in this list will roll more easily than a solid wood equivalent.",
+    "criterion": "Weigh assembly and mounting requirements against whether you're renting or own the space",
+    "explanation": "Room dividers span a wide range of setup requirements, from a no-drill freestanding panel that requires zero installation to a wall-mounted or track-based divider requiring drilling and potentially professional installation, and which one is appropriate depends heavily on whether you're in a rented space where drilling isn't an option, or a space you own where a more permanent installation is fine.\n\nThis matters directly for a renter, discovering after purchase that a divider requires wall-mounting hardware is a real and avoidable problem in a space where drilling isn't allowed.\n\nCheck the listing specifically for the mounting method, freestanding, no-drill, or requiring wall anchors, before ordering, especially in a rented space."
   },
   {
-    criterion: "Fabric weight determines both privacy and durability",
-    explanation:
-      "Thin fabric under roughly 150gsm can show wrinkles, sag, or wear through faster with repeated folding and rolling. The 240gsm polyester used on the top picks here is noticeably more resistant to abrasion and tearing than the thinner options, worth prioritizing if the divider will be folded and rolled frequently rather than left in one spot.",
-  },
+    "criterion": "Consider mobility needs if the divider will move between rooms or configurations regularly",
+    "explanation": "A divider on wheels or casters can be repositioned easily between rooms or reconfigured for different layouts throughout the week, useful for anyone who needs flexible zoning rather than a permanent room split, but wheels also mean the divider is inherently less stable than a fixed-base design and can shift underfoot if bumped.\n\nThis matters more if you genuinely need to move the divider often, like separating a home office from a living space only during work hours, less if it'll stay in one position long-term.\n\nCheck whether casters are lockable to prevent unwanted movement once positioned, and weigh mobility against the reduced stability it typically brings."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -364,69 +359,102 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Flooring Type",
-    intro:
-      "Hard, smooth flooring and carpet create very different rolling and locking challenges, so match the wheel design to what's actually underfoot.",
-    table: {
-      headers: ["Floor type", "What to look for", "Best pick"],
-      rows: [
-        ["Hardwood or tile", "Silent, non-marking wheels", "SUNALLY 4-Panel"],
-        ["Carpet or uneven floor", "Most independently locking wheels", "Giantex 6-Panel (14 casters)"],
-        ["Mixed floor, frequent repositioning", "Per-wheel brakes for fine control", "GOFLAME 4-Panel"],
-        ["Uneven older floors, need max wheel count", "12+ self-locking casters", "HOMSCREENER 3-Panel Soundproof"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "HOMSCREENER 3"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "SUNALLY 4"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Room Width and Panel Count",
-    intro:
-      "Panel count and total unfolded width determine how much of a room you can actually close off in one pass.",
-    table: {
-      headers: ["Room size", "Width needed", "Best pick"],
-      rows: [
-        ["Small room or single doorway split", "70-90\"", "MAYOLIAH Single Panel or SUNALLY 4-Panel"],
-        ["Mid-size open room", "88-120\"", "HOMSCREENER 4-Panel or Kokorona 6-Panel"],
-        ["Large open-concept space", "130\"+", "HOMSCREENER 6-Panel or Giantex 6-Panel"],
-        ["Corner or irregular layout", "Reconfigurable L/W/C/Z", "HOMSCREENER 4-Panel"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $44",
+          "MAYOLIAH Single Large Panel Rolling Room Divider"
+        ],
+        [
+          "Up to $360",
+          "HOMSCREENER 3"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Priority: Privacy, Noise, or Budget",
-    cards: [
+    "subheading": "Stability vs Price",
+    "cards": [
       {
-        label: "Maximum visual privacy, no gaps",
-        text: "The MAYOLIAH single panel has no hinge seams at all, and the Kokorona 6-panel is the only multi-panel pick that ships with gap-cover strips over its hinges.",
+        "label": "MAYOLIAH Single Large Panel Rolling Room Divider",
+        "text": "The lower-priced option in this comparison, worth checking its base footprint and stability against your floor type."
       },
       {
-        label: "Noise control, not just sightlines",
-        text: "The HOMSCREENER 3-Panel Soundproof is the only pick in this list built for acoustic absorption rather than purely visual separation.",
-      },
-      {
-        label: "Lowest price, still fully functional",
-        text: "The MAYOLIAH single panel at $43.99 and the GOFLAME 4-panel at $54.99 are the two cheapest picks here without cutting wheel count.",
-      },
-      {
-        label: "Needs to fold away frequently",
-        text: "The GOFLAME folds down to just 22 inches wide, the most compact of any pick, making it the easiest to store when not in use.",
-      },
+        "label": "HOMSCREENER 3",
+        "text": "The higher-priced option, worth it if it offers real stability or material headroom above the cheaper pick."
+      }
     ],
+    "note": "Default to MAYOLIAH Single Large Panel Rolling Room Divider unless your specific needs genuinely call for the pricier pick."
   },
   {
-    subheading: "Wheel Count and Locking Comparison",
-    intro:
-      "Wheel count alone doesn't guarantee stability, how many of those wheels actually lock matters just as much.",
-    table: {
-      headers: ["Pick", "Wheels/Casters", "Locking design"],
-      rows: [
-        ["SUNALLY 4-Panel", "4 per panel, silent PE", "All wheels lockable"],
-        ["Giantex 6-Panel", "14 total (most casters)", "All lockable, 1.5\" wheels"],
-        ["GOFLAME 4-Panel", "10, 360° swivel", "Individual brakes per wheel"],
-        ["HOMSCREENER 3-Panel Soundproof", "12 (most in this list)", "Self-locking"],
+    "subheading": "By Acoustic Material",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "If a listing doesn't specify whether every wheel locks or only the corner casters do, ask before buying, a rolling divider that only partially locks can still drift in a high-traffic room.",
+      "rows": [
+        [
+          "Genuine sound-dampening material",
+          "HOMSCREENER 3"
+        ],
+        [
+          "Visual separation is enough",
+          "SUNALLY 4"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a Rented Space Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine freestanding or no-drill design that requires zero wall modification, not a divider that turns out to need wall anchors."
+      },
+      {
+        "label": "In this comparison",
+        "text": "SUNALLY 4 is worth checking against its listed mounting method before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real acoustic dampening or a taller, more stable divider, where HOMSCREENER 3's material and construction give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need light visual separation without noise or stability concerns, where MAYOLIAH Single Large Panel Rolling Room Divider covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

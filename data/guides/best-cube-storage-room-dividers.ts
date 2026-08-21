@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/412F7Hvt5aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B085Z7WVXR?tag=deskfinds0d-20",
     description:
-      "This 16-cube plastic organizer has by far the largest review base in this list, giving buyers a solid amount of real feedback to check before committing to it as a room divider. At 48.4 inches long and 48.4 inches tall it spans a meaningful chunk of wall-to-wall room width for splitting a studio or shared bedroom, and the modular plastic cube design lets you rearrange sections as storage needs change.\n\nThis is an open-back design, so items placed in the cubes are visible from both sides of the room, which means it functions more as a visual zone marker than a true privacy divider. Each cube is rated for light to moderate loads only, so treat roughly 50 pounds per cube as a practical ceiling and add a wall anchor or leveling support if it will sit freestanding in the center of a room.",
+      "This 16-cube plastic organizer has by far the largest review base in this list, giving buyers a solid amount of real feedback to check before committing to it as a room divider. At 48.4 inches long and 48.4 inches tall it spans a meaningful chunk of wall-to-wall room width for splitting a studio or shared bedroom, and the modular plastic cube design lets you rearrange sections as storage needs change.\n\nThis is an open-back design, so items placed in the cubes are visible from both sides of the room, which means it functions more as a visual zone marker than a true privacy divider. Each cube is rated for light to moderate loads only, so treat roughly 50 pounds per cube as a practical ceiling and add a wall anchor or leveling support if it will sit freestanding in the center of a room.\n\nLarge footprint for splitting bigger rooms. That's a real strength, but weigh it against the flip side: open back offers no visual privacy through the unit.",
     specs: [
       "16-cube modular plastic design",
       "48.4 inch L x 12.4 inch W x 48.4 inch H",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Kxi8xrdiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DFXS9X72?tag=deskfinds0d-20",
     description:
-      "This solid wood 8-cube unit ships with 2 removable back panels, which is the only product in this list that gives buyers a genuine option to close off sections for real visual privacy rather than an all-open frame. The included storage bins cover 4 of the 8 cubes, and the wood build gives it a sturdier, more finished look than the plastic organizers in this list.\n\nWith only 2 of 8 cubes able to take a removable back panel, full privacy across the whole unit still isn't guaranteed unless you add bins or fabric to the remaining open cubes yourself. The highest rating in this list at 4.7 stars comes from a smaller review pool, so weigh that against the larger, more heavily reviewed picks.",
+      "This solid wood 8-cube unit ships with 2 removable back panels, which is the only product in this list that gives buyers a genuine option to close off sections for real visual privacy rather than an all-open frame. The included storage bins cover 4 of the 8 cubes, and the wood build gives it a sturdier, more finished look than the plastic organizers in this list.\n\nWith only 2 of 8 cubes able to take a removable back panel, full privacy across the whole unit still isn't guaranteed unless you add bins or fabric to the remaining open cubes yourself. The highest rating in this list at 4.7 stars comes from a smaller review pool, so weigh that against the larger, more heavily reviewed picks.\n\nWorth calling out specifically: solid wood build feels more durable than plastic. The catch is only 2 of 8 cubes get a removable back panel.",
     specs: [
       "8-cube solid wood construction",
       "2 removable back panels included",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51Ey5h3eoCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXXK6JF5?tag=deskfinds0d-20",
     description:
-      "The Mavivegue is the lowest priced unit in this list by a wide margin, at under $20 for a 12-cube metal frame rack that works as a tall, budget-friendly zone divider for a bedroom or small office. The metal frame construction is lighter than the wood options here, which makes it easier to reposition but also means it needs more attention to stability when freestanding.\n\nThis is an open-back metal cubicle design, so it offers zero visual privacy through the unit, and the lightweight metal frame is more prone to wobble than the wood or thicker plastic picks unless leveled and anchored properly. At this price it's better suited to storage-first use with divider function as a secondary benefit.",
+      "The Mavivegue is the lowest priced unit in this list by a wide margin, at under $20 for a 12-cube metal frame rack that works as a tall, budget-friendly zone divider for a bedroom or small office. The metal frame construction is lighter than the wood options here, which makes it easier to reposition but also means it needs more attention to stability when freestanding.\n\nThis is an open-back metal cubicle design, so it offers zero visual privacy through the unit, and the lightweight metal frame is more prone to wobble than the wood or thicker plastic picks unless leveled and anchored properly. At this price it's better suited to storage-first use with divider function as a secondary benefit.\n\nTall profile works well as a partial visual break. Set against that, open back offers no privacy at all. Both matter when comparing it to the other picks here.",
     specs: [
       "12-cube open metal frame",
       "Tall bookcase-style profile",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GZQBk5zdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H4LVYPC2?tag=deskfinds0d-20",
     description:
-      "The SageNest is a straightforward 8-cube open bookshelf, sized more modestly than the largest units in this list and a reasonable fit for a smaller dorm room or apartment nook that needs a lighter-footprint divider. The listing states an open cube design directly, so there's no ambiguity here, this is a see-through unit by design rather than a privacy solution.\n\nWith the lowest rating and smallest review pool in this list, buyers should weigh the limited feedback against the compact size advantage if a smaller divider footprint matters more than review volume for your space.",
+      "The SageNest is a straightforward 8-cube open bookshelf, sized more modestly than the largest units in this list and a reasonable fit for a smaller dorm room or apartment nook that needs a lighter-footprint divider. The listing states an open cube design directly, so there's no ambiguity here, this is a see-through unit by design rather than a privacy solution.\n\nWith the lowest rating and smallest review pool in this list, buyers should weigh the limited feedback against the compact size advantage if a smaller divider footprint matters more than review volume for your space.\n\nA genuine advantage here is that straightforward assembly. The tradeoff is open design confirmed, zero privacy.",
     specs: [
       "8-cube open shelf design",
       "Compact footprint",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Dr0Rf-NIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GWYP696K?tag=deskfinds0d-20",
     description:
-      "The LUCKLIFE unit explicitly offers optional back panels in its listing, meaning buyers can add closed-back privacy where they need it rather than being stuck with a fully open frame like most other picks here. It's also stackable and fits standard 11 by 11 inch bins, which matters because a cube depth that doesn't match standard bin sizing causes bins to overhang the shelf edge.\n\nThe review pool here is the smallest in this entire list at 37 ratings, so the 4.2 star average should be read with that limited sample size in mind. If the optional back panel feature and standard bin compatibility matter more to you than review volume, it's still a reasonable pick.",
+      "The LUCKLIFE unit explicitly offers optional back panels in its listing, meaning buyers can add closed-back privacy where they need it rather than being stuck with a fully open frame like most other picks here. It's also stackable and fits standard 11 by 11 inch bins, which matters because a cube depth that doesn't match standard bin sizing causes bins to overhang the shelf edge.\n\nThe review pool here is the smallest in this entire list at 37 ratings, so the 4.2 star average should be read with that limited sample size in mind. If the optional back panel feature and standard bin compatibility matter more to you than review volume, it's still a reasonable pick.\n\nCompatible with standard 11x11 inch bins. That's a real strength, but weigh it against the flip side: smallest review pool in this entire list.",
     specs: [
       "8-cube stackable modular design",
       "Optional back panels available",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41uULXHLL1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DFH8C526?tag=deskfinds0d-20",
     description:
-      "This SUNALLY tension curtain stand is not a cube storage unit at all, it's a freestanding no-drill curtain divider, and we're flagging that directly rather than grouping it in as if it shares the storage function of the other 5 picks. If full visual privacy is your actual priority over storage, a curtain divider like this blocks sightlines completely in a way no open-back cube unit can.\n\nAt 28 to 114 inches adjustable width and 4 to 10 feet in height, it fits a wide range of room dimensions without drilling into walls or ceilings, though tension-based stands can still tip if not weighted or braced, so check the base stability rating before assuming it's fully freestanding-safe in a busy room.",
+      "This SUNALLY tension curtain stand is not a cube storage unit at all, it's a freestanding no-drill curtain divider, and we're flagging that directly rather than grouping it in as if it shares the storage function of the other 5 picks. If full visual privacy is your actual priority over storage, a curtain divider like this blocks sightlines completely in a way no open-back cube unit can.\n\nAt 28 to 114 inches adjustable width and 4 to 10 feet in height, it fits a wide range of room dimensions without drilling into walls or ceilings, though tension-based stands can still tip if not weighted or braced, so check the base stability rating before assuming it's fully freestanding-safe in a busy room.\n\nWorth calling out specifically: no drilling required, renter-friendly. The catch is not a storage unit, serves privacy function only.",
     specs: [
       "Freestanding tension stand, no drilling",
       "28-114 inch adjustable width",
@@ -269,35 +269,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Open back vs closed back is the single most important check",
-    explanation:
-      "An open-back cube unit lets you see straight through from one side of the room to the other, which provides zero real privacy no matter how tall or wide it is. If privacy is your actual goal, look specifically for a closed back, removable back panels, or plan to add your own fabric or solid bins to every cube.",
+    "criterion": "Check freestanding stability against your actual floor type, not just an empty room demo",
+    "explanation": "A freestanding divider relies entirely on its own base footprint and panel angle for stability, with no wall support, and how well it actually stays upright varies depending on floor type, a divider that stands solidly on carpet can behave differently on hardwood or tile, and panels catching a draft from an HVAC vent can wobble more than expected.\n\nThis matters because a divider that looks stable in a still product photo can still tip or shift with regular foot traffic brushing past it.\n\nCheck reviews specifically for real-world stability mentions on floor types similar to yours, and check the base footprint width relative to the divider's height, since a taller divider needs a wider base to stay stable."
   },
   {
-    criterion: "Per-cube load limit is lower than it looks",
-    explanation:
-      "Most consumer cube storage units are rated for roughly 50 pounds per individual cube, not per shelf run, and stacking heavy books or bins across many cubes adds up fast on a lightweight plastic or metal frame. Distribute weight evenly and don't assume a tall unit can handle the same per-cube load as a short one.",
+    "criterion": "Confirm genuine sound dampening if acoustic privacy is the actual goal, not just visual blocking",
+    "explanation": "A room divider marketed as \"acoustic\" should use a real sound-dampening material, typically a felt or fabric-wrapped panel core, that measurably reduces noise transmission, distinct from a simple solid panel or bookcase that only blocks the sightline without doing anything meaningful for sound.\n\nThis distinction matters directly if noise reduction for calls or focused work is your actual goal, since a purely visual divider does very little to dampen adjacent conversation or ambient noise regardless of how solid it looks.\n\nCheck the listing specifically for a stated acoustic material, not just the word \"acoustic\" in the title with no supporting material description."
   },
   {
-    criterion: "Cube depth must match your storage bins",
-    explanation:
-      "Standard fabric and plastic storage bins typically run 13 to 15 inches deep, and a cube shelf shallower than that causes the bin to overhang the front edge, creating a tripping and stability hazard in a walkway divider setup. Check the stated cube depth against your bin size before buying, not just the overall unit dimensions.",
+    "criterion": "Match panel height to your ceiling and the actual privacy level you need",
+    "explanation": "Panel height determines both visual privacy and how much of the room's overall openness the divider preserves, a shorter divider maintains more light and airflow but offers less real privacy, while a taller divider that extends closer to the ceiling gives stronger separation at the cost of feeling like a more permanent wall.\n\nThis matters more in a room with a high ceiling, where a standard-height divider can look and feel undersized, and less in a room with a standard 8-foot ceiling where most divider heights work proportionally.\n\nCheck the listed divider height against your room's actual ceiling height and how much visual openness you want to preserve, not just the divider's general size category."
   },
   {
-    criterion: "Freestanding center-of-room placement needs its own leveling and anchoring",
-    explanation:
-      "A cube unit placed against a wall can lean back for stability, but one placed freestanding in the middle of a room to divide it has no such support, so leveling feet for uneven flooring and an anti-tip anchor kit become far more important. Skipping this step is the most common reason a divider-use cube unit tips over.",
+    "criterion": "Weigh assembly and mounting requirements against whether you're renting or own the space",
+    "explanation": "Room dividers span a wide range of setup requirements, from a no-drill freestanding panel that requires zero installation to a wall-mounted or track-based divider requiring drilling and potentially professional installation, and which one is appropriate depends heavily on whether you're in a rented space where drilling isn't an option, or a space you own where a more permanent installation is fine.\n\nThis matters directly for a renter, discovering after purchase that a divider requires wall-mounting hardware is a real and avoidable problem in a space where drilling isn't allowed.\n\nCheck the listing specifically for the mounting method, freestanding, no-drill, or requiring wall anchors, before ordering, especially in a rented space."
   },
   {
-    criterion: "Caster-mounted mobile dividers need their own load rating check",
-    explanation:
-      "If you're considering a caster base for a mobile version of a cube divider, check the caster's individual load rating against the realistic loaded weight of a filled unit, typically 80 to 150 pounds once bins and books are added, not the empty unit weight. Locking casters are required for any mobile divider, not optional.",
-  },
-  {
-    criterion: "A cube unit is not the only path to a room divider",
-    explanation:
-      "If full sightline privacy matters more to you than shelving capacity, a dedicated curtain-style or panel-style divider will outperform any open-back cube unit on privacy alone, even though it sacrifices storage function. Decide which need is primary before comparing the two categories on price.",
-  },
+    "criterion": "Consider mobility needs if the divider will move between rooms or configurations regularly",
+    "explanation": "A divider on wheels or casters can be repositioned easily between rooms or reconfigured for different layouts throughout the week, useful for anyone who needs flexible zoning rather than a permanent room split, but wheels also mean the divider is inherently less stable than a fixed-base design and can shift underfoot if bumped.\n\nThis matters more if you genuinely need to move the divider often, like separating a home office from a living space only during work hours, less if it'll stay in one position long-term.\n\nCheck whether casters are lockable to prevent unwanted movement once positioned, and weigh mobility against the reduced stability it typically brings."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -310,69 +300,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Back Panel Type",
-    intro: "This is the first thing to check for divider use, and most cube units get it wrong for privacy purposes.",
-    table: {
-      headers: ["Back panel type", "Products", "Recommendation"],
-      rows: [
-        ["Fully open back, no privacy", "C&AHOME 16-Cube, Mavivegue 12-Cube, SageNest 8-Cube", "Buy only if privacy isn't the priority"],
-        ["Partial closed back (2 of 8 cubes)", "EXPERLAM 8-Cube Wood", "Best cube option for at least partial privacy"],
-        ["Optional add-on back panels", "LUCKLIFE 8-Cube", "Good if you want to choose which cubes get panels"],
-        ["Not a cube unit, full opaque privacy", "SUNALLY Tension Curtain Stand", "Best true privacy option in this list"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "EXPERLAM 8 Cube Storage Organizer"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "C&AHOME Cube Storage Organizer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Room Size and Divider Footprint",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $20",
+          "Mavivegue Book Shelf"
+        ],
+        [
+          "Up to $100",
+          "EXPERLAM 8 Cube Storage Organizer"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Stability vs Price",
+    "cards": [
       {
-        label: "Splitting a larger studio or shared bedroom",
-        text: "The C&AHOME 16-Cube spans 48.4 inches wide and tall, the largest footprint in this list for a wall-to-wall zone split.",
+        "label": "Mavivegue Book Shelf",
+        "text": "The lower-priced option in this comparison, worth checking its base footprint and stability against your floor type."
       },
       {
-        label: "Smaller dorm room or apartment nook",
-        text: "The SageNest 8-Cube's more compact size fits a tighter space without dominating the room.",
-      },
-      {
-        label: "Need full room-width flexibility",
-        text: "The SUNALLY tension curtain stand adjusts from 28 to 114 inches wide, covering far more room configurations than any fixed-size cube unit.",
-      },
+        "label": "EXPERLAM 8 Cube Storage Organizer",
+        "text": "The higher-priced option, worth it if it offers real stability or material headroom above the cheaper pick."
+      }
     ],
+    "note": "Default to Mavivegue Book Shelf unless your specific needs genuinely call for the pricier pick."
   },
   {
-    subheading: "Per-Cube Load Limit vs Your Storage Plans",
-    intro: "Treat roughly 50 pounds per cube as a practical ceiling regardless of which unit you buy.",
-    table: {
-      headers: ["Storage plan", "Load consideration", "Best pick"],
-      rows: [
-        ["Light decor and folded items only", "Well within the 50 lb per-cube ceiling", "SageNest 8-Cube or Mavivegue 12-Cube"],
-        ["Books and heavier bins across many cubes", "Distribute evenly, don't concentrate weight", "EXPERLAM 8-Cube Wood for its sturdier build"],
-        ["Maximum storage across a large footprint", "Check per-cube limit before filling every slot", "C&AHOME 16-Cube, load evenly across all 16"],
-      ],
-    },
-    note: "Freestanding center-of-room placement adds tip risk on top of load limits, so add leveling feet or an anchor kit regardless of which unit you choose.",
+    "subheading": "By Panel Height",
+    "note": "Check each pick's listed panel height against your room's ceiling and the actual privacy level you need before buying. C&AHOME Cube Storage Organizer is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Cube Depth vs Standard Bin Sizing",
-    table: {
-      headers: ["Bin size need", "Compatible pick", "Why"],
-      rows: [
-        ["Standard 11x11 inch bins", "LUCKLIFE 8-Cube", "Listing explicitly states fit for 11x11 inch bins"],
-        ["Larger 13-15 inch bins", "Verify depth directly with seller before buying", "Depth not explicitly confirmed for the other picks"],
-      ],
-    },
+    "subheading": "For a Rented Space Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine freestanding or no-drill design that requires zero wall modification, not a divider that turns out to need wall anchors."
+      },
+      {
+        "label": "In this comparison",
+        "text": "C&AHOME Cube Storage Organizer is worth checking against its listed mounting method before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Budget", "Tradeoff", "Best pick"],
-      rows: [
-        ["Under $25", "Open back, lighter metal frame", "Mavivegue 12-Cube"],
-        ["$40-$57", "Open back, larger size or full privacy curtain", "C&AHOME 16-Cube or SUNALLY Curtain Stand"],
-        ["$71-$100", "Partial or optional back panels", "LUCKLIFE 8-Cube or EXPERLAM 8-Cube Wood"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real acoustic dampening or a taller, more stable divider, where EXPERLAM 8 Cube Storage Organizer's material and construction give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need light visual separation without noise or stability concerns, where Mavivegue Book Shelf covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

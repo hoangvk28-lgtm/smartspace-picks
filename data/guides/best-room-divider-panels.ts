@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31UuCvUo-LL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSBQFNNY?tag=deskfinds0d-20",
     description:
-      "With nearly 2,000 ratings, the RANTILA 4-panel is the best-selling divider in this list, and it earns that spot with a 240gsm polyester fabric, the thickest fabric among the 4-panel picks here, over a steel frame. Thicker fabric means less see-through and less sag over months of folding and unfolding.\n\nTriple-buckle hinges at each joint keep the panels from drooping, and RANTILA extends the foot pads wider and longer than most 4-panel competitors, making this the most stable option in the list relative to its size. At 89\"W x 71\"H, it splits a standard room without feeling oversized.",
+      "With nearly 2,000 ratings, the RANTILA 4-panel is the best-selling divider in this list, and it earns that spot with a 240gsm polyester fabric, the thickest fabric among the 4-panel picks here, over a steel frame. Thicker fabric means less see-through and less sag over months of folding and unfolding.\n\nTriple-buckle hinges at each joint keep the panels from drooping, and RANTILA extends the foot pads wider and longer than most 4-panel competitors, making this the most stable option in the list relative to its size. At 89\"W x 71\"H, it splits a standard room without feeling oversized.\n\nThickest 240gsm fabric among the 4-panel picks. That's a real strength, but weigh it against the flip side: 4 panels cover less width than the 6-panel picks.",
     specs: [
       "89\"W x 71\"H, 4 panels",
       "240gsm polyester + steel frame",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/414lHGwu+qL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BMTBSB7R?tag=deskfinds0d-20",
     description:
-      "This single large panel from RANTILA swaps fabric for HDPE plastic sheeting over a steel frame, which makes it both UV-protected and fully waterproof, useful if it's going near a sunny window or a bathroom doorway. At just 8.8 lbs it's the lightest divider in this entire list, easy to carry one-handed and reposition on a whim.\n\nFour internal stiffeners keep the single 71\"W x 69.5\"H panel from bowing despite its flexible material, and that flexibility is actually a selling point: it can curve slightly to fit an irregular corner in a way a rigid 4-panel screen can't.",
+      "This single large panel from RANTILA swaps fabric for HDPE plastic sheeting over a steel frame, which makes it both UV-protected and fully waterproof, useful if it's going near a sunny window or a bathroom doorway. At just 8.8 lbs it's the lightest divider in this entire list, easy to carry one-handed and reposition on a whim.\n\nFour internal stiffeners keep the single 71\"W x 69.5\"H panel from bowing despite its flexible material, and that flexibility is actually a selling point: it can curve slightly to fit an irregular corner in a way a rigid 4-panel screen can't.\n\nWorth calling out specifically: uV-protected and waterproof HDPE material. The catch is single panel offers less width flexibility than multi-panel screens.",
     specs: [
       "71\"W x 69.5\"H, single flexible panel",
       "HDPE + steel frame",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31IhKdy8YFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BQMR29TC?tag=deskfinds0d-20",
     description:
-      "HOMSCREENER stretches its 4 panels to 88 inches wide, the widest 4-panel divider in this list, so it covers more floor width without adding a fifth or sixth panel to store and fold. The 240gsm polyester fabric carries the thickest PA coating of any pick here, which helps it resist wrinkling and shrug off the occasional splash.\n\nThe 17.7-inch feet are the longest in this list, giving the tall 71.3\" panels a wide, stable base, and triple-buckle hinges at every joint keep the whole run from sagging in the middle the way thinner-hinged screens do.",
+      "HOMSCREENER stretches its 4 panels to 88 inches wide, the widest 4-panel divider in this list, so it covers more floor width without adding a fifth or sixth panel to store and fold. The 240gsm polyester fabric carries the thickest PA coating of any pick here, which helps it resist wrinkling and shrug off the occasional splash.\n\nThe 17.7-inch feet are the longest in this list, giving the tall 71.3\" panels a wide, stable base, and triple-buckle hinges at every joint keep the whole run from sagging in the middle the way thinner-hinged screens do.\n\nLongest 17.7\" feet for extra base stability. Set against that, lowest star rating in this list at 4.1. Both matter when comparing it to the other picks here.",
     specs: [
       "88\"W x 71.3\"H, 4 panels",
       "240gsm polyester + steel, PA-coated",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/310HEt62n8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DNPJ9FQY?tag=deskfinds0d-20",
     description:
-      "At 136 inches unfolded, VEVOR's 4-panel screen is the widest divider in this entire list by a wide margin, wide enough to fully close off a large open-plan room in a single run. Oxford fabric over an iron frame blocks light noticeably better than the thinner polyester used elsewhere here, useful for a bedroom nook that needs real darkness.\n\nThe fabric is also waterproof, and VEVOR builds each section into a W-shaped fold pattern rather than a flat zigzag, which distributes weight across more contact points and keeps the extra-wide span from swaying when someone brushes past it.",
+      "At 136 inches unfolded, VEVOR's 4-panel screen is the widest divider in this entire list by a wide margin, wide enough to fully close off a large open-plan room in a single run. Oxford fabric over an iron frame blocks light noticeably better than the thinner polyester used elsewhere here, useful for a bedroom nook that needs real darkness.\n\nThe fabric is also waterproof, and VEVOR builds each section into a W-shaped fold pattern rather than a flat zigzag, which distributes weight across more contact points and keeps the extra-wide span from swaying when someone brushes past it.\n\nA genuine advantage here is that oxford fabric blocks light more effectively than standard polyester. The tradeoff is extra-wide span needs significant floor space when unfolded.",
     specs: [
       "136\"W x 72.4\"H, 4 panels",
       "Oxford fabric + iron frame",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31WhDsMWr+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B42BP1HF?tag=deskfinds0d-20",
     description:
-      "MAYOLIAH's hinge system lets you reconfigure the screen anywhere from 2 to 6 panels, the most flexible setup in this list, so the same divider can shrink down for a small reading nook or extend to its full 120-inch width for a larger split. That range is genuinely useful if you're not sure yet how much width you'll need.\n\n180gsm polyester over an iron frame is thinner than the 240gsm fabric on the top 4-panel picks, but MAYOLIAH compensates with wider support feet and backs the whole thing with a 1-year warranty, longer than most of the budget picks in this list.",
+      "MAYOLIAH's hinge system lets you reconfigure the screen anywhere from 2 to 6 panels, the most flexible setup in this list, so the same divider can shrink down for a small reading nook or extend to its full 120-inch width for a larger split. That range is genuinely useful if you're not sure yet how much width you'll need.\n\n180gsm polyester over an iron frame is thinner than the 240gsm fabric on the top 4-panel picks, but MAYOLIAH compensates with wider support feet and backs the whole thing with a 1-year warranty, longer than most of the budget picks in this list.\n\nWidest 6-panel pick at 120 inches. That's a real strength, but weigh it against the flip side: 180gsm fabric is thinner than the top 4-panel picks.",
     specs: [
       "Up to 120\"W x 72\"H, reconfigurable 2-6 panels",
       "180gsm polyester + iron frame",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51Ohm2ia0FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C2V5MWTT?tag=deskfinds0d-20",
     description:
-      "DECOLAB takes a completely different approach: instead of hinged fold-out panels, this is a modular standing panel that connects to additional units with neodymium magnets, the only pick in this list built this way. That makes it easy to add or remove panels later without dealing with a fixed hinge count.\n\nThe 100% polyester surface is made from recyclable PET fabric and is flame retardant certified to California TB 117-2013, the only pick in this list with a stated fire-safety certification, worth prioritizing if the divider will sit somewhere with real fire risk. It's also tackable, so it can double as a pinboard, and it carries the longest warranty here at 3 years.",
+      "DECOLAB takes a completely different approach: instead of hinged fold-out panels, this is a modular standing panel that connects to additional units with neodymium magnets, the only pick in this list built this way. That makes it easy to add or remove panels later without dealing with a fixed hinge count.\n\nThe 100% polyester surface is made from recyclable PET fabric and is flame retardant certified to California TB 117-2013, the only pick in this list with a stated fire-safety certification, worth prioritizing if the divider will sit somewhere with real fire risk. It's also tackable, so it can double as a pinboard, and it carries the longest warranty here at 3 years.\n\nWorth calling out specifically: flame-retardant certified to CAL TB 117-2013. The catch is most expensive per-panel price in this list.",
     specs: [
       "29\"W x 65\"H per panel, steel frame",
       "100% recyclable PET polyester fabric",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31LNiAecNOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GG9TW8MK?tag=deskfinds0d-20",
     description:
-      "SUNALLY pairs a full 6-panel, 132-inch-wide screen with silent PE lockable wheels on the base, the only wheeled divider in this list, so it can be rolled between rooms or out of the way entirely without lifting a heavy fabric-and-steel frame. Locking the wheels once it's positioned keeps it from drifting during daily use.\n\nThe 240gsm fabric is the thickest of any 6-panel pick here, matched with extended, widened feet for extra ground contact despite the added weight of the wheel casters. It's a strong fit for anyone who repositions their divider often, a studio apartment, a shared home office, or a space that changes layout week to week.",
+      "SUNALLY pairs a full 6-panel, 132-inch-wide screen with silent PE lockable wheels on the base, the only wheeled divider in this list, so it can be rolled between rooms or out of the way entirely without lifting a heavy fabric-and-steel frame. Locking the wheels once it's positioned keeps it from drifting during daily use.\n\nThe 240gsm fabric is the thickest of any 6-panel pick here, matched with extended, widened feet for extra ground contact despite the added weight of the wheel casters. It's a strong fit for anyone who repositions their divider often, a studio apartment, a shared home office, or a space that changes layout week to week.\n\nSilent lockable wheels for easy repositioning. Set against that, wheels add height and bulk versus a flat-footed divider. Both matter when comparing it to the other picks here.",
     specs: [
       "132\"W x 72\"H, 6 panels",
       "240gsm polyester + steel",
@@ -296,30 +296,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Measure your total width before counting panels",
-    explanation:
-      "Standard panels in this category run roughly 22-24 inches wide, so a 4-panel screen typically spans 88-136 inches depending on the model while a 6-panel screen can reach 120-132 inches. Measure the actual floor width you need to cover first, then match that number to a divider's stated unfolded width rather than assuming more panels always means more coverage, some 4-panel picks here are actually wider than some 6-panel ones.",
+    "criterion": "Check freestanding stability against your actual floor type, not just an empty room demo",
+    "explanation": "A freestanding divider relies entirely on its own base footprint and panel angle for stability, with no wall support, and how well it actually stays upright varies depending on floor type, a divider that stands solidly on carpet can behave differently on hardwood or tile, and panels catching a draft from an HVAC vent can wobble more than expected.\n\nThis matters because a divider that looks stable in a still product photo can still tip or shift with regular foot traffic brushing past it.\n\nCheck reviews specifically for real-world stability mentions on floor types similar to yours, and check the base footprint width relative to the divider's height, since a taller divider needs a wider base to stay stable."
   },
   {
-    criterion: "Check for a stated fire-safety certification if it matters for your space",
-    explanation:
-      "Most fabric room divider panels sold online don't list any flammability testing at all. California's TB 117-2013 standard, commonly called CAL 117, is technically only mandatory in California but has become a de facto nationwide benchmark because most manufacturers test to it anyway. If the divider will sit in a rental with fire code requirements, a shared workspace, or near a heat source, look specifically for a CAL 117 or similar flame-retardant label in the listing, not every panel divider carries one, and only the DECOLAB pick in this list states it explicitly.",
+    "criterion": "Confirm genuine sound dampening if acoustic privacy is the actual goal, not just visual blocking",
+    "explanation": "A room divider marketed as \"acoustic\" should use a real sound-dampening material, typically a felt or fabric-wrapped panel core, that measurably reduces noise transmission, distinct from a simple solid panel or bookcase that only blocks the sightline without doing anything meaningful for sound.\n\nThis distinction matters directly if noise reduction for calls or focused work is your actual goal, since a purely visual divider does very little to dampen adjacent conversation or ambient noise regardless of how solid it looks.\n\nCheck the listing specifically for a stated acoustic material, not just the word \"acoustic\" in the title with no supporting material description."
   },
   {
-    criterion: "Fabric weight (gsm) predicts how well a panel holds up",
-    explanation:
-      "180gsm fabric is noticeably thinner and lighter than 240gsm, which shows up as more see-through, more wrinkling after folding, and faster sagging at the hinges over months of use. If a listing states a gsm number, treat 240gsm as the higher-durability tier and 180gsm as acceptable only for occasional, light-duty use.",
+    "criterion": "Match panel height to your ceiling and the actual privacy level you need",
+    "explanation": "Panel height determines both visual privacy and how much of the room's overall openness the divider preserves, a shorter divider maintains more light and airflow but offers less real privacy, while a taller divider that extends closer to the ceiling gives stronger separation at the cost of feeling like a more permanent wall.\n\nThis matters more in a room with a high ceiling, where a standard-height divider can look and feel undersized, and less in a room with a standard 8-foot ceiling where most divider heights work proportionally.\n\nCheck the listed divider height against your room's actual ceiling height and how much visual openness you want to preserve, not just the divider's general size category."
   },
   {
-    criterion: "Foot width matters more than panel height for tip resistance",
-    explanation:
-      "A tall, narrow-footed panel is far more likely to tip than a shorter one on wide, extended feet, since a folding screen has no wall anchor to rely on. Prioritize stated foot length and width over height alone, especially if the divider will stand in a walkway where it might get bumped.",
+    "criterion": "Weigh assembly and mounting requirements against whether you're renting or own the space",
+    "explanation": "Room dividers span a wide range of setup requirements, from a no-drill freestanding panel that requires zero installation to a wall-mounted or track-based divider requiring drilling and potentially professional installation, and which one is appropriate depends heavily on whether you're in a rented space where drilling isn't an option, or a space you own where a more permanent installation is fine.\n\nThis matters directly for a renter, discovering after purchase that a divider requires wall-mounting hardware is a real and avoidable problem in a space where drilling isn't allowed.\n\nCheck the listing specifically for the mounting method, freestanding, no-drill, or requiring wall anchors, before ordering, especially in a rented space."
   },
   {
-    criterion: "Decide between fixed, reconfigurable, and modular before buying",
-    explanation:
-      "A fixed 4- or 6-panel screen is simplest but locks you into one width. A reconfigurable design like the MAYOLIAH lets you use fewer panels for a smaller space. A magnetic modular system like the DECOLAB lets you add standalone panels over time instead of committing to a panel count upfront, useful if your space might grow or change layout.",
-  },
+    "criterion": "Consider mobility needs if the divider will move between rooms or configurations regularly",
+    "explanation": "A divider on wheels or casters can be repositioned easily between rooms or reconfigured for different layouts throughout the week, useful for anyone who needs flexible zoning rather than a permanent room split, but wheels also mean the divider is inherently less stable than a fixed-base design and can shift underfoot if bumped.\n\nThis matters more if you genuinely need to move the divider often, like separating a home office from a living space only during work hours, less if it'll stay in one position long-term.\n\nCheck whether casters are lockable to prevent unwanted movement once positioned, and weigh mobility against the reduced stability it typically brings."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -332,68 +327,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Room Width You Need to Cover",
-    intro:
-      "Panel dividers span very different widths unfolded, so match the total floor width you need to close off to a pick that reaches it without excess panels bunched at one end.",
-    table: {
-      headers: ["Width needed", "Best pick", "Why"],
-      rows: [
-        ["Under 75\" (small nook or corner)", "RANTILA Single Large Panel", "71\"W single flexible panel, no fold points needed"],
-        ["75-90\" (standard doorway split)", "RANTILA 4-Panel Wide Feet", "89\"W with the most stable feet in this list"],
-        ["90-120\" (larger open room)", "MAYOLIAH 6-Panel", "Reconfigurable up to 120\"W as your needs change"],
-        ["120\"+ (full room-width split)", "VEVOR 4-Panel Oxford", "136\"W, the widest single-run pick in this list"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "VEVOR 4"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "RANTILA 4"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Fire Safety and Building Requirements",
-    intro:
-      "Most fabric divider panels carry no stated flame-retardant certification. If your building, landlord, or local fire code requires one, only one pick here states it outright.",
-    table: {
-      headers: ["Situation", "Best pick", "Why"],
-      rows: [
-        ["Rental or workspace with fire code requirements", "DECOLAB Standing Panel", "Only pick certified to CAL TB 117-2013"],
-        ["Near a window, sunroom, or bathroom", "RANTILA Single Large Panel", "UV protected and fully waterproof HDPE"],
-        ["No specific fire code, standard bedroom or living room", "Any 240gsm fabric pick", "Thicker fabric resists wear even without a fire rating"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
-    note: "CAL 117 (California TB 117-2013) is only legally mandatory in California, but it has become the most common benchmark manufacturers test to nationwide. Always check a specific listing's compliance claim rather than assuming any fabric panel meets it.",
+      "rows": [
+        [
+          "Under $31",
+          "RANTILA Single Large Panel Room Divider"
+        ],
+        [
+          "Up to $130",
+          "DECOLAB Standing Room Divider Panel"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By How Often You Reposition It",
-    cards: [
+    "subheading": "On Wheels vs Fixed Base",
+    "cards": [
       {
-        label: "Set it once and leave it",
-        text: "HOMSCREENER and VEVOR's wide fixed-panel designs are best planned for one permanent spot rather than moved room to room.",
+        "label": "On wheels",
+        "text": "Repositionable between rooms or layouts, worth locking casters once positioned. In this comparison: SUNALLY 6."
       },
       {
-        label: "Move it occasionally",
-        text: "RANTILA Single Large Panel is the lightest pick in this list at 8.8 lbs, easy to carry one-handed to a new spot.",
-      },
-      {
-        label: "Roll it between rooms often",
-        text: "SUNALLY's silent, lockable wheels make it the only pick built specifically for frequent repositioning without lifting.",
-      },
-      {
-        label: "Resize the divider as your layout changes",
-        text: "MAYOLIAH's 2-to-6-panel reconfiguration and DECOLAB's magnetic modular panels both let you add or remove sections over time.",
-      },
+        "label": "Fixed base",
+        "text": "More stable for a divider that stays in one spot long-term. In this comparison: RANTILA 4, RANTILA Single Large Panel Room Divider, HOMSCREENER 4, VEVOR 4, MAYOLIAH 6, DECOLAB Standing Room Divider Panel."
+      }
     ],
+    "note": "Default to a fixed base unless you genuinely need to reposition the divider often."
   },
   {
-    subheading: "Stability Reality Check by Foot Design",
-    intro:
-      "Since a folding panel divider has no wall anchor, its foot design is the only thing keeping it upright when someone brushes past.",
-    table: {
-      headers: ["Pick", "Foot design", "Stability notes"],
-      rows: [
-        ["RANTILA 4-Panel Wide Feet", "Extra-long, extra-wide feet", "Most stable pick relative to size in this list"],
-        ["HOMSCREENER 4-Panel", "17.7\" feet", "Longest feet in this list, supports its 71.3\" height"],
-        ["MAYOLIAH 6-Panel", "Wider support feet", "Reinforced to handle its reconfigurable range"],
-        ["SUNALLY 6-Panel Wheels", "Extended, widened feet + locking wheels", "Feet compensate for added wheel-caster height"],
-      ],
-    },
+    "subheading": "By Panel Height",
+    "note": "Check each pick's listed panel height against your room's ceiling and the actual privacy level you need before buying. RANTILA 4 is the most-reviewed option here if you want the safer bet."
   },
+  {
+    "subheading": "For a Rented Space Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine freestanding or no-drill design that requires zero wall modification, not a divider that turns out to need wall anchors."
+      },
+      {
+        "label": "In this comparison",
+        "text": "RANTILA 4 is worth checking against its listed mounting method before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real acoustic dampening or a taller, more stable divider, where DECOLAB Standing Room Divider Panel's material and construction give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need light visual separation without noise or stability concerns, where RANTILA Single Large Panel Room Divider covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

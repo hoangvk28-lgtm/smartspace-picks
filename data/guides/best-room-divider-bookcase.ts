@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/416nixYaeVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07PNFY7Q1?tag=deskfinds0d-20",
     description:
-      "The VASAGLE CUSTOS is the best-selling pick in this entire list, with over 7,500 ratings, and it's explicitly designed and marketed as a freestanding room divider rather than a bookshelf pressed into double duty. Its open, five-tier frame lets light pass through while still visually breaking up a shared living space.\n\nEach shelf handles 33 lbs for a 165 lb total, built on a particleboard frame with an anti-tip kit included, a genuinely important detail on a piece meant to stand in the open rather than against a wall.",
+      "The VASAGLE CUSTOS is the best-selling pick in this entire list, with over 7,500 ratings, and it's explicitly designed and marketed as a freestanding room divider rather than a bookshelf pressed into double duty. Its open, five-tier frame lets light pass through while still visually breaking up a shared living space.\n\nEach shelf handles 33 lbs for a 165 lb total, built on a particleboard frame with an anti-tip kit included, a genuinely important detail on a piece meant to stand in the open rather than against a wall.\n\nExplicitly designed and marketed as a room divider. That's a real strength, but weigh it against the flip side: not finished distinctly on both sides like a purpose-built divider.",
     specs: [
       "27.6\"W x 9.4\"D x 62.6\"H",
       "Particleboard construction",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41tIPFRL6WL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CR2Y9BYR?tag=deskfinds0d-20",
     description:
-      "Furologee's S-shaped frame is the most distinctive design in this list, with a sculptural silhouette that works upright as a room divider, laid horizontally as a wine rack, or repositioned as a TV stand, three placement options in one piece of furniture. That flexibility makes it a smart pick if you're not sure your room layout is permanent.\n\nP2-grade MDF paired with metal supports a 30 lb per-shelf rating for 180 lbs total, and an anti-tip kit is included despite its more artistic, less boxy shape.",
+      "Furologee's S-shaped frame is the most distinctive design in this list, with a sculptural silhouette that works upright as a room divider, laid horizontally as a wine rack, or repositioned as a TV stand, three placement options in one piece of furniture. That flexibility makes it a smart pick if you're not sure your room layout is permanent.\n\nP2-grade MDF paired with metal supports a 30 lb per-shelf rating for 180 lbs total, and an anti-tip kit is included despite its more artistic, less boxy shape.\n\nWorth calling out specifically: most versatile pick with 3 different placement options. The catch is narrower 14.96\" width means less shelf surface per section.",
     specs: [
       "14.96\"W x 9.45\"D x 57.48\"H",
       "P2 MDF + metal",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Afb0kNbFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D3FWVTLL?tag=deskfinds0d-20",
     description:
-      "This is the same sculptural S-shaped room-divider rack as Furologee's rustic brown model, reworked in a modern light black oak tone that suits a more contemporary or minimalist space. Powder-coated metal supports pair with P2 MDF shelving for a 150 lb total capacity across six tiers.\n\nBoth waterproof and anti-scratch coatings, along with non-slip leg pads, make this the more durable-finished version of the two Furologee S-shaped dividers in this list, without sacrificing the flexible upright or horizontal placement options.",
+      "This is the same sculptural S-shaped room-divider rack as Furologee's rustic brown model, reworked in a modern light black oak tone that suits a more contemporary or minimalist space. Powder-coated metal supports pair with P2 MDF shelving for a 150 lb total capacity across six tiers.\n\nBoth waterproof and anti-scratch coatings, along with non-slip leg pads, make this the more durable-finished version of the two Furologee S-shaped dividers in this list, without sacrificing the flexible upright or horizontal placement options.\n\nWaterproof and scratch-resistant finish. Set against that, slightly lower total capacity than the rustic brown version. Both matter when comparing it to the other picks here.",
     specs: [
       "14.96\"W x 9.45\"D x 57.48\"H",
       "P2 MDF + powder-coated metal",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51OXUOdhrKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B3J58T4N?tag=deskfinds0d-20",
     description:
-      "At 70.9 inches wide, the IRONCK Triple Wide is the widest bookcase in this entire list, built specifically to split a large open-concept living room or loft. It's rated for 220 lbs per shelf and 1,320 lbs total, the highest capacity here by a wide margin, so it can carry a genuinely heavy mixed load of books, bins, and decor across its full width.\n\nA back fence stops items from sliding off the rear of each shelf, a detail that matters on a piece viewed from both sides, and two anti-toppling brackets are included given its size.",
+      "At 70.9 inches wide, the IRONCK Triple Wide is the widest bookcase in this entire list, built specifically to split a large open-concept living room or loft. It's rated for 220 lbs per shelf and 1,320 lbs total, the highest capacity here by a wide margin, so it can carry a genuinely heavy mixed load of books, bins, and decor across its full width.\n\nA back fence stops items from sliding off the rear of each shelf, a detail that matters on a piece viewed from both sides, and two anti-toppling brackets are included given its size.\n\nA genuine advantage here is that widest pick here at 70.9 inches, ideal for large rooms. The tradeoff is most expensive pick in this list by a large margin.",
     specs: [
       "72.8\"H x 70.9\"W x 11.8\"D",
       "P2 MDF + iron",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41bs1PbxlkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D3D378LB?tag=deskfinds0d-20",
     description:
-      "The NUMENN Triple Column is the highest-rated pick in this list at 4.8 stars, built around three vertical columns and 14 open shelves that create visual rhythm when viewed as a room divider. Engineered wood and metal combine for a 70 lb per-shelf rating, the highest among the standard-size dividers here.\n\nAdjustable shelves let you customize the spacing per column, and an X-support bar plus adjustable feet keep the vintage brown frame steady as a freestanding piece.",
+      "The NUMENN Triple Column is the highest-rated pick in this list at 4.8 stars, built around three vertical columns and 14 open shelves that create visual rhythm when viewed as a room divider. Engineered wood and metal combine for a 70 lb per-shelf rating, the highest among the standard-size dividers here.\n\nAdjustable shelves let you customize the spacing per column, and an X-support bar plus adjustable feet keep the vintage brown frame steady as a freestanding piece.\n\nTriple-column design with 14 open shelves. That's a real strength, but weigh it against the flip side: narrower overall width than the widest dividers here.",
     specs: [
       "49.4\"W x 10.2\"D x 66.9\"H",
       "Engineered wood + metal",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51m8Fdzpc6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BFDFXJPC?tag=deskfinds0d-20",
     description:
-      "Tribesigns' double-wide etagere spans 47.24 inches and carries a 450 lb total capacity, the second-highest in this list behind only the IRONCK Triple Wide. Engineered wood and metal combine for a sturdy freestanding frame, and a top edge guard keeps items from sliding off the highest shelf.\n\nAdjustable foot pads let you level it on uneven flooring, and both a waterproof and scratch-resistant finish help it hold up as a piece that gets viewed and touched from two sides rather than tucked against a wall.",
+      "Tribesigns' double-wide etagere spans 47.24 inches and carries a 450 lb total capacity, the second-highest in this list behind only the IRONCK Triple Wide. Engineered wood and metal combine for a sturdy freestanding frame, and a top edge guard keeps items from sliding off the highest shelf.\n\nAdjustable foot pads let you level it on uneven flooring, and both a waterproof and scratch-resistant finish help it hold up as a piece that gets viewed and touched from two sides rather than tucked against a wall.\n\nWorth calling out specifically: wide 47-inch frame suits mid-to-large rooms. The catch is fewer reviews than most other picks in this list.",
     specs: [
       "47.24\"W x 11.81\"D x 70.86\"H",
       "Engineered wood + metal",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/413ebmkF3aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CKNB4VQF?tag=deskfinds0d-20",
     description:
-      "The Homykic is the only pick in this list built from 100% bamboo, giving it a lighter, more natural look than the engineered wood and metal options elsewhere here, while still supporting a 528 lb total capacity across 12 shelves. That bamboo construction also makes it noticeably lighter to pick up and reposition than steel-framed alternatives.\n\nA clean white finish and an included anti-tip device round out a piece that's easy to move if you rearrange your room layout, which matters more for a divider than for a wall-mounted bookshelf.",
+      "The Homykic is the only pick in this list built from 100% bamboo, giving it a lighter, more natural look than the engineered wood and metal options elsewhere here, while still supporting a 528 lb total capacity across 12 shelves. That bamboo construction also makes it noticeably lighter to pick up and reposition than steel-framed alternatives.\n\nA clean white finish and an included anti-tip device round out a piece that's easy to move if you rearrange your room layout, which matters more for a divider than for a wall-mounted bookshelf.\n\n528 lb total capacity despite the lightweight material. Set against that, bamboo finish may show wear differently than painted wood. Both matter when comparing it to the other picks here.",
     specs: [
       "41.14\"W x 10.63\"D x 72.44\"H",
       "100% bamboo",
@@ -268,40 +268,25 @@ export const products: GuideProduct[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Look for pieces marketed as freestanding dividers",
-    explanation:
-      "The VASAGLE CUSTOS is explicitly designed and marketed as a room divider rather than a bookshelf repurposed for the job, which shows in how it's braced to stand freely in the open.",
+    "criterion": "Check freestanding stability against your actual floor type, not just an empty room demo",
+    "explanation": "A freestanding divider relies entirely on its own base footprint and panel angle for stability, with no wall support, and how well it actually stays upright varies depending on floor type, a divider that stands solidly on carpet can behave differently on hardwood or tile, and panels catching a draft from an HVAC vent can wobble more than expected.\n\nThis matters because a divider that looks stable in a still product photo can still tip or shift with regular foot traffic brushing past it.\n\nCheck reviews specifically for real-world stability mentions on floor types similar to yours, and check the base footprint width relative to the divider's height, since a taller divider needs a wider base to stay stable."
   },
   {
-    criterion: "Flexible, multi-use designs",
-    explanation:
-      "Furologee's S-shaped design is the most flexible pick in this list, usable upright as a divider or repositioned as a wine rack or TV stand if your room layout changes.",
+    "criterion": "Confirm genuine sound dampening if acoustic privacy is the actual goal, not just visual blocking",
+    "explanation": "A room divider marketed as \"acoustic\" should use a real sound-dampening material, typically a felt or fabric-wrapped panel core, that measurably reduces noise transmission, distinct from a simple solid panel or bookcase that only blocks the sightline without doing anything meaningful for sound.\n\nThis distinction matters directly if noise reduction for calls or focused work is your actual goal, since a purely visual divider does very little to dampen adjacent conversation or ambient noise regardless of how solid it looks.\n\nCheck the listing specifically for a stated acoustic material, not just the word \"acoustic\" in the title with no supporting material description."
   },
   {
-    criterion: "Width and capacity for large rooms",
-    explanation:
-      "The IRONCK Triple Wide is both the widest (70.9\") and highest-capacity (1,320 lb) pick here, built specifically for splitting a large open-concept space.",
+    "criterion": "Match panel height to your ceiling and the actual privacy level you need",
+    "explanation": "Panel height determines both visual privacy and how much of the room's overall openness the divider preserves, a shorter divider maintains more light and airflow but offers less real privacy, while a taller divider that extends closer to the ceiling gives stronger separation at the cost of feeling like a more permanent wall.\n\nThis matters more in a room with a high ceiling, where a standard-height divider can look and feel undersized, and less in a room with a standard 8-foot ceiling where most divider heights work proportionally.\n\nCheck the listed divider height against your room's actual ceiling height and how much visual openness you want to preserve, not just the divider's general size category."
   },
   {
-    criterion: "Rating and per-shelf capacity",
-    explanation:
-      "The NUMENN Triple Column has the highest rating in this list at 4.8 stars and the highest per-shelf capacity among standard-size dividers, a good balance for most mid-size rooms.",
+    "criterion": "Weigh assembly and mounting requirements against whether you're renting or own the space",
+    "explanation": "Room dividers span a wide range of setup requirements, from a no-drill freestanding panel that requires zero installation to a wall-mounted or track-based divider requiring drilling and potentially professional installation, and which one is appropriate depends heavily on whether you're in a rented space where drilling isn't an option, or a space you own where a more permanent installation is fine.\n\nThis matters directly for a renter, discovering after purchase that a divider requires wall-mounting hardware is a real and avoidable problem in a space where drilling isn't allowed.\n\nCheck the listing specifically for the mounting method, freestanding, no-drill, or requiring wall anchors, before ordering, especially in a rented space."
   },
   {
-    criterion: "Weight matters for repositioning",
-    explanation:
-      "Homykic's bamboo construction makes it the lightest and easiest pick to reposition, useful if you expect to rearrange your room layout more than once.",
-  },
-  {
-    criterion: "Stability hardware is essential",
-    explanation:
-      "Because a divider stands freely rather than against a wall, anti-tip kits and toppling brackets matter even more here than on a standard bookshelf. Every pick in this list includes some form of tip-resistance hardware. But since a true divider is walked around on both sides, it can't always be strapped to a wall the way a standard bookshelf can, so a wide, heavy base and a low center of gravity matter just as much as the hardware itself, look for reinforced X-braces and a footprint that isn't top-heavy.",
-  },
-  {
-    criterion: "Match height to how much privacy you want",
-    explanation:
-      "A half-wall-height piece, roughly 3-4.5 feet, only creates a visual boundary between two areas and keeps the room feeling open. Something in the 72-84 inch range creates real separation and privacy without touching the ceiling in most rooms. Also leave at least 3 feet of walking clearance on both sides of any divider so it doesn't turn into a walkway bottleneck.",
-  },
+    "criterion": "Consider mobility needs if the divider will move between rooms or configurations regularly",
+    "explanation": "A divider on wheels or casters can be repositioned easily between rooms or reconfigured for different layouts throughout the week, useful for anyone who needs flexible zoning rather than a permanent room split, but wheels also mean the divider is inherently less stable than a fixed-base design and can shift underfoot if bumped.\n\nThis matters more if you genuinely need to move the divider often, like separating a home office from a living space only during work hours, less if it'll stay in one position long-term.\n\nCheck whether casters are lockable to prevent unwanted movement once positioned, and weigh mobility against the reduced stability it typically brings."
+  }
 ];
 
 export const faq: FaqItem[] = [

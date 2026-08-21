@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41uULXHLL1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DFH8C526?tag=deskfinds0d-20",
     description:
-      "The SUNALLY is a tension-rod curtain divider, meaning it wedges between floor and ceiling without drilling and adjusts from 4 to 10 feet tall, the widest height range in this list. This design covers a room from floor to near-ceiling in a way none of the panel screens below can match, which helps more with visual privacy and light blocking than the panel dividers.\n\nBecause it's a hanging curtain rather than a solid panel, it absorbs some sound reflections in the room but should not be expected to block sound between rooms, it has no mass or air gap the way a real partition wall does. It's a strong pick specifically for visual separation and light control in a shared room.",
+      "The SUNALLY is a tension-rod curtain divider, meaning it wedges between floor and ceiling without drilling and adjusts from 4 to 10 feet tall, the widest height range in this list. This design covers a room from floor to near-ceiling in a way none of the panel screens below can match, which helps more with visual privacy and light blocking than the panel dividers.\n\nBecause it's a hanging curtain rather than a solid panel, it absorbs some sound reflections in the room but should not be expected to block sound between rooms, it has no mass or air gap the way a real partition wall does. It's a strong pick specifically for visual separation and light control in a shared room.\n\nWidest height range in this list, up to 10 feet. That's a real strength, but weigh it against the flip side: fabric curtain absorbs echo but does not block sound between rooms.",
     specs: [
       "Tension rod, no drilling required",
       "4-10 ft adjustable height",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/414lHGwu+qL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BMTBSB7R?tag=deskfinds0d-20",
     description:
-      "This is a single flat panel rather than a folding multi-panel screen, which means it needs a wall or furniture to lean against or a stand to self-support since a single panel can't zig-zag for stability the way a multi-panel screen can. At 71 inches wide and 69.5 inches tall, it's sized to block a desk area from view without needing the floor footprint a folding screen requires.\n\nAs with the other fabric dividers here, it reduces echo in the room but is not a sound-blocking product between rooms. It's best suited as a simple visual backdrop or partial room break rather than a freestanding, self-supporting divider.",
+      "This is a single flat panel rather than a folding multi-panel screen, which means it needs a wall or furniture to lean against or a stand to self-support since a single panel can't zig-zag for stability the way a multi-panel screen can. At 71 inches wide and 69.5 inches tall, it's sized to block a desk area from view without needing the floor footprint a folding screen requires.\n\nAs with the other fabric dividers here, it reduces echo in the room but is not a sound-blocking product between rooms. It's best suited as a simple visual backdrop or partial room break rather than a freestanding, self-supporting divider.\n\nWorth calling out specifically: good size for blocking a desk area from view. The catch is less self-supporting stability than a zig-zag multi-panel screen.",
     specs: [
       "Single panel, 71W x 69.5H inches",
       "Freestanding with stand",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/412nDJFwHPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMDTGYK2?tag=deskfinds0d-20",
     description:
-      "This 4-panel folding screen is the only pick in this list with lockable wheels, letting you reposition it easily between work sessions and then lock it in place rather than relying on a fixed zig-zag stance alone. At 88 inches wide and 6 feet tall, it offers a wide coverage area for a home office corner or a shared studio layout.\n\nLike the other fabric folding screens in this list, it reduces echo and reflections in the room, useful for calming a video call's audio, but it will not stop sound from carrying into an adjacent room, which requires a solid partition with mass rather than a fabric panel screen.",
+      "This 4-panel folding screen is the only pick in this list with lockable wheels, letting you reposition it easily between work sessions and then lock it in place rather than relying on a fixed zig-zag stance alone. At 88 inches wide and 6 feet tall, it offers a wide coverage area for a home office corner or a shared studio layout.\n\nLike the other fabric folding screens in this list, it reduces echo and reflections in the room, useful for calming a video call's audio, but it will not stop sound from carrying into an adjacent room, which requires a solid partition with mass rather than a fabric panel screen.\n\nWide 88 inch coverage across 4 panels. Set against that, lower review count than the top curtain and single-panel picks. Both matter when comparing it to the other picks here.",
     specs: [
       "4 panels, 88 inch width",
       "6 ft tall",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31IhKdy8YFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BQMR29TC?tag=deskfinds0d-20",
     description:
-      "This 4-panel fabric screen matches the SUNALLY lockable-wheel pick on width and height, 88 inches wide and 6 feet tall, but skips the lockable wheel feature in favor of a simpler fixed-foot zig-zag stand, which needs a proper accordion angle to self-support without tipping. Its higher review count gives it a more established track record than the newer lockable-wheel pick above.\n\nSame acoustic honesty applies here as the other fabric panel dividers in this list, it will reduce echo and reflections but will not meaningfully block sound from an adjacent room. A solid black finish also makes it a reasonably neutral, non-distracting video call background if positioned a foot or two behind you.",
+      "This 4-panel fabric screen matches the SUNALLY lockable-wheel pick on width and height, 88 inches wide and 6 feet tall, but skips the lockable wheel feature in favor of a simpler fixed-foot zig-zag stand, which needs a proper accordion angle to self-support without tipping. Its higher review count gives it a more established track record than the newer lockable-wheel pick above.\n\nSame acoustic honesty applies here as the other fabric panel dividers in this list, it will reduce echo and reflections but will not meaningfully block sound from an adjacent room. A solid black finish also makes it a reasonably neutral, non-distracting video call background if positioned a foot or two behind you.\n\nA genuine advantage here is that solid black color works well as a neutral video call background. The tradeoff is no lockable wheels, needs proper zig-zag angle to stay stable.",
     specs: [
       "4 panels, 88 inch width",
       "6 ft tall",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/416huFrUlIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DST8SCHS?tag=deskfinds0d-20",
     description:
-      "This single fabric panel offers height adjustability, a feature the other single-panel pick in this list doesn't mention, letting you dial in the exact coverage height for your desk setup or video call framing. At 71 by 71 inches it's a nearly square panel, giving broad coverage in both dimensions from a single freestanding piece.\n\nIts rating and review count are both the lowest in this list, worth weighing against the more established picks if buyer track record matters to you. As with the other fabric dividers here, treat it as an echo-reduction and visual-privacy product, not a sound-blocking partition between rooms.",
+      "This single fabric panel offers height adjustability, a feature the other single-panel pick in this list doesn't mention, letting you dial in the exact coverage height for your desk setup or video call framing. At 71 by 71 inches it's a nearly square panel, giving broad coverage in both dimensions from a single freestanding piece.\n\nIts rating and review count are both the lowest in this list, worth weighing against the more established picks if buyer track record matters to you. As with the other fabric dividers here, treat it as an echo-reduction and visual-privacy product, not a sound-blocking partition between rooms.\n\nNearly square dimensions give broad coverage. That's a real strength, but weigh it against the flip side: lowest rating and review count in this list.",
     specs: [
       "Single panel, 71W x 71H inches",
       "Height adjustable",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
     amazonUrl: "https://www.amazon.com/dp/B0FSCXHN6M?tag=deskfinds0d-20",
     description:
-      "Honest note upfront: this listing has no rating data yet, so treat it as an unproven newer option. Based on the title, this is a wood-framed shoji-style screen with a translucent paper or fabric panel infill, a distinctly different construction from the solid fabric folding screens elsewhere in this list, and its 3-panel count gives it a narrower folded footprint than the 4-panel screens.\n\nA wood-framed shoji screen is generally rigid and self-supporting when zig-zagged, but like the fabric dividers in this list, its thin panel infill will reduce light and provide visual privacy without meaningfully blocking sound between rooms.",
+      "Honest note upfront: this listing has no rating data yet, so treat it as an unproven newer option. Based on the title, this is a wood-framed shoji-style screen with a translucent paper or fabric panel infill, a distinctly different construction from the solid fabric folding screens elsewhere in this list, and its 3-panel count gives it a narrower folded footprint than the 4-panel screens.\n\nA wood-framed shoji screen is generally rigid and self-supporting when zig-zagged, but like the fabric dividers in this list, its thin panel infill will reduce light and provide visual privacy without meaningfully blocking sound between rooms.\n\nWorth calling out specifically: wood frame construction is generally rigid when zig-zagged. The catch is no reviews yet, unproven buyer track record.",
     specs: [
       "3 panels, wood frame",
       "Shoji-style translucent panel infill",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
     amazonUrl: "https://www.amazon.com/dp/B0H5HRGGHF?tag=deskfinds0d-20",
     description:
-      "Honest note upfront: this is a new listing with no ratings yet. Based on the title, this is a wave fiber panel divider, a rigid textured composite material rather than a soft fabric or wood-and-paper screen, in a brown finish across 4 freestanding panels.\n\nRigid fiber panels like this tend to hold their zig-zag shape well without wobbling, but as with every divider in this list, expect it to reduce echo and reflections in the room rather than block sound transmission to an adjacent space, and treat the listing as unproven until more buyer feedback accumulates.",
+      "Honest note upfront: this is a new listing with no ratings yet. Based on the title, this is a wave fiber panel divider, a rigid textured composite material rather than a soft fabric or wood-and-paper screen, in a brown finish across 4 freestanding panels.\n\nRigid fiber panels like this tend to hold their zig-zag shape well without wobbling, but as with every divider in this list, expect it to reduce echo and reflections in the room rather than block sound transmission to an adjacent space, and treat the listing as unproven until more buyer feedback accumulates.\n\nDistinct brown wave-textured finish. Set against that, no reviews yet, unproven buyer track record. Both matter when comparing it to the other picks here.",
     specs: [
       "4 panels, wave fiber material",
       "Brown finish",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
     amazonUrl: "https://www.amazon.com/dp/B0H5LJ8H3V?tag=deskfinds0d-20",
     description:
-      "Honest note upfront: this is a new listing with no ratings yet. It's the same wave fiber panel material as the brown 4-panel Halifax pick above, but in black and with 2 additional panels, giving it the widest total coverage of any divider in this list when fully unfolded.\n\nMore panels generally means a wider zig-zag footprint and more total coverage width, useful for enclosing a larger desk area, but as with every product in this list, expect echo reduction rather than genuine sound blocking, and weigh the lack of reviews before treating this as a proven pick.",
+      "Honest note upfront: this is a new listing with no ratings yet. It's the same wave fiber panel material as the brown 4-panel Halifax pick above, but in black and with 2 additional panels, giving it the widest total coverage of any divider in this list when fully unfolded.\n\nMore panels generally means a wider zig-zag footprint and more total coverage width, useful for enclosing a larger desk area, but as with every product in this list, expect echo reduction rather than genuine sound blocking, and weigh the lack of reviews before treating this as a proven pick.\n\nA genuine advantage here is that rigid fiber panel material. The tradeoff is no reviews yet, unproven buyer track record.",
     specs: [
       "6 panels, wave fiber material",
       "Black finish",
@@ -333,35 +333,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Understand echo reduction versus sound blocking before buying for privacy",
-    explanation:
-      "Fabric and fiber panel screens absorb some sound reflections within the room, which can reduce echo and make you sound clearer on a video call, but they do not stop sound from traveling into an adjacent room. Actually blocking sound transmission between spaces requires mass and an air gap, like a real partition wall, not a lightweight screen or curtain.",
+    "criterion": "Check freestanding stability against your actual floor type, not just an empty room demo",
+    "explanation": "A freestanding divider relies entirely on its own base footprint and panel angle for stability, with no wall support, and how well it actually stays upright varies depending on floor type, a divider that stands solidly on carpet can behave differently on hardwood or tile, and panels catching a draft from an HVAC vent can wobble more than expected.\n\nThis matters because a divider that looks stable in a still product photo can still tip or shift with regular foot traffic brushing past it.\n\nCheck reviews specifically for real-world stability mentions on floor types similar to yours, and check the base footprint width relative to the divider's height, since a taller divider needs a wider base to stay stable."
   },
   {
-    criterion: "A zig-zag arrangement is what keeps a freestanding screen upright",
-    explanation:
-      "Multi-panel folding screens rely on an angled, accordion-style stance to self-support, a screen left nearly flat is far more prone to tipping. If pets or kids are in the household, look for a screen with rubber non-slip feet at minimum, and consider a model with wall-anchor D-rings for extra stability.",
+    "criterion": "Confirm genuine sound dampening if acoustic privacy is the actual goal, not just visual blocking",
+    "explanation": "A room divider marketed as \"acoustic\" should use a real sound-dampening material, typically a felt or fabric-wrapped panel core, that measurably reduces noise transmission, distinct from a simple solid panel or bookcase that only blocks the sightline without doing anything meaningful for sound.\n\nThis distinction matters directly if noise reduction for calls or focused work is your actual goal, since a purely visual divider does very little to dampen adjacent conversation or ambient noise regardless of how solid it looks.\n\nCheck the listing specifically for a stated acoustic material, not just the word \"acoustic\" in the title with no supporting material description."
   },
   {
-    criterion: "Most freestanding dividers leave a floor-level gap",
-    explanation:
-      "A typical fabric or panel divider sits 1-2 inches off the floor, letting a draft, light, or a pet slip underneath. If eliminating that gap matters to you, a floor-length tension curtain is a better fit than a panel screen, but measure precisely since curtain length needs to match your ceiling height closely.",
+    "criterion": "Match panel height to your ceiling and the actual privacy level you need",
+    "explanation": "Panel height determines both visual privacy and how much of the room's overall openness the divider preserves, a shorter divider maintains more light and airflow but offers less real privacy, while a taller divider that extends closer to the ceiling gives stronger separation at the cost of feeling like a more permanent wall.\n\nThis matters more in a room with a high ceiling, where a standard-height divider can look and feel undersized, and less in a room with a standard 8-foot ceiling where most divider heights work proportionally.\n\nCheck the listed divider height against your room's actual ceiling height and how much visual openness you want to preserve, not just the divider's general size category."
   },
   {
-    criterion: "Position a solid-color divider behind you for video calls, not right up against your back",
-    explanation:
-      "A busy pattern or textured screen close behind you tends to distract on camera, while a solid neutral color positioned roughly 1-2 feet behind you reads cleanly on a webcam. Avoid placing any divider directly behind a window or light source, which creates a silhouette effect that darkens your face on camera.",
+    "criterion": "Weigh assembly and mounting requirements against whether you're renting or own the space",
+    "explanation": "Room dividers span a wide range of setup requirements, from a no-drill freestanding panel that requires zero installation to a wall-mounted or track-based divider requiring drilling and potentially professional installation, and which one is appropriate depends heavily on whether you're in a rented space where drilling isn't an option, or a space you own where a more permanent installation is fine.\n\nThis matters directly for a renter, discovering after purchase that a divider requires wall-mounting hardware is a real and avoidable problem in a space where drilling isn't allowed.\n\nCheck the listing specifically for the mounting method, freestanding, no-drill, or requiring wall anchors, before ordering, especially in a rented space."
   },
   {
-    criterion: "Match divider type to how permanent you need the separation to be",
-    explanation:
-      "A freestanding folding screen offers the most flexibility to move or fold away but tops out around 5-6 feet tall in most listings. A no-drill tension rod curtain can reach 8-10 feet in a narrow space without hardware, while a ceiling-mounted track offers the most permanent, drilled installation with the best acoustic separation of the three approaches, though none of the picks in this list are ceiling-mounted tracks.",
-  },
-  {
-    criterion: "New listings without reviews carry real uncertainty",
-    explanation:
-      "Three picks in this list have no rating data yet. Their spec sheets read well, but without buyer feedback there's no confirmation of real-world stability, material quality, or durability, weigh that uncertainty against the appeal of a newer design before choosing one of those over an established, reviewed alternative.",
-  },
+    "criterion": "Consider mobility needs if the divider will move between rooms or configurations regularly",
+    "explanation": "A divider on wheels or casters can be repositioned easily between rooms or reconfigured for different layouts throughout the week, useful for anyone who needs flexible zoning rather than a permanent room split, but wheels also mean the divider is inherently less stable than a fixed-base design and can shift underfoot if bumped.\n\nThis matters more if you genuinely need to move the divider often, like separating a home office from a living space only during work hours, less if it'll stay in one position long-term.\n\nCheck whether casters are lockable to prevent unwanted movement once positioned, and weigh mobility against the reduced stability it typically brings."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -374,71 +364,102 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Divider Type",
-    intro:
-      "The three basic construction types in this list behave very differently, match the type to what you actually need.",
-    table: {
-      headers: ["Type", "Best for", "Best pick"],
-      rows: [
-        ["Tension-rod curtain, no drilling", "Floor-to-ceiling visual privacy and light blocking", "SUNALLY No-Drill Curtain"],
-        ["Fabric folding panel screen", "Flexible, movable visual separation with some echo reduction", "SUNALLY 6FT Lockable Wheels, Black 4-Panel Screen"],
-        ["Single fixed or adjustable panel", "A simple backdrop against a wall or furniture", "RANTILA Single Panel, Height-Adjustable Single Panel"],
-        ["Rigid fiber or wood-framed screen", "A design-forward look with rigid self-support", "GTU Shoji 3-Panel, Halifax Wave Fiber 4-Panel, Halifax Wave Fiber 6-Panel"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "SUNALLY Room Divider No Drilling Curtain Rod Wall Divider"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Room Divider 6FT Portable Folding Privacy Screen"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Sound Expectations",
-    intro:
-      "This is the most important honesty check in this category, none of these products block sound between rooms.",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $31",
+          "RANTILA Single Large Panel Room Divider"
+        ],
+        [
+          "Up to $NaN",
+          "Black 6"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "On Wheels vs Fixed Base",
+    "cards": [
       {
-        label: "Want to reduce echo on video calls",
-        text: "Any fabric or fiber panel screen in this list, like the black 4-panel screen or either Halifax pick, will genuinely help by absorbing reflections near your desk.",
+        "label": "On wheels",
+        "text": "Repositionable between rooms or layouts, worth locking casters once positioned. In this comparison: SUNALLY Room Divider 6FT Folding Privacy Screen with Lockable Wheels, Room Divider 6FT Portable Folding Privacy Screen."
       },
       {
-        label: "Want to actually block sound from an adjacent room",
-        text: "None of the picks in this list are designed for that. A solid partition wall with mass and an air gap is the only real solution, a fabric or fiber screen will not achieve it.",
-      },
+        "label": "Fixed base",
+        "text": "More stable for a divider that stays in one spot long-term. In this comparison: SUNALLY Room Divider No Drilling Curtain Rod Wall Divider, RANTILA Single Large Panel Room Divider, Room Divider Single Panel, GTU Furniture Japanese Style 3 Panels Wood Shoji Room Divider Screen, Brown Wave Fiber Portable 4, Black 6."
+      }
     ],
-    note: "Fabric folding screens and curtains reduce echo within the room, they do not block sound transmission between rooms. Treat any acoustic benefit as a clearer video call sound, not soundproofing.",
+    "note": "Default to a fixed base unless you genuinely need to reposition the divider often."
   },
   {
-    subheading: "By Pet or Child Household",
-    table: {
-      headers: ["Concern", "What to look for", "Best pick"],
-      rows: [
-        ["Floor gap letting a pet or draft through", "Floor-length coverage", "SUNALLY No-Drill Curtain"],
-        ["Screen tipping from bumps or curious pets", "Wide zig-zag stance, lockable wheels, or wall anchors", "SUNALLY 6FT Lockable Wheels"],
-        ["Standard stability, low-traffic room", "Any zig-zag panel screen", "Black 4-Panel Screen, RANTILA Single Panel"],
+    "subheading": "By Acoustic Material",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Genuine sound-dampening material",
+          "Room Divider 6FT Portable Folding Privacy Screen"
+        ],
+        [
+          "Visual separation is enough",
+          "SUNALLY Room Divider No Drilling Curtain Rod Wall Divider"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Video Call Background Needs",
-    cards: [
+    "subheading": "For a Rented Space Specifically",
+    "cards": [
       {
-        label: "Want a clean, neutral background",
-        text: "The Black 4-Panel Screen or the Height-Adjustable Single Panel both offer a solid black finish suited to sitting behind you.",
+        "label": "Look for",
+        "text": "A genuine freestanding or no-drill design that requires zero wall modification, not a divider that turns out to need wall anchors."
       },
       {
-        label: "Want a design-forward background",
-        text: "The GTU Shoji 3-Panel screen offers a distinct look, though check lighting behind translucent panels to avoid a silhouette effect.",
-      },
-    ],
-    note: "Avoid positioning any divider directly in front of a window behind you, backlighting creates a silhouette that darkens your face on camera regardless of which divider you choose.",
+        "label": "In this comparison",
+        "text": "Room Divider 6FT Portable Folding Privacy Screen is worth checking against its listed mounting method before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "By Buyer Confidence Level",
-    table: {
-      headers: ["Comfort level", "What to choose", "Best pick"],
-      rows: [
-        ["Want an established, well-reviewed option", "1,000+ ratings", "SUNALLY No-Drill Curtain, RANTILA Single Panel, Black 4-Panel Screen"],
-        ["Comfortable with moderate review volume", "500-1,700 ratings", "SUNALLY 6FT Lockable Wheels, Height-Adjustable Single Panel"],
-        ["Comfortable being an early buyer on a new listing", "No reviews yet", "GTU Shoji 3-Panel, Halifax Wave Fiber 4-Panel, Halifax Wave Fiber 6-Panel"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real acoustic dampening or a taller, more stable divider, where Black 6's material and construction give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need light visual separation without noise or stability concerns, where RANTILA Single Large Panel Room Divider covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

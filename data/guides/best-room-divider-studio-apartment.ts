@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41uULXHLL1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DFH8C526?tag=deskfinds0d-20",
     description:
-      "This SUNALLY rod spans 28 to 114 inches wide and 4 to 10 feet tall, the widest coverage in this list, with a stainless steel build rated for 45 lbs of curtain weight. It sets up in both a straight I-shape or an angled L-shape configuration, so it can wrap a corner instead of just running in a straight line.\n\nBecause it works entirely on spring tension, there's no drilling, no wall anchors, and no permanent mark left behind, exactly what a renter needs. You still need to buy curtains separately, the rod alone is just the framework.",
+      "This SUNALLY rod spans 28 to 114 inches wide and 4 to 10 feet tall, the widest coverage in this list, with a stainless steel build rated for 45 lbs of curtain weight. It sets up in both a straight I-shape or an angled L-shape configuration, so it can wrap a corner instead of just running in a straight line.\n\nBecause it works entirely on spring tension, there's no drilling, no wall anchors, and no permanent mark left behind, exactly what a renter needs. You still need to buy curtains separately, the rod alone is just the framework.\n\nBoth I-shape and L-shape configurations for corners. That's a real strength, but weigh it against the flip side: curtains sold separately.",
     specs: [
       "28-114\" width, 4-10ft height (adjustable)",
       "Stainless steel",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51-x8nHCvhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZGN4B8V?tag=deskfinds0d-20",
     description:
-      "Goovilla's iron tension rod covers a more compact 28 to 70 inch width, well suited to sectioning off a sleeping nook or closet-sized area rather than a whole room. Like the wider SUNALLY, it offers both I-shape and L-shape setups and a 45 lb capacity, entirely without drilling.\n\nAt just over half the price of the wide SUNALLY option, it's the cheapest tension rod in this list, and it detaches into a compact package for storage if you only need the division temporarily.",
+      "Goovilla's iron tension rod covers a more compact 28 to 70 inch width, well suited to sectioning off a sleeping nook or closet-sized area rather than a whole room. Like the wider SUNALLY, it offers both I-shape and L-shape setups and a 45 lb capacity, entirely without drilling.\n\nAt just over half the price of the wide SUNALLY option, it's the cheapest tension rod in this list, and it detaches into a compact package for storage if you only need the division temporarily.\n\nWorth calling out specifically: both I-shape and L-shape configurations. The catch is narrower 70\" max width limits it to smaller spaces.",
     specs: [
       "28-70\" width, 4-10ft height (adjustable)",
       "Iron construction",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419hFiYpoGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DFH63QDM?tag=deskfinds0d-20",
     description:
-      "This is the compact sibling of SUNALLY's wide tension rod, covering 28 to 70 inches in the same stainless steel build and 45 lb rating. It's the brand's most popular configuration for a reason: most studio nooks don't actually need a 114-inch span.\n\nThe rod detaches for genuinely compact storage between uses, a real advantage if you're subletting or expect to move within a year and don't want to carry a bulky rod along.",
+      "This is the compact sibling of SUNALLY's wide tension rod, covering 28 to 70 inches in the same stainless steel build and 45 lb rating. It's the brand's most popular configuration for a reason: most studio nooks don't actually need a 114-inch span.\n\nThe rod detaches for genuinely compact storage between uses, a real advantage if you're subletting or expect to move within a year and don't want to carry a bulky rod along.\n\nStainless steel build resists rust. Set against that, narrower than the 114\" SUNALLY option. Both matter when comparing it to the other picks here.",
     specs: [
       "28-70\" width, 4-10ft height (adjustable)",
       "Stainless steel",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41inUBY1siL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVD54V55?tag=deskfinds0d-20",
     description:
-      "With nearly 2,000 ratings, HORSE SECRET is the most-reviewed tension rod in this list. A 1-inch diameter stainless metal tube feels sturdier in hand than the thinner rods from other brands, and a matte black finish looks less utilitarian than bare steel.\n\nIt covers the same 28 to 70 inch, 4 to 10 foot range as the compact SUNALLY and Goovilla options, with a 40 lb capacity, and mounts entirely on spring tension with zero drilling.",
+      "With nearly 2,000 ratings, HORSE SECRET is the most-reviewed tension rod in this list. A 1-inch diameter stainless metal tube feels sturdier in hand than the thinner rods from other brands, and a matte black finish looks less utilitarian than bare steel.\n\nIt covers the same 28 to 70 inch, 4 to 10 foot range as the compact SUNALLY and Goovilla options, with a 40 lb capacity, and mounts entirely on spring tension with zero drilling.\n\nA genuine advantage here is that thicker 1\" diameter feels sturdier. The tradeoff is slightly lower 40 lb capacity than the SUNALLY/Goovilla rods.",
     specs: [
       "28-70\" width, 4-10ft height (adjustable)",
       "Stainless metal, 1\" diameter",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51rv8HmmWoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07NQ855JN?tag=deskfinds0d-20",
     description:
-      "JOSTYLE's bamboo screen needs zero assembly and unfolds straight out of the box, with dual-direction hinges that let it bend into whichever angle keeps it standing on its own. At 79.9 inches wide and just 15.4 lbs, it's the lightest folding screen in this list.\n\nNatural bamboo construction gives it a warmer, more organic look than a fabric or metal-frame screen, and it's light enough for one person to reposition without help.",
+      "JOSTYLE's bamboo screen needs zero assembly and unfolds straight out of the box, with dual-direction hinges that let it bend into whichever angle keeps it standing on its own. At 79.9 inches wide and just 15.4 lbs, it's the lightest folding screen in this list.\n\nNatural bamboo construction gives it a warmer, more organic look than a fabric or metal-frame screen, and it's light enough for one person to reposition without help.\n\nLightest folding screen in this list at 15.4 lbs. That's a real strength, but weigh it against the flip side: bamboo panels are less rigid than a solid wood frame.",
     specs: [
       "79.9\"W x 70.9\"H",
       "Bamboo + wood",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51lVjlsR99L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01MSXEB3B?tag=deskfinds0d-20",
     description:
-      "Roundhill's shoji screen uses translucent rice-paper-style panels that let daylight pass through while still blocking a direct sightline, a real advantage in a studio where a solid divider can make the whole apartment feel darker and smaller. The cherry wood frame and two-way hinges need no assembly.\n\nAt 72 inches wide and just 15 lbs, it's light enough to reposition on your own, and the Japanese aesthetic reads as intentional decor rather than a makeshift barrier.",
+      "Roundhill's shoji screen uses translucent rice-paper-style panels that let daylight pass through while still blocking a direct sightline, a real advantage in a studio where a solid divider can make the whole apartment feel darker and smaller. The cherry wood frame and two-way hinges need no assembly.\n\nAt 72 inches wide and just 15 lbs, it's light enough to reposition on your own, and the Japanese aesthetic reads as intentional decor rather than a makeshift barrier.\n\nWorth calling out specifically: no assembly required. The catch is translucent panels offer visual privacy but not full opacity.",
     specs: [
       "72\"W x 71\"H",
       "Wood frame + rice-paper-style panels",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51SjBA7OMrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHY9X7RJ?tag=deskfinds0d-20",
     description:
-      "This 6-panel screen is hand-carved with an openwork leaf pattern, letting both light and airflow pass through the solid wood construction while still doubling as a decorative art piece. At 96 inches wide, it's the widest folding screen in this list once fully unfolded.\n\nIt requires no tools to set up, and the carved pattern gives it a boutique, boho look that a plain fabric or bamboo screen can't match, though it comes at a premium price for that detail.",
+      "This 6-panel screen is hand-carved with an openwork leaf pattern, letting both light and airflow pass through the solid wood construction while still doubling as a decorative art piece. At 96 inches wide, it's the widest folding screen in this list once fully unfolded.\n\nIt requires no tools to set up, and the carved pattern gives it a boutique, boho look that a plain fabric or bamboo screen can't match, though it comes at a premium price for that detail.\n\nHand-carved openwork lets light and air through. Set against that, most expensive folding screen in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "96\"W x 67\"H",
       "Solid wood, hand-carved openwork",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41tIPFRL6WL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CR2Y9BYR?tag=deskfinds0d-20",
     description:
-      "Unlike the screens and rods above, Furologee's S-shaped rack doubles as real storage, holding 30 lbs per shelf for 180 lbs total across its sculptural frame. In a studio where every square foot needs to earn its keep, a divider that's also a bookshelf makes more sense than one that only divides.\n\nIt works upright as a divider, or laid flat as a wine rack or TV stand, giving it more flexibility than a fixed-shape folding screen if your studio layout changes.",
+      "Unlike the screens and rods above, Furologee's S-shaped rack doubles as real storage, holding 30 lbs per shelf for 180 lbs total across its sculptural frame. In a studio where every square foot needs to earn its keep, a divider that's also a bookshelf makes more sense than one that only divides.\n\nIt works upright as a divider, or laid flat as a wine rack or TV stand, giving it more flexibility than a fixed-shape folding screen if your studio layout changes.\n\nA genuine advantage here is that 180 lb total capacity. The tradeoff is narrower footprint than a full-width folding screen.",
     specs: [
       "14.96\"W x 9.45\"D x 57.48\"H",
       "P2 MDF + metal",
@@ -328,30 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Tension rods carry curtain weight only, not shelving",
-    explanation:
-      "A tension rod's 40-45 lb rating in this list refers to the curtain fabric hanging from it, not a shelf or bookcase load. If you want a divider that also stores books or decor, look at a freestanding bookcase-style divider instead, like the Furologee S-shaped pick.",
+    "criterion": "Check freestanding stability against your actual floor type, not just an empty room demo",
+    "explanation": "A freestanding divider relies entirely on its own base footprint and panel angle for stability, with no wall support, and how well it actually stays upright varies depending on floor type, a divider that stands solidly on carpet can behave differently on hardwood or tile, and panels catching a draft from an HVAC vent can wobble more than expected.\n\nThis matters because a divider that looks stable in a still product photo can still tip or shift with regular foot traffic brushing past it.\n\nCheck reviews specifically for real-world stability mentions on floor types similar to yours, and check the base footprint width relative to the divider's height, since a taller divider needs a wider base to stay stable."
   },
   {
-    criterion: "Measure your ceiling height before buying a tension rod",
-    explanation:
-      "Every tension rod in this list adjusts across a 4-10 foot range, but a rod extended near its maximum height loses some of its rigidity. If your ceiling is close to 10 feet, expect slightly more flex than a rod set at 7-8 feet.",
+    "criterion": "Confirm genuine sound dampening if acoustic privacy is the actual goal, not just visual blocking",
+    "explanation": "A room divider marketed as \"acoustic\" should use a real sound-dampening material, typically a felt or fabric-wrapped panel core, that measurably reduces noise transmission, distinct from a simple solid panel or bookcase that only blocks the sightline without doing anything meaningful for sound.\n\nThis distinction matters directly if noise reduction for calls or focused work is your actual goal, since a purely visual divider does very little to dampen adjacent conversation or ambient noise regardless of how solid it looks.\n\nCheck the listing specifically for a stated acoustic material, not just the word \"acoustic\" in the title with no supporting material description."
   },
   {
-    criterion: "Folding screens need an angle to stand on their own",
-    explanation:
-      "A folding screen only stays upright when its panels are angled into a zigzag, not opened flat. Plan for roughly 60-70% of the screen's stated width as its actual footprint once it's angled for stability.",
+    "criterion": "Match panel height to your ceiling and the actual privacy level you need",
+    "explanation": "Panel height determines both visual privacy and how much of the room's overall openness the divider preserves, a shorter divider maintains more light and airflow but offers less real privacy, while a taller divider that extends closer to the ceiling gives stronger separation at the cost of feeling like a more permanent wall.\n\nThis matters more in a room with a high ceiling, where a standard-height divider can look and feel undersized, and less in a room with a standard 8-foot ceiling where most divider heights work proportionally.\n\nCheck the listed divider height against your room's actual ceiling height and how much visual openness you want to preserve, not just the divider's general size category."
   },
   {
-    criterion: "Translucent vs opaque changes how small the room feels",
-    explanation:
-      "A solid fabric or wood panel blocks the sightline completely but can make a studio feel more chopped up. A translucent shoji-style screen preserves more daylight and a sense of openness while still creating a visual boundary.",
+    "criterion": "Weigh assembly and mounting requirements against whether you're renting or own the space",
+    "explanation": "Room dividers span a wide range of setup requirements, from a no-drill freestanding panel that requires zero installation to a wall-mounted or track-based divider requiring drilling and potentially professional installation, and which one is appropriate depends heavily on whether you're in a rented space where drilling isn't an option, or a space you own where a more permanent installation is fine.\n\nThis matters directly for a renter, discovering after purchase that a divider requires wall-mounting hardware is a real and avoidable problem in a space where drilling isn't allowed.\n\nCheck the listing specifically for the mounting method, freestanding, no-drill, or requiring wall anchors, before ordering, especially in a rented space."
   },
   {
-    criterion: "Panel count trades footprint for stability",
-    explanation:
-      "More panels (5-6) let a screen fold into a tighter, more stable zigzag and take up less floor depth when angled, while fewer panels (3-4) cover more width per panel but need a wider angled stance to stay upright.",
-  },
+    "criterion": "Consider mobility needs if the divider will move between rooms or configurations regularly",
+    "explanation": "A divider on wheels or casters can be repositioned easily between rooms or reconfigured for different layouts throughout the week, useful for anyone who needs flexible zoning rather than a permanent room split, but wheels also mean the divider is inherently less stable than a fixed-base design and can shift underfoot if bumped.\n\nThis matters more if you genuinely need to move the divider often, like separating a home office from a living space only during work hours, less if it'll stay in one position long-term.\n\nCheck whether casters are lockable to prevent unwanted movement once positioned, and weigh mobility against the reduced stability it typically brings."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -364,60 +359,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Whether You Can Drill",
-    intro:
-      "This is usually the first constraint in a rented studio, and it immediately splits the field into two very different product categories.",
-    table: {
-      headers: ["Situation", "Best category", "Best pick"],
-      rows: [
-        ["Renting, no drilling allowed", "No-drill tension rod", "SUNALLY 28-114\", Goovilla, HORSE SECRET"],
-        ["Renting, want more privacy than a curtain", "Freestanding folding screen", "Roundhill Shoji, JOSTYLE Bamboo"],
-        ["Own the space or drilling is fine", "Any option, including permanent dividers", "All picks in this list work either way"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "SUNALLY No"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "HORSE SECRET No"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By How Much Light You Want to Keep",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $29",
+          "Goovilla No"
+        ],
+        [
+          "Up to $90",
+          "JOSTYLE Boho Openwork Wood 6"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Built-In Storage vs Panel-Only",
+    "cards": [
       {
-        label: "Maximum brightness, still want a visual boundary",
-        text: "Roundhill Shoji's translucent panels let daylight pass through while still blocking a direct sightline into the divided area.",
+        "label": "Built-in storage (bookcase/cube)",
+        "text": "Doubles as shelving while dividing the room, useful in a smaller space. In this comparison: Goovilla No, SUNALLY No, Furologee 6."
       },
       {
-        label: "Full privacy, brightness is secondary",
-        text: "HOMSCREENER-style opaque fabric panels or the JOSTYLE Bamboo screen block sightlines completely but don't pass light through.",
-      },
-      {
-        label: "Want airflow as well as light",
-        text: "JOSTYLE's Boho Openwork carved-wood screen lets both light and air circulate through its carved pattern, useful in a studio without much cross-ventilation.",
-      },
+        "label": "Panel-only",
+        "text": "Simpler, focused purely on visual or acoustic separation. In this comparison: SUNALLY No, HORSE SECRET No, JOSTYLE Bamboo 4, Roundhill Furniture Oriental Shoji 4, JOSTYLE Boho Openwork Wood 6."
+      }
     ],
+    "note": "Default to panel-only unless built-in storage genuinely solves a real space problem for you."
   },
   {
-    subheading: "By Width You Need to Cover",
-    table: {
-      headers: ["Gap width", "Best pick", "Why"],
-      rows: [
-        ["Under 70\"", "Goovilla or HORSE SECRET tension rod", "Cheapest options sized right for a nook or closet-width gap"],
-        ["70-96\"", "SUNALLY 28-114\" tension rod, JOSTYLE Boho 96\"", "Covers a standard room-width gap"],
-        ["Wrapping a corner", "SUNALLY (L-shape configuration)", "Only picks here with an L-shape option"],
-      ],
-    },
+    "subheading": "By Panel Height",
+    "note": "Check each pick's listed panel height against your room's ceiling and the actual privacy level you need before buying. HORSE SECRET No is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Divider-Only vs Divider-Plus-Storage",
-    intro:
-      "In a studio, a divider that also stores something is often a better use of floor space than one that only splits the room.",
-    table: {
-      headers: ["Priority", "Best pick", "Trade-off"],
-      rows: [
-        ["Divider only, maximum width coverage", "SUNALLY 28-114\" tension rod", "No storage function, curtain sold separately"],
-        ["Divider plus real shelf storage", "Furologee S-Shaped (180 lb capacity)", "Narrower footprint than a full-width screen"],
-        ["Divider plus decor value", "JOSTYLE Boho Openwork or Roundhill Shoji", "Higher price for the aesthetic upgrade"],
-      ],
-    },
-    note: "If you're debating between a tension rod and a bookcase-style divider, ask what the space next to it needs more: privacy, storage, or light. Rarely does one product do all three well.",
+    "subheading": "For a Rented Space Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine freestanding or no-drill design that requires zero wall modification, not a divider that turns out to need wall anchors."
+      },
+      {
+        "label": "In this comparison",
+        "text": "HORSE SECRET No is worth checking against its listed mounting method before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real acoustic dampening or a taller, more stable divider, where JOSTYLE Boho Openwork Wood 6's material and construction give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need light visual separation without noise or stability concerns, where Goovilla No covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

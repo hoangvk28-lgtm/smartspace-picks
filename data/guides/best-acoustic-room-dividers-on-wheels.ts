@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Fu6stedSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C1GFN2YT?tag=deskfinds0d-20",
     description:
-      "A 3-panel design genuinely balances coverage width against a manageable folded footprint, the most common configuration for a shared office needing occasional room division without permanently losing floor space to storage.\n\nSolid rating base for this product category, real-world evidence of reliable wheeled mobility and acoustic performance.",
+      "A 3-panel design genuinely balances coverage width against a manageable folded footprint, the most common configuration for a shared office needing occasional room division without permanently losing floor space to storage.\n\nSolid rating base for this product category, real-world evidence of reliable wheeled mobility and acoustic performance.\n\nSolid rating base. That's a real strength, but weigh it against the flip side: less coverage than a 4-panel option for a wider space.",
     specs: ["3 panels, wheeled", "Acoustic office divider", "Portable, foldable for storage", "Solid rating base"],
     pros: ["Balanced coverage-to-footprint ratio for most offices", "Solid rating base", "Genuinely portable on wheels", "Reasonable price for this category"],
     cons: ["Less coverage than a 4-panel option for a wider space", "No specific NRC/STC rating disclosed", "Casters should be checked for locking capability before relying on fixed positioning"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31N6zWVRQ9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2HC56SD?tag=deskfinds0d-20",
     description:
-      "Explicitly heavy-duty construction at a lower price than the standard 3-panel top pick, genuinely worth considering if durability under frequent repositioning matters more than acoustic marketing claims. 72-inch height suits standing-height room division.\n\nVery limited review history so far given how new this listing is, weigh the perfect rating against the small sample size.",
+      "Explicitly heavy-duty construction at a lower price than the standard 3-panel top pick, genuinely worth considering if durability under frequent repositioning matters more than acoustic marketing claims. 72-inch height suits standing-height room division.\n\nVery limited review history so far given how new this listing is, weigh the perfect rating against the small sample size.\n\nWorth calling out specifically: lower price than the top pick. The catch is very limited review history.",
     specs: ["3 panels, 72in height, heavy-duty", "Wheeled, acoustic material", "Lower price than the standard top pick", "Standing-height coverage"],
     pros: ["Heavy-duty build genuinely suited to frequent repositioning", "Lower price than the top pick", "72in height for standing-height division", "Perfect early rating"],
     cons: ["Very limited review history", "No specific NRC/STC rating disclosed", "Small sample size for durability claims"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Q4uedNnlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLYKSZYN?tag=deskfinds0d-20",
     description:
-      "A 4th panel genuinely extends coverage width for dividing a larger open office space, at the real tradeoff of a bulkier folded footprint when you push it aside, plan for the extra floor space this needs even when stored.\n\nSame solid rating base as its 3-panel sibling, consistent evidence of reliable performance across this product line.",
+      "A 4th panel genuinely extends coverage width for dividing a larger open office space, at the real tradeoff of a bulkier folded footprint when you push it aside, plan for the extra floor space this needs even when stored.\n\nSame solid rating base as its 3-panel sibling, consistent evidence of reliable performance across this product line.\n\nSolid, consistent rating base. Set against that, bulkier folded footprint than 3-panel alternatives. Both matter when comparing it to the other picks here.",
     specs: ["4 panels, wheeled", "Wider coverage than 3-panel models", "Acoustic office divider", "Solid rating base"],
     pros: ["Widest coverage of the wheeled dividers in this guide", "Solid, consistent rating base", "Genuinely portable on wheels", "Suits larger open office spaces"],
     cons: ["Bulkier folded footprint than 3-panel alternatives", "Highest price in this guide", "No specific NRC/STC rating disclosed"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415j3VjblVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DPFRWSTM?tag=deskfinds0d-20",
     description:
-      "A near-identical 3-panel design to the top pick at a marginally lower price, a reasonable alternative if this specific listing's current stock or exact panel finish suits your space better.\n\nSame solid rating base as the top pick, genuinely equivalent performance at this capacity tier.",
+      "A near-identical 3-panel design to the top pick at a marginally lower price, a reasonable alternative if this specific listing's current stock or exact panel finish suits your space better.\n\nSame solid rating base as the top pick, genuinely equivalent performance at this capacity tier.\n\nA genuine advantage here is that marginally lower price. The tradeoff is nearly identical to the top pick, compare current stock/finish before choosing.",
     specs: ["3 panels, wheeled", "Acoustic office divider", "Portable, foldable for storage", "Marginally lower price than the top pick"],
     pros: ["Same solid rating base as the top 3-panel pick", "Marginally lower price", "Genuinely portable on wheels", "Balanced coverage-to-footprint ratio"],
     cons: ["Nearly identical to the top pick, compare current stock/finish before choosing", "No specific NRC/STC rating disclosed", "Same caster-locking consideration applies"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31QuqUSZuOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2HCQN2H?tag=deskfinds0d-20",
     description:
-      "A second listing of the same heavy-duty 72-inch design, worth checking for stock availability or a slightly different panel finish if the primary listing is unavailable.\n\nEven smaller review count than its sibling listing, treat the perfect rating as a very early signal rather than a confirmed track record.",
+      "A second listing of the same heavy-duty 72-inch design, worth checking for stock availability or a slightly different panel finish if the primary listing is unavailable.\n\nEven smaller review count than its sibling listing, treat the perfect rating as a very early signal rather than a confirmed track record.\n\nLower price than the standard 3-panel top pick. That's a real strength, but weigh it against the flip side: extremely limited review history.",
     specs: ["3 panels, 72in height, heavy-duty", "Wheeled, acoustic material", "Same specs as the primary heavy-duty listing", "Standing-height coverage"],
     pros: ["Same heavy-duty build as the primary listing", "Lower price than the standard 3-panel top pick", "72in height for standing-height division", "Alternative if the primary listing is out of stock"],
     cons: ["Extremely limited review history", "No specific NRC/STC rating disclosed", "Essentially a duplicate listing, compare stock before choosing"],
@@ -117,30 +117,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Panel Count Trades Coverage for Storage Footprint",
-    table: {
-      headers: ["Panel count", "Coverage", "Folded footprint", "Pick"],
-      rows: [
-        ["3 panels", "Standard coverage", "Manageable footprint", "3 Panel Soundproof Divider (rank 1 or 4)"],
-        ["4 panels", "Widest coverage", "Bulkier footprint", "4 Panel Soundproof Divider (rank 3)"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "72in 3"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "3 Panel Soundproof Room Divider"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Wheels and Casters Matter More Than Acoustic Marketing",
-    note: "A divider that's hard to roll into position or won't stay put once placed undermines the entire reason to choose a wheeled option over a fixed partition. Check for locking casters specifically if you need the divider to stay in a fixed spot during the day.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $273",
+          "72in 3"
+        ],
+        [
+          "Up to $475",
+          "4 Panel Soundproof Room Divider"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Heavy-Duty vs. Standard Construction",
-    note: "If you'll reposition the divider frequently throughout the day, the heavy-duty 72-inch design (ranks 2 and 5) is built for that repeated wear, though with a much smaller review history than the standard 3-panel and 4-panel picks. Weigh the newer product's thinner track record against its lower price and heavy-duty claims.",
+    "subheading": "Built-In Storage vs Panel-Only",
+    "cards": [
+      {
+        "label": "Built-in storage (bookcase/cube)",
+        "text": "Doubles as shelving while dividing the room, useful in a smaller space. In this comparison: 3 Panel Soundproof Room Divider, 3 Panel Soundproof Room Divider."
+      },
+      {
+        "label": "Panel-only",
+        "text": "Simpler, focused purely on visual or acoustic separation. In this comparison: 72in 3, 4 Panel Soundproof Room Divider, 72in 3."
+      }
+    ],
+    "note": "Default to panel-only unless built-in storage genuinely solves a real space problem for you."
   },
+  {
+    "subheading": "By Panel Height",
+    "note": "Check each pick's listed panel height against your room's ceiling and the actual privacy level you need before buying. 3 Panel Soundproof Room Divider is the most-reviewed option here if you want the safer bet."
+  },
+  {
+    "subheading": "For a Rented Space Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine freestanding or no-drill design that requires zero wall modification, not a divider that turns out to need wall anchors."
+      },
+      {
+        "label": "In this comparison",
+        "text": "3 Panel Soundproof Room Divider is worth checking against its listed mounting method before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real acoustic dampening or a taller, more stable divider, where 4 Panel Soundproof Room Divider's material and construction give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need light visual separation without noise or stability concerns, where 72in 3 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "More panels means wider coverage but a bulkier folded footprint", explanation: "A 4-panel divider covers more of a larger open space when unfolded, but takes up correspondingly more floor space when folded aside for storage, plan for both states, not just the unfolded coverage." },
-  { criterion: "Locking casters matter more than acoustic marketing claims for daily use", explanation: "A wheeled divider that won't stay positioned once placed undermines the entire point of a mobile design, verify locking caster capability before assuming any wheeled divider works the same." },
-  { criterion: "Heavy-duty construction suits frequent repositioning better than standard builds", explanation: "If you'll move the divider multiple times a day, a heavy-duty design is built for that wear, though weigh a newer heavy-duty listing's thinner review history against its claims." },
-  { criterion: "No tested NRC/STC rating exists on these consumer-scale dividers", explanation: "None of the picks in this guide disclose a tested Noise Reduction Coefficient or Sound Transmission Class rating, treat 'soundproof' and 'acoustic' marketing language as directional, not a verified engineering spec." },
+  {
+    "criterion": "Check freestanding stability against your actual floor type, not just an empty room demo",
+    "explanation": "A freestanding divider relies entirely on its own base footprint and panel angle for stability, with no wall support, and how well it actually stays upright varies depending on floor type, a divider that stands solidly on carpet can behave differently on hardwood or tile, and panels catching a draft from an HVAC vent can wobble more than expected.\n\nThis matters because a divider that looks stable in a still product photo can still tip or shift with regular foot traffic brushing past it.\n\nCheck reviews specifically for real-world stability mentions on floor types similar to yours, and check the base footprint width relative to the divider's height, since a taller divider needs a wider base to stay stable."
+  },
+  {
+    "criterion": "Confirm genuine sound dampening if acoustic privacy is the actual goal, not just visual blocking",
+    "explanation": "A room divider marketed as \"acoustic\" should use a real sound-dampening material, typically a felt or fabric-wrapped panel core, that measurably reduces noise transmission, distinct from a simple solid panel or bookcase that only blocks the sightline without doing anything meaningful for sound.\n\nThis distinction matters directly if noise reduction for calls or focused work is your actual goal, since a purely visual divider does very little to dampen adjacent conversation or ambient noise regardless of how solid it looks.\n\nCheck the listing specifically for a stated acoustic material, not just the word \"acoustic\" in the title with no supporting material description."
+  },
+  {
+    "criterion": "Match panel height to your ceiling and the actual privacy level you need",
+    "explanation": "Panel height determines both visual privacy and how much of the room's overall openness the divider preserves, a shorter divider maintains more light and airflow but offers less real privacy, while a taller divider that extends closer to the ceiling gives stronger separation at the cost of feeling like a more permanent wall.\n\nThis matters more in a room with a high ceiling, where a standard-height divider can look and feel undersized, and less in a room with a standard 8-foot ceiling where most divider heights work proportionally.\n\nCheck the listed divider height against your room's actual ceiling height and how much visual openness you want to preserve, not just the divider's general size category."
+  },
+  {
+    "criterion": "Weigh assembly and mounting requirements against whether you're renting or own the space",
+    "explanation": "Room dividers span a wide range of setup requirements, from a no-drill freestanding panel that requires zero installation to a wall-mounted or track-based divider requiring drilling and potentially professional installation, and which one is appropriate depends heavily on whether you're in a rented space where drilling isn't an option, or a space you own where a more permanent installation is fine.\n\nThis matters directly for a renter, discovering after purchase that a divider requires wall-mounting hardware is a real and avoidable problem in a space where drilling isn't allowed.\n\nCheck the listing specifically for the mounting method, freestanding, no-drill, or requiring wall anchors, before ordering, especially in a rented space."
+  },
+  {
+    "criterion": "Consider mobility needs if the divider will move between rooms or configurations regularly",
+    "explanation": "A divider on wheels or casters can be repositioned easily between rooms or reconfigured for different layouts throughout the week, useful for anyone who needs flexible zoning rather than a permanent room split, but wheels also mean the divider is inherently less stable than a fixed-base design and can shift underfoot if bumped.\n\nThis matters more if you genuinely need to move the divider often, like separating a home office from a living space only during work hours, less if it'll stay in one position long-term.\n\nCheck whether casters are lockable to prevent unwanted movement once positioned, and weigh mobility against the reduced stability it typically brings."
+  }
 ];
 
 export const faq: FaqItem[] = [

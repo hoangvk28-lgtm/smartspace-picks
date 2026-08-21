@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/412nDJFwHPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMDTGYK2?tag=deskfinds0d-20",
     description:
-      "The SUNALLY 6FT divider is explicitly listed with lockable wheels on its 4-panel fabric frame, one of the few in this category with casters confirmed directly in the product title. At 88 inches wide and 6 feet tall, it is a genuinely mobile option for repositioning between rooms without disassembly.\n\nAs with any wheeled fabric-panel divider, check the caster load rating against the frame's own weight plus any bumps during rolling; locking the wheels once positioned prevents drift on hardwood or tile. At 4.2 stars across 555 ratings it has a solid, if not top-tier, track record.",
+      "The SUNALLY 6FT divider is explicitly listed with lockable wheels on its 4-panel fabric frame, one of the few in this category with casters confirmed directly in the product title. At 88 inches wide and 6 feet tall, it is a genuinely mobile option for repositioning between rooms without disassembly.\n\nAs with any wheeled fabric-panel divider, check the caster load rating against the frame's own weight plus any bumps during rolling; locking the wheels once positioned prevents drift on hardwood or tile. At 4.2 stars across 555 ratings it has a solid, if not top-tier, track record.\n\nLocking casters prevent drift once placed. That's a real strength, but weigh it against the flip side: 4.2 stars, mid-pack rating.",
     specs: ["Lockable wheels confirmed in listing", "6 ft height, 88 in width", "4-panel fabric folding screen", "Freestanding, no drilling"],
     pros: ["Wheels explicitly confirmed, not assumed", "Locking casters prevent drift once placed", "6 ft height, taller than most single panels", "Freestanding, no drilling"],
     cons: ["4.2 stars, mid-pack rating", "Fabric panel, less rigid than wood-frame options"],
@@ -68,7 +68,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31nxH15D5JL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKSRFWF7?tag=deskfinds0d-20",
     description:
-      "This 6-foot 4-panel screen also confirms lockable wheels directly in its listing, giving buyers a second genuinely wheeled option in a similar height and panel configuration to the SUNALLY above. The black finish is a straightforward match for a home office or studio with darker furniture.\n\nWith a smaller 102-rating sample, treat the 4.2-star average with some caution, it's a real number but a thinner data set than several other picks here. As with any caster-based divider, verify the wheels lock securely before leaving it in place unattended.",
+      "This 6-foot 4-panel screen also confirms lockable wheels directly in its listing, giving buyers a second genuinely wheeled option in a similar height and panel configuration to the SUNALLY above. The black finish is a straightforward match for a home office or studio with darker furniture.\n\nWith a smaller 102-rating sample, treat the 4.2-star average with some caution, it's a real number but a thinner data set than several other picks here. As with any caster-based divider, verify the wheels lock securely before leaving it in place unattended.\n\nWorth calling out specifically: same 6 ft height as the top pick. The catch is smaller 102-rating sample.",
     specs: ["Lockable wheels confirmed in listing", "6 ft height, 4-panel fabric screen", "Freestanding, no drilling", "Black finish"],
     pros: ["Wheels explicitly confirmed", "Same 6 ft height as the top pick", "Locking casters for stability", "Freestanding, no drilling"],
     cons: ["Smaller 102-rating sample", "Slightly higher price than the SUNALLY with a similar spec"],
@@ -85,7 +85,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/316-kiRX-PL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZNRLW9S?tag=deskfinds0d-20",
     description:
-      "The Kokorona is the widest genuinely wheeled divider in this list at 119 inches, with lockable wheels confirmed and 6 panels of coverage plus included cover strips for a cleaner finished look between panels. At 70 inches tall it is close to the height of the other wheeled options here.\n\nWith more width and more panels comes more overall frame weight rolling on the same size casters, so check the caster load rating carries the fully assembled unit before loading additional weight onto the frame itself. Its 3.8-star average across 116 ratings is the lowest confirmed-wheel pick in this roundup, worth weighing against its width advantage.",
+      "The Kokorona is the widest genuinely wheeled divider in this list at 119 inches, with lockable wheels confirmed and 6 panels of coverage plus included cover strips for a cleaner finished look between panels. At 70 inches tall it is close to the height of the other wheeled options here.\n\nWith more width and more panels comes more overall frame weight rolling on the same size casters, so check the caster load rating carries the fully assembled unit before loading additional weight onto the frame itself. Its 3.8-star average across 116 ratings is the lowest confirmed-wheel pick in this roundup, worth weighing against its width advantage.\n\n6 panels for broader coverage. Set against that, 3.8 stars, lowest in this roundup. Both matter when comparing it to the other picks here.",
     specs: ["Lockable wheels confirmed in listing", "119 in width, 70 in height", "6-panel design with cover strips included", "Freestanding, no drilling"],
     pros: ["Widest confirmed-wheeled option at 119 inches", "6 panels for broader coverage", "Cover strips included for a finished look", "Freestanding, no drilling"],
     cons: ["3.8 stars, lowest in this roundup", "Wider frame puts more load on the same caster size, verify rating"],
@@ -102,7 +102,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Kos9bD7wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK196S27?tag=deskfinds0d-20",
     description:
-      "The VAMFUTRE confirms both caster wheels and brakes in its listing, giving it a genuine locking mechanism rather than just a wheel that happens to stop moving on carpet. As a single panel rather than a folded multi-panel screen, it is a simpler mobile divider for a corner partition or a smaller separation need.\n\nAt a lower 3.7-star average across 265 ratings, buyer feedback trends slightly below the other wheeled picks here, and it is worth reading recent reviews on caster durability before committing. It is the lowest-priced confirmed-wheel option in this list.",
+      "The VAMFUTRE confirms both caster wheels and brakes in its listing, giving it a genuine locking mechanism rather than just a wheel that happens to stop moving on carpet. As a single panel rather than a folded multi-panel screen, it is a simpler mobile divider for a corner partition or a smaller separation need.\n\nAt a lower 3.7-star average across 265 ratings, buyer feedback trends slightly below the other wheeled picks here, and it is worth reading recent reviews on caster durability before committing. It is the lowest-priced confirmed-wheel option in this list.\n\nA genuine advantage here is that lowest price among confirmed-wheel picks. The tradeoff is 3.7 stars, lower buyer feedback trend.",
     specs: ["Caster wheels and brakes confirmed in listing", "Single panel design", "6 ft (approx.) height", "Freestanding, no drilling"],
     pros: ["Caster wheels and brakes both confirmed", "Lowest price among confirmed-wheel picks", "Single-panel simplicity for corner use"],
     cons: ["3.7 stars, lower buyer feedback trend", "Single panel offers less coverage than multi-panel options"],
@@ -119,7 +119,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51PH+PczeqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H3L3224G?tag=deskfinds0d-20",
     description:
-      "We're including this one with an honest flag: the Amsleekey's title and listing do not confirm caster wheels, unlike the confirmed-wheel picks above. It is a solid 4-panel wood-frame folding screen at 67 inches tall, a reasonable choice if mobility isn't actually the priority, but it should not be assumed to roll like the SUNALLY or Kokorona above.\n\nIts wood-panel construction is heavier and more rigid than fabric screens, which would make wheels genuinely useful if they were included, since a 4-panel wood frame is harder to drag across carpet than a lightweight fabric divider. At 4.3 stars its rating sample is small at just 11 ratings, so treat the average cautiously.",
+      "We're including this one with an honest flag: the Amsleekey's title and listing do not confirm caster wheels, unlike the confirmed-wheel picks above. It is a solid 4-panel wood-frame folding screen at 67 inches tall, a reasonable choice if mobility isn't actually the priority, but it should not be assumed to roll like the SUNALLY or Kokorona above.\n\nIts wood-panel construction is heavier and more rigid than fabric screens, which would make wheels genuinely useful if they were included, since a 4-panel wood frame is harder to drag across carpet than a lightweight fabric divider. At 4.3 stars its rating sample is small at just 11 ratings, so treat the average cautiously.\n\n4.3 star average. That's a real strength, but weigh it against the flip side: wheels not confirmed, do not assume mobility.",
     specs: ["Wheels NOT confirmed in listing", "4-panel solid wood frame", "67 in height", "Freestanding, no drilling"],
     pros: ["Solid wood frame, more rigid than fabric screens", "4.3 star average", "Decorative wood-panel look"],
     cons: ["Wheels not confirmed, do not assume mobility", "Very small 11-rating sample", "Heavier wood frame would benefit from casters that aren't included"],
@@ -136,7 +136,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/414lHGwu+qL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BMTBSB7R?tag=deskfinds0d-20",
     description:
-      "Another honest flag here: the RANTILA's listing does not mention wheels or casters at all, it is a plain freestanding fabric panel. We include it because it shares a shared product pool with genuinely wheeled dividers and buyers researching this category will encounter it, but if rolling mobility is your actual requirement, choose one of the confirmed-wheel picks above instead.\n\nOn its own merits it is a well-reviewed single-panel screen with the largest rating base in this guide at 1,593 ratings, a reasonable pick if you're comfortable lifting rather than rolling it into place.",
+      "Another honest flag here: the RANTILA's listing does not mention wheels or casters at all, it is a plain freestanding fabric panel. We include it because it shares a shared product pool with genuinely wheeled dividers and buyers researching this category will encounter it, but if rolling mobility is your actual requirement, choose one of the confirmed-wheel picks above instead.\n\nOn its own merits it is a well-reviewed single-panel screen with the largest rating base in this guide at 1,593 ratings, a reasonable pick if you're comfortable lifting rather than rolling it into place.\n\nWorth calling out specifically: affordable at $30.99. The catch is no wheels, requires manual lifting to reposition.",
     specs: ["Wheels NOT confirmed, plain freestanding panel", "71 in width, 69.5 in height", "Single-panel fabric design", "Freestanding, no drilling"],
     pros: ["Largest rating base in this guide, 1,593 ratings", "Affordable at $30.99", "Simple single-panel design"],
     cons: ["No wheels, requires manual lifting to reposition", "Should not be mistaken for a wheeled option"],
@@ -153,7 +153,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/416huFrUlIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DST8SCHS?tag=deskfinds0d-20",
     description:
-      "This height-adjustable single panel likewise does not confirm wheels in its listing. It's a plain freestanding fabric divider that happens to appear in the same product pool searched by buyers looking for wheeled options, so we're flagging that clearly rather than implying mobility it doesn't have.\n\nIf you specifically want to reposition a divider frequently, one of the confirmed-wheel picks earlier in this guide is the better match. At 3.9 stars across 170 ratings, it trails most of the confirmed-wheel and fabric-panel picks in this roundup.",
+      "This height-adjustable single panel likewise does not confirm wheels in its listing. It's a plain freestanding fabric divider that happens to appear in the same product pool searched by buyers looking for wheeled options, so we're flagging that clearly rather than implying mobility it doesn't have.\n\nIf you specifically want to reposition a divider frequently, one of the confirmed-wheel picks earlier in this guide is the better match. At 3.9 stars across 170 ratings, it trails most of the confirmed-wheel and fabric-panel picks in this roundup.\n\nAffordable at $39.89. Set against that, no wheels confirmed, not a mobile option. Both matter when comparing it to the other picks here.",
     specs: ["Wheels NOT confirmed, plain freestanding panel", "71 in width, adjustable up to 71 in height", "Single-panel fabric design", "Freestanding, no drilling"],
     pros: ["Height adjustable within its range", "Affordable at $39.89"],
     cons: ["No wheels confirmed, not a mobile option", "3.9 stars, lower rating than most picks in this guide", "Smaller 170-rating sample"],
@@ -170,7 +170,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41RSKHfDyHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DST8C4GG?tag=deskfinds0d-20",
     description:
-      "A near-identical variant to the entry above, also with no wheels confirmed in its listing. We're including it for completeness of this shared product pool, but it is not a wheeled divider and buyers specifically shopping for rolling mobility should scroll back up to the confirmed-wheel picks.\n\nSame 3.9-star average and 170-rating sample as its sibling listing, and the same single-panel, height-adjustable, freestanding fabric design.",
+      "A near-identical variant to the entry above, also with no wheels confirmed in its listing. We're including it for completeness of this shared product pool, but it is not a wheeled divider and buyers specifically shopping for rolling mobility should scroll back up to the confirmed-wheel picks.\n\nSame 3.9-star average and 170-rating sample as its sibling listing, and the same single-panel, height-adjustable, freestanding fabric design.\n\nA genuine advantage here is that affordable pricing. The tradeoff is no wheels confirmed, not a mobile option.",
     specs: ["Wheels NOT confirmed, plain freestanding panel", "71 in width, adjustable up to 71 in height", "Single-panel fabric design", "Freestanding, no drilling"],
     pros: ["Height adjustable within its range", "Affordable pricing"],
     cons: ["No wheels confirmed, not a mobile option", "3.9 stars, lower rating than most picks in this guide", "Near-duplicate of another listing in this pool"],
@@ -208,35 +208,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Check the caster load rating against real panel weight",
-    explanation:
-      "Small casters on room dividers are commonly rated for only 20 to 30 lbs each. A 4 to 6-panel wood-frame screen can weigh considerably more than a fabric one, add up the total frame weight and divide by the number of casters before assuming any wheeled divider can handle a heavier panel design.",
+    "criterion": "Check freestanding stability against your actual floor type, not just an empty room demo",
+    "explanation": "A freestanding divider relies entirely on its own base footprint and panel angle for stability, with no wall support, and how well it actually stays upright varies depending on floor type, a divider that stands solidly on carpet can behave differently on hardwood or tile, and panels catching a draft from an HVAC vent can wobble more than expected.\n\nThis matters because a divider that looks stable in a still product photo can still tip or shift with regular foot traffic brushing past it.\n\nCheck reviews specifically for real-world stability mentions on floor types similar to yours, and check the base footprint width relative to the divider's height, since a taller divider needs a wider base to stay stable."
   },
   {
-    criterion: "Match caster material to your floor type",
-    explanation:
-      "Rubber casters grip and roll more quietly on hardwood or tile without marking the floor. Larger-diameter casters roll more smoothly over carpet, where small hard wheels can dig in and resist movement. Check the caster material and diameter against your actual flooring before buying.",
+    "criterion": "Confirm genuine sound dampening if acoustic privacy is the actual goal, not just visual blocking",
+    "explanation": "A room divider marketed as \"acoustic\" should use a real sound-dampening material, typically a felt or fabric-wrapped panel core, that measurably reduces noise transmission, distinct from a simple solid panel or bookcase that only blocks the sightline without doing anything meaningful for sound.\n\nThis distinction matters directly if noise reduction for calls or focused work is your actual goal, since a purely visual divider does very little to dampen adjacent conversation or ambient noise regardless of how solid it looks.\n\nCheck the listing specifically for a stated acoustic material, not just the word \"acoustic\" in the title with no supporting material description."
   },
   {
-    criterion: "Not every listing in this category actually has wheels",
-    explanation:
-      "Several single-panel and folding-screen listings that appear in the same search results as wheeled dividers do not include casters at all, they're plain freestanding panels. Read the listing title and bullet points carefully for the words wheels, casters, or brakes rather than assuming mobility from the product category.",
+    "criterion": "Match panel height to your ceiling and the actual privacy level you need",
+    "explanation": "Panel height determines both visual privacy and how much of the room's overall openness the divider preserves, a shorter divider maintains more light and airflow but offers less real privacy, while a taller divider that extends closer to the ceiling gives stronger separation at the cost of feeling like a more permanent wall.\n\nThis matters more in a room with a high ceiling, where a standard-height divider can look and feel undersized, and less in a room with a standard 8-foot ceiling where most divider heights work proportionally.\n\nCheck the listed divider height against your room's actual ceiling height and how much visual openness you want to preserve, not just the divider's general size category."
   },
   {
-    criterion: "Taller dividers are less stable while rolling",
-    explanation:
-      "A 6-foot or taller wheeled screen has a higher center of gravity and tips more easily mid-roll than a shorter panel, especially over an uneven threshold or door track. Move taller wheeled dividers slowly and avoid pushing from the top panel.",
+    "criterion": "Weigh assembly and mounting requirements against whether you're renting or own the space",
+    "explanation": "Room dividers span a wide range of setup requirements, from a no-drill freestanding panel that requires zero installation to a wall-mounted or track-based divider requiring drilling and potentially professional installation, and which one is appropriate depends heavily on whether you're in a rented space where drilling isn't an option, or a space you own where a more permanent installation is fine.\n\nThis matters directly for a renter, discovering after purchase that a divider requires wall-mounting hardware is a real and avoidable problem in a space where drilling isn't allowed.\n\nCheck the listing specifically for the mounting method, freestanding, no-drill, or requiring wall anchors, before ordering, especially in a rented space."
   },
   {
-    criterion: "Locking caster reliability varies by lever material",
-    explanation:
-      "Plastic locking levers on budget casters wear out and stop gripping reliably after repeated use. Metal-lever locks hold up longer under regular repositioning. If you plan to move the divider often, this detail matters more than the sticker price difference.",
-  },
-  {
-    criterion: "Rolling on hardwood can be noisy",
-    explanation:
-      "Nylon or hard plastic casters can be noticeably loud rolling across hardwood or laminate flooring, disruptive in an apartment or shared space. Rubber or felt-wrapped casters roll more quietly if repositioning noise matters to you.",
-  },
+    "criterion": "Consider mobility needs if the divider will move between rooms or configurations regularly",
+    "explanation": "A divider on wheels or casters can be repositioned easily between rooms or reconfigured for different layouts throughout the week, useful for anyone who needs flexible zoning rather than a permanent room split, but wheels also mean the divider is inherently less stable than a fixed-base design and can shift underfoot if bumped.\n\nThis matters more if you genuinely need to move the divider often, like separating a home office from a living space only during work hours, less if it'll stay in one position long-term.\n\nCheck whether casters are lockable to prevent unwanted movement once positioned, and weigh mobility against the reduced stability it typically brings."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -249,61 +239,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Confirmed Wheels vs. No Wheels in This Product Pool",
-    intro: "Not every divider that shows up in a \"room dividers on wheels\" search actually has casters. Here's what's confirmed.",
-    table: {
-      headers: ["Product", "Wheels confirmed?", "Recommendation"],
-      rows: [
-        ["SUNALLY 6FT Lockable Wheels", "Yes, in listing title", "Best confirmed-wheel pick overall"],
-        ["6FT 4-Panel Black Lockable Wheels", "Yes, in listing title", "Second confirmed pick, smaller rating sample"],
-        ["Kokorona 6 Panel Rolling", "Yes, in listing title", "Widest confirmed-wheel option"],
-        ["VAMFUTRE Caster Wheels & Brakes", "Yes, wheels and brakes both confirmed", "Best for genuine locking brakes"],
-        ["Amsleekey 4 Panel Wood", "No, not confirmed", "Buy only if you don't need mobility"],
-        ["RANTILA Single Panel", "No, not confirmed", "Buy only if you don't need mobility"],
-        ["Single Panel Adjustable (both variants)", "No, not confirmed", "Buy only if you don't need mobility"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "If rolling mobility is the actual reason you're shopping this category, stick to the four confirmed-wheel picks. The others are included for completeness of the shared product pool, not as mobile recommendations.",
+      "rows": [
+        [
+          "Highest average rating",
+          "Amsleekey 4 Panel Wood Room Divider"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "RANTILA Single Large Panel Room Divider"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Floor Type",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $31",
+          "RANTILA Single Large Panel Room Divider"
+        ],
+        [
+          "Up to $110",
+          "Amsleekey 4 Panel Wood Room Divider"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Stability vs Price",
+    "cards": [
       {
-        label: "Hardwood or tile",
-        text: "Prioritize rubber casters, which grip and roll quietly without marking the floor. Check the VAMFUTRE and SUNALLY listings for caster material before buying.",
+        "label": "RANTILA Single Large Panel Room Divider",
+        "text": "The lower-priced option in this comparison, worth checking its base footprint and stability against your floor type."
       },
       {
-        label: "Carpet",
-        text: "Larger-diameter casters roll over carpet pile more smoothly than small hard wheels, which can dig in and resist movement. The Kokorona's wider frame typically pairs with larger casters.",
-      },
+        "label": "Amsleekey 4 Panel Wood Room Divider",
+        "text": "The higher-priced option, worth it if it offers real stability or material headroom above the cheaper pick."
+      }
     ],
+    "note": "Default to RANTILA Single Large Panel Room Divider unless your specific needs genuinely call for the pricier pick."
   },
   {
-    subheading: "Caster Load Rating vs. Panel Weight",
-    intro: "A quick gut-check before buying any wheeled divider.",
-    table: {
-      headers: ["Panel type", "Typical weight range", "Caster consideration"],
-      rows: [
-        ["Fabric single/multi-panel (SUNALLY, VAMFUTRE)", "Lighter", "Standard small casters usually sufficient"],
-        ["6-panel wide wood or fabric frame (Kokorona)", "Heavier due to width and panel count", "Verify caster load rating covers the full assembled weight"],
-      ],
-    },
+    "subheading": "By Panel Height",
+    "note": "Check each pick's listed panel height against your room's ceiling and the actual privacy level you need before buying. RANTILA Single Large Panel Room Divider is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "By Height and Rolling Stability",
-    intro: "Taller wheeled dividers are less stable mid-roll.",
-    table: {
-      headers: ["Height", "Stability while rolling", "Pick"],
-      rows: [
-        ["Under 70 in", "More stable", "SUNALLY 6FT (72 in) and 6FT Black variant are near this line"],
-        ["70 in and taller", "Less stable, roll slowly", "Kokorona at 70 in, move carefully especially over thresholds"],
-      ],
-    },
+    "subheading": "For a Rented Space Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine freestanding or no-drill design that requires zero wall modification, not a divider that turns out to need wall anchors."
+      },
+      {
+        "label": "In this comparison",
+        "text": "RANTILA Single Large Panel Room Divider is worth checking against its listed mounting method before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Locking Caster Durability",
-    note: "Metal-lever locks hold up to repeated use better than plastic levers, which wear out and stop gripping reliably over time. If you plan to reposition the divider often, ask or check reviews specifically about lock durability before buying.",
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real acoustic dampening or a taller, more stable divider, where Amsleekey 4 Panel Wood Room Divider's material and construction give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need light visual separation without noise or stability concerns, where RANTILA Single Large Panel Room Divider covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

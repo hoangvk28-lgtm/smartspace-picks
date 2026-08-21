@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41uULXHLL1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DFH8C526?tag=deskfinds0d-20",
     description:
-      "This is the honest top pick for a genuinely high ceiling in this list, since it's an adjustable tension rod that extends up to 10 feet, actually reaching a true 9 to 10-foot ceiling rather than falling short like a standard folding screen. It's a curtain-and-rod system rather than a rigid panel, so treat it as a floor-to-ceiling fabric divide rather than a solid partition.\n\nAt 4.6 stars across 1,499 ratings it's the best-reviewed pick here, and it genuinely closes the ceiling gap that undermines most of the other products in this category. As with any tension pole at full extension, tighten gradually and stop once it holds without excess force, over-tightening a fully extended pole is more likely to stress a high ceiling than a shorter one.",
+      "This is the honest top pick for a genuinely high ceiling in this list, since it's an adjustable tension rod that extends up to 10 feet, actually reaching a true 9 to 10-foot ceiling rather than falling short like a standard folding screen. It's a curtain-and-rod system rather than a rigid panel, so treat it as a floor-to-ceiling fabric divide rather than a solid partition.\n\nAt 4.6 stars across 1,499 ratings it's the best-reviewed pick here, and it genuinely closes the ceiling gap that undermines most of the other products in this category. As with any tension pole at full extension, tighten gradually and stop once it holds without excess force, over-tightening a fully extended pole is more likely to stress a high ceiling than a shorter one.\n\n4.6 stars, 1,499 ratings. That's a real strength, but weigh it against the flip side: fabric curtain, not a rigid solid panel.",
     specs: ["4-10 ft adjustable height, genuinely reaches high ceilings", "28-114 in adjustable width", "Fabric curtain, no-drill tension mount", "Freestanding"],
     pros: ["Genuinely reaches a 9-10 ft high ceiling", "4.6 stars, 1,499 ratings", "No-drill freestanding installation", "Closes the ceiling gap most screens leave open"],
     cons: ["Fabric curtain, not a rigid solid panel", "Full extension increases tension-related stress on the ceiling surface"],
@@ -68,7 +68,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41oONJmhtcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FH3TC367?tag=deskfinds0d-20",
     description:
-      "The same genuinely high-ceiling-reaching 4 to 10-foot tension rod as the top pick, extended to a much wider 171-inch span for a large loft or open-plan room with both a high ceiling and a wide floor plan. It's still a fabric curtain divider, not a rigid panel, so its floor-to-ceiling coverage comes from height plus drape rather than structural rigidity.\n\nA wider curtain adds more total fabric weight to the rod, worth checking the rod's stated duty rating against a heavier or blackout-lined curtain if that's part of your plan. At 4.5 stars across a smaller 271-rating sample, this is a solid but less-reviewed option than the narrower SUNALLY pick above.",
+      "The same genuinely high-ceiling-reaching 4 to 10-foot tension rod as the top pick, extended to a much wider 171-inch span for a large loft or open-plan room with both a high ceiling and a wide floor plan. It's still a fabric curtain divider, not a rigid panel, so its floor-to-ceiling coverage comes from height plus drape rather than structural rigidity.\n\nA wider curtain adds more total fabric weight to the rod, worth checking the rod's stated duty rating against a heavier or blackout-lined curtain if that's part of your plan. At 4.5 stars across a smaller 271-rating sample, this is a solid but less-reviewed option than the narrower SUNALLY pick above.\n\nWorth calling out specifically: widest span in this guide, 171 inches. The catch is smaller 271-rating sample.",
     specs: ["4-10 ft adjustable height, genuinely reaches high ceilings", "28-171 in adjustable width, widest in this list", "Fabric curtain, no-drill tension mount", "Freestanding"],
     pros: ["Genuinely reaches high ceilings at full extension", "Widest span in this guide, 171 inches", "Suits large loft or open-plan rooms"],
     cons: ["Smaller 271-rating sample", "Heavier curtain fabric needs checking against rod's weight rating"],
@@ -85,7 +85,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51-x8nHCvhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZGN4B8V?tag=deskfinds0d-20",
     description:
-      "Another genuinely high-ceiling-capable pick with the same 4 to 10-foot extension range as the SUNALLY picks above, at a narrower 28 to 70-inch width and the lowest price in this guide. It's a solid option for a narrower opening in a tall room rather than a full wide-room split.\n\nAt this price it's an easy way to test whether a tension-curtain approach solves a high-ceiling privacy need before committing to a wider or more expensive option. At 4.6 stars across 1,030 ratings, it has strong buyer feedback for a genuinely tall-reaching divider.",
+      "Another genuinely high-ceiling-capable pick with the same 4 to 10-foot extension range as the SUNALLY picks above, at a narrower 28 to 70-inch width and the lowest price in this guide. It's a solid option for a narrower opening in a tall room rather than a full wide-room split.\n\nAt this price it's an easy way to test whether a tension-curtain approach solves a high-ceiling privacy need before committing to a wider or more expensive option. At 4.6 stars across 1,030 ratings, it has strong buyer feedback for a genuinely tall-reaching divider.\n\n4.6 stars, 1,030 ratings. Set against that, 70 in max width limits it to narrower openings. Both matter when comparing it to the other picks here.",
     specs: ["4-10 ft adjustable height, genuinely reaches high ceilings", "28-70 in adjustable width", "Fabric curtain, no-drill tension mount", "Freestanding"],
     pros: ["Genuinely reaches high ceilings, lowest price in this guide", "4.6 stars, 1,030 ratings", "No-drill freestanding installation"],
     cons: ["70 in max width limits it to narrower openings", "Fabric only, no rigid panel"],
@@ -102,7 +102,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41EGUD6DJML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DFH4ZR71?tag=deskfinds0d-20",
     description:
-      "This tension rod genuinely reaches a high ceiling with the same 4 to 10-foot range as the other SUNALLY-style picks in this guide, with a firmer spring mechanism that holds tension more reliably at full extension over months of use. That matters more at height, since a fully extended tension pole under a high ceiling has more overall length to flex or loosen over time than a shorter one.\n\nAt 4.5 stars across 987 ratings it's a close alternative to the SUNALLY picks above, worth considering specifically for a high-ceiling installation meant to stay up long-term.",
+      "This tension rod genuinely reaches a high ceiling with the same 4 to 10-foot range as the other SUNALLY-style picks in this guide, with a firmer spring mechanism that holds tension more reliably at full extension over months of use. That matters more at height, since a fully extended tension pole under a high ceiling has more overall length to flex or loosen over time than a shorter one.\n\nAt 4.5 stars across 987 ratings it's a close alternative to the SUNALLY picks above, worth considering specifically for a high-ceiling installation meant to stay up long-term.\n\nA genuine advantage here is that firmer spring holds tension better at full extension over time. The tradeoff is firmer spring can be harder to install solo at full height.",
     specs: ["4-10 ft adjustable height, genuinely reaches high ceilings", "28-114 in adjustable width", "Heavier-duty tension spring", "Freestanding"],
     pros: ["Genuinely reaches high ceilings", "Firmer spring holds tension better at full extension over time", "4.5 stars, 987 ratings"],
     cons: ["Firmer spring can be harder to install solo at full height", "Same ceiling-stress risk as any tension pole if over-tightened"],
@@ -119,7 +119,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51lroJMQPAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQNP28CD?tag=deskfinds0d-20",
     description:
-      "An honest flag here: at 67 inches, this is a standard-height folding screen, not genuinely tall, and it will leave 2 feet or more of open gap under a real 9-foot ceiling. It's a well-built rigid wood-panel screen with a nice decorative finish, but it does not solve a high-ceiling privacy or acoustic problem.\n\nAt 4.6 stars across 1,499 ratings it's well-reviewed for what it actually is, a standard-height decorative screen, and buyers with a genuinely high ceiling should look to the tension-rod picks above or a ceiling track curtain system instead.",
+      "An honest flag here: at 67 inches, this is a standard-height folding screen, not genuinely tall, and it will leave 2 feet or more of open gap under a real 9-foot ceiling. It's a well-built rigid wood-panel screen with a nice decorative finish, but it does not solve a high-ceiling privacy or acoustic problem.\n\nAt 4.6 stars across 1,499 ratings it's well-reviewed for what it actually is, a standard-height decorative screen, and buyers with a genuinely high ceiling should look to the tension-rod picks above or a ceiling track curtain system instead.\n\n4.6 stars, 1,499 ratings. That's a real strength, but weigh it against the flip side: 67 in height leaves 2+ ft gap on a genuine high ceiling.",
     specs: ["67 in height, standard, NOT tall for 9-10 ft ceilings", "64 in width", "4-panel solid wood construction", "Freestanding"],
     pros: ["Well-built rigid wood construction", "4.6 stars, 1,499 ratings", "Decorative look"],
     cons: ["67 in height leaves 2+ ft gap on a genuine high ceiling", "Not a real high-ceiling solution despite appearing in this search"],
@@ -136,7 +136,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/414lHGwu+qL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BMTBSB7R?tag=deskfinds0d-20",
     description:
-      "Another honest height flag: at 69.5 inches this single-panel screen is standard height, not tall, and it will leave a substantial gap under a true 9 to 10-foot ceiling. It appears in this shared product search because it's classified as a room divider, but its height alone doesn't address a high-ceiling use case.\n\nIt has the largest rating base in this guide at 1,593 ratings and a 4.3-star average, a fine pick for a standard-height room but not a genuine solution if your ceiling is actually 9 feet or taller.",
+      "Another honest height flag: at 69.5 inches this single-panel screen is standard height, not tall, and it will leave a substantial gap under a true 9 to 10-foot ceiling. It appears in this shared product search because it's classified as a room divider, but its height alone doesn't address a high-ceiling use case.\n\nIt has the largest rating base in this guide at 1,593 ratings and a 4.3-star average, a fine pick for a standard-height room but not a genuine solution if your ceiling is actually 9 feet or taller.\n\nWorth calling out specifically: affordable at $30.99. The catch is 69.5 in height leaves a real gap on a genuine high ceiling.",
     specs: ["69.5 in height, standard, NOT tall for 9-10 ft ceilings", "71 in width", "Single-panel fabric design", "Freestanding"],
     pros: ["Largest rating base in this guide, 1,593 ratings", "Affordable at $30.99"],
     cons: ["69.5 in height leaves a real gap on a genuine high ceiling", "Not an actual high-ceiling solution"],
@@ -153,7 +153,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51OXUOdhrKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B3J58T4N?tag=deskfinds0d-20",
     description:
-      "We're including this bookcase-style divider with a clear flag: its listing does not confirm an exact height tall enough to be considered genuinely high-ceiling-reaching, and standard bookcases in this general size class typically run in the same 65 to 72-inch range as the folding screens above, well short of a 9 to 10-foot ceiling.\n\nAs a piece of double-sided shelving with a back fence for privacy, it's a strong, well-reviewed product at 4.6 stars across 420 ratings for standard-height rooms, but buyers with a genuinely high ceiling shouldn't assume this closes that gap without verifying the exact height first.",
+      "We're including this bookcase-style divider with a clear flag: its listing does not confirm an exact height tall enough to be considered genuinely high-ceiling-reaching, and standard bookcases in this general size class typically run in the same 65 to 72-inch range as the folding screens above, well short of a 9 to 10-foot ceiling.\n\nAs a piece of double-sided shelving with a back fence for privacy, it's a strong, well-reviewed product at 4.6 stars across 420 ratings for standard-height rooms, but buyers with a genuinely high ceiling shouldn't assume this closes that gap without verifying the exact height first.\n\n4.6 stars, 420 ratings. Set against that, height not confirmed to reach a genuine high ceiling. Both matter when comparing it to the other picks here.",
     specs: ["Height not confirmed tall enough for 9-10 ft ceilings", "Triple-wide 6-tier bookcase with back fence", "Freestanding, needs anchoring", "Not primarily a height solution"],
     pros: ["Doubles as functional book storage with privacy back fence", "4.6 stars, 420 ratings", "Good for standard-height rooms"],
     cons: ["Height not confirmed to reach a genuine high ceiling", "Freestanding tall furniture needs anchoring regardless of ceiling height"],
@@ -170,7 +170,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/412nDJFwHPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMDTGYK2?tag=deskfinds0d-20",
     description:
-      "At 6 feet (72 inches) tall, this wheeled folding screen is taller than the 65 to 69.5-inch panels elsewhere in this shared product pool, but it's still well short of a genuine 9 to 10-foot ceiling. We're including it with a clear flag rather than presenting it as a true high-ceiling solution, since a 2-foot-plus gap still remains above it on a real high ceiling.\n\nIf you want the mobility of wheels and are willing to accept a partial gap, this is a reasonable middle ground. For a genuinely high ceiling, the tension-rod curtain picks earlier in this guide, or a ceiling track curtain system, are the more honest answer. At 4.2 stars across 555 ratings.",
+      "At 6 feet (72 inches) tall, this wheeled folding screen is taller than the 65 to 69.5-inch panels elsewhere in this shared product pool, but it's still well short of a genuine 9 to 10-foot ceiling. We're including it with a clear flag rather than presenting it as a true high-ceiling solution, since a 2-foot-plus gap still remains above it on a real high ceiling.\n\nIf you want the mobility of wheels and are willing to accept a partial gap, this is a reasonable middle ground. For a genuinely high ceiling, the tension-rod curtain picks earlier in this guide, or a ceiling track curtain system, are the more honest answer. At 4.2 stars across 555 ratings.\n\nA genuine advantage here is that rolls into place without lifting. The tradeoff is still leaves a real gap on a genuine 9-10 ft ceiling.",
     specs: ["72 in height, taller than most in this pool but still NOT true high-ceiling coverage", "88 in width, 4-panel with lockable wheels", "Freestanding, no drilling", "Rolls for repositioning"],
     pros: ["Taller than most standard folding screens at 72 in", "Rolls into place without lifting", "Freestanding, no drilling"],
     cons: ["Still leaves a real gap on a genuine 9-10 ft ceiling", "4.2 stars, lower rating than the tension-rod picks in this guide"],
@@ -208,35 +208,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Most \"tall\" room dividers in this category are standard height",
-    explanation:
-      "Standard folding screens and single panels in this product pool run 65 to 72 inches tall, this is a normal height, not a true tall option for a 9 to 10-foot ceiling. Only adjustable tension-rod curtains that extend to 10 feet genuinely close the gap on a real high ceiling. Check the actual stated height or extension range before assuming a product marketed near this category is tall enough for your room.",
+    "criterion": "Check freestanding stability against your actual floor type, not just an empty room demo",
+    "explanation": "A freestanding divider relies entirely on its own base footprint and panel angle for stability, with no wall support, and how well it actually stays upright varies depending on floor type, a divider that stands solidly on carpet can behave differently on hardwood or tile, and panels catching a draft from an HVAC vent can wobble more than expected.\n\nThis matters because a divider that looks stable in a still product photo can still tip or shift with regular foot traffic brushing past it.\n\nCheck reviews specifically for real-world stability mentions on floor types similar to yours, and check the base footprint width relative to the divider's height, since a taller divider needs a wider base to stay stable."
   },
   {
-    criterion: "Freestanding tall dividers are inherently top-heavy",
-    explanation:
-      "A freestanding screen or shelving unit in the 90 to 96-inch range, taller than anything in this specific product pool, is inherently more prone to tipping without anchoring than a standard 65 to 72-inch screen. If you do find a genuinely 90-inch-plus freestanding option elsewhere, plan on anchoring it regardless of how sturdy the base looks.",
+    "criterion": "Confirm genuine sound dampening if acoustic privacy is the actual goal, not just visual blocking",
+    "explanation": "A room divider marketed as \"acoustic\" should use a real sound-dampening material, typically a felt or fabric-wrapped panel core, that measurably reduces noise transmission, distinct from a simple solid panel or bookcase that only blocks the sightline without doing anything meaningful for sound.\n\nThis distinction matters directly if noise reduction for calls or focused work is your actual goal, since a purely visual divider does very little to dampen adjacent conversation or ambient noise regardless of how solid it looks.\n\nCheck the listing specifically for a stated acoustic material, not just the word \"acoustic\" in the title with no supporting material description."
   },
   {
-    criterion: "Ceiling track systems are the better solution for a truly high ceiling",
-    explanation:
-      "For a genuinely high 9 to 10-foot ceiling, a ceiling-mounted curtain track system covers the full height reliably and doesn't rely on a freestanding base or a tension pole under stress at full extension. It's more permanent and requires ceiling mounting, but it solves the height problem more completely than any freestanding screen in this category.",
+    "criterion": "Match panel height to your ceiling and the actual privacy level you need",
+    "explanation": "Panel height determines both visual privacy and how much of the room's overall openness the divider preserves, a shorter divider maintains more light and airflow but offers less real privacy, while a taller divider that extends closer to the ceiling gives stronger separation at the cost of feeling like a more permanent wall.\n\nThis matters more in a room with a high ceiling, where a standard-height divider can look and feel undersized, and less in a room with a standard 8-foot ceiling where most divider heights work proportionally.\n\nCheck the listed divider height against your room's actual ceiling height and how much visual openness you want to preserve, not just the divider's general size category."
   },
   {
-    criterion: "A standard-height divider under a high ceiling is visual privacy only",
-    explanation:
-      "A 65 to 72-inch divider in a room with a 9 to 10-foot ceiling leaves 2 feet or more of open gap above it. That gap means no meaningful sound blocking and reduced visual privacy from any angle above eye level, worth knowing if acoustic separation, not just a visual break, is your actual goal.",
+    "criterion": "Weigh assembly and mounting requirements against whether you're renting or own the space",
+    "explanation": "Room dividers span a wide range of setup requirements, from a no-drill freestanding panel that requires zero installation to a wall-mounted or track-based divider requiring drilling and potentially professional installation, and which one is appropriate depends heavily on whether you're in a rented space where drilling isn't an option, or a space you own where a more permanent installation is fine.\n\nThis matters directly for a renter, discovering after purchase that a divider requires wall-mounting hardware is a real and avoidable problem in a space where drilling isn't allowed.\n\nCheck the listing specifically for the mounting method, freestanding, no-drill, or requiring wall anchors, before ordering, especially in a rented space."
   },
   {
-    criterion: "HVAC airflow paths matter more with taller dividers",
-    explanation:
-      "A tall divider placed directly in an HVAC airflow path can create a pressure imbalance, leaving one side of the room stuffier than the other. Position tall dividers, tension curtains included, away from direct vent lines where possible.",
-  },
-  {
-    criterion: "Heavier acoustic material trades weight for actual sound reduction",
-    explanation:
-      "If real sound blocking (not just visual privacy) matters, dense acoustic panel material like PET felt performs better at mid-range frequencies than lightweight foam or thin fabric, but it is considerably heavier to install and move. None of the freestanding fabric dividers in this list provide meaningful acoustic blocking regardless of height.",
-  },
+    "criterion": "Consider mobility needs if the divider will move between rooms or configurations regularly",
+    "explanation": "A divider on wheels or casters can be repositioned easily between rooms or reconfigured for different layouts throughout the week, useful for anyone who needs flexible zoning rather than a permanent room split, but wheels also mean the divider is inherently less stable than a fixed-base design and can shift underfoot if bumped.\n\nThis matters more if you genuinely need to move the divider often, like separating a home office from a living space only during work hours, less if it'll stay in one position long-term.\n\nCheck whether casters are lockable to prevent unwanted movement once positioned, and weigh mobility against the reduced stability it typically brings."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -249,64 +239,102 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Honest Height Check: What Actually Reaches a High Ceiling",
-    intro: "Most products in this shared search pool are standard height. Here's what's confirmed to genuinely reach 9-10 feet.",
-    table: {
-      headers: ["Product", "Height", "Genuinely reaches a high ceiling?"],
-      rows: [
-        ["SUNALLY Tension Curtain (114 in W)", "4-10 ft adjustable", "Yes, confirmed"],
-        ["SUNALLY Tension Curtain (171 in W)", "4-10 ft adjustable", "Yes, confirmed"],
-        ["Goovilla Tension Curtain", "4-10 ft adjustable", "Yes, confirmed"],
-        ["Bonpally Tension Curtain", "4-10 ft adjustable", "Yes, confirmed"],
-        ["SUNALLY 6FT Wheeled Screen", "72 in", "No, taller than most but still short of 9-10 ft"],
-        ["Svimi 4-Panel Wood Screen", "67 in", "No, standard height"],
-        ["RANTILA Single Panel", "69.5 in", "No, standard height"],
-        ["IRONCK Triple Wide Bookcase", "Not confirmed", "No, height not verified for high-ceiling use"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "If your ceiling is genuinely 9 feet or taller, the four tension-curtain picks are the only products in this pool that actually close the gap.",
+      "rows": [
+        [
+          "Highest average rating",
+          "SUNALLY No"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "RANTILA Single Large Panel Room Divider"
+        ]
+      ]
+    }
   },
   {
-    subheading: "When to Choose a Ceiling Track System Instead",
-    intro: "For a truly high ceiling, this is often the more honest recommendation than any freestanding screen.",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $29",
+          "Goovilla No"
+        ],
+        [
+          "Up to $220",
+          "IRONCK Triple Wide 6"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "On Wheels vs Fixed Base",
+    "cards": [
       {
-        label: "Ceiling track curtain system",
-        text: "Mounts to the ceiling and covers the full height reliably regardless of ceiling height, more permanent to install but the most complete solution for a genuinely tall room.",
+        "label": "On wheels",
+        "text": "Repositionable between rooms or layouts, worth locking casters once positioned. In this comparison: SUNALLY 6FT Folding Privacy Screen with Lockable Wheels."
       },
       {
-        label: "Freestanding tension curtain (this guide's top picks)",
-        text: "A good middle ground, no permanent mounting, genuinely reaches high ceilings via extension, but relies on tension pressure rather than a fixed structural mount.",
-      },
+        "label": "Fixed base",
+        "text": "More stable for a divider that stays in one spot long-term. In this comparison: SUNALLY No, SUNALLY No, Goovilla No, Bonpally No, Svimi 4, RANTILA Single Large Panel Room Divider, IRONCK Triple Wide 6."
+      }
     ],
+    "note": "Default to a fixed base unless you genuinely need to reposition the divider often."
   },
   {
-    subheading: "By Room Width and Ceiling Height Combined",
-    table: {
-      headers: ["Room profile", "Best pick", "Why"],
-      rows: [
-        ["High ceiling, narrower opening", "Goovilla Tension Curtain", "Reaches 10 ft height at a lower price, narrower 70 in width"],
-        ["High ceiling, standard room width", "SUNALLY Tension Curtain (114 in W)", "Best reviewed genuinely tall pick"],
-        ["High ceiling, wide open-plan room", "SUNALLY Tension Curtain (171 in W)", "Widest span that still reaches full height"],
-        ["Standard 8 ft ceiling only", "Svimi 4-Panel Wood Screen or RANTILA Single Panel", "Standard height is sufficient, no need to pay for extension range"],
+    "subheading": "By Acoustic Material",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Genuine sound-dampening material",
+          "Svimi 4"
+        ],
+        [
+          "Visual separation is enough",
+          "SUNALLY No"
+        ]
+      ]
+    }
   },
   {
-    subheading: "HVAC Airflow Positioning",
-    note: "Whichever divider you choose, avoid placing it directly across an HVAC vent line. A tall divider in an active airflow path can create a pressure imbalance, leaving one side of the room noticeably stuffier or warmer than the other.",
+    "subheading": "For a Rented Space Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine freestanding or no-drill design that requires zero wall modification, not a divider that turns out to need wall anchors."
+      },
+      {
+        "label": "In this comparison",
+        "text": "RANTILA Single Large Panel Room Divider is worth checking against its listed mounting method before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Acoustic Expectations by Material",
-    intro: "Height alone doesn't determine sound blocking; material density matters more.",
-    table: {
-      headers: ["Material", "Sound blocking performance", "Weight/install tradeoff"],
-      rows: [
-        ["Lightweight fabric curtain (all tension-rod picks here)", "Visual privacy only, minimal sound blocking", "Easy to install and move"],
-        ["Dense acoustic panel (PET felt, not in this product pool)", "Better mid-frequency sound reduction", "Considerably heavier, harder to install and move"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real acoustic dampening or a taller, more stable divider, where IRONCK Triple Wide 6's material and construction give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need light visual separation without noise or stability concerns, where Goovilla No covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

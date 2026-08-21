@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/416nixYaeVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07PNFY7Q1?tag=deskfinds0d-20",
     description:
-      "The VASAGLE CUSTOS is explicitly marketed as a room divider rather than a bookshelf pressed into double duty, and with over 7,500 ratings it's the best-selling pick in this list by a wide margin. Its open, five-tier frame lets light and conversation pass through while still visually breaking up a shared living space.\n\nEach shelf handles 33 lbs for a 165 lb total on a particleboard frame, and it ships with an anti-tip kit plus screw caps for a clean finish, a genuinely useful detail on a piece meant to stand in the open rather than against a wall.",
+      "The VASAGLE CUSTOS is explicitly marketed as a room divider rather than a bookshelf pressed into double duty, and with over 7,500 ratings it's the best-selling pick in this list by a wide margin. Its open, five-tier frame lets light and conversation pass through while still visually breaking up a shared living space.\n\nEach shelf handles 33 lbs for a 165 lb total on a particleboard frame, and it ships with an anti-tip kit plus screw caps for a clean finish, a genuinely useful detail on a piece meant to stand in the open rather than against a wall.\n\nExplicitly designed and marketed as a room divider. That's a real strength, but weigh it against the flip side: not finished distinctly on both sides like a purpose-built divider.",
     specs: [
       "27.6\"W x 9.4\"D x 62.6\"H",
       "Particleboard construction",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41tIPFRL6WL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CR2Y9BYR?tag=deskfinds0d-20",
     description:
-      "Furologee's sculptural S-shaped frame works upright as a room divider, laid horizontally as a wine rack, or repositioned as a TV stand, three placement options in one piece of furniture. That flexibility is a smart hedge if your room layout might change down the line.\n\nP2-grade MDF paired with metal supports a 30 lb per-shelf rating for 180 lbs total, and the whole thing is waterproof despite its artistic, less boxy shape. An anti-tip kit is included even though it doesn't sit flush against a wall.",
+      "Furologee's sculptural S-shaped frame works upright as a room divider, laid horizontally as a wine rack, or repositioned as a TV stand, three placement options in one piece of furniture. That flexibility is a smart hedge if your room layout might change down the line.\n\nP2-grade MDF paired with metal supports a 30 lb per-shelf rating for 180 lbs total, and the whole thing is waterproof despite its artistic, less boxy shape. An anti-tip kit is included even though it doesn't sit flush against a wall.\n\nWorth calling out specifically: most versatile pick with 3 different placement options. The catch is narrower 14.96\" width means less shelf surface per section.",
     specs: [
       "14.96\"W x 9.45\"D x 57.48\"H",
       "P2 MDF + metal",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41jJ8ERvqQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXXG3HVR?tag=deskfinds0d-20",
     description:
-      "Gadroad brings the same S-shaped geometric silhouette to a clean white finish, and its 44 lb per-shelf rating is the highest among the S-shaped dividers in this list. That extra capacity matters if you're planning to load it with actual books rather than just decor.\n\nEngineered wood and metal construction backs a 1-year warranty, and the brand backs it with 24/7 customer service, a reassuring detail on a freestanding piece that needs to stay stable without wall support.",
+      "Gadroad brings the same S-shaped geometric silhouette to a clean white finish, and its 44 lb per-shelf rating is the highest among the S-shaped dividers in this list. That extra capacity matters if you're planning to load it with actual books rather than just decor.\n\nEngineered wood and metal construction backs a 1-year warranty, and the brand backs it with 24/7 customer service, a reassuring detail on a freestanding piece that needs to stay stable without wall support.\n\nCleanest white finish in the S-shaped group. Set against that, pricier than the other S-shaped picks. Both matter when comparing it to the other picks here.",
     specs: [
       "27.56\"W x 11.8\"D x 62\"H",
       "Engineered wood + metal",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/512GcnTIgpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZNVB9M5?tag=deskfinds0d-20",
     description:
-      "SILKYDRY stretches the S-shaped format to 75 inches tall, the tallest S-shaped divider in this list, with a 264 lb total capacity that's the highest of any pick here. E0-grade particle board keeps formaldehyde emissions low, a detail worth noting on a piece that stands out in the open air of a room.\n\nTwo separate anti-tip kits are included given the extra height, and the combination of tall stature and high capacity makes it the pick for rooms with a real book or decor collection to display.",
+      "SILKYDRY stretches the S-shaped format to 75 inches tall, the tallest S-shaped divider in this list, with a 264 lb total capacity that's the highest of any pick here. E0-grade particle board keeps formaldehyde emissions low, a detail worth noting on a piece that stands out in the open air of a room.\n\nTwo separate anti-tip kits are included given the extra height, and the combination of tall stature and high capacity makes it the pick for rooms with a real book or decor collection to display.\n\nA genuine advantage here is that tallest S-shaped pick at 75 inches. The tradeoff is highest price among the S-shaped picks.",
     specs: [
       "31.5\"L x 9\"W x 75\"H",
       "E0-grade particle board + PVC",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51Y38skThjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHYC7DJ1?tag=deskfinds0d-20",
     description:
-      "JOSTYLE is the only pick in this list that's a genuine folding privacy screen with a built-in shelf board, rather than a bookcase pressed into divider duty. Six bamboo panels span 96 inches wide when unfolded, double-hinged so it can bend into an L, Z, or straight line depending on your room.\n\nAt just 31.9 lbs it's the lightest divider here and needs no assembly, so it's the easiest to reposition or fold flat and store away entirely if you only need the division occasionally.",
+      "JOSTYLE is the only pick in this list that's a genuine folding privacy screen with a built-in shelf board, rather than a bookcase pressed into divider duty. Six bamboo panels span 96 inches wide when unfolded, double-hinged so it can bend into an L, Z, or straight line depending on your room.\n\nAt just 31.9 lbs it's the lightest divider here and needs no assembly, so it's the easiest to reposition or fold flat and store away entirely if you only need the division occasionally.\n\nLightest divider in this list at 31.9 lbs. That's a real strength, but weigh it against the flip side: shelf board offers far less storage than a bookcase-style divider.",
     specs: [
       "67\"H x 96\"W (6 panels, unfolded)",
       "Bamboo + wood",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41qbQhDCFqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F7QRR3GS?tag=deskfinds0d-20",
     description:
-      "Tangkula packs 11 individual shelf openings into a staggered layout, the most of any pick in this list, giving you the most distinct spots to organize books, bins, or decor by category. The staggered design also breaks up the visual mass of the piece compared to uniform straight shelving.\n\nTwo anti-toppling devices are included, and \"Room Divider\" appears directly in the product's own title, a signal the manufacturer designed it with this exact use case in mind rather than as a repurposed bookshelf.",
+      "Tangkula packs 11 individual shelf openings into a staggered layout, the most of any pick in this list, giving you the most distinct spots to organize books, bins, or decor by category. The staggered design also breaks up the visual mass of the piece compared to uniform straight shelving.\n\nTwo anti-toppling devices are included, and \"Room Divider\" appears directly in the product's own title, a signal the manufacturer designed it with this exact use case in mind rather than as a repurposed bookshelf.\n\nWorth calling out specifically: staggered layout adds visual interest. The catch is smallest review sample in this list at 26 ratings.",
     specs: [
       "27\"L x 9\"W x 64\"H",
       "Engineered wood",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/5184VaeWD5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FN7NM7J6?tag=deskfinds0d-20",
     description:
-      "At 83.7 inches, the FACBOTALL is the tallest divider in this entire list, built for rooms with genuinely high ceilings where a standard 6-foot bookcase would look undersized as a room split. Fourteen open shelves at 55 lbs each add up to a 770 lb total capacity, also the highest here by a wide margin.\n\n15mm boards are the thickest in this list, and 3 separate anti-tip systems reflect just how much engineering goes into keeping an 83.7-inch freestanding piece from tipping. This is the pick for a loft, an open-concept great room, or any space where a shorter divider would get visually lost.",
+      "At 83.7 inches, the FACBOTALL is the tallest divider in this entire list, built for rooms with genuinely high ceilings where a standard 6-foot bookcase would look undersized as a room split. Fourteen open shelves at 55 lbs each add up to a 770 lb total capacity, also the highest here by a wide margin.\n\n15mm boards are the thickest in this list, and 3 separate anti-tip systems reflect just how much engineering goes into keeping an 83.7-inch freestanding piece from tipping. This is the pick for a loft, an open-concept great room, or any space where a shorter divider would get visually lost.\n\nHighest total capacity at 770 lbs. Set against that, most expensive pick in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "47.2\"L x 11.7\"W x 83.7\"H",
       "PB + MDF, 15mm boards",
@@ -296,30 +296,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Match height to how much privacy you want",
-    explanation:
-      "A half-wall-height piece, roughly 3-4.5 feet, only creates a visual boundary and keeps a room feeling open, while a unit in the 72-84 inch range creates real separation without touching the ceiling in most homes. Every pick here except the JOSTYLE folding screen falls in that taller, higher-privacy range.",
+    "criterion": "Check freestanding stability against your actual floor type, not just an empty room demo",
+    "explanation": "A freestanding divider relies entirely on its own base footprint and panel angle for stability, with no wall support, and how well it actually stays upright varies depending on floor type, a divider that stands solidly on carpet can behave differently on hardwood or tile, and panels catching a draft from an HVAC vent can wobble more than expected.\n\nThis matters because a divider that looks stable in a still product photo can still tip or shift with regular foot traffic brushing past it.\n\nCheck reviews specifically for real-world stability mentions on floor types similar to yours, and check the base footprint width relative to the divider's height, since a taller divider needs a wider base to stay stable."
   },
   {
-    criterion: "Freestanding stability matters more than on a wall bookshelf",
-    explanation:
-      "A true room divider is walked around on both sides, so it usually can't be strapped to a wall the way a standard bookshelf can. Look for a wide, heavy base and reinforced brackets, both S-shaped and staggered designs in this list are built with a low center of gravity specifically because they can't rely on wall anchoring.",
+    "criterion": "Confirm genuine sound dampening if acoustic privacy is the actual goal, not just visual blocking",
+    "explanation": "A room divider marketed as \"acoustic\" should use a real sound-dampening material, typically a felt or fabric-wrapped panel core, that measurably reduces noise transmission, distinct from a simple solid panel or bookcase that only blocks the sightline without doing anything meaningful for sound.\n\nThis distinction matters directly if noise reduction for calls or focused work is your actual goal, since a purely visual divider does very little to dampen adjacent conversation or ambient noise regardless of how solid it looks.\n\nCheck the listing specifically for a stated acoustic material, not just the word \"acoustic\" in the title with no supporting material description."
   },
   {
-    criterion: "Leave real walking clearance on both sides",
-    explanation:
-      "Plan for at least 3 feet of clearance around any divider so it doesn't turn a walkway into a bottleneck. Measure the actual traffic path in your room, not just the floor space the divider itself will occupy.",
+    "criterion": "Match panel height to your ceiling and the actual privacy level you need",
+    "explanation": "Panel height determines both visual privacy and how much of the room's overall openness the divider preserves, a shorter divider maintains more light and airflow but offers less real privacy, while a taller divider that extends closer to the ceiling gives stronger separation at the cost of feeling like a more permanent wall.\n\nThis matters more in a room with a high ceiling, where a standard-height divider can look and feel undersized, and less in a room with a standard 8-foot ceiling where most divider heights work proportionally.\n\nCheck the listed divider height against your room's actual ceiling height and how much visual openness you want to preserve, not just the divider's general size category."
   },
   {
-    criterion: "Open-back vs finished-both-sides construction",
-    explanation:
-      "Most bookcase-style dividers, including every one in this list, are built to be viewed primarily from the front, with a plain or open back. If both sides need to look equally finished, check close-up photos of the back panel before buying rather than assuming it matches the front.",
+    "criterion": "Weigh assembly and mounting requirements against whether you're renting or own the space",
+    "explanation": "Room dividers span a wide range of setup requirements, from a no-drill freestanding panel that requires zero installation to a wall-mounted or track-based divider requiring drilling and potentially professional installation, and which one is appropriate depends heavily on whether you're in a rented space where drilling isn't an option, or a space you own where a more permanent installation is fine.\n\nThis matters directly for a renter, discovering after purchase that a divider requires wall-mounting hardware is a real and avoidable problem in a space where drilling isn't allowed.\n\nCheck the listing specifically for the mounting method, freestanding, no-drill, or requiring wall anchors, before ordering, especially in a rented space."
   },
   {
-    criterion: "Weight capacity by material",
-    explanation:
-      "Particleboard shelves typically hold 30-50 lbs each, while reinforced metal-frame or E0-grade board designs in this list reach 44-55 lbs per shelf. If you're dividing a room to display a real book collection rather than a few decor pieces, prioritize the higher per-shelf ratings.",
-  },
+    "criterion": "Consider mobility needs if the divider will move between rooms or configurations regularly",
+    "explanation": "A divider on wheels or casters can be repositioned easily between rooms or reconfigured for different layouts throughout the week, useful for anyone who needs flexible zoning rather than a permanent room split, but wheels also mean the divider is inherently less stable than a fixed-base design and can shift underfoot if bumped.\n\nThis matters more if you genuinely need to move the divider often, like separating a home office from a living space only during work hours, less if it'll stay in one position long-term.\n\nCheck whether casters are lockable to prevent unwanted movement once positioned, and weigh mobility against the reduced stability it typically brings."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -332,69 +327,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Room Height and Ceiling",
-    intro:
-      "Standard 8-foot ceilings and vaulted or open-concept great rooms call for very different divider heights to look proportional rather than undersized or cramped.",
-    table: {
-      headers: ["Room type", "Recommended height", "Best pick"],
-      rows: [
-        ["Standard 8ft ceiling, casual visual split", "57-63\"", "VASAGLE CUSTOS, Furologee, Gadroad"],
-        ["Standard ceiling, want real privacy", "62-75\"", "SILKYDRY 6-Tier"],
-        ["Vaulted ceiling or open-concept loft", "80\"+", "FACBOTALL 83.7\""],
-        ["Occasional use, want to fold away", "67\" folding screen", "JOSTYLE Bamboo"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "VASAGLE CUSTOS 5"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "VASAGLE CUSTOS 5"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By How Much You're Storing",
-    intro:
-      "The picks in this list range from a light-duty folding screen to a 770 lb-capacity tower, so match the divider to what you'll actually put on it.",
-    table: {
-      headers: ["What you're storing", "Capacity needed", "Best pick"],
-      rows: [
-        ["A few decor pieces or plants", "Under 100 lbs total", "JOSTYLE Bamboo (shelf board only)"],
-        ["A modest book collection", "150-180 lbs total", "VASAGLE CUSTOS, Furologee"],
-        ["A large book or media collection", "260 lbs+", "SILKYDRY 6-Tier"],
-        ["Mixed heavy storage across many items", "700 lbs+", "FACBOTALL 83.7\""],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $60",
+          "VASAGLE CUSTOS 5"
+        ],
+        [
+          "Up to $180",
+          "FACBOTALL 83.7\" 7"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Layout Flexibility",
-    cards: [
+    "subheading": "Built-In Storage vs Panel-Only",
+    "cards": [
       {
-        label: "Permanent, single-position divider",
-        text: "VASAGLE CUSTOS and Gadroad are built to stand in one spot. Their straight rectangular footprint is the easiest to plan a room layout around.",
+        "label": "Built-in storage (bookcase/cube)",
+        "text": "Doubles as shelving while dividing the room, useful in a smaller space. In this comparison: JOSTYLE Bamboo Room Divider with Shelves, Tangkula 6, FACBOTALL 83.7\" 7."
       },
       {
-        label: "Might reposition or repurpose it later",
-        text: "The Furologee S-shaped pick works as a divider, wine rack, or TV stand, useful if you're not committed to a permanent layout yet.",
-      },
-      {
-        label: "Need to fold it away when not in use",
-        text: "JOSTYLE is the only pick that folds flat and needs no assembly, so it can come down entirely for a party or a furniture rearrangement.",
-      },
-      {
-        label: "Bending around a corner or irregular space",
-        text: "JOSTYLE's double-hinged panels bend into an L or Z shape, something none of the rigid bookcase-style dividers in this list can do.",
-      },
+        "label": "Panel-only",
+        "text": "Simpler, focused purely on visual or acoustic separation. In this comparison: VASAGLE CUSTOS 5, Furologee 6, Gadroad 5, SILKYDRY 6."
+      }
     ],
+    "note": "Default to panel-only unless built-in storage genuinely solves a real space problem for you."
   },
   {
-    subheading: "Anchoring and Stability Reality Check",
-    intro:
-      "Since a true divider usually can't be wall-anchored on at least one side, its own base design is what keeps it upright.",
-    table: {
-      headers: ["Pick", "Anti-tip hardware", "Stability approach"],
-      rows: [
-        ["VASAGLE CUSTOS", "1 anti-tip kit", "Wide rectangular base"],
-        ["Furologee S-Shaped", "1 anti-tip kit", "S-curve distributes weight low and wide"],
-        ["SILKYDRY 6-Tier", "2 anti-tip kits", "Extra hardware for its 75\" height"],
-        ["FACBOTALL 83.7\"", "3 anti-tip systems", "Widest, most reinforced base for its 83.7\" height"],
-      ],
-    },
-    note: "Taller dividers need proportionally more anti-tip hardware, not just a bigger footprint. If a listing doesn't specify how many anti-tip points it includes, that's worth asking about before buying a divider over 70 inches tall.",
+    "subheading": "By Panel Height",
+    "note": "Check each pick's listed panel height against your room's ceiling and the actual privacy level you need before buying. VASAGLE CUSTOS 5 is the most-reviewed option here if you want the safer bet."
   },
+  {
+    "subheading": "For a Rented Space Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine freestanding or no-drill design that requires zero wall modification, not a divider that turns out to need wall anchors."
+      },
+      {
+        "label": "In this comparison",
+        "text": "VASAGLE CUSTOS 5 is worth checking against its listed mounting method before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real acoustic dampening or a taller, more stable divider, where FACBOTALL 83.7\" 7's material and construction give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need light visual separation without noise or stability concerns, where VASAGLE CUSTOS 5 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [
