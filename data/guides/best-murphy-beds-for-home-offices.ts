@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51H6j9qVxwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00CYPV29W?tag=deskfinds0d-20",
     description:
-      "This is a vertical hardware kit rather than a finished cabinet, meaning you build the surrounding desk and shelving yourself, which is actually an advantage for a home office since you control the desk depth and can size it for a real monitor arm clamp instead of inheriting a shallow factory surface. Because the desk is custom-built, you can also plan the outlet location before installation instead of discovering after the fact that the cord has nowhere clean to go.\n\nThe tradeoff is that lighting and cable routing are entirely on you, so budget for a clipped task lamp or under-shelf LED strip separately, since the kit includes no fold-down desk light of its own. For anyone comfortable with basic carpentry who wants full control over the desk-side details, this kit gives the most flexibility of anything on this list.",
+      "This is a vertical hardware kit rather than a finished cabinet, meaning you build the surrounding desk and shelving yourself, which is actually an advantage for a home office since you control the desk depth and can size it for a real monitor arm clamp instead of inheriting a shallow factory surface. Because the desk is custom-built, you can also plan the outlet location before installation instead of discovering after the fact that the cord has nowhere clean to go.\n\nThe tradeoff is that lighting and cable routing are entirely on you, so budget for a clipped task lamp or under-shelf LED strip separately, since the kit includes no fold-down desk light of its own. For anyone comfortable with basic carpentry who wants full control over the desk-side details, this kit gives the most flexibility of anything on this list.\n\nLets you plan outlet placement before install. That's a real strength, but weigh it against the flip side: no built-in desk lighting, budget for it separately.",
     specs: [
       "Vertical wall bed mechanism",
       "Gas piston lift assist",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51h1vyv6ZdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B017701FUE?tag=deskfinds0d-20",
     description:
-      "At $197 this is the lowest cost way onto this list, another vertical hardware kit that leaves the desk and lighting entirely up to your own build. Like the Create-A-Bed kit, that means you can size the desk surface deep enough for a clamp-mount monitor arm rather than settling for the 18 to 22 inch shallow desks common on finished cabinet beds.\n\nThree step-by-step guides are included to help with the build, but this is still a DIY project, not a delivered piece of furniture, and the desk side will need a separate task lamp since fold-down desks rarely get enough light from an overhead fixture once you're seated facing away from it. Plan your outlet and cable routing before you start building, since retrofitting an outlet after the cabinet is finished is far more work.",
+      "At $197 this is the lowest cost way onto this list, another vertical hardware kit that leaves the desk and lighting entirely up to your own build. Like the Create-A-Bed kit, that means you can size the desk surface deep enough for a clamp-mount monitor arm rather than settling for the 18 to 22 inch shallow desks common on finished cabinet beds.\n\nThree step-by-step guides are included to help with the build, but this is still a DIY project, not a delivered piece of furniture, and the desk side will need a separate task lamp since fold-down desks rarely get enough light from an overhead fixture once you're seated facing away from it. Plan your outlet and cable routing before you start building, since retrofitting an outlet after the cabinet is finished is far more work.\n\nWorth calling out specifically: custom desk depth for monitor arm compatibility. The catch is no desk lighting or acoustic features included.",
     specs: [
       "Vertical wall bed mechanism",
       "Gas piston lift assist",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51JtI3bjGFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GQM56Y2N?tag=deskfinds0d-20",
     description:
-      "The Yoobure ships as a finished cabinet with a built-in charging station and storage drawers, which is convenient for a shared living room or studio setup where the bed side needs to look presentable when closed. Its rattan cabinet front also has more sound-dampening mass than a bare particleboard panel, a small but real benefit if you take calls on the desk side while someone else is in the room.\n\nThe desk surface is shallow like most finished cabinet murphy beds, so a heavy clamp-mount monitor arm is not a safe bet here without adding under-desk reinforcement. This is a newer listing with a small review count, so weigh the low review volume against the fit for your specific room before buying.",
+      "The Yoobure ships as a finished cabinet with a built-in charging station and storage drawers, which is convenient for a shared living room or studio setup where the bed side needs to look presentable when closed. Its rattan cabinet front also has more sound-dampening mass than a bare particleboard panel, a small but real benefit if you take calls on the desk side while someone else is in the room.\n\nThe desk surface is shallow like most finished cabinet murphy beds, so a heavy clamp-mount monitor arm is not a safe bet here without adding under-desk reinforcement. This is a newer listing with a small review count, so weigh the low review volume against the fit for your specific room before buying.\n\nCharging station built into the frame. Set against that, shallow desk surface, avoid heavy clamp-mount monitor arms. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size cabinet bed",
       "Built-in charging station",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51Og-FctXuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGL5B76J?tag=deskfinds0d-20",
     description:
-      "AMERLIFE pairs a full-size murphy bed with side storage and a charging station, useful for keeping desk accessories and cables organized when the bed folds down and the desk area needs to clear quickly. Like most factory cabinet beds, the desk surface is a thin panel not designed to carry the load of a heavy clamp-mount monitor arm, so plan on a lightweight monitor riser instead if you need extra screen height.\n\nAn overhead room light alone tends to leave the desk surface dim once you're facing the wall, so a clip-on task lamp mounted to the cabinet edge is worth adding. The mid-tier build here uses MDF panels rather than solid wood, a reasonable middle ground on durability for the price.",
+      "AMERLIFE pairs a full-size murphy bed with side storage and a charging station, useful for keeping desk accessories and cables organized when the bed folds down and the desk area needs to clear quickly. Like most factory cabinet beds, the desk surface is a thin panel not designed to carry the load of a heavy clamp-mount monitor arm, so plan on a lightweight monitor riser instead if you need extra screen height.\n\nAn overhead room light alone tends to leave the desk surface dim once you're facing the wall, so a clip-on task lamp mounted to the cabinet edge is worth adding. The mid-tier build here uses MDF panels rather than solid wood, a reasonable middle ground on durability for the price.\n\nA genuine advantage here is that charging station included. The tradeoff is shallow desk surface, not rated for heavy monitor arms.",
     specs: [
       "Queen size cabinet murphy bed",
       "Side storage compartments",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/516I1SJ4lqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DNKM6NRF?tag=deskfinds0d-20",
     description:
-      "This chest-style murphy bed uses a full size mattress rather than queen, which keeps the overall cabinet narrower and easier to fit a desk beside in a smaller room. A single drawer and charging station are built in, and the light rustic white finish reflects more ambient room light back toward the desk than a dark cabinet front would, a small but real help with desk visibility.\n\nBudget-tier particleboard construction is used here rather than MDF or solid wood, which keeps the price down but means the cabinet is more prone to wear at the drawer runners and hinges over years of daily folding. Add a clipped task lamp for real desk lighting, since the built-in fixtures on this tier are minimal to none.",
+      "This chest-style murphy bed uses a full size mattress rather than queen, which keeps the overall cabinet narrower and easier to fit a desk beside in a smaller room. A single drawer and charging station are built in, and the light rustic white finish reflects more ambient room light back toward the desk than a dark cabinet front would, a small but real help with desk visibility.\n\nBudget-tier particleboard construction is used here rather than MDF or solid wood, which keeps the price down but means the cabinet is more prone to wear at the drawer runners and hinges over years of daily folding. Add a clipped task lamp for real desk lighting, since the built-in fixtures on this tier are minimal to none.\n\nLighter finish helps desk-side visibility. That's a real strength, but weigh it against the flip side: budget particleboard build wears faster over years of daily use.",
     specs: [
       "Full size chest-style murphy bed",
       "Single storage drawer",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51XE-SiCWBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FFSTT5LQ?tag=deskfinds0d-20",
     description:
-      "This is the only bed on this list with built-in LED lighting, which directly solves the most common desk-side complaint with murphy bed setups: an overhead room light that leaves the desk surface dim once you're seated facing the closed cabinet. The two LED fixtures mount to the cabinet itself, so they light the work area without needing a separate clamp lamp taking up desk space.\n\nGas struts smooth the fold motion, and the dark brown farmhouse finish gives a finished, presentable look for a shared living space. The desk surface remains shallow like other finished cabinet beds, so keep monitor mounting to a lightweight riser rather than a heavy clamp arm, and this is the highest price on this list, a real premium for the integrated lighting.",
+      "This is the only bed on this list with built-in LED lighting, which directly solves the most common desk-side complaint with murphy bed setups: an overhead room light that leaves the desk surface dim once you're seated facing the closed cabinet. The two LED fixtures mount to the cabinet itself, so they light the work area without needing a separate clamp lamp taking up desk space.\n\nGas struts smooth the fold motion, and the dark brown farmhouse finish gives a finished, presentable look for a shared living space. The desk surface remains shallow like other finished cabinet beds, so keep monitor mounting to a lightweight riser rather than a heavy clamp arm, and this is the highest price on this list, a real premium for the integrated lighting.\n\nWorth calling out specifically: gas struts for smooth, controlled folding. The catch is highest price on this list.",
     specs: [
       "Queen size cabinet murphy bed",
       "2 built-in LED lights",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/515sMh7j30L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXZVVHCG?tag=deskfinds0d-20",
     description:
-      "The same built-in 2-LED lighting and gas strut mechanism as the brown version above, but in a rustic white finish that reflects more light back onto the desk surface between uses, a genuine small advantage for desk visibility in a room without much natural light. At $639.99 it also undercuts the brown finish by about $60 while keeping the same lighting feature.\n\nThe desk surface is still the same shallow factory panel common to finished cabinet beds, so plan on a lightweight monitor riser rather than a heavy clamp-mount arm. If acoustic privacy for calls matters in your shared space, consider adding a wall panel near the desk, since the closed cabinet itself does not meaningfully block sound between rooms.",
+      "The same built-in 2-LED lighting and gas strut mechanism as the brown version above, but in a rustic white finish that reflects more light back onto the desk surface between uses, a genuine small advantage for desk visibility in a room without much natural light. At $639.99 it also undercuts the brown finish by about $60 while keeping the same lighting feature.\n\nThe desk surface is still the same shallow factory panel common to finished cabinet beds, so plan on a lightweight monitor riser rather than a heavy clamp-mount arm. If acoustic privacy for calls matters in your shared space, consider adding a wall panel near the desk, since the closed cabinet itself does not meaningfully block sound between rooms.\n\nLighter finish improves desk-side visibility. Set against that, shallow desk surface, not rated for heavy monitor arms. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size cabinet murphy bed",
       "2 built-in LED lights",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51iWQRI54lL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F13Q522K?tag=deskfinds0d-20",
     description:
-      "The twin size cabinet is the narrowest finished murphy bed on this list, which leaves more usable floor width beside the desk in a genuinely small home office or dorm-style room. A charging station and single drawer are included, and the white finish helps desk-side visibility the way the lighter Hlivelood option does.\n\nAs with the other finished cabinet beds, the desk panel is shallow and not built for a heavy clamp-mount monitor arm, and there is no built-in lighting or acoustic feature, so budget for a clip-on task lamp separately. For a single-occupant small office where floor width is the tightest constraint, the twin footprint is the main reason to choose this over the queen options above.",
+      "The twin size cabinet is the narrowest finished murphy bed on this list, which leaves more usable floor width beside the desk in a genuinely small home office or dorm-style room. A charging station and single drawer are included, and the white finish helps desk-side visibility the way the lighter Hlivelood option does.\n\nAs with the other finished cabinet beds, the desk panel is shallow and not built for a heavy clamp-mount monitor arm, and there is no built-in lighting or acoustic feature, so budget for a clip-on task lamp separately. For a single-occupant small office where floor width is the tightest constraint, the twin footprint is the main reason to choose this over the queen options above.\n\nA genuine advantage here is that charging station included. The tradeoff is no built-in desk lighting.",
     specs: [
       "Twin size cabinet murphy bed",
       "Built-in charging station",
@@ -333,35 +333,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Plan the outlet before you install, not after",
-    explanation:
-      "The single most common post-install complaint with murphy bed desks is discovering the nearest outlet is in the wrong spot once the cabinet is bolted to the wall. Map out an extension cord route or a wall outlet cutout before installation, especially with the DIY hardware kits where you control cabinet placement.",
+    "criterion": "Verify the desk surface is real and usable, not just marketing alongside a plain murphy bed",
+    "explanation": "Some products marketed alongside desk-focused search terms are actually plain murphy beds with no integrated desk surface at all, just a folding cabinet bed that happens to show up in these results, while others genuinely build a fold-down or fixed desk into the cabinet face.\n\nThis distinction matters directly if desk integration is the actual reason you're buying, discovering after purchase that a \"murphy bed with desk\" has no real desk surface is a common and entirely avoidable disappointment.\n\nCheck the listing photos and description specifically for a described, dimensioned desk surface, not just the presence of desk-related keywords in the title."
   },
   {
-    criterion: "Overhead room light rarely reaches the desk surface",
-    explanation:
-      "Most murphy bed desks face the wall, which puts your body between the ceiling light and the desk surface once you're seated. Only the two Hlivelood picks in this list include built-in LED lighting; everything else needs a clipped task lamp or under-cabinet LED strip added separately.",
+    "criterion": "Check the desk surface's weight limit for items left sitting when the bed folds down",
+    "explanation": "A fold-down desk built into a murphy bed cabinet has a real weight limit on what can safely sit on it when the bed mechanism operates, and unlike a standalone desk, that weight isn't just about the desk holding items, it's about whether those items interfere with or get damaged by the folding motion itself.\n\nThis matters directly for anyone planning to leave a monitor, laptop, or other equipment on the desk regularly, some cabinet beds require clearing the desk completely before folding, while others accommodate lighter items left in place.\n\nCheck the listing specifically for the desk's stated weight capacity and whether it requires being cleared before folding, not just the bed's own mattress weight rating."
   },
   {
-    criterion: "Shallow desks are not built for heavy clamp-mount monitor arms",
-    explanation:
-      "Murphy desks typically run 18 to 22 inches deep with a 3/4 inch or thinner MDF surface, which is not enough material for a heavy clamp-mount arm to bite into safely without reinforcement. If you need a monitor arm, plan on a lightweight riser or reinforce the desk panel from underneath first.",
+    "criterion": "Plan outlet and monitor arm placement before installation, not after",
+    "explanation": "A murphy bed with desk changes position between folded-up and folded-down states, meaning any outlet you'll use for a monitor, lamp, or charger needs to remain accessible in both positions, and a monitor arm clamped to the desk edge needs clearance to move with the mechanism without hitting the wall or cabinet frame.\n\nThis matters because retrofitting outlet access or monitor arm clearance after installation is far more difficult than planning it beforehand, especially if the unit is wall-mounted.\n\nCheck the listing for outlet cutout or pass-through details, and measure your intended monitor arm's clearance needs against the cabinet's fold range before ordering."
   },
   {
-    criterion: "A closed cabinet offers little real acoustic insulation",
-    explanation:
-      "The bed side of a closed murphy cabinet does not meaningfully block sound between rooms, so if you take calls at the desk in a shared living room or studio, add acoustic panels to the adjacent wall rather than relying on the cabinet itself for privacy.",
+    "criterion": "Match room ceiling height and wall space to your specific model's clearance requirements",
+    "explanation": "Murphy bed cabinets require specific minimum ceiling height and wall clearance to operate the folding mechanism safely, and these requirements vary between models and mattress sizes, a queen-size unit needs meaningfully more clearance than a twin, and horizontal-mounted units have different wall-width requirements than vertical ones.\n\nThis matters because a unit that doesn't fit your room's actual ceiling height or wall dimensions simply can't be installed safely regardless of how good the desk integration looks in photos.\n\nCheck the listing's specific minimum ceiling height and wall clearance requirements against your room's actual measured dimensions before ordering, not just the general size category."
   },
   {
-    criterion: "Cabinet material quality tracks price tier closely",
-    explanation:
-      "Budget beds in the $249.99 to $349.99 range typically use particleboard or veneer, mid-tier beds from about $459.99 to $699.98 step up to MDF, and premium beds above that generally use solid wood or plywood. Expect drawer runners and hinges on budget tiers to show wear sooner under daily folding.",
-  },
-  {
-    criterion: "Hardware kits give you the most desk control, at the cost of a DIY build",
-    explanation:
-      "Buying a vertical hardware kit like the Create-A-Bed or the budget DIY kit means you build the surrounding cabinet and desk yourself, which lets you size the desk deep enough for a real monitor arm and plan lighting and outlets from scratch. A finished cabinet bed is far less work but locks you into its factory desk depth and lighting.",
-  },
+    "criterion": "Consider professional installation versus DIY assembly for a mechanism you'll operate daily",
+    "explanation": "A murphy bed's folding mechanism sees repeated daily stress if used as a genuine daily-fold desk-bed combo, and installation quality directly affects long-term safety and smooth operation, a mechanism installed slightly out of alignment can bind, sag, or wear unevenly over time.\n\nThis matters more for a unit that folds daily as part of an active desk-bed routine, less for one that stays in one position most of the time.\n\nCheck whether the listing includes or recommends professional installation, and factor that cost and time into your total decision if you're not confident assembling a wall-mounted mechanical system yourself."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -374,72 +364,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Desk Lighting Need",
-    intro: "If you work at the desk for real hours, built-in lighting changes how usable the setup actually is.",
-    table: {
-      headers: ["Situation", "Recommendation", "Best pick"],
-      rows: [
-        ["Desk faces away from the room's main light source", "Get built-in LED lighting", "Hlivelood Queen with 2 LED Lights, Brown or Rustic White"],
-        ["Willing to add a clip-on task lamp yourself", "Any finished cabinet bed works", "AMERLIFE Queen Murphy Bed with Storage"],
-        ["Building your own desk anyway", "Plan lighting into the build", "Create-A-Bed Queen Vertical Kit"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Create"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Create"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Monitor Arm Plans",
-    intro: "Every finished cabinet bed on this list has a shallow, thin desk panel. Only the hardware kits let you build around that limit.",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $197",
+          "Queen Size Murphy Bed Hardware Kit"
+        ],
+        [
+          "Up to $700",
+          "Hlivelood Queen Size Murphy Bed with 2 LED Lights"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Built-In Storage vs Desk-Only",
+    "cards": [
       {
-        label: "Need a heavy clamp-mount monitor arm",
-        text: "Choose the Create-A-Bed or the budget DIY hardware kit and build a deeper, reinforced desk surface yourself; a factory cabinet desk is not rated for this.",
+        "label": "Built-in storage",
+        "text": "Adds shelving or cabinet space beyond just the desk, useful in a smaller room. In this comparison: Create, Yoobure Queen Murphy Bed with Charging Station, AMERLIFE Queen Murphy Bed with Storage and Charging Station, Hlivelood Full Size Murphy Chest Bed with Drawer and Charging Station, LIVAUVEAD Twin Size Murphy Bed with Charging Station and Drawer."
       },
       {
-        label: "Fine with a lightweight monitor riser instead",
-        text: "Any finished cabinet bed, including the AMERLIFE or either Hlivelood LED model, works without modification.",
-      },
-      {
-        label: "Single monitor, no arm needed",
-        text: "The LIVAUVEAD Twin or Yoobure Queen both work as-is for a simple laptop or single-screen desk.",
-      },
+        "label": "Desk-only",
+        "text": "Simpler, focuses cabinet space on the fold-down desk itself. In this comparison: Queen Size Murphy Bed Hardware Kit, Hlivelood Queen Size Murphy Bed with 2 LED Lights, Hlivelood Queen Size Murphy Bed with 2 LED Lights."
+      }
     ],
+    "note": "Default to desk-only unless extra built-in storage genuinely solves a real space problem for you."
   },
   {
-    subheading: "By Room Type and Privacy Need",
-    table: {
-      headers: ["Room type", "Privacy consideration", "Best pick"],
-      rows: [
-        ["Private guest room or spare bedroom", "Acoustic privacy less critical", "Any pick, cabinet material tier by budget"],
-        ["Shared living room or studio apartment", "Add wall acoustic panels near the desk", "Yoobure Queen (rattan front adds minor dampening)"],
-        ["Small single-occupant office", "Narrower footprint matters most", "LIVAUVEAD Twin Size"],
-      ],
-    },
-    note: "No murphy bed cabinet in this list offers real acoustic insulation on its own; treat the wall, not the bed, for call privacy.",
+    "subheading": "By Room Clearance Requirements",
+    "note": "Check each pick's listed minimum ceiling height and wall clearance against your room's actual measured dimensions before buying, not just the general size category. Create is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Cabinet Material Quality by Budget",
-    table: {
-      headers: ["Budget", "Typical material", "Best pick"],
-      rows: [
-        ["$197 to $299", "Hardware only, you supply the cabinet material", "Create-A-Bed or budget DIY kit"],
-        ["$249.99 to $349.99", "Particleboard or veneer", "LIVAUVEAD Twin or Hlivelood Full Chest Bed"],
-        ["$459.99 to $699.98", "MDF, dovetail joinery", "AMERLIFE, Yoobure, or either Hlivelood LED model"],
-      ],
-    },
-    note: "Solid wood or plywood construction generally starts above $3,000 in this category and isn't represented in this list's price range.",
-  },
-  {
-    subheading: "When to Choose a Hardware Kit Over a Finished Cabinet",
-    cards: [
+    "subheading": "For a Studio Apartment Specifically",
+    "cards": [
       {
-        label: "You want full control over desk depth and lighting",
-        text: "Both hardware kits let you build a desk deep enough for a monitor arm and plan lighting and outlet placement from the start.",
+        "label": "Look for",
+        "text": "Verified real desk integration with a stated weight limit, plus confirmed ceiling height and wall clearance for your specific room."
       },
       {
-        label: "You want a delivered, ready-to-use piece of furniture",
-        text: "Any of the finished cabinet beds, from the LIVAUVEAD Twin to the Hlivelood LED models, avoid the DIY build entirely.",
-      },
-    ],
+        "label": "In this comparison",
+        "text": "Create is worth checking against its listed clearance requirements before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You'll fold the unit daily as part of an active desk-bed routine, where Hlivelood Queen Size Murphy Bed with 2 LED Lights's build quality and mechanism give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "The bed stays in one position most of the time, where Queen Size Murphy Bed Hardware Kit covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

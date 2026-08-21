@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51H6j9qVxwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00CYPV29W?tag=deskfinds0d-20",
     description:
-      "For a studio apartment where noise matters to neighbors sharing walls and floors, this gas piston mechanism is a genuinely quieter option than spring-based designs, since pistons do not creak the way tensioned springs can over years of use. It is a bare hardware kit, not a finished cabinet, so you build your own cabinet face around it, which lets you plan placement carefully around any floor vents.\n\nWith 2,138 ratings at 4.6 stars, it has the strongest review base in this guide. Before installing in a rental studio, get written lease approval, since the wall mounting hardware this kit requires is a lease-sensitive modification in most apartment buildings.",
+      "For a studio apartment where noise matters to neighbors sharing walls and floors, this gas piston mechanism is a genuinely quieter option than spring-based designs, since pistons do not creak the way tensioned springs can over years of use. It is a bare hardware kit, not a finished cabinet, so you build your own cabinet face around it, which lets you plan placement carefully around any floor vents.\n\nWith 2,138 ratings at 4.6 stars, it has the strongest review base in this guide. Before installing in a rental studio, get written lease approval, since the wall mounting hardware this kit requires is a lease-sensitive modification in most apartment buildings.\n\nLargest review base in this guide at 2,138 ratings. That's a real strength, but weigh it against the flip side: no desk surface included, bed-only mechanism.",
     specs: [
       "Vertical queen size mechanism",
       "Gas piston operation, quieter than spring mechanisms",
@@ -81,7 +81,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51h1vyv6ZdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B017701FUE?tag=deskfinds0d-20",
     description:
-      "Like the Create-A-Bed kit above, this is a gas piston mechanism, which tends to be quieter over years of daily use than spring mechanisms, a real consideration in a studio apartment with shared walls. It is the lowest-cost mechanism in this guide, leaving more budget for a well-planned custom cabinet.\n\nWith 1,610 ratings at 4.6 stars, it has a strong review base for a DIY kit. Check your building's floor load capacity if you are in an older building before installing, and always confirm wall mounting is approved in your lease before drilling.",
+      "Like the Create-A-Bed kit above, this is a gas piston mechanism, which tends to be quieter over years of daily use than spring mechanisms, a real consideration in a studio apartment with shared walls. It is the lowest-cost mechanism in this guide, leaving more budget for a well-planned custom cabinet.\n\nWith 1,610 ratings at 4.6 stars, it has a strong review base for a DIY kit. Check your building's floor load capacity if you are in an older building before installing, and always confirm wall mounting is approved in your lease before drilling.\n\nWorth calling out specifically: piston mechanism is quieter for apartment living. The catch is no desk surface included, bed-only mechanism.",
     specs: [
       "Vertical queen size mechanism",
       "Gas piston operation, quieter than spring mechanisms",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51JtI3bjGFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GQM56Y2N?tag=deskfinds0d-20",
     description:
-      "This fully assembled cabinet skips the carpentry step, which matters in a studio apartment where you may not have workshop space to build a custom cabinet. The listing does not mention a desk, so treat this as a storage-focused cabinet with a charging station rather than a desk-bed combo.\n\nThe mechanism type is not specified in the listing, so you cannot assume piston-quiet operation without checking directly. With only 19 ratings, buyer feedback on noise level and floor load is thin, so confirm building suitability before ordering for an apartment with sensitive neighbors below.",
+      "This fully assembled cabinet skips the carpentry step, which matters in a studio apartment where you may not have workshop space to build a custom cabinet. The listing does not mention a desk, so treat this as a storage-focused cabinet with a charging station rather than a desk-bed combo.\n\nThe mechanism type is not specified in the listing, so you cannot assume piston-quiet operation without checking directly. With only 19 ratings, buyer feedback on noise level and floor load is thin, so confirm building suitability before ordering for an apartment with sensitive neighbors below.\n\nBuilt-in charging station. Set against that, no desk surface, despite home office marketing. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size foldable platform",
       "Built-in charging station",
@@ -141,7 +141,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51k+vfJQZGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DN5P11PP?tag=deskfinds0d-20",
     description:
-      "LUXOAK's storage-focused design is a genuine benefit for a studio apartment, where a single room needs to absorb storage that a house would spread across multiple rooms. No desk is mentioned in the listing, so plan for a separate desk elsewhere in the studio.\n\nWith 340 ratings at 4.3 stars, it has a solid mid-size review base. Check the cabinet's floor footprint against your studio's HVAC vent locations before finalizing placement, since blocked floor vents are a common studio-specific complaint with cabinets this size.",
+      "LUXOAK's storage-focused design is a genuine benefit for a studio apartment, where a single room needs to absorb storage that a house would spread across multiple rooms. No desk is mentioned in the listing, so plan for a separate desk elsewhere in the studio.\n\nWith 340 ratings at 4.3 stars, it has a solid mid-size review base. Check the cabinet's floor footprint against your studio's HVAC vent locations before finalizing placement, since blocked floor vents are a common studio-specific complaint with cabinets this size.\n\nA genuine advantage here is that storage compartments help a single-room studio layout. The tradeoff is no desk surface, requires a separate desk purchase.",
     specs: [
       "Queen size murphy cabinet",
       "Built-in storage compartments",
@@ -171,7 +171,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51Og-FctXuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGL5B76J?tag=deskfinds0d-20",
     description:
-      "AMERLIFE's title lists storage and charging, not a desk, so plan on a separate small desk in another corner of the studio if desk work is part of your routine. With 396 ratings at 4.2 stars, it has the largest review base among the assembled cabinets in this guide.\n\nBefore ordering, confirm your building's floor load capacity if you live in an older converted building, since assembled cabinets this size can weigh several hundred pounds once the mattress and hardware are accounted for.",
+      "AMERLIFE's title lists storage and charging, not a desk, so plan on a separate small desk in another corner of the studio if desk work is part of your routine. With 396 ratings at 4.2 stars, it has the largest review base among the assembled cabinets in this guide.\n\nBefore ordering, confirm your building's floor load capacity if you live in an older converted building, since assembled cabinets this size can weigh several hundred pounds once the mattress and hardware are accounted for.\n\nCharging station and storage built in. That's a real strength, but weigh it against the flip side: no desk surface, requires a separate desk purchase.",
     specs: [
       "Queen size murphy bed",
       "Built-in storage compartments",
@@ -201,7 +201,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51jUTZEm-VL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GS52M63V?tag=deskfinds0d-20",
     description:
-      "This is the lowest-priced assembled cabinet in this guide, a genuine consideration for a studio renter budgeting for a single-room apartment. No desk is included, and the mechanism type is not specified in the listing, so verify noise level directly if you have neighbors below.\n\nWith 120 ratings at 4.0 stars, it has a moderate review base. As with any assembled cabinet this size, check your studio's HVAC vent placement and get written lease approval before installation.",
+      "This is the lowest-priced assembled cabinet in this guide, a genuine consideration for a studio renter budgeting for a single-room apartment. No desk is included, and the mechanism type is not specified in the listing, so verify noise level directly if you have neighbors below.\n\nWith 120 ratings at 4.0 stars, it has a moderate review base. As with any assembled cabinet this size, check your studio's HVAC vent placement and get written lease approval before installation.\n\nWorth calling out specifically: built-in charging station. The catch is no desk surface, requires a separate desk purchase.",
     specs: [
       "Queen size murphy bed",
       "Built-in charging station",
@@ -231,7 +231,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51XE-SiCWBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FFSTT5LQ?tag=deskfinds0d-20",
     description:
-      "Built-in LED lighting is a genuinely useful feature in a studio apartment, where a single room often lacks a dedicated bedside lamp setup. It uses a gas strut mechanism, which is generally quieter than spring-based designs, though this is not the confirmed lowest-noise option like the bare piston kits above.\n\nAt $699.98, it is the highest priced pick in this guide. With 141 ratings at 4.0 stars, feedback is reasonably sized. No desk is included, so plan for a separate desk elsewhere in the studio.",
+      "Built-in LED lighting is a genuinely useful feature in a studio apartment, where a single room often lacks a dedicated bedside lamp setup. It uses a gas strut mechanism, which is generally quieter than spring-based designs, though this is not the confirmed lowest-noise option like the bare piston kits above.\n\nAt $699.98, it is the highest priced pick in this guide. With 141 ratings at 4.0 stars, feedback is reasonably sized. No desk is included, so plan for a separate desk elsewhere in the studio.\n\nGas strut mechanism is generally quieter than spring designs. Set against that, no desk surface, requires a separate desk purchase. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size murphy bed",
       "2 built-in LED lights",
@@ -261,7 +261,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/515sMh7j30L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXZVVHCG?tag=deskfinds0d-20",
     description:
-      "This is the same LED-equipped queen cabinet as the brown pick above, in a rustic white finish and priced about $60 lower. The gas strut mechanism, lighting, and no-box-spring design are identical, so choose based on finish preference for your studio's decor.\n\nThe same considerations apply as the brown variant: no desk included, verify HVAC vent clearance for your specific studio layout, and confirm lease approval before installation. The shared 141-review base and 4.0-star rating apply to both finishes.",
+      "This is the same LED-equipped queen cabinet as the brown pick above, in a rustic white finish and priced about $60 lower. The gas strut mechanism, lighting, and no-box-spring design are identical, so choose based on finish preference for your studio's decor.\n\nThe same considerations apply as the brown variant: no desk included, verify HVAC vent clearance for your specific studio layout, and confirm lease approval before installation. The shared 141-review base and 4.0-star rating apply to both finishes.\n\nA genuine advantage here is that slightly lower price than the brown finish variant. The tradeoff is no desk surface, requires a separate desk purchase.",
     specs: [
       "Queen size murphy bed",
       "2 built-in LED lights",
@@ -317,35 +317,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Plan around HVAC floor vents before choosing cabinet placement",
-    explanation:
-      "Floor HVAC vents commonly get blocked once a murphy bed cabinet is installed nearby, and this is easy to overlook until heating or cooling in the room suffers. Measure your studio's vent locations and check the cabinet's full footprint, including drawer or door swing clearance, before finalizing where it goes.",
+    "criterion": "Verify the desk surface is real and usable, not just marketing alongside a plain murphy bed",
+    "explanation": "Some products marketed alongside desk-focused search terms are actually plain murphy beds with no integrated desk surface at all, just a folding cabinet bed that happens to show up in these results, while others genuinely build a fold-down or fixed desk into the cabinet face.\n\nThis distinction matters directly if desk integration is the actual reason you're buying, discovering after purchase that a \"murphy bed with desk\" has no real desk surface is a common and entirely avoidable disappointment.\n\nCheck the listing photos and description specifically for a described, dimensioned desk surface, not just the presence of desk-related keywords in the title."
   },
   {
-    criterion: "None of these 8 picks confirm a built-in desk",
-    explanation:
-      "Every product in this studio-focused guide is a bed-only cabinet or bare hardware kit based on its listing details. If desk work is part of your routine, budget separately for a small desk elsewhere in the studio rather than assuming any of these picks includes one.",
+    "criterion": "Check the desk surface's weight limit for items left sitting when the bed folds down",
+    "explanation": "A fold-down desk built into a murphy bed cabinet has a real weight limit on what can safely sit on it when the bed mechanism operates, and unlike a standalone desk, that weight isn't just about the desk holding items, it's about whether those items interfere with or get damaged by the folding motion itself.\n\nThis matters directly for anyone planning to leave a monitor, laptop, or other equipment on the desk regularly, some cabinet beds require clearing the desk completely before folding, while others accommodate lighter items left in place.\n\nCheck the listing specifically for the desk's stated weight capacity and whether it requires being cleared before folding, not just the bed's own mattress weight rating."
   },
   {
-    criterion: "Piston and strut mechanisms are quieter than unspecified designs",
-    explanation:
-      "The Create-A-Bed kit, Queen Murphy Bed Hardware Kit, and both Hlivelood LED picks use gas pistons or struts, which are generally quieter over years of daily use than spring mechanisms. For the other picks where mechanism type is not specified, ask the seller directly if noise matters to your building's shared walls.",
+    "criterion": "Plan outlet and monitor arm placement before installation, not after",
+    "explanation": "A murphy bed with desk changes position between folded-up and folded-down states, meaning any outlet you'll use for a monitor, lamp, or charger needs to remain accessible in both positions, and a monitor arm clamped to the desk edge needs clearance to move with the mechanism without hitting the wall or cabinet frame.\n\nThis matters because retrofitting outlet access or monitor arm clearance after installation is far more difficult than planning it beforehand, especially if the unit is wall-mounted.\n\nCheck the listing for outlet cutout or pass-through details, and measure your intended monitor arm's clearance needs against the cabinet's fold range before ordering."
   },
   {
-    criterion: "Check floor load capacity in older buildings",
-    explanation:
-      "Assembled murphy bed cabinets can weigh several hundred pounds once mattress and hardware are included. In an older converted building, check with your landlord or a structural professional about floor load capacity before installing a heavy cabinet, particularly on upper floors.",
+    "criterion": "Match room ceiling height and wall space to your specific model's clearance requirements",
+    "explanation": "Murphy bed cabinets require specific minimum ceiling height and wall clearance to operate the folding mechanism safely, and these requirements vary between models and mattress sizes, a queen-size unit needs meaningfully more clearance than a twin, and horizontal-mounted units have different wall-width requirements than vertical ones.\n\nThis matters because a unit that doesn't fit your room's actual ceiling height or wall dimensions simply can't be installed safely regardless of how good the desk integration looks in photos.\n\nCheck the listing's specific minimum ceiling height and wall clearance requirements against your room's actual measured dimensions before ordering, not just the general size category."
   },
   {
-    criterion: "Get lease approval in writing before you buy, not after",
-    explanation:
-      "Wall mounting hardware, and sometimes floor anchors, are lease-sensitive modifications in nearly every rental agreement. Get written approval from your landlord before purchasing, since returning a large assembled cabinet after installation is far more costly and difficult than returning it unopened.",
-  },
-  {
-    criterion: "Studio rooms often need a smaller footprint than these queen picks offer",
-    explanation:
-      "All 8 picks in this guide are queen size, which may be more bed than a true studio apartment needs if floor space for daily living is tight. If your studio is especially small, compare this guide against a twin or full-size option in our other murphy bed guides before committing to queen.",
-  },
+    "criterion": "Consider professional installation versus DIY assembly for a mechanism you'll operate daily",
+    "explanation": "A murphy bed's folding mechanism sees repeated daily stress if used as a genuine daily-fold desk-bed combo, and installation quality directly affects long-term safety and smooth operation, a mechanism installed slightly out of alignment can bind, sag, or wear unevenly over time.\n\nThis matters more for a unit that folds daily as part of an active desk-bed routine, less for one that stays in one position most of the time.\n\nCheck whether the listing includes or recommends professional installation, and factor that cost and time into your total decision if you're not confident assembling a wall-mounted mechanical system yourself."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -358,63 +348,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "HVAC Vent Pre-Planning",
-    intro: "Before choosing a cabinet, map your studio's floor vent locations against the cabinet's full footprint, including door swing.",
-    table: {
-      headers: ["Vent location", "Cabinet placement guidance", "Best pick"],
-      rows: [
-        ["Vent directly against the intended wall", "Choose a narrower-footprint cabinet or relocate the installation wall", "Create-A-Bed or Queen Murphy Hardware Kit (custom cabinet lets you plan around it)"],
-        ["Vent elsewhere in the room, clear wall available", "Any assembled cabinet works", "LUXOAK, AMERLIFE, or Yoobure Queen Murphy Bed"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Create"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Create"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Noise Level by Mechanism Type",
-    table: {
-      headers: ["Mechanism", "Noise profile", "Best pick"],
-      rows: [
-        ["Gas piston (confirmed)", "Quietest, smooth controlled fold", "Create-A-Bed Queen Vertical or Queen Murphy Hardware Kit"],
-        ["Gas strut (confirmed)", "Quiet, slightly more mechanical feel", "Hlivelood Queen with 2 LED Lights, brown or white"],
-        ["Not specified in listing", "Verify directly with seller before ordering for a noise-sensitive building", "Yoobure, LUXOAK, AMERLIFE, or LIVAUVEAD"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
-    note: "Ask the seller directly about spring vs piston or strut construction if noise to neighbors below or beside your unit is a real concern.",
+      "rows": [
+        [
+          "Under $197",
+          "Queen Size Murphy Bed Hardware Kit"
+        ],
+        [
+          "Up to $700",
+          "Hlivelood Queen Size Murphy Bed with 2 LED Lights"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Floor Load Capacity Check",
-    cards: [
+    "subheading": "Built-In Storage vs Desk-Only",
+    "cards": [
       {
-        label: "Newer building, ground floor or reinforced floor",
-        text: "Standard floor load capacity is typically sufficient for any assembled cabinet in this guide.",
+        "label": "Built-in storage",
+        "text": "Adds shelving or cabinet space beyond just the desk, useful in a smaller room. In this comparison: Yoobure Queen Murphy Bed with Charging Station, LUXOAK Queen Murphy Cabinet Bed with Storage and Charging Station, AMERLIFE Queen Murphy Bed with Storage and Charging Station."
       },
       {
-        label: "Older converted building, upper floor",
-        text: "Check with your landlord or a structural professional before installing a heavy assembled cabinet like the AMERLIFE or LUXOAK picks.",
-      },
+        "label": "Desk-only",
+        "text": "Simpler, focuses cabinet space on the fold-down desk itself. In this comparison: Create, Queen Size Murphy Bed Hardware Kit, LIVAUVEAD Farmhouse Queen Size Murphy Bed with Charging Station, Hlivelood Queen Size Murphy Bed with 2 LED Lights, Hlivelood Queen Size Murphy Bed with 2 LED Lights."
+      }
     ],
+    "note": "Default to desk-only unless extra built-in storage genuinely solves a real space problem for you."
   },
   {
-    subheading: "Lease Approval as a Required First Step",
-    intro: "Treat lease approval as step one, not a formality after you have already ordered.",
-    table: {
-      headers: ["Installation type", "Lease sensitivity", "Recommended action"],
-      rows: [
-        ["Wall-mounted hardware kit", "High, requires drilling into a wall stud", "Get written landlord approval before ordering Create-A-Bed or the Queen Murphy Hardware Kit"],
-        ["Assembled cabinet, wall-mounted", "High, same drilling requirement applies", "Get written landlord approval before ordering any assembled cabinet in this guide"],
-      ],
-    },
+    "subheading": "By Room Clearance Requirements",
+    "note": "Check each pick's listed minimum ceiling height and wall clearance against your room's actual measured dimensions before buying, not just the general size category. Create is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Budget vs Feature Tradeoff for Studio Living",
-    table: {
-      headers: ["Budget", "Priority", "Best pick"],
-      rows: [
-        ["Under $350", "Lowest cost assembled cabinet with charging", "LIVAUVEAD Farmhouse Queen"],
-        ["$450-500", "Balance of storage and charging", "Yoobure, LUXOAK, or AMERLIFE Queen Murphy Bed"],
-        ["$600+", "Built-in lighting for evening use", "Hlivelood Queen with 2 LED Lights, brown or white"],
-      ],
-    },
+    "subheading": "For a Studio Apartment Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Verified real desk integration with a stated weight limit, plus confirmed ceiling height and wall clearance for your specific room."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Create is worth checking against its listed clearance requirements before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You'll fold the unit daily as part of an active desk-bed routine, where Hlivelood Queen Size Murphy Bed with 2 LED Lights's build quality and mechanism give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "The bed stays in one position most of the time, where Queen Size Murphy Bed Hardware Kit covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

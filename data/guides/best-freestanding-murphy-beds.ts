@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41OjvkczeAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H6J86PS3?tag=deskfinds0d-20",
     description:
-      "This is the clearest confirmed freestanding design in this guide, with the term used directly in the listing title alongside a queen bed frame and gray wooden door finish. Freestanding here means the cabinet does not require a wall mount bracket, but it still needs wall backing or a floor anchor for tipping stability, and the listing does not specify which.\n\nAs a new listing with no rating history yet, treat this as an unproven product and read any early buyer photos or questions closely before ordering. Confirm the specific anchor method and cabinet base weight with the seller before assuming it is fully self-supporting without any wall contact.",
+      "This is the clearest confirmed freestanding design in this guide, with the term used directly in the listing title alongside a queen bed frame and gray wooden door finish. Freestanding here means the cabinet does not require a wall mount bracket, but it still needs wall backing or a floor anchor for tipping stability, and the listing does not specify which.\n\nAs a new listing with no rating history yet, treat this as an unproven product and read any early buyer photos or questions closely before ordering. Confirm the specific anchor method and cabinet base weight with the seller before assuming it is fully self-supporting without any wall contact.\n\nNo wall mount bracket required for basic setup. That's a real strength, but weigh it against the flip side: new listing with no rating history to verify real-world stability.",
     specs: [
       "Queen size freestanding bed frame",
       "Gray finish with wooden doors",
@@ -81,7 +81,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41NToyVxpBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H6JFQKW7?tag=deskfinds0d-20",
     description:
-      "Flagging this honestly: unlike its sibling Peanu listing above, this one describes a fold out cabinet bed with a built-in shelf but does not use the word freestanding anywhere in the title. It may share the same underlying design as the confirmed freestanding Peanu frame, but that is not stated here, so verify directly with the seller before assuming it needs no wall mount.\n\nLike the confirmed Peanu pick, this is a new listing with no rating history. The built-in shelf is a genuine storage feature, but there is no desk surface, and the freestanding claim specifically needs seller confirmation before you rely on it for a rental where wall mounting is restricted.",
+      "Flagging this honestly: unlike its sibling Peanu listing above, this one describes a fold out cabinet bed with a built-in shelf but does not use the word freestanding anywhere in the title. It may share the same underlying design as the confirmed freestanding Peanu frame, but that is not stated here, so verify directly with the seller before assuming it needs no wall mount.\n\nLike the confirmed Peanu pick, this is a new listing with no rating history. The built-in shelf is a genuine storage feature, but there is no desk surface, and the freestanding claim specifically needs seller confirmation before you rely on it for a rental where wall mounting is restricted.\n\nWorth calling out specifically: similar design language to the confirmed freestanding Peanu frame. The catch is freestanding claim not explicitly stated in this specific listing.",
     specs: [
       "Queen size fold-out cabinet bed",
       "Built-in shelf",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51UKKBXP5+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H94FKL7V?tag=deskfinds0d-20",
     description:
-      "roomfitters explicitly confirms Free Standing in this listing title, paired with a large underbed rattan storage drawer on a queen size cabinet. Like the Peanu freestanding frame, freestanding here means no wall mount bracket, but a floor anchor or wall backing plate is still commonly required for tipping stability, which the listing does not detail.\n\nThis is a new listing with no rating history, so treat the stability and build quality claims as unverified until buyer feedback accumulates. The rattan storage drawer is a genuine functional feature, though there is no desk surface included.",
+      "roomfitters explicitly confirms Free Standing in this listing title, paired with a large underbed rattan storage drawer on a queen size cabinet. Like the Peanu freestanding frame, freestanding here means no wall mount bracket, but a floor anchor or wall backing plate is still commonly required for tipping stability, which the listing does not detail.\n\nThis is a new listing with no rating history, so treat the stability and build quality claims as unverified until buyer feedback accumulates. The rattan storage drawer is a genuine functional feature, though there is no desk surface included.\n\nLarge storage drawer included. Set against that, new listing with no rating history. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size freestanding cabinet bed",
       "Large underbed rattan storage drawer",
@@ -141,7 +141,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51m3v9ZznPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H94DMCSW?tag=deskfinds0d-20",
     description:
-      "This is the full-size version of the roomfitters freestanding cabinet above, also explicitly confirming Free Standing in the title, with the same large rattan storage drawer design in a green finish. Full size means a smaller footprint than the queen version, which can matter if floor clearance for the open bed is tight.\n\nLike its queen sibling, this is a new listing with no rating history, so treat build quality and stability claims as unverified for now. Confirm the anchor method with the seller before ordering, especially if you are relying on the freestanding claim to avoid lease restrictions on wall drilling.",
+      "This is the full-size version of the roomfitters freestanding cabinet above, also explicitly confirming Free Standing in the title, with the same large rattan storage drawer design in a green finish. Full size means a smaller footprint than the queen version, which can matter if floor clearance for the open bed is tight.\n\nLike its queen sibling, this is a new listing with no rating history, so treat build quality and stability claims as unverified for now. Confirm the anchor method with the seller before ordering, especially if you are relying on the freestanding claim to avoid lease restrictions on wall drilling.\n\nA genuine advantage here is that full size footprint requires less floor clearance than queen. The tradeoff is new listing with no rating history.",
     specs: [
       "Full size freestanding cabinet bed",
       "Large underbed rattan storage drawer",
@@ -171,7 +171,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51jUTZEm-VL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GS52M63V?tag=deskfinds0d-20",
     description:
-      "Flagging this honestly: the listing does not claim freestanding design at all, and based on standard farmhouse-style murphy bed construction, it most likely requires a conventional wall mount. It appears in this guide's underlying data because it is commonly cross-shopped, but it is not a verified freestanding pick.\n\nWith 120 ratings at 4.0 stars, it has the most established review base among freestanding-adjacent searches in this guide, and includes a built-in charging station. If freestanding design specifically matters to you, confirm directly with the seller rather than assuming this qualifies.",
+      "Flagging this honestly: the listing does not claim freestanding design at all, and based on standard farmhouse-style murphy bed construction, it most likely requires a conventional wall mount. It appears in this guide's underlying data because it is commonly cross-shopped, but it is not a verified freestanding pick.\n\nWith 120 ratings at 4.0 stars, it has the most established review base among freestanding-adjacent searches in this guide, and includes a built-in charging station. If freestanding design specifically matters to you, confirm directly with the seller rather than assuming this qualifies.\n\nBuilt-in charging station. That's a real strength, but weigh it against the flip side: freestanding design not confirmed, likely requires standard wall mounting.",
     specs: [
       "Queen size murphy bed (wall mount likely required)",
       "Built-in charging station",
@@ -201,7 +201,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51JtI3bjGFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GQM56Y2N?tag=deskfinds0d-20",
     description:
-      "This listing also makes no freestanding claim, so treat it as a standard wall-mounted cabinet bed rather than a verified freestanding option, despite appearing in freestanding-related searches. It includes a charging station and storage drawers in a rattan finish.\n\nWith only 19 ratings, buyer feedback is thin. If avoiding wall mounting for lease reasons is your priority, the confirmed freestanding Peanu or roomfitters picks above are a better fit, provided you also confirm their anchor requirements directly.",
+      "This listing also makes no freestanding claim, so treat it as a standard wall-mounted cabinet bed rather than a verified freestanding option, despite appearing in freestanding-related searches. It includes a charging station and storage drawers in a rattan finish.\n\nWith only 19 ratings, buyer feedback is thin. If avoiding wall mounting for lease reasons is your priority, the confirmed freestanding Peanu or roomfitters picks above are a better fit, provided you also confirm their anchor requirements directly.\n\nWorth calling out specifically: storage drawers add functional space. The catch is freestanding design not confirmed.",
     specs: [
       "Queen size foldable platform (wall mount likely required)",
       "Built-in charging station",
@@ -231,7 +231,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51H6j9qVxwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00CYPV29W?tag=deskfinds0d-20",
     description:
-      "Flagging this clearly: this is a wall bed hardware kit explicitly designed to be mounted to a wall, the opposite of freestanding. It appears in this guide's underlying data because it is frequently cross-shopped, but if avoiding wall mounting is your reason for searching freestanding, this pick does not solve that problem.\n\nIt does have the largest review base in this entire guide at 2,138 ratings, and is a well-regarded piston mechanism if you have already decided wall mounting is acceptable in your space.",
+      "Flagging this clearly: this is a wall bed hardware kit explicitly designed to be mounted to a wall, the opposite of freestanding. It appears in this guide's underlying data because it is frequently cross-shopped, but if avoiding wall mounting is your reason for searching freestanding, this pick does not solve that problem.\n\nIt does have the largest review base in this entire guide at 2,138 ratings, and is a well-regarded piston mechanism if you have already decided wall mounting is acceptable in your space.\n\nWell-regarded piston mechanism if wall mounting is acceptable. Set against that, not freestanding, requires standard wall mounting. Both matter when comparing it to the other picks here.",
     specs: [
       "Vertical queen size mechanism, wall-mounted design",
       "Gas piston operation",
@@ -261,7 +261,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51h1vyv6ZdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B017701FUE?tag=deskfinds0d-20",
     description:
-      "Like the Create-A-Bed kit above, this is explicitly a wall bed frame kit, not a freestanding product, and it appears here only because it is commonly cross-shopped with freestanding searches. It will require standard wall mounting hardware and does not avoid the anchoring question freestanding buyers are typically trying to solve.\n\nAt $197.00 it is the lowest price in this guide, with a strong 1,610-rating review base, but it is not a fit if avoiding wall mounting is the reason you are shopping for a freestanding murphy bed.",
+      "Like the Create-A-Bed kit above, this is explicitly a wall bed frame kit, not a freestanding product, and it appears here only because it is commonly cross-shopped with freestanding searches. It will require standard wall mounting hardware and does not avoid the anchoring question freestanding buyers are typically trying to solve.\n\nAt $197.00 it is the lowest price in this guide, with a strong 1,610-rating review base, but it is not a fit if avoiding wall mounting is the reason you are shopping for a freestanding murphy bed.\n\nA genuine advantage here is that lowest price in this guide. The tradeoff is not freestanding, requires standard wall mounting.",
     specs: [
       "Vertical queen size mechanism, wall-mounted design",
       "Gas piston operation",
@@ -317,35 +317,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Freestanding means no wall mount, not no anchor at all",
-    explanation:
-      "This is the single most misunderstood claim in this category. Freestanding murphy beds skip the wall mount bracket, but most still require a floor cleat or wall backing anchor for tipping stability. Confirm the exact anchor method with the seller before assuming a freestanding unit needs zero attachment to your floor or wall.",
+    "criterion": "Verify the desk surface is real and usable, not just marketing alongside a plain murphy bed",
+    "explanation": "Some products marketed alongside desk-focused search terms are actually plain murphy beds with no integrated desk surface at all, just a folding cabinet bed that happens to show up in these results, while others genuinely build a fold-down or fixed desk into the cabinet face.\n\nThis distinction matters directly if desk integration is the actual reason you're buying, discovering after purchase that a \"murphy bed with desk\" has no real desk surface is a common and entirely avoidable disappointment.\n\nCheck the listing photos and description specifically for a described, dimensioned desk surface, not just the presence of desk-related keywords in the title."
   },
   {
-    criterion: "Floor anchoring can violate a rental lease just like wall drilling",
-    explanation:
-      "The renter-friendly claim attached to freestanding murphy beds is often overstated. Floor anchoring, which many freestanding units still require, can trigger the same lease restrictions on modifying the unit as drilling into a wall. Get written landlord approval before installing any anchored freestanding unit in a rental.",
+    "criterion": "Check the desk surface's weight limit for items left sitting when the bed folds down",
+    "explanation": "A fold-down desk built into a murphy bed cabinet has a real weight limit on what can safely sit on it when the bed mechanism operates, and unlike a standalone desk, that weight isn't just about the desk holding items, it's about whether those items interfere with or get damaged by the folding motion itself.\n\nThis matters directly for anyone planning to leave a monitor, laptop, or other equipment on the desk regularly, some cabinet beds require clearing the desk completely before folding, while others accommodate lighter items left in place.\n\nCheck the listing specifically for the desk's stated weight capacity and whether it requires being cleared before folding, not just the bed's own mattress weight rating."
   },
   {
-    criterion: "4 of these 8 picks have no rating history yet",
-    explanation:
-      "The Peanu queen frame, Peanu queen cabinet, and both roomfitters freestanding cabinets in this guide are new listings with zero ratings. Treat their build quality and stability claims as unverified, and check for recently posted buyer photos or questions before ordering.",
+    "criterion": "Plan outlet and monitor arm placement before installation, not after",
+    "explanation": "A murphy bed with desk changes position between folded-up and folded-down states, meaning any outlet you'll use for a monitor, lamp, or charger needs to remain accessible in both positions, and a monitor arm clamped to the desk edge needs clearance to move with the mechanism without hitting the wall or cabinet frame.\n\nThis matters because retrofitting outlet access or monitor arm clearance after installation is far more difficult than planning it beforehand, especially if the unit is wall-mounted.\n\nCheck the listing for outlet cutout or pass-through details, and measure your intended monitor arm's clearance needs against the cabinet's fold range before ordering."
   },
   {
-    criterion: "Cabinet base weight is a real stability proxy",
-    explanation:
-      "A freestanding cabinet with a lighter base is more prone to tipping risk during mid-deployment, when the bed is partially lowered and the center of gravity shifts forward. Heavier, wider-footprint cabinets are generally more stable freestanding, so check the product weight and base dimensions, not just the price, when comparing options.",
+    "criterion": "Match room ceiling height and wall space to your specific model's clearance requirements",
+    "explanation": "Murphy bed cabinets require specific minimum ceiling height and wall clearance to operate the folding mechanism safely, and these requirements vary between models and mattress sizes, a queen-size unit needs meaningfully more clearance than a twin, and horizontal-mounted units have different wall-width requirements than vertical ones.\n\nThis matters because a unit that doesn't fit your room's actual ceiling height or wall dimensions simply can't be installed safely regardless of how good the desk integration looks in photos.\n\nCheck the listing's specific minimum ceiling height and wall clearance requirements against your room's actual measured dimensions before ordering, not just the general size category."
   },
   {
-    criterion: "\"Anywhere in the room\" is not accurate for most freestanding units",
-    explanation:
-      "Despite marketing language suggesting a freestanding bed can go anywhere, most units still need wall backing contact plus 85-90 inches of open floor clearance when deployed. Measure your actual intended location before assuming true placement flexibility.",
-  },
-  {
-    criterion: "Mattress thickness compatibility is often narrower than expected",
-    explanation:
-      "Freestanding mechanisms are frequently calibrated for lighter or thinner mattresses in the 8-10 inch range. A thick 12 inch foam mattress may exceed the mechanism's calibration and cause an unbalanced or difficult fold, so verify the manufacturer's recommended mattress thickness before ordering one for a freestanding unit.",
-  },
+    "criterion": "Consider professional installation versus DIY assembly for a mechanism you'll operate daily",
+    "explanation": "A murphy bed's folding mechanism sees repeated daily stress if used as a genuine daily-fold desk-bed combo, and installation quality directly affects long-term safety and smooth operation, a mechanism installed slightly out of alignment can bind, sag, or wear unevenly over time.\n\nThis matters more for a unit that folds daily as part of an active desk-bed routine, less for one that stays in one position most of the time.\n\nCheck whether the listing includes or recommends professional installation, and factor that cost and time into your total decision if you're not confident assembling a wall-mounted mechanical system yourself."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -358,62 +348,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Confirmed Freestanding Status",
-    intro: "Only 4 of the 8 picks in this guide's underlying research explicitly confirm freestanding design.",
-    table: {
-      headers: ["Freestanding status", "Products", "Recommendation"],
-      rows: [
-        ["Explicitly confirmed freestanding", "Peanu Queen Bed Frame, roomfitters Queen, roomfitters Full", "Verify anchor method directly with the seller before ordering"],
-        ["Similar design, freestanding claim not stated", "Peanu Queen Cabinet Fold Out", "Confirm with the seller whether it shares the confirmed sibling's freestanding design"],
-        ["No mounting claim either way", "LIVAUVEAD Farmhouse Queen, Yoobure Queen", "Assume standard wall mounting unless the seller confirms otherwise"],
-        ["Explicitly wall-mounted, not freestanding", "Create-A-Bed Queen Vertical, Queen Murphy Bed Hardware Kit", "Skip if freestanding is a hard requirement"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Create"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Create"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Renter Lease Reality Check",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $197",
+          "Queen Size Murphy Bed Hardware Kit"
+        ],
+        [
+          "Up to $753",
+          "Peanu Queen Murphy Bed Cabinet"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Built-In Storage vs Desk-Only",
+    "cards": [
       {
-        label: "Floor anchoring required",
-        text: "Get written landlord approval first. Many leases restrict floor anchoring the same way they restrict wall drilling, even on a technically freestanding unit.",
+        "label": "Built-in storage",
+        "text": "Adds shelving or cabinet space beyond just the desk, useful in a smaller room. In this comparison: Peanu Queen Murphy Bed Cabinet, roomfitters Queen Size Wood Murphy Cabinet Bed with Rattan Storage Drawer, roomfitters Full Size Wood Murphy Cabinet Bed with Rattan Storage Drawer, Yoobure Queen Murphy Bed with Charging Station."
       },
       {
-        label: "No anchor at all, purely freestanding",
-        text: "Rare in practice for a bed of this size and weight class. Confirm this explicitly with the seller rather than assuming it based on marketing language alone.",
-      },
+        "label": "Desk-only",
+        "text": "Simpler, focuses cabinet space on the fold-down desk itself. In this comparison: Peanu Queen Bed Frame, LIVAUVEAD Farmhouse Queen Size Murphy Bed with Charging Station, Create, Queen Size Murphy Bed Hardware Kit."
+      }
     ],
-    note: "Never rely on the word freestanding alone to justify skipping a lease conversation with your landlord.",
+    "note": "Default to desk-only unless extra built-in storage genuinely solves a real space problem for you."
   },
   {
-    subheading: "Cabinet Base Weight vs Stability",
-    table: {
-      headers: ["Cabinet base weight", "Stability during mid-deployment", "Guidance"],
-      rows: [
-        ["Lighter, narrow-footprint cabinets", "Higher tipping risk when partially lowered", "Confirm anchor requirement is non-negotiable for these units"],
-        ["Heavier, wider-footprint cabinets", "More stable freestanding", "roomfitters Queen and Full picks have wider rattan-drawer bases that add ballast"],
-      ],
-    },
+    "subheading": "By Room Clearance Requirements",
+    "note": "Check each pick's listed minimum ceiling height and wall clearance against your room's actual measured dimensions before buying, not just the general size category. Create is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Room Layout and Wall Backing Clarification",
-    table: {
-      headers: ["Requirement", "Typical amount needed", "Note"],
-      rows: [
-        ["Open floor clearance when deployed", "85-90 inches", "Applies even to confirmed freestanding units, not just wall-mounted ones"],
-        ["Wall backing contact", "Often still needed even without a mount bracket", "Verify with the seller rather than assuming full placement freedom"],
-      ],
-    },
+    "subheading": "For a Studio Apartment Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Verified real desk integration with a stated weight limit, plus confirmed ceiling height and wall clearance for your specific room."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Create is worth checking against its listed clearance requirements before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Mattress Weight and Thickness Compatibility",
-    table: {
-      headers: ["Mattress thickness", "Freestanding mechanism fit", "Guidance"],
-      rows: [
-        ["8-10 inches", "Generally within standard freestanding calibration", "Safe default for most picks in this guide"],
-        ["12 inches or thicker", "May exceed mechanism calibration", "Verify with the manufacturer before ordering a thick mattress for any freestanding pick here"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You'll fold the unit daily as part of an active desk-bed routine, where Peanu Queen Murphy Bed Cabinet's build quality and mechanism give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "The bed stays in one position most of the time, where Queen Size Murphy Bed Hardware Kit covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

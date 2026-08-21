@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41WkdwEwOOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H33PY32C?tag=deskfinds0d-20",
     description:
-      "The Merax packs the most features into one wall unit in this list: a fold-down desk, built-in lights, a power outlet, open shelves, and drawers, all around a queen mattress platform. That's genuinely convenient for a true 3-in-1 room, but it also means the heaviest, most complex assembled unit here, one where professional installation is worth strong consideration rather than a solo DIY attempt given the combined weight of the frame, shelving, and desk hardware.\n\nExpect the desk surface to fold away cleanly when the bed comes down, and budget realistic daily transition time, clearing the desk, folding it up, then lowering the bed, rather than assuming it's an instant swap. At $1,239.99 it's the most expensive pick here, reflecting the full feature set.",
+      "The Merax packs the most features into one wall unit in this list: a fold-down desk, built-in lights, a power outlet, open shelves, and drawers, all around a queen mattress platform. That's genuinely convenient for a true 3-in-1 room, but it also means the heaviest, most complex assembled unit here, one where professional installation is worth strong consideration rather than a solo DIY attempt given the combined weight of the frame, shelving, and desk hardware.\n\nExpect the desk surface to fold away cleanly when the bed comes down, and budget realistic daily transition time, clearing the desk, folding it up, then lowering the bed, rather than assuming it's an instant swap. At $1,239.99 it's the most expensive pick here, reflecting the full feature set.\n\nBuilt-in lighting and power outlet at the desk. That's a real strength, but weigh it against the flip side: highest price in this list.",
     specs: [
       "Queen size platform",
       "Fold-down desk with lights",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41OSDWSbyZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G1C4H842?tag=deskfinds0d-20",
     description:
-      "The LUXOAK is the lowest priced combo unit in this list, a full-size cabinet bed with integrated storage and a charging station rather than a full desk workstation like the Merax. It's a strong entry point if your priority is closing off the sleeping space during the day rather than running a full home office from the same wall unit.\n\nA full-size mattress platform is more compact than queen, worth checking against your actual sleeping needs before ordering. With over 300 reviews, it has enough real buyer feedback to gauge long-term reliability, a useful data point for a lower-priced combo unit in this weight class.",
+      "The LUXOAK is the lowest priced combo unit in this list, a full-size cabinet bed with integrated storage and a charging station rather than a full desk workstation like the Merax. It's a strong entry point if your priority is closing off the sleeping space during the day rather than running a full home office from the same wall unit.\n\nA full-size mattress platform is more compact than queen, worth checking against your actual sleeping needs before ordering. With over 300 reviews, it has enough real buyer feedback to gauge long-term reliability, a useful data point for a lower-priced combo unit in this weight class.\n\nWorth calling out specifically: solid review base for a budget combo unit. The catch is no dedicated desk surface, storage and charging only.",
     specs: [
       "Full size platform",
       "Integrated storage cabinet",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51Og-FctXuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGL5B76J?tag=deskfinds0d-20",
     description:
-      "This AMERLIFE offers queen size sleeping space with integrated storage and a charging station at a mid-range price, positioned between the budget LUXOAK and the higher-priced desk-equipped models. Like the LUXOAK, it skips a dedicated desk surface, so pair it with a separate small desk nearby if you need a real workstation during the day.\n\nWith nearly 400 reviews, it has a solid real-world feedback base for its price tier. As with any combo unit in this weight class, verify the wall it will mount to has proper stud spacing before ordering, since these units are not designed to hang on drywall alone.",
+      "This AMERLIFE offers queen size sleeping space with integrated storage and a charging station at a mid-range price, positioned between the budget LUXOAK and the higher-priced desk-equipped models. Like the LUXOAK, it skips a dedicated desk surface, so pair it with a separate small desk nearby if you need a real workstation during the day.\n\nWith nearly 400 reviews, it has a solid real-world feedback base for its price tier. As with any combo unit in this weight class, verify the wall it will mount to has proper stud spacing before ordering, since these units are not designed to hang on drywall alone.\n\nSolid review base. Set against that, no dedicated desk surface. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size platform",
       "Integrated storage cabinet",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51ThmQNX7fL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJKJQ9SH?tag=deskfinds0d-20",
     description:
-      "This is a near-identical AMERLIFE listing to the previous entry, sharing the same queen platform, storage cabinet, and charging station, but currently priced $30 lower. It's worth checking both listings at the time of purchase since Amazon pricing on near-duplicate listings shifts, and the lower priced option may not always be this one.\n\nThe same installation and stability guidance applies as with its sibling listing: confirm proper stud anchoring before mounting, and budget for professional installation help given the assembled weight of a queen combo unit.",
+      "This is a near-identical AMERLIFE listing to the previous entry, sharing the same queen platform, storage cabinet, and charging station, but currently priced $30 lower. It's worth checking both listings at the time of purchase since Amazon pricing on near-duplicate listings shifts, and the lower priced option may not always be this one.\n\nThe same installation and stability guidance applies as with its sibling listing: confirm proper stud anchoring before mounting, and budget for professional installation help given the assembled weight of a queen combo unit.\n\nA genuine advantage here is that same solid review base as the sibling listing. The tradeoff is no dedicated desk surface.",
     specs: [
       "Queen size platform",
       "Integrated storage cabinet",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41VsjmNEWaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2M8PP28?tag=deskfinds0d-20",
     description:
-      "This LUXOAK queen model includes a 6 inch tri-fold memory foam mattress in the box, a genuine convenience for a combo unit purchase since you won't need to separately source and fit a mattress to the platform. Storage drawer and charging station round out the combo features, though like other AMERLIFE and LUXOAK models here it doesn't include a fold-down desk.\n\nA tri-fold mattress is designed specifically to work with the folding mechanism, so it's a safer match than trying to retrofit a standard mattress to a Murphy platform. Its review count is lower than the AMERLIFE listings, worth weighing against the added convenience of an included mattress.",
+      "This LUXOAK queen model includes a 6 inch tri-fold memory foam mattress in the box, a genuine convenience for a combo unit purchase since you won't need to separately source and fit a mattress to the platform. Storage drawer and charging station round out the combo features, though like other AMERLIFE and LUXOAK models here it doesn't include a fold-down desk.\n\nA tri-fold mattress is designed specifically to work with the folding mechanism, so it's a safer match than trying to retrofit a standard mattress to a Murphy platform. Its review count is lower than the AMERLIFE listings, worth weighing against the added convenience of an included mattress.\n\nStorage drawer and charging station included. That's a real strength, but weigh it against the flip side: no dedicated desk surface.",
     specs: [
       "Queen size platform",
       "Included 6 inch tri-fold memory foam mattress",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/410wj4ur4iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FL6TKLRZ?tag=deskfinds0d-20",
     description:
-      "The MERITLINE is a full-size Murphy bed that combines a fold-down desk with bookcase-style open storage shelves, a true 3-in-1 unit in a more compact full-size footprint than the queen combo models here. That smaller footprint is worth considering if your room can't accommodate a queen wall unit but you still want the desk plus storage combo experience.\n\nExpect the same transition-time and desk-depth tradeoffs as any Murphy desk combo: budget several minutes to clear the desk and fold it away before lowering the bed, and note that a Murphy desk surface typically runs shallower than a standalone desk, which affects comfortable monitor viewing distance.",
+      "The MERITLINE is a full-size Murphy bed that combines a fold-down desk with bookcase-style open storage shelves, a true 3-in-1 unit in a more compact full-size footprint than the queen combo models here. That smaller footprint is worth considering if your room can't accommodate a queen wall unit but you still want the desk plus storage combo experience.\n\nExpect the same transition-time and desk-depth tradeoffs as any Murphy desk combo: budget several minutes to clear the desk and fold it away before lowering the bed, and note that a Murphy desk surface typically runs shallower than a standalone desk, which affects comfortable monitor viewing distance.\n\nWorth calling out specifically: bookcase storage adds real shelving. The catch is very limited review count so far.",
     specs: [
       "Full size platform",
       "Fold-down desk",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/411Sr37BSYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GX63SNCJ?tag=deskfinds0d-20",
     description:
-      "The KEIKI is a queen combo unit with an integrated desk, and its gas strut fold mechanism is specifically designed to make the daily office-to-bedroom transition smoother and less physically demanding than a purely spring-loaded or manual fold system. That's a meaningful advantage for anyone actually planning to fold this bed up and down every single day rather than leaving it in one position most of the time.\n\nAs a new listing without established review history yet, weigh the gas-strut convenience against the lack of long-term buyer feedback compared to the AMERLIFE or LUXOAK models. Professional installation is still the safer choice given the assembled weight of a queen desk-and-storage combo unit.",
+      "The KEIKI is a queen combo unit with an integrated desk, and its gas strut fold mechanism is specifically designed to make the daily office-to-bedroom transition smoother and less physically demanding than a purely spring-loaded or manual fold system. That's a meaningful advantage for anyone actually planning to fold this bed up and down every single day rather than leaving it in one position most of the time.\n\nAs a new listing without established review history yet, weigh the gas-strut convenience against the lack of long-term buyer feedback compared to the AMERLIFE or LUXOAK models. Professional installation is still the safer choice given the assembled weight of a queen desk-and-storage combo unit.\n\nIncludes a fold-down desk. Set against that, new listing, no established review history yet. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size platform",
       "Fold-down desk",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51zyMjMgUpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H25F5GNC?tag=deskfinds0d-20",
     description:
-      "The Softa states a 1200 lbs heavy duty weight rating, the highest stated capacity in this list, alongside a fold-down desk, storage drawer, and charging station, and it doesn't require a box spring, simplifying the mattress setup somewhat compared to units built for a standard mattress and foundation. That combination of desk, storage, and heavy-duty rated frame makes it a genuine full 3-in-1 unit.\n\nWith only a single review at the time of research, treat that 5.0 rating as a very early signal rather than a proven track record. As with every combo unit in this weight class, proper stud anchoring and likely professional installation matter given how much assembled weight a Murphy desk-and-storage cabinet carries once mounted.",
+      "The Softa states a 1200 lbs heavy duty weight rating, the highest stated capacity in this list, alongside a fold-down desk, storage drawer, and charging station, and it doesn't require a box spring, simplifying the mattress setup somewhat compared to units built for a standard mattress and foundation. That combination of desk, storage, and heavy-duty rated frame makes it a genuine full 3-in-1 unit.\n\nWith only a single review at the time of research, treat that 5.0 rating as a very early signal rather than a proven track record. As with every combo unit in this weight class, proper stud anchoring and likely professional installation matter given how much assembled weight a Murphy desk-and-storage cabinet carries once mounted.\n\nA genuine advantage here is that includes fold-down desk, storage, and charging station. The tradeoff is only a single review at time of research.",
     specs: [
       "Queen size platform",
       "Fold-down desk",
@@ -333,35 +333,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "This is one wall unit doing three jobs, not three separate furniture pieces",
-    explanation:
-      "A Murphy bed with storage and a desk is a single integrated cabinet, so the desk, storage, and bed all share one footprint and one fold mechanism rather than functioning as independent furniture. That means a compromise on any one function, like desk depth, is a compromise on the whole unit, not something you can fix by swapping out one component.",
+    "criterion": "Verify the desk surface is real and usable, not just marketing alongside a plain murphy bed",
+    "explanation": "Some products marketed alongside desk-focused search terms are actually plain murphy beds with no integrated desk surface at all, just a folding cabinet bed that happens to show up in these results, while others genuinely build a fold-down or fixed desk into the cabinet face.\n\nThis distinction matters directly if desk integration is the actual reason you're buying, discovering after purchase that a \"murphy bed with desk\" has no real desk surface is a common and entirely avoidable disappointment.\n\nCheck the listing photos and description specifically for a described, dimensioned desk surface, not just the presence of desk-related keywords in the title."
   },
   {
-    criterion: "Storage shelf load limits matter most near the head of the lowered bed",
-    explanation:
-      "Shelves in a Murphy storage cabinet typically carry a 30 to 50 lbs per-shelf load limit, and heavy items stored near where your head ends up when the bed is lowered are a real safety concern if the shelf isn't rated to hold them securely. Keep the heaviest items on lower shelves away from the head of the bed, regardless of the unit's overall stated weight rating.",
+    "criterion": "Check the desk surface's weight limit for items left sitting when the bed folds down",
+    "explanation": "A fold-down desk built into a murphy bed cabinet has a real weight limit on what can safely sit on it when the bed mechanism operates, and unlike a standalone desk, that weight isn't just about the desk holding items, it's about whether those items interfere with or get damaged by the folding motion itself.\n\nThis matters directly for anyone planning to leave a monitor, laptop, or other equipment on the desk regularly, some cabinet beds require clearing the desk completely before folding, while others accommodate lighter items left in place.\n\nCheck the listing specifically for the desk's stated weight capacity and whether it requires being cleared before folding, not just the bed's own mattress weight rating."
   },
   {
-    criterion: "Budget real daily transition time, not an instant swap",
-    explanation:
-      "Clearing the desk and folding the bed down typically takes 2 to 5 minutes for a single transition, which adds up to roughly 10 to 15 minutes a day if you're switching between office and bedroom mode every morning and night. A gas-strut fold mechanism, like the KEIKI's, reduces physical effort but doesn't eliminate that time cost.",
+    "criterion": "Plan outlet and monitor arm placement before installation, not after",
+    "explanation": "A murphy bed with desk changes position between folded-up and folded-down states, meaning any outlet you'll use for a monitor, lamp, or charger needs to remain accessible in both positions, and a monitor arm clamped to the desk edge needs clearance to move with the mechanism without hitting the wall or cabinet frame.\n\nThis matters because retrofitting outlet access or monitor arm clearance after installation is far more difficult than planning it beforehand, especially if the unit is wall-mounted.\n\nCheck the listing for outlet cutout or pass-through details, and measure your intended monitor arm's clearance needs against the cabinet's fold range before ordering."
   },
   {
-    criterion: "The desk surface is shallower than a standalone desk",
-    explanation:
-      "A Murphy desk typically runs 16 to 20 inches deep versus the 24 to 30 inches common on a standard standalone desk, which shortens your comfortable monitor viewing distance and usable desk workspace. If you run dual monitors or need a deep desk for other equipment, plan around this shallower depth rather than assuming it matches a normal desk.",
+    "criterion": "Match room ceiling height and wall space to your specific model's clearance requirements",
+    "explanation": "Murphy bed cabinets require specific minimum ceiling height and wall clearance to operate the folding mechanism safely, and these requirements vary between models and mattress sizes, a queen-size unit needs meaningfully more clearance than a twin, and horizontal-mounted units have different wall-width requirements than vertical ones.\n\nThis matters because a unit that doesn't fit your room's actual ceiling height or wall dimensions simply can't be installed safely regardless of how good the desk integration looks in photos.\n\nCheck the listing's specific minimum ceiling height and wall clearance requirements against your room's actual measured dimensions before ordering, not just the general size category."
   },
   {
-    criterion: "Check wardrobe or closet door swing with the bed lowered",
-    explanation:
-      "If a wardrobe or storage cabinet sits near the Murphy unit, the lowered mattress can physically block that door's swing path, making it inaccessible while the bed is down. Walk through your daily routine mentally, or measure the swing radius, before assuming both the storage cabinet and a nearby closet will be usable at the same time.",
-  },
-  {
-    criterion: "Professional installation is often the safer choice, not an optional upsell",
-    explanation:
-      "A fully assembled Murphy bed with integrated storage and a desk commonly weighs 300 to 600 lbs or more, and mounting that weight safely requires proper stud anchoring, not drywall anchors alone. Professional installation typically runs $300 to $800 and is worth budgeting for upfront rather than treating it as an optional extra, especially for the heaviest units in this list like the Merax.",
-  },
+    "criterion": "Consider professional installation versus DIY assembly for a mechanism you'll operate daily",
+    "explanation": "A murphy bed's folding mechanism sees repeated daily stress if used as a genuine daily-fold desk-bed combo, and installation quality directly affects long-term safety and smooth operation, a mechanism installed slightly out of alignment can bind, sag, or wear unevenly over time.\n\nThis matters more for a unit that folds daily as part of an active desk-bed routine, less for one that stays in one position most of the time.\n\nCheck whether the listing includes or recommends professional installation, and factor that cost and time into your total decision if you're not confident assembling a wall-mounted mechanical system yourself."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -374,65 +364,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Combo Completeness",
-    intro: "Not every unit here includes all three functions. Check what you're actually buying.",
-    table: {
-      headers: ["What's included", "Units", "Best pick"],
-      rows: [
-        ["Storage, charging, no desk", "LUXOAK Full, both AMERLIFE Queen models, LUXOAK Queen with Mattress", "AMERLIFE Queen at $469.99 for best value"],
-        ["Desk, storage, and bed, true 3-in-1", "Merax, MERITLINE Full, KEIKI Queen, Softa Queen", "Merax for the most complete feature set"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Softa Queen Murphy Bed Cabinet with Storage Drawer"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Softa Queen Murphy Bed Cabinet with Storage Drawer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Daily Transition Frequency",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $1",
+          "Merax Queen Size Murphy Bed with Desk and Lights"
+        ],
+        [
+          "Up to $720",
+          "KEIKI Queen Murphy Bed with Desk"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Desk Integration vs Price",
+    "cards": [
       {
-        label: "Folding the bed up and down every single day",
-        text: "The KEIKI's gas strut fold mechanism is specifically built to reduce the physical effort of frequent daily transitions.",
+        "label": "Merax Queen Size Murphy Bed with Desk and Lights",
+        "text": "The lower-priced option in this comparison, worth checking its desk weight limit and real desk integration against your needs."
       },
       {
-        label: "Occasional use, guest room or hybrid space",
-        text: "Any of the combo units work fine if you're not folding daily, so prioritize budget and feature set over fold-ease.",
-      },
+        "label": "KEIKI Queen Murphy Bed with Desk",
+        "text": "The higher-priced option, worth it if it offers real desk capacity or build-quality headroom above the cheaper pick."
+      }
     ],
+    "note": "Default to Merax Queen Size Murphy Bed with Desk and Lights unless your desk usage genuinely calls for the pricier pick."
   },
   {
-    subheading: "Murphy Desk Depth vs. a Standard Desk",
-    intro: "This is the single most overlooked compromise in a Murphy desk combo unit.",
-    table: {
-      headers: ["Factor", "Murphy desk (this list)", "Standard standalone desk"],
-      rows: [
-        ["Typical depth", "16-20 inches", "24-30 inches"],
-        ["Monitor viewing distance", "Shorter, closer setup needed", "Standard comfortable distance"],
-        ["Available with desk in this list", "Merax, MERITLINE, KEIKI, Softa", "Not applicable"],
-      ],
-    },
-    note: "If you run dual monitors or need real desk depth for other equipment, expect to sit closer to the screen than on a standard desk.",
+    "subheading": "By Room Clearance Requirements",
+    "note": "Check each pick's listed minimum ceiling height and wall clearance against your room's actual measured dimensions before buying, not just the general size category. Softa Queen Murphy Bed Cabinet with Storage Drawer is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "By Room Size",
-    table: {
-      headers: ["Room size", "Platform size to consider", "Best pick"],
-      rows: [
-        ["Smaller bedroom or studio", "Full size", "LUXOAK Full or MERITLINE Full"],
-        ["Standard bedroom", "Queen size", "AMERLIFE Queen, LUXOAK Queen with Mattress, KEIKI, or Softa"],
-        ["Larger multi-purpose room, full home office needed", "Queen with full desk feature set", "Merax"],
-      ],
-    },
+    "subheading": "For a Studio Apartment Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Verified real desk integration with a stated weight limit, plus confirmed ceiling height and wall clearance for your specific room."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Softa Queen Murphy Bed Cabinet with Storage Drawer is worth checking against its listed clearance requirements before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "By Budget Tier",
-    table: {
-      headers: ["Budget", "Tradeoff", "Best pick"],
-      rows: [
-        ["$429.99-$499.99", "Storage and charging, no desk", "LUXOAK Full or AMERLIFE Queen"],
-        ["$589.99-$719.99", "Full desk-and-storage combo, newer listings", "Softa Queen or KEIKI Queen"],
-        ["$699.99", "Queen combo with mattress included", "LUXOAK Queen with Mattress"],
-        ["$1,239.99", "Most complete feature set, highest install considerations", "Merax Queen"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You'll fold the unit daily as part of an active desk-bed routine, where KEIKI Queen Murphy Bed with Desk's build quality and mechanism give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "The bed stays in one position most of the time, where Merax Queen Size Murphy Bed with Desk and Lights covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [
