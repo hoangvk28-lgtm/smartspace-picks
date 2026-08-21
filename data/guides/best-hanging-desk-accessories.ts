@@ -31,10 +31,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Ut4+ko99L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C77YK94D?tag=deskfinds0d-20",
     description:
-      "The top pick from our under-desk cup holder research, this rotating cup holder combined with a genuine headphone hanger has the strongest review history of any hanging accessory across our entire research batch.",
-    specs: ["Rotating cup holder", "Headphone hanger", "Under-desk clamp mount", "No-drill attachment"],
-    pros: ["Strongest review history of any pick here", "Genuine multi-function hybrid", "Rotates for easy access", "Under-desk mount keeps desk clear"],
-    cons: ["Requires checking knee clearance", "Bulkier than a single-function accessory", "Higher price than basic holders"],
+      "The top pick from our under-desk cup holder research, this rotating cup holder combined with a genuine headphone hanger has the strongest review history of any hanging accessory across our entire research batch.\n\nIt leads this comparison mainly on rated capacity and build reinforcement for a genuinely loaded file collection, worth weighing directly against the 4 in 1 Metal Clip On Cup Holder Attachment.\n\nGenuine multi-function hybrid. That's a real strength, but weigh it against the flip side: requires checking knee clearance.",
+    specs: ["Rotating cup holder","Headphone hanger","Under-desk clamp mount","No-drill attachment"],
+    pros: ["Strongest review history of any pick here","Genuine multi-function hybrid","Rotates for easy access","Under-desk mount keeps desk clear"],
+    cons: ["Requires checking knee clearance","Bulkier than a single-function accessory","Higher price than basic holders"],
     bestFor: "Buyers who want the single most proven hanging accessory in this roundup.",
   },
   {
@@ -48,10 +48,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41z6n2eEheL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DLLCWTR4?tag=deskfinds0d-20",
     description:
-      "The largest disclosed cup capacity across our cup holder research, this metal clip combines a 40oz-rated cup holder with headphone and accessory hanging points on one desk-edge clamp.",
-    specs: ["Metal clip attachment", "Rated for cups up to 40oz", "Combined hanging points", "No-drill attachment"],
-    pros: ["Largest disclosed cup capacity in our research", "Combined multi-function attachment", "Metal build", "Good rating"],
-    cons: ["Higher price", "Bulkier combined structure", "Only worth it if you want all bundled functions"],
+      "The largest disclosed cup capacity across our cup holder research, this metal clip combines a 40oz-rated cup holder with headphone and accessory hanging points on one desk-edge clamp.\n\nSet against the KDD 4, the tradeoff here comes down to mounting method and tier count versus price, not a straightforward upgrade or downgrade either way.\n\nWorth calling out specifically: combined multi-function attachment. The catch is higher price.",
+    specs: ["Metal clip attachment","Rated for cups up to 40oz","Combined hanging points","No-drill attachment"],
+    pros: ["Largest disclosed cup capacity in our research","Combined multi-function attachment","Metal build","Good rating"],
+    cons: ["Higher price","Bulkier combined structure","Only worth it if you want all bundled functions"],
     bestFor: "Buyers with oversized drinks who also want combined accessory hanging.",
   },
   {
@@ -65,10 +65,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51NHUcgYmoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B8MK52TC?tag=deskfinds0d-20",
     description:
-      "Our top file organizer pick, though honesty note: this requires drilling into a wall rather than a no-drill desk clamp, the highest-rated hanging accessory in our entire research batch for buyers willing to drill.",
-    specs: ["Wall-mounted, requires drilling", "5 adjustable tiers", "Metal construction", "Highest rating in our research"],
-    pros: ["Highest rating across our entire hanging accessory research", "Adjustable tier spacing", "Sturdy metal build", "Substantial file capacity"],
-    cons: ["Requires drilling, not a no-drill accessory", "Not renter-friendly without patching later", "Takes wall space, not desk-edge space"],
+      "Our top file organizer pick, though honesty note: this requires drilling into a wall rather than a no-drill desk clamp, the highest-rated hanging accessory in our entire research batch for buyers willing to drill.\n\nRelative to the 4 in 1 Metal Clip On Cup Holder Attachment, this pick leans toward a different priority, whether that's a lower price, a different attachment method, or a finish suited to a different space.\n\nAdjustable tier spacing. Set against that, requires drilling, not a no-drill accessory. Both matter when comparing it to the other picks here.",
+    specs: ["Wall-mounted, requires drilling","5 adjustable tiers","Metal construction","Highest rating in our research"],
+    pros: ["Highest rating across our entire hanging accessory research","Adjustable tier spacing","Sturdy metal build","Substantial file capacity"],
+    cons: ["Requires drilling, not a no-drill accessory","Not renter-friendly without patching later","Takes wall space, not desk-edge space"],
     bestFor: "Buyers willing to drill for the highest-rated file organization option.",
   },
   {
@@ -82,10 +82,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51Cr5PIjCqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01DPWLUU8?tag=deskfinds0d-20",
     description:
-      "For buyers who specifically want a no-drill hanging accessory, this genuinely hangs from a desk edge, an established Safco office furniture design at the highest price of any pick in this roundup.",
-    specs: ["Desk-edge hanging, no drilling", "3 vertical mesh trays", "Established Safco brand", "No-drill attachment"],
-    pros: ["Genuine no-drill desk-hanging design", "Established brand quality", "3 separate document trays", "Sturdy metal mesh build"],
-    cons: ["Most expensive pick in this roundup", "Smaller tier count than wall-mounted alternatives", "Occupies desk-edge clearance"],
+      "For buyers who specifically want a no-drill hanging accessory, this genuinely hangs from a desk edge, an established Safco office furniture design at the highest price of any pick in this roundup.\n\nCompared with the Jakyitvi Adjustable 5 Tiers Wall File Organizer Metal Hanging Holder above, this pick trades some of that pick's capacity or adjustability for a different balance of price and mounting simplicity, worth weighing against your own wall or desk situation.\n\nEstablished brand quality. That's a real strength, but weigh it against the flip side: most expensive pick in this roundup.",
+    specs: ["Desk-edge hanging, no drilling","3 vertical mesh trays","Established Safco brand","No-drill attachment"],
+    pros: ["Genuine no-drill desk-hanging design","Established brand quality","3 separate document trays","Sturdy metal mesh build"],
+    cons: ["Most expensive pick in this roundup","Smaller tier count than wall-mounted alternatives","Occupies desk-edge clearance"],
     bestFor: "Buyers who specifically want a no-drill file organizer.",
   },
   {
@@ -99,10 +99,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51YpYvY4LwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BR4K8HCZ?tag=deskfinds0d-20",
     description:
-      "Our top hanging drawer pick, this clamp-on unit adds two genuine slide-out compartments under the desk without drilling, carrying a strong review count from our under-desk organizer research.",
-    specs: ["Clamp-on, no drilling", "2 separate slide-out drawers", "Mesh metal construction", "Strong review count"],
-    pros: ["Two compartments for organized storage", "No-drill clamp attachment", "Strong review count", "Mesh visibility"],
-    cons: ["Bulkier under-desk footprint", "Requires checking knee clearance", "Moderate rating relative to top picks"],
+      "Our top hanging drawer pick, this clamp-on unit adds two genuine slide-out compartments under the desk without drilling, carrying a strong review count from our under-desk organizer research.\n\nSet against the Safco Onyx Hanging Desktop Organizer with 3 Vertical Trays, the tradeoff here comes down to mounting method and tier count versus price, not a straightforward upgrade or downgrade either way.\n\nWorth calling out specifically: no-drill clamp attachment. The catch is bulkier under-desk footprint.",
+    specs: ["Clamp-on, no drilling","2 separate slide-out drawers","Mesh metal construction","Strong review count"],
+    pros: ["Two compartments for organized storage","No-drill clamp attachment","Strong review count","Mesh visibility"],
+    cons: ["Bulkier under-desk footprint","Requires checking knee clearance","Moderate rating relative to top picks"],
     bestFor: "Buyers who want a genuine hanging drawer unit under their desk.",
   },
   {
@@ -116,10 +116,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51XpqFad+GL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CXCS7YBL?tag=deskfinds0d-20",
     description:
-      "The highest tier count across our vertical organizer research, this mesh design maximizes document category separation, though it requires wall drilling and ideally a stud mount given its height.",
-    specs: ["Wall-mounted mesh design", "7 vertical tiers", "Metal wire construction", "Affordable"],
-    pros: ["Highest tier count for document separation", "Affordable for the capacity", "Mesh design allows visibility", "Good rating"],
-    cons: ["Requires drilling", "Taller design means some tiers are harder to reach", "Mesh may not fully contain smaller loose papers"],
+      "The highest tier count across our vertical organizer research, this mesh design maximizes document category separation, though it requires wall drilling and ideally a stud mount given its height.\n\nRelative to the Homeify Under Desk Drawer Organizer Clamp, this pick leans toward a different priority, whether that's a lower price, a different attachment method, or a finish suited to a different space.\n\nAffordable for the capacity. Set against that, requires drilling. Both matter when comparing it to the other picks here.",
+    specs: ["Wall-mounted mesh design","7 vertical tiers","Metal wire construction","Affordable"],
+    pros: ["Highest tier count for document separation","Affordable for the capacity","Mesh design allows visibility","Good rating"],
+    cons: ["Requires drilling","Taller design means some tiers are harder to reach","Mesh may not fully contain smaller loose papers"],
     bestFor: "Buyers who need maximum vertical document separation and can mount to a stud.",
   },
   {
@@ -133,10 +133,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51jmG3xLXjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSMRXZKX?tag=deskfinds0d-20",
     description:
-      "The most affordable well-reviewed wall-mounted pick across our research, combining 5-tier file storage with 5 hooks for keys or small items, at the lowest price of any 5-tier design we found.",
-    specs: ["Wall-mounted, 5 tiers plus 5 hooks", "Multi-purpose hanging points", "Lowest price of the 5-tier picks", "Metal construction"],
-    pros: ["Most affordable 5-tier option", "Hooks add multi-purpose utility", "Good rating", "Substantial capacity"],
-    cons: ["Requires drilling", "Combined weight needs a secure anchor", "Not adjustable tier spacing"],
+      "The most affordable well-reviewed wall-mounted pick across our research, combining 5-tier file storage with 5 hooks for keys or small items, at the lowest price of any 5-tier design we found.\n\nCompared with the Simple Trending Wall File Organizer above, this pick trades some of that pick's capacity or adjustability for a different balance of price and mounting simplicity, worth weighing against your own wall or desk situation.\n\nHooks add multi-purpose utility. That's a real strength, but weigh it against the flip side: requires drilling.",
+    specs: ["Wall-mounted, 5 tiers plus 5 hooks","Multi-purpose hanging points","Lowest price of the 5-tier picks","Metal construction"],
+    pros: ["Most affordable 5-tier option","Hooks add multi-purpose utility","Good rating","Substantial capacity"],
+    cons: ["Requires drilling","Combined weight needs a secure anchor","Not adjustable tier spacing"],
     bestFor: "Budget buyers who want combined file and hook storage.",
   },
   {
@@ -150,12 +150,12 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/61-H71DCbEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJDS9JZ8?tag=deskfinds0d-20",
     description:
-      "A compact, no-drill clamp-on mesh drawer that rounds out this hub with a genuinely small-footprint storage option, well-suited to buyers who want just one added compartment rather than a larger combined system.",
-    specs: ["Clamp-on, no drilling", "Mesh metal drawer construction", "Compact under-desk profile", "Content-visible design"],
-    pros: ["No-drill clamp attachment", "Mesh allows content visibility", "Good rating", "Compact footprint"],
-    cons: ["Smaller review count", "Requires checking knee clearance", "Limited capacity for larger items"],
+      "A compact, no-drill clamp-on mesh drawer that rounds out this hub with a genuinely small-footprint storage option, well-suited to buyers who want just one added compartment rather than a larger combined system.\n\nSet against the JMHUD 5, the tradeoff here comes down to mounting method and tier count versus price, not a straightforward upgrade or downgrade either way.\n\nWorth calling out specifically: mesh allows content visibility. The catch is smaller review count.",
+    specs: ["Clamp-on, no drilling","Mesh metal drawer construction","Compact under-desk profile","Content-visible design"],
+    pros: ["No-drill clamp attachment","Mesh allows content visibility","Good rating","Compact footprint"],
+    cons: ["Smaller review count","Requires checking knee clearance","Limited capacity for larger items"],
     bestFor: "Buyers who want a small, no-drill, single-compartment hanging accessory.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -169,40 +169,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Find Your Specific Accessory Type",
-    table: {
-      headers: ["What you need", "See our dedicated guide"],
-      rows: [
-        ["Cup holder", "Best Desk Cup Holders"],
-        ["File organizer", "Best Hanging Desk Organizers"],
-        ["Under-desk drawer", "Best Under-Desk Hanging Organizers"],
-        ["Wall-mounted organizer specifically", "Best Wall-Hanging Desk Organizers"],
+    "subheading": "By Attachment Method",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "No-drill desk-edge clamp",
+          "KDD 4"
+        ],
+        [
+          "Most-reviewed, strongest reliability signal",
+          "KDD 4"
+        ]
+      ]
+    }
   },
   {
-    subheading: "This Guide Is a Hub, Not a Distinct Product Category",
-    note: "\"Hanging desk accessories\" is a broad umbrella covering cup holders, file organizers, drawers, and hooks. For deeper, more specific comparisons within any one of these sub-categories, see our dedicated guides linked throughout this article.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $17",
+          "JMHUD 5"
+        ],
+        [
+          "Up to $48",
+          "Safco Onyx Hanging Desktop Organizer with 3 Vertical Trays"
+        ]
+      ]
+    }
   },
   {
-    subheading: "No-Drill vs. Wall-Mounted, Applied Universally",
-    cards: [
-      { label: "No-drill accessories", text: "Clamp to a desk edge or underside, fully reversible, ideal for renters. Most cup holders and hanging drawers fall in this category." },
-      { label: "Wall-mounted accessories", text: "Require drilling, often offer more capacity, better for permanent installations. Most high-tier-count file organizers fall in this category." },
+    "subheading": "Wall-Mounted vs No-Drill Clamp",
+    "cards": [
+      {
+        "label": "Wall-mounted",
+        "text": "More permanent and often higher capacity, but requires drilling into drywall or a stud. In this comparison: Jakyitvi Adjustable 5 Tiers Wall File Organizer Metal Hanging Holder, Safco Onyx Hanging Desktop Organizer with 3 Vertical Trays, Homeify Under Desk Drawer Organizer Clamp, Simple Trending Wall File Organizer, JMHUD 5, INLDY Under Desk Drawer."
+      },
+      {
+        "label": "No-drill clamp",
+        "text": "Installs and removes without wall damage, the safer choice for a rented space. In this comparison: KDD 4, 4 in 1 Metal Clip On Cup Holder Attachment."
+      }
     ],
+    "note": "Default to a no-drill clamp unless you own the space and want maximum capacity."
   },
   {
-    subheading: "Universal Gaps to Check Regardless of Accessory Type",
-    note: "Across every hanging accessory type in our research, the same core gaps apply: verify desk edge or wall compatibility, check weight capacity against realistic loaded weight, and consider knee clearance for any under-desk mount.",
+    "subheading": "By Footprint",
+    "note": "Check each pick's listed dimensions against your actual measured wall or desk-edge space before buying, not just the general size category. KDD 4 is the most-reviewed option here if you want the safer bet."
   },
+  {
+    "subheading": "For a Renter or Shared Office Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine no-drill desk-edge or under-desk clamp mount, not a wall-mount requiring drilling into drywall or a stud."
+      },
+      {
+        "label": "In this comparison",
+        "text": "KDD 4 is worth checking against its listed no-drill mounting method before buying."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You're organizing a genuinely heavy, varied file collection, where Safco Onyx Hanging Desktop Organizer with 3 Vertical Trays's capacity and adjustability give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need light, occasional storage for a few folders, where JMHUD 5 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Identify your specific accessory need first", explanation: "\"Hanging desk accessories\" is a broad category. Narrow down to cup holder, file organizer, or drawer before comparing products, and consider our dedicated guides for deeper comparison within that specific type." },
-  { criterion: "Decide between no-drill and wall-mounted options", explanation: "No-drill clamp accessories are fully reversible and renter-friendly. Wall-mounted options often offer more capacity but require drilling and later patching." },
-  { criterion: "Check weight capacity against realistic loaded weight", explanation: "This universal gap applies across every accessory type here, whether it's a cup holder with a full drink or a file organizer with loaded folders." },
-  { criterion: "Consider knee clearance for any under-desk mount", explanation: "This applies to under-desk drawers, cup holders, and file organizers alike. Measure your available clearance before mounting anything beneath your desk." },
-  { criterion: "Weigh hybrid multi-function accessories against your actual needs", explanation: "Several picks in this roundup combine multiple functions on one clamp. Only choose a hybrid if you genuinely want all the combined features, not just one." },
+  {
+    "criterion": "Confirm attachment method honestly, since \"hanging\" doesn't always mean drill-free",
+    "explanation": "Many products that rank well for this exact search are actually wall-mounted organizers requiring drilling into drywall or a stud, not a no-drill desk-edge clamp, and the two are meaningfully different commitments, a wall mount is more permanent and leaves holes if removed, while a desk-edge clamp installs and uninstalls without any wall damage at all.\n\nThis distinction matters directly for a rented space or shared office where drilling isn't an option, discovering after purchase that a \"hanging organizer\" actually means wall-mounted is a common and avoidable disappointment.\n\nCheck the listing specifically for the attachment method, wall-mount with anchors versus a no-drill desk-edge or under-desk clamp, not just the word \"hanging\" in the title."
+  },
+  {
+    "criterion": "Check weight capacity against a genuinely loaded file collection, not an empty demonstration",
+    "explanation": "A hanging organizer's rated weight capacity is often demonstrated with a few empty folders in marketing photos, which understates how heavy a real collection of paper-filled hanging files or a stack of mail actually gets over time.\n\nThis matters because an organizer rated just barely above a light demonstration load can sag, bend, or pull loose from its mount once genuinely loaded with paper over weeks of accumulation.\n\nCheck the listing for a specific stated weight capacity in pounds, and estimate your own realistic loaded weight, folders plus their actual paper contents, before comparing that against the rated figure."
+  },
+  {
+    "criterion": "Consider tier adjustability if you're organizing mixed folder or document sizes",
+    "explanation": "A fixed-height tier layout works fine if everything you're storing is a similar size, but mixed document types, oversized folders, small mail, or varying folder thicknesses, often don't fit evenly into fixed spacing, leaving some tiers cramped and others wasting space.\n\nIndependently adjustable tiers let you customize spacing to your actual mix of items rather than accepting a one-size-fits-all layout. This matters more the more varied your actual filing needs are, less if you're storing one consistent type of document.\n\nCheck whether tier spacing is adjustable or fixed before assuming any multi-tier organizer accommodates your specific mix of items."
+  },
+  {
+    "criterion": "Match the organizer's footprint to your actual available wall or desk-edge space",
+    "explanation": "A vertical hanging organizer with several stacked tiers needs meaningful wall height to install properly, and a wide organizer needs horizontal clearance that a narrow desk-edge run may not have, dimensions that are easy to underestimate from a product photo alone without checking actual measured space.\n\nThis matters directly for a smaller office or a desk positioned against a window or other fixed feature that limits available mounting area.\n\nCheck the listed dimensions against your actual measured wall or desk-edge space, not just the general size category, before ordering."
+  },
+  {
+    "criterion": "Weigh material and finish for how visible the organizer will be in your workspace",
+    "explanation": "Materials range from basic wire mesh to powder-coated metal to wood-finish designs, and beyond just durability, the finish affects how the organizer looks in a visible desk or wall spot versus a fully out-of-sight utility area.\n\nThis matters more if the organizer sits in a visible, client-facing, or shared office space where appearance is part of the decision, less if it's tucked into a back-office utility spot.\n\nCheck the listed material and finish against how visible the mounting location actually is, and weigh durability needs (a fully loaded file organizer sees real daily stress) alongside appearance."
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -31,10 +31,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51XpqFad+GL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CXCS7YBL?tag=deskfinds0d-20",
     description:
-      "With 7 tiers, this is the tallest genuine vertical design in this comparison, and its mesh wire construction keeps overall weight lower than a solid metal equivalent, reducing leverage stress on the wall mounting point despite the height.\n\nTop and bottom tiers do require more reach than a compact 3-4 tier design, a real accessibility tradeoff for this maximum-capacity vertical structure.",
-    specs: ["7 vertical tiers", "Mesh wire construction (lighter weight)", "Wall-mounted", "Highest tier count in this comparison"],
-    pros: ["Maximum tier count for document separation", "Lighter mesh construction reduces mounting stress", "Affordable for the capacity", "Good rating"],
-    cons: ["Requires drilling", "Top/bottom tiers require more reach", "Tall design needs a stud mount for secure support"],
+      "With 7 tiers, this is the tallest genuine vertical design in this comparison, and its mesh wire construction keeps overall weight lower than a solid metal equivalent, reducing leverage stress on the wall mounting point despite the height.\\n\\nTop and bottom tiers do require more reach than a compact 3-4 tier design, a real accessibility tradeoff for this maximum-capacity vertical structure.\n\nIt leads this comparison mainly on rated capacity and build reinforcement for a genuinely loaded file collection, worth weighing directly against the Jakyitvi Adjustable 5 Tiers Wall File Organizer Metal Hanging Holder.\n\nLighter mesh construction reduces mounting stress. That's a real strength, but weigh it against the flip side: requires drilling.",
+    specs: ["7 vertical tiers","Mesh wire construction (lighter weight)","Wall-mounted","Highest tier count in this comparison"],
+    pros: ["Maximum tier count for document separation","Lighter mesh construction reduces mounting stress","Affordable for the capacity","Good rating"],
+    cons: ["Requires drilling","Top/bottom tiers require more reach","Tall design needs a stud mount for secure support"],
     bestFor: "Buyers who need maximum vertical tier separation and can mount securely to a stud.",
   },
   {
@@ -48,10 +48,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51NHUcgYmoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B8MK52TC?tag=deskfinds0d-20",
     description:
-      "This 5-tier metal design's independently adjustable tier spacing is a genuine advantage for a vertical structure, letting you customize each level's height for varied document or folder sizes rather than accepting fixed uniform spacing throughout.",
-    specs: ["5 adjustable vertical tiers", "Metal construction", "Highest rating in this comparison", "Customizable per-tier spacing"],
-    pros: ["Adjustable spacing per tier", "Highest rating here", "Sturdy metal build for heavier per-tier loads", "Moderate height keeps most tiers easily reachable"],
-    cons: ["Requires drilling", "Heavier metal build needs a secure stud mount", "Fewer tiers than the 7-tier maximum-capacity pick"],
+      "This 5-tier metal design's independently adjustable tier spacing is a genuine advantage for a vertical structure, letting you customize each level's height for varied document or folder sizes rather than accepting fixed uniform spacing throughout.\n\nSet against the Simple Trending Wall File Organizer, the tradeoff here comes down to mounting method and tier count versus price, not a straightforward upgrade or downgrade either way.\n\nWorth calling out specifically: highest rating here. The catch is requires drilling.",
+    specs: ["5 adjustable vertical tiers","Metal construction","Highest rating in this comparison","Customizable per-tier spacing"],
+    pros: ["Adjustable spacing per tier","Highest rating here","Sturdy metal build for heavier per-tier loads","Moderate height keeps most tiers easily reachable"],
+    cons: ["Requires drilling","Heavier metal build needs a secure stud mount","Fewer tiers than the 7-tier maximum-capacity pick"],
     bestFor: "Buyers who want to customize tier spacing for varied document sizes.",
   },
   {
@@ -65,10 +65,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51jmG3xLXjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSMRXZKX?tag=deskfinds0d-20",
     description:
-      "This 5-tier design's fixed spacing keeps the overall height moderate, minimizing the reach-difficulty tradeoff of a taller vertical structure, while its added hooks provide extra hanging points at the same wall footprint.",
-    specs: ["5 fixed vertical tiers", "5 additional hooks", "Moderate height for easier reach", "Lowest price of the 5-tier picks"],
-    pros: ["Most affordable 5-tier option", "Moderate height keeps tiers reachable", "Hooks add extra utility", "Good rating"],
-    cons: ["Fixed spacing, not adjustable", "Requires drilling", "Combined file-plus-hook weight needs secure mounting"],
+      "This 5-tier design's fixed spacing keeps the overall height moderate, minimizing the reach-difficulty tradeoff of a taller vertical structure, while its added hooks provide extra hanging points at the same wall footprint.\n\nRelative to the Jakyitvi Adjustable 5 Tiers Wall File Organizer Metal Hanging Holder, this pick leans toward a different priority, whether that's a lower price, a different attachment method, or a finish suited to a different space.\n\nModerate height keeps tiers reachable. Set against that, fixed spacing, not adjustable. Both matter when comparing it to the other picks here.",
+    specs: ["5 fixed vertical tiers","5 additional hooks","Moderate height for easier reach","Lowest price of the 5-tier picks"],
+    pros: ["Most affordable 5-tier option","Moderate height keeps tiers reachable","Hooks add extra utility","Good rating"],
+    cons: ["Fixed spacing, not adjustable","Requires drilling","Combined file-plus-hook weight needs secure mounting"],
     bestFor: "Budget buyers who want a moderately tall vertical design that stays easy to reach.",
   },
   {
@@ -82,10 +82,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51Cr5PIjCqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01DPWLUU8?tag=deskfinds0d-20",
     description:
-      "This 3-tier vertical design hangs from a desk edge rather than a wall, avoiding the leverage-on-mounting-point concern entirely since it doesn't rely on wall anchors, though its more compact tier count offers less maximum capacity than the wall-mounted alternatives.",
-    specs: ["3 vertical trays, desk-edge hanging", "No drilling required", "Established Safco brand", "Compact vertical height"],
-    pros: ["No wall-mounting leverage concern at all", "Compact height, all tiers easily reachable", "Established brand quality", "No drilling required"],
-    cons: ["Fewer tiers than the wall-mounted 5-7 tier options", "Most expensive pick in this comparison", "Requires available desk-edge clearance"],
+      "This 3-tier vertical design hangs from a desk edge rather than a wall, avoiding the leverage-on-mounting-point concern entirely since it doesn't rely on wall anchors, though its more compact tier count offers less maximum capacity than the wall-mounted alternatives.\n\nCompared with the JMHUD 5 above, this pick trades some of that pick's capacity or adjustability for a different balance of price and mounting simplicity, worth weighing against your own wall or desk situation.\n\nCompact height, all tiers easily reachable. That's a real strength, but weigh it against the flip side: fewer tiers than the wall-mounted 5-7 tier options.",
+    specs: ["3 vertical trays, desk-edge hanging","No drilling required","Established Safco brand","Compact vertical height"],
+    pros: ["No wall-mounting leverage concern at all","Compact height, all tiers easily reachable","Established brand quality","No drilling required"],
+    cons: ["Fewer tiers than the wall-mounted 5-7 tier options","Most expensive pick in this comparison","Requires available desk-edge clearance"],
     bestFor: "Buyers who want vertical tier organization without any wall-mounting leverage concerns.",
   },
   {
@@ -99,12 +99,12 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51Z7iBgMAJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0856Y4YZD?tag=deskfinds0d-20",
     description:
-      "A freestanding alternative with vertical compartment stacking, this design's wide base entirely avoids any mounting-point leverage question since it sits on the desk surface rather than hanging from anything.",
-    specs: ["4 vertical compartments, freestanding", "No mounting required", "Wide, stable base", "Compact vertical height"],
-    pros: ["No mounting or leverage concerns, sits on desk surface", "Wide base prevents tip-over", "All compartments easily reachable", "No-drill, no-clamp"],
-    cons: ["Consumes desk surface footprint", "Fewer compartments than wall-mounted alternatives", "Smaller overall capacity"],
+      "A freestanding alternative with vertical compartment stacking, this design's wide base entirely avoids any mounting-point leverage question since it sits on the desk surface rather than hanging from anything.\n\nSet against the Safco Onyx Hanging Desktop Organizer with 3 Vertical Trays, the tradeoff here comes down to mounting method and tier count versus price, not a straightforward upgrade or downgrade either way.\n\nWorth calling out specifically: wide base prevents tip-over. The catch is consumes desk surface footprint.",
+    specs: ["4 vertical compartments, freestanding","No mounting required","Wide, stable base","Compact vertical height"],
+    pros: ["No mounting or leverage concerns, sits on desk surface","Wide base prevents tip-over","All compartments easily reachable","No-drill, no-clamp"],
+    cons: ["Consumes desk surface footprint","Fewer compartments than wall-mounted alternatives","Smaller overall capacity"],
     bestFor: "Buyers who want vertical organization without any mounting or leverage considerations at all.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,41 +118,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Priority",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Maximum tier count for capacity", "Simple Trending 7-Tier Mesh Organizer"],
-        ["Customizable per-tier spacing", "Jakyitvi Adjustable 5 Tiers Wall File Organizer"],
-        ["Budget, moderate height, easy reach", "JMHUD 5-Tier Wall File Organizer"],
-        ["No wall-mounting leverage concern", "Safco Onyx Hanging Desktop Organizer"],
-        ["No mounting at all", "Mind Reader Desktop Organizer"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Jakyitvi Adjustable 5 Tiers Wall File Organizer Metal Hanging Holder"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Jakyitvi Adjustable 5 Tiers Wall File Organizer Metal Hanging Holder"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Why Height Creates Leverage Stress",
-    note: "A taller vertical organizer's weight sits farther from its mounting point than a compact design, creating more torque on the wall anchor or clamp. Favor a stud mount for tall 5-7 tier wall-mounted designs, or choose a desk-edge or freestanding alternative to avoid this concern entirely.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $17",
+          "JMHUD 5"
+        ],
+        [
+          "Up to $48",
+          "Safco Onyx Hanging Desktop Organizer with 3 Vertical Trays"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Reach Accessibility Across Tiers",
-    cards: [
-      { label: "Compact 3-4 tier design", text: "All tiers stay within comfortable reach without stretching or bending." },
-      { label: "Tall 5-7 tier design", text: "Top and bottom tiers require more reach, a real tradeoff for the maximum document separation this height provides." },
+    "subheading": "Wall-Mounted vs No-Drill Clamp",
+    "cards": [
+      {
+        "label": "Wall-mounted",
+        "text": "More permanent and often higher capacity, but requires drilling into drywall or a stud. In this comparison: Simple Trending Wall File Organizer, Safco Onyx Hanging Desktop Organizer with 3 Vertical Trays."
+      },
+      {
+        "label": "No-drill clamp",
+        "text": "Installs and removes without wall damage, the safer choice for a rented space. In this comparison: Jakyitvi Adjustable 5 Tiers Wall File Organizer Metal Hanging Holder, JMHUD 5, Mind Reader Desktop Organizer with Hanging File Storage."
+      }
     ],
+    "note": "Default to a no-drill clamp unless you own the space and want maximum capacity."
   },
   {
-    subheading: "Per-Tier Weight Capacity",
-    note: "A vertical organizer's total weight rating doesn't always mean each tier can bear that weight independently. Check for per-tier capacity disclosure if you plan to load some tiers more heavily than others.",
+    "subheading": "By Footprint",
+    "note": "Check each pick's listed dimensions against your actual measured wall or desk-edge space before buying, not just the general size category. Jakyitvi Adjustable 5 Tiers Wall File Organizer Metal Hanging Holder is the most-reviewed option here if you want the safer bet."
   },
+  {
+    "subheading": "For a Renter or Shared Office Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine no-drill desk-edge or under-desk clamp mount, not a wall-mount requiring drilling into drywall or a stud."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Jakyitvi Adjustable 5 Tiers Wall File Organizer Metal Hanging Holder is worth checking against its listed no-drill mounting method before buying."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You're organizing a genuinely heavy, varied file collection, where Safco Onyx Hanging Desktop Organizer with 3 Vertical Trays's capacity and adjustability give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need light, occasional storage for a few folders, where JMHUD 5 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm genuine multi-tier structure, not a single pocket", explanation: "\"Vertical\" should mean an actual stacked multi-tier design. Verify this in product images rather than assuming from the title alone." },
-  { criterion: "Mount tall designs to a stud, not just a drywall anchor", explanation: "Taller vertical organizers create more leverage stress on their mounting point. A stud mount provides more secure support than a drywall anchor alone for 5-7 tier designs." },
-  { criterion: "Check per-tier weight capacity, not just total capacity", explanation: "A vertical organizer's total weight rating doesn't guarantee each tier bears that weight independently. Look for per-tier disclosure if you plan uneven loading." },
-  { criterion: "Consider reach accessibility for your height and desk setup", explanation: "Very tall vertical designs can make top or bottom tiers hard to reach comfortably. A compact 3-4 tier design keeps everything within easy reach." },
-  { criterion: "Weigh desk-edge or freestanding alternatives to avoid leverage concerns", explanation: "If wall-mounting leverage stress worries you, a desk-edge hanging or freestanding vertical design sidesteps the concern entirely." },
+  {
+    "criterion": "Confirm attachment method honestly, since \"hanging\" doesn't always mean drill-free",
+    "explanation": "Many products that rank well for this exact search are actually wall-mounted organizers requiring drilling into drywall or a stud, not a no-drill desk-edge clamp, and the two are meaningfully different commitments, a wall mount is more permanent and leaves holes if removed, while a desk-edge clamp installs and uninstalls without any wall damage at all.\n\nThis distinction matters directly for a rented space or shared office where drilling isn't an option, discovering after purchase that a \"hanging organizer\" actually means wall-mounted is a common and avoidable disappointment.\n\nCheck the listing specifically for the attachment method, wall-mount with anchors versus a no-drill desk-edge or under-desk clamp, not just the word \"hanging\" in the title."
+  },
+  {
+    "criterion": "Check weight capacity against a genuinely loaded file collection, not an empty demonstration",
+    "explanation": "A hanging organizer's rated weight capacity is often demonstrated with a few empty folders in marketing photos, which understates how heavy a real collection of paper-filled hanging files or a stack of mail actually gets over time.\n\nThis matters because an organizer rated just barely above a light demonstration load can sag, bend, or pull loose from its mount once genuinely loaded with paper over weeks of accumulation.\n\nCheck the listing for a specific stated weight capacity in pounds, and estimate your own realistic loaded weight, folders plus their actual paper contents, before comparing that against the rated figure."
+  },
+  {
+    "criterion": "Consider tier adjustability if you're organizing mixed folder or document sizes",
+    "explanation": "A fixed-height tier layout works fine if everything you're storing is a similar size, but mixed document types, oversized folders, small mail, or varying folder thicknesses, often don't fit evenly into fixed spacing, leaving some tiers cramped and others wasting space.\n\nIndependently adjustable tiers let you customize spacing to your actual mix of items rather than accepting a one-size-fits-all layout. This matters more the more varied your actual filing needs are, less if you're storing one consistent type of document.\n\nCheck whether tier spacing is adjustable or fixed before assuming any multi-tier organizer accommodates your specific mix of items."
+  },
+  {
+    "criterion": "Match the organizer's footprint to your actual available wall or desk-edge space",
+    "explanation": "A vertical hanging organizer with several stacked tiers needs meaningful wall height to install properly, and a wide organizer needs horizontal clearance that a narrow desk-edge run may not have, dimensions that are easy to underestimate from a product photo alone without checking actual measured space.\n\nThis matters directly for a smaller office or a desk positioned against a window or other fixed feature that limits available mounting area.\n\nCheck the listed dimensions against your actual measured wall or desk-edge space, not just the general size category, before ordering."
+  },
+  {
+    "criterion": "Weigh material and finish for how visible the organizer will be in your workspace",
+    "explanation": "Materials range from basic wire mesh to powder-coated metal to wood-finish designs, and beyond just durability, the finish affects how the organizer looks in a visible desk or wall spot versus a fully out-of-sight utility area.\n\nThis matters more if the organizer sits in a visible, client-facing, or shared office space where appearance is part of the decision, less if it's tucked into a back-office utility spot.\n\nCheck the listed material and finish against how visible the mounting location actually is, and weigh durability needs (a fully loaded file organizer sees real daily stress) alongside appearance."
+  }
 ];
 
 export const faq: FaqItem[] = [

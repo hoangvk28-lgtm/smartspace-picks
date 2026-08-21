@@ -31,10 +31,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51NHUcgYmoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B8MK52TC?tag=deskfinds0d-20",
     description:
-      "This metal 5-tier organizer carries the highest rating in this comparison and its adjustable tier spacing lets you customize the layout for your specific document mix. Mounting to a stud rather than drywall alone will support the heaviest realistic fully-loaded weight.",
-    specs: ["Wall-mounted metal design", "5 adjustable tiers", "Highest rating in this comparison", "Stud or drywall-anchor mounting"],
-    pros: ["Highest rating here", "Adjustable tier spacing", "Sturdy metal build for heavy loads", "Clean wall-mounted look"],
-    cons: ["Requires drilling into wall", "Not renter-friendly without patching later", "Heaviest fully-loaded weight needs stud mounting for best security"],
+      "This metal 5-tier organizer carries the highest rating in this comparison and its adjustable tier spacing lets you customize the layout for your specific document mix. Mounting to a stud rather than drywall alone will support the heaviest realistic fully-loaded weight.\n\nIt leads this comparison mainly on rated capacity and build reinforcement for a genuinely loaded file collection, worth weighing directly against the Kuntine.B Wall File Organizer Office Hanging Magazine Holder.\n\nAdjustable tier spacing. That's a real strength, but weigh it against the flip side: requires drilling into wall.",
+    specs: ["Wall-mounted metal design","5 adjustable tiers","Highest rating in this comparison","Stud or drywall-anchor mounting"],
+    pros: ["Highest rating here","Adjustable tier spacing","Sturdy metal build for heavy loads","Clean wall-mounted look"],
+    cons: ["Requires drilling into wall","Not renter-friendly without patching later","Heaviest fully-loaded weight needs stud mounting for best security"],
     bestFor: "Buyers who want the most proven, heavy-duty wall-mounted organizer.",
   },
   {
@@ -48,10 +48,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/61LUc7Gy89L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CNT2HNS1?tag=deskfinds0d-20",
     description:
-      "This is the most affordable well-reviewed wall-mounted pick, lighter in overall build than the 5-tier metal options and appropriate for drywall-anchor mounting given its more modest realistic loaded weight.",
-    specs: ["Wall-mounted design", "Doubles as magazine holder", "Compact profile", "Affordable"],
-    pros: ["Most affordable well-reviewed pick", "Doubles as magazine storage", "Strong rating", "Lighter loaded weight suits drywall anchors"],
-    cons: ["Requires drilling", "Smaller capacity than 5-tier alternatives", "Not adjustable tier spacing"],
+      "This is the most affordable well-reviewed wall-mounted pick, lighter in overall build than the 5-tier metal options and appropriate for drywall-anchor mounting given its more modest realistic loaded weight.\n\nSet against the Jakyitvi Adjustable 5 Tiers Wall File Organizer Metal Hanging Holder, the tradeoff here comes down to mounting method and tier count versus price, not a straightforward upgrade or downgrade either way.\n\nWorth calling out specifically: doubles as magazine storage. The catch is requires drilling.",
+    specs: ["Wall-mounted design","Doubles as magazine holder","Compact profile","Affordable"],
+    pros: ["Most affordable well-reviewed pick","Doubles as magazine storage","Strong rating","Lighter loaded weight suits drywall anchors"],
+    cons: ["Requires drilling","Smaller capacity than 5-tier alternatives","Not adjustable tier spacing"],
     bestFor: "Budget buyers with a lighter document load who want an affordable wall organizer.",
   },
   {
@@ -65,10 +65,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51jmG3xLXjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSMRXZKX?tag=deskfinds0d-20",
     description:
-      "This wall-mounted organizer adds 5 hooks for keys or small tools alongside its 5-tier file storage, at the lowest price of the 5-tier options in this comparison. Confirm your anchor supports the combined weight of files plus hung items.",
-    specs: ["Wall-mounted, 5 tiers plus 5 hooks", "Multi-purpose hanging points", "Lowest price of the 5-tier picks", "Metal construction"],
-    pros: ["Most affordable 5-tier option", "Hooks add genuine multi-purpose utility", "Good rating", "5 tiers for substantial capacity"],
-    cons: ["Requires drilling", "Combined file-plus-hook weight needs a secure anchor", "Not independently adjustable tier spacing"],
+      "This wall-mounted organizer adds 5 hooks for keys or small tools alongside its 5-tier file storage, at the lowest price of the 5-tier options in this comparison. Confirm your anchor supports the combined weight of files plus hung items.\n\nRelative to the Kuntine.B Wall File Organizer Office Hanging Magazine Holder, this pick leans toward a different priority, whether that's a lower price, a different attachment method, or a finish suited to a different space.\n\nHooks add genuine multi-purpose utility. Set against that, requires drilling. Both matter when comparing it to the other picks here.",
+    specs: ["Wall-mounted, 5 tiers plus 5 hooks","Multi-purpose hanging points","Lowest price of the 5-tier picks","Metal construction"],
+    pros: ["Most affordable 5-tier option","Hooks add genuine multi-purpose utility","Good rating","5 tiers for substantial capacity"],
+    cons: ["Requires drilling","Combined file-plus-hook weight needs a secure anchor","Not independently adjustable tier spacing"],
     bestFor: "Buyers who want 5-tier file capacity plus hooks for keys or small items.",
   },
   {
@@ -82,10 +82,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51XpqFad+GL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CXCS7YBL?tag=deskfinds0d-20",
     description:
-      "This 7-tier mesh design has the highest tier count in this comparison, and its taller vertical footprint means the mounting point should be secured to a stud to safely bear the fully-loaded weight distributed across all seven tiers.",
-    specs: ["Wall-mounted mesh design", "7 vertical tiers", "Metal wire construction", "Affordable"],
-    pros: ["Highest tier count for maximum document separation", "Affordable for the capacity", "Mesh design allows visibility into contents", "Good rating"],
-    cons: ["Requires drilling, ideally into a stud given the tall design", "Taller design means some tiers are harder to reach", "Mesh may not fully contain smaller loose papers"],
+      "This 7-tier mesh design has the highest tier count in this comparison, and its taller vertical footprint means the mounting point should be secured to a stud to safely bear the fully-loaded weight distributed across all seven tiers.\n\nCompared with the JMHUD 5 above, this pick trades some of that pick's capacity or adjustability for a different balance of price and mounting simplicity, worth weighing against your own wall or desk situation.\n\nAffordable for the capacity. That's a real strength, but weigh it against the flip side: requires drilling, ideally into a stud given the tall design.",
+    specs: ["Wall-mounted mesh design","7 vertical tiers","Metal wire construction","Affordable"],
+    pros: ["Highest tier count for maximum document separation","Affordable for the capacity","Mesh design allows visibility into contents","Good rating"],
+    cons: ["Requires drilling, ideally into a stud given the tall design","Taller design means some tiers are harder to reach","Mesh may not fully contain smaller loose papers"],
     bestFor: "Buyers who need to separate many document categories and can mount securely to a stud.",
   },
   {
@@ -99,12 +99,12 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51jmG3xLXjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSMRXZKX?tag=deskfinds0d-20",
     description:
-      "Included again here specifically for its relatively light unloaded weight among the 5-tier options, an easier drywall-anchor mount for renters who accept the wall-patching tradeoff of any wall-mounted organizer over a completely no-drill alternative.",
-    specs: ["Wall-mounted, lighter unloaded weight", "5 tiers plus 5 hooks", "Drywall-anchor mountable", "Affordable"],
-    pros: ["Lighter unloaded weight, easier drywall-anchor mount", "Affordable", "Good rating", "5-tier capacity"],
-    cons: ["Still requires drilling and later patching", "Not a genuine no-drill alternative", "Combined loaded weight still needs a secure anchor"],
+      "Included again here specifically for its relatively light unloaded weight among the 5-tier options, an easier drywall-anchor mount for renters who accept the wall-patching tradeoff of any wall-mounted organizer over a completely no-drill alternative.\n\nSet against the Simple Trending Wall File Organizer, the tradeoff here comes down to mounting method and tier count versus price, not a straightforward upgrade or downgrade either way.\n\nWorth calling out specifically: affordable. The catch is still requires drilling and later patching.",
+    specs: ["Wall-mounted, lighter unloaded weight","5 tiers plus 5 hooks","Drywall-anchor mountable","Affordable"],
+    pros: ["Lighter unloaded weight, easier drywall-anchor mount","Affordable","Good rating","5-tier capacity"],
+    cons: ["Still requires drilling and later patching","Not a genuine no-drill alternative","Combined loaded weight still needs a secure anchor"],
     bestFor: "Renters who've decided wall-mounting is acceptable and want the lightest secure option.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,40 +118,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Priority",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Highest-rated, heaviest capacity", "Jakyitvi Adjustable 5 Tiers Wall File Organizer"],
-        ["Budget priority, lighter load", "Kuntine.B Wall File Organizer"],
-        ["Want hooks for keys/small items too", "JMHUD 5-Tier Wall File Organizer with Hooks"],
-        ["Maximum tier count for many categories", "Simple Trending 7-Tier Mesh Organizer"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Jakyitvi Adjustable 5 Tiers Wall File Organizer Metal Hanging Holder"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Jakyitvi Adjustable 5 Tiers Wall File Organizer Metal Hanging Holder"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Stud vs. Drywall Anchor Mounting",
-    cards: [
-      { label: "Stud mounting", text: "Supports the heaviest realistic fully-loaded weight securely, recommended for the 5-7 tier heavy-capacity picks." },
-      { label: "Drywall anchor mounting", text: "Works for lighter loads, appropriate for the Kuntine.B pick's more modest capacity." },
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $17",
+          "JMHUD 5"
+        ],
+        [
+          "Up to $27",
+          "Jakyitvi Adjustable 5 Tiers Wall File Organizer Metal Hanging Holder"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Adjustable Tiers vs Fixed Spacing",
+    "cards": [
+      {
+        "label": "Adjustable tiers",
+        "text": "Customize spacing for mixed folder or document sizes. In this comparison: Jakyitvi Adjustable 5 Tiers Wall File Organizer Metal Hanging Holder."
+      },
+      {
+        "label": "Fixed spacing",
+        "text": "Simpler, fine if your items are a consistent size. In this comparison: Kuntine.B Wall File Organizer Office Hanging Magazine Holder, JMHUD 5, Simple Trending Wall File Organizer, JMHUD 5."
+      }
     ],
+    "note": "Default to adjustable tiers unless your filing needs are genuinely uniform in size."
   },
   {
-    subheading: "This Is Different From a No-Drill Desk-Hanging Organizer",
-    note: "Every pick in this guide requires drilling into your wall. If you want a fully reversible, no-drill option instead, see our best under-desk hanging organizers guide for desk-edge and slide-on alternatives.",
+    "subheading": "By Footprint",
+    "note": "Check each pick's listed dimensions against your actual measured wall or desk-edge space before buying, not just the general size category. Jakyitvi Adjustable 5 Tiers Wall File Organizer Metal Hanging Holder is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Proximity From Your Desk Matters",
-    note: "Position your wall-mounted organizer within comfortable reach of your desk chair. A wall mount placed too far away undermines the convenience of quick document access during work.",
+    "subheading": "For a Renter or Shared Office Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine no-drill desk-edge or under-desk clamp mount, not a wall-mount requiring drilling into drywall or a stud."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Check each pick's listing directly, since mounting method varies across this comparison."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You're organizing a genuinely heavy, varied file collection, where Jakyitvi Adjustable 5 Tiers Wall File Organizer Metal Hanging Holder's capacity and adjustability give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need light, occasional storage for a few folders, where JMHUD 5 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Match mounting hardware to your realistic loaded weight", explanation: "Heavier fully-loaded organizers, especially 5-7 tier designs, should be mounted to a wall stud rather than a drywall anchor alone for secure long-term support." },
-  { criterion: "Accept that wall-mounting requires drilling and later patching", explanation: "Every pick in this guide requires drilling. If you want a fully reversible option, a desk-edge or under-desk design is a better fit." },
-  { criterion: "Position for comfortable reach from your desk", explanation: "Mount the organizer within an easy arm's reach of your desk chair to preserve the convenience benefit over walking to a farther location." },
-  { criterion: "Consider tier count against your document category count", explanation: "More tiers separate more categories but require more wall space and reach for top and bottom rows on taller designs." },
-  { criterion: "Weigh combined weight if the organizer includes hooks", explanation: "If your organizer combines file storage with hooks for keys or small items, verify the combined weight rating supports both simultaneously." },
+  {
+    "criterion": "Confirm attachment method honestly, since \"hanging\" doesn't always mean drill-free",
+    "explanation": "Many products that rank well for this exact search are actually wall-mounted organizers requiring drilling into drywall or a stud, not a no-drill desk-edge clamp, and the two are meaningfully different commitments, a wall mount is more permanent and leaves holes if removed, while a desk-edge clamp installs and uninstalls without any wall damage at all.\n\nThis distinction matters directly for a rented space or shared office where drilling isn't an option, discovering after purchase that a \"hanging organizer\" actually means wall-mounted is a common and avoidable disappointment.\n\nCheck the listing specifically for the attachment method, wall-mount with anchors versus a no-drill desk-edge or under-desk clamp, not just the word \"hanging\" in the title."
+  },
+  {
+    "criterion": "Check weight capacity against a genuinely loaded file collection, not an empty demonstration",
+    "explanation": "A hanging organizer's rated weight capacity is often demonstrated with a few empty folders in marketing photos, which understates how heavy a real collection of paper-filled hanging files or a stack of mail actually gets over time.\n\nThis matters because an organizer rated just barely above a light demonstration load can sag, bend, or pull loose from its mount once genuinely loaded with paper over weeks of accumulation.\n\nCheck the listing for a specific stated weight capacity in pounds, and estimate your own realistic loaded weight, folders plus their actual paper contents, before comparing that against the rated figure."
+  },
+  {
+    "criterion": "Consider tier adjustability if you're organizing mixed folder or document sizes",
+    "explanation": "A fixed-height tier layout works fine if everything you're storing is a similar size, but mixed document types, oversized folders, small mail, or varying folder thicknesses, often don't fit evenly into fixed spacing, leaving some tiers cramped and others wasting space.\n\nIndependently adjustable tiers let you customize spacing to your actual mix of items rather than accepting a one-size-fits-all layout. This matters more the more varied your actual filing needs are, less if you're storing one consistent type of document.\n\nCheck whether tier spacing is adjustable or fixed before assuming any multi-tier organizer accommodates your specific mix of items."
+  },
+  {
+    "criterion": "Match the organizer's footprint to your actual available wall or desk-edge space",
+    "explanation": "A vertical hanging organizer with several stacked tiers needs meaningful wall height to install properly, and a wide organizer needs horizontal clearance that a narrow desk-edge run may not have, dimensions that are easy to underestimate from a product photo alone without checking actual measured space.\n\nThis matters directly for a smaller office or a desk positioned against a window or other fixed feature that limits available mounting area.\n\nCheck the listed dimensions against your actual measured wall or desk-edge space, not just the general size category, before ordering."
+  },
+  {
+    "criterion": "Weigh material and finish for how visible the organizer will be in your workspace",
+    "explanation": "Materials range from basic wire mesh to powder-coated metal to wood-finish designs, and beyond just durability, the finish affects how the organizer looks in a visible desk or wall spot versus a fully out-of-sight utility area.\n\nThis matters more if the organizer sits in a visible, client-facing, or shared office space where appearance is part of the decision, less if it's tucked into a back-office utility spot.\n\nCheck the listed material and finish against how visible the mounting location actually is, and weigh durability needs (a fully loaded file organizer sees real daily stress) alongside appearance."
+  }
 ];
 
 export const faq: FaqItem[] = [

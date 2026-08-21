@@ -31,10 +31,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51YpYvY4LwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BR4K8HCZ?tag=deskfinds0d-20",
     description:
-      "This clamps to your desk underside without drilling, adding two genuine slide-out drawer compartments where none existed before, the clearest match for a buyer specifically wanting a hanging drawer unit rather than an insert tray for an existing drawer.",
-    specs: ["Clamp-on, no drilling", "2 separate slide-out drawers", "Mesh metal construction", "Adds drawer capacity where none existed"],
-    pros: ["Genuine standalone hanging drawer unit", "Two compartments for organized storage", "No-drill clamp attachment", "Strongest review count in this comparison"],
-    cons: ["Bulkier under-desk footprint with two drawers", "Requires checking knee clearance", "Slightly lower rating than the single-drawer alternative"],
+      "This clamps to your desk underside without drilling, adding two genuine slide-out drawer compartments where none existed before, the clearest match for a buyer specifically wanting a hanging drawer unit rather than an insert tray for an existing drawer.\n\nIt leads this comparison mainly on rated capacity and build reinforcement for a genuinely loaded file collection, worth weighing directly against the INLDY Under Desk Drawer.\n\nTwo compartments for organized storage. That's a real strength, but weigh it against the flip side: bulkier under-desk footprint with two drawers.",
+    specs: ["Clamp-on, no drilling","2 separate slide-out drawers","Mesh metal construction","Adds drawer capacity where none existed"],
+    pros: ["Genuine standalone hanging drawer unit","Two compartments for organized storage","No-drill clamp attachment","Strongest review count in this comparison"],
+    cons: ["Bulkier under-desk footprint with two drawers","Requires checking knee clearance","Slightly lower rating than the single-drawer alternative"],
     bestFor: "Buyers who want to add a genuine hanging drawer unit under a desk without existing drawers.",
   },
   {
@@ -48,10 +48,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/61-H71DCbEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJDS9JZ8?tag=deskfinds0d-20",
     description:
-      "A more compact single-drawer alternative to the Homeify pick above, this clamp-on unit carries a higher rating despite a smaller review count, appropriate if you only need one added compartment rather than two.",
-    specs: ["Clamp-on, no drilling", "Single slide-out drawer", "Mesh metal construction", "Compact under-desk profile"],
-    pros: ["Higher rating than the dual-drawer alternative", "No-drill clamp attachment", "Compact footprint", "Mesh visibility"],
-    cons: ["Smaller review count", "Single compartment only", "Requires checking knee clearance"],
+      "A more compact single-drawer alternative to the Homeify pick above, this clamp-on unit carries a higher rating despite a smaller review count, appropriate if you only need one added compartment rather than two.\n\nSet against the Homeify Under Desk Drawer Organizer Clamp, the tradeoff here comes down to mounting method and tier count versus price, not a straightforward upgrade or downgrade either way.\n\nWorth calling out specifically: no-drill clamp attachment. The catch is smaller review count.",
+    specs: ["Clamp-on, no drilling","Single slide-out drawer","Mesh metal construction","Compact under-desk profile"],
+    pros: ["Higher rating than the dual-drawer alternative","No-drill clamp attachment","Compact footprint","Mesh visibility"],
+    cons: ["Smaller review count","Single compartment only","Requires checking knee clearance"],
     bestFor: "Buyers who want just one compact hanging drawer added under their desk.",
   },
   {
@@ -65,10 +65,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51FalFi-PqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B005XK3R02?tag=deskfinds0d-20",
     description:
-      "Honesty note: this is genuinely a different product from the clamp-on picks above, an insert tray that organizes the inside of an existing desk drawer with adjustable compartments, not a hanging unit that adds a new drawer. It carries the highest rating in this comparison.",
-    specs: ["In-drawer insert tray, not a hanging unit", "Adjustable width, 10.3-16 inches", "Customizable compartments", "Highest rating here"],
-    pros: ["Highest rating in this comparison", "Adjustable width fits varied drawer sizes", "Customizable compartment layout", "Strong review count"],
-    cons: ["Requires an existing drawer to organize", "Not a standalone hanging unit", "Doesn't add new storage capacity, only organizes existing space"],
+      "Honesty note: this is genuinely a different product from the clamp-on picks above, an insert tray that organizes the inside of an existing desk drawer with adjustable compartments, not a hanging unit that adds a new drawer. It carries the highest rating in this comparison.\n\nRelative to the INLDY Under Desk Drawer, this pick leans toward a different priority, whether that's a lower price, a different attachment method, or a finish suited to a different space.\n\nAdjustable width fits varied drawer sizes. Set against that, requires an existing drawer to organize. Both matter when comparing it to the other picks here.",
+    specs: ["In-drawer insert tray, not a hanging unit","Adjustable width, 10.3-16 inches","Customizable compartments","Highest rating here"],
+    pros: ["Highest rating in this comparison","Adjustable width fits varied drawer sizes","Customizable compartment layout","Strong review count"],
+    cons: ["Requires an existing drawer to organize","Not a standalone hanging unit","Doesn't add new storage capacity, only organizes existing space"],
     bestFor: "Buyers who already have a desk drawer and want to organize its contents, not add a new drawer.",
   },
   {
@@ -82,10 +82,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31L34YVEzzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CRT7XZT?tag=deskfinds0d-20",
     description:
-      "Also an in-drawer insert tray rather than a hanging unit, this 7-compartment design offers more distinct storage sections than the Officemate tray, at a lower price, for buyers organizing small supplies within an existing drawer.",
-    specs: ["In-drawer insert tray, not a hanging unit", "7 compartments", "Expandable plastic design", "Lowest price here"],
-    pros: ["Most affordable option here", "7 distinct compartments", "Good rating", "Expandable to fit varied drawer sizes"],
-    cons: ["Requires an existing drawer to organize", "Not a standalone hanging unit", "Plastic construction less durable than metal alternatives"],
+      "Also an in-drawer insert tray rather than a hanging unit, this 7-compartment design offers more distinct storage sections than the Officemate tray, at a lower price, for buyers organizing small supplies within an existing drawer.\n\nCompared with the Officemate Expandable Drawer Organizer Tray above, this pick trades some of that pick's capacity or adjustability for a different balance of price and mounting simplicity, worth weighing against your own wall or desk situation.\n\n7 distinct compartments. That's a real strength, but weigh it against the flip side: requires an existing drawer to organize.",
+    specs: ["In-drawer insert tray, not a hanging unit","7 compartments","Expandable plastic design","Lowest price here"],
+    pros: ["Most affordable option here","7 distinct compartments","Good rating","Expandable to fit varied drawer sizes"],
+    cons: ["Requires an existing drawer to organize","Not a standalone hanging unit","Plastic construction less durable than metal alternatives"],
     bestFor: "Budget buyers who want maximum compartment separation within an existing drawer.",
   },
   {
@@ -99,12 +99,12 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41AwVl4-0IL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSZMWPW2?tag=deskfinds0d-20",
     description:
-      "A third interpretation of this ambiguous search: a hanging file organizer rather than a general drawer, purpose-built for hanging documents under the desk. Include this if your actual need is file storage rather than a general small-supply drawer.",
-    specs: ["Under-desk hanging attachment, no drilling", "File-specific organizer", "Compact profile", "Distinct from drawer-style storage"],
-    pros: ["Genuine hanging file storage alternative", "Affordable", "No-drill attachment", "Compact profile"],
-    cons: ["Small review count limits confidence", "Not a general small-item drawer", "Lower rating than the top picks"],
+      "A third interpretation of this ambiguous search: a hanging file organizer rather than a general drawer, purpose-built for hanging documents under the desk. Include this if your actual need is file storage rather than a general small-supply drawer.\n\nSet against the TRU RED Expandable Plastic Drawer Organizer, the tradeoff here comes down to mounting method and tier count versus price, not a straightforward upgrade or downgrade either way.\n\nWorth calling out specifically: affordable. The catch is small review count limits confidence.",
+    specs: ["Under-desk hanging attachment, no drilling","File-specific organizer","Compact profile","Distinct from drawer-style storage"],
+    pros: ["Genuine hanging file storage alternative","Affordable","No-drill attachment","Compact profile"],
+    cons: ["Small review count limits confidence","Not a general small-item drawer","Lower rating than the top picks"],
     bestFor: "Buyers whose actual need is hanging file storage rather than a general drawer.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,41 +118,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "First, Figure Out Which Product You Actually Need",
-    table: {
-      headers: ["What you actually want", "Recommended pick"],
-      rows: [
-        ["A new hanging drawer under a desk without one", "Homeify Under Desk Drawer Organizer, 2 Drawer"],
-        ["A compact single hanging drawer", "INLDY Under Desk Drawer"],
-        ["To organize an existing drawer's contents", "Officemate Expandable Drawer Organizer Tray"],
-        ["A budget in-drawer tray with many compartments", "TRU RED Expandable Plastic Drawer Organizer"],
-        ["Hanging file storage specifically", "SB Simpli Better File Organizer"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Officemate Expandable Drawer Organizer Tray"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Officemate Expandable Drawer Organizer Tray"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Two Genuinely Different Products, One Ambiguous Search Term",
-    note: "\"Hanging desk drawer organizer\" could mean a clamp-on unit that adds a new drawer under your desk, or an insert tray that organizes an existing drawer's interior. These serve completely different needs, so identify which one you actually want before comparing products.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $14",
+          "TRU RED Expandable Plastic Drawer Organizer"
+        ],
+        [
+          "Up to $28",
+          "Homeify Under Desk Drawer Organizer Clamp"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Hanging Drawer Unit vs. In-Drawer Tray",
-    cards: [
-      { label: "Hanging drawer unit", text: "Clamps under the desk, adds new storage capacity where none existed, no drilling required." },
-      { label: "In-drawer insert tray", text: "Fits inside an existing drawer, organizes contents into compartments, doesn't add new capacity." },
+    "subheading": "Wall-Mounted vs No-Drill Clamp",
+    "cards": [
+      {
+        "label": "Wall-mounted",
+        "text": "More permanent and often higher capacity, but requires drilling into drywall or a stud. In this comparison: Homeify Under Desk Drawer Organizer Clamp, INLDY Under Desk Drawer, SB Simpli Better File Organizer that Attaches Under the Desk."
+      },
+      {
+        "label": "No-drill clamp",
+        "text": "Installs and removes without wall damage, the safer choice for a rented space. In this comparison: Officemate Expandable Drawer Organizer Tray, TRU RED Expandable Plastic Drawer Organizer."
+      }
     ],
+    "note": "Default to a no-drill clamp unless you own the space and want maximum capacity."
   },
   {
-    subheading: "If Your Need Is File Storage, Not General Supplies",
-    note: "The SB Simpli Better pick is purpose-built for hanging files specifically, distinct from the general small-supply drawer units and insert trays covered elsewhere in this guide.",
+    "subheading": "By Footprint",
+    "note": "Check each pick's listed dimensions against your actual measured wall or desk-edge space before buying, not just the general size category. Officemate Expandable Drawer Organizer Tray is the most-reviewed option here if you want the safer bet."
   },
+  {
+    "subheading": "For a Renter or Shared Office Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine no-drill desk-edge or under-desk clamp mount, not a wall-mount requiring drilling into drywall or a stud."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Officemate Expandable Drawer Organizer Tray is worth checking against its listed no-drill mounting method before buying."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You're organizing a genuinely heavy, varied file collection, where Homeify Under Desk Drawer Organizer Clamp's capacity and adjustability give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need light, occasional storage for a few folders, where TRU RED Expandable Plastic Drawer Organizer covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Clarify whether you need a new drawer or an organizer for an existing one", explanation: "This search term covers two genuinely different products. A clamp-on hanging drawer adds new storage capacity; an insert tray organizes an existing drawer's interior without adding capacity." },
-  { criterion: "Check for drawer rail interference if hanging from an existing drawer", explanation: "If considering any product that attaches near an existing drawer's rail or slide mechanism, verify it won't interfere with the drawer's normal open/close motion." },
-  { criterion: "Match compartment count to your actual small-item variety", explanation: "In-drawer trays range from a few large compartments to 7 or more small divisions. Match this to how many distinct categories of small items you're organizing." },
-  { criterion: "Verify weight capacity for a standalone hanging drawer", explanation: "A clamp-on drawer unit should be checked for its rated weight capacity against what you actually plan to store, since it's supporting real weight from an under-desk attachment point." },
-  { criterion: "Consider a dedicated file organizer if that's your actual need", explanation: "If you're specifically storing hanging file folders rather than general small supplies, a purpose-built file organizer like the SB Simpli Better pick better serves that need." },
+  {
+    "criterion": "Confirm attachment method honestly, since \"hanging\" doesn't always mean drill-free",
+    "explanation": "Many products that rank well for this exact search are actually wall-mounted organizers requiring drilling into drywall or a stud, not a no-drill desk-edge clamp, and the two are meaningfully different commitments, a wall mount is more permanent and leaves holes if removed, while a desk-edge clamp installs and uninstalls without any wall damage at all.\n\nThis distinction matters directly for a rented space or shared office where drilling isn't an option, discovering after purchase that a \"hanging organizer\" actually means wall-mounted is a common and avoidable disappointment.\n\nCheck the listing specifically for the attachment method, wall-mount with anchors versus a no-drill desk-edge or under-desk clamp, not just the word \"hanging\" in the title."
+  },
+  {
+    "criterion": "Check weight capacity against a genuinely loaded file collection, not an empty demonstration",
+    "explanation": "A hanging organizer's rated weight capacity is often demonstrated with a few empty folders in marketing photos, which understates how heavy a real collection of paper-filled hanging files or a stack of mail actually gets over time.\n\nThis matters because an organizer rated just barely above a light demonstration load can sag, bend, or pull loose from its mount once genuinely loaded with paper over weeks of accumulation.\n\nCheck the listing for a specific stated weight capacity in pounds, and estimate your own realistic loaded weight, folders plus their actual paper contents, before comparing that against the rated figure."
+  },
+  {
+    "criterion": "Consider tier adjustability if you're organizing mixed folder or document sizes",
+    "explanation": "A fixed-height tier layout works fine if everything you're storing is a similar size, but mixed document types, oversized folders, small mail, or varying folder thicknesses, often don't fit evenly into fixed spacing, leaving some tiers cramped and others wasting space.\n\nIndependently adjustable tiers let you customize spacing to your actual mix of items rather than accepting a one-size-fits-all layout. This matters more the more varied your actual filing needs are, less if you're storing one consistent type of document.\n\nCheck whether tier spacing is adjustable or fixed before assuming any multi-tier organizer accommodates your specific mix of items."
+  },
+  {
+    "criterion": "Match the organizer's footprint to your actual available wall or desk-edge space",
+    "explanation": "A vertical hanging organizer with several stacked tiers needs meaningful wall height to install properly, and a wide organizer needs horizontal clearance that a narrow desk-edge run may not have, dimensions that are easy to underestimate from a product photo alone without checking actual measured space.\n\nThis matters directly for a smaller office or a desk positioned against a window or other fixed feature that limits available mounting area.\n\nCheck the listed dimensions against your actual measured wall or desk-edge space, not just the general size category, before ordering."
+  },
+  {
+    "criterion": "Weigh material and finish for how visible the organizer will be in your workspace",
+    "explanation": "Materials range from basic wire mesh to powder-coated metal to wood-finish designs, and beyond just durability, the finish affects how the organizer looks in a visible desk or wall spot versus a fully out-of-sight utility area.\n\nThis matters more if the organizer sits in a visible, client-facing, or shared office space where appearance is part of the decision, less if it's tucked into a back-office utility spot.\n\nCheck the listed material and finish against how visible the mounting location actually is, and weigh durability needs (a fully loaded file organizer sees real daily stress) alongside appearance."
+  }
 ];
 
 export const faq: FaqItem[] = [
