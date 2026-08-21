@@ -134,31 +134,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Configure Shutdown Signal Timing With Real Margin",
-    note: "A UPS communicates remaining runtime to your NAS via USB or network, often using NUT (Network UPS Tools) or a vendor-proprietary protocol. If the shutdown trigger threshold isn't configured with sufficient margin, your NAS's RAID array can be caught mid-write when the battery finally depletes, risking data corruption despite having a UPS. Set the trigger to leave several minutes of buffer, not the bare minimum default.",
-  },
-  {
-    subheading: "Purpose-Built NAS UPS vs. General-Purpose UPS",
-    table: {
-      headers: ["Setup", "Recommendation"],
-      rows: [
-        ["DC-powered NAS from Synology, Ugreen, TerraMaster, or QNAP", "WALLECUBE NAS UPS (rank 1), purpose-built compatibility"],
-        ["Standard AC-powered NAS, any vendor", "APC BE650G1 (rank 2) or BX850M (rank 3), broad NUT compatibility"],
-        ["NAS with an APFC power supply", "CyberPower CP850PFCLCD (rank 5), pure sine wave"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "WALLECUBE NAS UPS Compatible for: Synology"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "APC UPS 600VA/330W UPS Battery Backup for Computer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Size Capacity to Your Drive Count",
-    note: "A single-bay NAS draws far less power than a multi-bay unit with several drives spinning simultaneously. Don't default to the highest-capacity UPS, match it to your actual drive count and any additional equipment (like a router) sharing the same UPS.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $79",
+          "WALLECUBE NAS UPS Compatible for: Synology"
+        ],
+        [
+          "Up to $267",
+          "Ubiquiti UniFi UPS Tower 1000VA/600W Uninterruptible Power Supply"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Pure Sine Wave vs Modified Sine Wave",
+    "cards": [
+      {
+        "label": "Pure sine wave",
+        "text": "Clean power matching wall-outlet quality, avoids APFC compatibility issues with modern PC power supplies. In this comparison: CyberPower CP850PFCLCD PFC Sinewave UPS Battery Backup and Surge Protector."
+      },
+      {
+        "label": "Modified sine wave",
+        "text": "Cheaper, but can cause buzzing or shutdown risk on APFC-equipped power supplies. In this comparison: WALLECUBE NAS UPS Compatible for: Synology, APC UPS 650VA/390W Battery Backup & Surge Protector for PC, APC UPS 850VA/450W UPS Battery Backup & Surge Protector for PC, APC UPS 600VA/330W UPS Battery Backup for Computer, Ubiquiti UniFi UPS Tower 1000VA/600W Uninterruptible Power Supply."
+      }
+    ],
+    "note": "Default to pure sine wave if your PC has an APFC power supply, which most modern PCs do."
+  },
+  {
+    "subheading": "By Replaceable Battery",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "User-replaceable battery for longer usable life",
+          "APC UPS 650VA/390W Battery Backup & Surge Protector for PC"
+        ],
+        [
+          "Sealed unit is fine",
+          "WALLECUBE NAS UPS Compatible for: Synology"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a PC Plus Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Real watts (not VA) comfortably above your combined equipment draw, plus pure sine wave if your PC has an APFC power supply."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Ubiquiti UniFi UPS Tower 1000VA/600W Uninterruptible Power Supply discloses the highest real capacity at 600W."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You have a high-draw workstation, multiple monitors, or NAS equipment, where Ubiquiti UniFi UPS Tower 1000VA/600W Uninterruptible Power Supply's higher watts capacity gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need brief runtime for a single low-draw device, where WALLECUBE NAS UPS Compatible for: Synology covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Graceful shutdown signal timing prevents RAID corruption", explanation: "If the shutdown trigger threshold isn't configured with enough margin, your NAS's RAID array can be caught mid-write when the battery depletes, configure a buffer of several minutes, not the bare default." },
-  { criterion: "NUT or vendor-proprietary protocol compatibility varies by NAS platform", explanation: "Most NAS platforms (Synology, QNAP, TrueNAS) support NUT (Network UPS Tools) for shutdown signaling, verify your specific NAS OS supports the UPS brand you're buying before assuming automatic compatibility." },
-  { criterion: "Purpose-built NAS UPS units simplify setup but narrow compatibility", explanation: "A NAS-specific UPS with vendor app integration is easier to configure correctly, but check the exact compatibility list matches your NAS model and its power input type (AC vs. DC) before buying." },
-  { criterion: "Size capacity to actual drive count, not a generic recommendation", explanation: "A single-bay NAS draws far less power than a multi-bay unit with several drives spinning, oversizing wastes money while undersizing risks insufficient runtime for a safe shutdown." },
+  {
+    "criterion": "Convert VA rating to real usable watts before sizing your equipment",
+    "explanation": "A UPS's VA (volt-amps) rating is a marketing number, not the real power it can actually deliver, due to typical UPS power factor design, real usable wattage runs roughly 0.6 times the VA figure, meaning a 1000VA unit is usually rated for about 600W, not the full 1000.\n\nThis matters enormously when sizing a UPS against your actual equipment, buying based on the bigger-looking VA number instead of the real watts figure is a common mistake that leaves less real headroom than expected.\n\nAdd up your actual equipment's real wattage draw (not the power supply's maximum rating, but its typical operating draw), and compare that total against the UPS's stated watts number specifically, not its VA rating."
+  },
+  {
+    "criterion": "Check waveform type against your power supply's compatibility requirements",
+    "explanation": "A UPS outputs either a pure sine wave, matching the clean power from a wall outlet, or a simulated/modified sine wave, a rougher, stepped approximation that's cheaper to produce but can cause certain power supplies, particularly ones with Active Power Factor Correction (APFC), to buzz audibly or shut down unexpectedly when running on battery power.\n\nThis matters directly for a modern PC power supply, which very often includes APFC, running an APFC-equipped PC on a modified sine wave UPS during an outage can trigger exactly the shutdown you bought the UPS to prevent.\n\nCheck whether your PC's power supply is APFC-equipped (common in most modern units), and match it with a pure sine wave UPS specifically if so."
+  },
+  {
+    "criterion": "Estimate real runtime at your actual load, not the UPS's rated maximum runtime",
+    "explanation": "Published runtime figures on a UPS listing are typically measured at a specific test load, often lower than what you'll actually draw with a PC and monitor running, meaning your real runtime during an actual outage will likely be shorter than the headline number suggests.\n\nThis matters because runtime is what actually determines whether you have enough time to save your work and shut down cleanly versus losing everything the moment the battery depletes.\n\nCheck whether the listing provides a runtime-at-load chart or calculator (many UPS brands publish one), and estimate your real runtime at your actual equipment's combined wattage draw, not the single headline runtime figure."
+  },
+  {
+    "criterion": "Consider AVR (Automatic Voltage Regulation) if your power is prone to sags or surges",
+    "explanation": "AVR corrects minor voltage fluctuations, brownouts and small surges, without switching to battery power at all, extending battery lifespan by handling the vast majority of small power irregularities through voltage correction alone rather than draining the battery every time.\n\nThis matters more if you live somewhere with less stable grid power or frequent minor fluctuations, less in an area with consistently clean, stable power.\n\nCheck the listing specifically for AVR as a named feature, not just generic \"surge protection,\" which addresses a different, more severe class of power event."
+  },
+  {
+    "criterion": "Check whether the internal battery is user-replaceable before the unit ages out",
+    "explanation": "Every UPS battery degrades over 3-5 years of use regardless of how well the unit is otherwise built, and a model with a user-replaceable battery lets you extend the UPS's usable life for the cost of a battery alone, while a sealed unit with no replaceable battery means buying an entirely new UPS once the battery degrades.\n\nThis matters directly for total cost of ownership over several years, not just the upfront purchase price.\n\nCheck the listing specifically for \"user-replaceable battery\" language and confirm replacement batteries are readily available for that specific model before assuming any UPS supports this."
+  }
 ];
 
 export const faq: FaqItem[] = [

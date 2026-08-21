@@ -134,37 +134,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Each Monitor Adds Real Wattage, Do the Math",
-    note: "Each additional monitor typically adds 20-40W of real draw depending on size and panel type. A two or three-monitor setup can push combined draw well past what a basic single-monitor UPS was sized for, add up your specific monitors' wattage (usually listed on the monitor's power spec) plus your PC's typical draw before choosing capacity.",
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest average rating",
+          "GOLDENMATE 1500VA/1000W Lithium UPS Battery Backup & Surge Protector"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "APC UPS 1500VA/900W Battery Backup for PCs"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Outlet Count Matters as Much as Wattage",
-    table: {
-      headers: ["Setup", "Outlets needed", "Pick"],
-      rows: [
-        ["PC, 2-3 monitors, dock, speakers", "10-12 battery-backed outlets", "CyberPower CP1500PFCLCD (rank 2, 12 outlets) or APC BR1500MS2 (rank 1, 10 outlets)"],
-        ["PC and two monitors, minimal peripherals", "6-8 outlets", "APC BX1000M (rank 4) or BX850M (rank 6)"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $162",
+          "APC 850VA/510W Pro UPS Battery Backup for Office Electronics"
+        ],
+        [
+          "Up to $350",
+          "GOLDENMATE 1500VA/1000W Lithium UPS Battery Backup & Surge Protector"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Sizing by Monitor Count",
-    table: {
-      headers: ["Monitor count", "Recommended real watt capacity", "Pick"],
-      rows: [
-        ["3 monitors, high-performance PC", "900-1000W", "APC BR1500MS2 (rank 1) or CyberPower CP1500PFCLCD (rank 2)"],
-        ["2 monitors, standard PC", "600W", "APC BX1000M (rank 4)"],
-        ["2 smaller/lower-power monitors, budget build", "510W", "APC BX850M (rank 6)"],
-      ],
-    },
+    "subheading": "Pure Sine Wave vs Modified Sine Wave",
+    "cards": [
+      {
+        "label": "Pure sine wave",
+        "text": "Clean power matching wall-outlet quality, avoids APFC compatibility issues with modern PC power supplies. In this comparison: APC UPS 1500VA/900W Pure Sine Wave UPS for Computer, APC UPS 1500VA/900W Battery Backup for PCs."
+      },
+      {
+        "label": "Modified sine wave",
+        "text": "Cheaper, but can cause buzzing or shutdown risk on APFC-equipped power supplies. In this comparison: CyberPower CP1500PFCLCD PFC Sinewave UPS Battery Backup and Surge Protector, APC 1000VA/600W Pro UPS Battery Backup for Office Electronics, GOLDENMATE 1500VA/1000W Lithium UPS Battery Backup & Surge Protector, APC 850VA/510W Pro UPS Battery Backup for Office Electronics."
+      }
+    ],
+    "note": "Default to pure sine wave if your PC has an APFC power supply, which most modern PCs do."
   },
+  {
+    "subheading": "By Runtime at Real Load",
+    "note": "Check each pick's runtime-at-load chart against your actual equipment's combined wattage draw before buying, not just the headline runtime figure. APC UPS 1500VA/900W Battery Backup for PCs is the most-reviewed option here if you want the safer bet."
+  },
+  {
+    "subheading": "For a PC Plus Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Real watts (not VA) comfortably above your combined equipment draw, plus pure sine wave if your PC has an APFC power supply."
+      },
+      {
+        "label": "In this comparison",
+        "text": "CyberPower CP1500PFCLCD PFC Sinewave UPS Battery Backup and Surge Protector discloses the highest real capacity at 1000W."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You have a high-draw workstation, multiple monitors, or NAS equipment, where GOLDENMATE 1500VA/1000W Lithium UPS Battery Backup & Surge Protector's higher watts capacity gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need brief runtime for a single low-draw device, where APC 850VA/510W Pro UPS Battery Backup for Office Electronics covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Each additional monitor adds real, non-trivial wattage draw", explanation: "Monitors typically draw 20-40W each depending on size and panel type, a two or three-monitor setup adds up meaningfully faster than single-monitor UPS sizing accounts for." },
-  { criterion: "Outlet count is as important as total wattage capacity", explanation: "A multi-monitor desk with a PC, monitors, dock, and speakers needs enough battery-backed outlets to actually plug everything in, check outlet count alongside watts, not just watts alone." },
-  { criterion: "Size to your actual monitor count and specs, not a generic recommendation", explanation: "A three-monitor high-performance setup needs meaningfully more real wattage capacity than a two-monitor standard office desktop, check your specific monitors' listed power draw before choosing a tier." },
-  { criterion: "VA rating still overstates real usable wattage for multi-monitor sizing", explanation: "The same power-factor math applies here as any UPS purchase, a 1500VA unit typically provides closer to 900-1000W real capacity, size against the watt number for your combined equipment." },
+  {
+    "criterion": "Convert VA rating to real usable watts before sizing your equipment",
+    "explanation": "A UPS's VA (volt-amps) rating is a marketing number, not the real power it can actually deliver, due to typical UPS power factor design, real usable wattage runs roughly 0.6 times the VA figure, meaning a 1000VA unit is usually rated for about 600W, not the full 1000.\n\nThis matters enormously when sizing a UPS against your actual equipment, buying based on the bigger-looking VA number instead of the real watts figure is a common mistake that leaves less real headroom than expected.\n\nAdd up your actual equipment's real wattage draw (not the power supply's maximum rating, but its typical operating draw), and compare that total against the UPS's stated watts number specifically, not its VA rating."
+  },
+  {
+    "criterion": "Check waveform type against your power supply's compatibility requirements",
+    "explanation": "A UPS outputs either a pure sine wave, matching the clean power from a wall outlet, or a simulated/modified sine wave, a rougher, stepped approximation that's cheaper to produce but can cause certain power supplies, particularly ones with Active Power Factor Correction (APFC), to buzz audibly or shut down unexpectedly when running on battery power.\n\nThis matters directly for a modern PC power supply, which very often includes APFC, running an APFC-equipped PC on a modified sine wave UPS during an outage can trigger exactly the shutdown you bought the UPS to prevent.\n\nCheck whether your PC's power supply is APFC-equipped (common in most modern units), and match it with a pure sine wave UPS specifically if so."
+  },
+  {
+    "criterion": "Estimate real runtime at your actual load, not the UPS's rated maximum runtime",
+    "explanation": "Published runtime figures on a UPS listing are typically measured at a specific test load, often lower than what you'll actually draw with a PC and monitor running, meaning your real runtime during an actual outage will likely be shorter than the headline number suggests.\n\nThis matters because runtime is what actually determines whether you have enough time to save your work and shut down cleanly versus losing everything the moment the battery depletes.\n\nCheck whether the listing provides a runtime-at-load chart or calculator (many UPS brands publish one), and estimate your real runtime at your actual equipment's combined wattage draw, not the single headline runtime figure."
+  },
+  {
+    "criterion": "Consider AVR (Automatic Voltage Regulation) if your power is prone to sags or surges",
+    "explanation": "AVR corrects minor voltage fluctuations, brownouts and small surges, without switching to battery power at all, extending battery lifespan by handling the vast majority of small power irregularities through voltage correction alone rather than draining the battery every time.\n\nThis matters more if you live somewhere with less stable grid power or frequent minor fluctuations, less in an area with consistently clean, stable power.\n\nCheck the listing specifically for AVR as a named feature, not just generic \"surge protection,\" which addresses a different, more severe class of power event."
+  },
+  {
+    "criterion": "Check whether the internal battery is user-replaceable before the unit ages out",
+    "explanation": "Every UPS battery degrades over 3-5 years of use regardless of how well the unit is otherwise built, and a model with a user-replaceable battery lets you extend the UPS's usable life for the cost of a battery alone, while a sealed unit with no replaceable battery means buying an entirely new UPS once the battery degrades.\n\nThis matters directly for total cost of ownership over several years, not just the upfront purchase price.\n\nCheck the listing specifically for \"user-replaceable battery\" language and confirm replacement batteries are readily available for that specific model before assuming any UPS supports this."
+  }
 ];
 
 export const faq: FaqItem[] = [

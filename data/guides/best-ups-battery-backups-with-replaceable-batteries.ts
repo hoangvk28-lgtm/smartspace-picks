@@ -134,30 +134,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Standard Replacement Part Numbers Matter More Than the 'Replaceable' Label",
-    note: "A user-replaceable battery only saves money long-term if the replacement cell is a widely available standard part, like APC's APCRBC163. Some 'replaceable' UPS batteries actually use a proprietary or hard-to-source cell priced close to a full new unit, undermining the entire value proposition. Check that a genuine standard replacement part is sold before buying on the replaceable-battery promise alone.",
-  },
-  {
-    subheading: "Budget for the Recurring 3-5 Year Replacement Cycle",
-    note: "Lead-acid UPS batteries typically need replacement every 3-5 years from simple age and charge-cycle wear, regardless of how often an actual outage occurs. This is normal wear, not a defect, factor the recurring replacement cost into your real total cost of ownership.",
-  },
-  {
-    subheading: "Match Capacity to Your Actual Equipment",
-    table: {
-      headers: ["Equipment", "Capacity", "Pick"],
-      rows: [
-        ["Full multi-device desktop", "1500VA", "APC BR1500MS2 (rank 1) or BX1500M (rank 2)"],
-        ["Single PC or NAS", "600-850VA", "APC BX850M (rank 4), BE650G1 (rank 5), or BE600M1 (rank 6)"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "APC 850VA/510W Pro UPS Battery Backup for Office Electronics"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "APC UPS 600VA/330W UPS Battery Backup for Computer"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $84",
+          "APC UPS 600VA/330W UPS Battery Backup for Computer"
+        ],
+        [
+          "Up to $300",
+          "APC UPS 1500VA/900W Pure Sine Wave UPS for Computer"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Pure Sine Wave vs Modified Sine Wave",
+    "cards": [
+      {
+        "label": "Pure sine wave",
+        "text": "Clean power matching wall-outlet quality, avoids APFC compatibility issues with modern PC power supplies. In this comparison: APC UPS 1500VA/900W Pure Sine Wave UPS for Computer."
+      },
+      {
+        "label": "Modified sine wave",
+        "text": "Cheaper, but can cause buzzing or shutdown risk on APFC-equipped power supplies. In this comparison: APC UPS 1500VA/900W Battery Backup for PCs, APC 1000VA/600W Pro UPS Battery Backup for Office Electronics, APC 850VA/510W Pro UPS Battery Backup for Office Electronics, APC UPS 650VA/390W Battery Backup & Surge Protector for PC, APC UPS 600VA/330W UPS Battery Backup for Computer."
+      }
+    ],
+    "note": "Default to pure sine wave if your PC has an APFC power supply, which most modern PCs do."
+  },
+  {
+    "subheading": "By Runtime at Real Load",
+    "note": "Check each pick's runtime-at-load chart against your actual equipment's combined wattage draw before buying, not just the headline runtime figure. APC UPS 600VA/330W UPS Battery Backup for Computer is the most-reviewed option here if you want the safer bet."
+  },
+  {
+    "subheading": "For a PC Plus Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Real watts (not VA) comfortably above your combined equipment draw, plus pure sine wave if your PC has an APFC power supply."
+      },
+      {
+        "label": "In this comparison",
+        "text": "APC UPS 1500VA/900W Pure Sine Wave UPS for Computer discloses the highest real capacity at 900W."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You have a high-draw workstation, multiple monitors, or NAS equipment, where APC UPS 1500VA/900W Pure Sine Wave UPS for Computer's higher watts capacity gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need brief runtime for a single low-draw device, where APC UPS 600VA/330W UPS Battery Backup for Computer covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Standard replacement parts, not just a 'replaceable' label, determine real savings", explanation: "A widely available standard replacement battery cartridge genuinely lowers long-term cost, a proprietary or hard-to-source cell can cost nearly as much as a new unit, verify the specific replacement part is standard before relying on this feature." },
-  { criterion: "Budget for the recurring 3-5 year battery replacement cycle", explanation: "Lead-acid UPS batteries age out from time and charge cycles, not just outage frequency, expect a replacement cell every 3-5 years as normal maintenance, not a warranty issue." },
-  { criterion: "Replaceable batteries extend the life of the whole unit, not just save on one purchase", explanation: "Rather than discarding an entire UPS when its battery ages out, a genuinely standard replaceable design lets you keep using the same electronics for many battery-replacement cycles." },
-  { criterion: "Match capacity to your actual equipment before comparing replacement-battery cost", explanation: "A higher-capacity UPS costs more upfront and its replacement battery costs more too, size to your real equipment load first, then compare replacement-battery economics within that capacity tier." },
+  {
+    "criterion": "Convert VA rating to real usable watts before sizing your equipment",
+    "explanation": "A UPS's VA (volt-amps) rating is a marketing number, not the real power it can actually deliver, due to typical UPS power factor design, real usable wattage runs roughly 0.6 times the VA figure, meaning a 1000VA unit is usually rated for about 600W, not the full 1000.\n\nThis matters enormously when sizing a UPS against your actual equipment, buying based on the bigger-looking VA number instead of the real watts figure is a common mistake that leaves less real headroom than expected.\n\nAdd up your actual equipment's real wattage draw (not the power supply's maximum rating, but its typical operating draw), and compare that total against the UPS's stated watts number specifically, not its VA rating."
+  },
+  {
+    "criterion": "Check waveform type against your power supply's compatibility requirements",
+    "explanation": "A UPS outputs either a pure sine wave, matching the clean power from a wall outlet, or a simulated/modified sine wave, a rougher, stepped approximation that's cheaper to produce but can cause certain power supplies, particularly ones with Active Power Factor Correction (APFC), to buzz audibly or shut down unexpectedly when running on battery power.\n\nThis matters directly for a modern PC power supply, which very often includes APFC, running an APFC-equipped PC on a modified sine wave UPS during an outage can trigger exactly the shutdown you bought the UPS to prevent.\n\nCheck whether your PC's power supply is APFC-equipped (common in most modern units), and match it with a pure sine wave UPS specifically if so."
+  },
+  {
+    "criterion": "Estimate real runtime at your actual load, not the UPS's rated maximum runtime",
+    "explanation": "Published runtime figures on a UPS listing are typically measured at a specific test load, often lower than what you'll actually draw with a PC and monitor running, meaning your real runtime during an actual outage will likely be shorter than the headline number suggests.\n\nThis matters because runtime is what actually determines whether you have enough time to save your work and shut down cleanly versus losing everything the moment the battery depletes.\n\nCheck whether the listing provides a runtime-at-load chart or calculator (many UPS brands publish one), and estimate your real runtime at your actual equipment's combined wattage draw, not the single headline runtime figure."
+  },
+  {
+    "criterion": "Consider AVR (Automatic Voltage Regulation) if your power is prone to sags or surges",
+    "explanation": "AVR corrects minor voltage fluctuations, brownouts and small surges, without switching to battery power at all, extending battery lifespan by handling the vast majority of small power irregularities through voltage correction alone rather than draining the battery every time.\n\nThis matters more if you live somewhere with less stable grid power or frequent minor fluctuations, less in an area with consistently clean, stable power.\n\nCheck the listing specifically for AVR as a named feature, not just generic \"surge protection,\" which addresses a different, more severe class of power event."
+  },
+  {
+    "criterion": "Check whether the internal battery is user-replaceable before the unit ages out",
+    "explanation": "Every UPS battery degrades over 3-5 years of use regardless of how well the unit is otherwise built, and a model with a user-replaceable battery lets you extend the UPS's usable life for the cost of a battery alone, while a sealed unit with no replaceable battery means buying an entirely new UPS once the battery degrades.\n\nThis matters directly for total cost of ownership over several years, not just the upfront purchase price.\n\nCheck the listing specifically for \"user-replaceable battery\" language and confirm replacement batteries are readily available for that specific model before assuming any UPS supports this."
+  }
 ];
 
 export const faq: FaqItem[] = [

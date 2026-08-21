@@ -151,31 +151,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Why Modified Sine Wave Can Actually Damage Modern PCs",
-    note: "Modified sine wave output is specifically incompatible with the active power factor correction (APFC) circuitry in most desktop PC power supplies built in the last decade. Running APFC equipment on modified sine wave during an outage can cause audible buzzing, overheating, reduced efficiency, or unexpected shutdown, the exact failure the UPS exists to prevent. If you're unsure whether your PC has an APFC power supply, assume it does, it's now the desktop standard.",
-  },
-  {
-    subheading: "Do You Actually Need Pure Sine Wave?",
-    table: {
-      headers: ["Connected equipment", "Needs pure sine wave?", "Recommended pick"],
-      rows: [
-        ["Modern desktop PC with APFC power supply", "Yes", "APC BR1500MS2 (rank 1) or CyberPower CP1500PFCLCD (rank 3)"],
-        ["Single PC, modest load", "Yes, at lower capacity", "APC BR1000MS (rank 2) or CyberPower CP850PFCLCD (rank 5)"],
-        ["Basic network equipment, simple electronics", "No, modified sine wave is fine", "Consider a modified sine wave model instead to save 30-50%"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "CyberPower CP1500PFCLCD PFC Sinewave UPS Battery Backup and Surge Protector"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "CyberPower CP1500PFCLCD PFC Sinewave UPS Battery Backup and Surge Protector"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Symptom Diagnosis: Buzzing or Unexpected Shutdown on Battery",
-    note: "If your existing UPS causes audible buzzing, overheating, or unexpected shutdown when running on battery power, this is very likely a modified-sine-wave-to-APFC incompatibility, not a failing UPS. Upgrading to a pure sine wave model like the picks in this guide resolves the issue directly.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $170",
+          "CyberPower CP850PFCLCD PFC Sinewave UPS Battery Backup and Surge Protector"
+        ],
+        [
+          "Up to $582",
+          "APC Smart"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Pure Sine Wave vs Modified Sine Wave",
+    "cards": [
+      {
+        "label": "Pure sine wave",
+        "text": "Clean power matching wall-outlet quality, avoids APFC compatibility issues with modern PC power supplies. In this comparison: APC UPS 1500VA/900W Pure Sine Wave UPS for Computer, APC UPS 1000VA/600W Pure Sine Wave UPS for Computer, CyberPower CP1500PFCLCD PFC Sinewave UPS Battery Backup and Surge Protector, CyberPower CP850PFCLCD PFC Sinewave UPS Battery Backup and Surge Protector, APC Smart, GOLDENMATE 1000VA/800W Lithium UPS Battery Backup & Surge Protector."
+      },
+      {
+        "label": "Modified sine wave",
+        "text": "Cheaper, but can cause buzzing or shutdown risk on APFC-equipped power supplies. In this comparison: CyberPower CP1000PFCLCD PFC Sinewave UPS Battery Backup and Surge Protector."
+      }
+    ],
+    "note": "Default to pure sine wave if your PC has an APFC power supply, which most modern PCs do."
+  },
+  {
+    "subheading": "By Replaceable Battery",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "User-replaceable battery for longer usable life",
+          "APC UPS 1500VA/900W Pure Sine Wave UPS for Computer"
+        ],
+        [
+          "Sealed unit is fine",
+          "APC UPS 1000VA/600W Pure Sine Wave UPS for Computer"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a PC Plus Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Real watts (not VA) comfortably above your combined equipment draw, plus pure sine wave if your PC has an APFC power supply."
+      },
+      {
+        "label": "In this comparison",
+        "text": "CyberPower CP1500PFCLCD PFC Sinewave UPS Battery Backup and Surge Protector discloses the highest real capacity at 1000W."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You have a high-draw workstation, multiple monitors, or NAS equipment, where APC Smart's higher watts capacity gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need brief runtime for a single low-draw device, where CyberPower CP850PFCLCD PFC Sinewave UPS Battery Backup and Surge Protector covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "APFC compatibility is the real reason to buy pure sine wave", explanation: "The vast majority of modern desktop PC power supplies use active power factor correction circuitry that specifically requires pure sine wave input, running them on modified sine wave can cause buzzing, overheating, or shutdown." },
-  { criterion: "Pure sine wave isn't a universal upgrade every setup needs", explanation: "Basic network equipment and simple electronics without APFC generally run fine on modified sine wave, the 30-50% price premium for pure sine wave should be weighed against what's actually plugged in." },
-  { criterion: "Efficiency and runtime can differ slightly from modified sine wave designs", explanation: "Pure sine wave inverter designs are sometimes marginally less efficient than simpler modified sine wave designs at the same VA rating, a nuance worth checking if runtime is a priority." },
-  { criterion: "Buzzing or unexpected shutdown on an existing UPS often signals a waveform mismatch", explanation: "If your current UPS causes buzzing or shuts down connected equipment unexpectedly on battery power, the root cause is very likely modified-sine-to-APFC incompatibility, not a defective unit." },
+  {
+    "criterion": "Convert VA rating to real usable watts before sizing your equipment",
+    "explanation": "A UPS's VA (volt-amps) rating is a marketing number, not the real power it can actually deliver, due to typical UPS power factor design, real usable wattage runs roughly 0.6 times the VA figure, meaning a 1000VA unit is usually rated for about 600W, not the full 1000.\n\nThis matters enormously when sizing a UPS against your actual equipment, buying based on the bigger-looking VA number instead of the real watts figure is a common mistake that leaves less real headroom than expected.\n\nAdd up your actual equipment's real wattage draw (not the power supply's maximum rating, but its typical operating draw), and compare that total against the UPS's stated watts number specifically, not its VA rating."
+  },
+  {
+    "criterion": "Check waveform type against your power supply's compatibility requirements",
+    "explanation": "A UPS outputs either a pure sine wave, matching the clean power from a wall outlet, or a simulated/modified sine wave, a rougher, stepped approximation that's cheaper to produce but can cause certain power supplies, particularly ones with Active Power Factor Correction (APFC), to buzz audibly or shut down unexpectedly when running on battery power.\n\nThis matters directly for a modern PC power supply, which very often includes APFC, running an APFC-equipped PC on a modified sine wave UPS during an outage can trigger exactly the shutdown you bought the UPS to prevent.\n\nCheck whether your PC's power supply is APFC-equipped (common in most modern units), and match it with a pure sine wave UPS specifically if so."
+  },
+  {
+    "criterion": "Estimate real runtime at your actual load, not the UPS's rated maximum runtime",
+    "explanation": "Published runtime figures on a UPS listing are typically measured at a specific test load, often lower than what you'll actually draw with a PC and monitor running, meaning your real runtime during an actual outage will likely be shorter than the headline number suggests.\n\nThis matters because runtime is what actually determines whether you have enough time to save your work and shut down cleanly versus losing everything the moment the battery depletes.\n\nCheck whether the listing provides a runtime-at-load chart or calculator (many UPS brands publish one), and estimate your real runtime at your actual equipment's combined wattage draw, not the single headline runtime figure."
+  },
+  {
+    "criterion": "Consider AVR (Automatic Voltage Regulation) if your power is prone to sags or surges",
+    "explanation": "AVR corrects minor voltage fluctuations, brownouts and small surges, without switching to battery power at all, extending battery lifespan by handling the vast majority of small power irregularities through voltage correction alone rather than draining the battery every time.\n\nThis matters more if you live somewhere with less stable grid power or frequent minor fluctuations, less in an area with consistently clean, stable power.\n\nCheck the listing specifically for AVR as a named feature, not just generic \"surge protection,\" which addresses a different, more severe class of power event."
+  },
+  {
+    "criterion": "Check whether the internal battery is user-replaceable before the unit ages out",
+    "explanation": "Every UPS battery degrades over 3-5 years of use regardless of how well the unit is otherwise built, and a model with a user-replaceable battery lets you extend the UPS's usable life for the cost of a battery alone, while a sealed unit with no replaceable battery means buying an entirely new UPS once the battery degrades.\n\nThis matters directly for total cost of ownership over several years, not just the upfront purchase price.\n\nCheck the listing specifically for \"user-replaceable battery\" language and confirm replacement batteries are readily available for that specific model before assuming any UPS supports this."
+  }
 ];
 
 export const faq: FaqItem[] = [
