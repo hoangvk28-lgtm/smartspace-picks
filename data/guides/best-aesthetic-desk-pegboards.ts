@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     id: "keepo-tan-aesthetic",
     rank: 5,
     badge: "Best High-Volume Aesthetic Pick",
-    name: "Keepo Peg Board Wall Organizer – Plastic Pegboard Panels, Modular Peg Board Storage System for Home Office, Craft Room, Gaming Setup (Tan Brown, 22″×22″)",
+    name: "Keepo Peg Board Wall Organizer, Plastic Pegboard Panels, Modular Peg Board Storage System for Home Office, Craft Room, Gaming Setup (Tan Brown, 22″×22″)",
     price: "$45.99",
     rating: "4.3 stars from 1,790 Amazon ratings",
     reviews: "1,790 ratings",
@@ -118,46 +118,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Aesthetic Appeal Shouldn't Come at the Cost of Basic Function",
-    note: "'Aesthetic' framing should be evaluated against genuine functional pegboard qualities, hole-spacing compatibility, material quality, weight capacity, verifying visual appeal doesn't come at the cost of basic functional compatibility. A clean look should be a bonus, not a tradeoff against real usability.",
-  },
-  {
-    subheading: "Check That Hook Density Isn't Sacrificed for a Cleaner Look",
-    note: "Verify whether 'aesthetic' pegboards sacrifice functional hook density, fewer holes for a cleaner look, in ways that reduce practical accessory-hanging capacity compared to standard utilitarian pegboards. A minimalist look with fewer holes may limit how much you can actually organize.",
-  },
-  {
-    subheading: "Understand What You're Paying For",
-    note: "Weigh the price premium for aesthetic-focused designs honestly against functional pegboards, understanding whether you're paying primarily for looks versus genuine functional improvement. Some aesthetic picks in this guide carry no meaningful premium at all, others do, check per specific product.",
-  },
-  {
-    subheading: "Match Your Aesthetic Priority to a Specific Pick",
-    table: {
-      headers: ["Your aesthetic priority", "Recommended pick"],
-      rows: [
-        ["Clean minimalist white, verified standard hole-spacing", "PEGZONE Clamp-On Pegboard (White)"],
-        ["Sleek black minimalism, same verified spacing", "PEGZONE Clamp-On Pegboard (Black)"],
-        ["Larger surface without sacrificing hook density", "VUSIGN 22\"x22\" Combination Kit"],
-        ["Build a custom look incrementally over time", "Zestify Modular Storage Kit (White)"],
-        ["Distinct natural wood-tone aesthetic", "Keepo Modular Panels (Tan Brown)"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "PEGZONE Clamp on Desk Pegboard"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Keepo Peg Board Wall Organizer, Plastic Pegboard Panels"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Signs a Product Is Prioritizing Looks Over Genuine Function",
-    cards: [
-      { label: "Vague or missing hole-spacing specifications", text: "A functional pegboard discloses its hole spacing clearly, if a listing only shows styled photos without spec details, that's a signal to dig deeper before buying." },
-      { label: "Included accessories that don't match standard hook sizes", text: "If the bundled hooks look unusually thin, oversized, or oddly shaped compared to typical pegboard hardware, off-the-shelf accessories may not fit later." },
-      { label: "Marketing language emphasizing 'Instagram-worthy' over capacity or weight rating", text: "This isn't disqualifying on its own, but it's worth balancing against genuine functional specs rather than trusting styling alone." },
-    ],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $36",
+          "PEGZONE Clamp on Desk Pegboard"
+        ],
+        [
+          "Up to $46",
+          "Keepo Peg Board Wall Organizer, Plastic Pegboard Panels"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Clamp-On vs Screwed Mount",
+    "cards": [
+      {
+        "label": "Clamp-on",
+        "text": "No drilling required, the safer choice for a rented space or shared furniture. In this comparison: PEGZONE Clamp on Desk Pegboard, PEGZONE Clamp on Desk Pegboard."
+      },
+      {
+        "label": "Screwed mount",
+        "text": "Generally more rigid and stable once loaded, worth it if you own the desk. In this comparison: VUSIGN Peg Board Combination Kit 22\"x22\" Pegboards, Zestify Pegboard Wall Organizer Kit, Keepo Peg Board Wall Organizer, Plastic Pegboard Panels."
+      }
+    ],
+    "note": "Default to clamp-on unless you own the desk and want maximum loaded stability."
+  },
+  {
+    "subheading": "By Panel Size",
+    "note": "Check each pick's listed panel dimensions against your desk's available depth and width before buying. Keepo Peg Board Wall Organizer, Plastic Pegboard Panels is the most-reviewed option here if you want the safer bet."
+  },
+  {
+    "subheading": "For a Loaded, Multi-Accessory Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Genuine metal or thick MDF construction, confirmed standard hole spacing, and a wall-anchor mounting option for stability once loaded with monitor arms and accessories."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Keepo Peg Board Wall Organizer, Plastic Pegboard Panels is worth checking against its listed material and mounting method before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You plan to load the board with monitor arms and multiple accessories, where Keepo Peg Board Wall Organizer, Plastic Pegboard Panels's material and mounting give real stability headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need a few lightweight decorative hooks, where PEGZONE Clamp on Desk Pegboard covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Aesthetic appeal shouldn't come at the cost of basic functional compatibility", explanation: "Verify hole-spacing compatibility, material quality, and weight capacity still meet standard functional criteria despite aesthetic-first marketing." },
-  { criterion: "Check that hook density isn't sacrificed for a cleaner look", explanation: "A minimalist design with fewer holes for aesthetic appeal may reduce practical accessory-hanging capacity compared to standard utilitarian pegboards." },
-  { criterion: "Verify genuine hole-spacing standardization for social-media-marketed products", explanation: "Aesthetically-driven products marketed through social media sometimes prioritize visual novelty over practical accessory compatibility, check this directly." },
-  { criterion: "Understand whether you're paying for looks or genuine functional improvement", explanation: "Some aesthetic picks carry no meaningful price premium, others do, weigh the specific product's price against comparable functional pegboards honestly." },
-  { criterion: "Watch for vague specs as a signal of style-over-substance marketing", explanation: "A genuinely functional pegboard discloses hole spacing and weight capacity clearly, missing specs alongside heavy styling photos is worth extra scrutiny." },
+  {
+    "criterion": "Confirm genuine standard hole spacing before buying separate accessories",
+    "explanation": "Real pegboard-style panels use standardized 1-inch hole spacing that any generic hook or accessory set is designed to fit, but not every product marketed as a \"pegboard\" actually uses this standard, some branded organizer systems use proprietary hole shapes or spacing that only accept that brand's own accessories.\n\nThis compatibility trap is rarely disclosed clearly on the listing page, and discovering it after buying a separate hook set that doesn't fit is a frustrating, avoidable mistake.\n\nCheck the listing specifically for confirmation of standard 1-inch hole spacing, or check reviews for mentions of using third-party hooks successfully, before assuming any board will accept accessories bought separately."
+  },
+  {
+    "criterion": "Check material quality against real sag resistance over months of use",
+    "explanation": "The board's material determines how much weight each hook can actually hold and whether the panel visibly sags after months of real use, genuine pegboard-grade hardboard, MDF, or metal holds up meaningfully better under sustained weight than thin decorative board that's simply printed or cut with a pegboard-style pattern for looks.\n\nThis matters directly if you plan to hang anything with real weight, monitor arms, tool organizers, or multiple loaded shelves, versus just a few lightweight decorative items.\n\nCheck the listing for the specific stated material and thickness, and check reviews for mentions of sagging or warping over time, not just the initial unboxing appearance."
+  },
+  {
+    "criterion": "Consider loaded-condition tipping stability, not just the empty board's footprint",
+    "explanation": "A pegboard mounted vertically at the back of a desk creates real tipping leverage once it's actually loaded with monitor arms, hooks, and shelves, a board that looks perfectly stable empty in a product photo can behave very differently once weighted, especially on a lighter desk without a wall anchor point.\n\nThis matters more the taller and heavier the loaded board becomes relative to the desk's own weight and base stability.\n\nCheck whether the product includes or supports a wall-anchor mounting option, and check reviews specifically for mentions of stability once the board is actually loaded with accessories, not just how it looks unmounted."
+  },
+  {
+    "criterion": "Match desk depth loss to how much usable surface you can actually give up",
+    "explanation": "A pegboard mounted at the back of a desk, especially a large panel, meaningfully reduces the usable flat desk surface in front of it, a tradeoff that's easy to underestimate from a product photo alone since the panel's actual footprint eats directly into working space you'd otherwise use for a keyboard, notebook, or additional monitor placement.\n\nThis matters more on a smaller or shallower desk where every inch of depth counts, less on a large desk with depth to spare.\n\nCheck the listed panel depth and desk clearance requirements against your actual desk's dimensions, not just the panel's height and width, before assuming it fits comfortably."
+  },
+  {
+    "criterion": "Weigh mounting method against your desk type and whether you can drill into it",
+    "explanation": "Pegboards mount to a desk in different ways, clamp-on brackets that grip the desk edge without drilling, freestanding designs that sit on the desk surface, or permanently screwed mounts, and which one applies to you depends heavily on your desk's construction and whether you're allowed or willing to drill into it.\n\nThis matters directly for a rented space, shared office furniture, or a desk you don't want to permanently modify, where a clamp-on or freestanding design is the safer choice even if it offers somewhat less rigid stability than a screwed mount.\n\nCheck the specific mounting method and confirm it's compatible with your desk's edge thickness and material before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

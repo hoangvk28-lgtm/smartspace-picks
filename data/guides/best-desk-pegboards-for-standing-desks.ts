@@ -101,32 +101,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "There Isn't a Large Dedicated Product Category Here",
-    note: "Genuine standing-desk-specific pegboards are uncommon, most buyers choose a general clamp-on pegboard and mount it to the desktop itself rather than the frame. This guide recommends general pegboards evaluated specifically for that mounting distinction.",
-  },
-  {
-    subheading: "Mount to the Desktop, Not the Fixed Frame",
-    note: "A board clamped to the moving desktop surface travels naturally with height adjustment, while one attached to a fixed frame component can create cable or attachment interference as the desk rises and falls. Always choose desktop mounting for a standing desk.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Balanced desktop-mounted setup", "EUREKA ERGONOMIC 43x34 Pegboard"],
-        ["Wide standing desk full coverage", "EUREKA ERGONOMIC 59x34 Pegboard"],
-        ["Budget desktop-mounted large panel", "Sailret 59x35 Clamp-On Pegboard"],
-        ["Heavier loads through repeated height changes", "VIVO Triple Clamp Pegboard System"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "VIVO Steel Triple Clamp Desk Pegboard System with 2 Monitor Mounts and Storage Shelf"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "EUREKA ERGONOMIC Desk Pegboard with Dual Monitor Stands"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $80",
+          "Sailret Clamp"
+        ],
+        [
+          "Up to $270",
+          "EUREKA ERGONOMIC Desk Pegboard Dual Monitor Stand 59x34 White"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Review Base vs Price",
+    "cards": [
+      {
+        "label": "Sailret Clamp",
+        "text": "The lower-priced option in this comparison, worth checking its material and mounting method against your desk."
+      },
+      {
+        "label": "EUREKA ERGONOMIC Desk Pegboard Dual Monitor Stand 59x34 White",
+        "text": "The higher-priced option, worth it if it offers real material or feature headroom above the cheaper pick."
+      }
+    ],
+    "note": "Default to Sailret Clamp unless your specific needs genuinely call for the pricier pick."
+  },
+  {
+    "subheading": "By Built-In Shelving",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Want built-in shelves for extra storage",
+          "VIVO Steel Triple Clamp Desk Pegboard System with 2 Monitor Mounts and Storage Shelf"
+        ],
+        [
+          "Hooks alone are enough",
+          "EUREKA ERGONOMIC Desk Pegboard with Dual Monitor Stands"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Loaded, Multi-Accessory Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Genuine metal or thick MDF construction, confirmed standard hole spacing, and a wall-anchor mounting option for stability once loaded with monitor arms and accessories."
+      },
+      {
+        "label": "In this comparison",
+        "text": "EUREKA ERGONOMIC Desk Pegboard with Dual Monitor Stands is worth checking against its listed material and mounting method before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You plan to load the board with monitor arms and multiple accessories, where EUREKA ERGONOMIC Desk Pegboard Dual Monitor Stand 59x34 White's material and mounting give real stability headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need a few lightweight decorative hooks, where Sailret Clamp covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Mount to the desktop, not a fixed frame component", explanation: "A board clamped to the moving desktop travels with height adjustment, while one on a fixed frame part can create cable interference as the desk moves." },
-  { criterion: "Keep heavier or loose items secured", explanation: "Hung cables and small tools can shift or swing during a rapid height adjustment, favor a multi-clamp board if you adjust height often." },
-  { criterion: "Factor board weight into your desk's lift capacity", explanation: "A large panel with a shelf and monitor mounts adds real weight for the standing desk motor to lift alongside your usual desktop load." },
-  { criterion: "Don't expect a large dedicated product category", explanation: "Purpose-built standing-desk pegboards are uncommon, a general desktop-clamped pegboard evaluated for this mounting distinction works well instead." },
+  {
+    "criterion": "Confirm genuine standard hole spacing before buying separate accessories",
+    "explanation": "Real pegboard-style panels use standardized 1-inch hole spacing that any generic hook or accessory set is designed to fit, but not every product marketed as a \"pegboard\" actually uses this standard, some branded organizer systems use proprietary hole shapes or spacing that only accept that brand's own accessories.\n\nThis compatibility trap is rarely disclosed clearly on the listing page, and discovering it after buying a separate hook set that doesn't fit is a frustrating, avoidable mistake.\n\nCheck the listing specifically for confirmation of standard 1-inch hole spacing, or check reviews for mentions of using third-party hooks successfully, before assuming any board will accept accessories bought separately."
+  },
+  {
+    "criterion": "Check material quality against real sag resistance over months of use",
+    "explanation": "The board's material determines how much weight each hook can actually hold and whether the panel visibly sags after months of real use, genuine pegboard-grade hardboard, MDF, or metal holds up meaningfully better under sustained weight than thin decorative board that's simply printed or cut with a pegboard-style pattern for looks.\n\nThis matters directly if you plan to hang anything with real weight, monitor arms, tool organizers, or multiple loaded shelves, versus just a few lightweight decorative items.\n\nCheck the listing for the specific stated material and thickness, and check reviews for mentions of sagging or warping over time, not just the initial unboxing appearance."
+  },
+  {
+    "criterion": "Consider loaded-condition tipping stability, not just the empty board's footprint",
+    "explanation": "A pegboard mounted vertically at the back of a desk creates real tipping leverage once it's actually loaded with monitor arms, hooks, and shelves, a board that looks perfectly stable empty in a product photo can behave very differently once weighted, especially on a lighter desk without a wall anchor point.\n\nThis matters more the taller and heavier the loaded board becomes relative to the desk's own weight and base stability.\n\nCheck whether the product includes or supports a wall-anchor mounting option, and check reviews specifically for mentions of stability once the board is actually loaded with accessories, not just how it looks unmounted."
+  },
+  {
+    "criterion": "Match desk depth loss to how much usable surface you can actually give up",
+    "explanation": "A pegboard mounted at the back of a desk, especially a large panel, meaningfully reduces the usable flat desk surface in front of it, a tradeoff that's easy to underestimate from a product photo alone since the panel's actual footprint eats directly into working space you'd otherwise use for a keyboard, notebook, or additional monitor placement.\n\nThis matters more on a smaller or shallower desk where every inch of depth counts, less on a large desk with depth to spare.\n\nCheck the listed panel depth and desk clearance requirements against your actual desk's dimensions, not just the panel's height and width, before assuming it fits comfortably."
+  },
+  {
+    "criterion": "Weigh mounting method against your desk type and whether you can drill into it",
+    "explanation": "Pegboards mount to a desk in different ways, clamp-on brackets that grip the desk edge without drilling, freestanding designs that sit on the desk surface, or permanently screwed mounts, and which one applies to you depends heavily on your desk's construction and whether you're allowed or willing to drill into it.\n\nThis matters directly for a rented space, shared office furniture, or a desk you don't want to permanently modify, where a clamp-on or freestanding design is the safer choice even if it offers somewhat less rigid stability than a screwed mount.\n\nCheck the specific mounting method and confirm it's compatible with your desk's edge thickness and material before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

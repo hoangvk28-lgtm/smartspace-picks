@@ -101,32 +101,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Check the Shelf's Weight Limit Separately from the Board's",
-    note: "A pegboard's overall hook-load rating doesn't automatically apply to its shelf attachment, these are often separate limits. Verify both independently before loading the shelf with anything heavier than light desk accessories.",
-  },
-  {
-    subheading: "A Loaded Shelf Adds More Tipping Leverage Than Hooks Alone",
-    note: "Because a shelf projects forward from the board rather than hanging flat, it increases tipping leverage more than simple hooks do. A multi-clamp mount or an under-desk horizontal tray both offset this better than a single-clamp vertical shelf.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Full pegboard-and-shelf system with best tip resistance", "VIVO Triple Clamp Pegboard System"],
-        ["Compact clamp-on shelf for a smaller desk", "Metal Clamp On Desk Shelf with Pegboard"],
-        ["Lower-leverage under-desk shelf tray", "PEGZONE Under Desk Cable Management Tray"],
-        ["Widest under-desk tray with the largest review base", "Univivi 36 Inch Cable Management Tray"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "PEGZONE Under Desk Cable Management Tray"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Univivi No Drill Under Desk Cable Management Tray"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $26",
+          "PEGZONE Under Desk Cable Management Tray"
+        ],
+        [
+          "Up to $170",
+          "VIVO Steel Triple Clamp Desk Pegboard System with 2 Monitor Mounts and Storage Shelf"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Built-In Monitor Mount vs Board-Only",
+    "cards": [
+      {
+        "label": "Built-in monitor mount",
+        "text": "Combines cable management and monitor positioning in one panel, saving a separate monitor arm purchase. In this comparison: VIVO Steel Triple Clamp Desk Pegboard System with 2 Monitor Mounts and Storage Shelf."
+      },
+      {
+        "label": "Board-only",
+        "text": "Simpler and usually cheaper, fine if you already have a separate monitor arm or stand. In this comparison: Metal Clamp On Desk Shelf, PEGZONE Under Desk Cable Management Tray, Univivi No Drill Under Desk Cable Management Tray."
+      }
+    ],
+    "note": "Default to board-only unless you specifically need to consolidate a monitor mount into the same purchase."
+  },
+  {
+    "subheading": "By Panel Size",
+    "note": "Check each pick's listed panel dimensions against your desk's available depth and width before buying. Univivi No Drill Under Desk Cable Management Tray is the most-reviewed option here if you want the safer bet."
+  },
+  {
+    "subheading": "For a Loaded, Multi-Accessory Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Genuine metal or thick MDF construction, confirmed standard hole spacing, and a wall-anchor mounting option for stability once loaded with monitor arms and accessories."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Univivi No Drill Under Desk Cable Management Tray is worth checking against its listed material and mounting method before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You plan to load the board with monitor arms and multiple accessories, where VIVO Steel Triple Clamp Desk Pegboard System with 2 Monitor Mounts and Storage Shelf's material and mounting give real stability headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need a few lightweight decorative hooks, where PEGZONE Under Desk Cable Management Tray covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify shelf weight capacity separately from the board's", explanation: "A pegboard's general hook-load rating doesn't automatically cover the shelf attachment, check both limits independently." },
-  { criterion: "Account for the shelf's added tipping leverage", explanation: "A forward-projecting shelf adds more tipping risk than hooks alone, favor a multi-clamp mount or under-desk placement if loading it heavily." },
-  { criterion: "Confirm the shelf attachment mechanism", explanation: "Some shelves use the board's standard pegs or hooks while others rely on a proprietary bracket that limits repositioning later." },
-  { criterion: "Look for a raised edge lip on the shelf", explanation: "An edge lip keeps small items from sliding off during normal desk use, not every shelf includes this detail." },
+  {
+    "criterion": "Confirm genuine standard hole spacing before buying separate accessories",
+    "explanation": "Real pegboard-style panels use standardized 1-inch hole spacing that any generic hook or accessory set is designed to fit, but not every product marketed as a \"pegboard\" actually uses this standard, some branded organizer systems use proprietary hole shapes or spacing that only accept that brand's own accessories.\n\nThis compatibility trap is rarely disclosed clearly on the listing page, and discovering it after buying a separate hook set that doesn't fit is a frustrating, avoidable mistake.\n\nCheck the listing specifically for confirmation of standard 1-inch hole spacing, or check reviews for mentions of using third-party hooks successfully, before assuming any board will accept accessories bought separately."
+  },
+  {
+    "criterion": "Check material quality against real sag resistance over months of use",
+    "explanation": "The board's material determines how much weight each hook can actually hold and whether the panel visibly sags after months of real use, genuine pegboard-grade hardboard, MDF, or metal holds up meaningfully better under sustained weight than thin decorative board that's simply printed or cut with a pegboard-style pattern for looks.\n\nThis matters directly if you plan to hang anything with real weight, monitor arms, tool organizers, or multiple loaded shelves, versus just a few lightweight decorative items.\n\nCheck the listing for the specific stated material and thickness, and check reviews for mentions of sagging or warping over time, not just the initial unboxing appearance."
+  },
+  {
+    "criterion": "Consider loaded-condition tipping stability, not just the empty board's footprint",
+    "explanation": "A pegboard mounted vertically at the back of a desk creates real tipping leverage once it's actually loaded with monitor arms, hooks, and shelves, a board that looks perfectly stable empty in a product photo can behave very differently once weighted, especially on a lighter desk without a wall anchor point.\n\nThis matters more the taller and heavier the loaded board becomes relative to the desk's own weight and base stability.\n\nCheck whether the product includes or supports a wall-anchor mounting option, and check reviews specifically for mentions of stability once the board is actually loaded with accessories, not just how it looks unmounted."
+  },
+  {
+    "criterion": "Match desk depth loss to how much usable surface you can actually give up",
+    "explanation": "A pegboard mounted at the back of a desk, especially a large panel, meaningfully reduces the usable flat desk surface in front of it, a tradeoff that's easy to underestimate from a product photo alone since the panel's actual footprint eats directly into working space you'd otherwise use for a keyboard, notebook, or additional monitor placement.\n\nThis matters more on a smaller or shallower desk where every inch of depth counts, less on a large desk with depth to spare.\n\nCheck the listed panel depth and desk clearance requirements against your actual desk's dimensions, not just the panel's height and width, before assuming it fits comfortably."
+  },
+  {
+    "criterion": "Weigh mounting method against your desk type and whether you can drill into it",
+    "explanation": "Pegboards mount to a desk in different ways, clamp-on brackets that grip the desk edge without drilling, freestanding designs that sit on the desk surface, or permanently screwed mounts, and which one applies to you depends heavily on your desk's construction and whether you're allowed or willing to drill into it.\n\nThis matters directly for a rented space, shared office furniture, or a desk you don't want to permanently modify, where a clamp-on or freestanding design is the safer choice even if it offers somewhat less rigid stability than a screwed mount.\n\nCheck the specific mounting method and confirm it's compatible with your desk's edge thickness and material before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

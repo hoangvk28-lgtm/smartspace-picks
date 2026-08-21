@@ -118,46 +118,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "This Keyword Means a Complete Desk, Not Just a Pegboard",
-    note: "This keyword likely represents integrated desk products, a desk with a built-in pegboard back panel, rather than a separate pegboard accessory. If you just want a pegboard organizer for an existing desk, check our standalone desk pegboard research instead of a full desk purchase.",
-  },
-  {
-    subheading: "Evaluate the Desk Itself, Not Just the Pegboard Bonus",
-    note: "If genuinely an integrated desk product, evaluate the desk's own quality, surface material, stability, cable management, as a complete product, not just the attached pegboard component in isolation. The pegboard should be a genuine bonus feature on a solid desk, not the sole reason to buy.",
-  },
-  {
-    subheading: "Consider the Honest Separate-Purchase Alternative",
-    note: "Present the honest alternative of buying a standard desk and a separate pegboard for buyers who want more flexibility than an integrated combination product offers. This gives you independent control over desk quality and pegboard style rather than a fixed combined design.",
-  },
-  {
-    subheading: "Match Your Room and Setup Type to a Specific Pick",
-    table: {
-      headers: ["Your room and setup", "Recommended pick"],
-      rows: [
-        ["Most-proven corner gaming setup", "SEDETA L Shaped Gaming Corner Desk"],
-        ["Traditional home office with heavy document storage", "SEDETA L Shaped Office Desk with Bookshelf"],
-        ["Full-featured executive setup with file storage", "SEDETA 71-Inch Executive Desk"],
-        ["Modern all-in-one gaming workstation", "Gaming Desk with LED Lighting and Charging Station"],
-        ["Sit-stand flexibility with pegboard organization", "UPOSOJA L Shaped Standing Desk"],
+    "subheading": "By Material",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Most-reviewed, strongest reliability signal",
+          "SEDETA L Shaped Gaming Corner Desk with Drawers"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Questions to Ask Before Buying an Integrated Desk-Pegboard Product",
-    cards: [
-      { label: "Does the pegboard use standard hole-spacing?", text: "Confirm you can add off-the-shelf pegboard accessories later rather than being locked into whatever hooks ship with the desk." },
-      { label: "Is the desk surface itself large enough for your monitor setup?", text: "Don't let the pegboard feature distract from verifying basic desk dimensions fit your actual monitor, keyboard, and mouse arrangement." },
-      { label: "What's the realistic two-person assembly time?", text: "Combined furniture products with drawers, hutches, and pegboards commonly take 2-4 hours for two people, plan your installation day accordingly." },
-    ],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $180",
+          "SEDETA L Shaped Gaming Corner Desk with Drawers"
+        ],
+        [
+          "Up to $270",
+          "UPOSOJA L Shaped Standing Desk Adjustable Height"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Review Base vs Price",
+    "cards": [
+      {
+        "label": "SEDETA L Shaped Gaming Corner Desk with Drawers",
+        "text": "The lower-priced option in this comparison, worth checking its material and mounting method against your desk."
+      },
+      {
+        "label": "UPOSOJA L Shaped Standing Desk Adjustable Height",
+        "text": "The higher-priced option, worth it if it offers real material or feature headroom above the cheaper pick."
+      }
+    ],
+    "note": "Default to SEDETA L Shaped Gaming Corner Desk with Drawers unless your specific needs genuinely call for the pricier pick."
+  },
+  {
+    "subheading": "By Built-In Shelving",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Want built-in shelves for extra storage",
+          "SEDETA L Shaped Gaming Corner Desk with Drawers"
+        ],
+        [
+          "Hooks alone are enough",
+          "Gaming Desk With LED Lighting And Charging Station"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Loaded, Multi-Accessory Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Genuine metal or thick MDF construction, confirmed standard hole spacing, and a wall-anchor mounting option for stability once loaded with monitor arms and accessories."
+      },
+      {
+        "label": "In this comparison",
+        "text": "SEDETA L Shaped Gaming Corner Desk with Drawers is worth checking against its listed material and mounting method before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You plan to load the board with monitor arms and multiple accessories, where UPOSOJA L Shaped Standing Desk Adjustable Height's material and mounting give real stability headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need a few lightweight decorative hooks, where SEDETA L Shaped Gaming Corner Desk with Drawers covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "This keyword means a complete desk, not just a pegboard accessory", explanation: "Verify actual product category, this represents an integrated desk with a built-in pegboard back panel rather than a separate organizer for your existing desk." },
-  { criterion: "Evaluate the desk's own quality, not just the pegboard bonus feature", explanation: "Surface material, stability, and cable management deserve full evaluation as a complete product, not just the attached pegboard component in isolation." },
-  { criterion: "Expect more assembly complexity than a standalone desk or pegboard", explanation: "Combining two furniture types in one product can increase assembly difficulty compared to either purchased separately, budget more time." },
-  { criterion: "Consider whether a separate desk and pegboard offers more flexibility", explanation: "A standard desk plus a separate pegboard purchase gives you independent control over quality and style versus a fixed integrated combination." },
-  { criterion: "Confirm the desk surface fits your actual monitor and peripheral setup", explanation: "Don't let the pegboard feature distract from checking basic desk dimensions genuinely accommodate your monitor, keyboard, and mouse arrangement." },
+  {
+    "criterion": "Confirm genuine standard hole spacing before buying separate accessories",
+    "explanation": "Real pegboard-style panels use standardized 1-inch hole spacing that any generic hook or accessory set is designed to fit, but not every product marketed as a \"pegboard\" actually uses this standard, some branded organizer systems use proprietary hole shapes or spacing that only accept that brand's own accessories.\n\nThis compatibility trap is rarely disclosed clearly on the listing page, and discovering it after buying a separate hook set that doesn't fit is a frustrating, avoidable mistake.\n\nCheck the listing specifically for confirmation of standard 1-inch hole spacing, or check reviews for mentions of using third-party hooks successfully, before assuming any board will accept accessories bought separately."
+  },
+  {
+    "criterion": "Check material quality against real sag resistance over months of use",
+    "explanation": "The board's material determines how much weight each hook can actually hold and whether the panel visibly sags after months of real use, genuine pegboard-grade hardboard, MDF, or metal holds up meaningfully better under sustained weight than thin decorative board that's simply printed or cut with a pegboard-style pattern for looks.\n\nThis matters directly if you plan to hang anything with real weight, monitor arms, tool organizers, or multiple loaded shelves, versus just a few lightweight decorative items.\n\nCheck the listing for the specific stated material and thickness, and check reviews for mentions of sagging or warping over time, not just the initial unboxing appearance."
+  },
+  {
+    "criterion": "Consider loaded-condition tipping stability, not just the empty board's footprint",
+    "explanation": "A pegboard mounted vertically at the back of a desk creates real tipping leverage once it's actually loaded with monitor arms, hooks, and shelves, a board that looks perfectly stable empty in a product photo can behave very differently once weighted, especially on a lighter desk without a wall anchor point.\n\nThis matters more the taller and heavier the loaded board becomes relative to the desk's own weight and base stability.\n\nCheck whether the product includes or supports a wall-anchor mounting option, and check reviews specifically for mentions of stability once the board is actually loaded with accessories, not just how it looks unmounted."
+  },
+  {
+    "criterion": "Match desk depth loss to how much usable surface you can actually give up",
+    "explanation": "A pegboard mounted at the back of a desk, especially a large panel, meaningfully reduces the usable flat desk surface in front of it, a tradeoff that's easy to underestimate from a product photo alone since the panel's actual footprint eats directly into working space you'd otherwise use for a keyboard, notebook, or additional monitor placement.\n\nThis matters more on a smaller or shallower desk where every inch of depth counts, less on a large desk with depth to spare.\n\nCheck the listed panel depth and desk clearance requirements against your actual desk's dimensions, not just the panel's height and width, before assuming it fits comfortably."
+  },
+  {
+    "criterion": "Weigh mounting method against your desk type and whether you can drill into it",
+    "explanation": "Pegboards mount to a desk in different ways, clamp-on brackets that grip the desk edge without drilling, freestanding designs that sit on the desk surface, or permanently screwed mounts, and which one applies to you depends heavily on your desk's construction and whether you're allowed or willing to drill into it.\n\nThis matters directly for a rented space, shared office furniture, or a desk you don't want to permanently modify, where a clamp-on or freestanding design is the safer choice even if it offers somewhat less rigid stability than a screwed mount.\n\nCheck the specific mounting method and confirm it's compatible with your desk's edge thickness and material before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

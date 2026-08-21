@@ -101,32 +101,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "This Guide Is for Vendors, Not Home Desk Organization",
-    note: "If you searched for a tabletop pegboard expecting a home-office desk organizer, check our other pegboard guides instead, these four picks are genuinely retail and craft-show display products for showcasing items for sale.",
-  },
-  {
-    subheading: "Judge These by Display Quality, Not Daily-Use Durability",
-    note: "A customer-facing display stand prioritizes an aesthetic finish shoppers will notice over the heavy-duty durability expected from a desk pegboard used daily for years. Factor that into your quality expectations here.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Reliable single stand, light-colored display", "Acfunique 17x13 Display Stand, White"],
-        ["Reliable single stand, dark display", "Peg Board Display Stand, 17x13, Black"],
-        ["Keychain or small-item focused, higher capacity", "Peg Board Display Stand, 2PC Keychain Set"],
-        ["Larger booth needing maximum display area", "Ultrawall 4-Panel Display Stand Set"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Acfunique Peg Board Display Stand for Vendors with 12 Hooks"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Peg Board Display Stand"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $20",
+          "Acfunique Peg Board Display Stand for Vendors with 12 Hooks"
+        ],
+        [
+          "Up to $46",
+          "Ultrawall Pegboard Display Stand"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Review Base vs Price",
+    "cards": [
+      {
+        "label": "Acfunique Peg Board Display Stand for Vendors with 12 Hooks",
+        "text": "The lower-priced option in this comparison, worth checking its material and mounting method against your desk."
+      },
+      {
+        "label": "Ultrawall Pegboard Display Stand",
+        "text": "The higher-priced option, worth it if it offers real material or feature headroom above the cheaper pick."
+      }
+    ],
+    "note": "Default to Acfunique Peg Board Display Stand for Vendors with 12 Hooks unless your specific needs genuinely call for the pricier pick."
+  },
+  {
+    "subheading": "By Panel Size",
+    "note": "Check each pick's listed panel dimensions against your desk's available depth and width before buying. Peg Board Display Stand is the most-reviewed option here if you want the safer bet."
+  },
+  {
+    "subheading": "For a Loaded, Multi-Accessory Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Genuine metal or thick MDF construction, confirmed standard hole spacing, and a wall-anchor mounting option for stability once loaded with monitor arms and accessories."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Peg Board Display Stand is worth checking against its listed material and mounting method before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You plan to load the board with monitor arms and multiple accessories, where Ultrawall Pegboard Display Stand's material and mounting give real stability headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need a few lightweight decorative hooks, where Acfunique Peg Board Display Stand for Vendors with 12 Hooks covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm this matches your actual use case", explanation: "These are retail and craft-show display products, if you want home desk cable or accessory organization, check a dedicated desk pegboard guide instead." },
-  { criterion: "Match hook count to your inventory volume", explanation: "A single 12-hook stand suits a small booth, a multi-panel set suits a larger retail counter with more inventory to display." },
-  { criterion: "Judge finish quality by display standards, not daily-use durability", explanation: "Customer-facing display stands prioritize an aesthetic look over the heavy-duty build expected from a desk-organization pegboard." },
-  { criterion: "Consider setup and teardown time for mobile vendors", explanation: "A single stand sets up faster for a mobile craft-show booth, while a multi-panel set takes longer but offers more display flexibility." },
+  {
+    "criterion": "Confirm genuine standard hole spacing before buying separate accessories",
+    "explanation": "Real pegboard-style panels use standardized 1-inch hole spacing that any generic hook or accessory set is designed to fit, but not every product marketed as a \"pegboard\" actually uses this standard, some branded organizer systems use proprietary hole shapes or spacing that only accept that brand's own accessories.\n\nThis compatibility trap is rarely disclosed clearly on the listing page, and discovering it after buying a separate hook set that doesn't fit is a frustrating, avoidable mistake.\n\nCheck the listing specifically for confirmation of standard 1-inch hole spacing, or check reviews for mentions of using third-party hooks successfully, before assuming any board will accept accessories bought separately."
+  },
+  {
+    "criterion": "Check material quality against real sag resistance over months of use",
+    "explanation": "The board's material determines how much weight each hook can actually hold and whether the panel visibly sags after months of real use, genuine pegboard-grade hardboard, MDF, or metal holds up meaningfully better under sustained weight than thin decorative board that's simply printed or cut with a pegboard-style pattern for looks.\n\nThis matters directly if you plan to hang anything with real weight, monitor arms, tool organizers, or multiple loaded shelves, versus just a few lightweight decorative items.\n\nCheck the listing for the specific stated material and thickness, and check reviews for mentions of sagging or warping over time, not just the initial unboxing appearance."
+  },
+  {
+    "criterion": "Consider loaded-condition tipping stability, not just the empty board's footprint",
+    "explanation": "A pegboard mounted vertically at the back of a desk creates real tipping leverage once it's actually loaded with monitor arms, hooks, and shelves, a board that looks perfectly stable empty in a product photo can behave very differently once weighted, especially on a lighter desk without a wall anchor point.\n\nThis matters more the taller and heavier the loaded board becomes relative to the desk's own weight and base stability.\n\nCheck whether the product includes or supports a wall-anchor mounting option, and check reviews specifically for mentions of stability once the board is actually loaded with accessories, not just how it looks unmounted."
+  },
+  {
+    "criterion": "Match desk depth loss to how much usable surface you can actually give up",
+    "explanation": "A pegboard mounted at the back of a desk, especially a large panel, meaningfully reduces the usable flat desk surface in front of it, a tradeoff that's easy to underestimate from a product photo alone since the panel's actual footprint eats directly into working space you'd otherwise use for a keyboard, notebook, or additional monitor placement.\n\nThis matters more on a smaller or shallower desk where every inch of depth counts, less on a large desk with depth to spare.\n\nCheck the listed panel depth and desk clearance requirements against your actual desk's dimensions, not just the panel's height and width, before assuming it fits comfortably."
+  },
+  {
+    "criterion": "Weigh mounting method against your desk type and whether you can drill into it",
+    "explanation": "Pegboards mount to a desk in different ways, clamp-on brackets that grip the desk edge without drilling, freestanding designs that sit on the desk surface, or permanently screwed mounts, and which one applies to you depends heavily on your desk's construction and whether you're allowed or willing to drill into it.\n\nThis matters directly for a rented space, shared office furniture, or a desk you don't want to permanently modify, where a clamp-on or freestanding design is the safer choice even if it offers somewhat less rigid stability than a screwed mount.\n\nCheck the specific mounting method and confirm it's compatible with your desk's edge thickness and material before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [
