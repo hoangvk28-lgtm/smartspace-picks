@@ -30,9 +30,9 @@ export const products: GuideProduct[] = [
     reviews: "29,253",
     imageUrl: "https://m.media-amazon.com/images/I/31xwXNHjTaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07FNC6N1L?tag=deskfinds0d-20",
-    description: "By far the largest review base in this entire comparison at 29,253, with large illuminated numbers specifically designed for easy nighttime reading.",
-    specs: ["Large illuminated numbers", "29,253 reviews at 4.6 stars"],
-    pros: ["Massive review base and highest rating in this comparison", "Large numbers specifically designed for readability"],
+    description: "By far the largest review base in this entire comparison at 29,253, with large illuminated numbers specifically designed for easy nighttime reading.\n\nIt earns the top spot in this comparison over DreamSky Small Digital Alarm Clock for Bedroom with Large Big Numbers for one main reason. Massive review base and highest rating in this comparison. On price, it comes in below DreamSky Small Digital Alarm Clock for Bedroom with Large Big Numbers on price, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers who want the most proven, practically illuminated clock for real nighttime readability.",
+    specs: ["Large illuminated numbers","29,253 reviews at 4.6 stars"],
+    pros: ["Massive review base and highest rating in this comparison","Large numbers specifically designed for readability"],
     cons: ["Basic illumination rather than color-changing or decorative effects"],
     bestFor: "Buyers who want the most proven, practically illuminated clock for real nighttime readability.",
   },
@@ -46,10 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "29,253",
     imageUrl: "https://m.media-amazon.com/images/I/41i7MvhMMXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07FN8HL5S?tag=deskfinds0d-20",
-    description: "The same design and review data as the pick above at a slightly higher price — check the current listing for any color or minor variant differences.",
-    specs: ["Large illuminated numbers", "29,253 reviews at 4.6 stars"],
+    description: "The same design and review data as the pick above at a slightly higher price, check the current listing for any color or minor variant differences.\n\nOne spot below DreamSky Small Digital Alarm Clock for Bedroom in this ranking, it costs more than DreamSky Small Digital Alarm Clock for Bedroom. The compromise here is straightforward: Higher price than the near-identical listing above, verify any real difference before paying more. What you gain in return: Same massive review base and rating as the cheaper listing. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers comparing DreamSky listing variants for the best current price.",
+    specs: ["Large illuminated numbers","29,253 reviews at 4.6 stars"],
     pros: ["Same massive review base and rating as the cheaper listing"],
-    cons: ["Higher price than the near-identical listing above — verify any real difference before paying more"],
+    cons: ["Higher price than the near-identical listing above, verify any real difference before paying more"],
     bestFor: "Buyers comparing DreamSky listing variants for the best current price.",
   },
   {
@@ -62,9 +62,9 @@ export const products: GuideProduct[] = [
     reviews: "1,135",
     imageUrl: "https://m.media-amazon.com/images/I/41sN4ULsF+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CCP3X135?tag=deskfinds0d-20",
-    description: "The only genuinely color-changing option in this comparison, with 10 selectable colors, useful for buyers who want illumination as a mood feature alongside practical readability.",
-    specs: ["10 color-changing LED options", "1,135 reviews at 4.4 stars"],
-    pros: ["Only color-changing illumination option in this comparison", "Solid review base"],
+    description: "The only genuinely color-changing option in this comparison, with 10 selectable colors, useful for buyers who want illumination as a mood feature alongside practical readability.\n\nSitting just under DreamSky Small Digital Alarm Clock for Bedroom with Large Big Numbers, it costs more than DreamSky Small Digital Alarm Clock for Bedroom with Large Big Numbers. Here's the honest tradeoff: Higher price than the basic single-color DreamSky options. And here's what it gets you instead: Only color-changing illumination option in this comparison. That's the real difference between the two picks, not just a ranking number.\n\nBuyers who want illumination as a mood/ambiance feature, not just for readability.",
+    specs: ["10 color-changing LED options","1,135 reviews at 4.4 stars"],
+    pros: ["Only color-changing illumination option in this comparison","Solid review base"],
     cons: ["Higher price than the basic single-color DreamSky options"],
     bestFor: "Buyers who want illumination as a mood/ambiance feature, not just for readability.",
   },
@@ -78,9 +78,9 @@ export const products: GuideProduct[] = [
     reviews: "4,308",
     imageUrl: "https://m.media-amazon.com/images/I/413MwWCnaXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1VFGSQH?tag=deskfinds0d-20",
-    description: "Specifically designed and marketed for across-the-room readability, with a large, well-established review base.",
-    specs: ["Designed for across-the-room visibility", "4,308 reviews at 4.5 stars"],
-    pros: ["Purpose-built for maximum readability at a distance", "Large, well-established review base"],
+    description: "Specifically designed and marketed for across-the-room readability, with a large, well-established review base.\n\nRanked just behind Digital Alarm Clock, it's priced lower than Digital Alarm Clock. The real tradeoff against that pick: No color-changing feature, unlike the CCP3X135 pick. In exchange, it offers this instead: Purpose-built for maximum readability at a distance. That's the swap that decides whether this pick or the one above it is the better fit for a given buyer.\n\nBuyers who specifically need to read the display from across a room.",
+    specs: ["Designed for across-the-room visibility","4,308 reviews at 4.5 stars"],
+    pros: ["Purpose-built for maximum readability at a distance","Large, well-established review base"],
     cons: ["No color-changing feature, unlike the CCP3X135 pick"],
     bestFor: "Buyers who specifically need to read the display from across a room.",
   },
@@ -94,39 +94,152 @@ export const products: GuideProduct[] = [
     reviews: "2,005",
     imageUrl: "https://m.media-amazon.com/images/I/31LrvBuzvpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCM2SX6N?tag=deskfinds0d-20",
-    description: "A compact 3-in-1 design at the lowest price in this comparison, with a strong rating and solid review base.",
-    specs: ["Compact 3-in-1 design", "2,005 reviews at 4.6 stars"],
-    pros: ["Cheapest option in this comparison", "Compact footprint with a strong rating"],
+    description: "A compact 3-in-1 design at the lowest price in this comparison, with a strong rating and solid review base.\n\nOne spot below Odokee Digital Alarm Clocks for Bedrooms: Easy to Read Across The Room in this ranking, it's priced lower than Odokee Digital Alarm Clocks for Bedrooms: Easy to Read Across The Room. The compromise here is straightforward: Smaller display than the pure large-number options. What you gain in return: Cheapest option in this comparison. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers who want compact illumination at the lowest price.",
+    specs: ["Compact 3-in-1 design","2,005 reviews at 4.6 stars"],
+    pros: ["Cheapest option in this comparison","Compact footprint with a strong rating"],
     cons: ["Smaller display than the pure large-number options"],
     bestFor: "Buyers who want compact illumination at the lowest price.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required practical, readability-focused illumination", description: "We favored products with confirmed large or across-the-room-readable illuminated displays, not just decorative glow." },
   { title: "Color-changing as a genuine differentiator", description: "We noted the one product with true color-changing illumination as a distinct mood-lighting option beyond basic readability." },
-  { title: "Near-identical listings flagged directly", description: "Two DreamSky listings share identical review data at different prices — we noted this rather than treating them as distinct products." },
+  { title: "Near-identical listings flagged directly", description: "Two DreamSky listings share identical review data at different prices, we noted this rather than treating them as distinct products." },
   { title: "Review volume and rating together", description: "We weighted both metrics, with the top pick's massive 29,253-review base being particularly strong evidence." },
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Practical Readability vs. Color-Changing Ambiance",
-    cards: [
-      { label: "Practical (DreamSky, Odokee)", text: "Large illuminated numbers designed purely for easy reading, day or night." },
-      { label: "Color-changing (CCP3X135)", text: "10 selectable colors, adding a mood-lighting element beyond basic readability." },
-    ],
+    "subheading": "By Movement Type",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick in this comparison"
+      ],
+      "rows": [
+        [
+          "A quiet, non-ticking movement",
+          "DreamSky Small Digital Alarm Clock for Bedroom"
+        ],
+        [
+          "A digital, fully silent display",
+          "DreamSky Small Digital Alarm Clock for Bedroom"
+        ],
+        [
+          "Maximum visual personality (flip or mechanical action)",
+          "DreamSky Small Digital Alarm Clock for Bedroom"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $12",
+          "Netzu 3-in-1 Digital Clocks for Living Room"
+        ],
+        [
+          "Mid-range",
+          "Odokee Digital Alarm Clocks for Bedrooms: Easy to Read Across The Room"
+        ],
+        [
+          "No firm budget ceiling, prioritizing material or brand",
+          "Digital Alarm Clock"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Battery-Powered vs Corded",
+    "cards": [
+      {
+        "label": "Battery-Powered",
+        "text": "Runs on batteries alone, so it can sit anywhere on a desk or shelf with no cord in the way, at the cost of an eventual battery swap. In this comparison: DreamSky Small Digital Alarm Clock for Bedroom, DreamSky Small Digital Alarm Clock for Bedroom with Large Big Numbers, Digital Alarm Clock."
+      },
+      {
+        "label": "Corded (Plug-In)",
+        "text": "Draws continuous power from a wall outlet, often adding features like USB charging ports or a battery backup for outages, but it has to sit within cord length of a plug. In this comparison: none in this specific roundup, since most picks here are battery powered."
+      }
+    ],
+    "note": "Most buyers should default to a battery-powered pick like Netzu 3-in-1 Digital Clocks for Living Room unless you specifically want the USB charging or dimmer features that typically come with corded models."
+  },
+  {
+    "subheading": "By Purpose: Everyday Use vs Gift",
+    "table": {
+      "headers": [
+        "Your purpose",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Everyday functional desk use",
+          "DreamSky Small Digital Alarm Clock for Bedroom"
+        ],
+        [
+          "A gift or milestone piece",
+          "Netzu 3-in-1 Digital Clocks for Living Room"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Buying as a Gift Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Genuine material language, such as hand carved, real marble, or real crystal, rather than a marble-look or crystal-look plastic finish, plus a stated production or engraving lead time if personalization is involved."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Netzu 3-in-1 Digital Clocks for Living Room fits this specifically: Cheapest option in this comparison. That's the kind of detail that signals a deliberate gift rather than a purely functional purchase."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Digital Alarm Clock offers: Only color-changing illumination option in this comparison. That's a real material or craftsmanship upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Netzu 3-in-1 Digital Clocks for Living Room already covers the essentials: Cheapest option in this comparison. The main thing you'd be paying extra for elsewhere in this list is styling rather than function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Decide if you want practical readability or color-changing ambiance", explanation: "Most picks here focus purely on large-number readability; only one offers genuine color-changing illumination as a mood feature." },
-  { criterion: "Check for near-identical listings before paying more", explanation: "Two DreamSky listings here share identical review data at different prices — compare current listings before choosing the pricier one." },
-  { criterion: "Weigh review volume heavily among the top picks", explanation: "The top DreamSky pick has an exceptionally large review base (29,253), among the strongest evidence in any of our desk clock guides." },
-  { criterion: "Consider across-the-room readability if that's your specific need", explanation: "The Odokee pick is specifically marketed and reviewed for distance readability." },
-  { criterion: "Match price to your priority", explanation: "The cheapest option (Netzu) still carries a strong rating if compact size and low cost matter more than the largest possible display." },
+  {
+    "criterion": "Decide whether ticking noise matters to you",
+    "explanation": "A standard quartz movement advances its second hand once per second and produces an audible tick you can hear from a few feet away, while a silent sweep or silent electronic movement moves continuously with no tick at all. This matters more than it sounds like it should: a clock that ticks audibly for eight hours a day within arm's reach of where you work becomes a genuine background irritant for a lot of people, even if they don't consciously register it as a complaint until the clock is removed or replaced. To check this before buying, search the listing for the words \"silent,\" \"non-ticking,\" or \"sweep movement\" specifically, since a listing that doesn't mention noise at all is very likely a standard audible-tick quartz movement."
+  },
+  {
+    "criterion": "Match the face or display size to real viewing distance",
+    "explanation": "The size printed in a listing, usually in inches, measures the clock's case or face diameter, but that number alone doesn't tell you how easily you'll actually be able to read the time from where you sit. A 3 to 4 inch face reads fine from arm's length at a desk but becomes genuinely hard to read from across a room or a doorway, which matters if the clock's real job is to be glanced at from a distance rather than up close. Check the listing's stated dimensions against your actual distance from where the clock will sit, and for digital models, look specifically for the digit height in inches rather than the overall unit size, since a large plastic housing can still contain small digits."
+  },
+  {
+    "criterion": "Confirm the power source before you plan where it goes",
+    "explanation": "Desk clocks are either battery powered, meaning they can sit anywhere with no cord in the way, or corded and plugged into a wall outlet, sometimes with a battery backup that keeps the display running briefly during an outage. This is a genuinely practical constraint, not a minor spec: a corded clock needs to sit within cord-length of an outlet, which can rule out the center of a desk or a shelf far from a plug, while a battery clock can go anywhere but will eventually need a battery swap. Look for \"battery operated\" versus \"plug-in\" or \"AC powered\" directly in the listing title or bullet points, and treat advertised USB charging ports as a strong signal the unit is corded rather than battery-only."
+  },
+  {
+    "criterion": "Separate gift-tier materials from everyday functional clocks",
+    "explanation": "Clocks made from marble or crystal, or featuring custom engraving, are priced and designed first as a gift or a statement object, with everyday timekeeping treated as secondary, while clocks built from plastic or basic wood with digital or simple analog displays are priced for everyday practical use. Buying a hand-carved marble clock expecting the same day-to-day practicality as a basic digital clock with a dimmer and USB ports will lead to disappointment, since these are genuinely different product categories that happen to share a name. Check whether the listing emphasizes material and craftsmanship language (hand carved, polished, engraved) versus functional language (auto DST, dual alarms, temperature display) to quickly tell which tier a given clock falls into."
+  },
+  {
+    "criterion": "Check for lead time if the piece is personalized or engraved",
+    "explanation": "Custom engraving or personalization isn't applied instantly at a warehouse the way a standard product ships; it typically requires a separate production step after you submit your design or text, which the seller has to complete before the item even enters the shipping queue. This means a personalized clock ordered as a last-minute gift can easily miss a deadline that a standard, non-personalized clock would have made with days to spare, since the engraving step alone commonly adds several business days on top of normal shipping time. Before ordering a personalized piece for a specific date, check the listing's stated production or processing time, which is separate from shipping time, and order with enough buffer for both steps to finish before you need it."
+  }
 ];
 
 export const faq: FaqItem[] = [
@@ -134,7 +247,7 @@ export const faq: FaqItem[] = [
   { q: "Is there a color-changing option?", a: "Yes, the Digital Alarm Clock with 10 Color Changing LED options, the only genuinely color-changing pick in this comparison." },
   { q: "What's the cheapest option?", a: "The Netzu 3-in-1 Digital Clock at $11.99." },
   { q: "Which is best for reading from across a room?", a: "The Odokee Digital Alarm Clock, specifically marketed and reviewed for across-the-room visibility." },
-  { q: "Are the two DreamSky listings different products?", a: "They share identical review data at different prices — check the current listings for any color or minor variant difference before paying more for either." },
+  { q: "Are the two DreamSky listings different products?", a: "They share identical review data at different prices, check the current listings for any color or minor variant difference before paying more for either." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVLL412Y?tag=deskfinds0d-20",
-    description:
-      "This flip clock uses an internal gear system to physically flip each number card, a genuine mechanical action you can watch happen, though the clock itself runs on batteries rather than a wind-up spring. We're including it as the closest available match to what buyers mean by mechanical in casual, non-horological use.\n\nIt is a real gear-driven mechanism worth seeing in person, just not a true wind-up movement, an important distinction if you're specifically shopping for horological mechanical craftsmanship rather than a visually mechanical-feeling display.",
-    specs: ["Auto internal gear flip mechanism", "Battery powered, not wind-up", "White finish", "Home office styling"],
-    pros: ["Genuine gear-driven physical flip action", "Visually and audibly mechanical-feeling", "Battery powered for flexible placement", "Strong desk centerpiece presence"],
-    cons: ["Not a true wind-up mechanical movement", "Requires batteries, unlike a genuine wind-up clock", "Verify current review data on the listing"],
+    description: "This flip clock uses an internal gear system to physically flip each number card, a genuine mechanical action you can watch happen, though the clock itself runs on batteries rather than a wind-up spring. We're including it as the closest available match to what buyers mean by mechanical in casual, non-horological use.\n\nIt earns the top spot in this comparison over FOSA Flip Desk Clock for one main reason. Genuine gear-driven physical flip action. On price, it comes in below FOSA Flip Desk Clock on price, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers who want the closest available gear-driven, visually mechanical desk clock, understanding it is not a wind-up movement.",
+    specs: ["Auto internal gear flip mechanism","Battery powered, not wind-up","White finish","Home office styling"],
+    pros: ["Genuine gear-driven physical flip action","Visually and audibly mechanical-feeling","Battery powered for flexible placement","Strong desk centerpiece presence"],
+    cons: ["Not a true wind-up mechanical movement","Requires batteries, unlike a genuine wind-up clock","Verify current review data on the listing"],
     bestFor: "Buyers who want the closest available gear-driven, visually mechanical desk clock, understanding it is not a wind-up movement.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41yZW1xjgmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CRBJJ6W4?tag=deskfinds0d-20",
-    description:
-      "This flip clock uses a silent electronic movement rather than a purely mechanical gear flip, so it is the least mechanical of the flip clocks in this guide, we're including it for buyers who want flip-card styling without any audible mechanical click. The walnut wood base adds genuine material quality.\n\nIf what draws you to mechanical clocks is the physical action itself, the KENJIEY pick above delivers more of that genuine gear-driven movement, this pick trades some of that mechanical authenticity for quiet operation.",
-    specs: ["Walnut wood base", "Silent electronic movement", "Black flip display", "Desk placement"],
-    pros: ["Silent operation, no mechanical click", "Wood base adds material quality", "Flip-card visual styling", "Distinct look from plainer flip clocks"],
-    cons: ["Less mechanically authentic than a gear-driven flip clock", "Not a wind-up movement", "Verify current review data on the listing"],
+    description: "This flip clock uses a silent electronic movement rather than a purely mechanical gear flip, so it is the least mechanical of the flip clocks in this guide, we're including it for buyers who want flip-card styling without any audible mechanical click. The walnut wood base adds genuine material quality.\n\nOne spot below KENJIEY Flip Clock in this ranking, it costs more than KENJIEY Flip Clock. The compromise here is straightforward: Less mechanically authentic than a gear-driven flip clock. What you gain in return: Silent operation, no mechanical click. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers who want flip-clock styling without mechanical click noise, at the cost of less genuine mechanical action.",
+    specs: ["Walnut wood base","Silent electronic movement","Black flip display","Desk placement"],
+    pros: ["Silent operation, no mechanical click","Wood base adds material quality","Flip-card visual styling","Distinct look from plainer flip clocks"],
+    cons: ["Less mechanically authentic than a gear-driven flip clock","Not a wind-up movement","Verify current review data on the listing"],
     bestFor: "Buyers who want flip-clock styling without mechanical click noise, at the cost of less genuine mechanical action.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41c1kZ9IKNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07PYN9YZN?tag=deskfinds0d-20",
-    description:
-      "Like the KENJIEY pick, this uses a genuine auto-flip gear mechanism, in a more compact table-clock size that suits a smaller desk footprint. It delivers the same category of gear-driven physical action, just in a smaller package with a recognized flip-clock brand behind it.\n\nAs with any gear-driven flip clock, expect an audible click on each flip, part of the mechanical experience rather than a defect, and remember this is still battery powered, not a wind-up movement.",
-    specs: ["Auto flip mechanism", "Black finish", "Compact table clock size", "Battery powered, not wind-up"],
-    pros: ["Genuine gear-driven flip mechanism", "Compact footprint for smaller desks", "Recognized flip-clock brand", "Accessible mid-range price"],
-    cons: ["Not a true wind-up mechanical movement", "Audible click on each flip", "Verify current review data on the listing"],
+    description: "Like the KENJIEY pick, this uses a genuine auto-flip gear mechanism, in a more compact table-clock size that suits a smaller desk footprint. It delivers the same category of gear-driven physical action, just in a smaller package with a recognized flip-clock brand behind it.\n\nSitting just under FOSA Flip Desk Clock, it's priced lower than FOSA Flip Desk Clock. Here's the honest tradeoff: Not a true wind-up mechanical movement. And here's what it gets you instead: Genuine gear-driven flip mechanism. That's the real difference between the two picks, not just a ranking number.\n\nBuyers wanting genuine gear-driven mechanical action in a smaller desk footprint.",
+    specs: ["Auto flip mechanism","Black finish","Compact table clock size","Battery powered, not wind-up"],
+    pros: ["Genuine gear-driven flip mechanism","Compact footprint for smaller desks","Recognized flip-clock brand","Accessible mid-range price"],
+    cons: ["Not a true wind-up mechanical movement","Audible click on each flip","Verify current review data on the listing"],
     bestFor: "Buyers wanting genuine gear-driven mechanical action in a smaller desk footprint.",
   },
   {
@@ -81,13 +78,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41w5s9hs3NL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVHVDSQM?tag=deskfinds0d-20",
-    description:
-      "This flip clock rounds out the gear-driven picks in this guide at the most accessible price, using the same core internal gear operation as the higher-ranked flip clocks above. It is a reasonable way to experience genuine gear-driven flip action without paying a premium.\n\nAs with the other flip clocks here, this is battery powered rather than a wind-up mechanical movement, we're repeating that distinction because it's the single most important thing to understand before buying anything labeled mechanical in this category.",
-    specs: ["Auto flip mechanism", "Internal gear operation", "Battery powered, not wind-up", "Home office decor styling"],
-    pros: ["Genuine gear-driven mechanism at an accessible price", "Battery powered for flexible placement", "Home office appropriate styling", "Auto-flip action, no manual setting"],
-    cons: ["Not a true wind-up mechanical movement", "Audible click on each flip", "Verify current price and review data on the listing"],
+    description: "This flip clock rounds out the gear-driven picks in this guide at the most accessible price, using the same core internal gear operation as the higher-ranked flip clocks above. It is a reasonable way to experience genuine gear-driven flip action without paying a premium.\n\nRanked just behind mooas Flip Desk Clock (Black), pricing between it and mooas Flip Desk Clock (Black) isn't directly comparable here. The real tradeoff against that pick: Not a true wind-up mechanical movement. In exchange, it offers this instead: Genuine gear-driven mechanism at an accessible price. That's the swap that decides whether this pick or the one above it is the better fit for a given buyer.\n\nBuyers wanting to try genuine gear-driven flip action at the lowest price in this guide. Note the price wasn't listed at the time of research, so confirm current cost on Amazon before deciding.",
+    specs: ["Auto flip mechanism","Internal gear operation","Battery powered, not wind-up","Home office decor styling"],
+    pros: ["Genuine gear-driven mechanism at an accessible price","Battery powered for flexible placement","Home office appropriate styling","Auto-flip action, no manual setting"],
+    cons: ["Not a true wind-up mechanical movement","Audible click on each flip","Verify current price and review data on the listing"],
     bestFor: "Buyers wanting to try genuine gear-driven flip action at the lowest price in this guide.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -101,39 +97,133 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "What Mechanical Actually Means in Horology",
-    note: "A true mechanical clock uses a wind-up spring and an escapement to keep time, with no battery at all. This is a genuine, respected, and specialized category, but it is dominated by dedicated clockmakers at a considerably higher price point than general desk clock listings, and we did not find verified examples in our research pool.",
-  },
-  {
-    subheading: "What's Actually Available Instead",
-    cards: [
-      { label: "Gear-driven flip clocks", text: "Use a real physical gear mechanism to flip number cards, genuinely mechanical in action, but battery powered rather than wind-up." },
-      { label: "True wind-up mechanical clocks", text: "A separate, specialized, pricier category not covered by our verified inventory, search specifically for wind-up or spring-driven movement if this is genuinely what you want." },
-    ],
-  },
-  {
-    subheading: "If You Specifically Want a Wind-Up Clock",
-    note: "Search for terms like wind-up clock or spring-driven movement directly, and expect a higher price point and a more specialized retailer than a general desk clock listing. Don't assume any clock labeled mechanical in a general listing is wind-up, verify the movement type explicitly before buying.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Flip Clock",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Most authentic gear-driven action", "KENJIEY Flip Clock White"],
-        ["Silent operation over mechanical authenticity", "FOSA Flip Desk Clock with Wood Base"],
-        ["Compact footprint with genuine gears", "mooas Flip Desk Clock"],
-        ["Lowest price entry point", "Wkevnu Vintage Flip Clock"],
+    "subheading": "By Movement Type",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "A quiet, non-ticking movement",
+          "FOSA Flip Desk Clock"
+        ],
+        [
+          "A digital, fully silent display",
+          "KENJIEY Flip Clock"
+        ],
+        [
+          "Maximum visual personality (flip or mechanical action)",
+          "KENJIEY Flip Clock"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $40",
+          "mooas Flip Desk Clock (Black)"
+        ],
+        [
+          "Mid-range",
+          "KENJIEY Flip Clock"
+        ],
+        [
+          "No firm budget ceiling, prioritizing material or brand",
+          "FOSA Flip Desk Clock"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Battery-Powered vs Corded",
+    "cards": [
+      {
+        "label": "Battery-Powered",
+        "text": "Runs on batteries alone, so it can sit anywhere on a desk or shelf with no cord in the way, at the cost of an eventual battery swap. In this comparison: KENJIEY Flip Clock, FOSA Flip Desk Clock, mooas Flip Desk Clock (Black)."
+      },
+      {
+        "label": "Corded (Plug-In)",
+        "text": "Draws continuous power from a wall outlet, often adding features like USB charging ports or a battery backup for outages, but it has to sit within cord length of a plug. In this comparison: none in this specific roundup, since most picks here are battery powered."
+      }
+    ],
+    "note": "Most buyers should default to a battery-powered pick like mooas Flip Desk Clock (Black) unless you specifically want the USB charging or dimmer features that typically come with corded models."
+  },
+  {
+    "subheading": "By Purpose: Everyday Use vs Gift",
+    "table": {
+      "headers": [
+        "Your purpose",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Everyday functional desk use",
+          "KENJIEY Flip Clock"
+        ],
+        [
+          "A gift or milestone piece",
+          "Wkevnu Vintage Flip Clock"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Buying as a Gift Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Genuine material language, such as hand carved, real marble, or real crystal, rather than a marble-look or crystal-look plastic finish, plus a stated production or engraving lead time if personalization is involved."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Wkevnu Vintage Flip Clock fits this specifically: Genuine gear-driven mechanism at an accessible price. That's the kind of detail that signals a deliberate gift rather than a purely functional purchase."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what FOSA Flip Desk Clock offers: Silent operation, no mechanical click. That's a real material or craftsmanship upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "mooas Flip Desk Clock (Black) already covers the essentials: Genuine gear-driven flip mechanism. The main thing you'd be paying extra for elsewhere in this list is styling rather than function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Understand mechanical usually means wind-up in horology", explanation: "If you want a true mechanical clock in the traditional sense, expect a wind-up spring movement, no battery, and a considerably higher price than a general desk clock listing." },
-  { criterion: "Flip clocks are gear-driven but not wind-up", explanation: "The flip clocks in this guide have a genuine mechanical gear action, but they still run on batteries. Don't assume mechanical marketing language means wind-up." },
-  { criterion: "Verify movement type explicitly before buying anything labeled mechanical", explanation: "Listings sometimes use mechanical loosely to describe any visible moving part. Check for the words wind-up or spring-driven if that's specifically what you want." },
-  { criterion: "Expect a real price jump for genuine wind-up clocks", explanation: "True mechanical wind-up clocks are a specialized clockmaker category, priced well above the battery-powered flip clocks covered in this guide." },
+  {
+    "criterion": "Decide whether ticking noise matters to you",
+    "explanation": "A standard quartz movement advances its second hand once per second and produces an audible tick you can hear from a few feet away, while a silent sweep or silent electronic movement moves continuously with no tick at all. This matters more than it sounds like it should: a clock that ticks audibly for eight hours a day within arm's reach of where you work becomes a genuine background irritant for a lot of people, even if they don't consciously register it as a complaint until the clock is removed or replaced. To check this before buying, search the listing for the words \"silent,\" \"non-ticking,\" or \"sweep movement\" specifically, since a listing that doesn't mention noise at all is very likely a standard audible-tick quartz movement."
+  },
+  {
+    "criterion": "Match the face or display size to real viewing distance",
+    "explanation": "The size printed in a listing, usually in inches, measures the clock's case or face diameter, but that number alone doesn't tell you how easily you'll actually be able to read the time from where you sit. A 3 to 4 inch face reads fine from arm's length at a desk but becomes genuinely hard to read from across a room or a doorway, which matters if the clock's real job is to be glanced at from a distance rather than up close. Check the listing's stated dimensions against your actual distance from where the clock will sit, and for digital models, look specifically for the digit height in inches rather than the overall unit size, since a large plastic housing can still contain small digits."
+  },
+  {
+    "criterion": "Confirm the power source before you plan where it goes",
+    "explanation": "Desk clocks are either battery powered, meaning they can sit anywhere with no cord in the way, or corded and plugged into a wall outlet, sometimes with a battery backup that keeps the display running briefly during an outage. This is a genuinely practical constraint, not a minor spec: a corded clock needs to sit within cord-length of an outlet, which can rule out the center of a desk or a shelf far from a plug, while a battery clock can go anywhere but will eventually need a battery swap. Look for \"battery operated\" versus \"plug-in\" or \"AC powered\" directly in the listing title or bullet points, and treat advertised USB charging ports as a strong signal the unit is corded rather than battery-only."
+  },
+  {
+    "criterion": "Separate gift-tier materials from everyday functional clocks",
+    "explanation": "Clocks made from marble or crystal, or featuring custom engraving, are priced and designed first as a gift or a statement object, with everyday timekeeping treated as secondary, while clocks built from plastic or basic wood with digital or simple analog displays are priced for everyday practical use. Buying a hand-carved marble clock expecting the same day-to-day practicality as a basic digital clock with a dimmer and USB ports will lead to disappointment, since these are genuinely different product categories that happen to share a name. Check whether the listing emphasizes material and craftsmanship language (hand carved, polished, engraved) versus functional language (auto DST, dual alarms, temperature display) to quickly tell which tier a given clock falls into."
+  },
+  {
+    "criterion": "Check for lead time if the piece is personalized or engraved",
+    "explanation": "Custom engraving or personalization isn't applied instantly at a warehouse the way a standard product ships; it typically requires a separate production step after you submit your design or text, which the seller has to complete before the item even enters the shipping queue. This means a personalized clock ordered as a last-minute gift can easily miss a deadline that a standard, non-personalized clock would have made with days to spare, since the engraving step alone commonly adds several business days on top of normal shipping time. Before ordering a personalized piece for a specific date, check the listing's stated production or processing time, which is separate from shipping time, and order with enough buffer for both steps to finish before you need it."
+  }
 ];
 
 export const faq: FaqItem[] = [

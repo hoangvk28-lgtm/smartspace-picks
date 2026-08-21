@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41ToJRpm5WL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08QYXQYTX?tag=deskfinds0d-20",
-    description:
-      "This combines a digital clock with a pen cup desk organizer in one grey piece, and includes free customization, a genuine value advantage over picks that charge extra for engraving. Things Remembered is a well-known personalized gift retailer, adding some brand trust to the purchase.\n\nThe dual-function design means the recipient gets a practical desk organizer alongside the personalized clock, more useful day to day than a display-only piece. It leads this list for combining genuine utility with included customization.",
-    specs: ["Digital clock with pen cup organizer", "Free customization included", "Grey finish", "Desk placement"],
-    pros: ["Free customization included in price", "Dual function as clock and desk organizer", "Recognized personalized gift retailer", "Practical daily utility beyond display"],
-    cons: ["Digital display less decorative than analog options here", "Customization still requires processing time before shipping", "Verify current review data on the listing"],
+    description: "This combines a digital clock with a pen cup desk organizer in one grey piece, and includes free customization, a genuine value advantage over picks that charge extra for engraving. Things Remembered is a well-known personalized gift retailer, adding some brand trust to the purchase.\n\nIt earns the top spot in this comparison over Personalized Wooden Clock with Photo for one main reason. Free customization included in price. On price, it comes in below Personalized Wooden Clock with Photo on price, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers wanting a personalized gift with genuine daily desk utility beyond decoration.",
+    specs: ["Digital clock with pen cup organizer","Free customization included","Grey finish","Desk placement"],
+    pros: ["Free customization included in price","Dual function as clock and desk organizer","Recognized personalized gift retailer","Practical daily utility beyond display"],
+    cons: ["Digital display less decorative than analog options here","Customization still requires processing time before shipping","Verify current review data on the listing"],
     bestFor: "Buyers wanting a personalized gift with genuine daily desk utility beyond decoration.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/411QfHzyGRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BFFRG424?tag=deskfinds0d-20",
-    description:
-      "This wooden clock supports photo engraving specifically, a more personal customization option than text alone, appropriate for a family photo, a pet, or a meaningful image tied to the occasion. Wood construction gives it warmth that a metal or crystal piece doesn't have.\n\nPhoto engraving on wood typically renders as an etched image rather than a printed photo, worth setting that expectation with the recipient or yourself before ordering. It stands out in this list as the clearest photo-first personalization option.",
-    specs: ["Wood construction", "Custom photo engraving", "Desk clock format", "Personalized gift design"],
-    pros: ["Genuine photo engraving option, not text only", "Warm wood material", "Distinct from text-only personalized clocks", "Strong emotional gift value"],
-    cons: ["Photo engraving renders as an etched image, not a printed photo", "Requires a high-quality source photo for best results", "Verify current review data and engraving turnaround on the listing"],
+    description: "This wooden clock supports photo engraving specifically, a more personal customization option than text alone, appropriate for a family photo, a pet, or a meaningful image tied to the occasion. Wood construction gives it warmth that a metal or crystal piece doesn't have.\n\nOne spot below THINGS REMEMBERED Engraved Grey Digital Clock and Pen Cup Desk Organizer (Free Customization) in this ranking, it costs more than THINGS REMEMBERED Engraved Grey Digital Clock and Pen Cup Desk Organizer (Free Customization). The compromise here is straightforward: Photo engraving renders as an etched image, not a printed photo. What you gain in return: Genuine photo engraving option, not text only. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers wanting a photo-personalized gift rather than text-only engraving.",
+    specs: ["Wood construction","Custom photo engraving","Desk clock format","Personalized gift design"],
+    pros: ["Genuine photo engraving option, not text only","Warm wood material","Distinct from text-only personalized clocks","Strong emotional gift value"],
+    cons: ["Photo engraving renders as an etched image, not a printed photo","Requires a high-quality source photo for best results","Verify current review data and engraving turnaround on the listing"],
     bestFor: "Buyers wanting a photo-personalized gift rather than text-only engraving.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31KphJ99WZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G9B5MMCH?tag=deskfinds0d-20",
-    description:
-      "Designed as a custom award-style piece, this crystal clock at 4.5 inches suits corporate recognition, retirement, or milestone achievement gifts specifically. The crystal material catches light in a way that reads as more formal than wood or plastic alternatives.\n\nCustom crystal engraving pieces like this typically ship within about a week after design approval based on industry norms, plan your order timeline around that lead time rather than a last-minute purchase.",
-    specs: ["Crystal material", "4.5 inch size", "Custom engraving included", "Award-style presentation"],
-    pros: ["Genuine crystal material for a formal look", "Compact award-style size", "Strong fit for corporate or milestone recognition", "Reasonable price for crystal material"],
-    cons: ["Engraving requires lead time before shipping", "Less practical as an everyday functional clock", "Verify current review data on the listing"],
+    description: "Designed as a custom award-style piece, this crystal clock at 4.5 inches suits corporate recognition, retirement, or milestone achievement gifts specifically. The crystal material catches light in a way that reads as more formal than wood or plastic alternatives.\n\nSitting just under Personalized Wooden Clock with Photo, it's priced lower than Personalized Wooden Clock with Photo. Here's the honest tradeoff: Engraving requires lead time before shipping. And here's what it gets you instead: Genuine crystal material for a formal look. That's the real difference between the two picks, not just a ranking number.\n\nBuyers gifting a corporate recognition or milestone achievement award.",
+    specs: ["Crystal material","4.5 inch size","Custom engraving included","Award-style presentation"],
+    pros: ["Genuine crystal material for a formal look","Compact award-style size","Strong fit for corporate or milestone recognition","Reasonable price for crystal material"],
+    cons: ["Engraving requires lead time before shipping","Less practical as an everyday functional clock","Verify current review data on the listing"],
     bestFor: "Buyers gifting a corporate recognition or milestone achievement award.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41-tdoWEyKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07V7CQ62G?tag=deskfinds0d-20",
-    description:
-      "This glass table clock adds silver finish accents to a formal, executive-style design, distinct from the crystal and wood options elsewhere in this list. Executive Gift Shoppe specializes in this exact category, engraved formal desk gifts, adding some category-specific expertise to the purchase.\n\nAt $74 it sits toward the higher end of this list, appropriate for a more significant occasion like a retirement or long-service milestone rather than a casual gift.",
-    specs: ["Glass construction", "Silver finish accents", "Custom engraving included", "Executive desk styling"],
-    pros: ["Distinct glass and silver material combination", "Specialist engraved-gift retailer", "Strong formal, executive presentation", "Suits significant milestone occasions"],
-    cons: ["Higher price point than several picks in this list", "Engraving requires lead time before shipping", "Verify current review data on the listing"],
+    description: "This glass table clock adds silver finish accents to a formal, executive-style design, distinct from the crystal and wood options elsewhere in this list. Executive Gift Shoppe specializes in this exact category, engraved formal desk gifts, adding some category-specific expertise to the purchase.\n\nRanked just behind Personalized Crystal Desk Clock, it costs more than Personalized Crystal Desk Clock. The real tradeoff against that pick: Higher price point than several picks in this list. In exchange, it offers this instead: Distinct glass and silver material combination. That's the swap that decides whether this pick or the one above it is the better fit for a given buyer.\n\nBuyers gifting a significant career milestone or retirement occasion.",
+    specs: ["Glass construction","Silver finish accents","Custom engraving included","Executive desk styling"],
+    pros: ["Distinct glass and silver material combination","Specialist engraved-gift retailer","Strong formal, executive presentation","Suits significant milestone occasions"],
+    cons: ["Higher price point than several picks in this list","Engraving requires lead time before shipping","Verify current review data on the listing"],
     bestFor: "Buyers gifting a significant career milestone or retirement occasion.",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51QKi6iqlcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CK4JJ82C?tag=deskfinds0d-20",
-    description:
-      "This arch-shaped glass clock offers custom engraving at a lower price than the other glass and crystal options in this list, a reasonable middle ground between budget and formality. The arch silhouette is a distinct shape choice versus the more traditional rectangular or round clocks elsewhere.\n\nHomeWetBar is an established personalized gift retailer, and this piece works well for office desk decor beyond just a one-time gift occasion, appropriate as a standing desk accessory.",
-    specs: ["Arch glass construction", "Custom engraving included", "Office desk styling", "Established gift retailer"],
-    pros: ["Lower price than comparable glass and crystal picks", "Distinct arch silhouette", "Suits ongoing office desk decor, not just gifting", "Established personalized gift retailer"],
-    cons: ["Less formal presentation than the Executive Gift Shoppe pick", "Engraving requires lead time before shipping", "Verify current review data on the listing"],
+    description: "This arch-shaped glass clock offers custom engraving at a lower price than the other glass and crystal options in this list, a reasonable middle ground between budget and formality. The arch silhouette is a distinct shape choice versus the more traditional rectangular or round clocks elsewhere.\n\nOne spot below Executive Gift Shoppe | Personalized Glass Table Clock with Silver Finish Accents and Custom Engraving in this ranking, it's priced lower than Executive Gift Shoppe | Personalized Glass Table Clock with Silver Finish Accents and Custom Engraving. The compromise here is straightforward: Less formal presentation than the Executive Gift Shoppe pick. What you gain in return: Lower price than comparable glass and crystal picks. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers wanting an engraved glass clock at a more accessible price point.",
+    specs: ["Arch glass construction","Custom engraving included","Office desk styling","Established gift retailer"],
+    pros: ["Lower price than comparable glass and crystal picks","Distinct arch silhouette","Suits ongoing office desk decor, not just gifting","Established personalized gift retailer"],
+    cons: ["Less formal presentation than the Executive Gift Shoppe pick","Engraving requires lead time before shipping","Verify current review data on the listing"],
     bestFor: "Buyers wanting an engraved glass clock at a more accessible price point.",
   },
   {
@@ -115,11 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41jQ2lAQT5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B086VQSCQN?tag=deskfinds0d-20",
-    description:
-      "This mahogany desktop alarm clock combines a traditional wood material with a genuine alarm function, more functional day to day than a purely decorative engraved piece. The arched shape and mahogany tone give it a classic, traditional executive-desk look.\n\nIt is the only personalized pick in this list that doubles as a functional alarm clock, worth prioritizing if the recipient will actually use it rather than simply display it.",
-    specs: ["Mahogany wood construction", "Alarm clock function", "Custom engraving included", "Arched design"],
-    pros: ["Genuine alarm clock function, not display only", "Traditional mahogany material", "Distinct arched silhouette", "From a specialist engraved-gift retailer"],
-    cons: ["Wood material has a different maintenance profile than glass or crystal", "Engraving requires lead time before shipping", "Verify current review data on the listing"],
+    description: "This mahogany desktop alarm clock combines a traditional wood material with a genuine alarm function, more functional day to day than a purely decorative engraved piece. The arched shape and mahogany tone give it a classic, traditional executive-desk look.\n\nSitting just under HomeWetBar Arch Glass Personalized Desk Clock, it costs more than HomeWetBar Arch Glass Personalized Desk Clock. Here's the honest tradeoff: Wood material has a different maintenance profile than glass or crystal. And here's what it gets you instead: Genuine alarm clock function, not display only. That's the real difference between the two picks, not just a ranking number.\n\nBuyers wanting a personalized gift with genuine everyday alarm clock function.",
+    specs: ["Mahogany wood construction","Alarm clock function","Custom engraving included","Arched design"],
+    pros: ["Genuine alarm clock function, not display only","Traditional mahogany material","Distinct arched silhouette","From a specialist engraved-gift retailer"],
+    cons: ["Wood material has a different maintenance profile than glass or crystal","Engraving requires lead time before shipping","Verify current review data on the listing"],
     bestFor: "Buyers wanting a personalized gift with genuine everyday alarm clock function.",
   },
   {
@@ -132,13 +126,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/4148wkUCCUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BKH8D5CW?tag=deskfinds0d-20",
-    description:
-      "Explicitly marketed for retirement gifting, this personalized clock includes an AA battery in the box, a small but genuinely convenient detail that means the recipient can use it immediately after unwrapping. It works on either a desk or a shelf, flexible for wherever the recipient wants to display it.\n\nThe alarm function adds practical value beyond a display piece, and the retirement-specific marketing means the listing's customization options are likely tailored to that occasion's typical messaging.",
-    specs: ["Desk or shelf placement", "Alarm function", "AA battery included", "Retirement gift marketing"],
-    pros: ["Battery included, ready to use immediately", "Alarm function adds practical value", "Flexible desk or shelf placement", "Purpose-built for retirement gift messaging"],
-    cons: ["Higher price point among these picks", "Engraving requires lead time before shipping", "Verify current review data on the listing"],
+    description: "Explicitly marketed for retirement gifting, this personalized clock includes an AA battery in the box, a small but genuinely convenient detail that means the recipient can use it immediately after unwrapping. It works on either a desk or a shelf, flexible for wherever the recipient wants to display it.\n\nRanked just behind Executive Gift Shoppe | Arched Personalized Mahogany Desktop Alarm Clock with Custom Engraving, it costs more than Executive Gift Shoppe | Arched Personalized Mahogany Desktop Alarm Clock with Custom Engraving. The real tradeoff against that pick: Higher price point among these picks. In exchange, it offers this instead: Battery included, ready to use immediately. That's the swap that decides whether this pick or the one above it is the better fit for a given buyer.\n\nBuyers specifically gifting a retirement milestone who want an immediately usable clock.",
+    specs: ["Desk or shelf placement","Alarm function","AA battery included","Retirement gift marketing"],
+    pros: ["Battery included, ready to use immediately","Alarm function adds practical value","Flexible desk or shelf placement","Purpose-built for retirement gift messaging"],
+    cons: ["Higher price point among these picks","Engraving requires lead time before shipping","Verify current review data on the listing"],
     bestFor: "Buyers specifically gifting a retirement milestone who want an immediately usable clock.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -152,39 +145,133 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Match a Gift Occasion to a Specific Pick",
-    table: {
-      headers: ["Occasion", "Recommended pick"],
-      rows: [
-        ["Corporate recognition or milestone award", "Personalized Crystal Desk Clock"],
-        ["Retirement gift", "Personalized Clock with Alarm, Retirement Gifts"],
-        ["Sentimental photo gift", "Personalized Wooden Clock with Photo"],
-        ["Significant career milestone", "Executive Gift Shoppe Glass Table Clock"],
-        ["Everyday desk gift with organizer utility", "THINGS REMEMBERED Digital Clock and Pen Cup"],
-        ["Budget-conscious engraved gift", "HomeWetBar Arch Glass Desk Clock"],
-        ["Traditional functional alarm clock gift", "Executive Gift Shoppe Mahogany Alarm Clock"],
+    "subheading": "By Movement Type",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "A quiet, non-ticking movement",
+          "THINGS REMEMBERED Engraved Grey Digital Clock and Pen Cup Desk Organizer (Free Customization)"
+        ],
+        [
+          "A digital, fully silent display",
+          "THINGS REMEMBERED Engraved Grey Digital Clock and Pen Cup Desk Organizer (Free Customization)"
+        ],
+        [
+          "Maximum visual personality (flip or mechanical action)",
+          "THINGS REMEMBERED Engraved Grey Digital Clock and Pen Cup Desk Organizer (Free Customization)"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Build In Engraving Lead Time",
-    note: "Personalized pieces are not stock items you can ship same day. Based on how custom engraving generally works, expect several business days of production after you approve the design or text, order at least a week to ten days ahead of your actual gift date to be safe.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $50",
+          "HomeWetBar Arch Glass Personalized Desk Clock"
+        ],
+        [
+          "Mid-range",
+          "THINGS REMEMBERED Engraved Grey Digital Clock and Pen Cup Desk Organizer (Free Customization)"
+        ],
+        [
+          "No firm budget ceiling, prioritizing material or brand",
+          "Executive Gift Shoppe | Personalized Glass Table Clock with Silver Finish Accents and Custom Engraving"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Display-Only vs Functional",
-    cards: [
-      { label: "Purely decorative pieces", text: "Crystal and some glass clocks are built as award-style objects, not everyday alarm clocks." },
-      { label: "Genuinely functional pieces", text: "The mahogany alarm clock and the retirement alarm clock pick both include real alarm functionality for daily use." },
+    "subheading": "Battery-Powered vs Corded",
+    "cards": [
+      {
+        "label": "Battery-Powered",
+        "text": "Runs on batteries alone, so it can sit anywhere on a desk or shelf with no cord in the way, at the cost of an eventual battery swap. In this comparison: THINGS REMEMBERED Engraved Grey Digital Clock and Pen Cup Desk Organizer (Free Customization), Personalized Wooden Clock with Photo, Personalized Crystal Desk Clock."
+      },
+      {
+        "label": "Corded (Plug-In)",
+        "text": "Draws continuous power from a wall outlet, often adding features like USB charging ports or a battery backup for outages, but it has to sit within cord length of a plug. In this comparison: none in this specific roundup, since most picks here are battery powered."
+      }
     ],
+    "note": "Most buyers should default to a battery-powered pick like HomeWetBar Arch Glass Personalized Desk Clock unless you specifically want the USB charging or dimmer features that typically come with corded models."
   },
+  {
+    "subheading": "By Purpose: Everyday Use vs Gift",
+    "table": {
+      "headers": [
+        "Your purpose",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Everyday functional desk use",
+          "THINGS REMEMBERED Engraved Grey Digital Clock and Pen Cup Desk Organizer (Free Customization)"
+        ],
+        [
+          "A gift or milestone piece",
+          "THINGS REMEMBERED Engraved Grey Digital Clock and Pen Cup Desk Organizer (Free Customization)"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Buying as a Gift Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Genuine material language, such as hand carved, real marble, or real crystal, rather than a marble-look or crystal-look plastic finish, plus a stated production or engraving lead time if personalization is involved."
+      },
+      {
+        "label": "In this comparison",
+        "text": "THINGS REMEMBERED Engraved Grey Digital Clock and Pen Cup Desk Organizer (Free Customization) fits this specifically: Free customization included in price. That's the kind of detail that signals a deliberate gift rather than a purely functional purchase."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Executive Gift Shoppe | Personalized Glass Table Clock with Silver Finish Accents and Custom Engraving offers: Distinct glass and silver material combination. That's a real material or craftsmanship upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "HomeWetBar Arch Glass Personalized Desk Clock already covers the essentials: Lower price than comparable glass and crystal picks. The main thing you'd be paying extra for elsewhere in this list is styling rather than function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Order with real engraving lead time in mind", explanation: "Custom engraved pieces typically need several business days of production after design approval. Order at least a week to ten days before your gift deadline rather than assuming fast shipping alone covers it." },
-  { criterion: "Match material to the formality of the occasion", explanation: "Crystal and glass read as more formal and award-like, while wood and mahogany suit a warmer, more traditional gift. Pick based on the relationship and occasion." },
-  { criterion: "Decide if the recipient wants a display piece or a functional clock", explanation: "Some personalized clocks are award-style objects without a genuine alarm, others double as functional desk alarm clocks. Check the listing for alarm functionality if daily use matters." },
-  { criterion: "Photo engraving renders as an etched image, not a printed photo", explanation: "If you choose a photo-personalized piece, expect an engraved or etched rendering of the image rather than full-color print quality, set that expectation before ordering." },
-  { criterion: "Confirm what's included in the listed price", explanation: "Some listings include customization free, others may charge extra for engraving, check this before comparing prices across picks." },
+  {
+    "criterion": "Decide whether ticking noise matters to you",
+    "explanation": "A standard quartz movement advances its second hand once per second and produces an audible tick you can hear from a few feet away, while a silent sweep or silent electronic movement moves continuously with no tick at all. This matters more than it sounds like it should: a clock that ticks audibly for eight hours a day within arm's reach of where you work becomes a genuine background irritant for a lot of people, even if they don't consciously register it as a complaint until the clock is removed or replaced. To check this before buying, search the listing for the words \"silent,\" \"non-ticking,\" or \"sweep movement\" specifically, since a listing that doesn't mention noise at all is very likely a standard audible-tick quartz movement."
+  },
+  {
+    "criterion": "Match the face or display size to real viewing distance",
+    "explanation": "The size printed in a listing, usually in inches, measures the clock's case or face diameter, but that number alone doesn't tell you how easily you'll actually be able to read the time from where you sit. A 3 to 4 inch face reads fine from arm's length at a desk but becomes genuinely hard to read from across a room or a doorway, which matters if the clock's real job is to be glanced at from a distance rather than up close. Check the listing's stated dimensions against your actual distance from where the clock will sit, and for digital models, look specifically for the digit height in inches rather than the overall unit size, since a large plastic housing can still contain small digits."
+  },
+  {
+    "criterion": "Confirm the power source before you plan where it goes",
+    "explanation": "Desk clocks are either battery powered, meaning they can sit anywhere with no cord in the way, or corded and plugged into a wall outlet, sometimes with a battery backup that keeps the display running briefly during an outage. This is a genuinely practical constraint, not a minor spec: a corded clock needs to sit within cord-length of an outlet, which can rule out the center of a desk or a shelf far from a plug, while a battery clock can go anywhere but will eventually need a battery swap. Look for \"battery operated\" versus \"plug-in\" or \"AC powered\" directly in the listing title or bullet points, and treat advertised USB charging ports as a strong signal the unit is corded rather than battery-only."
+  },
+  {
+    "criterion": "Separate gift-tier materials from everyday functional clocks",
+    "explanation": "Clocks made from marble or crystal, or featuring custom engraving, are priced and designed first as a gift or a statement object, with everyday timekeeping treated as secondary, while clocks built from plastic or basic wood with digital or simple analog displays are priced for everyday practical use. Buying a hand-carved marble clock expecting the same day-to-day practicality as a basic digital clock with a dimmer and USB ports will lead to disappointment, since these are genuinely different product categories that happen to share a name. Check whether the listing emphasizes material and craftsmanship language (hand carved, polished, engraved) versus functional language (auto DST, dual alarms, temperature display) to quickly tell which tier a given clock falls into."
+  },
+  {
+    "criterion": "Check for lead time if the piece is personalized or engraved",
+    "explanation": "Custom engraving or personalization isn't applied instantly at a warehouse the way a standard product ships; it typically requires a separate production step after you submit your design or text, which the seller has to complete before the item even enters the shipping queue. This means a personalized clock ordered as a last-minute gift can easily miss a deadline that a standard, non-personalized clock would have made with days to spare, since the engraving step alone commonly adds several business days on top of normal shipping time. Before ordering a personalized piece for a specific date, check the listing's stated production or processing time, which is separate from shipping time, and order with enough buffer for both steps to finish before you need it."
+  }
 ];
 
 export const faq: FaqItem[] = [

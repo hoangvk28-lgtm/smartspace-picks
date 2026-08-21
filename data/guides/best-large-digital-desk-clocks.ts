@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41p9+8vk2BL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D4LZVF5B?tag=deskfinds0d-20",
-    description:
-      "\"Large\" is in the product name itself, and the listing backs it up with high-contrast digits designed for senior-friendly readability, plus date and day of week display. A USB charging port on the unit adds a small extra convenience.\n\nThis is the strongest pick if maximum digit size and readability from a distance is your top priority over compact footprint or a long feature list.",
-    specs: ["Large, high-contrast digital display", "Date and day of week readout", "USB charging port on unit", "Senior-friendly large digits"],
-    pros: ["Largest, clearest digits explicitly marketed in this pool", "USB charging port adds convenience", "Clear date and day display", "Simple, uncluttered layout"],
-    cons: ["Larger footprint takes up more desk space", "No stated battery backup", "Verify current review data on the listing"],
+    description: "\"Large\" is in the product name itself, and the listing backs it up with high-contrast digits designed for senior-friendly readability, plus date and day of week display. A USB charging port on the unit adds a small extra convenience.\n\nIt earns the top spot in this comparison over Digital Wall Clock for one main reason. Largest, clearest digits explicitly marketed in this pool. On price, it's actually priced above Digital Wall Clock, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers who prioritize maximum digit readability above all else.",
+    specs: ["Large, high-contrast digital display","Date and day of week readout","USB charging port on unit","Senior-friendly large digits"],
+    pros: ["Largest, clearest digits explicitly marketed in this pool","USB charging port adds convenience","Clear date and day display","Simple, uncluttered layout"],
+    cons: ["Larger footprint takes up more desk space","No stated battery backup","Verify current review data on the listing"],
     bestFor: "Buyers who prioritize maximum digit readability above all else.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41LfoqpRSML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2B45PNV?tag=deskfinds0d-20",
-    description:
-      "Also explicitly marketed as a large display clock, this corded model bundles in temperature, humidity, date, week, auto DST, and a countdown timer, all adjustable via the included remote, based on the listing. It requires a nearby outlet since it's mains powered.\n\nThe remote is a genuine advantage for a large clock that might sit somewhere slightly out of reach, letting you adjust settings without approaching the unit.",
-    specs: ["Large LED display", "Remote control included", "Corded, mains powered", "Temperature, humidity, date, week readout"],
-    pros: ["Large display confirmed in the product name", "Remote control for adjusting settings from a distance", "Full feature set: temp, humidity, date, countdown", "Auto DST removes manual seasonal resets"],
-    cons: ["Requires a nearby outlet", "Blue tint display may not suit every desk aesthetic", "Verify current review data on the listing"],
+    description: "Also explicitly marketed as a large display clock, this corded model bundles in temperature, humidity, date, week, auto DST, and a countdown timer, all adjustable via the included remote, based on the listing. It requires a nearby outlet since it's mains powered.\n\nOne spot below DreamSky Large Digital Clock with Date and Day of Week for Seniors in this ranking, it's priced lower than DreamSky Large Digital Clock with Date and Day of Week for Seniors. The compromise here is straightforward: Requires a nearby outlet. What you gain in return: Large display confirmed in the product name. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers wanting a large display clock with remote-adjustable settings.",
+    specs: ["Large LED display","Remote control included","Corded, mains powered","Temperature, humidity, date, week readout"],
+    pros: ["Large display confirmed in the product name","Remote control for adjusting settings from a distance","Full feature set: temp, humidity, date, countdown","Auto DST removes manual seasonal resets"],
+    cons: ["Requires a nearby outlet","Blue tint display may not suit every desk aesthetic","Verify current review data on the listing"],
     bestFor: "Buyers wanting a large display clock with remote-adjustable settings.",
   },
   {
@@ -64,13 +62,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41DeMvzCZ3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B091FHJGDL?tag=deskfinds0d-20",
-    description:
-      "\"Large Display\" appears directly in the product name here too, paired with a clean black case and an automatic brightness dimmer that adjusts the display for day or night viewing without manual input, based on the listing. It's corded, so an outlet needs to be nearby.\n\nIf you want a large display clock that also looks modern rather than purely utilitarian, this is the pick that leans furthest into design alongside the large digits.",
-    specs: ["Large LED display", "Automatic brightness dimmer", "Corded, mains powered", "Black modern finish"],
-    pros: ["Large display confirmed in the product name", "Automatic dimmer removes manual brightness adjustment", "Clean black finish suits a modern desk", "Date and temperature readout included"],
-    cons: ["Requires a nearby outlet", "No remote control included", "Verify current review data on the listing"],
+    description: "\"Large Display\" appears directly in the product name here too, paired with a clean black case and an automatic brightness dimmer that adjusts the display for day or night viewing without manual input, based on the listing. It's corded, so an outlet needs to be nearby.\n\nSitting just under Digital Wall Clock, it costs more than Digital Wall Clock. Here's the honest tradeoff: Requires a nearby outlet. And here's what it gets you instead: Large display confirmed in the product name. That's the real difference between the two picks, not just a ranking number.\n\nBuyers wanting a large display clock with a clean, modern design.",
+    specs: ["Large LED display","Automatic brightness dimmer","Corded, mains powered","Black modern finish"],
+    pros: ["Large display confirmed in the product name","Automatic dimmer removes manual brightness adjustment","Clean black finish suits a modern desk","Date and temperature readout included"],
+    cons: ["Requires a nearby outlet","No remote control included","Verify current review data on the listing"],
     bestFor: "Buyers wanting a large display clock with a clean, modern design.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -84,31 +81,133 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "\"Large Display\" Should Be an Explicit Listing Claim",
-    note: "We limited this guide to clocks whose titles or descriptions specifically call out a large display, rather than assuming any digital clock is large enough. If readability from across a room is your priority, check for this specific wording before buying.",
-  },
-  {
-    subheading: "Bigger Digits Mean a Bigger Footprint",
-    note: "All three picks here take up more desk space than a compact clock. If your desk is tight on room, weigh whether the readability tradeoff is worth the larger footprint, or consider a mid-size pick from our best LED desk clocks guide instead.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Absolute maximum digit size and clarity", "DreamSky Large Digital Clock"],
-        ["Large display plus remote adjustability", "Digital Wall Clock with Remote Control"],
-        ["Large display with the cleanest modern look", "Digital Clock Large Display Black"],
+    "subheading": "By Movement Type",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "A quiet, non-ticking movement",
+          "DreamSky Large Digital Clock with Date and Day of Week for Seniors"
+        ],
+        [
+          "A digital, fully silent display",
+          "DreamSky Large Digital Clock with Date and Day of Week for Seniors"
+        ],
+        [
+          "Maximum visual personality (flip or mechanical action)",
+          "DreamSky Large Digital Clock with Date and Day of Week for Seniors"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $23",
+          "Digital Wall Clock"
+        ],
+        [
+          "Mid-range",
+          "Digital Clock Large Display"
+        ],
+        [
+          "No firm budget ceiling, prioritizing material or brand",
+          "DreamSky Large Digital Clock with Date and Day of Week for Seniors"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Battery-Powered vs Corded",
+    "cards": [
+      {
+        "label": "Battery-Powered",
+        "text": "Runs on batteries alone, so it can sit anywhere on a desk or shelf with no cord in the way, at the cost of an eventual battery swap. In this comparison: Digital Wall Clock."
+      },
+      {
+        "label": "Corded (Plug-In)",
+        "text": "Draws continuous power from a wall outlet, often adding features like USB charging ports or a battery backup for outages, but it has to sit within cord length of a plug. In this comparison: DreamSky Large Digital Clock with Date and Day of Week for Seniors, Digital Wall Clock, Digital Clock Large Display."
+      }
+    ],
+    "note": "Most buyers should default to a battery-powered pick like Digital Wall Clock unless you specifically want the USB charging or dimmer features that typically come with corded models."
+  },
+  {
+    "subheading": "By Purpose: Everyday Use vs Gift",
+    "table": {
+      "headers": [
+        "Your purpose",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Everyday functional desk use",
+          "DreamSky Large Digital Clock with Date and Day of Week for Seniors"
+        ],
+        [
+          "A gift or milestone piece",
+          "Digital Clock Large Display"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Buying as a Gift Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Genuine material language, such as hand carved, real marble, or real crystal, rather than a marble-look or crystal-look plastic finish, plus a stated production or engraving lead time if personalization is involved."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Digital Clock Large Display fits this specifically: Large display confirmed in the product name. That's the kind of detail that signals a deliberate gift rather than a purely functional purchase."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what DreamSky Large Digital Clock with Date and Day of Week for Seniors offers: Largest, clearest digits explicitly marketed in this pool. That's a real material or craftsmanship upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Digital Wall Clock already covers the essentials: Large display confirmed in the product name. The main thing you'd be paying extra for elsewhere in this list is styling rather than function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Check for \"large display\" explicitly in the listing", explanation: "Don't assume any digital clock is sized for across-the-room reading. Look for the specific claim in the title or bullet points before buying." },
-  { criterion: "Confirm power type before committing to a large corded clock", explanation: "Two of the three picks here are corded and need a nearby outlet, a real placement constraint for a clock you likely want visible from a distance." },
-  { criterion: "Weigh footprint against your actual desk space", explanation: "A large display clock takes up meaningfully more desk or wall space than a compact model. If space is tight, consider whether the readability gain justifies it." },
-  { criterion: "Extra features add value only if you'll actually use them", explanation: "A remote control or auto-dimmer is genuinely useful if the clock isn't within easy reach, but adds cost without benefit if you'll rarely use the feature." },
+  {
+    "criterion": "Decide whether ticking noise matters to you",
+    "explanation": "A standard quartz movement advances its second hand once per second and produces an audible tick you can hear from a few feet away, while a silent sweep or silent electronic movement moves continuously with no tick at all. This matters more than it sounds like it should: a clock that ticks audibly for eight hours a day within arm's reach of where you work becomes a genuine background irritant for a lot of people, even if they don't consciously register it as a complaint until the clock is removed or replaced. To check this before buying, search the listing for the words \"silent,\" \"non-ticking,\" or \"sweep movement\" specifically, since a listing that doesn't mention noise at all is very likely a standard audible-tick quartz movement."
+  },
+  {
+    "criterion": "Match the face or display size to real viewing distance",
+    "explanation": "The size printed in a listing, usually in inches, measures the clock's case or face diameter, but that number alone doesn't tell you how easily you'll actually be able to read the time from where you sit. A 3 to 4 inch face reads fine from arm's length at a desk but becomes genuinely hard to read from across a room or a doorway, which matters if the clock's real job is to be glanced at from a distance rather than up close. Check the listing's stated dimensions against your actual distance from where the clock will sit, and for digital models, look specifically for the digit height in inches rather than the overall unit size, since a large plastic housing can still contain small digits."
+  },
+  {
+    "criterion": "Confirm the power source before you plan where it goes",
+    "explanation": "Desk clocks are either battery powered, meaning they can sit anywhere with no cord in the way, or corded and plugged into a wall outlet, sometimes with a battery backup that keeps the display running briefly during an outage. This is a genuinely practical constraint, not a minor spec: a corded clock needs to sit within cord-length of an outlet, which can rule out the center of a desk or a shelf far from a plug, while a battery clock can go anywhere but will eventually need a battery swap. Look for \"battery operated\" versus \"plug-in\" or \"AC powered\" directly in the listing title or bullet points, and treat advertised USB charging ports as a strong signal the unit is corded rather than battery-only."
+  },
+  {
+    "criterion": "Separate gift-tier materials from everyday functional clocks",
+    "explanation": "Clocks made from marble or crystal, or featuring custom engraving, are priced and designed first as a gift or a statement object, with everyday timekeeping treated as secondary, while clocks built from plastic or basic wood with digital or simple analog displays are priced for everyday practical use. Buying a hand-carved marble clock expecting the same day-to-day practicality as a basic digital clock with a dimmer and USB ports will lead to disappointment, since these are genuinely different product categories that happen to share a name. Check whether the listing emphasizes material and craftsmanship language (hand carved, polished, engraved) versus functional language (auto DST, dual alarms, temperature display) to quickly tell which tier a given clock falls into."
+  },
+  {
+    "criterion": "Check for lead time if the piece is personalized or engraved",
+    "explanation": "Custom engraving or personalization isn't applied instantly at a warehouse the way a standard product ships; it typically requires a separate production step after you submit your design or text, which the seller has to complete before the item even enters the shipping queue. This means a personalized clock ordered as a last-minute gift can easily miss a deadline that a standard, non-personalized clock would have made with days to spare, since the engraving step alone commonly adds several business days on top of normal shipping time. Before ordering a personalized piece for a specific date, check the listing's stated production or processing time, which is separate from shipping time, and order with enough buffer for both steps to finish before you need it."
+  }
 ];
 
 export const faq: FaqItem[] = [

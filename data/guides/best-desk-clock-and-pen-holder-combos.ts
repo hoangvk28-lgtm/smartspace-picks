@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51C9d8utpcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CSYNVCD?tag=deskfinds0d-20",
-    description:
-      "This is the most feature-complete combo in our pool: a genuine wireless charging pad alongside the clock, thermometer, and hygrometer display, based on the listing, not just a pen holder with a clock bolted on. The higher price reflects that expanded feature set.\n\nIf you want the pen holder and clock combo to also solve your phone charging cable clutter, this is the only pick here that genuinely does, the rest use the space purely for stationery and the display.",
-    specs: ["Built-in wireless charging pad", "Digital clock, thermometer, hygrometer", "Pencil and stationery holder", "Multi-functional design"],
-    pros: ["Only genuine wireless charging pad in this comparison", "Combines clock, thermometer, hygrometer, and storage", "Reduces desk cable clutter for compatible phones", "Most feature-complete option here"],
-    cons: ["Highest price in this comparison", "Verify Qi phone compatibility before buying", "Verify current review data on the listing"],
+    description: "This is the most feature-complete combo in our pool: a genuine wireless charging pad alongside the clock, thermometer, and hygrometer display, based on the listing, not just a pen holder with a clock bolted on. The higher price reflects that expanded feature set.\n\nIt earns the top spot in this comparison over Desk Pen Holder with Clock for one main reason. Only genuine wireless charging pad in this comparison. On price, it's actually priced above Desk Pen Holder with Clock, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers wanting a pen holder combo that also solves phone charging.",
+    specs: ["Built-in wireless charging pad","Digital clock, thermometer, hygrometer","Pencil and stationery holder","Multi-functional design"],
+    pros: ["Only genuine wireless charging pad in this comparison","Combines clock, thermometer, hygrometer, and storage","Reduces desk cable clutter for compatible phones","Most feature-complete option here"],
+    cons: ["Highest price in this comparison","Verify Qi phone compatibility before buying","Verify current review data on the listing"],
     bestFor: "Buyers wanting a pen holder combo that also solves phone charging.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41shluLVEDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CMTQXHQL?tag=deskfinds0d-20",
-    description:
-      "The lowest price in this comparison, and the only pick here whose listing explicitly names a timer function alongside the calendar and temperature display. It's a straightforward LCD pen organizer for anyone who wants function without paying for wireless charging they may not need.\n\nA built-in countdown timer is a genuinely useful addition for desk tasks like timed work sessions, something none of the other pen holder combos in this pool explicitly offer.",
-    specs: ["LCD alarm clock with calendar and temperature", "Timer function per listing", "Pen and stationery organizer", "Budget price"],
-    pros: ["Lowest price in this comparison by a wide margin", "Only pick with an explicit timer function", "Calendar and temperature display included", "Practical pen and pencil storage"],
-    cons: ["No wireless charging or USB features", "Smaller, more basic build than pricier picks", "Verify current review data on the listing"],
+    description: "The lowest price in this comparison, and the only pick here whose listing explicitly names a timer function alongside the calendar and temperature display. It's a straightforward LCD pen organizer for anyone who wants function without paying for wireless charging they may not need.\n\nOne spot below Desk Organizer with Wireless Charger in this ranking, it's priced lower than Desk Organizer with Wireless Charger. The compromise here is straightforward: No wireless charging or USB features. What you gain in return: Lowest price in this comparison by a wide margin. Whether that trade is worth it depends on which side matters more to you.\n\nBudget-conscious buyers who specifically want a countdown timer function.",
+    specs: ["LCD alarm clock with calendar and temperature","Timer function per listing","Pen and stationery organizer","Budget price"],
+    pros: ["Lowest price in this comparison by a wide margin","Only pick with an explicit timer function","Calendar and temperature display included","Practical pen and pencil storage"],
+    cons: ["No wireless charging or USB features","Smaller, more basic build than pricier picks","Verify current review data on the listing"],
     bestFor: "Budget-conscious buyers who specifically want a countdown timer function.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41yGMh7wNJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B092977DS8?tag=deskfinds0d-20",
-    description:
-      "This combo adds a sound-activated night light on top of the LED clock and temperature display, a genuinely distinct feature among these six picks, based on the listing. A quiet alarm with snooze rounds out the clock functions.\n\nIf you work in low light or want the pen holder area gently lit without a separate desk lamp, the sound-activated light is a useful extra that none of the other combos in this comparison offer.",
-    specs: ["LED display with temperature sensor", "Sound-activated night light", "Quiet alarm with snooze", "Pen and pencil organizer"],
-    pros: ["Sound-activated night light is a unique feature here", "Quiet alarm with snooze function", "Reasonable mid-range price", "Temperature display included"],
-    cons: ["No wireless charging or timer function", "Night light relies on sound activation, not manual control per listing", "Verify current review data on the listing"],
+    description: "This combo adds a sound-activated night light on top of the LED clock and temperature display, a genuinely distinct feature among these six picks, based on the listing. A quiet alarm with snooze rounds out the clock functions.\n\nSitting just under Desk Pen Holder with Clock, it costs more than Desk Pen Holder with Clock. Here's the honest tradeoff: No wireless charging or timer function. And here's what it gets you instead: Sound-activated night light is a unique feature here. That's the real difference between the two picks, not just a ranking number.\n\nBuyers wanting a lightly illuminated pen holder area for low-light desk use.",
+    specs: ["LED display with temperature sensor","Sound-activated night light","Quiet alarm with snooze","Pen and pencil organizer"],
+    pros: ["Sound-activated night light is a unique feature here","Quiet alarm with snooze function","Reasonable mid-range price","Temperature display included"],
+    cons: ["No wireless charging or timer function","Night light relies on sound activation, not manual control per listing","Verify current review data on the listing"],
     bestFor: "Buyers wanting a lightly illuminated pen holder area for low-light desk use.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41TvrNmtc1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FC2YSN8L?tag=deskfinds0d-20",
-    description:
-      "A perpetual calendar display is the standout feature here, based on the listing, meaning the date function is built to stay accurate long-term without needing yearly resets. Temperature display and stationery storage round out a practical, similarly priced option to the AUNMAS pick.\n\nThe stationery storage on this one is described broadly rather than pen-specific, useful if you want a slightly more flexible organizer compartment beyond just pens and pencils.",
-    specs: ["LCD digital alarm clock", "Perpetual calendar display", "Temperature readout", "General stationery storage"],
-    pros: ["Perpetual calendar avoids yearly date resets", "Flexible stationery storage beyond just pens", "Competitive price for the feature set", "Temperature display included"],
-    cons: ["No wireless charging or timer function", "Storage compartment size not detailed in listing", "Verify current review data on the listing"],
+    description: "A perpetual calendar display is the standout feature here, based on the listing, meaning the date function is built to stay accurate long-term without needing yearly resets. Temperature display and stationery storage round out a practical, similarly priced option to the AUNMAS pick.\n\nRanked just behind AUNMAS Digital Alarm Clock Pen Holder with LED Display and Temperature Sensor, it's priced lower than AUNMAS Digital Alarm Clock Pen Holder with LED Display and Temperature Sensor. The real tradeoff against that pick: No wireless charging or timer function. In exchange, it offers this instead: Perpetual calendar avoids yearly date resets. That's the swap that decides whether this pick or the one above it is the better fit for a given buyer.\n\nBuyers who want a low-maintenance perpetual calendar alongside pen storage.",
+    specs: ["LCD digital alarm clock","Perpetual calendar display","Temperature readout","General stationery storage"],
+    pros: ["Perpetual calendar avoids yearly date resets","Flexible stationery storage beyond just pens","Competitive price for the feature set","Temperature display included"],
+    cons: ["No wireless charging or timer function","Storage compartment size not detailed in listing","Verify current review data on the listing"],
     bestFor: "Buyers who want a low-maintenance perpetual calendar alongside pen storage.",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41POh1ca2iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B686DBJK?tag=deskfinds0d-20",
-    description:
-      "Closely related to the perpetual calendar pick above, this version displays temperature, time, and date in the same LCD format, based on the listing, with a pen holder built around the base. It's marketed with bedside clock language too, but works equally well as a desk organizer.\n\nIf the other perpetual calendar pick is out of stock or you prefer this specific design, it covers essentially the same functional ground.",
-    specs: ["LCD electronic clock", "Perpetual calendar display", "Temperature, time, date readout", "Pen holder base"],
-    pros: ["Same useful perpetual calendar feature", "Displays temperature, time, and date together", "Works as either a desk or bedside organizer", "Pen holder base included"],
-    cons: ["Price not consistently listed, check current Amazon price", "Very similar to another pick in this list, compare photos before choosing", "Verify current review data on the listing"],
+    description: "Closely related to the perpetual calendar pick above, this version displays temperature, time, and date in the same LCD format, based on the listing, with a pen holder built around the base. It's marketed with bedside clock language too, but works equally well as a desk organizer.\n\nOne spot below Pencil Holder in this ranking, pricing between it and Pencil Holder isn't directly comparable here. The compromise here is straightforward: Price not consistently listed, check current Amazon price. What you gain in return: Same useful perpetual calendar feature. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers comparing perpetual calendar pen holder designs before choosing one. Note the price wasn't listed at the time of research, so confirm current cost on Amazon before deciding.",
+    specs: ["LCD electronic clock","Perpetual calendar display","Temperature, time, date readout","Pen holder base"],
+    pros: ["Same useful perpetual calendar feature","Displays temperature, time, and date together","Works as either a desk or bedside organizer","Pen holder base included"],
+    cons: ["Price not consistently listed, check current Amazon price","Very similar to another pick in this list, compare photos before choosing","Verify current review data on the listing"],
     bestFor: "Buyers comparing perpetual calendar pen holder designs before choosing one.",
   },
   {
@@ -115,13 +110,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41et8GwVYSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GCY1XVGL?tag=deskfinds0d-20",
-    description:
-      "This pick stands out for multicolor lighting built into the organizer, based on the listing, a more decorative option than the plain LCD displays on the other picks here. It still includes the perpetual calendar function shared with a couple of other combos in this list.\n\nIf you want your pen holder combo to double as a bit of desk ambiance rather than staying purely functional, this is the pick that leans into that.",
-    specs: ["Multicolor LED lighting", "Perpetual calendar display", "Pen and pencil holder", "Home office desk accessory styling"],
-    pros: ["Multicolor lighting adds desk ambiance, unique in this list", "Perpetual calendar function included", "Pen and pencil storage built in", "Distinct decorative look versus plain LCD picks"],
-    cons: ["Price not consistently listed, check current Amazon price", "Lighting may not suit a strictly minimalist desk", "Verify current review data on the listing"],
+    description: "This pick stands out for multicolor lighting built into the organizer, based on the listing, a more decorative option than the plain LCD displays on the other picks here. It still includes the perpetual calendar function shared with a couple of other combos in this list.\n\nSitting just under Pen Holder, pricing between it and Pen Holder isn't directly comparable here. Here's the honest tradeoff: Price not consistently listed, check current Amazon price. And here's what it gets you instead: Multicolor lighting adds desk ambiance, unique in this list. That's the real difference between the two picks, not just a ranking number.\n\nBuyers who want a pen holder combo with a decorative lighting element. Note the price wasn't listed at the time of research, so confirm current cost on Amazon before deciding.",
+    specs: ["Multicolor LED lighting","Perpetual calendar display","Pen and pencil holder","Home office desk accessory styling"],
+    pros: ["Multicolor lighting adds desk ambiance, unique in this list","Perpetual calendar function included","Pen and pencil storage built in","Distinct decorative look versus plain LCD picks"],
+    cons: ["Price not consistently listed, check current Amazon price","Lighting may not suit a strictly minimalist desk","Verify current review data on the listing"],
     bestFor: "Buyers who want a pen holder combo with a decorative lighting element.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -135,38 +129,133 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Decide Which Half of the Combo Matters More",
-    cards: [
-      { label: "Clock features matter most", text: "Prioritize the wireless charging pick or the timer pick for genuinely distinct clock functionality." },
-      { label: "Storage capacity matters most", text: "Look at listing photos closely for compartment size, since storage descriptions vary in detail across these six picks." },
-      { label: "Aesthetic matters most", text: "The multicolor lighting pick stands out visually versus the plain LCD designs of the others." },
-    ],
-  },
-  {
-    subheading: "Perpetual Calendar vs Standard Date Display",
-    note: "A perpetual calendar function, mentioned on three picks here, is designed to stay accurate long-term without a yearly manual reset. A standard date display still works fine but may need periodic adjustment. This is a genuine convenience difference worth checking in the listing.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Most features, wireless phone charging", "Desk Organizer with Wireless Charger"],
-        ["Lowest price, has a timer function", "Desk Pen Holder with Clock (Timer)"],
-        ["Night light for low-light desks", "AUNMAS Digital Alarm Clock Pen Holder"],
-        ["Perpetual calendar, flexible storage", "Pencil Holder with Perpetual Calendar"],
-        ["Decorative multicolor lighting", "Electronic Clock Pen Holder with Multicolor Lighting"],
+    "subheading": "By Movement Type",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "A quiet, non-ticking movement",
+          "Desk Organizer with Wireless Charger"
+        ],
+        [
+          "A digital, fully silent display",
+          "Desk Organizer with Wireless Charger"
+        ],
+        [
+          "Maximum visual personality (flip or mechanical action)",
+          "Desk Organizer with Wireless Charger"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $8",
+          "Desk Pen Holder with Clock"
+        ],
+        [
+          "Mid-range",
+          "AUNMAS Digital Alarm Clock Pen Holder with LED Display and Temperature Sensor"
+        ],
+        [
+          "No firm budget ceiling, prioritizing material or brand",
+          "Desk Organizer with Wireless Charger"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Battery-Powered vs Corded",
+    "cards": [
+      {
+        "label": "Battery-Powered",
+        "text": "Runs on batteries alone, so it can sit anywhere on a desk or shelf with no cord in the way, at the cost of an eventual battery swap. In this comparison: Desk Organizer with Wireless Charger, Desk Pen Holder with Clock, AUNMAS Digital Alarm Clock Pen Holder with LED Display and Temperature Sensor."
+      },
+      {
+        "label": "Corded (Plug-In)",
+        "text": "Draws continuous power from a wall outlet, often adding features like USB charging ports or a battery backup for outages, but it has to sit within cord length of a plug. In this comparison: none in this specific roundup, since most picks here are battery powered."
+      }
+    ],
+    "note": "Most buyers should default to a battery-powered pick like Desk Pen Holder with Clock unless you specifically want the USB charging or dimmer features that typically come with corded models."
+  },
+  {
+    "subheading": "By Purpose: Everyday Use vs Gift",
+    "table": {
+      "headers": [
+        "Your purpose",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Everyday functional desk use",
+          "Desk Organizer with Wireless Charger"
+        ],
+        [
+          "A gift or milestone piece",
+          "Electronic Clock Pen Holder"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Buying as a Gift Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Genuine material language, such as hand carved, real marble, or real crystal, rather than a marble-look or crystal-look plastic finish, plus a stated production or engraving lead time if personalization is involved."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Electronic Clock Pen Holder fits this specifically: Multicolor lighting adds desk ambiance, unique in this list. That's the kind of detail that signals a deliberate gift rather than a purely functional purchase."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Desk Organizer with Wireless Charger offers: Only genuine wireless charging pad in this comparison. That's a real material or craftsmanship upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Desk Pen Holder with Clock already covers the essentials: Lowest price in this comparison by a wide margin. The main thing you'd be paying extra for elsewhere in this list is styling rather than function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Check whether the timer function is genuinely named", explanation: "Only one pick in this comparison explicitly lists a timer function. Don't assume every \"multifunctional\" clock includes a countdown timer just because it has a full display." },
-  { criterion: "Verify wireless charging compatibility before relying on it", explanation: "Only one pick here has a genuine wireless charging pad. Confirm your phone supports Qi charging and doesn't have a thick or metal case that could block the connection." },
-  { criterion: "Look past the clock for storage compartment size", explanation: "Some listings describe pen-specific holders, others describe broader stationery storage. If you have more than a couple of pens, check actual compartment dimensions in the listing photos." },
-  { criterion: "Perpetual calendar is a genuine long-term convenience", explanation: "A perpetual calendar function avoids the yearly manual date reset a standard calendar display needs, worth prioritizing if you want a truly low-maintenance desk clock." },
-  { criterion: "Decorative lighting is a genuine tradeoff, not free", explanation: "Multicolor lighting adds visual interest but may not suit a minimalist desk aesthetic or could be distracting during video calls, weigh this against your actual desk environment." },
+  {
+    "criterion": "Decide whether ticking noise matters to you",
+    "explanation": "A standard quartz movement advances its second hand once per second and produces an audible tick you can hear from a few feet away, while a silent sweep or silent electronic movement moves continuously with no tick at all. This matters more than it sounds like it should: a clock that ticks audibly for eight hours a day within arm's reach of where you work becomes a genuine background irritant for a lot of people, even if they don't consciously register it as a complaint until the clock is removed or replaced. To check this before buying, search the listing for the words \"silent,\" \"non-ticking,\" or \"sweep movement\" specifically, since a listing that doesn't mention noise at all is very likely a standard audible-tick quartz movement."
+  },
+  {
+    "criterion": "Match the face or display size to real viewing distance",
+    "explanation": "The size printed in a listing, usually in inches, measures the clock's case or face diameter, but that number alone doesn't tell you how easily you'll actually be able to read the time from where you sit. A 3 to 4 inch face reads fine from arm's length at a desk but becomes genuinely hard to read from across a room or a doorway, which matters if the clock's real job is to be glanced at from a distance rather than up close. Check the listing's stated dimensions against your actual distance from where the clock will sit, and for digital models, look specifically for the digit height in inches rather than the overall unit size, since a large plastic housing can still contain small digits."
+  },
+  {
+    "criterion": "Confirm the power source before you plan where it goes",
+    "explanation": "Desk clocks are either battery powered, meaning they can sit anywhere with no cord in the way, or corded and plugged into a wall outlet, sometimes with a battery backup that keeps the display running briefly during an outage. This is a genuinely practical constraint, not a minor spec: a corded clock needs to sit within cord-length of an outlet, which can rule out the center of a desk or a shelf far from a plug, while a battery clock can go anywhere but will eventually need a battery swap. Look for \"battery operated\" versus \"plug-in\" or \"AC powered\" directly in the listing title or bullet points, and treat advertised USB charging ports as a strong signal the unit is corded rather than battery-only."
+  },
+  {
+    "criterion": "Separate gift-tier materials from everyday functional clocks",
+    "explanation": "Clocks made from marble or crystal, or featuring custom engraving, are priced and designed first as a gift or a statement object, with everyday timekeeping treated as secondary, while clocks built from plastic or basic wood with digital or simple analog displays are priced for everyday practical use. Buying a hand-carved marble clock expecting the same day-to-day practicality as a basic digital clock with a dimmer and USB ports will lead to disappointment, since these are genuinely different product categories that happen to share a name. Check whether the listing emphasizes material and craftsmanship language (hand carved, polished, engraved) versus functional language (auto DST, dual alarms, temperature display) to quickly tell which tier a given clock falls into."
+  },
+  {
+    "criterion": "Check for lead time if the piece is personalized or engraved",
+    "explanation": "Custom engraving or personalization isn't applied instantly at a warehouse the way a standard product ships; it typically requires a separate production step after you submit your design or text, which the seller has to complete before the item even enters the shipping queue. This means a personalized clock ordered as a last-minute gift can easily miss a deadline that a standard, non-personalized clock would have made with days to spare, since the engraving step alone commonly adds several business days on top of normal shipping time. Before ordering a personalized piece for a specific date, check the listing's stated production or processing time, which is separate from shipping time, and order with enough buffer for both steps to finish before you need it."
+  }
 ];
 
 export const faq: FaqItem[] = [

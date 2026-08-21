@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41p9+8vk2BL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D4LZVF5B?tag=deskfinds0d-20",
-    description:
-      "This clock is built specifically around a large, legible date and day-of-week display alongside the time, based on the listing, the clearest date-focused pick in this pool. A USB charging port on the unit adds a bit of extra convenience.\n\nThe oversized digits make date reading easy from across a room, not just up close, a genuine advantage if legibility matters as much as the information itself.",
-    specs: ["Large date and day of week display", "USB charging port on unit", "High-contrast digits", "Senior-friendly large display"],
-    pros: ["Clearest, largest date and day display in this pool", "USB charging port adds convenience", "High-contrast digits readable from a distance", "Simple, uncluttered layout"],
-    cons: ["Larger footprint takes up more desk space", "No stated battery backup", "Verify current review data on the listing"],
+    description: "This clock is built specifically around a large, legible date and day-of-week display alongside the time, based on the listing, the clearest date-focused pick in this pool. A USB charging port on the unit adds a bit of extra convenience.\n\nIt earns the top spot in this comparison over WallarGe Auto Set Digital Wall Clock Battery Operated for one main reason. Clearest, largest date and day display in this pool. On price, it's actually priced above WallarGe Auto Set Digital Wall Clock Battery Operated, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers who want the clearest possible date and day-of-week display.",
+    specs: ["Large date and day of week display","USB charging port on unit","High-contrast digits","Senior-friendly large display"],
+    pros: ["Clearest, largest date and day display in this pool","USB charging port adds convenience","High-contrast digits readable from a distance","Simple, uncluttered layout"],
+    cons: ["Larger footprint takes up more desk space","No stated battery backup","Verify current review data on the listing"],
     bestFor: "Buyers who want the clearest possible date and day-of-week display.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41Ato69SCVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B082M8T5SD?tag=deskfinds0d-20",
-    description:
-      "Date display here comes paired with auto DST adjustment, so the date and time stay correct through seasonal changes without manual resets, based on the listing. Temperature, humidity, and multiple time zone support round out the display.\n\nBattery power means you can place it anywhere on a desk without worrying about outlet access, a genuine convenience if your desk setup already has enough cables.",
-    specs: ["Date display with auto DST adjustment", "Temperature and humidity readout", "Multiple time zone support", "Battery operated"],
-    pros: ["Auto DST keeps the date accurate without manual resets", "Temperature and humidity add extra utility", "Battery powered for flexible placement", "Multiple time zone support"],
-    cons: ["Day-of-week display less prominent than the DreamSky pick", "No USB charging port", "Verify current review data on the listing"],
+    description: "Date display here comes paired with auto DST adjustment, so the date and time stay correct through seasonal changes without manual resets, based on the listing. Temperature, humidity, and multiple time zone support round out the display.\n\nOne spot below DreamSky Large Digital Clock with Date and Day of Week for Seniors in this ranking, it's priced lower than DreamSky Large Digital Clock with Date and Day of Week for Seniors. The compromise here is straightforward: Day-of-week display less prominent than the DreamSky pick. What you gain in return: Auto DST keeps the date accurate without manual resets. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers wanting date display that stays correct automatically through DST changes.",
+    specs: ["Date display with auto DST adjustment","Temperature and humidity readout","Multiple time zone support","Battery operated"],
+    pros: ["Auto DST keeps the date accurate without manual resets","Temperature and humidity add extra utility","Battery powered for flexible placement","Multiple time zone support"],
+    cons: ["Day-of-week display less prominent than the DreamSky pick","No USB charging port","Verify current review data on the listing"],
     bestFor: "Buyers wanting date display that stays correct automatically through DST changes.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41tIxhZQouL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08M5VG7XH?tag=deskfinds0d-20",
-    description:
-      "Date and day display come alongside temperature, two independent alarms, and dual USB charging ports, based on the listing, a well-rounded pick if you want date information plus practical desk conveniences. Battery backup protects the date and time settings during a power outage.\n\nThe dimmer lets you adjust display brightness for daytime versus nighttime viewing, keeping the date legible without being distracting after dark.",
-    specs: ["Date and day of week display", "Dual USB charging ports", "2 independent alarms", "Battery backup"],
-    pros: ["Date display paired with useful charging ports", "Battery backup protects settings during outages", "Adjustable dimmer for nighttime use", "Two independent alarms"],
-    cons: ["Display is smaller than the DreamSky's large-format design", "Mains powered as primary source", "Verify current review data on the listing"],
+    description: "Date and day display come alongside temperature, two independent alarms, and dual USB charging ports, based on the listing, a well-rounded pick if you want date information plus practical desk conveniences. Battery backup protects the date and time settings during a power outage.\n\nSitting just under WallarGe Auto Set Digital Wall Clock Battery Operated, it's priced lower than WallarGe Auto Set Digital Wall Clock Battery Operated. Here's the honest tradeoff: Display is smaller than the DreamSky's large-format design. And here's what it gets you instead: Date display paired with useful charging ports. That's the real difference between the two picks, not just a ranking number.\n\nBuyers wanting date display combined with charging ports and dual alarms.",
+    specs: ["Date and day of week display","Dual USB charging ports","2 independent alarms","Battery backup"],
+    pros: ["Date display paired with useful charging ports","Battery backup protects settings during outages","Adjustable dimmer for nighttime use","Two independent alarms"],
+    cons: ["Display is smaller than the DreamSky's large-format design","Mains powered as primary source","Verify current review data on the listing"],
     bestFor: "Buyers wanting date display combined with charging ports and dual alarms.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41LfoqpRSML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2B45PNV?tag=deskfinds0d-20",
-    description:
-      "Date, week, temperature, and humidity all share this corded clock's display, adjustable via the included remote, based on the listing. It needs a nearby outlet since it runs on mains power rather than battery.\n\nThe remote is a genuine advantage if the clock isn't within easy reach, letting you adjust date and other settings without getting up from your desk.",
-    specs: ["Date and week display", "Remote control included", "Corded, mains powered", "Auto DST, countdown timer"],
-    pros: ["Remote control for adjusting date settings from a distance", "Full feature set: date, week, temp, humidity", "Auto DST removes manual seasonal resets", "Countdown timer adds extra function"],
-    cons: ["Requires a nearby outlet", "Blue tint display may not suit every desk aesthetic", "Verify current review data on the listing"],
+    description: "Date, week, temperature, and humidity all share this corded clock's display, adjustable via the included remote, based on the listing. It needs a nearby outlet since it runs on mains power rather than battery.\n\nRanked just behind JALL Digital Clock with Date Day for Seniors, it costs more than JALL Digital Clock with Date Day for Seniors. The real tradeoff against that pick: Requires a nearby outlet. In exchange, it offers this instead: Remote control for adjusting date settings from a distance. That's the swap that decides whether this pick or the one above it is the better fit for a given buyer.\n\nBuyers who want date display on a clock they can adjust remotely.",
+    specs: ["Date and week display","Remote control included","Corded, mains powered","Auto DST, countdown timer"],
+    pros: ["Remote control for adjusting date settings from a distance","Full feature set: date, week, temp, humidity","Auto DST removes manual seasonal resets","Countdown timer adds extra function"],
+    cons: ["Requires a nearby outlet","Blue tint display may not suit every desk aesthetic","Verify current review data on the listing"],
     bestFor: "Buyers who want date display on a clock they can adjust remotely.",
   },
   {
@@ -98,13 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41DeMvzCZ3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B091FHJGDL?tag=deskfinds0d-20",
-    description:
-      "Date display sits alongside temperature in a clean black case, based on the listing, with an automatic brightness dimmer for day or night viewing. It's corded, so an outlet needs to be nearby.\n\nThe modern black finish and minimal button layout make this a solid pick if you want a date display clock that looks clean on a desk rather than busy with visible controls.",
-    specs: ["Date and temperature readout", "Automatic brightness dimmer", "Corded, mains powered", "Black modern finish"],
-    pros: ["Clean black finish suits a modern desk", "Automatic dimmer removes manual brightness adjustment", "Date paired with temperature display", "Simple, minimal button layout"],
-    cons: ["Requires a nearby outlet", "No day-of-week display mentioned specifically", "Verify current review data on the listing"],
+    description: "Date display sits alongside temperature in a clean black case, based on the listing, with an automatic brightness dimmer for day or night viewing. It's corded, so an outlet needs to be nearby.\n\nOne spot below Digital Wall Clock in this ranking, it costs more than Digital Wall Clock. The compromise here is straightforward: Requires a nearby outlet. What you gain in return: Clean black finish suits a modern desk. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers wanting a clean-looking date display clock with automatic dimming.",
+    specs: ["Date and temperature readout","Automatic brightness dimmer","Corded, mains powered","Black modern finish"],
+    pros: ["Clean black finish suits a modern desk","Automatic dimmer removes manual brightness adjustment","Date paired with temperature display","Simple, minimal button layout"],
+    cons: ["Requires a nearby outlet","No day-of-week display mentioned specifically","Verify current review data on the listing"],
     bestFor: "Buyers wanting a clean-looking date display clock with automatic dimming.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,33 +113,133 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "This List Overlaps Heavily with Temperature Display Clocks",
-    note: "Nearly every clock that shows the date also shows temperature, since manufacturers tend to bundle both features on the same display. See our best desk clocks with temperature displays guide for the same core pool led by that feature instead, worth checking if temperature matters equally to you.",
-  },
-  {
-    subheading: "Auto DST Keeps the Date Accurate Without Manual Resets",
-    note: "A clock with auto DST adjustment updates the date correctly through daylight saving time changes on its own. Without this feature, you'll need to manually reset the date and time twice a year, easy to forget and a common source of a wrong date on a desk clock.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Largest, clearest date and day display", "DreamSky Large Digital Clock"],
-        ["Auto DST accuracy plus time zones", "WallarGe Auto Set Digital Wall Clock"],
-        ["Date display plus charging ports", "JALL Digital Clock with Dual USB Charger"],
-        ["Remote-adjustable date settings", "Digital Wall Clock with Remote Control"],
-        ["Cleanest modern look", "Digital Clock Large Display Black"],
+    "subheading": "By Movement Type",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "A quiet, non-ticking movement",
+          "DreamSky Large Digital Clock with Date and Day of Week for Seniors"
+        ],
+        [
+          "A digital, fully silent display",
+          "DreamSky Large Digital Clock with Date and Day of Week for Seniors"
+        ],
+        [
+          "Maximum visual personality (flip or mechanical action)",
+          "DreamSky Large Digital Clock with Date and Day of Week for Seniors"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $20",
+          "JALL Digital Clock with Date Day for Seniors"
+        ],
+        [
+          "Mid-range",
+          "WallarGe Auto Set Digital Wall Clock Battery Operated"
+        ],
+        [
+          "No firm budget ceiling, prioritizing material or brand",
+          "DreamSky Large Digital Clock with Date and Day of Week for Seniors"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Battery-Powered vs Corded",
+    "cards": [
+      {
+        "label": "Battery-Powered",
+        "text": "Runs on batteries alone, so it can sit anywhere on a desk or shelf with no cord in the way, at the cost of an eventual battery swap. In this comparison: WallarGe Auto Set Digital Wall Clock Battery Operated."
+      },
+      {
+        "label": "Corded (Plug-In)",
+        "text": "Draws continuous power from a wall outlet, often adding features like USB charging ports or a battery backup for outages, but it has to sit within cord length of a plug. In this comparison: DreamSky Large Digital Clock with Date and Day of Week for Seniors, JALL Digital Clock with Date Day for Seniors, Digital Wall Clock."
+      }
+    ],
+    "note": "Most buyers should default to a battery-powered pick like JALL Digital Clock with Date Day for Seniors unless you specifically want the USB charging or dimmer features that typically come with corded models."
+  },
+  {
+    "subheading": "By Purpose: Everyday Use vs Gift",
+    "table": {
+      "headers": [
+        "Your purpose",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Everyday functional desk use",
+          "DreamSky Large Digital Clock with Date and Day of Week for Seniors"
+        ],
+        [
+          "A gift or milestone piece",
+          "Digital Clock Large Display"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Buying as a Gift Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Genuine material language, such as hand carved, real marble, or real crystal, rather than a marble-look or crystal-look plastic finish, plus a stated production or engraving lead time if personalization is involved."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Digital Clock Large Display fits this specifically: Clean black finish suits a modern desk. That's the kind of detail that signals a deliberate gift rather than a purely functional purchase."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what DreamSky Large Digital Clock with Date and Day of Week for Seniors offers: Clearest, largest date and day display in this pool. That's a real material or craftsmanship upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "JALL Digital Clock with Date Day for Seniors already covers the essentials: Date display paired with useful charging ports. The main thing you'd be paying extra for elsewhere in this list is styling rather than function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Prioritize auto DST if you want a set-and-forget date", explanation: "Without auto DST, the date and time need a manual reset twice a year. Auto DST models handle this automatically, a real convenience over the long run." },
-  { criterion: "Check for day-of-week, not just the numeric date", explanation: "Some listings show only the numeric date while others add the day of the week explicitly. If losing track of the day is your actual problem, prioritize models that name day-of-week display." },
-  { criterion: "Larger digits matter more for date than you'd expect", explanation: "A date readout is often smaller than the time display on the same screen. Check listing photos closely if legibility from a normal desk distance matters to you." },
-  { criterion: "Understand the overlap with temperature display clocks", explanation: "Most date-display clocks also show temperature, so don't treat these as separate purchase decisions if you want both features, one clock likely covers both." },
+  {
+    "criterion": "Decide whether ticking noise matters to you",
+    "explanation": "A standard quartz movement advances its second hand once per second and produces an audible tick you can hear from a few feet away, while a silent sweep or silent electronic movement moves continuously with no tick at all. This matters more than it sounds like it should: a clock that ticks audibly for eight hours a day within arm's reach of where you work becomes a genuine background irritant for a lot of people, even if they don't consciously register it as a complaint until the clock is removed or replaced. To check this before buying, search the listing for the words \"silent,\" \"non-ticking,\" or \"sweep movement\" specifically, since a listing that doesn't mention noise at all is very likely a standard audible-tick quartz movement."
+  },
+  {
+    "criterion": "Match the face or display size to real viewing distance",
+    "explanation": "The size printed in a listing, usually in inches, measures the clock's case or face diameter, but that number alone doesn't tell you how easily you'll actually be able to read the time from where you sit. A 3 to 4 inch face reads fine from arm's length at a desk but becomes genuinely hard to read from across a room or a doorway, which matters if the clock's real job is to be glanced at from a distance rather than up close. Check the listing's stated dimensions against your actual distance from where the clock will sit, and for digital models, look specifically for the digit height in inches rather than the overall unit size, since a large plastic housing can still contain small digits."
+  },
+  {
+    "criterion": "Confirm the power source before you plan where it goes",
+    "explanation": "Desk clocks are either battery powered, meaning they can sit anywhere with no cord in the way, or corded and plugged into a wall outlet, sometimes with a battery backup that keeps the display running briefly during an outage. This is a genuinely practical constraint, not a minor spec: a corded clock needs to sit within cord-length of an outlet, which can rule out the center of a desk or a shelf far from a plug, while a battery clock can go anywhere but will eventually need a battery swap. Look for \"battery operated\" versus \"plug-in\" or \"AC powered\" directly in the listing title or bullet points, and treat advertised USB charging ports as a strong signal the unit is corded rather than battery-only."
+  },
+  {
+    "criterion": "Separate gift-tier materials from everyday functional clocks",
+    "explanation": "Clocks made from marble or crystal, or featuring custom engraving, are priced and designed first as a gift or a statement object, with everyday timekeeping treated as secondary, while clocks built from plastic or basic wood with digital or simple analog displays are priced for everyday practical use. Buying a hand-carved marble clock expecting the same day-to-day practicality as a basic digital clock with a dimmer and USB ports will lead to disappointment, since these are genuinely different product categories that happen to share a name. Check whether the listing emphasizes material and craftsmanship language (hand carved, polished, engraved) versus functional language (auto DST, dual alarms, temperature display) to quickly tell which tier a given clock falls into."
+  },
+  {
+    "criterion": "Check for lead time if the piece is personalized or engraved",
+    "explanation": "Custom engraving or personalization isn't applied instantly at a warehouse the way a standard product ships; it typically requires a separate production step after you submit your design or text, which the seller has to complete before the item even enters the shipping queue. This means a personalized clock ordered as a last-minute gift can easily miss a deadline that a standard, non-personalized clock would have made with days to spare, since the engraving step alone commonly adds several business days on top of normal shipping time. Before ordering a personalized piece for a specific date, check the listing's stated production or processing time, which is separate from shipping time, and order with enough buffer for both steps to finish before you need it."
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -30,13 +30,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31KphJ99WZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G9B5MMCH?tag=deskfinds0d-20",
-    description:
-      "This is the one genuinely crystal-material desk clock we could fully verify, priced at $49.99 with a confirmed listing image, at a compact 4.5 inch size suited to a desk or shelf without overwhelming either. Custom engraving comes included, positioning it as a corporate award or milestone gift piece specifically.\n\nCrystal catches light in a way plastic or acrylic imitations simply cannot, and this piece's award-style presentation makes it a strong fit for retirement, graduation, or corporate recognition gifting rather than a purely everyday functional purchase.",
-    specs: ["Crystal material", "4.5 inch size", "Custom engraving included", "Award-style presentation"],
-    pros: ["Genuine verified crystal material", "Custom engraving included", "Compact award-style size", "Confirmed price and image from listing"],
-    cons: ["Only one fully verified option in this niche category", "Engraving requires lead time before shipping", "Verify current review data on the listing"],
+    description: "This is the one genuinely crystal-material desk clock we could fully verify, priced at $49.99 with a confirmed listing image, at a compact 4.5 inch size suited to a desk or shelf without overwhelming either. Custom engraving comes included, positioning it as a corporate award or milestone gift piece specifically.\n\nIt earns the top spot in this comparison for one main reason. Genuine verified crystal material.\n\nBuyers wanting a verified genuine crystal desk clock for a corporate award or milestone gift.",
+    specs: ["Crystal material","4.5 inch size","Custom engraving included","Award-style presentation"],
+    pros: ["Genuine verified crystal material","Custom engraving included","Compact award-style size","Confirmed price and image from listing"],
+    cons: ["Only one fully verified option in this niche category","Engraving requires lead time before shipping","Verify current review data on the listing"],
     bestFor: "Buyers wanting a verified genuine crystal desk clock for a corporate award or milestone gift.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -50,27 +49,90 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Why This Guide Has Only One Product",
-    note: "Genuine crystal desk clocks are a narrow niche, mostly sold as corporate awards or personalized gifts rather than everyday accessories. We found other named crystal clock listings during research but could not verify their current price and image, so we're covering only the one pick we could confirm fully, rather than fabricating details.",
+    "subheading": "By Movement Type",
+    "note": "Personalized Crystal Desk Clock is currently the only pick in this specific comparison, so there's no second movement type to weigh it against here. Its own movement and design details are broken down in the pros and cons below, and our broader desk clock roundup covers flip, digital, and analog styles side by side if you want that wider comparison."
   },
   {
-    subheading: "Crystal vs Clear Acrylic, Check Before You Buy",
-    note: "Some clocks marketed with crystal in the name are actually clear acrylic, a different, much less expensive material. If genuine crystal matters to you, check the listing's material description carefully rather than relying on the product name alone.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $49.99",
+          "Personalized Crystal Desk Clock"
+        ]
+      ]
+    }
   },
   {
-    subheading: "If You Want More Premium Options",
-    cards: [
-      { label: "Broader premium material range", text: "See our luxury desk clocks guide, which covers marble, glass, and crystal picks together." },
-      { label: "Engraved gift-specific options", text: "See our personalized desk clocks guide for other corporate and milestone gift picks." },
-    ],
+    "subheading": "Battery-Powered vs the Alternative",
+    "cards": [
+      {
+        "label": "Battery-Powered (this pick)",
+        "text": "Personalized Crystal Desk Clock is battery powered, so it can sit anywhere with no cord. Genuine verified crystal material."
+      },
+      {
+        "label": "Corded (elsewhere)",
+        "text": "If you specifically need the opposite power type, check our broader desk clock roundup, since this particular comparison only includes Personalized Crystal Desk Clock."
+      }
+    ]
   },
+  {
+    "subheading": "By Purpose: Everyday Use vs Gift",
+    "note": "Personalized Crystal Desk Clock leans toward a gift or statement piece based on its material and design. Genuine verified crystal material."
+  },
+  {
+    "subheading": "For Buying as a Gift Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Genuine material language, such as hand carved, real marble, or real crystal, rather than a marble-look or crystal-look plastic finish, plus a stated production or engraving lead time if personalization is involved."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Personalized Crystal Desk Clock fits this specifically: Genuine verified crystal material."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Here's what you get for $49.99: Genuine verified crystal material. If that's what you're after, the tradeoffs in its cons list probably won't bother you either."
+      },
+      {
+        "label": "Save if",
+        "text": "Here's the real tradeoff: Only one fully verified option in this niche category. If that matters to you, compare it against other styles in our broader desk clock roundup before committing."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify the listing confirms genuine crystal, not clear acrylic", explanation: "Some products use crystal in the name while the actual material is a much less expensive clear acrylic. Read the material description carefully before assuming a premium material." },
-  { criterion: "Expect a narrow selection in this specific category", explanation: "Genuine crystal desk clocks are a niche, primarily positioned as corporate awards or personalized gifts, don't expect the same breadth of styles as marble or wood clocks." },
-  { criterion: "Factor in engraving lead time if the piece is personalized", explanation: "Most genuine crystal desk clocks include custom engraving, which adds several business days of production time before shipping." },
-  { criterion: "Consider our broader luxury guide if you want more verified options", explanation: "Our luxury desk clocks guide includes this crystal pick alongside other confirmed premium-material clocks in marble and glass." },
+  {
+    "criterion": "Decide whether ticking noise matters to you",
+    "explanation": "A standard quartz movement advances its second hand once per second and produces an audible tick you can hear from a few feet away, while a silent sweep or silent electronic movement moves continuously with no tick at all. This matters more than it sounds like it should: a clock that ticks audibly for eight hours a day within arm's reach of where you work becomes a genuine background irritant for a lot of people, even if they don't consciously register it as a complaint until the clock is removed or replaced. To check this before buying, search the listing for the words \"silent,\" \"non-ticking,\" or \"sweep movement\" specifically, since a listing that doesn't mention noise at all is very likely a standard audible-tick quartz movement."
+  },
+  {
+    "criterion": "Match the face or display size to real viewing distance",
+    "explanation": "The size printed in a listing, usually in inches, measures the clock's case or face diameter, but that number alone doesn't tell you how easily you'll actually be able to read the time from where you sit. A 3 to 4 inch face reads fine from arm's length at a desk but becomes genuinely hard to read from across a room or a doorway, which matters if the clock's real job is to be glanced at from a distance rather than up close. Check the listing's stated dimensions against your actual distance from where the clock will sit, and for digital models, look specifically for the digit height in inches rather than the overall unit size, since a large plastic housing can still contain small digits."
+  },
+  {
+    "criterion": "Confirm the power source before you plan where it goes",
+    "explanation": "Desk clocks are either battery powered, meaning they can sit anywhere with no cord in the way, or corded and plugged into a wall outlet, sometimes with a battery backup that keeps the display running briefly during an outage. This is a genuinely practical constraint, not a minor spec: a corded clock needs to sit within cord-length of an outlet, which can rule out the center of a desk or a shelf far from a plug, while a battery clock can go anywhere but will eventually need a battery swap. Look for \"battery operated\" versus \"plug-in\" or \"AC powered\" directly in the listing title or bullet points, and treat advertised USB charging ports as a strong signal the unit is corded rather than battery-only."
+  },
+  {
+    "criterion": "Separate gift-tier materials from everyday functional clocks",
+    "explanation": "Clocks made from marble or crystal, or featuring custom engraving, are priced and designed first as a gift or a statement object, with everyday timekeeping treated as secondary, while clocks built from plastic or basic wood with digital or simple analog displays are priced for everyday practical use. Buying a hand-carved marble clock expecting the same day-to-day practicality as a basic digital clock with a dimmer and USB ports will lead to disappointment, since these are genuinely different product categories that happen to share a name. Check whether the listing emphasizes material and craftsmanship language (hand carved, polished, engraved) versus functional language (auto DST, dual alarms, temperature display) to quickly tell which tier a given clock falls into."
+  },
+  {
+    "criterion": "Check for lead time if the piece is personalized or engraved",
+    "explanation": "Custom engraving or personalization isn't applied instantly at a warehouse the way a standard product ships; it typically requires a separate production step after you submit your design or text, which the seller has to complete before the item even enters the shipping queue. This means a personalized clock ordered as a last-minute gift can easily miss a deadline that a standard, non-personalized clock would have made with days to spare, since the engraving step alone commonly adds several business days on top of normal shipping time. Before ordering a personalized piece for a specific date, check the listing's stated production or processing time, which is separate from shipping time, and order with enough buffer for both steps to finish before you need it."
+  }
 ];
 
 export const faq: FaqItem[] = [

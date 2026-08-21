@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41i8q0Okr6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBZB3LNC?tag=deskfinds0d-20",
-    description:
-      "This hand-carved marble clock has genuine executive-desk presence, the kind of material and finish appropriate for a corner office or a client-facing reception desk. Its polished modern design avoids anything novelty or casual.\n\nAt $95 it's a real investment piece rather than a basic office accessory, appropriate specifically for a senior desk or a formal shared space where the clock itself is part of the room's presentation.",
-    specs: ["Hand carved marble construction", "Polished modern design", "Table or desk placement", "Premium material weight"],
-    pros: ["Genuine executive-level material and presence", "Timeless design that won't look dated in an office", "Substantial, high-quality feel", "Suits client-facing spaces"],
-    cons: ["Highest price point in this guide", "Heavier, less practical for frequent desk moves", "Verify current review data on the listing"],
+    description: "This hand-carved marble clock has genuine executive-desk presence, the kind of material and finish appropriate for a corner office or a client-facing reception desk. Its polished modern design avoids anything novelty or casual.\n\nIt earns the top spot in this comparison over DecoMates Non-Ticking 24-Hour Silent Wall and Desk Clock for one main reason. Genuine executive-level material and presence. On price, it's priced at $95.00, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers wanting a genuinely executive-level clock for a senior desk or client-facing office space.",
+    specs: ["Hand carved marble construction","Polished modern design","Table or desk placement","Premium material weight"],
+    pros: ["Genuine executive-level material and presence","Timeless design that won't look dated in an office","Substantial, high-quality feel","Suits client-facing spaces"],
+    cons: ["Highest price point in this guide","Heavier, less practical for frequent desk moves","Verify current review data on the listing"],
     bestFor: "Buyers wanting a genuinely executive-level clock for a senior desk or client-facing office space.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51VmsHegsZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00A9ZJ84K?tag=deskfinds0d-20",
-    description:
-      "In an open office, a ticking clock is a genuine distraction shared by everyone nearby, and this clock's non-ticking, silent 24-hour movement solves that directly. The plain black finish is unobtrusive, exactly what you want in a shared professional space.\n\nIts flexibility to work as either a wall or desk clock means it can move between a personal desk and a shared meeting space without losing function, a practical advantage for office environments.",
-    specs: ["24-hour silent, non-ticking movement", "Black finish", "Wall or desk placement", "Minimal, unornamented design"],
-    pros: ["Genuinely silent, no ticking distraction in shared spaces", "Flexible wall or desk placement", "Unobtrusive black professional finish", "24-hour display for precise scheduling"],
-    cons: ["Plain design lacks any decorative statement", "Verify current price and review data on the listing", "24-hour format may need adjustment for some staff"],
+    description: "In an open office, a ticking clock is a genuine distraction shared by everyone nearby, and this clock's non-ticking, silent 24-hour movement solves that directly. The plain black finish is unobtrusive, exactly what you want in a shared professional space.\n\nOne spot below Luxurious Marble Desk Clock in this ranking, pricing between it and Luxurious Marble Desk Clock isn't directly comparable here. The compromise here is straightforward: Plain design lacks any decorative statement. What you gain in return: Genuinely silent, no ticking distraction in shared spaces. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers prioritizing zero audible distraction in a shared open office environment. Note the price wasn't listed at the time of research, so confirm current cost on Amazon before deciding.",
+    specs: ["24-hour silent, non-ticking movement","Black finish","Wall or desk placement","Minimal, unornamented design"],
+    pros: ["Genuinely silent, no ticking distraction in shared spaces","Flexible wall or desk placement","Unobtrusive black professional finish","24-hour display for precise scheduling"],
+    cons: ["Plain design lacks any decorative statement","Verify current price and review data on the listing","24-hour format may need adjustment for some staff"],
     bestFor: "Buyers prioritizing zero audible distraction in a shared open office environment.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41-tdoWEyKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07V7CQ62G?tag=deskfinds0d-20",
-    description:
-      "This glass table clock with silver accents has a formal, polished look appropriate for a reception desk or a shared conference table, and its optional custom engraving can add a company name or department if you want that touch. Executive Gift Shoppe specializes in this exact formal desk category.\n\nEven without engraving, the base design reads as professional and unobtrusive, appropriate for a space where the clock is functional first and decorative second.",
-    specs: ["Glass construction", "Silver finish accents", "Optional custom engraving", "Executive desk styling"],
-    pros: ["Formal, polished glass and silver design", "Optional engraving for a company or department touch", "Specialist formal-desk retailer", "Professional look without being flashy"],
-    cons: ["Higher price if engraving is added", "Less silent-specific than the DecoMates pick", "Verify current review data on the listing"],
+    description: "This glass table clock with silver accents has a formal, polished look appropriate for a reception desk or a shared conference table, and its optional custom engraving can add a company name or department if you want that touch. Executive Gift Shoppe specializes in this exact formal desk category.\n\nSitting just under DecoMates Non-Ticking 24-Hour Silent Wall and Desk Clock, pricing between it and DecoMates Non-Ticking 24-Hour Silent Wall and Desk Clock isn't directly comparable here. Here's the honest tradeoff: Higher price if engraving is added. And here's what it gets you instead: Formal, polished glass and silver design. That's the real difference between the two picks, not just a ranking number.\n\nBuyers wanting a formal clock for a reception desk, with the option to add a company name.",
+    specs: ["Glass construction","Silver finish accents","Optional custom engraving","Executive desk styling"],
+    pros: ["Formal, polished glass and silver design","Optional engraving for a company or department touch","Specialist formal-desk retailer","Professional look without being flashy"],
+    cons: ["Higher price if engraving is added","Less silent-specific than the DecoMates pick","Verify current review data on the listing"],
     bestFor: "Buyers wanting a formal clock for a reception desk, with the option to add a company name.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41-TkueeUEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B093WGR49D?tag=deskfinds0d-20",
-    description:
-      "For a personal desk rather than a shared or client-facing space, this compact wood clock offers a professional, understated look without the investment-piece price of marble or glass. Its silent tick movement suits close-range desk placement.\n\nThe small footprint means it won't crowd a personal workspace already holding a monitor, keyboard, and paperwork, a practical fit for most individual office desks.",
-    specs: ["4-3/8 inch diameter", "Real wood construction", "Silent tick analog movement", "Battery operated"],
-    pros: ["Compact, professional understated look", "Silent movement suits close desk placement", "Genuine wood material quality", "Budget-friendlier than the executive picks here"],
-    cons: ["Less visual statement for a shared or client-facing space", "Small face harder to read from across a room", "Verify current review data on the listing"],
+    description: "For a personal desk rather than a shared or client-facing space, this compact wood clock offers a professional, understated look without the investment-piece price of marble or glass. Its silent tick movement suits close-range desk placement.\n\nRanked just behind Executive Gift Shoppe | Personalized Glass Table Clock with Silver Finish Accents and Custom Engraving, pricing between it and Executive Gift Shoppe | Personalized Glass Table Clock with Silver Finish Accents and Custom Engraving isn't directly comparable here. The real tradeoff against that pick: Less visual statement for a shared or client-facing space. In exchange, it offers this instead: Compact, professional understated look. That's the swap that decides whether this pick or the one above it is the better fit for a given buyer.\n\nBuyers wanting a professional but understated clock for their own individual desk. Note the price wasn't listed at the time of research, so confirm current cost on Amazon before deciding.",
+    specs: ["4-3/8 inch diameter","Real wood construction","Silent tick analog movement","Battery operated"],
+    pros: ["Compact, professional understated look","Silent movement suits close desk placement","Genuine wood material quality","Budget-friendlier than the executive picks here"],
+    cons: ["Less visual statement for a shared or client-facing space","Small face harder to read from across a room","Verify current review data on the listing"],
     bestFor: "Buyers wanting a professional but understated clock for their own individual desk.",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41DeMvzCZ3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B091FHJGDL?tag=deskfinds0d-20",
-    description:
-      "If your office desk needs a digital display with date and temperature, this corded LED clock keeps a clean black professional look with an automatic brightness dimmer, useful in an office with variable lighting throughout the day. It is inherently silent, no ticking at all.\n\nBeing corded means it needs a nearby outlet, a normal expectation at a fixed office desk but worth confirming before buying if your desk setup is unconventional.",
-    specs: ["Corded LED display", "Automatic brightness dimmer", "Date and temperature shown", "Modern black design"],
-    pros: ["Inherently silent digital display", "Automatic dimmer adapts to office lighting", "Clean, professional black design", "Date and temperature add practical value"],
-    cons: ["Corded only, needs a nearby outlet", "Less formal presentation than marble or glass picks", "Verify current review data on the listing"],
+    description: "If your office desk needs a digital display with date and temperature, this corded LED clock keeps a clean black professional look with an automatic brightness dimmer, useful in an office with variable lighting throughout the day. It is inherently silent, no ticking at all.\n\nOne spot below Navaris Small Modern Desk Clock in this ranking, pricing between it and Navaris Small Modern Desk Clock isn't directly comparable here. The compromise here is straightforward: Corded only, needs a nearby outlet. What you gain in return: Inherently silent digital display. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers wanting a silent, professional-looking digital display for a fixed office desk.",
+    specs: ["Corded LED display","Automatic brightness dimmer","Date and temperature shown","Modern black design"],
+    pros: ["Inherently silent digital display","Automatic dimmer adapts to office lighting","Clean, professional black design","Date and temperature add practical value"],
+    cons: ["Corded only, needs a nearby outlet","Less formal presentation than marble or glass picks","Verify current review data on the listing"],
     bestFor: "Buyers wanting a silent, professional-looking digital display for a fixed office desk.",
   },
   {
@@ -115,13 +110,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41+mFh63FwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK6R22KD?tag=deskfinds0d-20",
-    description:
-      "For an office with warmer wood-toned furniture, this gold analog mantel clock is a professional-looking, silent-movement pick that avoids the colder black and white finishes elsewhere in this guide. Its 8.3 by 9.1 inch face is legible across a shared desk or small meeting room.\n\nThe silent movement keeps it appropriate for close-range office placement, and its analog hands read as slightly more traditional and less tech-forward than the digital picks in this list.",
-    specs: ["8.3 x 9.1 inch analog face", "Gold finish", "Silent movement", "Mantel or desk placement"],
-    pros: ["Silent movement suits office placement", "Warm gold tone for wood-toned office furniture", "Legible face from across a shared desk", "Traditional analog professional look"],
-    cons: ["Larger footprint than the compact personal desk pick", "Gold finish won't suit every office decor", "Verify current review data on the listing"],
+    description: "For an office with warmer wood-toned furniture, this gold analog mantel clock is a professional-looking, silent-movement pick that avoids the colder black and white finishes elsewhere in this guide. Its 8.3 by 9.1 inch face is legible across a shared desk or small meeting room.\n\nSitting just under Digital Clock Large Display, it costs more than Digital Clock Large Display. Here's the honest tradeoff: Larger footprint than the compact personal desk pick. And here's what it gets you instead: Silent movement suits office placement. That's the real difference between the two picks, not just a ranking number.\n\nBuyers wanting a professional analog clock that pairs with warm wood office furniture.",
+    specs: ["8.3 x 9.1 inch analog face","Gold finish","Silent movement","Mantel or desk placement"],
+    pros: ["Silent movement suits office placement","Warm gold tone for wood-toned office furniture","Legible face from across a shared desk","Traditional analog professional look"],
+    cons: ["Larger footprint than the compact personal desk pick","Gold finish won't suit every office decor","Verify current review data on the listing"],
     bestFor: "Buyers wanting a professional analog clock that pairs with warm wood office furniture.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -135,34 +129,133 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Match Your Office Setting to a Specific Pick",
-    table: {
-      headers: ["Your setting", "Recommended pick"],
-      rows: [
-        ["Corner office or client-facing desk", "Luxurious Marble Desk Clock"],
-        ["Open office, zero tolerance for noise", "DecoMates Non-Ticking 24-Hour Clock"],
-        ["Reception desk, optional company engraving", "Executive Gift Shoppe Glass Table Clock"],
-        ["Personal individual desk", "Navaris Small Wood Analog Clock"],
-        ["Digital display with date and temperature", "LED Corded Clock with Brightness Dimmer"],
-        ["Warm wood-toned office furniture", "QIYAODECO Gold Analog Mantel Clock"],
+    "subheading": "By Movement Type",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "A quiet, non-ticking movement",
+          "DecoMates Non-Ticking 24-Hour Silent Wall and Desk Clock"
+        ],
+        [
+          "A digital, fully silent display",
+          "Digital Clock Large Display"
+        ],
+        [
+          "Maximum visual personality (flip or mechanical action)",
+          "Luxurious Marble Desk Clock"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Silence Matters More in Shared Spaces",
-    note: "A ticking clock that's fine on your own desk becomes a shared annoyance in an open office or a small meeting room. Prioritize silent or non-ticking movements for any clock that others will sit near for extended periods.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $26",
+          "Digital Clock Large Display"
+        ],
+        [
+          "Mid-range",
+          "Executive Gift Shoppe | Personalized Glass Table Clock with Silver Finish Accents and Custom Engraving"
+        ],
+        [
+          "No firm budget ceiling, prioritizing material or brand",
+          "Luxurious Marble Desk Clock"
+        ]
+      ]
+    }
   },
   {
-    subheading: "If You're Buying This as a Corporate Gift Instead",
-    note: "This guide covers functional office desk clocks, not gift-occasion picks. See our personalized desk clocks guide for engraved corporate recognition and retirement gift options instead.",
+    "subheading": "Battery-Powered vs Corded",
+    "cards": [
+      {
+        "label": "Battery-Powered",
+        "text": "Runs on batteries alone, so it can sit anywhere on a desk or shelf with no cord in the way, at the cost of an eventual battery swap. In this comparison: Luxurious Marble Desk Clock, DecoMates Non-Ticking 24-Hour Silent Wall and Desk Clock, Executive Gift Shoppe | Personalized Glass Table Clock with Silver Finish Accents and Custom Engraving."
+      },
+      {
+        "label": "Corded (Plug-In)",
+        "text": "Draws continuous power from a wall outlet, often adding features like USB charging ports or a battery backup for outages, but it has to sit within cord length of a plug. In this comparison: Digital Clock Large Display."
+      }
+    ],
+    "note": "Most buyers should default to a battery-powered pick like Digital Clock Large Display unless you specifically want the USB charging or dimmer features that typically come with corded models."
   },
+  {
+    "subheading": "By Purpose: Everyday Use vs Gift",
+    "table": {
+      "headers": [
+        "Your purpose",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Everyday functional desk use",
+          "DecoMates Non-Ticking 24-Hour Silent Wall and Desk Clock"
+        ],
+        [
+          "A gift or milestone piece",
+          "Luxurious Marble Desk Clock"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Buying as a Gift Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Genuine material language, such as hand carved, real marble, or real crystal, rather than a marble-look or crystal-look plastic finish, plus a stated production or engraving lead time if personalization is involved."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Luxurious Marble Desk Clock fits this specifically: Genuine executive-level material and presence. That's the kind of detail that signals a deliberate gift rather than a purely functional purchase."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Luxurious Marble Desk Clock offers: Genuine executive-level material and presence. That's a real material or craftsmanship upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Digital Clock Large Display already covers the essentials: Inherently silent digital display. The main thing you'd be paying extra for elsewhere in this list is styling rather than function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Prioritize silent movement for shared or open office spaces", explanation: "Audible ticking becomes a genuine annoyance to coworkers nearby. Choose a silent or non-ticking movement for any clock placed in a shared or open workspace." },
-  { criterion: "Match formality to the space, not just your taste", explanation: "A reception desk or client-facing area calls for a more formal, higher-material clock than a personal individual desk where a compact, understated pick works fine." },
-  { criterion: "Check power source against your desk's outlet access", explanation: "A fixed office desk usually has outlet access for a corded clock, but a shared or flexible space might not, confirm before choosing a corded model." },
-  { criterion: "Avoid novelty styling for formal office use", explanation: "Flip clocks and other novelty-leaning designs are fun for a home desk but can read as unprofessional in a formal office setting, this guide deliberately excludes them." },
+  {
+    "criterion": "Decide whether ticking noise matters to you",
+    "explanation": "A standard quartz movement advances its second hand once per second and produces an audible tick you can hear from a few feet away, while a silent sweep or silent electronic movement moves continuously with no tick at all. This matters more than it sounds like it should: a clock that ticks audibly for eight hours a day within arm's reach of where you work becomes a genuine background irritant for a lot of people, even if they don't consciously register it as a complaint until the clock is removed or replaced. To check this before buying, search the listing for the words \"silent,\" \"non-ticking,\" or \"sweep movement\" specifically, since a listing that doesn't mention noise at all is very likely a standard audible-tick quartz movement."
+  },
+  {
+    "criterion": "Match the face or display size to real viewing distance",
+    "explanation": "The size printed in a listing, usually in inches, measures the clock's case or face diameter, but that number alone doesn't tell you how easily you'll actually be able to read the time from where you sit. A 3 to 4 inch face reads fine from arm's length at a desk but becomes genuinely hard to read from across a room or a doorway, which matters if the clock's real job is to be glanced at from a distance rather than up close. Check the listing's stated dimensions against your actual distance from where the clock will sit, and for digital models, look specifically for the digit height in inches rather than the overall unit size, since a large plastic housing can still contain small digits."
+  },
+  {
+    "criterion": "Confirm the power source before you plan where it goes",
+    "explanation": "Desk clocks are either battery powered, meaning they can sit anywhere with no cord in the way, or corded and plugged into a wall outlet, sometimes with a battery backup that keeps the display running briefly during an outage. This is a genuinely practical constraint, not a minor spec: a corded clock needs to sit within cord-length of an outlet, which can rule out the center of a desk or a shelf far from a plug, while a battery clock can go anywhere but will eventually need a battery swap. Look for \"battery operated\" versus \"plug-in\" or \"AC powered\" directly in the listing title or bullet points, and treat advertised USB charging ports as a strong signal the unit is corded rather than battery-only."
+  },
+  {
+    "criterion": "Separate gift-tier materials from everyday functional clocks",
+    "explanation": "Clocks made from marble or crystal, or featuring custom engraving, are priced and designed first as a gift or a statement object, with everyday timekeeping treated as secondary, while clocks built from plastic or basic wood with digital or simple analog displays are priced for everyday practical use. Buying a hand-carved marble clock expecting the same day-to-day practicality as a basic digital clock with a dimmer and USB ports will lead to disappointment, since these are genuinely different product categories that happen to share a name. Check whether the listing emphasizes material and craftsmanship language (hand carved, polished, engraved) versus functional language (auto DST, dual alarms, temperature display) to quickly tell which tier a given clock falls into."
+  },
+  {
+    "criterion": "Check for lead time if the piece is personalized or engraved",
+    "explanation": "Custom engraving or personalization isn't applied instantly at a warehouse the way a standard product ships; it typically requires a separate production step after you submit your design or text, which the seller has to complete before the item even enters the shipping queue. This means a personalized clock ordered as a last-minute gift can easily miss a deadline that a standard, non-personalized clock would have made with days to spare, since the engraving step alone commonly adds several business days on top of normal shipping time. Before ordering a personalized piece for a specific date, check the listing's stated production or processing time, which is separate from shipping time, and order with enough buffer for both steps to finish before you need it."
+  }
 ];
 
 export const faq: FaqItem[] = [

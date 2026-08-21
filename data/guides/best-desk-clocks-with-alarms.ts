@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41tIxhZQouL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08M5VG7XH?tag=deskfinds0d-20",
-    description:
-      "This clock explicitly includes two independent alarms in its listing, useful for a shared bedroom or a desk doing double duty as a wake-up device. It's corded with a battery backup, so your alarm settings survive a power outage without losing the time.\n\nDual USB charging ports add real convenience for keeping a phone nearby overnight, and the dimmer function keeps the display from being too bright at night. It leads this list for combining genuine dual-alarm functionality with practical extras.",
-    specs: ["Two independent alarms", "Corded power with battery backup", "Dual USB charging ports", "Dimmer for screen brightness"],
-    pros: ["Confirmed two independent alarms", "Battery backup protects alarm settings during outages", "Dual USB ports add charging convenience", "Large, dimmable digits"],
-    cons: ["Requires a wall outlet as primary power", "Less decorative than analog alarm options", "Verify current review data on the listing"],
+    description: "This clock explicitly includes two independent alarms in its listing, useful for a shared bedroom or a desk doing double duty as a wake-up device. It's corded with a battery backup, so your alarm settings survive a power outage without losing the time.\n\nIt earns the top spot in this comparison over DreamSky Large Digital Clock with Date and Day of Week for Seniors for one main reason. Confirmed two independent alarms. On price, it comes in below DreamSky Large Digital Clock with Date and Day of Week for Seniors on price, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers wanting genuine dual-alarm functionality with USB charging convenience.",
+    specs: ["Two independent alarms","Corded power with battery backup","Dual USB charging ports","Dimmer for screen brightness"],
+    pros: ["Confirmed two independent alarms","Battery backup protects alarm settings during outages","Dual USB ports add charging convenience","Large, dimmable digits"],
+    cons: ["Requires a wall outlet as primary power","Less decorative than analog alarm options","Verify current review data on the listing"],
     bestFor: "Buyers wanting genuine dual-alarm functionality with USB charging convenience.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41p9+8vk2BL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D4LZVF5B?tag=deskfinds0d-20",
-    description:
-      "This clock pairs a confirmed alarm function with an oversized, easy-to-read date and day-of-week display, useful for anyone who wants both a wake-up alarm and clear routine tracking in one device. The large digits are legible from across a room.\n\nIt keeps the interface focused rather than piling on every possible feature, appropriate for buyers who want reliable alarm function without a cluttered display competing for attention.",
-    specs: ["Confirmed alarm function", "Large digital display", "Date and day of week shown", "Senior-focused legibility design"],
-    pros: ["Confirmed alarm functionality", "Oversized, easy-to-read digits", "Clear day-of-week tracking", "Simple, uncluttered interface"],
-    cons: ["Verify power source and cord length on the listing", "Fewer extra features than temperature-equipped models", "Verify current review data on the listing"],
+    description: "This clock pairs a confirmed alarm function with an oversized, easy-to-read date and day-of-week display, useful for anyone who wants both a wake-up alarm and clear routine tracking in one device. The large digits are legible from across a room.\n\nOne spot below JALL Digital Clock with Date Day for Seniors in this ranking, it costs more than JALL Digital Clock with Date Day for Seniors. The compromise here is straightforward: Verify power source and cord length on the listing. What you gain in return: Confirmed alarm functionality. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers wanting a reliable alarm alongside clear date and day tracking.",
+    specs: ["Confirmed alarm function","Large digital display","Date and day of week shown","Senior-focused legibility design"],
+    pros: ["Confirmed alarm functionality","Oversized, easy-to-read digits","Clear day-of-week tracking","Simple, uncluttered interface"],
+    cons: ["Verify power source and cord length on the listing","Fewer extra features than temperature-equipped models","Verify current review data on the listing"],
     bestFor: "Buyers wanting a reliable alarm alongside clear date and day tracking.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41Ato69SCVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B082M8T5SD?tag=deskfinds0d-20",
-    description:
-      "We're including this battery powered digital clock for buyers specifically wanting cordless placement alongside alarm-adjacent scheduling features, though we recommend double-checking the listing's exact alarm details before buying since our confirmed feature set centers on its date, temperature, humidity, and auto DST display.\n\nIf a dedicated alarm is your top priority, the JALL or DreamSky picks above have more explicitly confirmed alarm functionality, this pick is best if cordless flexibility and environmental readouts matter as much as or more than the alarm itself.",
-    specs: ["Digital time, date, temperature, humidity display", "Auto DST adjustment", "Battery operated", "Desk or wall mount"],
-    pros: ["Battery powered, fully cordless", "Auto DST removes a manual reset task", "Temperature and humidity add genuine utility", "Flexible desk or wall placement"],
-    cons: ["Verify the specific alarm feature details directly on the listing before buying", "Smaller display than dedicated alarm clocks", "Verify current review data on the listing"],
+    description: "We're including this battery powered digital clock for buyers specifically wanting cordless placement alongside alarm-adjacent scheduling features, though we recommend double-checking the listing's exact alarm details before buying since our confirmed feature set centers on its date, temperature, humidity, and auto DST display.\n\nSitting just under DreamSky Large Digital Clock with Date and Day of Week for Seniors, it's priced lower than DreamSky Large Digital Clock with Date and Day of Week for Seniors. Here's the honest tradeoff: Verify the specific alarm feature details directly on the listing before buying. And here's what it gets you instead: Battery powered, fully cordless. That's the real difference between the two picks, not just a ranking number.\n\nBuyers wanting cordless placement and environmental readouts alongside basic alarm functionality, confirmed on the specific listing.",
+    specs: ["Digital time, date, temperature, humidity display","Auto DST adjustment","Battery operated","Desk or wall mount"],
+    pros: ["Battery powered, fully cordless","Auto DST removes a manual reset task","Temperature and humidity add genuine utility","Flexible desk or wall placement"],
+    cons: ["Verify the specific alarm feature details directly on the listing before buying","Smaller display than dedicated alarm clocks","Verify current review data on the listing"],
     bestFor: "Buyers wanting cordless placement and environmental readouts alongside basic alarm functionality, confirmed on the specific listing.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41LfoqpRSML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2B45PNV?tag=deskfinds0d-20",
-    description:
-      "This corded LED clock explicitly includes alarm functionality in its listing title, alongside date, week, temperature, humidity, auto DST, and a countdown timer. The included remote control lets you adjust the alarm without reaching the unit directly.\n\nIt's the most feature-dense alarm pick in this list, appropriate if you want your alarm clock to also handle several other display functions in one corded device.",
-    specs: ["Confirmed alarm clock function", "Corded power, no battery option", "Remote control included", "Date, week, temp, humidity, auto DST, countdown"],
-    pros: ["Confirmed alarm functionality in listing", "Remote control avoids reaching the unit to adjust", "Most feature-dense display in this group", "Auto DST removes manual resets"],
-    cons: ["Corded only, needs a nearby outlet", "Blue LED may be brighter than needed for close-range use", "Verify current review data on the listing"],
+    description: "This corded LED clock explicitly includes alarm functionality in its listing title, alongside date, week, temperature, humidity, auto DST, and a countdown timer. The included remote control lets you adjust the alarm without reaching the unit directly.\n\nRanked just behind WallarGe Auto Set Digital Wall Clock Battery Operated, it's priced lower than WallarGe Auto Set Digital Wall Clock Battery Operated. The real tradeoff against that pick: Corded only, needs a nearby outlet. In exchange, it offers this instead: Confirmed alarm functionality in listing. That's the swap that decides whether this pick or the one above it is the better fit for a given buyer.\n\nBuyers wanting a feature-dense alarm clock with remote adjustability.",
+    specs: ["Confirmed alarm clock function","Corded power, no battery option","Remote control included","Date, week, temp, humidity, auto DST, countdown"],
+    pros: ["Confirmed alarm functionality in listing","Remote control avoids reaching the unit to adjust","Most feature-dense display in this group","Auto DST removes manual resets"],
+    cons: ["Corded only, needs a nearby outlet","Blue LED may be brighter than needed for close-range use","Verify current review data on the listing"],
     bestFor: "Buyers wanting a feature-dense alarm clock with remote adjustability.",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51G6Kk3l8dL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B073VF186Z?tag=deskfinds0d-20",
-    description:
-      "This compact analog clock is explicitly marketed as a travel alarm clock, confirming genuine alarm functionality at the lowest price in this list. Its silent movement and battery power make it equally suited to a desk drawer or a travel bag.\n\nIt trades digital display extras for pure function and portability, appropriate for buyers who want a reliable, confirmed alarm without paying for temperature or humidity readouts they won't use.",
-    specs: ["Confirmed travel alarm clock design", "Silent movement", "Battery operated", "Compact analog display"],
-    pros: ["Confirmed alarm function at the lowest price here", "Genuinely compact and portable", "Silent movement", "Battery powered flexibility"],
-    cons: ["No digital extras like temperature or date", "Smaller face limits readability from a distance", "Verify current review data on the listing"],
+    description: "This compact analog clock is explicitly marketed as a travel alarm clock, confirming genuine alarm functionality at the lowest price in this list. Its silent movement and battery power make it equally suited to a desk drawer or a travel bag.\n\nOne spot below Digital Wall Clock in this ranking, it's priced lower than Digital Wall Clock. The compromise here is straightforward: No digital extras like temperature or date. What you gain in return: Confirmed alarm function at the lowest price here. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers wanting a confirmed, no-frills alarm clock at the lowest price in this list.",
+    specs: ["Confirmed travel alarm clock design","Silent movement","Battery operated","Compact analog display"],
+    pros: ["Confirmed alarm function at the lowest price here","Genuinely compact and portable","Silent movement","Battery powered flexibility"],
+    cons: ["No digital extras like temperature or date","Smaller face limits readability from a distance","Verify current review data on the listing"],
     bestFor: "Buyers wanting a confirmed, no-frills alarm clock at the lowest price in this list.",
   },
   {
@@ -115,13 +110,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/4148wkUCCUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BKH8D5CW?tag=deskfinds0d-20",
-    description:
-      "This clock's listing title explicitly confirms alarm functionality, combined with custom personalization and an included AA battery so it's ready to use immediately. It suits buyers wanting a genuine functional alarm clock that's also a meaningful, engraved gift.\n\nUnlike the purely functional or purely decorative picks elsewhere on this list, this one delivers both a confirmed alarm and personalized engraving in a single desk or shelf piece.",
-    specs: ["Confirmed alarm function", "Desk or shelf placement", "AA battery included", "Custom personalization available"],
-    pros: ["Confirmed alarm function with personalization", "Battery included, ready to use immediately", "Flexible desk or shelf placement", "Doubles as a meaningful engraved gift"],
-    cons: ["Higher price than the purely functional alarm picks here", "Engraving requires lead time before shipping", "Verify current review data on the listing"],
+    description: "This clock's listing title explicitly confirms alarm functionality, combined with custom personalization and an included AA battery so it's ready to use immediately. It suits buyers wanting a genuine functional alarm clock that's also a meaningful, engraved gift.\n\nSitting just under Peakeep Small Battery Operated Analog Travel Alarm Clock Silent, it costs more than Peakeep Small Battery Operated Analog Travel Alarm Clock Silent. Here's the honest tradeoff: Higher price than the purely functional alarm picks here. And here's what it gets you instead: Confirmed alarm function with personalization. That's the real difference between the two picks, not just a ranking number.\n\nBuyers wanting a confirmed functional alarm clock that also works as a personalized gift.",
+    specs: ["Confirmed alarm function","Desk or shelf placement","AA battery included","Custom personalization available"],
+    pros: ["Confirmed alarm function with personalization","Battery included, ready to use immediately","Flexible desk or shelf placement","Doubles as a meaningful engraved gift"],
+    cons: ["Higher price than the purely functional alarm picks here","Engraving requires lead time before shipping","Verify current review data on the listing"],
     bestFor: "Buyers wanting a confirmed functional alarm clock that also works as a personalized gift.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -135,34 +129,133 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Don't Assume Digital Means Alarm-Equipped",
-    note: "Plenty of digital and decorative desk clocks skip alarm functionality entirely. Always check the listing explicitly states an alarm feature, as we did for every pick in this guide, before assuming a clock can wake you up.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Two independent alarms plus USB charging", "JALL Digital Clock with Dual USB"],
-        ["Clear alarm with day-of-week tracking", "DreamSky Large Display Clock"],
-        ["Cordless placement with environmental readouts", "WallarGe Digital Clock, verify alarm details"],
-        ["Maximum features with remote control", "Digital Wall Clock with Remote Control"],
-        ["Lowest price, confirmed and portable", "Peakeep Travel Alarm Clock"],
-        ["Confirmed alarm plus personalized engraving", "Personalized Clock with Alarm, AA Battery Included"],
+    "subheading": "By Movement Type",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "A quiet, non-ticking movement",
+          "Peakeep Small Battery Operated Analog Travel Alarm Clock Silent"
+        ],
+        [
+          "A digital, fully silent display",
+          "JALL Digital Clock with Date Day for Seniors"
+        ],
+        [
+          "Maximum visual personality (flip or mechanical action)",
+          "JALL Digital Clock with Date Day for Seniors"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Corded vs Battery for an Alarm Clock Specifically",
-    note: "A corded alarm clock with a battery backup, like the JALL pick, protects your wake-up alarm through a power outage. A fully battery powered alarm clock, like the Peakeep pick, has no outage risk at all but needs periodic battery replacement.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $20",
+          "Peakeep Small Battery Operated Analog Travel Alarm Clock Silent"
+        ],
+        [
+          "Mid-range",
+          "WallarGe Auto Set Digital Wall Clock Battery Operated"
+        ],
+        [
+          "No firm budget ceiling, prioritizing material or brand",
+          "Personalized Clock with Alarm for Desk or Shelf"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Battery-Powered vs Corded",
+    "cards": [
+      {
+        "label": "Battery-Powered",
+        "text": "Runs on batteries alone, so it can sit anywhere on a desk or shelf with no cord in the way, at the cost of an eventual battery swap. In this comparison: DreamSky Large Digital Clock with Date and Day of Week for Seniors, WallarGe Auto Set Digital Wall Clock Battery Operated, Peakeep Small Battery Operated Analog Travel Alarm Clock Silent."
+      },
+      {
+        "label": "Corded (Plug-In)",
+        "text": "Draws continuous power from a wall outlet, often adding features like USB charging ports or a battery backup for outages, but it has to sit within cord length of a plug. In this comparison: JALL Digital Clock with Date Day for Seniors, Digital Wall Clock."
+      }
+    ],
+    "note": "Most buyers should default to a battery-powered pick like Peakeep Small Battery Operated Analog Travel Alarm Clock Silent unless you specifically want the USB charging or dimmer features that typically come with corded models."
+  },
+  {
+    "subheading": "By Purpose: Everyday Use vs Gift",
+    "table": {
+      "headers": [
+        "Your purpose",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Everyday functional desk use",
+          "JALL Digital Clock with Date Day for Seniors"
+        ],
+        [
+          "A gift or milestone piece",
+          "Personalized Clock with Alarm for Desk or Shelf"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Buying as a Gift Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Genuine material language, such as hand carved, real marble, or real crystal, rather than a marble-look or crystal-look plastic finish, plus a stated production or engraving lead time if personalization is involved."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Personalized Clock with Alarm for Desk or Shelf fits this specifically: Confirmed alarm function with personalization. That's the kind of detail that signals a deliberate gift rather than a purely functional purchase."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Personalized Clock with Alarm for Desk or Shelf offers: Confirmed alarm function with personalization. That's a real material or craftsmanship upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Peakeep Small Battery Operated Analog Travel Alarm Clock Silent already covers the essentials: Confirmed alarm function at the lowest price here. The main thing you'd be paying extra for elsewhere in this list is styling rather than function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify alarm functionality directly in the listing, not just the category", explanation: "Not every desk clock includes an alarm, even some digital models are display only. Confirm the listing explicitly states an alarm feature before buying." },
-  { criterion: "Consider battery backup if you rely on the alarm to wake you", explanation: "A corded alarm clock without battery backup loses your wake-up alarm during a power outage. If reliability matters, choose a pick with battery backup or one that's fully battery powered." },
-  { criterion: "Match alarm count to your household setup", explanation: "A single-alarm clock suits one person's schedule, while a dual-alarm clock like the JALL pick better serves a shared bedroom or desk with two different wake times." },
-  { criterion: "Decide if you need extra features or just a reliable alarm", explanation: "Some picks pack in temperature, humidity, and remote control alongside the alarm, others keep it simple and inexpensive. Match complexity to what you'll actually use." },
+  {
+    "criterion": "Decide whether ticking noise matters to you",
+    "explanation": "A standard quartz movement advances its second hand once per second and produces an audible tick you can hear from a few feet away, while a silent sweep or silent electronic movement moves continuously with no tick at all. This matters more than it sounds like it should: a clock that ticks audibly for eight hours a day within arm's reach of where you work becomes a genuine background irritant for a lot of people, even if they don't consciously register it as a complaint until the clock is removed or replaced. To check this before buying, search the listing for the words \"silent,\" \"non-ticking,\" or \"sweep movement\" specifically, since a listing that doesn't mention noise at all is very likely a standard audible-tick quartz movement."
+  },
+  {
+    "criterion": "Match the face or display size to real viewing distance",
+    "explanation": "The size printed in a listing, usually in inches, measures the clock's case or face diameter, but that number alone doesn't tell you how easily you'll actually be able to read the time from where you sit. A 3 to 4 inch face reads fine from arm's length at a desk but becomes genuinely hard to read from across a room or a doorway, which matters if the clock's real job is to be glanced at from a distance rather than up close. Check the listing's stated dimensions against your actual distance from where the clock will sit, and for digital models, look specifically for the digit height in inches rather than the overall unit size, since a large plastic housing can still contain small digits."
+  },
+  {
+    "criterion": "Confirm the power source before you plan where it goes",
+    "explanation": "Desk clocks are either battery powered, meaning they can sit anywhere with no cord in the way, or corded and plugged into a wall outlet, sometimes with a battery backup that keeps the display running briefly during an outage. This is a genuinely practical constraint, not a minor spec: a corded clock needs to sit within cord-length of an outlet, which can rule out the center of a desk or a shelf far from a plug, while a battery clock can go anywhere but will eventually need a battery swap. Look for \"battery operated\" versus \"plug-in\" or \"AC powered\" directly in the listing title or bullet points, and treat advertised USB charging ports as a strong signal the unit is corded rather than battery-only."
+  },
+  {
+    "criterion": "Separate gift-tier materials from everyday functional clocks",
+    "explanation": "Clocks made from marble or crystal, or featuring custom engraving, are priced and designed first as a gift or a statement object, with everyday timekeeping treated as secondary, while clocks built from plastic or basic wood with digital or simple analog displays are priced for everyday practical use. Buying a hand-carved marble clock expecting the same day-to-day practicality as a basic digital clock with a dimmer and USB ports will lead to disappointment, since these are genuinely different product categories that happen to share a name. Check whether the listing emphasizes material and craftsmanship language (hand carved, polished, engraved) versus functional language (auto DST, dual alarms, temperature display) to quickly tell which tier a given clock falls into."
+  },
+  {
+    "criterion": "Check for lead time if the piece is personalized or engraved",
+    "explanation": "Custom engraving or personalization isn't applied instantly at a warehouse the way a standard product ships; it typically requires a separate production step after you submit your design or text, which the seller has to complete before the item even enters the shipping queue. This means a personalized clock ordered as a last-minute gift can easily miss a deadline that a standard, non-personalized clock would have made with days to spare, since the engraving step alone commonly adds several business days on top of normal shipping time. Before ordering a personalized piece for a specific date, check the listing's stated production or processing time, which is separate from shipping time, and order with enough buffer for both steps to finish before you need it."
+  }
 ];
 
 export const faq: FaqItem[] = [

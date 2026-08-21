@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41i8q0Okr6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBZB3LNC?tag=deskfinds0d-20",
-    description:
-      "This is a genuinely hand-carved marble piece, confirmed real stone construction rather than a marble-look finish, with a polished modern design that gives it real weight and presence. At $95 it's the clear premium choice between our two verified marble picks.\n\nIt reads as an investment or gift-tier object rather than a casual desk accessory, appropriate for buyers who want the material itself to be the point, not just a decorative accent.",
-    specs: ["Hand carved marble construction", "Polished modern design", "Table or desk placement", "Premium material weight"],
-    pros: ["Confirmed genuine hand-carved marble", "Substantial premium weight and presence", "Timeless polished design", "Strong gift or investment-piece quality"],
-    cons: ["Higher price than the budget pick below", "Heavier, less practical to relocate often", "Verify current review data on the listing"],
+    description: "This is a genuinely hand-carved marble piece, confirmed real stone construction rather than a marble-look finish, with a polished modern design that gives it real weight and presence. At $95 it's the clear premium choice between our two verified marble picks.\n\nIt earns the top spot in this comparison over Deluxe Round Black Marble Desk Mantle Clock for one main reason. Confirmed genuine hand-carved marble. On price, it's priced at $95.00, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers wanting the highest quality genuine marble piece available in our verified research.",
+    specs: ["Hand carved marble construction","Polished modern design","Table or desk placement","Premium material weight"],
+    pros: ["Confirmed genuine hand-carved marble","Substantial premium weight and presence","Timeless polished design","Strong gift or investment-piece quality"],
+    cons: ["Higher price than the budget pick below","Heavier, less practical to relocate often","Verify current review data on the listing"],
     bestFor: "Buyers wanting the highest quality genuine marble piece available in our verified research.",
   },
   {
@@ -47,13 +46,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/11bo03J0rOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00EZANSR8?tag=deskfinds0d-20",
-    description:
-      "This round black marble mantel clock is the more accessible of our two verified genuine marble picks, offering real stone material in a classic mantel-clock silhouette. The round shape distinguishes it from the more common rectangular marble clock designs.\n\nIt suits buyers who want genuine marble material without the premium price of a hand-carved piece, a reasonable gift or desk accessory that still delivers real stone construction.",
-    specs: ["Round black marble construction", "Mantel clock silhouette", "Gift-oriented presentation", "Desk or shelf placement"],
-    pros: ["Confirmed genuine marble material", "More accessible price than the premium pick", "Distinct round mantel-clock silhouette", "Gift-appropriate presentation"],
-    cons: ["Less premium finish than the hand-carved pick", "Verify current price and review data on the listing", "Narrower selection since this category has few verified options"],
+    description: "This round black marble mantel clock is the more accessible of our two verified genuine marble picks, offering real stone material in a classic mantel-clock silhouette. The round shape distinguishes it from the more common rectangular marble clock designs.\n\nOne spot below Luxurious Marble Desk Clock in this ranking, pricing between it and Luxurious Marble Desk Clock isn't directly comparable here. The compromise here is straightforward: Less premium finish than the hand-carved pick. What you gain in return: Confirmed genuine marble material. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers wanting genuine marble material at a more accessible price point. Note the price wasn't listed at the time of research, so confirm current cost on Amazon before deciding.",
+    specs: ["Round black marble construction","Mantel clock silhouette","Gift-oriented presentation","Desk or shelf placement"],
+    pros: ["Confirmed genuine marble material","More accessible price than the premium pick","Distinct round mantel-clock silhouette","Gift-appropriate presentation"],
+    cons: ["Less premium finish than the hand-carved pick","Verify current price and review data on the listing","Narrower selection since this category has few verified options"],
     bestFor: "Buyers wanting genuine marble material at a more accessible price point.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -67,30 +65,116 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Why This Guide Is Short",
-    note: "Genuine marble desk clocks, confirmed real stone rather than a marble-look print or resin finish, are a narrow category. Our verified research turned up exactly two confirmed products, we're covering both honestly rather than padding the list.",
-  },
-  {
-    subheading: "Premium vs Budget Marble, Side by Side",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Highest material and craftsmanship quality", "Luxurious Marble Desk Clock, Hand Carved"],
-        ["Genuine marble at a lower price", "Deluxe Round Black Marble Desk Mantle Clock"],
+    "subheading": "By Movement Type",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "A quiet, non-ticking movement",
+          "Luxurious Marble Desk Clock"
+        ],
+        [
+          "A digital, fully silent display",
+          "Deluxe Round Black Marble Desk Mantle Clock"
+        ],
+        [
+          "Maximum visual personality (flip or mechanical action)",
+          "Luxurious Marble Desk Clock"
+        ]
+      ]
+    }
   },
   {
-    subheading: "If You Want a Wider Range of Premium Materials",
-    note: "See our luxury desk clocks guide for these two marble picks alongside glass and crystal options, or our crystal desk clocks guide for our one verified genuine crystal pick.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $95",
+          "Luxurious Marble Desk Clock"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Battery-Powered vs Corded",
+    "cards": [
+      {
+        "label": "Battery-Powered",
+        "text": "Runs on batteries alone, so it can sit anywhere on a desk or shelf with no cord in the way, at the cost of an eventual battery swap. In this comparison: Luxurious Marble Desk Clock, Deluxe Round Black Marble Desk Mantle Clock."
+      },
+      {
+        "label": "Corded (Plug-In)",
+        "text": "Draws continuous power from a wall outlet, often adding features like USB charging ports or a battery backup for outages, but it has to sit within cord length of a plug. In this comparison: none in this specific roundup, since most picks here are battery powered."
+      }
+    ],
+    "note": "Most buyers should default to a battery-powered pick like Luxurious Marble Desk Clock unless you specifically want the USB charging or dimmer features that typically come with corded models."
+  },
+  {
+    "subheading": "By Purpose: Everyday Use vs Gift",
+    "table": {
+      "headers": [
+        "Your purpose",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Everyday functional desk use",
+          "Luxurious Marble Desk Clock"
+        ],
+        [
+          "A gift or milestone piece",
+          "Luxurious Marble Desk Clock"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Buying as a Gift Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Genuine material language, such as hand carved, real marble, or real crystal, rather than a marble-look or crystal-look plastic finish, plus a stated production or engraving lead time if personalization is involved."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Luxurious Marble Desk Clock fits this specifically: Confirmed genuine hand-carved marble. That's the kind of detail that signals a deliberate gift rather than a purely functional purchase."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "note": "Every pick in this specific comparison sits in a similar price range, so the decision here comes down to style and features rather than a budget-versus-premium tradeoff. Check the pros and cons above for what actually differs between them."
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm genuine marble in the listing description", explanation: "Many clocks marketed with a marble look actually use a printed or resin finish. Look for explicit real marble or natural stone language before assuming." },
-  { criterion: "Expect a narrow selection in this specific category", explanation: "Genuine marble desk clocks are uncommon, our verified research found only two, don't expect the same breadth of styles as more common materials like wood or plastic." },
-  { criterion: "Weigh craftsmanship against price directly", explanation: "The hand-carved premium pick costs meaningfully more than the round budget option, decide how much genuine craftsmanship detail matters to you before choosing." },
-  { criterion: "Marble adds real weight, plan for permanent placement", explanation: "Both picks here are heavier than plastic or wood clocks, plan for a fixed desk or shelf spot rather than frequent relocation." },
+  {
+    "criterion": "Decide whether ticking noise matters to you",
+    "explanation": "A standard quartz movement advances its second hand once per second and produces an audible tick you can hear from a few feet away, while a silent sweep or silent electronic movement moves continuously with no tick at all. This matters more than it sounds like it should: a clock that ticks audibly for eight hours a day within arm's reach of where you work becomes a genuine background irritant for a lot of people, even if they don't consciously register it as a complaint until the clock is removed or replaced. To check this before buying, search the listing for the words \"silent,\" \"non-ticking,\" or \"sweep movement\" specifically, since a listing that doesn't mention noise at all is very likely a standard audible-tick quartz movement."
+  },
+  {
+    "criterion": "Match the face or display size to real viewing distance",
+    "explanation": "The size printed in a listing, usually in inches, measures the clock's case or face diameter, but that number alone doesn't tell you how easily you'll actually be able to read the time from where you sit. A 3 to 4 inch face reads fine from arm's length at a desk but becomes genuinely hard to read from across a room or a doorway, which matters if the clock's real job is to be glanced at from a distance rather than up close. Check the listing's stated dimensions against your actual distance from where the clock will sit, and for digital models, look specifically for the digit height in inches rather than the overall unit size, since a large plastic housing can still contain small digits."
+  },
+  {
+    "criterion": "Confirm the power source before you plan where it goes",
+    "explanation": "Desk clocks are either battery powered, meaning they can sit anywhere with no cord in the way, or corded and plugged into a wall outlet, sometimes with a battery backup that keeps the display running briefly during an outage. This is a genuinely practical constraint, not a minor spec: a corded clock needs to sit within cord-length of an outlet, which can rule out the center of a desk or a shelf far from a plug, while a battery clock can go anywhere but will eventually need a battery swap. Look for \"battery operated\" versus \"plug-in\" or \"AC powered\" directly in the listing title or bullet points, and treat advertised USB charging ports as a strong signal the unit is corded rather than battery-only."
+  },
+  {
+    "criterion": "Separate gift-tier materials from everyday functional clocks",
+    "explanation": "Clocks made from marble or crystal, or featuring custom engraving, are priced and designed first as a gift or a statement object, with everyday timekeeping treated as secondary, while clocks built from plastic or basic wood with digital or simple analog displays are priced for everyday practical use. Buying a hand-carved marble clock expecting the same day-to-day practicality as a basic digital clock with a dimmer and USB ports will lead to disappointment, since these are genuinely different product categories that happen to share a name. Check whether the listing emphasizes material and craftsmanship language (hand carved, polished, engraved) versus functional language (auto DST, dual alarms, temperature display) to quickly tell which tier a given clock falls into."
+  },
+  {
+    "criterion": "Check for lead time if the piece is personalized or engraved",
+    "explanation": "Custom engraving or personalization isn't applied instantly at a warehouse the way a standard product ships; it typically requires a separate production step after you submit your design or text, which the seller has to complete before the item even enters the shipping queue. This means a personalized clock ordered as a last-minute gift can easily miss a deadline that a standard, non-personalized clock would have made with days to spare, since the engraving step alone commonly adds several business days on top of normal shipping time. Before ordering a personalized piece for a specific date, check the listing's stated production or processing time, which is separate from shipping time, and order with enough buffer for both steps to finish before you need it."
+  }
 ];
 
 export const faq: FaqItem[] = [

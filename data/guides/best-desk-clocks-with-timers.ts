@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41shluLVEDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CMTQXHQL?tag=deskfinds0d-20",
-    description:
-      "This is the clearest match for a genuine timer function: the listing explicitly names \"Timer\" alongside its calendar, temperature, and alarm clock features. It also doubles as a pen organizer, a useful bonus if desk storage matters to you too.\n\nAt a low price point, this covers the timer need without paying for extras like wireless charging you may not want, a straightforward pick if a countdown function is your main requirement.",
-    specs: ["Timer function per listing", "LCD alarm clock with calendar and temperature", "Pen and stationery organizer", "Budget price"],
-    pros: ["Explicitly named timer function, the clearest match in our pool", "Very low price for the feature set", "Doubles as a pen organizer", "Calendar and temperature display included"],
-    cons: ["Timer duration range and precision not detailed in listing", "Small, basic build compared to dedicated kitchen timers", "Verify current review data on the listing"],
+    description: "This is the clearest match for a genuine timer function: the listing explicitly names \"Timer\" alongside its calendar, temperature, and alarm clock features. It also doubles as a pen organizer, a useful bonus if desk storage matters to you too.\n\nIt earns the top spot in this comparison over Digital Wall Clock for one main reason. Explicitly named timer function, the clearest match in our pool. On price, it comes in below Digital Wall Clock on price, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers who specifically want a genuine countdown timer at a low price.",
+    specs: ["Timer function per listing","LCD alarm clock with calendar and temperature","Pen and stationery organizer","Budget price"],
+    pros: ["Explicitly named timer function, the clearest match in our pool","Very low price for the feature set","Doubles as a pen organizer","Calendar and temperature display included"],
+    cons: ["Timer duration range and precision not detailed in listing","Small, basic build compared to dedicated kitchen timers","Verify current review data on the listing"],
     bestFor: "Buyers who specifically want a genuine countdown timer at a low price.",
   },
   {
@@ -47,13 +46,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41LfoqpRSML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2B45PNV?tag=deskfinds0d-20",
-    description:
-      "The listing explicitly names \"Countdown\" as a feature alongside a large LED display, date, week, temperature, humidity, and auto DST, based on the listing details. The included remote lets you set the countdown without reaching the unit itself.\n\nIf you want a genuine countdown timer bundled with a much fuller feature set than a basic pen holder combo, this is the stronger pick, at the cost of needing a nearby outlet since it's corded.",
-    specs: ["Countdown function per listing", "Large LED display with remote control", "Corded, mains powered", "Temperature, humidity, date, week readout"],
-    pros: ["Genuine countdown function alongside a full feature set", "Remote control for setting the countdown from a distance", "Large, easy to read display", "Auto DST removes manual seasonal resets"],
-    cons: ["Requires a nearby outlet", "Higher price than the basic pen holder timer pick", "Verify current review data on the listing"],
+    description: "The listing explicitly names \"Countdown\" as a feature alongside a large LED display, date, week, temperature, humidity, and auto DST, based on the listing details. The included remote lets you set the countdown without reaching the unit itself.\n\nOne spot below Desk Pen Holder with Clock in this ranking, it costs more than Desk Pen Holder with Clock. The compromise here is straightforward: Requires a nearby outlet. What you gain in return: Genuine countdown function alongside a full feature set. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers wanting a countdown timer bundled with a full-featured large display clock.",
+    specs: ["Countdown function per listing","Large LED display with remote control","Corded, mains powered","Temperature, humidity, date, week readout"],
+    pros: ["Genuine countdown function alongside a full feature set","Remote control for setting the countdown from a distance","Large, easy to read display","Auto DST removes manual seasonal resets"],
+    cons: ["Requires a nearby outlet","Higher price than the basic pen holder timer pick","Verify current review data on the listing"],
     bestFor: "Buyers wanting a countdown timer bundled with a full-featured large display clock.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -67,34 +65,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "A Timer Is Not the Same as an Alarm",
-    note: "An alarm fires at a specific time of day, set once and repeating daily. A timer counts down from a duration you choose, useful for focused work sessions or short tasks, then resets. Most desk clocks include an alarm; genuine countdown timers are the less common feature.",
-  },
-  {
-    subheading: "Why This List Is Only Two Products",
-    note: "A dedicated timer function is uncommon among standard desk clocks in our verified inventory. Rather than stretch alarm-only clocks into this category, we're covering the two genuine matches honestly.",
-  },
-  {
-    subheading: "If You Want a True Kitchen-Style Countdown Timer",
-    note: "Consider a dedicated countdown timer device rather than a desk clock. Neither pick here is built primarily as a timer, the timer is a secondary feature on a clock, so precision and duration range may not match a purpose-built kitchen timer.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Lowest price, has a timer and pen storage", "Desk Pen Holder with Clock (Timer)"],
-        ["Countdown timer plus full display features", "Digital Wall Clock with Remote Control (Countdown)"],
+    "subheading": "By Movement Type",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "A quiet, non-ticking movement",
+          "Desk Pen Holder with Clock"
+        ],
+        [
+          "A digital, fully silent display",
+          "Desk Pen Holder with Clock"
+        ],
+        [
+          "Maximum visual personality (flip or mechanical action)",
+          "Desk Pen Holder with Clock"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $8",
+          "Desk Pen Holder with Clock"
+        ],
+        [
+          "Mid-range",
+          "Digital Wall Clock"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Battery-Powered vs Corded",
+    "cards": [
+      {
+        "label": "Battery-Powered",
+        "text": "Runs on batteries alone, so it can sit anywhere on a desk or shelf with no cord in the way, at the cost of an eventual battery swap. In this comparison: Desk Pen Holder with Clock."
+      },
+      {
+        "label": "Corded (Plug-In)",
+        "text": "Draws continuous power from a wall outlet, often adding features like USB charging ports or a battery backup for outages, but it has to sit within cord length of a plug. In this comparison: Digital Wall Clock."
+      }
+    ],
+    "note": "Most buyers should default to a battery-powered pick like Desk Pen Holder with Clock unless you specifically want the USB charging or dimmer features that typically come with corded models."
+  },
+  {
+    "subheading": "By Purpose: Everyday Use vs Gift",
+    "table": {
+      "headers": [
+        "Your purpose",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Everyday functional desk use",
+          "Desk Pen Holder with Clock"
+        ],
+        [
+          "A gift or milestone piece",
+          "Digital Wall Clock"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Buying as a Gift Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Genuine material language, such as hand carved, real marble, or real crystal, rather than a marble-look or crystal-look plastic finish, plus a stated production or engraving lead time if personalization is involved."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Digital Wall Clock fits this specifically: Genuine countdown function alongside a full feature set. That's the kind of detail that signals a deliberate gift rather than a purely functional purchase."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Digital Wall Clock offers: Genuine countdown function alongside a full feature set. That's a real material or craftsmanship upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Desk Pen Holder with Clock already covers the essentials: Explicitly named timer function, the clearest match in our pool. The main thing you'd be paying extra for elsewhere in this list is styling rather than function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm the listing explicitly names \"timer\" or \"countdown\"", explanation: "Many desk clocks describe themselves as \"multifunctional\" without a genuine timer feature. Look for the specific word in the title or bullet points before assuming." },
-  { criterion: "Don't confuse an alarm with a timer", explanation: "An alarm fires at a fixed time of day. A timer counts down from a chosen duration. If you want a Pomodoro-style work timer, you specifically need the countdown feature, not just an alarm clock." },
-  { criterion: "Check timer precision expectations", explanation: "Neither pick here is a dedicated countdown timer device, so treat the feature as a convenient bonus rather than expecting the precision of a purpose-built kitchen or interval timer." },
-  { criterion: "Weigh price against the rest of the feature set", explanation: "The lowest cost pick adds pen storage, while the pricier option adds a fuller display and remote control. Match your budget to which extras you actually want alongside the timer." },
+  {
+    "criterion": "Decide whether ticking noise matters to you",
+    "explanation": "A standard quartz movement advances its second hand once per second and produces an audible tick you can hear from a few feet away, while a silent sweep or silent electronic movement moves continuously with no tick at all. This matters more than it sounds like it should: a clock that ticks audibly for eight hours a day within arm's reach of where you work becomes a genuine background irritant for a lot of people, even if they don't consciously register it as a complaint until the clock is removed or replaced. To check this before buying, search the listing for the words \"silent,\" \"non-ticking,\" or \"sweep movement\" specifically, since a listing that doesn't mention noise at all is very likely a standard audible-tick quartz movement."
+  },
+  {
+    "criterion": "Match the face or display size to real viewing distance",
+    "explanation": "The size printed in a listing, usually in inches, measures the clock's case or face diameter, but that number alone doesn't tell you how easily you'll actually be able to read the time from where you sit. A 3 to 4 inch face reads fine from arm's length at a desk but becomes genuinely hard to read from across a room or a doorway, which matters if the clock's real job is to be glanced at from a distance rather than up close. Check the listing's stated dimensions against your actual distance from where the clock will sit, and for digital models, look specifically for the digit height in inches rather than the overall unit size, since a large plastic housing can still contain small digits."
+  },
+  {
+    "criterion": "Confirm the power source before you plan where it goes",
+    "explanation": "Desk clocks are either battery powered, meaning they can sit anywhere with no cord in the way, or corded and plugged into a wall outlet, sometimes with a battery backup that keeps the display running briefly during an outage. This is a genuinely practical constraint, not a minor spec: a corded clock needs to sit within cord-length of an outlet, which can rule out the center of a desk or a shelf far from a plug, while a battery clock can go anywhere but will eventually need a battery swap. Look for \"battery operated\" versus \"plug-in\" or \"AC powered\" directly in the listing title or bullet points, and treat advertised USB charging ports as a strong signal the unit is corded rather than battery-only."
+  },
+  {
+    "criterion": "Separate gift-tier materials from everyday functional clocks",
+    "explanation": "Clocks made from marble or crystal, or featuring custom engraving, are priced and designed first as a gift or a statement object, with everyday timekeeping treated as secondary, while clocks built from plastic or basic wood with digital or simple analog displays are priced for everyday practical use. Buying a hand-carved marble clock expecting the same day-to-day practicality as a basic digital clock with a dimmer and USB ports will lead to disappointment, since these are genuinely different product categories that happen to share a name. Check whether the listing emphasizes material and craftsmanship language (hand carved, polished, engraved) versus functional language (auto DST, dual alarms, temperature display) to quickly tell which tier a given clock falls into."
+  },
+  {
+    "criterion": "Check for lead time if the piece is personalized or engraved",
+    "explanation": "Custom engraving or personalization isn't applied instantly at a warehouse the way a standard product ships; it typically requires a separate production step after you submit your design or text, which the seller has to complete before the item even enters the shipping queue. This means a personalized clock ordered as a last-minute gift can easily miss a deadline that a standard, non-personalized clock would have made with days to spare, since the engraving step alone commonly adds several business days on top of normal shipping time. Before ordering a personalized piece for a specific date, check the listing's stated production or processing time, which is separate from shipping time, and order with enough buffer for both steps to finish before you need it."
+  }
 ];
 
 export const faq: FaqItem[] = [

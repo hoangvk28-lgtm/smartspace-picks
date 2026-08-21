@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51G6Kk3l8dL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B073VF186Z?tag=deskfinds0d-20",
-    description:
-      "Built specifically as a travel alarm clock, this is the most genuinely pocketable option in this roundup, designed to be tossed in a bag rather than sit as a permanent fixture. Its silent movement and low price make it an easy pick if compactness and function outweigh decorative concerns.\n\nThe included alarm function is a real bonus for a clock this small, most mini decorative clocks skip an alarm entirely. It tops this list because it is genuinely built around the mini use case rather than being a small version of a larger decorative design.",
-    specs: ["Compact travel-clock design", "Silent movement", "Battery operated", "Alarm function included"],
-    pros: ["Most genuinely pocketable design in this pool", "Doubles as a travel alarm clock", "Lowest price in this guide", "Silent movement"],
-    cons: ["Minimal decorative styling", "Small face limits readability from a distance", "Verify current review data on the listing"],
+    description: "Built specifically as a travel alarm clock, this is the most genuinely pocketable option in this roundup, designed to be tossed in a bag rather than sit as a permanent fixture. Its silent movement and low price make it an easy pick if compactness and function outweigh decorative concerns.\n\nIt earns the top spot in this comparison over Navaris Small Modern Desk Clock for one main reason. Most genuinely pocketable design in this pool. On price, it's priced at $11.49, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers wanting the most compact, genuinely portable mini clock, especially for travel.",
+    specs: ["Compact travel-clock design","Silent movement","Battery operated","Alarm function included"],
+    pros: ["Most genuinely pocketable design in this pool","Doubles as a travel alarm clock","Lowest price in this guide","Silent movement"],
+    cons: ["Minimal decorative styling","Small face limits readability from a distance","Verify current review data on the listing"],
     bestFor: "Buyers wanting the most compact, genuinely portable mini clock, especially for travel.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41-TkueeUEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B093WGR49D?tag=deskfinds0d-20",
-    description:
-      "At 4-3/8 inches, this real wood clock is nearly as compact as the Peakeep travel clock above but designed to stay permanently on a desk or shelf rather than travel in a bag. The material quality is genuinely higher than a typical mini clock, giving it more staying power as a desk fixture.\n\nIf you want a mini clock you'll actually want to look at rather than tuck away, this is the better pick over the purely functional travel clock at rank one.",
-    specs: ["4-3/8 inch diameter", "Real wood construction", "Silent tick analog movement", "Battery operated"],
-    pros: ["Nearly as compact as the top pick", "Genuine wood material, more decorative", "Silent movement", "Designed for permanent desk placement"],
-    cons: ["Slightly larger and pricier than the pure travel clock", "Still small enough to be less legible at a distance", "Verify current review data on the listing"],
+    description: "At 4-3/8 inches, this real wood clock is nearly as compact as the Peakeep travel clock above but designed to stay permanently on a desk or shelf rather than travel in a bag. The material quality is genuinely higher than a typical mini clock, giving it more staying power as a desk fixture.\n\nOne spot below Peakeep Small Battery Operated Analog Travel Alarm Clock Silent in this ranking, pricing between it and Peakeep Small Battery Operated Analog Travel Alarm Clock Silent isn't directly comparable here. The compromise here is straightforward: Slightly larger and pricier than the pure travel clock. What you gain in return: Nearly as compact as the top pick. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers wanting a mini clock built to stay on display rather than travel. Note the price wasn't listed at the time of research, so confirm current cost on Amazon before deciding.",
+    specs: ["4-3/8 inch diameter","Real wood construction","Silent tick analog movement","Battery operated"],
+    pros: ["Nearly as compact as the top pick","Genuine wood material, more decorative","Silent movement","Designed for permanent desk placement"],
+    cons: ["Slightly larger and pricier than the pure travel clock","Still small enough to be less legible at a distance","Verify current review data on the listing"],
     bestFor: "Buyers wanting a mini clock built to stay on display rather than travel.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51ZtDT4yTbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07DX3JSRB?tag=deskfinds0d-20",
-    description:
-      "At 5.5 inches this is the largest of the mini-classified clocks here, right at the edge of what still qualifies as genuinely mini rather than simply small. The bronze finish and non-ticking movement give it more visual character than the purely functional travel clock.\n\nIf you want the smallest possible footprint, choose the picks above instead, this one is included for buyers who want a mini clock with a bit more decorative presence and are willing to give up a little compactness for it.",
-    specs: ["5.5 inch analog face", "Bronze finish", "Silent, non-ticking movement", "Battery operated"],
-    pros: ["More decorative bronze finish", "Explicitly non-ticking movement", "Still compact relative to standard desk clocks", "Easier to read than the smallest picks"],
-    cons: ["Largest of the mini-classified clocks here", "Less pocketable than the top two picks", "Verify current price and review data on the listing"],
+    description: "At 5.5 inches this is the largest of the mini-classified clocks here, right at the edge of what still qualifies as genuinely mini rather than simply small. The bronze finish and non-ticking movement give it more visual character than the purely functional travel clock.\n\nSitting just under Navaris Small Modern Desk Clock, pricing between it and Navaris Small Modern Desk Clock isn't directly comparable here. Here's the honest tradeoff: Largest of the mini-classified clocks here. And here's what it gets you instead: More decorative bronze finish. That's the real difference between the two picks, not just a ranking number.\n\nBuyers wanting a mini clock with more visual character, accepting a slightly larger footprint. Note the price wasn't listed at the time of research, so confirm current cost on Amazon before deciding.",
+    specs: ["5.5 inch analog face","Bronze finish","Silent, non-ticking movement","Battery operated"],
+    pros: ["More decorative bronze finish","Explicitly non-ticking movement","Still compact relative to standard desk clocks","Easier to read than the smallest picks"],
+    cons: ["Largest of the mini-classified clocks here","Less pocketable than the top two picks","Verify current price and review data on the listing"],
     bestFor: "Buyers wanting a mini clock with more visual character, accepting a slightly larger footprint.",
   },
   {
@@ -81,13 +78,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41+mFh63FwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK6R22KD?tag=deskfinds0d-20",
-    description:
-      "We're ranking this last specifically because, at 8.3 by 9.1 inches, it stretches the definition of mini more than any other pick here, it belongs more accurately in our small or vintage desk clocks guides. We include it only for buyers comparing across our clock guides who want to see the upper size boundary of what still gets called mini in some listings.\n\nIf genuine compactness is your goal, any of the three picks above is the better choice, this one prioritizes gold-toned decorative presence over size.",
-    specs: ["8.3 x 9.1 inch analog face", "Gold finish", "Silent movement", "Mantel or desk placement"],
-    pros: ["Strong decorative shelf presence", "Silent movement", "Warm gold finish", "Distinct look from the smaller picks"],
-    cons: ["Largest clock in this guide by a wide margin", "Arguably not genuinely mini", "Verify current review data on the listing"],
+    description: "We're ranking this last specifically because, at 8.3 by 9.1 inches, it stretches the definition of mini more than any other pick here, it belongs more accurately in our small or vintage desk clocks guides. We include it only for buyers comparing across our clock guides who want to see the upper size boundary of what still gets called mini in some listings.\n\nRanked just behind thjsvy Small Clocks Analog for Desk, pricing between it and thjsvy Small Clocks Analog for Desk isn't directly comparable here. The real tradeoff against that pick: Largest clock in this guide by a wide margin. In exchange, it offers this instead: Strong decorative shelf presence. That's the swap that decides whether this pick or the one above it is the better fit for a given buyer.\n\nBuyers who want gold-toned decorative presence and are comparing across our small clock guides rather than seeking maximum compactness.",
+    specs: ["8.3 x 9.1 inch analog face","Gold finish","Silent movement","Mantel or desk placement"],
+    pros: ["Strong decorative shelf presence","Silent movement","Warm gold finish","Distinct look from the smaller picks"],
+    cons: ["Largest clock in this guide by a wide margin","Arguably not genuinely mini","Verify current review data on the listing"],
     bestFor: "Buyers who want gold-toned decorative presence and are comparing across our small clock guides rather than seeking maximum compactness.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -101,32 +97,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Mini vs Small, Ranked Differently on Purpose",
-    note: "This guide ranks the same core product pool as our small desk clocks guide, but strictly by compactness rather than a balance of size and decorative value. If pure size isn't your only concern, check that guide's ranking instead.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Most genuinely portable, travels well", "Peakeep Travel Alarm Clock"],
-        ["Compact but built to stay on display", "Navaris Small Wood Analog Clock"],
-        ["A bit more decorative character, still compact", "thjsvy Bronze Analog Clock 5.5 inch"],
-        ["Largest option, borderline mini", "QIYAODECO Gold Analog Mantel Clock"],
+    "subheading": "By Movement Type",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "A quiet, non-ticking movement",
+          "Peakeep Small Battery Operated Analog Travel Alarm Clock Silent"
+        ],
+        [
+          "A digital, fully silent display",
+          "Navaris Small Modern Desk Clock"
+        ],
+        [
+          "Maximum visual personality (flip or mechanical action)",
+          "Peakeep Small Battery Operated Analog Travel Alarm Clock Silent"
+        ]
+      ]
+    }
   },
   {
-    subheading: "If You're Traveling With It",
-    note: "Only the Peakeep pick is genuinely designed as a travel clock with an alarm function. The other picks here are meant to stay on a desk or shelf, even the more compact ones.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $12",
+          "Peakeep Small Battery Operated Analog Travel Alarm Clock Silent"
+        ],
+        [
+          "Mid-range",
+          "QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3x9.1in"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Battery-Powered vs Corded",
+    "cards": [
+      {
+        "label": "Battery-Powered",
+        "text": "Runs on batteries alone, so it can sit anywhere on a desk or shelf with no cord in the way, at the cost of an eventual battery swap. In this comparison: Peakeep Small Battery Operated Analog Travel Alarm Clock Silent, Navaris Small Modern Desk Clock, thjsvy Small Clocks Analog for Desk."
+      },
+      {
+        "label": "Corded (Plug-In)",
+        "text": "Draws continuous power from a wall outlet, often adding features like USB charging ports or a battery backup for outages, but it has to sit within cord length of a plug. In this comparison: none in this specific roundup, since most picks here are battery powered."
+      }
+    ],
+    "note": "Most buyers should default to a battery-powered pick like Peakeep Small Battery Operated Analog Travel Alarm Clock Silent unless you specifically want the USB charging or dimmer features that typically come with corded models."
+  },
+  {
+    "subheading": "By Purpose: Everyday Use vs Gift",
+    "table": {
+      "headers": [
+        "Your purpose",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Everyday functional desk use",
+          "Peakeep Small Battery Operated Analog Travel Alarm Clock Silent"
+        ],
+        [
+          "A gift or milestone piece",
+          "QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3x9.1in"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Buying as a Gift Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Genuine material language, such as hand carved, real marble, or real crystal, rather than a marble-look or crystal-look plastic finish, plus a stated production or engraving lead time if personalization is involved."
+      },
+      {
+        "label": "In this comparison",
+        "text": "QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3x9.1in fits this specifically: Strong decorative shelf presence. That's the kind of detail that signals a deliberate gift rather than a purely functional purchase."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3x9.1in offers: Strong decorative shelf presence. That's a real material or craftsmanship upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Peakeep Small Battery Operated Analog Travel Alarm Clock Silent already covers the essentials: Most genuinely pocketable design in this pool. The main thing you'd be paying extra for elsewhere in this list is styling rather than function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Decide if you need travel durability or just a small desk footprint", explanation: "A true travel clock like the Peakeep pick is built to survive being tossed in a bag, while the other mini picks here are meant to stay on a stationary desk or shelf." },
-  { criterion: "Expect a tradeoff between size and decorative material", explanation: "The smallest clocks here tend to be the most purely functional, while slightly larger mini picks add wood, bronze, or gold finishes for more visual character." },
-  { criterion: "Check face size against how far you'll actually be from it", explanation: "A genuinely mini clock face can be hard to read from more than a couple feet away, confirm that distance matches your actual desk setup." },
-  { criterion: "Compare this guide against our small desk clocks guide if size isn't your only priority", explanation: "That guide ranks an overlapping pool by overall balance rather than pure compactness, worth checking if you want more than just the smallest option." },
+  {
+    "criterion": "Decide whether ticking noise matters to you",
+    "explanation": "A standard quartz movement advances its second hand once per second and produces an audible tick you can hear from a few feet away, while a silent sweep or silent electronic movement moves continuously with no tick at all. This matters more than it sounds like it should: a clock that ticks audibly for eight hours a day within arm's reach of where you work becomes a genuine background irritant for a lot of people, even if they don't consciously register it as a complaint until the clock is removed or replaced. To check this before buying, search the listing for the words \"silent,\" \"non-ticking,\" or \"sweep movement\" specifically, since a listing that doesn't mention noise at all is very likely a standard audible-tick quartz movement."
+  },
+  {
+    "criterion": "Match the face or display size to real viewing distance",
+    "explanation": "The size printed in a listing, usually in inches, measures the clock's case or face diameter, but that number alone doesn't tell you how easily you'll actually be able to read the time from where you sit. A 3 to 4 inch face reads fine from arm's length at a desk but becomes genuinely hard to read from across a room or a doorway, which matters if the clock's real job is to be glanced at from a distance rather than up close. Check the listing's stated dimensions against your actual distance from where the clock will sit, and for digital models, look specifically for the digit height in inches rather than the overall unit size, since a large plastic housing can still contain small digits."
+  },
+  {
+    "criterion": "Confirm the power source before you plan where it goes",
+    "explanation": "Desk clocks are either battery powered, meaning they can sit anywhere with no cord in the way, or corded and plugged into a wall outlet, sometimes with a battery backup that keeps the display running briefly during an outage. This is a genuinely practical constraint, not a minor spec: a corded clock needs to sit within cord-length of an outlet, which can rule out the center of a desk or a shelf far from a plug, while a battery clock can go anywhere but will eventually need a battery swap. Look for \"battery operated\" versus \"plug-in\" or \"AC powered\" directly in the listing title or bullet points, and treat advertised USB charging ports as a strong signal the unit is corded rather than battery-only."
+  },
+  {
+    "criterion": "Separate gift-tier materials from everyday functional clocks",
+    "explanation": "Clocks made from marble or crystal, or featuring custom engraving, are priced and designed first as a gift or a statement object, with everyday timekeeping treated as secondary, while clocks built from plastic or basic wood with digital or simple analog displays are priced for everyday practical use. Buying a hand-carved marble clock expecting the same day-to-day practicality as a basic digital clock with a dimmer and USB ports will lead to disappointment, since these are genuinely different product categories that happen to share a name. Check whether the listing emphasizes material and craftsmanship language (hand carved, polished, engraved) versus functional language (auto DST, dual alarms, temperature display) to quickly tell which tier a given clock falls into."
+  },
+  {
+    "criterion": "Check for lead time if the piece is personalized or engraved",
+    "explanation": "Custom engraving or personalization isn't applied instantly at a warehouse the way a standard product ships; it typically requires a separate production step after you submit your design or text, which the seller has to complete before the item even enters the shipping queue. This means a personalized clock ordered as a last-minute gift can easily miss a deadline that a standard, non-personalized clock would have made with days to spare, since the engraving step alone commonly adds several business days on top of normal shipping time. Before ordering a personalized piece for a specific date, check the listing's stated production or processing time, which is separate from shipping time, and order with enough buffer for both steps to finish before you need it."
+  }
 ];
 
 export const faq: FaqItem[] = [

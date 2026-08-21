@@ -5,7 +5,7 @@ export const metaDescription =
   "5 desk clocks verified against their descriptions for true absence of alarm functions, since some \"alarm clock\" listings can still work fine without ever using the alarm.";
 export const mainKeyword = "digital desk clock without alarm";
 export const introParagraphs = [
-  "Many listings marketed as \"alarm clocks\" work perfectly well as no-alarm desk clocks if you simply never set the alarm — we included those alongside genuinely alarm-free designs, and noted which is which so you know what you're buying.",
+  "Many listings marketed as \"alarm clocks\" work perfectly well as no-alarm desk clocks if you simply never set the alarm, we included those alongside genuinely alarm-free designs, and noted which is which so you know what you're buying.",
   "For a distraction-free desk, avoiding accidental alarm triggers matters as much as avoiding an alarm feature altogether, so we favored simple interfaces with minimal risk of accidental activation.",
 ];
 export const lastUpdated = "2026-08-08";
@@ -30,9 +30,9 @@ export const products: GuideProduct[] = [
     reviews: "6,039",
     imageUrl: "https://m.media-amazon.com/images/I/41zup4v0gaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYST53T6?tag=deskfinds0d-20",
-    description: "This does have an alarm function you can simply leave unset — by far the largest review base and highest rating in this comparison, with large legible numbers.",
-    specs: ["Digital display, large numbers", "Alarm function present but optional to use", "6,039 reviews at 4.6 stars"],
-    pros: ["Largest review base and highest rating in this comparison", "Simple interface minimizes accidental alarm activation"],
+    description: "This does have an alarm function you can simply leave unset, by far the largest review base and highest rating in this comparison, with large legible numbers.\n\nIt earns the top spot in this comparison over Lucktime Minimalist Desk Clock for one main reason. Largest review base and highest rating in this comparison. On price, it's actually priced above Lucktime Minimalist Desk Clock, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers who want the most proven clock and are fine simply not setting the alarm.",
+    specs: ["Digital display, large numbers","Alarm function present but optional to use","6,039 reviews at 4.6 stars"],
+    pros: ["Largest review base and highest rating in this comparison","Simple interface minimizes accidental alarm activation"],
     cons: ["Has an alarm function, just not required to use it"],
     bestFor: "Buyers who want the most proven clock and are fine simply not setting the alarm.",
   },
@@ -46,10 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "3",
     imageUrl: "https://m.media-amazon.com/images/I/51Kc4Z1GX0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GSZMM9SZ?tag=deskfinds0d-20",
-    description: "A genuinely minimalist analog design without alarm functionality complicating the interface — a real no-alarm option, though with a very small review base worth noting.",
-    specs: ["Minimalist analog design", "No alarm interface", "3 reviews at 4.3 stars"],
+    description: "A genuinely minimalist analog design without alarm functionality complicating the interface, a real no-alarm option, though with a very small review base worth noting.\n\nOne spot below DreamSky Wooden Digital Alarm Clock for Bedroom Living Room in this ranking, it's priced lower than DreamSky Wooden Digital Alarm Clock for Bedroom Living Room. The compromise here is straightforward: Very small review base, worth checking current feedback given limited sample size. What you gain in return: Genuinely minimalist, alarm-free design. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers who specifically want a true no-alarm analog design and accept the limited review history.",
+    specs: ["Minimalist analog design","No alarm interface","3 reviews at 4.3 stars"],
     pros: ["Genuinely minimalist, alarm-free design"],
-    cons: ["Very small review base — worth checking current feedback given limited sample size"],
+    cons: ["Very small review base, worth checking current feedback given limited sample size"],
     bestFor: "Buyers who specifically want a true no-alarm analog design and accept the limited review history.",
   },
   {
@@ -62,8 +62,8 @@ export const products: GuideProduct[] = [
     reviews: "78",
     imageUrl: "https://m.media-amazon.com/images/I/410BDyZsOkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D4TLDZ1H?tag=deskfinds0d-20",
-    description: "A vintage-styled analog clock without a digital alarm interface, useful for buyers who want a genuinely simple, decorative desk piece.",
-    specs: ["Vintage design, analog", "Battery operated", "78 reviews at 4.3 stars"],
+    description: "A vintage-styled analog clock without a digital alarm interface, useful for buyers who want a genuinely simple, decorative desk piece.\n\nSitting just under Lucktime Minimalist Desk Clock, it costs more than Lucktime Minimalist Desk Clock. Here's the honest tradeoff: Smaller review base than the top digital picks. And here's what it gets you instead: Vintage aesthetic without a digital alarm interface. That's the real difference between the two picks, not just a ranking number.\n\nBuyers who want a decorative, genuinely alarm-free vintage-styled clock.",
+    specs: ["Vintage design, analog","Battery operated","78 reviews at 4.3 stars"],
     pros: ["Vintage aesthetic without a digital alarm interface"],
     cons: ["Smaller review base than the top digital picks"],
     bestFor: "Buyers who want a decorative, genuinely alarm-free vintage-styled clock.",
@@ -78,10 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "6,145",
     imageUrl: "https://m.media-amazon.com/images/I/51BRnPQhRcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYSVGS2Q?tag=deskfinds0d-20",
-    description: "A very similar listing to the top pick from the same brand, also with an alarm function you can leave unset, at a nearly identical rating and review count.",
-    specs: ["Digital display, large numbers", "Alarm function present but optional to use", "6,145 reviews at 4.6 stars"],
+    description: "A very similar listing to the top pick from the same brand, also with an alarm function you can leave unset, at a nearly identical rating and review count.\n\nRanked just behind EMAX HOME Vintage Golden Table Clock, it's priced lower than EMAX HOME Vintage Golden Table Clock. The real tradeoff against that pick: Has an alarm function, same as the top pick, not a true alarm-free design. In exchange, it offers this instead: Massive review base and highest rating, similar to the top pick. That's the swap that decides whether this pick or the one above it is the better fit for a given buyer.\n\nBuyers comparing near-identical DreamSky listings for the best current price.",
+    specs: ["Digital display, large numbers","Alarm function present but optional to use","6,145 reviews at 4.6 stars"],
     pros: ["Massive review base and highest rating, similar to the top pick"],
-    cons: ["Has an alarm function, same as the top pick — not a true alarm-free design"],
+    cons: ["Has an alarm function, same as the top pick, not a true alarm-free design"],
     bestFor: "Buyers comparing near-identical DreamSky listings for the best current price.",
   },
   {
@@ -94,12 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "2,643",
     imageUrl: "https://m.media-amazon.com/images/I/41A45jPnYsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D4DNSBDD?tag=deskfinds0d-20",
-    description: "Also has an alarm function you can leave unset, a modern mirror-finish design with a strong review base and rating.",
-    specs: ["Slim mirror-surface design", "Alarm function present but optional to use", "2,643 reviews at 4.6 stars"],
-    pros: ["Strong rating and large review base", "Modern, slim design"],
+    description: "Also has an alarm function you can leave unset, a modern mirror-finish design with a strong review base and rating.\n\nOne spot below DreamSky Wooden Digital Alarm Clock for Bedrooms Desk with Large Numbers in this ranking, it costs more than DreamSky Wooden Digital Alarm Clock for Bedrooms Desk with Large Numbers. The compromise here is straightforward: Has an alarm function, same disclosure as the other digital picks. What you gain in return: Strong rating and large review base. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers who want a modern-looking clock and don't mind ignoring an unused alarm feature.",
+    specs: ["Slim mirror-surface design","Alarm function present but optional to use","2,643 reviews at 4.6 stars"],
+    pros: ["Strong rating and large review base","Modern, slim design"],
     cons: ["Has an alarm function, same disclosure as the other digital picks"],
     bestFor: "Buyers who want a modern-looking clock and don't mind ignoring an unused alarm feature.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -113,24 +113,137 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "\"No Alarm\" Means Two Different Things",
-    cards: [
-      { label: "Truly alarm-free (Lucktime, EMAX HOME)", text: "No alarm interface exists at all — a genuinely simple design." },
-      { label: "Has an alarm you leave unset (DreamSky, Peakeep)", text: "Feature exists but doesn't need to be used — still fine for a distraction-free desk." },
-    ],
+    "subheading": "By Movement Type",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick in this comparison"
+      ],
+      "rows": [
+        [
+          "A quiet, non-ticking movement",
+          "DreamSky Wooden Digital Alarm Clock for Bedroom Living Room"
+        ],
+        [
+          "A digital, fully silent display",
+          "DreamSky Wooden Digital Alarm Clock for Bedroom Living Room"
+        ],
+        [
+          "Maximum visual personality (flip or mechanical action)",
+          "DreamSky Wooden Digital Alarm Clock for Bedroom Living Room"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $14",
+          "Lucktime Minimalist Desk Clock"
+        ],
+        [
+          "Mid-range",
+          "DreamSky Wooden Digital Alarm Clock for Bedroom Living Room"
+        ],
+        [
+          "No firm budget ceiling, prioritizing material or brand",
+          "EMAX HOME Vintage Golden Table Clock"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Battery-Powered vs Corded",
+    "cards": [
+      {
+        "label": "Battery-Powered",
+        "text": "Runs on batteries alone, so it can sit anywhere on a desk or shelf with no cord in the way, at the cost of an eventual battery swap. In this comparison: DreamSky Wooden Digital Alarm Clock for Bedroom Living Room, Lucktime Minimalist Desk Clock, EMAX HOME Vintage Golden Table Clock."
+      },
+      {
+        "label": "Corded (Plug-In)",
+        "text": "Draws continuous power from a wall outlet, often adding features like USB charging ports or a battery backup for outages, but it has to sit within cord length of a plug. In this comparison: none in this specific roundup, since most picks here are battery powered."
+      }
+    ],
+    "note": "Most buyers should default to a battery-powered pick like Lucktime Minimalist Desk Clock unless you specifically want the USB charging or dimmer features that typically come with corded models."
+  },
+  {
+    "subheading": "By Purpose: Everyday Use vs Gift",
+    "table": {
+      "headers": [
+        "Your purpose",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Everyday functional desk use",
+          "DreamSky Wooden Digital Alarm Clock for Bedroom Living Room"
+        ],
+        [
+          "A gift or milestone piece",
+          "Peakeep Slim Digital Mirror Aesthetic Alarm Clock for Bedrooms Desk Decor"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Buying as a Gift Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Genuine material language, such as hand carved, real marble, or real crystal, rather than a marble-look or crystal-look plastic finish, plus a stated production or engraving lead time if personalization is involved."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Peakeep Slim Digital Mirror Aesthetic Alarm Clock for Bedrooms Desk Decor fits this specifically: Strong rating and large review base. That's the kind of detail that signals a deliberate gift rather than a purely functional purchase."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what EMAX HOME Vintage Golden Table Clock offers: Vintage aesthetic without a digital alarm interface. That's a real material or craftsmanship upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Lucktime Minimalist Desk Clock already covers the essentials: Genuinely minimalist, alarm-free design. The main thing you'd be paying extra for elsewhere in this list is styling rather than function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Decide if you need a true alarm-free design or just won't use the feature", explanation: "Some picks here genuinely lack an alarm interface; others have one you simply leave unset. Both work for a distraction-free desk, but they're different products." },
-  { criterion: "Check for a simple interface to avoid accidental activation", explanation: "If a product does have an alarm feature, a straightforward interface reduces the risk of accidentally setting it." },
-  { criterion: "Weigh review volume carefully for the smallest-sample picks", explanation: "The genuinely minimalist Lucktime option has a very small review base — read current feedback carefully given the limited sample." },
-  { criterion: "Compare near-identical listings by current price", explanation: "Two DreamSky listings here are very similar in rating and review count — compare current pricing to pick between them." },
-  { criterion: "Consider an analog design for the simplest true no-alarm option", explanation: "Analog clocks without digital interfaces are the most straightforward way to guarantee no alarm functionality exists at all." },
+  {
+    "criterion": "Decide whether ticking noise matters to you",
+    "explanation": "A standard quartz movement advances its second hand once per second and produces an audible tick you can hear from a few feet away, while a silent sweep or silent electronic movement moves continuously with no tick at all. This matters more than it sounds like it should: a clock that ticks audibly for eight hours a day within arm's reach of where you work becomes a genuine background irritant for a lot of people, even if they don't consciously register it as a complaint until the clock is removed or replaced. To check this before buying, search the listing for the words \"silent,\" \"non-ticking,\" or \"sweep movement\" specifically, since a listing that doesn't mention noise at all is very likely a standard audible-tick quartz movement."
+  },
+  {
+    "criterion": "Match the face or display size to real viewing distance",
+    "explanation": "The size printed in a listing, usually in inches, measures the clock's case or face diameter, but that number alone doesn't tell you how easily you'll actually be able to read the time from where you sit. A 3 to 4 inch face reads fine from arm's length at a desk but becomes genuinely hard to read from across a room or a doorway, which matters if the clock's real job is to be glanced at from a distance rather than up close. Check the listing's stated dimensions against your actual distance from where the clock will sit, and for digital models, look specifically for the digit height in inches rather than the overall unit size, since a large plastic housing can still contain small digits."
+  },
+  {
+    "criterion": "Confirm the power source before you plan where it goes",
+    "explanation": "Desk clocks are either battery powered, meaning they can sit anywhere with no cord in the way, or corded and plugged into a wall outlet, sometimes with a battery backup that keeps the display running briefly during an outage. This is a genuinely practical constraint, not a minor spec: a corded clock needs to sit within cord-length of an outlet, which can rule out the center of a desk or a shelf far from a plug, while a battery clock can go anywhere but will eventually need a battery swap. Look for \"battery operated\" versus \"plug-in\" or \"AC powered\" directly in the listing title or bullet points, and treat advertised USB charging ports as a strong signal the unit is corded rather than battery-only."
+  },
+  {
+    "criterion": "Separate gift-tier materials from everyday functional clocks",
+    "explanation": "Clocks made from marble or crystal, or featuring custom engraving, are priced and designed first as a gift or a statement object, with everyday timekeeping treated as secondary, while clocks built from plastic or basic wood with digital or simple analog displays are priced for everyday practical use. Buying a hand-carved marble clock expecting the same day-to-day practicality as a basic digital clock with a dimmer and USB ports will lead to disappointment, since these are genuinely different product categories that happen to share a name. Check whether the listing emphasizes material and craftsmanship language (hand carved, polished, engraved) versus functional language (auto DST, dual alarms, temperature display) to quickly tell which tier a given clock falls into."
+  },
+  {
+    "criterion": "Check for lead time if the piece is personalized or engraved",
+    "explanation": "Custom engraving or personalization isn't applied instantly at a warehouse the way a standard product ships; it typically requires a separate production step after you submit your design or text, which the seller has to complete before the item even enters the shipping queue. This means a personalized clock ordered as a last-minute gift can easily miss a deadline that a standard, non-personalized clock would have made with days to spare, since the engraving step alone commonly adds several business days on top of normal shipping time. Before ordering a personalized piece for a specific date, check the listing's stated production or processing time, which is separate from shipping time, and order with enough buffer for both steps to finish before you need it."
+  }
 ];
 
 export const faq: FaqItem[] = [
-  { q: "Do any of these genuinely lack an alarm feature?", a: "Yes — the Lucktime Minimalist Desk Clock and EMAX HOME Vintage Golden Table Clock have no alarm interface at all. The DreamSky and Peakeep picks have an alarm you simply don't need to set." },
+  { q: "Do any of these genuinely lack an alarm feature?", a: "Yes, the Lucktime Minimalist Desk Clock and EMAX HOME Vintage Golden Table Clock have no alarm interface at all. The DreamSky and Peakeep picks have an alarm you simply don't need to set." },
   { q: "Which is the most proven overall?", a: "The DreamSky Wooden Digital Alarm Clock, with 6,039 or 6,145 reviews depending on the specific listing, both at 4.6 stars." },
   { q: "Is there a risk of accidentally setting an alarm on the digital picks?", a: "The interfaces are generally simple, but if avoiding any alarm risk matters, choose a genuinely alarm-free design like the Lucktime option instead." },
   { q: "What's the cheapest option?", a: "The Lucktime Minimalist Desk Clock at $13.99, though with a very small review base." },

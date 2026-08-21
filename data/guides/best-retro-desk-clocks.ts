@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41yZW1xjgmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CRBJJ6W4?tag=deskfinds0d-20",
-    description:
-      "This flip clock pairs a walnut wood base with a black flip display and a silent electronic movement, giving it a more furniture-grade retro presence than a plain plastic flip clock. The wood base specifically nods to the mid-century desk accessory look this style is going for.\n\nBecause it uses a silent electronic movement, it delivers the retro flip-card visual without the mechanical click some buyers find distracting, a genuinely different tradeoff than the more mechanical picks below. It leads this list for combining strong retro styling with quiet operation.",
-    specs: ["Walnut wood base", "Silent electronic movement", "Black flip display", "Desk placement"],
-    pros: ["Wood base adds genuine mid-century desk presence", "Silent movement, no mechanical click", "Distinct styling from plainer flip clocks", "Strong standalone desk statement"],
-    cons: ["Higher price than basic flip clocks", "Not a fully mechanical gear-flip movement", "Verify current review data on the listing"],
+    description: "This flip clock pairs a walnut wood base with a black flip display and a silent electronic movement, giving it a more furniture-grade retro presence than a plain plastic flip clock. The wood base specifically nods to the mid-century desk accessory look this style is going for.\n\nIt earns the top spot in this comparison over KENJIEY Flip Clock for one main reason. Wood base adds genuine mid-century desk presence. On price, it's actually priced above KENJIEY Flip Clock, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers wanting the strongest retro visual statement without mechanical click noise.",
+    specs: ["Walnut wood base","Silent electronic movement","Black flip display","Desk placement"],
+    pros: ["Wood base adds genuine mid-century desk presence","Silent movement, no mechanical click","Distinct styling from plainer flip clocks","Strong standalone desk statement"],
+    cons: ["Higher price than basic flip clocks","Not a fully mechanical gear-flip movement","Verify current review data on the listing"],
     bestFor: "Buyers wanting the strongest retro visual statement without mechanical click noise.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVLL412Y?tag=deskfinds0d-20",
-    description:
-      "This is the most classically mechanical of the retro picks here, using a genuine internal gear system to physically flip each number card, the same fundamental action that defined the original flip-clock era. The white finish is a lighter, more airport-departure-board-adjacent look than the darker options nearby.\n\nExpect a real audible click on each flip, part of the authentic retro package rather than a flaw, and a battery-powered design that keeps placement flexible around a desk or shelf.",
-    specs: ["Auto internal gear flip mechanism", "White finish", "Battery powered", "Classic flip-card action"],
-    pros: ["Most mechanically authentic flip action in this pool", "Lighter finish for a different retro palette", "Battery powered flexibility", "Strong desk or shelf centerpiece"],
-    cons: ["Audible click on every flip", "Larger footprint needs more desk space", "Verify current review data on the listing"],
+    description: "This is the most classically mechanical of the retro picks here, using a genuine internal gear system to physically flip each number card, the same fundamental action that defined the original flip-clock era. The white finish is a lighter, more airport-departure-board-adjacent look than the darker options nearby.\n\nOne spot below FOSA Flip Desk Clock in this ranking, it's priced lower than FOSA Flip Desk Clock. The compromise here is straightforward: Audible click on every flip. What you gain in return: Most mechanically authentic flip action in this pool. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers wanting the most authentically mechanical flip-card retro experience.",
+    specs: ["Auto internal gear flip mechanism","White finish","Battery powered","Classic flip-card action"],
+    pros: ["Most mechanically authentic flip action in this pool","Lighter finish for a different retro palette","Battery powered flexibility","Strong desk or shelf centerpiece"],
+    cons: ["Audible click on every flip","Larger footprint needs more desk space","Verify current review data on the listing"],
     bestFor: "Buyers wanting the most authentically mechanical flip-card retro experience.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41c1kZ9IKNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07PYN9YZN?tag=deskfinds0d-20",
-    description:
-      "mooas keeps this table clock compact relative to the other flip clocks here, a genuine advantage if your desk has limited real estate for a decorative retro piece. The black finish and auto-flip action deliver the throwback look without the larger footprint of the KENJIEY pick above.\n\nAs a recognized flip-clock brand, it is a safe pick for buyers who want retro styling without researching a less familiar name, and the price sits comfortably in the middle of this group.",
-    specs: ["Auto flip mechanism", "Black finish", "Compact table clock size", "Battery powered"],
-    pros: ["Most compact footprint among the flip clocks here", "Recognized flip-clock brand", "Genuine auto-flip mechanism", "Mid-range, accessible price"],
-    cons: ["Smaller size means a less dramatic visual statement", "Audible click on each flip", "Verify current review data on the listing"],
+    description: "mooas keeps this table clock compact relative to the other flip clocks here, a genuine advantage if your desk has limited real estate for a decorative retro piece. The black finish and auto-flip action deliver the throwback look without the larger footprint of the KENJIEY pick above.\n\nSitting just under KENJIEY Flip Clock, it's priced lower than KENJIEY Flip Clock. Here's the honest tradeoff: Smaller size means a less dramatic visual statement. And here's what it gets you instead: Most compact footprint among the flip clocks here. That's the real difference between the two picks, not just a ranking number.\n\nBuyers wanting genuine retro flip styling in a smaller desk footprint.",
+    specs: ["Auto flip mechanism","Black finish","Compact table clock size","Battery powered"],
+    pros: ["Most compact footprint among the flip clocks here","Recognized flip-clock brand","Genuine auto-flip mechanism","Mid-range, accessible price"],
+    cons: ["Smaller size means a less dramatic visual statement","Audible click on each flip","Verify current review data on the listing"],
     bestFor: "Buyers wanting genuine retro flip styling in a smaller desk footprint.",
   },
   {
@@ -81,13 +78,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41w5s9hs3NL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVHVDSQM?tag=deskfinds0d-20",
-    description:
-      "This flip clock delivers the same core retro flip-card mechanism as the higher-ranked picks at a more accessible price point, a reasonable entry point if you want to try the look before investing in a wood-base or larger centerpiece model. It is explicitly marketed with retro and vintage language, matching this guide's style focus directly.\n\nExpect the same mechanical click as any gear-driven flip clock, and a straightforward home office styling that fits most desk setups without demanding much visual real estate.",
-    specs: ["Auto flip mechanism", "Internal gear operation", "Battery powered", "Home office decor styling"],
-    pros: ["Accessible price for genuine flip-clock styling", "Explicitly retro and vintage marketed", "Battery powered for flexible placement", "Straightforward desk fit"],
-    cons: ["Audible click on each flip", "Less established brand than mooas or KENJIEY", "Verify current price and review data on the listing"],
+    description: "This flip clock delivers the same core retro flip-card mechanism as the higher-ranked picks at a more accessible price point, a reasonable entry point if you want to try the look before investing in a wood-base or larger centerpiece model. It is explicitly marketed with retro and vintage language, matching this guide's style focus directly.\n\nRanked just behind mooas Flip Desk Clock (Black), pricing between it and mooas Flip Desk Clock (Black) isn't directly comparable here. The real tradeoff against that pick: Audible click on each flip. In exchange, it offers this instead: Accessible price for genuine flip-clock styling. That's the swap that decides whether this pick or the one above it is the better fit for a given buyer.\n\nBuyers wanting to try retro flip-clock styling at the lowest price in this group. Note the price wasn't listed at the time of research, so confirm current cost on Amazon before deciding.",
+    specs: ["Auto flip mechanism","Internal gear operation","Battery powered","Home office decor styling"],
+    pros: ["Accessible price for genuine flip-clock styling","Explicitly retro and vintage marketed","Battery powered for flexible placement","Straightforward desk fit"],
+    cons: ["Audible click on each flip","Less established brand than mooas or KENJIEY","Verify current price and review data on the listing"],
     bestFor: "Buyers wanting to try retro flip-clock styling at the lowest price in this group.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -101,35 +97,133 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Retro vs Vintage, in Plain Terms",
-    note: "Retro here means a deliberate throwback design statement, the chunky flip-card look itself as the point. Vintage, covered in our separate guide, leans more toward an aged, mechanical feel. The underlying products overlap because inventory is limited, but the framing and top picks differ.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Strongest retro look with silent operation", "FOSA Flip Desk Clock with Wood Base"],
-        ["Most authentic mechanical flip action", "KENJIEY Flip Clock White"],
-        ["Compact desk footprint", "mooas Flip Desk Clock"],
-        ["Lowest price entry point", "Wkevnu Vintage Flip Clock"],
+    "subheading": "By Movement Type",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "A quiet, non-ticking movement",
+          "FOSA Flip Desk Clock"
+        ],
+        [
+          "A digital, fully silent display",
+          "KENJIEY Flip Clock"
+        ],
+        [
+          "Maximum visual personality (flip or mechanical action)",
+          "FOSA Flip Desk Clock"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Space Check Before You Buy",
-    cards: [
-      { label: "Tight desk corner", text: "The mooas compact table clock fits without dominating the space." },
-      { label: "Dedicated centerpiece spot", text: "The larger KENJIEY or FOSA clocks make more visual impact." },
-    ],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $40",
+          "mooas Flip Desk Clock (Black)"
+        ],
+        [
+          "Mid-range",
+          "KENJIEY Flip Clock"
+        ],
+        [
+          "No firm budget ceiling, prioritizing material or brand",
+          "FOSA Flip Desk Clock"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Battery-Powered vs Corded",
+    "cards": [
+      {
+        "label": "Battery-Powered",
+        "text": "Runs on batteries alone, so it can sit anywhere on a desk or shelf with no cord in the way, at the cost of an eventual battery swap. In this comparison: FOSA Flip Desk Clock, KENJIEY Flip Clock, mooas Flip Desk Clock (Black)."
+      },
+      {
+        "label": "Corded (Plug-In)",
+        "text": "Draws continuous power from a wall outlet, often adding features like USB charging ports or a battery backup for outages, but it has to sit within cord length of a plug. In this comparison: none in this specific roundup, since most picks here are battery powered."
+      }
+    ],
+    "note": "Most buyers should default to a battery-powered pick like mooas Flip Desk Clock (Black) unless you specifically want the USB charging or dimmer features that typically come with corded models."
+  },
+  {
+    "subheading": "By Purpose: Everyday Use vs Gift",
+    "table": {
+      "headers": [
+        "Your purpose",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Everyday functional desk use",
+          "FOSA Flip Desk Clock"
+        ],
+        [
+          "A gift or milestone piece",
+          "Wkevnu Vintage Flip Clock"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Buying as a Gift Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Genuine material language, such as hand carved, real marble, or real crystal, rather than a marble-look or crystal-look plastic finish, plus a stated production or engraving lead time if personalization is involved."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Wkevnu Vintage Flip Clock fits this specifically: Accessible price for genuine flip-clock styling. That's the kind of detail that signals a deliberate gift rather than a purely functional purchase."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what FOSA Flip Desk Clock offers: Wood base adds genuine mid-century desk presence. That's a real material or craftsmanship upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "mooas Flip Desk Clock (Black) already covers the essentials: Most compact footprint among the flip clocks here. The main thing you'd be paying extra for elsewhere in this list is styling rather than function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Decide if retro means the look or the mechanism to you", explanation: "All picks here have a genuine flip mechanism, but if the visual statement matters more than the mechanical action, prioritize finish and size over movement type." },
-  { criterion: "Measure your desk space before choosing a larger centerpiece clock", explanation: "The KENJIEY and FOSA picks are noticeably larger than the compact mooas option, confirm you have the desk real estate before buying the bigger statement piece." },
-  { criterion: "Silent electronic movement exists if click noise bothers you", explanation: "The FOSA pick uses a silent electronic movement rather than a purely mechanical gear flip, worth choosing if you want the retro look without audible clicking." },
-  { criterion: "Compare this guide against our vintage desk clocks guide", explanation: "The two guides share an overlapping product pool with different framing and top picks, read both before deciding which angle matches your taste." },
+  {
+    "criterion": "Decide whether ticking noise matters to you",
+    "explanation": "A standard quartz movement advances its second hand once per second and produces an audible tick you can hear from a few feet away, while a silent sweep or silent electronic movement moves continuously with no tick at all. This matters more than it sounds like it should: a clock that ticks audibly for eight hours a day within arm's reach of where you work becomes a genuine background irritant for a lot of people, even if they don't consciously register it as a complaint until the clock is removed or replaced. To check this before buying, search the listing for the words \"silent,\" \"non-ticking,\" or \"sweep movement\" specifically, since a listing that doesn't mention noise at all is very likely a standard audible-tick quartz movement."
+  },
+  {
+    "criterion": "Match the face or display size to real viewing distance",
+    "explanation": "The size printed in a listing, usually in inches, measures the clock's case or face diameter, but that number alone doesn't tell you how easily you'll actually be able to read the time from where you sit. A 3 to 4 inch face reads fine from arm's length at a desk but becomes genuinely hard to read from across a room or a doorway, which matters if the clock's real job is to be glanced at from a distance rather than up close. Check the listing's stated dimensions against your actual distance from where the clock will sit, and for digital models, look specifically for the digit height in inches rather than the overall unit size, since a large plastic housing can still contain small digits."
+  },
+  {
+    "criterion": "Confirm the power source before you plan where it goes",
+    "explanation": "Desk clocks are either battery powered, meaning they can sit anywhere with no cord in the way, or corded and plugged into a wall outlet, sometimes with a battery backup that keeps the display running briefly during an outage. This is a genuinely practical constraint, not a minor spec: a corded clock needs to sit within cord-length of an outlet, which can rule out the center of a desk or a shelf far from a plug, while a battery clock can go anywhere but will eventually need a battery swap. Look for \"battery operated\" versus \"plug-in\" or \"AC powered\" directly in the listing title or bullet points, and treat advertised USB charging ports as a strong signal the unit is corded rather than battery-only."
+  },
+  {
+    "criterion": "Separate gift-tier materials from everyday functional clocks",
+    "explanation": "Clocks made from marble or crystal, or featuring custom engraving, are priced and designed first as a gift or a statement object, with everyday timekeeping treated as secondary, while clocks built from plastic or basic wood with digital or simple analog displays are priced for everyday practical use. Buying a hand-carved marble clock expecting the same day-to-day practicality as a basic digital clock with a dimmer and USB ports will lead to disappointment, since these are genuinely different product categories that happen to share a name. Check whether the listing emphasizes material and craftsmanship language (hand carved, polished, engraved) versus functional language (auto DST, dual alarms, temperature display) to quickly tell which tier a given clock falls into."
+  },
+  {
+    "criterion": "Check for lead time if the piece is personalized or engraved",
+    "explanation": "Custom engraving or personalization isn't applied instantly at a warehouse the way a standard product ships; it typically requires a separate production step after you submit your design or text, which the seller has to complete before the item even enters the shipping queue. This means a personalized clock ordered as a last-minute gift can easily miss a deadline that a standard, non-personalized clock would have made with days to spare, since the engraving step alone commonly adds several business days on top of normal shipping time. Before ordering a personalized piece for a specific date, check the listing's stated production or processing time, which is separate from shipping time, and order with enough buffer for both steps to finish before you need it."
+  }
 ];
 
 export const faq: FaqItem[] = [

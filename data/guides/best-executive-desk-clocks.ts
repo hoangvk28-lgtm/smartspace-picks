@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41-tdoWEyKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07V7CQ62G?tag=deskfinds0d-20",
-    description:
-      "This clock is explicitly branded and sold through Executive Gift Shoppe, based on the listing, with glass construction and silver finish accents plus a custom engraving option, a genuine fit for retirement gifts, promotions, or executive recognition.\n\nThe personalization option is the real differentiator here versus a plain desk clock, appropriate when the occasion calls for a named or dated inscription rather than a generic office accessory.",
-    specs: ["Glass table clock construction", "Silver finish accents", "Custom engraving option", "Executive gift branding"],
-    pros: ["Genuine custom engraving option for personalization", "Premium glass and silver finish construction", "Explicitly marketed for executive gifting occasions", "Established gift-focused brand"],
-    cons: ["Higher price reflecting personalization service", "Engraving typically extends order lead time", "Verify current review data on the listing"],
+    description: "This clock is explicitly branded and sold through Executive Gift Shoppe, based on the listing, with glass construction and silver finish accents plus a custom engraving option, a genuine fit for retirement gifts, promotions, or executive recognition.\n\nIt earns the top spot in this comparison over Executive Gift Shoppe | Arched Personalized Mahogany Desktop Alarm Clock with Custom Engraving for one main reason. Genuine custom engraving option for personalization. On price, it's actually priced above Executive Gift Shoppe | Arched Personalized Mahogany Desktop Alarm Clock with Custom Engraving, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers purchasing a personalized executive gift for a promotion or milestone.",
+    specs: ["Glass table clock construction","Silver finish accents","Custom engraving option","Executive gift branding"],
+    pros: ["Genuine custom engraving option for personalization","Premium glass and silver finish construction","Explicitly marketed for executive gifting occasions","Established gift-focused brand"],
+    cons: ["Higher price reflecting personalization service","Engraving typically extends order lead time","Verify current review data on the listing"],
     bestFor: "Buyers purchasing a personalized executive gift for a promotion or milestone.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41jQ2lAQT5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B086VQSCQN?tag=deskfinds0d-20",
-    description:
-      "Also from Executive Gift Shoppe, this pick uses a mahogany finish and an arched shape for a warmer, more traditional executive look than the glass and silver alternative, based on the listing. Custom engraving is available here too.\n\nAt a lower price than the glass version, this is a strong choice if a wood-toned traditional office aesthetic fits your recipient or your own desk better than a modern glass design.",
-    specs: ["Mahogany wood finish", "Arched desktop clock shape", "Custom engraving option", "Executive gift branding"],
-    pros: ["Warm mahogany finish suits a traditional office look", "Custom engraving option for personalization", "Lower price than the glass alternative", "Established gift-focused brand"],
-    cons: ["Wood finish may not suit a more modern desk aesthetic", "Engraving typically extends order lead time", "Verify current review data on the listing"],
+    description: "Also from Executive Gift Shoppe, this pick uses a mahogany finish and an arched shape for a warmer, more traditional executive look than the glass and silver alternative, based on the listing. Custom engraving is available here too.\n\nOne spot below Executive Gift Shoppe | Personalized Glass Table Clock with Silver Finish Accents and Custom Engraving in this ranking, it's priced lower than Executive Gift Shoppe | Personalized Glass Table Clock with Silver Finish Accents and Custom Engraving. The compromise here is straightforward: Wood finish may not suit a more modern desk aesthetic. What you gain in return: Warm mahogany finish suits a traditional office look. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers wanting a traditional wood-finish executive clock, with or without engraving.",
+    specs: ["Mahogany wood finish","Arched desktop clock shape","Custom engraving option","Executive gift branding"],
+    pros: ["Warm mahogany finish suits a traditional office look","Custom engraving option for personalization","Lower price than the glass alternative","Established gift-focused brand"],
+    cons: ["Wood finish may not suit a more modern desk aesthetic","Engraving typically extends order lead time","Verify current review data on the listing"],
     bestFor: "Buyers wanting a traditional wood-finish executive clock, with or without engraving.",
   },
   {
@@ -64,13 +62,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41i8q0Okr6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBZB3LNC?tag=deskfinds0d-20",
-    description:
-      "This clock is not branded as a gift-shop product, but its polished marble construction gives it the highest material presence of the three picks here, based on the listing, a genuine fit for an executive desk that wants weight and material quality over personalization.\n\nWithout an engraving option, this suits buyers purchasing for themselves or a recipient where a named inscription isn't the point, just a premium standalone piece.",
-    specs: ["Polished marble construction", "Premium desk clock design", "No engraving option", "Highest material presence of these three picks"],
-    pros: ["Genuine polished marble material for real desk presence", "No personalization needed, ready to use as-is", "Distinctive from wood or glass alternatives", "Real weight and material quality"],
-    cons: ["No custom engraving option", "Highest price of the three picks", "Verify current review data on the listing"],
+    description: "This clock is not branded as a gift-shop product, but its polished marble construction gives it the highest material presence of the three picks here, based on the listing, a genuine fit for an executive desk that wants weight and material quality over personalization.\n\nSitting just under Executive Gift Shoppe | Arched Personalized Mahogany Desktop Alarm Clock with Custom Engraving, it costs more than Executive Gift Shoppe | Arched Personalized Mahogany Desktop Alarm Clock with Custom Engraving. Here's the honest tradeoff: No custom engraving option. And here's what it gets you instead: Genuine polished marble material for real desk presence. That's the real difference between the two picks, not just a ranking number.\n\nBuyers wanting maximum material presence without needing personalization.",
+    specs: ["Polished marble construction","Premium desk clock design","No engraving option","Highest material presence of these three picks"],
+    pros: ["Genuine polished marble material for real desk presence","No personalization needed, ready to use as-is","Distinctive from wood or glass alternatives","Real weight and material quality"],
+    cons: ["No custom engraving option","Highest price of the three picks","Verify current review data on the listing"],
     bestFor: "Buyers wanting maximum material presence without needing personalization.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -84,35 +81,133 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Decide If This Is a Gift or a Personal Desk Purchase",
-    cards: [
-      { label: "Buying for a promotion or retirement gift", text: "Either Executive Gift Shoppe pick offers custom engraving built for that occasion." },
-      { label: "Buying for your own desk", text: "The marble clock offers the most material presence without needing personalization." },
-      { label: "Want a traditional office look", text: "The mahogany pick's warm wood finish suits a classic executive aesthetic." },
-    ],
-  },
-  {
-    subheading: "Engraving Lead Time Is a Real Planning Factor",
-    note: "Both Executive Gift Shoppe picks offer custom engraving, which typically extends the order and shipping timeline beyond a standard clock purchase. If you're buying for a specific date like a retirement party, order with enough lead time to account for the personalization step.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Modern glass look with engraving", "Executive Gift Shoppe Personalized Glass Table Clock"],
-        ["Traditional wood look with engraving", "Executive Gift Shoppe Mahogany Desktop Alarm Clock"],
-        ["Maximum material presence, no engraving needed", "Luxurious Marble Desk Clock"],
+    "subheading": "By Movement Type",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "A quiet, non-ticking movement",
+          "Executive Gift Shoppe | Personalized Glass Table Clock with Silver Finish Accents and Custom Engraving"
+        ],
+        [
+          "A digital, fully silent display",
+          "Executive Gift Shoppe | Arched Personalized Mahogany Desktop Alarm Clock with Custom Engraving"
+        ],
+        [
+          "Maximum visual personality (flip or mechanical action)",
+          "Executive Gift Shoppe | Personalized Glass Table Clock with Silver Finish Accents and Custom Engraving"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $54",
+          "Executive Gift Shoppe | Arched Personalized Mahogany Desktop Alarm Clock with Custom Engraving"
+        ],
+        [
+          "Mid-range",
+          "Executive Gift Shoppe | Personalized Glass Table Clock with Silver Finish Accents and Custom Engraving"
+        ],
+        [
+          "No firm budget ceiling, prioritizing material or brand",
+          "Luxurious Marble Desk Clock"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Battery-Powered vs Corded",
+    "cards": [
+      {
+        "label": "Battery-Powered",
+        "text": "Runs on batteries alone, so it can sit anywhere on a desk or shelf with no cord in the way, at the cost of an eventual battery swap. In this comparison: Executive Gift Shoppe | Personalized Glass Table Clock with Silver Finish Accents and Custom Engraving, Executive Gift Shoppe | Arched Personalized Mahogany Desktop Alarm Clock with Custom Engraving, Luxurious Marble Desk Clock."
+      },
+      {
+        "label": "Corded (Plug-In)",
+        "text": "Draws continuous power from a wall outlet, often adding features like USB charging ports or a battery backup for outages, but it has to sit within cord length of a plug. In this comparison: none in this specific roundup, since most picks here are battery powered."
+      }
+    ],
+    "note": "Most buyers should default to a battery-powered pick like Executive Gift Shoppe | Arched Personalized Mahogany Desktop Alarm Clock with Custom Engraving unless you specifically want the USB charging or dimmer features that typically come with corded models."
+  },
+  {
+    "subheading": "By Purpose: Everyday Use vs Gift",
+    "table": {
+      "headers": [
+        "Your purpose",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Everyday functional desk use",
+          "Executive Gift Shoppe | Personalized Glass Table Clock with Silver Finish Accents and Custom Engraving"
+        ],
+        [
+          "A gift or milestone piece",
+          "Executive Gift Shoppe | Personalized Glass Table Clock with Silver Finish Accents and Custom Engraving"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Buying as a Gift Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Genuine material language, such as hand carved, real marble, or real crystal, rather than a marble-look or crystal-look plastic finish, plus a stated production or engraving lead time if personalization is involved."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Executive Gift Shoppe | Personalized Glass Table Clock with Silver Finish Accents and Custom Engraving fits this specifically: Genuine custom engraving option for personalization. That's the kind of detail that signals a deliberate gift rather than a purely functional purchase."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Luxurious Marble Desk Clock offers: Genuine polished marble material for real desk presence. That's a real material or craftsmanship upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Executive Gift Shoppe | Arched Personalized Mahogany Desktop Alarm Clock with Custom Engraving already covers the essentials: Warm mahogany finish suits a traditional office look. The main thing you'd be paying extra for elsewhere in this list is styling rather than function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Order engraved clocks well ahead of the occasion", explanation: "Custom engraving typically adds processing time beyond standard shipping. Order at least a couple of weeks ahead of a retirement, promotion, or gifting deadline to be safe." },
-  { criterion: "Match material and finish to the recipient's actual office style", explanation: "A modern glass and silver piece and a traditional mahogany piece suit very different office aesthetics. Consider the recipient's existing desk setup before choosing." },
-  { criterion: "Don't expect digital features on an executive clock", explanation: "These picks prioritize material and presentation over temperature, date, or alarm functions common on budget digital clocks. If you want both premium look and digital extras, that combination is rare in this category." },
-  { criterion: "Weigh price against the occasion's significance", explanation: "A higher priced piece like the marble clock or engraved glass clock makes more sense for a milestone gift than an everyday personal desk purchase." },
+  {
+    "criterion": "Decide whether ticking noise matters to you",
+    "explanation": "A standard quartz movement advances its second hand once per second and produces an audible tick you can hear from a few feet away, while a silent sweep or silent electronic movement moves continuously with no tick at all. This matters more than it sounds like it should: a clock that ticks audibly for eight hours a day within arm's reach of where you work becomes a genuine background irritant for a lot of people, even if they don't consciously register it as a complaint until the clock is removed or replaced. To check this before buying, search the listing for the words \"silent,\" \"non-ticking,\" or \"sweep movement\" specifically, since a listing that doesn't mention noise at all is very likely a standard audible-tick quartz movement."
+  },
+  {
+    "criterion": "Match the face or display size to real viewing distance",
+    "explanation": "The size printed in a listing, usually in inches, measures the clock's case or face diameter, but that number alone doesn't tell you how easily you'll actually be able to read the time from where you sit. A 3 to 4 inch face reads fine from arm's length at a desk but becomes genuinely hard to read from across a room or a doorway, which matters if the clock's real job is to be glanced at from a distance rather than up close. Check the listing's stated dimensions against your actual distance from where the clock will sit, and for digital models, look specifically for the digit height in inches rather than the overall unit size, since a large plastic housing can still contain small digits."
+  },
+  {
+    "criterion": "Confirm the power source before you plan where it goes",
+    "explanation": "Desk clocks are either battery powered, meaning they can sit anywhere with no cord in the way, or corded and plugged into a wall outlet, sometimes with a battery backup that keeps the display running briefly during an outage. This is a genuinely practical constraint, not a minor spec: a corded clock needs to sit within cord-length of an outlet, which can rule out the center of a desk or a shelf far from a plug, while a battery clock can go anywhere but will eventually need a battery swap. Look for \"battery operated\" versus \"plug-in\" or \"AC powered\" directly in the listing title or bullet points, and treat advertised USB charging ports as a strong signal the unit is corded rather than battery-only."
+  },
+  {
+    "criterion": "Separate gift-tier materials from everyday functional clocks",
+    "explanation": "Clocks made from marble or crystal, or featuring custom engraving, are priced and designed first as a gift or a statement object, with everyday timekeeping treated as secondary, while clocks built from plastic or basic wood with digital or simple analog displays are priced for everyday practical use. Buying a hand-carved marble clock expecting the same day-to-day practicality as a basic digital clock with a dimmer and USB ports will lead to disappointment, since these are genuinely different product categories that happen to share a name. Check whether the listing emphasizes material and craftsmanship language (hand carved, polished, engraved) versus functional language (auto DST, dual alarms, temperature display) to quickly tell which tier a given clock falls into."
+  },
+  {
+    "criterion": "Check for lead time if the piece is personalized or engraved",
+    "explanation": "Custom engraving or personalization isn't applied instantly at a warehouse the way a standard product ships; it typically requires a separate production step after you submit your design or text, which the seller has to complete before the item even enters the shipping queue. This means a personalized clock ordered as a last-minute gift can easily miss a deadline that a standard, non-personalized clock would have made with days to spare, since the engraving step alone commonly adds several business days on top of normal shipping time. Before ordering a personalized piece for a specific date, check the listing's stated production or processing time, which is separate from shipping time, and order with enough buffer for both steps to finish before you need it."
+  }
 ];
 
 export const faq: FaqItem[] = [

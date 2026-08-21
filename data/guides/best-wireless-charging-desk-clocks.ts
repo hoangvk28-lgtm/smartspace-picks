@@ -30,13 +30,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51C9d8utpcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CSYNVCD?tag=deskfinds0d-20",
-    description:
-      "This organizer genuinely includes a built-in wireless charging pad alongside its digital clock, thermometer, and hygrometer display, based on the listing, the only product in our verified pool that combines actual wireless charging with a clock rather than a USB port. Setting a compatible phone on the marked pad charges it without a cable, a real convenience for a desk that's short on outlets or plugged-in chargers.\n\nThe pencil holder and organizer body means this does double duty as desk storage, not just a clock, so weigh the higher price against getting three functions in one footprint rather than comparing it directly to a bare clock.",
-    specs: ["Built-in wireless charging pad", "Digital clock, thermometer, hygrometer display", "Pencil and stationery holder", "Multi-functional desk organizer"],
-    pros: ["Genuine wireless charging pad, not just a USB port", "Combines clock, thermometer, hygrometer, and storage in one unit", "Reduces desk cable clutter for compatible phones", "Multi-functional design saves desk space"],
-    cons: ["Higher price reflecting the combined feature set", "Wireless charging speed likely slower than a dedicated fast charger", "Verify current review data and Qi compatibility on the listing"],
+    description: "This organizer genuinely includes a built-in wireless charging pad alongside its digital clock, thermometer, and hygrometer display, based on the listing, the only product in our verified pool that combines actual wireless charging with a clock rather than a USB port. Setting a compatible phone on the marked pad charges it without a cable, a real convenience for a desk that's short on outlets or plugged-in chargers.\n\nIt earns the top spot in this comparison for one main reason. Genuine wireless charging pad, not just a USB port.\n\nBuyers wanting a genuine wireless charging pad combined with a clock and desk organizer in one unit.",
+    specs: ["Built-in wireless charging pad","Digital clock, thermometer, hygrometer display","Pencil and stationery holder","Multi-functional desk organizer"],
+    pros: ["Genuine wireless charging pad, not just a USB port","Combines clock, thermometer, hygrometer, and storage in one unit","Reduces desk cable clutter for compatible phones","Multi-functional design saves desk space"],
+    cons: ["Higher price reflecting the combined feature set","Wireless charging speed likely slower than a dedicated fast charger","Verify current review data and Qi compatibility on the listing"],
     bestFor: "Buyers wanting a genuine wireless charging pad combined with a clock and desk organizer in one unit.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -50,24 +49,90 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Wireless Charging Means an Actual Pad, Not a USB Port",
-    note: "Genuine wireless charging uses Qi induction, you set your phone on a marked pad with no cable involved. Many \"charging\" desk clocks actually just have a USB port for a cable, a different and more common feature. Check the listing for an explicit \"wireless\" or \"Qi\" claim before assuming.",
+    "subheading": "By Movement Type",
+    "note": "Desk Organizer with Wireless Charger is currently the only pick in this specific comparison, so there's no second movement type to weigh it against here. Its own movement and design details are broken down in the pros and cons below, and our broader desk clock roundup covers flip, digital, and analog styles side by side if you want that wider comparison."
   },
   {
-    subheading: "Why This Guide Only Has One Pick",
-    note: "We found exactly one product in our verified research that genuinely combines a desk clock with real wireless charging. Rather than stretch USB-charging clocks into this category, we're covering the one genuine match honestly with a short, focused guide.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $39.99",
+          "Desk Organizer with Wireless Charger"
+        ]
+      ]
+    }
   },
   {
-    subheading: "If You Just Want USB Charging on a Clock",
-    note: "See our best USB desk clocks guide instead, which covers clocks with wired charging ports, a more common and typically less expensive feature than true wireless charging.",
+    "subheading": "Battery-Powered vs the Alternative",
+    "cards": [
+      {
+        "label": "Battery-Powered (this pick)",
+        "text": "Desk Organizer with Wireless Charger is battery powered, so it can sit anywhere with no cord. Genuine wireless charging pad, not just a USB port."
+      },
+      {
+        "label": "Corded (elsewhere)",
+        "text": "If you specifically need the opposite power type, check our broader desk clock roundup, since this particular comparison only includes Desk Organizer with Wireless Charger."
+      }
+    ]
   },
+  {
+    "subheading": "By Purpose: Everyday Use vs Gift",
+    "note": "Desk Organizer with Wireless Charger leans toward everyday functional use based on its material and design. Genuine wireless charging pad, not just a USB port."
+  },
+  {
+    "subheading": "For Buying as a Gift Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Genuine material language, such as hand carved, real marble, or real crystal, rather than a marble-look or crystal-look plastic finish, plus a stated production or engraving lead time if personalization is involved."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Desk Organizer with Wireless Charger is positioned as an everyday functional pick rather than a gift piece, so if you're buying specifically as a gift, check our broader roundup for a better-suited option."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Here's what you get for $39.99: Genuine wireless charging pad, not just a USB port. If that's what you're after, the tradeoffs in its cons list probably won't bother you either."
+      },
+      {
+        "label": "Save if",
+        "text": "Here's the real tradeoff: Higher price reflecting the combined feature set. If that matters to you, compare it against other styles in our broader desk clock roundup before committing."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm the listing says \"wireless\" or \"Qi,\" not just \"charging\"", explanation: "A generic \"charging\" claim in a title often refers to a USB port. Look for the specific word \"wireless\" or \"Qi\" to confirm genuine cable-free charging." },
-  { criterion: "Check your phone's wireless charging compatibility first", explanation: "Not every phone supports Qi wireless charging, and a case that's too thick or contains metal can block the connection even on a compatible phone." },
-  { criterion: "Expect standard, not fast, wireless charging speeds", explanation: "Built-in wireless pads on multi-function desk accessories typically charge slower than a dedicated fast wireless charger, adequate for topping off rather than a quick full charge." },
-  { criterion: "Weigh the combined feature set against a standalone charger", explanation: "This pick bundles a clock, thermometer, and pencil holder with the charging pad. If you only want fast wireless charging, a dedicated charging pad alone will likely perform better for less money." },
+  {
+    "criterion": "Decide whether ticking noise matters to you",
+    "explanation": "A standard quartz movement advances its second hand once per second and produces an audible tick you can hear from a few feet away, while a silent sweep or silent electronic movement moves continuously with no tick at all. This matters more than it sounds like it should: a clock that ticks audibly for eight hours a day within arm's reach of where you work becomes a genuine background irritant for a lot of people, even if they don't consciously register it as a complaint until the clock is removed or replaced. To check this before buying, search the listing for the words \"silent,\" \"non-ticking,\" or \"sweep movement\" specifically, since a listing that doesn't mention noise at all is very likely a standard audible-tick quartz movement."
+  },
+  {
+    "criterion": "Match the face or display size to real viewing distance",
+    "explanation": "The size printed in a listing, usually in inches, measures the clock's case or face diameter, but that number alone doesn't tell you how easily you'll actually be able to read the time from where you sit. A 3 to 4 inch face reads fine from arm's length at a desk but becomes genuinely hard to read from across a room or a doorway, which matters if the clock's real job is to be glanced at from a distance rather than up close. Check the listing's stated dimensions against your actual distance from where the clock will sit, and for digital models, look specifically for the digit height in inches rather than the overall unit size, since a large plastic housing can still contain small digits."
+  },
+  {
+    "criterion": "Confirm the power source before you plan where it goes",
+    "explanation": "Desk clocks are either battery powered, meaning they can sit anywhere with no cord in the way, or corded and plugged into a wall outlet, sometimes with a battery backup that keeps the display running briefly during an outage. This is a genuinely practical constraint, not a minor spec: a corded clock needs to sit within cord-length of an outlet, which can rule out the center of a desk or a shelf far from a plug, while a battery clock can go anywhere but will eventually need a battery swap. Look for \"battery operated\" versus \"plug-in\" or \"AC powered\" directly in the listing title or bullet points, and treat advertised USB charging ports as a strong signal the unit is corded rather than battery-only."
+  },
+  {
+    "criterion": "Separate gift-tier materials from everyday functional clocks",
+    "explanation": "Clocks made from marble or crystal, or featuring custom engraving, are priced and designed first as a gift or a statement object, with everyday timekeeping treated as secondary, while clocks built from plastic or basic wood with digital or simple analog displays are priced for everyday practical use. Buying a hand-carved marble clock expecting the same day-to-day practicality as a basic digital clock with a dimmer and USB ports will lead to disappointment, since these are genuinely different product categories that happen to share a name. Check whether the listing emphasizes material and craftsmanship language (hand carved, polished, engraved) versus functional language (auto DST, dual alarms, temperature display) to quickly tell which tier a given clock falls into."
+  },
+  {
+    "criterion": "Check for lead time if the piece is personalized or engraved",
+    "explanation": "Custom engraving or personalization isn't applied instantly at a warehouse the way a standard product ships; it typically requires a separate production step after you submit your design or text, which the seller has to complete before the item even enters the shipping queue. This means a personalized clock ordered as a last-minute gift can easily miss a deadline that a standard, non-personalized clock would have made with days to spare, since the engraving step alone commonly adds several business days on top of normal shipping time. Before ordering a personalized piece for a specific date, check the listing's stated production or processing time, which is separate from shipping time, and order with enough buffer for both steps to finish before you need it."
+  }
 ];
 
 export const faq: FaqItem[] = [

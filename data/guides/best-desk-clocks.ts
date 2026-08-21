@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVLL412Y?tag=deskfinds0d-20",
-    description:
-      "This flip clock uses an internal gear system that physically flips each number card on the hour and minute, a genuinely different visual experience than a digital display or analog hands. It runs on batteries rather than needing a wall outlet, so placement is flexible on any desk or shelf.\n\nThe white finish keeps it neutral enough for a home office or bedroom, and the auto-flip mechanism means no manual setting once the time is correct. It stands out in a crowded desk clock category because it earns attention without needing a screen.",
-    specs: ["Auto internal gear flip mechanism", "Battery powered", "White finish", "Desk or shelf placement"],
-    pros: ["Genuinely mechanical-feeling flip action", "Battery powered, no outlet needed", "Neutral white styling fits most rooms", "Strong visual centerpiece for a desk"],
-    cons: ["Flip mechanism has some audible click each minute", "Not a true wind-up mechanical movement", "Verify current review data on the listing"],
+    description: "This flip clock uses an internal gear system that physically flips each number card on the hour and minute, a genuinely different visual experience than a digital display or analog hands. It runs on batteries rather than needing a wall outlet, so placement is flexible on any desk or shelf.\n\nIt earns the top spot in this comparison over WallarGe Auto Set Digital Wall Clock Battery Operated for one main reason. Genuinely mechanical-feeling flip action. On price, it's actually priced above WallarGe Auto Set Digital Wall Clock Battery Operated, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers wanting a genuinely eye-catching desk clock with real moving parts, not just a screen.",
+    specs: ["Auto internal gear flip mechanism","Battery powered","White finish","Desk or shelf placement"],
+    pros: ["Genuinely mechanical-feeling flip action","Battery powered, no outlet needed","Neutral white styling fits most rooms","Strong visual centerpiece for a desk"],
+    cons: ["Flip mechanism has some audible click each minute","Not a true wind-up mechanical movement","Verify current review data on the listing"],
     bestFor: "Buyers wanting a genuinely eye-catching desk clock with real moving parts, not just a screen.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41Ato69SCVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B082M8T5SD?tag=deskfinds0d-20",
-    description:
-      "This digital clock displays temperature and humidity alongside the time and date, and it auto-adjusts for daylight saving time so you never have to manually reset it twice a year. It runs on battery power, which keeps it flexible for desk or wall placement without a cord in the way.\n\nThe larger digital numerals are easier to read at a glance from across a room than a small analog face, a real advantage for a home office desk. It is priced well below the marble and personalized options in this list, making it a practical everyday pick.",
-    specs: ["Digital time, date, temperature, humidity", "Auto DST adjustment", "Battery operated", "Desk or wall mount"],
-    pros: ["Auto DST removes a recurring manual task", "Large readable digital display", "Temperature and humidity readout is a genuine extra", "Affordable relative to other styles here"],
-    cons: ["Less decorative than flip or marble styles", "Digital display lacks the visual warmth of analog", "Verify current review data on the listing"],
+    description: "This digital clock displays temperature and humidity alongside the time and date, and it auto-adjusts for daylight saving time so you never have to manually reset it twice a year. It runs on battery power, which keeps it flexible for desk or wall placement without a cord in the way.\n\nOne spot below KENJIEY Flip Clock in this ranking, it's priced lower than KENJIEY Flip Clock. The compromise here is straightforward: Less decorative than flip or marble styles. What you gain in return: Auto DST removes a recurring manual task. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers who want maximum practical information at a glance without decorative fuss.",
+    specs: ["Digital time, date, temperature, humidity","Auto DST adjustment","Battery operated","Desk or wall mount"],
+    pros: ["Auto DST removes a recurring manual task","Large readable digital display","Temperature and humidity readout is a genuine extra","Affordable relative to other styles here"],
+    cons: ["Less decorative than flip or marble styles","Digital display lacks the visual warmth of analog","Verify current review data on the listing"],
     bestFor: "Buyers who want maximum practical information at a glance without decorative fuss.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41i8q0Okr6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBZB3LNC?tag=deskfinds0d-20",
-    description:
-      "Hand carved from polished marble, this clock is built as a statement piece for an executive desk or a formal shelf rather than an everyday budget pick. The weight and material give it a permanence that battery-powered plastic clocks simply cannot match.\n\nAt this price point it reads as a gift or a deliberate design choice rather than a functional-first purchase, and the polished finish photographs well for anyone gifting it. It is the clearest luxury-tier option in this roundup.",
-    specs: ["Hand carved marble construction", "Polished modern design", "Table or desk placement", "Premium material weight"],
-    pros: ["Genuine marble material, not a marble-look plastic", "Substantial weight feels premium on a desk", "Strong gift-worthy presentation", "Timeless design that won't look dated"],
-    cons: ["Highest price point in this roundup", "Heavier and less portable than other styles", "Verify current review data on the listing"],
+    description: "Hand carved from polished marble, this clock is built as a statement piece for an executive desk or a formal shelf rather than an everyday budget pick. The weight and material give it a permanence that battery-powered plastic clocks simply cannot match.\n\nSitting just under WallarGe Auto Set Digital Wall Clock Battery Operated, it costs more than WallarGe Auto Set Digital Wall Clock Battery Operated. Here's the honest tradeoff: Highest price point in this roundup. And here's what it gets you instead: Genuine marble material, not a marble-look plastic. That's the real difference between the two picks, not just a ranking number.\n\nBuyers wanting a genuine luxury material piece as a gift or an executive desk centerpiece.",
+    specs: ["Hand carved marble construction","Polished modern design","Table or desk placement","Premium material weight"],
+    pros: ["Genuine marble material, not a marble-look plastic","Substantial weight feels premium on a desk","Strong gift-worthy presentation","Timeless design that won't look dated"],
+    cons: ["Highest price point in this roundup","Heavier and less portable than other styles","Verify current review data on the listing"],
     bestFor: "Buyers wanting a genuine luxury material piece as a gift or an executive desk centerpiece.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41-TkueeUEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B093WGR49D?tag=deskfinds0d-20",
-    description:
-      "Built from real wood rather than a plastic wood-look finish, this small analog clock sits at just 4-3/8 inches in diameter, small enough to tuck onto a crowded desk corner without dominating the space. The light brown tone works with most desk and shelf materials.\n\nIts silent tick movement means no audible ticking distraction during focused work, a meaningful detail for a desk clock that sits within arm's reach for hours. It is the simplest, least decorative pick here, which is exactly its appeal.",
-    specs: ["4-3/8 inch diameter", "Real wood construction", "Silent tick analog movement", "Battery operated"],
-    pros: ["Genuine wood material at a small size", "Silent movement avoids desk-side ticking", "Compact footprint for small desks", "Understated design fits any decor"],
-    cons: ["Small face can be harder to read from a distance", "Limited decorative impact versus marble or flip styles", "Verify current review data on the listing"],
+    description: "Built from real wood rather than a plastic wood-look finish, this small analog clock sits at just 4-3/8 inches in diameter, small enough to tuck onto a crowded desk corner without dominating the space. The light brown tone works with most desk and shelf materials.\n\nRanked just behind Luxurious Marble Desk Clock, pricing between it and Luxurious Marble Desk Clock isn't directly comparable here. The real tradeoff against that pick: Small face can be harder to read from a distance. In exchange, it offers this instead: Genuine wood material at a small size. That's the swap that decides whether this pick or the one above it is the better fit for a given buyer.\n\nBuyers wanting the smallest, quietest, least distracting clock for a compact desk. Note the price wasn't listed at the time of research, so confirm current cost on Amazon before deciding.",
+    specs: ["4-3/8 inch diameter","Real wood construction","Silent tick analog movement","Battery operated"],
+    pros: ["Genuine wood material at a small size","Silent movement avoids desk-side ticking","Compact footprint for small desks","Understated design fits any decor"],
+    cons: ["Small face can be harder to read from a distance","Limited decorative impact versus marble or flip styles","Verify current review data on the listing"],
     bestFor: "Buyers wanting the smallest, quietest, least distracting clock for a compact desk.",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41tIxhZQouL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08M5VG7XH?tag=deskfinds0d-20",
-    description:
-      "This digital clock is plug-powered with a battery backup, and it includes two USB charging ports, useful for keeping a phone within reach overnight without a separate charger. Large digits with a dimmer function make it genuinely easier to read for anyone with reduced vision.\n\nTwo separate alarms accommodate two schedules, useful in a shared bedroom or a desk clock doing double duty as an alarm. The date and day display is a small but genuinely helpful detail for anyone who loses track of the day easily.",
-    specs: ["Large digit display with dimmer", "Dual USB charging ports", "Battery backup during power loss", "Two independent alarms"],
-    pros: ["Large, easy-to-read digits", "Dual USB ports add real charging convenience", "Battery backup protects against power outages", "Two alarms for shared use"],
-    cons: ["Requires a wall outlet as primary power", "Less decorative than flip or marble styles", "Verify current review data on the listing"],
+    description: "This digital clock is plug-powered with a battery backup, and it includes two USB charging ports, useful for keeping a phone within reach overnight without a separate charger. Large digits with a dimmer function make it genuinely easier to read for anyone with reduced vision.\n\nOne spot below Navaris Small Modern Desk Clock in this ranking, pricing between it and Navaris Small Modern Desk Clock isn't directly comparable here. The compromise here is straightforward: Requires a wall outlet as primary power. What you gain in return: Large, easy-to-read digits. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers wanting a highly readable, functional digital clock with built-in phone charging.",
+    specs: ["Large digit display with dimmer","Dual USB charging ports","Battery backup during power loss","Two independent alarms"],
+    pros: ["Large, easy-to-read digits","Dual USB ports add real charging convenience","Battery backup protects against power outages","Two alarms for shared use"],
+    cons: ["Requires a wall outlet as primary power","Less decorative than flip or marble styles","Verify current review data on the listing"],
     bestFor: "Buyers wanting a highly readable, functional digital clock with built-in phone charging.",
   },
   {
@@ -115,11 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31KphJ99WZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G9B5MMCH?tag=deskfinds0d-20",
-    description:
-      "This crystal clock is designed as a custom-engraved award or gift piece, at 4.5 inches it is compact enough for a shelf or desk without overwhelming either. The crystal material catches light in a way plastic or wood clocks simply cannot replicate.\n\nCustom engraving turnaround on personalized pieces like this typically runs several business days after design approval, so buyers on a gift deadline should order with that lead time in mind rather than assuming next-day availability. It suits retirement, graduation, or corporate recognition gifting specifically.",
-    specs: ["Crystal material", "4.5 inch size", "Custom engraving included", "Award-style presentation"],
-    pros: ["Genuine crystal material stands out visually", "Custom engraving adds personal or corporate meaning", "Compact size fits desk or shelf", "Strong fit for milestone gifting"],
-    cons: ["Engraving requires lead time before shipping", "Less practical as an everyday functional clock", "Verify current review data on the listing"],
+    description: "This crystal clock is designed as a custom-engraved award or gift piece, at 4.5 inches it is compact enough for a shelf or desk without overwhelming either. The crystal material catches light in a way plastic or wood clocks simply cannot replicate.\n\nSitting just under JALL Digital Clock with Date Day for Seniors, it costs more than JALL Digital Clock with Date Day for Seniors. Here's the honest tradeoff: Engraving requires lead time before shipping. And here's what it gets you instead: Genuine crystal material stands out visually. That's the real difference between the two picks, not just a ranking number.\n\nBuyers gifting a milestone or corporate recognition piece rather than buying a purely functional clock.",
+    specs: ["Crystal material","4.5 inch size","Custom engraving included","Award-style presentation"],
+    pros: ["Genuine crystal material stands out visually","Custom engraving adds personal or corporate meaning","Compact size fits desk or shelf","Strong fit for milestone gifting"],
+    cons: ["Engraving requires lead time before shipping","Less practical as an everyday functional clock","Verify current review data on the listing"],
     bestFor: "Buyers gifting a milestone or corporate recognition piece rather than buying a purely functional clock.",
   },
   {
@@ -132,11 +126,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41yZW1xjgmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CRBJJ6W4?tag=deskfinds0d-20",
-    description:
-      "This flip clock pairs a walnut wood base with a silent electronic movement, avoiding the audible ticking some flip mechanisms produce. The black finish and wood base combination reads as more furniture-like than the plainer plastic flip clocks in this category.\n\nBecause it uses a silent electronic movement rather than a mechanical gear flip, it is genuinely quieter to sit near for extended desk work than a purely mechanical flip clock. It is a strong second flip-style option if the top pick's mechanical click isn't for you.",
-    specs: ["Walnut wood base", "Silent electronic movement", "Black finish", "Desk placement"],
-    pros: ["Wood base adds a furniture-like look", "Silent electronic movement, no audible flip click", "Distinct styling from plainer flip clocks", "Solid desk presence"],
-    cons: ["Higher price than basic flip clocks", "Not a true mechanical gear-flip movement", "Verify current review data on the listing"],
+    description: "This flip clock pairs a walnut wood base with a silent electronic movement, avoiding the audible ticking some flip mechanisms produce. The black finish and wood base combination reads as more furniture-like than the plainer plastic flip clocks in this category.\n\nRanked just behind Personalized Crystal Desk Clock, it costs more than Personalized Crystal Desk Clock. The real tradeoff against that pick: Higher price than basic flip clocks. In exchange, it offers this instead: Wood base adds a furniture-like look. That's the swap that decides whether this pick or the one above it is the better fit for a given buyer.\n\nBuyers wanting flip-clock styling without the audible click of a mechanical flip mechanism.",
+    specs: ["Walnut wood base","Silent electronic movement","Black finish","Desk placement"],
+    pros: ["Wood base adds a furniture-like look","Silent electronic movement, no audible flip click","Distinct styling from plainer flip clocks","Solid desk presence"],
+    cons: ["Higher price than basic flip clocks","Not a true mechanical gear-flip movement","Verify current review data on the listing"],
     bestFor: "Buyers wanting flip-clock styling without the audible click of a mechanical flip mechanism.",
   },
   {
@@ -149,13 +142,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41+mFh63FwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK6R22KD?tag=deskfinds0d-20",
-    description:
-      "This gold-finished analog mantel clock leans into a vintage aesthetic without being a true antique reproduction, at 8.3 by 9.1 inches it has real shelf or desk presence. The silent movement matters here since a decorative piece meant to be seen and lived with should not tick audibly all day.\n\nGold tone finishes tend to photograph and pair well with warm wood desks or bookshelves, more than the cooler white or black finishes elsewhere in this list. It rounds out this roundup with a genuinely different color and material story.",
-    specs: ["8.3 x 9.1 inch analog face", "Gold finish", "Silent movement", "Mantel or desk placement"],
-    pros: ["Distinct gold finish versus black or white options", "Silent movement avoids ticking distraction", "Sizeable analog face is easy to read", "Vintage-leaning aesthetic without antique pricing"],
-    cons: ["Larger footprint than the compact analog picks here", "Gold finish won't suit every desk style", "Verify current review data on the listing"],
+    description: "This gold-finished analog mantel clock leans into a vintage aesthetic without being a true antique reproduction, at 8.3 by 9.1 inches it has real shelf or desk presence. The silent movement matters here since a decorative piece meant to be seen and lived with should not tick audibly all day.\n\nOne spot below FOSA Flip Desk Clock in this ranking, it's priced lower than FOSA Flip Desk Clock. The compromise here is straightforward: Larger footprint than the compact analog picks here. What you gain in return: Distinct gold finish versus black or white options. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers wanting a warm, vintage-leaning analog clock with genuine shelf presence.",
+    specs: ["8.3 x 9.1 inch analog face","Gold finish","Silent movement","Mantel or desk placement"],
+    pros: ["Distinct gold finish versus black or white options","Silent movement avoids ticking distraction","Sizeable analog face is easy to read","Vintage-leaning aesthetic without antique pricing"],
+    cons: ["Larger footprint than the compact analog picks here","Gold finish won't suit every desk style","Verify current review data on the listing"],
     bestFor: "Buyers wanting a warm, vintage-leaning analog clock with genuine shelf presence.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -169,43 +161,133 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Quartz Ticking vs Silent Sweep, Explained",
-    note: "A standard quartz movement advances the second hand once per second with an audible tick, while a silent sweep movement moves the hand continuously and stays quiet. Silent sweep movements typically cost several times more than a basic movement, which is part of why silent clocks often carry a small price premium over otherwise similar designs.",
-  },
-  {
-    subheading: "Match Your Desk Situation to a Style",
-    table: {
-      headers: ["Your situation", "Recommended pick"],
-      rows: [
-        ["Want a genuine conversation-piece clock", "KENJIEY Flip Clock"],
-        ["Want maximum practical info at a glance", "WallarGe Digital Clock with Date and Humidity"],
-        ["Buying a gift for an executive or milestone", "Luxurious Marble Desk Clock"],
-        ["Want the smallest, quietest option", "Navaris Small Wood Analog Clock"],
-        ["Need large digits and USB charging nearby", "JALL Digital Clock with Dual USB"],
-        ["Gifting a corporate or graduation award", "Personalized Crystal Desk Clock"],
+    "subheading": "By Movement Type",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "A quiet, non-ticking movement",
+          "Navaris Small Modern Desk Clock"
+        ],
+        [
+          "A digital, fully silent display",
+          "WallarGe Auto Set Digital Wall Clock Battery Operated"
+        ],
+        [
+          "Maximum visual personality (flip or mechanical action)",
+          "KENJIEY Flip Clock"
+        ]
+      ]
+    }
   },
   {
-    subheading: "If Silence Near Your Desk Matters Most",
-    cards: [
-      { label: "Avoid basic quartz movements", text: "Look for listings that explicitly say silent, non-ticking, or sweep movement." },
-      { label: "Flip clocks are not silent by default", text: "A mechanical gear flip produces an audible click each time it flips, some models like FOSA use a silent electronic movement instead." },
-      { label: "Digital clocks are inherently silent", text: "No moving hands means no ticking at all, a genuine advantage if that matters more than aesthetics." },
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $25",
+          "JALL Digital Clock with Date Day for Seniors"
+        ],
+        [
+          "Mid-range",
+          "KENJIEY Flip Clock"
+        ],
+        [
+          "No firm budget ceiling, prioritizing material or brand",
+          "Luxurious Marble Desk Clock"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Battery-Powered vs Corded",
+    "cards": [
+      {
+        "label": "Battery-Powered",
+        "text": "Runs on batteries alone, so it can sit anywhere on a desk or shelf with no cord in the way, at the cost of an eventual battery swap. In this comparison: KENJIEY Flip Clock, WallarGe Auto Set Digital Wall Clock Battery Operated, Luxurious Marble Desk Clock."
+      },
+      {
+        "label": "Corded (Plug-In)",
+        "text": "Draws continuous power from a wall outlet, often adding features like USB charging ports or a battery backup for outages, but it has to sit within cord length of a plug. In this comparison: JALL Digital Clock with Date Day for Seniors."
+      }
     ],
+    "note": "Most buyers should default to a battery-powered pick like JALL Digital Clock with Date Day for Seniors unless you specifically want the USB charging or dimmer features that typically come with corded models."
   },
   {
-    subheading: "If You're Buying This as a Gift",
-    note: "Marble, crystal, and personalized clocks read as intentional gifts rather than functional purchases. Personalized and engraved pieces require lead time for engraving before shipping, so order at least a week ahead of a deadline rather than assuming same-week delivery.",
+    "subheading": "By Purpose: Everyday Use vs Gift",
+    "table": {
+      "headers": [
+        "Your purpose",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Everyday functional desk use",
+          "KENJIEY Flip Clock"
+        ],
+        [
+          "A gift or milestone piece",
+          "Luxurious Marble Desk Clock"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For Buying as a Gift Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Genuine material language, such as hand carved, real marble, or real crystal, rather than a marble-look or crystal-look plastic finish, plus a stated production or engraving lead time if personalization is involved."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Luxurious Marble Desk Clock fits this specifically: Genuine marble material, not a marble-look plastic. That's the kind of detail that signals a deliberate gift rather than a purely functional purchase."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Luxurious Marble Desk Clock offers: Genuine marble material, not a marble-look plastic. That's a real material or craftsmanship upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "JALL Digital Clock with Date Day for Seniors already covers the essentials: Large, easy-to-read digits. The main thing you'd be paying extra for elsewhere in this list is styling rather than function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Decide if ticking noise matters to you", explanation: "A standard quartz movement ticks audibly once per second. If the clock sits within a few feet of where you focus for hours, a silent sweep or silent electronic movement is worth the small price premium." },
-  { criterion: "Match size to viewing distance, not just desk space", explanation: "A 4-inch face reads fine up close but becomes hard to read from across a room. Pick a larger face if you'll glance at it from your doorway rather than your desk chair." },
-  { criterion: "Separate gift-tier pieces from everyday functional clocks", explanation: "Marble, crystal, and personalized clocks are priced and designed as gifts first, function second. Budget accordingly rather than expecting luxury materials at a $20 price point." },
-  { criterion: "Check power source before placement", explanation: "Battery powered clocks can go anywhere on a desk, while corded digital clocks need to sit near an outlet. Confirm which type you're buying before planning placement." },
-  { criterion: "Build in lead time for personalized or engraved pieces", explanation: "Custom engraving typically adds several business days of production time after you approve the design, plan gift purchases at least a week ahead of the occasion." },
+  {
+    "criterion": "Decide whether ticking noise matters to you",
+    "explanation": "A standard quartz movement advances its second hand once per second and produces an audible tick you can hear from a few feet away, while a silent sweep or silent electronic movement moves continuously with no tick at all. This matters more than it sounds like it should: a clock that ticks audibly for eight hours a day within arm's reach of where you work becomes a genuine background irritant for a lot of people, even if they don't consciously register it as a complaint until the clock is removed or replaced. To check this before buying, search the listing for the words \"silent,\" \"non-ticking,\" or \"sweep movement\" specifically, since a listing that doesn't mention noise at all is very likely a standard audible-tick quartz movement."
+  },
+  {
+    "criterion": "Match the face or display size to real viewing distance",
+    "explanation": "The size printed in a listing, usually in inches, measures the clock's case or face diameter, but that number alone doesn't tell you how easily you'll actually be able to read the time from where you sit. A 3 to 4 inch face reads fine from arm's length at a desk but becomes genuinely hard to read from across a room or a doorway, which matters if the clock's real job is to be glanced at from a distance rather than up close. Check the listing's stated dimensions against your actual distance from where the clock will sit, and for digital models, look specifically for the digit height in inches rather than the overall unit size, since a large plastic housing can still contain small digits."
+  },
+  {
+    "criterion": "Confirm the power source before you plan where it goes",
+    "explanation": "Desk clocks are either battery powered, meaning they can sit anywhere with no cord in the way, or corded and plugged into a wall outlet, sometimes with a battery backup that keeps the display running briefly during an outage. This is a genuinely practical constraint, not a minor spec: a corded clock needs to sit within cord-length of an outlet, which can rule out the center of a desk or a shelf far from a plug, while a battery clock can go anywhere but will eventually need a battery swap. Look for \"battery operated\" versus \"plug-in\" or \"AC powered\" directly in the listing title or bullet points, and treat advertised USB charging ports as a strong signal the unit is corded rather than battery-only."
+  },
+  {
+    "criterion": "Separate gift-tier materials from everyday functional clocks",
+    "explanation": "Clocks made from marble or crystal, or featuring custom engraving, are priced and designed first as a gift or a statement object, with everyday timekeeping treated as secondary, while clocks built from plastic or basic wood with digital or simple analog displays are priced for everyday practical use. Buying a hand-carved marble clock expecting the same day-to-day practicality as a basic digital clock with a dimmer and USB ports will lead to disappointment, since these are genuinely different product categories that happen to share a name. Check whether the listing emphasizes material and craftsmanship language (hand carved, polished, engraved) versus functional language (auto DST, dual alarms, temperature display) to quickly tell which tier a given clock falls into."
+  },
+  {
+    "criterion": "Check for lead time if the piece is personalized or engraved",
+    "explanation": "Custom engraving or personalization isn't applied instantly at a warehouse the way a standard product ships; it typically requires a separate production step after you submit your design or text, which the seller has to complete before the item even enters the shipping queue. This means a personalized clock ordered as a last-minute gift can easily miss a deadline that a standard, non-personalized clock would have made with days to spare, since the engraving step alone commonly adds several business days on top of normal shipping time. Before ordering a personalized piece for a specific date, check the listing's stated production or processing time, which is separate from shipping time, and order with enough buffer for both steps to finish before you need it."
+  }
 ];
 
 export const faq: FaqItem[] = [

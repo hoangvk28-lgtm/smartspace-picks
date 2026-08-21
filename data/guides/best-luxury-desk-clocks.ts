@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41i8q0Okr6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBZB3LNC?tag=deskfinds0d-20",
-    description:
-      "At the top of the price range in this guide, this hand-carved marble clock delivers genuine premium material and weight that justifies its position as the top pick. It's the kind of object that reads as a deliberate investment rather than a functional purchase.\n\nThe polished modern finish keeps it from looking dated, and the material itself carries the kind of permanence you don't get from a battery-powered plastic clock at any price.",
-    specs: ["Hand carved marble construction", "Polished modern design", "Table or desk placement", "Premium material weight"],
-    pros: ["Genuine hand-carved marble material", "Highest material quality in this guide", "Substantial, premium weight and feel", "Timeless design"],
-    cons: ["Highest price in this guide", "Heavier, less practical to relocate frequently", "Verify current review data on the listing"],
+    description: "At the top of the price range in this guide, this hand-carved marble clock delivers genuine premium material and weight that justifies its position as the top pick. It's the kind of object that reads as a deliberate investment rather than a functional purchase.\n\nIt earns the top spot in this comparison over Executive Gift Shoppe | Personalized Glass Table Clock with Silver Finish Accents and Custom Engraving for one main reason. Genuine hand-carved marble material. On price, it's actually priced above Executive Gift Shoppe | Personalized Glass Table Clock with Silver Finish Accents and Custom Engraving, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers wanting the single highest material quality pick in this guide.",
+    specs: ["Hand carved marble construction","Polished modern design","Table or desk placement","Premium material weight"],
+    pros: ["Genuine hand-carved marble material","Highest material quality in this guide","Substantial, premium weight and feel","Timeless design"],
+    cons: ["Highest price in this guide","Heavier, less practical to relocate frequently","Verify current review data on the listing"],
     bestFor: "Buyers wanting the single highest material quality pick in this guide.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41-tdoWEyKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07V7CQ62G?tag=deskfinds0d-20",
-    description:
-      "This glass table clock with silver finish accents comes from a retailer specializing in formal, higher-end desk gifts, and the material and finish reflect that focus. Optional custom engraving adds a further premium, personalized layer.\n\nIt's a strong second pick for buyers who want luxury styling with the option of personalization, appropriate for a significant gift occasion as much as a personal desk investment.",
-    specs: ["Glass construction", "Silver finish accents", "Optional custom engraving", "Executive desk styling"],
-    pros: ["Premium glass and silver material combination", "Specialist higher-end desk gift retailer", "Optional engraving adds further luxury personalization", "Strong formal presentation"],
-    cons: ["Text engraving adds cost and lead time if selected", "Less material weight than marble", "Verify current review data on the listing"],
+    description: "This glass table clock with silver finish accents comes from a retailer specializing in formal, higher-end desk gifts, and the material and finish reflect that focus. Optional custom engraving adds a further premium, personalized layer.\n\nOne spot below Luxurious Marble Desk Clock in this ranking, it's priced lower than Luxurious Marble Desk Clock. The compromise here is straightforward: Text engraving adds cost and lead time if selected. What you gain in return: Premium glass and silver material combination. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers wanting luxury styling with the option to add custom engraving.",
+    specs: ["Glass construction","Silver finish accents","Optional custom engraving","Executive desk styling"],
+    pros: ["Premium glass and silver material combination","Specialist higher-end desk gift retailer","Optional engraving adds further luxury personalization","Strong formal presentation"],
+    cons: ["Text engraving adds cost and lead time if selected","Less material weight than marble","Verify current review data on the listing"],
     bestFor: "Buyers wanting luxury styling with the option to add custom engraving.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/4148wkUCCUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BKH8D5CW?tag=deskfinds0d-20",
-    description:
-      "This personalized clock sits at a genuinely premium price point for a piece that also includes real function, an alarm and an included battery, alongside its gift-oriented customization. It's positioned as a milestone gift specifically, which suits the luxury framing well.\n\nWe include it here as the luxury pick that also functions daily, unlike the more purely decorative marble and crystal pieces elsewhere in this guide.",
-    specs: ["Desk or shelf placement", "Alarm function", "AA battery included", "Retirement gift marketing"],
-    pros: ["Premium price reflects genuine function plus personalization", "Alarm function adds daily utility", "Battery included, ready to use", "Purpose-built for significant gift occasions"],
-    cons: ["Less purely material-driven luxury than marble or crystal", "Engraving requires lead time before shipping", "Verify current review data on the listing"],
+    description: "This personalized clock sits at a genuinely premium price point for a piece that also includes real function, an alarm and an included battery, alongside its gift-oriented customization. It's positioned as a milestone gift specifically, which suits the luxury framing well.\n\nSitting just under Executive Gift Shoppe | Personalized Glass Table Clock with Silver Finish Accents and Custom Engraving, it's priced lower than Executive Gift Shoppe | Personalized Glass Table Clock with Silver Finish Accents and Custom Engraving. Here's the honest tradeoff: Less purely material-driven luxury than marble or crystal. And here's what it gets you instead: Premium price reflects genuine function plus personalization. That's the real difference between the two picks, not just a ranking number.\n\nBuyers wanting a luxury-tier gift that also functions as a genuine daily alarm clock.",
+    specs: ["Desk or shelf placement","Alarm function","AA battery included","Retirement gift marketing"],
+    pros: ["Premium price reflects genuine function plus personalization","Alarm function adds daily utility","Battery included, ready to use","Purpose-built for significant gift occasions"],
+    cons: ["Less purely material-driven luxury than marble or crystal","Engraving requires lead time before shipping","Verify current review data on the listing"],
     bestFor: "Buyers wanting a luxury-tier gift that also functions as a genuine daily alarm clock.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31KphJ99WZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G9B5MMCH?tag=deskfinds0d-20",
-    description:
-      "Crystal is a genuinely premium material, and this compact clock delivers it at the most accessible price point in this luxury-focused list, a reasonable entry into premium material without the higher cost of the marble or glass pieces above. Custom engraving is included.\n\nIt's the pick for buyers who want a real premium material but don't need or want the larger scale and higher price of the top marble pick.",
-    specs: ["Crystal material", "4.5 inch size", "Custom engraving included", "Award-style presentation"],
-    pros: ["Genuine crystal material at the most accessible luxury price here", "Custom engraving included", "Compact size fits any desk", "Strong entry point into premium materials"],
-    cons: ["Smaller scale than the marble and glass picks above", "Less of a statement piece at this size", "Verify current review data on the listing"],
+    description: "Crystal is a genuinely premium material, and this compact clock delivers it at the most accessible price point in this luxury-focused list, a reasonable entry into premium material without the higher cost of the marble or glass pieces above. Custom engraving is included.\n\nRanked just behind Personalized Clock with Alarm for Desk or Shelf, it's priced lower than Personalized Clock with Alarm for Desk or Shelf. The real tradeoff against that pick: Smaller scale than the marble and glass picks above. In exchange, it offers this instead: Genuine crystal material at the most accessible luxury price here. That's the swap that decides whether this pick or the one above it is the better fit for a given buyer.\n\nBuyers wanting genuine premium material at the most accessible price in this luxury guide.",
+    specs: ["Crystal material","4.5 inch size","Custom engraving included","Award-style presentation"],
+    pros: ["Genuine crystal material at the most accessible luxury price here","Custom engraving included","Compact size fits any desk","Strong entry point into premium materials"],
+    cons: ["Smaller scale than the marble and glass picks above","Less of a statement piece at this size","Verify current review data on the listing"],
     bestFor: "Buyers wanting genuine premium material at the most accessible price in this luxury guide.",
   },
   {
@@ -98,13 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41jQ2lAQT5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B086VQSCQN?tag=deskfinds0d-20",
-    description:
-      "Mahogany is a traditional premium wood choice, and this arched desktop alarm clock pairs that material with real function and optional custom engraving, from a retailer specializing in this exact formal gift category. It reads as classic luxury rather than modern minimalist luxury.\n\nIt rounds out this guide as the traditional wood option, appropriate for buyers who associate luxury more with classic materials like mahogany than with marble or crystal.",
-    specs: ["Mahogany wood construction", "Alarm clock function", "Optional custom engraving", "Arched design"],
-    pros: ["Traditional premium mahogany material", "Genuine alarm function adds daily utility", "Specialist formal desk gift retailer", "Distinct classic arched silhouette"],
-    cons: ["Lowest price in this guide, less material rarity than marble or crystal", "Wood material has a different maintenance profile than stone or glass", "Verify current review data on the listing"],
+    description: "Mahogany is a traditional premium wood choice, and this arched desktop alarm clock pairs that material with real function and optional custom engraving, from a retailer specializing in this exact formal gift category. It reads as classic luxury rather than modern minimalist luxury.\n\nOne spot below Personalized Crystal Desk Clock in this ranking, it costs more than Personalized Crystal Desk Clock. The compromise here is straightforward: Lowest price in this guide, less material rarity than marble or crystal. What you gain in return: Traditional premium mahogany material. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers wanting classic, traditional luxury material over modern marble or crystal styling.",
+    specs: ["Mahogany wood construction","Alarm clock function","Optional custom engraving","Arched design"],
+    pros: ["Traditional premium mahogany material","Genuine alarm function adds daily utility","Specialist formal desk gift retailer","Distinct classic arched silhouette"],
+    cons: ["Lowest price in this guide, less material rarity than marble or crystal","Wood material has a different maintenance profile than stone or glass","Verify current review data on the listing"],
     bestFor: "Buyers wanting classic, traditional luxury material over modern marble or crystal styling.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,33 +113,133 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Highest overall material quality", "Luxurious Marble Desk Clock"],
-        ["Formal glass with optional engraving", "Executive Gift Shoppe Glass Table Clock"],
-        ["Luxury gift that also functions daily", "Personalized Clock with Alarm, AA Battery Included"],
-        ["Most accessible entry into premium material", "Personalized Crystal Desk Clock"],
-        ["Classic traditional wood luxury", "Executive Gift Shoppe Mahogany Alarm Clock"],
+    "subheading": "By Movement Type",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "A quiet, non-ticking movement",
+          "Luxurious Marble Desk Clock"
+        ],
+        [
+          "A digital, fully silent display",
+          "Executive Gift Shoppe | Personalized Glass Table Clock with Silver Finish Accents and Custom Engraving"
+        ],
+        [
+          "Maximum visual personality (flip or mechanical action)",
+          "Luxurious Marble Desk Clock"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Decorative vs Functional Luxury",
-    note: "Some luxury clocks here are purely decorative statement pieces, while others include a genuine alarm and daily function. Decide whether you want an object to display or a premium piece you'll actually use every day.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $50",
+          "Personalized Crystal Desk Clock"
+        ],
+        [
+          "Mid-range",
+          "Personalized Clock with Alarm for Desk or Shelf"
+        ],
+        [
+          "No firm budget ceiling, prioritizing material or brand",
+          "Luxurious Marble Desk Clock"
+        ]
+      ]
+    }
   },
   {
-    subheading: "For a Narrower, Material-Specific Guide",
-    note: "If you want the most focused list possible, our marble desk clocks and crystal desk clocks guides cover those specific materials directly, both shorter and more targeted than this broader luxury roundup.",
+    "subheading": "Battery-Powered vs Corded",
+    "cards": [
+      {
+        "label": "Battery-Powered",
+        "text": "Runs on batteries alone, so it can sit anywhere on a desk or shelf with no cord in the way, at the cost of an eventual battery swap. In this comparison: Luxurious Marble Desk Clock, Executive Gift Shoppe | Personalized Glass Table Clock with Silver Finish Accents and Custom Engraving, Personalized Clock with Alarm for Desk or Shelf."
+      },
+      {
+        "label": "Corded (Plug-In)",
+        "text": "Draws continuous power from a wall outlet, often adding features like USB charging ports or a battery backup for outages, but it has to sit within cord length of a plug. In this comparison: none in this specific roundup, since most picks here are battery powered."
+      }
+    ],
+    "note": "Most buyers should default to a battery-powered pick like Personalized Crystal Desk Clock unless you specifically want the USB charging or dimmer features that typically come with corded models."
   },
+  {
+    "subheading": "By Purpose: Everyday Use vs Gift",
+    "table": {
+      "headers": [
+        "Your purpose",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Everyday functional desk use",
+          "Luxurious Marble Desk Clock"
+        ],
+        [
+          "A gift or milestone piece",
+          "Luxurious Marble Desk Clock"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Buying as a Gift Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Genuine material language, such as hand carved, real marble, or real crystal, rather than a marble-look or crystal-look plastic finish, plus a stated production or engraving lead time if personalization is involved."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Luxurious Marble Desk Clock fits this specifically: Genuine hand-carved marble material. That's the kind of detail that signals a deliberate gift rather than a purely functional purchase."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Luxurious Marble Desk Clock offers: Genuine hand-carved marble material. That's a real material or craftsmanship upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Personalized Crystal Desk Clock already covers the essentials: Genuine crystal material at the most accessible luxury price here. The main thing you'd be paying extra for elsewhere in this list is styling rather than function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify genuine material, not just luxury marketing language", explanation: "Check the listing confirms real marble, crystal, glass, or mahogany construction rather than a plastic clock simply described with premium marketing language." },
-  { criterion: "Decide between decorative and functional luxury", explanation: "Some premium clocks are display-first objects, others include a genuine alarm and daily function. Match your choice to how you'll actually use the piece." },
-  { criterion: "Larger material pieces cost more but carry more presence", explanation: "The marble clock's higher price reflects its larger scale and hand-carved craftsmanship, while the compact crystal pick offers premium material at a lower cost." },
-  { criterion: "Custom engraving on luxury pieces adds lead time", explanation: "If you choose a luxury pick with engraving, build in several business days of production time before your gift deadline." },
+  {
+    "criterion": "Decide whether ticking noise matters to you",
+    "explanation": "A standard quartz movement advances its second hand once per second and produces an audible tick you can hear from a few feet away, while a silent sweep or silent electronic movement moves continuously with no tick at all. This matters more than it sounds like it should: a clock that ticks audibly for eight hours a day within arm's reach of where you work becomes a genuine background irritant for a lot of people, even if they don't consciously register it as a complaint until the clock is removed or replaced. To check this before buying, search the listing for the words \"silent,\" \"non-ticking,\" or \"sweep movement\" specifically, since a listing that doesn't mention noise at all is very likely a standard audible-tick quartz movement."
+  },
+  {
+    "criterion": "Match the face or display size to real viewing distance",
+    "explanation": "The size printed in a listing, usually in inches, measures the clock's case or face diameter, but that number alone doesn't tell you how easily you'll actually be able to read the time from where you sit. A 3 to 4 inch face reads fine from arm's length at a desk but becomes genuinely hard to read from across a room or a doorway, which matters if the clock's real job is to be glanced at from a distance rather than up close. Check the listing's stated dimensions against your actual distance from where the clock will sit, and for digital models, look specifically for the digit height in inches rather than the overall unit size, since a large plastic housing can still contain small digits."
+  },
+  {
+    "criterion": "Confirm the power source before you plan where it goes",
+    "explanation": "Desk clocks are either battery powered, meaning they can sit anywhere with no cord in the way, or corded and plugged into a wall outlet, sometimes with a battery backup that keeps the display running briefly during an outage. This is a genuinely practical constraint, not a minor spec: a corded clock needs to sit within cord-length of an outlet, which can rule out the center of a desk or a shelf far from a plug, while a battery clock can go anywhere but will eventually need a battery swap. Look for \"battery operated\" versus \"plug-in\" or \"AC powered\" directly in the listing title or bullet points, and treat advertised USB charging ports as a strong signal the unit is corded rather than battery-only."
+  },
+  {
+    "criterion": "Separate gift-tier materials from everyday functional clocks",
+    "explanation": "Clocks made from marble or crystal, or featuring custom engraving, are priced and designed first as a gift or a statement object, with everyday timekeeping treated as secondary, while clocks built from plastic or basic wood with digital or simple analog displays are priced for everyday practical use. Buying a hand-carved marble clock expecting the same day-to-day practicality as a basic digital clock with a dimmer and USB ports will lead to disappointment, since these are genuinely different product categories that happen to share a name. Check whether the listing emphasizes material and craftsmanship language (hand carved, polished, engraved) versus functional language (auto DST, dual alarms, temperature display) to quickly tell which tier a given clock falls into."
+  },
+  {
+    "criterion": "Check for lead time if the piece is personalized or engraved",
+    "explanation": "Custom engraving or personalization isn't applied instantly at a warehouse the way a standard product ships; it typically requires a separate production step after you submit your design or text, which the seller has to complete before the item even enters the shipping queue. This means a personalized clock ordered as a last-minute gift can easily miss a deadline that a standard, non-personalized clock would have made with days to spare, since the engraving step alone commonly adds several business days on top of normal shipping time. Before ordering a personalized piece for a specific date, check the listing's stated production or processing time, which is separate from shipping time, and order with enough buffer for both steps to finish before you need it."
+  }
 ];
 
 export const faq: FaqItem[] = [

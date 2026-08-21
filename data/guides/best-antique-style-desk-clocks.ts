@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41+mFh63FwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK6R22KD?tag=deskfinds0d-20",
-    description:
-      "We're including this with a caveat upfront, it is marketed and styled as vintage rather than a true antique reproduction, but its gold finish and traditional analog mantel-clock shape are the closest old-world aesthetic match we found in verified listings. At 8.3 by 9.1 inches it has real desk or shelf presence.\n\nThe silent movement is a genuine plus for a decorative piece meant to be lived with, and the warm gold tone reads closer to an antique-adjacent look than any black or white modern-styled clock in our broader research pool.",
-    specs: ["8.3 x 9.1 inch analog face", "Gold finish", "Silent movement", "Mantel or desk placement"],
-    pros: ["Warmest, most old-world toned finish available in this research", "Silent movement, no ticking distraction", "Sizeable, formal-looking face", "Reasonably priced for the aesthetic"],
-    cons: ["Not a genuine antique reproduction, styled as vintage", "Larger footprint than a compact desk accessory", "Verify current review data on the listing"],
+    description: "We're including this with a caveat upfront, it is marketed and styled as vintage rather than a true antique reproduction, but its gold finish and traditional analog mantel-clock shape are the closest old-world aesthetic match we found in verified listings. At 8.3 by 9.1 inches it has real desk or shelf presence.\n\nIt earns the top spot in this comparison over Luxurious Marble Desk Clock for one main reason. Warmest, most old-world toned finish available in this research. On price, it comes in below Luxurious Marble Desk Clock on price, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers wanting the warmest, most old-world-adjacent look available, with realistic expectations that it is not a true antique piece.",
+    specs: ["8.3 x 9.1 inch analog face","Gold finish","Silent movement","Mantel or desk placement"],
+    pros: ["Warmest, most old-world toned finish available in this research","Silent movement, no ticking distraction","Sizeable, formal-looking face","Reasonably priced for the aesthetic"],
+    cons: ["Not a genuine antique reproduction, styled as vintage","Larger footprint than a compact desk accessory","Verify current review data on the listing"],
     bestFor: "Buyers wanting the warmest, most old-world-adjacent look available, with realistic expectations that it is not a true antique piece.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41i8q0Okr6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBZB3LNC?tag=deskfinds0d-20",
-    description:
-      "This hand-carved marble clock is explicitly described as a modern design, not an antique one, but its material and formal presence echo the kind of clock you'd find on a classic executive desk. We're including it as the closest material match to an antique-adjacent formal look rather than a literal styling match.\n\nIt is a genuine gift-tier piece with real weight and permanence, appropriate if what you actually want is a formal, timeless desk object rather than a specifically aged-look reproduction.",
-    specs: ["Hand carved marble construction", "Polished, described as modern design", "Table or desk placement", "Premium material weight"],
-    pros: ["Genuine marble material with real formal presence", "Timeless look that won't read as dated", "Substantial gift-worthy weight", "Distinct from flip-clock and digital styling"],
-    cons: ["Listing describes it as modern, not antique-styled", "Highest price in this reduced guide", "Verify current review data on the listing"],
+    description: "This hand-carved marble clock is explicitly described as a modern design, not an antique one, but its material and formal presence echo the kind of clock you'd find on a classic executive desk. We're including it as the closest material match to an antique-adjacent formal look rather than a literal styling match.\n\nOne spot below QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3x9.1in in this ranking, it costs more than QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3x9.1in. The compromise here is straightforward: Listing describes it as modern, not antique-styled. What you gain in return: Genuine marble material with real formal presence. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers who want formal, permanent material presence over a specifically aged or ornate antique look.",
+    specs: ["Hand carved marble construction","Polished, described as modern design","Table or desk placement","Premium material weight"],
+    pros: ["Genuine marble material with real formal presence","Timeless look that won't read as dated","Substantial gift-worthy weight","Distinct from flip-clock and digital styling"],
+    cons: ["Listing describes it as modern, not antique-styled","Highest price in this reduced guide","Verify current review data on the listing"],
     bestFor: "Buyers who want formal, permanent material presence over a specifically aged or ornate antique look.",
   },
   {
@@ -64,13 +62,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/11bo03J0rOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00EZANSR8?tag=deskfinds0d-20",
-    description:
-      "A rich black marble mantel clock in a round form, this piece leans into a classic, formal desk-clock silhouette that has more in common with a traditional mantel clock shape than a modern minimalist design. Like the pick above, it is not marketed as antique-styled, but the mantel-clock form itself reads more old-world than a flat digital or flip-clock face.\n\nIt is the more budget-accessible of the two marble options here, a reasonable alternative if the higher-priced hand-carved pick is out of range but you still want a formal material choice.",
-    specs: ["Round black marble construction", "Mantel clock silhouette", "Gift-oriented presentation", "Desk or shelf placement"],
-    pros: ["Classic mantel-clock silhouette", "Genuine marble material", "More accessible price than the hand-carved pick", "Formal, gift-appropriate presentation"],
-    cons: ["Not explicitly marketed as antique-styled", "Verify current price and review data on the listing", "Smaller research pool means limited alternatives to compare against"],
+    description: "A rich black marble mantel clock in a round form, this piece leans into a classic, formal desk-clock silhouette that has more in common with a traditional mantel clock shape than a modern minimalist design. Like the pick above, it is not marketed as antique-styled, but the mantel-clock form itself reads more old-world than a flat digital or flip-clock face.\n\nSitting just under Luxurious Marble Desk Clock, pricing between it and Luxurious Marble Desk Clock isn't directly comparable here. Here's the honest tradeoff: Not explicitly marketed as antique-styled. And here's what it gets you instead: Classic mantel-clock silhouette. That's the real difference between the two picks, not just a ranking number.\n\nBuyers wanting a classic mantel-clock silhouette at a more accessible price than the hand-carved marble pick. Note the price wasn't listed at the time of research, so confirm current cost on Amazon before deciding.",
+    specs: ["Round black marble construction","Mantel clock silhouette","Gift-oriented presentation","Desk or shelf placement"],
+    pros: ["Classic mantel-clock silhouette","Genuine marble material","More accessible price than the hand-carved pick","Formal, gift-appropriate presentation"],
+    cons: ["Not explicitly marketed as antique-styled","Verify current price and review data on the listing","Smaller research pool means limited alternatives to compare against"],
     bestFor: "Buyers wanting a classic mantel-clock silhouette at a more accessible price than the hand-carved marble pick.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -84,35 +81,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Why This Guide Is Shorter Than Our Other Clock Style Guides",
-    note: "Antique-style is a narrower aesthetic than vintage or retro, implying genuine age or an aged-look reproduction. Our verified research pool didn't turn up a product that genuinely earns that label, so we're covering the closest old-world and formal matches honestly rather than padding the list.",
-  },
-  {
-    subheading: "If You Want a Stronger Throwback Look Instead",
-    cards: [
-      { label: "Mechanical flip-clock feel", text: "See our vintage desk clocks guide for genuine gear-driven flip mechanisms." },
-      { label: "Bold mid-century design statement", text: "See our retro desk clocks guide for the same flip-clock pool with a throwback-focused framing." },
-      { label: "Formal material presence over aged styling", text: "The marble picks in this guide are the better fit if permanence and weight matter more than an aged look." },
-    ],
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Warmest old-world toned finish", "QIYAODECO Gold Analog Mantel Clock"],
-        ["Most formal, premium material", "Luxurious Marble Desk Clock, Hand Carved"],
-        ["Classic mantel silhouette at a lower price", "Deluxe Round Black Marble Desk Mantle Clock"],
+    "subheading": "By Movement Type",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "A quiet, non-ticking movement",
+          "QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3x9.1in"
+        ],
+        [
+          "A digital, fully silent display",
+          "Luxurious Marble Desk Clock"
+        ],
+        [
+          "Maximum visual personality (flip or mechanical action)",
+          "QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3x9.1in"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $40",
+          "QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3x9.1in"
+        ],
+        [
+          "Mid-range",
+          "Luxurious Marble Desk Clock"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Battery-Powered vs Corded",
+    "cards": [
+      {
+        "label": "Battery-Powered",
+        "text": "Runs on batteries alone, so it can sit anywhere on a desk or shelf with no cord in the way, at the cost of an eventual battery swap. In this comparison: QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3x9.1in, Luxurious Marble Desk Clock, Deluxe Round Black Marble Desk Mantle Clock."
+      },
+      {
+        "label": "Corded (Plug-In)",
+        "text": "Draws continuous power from a wall outlet, often adding features like USB charging ports or a battery backup for outages, but it has to sit within cord length of a plug. In this comparison: none in this specific roundup, since most picks here are battery powered."
+      }
+    ],
+    "note": "Most buyers should default to a battery-powered pick like QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3x9.1in unless you specifically want the USB charging or dimmer features that typically come with corded models."
+  },
+  {
+    "subheading": "By Purpose: Everyday Use vs Gift",
+    "table": {
+      "headers": [
+        "Your purpose",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Everyday functional desk use",
+          "QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3x9.1in"
+        ],
+        [
+          "A gift or milestone piece",
+          "Luxurious Marble Desk Clock"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Buying as a Gift Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Genuine material language, such as hand carved, real marble, or real crystal, rather than a marble-look or crystal-look plastic finish, plus a stated production or engraving lead time if personalization is involved."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Luxurious Marble Desk Clock fits this specifically: Genuine marble material with real formal presence. That's the kind of detail that signals a deliberate gift rather than a purely functional purchase."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Luxurious Marble Desk Clock offers: Genuine marble material with real formal presence. That's a real material or craftsmanship upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3x9.1in already covers the essentials: Warmest, most old-world toned finish available in this research. The main thing you'd be paying extra for elsewhere in this list is styling rather than function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Set realistic expectations for the term antique-style", explanation: "Very few desk clocks on the market are genuinely styled as antique reproductions. Expect gold tones, marble materials, and traditional silhouettes to be the closest available match rather than aged or distressed finishes." },
-  { criterion: "Consider vintage or retro guides if a flip mechanism appeals to you", explanation: "If a mechanical flip action is part of what you associate with an old-fashioned clock, our vintage and retro guides cover that mechanism directly, this guide focuses on material and silhouette instead." },
-  { criterion: "Marble and gold finishes are the practical antique-adjacent choice", explanation: "Given the current market, warm gold analog faces and marble construction are the most realistic way to get an old-world feel without an actual antique price tag." },
-  { criterion: "Don't overpay expecting a true antique reproduction", explanation: "None of the picks here are marketed as antique reproductions. If a listing specifically claims antique styling, verify that claim closely before paying a premium for it." },
+  {
+    "criterion": "Decide whether ticking noise matters to you",
+    "explanation": "A standard quartz movement advances its second hand once per second and produces an audible tick you can hear from a few feet away, while a silent sweep or silent electronic movement moves continuously with no tick at all. This matters more than it sounds like it should: a clock that ticks audibly for eight hours a day within arm's reach of where you work becomes a genuine background irritant for a lot of people, even if they don't consciously register it as a complaint until the clock is removed or replaced. To check this before buying, search the listing for the words \"silent,\" \"non-ticking,\" or \"sweep movement\" specifically, since a listing that doesn't mention noise at all is very likely a standard audible-tick quartz movement."
+  },
+  {
+    "criterion": "Match the face or display size to real viewing distance",
+    "explanation": "The size printed in a listing, usually in inches, measures the clock's case or face diameter, but that number alone doesn't tell you how easily you'll actually be able to read the time from where you sit. A 3 to 4 inch face reads fine from arm's length at a desk but becomes genuinely hard to read from across a room or a doorway, which matters if the clock's real job is to be glanced at from a distance rather than up close. Check the listing's stated dimensions against your actual distance from where the clock will sit, and for digital models, look specifically for the digit height in inches rather than the overall unit size, since a large plastic housing can still contain small digits."
+  },
+  {
+    "criterion": "Confirm the power source before you plan where it goes",
+    "explanation": "Desk clocks are either battery powered, meaning they can sit anywhere with no cord in the way, or corded and plugged into a wall outlet, sometimes with a battery backup that keeps the display running briefly during an outage. This is a genuinely practical constraint, not a minor spec: a corded clock needs to sit within cord-length of an outlet, which can rule out the center of a desk or a shelf far from a plug, while a battery clock can go anywhere but will eventually need a battery swap. Look for \"battery operated\" versus \"plug-in\" or \"AC powered\" directly in the listing title or bullet points, and treat advertised USB charging ports as a strong signal the unit is corded rather than battery-only."
+  },
+  {
+    "criterion": "Separate gift-tier materials from everyday functional clocks",
+    "explanation": "Clocks made from marble or crystal, or featuring custom engraving, are priced and designed first as a gift or a statement object, with everyday timekeeping treated as secondary, while clocks built from plastic or basic wood with digital or simple analog displays are priced for everyday practical use. Buying a hand-carved marble clock expecting the same day-to-day practicality as a basic digital clock with a dimmer and USB ports will lead to disappointment, since these are genuinely different product categories that happen to share a name. Check whether the listing emphasizes material and craftsmanship language (hand carved, polished, engraved) versus functional language (auto DST, dual alarms, temperature display) to quickly tell which tier a given clock falls into."
+  },
+  {
+    "criterion": "Check for lead time if the piece is personalized or engraved",
+    "explanation": "Custom engraving or personalization isn't applied instantly at a warehouse the way a standard product ships; it typically requires a separate production step after you submit your design or text, which the seller has to complete before the item even enters the shipping queue. This means a personalized clock ordered as a last-minute gift can easily miss a deadline that a standard, non-personalized clock would have made with days to spare, since the engraving step alone commonly adds several business days on top of normal shipping time. Before ordering a personalized piece for a specific date, check the listing's stated production or processing time, which is separate from shipping time, and order with enough buffer for both steps to finish before you need it."
+  }
 ];
 
 export const faq: FaqItem[] = [

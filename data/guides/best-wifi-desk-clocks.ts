@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41Ato69SCVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B082M8T5SD?tag=deskfinds0d-20",
-    description:
-      "To be explicit: this clock has no WiFi connection, no network sync, and no app. Its \"Auto Set\" feature adjusts for daylight saving time on a built-in internal schedule, not by connecting to any internet time server, based on the listing. It's easy to see similar wording and assume WiFi is involved, but that's not the case here.\n\nIt does add genuine value beyond a plain clock: temperature, humidity, and multiple time zone display, all running independently of any network connection, on battery power.",
-    specs: ["LED digital display, no WiFi", "Auto DST adjustment via internal schedule, not network sync", "Temperature and humidity readout", "Battery operated"],
-    pros: ["Auto DST adjustment without needing a network connection", "Temperature and humidity add genuine desk utility", "Battery operated, works anywhere without setup", "No pairing or app account required"],
-    cons: ["No WiFi, network time sync, or app connectivity", "\"Auto Set\" refers to internal scheduling, not internet sync", "Verify current review data on the listing"],
+    description: "To be explicit: this clock has no WiFi connection, no network sync, and no app. Its \"Auto Set\" feature adjusts for daylight saving time on a built-in internal schedule, not by connecting to any internet time server, based on the listing. It's easy to see similar wording and assume WiFi is involved, but that's not the case here.\n\nIt earns the top spot in this comparison over JALL Digital Clock with Date Day for Seniors for one main reason. Auto DST adjustment without needing a network connection. On price, it's actually priced above JALL Digital Clock with Date Day for Seniors, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers who want automated DST convenience without a WiFi connection or setup process.",
+    specs: ["LED digital display, no WiFi","Auto DST adjustment via internal schedule, not network sync","Temperature and humidity readout","Battery operated"],
+    pros: ["Auto DST adjustment without needing a network connection","Temperature and humidity add genuine desk utility","Battery operated, works anywhere without setup","No pairing or app account required"],
+    cons: ["No WiFi, network time sync, or app connectivity","\"Auto Set\" refers to internal scheduling, not internet sync","Verify current review data on the listing"],
     bestFor: "Buyers who want automated DST convenience without a WiFi connection or setup process.",
   },
   {
@@ -47,13 +46,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41tIxhZQouL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08M5VG7XH?tag=deskfinds0d-20",
-    description:
-      "Also explicitly not WiFi connected, this JALL clock runs entirely without a network, using onboard buttons for setup rather than an app, based on the listing. Dual USB ports and two alarms add practical convenience on top of the date and temperature display.\n\nWe're including it for buyers who want a feature-rich standalone clock without needing to configure a network connection at all.",
-    specs: ["LED digital display, no WiFi", "Dual USB charging ports", "2 independent alarms", "Battery backup, no network required"],
-    pros: ["No network setup required, works out of the box", "USB charging built in", "Battery backup protects settings during outages", "Two alarms for separate needs"],
-    cons: ["No WiFi, network time sync, or app connectivity", "Mains powered as primary source", "Verify current review data on the listing"],
+    description: "Also explicitly not WiFi connected, this JALL clock runs entirely without a network, using onboard buttons for setup rather than an app, based on the listing. Dual USB ports and two alarms add practical convenience on top of the date and temperature display.\n\nOne spot below WallarGe Auto Set Digital Wall Clock Battery Operated in this ranking, it's priced lower than WallarGe Auto Set Digital Wall Clock Battery Operated. The compromise here is straightforward: No WiFi, network time sync, or app connectivity. What you gain in return: No network setup required, works out of the box. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers who want charging convenience on a standalone clock without any network setup.",
+    specs: ["LED digital display, no WiFi","Dual USB charging ports","2 independent alarms","Battery backup, no network required"],
+    pros: ["No network setup required, works out of the box","USB charging built in","Battery backup protects settings during outages","Two alarms for separate needs"],
+    cons: ["No WiFi, network time sync, or app connectivity","Mains powered as primary source","Verify current review data on the listing"],
     bestFor: "Buyers who want charging convenience on a standalone clock without any network setup.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -67,31 +65,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "WiFi Desk Clocks Overlap Heavily with Smart Displays",
-    note: "A genuine WiFi-synced clock is most commonly found bundled into a smart display, a screen device with weather, calendar, and voice assistant features alongside the clock face. Dedicated standalone WiFi clocks without those extra features are a rare category. See our best smart displays for desks guide for the category that actually delivers network time sync.",
-  },
-  {
-    subheading: "Auto DST Is Not the Same as WiFi Sync",
-    note: "Auto DST adjustment happens on a built-in schedule programmed into the clock, it doesn't require or use a network connection. WiFi sync, by contrast, pulls the exact time from an internet server continuously. Don't confuse the two when reading a listing, they solve a similar problem through completely different mechanisms.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Automated DST, no network required", "WallarGe Auto Set Digital Wall Clock"],
-        ["Charging convenience, no network required", "JALL Digital Clock with Dual USB Charger"],
-        ["Genuine WiFi time sync and extras", "See our smart displays for desks guide"],
+    "subheading": "By Movement Type",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "A quiet, non-ticking movement",
+          "WallarGe Auto Set Digital Wall Clock Battery Operated"
+        ],
+        [
+          "A digital, fully silent display",
+          "WallarGe Auto Set Digital Wall Clock Battery Operated"
+        ],
+        [
+          "Maximum visual personality (flip or mechanical action)",
+          "WallarGe Auto Set Digital Wall Clock Battery Operated"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $20",
+          "JALL Digital Clock with Date Day for Seniors"
+        ],
+        [
+          "Mid-range",
+          "WallarGe Auto Set Digital Wall Clock Battery Operated"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Battery-Powered vs Corded",
+    "cards": [
+      {
+        "label": "Battery-Powered",
+        "text": "Runs on batteries alone, so it can sit anywhere on a desk or shelf with no cord in the way, at the cost of an eventual battery swap. In this comparison: WallarGe Auto Set Digital Wall Clock Battery Operated."
+      },
+      {
+        "label": "Corded (Plug-In)",
+        "text": "Draws continuous power from a wall outlet, often adding features like USB charging ports or a battery backup for outages, but it has to sit within cord length of a plug. In this comparison: JALL Digital Clock with Date Day for Seniors."
+      }
+    ],
+    "note": "Most buyers should default to a battery-powered pick like JALL Digital Clock with Date Day for Seniors unless you specifically want the USB charging or dimmer features that typically come with corded models."
+  },
+  {
+    "subheading": "By Purpose: Everyday Use vs Gift",
+    "table": {
+      "headers": [
+        "Your purpose",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Everyday functional desk use",
+          "WallarGe Auto Set Digital Wall Clock Battery Operated"
+        ],
+        [
+          "A gift or milestone piece",
+          "JALL Digital Clock with Date Day for Seniors"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Buying as a Gift Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Genuine material language, such as hand carved, real marble, or real crystal, rather than a marble-look or crystal-look plastic finish, plus a stated production or engraving lead time if personalization is involved."
+      },
+      {
+        "label": "In this comparison",
+        "text": "JALL Digital Clock with Date Day for Seniors fits this specifically: No network setup required, works out of the box. That's the kind of detail that signals a deliberate gift rather than a purely functional purchase."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what WallarGe Auto Set Digital Wall Clock Battery Operated offers: Auto DST adjustment without needing a network connection. That's a real material or craftsmanship upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "JALL Digital Clock with Date Day for Seniors already covers the essentials: No network setup required, works out of the box. The main thing you'd be paying extra for elsewhere in this list is styling rather than function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Don't confuse \"auto set\" with WiFi sync", explanation: "Auto DST or auto-set features run on a built-in schedule, not a network connection. If a listing doesn't explicitly mention WiFi or network time sync, assume it doesn't have it." },
-  { criterion: "Search \"smart display\" for genuine network time sync", explanation: "If you specifically want a clock that pulls exact time from the internet, that functionality is most commonly bundled into smart displays rather than standalone desk clocks." },
-  { criterion: "Check for an explicit WiFi claim in the listing", explanation: "Genuine WiFi-connected clocks state this clearly in the title or bullet points. Vague words like \"auto\" or \"smart\" alone don't confirm network connectivity." },
-  { criterion: "Weigh whether you need network sync at all", explanation: "A battery or corded clock with auto DST stays accurate without any setup, pairing, or network dependency, a real advantage if you don't want another device on your WiFi." },
+  {
+    "criterion": "Decide whether ticking noise matters to you",
+    "explanation": "A standard quartz movement advances its second hand once per second and produces an audible tick you can hear from a few feet away, while a silent sweep or silent electronic movement moves continuously with no tick at all. This matters more than it sounds like it should: a clock that ticks audibly for eight hours a day within arm's reach of where you work becomes a genuine background irritant for a lot of people, even if they don't consciously register it as a complaint until the clock is removed or replaced. To check this before buying, search the listing for the words \"silent,\" \"non-ticking,\" or \"sweep movement\" specifically, since a listing that doesn't mention noise at all is very likely a standard audible-tick quartz movement."
+  },
+  {
+    "criterion": "Match the face or display size to real viewing distance",
+    "explanation": "The size printed in a listing, usually in inches, measures the clock's case or face diameter, but that number alone doesn't tell you how easily you'll actually be able to read the time from where you sit. A 3 to 4 inch face reads fine from arm's length at a desk but becomes genuinely hard to read from across a room or a doorway, which matters if the clock's real job is to be glanced at from a distance rather than up close. Check the listing's stated dimensions against your actual distance from where the clock will sit, and for digital models, look specifically for the digit height in inches rather than the overall unit size, since a large plastic housing can still contain small digits."
+  },
+  {
+    "criterion": "Confirm the power source before you plan where it goes",
+    "explanation": "Desk clocks are either battery powered, meaning they can sit anywhere with no cord in the way, or corded and plugged into a wall outlet, sometimes with a battery backup that keeps the display running briefly during an outage. This is a genuinely practical constraint, not a minor spec: a corded clock needs to sit within cord-length of an outlet, which can rule out the center of a desk or a shelf far from a plug, while a battery clock can go anywhere but will eventually need a battery swap. Look for \"battery operated\" versus \"plug-in\" or \"AC powered\" directly in the listing title or bullet points, and treat advertised USB charging ports as a strong signal the unit is corded rather than battery-only."
+  },
+  {
+    "criterion": "Separate gift-tier materials from everyday functional clocks",
+    "explanation": "Clocks made from marble or crystal, or featuring custom engraving, are priced and designed first as a gift or a statement object, with everyday timekeeping treated as secondary, while clocks built from plastic or basic wood with digital or simple analog displays are priced for everyday practical use. Buying a hand-carved marble clock expecting the same day-to-day practicality as a basic digital clock with a dimmer and USB ports will lead to disappointment, since these are genuinely different product categories that happen to share a name. Check whether the listing emphasizes material and craftsmanship language (hand carved, polished, engraved) versus functional language (auto DST, dual alarms, temperature display) to quickly tell which tier a given clock falls into."
+  },
+  {
+    "criterion": "Check for lead time if the piece is personalized or engraved",
+    "explanation": "Custom engraving or personalization isn't applied instantly at a warehouse the way a standard product ships; it typically requires a separate production step after you submit your design or text, which the seller has to complete before the item even enters the shipping queue. This means a personalized clock ordered as a last-minute gift can easily miss a deadline that a standard, non-personalized clock would have made with days to spare, since the engraving step alone commonly adds several business days on top of normal shipping time. Before ordering a personalized piece for a specific date, check the listing's stated production or processing time, which is separate from shipping time, and order with enough buffer for both steps to finish before you need it."
+  }
 ];
 
 export const faq: FaqItem[] = [

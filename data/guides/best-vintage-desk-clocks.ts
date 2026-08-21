@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41c1kZ9IKNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07PYN9YZN?tag=deskfinds0d-20",
-    description:
-      "mooas is a well-known name in the flip clock category, and this black table clock leans directly into the mid-century flip-card look that defines the vintage aesthetic here. The auto-flip mechanism physically turns each numbered card, a genuinely different visual than a printed retro-style face on a modern quartz movement.\n\nThe compact table-clock proportions keep it desk-appropriate rather than oversized, and the black finish is the most neutral of the flip clocks in this cluster. It leads this list because the flip mechanism itself is the most authentically vintage-feeling detail available across our verified pool.",
-    specs: ["Auto flip mechanism", "Black finish", "Table clock proportions", "Battery powered"],
-    pros: ["Genuine flip mechanism, not a printed retro face", "Compact table-clock size", "Neutral black finish", "Recognized flip-clock brand"],
-    cons: ["Mechanical flip produces some audible click", "Not a literal vintage or antique item, new manufacture", "Verify current review data on the listing"],
+    description: "mooas is a well-known name in the flip clock category, and this black table clock leans directly into the mid-century flip-card look that defines the vintage aesthetic here. The auto-flip mechanism physically turns each numbered card, a genuinely different visual than a printed retro-style face on a modern quartz movement.\n\nIt earns the top spot in this comparison over KENJIEY Flip Clock for one main reason. Genuine flip mechanism, not a printed retro face. On price, it comes in below KENJIEY Flip Clock on price, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers wanting the most authentically mechanical-feeling vintage look in this cluster.",
+    specs: ["Auto flip mechanism","Black finish","Table clock proportions","Battery powered"],
+    pros: ["Genuine flip mechanism, not a printed retro face","Compact table-clock size","Neutral black finish","Recognized flip-clock brand"],
+    cons: ["Mechanical flip produces some audible click","Not a literal vintage or antique item, new manufacture","Verify current review data on the listing"],
     bestFor: "Buyers wanting the most authentically mechanical-feeling vintage look in this cluster.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41k3GTPieAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVLL412Y?tag=deskfinds0d-20",
-    description:
-      "This flip clock uses an internal gear system to flip each number, the same core mechanism that made flip clocks a genuine mid-century staple before quartz displays took over. The white finish is a lighter alternative to the black flip clocks elsewhere in this cluster, useful if your desk skews lighter in tone.\n\nAs a larger, more decorative piece it works well as a visual centerpiece rather than a background object, appropriate for a home office desk with room to spare for a statement clock.",
-    specs: ["Auto internal gear flip mechanism", "White finish", "Battery powered", "Home office styling"],
-    pros: ["Genuine gear-driven flip mechanism", "Lighter finish option than most flip clocks", "Strong visual centerpiece presence", "Battery powered for flexible placement"],
-    cons: ["Larger footprint needs more desk space", "Audible click on each flip", "Verify current review data on the listing"],
+    description: "This flip clock uses an internal gear system to flip each number, the same core mechanism that made flip clocks a genuine mid-century staple before quartz displays took over. The white finish is a lighter alternative to the black flip clocks elsewhere in this cluster, useful if your desk skews lighter in tone.\n\nOne spot below mooas Flip Desk Clock (Black) in this ranking, it costs more than mooas Flip Desk Clock (Black). The compromise here is straightforward: Larger footprint needs more desk space. What you gain in return: Genuine gear-driven flip mechanism. Whether that trade is worth it depends on which side matters more to you.\n\nBuyers wanting a larger, lighter-toned vintage flip clock as a desk centerpiece.",
+    specs: ["Auto internal gear flip mechanism","White finish","Battery powered","Home office styling"],
+    pros: ["Genuine gear-driven flip mechanism","Lighter finish option than most flip clocks","Strong visual centerpiece presence","Battery powered for flexible placement"],
+    cons: ["Larger footprint needs more desk space","Audible click on each flip","Verify current review data on the listing"],
     bestFor: "Buyers wanting a larger, lighter-toned vintage flip clock as a desk centerpiece.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41+mFh63FwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK6R22KD?tag=deskfinds0d-20",
-    description:
-      "This gold analog mantel clock takes a different route to the vintage aesthetic than the flip clocks above, using a warm gold finish and traditional analog hands rather than a mechanical flip action. At 8.3 by 9.1 inches it has real shelf or desk presence without being oversized.\n\nThe silent movement is a genuine plus for a decorative piece meant to sit within earshot for hours, and the gold tone pairs naturally with wood desks and warm-toned rooms in a way the black and white flip clocks don't.",
-    specs: ["8.3 x 9.1 inch analog face", "Gold finish", "Silent movement", "Mantel or desk placement"],
-    pros: ["Warm gold tone for a different vintage feel", "Silent movement, no audible tick", "Traditional analog hands, not a flip mechanism", "Sizeable, easy-to-read face"],
-    cons: ["Not a mechanical flip mechanism if that's specifically what you want", "Larger footprint than the flip clocks here", "Verify current review data on the listing"],
+    description: "This gold analog mantel clock takes a different route to the vintage aesthetic than the flip clocks above, using a warm gold finish and traditional analog hands rather than a mechanical flip action. At 8.3 by 9.1 inches it has real shelf or desk presence without being oversized.\n\nSitting just under KENJIEY Flip Clock, it's priced lower than KENJIEY Flip Clock. Here's the honest tradeoff: Not a mechanical flip mechanism if that's specifically what you want. And here's what it gets you instead: Warm gold tone for a different vintage feel. That's the real difference between the two picks, not just a ranking number.\n\nBuyers wanting a vintage look through color and material rather than a mechanical flip action.",
+    specs: ["8.3 x 9.1 inch analog face","Gold finish","Silent movement","Mantel or desk placement"],
+    pros: ["Warm gold tone for a different vintage feel","Silent movement, no audible tick","Traditional analog hands, not a flip mechanism","Sizeable, easy-to-read face"],
+    cons: ["Not a mechanical flip mechanism if that's specifically what you want","Larger footprint than the flip clocks here","Verify current review data on the listing"],
     bestFor: "Buyers wanting a vintage look through color and material rather than a mechanical flip action.",
   },
   {
@@ -81,13 +78,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41w5s9hs3NL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVHVDSQM?tag=deskfinds0d-20",
-    description:
-      "This flip clock covers the same core auto-flip, internal gear mechanism as the higher-ranked picks above, giving buyers a lower-commitment way to try the vintage flip-clock look. It is marketed directly with vintage and retro language, matching the specific aesthetic this guide is built around.\n\nAs with any flip clock, expect the gear mechanism to produce some audible click on each flip, a tradeoff for the genuinely mechanical feel that distinguishes it from a printed retro-style quartz face.",
-    specs: ["Auto flip mechanism", "Internal gear operation", "Battery powered", "Home office decor styling"],
-    pros: ["Genuine flip mechanism at an accessible price tier", "Explicitly vintage and retro marketed", "Battery powered for flexible placement", "Home office appropriate styling"],
-    cons: ["Audible click on each flip", "Verify current price and review data on the listing", "Less established brand recognition than mooas or KENJIEY"],
+    description: "This flip clock covers the same core auto-flip, internal gear mechanism as the higher-ranked picks above, giving buyers a lower-commitment way to try the vintage flip-clock look. It is marketed directly with vintage and retro language, matching the specific aesthetic this guide is built around.\n\nRanked just behind QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3x9.1in, pricing between it and QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3x9.1in isn't directly comparable here. The real tradeoff against that pick: Audible click on each flip. In exchange, it offers this instead: Genuine flip mechanism at an accessible price tier. That's the swap that decides whether this pick or the one above it is the better fit for a given buyer.\n\nBuyers wanting to try the vintage flip-clock look without paying the premium of the top picks. Note the price wasn't listed at the time of research, so confirm current cost on Amazon before deciding.",
+    specs: ["Auto flip mechanism","Internal gear operation","Battery powered","Home office decor styling"],
+    pros: ["Genuine flip mechanism at an accessible price tier","Explicitly vintage and retro marketed","Battery powered for flexible placement","Home office appropriate styling"],
+    cons: ["Audible click on each flip","Verify current price and review data on the listing","Less established brand recognition than mooas or KENJIEY"],
     bestFor: "Buyers wanting to try the vintage flip-clock look without paying the premium of the top picks.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -101,32 +97,133 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Vintage, Retro, and Antique Are Not the Same Thing",
-    note: "Vintage generally implies an older design language recreated in new manufacture, retro leans into a specific throwback pop aesthetic, and antique implies genuine age or an aged-look reproduction. This guide focuses on vintage as gear-driven flip mechanisms plus one aged-gold analog piece, see our retro and antique-style guides for their respective angles on overlapping and separate products.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Most authentic flip mechanism feel", "mooas Flip Desk Clock"],
-        ["Larger centerpiece flip clock", "KENJIEY Flip Clock White"],
-        ["Vintage look without a flip mechanism", "QIYAODECO Gold Analog Mantel Clock"],
-        ["Trying the look at a lower price", "Wkevnu Vintage Flip Clock"],
+    "subheading": "By Movement Type",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "A quiet, non-ticking movement",
+          "QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3x9.1in"
+        ],
+        [
+          "A digital, fully silent display",
+          "KENJIEY Flip Clock"
+        ],
+        [
+          "Maximum visual personality (flip or mechanical action)",
+          "mooas Flip Desk Clock (Black)"
+        ]
+      ]
+    }
   },
   {
-    subheading: "If Mechanical Click Noise Bothers You",
-    note: "Every flip clock in this list produces some audible click as the numbers turn. If you want the vintage look without any moving-part noise, the QIYAODECO gold analog silent mantel clock is the better fit.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $40",
+          "mooas Flip Desk Clock (Black)"
+        ],
+        [
+          "Mid-range",
+          "QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3x9.1in"
+        ],
+        [
+          "No firm budget ceiling, prioritizing material or brand",
+          "KENJIEY Flip Clock"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Battery-Powered vs Corded",
+    "cards": [
+      {
+        "label": "Battery-Powered",
+        "text": "Runs on batteries alone, so it can sit anywhere on a desk or shelf with no cord in the way, at the cost of an eventual battery swap. In this comparison: mooas Flip Desk Clock (Black), KENJIEY Flip Clock, QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3x9.1in."
+      },
+      {
+        "label": "Corded (Plug-In)",
+        "text": "Draws continuous power from a wall outlet, often adding features like USB charging ports or a battery backup for outages, but it has to sit within cord length of a plug. In this comparison: none in this specific roundup, since most picks here are battery powered."
+      }
+    ],
+    "note": "Most buyers should default to a battery-powered pick like mooas Flip Desk Clock (Black) unless you specifically want the USB charging or dimmer features that typically come with corded models."
+  },
+  {
+    "subheading": "By Purpose: Everyday Use vs Gift",
+    "table": {
+      "headers": [
+        "Your purpose",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Everyday functional desk use",
+          "mooas Flip Desk Clock (Black)"
+        ],
+        [
+          "A gift or milestone piece",
+          "Wkevnu Vintage Flip Clock"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Buying as a Gift Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Genuine material language, such as hand carved, real marble, or real crystal, rather than a marble-look or crystal-look plastic finish, plus a stated production or engraving lead time if personalization is involved."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Wkevnu Vintage Flip Clock fits this specifically: Genuine flip mechanism at an accessible price tier. That's the kind of detail that signals a deliberate gift rather than a purely functional purchase."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what KENJIEY Flip Clock offers: Genuine gear-driven flip mechanism. That's a real material or craftsmanship upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "mooas Flip Desk Clock (Black) already covers the essentials: Genuine flip mechanism, not a printed retro face. The main thing you'd be paying extra for elsewhere in this list is styling rather than function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Don't assume vintage means antique", explanation: "Every product in this guide is new manufacture designed to look older, not a genuine antique or antique reproduction. Set expectations accordingly." },
-  { criterion: "Flip mechanisms click, silent options exist too", explanation: "If mechanical click noise near your desk is a dealbreaker, choose the silent analog gold pick over a flip clock." },
-  { criterion: "Match finish color to your desk tone", explanation: "Black and white flip clocks suit cooler, modern desks, while the gold analog option pairs better with warm wood tones." },
-  { criterion: "Compare against the retro guide before deciding", explanation: "Our retro desk clocks guide covers an overlapping flip-clock pool with a different top pick and framing, worth a look if you're not sure which angle fits your taste." },
+  {
+    "criterion": "Decide whether ticking noise matters to you",
+    "explanation": "A standard quartz movement advances its second hand once per second and produces an audible tick you can hear from a few feet away, while a silent sweep or silent electronic movement moves continuously with no tick at all. This matters more than it sounds like it should: a clock that ticks audibly for eight hours a day within arm's reach of where you work becomes a genuine background irritant for a lot of people, even if they don't consciously register it as a complaint until the clock is removed or replaced. To check this before buying, search the listing for the words \"silent,\" \"non-ticking,\" or \"sweep movement\" specifically, since a listing that doesn't mention noise at all is very likely a standard audible-tick quartz movement."
+  },
+  {
+    "criterion": "Match the face or display size to real viewing distance",
+    "explanation": "The size printed in a listing, usually in inches, measures the clock's case or face diameter, but that number alone doesn't tell you how easily you'll actually be able to read the time from where you sit. A 3 to 4 inch face reads fine from arm's length at a desk but becomes genuinely hard to read from across a room or a doorway, which matters if the clock's real job is to be glanced at from a distance rather than up close. Check the listing's stated dimensions against your actual distance from where the clock will sit, and for digital models, look specifically for the digit height in inches rather than the overall unit size, since a large plastic housing can still contain small digits."
+  },
+  {
+    "criterion": "Confirm the power source before you plan where it goes",
+    "explanation": "Desk clocks are either battery powered, meaning they can sit anywhere with no cord in the way, or corded and plugged into a wall outlet, sometimes with a battery backup that keeps the display running briefly during an outage. This is a genuinely practical constraint, not a minor spec: a corded clock needs to sit within cord-length of an outlet, which can rule out the center of a desk or a shelf far from a plug, while a battery clock can go anywhere but will eventually need a battery swap. Look for \"battery operated\" versus \"plug-in\" or \"AC powered\" directly in the listing title or bullet points, and treat advertised USB charging ports as a strong signal the unit is corded rather than battery-only."
+  },
+  {
+    "criterion": "Separate gift-tier materials from everyday functional clocks",
+    "explanation": "Clocks made from marble or crystal, or featuring custom engraving, are priced and designed first as a gift or a statement object, with everyday timekeeping treated as secondary, while clocks built from plastic or basic wood with digital or simple analog displays are priced for everyday practical use. Buying a hand-carved marble clock expecting the same day-to-day practicality as a basic digital clock with a dimmer and USB ports will lead to disappointment, since these are genuinely different product categories that happen to share a name. Check whether the listing emphasizes material and craftsmanship language (hand carved, polished, engraved) versus functional language (auto DST, dual alarms, temperature display) to quickly tell which tier a given clock falls into."
+  },
+  {
+    "criterion": "Check for lead time if the piece is personalized or engraved",
+    "explanation": "Custom engraving or personalization isn't applied instantly at a warehouse the way a standard product ships; it typically requires a separate production step after you submit your design or text, which the seller has to complete before the item even enters the shipping queue. This means a personalized clock ordered as a last-minute gift can easily miss a deadline that a standard, non-personalized clock would have made with days to spare, since the engraving step alone commonly adds several business days on top of normal shipping time. Before ordering a personalized piece for a specific date, check the listing's stated production or processing time, which is separate from shipping time, and order with enough buffer for both steps to finish before you need it."
+  }
 ];
 
 export const faq: FaqItem[] = [
