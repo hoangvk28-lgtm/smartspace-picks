@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41hkBlNF4ML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJH53M9G?tag=deskfinds0d-20",
-    description:
-      "This mount uses adjustable straps rated for devices up to a 17 inch perimeter, and it names a genuinely wide list of compatible devices, including specific Dell OptiPlex, Lenovo ThinkCentre, and HP mini PC model numbers rather than a vague generic fit claim. It is designed to be mounted behind a monitor or TV, or directly on a wall.\n\nBecause it uses straps instead of a rigid bracket, it accommodates devices that do not perfectly match a fixed-size cutout, which is useful if you own a mixed fleet of small devices rather than one specific Mini PC model. Confirm the device's perimeter against the 17 inch max before ordering.",
-    specs: ["Strap-based universal mount", "Fits devices up to 17\" perimeter", "Named compatibility with Dell, Lenovo, HP mini PC models", "Wall or behind-monitor mounting", "Adjustable strap design"],
-    pros: ["Named model compatibility list beyond just generic size specs", "Strap design accommodates irregular device shapes", "Works for wall or behind-monitor mounting", "Handles a wide range of small electronics, not just Mini PCs"],
-    cons: ["Strap-based hold is less rigid than a fixed metal bracket", "No stated weight capacity in the listing", "Included anchors are generic, verify against your specific wall material"],
+    description: "This mount uses adjustable straps rated for devices up to a 17 inch perimeter, and it names a genuinely wide list of compatible devices, including specific Dell OptiPlex, Lenovo ThinkCentre, and HP mini PC model numbers rather than a vague generic fit claim. It is designed to be mounted behind a monitor or TV, or directly on a wall.\n\nIt earns the top spot in this comparison over Monzlteck Adjustable Small Device Wall Mount for one main reason. Named model compatibility list beyond just generic size specs. On price, it's actually priced above Monzlteck Adjustable Small Device Wall Mount, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Strap design accommodates irregular device shapes. On the other side, Included anchors are generic, verify against your specific wall material. That's the main tradeoff to weigh against everything above.",
+    specs: ["Strap-based universal mount","Fits devices up to 17\" perimeter","Named compatibility with Dell, Lenovo, HP mini PC models","Wall or behind-monitor mounting","Adjustable strap design"],
+    pros: ["Named model compatibility list beyond just generic size specs","Strap design accommodates irregular device shapes","Works for wall or behind-monitor mounting","Handles a wide range of small electronics, not just Mini PCs"],
+    cons: ["Strap-based hold is less rigid than a fixed metal bracket","No stated weight capacity in the listing","Included anchors are generic, verify against your specific wall material"],
     bestFor: "Buyers who want one wall mount that reliably fits a range of named Dell, Lenovo, and HP Mini PC models.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31l-EL12D-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJ7BK9CM?tag=deskfinds0d-20",
-    description:
-      "This is a straightforward wall mount for any device under 2.8 inches thick, built from steel with anti-scratch EVA pads and installed with just two screws. The included hardware covers both drywall anchors and short screws, letting you choose based on whether you can hit a stud at the mounting location.\n\nAt this price it skips extras like cable management, but it covers the core wall-mounting job well for a light Mini PC. The listing also supports under-desk mounting with the same hardware if you decide against the wall after measuring your space.",
-    specs: ["High-quality steel construction", "Fits devices under 2.8\" thick", "Includes drywall anchors and short screws", "Wall or under-desk mounting", "Anti-scratch EVA pads"],
-    pros: ["Lowest price wall mount in this guide", "Simple two-screw installation", "Includes both drywall and screw hardware options", "EVA pads protect the device"],
-    cons: ["No cable management features", "No stated weight capacity, worth being conservative with heavier devices", "Drywall anchors alone are a weaker long-term anchor than a stud"],
+    description: "This is a straightforward wall mount for any device under 2.8 inches thick, built from steel with anti-scratch EVA pads and installed with just two screws. The included hardware covers both drywall anchors and short screws, letting you choose based on whether you can hit a stud at the mounting location.\n\nOne spot below Universal Wall and VESA Mount for Micro PC in this ranking, it's priced lower than Universal Wall and VESA Mount for Micro PC. The compromise here is straightforward: No cable management features. What you gain in return: Lowest price wall mount in this guide. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Simple two-screw installation. On the other side, Drywall anchors alone are a weaker long-term anchor than a stud. That's the main tradeoff to weigh against everything above.",
+    specs: ["High-quality steel construction","Fits devices under 2.8\" thick","Includes drywall anchors and short screws","Wall or under-desk mounting","Anti-scratch EVA pads"],
+    pros: ["Lowest price wall mount in this guide","Simple two-screw installation","Includes both drywall and screw hardware options","EVA pads protect the device"],
+    cons: ["No cable management features","No stated weight capacity, worth being conservative with heavier devices","Drywall anchors alone are a weaker long-term anchor than a stud"],
     bestFor: "Budget-focused buyers who want a simple, no-frills wall mount for a light Mini PC.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31mtZrZsgiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2Y8B6J3?tag=deskfinds0d-20",
-    description:
-      "This adjustable wall shelf handles devices under about 3kg, roughly 6.6 pounds, and adjusts its push plate for widths from 0 to 65mm depending on orientation. It supports both screw and adhesive installation, which is useful in rental housing where drilling is restricted, though the listing recommends waiting 24 to 48 hours after applying adhesive before loading any weight.\n\nAt the lowest price in this guide, it is a good fit for a genuinely lightweight Mini PC or router rather than a heavier device with a bulky power brick attached. The adhesive option trades holding strength for a hole-free installation, a real tradeoff worth weighing against your specific wall and rental situation.",
-    specs: ["Adjustable push-plate width, 0 to 65mm", "Weight limit under 3kg (about 6.6 lbs)", "Screw or adhesive installation", "Wall, under-desk, or behind-TV mounting", "Includes both screw and adhesive hardware"],
-    pros: ["Lowest price in this guide", "Adhesive option avoids drilling for renters", "Adjustable to fit a range of device widths", "Versatile for wall, under-desk, or behind-TV use"],
-    cons: ["Lowest weight limit in this guide at about 6.6 lbs", "Adhesive requires a 24 to 48 hour cure time before loading weight", "Less rigid hold than a full steel bracket"],
+    description: "This adjustable wall shelf handles devices under about 3kg, roughly 6.6 pounds, and adjusts its push plate for widths from 0 to 65mm depending on orientation. It supports both screw and adhesive installation, which is useful in rental housing where drilling is restricted, though the listing recommends waiting 24 to 48 hours after applying adhesive before loading any weight.\n\nSitting just under Monzlteck Adjustable Small Device Wall Mount, it's priced lower than Monzlteck Adjustable Small Device Wall Mount. Here's the honest tradeoff: Lowest weight limit in this guide at about 6.6 lbs. And here's what it gets you instead: Lowest price in this guide. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Adhesive option avoids drilling for renters. On the other side, Less rigid hold than a full steel bracket. That's the main tradeoff to weigh against everything above.",
+    specs: ["Adjustable push-plate width, 0 to 65mm","Weight limit under 3kg (about 6.6 lbs)","Screw or adhesive installation","Wall, under-desk, or behind-TV mounting","Includes both screw and adhesive hardware"],
+    pros: ["Lowest price in this guide","Adhesive option avoids drilling for renters","Adjustable to fit a range of device widths","Versatile for wall, under-desk, or behind-TV use"],
+    cons: ["Lowest weight limit in this guide at about 6.6 lbs","Adhesive requires a 24 to 48 hour cure time before loading weight","Less rigid hold than a full steel bracket"],
     bestFor: "Renters or light-device buyers who want a hole-free adhesive option or a genuinely lightweight wall shelf.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41PIBhYD0hL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CB2CPVRC?tag=deskfinds0d-20",
-    description:
-      "Built specifically for a named list of Lenovo ThinkCentre Tiny desktop models, this bracket wall mounts (or alternatively VESA or under-desk mounts) with an anti-scratch rubber mat protecting the chassis. Velcro straps secure the ThinkCentre's power adapter to the top of the bracket, keeping cabling organized once mounted.\n\nBecause it targets one exact chassis shape, it holds more rigidly on a wall than a strap-based universal mount would, but only if your specific ThinkCentre model is on the compatibility list. The listing explicitly states unlisted models are not supported, so confirm your model number before ordering.",
-    specs: ["Purpose-built for named Lenovo ThinkCentre Tiny models", "Wall, VESA, or under-desk mounting", "Anti-scratch rubber mat", "Velcro power adapter straps", "Screws and instructions included"],
-    pros: ["Precise, rigid fit for named ThinkCentre models", "Rubber mat protects the chassis on a wall install", "Power adapter strap keeps cabling tidy", "Also usable as a VESA or under-desk mount"],
-    cons: ["Only fits listed Lenovo ThinkCentre Tiny models", "No stated weight capacity", "Wall anchoring hardware is generic, verify against your wall material"],
+    description: "Built specifically for a named list of Lenovo ThinkCentre Tiny desktop models, this bracket wall mounts (or alternatively VESA or under-desk mounts) with an anti-scratch rubber mat protecting the chassis. Velcro straps secure the ThinkCentre's power adapter to the top of the bracket, keeping cabling organized once mounted.\n\nRanked just behind NOTMBESTM Adjustable Wall Mount Shelf for Mini PC, it costs more than NOTMBESTM Adjustable Wall Mount Shelf for Mini PC. The real tradeoff against that pick: Only fits listed Lenovo ThinkCentre Tiny models. In exchange, it offers this instead: Precise, rigid fit for named ThinkCentre models. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Rubber mat protects the chassis on a wall install. On the other side, Wall anchoring hardware is generic, verify against your wall material. That's the main tradeoff to weigh against everything above.",
+    specs: ["Purpose-built for named Lenovo ThinkCentre Tiny models","Wall, VESA, or under-desk mounting","Anti-scratch rubber mat","Velcro power adapter straps","Screws and instructions included"],
+    pros: ["Precise, rigid fit for named ThinkCentre models","Rubber mat protects the chassis on a wall install","Power adapter strap keeps cabling tidy","Also usable as a VESA or under-desk mount"],
+    cons: ["Only fits listed Lenovo ThinkCentre Tiny models","No stated weight capacity","Wall anchoring hardware is generic, verify against your wall material"],
     bestFor: "Lenovo ThinkCentre Tiny owners on a supported model who want a rigid wall-mounted fit.",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41X2PrniDzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C9SVTQHG?tag=deskfinds0d-20",
-    description:
-      "This bracket targets a long, named list of Dell OptiPlex Micro Form Factor models and explicitly excludes tower, small form factor, and Wyse variants. Wall mounting is one of three supported methods alongside VESA and under-desk, with Velcro straps to keep the power adapter's cabling organized on the wall.\n\nBecause it is device-specific, it holds the OptiPlex more securely on a wall than a generic strap mount, provided your exact model number is on the compatibility list. Screws and instructions are included, though the hardware is generic rather than matched to a specific wall material.",
-    specs: ["Purpose-built for named Dell OptiPlex Micro models", "Wall, VESA, or under-desk mounting", "Power adapter Velcro straps", "1.4\" x 7\" x 7.2\" device size fit", "Screws and instructions included"],
-    pros: ["Precise fit for a long, named list of OptiPlex Micro models", "Power adapter straps keep cabling organized on a wall install", "Also usable as a VESA or under-desk mount", "Clear compatibility list"],
-    cons: ["Only fits listed OptiPlex Micro models", "No stated weight capacity", "Generic wall hardware needs matching to your actual wall type"],
+    description: "This bracket targets a long, named list of Dell OptiPlex Micro Form Factor models and explicitly excludes tower, small form factor, and Wyse variants. Wall mounting is one of three supported methods alongside VESA and under-desk, with Velcro straps to keep the power adapter's cabling organized on the wall.\n\nOne spot below Mini PC Wall Mount for Lenovo ThinkCentre Tiny Desktops in this ranking, it costs more than Mini PC Wall Mount for Lenovo ThinkCentre Tiny Desktops. The compromise here is straightforward: Only fits listed OptiPlex Micro models. What you gain in return: Precise fit for a long, named list of OptiPlex Micro models. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Power adapter straps keep cabling organized on a wall install. On the other side, Generic wall hardware needs matching to your actual wall type. That's the main tradeoff to weigh against everything above.",
+    specs: ["Purpose-built for named Dell OptiPlex Micro models","Wall, VESA, or under-desk mounting","Power adapter Velcro straps","1.4\" x 7\" x 7.2\" device size fit","Screws and instructions included"],
+    pros: ["Precise fit for a long, named list of OptiPlex Micro models","Power adapter straps keep cabling organized on a wall install","Also usable as a VESA or under-desk mount","Clear compatibility list"],
+    cons: ["Only fits listed OptiPlex Micro models","No stated weight capacity","Generic wall hardware needs matching to your actual wall type"],
     bestFor: "Dell OptiPlex Micro owners on a supported model who want a rigid, purpose-built wall mount.",
   },
   {
@@ -115,11 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41nWvL8pqlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KY3LHVG?tag=deskfinds0d-20",
-    description:
-      "This bracket rates 11 pounds for the Mini PC alone, higher than most wall-mount options in this guide, and fits devices 0.65 to 2.55 inches deep. Wall mounting is included alongside VESA and pole mounting, giving flexibility if you later decide to reposition the Mini PC off the wall.\n\nSilicone scratch strips protect the device, and the kit includes a full hardware set plus an illustrated manual so wall installation does not require guessing which screws go where. It is the pricier option here, but the higher weight rating and included accessories justify it for a heavier Mini PC and dock combination.",
-    specs: ["11 lb weight rating", "Fits 0.65\" to 2.55\" device depth", "Wall, VESA, and pole mounting", "Silicone scratch strips included", "Full hardware kit and manual"],
-    pros: ["Highest published weight rating for wall mounting in this guide", "Silicone strips protect the device", "Flexible across wall, VESA, and pole mounting", "Illustrated manual simplifies installation"],
-    cons: ["Highest price in this guide", "Wall hardware is generic, not stud-specific", "Side power button requirement excludes some NUC models"],
+    description: "This bracket rates 11 pounds for the Mini PC alone, higher than most wall-mount options in this guide, and fits devices 0.65 to 2.55 inches deep. Wall mounting is included alongside VESA and pole mounting, giving flexibility if you later decide to reposition the Mini PC off the wall.\n\nSitting just under Mini PC Wall Mount for Dell Micro OptiPlex, it costs more than Mini PC Wall Mount for Dell Micro OptiPlex. Here's the honest tradeoff: Highest price in this guide. And here's what it gets you instead: Highest published weight rating for wall mounting in this guide. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Silicone strips protect the device. On the other side, Side power button requirement excludes some NUC models. That's the main tradeoff to weigh against everything above.",
+    specs: ["11 lb weight rating","Fits 0.65\" to 2.55\" device depth","Wall, VESA, and pole mounting","Silicone scratch strips included","Full hardware kit and manual"],
+    pros: ["Highest published weight rating for wall mounting in this guide","Silicone strips protect the device","Flexible across wall, VESA, and pole mounting","Illustrated manual simplifies installation"],
+    cons: ["Highest price in this guide","Wall hardware is generic, not stud-specific","Side power button requirement excludes some NUC models"],
     bestFor: "Buyers wall-mounting a heavier Mini PC or a Mini PC paired with a dock who want the highest rated capacity here.",
   },
   {
@@ -132,11 +126,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/419hWbxp-bL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B082FMHW2Q?tag=deskfinds0d-20",
-    description:
-      "This steel bracket adjusts from 1.8 to 7.1 centimeters of width and is rated for up to 5 kilograms, or about 11 pounds, with a powder coated rust-resistant finish. Wall mounting is one of three supported locations, backed by a 3-year manufacturer warranty, longer than most competitors in this category.\n\nRubber pads and adjustable straps keep the mounted device from sliding once installed on the wall. The open-frame design also keeps ports and vents accessible, a detail that matters more on a wall than on a desk where you can casually reach around the device.",
-    specs: ["Solid steel, powder coated finish", "1.8cm to 7.1cm adjustable width", "Wall, VESA, and pole mounting", "5kg (about 11 lb) weight capacity", "3-year manufacturer warranty"],
-    pros: ["Longest warranty in this guide", "Open-frame design keeps ports and vents accessible on a wall", "Rust-resistant steel build", "Flexible across wall, VESA, and pole mounting"],
-    cons: ["11 lb capacity is average, not class-leading", "No cable management feature built in", "Generic wall hardware needs matching to your wall type"],
+    description: "This steel bracket adjusts from 1.8 to 7.1 centimeters of width and is rated for up to 5 kilograms, or about 11 pounds, with a powder coated rust-resistant finish. Wall mounting is one of three supported locations, backed by a 3-year manufacturer warranty, longer than most competitors in this category.\n\nRanked just behind HumanCentric Thin Client Mount Bracket, it's priced lower than HumanCentric Thin Client Mount Bracket. The real tradeoff against that pick: 11 lb capacity is average, not class-leading. In exchange, it offers this instead: Longest warranty in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Open-frame design keeps ports and vents accessible on a wall. On the other side, Generic wall hardware needs matching to your wall type. That's the main tradeoff to weigh against everything above.",
+    specs: ["Solid steel, powder coated finish","1.8cm to 7.1cm adjustable width","Wall, VESA, and pole mounting","5kg (about 11 lb) weight capacity","3-year manufacturer warranty"],
+    pros: ["Longest warranty in this guide","Open-frame design keeps ports and vents accessible on a wall","Rust-resistant steel build","Flexible across wall, VESA, and pole mounting"],
+    cons: ["11 lb capacity is average, not class-leading","No cable management feature built in","Generic wall hardware needs matching to your wall type"],
     bestFor: "Buyers who want a dependable wall mount backed by the longest warranty in this guide.",
   },
   {
@@ -149,13 +142,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31kNvSkfybL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B2PTMHDD?tag=deskfinds0d-20",
-    description:
-      "This bracket adjusts from 0.6 to 2.7 inches of width and is rated to support up to 11 pounds on solid steel with a rust-proof coating. The listing specifically calls out its open-frame design as reducing thermal throttling risk, which matters on a wall where a Mini PC often sits in a corner with less casual airflow than a desk surface provides.\n\nWall mounting is supported alongside pole clamping and under-desk installation, all using the same hardware kit. Rubber pads protect the device's housing, and adjustable shoulder straps keep it from sliding once wall-mounted.",
-    specs: ["Solid steel construction", "0.6\" to 2.7\" adjustable width", "Wall, pole, and under-desk mounting", "11 lb weight capacity", "Open-frame cooling design"],
-    pros: ["Explicitly designed around airflow, useful in an enclosed wall corner", "11 lb capacity covers most Mini PCs", "Rubber pads prevent scratching", "24/7 support stated in the listing"],
-    cons: ["Same 11 lb ceiling as several other picks here", "Open-frame design offers less physical protection than an enclosed bracket", "Strap-based retention needs periodic tightness checks over time"],
+    description: "This bracket adjusts from 0.6 to 2.7 inches of width and is rated to support up to 11 pounds on solid steel with a rust-proof coating. The listing specifically calls out its open-frame design as reducing thermal throttling risk, which matters on a wall where a Mini PC often sits in a corner with less casual airflow than a desk surface provides.\n\nOne spot below VIVO Adjustable Thin Client Mini PC Wall Mount Bracket in this ranking, it costs more than VIVO Adjustable Thin Client Mini PC Wall Mount Bracket. The compromise here is straightforward: Same 11 lb ceiling as several other picks here. What you gain in return: Explicitly designed around airflow, useful in an enclosed wall corner. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: 11 lb capacity covers most Mini PCs. On the other side, Strap-based retention needs periodic tightness checks over time. That's the main tradeoff to weigh against everything above.",
+    specs: ["Solid steel construction","0.6\" to 2.7\" adjustable width","Wall, pole, and under-desk mounting","11 lb weight capacity","Open-frame cooling design"],
+    pros: ["Explicitly designed around airflow, useful in an enclosed wall corner","11 lb capacity covers most Mini PCs","Rubber pads prevent scratching","24/7 support stated in the listing"],
+    cons: ["Same 11 lb ceiling as several other picks here","Open-frame design offers less physical protection than an enclosed bracket","Strap-based retention needs periodic tightness checks over time"],
     bestFor: "Buyers wall-mounting a Mini PC in a tight corner or enclosed spot who are worried about trapped heat.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -170,66 +162,118 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Your Mini PC Brand",
-    table: {
-      headers: ["Your Mini PC", "Recommended pick"],
-      rows: [
-        ["Lenovo ThinkCentre Tiny (named models)", "Mini PC Wall Mount for Lenovo ThinkCentre Tiny Desktops"],
-        ["Dell OptiPlex Micro (named models)", "Mini PC Wall Mount for Dell Micro OptiPlex"],
-        ["Mixed fleet of Dell, Lenovo, HP models", "Universal Wall and VESA Mount for Micro PC"],
-        ["Any brand, budget priority", "Monzlteck Adjustable Small Device Wall Mount"],
+    "subheading": "By Mounting Surface",
+    "table": {
+      "headers": [
+        "Where it's going",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Behind a monitor or TV (VESA)",
+          "Universal Wall and VESA Mount for Micro PC"
+        ],
+        [
+          "Server rack (10-inch or 19-inch)",
+          "HumanCentric Thin Client Mount Bracket"
+        ],
+        [
+          "Wall or under-desk",
+          "Universal Wall and VESA Mount for Micro PC"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Wall Anchor Type Matters More Than the Mount Itself",
-    intro: "The mount's own rating means little if the anchor holding it to the wall is not rated for the load and location.",
-    table: {
-      headers: ["Wall situation", "What to use"],
-      rows: [
-        ["Mounting into a stud", "Any mount here, screws directly into a stud are the strongest anchor point available"],
-        ["Mounting into drywall only, no stud reachable", "Use the included drywall anchors, but expect a lower practical weight margin than the mount's stated rating"],
-        ["Renting and cannot drill", "NOTMBESTM Adjustable Wall Mount Shelf, which supports adhesive installation"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $20",
+          "NOTMBESTM Adjustable Wall Mount Shelf for Mini PC"
+        ],
+        [
+          "Mid-range",
+          "Universal Wall and VESA Mount for Micro PC"
+        ],
+        [
+          "No firm budget ceiling, prioritizing brand-specific fit",
+          "HumanCentric Thin Client Mount Bracket"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Cable Routing to a Wall-Mounted Mini PC",
-    cards: [
-      { label: "Near an outlet already", text: "Any mount here works fine, cable runs stay short" },
-      { label: "Far from the nearest outlet", text: "Plan for a cable raceway or extension separately, since none of these mounts include long-distance cable routing" },
+    "subheading": "Brand-Specific Fit vs Universal Compatibility",
+    "cards": [
+      {
+        "label": "Brand-Specific Fit",
+        "text": "Matches one specific chassis shape exactly, generally a more secure fit for that exact model. In this comparison: Universal Wall and VESA Mount for Micro PC."
+      },
+      {
+        "label": "Universal / Multi-Brand",
+        "text": "Works across several mini PC brands with adjustable hardware, more flexible if you might switch devices later. In this comparison: Universal Wall and VESA Mount for Micro PC."
+      }
     ],
+    "note": "Confirm your exact mini PC model against the listing's stated compatibility either way, since even a \"universal\" mount has real size limits."
   },
   {
-    subheading: "Airflow in a Wall Corner or Enclosed Spot",
-    table: {
-      headers: ["Mounting spot", "What to check"],
-      rows: [
-        ["Open wall section with clearance on all sides", "Any mount here provides adequate airflow"],
-        ["Tight corner or behind furniture", "Favor an open-frame bracket, like the suptek mount in this guide"],
-        ["Fully enclosed cabinet or nook", "Reconsider wall mounting and check our under-desk options in the broader mounts guide instead"],
-      ],
-    },
+    "subheading": "By Post-Install Port Access",
+    "note": "None of these picks specifically advertise preserved front-port access after mounting; check each listing's product photos for where the ports land once installed if that matters to you."
   },
   {
-    subheading: "Renter-Friendly vs Permanent Installation",
-    table: {
-      headers: ["Priority", "What to choose"],
-      rows: [
-        ["No holes, must be removable", "NOTMBESTM Adjustable Wall Mount Shelf with adhesive option"],
-        ["Long-term permanent install", "A stud-anchored steel bracket, like the Universal Wall and VESA Mount"],
-        ["Uncertain how long you'll stay in the space", "Favor adhesive or minimal-hole hardware over a heavy multi-screw bracket"],
-      ],
-    },
+    "subheading": "For a Home Lab Rack Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation of 10-inch (home-lab) versus 19-inch (commercial) rack compatibility, since these are different standards, plus whether it's full or half rack-unit width."
+      },
+      {
+        "label": "In this comparison",
+        "text": "HumanCentric Thin Client Mount Bracket fits this specifically: Highest published weight rating for wall mounting in this guide."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what HumanCentric Thin Client Mount Bracket offers: Highest published weight rating for wall mounting in this guide. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "NOTMBESTM Adjustable Wall Mount Shelf for Mini PC already covers the essentials: Lowest price in this guide. The main thing you'd be paying extra for elsewhere in this list is broader compatibility you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Wall anchor rating tied to wall material", explanation: "A mount's stated weight capacity assumes ideal anchoring. A stud gives the strongest hold; drywall anchors alone are weaker and better suited to lighter devices. Match the anchor type to your actual wall before trusting the mount's full rated capacity." },
-  { criterion: "Wall-primary vs VESA-primary marketing", explanation: "Several products in this category list wall mounting as one of two or three options rather than their primary use case. Check whether wall mounting is a first-class feature or an afterthought in the product photos and instructions." },
-  { criterion: "Cable routing to a wall-mounted spot", explanation: "A Mini PC mounted on a wall is often farther from an outlet than one sitting on or under a desk. Plan your cable run before mounting, since none of these brackets solve long-distance cable routing on their own." },
-  { criterion: "Mounted airflow in a corner or enclosed spot", explanation: "Walls often mean corners, behind furniture, or other tighter spots than an open desk surface. An open-frame bracket helps, but the real airflow risk comes from the specific spot you choose to mount in, not just the bracket's design." },
-  { criterion: "Renter-friendliness vs permanence", explanation: "Drywall holes are a real cost if you rent, while a stud-anchored bracket is the sturdier long-term choice if you own your space. Weigh this tradeoff explicitly rather than defaulting to whichever mount looks sturdiest." },
+  {
+    "criterion": "Verify your exact mini PC model against the mount's stated compatibility list",
+    "explanation": "Mini PC mounts and brackets are built around specific chassis dimensions and screw-hole patterns, and unlike a universal VESA monitor mount, many mini PC brackets are designed for one specific brand's chassis shape, such as Dell OptiPlex Micro, Lenovo ThinkCentre Tiny, HP EliteDesk Mini, or a specific generation of Mac mini.\n\nMounting hardware that doesn't match your exact model can fail to align with the screw holes at all, or worse, only partially secure the device, creating a real risk of it working loose over time in a mount that's supposed to hold it stationary.\n\nCheck the listing's stated compatible models and generations specifically against your own mini PC's exact model number, not just the general \"mini PC\" category claim in the title."
+  },
+  {
+    "criterion": "Confirm the mount's actual mounting surface (VESA, rack, wall, or under-desk) matches your install location",
+    "explanation": "Mini PC mounts split into genuinely different installation categories: VESA mounts attach to the back of a monitor or TV using the standardized VESA hole pattern, rack mounts fit a 10-inch home-lab or 19-inch commercial server rack, wall mounts attach directly to drywall or a stud, and under-desk mounts clamp to the underside of a desk surface, and these are not interchangeable hardware despite all falling under the same general product category.\n\nBuying a rack-format shelf when you actually need a VESA bracket, for instance, means the hardware simply won't attach to your intended surface at all, since the mounting mechanism itself is fundamentally different between categories.\n\nIdentify your specific installation surface first (monitor back, rack, wall, or desk underside) and filter specifically for that mount type, rather than searching generically for \"mini PC mount\" and assuming any result will work for your setup."
+  },
+  {
+    "criterion": "Check the stated weight capacity against your mini PC's actual weight",
+    "explanation": "A mount's weight capacity, when disclosed, reflects how much load the bracket's screws, arms, and adhesive or clamping mechanism can safely hold long-term without gradually sagging, loosening, or failing outright, and mini PCs vary meaningfully in weight depending on their chassis material and internal components, from under a pound for the lightest fanless designs to several pounds for units with larger heatsinks or multiple drive bays.\n\nMounting a device at or near a bracket's rated limit, especially on a mount holding the device at an angle or overhead behind a monitor, leaves little margin for the natural loosening that happens over months of use, vibration, or repeated adjustment.\n\nWeigh your specific mini PC model (check its listed weight spec) against the mount's stated capacity, and favor a mount with meaningful headroom above your device's actual weight rather than one rated right at the edge."
+  },
+  {
+    "criterion": "Consider port and cable access after the mount is installed, not just before",
+    "explanation": "A mini PC's ports are typically concentrated on the rear and sometimes front panel, and once mounted, especially behind a monitor, inside a rack, or under a desk, those ports can become significantly harder to reach for routine tasks like plugging in a USB drive or checking a status light, even though the mount holds the device perfectly securely.\n\nSome mounts are specifically designed to preserve front-panel port access after installation, while others prioritize a low-profile or flush mount that trades away easy access for a cleaner look, and this is a real day-to-day usability tradeoff that photos alone don't always make obvious.\n\nThink through which ports you'll need to access regularly after mounting (power, a USB drive, HDMI swaps) and check whether the specific mount's design keeps those reachable, rather than only checking that it physically holds the device."
+  },
+  {
+    "criterion": "Check what installation hardware is actually included versus what you'll need to source separately",
+    "explanation": "Mount listings vary in how complete their included hardware kit is, some ship with every screw, VESA adapter plate, and cable tie needed for a full installation, while others assume you already have compatible mounting screws from the mini PC's original packaging or a previous mount, which isn't always the case if you're mounting a device for the first time or switching setups.\n\nThis matters because discovering mid-installation that you're missing a specific screw size or an adapter plate means a delayed setup and a second order, a genuinely avoidable frustration.\n\nCheck the listing's stated included contents specifically, and if you no longer have your mini PC's original mounting screws, confirm the mount ships with compatible replacements rather than assuming they're included by default."
+  }
 ];
 
 export const faq: FaqItem[] = [

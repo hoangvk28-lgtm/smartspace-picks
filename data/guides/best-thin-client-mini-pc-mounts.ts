@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41nWvL8pqlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KY3LHVG?tag=deskfinds0d-20",
-    description:
-      "This bracket is explicitly marketed with \"thin client\" in its own product name, and its 0.65 to 2.55 inch adjustable depth genuinely matches the compact chassis common to enterprise thin-client hardware. It supports up to 11 lbs on its own, well above what most thin clients weigh.\n\nThree mounting options, under-desk, behind-monitor, and pole-mount, cover the typical placement needs in an office deployment. Silicone strips protect the device during handling, useful when IT staff are mounting many units across a fleet.",
-    specs: ["0.65\" to 2.55\" adjustable depth", "Up to 11 lb capacity", "VESA 75x75mm and 100x100mm", "3 mounting options"],
-    pros: ["Explicitly branded for thin-client use", "Load capacity well above typical thin-client weight", "Multiple mounting options for varied office layouts", "Includes device-protecting silicone strips"],
-    cons: ["NUC compatibility limited to side-power-button models if mixing device types", "No bulk-purchase discount tier listed", "Each unit requires separate purchase for a multi-desk deployment"],
+    description: "This bracket is explicitly marketed with \"thin client\" in its own product name, and its 0.65 to 2.55 inch adjustable depth genuinely matches the compact chassis common to enterprise thin-client hardware. It supports up to 11 lbs on its own, well above what most thin clients weigh.\n\nIt earns the top spot in this comparison over VIVO Adjustable Thin Client Mini PC Mount Bracket for one main reason. Explicitly branded for thin-client use. On price, it's actually priced above VIVO Adjustable Thin Client Mini PC Mount Bracket, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Load capacity well above typical thin-client weight. On the other side, Each unit requires separate purchase for a multi-desk deployment. That's the main tradeoff to weigh against everything above.",
+    specs: ["0.65\" to 2.55\" adjustable depth","Up to 11 lb capacity","VESA 75x75mm and 100x100mm","3 mounting options"],
+    pros: ["Explicitly branded for thin-client use","Load capacity well above typical thin-client weight","Multiple mounting options for varied office layouts","Includes device-protecting silicone strips"],
+    cons: ["NUC compatibility limited to side-power-button models if mixing device types","No bulk-purchase discount tier listed","Each unit requires separate purchase for a multi-desk deployment"],
     bestFor: "IT teams deploying thin clients across several desks who want one consistent, well-rated mount.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/419hWbxp-bL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B082FMHW2Q?tag=deskfinds0d-20",
-    description:
-      "Also branded with \"thin client\" in its title, this VIVO bracket lists a documented 3-year manufacturer warranty, valuable for a bulk deployment where individual units will fail over years of service and IT staff want a predictable replacement policy. It spans 1.8 to 7.1 cm of adjustable width.\n\nSolid steel with a powder-coated finish supports up to 5 kg, and adjustable straps with rubber pads prevent device movement, relevant in busy office environments with regular desk activity nearby.",
-    specs: ["1.8cm to 7.1cm adjustable width", "5 kg support", "3-year manufacturer warranty", "Open-frame ventilation"],
-    pros: ["3-year warranty suits a multi-unit fleet deployment", "Explicitly thin-client branded", "Steel construction with rust-resistant coating", "Documented named-brand compatibility"],
-    cons: ["5 kg rating is more than adequate for thin clients but limits reuse for heavier Mini PCs later", "No dedicated bulk-order option through Amazon listing", "Open frame trades some device concealment for airflow"],
+    description: "Also branded with \"thin client\" in its title, this VIVO bracket lists a documented 3-year manufacturer warranty, valuable for a bulk deployment where individual units will fail over years of service and IT staff want a predictable replacement policy. It spans 1.8 to 7.1 cm of adjustable width.\n\nOne spot below HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm in this ranking, it's priced lower than HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm. The compromise here is straightforward: 5 kg rating is more than adequate for thin clients but limits reuse for heavier Mini PCs later. What you gain in return: 3-year warranty suits a multi-unit fleet deployment. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Explicitly thin-client branded. On the other side, Open frame trades some device concealment for airflow. That's the main tradeoff to weigh against everything above.",
+    specs: ["1.8cm to 7.1cm adjustable width","5 kg support","3-year manufacturer warranty","Open-frame ventilation"],
+    pros: ["3-year warranty suits a multi-unit fleet deployment","Explicitly thin-client branded","Steel construction with rust-resistant coating","Documented named-brand compatibility"],
+    cons: ["5 kg rating is more than adequate for thin clients but limits reuse for heavier Mini PCs later","No dedicated bulk-order option through Amazon listing","Open frame trades some device concealment for airflow"],
     bestFor: "IT departments prioritizing a documented warranty across a repeatable multi-desk installation.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31kNvSkfybL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B2PTMHDD?tag=deskfinds0d-20",
-    description:
-      "Also explicitly thin-client branded, this bracket's open-frame design specifically calls out reduced thermal throttling risk, relevant for thin clients running continuously through an office workday. Its 0.6 to 2.7 inch width range covers the compact chassis most thin clients use.\n\nSteel construction rated for 11 lbs is comfortably above typical thin-client weight, and stated round-the-clock technical support is a practical consideration for IT teams managing a fleet who may need help outside business hours.",
-    specs: ["0.6\" to 2.7\" adjustable width", "11 lb rated support", "Open-frame ventilated design", "24/7 stated technical support"],
-    pros: ["Ventilated design suited to continuously-running thin clients", "24/7 support stated in the listing, useful for IT teams", "Lower price point for multi-unit purchases", "Named-brand compatibility list"],
-    cons: ["No bulk pricing tier visible on the listing", "Similar spec sheet to competitors at this price makes differentiation modest", "No wall anchor hardware included"],
+    description: "Also explicitly thin-client branded, this bracket's open-frame design specifically calls out reduced thermal throttling risk, relevant for thin clients running continuously through an office workday. Its 0.6 to 2.7 inch width range covers the compact chassis most thin clients use.\n\nSitting just under VIVO Adjustable Thin Client Mini PC Mount Bracket, it costs more than VIVO Adjustable Thin Client Mini PC Mount Bracket. Here's the honest tradeoff: No bulk pricing tier visible on the listing. And here's what it gets you instead: Ventilated design suited to continuously-running thin clients. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: 24/7 support stated in the listing, useful for IT teams. On the other side, No wall anchor hardware included. That's the main tradeoff to weigh against everything above.",
+    specs: ["0.6\" to 2.7\" adjustable width","11 lb rated support","Open-frame ventilated design","24/7 stated technical support"],
+    pros: ["Ventilated design suited to continuously-running thin clients","24/7 support stated in the listing, useful for IT teams","Lower price point for multi-unit purchases","Named-brand compatibility list"],
+    cons: ["No bulk pricing tier visible on the listing","Similar spec sheet to competitors at this price makes differentiation modest","No wall anchor hardware included"],
     bestFor: "Budget-conscious IT deployments buying multiple units where continuous ventilation matters.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41PIBhYD0hL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CB2CPVRC?tag=deskfinds0d-20",
-    description:
-      "Lenovo ThinkCentre Tiny desktops are a common thin-client-adjacent enterprise device, and this mount is purpose-built for that exact chassis with specific model numbers named in its listing (M700, M710Q, M715q, M720Q, M900, M910Q, and more). This is the pick to standardize on if your fleet is genuinely Lenovo ThinkCentre.\n\nAnti-scratch rubber padding and Velcro straps for the power adapter keep the setup tidy across many identical installations, and wall or under-desk mounting covers common office layouts.",
-    specs: ["Purpose-built for Lenovo ThinkCentre Tiny models", "Wall or under-desk mounting", "VESA 75x75mm and 100x100mm", "Power adapter Velcro straps included"],
-    pros: ["Named specific ThinkCentre model compatibility, not generic", "Power adapter cable management included", "Anti-scratch padding protects the device", "Consistent fit across a same-model Lenovo fleet"],
-    cons: ["Only fits the named ThinkCentre models, not other brands", "Not appropriate if your deployment mixes device brands", "No documented load rating in the listing"],
+    description: "Lenovo ThinkCentre Tiny desktops are a common thin-client-adjacent enterprise device, and this mount is purpose-built for that exact chassis with specific model numbers named in its listing (M700, M710Q, M715q, M720Q, M900, M910Q, and more). This is the pick to standardize on if your fleet is genuinely Lenovo ThinkCentre.\n\nRanked just behind suptek Thin Client Mount Bracket Adjustable Mini PC Mount Bracket, it costs more than suptek Thin Client Mount Bracket Adjustable Mini PC Mount Bracket. The real tradeoff against that pick: Only fits the named ThinkCentre models, not other brands. In exchange, it offers this instead: Named specific ThinkCentre model compatibility, not generic. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Power adapter cable management included. On the other side, No documented load rating in the listing. That's the main tradeoff to weigh against everything above.",
+    specs: ["Purpose-built for Lenovo ThinkCentre Tiny models","Wall or under-desk mounting","VESA 75x75mm and 100x100mm","Power adapter Velcro straps included"],
+    pros: ["Named specific ThinkCentre model compatibility, not generic","Power adapter cable management included","Anti-scratch padding protects the device","Consistent fit across a same-model Lenovo fleet"],
+    cons: ["Only fits the named ThinkCentre models, not other brands","Not appropriate if your deployment mixes device brands","No documented load rating in the listing"],
     bestFor: "Organizations standardized specifically on Lenovo ThinkCentre Tiny desktops across their deployment.",
   },
   {
@@ -98,13 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41X2PrniDzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C9SVTQHG?tag=deskfinds0d-20",
-    description:
-      "Dell OptiPlex Micro is another common enterprise small form factor device, and this mount is purpose-built specifically for that 1.4 x 7 x 7.2 inch chassis size, with a long list of named-compatible OptiPlex model numbers in its listing. If your fleet is Dell OptiPlex Micro specifically, this is a more precise fit than a generic bracket.\n\nA notable caveat from the listing itself: if mounting to the back of a monitor, this uses the VESA holes exclusively, meaning you won't be able to also use those holes for a monitor arm at the same time. Plan your mounting location accordingly.",
-    specs: ["Purpose-built for Dell OptiPlex Micro 1.4\"x7\"x7.2\" chassis", "Wall or under-desk mounting", "VESA 75x75mm and 100x100mm", "Power adapter Velcro straps included"],
-    pros: ["Named specific Dell OptiPlex Micro model compatibility", "Power adapter cable management included", "Precise fit for the exact chassis dimensions", "Consistent fit across a same-model Dell fleet"],
-    cons: ["VESA mounting uses the monitor's holes exclusively, can't combine with a monitor arm on the same point", "Only fits OptiPlex Micro form factor, not tower or SFF Dell models", "No documented load rating in the listing"],
+    description: "Dell OptiPlex Micro is another common enterprise small form factor device, and this mount is purpose-built specifically for that 1.4 x 7 x 7.2 inch chassis size, with a long list of named-compatible OptiPlex model numbers in its listing. If your fleet is Dell OptiPlex Micro specifically, this is a more precise fit than a generic bracket.\n\nOne spot below Mini PC Mount for Lenovo ThinkCentre Tiny Desktops in this ranking, it costs more than Mini PC Mount for Lenovo ThinkCentre Tiny Desktops. The compromise here is straightforward: VESA mounting uses the monitor's holes exclusively, can't combine with a monitor arm on the same point. What you gain in return: Named specific Dell OptiPlex Micro model compatibility. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Power adapter cable management included. On the other side, No documented load rating in the listing. That's the main tradeoff to weigh against everything above.",
+    specs: ["Purpose-built for Dell OptiPlex Micro 1.4\"x7\"x7.2\" chassis","Wall or under-desk mounting","VESA 75x75mm and 100x100mm","Power adapter Velcro straps included"],
+    pros: ["Named specific Dell OptiPlex Micro model compatibility","Power adapter cable management included","Precise fit for the exact chassis dimensions","Consistent fit across a same-model Dell fleet"],
+    cons: ["VESA mounting uses the monitor's holes exclusively, can't combine with a monitor arm on the same point","Only fits OptiPlex Micro form factor, not tower or SFF Dell models","No documented load rating in the listing"],
     bestFor: "Organizations standardized on Dell OptiPlex Micro form factor desktops who need a precise, named-model fit.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,46 +113,114 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Your Fleet's Brand",
-    table: {
-      headers: ["Your fleet", "Recommended pick"],
-      rows: [
-        ["Mixed brands or generic thin clients", "HumanCentric Thin Client Mount"],
-        ["Lenovo ThinkCentre Tiny", "Mini PC Mount for Lenovo ThinkCentre"],
-        ["Dell OptiPlex Micro", "Mini PC Mount for Dell Micro Mount"],
+    "subheading": "By Mounting Surface",
+    "table": {
+      "headers": [
+        "Where it's going",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Behind a monitor or TV (VESA)",
+          "HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm"
+        ],
+        [
+          "Server rack (10-inch or 19-inch)",
+          "HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Named vs Generic Compatibility",
-    cards: [
-      { label: "Named-model mount", text: "Better precision fit and confidence for a standardized single-brand fleet." },
-      { label: "Generic adjustable mount", text: "More flexible for mixed-brand deployments or if hardware may change over time." },
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $20",
+          "VIVO Adjustable Thin Client Mini PC Mount Bracket"
+        ],
+        [
+          "Mid-range",
+          "Mini PC Mount for Lenovo ThinkCentre Tiny Desktops"
+        ],
+        [
+          "No firm budget ceiling, prioritizing brand-specific fit",
+          "HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Brand-Specific Fit vs Universal Compatibility",
+    "cards": [
+      {
+        "label": "Brand-Specific Fit",
+        "text": "Matches one specific chassis shape exactly, generally a more secure fit for that exact model. In this comparison: HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm."
+      },
+      {
+        "label": "Universal / Multi-Brand",
+        "text": "Works across several mini PC brands with adjustable hardware, more flexible if you might switch devices later. In this comparison: Mini PC Mount for Lenovo ThinkCentre Tiny Desktops."
+      }
     ],
+    "note": "Confirm your exact mini PC model against the listing's stated compatibility either way, since even a \"universal\" mount has real size limits."
   },
   {
-    subheading: "Plan for Multi-Unit Deployment",
-    table: {
-      headers: ["Consideration", "What to check"],
-      rows: [
-        ["Warranty length", "Longer warranty reduces replacement cost risk across a large fleet"],
-        ["Consistent mounting location", "Standardize on one mounting method (wall, under-desk) across all desks for easier IT support"],
-        ["VESA point conflict", "Check whether the mount uses the monitor's VESA holes exclusively, which can block a monitor arm on the same point"],
-      ],
-    },
+    "subheading": "By Post-Install Port Access",
+    "note": "None of these picks specifically advertise preserved front-port access after mounting; check each listing's product photos for where the ports land once installed if that matters to you."
   },
   {
-    subheading: "Sizing Appropriately for Lighter Hardware",
-    note: "Thin clients are typically lighter and smaller than general consumer Mini PCs. Avoid unnecessarily oversized, heavy-duty mounts rated for much heavier devices when a lighter, more economical mount will do the job just as well.",
+    "subheading": "For a Home Lab Rack Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation of 10-inch (home-lab) versus 19-inch (commercial) rack compatibility, since these are different standards, plus whether it's full or half rack-unit width."
+      },
+      {
+        "label": "In this comparison",
+        "text": "HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm fits this specifically: Explicitly branded for thin-client use."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm offers: Explicitly branded for thin-client use. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "VIVO Adjustable Thin Client Mini PC Mount Bracket already covers the essentials: 3-year warranty suits a multi-unit fleet deployment. The main thing you'd be paying extra for elsewhere in this list is broader compatibility you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm this is genuinely thin-client scaled", explanation: "Thin clients are typically lighter and smaller than general consumer Mini PCs. Verify the mount isn't unnecessarily oversized or heavy-duty for this genuinely lighter use case." },
-  { criterion: "Named-model compatibility for standardized fleets", explanation: "If your organization deploys one specific brand and model, a purpose-built mount like the Lenovo ThinkCentre or Dell OptiPlex Micro picks offers a more precise fit than a generic bracket." },
-  { criterion: "Enterprise deployment context matters", explanation: "Multiple thin clients mounted under many desks in a corporate or call-center environment benefit from consistent mounting method and documented warranty coverage more than a single home-office purchase would." },
-  { criterion: "Bulk deployment consistency", explanation: "Standardizing on one mount across many workstations simplifies IT support and replacement planning, even if a slightly cheaper alternative exists for a single unit." },
-  { criterion: "Cross-reference shared mounting-method checks", explanation: "The underlying VESA pattern, wall anchor, and under-desk clearance considerations that apply to any Mini PC mount still apply to thin-client mounts, this category doesn't exempt you from those checks." },
+  {
+    "criterion": "Verify your exact mini PC model against the mount's stated compatibility list",
+    "explanation": "Mini PC mounts and brackets are built around specific chassis dimensions and screw-hole patterns, and unlike a universal VESA monitor mount, many mini PC brackets are designed for one specific brand's chassis shape, such as Dell OptiPlex Micro, Lenovo ThinkCentre Tiny, HP EliteDesk Mini, or a specific generation of Mac mini.\n\nMounting hardware that doesn't match your exact model can fail to align with the screw holes at all, or worse, only partially secure the device, creating a real risk of it working loose over time in a mount that's supposed to hold it stationary.\n\nCheck the listing's stated compatible models and generations specifically against your own mini PC's exact model number, not just the general \"mini PC\" category claim in the title."
+  },
+  {
+    "criterion": "Confirm the mount's actual mounting surface (VESA, rack, wall, or under-desk) matches your install location",
+    "explanation": "Mini PC mounts split into genuinely different installation categories: VESA mounts attach to the back of a monitor or TV using the standardized VESA hole pattern, rack mounts fit a 10-inch home-lab or 19-inch commercial server rack, wall mounts attach directly to drywall or a stud, and under-desk mounts clamp to the underside of a desk surface, and these are not interchangeable hardware despite all falling under the same general product category.\n\nBuying a rack-format shelf when you actually need a VESA bracket, for instance, means the hardware simply won't attach to your intended surface at all, since the mounting mechanism itself is fundamentally different between categories.\n\nIdentify your specific installation surface first (monitor back, rack, wall, or desk underside) and filter specifically for that mount type, rather than searching generically for \"mini PC mount\" and assuming any result will work for your setup."
+  },
+  {
+    "criterion": "Check the stated weight capacity against your mini PC's actual weight",
+    "explanation": "A mount's weight capacity, when disclosed, reflects how much load the bracket's screws, arms, and adhesive or clamping mechanism can safely hold long-term without gradually sagging, loosening, or failing outright, and mini PCs vary meaningfully in weight depending on their chassis material and internal components, from under a pound for the lightest fanless designs to several pounds for units with larger heatsinks or multiple drive bays.\n\nMounting a device at or near a bracket's rated limit, especially on a mount holding the device at an angle or overhead behind a monitor, leaves little margin for the natural loosening that happens over months of use, vibration, or repeated adjustment.\n\nWeigh your specific mini PC model (check its listed weight spec) against the mount's stated capacity, and favor a mount with meaningful headroom above your device's actual weight rather than one rated right at the edge."
+  },
+  {
+    "criterion": "Consider port and cable access after the mount is installed, not just before",
+    "explanation": "A mini PC's ports are typically concentrated on the rear and sometimes front panel, and once mounted, especially behind a monitor, inside a rack, or under a desk, those ports can become significantly harder to reach for routine tasks like plugging in a USB drive or checking a status light, even though the mount holds the device perfectly securely.\n\nSome mounts are specifically designed to preserve front-panel port access after installation, while others prioritize a low-profile or flush mount that trades away easy access for a cleaner look, and this is a real day-to-day usability tradeoff that photos alone don't always make obvious.\n\nThink through which ports you'll need to access regularly after mounting (power, a USB drive, HDMI swaps) and check whether the specific mount's design keeps those reachable, rather than only checking that it physically holds the device."
+  },
+  {
+    "criterion": "Check what installation hardware is actually included versus what you'll need to source separately",
+    "explanation": "Mount listings vary in how complete their included hardware kit is, some ship with every screw, VESA adapter plate, and cable tie needed for a full installation, while others assume you already have compatible mounting screws from the mini PC's original packaging or a previous mount, which isn't always the case if you're mounting a device for the first time or switching setups.\n\nThis matters because discovering mid-installation that you're missing a specific screw size or an adapter plate means a delayed setup and a second order, a genuinely avoidable frustration.\n\nCheck the listing's stated included contents specifically, and if you no longer have your mini PC's original mounting screws, confirm the mount ships with compatible replacements rather than assuming they're included by default."
+  }
 ];
 
 export const faq: FaqItem[] = [

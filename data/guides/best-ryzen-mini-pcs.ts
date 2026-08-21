@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "1,247 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41NGsh2eXOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C7437S8H?tag=deskfinds0d-20",
-    description:
-      "A genuinely capable Ryzen 5 5625U, a U-class chip prioritizing efficiency, with 6 cores and 12 threads for solid everyday multitasking.\n\nA large, well-established review base gives real confidence in this Ryzen chip's reliability across thousands of real-world configurations.",
-    specs: ["AMD Ryzen 5 5625U (U-class), 6C/12T", "Compact mini PC form factor", "Large review base", "Budget-friendly price"],
-    pros: ["U-class chip genuinely prioritizes efficiency for everyday use", "Large, well-established review base for confidence", "6-core, 12-thread configuration for solid multitasking", "Budget-friendly price for the Ryzen performance offered"],
-    cons: ["U-class chip trades peak performance for efficiency, verify this suits demanding tasks", "Check sustained-load thermal reports for this specific chassis", "Not suited for the most demanding parallel workloads"],
+    description: "A genuinely capable Ryzen 5 5625U, a U-class chip prioritizing efficiency, with 6 cores and 12 threads for solid everyday multitasking.\n\nIt earns the top spot in this comparison over Beelink SER5 Mini PC for one main reason. U-class chip genuinely prioritizes efficiency for everyday use. On price, it comes in below Beelink SER5 Mini PC, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Large, well-established review base for confidence. On the other side, Not suited for the most demanding parallel workloads. That's the main tradeoff to weigh against everything above.",
+    specs: ["AMD Ryzen 5 5625U (U-class), 6C/12T","Compact mini PC form factor","Large review base","Budget-friendly price"],
+    pros: ["U-class chip genuinely prioritizes efficiency for everyday use","Large, well-established review base for confidence","6-core, 12-thread configuration for solid multitasking","Budget-friendly price for the Ryzen performance offered"],
+    cons: ["U-class chip trades peak performance for efficiency, verify this suits demanding tasks","Check sustained-load thermal reports for this specific chassis","Not suited for the most demanding parallel workloads"],
     bestFor: "Buyers wanting a well-proven, efficient Ryzen U-class chip for everyday multitasking",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "892 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/517j12WiQeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D6G965BC?tag=deskfinds0d-20",
-    description:
-      "Another U-class Ryzen 5 5500U with 16GB RAM and generous 480GB storage included, appropriate for buyers wanting a complete configured system rather than a barebones kit.\n\nA solid review base backs this efficient chip's reliability for everyday productivity work.",
-    specs: ["AMD Ryzen 5 5500U (U-class), 6C/12T", "16GB DDR4 RAM", "480GB M.2 SSD", "Complete configured system"],
-    pros: ["Complete configured system with RAM and storage included", "Solid review base for this U-class chip", "16GB RAM covers typical everyday productivity", "Efficient U-class chip for lower power draw"],
-    cons: ["U-class chip trades peak performance for efficiency", "Slightly lower rating than the top pick, verify current reviews", "Check sustained-load thermal reports for this specific chassis"],
+    description: "Another U-class Ryzen 5 5500U with 16GB RAM and generous 480GB storage included, appropriate for buyers wanting a complete configured system rather than a barebones kit.\n\nOne spot below Beelink SER5 Pro Mini PC in this ranking, it costs more than Beelink SER5 Pro Mini PC. The compromise here is straightforward: U-class chip trades peak performance for efficiency. What you gain in return: Complete configured system with RAM and storage included. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Solid review base for this U-class chip. On the other side, Check sustained-load thermal reports for this specific chassis. That's the main tradeoff to weigh against everything above.",
+    specs: ["AMD Ryzen 5 5500U (U-class), 6C/12T","16GB DDR4 RAM","480GB M.2 SSD","Complete configured system"],
+    pros: ["Complete configured system with RAM and storage included","Solid review base for this U-class chip","16GB RAM covers typical everyday productivity","Efficient U-class chip for lower power draw"],
+    cons: ["U-class chip trades peak performance for efficiency","Slightly lower rating than the top pick, verify current reviews","Check sustained-load thermal reports for this specific chassis"],
     bestFor: "Buyers wanting a complete configured U-class Ryzen system with RAM and storage included",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "341 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41mRy1hD2yL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FW43RV3D?tag=deskfinds0d-20",
-    description:
-      "A Ryzen 7 7730U paired with 32GB RAM, appropriate for buyers wanting more RAM headroom than typical U-class configurations while staying in an efficient power envelope.\n\nDual NIC networking adds real value for buyers also using this as a home server alongside general productivity work.",
-    specs: ["AMD Ryzen 7 7730U (U-class), 32GB RAM", "512GB SSD", "Dual NIC networking", "Gaming-capable build"],
-    pros: ["32GB RAM gives more headroom than typical U-class configurations", "Dual NIC networking adds value beyond pure productivity use", "Solid review base and rating", "Efficient U-class chip for lower power draw"],
-    cons: ["Still a U-class chip, not the peak-performance HX tier", "Check sustained-load thermal reports for this specific chassis", "Mid-range price relative to the most budget-focused picks"],
+    description: "A Ryzen 7 7730U paired with 32GB RAM, appropriate for buyers wanting more RAM headroom than typical U-class configurations while staying in an efficient power envelope.\n\nSitting just under Beelink SER5 Mini PC, it costs more than Beelink SER5 Mini PC. Here's the honest tradeoff: Still a U-class chip, not the peak-performance HX tier. And here's what it gets you instead: 32GB RAM gives more headroom than typical U-class configurations. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Dual NIC networking adds value beyond pure productivity use. On the other side, Mid-range price relative to the most budget-focused picks. That's the main tradeoff to weigh against everything above.",
+    specs: ["AMD Ryzen 7 7730U (U-class), 32GB RAM","512GB SSD","Dual NIC networking","Gaming-capable build"],
+    pros: ["32GB RAM gives more headroom than typical U-class configurations","Dual NIC networking adds value beyond pure productivity use","Solid review base and rating","Efficient U-class chip for lower power draw"],
+    cons: ["Still a U-class chip, not the peak-performance HX tier","Check sustained-load thermal reports for this specific chassis","Mid-range price relative to the most budget-focused picks"],
     bestFor: "Buyers wanting more RAM headroom on an efficient U-class Ryzen chip",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "218 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41ydc8fgeIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FLJQW1RD?tag=deskfinds0d-20",
-    description:
-      "A genuine HS-class Ryzen 7640HS, balancing performance and heat better than a U-class chip, with 32GB DDR5 RAM and 1TB SSD for a well-specced build.\n\nAppropriate for buyers wanting a meaningful step up in sustained performance over U-class alternatives.",
-    specs: ["AMD Ryzen 7640HS (HS-class)", "32GB DDR5 RAM", "1TB SSD", "Gaming-capable build"],
-    pros: ["Genuine HS-class chip balances performance and heat better than U-class", "Fast DDR5 RAM for responsive multitasking", "1TB SSD for generous storage headroom", "Strong middle-ground performance tier"],
-    cons: ["Higher price reflecting the HS-class performance step-up", "Check sustained-load thermal reports for this specific chassis", "Smaller review base than the top picks"],
+    description: "A genuine HS-class Ryzen 7640HS, balancing performance and heat better than a U-class chip, with 32GB DDR5 RAM and 1TB SSD for a well-specced build.\n\nRanked just behind GMKtec M5 Ultra Gaming Mini PC Ryzen 7 7730U, it costs more than GMKtec M5 Ultra Gaming Mini PC Ryzen 7 7730U. The real tradeoff against that pick: Higher price reflecting the HS-class performance step-up. In exchange, it offers this instead: Genuine HS-class chip balances performance and heat better than U-class. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Fast DDR5 RAM for responsive multitasking. On the other side, Smaller review base than the top picks. That's the main tradeoff to weigh against everything above.",
+    specs: ["AMD Ryzen 7640HS (HS-class)","32GB DDR5 RAM","1TB SSD","Gaming-capable build"],
+    pros: ["Genuine HS-class chip balances performance and heat better than U-class","Fast DDR5 RAM for responsive multitasking","1TB SSD for generous storage headroom","Strong middle-ground performance tier"],
+    cons: ["Higher price reflecting the HS-class performance step-up","Check sustained-load thermal reports for this specific chassis","Smaller review base than the top picks"],
     bestFor: "Buyers wanting a genuine HS-class performance step-up over U-class Ryzen chips",
   },
   {
@@ -98,13 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "176 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/415bG0b3CeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DRP316J1?tag=deskfinds0d-20",
-    description:
-      "A genuine H-class Ryzen 7 6800H with explicitly upgradable DDR5 RAM, appropriate for buyers wanting both strong performance and future RAM expandability.\n\n1TB PCIe 4.0 SSD gives fast storage out of the box, appropriate for buyers wanting a well-rounded HS-class Ryzen build.",
-    specs: ["AMD Ryzen 7 6800H (H-class), upgradable RAM", "16GB DDR5 RAM", "1TB PCIe 4.0 SSD", "Compact mini PC form factor"],
-    pros: ["Genuine H-class chip for strong sustained performance", "Explicitly upgradable RAM avoids the soldered-memory limitation", "Fast 1TB PCIe 4.0 SSD storage", "Strong balance of performance and future expandability"],
-    cons: ["Higher price than the U-class alternatives", "Check sustained-load thermal reports for this specific chassis", "Smaller review base than the top picks"],
+    description: "A genuine H-class Ryzen 7 6800H with explicitly upgradable DDR5 RAM, appropriate for buyers wanting both strong performance and future RAM expandability.\n\nOne spot below GMKtec M6 Ultra Gaming Mini PC Ryzen 7640HS 32GB RAM DDR5 1TB SSD in this ranking, it's priced lower than GMKtec M6 Ultra Gaming Mini PC Ryzen 7640HS 32GB RAM DDR5 1TB SSD. The compromise here is straightforward: Higher price than the U-class alternatives. What you gain in return: Genuine H-class chip for strong sustained performance. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Explicitly upgradable RAM avoids the soldered-memory limitation. On the other side, Smaller review base than the top picks. That's the main tradeoff to weigh against everything above.",
+    specs: ["AMD Ryzen 7 6800H (H-class), upgradable RAM","16GB DDR5 RAM","1TB PCIe 4.0 SSD","Compact mini PC form factor"],
+    pros: ["Genuine H-class chip for strong sustained performance","Explicitly upgradable RAM avoids the soldered-memory limitation","Fast 1TB PCIe 4.0 SSD storage","Strong balance of performance and future expandability"],
+    cons: ["Higher price than the U-class alternatives","Check sustained-load thermal reports for this specific chassis","Smaller review base than the top picks"],
     bestFor: "Buyers wanting strong H-class Ryzen performance with future RAM upgradability",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,33 +113,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Decode the Ryzen Suffix Before Buying",
-    note: "AMD's Ryzen mobile chip suffixes genuinely indicate power envelope and performance tier, a U-class chip prioritizes efficiency, an HS-class chip balances performance and heat, and an HX-class chip pushes for maximum throughput, worth checking the exact suffix rather than assuming any 'Ryzen' badge means the same performance class.",
-  },
-  {
-    subheading: "Check Sustained-Load Thermals for the Specific Chassis",
-    note: "Ryzen mini PCs commonly pair the same CPU across different chassis and cooling designs, meaning two mini PCs with an identical chip can perform very differently under sustained load, worth checking sustained-load thermal reports specifically rather than trusting the CPU model alone.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Well-proven efficient U-class chip", "Beelink SER5 Pro Ryzen 5 5625U"],
-        ["Complete configured U-class system", "Beelink SER5 Ryzen 5 5500U"],
-        ["More RAM headroom on a U-class chip", "GMKtec M5 Ultra Ryzen 7 7730U"],
-        ["Genuine HS-class performance step-up", "GMKtec M6 Ultra Ryzen 7640HS"],
-        ["H-class performance with RAM upgradability", "GEEKOM A6 Ryzen 7 6800H"],
+    "subheading": "By Use Case",
+    "table": {
+      "headers": [
+        "What you're running",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Light everyday or office use",
+          "Beelink SER5 Pro Mini PC"
+        ],
+        [
+          "Demanding, sustained workloads",
+          "GMKtec M6 Ultra Gaming Mini PC Ryzen 7640HS 32GB RAM DDR5 1TB SSD"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $320",
+          "Beelink SER5 Pro Mini PC"
+        ],
+        [
+          "Mid-range",
+          "GMKtec M5 Ultra Gaming Mini PC Ryzen 7 7730U"
+        ],
+        [
+          "No firm budget ceiling, prioritizing CPU or RAM",
+          "GMKtec M6 Ultra Gaming Mini PC Ryzen 7640HS 32GB RAM DDR5 1TB SSD"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Fanless (Passive) vs Actively Cooled",
+    "cards": [
+      {
+        "label": "Fanless, Passive Cooling",
+        "text": "Completely silent with no moving parts, at the cost of throttling under sustained heavy load. In this comparison: check each listing's cooling design directly."
+      },
+      {
+        "label": "Actively Cooled (Fan)",
+        "text": "Sustains heavier workloads longer without throttling, at the cost of some fan noise under load. In this comparison: Beelink SER5 Pro Mini PC, Beelink SER5 Mini PC, GMKtec M5 Ultra Gaming Mini PC Ryzen 7 7730U."
+      }
+    ],
+    "note": "Default to a fanless pick like Beelink SER5 Pro Mini PC for a quiet home office or media setup, and step up to active cooling if you're running sustained CPU-heavy work."
+  },
+  {
+    "subheading": "By RAM and Storage Headroom",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Lightest budget-friendly configuration",
+          "Beelink SER5 Pro Mini PC"
+        ],
+        [
+          "Maximum RAM and storage headroom",
+          "GMKtec M6 Ultra Gaming Mini PC Ryzen 7640HS 32GB RAM DDR5 1TB SSD"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For GPU-Accelerated Work or Gaming Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A dedicated GPU or a confirmed Oculink/Thunderbolt eGPU connection explicitly stated in the listing, not just a generic \"gaming capable\" claim."
+      },
+      {
+        "label": "In this comparison",
+        "text": "No pick in this specific comparison explicitly confirms dedicated or external GPU support; check our eGPU-focused mini PC roundup if that's a hard requirement."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what GMKtec M6 Ultra Gaming Mini PC Ryzen 7640HS 32GB RAM DDR5 1TB SSD offers: Genuine HS-class chip balances performance and heat better than U-class. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Beelink SER5 Pro Mini PC already covers the essentials: U-class chip genuinely prioritizes efficiency for everyday use. The main thing you'd be paying extra for elsewhere in this list is headroom you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Check the exact Ryzen suffix, not just the 'Ryzen' name", explanation: "U, HS, and H-class suffixes genuinely indicate different power envelopes and performance tiers." },
-  { criterion: "Verify sustained-load thermal performance for the specific chassis", explanation: "Identical Ryzen chips can perform very differently across different cooling designs, don't assume from the chip name alone." },
-  { criterion: "Match RAM configuration and upgradability to your needs", explanation: "This varies meaningfully even among similarly classed Ryzen chips, verify the specific configuration." },
-  { criterion: "Weigh review base size as a chip-and-chassis reliability signal", explanation: "A large review base reflects proven reliability for the specific combination, not the chip in isolation." },
+  {
+    "criterion": "Match RAM and storage to your actual workload, not just the headline spec",
+    "explanation": "Mini PC listings often lead with a large RAM number like 16GB, 32GB, or 64GB, but the amount you actually need depends heavily on what you're running: basic web browsing and office work is comfortable at 8 to 16GB, while running multiple virtual machines, a Plex transcoding server, or memory-hungry emulation genuinely benefits from 32GB or more.\n\nBuying far more RAM than your workload needs is simply wasted money, while buying too little means the system will lean on slower disk-based swap memory under load, causing real stuttering that a spec sheet number won't warn you about.\n\nCheck whether the RAM is soldered (fixed at purchase) or user-upgradeable via SO-DIMM slots, since a soldered configuration means you're locked into whatever capacity you buy today with no future upgrade path."
+  },
+  {
+    "criterion": "Understand what the CPU generation and core count actually mean for your use case",
+    "explanation": "A mini PC's processor model number (like an Intel N100, N150, or a specific AMD Ryzen model) tells you its generation and general performance tier, but raw core count and clock speed matter less than how well that specific chip handles your actual workload, since a low-power efficiency chip like the N100 is genuinely fine for a home server or media player but will bottleneck video editing or modern gaming badly.\n\nThis distinction matters because two mini PCs can list similar-sounding specs while being built around completely different design goals, one optimized for low power draw and silence, the other for sustained performance under load.\n\nLook up independent benchmark results for the exact CPU model rather than trusting a generic \"powerful\" or \"fast\" marketing description, since chip model numbers are the one spec that translates directly to comparable real-world performance data."
+  },
+  {
+    "criterion": "Check whether the mini PC includes dedicated graphics or relies on integrated graphics alone",
+    "explanation": "Most mini PCs rely on integrated graphics built into the CPU itself, which handles everyday desktop use, video playback, and light gaming fine, but a genuine dedicated GPU or officially supported external GPU (eGPU) connection is a meaningfully different tier needed for serious gaming or GPU-accelerated video editing work.\n\nThis is a real distinguishing feature worth checking specifically, since \"mini PC\" as a category spans everything from a fanless office box with no gaming capability at all to a compact system that can be paired with an external GPU enclosure for near-desktop gaming performance.\n\nIf your use case involves gaming or GPU-accelerated tasks, check explicitly for a dedicated GPU or a confirmed Oculink/Thunderbolt eGPU connection rather than assuming any mini PC can be upgraded that way."
+  },
+  {
+    "criterion": "Confirm the exact port selection matches your real peripherals, not just the port count",
+    "explanation": "A mini PC's small size means its port selection is fixed at purchase with essentially no room for internal expansion the way a desktop tower allows, so the specific mix of USB versions, display outputs, and networking ports listed matters far more here than on a full-size computer.\n\nCheck specifically for the number and type of display outputs if you run multiple monitors, since some budget mini PCs only support two displays despite having enough physical ports to suggest otherwise, and check for dual Ethernet ports specifically if you're planning a home server, router, or NAS build that benefits from network redundancy or link aggregation.\n\nCount your actual peripherals and required display outputs against the listed ports before buying, since there's no expansion card slot to add what's missing later on most mini PC designs."
+  },
+  {
+    "criterion": "Weigh fanless passive cooling against active cooling for your noise and thermal tolerance",
+    "explanation": "Mini PCs use either active cooling (an internal fan that spins up under load) or fully passive fanless cooling (relying entirely on the metal chassis itself to dissipate heat), and this choice is a genuine tradeoff rather than one being strictly better: fanless designs run completely silent and have no moving parts to fail, but they also throttle performance under sustained heavy load once the passive heatsink reaches its thermal limit, something an actively cooled system with a fan can sustain longer.\n\nThis matters concretely for anyone running a 24/7 home server or media server in a bedroom or living room, where fan noise is a real annoyance, versus anyone running sustained CPU-heavy workloads like video transcoding, where a fanless design may throttle noticeably during long jobs.\n\nCheck whether cooling is explicitly described as fanless/passive or fan-cooled/active, and match that to whether silence or sustained performance matters more for where this mini PC will actually live."
+  }
 ];
 
 export const faq: FaqItem[] = [

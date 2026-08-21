@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "3 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51F4SpyR+4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H1V7B63Z?tag=deskfinds0d-20",
-    description:
-      "A genuinely fanless, passively cooled design named explicitly in the product's branding, appropriate for buyers wanting guaranteed silence for video calls and focused work.\n\nDual 2.5GbE networking is a useful bonus for buyers also running network-attached storage or a home office router role.",
-    specs: ["Genuinely fanless, passive cooling", "Intel N150 processor", "8GB RAM, 256GB storage", "Dual Intel 2.5GbE LAN"],
-    pros: ["Genuinely fanless design guarantees silent operation under any load", "Explicit 'Quieter' branding backed by passive cooling architecture", "Dual 2.5GbE networking as a useful bonus feature", "Efficient N150 processor for low-power always-on operation"],
-    cons: ["Very small review base, verify current reviews before purchase", "8GB RAM suits lighter office workflows rather than demanding multitasking", "Passive cooling means less sustained performance headroom under heavy load"],
+    description: "A genuinely fanless, passively cooled design named explicitly in the product's branding, appropriate for buyers wanting guaranteed silence for video calls and focused work.\n\nIt earns the top spot in this comparison over MeLE Quieter4C N150 Fanless Mini PC with Win-11-Pro 16GB RAM for one main reason. Genuinely fanless design guarantees silent operation under any load. On price, it comes in below MeLE Quieter4C N150 Fanless Mini PC with Win-11-Pro 16GB RAM, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Explicit 'Quieter' branding backed by passive cooling architecture. On the other side, Passive cooling means less sustained performance headroom under heavy load. That's the main tradeoff to weigh against everything above.",
+    specs: ["Genuinely fanless, passive cooling","Intel N150 processor","8GB RAM, 256GB storage","Dual Intel 2.5GbE LAN"],
+    pros: ["Genuinely fanless design guarantees silent operation under any load","Explicit 'Quieter' branding backed by passive cooling architecture","Dual 2.5GbE networking as a useful bonus feature","Efficient N150 processor for low-power always-on operation"],
+    cons: ["Very small review base, verify current reviews before purchase","8GB RAM suits lighter office workflows rather than demanding multitasking","Passive cooling means less sustained performance headroom under heavy load"],
     bestFor: "Buyers wanting guaranteed silent operation for video calls and focused home office work",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/511RCdDwIEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZGRLFLQ?tag=deskfinds0d-20",
-    description:
-      "The same genuinely fanless architecture as MeLE's other Quieter models, with 16GB RAM for buyers wanting more multitasking headroom without sacrificing silent operation.\n\nWindows 11 Pro comes preinstalled, appropriate for buyers wanting business-focused OS features out of the box.",
-    specs: ["Genuinely fanless, passive cooling", "Intel N150 processor", "16GB RAM", "Windows 11 Pro preinstalled"],
-    pros: ["Genuinely fanless design guarantees silent operation under any load", "16GB RAM gives more multitasking headroom than the entry Quieter model", "Windows 11 Pro preinstalled for business features", "Efficient N150 processor for low-power always-on operation"],
-    cons: ["Verify current reviews as this is a newer listing", "Passive cooling means less sustained performance headroom under heavy load", "Higher price than the entry-level fanless option"],
+    description: "The same genuinely fanless architecture as MeLE's other Quieter models, with 16GB RAM for buyers wanting more multitasking headroom without sacrificing silent operation.\n\nOne spot below MeLE Quieter DL Fanless Mini PC N150 8GB 256GB Dual Intel I226-V 2.5GbE LAN in this ranking, it costs more than MeLE Quieter DL Fanless Mini PC N150 8GB 256GB Dual Intel I226-V 2.5GbE LAN. The compromise here is straightforward: Verify current reviews as this is a newer listing. What you gain in return: Genuinely fanless design guarantees silent operation under any load. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: 16GB RAM gives more multitasking headroom than the entry Quieter model. On the other side, Higher price than the entry-level fanless option. That's the main tradeoff to weigh against everything above.",
+    specs: ["Genuinely fanless, passive cooling","Intel N150 processor","16GB RAM","Windows 11 Pro preinstalled"],
+    pros: ["Genuinely fanless design guarantees silent operation under any load","16GB RAM gives more multitasking headroom than the entry Quieter model","Windows 11 Pro preinstalled for business features","Efficient N150 processor for low-power always-on operation"],
+    cons: ["Verify current reviews as this is a newer listing","Passive cooling means less sustained performance headroom under heavy load","Higher price than the entry-level fanless option"],
     bestFor: "Buyers wanting guaranteed silence plus more RAM headroom for home office multitasking",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51bh0tba6dL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1KCNPQV?tag=deskfinds0d-20",
-    description:
-      "Another genuinely fanless MeLE model, with 512GB storage giving real headroom for a large document library and installed applications.\n\nVerify current reviews for real-world noise reports under sustained load before assuming silent operation across every use case.",
-    specs: ["Genuinely fanless, passive cooling", "Intel N150 processor", "16GB RAM, 512GB storage", "Ample storage headroom"],
-    pros: ["Genuinely fanless design guarantees silent operation under any load", "512GB storage for ample document and application headroom", "16GB RAM for solid multitasking capability", "Efficient N150 processor for low-power always-on operation"],
-    cons: ["Verify current reviews as this is a newer listing", "Passive cooling means less sustained performance headroom under heavy load", "Higher price than the entry-level fanless option"],
+    description: "Another genuinely fanless MeLE model, with 512GB storage giving real headroom for a large document library and installed applications.\n\nSitting just under MeLE Quieter4C N150 Fanless Mini PC with Win-11-Pro 16GB RAM, it's priced lower than MeLE Quieter4C N150 Fanless Mini PC with Win-11-Pro 16GB RAM. Here's the honest tradeoff: Verify current reviews as this is a newer listing. And here's what it gets you instead: Genuinely fanless design guarantees silent operation under any load. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: 512GB storage for ample document and application headroom. On the other side, Higher price than the entry-level fanless option. That's the main tradeoff to weigh against everything above.",
+    specs: ["Genuinely fanless, passive cooling","Intel N150 processor","16GB RAM, 512GB storage","Ample storage headroom"],
+    pros: ["Genuinely fanless design guarantees silent operation under any load","512GB storage for ample document and application headroom","16GB RAM for solid multitasking capability","Efficient N150 processor for low-power always-on operation"],
+    cons: ["Verify current reviews as this is a newer listing","Passive cooling means less sustained performance headroom under heavy load","Higher price than the entry-level fanless option"],
     bestFor: "Buyers wanting guaranteed silence plus ample local storage for home office files",
   },
   {
@@ -81,13 +78,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41IjiC3RdaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZX5DWS5?tag=deskfinds0d-20",
-    description:
-      "Explicitly named '0dB' with a genuinely fanless design, appropriate for buyers who want the strongest possible silence guarantee in their product research.\n\nVerify current reviews for real-world thermal performance under sustained load given the passive-only cooling approach.",
-    specs: ["Genuinely fanless, 0dB design", "Intel N150 (Upgraded N100)", "Passive cooling architecture", "Explicit silence-focused branding"],
-    pros: ["Explicit '0dB' branding with genuinely fanless architecture", "Efficient N150 processor for low-power always-on operation", "Compact form factor for a small home office desk", "Good option for buyers researching the strongest silence guarantee"],
-    cons: ["Verify current reviews as this is a newer listing", "Passive cooling means less sustained performance headroom under heavy load", "Entry-level processor tier suits lighter office workflows"],
+    description: "Explicitly named '0dB' with a genuinely fanless design, appropriate for buyers who want the strongest possible silence guarantee in their product research.\n\nRanked just behind MeLE Fanless Mini PC Quieter 4C N150, it's priced lower than MeLE Fanless Mini PC Quieter 4C N150. The real tradeoff against that pick: Verify current reviews as this is a newer listing. In exchange, it offers this instead: Explicit '0dB' branding with genuinely fanless architecture. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Efficient N150 processor for low-power always-on operation. On the other side, Entry-level processor tier suits lighter office workflows. That's the main tradeoff to weigh against everything above.",
+    specs: ["Genuinely fanless, 0dB design","Intel N150 (Upgraded N100)","Passive cooling architecture","Explicit silence-focused branding"],
+    pros: ["Explicit '0dB' branding with genuinely fanless architecture","Efficient N150 processor for low-power always-on operation","Compact form factor for a small home office desk","Good option for buyers researching the strongest silence guarantee"],
+    cons: ["Verify current reviews as this is a newer listing","Passive cooling means less sustained performance headroom under heavy load","Entry-level processor tier suits lighter office workflows"],
     bestFor: "Buyers wanting the strongest explicit silence guarantee for a home office desk",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -101,32 +97,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Confirm Genuinely Fanless, Not Just 'Quiet'",
-    note: "A genuinely fanless, passively cooled design guarantees silence in a way that a 'quiet' fan-based system never fully can, worth checking whether a mini PC is truly fanless versus simply using a low-noise fan before assuming silent operation under sustained video-call load.",
-  },
-  {
-    subheading: "Check Noise Under Sustained Load, Not Just Idle",
-    note: "Fan noise under sustained load, not idle noise, is what actually matters during a long video call or heavy multitasking session, worth checking reviews specifically for reported noise under load rather than trusting an idle-only dB rating.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Guaranteed silence, dual 2.5GbE bonus", "MeLE Quieter DL Fanless"],
-        ["Guaranteed silence, more RAM headroom", "MeLE Quieter4C 16GB"],
-        ["Guaranteed silence, ample storage", "MeLE Quieter 4C 512GB"],
-        ["Strongest explicit silence branding", "MINIX Z150-0dB"],
+    "subheading": "By Use Case",
+    "table": {
+      "headers": [
+        "What you're running",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Light everyday or office use",
+          "MeLE Quieter DL Fanless Mini PC N150 8GB 256GB Dual Intel I226-V 2.5GbE LAN"
+        ],
+        [
+          "Demanding, sustained workloads",
+          "MeLE Quieter4C N150 Fanless Mini PC with Win-11-Pro 16GB RAM"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $414",
+          "MeLE Quieter DL Fanless Mini PC N150 8GB 256GB Dual Intel I226-V 2.5GbE LAN"
+        ],
+        [
+          "Mid-range",
+          "MeLE Fanless Mini PC Quieter 4C N150"
+        ],
+        [
+          "No firm budget ceiling, prioritizing CPU or RAM",
+          "MeLE Quieter4C N150 Fanless Mini PC with Win-11-Pro 16GB RAM"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Fanless (Passive) vs Actively Cooled",
+    "cards": [
+      {
+        "label": "Fanless, Passive Cooling",
+        "text": "Completely silent with no moving parts, at the cost of throttling under sustained heavy load. In this comparison: MeLE Quieter DL Fanless Mini PC N150 8GB 256GB Dual Intel I226-V 2.5GbE LAN, MeLE Quieter4C N150 Fanless Mini PC with Win-11-Pro 16GB RAM, MeLE Fanless Mini PC Quieter 4C N150."
+      },
+      {
+        "label": "Actively Cooled (Fan)",
+        "text": "Sustains heavier workloads longer without throttling, at the cost of some fan noise under load. In this comparison: check each listing's cooling design directly."
+      }
+    ],
+    "note": "Default to a fanless pick like MeLE Quieter DL Fanless Mini PC N150 8GB 256GB Dual Intel I226-V 2.5GbE LAN for a quiet home office or media setup, and step up to active cooling if you're running sustained CPU-heavy work."
+  },
+  {
+    "subheading": "By RAM and Storage Headroom",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Lightest budget-friendly configuration",
+          "MeLE Quieter DL Fanless Mini PC N150 8GB 256GB Dual Intel I226-V 2.5GbE LAN"
+        ],
+        [
+          "Maximum RAM and storage headroom",
+          "MeLE Quieter4C N150 Fanless Mini PC with Win-11-Pro 16GB RAM"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For GPU-Accelerated Work or Gaming Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A dedicated GPU or a confirmed Oculink/Thunderbolt eGPU connection explicitly stated in the listing, not just a generic \"gaming capable\" claim."
+      },
+      {
+        "label": "In this comparison",
+        "text": "No pick in this specific comparison explicitly confirms dedicated or external GPU support; check our eGPU-focused mini PC roundup if that's a hard requirement."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what MeLE Quieter4C N150 Fanless Mini PC with Win-11-Pro 16GB RAM offers: Genuinely fanless design guarantees silent operation under any load. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "MeLE Quieter DL Fanless Mini PC N150 8GB 256GB Dual Intel I226-V 2.5GbE LAN already covers the essentials: Genuinely fanless design guarantees silent operation under any load. The main thing you'd be paying extra for elsewhere in this list is headroom you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm the design is genuinely fanless, not just marketed as 'quiet'", explanation: "A truly passively cooled system guarantees silence in a way a low-noise fan never fully can, verify this specifically before buying." },
-  { criterion: "Check reported noise under sustained load, not idle-only ratings", explanation: "Idle noise doesn't reflect real-world behavior during a long video call or heavy multitasking session, look for load-specific reports." },
-  { criterion: "Balance RAM and storage against passive cooling's performance ceiling", explanation: "Fanless designs trade some sustained performance headroom for silence, match your configuration to workflows that fit within that ceiling." },
-  { criterion: "Treat explicit fanless or 0dB branding as a genuine signal", explanation: "This typically reflects an intentional passive cooling design choice worth weighting when comparing otherwise similar listings." },
+  {
+    "criterion": "Match RAM and storage to your actual workload, not just the headline spec",
+    "explanation": "Mini PC listings often lead with a large RAM number like 16GB, 32GB, or 64GB, but the amount you actually need depends heavily on what you're running: basic web browsing and office work is comfortable at 8 to 16GB, while running multiple virtual machines, a Plex transcoding server, or memory-hungry emulation genuinely benefits from 32GB or more.\n\nBuying far more RAM than your workload needs is simply wasted money, while buying too little means the system will lean on slower disk-based swap memory under load, causing real stuttering that a spec sheet number won't warn you about.\n\nCheck whether the RAM is soldered (fixed at purchase) or user-upgradeable via SO-DIMM slots, since a soldered configuration means you're locked into whatever capacity you buy today with no future upgrade path."
+  },
+  {
+    "criterion": "Understand what the CPU generation and core count actually mean for your use case",
+    "explanation": "A mini PC's processor model number (like an Intel N100, N150, or a specific AMD Ryzen model) tells you its generation and general performance tier, but raw core count and clock speed matter less than how well that specific chip handles your actual workload, since a low-power efficiency chip like the N100 is genuinely fine for a home server or media player but will bottleneck video editing or modern gaming badly.\n\nThis distinction matters because two mini PCs can list similar-sounding specs while being built around completely different design goals, one optimized for low power draw and silence, the other for sustained performance under load.\n\nLook up independent benchmark results for the exact CPU model rather than trusting a generic \"powerful\" or \"fast\" marketing description, since chip model numbers are the one spec that translates directly to comparable real-world performance data."
+  },
+  {
+    "criterion": "Check whether the mini PC includes dedicated graphics or relies on integrated graphics alone",
+    "explanation": "Most mini PCs rely on integrated graphics built into the CPU itself, which handles everyday desktop use, video playback, and light gaming fine, but a genuine dedicated GPU or officially supported external GPU (eGPU) connection is a meaningfully different tier needed for serious gaming or GPU-accelerated video editing work.\n\nThis is a real distinguishing feature worth checking specifically, since \"mini PC\" as a category spans everything from a fanless office box with no gaming capability at all to a compact system that can be paired with an external GPU enclosure for near-desktop gaming performance.\n\nIf your use case involves gaming or GPU-accelerated tasks, check explicitly for a dedicated GPU or a confirmed Oculink/Thunderbolt eGPU connection rather than assuming any mini PC can be upgraded that way."
+  },
+  {
+    "criterion": "Confirm the exact port selection matches your real peripherals, not just the port count",
+    "explanation": "A mini PC's small size means its port selection is fixed at purchase with essentially no room for internal expansion the way a desktop tower allows, so the specific mix of USB versions, display outputs, and networking ports listed matters far more here than on a full-size computer.\n\nCheck specifically for the number and type of display outputs if you run multiple monitors, since some budget mini PCs only support two displays despite having enough physical ports to suggest otherwise, and check for dual Ethernet ports specifically if you're planning a home server, router, or NAS build that benefits from network redundancy or link aggregation.\n\nCount your actual peripherals and required display outputs against the listed ports before buying, since there's no expansion card slot to add what's missing later on most mini PC designs."
+  },
+  {
+    "criterion": "Weigh fanless passive cooling against active cooling for your noise and thermal tolerance",
+    "explanation": "Mini PCs use either active cooling (an internal fan that spins up under load) or fully passive fanless cooling (relying entirely on the metal chassis itself to dissipate heat), and this choice is a genuine tradeoff rather than one being strictly better: fanless designs run completely silent and have no moving parts to fail, but they also throttle performance under sustained heavy load once the passive heatsink reaches its thermal limit, something an actively cooled system with a fan can sustain longer.\n\nThis matters concretely for anyone running a 24/7 home server or media server in a bedroom or living room, where fan noise is a real annoyance, versus anyone running sustained CPU-heavy workloads like video transcoding, where a fanless design may throttle noticeably during long jobs.\n\nCheck whether cooling is explicitly described as fanless/passive or fan-cooled/active, and match that to whether silence or sustained performance matters more for where this mini PC will actually live."
+  }
 ];
 
 export const faq: FaqItem[] = [

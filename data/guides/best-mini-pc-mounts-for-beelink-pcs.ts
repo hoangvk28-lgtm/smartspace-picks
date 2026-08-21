@@ -5,7 +5,7 @@ export const metaDescription =
   "Honest finding: no Beelink-exclusive mounting brackets exist in the current product pool. These are universal VESA brackets you need to verify against your specific Beelink model's chassis dimensions.";
 export const mainKeyword = "Beelink mini PC mount";
 export const introParagraphs = [
-  "Beelink chassis dimensions and port layouts vary meaningfully across its SER, EQ, GT, and other product lines, and we found no Beelink-branded or Beelink-exclusive mounting bracket in the current product pool — only universal VESA brackets requiring model-specific verification.",
+  "Beelink chassis dimensions and port layouts vary meaningfully across its SER, EQ, GT, and other product lines, and we found no Beelink-branded or Beelink-exclusive mounting bracket in the current product pool, only universal VESA brackets requiring model-specific verification.",
   "Because Beelink doesn't publish the same level of official mounting documentation as Dell, HP, or Lenovo, verifying your exact model's dimensions against a bracket's stated range matters even more here.",
 ];
 export const lastUpdated = "2026-08-08";
@@ -30,9 +30,9 @@ export const products: GuideProduct[] = [
     reviews: "702",
     imageUrl: "https://m.media-amazon.com/images/I/41nWvL8pqlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KY3LHVG?tag=deskfinds0d-20",
-    description: "The largest review base in this comparison, a general-purpose VESA bracket with a wide device depth range that should accommodate most compact Beelink models — measure your specific unit first.",
-    specs: ["Fits 0.65-2.55 in device depth", "75x75 and 100x100mm VESA", "702 reviews at 4.4 stars"],
-    pros: ["Largest, most proven review base in this comparison", "Wide device depth range"],
+    description: "The largest review base in this comparison, a general-purpose VESA bracket with a wide device depth range that should accommodate most compact Beelink models, measure your specific unit first.\n\nIt earns the top spot in this comparison over Yimaut Adjustable Mini PC Vesa Mount Bracket Behind Monitor for one main reason. Largest, most proven review base in this comparison. On price, it's actually priced above Yimaut Adjustable Mini PC Vesa Mount Bracket Behind Monitor, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Wide device depth range. On the other side, No Beelink-specific compatibility confirmation available. That's the main tradeoff to weigh against everything above.",
+    specs: ["Fits 0.65-2.55 in device depth","75x75 and 100x100mm VESA","702 reviews at 4.4 stars"],
+    pros: ["Largest, most proven review base in this comparison","Wide device depth range"],
     cons: ["No Beelink-specific compatibility confirmation available"],
     bestFor: "Buyers who measure their specific Beelink model first and want the most proven general bracket.",
   },
@@ -46,10 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/31L4FiZcVdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZBPR859?tag=deskfinds0d-20",
-    description: "A wide 0.63-2.8 inch device width range and 12 lb weight capacity, listing GMKtec compatibility (a brand in a similar category to Beelink), though Beelink isn't specifically named.",
-    specs: ["Fits 0.63-2.8 in device width", "Supports up to 12 lbs"],
-    pros: ["Wide device width range", "Lists GMKtec (similar mini PC category) compatibility"],
-    cons: ["Beelink not specifically named — verify your model's exact dimensions"],
+    description: "A wide 0.63-2.8 inch device width range and 12 lb weight capacity, listing GMKtec compatibility (a brand in a similar category to Beelink), though Beelink isn't specifically named.\n\nOne spot below HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm in this ranking, it's priced lower than HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm. The compromise here is straightforward: Beelink not specifically named, verify your model's exact dimensions. What you gain in return: Wide device width range. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Lists GMKtec (similar mini PC category) compatibility. On the other side, Beelink not specifically named, verify your model's exact dimensions. That's the main tradeoff to weigh against everything above.",
+    specs: ["Fits 0.63-2.8 in device width","Supports up to 12 lbs"],
+    pros: ["Wide device width range","Lists GMKtec (similar mini PC category) compatibility"],
+    cons: ["Beelink not specifically named, verify your model's exact dimensions"],
     bestFor: "Buyers who verify their Beelink model's exact width against this wide-range bracket.",
   },
   {
@@ -62,9 +62,9 @@ export const products: GuideProduct[] = [
     reviews: "190",
     imageUrl: "https://m.media-amazon.com/images/I/31l-EL12D-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJ7BK9CM?tag=deskfinds0d-20",
-    description: "The highest rating in this comparison, flexible wall or VESA mounting that should accommodate compact Beelink devices, at a lower price than the top pick.",
-    specs: ["Wall mount or VESA behind-monitor mount", "190 reviews at 4.6 stars"],
-    pros: ["Highest rating in this comparison", "Flexible wall or VESA mounting"],
+    description: "The highest rating in this comparison, flexible wall or VESA mounting that should accommodate compact Beelink devices, at a lower price than the top pick.\n\nSitting just under Yimaut Adjustable Mini PC Vesa Mount Bracket Behind Monitor, it's priced lower than Yimaut Adjustable Mini PC Vesa Mount Bracket Behind Monitor. Here's the honest tradeoff: Not marketed specifically for Beelink devices. And here's what it gets you instead: Highest rating in this comparison. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Flexible wall or VESA mounting. On the other side, Not marketed specifically for Beelink devices. That's the main tradeoff to weigh against everything above.",
+    specs: ["Wall mount or VESA behind-monitor mount","190 reviews at 4.6 stars"],
+    pros: ["Highest rating in this comparison","Flexible wall or VESA mounting"],
     cons: ["Not marketed specifically for Beelink devices"],
     bestFor: "Buyers who want the highest-rated general bracket at a lower price.",
   },
@@ -78,8 +78,8 @@ export const products: GuideProduct[] = [
     reviews: "40",
     imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DB5RQH7V?tag=deskfinds0d-20",
-    description: "Supports under-desk, wall, and monitor-arm mounting, versatile for different Beelink workstation setups, at a lower price with a smaller review base.",
-    specs: ["Under-desk, wall, or monitor-arm mount", "40 reviews at 4.4 stars"],
+    description: "Supports under-desk, wall, and monitor-arm mounting, versatile for different Beelink workstation setups, at a lower price with a smaller review base.\n\nRanked just behind Monzlteck Adjustable Small Device Wall Mount Or VESA Mount Behind the Monitor, it costs more than Monzlteck Adjustable Small Device Wall Mount Or VESA Mount Behind the Monitor. The real tradeoff against that pick: Smaller review base than the top picks. In exchange, it offers this instead: Multiple mounting locations for different desk setups. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Multiple mounting locations for different desk setups. On the other side, Smaller review base than the top picks. That's the main tradeoff to weigh against everything above.",
+    specs: ["Under-desk, wall, or monitor-arm mount","40 reviews at 4.4 stars"],
     pros: ["Multiple mounting locations for different desk setups"],
     cons: ["Smaller review base than the top picks"],
     bestFor: "Buyers who want mounting-location flexibility for a Beelink workstation setup.",
@@ -94,12 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/41Ohj6NQqpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B076N6B6GQ?tag=deskfinds0d-20",
-    description: "From StarTech, a well-established computer-hardware brand, with a wide depth range that should accommodate most Beelink SER/EQ/GT line configurations, at the highest price here.",
-    specs: ["Fits 0.7-2.8 in device depth", "Multiple mounting configurations"],
-    pros: ["From a well-established computer-hardware brand", "Wide device depth range"],
-    cons: ["Highest price in this comparison", "Not marketed specifically for Beelink"],
+    description: "From StarTech, a well-established computer-hardware brand, with a wide depth range that should accommodate most Beelink SER/EQ/GT line configurations, at the highest price here.\n\nOne spot below Adjustable Thin Client Mini PC Mount Bracket in this ranking, it costs more than Adjustable Thin Client Mini PC Mount Bracket. The compromise here is straightforward: Highest price in this comparison. What you gain in return: From a well-established computer-hardware brand. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Wide device depth range. On the other side, Not marketed specifically for Beelink. That's the main tradeoff to weigh against everything above.",
+    specs: ["Fits 0.7-2.8 in device depth","Multiple mounting configurations"],
+    pros: ["From a well-established computer-hardware brand","Wide device depth range"],
+    cons: ["Highest price in this comparison","Not marketed specifically for Beelink"],
     bestFor: "Buyers who want a trusted hardware brand and will verify Beelink-model dimensions themselves.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -113,22 +113,123 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Measure Your Specific Beelink Model First",
-    note: "Beelink chassis dimensions vary meaningfully across the SER, EQ, GT, and other lines, and there's no official Beelink mounting accessory to rely on. Measure your exact device's depth, width, and VESA hole spacing (if present) before choosing a bracket.",
+    "subheading": "By Mounting Surface",
+    "table": {
+      "headers": [
+        "Where it's going",
+        "Recommended pick in this comparison"
+      ],
+      "rows": [
+        [
+          "Behind a monitor or TV (VESA)",
+          "HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm"
+        ],
+        [
+          "Server rack (10-inch or 19-inch)",
+          "HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm"
+        ],
+        [
+          "Wall or under-desk",
+          "Monzlteck Adjustable Small Device Wall Mount Or VESA Mount Behind the Monitor"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $20",
+          "Monzlteck Adjustable Small Device Wall Mount Or VESA Mount Behind the Monitor"
+        ],
+        [
+          "Mid-range",
+          "Yimaut Adjustable Mini PC Vesa Mount Bracket Behind Monitor"
+        ],
+        [
+          "No firm budget ceiling, prioritizing brand-specific fit",
+          "StarTech Thin Client Mount"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Brand-Specific Fit vs Universal Compatibility",
+    "cards": [
+      {
+        "label": "Brand-Specific Fit",
+        "text": "Matches one specific chassis shape exactly, generally a more secure fit for that exact model. In this comparison: StarTech Thin Client Mount."
+      },
+      {
+        "label": "Universal / Multi-Brand",
+        "text": "Works across several mini PC brands with adjustable hardware, more flexible if you might switch devices later. In this comparison: StarTech Thin Client Mount."
+      }
+    ],
+    "note": "Confirm your exact mini PC model against the listing's stated compatibility either way, since even a \"universal\" mount has real size limits."
+  },
+  {
+    "subheading": "By Post-Install Port Access",
+    "note": "None of these picks specifically advertise preserved front-port access after mounting; check each listing's product photos for where the ports land once installed if that matters to you."
+  },
+  {
+    "subheading": "For a Home Lab Rack Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation of 10-inch (home-lab) versus 19-inch (commercial) rack compatibility, since these are different standards, plus whether it's full or half rack-unit width."
+      },
+      {
+        "label": "In this comparison",
+        "text": "HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm fits this specifically: Largest, most proven review base in this comparison."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what StarTech Thin Client Mount offers: From a well-established computer-hardware brand. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Monzlteck Adjustable Small Device Wall Mount Or VESA Mount Behind the Monitor already covers the essentials: Highest rating in this comparison. The main thing you'd be paying extra for elsewhere in this list is broader compatibility you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Measure your exact Beelink model's dimensions before ordering", explanation: "Beelink chassis vary across product lines, and no bracket here is Beelink-branded — verify your specific unit's depth and width." },
-  { criterion: "Check for VESA mounting holes on your specific Beelink model", explanation: "Not all Beelink units include built-in VESA mounting holes — confirm this before assuming any bracket will attach directly." },
-  { criterion: "Weigh review volume for the general-purpose bracket options", explanation: "Since Beelink-specific fit data isn't available, established review history is the best evidence for overall build quality." },
-  { criterion: "Consider a bracket with the widest device range if unsure of exact model fit", explanation: "The Yimaut pick's wide 0.63-2.8 inch range offers the most flexibility if you're not certain of your exact device dimensions." },
-  { criterion: "Check port and power-button access after mounting", explanation: "Verify the bracket doesn't block ports or the power button you need regular access to on your specific Beelink model." },
+  {
+    "criterion": "Verify your exact mini PC model against the mount's stated compatibility list",
+    "explanation": "Mini PC mounts and brackets are built around specific chassis dimensions and screw-hole patterns, and unlike a universal VESA monitor mount, many mini PC brackets are designed for one specific brand's chassis shape, such as Dell OptiPlex Micro, Lenovo ThinkCentre Tiny, HP EliteDesk Mini, or a specific generation of Mac mini.\n\nMounting hardware that doesn't match your exact model can fail to align with the screw holes at all, or worse, only partially secure the device, creating a real risk of it working loose over time in a mount that's supposed to hold it stationary.\n\nCheck the listing's stated compatible models and generations specifically against your own mini PC's exact model number, not just the general \"mini PC\" category claim in the title."
+  },
+  {
+    "criterion": "Confirm the mount's actual mounting surface (VESA, rack, wall, or under-desk) matches your install location",
+    "explanation": "Mini PC mounts split into genuinely different installation categories: VESA mounts attach to the back of a monitor or TV using the standardized VESA hole pattern, rack mounts fit a 10-inch home-lab or 19-inch commercial server rack, wall mounts attach directly to drywall or a stud, and under-desk mounts clamp to the underside of a desk surface, and these are not interchangeable hardware despite all falling under the same general product category.\n\nBuying a rack-format shelf when you actually need a VESA bracket, for instance, means the hardware simply won't attach to your intended surface at all, since the mounting mechanism itself is fundamentally different between categories.\n\nIdentify your specific installation surface first (monitor back, rack, wall, or desk underside) and filter specifically for that mount type, rather than searching generically for \"mini PC mount\" and assuming any result will work for your setup."
+  },
+  {
+    "criterion": "Check the stated weight capacity against your mini PC's actual weight",
+    "explanation": "A mount's weight capacity, when disclosed, reflects how much load the bracket's screws, arms, and adhesive or clamping mechanism can safely hold long-term without gradually sagging, loosening, or failing outright, and mini PCs vary meaningfully in weight depending on their chassis material and internal components, from under a pound for the lightest fanless designs to several pounds for units with larger heatsinks or multiple drive bays.\n\nMounting a device at or near a bracket's rated limit, especially on a mount holding the device at an angle or overhead behind a monitor, leaves little margin for the natural loosening that happens over months of use, vibration, or repeated adjustment.\n\nWeigh your specific mini PC model (check its listed weight spec) against the mount's stated capacity, and favor a mount with meaningful headroom above your device's actual weight rather than one rated right at the edge."
+  },
+  {
+    "criterion": "Consider port and cable access after the mount is installed, not just before",
+    "explanation": "A mini PC's ports are typically concentrated on the rear and sometimes front panel, and once mounted, especially behind a monitor, inside a rack, or under a desk, those ports can become significantly harder to reach for routine tasks like plugging in a USB drive or checking a status light, even though the mount holds the device perfectly securely.\n\nSome mounts are specifically designed to preserve front-panel port access after installation, while others prioritize a low-profile or flush mount that trades away easy access for a cleaner look, and this is a real day-to-day usability tradeoff that photos alone don't always make obvious.\n\nThink through which ports you'll need to access regularly after mounting (power, a USB drive, HDMI swaps) and check whether the specific mount's design keeps those reachable, rather than only checking that it physically holds the device."
+  },
+  {
+    "criterion": "Check what installation hardware is actually included versus what you'll need to source separately",
+    "explanation": "Mount listings vary in how complete their included hardware kit is, some ship with every screw, VESA adapter plate, and cable tie needed for a full installation, while others assume you already have compatible mounting screws from the mini PC's original packaging or a previous mount, which isn't always the case if you're mounting a device for the first time or switching setups.\n\nThis matters because discovering mid-installation that you're missing a specific screw size or an adapter plate means a delayed setup and a second order, a genuinely avoidable frustration.\n\nCheck the listing's stated included contents specifically, and if you no longer have your mini PC's original mounting screws, confirm the mount ships with compatible replacements rather than assuming they're included by default."
+  }
 ];
 
 export const faq: FaqItem[] = [
-  { q: "Does Beelink make its own official mounting bracket?", a: "We found no official Beelink-branded mounting accessory in current listings — these are universal third-party VESA brackets." },
-  { q: "Do all Beelink models have VESA mounting holes?", a: "Not necessarily — verify your specific model includes VESA mounting holes before assuming any bracket will attach." },
+  { q: "Does Beelink make its own official mounting bracket?", a: "We found no official Beelink-branded mounting accessory in current listings, these are universal third-party VESA brackets." },
+  { q: "Do all Beelink models have VESA mounting holes?", a: "Not necessarily, verify your specific model includes VESA mounting holes before assuming any bracket will attach." },
   { q: "Which has the most reviews?", a: "The HumanCentric Thin Client Mount Bracket, with 702 reviews at 4.4 stars." },
   { q: "What's the highest-rated option?", a: "The Monzlteck Adjustable Small Device Wall Mount, at 4.6 stars." },
   { q: "Which bracket has the widest device compatibility range?", a: "The Yimaut Adjustable Mini PC Vesa Mount Bracket, fitting devices 0.63 to 2.8 inches wide." },

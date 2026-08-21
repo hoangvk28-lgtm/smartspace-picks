@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "7 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/21j26jIVLGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G32PTF92?tag=deskfinds0d-20",
-    description:
-      "A genuinely powerful Ryzen AI 9 HX370 barebone with 12 cores and 24 threads, appropriate for buyers wanting flagship-tier performance who don't mind adding their own RAM and storage.\n\nFactor in the additional cost of fast DDR5 RAM and an NVMe SSD to unlock this chip's full potential when calculating your true total build cost.",
-    specs: ["AMD Ryzen AI 9 HX370, 12C/24T", "AMD Radeon integrated graphics", "Barebone, no RAM/SSD/OS included", "High review rating"],
-    pros: ["Genuinely flagship-tier processor performance in a barebone kit", "High 4.8-star rating despite the small review base", "Strong integrated graphics included", "Flexibility to choose your own fast RAM and SSD"],
-    cons: ["Small review base, verify current reviews before purchase", "Total configured cost adds up significantly with fast RAM and SSD", "Requires separate OS purchase and installation"],
+    description: "A genuinely powerful Ryzen AI 9 HX370 barebone with 12 cores and 24 threads, appropriate for buyers wanting flagship-tier performance who don't mind adding their own RAM and storage.\n\nIt earns the top spot in this comparison over Reatan X7 AI AMD Ryzen 7 255 Oculink Gaming Mini PC(Upgraded 8745HS) for one main reason. Genuinely flagship-tier processor performance in a barebone kit. On price, it's actually priced above Reatan X7 AI AMD Ryzen 7 255 Oculink Gaming Mini PC(Upgraded 8745HS), which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: High 4.8-star rating despite the small review base. On the other side, Requires separate OS purchase and installation. That's the main tradeoff to weigh against everything above.",
+    specs: ["AMD Ryzen AI 9 HX370, 12C/24T","AMD Radeon integrated graphics","Barebone, no RAM/SSD/OS included","High review rating"],
+    pros: ["Genuinely flagship-tier processor performance in a barebone kit","High 4.8-star rating despite the small review base","Strong integrated graphics included","Flexibility to choose your own fast RAM and SSD"],
+    cons: ["Small review base, verify current reviews before purchase","Total configured cost adds up significantly with fast RAM and SSD","Requires separate OS purchase and installation"],
     bestFor: "Buyers wanting flagship-tier barebone performance who want to choose their own RAM and SSD",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "61 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41IHm6E8uFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2BGVKSL?tag=deskfinds0d-20",
-    description:
-      "A genuinely capable Ryzen 7 255 barebone with OCuLink connectivity, appropriate for buyers wanting eGPU expansion flexibility alongside a lower base price.\n\nA solid review base gives real confidence in this barebone's build quality despite the accessible price point.",
-    specs: ["AMD Ryzen 7 255 (upgraded 8745HS)", "OCuLink connectivity for eGPU expansion", "Barebone, no RAM included", "Solid review base"],
-    pros: ["OCuLink connectivity genuinely useful for future eGPU expansion", "Solid review base for confidence at this price point", "Reasonable base price for the capability offered", "Good balance of performance and value in barebone form"],
-    cons: ["Requires separate RAM, SSD, and OS purchase", "Verify total configured cost against complete systems before buying", "OCuLink eGPU expansion adds further cost if pursued"],
+    description: "A genuinely capable Ryzen 7 255 barebone with OCuLink connectivity, appropriate for buyers wanting eGPU expansion flexibility alongside a lower base price.\n\nOne spot below MINISFORUM Mini PC AI X1 Pro Barebone with AMD Ryzen AI 9 HX370(12Cores/24 Threads)&AMD Radeon in this ranking, it's priced lower than MINISFORUM Mini PC AI X1 Pro Barebone with AMD Ryzen AI 9 HX370(12Cores/24 Threads)&AMD Radeon. The compromise here is straightforward: Requires separate RAM, SSD, and OS purchase. What you gain in return: OCuLink connectivity genuinely useful for future eGPU expansion. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Solid review base for confidence at this price point. On the other side, OCuLink eGPU expansion adds further cost if pursued. That's the main tradeoff to weigh against everything above.",
+    specs: ["AMD Ryzen 7 255 (upgraded 8745HS)","OCuLink connectivity for eGPU expansion","Barebone, no RAM included","Solid review base"],
+    pros: ["OCuLink connectivity genuinely useful for future eGPU expansion","Solid review base for confidence at this price point","Reasonable base price for the capability offered","Good balance of performance and value in barebone form"],
+    cons: ["Requires separate RAM, SSD, and OS purchase","Verify total configured cost against complete systems before buying","OCuLink eGPU expansion adds further cost if pursued"],
     bestFor: "Buyers wanting OCuLink eGPU expansion flexibility at a reasonable barebone price",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "63 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31LlCbf8wEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GX667HRM?tag=deskfinds0d-20",
-    description:
-      "The most budget-friendly barebone in this guide, appropriate for buyers wanting a genuinely low entry price and willing to source their own components.\n\nA solid review base for this price point gives reasonable confidence in the barebone chassis and cooling quality.",
-    specs: ["AMD Ryzen 5 3500U (up to 3.7GHz)", "No RAM, SSD, or OS included", "Very budget-friendly base price", "Solid review base"],
-    pros: ["Very budget-friendly base price for the barebone chassis", "Solid review base for confidence at this price point", "Genuine flexibility to choose your own components", "Good entry point for a first barebone build"],
-    cons: ["Requires separate RAM, SSD, and OS purchase, adding significant total cost", "Older chip generation than the premium barebone picks", "Verify true total configured cost against complete budget systems"],
+    description: "The most budget-friendly barebone in this guide, appropriate for buyers wanting a genuinely low entry price and willing to source their own components.\n\nSitting just under Reatan X7 AI AMD Ryzen 7 255 Oculink Gaming Mini PC(Upgraded 8745HS), it's priced lower than Reatan X7 AI AMD Ryzen 7 255 Oculink Gaming Mini PC(Upgraded 8745HS). Here's the honest tradeoff: Requires separate RAM, SSD, and OS purchase, adding significant total cost. And here's what it gets you instead: Very budget-friendly base price for the barebone chassis. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Solid review base for confidence at this price point. On the other side, Verify true total configured cost against complete budget systems. That's the main tradeoff to weigh against everything above.",
+    specs: ["AMD Ryzen 5 3500U (up to 3.7GHz)","No RAM, SSD, or OS included","Very budget-friendly base price","Solid review base"],
+    pros: ["Very budget-friendly base price for the barebone chassis","Solid review base for confidence at this price point","Genuine flexibility to choose your own components","Good entry point for a first barebone build"],
+    cons: ["Requires separate RAM, SSD, and OS purchase, adding significant total cost","Older chip generation than the premium barebone picks","Verify true total configured cost against complete budget systems"],
     bestFor: "Budget-conscious buyers wanting the lowest entry price to build their own configuration",
   },
   {
@@ -81,13 +78,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41CL4VABm1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GR463LCQ?tag=deskfinds0d-20",
-    description:
-      "A genuine Intel Core i3-10110U barebone at a budget-friendly price, appropriate for buyers wanting Intel's platform benefits (like Quick Sync) in a barebone configuration.\n\nFactor in RAM, SSD, and OS costs when comparing this barebone's true total price against complete budget systems.",
-    specs: ["Intel Core i3-10110U", "No RAM, SSD, or OS included", "Budget-friendly base price", "Intel platform benefits"],
-    pros: ["Genuine Intel Core i3 processor with platform benefits like Quick Sync", "Budget-friendly base price for the barebone chassis", "Compact form factor", "Good entry point for an Intel-based barebone build"],
-    cons: ["Requires separate RAM, SSD, and OS purchase", "Verify current reviews given limited review data", "Older chip generation, verify this suits your performance needs"],
+    description: "A genuine Intel Core i3-10110U barebone at a budget-friendly price, appropriate for buyers wanting Intel's platform benefits (like Quick Sync) in a barebone configuration.\n\nRanked just behind Barebone Mini PC, it costs more than Barebone Mini PC. The real tradeoff against that pick: Requires separate RAM, SSD, and OS purchase. In exchange, it offers this instead: Genuine Intel Core i3 processor with platform benefits like Quick Sync. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Budget-friendly base price for the barebone chassis. On the other side, Older chip generation, verify this suits your performance needs. That's the main tradeoff to weigh against everything above.",
+    specs: ["Intel Core i3-10110U","No RAM, SSD, or OS included","Budget-friendly base price","Intel platform benefits"],
+    pros: ["Genuine Intel Core i3 processor with platform benefits like Quick Sync","Budget-friendly base price for the barebone chassis","Compact form factor","Good entry point for an Intel-based barebone build"],
+    cons: ["Requires separate RAM, SSD, and OS purchase","Verify current reviews given limited review data","Older chip generation, verify this suits your performance needs"],
     bestFor: "Buyers wanting an Intel-based barebone build with Quick Sync platform benefits",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -101,32 +97,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Calculate True Configured Cost Before Comparing to Complete Systems",
-    note: "A barebones mini PC's low sticker price excludes RAM, storage, and sometimes an operating system, worth calculating the true configured cost including these components before comparing the price directly against a complete, fully configured system.",
-  },
-  {
-    subheading: "Check Exactly What's Included in the Kit",
-    note: "Barebone kits vary in exactly what's included, some come with a case and cooling but no RAM or SSD, others are closer to a component kit requiring more assembly, worth checking exactly what's included and what installation difficulty to expect before buying.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Flagship-tier performance, choose your own components", "MINISFORUM AI X1 Pro Ryzen AI 9 HX370"],
-        ["OCuLink eGPU flexibility at a reasonable price", "Reatan X7 AI Ryzen 7 255"],
-        ["Lowest entry price for a first barebone build", "Budget Barebone Ryzen 5 3500U"],
-        ["Intel-based barebone with Quick Sync benefits", "GMKtec G3 Pro Core i3-10110U"],
+    "subheading": "By Use Case",
+    "table": {
+      "headers": [
+        "What you're running",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Light everyday or office use",
+          "Barebone Mini PC"
+        ],
+        [
+          "Demanding, sustained workloads",
+          "MINISFORUM Mini PC AI X1 Pro Barebone with AMD Ryzen AI 9 HX370(12Cores/24 Threads)&AMD Radeon"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $180",
+          "Barebone Mini PC"
+        ],
+        [
+          "Mid-range",
+          "Reatan X7 AI AMD Ryzen 7 255 Oculink Gaming Mini PC(Upgraded 8745HS)"
+        ],
+        [
+          "No firm budget ceiling, prioritizing CPU or RAM",
+          "MINISFORUM Mini PC AI X1 Pro Barebone with AMD Ryzen AI 9 HX370(12Cores/24 Threads)&AMD Radeon"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Fanless (Passive) vs Actively Cooled",
+    "cards": [
+      {
+        "label": "Fanless, Passive Cooling",
+        "text": "Completely silent with no moving parts, at the cost of throttling under sustained heavy load. In this comparison: check each listing's cooling design directly."
+      },
+      {
+        "label": "Actively Cooled (Fan)",
+        "text": "Sustains heavier workloads longer without throttling, at the cost of some fan noise under load. In this comparison: MINISFORUM Mini PC AI X1 Pro Barebone with AMD Ryzen AI 9 HX370(12Cores/24 Threads)&AMD Radeon, Reatan X7 AI AMD Ryzen 7 255 Oculink Gaming Mini PC(Upgraded 8745HS), Barebone Mini PC."
+      }
+    ],
+    "note": "Default to a fanless pick like MINISFORUM Mini PC AI X1 Pro Barebone with AMD Ryzen AI 9 HX370(12Cores/24 Threads)&AMD Radeon for a quiet home office or media setup, and step up to active cooling if you're running sustained CPU-heavy work."
+  },
+  {
+    "subheading": "By RAM and Storage Headroom",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Lightest budget-friendly configuration",
+          "Barebone Mini PC"
+        ],
+        [
+          "Maximum RAM and storage headroom",
+          "MINISFORUM Mini PC AI X1 Pro Barebone with AMD Ryzen AI 9 HX370(12Cores/24 Threads)&AMD Radeon"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For GPU-Accelerated Work or Gaming Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A dedicated GPU or a confirmed Oculink/Thunderbolt eGPU connection explicitly stated in the listing, not just a generic \"gaming capable\" claim."
+      },
+      {
+        "label": "In this comparison",
+        "text": "MINISFORUM Mini PC AI X1 Pro Barebone with AMD Ryzen AI 9 HX370(12Cores/24 Threads)&AMD Radeon fits this specifically: Genuinely flagship-tier processor performance in a barebone kit."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what MINISFORUM Mini PC AI X1 Pro Barebone with AMD Ryzen AI 9 HX370(12Cores/24 Threads)&AMD Radeon offers: Genuinely flagship-tier processor performance in a barebone kit. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Barebone Mini PC already covers the essentials: Very budget-friendly base price for the barebone chassis. The main thing you'd be paying extra for elsewhere in this list is headroom you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Calculate the true configured cost including RAM, SSD, and OS", explanation: "The low sticker price excludes these components, verify the actual total before comparing to complete systems." },
-  { criterion: "Verify exactly what's included in the specific barebone kit", explanation: "This varies meaningfully between listings, some include a case and cooling, others require more assembly." },
-  { criterion: "Match your RAM and SSD investment to the chip's performance tier", explanation: "Don't pair a flagship chip with budget components or vice versa, keep the build balanced." },
-  { criterion: "Consider expansion capability like OCuLink for future flexibility", explanation: "This genuinely matters for barebone buyers wanting to add an eGPU or other expansion later." },
+  {
+    "criterion": "Match RAM and storage to your actual workload, not just the headline spec",
+    "explanation": "Mini PC listings often lead with a large RAM number like 16GB, 32GB, or 64GB, but the amount you actually need depends heavily on what you're running: basic web browsing and office work is comfortable at 8 to 16GB, while running multiple virtual machines, a Plex transcoding server, or memory-hungry emulation genuinely benefits from 32GB or more.\n\nBuying far more RAM than your workload needs is simply wasted money, while buying too little means the system will lean on slower disk-based swap memory under load, causing real stuttering that a spec sheet number won't warn you about.\n\nCheck whether the RAM is soldered (fixed at purchase) or user-upgradeable via SO-DIMM slots, since a soldered configuration means you're locked into whatever capacity you buy today with no future upgrade path."
+  },
+  {
+    "criterion": "Understand what the CPU generation and core count actually mean for your use case",
+    "explanation": "A mini PC's processor model number (like an Intel N100, N150, or a specific AMD Ryzen model) tells you its generation and general performance tier, but raw core count and clock speed matter less than how well that specific chip handles your actual workload, since a low-power efficiency chip like the N100 is genuinely fine for a home server or media player but will bottleneck video editing or modern gaming badly.\n\nThis distinction matters because two mini PCs can list similar-sounding specs while being built around completely different design goals, one optimized for low power draw and silence, the other for sustained performance under load.\n\nLook up independent benchmark results for the exact CPU model rather than trusting a generic \"powerful\" or \"fast\" marketing description, since chip model numbers are the one spec that translates directly to comparable real-world performance data."
+  },
+  {
+    "criterion": "Check whether the mini PC includes dedicated graphics or relies on integrated graphics alone",
+    "explanation": "Most mini PCs rely on integrated graphics built into the CPU itself, which handles everyday desktop use, video playback, and light gaming fine, but a genuine dedicated GPU or officially supported external GPU (eGPU) connection is a meaningfully different tier needed for serious gaming or GPU-accelerated video editing work.\n\nThis is a real distinguishing feature worth checking specifically, since \"mini PC\" as a category spans everything from a fanless office box with no gaming capability at all to a compact system that can be paired with an external GPU enclosure for near-desktop gaming performance.\n\nIf your use case involves gaming or GPU-accelerated tasks, check explicitly for a dedicated GPU or a confirmed Oculink/Thunderbolt eGPU connection rather than assuming any mini PC can be upgraded that way."
+  },
+  {
+    "criterion": "Confirm the exact port selection matches your real peripherals, not just the port count",
+    "explanation": "A mini PC's small size means its port selection is fixed at purchase with essentially no room for internal expansion the way a desktop tower allows, so the specific mix of USB versions, display outputs, and networking ports listed matters far more here than on a full-size computer.\n\nCheck specifically for the number and type of display outputs if you run multiple monitors, since some budget mini PCs only support two displays despite having enough physical ports to suggest otherwise, and check for dual Ethernet ports specifically if you're planning a home server, router, or NAS build that benefits from network redundancy or link aggregation.\n\nCount your actual peripherals and required display outputs against the listed ports before buying, since there's no expansion card slot to add what's missing later on most mini PC designs."
+  },
+  {
+    "criterion": "Weigh fanless passive cooling against active cooling for your noise and thermal tolerance",
+    "explanation": "Mini PCs use either active cooling (an internal fan that spins up under load) or fully passive fanless cooling (relying entirely on the metal chassis itself to dissipate heat), and this choice is a genuine tradeoff rather than one being strictly better: fanless designs run completely silent and have no moving parts to fail, but they also throttle performance under sustained heavy load once the passive heatsink reaches its thermal limit, something an actively cooled system with a fan can sustain longer.\n\nThis matters concretely for anyone running a 24/7 home server or media server in a bedroom or living room, where fan noise is a real annoyance, versus anyone running sustained CPU-heavy workloads like video transcoding, where a fanless design may throttle noticeably during long jobs.\n\nCheck whether cooling is explicitly described as fanless/passive or fan-cooled/active, and match that to whether silence or sustained performance matters more for where this mini PC will actually live."
+  }
 ];
 
 export const faq: FaqItem[] = [

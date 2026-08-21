@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41nWvL8pqlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KY3LHVG?tag=deskfinds0d-20",
-    description:
-      "This bracket supports both 75x75mm and 100x100mm VESA patterns and fits devices 0.65 to 2.55 inches deep, covering most NUC-style and Mac mini form factors. It is rated for 11 pounds of device weight alone, or 18 pounds combined if the same VESA point also carries a monitor.\n\nThat combined rating is the detail worth paying attention to, since a monitor's VESA point may already be carrying its full rated load before a Mini PC gets added on top. Silicone scratch strips and a full hardware kit are included, and the listing backs the purchase with a no-questions-asked return policy.",
-    specs: ["VESA 75x75 and 100x100mm compatible", "Fits 0.65\" to 2.55\" device depth", "11 lb device rating, 18 lb combined with monitor", "Silicone scratch strips included", "Hardware for wall, under-desk, or pole mounting also included"],
-    pros: ["Publishes both a device-only and a combined weight rating", "Dual VESA pattern support in one bracket", "Silicone strips protect the Mini PC's housing", "No-questions-asked return policy"],
-    cons: ["Higher price than several other VESA options here", "Combined rating still needs cross-checking against your monitor arm's own limit", "Side power button requirement excludes some NUC models"],
+    description: "This bracket supports both 75x75mm and 100x100mm VESA patterns and fits devices 0.65 to 2.55 inches deep, covering most NUC-style and Mac mini form factors. It is rated for 11 pounds of device weight alone, or 18 pounds combined if the same VESA point also carries a monitor.\n\nIt earns the top spot in this comparison over VIVO Behind Monitor Mini PC VESA Mount for Dell OptiPlex Micro for one main reason. Publishes both a device-only and a combined weight rating. On price, it's actually priced above VIVO Behind Monitor Mini PC VESA Mount for Dell OptiPlex Micro, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Dual VESA pattern support in one bracket. On the other side, Side power button requirement excludes some NUC models. That's the main tradeoff to weigh against everything above.",
+    specs: ["VESA 75x75 and 100x100mm compatible","Fits 0.65\" to 2.55\" device depth","11 lb device rating, 18 lb combined with monitor","Silicone scratch strips included","Hardware for wall, under-desk, or pole mounting also included"],
+    pros: ["Publishes both a device-only and a combined weight rating","Dual VESA pattern support in one bracket","Silicone strips protect the Mini PC's housing","No-questions-asked return policy"],
+    cons: ["Higher price than several other VESA options here","Combined rating still needs cross-checking against your monitor arm's own limit","Side power button requirement excludes some NUC models"],
     bestFor: "Buyers piggybacking a Mini PC on a monitor's VESA point who want a bracket that actually accounts for combined weight.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41Eo1z7YlBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FKWP592F?tag=deskfinds0d-20",
-    description:
-      "Built specifically for Dell OptiPlex Micro form factor computers, this mount installs between a monitor stand's VESA plate (100x100mm) and the screen itself, or to the back of a freestanding monitor using either the 75x75 or 100x100mm pattern. Because it targets one chassis shape exactly, it holds the OptiPlex more rigidly than a generic width-adjustable bracket would.\n\nOpen mount structure is stated to increase airflow to the Mini PC and keep ports and cables reachable from underneath. Desk and wall mounting options are also included, though the VESA behind-monitor mode is the primary use case this listing is built around.",
-    specs: ["Purpose-built for Dell OptiPlex Micro", "VESA 75x75 and 100x100mm", "Behind-monitor, desk, and wall mounting", "Ventilated open mount structure", "Mounting hardware for wood studs and concrete included"],
-    pros: ["Precise fit for Dell OptiPlex Micro rather than a generic bracket", "Open structure keeps ports and cables accessible", "Covers behind-monitor, desk, and wall mounting", "Includes hardware for both stud and concrete walls"],
-    cons: ["Only fits Dell OptiPlex Micro, not other Mini PC brands", "No stated weight capacity figure in the listing", "Behind-monitor mode uses the monitor's own VESA holes, so it competes with a monitor arm for that same point"],
+    description: "Built specifically for Dell OptiPlex Micro form factor computers, this mount installs between a monitor stand's VESA plate (100x100mm) and the screen itself, or to the back of a freestanding monitor using either the 75x75 or 100x100mm pattern. Because it targets one chassis shape exactly, it holds the OptiPlex more rigidly than a generic width-adjustable bracket would.\n\nOne spot below HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm in this ranking, it's priced lower than HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm. The compromise here is straightforward: Only fits Dell OptiPlex Micro, not other Mini PC brands. What you gain in return: Precise fit for Dell OptiPlex Micro rather than a generic bracket. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Open structure keeps ports and cables accessible. On the other side, Behind-monitor mode uses the monitor's own VESA holes, so it competes with a monitor arm for that same point. That's the main tradeoff to weigh against everything above.",
+    specs: ["Purpose-built for Dell OptiPlex Micro","VESA 75x75 and 100x100mm","Behind-monitor, desk, and wall mounting","Ventilated open mount structure","Mounting hardware for wood studs and concrete included"],
+    pros: ["Precise fit for Dell OptiPlex Micro rather than a generic bracket","Open structure keeps ports and cables accessible","Covers behind-monitor, desk, and wall mounting","Includes hardware for both stud and concrete walls"],
+    cons: ["Only fits Dell OptiPlex Micro, not other Mini PC brands","No stated weight capacity figure in the listing","Behind-monitor mode uses the monitor's own VESA holes, so it competes with a monitor arm for that same point"],
     bestFor: "Dell OptiPlex Micro owners who want a VESA mount engineered specifically for their exact chassis.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41TsuHcXczL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KB4YWQS?tag=deskfinds0d-20",
-    description:
-      "This is a VESA extension plate for Intel NUC, not a complete standalone mount, and the listing is explicit about that distinction. It supports 75x75mm and 100x100mm VESA patterns and lets you attach your NUC to a monitor arm or wall mount, but only once combined with the mounting bracket that already came in the box with your NUC.\n\nAt this price it is the cheapest way to add VESA compatibility to a NUC that already has its own mounting bracket, and installation takes minutes with a screwdriver. It explicitly does not fit Hades Canyon, Skull Canyon, or other non-standard NUC form factors, so confirm your NUC generation before buying.",
-    specs: ["VESA extension plate only, not a full mount kit", "VESA 75x75 and 100x100mm", "Requires the NUC's original mounting bracket", "Fast screwdriver installation", "Not compatible with Hades Canyon or Skull Canyon NUCs"],
-    pros: ["Lowest price in this guide", "Fast, simple installation", "Purpose-built for standard Intel NUC form factors", "Supports both common VESA patterns"],
-    cons: ["Not a complete mount by itself, requires your NUC's original bracket", "Does not fit several specific NUC form factors", "No weight rating published separately from the NUC bracket it pairs with"],
+    description: "This is a VESA extension plate for Intel NUC, not a complete standalone mount, and the listing is explicit about that distinction. It supports 75x75mm and 100x100mm VESA patterns and lets you attach your NUC to a monitor arm or wall mount, but only once combined with the mounting bracket that already came in the box with your NUC.\n\nSitting just under VIVO Behind Monitor Mini PC VESA Mount for Dell OptiPlex Micro, it's priced lower than VIVO Behind Monitor Mini PC VESA Mount for Dell OptiPlex Micro. Here's the honest tradeoff: Not a complete mount by itself, requires your NUC's original bracket. And here's what it gets you instead: Lowest price in this guide. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Fast, simple installation. On the other side, No weight rating published separately from the NUC bracket it pairs with. That's the main tradeoff to weigh against everything above.",
+    specs: ["VESA extension plate only, not a full mount kit","VESA 75x75 and 100x100mm","Requires the NUC's original mounting bracket","Fast screwdriver installation","Not compatible with Hades Canyon or Skull Canyon NUCs"],
+    pros: ["Lowest price in this guide","Fast, simple installation","Purpose-built for standard Intel NUC form factors","Supports both common VESA patterns"],
+    cons: ["Not a complete mount by itself, requires your NUC's original bracket","Does not fit several specific NUC form factors","No weight rating published separately from the NUC bracket it pairs with"],
     bestFor: "Intel NUC owners who already have their stock mounting bracket and just need a VESA adapter plate to go with it.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41PIBhYD0hL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CB2CPVRC?tag=deskfinds0d-20",
-    description:
-      "This mount is built specifically for Lenovo ThinkCentre Tiny desktops across a long list of named models, and the listing warns explicitly that unlisted models are not supported. VESA mounting uses the standard 75x75 or 100x100mm hole pattern to attach directly to the back of a monitor.\n\nAn anti-scratch rubber mat protects the ThinkCentre chassis, and Velcro straps secure the power adapter to the top of the bracket to keep cables organized. The listing also flags an important limitation: if you mount to the back of your monitor via VESA, you give up the option to also use that same VESA point for a monitor arm.",
-    specs: ["Purpose-built for named Lenovo ThinkCentre Tiny models", "VESA 75x75 and 100x100mm", "Wall or under-desk mounting also supported", "Anti-scratch rubber mat", "Velcro power adapter straps"],
-    pros: ["Precise fit for a specific, named list of ThinkCentre models", "Rubber mat protects the chassis from scratches", "Power adapter strap keeps cabling tidy", "Also supports wall and under-desk as alternatives to VESA"],
-    cons: ["Only fits listed Lenovo ThinkCentre Tiny models", "Using the monitor's VESA point for this mount means giving up a monitor arm on that same point", "No stated weight capacity in the listing"],
+    description: "This mount is built specifically for Lenovo ThinkCentre Tiny desktops across a long list of named models, and the listing warns explicitly that unlisted models are not supported. VESA mounting uses the standard 75x75 or 100x100mm hole pattern to attach directly to the back of a monitor.\n\nRanked just behind HumanCentric Mounting Bracket for Intel NUC Mini PC VESA Monitor Arm 75x75, it costs more than HumanCentric Mounting Bracket for Intel NUC Mini PC VESA Monitor Arm 75x75. The real tradeoff against that pick: Only fits listed Lenovo ThinkCentre Tiny models. In exchange, it offers this instead: Precise fit for a specific, named list of ThinkCentre models. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Rubber mat protects the chassis from scratches. On the other side, No stated weight capacity in the listing. That's the main tradeoff to weigh against everything above.",
+    specs: ["Purpose-built for named Lenovo ThinkCentre Tiny models","VESA 75x75 and 100x100mm","Wall or under-desk mounting also supported","Anti-scratch rubber mat","Velcro power adapter straps"],
+    pros: ["Precise fit for a specific, named list of ThinkCentre models","Rubber mat protects the chassis from scratches","Power adapter strap keeps cabling tidy","Also supports wall and under-desk as alternatives to VESA"],
+    cons: ["Only fits listed Lenovo ThinkCentre Tiny models","Using the monitor's VESA point for this mount means giving up a monitor arm on that same point","No stated weight capacity in the listing"],
     bestFor: "Lenovo ThinkCentre Tiny owners on a supported model who want a purpose-fit VESA mount rather than a universal bracket.",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41X2PrniDzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C9SVTQHG?tag=deskfinds0d-20",
-    description:
-      "This mount targets a long list of named Dell OptiPlex Micro Form Factor models, explicitly excluding OptiPlex tower, small form factor, and Wyse models. It uses the standard 75x75 or 100x100mm VESA pattern to attach behind a monitor, in addition to wall and under-desk mounting options.\n\nVelcro straps secure the OptiPlex's power adapter to the bracket, and the listing carries the same important caveat as the ThinkCentre mount above: mounting to your monitor's VESA holes means you cannot simultaneously use that VESA point for a monitor arm. Confirm your exact OptiPlex model against the compatible list before ordering.",
-    specs: ["Purpose-built for named Dell OptiPlex Micro models", "VESA 75x75 and 100x100mm", "Wall or under-desk mounting also supported", "Power adapter Velcro straps", "1.4\" x 7\" x 7.2\" device size fit"],
-    pros: ["Precise fit for a long, named list of Dell OptiPlex Micro models", "Power adapter straps keep cabling organized", "Also usable as a wall or under-desk mount", "Clear compatibility list in the product listing"],
-    cons: ["Explicitly excludes OptiPlex tower, small form factor, and Wyse models", "Using monitor VESA holes conflicts with also using a monitor arm on the same point", "No stated weight capacity"],
+    description: "This mount targets a long list of named Dell OptiPlex Micro Form Factor models, explicitly excluding OptiPlex tower, small form factor, and Wyse models. It uses the standard 75x75 or 100x100mm VESA pattern to attach behind a monitor, in addition to wall and under-desk mounting options.\n\nOne spot below Mini PC Mount for Lenovo ThinkCentre Wall VESA and Under Desk Mount in this ranking, it costs more than Mini PC Mount for Lenovo ThinkCentre Wall VESA and Under Desk Mount. The compromise here is straightforward: Explicitly excludes OptiPlex tower, small form factor, and Wyse models. What you gain in return: Precise fit for a long, named list of Dell OptiPlex Micro models. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Power adapter straps keep cabling organized. On the other side, No stated weight capacity. That's the main tradeoff to weigh against everything above.",
+    specs: ["Purpose-built for named Dell OptiPlex Micro models","VESA 75x75 and 100x100mm","Wall or under-desk mounting also supported","Power adapter Velcro straps","1.4\" x 7\" x 7.2\" device size fit"],
+    pros: ["Precise fit for a long, named list of Dell OptiPlex Micro models","Power adapter straps keep cabling organized","Also usable as a wall or under-desk mount","Clear compatibility list in the product listing"],
+    cons: ["Explicitly excludes OptiPlex tower, small form factor, and Wyse models","Using monitor VESA holes conflicts with also using a monitor arm on the same point","No stated weight capacity"],
     bestFor: "Dell OptiPlex Micro owners on a supported model who want VESA mounting with the option to switch to wall or under-desk later.",
   },
   {
@@ -115,11 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/4122QnwgXPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXDVS61F?tag=deskfinds0d-20",
-    description:
-      "This bracket adjusts to fit device widths from 0.63 to 2.8 inches and lists a wide range of compatible Mini PC brands by name, including HP, Dell, Lenovo, NUC, and several newer mini gaming PC models. It supports up to 12 pounds and can mount under the desk, behind the monitor, on a wall, or clamped to a stand pole.\n\nBuilt-in cable management and a small pen holder round out a practical, general-purpose VESA solution when your Mini PC is not one of the specific named-model mounts elsewhere in this guide. The metal open-frame construction is stated to improve airflow versus a solid plastic backing.",
-    specs: ["Metal, open-frame construction", "0.63\" to 2.8\" adjustable device width", "12 lb weight capacity", "Wall, under-desk, behind-monitor, and pole mounting", "Cable management and pen holder included"],
-    pros: ["Wide named-brand compatibility list beyond just Mac mini and NUC", "12 lb capacity is above average for this category", "Cable management is a genuinely useful extra", "Open-frame metal build supports airflow"],
-    cons: ["Not a device-specific fit, so it holds less rigidly than a purpose-built bracket", "Pole clamp diameter range will not fit every monitor arm pole", "No published combined weight rating for VESA piggyback setups"],
+    description: "This bracket adjusts to fit device widths from 0.63 to 2.8 inches and lists a wide range of compatible Mini PC brands by name, including HP, Dell, Lenovo, NUC, and several newer mini gaming PC models. It supports up to 12 pounds and can mount under the desk, behind the monitor, on a wall, or clamped to a stand pole.\n\nSitting just under Mini PC Mount for Dell Micro Mount, it's priced lower than Mini PC Mount for Dell Micro Mount. Here's the honest tradeoff: Not a device-specific fit, so it holds less rigidly than a purpose-built bracket. And here's what it gets you instead: Wide named-brand compatibility list beyond just Mac mini and NUC. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: 12 lb capacity is above average for this category. On the other side, No published combined weight rating for VESA piggyback setups. That's the main tradeoff to weigh against everything above.",
+    specs: ["Metal, open-frame construction","0.63\" to 2.8\" adjustable device width","12 lb weight capacity","Wall, under-desk, behind-monitor, and pole mounting","Cable management and pen holder included"],
+    pros: ["Wide named-brand compatibility list beyond just Mac mini and NUC","12 lb capacity is above average for this category","Cable management is a genuinely useful extra","Open-frame metal build supports airflow"],
+    cons: ["Not a device-specific fit, so it holds less rigidly than a purpose-built bracket","Pole clamp diameter range will not fit every monitor arm pole","No published combined weight rating for VESA piggyback setups"],
     bestFor: "Buyers with a Mini PC brand not covered by a device-specific bracket who still want reliable VESA compatibility.",
   },
   {
@@ -132,11 +126,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/419hWbxp-bL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B082FMHW2Q?tag=deskfinds0d-20",
-    description:
-      "This steel bracket adjusts from 1.8 to 7.1 centimeters of width and supports both the 75x75 and 100x100mm VESA patterns, rated for up to 5 kilograms, or about 11 pounds. A powder coated, rust-resistant finish and a 3-year manufacturer warranty back the build quality claim.\n\nBeyond VESA mounting, the same bracket clamps to a monitor arm pole or installs under the desk, giving flexibility if you later change how your setup is arranged. Rubber pads and adjustable straps keep the mounted device from sliding once installed.",
-    specs: ["Solid steel, powder coated finish", "VESA 75x75 and 100x100mm", "1.8cm to 7.1cm adjustable width", "5kg (about 11 lb) weight capacity", "3-year manufacturer warranty"],
-    pros: ["Longest warranty period in this guide", "Dual VESA pattern support", "Open-frame design for airflow and port access", "Rust-resistant steel build"],
-    cons: ["11 lb capacity is average, not class-leading", "Pole clamp diameter range is limited", "No combined weight rating stated for monitor piggyback setups"],
+    description: "This steel bracket adjusts from 1.8 to 7.1 centimeters of width and supports both the 75x75 and 100x100mm VESA patterns, rated for up to 5 kilograms, or about 11 pounds. A powder coated, rust-resistant finish and a 3-year manufacturer warranty back the build quality claim.\n\nRanked just behind Adjustable Thin Client Mini PC VESA Mount to Wall, it's priced lower than Adjustable Thin Client Mini PC VESA Mount to Wall. The real tradeoff against that pick: 11 lb capacity is average, not class-leading. In exchange, it offers this instead: Longest warranty period in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Dual VESA pattern support. On the other side, No combined weight rating stated for monitor piggyback setups. That's the main tradeoff to weigh against everything above.",
+    specs: ["Solid steel, powder coated finish","VESA 75x75 and 100x100mm","1.8cm to 7.1cm adjustable width","5kg (about 11 lb) weight capacity","3-year manufacturer warranty"],
+    pros: ["Longest warranty period in this guide","Dual VESA pattern support","Open-frame design for airflow and port access","Rust-resistant steel build"],
+    cons: ["11 lb capacity is average, not class-leading","Pole clamp diameter range is limited","No combined weight rating stated for monitor piggyback setups"],
     bestFor: "Buyers who want dependable VESA compatibility backed by the longest warranty in this guide.",
   },
   {
@@ -149,13 +142,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DB5RQH7V?tag=deskfinds0d-20",
-    description:
-      "This bracket fits device widths from 0.63 to 2.8 inches and supports up to 12 pounds, with VESA mounting via a monitor arm alongside wall and under-desk options. A built-in cable management channel and small pen holder are aimed squarely at buyers who want the VESA mount to also tidy up the desk around it.\n\nThe listing notes the open design avoids covering the ports or vents of the mounted Mini PC even when bundled with cabling. At this price it is the most affordable option in this guide that still supports a monitor arm attachment point.",
-    specs: ["Metal construction", "Fits 0.63\" to 2.8\" device width", "12 lb weight capacity", "Wall, under-desk, and monitor arm mounting", "Cable management and pen holder included"],
-    pros: ["Lowest price among the monitor arm-compatible mounts here", "12 lb capacity is above average", "Cable management keeps a VESA setup tidy", "Open design avoids blocking vents or ports"],
-    cons: ["Not device-specific, so fit is less rigid than a purpose-built bracket", "No stated combined weight rating for monitor piggyback use", "VESA pattern support not explicitly split out for 75x75 vs 100x100 in the listing"],
+    description: "This bracket fits device widths from 0.63 to 2.8 inches and supports up to 12 pounds, with VESA mounting via a monitor arm alongside wall and under-desk options. A built-in cable management channel and small pen holder are aimed squarely at buyers who want the VESA mount to also tidy up the desk around it.\n\nOne spot below VIVO Adjustable Thin Client Mini PC Mount Bracket in this ranking, it's priced lower than VIVO Adjustable Thin Client Mini PC Mount Bracket. The compromise here is straightforward: Not device-specific, so fit is less rigid than a purpose-built bracket. What you gain in return: Lowest price among the monitor arm-compatible mounts here. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: 12 lb capacity is above average. On the other side, VESA pattern support not explicitly split out for 75x75 vs 100x100 in the listing. That's the main tradeoff to weigh against everything above.",
+    specs: ["Metal construction","Fits 0.63\" to 2.8\" device width","12 lb weight capacity","Wall, under-desk, and monitor arm mounting","Cable management and pen holder included"],
+    pros: ["Lowest price among the monitor arm-compatible mounts here","12 lb capacity is above average","Cable management keeps a VESA setup tidy","Open design avoids blocking vents or ports"],
+    cons: ["Not device-specific, so fit is less rigid than a purpose-built bracket","No stated combined weight rating for monitor piggyback use","VESA pattern support not explicitly split out for 75x75 vs 100x100 in the listing"],
     bestFor: "Budget-conscious buyers who want VESA and monitor arm compatibility along with built-in cable management.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -169,69 +161,118 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Your Mini PC Brand",
-    table: {
-      headers: ["Your Mini PC", "Recommended pick"],
-      rows: [
-        ["Dell OptiPlex Micro (named models)", "VIVO Behind Monitor Mini PC VESA Mount for Dell OptiPlex Micro"],
-        ["Lenovo ThinkCentre Tiny (named models)", "Mini PC Mount for Lenovo ThinkCentre Wall VESA and Under Desk Mount"],
-        ["Intel NUC, already has its stock bracket", "HumanCentric Mounting Bracket for Intel NUC VESA 75x75"],
-        ["Any other brand or unlisted model", "Adjustable Thin Client Mini PC VESA Mount to Wall, Under Desk, Monitor Arm"],
+    "subheading": "By Mounting Surface",
+    "table": {
+      "headers": [
+        "Where it's going",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Behind a monitor or TV (VESA)",
+          "HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm"
+        ],
+        [
+          "Server rack (10-inch or 19-inch)",
+          "HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm"
+        ],
+        [
+          "Wall or under-desk",
+          "Mini PC Mount for Lenovo ThinkCentre Wall VESA and Under Desk Mount"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Check Your VESA Pattern",
-    intro: "75x75mm and 100x100mm are the two standard patterns, and mixing them up means the holes simply will not line up.",
-    table: {
-      headers: ["Your monitor's VESA holes", "What to buy"],
-      rows: [
-        ["75x75mm only", "Any bracket in this guide, all support 75x75mm"],
-        ["100x100mm only", "Any bracket in this guide, all support 100x100mm"],
-        ["Not sure / no VESA holes at all", "Skip VESA hardware and use an under-desk or wall mount from our broader mounts guide instead"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $19",
+          "HumanCentric Mounting Bracket for Intel NUC Mini PC VESA Monitor Arm 75x75"
+        ],
+        [
+          "Mid-range",
+          "Mini PC Mount for Lenovo ThinkCentre Wall VESA and Under Desk Mount"
+        ],
+        [
+          "No firm budget ceiling, prioritizing brand-specific fit",
+          "HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Combined VESA Load, Not Just Device Weight",
-    intro: "A monitor's VESA point has its own rated capacity, and a piggybacked Mini PC adds to that total rather than being weighed in isolation.",
-    cards: [
-      { label: "Light monitor, light Mini PC", text: "Most combinations well under 5 lbs total are safe on nearly any VESA arm rated for a standard monitor." },
-      { label: "Heavier monitor near its arm's rated limit", text: "Adding even a light Mini PC and mount can push a monitor arm past its comfortable margin. Check the arm's own rating, not just the Mini PC bracket's rating, before mounting." },
+    "subheading": "Brand-Specific Fit vs Universal Compatibility",
+    "cards": [
+      {
+        "label": "Brand-Specific Fit",
+        "text": "Matches one specific chassis shape exactly, generally a more secure fit for that exact model. In this comparison: HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm."
+      },
+      {
+        "label": "Universal / Multi-Brand",
+        "text": "Works across several mini PC brands with adjustable hardware, more flexible if you might switch devices later. In this comparison: VIVO Behind Monitor Mini PC VESA Mount for Dell OptiPlex Micro."
+      }
     ],
-    note: "The HumanCentric bracket in this guide is the only one here that explicitly publishes a combined device-plus-monitor weight figure, which makes it the safer default when you are unsure.",
+    "note": "Confirm your exact mini PC model against the listing's stated compatibility either way, since even a \"universal\" mount has real size limits."
   },
   {
-    subheading: "The VESA Point Conflict",
-    intro: "A monitor's VESA holes can typically be used for one attachment at a time, not both a monitor arm and a piggybacked Mini PC mount simultaneously.",
-    table: {
-      headers: ["What you want", "What to know"],
-      rows: [
-        ["Monitor arm AND a mounted Mini PC", "Usually not possible on the same VESA point without a VESA extension or dual-mount adapter not covered in this guide"],
-        ["Mounted Mini PC, monitor stays on its stock stand", "Works fine, this is the standard use case for every mount here"],
-        ["Monitor arm only, Mini PC mounted elsewhere", "Use an under-desk or wall mount from our broader mounts guide instead"],
-      ],
-    },
+    "subheading": "By Post-Install Port Access",
+    "note": "None of these picks specifically advertise preserved front-port access after mounting; check each listing's product photos for where the ports land once installed if that matters to you."
   },
   {
-    subheading: "Cable Routing Behind the Monitor",
-    table: {
-      headers: ["Setup complexity", "What to check"],
-      rows: [
-        ["Just power and one video cable", "Any bracket here handles this fine"],
-        ["Multiple peripherals routed through the Mini PC", "Favor a mount with built-in cable management, like the Adjustable Thin Client bracket"],
-        ["Frequent cable swaps", "Favor an open-frame bracket over a device-specific enclosed one for easier access"],
-      ],
-    },
+    "subheading": "For a Home Lab Rack Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation of 10-inch (home-lab) versus 19-inch (commercial) rack compatibility, since these are different standards, plus whether it's full or half rack-unit width."
+      },
+      {
+        "label": "In this comparison",
+        "text": "HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm fits this specifically: Publishes both a device-only and a combined weight rating."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm offers: Publishes both a device-only and a combined weight rating. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "HumanCentric Mounting Bracket for Intel NUC Mini PC VESA Monitor Arm 75x75 already covers the essentials: Lowest price in this guide. The main thing you'd be paying extra for elsewhere in this list is broader compatibility you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "75x75mm vs 100x100mm VESA compatibility", explanation: "These two hole patterns are not interchangeable unless the bracket explicitly supports both. Measure your monitor's actual VESA hole spacing before ordering rather than assuming any 'VESA compatible' listing will fit." },
-  { criterion: "Combined VESA load, not device weight alone", explanation: "A monitor's VESA point has its own rated weight capacity, and a piggybacked Mini PC and its mount add to that total. Look for a listing that states a combined weight figure rather than only a device-only rating." },
-  { criterion: "Device-specific brackets fit more rigidly", explanation: "A bracket built for a named model, like the Dell OptiPlex Micro or Lenovo ThinkCentre Tiny mounts in this guide, holds the chassis more securely than a generic adjustable bracket, but only if your exact model is on the compatibility list." },
-  { criterion: "Cable routing access behind the monitor", explanation: "A VESA mount that looks clean from the front can still trap cabling in an awkward spot behind the screen. Check for built-in cable management if your setup routes more than power and one video cable through the Mini PC." },
-  { criterion: "The VESA point conflict", explanation: "Most monitors offer one VESA attachment point, so a piggybacked Mini PC mount usually competes with a monitor arm for that same spot. Decide upfront whether you need the monitor arm or the Mini PC mount more, since combining both on one point is not standard with the hardware in this guide." },
+  {
+    "criterion": "Verify your exact mini PC model against the mount's stated compatibility list",
+    "explanation": "Mini PC mounts and brackets are built around specific chassis dimensions and screw-hole patterns, and unlike a universal VESA monitor mount, many mini PC brackets are designed for one specific brand's chassis shape, such as Dell OptiPlex Micro, Lenovo ThinkCentre Tiny, HP EliteDesk Mini, or a specific generation of Mac mini.\n\nMounting hardware that doesn't match your exact model can fail to align with the screw holes at all, or worse, only partially secure the device, creating a real risk of it working loose over time in a mount that's supposed to hold it stationary.\n\nCheck the listing's stated compatible models and generations specifically against your own mini PC's exact model number, not just the general \"mini PC\" category claim in the title."
+  },
+  {
+    "criterion": "Confirm the mount's actual mounting surface (VESA, rack, wall, or under-desk) matches your install location",
+    "explanation": "Mini PC mounts split into genuinely different installation categories: VESA mounts attach to the back of a monitor or TV using the standardized VESA hole pattern, rack mounts fit a 10-inch home-lab or 19-inch commercial server rack, wall mounts attach directly to drywall or a stud, and under-desk mounts clamp to the underside of a desk surface, and these are not interchangeable hardware despite all falling under the same general product category.\n\nBuying a rack-format shelf when you actually need a VESA bracket, for instance, means the hardware simply won't attach to your intended surface at all, since the mounting mechanism itself is fundamentally different between categories.\n\nIdentify your specific installation surface first (monitor back, rack, wall, or desk underside) and filter specifically for that mount type, rather than searching generically for \"mini PC mount\" and assuming any result will work for your setup."
+  },
+  {
+    "criterion": "Check the stated weight capacity against your mini PC's actual weight",
+    "explanation": "A mount's weight capacity, when disclosed, reflects how much load the bracket's screws, arms, and adhesive or clamping mechanism can safely hold long-term without gradually sagging, loosening, or failing outright, and mini PCs vary meaningfully in weight depending on their chassis material and internal components, from under a pound for the lightest fanless designs to several pounds for units with larger heatsinks or multiple drive bays.\n\nMounting a device at or near a bracket's rated limit, especially on a mount holding the device at an angle or overhead behind a monitor, leaves little margin for the natural loosening that happens over months of use, vibration, or repeated adjustment.\n\nWeigh your specific mini PC model (check its listed weight spec) against the mount's stated capacity, and favor a mount with meaningful headroom above your device's actual weight rather than one rated right at the edge."
+  },
+  {
+    "criterion": "Consider port and cable access after the mount is installed, not just before",
+    "explanation": "A mini PC's ports are typically concentrated on the rear and sometimes front panel, and once mounted, especially behind a monitor, inside a rack, or under a desk, those ports can become significantly harder to reach for routine tasks like plugging in a USB drive or checking a status light, even though the mount holds the device perfectly securely.\n\nSome mounts are specifically designed to preserve front-panel port access after installation, while others prioritize a low-profile or flush mount that trades away easy access for a cleaner look, and this is a real day-to-day usability tradeoff that photos alone don't always make obvious.\n\nThink through which ports you'll need to access regularly after mounting (power, a USB drive, HDMI swaps) and check whether the specific mount's design keeps those reachable, rather than only checking that it physically holds the device."
+  },
+  {
+    "criterion": "Check what installation hardware is actually included versus what you'll need to source separately",
+    "explanation": "Mount listings vary in how complete their included hardware kit is, some ship with every screw, VESA adapter plate, and cable tie needed for a full installation, while others assume you already have compatible mounting screws from the mini PC's original packaging or a previous mount, which isn't always the case if you're mounting a device for the first time or switching setups.\n\nThis matters because discovering mid-installation that you're missing a specific screw size or an adapter plate means a delayed setup and a second order, a genuinely avoidable frustration.\n\nCheck the listing's stated included contents specifically, and if you no longer have your mini PC's original mounting screws, confirm the mount ships with compatible replacements rather than assuming they're included by default."
+  }
 ];
 
 export const faq: FaqItem[] = [

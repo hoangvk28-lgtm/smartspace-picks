@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "43",
     imageUrl: "https://m.media-amazon.com/images/I/31s+w6dIYpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1NFXV1H?tag=deskfinds0d-20",
-    description:
-      "This stand offers a genuine dual-mode design: run it passive with the aluminum body alone, or flip a switch to add a 120mm fan for sustained workloads. The listing states a 14 to 36 degree Fahrenheit reduction under passive cooling, with the fan available for heavier loads.\n\nAt 6.69 x 5.71 x 1.77 inches and 1.1 lbs, it fits most compact Mini PCs without dominating desk space, and a USB passthrough port avoids losing a port to the fan's own power draw. The listing notes the 120mm fan is audible at full speed, so buyers wanting silence should default to passive mode.",
-    specs: ["Aluminum alloy body", "120mm 2000 RPM fan (switchable on/off)", "6.69\" x 5.71\" x 1.77\"", "USB passthrough port", "1.1 lbs"],
-    pros: ["Switch lets you choose passive silence or active airflow", "USB passthrough avoids losing a port", "Compact footprint for most Mini PCs", "Replaceable fan design"],
-    cons: ["Fan is audible at full speed per the listing", "3.7-star average is lower than most other picks here, worth reading reviews before buying", "No documented before/after temperature test beyond the manufacturer's own figures"],
+    description: "This stand offers a genuine dual-mode design: run it passive with the aluminum body alone, or flip a switch to add a 120mm fan for sustained workloads. The listing states a 14 to 36 degree Fahrenheit reduction under passive cooling, with the fan available for heavier loads.\n\nIt earns the top spot in this comparison over Quiet 120mm USB Fan for one main reason. Switch lets you choose passive silence or active airflow. On price, it's actually priced above Quiet 120mm USB Fan, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: USB passthrough avoids losing a port. On the other side, No documented before/after temperature test beyond the manufacturer's own figures. That's the main tradeoff to weigh against everything above.",
+    specs: ["Aluminum alloy body","120mm 2000 RPM fan (switchable on/off)","6.69\" x 5.71\" x 1.77\"","USB passthrough port","1.1 lbs"],
+    pros: ["Switch lets you choose passive silence or active airflow","USB passthrough avoids losing a port","Compact footprint for most Mini PCs","Replaceable fan design"],
+    cons: ["Fan is audible at full speed per the listing","3.7-star average is lower than most other picks here, worth reading reviews before buying","No documented before/after temperature test beyond the manufacturer's own figures"],
     bestFor: "Buyers who want the flexibility to switch between silent passive cooling and active airflow on the same stand.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "19",
     imageUrl: "https://m.media-amazon.com/images/I/41rvTsVvGiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FJLK2894?tag=deskfinds0d-20",
-    description:
-      "This stand pairs aerospace-grade aluminum with a 12025 fan rated at 2000 RPM, and the listing specifically calls out Mac mini, routers, and Mini PCs as intended devices. It states an 8 to 20 degree Celsius reduction under passive cooling alone, with the fan adding active airflow for heavier loads.\n\nA speed control switch lets you dial in airflow versus noise, and the listing states a 48kg load rating, well beyond what any Mini PC weighs. The USB pass-through port keeps a port free on your Mini PC itself.",
-    specs: ["Aerospace-grade aluminum", "12025 fan, 2000 RPM, speed control switch", "7.2\" x 5.71\" x 1.77\"", "USB pass-through port", "48kg rated load capacity"],
-    pros: ["Explicitly compatible with Mac mini and similar Mini PC chassis", "Adjustable fan speed to balance noise and airflow", "USB pass-through preserves a port", "Includes a spare parts kit"],
-    cons: ["Smaller reviewer base (19 ratings) than some other picks", "Passive-mode cooling claim is manufacturer-stated, not independently verified", "1 lb weight means it can shift on a slick desk without a non-slip mat"],
+    description: "This stand pairs aerospace-grade aluminum with a 12025 fan rated at 2000 RPM, and the listing specifically calls out Mac mini, routers, and Mini PCs as intended devices. It states an 8 to 20 degree Celsius reduction under passive cooling alone, with the fan adding active airflow for heavier loads.\n\nOne spot below Aluminum Mini PC Cooler Stand with 120mm Fan in this ranking, it's priced lower than Aluminum Mini PC Cooler Stand with 120mm Fan. The compromise here is straightforward: Smaller reviewer base (19 ratings) than some other picks. What you gain in return: Explicitly compatible with Mac mini and similar Mini PC chassis. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Adjustable fan speed to balance noise and airflow. On the other side, 1 lb weight means it can shift on a slick desk without a non-slip mat. That's the main tradeoff to weigh against everything above.",
+    specs: ["Aerospace-grade aluminum","12025 fan, 2000 RPM, speed control switch","7.2\" x 5.71\" x 1.77\"","USB pass-through port","48kg rated load capacity"],
+    pros: ["Explicitly compatible with Mac mini and similar Mini PC chassis","Adjustable fan speed to balance noise and airflow","USB pass-through preserves a port","Includes a spare parts kit"],
+    cons: ["Smaller reviewer base (19 ratings) than some other picks","Passive-mode cooling claim is manufacturer-stated, not independently verified","1 lb weight means it can shift on a slick desk without a non-slip mat"],
     bestFor: "Mac mini and similar boxy Mini PC owners who want a stand explicitly marketed for their chassis shape.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31-TbKGv7LL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H4ZGPJJK?tag=deskfinds0d-20",
-    description:
-      "This stand states a specific noise figure, 25.6 dBA, which is unusually precise for this category and lets you compare it directly against a real threshold rather than a vague quiet claim. The listing states an 8 to 20 degree Celsius reduction and lists Mac mini, Mac Studio, and Mini PCs by name as compatible devices.\n\nAn integrated speed controller combines power and fan control in one unit, and the CNC anodized aluminum frame is stated to carry UL Class A insulation on the fan's internal components. As a newer listing it does not yet have a public review history, so treat the manufacturer's noise and thermal figures as unverified until independent buyer feedback accumulates.",
-    specs: ["CNC anodized aluminum frame", "120x120x25mm fan, 1550 RPM, 66.17 CFM, 25.6 dBA rated", "7.32\" x 6.10\" x 1.85\"", "Integrated speed controller", "12V DC 0.2A"],
-    pros: ["Specific dBA noise rating instead of a vague quiet claim", "Explicitly lists Mac mini, Mac Studio, and Mini PC compatibility", "Integrated controller needs no separate accessory", "Replaceable fan for long-term use"],
-    cons: ["No published review history yet to verify manufacturer's stated figures", "Slightly larger footprint than the compact picks above", "Same category as several similar-spec competitors here, hard to differentiate without independent reviews"],
+    description: "This stand states a specific noise figure, 25.6 dBA, which is unusually precise for this category and lets you compare it directly against a real threshold rather than a vague quiet claim. The listing states an 8 to 20 degree Celsius reduction and lists Mac mini, Mac Studio, and Mini PCs by name as compatible devices.\n\nSitting just under Quiet 120mm USB Fan, it's priced lower than Quiet 120mm USB Fan. Here's the honest tradeoff: No published review history yet to verify manufacturer's stated figures. And here's what it gets you instead: Specific dBA noise rating instead of a vague quiet claim. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Explicitly lists Mac mini, Mac Studio, and Mini PC compatibility. On the other side, Same category as several similar-spec competitors here, hard to differentiate without independent reviews. That's the main tradeoff to weigh against everything above.",
+    specs: ["CNC anodized aluminum frame","120x120x25mm fan, 1550 RPM, 66.17 CFM, 25.6 dBA rated","7.32\" x 6.10\" x 1.85\"","Integrated speed controller","12V DC 0.2A"],
+    pros: ["Specific dBA noise rating instead of a vague quiet claim","Explicitly lists Mac mini, Mac Studio, and Mini PC compatibility","Integrated controller needs no separate accessory","Replaceable fan for long-term use"],
+    cons: ["No published review history yet to verify manufacturer's stated figures","Slightly larger footprint than the compact picks above","Same category as several similar-spec competitors here, hard to differentiate without independent reviews"],
     bestFor: "Buyers who want a documented noise spec to compare against, rather than an unverifiable quiet claim.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "42",
     imageUrl: "https://m.media-amazon.com/images/I/31jzso+fIGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9L5D9R2?tag=deskfinds0d-20",
-    description:
-      "This is a purely passive stand, no fan, that elevates a Mac Studio or Mac mini to open up airflow beneath the chassis. Machined aluminum brackets and shock-absorbing silicone pads hold the device in place while raising it off the desk surface.\n\nBecause there is no fan, it adds zero operating noise, but the cooling benefit depends entirely on whether your Mini PC's real bottleneck is restricted under-chassis airflow rather than internal thermal design. It is worth pairing with a look at our dedicated passive-stand guide if silence is your top priority.",
-    specs: ["Aircraft-grade aluminum brackets", "Shock-absorbing silicone pads", "No fan, fully passive", "Purpose-built for Mac Studio and Mac mini"],
-    pros: ["Completely silent, no fan to add noise", "Purpose-fit for Mac Studio and Mac mini shapes", "Shock-absorbing pads protect against slips and scratches", "Simple, tool-free installation"],
-    cons: ["No active airflow, so gains are smaller than a fan-equipped stand", "Only fits Mac Studio and Mac mini form factors, not other Mini PC brands", "No documented sustained-load temperature test beyond the manufacturer's general claim"],
+    description: "This is a purely passive stand, no fan, that elevates a Mac Studio or Mac mini to open up airflow beneath the chassis. Machined aluminum brackets and shock-absorbing silicone pads hold the device in place while raising it off the desk surface.\n\nRanked just behind Quiet 120mm USB Cooling Fan with Aluminum Stand, it's priced lower than Quiet 120mm USB Cooling Fan with Aluminum Stand. The real tradeoff against that pick: No active airflow, so gains are smaller than a fan-equipped stand. In exchange, it offers this instead: Completely silent, no fan to add noise. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Purpose-fit for Mac Studio and Mac mini shapes. On the other side, No documented sustained-load temperature test beyond the manufacturer's general claim. That's the main tradeoff to weigh against everything above.",
+    specs: ["Aircraft-grade aluminum brackets","Shock-absorbing silicone pads","No fan, fully passive","Purpose-built for Mac Studio and Mac mini"],
+    pros: ["Completely silent, no fan to add noise","Purpose-fit for Mac Studio and Mac mini shapes","Shock-absorbing pads protect against slips and scratches","Simple, tool-free installation"],
+    cons: ["No active airflow, so gains are smaller than a fan-equipped stand","Only fits Mac Studio and Mac mini form factors, not other Mini PC brands","No documented sustained-load temperature test beyond the manufacturer's general claim"],
     bestFor: "Mac Studio or Mac mini owners who want silent, purely passive elevation rather than added fan noise.",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31-xO65uCCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07Z2NZZBS?tag=deskfinds0d-20",
-    description:
-      "This stand is built exclusively for Intel NUC Mini PCs, with precision CNC aluminum machined to fit the NUC chassis directly and a slightly lifted vertical plate that leaves room for air intake underneath. It is compatible with 6th, 7th, 8th, 10th, and 11th generation thin-edition NUC kits specifically, and the listing is explicit that it does not fit 5th generation or earlier NUCs, nor Mini PCs from other manufacturers.\n\nBecause it mounts via the NUC's own VESA holes rather than just sitting the device on a platform, it holds the chassis rigidly upright while preserving the vent clearance NUC intake vents actually need. Confirm your exact NUC generation against the listing's compatibility table before buying, since a mismatch means the mount will not fit.",
-    specs: ["Premium CNC aluminum", "VESA-hole mounting to NUC chassis", "Compatible with NUC 6, 7, 8, 10, 11 thin edition only", "Non-slip and double-sided adhesive pads included"],
-    pros: ["Purpose-built exclusively for Intel NUC, not a generic stand", "VESA mounting holds the chassis rigidly rather than just resting it", "Slightly lifted design preserves NUC's own intake clearance", "Includes both non-slip and adhesive mounting options"],
-    cons: ["Only fits specific NUC generations, check compatibility carefully before buying", "Not compatible with any non-Intel-NUC Mini PC", "Fully passive, no fan for sustained heavy workloads"],
+    description: "This stand is built exclusively for Intel NUC Mini PCs, with precision CNC aluminum machined to fit the NUC chassis directly and a slightly lifted vertical plate that leaves room for air intake underneath. It is compatible with 6th, 7th, 8th, 10th, and 11th generation thin-edition NUC kits specifically, and the listing is explicit that it does not fit 5th generation or earlier NUCs, nor Mini PCs from other manufacturers.\n\nOne spot below IFCASE Aluminum Desktop Stand for Mac Studio in this ranking, pricing between it and IFCASE Aluminum Desktop Stand for Mac Studio isn't directly comparable here. The compromise here is straightforward: Only fits specific NUC generations, check compatibility carefully before buying. What you gain in return: Purpose-built exclusively for Intel NUC, not a generic stand. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: VESA mounting holds the chassis rigidly rather than just resting it. On the other side, Fully passive, no fan for sustained heavy workloads. That's the main tradeoff to weigh against everything above. The price wasn't listed at the time of research, so confirm current cost on Amazon before deciding.",
+    specs: ["Premium CNC aluminum","VESA-hole mounting to NUC chassis","Compatible with NUC 6, 7, 8, 10, 11 thin edition only","Non-slip and double-sided adhesive pads included"],
+    pros: ["Purpose-built exclusively for Intel NUC, not a generic stand","VESA mounting holds the chassis rigidly rather than just resting it","Slightly lifted design preserves NUC's own intake clearance","Includes both non-slip and adhesive mounting options"],
+    cons: ["Only fits specific NUC generations, check compatibility carefully before buying","Not compatible with any non-Intel-NUC Mini PC","Fully passive, no fan for sustained heavy workloads"],
     bestFor: "Intel NUC owners on a compatible generation who want a stand engineered specifically for their chassis, not a generic riser.",
   },
   {
@@ -115,11 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41qY7V4q6iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BP9SPPWG?tag=deskfinds0d-20",
-    description:
-      "Unlike the other stands here, this is a wall, under-desk, or behind-monitor mount rather than a desktop stand, aimed at buyers who want to remove the Mac mini from the desk surface entirely while adding a cooling fan. VESA compatibility (75mm and 100mm) means it can attach to a monitor arm setup as well.\n\nA silicone anti-scratch pad holds the device in place, and a USB 1.1 hub is included for a mouse and keyboard, separate from the cooling fan's own power draw. This is the pick to consider if desk space, not just cooling, is your primary constraint.",
-    specs: ["Aluminum alloy, wrap-around design", "VESA 75mm and 100mm compatible", "Wall, under-desk, or monitor-back mounting", "Includes USB 1.1 hub for peripherals"],
-    pros: ["Frees up desk space entirely by mounting off the desktop", "VESA compatible for monitor arm mounting", "Anti-scratch silicone pad protects the device", "Doubles as a small peripheral hub"],
-    cons: ["Only fits Mac mini 2010-2023 M2 generation", "Mounting location may put the fan and vents in a less accessible spot for dusting", "Higher price than several desktop-only stands in this list"],
+    description: "Unlike the other stands here, this is a wall, under-desk, or behind-monitor mount rather than a desktop stand, aimed at buyers who want to remove the Mac mini from the desk surface entirely while adding a cooling fan. VESA compatibility (75mm and 100mm) means it can attach to a monitor arm setup as well.\n\nSitting just under ElecGear iNUC-K Vertical Stand for Intel NUC Mini PC, pricing between it and ElecGear iNUC-K Vertical Stand for Intel NUC Mini PC isn't directly comparable here. Here's the honest tradeoff: Only fits Mac mini 2010-2023 M2 generation. And here's what it gets you instead: Frees up desk space entirely by mounting off the desktop. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: VESA compatible for monitor arm mounting. On the other side, Higher price than several desktop-only stands in this list. That's the main tradeoff to weigh against everything above.",
+    specs: ["Aluminum alloy, wrap-around design","VESA 75mm and 100mm compatible","Wall, under-desk, or monitor-back mounting","Includes USB 1.1 hub for peripherals"],
+    pros: ["Frees up desk space entirely by mounting off the desktop","VESA compatible for monitor arm mounting","Anti-scratch silicone pad protects the device","Doubles as a small peripheral hub"],
+    cons: ["Only fits Mac mini 2010-2023 M2 generation","Mounting location may put the fan and vents in a less accessible spot for dusting","Higher price than several desktop-only stands in this list"],
     bestFor: "Mac mini owners who want to remove the computer from the desk entirely via wall, under-desk, or monitor-back mounting.",
   },
   {
@@ -132,13 +126,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41zsiMyPkhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DL5HKGMX?tag=deskfinds0d-20",
-    description:
-      "This acrylic stand is designed specifically for the Beelink MINI S12 Pro and MINI S12 N95, holding the device vertically to save desk space while the hollow lifted design opens up airflow beneath the chassis. It is a passive design, no fan, relying entirely on elevation and orientation for its cooling benefit.\n\nSilicone strips protect the Mini PC from scratches, and non-slip pads keep the stand itself from sliding. As with any device-specific stand, confirm your exact Beelink model matches before buying, since acrylic cutouts are typically molded to one chassis shape.",
-    specs: ["4mm acrylic construction", "Vertical orientation, hollow lifted design", "Compatible with Beelink MINI S12 Pro N100 and MINI S12 N95", "Silicone scratch-protection strips"],
-    pros: ["Purpose-built for specific Beelink Mini PC models", "Vertical orientation saves desk footprint", "No assembly required", "Silicone protection guards against scratches"],
-    cons: ["Only fits the specific Beelink models listed, not other brands", "Fully passive with no fan for sustained heavy workloads", "Acrylic is less durable than aluminum under heavy desk traffic"],
+    description: "This acrylic stand is designed specifically for the Beelink MINI S12 Pro and MINI S12 N95, holding the device vertically to save desk space while the hollow lifted design opens up airflow beneath the chassis. It is a passive design, no fan, relying entirely on elevation and orientation for its cooling benefit.\n\nRanked just behind IFCASE Cooling Fan Mount for Mac mini, pricing between it and IFCASE Cooling Fan Mount for Mac mini isn't directly comparable here. The real tradeoff against that pick: Only fits the specific Beelink models listed, not other brands. In exchange, it offers this instead: Purpose-built for specific Beelink Mini PC models. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Vertical orientation saves desk footprint. On the other side, Acrylic is less durable than aluminum under heavy desk traffic. That's the main tradeoff to weigh against everything above. The price wasn't listed at the time of research, so confirm current cost on Amazon before deciding.",
+    specs: ["4mm acrylic construction","Vertical orientation, hollow lifted design","Compatible with Beelink MINI S12 Pro N100 and MINI S12 N95","Silicone scratch-protection strips"],
+    pros: ["Purpose-built for specific Beelink Mini PC models","Vertical orientation saves desk footprint","No assembly required","Silicone protection guards against scratches"],
+    cons: ["Only fits the specific Beelink models listed, not other brands","Fully passive with no fan for sustained heavy workloads","Acrylic is less durable than aluminum under heavy desk traffic"],
     bestFor: "Beelink MINI S12 Pro or N95 owners who want a device-specific vertical stand rather than a generic one.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -152,67 +145,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Your Mini PC Brand or Chassis",
-    intro: "Device-specific stands hold their shape better than generic risers, but only fit the exact model they're built for.",
-    table: {
-      headers: ["Your Mini PC", "Recommended pick"],
-      rows: [
-        ["Intel NUC (6th-11th gen thin edition)", "ElecGear iNUC-K Vertical Stand"],
-        ["Mac mini or Mac Studio", "IFCASE Aluminum Desktop Stand or IFCASE Cooling Fan Mount"],
-        ["Beelink MINI S12 Pro or N95", "CaSZLUTION Acrylic Stand"],
-        ["Other or unknown brand", "Aluminum Mini PC Cooler Stand with 120mm Fan (generic fit)"],
+    "subheading": "By Cooling Type",
+    "table": {
+      "headers": [
+        "Your thermal situation",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Light everyday use, want silence",
+          "IFCASE Aluminum Desktop Stand for Mac Studio"
+        ],
+        [
+          "Sustained heavy load (server, transcoding)",
+          "Aluminum Mini PC Cooler Stand with 120mm Fan"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Passive or Active Cooling",
-    cards: [
-      { label: "Passive stand", text: "Better when silence is the priority and the Mini PC only needs more clearance or modest heat spreading. See our passive-only guide for the narrowed list." },
-      { label: "Active stand", text: "Better for sustained workloads where added airflow can justify extra fan noise and power use. See our active stands-with-fans guide for the narrowed list." },
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $20",
+          "IFCASE Aluminum Desktop Stand for Mac Studio"
+        ],
+        [
+          "Mid-range",
+          "Quiet 120mm USB Fan"
+        ],
+        [
+          "No firm budget ceiling, prioritizing active cooling power",
+          "Aluminum Mini PC Cooler Stand with 120mm Fan"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Passive Stand vs Active Fan",
+    "cards": [
+      {
+        "label": "Passive Stand",
+        "text": "Zero noise, no power needed, improves airflow through elevation alone. In this comparison: IFCASE Aluminum Desktop Stand for Mac Studio, ElecGear iNUC-K Vertical Stand for Intel NUC Mini PC, CaSZLUTION Acrylic Stand for Beelink S12 Pro Mini PC."
+      },
+      {
+        "label": "Active Fan",
+        "text": "Genuine forced airflow that helps more under sustained load, at the cost of some noise and a power connection. In this comparison: Aluminum Mini PC Cooler Stand with 120mm Fan, Quiet 120mm USB Fan, Quiet 120mm USB Cooling Fan with Aluminum Stand."
+      }
     ],
+    "note": "Default to a passive pick for light everyday use, and only step up to an active fan if your mini PC runs genuinely warm under sustained load."
   },
   {
-    subheading: "Judge Cooling Claims by Evidence",
-    table: {
-      headers: ["Claim type", "How to treat it"],
-      rows: [
-        ["Specific dBA noise rating", "More trustworthy than a vague 'quiet' claim"],
-        ["Manufacturer-stated temperature drop with no test conditions", "Treat as a starting point, not proof"],
-        ["No noise or temperature figures at all", "Weakest claim category, rely on buyer feedback instead"],
+    "subheading": "By Chassis Vent Compatibility",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Widest confirmed mini PC compatibility",
+          "Aluminum Mini PC Cooler Stand with 120mm Fan"
+        ],
+        [
+          "Most tailored fit for a specific chassis shape",
+          "CaSZLUTION Acrylic Stand for Beelink S12 Pro Mini PC"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Desk Space vs Off-Desk Mounting",
-    table: {
-      headers: ["Priority", "What to check"],
-      rows: [
-        ["Maximum desk space savings", "A wall, under-desk, or monitor-back VESA mount"],
-        ["Simplicity, no drilling or mounting hardware", "A standard desktop stand"],
-        ["Vertical orientation to shrink footprint", "A vertical stand built for your specific chassis"],
-      ],
-    },
+    "subheading": "For a 24/7 Home Server or Media Server Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Confirmed active airflow rather than passive elevation alone, a stated noise level or speed control, and USB power so it only runs while the mini PC itself is on."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Aluminum Mini PC Cooler Stand with 120mm Fan fits this specifically: Switch lets you choose passive silence or active airflow."
+      }
+    ]
   },
   {
-    subheading: "Plan for Ownership Tradeoffs",
-    table: {
-      headers: ["Item", "What to check"],
-      rows: [
-        ["Fan noise", "Whether the cooling gain is worth added desk noise"],
-        ["USB port use", "Whether the stand occupies a Mini PC port or uses passthrough"],
-        ["Desk contact", "Pads or feet that prevent sliding and surface marks"],
-        ["Fan serviceability", "Whether dust can be cleaned from the fan and grille over time"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Aluminum Mini PC Cooler Stand with 120mm Fan offers: Switch lets you choose passive silence or active airflow. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "IFCASE Aluminum Desktop Stand for Mac Studio already covers the essentials: Completely silent, no fan to add noise. The main thing you'd be paying extra for elsewhere in this list is cooling power you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Vent alignment first", explanation: "A stand can move a lot of air and still provide little benefit if its airflow misses the Mini PC's intake or exhaust. Check whether the stand's opening or fan position matches bottom-vented, side-vented, or mixed-vent layouts before considering fan speed or materials." },
-  { criterion: "Device-specific fit beats generic claims", explanation: "Stands built for a specific chassis, like the ElecGear iNUC-K for Intel NUC or the CaSZLUTION for Beelink S12 Pro, mount more securely and preserve the device's actual vent clearance better than a one-size-fits-all riser." },
-  { criterion: "Passive vs active design", explanation: "Passive stands avoid fan noise but usually have less cooling capacity. Active stands add airflow and can be more useful under sustained load, but the extra fan introduces noise, power use, and another moving part." },
-  { criterion: "Material conductivity", explanation: "Aluminum can conduct heat better than plastic or acrylic, but the material only helps if the Mini PC actually transfers heat into the stand and airflow is not blocked. Verify the stand is genuinely metal where claimed." },
-  { criterion: "Structural stability", explanation: "The stand must support the Mini PC without blocking vents, wobbling, or shifting under cable tension. This becomes more important for active stands because the fan mechanism adds another structural element under the computer." },
+  {
+    "criterion": "Confirm the cooling accessory actually matches your mini PC's chassis shape and airflow design",
+    "explanation": "Mini PC cooling accessories, whether a cooling stand, an external fan, or a cooling pad, work by improving airflow around the device's existing vents, so their effectiveness depends heavily on where your specific mini PC's own intake and exhaust vents are located, which varies meaningfully between brands and even between generations of the same product line.\n\nAn accessory designed to blow air upward into a bottom-vented chassis provides little benefit to a mini PC that vents primarily from the rear or sides, regardless of how much airflow the accessory itself generates, since the cooling benefit only materializes when moving air actually reaches the device's real intake points.\n\nCheck your specific mini PC model's vent locations (usually visible in official product photos or its spec sheet) before assuming any generically-marketed cooling accessory will meaningfully help."
+  },
+  {
+    "criterion": "Understand that passive stands and active fans solve different problems",
+    "explanation": "A passive cooling stand improves airflow purely through elevation and often an open or perforated design that lets ambient air circulate more freely around the chassis than sitting flat on a desk, requiring no power and adding zero noise, while an active cooling fan or pad genuinely forces air movement and can meaningfully lower temperatures under sustained heavy load in a way passive elevation alone cannot.\n\nThis matters because a passive stand is a reasonable solution for a mini PC that only occasionally runs warm, while a genuinely thermally-constrained device under sustained load, like one running a home server or transcoding video continuously, benefits more from active airflow that a passive stand simply can't provide regardless of its design quality.\n\nMatch the accessory type to your actual thermal problem: light everyday use rarely needs active cooling, while continuous heavy workloads benefit from genuine forced airflow."
+  },
+  {
+    "criterion": "Check the noise level if the accessory uses an active fan",
+    "explanation": "Any cooling accessory with its own fan adds a new noise source to your desk or media setup, and the noise level, when disclosed at all, is typically given in decibels (dBA) measured at a specific distance, though sellers rarely specify testing conditions consistently, making direct comparisons across listings imperfect but still directionally useful.\n\nThis matters specifically because the whole point of many mini PC setups, home theater boxes and quiet home office machines especially, is to avoid the noise of a traditional desktop tower, and adding a loud aftermarket cooling fan can undermine that goal entirely.\n\nCheck for a stated noise level and prioritize fans with speed control if quiet operation matters, since a fan that can be throttled down during light use and sped up only under real load offers the best of both a quiet baseline and real cooling headroom when needed."
+  },
+  {
+    "criterion": "Verify the power source, since not every cooling accessory is self-powered",
+    "explanation": "Cooling fans and some cooling pads draw power either from a USB connection to the mini PC or host device itself, or from a separate wall adapter, and this distinction affects both setup complexity and whether the accessory turns on and off automatically with the device it's cooling.\n\nA USB-powered accessory typically only runs while the mini PC itself is powered on and providing that USB power, which is usually the desired behavior for cooling, while a separately wall-powered accessory needs its own outlet and stays on independently unless manually switched off, adding a cable and a decision point the buyer needs to plan for in their setup.\n\nCheck the listing's stated power source and confirm it matches how you want the cooling accessory to behave relative to your mini PC's own power state."
+  },
+  {
+    "criterion": "Check physical clearance and desk space the accessory adds, not just its footprint",
+    "explanation": "A cooling stand or external fan adds real height, width, or depth beyond your mini PC's own dimensions, and on an already-tight desk setup, this added footprint can conflict with a monitor stand, other peripherals, or the available desk depth in ways that aren't obvious from a product photo showing the accessory in isolation.\n\nThis is particularly relevant for stands that elevate the mini PC significantly or fans that mount to a specific side, since the resulting combined footprint of mini PC plus accessory is what actually needs to fit your space, not the accessory's dimensions alone.\n\nMeasure your actual available desk space with the mini PC's own footprint already accounted for, then check the accessory's added dimensions against what's genuinely left over, rather than assuming any accessory marketed as \"compact\" will automatically fit."
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41nWvL8pqlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KY3LHVG?tag=deskfinds0d-20",
-    description:
-      "This bracket states a genuine 0.65 to 2.55 inch depth range and explicitly lists Intel NUC, Chromebox, Mac Mini, small CPUs, thin clients, and USB docking stations as compatible devices, a real multi-model spread rather than a single reference device dressed up as universal.\n\nIt mounts under a desk, behind a monitor, or to a pole, and supports up to 11 lbs on its own or 18 lbs combined with an attached monitor. Note it only works with NUC models that have the power button on the side, so check your exact model before buying.",
-    specs: ["0.65\" to 2.55\" adjustable depth", "VESA 75x75mm and 100x100mm", "Up to 11 lbs device weight", "3 mounting options"],
-    pros: ["Genuinely wide, stated compatibility range across several Mini PC brands", "Three mounting options in one bracket", "Includes silicone scratch protection", "Clear width/weight specs to check against your device"],
-    cons: ["NUC compatibility limited to side-power-button models", "Adjustable range still has real limits at the largest and smallest Mini PCs", "Bracket alone, no wall anchors included for wall mounting"],
+    description: "This bracket states a genuine 0.65 to 2.55 inch depth range and explicitly lists Intel NUC, Chromebox, Mac Mini, small CPUs, thin clients, and USB docking stations as compatible devices, a real multi-model spread rather than a single reference device dressed up as universal.\n\nIt earns the top spot in this comparison over VIVO Adjustable Thin Client Mini PC Mount Bracket for one main reason. Genuinely wide, stated compatibility range across several Mini PC brands. On price, it's actually priced above VIVO Adjustable Thin Client Mini PC Mount Bracket, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Three mounting options in one bracket. On the other side, Bracket alone, no wall anchors included for wall mounting. That's the main tradeoff to weigh against everything above.",
+    specs: ["0.65\" to 2.55\" adjustable depth","VESA 75x75mm and 100x100mm","Up to 11 lbs device weight","3 mounting options"],
+    pros: ["Genuinely wide, stated compatibility range across several Mini PC brands","Three mounting options in one bracket","Includes silicone scratch protection","Clear width/weight specs to check against your device"],
+    cons: ["NUC compatibility limited to side-power-button models","Adjustable range still has real limits at the largest and smallest Mini PCs","Bracket alone, no wall anchors included for wall mounting"],
     bestFor: "Buyers with a Mini PC that falls within the stated 0.65 to 2.55 inch depth range wanting real flexibility across mounting locations.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/419hWbxp-bL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B082FMHW2Q?tag=deskfinds0d-20",
-    description:
-      "VIVO's bracket lists an unusually specific set of named-compatible brands in its features: Intel NUC, Chromebox, Mac Mini, Lenovo Tiny Series, Dell OptiPlex Micro, and HP ProDesk Mini, genuine evidence of real multi-brand testing rather than a vague universal claim. Its adjustable width spans 1.8 to 7.1 cm.\n\nSolid steel construction with a powder-coated rust-resistant finish supports up to 5 kg, and a 3-year manufacturer warranty backs the build. Open-frame design keeps ports and vents accessible after mounting.",
-    specs: ["1.8cm to 7.1cm adjustable width", "5 kg (11 lb) rated support", "VESA 75x75mm and 100x100mm", "3-year manufacturer warranty"],
-    pros: ["Names six specific compatible brands, not just a generic claim", "Solid steel with rust-resistant coating", "3-year warranty backs the build", "Open frame preserves ventilation"],
-    cons: ["Adjustable width tops out at 7.1cm, check thicker Mini PCs first", "5kg rating is lower than some competitors", "No wall anchors included"],
+    description: "VIVO's bracket lists an unusually specific set of named-compatible brands in its features: Intel NUC, Chromebox, Mac Mini, Lenovo Tiny Series, Dell OptiPlex Micro, and HP ProDesk Mini, genuine evidence of real multi-brand testing rather than a vague universal claim. Its adjustable width spans 1.8 to 7.1 cm.\n\nOne spot below HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm in this ranking, it's priced lower than HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm. The compromise here is straightforward: Adjustable width tops out at 7.1cm, check thicker Mini PCs first. What you gain in return: Names six specific compatible brands, not just a generic claim. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Solid steel with rust-resistant coating. On the other side, No wall anchors included. That's the main tradeoff to weigh against everything above.",
+    specs: ["1.8cm to 7.1cm adjustable width","5 kg (11 lb) rated support","VESA 75x75mm and 100x100mm","3-year manufacturer warranty"],
+    pros: ["Names six specific compatible brands, not just a generic claim","Solid steel with rust-resistant coating","3-year warranty backs the build","Open frame preserves ventilation"],
+    cons: ["Adjustable width tops out at 7.1cm, check thicker Mini PCs first","5kg rating is lower than some competitors","No wall anchors included"],
     bestFor: "Buyers who want documented compatibility with specific named brands rather than a vague universal claim.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31l-EL12D-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJ7BK9CM?tag=deskfinds0d-20",
-    description:
-      "This mount is rated for devices up to 2.8 inches thick, wider than several purpose-built Mini PC brackets, and its features explicitly cover streaming players, Nintendo Switch, cable boxes, routers, and Mac mini alongside generic Mini PCs. Steel construction with anti-scratch EVA padding protects the device.\n\nInstallation needs only two screws into a wall or desk underside at least 0.75 inches thick. This is a genuinely broad-category mount rather than one narrowly engineered for Mini PC vent layouts specifically.",
-    specs: ["Up to 2.8\" device thickness", "Steel construction, EVA anti-scratch pads", "2-screw installation", "Wall or under-desk mounting"],
-    pros: ["Wide thickness tolerance covers more device types", "Genuinely broad compatibility list including non-Mini-PC devices", "Simple 2-screw installation", "Anti-scratch padding included"],
-    cons: ["Broad compatibility means less precision fit than a device-specific bracket", "Desk must be at least 0.75\" thick for proper anchoring", "No VESA-specific hardware included"],
+    description: "This mount is rated for devices up to 2.8 inches thick, wider than several purpose-built Mini PC brackets, and its features explicitly cover streaming players, Nintendo Switch, cable boxes, routers, and Mac mini alongside generic Mini PCs. Steel construction with anti-scratch EVA padding protects the device.\n\nSitting just under VIVO Adjustable Thin Client Mini PC Mount Bracket, it costs more than VIVO Adjustable Thin Client Mini PC Mount Bracket. Here's the honest tradeoff: Broad compatibility means less precision fit than a device-specific bracket. And here's what it gets you instead: Wide thickness tolerance covers more device types. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Genuinely broad compatibility list including non-Mini-PC devices. On the other side, No VESA-specific hardware included. That's the main tradeoff to weigh against everything above.",
+    specs: ["Up to 2.8\" device thickness","Steel construction, EVA anti-scratch pads","2-screw installation","Wall or under-desk mounting"],
+    pros: ["Wide thickness tolerance covers more device types","Genuinely broad compatibility list including non-Mini-PC devices","Simple 2-screw installation","Anti-scratch padding included"],
+    cons: ["Broad compatibility means less precision fit than a device-specific bracket","Desk must be at least 0.75\" thick for proper anchoring","No VESA-specific hardware included"],
     bestFor: "Buyers whose Mini PC (or other small device) is thicker than most brackets accommodate.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41d9ePK-7vL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DB5RQH7V?tag=deskfinds0d-20",
-    description:
-      "This bracket states a 12 lb load capacity, higher than several competitors, and its adjustable range of 0.63 to 2.8 inches genuinely spans NUC, Mac Mini, mini gaming PCs, and cable boxes per its features. A built-in pen holder and cable management channel are unusual extras for this category.\n\nFour mounting methods (wall, under-desk, behind-monitor, monitor arm) give real flexibility, and the open design is stated to avoid covering ports or vents when bundling cables. Metal construction is rated for long-term stability.",
-    specs: ["0.63\" to 2.8\" adjustable width", "12 lb rated capacity", "4 mounting methods", "Built-in pen holder and cable management"],
-    pros: ["Higher stated load capacity than most competitors", "Genuinely wide compatibility list from real feature text", "Cable management and pen holder are useful extras", "4 mounting method options"],
-    cons: ["Extra features like the pen holder add bulk some buyers won't need", "No specific brand-model list beyond NUC/Dell/HP/Mac mini", "Metal construction adds weight versus lighter plastic options"],
+    description: "This bracket states a 12 lb load capacity, higher than several competitors, and its adjustable range of 0.63 to 2.8 inches genuinely spans NUC, Mac Mini, mini gaming PCs, and cable boxes per its features. A built-in pen holder and cable management channel are unusual extras for this category.\n\nRanked just behind Monzlteck Adjustable Small Device Wall Mount or VESA Mount, it's priced lower than Monzlteck Adjustable Small Device Wall Mount or VESA Mount. The real tradeoff against that pick: Extra features like the pen holder add bulk some buyers won't need. In exchange, it offers this instead: Higher stated load capacity than most competitors. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Genuinely wide compatibility list from real feature text. On the other side, Metal construction adds weight versus lighter plastic options. That's the main tradeoff to weigh against everything above.",
+    specs: ["0.63\" to 2.8\" adjustable width","12 lb rated capacity","4 mounting methods","Built-in pen holder and cable management"],
+    pros: ["Higher stated load capacity than most competitors","Genuinely wide compatibility list from real feature text","Cable management and pen holder are useful extras","4 mounting method options"],
+    cons: ["Extra features like the pen holder add bulk some buyers won't need","No specific brand-model list beyond NUC/Dell/HP/Mac mini","Metal construction adds weight versus lighter plastic options"],
     bestFor: "Buyers wanting the highest stated load capacity in this pool alongside broad device compatibility.",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31kNvSkfybL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B2PTMHDD?tag=deskfinds0d-20",
-    description:
-      "suptek's bracket spans a 0.6 to 2.7 inch adjustable width and lists the same core group of NUC, Chromebox, Mac Mini, Lenovo Tiny, Dell OptiPlex Micro, and HP ProDesk Mini compatibility as the VIVO pick above, at a similar price point. The open-frame design specifically calls out ventilation to reduce thermal throttling risk while mounted.\n\nSolid steel with a rust-proof coating supports up to 11 lbs, with adjustable straps and rubber pads to prevent sliding and scratches. Around-the-clock technical support is stated in the listing.",
-    specs: ["0.6\" to 2.7\" adjustable width", "11 lb rated support", "Open-frame ventilated design", "VESA 75x75mm and 100x100mm"],
-    pros: ["Explicitly designed for ventilation to reduce thermal throttling", "Similar broad compatibility list to the VIVO pick", "Adjustable straps prevent device slippage", "Rust-proof steel coating"],
-    cons: ["Nearly identical spec sheet to the VIVO pick at a similar price, limited differentiation", "11 lb rating slightly below the highest-capacity pick here", "No wall anchor hardware included"],
+    description: "suptek's bracket spans a 0.6 to 2.7 inch adjustable width and lists the same core group of NUC, Chromebox, Mac Mini, Lenovo Tiny, Dell OptiPlex Micro, and HP ProDesk Mini compatibility as the VIVO pick above, at a similar price point. The open-frame design specifically calls out ventilation to reduce thermal throttling risk while mounted.\n\nOne spot below Adjustable Thin Client Mini PC Mount Bracket for NUC in this ranking, it costs more than Adjustable Thin Client Mini PC Mount Bracket for NUC. The compromise here is straightforward: Nearly identical spec sheet to the VIVO pick at a similar price, limited differentiation. What you gain in return: Explicitly designed for ventilation to reduce thermal throttling. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Similar broad compatibility list to the VIVO pick. On the other side, No wall anchor hardware included. That's the main tradeoff to weigh against everything above.",
+    specs: ["0.6\" to 2.7\" adjustable width","11 lb rated support","Open-frame ventilated design","VESA 75x75mm and 100x100mm"],
+    pros: ["Explicitly designed for ventilation to reduce thermal throttling","Similar broad compatibility list to the VIVO pick","Adjustable straps prevent device slippage","Rust-proof steel coating"],
+    cons: ["Nearly identical spec sheet to the VIVO pick at a similar price, limited differentiation","11 lb rating slightly below the highest-capacity pick here","No wall anchor hardware included"],
     bestFor: "Buyers who specifically want a ventilated open-frame design to minimize any thermal throttling risk while mounted.",
   },
   {
@@ -115,13 +110,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41hkBlNF4ML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJH53M9G?tag=deskfinds0d-20",
-    description:
-      "Rather than a fixed-width bracket, this mount uses adjustable straps supporting a device perimeter up to 17 inches, and its listing names specific compatible models across Dell OptiPlex Micro, Lenovo ThinkCentre, and HP Desktop Mini lines in detail, genuinely verified multi-brand fit rather than a marketing claim.\n\nThis strap-based approach trades some rigidity for a wider size range than most bracket-style mounts, useful if your Mini PC's exact dimensions don't match a standard bracket's adjustable window.",
-    specs: ["Straps support up to 17\" device perimeter", "Named compatibility: Dell OptiPlex Micro, Lenovo ThinkCentre, HP Desktop Mini", "Wall or behind-monitor mounting", "Strap-based, not rigid bracket"],
-    pros: ["Widest genuine size range in this guide via adjustable straps", "Detailed named-model compatibility list, not vague branding", "Works for non-Mini-PC devices too (routers, modems)", "Simple wall or monitor-back mounting"],
-    cons: ["Strap-based mounting is less rigid than a bracket for heavier devices", "No stated maximum weight capacity in the listing", "Fewer mounting method options than bracket-style competitors"],
+    description: "Rather than a fixed-width bracket, this mount uses adjustable straps supporting a device perimeter up to 17 inches, and its listing names specific compatible models across Dell OptiPlex Micro, Lenovo ThinkCentre, and HP Desktop Mini lines in detail, genuinely verified multi-brand fit rather than a marketing claim.\n\nSitting just under suptek Thin Client Mount Bracket Adjustable Mini PC Mount Bracket, it costs more than suptek Thin Client Mount Bracket Adjustable Mini PC Mount Bracket. Here's the honest tradeoff: Strap-based mounting is less rigid than a bracket for heavier devices. And here's what it gets you instead: Widest genuine size range in this guide via adjustable straps. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Detailed named-model compatibility list, not vague branding. On the other side, Fewer mounting method options than bracket-style competitors. That's the main tradeoff to weigh against everything above.",
+    specs: ["Straps support up to 17\" device perimeter","Named compatibility: Dell OptiPlex Micro, Lenovo ThinkCentre, HP Desktop Mini","Wall or behind-monitor mounting","Strap-based, not rigid bracket"],
+    pros: ["Widest genuine size range in this guide via adjustable straps","Detailed named-model compatibility list, not vague branding","Works for non-Mini-PC devices too (routers, modems)","Simple wall or monitor-back mounting"],
+    cons: ["Strap-based mounting is less rigid than a bracket for heavier devices","No stated maximum weight capacity in the listing","Fewer mounting method options than bracket-style competitors"],
     bestFor: "Buyers whose Mini PC's dimensions fall outside a standard bracket's adjustable range and need a strap-based fit instead.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -135,54 +129,118 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Match Your Mini PC's Real Dimensions",
-    intro: "Measure your device's thickness before assuming any universal mount fits.",
-    table: {
-      headers: ["Your Mini PC thickness", "Recommended pick"],
-      rows: [
-        ["0.65\" to 2.55\" (most NUC, Mac mini)", "HumanCentric Thin Client Mount"],
-        ["Up to 2.8\" (thicker devices)", "Monzlteck Adjustable Small Device Mount"],
-        ["Outside standard bracket range", "Universal Wall and VESA Mount (strap-based, up to 17\" perimeter)"],
+    "subheading": "By Mounting Surface",
+    "table": {
+      "headers": [
+        "Where it's going",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Behind a monitor or TV (VESA)",
+          "HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm"
+        ],
+        [
+          "Server rack (10-inch or 19-inch)",
+          "HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm"
+        ],
+        [
+          "Wall or under-desk",
+          "Monzlteck Adjustable Small Device Wall Mount or VESA Mount"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Verify the Universal Claim Before Buying",
-    table: {
-      headers: ["Listing language", "How to treat it"],
-      rows: [
-        ["Named specific brands/models in features", "Stronger evidence of genuine tested compatibility"],
-        ["\"Universal\" with no named models", "Weaker claim, verify your device's exact dimensions against the stated range"],
-        ["Adjustable strap or width range stated", "Compare the number against your device's real measurement"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $20",
+          "Adjustable Thin Client Mini PC Mount Bracket for NUC"
+        ],
+        [
+          "Mid-range",
+          "suptek Thin Client Mount Bracket Adjustable Mini PC Mount Bracket"
+        ],
+        [
+          "No firm budget ceiling, prioritizing brand-specific fit",
+          "HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Bracket or Strap Mounting",
-    cards: [
-      { label: "Bracket-style", text: "More rigid support, better for heavier Mini PCs, but a narrower adjustable range." },
-      { label: "Strap-style", text: "Wider size range for unusual dimensions, but less rigid than a bracket for sustained weight." },
+    "subheading": "Brand-Specific Fit vs Universal Compatibility",
+    "cards": [
+      {
+        "label": "Brand-Specific Fit",
+        "text": "Matches one specific chassis shape exactly, generally a more secure fit for that exact model. In this comparison: Adjustable Thin Client Mini PC Mount Bracket for NUC."
+      },
+      {
+        "label": "Universal / Multi-Brand",
+        "text": "Works across several mini PC brands with adjustable hardware, more flexible if you might switch devices later. In this comparison: Adjustable Thin Client Mini PC Mount Bracket for NUC."
+      }
     ],
+    "note": "Confirm your exact mini PC model against the listing's stated compatibility either way, since even a \"universal\" mount has real size limits."
   },
   {
-    subheading: "Plan for Load and Mounting Location",
-    table: {
-      headers: ["Factor", "What to check"],
-      rows: [
-        ["Weight rating vs your device", "Confirm the mount's rated capacity meets or exceeds your Mini PC's actual weight"],
-        ["Mounting location", "Wall anchors, VESA screws, and under-desk clearance needs differ, check the listing includes what you need"],
-        ["Port and vent access", "Open-frame designs generally leave more ports and vents reachable after mounting"],
-      ],
-    },
+    "subheading": "By Post-Install Port Access",
+    "note": "None of these picks specifically advertise preserved front-port access after mounting; check each listing's product photos for where the ports land once installed if that matters to you."
   },
+  {
+    "subheading": "For a Home Lab Rack Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation of 10-inch (home-lab) versus 19-inch (commercial) rack compatibility, since these are different standards, plus whether it's full or half rack-unit width."
+      },
+      {
+        "label": "In this comparison",
+        "text": "HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm fits this specifically: Genuinely wide, stated compatibility range across several Mini PC brands."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what HumanCentric Thin Client Mount Bracket Mini PC VESA Monitor Arm offers: Genuinely wide, stated compatibility range across several Mini PC brands. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Adjustable Thin Client Mini PC Mount Bracket for NUC already covers the essentials: Higher stated load capacity than most competitors. The main thing you'd be paying extra for elsewhere in this list is broader compatibility you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Universal size and weight range must be verified", explanation: "A genuinely universal mount is a real engineering challenge. Check whether the listing names specific compatible models across multiple brands, not just a broad claim, before trusting it will fit your exact device." },
-  { criterion: "Adjustment range for genuine flexibility", explanation: "Straps or adjustable brackets should state a concrete width or perimeter range. A range under an inch wide is not meaningfully more universal than a fixed bracket." },
-  { criterion: "Check compatibility against a diverse model set", explanation: "A mount tested against just one small reference device and labeled universal is a weaker claim than one whose features explicitly name NUC, Mac mini, and OptiPlex Micro together." },
-  { criterion: "Full-range load capacity", explanation: "A mount rated for the lightest compatible Mini PC might not adequately support the heaviest model within its claimed range. Compare the stated capacity against your specific device's real weight." },
-  { criterion: "Mounting-method compatibility carries over", explanation: "The underlying VESA, wall, or under-desk mounting checks that apply to any Mini PC mount still apply here, universal compatibility on the bracket side doesn't remove those considerations." },
+  {
+    "criterion": "Verify your exact mini PC model against the mount's stated compatibility list",
+    "explanation": "Mini PC mounts and brackets are built around specific chassis dimensions and screw-hole patterns, and unlike a universal VESA monitor mount, many mini PC brackets are designed for one specific brand's chassis shape, such as Dell OptiPlex Micro, Lenovo ThinkCentre Tiny, HP EliteDesk Mini, or a specific generation of Mac mini.\n\nMounting hardware that doesn't match your exact model can fail to align with the screw holes at all, or worse, only partially secure the device, creating a real risk of it working loose over time in a mount that's supposed to hold it stationary.\n\nCheck the listing's stated compatible models and generations specifically against your own mini PC's exact model number, not just the general \"mini PC\" category claim in the title."
+  },
+  {
+    "criterion": "Confirm the mount's actual mounting surface (VESA, rack, wall, or under-desk) matches your install location",
+    "explanation": "Mini PC mounts split into genuinely different installation categories: VESA mounts attach to the back of a monitor or TV using the standardized VESA hole pattern, rack mounts fit a 10-inch home-lab or 19-inch commercial server rack, wall mounts attach directly to drywall or a stud, and under-desk mounts clamp to the underside of a desk surface, and these are not interchangeable hardware despite all falling under the same general product category.\n\nBuying a rack-format shelf when you actually need a VESA bracket, for instance, means the hardware simply won't attach to your intended surface at all, since the mounting mechanism itself is fundamentally different between categories.\n\nIdentify your specific installation surface first (monitor back, rack, wall, or desk underside) and filter specifically for that mount type, rather than searching generically for \"mini PC mount\" and assuming any result will work for your setup."
+  },
+  {
+    "criterion": "Check the stated weight capacity against your mini PC's actual weight",
+    "explanation": "A mount's weight capacity, when disclosed, reflects how much load the bracket's screws, arms, and adhesive or clamping mechanism can safely hold long-term without gradually sagging, loosening, or failing outright, and mini PCs vary meaningfully in weight depending on their chassis material and internal components, from under a pound for the lightest fanless designs to several pounds for units with larger heatsinks or multiple drive bays.\n\nMounting a device at or near a bracket's rated limit, especially on a mount holding the device at an angle or overhead behind a monitor, leaves little margin for the natural loosening that happens over months of use, vibration, or repeated adjustment.\n\nWeigh your specific mini PC model (check its listed weight spec) against the mount's stated capacity, and favor a mount with meaningful headroom above your device's actual weight rather than one rated right at the edge."
+  },
+  {
+    "criterion": "Consider port and cable access after the mount is installed, not just before",
+    "explanation": "A mini PC's ports are typically concentrated on the rear and sometimes front panel, and once mounted, especially behind a monitor, inside a rack, or under a desk, those ports can become significantly harder to reach for routine tasks like plugging in a USB drive or checking a status light, even though the mount holds the device perfectly securely.\n\nSome mounts are specifically designed to preserve front-panel port access after installation, while others prioritize a low-profile or flush mount that trades away easy access for a cleaner look, and this is a real day-to-day usability tradeoff that photos alone don't always make obvious.\n\nThink through which ports you'll need to access regularly after mounting (power, a USB drive, HDMI swaps) and check whether the specific mount's design keeps those reachable, rather than only checking that it physically holds the device."
+  },
+  {
+    "criterion": "Check what installation hardware is actually included versus what you'll need to source separately",
+    "explanation": "Mount listings vary in how complete their included hardware kit is, some ship with every screw, VESA adapter plate, and cable tie needed for a full installation, while others assume you already have compatible mounting screws from the mini PC's original packaging or a previous mount, which isn't always the case if you're mounting a device for the first time or switching setups.\n\nThis matters because discovering mid-installation that you're missing a specific screw size or an adapter plate means a delayed setup and a second order, a genuinely avoidable frustration.\n\nCheck the listing's stated included contents specifically, and if you no longer have your mini PC's original mounting screws, confirm the mount ships with compatible replacements rather than assuming they're included by default."
+  }
 ];
 
 export const faq: FaqItem[] = [

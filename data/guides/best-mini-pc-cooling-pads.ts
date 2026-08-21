@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     reviews: "2,201",
     imageUrl: "https://m.media-amazon.com/images/I/41RI0692h6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C69BVWGB?tag=deskfinds0d-20",
-    description: "This is a premium laptop cooling pad with a single large 5.5 inch turbo fan, dust filtration, and a stated 44 degree Celsius temperature reduction in 90 seconds under a laptop CPU and GPU load. It is again a laptop-first product, not a Mini PC accessory, and its 36W power draw and $95.99 price sit well above the other picks here.\n\nOne spot below Kootek Laptop Cooling Pad with 5 Quiet Fans in this ranking, it costs more than Kootek Laptop Cooling Pad with 5 Quiet Fans. The compromise here is straightforward: By far the most expensive pick, nearly 4x some alternatives. What you gain in return: Highest stated cooling performance in this list. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Removable dust filter extends usable life. On the other side, Built and marketed entirely around laptop cooling, not Mini PC vent layouts. That's the main tradeoff to weigh against everything above.",
+    description: "This is a premium laptop cooling pad with a single large 5.5 inch turbo fan, dust filtration, and a stated 44 degree Celsius temperature reduction in 90 seconds under a laptop CPU and GPU load. It is again a laptop-first product, not a Mini PC accessory, and its 36W power draw and $95.99 price sit well above the other picks here.\n\nOne spot below Kootek Laptop Cooling Pad with 5 Quiet Fans in this ranking, it costs more than Kootek Laptop Cooling Pad with 5 Quiet Fans. The compromise here is straightforward: By far the most expensive pick, nearly 4x some alternatives. What you gain in return: Highest stated cooling performance in this list. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Removable dust filter extends usable life. On the other side, Built and marketed entirely around laptop cooling, not Mini PC vent layouts. That's the main tradeoff to weigh against everything above.",
     specs: ["5.5in turbo booster fan, up to 70dB","36W power output","Removable dust filter","3-port USB hub, RGB lighting"],
     pros: ["Highest stated cooling performance in this list","Removable dust filter extends usable life","3-port USB hub for peripherals","Adjustable RGB lighting"],
     cons: ["By far the most expensive pick, nearly 4x some alternatives","Up to 70dB noise is louder than most quiet-office setups tolerate","Built and marketed entirely around laptop cooling, not Mini PC vent layouts"],
@@ -81,23 +81,8 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "By Laptop Size Fit",
-    "table": {
-      "headers": [
-        "Your priority",
-        "Recommended pick in this comparison"
-      ],
-      "rows": [
-        [
-          "Tightest size match for your laptop",
-          "Kootek Laptop Cooling Pad with 5 Quiet Fans"
-        ],
-        [
-          "Widest range, flexible for future upgrades",
-          "Kootek Laptop Cooling Pad with 5 Quiet Fans"
-        ]
-      ]
-    }
+    "subheading": "By Cooling Type",
+    "note": "Every pick in this specific comparison uses a similar cooling approach; check the product names and specs above for the exact passive-versus-fan design."
   },
   {
     "subheading": "By Budget",
@@ -116,55 +101,55 @@ export const howToChoose: HowToChooseSection[] = [
           "Kootek Laptop Cooling Pad with 5 Quiet Fans"
         ],
         [
-          "No firm budget ceiling, prioritizing fan count or extras",
+          "No firm budget ceiling, prioritizing active cooling power",
           "llano V12 Gaming Laptop Cooling Pad"
         ]
       ]
     }
   },
   {
-    "subheading": "Slim/Fewer Fans vs Multi-Fan High Airflow",
+    "subheading": "Passive Stand vs Active Fan",
     "cards": [
       {
-        "label": "Slim, Fewer Fans",
-        "text": "Lighter and more portable with less total noise, at the cost of a smaller cooled surface area. In this comparison: llano V12 Gaming Laptop Cooling Pad."
+        "label": "Passive Stand",
+        "text": "Zero noise, no power needed, improves airflow through elevation alone. In this comparison: check each listing to confirm whether it's passive or fan-equipped."
       },
       {
-        "label": "Multi-Fan, High Airflow",
-        "text": "More total cooling surface and airflow, at the cost of extra bulk and more potential noise at full speed. In this comparison: Kootek Laptop Cooling Pad with 5 Quiet Fans."
+        "label": "Active Fan",
+        "text": "Genuine forced airflow that helps more under sustained load, at the cost of some noise and a power connection. In this comparison: Kootek Laptop Cooling Pad with 5 Quiet Fans, KeiBn Laptop Cooling Pad with 2 Fans."
       }
     ],
-    "note": "Most buyers should default to a slim pick like llano V12 Gaming Laptop Cooling Pad for everyday portability, and only step up to Kootek Laptop Cooling Pad with 5 Quiet Fans's fan count if you're running genuinely demanding workloads that generate real sustained heat."
+    "note": "Default to a passive pick for light everyday use, and only step up to an active fan if your mini PC runs genuinely warm under sustained load."
   },
   {
-    "subheading": "By Height Adjustment Range",
+    "subheading": "By Chassis Vent Compatibility",
     "table": {
       "headers": [
-        "What you're weighing",
+        "Your priority",
         "Recommended pick"
       ],
       "rows": [
         [
-          "Most ergonomic height adjustment range",
+          "Widest confirmed mini PC compatibility",
           "Kootek Laptop Cooling Pad with 5 Quiet Fans"
         ],
         [
-          "Simplest setup, fewer adjustments to fuss with",
+          "Most tailored fit for a specific chassis shape",
           "KeiBn Laptop Cooling Pad with 2 Fans"
         ]
       ]
     }
   },
   {
-    "subheading": "For a Fanless or Sealed-Chassis Laptop (Like MacBook) Specifically",
+    "subheading": "For a 24/7 Home Server or Media Server Specifically",
     "cards": [
       {
         "label": "Look for",
-        "text": "Explicit confirmation that your specific laptop model has bottom-panel intake vents, since a cooling pad provides little benefit on a fully sealed, fanless unibody design regardless of physical fit."
+        "text": "Confirmed active airflow rather than passive elevation alone, a stated noise level or speed control, and USB power so it only runs while the mini PC itself is on."
       },
       {
         "label": "In this comparison",
-        "text": "Every pick here is designed around a vented-bottom laptop; if you're on a fanless MacBook specifically, check our dedicated MacBook Air cooling pad guide for that honesty caveat before buying any pad in this comparison."
+        "text": "Kootek Laptop Cooling Pad with 5 Quiet Fans fits this specifically: Largest review base of any pick in this guide."
       }
     ]
   },
@@ -177,7 +162,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Save if",
-        "text": "KeiBn Laptop Cooling Pad with 2 Fans already covers the essentials: Lowest price in this guide. The main thing you'd be paying extra for elsewhere in this list is fan count or height range you may not need."
+        "text": "KeiBn Laptop Cooling Pad with 2 Fans already covers the essentials: Lowest price in this guide. The main thing you'd be paying extra for elsewhere in this list is cooling power you may not need."
       }
     ]
   }
@@ -185,24 +170,24 @@ export const howToChoose: HowToChooseSection[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    "criterion": "Check the pad's stated compatible size range against your laptop's real footprint, not its screen size",
-    "explanation": "A laptop's advertised screen size, like 13 or 15.6 inches, describes the diagonal measurement of the display panel, not the physical width and depth of the laptop's base that actually sits on top of a cooling pad, and two laptops with the identical screen size can have meaningfully different base dimensions depending on bezel thickness and chassis design.\n\nCooling pad listings state a compatible size range in inches specifically because they're describing what base footprint fits their surface and fan layout, so treating the screen-size number alone as a fit guarantee is a genuine buying mistake, not just an imprecise shortcut.\n\nMeasure your laptop's actual width and depth, or find those dimensions in its own spec sheet, and compare that against the pad's stated range rather than matching screen-size numbers."
+    "criterion": "Confirm the cooling accessory actually matches your mini PC's chassis shape and airflow design",
+    "explanation": "Mini PC cooling accessories, whether a cooling stand, an external fan, or a cooling pad, work by improving airflow around the device's existing vents, so their effectiveness depends heavily on where your specific mini PC's own intake and exhaust vents are located, which varies meaningfully between brands and even between generations of the same product line.\n\nAn accessory designed to blow air upward into a bottom-vented chassis provides little benefit to a mini PC that vents primarily from the rear or sides, regardless of how much airflow the accessory itself generates, since the cooling benefit only materializes when moving air actually reaches the device's real intake points.\n\nCheck your specific mini PC model's vent locations (usually visible in official product photos or its spec sheet) before assuming any generically-marketed cooling accessory will meaningfully help."
   },
   {
-    "criterion": "Understand that a wider-range pad isn't automatically better for a smaller laptop",
-    "explanation": "Cooling pads spread their fans across the surface in a fixed layout designed around the middle of their stated compatible range, so a pad rated for 12 to 17 inches has its fans positioned to reach a wide variety of vent locations across that whole span, while a laptop toward the small end of that range may not sit directly over as many of those fans as it would on a pad sized more tightly around its own dimensions.\n\nThis matters because the cooling benefit of a pad comes specifically from airflow reaching the laptop's actual intake vents, not from the pad's overall surface area, so a smaller laptop on an oversized pad can genuinely get less effective cooling than the same laptop on a proportionally sized pad, despite technically fitting within the stated range.\n\nWhen your laptop sits toward one end of a pad's stated range rather than the middle, check user photos or reviews specifically describing that size laptop's fit before assuming the airflow lines up well."
+    "criterion": "Understand that passive stands and active fans solve different problems",
+    "explanation": "A passive cooling stand improves airflow purely through elevation and often an open or perforated design that lets ambient air circulate more freely around the chassis than sitting flat on a desk, requiring no power and adding zero noise, while an active cooling fan or pad genuinely forces air movement and can meaningfully lower temperatures under sustained heavy load in a way passive elevation alone cannot.\n\nThis matters because a passive stand is a reasonable solution for a mini PC that only occasionally runs warm, while a genuinely thermally-constrained device under sustained load, like one running a home server or transcoding video continuously, benefits more from active airflow that a passive stand simply can't provide regardless of its design quality.\n\nMatch the accessory type to your actual thermal problem: light everyday use rarely needs active cooling, while continuous heavy workloads benefit from genuine forced airflow."
   },
   {
-    "criterion": "Confirm your laptop's actual vent location and design, especially for thin ultrabooks and MacBooks",
-    "explanation": "Most cooling pads are designed around bottom-vented laptops, where intake vents sit on the underside of the chassis directly facing the pad's fans, but some laptops, most notably many MacBook models, use a fully sealed or fanless internal design where the chassis itself acts as a heat sink rather than relying on active airflow from underneath.\n\nThis is a genuine compatibility gap that a cooling pad's stated inch-range compatibility says nothing about, since a pad can physically fit a MacBook's exact footprint while providing essentially no cooling benefit if that specific model has no bottom vents for the fans to blow into.\n\nCheck your specific laptop model's actual cooling design (vented bottom panel versus sealed unibody) before assuming a cooling pad will meaningfully lower its temperature, and treat this as a separate question from simple physical size fit."
+    "criterion": "Check the noise level if the accessory uses an active fan",
+    "explanation": "Any cooling accessory with its own fan adds a new noise source to your desk or media setup, and the noise level, when disclosed at all, is typically given in decibels (dBA) measured at a specific distance, though sellers rarely specify testing conditions consistently, making direct comparisons across listings imperfect but still directionally useful.\n\nThis matters specifically because the whole point of many mini PC setups, home theater boxes and quiet home office machines especially, is to avoid the noise of a traditional desktop tower, and adding a loud aftermarket cooling fan can undermine that goal entirely.\n\nCheck for a stated noise level and prioritize fans with speed control if quiet operation matters, since a fan that can be throttled down during light use and sped up only under real load offers the best of both a quiet baseline and real cooling headroom when needed."
   },
   {
-    "criterion": "Weigh fan count and noise level together, not fan count alone",
-    "explanation": "A pad's fan count, commonly ranging from a single central fan up to five or six smaller fans, is often marketed as a straightforward better-is-more spec, but more fans spinning simultaneously generally means more total noise output, and a pad with independently controllable fan zones lets you balance airflow against noise rather than forcing an all-or-nothing choice.\n\nThis is a real everyday tradeoff for anyone using a laptop in a quiet room or on a video call, since a cooling pad running at full multi-fan speed can become audible enough to be distracting, undermining the benefit if you end up turning it off to avoid the noise.\n\nCheck whether the listing states selectable fan modes or independently controlled fan zones, not just the total fan count, if noise control matters to your specific environment."
+    "criterion": "Verify the power source, since not every cooling accessory is self-powered",
+    "explanation": "Cooling fans and some cooling pads draw power either from a USB connection to the mini PC or host device itself, or from a separate wall adapter, and this distinction affects both setup complexity and whether the accessory turns on and off automatically with the device it's cooling.\n\nA USB-powered accessory typically only runs while the mini PC itself is powered on and providing that USB power, which is usually the desired behavior for cooling, while a separately wall-powered accessory needs its own outlet and stays on independently unless manually switched off, adding a cable and a decision point the buyer needs to plan for in their setup.\n\nCheck the listing's stated power source and confirm it matches how you want the cooling accessory to behave relative to your mini PC's own power state."
   },
   {
-    "criterion": "Confirm the power source and port type match your laptop before assuming plug-and-play compatibility",
-    "explanation": "Nearly all cooling pads draw power over a USB cable rather than a separate power adapter, which keeps setup simple, but the cable end that plugs into your laptop is typically USB-A, and a laptop with only USB-C ports (common on newer ultrabooks and MacBooks) will need a separate USB-C adapter or hub to actually power the pad, an extra cost and cable that isn't obvious from the listing photos alone.\n\nThis matters because a cooling pad that can't be powered defeats its entire purpose regardless of how well it otherwise fits your laptop's size and vent layout, so it's a genuine prerequisite to check, not an afterthought.\n\nCheck the listing's stated cable connector type and confirm it matches an available port on your specific laptop, or budget for an adapter if it doesn't."
+    "criterion": "Check physical clearance and desk space the accessory adds, not just its footprint",
+    "explanation": "A cooling stand or external fan adds real height, width, or depth beyond your mini PC's own dimensions, and on an already-tight desk setup, this added footprint can conflict with a monitor stand, other peripherals, or the available desk depth in ways that aren't obvious from a product photo showing the accessory in isolation.\n\nThis is particularly relevant for stands that elevate the mini PC significantly or fans that mount to a specific side, since the resulting combined footprint of mini PC plus accessory is what actually needs to fit your space, not the accessory's dimensions alone.\n\nMeasure your actual available desk space with the mini PC's own footprint already accounted for, then check the accessory's added dimensions against what's genuinely left over, rather than assuming any accessory marketed as \"compact\" will automatically fit."
   }
 ];
 

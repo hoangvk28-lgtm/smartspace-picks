@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41IFcTAasUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DPGYKH7G?tag=deskfinds0d-20",
-    description: "This is OCuLink-only, not Thunderbolt, with an uplink of OCuLink 4i (PCIe 4.0 x4) and a downlink of PCIe x16 (PCIe 4.0 x4), a direct PCIe connection rather than a tunneled Thunderbolt link. ATX and SFX standard power supplies are both supported, giving flexible options for a mini chassis build.\n\nThe OCuLink interface explicitly does not support hot-plugging, requiring the host to be powered off before connecting or disconnecting. A follow-start function exists but is compatible only with MINISFORUM's own Mini PCs using original cables, not a general-purpose feature across all hosts.",
+    description: "This is OCuLink-only, not Thunderbolt, with an uplink of OCuLink 4i (PCIe 4.0 x4) and a downlink of PCIe x16 (PCIe 4.0 x4), a direct PCIe connection rather than a tunneled Thunderbolt link. ATX and SFX standard power supplies are both supported, giving flexible options for a mini chassis build.\n\nIt earns the top spot in this comparison over PCIe 4.0 x4 64Gbps OCuLink eGPU Dock with SFF-8612 Cable for one main reason. Direct PCIe 4.0 x4 connection via OCuLink, not tunneled. On price, it's actually priced above PCIe 4.0 x4 64Gbps OCuLink eGPU Dock with SFF-8612 Cable, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Supports both ATX and SFX power supply formats. On the other side, No hot-plugging, requires full host shutdown to connect or disconnect. That's the main tradeoff to weigh against everything above.",
     specs: ["OCuLink 4i uplink, PCIe 4.0 x4 downlink","ATX/SFX power supply support","No hot-plug support"],
     pros: ["Direct PCIe 4.0 x4 connection via OCuLink, not tunneled","Supports both ATX and SFX power supply formats","Follow-start function syncs power with compatible MINISFORUM hosts"],
     cons: ["No Thunderbolt support at all, OCuLink hosts only","No hot-plugging, requires full host shutdown to connect or disconnect"],
@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51Kw7zqNREL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9FBN5P5?tag=deskfinds0d-20",
-    description: "A detachable design on both ends improves portability and storage versus a fixed one-piece dock, and 10-micron gold-plated contacts specifically target reduced oxidation and connection resistance over time. Transfer speed is a documented PCIe 4.0 x4 (64Gbps) via OCuLink.\n\nThe included SFF-8611 male-to-male cable uses an ultra-thin, flexible 0.5mm design with full-coverage EMI shielding, a genuine improvement over rigid traditional OCuLink cables that risk port damage. It's compatible with large cards like the RTX 4090 and RX 7900 XTX with no length restriction, though it requires a standard ATX power supply and the host must be powered off to unplug.",
+    description: "A detachable design on both ends improves portability and storage versus a fixed one-piece dock, and 10-micron gold-plated contacts specifically target reduced oxidation and connection resistance over time. Transfer speed is a documented PCIe 4.0 x4 (64Gbps) via OCuLink.\n\nOne spot below MINISFORUM DEG1 eGPU Dock in this ranking, it's priced lower than MINISFORUM DEG1 eGPU Dock. The compromise here is straightforward: Requires the host powered off to unplug, no hot-plugging. What you gain in return: Gold-plated contacts specifically reduce oxidation-related resistance. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Ultra-thin shielded cable avoids the port-damage risk of rigid cables. On the other side, ATX power supply is required and sold separately. That's the main tradeoff to weigh against everything above.",
     specs: ["PCIe 4.0 x4, 64Gbps via OCuLink","Ultra-thin 0.5mm shielded cable included","No graphics card length restriction"],
     pros: ["Gold-plated contacts specifically reduce oxidation-related resistance","Ultra-thin shielded cable avoids the port-damage risk of rigid cables","No graphics card length restriction, fits large cards like the RTX 4090"],
     cons: ["Requires the host powered off to unplug, no hot-plugging","ATX power supply is required and sold separately"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/21X+KhkM1ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GDY4HZBH?tag=deskfinds0d-20",
-    description: "Dual-link interfaces support up to 80Gbps over USB4 V2/Thunderbolt 5 and 64Gbps over OCuLink, with a dedicated hardware switch for instantly toggling between all-in-one docking mode and pure GPU performance mode, genuine flexibility one connector type alone can't offer. A built-in M.2 2280 NVMe slot stores AI models or project files directly on the dock.\n\nA built-in re-drive signal booster is specifically engineered to stabilize PCIe data transfer and reduce latency during high-bandwidth tasks like LLM inference or 8K rendering. A single TB5 cable handles data, display, and laptop charging with automatic power-on syncing to the host, a genuinely streamlined single-cable workflow.",
+    description: "Dual-link interfaces support up to 80Gbps over USB4 V2/Thunderbolt 5 and 64Gbps over OCuLink, with a dedicated hardware switch for instantly toggling between all-in-one docking mode and pure GPU performance mode, genuine flexibility one connector type alone can't offer. A built-in M.2 2280 NVMe slot stores AI models or project files directly on the dock.\n\nSitting just under PCIe 4.0 x4 64Gbps OCuLink eGPU Dock with SFF-8612 Cable, it costs more than PCIe 4.0 x4 64Gbps OCuLink eGPU Dock with SFF-8612 Cable. Here's the honest tradeoff: Dual-link complexity adds real setup considerations. And here's what it gets you instead: Hardware switch toggles between full dock and pure GPU performance modes. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Built-in M.2 slot stores AI models directly on the dock. On the other side, ATX or SFX power supply required, sold separately. That's the main tradeoff to weigh against everything above.",
     specs: ["Dual-link: 80Gbps USB4V2/TB5, 64Gbps OCuLink","Built-in M.2 2280 NVMe slot","Hardware switch between docking/GPU modes"],
     pros: ["Hardware switch toggles between full dock and pure GPU performance modes","Built-in M.2 slot stores AI models directly on the dock","Signal booster specifically stabilizes high-bandwidth PCIe transfer"],
     cons: ["Dual-link complexity adds real setup considerations","ATX or SFX power supply required, sold separately"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41MxyXo6D4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGV1YPZZ?tag=deskfinds0d-20",
-    description: "Officially certified JHL7540/7440 controllers back a genuine PCIe 4.0 x16 mode with 32Gbps bandwidth, and the Immersion Gold (ENIG) PCB is a specific stability detail beyond a standard board finish. NVIDIA and AMD compatibility extends to current RTX 5090 D and RX 7000-series cards.\n\nDual Thunderbolt ports plus a DP output mean the 85W PD port can charge a compatible laptop and drive the external GPU over a single cable, specifically triggering ROG Ally X's 30W Turbo Mode. The open-frame anodized aluminum design imposes no graphics card length limit and maximizes airflow, though it trades enclosed protection for that openness.",
+    description: "Officially certified JHL7540/7440 controllers back a genuine PCIe 4.0 x16 mode with 32Gbps bandwidth, and the Immersion Gold (ENIG) PCB is a specific stability detail beyond a standard board finish. NVIDIA and AMD compatibility extends to current RTX 5090 D and RX 7000-series cards.\n\nRanked just behind MINISFORUM DEG2 USB4 V2, it's priced lower than MINISFORUM DEG2 USB4 V2. The real tradeoff against that pick: Open-frame design offers no dust or impact protection. In exchange, it offers this instead: Open-frame design imposes no graphics card length limit. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: 85W PD charges a laptop and runs the GPU over one cable. On the other side, Requires a genuine Thunderbolt/USB4 port, not standard USB-C. That's the main tradeoff to weigh against everything above.",
     specs: ["JHL7540/7440 controller, PCIe 4.0 x16 mode","85W PD charging, dual TB ports","Open-frame, no GPU length limit"],
     pros: ["Open-frame design imposes no graphics card length limit","85W PD charges a laptop and runs the GPU over one cable","Certified JHL7540/7440 controllers back genuine 32Gbps bandwidth"],
     cons: ["Open-frame design offers no dust or impact protection","Requires a genuine Thunderbolt/USB4 port, not standard USB-C"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41HiGEZkv9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F138HBVF?tag=deskfinds0d-20",
-    description: "Wide GPU support spans NVIDIA RTX up to the 50-series and AMD Radeon RX up to the 9000-series, plus Quadro, Tesla, and Pro workstation cards, genuinely broad compatibility for a single enclosure. The official Intel JHL7440/7450 controller and ENIG PCB target stable data transfer and long-term oxidation resistance.\n\nDual Thunderbolt ports (15W and 85W PD) plus a DisplayPort output allow single-cable laptop charging while running the external GPU, and the listing specifically calls out ROG Ally X 30W Turbo Mode optimization. A dedicated support team is offered specifically for driver and connectivity troubleshooting between laptops and the dock.",
+    description: "Wide GPU support spans NVIDIA RTX up to the 50-series and AMD Radeon RX up to the 9000-series, plus Quadro, Tesla, and Pro workstation cards, genuinely broad compatibility for a single enclosure. The official Intel JHL7440/7450 controller and ENIG PCB target stable data transfer and long-term oxidation resistance.\n\nOne spot below Maskedfish eGPU Enclosure Thunderbolt 3/4 USB4 40Gbps PD 85W Charging in this ranking, it's priced lower than Maskedfish eGPU Enclosure Thunderbolt 3/4 USB4 40Gbps PD 85W Charging. The compromise here is straightforward: Requires a genuine Thunderbolt 3/4 or USB4 port to function. What you gain in return: Supports GPU range from GTX/Quadro through current RTX 50-series. Whether that trade is worth it depends on which side matters more for your use case.\n\nWorth knowing before you decide: Dedicated support team specifically for driver/connectivity issues. On the other side, ATX power supply for the GPU is a separate purchase. That's the main tradeoff to weigh against everything above.",
     specs: ["JHL7440/7450 controller, ENIG PCB","Dual TB ports: 15W + 85W PD","Wide GPU support: RTX 50-series, RX 9000-series"],
     pros: ["Supports GPU range from GTX/Quadro through current RTX 50-series","Dedicated support team specifically for driver/connectivity issues","85W PD charges the laptop while running the GPU"],
     cons: ["Requires a genuine Thunderbolt 3/4 or USB4 port to function","ATX power supply for the GPU is a separate purchase"],
@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41CCeZ1iNVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GGJGK557?tag=deskfinds0d-20",
-    description: "This uses an NVMe M.2 to PCIe x16 riser cable rather than Thunderbolt or OCuLink, requiring a host with a genuine NVMe M.2 slot, explicitly not M.2 SATA, WiFi, or WWAN slots, worth confirming your exact M.2 slot type before buying. Documented transfer speed reaches PCIe 5.0 x4 (128Gbps), among the highest raw bandwidth figures in this cluster.\n\nCompatibility covers NVIDIA RTX 50-series and AMD RX 90xx-series cards with backward compatibility to older PCIe generations, and there's no length restriction for full-size high-performance cards. The ultra-thin 0.8mm shielded cable and gold-plated contacts mirror the build quality of OwlTree's OCuLink sibling dock, and it requires a standard ATX power supply rated 500W or higher.",
+    description: "This uses an NVMe M.2 to PCIe x16 riser cable rather than Thunderbolt or OCuLink, requiring a host with a genuine NVMe M.2 slot, explicitly not M.2 SATA, WiFi, or WWAN slots, worth confirming your exact M.2 slot type before buying. Documented transfer speed reaches PCIe 5.0 x4 (128Gbps), among the highest raw bandwidth figures in this cluster.\n\nSitting just under VIKINYEE Thunderbolt 3/4 eGPU Enclosure USB4, it's priced lower than VIKINYEE Thunderbolt 3/4 eGPU Enclosure USB4. Here's the honest tradeoff: Requires a genuine NVMe M.2 slot, not SATA, WiFi, or WWAN M.2. And here's what it gets you instead: 128Gbps is among the highest raw bandwidth figures in this cluster. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: No length restriction for full-size high-performance cards. On the other side, ATX power supply of 500W or higher is required, sold separately. That's the main tradeoff to weigh against everything above.",
     specs: ["PCIe 5.0 x4, 128Gbps via NVMe M.2 riser","Requires genuine NVMe M.2 slot","ATX 500W+ power supply required"],
     pros: ["128Gbps is among the highest raw bandwidth figures in this cluster","No length restriction for full-size high-performance cards","Backward compatible with older PCIe generation cards"],
     cons: ["Requires a genuine NVMe M.2 slot, not SATA, WiFi, or WWAN M.2","ATX power supply of 500W or higher is required, sold separately"],
@@ -148,47 +148,128 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "Match Host Link Architecture Exactly",
-    "note": "Confirm egpu enclosures for mini pc's host port generation and type precisely, since laptop and mini PC eGPU support varies significantly even within similar-looking USB-C ports."
+    "subheading": "By Use Case",
+    "table": {
+      "headers": [
+        "What you're running",
+        "Recommended pick in this comparison"
+      ],
+      "rows": [
+        [
+          "Light everyday or office use",
+          "PCIe 4.0 x4 64Gbps OCuLink eGPU Dock with SFF-8612 Cable"
+        ],
+        [
+          "Demanding, sustained workloads",
+          "MINISFORUM DEG2 USB4 V2"
+        ]
+      ]
+    }
   },
   {
-    "subheading": "Check Charging and Power Requirements Together",
-    "note": "Verify laptop charging wattage and GPU power supply requirements together, since eGPU setups can unexpectedly need a second power cable."
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $107",
+          "PCIe 4.0 x4 64Gbps OCuLink eGPU Dock with SFF-8612 Cable"
+        ],
+        [
+          "Mid-range",
+          "VIKINYEE Thunderbolt 3/4 eGPU Enclosure USB4"
+        ],
+        [
+          "No firm budget ceiling, prioritizing CPU or RAM",
+          "MINISFORUM DEG2 USB4 V2"
+        ]
+      ]
+    }
   },
   {
-    "subheading": "Verify Display Path Behavior",
-    "note": "Check documented performance for both external monitor and internal display paths separately where the host supports both."
+    "subheading": "Fanless (Passive) vs Actively Cooled",
+    "cards": [
+      {
+        "label": "Fanless, Passive Cooling",
+        "text": "Completely silent with no moving parts, at the cost of throttling under sustained heavy load. In this comparison: check each listing's cooling design directly."
+      },
+      {
+        "label": "Actively Cooled (Fan)",
+        "text": "Sustains heavier workloads longer without throttling, at the cost of some fan noise under load. In this comparison: MINISFORUM DEG1 eGPU Dock, PCIe 4.0 x4 64Gbps OCuLink eGPU Dock with SFF-8612 Cable, MINISFORUM DEG2 USB4 V2."
+      }
+    ],
+    "note": "Default to a fanless pick like MINISFORUM DEG1 eGPU Dock for a quiet home office or media setup, and step up to active cooling if you're running sustained CPU-heavy work."
   },
   {
-    "subheading": "Confirm BIOS and Driver Requirements",
-    "note": "Verify BIOS, firmware, and driver versions needed for stable operation, since eGPU support can depend on specific software versions."
+    "subheading": "By RAM and Storage Headroom",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Lightest budget-friendly configuration",
+          "PCIe 4.0 x4 64Gbps OCuLink eGPU Dock with SFF-8612 Cable"
+        ],
+        [
+          "Maximum RAM and storage headroom",
+          "MINISFORUM DEG2 USB4 V2"
+        ]
+      ]
+    }
   },
   {
-    "subheading": "Check Dock-Peripheral Behavior Under GPU Load",
-    "note": "Confirm that any additional dock functionality (Ethernet, USB, storage) doesn't degrade meaningfully while the GPU is under load."
+    "subheading": "For GPU-Accelerated Work or Gaming Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A dedicated GPU or a confirmed Oculink/Thunderbolt eGPU connection explicitly stated in the listing, not just a generic \"gaming capable\" claim."
+      },
+      {
+        "label": "In this comparison",
+        "text": "MINISFORUM DEG1 eGPU Dock fits this specifically: Direct PCIe 4.0 x4 connection via OCuLink, not tunneled."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what MINISFORUM DEG2 USB4 V2 offers: Hardware switch toggles between full dock and pure GPU performance modes. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "PCIe 4.0 x4 64Gbps OCuLink eGPU Dock with SFF-8612 Cable already covers the essentials: Gold-plated contacts specifically reduce oxidation-related resistance. The main thing you'd be paying extra for elsewhere in this list is headroom you may not need."
+      }
+    ]
   }
 ];
 
 export const buyingCriteria = [
   {
-    "criterion": "Match Host Link Architecture Exactly",
-    "explanation": "Confirm egpu enclosures for mini pc's host port generation and type precisely, since laptop and mini PC eGPU support varies significantly even within similar-looking USB-C ports."
+    "criterion": "Match RAM and storage to your actual workload, not just the headline spec",
+    "explanation": "Mini PC listings often lead with a large RAM number like 16GB, 32GB, or 64GB, but the amount you actually need depends heavily on what you're running: basic web browsing and office work is comfortable at 8 to 16GB, while running multiple virtual machines, a Plex transcoding server, or memory-hungry emulation genuinely benefits from 32GB or more.\n\nBuying far more RAM than your workload needs is simply wasted money, while buying too little means the system will lean on slower disk-based swap memory under load, causing real stuttering that a spec sheet number won't warn you about.\n\nCheck whether the RAM is soldered (fixed at purchase) or user-upgradeable via SO-DIMM slots, since a soldered configuration means you're locked into whatever capacity you buy today with no future upgrade path."
   },
   {
-    "criterion": "Check Charging and Power Requirements Together",
-    "explanation": "Verify laptop charging wattage and GPU power supply requirements together, since eGPU setups can unexpectedly need a second power cable."
+    "criterion": "Understand what the CPU generation and core count actually mean for your use case",
+    "explanation": "A mini PC's processor model number (like an Intel N100, N150, or a specific AMD Ryzen model) tells you its generation and general performance tier, but raw core count and clock speed matter less than how well that specific chip handles your actual workload, since a low-power efficiency chip like the N100 is genuinely fine for a home server or media player but will bottleneck video editing or modern gaming badly.\n\nThis distinction matters because two mini PCs can list similar-sounding specs while being built around completely different design goals, one optimized for low power draw and silence, the other for sustained performance under load.\n\nLook up independent benchmark results for the exact CPU model rather than trusting a generic \"powerful\" or \"fast\" marketing description, since chip model numbers are the one spec that translates directly to comparable real-world performance data."
   },
   {
-    "criterion": "Verify Display Path Behavior",
-    "explanation": "Check documented performance for both external monitor and internal display paths separately where the host supports both."
+    "criterion": "Check whether the mini PC includes dedicated graphics or relies on integrated graphics alone",
+    "explanation": "Most mini PCs rely on integrated graphics built into the CPU itself, which handles everyday desktop use, video playback, and light gaming fine, but a genuine dedicated GPU or officially supported external GPU (eGPU) connection is a meaningfully different tier needed for serious gaming or GPU-accelerated video editing work.\n\nThis is a real distinguishing feature worth checking specifically, since \"mini PC\" as a category spans everything from a fanless office box with no gaming capability at all to a compact system that can be paired with an external GPU enclosure for near-desktop gaming performance.\n\nIf your use case involves gaming or GPU-accelerated tasks, check explicitly for a dedicated GPU or a confirmed Oculink/Thunderbolt eGPU connection rather than assuming any mini PC can be upgraded that way."
   },
   {
-    "criterion": "Confirm BIOS and Driver Requirements",
-    "explanation": "Verify BIOS, firmware, and driver versions needed for stable operation, since eGPU support can depend on specific software versions."
+    "criterion": "Confirm the exact port selection matches your real peripherals, not just the port count",
+    "explanation": "A mini PC's small size means its port selection is fixed at purchase with essentially no room for internal expansion the way a desktop tower allows, so the specific mix of USB versions, display outputs, and networking ports listed matters far more here than on a full-size computer.\n\nCheck specifically for the number and type of display outputs if you run multiple monitors, since some budget mini PCs only support two displays despite having enough physical ports to suggest otherwise, and check for dual Ethernet ports specifically if you're planning a home server, router, or NAS build that benefits from network redundancy or link aggregation.\n\nCount your actual peripherals and required display outputs against the listed ports before buying, since there's no expansion card slot to add what's missing later on most mini PC designs."
   },
   {
-    "criterion": "Check Dock-Peripheral Behavior Under GPU Load",
-    "explanation": "Confirm that any additional dock functionality (Ethernet, USB, storage) doesn't degrade meaningfully while the GPU is under load."
+    "criterion": "Weigh fanless passive cooling against active cooling for your noise and thermal tolerance",
+    "explanation": "Mini PCs use either active cooling (an internal fan that spins up under load) or fully passive fanless cooling (relying entirely on the metal chassis itself to dissipate heat), and this choice is a genuine tradeoff rather than one being strictly better: fanless designs run completely silent and have no moving parts to fail, but they also throttle performance under sustained heavy load once the passive heatsink reaches its thermal limit, something an actively cooled system with a fan can sustain longer.\n\nThis matters concretely for anyone running a 24/7 home server or media server in a bedroom or living room, where fan noise is a real annoyance, versus anyone running sustained CPU-heavy workloads like video transcoding, where a fanless design may throttle noticeably during long jobs.\n\nCheck whether cooling is explicitly described as fanless/passive or fan-cooled/active, and match that to whether silence or sustained performance matters more for where this mini PC will actually live."
   }
 ];
 
