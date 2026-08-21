@@ -24,17 +24,16 @@ export const products: GuideProduct[] = [
     id: "b0fh9pbggw-calc",
     rank: 1,
     badge: "Best for Math and Physics Students",
-    name: "Scientific Calculator with LCD Writing Tablet – 240 Functions for Math, Physics & Exams, Dual-Line Display, One-Click Clear & Lock, Pull-Out Stylus, for Students & Professionals (White)",
+    name: "Scientific Calculator with LCD Writing Tablet, 240 Functions for Math, Physics & Exams, Dual-Line Display, One-Click Clear & Lock, Pull-Out Stylus, for Students & Professionals (White)",
     price: "$13.99",
     rating: "Verified Amazon listing",
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41Q3ydwMC+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FH9PBGGW?tag=deskfinds0d-20",
-    description:
-      "A full 240-function scientific calculator paired with an LCD writing tablet and a dual-line display, appropriate for students working through math or physics problems who want scratch space alongside real calculation power.\n\nA pull-out stylus and one-click clear function round out a genuinely useful combo device rather than a novelty pairing of two unrelated features.",
-    specs: ["240-function scientific calculator", "Dual-line display", "LCD writing tablet built in", "Pull-out stylus included"],
-    pros: ["Genuine 240-function scientific calculator, not a basic model", "Dual-line display aids complex calculations", "Pull-out stylus stays attached to the device", "One-click clear and lock function"],
-    cons: ["Higher function count may be more than casual users need", "Writing tablet does not save content once erased", "Verify current review data on the listing"],
+    description: "A full 240-function scientific calculator paired with an LCD writing tablet and a dual-line display, appropriate for students working through math or physics problems who want scratch space alongside real calculation power.\n\nIt earns the top spot in this comparison over NEWYES Scientific Calculators with Writing Tablet for one main reason. Genuine 240-function scientific calculator, not a basic model. On price, it's priced at $13.99, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Dual-line display aids complex calculations. On the other side, Verify current review data on the listing. That's the main tradeoff to weigh against everything above.",
+    specs: ["240-function scientific calculator","Dual-line display","LCD writing tablet built in","Pull-out stylus included"],
+    pros: ["Genuine 240-function scientific calculator, not a basic model","Dual-line display aids complex calculations","Pull-out stylus stays attached to the device","One-click clear and lock function"],
+    cons: ["Higher function count may be more than casual users need","Writing tablet does not save content once erased","Verify current review data on the listing"],
     bestFor: "Math and physics students needing a genuine scientific calculator with scratch space attached",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51Tluu64-9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09WYD8GLN?tag=deskfinds0d-20",
-    description:
-      "An even higher 349-function scientific calculator with solar power, reducing battery dependency for the calculator portion specifically, paired with the same writing tablet convenience.\n\nA foldable design makes it more compact to carry between classes, appropriate for college students wanting a durable combo device for daily coursework.",
-    specs: ["349-function scientific calculator", "Solar-powered calculator", "Foldable compact design", "LCD writing tablet included"],
-    pros: ["Highest function count of the three picks", "Solar power reduces calculator battery dependency", "Foldable design for easier carrying", "Suited to school and college coursework"],
-    cons: ["Solar power applies to the calculator, not the writing screen", "Writing tablet does not save content once erased", "Verify current price on the listing"],
+    description: "An even higher 349-function scientific calculator with solar power, reducing battery dependency for the calculator portion specifically, paired with the same writing tablet convenience.\n\nOne spot below Scientific Calculator with LCD Writing Tablet, 240 Functions for Math in this ranking, it's priced lower than Scientific Calculator with LCD Writing Tablet, 240 Functions for Math. The compromise here is straightforward: Solar power applies to the calculator, not the writing screen. What you gain in return: Highest function count of the three picks. Whether that trade is worth it depends on which side matters more for you.\n\nWorth knowing before you decide: Solar power reduces calculator battery dependency. On the other side, Verify current price on the listing. That's the main tradeoff to weigh against everything above.",
+    specs: ["349-function scientific calculator","Solar-powered calculator","Foldable compact design","LCD writing tablet included"],
+    pros: ["Highest function count of the three picks","Solar power reduces calculator battery dependency","Foldable design for easier carrying","Suited to school and college coursework"],
+    cons: ["Solar power applies to the calculator, not the writing screen","Writing tablet does not save content once erased","Verify current price on the listing"],
     bestFor: "College students wanting the highest function count and reduced battery dependency",
   },
   {
@@ -64,13 +62,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41HqMZpdACL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08K4136SF?tag=deskfinds0d-20",
-    description:
-      "A simpler 12-digit basic calculator paired with a rechargeable 6.5 inch writing tablet, appropriate for everyday office arithmetic rather than scientific or engineering calculations.\n\nThe rechargeable battery is a rare feature at this price point, and the compact size makes it genuinely handheld for daily basic office tasks.",
-    specs: ["12-digit basic calculator", "6.5 inch rechargeable LCD screen", "Lock button included", "E-pen included"],
-    pros: ["Rechargeable, unlike most combo devices at this price", "Genuinely compact and handheld", "Simple 12-digit display suits everyday arithmetic", "Lock button prevents accidental erasing"],
-    cons: ["Basic calculator lacks scientific functions", "Writing tablet does not save content once erased", "Verify current price on the listing"],
+    description: "A simpler 12-digit basic calculator paired with a rechargeable 6.5 inch writing tablet, appropriate for everyday office arithmetic rather than scientific or engineering calculations.\n\nSitting just under NEWYES Scientific Calculators with Writing Tablet, pricing between it and NEWYES Scientific Calculators with Writing Tablet isn't directly comparable here. Here's the honest tradeoff: Basic calculator lacks scientific functions. And here's what it gets you instead: Rechargeable, unlike most combo devices at this price. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Genuinely compact and handheld. On the other side, Verify current price on the listing. That's the main tradeoff to weigh against everything above.",
+    specs: ["12-digit basic calculator","6.5 inch rechargeable LCD screen","Lock button included","E-pen included"],
+    pros: ["Rechargeable, unlike most combo devices at this price","Genuinely compact and handheld","Simple 12-digit display suits everyday arithmetic","Lock button prevents accidental erasing"],
+    cons: ["Basic calculator lacks scientific functions","Writing tablet does not save content once erased","Verify current price on the listing"],
     bestFor: "Buyers wanting a simple, rechargeable everyday calculator and notepad combo for basic office arithmetic",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -84,31 +81,97 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "A Genuine but Small Novelty Niche",
-    note: "Calculator and LCD writing tablet combos are a small niche within this category. Current research found three products genuinely combining both functions, this guide covers all three honestly rather than padding the list with unrelated products.",
+    "subheading": "By Screen Size",
+    "note": "Screen size isn't consistently confirmed across every pick in this comparison; check each listing's product details directly."
   },
   {
-    subheading: "Match the Calculator Function Count to Your Actual Needs",
-    note: "A basic 12-digit calculator suits everyday office arithmetic, while a 240 or 349-function scientific calculator suits students working through math, physics, or engineering coursework. Buying more function count than you need adds cost without benefit.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Scientific calculator for math and physics", "Scientific Calculator with LCD Tablet, 240 Functions"],
-        ["Highest function count, solar-powered", "NEWYES 991MS Scientific Calculator, 349 Functions"],
-        ["Simple everyday office arithmetic", "Basic Calculator Notepad, Rechargeable"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $14",
+          "Scientific Calculator with LCD Writing Tablet, 240 Functions for Math"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Kids-Marketed vs Adult-Marketed",
+    "cards": [
+      {
+        "label": "Kids-Marketed",
+        "text": "Bright colors and character branding, often the same core technology as adult versions at a similar or lower price. In this comparison: check each listing's marketing angle directly."
+      },
+      {
+        "label": "Adult-Marketed",
+        "text": "Neutral styling suited to an office desk, sometimes at a price premium for the plainer look alone. In this comparison: Basic Calculator Notepad with 6.5 Inch LCD Writing Tablet."
+      }
+    ],
+    "note": "Compare the actual specs, not just the marketing angle, since the underlying writing technology is often identical between the two."
+  },
+  {
+    "subheading": "With Memory Lock vs Basic Erase",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Prevent accidental erasing",
+          "Basic Calculator Notepad with 6.5 Inch LCD Writing Tablet"
+        ],
+        [
+          "Simplest single-button design",
+          "Scientific Calculator with LCD Writing Tablet, 240 Functions for Math"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Gift-Giving Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear age-range marketing if buying for a specific child, genuine screen size (not just overall unit size), and a replaceable coin-cell battery for the longest useful life."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Scientific Calculator with LCD Writing Tablet, 240 Functions for Math fits this specifically: Genuine 240-function scientific calculator, not a basic model."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "note": "Every pick in this specific comparison sits in a similar price range, so the decision here comes down to styling and included features rather than a budget-versus-premium tradeoff. Check the pros and cons above for what actually differs between them."
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Match calculator function count to your actual coursework or job needs", explanation: "A basic 12-digit calculator handles everyday arithmetic fine, only pay for a 240 or 349-function scientific model if you genuinely need trigonometric or engineering functions." },
-  { criterion: "Check which component is solar or rechargeable", explanation: "Solar power and rechargeable batteries in these combo devices sometimes apply only to the calculator function, not the writing screen, verify the specific listing details." },
-  { criterion: "Remember the writing tablet portion still erases permanently", explanation: "The calculator function doesn't change the underlying LCD writing behavior, your notes still cannot be saved unless the listing states otherwise." },
-  { criterion: "Consider a foldable design if you carry it between classes or meetings", explanation: "A foldable form factor adds durability and compactness for students moving between locations throughout the day." },
+  {
+    "criterion": "Understand that most LCD writing tablets don't save what you write, and confirm before assuming otherwise",
+    "explanation": "The core technology behind an LCD writing tablet uses pressure-sensitive liquid crystal layers that display a line wherever you press with the stylus, and a single button press clears the entire screen by resetting that pressure pattern, a fundamentally different mechanism from a digital note-taking device that stores what you write as data.\n\nThis means the overwhelming majority of these tablets have no way to save, export, or recover anything once erased, an important expectation to set correctly since the product category name (\"writing tablet\") sounds similar to genuinely different digital notebook devices that do save content.\n\nCheck specifically for the word \"memory\" paired with an actual save or export function, or explicit Bluetooth/app-sync language, rather than assuming any writing tablet preserves your notes, since a basic memory lock button only pauses erasing, it doesn't save content anywhere."
+  },
+  {
+    "criterion": "Don't assume kids' and adult marketing reflects a real functional difference",
+    "explanation": "LCD writing tablets are sold under two distinct marketing approaches, bright, character-branded versions explicitly targeted at children with age-range callouts and educational framing, and plainer, neutral-colored versions marketed toward adults for office notes or quick sketches, but the underlying LCD writing and erase technology is frequently identical between the two at a similar screen size and price point.\n\nThis matters because a buyer specifically shopping for an adult-styled option can end up paying a premium for styling alone if a functionally identical kids' version is available at a lower price, and vice versa for a buyer who assumed the adult version had a more capable writing surface.\n\nCompare the actual specs (screen size, pressure sensitivity, included features) rather than the marketing angle, and don't assume the age-targeted framing correlates with any real technical difference in writing quality."
+  },
+  {
+    "criterion": "Check the battery type and replacement situation before buying",
+    "explanation": "LCD writing tablets use one of two power approaches: a small replaceable coin-cell (button) battery that typically lasts many months of normal use and costs only a couple of dollars to replace when it eventually dies, or a sealed rechargeable battery built into the unit that can't be swapped out and, once it degrades or fails after repeated charge cycles, effectively ends the product's useful life since replacement isn't practical.\n\nThis is a genuinely different long-term ownership tradeoff that isn't always obvious from the listing photos alone, a rechargeable tablet avoids ever buying a replacement battery but has a real end-of-life point built in, while a replaceable-battery tablet can theoretically last indefinitely as long as coin cells remain available.\n\nCheck the listing specifically for battery type, and if a genuinely long product lifespan matters more than charging convenience, favor a replaceable coin-cell design."
+  },
+  {
+    "criterion": "Confirm the screen size accurately reflects the actual writing surface, not the overall unit dimensions",
+    "explanation": "Some listings state a screen size in the product title that refers to the diagonal measurement of the entire unit including its bezel and button area, rather than the actual usable writing surface, which can mean a tablet marketed as a specific size delivers a meaningfully smaller writable area than that number suggests once the bezel is accounted for.\n\nThis matters most for buyers specifically comparing size tiers (deciding between an 8.5, 10, or 12 inch model, for example) since the real usable difference between two adjacent size tiers can be smaller than the headline numbers imply if one listing measures the full unit and another measures just the screen.\n\nCheck the listing's specific dimensions for the writing surface itself where stated, and treat the headline size number as a rough guide rather than an exact usable-area guarantee."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, since this category includes many similar generic listings",
+    "explanation": "The LCD writing tablet category on Amazon includes a large number of very similarly specified products from different, often unfamiliar brand names, frequently manufactured by the same underlying suppliers with different branding and packaging, which means review count and rating patterns can vary widely between listings that are functionally almost identical.\n\nA listing with a strong rating built on a large, genuine review base gives more confidence in real-world durability (a tablet that stops registering pressure correctly in certain screen areas is a common failure mode in this category) than a similar-looking listing with only a handful of reviews.\n\nWhen comparing two similarly priced and specified tablets, check both the star rating and the review count together, and treat an unusually thin review base as a reason for extra caution regardless of how complete the feature list looks."
+  }
 ];
 
 export const faq: FaqItem[] = [

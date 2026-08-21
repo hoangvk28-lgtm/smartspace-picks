@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41PP1beSBsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FS73S8WZ?tag=deskfinds0d-20",
-    description:
-      "Explicitly rechargeable via USB Type-C, confirmed in the product title, this 12 inch bezel-free screen avoids the need to keep spare coin-cell batteries on hand entirely.\n\nThe larger screen size pairs well with the rechargeable convenience for buyers who use the tablet often enough that battery swaps would otherwise become a regular chore.",
-    specs: ["12 inch bezel-free screen", "USB Type-C rechargeable", "Confirmed rechargeable in title", "Large writing surface"],
-    pros: ["Genuinely confirmed rechargeable via Type-C", "No coin-cell battery swaps ever needed", "Large 12 inch screen for detailed notes", "Modern bezel-free design"],
-    cons: ["Requires periodic recharging, unlike a long-lasting coin-cell", "Does not save content once erased", "Larger size less pocketable"],
+    description: "Explicitly rechargeable via USB Type-C, confirmed in the product title, this 12 inch bezel-free screen avoids the need to keep spare coin-cell batteries on hand entirely.\n\nIt earns the top spot in this comparison over Basic Calculator Notepad with 6.5 Inch LCD Writing Tablet for one main reason. Genuinely confirmed rechargeable via Type-C. On price, it's priced at $29.99, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: No coin-cell battery swaps ever needed. On the other side, Larger size less pocketable. That's the main tradeoff to weigh against everything above.",
+    specs: ["12 inch bezel-free screen","USB Type-C rechargeable","Confirmed rechargeable in title","Large writing surface"],
+    pros: ["Genuinely confirmed rechargeable via Type-C","No coin-cell battery swaps ever needed","Large 12 inch screen for detailed notes","Modern bezel-free design"],
+    cons: ["Requires periodic recharging, unlike a long-lasting coin-cell","Does not save content once erased","Larger size less pocketable"],
     bestFor: "Frequent users who want to avoid battery swaps entirely with a large writing surface",
   },
   {
@@ -47,13 +46,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41HqMZpdACL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08K4136SF?tag=deskfinds0d-20",
-    description:
-      "A compact 6.5 inch rechargeable LCD notepad combined with a basic calculator, confirmed rechargeable directly in the product title.\n\nThe combination with a 12-digit calculator display makes this a distinct pick for buyers who want a rechargeable scratchpad and a basic calculator in one handheld device for daily office tasks.",
-    specs: ["6.5 inch rechargeable LCD screen", "Basic 12-digit calculator built in", "Lock button included", "E-pen included"],
-    pros: ["Genuinely confirmed rechargeable in the title", "Combines a calculator and writing pad in one device", "Compact size for handheld daily office use", "Lock button prevents accidental erasing"],
-    cons: ["Smaller screen limits writing space", "Does not save written content once erased", "Verify current price on the listing"],
+    description: "A compact 6.5 inch rechargeable LCD notepad combined with a basic calculator, confirmed rechargeable directly in the product title.\n\nOne spot below 12in Rechargeable LCD Writing Tablet in this ranking, it's priced lower than 12in Rechargeable LCD Writing Tablet. The compromise here is straightforward: Smaller screen limits writing space. What you gain in return: Genuinely confirmed rechargeable in the title. Whether that trade is worth it depends on which side matters more for you.\n\nWorth knowing before you decide: Combines a calculator and writing pad in one device. On the other side, Verify current price on the listing. That's the main tradeoff to weigh against everything above.",
+    specs: ["6.5 inch rechargeable LCD screen","Basic 12-digit calculator built in","Lock button included","E-pen included"],
+    pros: ["Genuinely confirmed rechargeable in the title","Combines a calculator and writing pad in one device","Compact size for handheld daily office use","Lock button prevents accidental erasing"],
+    cons: ["Smaller screen limits writing space","Does not save written content once erased","Verify current price on the listing"],
     bestFor: "Buyers wanting a rechargeable, compact combo device with both writing and basic calculator functions",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -67,26 +65,112 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Coin-Cell Is the Category Default, Not Rechargeable",
-    note: "Most LCD writing tablets use a small replaceable coin-cell battery, and that battery typically lasts a very long time, often a year or more, before needing a swap. Rechargeable models genuinely exist but are a small sub-category, don't assume any 'digital' or 'electronic' listing is rechargeable unless it explicitly states so.",
+    "subheading": "By Screen Size",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
+      ],
+      "rows": [
+        [
+          "Most compact and portable",
+          "Basic Calculator Notepad with 6.5 Inch LCD Writing Tablet"
+        ],
+        [
+          "Most writing room",
+          "12in Rechargeable LCD Writing Tablet"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Large rechargeable screen", "12in Rechargeable Type-C Tablet"],
-        ["Compact rechargeable with calculator", "Basic Calculator Notepad, Rechargeable"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $30",
+          "12in Rechargeable LCD Writing Tablet"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Kids-Marketed vs Adult-Marketed",
+    "cards": [
+      {
+        "label": "Kids-Marketed",
+        "text": "Bright colors and character branding, often the same core technology as adult versions at a similar or lower price. In this comparison: check each listing's marketing angle directly."
+      },
+      {
+        "label": "Adult-Marketed",
+        "text": "Neutral styling suited to an office desk, sometimes at a price premium for the plainer look alone. In this comparison: Basic Calculator Notepad with 6.5 Inch LCD Writing Tablet."
+      }
+    ],
+    "note": "Compare the actual specs, not just the marketing angle, since the underlying writing technology is often identical between the two."
+  },
+  {
+    "subheading": "With Memory Lock vs Basic Erase",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Prevent accidental erasing",
+          "Basic Calculator Notepad with 6.5 Inch LCD Writing Tablet"
+        ],
+        [
+          "Simplest single-button design",
+          "12in Rechargeable LCD Writing Tablet"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Gift-Giving Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear age-range marketing if buying for a specific child, genuine screen size (not just overall unit size), and a replaceable coin-cell battery for the longest useful life."
+      },
+      {
+        "label": "In this comparison",
+        "text": "12in Rechargeable LCD Writing Tablet fits this specifically: Genuinely confirmed rechargeable via Type-C."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "note": "Every pick in this specific comparison sits in a similar price range, so the decision here comes down to styling and included features rather than a budget-versus-premium tradeoff. Check the pros and cons above for what actually differs between them."
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Don't assume rechargeable unless the title confirms it", explanation: "Most LCD writing tablets use a replaceable coin-cell battery by default, only buy expecting USB charging if the listing explicitly states rechargeable." },
-  { criterion: "Weigh long coin-cell life against recharging convenience", explanation: "A coin-cell battery often lasts a year or more without any maintenance, while a rechargeable model needs periodic USB charging but avoids battery purchases entirely." },
-  { criterion: "Consider added features bundled with rechargeable models", explanation: "One of the two confirmed rechargeable options in this pool bundles a basic calculator, worth considering if that combination suits your daily use." },
-  { criterion: "Expect a small selection of confirmed rechargeable options", explanation: "This is a genuinely small niche within the category, don't expect the same brand variety available for coin-cell powered alternatives." },
+  {
+    "criterion": "Understand that most LCD writing tablets don't save what you write, and confirm before assuming otherwise",
+    "explanation": "The core technology behind an LCD writing tablet uses pressure-sensitive liquid crystal layers that display a line wherever you press with the stylus, and a single button press clears the entire screen by resetting that pressure pattern, a fundamentally different mechanism from a digital note-taking device that stores what you write as data.\n\nThis means the overwhelming majority of these tablets have no way to save, export, or recover anything once erased, an important expectation to set correctly since the product category name (\"writing tablet\") sounds similar to genuinely different digital notebook devices that do save content.\n\nCheck specifically for the word \"memory\" paired with an actual save or export function, or explicit Bluetooth/app-sync language, rather than assuming any writing tablet preserves your notes, since a basic memory lock button only pauses erasing, it doesn't save content anywhere."
+  },
+  {
+    "criterion": "Don't assume kids' and adult marketing reflects a real functional difference",
+    "explanation": "LCD writing tablets are sold under two distinct marketing approaches, bright, character-branded versions explicitly targeted at children with age-range callouts and educational framing, and plainer, neutral-colored versions marketed toward adults for office notes or quick sketches, but the underlying LCD writing and erase technology is frequently identical between the two at a similar screen size and price point.\n\nThis matters because a buyer specifically shopping for an adult-styled option can end up paying a premium for styling alone if a functionally identical kids' version is available at a lower price, and vice versa for a buyer who assumed the adult version had a more capable writing surface.\n\nCompare the actual specs (screen size, pressure sensitivity, included features) rather than the marketing angle, and don't assume the age-targeted framing correlates with any real technical difference in writing quality."
+  },
+  {
+    "criterion": "Check the battery type and replacement situation before buying",
+    "explanation": "LCD writing tablets use one of two power approaches: a small replaceable coin-cell (button) battery that typically lasts many months of normal use and costs only a couple of dollars to replace when it eventually dies, or a sealed rechargeable battery built into the unit that can't be swapped out and, once it degrades or fails after repeated charge cycles, effectively ends the product's useful life since replacement isn't practical.\n\nThis is a genuinely different long-term ownership tradeoff that isn't always obvious from the listing photos alone, a rechargeable tablet avoids ever buying a replacement battery but has a real end-of-life point built in, while a replaceable-battery tablet can theoretically last indefinitely as long as coin cells remain available.\n\nCheck the listing specifically for battery type, and if a genuinely long product lifespan matters more than charging convenience, favor a replaceable coin-cell design."
+  },
+  {
+    "criterion": "Confirm the screen size accurately reflects the actual writing surface, not the overall unit dimensions",
+    "explanation": "Some listings state a screen size in the product title that refers to the diagonal measurement of the entire unit including its bezel and button area, rather than the actual usable writing surface, which can mean a tablet marketed as a specific size delivers a meaningfully smaller writable area than that number suggests once the bezel is accounted for.\n\nThis matters most for buyers specifically comparing size tiers (deciding between an 8.5, 10, or 12 inch model, for example) since the real usable difference between two adjacent size tiers can be smaller than the headline numbers imply if one listing measures the full unit and another measures just the screen.\n\nCheck the listing's specific dimensions for the writing surface itself where stated, and treat the headline size number as a rough guide rather than an exact usable-area guarantee."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, since this category includes many similar generic listings",
+    "explanation": "The LCD writing tablet category on Amazon includes a large number of very similarly specified products from different, often unfamiliar brand names, frequently manufactured by the same underlying suppliers with different branding and packaging, which means review count and rating patterns can vary widely between listings that are functionally almost identical.\n\nA listing with a strong rating built on a large, genuine review base gives more confidence in real-world durability (a tablet that stops registering pressure correctly in certain screen areas is a common failure mode in this category) than a similar-looking listing with only a handful of reviews.\n\nWhen comparing two similarly priced and specified tablets, check both the star rating and the review count together, and treat an unusually thin review base as a reason for extra caution regardless of how complete the feature list looks."
+  }
 ];
 
 export const faq: FaqItem[] = [

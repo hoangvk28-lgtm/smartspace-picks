@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41t9uG0evoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CYH6VXZ6?tag=deskfinds0d-20",
-    description:
-      "Explicitly marketed for adults with a full 11.5 inch screen, a durable Hall switch erase mechanism, and a plain black case rather than cartoon branding.\n\nThe larger screen size gives real room for longer to-do lists or sketching, a practical upgrade over the smaller kid-focused models common in this category.",
-    specs: ["11.5 inch full-screen display", "Hall switch mechanism", "Tablet case included", "Plain adult styling"],
-    pros: ["Genuinely adult-oriented styling and size", "Hall switch is more durable than a basic button", "Case included for protection", "Ample writing space for lists and sketching"],
-    cons: ["Higher price than compact kid-marketed alternatives", "Does not save notes once erased", "Larger size is less pocketable"],
+    description: "Explicitly marketed for adults with a full 11.5 inch screen, a durable Hall switch erase mechanism, and a plain black case rather than cartoon branding.\n\nIt earns the top spot in this comparison over LCD Writing Tablet for Adult: 6.5 Inch Full Screen Mini Digital Notepad Reusable Small Writing Pad with Hall Switch and Cover Case Portable Use for Office Study Teaching for one main reason. Genuinely adult-oriented styling and size. On price, it's actually priced above LCD Writing Tablet for Adult: 6.5 Inch Full Screen Mini Digital Notepad Reusable Small Writing Pad with Hall Switch and Cover Case Portable Use for Office Study Teaching, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Hall switch is more durable than a basic button. On the other side, Larger size is less pocketable. That's the main tradeoff to weigh against everything above.",
+    specs: ["11.5 inch full-screen display","Hall switch mechanism","Tablet case included","Plain adult styling"],
+    pros: ["Genuinely adult-oriented styling and size","Hall switch is more durable than a basic button","Case included for protection","Ample writing space for lists and sketching"],
+    cons: ["Higher price than compact kid-marketed alternatives","Does not save notes once erased","Larger size is less pocketable"],
     bestFor: "Adults wanting the largest, most feature-complete writing surface in a plain design",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41sZmZ8Lh2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DMD367HJ?tag=deskfinds0d-20",
-    description:
-      "Marketed for adult office and study use, this 6.5 inch mini pad is small enough to carry to meetings without feeling like a novelty toy.\n\nA Hall switch and included cover case keep the package practical for professionals who want a discreet, portable scratchpad.",
-    specs: ["6.5 inch mini screen", "Hall switch mechanism", "Cover case included", "Office and study focused marketing"],
-    pros: ["Genuinely portable for meetings or bags", "Hall switch for durable erase cycles", "Discreet, professional-looking design", "Budget-friendly price"],
-    cons: ["Limited writing space for longer notes", "Does not save notes once erased", "Verify current review data on the listing"],
+    description: "Marketed for adult office and study use, this 6.5 inch mini pad is small enough to carry to meetings without feeling like a novelty toy.\n\nOne spot below LCD Writing Tablet for Adults: 11.5 inch Full Screen Drawing Tablet Reusable Erasable Digital Notepad with Hall Switch and Tablet Case for Gift Birthday in this ranking, it's priced lower than LCD Writing Tablet for Adults: 11.5 inch Full Screen Drawing Tablet Reusable Erasable Digital Notepad with Hall Switch and Tablet Case for Gift Birthday. The compromise here is straightforward: Limited writing space for longer notes. What you gain in return: Genuinely portable for meetings or bags. Whether that trade is worth it depends on which side matters more for you.\n\nWorth knowing before you decide: Hall switch for durable erase cycles. On the other side, Verify current review data on the listing. That's the main tradeoff to weigh against everything above.",
+    specs: ["6.5 inch mini screen","Hall switch mechanism","Cover case included","Office and study focused marketing"],
+    pros: ["Genuinely portable for meetings or bags","Hall switch for durable erase cycles","Discreet, professional-looking design","Budget-friendly price"],
+    cons: ["Limited writing space for longer notes","Does not save notes once erased","Verify current review data on the listing"],
     bestFor: "Adults wanting a discreet, pocketable scratchpad for meetings or office use",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41O05nK72nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CNKJ4SL8?tag=deskfinds0d-20",
-    description:
-      "A plain 9.5 inch screen with no cartoon branding or bright colors, sized as a practical middle ground between the compact mini pads and the largest full-screen options.\n\nAppropriate for adults who want a no-nonsense scratchpad for a desk without paying extra for accessories they may not need.",
-    specs: ["9.5 inch LCD screen", "Plain adult styling", "Single-button erase", "No extra accessories"],
-    pros: ["Balanced mid-size for most adult desk use", "Plain, professional design", "Competitive price for the size", "Simple, dependable operation"],
-    cons: ["No included case or kickstand", "Does not save notes once erased", "Verify current review data on the listing"],
+    description: "A plain 9.5 inch screen with no cartoon branding or bright colors, sized as a practical middle ground between the compact mini pads and the largest full-screen options.\n\nSitting just under LCD Writing Tablet for Adult: 6.5 Inch Full Screen Mini Digital Notepad Reusable Small Writing Pad with Hall Switch and Cover Case Portable Use for Office Study Teaching, it costs more than LCD Writing Tablet for Adult: 6.5 Inch Full Screen Mini Digital Notepad Reusable Small Writing Pad with Hall Switch and Cover Case Portable Use for Office Study Teaching. Here's the honest tradeoff: No included case or kickstand. And here's what it gets you instead: Balanced mid-size for most adult desk use. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Plain, professional design. On the other side, Verify current review data on the listing. That's the main tradeoff to weigh against everything above.",
+    specs: ["9.5 inch LCD screen","Plain adult styling","Single-button erase","No extra accessories"],
+    pros: ["Balanced mid-size for most adult desk use","Plain, professional design","Competitive price for the size","Simple, dependable operation"],
+    cons: ["No included case or kickstand","Does not save notes once erased","Verify current review data on the listing"],
     bestFor: "Adults wanting a straightforward mid-size scratchpad without paying for extras",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41nX4myeBUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B010HWCE0O?tag=deskfinds0d-20",
-    description:
-      "A built-in kickstand lets this stand upright on a desk like a small display, useful for adults who want a visible reminder pad rather than one that lies flat in a drawer.\n\nBoogie Board's established reputation and included stylus make this a dependable option for daily office or home use.",
-    specs: ["8.5 inch LCD screen", "Built-in magnets and kickstand", "Stylus pen included", "Established brand reliability"],
-    pros: ["Kickstand allows upright desk display", "Established Boogie Board brand", "Stylus included out of the box", "Magnetic mounting for fridge or metal surfaces"],
-    cons: ["Higher price than basic alternatives", "Does not save notes once erased", "Pink color may not suit all professional settings"],
+    description: "A built-in kickstand lets this stand upright on a desk like a small display, useful for adults who want a visible reminder pad rather than one that lies flat in a drawer.\n\nRanked just behind LCD Writing Tablet for Adult: 9.5 Inch, it costs more than LCD Writing Tablet for Adult: 9.5 Inch. The real tradeoff against that pick: Higher price than basic alternatives. In exchange, it offers this instead: Kickstand allows upright desk display. That's the swap that decides whether this pick or the one above it is the better fit for how you'll use it.\n\nWorth knowing before you decide: Established Boogie Board brand. On the other side, Pink color may not suit all professional settings. That's the main tradeoff to weigh against everything above.",
+    specs: ["8.5 inch LCD screen","Built-in magnets and kickstand","Stylus pen included","Established brand reliability"],
+    pros: ["Kickstand allows upright desk display","Established Boogie Board brand","Stylus included out of the box","Magnetic mounting for fridge or metal surfaces"],
+    cons: ["Higher price than basic alternatives","Does not save notes once erased","Pink color may not suit all professional settings"],
     bestFor: "Adults wanting a standing desk reminder pad rather than a flat scratchpad",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/415GOWrUsiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B013XFGFZ2?tag=deskfinds0d-20",
-    description:
-      "A no-frills option from the same trusted Boogie Board line, offering reliable instant erase without the added kickstand and magnets of the pricier Jot model.\n\nAppropriate for adults who value brand reliability but want to keep costs down for a simple everyday scratchpad.",
-    specs: ["8.5 inch LCD screen", "Instant single-button erase", "Stylus included", "Boogie Board brand"],
-    pros: ["Trusted brand at a lower price than the Jot", "Simple, reliable erase mechanism", "Stylus included", "Compact 8.5 inch size"],
-    cons: ["No kickstand or magnets", "Does not save notes once erased", "Verify current price on the listing"],
+    description: "A no-frills option from the same trusted Boogie Board line, offering reliable instant erase without the added kickstand and magnets of the pricier Jot model.\n\nOne spot below Boogie Board Jot Reusable Writing Tablet in this ranking, it's priced lower than Boogie Board Jot Reusable Writing Tablet. The compromise here is straightforward: No kickstand or magnets. What you gain in return: Trusted brand at a lower price than the Jot. Whether that trade is worth it depends on which side matters more for you.\n\nWorth knowing before you decide: Simple, reliable erase mechanism. On the other side, Verify current price on the listing. That's the main tradeoff to weigh against everything above.",
+    specs: ["8.5 inch LCD screen","Instant single-button erase","Stylus included","Boogie Board brand"],
+    pros: ["Trusted brand at a lower price than the Jot","Simple, reliable erase mechanism","Stylus included","Compact 8.5 inch size"],
+    cons: ["No kickstand or magnets","Does not save notes once erased","Verify current price on the listing"],
     bestFor: "Adults wanting proven brand reliability without paying for extra mounting hardware",
   },
   {
@@ -115,11 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41PP1beSBsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FS73S8WZ?tag=deskfinds0d-20",
-    description:
-      "A 12 inch bezel-free screen appropriate for adults who want ample room for sketching, planning, or extended notes without a childish design.\n\nUSB Type-C rechargeability is a practical convenience for professionals who already carry a charging cable for other devices.",
-    specs: ["12 inch bezel-free screen", "USB Type-C rechargeable", "Modern slim design", "Large writing surface"],
-    pros: ["Large screen suited to serious note-taking or sketching", "Rechargeable, no coin-cell swaps needed", "Modern, professional bezel-free design", "Reasonable price for the size"],
-    cons: ["Requires periodic recharging", "Does not save notes once erased", "Larger size less pocketable"],
+    description: "A 12 inch bezel-free screen appropriate for adults who want ample room for sketching, planning, or extended notes without a childish design.\n\nSitting just under Boogie Board Basics Reusable Writing Pad, pricing between it and Boogie Board Basics Reusable Writing Pad isn't directly comparable here. Here's the honest tradeoff: Requires periodic recharging. And here's what it gets you instead: Large screen suited to serious note-taking or sketching. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Rechargeable, no coin-cell swaps needed. On the other side, Larger size less pocketable. That's the main tradeoff to weigh against everything above.",
+    specs: ["12 inch bezel-free screen","USB Type-C rechargeable","Modern slim design","Large writing surface"],
+    pros: ["Large screen suited to serious note-taking or sketching","Rechargeable, no coin-cell swaps needed","Modern, professional bezel-free design","Reasonable price for the size"],
+    cons: ["Requires periodic recharging","Does not save notes once erased","Larger size less pocketable"],
     bestFor: "Adults wanting a large, modern-looking screen with USB recharging convenience",
   },
   {
@@ -132,13 +126,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31EkRVyVyBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00E8CIGCA?tag=deskfinds0d-20",
-    description:
-      "The only model in this list with genuine Bluetooth sync, letting adults save handwritten notes to an app before erasing rather than losing them permanently.\n\nDesigned to feel close to paper and pencil in writing texture, appropriate for professionals who take frequent notes they actually need to keep and reference later.",
-    specs: ["Bluetooth sync for note saving", "Paper-like writing feel", "Boogie Board brand", "App-based note storage"],
-    pros: ["Genuine note-saving capability via Bluetooth sync", "Paper-like writing texture", "Established Boogie Board reliability", "Solves the main limitation of plain LCD tablets"],
-    cons: ["Higher price reflecting the added sync technology", "Requires pairing with an app for full functionality", "Verify current price and app compatibility"],
+    description: "The only model in this list with genuine Bluetooth sync, letting adults save handwritten notes to an app before erasing rather than losing them permanently.\n\nRanked just behind 12in Rechargeable LCD Writing Tablet, it's priced lower than 12in Rechargeable LCD Writing Tablet. The real tradeoff against that pick: Higher price reflecting the added sync technology. In exchange, it offers this instead: Genuine note-saving capability via Bluetooth sync. That's the swap that decides whether this pick or the one above it is the better fit for how you'll use it.\n\nWorth knowing before you decide: Paper-like writing texture. On the other side, Verify current price and app compatibility. That's the main tradeoff to weigh against everything above.",
+    specs: ["Bluetooth sync for note saving","Paper-like writing feel","Boogie Board brand","App-based note storage"],
+    pros: ["Genuine note-saving capability via Bluetooth sync","Paper-like writing texture","Established Boogie Board reliability","Solves the main limitation of plain LCD tablets"],
+    cons: ["Higher price reflecting the added sync technology","Requires pairing with an app for full functionality","Verify current price and app compatibility"],
     bestFor: "Adults who genuinely need to save and archive their handwritten notes",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -152,36 +145,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "'For Adults' Often Means Styling, Not Different Technology",
-    note: "Kids' versions often add bright colors and cartoon branding, but the core writing technology is frequently identical to adult-marketed versions at a similar price. Buy based on size and features, not just the label.",
-  },
-  {
-    subheading: "The One Real Functional Difference: Note Saving",
-    note: "If you genuinely need to save and reference notes later, only a Bluetooth sync-capable model like the Boogie Board Sync will work. A plain LCD writing tablet cannot save anything once erased, an important expectation to set before buying.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Best overall adult pick", "11.5 inch Full Screen Adult Tablet"],
-        ["Most portable for meetings", "6.5 Inch Mini Digital Notepad"],
-        ["Balanced mid-size, no frills", "9.5 Inch Adult LCD Writing Tablet"],
-        ["Standing desk display", "Boogie Board Jot with Kickstand"],
-        ["Trusted brand, lower cost", "Boogie Board Basics Reusable Pad"],
-        ["Large screen with USB charging", "12in Rechargeable Type-C Tablet"],
-        ["Need to actually save notes", "Boogie Board Sync with Bluetooth"],
+    "subheading": "By Screen Size",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Most compact and portable",
+          "LCD Writing Tablet for Adult: 6.5 Inch Full Screen Mini Digital Notepad Reusable Small Writing Pad with Hall Switch and Cover Case Portable Use for Office Study Teaching"
+        ],
+        [
+          "Most writing room",
+          "12in Rechargeable LCD Writing Tablet"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $18",
+          "LCD Writing Tablet for Adult: 6.5 Inch Full Screen Mini Digital Notepad Reusable Small Writing Pad with Hall Switch and Cover Case Portable Use for Office Study Teaching"
+        ],
+        [
+          "Mid-range",
+          "LCD Writing Tablet for Adults: 11.5 inch Full Screen Drawing Tablet Reusable Erasable Digital Notepad with Hall Switch and Tablet Case for Gift Birthday"
+        ],
+        [
+          "No firm budget ceiling, prioritizing features or styling",
+          "Boogie Board Jot Reusable Writing Tablet"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Kids-Marketed vs Adult-Marketed",
+    "cards": [
+      {
+        "label": "Kids-Marketed",
+        "text": "Bright colors and character branding, often the same core technology as adult versions at a similar or lower price. In this comparison: check each listing's marketing angle directly."
+      },
+      {
+        "label": "Adult-Marketed",
+        "text": "Neutral styling suited to an office desk, sometimes at a price premium for the plainer look alone. In this comparison: LCD Writing Tablet for Adults: 11.5 inch Full Screen Drawing Tablet Reusable Erasable Digital Notepad with Hall Switch and Tablet Case for Gift Birthday, LCD Writing Tablet for Adult: 6.5 Inch Full Screen Mini Digital Notepad Reusable Small Writing Pad with Hall Switch and Cover Case Portable Use for Office Study Teaching, LCD Writing Tablet for Adult: 9.5 Inch."
+      }
+    ],
+    "note": "Compare the actual specs, not just the marketing angle, since the underlying writing technology is often identical between the two."
+  },
+  {
+    "subheading": "With Memory Lock vs Basic Erase",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Simplest single-button design",
+          "LCD Writing Tablet for Adults: 11.5 inch Full Screen Drawing Tablet Reusable Erasable Digital Notepad with Hall Switch and Tablet Case for Gift Birthday"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Gift-Giving Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear age-range marketing if buying for a specific child, genuine screen size (not just overall unit size), and a replaceable coin-cell battery for the longest useful life."
+      },
+      {
+        "label": "In this comparison",
+        "text": "LCD Writing Tablet for Adults: 11.5 inch Full Screen Drawing Tablet Reusable Erasable Digital Notepad with Hall Switch and Tablet Case for Gift Birthday fits this specifically: Genuinely adult-oriented styling and size."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Boogie Board Jot Reusable Writing Tablet offers: Kickstand allows upright desk display. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "LCD Writing Tablet for Adult: 6.5 Inch Full Screen Mini Digital Notepad Reusable Small Writing Pad with Hall Switch and Cover Case Portable Use for Office Study Teaching already covers the essentials: Genuinely portable for meetings or bags. The main thing you'd be paying extra for elsewhere in this list is styling or accessories you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Don't overpay for 'adult' branding alone", explanation: "The core writing technology is often identical between kids' and adult-marketed versions at similar prices. Choose based on size, mechanism, and features, not the label." },
-  { criterion: "Decide if you need genuine note saving", explanation: "Most LCD writing tablets erase permanently. If you need to keep notes, only a Bluetooth sync model works, plan on that being a separate purchase category if not." },
-  { criterion: "Pick screen size for your actual professional use", explanation: "A 6.5 inch mini pad suits quick meeting notes, while 11.5 inches and up suits detailed planning or sketching at a desk." },
-  { criterion: "Check the erase mechanism for daily durability", explanation: "A Hall switch tends to hold up better under frequent daily office use than a basic button circuit." },
-  { criterion: "Consider mounting needs for desk or wall placement", explanation: "A kickstand or magnetic backing lets the tablet stand or mount rather than lying flat, useful if you want it visible as a reminder." },
+  {
+    "criterion": "Understand that most LCD writing tablets don't save what you write, and confirm before assuming otherwise",
+    "explanation": "The core technology behind an LCD writing tablet uses pressure-sensitive liquid crystal layers that display a line wherever you press with the stylus, and a single button press clears the entire screen by resetting that pressure pattern, a fundamentally different mechanism from a digital note-taking device that stores what you write as data.\n\nThis means the overwhelming majority of these tablets have no way to save, export, or recover anything once erased, an important expectation to set correctly since the product category name (\"writing tablet\") sounds similar to genuinely different digital notebook devices that do save content.\n\nCheck specifically for the word \"memory\" paired with an actual save or export function, or explicit Bluetooth/app-sync language, rather than assuming any writing tablet preserves your notes, since a basic memory lock button only pauses erasing, it doesn't save content anywhere."
+  },
+  {
+    "criterion": "Don't assume kids' and adult marketing reflects a real functional difference",
+    "explanation": "LCD writing tablets are sold under two distinct marketing approaches, bright, character-branded versions explicitly targeted at children with age-range callouts and educational framing, and plainer, neutral-colored versions marketed toward adults for office notes or quick sketches, but the underlying LCD writing and erase technology is frequently identical between the two at a similar screen size and price point.\n\nThis matters because a buyer specifically shopping for an adult-styled option can end up paying a premium for styling alone if a functionally identical kids' version is available at a lower price, and vice versa for a buyer who assumed the adult version had a more capable writing surface.\n\nCompare the actual specs (screen size, pressure sensitivity, included features) rather than the marketing angle, and don't assume the age-targeted framing correlates with any real technical difference in writing quality."
+  },
+  {
+    "criterion": "Check the battery type and replacement situation before buying",
+    "explanation": "LCD writing tablets use one of two power approaches: a small replaceable coin-cell (button) battery that typically lasts many months of normal use and costs only a couple of dollars to replace when it eventually dies, or a sealed rechargeable battery built into the unit that can't be swapped out and, once it degrades or fails after repeated charge cycles, effectively ends the product's useful life since replacement isn't practical.\n\nThis is a genuinely different long-term ownership tradeoff that isn't always obvious from the listing photos alone, a rechargeable tablet avoids ever buying a replacement battery but has a real end-of-life point built in, while a replaceable-battery tablet can theoretically last indefinitely as long as coin cells remain available.\n\nCheck the listing specifically for battery type, and if a genuinely long product lifespan matters more than charging convenience, favor a replaceable coin-cell design."
+  },
+  {
+    "criterion": "Confirm the screen size accurately reflects the actual writing surface, not the overall unit dimensions",
+    "explanation": "Some listings state a screen size in the product title that refers to the diagonal measurement of the entire unit including its bezel and button area, rather than the actual usable writing surface, which can mean a tablet marketed as a specific size delivers a meaningfully smaller writable area than that number suggests once the bezel is accounted for.\n\nThis matters most for buyers specifically comparing size tiers (deciding between an 8.5, 10, or 12 inch model, for example) since the real usable difference between two adjacent size tiers can be smaller than the headline numbers imply if one listing measures the full unit and another measures just the screen.\n\nCheck the listing's specific dimensions for the writing surface itself where stated, and treat the headline size number as a rough guide rather than an exact usable-area guarantee."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, since this category includes many similar generic listings",
+    "explanation": "The LCD writing tablet category on Amazon includes a large number of very similarly specified products from different, often unfamiliar brand names, frequently manufactured by the same underlying suppliers with different branding and packaging, which means review count and rating patterns can vary widely between listings that are functionally almost identical.\n\nA listing with a strong rating built on a large, genuine review base gives more confidence in real-world durability (a tablet that stops registering pressure correctly in certain screen areas is a common failure mode in this category) than a similar-looking listing with only a handful of reviews.\n\nWhen comparing two similarly priced and specified tablets, check both the star rating and the review count together, and treat an unusually thin review base as a reason for extra caution regardless of how complete the feature list looks."
+  }
 ];
 
 export const faq: FaqItem[] = [
