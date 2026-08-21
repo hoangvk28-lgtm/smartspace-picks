@@ -31,10 +31,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41WMggt9RXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B087CZ85GV?tag=deskfinds0d-20",
     description:
-      "An explicit 2500K-6500K adjustable range, genuinely the widest Kelvin span disclosed among the picks in this guide, spanning warm incandescent-like tones through cool daylight, real flexibility for matching whatever ambient light your room has.\n\n9-inch panel with desk stand provides more even coverage than a small ring light, solid review base as evidence of reliable performance.",
-    specs: ["2500K-6500K adjustable color temperature", "9-inch LED panel, desk stand included", "Solid review base", "Wide Kelvin range"],
-    pros: ["Widest disclosed Kelvin range in this guide", "9-inch panel for even coverage", "Solid review base", "Desk stand included, no separate mount needed"],
-    cons: ["Larger footprint than a compact clip-on light", "Higher price than basic ring lights", "CRI not explicitly disclosed"],
+      "An explicit 2500K-6500K adjustable range, genuinely the widest Kelvin span disclosed among the picks in this guide, spanning warm incandescent-like tones through cool daylight, real flexibility for matching whatever ambient light your room has.\\n\\n9-inch panel with desk stand provides more even coverage than a small ring light, solid review base as evidence of reliable performance.\n\nIt leads this comparison mainly on review volume and clip-fit reliability across different monitor types, worth weighing directly against the Zoom Lighting for Computer.\n\n9-inch panel for even coverage. That's a real strength, but weigh it against the flip side: larger footprint than a compact clip-on light.",
+    specs: ["2500K-6500K adjustable color temperature","9-inch LED panel, desk stand included","Solid review base","Wide Kelvin range"],
+    pros: ["Widest disclosed Kelvin range in this guide","9-inch panel for even coverage","Solid review base","Desk stand included, no separate mount needed"],
+    cons: ["Larger footprint than a compact clip-on light","Higher price than basic ring lights","CRI not explicitly disclosed"],
     bestFor: "Buyers who want the widest color temperature range for matching varied ambient light",
   },
   {
@@ -48,10 +48,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Phq+HhoVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D2XMLRL3?tag=deskfinds0d-20",
     description:
-      "A disclosed CRI of 97.8 alongside 30 distinct light modes, genuinely the most granular adjustability in this guide if you want fine control over both color temperature and brightness combinations, not just a wide Kelvin range alone.\n\nSolid review base and rating, real evidence this combination of high CRI and mode count performs well in practice.",
-    specs: ["CRI 97.8, 30 light modes", "Desk ring light with stand", "Adjustable color temperature and brightness combinations", "Solid review base"],
-    pros: ["Explicit high CRI (97.8) disclosed", "30 light modes for granular adjustability", "Solid review base", "Stand included"],
-    cons: ["Kelvin range not as explicitly wide as the RALENO pick", "Higher price than basic clip-on lights", "30 modes may take time to navigate compared to simple presets"],
+      "A disclosed CRI of 97.8 alongside 30 distinct light modes, genuinely the most granular adjustability in this guide if you want fine control over both color temperature and brightness combinations, not just a wide Kelvin range alone.\\n\\nSolid review base and rating, real evidence this combination of high CRI and mode count performs well in practice.\n\nSet against the RALENO 9\" LED Video Light, the tradeoff here comes down to CRI rating and adjustability versus price, not a straightforward upgrade or downgrade either way.\n\nWorth calling out specifically: 30 light modes for granular adjustability. The catch is kelvin range not as explicitly wide as the RALENO pick.",
+    specs: ["CRI 97.8, 30 light modes","Desk ring light with stand","Adjustable color temperature and brightness combinations","Solid review base"],
+    pros: ["Explicit high CRI (97.8) disclosed","30 light modes for granular adjustability","Solid review base","Stand included"],
+    cons: ["Kelvin range not as explicitly wide as the RALENO pick","Higher price than basic clip-on lights","30 modes may take time to navigate compared to simple presets"],
     bestFor: "Buyers who want granular control with a disclosed high CRI rating",
   },
   {
@@ -65,10 +65,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41r5nA1roKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B095741MZS?tag=deskfinds0d-20",
     description:
-      "A large, well-established review base for a desk ring light with adjustable color temperature, genuine real-world evidence of reliable performance across many home office setups.\n\nSpecific Kelvin range not as prominently disclosed as the RALENO pick, but the strong review volume suggests consistent day-to-day satisfaction.",
-    specs: ["Desk ring light with stand", "Adjustable color temperature", "Large, well-established review base", "Computer/video recording focused"],
-    pros: ["Large, well-established review base", "Adjustable color temperature", "Stand included", "Reasonable price"],
-    cons: ["Specific Kelvin range less prominently disclosed", "CRI not disclosed", "Lower rating than the top two picks"],
+      "A large, well-established review base for a desk ring light with adjustable color temperature, genuine real-world evidence of reliable performance across many home office setups.\\n\\nSpecific Kelvin range not as prominently disclosed as the RALENO pick, but the strong review volume suggests consistent day-to-day satisfaction.\n\nRelative to the Zoom Lighting for Computer, this pick leans toward a different priority, whether that's a lower price, a wider color temperature range, or a different power source.\n\nAdjustable color temperature. Set against that, specific Kelvin range less prominently disclosed. Both matter when comparing it to the other picks here.",
+    specs: ["Desk ring light with stand","Adjustable color temperature","Large, well-established review base","Computer/video recording focused"],
+    pros: ["Large, well-established review base","Adjustable color temperature","Stand included","Reasonable price"],
+    cons: ["Specific Kelvin range less prominently disclosed","CRI not disclosed","Lower rating than the top two picks"],
     bestFor: "Buyers who want a well-proven adjustable ring light at a moderate price",
   },
   {
@@ -82,10 +82,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41g7ORMo68L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F4KR9R2D?tag=deskfinds0d-20",
     description:
-      "A larger 10-inch full-screen ring light design with an included phone holder, genuinely more coverage than a small clip-on ring light, appropriate if you also record with a phone alongside webcam calls.\n\nModest review base compared to the top picks, but a reasonable, affordable option for adjustable lighting with a larger light surface.",
-    specs: ["10-inch full-screen LED ring light", "Adjustable color temperature", "Phone holder included", "Stand included"],
-    pros: ["Larger 10-inch light surface for more even coverage", "Phone holder for dual webcam/phone recording use", "Affordable for the size", "Stand included"],
-    cons: ["Modest review base", "Kelvin range and CRI not explicitly disclosed", "Larger footprint than a compact clip-on light"],
+      "A larger 10-inch full-screen ring light design with an included phone holder, genuinely more coverage than a small clip-on ring light, appropriate if you also record with a phone alongside webcam calls.\\n\\nModest review base compared to the top picks, but a reasonable, affordable option for adjustable lighting with a larger light surface.\n\nCompared with the Desk Ring Light with Stand for Computer above, this pick trades some of that pick's proven track record for a different balance of price and features, worth weighing against your own video call setup.\n\nPhone holder for dual webcam/phone recording use. That's a real strength, but weigh it against the flip side: modest review base.",
+    specs: ["10-inch full-screen LED ring light","Adjustable color temperature","Phone holder included","Stand included"],
+    pros: ["Larger 10-inch light surface for more even coverage","Phone holder for dual webcam/phone recording use","Affordable for the size","Stand included"],
+    cons: ["Modest review base","Kelvin range and CRI not explicitly disclosed","Larger footprint than a compact clip-on light"],
     bestFor: "Buyers who want a larger adjustable ring light with phone-recording flexibility",
   },
   {
@@ -99,12 +99,12 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41A4zdsn9bL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08YJPJLFV?tag=deskfinds0d-20",
     description:
-      "5 dimmable color settings at a genuinely affordable price, a solid entry point for adjustable temperature control if you don't need the widest Kelvin range or highest CRI of the premium picks in this guide.\n\nLarge, well-established review base, strong real-world evidence at this price point.",
-    specs: ["Ring light, clip-on", "5 color temperature settings, 5 brightness levels", "Laptop and monitor mount", "Very affordable"],
-    pros: ["Very affordable adjustable-temperature option", "Large, well-established review base", "Clip-on convenience", "5 brightness levels too"],
-    cons: ["Narrower color range than the premium desk-light picks", "CRI not disclosed", "Smaller light surface than dedicated panels"],
+      "5 dimmable color settings at a genuinely affordable price, a solid entry point for adjustable temperature control if you don't need the widest Kelvin range or highest CRI of the premium picks in this guide.\\n\\nLarge, well-established review base, strong real-world evidence at this price point.\n\nSet against the ALTSON 10in Zoom Lighting for Computer, the tradeoff here comes down to CRI rating and adjustability versus price, not a straightforward upgrade or downgrade either way.\n\nWorth calling out specifically: large, well-established review base. The catch is narrower color range than the premium desk-light picks.",
+    specs: ["Ring light, clip-on","5 color temperature settings, 5 brightness levels","Laptop and monitor mount","Very affordable"],
+    pros: ["Very affordable adjustable-temperature option","Large, well-established review base","Clip-on convenience","5 brightness levels too"],
+    cons: ["Narrower color range than the premium desk-light picks","CRI not disclosed","Smaller light surface than dedicated panels"],
     bestFor: "Budget-conscious buyers who want basic adjustable color temperature",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -117,31 +117,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Kelvin Range Width Matters More Than Preset Step Count",
-    note: "Color temperature is measured in Kelvin, a wider adjustable range (like 2500K-6500K, from warm to daylight) matters more for genuinely matching mixed room lighting conditions than simply having a certain number of preset steps within a narrower range. The RALENO pick's explicit 2500K-6500K range is the widest disclosed in this guide.",
-  },
-  {
-    subheading: "Matching Temperature to Your Room's Ambient Light",
-    note: "Adjustable temperature helps you match your face's lighting to your room's ambient light or window daylight, avoiding a mismatched color cast that reads as unnatural on camera even when brightness is otherwise fine. Warmer settings (lower Kelvin) suit incandescent-lit rooms, cooler settings (higher Kelvin) suit daylight or fluorescent-lit spaces.",
-  },
-  {
-    subheading: "CRI and Temperature Adjustability Together",
-    table: {
-      headers: ["Priority", "Pick"],
-      rows: [
-        ["Widest color temperature range", "RALENO 9\" LED, 2500K-6500K (rank 1)"],
-        ["Highest disclosed CRI with adjustability", "Zoom Lighting, CRI 97.8 (rank 2)"],
-        ["Budget adjustable option", "5-Color 5-Brightness Ring Light (rank 5)"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "RALENO 9\" LED Video Light"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Video Conference Lighting Kit"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $18",
+          "Video Conference Lighting Kit"
+        ],
+        [
+          "Up to $40",
+          "RALENO 9\" LED Video Light"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Clip-On vs Stand-Mounted",
+    "cards": [
+      {
+        "label": "Clip-on",
+        "text": "Attaches directly to your monitor or laptop, no extra desk footprint. In this comparison: ALTSON 10in Zoom Lighting for Computer, Video Conference Lighting Kit."
+      },
+      {
+        "label": "Stand-mounted",
+        "text": "More flexible positioning, but takes up desk space. In this comparison: RALENO 9\" LED Video Light, Zoom Lighting for Computer, Desk Ring Light with Stand for Computer."
+      }
+    ],
+    "note": "Default to clip-on unless you need more flexible positioning than a screen-mounted clip allows."
+  },
+  {
+    "subheading": "By Color Temperature Adjustability",
+    "note": "Check each pick's listed color temperature range in Kelvin against your room's existing ambient lighting before buying, not just brightness alone. Video Conference Lighting Kit is the most-reviewed option here if you want the safer bet."
+  },
+  {
+    "subheading": "For Accurate Skin Tone on Camera Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A disclosed CRI rating of 95 or higher, not just brightness or wattage figures, since CRI is what actually determines how natural skin tone looks on camera."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Zoom Lighting for Computer discloses a CRI rating worth checking before buying."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Accurate color rendering and adjustability matter for how you look on calls, where RALENO 9\" LED Video Light's features give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need basic supplemental lighting for occasional calls, where Video Conference Lighting Kit covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Kelvin range width matters more than preset step count", explanation: "A wider adjustable range (like 2500K-6500K) matters more for genuinely matching varied ambient lighting conditions than simply having many preset steps within a narrower range." },
-  { criterion: "Adjustable temperature avoids a mismatched color cast on camera", explanation: "Matching your light's color temperature to your room's ambient light or window daylight avoids an unnatural-looking color mismatch, even when brightness itself is adequate." },
-  { criterion: "CRI and temperature adjustability solve different problems together", explanation: "A wide Kelvin range helps match ambient light conditions, while a high CRI ensures accurate color rendering at whatever temperature you choose, look for both if color accuracy matters." },
-  { criterion: "More light modes offer finer control but take longer to navigate", explanation: "A light with many distinct modes (like 30) offers granular control over exact temperature/brightness combinations, but takes more time to dial in than a simpler preset system." },
+  {
+    "criterion": "Check CRI rating, since it matters more than brightness for how you actually look on camera",
+    "explanation": "CRI (Color Rendering Index) measures how accurately a light source renders true colors and skin tones compared to natural daylight, on a scale up to 100, and a high CRI (95 or above) genuinely matters more for looking natural on a video call than raw brightness or a wide color temperature adjustment range, since a low-CRI light can wash out or distort skin tone even at high brightness.\n\nThis matters directly if how you look on video calls is the actual reason you're buying a light, many budget listings bury or simply omit the CRI number entirely, which is itself a signal worth noting.\n\nCheck the listing specifically for a stated CRI number, not just brightness or wattage figures, and treat the absence of a CRI spec as a gap worth weighing against picks that do disclose it."
+  },
+  {
+    "criterion": "Verify clip mechanism thickness range against your specific monitor or laptop screen",
+    "explanation": "A clip-on light's mounting mechanism has a maximum and minimum screen thickness it can grip securely, and this range varies between products, some fit a slim modern monitor bezel while others are sized for a thicker laptop lid or an older, bulkier monitor edge.\n\nThis matters directly because a clip too narrow for your screen won't close securely, and one mismatched for a thin edge risks slipping or not gripping firmly enough to hold the light's position through a call.\n\nMeasure your specific screen or laptop lid thickness and compare it against the exact clip range stated in the product specs before ordering, rather than assuming any clip-on light works universally."
+  },
+  {
+    "criterion": "Consider color temperature adjustability for matching your room's existing lighting",
+    "explanation": "A fixed color temperature light can clash visibly with your room's existing ambient lighting, warm incandescent bulbs versus cooler daylight-toned overhead lighting, creating an unnatural, mismatched look on camera, while an adjustable-temperature light lets you dial in a tone that blends with your actual room.\n\nThis matters more if your workspace has mixed or warm-toned ambient lighting you can't easily change, less if you're in a neutral or daylight-lit space already.\n\nCheck whether the color temperature is adjustable and across what range (measured in Kelvin), and consider your room's existing lighting tone before assuming any light will look natural in your specific setup."
+  },
+  {
+    "criterion": "Weigh battery power against a wired connection for your actual desk setup",
+    "explanation": "A battery-powered light avoids running an extra cable across your desk and can be repositioned freely, but it requires remembering to charge it and eventually degrades in battery capacity over time, while a USB-powered wired light stays reliably powered for as long as it's plugged in but adds one more cable to manage.\n\nThis matters more if you already have limited USB ports or cable routing on your desk, or conversely if portability and cable-free positioning matter more to you.\n\nCheck the listing for power source and, if battery-powered, the stated runtime on a full charge, comparing that against how long your typical video call sessions actually run."
+  },
+  {
+    "criterion": "Check adjustable brightness range for varying room lighting conditions throughout the day",
+    "explanation": "A room's ambient light changes meaningfully between a bright afternoon and a dim evening, and a light with only one or two brightness settings can be uncomfortably harsh in a dark room or barely noticeable in a bright one, while a wider, steplessly adjustable brightness range lets you match the light to the actual conditions at the moment of your call.\n\nThis matters more if you take calls at varying times of day with different natural light levels, less if your workspace has consistent lighting year-round.\n\nCheck the listing for the specific brightness adjustment range and whether it's stepped or continuously dimmable, not just the maximum brightness figure alone."
+  }
 ];
 
 export const faq: FaqItem[] = [
