@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "44,144 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41J41Z-k38L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09F2XPJ47?tag=deskfinds0d-20",
-    description:
-      "Flat plug for genuine flush-wall clearance, paired with 8 outlets, 4 USB ports, and real 2700 joule surge protection. Large, well-established review base.\n\nThe strip body itself still needs desk or floor space beyond the plug, the flat plug only solves the wall-outlet connection point.",
-    specs: ["8 outlets, 4 USB ports, flat plug", "2700 joules, ETL listed", "6ft cord", "Large review base"],
-    pros: ["Flat plug for genuine flush-wall clearance", "Genuine 2700 joule surge protection", "4 USB ports included", "Large, well-established review base"],
-    cons: ["Strip body still needs its own placement space", "Fixed-angle plug, verify outlet orientation compatibility", "No USB-C port"],
+    description: "Flat plug for genuine flush-wall clearance, paired with 8 outlets, 4 USB ports, and real 2700 joule surge protection. Large, well-established review base.\n\nIt earns the top spot in this comparison over Surge Protector Power Strip 15 Ft Cord for one main reason. Flat plug for genuine flush-wall clearance. On price, it comes in below Surge Protector Power Strip 15 Ft Cord, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Genuine 2700 joule surge protection. On the other side, No USB-C port. That's the main tradeoff to weigh against everything above.",
+    specs: ["8 outlets, 4 USB ports, flat plug","2700 joules, ETL listed","6ft cord","Large review base"],
+    pros: ["Flat plug for genuine flush-wall clearance","Genuine 2700 joule surge protection","4 USB ports included","Large, well-established review base"],
+    cons: ["Strip body still needs its own placement space","Fixed-angle plug, verify outlet orientation compatibility","No USB-C port"],
     bestFor: "Buyers with furniture flush against the wall needing flat-plug clearance",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "6,431 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41J0Gowt80L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CHMG5XHM?tag=deskfinds0d-20",
-    description:
-      "A genuinely long 15ft braided cord with a flat plug, useful if your furniture is both flush against the wall and far from where you need the strip itself. 2 USB-C ports among 4 total.\n\nUltra-thin cord design genuinely helps route behind furniture without creating a visible bulge.",
-    specs: ["8 outlets, 4 USB ports (2 USB-C), flat plug", "15ft braided cord", "Ultra thin design", "Strong rating base"],
-    pros: ["Genuinely long 15ft cord for distant placement", "Ultra-thin design reduces behind-furniture bulge", "2 USB-C ports included", "Strong rating base"],
-    cons: ["Verify fixed vs. rotating plug orientation for your outlet", "Ultra-thin design may affect durability over time", "Higher price than basic flat-plug picks"],
+    description: "A genuinely long 15ft braided cord with a flat plug, useful if your furniture is both flush against the wall and far from where you need the strip itself. 2 USB-C ports among 4 total.\n\nOne spot below Surge Protector Power Strip in this ranking, it costs more than Surge Protector Power Strip. The compromise here is straightforward: Verify fixed vs. rotating plug orientation for your outlet. What you gain in return: Genuinely long 15ft cord for distant placement. Whether that trade is worth it depends on which side matters more for your needs.\n\nWorth knowing before you decide: Ultra-thin design reduces behind-furniture bulge. On the other side, Higher price than basic flat-plug picks. That's the main tradeoff to weigh against everything above.",
+    specs: ["8 outlets, 4 USB ports (2 USB-C), flat plug","15ft braided cord","Ultra thin design","Strong rating base"],
+    pros: ["Genuinely long 15ft cord for distant placement","Ultra-thin design reduces behind-furniture bulge","2 USB-C ports included","Strong rating base"],
+    cons: ["Verify fixed vs. rotating plug orientation for your outlet","Ultra-thin design may affect durability over time","Higher price than basic flat-plug picks"],
     bestFor: "Buyers whose flush-mounted furniture sits far from where the strip needs to be",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "12,978 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31jROJAJWBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B1DKN9HG?tag=deskfinds0d-20",
-    description:
-      "A genuinely affordable flat-plug option with 900 joules of disclosed surge protection, appropriate for basic behind-furniture placement without needing a large joule budget. Solid review base.\n\nCheck this specific listing's plug orientation (fixed vs. rotating) against your wall outlet's orientation before assuming a flush fit.",
-    specs: ["900 joules, flat plug", "5ft cord", "Solid review base", "Budget-friendly"],
-    pros: ["Very affordable", "Genuine 900 joule surge protection disclosed", "Solid review base", "Compact flat-plug design"],
-    cons: ["Lower joule rating than higher-capacity picks", "No USB ports", "Verify plug orientation for your outlet"],
+    description: "A genuinely affordable flat-plug option with 900 joules of disclosed surge protection, appropriate for basic behind-furniture placement without needing a large joule budget. Solid review base.\n\nSitting just under Surge Protector Power Strip 15 Ft Cord, it's priced lower than Surge Protector Power Strip 15 Ft Cord. Here's the honest tradeoff: Lower joule rating than higher-capacity picks. And here's what it gets you instead: Very affordable. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Genuine 900 joule surge protection disclosed. On the other side, Verify plug orientation for your outlet. That's the main tradeoff to weigh against everything above.",
+    specs: ["900 joules, flat plug","5ft cord","Solid review base","Budget-friendly"],
+    pros: ["Very affordable","Genuine 900 joule surge protection disclosed","Solid review base","Compact flat-plug design"],
+    cons: ["Lower joule rating than higher-capacity picks","No USB ports","Verify plug orientation for your outlet"],
     bestFor: "Budget-conscious buyers who want basic flat-plug clearance with disclosed surge protection",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "8,127 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41eM1NkEevL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DC6GXZSV?tag=deskfinds0d-20",
-    description:
-      "8 outlets and 2 USB-C ports among 4 total, at a genuinely affordable price with a braided cord for durability behind furniture. ETL listed.\n\nStrip body footprint still needs its own placement space beyond the flat plug's wall clearance, plan accordingly.",
-    specs: ["8 outlets, 4 USB ports (2 USB-C), flat plug", "5ft braided cord", "ETL listed", "Very affordable"],
-    pros: ["Very affordable for the outlet and USB-C count", "Braided cord for durability", "ETL listed", "8 outlets for a full setup"],
-    cons: ["Strip body still needs its own space", "Shorter cord than the long-cord alternative", "Verify plug orientation compatibility"],
+    description: "8 outlets and 2 USB-C ports among 4 total, at a genuinely affordable price with a braided cord for durability behind furniture. ETL listed.\n\nRanked just behind One Beat Surge Protector Power Strip, it's priced lower than One Beat Surge Protector Power Strip. The real tradeoff against that pick: Strip body still needs its own space. In exchange, it offers this instead: Very affordable for the outlet and USB-C count. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: Braided cord for durability. On the other side, Verify plug orientation compatibility. That's the main tradeoff to weigh against everything above.",
+    specs: ["8 outlets, 4 USB ports (2 USB-C), flat plug","5ft braided cord","ETL listed","Very affordable"],
+    pros: ["Very affordable for the outlet and USB-C count","Braided cord for durability","ETL listed","8 outlets for a full setup"],
+    cons: ["Strip body still needs its own space","Shorter cord than the long-cord alternative","Verify plug orientation compatibility"],
     bestFor: "Budget-conscious buyers who want high outlet count with flat-plug clearance",
   },
   {
@@ -98,13 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "6,583 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31LXOWiw2vL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZ254SSR?tag=deskfinds0d-20",
-    description:
-      "A 10ft cord with a flat plug, a genuine middle ground between the standard 5-6ft picks and the longer 15ft option, useful for medium-distance behind-furniture routing. Strong rating base.\n\nCheck the specific bend radius at the plug itself, real behind-furniture clearance depends on this, not just plug thinness.",
-    specs: ["10ft cord, flat plug", "Surge protector included", "Strong rating base", "Extended cord length"],
-    pros: ["10ft cord bridges the gap between short and very long options", "Strong rating base", "Genuine surge protection", "Reasonable price"],
-    cons: ["Verify bend radius at the plug for true flush fit", "Outlet count not as high as dedicated multi-outlet picks", "No USB ports confirmed"],
+    description: "A 10ft cord with a flat plug, a genuine middle ground between the standard 5-6ft picks and the longer 15ft option, useful for medium-distance behind-furniture routing. Strong rating base.\n\nOne spot below Surge Protector Power Strip in this ranking, it costs more than Surge Protector Power Strip. The compromise here is straightforward: Verify bend radius at the plug for true flush fit. What you gain in return: 10ft cord bridges the gap between short and very long options. Whether that trade is worth it depends on which side matters more for your needs.\n\nWorth knowing before you decide: Strong rating base. On the other side, No USB ports confirmed. That's the main tradeoff to weigh against everything above.",
+    specs: ["10ft cord, flat plug","Surge protector included","Strong rating base","Extended cord length"],
+    pros: ["10ft cord bridges the gap between short and very long options","Strong rating base","Genuine surge protection","Reasonable price"],
+    cons: ["Verify bend radius at the plug for true flush fit","Outlet count not as high as dedicated multi-outlet picks","No USB ports confirmed"],
     bestFor: "Buyers who need a medium-length flat-plug cord for behind-furniture placement",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -117,31 +112,128 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "A Flat Plug Doesn't Shrink the Strip Body",
-    note: "Flat-plug design solves a specific clearance problem, furniture flush against the wall, but doesn't address the strip body's own clearance needs. A flat plug allows the cord to exit close to the wall, but the power strip itself still needs space to sit, plan for both when placing behind furniture.",
-  },
-  {
-    subheading: "Check Your Outlet Orientation Before Buying a Fixed Plug",
-    note: "Flat plugs come in rotating and fixed-angle variants. A fixed flat plug oriented for a standard vertical outlet may not sit flush against a horizontally oriented outlet, more common in some regions or building codes. Verify your specific outlet orientation before assuming any flat plug fits flush.",
-  },
-  {
-    subheading: "Matching Cord Length to Your Furniture Layout",
-    table: {
-      headers: ["Distance to placement", "Pick"],
-      rows: [
-        ["Standard, close to the wall", "Nuetsa Flat Plug (rank 1) or CHCORE (rank 4)"],
-        ["Medium distance", "SUPERDANNY 10ft (rank 5)"],
-        ["Far from the outlet", "15ft Braided Flat Plug (rank 2)"],
+    "subheading": "By Outlet Count",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Compact, fewer outlets needed",
+          "Surge Protector Power Strip"
+        ],
+        [
+          "Maximum outlet capacity",
+          "Surge Protector Power Strip"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $10",
+          "Surge Protector Power Strip"
+        ],
+        [
+          "Mid-range",
+          "SUPERDANNY Extension Cord"
+        ],
+        [
+          "No firm budget ceiling, prioritizing outlets or surge protection",
+          "Surge Protector Power Strip 15 Ft Cord"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "USB-C PD Charging vs Outlets Only",
+    "cards": [
+      {
+        "label": "USB-C PD Charging",
+        "text": "Charges laptops and higher-power devices faster directly from the strip, without a separate charging brick. In this comparison: Surge Protector Power Strip 15 Ft Cord, Surge Protector Power Strip."
+      },
+      {
+        "label": "AC Outlets Only",
+        "text": "Simpler design focused purely on outlet count, pair with your own chargers as needed. In this comparison: Surge Protector Power Strip, One Beat Surge Protector Power Strip, SUPERDANNY Extension Cord."
+      }
+    ]
+  },
+  {
+    "subheading": "By Surge Protection Level",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest joule rating for surge protection",
+          "Surge Protector Power Strip"
+        ],
+        [
+          "Basic protection, lower cost",
+          "Surge Protector Power Strip"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Bulky Wall-Wart Adapters Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Wide or offset outlet spacing explicitly mentioned in the listing or shown in product photos, not just a high raw outlet count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Surge Protector Power Strip 15 Ft Cord fits this specifically: Genuinely long 15ft cord for distant placement."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Surge Protector Power Strip 15 Ft Cord offers: Genuinely long 15ft cord for distant placement. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Surge Protector Power Strip already covers the essentials: Very affordable for the outlet and USB-C count. The main thing you'd be paying extra for elsewhere in this list is capacity or charging speed you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "A flat plug solves outlet-connection clearance only", explanation: "A flat plug allows the cord to exit close to the wall, but the power strip body itself still needs space to sit, don't assume it solves all tight-clearance placement needs." },
-  { criterion: "Verify rotating vs. fixed-angle plug against your outlet orientation", explanation: "A fixed flat plug designed for a standard vertical outlet may not sit flush against a horizontally oriented outlet, check your specific outlet orientation before buying." },
-  { criterion: "Real behind-furniture fit depends on cord bend radius, not just plug thinness", explanation: "The cord's bend radius right at the flat plug determines true flush clearance behind furniture, a practical fit-check beyond simply showing the plug thinness against a wall." },
-  { criterion: "Behind-furniture placement traps heat and dust", explanation: "The exact scenario flat plugs are marketed for, behind a dresser or entertainment center, creates the same heat and dust exposure considerations as other enclosed mounting scenarios." },
+  {
+    "criterion": "Understand that a power strip and a surge protector are not automatically the same thing",
+    "explanation": "A basic power strip simply splits one wall outlet into several without any electrical protection built in, while a genuine surge protector includes internal components (commonly metal oxide varistors) that absorb and redirect a sudden voltage spike before it reaches your connected electronics, and a joule rating, when stated, quantifies roughly how much total surge energy those components can absorb before needing replacement.\n\nThis distinction matters because these two product types are frequently sold side by side with visually similar designs, and a strip without stated surge protection provides zero defense against the kind of voltage spike that can damage a laptop charger, a monitor, or other sensitive electronics during a storm or grid fluctuation.\n\nCheck the listing specifically for a stated joule rating and the words \"surge protector,\" not just \"power strip,\" if protecting connected electronics is part of why you're buying one."
+  },
+  {
+    "criterion": "Confirm your specific mounting method's compatible dimensions before assuming it fits your setup",
+    "explanation": "Power strips designed to mount rather than simply sit on a surface, clamp-on models that grip a desk edge, wall-mount models secured with screws, and under-desk models that attach to the underside of a desk, each have documented compatible dimension ranges (desk edge thickness for clamps, screw spacing for wall mounts) that don't universally fit every desk or wall, so a mounting design being the right general category doesn't guarantee it fits your specific setup.\n\nThis is a genuinely easy detail to overlook when focused on outlet count and features, but a clamp rated for a specific edge thickness range that doesn't match your desk, or wall-mount screw spacing that doesn't align with your available wall studs, means the mounting mechanism simply won't work regardless of how good the strip itself is.\n\nMeasure your actual desk edge, wall spacing, or under-desk clearance and compare it directly against the product's stated compatible range before ordering."
+  },
+  {
+    "criterion": "Check combined USB wattage and port count against how many devices you actually charge at once",
+    "explanation": "USB charging ports on a power strip vary meaningfully in both count and total combined wattage output, and this total wattage gets shared or allocated across all connected devices simultaneously, meaning a strip advertising a high total wattage figure with many ports can still deliver notably less power to any single device if several are charging at the same time compared to a strip with fewer ports but the same total wattage.\n\nUSB-C ports supporting Power Delivery (PD) can charge laptops and other higher-power devices meaningfully faster than basic USB-A ports, which are typically limited to lower wattage output regardless of what's plugged in.\n\nCount how many devices you'll realistically charge simultaneously and check both the per-port and total combined wattage figures, not just the raw port count, especially if laptop charging via USB-C is part of your actual use case."
+  },
+  {
+    "criterion": "Check outlet spacing if you regularly plug in bulky wall adapters",
+    "explanation": "Standard AC outlet spacing on a power strip assumes typical plug sizes, but bulky wall-wart style adapters (common for routers, some monitors, and certain chargers) can be wide enough to block one or even two adjacent outlets entirely, a real practical problem that a strip's total outlet count doesn't reflect if several of your devices use oversized plugs.\n\nSome strips specifically design wider outlet spacing or offset outlet positioning to accommodate this, a detail worth checking if your actual device mix includes multiple bulky adapters rather than assuming raw outlet count translates directly to usable outlet count.\n\nCount how many of your actual devices use oversized wall-wart adapters, and check listing photos or reviews specifically mentioning outlet spacing if that describes your setup."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, since safety-critical categories deserve extra scrutiny",
+    "explanation": "Power strips and surge protectors are electrical safety products, not just convenience accessories, and a listing with a strong rating built on a large, genuine review history provides meaningfully more confidence in consistent manufacturing quality and long-term reliability than a similar-looking product with only a handful of reviews, particularly relevant here since a failure mode in this category (a short, an internal fire risk) has real consequences beyond simple product disappointment.\n\nThis doesn't mean every lesser-reviewed product is unsafe, but it does mean the safety and durability claims on a thin-review listing carry less independently verified weight for a category where that verification genuinely matters.\n\nCheck for independent safety certification (UL or ETL listing) as a baseline requirement regardless of review count, and additionally weigh review depth more heavily here than you might for a lower-stakes product category."
+  }
 ];
 
 export const faq: FaqItem[] = [

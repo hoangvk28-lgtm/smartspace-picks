@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "2,224 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41by4E3zbML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09YYDSGLK?tag=deskfinds0d-20",
-    description:
-      "An explicit IPX6 rating genuinely substantiates a stronger weatherproof claim than a generic label, this is a rating for strong water-jet resistance, not full submersion. UL listed with overload protection, wall mountable.\n\nIPX6 means splash and jet resistance, not submersion resistance, don't place this in standing water or fully submerged locations despite the strong weatherproof rating.",
-    specs: ["IPX6 rated (jet/splash resistance, not submersion)", "UL listed, 6 wide outlets", "6ft cord, wall mountable", "Overload protection"],
-    pros: ["Explicit IPX6 rating substantiates the weatherproof claim", "UL listed for verified safety", "Wall mountable for permanent outdoor installation", "Wide outlet spacing"],
-    cons: ["IPX6 is splash/jet resistance, not submersion resistance", "Cord entry point sealing quality not independently tested", "GFCI still required at the source outlet separately"],
+    description: "An explicit IPX6 rating genuinely substantiates a stronger weatherproof claim than a generic label, this is a rating for strong water-jet resistance, not full submersion. UL listed with overload protection, wall mountable.\n\nIt earns the top spot in this comparison over Iwister Outdoor Power Strip Weatherproof for one main reason. Explicit IPX6 rating substantiates the weatherproof claim. On price, it's actually priced above Iwister Outdoor Power Strip Weatherproof, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: UL listed for verified safety. On the other side, GFCI still required at the source outlet separately. That's the main tradeoff to weigh against everything above.",
+    specs: ["IPX6 rated (jet/splash resistance, not submersion)","UL listed, 6 wide outlets","6ft cord, wall mountable","Overload protection"],
+    pros: ["Explicit IPX6 rating substantiates the weatherproof claim","UL listed for verified safety","Wall mountable for permanent outdoor installation","Wide outlet spacing"],
+    cons: ["IPX6 is splash/jet resistance, not submersion resistance","Cord entry point sealing quality not independently tested","GFCI still required at the source outlet separately"],
     bestFor: "Buyers who want a verifiably rated weatherproof strip for splash-exposed outdoor locations",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "255 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51TaI4FfoCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G8GN8PMS?tag=deskfinds0d-20",
-    description:
-      "A more affordable weatherproof option with 3 outlets, appropriate for lighter outdoor decoration needs. Weatherproof housing without an explicit IP rating disclosed on this listing.\n\nWithout a stated IP number, treat 'weatherproof' cautiously and avoid direct rain or spray exposure until you can verify the actual rating.",
-    specs: ["3 AC outlets, weatherproof housing", "5ft cord", "Compact design", "Budget-friendly"],
-    pros: ["More affordable than the top pick", "Compact for lighter outdoor decoration needs", "Reasonable rating base for a newer product", "Simple, focused design"],
-    cons: ["No explicit IP rating number disclosed", "Fewer outlets than the top pick", "Verify cord entry sealing quality independently"],
+    description: "A more affordable weatherproof option with 3 outlets, appropriate for lighter outdoor decoration needs. Weatherproof housing without an explicit IP rating disclosed on this listing.\n\nOne spot below IPX6 Outdoor Power Strip Weatherproof in this ranking, it's priced lower than IPX6 Outdoor Power Strip Weatherproof. The compromise here is straightforward: No explicit IP rating number disclosed. What you gain in return: More affordable than the top pick. Whether that trade is worth it depends on which side matters more for your needs.\n\nWorth knowing before you decide: Compact for lighter outdoor decoration needs. On the other side, Verify cord entry sealing quality independently. That's the main tradeoff to weigh against everything above.",
+    specs: ["3 AC outlets, weatherproof housing","5ft cord","Compact design","Budget-friendly"],
+    pros: ["More affordable than the top pick","Compact for lighter outdoor decoration needs","Reasonable rating base for a newer product","Simple, focused design"],
+    cons: ["No explicit IP rating number disclosed","Fewer outlets than the top pick","Verify cord entry sealing quality independently"],
     bestFor: "Budget-conscious buyers with light, occasional outdoor decoration needs",
   },
   {
@@ -64,13 +62,12 @@ export const products: GuideProduct[] = [
     reviews: "5,517 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/516J9Te+EVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09NLW5HMX?tag=deskfinds0d-20",
-    description:
-      "Genuinely addresses the cord-entry vulnerability directly, this is a waterproof box specifically designed to seal an existing plug connection point, the exact weak spot that a 'fully sealed' strip housing alone doesn't solve. Large, well-established review base.\n\nPair this with any outdoor power strip to weatherproof the actual plug connection, the point most vulnerable to water ingress even on an otherwise well-sealed strip.",
-    specs: ["Waterproof outdoor electrical box", "Seals existing plug connection points", "Large, well-established review base", "Complements any outdoor strip"],
-    pros: ["Directly addresses the cord-entry water-ingress vulnerability", "Large, well-established review base", "Complements any outdoor power strip", "Reasonable price"],
-    cons: ["Doesn't add outlets itself", "Not a standalone weatherproof power strip", "Verify it fits your specific plug and cord dimensions"],
+    description: "Genuinely addresses the cord-entry vulnerability directly, this is a waterproof box specifically designed to seal an existing plug connection point, the exact weak spot that a 'fully sealed' strip housing alone doesn't solve. Large, well-established review base.\n\nSitting just under Iwister Outdoor Power Strip Weatherproof, it costs more than Iwister Outdoor Power Strip Weatherproof. Here's the honest tradeoff: Doesn't add outlets itself. And here's what it gets you instead: Directly addresses the cord-entry water-ingress vulnerability. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Large, well-established review base. On the other side, Verify it fits your specific plug and cord dimensions. That's the main tradeoff to weigh against everything above.",
+    specs: ["Waterproof outdoor electrical box","Seals existing plug connection points","Large, well-established review base","Complements any outdoor strip"],
+    pros: ["Directly addresses the cord-entry water-ingress vulnerability","Large, well-established review base","Complements any outdoor power strip","Reasonable price"],
+    cons: ["Doesn't add outlets itself","Not a standalone weatherproof power strip","Verify it fits your specific plug and cord dimensions"],
     bestFor: "Buyers who want to directly address the cord-entry vulnerability on their outdoor setup",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -83,24 +80,109 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Cord Entry Points Are the Real Weak Spot",
-    note: "Fully sealed weatherproof strips still have cord entry and exit points that are the most common failure point for water ingress. A weatherproof strip's main body may be well-sealed while the cord grommet or entry seal is the actual weak point over time, this component-level detail is rarely tested separately in most product listings.",
+    "subheading": "By Outlet Count",
+    "note": "Outlet count isn't consistently confirmed across every pick in this comparison; check each listing's product details directly."
   },
   {
-    subheading: "Splash Resistance Is Not Submersion Resistance",
-    note: "Submersion resistance, if claimed, is a materially different and higher standard than splash or rain resistance. IPX6 (like the top pick) indicates strong water-jet resistance, not full submersion protection, don't place any IPX6-rated product in standing water or near a pool edge expecting submersion-level protection.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $18",
+          "Iwister Outdoor Power Strip Weatherproof"
+        ],
+        [
+          "Mid-range",
+          "Flemoon Large Outdoor Electrical Box Waterproof"
+        ],
+        [
+          "No firm budget ceiling, prioritizing outlets or surge protection",
+          "IPX6 Outdoor Power Strip Weatherproof"
+        ]
+      ]
+    }
   },
   {
-    subheading: "GFCI Code Compliance Still Applies Regardless of Weatherproofing",
-    note: "As with any outdoor power strip, no amount of product-level weatherproofing substitutes for proper GFCI-protected source circuit wiring per electrical code, verify your source outlet separately regardless of which weatherproof strip you choose.",
+    "subheading": "USB-C PD Charging vs Outlets Only",
+    "cards": [
+      {
+        "label": "USB-C PD Charging",
+        "text": "Charges laptops and higher-power devices faster directly from the strip, without a separate charging brick. In this comparison: check each listing's port types directly."
+      },
+      {
+        "label": "AC Outlets Only",
+        "text": "Simpler design focused purely on outlet count, pair with your own chargers as needed. In this comparison: IPX6 Outdoor Power Strip Weatherproof, Iwister Outdoor Power Strip Weatherproof, Flemoon Large Outdoor Electrical Box Waterproof."
+      }
+    ]
   },
+  {
+    "subheading": "By Surge Protection Level",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Check each listing's stated joule rating directly",
+          "surge protection level isn't consistently confirmed here"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Bulky Wall-Wart Adapters Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Wide or offset outlet spacing explicitly mentioned in the listing or shown in product photos, not just a high raw outlet count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "IPX6 Outdoor Power Strip Weatherproof fits this specifically: Explicit IPX6 rating substantiates the weatherproof claim."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what IPX6 Outdoor Power Strip Weatherproof offers: Explicit IPX6 rating substantiates the weatherproof claim. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Iwister Outdoor Power Strip Weatherproof already covers the essentials: More affordable than the top pick. The main thing you'd be paying extra for elsewhere in this list is capacity or charging speed you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Cord entry points are the real vulnerability, not the main housing", explanation: "A weatherproof strip's main body may be well-sealed while the cord grommet or entry seal is the actual weak point for water intrusion over time, a detail rarely tested separately from overall housing seal claims." },
-  { criterion: "Splash resistance and submersion resistance are different standards", explanation: "IP ratings distinguish splash resistance (lower IPX4-5 range) from actual water immersion resistance (IPX7+), don't assume a splash-rated product provides submersion-level protection near pools or standing water." },
-  { criterion: "UV-stabilized housing matters for long-term permanent outdoor installation", explanation: "A weatherproof strip installed permanently outdoors benefits from UV-stabilized plastic housing to avoid brittleness and cracking from sustained sun exposure over a season." },
-  { criterion: "GFCI code compliance applies regardless of the strip's own weatherproofing", explanation: "No amount of product-level weatherproofing substitutes for proper GFCI-protected source circuit wiring per electrical code for outdoor circuits." },
+  {
+    "criterion": "Understand that a power strip and a surge protector are not automatically the same thing",
+    "explanation": "A basic power strip simply splits one wall outlet into several without any electrical protection built in, while a genuine surge protector includes internal components (commonly metal oxide varistors) that absorb and redirect a sudden voltage spike before it reaches your connected electronics, and a joule rating, when stated, quantifies roughly how much total surge energy those components can absorb before needing replacement.\n\nThis distinction matters because these two product types are frequently sold side by side with visually similar designs, and a strip without stated surge protection provides zero defense against the kind of voltage spike that can damage a laptop charger, a monitor, or other sensitive electronics during a storm or grid fluctuation.\n\nCheck the listing specifically for a stated joule rating and the words \"surge protector,\" not just \"power strip,\" if protecting connected electronics is part of why you're buying one."
+  },
+  {
+    "criterion": "Confirm your specific mounting method's compatible dimensions before assuming it fits your setup",
+    "explanation": "Power strips designed to mount rather than simply sit on a surface, clamp-on models that grip a desk edge, wall-mount models secured with screws, and under-desk models that attach to the underside of a desk, each have documented compatible dimension ranges (desk edge thickness for clamps, screw spacing for wall mounts) that don't universally fit every desk or wall, so a mounting design being the right general category doesn't guarantee it fits your specific setup.\n\nThis is a genuinely easy detail to overlook when focused on outlet count and features, but a clamp rated for a specific edge thickness range that doesn't match your desk, or wall-mount screw spacing that doesn't align with your available wall studs, means the mounting mechanism simply won't work regardless of how good the strip itself is.\n\nMeasure your actual desk edge, wall spacing, or under-desk clearance and compare it directly against the product's stated compatible range before ordering."
+  },
+  {
+    "criterion": "Check combined USB wattage and port count against how many devices you actually charge at once",
+    "explanation": "USB charging ports on a power strip vary meaningfully in both count and total combined wattage output, and this total wattage gets shared or allocated across all connected devices simultaneously, meaning a strip advertising a high total wattage figure with many ports can still deliver notably less power to any single device if several are charging at the same time compared to a strip with fewer ports but the same total wattage.\n\nUSB-C ports supporting Power Delivery (PD) can charge laptops and other higher-power devices meaningfully faster than basic USB-A ports, which are typically limited to lower wattage output regardless of what's plugged in.\n\nCount how many devices you'll realistically charge simultaneously and check both the per-port and total combined wattage figures, not just the raw port count, especially if laptop charging via USB-C is part of your actual use case."
+  },
+  {
+    "criterion": "Check outlet spacing if you regularly plug in bulky wall adapters",
+    "explanation": "Standard AC outlet spacing on a power strip assumes typical plug sizes, but bulky wall-wart style adapters (common for routers, some monitors, and certain chargers) can be wide enough to block one or even two adjacent outlets entirely, a real practical problem that a strip's total outlet count doesn't reflect if several of your devices use oversized plugs.\n\nSome strips specifically design wider outlet spacing or offset outlet positioning to accommodate this, a detail worth checking if your actual device mix includes multiple bulky adapters rather than assuming raw outlet count translates directly to usable outlet count.\n\nCount how many of your actual devices use oversized wall-wart adapters, and check listing photos or reviews specifically mentioning outlet spacing if that describes your setup."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, since safety-critical categories deserve extra scrutiny",
+    "explanation": "Power strips and surge protectors are electrical safety products, not just convenience accessories, and a listing with a strong rating built on a large, genuine review history provides meaningfully more confidence in consistent manufacturing quality and long-term reliability than a similar-looking product with only a handful of reviews, particularly relevant here since a failure mode in this category (a short, an internal fire risk) has real consequences beyond simple product disappointment.\n\nThis doesn't mean every lesser-reviewed product is unsafe, but it does mean the safety and durability claims on a thin-review listing carry less independently verified weight for a category where that verification genuinely matters.\n\nCheck for independent safety certification (UL or ETL listing) as a baseline requirement regardless of review count, and additionally weigh review depth more heavily here than you might for a lower-stakes product category."
+  }
 ];
 
 export const faq: FaqItem[] = [

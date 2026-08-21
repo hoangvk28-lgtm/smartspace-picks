@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "16,442 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41EOcD4mKhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B083JKSSR5?tag=deskfinds0d-20",
-    description:
-      "Genuinely independent per-outlet control across 3 outlets, not just a whole-strip toggle, a real capability advantage over budget smart strips. Works with Alexa and Google Home without a separate hub required.\n\nSurge protector included alongside smart control, a genuine combination rather than smart features alone.",
-    specs: ["3 individually controlled smart outlets, 2 USB ports", "Works with Alexa and Google Home, no hub", "Surge protector included", "Large review base"],
-    pros: ["Genuinely independent per-outlet control, not whole-strip only", "No separate smart home hub required", "Surge protector included", "Large, well-established review base"],
-    cons: ["Only 3 outlets are individually smart-controlled", "Cloud dependency risk if manufacturer discontinues app support", "No Matter compatibility confirmed"],
+    description: "Genuinely independent per-outlet control across 3 outlets, not just a whole-strip toggle, a real capability advantage over budget smart strips. Works with Alexa and Google Home without a separate hub required.\n\nIt earns the top spot in this comparison over Tapo Smart Wi-Fi Power Strip for one main reason. Genuinely independent per-outlet control, not whole-strip only. On price, it comes in below Tapo Smart Wi-Fi Power Strip, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: No separate smart home hub required. On the other side, No Matter compatibility confirmed. That's the main tradeoff to weigh against everything above.",
+    specs: ["3 individually controlled smart outlets, 2 USB ports","Works with Alexa and Google Home, no hub","Surge protector included","Large review base"],
+    pros: ["Genuinely independent per-outlet control, not whole-strip only","No separate smart home hub required","Surge protector included","Large, well-established review base"],
+    cons: ["Only 3 outlets are individually smart-controlled","Cloud dependency risk if manufacturer discontinues app support","No Matter compatibility confirmed"],
     bestFor: "Buyers who want genuine independent per-outlet smart control without a hub",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "283 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41R2pqpQJxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F5LNYTR7?tag=deskfinds0d-20",
-    description:
-      "Matter compatibility genuinely future-proofs this pick across Apple Home, Google Home, Alexa, and more, rather than locking you into a single proprietary app ecosystem. 6 individually controlled outlets plus energy monitoring.\n\nHigher price reflects the premium feature set, worth it if multi-ecosystem compatibility and energy tracking matter to you.",
-    specs: ["6 individually controlled outlets, 3 USB ports", "Matter compatible", "Energy monitoring, surge protection", "Works with Alexa, Google Assistant, Siri, Bixby"],
-    pros: ["Matter compatibility for genuine multi-ecosystem future-proofing", "6 fully independent smart outlets", "Energy monitoring included", "Surge protection alongside smart features"],
-    cons: ["Highest price in this guide", "Smaller review base as a newer product", "Cloud dependency risk still applies for remote features"],
+    description: "Matter compatibility genuinely future-proofs this pick across Apple Home, Google Home, Alexa, and more, rather than locking you into a single proprietary app ecosystem. 6 individually controlled outlets plus energy monitoring.\n\nOne spot below kasa smart Plug Power Strip KP303 in this ranking, it costs more than kasa smart Plug Power Strip KP303. The compromise here is straightforward: Highest price in this guide. What you gain in return: Matter compatibility for genuine multi-ecosystem future-proofing. Whether that trade is worth it depends on which side matters more for your needs.\n\nWorth knowing before you decide: 6 fully independent smart outlets. On the other side, Cloud dependency risk still applies for remote features. That's the main tradeoff to weigh against everything above.",
+    specs: ["6 individually controlled outlets, 3 USB ports","Matter compatible","Energy monitoring, surge protection","Works with Alexa, Google Assistant, Siri, Bixby"],
+    pros: ["Matter compatibility for genuine multi-ecosystem future-proofing","6 fully independent smart outlets","Energy monitoring included","Surge protection alongside smart features"],
+    cons: ["Highest price in this guide","Smaller review base as a newer product","Cloud dependency risk still applies for remote features"],
     bestFor: "Buyers who want Matter compatibility and won't be locked into one smart home ecosystem",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "631 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31XSIHgsrBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C453CLSY?tag=deskfinds0d-20",
-    description:
-      "6 individually controlled outlets plus 3 USB ports including a USB-C, genuinely independent per-outlet control from an established brand. Works with Alexa specifically, verify this fits your smart home ecosystem before buying.\n\nAlexa-only compatibility is a real limitation if your household uses Google Home or Apple HomeKit instead.",
-    specs: ["6 individually controlled outlets, 3 USB ports (incl. 1 USB-C)", "Alexa only, WiFi 2.4GHz", "No hub required", "Amazon Basics brand"],
-    pros: ["6 genuinely independent smart outlets", "Includes a USB-C port", "No hub required", "Established Amazon Basics brand"],
-    cons: ["Alexa-only, not compatible with Google Home or Apple HomeKit", "Lower rating than the top picks", "Higher price relative to its review count"],
+    description: "6 individually controlled outlets plus 3 USB ports including a USB-C, genuinely independent per-outlet control from an established brand. Works with Alexa specifically, verify this fits your smart home ecosystem before buying.\n\nSitting just under Tapo Smart Wi-Fi Power Strip, it's priced lower than Tapo Smart Wi-Fi Power Strip. Here's the honest tradeoff: Alexa-only, not compatible with Google Home or Apple HomeKit. And here's what it gets you instead: 6 genuinely independent smart outlets. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Includes a USB-C port. On the other side, Higher price relative to its review count. That's the main tradeoff to weigh against everything above.",
+    specs: ["6 individually controlled outlets, 3 USB ports (incl. 1 USB-C)","Alexa only, WiFi 2.4GHz","No hub required","Amazon Basics brand"],
+    pros: ["6 genuinely independent smart outlets","Includes a USB-C port","No hub required","Established Amazon Basics brand"],
+    cons: ["Alexa-only, not compatible with Google Home or Apple HomeKit","Lower rating than the top picks","Higher price relative to its review count"],
     bestFor: "Alexa-focused households who want 6 independently controlled smart outlets",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "621 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31pcjVZGZoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CYGSFFFW?tag=deskfinds0d-20",
-    description:
-      "Works with Apple HomeKit, Alexa, and Google Home simultaneously, genuinely broader compatibility than single-ecosystem smart strips. 3 individual smart outlets plus a smart night light feature.\n\n18W fast charging on the USB-C port is a real step up from the basic charging speeds common on most smart strips.",
-    specs: ["3 individual smart outlets, 1 USB-C, 2 USB-A", "18W fast charging", "Works with Apple HomeKit, Alexa, Google Home", "Smart night light feature"],
-    pros: ["Compatible with Apple HomeKit, Alexa, and Google Home", "18W fast USB-C charging, genuinely faster than basic strips", "3 independent smart outlets", "Compact outlet extender form factor"],
-    cons: ["Smaller review base as a newer product", "Fewer outlets than larger smart strips", "No Matter compatibility explicitly confirmed"],
+    description: "Works with Apple HomeKit, Alexa, and Google Home simultaneously, genuinely broader compatibility than single-ecosystem smart strips. 3 individual smart outlets plus a smart night light feature.\n\nRanked just behind Amazon Basics Smart Plug Power Strip with 6 Individually Controlled Outlets and 3 USB Ports, it's priced lower than Amazon Basics Smart Plug Power Strip with 6 Individually Controlled Outlets and 3 USB Ports. The real tradeoff against that pick: Smaller review base as a newer product. In exchange, it offers this instead: Compatible with Apple HomeKit, Alexa, and Google Home. That's the swap that decides whether this pick or the one above it is the better fit for your setup.\n\nWorth knowing before you decide: 18W fast USB-C charging, genuinely faster than basic strips. On the other side, No Matter compatibility explicitly confirmed. That's the main tradeoff to weigh against everything above.",
+    specs: ["3 individual smart outlets, 1 USB-C, 2 USB-A","18W fast charging","Works with Apple HomeKit, Alexa, Google Home","Smart night light feature"],
+    pros: ["Compatible with Apple HomeKit, Alexa, and Google Home","18W fast USB-C charging, genuinely faster than basic strips","3 independent smart outlets","Compact outlet extender form factor"],
+    cons: ["Smaller review base as a newer product","Fewer outlets than larger smart strips","No Matter compatibility explicitly confirmed"],
     bestFor: "Buyers who want broad smart home ecosystem compatibility in a compact form factor",
   },
   {
@@ -98,13 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "1,864 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41YbTChnPVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B5G6MDQ6?tag=deskfinds0d-20",
-    description:
-      "A genuinely useful mix of 4 smart-controlled outlets and 4 always-on outlets, appropriate if you want smart control for lamps or accessories while keeping a router or NAS always powered without accidental app-triggered shutoff.\n\nWorks with Alexa and Google Home, 8 outlets total plus 4 USB ports for a well-rounded desk setup.",
-    specs: ["4 smart outlets, 4 always-on outlets", "4 USB ports", "Alexa and Google Home compatible", "8 outlets total"],
-    pros: ["Genuine mix of smart and always-on outlets avoids accidental shutoff risk", "8 total outlets plus 4 USB ports", "Works with Alexa and Google Home", "Reasonable price for the feature set"],
-    cons: ["Only half the outlets are smart-controlled", "Smaller review base than the top picks", "No Matter compatibility confirmed"],
+    description: "A genuinely useful mix of 4 smart-controlled outlets and 4 always-on outlets, appropriate if you want smart control for lamps or accessories while keeping a router or NAS always powered without accidental app-triggered shutoff.\n\nOne spot below TP-Link Tapo Smart Plug Outlet Extender in this ranking, it's priced lower than TP-Link Tapo Smart Plug Outlet Extender. The compromise here is straightforward: Only half the outlets are smart-controlled. What you gain in return: Genuine mix of smart and always-on outlets avoids accidental shutoff risk. Whether that trade is worth it depends on which side matters more for your needs.\n\nWorth knowing before you decide: 8 total outlets plus 4 USB ports. On the other side, No Matter compatibility confirmed. That's the main tradeoff to weigh against everything above.",
+    specs: ["4 smart outlets, 4 always-on outlets","4 USB ports","Alexa and Google Home compatible","8 outlets total"],
+    pros: ["Genuine mix of smart and always-on outlets avoids accidental shutoff risk","8 total outlets plus 4 USB ports","Works with Alexa and Google Home","Reasonable price for the feature set"],
+    cons: ["Only half the outlets are smart-controlled","Smaller review base than the top picks","No Matter compatibility confirmed"],
     bestFor: "Buyers who want smart control for some devices while keeping critical equipment always powered",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -117,32 +112,109 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Independent Per-Outlet Control vs. Whole-Strip Toggle",
-    note: "Some smart power strips only allow toggling the entire strip as one unit, others provide fully independent app or voice control per individual outlet. This is a significant functional difference for buyers wanting to control specific devices separately, verify which capability a specific pick actually offers.",
+    "subheading": "By Outlet Count",
+    "note": "Outlet count isn't consistently confirmed across every pick in this comparison; check each listing's product details directly."
   },
   {
-    subheading: "Cloud Dependency Is a Real Long-Term Risk",
-    note: "Unlike a basic mechanical power strip, smart strips relying on manufacturer cloud infrastructure for app control can lose remote functionality, sometimes permanently, if the company shuts down services. This is a long-term reliability risk worth weighing against the convenience smart features offer.",
-  },
-  {
-    subheading: "Matching Picks to Your Smart Home Ecosystem",
-    table: {
-      headers: ["Ecosystem", "Pick"],
-      rows: [
-        ["Apple HomeKit, Alexa, and Google Home", "TP-Link Tapo P306 (rank 4)"],
-        ["Matter compatibility, future-proofing", "Tapo P316M (rank 2)"],
-        ["Alexa-only household", "Amazon Basics Smart Plug (rank 3)"],
-        ["Mix of smart and always-on outlets", "POWSAV WiFi (rank 5)"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $25",
+          "kasa smart Plug Power Strip KP303"
+        ],
+        [
+          "Mid-range",
+          "TP-Link Tapo Smart Plug Outlet Extender"
+        ],
+        [
+          "No firm budget ceiling, prioritizing outlets or surge protection",
+          "Tapo Smart Wi-Fi Power Strip"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "USB-C PD Charging vs Outlets Only",
+    "cards": [
+      {
+        "label": "USB-C PD Charging",
+        "text": "Charges laptops and higher-power devices faster directly from the strip, without a separate charging brick. In this comparison: Amazon Basics Smart Plug Power Strip with 6 Individually Controlled Outlets and 3 USB Ports, TP-Link Tapo Smart Plug Outlet Extender."
+      },
+      {
+        "label": "AC Outlets Only",
+        "text": "Simpler design focused purely on outlet count, pair with your own chargers as needed. In this comparison: kasa smart Plug Power Strip KP303, Tapo Smart Wi-Fi Power Strip, POWSAV 6 Ft WiFi Surge Protector."
+      }
+    ]
+  },
+  {
+    "subheading": "By Surge Protection Level",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Check each listing's stated joule rating directly",
+          "surge protection level isn't consistently confirmed here"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Bulky Wall-Wart Adapters Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Wide or offset outlet spacing explicitly mentioned in the listing or shown in product photos, not just a high raw outlet count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Tapo Smart Wi-Fi Power Strip fits this specifically: Matter compatibility for genuine multi-ecosystem future-proofing."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Tapo Smart Wi-Fi Power Strip offers: Matter compatibility for genuine multi-ecosystem future-proofing. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "kasa smart Plug Power Strip KP303 already covers the essentials: Genuinely independent per-outlet control, not whole-strip only. The main thing you'd be paying extra for elsewhere in this list is capacity or charging speed you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify independent per-outlet control, not just whole-strip toggle", explanation: "Some smart power strips only allow toggling the entire strip as one unit, a meaningful capability difference from genuinely independent per-outlet control, check which one a specific pick offers." },
-  { criterion: "Cloud dependency risks long-term functionality loss", explanation: "Smart strips relying on manufacturer cloud infrastructure can lose remote functionality if the company discontinues services, a risk basic mechanical power strips don't carry." },
-  { criterion: "Matter compatibility future-proofs against ecosystem lock-in", explanation: "Newer smart power strips supporting the Matter standard work across Apple Home, Google Home, Alexa, and Samsung SmartThings simultaneously, avoiding lock-in to a single proprietary app." },
-  { criterion: "Mixed smart and always-on outlets prevent accidental critical-device shutoff", explanation: "A strip with both smart and always-on outlets lets you keep a router or NAS always powered while still getting smart control for lamps or accessories on other outlets." },
+  {
+    "criterion": "Understand that a power strip and a surge protector are not automatically the same thing",
+    "explanation": "A basic power strip simply splits one wall outlet into several without any electrical protection built in, while a genuine surge protector includes internal components (commonly metal oxide varistors) that absorb and redirect a sudden voltage spike before it reaches your connected electronics, and a joule rating, when stated, quantifies roughly how much total surge energy those components can absorb before needing replacement.\n\nThis distinction matters because these two product types are frequently sold side by side with visually similar designs, and a strip without stated surge protection provides zero defense against the kind of voltage spike that can damage a laptop charger, a monitor, or other sensitive electronics during a storm or grid fluctuation.\n\nCheck the listing specifically for a stated joule rating and the words \"surge protector,\" not just \"power strip,\" if protecting connected electronics is part of why you're buying one."
+  },
+  {
+    "criterion": "Confirm your specific mounting method's compatible dimensions before assuming it fits your setup",
+    "explanation": "Power strips designed to mount rather than simply sit on a surface, clamp-on models that grip a desk edge, wall-mount models secured with screws, and under-desk models that attach to the underside of a desk, each have documented compatible dimension ranges (desk edge thickness for clamps, screw spacing for wall mounts) that don't universally fit every desk or wall, so a mounting design being the right general category doesn't guarantee it fits your specific setup.\n\nThis is a genuinely easy detail to overlook when focused on outlet count and features, but a clamp rated for a specific edge thickness range that doesn't match your desk, or wall-mount screw spacing that doesn't align with your available wall studs, means the mounting mechanism simply won't work regardless of how good the strip itself is.\n\nMeasure your actual desk edge, wall spacing, or under-desk clearance and compare it directly against the product's stated compatible range before ordering."
+  },
+  {
+    "criterion": "Check combined USB wattage and port count against how many devices you actually charge at once",
+    "explanation": "USB charging ports on a power strip vary meaningfully in both count and total combined wattage output, and this total wattage gets shared or allocated across all connected devices simultaneously, meaning a strip advertising a high total wattage figure with many ports can still deliver notably less power to any single device if several are charging at the same time compared to a strip with fewer ports but the same total wattage.\n\nUSB-C ports supporting Power Delivery (PD) can charge laptops and other higher-power devices meaningfully faster than basic USB-A ports, which are typically limited to lower wattage output regardless of what's plugged in.\n\nCount how many devices you'll realistically charge simultaneously and check both the per-port and total combined wattage figures, not just the raw port count, especially if laptop charging via USB-C is part of your actual use case."
+  },
+  {
+    "criterion": "Check outlet spacing if you regularly plug in bulky wall adapters",
+    "explanation": "Standard AC outlet spacing on a power strip assumes typical plug sizes, but bulky wall-wart style adapters (common for routers, some monitors, and certain chargers) can be wide enough to block one or even two adjacent outlets entirely, a real practical problem that a strip's total outlet count doesn't reflect if several of your devices use oversized plugs.\n\nSome strips specifically design wider outlet spacing or offset outlet positioning to accommodate this, a detail worth checking if your actual device mix includes multiple bulky adapters rather than assuming raw outlet count translates directly to usable outlet count.\n\nCount how many of your actual devices use oversized wall-wart adapters, and check listing photos or reviews specifically mentioning outlet spacing if that describes your setup."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, since safety-critical categories deserve extra scrutiny",
+    "explanation": "Power strips and surge protectors are electrical safety products, not just convenience accessories, and a listing with a strong rating built on a large, genuine review history provides meaningfully more confidence in consistent manufacturing quality and long-term reliability than a similar-looking product with only a handful of reviews, particularly relevant here since a failure mode in this category (a short, an internal fire risk) has real consequences beyond simple product disappointment.\n\nThis doesn't mean every lesser-reviewed product is unsafe, but it does mean the safety and durability claims on a thin-review listing carry less independently verified weight for a category where that verification genuinely matters.\n\nCheck for independent safety certification (UL or ETL listing) as a baseline requirement regardless of review count, and additionally weigh review depth more heavily here than you might for a lower-stakes product category."
+  }
 ];
 
 export const faq: FaqItem[] = [
