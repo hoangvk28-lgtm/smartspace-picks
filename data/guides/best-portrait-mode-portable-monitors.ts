@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "366 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41h7EpKDjyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D95P19CT?tag=deskfinds0d-20",
-    description:
-      "This built-in aluminum stand genuinely adjusts from 0-75 degrees and explicitly supports portrait mode, a real hinge-based rotation rather than a fixed-angle cover. Its 16:10 aspect ratio gives roughly 11% more vertical content than a 15.6-inch 16:9 panel even before rotating, useful for reading long documents in landscape too.\n\nSwitching to portrait still means manually adjusting display orientation in your OS settings, this monitor doesn't auto-sense the rotation the way a phone would.",
-    specs: ["16-inch 1920x1200, 16:10, portrait-capable stand", "Stand adjusts 0°-75°", "Dual USB-C + mini-HDMI", "1.58 lb"],
-    pros: ["Genuine hinge-based portrait rotation, not just a fixed cover", "16:10 ratio gives extra vertical space even in landscape", "Aluminum build", "Reasonable price"],
-    cons: ["No auto-rotate sensor, manual OS toggle required", "Modest review base", "Portrait mode reduces horizontal pixels to 1200, cramped for wide spreadsheets"],
+    description: "This built-in aluminum stand genuinely adjusts from 0-75 degrees and explicitly supports portrait mode, a real hinge-based rotation rather than a fixed-angle cover. Its 16:10 aspect ratio gives roughly 11% more vertical content than a 15.6-inch 16:9 panel even before rotating, useful for reading long documents in landscape too.\n\nIt earns the top spot in this comparison over FLYTOCCA Portable Monitor for one main reason. Genuine hinge-based portrait rotation, not just a fixed cover. On price, it's actually priced above FLYTOCCA Portable Monitor, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: 16:10 ratio gives extra vertical space even in landscape. On the other side, Portrait mode reduces horizontal pixels to 1200, cramped for wide spreadsheets. That's the main tradeoff to weigh against everything above.",
+    specs: ["16-inch 1920x1200, 16:10, portrait-capable stand","Stand adjusts 0°-75°","Dual USB-C + mini-HDMI","1.58 lb"],
+    pros: ["Genuine hinge-based portrait rotation, not just a fixed cover","16:10 ratio gives extra vertical space even in landscape","Aluminum build","Reasonable price"],
+    cons: ["No auto-rotate sensor, manual OS toggle required","Modest review base","Portrait mode reduces horizontal pixels to 1200, cramped for wide spreadsheets"],
     bestFor: "Buyers who want a genuinely rotating stand and don't mind manually toggling orientation",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "541 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/410ssUZzq7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQGQW8YH?tag=deskfinds0d-20",
-    description:
-      "This listing is unusually direct about the auto-rotate limitation: its own product description explicitly states \"auto-rotation is not supported\" and instructs you to manually adjust display orientation in your laptop settings, exactly the disclosure most competitors bury or omit. The stand itself does genuinely rotate 360 degrees between landscape and portrait.\n\nBuilt-in speakers and a headphone jack are a genuine bonus, though speaker direction will face sideways once rotated to portrait, worth knowing before relying on them for audio in that orientation.",
-    specs: ["16-inch FHD 1200P, 360° rotating stand", "Dual USB-C + HDMI + USB-A", "Built-in speakers + 3.5mm jack", "1.62 lb"],
-    pros: ["Explicitly discloses the manual-toggle auto-rotate limitation upfront", "Genuine 360° rotating stand", "Built-in speakers and headphone jack", "Reasonable price"],
-    cons: ["No auto-rotate sensor, confirmed manual OS toggle required", "Speaker direction changes when rotated to portrait", "Modest review base"],
+    description: "This listing is unusually direct about the auto-rotate limitation: its own product description explicitly states \"auto-rotation is not supported\" and instructs you to manually adjust display orientation in your laptop settings, exactly the disclosure most competitors bury or omit. The stand itself does genuinely rotate 360 degrees between landscape and portrait.\n\nOne spot below Veout 16\" Portable Monitor for Laptop in this ranking, it's priced lower than Veout 16\" Portable Monitor for Laptop. The compromise here is straightforward: No auto-rotate sensor, confirmed manual OS toggle required. What you gain in return: Explicitly discloses the manual-toggle auto-rotate limitation upfront. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Genuine 360° rotating stand. On the other side, Modest review base. That's the main tradeoff to weigh against everything above.",
+    specs: ["16-inch FHD 1200P, 360° rotating stand","Dual USB-C + HDMI + USB-A","Built-in speakers + 3.5mm jack","1.62 lb"],
+    pros: ["Explicitly discloses the manual-toggle auto-rotate limitation upfront","Genuine 360° rotating stand","Built-in speakers and headphone jack","Reasonable price"],
+    cons: ["No auto-rotate sensor, confirmed manual OS toggle required","Speaker direction changes when rotated to portrait","Modest review base"],
     bestFor: "Buyers who appreciate upfront honesty about the manual rotation limitation",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "280 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/516bgjlqsGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GN697Y3C?tag=deskfinds0d-20",
-    description:
-      "A detachable 360-degree rotating stand doubles as a mouse pad when removed, a genuinely useful dual-purpose design not seen elsewhere in this guide. Like the FLYTOCCA pick, manual OS orientation toggling is required, no auto-rotate sensor here either.\n\nHighest rating of the dedicated portrait-focused picks in this guide, worth considering if the detachable stand design appeals to you.",
-    specs: ["16-inch 1200P FHD, detachable 360° stand", "Smart cover doubles as mouse pad", "Type-C or HDMI+USB-A connection", "1.5 lb"],
-    pros: ["Highest rating among the portrait-focused picks", "Detachable stand doubles as a mouse pad", "Genuine 360° rotation", "Light and slim"],
-    cons: ["Manual OS toggle required, no auto-rotate sensor", "Smaller review base", "1200P resolution, not the sharpest option"],
+    description: "A detachable 360-degree rotating stand doubles as a mouse pad when removed, a genuinely useful dual-purpose design not seen elsewhere in this guide. Like the FLYTOCCA pick, manual OS orientation toggling is required, no auto-rotate sensor here either.\n\nSitting just under FLYTOCCA Portable Monitor, it costs more than FLYTOCCA Portable Monitor. Here's the honest tradeoff: Manual OS toggle required, no auto-rotate sensor. And here's what it gets you instead: Highest rating among the portrait-focused picks. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Detachable stand doubles as a mouse pad. On the other side, 1200P resolution, not the sharpest option. That's the main tradeoff to weigh against everything above.",
+    specs: ["16-inch 1200P FHD, detachable 360° stand","Smart cover doubles as mouse pad","Type-C or HDMI+USB-A connection","1.5 lb"],
+    pros: ["Highest rating among the portrait-focused picks","Detachable stand doubles as a mouse pad","Genuine 360° rotation","Light and slim"],
+    cons: ["Manual OS toggle required, no auto-rotate sensor","Smaller review base","1200P resolution, not the sharpest option"],
     bestFor: "Buyers who want a detachable, dual-purpose rotating stand",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "82 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/414VyKmpPFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FXX3416Q?tag=deskfinds0d-20",
-    description:
-      "This newer KYY model's integrated kickstand supports 65-degree forward/back tilt and a full 90-degree rotation for landscape-to-portrait switching without unplugging cables, a genuinely convenient mechanical design. A single circular control button also manages brightness and volume without digging into an OSD menu.\n\nStill no auto-rotate sensor, you'll need to manually change the display orientation setting on your source device after rotating the stand.",
-    specs: ["15.6-inch, 65° tilt + 90° rotation stand", "One-button brightness/volume control", "Dual USB-C + mini-HDMI", "1.65 lb, aluminum alloy"],
-    pros: ["Rotates without unplugging cables", "One-button control for quick brightness/volume adjustment", "Aluminum build quality", "Highest rating among the newer picks"],
-    cons: ["Still requires manual OS orientation toggle", "Smaller review count reflects a newer listing", "Mini-HDMI only"],
+    description: "This newer KYY model's integrated kickstand supports 65-degree forward/back tilt and a full 90-degree rotation for landscape-to-portrait switching without unplugging cables, a genuinely convenient mechanical design. A single circular control button also manages brightness and volume without digging into an OSD menu.\n\nRanked just behind Orfibz 16\" Portable Monitor, it's priced lower than Orfibz 16\" Portable Monitor. The real tradeoff against that pick: Still requires manual OS orientation toggle. In exchange, it offers this instead: Rotates without unplugging cables. That's the swap that decides whether this pick or the one above it is the better fit for your source device.\n\nWorth knowing before you decide: One-button control for quick brightness/volume adjustment. On the other side, Mini-HDMI only. That's the main tradeoff to weigh against everything above.",
+    specs: ["15.6-inch, 65° tilt + 90° rotation stand","One-button brightness/volume control","Dual USB-C + mini-HDMI","1.65 lb, aluminum alloy"],
+    pros: ["Rotates without unplugging cables","One-button control for quick brightness/volume adjustment","Aluminum build quality","Highest rating among the newer picks"],
+    cons: ["Still requires manual OS orientation toggle","Smaller review count reflects a newer listing","Mini-HDMI only"],
     bestFor: "Buyers who want the most convenient physical rotation mechanism with cable-free switching",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "11,984 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/5130Dsp2DML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9NNWXVP?tag=deskfinds0d-20",
-    description:
-      "This listing explicitly names a Portrait Mode among its Copy/Extended/Second-Screen display mode toggle, a rare direct confirmation at this budget price point. The cover-stand still needs to be physically repositioned by hand, and OS orientation still needs a manual toggle.\n\nA reasonable budget option if you want confirmed portrait mode support without paying for the pricier picks above.",
-    specs: ["15.6-inch FHD, explicit Portrait Mode listed", "Dual USB-C + HDMI", "Smart cover stand", "Lowest price in this guide"],
-    pros: ["Explicitly lists Portrait Mode as a supported display mode", "Lowest price in this guide", "Large review base", "HDR mode included"],
-    cons: ["Cover-stand requires manual repositioning", "No auto-rotate sensor", "Basic 1080p color accuracy"],
+    description: "This listing explicitly names a Portrait Mode among its Copy/Extended/Second-Screen display mode toggle, a rare direct confirmation at this budget price point. The cover-stand still needs to be physically repositioned by hand, and OS orientation still needs a manual toggle.\n\nOne spot below KYY Portable Monitor for Laptop in this ranking, it's priced lower than KYY Portable Monitor for Laptop. The compromise here is straightforward: Cover-stand requires manual repositioning. What you gain in return: Explicitly lists Portrait Mode as a supported display mode. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Lowest price in this guide. On the other side, Basic 1080p color accuracy. That's the main tradeoff to weigh against everything above.",
+    specs: ["15.6-inch FHD, explicit Portrait Mode listed","Dual USB-C + HDMI","Smart cover stand","Lowest price in this guide"],
+    pros: ["Explicitly lists Portrait Mode as a supported display mode","Lowest price in this guide","Large review base","HDR mode included"],
+    cons: ["Cover-stand requires manual repositioning","No auto-rotate sensor","Basic 1080p color accuracy"],
     bestFor: "Budget-focused buyers who want confirmed portrait mode support",
   },
   {
@@ -115,11 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "13,090 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51T7K-COzIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B088D8JG3L?tag=deskfinds0d-20",
-    description:
-      "This listing confirms it \"can work in both landscape and portrait mode,\" but relies on the same magnetic fold-out cover as its landscape setup, with only two fixed angle grooves rather than a genuinely adjustable rotating hinge. Portrait mode here means propping the cover differently, not a smooth continuous rotation.\n\nStill the most reviewed monitor in this guide, worth considering if you don't need a refined rotation mechanism and just want portrait mode to technically work.",
-    specs: ["15.6-inch 1080P, portrait mode via cover repositioning", "Two fixed angle grooves", "2x USB-C + mini-HDMI", "1.7 lb"],
-    pros: ["Largest review base in this guide", "Confirmed to support portrait orientation", "Cheap and proven", "Slim and light"],
-    cons: ["Portrait via cover repositioning, not a smooth rotating hinge", "Only two fixed viewing angles", "No auto-rotate sensor"],
+    description: "This listing confirms it \"can work in both landscape and portrait mode,\" but relies on the same magnetic fold-out cover as its landscape setup, with only two fixed angle grooves rather than a genuinely adjustable rotating hinge. Portrait mode here means propping the cover differently, not a smooth continuous rotation.\n\nSitting just under MNN 15.6\" FHD 60Hz Portable Monitor USB-C HDMI IPS HDR, it costs more than MNN 15.6\" FHD 60Hz Portable Monitor USB-C HDMI IPS HDR. Here's the honest tradeoff: Portrait via cover repositioning, not a smooth rotating hinge. And here's what it gets you instead: Largest review base in this guide. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Confirmed to support portrait orientation. On the other side, No auto-rotate sensor. That's the main tradeoff to weigh against everything above.",
+    specs: ["15.6-inch 1080P, portrait mode via cover repositioning","Two fixed angle grooves","2x USB-C + mini-HDMI","1.7 lb"],
+    pros: ["Largest review base in this guide","Confirmed to support portrait orientation","Cheap and proven","Slim and light"],
+    cons: ["Portrait via cover repositioning, not a smooth rotating hinge","Only two fixed viewing angles","No auto-rotate sensor"],
     bestFor: "Buyers who want a proven, budget-friendly monitor where portrait mode technically works but isn't the primary design focus",
   },
   {
@@ -132,11 +126,10 @@ export const products: GuideProduct[] = [
     reviews: "3,365 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51kORE12J1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHP4MKMP?tag=deskfinds0d-20",
-    description:
-      "The kickstand here works in both landscape and portrait, and the sharp 2.5K resolution is a genuine benefit for portrait-mode coding or document reading, since rotating any panel reduces usable horizontal pixels, in this case from 2560 down to 1600, still more than a rotated 1080p panel's 1080.\n\nBrightest pick in this guide too, a bonus for reading text-heavy content in either orientation.",
-    specs: ["16-inch 2.5K QHD, 144Hz, 470 nits", "Kickstand supports landscape and portrait", "Full-size HDMI + dual USB-C", "Dual VESA holes"],
-    pros: ["Highest resolution in portrait mode of any pick here (1600px wide when rotated)", "Brightest panel in this guide", "Full-size HDMI", "VESA mountable for a fixed portrait desk setup"],
-    cons: ["Priciest pick in this guide", "No auto-rotate sensor confirmed", "Heavier than the dedicated portrait-focused picks"],
+    description: "The kickstand here works in both landscape and portrait, and the sharp 2.5K resolution is a genuine benefit for portrait-mode coding or document reading, since rotating any panel reduces usable horizontal pixels, in this case from 2560 down to 1600, still more than a rotated 1080p panel's 1080.\n\nRanked just behind KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover, it costs more than KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover. The real tradeoff against that pick: Priciest pick in this guide. In exchange, it offers this instead: Highest resolution in portrait mode of any pick here (1600px wide when rotated). That's the swap that decides whether this pick or the one above it is the better fit for your source device.\n\nWorth knowing before you decide: Brightest panel in this guide. On the other side, Heavier than the dedicated portrait-focused picks. That's the main tradeoff to weigh against everything above.",
+    specs: ["16-inch 2.5K QHD, 144Hz, 470 nits","Kickstand supports landscape and portrait","Full-size HDMI + dual USB-C","Dual VESA holes"],
+    pros: ["Highest resolution in portrait mode of any pick here (1600px wide when rotated)","Brightest panel in this guide","Full-size HDMI","VESA mountable for a fixed portrait desk setup"],
+    cons: ["Priciest pick in this guide","No auto-rotate sensor confirmed","Heavier than the dedicated portrait-focused picks"],
     bestFor: "Buyers who want the sharpest available resolution when rotated to portrait for coding or documents",
   },
   {
@@ -149,13 +142,12 @@ export const products: GuideProduct[] = [
     reviews: "6 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51bADiNA5RL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G5YRPXTV?tag=deskfinds0d-20",
-    description:
-      "This listing explicitly mentions switching freely between landscape and portrait via its 0-120 degree adjustable stand, useful for multitasking layouts. Its very small review count reflects a newer, lower-volume listing, weigh that against the otherwise solid 1920x1200 spec and 165Hz claim.\n\nA reasonable budget pick if portrait switching plus a high refresh rate matter to you and you're comfortable with a limited track record.",
-    specs: ["16-inch 165Hz, 1920x1200, 0°-120° adjustable stand", "133% sRGB, HDR", "2x USB-C + mini HDMI", "1.5 lb"],
-    pros: ["Explicit landscape/portrait switching via adjustable stand", "165Hz refresh claim at a budget price", "Built-in speakers", "Lightweight"],
-    cons: ["Very small review count, limited track record", "Mini HDMI only", "No auto-rotate sensor confirmed"],
+    description: "This listing explicitly mentions switching freely between landscape and portrait via its 0-120 degree adjustable stand, useful for multitasking layouts. Its very small review count reflects a newer, lower-volume listing, weigh that against the otherwise solid 1920x1200 spec and 165Hz claim.\n\nOne spot below VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz in this ranking, it's priced lower than VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz. The compromise here is straightforward: Very small review count, limited track record. What you gain in return: Explicit landscape/portrait switching via adjustable stand. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: 165Hz refresh claim at a budget price. On the other side, No auto-rotate sensor confirmed. That's the main tradeoff to weigh against everything above.",
+    specs: ["16-inch 165Hz, 1920x1200, 0°-120° adjustable stand","133% sRGB, HDR","2x USB-C + mini HDMI","1.5 lb"],
+    pros: ["Explicit landscape/portrait switching via adjustable stand","165Hz refresh claim at a budget price","Built-in speakers","Lightweight"],
+    cons: ["Very small review count, limited track record","Mini HDMI only","No auto-rotate sensor confirmed"],
     bestFor: "Buyers who want a budget high-refresh panel with confirmed portrait stand adjustability",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -168,37 +160,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Rotating Stand vs. Fixed-Angle Cover",
-    table: {
-      headers: ["Stand type", "Picks", "What it means"],
-      rows: [
-        ["Genuine rotating hinge/bracket (0-360°)", "Veout, FLYTOCCA, Orfibz, KYY two-mode, VisionOwl, AHXJKA", "Smooth transition between landscape and portrait"],
-        ["Fixed-angle cover repositioning", "KYY 15.6\" cover model, MNN", "Portrait works but via repropping a folding case, not a smooth hinge"],
+    "subheading": "By Refresh Rate",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Standard smooth motion",
+          "MNN 15.6\" FHD 60Hz Portable Monitor USB-C HDMI IPS HDR"
+        ],
+        [
+          "Maximum refresh headroom",
+          "AHXJKA Portable Monitor 16\" 165Hz 1920x1200P 133% sRGB"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Nearly None of These Auto-Sense Orientation",
-    note: "Two listings in this guide (FLYTOCCA, Orfibz) explicitly state auto-rotation is not supported, you must manually change the display orientation setting in your OS after physically rotating the stand. Assume every pick here needs this manual step unless a listing states otherwise.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $63",
+          "MNN 15.6\" FHD 60Hz Portable Monitor USB-C HDMI IPS HDR"
+        ],
+        [
+          "Mid-range",
+          "AHXJKA Portable Monitor 16\" 165Hz 1920x1200P 133% sRGB"
+        ],
+        [
+          "No firm budget ceiling, prioritizing panel quality or resolution",
+          "VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Effective Horizontal Resolution in Portrait Mode",
-    table: {
-      headers: ["Panel resolution", "Portrait-mode horizontal width", "Best suited for"],
-      rows: [
-        ["2560x1600 (VisionOwl 2.5K)", "1600px wide when rotated", "Long code files, documents needing more horizontal room"],
-        ["1920x1200 (Veout, AHXJKA)", "1200px wide when rotated", "General document/code reading"],
-        ["1920x1080 (MNN, KYY 15.6\")", "1080px wide when rotated", "Basic scrolling content, most cramped option"],
-      ],
-    },
+    "subheading": "USB-C DisplayPort Alt Mode vs HDMI",
+    "cards": [
+      {
+        "label": "USB-C (DisplayPort Alt Mode)",
+        "text": "Usually the port that hits the panel's full rated refresh rate, and can carry power alongside video on one cable. In this comparison: check each listing's stated USB-C refresh rate directly."
+      },
+      {
+        "label": "HDMI",
+        "text": "Reliable for consoles and older sources, but often capped below the panel's full rated refresh, especially at higher resolutions. In this comparison: check each listing's stated HDMI refresh ceiling directly."
+      }
+    ],
+    "note": "Check each listing's per-port refresh specs directly before assuming HDMI matches the headline rate."
   },
+  {
+    "subheading": "By VESA Mount Compatibility",
+    "table": {
+      "headers": [
+        "Your setup",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Want a permanent mounted setup",
+          "VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz"
+        ],
+        [
+          "Prefer the included kickstand or case",
+          "Veout 16\" Portable Monitor for Laptop"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Handheld Gaming PC or Console Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Your exact source device's documented maximum output refresh rate over the connection type you'll use, checked independently from the monitor's own rated capability, since handhelds like Steam Deck and ROG Ally commonly cap at 60Hz over USB-C."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Veout 16\" Portable Monitor for Laptop fits this specifically: Genuine hinge-based portrait rotation, not just a fixed cover."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz offers: Highest resolution in portrait mode of any pick here (1600px wide when rotated). That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "MNN 15.6\" FHD 60Hz Portable Monitor USB-C HDMI IPS HDR already covers the essentials: Explicitly lists Portrait Mode as a supported display mode. The main thing you'd be paying extra for elsewhere in this list is headroom you may not actually use."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Check whether the stand genuinely rotates or you're just repositioning a cover", explanation: "Several picks in this guide have a real rotating hinge or 360° bracket; others achieve 'portrait mode' by repositioning a fixed-angle folio cover, a much less smooth transition." },
-  { criterion: "Assume manual OS orientation toggling, not auto-rotate", explanation: "Most listings in this guide, including two that state it explicitly, require manually changing the display orientation setting in your OS after physically rotating the stand. Don't expect a phone-like automatic sensor." },
-  { criterion: "Higher base resolution gives more usable width once rotated", explanation: "A 2560x1600 panel still gives 1600 pixels of width in portrait mode, noticeably roomier than a 1920x1080 panel's 1080 pixels once rotated, worth factoring in for code or document reading." },
-  { criterion: "Speaker direction changes when rotated to portrait", explanation: "Speakers designed to fire toward you in landscape mode end up firing sideways in portrait orientation, reducing perceived volume and clarity, a tradeoff worth knowing if you rely on built-in audio." },
+  {
+    "criterion": "Check the refresh rate ceiling for each port separately, not just the headline spec",
+    "explanation": "A portable monitor's advertised refresh rate is typically its maximum achievable rate on its best-performing port, usually USB-C using DisplayPort Alt Mode, but the same panel connected over HDMI, especially older HDMI 2.0, frequently caps at a meaningfully lower rate because HDMI 2.0's bandwidth can't sustain the same data throughput as USB-C at higher resolutions.\n\nThis is a genuinely common source of buyer disappointment: someone buys a monitor rated 144Hz specifically to pair with a game console over HDMI, only to discover the HDMI port caps at 120Hz or even 60Hz on that specific model, a distinction the headline spec doesn't disclose.\n\nCheck the listing specifically for per-port refresh rate figures (USB-C rate versus HDMI rate stated separately), and match the port you'll actually use to the rate you actually need, not the single highest number in the title."
+  },
+  {
+    "criterion": "Confirm your specific source device can actually output above 60Hz before paying extra for a high refresh panel",
+    "explanation": "A monitor's refresh rate capability is meaningless if the connected source device can't output a signal above 60Hz in the first place, and this is a genuinely common mismatch: many laptop USB-C ports are data-only or video-limited to 60Hz regardless of Thunderbolt or USB4 branding, and handheld gaming PCs like Steam Deck and ROG Ally specifically output capped at 60Hz over USB-C in their current hardware generation, making a 144Hz-rated monitor's extra capability completely unused for that pairing despite the higher price paid for it.\n\nBefore buying specifically for the refresh rate, check your exact source device's documented maximum output refresh rate over the connection type you'll actually use (not just its general spec sheet), since a monitor's rated capability and your source device's actual output are two entirely separate specifications that both need to support the higher rate."
+  },
+  {
+    "criterion": "Understand that response time (GtG) affects visible motion clarity as much as refresh rate does",
+    "explanation": "Refresh rate (how many times per second the image updates) and response time (how quickly individual pixels can change color, commonly measured in milliseconds as gray-to-gray or GtG) are two separate specs that both affect how smooth and clear fast motion looks, and a high refresh rate paired with a slow response time still produces visible ghosting or blur trailing behind fast-moving objects, since the panel can't physically change pixel colors fast enough to keep up with the higher refresh rate's demands.\n\nThis matters because response time is disclosed far less consistently than refresh rate across portable monitor listings, many simply omit it entirely, making direct comparison difficult even when two panels share the same headline refresh number.\n\nCheck specifically for a stated GtG response time in milliseconds, and treat a genuinely high refresh rate spec with some skepticism if the listing doesn't also disclose response time, since the refresh number alone doesn't guarantee smooth-looking motion."
+  },
+  {
+    "criterion": "Check power delivery and cable requirements, since a portable monitor's convenience depends on how it's actually powered",
+    "explanation": "Portable monitors typically draw power either through the same USB-C cable carrying the video signal (single-cable operation, the more convenient setup) or through a separate dedicated power input, and some models support pass-through charging that lets your laptop's own charger power both the laptop and the monitor simultaneously through one connection.\n\nThis matters concretely for actual portability: a monitor requiring two separate cables (one for video, one for power) is meaningfully less convenient to set up and pack away than genuine single-cable operation, undermining part of the appeal of a \"portable\" monitor in the first place.\n\nCheck specifically whether the monitor supports single-cable USB-C operation with your source device, and confirm pass-through charging wattage if you want your laptop's charger to power both devices without needing two outlets."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, since this category includes both established models and many newer, similar-looking entrants",
+    "explanation": "Portable monitors from well-established sellers with years of accumulated sales carry review counts in the thousands, giving genuine statistical confidence in panel quality and long-term reliability, while newer listings, sometimes from the same manufacturer under a different model number or from less established brands entirely, can carry only a handful of reviews despite looking similarly specified and priced.\n\nThis is a real practical concern for a portable monitor specifically because panel defects (dead pixels, backlight bleed, uneven brightness) are a documented failure mode across this category, and a thin review base provides much less confidence that a specific listing's panel quality is consistent across units.\n\nWhen comparing two similarly specified and priced portable monitors, check both the star rating and the review count together, and treat a very small review count as a reason for extra caution even if the rating itself looks strong."
+  }
 ];
 
 export const faq: FaqItem[] = [

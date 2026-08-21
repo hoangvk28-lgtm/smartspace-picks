@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "3,365 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51kORE12J1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHP4MKMP?tag=deskfinds0d-20",
-    description:
-      "At 2560x1600 on 16 inches, this delivers meaningfully higher pixel density than the 1080p picks in this guide, genuinely sharper for reading small text in an IDE for hours. The 144Hz spec is a bonus you won't use for coding specifically, but the panel's brightness and metal build are real quality-of-life wins for a display you'll stare at all day.\n\nVESA mountable if you want a fixed coding-station setup, and portrait mode is supported by the kickstand, though you'll still need to manually toggle OS orientation after rotating.",
-    specs: ["16-inch 2560x1600, higher PPI than 1080p", "470 nits, metal chassis", "Full-size HDMI + dual USB-C", "Dual VESA holes, kickstand supports portrait"],
-    pros: ["Highest pixel density in this guide for sharper code text", "Brightest panel here, reduces eye strain in varied lighting", "VESA mountable for a fixed coding station", "Portrait mode supported"],
-    cons: ["144Hz is unused value for pure coding work", "No explicit PWM flicker rating disclosed", "Pricier than basic 1080p picks"],
+    description: "At 2560x1600 on 16 inches, this delivers meaningfully higher pixel density than the 1080p picks in this guide, genuinely sharper for reading small text in an IDE for hours. The 144Hz spec is a bonus you won't use for coding specifically, but the panel's brightness and metal build are real quality-of-life wins for a display you'll stare at all day.\n\nIt earns the top spot in this comparison over cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C for one main reason. Highest pixel density in this guide for sharper code text. On price, it's actually priced above cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Brightest panel here, reduces eye strain in varied lighting. On the other side, Pricier than basic 1080p picks. That's the main tradeoff to weigh against everything above.",
+    specs: ["16-inch 2560x1600, higher PPI than 1080p","470 nits, metal chassis","Full-size HDMI + dual USB-C","Dual VESA holes, kickstand supports portrait"],
+    pros: ["Highest pixel density in this guide for sharper code text","Brightest panel here, reduces eye strain in varied lighting","VESA mountable for a fixed coding station","Portrait mode supported"],
+    cons: ["144Hz is unused value for pure coding work","No explicit PWM flicker rating disclosed","Pricier than basic 1080p picks"],
     bestFor: "Developers who want the sharpest text rendering for long coding sessions",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "6,301 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41taGyfYchL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR8D6BQ3?tag=deskfinds0d-20",
-    description:
-      "Same sharp 2560x1600 resolution as the top pick with the largest review base in this guide, a proven choice for a coding second screen. Its 16:10 aspect ratio gives more vertical lines of code visible than a 16:9 panel at the same width, a genuine productivity win for reading long files without scrolling as often.\n\nSame refresh-rate-is-unused-for-coding caveat applies here as with the top pick, don't pay extra expecting a gaming-style benefit from the 144Hz spec.",
-    specs: ["16-inch 2560x1600, 16:10 ratio", "110% sRGB, metal chassis", "Full-size HDMI + dual USB-C", "Dual VESA holes"],
-    pros: ["Largest review base and highest rating in this guide", "16:10 ratio shows more vertical code lines than 16:9", "Sharp resolution for text", "Full-size HDMI"],
-    cons: ["144Hz is unused for pure coding work", "No PWM flicker rating disclosed", "Metal chassis adds some weight"],
+    description: "Same sharp 2560x1600 resolution as the top pick with the largest review base in this guide, a proven choice for a coding second screen. Its 16:10 aspect ratio gives more vertical lines of code visible than a 16:9 panel at the same width, a genuine productivity win for reading long files without scrolling as often.\n\nOne spot below VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz in this ranking, it's priced lower than VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz. The compromise here is straightforward: 144Hz is unused for pure coding work. What you gain in return: Largest review base and highest rating in this guide. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: 16:10 ratio shows more vertical code lines than 16:9. On the other side, Metal chassis adds some weight. That's the main tradeoff to weigh against everything above.",
+    specs: ["16-inch 2560x1600, 16:10 ratio","110% sRGB, metal chassis","Full-size HDMI + dual USB-C","Dual VESA holes"],
+    pros: ["Largest review base and highest rating in this guide","16:10 ratio shows more vertical code lines than 16:9","Sharp resolution for text","Full-size HDMI"],
+    cons: ["144Hz is unused for pure coding work","No PWM flicker rating disclosed","Metal chassis adds some weight"],
     bestFor: "Developers who want the most proven sharp panel with extra vertical space for code",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "1,226 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41bfhtn2lOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CH9XR3G4?tag=deskfinds0d-20",
-    description:
-      "ARZOPA explicitly markets this panel's Eye Care technology alongside its 16:10 QHD resolution, a genuinely relevant combination for developers spending hours reading code. Its lighter 1.46 lb weight and built-in stand make it a practical daily-carry secondary screen.\n\nA reasonable middle-price option between the premium VisionOwl/cocopar picks and the fully budget alternatives in this guide.",
-    specs: ["16-inch 2560x1600, 123% sRGB", "Eye care technology, 350 nits", "Built-in stand, 1.46 lb", "USB-C + HDMI"],
-    pros: ["Explicit eye-care marketing genuinely relevant to long coding sessions", "Sharp 2560x1600 resolution", "Lightweight for daily carry", "Reasonable mid-range price"],
-    cons: ["Lower rating than the top two picks", "No specific PWM flicker rating disclosed", "Smaller review base than the premium picks"],
+    description: "ARZOPA explicitly markets this panel's Eye Care technology alongside its 16:10 QHD resolution, a genuinely relevant combination for developers spending hours reading code. Its lighter 1.46 lb weight and built-in stand make it a practical daily-carry secondary screen.\n\nSitting just under cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C, it's priced lower than cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C. Here's the honest tradeoff: Lower rating than the top two picks. And here's what it gets you instead: Explicit eye-care marketing genuinely relevant to long coding sessions. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Sharp 2560x1600 resolution. On the other side, Smaller review base than the premium picks. That's the main tradeoff to weigh against everything above.",
+    specs: ["16-inch 2560x1600, 123% sRGB","Eye care technology, 350 nits","Built-in stand, 1.46 lb","USB-C + HDMI"],
+    pros: ["Explicit eye-care marketing genuinely relevant to long coding sessions","Sharp 2560x1600 resolution","Lightweight for daily carry","Reasonable mid-range price"],
+    cons: ["Lower rating than the top two picks","No specific PWM flicker rating disclosed","Smaller review base than the premium picks"],
     bestFor: "Developers who want an eye-care-focused panel at a lighter weight and mid-range price",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "1,768 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/511XKdZvQQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FFRQFGML?tag=deskfinds0d-20",
-    description:
-      "A genuinely new, lightweight stand design reduces bulk versus older cocopar/VisionOwl designs, useful if you're carrying this daily between a desk and a coffee shop for coding sessions. 100% sRGB is a solid, if unremarkable, color spec for a coding-focused monitor where color accuracy matters less than text sharpness.\n\nLowest price of the 2.5K picks in this guide, a reasonable budget-conscious choice for sharp text without the premium price.",
-    specs: ["16-inch 2160x1600, 120Hz, 100% sRGB", "Lightweight new stand design", "Dual Type-C + HDMI", "Adapter not included"],
-    pros: ["Lowest price among the sharp 2.5K picks", "Lightweight stand design reduces travel bulk", "100% sRGB coverage", "Dual Type-C plus HDMI connectivity"],
-    cons: ["Lower rating than the premium picks", "Power adapter not included, budget for one separately", "No specific eye-care or PWM disclosure"],
+    description: "A genuinely new, lightweight stand design reduces bulk versus older cocopar/VisionOwl designs, useful if you're carrying this daily between a desk and a coffee shop for coding sessions. 100% sRGB is a solid, if unremarkable, color spec for a coding-focused monitor where color accuracy matters less than text sharpness.\n\nRanked just behind ARZOPA 16\" 2.5K Portable Monitor, it's priced lower than ARZOPA 16\" 2.5K Portable Monitor. The real tradeoff against that pick: Lower rating than the premium picks. In exchange, it offers this instead: Lowest price among the sharp 2.5K picks. That's the swap that decides whether this pick or the one above it is the better fit for your source device.\n\nWorth knowing before you decide: Lightweight stand design reduces travel bulk. On the other side, No specific eye-care or PWM disclosure. That's the main tradeoff to weigh against everything above.",
+    specs: ["16-inch 2160x1600, 120Hz, 100% sRGB","Lightweight new stand design","Dual Type-C + HDMI","Adapter not included"],
+    pros: ["Lowest price among the sharp 2.5K picks","Lightweight stand design reduces travel bulk","100% sRGB coverage","Dual Type-C plus HDMI connectivity"],
+    cons: ["Lower rating than the premium picks","Power adapter not included, budget for one separately","No specific eye-care or PWM disclosure"],
     bestFor: "Budget-conscious developers who want sharp 2.5K text at the lowest price in this guide",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "10,899 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51OlDMVIAEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWXLCTGZ?tag=deskfinds0d-20",
-    description:
-      "At 18.5 inches, this gives more horizontal room for split-pane editors, terminal windows, and documentation side by side than the 16-inch picks above, a genuine multi-window coding benefit if screen size matters more to your workflow than pixel density. FreeSync is unused for coding, don't pay extra for it specifically for this use case.\n\nLargest review base in this guide, a proven choice if you prioritize screen real estate over sharpness.",
-    specs: ["18.5-inch 120Hz, 125% sRGB, FreeSync", "Full-size HDMI + dual USB-C", "75x75mm VESA, 360° bracket", "Largest review base in this guide"],
-    pros: ["Largest screen for multi-window coding layouts", "Largest review base in this guide", "VESA mountable with a flexible 360° bracket", "Lower price than the premium 2.5K picks"],
-    cons: ["1080p, lower pixel density than the 2.5K picks", "FreeSync is unused value for coding", "Heaviest pick here"],
+    description: "At 18.5 inches, this gives more horizontal room for split-pane editors, terminal windows, and documentation side by side than the 16-inch picks above, a genuine multi-window coding benefit if screen size matters more to your workflow than pixel density. FreeSync is unused for coding, don't pay extra for it specifically for this use case.\n\nOne spot below InnoView 16\" Portable Monitor 120Hz 2.5K QHD 2160x1600 100% sRGB in this ranking, it costs more than InnoView 16\" Portable Monitor 120Hz 2.5K QHD 2160x1600 100% sRGB. The compromise here is straightforward: 1080p, lower pixel density than the 2.5K picks. What you gain in return: Largest screen for multi-window coding layouts. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Largest review base in this guide. On the other side, Heaviest pick here. That's the main tradeoff to weigh against everything above.",
+    specs: ["18.5-inch 120Hz, 125% sRGB, FreeSync","Full-size HDMI + dual USB-C","75x75mm VESA, 360° bracket","Largest review base in this guide"],
+    pros: ["Largest screen for multi-window coding layouts","Largest review base in this guide","VESA mountable with a flexible 360° bracket","Lower price than the premium 2.5K picks"],
+    cons: ["1080p, lower pixel density than the 2.5K picks","FreeSync is unused value for coding","Heaviest pick here"],
     bestFor: "Developers who want maximum horizontal screen space for split-pane editing over pixel density",
   },
   {
@@ -115,11 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "6,301 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31y1n0H2EtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZLY26FW?tag=deskfinds0d-20",
-    description:
-      "A straightforward 1080p panel included as the budget-tier, compact reference point in this guide, lower pixel density than the 2.5K picks above but still perfectly readable code text at a lower price. VESA mountable for a fixed coding station.\n\nA reasonable choice if you want the lowest price and don't need the sharper text of the premium picks.",
-    specs: ["15.6-inch 1080P, 60Hz, 85% sRGB", "Full-size HDMI + dual USB-C", "2 VESA mounting holes", "Strong rating and review base"],
-    pros: ["Compact 15.6-inch size for a portable coding setup", "Strong rating and large review base", "VESA mountable", "Lower price than the 2.5K picks"],
-    cons: ["Lower pixel density than the 2.5K picks in this guide", "No eye-care or PWM specification disclosed", "Basic 85% sRGB color accuracy"],
+    description: "A straightforward 1080p panel included as the budget-tier, compact reference point in this guide, lower pixel density than the 2.5K picks above but still perfectly readable code text at a lower price. VESA mountable for a fixed coding station.\n\nSitting just under EVICIV Portable Monitor 18.5 Inch 120Hz, it's priced lower than EVICIV Portable Monitor 18.5 Inch 120Hz. Here's the honest tradeoff: Lower pixel density than the 2.5K picks in this guide. And here's what it gets you instead: Compact 15.6-inch size for a portable coding setup. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Strong rating and large review base. On the other side, Basic 85% sRGB color accuracy. That's the main tradeoff to weigh against everything above.",
+    specs: ["15.6-inch 1080P, 60Hz, 85% sRGB","Full-size HDMI + dual USB-C","2 VESA mounting holes","Strong rating and review base"],
+    pros: ["Compact 15.6-inch size for a portable coding setup","Strong rating and large review base","VESA mountable","Lower price than the 2.5K picks"],
+    cons: ["Lower pixel density than the 2.5K picks in this guide","No eye-care or PWM specification disclosed","Basic 85% sRGB color accuracy"],
     bestFor: "Budget-focused developers who don't need the sharpest available text",
   },
   {
@@ -132,11 +126,10 @@ export const products: GuideProduct[] = [
     reviews: "13,090 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51T7K-COzIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B088D8JG3L?tag=deskfinds0d-20",
-    description:
-      "The cheapest and most reviewed pick in this guide, a basic 1080p panel that gets the job done for reading code and documentation without any premium features. Portrait mode is supported by the cover-stand, though with only two fixed angle grooves rather than a smooth rotating hinge.\n\nA reasonable entry point if you're trying a second screen for coding before investing in a sharper premium panel.",
-    specs: ["15.6-inch 1080P IPS", "2x USB-C + mini-HDMI", "Magnetic smart cover stand, supports portrait", "1.7 lb"],
-    pros: ["Lowest price and largest review base in this guide", "Supports portrait mode via cover repositioning", "Slim and light", "Proven track record"],
-    cons: ["Lowest pixel density in this guide", "Mini-HDMI only", "No eye-care or PWM disclosure"],
+    description: "The cheapest and most reviewed pick in this guide, a basic 1080p panel that gets the job done for reading code and documentation without any premium features. Portrait mode is supported by the cover-stand, though with only two fixed angle grooves rather than a smooth rotating hinge.\n\nRanked just behind cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB, it's priced lower than cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB. The real tradeoff against that pick: Lowest pixel density in this guide. In exchange, it offers this instead: Lowest price and largest review base in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your source device.\n\nWorth knowing before you decide: Supports portrait mode via cover repositioning. On the other side, No eye-care or PWM disclosure. That's the main tradeoff to weigh against everything above.",
+    specs: ["15.6-inch 1080P IPS","2x USB-C + mini-HDMI","Magnetic smart cover stand, supports portrait","1.7 lb"],
+    pros: ["Lowest price and largest review base in this guide","Supports portrait mode via cover repositioning","Slim and light","Proven track record"],
+    cons: ["Lowest pixel density in this guide","Mini-HDMI only","No eye-care or PWM disclosure"],
     bestFor: "Developers testing whether a second screen helps their workflow before investing in a premium panel",
   },
   {
@@ -149,13 +142,12 @@ export const products: GuideProduct[] = [
     reviews: "2,739 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51wFOAMcM4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CH9WTW56?tag=deskfinds0d-20",
-    description:
-      "Included specifically to make the point this guide leads with: this is a gaming-marketed panel with a 144Hz refresh rate you simply won't use for coding, and its 1080p resolution is lower pixel density than the 2.5K picks above at a similar or higher price point. If you found this searching for a 'best for coding' list built from repurposed gaming content, this is exactly that pattern.\n\nStill a fine monitor for its actual intended use (gaming), just not the sharpest or most coding-optimized pick in this specific guide.",
-    specs: ["16.1-inch 144Hz, 1080P FHD, 106% sRGB", "2x USB-C + mini-HDMI", "Built-in kickstand", "Gaming-marketed"],
-    pros: ["Solid rating and review base", "Built-in kickstand", "Budget price for a 144Hz panel", "Fine as a secondary gaming display too"],
-    cons: ["144Hz is wasted spec spend for pure coding use", "Lower pixel density than the 2.5K picks at a similar price", "Mini-HDMI only"],
+    description: "Included specifically to make the point this guide leads with: this is a gaming-marketed panel with a 144Hz refresh rate you simply won't use for coding, and its 1080p resolution is lower pixel density than the 2.5K picks above at a similar or higher price point. If you found this searching for a 'best for coding' list built from repurposed gaming content, this is exactly that pattern.\n\nOne spot below KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover in this ranking, it costs more than KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover. The compromise here is straightforward: 144Hz is wasted spec spend for pure coding use. What you gain in return: Solid rating and review base. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Built-in kickstand. On the other side, Mini-HDMI only. That's the main tradeoff to weigh against everything above.",
+    specs: ["16.1-inch 144Hz, 1080P FHD, 106% sRGB","2x USB-C + mini-HDMI","Built-in kickstand","Gaming-marketed"],
+    pros: ["Solid rating and review base","Built-in kickstand","Budget price for a 144Hz panel","Fine as a secondary gaming display too"],
+    cons: ["144Hz is wasted spec spend for pure coding use","Lower pixel density than the 2.5K picks at a similar price","Mini-HDMI only"],
     bestFor: "Buyers who want a dual-purpose gaming/coding monitor and don't mind lower pixel density",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -168,33 +160,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Pixel Density Matters More Than Refresh Rate for Coding",
-    table: {
-      headers: ["Priority", "Why it matters for coding", "Top pick"],
-      rows: [
-        ["Pixel density (PPI)", "Sharper text reduces eye strain reading code for hours", "VisionOwl 16\" 2.5K (rank 1) or cocopar 16\" 2.5K (rank 2)"],
-        ["Refresh rate (144Hz+)", "Irrelevant for static text, this is gaming-monitor marketing repurposed", "Don't pay a premium for this specifically"],
+    "subheading": "By Refresh Rate",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Standard smooth motion",
+          "cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB"
+        ],
+        [
+          "Maximum refresh headroom",
+          "ARZOPA 16.1'' 144Hz Portable Gaming Monitor"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Portrait Mode for Long Files, If the Stand Actually Rotates",
-    note: "Portrait mode is genuinely useful for reading long code files or documentation without excessive scrolling, but requires the stand to actually rotate smoothly (not just a repositioned fixed-angle cover) and manual OS orientation toggling on most picks in this guide. See our dedicated portrait-mode monitor guide for a deeper breakdown.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $97",
+          "KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover"
+        ],
+        [
+          "Mid-range",
+          "EVICIV Portable Monitor 18.5 Inch 120Hz"
+        ],
+        [
+          "No firm budget ceiling, prioritizing panel quality or resolution",
+          "VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Screen Size vs. Sharpness Tradeoff for Multi-Window Layouts",
-    cards: [
-      { label: "16-inch 2.5K sharp panels", text: "Best for reading dense text clearly in a single or dual-pane layout." },
-      { label: "18.5-inch 1080p large panels", text: "Best for fitting more windows side by side (editor, terminal, docs) at the cost of pixel density." },
+    "subheading": "USB-C DisplayPort Alt Mode vs HDMI",
+    "cards": [
+      {
+        "label": "USB-C (DisplayPort Alt Mode)",
+        "text": "Usually the port that hits the panel's full rated refresh rate, and can carry power alongside video on one cable. In this comparison: check each listing's stated USB-C refresh rate directly."
+      },
+      {
+        "label": "HDMI",
+        "text": "Reliable for consoles and older sources, but often capped below the panel's full rated refresh, especially at higher resolutions. In this comparison: cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C."
+      }
     ],
+    "note": "If you're connecting a console or HDMI-only source specifically, verify the actual HDMI refresh ceiling on your chosen pick, since several picks here cap lower over HDMI than their headline spec suggests."
   },
+  {
+    "subheading": "By VESA Mount Compatibility",
+    "table": {
+      "headers": [
+        "Your setup",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Want a permanent mounted setup",
+          "VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz"
+        ],
+        [
+          "Prefer the included kickstand or case",
+          "ARZOPA 16\" 2.5K Portable Monitor"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Handheld Gaming PC or Console Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Your exact source device's documented maximum output refresh rate over the connection type you'll use, checked independently from the monitor's own rated capability, since handhelds like Steam Deck and ROG Ally commonly cap at 60Hz over USB-C."
+      },
+      {
+        "label": "In this comparison",
+        "text": "VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz fits this specifically: Highest pixel density in this guide for sharper code text."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz offers: Highest pixel density in this guide for sharper code text. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover already covers the essentials: Lowest price and largest review base in this guide. The main thing you'd be paying extra for elsewhere in this list is headroom you may not actually use."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Pixel density matters more than refresh rate for reading code", explanation: "Coding is a static-text use case where sharper pixel density reduces eye strain over long sessions; a 144Hz refresh rate provides no benefit for reading and editing text." },
-  { criterion: "16:10 aspect ratio shows more vertical code without scrolling", explanation: "A 16:10 panel gives roughly 11% more vertical space than the same-width 16:9 panel, letting you see more lines of code or documentation at once." },
-  { criterion: "Eye-care and flicker-free backlighting genuinely matter for long sessions", explanation: "Few listings explicitly disclose PWM flicker behavior at low brightness, but explicit eye-care marketing (like the ARZOPA pick) is a genuine signal worth weighing for multi-hour coding sessions." },
-  { criterion: "Portrait mode needs a genuinely rotating stand, not just a repositioned cover", explanation: "Check whether portrait support comes from a real rotating hinge versus repositioning a fixed-angle folio cover, and expect to manually toggle OS orientation on most picks in this guide." },
+  {
+    "criterion": "Check the refresh rate ceiling for each port separately, not just the headline spec",
+    "explanation": "A portable monitor's advertised refresh rate is typically its maximum achievable rate on its best-performing port, usually USB-C using DisplayPort Alt Mode, but the same panel connected over HDMI, especially older HDMI 2.0, frequently caps at a meaningfully lower rate because HDMI 2.0's bandwidth can't sustain the same data throughput as USB-C at higher resolutions.\n\nThis is a genuinely common source of buyer disappointment: someone buys a monitor rated 144Hz specifically to pair with a game console over HDMI, only to discover the HDMI port caps at 120Hz or even 60Hz on that specific model, a distinction the headline spec doesn't disclose.\n\nCheck the listing specifically for per-port refresh rate figures (USB-C rate versus HDMI rate stated separately), and match the port you'll actually use to the rate you actually need, not the single highest number in the title."
+  },
+  {
+    "criterion": "Confirm your specific source device can actually output above 60Hz before paying extra for a high refresh panel",
+    "explanation": "A monitor's refresh rate capability is meaningless if the connected source device can't output a signal above 60Hz in the first place, and this is a genuinely common mismatch: many laptop USB-C ports are data-only or video-limited to 60Hz regardless of Thunderbolt or USB4 branding, and handheld gaming PCs like Steam Deck and ROG Ally specifically output capped at 60Hz over USB-C in their current hardware generation, making a 144Hz-rated monitor's extra capability completely unused for that pairing despite the higher price paid for it.\n\nBefore buying specifically for the refresh rate, check your exact source device's documented maximum output refresh rate over the connection type you'll actually use (not just its general spec sheet), since a monitor's rated capability and your source device's actual output are two entirely separate specifications that both need to support the higher rate."
+  },
+  {
+    "criterion": "Understand that response time (GtG) affects visible motion clarity as much as refresh rate does",
+    "explanation": "Refresh rate (how many times per second the image updates) and response time (how quickly individual pixels can change color, commonly measured in milliseconds as gray-to-gray or GtG) are two separate specs that both affect how smooth and clear fast motion looks, and a high refresh rate paired with a slow response time still produces visible ghosting or blur trailing behind fast-moving objects, since the panel can't physically change pixel colors fast enough to keep up with the higher refresh rate's demands.\n\nThis matters because response time is disclosed far less consistently than refresh rate across portable monitor listings, many simply omit it entirely, making direct comparison difficult even when two panels share the same headline refresh number.\n\nCheck specifically for a stated GtG response time in milliseconds, and treat a genuinely high refresh rate spec with some skepticism if the listing doesn't also disclose response time, since the refresh number alone doesn't guarantee smooth-looking motion."
+  },
+  {
+    "criterion": "Check power delivery and cable requirements, since a portable monitor's convenience depends on how it's actually powered",
+    "explanation": "Portable monitors typically draw power either through the same USB-C cable carrying the video signal (single-cable operation, the more convenient setup) or through a separate dedicated power input, and some models support pass-through charging that lets your laptop's own charger power both the laptop and the monitor simultaneously through one connection.\n\nThis matters concretely for actual portability: a monitor requiring two separate cables (one for video, one for power) is meaningfully less convenient to set up and pack away than genuine single-cable operation, undermining part of the appeal of a \"portable\" monitor in the first place.\n\nCheck specifically whether the monitor supports single-cable USB-C operation with your source device, and confirm pass-through charging wattage if you want your laptop's charger to power both devices without needing two outlets."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, since this category includes both established models and many newer, similar-looking entrants",
+    "explanation": "Portable monitors from well-established sellers with years of accumulated sales carry review counts in the thousands, giving genuine statistical confidence in panel quality and long-term reliability, while newer listings, sometimes from the same manufacturer under a different model number or from less established brands entirely, can carry only a handful of reviews despite looking similarly specified and priced.\n\nThis is a real practical concern for a portable monitor specifically because panel defects (dead pixels, backlight bleed, uneven brightness) are a documented failure mode across this category, and a thin review base provides much less confidence that a specific listing's panel quality is consistent across units.\n\nWhen comparing two similarly specified and priced portable monitors, check both the star rating and the review count together, and treat a very small review count as a reason for extra caution even if the rating itself looks strong."
+  }
 ];
 
 export const faq: FaqItem[] = [

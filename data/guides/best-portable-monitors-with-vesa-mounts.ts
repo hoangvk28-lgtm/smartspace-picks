@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "6,301 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41taGyfYchL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR8D6BQ3?tag=deskfinds0d-20",
-    description:
-      "Dual VESA mounting holes are explicitly listed in this monitor's own feature description, molded into the metal chassis, no separate adapter plate required. Weighing 1.5 lb, it's genuinely light enough that most standard monitor arms (rated for a minimum weight threshold, often around 4.4 lb / 2kg) may not hold it steady, verify your specific arm's minimum weight rating before mounting.\n\nThe metal build and dual VESA holes make it a solid choice for a permanent desk setup, though the folio cover-stand it might otherwise use won't fold flat once a VESA plate is bolted on.",
-    specs: ["16-inch 2.5K QHD, native dual VESA holes", "Metal chassis, no adapter plate needed", "1.5 lb", "144Hz USB-C / 120Hz HDMI"],
-    pros: ["Confirmed native VESA holes, no adapter plate required", "Metal build quality", "Sharp 2.5K resolution", "Full-size HDMI"],
-    cons: ["1.5 lb may be too light for some monitor arms' minimum weight threshold", "VESA-mounting likely prevents using the folio cover-stand simultaneously", "Pricier than budget picks"],
+    description: "Dual VESA mounting holes are explicitly listed in this monitor's own feature description, molded into the metal chassis, no separate adapter plate required. Weighing 1.5 lb, it's genuinely light enough that most standard monitor arms (rated for a minimum weight threshold, often around 4.4 lb / 2kg) may not hold it steady, verify your specific arm's minimum weight rating before mounting.\n\nIt earns the top spot in this comparison over VisionOwl Portable Monitor for Laptop for one main reason. Confirmed native VESA holes, no adapter plate required. On price, it comes in below VisionOwl Portable Monitor for Laptop, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Metal build quality. On the other side, Pricier than budget picks. That's the main tradeoff to weigh against everything above.",
+    specs: ["16-inch 2.5K QHD, native dual VESA holes","Metal chassis, no adapter plate needed","1.5 lb","144Hz USB-C / 120Hz HDMI"],
+    pros: ["Confirmed native VESA holes, no adapter plate required","Metal build quality","Sharp 2.5K resolution","Full-size HDMI"],
+    cons: ["1.5 lb may be too light for some monitor arms' minimum weight threshold","VESA-mounting likely prevents using the folio cover-stand simultaneously","Pricier than budget picks"],
     bestFor: "Buyers who want a confirmed, native VESA mount without an adapter plate",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "2,044 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51+nqT75sRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CD3WJXWH?tag=deskfinds0d-20",
-    description:
-      "Explicit 75x75mm VESA holes are listed alongside a built-in stand, giving you a genuine choice between the two rather than losing the stand once mounted. At 2.7 lb, this is closer to the weight threshold many monitor arms are actually designed for, a more reliable arm-mounting candidate than the lightest picks in this guide.\n\nA reasonable choice for anyone who wants the flexibility to switch between VESA-mounted and stand-alone use depending on the setup.",
-    specs: ["18.5-inch FHD, 75x75mm VESA holes", "Built-in kickstand as an alternative to mounting", "2.7 lb", "Full-size HDMI"],
-    pros: ["Explicit 75x75mm VESA spec disclosed", "Weight is closer to typical monitor arm minimums", "Keeps the option of a built-in stand too", "Large screen size"],
-    cons: ["Heaviest pick in this guide for travel", "1080p, not the sharpest resolution here", "Full-size HDMI weight doesn't offset the bulkier profile"],
+    description: "Explicit 75x75mm VESA holes are listed alongside a built-in stand, giving you a genuine choice between the two rather than losing the stand once mounted. At 2.7 lb, this is closer to the weight threshold many monitor arms are actually designed for, a more reliable arm-mounting candidate than the lightest picks in this guide.\n\nOne spot below cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C in this ranking, it costs more than cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C. The compromise here is straightforward: Heaviest pick in this guide for travel. What you gain in return: Explicit 75x75mm VESA spec disclosed. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Weight is closer to typical monitor arm minimums. On the other side, Full-size HDMI weight doesn't offset the bulkier profile. That's the main tradeoff to weigh against everything above.",
+    specs: ["18.5-inch FHD, 75x75mm VESA holes","Built-in kickstand as an alternative to mounting","2.7 lb","Full-size HDMI"],
+    pros: ["Explicit 75x75mm VESA spec disclosed","Weight is closer to typical monitor arm minimums","Keeps the option of a built-in stand too","Large screen size"],
+    cons: ["Heaviest pick in this guide for travel","1080p, not the sharpest resolution here","Full-size HDMI weight doesn't offset the bulkier profile"],
     bestFor: "Buyers who want a VESA-compatible monitor heavy enough to sit reliably on a standard arm",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "5,185 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41GAXbxIzZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07TWGBG3P?tag=deskfinds0d-20",
-    description:
-      "This listing specifically discloses VESA (75x75@M4) on the back of the monitor, a genuine, confirmed spec rather than vague \"VESA compatible\" marketing. It's also the only pick in this guide with an OTG port, useful for plugging in a mouse or keyboard directly at a VESA-mounted permanent workstation.\n\nAt the lowest price of the confirmed-VESA picks here, it's a strong value option for a permanent desk setup.",
-    specs: ["15.6-inch FHD, VESA 75x75@M4", "OTG port for mouse/keyboard", "Full-size HDMI + dual USB-C", "Smart cover"],
-    pros: ["Confirmed exact VESA spec (75x75@M4)", "OTG port for wired peripherals at a mounted workstation", "Lowest price of the confirmed picks", "Full-size HDMI"],
-    cons: ["1080p resolution", "Modest color accuracy", "Cable strain routing not addressed for arm articulation"],
+    description: "This listing specifically discloses VESA (75x75@M4) on the back of the monitor, a genuine, confirmed spec rather than vague \"VESA compatible\" marketing. It's also the only pick in this guide with an OTG port, useful for plugging in a mouse or keyboard directly at a VESA-mounted permanent workstation.\n\nSitting just under VisionOwl Portable Monitor for Laptop, it's priced lower than VisionOwl Portable Monitor for Laptop. Here's the honest tradeoff: 1080p resolution. And here's what it gets you instead: Confirmed exact VESA spec (75x75@M4). That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: OTG port for wired peripherals at a mounted workstation. On the other side, Cable strain routing not addressed for arm articulation. That's the main tradeoff to weigh against everything above.",
+    specs: ["15.6-inch FHD, VESA 75x75@M4","OTG port for mouse/keyboard","Full-size HDMI + dual USB-C","Smart cover"],
+    pros: ["Confirmed exact VESA spec (75x75@M4)","OTG port for wired peripherals at a mounted workstation","Lowest price of the confirmed picks","Full-size HDMI"],
+    cons: ["1080p resolution","Modest color accuracy","Cable strain routing not addressed for arm articulation"],
     bestFor: "Buyers on a budget who want confirmed VESA mounting plus an OTG port",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "6,301 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51OXc4g9NHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GGHPTLX9?tag=deskfinds0d-20",
-    description:
-      "Explicit 75x75mm VESA support at 18.5 inches and a genuine 2K resolution, a sharper option among the confirmed-VESA picks in this guide. At 2.48 lb, its weight sits in a reasonable middle ground for most monitor arms.\n\nA solid choice if you want both sharper-than-1080p resolution and confirmed VESA mounting in one panel.",
-    specs: ["18.5-inch 2K QHD, 75x75mm VESA", "120Hz, 120% sRGB", "Full-size HDMI + dual USB-C", "2.48 lb"],
-    pros: ["Confirmed VESA mount at a sharper 2K resolution", "Reasonable weight for most monitor arms", "Full-size HDMI", "Large screen"],
-    cons: ["Heavier and pricier than the 15.6-inch confirmed-VESA picks", "Cable strain during arm articulation not addressed", "VESA plate may prevent the fold-flat stand"],
+    description: "Explicit 75x75mm VESA support at 18.5 inches and a genuine 2K resolution, a sharper option among the confirmed-VESA picks in this guide. At 2.48 lb, its weight sits in a reasonable middle ground for most monitor arms.\n\nRanked just behind UPERFECT Portable Monitor, it costs more than UPERFECT Portable Monitor. The real tradeoff against that pick: Heavier and pricier than the 15.6-inch confirmed-VESA picks. In exchange, it offers this instead: Confirmed VESA mount at a sharper 2K resolution. That's the swap that decides whether this pick or the one above it is the better fit for your source device.\n\nWorth knowing before you decide: Reasonable weight for most monitor arms. On the other side, VESA plate may prevent the fold-flat stand. That's the main tradeoff to weigh against everything above.",
+    specs: ["18.5-inch 2K QHD, 75x75mm VESA","120Hz, 120% sRGB","Full-size HDMI + dual USB-C","2.48 lb"],
+    pros: ["Confirmed VESA mount at a sharper 2K resolution","Reasonable weight for most monitor arms","Full-size HDMI","Large screen"],
+    cons: ["Heavier and pricier than the 15.6-inch confirmed-VESA picks","Cable strain during arm articulation not addressed","VESA plate may prevent the fold-flat stand"],
     bestFor: "Buyers who want sharper 2K resolution alongside confirmed VESA mounting",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "10,899 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51OlDMVIAEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWXLCTGZ?tag=deskfinds0d-20",
-    description:
-      "The 360-degree adjustable VESA bracket here is unusually flexible for the price, a genuine step up from a fixed VESA plate. Explicit 75x75mm VESA compatibility with 4x M4x4mm screws included, removing the guesswork of sourcing hardware separately.\n\nAt the lowest price of the large-screen confirmed-VESA picks in this guide, and with the largest review base, this is a strong budget option.",
-    specs: ["18.5-inch 120Hz, 125% sRGB, VESA 75x75mm", "360° adjustable bracket, screws included", "FreeSync", "Largest review base here"],
-    pros: ["Confirmed VESA with mounting screws included", "Unusually flexible 360° adjustable bracket", "Lowest price of the large-screen VESA picks", "Largest review base in this guide"],
-    cons: ["FreeSync not applicable to Mac use", "1080p, not the sharpest option", "Heavier than the 15.6-inch picks"],
+    description: "The 360-degree adjustable VESA bracket here is unusually flexible for the price, a genuine step up from a fixed VESA plate. Explicit 75x75mm VESA compatibility with 4x M4x4mm screws included, removing the guesswork of sourcing hardware separately.\n\nOne spot below cocopar Portable Monitor 18.5 Inch 2K QHD 120Hz 120% sRGB in this ranking, it's priced lower than cocopar Portable Monitor 18.5 Inch 2K QHD 120Hz 120% sRGB. The compromise here is straightforward: FreeSync not applicable to Mac use. What you gain in return: Confirmed VESA with mounting screws included. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Unusually flexible 360° adjustable bracket. On the other side, Heavier than the 15.6-inch picks. That's the main tradeoff to weigh against everything above.",
+    specs: ["18.5-inch 120Hz, 125% sRGB, VESA 75x75mm","360° adjustable bracket, screws included","FreeSync","Largest review base here"],
+    pros: ["Confirmed VESA with mounting screws included","Unusually flexible 360° adjustable bracket","Lowest price of the large-screen VESA picks","Largest review base in this guide"],
+    cons: ["FreeSync not applicable to Mac use","1080p, not the sharpest option","Heavier than the 15.6-inch picks"],
     bestFor: "Budget-focused buyers who want a flexible, confirmed VESA bracket with hardware included",
   },
   {
@@ -115,11 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "13,090 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51T7K-COzIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B088D8JG3L?tag=deskfinds0d-20",
-    description:
-      "This is included specifically as an example of the gap this guide exists to address: it's the most reviewed monitor in this space, but its own feature list makes no mention of VESA holes, only a magnetic fold-out cover-stand. If you searched for a VESA-mountable monitor and landed here based on general popularity, this isn't the pick, without confirmed VESA holes, you'd need a separate adapter case or plate.\n\nStill a fine monitor for its price and USB-C simplicity, just not for the specific VESA use case this guide covers.",
-    specs: ["15.6-inch 1080P, no VESA holes confirmed", "Magnetic fold-out cover-stand only", "2x USB-C + mini-HDMI", "1.7 lb"],
-    pros: ["Largest review base of any pick in this guide", "Cheap and proven for general use", "Slim and light for travel", "Simple USB-C connection"],
-    cons: ["No confirmed VESA mounting holes", "Would require a separate adapter case for arm mounting", "Cover-stand only, not a permanent-desk solution"],
+    description: "This is included specifically as an example of the gap this guide exists to address: it's the most reviewed monitor in this space, but its own feature list makes no mention of VESA holes, only a magnetic fold-out cover-stand. If you searched for a VESA-mountable monitor and landed here based on general popularity, this isn't the pick, without confirmed VESA holes, you'd need a separate adapter case or plate.\n\nSitting just under EVICIV Portable Monitor 18.5 Inch 120Hz, it's priced lower than EVICIV Portable Monitor 18.5 Inch 120Hz. Here's the honest tradeoff: No confirmed VESA mounting holes. And here's what it gets you instead: Largest review base of any pick in this guide. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Cheap and proven for general use. On the other side, Cover-stand only, not a permanent-desk solution. That's the main tradeoff to weigh against everything above.",
+    specs: ["15.6-inch 1080P, no VESA holes confirmed","Magnetic fold-out cover-stand only","2x USB-C + mini-HDMI","1.7 lb"],
+    pros: ["Largest review base of any pick in this guide","Cheap and proven for general use","Slim and light for travel","Simple USB-C connection"],
+    cons: ["No confirmed VESA mounting holes","Would require a separate adapter case for arm mounting","Cover-stand only, not a permanent-desk solution"],
     bestFor: "Buyers who don't actually need VESA mounting and just want a proven, popular budget monitor",
   },
   {
@@ -132,13 +126,12 @@ export const products: GuideProduct[] = [
     reviews: "11,984 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/5130Dsp2DML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9NNWXVP?tag=deskfinds0d-20",
-    description:
-      "Another example of the same gap: this budget pick's own listing describes a smart cover doubling as a stand, with no VESA holes mentioned anywhere in its feature list, despite appearing in searches for VESA-compatible monitors. Don't assume any monitor supports VESA mounting just because it shows up in a relevant search.\n\nAt this price it's a reasonable basic monitor, just verify VESA compatibility directly against the manufacturer's spec sheet, not search-result assumptions, before buying specifically for arm mounting.",
-    specs: ["15.6-inch FHD, 60Hz, no VESA holes confirmed", "Smart cover stand only", "Dual USB-C + HDMI", "Lowest price in this guide"],
-    pros: ["Lowest price in this guide", "Large review base", "HDR mode included", "Simple, proven design"],
-    cons: ["No confirmed VESA mounting holes", "Appears in VESA-related searches without actually supporting it", "Cover-stand only"],
+    description: "Another example of the same gap: this budget pick's own listing describes a smart cover doubling as a stand, with no VESA holes mentioned anywhere in its feature list, despite appearing in searches for VESA-compatible monitors. Don't assume any monitor supports VESA mounting just because it shows up in a relevant search.\n\nRanked just behind KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover, it's priced lower than KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover. The real tradeoff against that pick: No confirmed VESA mounting holes. In exchange, it offers this instead: Lowest price in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your source device.\n\nWorth knowing before you decide: Large review base. On the other side, Cover-stand only. That's the main tradeoff to weigh against everything above.",
+    specs: ["15.6-inch FHD, 60Hz, no VESA holes confirmed","Smart cover stand only","Dual USB-C + HDMI","Lowest price in this guide"],
+    pros: ["Lowest price in this guide","Large review base","HDR mode included","Simple, proven design"],
+    cons: ["No confirmed VESA mounting holes","Appears in VESA-related searches without actually supporting it","Cover-stand only"],
     bestFor: "Buyers who want the cheapest option and don't actually need VESA mounting, verify before buying if you do",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -151,31 +144,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Confirmed VESA vs. Search-Result Assumption",
-    intro: "Two picks in this guide (ranks 6-7) appear in VESA-related searches but don't actually confirm VESA holes in their own listings, a real example of the confusion this guide addresses.",
-    table: {
-      headers: ["Pick", "VESA status", "What to do"],
-      rows: [
-        ["cocopar 16\", VisionOwl 18.5\", UPERFECT 15.6\", cocopar 18.5\", EVICIV 18.5\"", "Confirmed native VESA in the listing", "Safe to buy for arm mounting"],
-        ["KYY 15.6\", MNN 15.6\"", "No VESA mentioned, cover-stand only", "Don't buy these specifically for VESA mounting without a separate adapter case"],
+    "subheading": "By Refresh Rate",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Standard smooth motion",
+          "MNN 15.6\" FHD 60Hz Portable Monitor USB-C HDMI IPS HDR"
+        ],
+        [
+          "Maximum refresh headroom",
+          "cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Weight vs. Monitor Arm Minimum Thresholds",
-    note: "Most monitor arms are engineered for a minimum weight, often around 4.4 lb (2kg), to maintain spring tension. A sub-2lb portable monitor like the cocopar 16\" (rank 1, 1.5 lb) can be too light to hold position reliably on some arms, causing drift. Heavier picks like the VisionOwl 18.5\" (2.7 lb) are more likely to sit steady on a standard arm.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $62",
+          "MNN 15.6\" FHD 60Hz Portable Monitor USB-C HDMI IPS HDR"
+        ],
+        [
+          "Mid-range",
+          "EVICIV Portable Monitor 18.5 Inch 120Hz"
+        ],
+        [
+          "No firm budget ceiling, prioritizing panel quality or resolution",
+          "cocopar Portable Monitor 18.5 Inch 2K QHD 120Hz 120% sRGB"
+        ]
+      ]
+    }
   },
   {
-    subheading: "VESA Mount vs. Folio Cover-Stand: Pick One",
-    note: "Bolting a VESA adapter plate onto a portable monitor sometimes prevents the folio case from closing or folding flat for travel. If you want both a mounted desk setup and travel portability from the same monitor, check whether the VESA holes and the folio stand can coexist, or budget for accepting one use case over the other.",
+    "subheading": "USB-C DisplayPort Alt Mode vs HDMI",
+    "cards": [
+      {
+        "label": "USB-C (DisplayPort Alt Mode)",
+        "text": "Usually the port that hits the panel's full rated refresh rate, and can carry power alongside video on one cable. In this comparison: check each listing's stated USB-C refresh rate directly."
+      },
+      {
+        "label": "HDMI",
+        "text": "Reliable for consoles and older sources, but often capped below the panel's full rated refresh, especially at higher resolutions. In this comparison: cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C."
+      }
+    ],
+    "note": "If you're connecting a console or HDMI-only source specifically, verify the actual HDMI refresh ceiling on your chosen pick, since several picks here cap lower over HDMI than their headline spec suggests."
   },
+  {
+    "subheading": "By VESA Mount Compatibility",
+    "table": {
+      "headers": [
+        "Your setup",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Want a permanent mounted setup",
+          "cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C"
+        ],
+        [
+          "Prefer the included kickstand or case",
+          "cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Handheld Gaming PC or Console Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Your exact source device's documented maximum output refresh rate over the connection type you'll use, checked independently from the monitor's own rated capability, since handhelds like Steam Deck and ROG Ally commonly cap at 60Hz over USB-C."
+      },
+      {
+        "label": "In this comparison",
+        "text": "VisionOwl Portable Monitor for Laptop fits this specifically: Explicit 75x75mm VESA spec disclosed."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what cocopar Portable Monitor 18.5 Inch 2K QHD 120Hz 120% sRGB offers: Confirmed VESA mount at a sharper 2K resolution. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "MNN 15.6\" FHD 60Hz Portable Monitor USB-C HDMI IPS HDR already covers the essentials: Lowest price in this guide. The main thing you'd be paying extra for elsewhere in this list is headroom you may not actually use."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify VESA holes in the manufacturer's own listing, not search placement", explanation: "Two picks in this guide appear in VESA-related searches but don't confirm actual mounting holes in their own feature descriptions. Check the specific spec sheet before assuming any 'portable monitor' supports arm mounting." },
-  { criterion: "Check your monitor arm's minimum weight threshold", explanation: "Most monitor arms need a minimum weight (often around 4.4 lb / 2kg) to maintain spring tension. A very light portable monitor can be too light to hold position reliably, causing constant drift on some arms." },
-  { criterion: "VESA mounting may prevent using the fold-out stand simultaneously", explanation: "Bolting a VESA plate onto some portable monitors blocks the folio cover-stand from closing flat, a real tradeoff if you want both a mounted desk setup and travel portability from the same unit." },
-  { criterion: "Cable routing differs between arm-mounted and flat-desk use", explanation: "A cable routed for a flat-desk folio stand isn't optimized for an articulating arm's range of motion. Without a cable management channel on the arm, repeated articulation can strain the monitor's port connector over time." },
+  {
+    "criterion": "Check the refresh rate ceiling for each port separately, not just the headline spec",
+    "explanation": "A portable monitor's advertised refresh rate is typically its maximum achievable rate on its best-performing port, usually USB-C using DisplayPort Alt Mode, but the same panel connected over HDMI, especially older HDMI 2.0, frequently caps at a meaningfully lower rate because HDMI 2.0's bandwidth can't sustain the same data throughput as USB-C at higher resolutions.\n\nThis is a genuinely common source of buyer disappointment: someone buys a monitor rated 144Hz specifically to pair with a game console over HDMI, only to discover the HDMI port caps at 120Hz or even 60Hz on that specific model, a distinction the headline spec doesn't disclose.\n\nCheck the listing specifically for per-port refresh rate figures (USB-C rate versus HDMI rate stated separately), and match the port you'll actually use to the rate you actually need, not the single highest number in the title."
+  },
+  {
+    "criterion": "Confirm your specific source device can actually output above 60Hz before paying extra for a high refresh panel",
+    "explanation": "A monitor's refresh rate capability is meaningless if the connected source device can't output a signal above 60Hz in the first place, and this is a genuinely common mismatch: many laptop USB-C ports are data-only or video-limited to 60Hz regardless of Thunderbolt or USB4 branding, and handheld gaming PCs like Steam Deck and ROG Ally specifically output capped at 60Hz over USB-C in their current hardware generation, making a 144Hz-rated monitor's extra capability completely unused for that pairing despite the higher price paid for it.\n\nBefore buying specifically for the refresh rate, check your exact source device's documented maximum output refresh rate over the connection type you'll actually use (not just its general spec sheet), since a monitor's rated capability and your source device's actual output are two entirely separate specifications that both need to support the higher rate."
+  },
+  {
+    "criterion": "Understand that response time (GtG) affects visible motion clarity as much as refresh rate does",
+    "explanation": "Refresh rate (how many times per second the image updates) and response time (how quickly individual pixels can change color, commonly measured in milliseconds as gray-to-gray or GtG) are two separate specs that both affect how smooth and clear fast motion looks, and a high refresh rate paired with a slow response time still produces visible ghosting or blur trailing behind fast-moving objects, since the panel can't physically change pixel colors fast enough to keep up with the higher refresh rate's demands.\n\nThis matters because response time is disclosed far less consistently than refresh rate across portable monitor listings, many simply omit it entirely, making direct comparison difficult even when two panels share the same headline refresh number.\n\nCheck specifically for a stated GtG response time in milliseconds, and treat a genuinely high refresh rate spec with some skepticism if the listing doesn't also disclose response time, since the refresh number alone doesn't guarantee smooth-looking motion."
+  },
+  {
+    "criterion": "Check power delivery and cable requirements, since a portable monitor's convenience depends on how it's actually powered",
+    "explanation": "Portable monitors typically draw power either through the same USB-C cable carrying the video signal (single-cable operation, the more convenient setup) or through a separate dedicated power input, and some models support pass-through charging that lets your laptop's own charger power both the laptop and the monitor simultaneously through one connection.\n\nThis matters concretely for actual portability: a monitor requiring two separate cables (one for video, one for power) is meaningfully less convenient to set up and pack away than genuine single-cable operation, undermining part of the appeal of a \"portable\" monitor in the first place.\n\nCheck specifically whether the monitor supports single-cable USB-C operation with your source device, and confirm pass-through charging wattage if you want your laptop's charger to power both devices without needing two outlets."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, since this category includes both established models and many newer, similar-looking entrants",
+    "explanation": "Portable monitors from well-established sellers with years of accumulated sales carry review counts in the thousands, giving genuine statistical confidence in panel quality and long-term reliability, while newer listings, sometimes from the same manufacturer under a different model number or from less established brands entirely, can carry only a handful of reviews despite looking similarly specified and priced.\n\nThis is a real practical concern for a portable monitor specifically because panel defects (dead pixels, backlight bleed, uneven brightness) are a documented failure mode across this category, and a thin review base provides much less confidence that a specific listing's panel quality is consistent across units.\n\nWhen comparing two similarly specified and priced portable monitors, check both the star rating and the review count together, and treat a very small review count as a reason for extra caution even if the rating itself looks strong."
+  }
 ];
 
 export const faq: FaqItem[] = [

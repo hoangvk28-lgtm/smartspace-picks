@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "6,301 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31y1n0H2EtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZLY26FW?tag=deskfinds0d-20",
-    description:
-      "This connects to Surface Pro's USB-C port (never the Surface Connect port, which carries no video signal), and its real VESA mounting holes let you skip stacking a second stand behind Surface Pro's own kickstand entirely by mounting it on an arm instead. That sidesteps the desk-depth conflict a fold-out cover-stand would create.\n\nWith only one USB-C port on most Surface Pro models, connecting this monitor over USB-C leaves you relying on the Surface Connect port for charging simultaneously, which works fine since Surface Connect is dedicated to power.",
-    specs: ["15.6-inch 1080P, 60Hz, 85% sRGB", "Full-size HDMI + dual USB-C", "2 VESA mounting holes", "1.5 lb"],
-    pros: ["VESA mount avoids stacking a stand behind Surface Pro's kickstand", "Full-size HDMI included", "Frees your one USB-C port while Surface Connect handles charging", "Solid rating and price"],
-    cons: ["85% sRGB is modest color accuracy", "No touch support if you wanted a secondary touchscreen", "Cover-stand version, if used instead of VESA, adds desk depth"],
+    description: "This connects to Surface Pro's USB-C port (never the Surface Connect port, which carries no video signal), and its real VESA mounting holes let you skip stacking a second stand behind Surface Pro's own kickstand entirely by mounting it on an arm instead. That sidesteps the desk-depth conflict a fold-out cover-stand would create.\n\nIt earns the top spot in this comparison over VisionOwl Portable Monitor for Laptop for one main reason. VESA mount avoids stacking a stand behind Surface Pro's kickstand. On price, it comes in below VisionOwl Portable Monitor for Laptop, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Full-size HDMI included. On the other side, Cover-stand version, if used instead of VESA, adds desk depth. That's the main tradeoff to weigh against everything above.",
+    specs: ["15.6-inch 1080P, 60Hz, 85% sRGB","Full-size HDMI + dual USB-C","2 VESA mounting holes","1.5 lb"],
+    pros: ["VESA mount avoids stacking a stand behind Surface Pro's kickstand","Full-size HDMI included","Frees your one USB-C port while Surface Connect handles charging","Solid rating and price"],
+    cons: ["85% sRGB is modest color accuracy","No touch support if you wanted a secondary touchscreen","Cover-stand version, if used instead of VESA, adds desk depth"],
     bestFor: "Surface Pro owners who want to VESA-mount rather than stack stands on a small desk",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "2,044 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51+nqT75sRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CD3WJXWH?tag=deskfinds0d-20",
-    description:
-      "At 18.5 inches, this gives Surface Pro users significantly more screen real estate for split-screen multitasking than the 15.6-inch picks, and its 75x75mm VESA holes again let you skip the stand-stacking problem by mounting on an arm. Connects via USB-C, leaving Surface Connect free for charging.\n\nBe aware this is a Windows on Intel/ARM-agnostic panel with no touch support, if you wanted a secondary touchscreen to pair with Surface Pen input, this isn't it.",
-    specs: ["18.5-inch FHD, 100Hz, 125% sRGB", "Full-size HDMI + dual USB-C", "75x75mm VESA + kickstand", "2.7 lb"],
-    pros: ["Largest screen in this guide", "VESA mountable to avoid stand-stacking", "Full-size HDMI", "Good for split-screen multitasking"],
-    cons: ["Heavier and bulkier than the 15.6-inch picks", "No touchscreen support", "1080p at 18.5 inches looks softer than smaller high-density panels"],
+    description: "At 18.5 inches, this gives Surface Pro users significantly more screen real estate for split-screen multitasking than the 15.6-inch picks, and its 75x75mm VESA holes again let you skip the stand-stacking problem by mounting on an arm. Connects via USB-C, leaving Surface Connect free for charging.\n\nOne spot below cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB in this ranking, it costs more than cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB. The compromise here is straightforward: Heavier and bulkier than the 15.6-inch picks. What you gain in return: Largest screen in this guide. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: VESA mountable to avoid stand-stacking. On the other side, 1080p at 18.5 inches looks softer than smaller high-density panels. That's the main tradeoff to weigh against everything above.",
+    specs: ["18.5-inch FHD, 100Hz, 125% sRGB","Full-size HDMI + dual USB-C","75x75mm VESA + kickstand","2.7 lb"],
+    pros: ["Largest screen in this guide","VESA mountable to avoid stand-stacking","Full-size HDMI","Good for split-screen multitasking"],
+    cons: ["Heavier and bulkier than the 15.6-inch picks","No touchscreen support","1080p at 18.5 inches looks softer than smaller high-density panels"],
     bestFor: "Surface Pro owners who want maximum screen space for multitasking and can VESA-mount it",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "6,301 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41taGyfYchL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR8D6BQ3?tag=deskfinds0d-20",
-    description:
-      "A genuine step up in sharpness over the 1080p picks here, with a metal chassis and dual VESA holes for a clean arm-mounted setup that avoids competing with Surface Pro's own kickstand for desk depth. Note that Surface Pro X and Surface Pro 9 5G run Windows on ARM, and some portable monitor touch/driver utilities have historically had incomplete ARM64 support, this panel doesn't require any driver utility, so it's unaffected either way.\n\nConnects over USB-C with Surface Connect handling power, the standard split for any Surface Pro setup.",
-    specs: ["16-inch 2.5K QHD, 144Hz", "110% sRGB, metal chassis", "Full-size HDMI + dual USB-C", "Dual VESA holes"],
-    pros: ["Sharpest panel in this guide", "No driver dependency, so ARM Surface models aren't a concern", "Real VESA mount", "Metal build quality"],
-    cons: ["Priciest pick here", "144Hz has limited benefit from typical Surface Pro use", "Larger than the 15.6-inch picks"],
+    description: "A genuine step up in sharpness over the 1080p picks here, with a metal chassis and dual VESA holes for a clean arm-mounted setup that avoids competing with Surface Pro's own kickstand for desk depth. Note that Surface Pro X and Surface Pro 9 5G run Windows on ARM, and some portable monitor touch/driver utilities have historically had incomplete ARM64 support, this panel doesn't require any driver utility, so it's unaffected either way.\n\nSitting just under VisionOwl Portable Monitor for Laptop, it's priced lower than VisionOwl Portable Monitor for Laptop. Here's the honest tradeoff: Priciest pick here. And here's what it gets you instead: Sharpest panel in this guide. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: No driver dependency, so ARM Surface models aren't a concern. On the other side, Larger than the 15.6-inch picks. That's the main tradeoff to weigh against everything above.",
+    specs: ["16-inch 2.5K QHD, 144Hz","110% sRGB, metal chassis","Full-size HDMI + dual USB-C","Dual VESA holes"],
+    pros: ["Sharpest panel in this guide","No driver dependency, so ARM Surface models aren't a concern","Real VESA mount","Metal build quality"],
+    cons: ["Priciest pick here","144Hz has limited benefit from typical Surface Pro use","Larger than the 15.6-inch picks"],
     bestFor: "Surface Pro owners who want the sharpest available screen for document and design work",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "13,090 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51T7K-COzIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B088D8JG3L?tag=deskfinds0d-20",
-    description:
-      "The cheapest and most reviewed pick here, connecting over USB-C to Surface Pro's one full-function port while Surface Connect handles power. It has no VESA holes, only a fold-out cover-stand, which stacked behind Surface Pro's own kickstand can push past a small desk's usable depth, measure your desk before assuming it fits.\n\nA reasonable budget option if your desk has the depth for two stands, or if you're using it away from Surface Pro's kickstand entirely (propped against a wall, for instance).",
-    specs: ["15.6-inch 1080P IPS", "2x USB-C + mini-HDMI", "Magnetic smart cover stand", "1.7 lb"],
-    pros: ["Cheapest pick in this guide", "Largest review base", "Works over USB-C with Surface Connect free for charging", "Slim and light"],
-    cons: ["No VESA mount, cover-stand only", "Stand-stacking depth conflict with Surface Pro's kickstand", "Mini-HDMI only"],
+    description: "The cheapest and most reviewed pick here, connecting over USB-C to Surface Pro's one full-function port while Surface Connect handles power. It has no VESA holes, only a fold-out cover-stand, which stacked behind Surface Pro's own kickstand can push past a small desk's usable depth, measure your desk before assuming it fits.\n\nRanked just behind cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C, it's priced lower than cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C. The real tradeoff against that pick: No VESA mount, cover-stand only. In exchange, it offers this instead: Cheapest pick in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your source device.\n\nWorth knowing before you decide: Largest review base. On the other side, Mini-HDMI only. That's the main tradeoff to weigh against everything above.",
+    specs: ["15.6-inch 1080P IPS","2x USB-C + mini-HDMI","Magnetic smart cover stand","1.7 lb"],
+    pros: ["Cheapest pick in this guide","Largest review base","Works over USB-C with Surface Connect free for charging","Slim and light"],
+    cons: ["No VESA mount, cover-stand only","Stand-stacking depth conflict with Surface Pro's kickstand","Mini-HDMI only"],
     bestFor: "Budget-focused Surface Pro owners with enough desk depth for two stacked stands",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "1,156 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41r1U1sCYNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT44HPT3?tag=deskfinds0d-20",
-    description:
-      "A sharper alternative to the cocopar 16-inch pick at a lower price, with the same VESA-mount advantage for avoiding a Surface Pro desk-depth conflict. Includes a full accessory kit and a 30W PD adapter for standalone charging if you'd rather not rely on Surface Connect at your desk.\n\nGood middle ground between the budget 1080p picks and the pricier premium options.",
-    specs: ["16-inch 2K QHD, 144Hz USB-C/120Hz HDMI", "106% sRGB, aluminum body", "75x75mm VESA + smart cover", "1.76 lb"],
-    pros: ["Sharp 2.5K panel at a mid-range price", "VESA mountable", "Includes its own 30W adapter", "Strong rating"],
-    cons: ["Smaller review base than the top picks", "144Hz has limited benefit from typical use", "Not the cheapest option"],
+    description: "A sharper alternative to the cocopar 16-inch pick at a lower price, with the same VESA-mount advantage for avoiding a Surface Pro desk-depth conflict. Includes a full accessory kit and a 30W PD adapter for standalone charging if you'd rather not rely on Surface Connect at your desk.\n\nOne spot below KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover in this ranking, it costs more than KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover. The compromise here is straightforward: Smaller review base than the top picks. What you gain in return: Sharp 2.5K panel at a mid-range price. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: VESA mountable. On the other side, Not the cheapest option. That's the main tradeoff to weigh against everything above.",
+    specs: ["16-inch 2K QHD, 144Hz USB-C/120Hz HDMI","106% sRGB, aluminum body","75x75mm VESA + smart cover","1.76 lb"],
+    pros: ["Sharp 2.5K panel at a mid-range price","VESA mountable","Includes its own 30W adapter","Strong rating"],
+    cons: ["Smaller review base than the top picks","144Hz has limited benefit from typical use","Not the cheapest option"],
     bestFor: "Surface Pro owners who want a sharp screen without paying full premium price",
   },
   {
@@ -115,11 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "2,044 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41Vtb2coigL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVMC4BYJ?tag=deskfinds0d-20",
-    description:
-      "The most color-capable panel in this guide, useful if you use Surface Pro with a stylus for design or photo work and want an accurate secondary display. VESA mountable, sidestepping the kickstand-depth conflict other cover-stand picks create.\n\nHighest price here, and 4K over HDMI caps at 30Hz, use the USB-C connection for smooth 60Hz output.",
-    specs: ["15.6-inch 4K UHD, 145% sRGB claimed", "Full metal chassis, 75x75mm VESA", "USB-C + full-size HDMI", "Built-in kickstand"],
-    pros: ["Highest color gamut in this guide", "4K resolution", "VESA mountable", "Full-size HDMI"],
-    cons: ["Highest price here", "4K over HDMI caps at 30Hz", "Overkill for basic document/browsing use"],
+    description: "The most color-capable panel in this guide, useful if you use Surface Pro with a stylus for design or photo work and want an accurate secondary display. VESA mountable, sidestepping the kickstand-depth conflict other cover-stand picks create.\n\nSitting just under Upperizon Portable Monitor 16 inch 2K QHD 106% sRGB, it costs more than Upperizon Portable Monitor 16 inch 2K QHD 106% sRGB. Here's the honest tradeoff: Highest price here. And here's what it gets you instead: Highest color gamut in this guide. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: 4K resolution. On the other side, Overkill for basic document/browsing use. That's the main tradeoff to weigh against everything above.",
+    specs: ["15.6-inch 4K UHD, 145% sRGB claimed","Full metal chassis, 75x75mm VESA","USB-C + full-size HDMI","Built-in kickstand"],
+    pros: ["Highest color gamut in this guide","4K resolution","VESA mountable","Full-size HDMI"],
+    cons: ["Highest price here","4K over HDMI caps at 30Hz","Overkill for basic document/browsing use"],
     bestFor: "Surface Pro owners doing color-sensitive creative work with a stylus",
   },
   {
@@ -132,13 +126,12 @@ export const products: GuideProduct[] = [
     reviews: "6,301 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51OXc4g9NHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GGHPTLX9?tag=deskfinds0d-20",
-    description:
-      "The largest and sharpest combination in this guide, a genuine 2K panel at 18.5 inches rather than 1080p stretched over the same size. VESA mountable, again avoiding the stand-stacking desk-depth issue.\n\nAt 2.48 lb it's the heaviest pick here, a real consideration if you're also carrying Surface Pro's own kickstand-equipped weight around.",
-    specs: ["18.5-inch 2K QHD, 120Hz, 120% sRGB", "Full-size HDMI + dual USB-C", "75x75mm VESA", "2.48 lb"],
-    pros: ["Largest, sharpest combination here", "VESA mountable", "120% sRGB", "Full-size HDMI"],
-    cons: ["Heaviest pick in this guide", "Highest-tier pricing", "Overkill if you mainly need a basic second screen"],
+    description: "The largest and sharpest combination in this guide, a genuine 2K panel at 18.5 inches rather than 1080p stretched over the same size. VESA mountable, again avoiding the stand-stacking desk-depth issue.\n\nRanked just behind VisionOwl Portable Monitor 15.6 Inch 4K UHD 145% sRGB, it's priced lower than VisionOwl Portable Monitor 15.6 Inch 4K UHD 145% sRGB. The real tradeoff against that pick: Heaviest pick in this guide. In exchange, it offers this instead: Largest, sharpest combination here. That's the swap that decides whether this pick or the one above it is the better fit for your source device.\n\nWorth knowing before you decide: VESA mountable. On the other side, Overkill if you mainly need a basic second screen. That's the main tradeoff to weigh against everything above.",
+    specs: ["18.5-inch 2K QHD, 120Hz, 120% sRGB","Full-size HDMI + dual USB-C","75x75mm VESA","2.48 lb"],
+    pros: ["Largest, sharpest combination here","VESA mountable","120% sRGB","Full-size HDMI"],
+    cons: ["Heaviest pick in this guide","Highest-tier pricing","Overkill if you mainly need a basic second screen"],
     bestFor: "Surface Pro owners who want the largest, sharpest possible secondary screen",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -151,30 +144,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Surface Connect Cannot Output Video, Ever",
-    note: "Surface Pro's proprietary Surface Connect port is power-only. Only the USB-C port (or Mini DisplayPort on some models) carries video signal. If a monitor \"isn't detected,\" check that you plugged the video cable into the USB-C port, not Surface Connect.",
-  },
-  {
-    subheading: "VESA Mount vs. Cover-Stand: The Desk Depth Math",
-    table: {
-      headers: ["Stand type", "Desk depth added behind Surface Pro's kickstand", "Recommended picks"],
-      rows: [
-        ["VESA-mounted on an arm", "None, replaces the need for a second stand entirely", "cocopar 15.6\"/16\"/18.5\", VisionOwl 18.5\"/4K"],
-        ["Fold-out cover-stand", "2-4 additional inches, can exceed an 18-20\" small desk's depth", "KYY 15.6\" (rank 4)"],
+    "subheading": "By Refresh Rate",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Standard smooth motion",
+          "cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB"
+        ],
+        [
+          "Maximum refresh headroom",
+          "Upperizon Portable Monitor 16 inch 2K QHD 106% sRGB"
+        ]
+      ]
+    }
   },
   {
-    subheading: "ARM64 Surface Models (Pro X, Pro 9 5G)",
-    note: "None of the picks in this guide require a DisplayLink driver or touch utility, so ARM64 compatibility isn't a concern here. If you're considering a touchscreen portable monitor elsewhere, verify ARM64 driver support first, some touch utilities have historically lacked native ARM64 builds.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $110",
+          "KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover"
+        ],
+        [
+          "Mid-range",
+          "cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C"
+        ],
+        [
+          "No firm budget ceiling, prioritizing panel quality or resolution",
+          "VisionOwl Portable Monitor 15.6 Inch 4K UHD 145% sRGB"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "USB-C DisplayPort Alt Mode vs HDMI",
+    "cards": [
+      {
+        "label": "USB-C (DisplayPort Alt Mode)",
+        "text": "Usually the port that hits the panel's full rated refresh rate, and can carry power alongside video on one cable. In this comparison: check each listing's stated USB-C refresh rate directly."
+      },
+      {
+        "label": "HDMI",
+        "text": "Reliable for consoles and older sources, but often capped below the panel's full rated refresh, especially at higher resolutions. In this comparison: cocopar Portable Monitor 16 Inch 2.5K QHD 110% sRGB 144Hz USB-C, Upperizon Portable Monitor 16 inch 2K QHD 106% sRGB."
+      }
+    ],
+    "note": "If you're connecting a console or HDMI-only source specifically, verify the actual HDMI refresh ceiling on your chosen pick, since several picks here cap lower over HDMI than their headline spec suggests."
+  },
+  {
+    "subheading": "By VESA Mount Compatibility",
+    "table": {
+      "headers": [
+        "Your setup",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Want a permanent mounted setup",
+          "cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB"
+        ],
+        [
+          "Prefer the included kickstand or case",
+          "KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Handheld Gaming PC or Console Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Your exact source device's documented maximum output refresh rate over the connection type you'll use, checked independently from the monitor's own rated capability, since handhelds like Steam Deck and ROG Ally commonly cap at 60Hz over USB-C."
+      },
+      {
+        "label": "In this comparison",
+        "text": "cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB fits this specifically: VESA mount avoids stacking a stand behind Surface Pro's kickstand."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what VisionOwl Portable Monitor 15.6 Inch 4K UHD 145% sRGB offers: Highest color gamut in this guide. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover already covers the essentials: Cheapest pick in this guide. The main thing you'd be paying extra for elsewhere in this list is headroom you may not actually use."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Always connect video via USB-C, never Surface Connect", explanation: "Surface Connect carries power only. A monitor plugged into it for video will never be detected, this is the most common setup mistake for Surface Pro portable monitor buyers." },
-  { criterion: "VESA mounting avoids a real desk-depth conflict", explanation: "Surface Pro's built-in kickstand needs 4-6 inches of desk depth. Stacking a monitor's own fold-out stand behind that can exceed an 18-20 inch small desk's usable depth, VESA-mounting the monitor on an arm sidesteps this entirely." },
-  { criterion: "One USB-C port means Surface Connect handles charging", explanation: "Most Surface Pro models have only one full-function USB-C port. Using it for the monitor is fine since Surface Connect remains available for simultaneous charging." },
-  { criterion: "ARM64 Surface models don't need special driver compatibility for these picks", explanation: "None of the monitors in this guide require DisplayLink or a touch driver utility, so Surface Pro X / Pro 9 5G ARM64 compatibility isn't a factor for any of these 7 picks." },
+  {
+    "criterion": "Check the refresh rate ceiling for each port separately, not just the headline spec",
+    "explanation": "A portable monitor's advertised refresh rate is typically its maximum achievable rate on its best-performing port, usually USB-C using DisplayPort Alt Mode, but the same panel connected over HDMI, especially older HDMI 2.0, frequently caps at a meaningfully lower rate because HDMI 2.0's bandwidth can't sustain the same data throughput as USB-C at higher resolutions.\n\nThis is a genuinely common source of buyer disappointment: someone buys a monitor rated 144Hz specifically to pair with a game console over HDMI, only to discover the HDMI port caps at 120Hz or even 60Hz on that specific model, a distinction the headline spec doesn't disclose.\n\nCheck the listing specifically for per-port refresh rate figures (USB-C rate versus HDMI rate stated separately), and match the port you'll actually use to the rate you actually need, not the single highest number in the title."
+  },
+  {
+    "criterion": "Confirm your specific source device can actually output above 60Hz before paying extra for a high refresh panel",
+    "explanation": "A monitor's refresh rate capability is meaningless if the connected source device can't output a signal above 60Hz in the first place, and this is a genuinely common mismatch: many laptop USB-C ports are data-only or video-limited to 60Hz regardless of Thunderbolt or USB4 branding, and handheld gaming PCs like Steam Deck and ROG Ally specifically output capped at 60Hz over USB-C in their current hardware generation, making a 144Hz-rated monitor's extra capability completely unused for that pairing despite the higher price paid for it.\n\nBefore buying specifically for the refresh rate, check your exact source device's documented maximum output refresh rate over the connection type you'll actually use (not just its general spec sheet), since a monitor's rated capability and your source device's actual output are two entirely separate specifications that both need to support the higher rate."
+  },
+  {
+    "criterion": "Understand that response time (GtG) affects visible motion clarity as much as refresh rate does",
+    "explanation": "Refresh rate (how many times per second the image updates) and response time (how quickly individual pixels can change color, commonly measured in milliseconds as gray-to-gray or GtG) are two separate specs that both affect how smooth and clear fast motion looks, and a high refresh rate paired with a slow response time still produces visible ghosting or blur trailing behind fast-moving objects, since the panel can't physically change pixel colors fast enough to keep up with the higher refresh rate's demands.\n\nThis matters because response time is disclosed far less consistently than refresh rate across portable monitor listings, many simply omit it entirely, making direct comparison difficult even when two panels share the same headline refresh number.\n\nCheck specifically for a stated GtG response time in milliseconds, and treat a genuinely high refresh rate spec with some skepticism if the listing doesn't also disclose response time, since the refresh number alone doesn't guarantee smooth-looking motion."
+  },
+  {
+    "criterion": "Check power delivery and cable requirements, since a portable monitor's convenience depends on how it's actually powered",
+    "explanation": "Portable monitors typically draw power either through the same USB-C cable carrying the video signal (single-cable operation, the more convenient setup) or through a separate dedicated power input, and some models support pass-through charging that lets your laptop's own charger power both the laptop and the monitor simultaneously through one connection.\n\nThis matters concretely for actual portability: a monitor requiring two separate cables (one for video, one for power) is meaningfully less convenient to set up and pack away than genuine single-cable operation, undermining part of the appeal of a \"portable\" monitor in the first place.\n\nCheck specifically whether the monitor supports single-cable USB-C operation with your source device, and confirm pass-through charging wattage if you want your laptop's charger to power both devices without needing two outlets."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, since this category includes both established models and many newer, similar-looking entrants",
+    "explanation": "Portable monitors from well-established sellers with years of accumulated sales carry review counts in the thousands, giving genuine statistical confidence in panel quality and long-term reliability, while newer listings, sometimes from the same manufacturer under a different model number or from less established brands entirely, can carry only a handful of reviews despite looking similarly specified and priced.\n\nThis is a real practical concern for a portable monitor specifically because panel defects (dead pixels, backlight bleed, uneven brightness) are a documented failure mode across this category, and a thin review base provides much less confidence that a specific listing's panel quality is consistent across units.\n\nWhen comparing two similarly specified and priced portable monitors, check both the star rating and the review count together, and treat a very small review count as a reason for extra caution even if the rating itself looks strong."
+  }
 ];
 
 export const faq: FaqItem[] = [
