@@ -24,7 +24,7 @@ export const products: GuideProduct[] = [
     id: "tplink-archer-be550",
     rank: 1,
     badge: "Best BE9300 Wi-Fi 7 Router Overall",
-    name: "TP-Link Tri-Band BE9300 WiFi 7 Router (Archer BE550) – 6-Stream, Full 2.5G Ports, 6 Internal Antennas, Up to 2,000 sq. ft., EasyMesh Expansion, VPN",
+    name: "TP-Link Tri-Band BE9300 WiFi 7 Router (Archer BE550), 6-Stream, Full 2.5G Ports, 6 Internal Antennas, Up to 2,000 sq. ft., EasyMesh Expansion, VPN",
     price: "$149.99",
     rating: "4.1 stars from 1,732 Amazon ratings",
     reviews: "1,732 ratings",
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     id: "netgear-nighthawk-be9300",
     rank: 2,
     badge: "Best Established Brand BE9300 Pick",
-    name: "NETGEAR Nighthawk WiFi 7 Router (BE9300) – Router Only, 9.3Gbps Wireless Speed, 2.5 Gigabit Internet Port, Tri-Band for Gaming, Covers 2,500 sq. ft., 100 Devices, VPN",
+    name: "NETGEAR Nighthawk WiFi 7 Router (BE9300), Router Only, 9.3Gbps Wireless Speed, 2.5 Gigabit Internet Port, Tri-Band for Gaming, Covers 2,500 sq. ft., 100 Devices, VPN",
     price: "$249.00",
     rating: "4.3 stars from 647 Amazon ratings",
     reviews: "647 ratings",
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     id: "tplink-archer-be600",
     rank: 4,
     badge: "Best Step-Up Pick Toward BE19000",
-    name: "TP-Link Tri-Band BE9700 WiFi 7 Router (Archer BE600) – 10G Port, 2.5G Port, 3× 2.5G LAN, 320MHz Channel, Covers up to 2,600 sq. ft., 120 Devices, VPN, HomeShield Security",
+    name: "TP-Link Tri-Band BE9700 WiFi 7 Router (Archer BE600), 10G Port, 2.5G Port, 3× 2.5G LAN, 320MHz Channel, Covers up to 2,600 sq. ft., 120 Devices, VPN, HomeShield Security",
     price: "$189.99",
     rating: "4.3 stars from 472 Amazon ratings",
     reviews: "472 ratings",
@@ -101,24 +101,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "BE9300 Genuinely Includes Real Tri-Band Capability",
-    note: "Unlike the entry BE3600/BE6500 tiers, BE9300 genuinely includes a real 6GHz radio with a reasonable channel width up to 320MHz, a meaningful positive contrast worth confirming per specific model before buying.",
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest average rating",
+          "GL.iNet GL"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "TP"
+        ]
+      ]
+    }
   },
   {
-    subheading: "MLO Maturity Varies by Vendor Even at the Same Chip Tier",
-    note: "MLO support maturity and firmware completeness should be verified per vendor, since different manufacturers' actual chipset implementations can vary meaningfully even under the same 'BE9300' designation. Check current firmware release notes or recent reviews for the specific model you're considering.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $150",
+          "TP"
+        ],
+        [
+          "Up to $249",
+          "NETGEAR Nighthawk WiFi 7 Router"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Antenna Count Doesn't Equal Spatial Stream Performance",
-    note: "Antenna configuration and spatial stream count specific to BE9300-labeled products should be verified rather than assuming antenna count alone indicates real capability, a nuance also covered in our broader tri-band comparison research.",
+    "subheading": "Mesh System vs Single Router",
+    "cards": [
+      {
+        "label": "Mesh system",
+        "text": "Spreads coverage more evenly across a larger home or multiple floors, worth it if a single router leaves dead zones. In this comparison: TP, TP."
+      },
+      {
+        "label": "Single router",
+        "text": "Simpler and usually cheaper, fine for a smaller home or apartment. In this comparison: NETGEAR Nighthawk WiFi 7 Router, GL.iNet GL."
+      }
+    ],
+    "note": "Default to a single router unless your home's size or layout genuinely needs mesh coverage."
   },
+  {
+    "subheading": "By Wired Port Speed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "10GbE port available",
+          "TP"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Fiber Internet Plan Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A WAN port speed matched to or exceeding your actual fiber plan's rated speed, not just a fast LAN port for local devices."
+      },
+      {
+        "label": "In this comparison",
+        "text": "TP is worth checking against its listed WAN port speed before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You have a fast fiber plan, run a NAS, or need mesh coverage, where NETGEAR Nighthawk WiFi 7 Router's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "Your internet plan tops out at standard gigabit, where TP covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "BE9300 genuinely delivers real tri-band capability", explanation: "Unlike entry-tier BE3600/BE6500, this tier includes a genuine 6GHz radio with a reasonable channel width up to 320MHz, a meaningful upgrade worth confirming per model." },
-  { criterion: "MLO maturity varies by vendor at the same chip tier", explanation: "Different manufacturers' actual chipset implementations can vary meaningfully even under the same BE9300 designation, check current firmware and reviews for the specific model." },
-  { criterion: "Antenna count doesn't equal spatial stream performance", explanation: "Verify actual spatial stream count rather than assuming a higher antenna number alone indicates better real-world capability." },
-  { criterion: "A 10G port matters only with matching infrastructure", explanation: "Step-up picks with a 10G port are only genuinely beneficial if you have 10-gigabit internet or a 10GbE NAS setup to actually use it." },
+  {
+    "criterion": "Decode BE-series numbers as theoretical combined throughput, not real device speed",
+    "explanation": "A BE9300 or BE19000 label is a sum of the theoretical maximum throughput across every radio band added together, not a speed any single connected device can actually achieve, since no client connects to all bands simultaneously at their individual peak rates.\n\nThis matters because comparing routers purely by their BE number can be misleading, a higher BE number doesn't necessarily mean meaningfully faster real-world speed for your actual devices, it can just reflect more bands or wider channels contributing to the sum.\n\nCheck the individual per-band speed figures in the spec sheet rather than trusting the combined BE number alone, and weigh that against what your actual devices can realistically use."
+  },
+  {
+    "criterion": "Understand MLO benefits require Wi-Fi 7 client devices you probably don't own yet",
+    "explanation": "Multi-Link Operation (MLO) is Wi-Fi 7's genuine headline feature, letting a device use multiple bands simultaneously for lower latency and better reliability, but it only works when both the router and the connecting device have full Wi-Fi 7 MLO-capable chipsets, and most phones, laptops, and other devices in active use today still don't have this hardware.\n\nThis matters because a big part of what makes Wi-Fi 7 technically exciting is currently theoretical for a typical household's actual device mix, the router will still work great as a very capable Wi-Fi 6E-equivalent device, just without MLO's specific benefit until you own Wi-Fi 7 client devices.\n\nCheck which of your actual devices, if any, are Wi-Fi 7 MLO-capable before treating that feature as a purchase-deciding factor today."
+  },
+  {
+    "criterion": "Verify genuine tri-band (6GHz) versus a dual-band router carrying the Wi-Fi 7 label",
+    "explanation": "Not every router marketed with the Wi-Fi 7 label includes the 6GHz radio band that actually defines the standard's core capability, some are dual-band routers using newer Wi-Fi 7 protocol improvements on the 2.4GHz and 5GHz bands without adding 6GHz at all.\n\nThis distinction matters directly if 6GHz's wider, less congested channels are the reason you're upgrading, a dual-band Wi-Fi 7 router without 6GHz won't deliver that specific benefit even though it carries the same marketing label.\n\nCheck the spec sheet specifically for a stated 6GHz band, not just the presence of \"Wi-Fi 7\" in the product title, before assuming any Wi-Fi 7-labeled router includes it."
+  },
+  {
+    "criterion": "Match wired port speed to your actual internet plan and NAS or gaming needs",
+    "explanation": "A router's wireless speed capability is meaningless if its wired Ethernet ports bottleneck the connection, a gigabit-only LAN port caps wired throughput well below what a genuinely fast fiber plan or a NAS transferring large files could otherwise achieve, while 2.5G or 10G ports remove that ceiling.\n\nThis matters directly if you have a fiber plan faster than 1Gbps, run a NAS for file transfers, or want the lowest possible latency for wired gaming, less if your actual internet plan or use case never exceeds standard gigabit anyway.\n\nCheck the specific port speeds listed for both WAN and LAN ports, not just whether the router is described as \"multi-gig capable\" in marketing copy, since one fast port among several gigabit ones is a common half-measure."
+  },
+  {
+    "criterion": "Consider 6GHz's shorter range and whether your home's layout actually needs a mesh setup",
+    "explanation": "The 6GHz band offers wider, less congested channels for faster speeds but has meaningfully shorter wall-penetration range than 5GHz or 2.4GHz, meaning a single router may not deliver reliable 6GHz coverage throughout a larger home or one with many interior walls.\n\nThis matters directly for a multi-floor home or an apartment with thick walls, where a single high-end router might leave dead zones on 6GHz specifically even while 5GHz coverage remains fine, a mesh system spreads that coverage more evenly at the cost of additional hardware and expense.\n\nCheck your home's actual square footage and layout against the router's stated coverage area, and consider whether a mesh system is worth the added cost before assuming one router covers your whole space on 6GHz."
+  }
 ];
 
 export const faq: FaqItem[] = [

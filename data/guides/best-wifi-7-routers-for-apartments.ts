@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     id: "netgear-rs90-apt",
     rank: 2,
     badge: "Best Established Brand Apartment Pick",
-    name: "NETGEAR Nighthawk Dual-Band WiFi 7 Router (RS90) – Router Only, BE3600 Wireless Speed (up to 3.6 Gbps) - Covers up to 2,000 sq. ft., 50 Devices – 2.5 Gig Internet Port",
+    name: "NETGEAR Nighthawk Dual-Band WiFi 7 Router (RS90), Router Only, BE3600 Wireless Speed (up to 3.6 Gbps) - Covers up to 2,000 sq. ft., 50 Devices, 2.5 Gig Internet Port",
     price: "$129.00",
     rating: "4.3 stars from 1,373 Amazon ratings",
     reviews: "1,373 ratings",
@@ -118,37 +118,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Concrete and Steel Walls Cut 6GHz Range Significantly",
-    note: "Concrete/steel construction's 6GHz-penetration impact should be a central consideration for apartment buyers, given how directly relevant this is to typical apartment building materials. A dual-band router that doesn't rely on 6GHz can be a genuinely reasonable choice rather than paying for range this construction type would limit anyway.",
-  },
-  {
-    subheading: "Dense Neighbor Networks Create Real Interference",
-    note: "Apartment buildings commonly have many overlapping neighbor Wi-Fi networks creating real 2.4GHz/5GHz congestion, a genuine interference factor open-lab router testing doesn't reflect. Favor routers with strong beamforming and an established brand's interference-management track record over raw speed specs alone.",
-  },
-  {
-    subheading: "Match Router Type to Your Apartment's Layout",
-    table: {
-      headers: ["Your apartment", "Recommended pick"],
-      rows: [
-        ["Studio or one-bedroom, budget-conscious", "TP-Link Archer BE230"],
-        ["Studio needing flexible placement", "Roam 7 BE3600 Portable Router"],
-        ["Dense building, want coverage headroom", "NETGEAR Nighthawk RS90"],
-        ["Multi-bedroom or unusual layout", "TP-Link Deco 7 Mesh (3-pack)"],
-        ["Many devices, remote work household", "NETGEAR Nighthawk RS140"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "TP"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "TP"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Renters Usually Can't Install Wired Backhaul",
-    note: "Landlord restrictions on wall mounting or running wired Ethernet backhaul are common, apartment renters often can't install the wired backhaul that homeowners can use to bypass wireless mesh limitations. Choose a wireless mesh system or single router that performs well without wired infrastructure.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $80",
+          "TP"
+        ],
+        [
+          "Up to $158",
+          "NETGEAR Nighthawk Dual"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Mesh System vs Single Router",
+    "cards": [
+      {
+        "label": "Mesh system",
+        "text": "Spreads coverage more evenly across a larger home or multiple floors, worth it if a single router leaves dead zones. In this comparison: TP, TP, NETGEAR Nighthawk Dual."
+      },
+      {
+        "label": "Single router",
+        "text": "Simpler and usually cheaper, fine for a smaller home or apartment. In this comparison: NETGEAR Nighthawk Dual, Roam 7 BE3600 Wi."
+      }
+    ],
+    "note": "Default to a single router unless your home's size or layout genuinely needs mesh coverage."
+  },
+  {
+    "subheading": "By Wired Port Speed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "2.5GbE port available",
+          "TP"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Fiber Internet Plan Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A WAN port speed matched to or exceeding your actual fiber plan's rated speed, not just a fast LAN port for local devices."
+      },
+      {
+        "label": "In this comparison",
+        "text": "TP is worth checking against its listed WAN port speed before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You have a fast fiber plan, run a NAS, or need mesh coverage, where NETGEAR Nighthawk Dual's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "Your internet plan tops out at standard gigabit, where TP covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Concrete/steel construction significantly limits 6GHz range", explanation: "This is the central consideration for apartment buyers specifically, since most apartment buildings use these materials, don't overpay for 6GHz range this construction would limit anyway." },
-  { criterion: "Dense neighbor Wi-Fi networks create real interference", explanation: "Apartment buildings commonly have many overlapping neighbor networks, a genuine congestion factor that open-lab testing doesn't reflect, favor strong beamforming and established brands." },
-  { criterion: "Renters usually can't install wired mesh backhaul", explanation: "Landlord restrictions often prevent running wired Ethernet between rooms, choose a wireless mesh system or single router that performs well without that infrastructure." },
-  { criterion: "A single router is often genuinely sufficient for smaller units", explanation: "Smaller apartment square footage may not require a multi-node mesh system, avoid unnecessary mesh overkill for a space that doesn't need it." },
+  {
+    "criterion": "Decode BE-series numbers as theoretical combined throughput, not real device speed",
+    "explanation": "A BE9300 or BE19000 label is a sum of the theoretical maximum throughput across every radio band added together, not a speed any single connected device can actually achieve, since no client connects to all bands simultaneously at their individual peak rates.\n\nThis matters because comparing routers purely by their BE number can be misleading, a higher BE number doesn't necessarily mean meaningfully faster real-world speed for your actual devices, it can just reflect more bands or wider channels contributing to the sum.\n\nCheck the individual per-band speed figures in the spec sheet rather than trusting the combined BE number alone, and weigh that against what your actual devices can realistically use."
+  },
+  {
+    "criterion": "Understand MLO benefits require Wi-Fi 7 client devices you probably don't own yet",
+    "explanation": "Multi-Link Operation (MLO) is Wi-Fi 7's genuine headline feature, letting a device use multiple bands simultaneously for lower latency and better reliability, but it only works when both the router and the connecting device have full Wi-Fi 7 MLO-capable chipsets, and most phones, laptops, and other devices in active use today still don't have this hardware.\n\nThis matters because a big part of what makes Wi-Fi 7 technically exciting is currently theoretical for a typical household's actual device mix, the router will still work great as a very capable Wi-Fi 6E-equivalent device, just without MLO's specific benefit until you own Wi-Fi 7 client devices.\n\nCheck which of your actual devices, if any, are Wi-Fi 7 MLO-capable before treating that feature as a purchase-deciding factor today."
+  },
+  {
+    "criterion": "Verify genuine tri-band (6GHz) versus a dual-band router carrying the Wi-Fi 7 label",
+    "explanation": "Not every router marketed with the Wi-Fi 7 label includes the 6GHz radio band that actually defines the standard's core capability, some are dual-band routers using newer Wi-Fi 7 protocol improvements on the 2.4GHz and 5GHz bands without adding 6GHz at all.\n\nThis distinction matters directly if 6GHz's wider, less congested channels are the reason you're upgrading, a dual-band Wi-Fi 7 router without 6GHz won't deliver that specific benefit even though it carries the same marketing label.\n\nCheck the spec sheet specifically for a stated 6GHz band, not just the presence of \"Wi-Fi 7\" in the product title, before assuming any Wi-Fi 7-labeled router includes it."
+  },
+  {
+    "criterion": "Match wired port speed to your actual internet plan and NAS or gaming needs",
+    "explanation": "A router's wireless speed capability is meaningless if its wired Ethernet ports bottleneck the connection, a gigabit-only LAN port caps wired throughput well below what a genuinely fast fiber plan or a NAS transferring large files could otherwise achieve, while 2.5G or 10G ports remove that ceiling.\n\nThis matters directly if you have a fiber plan faster than 1Gbps, run a NAS for file transfers, or want the lowest possible latency for wired gaming, less if your actual internet plan or use case never exceeds standard gigabit anyway.\n\nCheck the specific port speeds listed for both WAN and LAN ports, not just whether the router is described as \"multi-gig capable\" in marketing copy, since one fast port among several gigabit ones is a common half-measure."
+  },
+  {
+    "criterion": "Consider 6GHz's shorter range and whether your home's layout actually needs a mesh setup",
+    "explanation": "The 6GHz band offers wider, less congested channels for faster speeds but has meaningfully shorter wall-penetration range than 5GHz or 2.4GHz, meaning a single router may not deliver reliable 6GHz coverage throughout a larger home or one with many interior walls.\n\nThis matters directly for a multi-floor home or an apartment with thick walls, where a single high-end router might leave dead zones on 6GHz specifically even while 5GHz coverage remains fine, a mesh system spreads that coverage more evenly at the cost of additional hardware and expense.\n\nCheck your home's actual square footage and layout against the router's stated coverage area, and consider whether a mesh system is worth the added cost before assuming one router covers your whole space on 6GHz."
+  }
 ];
 
 export const faq: FaqItem[] = [

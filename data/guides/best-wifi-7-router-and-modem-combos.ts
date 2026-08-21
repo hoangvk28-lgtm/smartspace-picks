@@ -101,33 +101,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Understand This Category Is Still Thin",
-    note: "Genuine Wi-Fi 7 router-plus-cable-modem combo devices are a small, still-maturing product category, worth being transparent that this guide includes proven Wi-Fi 6 combo alternatives given how thin the genuine Wi-Fi 7 combo selection currently is.",
-  },
-  {
-    subheading: "Verify DOCSIS Compatibility and Rental Fee Replacement First",
-    note: "DOCSIS version compatibility with your specific cable ISP must be verified before comparing any Wi-Fi feature, and check whether your ISP allows using owned equipment without double-charging, since a purchased combo is only worthwhile if it fully replaces an existing rental fee.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Genuine Wi-Fi 7 combo, accept newer category risk", "ARRIS Surfboard G54"],
-        ["Proven combo, larger review base", "NETGEAR Nighthawk CAX30"],
-        ["Maximum ISP compatibility confidence", "NETGEAR Nighthawk CAX80"],
-        ["Avoid combo tradeoffs entirely", "TP-Link Archer BE550 (separate router)"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "NETGEAR Nighthawk Modem Router Combo"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "NETGEAR Nighthawk Cable Modem and WiFi 6 Router Combo"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $170",
+          "TP"
+        ],
+        [
+          "Up to $450",
+          "NETGEAR Nighthawk Cable Modem and WiFi 6 Router Combo"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Review Base vs Price",
+    "cards": [
+      {
+        "label": "TP",
+        "text": "The lower-priced option in this comparison, worth checking its band configuration against your actual needs."
+      },
+      {
+        "label": "NETGEAR Nighthawk Cable Modem and WiFi 6 Router Combo",
+        "text": "The higher-priced option, worth it if it offers real coverage or port-speed headroom above the cheaper pick."
+      }
+    ],
+    "note": "Default to TP unless your setup genuinely calls for the pricier pick."
+  },
+  {
+    "subheading": "By Wired Port Speed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "2.5GbE port available",
+          "TP"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Fiber Internet Plan Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A WAN port speed matched to or exceeding your actual fiber plan's rated speed, not just a fast LAN port for local devices."
+      },
+      {
+        "label": "In this comparison",
+        "text": "NETGEAR Nighthawk Cable Modem and WiFi 6 Router Combo is worth checking against its listed WAN port speed before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You have a fast fiber plan, run a NAS, or need mesh coverage, where NETGEAR Nighthawk Cable Modem and WiFi 6 Router Combo's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "Your internet plan tops out at standard gigabit, where TP covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify the genuine Wi-Fi 7 combo category is still thin", explanation: "Real Wi-Fi 7 combo options are limited, don't assume a broad mature market exists the way it does for standalone routers." },
-  { criterion: "Confirm DOCSIS version compatibility with your specific ISP", explanation: "A combo incompatible with your local cable provider's DOCSIS standard is useless regardless of its Wi-Fi capability." },
-  { criterion: "Weigh the single-point-of-failure risk of a combo device", explanation: "A combo device means both your internet and Wi-Fi go down together if the single unit fails, unlike a separate modem and router." },
-  { criterion: "Check whether a purchased combo actually replaces a rental fee", explanation: "Many ISPs already include a rental modem-router combo in the bill, a purchased combo is only worthwhile if it fully replaces that fee." },
-  { criterion: "Understand firmware update responsibility can be split", explanation: "Update paths can be split between ISP-approved schedules and the manufacturer's own, potentially causing update lag on a combo device." },
+  {
+    "criterion": "Decode BE-series numbers as theoretical combined throughput, not real device speed",
+    "explanation": "A BE9300 or BE19000 label is a sum of the theoretical maximum throughput across every radio band added together, not a speed any single connected device can actually achieve, since no client connects to all bands simultaneously at their individual peak rates.\n\nThis matters because comparing routers purely by their BE number can be misleading, a higher BE number doesn't necessarily mean meaningfully faster real-world speed for your actual devices, it can just reflect more bands or wider channels contributing to the sum.\n\nCheck the individual per-band speed figures in the spec sheet rather than trusting the combined BE number alone, and weigh that against what your actual devices can realistically use."
+  },
+  {
+    "criterion": "Understand MLO benefits require Wi-Fi 7 client devices you probably don't own yet",
+    "explanation": "Multi-Link Operation (MLO) is Wi-Fi 7's genuine headline feature, letting a device use multiple bands simultaneously for lower latency and better reliability, but it only works when both the router and the connecting device have full Wi-Fi 7 MLO-capable chipsets, and most phones, laptops, and other devices in active use today still don't have this hardware.\n\nThis matters because a big part of what makes Wi-Fi 7 technically exciting is currently theoretical for a typical household's actual device mix, the router will still work great as a very capable Wi-Fi 6E-equivalent device, just without MLO's specific benefit until you own Wi-Fi 7 client devices.\n\nCheck which of your actual devices, if any, are Wi-Fi 7 MLO-capable before treating that feature as a purchase-deciding factor today."
+  },
+  {
+    "criterion": "Verify genuine tri-band (6GHz) versus a dual-band router carrying the Wi-Fi 7 label",
+    "explanation": "Not every router marketed with the Wi-Fi 7 label includes the 6GHz radio band that actually defines the standard's core capability, some are dual-band routers using newer Wi-Fi 7 protocol improvements on the 2.4GHz and 5GHz bands without adding 6GHz at all.\n\nThis distinction matters directly if 6GHz's wider, less congested channels are the reason you're upgrading, a dual-band Wi-Fi 7 router without 6GHz won't deliver that specific benefit even though it carries the same marketing label.\n\nCheck the spec sheet specifically for a stated 6GHz band, not just the presence of \"Wi-Fi 7\" in the product title, before assuming any Wi-Fi 7-labeled router includes it."
+  },
+  {
+    "criterion": "Match wired port speed to your actual internet plan and NAS or gaming needs",
+    "explanation": "A router's wireless speed capability is meaningless if its wired Ethernet ports bottleneck the connection, a gigabit-only LAN port caps wired throughput well below what a genuinely fast fiber plan or a NAS transferring large files could otherwise achieve, while 2.5G or 10G ports remove that ceiling.\n\nThis matters directly if you have a fiber plan faster than 1Gbps, run a NAS for file transfers, or want the lowest possible latency for wired gaming, less if your actual internet plan or use case never exceeds standard gigabit anyway.\n\nCheck the specific port speeds listed for both WAN and LAN ports, not just whether the router is described as \"multi-gig capable\" in marketing copy, since one fast port among several gigabit ones is a common half-measure."
+  },
+  {
+    "criterion": "Consider 6GHz's shorter range and whether your home's layout actually needs a mesh setup",
+    "explanation": "The 6GHz band offers wider, less congested channels for faster speeds but has meaningfully shorter wall-penetration range than 5GHz or 2.4GHz, meaning a single router may not deliver reliable 6GHz coverage throughout a larger home or one with many interior walls.\n\nThis matters directly for a multi-floor home or an apartment with thick walls, where a single high-end router might leave dead zones on 6GHz specifically even while 5GHz coverage remains fine, a mesh system spreads that coverage more evenly at the cost of additional hardware and expense.\n\nCheck your home's actual square footage and layout against the router's stated coverage area, and consider whether a mesh system is worth the added cost before assuming one router covers your whole space on 6GHz."
+  }
 ];
 
 export const faq: FaqItem[] = [

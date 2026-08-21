@@ -101,33 +101,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Verify Regional 6GHz Channel and Power Level Availability",
-    note: "6GHz band availability and specific sub-bands like UNII-4 and UNII-8 are regulated differently by country, worth verifying which specific channels and power levels are actually permitted in your region rather than assuming uniform global availability.",
-  },
-  {
-    subheading: "Expect Occasional DFS Interruptions and Shifting Congestion",
-    note: "DFS requirements on some 6GHz channels can cause routers to temporarily vacate a channel, creating brief connectivity interruptions, and the 'less congested' framing around 6GHz will erode over time as more 6GHz devices enter the market.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Best value, confirmed genuine 6GHz", "TP-Link Archer BE550"],
-        ["Maximum 6GHz channel width", "TP-Link Archer BE600"],
-        ["Newest 6GHz chipset generation", "TP-Link Archer BE12000"],
-        ["6GHz coverage across a larger home", "TP-Link Deco 7 Pro Mesh"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "TP"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "TP"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $170",
+          "TP"
+        ],
+        [
+          "Up to $413",
+          "TP"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Mesh System vs Single Router",
+    "cards": [
+      {
+        "label": "Mesh system",
+        "text": "Spreads coverage more evenly across a larger home or multiple floors, worth it if a single router leaves dead zones. In this comparison: TP."
+      },
+      {
+        "label": "Single router",
+        "text": "Simpler and usually cheaper, fine for a smaller home or apartment. In this comparison: TP, TP, TP."
+      }
+    ],
+    "note": "Default to a single router unless your home's size or layout genuinely needs mesh coverage."
+  },
+  {
+    "subheading": "By Wired Port Speed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "10GbE port available",
+          "TP"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Fiber Internet Plan Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A WAN port speed matched to or exceeding your actual fiber plan's rated speed, not just a fast LAN port for local devices."
+      },
+      {
+        "label": "In this comparison",
+        "text": "TP is worth checking against its listed WAN port speed before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You have a fast fiber plan, run a NAS, or need mesh coverage, where TP's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "Your internet plan tops out at standard gigabit, where TP covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm the genuine 6GHz radio is actually present", explanation: "Verify the specific model includes a real 6GHz radio rather than assuming any Wi-Fi 7 label guarantees 6GHz support." },
-  { criterion: "Check regional 6GHz channel and power level permissions", explanation: "6GHz sub-bands like UNII-4 and UNII-8 are regulated differently by country, verify what's actually permitted where you live." },
-  { criterion: "Expect occasional brief DFS-related interruptions", explanation: "DFS requirements on some 6GHz channels can cause a router to temporarily vacate that channel, a real-world quirk rarely disclosed in marketing." },
-  { criterion: "Set realistic long-term congestion expectations", explanation: "6GHz's 'less congested' advantage is accurate today but will erode as more 6GHz devices enter the market over the coming years." },
-  { criterion: "Consider 6GHz's dense-apartment interference benefit", explanation: "In dense apartment complexes, 6GHz's shorter range can actually reduce interference from neighboring networks compared to an overcrowded 5GHz band." },
+  {
+    "criterion": "Decode BE-series numbers as theoretical combined throughput, not real device speed",
+    "explanation": "A BE9300 or BE19000 label is a sum of the theoretical maximum throughput across every radio band added together, not a speed any single connected device can actually achieve, since no client connects to all bands simultaneously at their individual peak rates.\n\nThis matters because comparing routers purely by their BE number can be misleading, a higher BE number doesn't necessarily mean meaningfully faster real-world speed for your actual devices, it can just reflect more bands or wider channels contributing to the sum.\n\nCheck the individual per-band speed figures in the spec sheet rather than trusting the combined BE number alone, and weigh that against what your actual devices can realistically use."
+  },
+  {
+    "criterion": "Understand MLO benefits require Wi-Fi 7 client devices you probably don't own yet",
+    "explanation": "Multi-Link Operation (MLO) is Wi-Fi 7's genuine headline feature, letting a device use multiple bands simultaneously for lower latency and better reliability, but it only works when both the router and the connecting device have full Wi-Fi 7 MLO-capable chipsets, and most phones, laptops, and other devices in active use today still don't have this hardware.\n\nThis matters because a big part of what makes Wi-Fi 7 technically exciting is currently theoretical for a typical household's actual device mix, the router will still work great as a very capable Wi-Fi 6E-equivalent device, just without MLO's specific benefit until you own Wi-Fi 7 client devices.\n\nCheck which of your actual devices, if any, are Wi-Fi 7 MLO-capable before treating that feature as a purchase-deciding factor today."
+  },
+  {
+    "criterion": "Verify genuine tri-band (6GHz) versus a dual-band router carrying the Wi-Fi 7 label",
+    "explanation": "Not every router marketed with the Wi-Fi 7 label includes the 6GHz radio band that actually defines the standard's core capability, some are dual-band routers using newer Wi-Fi 7 protocol improvements on the 2.4GHz and 5GHz bands without adding 6GHz at all.\n\nThis distinction matters directly if 6GHz's wider, less congested channels are the reason you're upgrading, a dual-band Wi-Fi 7 router without 6GHz won't deliver that specific benefit even though it carries the same marketing label.\n\nCheck the spec sheet specifically for a stated 6GHz band, not just the presence of \"Wi-Fi 7\" in the product title, before assuming any Wi-Fi 7-labeled router includes it."
+  },
+  {
+    "criterion": "Match wired port speed to your actual internet plan and NAS or gaming needs",
+    "explanation": "A router's wireless speed capability is meaningless if its wired Ethernet ports bottleneck the connection, a gigabit-only LAN port caps wired throughput well below what a genuinely fast fiber plan or a NAS transferring large files could otherwise achieve, while 2.5G or 10G ports remove that ceiling.\n\nThis matters directly if you have a fiber plan faster than 1Gbps, run a NAS for file transfers, or want the lowest possible latency for wired gaming, less if your actual internet plan or use case never exceeds standard gigabit anyway.\n\nCheck the specific port speeds listed for both WAN and LAN ports, not just whether the router is described as \"multi-gig capable\" in marketing copy, since one fast port among several gigabit ones is a common half-measure."
+  },
+  {
+    "criterion": "Consider 6GHz's shorter range and whether your home's layout actually needs a mesh setup",
+    "explanation": "The 6GHz band offers wider, less congested channels for faster speeds but has meaningfully shorter wall-penetration range than 5GHz or 2.4GHz, meaning a single router may not deliver reliable 6GHz coverage throughout a larger home or one with many interior walls.\n\nThis matters directly for a multi-floor home or an apartment with thick walls, where a single high-end router might leave dead zones on 6GHz specifically even while 5GHz coverage remains fine, a mesh system spreads that coverage more evenly at the cost of additional hardware and expense.\n\nCheck your home's actual square footage and layout against the router's stated coverage area, and consider whether a mesh system is worth the added cost before assuming one router covers your whole space on 6GHz."
+  }
 ];
 
 export const faq: FaqItem[] = [
