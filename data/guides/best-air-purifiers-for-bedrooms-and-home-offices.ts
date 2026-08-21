@@ -117,24 +117,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Nighttime and Daytime Noise Tolerance Are Different Contexts",
-    note: "Bedroom use prioritizes nighttime noise, sleep-compatible dB at effective speed, while home-office use prioritizes daytime call-compatible noise. These are genuinely different noise-tolerance contexts that a single quiet-enough-for-both claim glosses over, verify noise level at the effective operating speed satisfies both needs.",
+    "subheading": "By Filtration Type",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Certified True HEPA",
+          "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom"
+        ],
+        [
+          "Most-reviewed, strongest reliability signal",
+          "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Night Mode Can Be Counterproductive During Daytime Use",
-    note: "Sleep-quality-focused purifiers sometimes include a night mode that dims display lights and reduces fan speed for sleep, a feature specifically relevant to bedroom use that's irrelevant, and potentially counterproductive, reducing effective CADR, during daytime home-office operation. Make sure night mode doesn't stay engaged when you actually need full air-cleaning capacity for work.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $45",
+          "Levoit Air Purifiers for Home Bedroom Dorm Room"
+        ],
+        [
+          "Up to $175",
+          "LEVOIT Smart Air Purifier for Home Large Room up to 1875 ft Vital 200S"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Size Filter Replacement for Near-24/7 Combined Use",
-    note: "A combined bedroom-and-office space, common in small apartments or studios where this dual-use framing is most relevant, has continuous, longer-duration occupancy than either use case alone. Calculate filter loading and maintenance schedules against near-24/7 operation rather than the daytime-only or nighttime-only assumptions in separate single-purpose articles.",
+    "subheading": "Smart App-Connected vs Basic Manual Controls",
+    "cards": [
+      {
+        "label": "Smart, app-connected",
+        "text": "Lets you monitor air quality and adjust fan speed remotely, useful if you want automation or scheduling. In this comparison: LEVOIT Smart Air Purifier for Home Large Room up to 1875 ft Vital 200S, Levoit Air Purifier for Home Pets Bedroom Dorm Room."
+      },
+      {
+        "label": "Basic manual controls",
+        "text": "Simpler and usually cheaper, with nothing to set up or connect. In this comparison: LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom, Levoit Air Purifiers for Home Bedroom Dorm Room, Membrane Solutions MSA3 Air Purifier for Home."
+      }
+    ],
+    "note": "Default to basic manual controls unless you specifically want app-based monitoring or automation."
   },
+  {
+    "subheading": "By Certified HEPA Filtration",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Certified True HEPA needed",
+          "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom"
+        ],
+        [
+          "Basic filtration is enough",
+          "LEVOIT Smart Air Purifier for Home Large Room up to 1875 ft Vital 200S"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Allergies or Pet Dander Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Certified True HEPA filtration with an H13 or higher rating, sized for a room at least as large as where it'll actually run."
+      },
+      {
+        "label": "In this comparison",
+        "text": "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom discloses certified True HEPA filtration."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real odor, VOC, or large-room coverage, where LEVOIT Smart Air Purifier for Home Large Room up to 1875 ft Vital 200S's higher price buys real filtration or CADR headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You're covering a small space with a basic dust or allergen concern, where Levoit Air Purifiers for Home Bedroom Dorm Room covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Nighttime sleep and daytime call noise tolerance are genuinely different", explanation: "Bedroom use prioritizes sleep-compatible dB, home-office use prioritizes call-compatible noise, verify a specific pick's noise level at effective speed satisfies both contexts, not just one." },
-  { criterion: "Night mode can reduce effective CADR if left on during daytime work", explanation: "A night mode dimming lights and reducing fan speed benefits sleep, but is counterproductive if engaged during the day when you need full air-cleaning capacity for work." },
-  { criterion: "Combined bedroom-office spaces need near-24/7 filter loading assumptions", explanation: "A combined space has continuous, longer-duration occupancy than either use case alone, calculate filter replacement against this heavier real-world schedule, not a lighter single-purpose one." },
-  { criterion: "Bed-proximity and desk-proximity comfort factors are different", explanation: "Bedroom placement near a bed changes airflow and dry-air exposure considerations differently than desk placement in an office, a room-specific comfort factor worth considering for a combined space." },
+  {
+    "criterion": "Verify True HEPA certification, not a \"HEPA-type\" or \"HEPA-like\" claim",
+    "explanation": "Certified True HEPA means a filter is independently rated to capture 99.97% of particles at 0.3 microns, a specific, testable standard, while \"HEPA-type\" or \"HEPA-like\" are marketing phrases that carry no such guarantee and often describe filters with meaningfully lower real-world capture rates.\n\nThis distinction matters a great deal if you're buying for allergies, asthma, or pet dander specifically, since a HEPA-type filter can look identical in a listing photo while performing well below the certified standard.\n\nCheck the listing for the specific phrase \"True HEPA\" or an H13/H14 filter class rating, and treat a listing that only says \"HEPA filtration\" with no qualifier as an unverified claim."
+  },
+  {
+    "criterion": "Check for activated carbon if odors or VOCs are your actual concern",
+    "explanation": "A HEPA filter, even a certified one, only captures solid particles like dust, pollen, and pet dander, it does essentially nothing for gases, smoke smell, cooking odors, or volatile organic compounds, since those pass straight through a particulate filter.\n\nOnly a substantial layer of activated carbon media actually adsorbs those gaseous odors, and a thin carbon pre-filter strip is a much weaker version of this than a dedicated carbon chamber. This matters most if your primary concern is smoke, cooking smell, or chemical odors rather than dust or allergens.\n\nCheck the listing specifically for the amount or type of carbon media included, not just whether the word \"carbon\" appears somewhere in the description."
+  },
+  {
+    "criterion": "Match CADR and room coverage to your actual room size, not the max-rated size",
+    "explanation": "CADR (Clean Air Delivery Rate) and a listed maximum room-size coverage figure describe how quickly a purifier can filter air in an ideal, mostly empty room, real rooms with furniture, partial walls, or open floor plans to a hallway perform meaningfully worse than the rated figure suggests.\n\nBuying a purifier rated for exactly your room's square footage often means it runs at a slower effective air-change rate than you'd want, sizing up to a unit rated for 1.5 to 2 times your actual room size generally gives noticeably better real-world air turnover.\n\nMeasure your room's actual square footage and compare it against the unit's stated coverage area, favoring the higher end of that range rather than the bare minimum."
+  },
+  {
+    "criterion": "Check the actual noise level in decibels, not just \"quiet\" in the title",
+    "explanation": "\"Quiet\" is a subjective marketing word with no fixed meaning, while a stated decibel figure at the lowest fan speed is a concrete, comparable number, generally anything at or below 30dB is genuinely unobtrusive for a home office or bedroom, while a unit only quoting its high-speed noise level can be considerably louder in practice on the setting you'd actually run overnight or during calls.\n\nThis matters most if the purifier will run near a desk during video calls or overnight in a bedroom, less if it's placed in a room you're not actively working or sleeping in.\n\nCheck whether the listing states a specific low-speed decibel number, and be skeptical of a purifier that only advertises being \"whisper quiet\" without an actual figure attached."
+  },
+  {
+    "criterion": "Factor in filter replacement cost and frequency, not just the purchase price",
+    "explanation": "A cheaper purifier upfront can end up costing more over a year or two if its replacement filters are expensive or need swapping every 2-3 months, while a pricier unit with a 6-12 month filter life and a lower-cost replacement filter can work out cheaper in total ownership cost.\n\nThis is easy to overlook when comparing sticker prices alone, but it's a real recurring cost, not a one-time purchase decision.\n\nCheck the listing or manufacturer's site for the recommended filter replacement interval and the actual replacement filter price, then estimate a rough annual cost before comparing purchase price alone across different picks."
+  }
 ];
 
 export const faq: FaqItem[] = [

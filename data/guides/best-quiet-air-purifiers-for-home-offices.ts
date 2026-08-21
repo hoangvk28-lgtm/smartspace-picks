@@ -117,24 +117,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Check Noise at the Speed You'll Actually Use, Not the Marketed Minimum",
-    note: "Decibel ratings are almost universally quoted at the lowest fan speed, which also delivers the lowest, often inadequate, CADR. The genuinely relevant spec for home-office use is noise at the speed needed for real air cleaning, rarely disclosed, look for recent buyer reviews mentioning actual operating noise, not just the marketed dB figure.",
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest average rating",
+          "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom"
+        ]
+      ]
+    }
   },
   {
-    subheading: "In-Room Quiet Doesn't Guarantee Call-Inaudible",
-    note: "Microphone pickup sensitivity on video calls can pick up purifier fan noise even when it's subjectively unnoticeable to the room's occupants. A higher-pitched hum at a lower dB can be more distracting on a call's microphone than a lower-pitched hum at a slightly higher dB, a psychoacoustic factor untested in spec-only comparisons.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $45",
+          "Levoit Air Purifiers for Home Bedroom Dorm Room"
+        ],
+        [
+          "Up to $230",
+          "COWAY Air Purifier for Home Up to 1"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Bigger Units Can More Credibly Claim Quiet-at-Effective-Speed",
-    note: "Some 'quiet' purifiers achieve lower noise through a larger, slower-spinning fan design rather than genuinely superior engineering, meaning physical unit size correlates with achievable quietness-at-effective-CADR. Be skeptical of ultra-compact 'whisper quiet' claims specifically.",
+    "subheading": "Smart App-Connected vs Basic Manual Controls",
+    "cards": [
+      {
+        "label": "Smart, app-connected",
+        "text": "Lets you monitor air quality and adjust fan speed remotely, useful if you want automation or scheduling. In this comparison: LEVOIT Smart Air Purifier for Home Large Room up to 1875 ft Vital 200S."
+      },
+      {
+        "label": "Basic manual controls",
+        "text": "Simpler and usually cheaper, with nothing to set up or connect. In this comparison: LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom, Levoit Air Purifiers for Home Bedroom Dorm Room, COWAY Air Purifier for Home Up to 1, Membrane Solutions MSA3 Air Purifier for Home."
+      }
+    ],
+    "note": "Default to basic manual controls unless you specifically want app-based monitoring or automation."
   },
+  {
+    "subheading": "By Certified HEPA Filtration",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Certified True HEPA needed",
+          "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom"
+        ],
+        [
+          "Basic filtration is enough",
+          "Levoit Air Purifiers for Home Bedroom Dorm Room"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Allergies or Pet Dander Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Certified True HEPA filtration with an H13 or higher rating, sized for a room at least as large as where it'll actually run."
+      },
+      {
+        "label": "In this comparison",
+        "text": "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom discloses certified True HEPA filtration."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real odor, VOC, or large-room coverage, where COWAY Air Purifier for Home Up to 1's higher price buys real filtration or CADR headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You're covering a small space with a basic dust or allergen concern, where Levoit Air Purifiers for Home Bedroom Dorm Room covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Check noise at the speed needed for real air changes, not the lowest speed", explanation: "Decibel ratings are almost universally quoted at the lowest fan speed, which also delivers the lowest CADR, the genuinely relevant spec is noise at effective-CADR speed, rarely disclosed by manufacturers." },
-  { criterion: "In-room quietness doesn't guarantee inaudibility on a video call", explanation: "Microphone pickup sensitivity can pick up fan noise even when subjectively unnoticeable to the room's occupants, a real gap between perceived and call-audible quietness." },
-  { criterion: "Larger units more credibly achieve quiet-at-effective-speed", explanation: "Physical unit size correlates with achievable quietness at effective CADR, be skeptical of ultra-compact 'whisper quiet' claims, which are a harder engineering feat to trust." },
-  { criterion: "Noise can increase over a unit's lifespan as it ages", explanation: "A unit tested quiet when new may become noticeably louder after months of use as bearings wear or the filter clogs, forcing the fan to work harder for the same airflow." },
+  {
+    "criterion": "Verify True HEPA certification, not a \"HEPA-type\" or \"HEPA-like\" claim",
+    "explanation": "Certified True HEPA means a filter is independently rated to capture 99.97% of particles at 0.3 microns, a specific, testable standard, while \"HEPA-type\" or \"HEPA-like\" are marketing phrases that carry no such guarantee and often describe filters with meaningfully lower real-world capture rates.\n\nThis distinction matters a great deal if you're buying for allergies, asthma, or pet dander specifically, since a HEPA-type filter can look identical in a listing photo while performing well below the certified standard.\n\nCheck the listing for the specific phrase \"True HEPA\" or an H13/H14 filter class rating, and treat a listing that only says \"HEPA filtration\" with no qualifier as an unverified claim."
+  },
+  {
+    "criterion": "Check for activated carbon if odors or VOCs are your actual concern",
+    "explanation": "A HEPA filter, even a certified one, only captures solid particles like dust, pollen, and pet dander, it does essentially nothing for gases, smoke smell, cooking odors, or volatile organic compounds, since those pass straight through a particulate filter.\n\nOnly a substantial layer of activated carbon media actually adsorbs those gaseous odors, and a thin carbon pre-filter strip is a much weaker version of this than a dedicated carbon chamber. This matters most if your primary concern is smoke, cooking smell, or chemical odors rather than dust or allergens.\n\nCheck the listing specifically for the amount or type of carbon media included, not just whether the word \"carbon\" appears somewhere in the description."
+  },
+  {
+    "criterion": "Match CADR and room coverage to your actual room size, not the max-rated size",
+    "explanation": "CADR (Clean Air Delivery Rate) and a listed maximum room-size coverage figure describe how quickly a purifier can filter air in an ideal, mostly empty room, real rooms with furniture, partial walls, or open floor plans to a hallway perform meaningfully worse than the rated figure suggests.\n\nBuying a purifier rated for exactly your room's square footage often means it runs at a slower effective air-change rate than you'd want, sizing up to a unit rated for 1.5 to 2 times your actual room size generally gives noticeably better real-world air turnover.\n\nMeasure your room's actual square footage and compare it against the unit's stated coverage area, favoring the higher end of that range rather than the bare minimum."
+  },
+  {
+    "criterion": "Check the actual noise level in decibels, not just \"quiet\" in the title",
+    "explanation": "\"Quiet\" is a subjective marketing word with no fixed meaning, while a stated decibel figure at the lowest fan speed is a concrete, comparable number, generally anything at or below 30dB is genuinely unobtrusive for a home office or bedroom, while a unit only quoting its high-speed noise level can be considerably louder in practice on the setting you'd actually run overnight or during calls.\n\nThis matters most if the purifier will run near a desk during video calls or overnight in a bedroom, less if it's placed in a room you're not actively working or sleeping in.\n\nCheck whether the listing states a specific low-speed decibel number, and be skeptical of a purifier that only advertises being \"whisper quiet\" without an actual figure attached."
+  },
+  {
+    "criterion": "Factor in filter replacement cost and frequency, not just the purchase price",
+    "explanation": "A cheaper purifier upfront can end up costing more over a year or two if its replacement filters are expensive or need swapping every 2-3 months, while a pricier unit with a 6-12 month filter life and a lower-cost replacement filter can work out cheaper in total ownership cost.\n\nThis is easy to overlook when comparing sticker prices alone, but it's a real recurring cost, not a one-time purchase decision.\n\nCheck the listing or manufacturer's site for the recommended filter replacement interval and the actual replacement filter price, then estimate a rough annual cost before comparing purchase price alone across different picks."
+  }
 ];
 
 export const faq: FaqItem[] = [

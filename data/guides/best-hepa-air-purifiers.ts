@@ -117,24 +117,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "'HEPA-Type' Is Not the Same as Certified True HEPA",
-    note: "HEPA-type, HEPA-like, and true certified HEPA (99.97% at 0.3 microns, tested to an actual standard) are materially different claims frequently blurred in product titles and marketing copy. Verifying which claim a specific product actually makes is the single most important check in this category.",
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest average rating",
+          "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom"
+        ]
+      ]
+    }
   },
   {
-    subheading: "HEPA Alone Doesn't Address Odors",
-    note: "True HEPA filtration doesn't address gases, VOCs, or odors at all, only activated carbon media does. A HEPA purifier without a substantial activated carbon layer will do very little for smoke smell or chemical odors despite the HEPA branding implying comprehensive air cleaning, verify carbon layer presence separately if odor matters to you.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $25",
+          "Air Purifiers for Bedroom"
+        ],
+        [
+          "Up to $230",
+          "COWAY Air Purifier for Home Up to 1"
+        ]
+      ]
+    }
   },
   {
-    subheading: "HEPA Filter Effectiveness Degrades Before the Replacement Indicator Triggers",
-    note: "HEPA filter effectiveness degrades as it loads with captured particulate, and airflow resistance increases over the filter's life, reducing actual CADR well before the 'replace every X months' indicator triggers, a performance-degradation curve rarely disclosed but worth understanding as normal wear.",
+    "subheading": "Quiet Operation vs Maximum Airflow",
+    "cards": [
+      {
+        "label": "Quiet operation",
+        "text": "Better suited for a bedroom or a desk during calls. In this comparison: LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom."
+      },
+      {
+        "label": "Maximum airflow",
+        "text": "Faster air turnover for a larger room, usually at a higher noise level on top speed. In this comparison: COWAY Air Purifier for Home Up to 1, Membrane Solutions MSA3 Air Purifier for Home, Air Purifiers for Bedroom, LEVOIT Air Purifier for Home Pets Bedroom Up to 1073Ft² Washable Pre."
+      }
+    ],
+    "note": "Default to the quieter pick unless your room is large enough that airflow speed matters more than noise."
   },
+  {
+    "subheading": "By Certified HEPA Filtration",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Certified True HEPA needed",
+          "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom"
+        ],
+        [
+          "Basic filtration is enough",
+          "COWAY Air Purifier for Home Up to 1"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Allergies or Pet Dander Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Certified True HEPA filtration with an H13 or higher rating, sized for a room at least as large as where it'll actually run."
+      },
+      {
+        "label": "In this comparison",
+        "text": "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom discloses certified True HEPA filtration."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real odor, VOC, or large-room coverage, where COWAY Air Purifier for Home Up to 1's higher price buys real filtration or CADR headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You're covering a small space with a basic dust or allergen concern, where Air Purifiers for Bedroom covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify certified True HEPA, not just 'HEPA-type' marketing language", explanation: "HEPA-type and HEPA-like are materially different claims from certified True HEPA (99.97% at 0.3 microns), verify which claim a specific product actually makes before assuming premium filtration." },
-  { criterion: "HEPA filtration doesn't address odors without a substantial carbon layer", explanation: "True HEPA handles particulates, only activated carbon media addresses gases and odors, a HEPA-only unit won't meaningfully reduce smoke smell or chemical odors on its own." },
-  { criterion: "HEPA filter effectiveness degrades before the replacement indicator triggers", explanation: "Airflow resistance increases as the filter loads with particulate, reducing actual CADR well before the manufacturer's suggested replacement interval, this is normal wear, not a defect." },
-  { criterion: "Whole-unit seal quality affects real-world HEPA performance", explanation: "A genuinely certified HEPA filter installed in a poorly sealed housing, with air bypassing the filter through gaps, delivers meaningfully worse real-world performance than the filter media's own rating suggests." },
+  {
+    "criterion": "Verify True HEPA certification, not a \"HEPA-type\" or \"HEPA-like\" claim",
+    "explanation": "Certified True HEPA means a filter is independently rated to capture 99.97% of particles at 0.3 microns, a specific, testable standard, while \"HEPA-type\" or \"HEPA-like\" are marketing phrases that carry no such guarantee and often describe filters with meaningfully lower real-world capture rates.\n\nThis distinction matters a great deal if you're buying for allergies, asthma, or pet dander specifically, since a HEPA-type filter can look identical in a listing photo while performing well below the certified standard.\n\nCheck the listing for the specific phrase \"True HEPA\" or an H13/H14 filter class rating, and treat a listing that only says \"HEPA filtration\" with no qualifier as an unverified claim."
+  },
+  {
+    "criterion": "Check for activated carbon if odors or VOCs are your actual concern",
+    "explanation": "A HEPA filter, even a certified one, only captures solid particles like dust, pollen, and pet dander, it does essentially nothing for gases, smoke smell, cooking odors, or volatile organic compounds, since those pass straight through a particulate filter.\n\nOnly a substantial layer of activated carbon media actually adsorbs those gaseous odors, and a thin carbon pre-filter strip is a much weaker version of this than a dedicated carbon chamber. This matters most if your primary concern is smoke, cooking smell, or chemical odors rather than dust or allergens.\n\nCheck the listing specifically for the amount or type of carbon media included, not just whether the word \"carbon\" appears somewhere in the description."
+  },
+  {
+    "criterion": "Match CADR and room coverage to your actual room size, not the max-rated size",
+    "explanation": "CADR (Clean Air Delivery Rate) and a listed maximum room-size coverage figure describe how quickly a purifier can filter air in an ideal, mostly empty room, real rooms with furniture, partial walls, or open floor plans to a hallway perform meaningfully worse than the rated figure suggests.\n\nBuying a purifier rated for exactly your room's square footage often means it runs at a slower effective air-change rate than you'd want, sizing up to a unit rated for 1.5 to 2 times your actual room size generally gives noticeably better real-world air turnover.\n\nMeasure your room's actual square footage and compare it against the unit's stated coverage area, favoring the higher end of that range rather than the bare minimum."
+  },
+  {
+    "criterion": "Check the actual noise level in decibels, not just \"quiet\" in the title",
+    "explanation": "\"Quiet\" is a subjective marketing word with no fixed meaning, while a stated decibel figure at the lowest fan speed is a concrete, comparable number, generally anything at or below 30dB is genuinely unobtrusive for a home office or bedroom, while a unit only quoting its high-speed noise level can be considerably louder in practice on the setting you'd actually run overnight or during calls.\n\nThis matters most if the purifier will run near a desk during video calls or overnight in a bedroom, less if it's placed in a room you're not actively working or sleeping in.\n\nCheck whether the listing states a specific low-speed decibel number, and be skeptical of a purifier that only advertises being \"whisper quiet\" without an actual figure attached."
+  },
+  {
+    "criterion": "Factor in filter replacement cost and frequency, not just the purchase price",
+    "explanation": "A cheaper purifier upfront can end up costing more over a year or two if its replacement filters are expensive or need swapping every 2-3 months, while a pricier unit with a 6-12 month filter life and a lower-cost replacement filter can work out cheaper in total ownership cost.\n\nThis is easy to overlook when comparing sticker prices alone, but it's a real recurring cost, not a one-time purchase decision.\n\nCheck the listing or manufacturer's site for the recommended filter replacement interval and the actual replacement filter price, then estimate a rough annual cost before comparing purchase price alone across different picks."
+  }
 ];
 
 export const faq: FaqItem[] = [

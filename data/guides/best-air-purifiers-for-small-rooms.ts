@@ -117,24 +117,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Don't Just Pick the Smallest-Labeled Unit",
-    note: "Small-room-rated purifiers are sometimes oversized relative to actual need, running at unnecessarily high, louder, less efficient speeds to hit a CADR rating designed for a larger nominal room. Match air-changes-per-hour to your actual room size, a unit rated for slightly more square footage than your room, run at a lower speed, can be quieter than one rated exactly for your room run at max.",
+    "subheading": "By Filtration Type",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Certified True HEPA",
+          "Air Purifiers for Bedroom"
+        ],
+        [
+          "Most-reviewed, strongest reliability signal",
+          "Levoit Air Purifiers for Bedroom Home Pets Dorm Room"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Check for Dead Zones in Poorly Circulated Rooms",
-    note: "Small rooms with poor air circulation, closed doors, minimal HVAC airflow, can create localized dead zones where the purifier's effective range doesn't reach all corners, a real placement consideration for small enclosed spaces specifically.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $25",
+          "Air Purifiers for Bedroom"
+        ],
+        [
+          "Up to $50",
+          "Levoit Air Purifiers for Bedroom Home Pets Dorm Room"
+        ]
+      ]
+    }
   },
   {
-    subheading: "A Small Room Makes Real Air Changes More Meaningful",
-    note: "A small room's proportionally higher occupant-to-volume ratio, a single person breathes a larger fraction of the room's total air volume per hour, makes hitting the recommended ACH target more perceptibly meaningful in this context than in a large room.",
+    "subheading": "Review Base vs Price",
+    "cards": [
+      {
+        "label": "Air Purifiers for Bedroom",
+        "text": "The lower-priced option in this comparison, worth checking its filtration type against your actual concern."
+      },
+      {
+        "label": "Levoit Air Purifiers for Bedroom Home Pets Dorm Room",
+        "text": "The higher-priced option, worth it if it offers real filtration or coverage headroom above the cheaper pick."
+      }
+    ],
+    "note": "Default to Air Purifiers for Bedroom unless your room size or air-quality concern genuinely calls for the pricier pick."
   },
+  {
+    "subheading": "By Certified HEPA Filtration",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Certified True HEPA needed",
+          "Air Purifiers for Bedroom"
+        ],
+        [
+          "Basic filtration is enough",
+          "Levoit Air Purifiers for Bedroom Home Pets Dorm Room"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Allergies or Pet Dander Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Certified True HEPA filtration with an H13 or higher rating, sized for a room at least as large as where it'll actually run."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Air Purifiers for Bedroom discloses certified True HEPA filtration."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real odor, VOC, or large-room coverage, where Levoit Air Purifiers for Bedroom Home Pets Dorm Room's higher price buys real filtration or CADR headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You're covering a small space with a basic dust or allergen concern, where Air Purifiers for Bedroom covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Match ACH to actual room size, not just the smallest-labeled unit", explanation: "Small-room-rated purifiers can be oversized relative to actual need, running at unnecessarily high, louder speeds to hit a CADR designed for a larger nominal room, size to your real room dimensions." },
-  { criterion: "Check for dead zones in rooms with poor air circulation", explanation: "Closed doors and minimal HVAC airflow can create localized dead zones where a purifier's effective range doesn't reach all corners of a small enclosed space." },
-  { criterion: "Compact filter media needs more frequent replacement", explanation: "Purifiers designed for small rooms sometimes use smaller filter media with reduced total filtration surface area, a hidden ongoing cost tradeoff for the compact form factor." },
-  { criterion: "Heat and stuffiness can build up from sustained motor operation", explanation: "A unit running continuously in a small enclosed space can measurably raise room temperature or perceived stuffiness over hours of operation, a secondary comfort effect rarely disclosed." },
+  {
+    "criterion": "Verify True HEPA certification, not a \"HEPA-type\" or \"HEPA-like\" claim",
+    "explanation": "Certified True HEPA means a filter is independently rated to capture 99.97% of particles at 0.3 microns, a specific, testable standard, while \"HEPA-type\" or \"HEPA-like\" are marketing phrases that carry no such guarantee and often describe filters with meaningfully lower real-world capture rates.\n\nThis distinction matters a great deal if you're buying for allergies, asthma, or pet dander specifically, since a HEPA-type filter can look identical in a listing photo while performing well below the certified standard.\n\nCheck the listing for the specific phrase \"True HEPA\" or an H13/H14 filter class rating, and treat a listing that only says \"HEPA filtration\" with no qualifier as an unverified claim."
+  },
+  {
+    "criterion": "Check for activated carbon if odors or VOCs are your actual concern",
+    "explanation": "A HEPA filter, even a certified one, only captures solid particles like dust, pollen, and pet dander, it does essentially nothing for gases, smoke smell, cooking odors, or volatile organic compounds, since those pass straight through a particulate filter.\n\nOnly a substantial layer of activated carbon media actually adsorbs those gaseous odors, and a thin carbon pre-filter strip is a much weaker version of this than a dedicated carbon chamber. This matters most if your primary concern is smoke, cooking smell, or chemical odors rather than dust or allergens.\n\nCheck the listing specifically for the amount or type of carbon media included, not just whether the word \"carbon\" appears somewhere in the description."
+  },
+  {
+    "criterion": "Match CADR and room coverage to your actual room size, not the max-rated size",
+    "explanation": "CADR (Clean Air Delivery Rate) and a listed maximum room-size coverage figure describe how quickly a purifier can filter air in an ideal, mostly empty room, real rooms with furniture, partial walls, or open floor plans to a hallway perform meaningfully worse than the rated figure suggests.\n\nBuying a purifier rated for exactly your room's square footage often means it runs at a slower effective air-change rate than you'd want, sizing up to a unit rated for 1.5 to 2 times your actual room size generally gives noticeably better real-world air turnover.\n\nMeasure your room's actual square footage and compare it against the unit's stated coverage area, favoring the higher end of that range rather than the bare minimum."
+  },
+  {
+    "criterion": "Check the actual noise level in decibels, not just \"quiet\" in the title",
+    "explanation": "\"Quiet\" is a subjective marketing word with no fixed meaning, while a stated decibel figure at the lowest fan speed is a concrete, comparable number, generally anything at or below 30dB is genuinely unobtrusive for a home office or bedroom, while a unit only quoting its high-speed noise level can be considerably louder in practice on the setting you'd actually run overnight or during calls.\n\nThis matters most if the purifier will run near a desk during video calls or overnight in a bedroom, less if it's placed in a room you're not actively working or sleeping in.\n\nCheck whether the listing states a specific low-speed decibel number, and be skeptical of a purifier that only advertises being \"whisper quiet\" without an actual figure attached."
+  },
+  {
+    "criterion": "Factor in filter replacement cost and frequency, not just the purchase price",
+    "explanation": "A cheaper purifier upfront can end up costing more over a year or two if its replacement filters are expensive or need swapping every 2-3 months, while a pricier unit with a 6-12 month filter life and a lower-cost replacement filter can work out cheaper in total ownership cost.\n\nThis is easy to overlook when comparing sticker prices alone, but it's a real recurring cost, not a one-time purchase decision.\n\nCheck the listing or manufacturer's site for the recommended filter replacement interval and the actual replacement filter price, then estimate a rough annual cost before comparing purchase price alone across different picks."
+  }
 ];
 
 export const faq: FaqItem[] = [

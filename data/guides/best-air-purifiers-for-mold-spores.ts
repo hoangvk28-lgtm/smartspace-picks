@@ -117,24 +117,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "An Air Purifier Reduces Airborne Spores, It Doesn't Remediate the Source",
-    note: "An air purifier captures airborne mold spores as they circulate, it doesn't remediate an active mold source on a wall or in ductwork, which needs moisture control and physical remediation first. Treat air purification as a supplement to, not a replacement for, addressing the actual moisture problem.",
+    "subheading": "By Filtration Type",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Certified True HEPA",
+          "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom"
+        ],
+        [
+          "Most-reviewed, strongest reliability signal",
+          "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom"
+        ]
+      ]
+    }
   },
   {
-    subheading: "HEPA Is Genuinely Effective at Capturing Spores by Size",
-    note: "HEPA filtration is genuinely effective at capturing mold spores by size, typically 2-10 microns, well within HEPA's 0.3-micron capture efficiency. This is a real strength of HEPA-based units for the airborne-spore portion of a mold problem.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $90",
+          "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom"
+        ],
+        [
+          "Up to $800",
+          "Nuwave OxyPure Smart Air Purifier"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Captured Spores Can Remain Viable, Handle Filters Carefully",
-    note: "A spore captured on the filter can still be viable, meaning filter handling and disposal matters more than with inert dust. Wear gloves when changing a filter from a known mold-affected room, and seal the old filter before disposal.",
+    "subheading": "Smart App-Connected vs Basic Manual Controls",
+    "cards": [
+      {
+        "label": "Smart, app-connected",
+        "text": "Lets you monitor air quality and adjust fan speed remotely, useful if you want automation or scheduling. In this comparison: Nuwave OxyPure Smart Air Purifier, LEVOIT Smart Air Purifier for Home Large Room up to 1875 ft Vital 200S."
+      },
+      {
+        "label": "Basic manual controls",
+        "text": "Simpler and usually cheaper, with nothing to set up or connect. In this comparison: LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom, COWAY Air Purifier for Home Up to 1, Membrane Solutions MSA3 Air Purifier for Home."
+      }
+    ],
+    "note": "Default to basic manual controls unless you specifically want app-based monitoring or automation."
   },
+  {
+    "subheading": "By Certified HEPA Filtration",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Certified True HEPA needed",
+          "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom"
+        ],
+        [
+          "Basic filtration is enough",
+          "COWAY Air Purifier for Home Up to 1"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Allergies or Pet Dander Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Certified True HEPA filtration with an H13 or higher rating, sized for a room at least as large as where it'll actually run."
+      },
+      {
+        "label": "In this comparison",
+        "text": "LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom discloses certified True HEPA filtration."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real odor, VOC, or large-room coverage, where Nuwave OxyPure Smart Air Purifier's higher price buys real filtration or CADR headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You're covering a small space with a basic dust or allergen concern, where LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Air purification doesn't remediate an active mold source", explanation: "Capturing airborne spores is genuinely useful, but an active source on a wall or in ductwork needs moisture control and physical remediation first, not filtration alone." },
-  { criterion: "HEPA's capture efficiency genuinely covers spore size range", explanation: "Mold spores are typically 2-10 microns, well within HEPA's 0.3-micron capture efficiency, a real strength of HEPA-based units for airborne spore reduction." },
-  { criterion: "Captured spores can remain viable on the filter", explanation: "Unlike inert dust, a captured mold spore can still be viable, handle filter changes from a mold-affected room carefully and seal the old filter before disposal." },
-  { criterion: "Chronic humidity environments need more capacity, plus a dehumidifier", explanation: "A basement or chronically damp room benefits from a higher-capacity unit, but pairing it with a dehumidifier addresses the actual source generating new spores." },
+  {
+    "criterion": "Verify True HEPA certification, not a \"HEPA-type\" or \"HEPA-like\" claim",
+    "explanation": "Certified True HEPA means a filter is independently rated to capture 99.97% of particles at 0.3 microns, a specific, testable standard, while \"HEPA-type\" or \"HEPA-like\" are marketing phrases that carry no such guarantee and often describe filters with meaningfully lower real-world capture rates.\n\nThis distinction matters a great deal if you're buying for allergies, asthma, or pet dander specifically, since a HEPA-type filter can look identical in a listing photo while performing well below the certified standard.\n\nCheck the listing for the specific phrase \"True HEPA\" or an H13/H14 filter class rating, and treat a listing that only says \"HEPA filtration\" with no qualifier as an unverified claim."
+  },
+  {
+    "criterion": "Check for activated carbon if odors or VOCs are your actual concern",
+    "explanation": "A HEPA filter, even a certified one, only captures solid particles like dust, pollen, and pet dander, it does essentially nothing for gases, smoke smell, cooking odors, or volatile organic compounds, since those pass straight through a particulate filter.\n\nOnly a substantial layer of activated carbon media actually adsorbs those gaseous odors, and a thin carbon pre-filter strip is a much weaker version of this than a dedicated carbon chamber. This matters most if your primary concern is smoke, cooking smell, or chemical odors rather than dust or allergens.\n\nCheck the listing specifically for the amount or type of carbon media included, not just whether the word \"carbon\" appears somewhere in the description."
+  },
+  {
+    "criterion": "Match CADR and room coverage to your actual room size, not the max-rated size",
+    "explanation": "CADR (Clean Air Delivery Rate) and a listed maximum room-size coverage figure describe how quickly a purifier can filter air in an ideal, mostly empty room, real rooms with furniture, partial walls, or open floor plans to a hallway perform meaningfully worse than the rated figure suggests.\n\nBuying a purifier rated for exactly your room's square footage often means it runs at a slower effective air-change rate than you'd want, sizing up to a unit rated for 1.5 to 2 times your actual room size generally gives noticeably better real-world air turnover.\n\nMeasure your room's actual square footage and compare it against the unit's stated coverage area, favoring the higher end of that range rather than the bare minimum."
+  },
+  {
+    "criterion": "Check the actual noise level in decibels, not just \"quiet\" in the title",
+    "explanation": "\"Quiet\" is a subjective marketing word with no fixed meaning, while a stated decibel figure at the lowest fan speed is a concrete, comparable number, generally anything at or below 30dB is genuinely unobtrusive for a home office or bedroom, while a unit only quoting its high-speed noise level can be considerably louder in practice on the setting you'd actually run overnight or during calls.\n\nThis matters most if the purifier will run near a desk during video calls or overnight in a bedroom, less if it's placed in a room you're not actively working or sleeping in.\n\nCheck whether the listing states a specific low-speed decibel number, and be skeptical of a purifier that only advertises being \"whisper quiet\" without an actual figure attached."
+  },
+  {
+    "criterion": "Factor in filter replacement cost and frequency, not just the purchase price",
+    "explanation": "A cheaper purifier upfront can end up costing more over a year or two if its replacement filters are expensive or need swapping every 2-3 months, while a pricier unit with a 6-12 month filter life and a lower-cost replacement filter can work out cheaper in total ownership cost.\n\nThis is easy to overlook when comparing sticker prices alone, but it's a real recurring cost, not a one-time purchase decision.\n\nCheck the listing or manufacturer's site for the recommended filter replacement interval and the actual replacement filter price, then estimate a rough annual cost before comparing purchase price alone across different picks."
+  }
 ];
 
 export const faq: FaqItem[] = [
