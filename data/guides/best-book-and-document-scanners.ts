@@ -168,32 +168,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Books and Documents Are Different Jobs, Consider Two Devices",
-    note: "The honest recommendation for most buyers who need both is two dedicated devices, a CZUR or VIISAN overhead scanner for bound books, paired with a ScanSnap or Epson ADF scanner for loose documents, rather than one compromise product that does both poorly.",
-  },
-  {
-    subheading: "Auto-Flatten Curve Correction Is the Real Book-Scanning Feature",
-    table: {
-      headers: ["Product", "Spine-curve correction", "Capture area"],
-      rows: [
-        ["CZUR ET24 Pro (rank 1)", "Yes, auto-flatten", "A3"],
-        ["CZUR Shine Ultra (rank 3)", "Yes, auto-flatten", "Standard"],
-        ["VIISAN A2/A3 (rank 5)", "Overhead design, large format", "A2/A3"],
-        ["Canon RS40 flatbed (rank 4)", "No", "Flatbed, no spine correction"],
+    "subheading": "By ADF Capacity",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "100-sheet ADF",
+          "ScanSnap iX2400 High"
+        ],
+        [
+          "50-sheet ADF",
+          "Epson Workforce ES"
+        ]
+      ]
+    }
   },
   {
-    subheading: "The Combined-Use Attempt Is Still Unproven",
-    note: "The VIISAN S48 Duo (rank 6) is the only product here attempting genuine combined book-and-document capability, but with only a single rating on record, we can't yet recommend it over pairing two dedicated devices from this guide.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $199",
+          "CZUR Shine Ultra Book Scanner"
+        ],
+        [
+          "Up to $650",
+          "VIISAN S48 Duo Book and Document Scanner"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Duplex vs Simplex Scanning",
+    "cards": [
+      {
+        "label": "Duplex scanning",
+        "text": "Captures both sides of a page in one pass, worth it if you regularly handle double-sided documents. In this comparison: CZUR ET24 Pro Book Scanner, ScanSnap iX2400 High, Epson Workforce ES, ScanSnap iX1300 Wireless or USB Double."
+      },
+      {
+        "label": "Simplex only",
+        "text": "Usually cheaper, fine if your documents are mostly single-sided. In this comparison: CZUR Shine Ultra Book Scanner, Canon RS40 Photo/Document Scanner, VIISAN Large Format A2/A3 Book and Document Scanner, VIISAN S48 Duo Book and Document Scanner."
+      }
+    ],
+    "note": "Default to duplex unless you're confident your documents are mostly single-sided."
+  },
+  {
+    "subheading": "By OCR / Searchable PDF Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Searchable PDF with OCR",
+          "CZUR ET24 Pro Book Scanner"
+        ],
+        [
+          "Plain scans are enough",
+          "ScanSnap iX2400 High"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Tax or Financial Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A stated duty cycle matched to your real monthly volume, plus verified OCR accuracy on receipts and financial documents specifically."
+      },
+      {
+        "label": "In this comparison",
+        "text": "CZUR ET24 Pro Book Scanner discloses OCR and searchable PDF support."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You process a real daily volume of double-sided documents, where VIISAN S48 Duo Book and Document Scanner's higher duty cycle and speed give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only scan occasionally at low volume, where CZUR Shine Ultra Book Scanner covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Book scanning and document scanning are different technologies", explanation: "Overhead cradle scanners solve the bound-page spine-curve problem; sheetfed ADF scanners solve high-speed loose-page batching. No single scanner in this lineup does both jobs equally well." },
-  { criterion: "Auto-flatten curve correction is the feature that actually matters for books", explanation: "Digitally straightening the curve near a book's spine is what separates a real book scanner from a camera on a stand, check specifically for this feature rather than assuming any overhead scanner handles it." },
-  { criterion: "Consider two dedicated devices rather than one compromise pick", explanation: "If you genuinely need both bound-book and loose-document scanning, pairing a dedicated overhead book scanner with a dedicated ADF document scanner will outperform any single combined-use product currently on the market." },
-  { criterion: "Be skeptical of unproven combined-use products regardless of concept appeal", explanation: "A product attempting to bridge both categories with only a handful of reviews doesn't yet have the real-world evidence to recommend over proven single-purpose scanners." },
+  {
+    "criterion": "Match duty cycle to your real scan volume, not just ADF sheet capacity",
+    "explanation": "A scanner's ADF (automatic document feeder) sheet count tells you how many pages it can hold in one batch, but its duty cycle rating, the sustainable daily or monthly page volume the scanner is actually built to handle, is a completely different number that determines whether it holds up under your real usage.\n\nThis matters because a scanner with a large ADF capacity but a low duty cycle rating can still wear out quickly if pushed past its sustainable volume, buying based on ADF sheet count alone is a common mistake that undersells how much this spec actually matters.\n\nCheck the listing or manufacturer's site specifically for the stated duty cycle figure (often given as pages per day or per month), and compare it honestly against your business's or household's real average scan volume, not your busiest single day."
+  },
+  {
+    "criterion": "Verify searchable PDF and OCR accuracy claims against your actual document types",
+    "explanation": "OCR (optical character recognition) technology converts scanned images into searchable, selectable text, but its real-world accuracy varies significantly depending on document quality, font clarity, and whether the source is a clean printed page or a handwritten or low-contrast document, a scanner's advertised OCR capability doesn't guarantee equally reliable results across every document type.\n\nThis matters directly if your workflow depends on reliably searching or extracting text from scanned documents later, an OCR engine that performs well on clean invoices might still struggle with faded receipts or handwritten notes.\n\nCheck reviews specifically for mentions of OCR accuracy on document types similar to what you'll actually scan, not just whether the feature exists."
+  },
+  {
+    "criterion": "Factor in driver compatibility and any hidden software licensing costs",
+    "explanation": "Most scanners include a standard TWAIN driver that works with common scanning software, but businesses adopting a document management system (DMS) like DocuWare or Laserfiche that specifically requires ISIS drivers may face an additional licensing cost, sometimes $50-200 per scanner, that isn't included in the base purchase price and rarely appears in typical scanner marketing.\n\nThis matters directly if your business is standardizing on a DMS platform, discovering this cost after purchase is a common and avoidable surprise.\n\nCheck your specific DMS platform's driver requirements before buying, and factor any ISIS licensing cost into your real total cost comparison between scanner models."
+  },
+  {
+    "criterion": "Consider duplex scanning if you regularly handle double-sided documents",
+    "explanation": "Duplex scanning captures both sides of a page in a single pass, while a simplex-only scanner requires manually flipping and rescanning double-sided pages, a real time cost that adds up quickly for any business or household regularly handling double-sided contracts, forms, or statements.\n\nThis matters more for anyone processing a meaningful volume of double-sided paperwork regularly, less for someone scanning mostly single-sided receipts or single-page documents.\n\nCheck the listing specifically for genuine duplex capability, not just a fast single-sided scan speed, if double-sided documents are a regular part of your workflow."
+  },
+  {
+    "criterion": "Weigh wireless convenience against setup reliability for multi-user access",
+    "explanation": "A Wi-Fi or wireless-enabled scanner lets multiple people on a network scan without a direct cable connection, genuinely convenient for a shared office setup, but wireless scanning setups can be less consistently reliable than a direct USB connection, particularly on networks with connectivity issues or when scanning larger batches.\n\nThis matters more if multiple people need to access the same scanner from different desks or if the scanner will be positioned somewhere a USB cable can't easily reach, less if it'll sit next to a single dedicated workstation.\n\nCheck reviews specifically for mentions of wireless connection reliability and setup difficulty, not just whether Wi-Fi capability is listed as a feature."
+  }
 ];
 
 export const faq: FaqItem[] = [

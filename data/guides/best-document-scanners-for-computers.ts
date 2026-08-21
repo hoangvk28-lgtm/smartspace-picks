@@ -168,31 +168,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "TWAIN vs. ISIS: Know What Your Software Actually Requires",
-    note: "TWAIN is the consumer default and works fine for casual scan-to-file use, included in every pick in this guide. ISIS is required for many enterprise document management platforms (OpenText, Laserfiche, DocuWare) and is often a separate licensing cost, none of the picks here explicitly confirm ISIS support, verify directly with the manufacturer if your workflow requires it.",
-  },
-  {
-    subheading: "Bundled Software Depth by Pick",
-    table: {
-      headers: ["Software depth", "Picks", "What you get"],
-      rows: [
-        ["Full-featured suite", "Epson ES-400 II/ES-580W, ScanSnap iX2400/iX2500 (ranks 1, 2, 6, 8)", "Preview, cloud upload, OCR, automatic file naming"],
-        ["Broad driver support, moderate software", "Brother DS-640/DS-740D (ranks 3, 4)", "TWAIN/WIA/ICA/SANE plus a basic desktop app"],
-        ["Built-in, auto-updating, minimal setup", "Canon R10 (rank 5)", "No separate install, but a simpler feature set"],
+    "subheading": "By ADF Capacity",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "100-sheet ADF",
+          "ScanSnap iX2400 High"
+        ],
+        [
+          "100-sheet ADF",
+          "ScanSnap iX2500 Wireless or USB High"
+        ],
+        [
+          "50-sheet ADF",
+          "Epson Workforce ES"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Avoiding Driver Conflicts with an Existing MFP",
-    note: "If you already have an all-in-one printer/scanner installed on the same computer, adding a dedicated document scanner can occasionally create driver conflicts (duplicate device names, wrong device selected in scan software). Wired USB connections (like the ScanSnap iX2400) tend to have fewer conflict reports than wireless-first setups.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $70",
+          "Canon Canoscan Lide 300 Scanner"
+        ],
+        [
+          "Up to $NaN",
+          "ScanSnap iX2500 Wireless or USB High"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Duplex vs Simplex Scanning",
+    "cards": [
+      {
+        "label": "Duplex scanning",
+        "text": "Captures both sides of a page in one pass, worth it if you regularly handle double-sided documents. In this comparison: Epson Workforce ES, Brother DS, Canon imageFORMULA R10 Portable Document Scanner, Epson Workforce ES."
+      },
+      {
+        "label": "Simplex only",
+        "text": "Usually cheaper, fine if your documents are mostly single-sided. In this comparison: ScanSnap iX2400 High, Brother DS, Canon Canoscan Lide 300 Scanner, ScanSnap iX2500 Wireless or USB High."
+      }
+    ],
+    "note": "Default to duplex unless you're confident your documents are mostly single-sided."
+  },
+  {
+    "subheading": "By OCR / Searchable PDF Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Searchable PDF with OCR",
+          "Epson Workforce ES"
+        ],
+        [
+          "Plain scans are enough",
+          "ScanSnap iX2400 High"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Tax or Financial Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A stated duty cycle matched to your real monthly volume, plus verified OCR accuracy on receipts and financial documents specifically."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Epson Workforce ES discloses OCR and searchable PDF support."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You process a real daily volume of double-sided documents, where ScanSnap iX2500 Wireless or USB High's higher duty cycle and speed give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only scan occasionally at low volume, where Canon Canoscan Lide 300 Scanner covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "TWAIN vs. ISIS driver support determines real document management software compatibility", explanation: "TWAIN is fine for casual scan-to-file use; enterprise DMS platforms like OpenText or Laserfiche often require ISIS drivers, sometimes a separate paid add-on. None of the picks in this guide explicitly confirm ISIS support." },
-  { criterion: "Bundled software ranges from full workflow suites to bare drivers", explanation: "Some scanners include full-featured software (PDF editing, cloud upload, OCR); others provide only a basic TWAIN driver requiring third-party software for anything beyond raw scan-to-file." },
-  { criterion: "Installing a dedicated scanner alongside an existing MFP can cause driver conflicts", explanation: "Duplicate device names or the wrong device being selected in scan software is a real troubleshooting scenario when running both a dedicated scanner and an existing all-in-one printer on the same computer." },
-  { criterion: "OS driver update timelines can lag between Windows and Mac for the same model", explanation: "Manufacturers sometimes release Windows drivers well ahead of macOS updates (or vice versa), an ownership risk invisible at purchase time, worth checking a brand's driver update history before buying for a specific OS." },
+  {
+    "criterion": "Match duty cycle to your real scan volume, not just ADF sheet capacity",
+    "explanation": "A scanner's ADF (automatic document feeder) sheet count tells you how many pages it can hold in one batch, but its duty cycle rating, the sustainable daily or monthly page volume the scanner is actually built to handle, is a completely different number that determines whether it holds up under your real usage.\n\nThis matters because a scanner with a large ADF capacity but a low duty cycle rating can still wear out quickly if pushed past its sustainable volume, buying based on ADF sheet count alone is a common mistake that undersells how much this spec actually matters.\n\nCheck the listing or manufacturer's site specifically for the stated duty cycle figure (often given as pages per day or per month), and compare it honestly against your business's or household's real average scan volume, not your busiest single day."
+  },
+  {
+    "criterion": "Verify searchable PDF and OCR accuracy claims against your actual document types",
+    "explanation": "OCR (optical character recognition) technology converts scanned images into searchable, selectable text, but its real-world accuracy varies significantly depending on document quality, font clarity, and whether the source is a clean printed page or a handwritten or low-contrast document, a scanner's advertised OCR capability doesn't guarantee equally reliable results across every document type.\n\nThis matters directly if your workflow depends on reliably searching or extracting text from scanned documents later, an OCR engine that performs well on clean invoices might still struggle with faded receipts or handwritten notes.\n\nCheck reviews specifically for mentions of OCR accuracy on document types similar to what you'll actually scan, not just whether the feature exists."
+  },
+  {
+    "criterion": "Factor in driver compatibility and any hidden software licensing costs",
+    "explanation": "Most scanners include a standard TWAIN driver that works with common scanning software, but businesses adopting a document management system (DMS) like DocuWare or Laserfiche that specifically requires ISIS drivers may face an additional licensing cost, sometimes $50-200 per scanner, that isn't included in the base purchase price and rarely appears in typical scanner marketing.\n\nThis matters directly if your business is standardizing on a DMS platform, discovering this cost after purchase is a common and avoidable surprise.\n\nCheck your specific DMS platform's driver requirements before buying, and factor any ISIS licensing cost into your real total cost comparison between scanner models."
+  },
+  {
+    "criterion": "Consider duplex scanning if you regularly handle double-sided documents",
+    "explanation": "Duplex scanning captures both sides of a page in a single pass, while a simplex-only scanner requires manually flipping and rescanning double-sided pages, a real time cost that adds up quickly for any business or household regularly handling double-sided contracts, forms, or statements.\n\nThis matters more for anyone processing a meaningful volume of double-sided paperwork regularly, less for someone scanning mostly single-sided receipts or single-page documents.\n\nCheck the listing specifically for genuine duplex capability, not just a fast single-sided scan speed, if double-sided documents are a regular part of your workflow."
+  },
+  {
+    "criterion": "Weigh wireless convenience against setup reliability for multi-user access",
+    "explanation": "A Wi-Fi or wireless-enabled scanner lets multiple people on a network scan without a direct cable connection, genuinely convenient for a shared office setup, but wireless scanning setups can be less consistently reliable than a direct USB connection, particularly on networks with connectivity issues or when scanning larger batches.\n\nThis matters more if multiple people need to access the same scanner from different desks or if the scanner will be positioned somewhere a USB cable can't easily reach, less if it'll sit next to a single dedicated workstation.\n\nCheck reviews specifically for mentions of wireless connection reliability and setup difficulty, not just whether Wi-Fi capability is listed as a feature."
+  }
 ];
 
 export const faq: FaqItem[] = [

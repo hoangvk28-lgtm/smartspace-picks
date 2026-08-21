@@ -168,24 +168,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "OCR Software Depth Varies Behind Similar Marketing",
-    note: "None of the picks in this guide explicitly confirm whether their bundled OCR is a full-featured engine (like ABBYY FineReader) or a limited proprietary tool. Deeper integration signals (auto-naming, auto-sorting, searchable PDF plus Word/Excel conversion) are a reasonable proxy for capability when the specific engine isn't disclosed.",
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest average rating",
+          "Epson Workforce ES"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Brother DS"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Higher Scan Resolution Improves OCR Accuracy More Than Software Choice",
-    note: "OCR accuracy depends heavily on the underlying scan quality. A 300 DPI clean original will produce meaningfully better text extraction than a 200 DPI scan of a faxed or low-contrast document, regardless of which scanner or software you use. Set your scan DPI to at least 300 for OCR-critical documents.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $NaN",
+          "ScanSnap iX2500 Wireless or USB High"
+        ],
+        [
+          "Up to $380",
+          "Epson Workforce ES"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Standard OCR Doesn't Handle Handwriting",
-    note: "Every pick in this guide bundles OCR optimized for printed text. Handwritten notes, signatures, and cursive fields are recognized poorly or not at all, don't expect any of these scanners to reliably digitize handwritten content into accurate searchable text.",
+    "subheading": "Duplex vs Simplex Scanning",
+    "cards": [
+      {
+        "label": "Duplex scanning",
+        "text": "Captures both sides of a page in one pass, worth it if you regularly handle double-sided documents. In this comparison: Epson Workforce ES, ScanSnap iX1300 Wireless or USB Double, Epson Workforce ES, Canon imageFORMULA DR, Canon imageFORMULA R10 Portable Document Scanner, Canon imageFORMULA R40II Office Document Scanner."
+      },
+      {
+        "label": "Simplex only",
+        "text": "Usually cheaper, fine if your documents are mostly single-sided. In this comparison: ScanSnap iX2500 Wireless or USB High, Brother DS."
+      }
+    ],
+    "note": "Default to duplex unless you're confident your documents are mostly single-sided."
   },
+  {
+    "subheading": "By ADF Capacity",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "100-sheet ADF",
+          "ScanSnap iX2500 Wireless or USB High"
+        ],
+        [
+          "50-sheet ADF",
+          "Epson Workforce ES"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Tax or Financial Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A stated duty cycle matched to your real monthly volume, plus verified OCR accuracy on receipts and financial documents specifically."
+      },
+      {
+        "label": "In this comparison",
+        "text": "ScanSnap iX2500 Wireless or USB High discloses OCR and searchable PDF support."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You process a real daily volume of double-sided documents, where Epson Workforce ES's higher duty cycle and speed give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only scan occasionally at low volume, where ScanSnap iX2500 Wireless or USB High covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Bundled OCR software capability varies significantly behind similar marketing", explanation: "Some scanners bundle a full-featured OCR engine; others include a limited proprietary tool, both marketed as 'includes OCR' with no distinction. Deeper integration (auto-naming, format conversion) is a reasonable capability signal." },
-  { criterion: "OCR accuracy depends more on scan resolution than software quality", explanation: "A 300 DPI clean scan produces meaningfully better OCR text extraction than a 200 DPI scan of a low-contrast or faxed document, regardless of which scanner's software processes it." },
-  { criterion: "Standard OCR cannot reliably read handwriting", explanation: "OCR bundled with every pick in this guide is optimized for printed text; handwritten notes, signatures, and cursive fields are recognized poorly or not at all." },
-  { criterion: "OCR processing speed lags behind scan speed on large batches", explanation: "A scanner might capture pages quickly, but the bundled OCR engine typically processes at a fraction of that rate, creating a real backlog on large batch jobs regardless of scan speed." },
+  {
+    "criterion": "Match duty cycle to your real scan volume, not just ADF sheet capacity",
+    "explanation": "A scanner's ADF (automatic document feeder) sheet count tells you how many pages it can hold in one batch, but its duty cycle rating, the sustainable daily or monthly page volume the scanner is actually built to handle, is a completely different number that determines whether it holds up under your real usage.\n\nThis matters because a scanner with a large ADF capacity but a low duty cycle rating can still wear out quickly if pushed past its sustainable volume, buying based on ADF sheet count alone is a common mistake that undersells how much this spec actually matters.\n\nCheck the listing or manufacturer's site specifically for the stated duty cycle figure (often given as pages per day or per month), and compare it honestly against your business's or household's real average scan volume, not your busiest single day."
+  },
+  {
+    "criterion": "Verify searchable PDF and OCR accuracy claims against your actual document types",
+    "explanation": "OCR (optical character recognition) technology converts scanned images into searchable, selectable text, but its real-world accuracy varies significantly depending on document quality, font clarity, and whether the source is a clean printed page or a handwritten or low-contrast document, a scanner's advertised OCR capability doesn't guarantee equally reliable results across every document type.\n\nThis matters directly if your workflow depends on reliably searching or extracting text from scanned documents later, an OCR engine that performs well on clean invoices might still struggle with faded receipts or handwritten notes.\n\nCheck reviews specifically for mentions of OCR accuracy on document types similar to what you'll actually scan, not just whether the feature exists."
+  },
+  {
+    "criterion": "Factor in driver compatibility and any hidden software licensing costs",
+    "explanation": "Most scanners include a standard TWAIN driver that works with common scanning software, but businesses adopting a document management system (DMS) like DocuWare or Laserfiche that specifically requires ISIS drivers may face an additional licensing cost, sometimes $50-200 per scanner, that isn't included in the base purchase price and rarely appears in typical scanner marketing.\n\nThis matters directly if your business is standardizing on a DMS platform, discovering this cost after purchase is a common and avoidable surprise.\n\nCheck your specific DMS platform's driver requirements before buying, and factor any ISIS licensing cost into your real total cost comparison between scanner models."
+  },
+  {
+    "criterion": "Consider duplex scanning if you regularly handle double-sided documents",
+    "explanation": "Duplex scanning captures both sides of a page in a single pass, while a simplex-only scanner requires manually flipping and rescanning double-sided pages, a real time cost that adds up quickly for any business or household regularly handling double-sided contracts, forms, or statements.\n\nThis matters more for anyone processing a meaningful volume of double-sided paperwork regularly, less for someone scanning mostly single-sided receipts or single-page documents.\n\nCheck the listing specifically for genuine duplex capability, not just a fast single-sided scan speed, if double-sided documents are a regular part of your workflow."
+  },
+  {
+    "criterion": "Weigh wireless convenience against setup reliability for multi-user access",
+    "explanation": "A Wi-Fi or wireless-enabled scanner lets multiple people on a network scan without a direct cable connection, genuinely convenient for a shared office setup, but wireless scanning setups can be less consistently reliable than a direct USB connection, particularly on networks with connectivity issues or when scanning larger batches.\n\nThis matters more if multiple people need to access the same scanner from different desks or if the scanner will be positioned somewhere a USB cable can't easily reach, less if it'll sit next to a single dedicated workstation.\n\nCheck reviews specifically for mentions of wireless connection reliability and setup difficulty, not just whether Wi-Fi capability is listed as a feature."
+  }
 ];
 
 export const faq: FaqItem[] = [

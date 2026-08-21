@@ -168,31 +168,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Match Duty Cycle to Your Real Team Size, Not Generic 'Business' Labeling",
-    table: {
-      headers: ["Team size", "Recommended capacity tier", "Picks"],
-      rows: [
-        ["2-3 person consulting/solo practice", "Compact, lower capacity", "Brother DS-640, Canon R30/R40II/DR-C225 II (ranks 3-6)"],
-        ["4-10 person small office", "Mid-tier duplex desktop", "Epson ES-400 II, ScanSnap iX1300 (ranks 1, 7)"],
-        ["10-15+ person busier small office", "High-capacity feeder, wireless flexibility", "ScanSnap iX2400, Epson ES-580W (ranks 2, 8)"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Epson Workforce ES"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Brother DS"
+        ]
+      ]
+    }
   },
   {
-    subheading: "ISIS Licensing Is a Hidden Recurring Cost",
-    note: "Small businesses adopting document management software (DocuWare, Laserfiche) that requires ISIS drivers may face an additional $50-200 licensing cost per scanner, not included in the base purchase price of any pick in this guide. Budget for this separately if your DMS platform requires ISIS specifically.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $135",
+          "Brother DS"
+        ],
+        [
+          "Up to $380",
+          "Epson Workforce ES"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Multi-User Network Scanning Needs IT Setup, Even on 'Easy' Scanners",
-    note: "A scanner that works fine for one person's direct USB connection may require network folder permissions and SMB configuration to function reliably for a shared team scan-to-folder workflow. Cloud-connected picks (Canon R40II, ScanSnap iX1300) reduce this complexity for cloud destinations specifically, but folder-based sharing still typically needs IT involvement.",
+    "subheading": "Duplex vs Simplex Scanning",
+    "cards": [
+      {
+        "label": "Duplex scanning",
+        "text": "Captures both sides of a page in one pass, worth it if you regularly handle double-sided documents. In this comparison: Epson Workforce ES, Canon imageFORMULA R40II Office Document Scanner, Canon imageFORMULA R30 Office Document Scanner, Canon imageFORMULA DR, ScanSnap iX1300 Wireless or USB Double, Epson Workforce ES."
+      },
+      {
+        "label": "Simplex only",
+        "text": "Usually cheaper, fine if your documents are mostly single-sided. In this comparison: ScanSnap iX2400 High, Brother DS."
+      }
+    ],
+    "note": "Default to duplex unless you're confident your documents are mostly single-sided."
   },
+  {
+    "subheading": "By OCR / Searchable PDF Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Searchable PDF with OCR",
+          "Epson Workforce ES"
+        ],
+        [
+          "Plain scans are enough",
+          "ScanSnap iX2400 High"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Tax or Financial Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A stated duty cycle matched to your real monthly volume, plus verified OCR accuracy on receipts and financial documents specifically."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Epson Workforce ES discloses OCR and searchable PDF support."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You process a real daily volume of double-sided documents, where Epson Workforce ES's higher duty cycle and speed give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only scan occasionally at low volume, where Brother DS covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Match duty cycle to your actual team size, not generic business labeling", explanation: "Small businesses vary enormously in real scan volume, a 3-person firm and a 15-person office have very different needs. Size your scanner's realistic sustained capacity to your actual team, not a generic 'good for business' label." },
-  { criterion: "ISIS driver licensing is a hidden recurring cost for DMS-integrated businesses", explanation: "Businesses adopting document management software requiring ISIS drivers may face an additional $50-200 licensing cost per scanner, not included in the base purchase price of any pick in this guide." },
-  { criterion: "Multi-user network scanning typically needs IT-level setup", explanation: "A scanner working fine for one person's direct USB connection may require network folder permissions and SMB configuration to function reliably for a shared team scan-to-folder workflow." },
-  { criterion: "Total cost of ownership includes maintenance and roller replacement over 2-3 years", explanation: "A cheaper scanner with a shorter roller lifespan can cost more over several years of business use than a pricier scanner with lower ongoing maintenance costs, factor this beyond the sticker price." },
+  {
+    "criterion": "Match duty cycle to your real scan volume, not just ADF sheet capacity",
+    "explanation": "A scanner's ADF (automatic document feeder) sheet count tells you how many pages it can hold in one batch, but its duty cycle rating, the sustainable daily or monthly page volume the scanner is actually built to handle, is a completely different number that determines whether it holds up under your real usage.\n\nThis matters because a scanner with a large ADF capacity but a low duty cycle rating can still wear out quickly if pushed past its sustainable volume, buying based on ADF sheet count alone is a common mistake that undersells how much this spec actually matters.\n\nCheck the listing or manufacturer's site specifically for the stated duty cycle figure (often given as pages per day or per month), and compare it honestly against your business's or household's real average scan volume, not your busiest single day."
+  },
+  {
+    "criterion": "Verify searchable PDF and OCR accuracy claims against your actual document types",
+    "explanation": "OCR (optical character recognition) technology converts scanned images into searchable, selectable text, but its real-world accuracy varies significantly depending on document quality, font clarity, and whether the source is a clean printed page or a handwritten or low-contrast document, a scanner's advertised OCR capability doesn't guarantee equally reliable results across every document type.\n\nThis matters directly if your workflow depends on reliably searching or extracting text from scanned documents later, an OCR engine that performs well on clean invoices might still struggle with faded receipts or handwritten notes.\n\nCheck reviews specifically for mentions of OCR accuracy on document types similar to what you'll actually scan, not just whether the feature exists."
+  },
+  {
+    "criterion": "Factor in driver compatibility and any hidden software licensing costs",
+    "explanation": "Most scanners include a standard TWAIN driver that works with common scanning software, but businesses adopting a document management system (DMS) like DocuWare or Laserfiche that specifically requires ISIS drivers may face an additional licensing cost, sometimes $50-200 per scanner, that isn't included in the base purchase price and rarely appears in typical scanner marketing.\n\nThis matters directly if your business is standardizing on a DMS platform, discovering this cost after purchase is a common and avoidable surprise.\n\nCheck your specific DMS platform's driver requirements before buying, and factor any ISIS licensing cost into your real total cost comparison between scanner models."
+  },
+  {
+    "criterion": "Consider duplex scanning if you regularly handle double-sided documents",
+    "explanation": "Duplex scanning captures both sides of a page in a single pass, while a simplex-only scanner requires manually flipping and rescanning double-sided pages, a real time cost that adds up quickly for any business or household regularly handling double-sided contracts, forms, or statements.\n\nThis matters more for anyone processing a meaningful volume of double-sided paperwork regularly, less for someone scanning mostly single-sided receipts or single-page documents.\n\nCheck the listing specifically for genuine duplex capability, not just a fast single-sided scan speed, if double-sided documents are a regular part of your workflow."
+  },
+  {
+    "criterion": "Weigh wireless convenience against setup reliability for multi-user access",
+    "explanation": "A Wi-Fi or wireless-enabled scanner lets multiple people on a network scan without a direct cable connection, genuinely convenient for a shared office setup, but wireless scanning setups can be less consistently reliable than a direct USB connection, particularly on networks with connectivity issues or when scanning larger batches.\n\nThis matters more if multiple people need to access the same scanner from different desks or if the scanner will be positioned somewhere a USB cable can't easily reach, less if it'll sit next to a single dedicated workstation.\n\nCheck reviews specifically for mentions of wireless connection reliability and setup difficulty, not just whether Wi-Fi capability is listed as a feature."
+  }
 ];
 
 export const faq: FaqItem[] = [

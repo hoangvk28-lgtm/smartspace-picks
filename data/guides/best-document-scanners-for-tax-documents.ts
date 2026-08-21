@@ -134,30 +134,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "One-Time Backlog vs. Ongoing Annual Scanning: Different Sizing",
-    table: {
-      headers: ["Use case", "What you need", "Recommended pick"],
-      rows: [
-        ["One-time multi-year backlog digitization", "High ADF capacity, sustained duty cycle", "ScanSnap iX2400 (rank 1)"],
-        ["Ongoing annual tax document scanning", "Moderate capacity, appropriately sized", "Epson ES-400 II, ScanSnap iX1300, HP PS100 (ranks 2, 4, 5)"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "ScanSnap iX2400 High"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Epson Workforce ES"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Archival DPI vs. Speed Tradeoff",
-    note: "600 DPI archival-quality scanning helps ensure long-term legibility over the 3-7 year retention window many tax documents need, but takes considerably longer per page than standard 300 DPI. Budget extra time for archival-quality settings on a large backlog project specifically.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $140",
+          "HP Small USB Document & Photo Scanner for Portable 1"
+        ],
+        [
+          "Up to $380",
+          "Epson Workforce ES"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Verify Encryption for SSN and Account-Number Data",
-    note: "Tax documents contain some of the most sensitive personal data individuals scan, including SSNs and account numbers. None of the picks in this guide disclose a specific encryption standard for cloud storage or wireless transmission, verify your chosen cloud provider's security practices separately before storing sensitive tax scans there.",
+    "subheading": "Duplex vs Simplex Scanning",
+    "cards": [
+      {
+        "label": "Duplex scanning",
+        "text": "Captures both sides of a page in one pass, worth it if you regularly handle double-sided documents. In this comparison: Epson Workforce ES, Canon imageFORMULA R10 Portable Document Scanner, ScanSnap iX1300 Wireless or USB Double, Epson Workforce ES."
+      },
+      {
+        "label": "Simplex only",
+        "text": "Usually cheaper, fine if your documents are mostly single-sided. In this comparison: ScanSnap iX2400 High, HP Small USB Document & Photo Scanner for Portable 1."
+      }
+    ],
+    "note": "Default to duplex unless you're confident your documents are mostly single-sided."
   },
+  {
+    "subheading": "By OCR / Searchable PDF Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Searchable PDF with OCR",
+          "Epson Workforce ES"
+        ],
+        [
+          "Plain scans are enough",
+          "ScanSnap iX2400 High"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Tax or Financial Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A stated duty cycle matched to your real monthly volume, plus verified OCR accuracy on receipts and financial documents specifically."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Epson Workforce ES discloses OCR and searchable PDF support."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You process a real daily volume of double-sided documents, where Epson Workforce ES's higher duty cycle and speed give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only scan occasionally at low volume, where HP Small USB Document & Photo Scanner for Portable 1 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "One-time backlog digitization and ongoing annual scanning have different sizing needs", explanation: "A large multi-year backlog project benefits from high ADF capacity and sustained duty cycle; ongoing annual scanning of the current year's documents is a much lighter use case, size your scanner to your actual project type." },
-  { criterion: "600 DPI archival scanning is slower but necessary for long-term legibility", explanation: "Standard retention guidance for tax documents (3-7 years depending on document type) benefits from archival-quality scan resolution, which takes considerably longer per page than standard 300 DPI." },
-  { criterion: "Verify encryption for SSN and account-number-sensitive content", explanation: "None of the picks in this guide confirm a specific encryption standard for cloud storage or wireless scan transmission, a real gap given the sensitivity of data on tax documents." },
-  { criterion: "Tax form auto-recognition is a specialized feature most general scanners lack", explanation: "Some tax-prep-oriented software can auto-detect and label common tax form types (W-2, 1099, K-1) during batch scanning; none of the picks in this guide confirm this, expect fully manual organization instead." },
+  {
+    "criterion": "Match duty cycle to your real scan volume, not just ADF sheet capacity",
+    "explanation": "A scanner's ADF (automatic document feeder) sheet count tells you how many pages it can hold in one batch, but its duty cycle rating, the sustainable daily or monthly page volume the scanner is actually built to handle, is a completely different number that determines whether it holds up under your real usage.\n\nThis matters because a scanner with a large ADF capacity but a low duty cycle rating can still wear out quickly if pushed past its sustainable volume, buying based on ADF sheet count alone is a common mistake that undersells how much this spec actually matters.\n\nCheck the listing or manufacturer's site specifically for the stated duty cycle figure (often given as pages per day or per month), and compare it honestly against your business's or household's real average scan volume, not your busiest single day."
+  },
+  {
+    "criterion": "Verify searchable PDF and OCR accuracy claims against your actual document types",
+    "explanation": "OCR (optical character recognition) technology converts scanned images into searchable, selectable text, but its real-world accuracy varies significantly depending on document quality, font clarity, and whether the source is a clean printed page or a handwritten or low-contrast document, a scanner's advertised OCR capability doesn't guarantee equally reliable results across every document type.\n\nThis matters directly if your workflow depends on reliably searching or extracting text from scanned documents later, an OCR engine that performs well on clean invoices might still struggle with faded receipts or handwritten notes.\n\nCheck reviews specifically for mentions of OCR accuracy on document types similar to what you'll actually scan, not just whether the feature exists."
+  },
+  {
+    "criterion": "Factor in driver compatibility and any hidden software licensing costs",
+    "explanation": "Most scanners include a standard TWAIN driver that works with common scanning software, but businesses adopting a document management system (DMS) like DocuWare or Laserfiche that specifically requires ISIS drivers may face an additional licensing cost, sometimes $50-200 per scanner, that isn't included in the base purchase price and rarely appears in typical scanner marketing.\n\nThis matters directly if your business is standardizing on a DMS platform, discovering this cost after purchase is a common and avoidable surprise.\n\nCheck your specific DMS platform's driver requirements before buying, and factor any ISIS licensing cost into your real total cost comparison between scanner models."
+  },
+  {
+    "criterion": "Consider duplex scanning if you regularly handle double-sided documents",
+    "explanation": "Duplex scanning captures both sides of a page in a single pass, while a simplex-only scanner requires manually flipping and rescanning double-sided pages, a real time cost that adds up quickly for any business or household regularly handling double-sided contracts, forms, or statements.\n\nThis matters more for anyone processing a meaningful volume of double-sided paperwork regularly, less for someone scanning mostly single-sided receipts or single-page documents.\n\nCheck the listing specifically for genuine duplex capability, not just a fast single-sided scan speed, if double-sided documents are a regular part of your workflow."
+  },
+  {
+    "criterion": "Weigh wireless convenience against setup reliability for multi-user access",
+    "explanation": "A Wi-Fi or wireless-enabled scanner lets multiple people on a network scan without a direct cable connection, genuinely convenient for a shared office setup, but wireless scanning setups can be less consistently reliable than a direct USB connection, particularly on networks with connectivity issues or when scanning larger batches.\n\nThis matters more if multiple people need to access the same scanner from different desks or if the scanner will be positioned somewhere a USB cable can't easily reach, less if it'll sit next to a single dedicated workstation.\n\nCheck reviews specifically for mentions of wireless connection reliability and setup difficulty, not just whether Wi-Fi capability is listed as a feature."
+  }
 ];
 
 export const faq: FaqItem[] = [

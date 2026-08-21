@@ -168,30 +168,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Dedicated Card Scanners vs. General Document Scanners for Cards",
-    table: {
-      headers: ["Type", "Picks", "Best for"],
-      rows: [
-        ["Dedicated single-card scanners", "Medical/ID scanner, Ambir 667/PS670ST/PS667, PenPower WorldCard Pro (ranks 1-5)", "Frequent, focused business card digitization"],
-        ["General document scanners with card capability", "Brother DS-640, ScanSnap iX1300, Canon R40II (ranks 6-8)", "Occasional cards alongside broader document scanning"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Brother DS"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Brother DS"
+        ]
+      ]
+    }
   },
   {
-    subheading: "OCR Accuracy Drops on Stylized and Dark Cards",
-    note: "Every pick in this guide relies on standard OCR, which struggles with decorative fonts, light text on dark backgrounds, and metallic/foil accents common in premium business card designs. Expect noticeably lower accuracy on stylized cards than on plain white-background samples, regardless of which scanner you choose.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $135",
+          "Brother DS"
+        ],
+        [
+          "Up to $280",
+          "ScanSnap iX1300 Wireless or USB Double"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Verify Export Format Against Your Actual CRM Before Bulk Scanning",
-    note: "A scanner/app that only exports to a proprietary format or a basic CSV without proper field mapping creates significant manual cleanup work importing into Salesforce, HubSpot, or other CRM platforms. Test the export format against your specific CRM's import tool before committing to a bulk business-card digitization project.",
+    "subheading": "Duplex vs Simplex Scanning",
+    "cards": [
+      {
+        "label": "Duplex scanning",
+        "text": "Captures both sides of a page in one pass, worth it if you regularly handle double-sided documents. In this comparison: ScanSnap iX1300 Wireless or USB Double, Canon imageFORMULA R40II Office Document Scanner."
+      },
+      {
+        "label": "Simplex only",
+        "text": "Usually cheaper, fine if your documents are mostly single-sided. In this comparison: Medical Insurance Card and ID Card Scanner, Ambir ImageScan Pro 667 Business Card Scanner with AmbirScan Business Card, AMBIR ID Card and Business Card Scanner PS670ST, PenPower WorldCard Pro Business Card Scanner, Ambir Technology PS667 Simplex A6 Card Scanner, Brother DS."
+      }
+    ],
+    "note": "Default to duplex unless you're confident your documents are mostly single-sided."
   },
+  {
+    "subheading": "By OCR / Searchable PDF Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Searchable PDF with OCR",
+          "Medical Insurance Card and ID Card Scanner"
+        ],
+        [
+          "Plain scans are enough",
+          "AMBIR ID Card and Business Card Scanner PS670ST"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Tax or Financial Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A stated duty cycle matched to your real monthly volume, plus verified OCR accuracy on receipts and financial documents specifically."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Medical Insurance Card and ID Card Scanner discloses OCR and searchable PDF support."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You process a real daily volume of double-sided documents, where ScanSnap iX1300 Wireless or USB Double's higher duty cycle and speed give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only scan occasionally at low volume, where Brother DS covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "OCR accuracy drops significantly on stylized fonts and dark/foil cards", explanation: "Standard OCR trained on document text struggles with decorative business card fonts, light text on dark backgrounds, and metallic accents common in premium card designs, a real accuracy gap versus plain white-background test samples." },
-  { criterion: "Non-standard card sizes commonly jam ADF-based card scan modes", explanation: "Cards deviating from the standard 3.5x2 inch size (square, oversized, rounded corners) are a common real-world scenario in creative industries or international business that dedicated card-scan modes handle poorly." },
-  { criterion: "Verify export format compatibility against your actual CRM before bulk scanning", explanation: "A proprietary or basic CSV export without proper field mapping creates significant manual cleanup work importing into Salesforce, HubSpot, or other CRM platforms, test against your specific tool first." },
-  { criterion: "Bilingual or non-Latin script cards need specific OCR language support", explanation: "Cards printed in two languages or non-Latin scripts require specific OCR language pack support that many bundled card-scanning apps lack by default, verify this if you handle international business cards." },
+  {
+    "criterion": "Match duty cycle to your real scan volume, not just ADF sheet capacity",
+    "explanation": "A scanner's ADF (automatic document feeder) sheet count tells you how many pages it can hold in one batch, but its duty cycle rating, the sustainable daily or monthly page volume the scanner is actually built to handle, is a completely different number that determines whether it holds up under your real usage.\n\nThis matters because a scanner with a large ADF capacity but a low duty cycle rating can still wear out quickly if pushed past its sustainable volume, buying based on ADF sheet count alone is a common mistake that undersells how much this spec actually matters.\n\nCheck the listing or manufacturer's site specifically for the stated duty cycle figure (often given as pages per day or per month), and compare it honestly against your business's or household's real average scan volume, not your busiest single day."
+  },
+  {
+    "criterion": "Verify searchable PDF and OCR accuracy claims against your actual document types",
+    "explanation": "OCR (optical character recognition) technology converts scanned images into searchable, selectable text, but its real-world accuracy varies significantly depending on document quality, font clarity, and whether the source is a clean printed page or a handwritten or low-contrast document, a scanner's advertised OCR capability doesn't guarantee equally reliable results across every document type.\n\nThis matters directly if your workflow depends on reliably searching or extracting text from scanned documents later, an OCR engine that performs well on clean invoices might still struggle with faded receipts or handwritten notes.\n\nCheck reviews specifically for mentions of OCR accuracy on document types similar to what you'll actually scan, not just whether the feature exists."
+  },
+  {
+    "criterion": "Factor in driver compatibility and any hidden software licensing costs",
+    "explanation": "Most scanners include a standard TWAIN driver that works with common scanning software, but businesses adopting a document management system (DMS) like DocuWare or Laserfiche that specifically requires ISIS drivers may face an additional licensing cost, sometimes $50-200 per scanner, that isn't included in the base purchase price and rarely appears in typical scanner marketing.\n\nThis matters directly if your business is standardizing on a DMS platform, discovering this cost after purchase is a common and avoidable surprise.\n\nCheck your specific DMS platform's driver requirements before buying, and factor any ISIS licensing cost into your real total cost comparison between scanner models."
+  },
+  {
+    "criterion": "Consider duplex scanning if you regularly handle double-sided documents",
+    "explanation": "Duplex scanning captures both sides of a page in a single pass, while a simplex-only scanner requires manually flipping and rescanning double-sided pages, a real time cost that adds up quickly for any business or household regularly handling double-sided contracts, forms, or statements.\n\nThis matters more for anyone processing a meaningful volume of double-sided paperwork regularly, less for someone scanning mostly single-sided receipts or single-page documents.\n\nCheck the listing specifically for genuine duplex capability, not just a fast single-sided scan speed, if double-sided documents are a regular part of your workflow."
+  },
+  {
+    "criterion": "Weigh wireless convenience against setup reliability for multi-user access",
+    "explanation": "A Wi-Fi or wireless-enabled scanner lets multiple people on a network scan without a direct cable connection, genuinely convenient for a shared office setup, but wireless scanning setups can be less consistently reliable than a direct USB connection, particularly on networks with connectivity issues or when scanning larger batches.\n\nThis matters more if multiple people need to access the same scanner from different desks or if the scanner will be positioned somewhere a USB cable can't easily reach, less if it'll sit next to a single dedicated workstation.\n\nCheck reviews specifically for mentions of wireless connection reliability and setup difficulty, not just whether Wi-Fi capability is listed as a feature."
+  }
 ];
 
 export const faq: FaqItem[] = [
