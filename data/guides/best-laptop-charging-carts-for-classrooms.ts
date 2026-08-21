@@ -161,29 +161,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Roster Size",
-    table: {
-      headers: ["Class size", "Recommended pick"],
-      rows: [
-        ["Up to 18 students", "Meteteel Fully Assembled 18 Device Cart"],
-        ["18-22 students", "Meteteel Fully Assembled 20 Device Cart"],
-        ["Larger rosters or shared between sections", "POCHAR 30 Devices K-12 Cart"],
-        ["Oversized roster or two classrooms sharing", "Plugsharge 32-Device Cart"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "VEVOR 16 Device Charging Station with Lock & Key"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Meteteel Fully Assembled 20 Device Laptop Charging Cart for School"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Open Access vs. Locked Security",
-    note: "If your cart stays inside a supervised classroom during the school day and gets returned to a locked storage room overnight, an open design like the Kraftgen pick speeds up daily handout. If the cart itself sits unattended in a hallway or shared space, the VEVOR pick's included lock and key is worth the added cost.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $130",
+          "Kraftgen 16"
+        ],
+        [
+          "Up to $420",
+          "Meteteel Fully Assembled 20 Device Laptop Charging Cart for School"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Lockable Security vs Open Access",
+    "cards": [
+      {
+        "label": "Genuine locking door",
+        "text": "Real security for devices stored unattended in a semi-public space. In this comparison: Meteteel Fully Assembled 20 Device Laptop Charging Cart for School, Meteteel Fully Assembled 18 Device Laptop Charging Cart for School, VEVOR 16 Device Charging Station with Lock & Key, POCHAR 30 Devices 14'' Screen Laptop Charging Cart for K, POCHAR 30 Unit Device Charging Station for Chromebook, Plugsharge 32."
+      },
+      {
+        "label": "Open access",
+        "text": "Faster to grab devices from, fine for a supervised or private space. In this comparison: Kraftgen 16, ALT Technology 30."
+      }
+    ],
+    "note": "Default to a locking cart unless the space is always supervised or private."
+  },
+  {
+    "subheading": "By Locking Security",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Genuine locking door for unattended storage",
+          "Meteteel Fully Assembled 20 Device Laptop Charging Cart for School"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a School or Classroom Fleet Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Confirmed bay geometry for your actual laptop model, zoned or timed charging for larger fleets, and a genuine locking door for unattended storage."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Meteteel Fully Assembled 20 Device Laptop Charging Cart for School is worth checking against its listed capacity and charging architecture before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You're managing a larger fleet needing safe zoned charging and genuine security, where Meteteel Fully Assembled 20 Device Laptop Charging Cart for School's higher price buys real capacity and reliability headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You're storing a small number of devices with simple charging needs, where Kraftgen 16 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Match capacity to your actual roster, not the largest available option", explanation: "A 32-device cart for an 18-student classroom means paying for and storing 14 unused bays. Size the cart to your real class roster." },
-  { criterion: "Weigh open access against locked security based on where the cart sits", explanation: "An open cart speeds up daily handout in a supervised classroom; a locked cart protects devices when it sits unattended between periods or overnight." },
-  { criterion: "Confirm fully-assembled status if you need the cart ready immediately", explanation: "Both Meteteel picks confirm they ship fully assembled, removing a setup delay before the first day of classroom use." },
-  { criterion: "Weigh thin review counts carefully for higher-capacity picks", explanation: "Several 30+ device carts here have fewer than 15 reviews. A 5.0 rating on 3 reviews is a much weaker signal than a 4.4 rating on 78 reviews." },
-  { criterion: "Confirm mixed-device compatibility if your classroom set spans device types", explanation: "Only the POCHAR mixed-fleet listing explicitly claims Chromebook, iPad, and laptop compatibility together in this comparison." },
+  {
+    "criterion": "Verify actual bay geometry, not just the stated device count",
+    "explanation": "A cart's marketed device count is measured with thin devices packed edge to edge with dividers removed or minimized, real laptops with thicker chassis, protective cases, or non-standard shapes often don't fit at the stated count once you actually load them, especially once charging cables and adjustable dividers are factored in.\n\nThis mismatch matters directly for a school or office buying to a specific fleet size, since discovering the real capacity is lower than advertised after purchase means either overcrowding bays or leaving devices unstored.\n\nCheck reviews specifically for mentions of the actual devices that fit, ideally from buyers using a similar laptop model or size to yours, rather than trusting the headline device count alone."
+  },
+  {
+    "criterion": "Understand the charging architecture and whether it can overload a circuit",
+    "explanation": "A cart wired with simple AC pass-through outlets delivers full power to every outlet simultaneously, which can trip a circuit breaker if all bays are loaded and drawing power at once, while a cart with timed or zoned charging cycles devices through groups to stay within a safe total wattage draw.\n\nThis distinction matters a great deal at higher device counts, a 10-device cart drawing simultaneous full power is rarely an issue, but a 30 or 42-device cart without smart charging management is a real electrical risk on a standard household or classroom circuit.\n\nCheck the listing for total rated wattage and whether it explicitly mentions zoned or timed charging, not just the outlet count, especially for carts storing 20 or more devices."
+  },
+  {
+    "criterion": "Consider USB-C versus AC outlet charging for your specific device fleet",
+    "explanation": "USB-C charging ports deliver power directly without needing each device's own separate power brick, simplifying cable management, but the actual charging wattage per port varies significantly between carts and isn't always disclosed, while AC outlet-based carts work with any device's own charger but require storing and managing that many separate power bricks inside the cart.\n\nThis matters directly for a mixed device fleet, a cart built around USB-C works cleanly for a uniform USB-C laptop or Chromebook fleet, but forces older or non-USB-C devices to use adapters or simply won't accommodate them.\n\nCheck whether the cart's charging ports match your actual device fleet's charging standard, and look for the specific per-port wattage rather than assuming USB-C alone means adequate charging speed."
+  },
+  {
+    "criterion": "Weigh loaded mobility and floor footprint against your actual space and routes",
+    "explanation": "A cart that's easy to wheel around empty can behave very differently once loaded with 20-40 devices worth of weight, caster quality, wheel size, and overall build sturdiness matter more under real load, especially over thresholds, carpet transitions, or elevators.\n\nThis is worth checking before buying if the cart will regularly move between rooms or floors rather than stay parked in one spot, since a cart that's hard to maneuver loaded becomes a daily friction point.\n\nCheck reviews specifically for mentions of loaded mobility and caster durability over time, not just how it moves in an unboxing video with the cart empty."
+  },
+  {
+    "criterion": "Factor in locking security if the cart stores devices unattended",
+    "explanation": "A cart's stated \"lockable\" feature can mean anything from a genuine keyed lock on a solid door to a simple latch that mostly deters casual access, and the actual security level matters a great deal if the cart will store expensive devices unattended overnight or in a semi-public space like a school hallway or shared office.\n\nThis is worth verifying directly rather than assuming any cart labeled \"lockable\" provides equivalent security, since a determined attempt at access can defeat a basic latch far more easily than a genuine keyed lock on a solid metal door.\n\nCheck the listing and reviews specifically for the lock mechanism type and door material, not just whether the word \"lockable\" appears in the title."
+  }
 ];
 
 export const faq: FaqItem[] = [

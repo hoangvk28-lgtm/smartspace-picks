@@ -161,29 +161,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What Matters Most",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Highest-rated true 30-device cart", "Pearington 30 Device Mobile Charging/Storage Cart"],
-        ["Best value at exactly 30 devices", "POCHAR 30 Unit Device Charging Station"],
-        ["Open access for fast daily handout", "POCHAR 30 Devices Open Laptop Charging Cart"],
-        ["Room to grow past 30 devices", "Laptop and Tablet Storage Cart, Up to 36 Units"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Tripp Lite 42"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Laptop and Tablet Storage Cart"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Exactly 30 vs. Slight Headroom",
-    note: "If your fleet is exactly 30 devices today with no near-term growth plan, the true 30-device carts (Pearington, both POCHAR listings, ALT Technology) are the more cost-efficient match. If you expect to add devices within a year or two, the ARTMAN 30+2 or the up-to-36-unit storage cart avoids an early re-purchase, at a moderate price premium.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $1",
+          "Tripp Lite 42"
+        ],
+        [
+          "Up to $570",
+          "ARTMAN Mobile Charging Cart Station"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Lockable Security vs Open Access",
+    "cards": [
+      {
+        "label": "Genuine locking door",
+        "text": "Real security for devices stored unattended in a semi-public space. In this comparison: Pearington 30 Device Mobile Charging/Storage Cart for iPads, POCHAR 30 Devices Open Laptop Charging Cart for iPads."
+      },
+      {
+        "label": "Open access",
+        "text": "Faster to grab devices from, fine for a supervised or private space. In this comparison: POCHAR 30 Unit Device Charging Station for Chromebook, POCHAR 30 Devices 14'' Screen Laptop Charging Cart for K, ALT Technology 30, Tripp Lite 42, Laptop and Tablet Storage Cart, ARTMAN Mobile Charging Cart Station."
+      }
+    ],
+    "note": "Default to a locking cart unless the space is always supervised or private."
+  },
+  {
+    "subheading": "By Locking Security",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Genuine locking door for unattended storage",
+          "Pearington 30 Device Mobile Charging/Storage Cart for iPads"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a School or Classroom Fleet Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Confirmed bay geometry for your actual laptop model, zoned or timed charging for larger fleets, and a genuine locking door for unattended storage."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Laptop and Tablet Storage Cart is worth checking against its listed capacity and charging architecture before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You're managing a larger fleet needing safe zoned charging and genuine security, where ARTMAN Mobile Charging Cart Station's higher price buys real capacity and reliability headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You're storing a small number of devices with simple charging needs, where Tripp Lite 42 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm exact bay count against the search term before ordering", explanation: "Two picks here exceed 30 devices (up to 36, and 42). If you need exactly 30 usable bays, verify the confirmed capacity rather than assuming a higher-capacity cart simply includes 30 as a subset." },
-  { criterion: "Weigh price per bay across the true 30-device tier", explanation: "Confirmed 30-device carts here range from $299.99 to $459.99, a real difference for the same stated capacity. Compare features against that price spread rather than defaulting to the first result." },
-  { criterion: "Decide open versus locking design based on where the cart sits", explanation: "An open design speeds up daily access in a supervised classroom; a locking design protects devices when the cart sits unattended." },
-  { criterion: "Treat a 0-review or single-review listing as higher risk for a 30-device purchase", explanation: "A 30-device cart is a significant investment. The ARTMAN pick has no confirmed rating and the Tripp Lite pick has only 1 review; weigh that risk against their other advantages." },
-  { criterion: "Consider slight headroom if your fleet is likely to grow", explanation: "The up-to-36-unit storage cart and the ARTMAN 30+2 option both provide buffer capacity at a price close to the true 30-device tier, avoiding an early re-purchase." },
+  {
+    "criterion": "Verify actual bay geometry, not just the stated device count",
+    "explanation": "A cart's marketed device count is measured with thin devices packed edge to edge with dividers removed or minimized, real laptops with thicker chassis, protective cases, or non-standard shapes often don't fit at the stated count once you actually load them, especially once charging cables and adjustable dividers are factored in.\n\nThis mismatch matters directly for a school or office buying to a specific fleet size, since discovering the real capacity is lower than advertised after purchase means either overcrowding bays or leaving devices unstored.\n\nCheck reviews specifically for mentions of the actual devices that fit, ideally from buyers using a similar laptop model or size to yours, rather than trusting the headline device count alone."
+  },
+  {
+    "criterion": "Understand the charging architecture and whether it can overload a circuit",
+    "explanation": "A cart wired with simple AC pass-through outlets delivers full power to every outlet simultaneously, which can trip a circuit breaker if all bays are loaded and drawing power at once, while a cart with timed or zoned charging cycles devices through groups to stay within a safe total wattage draw.\n\nThis distinction matters a great deal at higher device counts, a 10-device cart drawing simultaneous full power is rarely an issue, but a 30 or 42-device cart without smart charging management is a real electrical risk on a standard household or classroom circuit.\n\nCheck the listing for total rated wattage and whether it explicitly mentions zoned or timed charging, not just the outlet count, especially for carts storing 20 or more devices."
+  },
+  {
+    "criterion": "Consider USB-C versus AC outlet charging for your specific device fleet",
+    "explanation": "USB-C charging ports deliver power directly without needing each device's own separate power brick, simplifying cable management, but the actual charging wattage per port varies significantly between carts and isn't always disclosed, while AC outlet-based carts work with any device's own charger but require storing and managing that many separate power bricks inside the cart.\n\nThis matters directly for a mixed device fleet, a cart built around USB-C works cleanly for a uniform USB-C laptop or Chromebook fleet, but forces older or non-USB-C devices to use adapters or simply won't accommodate them.\n\nCheck whether the cart's charging ports match your actual device fleet's charging standard, and look for the specific per-port wattage rather than assuming USB-C alone means adequate charging speed."
+  },
+  {
+    "criterion": "Weigh loaded mobility and floor footprint against your actual space and routes",
+    "explanation": "A cart that's easy to wheel around empty can behave very differently once loaded with 20-40 devices worth of weight, caster quality, wheel size, and overall build sturdiness matter more under real load, especially over thresholds, carpet transitions, or elevators.\n\nThis is worth checking before buying if the cart will regularly move between rooms or floors rather than stay parked in one spot, since a cart that's hard to maneuver loaded becomes a daily friction point.\n\nCheck reviews specifically for mentions of loaded mobility and caster durability over time, not just how it moves in an unboxing video with the cart empty."
+  },
+  {
+    "criterion": "Factor in locking security if the cart stores devices unattended",
+    "explanation": "A cart's stated \"lockable\" feature can mean anything from a genuine keyed lock on a solid door to a simple latch that mostly deters casual access, and the actual security level matters a great deal if the cart will store expensive devices unattended overnight or in a semi-public space like a school hallway or shared office.\n\nThis is worth verifying directly rather than assuming any cart labeled \"lockable\" provides equivalent security, since a determined attempt at access can defeat a basic latch far more easily than a genuine keyed lock on a solid metal door.\n\nCheck the listing and reviews specifically for the lock mechanism type and door material, not just whether the word \"lockable\" appears in the title."
+  }
 ];
 
 export const faq: FaqItem[] = [

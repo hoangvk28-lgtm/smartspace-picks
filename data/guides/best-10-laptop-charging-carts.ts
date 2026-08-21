@@ -161,29 +161,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What Matters Most",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Best true 10-device cart", "Pearington 10-Device USB Laptop Charging Station"],
-        ["Strongest track record overall (12-device)", "Learniture Structure Series 12-Device Station"],
-        ["Cheapest true 10-device option", "10 Slot Mobile Open Charging Cart"],
-        ["Locking security with headroom (16-device)", "16 Devices Mobile Charging Cart and Cabinet"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "10 Slot Mobile Open Charging Cart for Laptops Chromebooks Tablet Devices"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Learniture Structure Series 12"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Exact 10 Devices vs. Slight Headroom",
-    note: "If you need exactly 10 usable bays and no more, stick to the confirmed true 10-device picks (Pearington, 10 Slot, Dyna-Living, Gtouse). If a small buffer or a lock matters more than exact capacity, the Learniture 12-device pick or either 16-device locking option is worth the small premium, especially given their stronger review bases.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $75",
+          "10 Slot Mobile Open Charging Cart for Laptops Chromebooks Tablet Devices"
+        ],
+        [
+          "Up to $240",
+          "16 Device Mobile Charging Cart and Cabinet"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Lockable Security vs Open Access",
+    "cards": [
+      {
+        "label": "Genuine locking door",
+        "text": "Real security for devices stored unattended in a semi-public space. In this comparison: Learniture Structure Series 12, 10 Slot Mobile Open Charging Cart for Laptops Chromebooks Tablet Devices, Dyna, Gtouse 2 Tier Open Laptop Charging Cart with Wheels, Suuiwau Laptop Charging Station 10, 16 Devices Mobile Charging Cart and Cabinet, 16 Device Mobile Charging Cart and Cabinet."
+      },
+      {
+        "label": "Open access",
+        "text": "Faster to grab devices from, fine for a supervised or private space. In this comparison: Pearington 10."
+      }
+    ],
+    "note": "Default to a locking cart unless the space is always supervised or private."
+  },
+  {
+    "subheading": "By Locking Security",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Genuine locking door for unattended storage",
+          "Learniture Structure Series 12"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a School or Classroom Fleet Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Confirmed bay geometry for your actual laptop model, zoned or timed charging for larger fleets, and a genuine locking door for unattended storage."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Learniture Structure Series 12 is worth checking against its listed capacity and charging architecture before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You're managing a larger fleet needing safe zoned charging and genuine security, where 16 Device Mobile Charging Cart and Cabinet's higher price buys real capacity and reliability headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You're storing a small number of devices with simple charging needs, where 10 Slot Mobile Open Charging Cart for Laptops Chromebooks Tablet Devices covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm exact device count before ordering, since several picks exceed 10", explanation: "Four of the eight picks here are actually 12- or 16-device carts. If exact capacity matters for your space or budget, double check before ordering." },
-  { criterion: "Weigh review count extremely carefully at this small-fleet price tier", explanation: "Several picks here have fewer than 5 reviews. A 5.0 rating on 2 reviews is a much weaker signal than a 4.4 rating on 114, even if the latter is a slightly larger cart." },
-  { criterion: "Consider the Learniture 12-device pick if you're open to slight extra capacity", explanation: "It has by far the largest and most reliable review base of any pick in this comparison, at 114 reviews, worth the 2-device buffer for many buyers." },
-  { criterion: "Choose a locking 16-device option if security matters more than exact 10-device capacity", explanation: "None of the true 10-device carts confirm a physical lock. If security is a requirement, the 16-device lockable alternatives are the only options here that offer it." },
-  { criterion: "Avoid the lowest-rated option regardless of price", explanation: "The Suuiwau pick carries a 1.8 rating, the lowest in this entire comparison. Its low price does not offset that signal." },
+  {
+    "criterion": "Verify actual bay geometry, not just the stated device count",
+    "explanation": "A cart's marketed device count is measured with thin devices packed edge to edge with dividers removed or minimized, real laptops with thicker chassis, protective cases, or non-standard shapes often don't fit at the stated count once you actually load them, especially once charging cables and adjustable dividers are factored in.\n\nThis mismatch matters directly for a school or office buying to a specific fleet size, since discovering the real capacity is lower than advertised after purchase means either overcrowding bays or leaving devices unstored.\n\nCheck reviews specifically for mentions of the actual devices that fit, ideally from buyers using a similar laptop model or size to yours, rather than trusting the headline device count alone."
+  },
+  {
+    "criterion": "Understand the charging architecture and whether it can overload a circuit",
+    "explanation": "A cart wired with simple AC pass-through outlets delivers full power to every outlet simultaneously, which can trip a circuit breaker if all bays are loaded and drawing power at once, while a cart with timed or zoned charging cycles devices through groups to stay within a safe total wattage draw.\n\nThis distinction matters a great deal at higher device counts, a 10-device cart drawing simultaneous full power is rarely an issue, but a 30 or 42-device cart without smart charging management is a real electrical risk on a standard household or classroom circuit.\n\nCheck the listing for total rated wattage and whether it explicitly mentions zoned or timed charging, not just the outlet count, especially for carts storing 20 or more devices."
+  },
+  {
+    "criterion": "Consider USB-C versus AC outlet charging for your specific device fleet",
+    "explanation": "USB-C charging ports deliver power directly without needing each device's own separate power brick, simplifying cable management, but the actual charging wattage per port varies significantly between carts and isn't always disclosed, while AC outlet-based carts work with any device's own charger but require storing and managing that many separate power bricks inside the cart.\n\nThis matters directly for a mixed device fleet, a cart built around USB-C works cleanly for a uniform USB-C laptop or Chromebook fleet, but forces older or non-USB-C devices to use adapters or simply won't accommodate them.\n\nCheck whether the cart's charging ports match your actual device fleet's charging standard, and look for the specific per-port wattage rather than assuming USB-C alone means adequate charging speed."
+  },
+  {
+    "criterion": "Weigh loaded mobility and floor footprint against your actual space and routes",
+    "explanation": "A cart that's easy to wheel around empty can behave very differently once loaded with 20-40 devices worth of weight, caster quality, wheel size, and overall build sturdiness matter more under real load, especially over thresholds, carpet transitions, or elevators.\n\nThis is worth checking before buying if the cart will regularly move between rooms or floors rather than stay parked in one spot, since a cart that's hard to maneuver loaded becomes a daily friction point.\n\nCheck reviews specifically for mentions of loaded mobility and caster durability over time, not just how it moves in an unboxing video with the cart empty."
+  },
+  {
+    "criterion": "Factor in locking security if the cart stores devices unattended",
+    "explanation": "A cart's stated \"lockable\" feature can mean anything from a genuine keyed lock on a solid door to a simple latch that mostly deters casual access, and the actual security level matters a great deal if the cart will store expensive devices unattended overnight or in a semi-public space like a school hallway or shared office.\n\nThis is worth verifying directly rather than assuming any cart labeled \"lockable\" provides equivalent security, since a determined attempt at access can defeat a basic latch far more easily than a genuine keyed lock on a solid metal door.\n\nCheck the listing and reviews specifically for the lock mechanism type and door material, not just whether the word \"lockable\" appears in the title."
+  }
 ];
 
 export const faq: FaqItem[] = [

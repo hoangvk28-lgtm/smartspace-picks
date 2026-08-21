@@ -161,40 +161,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Fleet Size",
-    table: {
-      headers: ["Fleet size", "Recommended pick"],
-      rows: [
-        ["42+ devices, enterprise IT", "Tripp Lite 42-Port AC Mobile Charging Cart"],
-        ["30 devices, single classroom/department", "Pearington 30 Device Mobile Charging/Storage Cart"],
-        ["20 devices", "Meteteel Fully Assembled 20 Device Cart"],
-        ["16 devices, tightest budget", "Hupsjer 16-Device Mobile Charging Cart"],
+    "subheading": "By Device Capacity",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Around 42-device capacity",
+          "Tripp Lite 42"
+        ],
+        [
+          "Around 30-device capacity",
+          "Pearington 30 Device Mobile Charging/Storage Cart for iPads"
+        ],
+        [
+          "Around 30-device capacity",
+          "POCHAR 30 Unit Device Charging Station for Chromebook"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Device Screen Size",
-    intro: "Most carts here cap out at 14-inch screens. If your fleet includes larger business laptops, screen size becomes the deciding factor before capacity.",
-    table: {
-      headers: ["Device type", "Recommended pick"],
-      rows: [
-        ["Up to 14-inch Chromebooks/iPads", "POCHAR 30 Unit Mixed-Fleet Charging Station"],
-        ["Up to 15.6-inch laptops", "VEVOR Laptop Cart, 20 Device"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $1",
+          "Tripp Lite 42"
+        ],
+        [
+          "Up to $460",
+          "Pearington 30 Device Mobile Charging/Storage Cart for iPads"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Charging Architecture: What We Could Not Verify",
-    note: "None of the listings in our data pull included independently confirmed per-device wattage or total power budget. Before ordering any cart in this range, ask the seller directly for the per-bay wattage and whether the system uses AC pass-through or integrated charging, since a USB-C port alone does not guarantee adequate laptop charging speed.",
+    "subheading": "Review Base vs Price",
+    "cards": [
+      {
+        "label": "Tripp Lite 42",
+        "text": "The lower-priced option in this comparison, worth checking its capacity and charging architecture against your fleet."
+      },
+      {
+        "label": "Pearington 30 Device Mobile Charging/Storage Cart for iPads",
+        "text": "The higher-priced option, worth it if it offers real capacity or security headroom above the cheaper pick."
+      }
+    ],
+    "note": "Default to Tripp Lite 42 unless your fleet size or security needs genuinely call for the pricier pick."
   },
+  {
+    "subheading": "By Ethernet Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "In-cabinet Ethernet for a router or hotspot",
+          "Tripp Lite 42"
+        ],
+        [
+          "Wi-Fi only is fine",
+          "Pearington 30 Device Mobile Charging/Storage Cart for iPads"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a School or Classroom Fleet Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Confirmed bay geometry for your actual laptop model, zoned or timed charging for larger fleets, and a genuine locking door for unattended storage."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Meteteel Fully Assembled 20 Device Laptop Charging Cart for School is worth checking against its listed capacity and charging architecture before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You're managing a larger fleet needing safe zoned charging and genuine security, where Pearington 30 Device Mobile Charging/Storage Cart for iPads's higher price buys real capacity and reliability headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You're storing a small number of devices with simple charging needs, where Tripp Lite 42 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify usable slot depth against your actual devices", explanation: "A stated 30-device count can shrink once chargers, cables, and thicker laptops are loaded. Measure your thickest device before assuming full capacity is usable." },
-  { criterion: "Match screen-size limit to your fleet", explanation: "Most carts here cap at 14 inches; only the VEVOR pick confirms up to 15.6 inches. A larger business laptop simply won't fit a 14-inch slot regardless of price." },
-  { criterion: "Weigh review count against price tier", explanation: "A $1,622 cart with 1 review carries real unknowns despite the brand's institutional reputation. Balance price against how much evaluation risk you're comfortable accepting." },
-  { criterion: "Confirm charging architecture before ordering", explanation: "We could not independently verify per-device wattage for these listings. Ask the seller directly whether the system is AC pass-through or integrated, and what the total power budget is." },
-  { criterion: "Calculate cost per usable bay, not just sticker price", explanation: "The 30-device Pearington cart costs roughly $15 per bay; the 16-device Hupsjer costs about $12 per bay. Run this math against your actual fleet size before assuming the cheapest sticker price is the best value." },
+  {
+    "criterion": "Verify actual bay geometry, not just the stated device count",
+    "explanation": "A cart's marketed device count is measured with thin devices packed edge to edge with dividers removed or minimized, real laptops with thicker chassis, protective cases, or non-standard shapes often don't fit at the stated count once you actually load them, especially once charging cables and adjustable dividers are factored in.\n\nThis mismatch matters directly for a school or office buying to a specific fleet size, since discovering the real capacity is lower than advertised after purchase means either overcrowding bays or leaving devices unstored.\n\nCheck reviews specifically for mentions of the actual devices that fit, ideally from buyers using a similar laptop model or size to yours, rather than trusting the headline device count alone."
+  },
+  {
+    "criterion": "Understand the charging architecture and whether it can overload a circuit",
+    "explanation": "A cart wired with simple AC pass-through outlets delivers full power to every outlet simultaneously, which can trip a circuit breaker if all bays are loaded and drawing power at once, while a cart with timed or zoned charging cycles devices through groups to stay within a safe total wattage draw.\n\nThis distinction matters a great deal at higher device counts, a 10-device cart drawing simultaneous full power is rarely an issue, but a 30 or 42-device cart without smart charging management is a real electrical risk on a standard household or classroom circuit.\n\nCheck the listing for total rated wattage and whether it explicitly mentions zoned or timed charging, not just the outlet count, especially for carts storing 20 or more devices."
+  },
+  {
+    "criterion": "Consider USB-C versus AC outlet charging for your specific device fleet",
+    "explanation": "USB-C charging ports deliver power directly without needing each device's own separate power brick, simplifying cable management, but the actual charging wattage per port varies significantly between carts and isn't always disclosed, while AC outlet-based carts work with any device's own charger but require storing and managing that many separate power bricks inside the cart.\n\nThis matters directly for a mixed device fleet, a cart built around USB-C works cleanly for a uniform USB-C laptop or Chromebook fleet, but forces older or non-USB-C devices to use adapters or simply won't accommodate them.\n\nCheck whether the cart's charging ports match your actual device fleet's charging standard, and look for the specific per-port wattage rather than assuming USB-C alone means adequate charging speed."
+  },
+  {
+    "criterion": "Weigh loaded mobility and floor footprint against your actual space and routes",
+    "explanation": "A cart that's easy to wheel around empty can behave very differently once loaded with 20-40 devices worth of weight, caster quality, wheel size, and overall build sturdiness matter more under real load, especially over thresholds, carpet transitions, or elevators.\n\nThis is worth checking before buying if the cart will regularly move between rooms or floors rather than stay parked in one spot, since a cart that's hard to maneuver loaded becomes a daily friction point.\n\nCheck reviews specifically for mentions of loaded mobility and caster durability over time, not just how it moves in an unboxing video with the cart empty."
+  },
+  {
+    "criterion": "Factor in locking security if the cart stores devices unattended",
+    "explanation": "A cart's stated \"lockable\" feature can mean anything from a genuine keyed lock on a solid door to a simple latch that mostly deters casual access, and the actual security level matters a great deal if the cart will store expensive devices unattended overnight or in a semi-public space like a school hallway or shared office.\n\nThis is worth verifying directly rather than assuming any cart labeled \"lockable\" provides equivalent security, since a determined attempt at access can defeat a basic latch far more easily than a genuine keyed lock on a solid metal door.\n\nCheck the listing and reviews specifically for the lock mechanism type and door material, not just whether the word \"lockable\" appears in the title."
+  }
 ];
 
 export const faq: FaqItem[] = [

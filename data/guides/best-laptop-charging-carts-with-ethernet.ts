@@ -161,29 +161,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "If Ethernet Is a Hard Requirement",
-    note: "None of the carts we could verify in this comparison document an integrated Ethernet switch or wired network path. If your deployment genuinely requires provisioning devices over Ethernet while stored, contact an enterprise IT hardware vendor (like Tripp Lite/Eaton, Ergotron, or a specialist education IT reseller) directly and ask specifically about their network-management cart line, since this feature is typically sold through direct enterprise channels rather than general marketplace listings.",
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest average rating",
+          "Tripp Lite 42"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Meteteel Fully Assembled 20 Device Laptop Charging Cart for School"
+        ]
+      ]
+    }
   },
   {
-    subheading: "If General Charging Capacity Is the Real Priority",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Most proven general cart", "Meteteel Fully Assembled 20 Device Cart"],
-        ["Highest capacity", "TIOPLY 36 Device Charging Cart"],
-        ["Best value at 30 devices", "POCHAR 30 Unit Device Charging Station"],
-        ["Closest enterprise brand match", "Tripp Lite 42-Port AC Mobile Charging Cart"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $1",
+          "Tripp Lite 42"
+        ],
+        [
+          "Up to $570",
+          "ARTMAN Mobile Charging Cart Station"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Lockable Security vs Open Access",
+    "cards": [
+      {
+        "label": "Genuine locking door",
+        "text": "Real security for devices stored unattended in a semi-public space. In this comparison: Meteteel Fully Assembled 20 Device Laptop Charging Cart for School, Meteteel Fully Assembled 18 Device Laptop Charging Cart for School, POCHAR 30 Devices 14'' Screen Laptop Charging Cart for K, POCHAR 30 Unit Device Charging Station for Chromebook, TIOPLY 36 Device Charging Cart for Laptop Up to 16.3, ARTMAN Mobile Charging Cart Station."
+      },
+      {
+        "label": "Open access",
+        "text": "Faster to grab devices from, fine for a supervised or private space. In this comparison: Tripp Lite 42, VEVOR Laptop Cart."
+      }
+    ],
+    "note": "Default to a locking cart unless the space is always supervised or private."
+  },
+  {
+    "subheading": "By Ethernet Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "In-cabinet Ethernet for a router or hotspot",
+          "Tripp Lite 42"
+        ],
+        [
+          "Wi-Fi only is fine",
+          "ARTMAN Mobile Charging Cart Station"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a School or Classroom Fleet Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Confirmed bay geometry for your actual laptop model, zoned or timed charging for larger fleets, and a genuine locking door for unattended storage."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Meteteel Fully Assembled 20 Device Laptop Charging Cart for School is worth checking against its listed capacity and charging architecture before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You're managing a larger fleet needing safe zoned charging and genuine security, where ARTMAN Mobile Charging Cart Station's higher price buys real capacity and reliability headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You're storing a small number of devices with simple charging needs, where Tripp Lite 42 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify Ethernet/network switch inclusion directly before ordering", explanation: "None of the listings we researched document this feature. Ask the seller or manufacturer directly for confirmation rather than assuming any general charging cart includes wired network provisioning." },
-  { criterion: "Consider whether you actually need Ethernet or just reliable charging", explanation: "Most classroom and office deployments only need charging; genuine wired network provisioning while stored is a narrower enterprise IT need. Confirm which one you actually require before paying a premium for a specialized cart." },
-  { criterion: "Contact enterprise IT vendors directly for genuine network-management carts", explanation: "Ethernet-enabled management carts are typically sold through direct enterprise or education IT channels rather than general marketplace listings." },
-  { criterion: "If charging capacity is the real priority, compare on that basis instead", explanation: "The picks in this comparison vary in capacity from 18 to 42 devices at different price points; treat those factors as your primary decision criteria if Ethernet turns out not to be essential." },
-  { criterion: "Don't assume management or network-ready marketing language confirms an Ethernet switch", explanation: "Vague marketing terms like management-ready do not confirm an actual wired network path. Require explicit documentation of switch inclusion and cable routing." },
+  {
+    "criterion": "Verify actual bay geometry, not just the stated device count",
+    "explanation": "A cart's marketed device count is measured with thin devices packed edge to edge with dividers removed or minimized, real laptops with thicker chassis, protective cases, or non-standard shapes often don't fit at the stated count once you actually load them, especially once charging cables and adjustable dividers are factored in.\n\nThis mismatch matters directly for a school or office buying to a specific fleet size, since discovering the real capacity is lower than advertised after purchase means either overcrowding bays or leaving devices unstored.\n\nCheck reviews specifically for mentions of the actual devices that fit, ideally from buyers using a similar laptop model or size to yours, rather than trusting the headline device count alone."
+  },
+  {
+    "criterion": "Understand the charging architecture and whether it can overload a circuit",
+    "explanation": "A cart wired with simple AC pass-through outlets delivers full power to every outlet simultaneously, which can trip a circuit breaker if all bays are loaded and drawing power at once, while a cart with timed or zoned charging cycles devices through groups to stay within a safe total wattage draw.\n\nThis distinction matters a great deal at higher device counts, a 10-device cart drawing simultaneous full power is rarely an issue, but a 30 or 42-device cart without smart charging management is a real electrical risk on a standard household or classroom circuit.\n\nCheck the listing for total rated wattage and whether it explicitly mentions zoned or timed charging, not just the outlet count, especially for carts storing 20 or more devices."
+  },
+  {
+    "criterion": "Consider USB-C versus AC outlet charging for your specific device fleet",
+    "explanation": "USB-C charging ports deliver power directly without needing each device's own separate power brick, simplifying cable management, but the actual charging wattage per port varies significantly between carts and isn't always disclosed, while AC outlet-based carts work with any device's own charger but require storing and managing that many separate power bricks inside the cart.\n\nThis matters directly for a mixed device fleet, a cart built around USB-C works cleanly for a uniform USB-C laptop or Chromebook fleet, but forces older or non-USB-C devices to use adapters or simply won't accommodate them.\n\nCheck whether the cart's charging ports match your actual device fleet's charging standard, and look for the specific per-port wattage rather than assuming USB-C alone means adequate charging speed."
+  },
+  {
+    "criterion": "Weigh loaded mobility and floor footprint against your actual space and routes",
+    "explanation": "A cart that's easy to wheel around empty can behave very differently once loaded with 20-40 devices worth of weight, caster quality, wheel size, and overall build sturdiness matter more under real load, especially over thresholds, carpet transitions, or elevators.\n\nThis is worth checking before buying if the cart will regularly move between rooms or floors rather than stay parked in one spot, since a cart that's hard to maneuver loaded becomes a daily friction point.\n\nCheck reviews specifically for mentions of loaded mobility and caster durability over time, not just how it moves in an unboxing video with the cart empty."
+  },
+  {
+    "criterion": "Factor in locking security if the cart stores devices unattended",
+    "explanation": "A cart's stated \"lockable\" feature can mean anything from a genuine keyed lock on a solid door to a simple latch that mostly deters casual access, and the actual security level matters a great deal if the cart will store expensive devices unattended overnight or in a semi-public space like a school hallway or shared office.\n\nThis is worth verifying directly rather than assuming any cart labeled \"lockable\" provides equivalent security, since a determined attempt at access can defeat a basic latch far more easily than a genuine keyed lock on a solid metal door.\n\nCheck the listing and reviews specifically for the lock mechanism type and door material, not just whether the word \"lockable\" appears in the title."
+  }
 ];
 
 export const faq: FaqItem[] = [
