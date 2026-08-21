@@ -29,11 +29,10 @@ export const products: GuideProduct[] = [
     reviews: "91,365 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41eTFK7clfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HN37XC1?tag=deskfinds0d-20",
-    description:
-      "SanDisk's Extreme delivers reliable 1050MB/s USB-C speed with IP65 durability, performing consistently whether plugged into a rear motherboard port or a well-wired front-panel header.\n\nIf you notice inconsistent speeds, test the rear I/O panel directly, since front-panel headers are a more common source of speed and connection issues on desktop PCs.",
-    specs: ["2TB capacity", "Up to 1050MB/s rated", "USB-C, USB 3.2 Gen 2", "IP65 water and dust resistance"],
-    pros: ["Reliable speed across both front-panel and rear desktop ports", "IP65 rating adds real everyday durability", "Large 2TB capacity", "Well-established, large review base"],
-    cons: ["Front-panel headers can be a source of inconsistent connection quality", "Older model, verify current firmware", "Sustained speed can dip once cache fills"],
+    description: "SanDisk's Extreme delivers reliable 1050MB/s USB-C speed with IP65 durability, performing consistently whether plugged into a rear motherboard port or a well-wired front-panel header.\n\nIt earns the top spot in this comparison over Crucial X10 1TB Portable SSD for one main reason. Reliable speed across both front-panel and rear desktop ports. On price, it's actually priced above Crucial X10 1TB Portable SSD, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: IP65 rating adds real everyday durability. On the other side, Sustained speed can dip once cache fills. That's the main tradeoff to weigh against everything above.",
+    specs: ["2TB capacity","Up to 1050MB/s rated","USB-C, USB 3.2 Gen 2","IP65 water and dust resistance"],
+    pros: ["Reliable speed across both front-panel and rear desktop ports","IP65 rating adds real everyday durability","Large 2TB capacity","Well-established, large review base"],
+    cons: ["Front-panel headers can be a source of inconsistent connection quality","Older model, verify current firmware","Sustained speed can dip once cache fills"],
     bestFor: "Desktop PC users wanting reliable everyday speed and durability",
   },
   {
@@ -46,11 +45,10 @@ export const products: GuideProduct[] = [
     reviews: "2,363 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/312gFk3+1CL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F3377JBN?tag=deskfinds0d-20",
-    description:
-      "Crucial's X10 rates up to 2100MB/s over USB 3.2, taking real advantage of a desktop PC's typically faster and more consistent rear motherboard USB ports.\n\nDesktop users have an easier time confirming their exact port spec than laptop users, since motherboard documentation clearly lists each rear port's rated speed.",
-    specs: ["1TB capacity", "Up to 2100MB/s rated", "USB 3.2 Type-C", "Durable casing"],
-    pros: ["Takes real advantage of a desktop's typically faster rear ports", "Motherboard documentation makes port speed easy to confirm", "Competitive price for the speed tier", "Good fit for desktop gaming and file-heavy use"],
-    cons: ["Front-panel USB headers may not support this full speed tier", "Newer entrant with a smaller review base", "Needs a genuinely fast rear port to hit rated speed"],
+    description: "Crucial's X10 rates up to 2100MB/s over USB 3.2, taking real advantage of a desktop PC's typically faster and more consistent rear motherboard USB ports.\n\nOne spot below SANDISK 2TB Extreme Portable SSD in this ranking, it's priced lower than SANDISK 2TB Extreme Portable SSD. The compromise here is straightforward: Front-panel USB headers may not support this full speed tier. What you gain in return: Takes real advantage of a desktop's typically faster rear ports. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Motherboard documentation makes port speed easy to confirm. On the other side, Needs a genuinely fast rear port to hit rated speed. That's the main tradeoff to weigh against everything above.",
+    specs: ["1TB capacity","Up to 2100MB/s rated","USB 3.2 Type-C","Durable casing"],
+    pros: ["Takes real advantage of a desktop's typically faster rear ports","Motherboard documentation makes port speed easy to confirm","Competitive price for the speed tier","Good fit for desktop gaming and file-heavy use"],
+    cons: ["Front-panel USB headers may not support this full speed tier","Newer entrant with a smaller review base","Needs a genuinely fast rear port to hit rated speed"],
     bestFor: "Desktop PC users who confirm their rear ports support a faster tier",
   },
   {
@@ -63,11 +61,10 @@ export const products: GuideProduct[] = [
     reviews: "60 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/21K3rg5MWlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVMGFPHT?tag=deskfinds0d-20",
-    description:
-      "Corsair's EX400U Survivor pairs a genuine USB4 bridge rated up to 4000MB/s with IP55 rugged durability, ideal for desktop PC users whose motherboard includes a rear USB4 or Thunderbolt header.\n\nCheck your motherboard's specification sheet for USB4 or Thunderbolt support before buying, since not every desktop PC includes this newer port tier.",
-    specs: ["1TB capacity", "Up to 4000MB/s rated", "USB4 bridge", "IP55 rugged rating"],
-    pros: ["Genuinely fast USB4 speed for desktops with a compatible port", "IP55 rating adds real everyday durability", "Motherboard specs make USB4 support easy to confirm", "Strong ceiling for demanding desktop transfers"],
-    cons: ["Not every desktop motherboard includes a USB4 or Thunderbolt port", "Smaller review base than mainstream picks", "1TB capacity may be limiting for very large libraries"],
+    description: "Corsair's EX400U Survivor pairs a genuine USB4 bridge rated up to 4000MB/s with IP55 rugged durability, ideal for desktop PC users whose motherboard includes a rear USB4 or Thunderbolt header.\n\nSitting just under Crucial X10 1TB Portable SSD, it costs more than Crucial X10 1TB Portable SSD. Here's the honest tradeoff: Not every desktop motherboard includes a USB4 or Thunderbolt port. And here's what it gets you instead: Genuinely fast USB4 speed for desktops with a compatible port. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: IP55 rating adds real everyday durability. On the other side, 1TB capacity may be limiting for very large libraries. That's the main tradeoff to weigh against everything above.",
+    specs: ["1TB capacity","Up to 4000MB/s rated","USB4 bridge","IP55 rugged rating"],
+    pros: ["Genuinely fast USB4 speed for desktops with a compatible port","IP55 rating adds real everyday durability","Motherboard specs make USB4 support easy to confirm","Strong ceiling for demanding desktop transfers"],
+    cons: ["Not every desktop motherboard includes a USB4 or Thunderbolt port","Smaller review base than mainstream picks","1TB capacity may be limiting for very large libraries"],
     bestFor: "Desktop PC users with a confirmed USB4 or Thunderbolt motherboard port",
   },
   {
@@ -80,11 +77,10 @@ export const products: GuideProduct[] = [
     reviews: "10,968 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41-T4nAAufL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5JQ68FY?tag=deskfinds0d-20",
-    description:
-      "SanDisk's standard Portable SSD offers solid 800MB/s USB-C speed at a budget price, a reasonable external option for desktop PC users who do not need top-tier speed.\n\nFor desktop users specifically, remember that an internal 2.5-inch or M.2 drive bay is also a real alternative that avoids external bridge-chip bottlenecks entirely if true portability is not required.",
-    specs: ["1TB capacity", "Up to 800MB/s rated", "USB-C, USB 3.2 Gen 2", "Budget price"],
-    pros: ["Budget-friendly external option for desktop PC storage", "Still USB 3.2 Gen 2 rated for solid everyday speed", "Reliable brand with a large review base", "Good backup and file-transfer companion"],
-    cons: ["800MB/s ceiling trails faster picks in this group", "An internal drive bay may be a better fit if portability is not needed", "No official IP rating"],
+    description: "SanDisk's standard Portable SSD offers solid 800MB/s USB-C speed at a budget price, a reasonable external option for desktop PC users who do not need top-tier speed.\n\nRanked just behind Corsair EX400U Survivor 1TB USB4 External SSD, it's priced lower than Corsair EX400U Survivor 1TB USB4 External SSD. The real tradeoff against that pick: 800MB/s ceiling trails faster picks in this group. In exchange, it offers this instead: Budget-friendly external option for desktop PC storage. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Still USB 3.2 Gen 2 rated for solid everyday speed. On the other side, No official IP rating. That's the main tradeoff to weigh against everything above.",
+    specs: ["1TB capacity","Up to 800MB/s rated","USB-C, USB 3.2 Gen 2","Budget price"],
+    pros: ["Budget-friendly external option for desktop PC storage","Still USB 3.2 Gen 2 rated for solid everyday speed","Reliable brand with a large review base","Good backup and file-transfer companion"],
+    cons: ["800MB/s ceiling trails faster picks in this group","An internal drive bay may be a better fit if portability is not needed","No official IP rating"],
     bestFor: "Budget-conscious desktop PC users, or those considering an internal drive instead",
   }
 ];
@@ -100,25 +96,135 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Rear Ports Are Usually More Reliable Than Front-Panel Headers",
-    note: "Desktop PC front-panel USB ports route through a header cable to the motherboard and can be limited to a slower speed tier or a less reliable connection than a port wired directly on the rear I/O panel. If a drive seems to underperform, test a rear port directly before assuming the drive is at fault.",
+    "subheading": "By Capacity",
+    "table": {
+      "headers": [
+        "Your storage need",
+        "Recommended pick in this comparison"
+      ],
+      "rows": [
+        [
+          "Lightest everyday storage needs",
+          "Crucial X10 1TB Portable SSD"
+        ],
+        [
+          "Large media libraries or video work",
+          "SANDISK 2TB Extreme Portable SSD"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: { headers: ["Your priority", "Recommended pick"], rows: [["Reliable everyday speed and durability", "SanDisk Extreme 2TB"], ["Faster speed on a confirmed rear port", "Crucial X10 1TB"], ["Fastest speed with a USB4 or Thunderbolt motherboard port", "Corsair EX400U Survivor 1TB"], ["Lowest price, or considering an internal bay instead", "SanDisk Portable SSD 1TB"]] },
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $165",
+          "SANDISK 1TB Portable SSD"
+        ],
+        [
+          "Mid-range",
+          "Corsair EX400U Survivor 1TB USB4 External SSD"
+        ],
+        [
+          "No firm budget ceiling, prioritizing speed or NAND quality",
+          "SANDISK 2TB Extreme Portable SSD"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Consider an Internal Drive Bay If Portability Is Not the Point",
-    note: "If you mainly need extra storage attached to one desktop PC rather than a drive you carry between locations, an internal 2.5-inch or M.2 drive avoids external bridge-chip bottlenecks entirely and is often better value per gigabyte.",
+    "subheading": "TLC vs QLC NAND",
+    "cards": [
+      {
+        "label": "TLC NAND",
+        "text": "Better sustained write speed and longer-term endurance, especially once any onboard cache is exhausted during a large transfer. In this comparison: check each listing's specs directly, NAND type isn't always disclosed."
+      },
+      {
+        "label": "QLC NAND",
+        "text": "More capacity per dollar, at the cost of a bigger sustained-speed drop once the cache fills on long transfers. In this comparison: none explicitly confirmed in this specific roundup, check the listing before assuming."
+      }
+    ],
+    "note": "NAND type isn't explicitly confirmed for every pick here, check each specific listing's technical details if sustained speed matters to your workflow."
+  },
+  {
+    "subheading": "Rugged/Waterproof vs Standard Build",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Drop and water resistance for field use",
+          "SANDISK 2TB Extreme Portable SSD"
+        ],
+        [
+          "Slimmest, lightest everyday carry",
+          "Crucial X10 1TB Portable SSD"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Large Sustained Transfers (Video Editing) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "TLC NAND specifically, a stated sustained write speed (not just the peak burst number), and a USB generation on both drive and host that actually supports the rated speed."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Corsair EX400U Survivor 1TB USB4 External SSD fits this specifically: Genuinely fast USB4 speed for desktops with a compatible port."
+      }
+    ]
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "Corsair EX400U Survivor 1TB USB4 External SSD"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "SANDISK 2TB Extreme Portable SSD"
+        ]
+      ]
+    }
   }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Test rear motherboard ports before front-panel headers", explanation: "Front-panel USB headers can introduce slower speeds or connection issues, use a rear motherboard-direct port for the most reliable and fastest performance." },
-  { criterion: "Check your motherboard's documented port specs", explanation: "Desktop motherboard specification sheets clearly list each port's actual speed tier, easier to confirm than a laptop's port spec." },
-  { criterion: "Consider an internal drive bay as a real alternative", explanation: "If portability is not the priority, an internal 2.5-inch or M.2 drive avoids external bridge-chip bottlenecks and can be better value." },
-  { criterion: "Match rated drive speed to your confirmed port tier", explanation: "A 4000MB/s rated drive is wasted on a motherboard without USB4 or Thunderbolt support, verify before buying." },
-  { criterion: "Weigh cable quality for rear-panel runs", explanation: "Longer cable runs to rear ports still need to meet the drive's rated speed tier, a mismatched cable bottlenecks performance regardless of port quality." }
+  {
+    "criterion": "Plan around real usable capacity, not the number printed on the box",
+    "explanation": "Storage manufacturers advertise capacity in decimal gigabytes and terabytes (1 GB equals 1,000,000,000 bytes), but operating systems report free space in binary units (1 GB equals 1,073,741,824 bytes), and on top of that gap, formatting itself consumes a further slice of raw capacity for the file system's own bookkeeping.\n\nTogether these two factors mean a drive advertised as 1TB will typically show up as roughly 930GB in your file explorer, a genuinely predictable shortfall rather than a defect, but one that catches buyers off guard if they plan their storage needs around the advertised round number.\n\nBefore buying, mentally subtract roughly 7 percent from the advertised capacity to estimate real usable space, and size up a tier if your actual storage need is close to the advertised number rather than comfortably under it."
+  },
+  {
+    "criterion": "Check the NAND flash type where the manufacturer discloses it",
+    "explanation": "NAND flash memory, the actual chip technology storing your data, comes in different types based on how many bits each memory cell stores, with TLC (three bits per cell) generally offering better sustained write speed and longer-term endurance than QLC (four bits per cell), which packs more capacity per chip but at the cost of slower performance once any built-in cache is exhausted.\n\nThis matters concretely because many drives use a small pool of faster cache memory to accelerate the beginning of a transfer, and once that cache fills during a large or sustained copy, the drive falls back to its native NAND speed, which is a much bigger drop on a QLC drive than a TLC one, sometimes cutting write speed by more than half.\n\nManufacturers don't always advertise NAND type prominently, so check the product listing's technical details or search the model number alongside \"NAND type\" before assuming a drive uses the faster TLC type."
+  },
+  {
+    "criterion": "Confirm your device's actual port and cable support the drive's rated speed",
+    "explanation": "A portable SSD's rated speed, such as 1050MB/s or 2000MB/s, is the maximum the drive's own controller can achieve, but real-world speed is always capped by the slowest link in the chain: the drive itself, the cable connecting it, and the port on your computer or console, whichever of the three supports the lowest maximum speed.\n\nThis means a genuinely fast 2000MB/s-rated drive plugged into an older USB 3.0 port, or connected with a cable rated for a lower USB generation, will perform no better than a much cheaper drive rated for that lower speed, making the expensive drive's extra speed ceiling completely wasted money in that specific setup.\n\nCheck your computer, phone, or console's actual port specification (not just its connector shape, since USB-C and USB-A shapes don't indicate speed) and confirm any cable you use is rated for that same speed tier before expecting a fast drive's full rated performance."
+  },
+  {
+    "criterion": "Understand that a drive's speed rating reflects a burst, not sustained performance",
+    "explanation": "The headline speed figure on a portable SSD's packaging is typically measured using a short benchmark that primarily tests the drive's fast cache memory, not its sustained real-world performance across a large, continuous file transfer that runs long enough to exhaust that cache.\n\nThis is the single most common reason a portable SSD feels slower in real use than its marketing suggests: copying a single large video file or a folder of thousands of photos can run well past the point where the cache empties, causing the transfer to visibly slow down partway through, something a short benchmark screenshot never reveals.\n\nIf your actual use case involves large sustained transfers, specifically look for reviews or listings that mention sustained write speed after cache exhaustion, not just the peak burst number on the box."
+  },
+  {
+    "criterion": "Compare warranty length as a genuine (if imperfect) signal of manufacturer confidence",
+    "explanation": "A storage device's warranty length, commonly ranging from one to five years across different brands and models even at similar price points, reflects the manufacturer's own actuarial confidence in how long that specific NAND and controller combination will reliably hold data, since a company offering a longer warranty is accepting more financial risk on a component they presumably trust more.\n\nThis isn't a perfect signal on its own, a shorter warranty doesn't automatically mean an unreliable drive, but at a similar price point between two otherwise comparable drives, the one backed by a longer warranty is making a more concrete promise about its own longevity rather than just a marketing claim.\n\nCheck the stated warranty length directly in the listing or manufacturer's spec sheet, and weigh it alongside NAND type and brand reputation rather than treating any single signal as decisive on its own."
+  }
 ];
 
 export const faq: FaqItem[] = [

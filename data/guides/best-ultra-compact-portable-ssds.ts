@@ -29,11 +29,10 @@ export const products: GuideProduct[] = [
     reviews: "436 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31a33qlUGuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLV9GG54?tag=deskfinds0d-20",
-    description:
-      "The KingSpec Z5 packs a genuinely small 512GB footprint with a rated 2100MB/s speed, though that compact zinc alloy case has limited surface area for heat dissipation under sustained transfers.\n\nCheck reviews for confirmed sustained-load thermal behavior before relying on this drive for very large continuous transfers, short bursts of everyday use are unlikely to trigger any throttling.",
-    specs: ["512GB capacity", "Up to 2100MB/s rated", "USB 3.2 Gen2x2", "Zinc alloy ultra-compact case"],
-    pros: ["Genuinely small, pocketable footprint", "High rated speed for the size", "Distinctive zinc alloy design", "Good value for an ultra-compact drive"],
-    cons: ["Compact case has limited heat dissipation under sustained load", "Smaller review base than mainstream brands", "512GB may be limiting for larger libraries"],
+    description: "The KingSpec Z5 packs a genuinely small 512GB footprint with a rated 2100MB/s speed, though that compact zinc alloy case has limited surface area for heat dissipation under sustained transfers.\n\nIt earns the top spot in this comparison over Seagate Storage Expansion Card 2TB Solid State Drive for one main reason. Genuinely small, pocketable footprint. On price, it's priced at $88.99, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: High rated speed for the size. On the other side, 512GB may be limiting for larger libraries. That's the main tradeoff to weigh against everything above.",
+    specs: ["512GB capacity","Up to 2100MB/s rated","USB 3.2 Gen2x2","Zinc alloy ultra-compact case"],
+    pros: ["Genuinely small, pocketable footprint","High rated speed for the size","Distinctive zinc alloy design","Good value for an ultra-compact drive"],
+    cons: ["Compact case has limited heat dissipation under sustained load","Smaller review base than mainstream brands","512GB may be limiting for larger libraries"],
     bestFor: "Buyers who want the smallest possible footprint for everyday bursts of use",
   },
   {
@@ -46,11 +45,10 @@ export const products: GuideProduct[] = [
     reviews: "30,738 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/316Its027kL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09BJYXMDW?tag=deskfinds0d-20",
-    description:
-      "Seagate's Storage Expansion Card is a genuinely small internal NVMe card designed to fit inside the PS5's expansion slot, where the console's own internal cooling helps offset the card's own limited surface area.\n\nBecause it installs internally rather than sitting exposed like a typical external ultra-compact drive, its connector attachment concerns differ from external ultra-compact drives, it is a fixed internal card rather than a cable-dependent external unit.",
-    specs: ["2TB capacity", "Internal NVMe expansion card", "Sony-certified for PS5", "Benefits from the PS5's own internal cooling"],
-    pros: ["PS5's internal cooling helps offset the card's compact size", "No external cable or port to worry about durability-wise", "Officially Sony-certified for reliable internal fit", "Large review base for this specific product"],
-    cons: ["Only usable with a PS5's internal expansion slot, not general external storage", "Price varies, check current listing before buying", "Requires opening the PS5 case to install"],
+    description: "Seagate's Storage Expansion Card is a genuinely small internal NVMe card designed to fit inside the PS5's expansion slot, where the console's own internal cooling helps offset the card's own limited surface area.\n\nOne spot below KingSpec Z5 512GB External SSD in this ranking, it's priced lower than KingSpec Z5 512GB External SSD. The compromise here is straightforward: Only usable with a PS5's internal expansion slot, not general external storage. What you gain in return: PS5's internal cooling helps offset the card's compact size. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: No external cable or port to worry about durability-wise. On the other side, Requires opening the PS5 case to install. That's the main tradeoff to weigh against everything above.",
+    specs: ["2TB capacity","Internal NVMe expansion card","Sony-certified for PS5","Benefits from the PS5's own internal cooling"],
+    pros: ["PS5's internal cooling helps offset the card's compact size","No external cable or port to worry about durability-wise","Officially Sony-certified for reliable internal fit","Large review base for this specific product"],
+    cons: ["Only usable with a PS5's internal expansion slot, not general external storage","Price varies, check current listing before buying","Requires opening the PS5 case to install"],
     bestFor: "PS5 owners who want compact expansion without external cable durability concerns",
   },
   {
@@ -63,11 +61,10 @@ export const products: GuideProduct[] = [
     reviews: "2,340 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31HBU-HAxoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C3B32H9M?tag=deskfinds0d-20",
-    description:
-      "Transcend's ESD310 stays genuinely compact while offering both USB-C and USB-A connectors, useful if you want a small drive that skips carrying a separate adapter.\n\nAs with other compact drives, verify the true kit weight and size including any included cable, since a compact bare drive with a bulky cable is not as genuinely pocketable as it first appears.",
-    specs: ["1TB capacity", "Dual USB-C and USB-A connectors", "Up to 1050MB/s rated", "Compact 2-in-1 connector design"],
-    pros: ["Genuinely compact with dual-connector flexibility built in", "Reduces the need for a separate adapter", "Solid everyday speed for the size", "Good value for the compact, flexible design"],
-    cons: ["Verify true kit weight and size including any included cable", "Smaller review base than mainstream single-connector drives", "Compact size still carries the same thermal throttling risk as other ultra-compact drives"],
+    description: "Transcend's ESD310 stays genuinely compact while offering both USB-C and USB-A connectors, useful if you want a small drive that skips carrying a separate adapter.\n\nSitting just under Seagate Storage Expansion Card 2TB Solid State Drive, pricing between it and Seagate Storage Expansion Card 2TB Solid State Drive isn't directly comparable here. Here's the honest tradeoff: Verify true kit weight and size including any included cable. And here's what it gets you instead: Genuinely compact with dual-connector flexibility built in. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Reduces the need for a separate adapter. On the other side, Compact size still carries the same thermal throttling risk as other ultra-compact drives. That's the main tradeoff to weigh against everything above.",
+    specs: ["1TB capacity","Dual USB-C and USB-A connectors","Up to 1050MB/s rated","Compact 2-in-1 connector design"],
+    pros: ["Genuinely compact with dual-connector flexibility built in","Reduces the need for a separate adapter","Solid everyday speed for the size","Good value for the compact, flexible design"],
+    cons: ["Verify true kit weight and size including any included cable","Smaller review base than mainstream single-connector drives","Compact size still carries the same thermal throttling risk as other ultra-compact drives"],
     bestFor: "Buyers who want a compact drive with built-in connector flexibility",
   },
   {
@@ -80,11 +77,10 @@ export const products: GuideProduct[] = [
     reviews: "91,365 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41eTFK7clfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HN37XC1?tag=deskfinds0d-20",
-    description:
-      "SanDisk's Extreme, while not the smallest drive in this group, remains genuinely compact and benefits from IP65 durability plus the largest verified review base in our entire research pool.\n\nIts slightly larger size than the smallest ultra-compact options actually helps with heat dissipation somewhat, worth the small size tradeoff if sustained-load reliability matters most to you.",
-    specs: ["2TB capacity", "Up to 1050MB/s rated", "USB-C, USB 3.2 Gen 2", "IP65 water and dust resistance"],
-    pros: ["Slightly larger size aids heat dissipation versus the smallest ultra-compact drives", "Largest verified review base in our research pool", "IP65 rating adds real everyday durability", "Large 2TB capacity in a still genuinely compact form"],
-    cons: ["Not the absolute smallest option in this category", "Older model, verify current firmware", "Sustained speed can dip once cache fills"],
+    description: "SanDisk's Extreme, while not the smallest drive in this group, remains genuinely compact and benefits from IP65 durability plus the largest verified review base in our entire research pool.\n\nRanked just behind Transcend ESD310 1TB External SSD, it costs more than Transcend ESD310 1TB External SSD. The real tradeoff against that pick: Not the absolute smallest option in this category. In exchange, it offers this instead: Slightly larger size aids heat dissipation versus the smallest ultra-compact drives. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Largest verified review base in our research pool. On the other side, Sustained speed can dip once cache fills. That's the main tradeoff to weigh against everything above.",
+    specs: ["2TB capacity","Up to 1050MB/s rated","USB-C, USB 3.2 Gen 2","IP65 water and dust resistance"],
+    pros: ["Slightly larger size aids heat dissipation versus the smallest ultra-compact drives","Largest verified review base in our research pool","IP65 rating adds real everyday durability","Large 2TB capacity in a still genuinely compact form"],
+    cons: ["Not the absolute smallest option in this category","Older model, verify current firmware","Sustained speed can dip once cache fills"],
     bestFor: "Buyers who want a compact drive with a slight size tradeoff for better thermal headroom",
   }
 ];
@@ -100,25 +96,135 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Thermal Throttling Is the Central Tradeoff for This Category",
-    note: "Ultra-compact enclosures have the least surface area for heat dissipation of any portable SSD form factor, making them the most prone to thermal throttling under sustained load. If you regularly do large sustained transfers, weigh this against the convenience of a smaller size.",
+    "subheading": "By Capacity",
+    "table": {
+      "headers": [
+        "Your storage need",
+        "Recommended pick in this comparison"
+      ],
+      "rows": [
+        [
+          "Lightest everyday storage needs",
+          "KingSpec Z5 512GB External SSD"
+        ],
+        [
+          "Large media libraries or video work",
+          "SANDISK 2TB Extreme Portable SSD"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Check True Kit Weight, Not Just the Bare Drive",
-    note: "A drive advertised as ultra-compact can lose much of that advantage once you add its included cable or case. Verify the true kit weight and size for an accurate comparison before assuming a drive is genuinely pocketable.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $89",
+          "KingSpec Z5 512GB External SSD"
+        ],
+        [
+          "Mid-range",
+          "Transcend ESD310 1TB External SSD"
+        ],
+        [
+          "No firm budget ceiling, prioritizing speed or NAND quality",
+          "SANDISK 2TB Extreme Portable SSD"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: { headers: ["Your priority", "Recommended pick"], rows: [["Smallest footprint for everyday bursts of use", "KingSpec Z5 512GB"], ["Compact expansion without external cable concerns", "Seagate Storage Expansion Card 2TB (PS5 internal)"], ["Compact with built-in connector flexibility", "Transcend ESD310 1TB"], ["Slight size tradeoff for better thermal headroom", "SanDisk Extreme 2TB"]] },
+    "subheading": "TLC vs QLC NAND",
+    "cards": [
+      {
+        "label": "TLC NAND",
+        "text": "Better sustained write speed and longer-term endurance, especially once any onboard cache is exhausted during a large transfer. In this comparison: check each listing's specs directly, NAND type isn't always disclosed."
+      },
+      {
+        "label": "QLC NAND",
+        "text": "More capacity per dollar, at the cost of a bigger sustained-speed drop once the cache fills on long transfers. In this comparison: none explicitly confirmed in this specific roundup, check the listing before assuming."
+      }
+    ],
+    "note": "NAND type isn't explicitly confirmed for every pick here, check each specific listing's technical details if sustained speed matters to your workflow."
+  },
+  {
+    "subheading": "Rugged/Waterproof vs Standard Build",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Drop and water resistance for field use",
+          "SANDISK 2TB Extreme Portable SSD"
+        ],
+        [
+          "Slimmest, lightest everyday carry",
+          "KingSpec Z5 512GB External SSD"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Large Sustained Transfers (Video Editing) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "TLC NAND specifically, a stated sustained write speed (not just the peak burst number), and a USB generation on both drive and host that actually supports the rated speed."
+      },
+      {
+        "label": "In this comparison",
+        "text": "KingSpec Z5 512GB External SSD fits this specifically: Genuinely small, pocketable footprint."
+      }
+    ]
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "Seagate Storage Expansion Card 2TB Solid State Drive"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "SANDISK 2TB Extreme Portable SSD"
+        ]
+      ]
+    }
   }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Weigh thermal throttling risk against your actual transfer sizes", explanation: "Ultra-compact drives have the least heat dissipation surface area, most prone to thermal throttling under sustained large transfers, occasional small transfers are much less affected." },
-  { criterion: "Check the true kit weight and size, including the cable", explanation: "A compact bare drive with a bulky included cable is not as genuinely pocketable as it first appears, verify the full kit dimensions." },
-  { criterion: "Consider connector attachment durability", explanation: "Extremely compact drives sometimes use a fixed, non-replaceable cable or a more fragile port, a real durability tradeoff worth checking in reviews." },
-  { criterion: "Don't sacrifice too much capacity for size alone", explanation: "Some of the smallest drives available also carry the smallest capacities, weigh whether the size savings are worth a real capacity tradeoff." },
-  { criterion: "Balance compactness against your actual durability needs", explanation: "If you need a drop-resistant or water-resistant drive, a slightly larger rugged design may serve you better than the absolute smallest option available." }
+  {
+    "criterion": "Plan around real usable capacity, not the number printed on the box",
+    "explanation": "Storage manufacturers advertise capacity in decimal gigabytes and terabytes (1 GB equals 1,000,000,000 bytes), but operating systems report free space in binary units (1 GB equals 1,073,741,824 bytes), and on top of that gap, formatting itself consumes a further slice of raw capacity for the file system's own bookkeeping.\n\nTogether these two factors mean a drive advertised as 1TB will typically show up as roughly 930GB in your file explorer, a genuinely predictable shortfall rather than a defect, but one that catches buyers off guard if they plan their storage needs around the advertised round number.\n\nBefore buying, mentally subtract roughly 7 percent from the advertised capacity to estimate real usable space, and size up a tier if your actual storage need is close to the advertised number rather than comfortably under it."
+  },
+  {
+    "criterion": "Check the NAND flash type where the manufacturer discloses it",
+    "explanation": "NAND flash memory, the actual chip technology storing your data, comes in different types based on how many bits each memory cell stores, with TLC (three bits per cell) generally offering better sustained write speed and longer-term endurance than QLC (four bits per cell), which packs more capacity per chip but at the cost of slower performance once any built-in cache is exhausted.\n\nThis matters concretely because many drives use a small pool of faster cache memory to accelerate the beginning of a transfer, and once that cache fills during a large or sustained copy, the drive falls back to its native NAND speed, which is a much bigger drop on a QLC drive than a TLC one, sometimes cutting write speed by more than half.\n\nManufacturers don't always advertise NAND type prominently, so check the product listing's technical details or search the model number alongside \"NAND type\" before assuming a drive uses the faster TLC type."
+  },
+  {
+    "criterion": "Confirm your device's actual port and cable support the drive's rated speed",
+    "explanation": "A portable SSD's rated speed, such as 1050MB/s or 2000MB/s, is the maximum the drive's own controller can achieve, but real-world speed is always capped by the slowest link in the chain: the drive itself, the cable connecting it, and the port on your computer or console, whichever of the three supports the lowest maximum speed.\n\nThis means a genuinely fast 2000MB/s-rated drive plugged into an older USB 3.0 port, or connected with a cable rated for a lower USB generation, will perform no better than a much cheaper drive rated for that lower speed, making the expensive drive's extra speed ceiling completely wasted money in that specific setup.\n\nCheck your computer, phone, or console's actual port specification (not just its connector shape, since USB-C and USB-A shapes don't indicate speed) and confirm any cable you use is rated for that same speed tier before expecting a fast drive's full rated performance."
+  },
+  {
+    "criterion": "Understand that a drive's speed rating reflects a burst, not sustained performance",
+    "explanation": "The headline speed figure on a portable SSD's packaging is typically measured using a short benchmark that primarily tests the drive's fast cache memory, not its sustained real-world performance across a large, continuous file transfer that runs long enough to exhaust that cache.\n\nThis is the single most common reason a portable SSD feels slower in real use than its marketing suggests: copying a single large video file or a folder of thousands of photos can run well past the point where the cache empties, causing the transfer to visibly slow down partway through, something a short benchmark screenshot never reveals.\n\nIf your actual use case involves large sustained transfers, specifically look for reviews or listings that mention sustained write speed after cache exhaustion, not just the peak burst number on the box."
+  },
+  {
+    "criterion": "Compare warranty length as a genuine (if imperfect) signal of manufacturer confidence",
+    "explanation": "A storage device's warranty length, commonly ranging from one to five years across different brands and models even at similar price points, reflects the manufacturer's own actuarial confidence in how long that specific NAND and controller combination will reliably hold data, since a company offering a longer warranty is accepting more financial risk on a component they presumably trust more.\n\nThis isn't a perfect signal on its own, a shorter warranty doesn't automatically mean an unreliable drive, but at a similar price point between two otherwise comparable drives, the one backed by a longer warranty is making a more concrete promise about its own longevity rather than just a marketing claim.\n\nCheck the stated warranty length directly in the listing or manufacturer's spec sheet, and weigh it alongside NAND type and brand reputation rather than treating any single signal as decisive on its own."
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -29,11 +29,10 @@ export const products: GuideProduct[] = [
     reviews: "91,365 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41eTFK7clfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HN37XC1?tag=deskfinds0d-20",
-    description:
-      "SanDisk's Extreme carries the largest verified review base in our entire research pool, a genuinely strong real-world reliability signal built from a large number of actual buyer experiences over time.\n\nIP65 water and dust resistance adds a further layer of everyday durability on top of that review-backed track record.",
-    specs: ["2TB capacity", "Up to 1050MB/s rated", "USB-C, USB 3.2 Gen 2", "IP65 water and dust resistance, largest review base"],
-    pros: ["Largest verified review base in our research pool", "IP65 rating adds real everyday durability", "Long-established brand with predictable warranty support", "Consistent track record across a large number of real buyers"],
-    cons: ["Older model, verify current firmware", "Rated speed trails newer high-end drives", "Sustained speed can dip once cache fills"],
+    description: "SanDisk's Extreme carries the largest verified review base in our entire research pool, a genuinely strong real-world reliability signal built from a large number of actual buyer experiences over time.\n\nIt earns the top spot in this comparison over Samsung T7 Shield Portable SSD 1TB for one main reason. Largest verified review base in our research pool. On price, it's actually priced above Samsung T7 Shield Portable SSD 1TB, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: IP65 rating adds real everyday durability. On the other side, Sustained speed can dip once cache fills. That's the main tradeoff to weigh against everything above.",
+    specs: ["2TB capacity","Up to 1050MB/s rated","USB-C, USB 3.2 Gen 2","IP65 water and dust resistance, largest review base"],
+    pros: ["Largest verified review base in our research pool","IP65 rating adds real everyday durability","Long-established brand with predictable warranty support","Consistent track record across a large number of real buyers"],
+    cons: ["Older model, verify current firmware","Rated speed trails newer high-end drives","Sustained speed can dip once cache fills"],
     bestFor: "Buyers who want reliability backed by the largest verified review volume",
   },
   {
@@ -46,11 +45,10 @@ export const products: GuideProduct[] = [
     reviews: "16,380 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/21mARCvUWxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VLK9W3S?tag=deskfinds0d-20",
-    description:
-      "Samsung's T7 Shield combines a strong 4.7-star rating with a substantial review base and a rugged shell that adds real physical durability on top of internal reliability.\n\nSamsung's warranty support and companion software also provide accessible drive-health information, a genuine plus for buyers who want to monitor a drive's condition over time.",
-    specs: ["1TB capacity", "Up to 1050MB/s rated", "USB 3.2 Gen 2", "Rugged shield, strong review base"],
-    pros: ["Strong rating backed by a substantial review base", "Rugged shell adds physical reliability alongside internal reliability", "Accessible drive-health monitoring through companion software", "Consistent, predictable warranty support"],
-    cons: ["Bulkier than the non-shielded T7", "Premium price versus less-reviewed alternatives", "1050MB/s ceiling trails newer high-end drives"],
+    description: "Samsung's T7 Shield combines a strong 4.7-star rating with a substantial review base and a rugged shell that adds real physical durability on top of internal reliability.\n\nOne spot below SANDISK 2TB Extreme Portable SSD in this ranking, it's priced lower than SANDISK 2TB Extreme Portable SSD. The compromise here is straightforward: Bulkier than the non-shielded T7. What you gain in return: Strong rating backed by a substantial review base. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Rugged shell adds physical reliability alongside internal reliability. On the other side, 1050MB/s ceiling trails newer high-end drives. That's the main tradeoff to weigh against everything above.",
+    specs: ["1TB capacity","Up to 1050MB/s rated","USB 3.2 Gen 2","Rugged shield, strong review base"],
+    pros: ["Strong rating backed by a substantial review base","Rugged shell adds physical reliability alongside internal reliability","Accessible drive-health monitoring through companion software","Consistent, predictable warranty support"],
+    cons: ["Bulkier than the non-shielded T7","Premium price versus less-reviewed alternatives","1050MB/s ceiling trails newer high-end drives"],
     bestFor: "Buyers who want consistent everyday reliability with drive-health monitoring",
   },
   {
@@ -63,11 +61,10 @@ export const products: GuideProduct[] = [
     reviews: "30,738 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/316Its027kL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09BJYXMDW?tag=deskfinds0d-20",
-    description:
-      "Seagate's Storage Expansion Card carries an exceptionally large verified review base, a genuine reliability signal from real buyer experience with this specific, purpose-built product over time.\n\nAs an officially certified PS5 expansion drive, it also benefits from Sony's own certification process as an additional layer of verified reliability beyond the review count alone.",
-    specs: ["2TB capacity", "Internal NVMe expansion card", "Sony-certified for PS5, largest review base in this category", "Quick Resume compatible"],
-    pros: ["Exceptionally large verified review base", "Sony's own certification process adds a further reliability layer", "Purpose-built and rigorously tested for its specific use case", "Strong real-world track record over time"],
-    cons: ["Price varies, check current listing before buying", "Purpose-built for PS5, not a general-purpose external drive", "Requires opening the PS5's expansion slot to install"],
+    description: "Seagate's Storage Expansion Card carries an exceptionally large verified review base, a genuine reliability signal from real buyer experience with this specific, purpose-built product over time.\n\nSitting just under Samsung T7 Shield Portable SSD 1TB, it's priced lower than Samsung T7 Shield Portable SSD 1TB. Here's the honest tradeoff: Price varies, check current listing before buying. And here's what it gets you instead: Exceptionally large verified review base. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Sony's own certification process adds a further reliability layer. On the other side, Requires opening the PS5's expansion slot to install. That's the main tradeoff to weigh against everything above.",
+    specs: ["2TB capacity","Internal NVMe expansion card","Sony-certified for PS5, largest review base in this category","Quick Resume compatible"],
+    pros: ["Exceptionally large verified review base","Sony's own certification process adds a further reliability layer","Purpose-built and rigorously tested for its specific use case","Strong real-world track record over time"],
+    cons: ["Price varies, check current listing before buying","Purpose-built for PS5, not a general-purpose external drive","Requires opening the PS5's expansion slot to install"],
     bestFor: "Buyers who want reliability backed by both review volume and official certification",
   },
   {
@@ -80,11 +77,10 @@ export const products: GuideProduct[] = [
     reviews: "21,124 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31LdvAbumfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874XN4D8?tag=deskfinds0d-20",
-    description:
-      "The standard Samsung T7 shares the same reliable internal platform as the Shield, backed by a large, consistent review base and Samsung's established warranty process.\n\nWithout the rugged shell, it trades some physical durability for a slimmer profile, worth weighing against your own daily handling habits.",
-    specs: ["1TB capacity", "Up to 1050MB/s rated", "USB 3.2 Gen 2", "Slim metal body, large review base"],
-    pros: ["Large, consistent review base backing this platform", "Established, predictable warranty support", "Reliable internal platform shared with the Shield variant", "Slim design for everyday carry"],
-    cons: ["Less physical durability than the shielded variant", "No official IP rating", "1050MB/s ceiling trails newer high-end drives"],
+    description: "The standard Samsung T7 shares the same reliable internal platform as the Shield, backed by a large, consistent review base and Samsung's established warranty process.\n\nRanked just behind Seagate Storage Expansion Card 2TB Solid State Drive, pricing between it and Seagate Storage Expansion Card 2TB Solid State Drive isn't directly comparable here. The real tradeoff against that pick: Less physical durability than the shielded variant. In exchange, it offers this instead: Large, consistent review base backing this platform. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Established, predictable warranty support. On the other side, 1050MB/s ceiling trails newer high-end drives. That's the main tradeoff to weigh against everything above.",
+    specs: ["1TB capacity","Up to 1050MB/s rated","USB 3.2 Gen 2","Slim metal body, large review base"],
+    pros: ["Large, consistent review base backing this platform","Established, predictable warranty support","Reliable internal platform shared with the Shield variant","Slim design for everyday carry"],
+    cons: ["Less physical durability than the shielded variant","No official IP rating","1050MB/s ceiling trails newer high-end drives"],
     bestFor: "Buyers who want proven internal reliability without the shield's added bulk",
   }
 ];
@@ -100,25 +96,135 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Back Reliability Claims With Real Numbers, Not Just Brand Name",
-    note: "TBW endurance ratings and documented warranty length are concrete reliability signals worth checking directly, rather than assuming a recognizable brand name automatically means the most reliable specific drive.",
+    "subheading": "By Capacity",
+    "table": {
+      "headers": [
+        "Your storage need",
+        "Recommended pick in this comparison"
+      ],
+      "rows": [
+        [
+          "Lightest everyday storage needs",
+          "Samsung T7 Shield Portable SSD 1TB"
+        ],
+        [
+          "Large media libraries or video work",
+          "Seagate Storage Expansion Card 2TB Solid State Drive"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: { headers: ["Your priority", "Recommended pick"], rows: [["Largest verified review base overall", "SanDisk Extreme 2TB"], ["Everyday reliability with health monitoring", "Samsung T7 Shield 1TB"], ["Reliability backed by official certification", "Seagate Storage Expansion Card 2TB"], ["Proven platform in a slim profile", "Samsung T7 1TB"]] },
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $217",
+          "Samsung T7 Portable SSD 1TB Titan Gray"
+        ],
+        [
+          "Mid-range",
+          "Samsung T7 Shield Portable SSD 1TB"
+        ],
+        [
+          "No firm budget ceiling, prioritizing speed or NAND quality",
+          "SANDISK 2TB Extreme Portable SSD"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Warranty Support Quality Matters as Much as Warranty Length",
-    note: "A longer warranty is only as valuable as the manufacturer's actual claim process. Established brands with a long track record tend to have more predictable, accessible support than newer or less-reviewed alternatives.",
+    "subheading": "TLC vs QLC NAND",
+    "cards": [
+      {
+        "label": "TLC NAND",
+        "text": "Better sustained write speed and longer-term endurance, especially once any onboard cache is exhausted during a large transfer. In this comparison: check each listing's specs directly, NAND type isn't always disclosed."
+      },
+      {
+        "label": "QLC NAND",
+        "text": "More capacity per dollar, at the cost of a bigger sustained-speed drop once the cache fills on long transfers. In this comparison: none explicitly confirmed in this specific roundup, check the listing before assuming."
+      }
+    ],
+    "note": "NAND type isn't explicitly confirmed for every pick here, check each specific listing's technical details if sustained speed matters to your workflow."
+  },
+  {
+    "subheading": "Rugged/Waterproof vs Standard Build",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Drop and water resistance for field use",
+          "SANDISK 2TB Extreme Portable SSD"
+        ],
+        [
+          "Slimmest, lightest everyday carry",
+          "Seagate Storage Expansion Card 2TB Solid State Drive"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Large Sustained Transfers (Video Editing) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "TLC NAND specifically, a stated sustained write speed (not just the peak burst number), and a USB generation on both drive and host that actually supports the rated speed."
+      },
+      {
+        "label": "In this comparison",
+        "text": "SANDISK 2TB Extreme Portable SSD fits this specifically: Largest verified review base in our research pool."
+      }
+    ]
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "Seagate Storage Expansion Card 2TB Solid State Drive"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "SANDISK 2TB Extreme Portable SSD"
+        ]
+      ]
+    }
   }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Check actual TBW endurance ratings, not just brand reputation", explanation: "TBW, total bytes written, is a concrete endurance measure worth comparing directly rather than assuming a well-known brand automatically means higher endurance." },
-  { criterion: "Compare documented warranty length across brands", explanation: "Warranty length is a real reliability signal manufacturers back with their own confidence, worth comparing directly at similar price points." },
-  { criterion: "Weigh warranty claim process quality", explanation: "A long warranty is only as good as the actual claim process, established brands with a longer track record tend to have more predictable support." },
-  { criterion: "Check for S.M.A.R.T. health data accessibility", explanation: "Some enclosures and companion software let you monitor drive health directly, a genuine plus for tracking a drive's condition over its lifespan." },
-  { criterion: "Weigh review volume as a real-world reliability signal", explanation: "A large verified review base built over time reflects genuine real-world performance across many buyers, not just a manufacturer's own claims." }
+  {
+    "criterion": "Plan around real usable capacity, not the number printed on the box",
+    "explanation": "Storage manufacturers advertise capacity in decimal gigabytes and terabytes (1 GB equals 1,000,000,000 bytes), but operating systems report free space in binary units (1 GB equals 1,073,741,824 bytes), and on top of that gap, formatting itself consumes a further slice of raw capacity for the file system's own bookkeeping.\n\nTogether these two factors mean a drive advertised as 1TB will typically show up as roughly 930GB in your file explorer, a genuinely predictable shortfall rather than a defect, but one that catches buyers off guard if they plan their storage needs around the advertised round number.\n\nBefore buying, mentally subtract roughly 7 percent from the advertised capacity to estimate real usable space, and size up a tier if your actual storage need is close to the advertised number rather than comfortably under it."
+  },
+  {
+    "criterion": "Check the NAND flash type where the manufacturer discloses it",
+    "explanation": "NAND flash memory, the actual chip technology storing your data, comes in different types based on how many bits each memory cell stores, with TLC (three bits per cell) generally offering better sustained write speed and longer-term endurance than QLC (four bits per cell), which packs more capacity per chip but at the cost of slower performance once any built-in cache is exhausted.\n\nThis matters concretely because many drives use a small pool of faster cache memory to accelerate the beginning of a transfer, and once that cache fills during a large or sustained copy, the drive falls back to its native NAND speed, which is a much bigger drop on a QLC drive than a TLC one, sometimes cutting write speed by more than half.\n\nManufacturers don't always advertise NAND type prominently, so check the product listing's technical details or search the model number alongside \"NAND type\" before assuming a drive uses the faster TLC type."
+  },
+  {
+    "criterion": "Confirm your device's actual port and cable support the drive's rated speed",
+    "explanation": "A portable SSD's rated speed, such as 1050MB/s or 2000MB/s, is the maximum the drive's own controller can achieve, but real-world speed is always capped by the slowest link in the chain: the drive itself, the cable connecting it, and the port on your computer or console, whichever of the three supports the lowest maximum speed.\n\nThis means a genuinely fast 2000MB/s-rated drive plugged into an older USB 3.0 port, or connected with a cable rated for a lower USB generation, will perform no better than a much cheaper drive rated for that lower speed, making the expensive drive's extra speed ceiling completely wasted money in that specific setup.\n\nCheck your computer, phone, or console's actual port specification (not just its connector shape, since USB-C and USB-A shapes don't indicate speed) and confirm any cable you use is rated for that same speed tier before expecting a fast drive's full rated performance."
+  },
+  {
+    "criterion": "Understand that a drive's speed rating reflects a burst, not sustained performance",
+    "explanation": "The headline speed figure on a portable SSD's packaging is typically measured using a short benchmark that primarily tests the drive's fast cache memory, not its sustained real-world performance across a large, continuous file transfer that runs long enough to exhaust that cache.\n\nThis is the single most common reason a portable SSD feels slower in real use than its marketing suggests: copying a single large video file or a folder of thousands of photos can run well past the point where the cache empties, causing the transfer to visibly slow down partway through, something a short benchmark screenshot never reveals.\n\nIf your actual use case involves large sustained transfers, specifically look for reviews or listings that mention sustained write speed after cache exhaustion, not just the peak burst number on the box."
+  },
+  {
+    "criterion": "Compare warranty length as a genuine (if imperfect) signal of manufacturer confidence",
+    "explanation": "A storage device's warranty length, commonly ranging from one to five years across different brands and models even at similar price points, reflects the manufacturer's own actuarial confidence in how long that specific NAND and controller combination will reliably hold data, since a company offering a longer warranty is accepting more financial risk on a component they presumably trust more.\n\nThis isn't a perfect signal on its own, a shorter warranty doesn't automatically mean an unreliable drive, but at a similar price point between two otherwise comparable drives, the one backed by a longer warranty is making a more concrete promise about its own longevity rather than just a marketing claim.\n\nCheck the stated warranty length directly in the listing or manufacturer's spec sheet, and weigh it alongside NAND type and brand reputation rather than treating any single signal as decisive on its own."
+  }
 ];
 
 export const faq: FaqItem[] = [

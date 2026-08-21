@@ -29,11 +29,10 @@ export const products: GuideProduct[] = [
     reviews: "382 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/21F-0rmbcOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DR381N86?tag=deskfinds0d-20",
-    description:
-      "Corsair's EX400U 2TB is explicitly built with MagSafe compatibility, meaning it is designed to align and attach to a MagSafe-equipped iPhone's magnet array directly, a genuine magnetic-mount feature rather than an implied one.\n\nBeyond the magnetic design, it also delivers real USB4 and Thunderbolt 4 compatible speed up to 4000MB/s read, and includes a properly rated 40Gbps cable, making it a strong pick on technical merits independent of the magnetic mounting.",
-    specs: ["2TB capacity", "MagSafe compatible magnetic mount", "Up to 4000MB/s read rated", "USB4, Thunderbolt 4 compatible, includes 40Gbps cable"],
-    pros: ["Genuinely designed with MagSafe magnetic compatibility", "Strong USB4 and Thunderbolt 4 compatible speed alongside the magnetic feature", "Includes a properly rated cable", "Large 2TB capacity for a magnetic-mount drive"],
-    cons: ["Magnet holding strength should be checked against your specific case and cable weight", "More moderate 4.1-star rating, worth checking current reviews", "Premium price versus non-magnetic portable SSDs"],
+    description: "Corsair's EX400U 2TB is explicitly built with MagSafe compatibility, meaning it is designed to align and attach to a MagSafe-equipped iPhone's magnet array directly, a genuine magnetic-mount feature rather than an implied one.\n\nIt earns the top spot in this comparison for one main reason. Genuinely designed with MagSafe magnetic compatibility.\n\nWorth knowing before you decide: Strong USB4 and Thunderbolt 4 compatible speed alongside the magnetic feature. On the other side, Premium price versus non-magnetic portable SSDs. That's the main tradeoff to weigh against everything above.",
+    specs: ["2TB capacity","MagSafe compatible magnetic mount","Up to 4000MB/s read rated","USB4, Thunderbolt 4 compatible, includes 40Gbps cable"],
+    pros: ["Genuinely designed with MagSafe magnetic compatibility","Strong USB4 and Thunderbolt 4 compatible speed alongside the magnetic feature","Includes a properly rated cable","Large 2TB capacity for a magnetic-mount drive"],
+    cons: ["Magnet holding strength should be checked against your specific case and cable weight","More moderate 4.1-star rating, worth checking current reviews","Premium price versus non-magnetic portable SSDs"],
     bestFor: "Buyers who specifically want a genuine MagSafe-compatible magnetic-mount portable SSD",
   }
 ];
@@ -49,20 +48,81 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Why This Guide Has Only One Pick",
-    note: "Magnetic-mount portable SSDs are a genuinely small category. We would rather recommend the one standout verified option we found than pad this list with drives that are not actually magnetic.",
+    "subheading": "By Capacity",
+    "note": "Corsair EX400U 2TB USB4 Portable External Type-C SSD is currently the only pick in this specific comparison. If you need a different capacity or speed tier, check our broader portable SSD roundup rather than assuming this specific pick fits."
   },
   {
-    subheading: "What to Check If You Find Another Magnetic Drive",
-    cards: [{ label: "Verify true MagSafe alignment", text: "Confirm the drive's magnet array is actually designed to align with Apple's MagSafe magnet ring, not just described loosely as 'magnetic'." }, { label: "Check holding strength under real weight", text: "The magnet needs to support the combined weight of the drive plus any attached cable tension without slipping off during use." }, { label: "Consider your phone case", text: "A thick or non-MagSafe-compatible case can interfere with alignment even on an otherwise MagSafe-compatible phone." }],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $399.99",
+          "Corsair EX400U 2TB USB4 Portable External Type-C SSD"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "TLC vs QLC NAND",
+    "note": "Corsair EX400U 2TB USB4 Portable External Type-C SSD's NAND type is not explicitly confirmed in the listing. Check the current listing's technical details if sustained-speed endurance matters to your workflow."
+  },
+  {
+    "subheading": "Rugged/Waterproof vs Standard Build",
+    "note": "Corsair EX400U 2TB USB4 Portable External Type-C SSD is a standard, non-ruggedized build. If you specifically need the opposite, check our broader roundup."
+  },
+  {
+    "subheading": "For Large Sustained Transfers (Video Editing) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "TLC NAND specifically, a stated sustained write speed (not just the peak burst number), and a USB generation on both drive and host that actually supports the rated speed."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Corsair EX400U 2TB USB4 Portable External Type-C SSD fits this specifically: Genuinely designed with MagSafe magnetic compatibility."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Here's what you get for $399.99: Genuinely designed with MagSafe magnetic compatibility. If that's what you're after, the tradeoffs in its cons list probably won't bother you either."
+      },
+      {
+        "label": "Save if",
+        "text": "Here's the real tradeoff: Magnet holding strength should be checked against your specific case and cable weight. If that matters to you, compare it against other drives in our broader roundup before committing."
+      }
+    ]
   }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm genuine MagSafe alignment, not just 'magnetic' marketing", explanation: "Some products use 'magnetic' loosely, verify the drive is actually designed to align with Apple's MagSafe magnet array specifically." },
-  { criterion: "Check magnet holding strength against real-world weight", explanation: "The magnet needs to support the drive's weight plus cable tension without slipping, worth checking verified buyer feedback specifically on this point." },
-  { criterion: "Account for your phone case's material and thickness", explanation: "A thick or non-MagSafe case can interfere with alignment even on a MagSafe-compatible iPhone, test with your actual case." },
-  { criterion: "Do not sacrifice speed or capacity just for the magnetic feature", explanation: "A good magnetic drive should also perform well on its own technical merits, not just as a novelty mounting mechanism." }
+  {
+    "criterion": "Plan around real usable capacity, not the number printed on the box",
+    "explanation": "Storage manufacturers advertise capacity in decimal gigabytes and terabytes (1 GB equals 1,000,000,000 bytes), but operating systems report free space in binary units (1 GB equals 1,073,741,824 bytes), and on top of that gap, formatting itself consumes a further slice of raw capacity for the file system's own bookkeeping.\n\nTogether these two factors mean a drive advertised as 1TB will typically show up as roughly 930GB in your file explorer, a genuinely predictable shortfall rather than a defect, but one that catches buyers off guard if they plan their storage needs around the advertised round number.\n\nBefore buying, mentally subtract roughly 7 percent from the advertised capacity to estimate real usable space, and size up a tier if your actual storage need is close to the advertised number rather than comfortably under it."
+  },
+  {
+    "criterion": "Check the NAND flash type where the manufacturer discloses it",
+    "explanation": "NAND flash memory, the actual chip technology storing your data, comes in different types based on how many bits each memory cell stores, with TLC (three bits per cell) generally offering better sustained write speed and longer-term endurance than QLC (four bits per cell), which packs more capacity per chip but at the cost of slower performance once any built-in cache is exhausted.\n\nThis matters concretely because many drives use a small pool of faster cache memory to accelerate the beginning of a transfer, and once that cache fills during a large or sustained copy, the drive falls back to its native NAND speed, which is a much bigger drop on a QLC drive than a TLC one, sometimes cutting write speed by more than half.\n\nManufacturers don't always advertise NAND type prominently, so check the product listing's technical details or search the model number alongside \"NAND type\" before assuming a drive uses the faster TLC type."
+  },
+  {
+    "criterion": "Confirm your device's actual port and cable support the drive's rated speed",
+    "explanation": "A portable SSD's rated speed, such as 1050MB/s or 2000MB/s, is the maximum the drive's own controller can achieve, but real-world speed is always capped by the slowest link in the chain: the drive itself, the cable connecting it, and the port on your computer or console, whichever of the three supports the lowest maximum speed.\n\nThis means a genuinely fast 2000MB/s-rated drive plugged into an older USB 3.0 port, or connected with a cable rated for a lower USB generation, will perform no better than a much cheaper drive rated for that lower speed, making the expensive drive's extra speed ceiling completely wasted money in that specific setup.\n\nCheck your computer, phone, or console's actual port specification (not just its connector shape, since USB-C and USB-A shapes don't indicate speed) and confirm any cable you use is rated for that same speed tier before expecting a fast drive's full rated performance."
+  },
+  {
+    "criterion": "Understand that a drive's speed rating reflects a burst, not sustained performance",
+    "explanation": "The headline speed figure on a portable SSD's packaging is typically measured using a short benchmark that primarily tests the drive's fast cache memory, not its sustained real-world performance across a large, continuous file transfer that runs long enough to exhaust that cache.\n\nThis is the single most common reason a portable SSD feels slower in real use than its marketing suggests: copying a single large video file or a folder of thousands of photos can run well past the point where the cache empties, causing the transfer to visibly slow down partway through, something a short benchmark screenshot never reveals.\n\nIf your actual use case involves large sustained transfers, specifically look for reviews or listings that mention sustained write speed after cache exhaustion, not just the peak burst number on the box."
+  },
+  {
+    "criterion": "Compare warranty length as a genuine (if imperfect) signal of manufacturer confidence",
+    "explanation": "A storage device's warranty length, commonly ranging from one to five years across different brands and models even at similar price points, reflects the manufacturer's own actuarial confidence in how long that specific NAND and controller combination will reliably hold data, since a company offering a longer warranty is accepting more financial risk on a component they presumably trust more.\n\nThis isn't a perfect signal on its own, a shorter warranty doesn't automatically mean an unreliable drive, but at a similar price point between two otherwise comparable drives, the one backed by a longer warranty is making a more concrete promise about its own longevity rather than just a marketing claim.\n\nCheck the stated warranty length directly in the listing or manufacturer's spec sheet, and weigh it alongside NAND type and brand reputation rather than treating any single signal as decisive on its own."
+  }
 ];
 
 export const faq: FaqItem[] = [

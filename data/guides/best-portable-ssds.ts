@@ -29,11 +29,10 @@ export const products: GuideProduct[] = [
     reviews: "91,365 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41eTFK7clfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HN37XC1?tag=deskfinds0d-20",
-    description:
-      "SanDisk's Extreme line pairs a rated 1050MB/s transfer speed with IP65 water and dust resistance, a genuinely useful combination for buyers who want one drive that works reliably both at a desk and on the move.\n\nUSB-C and USB 3.2 Gen 2 connectivity cover most modern laptops and consoles, though actual throughput still depends on your specific port and cable meeting that same spec.",
-    specs: ["2TB capacity", "Up to 1050MB/s rated", "USB-C, USB 3.2 Gen 2", "IP65 water and dust resistance"],
-    pros: ["IP65 rating adds real everyday durability", "Large 2TB capacity for bigger libraries", "Broad compatibility with USB-C and USB-A via adapter", "Compact, pocketable form factor"],
-    cons: ["Rated speed requires a USB 3.2 Gen 2 capable port", "Sustained transfers can slow once the SLC cache fills", "Older model, verify current firmware on arrival"],
+    description: "SanDisk's Extreme line pairs a rated 1050MB/s transfer speed with IP65 water and dust resistance, a genuinely useful combination for buyers who want one drive that works reliably both at a desk and on the move.\n\nIt earns the top spot in this comparison over Samsung T7 Shield Portable SSD 1TB for one main reason. IP65 rating adds real everyday durability. On price, it's actually priced above Samsung T7 Shield Portable SSD 1TB, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Large 2TB capacity for bigger libraries. On the other side, Older model, verify current firmware on arrival. That's the main tradeoff to weigh against everything above.",
+    specs: ["2TB capacity","Up to 1050MB/s rated","USB-C, USB 3.2 Gen 2","IP65 water and dust resistance"],
+    pros: ["IP65 rating adds real everyday durability","Large 2TB capacity for bigger libraries","Broad compatibility with USB-C and USB-A via adapter","Compact, pocketable form factor"],
+    cons: ["Rated speed requires a USB 3.2 Gen 2 capable port","Sustained transfers can slow once the SLC cache fills","Older model, verify current firmware on arrival"],
     bestFor: "Buyers who want one dependable all-around drive for daily transfers",
   },
   {
@@ -46,11 +45,10 @@ export const products: GuideProduct[] = [
     reviews: "16,380 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/21mARCvUWxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VLK9W3S?tag=deskfinds0d-20",
-    description:
-      "Samsung's T7 Shield adds a rugged rubberized shell on top of the well-regarded T7 platform, rated for 1050MB/s over USB 3.2 Gen 2.\n\nThe shield design trades a small amount of pocketability for meaningfully better drop resistance, a fair swap for buyers who carry a drive in a bag rather than a pocket.",
-    specs: ["1TB capacity", "Up to 1050MB/s rated", "USB 3.2 Gen 2", "Rugged rubberized shell"],
-    pros: ["Rugged shell adds real drop protection", "Consistent, well-reviewed platform", "USB 3.2 Gen 2 speed ceiling is realistic for most users", "Compact despite the added shell bulk"],
-    cons: ["Bulkier than the standard T7 due to the shield", "1050MB/s ceiling trails newer 2000MB/s+ drives", "Sustained large transfers can hit the SLC cache limit"],
+    description: "Samsung's T7 Shield adds a rugged rubberized shell on top of the well-regarded T7 platform, rated for 1050MB/s over USB 3.2 Gen 2.\n\nOne spot below SANDISK 2TB Extreme Portable SSD in this ranking, it's priced lower than SANDISK 2TB Extreme Portable SSD. The compromise here is straightforward: Bulkier than the standard T7 due to the shield. What you gain in return: Rugged shell adds real drop protection. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Consistent, well-reviewed platform. On the other side, Sustained large transfers can hit the SLC cache limit. That's the main tradeoff to weigh against everything above.",
+    specs: ["1TB capacity","Up to 1050MB/s rated","USB 3.2 Gen 2","Rugged rubberized shell"],
+    pros: ["Rugged shell adds real drop protection","Consistent, well-reviewed platform","USB 3.2 Gen 2 speed ceiling is realistic for most users","Compact despite the added shell bulk"],
+    cons: ["Bulkier than the standard T7 due to the shield","1050MB/s ceiling trails newer 2000MB/s+ drives","Sustained large transfers can hit the SLC cache limit"],
     bestFor: "Buyers who want Samsung reliability with added drop protection",
   },
   {
@@ -63,11 +61,10 @@ export const products: GuideProduct[] = [
     reviews: "21,124 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31LdvAbumfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874XN4D8?tag=deskfinds0d-20",
-    description:
-      "The standard Samsung T7 keeps the same 1050MB/s USB 3.2 Gen 2 performance in a slimmer, lighter metal body without the T7 Shield's rubber armor.\n\nIt is a sensible pick for buyers who mostly use a drive on a desk or in a padded bag and would rather have the slimmer form factor than extra ruggedization they will not use.",
-    specs: ["1TB capacity", "Up to 1050MB/s rated", "USB 3.2 Gen 2", "Slim metal body"],
-    pros: ["Slimmer and lighter than the Shield variant", "Reliable, widely reviewed platform", "Comes in multiple color options", "Solid price for the performance tier"],
-    cons: ["Less drop protection than the Shield model", "1050MB/s ceiling is not class-leading in 2026", "No official IP rating"],
+    description: "The standard Samsung T7 keeps the same 1050MB/s USB 3.2 Gen 2 performance in a slimmer, lighter metal body without the T7 Shield's rubber armor.\n\nSitting just under Samsung T7 Shield Portable SSD 1TB, it's priced lower than Samsung T7 Shield Portable SSD 1TB. Here's the honest tradeoff: Less drop protection than the Shield model. And here's what it gets you instead: Slimmer and lighter than the Shield variant. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Reliable, widely reviewed platform. On the other side, No official IP rating. That's the main tradeoff to weigh against everything above.",
+    specs: ["1TB capacity","Up to 1050MB/s rated","USB 3.2 Gen 2","Slim metal body"],
+    pros: ["Slimmer and lighter than the Shield variant","Reliable, widely reviewed platform","Comes in multiple color options","Solid price for the performance tier"],
+    cons: ["Less drop protection than the Shield model","1050MB/s ceiling is not class-leading in 2026","No official IP rating"],
     bestFor: "Buyers prioritizing a slim, pocketable everyday drive",
   },
   {
@@ -80,11 +77,10 @@ export const products: GuideProduct[] = [
     reviews: "10,968 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41-T4nAAufL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5JQ68FY?tag=deskfinds0d-20",
-    description:
-      "SanDisk's standard Portable SSD trades some peak speed, rated up to 800MB/s, for a noticeably lower price than the Extreme or T7 lines.\n\nFor everyday document and media transfers rather than large video files, the lower ceiling rarely matters in practice, making this a reasonable choice for buyers watching price per gigabyte.",
-    specs: ["1TB capacity", "Up to 800MB/s rated", "USB-C, USB 3.2 Gen 2", "Budget-friendly price"],
-    pros: ["Lowest price per gigabyte in this group", "Still USB 3.2 Gen 2 rated for solid everyday speed", "Compact and lightweight", "Good backup and file-transfer companion"],
-    cons: ["800MB/s ceiling trails the other picks here", "No official IP water or dust rating", "Best suited to everyday files rather than large video work"],
+    description: "SanDisk's standard Portable SSD trades some peak speed, rated up to 800MB/s, for a noticeably lower price than the Extreme or T7 lines.\n\nRanked just behind Samsung T7 Portable SSD 1TB Titan Gray, it's priced lower than Samsung T7 Portable SSD 1TB Titan Gray. The real tradeoff against that pick: 800MB/s ceiling trails the other picks here. In exchange, it offers this instead: Lowest price per gigabyte in this group. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Still USB 3.2 Gen 2 rated for solid everyday speed. On the other side, Best suited to everyday files rather than large video work. That's the main tradeoff to weigh against everything above.",
+    specs: ["1TB capacity","Up to 800MB/s rated","USB-C, USB 3.2 Gen 2","Budget-friendly price"],
+    pros: ["Lowest price per gigabyte in this group","Still USB 3.2 Gen 2 rated for solid everyday speed","Compact and lightweight","Good backup and file-transfer companion"],
+    cons: ["800MB/s ceiling trails the other picks here","No official IP water or dust rating","Best suited to everyday files rather than large video work"],
     bestFor: "Budget-conscious buyers who do not need top-tier speed",
   }
 ];
@@ -100,29 +96,135 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Match Your Port Before You Match a Speed Number",
-    note: "A drive rated for 1050MB/s only hits that number over a USB 3.2 Gen 2 port with a compatible cable. Check your laptop or console's actual port spec first, since an older USB-A 3.0 port caps real throughput well below the drive's rating.",
+    "subheading": "By Capacity",
+    "table": {
+      "headers": [
+        "Your storage need",
+        "Recommended pick in this comparison"
+      ],
+      "rows": [
+        [
+          "Lightest everyday storage needs",
+          "Samsung T7 Shield Portable SSD 1TB"
+        ],
+        [
+          "Large media libraries or video work",
+          "SANDISK 2TB Extreme Portable SSD"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Know Where the Speed Cliff Is",
-    note: "Most drives here use an SLC cache to hit peak speed, and that cache can run out during a large sustained copy, after which write speed drops. If you regularly move very large files, prioritize a drive with reviews confirming steady sustained performance, not just a high peak number.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $165",
+          "SANDISK 1TB Portable SSD"
+        ],
+        [
+          "Mid-range",
+          "Samsung T7 Shield Portable SSD 1TB"
+        ],
+        [
+          "No firm budget ceiling, prioritizing speed or NAND quality",
+          "SANDISK 2TB Extreme Portable SSD"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: { headers: ["Your priority", "Recommended pick"], rows: [["All-around reliability with rugged rating", "SanDisk Extreme 2TB"], ["Best speed-to-toughness balance", "Samsung T7 Shield 1TB"], ["Slimmest everyday carry", "Samsung T7 1TB"], ["Lowest price per gigabyte", "SanDisk Portable SSD 1TB"]] },
+    "subheading": "TLC vs QLC NAND",
+    "cards": [
+      {
+        "label": "TLC NAND",
+        "text": "Better sustained write speed and longer-term endurance, especially once any onboard cache is exhausted during a large transfer. In this comparison: check each listing's specs directly, NAND type isn't always disclosed."
+      },
+      {
+        "label": "QLC NAND",
+        "text": "More capacity per dollar, at the cost of a bigger sustained-speed drop once the cache fills on long transfers. In this comparison: none explicitly confirmed in this specific roundup, check the listing before assuming."
+      }
+    ],
+    "note": "NAND type isn't explicitly confirmed for every pick here, check each specific listing's technical details if sustained speed matters to your workflow."
   },
   {
-    subheading: "Formatting Across Platforms",
-    note: "Most portable SSDs ship pre-formatted in exFAT or NTFS. Both work across Windows and Mac with minor caveats, but if you plan to use Time Machine on a Mac, you will likely need to reformat to APFS first.",
+    "subheading": "Rugged/Waterproof vs Standard Build",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Drop and water resistance for field use",
+          "SANDISK 2TB Extreme Portable SSD"
+        ],
+        [
+          "Slimmest, lightest everyday carry",
+          "Samsung T7 Portable SSD 1TB Titan Gray"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Large Sustained Transfers (Video Editing) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "TLC NAND specifically, a stated sustained write speed (not just the peak burst number), and a USB generation on both drive and host that actually supports the rated speed."
+      },
+      {
+        "label": "In this comparison",
+        "text": "SANDISK 2TB Extreme Portable SSD fits this specifically: IP65 rating adds real everyday durability."
+      }
+    ]
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "Samsung T7 Shield Portable SSD 1TB"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "SANDISK 2TB Extreme Portable SSD"
+        ]
+      ]
+    }
   }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify your actual port speed first", explanation: "A drive rated for 1050MB/s or faster only reaches that speed over a matching USB 3.2 Gen 2 or better port with a capable cable. Check your device's real port spec before comparing drives on speed alone." },
-  { criterion: "Understand the SLC cache cliff", explanation: "Peak speed is usually only sustained until an onboard cache fills, after which write speed can drop well below the advertised number on large transfers over roughly 20 to 50GB." },
-  { criterion: "Check the IP rating specifics", explanation: "IP65 and similar ratings describe dust and water resistance under specific test conditions, not full submersion durability. Treat it as splash and dust protection, not a waterproof guarantee." },
-  { criterion: "Budget for real usable capacity", explanation: "Formatting overhead typically reduces usable space by around 7 percent below the advertised capacity, so a 1TB drive will show closer to 930GB in your operating system." },
-  { criterion: "Confirm hardware encryption if you need it", explanation: "Not every portable SSD includes AES-256 hardware encryption. If you carry sensitive files, check the specific model's security features rather than assuming all drives include this." }
+  {
+    "criterion": "Plan around real usable capacity, not the number printed on the box",
+    "explanation": "Storage manufacturers advertise capacity in decimal gigabytes and terabytes (1 GB equals 1,000,000,000 bytes), but operating systems report free space in binary units (1 GB equals 1,073,741,824 bytes), and on top of that gap, formatting itself consumes a further slice of raw capacity for the file system's own bookkeeping.\n\nTogether these two factors mean a drive advertised as 1TB will typically show up as roughly 930GB in your file explorer, a genuinely predictable shortfall rather than a defect, but one that catches buyers off guard if they plan their storage needs around the advertised round number.\n\nBefore buying, mentally subtract roughly 7 percent from the advertised capacity to estimate real usable space, and size up a tier if your actual storage need is close to the advertised number rather than comfortably under it."
+  },
+  {
+    "criterion": "Check the NAND flash type where the manufacturer discloses it",
+    "explanation": "NAND flash memory, the actual chip technology storing your data, comes in different types based on how many bits each memory cell stores, with TLC (three bits per cell) generally offering better sustained write speed and longer-term endurance than QLC (four bits per cell), which packs more capacity per chip but at the cost of slower performance once any built-in cache is exhausted.\n\nThis matters concretely because many drives use a small pool of faster cache memory to accelerate the beginning of a transfer, and once that cache fills during a large or sustained copy, the drive falls back to its native NAND speed, which is a much bigger drop on a QLC drive than a TLC one, sometimes cutting write speed by more than half.\n\nManufacturers don't always advertise NAND type prominently, so check the product listing's technical details or search the model number alongside \"NAND type\" before assuming a drive uses the faster TLC type."
+  },
+  {
+    "criterion": "Confirm your device's actual port and cable support the drive's rated speed",
+    "explanation": "A portable SSD's rated speed, such as 1050MB/s or 2000MB/s, is the maximum the drive's own controller can achieve, but real-world speed is always capped by the slowest link in the chain: the drive itself, the cable connecting it, and the port on your computer or console, whichever of the three supports the lowest maximum speed.\n\nThis means a genuinely fast 2000MB/s-rated drive plugged into an older USB 3.0 port, or connected with a cable rated for a lower USB generation, will perform no better than a much cheaper drive rated for that lower speed, making the expensive drive's extra speed ceiling completely wasted money in that specific setup.\n\nCheck your computer, phone, or console's actual port specification (not just its connector shape, since USB-C and USB-A shapes don't indicate speed) and confirm any cable you use is rated for that same speed tier before expecting a fast drive's full rated performance."
+  },
+  {
+    "criterion": "Understand that a drive's speed rating reflects a burst, not sustained performance",
+    "explanation": "The headline speed figure on a portable SSD's packaging is typically measured using a short benchmark that primarily tests the drive's fast cache memory, not its sustained real-world performance across a large, continuous file transfer that runs long enough to exhaust that cache.\n\nThis is the single most common reason a portable SSD feels slower in real use than its marketing suggests: copying a single large video file or a folder of thousands of photos can run well past the point where the cache empties, causing the transfer to visibly slow down partway through, something a short benchmark screenshot never reveals.\n\nIf your actual use case involves large sustained transfers, specifically look for reviews or listings that mention sustained write speed after cache exhaustion, not just the peak burst number on the box."
+  },
+  {
+    "criterion": "Compare warranty length as a genuine (if imperfect) signal of manufacturer confidence",
+    "explanation": "A storage device's warranty length, commonly ranging from one to five years across different brands and models even at similar price points, reflects the manufacturer's own actuarial confidence in how long that specific NAND and controller combination will reliably hold data, since a company offering a longer warranty is accepting more financial risk on a component they presumably trust more.\n\nThis isn't a perfect signal on its own, a shorter warranty doesn't automatically mean an unreliable drive, but at a similar price point between two otherwise comparable drives, the one backed by a longer warranty is making a more concrete promise about its own longevity rather than just a marketing claim.\n\nCheck the stated warranty length directly in the listing or manufacturer's spec sheet, and weigh it alongside NAND type and brand reputation rather than treating any single signal as decisive on its own."
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "91,365 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41eTFK7clfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HN37XC1?tag=deskfinds0d-20",
-    description:
-      "The single largest review base of any pick in this guide by a wide margin, with IP65 dust resistance genuinely relevant for field transport in a drone case alongside other equipment.\n\nQuick-offload workflow between flights benefits from this drive's fast rated speed, minimizing downtime during battery swaps rather than waiting through a slow transfer between flight sessions.",
-    specs: ["Rated IP65 water and dust resistance", "Up to 1050MB/s", "Massive review base with field-use evidence", "2TB capacity"],
-    pros: ["Massive review base, the most-proven drone footage drive available", "IP65 rating suits field transport in a drone case", "Fast rated speed supports quick between-flight offload", "2TB capacity handles multiple 4K flight sessions"],
-    cons: ["Verify sustained write performance against your specific drone's actual bitrate", "Not the fastest peak speed available for 8K footage", "Power draw specifics not independently benchmarked here"],
+    description: "The single largest review base of any pick in this guide by a wide margin, with IP65 dust resistance genuinely relevant for field transport in a drone case alongside other equipment.\n\nIt earns the top spot in this comparison over Samsung T7 Shield Portable SSD 1TB for one main reason. Massive review base, the most-proven drone footage drive available. On price, it's actually priced above Samsung T7 Shield Portable SSD 1TB, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: IP65 rating suits field transport in a drone case. On the other side, Power draw specifics not independently benchmarked here. That's the main tradeoff to weigh against everything above.",
+    specs: ["Rated IP65 water and dust resistance","Up to 1050MB/s","Massive review base with field-use evidence","2TB capacity"],
+    pros: ["Massive review base, the most-proven drone footage drive available","IP65 rating suits field transport in a drone case","Fast rated speed supports quick between-flight offload","2TB capacity handles multiple 4K flight sessions"],
+    cons: ["Verify sustained write performance against your specific drone's actual bitrate","Not the fastest peak speed available for 8K footage","Power draw specifics not independently benchmarked here"],
     bestFor: "Buyers wanting the most-proven, most-reviewed drone footage drive",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "16,380 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/21mARCvUWxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VLK9W3S?tag=deskfinds0d-20",
-    description:
-      "A large review base backing this ruggedized 'Shield' variant, genuinely built with shock resistance for physical durability during field transport in a drone case alongside other equipment.\n\nPhysical durability for outdoor temperature extremes is a genuine consideration for this drive's ruggedized design, appropriate for drone pilots flying in varied outdoor conditions.",
-    specs: ["Rated IP65 protection, shock-resistant design", "Up to 1,050MB/s", "1TB capacity", "Large review base"],
-    pros: ["Large, well-established review base", "Genuinely ruggedized for drone-case field transport", "Shock-resistant design for outdoor conditions", "Rubberized port cover for field durability"],
-    cons: ["Smaller capacity option than the top pick at similar price", "Verify sustained write performance against your specific drone's bitrate", "IP65 water-resistant, not full submersion rated"],
+    description: "A large review base backing this ruggedized 'Shield' variant, genuinely built with shock resistance for physical durability during field transport in a drone case alongside other equipment.\n\nOne spot below SANDISK 2TB Extreme Portable SSD in this ranking, it's priced lower than SANDISK 2TB Extreme Portable SSD. The compromise here is straightforward: Smaller capacity option than the top pick at similar price. What you gain in return: Large, well-established review base. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Genuinely ruggedized for drone-case field transport. On the other side, IP65 water-resistant, not full submersion rated. That's the main tradeoff to weigh against everything above.",
+    specs: ["Rated IP65 protection, shock-resistant design","Up to 1,050MB/s","1TB capacity","Large review base"],
+    pros: ["Large, well-established review base","Genuinely ruggedized for drone-case field transport","Shock-resistant design for outdoor conditions","Rubberized port cover for field durability"],
+    cons: ["Smaller capacity option than the top pick at similar price","Verify sustained write performance against your specific drone's bitrate","IP65 water-resistant, not full submersion rated"],
     bestFor: "Drone pilots flying in varied outdoor conditions wanting ruggedized transport durability",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "21,124 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31LdvAbumfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874XN4D8?tag=deskfinds0d-20",
-    description:
-      "A large, well-established review base from an established SSD brand, drone-specific storage capacity planning is straightforward with this drive's proven, consistent 1,050MB/s rating.\n\nRealistic flight-session footage volume should guide your capacity planning here rather than generic capacity guidance, since drone footage accumulation patterns differ from general use.",
-    specs: ["Up to 1,050MB/s", "USB 3.2 Gen 2", "1TB capacity", "Large, established review base"],
-    pros: ["Large, well-established review base", "Established Samsung SSD brand reliability", "Consistent, proven rated speed for footage offload", "Solid value for drone-specific capacity planning"],
-    cons: ["No specific IP rating disclosed like the Shield variant", "Verify sustained write performance for high-bitrate 8K footage", "Not the most rugged option in this guide"],
+    description: "A large, well-established review base from an established SSD brand, drone-specific storage capacity planning is straightforward with this drive's proven, consistent 1,050MB/s rating.\n\nSitting just under Samsung T7 Shield Portable SSD 1TB, it's priced lower than Samsung T7 Shield Portable SSD 1TB. Here's the honest tradeoff: No specific IP rating disclosed like the Shield variant. And here's what it gets you instead: Large, well-established review base. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Established Samsung SSD brand reliability. On the other side, Not the most rugged option in this guide. That's the main tradeoff to weigh against everything above.",
+    specs: ["Up to 1,050MB/s","USB 3.2 Gen 2","1TB capacity","Large, established review base"],
+    pros: ["Large, well-established review base","Established Samsung SSD brand reliability","Consistent, proven rated speed for footage offload","Solid value for drone-specific capacity planning"],
+    cons: ["No specific IP rating disclosed like the Shield variant","Verify sustained write performance for high-bitrate 8K footage","Not the most rugged option in this guide"],
     bestFor: "Drone pilots wanting an established SSD brand for straightforward capacity planning",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "10,968 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41-T4nAAufL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5JQ68FY?tag=deskfinds0d-20",
-    description:
-      "A large review base at a genuinely lower price than the Extreme line, appropriate for a hobbyist drone pilot with more modest 4K footage rather than demanding 8K sustained recording.\n\nAt 800MB/s rather than 1050MB/s, this suits standard 4K drone footage sustained write needs well, verify against your specific drone's actual bitrate if you shoot at higher resolutions.",
-    specs: ["Up to 800MB/s", "USB-C, USB 3.2 Gen 2", "1TB capacity", "Large review base"],
-    pros: ["Large, well-established review base", "Genuinely lower price than the Extreme line", "Adequate sustained speed for standard 4K drone footage", "Updated firmware for improved reliability"],
-    cons: ["Lower rated speed than the Extreme line for higher-bitrate footage", "No specific IP rating for field durability", "Verify against your specific drone's actual sustained bitrate needs"],
+    description: "A large review base at a genuinely lower price than the Extreme line, appropriate for a hobbyist drone pilot with more modest 4K footage rather than demanding 8K sustained recording.\n\nRanked just behind Samsung T7 Portable SSD 1TB Titan Gray, it's priced lower than Samsung T7 Portable SSD 1TB Titan Gray. The real tradeoff against that pick: Lower rated speed than the Extreme line for higher-bitrate footage. In exchange, it offers this instead: Large, well-established review base. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Genuinely lower price than the Extreme line. On the other side, Verify against your specific drone's actual sustained bitrate needs. That's the main tradeoff to weigh against everything above.",
+    specs: ["Up to 800MB/s","USB-C, USB 3.2 Gen 2","1TB capacity","Large review base"],
+    pros: ["Large, well-established review base","Genuinely lower price than the Extreme line","Adequate sustained speed for standard 4K drone footage","Updated firmware for improved reliability"],
+    cons: ["Lower rated speed than the Extreme line for higher-bitrate footage","No specific IP rating for field durability","Verify against your specific drone's actual sustained bitrate needs"],
     bestFor: "Hobbyist drone pilots with standard 4K footage on a budget",
   },
   {
@@ -98,13 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "436 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31a33qlUGuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLV9GG54?tag=deskfinds0d-20",
-    description:
-      "A genuinely fast 2100MB/s rated speed at the lowest price in this guide, appropriate for a compact drive prioritizing quick between-flight offload over maximum capacity.\n\nQuick-offload workflow between flights benefits from fast connection speed, this drive's high rated speed and compact zinc alloy case suit minimizing downtime during battery swaps in the field.",
-    specs: ["Up to 2100MB/s (fastest rated speed in this guide)", "Compact zinc alloy case", "512GB capacity", "Solid review base"],
-    pros: ["Fastest rated speed in this guide for quick between-flight offload", "Most affordable pick in this guide", "Compact, durable zinc alloy case", "Broadly compatible across multiple device types"],
-    cons: ["Smallest capacity in this guide at 512GB", "Smaller review base than the established mainstream picks", "No specific IP rating for outdoor field durability"],
+    description: "A genuinely fast 2100MB/s rated speed at the lowest price in this guide, appropriate for a compact drive prioritizing quick between-flight offload over maximum capacity.\n\nOne spot below SANDISK 1TB Portable SSD in this ranking, it's priced lower than SANDISK 1TB Portable SSD. The compromise here is straightforward: Smallest capacity in this guide at 512GB. What you gain in return: Fastest rated speed in this guide for quick between-flight offload. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Most affordable pick in this guide. On the other side, No specific IP rating for outdoor field durability. That's the main tradeoff to weigh against everything above.",
+    specs: ["Up to 2100MB/s (fastest rated speed in this guide)","Compact zinc alloy case","512GB capacity","Solid review base"],
+    pros: ["Fastest rated speed in this guide for quick between-flight offload","Most affordable pick in this guide","Compact, durable zinc alloy case","Broadly compatible across multiple device types"],
+    cons: ["Smallest capacity in this guide at 512GB","Smaller review base than the established mainstream picks","No specific IP rating for outdoor field durability"],
     bestFor: "Drone pilots prioritizing fast between-flight offload over maximum capacity",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,24 +113,135 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Test Against Realistic Drone Footage Bitrates, Not Generic Benchmarks",
-    note: "Drone footage files, especially 4K/8K at high bitrate, require sustained write speed similar to serious video editing needs. Verify a drive's sustained write performance against your specific drone's actual recording bitrate rather than trusting a generic benchmark number alone.",
+    "subheading": "By Capacity",
+    "table": {
+      "headers": [
+        "Your storage need",
+        "Recommended pick in this comparison"
+      ],
+      "rows": [
+        [
+          "Lightest everyday storage needs",
+          "KingSpec Z5 512GB External SSD"
+        ],
+        [
+          "Large media libraries or video work",
+          "SANDISK 2TB Extreme Portable SSD"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Prioritize Fast Between-Flight Offload",
-    note: "Quick-offload workflow between flights, minimizing downtime during drone battery swaps, benefits from fast connection and transfer speed. If you fly multiple sessions in a day, a faster-rated drive genuinely reduces downtime between flights.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $89",
+          "KingSpec Z5 512GB External SSD"
+        ],
+        [
+          "Mid-range",
+          "Samsung T7 Portable SSD 1TB Titan Gray"
+        ],
+        [
+          "No firm budget ceiling, prioritizing speed or NAND quality",
+          "SANDISK 2TB Extreme Portable SSD"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Consider Field Transport and Outdoor Durability",
-    note: "Physical durability for field transport, carried in a drone case alongside other equipment, potential outdoor temperature extremes, matters given this specific field-use context. A ruggedized, IP-rated drive suits regular outdoor flying better than a standard consumer drive.",
+    "subheading": "TLC vs QLC NAND",
+    "cards": [
+      {
+        "label": "TLC NAND",
+        "text": "Better sustained write speed and longer-term endurance, especially once any onboard cache is exhausted during a large transfer. In this comparison: check each listing's specs directly, NAND type isn't always disclosed."
+      },
+      {
+        "label": "QLC NAND",
+        "text": "More capacity per dollar, at the cost of a bigger sustained-speed drop once the cache fills on long transfers. In this comparison: none explicitly confirmed in this specific roundup, check the listing before assuming."
+      }
+    ],
+    "note": "NAND type isn't explicitly confirmed for every pick here, check each specific listing's technical details if sustained speed matters to your workflow."
   },
+  {
+    "subheading": "Rugged/Waterproof vs Standard Build",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Drop and water resistance for field use",
+          "SANDISK 2TB Extreme Portable SSD"
+        ],
+        [
+          "Slimmest, lightest everyday carry",
+          "Samsung T7 Portable SSD 1TB Titan Gray"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Large Sustained Transfers (Video Editing) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "TLC NAND specifically, a stated sustained write speed (not just the peak burst number), and a USB generation on both drive and host that actually supports the rated speed."
+      },
+      {
+        "label": "In this comparison",
+        "text": "KingSpec Z5 512GB External SSD fits this specifically: Fastest rated speed in this guide for quick between-flight offload."
+      }
+    ]
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "Samsung T7 Shield Portable SSD 1TB"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "SANDISK 2TB Extreme Portable SSD"
+        ]
+      ]
+    }
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Test sustained write speed against your drone's actual bitrate", explanation: "4K/8K drone footage at high bitrate needs genuine sustained write speed, verify against your specific drone's real recording bitrate rather than a generic benchmark number." },
-  { criterion: "Fast between-flight offload reduces real downtime", explanation: "A faster-rated drive genuinely reduces the time spent offloading footage during battery swaps if you fly multiple sessions in a day." },
-  { criterion: "Field transport durability matters for outdoor flying", explanation: "A ruggedized, IP-rated drive suits carrying in a drone case alongside other equipment and outdoor temperature extremes better than a standard consumer drive." },
-  { criterion: "Plan capacity around realistic flight-session footage volume", explanation: "Drone footage accumulation patterns differ from general use, plan storage capacity around your actual typical flight-session footage volume rather than generic capacity guidance." },
+  {
+    "criterion": "Plan around real usable capacity, not the number printed on the box",
+    "explanation": "Storage manufacturers advertise capacity in decimal gigabytes and terabytes (1 GB equals 1,000,000,000 bytes), but operating systems report free space in binary units (1 GB equals 1,073,741,824 bytes), and on top of that gap, formatting itself consumes a further slice of raw capacity for the file system's own bookkeeping.\n\nTogether these two factors mean a drive advertised as 1TB will typically show up as roughly 930GB in your file explorer, a genuinely predictable shortfall rather than a defect, but one that catches buyers off guard if they plan their storage needs around the advertised round number.\n\nBefore buying, mentally subtract roughly 7 percent from the advertised capacity to estimate real usable space, and size up a tier if your actual storage need is close to the advertised number rather than comfortably under it."
+  },
+  {
+    "criterion": "Check the NAND flash type where the manufacturer discloses it",
+    "explanation": "NAND flash memory, the actual chip technology storing your data, comes in different types based on how many bits each memory cell stores, with TLC (three bits per cell) generally offering better sustained write speed and longer-term endurance than QLC (four bits per cell), which packs more capacity per chip but at the cost of slower performance once any built-in cache is exhausted.\n\nThis matters concretely because many drives use a small pool of faster cache memory to accelerate the beginning of a transfer, and once that cache fills during a large or sustained copy, the drive falls back to its native NAND speed, which is a much bigger drop on a QLC drive than a TLC one, sometimes cutting write speed by more than half.\n\nManufacturers don't always advertise NAND type prominently, so check the product listing's technical details or search the model number alongside \"NAND type\" before assuming a drive uses the faster TLC type."
+  },
+  {
+    "criterion": "Confirm your device's actual port and cable support the drive's rated speed",
+    "explanation": "A portable SSD's rated speed, such as 1050MB/s or 2000MB/s, is the maximum the drive's own controller can achieve, but real-world speed is always capped by the slowest link in the chain: the drive itself, the cable connecting it, and the port on your computer or console, whichever of the three supports the lowest maximum speed.\n\nThis means a genuinely fast 2000MB/s-rated drive plugged into an older USB 3.0 port, or connected with a cable rated for a lower USB generation, will perform no better than a much cheaper drive rated for that lower speed, making the expensive drive's extra speed ceiling completely wasted money in that specific setup.\n\nCheck your computer, phone, or console's actual port specification (not just its connector shape, since USB-C and USB-A shapes don't indicate speed) and confirm any cable you use is rated for that same speed tier before expecting a fast drive's full rated performance."
+  },
+  {
+    "criterion": "Understand that a drive's speed rating reflects a burst, not sustained performance",
+    "explanation": "The headline speed figure on a portable SSD's packaging is typically measured using a short benchmark that primarily tests the drive's fast cache memory, not its sustained real-world performance across a large, continuous file transfer that runs long enough to exhaust that cache.\n\nThis is the single most common reason a portable SSD feels slower in real use than its marketing suggests: copying a single large video file or a folder of thousands of photos can run well past the point where the cache empties, causing the transfer to visibly slow down partway through, something a short benchmark screenshot never reveals.\n\nIf your actual use case involves large sustained transfers, specifically look for reviews or listings that mention sustained write speed after cache exhaustion, not just the peak burst number on the box."
+  },
+  {
+    "criterion": "Compare warranty length as a genuine (if imperfect) signal of manufacturer confidence",
+    "explanation": "A storage device's warranty length, commonly ranging from one to five years across different brands and models even at similar price points, reflects the manufacturer's own actuarial confidence in how long that specific NAND and controller combination will reliably hold data, since a company offering a longer warranty is accepting more financial risk on a component they presumably trust more.\n\nThis isn't a perfect signal on its own, a shorter warranty doesn't automatically mean an unreliable drive, but at a similar price point between two otherwise comparable drives, the one backed by a longer warranty is making a more concrete promise about its own longevity rather than just a marketing claim.\n\nCheck the stated warranty length directly in the listing or manufacturer's spec sheet, and weigh it alongside NAND type and brand reputation rather than treating any single signal as decisive on its own."
+  }
 ];
 
 export const faq: FaqItem[] = [

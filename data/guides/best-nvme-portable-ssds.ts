@@ -29,11 +29,10 @@ export const products: GuideProduct[] = [
     reviews: "16,380 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/21mARCvUWxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VLK9W3S?tag=deskfinds0d-20",
-    description:
-      "Samsung's T7 Shield uses an internal NVMe drive behind a USB 3.2 Gen 2 bridge, which caps real-world transfer speed at around 1050MB/s even though the NAND itself is capable of more.\n\nThat bridge-chip ceiling is common at this price tier, and buyers should treat the NVMe label as a durability and random-access benefit rather than a promise of top-tier sequential speed.",
-    specs: ["1TB capacity", "Internal NVMe, USB 3.2 Gen 2 bridge", "Up to 1050MB/s rated", "Rugged shield design"],
-    pros: ["Genuine NVMe durability and random-access benefit", "Rugged shell for everyday carry", "Reliable, well-reviewed platform", "Reasonable price for an NVMe-based drive"],
-    cons: ["USB 3.2 Gen 2 bridge caps real sequential speed", "Not a true high-throughput NVMe experience", "Bulkier than the standard T7"],
+    description: "Samsung's T7 Shield uses an internal NVMe drive behind a USB 3.2 Gen 2 bridge, which caps real-world transfer speed at around 1050MB/s even though the NAND itself is capable of more.\n\nIt earns the top spot in this comparison over Samsung T7 Portable SSD 1TB Titan Gray for one main reason. Genuine NVMe durability and random-access benefit. On price, it's actually priced above Samsung T7 Portable SSD 1TB Titan Gray, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Rugged shell for everyday carry. On the other side, Bulkier than the standard T7. That's the main tradeoff to weigh against everything above.",
+    specs: ["1TB capacity","Internal NVMe, USB 3.2 Gen 2 bridge","Up to 1050MB/s rated","Rugged shield design"],
+    pros: ["Genuine NVMe durability and random-access benefit","Rugged shell for everyday carry","Reliable, well-reviewed platform","Reasonable price for an NVMe-based drive"],
+    cons: ["USB 3.2 Gen 2 bridge caps real sequential speed","Not a true high-throughput NVMe experience","Bulkier than the standard T7"],
     bestFor: "Buyers who want NVMe reliability without paying for Thunderbolt speed",
   },
   {
@@ -46,11 +45,10 @@ export const products: GuideProduct[] = [
     reviews: "21,124 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31LdvAbumfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874XN4D8?tag=deskfinds0d-20",
-    description:
-      "The standard Samsung T7 offers the same internal NVMe drive and USB 3.2 Gen 2 bridge as the Shield, in a slimmer non-armored body.\n\nSequential speed tops out at the same 1050MB/s bridge ceiling, so the real reason to pick NVMe here is consistent random-access performance for everyday multi-file operations.",
-    specs: ["1TB capacity", "Internal NVMe, USB 3.2 Gen 2 bridge", "Up to 1050MB/s rated", "Slim metal body"],
-    pros: ["Consistent random-access performance", "Slimmer, lighter than ruggedized alternatives", "Well-established reliability track record", "Good value for an NVMe-based drive"],
-    cons: ["Same USB 3.2 Gen 2 bridge ceiling as the Shield", "No ruggedized casing", "Not suited for buyers chasing peak sequential numbers"],
+    description: "The standard Samsung T7 offers the same internal NVMe drive and USB 3.2 Gen 2 bridge as the Shield, in a slimmer non-armored body.\n\nOne spot below Samsung T7 Shield Portable SSD 1TB in this ranking, it's priced lower than Samsung T7 Shield Portable SSD 1TB. The compromise here is straightforward: Same USB 3.2 Gen 2 bridge ceiling as the Shield. What you gain in return: Consistent random-access performance. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Slimmer, lighter than ruggedized alternatives. On the other side, Not suited for buyers chasing peak sequential numbers. That's the main tradeoff to weigh against everything above.",
+    specs: ["1TB capacity","Internal NVMe, USB 3.2 Gen 2 bridge","Up to 1050MB/s rated","Slim metal body"],
+    pros: ["Consistent random-access performance","Slimmer, lighter than ruggedized alternatives","Well-established reliability track record","Good value for an NVMe-based drive"],
+    cons: ["Same USB 3.2 Gen 2 bridge ceiling as the Shield","No ruggedized casing","Not suited for buyers chasing peak sequential numbers"],
     bestFor: "Buyers who want a slim NVMe drive for daily multi-file work",
   },
   {
@@ -63,11 +61,10 @@ export const products: GuideProduct[] = [
     reviews: "2,363 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/312gFk3+1CL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F3377JBN?tag=deskfinds0d-20",
-    description:
-      "Crucial's X10 pairs an internal NVMe drive with USB 3.2 connectivity rated up to 2100MB/s, a genuine step up over Gen 2 only bridges.\n\nThat higher rating suggests a faster bridge chip, though buyers should still confirm their own port supports the matching speed tier before expecting to see that number in practice.",
-    specs: ["1TB capacity", "Internal NVMe, up to 2100MB/s rated", "USB 3.2 Type-C", "Durable casing for everyday and gaming use"],
-    pros: ["Faster rated bridge than standard Gen 2 drives", "NVMe durability for gaming and file-heavy use", "USB-C connector for broad compatibility", "Competitive price for the speed tier"],
-    cons: ["2100MB/s requires a matching high-speed host port", "Real-world speed still bridge-limited, not native NVMe", "Newer entrant with a smaller review base"],
+    description: "Crucial's X10 pairs an internal NVMe drive with USB 3.2 connectivity rated up to 2100MB/s, a genuine step up over Gen 2 only bridges.\n\nSitting just under Samsung T7 Portable SSD 1TB Titan Gray, it's priced lower than Samsung T7 Portable SSD 1TB Titan Gray. Here's the honest tradeoff: 2100MB/s requires a matching high-speed host port. And here's what it gets you instead: Faster rated bridge than standard Gen 2 drives. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: NVMe durability for gaming and file-heavy use. On the other side, Newer entrant with a smaller review base. That's the main tradeoff to weigh against everything above.",
+    specs: ["1TB capacity","Internal NVMe, up to 2100MB/s rated","USB 3.2 Type-C","Durable casing for everyday and gaming use"],
+    pros: ["Faster rated bridge than standard Gen 2 drives","NVMe durability for gaming and file-heavy use","USB-C connector for broad compatibility","Competitive price for the speed tier"],
+    cons: ["2100MB/s requires a matching high-speed host port","Real-world speed still bridge-limited, not native NVMe","Newer entrant with a smaller review base"],
     bestFor: "Buyers who want more headroom than a basic Gen 2 bridge without paying Thunderbolt prices",
   },
   {
@@ -80,11 +77,10 @@ export const products: GuideProduct[] = [
     reviews: "60 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/21K3rg5MWlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVMGFPHT?tag=deskfinds0d-20",
-    description:
-      "Corsair's EX400U Survivor pairs an internal NVMe drive with an actual USB4 bridge rated up to 4000MB/s, which meaningfully narrows the gap to native NVMe speed.\n\nAn IP55 rugged rating is a bonus for buyers who want both a faster bridge and everyday drop and dust protection in one drive.",
-    specs: ["1TB capacity", "Internal NVMe, USB4 bridge", "Up to 4000MB/s rated", "IP55 rugged rating"],
-    pros: ["USB4 bridge genuinely narrows the gap to native NVMe speed", "IP55 rating adds real everyday durability", "Strong rated ceiling for demanding transfers", "Compact for the speed tier"],
-    cons: ["Requires a USB4 or Thunderbolt-capable host port to matter", "Smaller review base than mainstream picks", "Premium price versus Gen 2 bridge drives"],
+    description: "Corsair's EX400U Survivor pairs an internal NVMe drive with an actual USB4 bridge rated up to 4000MB/s, which meaningfully narrows the gap to native NVMe speed.\n\nRanked just behind Crucial X10 1TB Portable SSD, it costs more than Crucial X10 1TB Portable SSD. The real tradeoff against that pick: Requires a USB4 or Thunderbolt-capable host port to matter. In exchange, it offers this instead: USB4 bridge genuinely narrows the gap to native NVMe speed. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: IP55 rating adds real everyday durability. On the other side, Premium price versus Gen 2 bridge drives. That's the main tradeoff to weigh against everything above.",
+    specs: ["1TB capacity","Internal NVMe, USB4 bridge","Up to 4000MB/s rated","IP55 rugged rating"],
+    pros: ["USB4 bridge genuinely narrows the gap to native NVMe speed","IP55 rating adds real everyday durability","Strong rated ceiling for demanding transfers","Compact for the speed tier"],
+    cons: ["Requires a USB4 or Thunderbolt-capable host port to matter","Smaller review base than mainstream picks","Premium price versus Gen 2 bridge drives"],
     bestFor: "Buyers who want NVMe speed that is not immediately bottlenecked by the bridge chip",
   }
 ];
@@ -100,24 +96,135 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Understand What NVMe Actually Buys You Externally",
-    note: "In a portable enclosure, the USB or Thunderbolt bridge chip usually caps real-world speed well below what the internal NVMe drive can do natively. NVMe mainly earns its keep through durability and random small-file access, not guaranteed top sequential speed, unless the enclosure itself uses a genuine high-speed bridge.",
+    "subheading": "By Capacity",
+    "table": {
+      "headers": [
+        "Your storage need",
+        "Recommended pick in this comparison"
+      ],
+      "rows": [
+        [
+          "Lightest everyday storage needs",
+          "Samsung T7 Shield Portable SSD 1TB"
+        ],
+        [
+          "Large media libraries or video work",
+          "Corsair EX400U Survivor 1TB USB4 External SSD"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Match Your Host Port to the Bridge Tier",
-    table: { headers: ["Your host port", "Recommended pick"], rows: [["Standard USB-C, USB 3.2 Gen 2", "Samsung T7 Shield or T7"], ["Faster USB 3.2 (Gen 2x2)", "Crucial X10"], ["USB4 or Thunderbolt", "Corsair EX400U Survivor 1TB"]] },
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $208",
+          "Crucial X10 1TB Portable SSD"
+        ],
+        [
+          "Mid-range",
+          "Corsair EX400U Survivor 1TB USB4 External SSD"
+        ],
+        [
+          "No firm budget ceiling, prioritizing speed or NAND quality",
+          "Samsung T7 Shield Portable SSD 1TB"
+        ]
+      ]
+    }
   },
   {
-    subheading: "TRIM and Long-Term Sustained Performance",
-    note: "Whether an external NVMe drive supports TRIM pass-through through the specific enclosure and operating system affects how well sustained write speed holds up over months of use, not just on day one.",
+    "subheading": "TLC vs QLC NAND",
+    "cards": [
+      {
+        "label": "TLC NAND",
+        "text": "Better sustained write speed and longer-term endurance, especially once any onboard cache is exhausted during a large transfer. In this comparison: check each listing's specs directly, NAND type isn't always disclosed."
+      },
+      {
+        "label": "QLC NAND",
+        "text": "More capacity per dollar, at the cost of a bigger sustained-speed drop once the cache fills on long transfers. In this comparison: none explicitly confirmed in this specific roundup, check the listing before assuming."
+      }
+    ],
+    "note": "NAND type isn't explicitly confirmed for every pick here, check each specific listing's technical details if sustained speed matters to your workflow."
+  },
+  {
+    "subheading": "Rugged/Waterproof vs Standard Build",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Drop and water resistance for field use",
+          "Samsung T7 Shield Portable SSD 1TB"
+        ],
+        [
+          "Slimmest, lightest everyday carry",
+          "Samsung T7 Portable SSD 1TB Titan Gray"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Large Sustained Transfers (Video Editing) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "TLC NAND specifically, a stated sustained write speed (not just the peak burst number), and a USB generation on both drive and host that actually supports the rated speed."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Corsair EX400U Survivor 1TB USB4 External SSD fits this specifically: USB4 bridge genuinely narrows the gap to native NVMe speed."
+      }
+    ]
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "Corsair EX400U Survivor 1TB USB4 External SSD"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "Samsung T7 Portable SSD 1TB Titan Gray"
+        ]
+      ]
+    }
   }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Check the bridge chip's rated speed, not just NVMe branding", explanation: "The internal drive being NVMe does not guarantee fast external transfers, the USB or Thunderbolt bridge chip usually sets the real ceiling." },
-  { criterion: "Confirm your host port matches the bridge tier", explanation: "A USB4-rated drive needs a USB4 or Thunderbolt host port to approach its advertised speed, otherwise it will run at whatever the older port supports." },
-  { criterion: "Value random-access performance for multi-file work", explanation: "NVMe's real advantage for most buyers is consistent performance moving many small files at once, not headline sequential numbers." },
-  { criterion: "Check for TRIM support if you write heavily", explanation: "Enclosures that support TRIM pass-through tend to hold sustained write performance better over long-term heavy use." }
+  {
+    "criterion": "Plan around real usable capacity, not the number printed on the box",
+    "explanation": "Storage manufacturers advertise capacity in decimal gigabytes and terabytes (1 GB equals 1,000,000,000 bytes), but operating systems report free space in binary units (1 GB equals 1,073,741,824 bytes), and on top of that gap, formatting itself consumes a further slice of raw capacity for the file system's own bookkeeping.\n\nTogether these two factors mean a drive advertised as 1TB will typically show up as roughly 930GB in your file explorer, a genuinely predictable shortfall rather than a defect, but one that catches buyers off guard if they plan their storage needs around the advertised round number.\n\nBefore buying, mentally subtract roughly 7 percent from the advertised capacity to estimate real usable space, and size up a tier if your actual storage need is close to the advertised number rather than comfortably under it."
+  },
+  {
+    "criterion": "Check the NAND flash type where the manufacturer discloses it",
+    "explanation": "NAND flash memory, the actual chip technology storing your data, comes in different types based on how many bits each memory cell stores, with TLC (three bits per cell) generally offering better sustained write speed and longer-term endurance than QLC (four bits per cell), which packs more capacity per chip but at the cost of slower performance once any built-in cache is exhausted.\n\nThis matters concretely because many drives use a small pool of faster cache memory to accelerate the beginning of a transfer, and once that cache fills during a large or sustained copy, the drive falls back to its native NAND speed, which is a much bigger drop on a QLC drive than a TLC one, sometimes cutting write speed by more than half.\n\nManufacturers don't always advertise NAND type prominently, so check the product listing's technical details or search the model number alongside \"NAND type\" before assuming a drive uses the faster TLC type."
+  },
+  {
+    "criterion": "Confirm your device's actual port and cable support the drive's rated speed",
+    "explanation": "A portable SSD's rated speed, such as 1050MB/s or 2000MB/s, is the maximum the drive's own controller can achieve, but real-world speed is always capped by the slowest link in the chain: the drive itself, the cable connecting it, and the port on your computer or console, whichever of the three supports the lowest maximum speed.\n\nThis means a genuinely fast 2000MB/s-rated drive plugged into an older USB 3.0 port, or connected with a cable rated for a lower USB generation, will perform no better than a much cheaper drive rated for that lower speed, making the expensive drive's extra speed ceiling completely wasted money in that specific setup.\n\nCheck your computer, phone, or console's actual port specification (not just its connector shape, since USB-C and USB-A shapes don't indicate speed) and confirm any cable you use is rated for that same speed tier before expecting a fast drive's full rated performance."
+  },
+  {
+    "criterion": "Understand that a drive's speed rating reflects a burst, not sustained performance",
+    "explanation": "The headline speed figure on a portable SSD's packaging is typically measured using a short benchmark that primarily tests the drive's fast cache memory, not its sustained real-world performance across a large, continuous file transfer that runs long enough to exhaust that cache.\n\nThis is the single most common reason a portable SSD feels slower in real use than its marketing suggests: copying a single large video file or a folder of thousands of photos can run well past the point where the cache empties, causing the transfer to visibly slow down partway through, something a short benchmark screenshot never reveals.\n\nIf your actual use case involves large sustained transfers, specifically look for reviews or listings that mention sustained write speed after cache exhaustion, not just the peak burst number on the box."
+  },
+  {
+    "criterion": "Compare warranty length as a genuine (if imperfect) signal of manufacturer confidence",
+    "explanation": "A storage device's warranty length, commonly ranging from one to five years across different brands and models even at similar price points, reflects the manufacturer's own actuarial confidence in how long that specific NAND and controller combination will reliably hold data, since a company offering a longer warranty is accepting more financial risk on a component they presumably trust more.\n\nThis isn't a perfect signal on its own, a shorter warranty doesn't automatically mean an unreliable drive, but at a similar price point between two otherwise comparable drives, the one backed by a longer warranty is making a more concrete promise about its own longevity rather than just a marketing claim.\n\nCheck the stated warranty length directly in the listing or manufacturer's spec sheet, and weigh it alongside NAND type and brand reputation rather than treating any single signal as decisive on its own."
+  }
 ];
 
 export const faq: FaqItem[] = [

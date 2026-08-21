@@ -29,11 +29,10 @@ export const products: GuideProduct[] = [
     reviews: "436 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31a33qlUGuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLV9GG54?tag=deskfinds0d-20",
-    description:
-      "The KingSpec Z5 is genuinely 512GB, the closest real match to a 500GB capacity target in our verified pool, rated up to 2100MB/s over USB 3.2 Gen2x2.\n\nIts zinc alloy case and RGB lighting are aimed at budget gaming buyers, and the price is the lowest in this group, making it a reasonable pick if 512GB rather than exactly 500GB works for you.",
-    specs: ["512GB capacity (closest verified match to 500GB)", "Up to 2100MB/s rated", "USB 3.2 Gen2x2", "Zinc alloy case with RGB lighting"],
-    pros: ["Genuinely closest capacity match to 500GB in our verified pool", "High rated speed for the price tier", "Lowest price in this group", "Distinctive RGB design for gaming setups"],
-    cons: ["512GB, not exactly 500GB, confirm this works for your need", "Smaller review base than mainstream brands", "RGB lighting and case material are a style choice, not a durability upgrade"],
+    description: "The KingSpec Z5 is genuinely 512GB, the closest real match to a 500GB capacity target in our verified pool, rated up to 2100MB/s over USB 3.2 Gen2x2.\n\nIt earns the top spot in this comparison over SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s for one main reason. Genuinely closest capacity match to 500GB in our verified pool. On price, it comes in below SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: High rated speed for the price tier. On the other side, RGB lighting and case material are a style choice, not a durability upgrade. That's the main tradeoff to weigh against everything above.",
+    specs: ["512GB capacity (closest verified match to 500GB)","Up to 2100MB/s rated","USB 3.2 Gen2x2","Zinc alloy case with RGB lighting"],
+    pros: ["Genuinely closest capacity match to 500GB in our verified pool","High rated speed for the price tier","Lowest price in this group","Distinctive RGB design for gaming setups"],
+    cons: ["512GB, not exactly 500GB, confirm this works for your need","Smaller review base than mainstream brands","RGB lighting and case material are a style choice, not a durability upgrade"],
     bestFor: "Buyers who specifically want the closest genuine match to a 500GB drive",
   },
   {
@@ -46,11 +45,10 @@ export const products: GuideProduct[] = [
     reviews: "3,542 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31PngdJb7FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGL4SHY8?tag=deskfinds0d-20",
-    description:
-      "SSK's Portable SSD is actually a 1TB drive, not 500GB, but its low price puts it in similar budget territory, rated up to 1050MB/s over USB-C.\n\nWe are including it as a nearby-tier option for buyers who started out looking for something small and affordable and would be equally happy with double the capacity at a similar price point.",
-    specs: ["1TB capacity (not 500GB, included as a nearby budget option)", "Up to 1050MB/s rated", "USB-C", "Budget price"],
-    pros: ["Actually double the capacity of a 500GB drive at a similar budget price", "Solid USB 3.2 Gen 2 speed rating", "Compact, lightweight design", "Good value if 1TB rather than 500GB works for you"],
-    cons: ["Not a 500GB drive, be clear on your actual capacity need", "Smaller review base than the top mainstream brands", "No official IP rating"],
+    description: "SSK's Portable SSD is actually a 1TB drive, not 500GB, but its low price puts it in similar budget territory, rated up to 1050MB/s over USB-C.\n\nOne spot below KingSpec Z5 512GB External SSD in this ranking, it costs more than KingSpec Z5 512GB External SSD. The compromise here is straightforward: Not a 500GB drive, be clear on your actual capacity need. What you gain in return: Actually double the capacity of a 500GB drive at a similar budget price. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Solid USB 3.2 Gen 2 speed rating. On the other side, No official IP rating. That's the main tradeoff to weigh against everything above.",
+    specs: ["1TB capacity (not 500GB, included as a nearby budget option)","Up to 1050MB/s rated","USB-C","Budget price"],
+    pros: ["Actually double the capacity of a 500GB drive at a similar budget price","Solid USB 3.2 Gen 2 speed rating","Compact, lightweight design","Good value if 1TB rather than 500GB works for you"],
+    cons: ["Not a 500GB drive, be clear on your actual capacity need","Smaller review base than the top mainstream brands","No official IP rating"],
     bestFor: "Buyers open to 1TB at a budget price instead of exactly 500GB",
   },
   {
@@ -63,11 +61,10 @@ export const products: GuideProduct[] = [
     reviews: "10,968 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41-T4nAAufL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5JQ68FY?tag=deskfinds0d-20",
-    description:
-      "SanDisk's standard Portable SSD is also genuinely 1TB rather than 500GB, but its larger review base and established brand track record add real reliability confidence.\n\nRated up to 800MB/s, it trades some speed for a lower price and a more proven reputation than smaller, newer brands at the true 512GB tier.",
-    specs: ["1TB capacity (not 500GB, included as a nearby budget option)", "Up to 800MB/s rated", "USB-C, USB 3.2 Gen 2", "Established brand reliability"],
-    pros: ["Larger, more established review base than niche 512GB brands", "Actually double the capacity of 500GB at a competitive price", "Reliable brand with a long track record", "Good backup and everyday-file companion"],
-    cons: ["Not a 500GB drive, be clear on your actual capacity need", "800MB/s ceiling trails the KingSpec Z5's rated speed", "No official IP rating"],
+    description: "SanDisk's standard Portable SSD is also genuinely 1TB rather than 500GB, but its larger review base and established brand track record add real reliability confidence.\n\nSitting just under SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s, it costs more than SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s. Here's the honest tradeoff: Not a 500GB drive, be clear on your actual capacity need. And here's what it gets you instead: Larger, more established review base than niche 512GB brands. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Actually double the capacity of 500GB at a competitive price. On the other side, No official IP rating. That's the main tradeoff to weigh against everything above.",
+    specs: ["1TB capacity (not 500GB, included as a nearby budget option)","Up to 800MB/s rated","USB-C, USB 3.2 Gen 2","Established brand reliability"],
+    pros: ["Larger, more established review base than niche 512GB brands","Actually double the capacity of 500GB at a competitive price","Reliable brand with a long track record","Good backup and everyday-file companion"],
+    cons: ["Not a 500GB drive, be clear on your actual capacity need","800MB/s ceiling trails the KingSpec Z5's rated speed","No official IP rating"],
     bestFor: "Buyers who want established brand reliability over an exact 500GB match",
   }
 ];
@@ -83,25 +80,135 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Be Clear on 500GB vs 512GB vs 1TB",
-    note: "No drive in our verified pool is exactly 500GB. 512GB is the closest genuine match, while two well-reviewed 1TB drives are included as nearby budget-tier alternatives. Confirm which capacity actually matches your need before buying.",
+    "subheading": "By Speed Tier",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
+      ],
+      "rows": [
+        [
+          "Everyday files, lowest cost per GB",
+          "SANDISK 1TB Portable SSD"
+        ],
+        [
+          "Maximum speed headroom for large transfers",
+          "KingSpec Z5 512GB External SSD"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: { headers: ["Your priority", "Recommended pick"], rows: [["Closest genuine match to 500GB", "KingSpec Z5 512GB"], ["Budget 1TB with fast USB-C speed", "SSK Portable SSD 1TB"], ["Budget 1TB with established brand reliability", "SanDisk Portable SSD 1TB"]] },
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $89",
+          "KingSpec Z5 512GB External SSD"
+        ],
+        [
+          "Mid-range",
+          "SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s"
+        ],
+        [
+          "No firm budget ceiling, prioritizing speed or NAND quality",
+          "SANDISK 1TB Portable SSD"
+        ]
+      ]
+    }
   },
   {
-    subheading: "When to Just Buy 1TB Instead",
-    note: "If the price difference between a true 512GB drive and a 1TB drive is small, as it often is at this budget tier, the extra headroom of 1TB is usually worth the small premium over chasing an exact 500GB match.",
+    "subheading": "TLC vs QLC NAND",
+    "cards": [
+      {
+        "label": "TLC NAND",
+        "text": "Better sustained write speed and longer-term endurance, especially once any onboard cache is exhausted during a large transfer. In this comparison: check each listing's specs directly, NAND type isn't always disclosed."
+      },
+      {
+        "label": "QLC NAND",
+        "text": "More capacity per dollar, at the cost of a bigger sustained-speed drop once the cache fills on long transfers. In this comparison: none explicitly confirmed in this specific roundup, check the listing before assuming."
+      }
+    ],
+    "note": "NAND type isn't explicitly confirmed for every pick here, check each specific listing's technical details if sustained speed matters to your workflow."
+  },
+  {
+    "subheading": "Rugged/Waterproof vs Standard Build",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Drop and water resistance for field use",
+          "SANDISK 1TB Portable SSD"
+        ],
+        [
+          "Slimmest, lightest everyday carry",
+          "KingSpec Z5 512GB External SSD"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Large Sustained Transfers (Video Editing) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "TLC NAND specifically, a stated sustained write speed (not just the peak burst number), and a USB generation on both drive and host that actually supports the rated speed."
+      },
+      {
+        "label": "In this comparison",
+        "text": "KingSpec Z5 512GB External SSD fits this specifically: Genuinely closest capacity match to 500GB in our verified pool."
+      }
+    ]
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "KingSpec Z5 512GB External SSD"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "SANDISK 1TB Portable SSD"
+        ]
+      ]
+    }
   }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm the actual advertised capacity before buying", explanation: "Very few portable SSDs are marketed as exactly 500GB, most nearby options are genuinely 512GB or 1TB, check the listing carefully." },
-  { criterion: "Weigh the small price gap between 512GB and 1TB", explanation: "At this budget tier the price difference to double your capacity is often modest, making 1TB a better long-term value in many cases." },
-  { criterion: "Check NAND type at the budget tier", explanation: "Budget-tier drives at this capacity are more likely to use DRAM-less controllers, which can reduce performance under multiple simultaneous file operations." },
-  { criterion: "Verify seller legitimacy at low price points", explanation: "Unusually cheap listings at any capacity carry elevated risk of counterfeit fake-capacity firmware, buy from verified sellers." },
-  { criterion: "Match rated speed to your actual use case", explanation: "For everyday document and photo transfers, the speed difference between these picks rarely matters in daily use." }
+  {
+    "criterion": "Plan around real usable capacity, not the number printed on the box",
+    "explanation": "Storage manufacturers advertise capacity in decimal gigabytes and terabytes (1 GB equals 1,000,000,000 bytes), but operating systems report free space in binary units (1 GB equals 1,073,741,824 bytes), and on top of that gap, formatting itself consumes a further slice of raw capacity for the file system's own bookkeeping.\n\nTogether these two factors mean a drive advertised as 1TB will typically show up as roughly 930GB in your file explorer, a genuinely predictable shortfall rather than a defect, but one that catches buyers off guard if they plan their storage needs around the advertised round number.\n\nBefore buying, mentally subtract roughly 7 percent from the advertised capacity to estimate real usable space, and size up a tier if your actual storage need is close to the advertised number rather than comfortably under it."
+  },
+  {
+    "criterion": "Check the NAND flash type where the manufacturer discloses it",
+    "explanation": "NAND flash memory, the actual chip technology storing your data, comes in different types based on how many bits each memory cell stores, with TLC (three bits per cell) generally offering better sustained write speed and longer-term endurance than QLC (four bits per cell), which packs more capacity per chip but at the cost of slower performance once any built-in cache is exhausted.\n\nThis matters concretely because many drives use a small pool of faster cache memory to accelerate the beginning of a transfer, and once that cache fills during a large or sustained copy, the drive falls back to its native NAND speed, which is a much bigger drop on a QLC drive than a TLC one, sometimes cutting write speed by more than half.\n\nManufacturers don't always advertise NAND type prominently, so check the product listing's technical details or search the model number alongside \"NAND type\" before assuming a drive uses the faster TLC type."
+  },
+  {
+    "criterion": "Confirm your device's actual port and cable support the drive's rated speed",
+    "explanation": "A portable SSD's rated speed, such as 1050MB/s or 2000MB/s, is the maximum the drive's own controller can achieve, but real-world speed is always capped by the slowest link in the chain: the drive itself, the cable connecting it, and the port on your computer or console, whichever of the three supports the lowest maximum speed.\n\nThis means a genuinely fast 2000MB/s-rated drive plugged into an older USB 3.0 port, or connected with a cable rated for a lower USB generation, will perform no better than a much cheaper drive rated for that lower speed, making the expensive drive's extra speed ceiling completely wasted money in that specific setup.\n\nCheck your computer, phone, or console's actual port specification (not just its connector shape, since USB-C and USB-A shapes don't indicate speed) and confirm any cable you use is rated for that same speed tier before expecting a fast drive's full rated performance."
+  },
+  {
+    "criterion": "Understand that a drive's speed rating reflects a burst, not sustained performance",
+    "explanation": "The headline speed figure on a portable SSD's packaging is typically measured using a short benchmark that primarily tests the drive's fast cache memory, not its sustained real-world performance across a large, continuous file transfer that runs long enough to exhaust that cache.\n\nThis is the single most common reason a portable SSD feels slower in real use than its marketing suggests: copying a single large video file or a folder of thousands of photos can run well past the point where the cache empties, causing the transfer to visibly slow down partway through, something a short benchmark screenshot never reveals.\n\nIf your actual use case involves large sustained transfers, specifically look for reviews or listings that mention sustained write speed after cache exhaustion, not just the peak burst number on the box."
+  },
+  {
+    "criterion": "Compare warranty length as a genuine (if imperfect) signal of manufacturer confidence",
+    "explanation": "A storage device's warranty length, commonly ranging from one to five years across different brands and models even at similar price points, reflects the manufacturer's own actuarial confidence in how long that specific NAND and controller combination will reliably hold data, since a company offering a longer warranty is accepting more financial risk on a component they presumably trust more.\n\nThis isn't a perfect signal on its own, a shorter warranty doesn't automatically mean an unreliable drive, but at a similar price point between two otherwise comparable drives, the one backed by a longer warranty is making a more concrete promise about its own longevity rather than just a marketing claim.\n\nCheck the stated warranty length directly in the listing or manufacturer's spec sheet, and weigh it alongside NAND type and brand reputation rather than treating any single signal as decisive on its own."
+  }
 ];
 
 export const faq: FaqItem[] = [

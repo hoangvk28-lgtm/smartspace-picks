@@ -29,11 +29,10 @@ export const products: GuideProduct[] = [
     reviews: "16,380 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/21mARCvUWxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VLK9W3S?tag=deskfinds0d-20",
-    description:
-      "Samsung's T7 Shield pairs a rugged shell with genuine 1050MB/s USB 3.2 Gen 2 speed, a reliable everyday companion for MacBook users who want durability alongside solid transfer performance.\n\nLike most drives, it ships pre-formatted for Windows, Mac users planning to use it for Time Machine should reformat to APFS first via Disk Utility.",
-    specs: ["1TB capacity", "Up to 1050MB/s rated", "USB 3.2 Gen 2", "Rugged shield"],
-    pros: ["Rugged shell suits MacBook users on the go", "Reliable, well-reviewed platform", "Realistic USB 3.2 Gen 2 speed ceiling", "Good sustained-speed reputation among reviewers"],
-    cons: ["Ships pre-formatted for Windows, needs APFS reformatting for Time Machine", "Bulkier than the non-shielded T7", "Sustained speed can dip once cache fills"],
+    description: "Samsung's T7 Shield pairs a rugged shell with genuine 1050MB/s USB 3.2 Gen 2 speed, a reliable everyday companion for MacBook users who want durability alongside solid transfer performance.\n\nIt earns the top spot in this comparison over Corsair EX400U Survivor 1TB USB4 External SSD for one main reason. Rugged shell suits MacBook users on the go. On price, it's actually priced above Corsair EX400U Survivor 1TB USB4 External SSD, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Reliable, well-reviewed platform. On the other side, Sustained speed can dip once cache fills. That's the main tradeoff to weigh against everything above.",
+    specs: ["1TB capacity","Up to 1050MB/s rated","USB 3.2 Gen 2","Rugged shield"],
+    pros: ["Rugged shell suits MacBook users on the go","Reliable, well-reviewed platform","Realistic USB 3.2 Gen 2 speed ceiling","Good sustained-speed reputation among reviewers"],
+    cons: ["Ships pre-formatted for Windows, needs APFS reformatting for Time Machine","Bulkier than the non-shielded T7","Sustained speed can dip once cache fills"],
     bestFor: "MacBook users who want everyday durability alongside solid backup speed",
   },
   {
@@ -46,11 +45,10 @@ export const products: GuideProduct[] = [
     reviews: "60 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/21K3rg5MWlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVMGFPHT?tag=deskfinds0d-20",
-    description:
-      "Corsair's EX400U Survivor uses a genuine USB4 bridge rated up to 4000MB/s, a speed tier that MacBooks with Thunderbolt or USB4 ports can genuinely take advantage of.\n\nIP55 rugged rating is a bonus, and reformatting to APFS is a quick one-time step in Disk Utility if you want to use this for native Mac backups.",
-    specs: ["1TB capacity", "Up to 4000MB/s rated", "USB4 bridge", "IP55 rugged rating"],
-    pros: ["Genuinely fast USB4 speed for Thunderbolt-equipped MacBooks", "IP55 rating adds real everyday durability", "Compact for the speed and durability tier", "Strong sustained-speed reputation among reviewers"],
-    cons: ["Needs a genuine Thunderbolt or USB4 MacBook port to matter", "Smaller review base than mainstream picks", "Requires APFS reformatting for native Time Machine use"],
+    description: "Corsair's EX400U Survivor uses a genuine USB4 bridge rated up to 4000MB/s, a speed tier that MacBooks with Thunderbolt or USB4 ports can genuinely take advantage of.\n\nOne spot below Samsung T7 Shield Portable SSD 1TB in this ranking, it's priced lower than Samsung T7 Shield Portable SSD 1TB. The compromise here is straightforward: Needs a genuine Thunderbolt or USB4 MacBook port to matter. What you gain in return: Genuinely fast USB4 speed for Thunderbolt-equipped MacBooks. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: IP55 rating adds real everyday durability. On the other side, Requires APFS reformatting for native Time Machine use. That's the main tradeoff to weigh against everything above.",
+    specs: ["1TB capacity","Up to 4000MB/s rated","USB4 bridge","IP55 rugged rating"],
+    pros: ["Genuinely fast USB4 speed for Thunderbolt-equipped MacBooks","IP55 rating adds real everyday durability","Compact for the speed and durability tier","Strong sustained-speed reputation among reviewers"],
+    cons: ["Needs a genuine Thunderbolt or USB4 MacBook port to matter","Smaller review base than mainstream picks","Requires APFS reformatting for native Time Machine use"],
     bestFor: "MacBook users with Thunderbolt or USB4 ports who want top-tier speed",
   },
   {
@@ -63,11 +61,10 @@ export const products: GuideProduct[] = [
     reviews: "21,124 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31LdvAbumfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874XN4D8?tag=deskfinds0d-20",
-    description:
-      "The standard Samsung T7 offers the same 1050MB/s USB 3.2 Gen 2 speed as the Shield in a slimmer, lighter body better suited to minimalist MacBook setups.\n\nReformatting to APFS through Disk Utility takes just a few minutes if you plan to use this specifically for Time Machine backups.",
-    specs: ["1TB capacity", "Up to 1050MB/s rated", "USB 3.2 Gen 2", "Slim metal body"],
-    pros: ["Slim, lightweight design pairs well with a MacBook", "Reliable, widely reviewed platform", "Good sustained speed for everyday backup use", "Comes in multiple colors"],
-    cons: ["No official IP rating", "Ships pre-formatted for Windows, needs APFS reformatting", "1050MB/s ceiling is not the fastest tier available"],
+    description: "The standard Samsung T7 offers the same 1050MB/s USB 3.2 Gen 2 speed as the Shield in a slimmer, lighter body better suited to minimalist MacBook setups.\n\nSitting just under Corsair EX400U Survivor 1TB USB4 External SSD, it's priced lower than Corsair EX400U Survivor 1TB USB4 External SSD. Here's the honest tradeoff: No official IP rating. And here's what it gets you instead: Slim, lightweight design pairs well with a MacBook. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Reliable, widely reviewed platform. On the other side, 1050MB/s ceiling is not the fastest tier available. That's the main tradeoff to weigh against everything above.",
+    specs: ["1TB capacity","Up to 1050MB/s rated","USB 3.2 Gen 2","Slim metal body"],
+    pros: ["Slim, lightweight design pairs well with a MacBook","Reliable, widely reviewed platform","Good sustained speed for everyday backup use","Comes in multiple colors"],
+    cons: ["No official IP rating","Ships pre-formatted for Windows, needs APFS reformatting","1050MB/s ceiling is not the fastest tier available"],
     bestFor: "MacBook users who want the slimmest everyday drive",
   },
   {
@@ -80,11 +77,10 @@ export const products: GuideProduct[] = [
     reviews: "2,363 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/312gFk3+1CL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F3377JBN?tag=deskfinds0d-20",
-    description:
-      "Crucial's X10 rates up to 2100MB/s over USB 3.2, a genuine step up for MacBook users doing video work who do not have a Thunderbolt or USB4 port.\n\nIts durable casing suits both desk and mobile use, and like the others, reformatting to APFS is needed for native Time Machine compatibility.",
-    specs: ["1TB capacity", "Up to 2100MB/s rated", "USB 3.2 Type-C", "Durable casing"],
-    pros: ["Faster rated bridge than standard Gen 2 drives", "Durable casing for mobile MacBook use", "Competitive price for the speed tier", "Good fit for MacBook video work without Thunderbolt"],
-    cons: ["Needs a matching high-speed MacBook port to hit rated speed", "Newer entrant with a smaller review base", "Ships pre-formatted for Windows, needs APFS reformatting"],
+    description: "Crucial's X10 rates up to 2100MB/s over USB 3.2, a genuine step up for MacBook users doing video work who do not have a Thunderbolt or USB4 port.\n\nRanked just behind Samsung T7 Portable SSD 1TB Titan Gray, it's priced lower than Samsung T7 Portable SSD 1TB Titan Gray. The real tradeoff against that pick: Needs a matching high-speed MacBook port to hit rated speed. In exchange, it offers this instead: Faster rated bridge than standard Gen 2 drives. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Durable casing for mobile MacBook use. On the other side, Ships pre-formatted for Windows, needs APFS reformatting. That's the main tradeoff to weigh against everything above.",
+    specs: ["1TB capacity","Up to 2100MB/s rated","USB 3.2 Type-C","Durable casing"],
+    pros: ["Faster rated bridge than standard Gen 2 drives","Durable casing for mobile MacBook use","Competitive price for the speed tier","Good fit for MacBook video work without Thunderbolt"],
+    cons: ["Needs a matching high-speed MacBook port to hit rated speed","Newer entrant with a smaller review base","Ships pre-formatted for Windows, needs APFS reformatting"],
     bestFor: "MacBook users doing video work without a Thunderbolt port",
   }
 ];
@@ -100,25 +96,135 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Reformat to APFS Before Setting Up Time Machine",
-    note: "Nearly every portable SSD ships pre-formatted in exFAT or NTFS. Open Disk Utility, erase the drive, and choose APFS before using it for Time Machine, this is a one-time step that takes a few minutes.",
+    "subheading": "By Capacity",
+    "table": {
+      "headers": [
+        "Your storage need",
+        "Recommended pick in this comparison"
+      ],
+      "rows": [
+        [
+          "Lightest everyday storage needs",
+          "Samsung T7 Shield Portable SSD 1TB"
+        ],
+        [
+          "Large media libraries or video work",
+          "Crucial X10 1TB Portable SSD"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: { headers: ["Your priority", "Recommended pick"], rows: [["Rugged everyday MacBook companion", "Samsung T7 Shield 1TB"], ["Fastest speed for Thunderbolt or USB4 MacBooks", "Corsair EX400U Survivor 1TB"], ["Slimmest everyday drive", "Samsung T7 1TB"], ["Faster speed without needing Thunderbolt", "Crucial X10 1TB"]] },
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $208",
+          "Crucial X10 1TB Portable SSD"
+        ],
+        [
+          "Mid-range",
+          "Corsair EX400U Survivor 1TB USB4 External SSD"
+        ],
+        [
+          "No firm budget ceiling, prioritizing speed or NAND quality",
+          "Samsung T7 Shield Portable SSD 1TB"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Time Machine Cares About Consistency, Not Just Peak Speed",
-    note: "A drive that sustains steady write speed over a long backup session serves Time Machine better than one with a high peak number that drops off during sustained use. Check reviews specifically discussing long-term backup reliability.",
+    "subheading": "TLC vs QLC NAND",
+    "cards": [
+      {
+        "label": "TLC NAND",
+        "text": "Better sustained write speed and longer-term endurance, especially once any onboard cache is exhausted during a large transfer. In this comparison: check each listing's specs directly, NAND type isn't always disclosed."
+      },
+      {
+        "label": "QLC NAND",
+        "text": "More capacity per dollar, at the cost of a bigger sustained-speed drop once the cache fills on long transfers. In this comparison: none explicitly confirmed in this specific roundup, check the listing before assuming."
+      }
+    ],
+    "note": "NAND type isn't explicitly confirmed for every pick here, check each specific listing's technical details if sustained speed matters to your workflow."
+  },
+  {
+    "subheading": "Rugged/Waterproof vs Standard Build",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Drop and water resistance for field use",
+          "Samsung T7 Shield Portable SSD 1TB"
+        ],
+        [
+          "Slimmest, lightest everyday carry",
+          "Samsung T7 Portable SSD 1TB Titan Gray"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Large Sustained Transfers (Video Editing) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "TLC NAND specifically, a stated sustained write speed (not just the peak burst number), and a USB generation on both drive and host that actually supports the rated speed."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Corsair EX400U Survivor 1TB USB4 External SSD fits this specifically: Genuinely fast USB4 speed for Thunderbolt-equipped MacBooks."
+      }
+    ]
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "Corsair EX400U Survivor 1TB USB4 External SSD"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "Samsung T7 Portable SSD 1TB Titan Gray"
+        ]
+      ]
+    }
   }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Plan to reformat to APFS for Time Machine", explanation: "Nearly every drive ships in exFAT or NTFS, format to APFS through Disk Utility before setting up Time Machine, a quick one-time step." },
-  { criterion: "Prioritize sustained speed over peak burst numbers", explanation: "Time Machine backups benefit more from steady, sustained write consistency than a high peak burst speed that drops off." },
-  { criterion: "Match interface tier to your specific MacBook's ports", explanation: "A USB4 rated drive only performs at that tier on a MacBook with an actual Thunderbolt or USB4 port." },
-  { criterion: "Consider ruggedization if you travel with your MacBook", explanation: "A rugged or IP-rated drive is a sensible pairing for a MacBook that regularly leaves the house." },
-  { criterion: "Check exFAT compatibility if you also use Windows", explanation: "If you need cross-platform access without reformatting, exFAT, the default on most drives, works on both Mac and Windows." }
+  {
+    "criterion": "Plan around real usable capacity, not the number printed on the box",
+    "explanation": "Storage manufacturers advertise capacity in decimal gigabytes and terabytes (1 GB equals 1,000,000,000 bytes), but operating systems report free space in binary units (1 GB equals 1,073,741,824 bytes), and on top of that gap, formatting itself consumes a further slice of raw capacity for the file system's own bookkeeping.\n\nTogether these two factors mean a drive advertised as 1TB will typically show up as roughly 930GB in your file explorer, a genuinely predictable shortfall rather than a defect, but one that catches buyers off guard if they plan their storage needs around the advertised round number.\n\nBefore buying, mentally subtract roughly 7 percent from the advertised capacity to estimate real usable space, and size up a tier if your actual storage need is close to the advertised number rather than comfortably under it."
+  },
+  {
+    "criterion": "Check the NAND flash type where the manufacturer discloses it",
+    "explanation": "NAND flash memory, the actual chip technology storing your data, comes in different types based on how many bits each memory cell stores, with TLC (three bits per cell) generally offering better sustained write speed and longer-term endurance than QLC (four bits per cell), which packs more capacity per chip but at the cost of slower performance once any built-in cache is exhausted.\n\nThis matters concretely because many drives use a small pool of faster cache memory to accelerate the beginning of a transfer, and once that cache fills during a large or sustained copy, the drive falls back to its native NAND speed, which is a much bigger drop on a QLC drive than a TLC one, sometimes cutting write speed by more than half.\n\nManufacturers don't always advertise NAND type prominently, so check the product listing's technical details or search the model number alongside \"NAND type\" before assuming a drive uses the faster TLC type."
+  },
+  {
+    "criterion": "Confirm your device's actual port and cable support the drive's rated speed",
+    "explanation": "A portable SSD's rated speed, such as 1050MB/s or 2000MB/s, is the maximum the drive's own controller can achieve, but real-world speed is always capped by the slowest link in the chain: the drive itself, the cable connecting it, and the port on your computer or console, whichever of the three supports the lowest maximum speed.\n\nThis means a genuinely fast 2000MB/s-rated drive plugged into an older USB 3.0 port, or connected with a cable rated for a lower USB generation, will perform no better than a much cheaper drive rated for that lower speed, making the expensive drive's extra speed ceiling completely wasted money in that specific setup.\n\nCheck your computer, phone, or console's actual port specification (not just its connector shape, since USB-C and USB-A shapes don't indicate speed) and confirm any cable you use is rated for that same speed tier before expecting a fast drive's full rated performance."
+  },
+  {
+    "criterion": "Understand that a drive's speed rating reflects a burst, not sustained performance",
+    "explanation": "The headline speed figure on a portable SSD's packaging is typically measured using a short benchmark that primarily tests the drive's fast cache memory, not its sustained real-world performance across a large, continuous file transfer that runs long enough to exhaust that cache.\n\nThis is the single most common reason a portable SSD feels slower in real use than its marketing suggests: copying a single large video file or a folder of thousands of photos can run well past the point where the cache empties, causing the transfer to visibly slow down partway through, something a short benchmark screenshot never reveals.\n\nIf your actual use case involves large sustained transfers, specifically look for reviews or listings that mention sustained write speed after cache exhaustion, not just the peak burst number on the box."
+  },
+  {
+    "criterion": "Compare warranty length as a genuine (if imperfect) signal of manufacturer confidence",
+    "explanation": "A storage device's warranty length, commonly ranging from one to five years across different brands and models even at similar price points, reflects the manufacturer's own actuarial confidence in how long that specific NAND and controller combination will reliably hold data, since a company offering a longer warranty is accepting more financial risk on a component they presumably trust more.\n\nThis isn't a perfect signal on its own, a shorter warranty doesn't automatically mean an unreliable drive, but at a similar price point between two otherwise comparable drives, the one backed by a longer warranty is making a more concrete promise about its own longevity rather than just a marketing claim.\n\nCheck the stated warranty length directly in the listing or manufacturer's spec sheet, and weigh it alongside NAND type and brand reputation rather than treating any single signal as decisive on its own."
+  }
 ];
 
 export const faq: FaqItem[] = [

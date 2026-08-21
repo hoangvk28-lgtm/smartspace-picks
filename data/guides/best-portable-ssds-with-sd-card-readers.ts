@@ -29,11 +29,10 @@ export const products: GuideProduct[] = [
     reviews: "91,365 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41eTFK7clfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HN37XC1?tag=deskfinds0d-20",
-    description:
-      "SanDisk's Extreme delivers reliable 1050MB/s speed with IP65 durability, a strong standalone destination drive for photos and video offloaded from a separate SD card reader.\n\nThis drive does not include a built-in SD card slot, pair it with a dedicated card reader if your workflow involves regularly offloading camera media.",
-    specs: ["2TB capacity", "Up to 1050MB/s rated", "USB-C, USB 3.2 Gen 2", "IP65 water and dust resistance", "No built-in SD card reader"],
-    pros: ["Reliable destination drive for offloaded camera media", "IP65 rating suits field use alongside a card reader", "Large 2TB capacity for extensive photo and video libraries", "Well-established, large review base"],
-    cons: ["No built-in SD card reader, a separate reader is required", "Older model, verify current firmware", "Sustained speed can dip once cache fills"],
+    description: "SanDisk's Extreme delivers reliable 1050MB/s speed with IP65 durability, a strong standalone destination drive for photos and video offloaded from a separate SD card reader.\n\nIt earns the top spot in this comparison over Samsung T7 Portable SSD 1TB Titan Gray for one main reason. Reliable destination drive for offloaded camera media. On price, it's actually priced above Samsung T7 Portable SSD 1TB Titan Gray, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: IP65 rating suits field use alongside a card reader. On the other side, Sustained speed can dip once cache fills. That's the main tradeoff to weigh against everything above.",
+    specs: ["2TB capacity","Up to 1050MB/s rated","USB-C, USB 3.2 Gen 2","IP65 water and dust resistance","No built-in SD card reader"],
+    pros: ["Reliable destination drive for offloaded camera media","IP65 rating suits field use alongside a card reader","Large 2TB capacity for extensive photo and video libraries","Well-established, large review base"],
+    cons: ["No built-in SD card reader, a separate reader is required","Older model, verify current firmware","Sustained speed can dip once cache fills"],
     bestFor: "Photographers and videographers who want a reliable destination drive paired with a separate card reader",
   },
   {
@@ -46,11 +45,10 @@ export const products: GuideProduct[] = [
     reviews: "21,124 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31LdvAbumfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874XN4D8?tag=deskfinds0d-20",
-    description:
-      "Samsung's T7 offers a slim, lightweight standalone SSD well suited to a minimal field kit alongside a compact separate card reader.\n\nLike the Extreme above, this drive does not include an integrated card slot, budget for a small dedicated reader if you need one.",
-    specs: ["1TB capacity", "Up to 1050MB/s rated", "USB 3.2 Gen 2", "Slim metal body", "No built-in SD card reader"],
-    pros: ["Slim design pairs well with a compact separate card reader in a field kit", "Reliable, widely reviewed platform", "Good everyday speed for offloaded media", "Comes in multiple colors"],
-    cons: ["No built-in SD card reader, a separate reader is required", "No official IP rating", "1TB may be limiting for large video libraries"],
+    description: "Samsung's T7 offers a slim, lightweight standalone SSD well suited to a minimal field kit alongside a compact separate card reader.\n\nOne spot below SANDISK 2TB Extreme Portable SSD in this ranking, it's priced lower than SANDISK 2TB Extreme Portable SSD. The compromise here is straightforward: No built-in SD card reader, a separate reader is required. What you gain in return: Slim design pairs well with a compact separate card reader in a field kit. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Reliable, widely reviewed platform. On the other side, 1TB may be limiting for large video libraries. That's the main tradeoff to weigh against everything above.",
+    specs: ["1TB capacity","Up to 1050MB/s rated","USB 3.2 Gen 2","Slim metal body","No built-in SD card reader"],
+    pros: ["Slim design pairs well with a compact separate card reader in a field kit","Reliable, widely reviewed platform","Good everyday speed for offloaded media","Comes in multiple colors"],
+    cons: ["No built-in SD card reader, a separate reader is required","No official IP rating","1TB may be limiting for large video libraries"],
     bestFor: "Buyers who want the slimmest possible standalone destination drive",
   },
   {
@@ -63,11 +61,10 @@ export const products: GuideProduct[] = [
     reviews: "2,340 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31HBU-HAxoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C3B32H9M?tag=deskfinds0d-20",
-    description:
-      "Transcend's ESD310 includes both USB-C and USB-A connectors, useful flexibility when your separate card reader and computer use different connector types.\n\nThis drive still does not include a built-in SD slot itself, but the dual-connector design reduces the number of adapters you need in a field kit overall.",
-    specs: ["1TB capacity", "Dual USB-C and USB-A connectors", "Up to 1050MB/s rated", "No built-in SD card reader"],
-    pros: ["Dual connectors reduce adapter clutter in a field kit", "Solid everyday speed for offloaded camera media", "Compact, travel-friendly design", "Good value for the dual-connector convenience"],
-    cons: ["No built-in SD card reader, a separate reader is still required", "Smaller review base than mainstream single-connector drives", "USB 3.2 Gen2 tier, not the fastest available"],
+    description: "Transcend's ESD310 includes both USB-C and USB-A connectors, useful flexibility when your separate card reader and computer use different connector types.\n\nSitting just under Samsung T7 Portable SSD 1TB Titan Gray, it costs more than Samsung T7 Portable SSD 1TB Titan Gray. Here's the honest tradeoff: No built-in SD card reader, a separate reader is still required. And here's what it gets you instead: Dual connectors reduce adapter clutter in a field kit. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Solid everyday speed for offloaded camera media. On the other side, USB 3.2 Gen2 tier, not the fastest available. That's the main tradeoff to weigh against everything above.",
+    specs: ["1TB capacity","Dual USB-C and USB-A connectors","Up to 1050MB/s rated","No built-in SD card reader"],
+    pros: ["Dual connectors reduce adapter clutter in a field kit","Solid everyday speed for offloaded camera media","Compact, travel-friendly design","Good value for the dual-connector convenience"],
+    cons: ["No built-in SD card reader, a separate reader is still required","Smaller review base than mainstream single-connector drives","USB 3.2 Gen2 tier, not the fastest available"],
     bestFor: "Buyers who want connector flexibility across their card reader and other devices",
   }
 ];
@@ -83,25 +80,135 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Why This Guide Doesn't Feature a True Combo Drive",
-    note: "Genuine SD-card-reader-and-SSD combo drives had limited verified options in our research pool at the time of writing. Rather than mislabel a standalone drive as having a card reader, we are recommending strong standalone drives and practical advice on pairing one with a separate reader.",
+    "subheading": "By Capacity",
+    "table": {
+      "headers": [
+        "Your storage need",
+        "Recommended pick in this comparison"
+      ],
+      "rows": [
+        [
+          "Lightest everyday storage needs",
+          "Samsung T7 Portable SSD 1TB Titan Gray"
+        ],
+        [
+          "Large media libraries or video work",
+          "SANDISK 2TB Extreme Portable SSD"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Choosing a Separate Card Reader",
-    cards: [{ label: "Match reader speed to your card type", text: "A UHS-II rated reader is necessary to get full speed from UHS-II SD cards, a cheaper UHS-I reader will bottleneck faster cards." }, { label: "Consider a multi-format reader", text: "If you shoot on both SD and CFexpress or microSD, a multi-format reader reduces the number of separate devices you carry." }, { label: "Check the reader's own connector matches your SSD and computer", text: "Match USB-C to USB-C where possible to avoid needing extra adapters in your field kit." }],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $217",
+          "Samsung T7 Portable SSD 1TB Titan Gray"
+        ],
+        [
+          "Mid-range",
+          "Transcend ESD310 1TB External SSD"
+        ],
+        [
+          "No firm budget ceiling, prioritizing speed or NAND quality",
+          "SANDISK 2TB Extreme Portable SSD"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Match Your Priority to a Specific Standalone Pick",
-    table: { headers: ["Your priority", "Recommended pick"], rows: [["Rugged destination drive for field use", "SanDisk Extreme 2TB"], ["Slimmest possible field kit drive", "Samsung T7 1TB"], ["Connector flexibility across devices", "Transcend ESD310 1TB"]] },
+    "subheading": "TLC vs QLC NAND",
+    "cards": [
+      {
+        "label": "TLC NAND",
+        "text": "Better sustained write speed and longer-term endurance, especially once any onboard cache is exhausted during a large transfer. In this comparison: check each listing's specs directly, NAND type isn't always disclosed."
+      },
+      {
+        "label": "QLC NAND",
+        "text": "More capacity per dollar, at the cost of a bigger sustained-speed drop once the cache fills on long transfers. In this comparison: none explicitly confirmed in this specific roundup, check the listing before assuming."
+      }
+    ],
+    "note": "NAND type isn't explicitly confirmed for every pick here, check each specific listing's technical details if sustained speed matters to your workflow."
+  },
+  {
+    "subheading": "Rugged/Waterproof vs Standard Build",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Drop and water resistance for field use",
+          "SANDISK 2TB Extreme Portable SSD"
+        ],
+        [
+          "Slimmest, lightest everyday carry",
+          "Samsung T7 Portable SSD 1TB Titan Gray"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Large Sustained Transfers (Video Editing) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "TLC NAND specifically, a stated sustained write speed (not just the peak burst number), and a USB generation on both drive and host that actually supports the rated speed."
+      },
+      {
+        "label": "In this comparison",
+        "text": "SANDISK 2TB Extreme Portable SSD fits this specifically: Reliable destination drive for offloaded camera media."
+      }
+    ]
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "Samsung T7 Portable SSD 1TB Titan Gray"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "SANDISK 2TB Extreme Portable SSD"
+        ]
+      ]
+    }
   }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm whether a drive genuinely includes a card reader before buying", explanation: "Combo SD-reader-and-SSD products are a genuinely small category, verify the actual listing includes a real integrated card slot rather than assuming from the product name." },
-  { criterion: "Match a separate card reader's speed to your card type", explanation: "A UHS-II card needs a UHS-II rated reader to reach full speed, a mismatched cheaper reader will bottleneck a faster card." },
-  { criterion: "Consider a multi-format reader if you shoot multiple card types", explanation: "A reader supporting SD, microSD, and CFexpress in one unit reduces the number of separate devices in your field kit." },
-  { criterion: "Choose a standalone destination drive with enough capacity", explanation: "Since offloaded footage accumulates over a shoot, prioritize a standalone drive with real headroom over the card's own capacity." },
-  { criterion: "Match connector types across your reader, drive, and computer", explanation: "Matching USB-C throughout your kit reduces the number of adapters and potential points of failure in the field." }
+  {
+    "criterion": "Plan around real usable capacity, not the number printed on the box",
+    "explanation": "Storage manufacturers advertise capacity in decimal gigabytes and terabytes (1 GB equals 1,000,000,000 bytes), but operating systems report free space in binary units (1 GB equals 1,073,741,824 bytes), and on top of that gap, formatting itself consumes a further slice of raw capacity for the file system's own bookkeeping.\n\nTogether these two factors mean a drive advertised as 1TB will typically show up as roughly 930GB in your file explorer, a genuinely predictable shortfall rather than a defect, but one that catches buyers off guard if they plan their storage needs around the advertised round number.\n\nBefore buying, mentally subtract roughly 7 percent from the advertised capacity to estimate real usable space, and size up a tier if your actual storage need is close to the advertised number rather than comfortably under it."
+  },
+  {
+    "criterion": "Check the NAND flash type where the manufacturer discloses it",
+    "explanation": "NAND flash memory, the actual chip technology storing your data, comes in different types based on how many bits each memory cell stores, with TLC (three bits per cell) generally offering better sustained write speed and longer-term endurance than QLC (four bits per cell), which packs more capacity per chip but at the cost of slower performance once any built-in cache is exhausted.\n\nThis matters concretely because many drives use a small pool of faster cache memory to accelerate the beginning of a transfer, and once that cache fills during a large or sustained copy, the drive falls back to its native NAND speed, which is a much bigger drop on a QLC drive than a TLC one, sometimes cutting write speed by more than half.\n\nManufacturers don't always advertise NAND type prominently, so check the product listing's technical details or search the model number alongside \"NAND type\" before assuming a drive uses the faster TLC type."
+  },
+  {
+    "criterion": "Confirm your device's actual port and cable support the drive's rated speed",
+    "explanation": "A portable SSD's rated speed, such as 1050MB/s or 2000MB/s, is the maximum the drive's own controller can achieve, but real-world speed is always capped by the slowest link in the chain: the drive itself, the cable connecting it, and the port on your computer or console, whichever of the three supports the lowest maximum speed.\n\nThis means a genuinely fast 2000MB/s-rated drive plugged into an older USB 3.0 port, or connected with a cable rated for a lower USB generation, will perform no better than a much cheaper drive rated for that lower speed, making the expensive drive's extra speed ceiling completely wasted money in that specific setup.\n\nCheck your computer, phone, or console's actual port specification (not just its connector shape, since USB-C and USB-A shapes don't indicate speed) and confirm any cable you use is rated for that same speed tier before expecting a fast drive's full rated performance."
+  },
+  {
+    "criterion": "Understand that a drive's speed rating reflects a burst, not sustained performance",
+    "explanation": "The headline speed figure on a portable SSD's packaging is typically measured using a short benchmark that primarily tests the drive's fast cache memory, not its sustained real-world performance across a large, continuous file transfer that runs long enough to exhaust that cache.\n\nThis is the single most common reason a portable SSD feels slower in real use than its marketing suggests: copying a single large video file or a folder of thousands of photos can run well past the point where the cache empties, causing the transfer to visibly slow down partway through, something a short benchmark screenshot never reveals.\n\nIf your actual use case involves large sustained transfers, specifically look for reviews or listings that mention sustained write speed after cache exhaustion, not just the peak burst number on the box."
+  },
+  {
+    "criterion": "Compare warranty length as a genuine (if imperfect) signal of manufacturer confidence",
+    "explanation": "A storage device's warranty length, commonly ranging from one to five years across different brands and models even at similar price points, reflects the manufacturer's own actuarial confidence in how long that specific NAND and controller combination will reliably hold data, since a company offering a longer warranty is accepting more financial risk on a component they presumably trust more.\n\nThis isn't a perfect signal on its own, a shorter warranty doesn't automatically mean an unreliable drive, but at a similar price point between two otherwise comparable drives, the one backed by a longer warranty is making a more concrete promise about its own longevity rather than just a marketing claim.\n\nCheck the stated warranty length directly in the listing or manufacturer's spec sheet, and weigh it alongside NAND type and brand reputation rather than treating any single signal as decisive on its own."
+  }
 ];
 
 export const faq: FaqItem[] = [

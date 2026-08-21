@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "91,365 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41eTFK7clfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HN37XC1?tag=deskfinds0d-20",
-    description:
-      "The single largest review base of any pick in this guide by a wide margin, genuine proven reliability for the write-once/read-rarely usage pattern that defines backup use.\n\nIP65 water and dust resistance is a genuine advantage for a backup drive stored away from daily use, where physical protection matters more than raw speed for its infrequent access pattern.",
-    specs: ["Up to 1050MB/s", "IP65 water and dust resistance", "2TB capacity", "Massive review base"],
-    pros: ["Massive review base, the most-proven backup drive by a wide margin", "IP65 rating protects a drive stored away from daily handling", "Solid capacity for a genuine backup archive", "Updated firmware for improved reliability"],
-    cons: ["Not the fastest peak speed available for buyers prioritizing that instead", "This alone shouldn't be your only backup copy per the 3-2-1 strategy", "Bundled backup software quality should be verified separately"],
+    description: "The single largest review base of any pick in this guide by a wide margin, genuine proven reliability for the write-once/read-rarely usage pattern that defines backup use.\n\nIt earns the top spot in this comparison over Crucial X10 1TB Portable SSD for one main reason. Massive review base, the most-proven backup drive by a wide margin. On price, it's actually priced above Crucial X10 1TB Portable SSD, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: IP65 rating protects a drive stored away from daily handling. On the other side, Bundled backup software quality should be verified separately. That's the main tradeoff to weigh against everything above.",
+    specs: ["Up to 1050MB/s","IP65 water and dust resistance","2TB capacity","Massive review base"],
+    pros: ["Massive review base, the most-proven backup drive by a wide margin","IP65 rating protects a drive stored away from daily handling","Solid capacity for a genuine backup archive","Updated firmware for improved reliability"],
+    cons: ["Not the fastest peak speed available for buyers prioritizing that instead","This alone shouldn't be your only backup copy per the 3-2-1 strategy","Bundled backup software quality should be verified separately"],
     bestFor: "Buyers wanting the most-proven, most-reviewed backup drive available",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "2,363 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/312gFk3+1CL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F3377JBN?tag=deskfinds0d-20",
-    description:
-      "A solid review base with genuinely fast rated speed, appropriate for a backup drive that also occasionally needs faster restore access rather than pure archival cold storage.\n\nVersioned/incremental backup software benefits from consistent sustained write performance during scheduled automatic backups, this drive's fast rated speed supports that scheduled-backup workflow well.",
-    specs: ["Up to 2,100MB/s", "Cross-platform: Windows, Mac, Android", "1TB capacity", "Solid review base"],
-    pros: ["Solid review base and rating", "Fast rated speed supports scheduled incremental backup workflows", "Broad cross-platform compatibility", "Good value for the speed offered"],
-    cons: ["Smaller review base than the top pick", "No specific IP rating for physical protection during storage", "1TB capacity may be limiting for a full-system backup archive"],
+    description: "A solid review base with genuinely fast rated speed, appropriate for a backup drive that also occasionally needs faster restore access rather than pure archival cold storage.\n\nOne spot below SANDISK 2TB Extreme Portable SSD in this ranking, it's priced lower than SANDISK 2TB Extreme Portable SSD. The compromise here is straightforward: Smaller review base than the top pick. What you gain in return: Solid review base and rating. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Fast rated speed supports scheduled incremental backup workflows. On the other side, 1TB capacity may be limiting for a full-system backup archive. That's the main tradeoff to weigh against everything above.",
+    specs: ["Up to 2,100MB/s","Cross-platform: Windows, Mac, Android","1TB capacity","Solid review base"],
+    pros: ["Solid review base and rating","Fast rated speed supports scheduled incremental backup workflows","Broad cross-platform compatibility","Good value for the speed offered"],
+    cons: ["Smaller review base than the top pick","No specific IP rating for physical protection during storage","1TB capacity may be limiting for a full-system backup archive"],
     bestFor: "Buyers wanting fast scheduled backup performance, not just cold archival storage",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "21,124 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31LdvAbumfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874XN4D8?tag=deskfinds0d-20",
-    description:
-      "A large, well-established review base from an established SSD brand, backup software compatibility with native OS tools has been broadly documented across a large user base.\n\nLong-term unpowered data retention, relevant for cold backup copies sitting unused for months or years, is a genuine spec worth checking directly with Samsung's published drive specifications for this model.",
-    specs: ["Up to 1,050MB/s", "USB 3.2 Gen 2", "1TB capacity", "Large, established review base"],
-    pros: ["Large, well-established review base", "Established Samsung SSD brand reliability", "Broadly documented compatibility with native OS backup tools", "Solid rated speed for regular backup use"],
-    cons: ["No specific IP rating disclosed for physical protection", "Long-term unpowered retention spec should be verified directly", "Not the largest capacity option for a full backup archive"],
+    description: "A large, well-established review base from an established SSD brand, backup software compatibility with native OS tools has been broadly documented across a large user base.\n\nSitting just under Crucial X10 1TB Portable SSD, it costs more than Crucial X10 1TB Portable SSD. Here's the honest tradeoff: No specific IP rating disclosed for physical protection. And here's what it gets you instead: Large, well-established review base. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Established Samsung SSD brand reliability. On the other side, Not the largest capacity option for a full backup archive. That's the main tradeoff to weigh against everything above.",
+    specs: ["Up to 1,050MB/s","USB 3.2 Gen 2","1TB capacity","Large, established review base"],
+    pros: ["Large, well-established review base","Established Samsung SSD brand reliability","Broadly documented compatibility with native OS backup tools","Solid rated speed for regular backup use"],
+    cons: ["No specific IP rating disclosed for physical protection","Long-term unpowered retention spec should be verified directly","Not the largest capacity option for a full backup archive"],
     bestFor: "Buyers wanting an established SSD brand with broad OS backup tool compatibility",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "3,542 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31PngdJb7FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGL4SHY8?tag=deskfinds0d-20",
-    description:
-      "The most affordable pick in this guide with a solid review base, appropriate as one of the multiple copies in a genuine 3-2-1 backup strategy rather than a single standalone solution.\n\nThe 3-2-1 backup strategy, 3 copies, 2 different media types, 1 offsite, is standard best practice, this drive's affordability makes it practical to buy a second unit for true redundancy.",
-    specs: ["Up to 1,050MB/s", "USB-C", "1TB capacity", "Solid review base"],
-    pros: ["Most affordable pick in this guide", "Solid review base for the price point", "Affordable enough to buy a second unit for genuine redundancy", "Reasonable rated speed for regular backup use"],
-    cons: ["Smaller review base than the top established picks", "No specific IP rating for physical protection", "Bundled software quality should be verified before relying on it exclusively"],
+    description: "The most affordable pick in this guide with a solid review base, appropriate as one of the multiple copies in a genuine 3-2-1 backup strategy rather than a single standalone solution.\n\nRanked just behind Samsung T7 Portable SSD 1TB Titan Gray, it's priced lower than Samsung T7 Portable SSD 1TB Titan Gray. The real tradeoff against that pick: Smaller review base than the top established picks. In exchange, it offers this instead: Most affordable pick in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Solid review base for the price point. On the other side, Bundled software quality should be verified before relying on it exclusively. That's the main tradeoff to weigh against everything above.",
+    specs: ["Up to 1,050MB/s","USB-C","1TB capacity","Solid review base"],
+    pros: ["Most affordable pick in this guide","Solid review base for the price point","Affordable enough to buy a second unit for genuine redundancy","Reasonable rated speed for regular backup use"],
+    cons: ["Smaller review base than the top established picks","No specific IP rating for physical protection","Bundled software quality should be verified before relying on it exclusively"],
     bestFor: "Buyers wanting an affordable second or third copy for a genuine 3-2-1 backup strategy",
   },
   {
@@ -98,13 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "91 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41UpTn5oveL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GMWYYRQL?tag=deskfinds0d-20",
-    description:
-      "A newer model variant from SanDisk's proven Extreme line, up to 2000MB/s, nearly double the older model's rated speed, a genuine improvement for faster scheduled backup windows.\n\nAs a newer release, this carries a much smaller review base than the older model in this same guide, weigh the faster spec against the older model's much larger proven track record.",
-    specs: ["Up to 2000MB/s (newer model)", "USB Type-C connectivity", "1TB capacity", "Newer release, smaller review base"],
-    pros: ["Genuinely faster rated speed than the older SanDisk Extreme model", "From SanDisk's proven Extreme product line", "Reliable durability claims from an established brand", "Faster backup windows for time-sensitive scheduled backups"],
-    cons: ["Much smaller review base than the older model in this same line", "As a newer release, less long-term real-world evidence exists yet", "Priced close to the far more proven older model"],
+    description: "A newer model variant from SanDisk's proven Extreme line, up to 2000MB/s, nearly double the older model's rated speed, a genuine improvement for faster scheduled backup windows.\n\nOne spot below SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s in this ranking, it costs more than SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s. The compromise here is straightforward: Much smaller review base than the older model in this same line. What you gain in return: Genuinely faster rated speed than the older SanDisk Extreme model. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: From SanDisk's proven Extreme product line. On the other side, Priced close to the far more proven older model. That's the main tradeoff to weigh against everything above.",
+    specs: ["Up to 2000MB/s (newer model)","USB Type-C connectivity","1TB capacity","Newer release, smaller review base"],
+    pros: ["Genuinely faster rated speed than the older SanDisk Extreme model","From SanDisk's proven Extreme product line","Reliable durability claims from an established brand","Faster backup windows for time-sensitive scheduled backups"],
+    cons: ["Much smaller review base than the older model in this same line","As a newer release, less long-term real-world evidence exists yet","Priced close to the far more proven older model"],
     bestFor: "Buyers wanting faster scheduled backup windows from a newer SanDisk model",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,24 +113,135 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "One Portable SSD Is Not a Complete Backup Strategy",
-    note: "The 3-2-1 backup strategy, 3 copies of your data, 2 different media types, 1 copy offsite, is standard backup best practice. A single portable SSD, however reliable, should be one piece of this framework, not your only backup copy.",
+    "subheading": "By Capacity",
+    "table": {
+      "headers": [
+        "Your storage need",
+        "Recommended pick in this comparison"
+      ],
+      "rows": [
+        [
+          "Lightest everyday storage needs",
+          "Crucial X10 1TB Portable SSD"
+        ],
+        [
+          "Large media libraries or video work",
+          "SANDISK 2TB Extreme Portable SSD"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Endurance Matters More Than Peak Speed for Backup Use",
-    note: "Backup use benefits from write-once/read-rarely usage patterns similar to long-term archival storage. Prioritize TBW/endurance-weighted criteria over the speed-focused specs that dominate most portable SSD marketing, since you're not accessing this drive constantly.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $144",
+          "SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s"
+        ],
+        [
+          "Mid-range",
+          "Samsung T7 Portable SSD 1TB Titan Gray"
+        ],
+        [
+          "No firm budget ceiling, prioritizing speed or NAND quality",
+          "SANDISK 2TB Extreme Portable SSD"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Verify Bundled Backup Software Before Relying on It",
-    note: "Backup software compatibility, native OS tools versus third-party bundled software, varies significantly between products. Test or research the bundled software's actual reliability before making it the sole mechanism for your scheduled backups.",
+    "subheading": "TLC vs QLC NAND",
+    "cards": [
+      {
+        "label": "TLC NAND",
+        "text": "Better sustained write speed and longer-term endurance, especially once any onboard cache is exhausted during a large transfer. In this comparison: check each listing's specs directly, NAND type isn't always disclosed."
+      },
+      {
+        "label": "QLC NAND",
+        "text": "More capacity per dollar, at the cost of a bigger sustained-speed drop once the cache fills on long transfers. In this comparison: none explicitly confirmed in this specific roundup, check the listing before assuming."
+      }
+    ],
+    "note": "NAND type isn't explicitly confirmed for every pick here, check each specific listing's technical details if sustained speed matters to your workflow."
   },
+  {
+    "subheading": "Rugged/Waterproof vs Standard Build",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Drop and water resistance for field use",
+          "SANDISK 2TB Extreme Portable SSD"
+        ],
+        [
+          "Slimmest, lightest everyday carry",
+          "Crucial X10 1TB Portable SSD"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Large Sustained Transfers (Video Editing) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "TLC NAND specifically, a stated sustained write speed (not just the peak burst number), and a USB generation on both drive and host that actually supports the rated speed."
+      },
+      {
+        "label": "In this comparison",
+        "text": "SANDISK 1TB Extreme Portable SSD fits this specifically: Genuinely faster rated speed than the older SanDisk Extreme model."
+      }
+    ]
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "Samsung T7 Portable SSD 1TB Titan Gray"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "SANDISK 2TB Extreme Portable SSD"
+        ]
+      ]
+    }
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "A single portable SSD isn't a complete backup strategy", explanation: "Follow the 3-2-1 framework, 3 copies, 2 media types, 1 offsite, rather than treating one drive as your only backup solution." },
-  { criterion: "Endurance matters more than peak speed for backup use", explanation: "Write-once/read-rarely usage patterns benefit more from TBW/endurance-weighted criteria than the speed-focused specs common to most portable SSD marketing." },
-  { criterion: "Verify bundled backup software reliability before depending on it", explanation: "Bundled backup software quality varies significantly between products, test it or research reviews before making it your sole scheduled backup mechanism." },
-  { criterion: "Long-term unpowered retention matters for cold backup copies", explanation: "A drive sitting unused for months or years benefits from genuine long-term data retention specs, distinct from active-use endurance ratings that assume regular power cycling." },
+  {
+    "criterion": "Plan around real usable capacity, not the number printed on the box",
+    "explanation": "Storage manufacturers advertise capacity in decimal gigabytes and terabytes (1 GB equals 1,000,000,000 bytes), but operating systems report free space in binary units (1 GB equals 1,073,741,824 bytes), and on top of that gap, formatting itself consumes a further slice of raw capacity for the file system's own bookkeeping.\n\nTogether these two factors mean a drive advertised as 1TB will typically show up as roughly 930GB in your file explorer, a genuinely predictable shortfall rather than a defect, but one that catches buyers off guard if they plan their storage needs around the advertised round number.\n\nBefore buying, mentally subtract roughly 7 percent from the advertised capacity to estimate real usable space, and size up a tier if your actual storage need is close to the advertised number rather than comfortably under it."
+  },
+  {
+    "criterion": "Check the NAND flash type where the manufacturer discloses it",
+    "explanation": "NAND flash memory, the actual chip technology storing your data, comes in different types based on how many bits each memory cell stores, with TLC (three bits per cell) generally offering better sustained write speed and longer-term endurance than QLC (four bits per cell), which packs more capacity per chip but at the cost of slower performance once any built-in cache is exhausted.\n\nThis matters concretely because many drives use a small pool of faster cache memory to accelerate the beginning of a transfer, and once that cache fills during a large or sustained copy, the drive falls back to its native NAND speed, which is a much bigger drop on a QLC drive than a TLC one, sometimes cutting write speed by more than half.\n\nManufacturers don't always advertise NAND type prominently, so check the product listing's technical details or search the model number alongside \"NAND type\" before assuming a drive uses the faster TLC type."
+  },
+  {
+    "criterion": "Confirm your device's actual port and cable support the drive's rated speed",
+    "explanation": "A portable SSD's rated speed, such as 1050MB/s or 2000MB/s, is the maximum the drive's own controller can achieve, but real-world speed is always capped by the slowest link in the chain: the drive itself, the cable connecting it, and the port on your computer or console, whichever of the three supports the lowest maximum speed.\n\nThis means a genuinely fast 2000MB/s-rated drive plugged into an older USB 3.0 port, or connected with a cable rated for a lower USB generation, will perform no better than a much cheaper drive rated for that lower speed, making the expensive drive's extra speed ceiling completely wasted money in that specific setup.\n\nCheck your computer, phone, or console's actual port specification (not just its connector shape, since USB-C and USB-A shapes don't indicate speed) and confirm any cable you use is rated for that same speed tier before expecting a fast drive's full rated performance."
+  },
+  {
+    "criterion": "Understand that a drive's speed rating reflects a burst, not sustained performance",
+    "explanation": "The headline speed figure on a portable SSD's packaging is typically measured using a short benchmark that primarily tests the drive's fast cache memory, not its sustained real-world performance across a large, continuous file transfer that runs long enough to exhaust that cache.\n\nThis is the single most common reason a portable SSD feels slower in real use than its marketing suggests: copying a single large video file or a folder of thousands of photos can run well past the point where the cache empties, causing the transfer to visibly slow down partway through, something a short benchmark screenshot never reveals.\n\nIf your actual use case involves large sustained transfers, specifically look for reviews or listings that mention sustained write speed after cache exhaustion, not just the peak burst number on the box."
+  },
+  {
+    "criterion": "Compare warranty length as a genuine (if imperfect) signal of manufacturer confidence",
+    "explanation": "A storage device's warranty length, commonly ranging from one to five years across different brands and models even at similar price points, reflects the manufacturer's own actuarial confidence in how long that specific NAND and controller combination will reliably hold data, since a company offering a longer warranty is accepting more financial risk on a component they presumably trust more.\n\nThis isn't a perfect signal on its own, a shorter warranty doesn't automatically mean an unreliable drive, but at a similar price point between two otherwise comparable drives, the one backed by a longer warranty is making a more concrete promise about its own longevity rather than just a marketing claim.\n\nCheck the stated warranty length directly in the listing or manufacturer's spec sheet, and weigh it alongside NAND type and brand reputation rather than treating any single signal as decisive on its own."
+  }
 ];
 
 export const faq: FaqItem[] = [

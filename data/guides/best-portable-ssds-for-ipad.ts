@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "2,340 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31HBU-HAxoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C3B32H9M?tag=deskfinds0d-20",
-    description:
-      "Explicitly marketed for iPad compatibility with a dual USB Type-C and Type-A connector, a solid review base backing this as a proven pick specifically for Apple's iPadOS Files app ecosystem.\n\niPadOS file management has historically had more limited external drive support than macOS, verify your current iPadOS version's actual read/write capability for this specific drive rather than assuming full desktop-level access.",
-    specs: ["Dual USB Type-C and Type-A connectors", "Up to 1,050MB/s", "Explicitly marketed for iPad", "1TB capacity"],
-    pros: ["Explicitly marketed and tested for iPad compatibility", "Dual connector design suits various iPad generations", "Solid review base for this specific use case", "Broad additional device compatibility"],
-    cons: ["Verify read/write vs. read-only access for your specific iPad model and iPadOS version", "Video editing app compatibility should be checked separately for direct-editing workflows", "Power draw impact on iPad battery not independently benchmarked here"],
+    description: "Explicitly marketed for iPad compatibility with a dual USB Type-C and Type-A connector, a solid review base backing this as a proven pick specifically for Apple's iPadOS Files app ecosystem.\n\nIt earns the top spot in this comparison over Samsung T7 Portable SSD 1TB Titan Gray for one main reason. Explicitly marketed and tested for iPad compatibility. On price, it's actually priced above Samsung T7 Portable SSD 1TB Titan Gray, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Dual connector design suits various iPad generations. On the other side, Power draw impact on iPad battery not independently benchmarked here. That's the main tradeoff to weigh against everything above.",
+    specs: ["Dual USB Type-C and Type-A connectors","Up to 1,050MB/s","Explicitly marketed for iPad","1TB capacity"],
+    pros: ["Explicitly marketed and tested for iPad compatibility","Dual connector design suits various iPad generations","Solid review base for this specific use case","Broad additional device compatibility"],
+    cons: ["Verify read/write vs. read-only access for your specific iPad model and iPadOS version","Video editing app compatibility should be checked separately for direct-editing workflows","Power draw impact on iPad battery not independently benchmarked here"],
     bestFor: "Buyers wanting a drive explicitly marketed and tested for iPad compatibility",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "21,124 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31LdvAbumfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874XN4D8?tag=deskfinds0d-20",
-    description:
-      "A large, well-established review base from an established SSD brand, genuinely broad USB-C compatibility across many iPad generations and other devices.\n\nVideo editing apps on iPad, LumaFusion, Final Cut for iPad, direct-external-drive-editing capability should be verified, since not all iPad video apps support external drive project files equally well.",
-    specs: ["Up to 1,050MB/s", "USB 3.2 Gen 2", "1TB capacity", "Large, established review base"],
-    pros: ["Large, well-established review base", "Established Samsung SSD brand reliability", "Broad USB-C compatibility across iPad generations", "Solid rated speed for file transfer and storage"],
-    cons: ["Not explicitly marketed for iPad specifically like the top pick", "Verify direct video-editing-app compatibility for your specific app", "Power draw impact on iPad battery not independently benchmarked"],
+    description: "A large, well-established review base from an established SSD brand, genuinely broad USB-C compatibility across many iPad generations and other devices.\n\nOne spot below Transcend ESD310 1TB External SSD in this ranking, it's priced lower than Transcend ESD310 1TB External SSD. The compromise here is straightforward: Not explicitly marketed for iPad specifically like the top pick. What you gain in return: Large, well-established review base. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Established Samsung SSD brand reliability. On the other side, Power draw impact on iPad battery not independently benchmarked. That's the main tradeoff to weigh against everything above.",
+    specs: ["Up to 1,050MB/s","USB 3.2 Gen 2","1TB capacity","Large, established review base"],
+    pros: ["Large, well-established review base","Established Samsung SSD brand reliability","Broad USB-C compatibility across iPad generations","Solid rated speed for file transfer and storage"],
+    cons: ["Not explicitly marketed for iPad specifically like the top pick","Verify direct video-editing-app compatibility for your specific app","Power draw impact on iPad battery not independently benchmarked"],
     bestFor: "Buyers wanting an established SSD brand with broad USB-C iPad compatibility",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "3,542 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31PngdJb7FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGL4SHY8?tag=deskfinds0d-20",
-    description:
-      "The most affordable pick in this guide with a solid review base, appropriate for an iPad user wanting basic file storage and Files app access rather than demanding direct video editing workflows.\n\nPower draw from this bus-powered SSD affects the iPad's own battery more noticeably than a laptop given the iPad's smaller battery capacity, budget-friendly doesn't always mean lower power draw, check current reviews for real battery-impact feedback.",
-    specs: ["Up to 1,050MB/s", "USB-C", "1TB capacity", "Solid review base"],
-    pros: ["Most affordable pick in this guide", "Solid review base for the price point", "Adequate for basic Files app storage and transfer", "Reasonable rated speed"],
-    cons: ["Smaller review base than the top established picks", "Verify read/write vs. read-only access for your specific iPadOS version", "Not explicitly tested for direct video-editing workflows"],
+    description: "The most affordable pick in this guide with a solid review base, appropriate for an iPad user wanting basic file storage and Files app access rather than demanding direct video editing workflows.\n\nSitting just under Samsung T7 Portable SSD 1TB Titan Gray, it's priced lower than Samsung T7 Portable SSD 1TB Titan Gray. Here's the honest tradeoff: Smaller review base than the top established picks. And here's what it gets you instead: Most affordable pick in this guide. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Solid review base for the price point. On the other side, Not explicitly tested for direct video-editing workflows. That's the main tradeoff to weigh against everything above.",
+    specs: ["Up to 1,050MB/s","USB-C","1TB capacity","Solid review base"],
+    pros: ["Most affordable pick in this guide","Solid review base for the price point","Adequate for basic Files app storage and transfer","Reasonable rated speed"],
+    cons: ["Smaller review base than the top established picks","Verify read/write vs. read-only access for your specific iPadOS version","Not explicitly tested for direct video-editing workflows"],
     bestFor: "Budget-conscious iPad users wanting basic Files app storage",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "91,365 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41eTFK7clfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HN37XC1?tag=deskfinds0d-20",
-    description:
-      "The single largest review base of any pick in this guide by a wide margin, IP65 dust and water resistance genuinely useful for an iPad user working on location or outdoors.\n\niPad models vary in whether they support full external drive read/write or read-only access, this drive's massive review base includes extensive real-world evidence across many different iPad generations and OS versions.",
-    specs: ["Rated IP65 water and dust resistance", "Up to 1050MB/s", "Massive review base", "2TB capacity"],
-    pros: ["Massive review base, the most-proven iPad-compatible drive available", "IP65 rating suits location work and outdoor use", "Extensive real-world evidence across iPad generations", "2TB capacity for larger video projects"],
-    cons: ["Higher price than the budget picks in this guide", "Verify direct-editing-app compatibility for your specific workflow", "Power draw impact on iPad battery not independently benchmarked"],
+    description: "The single largest review base of any pick in this guide by a wide margin, IP65 dust and water resistance genuinely useful for an iPad user working on location or outdoors.\n\nRanked just behind SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s, it costs more than SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s. The real tradeoff against that pick: Higher price than the budget picks in this guide. In exchange, it offers this instead: Massive review base, the most-proven iPad-compatible drive available. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: IP65 rating suits location work and outdoor use. On the other side, Power draw impact on iPad battery not independently benchmarked. That's the main tradeoff to weigh against everything above.",
+    specs: ["Rated IP65 water and dust resistance","Up to 1050MB/s","Massive review base","2TB capacity"],
+    pros: ["Massive review base, the most-proven iPad-compatible drive available","IP65 rating suits location work and outdoor use","Extensive real-world evidence across iPad generations","2TB capacity for larger video projects"],
+    cons: ["Higher price than the budget picks in this guide","Verify direct-editing-app compatibility for your specific workflow","Power draw impact on iPad battery not independently benchmarked"],
     bestFor: "iPad users working on location wanting a rugged, proven drive",
   },
   {
@@ -98,13 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "10,968 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41-T4nAAufL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5JQ68FY?tag=deskfinds0d-20",
-    description:
-      "A large review base at a genuinely more accessible price than the Extreme line, appropriate for an iPad user with typical file storage and moderate transfer needs.\n\nThis article's cross-reference to earlier iPad chip-tier and Stage Manager research applies here too, an iPad's underlying chip generation affects real-world file transfer and multitasking performance with an external drive connected.",
-    specs: ["Up to 800MB/s", "USB-C, USB 3.2 Gen 2", "1TB capacity", "Large review base"],
-    pros: ["Large, well-established review base", "Genuinely more accessible price than the Extreme line", "Adequate speed for typical iPad file storage needs", "Updated firmware for improved reliability"],
-    cons: ["Lower rated speed than the Extreme line", "No specific IP rating for location or outdoor work", "Verify read/write vs. read-only access for your specific iPadOS version"],
+    description: "A large review base at a genuinely more accessible price than the Extreme line, appropriate for an iPad user with typical file storage and moderate transfer needs.\n\nOne spot below SANDISK 2TB Extreme Portable SSD in this ranking, it's priced lower than SANDISK 2TB Extreme Portable SSD. The compromise here is straightforward: Lower rated speed than the Extreme line. What you gain in return: Large, well-established review base. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Genuinely more accessible price than the Extreme line. On the other side, Verify read/write vs. read-only access for your specific iPadOS version. That's the main tradeoff to weigh against everything above.",
+    specs: ["Up to 800MB/s","USB-C, USB 3.2 Gen 2","1TB capacity","Large review base"],
+    pros: ["Large, well-established review base","Genuinely more accessible price than the Extreme line","Adequate speed for typical iPad file storage needs","Updated firmware for improved reliability"],
+    cons: ["Lower rated speed than the Extreme line","No specific IP rating for location or outdoor work","Verify read/write vs. read-only access for your specific iPadOS version"],
     bestFor: "iPad users wanting a value-priced drive for typical file storage needs",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,24 +113,135 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Check Whether Your iPad Gets Full Access or Read-Only",
-    note: "USB-C iPad models vary in whether they support full external drive read/write or read-only access within certain apps. Verify actual read/write capability per your specific iPad model and current iPadOS version rather than assuming universal full desktop-level access.",
+    "subheading": "By Capacity",
+    "table": {
+      "headers": [
+        "Your storage need",
+        "Recommended pick in this comparison"
+      ],
+      "rows": [
+        [
+          "Lightest everyday storage needs",
+          "Transcend ESD310 1TB External SSD"
+        ],
+        [
+          "Large media libraries or video work",
+          "SANDISK 2TB Extreme Portable SSD"
+        ]
+      ]
+    }
   },
   {
-    subheading: "A Bus-Powered Drive Drains iPad Battery More Noticeably Than a Laptop",
-    note: "Power draw from a bus-powered SSD affects an iPad's own battery more noticeably than a laptop given the iPad's smaller battery capacity. If you'll use the drive for extended sessions away from a charger, this is a real consideration worth weighing.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $144",
+          "SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s"
+        ],
+        [
+          "Mid-range",
+          "Samsung T7 Portable SSD 1TB Titan Gray"
+        ],
+        [
+          "No firm budget ceiling, prioritizing speed or NAND quality",
+          "SANDISK 2TB Extreme Portable SSD"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Verify Your Video Editing App's External Drive Support",
-    note: "Video editing apps on iPad, LumaFusion, Final Cut for iPad, direct-external-drive-editing capability should be verified, since not all iPad video apps support external drive project files equally well. Check your specific app's documentation before planning a workflow around external drive editing.",
+    "subheading": "TLC vs QLC NAND",
+    "cards": [
+      {
+        "label": "TLC NAND",
+        "text": "Better sustained write speed and longer-term endurance, especially once any onboard cache is exhausted during a large transfer. In this comparison: check each listing's specs directly, NAND type isn't always disclosed."
+      },
+      {
+        "label": "QLC NAND",
+        "text": "More capacity per dollar, at the cost of a bigger sustained-speed drop once the cache fills on long transfers. In this comparison: none explicitly confirmed in this specific roundup, check the listing before assuming."
+      }
+    ],
+    "note": "NAND type isn't explicitly confirmed for every pick here, check each specific listing's technical details if sustained speed matters to your workflow."
   },
+  {
+    "subheading": "Rugged/Waterproof vs Standard Build",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Drop and water resistance for field use",
+          "SANDISK 2TB Extreme Portable SSD"
+        ],
+        [
+          "Slimmest, lightest everyday carry",
+          "Transcend ESD310 1TB External SSD"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Large Sustained Transfers (Video Editing) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "TLC NAND specifically, a stated sustained write speed (not just the peak burst number), and a USB generation on both drive and host that actually supports the rated speed."
+      },
+      {
+        "label": "In this comparison",
+        "text": "SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s fits this specifically: Most affordable pick in this guide."
+      }
+    ]
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "Samsung T7 Portable SSD 1TB Titan Gray"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "SANDISK 2TB Extreme Portable SSD"
+        ]
+      ]
+    }
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "iPad models vary between full read/write and read-only access", explanation: "Verify actual read/write capability per your specific iPad model and current iPadOS version rather than assuming universal full desktop-level access." },
-  { criterion: "A bus-powered SSD drains iPad battery more noticeably than a laptop", explanation: "The iPad's smaller battery capacity means external drive power draw is more noticeable, a real consideration for extended sessions away from a charger." },
-  { criterion: "Verify your video editing app's external drive support separately", explanation: "Not all iPad video apps support external drive project files equally well, check LumaFusion or Final Cut for iPad's specific documentation before planning that workflow." },
-  { criterion: "Cross-reference iPad chip generation for real transfer performance", explanation: "An iPad's underlying chip generation affects real-world file transfer and multitasking performance with an external drive connected, not just the drive's own rated speed." },
+  {
+    "criterion": "Plan around real usable capacity, not the number printed on the box",
+    "explanation": "Storage manufacturers advertise capacity in decimal gigabytes and terabytes (1 GB equals 1,000,000,000 bytes), but operating systems report free space in binary units (1 GB equals 1,073,741,824 bytes), and on top of that gap, formatting itself consumes a further slice of raw capacity for the file system's own bookkeeping.\n\nTogether these two factors mean a drive advertised as 1TB will typically show up as roughly 930GB in your file explorer, a genuinely predictable shortfall rather than a defect, but one that catches buyers off guard if they plan their storage needs around the advertised round number.\n\nBefore buying, mentally subtract roughly 7 percent from the advertised capacity to estimate real usable space, and size up a tier if your actual storage need is close to the advertised number rather than comfortably under it."
+  },
+  {
+    "criterion": "Check the NAND flash type where the manufacturer discloses it",
+    "explanation": "NAND flash memory, the actual chip technology storing your data, comes in different types based on how many bits each memory cell stores, with TLC (three bits per cell) generally offering better sustained write speed and longer-term endurance than QLC (four bits per cell), which packs more capacity per chip but at the cost of slower performance once any built-in cache is exhausted.\n\nThis matters concretely because many drives use a small pool of faster cache memory to accelerate the beginning of a transfer, and once that cache fills during a large or sustained copy, the drive falls back to its native NAND speed, which is a much bigger drop on a QLC drive than a TLC one, sometimes cutting write speed by more than half.\n\nManufacturers don't always advertise NAND type prominently, so check the product listing's technical details or search the model number alongside \"NAND type\" before assuming a drive uses the faster TLC type."
+  },
+  {
+    "criterion": "Confirm your device's actual port and cable support the drive's rated speed",
+    "explanation": "A portable SSD's rated speed, such as 1050MB/s or 2000MB/s, is the maximum the drive's own controller can achieve, but real-world speed is always capped by the slowest link in the chain: the drive itself, the cable connecting it, and the port on your computer or console, whichever of the three supports the lowest maximum speed.\n\nThis means a genuinely fast 2000MB/s-rated drive plugged into an older USB 3.0 port, or connected with a cable rated for a lower USB generation, will perform no better than a much cheaper drive rated for that lower speed, making the expensive drive's extra speed ceiling completely wasted money in that specific setup.\n\nCheck your computer, phone, or console's actual port specification (not just its connector shape, since USB-C and USB-A shapes don't indicate speed) and confirm any cable you use is rated for that same speed tier before expecting a fast drive's full rated performance."
+  },
+  {
+    "criterion": "Understand that a drive's speed rating reflects a burst, not sustained performance",
+    "explanation": "The headline speed figure on a portable SSD's packaging is typically measured using a short benchmark that primarily tests the drive's fast cache memory, not its sustained real-world performance across a large, continuous file transfer that runs long enough to exhaust that cache.\n\nThis is the single most common reason a portable SSD feels slower in real use than its marketing suggests: copying a single large video file or a folder of thousands of photos can run well past the point where the cache empties, causing the transfer to visibly slow down partway through, something a short benchmark screenshot never reveals.\n\nIf your actual use case involves large sustained transfers, specifically look for reviews or listings that mention sustained write speed after cache exhaustion, not just the peak burst number on the box."
+  },
+  {
+    "criterion": "Compare warranty length as a genuine (if imperfect) signal of manufacturer confidence",
+    "explanation": "A storage device's warranty length, commonly ranging from one to five years across different brands and models even at similar price points, reflects the manufacturer's own actuarial confidence in how long that specific NAND and controller combination will reliably hold data, since a company offering a longer warranty is accepting more financial risk on a component they presumably trust more.\n\nThis isn't a perfect signal on its own, a shorter warranty doesn't automatically mean an unreliable drive, but at a similar price point between two otherwise comparable drives, the one backed by a longer warranty is making a more concrete promise about its own longevity rather than just a marketing claim.\n\nCheck the stated warranty length directly in the listing or manufacturer's spec sheet, and weigh it alongside NAND type and brand reputation rather than treating any single signal as decisive on its own."
+  }
 ];
 
 export const faq: FaqItem[] = [

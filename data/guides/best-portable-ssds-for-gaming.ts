@@ -29,11 +29,10 @@ export const products: GuideProduct[] = [
     reviews: "21,124 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31LdvAbumfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874XN4D8?tag=deskfinds0d-20",
-    description:
-      "Samsung's T7 pairs reliable 1050MB/s speed with a slim, desk-friendly design, a solid all-around choice for PC gamers who want to offload part of a Steam or Epic library.\n\nSteam's library migration tool can move installed games between drives without a full reinstall, a real convenience worth using once this drive is set up alongside your main system drive.",
-    specs: ["1TB capacity", "Up to 1050MB/s rated", "USB 3.2 Gen 2", "Slim metal body"],
-    pros: ["Solid read speed for real-world load-time improvement", "Slim design fits well in a PC gaming desk setup", "Reliable, widely reviewed platform", "Compatible with Steam's library migration tool"],
-    cons: ["1050MB/s ceiling trails the fastest gaming-oriented drives", "No official IP rating", "1TB fills quickly with modern 100GB-plus game titles"],
+    description: "Samsung's T7 pairs reliable 1050MB/s speed with a slim, desk-friendly design, a solid all-around choice for PC gamers who want to offload part of a Steam or Epic library.\n\nIt earns the top spot in this comparison over Samsung T7 Shield Portable SSD 1TB for one main reason. Solid read speed for real-world load-time improvement. On price, it comes in below Samsung T7 Shield Portable SSD 1TB, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Slim design fits well in a PC gaming desk setup. On the other side, 1TB fills quickly with modern 100GB-plus game titles. That's the main tradeoff to weigh against everything above.",
+    specs: ["1TB capacity","Up to 1050MB/s rated","USB 3.2 Gen 2","Slim metal body"],
+    pros: ["Solid read speed for real-world load-time improvement","Slim design fits well in a PC gaming desk setup","Reliable, widely reviewed platform","Compatible with Steam's library migration tool"],
+    cons: ["1050MB/s ceiling trails the fastest gaming-oriented drives","No official IP rating","1TB fills quickly with modern 100GB-plus game titles"],
     bestFor: "PC gamers wanting a reliable all-around library expansion drive",
   },
   {
@@ -46,11 +45,10 @@ export const products: GuideProduct[] = [
     reviews: "16,380 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/21mARCvUWxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VLK9W3S?tag=deskfinds0d-20",
-    description:
-      "Samsung's T7 Shield adds rugged protection to the same reliable 1050MB/s speed, useful for PC gamers who bring a laptop and external drive to LAN events or a friend's setup.\n\nAs with the standard T7, Steam and Epic library migration tools handle moving installed games between drives without requiring a full reinstall.",
-    specs: ["1TB capacity", "Up to 1050MB/s rated", "USB 3.2 Gen 2", "Rugged shield"],
-    pros: ["Rugged shell suits PC gamers who travel with their setup", "Solid read speed for real-world load-time improvement", "Reliable, well-reviewed platform", "Compatible with Steam and Epic library migration tools"],
-    cons: ["Bulkier than the non-shielded T7", "Premium price versus non-rugged alternatives", "1TB fills quickly with modern large game titles"],
+    description: "Samsung's T7 Shield adds rugged protection to the same reliable 1050MB/s speed, useful for PC gamers who bring a laptop and external drive to LAN events or a friend's setup.\n\nOne spot below Samsung T7 Portable SSD 1TB Titan Gray in this ranking, it costs more than Samsung T7 Portable SSD 1TB Titan Gray. The compromise here is straightforward: Bulkier than the non-shielded T7. What you gain in return: Rugged shell suits PC gamers who travel with their setup. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Solid read speed for real-world load-time improvement. On the other side, 1TB fills quickly with modern large game titles. That's the main tradeoff to weigh against everything above.",
+    specs: ["1TB capacity","Up to 1050MB/s rated","USB 3.2 Gen 2","Rugged shield"],
+    pros: ["Rugged shell suits PC gamers who travel with their setup","Solid read speed for real-world load-time improvement","Reliable, well-reviewed platform","Compatible with Steam and Epic library migration tools"],
+    cons: ["Bulkier than the non-shielded T7","Premium price versus non-rugged alternatives","1TB fills quickly with modern large game titles"],
     bestFor: "PC gamers who bring their setup to LAN events or travel",
   },
   {
@@ -63,11 +61,10 @@ export const products: GuideProduct[] = [
     reviews: "10,968 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41-T4nAAufL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5JQ68FY?tag=deskfinds0d-20",
-    description:
-      "SanDisk's standard Portable SSD offers a budget-friendly way to expand a PC game library, rated up to 800MB/s, sufficient for most game read-speed needs even without top-tier numbers.\n\nWith modern titles regularly exceeding 100GB, this drive's 1TB capacity should be planned around a realistic number of installed large games rather than an unlimited library.",
-    specs: ["1TB capacity", "Up to 800MB/s rated", "USB-C, USB 3.2 Gen 2", "Budget price"],
-    pros: ["Budget-friendly way to expand a PC game library", "Sufficient read speed for real-world load-time needs", "Reliable brand with a large review base", "Good value per gigabyte for capacity planning"],
-    cons: ["800MB/s ceiling trails the fastest picks here", "1TB capacity fills quickly with modern large titles", "No official IP rating"],
+    description: "SanDisk's standard Portable SSD offers a budget-friendly way to expand a PC game library, rated up to 800MB/s, sufficient for most game read-speed needs even without top-tier numbers.\n\nSitting just under Samsung T7 Shield Portable SSD 1TB, it's priced lower than Samsung T7 Shield Portable SSD 1TB. Here's the honest tradeoff: 800MB/s ceiling trails the fastest picks here. And here's what it gets you instead: Budget-friendly way to expand a PC game library. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Sufficient read speed for real-world load-time needs. On the other side, No official IP rating. That's the main tradeoff to weigh against everything above.",
+    specs: ["1TB capacity","Up to 800MB/s rated","USB-C, USB 3.2 Gen 2","Budget price"],
+    pros: ["Budget-friendly way to expand a PC game library","Sufficient read speed for real-world load-time needs","Reliable brand with a large review base","Good value per gigabyte for capacity planning"],
+    cons: ["800MB/s ceiling trails the fastest picks here","1TB capacity fills quickly with modern large titles","No official IP rating"],
     bestFor: "Budget-conscious PC gamers expanding their library capacity",
   },
   {
@@ -80,11 +77,10 @@ export const products: GuideProduct[] = [
     reviews: "20,657 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31+UCQHBazL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08Y1Q2KSZ?tag=deskfinds0d-20",
-    description:
-      "Seagate's 2TB Game Drive offers real headroom for a large PC game library made up of modern 100GB-plus titles, at a reasonable price for the added capacity.\n\nWhile marketed toward console gaming, it works identically as a PC external drive, and the larger capacity meaningfully reduces how often you will need to manage which games stay installed.",
-    specs: ["2TB capacity", "USB 3.0", "Large capacity for big libraries", "Large review base"],
-    pros: ["Real headroom for large modern PC game libraries", "Large, consistent review base", "Reduces how often you need to manage installed games", "Good value per gigabyte at 2TB"],
-    cons: ["USB 3.0 caps read speed below newer USB 3.2 Gen 2 drives", "Bulkier design than slim ultraportables", "Best for capacity-first buyers over speed-first"],
+    description: "Seagate's 2TB Game Drive offers real headroom for a large PC game library made up of modern 100GB-plus titles, at a reasonable price for the added capacity.\n\nRanked just behind SANDISK 1TB Portable SSD, it's priced lower than SANDISK 1TB Portable SSD. The real tradeoff against that pick: USB 3.0 caps read speed below newer USB 3.2 Gen 2 drives. In exchange, it offers this instead: Real headroom for large modern PC game libraries. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Large, consistent review base. On the other side, Best for capacity-first buyers over speed-first. That's the main tradeoff to weigh against everything above.",
+    specs: ["2TB capacity","USB 3.0","Large capacity for big libraries","Large review base"],
+    pros: ["Real headroom for large modern PC game libraries","Large, consistent review base","Reduces how often you need to manage installed games","Good value per gigabyte at 2TB"],
+    cons: ["USB 3.0 caps read speed below newer USB 3.2 Gen 2 drives","Bulkier design than slim ultraportables","Best for capacity-first buyers over speed-first"],
     bestFor: "PC gamers with large modern libraries who prioritize capacity over peak speed",
   }
 ];
@@ -100,25 +96,135 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Read Speed Matters More Than Write Speed for Load Times",
-    note: "Most of a game's load-time benefit from an SSD comes from read speed and random access, not the write-speed numbers often emphasized in marketing. When comparing gaming drives, weigh real-world read performance and reviews from other PC gamers more heavily.",
+    "subheading": "By Capacity",
+    "table": {
+      "headers": [
+        "Your storage need",
+        "Recommended pick in this comparison"
+      ],
+      "rows": [
+        [
+          "Lightest everyday storage needs",
+          "Samsung T7 Portable SSD 1TB Titan Gray"
+        ],
+        [
+          "Large media libraries or video work",
+          "Seagate 2TB Game Drive for Xbox"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Plan Capacity Around Modern 100GB-Plus Titles",
-    note: "Many current PC games now exceed 100GB installed. A 1TB drive realistically holds around 8 to 10 large modern titles alongside smaller games, plan your capacity choice around your actual library size, not an assumed smaller average game size.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $120",
+          "Seagate 2TB Game Drive for Xbox"
+        ],
+        [
+          "Mid-range",
+          "Samsung T7 Portable SSD 1TB Titan Gray"
+        ],
+        [
+          "No firm budget ceiling, prioritizing speed or NAND quality",
+          "Samsung T7 Shield Portable SSD 1TB"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: { headers: ["Your priority", "Recommended pick"], rows: [["Reliable all-around library expansion", "Samsung T7 1TB"], ["Rugged setup that travels to LAN events", "Samsung T7 Shield 1TB"], ["Budget-friendly library expansion", "SanDisk Portable SSD 1TB"], ["Large modern library, capacity-first", "Seagate 2TB Game Drive"]] },
+    "subheading": "TLC vs QLC NAND",
+    "cards": [
+      {
+        "label": "TLC NAND",
+        "text": "Better sustained write speed and longer-term endurance, especially once any onboard cache is exhausted during a large transfer. In this comparison: check each listing's specs directly, NAND type isn't always disclosed."
+      },
+      {
+        "label": "QLC NAND",
+        "text": "More capacity per dollar, at the cost of a bigger sustained-speed drop once the cache fills on long transfers. In this comparison: none explicitly confirmed in this specific roundup, check the listing before assuming."
+      }
+    ],
+    "note": "NAND type isn't explicitly confirmed for every pick here, check each specific listing's technical details if sustained speed matters to your workflow."
+  },
+  {
+    "subheading": "Rugged/Waterproof vs Standard Build",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Drop and water resistance for field use",
+          "Samsung T7 Shield Portable SSD 1TB"
+        ],
+        [
+          "Slimmest, lightest everyday carry",
+          "Samsung T7 Portable SSD 1TB Titan Gray"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Large Sustained Transfers (Video Editing) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "TLC NAND specifically, a stated sustained write speed (not just the peak burst number), and a USB generation on both drive and host that actually supports the rated speed."
+      },
+      {
+        "label": "In this comparison",
+        "text": "SANDISK 1TB Portable SSD fits this specifically: Budget-friendly way to expand a PC game library."
+      }
+    ]
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "Samsung T7 Portable SSD 1TB Titan Gray"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "Samsung T7 Portable SSD 1TB Titan Gray"
+        ]
+      ]
+    }
   }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Weigh read speed over write speed for load times", explanation: "Most of the load-time benefit an SSD provides comes from read speed and random access, not the write-speed numbers often emphasized in marketing." },
-  { criterion: "Plan capacity around realistic modern game sizes", explanation: "Many current PC titles exceed 100GB installed, budget your drive capacity around your actual library rather than an outdated assumption of smaller game sizes." },
-  { criterion: "Confirm your platform's library migration tool works with external drives", explanation: "Steam and Epic both offer tools to move installed games between drives without a full reinstall, worth using rather than reinstalling from scratch." },
-  { criterion: "Match interface speed to your motherboard or laptop port", explanation: "A drive's rated speed only matters if your PC's actual USB port supports that same tier." },
-  { criterion: "Consider capacity over peak speed for large libraries", explanation: "For buyers with many large installed titles, prioritizing capacity over the fastest possible speed tier is often the better value tradeoff." }
+  {
+    "criterion": "Plan around real usable capacity, not the number printed on the box",
+    "explanation": "Storage manufacturers advertise capacity in decimal gigabytes and terabytes (1 GB equals 1,000,000,000 bytes), but operating systems report free space in binary units (1 GB equals 1,073,741,824 bytes), and on top of that gap, formatting itself consumes a further slice of raw capacity for the file system's own bookkeeping.\n\nTogether these two factors mean a drive advertised as 1TB will typically show up as roughly 930GB in your file explorer, a genuinely predictable shortfall rather than a defect, but one that catches buyers off guard if they plan their storage needs around the advertised round number.\n\nBefore buying, mentally subtract roughly 7 percent from the advertised capacity to estimate real usable space, and size up a tier if your actual storage need is close to the advertised number rather than comfortably under it."
+  },
+  {
+    "criterion": "Check the NAND flash type where the manufacturer discloses it",
+    "explanation": "NAND flash memory, the actual chip technology storing your data, comes in different types based on how many bits each memory cell stores, with TLC (three bits per cell) generally offering better sustained write speed and longer-term endurance than QLC (four bits per cell), which packs more capacity per chip but at the cost of slower performance once any built-in cache is exhausted.\n\nThis matters concretely because many drives use a small pool of faster cache memory to accelerate the beginning of a transfer, and once that cache fills during a large or sustained copy, the drive falls back to its native NAND speed, which is a much bigger drop on a QLC drive than a TLC one, sometimes cutting write speed by more than half.\n\nManufacturers don't always advertise NAND type prominently, so check the product listing's technical details or search the model number alongside \"NAND type\" before assuming a drive uses the faster TLC type."
+  },
+  {
+    "criterion": "Confirm your device's actual port and cable support the drive's rated speed",
+    "explanation": "A portable SSD's rated speed, such as 1050MB/s or 2000MB/s, is the maximum the drive's own controller can achieve, but real-world speed is always capped by the slowest link in the chain: the drive itself, the cable connecting it, and the port on your computer or console, whichever of the three supports the lowest maximum speed.\n\nThis means a genuinely fast 2000MB/s-rated drive plugged into an older USB 3.0 port, or connected with a cable rated for a lower USB generation, will perform no better than a much cheaper drive rated for that lower speed, making the expensive drive's extra speed ceiling completely wasted money in that specific setup.\n\nCheck your computer, phone, or console's actual port specification (not just its connector shape, since USB-C and USB-A shapes don't indicate speed) and confirm any cable you use is rated for that same speed tier before expecting a fast drive's full rated performance."
+  },
+  {
+    "criterion": "Understand that a drive's speed rating reflects a burst, not sustained performance",
+    "explanation": "The headline speed figure on a portable SSD's packaging is typically measured using a short benchmark that primarily tests the drive's fast cache memory, not its sustained real-world performance across a large, continuous file transfer that runs long enough to exhaust that cache.\n\nThis is the single most common reason a portable SSD feels slower in real use than its marketing suggests: copying a single large video file or a folder of thousands of photos can run well past the point where the cache empties, causing the transfer to visibly slow down partway through, something a short benchmark screenshot never reveals.\n\nIf your actual use case involves large sustained transfers, specifically look for reviews or listings that mention sustained write speed after cache exhaustion, not just the peak burst number on the box."
+  },
+  {
+    "criterion": "Compare warranty length as a genuine (if imperfect) signal of manufacturer confidence",
+    "explanation": "A storage device's warranty length, commonly ranging from one to five years across different brands and models even at similar price points, reflects the manufacturer's own actuarial confidence in how long that specific NAND and controller combination will reliably hold data, since a company offering a longer warranty is accepting more financial risk on a component they presumably trust more.\n\nThis isn't a perfect signal on its own, a shorter warranty doesn't automatically mean an unreliable drive, but at a similar price point between two otherwise comparable drives, the one backed by a longer warranty is making a more concrete promise about its own longevity rather than just a marketing claim.\n\nCheck the stated warranty length directly in the listing or manufacturer's spec sheet, and weigh it alongside NAND type and brand reputation rather than treating any single signal as decisive on its own."
+  }
 ];
 
 export const faq: FaqItem[] = [

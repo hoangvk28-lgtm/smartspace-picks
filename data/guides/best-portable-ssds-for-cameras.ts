@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "91,365 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41eTFK7clfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HN37XC1?tag=deskfinds0d-20",
-    description:
-      "The single largest review base of any pick in this guide by a wide margin, with IP65 dust and water resistance genuinely relevant for outdoor and nature photography's more physically demanding environments.\n\nBattery-powered field use means the SSD's own power draw affects overall camera battery management, this drive's real-world track record includes extensive use in exactly this bus-powered field scenario.",
-    specs: ["Rated IP65 water and dust resistance", "Up to 1050MB/s", "Massive review base with extensive field-use evidence", "2TB capacity"],
-    pros: ["Massive review base, the most-proven field camera drive available", "IP65 rating suits outdoor/nature photography's demanding conditions", "Extensive real-world evidence of bus-powered field reliability", "Solid capacity for a day's shooting"],
-    cons: ["Verify camera-manufacturer certified-drive-list status for direct recording", "Not the fastest peak speed available for cinema camera use", "Power draw specifics not independently benchmarked here"],
+    description: "The single largest review base of any pick in this guide by a wide margin, with IP65 dust and water resistance genuinely relevant for outdoor and nature photography's more physically demanding environments.\n\nIt earns the top spot in this comparison over Samsung T7 Shield Portable SSD 1TB for one main reason. Massive review base, the most-proven field camera drive available. On price, it's actually priced above Samsung T7 Shield Portable SSD 1TB, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: IP65 rating suits outdoor/nature photography's demanding conditions. On the other side, Power draw specifics not independently benchmarked here. That's the main tradeoff to weigh against everything above.",
+    specs: ["Rated IP65 water and dust resistance","Up to 1050MB/s","Massive review base with extensive field-use evidence","2TB capacity"],
+    pros: ["Massive review base, the most-proven field camera drive available","IP65 rating suits outdoor/nature photography's demanding conditions","Extensive real-world evidence of bus-powered field reliability","Solid capacity for a day's shooting"],
+    cons: ["Verify camera-manufacturer certified-drive-list status for direct recording","Not the fastest peak speed available for cinema camera use","Power draw specifics not independently benchmarked here"],
     bestFor: "Buyers wanting the most-proven, most-reviewed field camera drive",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "16,380 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/21mARCvUWxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VLK9W3S?tag=deskfinds0d-20",
-    description:
-      "A large review base backing this ruggedized 'Shield' variant, genuinely built with the shock and dust resistance that outdoor/nature photography's demanding environments call for.\n\nThis article's camera-manufacturer certified-drive-list verification recommendation applies directly here, check your specific mirrorless or cinema camera's documentation before relying on direct-record capability.",
-    specs: ["Rated IP65 protection, shock-resistant design", "Up to 1,050MB/s", "1TB capacity", "Large review base"],
-    pros: ["Large, well-established review base", "Genuinely ruggedized for demanding outdoor shooting conditions", "Rubberized port cover addresses field-use durability", "Solid rated speed for typical camera offload"],
-    cons: ["Verify direct-record certification with your specific camera model", "Smaller capacity option than the top pick at similar price", "IP65 water-resistant, not full submersion rated"],
+    description: "A large review base backing this ruggedized 'Shield' variant, genuinely built with the shock and dust resistance that outdoor/nature photography's demanding environments call for.\n\nOne spot below SANDISK 2TB Extreme Portable SSD in this ranking, it's priced lower than SANDISK 2TB Extreme Portable SSD. The compromise here is straightforward: Verify direct-record certification with your specific camera model. What you gain in return: Large, well-established review base. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Genuinely ruggedized for demanding outdoor shooting conditions. On the other side, IP65 water-resistant, not full submersion rated. That's the main tradeoff to weigh against everything above.",
+    specs: ["Rated IP65 protection, shock-resistant design","Up to 1,050MB/s","1TB capacity","Large review base"],
+    pros: ["Large, well-established review base","Genuinely ruggedized for demanding outdoor shooting conditions","Rubberized port cover addresses field-use durability","Solid rated speed for typical camera offload"],
+    cons: ["Verify direct-record certification with your specific camera model","Smaller capacity option than the top pick at similar price","IP65 water-resistant, not full submersion rated"],
     bestFor: "Outdoor and nature photographers wanting a ruggedized field drive",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "21,124 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31LdvAbumfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874XN4D8?tag=deskfinds0d-20",
-    description:
-      "A large, well-established review base from an established SSD brand, a genuinely proven card-to-SSD offload workflow for photographers with a large real-world user base.\n\nThis article should cross-reference our SD card reader research for buyers wanting an integrated card-offload solution rather than a separate card reader and SSD, since many photographers use both together.",
-    specs: ["Up to 1,050MB/s", "USB 3.2 Gen 2", "1TB capacity", "Large, established review base"],
-    pros: ["Large, well-established review base", "Established Samsung SSD brand reliability", "Genuinely proven card-to-SSD offload workflow evidence", "Solid rated speed for field offload"],
-    cons: ["No specific IP rating disclosed like the Shield variant", "Verify camera-manufacturer certified-drive-list status separately", "Not the most rugged option in this guide"],
+    description: "A large, well-established review base from an established SSD brand, a genuinely proven card-to-SSD offload workflow for photographers with a large real-world user base.\n\nSitting just under Samsung T7 Shield Portable SSD 1TB, it's priced lower than Samsung T7 Shield Portable SSD 1TB. Here's the honest tradeoff: No specific IP rating disclosed like the Shield variant. And here's what it gets you instead: Large, well-established review base. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Established Samsung SSD brand reliability. On the other side, Not the most rugged option in this guide. That's the main tradeoff to weigh against everything above.",
+    specs: ["Up to 1,050MB/s","USB 3.2 Gen 2","1TB capacity","Large, established review base"],
+    pros: ["Large, well-established review base","Established Samsung SSD brand reliability","Genuinely proven card-to-SSD offload workflow evidence","Solid rated speed for field offload"],
+    cons: ["No specific IP rating disclosed like the Shield variant","Verify camera-manufacturer certified-drive-list status separately","Not the most rugged option in this guide"],
     bestFor: "Buyers wanting an established SSD brand for a proven card-offload workflow",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "3,542 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31PngdJb7FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGL4SHY8?tag=deskfinds0d-20",
-    description:
-      "The most affordable pick in this guide with a solid review base, appropriate for a photographer prioritizing budget over ruggedized field-durability features.\n\nBattery-powered field use still matters here, this drive's affordability makes it practical to carry a second unit as backup, worth weighing against a single more rugged drive depending on your specific shooting environment.",
-    specs: ["Up to 1,050MB/s", "USB-C", "1TB capacity", "Solid review base"],
-    pros: ["Most affordable pick in this guide", "Solid review base for the price point", "Affordable enough to carry a backup unit in the field", "Reasonable rated speed for typical camera offload"],
-    cons: ["No specific IP rating for outdoor/nature photography conditions", "Smaller review base than the top established picks", "Verify direct-record camera compatibility separately"],
+    description: "The most affordable pick in this guide with a solid review base, appropriate for a photographer prioritizing budget over ruggedized field-durability features.\n\nRanked just behind Samsung T7 Portable SSD 1TB Titan Gray, it's priced lower than Samsung T7 Portable SSD 1TB Titan Gray. The real tradeoff against that pick: No specific IP rating for outdoor/nature photography conditions. In exchange, it offers this instead: Most affordable pick in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your storage needs.\n\nWorth knowing before you decide: Solid review base for the price point. On the other side, Verify direct-record camera compatibility separately. That's the main tradeoff to weigh against everything above.",
+    specs: ["Up to 1,050MB/s","USB-C","1TB capacity","Solid review base"],
+    pros: ["Most affordable pick in this guide","Solid review base for the price point","Affordable enough to carry a backup unit in the field","Reasonable rated speed for typical camera offload"],
+    cons: ["No specific IP rating for outdoor/nature photography conditions","Smaller review base than the top established picks","Verify direct-record camera compatibility separately"],
     bestFor: "Budget-conscious photographers prioritizing affordability over ruggedized durability",
   },
   {
@@ -98,13 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "91 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41UpTn5oveL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GMWYYRQL?tag=deskfinds0d-20",
-    description:
-      "A newer model variant from SanDisk's proven Extreme line, up to 2000MB/s, nearly double the older model's rated speed, genuinely useful for faster in-field offload of large RAW image files.\n\nAs a newer release, this carries a much smaller review base than the older Extreme model in this same guide, weigh the faster spec against the far more proven older model's track record.",
-    specs: ["Up to 2000MB/s (newer model)", "USB Type-C connectivity", "1TB capacity", "Newer release, smaller review base"],
-    pros: ["Genuinely faster rated speed for faster in-field RAW offload", "From SanDisk's proven Extreme product line", "Reliable durability claims from an established brand", "Faster card-to-SSD offload for time-sensitive shoots"],
-    cons: ["Much smaller review base than the older Extreme model", "As a newer release, less long-term field-use evidence exists yet", "Priced close to the far more proven older model"],
+    description: "A newer model variant from SanDisk's proven Extreme line, up to 2000MB/s, nearly double the older model's rated speed, genuinely useful for faster in-field offload of large RAW image files.\n\nOne spot below SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s in this ranking, it costs more than SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s. The compromise here is straightforward: Much smaller review base than the older Extreme model. What you gain in return: Genuinely faster rated speed for faster in-field RAW offload. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: From SanDisk's proven Extreme product line. On the other side, Priced close to the far more proven older model. That's the main tradeoff to weigh against everything above.",
+    specs: ["Up to 2000MB/s (newer model)","USB Type-C connectivity","1TB capacity","Newer release, smaller review base"],
+    pros: ["Genuinely faster rated speed for faster in-field RAW offload","From SanDisk's proven Extreme product line","Reliable durability claims from an established brand","Faster card-to-SSD offload for time-sensitive shoots"],
+    cons: ["Much smaller review base than the older Extreme model","As a newer release, less long-term field-use evidence exists yet","Priced close to the far more proven older model"],
     bestFor: "Photographers wanting faster in-field RAW offload from a newer SanDisk model",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,24 +113,135 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "The SSD's Own Power Draw Affects Your Camera Battery in the Field",
-    note: "Battery-powered field use, no wall power available, means the SSD's own power draw affects overall field battery management. This is a real photographer/videographer workflow constraint, worth considering alongside speed and capacity rather than assuming any bus-powered drive is equally efficient.",
+    "subheading": "By Capacity",
+    "table": {
+      "headers": [
+        "Your storage need",
+        "Recommended pick in this comparison"
+      ],
+      "rows": [
+        [
+          "Lightest everyday storage needs",
+          "Samsung T7 Shield Portable SSD 1TB"
+        ],
+        [
+          "Large media libraries or video work",
+          "SANDISK 2TB Extreme Portable SSD"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Verify Direct-Record Support Against Your Camera's Certified List",
-    note: "Camera-specific direct recording support, some mirrorless/cinema cameras can record directly to an external SSD, should be verified against the camera manufacturer's specific certified/tested drive list. Don't assume any fast SSD will work for direct-to-drive recording without checking this compatibility first.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $144",
+          "SSK Portable SSD 1TB External Solid State Hard Drive USB C Up to 1050MB/s"
+        ],
+        [
+          "Mid-range",
+          "SANDISK 1TB Extreme Portable SSD"
+        ],
+        [
+          "No firm budget ceiling, prioritizing speed or NAND quality",
+          "SANDISK 2TB Extreme Portable SSD"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Dust and Sand Resistance Matters More for Outdoor Shooting",
-    note: "Dust/sand resistance is relevant for outdoor/nature photographers given how camera use often occurs in more physically demanding environments than typical desk/office SSD use. Prioritize an IP-rated ruggedized drive if you regularly shoot in these conditions.",
+    "subheading": "TLC vs QLC NAND",
+    "cards": [
+      {
+        "label": "TLC NAND",
+        "text": "Better sustained write speed and longer-term endurance, especially once any onboard cache is exhausted during a large transfer. In this comparison: check each listing's specs directly, NAND type isn't always disclosed."
+      },
+      {
+        "label": "QLC NAND",
+        "text": "More capacity per dollar, at the cost of a bigger sustained-speed drop once the cache fills on long transfers. In this comparison: none explicitly confirmed in this specific roundup, check the listing before assuming."
+      }
+    ],
+    "note": "NAND type isn't explicitly confirmed for every pick here, check each specific listing's technical details if sustained speed matters to your workflow."
   },
+  {
+    "subheading": "Rugged/Waterproof vs Standard Build",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Drop and water resistance for field use",
+          "SANDISK 2TB Extreme Portable SSD"
+        ],
+        [
+          "Slimmest, lightest everyday carry",
+          "Samsung T7 Portable SSD 1TB Titan Gray"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Large Sustained Transfers (Video Editing) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "TLC NAND specifically, a stated sustained write speed (not just the peak burst number), and a USB generation on both drive and host that actually supports the rated speed."
+      },
+      {
+        "label": "In this comparison",
+        "text": "SANDISK 1TB Extreme Portable SSD fits this specifically: Genuinely faster rated speed for faster in-field RAW offload."
+      }
+    ]
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "Samsung T7 Shield Portable SSD 1TB"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "SANDISK 2TB Extreme Portable SSD"
+        ]
+      ]
+    }
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "The SSD's own power draw affects your camera's field battery life", explanation: "Battery-powered field use means the drive's power consumption is a real workflow constraint, not just its speed or capacity, worth considering for extended shoots away from wall power." },
-  { criterion: "Verify direct-record support against your camera's certified drive list", explanation: "Some mirrorless/cinema cameras can record directly to an external SSD, but this should be verified against the manufacturer's specific certified list, not assumed universal." },
-  { criterion: "Dust and sand resistance matters for outdoor/nature photography", explanation: "Camera use often occurs in more physically demanding environments than typical desk use, prioritize an IP-rated ruggedized drive for regular outdoor shooting." },
-  { criterion: "Consider an integrated card-offload solution alongside your SSD", explanation: "Many photographers use a separate SD card reader with their SSD, consider whether an integrated solution better fits your specific offload workflow." },
+  {
+    "criterion": "Plan around real usable capacity, not the number printed on the box",
+    "explanation": "Storage manufacturers advertise capacity in decimal gigabytes and terabytes (1 GB equals 1,000,000,000 bytes), but operating systems report free space in binary units (1 GB equals 1,073,741,824 bytes), and on top of that gap, formatting itself consumes a further slice of raw capacity for the file system's own bookkeeping.\n\nTogether these two factors mean a drive advertised as 1TB will typically show up as roughly 930GB in your file explorer, a genuinely predictable shortfall rather than a defect, but one that catches buyers off guard if they plan their storage needs around the advertised round number.\n\nBefore buying, mentally subtract roughly 7 percent from the advertised capacity to estimate real usable space, and size up a tier if your actual storage need is close to the advertised number rather than comfortably under it."
+  },
+  {
+    "criterion": "Check the NAND flash type where the manufacturer discloses it",
+    "explanation": "NAND flash memory, the actual chip technology storing your data, comes in different types based on how many bits each memory cell stores, with TLC (three bits per cell) generally offering better sustained write speed and longer-term endurance than QLC (four bits per cell), which packs more capacity per chip but at the cost of slower performance once any built-in cache is exhausted.\n\nThis matters concretely because many drives use a small pool of faster cache memory to accelerate the beginning of a transfer, and once that cache fills during a large or sustained copy, the drive falls back to its native NAND speed, which is a much bigger drop on a QLC drive than a TLC one, sometimes cutting write speed by more than half.\n\nManufacturers don't always advertise NAND type prominently, so check the product listing's technical details or search the model number alongside \"NAND type\" before assuming a drive uses the faster TLC type."
+  },
+  {
+    "criterion": "Confirm your device's actual port and cable support the drive's rated speed",
+    "explanation": "A portable SSD's rated speed, such as 1050MB/s or 2000MB/s, is the maximum the drive's own controller can achieve, but real-world speed is always capped by the slowest link in the chain: the drive itself, the cable connecting it, and the port on your computer or console, whichever of the three supports the lowest maximum speed.\n\nThis means a genuinely fast 2000MB/s-rated drive plugged into an older USB 3.0 port, or connected with a cable rated for a lower USB generation, will perform no better than a much cheaper drive rated for that lower speed, making the expensive drive's extra speed ceiling completely wasted money in that specific setup.\n\nCheck your computer, phone, or console's actual port specification (not just its connector shape, since USB-C and USB-A shapes don't indicate speed) and confirm any cable you use is rated for that same speed tier before expecting a fast drive's full rated performance."
+  },
+  {
+    "criterion": "Understand that a drive's speed rating reflects a burst, not sustained performance",
+    "explanation": "The headline speed figure on a portable SSD's packaging is typically measured using a short benchmark that primarily tests the drive's fast cache memory, not its sustained real-world performance across a large, continuous file transfer that runs long enough to exhaust that cache.\n\nThis is the single most common reason a portable SSD feels slower in real use than its marketing suggests: copying a single large video file or a folder of thousands of photos can run well past the point where the cache empties, causing the transfer to visibly slow down partway through, something a short benchmark screenshot never reveals.\n\nIf your actual use case involves large sustained transfers, specifically look for reviews or listings that mention sustained write speed after cache exhaustion, not just the peak burst number on the box."
+  },
+  {
+    "criterion": "Compare warranty length as a genuine (if imperfect) signal of manufacturer confidence",
+    "explanation": "A storage device's warranty length, commonly ranging from one to five years across different brands and models even at similar price points, reflects the manufacturer's own actuarial confidence in how long that specific NAND and controller combination will reliably hold data, since a company offering a longer warranty is accepting more financial risk on a component they presumably trust more.\n\nThis isn't a perfect signal on its own, a shorter warranty doesn't automatically mean an unreliable drive, but at a similar price point between two otherwise comparable drives, the one backed by a longer warranty is making a more concrete promise about its own longevity rather than just a marketing claim.\n\nCheck the stated warranty length directly in the listing or manufacturer's spec sheet, and weigh it alongside NAND type and brand reputation rather than treating any single signal as decisive on its own."
+  }
 ];
 
 export const faq: FaqItem[] = [
