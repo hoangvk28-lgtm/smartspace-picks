@@ -67,38 +67,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Understand Why True Ambidextrous Design Is Rare",
-    note: "Natural hand curvature genuinely differs between the left and right hand, so a symmetric design is inherently a harder engineering problem than a handed-specific one. Most 'ambidextrous' vertical mice are a compromise, not an optimized fit for either hand.",
-  },
-  {
-    subheading: "Check Side-Button Placement, Not Just Overall Shape",
-    note: "Even a symmetric-shaped mouse can have side buttons positioned in a way that's easier to reach with one hand than the other. Check buyer feedback specifically for this before assuming full symmetry.",
-  },
-  {
-    subheading: "Consider a Handed-Specific Design If Fit Matters More Than Sharing",
-    note: "If you don't need to share the mouse between different-handed users, a true handed-specific design will generally offer a more pronounced ergonomic curve and thumb rest than a symmetric compromise. Cross-reference our left-handed and right-handed vertical mice guides.",
-  },
-  {
-    subheading: "Given the Thin Pool, Prioritize a Generous Return Policy",
-    note: "Because genuine fit uncertainty is higher in this compromise category, check the seller's return or exchange window before committing to a purchase.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Adjustable structure with a stronger review base", "KINESIS DXT2 Ergonomic Vertical Mouse"],
-        ["Explicit ambidextrous labeling with adjustable angle", "R-Go Twister Ambidextrous Mouse"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "KINESIS DXT2 Ergonomic Vertical Mouse"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "KINESIS DXT2 Ergonomic Vertical Mouse"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $104",
+          "KINESIS DXT2 Ergonomic Vertical Mouse"
+        ],
+        [
+          "Up to $109",
+          "R"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Review Base vs Price",
+    "cards": [
+      {
+        "label": "KINESIS DXT2 Ergonomic Vertical Mouse",
+        "text": "The lower-priced option in this comparison, worth checking its hand-size fit against your grip."
+      },
+      {
+        "label": "R",
+        "text": "The higher-priced option, worth it if it offers real ergonomic or sensor headroom above the cheaper pick."
+      }
+    ],
+    "note": "Default to KINESIS DXT2 Ergonomic Vertical Mouse unless your specific needs genuinely call for the pricier pick."
+  },
+  {
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Most-reviewed, strongest reliability signal",
+          "KINESIS DXT2 Ergonomic Vertical Mouse"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Wrist or Forearm Strain Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A pronounced vertical angle matched to your hand size, with reviews specifically mentioning strain relief after the adjustment period."
+      },
+      {
+        "label": "In this comparison",
+        "text": "KINESIS DXT2 Ergonomic Vertical Mouse is worth checking against its listed hand-size guidance before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You use a mouse for many hours daily and strain relief or sensor precision is the priority, where R's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need occasional use, where KINESIS DXT2 Ergonomic Vertical Mouse covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify ambidextrous claims against actual design signals", explanation: "Don't trust an unverified label; look for an adjustable or genuinely symmetric structure described in the listing itself." },
-  { criterion: "Understand a symmetric design is a compromise, not an optimized fit", explanation: "Natural hand curvature differs between hands, so a true ambidextrous mouse usually sacrifices some of the pronounced curve a handed-specific design offers." },
-  { criterion: "Check side-button reachability separately from overall shape", explanation: "Side buttons can still favor one hand even on an overall symmetric mouse, so check this specifically in buyer feedback." },
-  { criterion: "Prioritize a generous return policy given fit uncertainty", explanation: "This compromise category carries more individual fit risk, so a flexible return or exchange window is a genuinely useful safety net." },
+  {
+    "criterion": "Match the vertical angle to your actual hand size and grip",
+    "explanation": "A vertical mouse's tilt angle, usually somewhere between 45 and 90 degrees from flat, is what actually reduces forearm rotation strain, but the ideal angle isn't the same for every hand, a mouse shaped for a larger hand can feel awkwardly steep and unstable in a smaller hand, and vice versa.\n\nThis matters because the entire ergonomic benefit depends on the mouse fitting your hand well enough to hold a natural, relaxed grip, a mismatched size can actually introduce new strain from over-gripping to keep the mouse stable.\n\nCheck the listing for hand-size guidance (often given in inches from wrist to middle fingertip) rather than assuming a single design fits all hand sizes equally well."
+  },
+  {
+    "criterion": "Consider DPI range and sensor quality for your actual desk surface and use",
+    "explanation": "DPI (dots per inch) determines cursor sensitivity, and while a wide adjustable DPI range sounds like a universal benefit, what actually matters is whether the sensor tracks accurately and consistently at the DPI level you'll realistically use, a mouse with an impressively high max DPI but a mediocre sensor can still feel imprecise in daily use.\n\nThis matters more for precision work like design or spreadsheet navigation than for basic web browsing, where sensor quality differences are less noticeable.\n\nCheck reviews specifically for mentions of tracking accuracy and cursor jitter, not just the advertised maximum DPI number, since the two don't always correlate."
+  },
+  {
+    "criterion": "Weigh wireless connectivity type against your actual setup and battery expectations",
+    "explanation": "A vertical mouse connects via Bluetooth, a proprietary RF USB dongle, or a wired cable, and each comes with real tradeoffs, Bluetooth avoids using a USB port but can have a small input lag some users notice, an RF dongle is generally more responsive but takes up a port and is easy to lose while traveling, and wired eliminates battery concerns entirely but limits desk placement flexibility.\n\nThis matters directly if you're already short on USB ports, travel frequently with the mouse, or care about minimal input latency for precise work.\n\nCheck the specific connectivity type and, for wireless options, the claimed battery life under real use, not just standby time, before assuming any wireless mouse fits your setup equally well."
+  },
+  {
+    "criterion": "Check button placement and count against how you actually use a mouse day to day",
+    "explanation": "Extra programmable buttons for back/forward navigation or DPI switching are only genuinely useful if they're placed where your thumb naturally rests during normal use, a button that requires shifting your grip to reach defeats its own ergonomic purpose.\n\nThis matters more for anyone doing heavy web browsing or navigation-heavy work where back/forward buttons get used constantly, less for someone doing simple pointing and clicking.\n\nCheck reviews specifically for mentions of thumb button reachability and accidental misclicks, not just the total button count listed in the specs."
+  },
+  {
+    "criterion": "Factor in adjustment period and whether the design suits your actual daily tasks",
+    "explanation": "Switching to a vertical mouse from a standard mouse involves a genuine adjustment period, typically one to two weeks, during which precision and speed can feel worse before the new grip becomes natural, this is a normal part of the transition, not a sign the mouse is a bad fit.\n\nThis matters most for anyone doing precision-dependent work like graphic design or gaming, where a temporary drop in accuracy during the adjustment period has a real short-term cost worth planning around.\n\nCheck reviews for mentions of how long the adjustment period took for reviewers with a similar use case to yours, and consider trying the new grip during a lower-stakes work period rather than a deadline crunch."
+  }
 ];
 
 export const faq: FaqItem[] = [

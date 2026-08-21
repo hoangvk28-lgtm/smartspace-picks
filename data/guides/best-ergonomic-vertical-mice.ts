@@ -169,41 +169,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Look for Disclosed Features, Not Just the Word 'Ergonomic'",
-    note: "Since there's no certification behind the term, look for a stated tilt angle, a shaped thumb rest, or multiple size options in the listing itself. A product that discloses these specifics is a stronger buy than one that only uses the word 'ergonomic' in its title.",
-  },
-  {
-    subheading: "Decide If the Price Premium Is Justified for You",
-    note: "Premium ergonomic mice often cost two to three times more than a budget vertical mouse. That premium is more justified if it buys a genuinely steeper or more adjustable angle, dual connectivity, or a documented size range, and less justified if it's mostly branding.",
-  },
-  {
-    subheading: "Use the Return Window as Part of Your Decision",
-    note: "Because ergonomic fit is highly individual, check the seller's return or exchange window before buying a premium pick. A generous return policy is a genuine risk-reduction feature, not just a formality.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Most disclosed, measurable ergonomic design", "Logitech MX Vertical"],
-        ["Ergonomic fit for smaller hands", "Logitech Lift Vertical"],
-        ["Best value ergonomic pick", "Lekvey Ergonomic Rechargeable Mouse"],
-        ["Lowest-cost way to test the ergonomic grip", "Anker 2.4G Wireless Ergonomic Mouse"],
-        ["Long-established design with real disclosed specs", "Evoluent Wired Ergonomic Mouse"],
-        ["Compact rechargeable ergonomic value", "ProtoArc EM11 NL Wireless"],
-        ["Straightforward wired ergonomic pick", "Anker USB Wired Vertical Mouse"],
-        ["Lowest price entry point", "TECKNET Wired Ergonomic Mouse 6400 DPI"],
+    "subheading": "By Connectivity",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Wireless freedom",
+          "Logitech MX Vertical Wireless Mouse Ergonomic Design"
+        ],
+        [
+          "Most-reviewed, strongest reliability signal",
+          "Anker 2.4G Wireless Ergonomic Mouse"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $NaN",
+          "Logitech MX Vertical Wireless Mouse Ergonomic Design"
+        ],
+        [
+          "Up to $90",
+          "Evoluent"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Rechargeable vs Disposable Battery",
+    "cards": [
+      {
+        "label": "Rechargeable battery",
+        "text": "No recurring battery purchases, usually a USB-C charge cable does the job in downtime. In this comparison: Logitech MX Vertical Wireless Mouse Ergonomic Design, Logitech Lift Vertical Ergonomic Wireless Mouse, Lekvey Ergonomic Mouse, ProtoArc EM11 NL Wireless Ergonomic Vertical Mouse."
+      },
+      {
+        "label": "Disposable battery",
+        "text": "Simple to swap anywhere without carrying a charge cable, at the cost of ongoing battery purchases. In this comparison: Anker 2.4G Wireless Ergonomic Mouse, Evoluent, Anker USB Wired Vertical Mouse, TECKNET Wired Mouse."
+      }
+    ],
+    "note": "Default to rechargeable unless you specifically want to avoid ever plugging the mouse in to charge."
+  },
+  {
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Most-reviewed, strongest reliability signal",
+          "Anker 2.4G Wireless Ergonomic Mouse"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Wrist or Forearm Strain Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A pronounced vertical angle matched to your hand size, with reviews specifically mentioning strain relief after the adjustment period."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Anker 2.4G Wireless Ergonomic Mouse is worth checking against its listed hand-size guidance before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You use a mouse for many hours daily and strain relief or sensor precision is the priority, where Evoluent's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need occasional use, where Logitech MX Vertical Wireless Mouse Ergonomic Design covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Look for a disclosed tilt angle, not just the word 'ergonomic'", explanation: "A listing that states its actual angle or design rationale is a stronger signal than a generic ergonomic label with no specifics." },
-  { criterion: "Check whether more than one size is offered", explanation: "A brand offering multiple body sizes within its ergonomic line is a genuine accommodation of hand-size differences, not a one-size claim." },
-  { criterion: "Weigh the price premium against measurable differences", explanation: "A higher price is more justified when it buys a steeper adjustable angle, better materials, or dual connectivity, not just branding." },
-  { criterion: "Check the return or exchange window before buying premium", explanation: "Since ergonomic fit is individual, a generous return policy meaningfully reduces your risk on a higher-priced pick." },
-  { criterion: "Don't expect instant comfort from any ergonomic label", explanation: "Even genuinely well-designed ergonomic mice require a one to three week adjustment period before comfort improves." },
+  {
+    "criterion": "Match the vertical angle to your actual hand size and grip",
+    "explanation": "A vertical mouse's tilt angle, usually somewhere between 45 and 90 degrees from flat, is what actually reduces forearm rotation strain, but the ideal angle isn't the same for every hand, a mouse shaped for a larger hand can feel awkwardly steep and unstable in a smaller hand, and vice versa.\n\nThis matters because the entire ergonomic benefit depends on the mouse fitting your hand well enough to hold a natural, relaxed grip, a mismatched size can actually introduce new strain from over-gripping to keep the mouse stable.\n\nCheck the listing for hand-size guidance (often given in inches from wrist to middle fingertip) rather than assuming a single design fits all hand sizes equally well."
+  },
+  {
+    "criterion": "Consider DPI range and sensor quality for your actual desk surface and use",
+    "explanation": "DPI (dots per inch) determines cursor sensitivity, and while a wide adjustable DPI range sounds like a universal benefit, what actually matters is whether the sensor tracks accurately and consistently at the DPI level you'll realistically use, a mouse with an impressively high max DPI but a mediocre sensor can still feel imprecise in daily use.\n\nThis matters more for precision work like design or spreadsheet navigation than for basic web browsing, where sensor quality differences are less noticeable.\n\nCheck reviews specifically for mentions of tracking accuracy and cursor jitter, not just the advertised maximum DPI number, since the two don't always correlate."
+  },
+  {
+    "criterion": "Weigh wireless connectivity type against your actual setup and battery expectations",
+    "explanation": "A vertical mouse connects via Bluetooth, a proprietary RF USB dongle, or a wired cable, and each comes with real tradeoffs, Bluetooth avoids using a USB port but can have a small input lag some users notice, an RF dongle is generally more responsive but takes up a port and is easy to lose while traveling, and wired eliminates battery concerns entirely but limits desk placement flexibility.\n\nThis matters directly if you're already short on USB ports, travel frequently with the mouse, or care about minimal input latency for precise work.\n\nCheck the specific connectivity type and, for wireless options, the claimed battery life under real use, not just standby time, before assuming any wireless mouse fits your setup equally well."
+  },
+  {
+    "criterion": "Check button placement and count against how you actually use a mouse day to day",
+    "explanation": "Extra programmable buttons for back/forward navigation or DPI switching are only genuinely useful if they're placed where your thumb naturally rests during normal use, a button that requires shifting your grip to reach defeats its own ergonomic purpose.\n\nThis matters more for anyone doing heavy web browsing or navigation-heavy work where back/forward buttons get used constantly, less for someone doing simple pointing and clicking.\n\nCheck reviews specifically for mentions of thumb button reachability and accidental misclicks, not just the total button count listed in the specs."
+  },
+  {
+    "criterion": "Factor in adjustment period and whether the design suits your actual daily tasks",
+    "explanation": "Switching to a vertical mouse from a standard mouse involves a genuine adjustment period, typically one to two weeks, during which precision and speed can feel worse before the new grip becomes natural, this is a normal part of the transition, not a sign the mouse is a bad fit.\n\nThis matters most for anyone doing precision-dependent work like graphic design or gaming, where a temporary drop in accuracy during the adjustment period has a real short-term cost worth planning around.\n\nCheck reviews for mentions of how long the adjustment period took for reviewers with a similar use case to yours, and consider trying the new grip during a lower-stakes work period rather than a deadline crunch."
+  }
 ];
 
 export const faq: FaqItem[] = [

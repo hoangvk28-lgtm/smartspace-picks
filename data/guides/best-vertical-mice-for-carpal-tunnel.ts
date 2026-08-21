@@ -169,40 +169,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Understand What a Vertical Mouse Actually Addresses",
-    note: "Carpal tunnel syndrome involves multiple factors: wrist flexion and extension, sustained grip pressure, and tendon involvement. A vertical mouse mainly reduces forearm pronation, the twisting motion of resting your hand flat. This can help with one contributing factor but is not a comprehensive treatment, and it should not replace a proper medical evaluation for persistent symptoms.",
-  },
-  {
-    subheading: "Consider Whether Your Symptoms Might Be a Different Condition",
-    note: "Symptoms people describe as carpal tunnel sometimes reflect a different condition, such as cubital tunnel syndrome or De Quervain's tenosynovitis, which need different approaches. If symptoms are persistent, worsening, or unclear, a doctor or hand specialist can help identify the actual cause.",
-  },
-  {
-    subheading: "Build a Broader Ergonomic Setup, Not Just a New Mouse",
-    note: "Pair a vertical mouse with correct keyboard position, a supportive wrist rest, and an appropriate desk height. Scheduled breaks from repetitive clicking and typing are also a genuine complementary step, not a replacement for the mouse but an addition to it.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Most pronounced pronation-reducing angle", "Logitech MX Vertical"],
-        ["Gentler introduction to the grip", "Logitech Lift Vertical"],
-        ["Budget option for testing the concept", "Lekvey Ergonomic Rechargeable Mouse"],
-        ["Lowest-cost way to try the grip", "Anker 2.4G Wireless Ergonomic Mouse"],
-        ["Established wired pronation-reducing design", "Evoluent Wired Ergonomic Mouse"],
-        ["Compact rechargeable pronation-reducing pick", "ProtoArc EM11 NL Wireless"],
-        ["Small-hand-specific pronation-reducing fit", "Luhaso Ergonomic Vertical Wireless Mouse"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Luhaso Ergonomic Vertical Wireless Mouse"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Anker 2.4G Wireless Ergonomic Mouse"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $NaN",
+          "Logitech MX Vertical Wireless Mouse Ergonomic Design"
+        ],
+        [
+          "Up to $90",
+          "Evoluent"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Rechargeable vs Disposable Battery",
+    "cards": [
+      {
+        "label": "Rechargeable battery",
+        "text": "No recurring battery purchases, usually a USB-C charge cable does the job in downtime. In this comparison: Logitech MX Vertical Wireless Mouse Ergonomic Design, Logitech Lift Vertical Ergonomic Wireless Mouse, Lekvey Ergonomic Mouse, ProtoArc EM11 NL Wireless Ergonomic Vertical Mouse."
+      },
+      {
+        "label": "Disposable battery",
+        "text": "Simple to swap anywhere without carrying a charge cable, at the cost of ongoing battery purchases. In this comparison: Anker 2.4G Wireless Ergonomic Mouse, Evoluent, TECKNET Wired Mouse, Luhaso Ergonomic Vertical Wireless Mouse."
+      }
+    ],
+    "note": "Default to rechargeable unless you specifically want to avoid ever plugging the mouse in to charge."
+  },
+  {
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Most-reviewed, strongest reliability signal",
+          "Anker 2.4G Wireless Ergonomic Mouse"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Wrist or Forearm Strain Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A pronounced vertical angle matched to your hand size, with reviews specifically mentioning strain relief after the adjustment period."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Anker 2.4G Wireless Ergonomic Mouse is worth checking against its listed hand-size guidance before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You use a mouse for many hours daily and strain relief or sensor precision is the priority, where Evoluent's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need occasional use, where Logitech MX Vertical Wireless Mouse Ergonomic Design covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Understand a vertical mouse targets pronation, not the full condition", explanation: "Carpal tunnel syndrome involves multiple factors, and a vertical mouse mainly addresses forearm pronation, one piece of the picture." },
-  { criterion: "Seek professional evaluation for persistent symptoms", explanation: "Numbness, tingling, or pain that persists or worsens should be evaluated by a doctor or hand specialist, not addressed by a product purchase alone." },
-  { criterion: "Consider whether your symptoms match a different condition", explanation: "Self-diagnosed carpal tunnel symptoms sometimes reflect cubital tunnel syndrome or De Quervain's tenosynovitis, which need different treatment approaches." },
-  { criterion: "Treat the mouse as one part of a broader ergonomic setup", explanation: "Pair a vertical mouse with correct keyboard position, a supportive wrist rest, and proper desk height rather than expecting the mouse alone to resolve discomfort." },
-  { criterion: "Expect individual variance and fluctuating symptoms", explanation: "Comfort results differ significantly by person, and symptoms can vary across a workday, so don't expect immediate, uniform relief." },
+  {
+    "criterion": "Match the vertical angle to your actual hand size and grip",
+    "explanation": "A vertical mouse's tilt angle, usually somewhere between 45 and 90 degrees from flat, is what actually reduces forearm rotation strain, but the ideal angle isn't the same for every hand, a mouse shaped for a larger hand can feel awkwardly steep and unstable in a smaller hand, and vice versa.\n\nThis matters because the entire ergonomic benefit depends on the mouse fitting your hand well enough to hold a natural, relaxed grip, a mismatched size can actually introduce new strain from over-gripping to keep the mouse stable.\n\nCheck the listing for hand-size guidance (often given in inches from wrist to middle fingertip) rather than assuming a single design fits all hand sizes equally well."
+  },
+  {
+    "criterion": "Consider DPI range and sensor quality for your actual desk surface and use",
+    "explanation": "DPI (dots per inch) determines cursor sensitivity, and while a wide adjustable DPI range sounds like a universal benefit, what actually matters is whether the sensor tracks accurately and consistently at the DPI level you'll realistically use, a mouse with an impressively high max DPI but a mediocre sensor can still feel imprecise in daily use.\n\nThis matters more for precision work like design or spreadsheet navigation than for basic web browsing, where sensor quality differences are less noticeable.\n\nCheck reviews specifically for mentions of tracking accuracy and cursor jitter, not just the advertised maximum DPI number, since the two don't always correlate."
+  },
+  {
+    "criterion": "Weigh wireless connectivity type against your actual setup and battery expectations",
+    "explanation": "A vertical mouse connects via Bluetooth, a proprietary RF USB dongle, or a wired cable, and each comes with real tradeoffs, Bluetooth avoids using a USB port but can have a small input lag some users notice, an RF dongle is generally more responsive but takes up a port and is easy to lose while traveling, and wired eliminates battery concerns entirely but limits desk placement flexibility.\n\nThis matters directly if you're already short on USB ports, travel frequently with the mouse, or care about minimal input latency for precise work.\n\nCheck the specific connectivity type and, for wireless options, the claimed battery life under real use, not just standby time, before assuming any wireless mouse fits your setup equally well."
+  },
+  {
+    "criterion": "Check button placement and count against how you actually use a mouse day to day",
+    "explanation": "Extra programmable buttons for back/forward navigation or DPI switching are only genuinely useful if they're placed where your thumb naturally rests during normal use, a button that requires shifting your grip to reach defeats its own ergonomic purpose.\n\nThis matters more for anyone doing heavy web browsing or navigation-heavy work where back/forward buttons get used constantly, less for someone doing simple pointing and clicking.\n\nCheck reviews specifically for mentions of thumb button reachability and accidental misclicks, not just the total button count listed in the specs."
+  },
+  {
+    "criterion": "Factor in adjustment period and whether the design suits your actual daily tasks",
+    "explanation": "Switching to a vertical mouse from a standard mouse involves a genuine adjustment period, typically one to two weeks, during which precision and speed can feel worse before the new grip becomes natural, this is a normal part of the transition, not a sign the mouse is a bad fit.\n\nThis matters most for anyone doing precision-dependent work like graphic design or gaming, where a temporary drop in accuracy during the adjustment period has a real short-term cost worth planning around.\n\nCheck reviews for mentions of how long the adjustment period took for reviewers with a similar use case to yours, and consider trying the new grip during a lower-stakes work period rather than a deadline crunch."
+  }
 ];
 
 export const faq: FaqItem[] = [

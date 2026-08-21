@@ -120,38 +120,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Check Cable Type Before You Buy",
-    note: "Charging cable type, USB-C standard versus older micro-USB, should be verified per product, mirroring the same connector-type concern relevant to compact travel mice. If you're already standardizing on USB-C across your other devices, an older micro-USB mouse adds an unnecessary extra cable to keep track of.",
-  },
-  {
-    subheading: "Match Your Charging Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Premium build with confirmed charge-while-in-use", "Logitech MX Vertical"],
-        ["Best value, large proven review base", "Lekvey Comfort Grip"],
-        ["Budget with confirmed USB-C charging", "ProtoArc EM11 NL Rechargeable"],
-        ["Highest-rated budget pick with bonus features", "seenda MOU-302 with Volume Knob"],
-        ["Longest quoted battery life between charges", "TECKNET 6-Button, 12-Month Battery"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "seenda MOU"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Lekvey Ergonomic Mouse"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Verify Charge-While-In-Use Before You're Caught Mid-Task",
-    note: "Charge-while-in-use capability, whether the mouse can be used during charging or becomes unusable and wired-only while plugged in, is a genuine usability differentiator most listings don't disclose upfront. Check reviews specifically for this before you're stuck mid-task with a dead battery and no way to keep working while it charges.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $20",
+          "seenda MOU"
+        ],
+        [
+          "Up to $75",
+          "Logitech MX Vertical Wireless Mouse Ergonomic Design"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Battery Degrades Over Years, Not Just During One Charge Cycle",
-    note: "Battery degradation over the product's lifespan, reduced maximum charge capacity after months or years of charge cycles, is a long-term ownership consideration distinct from out-of-box battery life claims. A mouse quoting a long battery life on day one may hold a meaningfully shorter charge after a year or two of daily charging, factor this into how much weight you put on quoted specs alone.",
+    "subheading": "Silent Clicks vs Standard Clicks",
+    "cards": [
+      {
+        "label": "Silent clicks",
+        "text": "Meaningfully quieter for shared spaces or calls, worth it if noise is a real concern. In this comparison: TECKNET Ergonomic Mouse."
+      },
+      {
+        "label": "Standard clicks",
+        "text": "Usually gives more tactile feedback, fine for a private office or home setup. In this comparison: Logitech MX Vertical Wireless Mouse Ergonomic Design, Lekvey Ergonomic Mouse, ProtoArc EM11 NL Wireless Ergonomic Mouse, seenda MOU."
+      }
+    ],
+    "note": "Default to standard clicks unless you specifically work in a shared or call-heavy space."
   },
+  {
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Most-reviewed, strongest reliability signal",
+          "Lekvey Ergonomic Mouse"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Wrist or Forearm Strain Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A pronounced vertical angle matched to your hand size, with reviews specifically mentioning strain relief after the adjustment period."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Lekvey Ergonomic Mouse is worth checking against its listed hand-size guidance before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You use a mouse for many hours daily and strain relief or sensor precision is the priority, where Logitech MX Vertical Wireless Mouse Ergonomic Design's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need occasional use, where seenda MOU covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify the charging cable type before committing", explanation: "USB-C standard versus older micro-USB matters for compatibility with your other devices, check this before buying rather than assuming modern USB-C." },
-  { criterion: "Don't accept manufacturer-quoted battery life at face value", explanation: "Test or research realistic battery life under actual use conditions, quoted figures often assume idealized usage patterns lighter than genuine daily use." },
-  { criterion: "Check whether the mouse works while charging", explanation: "Some mice become unusable or wired-only while plugged in, a genuine usability differentiator worth verifying before you're stuck mid-task with a dead battery." },
-  { criterion: "Consider long-term battery degradation, not just day-one battery life", explanation: "Reduced maximum charge capacity after months or years of charge cycles is a real ownership consideration distinct from out-of-box battery life claims." },
-  { criterion: "Verify battery indicator accuracy to avoid unexpected power loss", explanation: "An inaccurate battery warning can lead to unexpected mid-task power loss, check reviews specifically for battery indicator reliability feedback." },
+  {
+    "criterion": "Match the vertical angle to your actual hand size and grip",
+    "explanation": "A vertical mouse's tilt angle, usually somewhere between 45 and 90 degrees from flat, is what actually reduces forearm rotation strain, but the ideal angle isn't the same for every hand, a mouse shaped for a larger hand can feel awkwardly steep and unstable in a smaller hand, and vice versa.\n\nThis matters because the entire ergonomic benefit depends on the mouse fitting your hand well enough to hold a natural, relaxed grip, a mismatched size can actually introduce new strain from over-gripping to keep the mouse stable.\n\nCheck the listing for hand-size guidance (often given in inches from wrist to middle fingertip) rather than assuming a single design fits all hand sizes equally well."
+  },
+  {
+    "criterion": "Consider DPI range and sensor quality for your actual desk surface and use",
+    "explanation": "DPI (dots per inch) determines cursor sensitivity, and while a wide adjustable DPI range sounds like a universal benefit, what actually matters is whether the sensor tracks accurately and consistently at the DPI level you'll realistically use, a mouse with an impressively high max DPI but a mediocre sensor can still feel imprecise in daily use.\n\nThis matters more for precision work like design or spreadsheet navigation than for basic web browsing, where sensor quality differences are less noticeable.\n\nCheck reviews specifically for mentions of tracking accuracy and cursor jitter, not just the advertised maximum DPI number, since the two don't always correlate."
+  },
+  {
+    "criterion": "Weigh wireless connectivity type against your actual setup and battery expectations",
+    "explanation": "A vertical mouse connects via Bluetooth, a proprietary RF USB dongle, or a wired cable, and each comes with real tradeoffs, Bluetooth avoids using a USB port but can have a small input lag some users notice, an RF dongle is generally more responsive but takes up a port and is easy to lose while traveling, and wired eliminates battery concerns entirely but limits desk placement flexibility.\n\nThis matters directly if you're already short on USB ports, travel frequently with the mouse, or care about minimal input latency for precise work.\n\nCheck the specific connectivity type and, for wireless options, the claimed battery life under real use, not just standby time, before assuming any wireless mouse fits your setup equally well."
+  },
+  {
+    "criterion": "Check button placement and count against how you actually use a mouse day to day",
+    "explanation": "Extra programmable buttons for back/forward navigation or DPI switching are only genuinely useful if they're placed where your thumb naturally rests during normal use, a button that requires shifting your grip to reach defeats its own ergonomic purpose.\n\nThis matters more for anyone doing heavy web browsing or navigation-heavy work where back/forward buttons get used constantly, less for someone doing simple pointing and clicking.\n\nCheck reviews specifically for mentions of thumb button reachability and accidental misclicks, not just the total button count listed in the specs."
+  },
+  {
+    "criterion": "Factor in adjustment period and whether the design suits your actual daily tasks",
+    "explanation": "Switching to a vertical mouse from a standard mouse involves a genuine adjustment period, typically one to two weeks, during which precision and speed can feel worse before the new grip becomes natural, this is a normal part of the transition, not a sign the mouse is a bad fit.\n\nThis matters most for anyone doing precision-dependent work like graphic design or gaming, where a temporary drop in accuracy during the adjustment period has a real short-term cost worth planning around.\n\nCheck reviews for mentions of how long the adjustment period took for reviewers with a similar use case to yours, and consider trying the new grip during a lower-stakes work period rather than a deadline crunch."
+  }
 ];
 
 export const faq: FaqItem[] = [

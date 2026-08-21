@@ -135,35 +135,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Don't Assume 'Gaming' Branding Means Gaming-Grade Sensor Quality",
-    note: "Gaming-marketed vertical mice are a small niche with generally less R&D investment than mainstream gaming mice. Check the actual stated DPI ceiling and buyer feedback on tracking accuracy rather than trusting the gaming label alone.",
-  },
-  {
-    subheading: "Match Genre to Button Layout",
-    note: "MMO and strategy genres benefit from more programmable buttons for shortcuts, while FPS genres benefit more from a simpler, faster-responding layout. Pick based on the genre you play most rather than assuming more buttons is always better.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Purpose-built gaming vertical mouse", "Attoe Gaming Mouse with 5D Rocker"],
-        ["Casual gaming as a secondary use case", "Anker 2.4G Wireless Ergonomic Mouse"],
-        ["Programmable shortcuts for MMO or strategy genres", "Logitech MX Vertical"],
-        ["Higher DPI ceiling on a budget", "TECKNET Wired Ergonomic Mouse 6400 DPI"],
-        ["Highest DPI ceiling with joystick control", "zelotes Wired Gaming Mouse with Joystick"],
-        ["Established gaming brand with software support", "Razer Pro Click V2 Vertical"],
+    "subheading": "By Connectivity",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Wireless freedom",
+          "Attoe Gaming Mouse with 5D Rocker"
+        ],
+        [
+          "Most-reviewed, strongest reliability signal",
+          "Anker 2.4G Wireless Ergonomic Mouse"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $20",
+          "TECKNET Wired Mouse"
+        ],
+        [
+          "Up to $100",
+          "Razer Pro Click V2 Vertical Wireless Mouse"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Rechargeable vs Disposable Battery",
+    "cards": [
+      {
+        "label": "Rechargeable battery",
+        "text": "No recurring battery purchases, usually a USB-C charge cable does the job in downtime. In this comparison: Razer Pro Click V2 Vertical Wireless Mouse."
+      },
+      {
+        "label": "Disposable battery",
+        "text": "Simple to swap anywhere without carrying a charge cable, at the cost of ongoing battery purchases. In this comparison: Attoe Gaming Mouse with 5D Rocker, Anker 2.4G Wireless Ergonomic Mouse, Logitech MX Vertical Wireless Mouse Ergonomic Design, TECKNET Wired Mouse, zelotes Wired Gaming Mouse with Joystick."
+      }
+    ],
+    "note": "Default to rechargeable unless you specifically want to avoid ever plugging the mouse in to charge."
+  },
+  {
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Most-reviewed, strongest reliability signal",
+          "Anker 2.4G Wireless Ergonomic Mouse"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Wrist or Forearm Strain Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A pronounced vertical angle matched to your hand size, with reviews specifically mentioning strain relief after the adjustment period."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Anker 2.4G Wireless Ergonomic Mouse is worth checking against its listed hand-size guidance before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You use a mouse for many hours daily and strain relief or sensor precision is the priority, where Razer Pro Click V2 Vertical Wireless Mouse's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need occasional use, where TECKNET Wired Mouse covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify actual DPI and sensor quality, not just the gaming label", explanation: "This niche often has less R&D investment than mainstream gaming mice, so check the stated DPI ceiling against dedicated gaming mice at a similar price." },
-  { criterion: "Consider fast lateral movement comfort for FPS genres specifically", explanation: "The vertical grip changes wrist mechanics in ways that can help or hurt depending on how fast and lateral your typical in-game movement is." },
-  { criterion: "Match button count to your genre", explanation: "MMO and strategy genres benefit from more programmable buttons, while FPS genres are usually better served by a simpler, faster layout." },
-  { criterion: "Don't assume RGB or macro software is present", explanation: "Check the specific listing, since many vertical mice marketed for gaming skip RGB customization and advanced macro software entirely." },
-  { criterion: "Check for adjustable weight if that matters to your feel", explanation: "This niche is more likely to be fixed-weight only, so don't assume an adjustable weight system is included." },
+  {
+    "criterion": "Match the vertical angle to your actual hand size and grip",
+    "explanation": "A vertical mouse's tilt angle, usually somewhere between 45 and 90 degrees from flat, is what actually reduces forearm rotation strain, but the ideal angle isn't the same for every hand, a mouse shaped for a larger hand can feel awkwardly steep and unstable in a smaller hand, and vice versa.\n\nThis matters because the entire ergonomic benefit depends on the mouse fitting your hand well enough to hold a natural, relaxed grip, a mismatched size can actually introduce new strain from over-gripping to keep the mouse stable.\n\nCheck the listing for hand-size guidance (often given in inches from wrist to middle fingertip) rather than assuming a single design fits all hand sizes equally well."
+  },
+  {
+    "criterion": "Consider DPI range and sensor quality for your actual desk surface and use",
+    "explanation": "DPI (dots per inch) determines cursor sensitivity, and while a wide adjustable DPI range sounds like a universal benefit, what actually matters is whether the sensor tracks accurately and consistently at the DPI level you'll realistically use, a mouse with an impressively high max DPI but a mediocre sensor can still feel imprecise in daily use.\n\nThis matters more for precision work like design or spreadsheet navigation than for basic web browsing, where sensor quality differences are less noticeable.\n\nCheck reviews specifically for mentions of tracking accuracy and cursor jitter, not just the advertised maximum DPI number, since the two don't always correlate."
+  },
+  {
+    "criterion": "Weigh wireless connectivity type against your actual setup and battery expectations",
+    "explanation": "A vertical mouse connects via Bluetooth, a proprietary RF USB dongle, or a wired cable, and each comes with real tradeoffs, Bluetooth avoids using a USB port but can have a small input lag some users notice, an RF dongle is generally more responsive but takes up a port and is easy to lose while traveling, and wired eliminates battery concerns entirely but limits desk placement flexibility.\n\nThis matters directly if you're already short on USB ports, travel frequently with the mouse, or care about minimal input latency for precise work.\n\nCheck the specific connectivity type and, for wireless options, the claimed battery life under real use, not just standby time, before assuming any wireless mouse fits your setup equally well."
+  },
+  {
+    "criterion": "Check button placement and count against how you actually use a mouse day to day",
+    "explanation": "Extra programmable buttons for back/forward navigation or DPI switching are only genuinely useful if they're placed where your thumb naturally rests during normal use, a button that requires shifting your grip to reach defeats its own ergonomic purpose.\n\nThis matters more for anyone doing heavy web browsing or navigation-heavy work where back/forward buttons get used constantly, less for someone doing simple pointing and clicking.\n\nCheck reviews specifically for mentions of thumb button reachability and accidental misclicks, not just the total button count listed in the specs."
+  },
+  {
+    "criterion": "Factor in adjustment period and whether the design suits your actual daily tasks",
+    "explanation": "Switching to a vertical mouse from a standard mouse involves a genuine adjustment period, typically one to two weeks, during which precision and speed can feel worse before the new grip becomes natural, this is a normal part of the transition, not a sign the mouse is a bad fit.\n\nThis matters most for anyone doing precision-dependent work like graphic design or gaming, where a temporary drop in accuracy during the adjustment period has a real short-term cost worth planning around.\n\nCheck reviews for mentions of how long the adjustment period took for reviewers with a similar use case to yours, and consider trying the new grip during a lower-stakes work period rather than a deadline crunch."
+  }
 ];
 
 export const faq: FaqItem[] = [

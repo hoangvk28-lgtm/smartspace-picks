@@ -120,43 +120,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "'USB-C' Can Mean Three Different Things, Check Which",
-    intro: "This is the single most important clarification in this category, since a wired-USB-C mouse and a wireless mouse that merely charges via USB-C are very different products.",
-    cards: [
-      { label: "Charging port USB-C", text: "The mouse connects wirelessly, but its charging cable uses a USB-C connector, most of the picks in this guide fall into this category." },
-      { label: "Genuinely wired USB-C", text: "The mouse plugs directly into your computer via a cable terminating in USB-C, no wireless connection or battery involved, only one pick in this guide is genuinely this type." },
-      { label: "Wireless dongle USB-C", text: "A less common configuration where the small wireless receiver itself uses a USB-C connector rather than USB-A, worth checking separately if your laptop lacks USB-A ports entirely." },
-    ],
-  },
-  {
-    subheading: "Match Your Actual Need to the Right Pick",
-    table: {
-      headers: ["What you actually want", "Recommended pick"],
-      rows: [
-        ["A genuinely wired USB-C mouse, no charging ever", "Perixx PERIMICE-513C"],
-        ["Premium wireless with USB-C charging convenience", "Logitech MX Vertical"],
-        ["Budget wireless with USB-C charging, triple connectivity", "TECKNET Quiet Clicks (4800 DPI)"],
-        ["Value wireless with confirmed USB-C charging", "ProtoArc EM11 NL Rechargeable"],
-        ["Highest-rated budget wireless USB-C-charging pick", "seenda MOU-302 with Volume Knob"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "TECKNET Ergonomic Mouse"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Logitech MX Vertical Wireless Mouse Ergonomic Design"
+        ]
+      ]
+    }
   },
   {
-    subheading: "USB-C-Only Laptops Make Charging-Port USB-C Genuinely Convenient",
-    note: "USB-C dongle and charging-port compatibility with modern USB-C-only laptops avoids the need for a separate USB-A adapter, a genuine convenience benefit for buyers with newer laptops that have phased out full-size USB-A entirely. If your laptop only has USB-C ports, prioritize a mouse whose charging cable and wireless dongle both use USB-C to avoid carrying extra adapters.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $20",
+          "seenda MOU"
+        ],
+        [
+          "Up to $75",
+          "Logitech MX Vertical Wireless Mouse Ergonomic Design"
+        ]
+      ]
+    }
   },
   {
-    subheading: "A Small But Real Perk: The Reversible Connector",
-    note: "Reversible USB-C connector convenience, no wrong-way-up insertion, is a minor but genuinely real usability benefit over older USB connector types. It won't change your buying decision on its own, but it's a small daily-use quality-of-life improvement worth factoring in when comparing otherwise similar options.",
+    "subheading": "Rechargeable vs Disposable Battery",
+    "cards": [
+      {
+        "label": "Rechargeable battery",
+        "text": "No recurring battery purchases, usually a USB-C charge cable does the job in downtime. In this comparison: Logitech MX Vertical Wireless Mouse Ergonomic Design, TECKNET Ergonomic Mouse, ProtoArc EM11 NL Wireless Ergonomic Mouse, seenda MOU."
+      },
+      {
+        "label": "Disposable battery",
+        "text": "Simple to swap anywhere without carrying a charge cable, at the cost of ongoing battery purchases. In this comparison: Perixx PERIMICE."
+      }
+    ],
+    "note": "Default to rechargeable unless you specifically want to avoid ever plugging the mouse in to charge."
   },
+  {
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Most-reviewed, strongest reliability signal",
+          "Logitech MX Vertical Wireless Mouse Ergonomic Design"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Wrist or Forearm Strain Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A pronounced vertical angle matched to your hand size, with reviews specifically mentioning strain relief after the adjustment period."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Logitech MX Vertical Wireless Mouse Ergonomic Design is worth checking against its listed hand-size guidance before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You use a mouse for many hours daily and strain relief or sensor precision is the priority, where Logitech MX Vertical Wireless Mouse Ergonomic Design's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need occasional use, where seenda MOU covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Clarify which specific USB-C implementation you're actually getting", explanation: "'USB-C' could mean the charging port, the wireless dongle, or a genuinely wired connection, each is a very different product, verify before buying." },
-  { criterion: "A genuinely wired USB-C mouse means no charging at all", explanation: "If you specifically want to avoid managing a battery, look for a product explicitly described as wired with a USB-C cable, not just USB-C charging." },
-  { criterion: "USB-C-only laptops benefit most from matching charging cables", explanation: "A mouse whose charging cable and wireless dongle both use USB-C avoids the need for a separate USB-A adapter on newer laptops lacking full-size USB-A ports." },
-  { criterion: "Cable length and quality matter for genuinely wired options", explanation: "Check the disclosed cable length against your desk setup distance, and consider cable durability for a wired product you won't be replacing with a wireless alternative." },
-  { criterion: "The reversible connector is a small, real convenience, not a dealbreaker", explanation: "No wrong-way-up insertion is a minor usability benefit over older USB connector types, worth a slight preference but not worth overpaying for alone." },
+  {
+    "criterion": "Match the vertical angle to your actual hand size and grip",
+    "explanation": "A vertical mouse's tilt angle, usually somewhere between 45 and 90 degrees from flat, is what actually reduces forearm rotation strain, but the ideal angle isn't the same for every hand, a mouse shaped for a larger hand can feel awkwardly steep and unstable in a smaller hand, and vice versa.\n\nThis matters because the entire ergonomic benefit depends on the mouse fitting your hand well enough to hold a natural, relaxed grip, a mismatched size can actually introduce new strain from over-gripping to keep the mouse stable.\n\nCheck the listing for hand-size guidance (often given in inches from wrist to middle fingertip) rather than assuming a single design fits all hand sizes equally well."
+  },
+  {
+    "criterion": "Consider DPI range and sensor quality for your actual desk surface and use",
+    "explanation": "DPI (dots per inch) determines cursor sensitivity, and while a wide adjustable DPI range sounds like a universal benefit, what actually matters is whether the sensor tracks accurately and consistently at the DPI level you'll realistically use, a mouse with an impressively high max DPI but a mediocre sensor can still feel imprecise in daily use.\n\nThis matters more for precision work like design or spreadsheet navigation than for basic web browsing, where sensor quality differences are less noticeable.\n\nCheck reviews specifically for mentions of tracking accuracy and cursor jitter, not just the advertised maximum DPI number, since the two don't always correlate."
+  },
+  {
+    "criterion": "Weigh wireless connectivity type against your actual setup and battery expectations",
+    "explanation": "A vertical mouse connects via Bluetooth, a proprietary RF USB dongle, or a wired cable, and each comes with real tradeoffs, Bluetooth avoids using a USB port but can have a small input lag some users notice, an RF dongle is generally more responsive but takes up a port and is easy to lose while traveling, and wired eliminates battery concerns entirely but limits desk placement flexibility.\n\nThis matters directly if you're already short on USB ports, travel frequently with the mouse, or care about minimal input latency for precise work.\n\nCheck the specific connectivity type and, for wireless options, the claimed battery life under real use, not just standby time, before assuming any wireless mouse fits your setup equally well."
+  },
+  {
+    "criterion": "Check button placement and count against how you actually use a mouse day to day",
+    "explanation": "Extra programmable buttons for back/forward navigation or DPI switching are only genuinely useful if they're placed where your thumb naturally rests during normal use, a button that requires shifting your grip to reach defeats its own ergonomic purpose.\n\nThis matters more for anyone doing heavy web browsing or navigation-heavy work where back/forward buttons get used constantly, less for someone doing simple pointing and clicking.\n\nCheck reviews specifically for mentions of thumb button reachability and accidental misclicks, not just the total button count listed in the specs."
+  },
+  {
+    "criterion": "Factor in adjustment period and whether the design suits your actual daily tasks",
+    "explanation": "Switching to a vertical mouse from a standard mouse involves a genuine adjustment period, typically one to two weeks, during which precision and speed can feel worse before the new grip becomes natural, this is a normal part of the transition, not a sign the mouse is a bad fit.\n\nThis matters most for anyone doing precision-dependent work like graphic design or gaming, where a temporary drop in accuracy during the adjustment period has a real short-term cost worth planning around.\n\nCheck reviews for mentions of how long the adjustment period took for reviewers with a similar use case to yours, and consider trying the new grip during a lower-stakes work period rather than a deadline crunch."
+  }
 ];
 
 export const faq: FaqItem[] = [
