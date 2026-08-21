@@ -30,10 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "273",
     imageUrl: "https://m.media-amazon.com/images/I/31aTmwV+A2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08H51M3LK?tag=deskfinds0d-20",
-    description: "Kensington's own NanoSaver lock, the brand that invented and documents the Nano slot standard, with a slim head keeping select thin HP, Lenovo, and Asus laptops lying flat once locked. This carries the largest confirmed review base of any Nano-specific pick in this comparison.\n\nRegister and Retrieve online code recovery backs up a forgotten combination, a genuine advantage over locks without a documented recovery path. This explicitly does not fit devices using Standard or Wedge slots, a distinction worth verifying carefully since Nano and Standard slots look visually similar.",
-    specs: ["Nano slot, HP/Lenovo/Asus named compatibility", "Resettable 4-wheel dial with online code recovery", "2-year warranty, lifetime technical support"],
-    pros: ["Largest confirmed review base among Nano-specific picks in this comparison", "Online code recovery through Register and Retrieve"],
-    cons: ["Nano slot only, will not fit Standard or Wedge slots", "Priced above the budget Nano combination lock below"],
+    description: "Kensington's own NanoSaver lock, the brand that invented and documents the Nano slot standard, with a slim head keeping select thin HP, Lenovo, and Asus laptops lying flat once locked. This carries the largest confirmed review base of any Nano-specific pick in this comparison.\n\nIt earns the top spot in this comparison over Kensington NanoSaver Keyed Laptop Lock for one main reason. Largest confirmed review base among Nano-specific picks in this comparison. On price, it comes in below Kensington NanoSaver Keyed Laptop Lock, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Online code recovery through Register and Retrieve. On the other side, Priced above the budget Nano combination lock below. That's the main tradeoff to weigh against everything above.",
+    specs: ["Nano slot, HP/Lenovo/Asus named compatibility","Resettable 4-wheel dial with online code recovery","2-year warranty, lifetime technical support"],
+    pros: ["Largest confirmed review base among Nano-specific picks in this comparison","Online code recovery through Register and Retrieve"],
+    cons: ["Nano slot only, will not fit Standard or Wedge slots","Priced above the budget Nano combination lock below"],
     bestFor: "Buyers wanting the most-proven Nano-slot lock with online code recovery.",
   },
   {
@@ -46,10 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "179",
     imageUrl: "https://m.media-amazon.com/images/I/41UwYgqbkOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06XG2B9SB?tag=deskfinds0d-20",
-    description: "The keyed counterpart to the NanoSaver combination lock, built for the same select thin HP and Lenovo laptops with a pivot-and-rotate cable head for one-handed attach despite the smaller Nano head geometry. This carries a 2-year warranty and lifetime technical support.\n\nChoose this over the combination version if you prefer a physical key and don't need online code recovery. This shares the same narrow Nano-only compatibility as its combination sibling.",
-    specs: ["Nano slot, keyed", "One-handed pivot-and-rotate attach", "2-year warranty, lifetime technical support"],
+    description: "The keyed counterpart to the NanoSaver combination lock, built for the same select thin HP and Lenovo laptops with a pivot-and-rotate cable head for one-handed attach despite the smaller Nano head geometry. This carries a 2-year warranty and lifetime technical support.\n\nOne spot below Kensington NanoSaver Combination Laptop Lock in this ranking, it costs more than Kensington NanoSaver Combination Laptop Lock. The compromise here is straightforward: No online recovery path if a key is lost, unlike the combination Nano lock. What you gain in return: Keyed option for buyers who prefer a physical key over a dial. Whether that trade is worth it depends on which side matters more for your device.\n\nWorth knowing before you decide: Keyed option for buyers who prefer a physical key over a dial. On the other side, Narrowest device compatibility in this entire comparison. That's the main tradeoff to weigh against everything above.",
+    specs: ["Nano slot, keyed","One-handed pivot-and-rotate attach","2-year warranty, lifetime technical support"],
     pros: ["Keyed option for buyers who prefer a physical key over a dial"],
-    cons: ["No online recovery path if a key is lost, unlike the combination Nano lock", "Narrowest device compatibility in this entire comparison"],
+    cons: ["No online recovery path if a key is lost, unlike the combination Nano lock","Narrowest device compatibility in this entire comparison"],
     bestFor: "Buyers confirmed to use the Nano slot who prefer a key over a combination dial.",
   },
   {
@@ -62,10 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "160",
     imageUrl: "https://m.media-amazon.com/images/I/217MYhLbLfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CRKGFGQC?tag=deskfinds0d-20",
-    description: "A 5-foot carbon steel cable with an anti-shearing plastic sleeve, sized specifically for the Nano slot at a lower price than the NanoSaver pick above. The lock head pivots 360 degrees and the cable rotates up to 90 degrees, preserving access to nearby ports on a thin laptop.\n\nAt $16.99 this is the lowest-priced Nano-slot lock in this comparison, though it lacks the Register and Retrieve online recovery the pricier NanoSaver includes.",
-    specs: ["Nano slot, resettable 4-wheel dial", "5 ft anti-shearing cable, 360-degree head pivot", "No online code recovery, unlike the NanoSaver pick"],
-    pros: ["Lowest price of any Nano-slot lock in this comparison", "Full head and cable rotation preserves port access"],
-    cons: ["No online code recovery unlike the pricier NanoSaver lock", "Nano slot only, a narrow compatibility pool"],
+    description: "A 5-foot carbon steel cable with an anti-shearing plastic sleeve, sized specifically for the Nano slot at a lower price than the NanoSaver pick above. The lock head pivots 360 degrees and the cable rotates up to 90 degrees, preserving access to nearby ports on a thin laptop.\n\nSitting just under Kensington NanoSaver Keyed Laptop Lock, it's priced lower than Kensington NanoSaver Keyed Laptop Lock. Here's the honest tradeoff: No online code recovery unlike the pricier NanoSaver lock. And here's what it gets you instead: Lowest price of any Nano-slot lock in this comparison. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Full head and cable rotation preserves port access. On the other side, Nano slot only, a narrow compatibility pool. That's the main tradeoff to weigh against everything above.",
+    specs: ["Nano slot, resettable 4-wheel dial","5 ft anti-shearing cable, 360-degree head pivot","No online code recovery, unlike the NanoSaver pick"],
+    pros: ["Lowest price of any Nano-slot lock in this comparison","Full head and cable rotation preserves port access"],
+    cons: ["No online code recovery unlike the pricier NanoSaver lock","Nano slot only, a narrow compatibility pool"],
     bestFor: "Budget-focused buyers on a confirmed Nano slot who don't need online code recovery.",
   },
   {
@@ -78,10 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "125",
     imageUrl: "https://m.media-amazon.com/images/I/416y9Vcu9RL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07QVB4PXC?tag=deskfinds0d-20",
-    description: "A non-Kensington keyed lock explicitly designed for the Nano security slot and explicitly stated to not fit devices using wedge or micro security slots, direct disclosure worth crediting. Two keys are included, and the cable is documented as cut resistant.\n\nAt $18.97 this sits between the budget and premium Nano-slot Kensington picks, giving a documented second-source alternative for buyers who want a non-Kensington brand for the same slot standard.",
-    specs: ["Nano slot only, explicitly not wedge or micro compatible", "Keyed, 2 keys included", "1-year limited warranty"],
-    pros: ["Non-Kensington alternative at a mid-range price", "Explicit, direct incompatibility disclosure for wedge and micro slots"],
-    cons: ["Shorter warranty than Kensington's Nano locks (1 year vs. up to lifetime)", "Smaller review base than the established Kensington NanoSaver picks"],
+    description: "A non-Kensington keyed lock explicitly designed for the Nano security slot and explicitly stated to not fit devices using wedge or micro security slots, direct disclosure worth crediting. Two keys are included, and the cable is documented as cut resistant.\n\nRanked just behind Kensington Combination Laptop Lock for Nano Size Security Slot, it costs more than Kensington Combination Laptop Lock for Nano Size Security Slot. The real tradeoff against that pick: Shorter warranty than Kensington's Nano locks (1 year vs. up to lifetime). In exchange, it offers this instead: Non-Kensington alternative at a mid-range price. That's the swap that decides whether this pick or the one above it is the better fit for your laptop.\n\nWorth knowing before you decide: Explicit, direct incompatibility disclosure for wedge and micro slots. On the other side, Smaller review base than the established Kensington NanoSaver picks. That's the main tradeoff to weigh against everything above.",
+    specs: ["Nano slot only, explicitly not wedge or micro compatible","Keyed, 2 keys included","1-year limited warranty"],
+    pros: ["Non-Kensington alternative at a mid-range price","Explicit, direct incompatibility disclosure for wedge and micro slots"],
+    cons: ["Shorter warranty than Kensington's Nano locks (1 year vs. up to lifetime)","Smaller review base than the established Kensington NanoSaver picks"],
     bestFor: "Buyers wanting a Nano-specific alternative to Kensington at a mid-range price.",
   },
   {
@@ -94,10 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "5",
     imageUrl: "https://m.media-amazon.com/images/I/319DB32T4JL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DH6MZYMQ?tag=deskfinds0d-20",
-    description: "The lowest price of any Nano-slot lock in this comparison at $9.98, also explicitly stating it will not fit wedge or micro security slots. This is a combination mechanism rather than keyed, cut-resistant cable design similar to the Sendt keyed pick above.\n\nAt 2.9 stars this carries by far the lowest rating in this entire comparison, backed by only 5 reviews. We're disclosing this directly rather than omitting it: this is meaningfully worse-rated than every other pick here, and the rock-bottom price should be weighed against that reality.",
-    specs: ["Nano slot only, explicitly not wedge or micro compatible", "Combination mechanism, cut-resistant cable"],
+    description: "The lowest price of any Nano-slot lock in this comparison at $9.98, also explicitly stating it will not fit wedge or micro security slots. This is a combination mechanism rather than keyed, cut-resistant cable design similar to the Sendt keyed pick above.\n\nOne spot below Sendt Silver Notebook Laptop Keyed Lock for Nano Security Slots in this ranking, it's priced lower than Sendt Silver Notebook Laptop Keyed Lock for Nano Security Slots. The compromise here is straightforward: Lowest rating in this entire comparison at 2.9 stars. What you gain in return: Lowest price of any Nano-slot lock in this comparison. Whether that trade is worth it depends on which side matters more for your device.\n\nWorth knowing before you decide: Lowest price of any Nano-slot lock in this comparison. On the other side, Extremely thin review base of only 5 ratings backing that low score. That's the main tradeoff to weigh against everything above.",
+    specs: ["Nano slot only, explicitly not wedge or micro compatible","Combination mechanism, cut-resistant cable"],
     pros: ["Lowest price of any Nano-slot lock in this comparison"],
-    cons: ["Lowest rating in this entire comparison at 2.9 stars", "Extremely thin review base of only 5 ratings backing that low score"],
+    cons: ["Lowest rating in this entire comparison at 2.9 stars","Extremely thin review base of only 5 ratings backing that low score"],
     bestFor: "Budget buyers accepting a materially worse rating than every other pick here for the lowest price.",
   },
   {
@@ -110,12 +110,12 @@ export const products: GuideProduct[] = [
     reviews: "164",
     imageUrl: "https://m.media-amazon.com/images/I/31gawjeeBDS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08T2GTBGW?tag=deskfinds0d-20",
-    description: "Covers the Nano slot alongside Standard and Wedge with interchangeable tips, useful if you're unsure whether your laptop uses Nano specifically or want coverage across multiple devices. Kensington documents this multi-tip claim explicitly rather than a vague universal statement.\n\nRegister and Retrieve online code recovery applies to the Nano tip as well as the others. This is the pragmatic pick if you're not fully certain your device uses the Nano slot specifically versus Standard.",
-    specs: ["Interchangeable Standard, Nano, and Wedge tips, tethered", "6 ft cut-resistant cable, resettable 4-digit dial", "Register and Retrieve online code recovery"],
-    pros: ["Covers Nano alongside Standard and Wedge if you're unsure of your exact slot type", "Longer 6-foot cable than the dedicated Nano-only picks"],
-    cons: ["Priced above the dedicated Nano locks for a confirmed Nano-only need", "Slightly more setup than a dedicated single-slot lock"],
+    description: "Covers the Nano slot alongside Standard and Wedge with interchangeable tips, useful if you're unsure whether your laptop uses Nano specifically or want coverage across multiple devices. Kensington documents this multi-tip claim explicitly rather than a vague universal statement.\n\nSitting just under Black Notebook Laptop Combination Lock for Nano Security Slots, it costs more than Black Notebook Laptop Combination Lock for Nano Security Slots. Here's the honest tradeoff: Priced above the dedicated Nano locks for a confirmed Nano-only need. And here's what it gets you instead: Covers Nano alongside Standard and Wedge if you're unsure of your exact slot type. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Longer 6-foot cable than the dedicated Nano-only picks. On the other side, Slightly more setup than a dedicated single-slot lock. That's the main tradeoff to weigh against everything above.",
+    specs: ["Interchangeable Standard, Nano, and Wedge tips, tethered","6 ft cut-resistant cable, resettable 4-digit dial","Register and Retrieve online code recovery"],
+    pros: ["Covers Nano alongside Standard and Wedge if you're unsure of your exact slot type","Longer 6-foot cable than the dedicated Nano-only picks"],
+    cons: ["Priced above the dedicated Nano locks for a confirmed Nano-only need","Slightly more setup than a dedicated single-slot lock"],
     bestFor: "Buyers unsure whether their laptop uses Nano specifically versus Standard.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -129,29 +129,128 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Access Method",
-    table: {
-      headers: ["What you want", "Recommended Nano-slot pick"],
-      rows: [
-        ["Most proven, combination access", "Kensington NanoSaver Combination Laptop Lock"],
-        ["Keyed access", "Kensington NanoSaver Keyed Laptop Lock"],
-        ["Budget combination", "Kensington Combination Laptop Lock for Nano Size Security Slot"],
-        ["Unsure of exact slot type", "Kensington Universal 3-in-1 Combination Laptop Lock"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Highest star rating",
+          "Kensington NanoSaver Combination Laptop Lock"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "Kensington NanoSaver Combination Laptop Lock"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Nano vs. Wedge: A Common Confusion",
-    note: "Nano and Noble Wedge are both smaller than the Standard T-Bar slot and can look visually similar at a glance, but they are not interchangeable. A lock built for one will not seat in the other. Verify your exact laptop's documented slot type before ordering, especially on ThinkPad models where current Lenovo guides explicitly specify NanoSaver requirements.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $17",
+          "Black Notebook Laptop Combination Lock for Nano Security Slots"
+        ],
+        [
+          "Mid-range",
+          "Kensington Universal 3-in-1 Combination Laptop Lock"
+        ],
+        [
+          "No firm budget ceiling, prioritizing documented compatibility",
+          "Kensington NanoSaver Keyed Laptop Lock"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Combination vs Keyed",
+    "cards": [
+      {
+        "label": "Combination",
+        "text": "A resettable dial avoids the risk of losing a physical key, at the cost of remembering or securely recording a code. In this comparison: Kensington NanoSaver Combination Laptop Lock, Kensington Combination Laptop Lock for Nano Size Security Slot, Black Notebook Laptop Combination Lock for Nano Security Slots."
+      },
+      {
+        "label": "Keyed",
+        "text": "Simple and fast to use, but a lost key means real trouble unless a spare is kept safe. In this comparison: Kensington NanoSaver Keyed Laptop Lock, Sendt Silver Notebook Laptop Keyed Lock for Nano Security Slots."
+      }
+    ]
+  },
+  {
+    "subheading": "By Confirmed Brand/Model Documentation",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Most explicit model-level compatibility documentation",
+          "Kensington NanoSaver Combination Laptop Lock"
+        ],
+        [
+          "Widest general slot-type compatibility",
+          "Kensington Universal 3-in-1 Combination Laptop Lock"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Specific Device Model Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The lock manufacturer's own documented compatibility list naming your exact model and generation, not just a retailer's generic \"fits most laptops\" claim."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Kensington NanoSaver Combination Laptop Lock fits this specifically: Largest confirmed review base among Nano-specific picks in this comparison."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Kensington NanoSaver Keyed Laptop Lock offers: Keyed option for buyers who prefer a physical key over a dial. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Black Notebook Laptop Combination Lock for Nano Security Slots already covers the essentials: Lowest price of any Nano-slot lock in this comparison. The main thing you'd be paying extra for elsewhere in this list is documentation depth or cable reinforcement you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Require explicit Nano-slot documentation, not 'slim' or 'ultrabook' marketing language", explanation: "Retail listings sometimes misuse slim or wedge terminology across incompatible small-slot standards. Verify NanoSaver or equivalent Nano compatibility specifically." },
-  { criterion: "Don't confuse Nano with Noble Wedge, another small-slot standard", explanation: "These are visually similar but physically different systems, and a lock built for one will not seat in the other." },
-  { criterion: "Check your laptop's documentation, especially on ThinkPad models", explanation: "Current Lenovo user guides can explicitly require NanoSaver-standard cable locks on specific ThinkPad models rather than assuming brand-wide compatibility." },
-  { criterion: "Weigh rating honestly, even for the lowest-priced pick", explanation: "One pick in this comparison carries a 2.9-star rating on a thin 5-review base, meaningfully worse than every other Nano-slot lock here." },
-  { criterion: "Treat any Nano-slot lock here as a deterrent, not theft-proof protection", explanation: "Even a fully compatible, well-anchored lock is a deterrent against casual theft, not a guarantee against a determined attacker with cutting tools." },
+  {
+    "criterion": "Confirm your exact laptop's security slot type, since it varies by model and generation, not just brand",
+    "explanation": "Laptop security slots come in a handful of genuinely different physical standards, most commonly the Kensington Standard T-Bar slot (the original, widest design), the smaller Kensington Nano slot found on select thin and light models, and the Noble Wedge slot used by some other manufacturers, and these are not interchangeable, a lock built for one slot type simply will not physically engage a different slot shape.\n\nThis is not a brand-wide constant either: a manufacturer's lineup commonly mixes slot types across different model lines and even across generations of the same model line as laptops get thinner over time, so a lock confirmed compatible with one specific model doesn't guarantee compatibility with a different model from the same brand.\n\nCheck your exact laptop's model number and generation against the lock manufacturer's own documented compatibility list, rather than trusting a generic \"fits all laptops\" or brand-name-only claim from a retailer listing."
+  },
+  {
+    "criterion": "Choose between combination, keyed, and keypad locking mechanisms based on your actual daily habits",
+    "explanation": "A combination lock uses a resettable numeric dial, avoiding the risk of losing a physical key but requiring you to remember (or securely record) the code, a keyed lock uses a physical key that's simple and fast to use but can be lost or need duplicating for multiple users, and a keypad lock uses an electronic push-button code entry, often with additional features like code memory or tamper alerts, at a typically higher price than the other two mechanisms.\n\nNone of these is universally superior, the right choice depends on whether you're more likely to lose a small physical key or forget a numeric code, and whether multiple people need independent access (easier to manage with individually cut keys than a single shared combination).\n\nMatch the mechanism to your own habits and whether you've historically been better at keeping track of small keys or remembering codes, rather than defaulting to whichever type looks most secure in marketing photos."
+  },
+  {
+    "criterion": "Understand that a laptop lock is a deterrent, not a guarantee against a determined thief",
+    "explanation": "Every cable-based laptop lock, regardless of price or brand reputation, can theoretically be defeated by a determined attacker with the right cutting tools and enough uninterrupted time, since the lock's actual security model relies on making theft slow, visible, and effortful enough to discourage casual or opportunistic theft rather than physically preventing a prepared attacker.\n\nThis matters because marketing language around \"military-grade\" or \"unbreakable\" cable locks can create a false sense of absolute security that leads to complacency, such as leaving an expensive laptop locked but unattended in a genuinely high-risk environment for extended periods.\n\nTreat any laptop lock as one layer of a broader security approach (also including where and how long you leave a device unattended), not a standalone guarantee, and set expectations accordingly regardless of how confidently a specific product is marketed."
+  },
+  {
+    "criterion": "Check cable length and material against your actual anchor point and desk setup",
+    "explanation": "A laptop lock's cable needs to physically reach from your laptop's security slot to a suitably solid anchor point, such as a desk leg or a permanently fixed structure, and cable length varies meaningfully between products, from roughly 4 feet up to 6 feet or more, a real practical constraint if your nearest solid anchor point is further from your typical laptop position than a shorter cable can reach.\n\nCable material and construction (braided steel versus a simpler coated cable) also affects cut resistance, a genuinely relevant factor if the lock will sit in a semi-public space like a shared office or a coffee shop rather than a private, supervised room.\n\nMeasure the actual distance from where your laptop typically sits to your nearest solid anchor point before ordering, and favor a reinforced or braided steel cable construction specifically for any semi-public use case."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, especially for lesser-known brands versus established names like Kensington",
+    "explanation": "Kensington effectively created and still dominates the laptop lock category, and its established products carry review counts in the hundreds or thousands built up over years, giving genuine statistical confidence, while newer or lesser-known brands selling similarly-specified locks at a lower price sometimes carry only a handful of reviews, a meaningfully thinner sample for judging real-world reliability of the locking mechanism itself over time.\n\nThis doesn't mean a lesser-known brand is automatically worse, security hardware doesn't require brand-name recognition to function correctly, but it does mean the claims on a thin-review listing carry less independently verified weight, particularly for a security product where mechanism failure has real consequences.\n\nWhen comparing an established brand against a newer, less-reviewed alternative at a similar price, factor the review depth into your confidence level, not just the star rating or the price alone."
+  }
 ];
 
 export const faq: FaqItem[] = [

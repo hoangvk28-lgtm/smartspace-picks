@@ -30,10 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "1447",
     imageUrl: "https://m.media-amazon.com/images/I/41uKp7JP60L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B005J7Y99W?tag=deskfinds0d-20",
-    description: "Built for HP, Lenovo, Acer, and Asus laptops using a Standard security slot, this resettable 4-wheel dial lock gives 10,000 possible code combinations and a push-button one-handed attach. The listing is direct that it will not fit Dell or Alienware laptops from 2016 onward, which switched to a Wedge-type slot instead.\n\nKensington backs it with independent third-party testing across torque, pull, foreign-implement, lock lifecycle, and corrosion resistance, a level of published verification that most unbranded cable locks in this category simply don't offer. The 6-foot carbon steel cable anchors to a desk, table, or any fixed structure, giving it the broadest confirmed review base of any pick in this comparison.",
-    specs: ["Standard T-Bar slot only", "Resettable 4-wheel dial, 10,000 combinations", "6 ft cut-resistant cable, independently torque/pull tested"],
-    pros: ["Largest confirmed review base in this comparison", "Independently tested for torque, pull, and pick resistance", "Push-button one-handed attach"],
-    cons: ["Explicitly incompatible with Dell/Alienware Wedge-slot laptops", "Standard slot only, not Nano or slotless devices"],
+    description: "Built for HP, Lenovo, Acer, and Asus laptops using a Standard security slot, this resettable 4-wheel dial lock gives 10,000 possible code combinations and a push-button one-handed attach. The listing is direct that it will not fit Dell or Alienware laptops from 2016 onward, which switched to a Wedge-type slot instead.\n\nIt earns the top spot in this comparison over Kensington T-Bar Standard Keyed Lock for Laptops for one main reason. Largest confirmed review base in this comparison. On price, it comes in below Kensington T-Bar Standard Keyed Lock for Laptops, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Independently tested for torque, pull, and pick resistance. On the other side, Standard slot only, not Nano or slotless devices. That's the main tradeoff to weigh against everything above.",
+    specs: ["Standard T-Bar slot only","Resettable 4-wheel dial, 10,000 combinations","6 ft cut-resistant cable, independently torque/pull tested"],
+    pros: ["Largest confirmed review base in this comparison","Independently tested for torque, pull, and pick resistance","Push-button one-handed attach"],
+    cons: ["Explicitly incompatible with Dell/Alienware Wedge-slot laptops","Standard slot only, not Nano or slotless devices"],
     bestFor: "HP, Lenovo, Acer, or Asus owners with a confirmed Standard-size security slot.",
   },
   {
@@ -46,10 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "338",
     imageUrl: "https://m.media-amazon.com/images/I/31s5DAKG6ML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01K1JUO14?tag=deskfinds0d-20",
-    description: "A 10mm pivoting lock head with hidden-pin anti-pick technology replaces the dial found on most picks in this list, giving a smaller and stronger head that still seats on thin ultrabooks. A hinge between the cable and the head prevents the awkward locking angle that plagues rigid-head cable locks on a crowded desk.\n\nKensington backs this specific model with 8-year and lifetime technical support, longer than the standard window on its combination locks. It shares the same Standard-slot-only limitation as most of this brand's catalog, so confirm your device isn't a 2016+ Dell or Nano-slot HP model before ordering.",
-    specs: ["10mm pivoting anti-pick tubular lock head", "Hinged cable-to-head connection", "8-year and lifetime technical support"],
-    pros: ["Highest rating among Standard-slot picks in this comparison", "Slim head fits thin ultrabooks older keyed locks can't seat on", "Longest support window in this comparison"],
-    cons: ["No backup code if both keys are lost", "Standard slot only"],
+    description: "A 10mm pivoting lock head with hidden-pin anti-pick technology replaces the dial found on most picks in this list, giving a smaller and stronger head that still seats on thin ultrabooks. A hinge between the cable and the head prevents the awkward locking angle that plagues rigid-head cable locks on a crowded desk.\n\nOne spot below Kensington Combination Cable T-Bar Standard Lock for Laptops in this ranking, it costs more than Kensington Combination Cable T-Bar Standard Lock for Laptops. The compromise here is straightforward: No backup code if both keys are lost. What you gain in return: Highest rating among Standard-slot picks in this comparison. Whether that trade is worth it depends on which side matters more for your device.\n\nWorth knowing before you decide: Slim head fits thin ultrabooks older keyed locks can't seat on. On the other side, Standard slot only. That's the main tradeoff to weigh against everything above.",
+    specs: ["10mm pivoting anti-pick tubular lock head","Hinged cable-to-head connection","8-year and lifetime technical support"],
+    pros: ["Highest rating among Standard-slot picks in this comparison","Slim head fits thin ultrabooks older keyed locks can't seat on","Longest support window in this comparison"],
+    cons: ["No backup code if both keys are lost","Standard slot only"],
     bestFor: "Buyers who prefer a physical key over a dial and have a confirmed Standard slot.",
   },
   {
@@ -62,10 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "777",
     imageUrl: "https://m.media-amazon.com/images/I/318e9NPLaXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07SHJ1RC8?tag=deskfinds0d-20",
-    description: "Purpose-built for the Wedge slot Dell and Alienware moved to on Inspiron, Latitude, Venue, and XPS models starting in 2016, this uses the same resettable 4-wheel, 10,000-combination dial as the Standard-slot picks here, engaging under tension for what Kensington markets as its strongest current lock-head connection. This is not a repurposed Standard lock, the wedge geometry is a genuinely different hardware fit.\n\nLike the Standard-slot version, it's backed by independent torque, pull, and corrosion testing. If your laptop predates 2016 or isn't a Dell/Alienware model, this will not seat correctly, so this is a device-specific purchase rather than a general-purpose lock.",
-    specs: ["Dell/Alienware Wedge slot only", "Resettable 4-wheel dial, 10,000 combinations", "Tapered wedge engagement under tension"],
-    pros: ["Purpose-built for the slot most current Dell/Alienware laptops actually use", "Same independent testing standard as the Standard-slot lock"],
-    cons: ["Will not fit pre-2016 Dell or non-Wedge laptops", "No keyed version in this comparison for Wedge-slot devices"],
+    description: "Purpose-built for the Wedge slot Dell and Alienware moved to on Inspiron, Latitude, Venue, and XPS models starting in 2016, this uses the same resettable 4-wheel, 10,000-combination dial as the Standard-slot picks here, engaging under tension for what Kensington markets as its strongest current lock-head connection. This is not a repurposed Standard lock, the wedge geometry is a genuinely different hardware fit.\n\nSitting just under Kensington T-Bar Standard Keyed Lock for Laptops, it's priced lower than Kensington T-Bar Standard Keyed Lock for Laptops. Here's the honest tradeoff: Will not fit pre-2016 Dell or non-Wedge laptops. And here's what it gets you instead: Purpose-built for the slot most current Dell/Alienware laptops actually use. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Same independent testing standard as the Standard-slot lock. On the other side, No keyed version in this comparison for Wedge-slot devices. That's the main tradeoff to weigh against everything above.",
+    specs: ["Dell/Alienware Wedge slot only","Resettable 4-wheel dial, 10,000 combinations","Tapered wedge engagement under tension"],
+    pros: ["Purpose-built for the slot most current Dell/Alienware laptops actually use","Same independent testing standard as the Standard-slot lock"],
+    cons: ["Will not fit pre-2016 Dell or non-Wedge laptops","No keyed version in this comparison for Wedge-slot devices"],
     bestFor: "2016-and-newer Dell or Alienware owners with a confirmed Wedge-type slot.",
   },
   {
@@ -78,10 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "164",
     imageUrl: "https://m.media-amazon.com/images/I/31gawjeeBDS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08T2GTBGW?tag=deskfinds0d-20",
-    description: "One lock body ships with interchangeable tips covering Standard, Nano, and Wedge slots, tethered so spare tips stay with the lock instead of getting lost in a bag. This is the pick for households or offices with mixed laptop brands, or anyone who hasn't confirmed their exact slot type before buying.\n\nIt carries the same resettable 4-digit, 10,000-combination dial and 6-foot cut-resistant cable as the single-standard Kensington locks in this list, plus Register and Retrieve online code recovery. Universal here means multi-standard, not truly every laptop: it still won't attach to a slotless device like most current MacBook Air models.",
-    specs: ["Interchangeable Standard, Nano, and Wedge tips", "6 ft cut-resistant cable, tethered spare tips", "Register and Retrieve online code recovery"],
-    pros: ["Only pick in this comparison covering all three Kensington slot standards", "Tethered spare tips prevent losing the ones not currently in use"],
-    cons: ["Doesn't cover slotless laptops", "Slightly more setup than a dedicated single-slot lock"],
+    description: "One lock body ships with interchangeable tips covering Standard, Nano, and Wedge slots, tethered so spare tips stay with the lock instead of getting lost in a bag. This is the pick for households or offices with mixed laptop brands, or anyone who hasn't confirmed their exact slot type before buying.\n\nRanked just behind Kensington N17 Dell Laptop Combination Lock, it costs more than Kensington N17 Dell Laptop Combination Lock. The real tradeoff against that pick: Doesn't cover slotless laptops. In exchange, it offers this instead: Only pick in this comparison covering all three Kensington slot standards. That's the swap that decides whether this pick or the one above it is the better fit for your laptop.\n\nWorth knowing before you decide: Tethered spare tips prevent losing the ones not currently in use. On the other side, Slightly more setup than a dedicated single-slot lock. That's the main tradeoff to weigh against everything above.",
+    specs: ["Interchangeable Standard, Nano, and Wedge tips","6 ft cut-resistant cable, tethered spare tips","Register and Retrieve online code recovery"],
+    pros: ["Only pick in this comparison covering all three Kensington slot standards","Tethered spare tips prevent losing the ones not currently in use"],
+    cons: ["Doesn't cover slotless laptops","Slightly more setup than a dedicated single-slot lock"],
     bestFor: "Mixed-brand households or offices, or anyone unsure of their exact slot type.",
   },
   {
@@ -94,10 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "56",
     imageUrl: "https://m.media-amazon.com/images/I/21wh6b9wJwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CRKFVZ9L?tag=deskfinds0d-20",
-    description: "The lowest-priced Standard-slot lock in this comparison, with a 5-foot carbon steel cable wrapped in an anti-shearing plastic sleeve to protect desk and table surfaces where it anchors. The lock head pivots a full 360 degrees and the cable rotates up to 90 degrees, preserving access to nearby ports without needing to unlock and reposition the whole unit.\n\nA one-handed slider attachment lets you lock the laptop without needing a free hand to steady the head. The rating here, 3.9 stars, is the lowest in this comparison, worth weighing directly against the low price rather than assuming it performs identically to the pricier Standard-slot pick above.",
-    specs: ["Standard slot, resettable 4-wheel dial", "5 ft anti-shearing cable", "360-degree head pivot, one-handed slider attach"],
-    pros: ["Lowest price of any Standard-slot lock in this comparison", "Full head and cable rotation preserves port access"],
-    cons: ["Lowest rating in this comparison at 3.9 stars", "Smaller review base than the top Standard-slot picks"],
+    description: "The lowest-priced Standard-slot lock in this comparison, with a 5-foot carbon steel cable wrapped in an anti-shearing plastic sleeve to protect desk and table surfaces where it anchors. The lock head pivots a full 360 degrees and the cable rotates up to 90 degrees, preserving access to nearby ports without needing to unlock and reposition the whole unit.\n\nOne spot below Kensington Universal 3-in-1 Combination Laptop Lock in this ranking, it's priced lower than Kensington Universal 3-in-1 Combination Laptop Lock. The compromise here is straightforward: Lowest rating in this comparison at 3.9 stars. What you gain in return: Lowest price of any Standard-slot lock in this comparison. Whether that trade is worth it depends on which side matters more for your device.\n\nWorth knowing before you decide: Full head and cable rotation preserves port access. On the other side, Smaller review base than the top Standard-slot picks. That's the main tradeoff to weigh against everything above.",
+    specs: ["Standard slot, resettable 4-wheel dial","5 ft anti-shearing cable","360-degree head pivot, one-handed slider attach"],
+    pros: ["Lowest price of any Standard-slot lock in this comparison","Full head and cable rotation preserves port access"],
+    cons: ["Lowest rating in this comparison at 3.9 stars","Smaller review base than the top Standard-slot picks"],
     bestFor: "Budget buyers on a Standard slot who've weighed the lower rating against the price.",
   },
   {
@@ -110,10 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "33",
     imageUrl: "https://m.media-amazon.com/images/I/31a18CQh4kL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CWLTRK4P?tag=deskfinds0d-20",
-    description: "For laptops with no Kensington-style slot at all, most notably MacBook models, this anchors through the 3.5mm audio port instead, with an adapter that plugs into the headphone jack and seats with a turn of a screw. A separate resettable 4-digit combination lock attaches to that anchor point, extending real cut-resistant security to devices the rest of this list simply can't secure.\n\nAt $49.99 it's the most expensive pick here, reflecting the two-part adapter-plus-lock system rather than a single molded head. It occupies the audio port while attached, a real tradeoff if you regularly plug in headphones at your desk, but it's currently the most direct solution for slotless devices without buying a dedicated locking station.",
-    specs: ["Anchors via 3.5mm audio port, no security slot needed", "1.7m cut-resistant steel cable", "Resettable 4-digit combination lock"],
-    pros: ["Only pick in this comparison that secures slotless laptops like MacBooks", "Cable delivers the same cut-resistance tier as the slot-based locks"],
-    cons: ["Highest price in this comparison", "Occupies the audio port while attached"],
+    description: "For laptops with no Kensington-style slot at all, most notably MacBook models, this anchors through the 3.5mm audio port instead, with an adapter that plugs into the headphone jack and seats with a turn of a screw. A separate resettable 4-digit combination lock attaches to that anchor point, extending real cut-resistant security to devices the rest of this list simply can't secure.\n\nSitting just under Kensington Combination Laptop Lock for Standard Security Slot, it costs more than Kensington Combination Laptop Lock for Standard Security Slot. Here's the honest tradeoff: Highest price in this comparison. And here's what it gets you instead: Only pick in this comparison that secures slotless laptops like MacBooks. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Cable delivers the same cut-resistance tier as the slot-based locks. On the other side, Occupies the audio port while attached. That's the main tradeoff to weigh against everything above.",
+    specs: ["Anchors via 3.5mm audio port, no security slot needed","1.7m cut-resistant steel cable","Resettable 4-digit combination lock"],
+    pros: ["Only pick in this comparison that secures slotless laptops like MacBooks","Cable delivers the same cut-resistance tier as the slot-based locks"],
+    cons: ["Highest price in this comparison","Occupies the audio port while attached"],
     bestFor: "Owners of slotless laptops, including most MacBooks, needing any lockable anchor point.",
   },
   {
@@ -126,10 +126,10 @@ export const products: GuideProduct[] = [
     reviews: "487",
     imageUrl: "https://m.media-amazon.com/images/I/41UJt+GGlkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CCJPWH7?tag=deskfinds0d-20",
-    description: "Two full 6-foot locks in one purchase, each with a galvanized wire rope and hardened stainless steel cable rated for 3x7mm keyholes, at the lowest per-unit price in this entire comparison. The listing includes a documented compatibility warning naming specific incompatible models: several Lenovo Ideapad and Flex3 laptops, the Acer Aspire V Nitro and Chromebook R13, several square-keyhole Dell XPS and Alienware models, and Apple MacBook Pro units released after 2014.\n\nThe reset process is manual and specific: the preset code is 0-0-0-0, and changing it requires a small flat-head screwdriver to depress an internal screw before rotating a new combination into place, a more involved process than the simple wheel-turn on the Kensington picks above. At under $10 per lock, this is a genuine budget option, but the narrower and more brand-specific compatibility list means checking your exact model matters more here than with the slot-based Kensington locks.",
-    specs: ["2x 6 ft locks, galvanized wire rope, hardened stainless steel", "3x7mm keyhole compatibility", "Manual screwdriver-based code reset from default 0-0-0-0"],
-    pros: ["Lowest per-unit price in this comparison, two locks for one purchase", "High-security wire rope construction typically found on pricier locks"],
-    cons: ["Explicit incompatibility list includes several Lenovo, Acer, and Dell models", "Lowest independent rating among the higher-review-count picks"],
+    description: "Two full 6-foot locks in one purchase, each with a galvanized wire rope and hardened stainless steel cable rated for 3x7mm keyholes, at the lowest per-unit price in this entire comparison. The listing includes a documented compatibility warning naming specific incompatible models: several Lenovo Ideapad and Flex3 laptops, the Acer Aspire V Nitro and Chromebook R13, several square-keyhole Dell XPS and Alienware models, and Apple MacBook Pro units released after 2014.\n\nRanked just behind Multplx Universal Laptop Security Lock, it's priced lower than Multplx Universal Laptop Security Lock. The real tradeoff against that pick: Explicit incompatibility list includes several Lenovo, Acer, and Dell models. In exchange, it offers this instead: Lowest per-unit price in this comparison, two locks for one purchase. That's the swap that decides whether this pick or the one above it is the better fit for your laptop.\n\nWorth knowing before you decide: High-security wire rope construction typically found on pricier locks. On the other side, Lowest independent rating among the higher-review-count picks. That's the main tradeoff to weigh against everything above.",
+    specs: ["2x 6 ft locks, galvanized wire rope, hardened stainless steel","3x7mm keyhole compatibility","Manual screwdriver-based code reset from default 0-0-0-0"],
+    pros: ["Lowest per-unit price in this comparison, two locks for one purchase","High-security wire rope construction typically found on pricier locks"],
+    cons: ["Explicit incompatibility list includes several Lenovo, Acer, and Dell models","Lowest independent rating among the higher-review-count picks"],
     bestFor: "Budget buyers needing two locks at once, after confirming their model isn't on the incompatibility list.",
   },
   {
@@ -142,12 +142,12 @@ export const products: GuideProduct[] = [
     reviews: "487",
     imageUrl: "https://m.media-amazon.com/images/I/417eI4numZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B076JDD954?tag=deskfinds0d-20",
-    description: "The keyed counterpart to the combination 2-pack above, at the same price point and with the same galvanized wire rope and hardened stainless steel construction rated for 3x7mm keyholes. Each of the two locks ships with two keys, a total of four keys across the pack, a meaningful backup buffer against losing one.\n\nThe same compatibility warning applies here as the combination version: several specific Lenovo, Acer, and Dell/Alienware models with square keyholes, plus MacBook Pro units released after 2014, are explicitly listed as incompatible. Choose this over the combination version if you'd rather manage physical keys than remember or reset a code, and confirm your model isn't on that list first.",
-    specs: ["2x 6 ft locks, keyed with 2 keys each (4 total)", "Galvanized wire rope, hardened stainless steel", "3x7mm keyhole compatibility"],
-    pros: ["Four total keys across the two-lock pack, a real backup buffer", "Same budget price and dual-lock value as the combination version"],
-    cons: ["Same documented incompatibility list with specific Lenovo, Acer, and Dell models", "No code-reset flexibility, keyed only"],
+    description: "The keyed counterpart to the combination 2-pack above, at the same price point and with the same galvanized wire rope and hardened stainless steel construction rated for 3x7mm keyholes. Each of the two locks ships with two keys, a total of four keys across the pack, a meaningful backup buffer against losing one.\n\nOne spot below AOMGD 2-Pack Laptop Lock Notebook Combination Lock Security Cable in this ranking, it costs more than AOMGD 2-Pack Laptop Lock Notebook Combination Lock Security Cable. The compromise here is straightforward: Same documented incompatibility list with specific Lenovo, Acer, and Dell models. What you gain in return: Four total keys across the two-lock pack, a real backup buffer. Whether that trade is worth it depends on which side matters more for your device.\n\nWorth knowing before you decide: Same budget price and dual-lock value as the combination version. On the other side, No code-reset flexibility, keyed only. That's the main tradeoff to weigh against everything above.",
+    specs: ["2x 6 ft locks, keyed with 2 keys each (4 total)","Galvanized wire rope, hardened stainless steel","3x7mm keyhole compatibility"],
+    pros: ["Four total keys across the two-lock pack, a real backup buffer","Same budget price and dual-lock value as the combination version"],
+    cons: ["Same documented incompatibility list with specific Lenovo, Acer, and Dell models","No code-reset flexibility, keyed only"],
     bestFor: "Budget buyers who prefer physical keys over a resettable code, after checking model compatibility.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -162,53 +162,128 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Confirmed Slot Type",
-    intro: "Identify your exact security slot before anything else. It's the single hardware fact that determines which locks are even physically possible.",
-    table: {
-      headers: ["Your laptop's slot", "Recommended pick"],
-      rows: [
-        ["Standard T-Bar (most HP, Lenovo, Acer, Asus)", "Kensington Combination Cable T-Bar Standard Lock"],
-        ["Wedge (2016+ Dell, Alienware)", "Kensington N17 Dell Laptop Combination Lock"],
-        ["Unsure, or mixed devices in one household/office", "Kensington Universal 3-in-1 Combination Laptop Lock"],
-        ["No security slot at all (most MacBook models)", "Multplx Universal Laptop Security Lock (audio port anchor)"],
+    "subheading": "By Slot Type",
+    "table": {
+      "headers": [
+        "Your laptop's slot",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Confirmed standard slot",
+          "Kensington Combination Cable T-Bar Standard Lock for Laptops"
+        ],
+        [
+          "Confirmed nano slot",
+          "Kensington Universal 3-in-1 Combination Laptop Lock"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    cards: [
-      { label: "Under $15", text: "The AOMGD 2-packs deliver two full locks for under $10 total, or the Kensington Standard-slot lock at $12.72, provided your exact model isn't on either brand's incompatibility list." },
-      { label: "$25-$35, best all-around confidence", text: "The Kensington Combination Cable T-Bar and N17 Dell locks combine the largest review bases in this comparison with independent third-party testing." },
-    ],
-  },
-  {
-    subheading: "Slotless Laptops Need a Different Approach Entirely",
-    note: "If your laptop has no Kensington-style slot, most current MacBook models included, a Standard, Wedge, or Nano lock simply cannot attach no matter how compatible it looks otherwise. You need a purpose-built adapter, locking station, or audio-port anchor instead. See our dedicated guide to laptop locks for MacBook Air for the deeper breakdown.",
-  },
-  {
-    subheading: "Full Price and Rating Reference",
-    table: {
-      headers: ["Pick", "Price", "Rating"],
-      rows: [
-        ["Kensington T-Bar Standard Combination", "$26.42", "4.4"],
-        ["Kensington T-Bar Standard Keyed", "$35.98", "4.5"],
-        ["Kensington N17 Dell Wedge Combination", "$23.98", "4.3"],
-        ["Kensington Universal 3-in-1", "$27.99", "4.2"],
-        ["Kensington Standard Combination (budget)", "$12.72", "3.9"],
-        ["Multplx Audio Port Anchor", "$49.99", "4.0"],
-        ["AOMGD 2-Pack Combination", "$9.99", "3.8"],
-        ["AOMGD 2-Pack Keyed", "$9.99", "3.8"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $10",
+          "AOMGD 2-Pack Laptop Lock Notebook Combination Lock Security Cable"
+        ],
+        [
+          "Mid-range",
+          "Kensington Combination Cable T-Bar Standard Lock for Laptops"
+        ],
+        [
+          "No firm budget ceiling, prioritizing documented compatibility",
+          "Multplx Universal Laptop Security Lock"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Combination vs Keyed",
+    "cards": [
+      {
+        "label": "Combination",
+        "text": "A resettable dial avoids the risk of losing a physical key, at the cost of remembering or securely recording a code. In this comparison: Kensington Combination Cable T-Bar Standard Lock for Laptops, Kensington N17 Dell Laptop Combination Lock, Kensington Universal 3-in-1 Combination Laptop Lock."
+      },
+      {
+        "label": "Keyed",
+        "text": "Simple and fast to use, but a lost key means real trouble unless a spare is kept safe. In this comparison: Kensington T-Bar Standard Keyed Lock for Laptops, AOMGD 2-Pack 6ft Laptop Lock Notebook Security Cable Lock."
+      }
+    ]
+  },
+  {
+    "subheading": "By Confirmed Brand/Model Documentation",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Most explicit model-level compatibility documentation",
+          "Kensington Combination Cable T-Bar Standard Lock for Laptops"
+        ],
+        [
+          "Widest general slot-type compatibility",
+          "AOMGD 2-Pack 6ft Laptop Lock Notebook Security Cable Lock"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Specific Device Model Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The lock manufacturer's own documented compatibility list naming your exact model and generation, not just a retailer's generic \"fits most laptops\" claim."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Kensington Combination Cable T-Bar Standard Lock for Laptops fits this specifically: Largest confirmed review base in this comparison."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Multplx Universal Laptop Security Lock offers: Only pick in this comparison that secures slotless laptops like MacBooks. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "AOMGD 2-Pack Laptop Lock Notebook Combination Lock Security Cable already covers the essentials: Lowest per-unit price in this comparison, two locks for one purchase. The main thing you'd be paying extra for elsewhere in this list is documentation depth or cable reinforcement you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Identify your exact security-slot type before comparing anything else", explanation: "Standard, Wedge, and Nano slots are not interchangeable. A highly rated lock built for the wrong slot standard has zero security value on your specific laptop." },
-  { criterion: "Evaluate the whole security chain, not just the cable rating", explanation: "Lock-head engagement, cable construction, and a genuinely fixed anchor point all matter together. A strong cable tethered to a light table defeats the purpose." },
-  { criterion: "Check documented incompatibility lists, not just compatibility claims", explanation: "The AOMGD locks in this comparison publish specific incompatible models by name, including several Lenovo, Acer, and Dell laptops. Read the exclusion list, not just the marketing copy." },
-  { criterion: "Slotless laptops need a fundamentally different product", explanation: "Most current MacBook models have no Kensington-style slot at all. An audio-port anchor or a dedicated locking station is required, not a Standard or Wedge lock." },
-  { criterion: "Treat any cable lock as a theft deterrent, not theft-proof protection", explanation: "Every pick in this comparison slows down or discourages casual theft. None guarantee protection against a determined attacker with cutting tools." },
+  {
+    "criterion": "Confirm your exact laptop's security slot type, since it varies by model and generation, not just brand",
+    "explanation": "Laptop security slots come in a handful of genuinely different physical standards, most commonly the Kensington Standard T-Bar slot (the original, widest design), the smaller Kensington Nano slot found on select thin and light models, and the Noble Wedge slot used by some other manufacturers, and these are not interchangeable, a lock built for one slot type simply will not physically engage a different slot shape.\n\nThis is not a brand-wide constant either: a manufacturer's lineup commonly mixes slot types across different model lines and even across generations of the same model line as laptops get thinner over time, so a lock confirmed compatible with one specific model doesn't guarantee compatibility with a different model from the same brand.\n\nCheck your exact laptop's model number and generation against the lock manufacturer's own documented compatibility list, rather than trusting a generic \"fits all laptops\" or brand-name-only claim from a retailer listing."
+  },
+  {
+    "criterion": "Choose between combination, keyed, and keypad locking mechanisms based on your actual daily habits",
+    "explanation": "A combination lock uses a resettable numeric dial, avoiding the risk of losing a physical key but requiring you to remember (or securely record) the code, a keyed lock uses a physical key that's simple and fast to use but can be lost or need duplicating for multiple users, and a keypad lock uses an electronic push-button code entry, often with additional features like code memory or tamper alerts, at a typically higher price than the other two mechanisms.\n\nNone of these is universally superior, the right choice depends on whether you're more likely to lose a small physical key or forget a numeric code, and whether multiple people need independent access (easier to manage with individually cut keys than a single shared combination).\n\nMatch the mechanism to your own habits and whether you've historically been better at keeping track of small keys or remembering codes, rather than defaulting to whichever type looks most secure in marketing photos."
+  },
+  {
+    "criterion": "Understand that a laptop lock is a deterrent, not a guarantee against a determined thief",
+    "explanation": "Every cable-based laptop lock, regardless of price or brand reputation, can theoretically be defeated by a determined attacker with the right cutting tools and enough uninterrupted time, since the lock's actual security model relies on making theft slow, visible, and effortful enough to discourage casual or opportunistic theft rather than physically preventing a prepared attacker.\n\nThis matters because marketing language around \"military-grade\" or \"unbreakable\" cable locks can create a false sense of absolute security that leads to complacency, such as leaving an expensive laptop locked but unattended in a genuinely high-risk environment for extended periods.\n\nTreat any laptop lock as one layer of a broader security approach (also including where and how long you leave a device unattended), not a standalone guarantee, and set expectations accordingly regardless of how confidently a specific product is marketed."
+  },
+  {
+    "criterion": "Check cable length and material against your actual anchor point and desk setup",
+    "explanation": "A laptop lock's cable needs to physically reach from your laptop's security slot to a suitably solid anchor point, such as a desk leg or a permanently fixed structure, and cable length varies meaningfully between products, from roughly 4 feet up to 6 feet or more, a real practical constraint if your nearest solid anchor point is further from your typical laptop position than a shorter cable can reach.\n\nCable material and construction (braided steel versus a simpler coated cable) also affects cut resistance, a genuinely relevant factor if the lock will sit in a semi-public space like a shared office or a coffee shop rather than a private, supervised room.\n\nMeasure the actual distance from where your laptop typically sits to your nearest solid anchor point before ordering, and favor a reinforced or braided steel cable construction specifically for any semi-public use case."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, especially for lesser-known brands versus established names like Kensington",
+    "explanation": "Kensington effectively created and still dominates the laptop lock category, and its established products carry review counts in the hundreds or thousands built up over years, giving genuine statistical confidence, while newer or lesser-known brands selling similarly-specified locks at a lower price sometimes carry only a handful of reviews, a meaningfully thinner sample for judging real-world reliability of the locking mechanism itself over time.\n\nThis doesn't mean a lesser-known brand is automatically worse, security hardware doesn't require brand-name recognition to function correctly, but it does mean the claims on a thin-review listing carry less independently verified weight, particularly for a security product where mechanism failure has real consequences.\n\nWhen comparing an established brand against a newer, less-reviewed alternative at a similar price, factor the review depth into your confidence level, not just the star rating or the price alone."
+  }
 ];
 
 export const faq: FaqItem[] = [
