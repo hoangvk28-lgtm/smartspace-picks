@@ -31,10 +31,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41PsJYHqW7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08P5LRY37?tag=deskfinds0d-20",
     description:
-      "12 outlets and 2700 joules, genuine capacity for a full computer setup with a PC, monitor, external drives, and networking equipment sharing the same joule budget. Large, well-established review base.\n\nThis protects against external electrical events, not internal PC hardware failure, a separate scope buyers sometimes conflate.",
-    specs: ["12 outlets, 4 USB ports", "2700 joules, ETL listed", "6ft cord", "Large review base"],
-    pros: ["High outlet count for a full computer workstation setup", "Large, well-established review base", "Genuine 2700 joule surge protection", "ETL listed"],
-    cons: ["No Ethernet/coax pass-through surge protection", "Multiple devices share the same joule budget faster", "No USB-C port"],
+      "12 outlets and 2700 joules, genuine capacity for a full computer setup with a PC, monitor, external drives, and networking equipment sharing the same joule budget. Large, well-established review base.\\n\\nThis protects against external electrical events, not internal PC hardware failure, a separate scope buyers sometimes conflate.\n\nIt leads this comparison on the strength of its balance of disclosed joule rating, outlet count, and review base, worth weighing directly against the Surge Protector Power Strip 4800J.\n\nWorth knowing before you decide: Large, well-established review base. On the other side, No Ethernet/coax pass-through surge protection. That's the main tradeoff to weigh against your own equipment and outlet needs.",
+    specs: ["12 outlets, 4 USB ports","2700 joules, ETL listed","6ft cord","Large review base"],
+    pros: ["High outlet count for a full computer workstation setup","Large, well-established review base","Genuine 2700 joule surge protection","ETL listed"],
+    cons: ["No Ethernet/coax pass-through surge protection","Multiple devices share the same joule budget faster","No USB-C port"],
     bestFor: "Buyers with a full computer setup including monitor and peripherals",
   },
   {
@@ -48,10 +48,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41eRaMa6u1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CN6V6M5F?tag=deskfinds0d-20",
     description:
-      "4800 joules, the highest rating in this guide, real headroom for a workstation with a PC, multiple monitors, and networking gear all sharing the same protection budget. USB-C charging included.\n\nA high-value GPU or workstation PC represents concentrated risk, this higher joule rating gives more cumulative capacity before meaningful depletion.",
-    specs: ["12 outlets, 4800 joules", "10ft cord, wall mountable", "2 USB-C, 2 USB-A", "Desk charging station design"],
-    pros: ["Highest joule rating in this guide", "12 outlets for a full computer setup with peripherals", "USB-C charging included", "10ft cord for placement flexibility"],
-    cons: ["Smaller review base than mass-market picks", "No Ethernet/coax pass-through protection", "Larger footprint"],
+      "4800 joules, the highest rating in this guide, real headroom for a workstation with a PC, multiple monitors, and networking gear all sharing the same protection budget. USB-C charging included.\\n\\nA high-value GPU or workstation PC represents concentrated risk, this higher joule rating gives more cumulative capacity before meaningful depletion.\n\nSet against the Power Strip, the tradeoff here comes down to price versus disclosed joule rating and outlet count, not a straightforward upgrade or downgrade either way.\n\nWorth knowing before you decide: 12 outlets for a full computer setup with peripherals. On the other side, Smaller review base than mass-market picks. That's the main tradeoff to weigh against your own equipment and outlet needs.",
+    specs: ["12 outlets, 4800 joules","10ft cord, wall mountable","2 USB-C, 2 USB-A","Desk charging station design"],
+    pros: ["Highest joule rating in this guide","12 outlets for a full computer setup with peripherals","USB-C charging included","10ft cord for placement flexibility"],
+    cons: ["Smaller review base than mass-market picks","No Ethernet/coax pass-through protection","Larger footprint"],
     bestFor: "Buyers with a high-value computer setup wanting maximum joule headroom",
   },
   {
@@ -65,10 +65,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41w1NL7yU4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B092J8LPWR?tag=deskfinds0d-20",
     description:
-      "The largest review base of any pick in this guide, genuine evidence of reliability at an affordable price for a basic computer and monitor setup. Braided cord for durability.\n\nAppropriate for a single PC and monitor rather than a full workstation with many peripherals sharing the joule budget.",
-    specs: ["1080 joules surge protection", "Braided 5ft cord", "Largest review base in this guide", "Budget-friendly"],
-    pros: ["Largest review base of any pick in this guide", "Genuine surge protection at an affordable price", "Durable braided cord", "Appropriate for a basic setup"],
-    cons: ["Lower joule rating for a single PC and monitor only", "No USB ports", "Not enough headroom for a full multi-peripheral workstation"],
+      "The largest review base of any pick in this guide, genuine evidence of reliability at an affordable price for a basic computer and monitor setup. Braided cord for durability.\\n\\nAppropriate for a single PC and monitor rather than a full workstation with many peripherals sharing the joule budget.\n\nRelative to the Surge Protector Power Strip 4800J, this pick leans toward a different priority, whether that's a lower price, more outlets, or a form factor suited to a different install situation.\n\nWorth knowing before you decide: Genuine surge protection at an affordable price. On the other side, Lower joule rating for a single PC and monitor only. That's the main tradeoff to weigh against your own equipment and outlet needs.",
+    specs: ["1080 joules surge protection","Braided 5ft cord","Largest review base in this guide","Budget-friendly"],
+    pros: ["Largest review base of any pick in this guide","Genuine surge protection at an affordable price","Durable braided cord","Appropriate for a basic setup"],
+    cons: ["Lower joule rating for a single PC and monitor only","No USB ports","Not enough headroom for a full multi-peripheral workstation"],
     bestFor: "Budget-conscious buyers with a basic single PC and monitor setup",
   },
   {
@@ -82,10 +82,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415tn9cXV7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6S6TPRH?tag=deskfinds0d-20",
     description:
-      "Explicitly marketed for computer and laptop use, UL listed with 3,780 joules from an established brand, real build-quality confidence for protecting valuable computer equipment. 8ft cord.\n\nVerify any connected-equipment warranty's payout cap against the realistic replacement cost of your specific computer setup before relying on it.",
-    specs: ["12 outlets, 3780 joules", "UL listed, 8ft flat plug cord", "Established Belkin brand", "Explicitly marketed for computers"],
-    pros: ["Explicitly marketed and designed for computer protection", "UL listed for verified safety", "Established Belkin brand reputation", "High joule rating and outlet count"],
-    cons: ["Higher price reflecting the established brand", "Verify connected-equipment warranty payout cap separately", "No Ethernet/coax pass-through protection"],
+      "Explicitly marketed for computer and laptop use, UL listed with 3,780 joules from an established brand, real build-quality confidence for protecting valuable computer equipment. 8ft cord.\\n\\nVerify any connected-equipment warranty's payout cap against the realistic replacement cost of your specific computer setup before relying on it.\n\nCompared with the HANYCONY Surge Protector Power Strip above, this pick trades some of that pick's proven track record for a different balance of price and joule rating, worth weighing against your own equipment.\n\nWorth knowing before you decide: UL listed for verified safety. On the other side, Higher price reflecting the established brand. That's the main tradeoff to weigh against your own equipment and outlet needs.",
+    specs: ["12 outlets, 3780 joules","UL listed, 8ft flat plug cord","Established Belkin brand","Explicitly marketed for computers"],
+    pros: ["Explicitly marketed and designed for computer protection","UL listed for verified safety","Established Belkin brand reputation","High joule rating and outlet count"],
+    cons: ["Higher price reflecting the established brand","Verify connected-equipment warranty payout cap separately","No Ethernet/coax pass-through protection"],
     bestFor: "Buyers who want an established brand's explicit computer protection claim",
   },
   {
@@ -99,12 +99,12 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41J41Z-k38L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09F2XPJ47?tag=deskfinds0d-20",
     description:
-      "8 outlets and 4 USB ports at 2700 joules, genuine surge protection with charging capability for phones and tablets alongside your computer setup. Large, well-established review base.\n\nRemember this doesn't address internal PC hardware faults, only external electrical events like grid fluctuations.",
-    specs: ["8 outlets, 4 USB ports, flat plug", "2700 joules, ETL listed", "6ft cord", "Large review base"],
-    pros: ["Genuine 2700 joule surge protection", "4 USB ports for phone and tablet charging", "Large, well-established review base", "ETL listed"],
-    cons: ["No Ethernet/coax pass-through protection", "No USB-C port", "Doesn't address internal PC hardware faults"],
+      "8 outlets and 4 USB ports at 2700 joules, genuine surge protection with charging capability for phones and tablets alongside your computer setup. Large, well-established review base.\\n\\nRemember this doesn't address internal PC hardware faults, only external electrical events like grid fluctuations.\n\nSet against the Belkin 12, the tradeoff here comes down to price versus disclosed joule rating and outlet count, not a straightforward upgrade or downgrade either way.\n\nWorth knowing before you decide: 4 USB ports for phone and tablet charging. On the other side, No Ethernet/coax pass-through protection. That's the main tradeoff to weigh against your own equipment and outlet needs.",
+    specs: ["8 outlets, 4 USB ports, flat plug","2700 joules, ETL listed","6ft cord","Large review base"],
+    pros: ["Genuine 2700 joule surge protection","4 USB ports for phone and tablet charging","Large, well-established review base","ETL listed"],
+    cons: ["No Ethernet/coax pass-through protection","No USB-C port","Doesn't address internal PC hardware faults"],
     bestFor: "Buyers who want computer surge protection alongside phone and tablet charging",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -117,24 +117,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "A Surge Protector Doesn't Protect Against Internal PC Failures",
-    note: "A surge protector protects against externally-sourced surges, grid fluctuations, nearby lightning, but does nothing for internally-generated power supply failures or other internal PC hardware faults. Buyers sometimes conflate 'surge protector' with general PC hardware protection, this device specifically addresses external electrical events.",
+    "subheading": "By Disclosed Joule Rating",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around 4800 joules",
+          "Surge Protector Power Strip 4800J"
+        ],
+        [
+          "Around 3780 joules",
+          "Belkin 12"
+        ],
+        [
+          "Around 2700 joules",
+          "Power Strip"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Multiple Computer Peripherals Deplete the Joule Budget Faster",
-    note: "A realistic computer workstation involves multiple connected devices, monitor, external drives, networking equipment, sharing one surge protector's cumulative joule budget. This accelerates joule-rating depletion compared to a single-device setup, size your capacity accordingly.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $12",
+          "HANYCONY Surge Protector Power Strip"
+        ],
+        [
+          "Up to $29",
+          "Belkin 12"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Verify Connected-Equipment Warranty Coverage",
-    note: "Connected-equipment warranty programs typically require proof of purchase for both the surge protector and the damaged equipment, and often exclude damage from surges exceeding the unit's rated capacity. Verify the payout cap actually covers your computer setup's realistic replacement cost before relying on this coverage.",
+    "subheading": "USB-C Charging vs Outlets-Only",
+    "cards": [
+      {
+        "label": "Built-in USB-C charging",
+        "text": "Saves an outlet slot per device charged directly, useful if you regularly charge phones or tablets at your desk. In this comparison: Surge Protector Power Strip 4800J."
+      },
+      {
+        "label": "Outlets-only",
+        "text": "No built-in charging ports, but often a lower price and simpler design for equipment that only needs AC power. In this comparison: HANYCONY Surge Protector Power Strip, Belkin 12."
+      }
+    ],
+    "note": "Default to a USB-equipped strip unless you already have enough dedicated chargers and want to save on price."
   },
+  {
+    "subheading": "By Plug Type",
+    "table": {
+      "headers": [
+        "Desk situation",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Tight space behind furniture, flat plug needed",
+          "Surge Protector Power Strip 4800J"
+        ],
+        [
+          "Standard outlet clearance",
+          "Power Strip"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Home Office Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A disclosed joule rating of at least 1000-2000 with UL 1449 certification, plus enough spaced outlets for a monitor, dock, and peripherals."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Surge Protector Power Strip 4800J discloses the highest joule rating at 4800 joules."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Your equipment is expensive or sensitive, where Belkin 12's higher price buys real protection headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You're protecting lower-value, easily replaceable electronics, where HANYCONY Surge Protector Power Strip covers the same basic job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "A surge protector addresses external events, not internal PC hardware failure", explanation: "It protects against grid fluctuations and nearby lightning, not internally-generated power supply failures or other internal hardware faults, don't conflate the two." },
-  { criterion: "Multiple peripherals sharing one strip deplete the joule budget faster", explanation: "A monitor, external drives, and networking equipment sharing one surge protector's cumulative capacity depletes it faster than a single-device setup, size capacity to your realistic full workstation." },
-  { criterion: "Verify connected-equipment warranty payout against realistic replacement cost", explanation: "These warranties typically cap payout per claim, verify the limit actually covers your specific computer setup's realistic replacement cost, not just assume adequate coverage." },
-  { criterion: "Ethernet/coax pass-through protection is a separate feature most computer strips lack", explanation: "Surges can travel through network or phone lines independently of the AC line, a surge protector without this pass-through leaves your network connection as a potential entry point." },
+  {
+    "criterion": "Check the disclosed joule rating, not just the word \"surge protector\"",
+    "explanation": "A joule rating measures how much total surge energy a device can absorb before it needs replacing, and plenty of products marketed simply as a \"power strip\" or \"surge protector\" either omit this number entirely or bury it deep in the specs.\n\nThis matters because a device with no real joule rating, or a very low one under 600, may offer only minimal protection, essentially a glorified extension cord with a marketing label, while a legitimate surge protector for computer or home-office equipment typically starts around 1000 to 2000 joules or higher.\n\nLook for the specific joule number stated in the listing title or bullet points, and treat any listing that only says \"surge protection\" with no number attached as a red flag."
+  },
+  {
+    "criterion": "Match outlet count and spacing to what you're actually plugging in",
+    "explanation": "The number of outlets on the spec sheet doesn't tell the whole story, spacing between outlets matters just as much, since bulky wall adapters or power bricks for a monitor, printer, or charger can block adjacent outlets even on a strip that technically has enough slots.\n\nThis is a common real-world frustration where a 6-outlet strip effectively becomes a 3 or 4-outlet strip once actual devices are plugged in.\n\nCheck product photos and reviews for outlet spacing specifically, and count how many bulky adapters you'll actually need to plug in side by side before assuming the listed outlet count covers your setup."
+  },
+  {
+    "criterion": "Verify UL listing, since surge protection claims aren't self-certifying",
+    "explanation": "UL (Underwriters Laboratories) certification is an independent third-party safety and performance verification, not a marketing claim a manufacturer can just assert on its own.\n\nA genuine surge protector should carry UL 1449 certification specifically, the standard for surge protective devices, distinct from a basic UL listing that only covers general electrical safety without verifying surge performance. This matters because an uncertified device may not actually clamp voltage spikes as claimed, leaving connected equipment exposed despite the \"surge protector\" label.\n\nCheck the listing or product photos for a UL 1449 mark specifically, not just a generic UL logo."
+  },
+  {
+    "criterion": "Consider USB ports and their combined wattage, not just port count",
+    "explanation": "A strip listing 4 USB ports doesn't guarantee those ports can charge 4 devices at full speed simultaneously, the ports typically share a combined wattage budget, so charging speed can drop noticeably when multiple devices draw power at once.\n\nThis matters more if you regularly charge a phone, tablet, and other device all at the same time from the same strip, versus occasional single-device charging.\n\nCheck the listing for total USB output in watts, not just the port count, and compare that figure against your devices' actual charging requirements if fast charging matters to you."
+  },
+  {
+    "criterion": "Check the warranty and connected-equipment protection guarantee",
+    "explanation": "Many legitimate surge protectors back their protection with a manufacturer's connected-equipment warranty, a dollar-amount guarantee to cover damage to plugged-in devices if the surge protector fails to do its job.\n\nThis is a meaningfully stronger signal of manufacturer confidence than a basic product warranty covering only the strip itself, since it puts real money behind the surge-protection claim.\n\nCheck the listing for a specific connected-equipment warranty amount and duration, and treat the absence of one as a sign the surge protection claim may be more marketing than substance."
+  }
 ];
 
 export const faq: FaqItem[] = [

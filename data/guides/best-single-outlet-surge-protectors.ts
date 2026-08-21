@@ -31,10 +31,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ovehM96AL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00006B81E?tag=deskfinds0d-20",
     description:
-      "600 joules dedicated entirely to a single device, real protection-per-device value since there's no shared-load dilution across multiple outlets. Diagnostic LEDs and lifetime guarantee with $5,000 connected equipment insurance.\n\nCheck whether this compact direct-plug design blocks the second half of a standard duplex wall outlet before assuming both outlet slots remain usable.",
-    specs: ["Single outlet, 600 joules", "Diagnostic LEDs", "Lifetime guarantee, $5,000 insurance", "Compact direct-plug design"],
-    pros: ["Genuine protection-per-device value with no shared-load dilution", "Diagnostic LEDs for status visibility", "Lifetime guarantee and connected equipment insurance", "Large, well-established review base"],
-    cons: ["May block the adjacent outlet on a standard duplex receptacle", "Single device only", "Direct-wall-plug design sits close to potentially limited-airflow wall space"],
+      "600 joules dedicated entirely to a single device, real protection-per-device value since there's no shared-load dilution across multiple outlets. Diagnostic LEDs and lifetime guarantee with $5,000 connected equipment insurance.\\n\\nCheck whether this compact direct-plug design blocks the second half of a standard duplex wall outlet before assuming both outlet slots remain usable.\n\nIt leads this comparison on the strength of its balance of disclosed joule rating, outlet count, and review base, worth weighing directly against the [ETL Listed] Cable Matters 1350J Single Outlet Surge Protector.\n\nWorth knowing before you decide: Diagnostic LEDs for status visibility. On the other side, May block the adjacent outlet on a standard duplex receptacle. That's the main tradeoff to weigh against your own equipment and outlet needs.",
+    specs: ["Single outlet, 600 joules","Diagnostic LEDs","Lifetime guarantee, $5,000 insurance","Compact direct-plug design"],
+    pros: ["Genuine protection-per-device value with no shared-load dilution","Diagnostic LEDs for status visibility","Lifetime guarantee and connected equipment insurance","Large, well-established review base"],
+    cons: ["May block the adjacent outlet on a standard duplex receptacle","Single device only","Direct-wall-plug design sits close to potentially limited-airflow wall space"],
     bestFor: "Buyers who want dedicated, undiluted protection for one high-value device",
   },
   {
@@ -48,10 +48,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31e0JpMEJvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09NP7VSNK?tag=deskfinds0d-20",
     description:
-      "1350 joules dedicated to a single device, more than double the top pick's rating, genuine extra headroom for a particularly valuable single device. ETL listed.\n\nCompare this to buying two lower-joule single-outlet units for two devices versus splitting one multi-outlet strip's budget across several, this dedicated approach protects each device independently.",
-    specs: ["Single outlet, 1350 joules", "ETL listed", "Compact design", "Affordable"],
-    pros: ["Higher joule rating than the top pick for a single device", "ETL listed for verified safety", "Very affordable", "Solid rating base"],
-    cons: ["May block the adjacent outlet on a standard duplex receptacle", "Single device only", "Smaller review base than the top pick"],
+      "1350 joules dedicated to a single device, more than double the top pick's rating, genuine extra headroom for a particularly valuable single device. ETL listed.\\n\\nCompare this to buying two lower-joule single-outlet units for two devices versus splitting one multi-outlet strip's budget across several, this dedicated approach protects each device independently.\n\nSet against the Eaton Tripp Lite SPIKECUBE Single Outlet Surge Protector Power Strip, the tradeoff here comes down to price versus disclosed joule rating and outlet count, not a straightforward upgrade or downgrade either way.\n\nWorth knowing before you decide: ETL listed for verified safety. On the other side, May block the adjacent outlet on a standard duplex receptacle. That's the main tradeoff to weigh against your own equipment and outlet needs.",
+    specs: ["Single outlet, 1350 joules","ETL listed","Compact design","Affordable"],
+    pros: ["Higher joule rating than the top pick for a single device","ETL listed for verified safety","Very affordable","Solid rating base"],
+    cons: ["May block the adjacent outlet on a standard duplex receptacle","Single device only","Smaller review base than the top pick"],
     bestFor: "Buyers who want maximum dedicated joule capacity for one high-value device",
   },
   {
@@ -65,10 +65,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/314n2Zz2FhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BNW64BPF?tag=deskfinds0d-20",
     description:
-      "A 2-pack of dedicated 1350 joule single-outlet units, genuinely useful for protecting two separate high-value devices independently rather than sharing one multi-outlet strip's budget. ETL listed.\n\nThis is a real cost/space comparison worth making, two single-outlet units versus one multi-outlet strip protecting the same two devices, each approach has different risk-distribution tradeoffs.",
-    specs: ["2 units, 1350 joules each", "ETL listed", "Compact design", "2-pack value"],
-    pros: ["2-pack for protecting two devices with independent dedicated budgets", "ETL listed for verified safety", "Good value per unit", "Higher joule rating per device than many multi-outlet strips offer per-device"],
-    cons: ["Each unit still may block the adjacent outlet", "Single device per unit", "Same review base as the single-pack listing"],
+      "A 2-pack of dedicated 1350 joule single-outlet units, genuinely useful for protecting two separate high-value devices independently rather than sharing one multi-outlet strip's budget. ETL listed.\\n\\nThis is a real cost/space comparison worth making, two single-outlet units versus one multi-outlet strip protecting the same two devices, each approach has different risk-distribution tradeoffs.\n\nRelative to the [ETL Listed] Cable Matters 1350J Single Outlet Surge Protector, this pick leans toward a different priority, whether that's a lower price, more outlets, or a form factor suited to a different install situation.\n\nWorth knowing before you decide: ETL listed for verified safety. On the other side, Each unit still may block the adjacent outlet. That's the main tradeoff to weigh against your own equipment and outlet needs.",
+    specs: ["2 units, 1350 joules each","ETL listed","Compact design","2-pack value"],
+    pros: ["2-pack for protecting two devices with independent dedicated budgets","ETL listed for verified safety","Good value per unit","Higher joule rating per device than many multi-outlet strips offer per-device"],
+    cons: ["Each unit still may block the adjacent outlet","Single device per unit","Same review base as the single-pack listing"],
     bestFor: "Buyers who want to protect two separate devices with independent, undiluted joule budgets",
   },
   {
@@ -82,10 +82,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21sqvh28s1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1T9R63P?tag=deskfinds0d-20",
     description:
-      "1050 joules dedicated to a single device at a genuinely affordable price, a solid middle ground between the ultra-budget and premium picks in this guide.\n\nSmaller review base as a newer listing, weigh that against the genuinely strong joule rating for a single-device dedicated design.",
-    specs: ["Single outlet, 1050 joules", "Compact wall design", "Affordable", "Solid joule rating for the price"],
-    pros: ["1050 joules dedicated to one device at a low price", "Very affordable", "Compact wall-plug design", "Good middle-ground joule rating"],
-    cons: ["Smaller review base as a newer product", "May block the adjacent outlet", "Single device only"],
+      "1050 joules dedicated to a single device at a genuinely affordable price, a solid middle ground between the ultra-budget and premium picks in this guide.\\n\\nSmaller review base as a newer listing, weigh that against the genuinely strong joule rating for a single-device dedicated design.\n\nCompared with the [ETL Listed] Cable Matters 2 above, this pick trades some of that pick's proven track record for a different balance of price and joule rating, worth weighing against your own equipment.\n\nWorth knowing before you decide: Very affordable. On the other side, Smaller review base as a newer product. That's the main tradeoff to weigh against your own equipment and outlet needs.",
+    specs: ["Single outlet, 1050 joules","Compact wall design","Affordable","Solid joule rating for the price"],
+    pros: ["1050 joules dedicated to one device at a low price","Very affordable","Compact wall-plug design","Good middle-ground joule rating"],
+    cons: ["Smaller review base as a newer product","May block the adjacent outlet","Single device only"],
     bestFor: "Budget-conscious buyers who want a solid dedicated joule rating for one device",
   },
   {
@@ -99,12 +99,12 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31wknFuDByL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07Q3DJL3W?tag=deskfinds0d-20",
     description:
-      "A genuinely affordable 4-pack for buyers who want to independently protect several basic devices, though the 245 joule rating is notably lower than the other picks in this guide. ETL listed with an indicator light.\n\nAt this lower joule rating, this suits basic electronics like lamps or routers rather than a single high-value device needing maximum dedicated protection.",
-    specs: ["1 outlet each, 245J/125V, 4-pack", "ETL listed, indicator light", "Grounded outlet wall tap design", "Most affordable per-unit price"],
-    pros: ["4-pack offers the most units for independently protecting several basic devices", "ETL listed with indicator light", "Very affordable per unit", "Solid rating base"],
-    cons: ["Lowest joule rating in this guide, best for basic electronics", "Each unit may block the adjacent outlet", "Single outlet per unit"],
+      "A genuinely affordable 4-pack for buyers who want to independently protect several basic devices, though the 245 joule rating is notably lower than the other picks in this guide. ETL listed with an indicator light.\\n\\nAt this lower joule rating, this suits basic electronics like lamps or routers rather than a single high-value device needing maximum dedicated protection.\n\nSet against the TESSAN Single Outlet Wall Surge Protector with 1050J Surge Protector, the tradeoff here comes down to price versus disclosed joule rating and outlet count, not a straightforward upgrade or downgrade either way.\n\nWorth knowing before you decide: ETL listed with indicator light. On the other side, Lowest joule rating in this guide, best for basic electronics. That's the main tradeoff to weigh against your own equipment and outlet needs.",
+    specs: ["1 outlet each, 245J/125V, 4-pack","ETL listed, indicator light","Grounded outlet wall tap design","Most affordable per-unit price"],
+    pros: ["4-pack offers the most units for independently protecting several basic devices","ETL listed with indicator light","Very affordable per unit","Solid rating base"],
+    cons: ["Lowest joule rating in this guide, best for basic electronics","Each unit may block the adjacent outlet","Single outlet per unit"],
     bestFor: "Budget-conscious buyers who want to independently protect several basic electronics",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -117,24 +117,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Single-Outlet Units Offer the Most Protection Per Device",
-    note: "Single-outlet surge protectors are commonly used for single high-value devices where the joule rating and clamping voltage matter proportionally more, since there's no shared-load risk dilution across multiple devices. Because only one device shares the protection budget, this category arguably offers the most protection per device for its joule rating compared to a multi-outlet strip splitting the same budget across several devices.",
+    "subheading": "By Disclosed Joule Rating",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around 1350 joules",
+          "[ETL Listed] Cable Matters 1350J Single Outlet Surge Protector"
+        ],
+        [
+          "Around 1350 joules",
+          "[ETL Listed] Cable Matters 2"
+        ],
+        [
+          "Around 1050 joules",
+          "TESSAN Single Outlet Wall Surge Protector with 1050J Surge Protector"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Check Adjacent Outlet Blocking on Duplex Receptacles",
-    note: "A direct-plug single-outlet unit can physically block adjacent wall outlets on a standard duplex receptacle. A bulky unit plugged into one half of a duplex outlet can prevent a normal plug, or another single-outlet device, from fitting into the second half, verify this fit before relying on both outlet slots.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $10",
+          "[ETL Listed] Cable Matters 1350J Single Outlet Surge Protector"
+        ],
+        [
+          "Up to $18",
+          "[ETL Listed] Cable Matters 2"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Multiple Single-Outlet Units vs. One Multi-Outlet Strip",
-    note: "A buyer protecting several critical devices individually would need multiple single-outlet units rather than one multi-outlet strip, a real cost/space comparison worth making explicitly. Two single-outlet units protecting two separate high-value devices independently can offer better risk distribution than one multi-outlet strip sharing the same budget across both.",
+    "subheading": "Joule Rating vs Price",
+    "cards": [
+      {
+        "label": "[ETL Listed] Cable Matters 1350J Single Outlet Surge Protector",
+        "text": "The lower-priced option in this comparison, worth checking its disclosed joule rating against your equipment's value."
+      },
+      {
+        "label": "[ETL Listed] Cable Matters 2",
+        "text": "The higher-priced option, worth it if it offers real protection headroom above the cheaper pick's rating."
+      }
+    ],
+    "note": "Default to [ETL Listed] Cable Matters 1350J Single Outlet Surge Protector unless your equipment's value genuinely calls for more protection."
   },
+  {
+    "subheading": "By Outlet Count",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "1 outlets",
+          "Single Surge Protector Plug"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Home Office Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A disclosed joule rating of at least 1000-2000 with UL 1449 certification, plus enough spaced outlets for a monitor, dock, and peripherals."
+      },
+      {
+        "label": "In this comparison",
+        "text": "[ETL Listed] Cable Matters 1350J Single Outlet Surge Protector discloses the highest joule rating at 1350 joules."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Your equipment is expensive or sensitive, where [ETL Listed] Cable Matters 2's higher price buys real protection headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You're protecting lower-value, easily replaceable electronics, where [ETL Listed] Cable Matters 1350J Single Outlet Surge Protector covers the same basic job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Single-outlet units offer the most protection per device for their joule rating", explanation: "Since only one device shares the protection budget, this category genuinely offers more protection per device compared to a multi-outlet strip splitting the same joule budget across several devices." },
-  { criterion: "Verify adjacent outlet compatibility on standard duplex receptacles", explanation: "A bulky direct-plug single-outlet unit can physically block the second half of a standard duplex wall outlet, check this fit before relying on both outlet slots remaining usable." },
-  { criterion: "Compare cost and space efficiency against a shared multi-outlet strip", explanation: "Protecting several critical devices individually with multiple single-outlet units versus one multi-outlet strip has real cost and risk-distribution tradeoffs worth calculating explicitly." },
-  { criterion: "Direct-wall-plug design sits in potentially limited-airflow wall space", explanation: "The entire housing and internal MOV components sit immediately adjacent to the wall, sharing some of the enclosed-airflow characteristics of other confined-mounting scenarios." },
+  {
+    "criterion": "Check the disclosed joule rating, not just the word \"surge protector\"",
+    "explanation": "A joule rating measures how much total surge energy a device can absorb before it needs replacing, and plenty of products marketed simply as a \"power strip\" or \"surge protector\" either omit this number entirely or bury it deep in the specs.\n\nThis matters because a device with no real joule rating, or a very low one under 600, may offer only minimal protection, essentially a glorified extension cord with a marketing label, while a legitimate surge protector for computer or home-office equipment typically starts around 1000 to 2000 joules or higher.\n\nLook for the specific joule number stated in the listing title or bullet points, and treat any listing that only says \"surge protection\" with no number attached as a red flag."
+  },
+  {
+    "criterion": "Match outlet count and spacing to what you're actually plugging in",
+    "explanation": "The number of outlets on the spec sheet doesn't tell the whole story, spacing between outlets matters just as much, since bulky wall adapters or power bricks for a monitor, printer, or charger can block adjacent outlets even on a strip that technically has enough slots.\n\nThis is a common real-world frustration where a 6-outlet strip effectively becomes a 3 or 4-outlet strip once actual devices are plugged in.\n\nCheck product photos and reviews for outlet spacing specifically, and count how many bulky adapters you'll actually need to plug in side by side before assuming the listed outlet count covers your setup."
+  },
+  {
+    "criterion": "Verify UL listing, since surge protection claims aren't self-certifying",
+    "explanation": "UL (Underwriters Laboratories) certification is an independent third-party safety and performance verification, not a marketing claim a manufacturer can just assert on its own.\n\nA genuine surge protector should carry UL 1449 certification specifically, the standard for surge protective devices, distinct from a basic UL listing that only covers general electrical safety without verifying surge performance. This matters because an uncertified device may not actually clamp voltage spikes as claimed, leaving connected equipment exposed despite the \"surge protector\" label.\n\nCheck the listing or product photos for a UL 1449 mark specifically, not just a generic UL logo."
+  },
+  {
+    "criterion": "Consider USB ports and their combined wattage, not just port count",
+    "explanation": "A strip listing 4 USB ports doesn't guarantee those ports can charge 4 devices at full speed simultaneously, the ports typically share a combined wattage budget, so charging speed can drop noticeably when multiple devices draw power at once.\n\nThis matters more if you regularly charge a phone, tablet, and other device all at the same time from the same strip, versus occasional single-device charging.\n\nCheck the listing for total USB output in watts, not just the port count, and compare that figure against your devices' actual charging requirements if fast charging matters to you."
+  },
+  {
+    "criterion": "Check the warranty and connected-equipment protection guarantee",
+    "explanation": "Many legitimate surge protectors back their protection with a manufacturer's connected-equipment warranty, a dollar-amount guarantee to cover damage to plugged-in devices if the surge protector fails to do its job.\n\nThis is a meaningfully stronger signal of manufacturer confidence than a basic product warranty covering only the strip itself, since it puts real money behind the surge-protection claim.\n\nCheck the listing for a specific connected-equipment warranty amount and duration, and treat the absence of one as a sign the surge protection claim may be more marketing than substance."
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -31,10 +31,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41J0Gowt80L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CHMG5XHM?tag=deskfinds0d-20",
     description:
-      "The longest cord in this guide at 15ft, braided for durability, with 8 outlets and 2 USB-C ports for real capacity at the far end. Strong rating base.\n\nGiven the higher stakes of protecting valuable equipment at the end of a long cord run, verify the cord isn't tightly coiled under sustained load, which can build up heat.",
-    specs: ["15ft braided cord", "8 outlets, 4 USB ports (2 USB-C)", "Flat plug", "Strong rating base"],
-    pros: ["Longest cord in this guide", "Braided design resists coiling wear", "8 outlets plus 4 USB ports", "Strong rating base"],
-    cons: ["Cord gauge not explicitly disclosed", "Avoid tight coiling under sustained high load", "Higher price than shorter-cord picks"],
+      "The longest cord in this guide at 15ft, braided for durability, with 8 outlets and 2 USB-C ports for real capacity at the far end. Strong rating base.\\n\\nGiven the higher stakes of protecting valuable equipment at the end of a long cord run, verify the cord isn't tightly coiled under sustained load, which can build up heat.\n\nIt leads this comparison on the strength of its balance of disclosed joule rating, outlet count, and review base, worth weighing directly against the Mifaso 2 Pack Power Strip.\n\nWorth knowing before you decide: Braided design resists coiling wear. On the other side, Cord gauge not explicitly disclosed. That's the main tradeoff to weigh against your own equipment and outlet needs.",
+    specs: ["15ft braided cord","8 outlets, 4 USB ports (2 USB-C)","Flat plug","Strong rating base"],
+    pros: ["Longest cord in this guide","Braided design resists coiling wear","8 outlets plus 4 USB ports","Strong rating base"],
+    cons: ["Cord gauge not explicitly disclosed","Avoid tight coiling under sustained high load","Higher price than shorter-cord picks"],
     bestFor: "Buyers who need to protect valuable equipment at a distant outlet",
   },
   {
@@ -48,10 +48,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41DQteekppL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08NP57YRG?tag=deskfinds0d-20",
     description:
-      "A 2-pack of 12ft cord strips with genuine 1080 joule surge protection, useful if you need long-reach protection in two separate secondary locations like a workshop or room addition. Strong rating base.\n\nThe scenario this pick serves, an older or secondary electrical location, is exactly when surge protection matters most, don't skimp on the joule rating even at this reach.",
-    specs: ["12ft cord, 2-pack", "1080 joules surge protection", "Strong rating base", "Two units for two locations"],
-    pros: ["2-pack lets you cover two distant outlet needs", "Genuine 1080 joule surge protection", "Strong rating base", "12ft reach per unit"],
-    cons: ["Cord gauge not explicitly disclosed", "No USB ports", "Higher combined price for two units"],
+      "A 2-pack of 12ft cord strips with genuine 1080 joule surge protection, useful if you need long-reach protection in two separate secondary locations like a workshop or room addition. Strong rating base.\\n\\nThe scenario this pick serves, an older or secondary electrical location, is exactly when surge protection matters most, don't skimp on the joule rating even at this reach.\n\nSet against the Surge Protector Power Strip 15 Ft Cord, the tradeoff here comes down to price versus disclosed joule rating and outlet count, not a straightforward upgrade or downgrade either way.\n\nWorth knowing before you decide: Genuine 1080 joule surge protection. On the other side, Cord gauge not explicitly disclosed. That's the main tradeoff to weigh against your own equipment and outlet needs.",
+    specs: ["12ft cord, 2-pack","1080 joules surge protection","Strong rating base","Two units for two locations"],
+    pros: ["2-pack lets you cover two distant outlet needs","Genuine 1080 joule surge protection","Strong rating base","12ft reach per unit"],
+    cons: ["Cord gauge not explicitly disclosed","No USB ports","Higher combined price for two units"],
     bestFor: "Buyers who need genuine surge protection in two separate secondary locations",
   },
   {
@@ -65,10 +65,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31LXOWiw2vL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZ254SSR?tag=deskfinds0d-20",
     description:
-      "A 10ft cord, a genuine middle ground between standard and longest available options, with real surge protection at an affordable price. Strong rating base.\n\nCheck the specific amperage rating against your intended far-end equipment, since cord length and current-carrying capacity are separate specs.",
-    specs: ["10ft cord, flat plug", "Surge protector included", "Strong rating base", "Affordable"],
-    pros: ["10ft reach at an affordable price", "Flat plug for wall clearance", "Strong rating base", "Genuine surge protection"],
-    cons: ["Cord gauge and amperage rating not explicitly disclosed", "No USB ports confirmed", "Shorter than the 12-15ft picks"],
+      "A 10ft cord, a genuine middle ground between standard and longest available options, with real surge protection at an affordable price. Strong rating base.\\n\\nCheck the specific amperage rating against your intended far-end equipment, since cord length and current-carrying capacity are separate specs.\n\nRelative to the Mifaso 2 Pack Power Strip, this pick leans toward a different priority, whether that's a lower price, more outlets, or a form factor suited to a different install situation.\n\nWorth knowing before you decide: Flat plug for wall clearance. On the other side, Cord gauge and amperage rating not explicitly disclosed. That's the main tradeoff to weigh against your own equipment and outlet needs.",
+    specs: ["10ft cord, flat plug","Surge protector included","Strong rating base","Affordable"],
+    pros: ["10ft reach at an affordable price","Flat plug for wall clearance","Strong rating base","Genuine surge protection"],
+    cons: ["Cord gauge and amperage rating not explicitly disclosed","No USB ports confirmed","Shorter than the 12-15ft picks"],
     bestFor: "Buyers who need a mid-length cord with genuine surge protection at a budget price",
   },
   {
@@ -82,10 +82,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31owpdc4AGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPFF7JN8?tag=deskfinds0d-20",
     description:
-      "10ft cord with 6 outlets and 3 USB ports, genuinely more capacity at the far end than a basic single-outlet extension. Strong review base and affordable price.\n\nAvoid tightly coiling excess cord under sustained load, and don't run this cord under rugs or through doorways where it can be pinched.",
-    specs: ["10ft cord, 6 outlets, 3 USB ports", "Flat plug", "Strong review base", "Affordable"],
-    pros: ["6 outlets plus 3 USB ports at 10ft reach", "Affordable for the capacity offered", "Strong review base", "Flat plug design"],
-    cons: ["Cord gauge not explicitly disclosed", "No USB-C port", "Verify amperage rating for high-draw equipment"],
+      "10ft cord with 6 outlets and 3 USB ports, genuinely more capacity at the far end than a basic single-outlet extension. Strong review base and affordable price.\\n\\nAvoid tightly coiling excess cord under sustained load, and don't run this cord under rugs or through doorways where it can be pinched.\n\nCompared with the SUPERDANNY Extension Cord above, this pick trades some of that pick's proven track record for a different balance of price and joule rating, worth weighing against your own equipment.\n\nWorth knowing before you decide: Affordable for the capacity offered. On the other side, Cord gauge not explicitly disclosed. That's the main tradeoff to weigh against your own equipment and outlet needs.",
+    specs: ["10ft cord, 6 outlets, 3 USB ports","Flat plug","Strong review base","Affordable"],
+    pros: ["6 outlets plus 3 USB ports at 10ft reach","Affordable for the capacity offered","Strong review base","Flat plug design"],
+    cons: ["Cord gauge not explicitly disclosed","No USB-C port","Verify amperage rating for high-draw equipment"],
     bestFor: "Buyers who need multi-outlet surge protection at a 10ft distance",
   },
   {
@@ -99,12 +99,12 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41eRaMa6u1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CN6V6M5F?tag=deskfinds0d-20",
     description:
-      "10ft cord with 12 outlets, 2 USB-C ports, and a genuinely high 4800 joule rating, real headroom for demanding equipment at the far end of a long cord run. Wall mountable.\n\nHigher joule ratings matter more at longer cord lengths where voltage drop could otherwise affect the surge circuitry's own voltage-sensing baseline.",
-    specs: ["10ft cord, 12 outlets, 2 USB-C, 2 USB-A", "4800 joules", "Flat plug, wall mountable", "Desk charging station design"],
-    pros: ["Highest joule rating in this guide", "12 outlets plus 4 USB ports at 10ft reach", "Wall mountable design", "Genuine high-capacity surge protection"],
-    cons: ["Smaller review base than mass-market picks", "Cord gauge not explicitly disclosed", "Larger footprint for the outlet count"],
+      "10ft cord with 12 outlets, 2 USB-C ports, and a genuinely high 4800 joule rating, real headroom for demanding equipment at the far end of a long cord run. Wall mountable.\\n\\nHigher joule ratings matter more at longer cord lengths where voltage drop could otherwise affect the surge circuitry's own voltage-sensing baseline.\n\nSet against the 10Ft Extension Cord with Multiple Outlets, the tradeoff here comes down to price versus disclosed joule rating and outlet count, not a straightforward upgrade or downgrade either way.\n\nWorth knowing before you decide: 12 outlets plus 4 USB ports at 10ft reach. On the other side, Smaller review base than mass-market picks. That's the main tradeoff to weigh against your own equipment and outlet needs.",
+    specs: ["10ft cord, 12 outlets, 2 USB-C, 2 USB-A","4800 joules","Flat plug, wall mountable","Desk charging station design"],
+    pros: ["Highest joule rating in this guide","12 outlets plus 4 USB ports at 10ft reach","Wall mountable design","Genuine high-capacity surge protection"],
+    cons: ["Smaller review base than mass-market picks","Cord gauge not explicitly disclosed","Larger footprint for the outlet count"],
     bestFor: "Buyers who need maximum joule and outlet capacity at a 10ft distance",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -117,24 +117,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Long-Cord Surge Protectors Often Serve the Riskiest Locations",
-    note: "Long-cord surge protectors are sometimes chosen specifically to reach a distant outlet in a room addition, workshop, or other location that may already have less reliable electrical infrastructure, precisely the scenario where surge protection matters most. Yet cord-quality shortcuts are common on budget long-cord products, prioritize a disclosed higher joule rating for these exact use cases.",
+    "subheading": "By Disclosed Joule Rating",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around 4800 joules",
+          "Surge Protector Power Strip 4800J"
+        ],
+        [
+          "Around 1080 joules",
+          "Mifaso 2 Pack Power Strip"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Voltage Drop Can Affect the Surge Circuitry's Own Sensing",
-    note: "Voltage drop over a long cord run can theoretically affect the baseline voltage the surge suppression circuitry is measuring against, since it reacts to detected overvoltage conditions at the point where it sits in the circuit. This nuance is worth flagging even if the practical impact is often modest.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $13",
+          "SUPERDANNY Extension Cord"
+        ],
+        [
+          "Up to $32",
+          "Mifaso 2 Pack Power Strip"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Never Tightly Coil Excess Cord Under Sustained Load",
-    note: "Bundled or coiled current-carrying cords can build up heat under sustained load, and this heat can affect nearby surge-protection MOV component temperature and longevity if the coiled section sits close to the unit's housing, let excess cord lay loosely instead.",
+    "subheading": "USB-C Charging vs Outlets-Only",
+    "cards": [
+      {
+        "label": "Built-in USB-C charging",
+        "text": "Saves an outlet slot per device charged directly, useful if you regularly charge phones or tablets at your desk. In this comparison: Surge Protector Power Strip 15 Ft Cord, Surge Protector Power Strip 4800J."
+      },
+      {
+        "label": "Outlets-only",
+        "text": "No built-in charging ports, but often a lower price and simpler design for equipment that only needs AC power. In this comparison: Mifaso 2 Pack Power Strip, SUPERDANNY Extension Cord."
+      }
+    ],
+    "note": "Default to a USB-equipped strip unless you already have enough dedicated chargers and want to save on price."
   },
+  {
+    "subheading": "By Plug Type",
+    "table": {
+      "headers": [
+        "Desk situation",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Tight space behind furniture, flat plug needed",
+          "Surge Protector Power Strip 15 Ft Cord"
+        ],
+        [
+          "Standard outlet clearance",
+          "Mifaso 2 Pack Power Strip"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Home Office Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A disclosed joule rating of at least 1000-2000 with UL 1449 certification, plus enough spaced outlets for a monitor, dock, and peripherals."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Surge Protector Power Strip 4800J discloses the highest joule rating at 4800 joules."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Your equipment is expensive or sensitive, where Mifaso 2 Pack Power Strip's higher price buys real protection headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You're protecting lower-value, easily replaceable electronics, where SUPERDANNY Extension Cord covers the same basic job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Long-cord surge protectors often protect the riskiest electrical locations", explanation: "Room additions, workshops, and secondary locations often have less reliable electrical infrastructure, precisely where surge protection matters most, yet budget long-cord products commonly cut corners here." },
-  { criterion: "Voltage drop over a long cord can affect the surge circuitry's sensing baseline", explanation: "The surge suppression circuitry reacts to detected overvoltage at its position in the circuit, a long cord's own voltage drop could theoretically affect that baseline, even if the practical impact is often modest." },
-  { criterion: "Coiled cord heat buildup can reduce nearby MOV longevity", explanation: "Bundled current-carrying cords generate heat under sustained load, and this heat can affect nearby MOV component temperature and lifespan if the coiled section sits close to the unit's housing." },
-  { criterion: "Verify UL 1449 certification for the specific long-cord variant", explanation: "Don't assume a long-cord product carries identical certification to a shorter-cord sibling model, verify UL 1449 specifically for the exact product you're buying." },
+  {
+    "criterion": "Check the disclosed joule rating, not just the word \"surge protector\"",
+    "explanation": "A joule rating measures how much total surge energy a device can absorb before it needs replacing, and plenty of products marketed simply as a \"power strip\" or \"surge protector\" either omit this number entirely or bury it deep in the specs.\n\nThis matters because a device with no real joule rating, or a very low one under 600, may offer only minimal protection, essentially a glorified extension cord with a marketing label, while a legitimate surge protector for computer or home-office equipment typically starts around 1000 to 2000 joules or higher.\n\nLook for the specific joule number stated in the listing title or bullet points, and treat any listing that only says \"surge protection\" with no number attached as a red flag."
+  },
+  {
+    "criterion": "Match outlet count and spacing to what you're actually plugging in",
+    "explanation": "The number of outlets on the spec sheet doesn't tell the whole story, spacing between outlets matters just as much, since bulky wall adapters or power bricks for a monitor, printer, or charger can block adjacent outlets even on a strip that technically has enough slots.\n\nThis is a common real-world frustration where a 6-outlet strip effectively becomes a 3 or 4-outlet strip once actual devices are plugged in.\n\nCheck product photos and reviews for outlet spacing specifically, and count how many bulky adapters you'll actually need to plug in side by side before assuming the listed outlet count covers your setup."
+  },
+  {
+    "criterion": "Verify UL listing, since surge protection claims aren't self-certifying",
+    "explanation": "UL (Underwriters Laboratories) certification is an independent third-party safety and performance verification, not a marketing claim a manufacturer can just assert on its own.\n\nA genuine surge protector should carry UL 1449 certification specifically, the standard for surge protective devices, distinct from a basic UL listing that only covers general electrical safety without verifying surge performance. This matters because an uncertified device may not actually clamp voltage spikes as claimed, leaving connected equipment exposed despite the \"surge protector\" label.\n\nCheck the listing or product photos for a UL 1449 mark specifically, not just a generic UL logo."
+  },
+  {
+    "criterion": "Consider USB ports and their combined wattage, not just port count",
+    "explanation": "A strip listing 4 USB ports doesn't guarantee those ports can charge 4 devices at full speed simultaneously, the ports typically share a combined wattage budget, so charging speed can drop noticeably when multiple devices draw power at once.\n\nThis matters more if you regularly charge a phone, tablet, and other device all at the same time from the same strip, versus occasional single-device charging.\n\nCheck the listing for total USB output in watts, not just the port count, and compare that figure against your devices' actual charging requirements if fast charging matters to you."
+  },
+  {
+    "criterion": "Check the warranty and connected-equipment protection guarantee",
+    "explanation": "Many legitimate surge protectors back their protection with a manufacturer's connected-equipment warranty, a dollar-amount guarantee to cover damage to plugged-in devices if the surge protector fails to do its job.\n\nThis is a meaningfully stronger signal of manufacturer confidence than a basic product warranty covering only the strip itself, since it puts real money behind the surge-protection claim.\n\nCheck the listing for a specific connected-equipment warranty amount and duration, and treat the absence of one as a sign the surge protection claim may be more marketing than substance."
+  }
 ];
 
 export const faq: FaqItem[] = [

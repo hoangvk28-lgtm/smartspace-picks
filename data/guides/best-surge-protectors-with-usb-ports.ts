@@ -31,10 +31,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41J41Z-k38L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09F2XPJ47?tag=deskfinds0d-20",
     description:
-      "8 outlets and 4 USB ports at a genuinely disclosed 2700 joules on the AC side, with a large, well-established review base. ETL listed.\n\nVerify whether the USB ports specifically carry any surge protection or rely solely on the AC-side MOV circuitry, a scope distinction most combined units don't clarify.",
-    specs: ["8 outlets, 4 USB ports, flat plug", "2700 joules AC-side, ETL listed", "6ft cord", "Large review base"],
-    pros: ["Explicit 2700 joule AC-side surge protection", "Large, well-established review base", "4 USB ports for charging", "ETL listed"],
-    cons: ["USB-side surge protection scope not explicitly disclosed", "No USB-C port", "Single indicator light doesn't distinguish AC vs. USB failure"],
+      "8 outlets and 4 USB ports at a genuinely disclosed 2700 joules on the AC side, with a large, well-established review base. ETL listed.\\n\\nVerify whether the USB ports specifically carry any surge protection or rely solely on the AC-side MOV circuitry, a scope distinction most combined units don't clarify.\n\nIt leads this comparison on the strength of its balance of disclosed joule rating, outlet count, and review base, worth weighing directly against the Power Strip.\n\nWorth knowing before you decide: Large, well-established review base. On the other side, USB-side surge protection scope not explicitly disclosed. That's the main tradeoff to weigh against your own equipment and outlet needs.",
+    specs: ["8 outlets, 4 USB ports, flat plug","2700 joules AC-side, ETL listed","6ft cord","Large review base"],
+    pros: ["Explicit 2700 joule AC-side surge protection","Large, well-established review base","4 USB ports for charging","ETL listed"],
+    cons: ["USB-side surge protection scope not explicitly disclosed","No USB-C port","Single indicator light doesn't distinguish AC vs. USB failure"],
     bestFor: "Buyers who want strong AC-side surge protection alongside basic USB charging",
   },
   {
@@ -48,10 +48,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41PsJYHqW7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08P5LRY37?tag=deskfinds0d-20",
     description:
-      "12 outlets and 4 USB ports with a large, well-established review base and genuine 2700 joule AC-side protection. ETL listed.\n\nAs with any combined unit, the UL/ETL listing here likely covers the AC-outlet performance specifically, not necessarily the USB-side charging circuitry.",
-    specs: ["12 outlets, 4 USB ports", "2700 joules, ETL listed", "6ft cord", "Large review base"],
-    pros: ["High outlet count with genuine AC-side surge protection", "Large, well-established review base", "4 USB ports included", "ETL listed"],
-    cons: ["USB-side protection scope not explicitly disclosed", "No USB-C port", "Larger footprint"],
+      "12 outlets and 4 USB ports with a large, well-established review base and genuine 2700 joule AC-side protection. ETL listed.\\n\\nAs with any combined unit, the UL/ETL listing here likely covers the AC-outlet performance specifically, not necessarily the USB-side charging circuitry.\n\nSet against the Surge Protector Power Strip, the tradeoff here comes down to price versus disclosed joule rating and outlet count, not a straightforward upgrade or downgrade either way.\n\nWorth knowing before you decide: Large, well-established review base. On the other side, USB-side protection scope not explicitly disclosed. That's the main tradeoff to weigh against your own equipment and outlet needs.",
+    specs: ["12 outlets, 4 USB ports","2700 joules, ETL listed","6ft cord","Large review base"],
+    pros: ["High outlet count with genuine AC-side surge protection","Large, well-established review base","4 USB ports included","ETL listed"],
+    cons: ["USB-side protection scope not explicitly disclosed","No USB-C port","Larger footprint"],
     bestFor: "Buyers who need maximum outlet count with basic USB charging and AC surge protection",
   },
   {
@@ -65,10 +65,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41eM1NkEevL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DC6GXZSV?tag=deskfinds0d-20",
     description:
-      "8 outlets and 2 USB-C ports among 4 total, at a genuinely affordable price with a braided cord for durability. ETL listed.\n\nBudget combined units are more likely to cut corners on either the AC-side joule rating or USB-side protection specifically, verify this listing's specific joule number before assuming full coverage.",
-    specs: ["8 outlets, 4 USB ports (2 USB-C), flat plug", "ETL listed", "5ft braided cord", "Very affordable"],
-    pros: ["Very affordable for the outlet and USB-C count", "Braided cord for durability", "ETL listed", "2 USB-C ports included"],
-    cons: ["Verify the specific AC-side joule rating for this listing", "USB-side surge protection scope not disclosed", "Shorter cord than premium alternatives"],
+      "8 outlets and 2 USB-C ports among 4 total, at a genuinely affordable price with a braided cord for durability. ETL listed.\\n\\nBudget combined units are more likely to cut corners on either the AC-side joule rating or USB-side protection specifically, verify this listing's specific joule number before assuming full coverage.\n\nRelative to the Power Strip, this pick leans toward a different priority, whether that's a lower price, more outlets, or a form factor suited to a different install situation.\n\nWorth knowing before you decide: Braided cord for durability. On the other side, Verify the specific AC-side joule rating for this listing. That's the main tradeoff to weigh against your own equipment and outlet needs.",
+    specs: ["8 outlets, 4 USB ports (2 USB-C), flat plug","ETL listed","5ft braided cord","Very affordable"],
+    pros: ["Very affordable for the outlet and USB-C count","Braided cord for durability","ETL listed","2 USB-C ports included"],
+    cons: ["Verify the specific AC-side joule rating for this listing","USB-side surge protection scope not disclosed","Shorter cord than premium alternatives"],
     bestFor: "Budget-conscious buyers who want USB-C ports alongside basic surge protection",
   },
   {
@@ -82,10 +82,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41J0Gowt80L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CHMG5XHM?tag=deskfinds0d-20",
     description:
-      "A genuinely long 15ft braided cord with 8 outlets and 2 USB-C ports among 4 total, useful if your desk sits far from the wall outlet. Strong rating base.\n\nThe added cost of USB-C circuitry alongside a long cord and surge protection may mean tradeoffs elsewhere, verify the specific AC-side joule rating for this listing.",
-    specs: ["8 outlets, 4 USB ports (2 USB-C), flat plug", "15ft braided cord", "Ultra thin design", "Strong rating base"],
-    pros: ["Genuinely long 15ft cord for distant placement", "2 USB-C ports among 4 total", "Braided cord for durability", "Strong rating base"],
-    cons: ["Verify specific AC-side joule rating", "USB-side surge protection scope not disclosed", "Ultra-thin design may affect durability"],
+      "A genuinely long 15ft braided cord with 8 outlets and 2 USB-C ports among 4 total, useful if your desk sits far from the wall outlet. Strong rating base.\\n\\nThe added cost of USB-C circuitry alongside a long cord and surge protection may mean tradeoffs elsewhere, verify the specific AC-side joule rating for this listing.\n\nCompared with the Surge Protector Power Strip above, this pick trades some of that pick's proven track record for a different balance of price and joule rating, worth weighing against your own equipment.\n\nWorth knowing before you decide: 2 USB-C ports among 4 total. On the other side, Verify specific AC-side joule rating. That's the main tradeoff to weigh against your own equipment and outlet needs.",
+    specs: ["8 outlets, 4 USB ports (2 USB-C), flat plug","15ft braided cord","Ultra thin design","Strong rating base"],
+    pros: ["Genuinely long 15ft cord for distant placement","2 USB-C ports among 4 total","Braided cord for durability","Strong rating base"],
+    cons: ["Verify specific AC-side joule rating","USB-side surge protection scope not disclosed","Ultra-thin design may affect durability"],
     bestFor: "Buyers whose desk sits far from the outlet needing USB-C charging with surge protection",
   },
   {
@@ -99,12 +99,12 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415tn9cXV7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6S6TPRH?tag=deskfinds0d-20",
     description:
-      "UL listed with 3,780 joules from an established brand, though this specific listing doesn't confirm USB port inclusion, verify against the exact product page before assuming charging capability alongside the surge protection.\n\nEstablished brand reputation gives more confidence that any USB circuitry included meets a reasonable quality bar, even without explicit USB-side protection disclosure.",
-    specs: ["12 outlets, 3780 joules", "UL listed, 8ft flat plug cord", "Established Belkin brand", "Verify USB port inclusion on this listing"],
-    pros: ["Established Belkin brand reputation", "UL listed for verified AC-side safety", "High joule rating and outlet count", "8ft cord for placement flexibility"],
-    cons: ["Verify USB port inclusion on this specific listing", "Higher price than basic combined units", "USB-side protection scope not disclosed if present"],
+      "UL listed with 3,780 joules from an established brand, though this specific listing doesn't confirm USB port inclusion, verify against the exact product page before assuming charging capability alongside the surge protection.\\n\\nEstablished brand reputation gives more confidence that any USB circuitry included meets a reasonable quality bar, even without explicit USB-side protection disclosure.\n\nSet against the Surge Protector Power Strip 15 Ft Cord, the tradeoff here comes down to price versus disclosed joule rating and outlet count, not a straightforward upgrade or downgrade either way.\n\nWorth knowing before you decide: UL listed for verified AC-side safety. On the other side, Verify USB port inclusion on this specific listing. That's the main tradeoff to weigh against your own equipment and outlet needs.",
+    specs: ["12 outlets, 3780 joules","UL listed, 8ft flat plug cord","Established Belkin brand","Verify USB port inclusion on this listing"],
+    pros: ["Established Belkin brand reputation","UL listed for verified AC-side safety","High joule rating and outlet count","8ft cord for placement flexibility"],
+    cons: ["Verify USB port inclusion on this specific listing","Higher price than basic combined units","USB-side protection scope not disclosed if present"],
     bestFor: "Buyers who prioritize established-brand AC-side protection and will verify USB inclusion separately",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -117,24 +117,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "USB Ports May Not Carry the Same Surge Protection as the AC Outlets",
-    note: "Many combined units surge-protect the AC outlets but provide no meaningful surge suppression on the USB output circuitry itself, since USB ports operate at low DC voltage where the AC-side MOV protection may not extend. This is a real gap almost never clarified despite mattering for buyers specifically charging valuable devices via USB.",
+    "subheading": "By Disclosed Joule Rating",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around 3780 joules",
+          "Belkin 12"
+        ],
+        [
+          "Around 2700 joules",
+          "Surge Protector Power Strip"
+        ],
+        [
+          "Around 2700 joules",
+          "Power Strip"
+        ]
+      ]
+    }
   },
   {
-    subheading: "AC and USB Circuitry Can Fail Independently",
-    note: "A surge event that damages the AC-side surge protection circuitry doesn't necessarily disable the USB ports, or vice versa. A buyer might reasonably assume 'the protection light is on' means both halves remain fully protected, when a single light typically reflects only the AC-side MOV status.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $10",
+          "Surge Protector Power Strip"
+        ],
+        [
+          "Up to $29",
+          "Belkin 12"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Verify Joule Rating Hasn't Been Cut to Add USB Features",
-    note: "Adding surge protection circuitry alongside USB circuitry increases overall product cost, and budget combined units sometimes cut corners on joule rating specifically to keep the price competitive. Compare the joule rating against a comparable AC-only surge protector at a similar price point to check for this tradeoff.",
+    "subheading": "Joule Rating vs Price",
+    "cards": [
+      {
+        "label": "Surge Protector Power Strip",
+        "text": "The lower-priced option in this comparison, worth checking its disclosed joule rating against your equipment's value."
+      },
+      {
+        "label": "Belkin 12",
+        "text": "The higher-priced option, worth it if it offers real protection headroom above the cheaper pick's rating."
+      }
+    ],
+    "note": "Default to Surge Protector Power Strip unless your equipment's value genuinely calls for more protection."
   },
+  {
+    "subheading": "By Plug Type",
+    "table": {
+      "headers": [
+        "Desk situation",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Tight space behind furniture, flat plug needed",
+          "Surge Protector Power Strip"
+        ],
+        [
+          "Standard outlet clearance",
+          "Power Strip"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Home Office Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A disclosed joule rating of at least 1000-2000 with UL 1449 certification, plus enough spaced outlets for a monitor, dock, and peripherals."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Belkin 12 discloses the highest joule rating at 3780 joules."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Your equipment is expensive or sensitive, where Belkin 12's higher price buys real protection headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You're protecting lower-value, easily replaceable electronics, where Surge Protector Power Strip covers the same basic job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "USB ports may not carry the same surge protection as AC outlets", explanation: "Many combined units surge-protect the AC side but provide no meaningful surge suppression on the USB output circuitry, a real gap almost never clarified on product listings." },
-  { criterion: "AC-side and USB-side circuitry can fail independently", explanation: "A single indicator light typically reflects only the AC-side MOV status, a surge event damaging one doesn't necessarily disable the other, don't assume 'the light is on' means both are fully protected." },
-  { criterion: "UL 1449 certification on a combined unit may only cover the AC side", explanation: "A 'UL 1449 listed' claim on packaging may only certify AC-outlet performance, not any USB-side protection, verify the certification's actual scope where possible." },
-  { criterion: "Budget combined units sometimes cut joule rating to afford USB features", explanation: "Adding USB circuitry increases product cost, verify the joule rating against a comparable AC-only surge protector at a similar price point to check whether protection was reduced to fund the USB feature." },
+  {
+    "criterion": "Check the disclosed joule rating, not just the word \"surge protector\"",
+    "explanation": "A joule rating measures how much total surge energy a device can absorb before it needs replacing, and plenty of products marketed simply as a \"power strip\" or \"surge protector\" either omit this number entirely or bury it deep in the specs.\n\nThis matters because a device with no real joule rating, or a very low one under 600, may offer only minimal protection, essentially a glorified extension cord with a marketing label, while a legitimate surge protector for computer or home-office equipment typically starts around 1000 to 2000 joules or higher.\n\nLook for the specific joule number stated in the listing title or bullet points, and treat any listing that only says \"surge protection\" with no number attached as a red flag."
+  },
+  {
+    "criterion": "Match outlet count and spacing to what you're actually plugging in",
+    "explanation": "The number of outlets on the spec sheet doesn't tell the whole story, spacing between outlets matters just as much, since bulky wall adapters or power bricks for a monitor, printer, or charger can block adjacent outlets even on a strip that technically has enough slots.\n\nThis is a common real-world frustration where a 6-outlet strip effectively becomes a 3 or 4-outlet strip once actual devices are plugged in.\n\nCheck product photos and reviews for outlet spacing specifically, and count how many bulky adapters you'll actually need to plug in side by side before assuming the listed outlet count covers your setup."
+  },
+  {
+    "criterion": "Verify UL listing, since surge protection claims aren't self-certifying",
+    "explanation": "UL (Underwriters Laboratories) certification is an independent third-party safety and performance verification, not a marketing claim a manufacturer can just assert on its own.\n\nA genuine surge protector should carry UL 1449 certification specifically, the standard for surge protective devices, distinct from a basic UL listing that only covers general electrical safety without verifying surge performance. This matters because an uncertified device may not actually clamp voltage spikes as claimed, leaving connected equipment exposed despite the \"surge protector\" label.\n\nCheck the listing or product photos for a UL 1449 mark specifically, not just a generic UL logo."
+  },
+  {
+    "criterion": "Consider USB ports and their combined wattage, not just port count",
+    "explanation": "A strip listing 4 USB ports doesn't guarantee those ports can charge 4 devices at full speed simultaneously, the ports typically share a combined wattage budget, so charging speed can drop noticeably when multiple devices draw power at once.\n\nThis matters more if you regularly charge a phone, tablet, and other device all at the same time from the same strip, versus occasional single-device charging.\n\nCheck the listing for total USB output in watts, not just the port count, and compare that figure against your devices' actual charging requirements if fast charging matters to you."
+  },
+  {
+    "criterion": "Check the warranty and connected-equipment protection guarantee",
+    "explanation": "Many legitimate surge protectors back their protection with a manufacturer's connected-equipment warranty, a dollar-amount guarantee to cover damage to plugged-in devices if the surge protector fails to do its job.\n\nThis is a meaningfully stronger signal of manufacturer confidence than a basic product warranty covering only the strip itself, since it puts real money behind the surge-protection claim.\n\nCheck the listing for a specific connected-equipment warranty amount and duration, and treat the absence of one as a sign the surge protection claim may be more marketing than substance."
+  }
 ];
 
 export const faq: FaqItem[] = [
