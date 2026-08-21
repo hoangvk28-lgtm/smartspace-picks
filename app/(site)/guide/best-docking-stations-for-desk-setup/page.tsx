@@ -128,9 +128,9 @@ export default async function BestDockingStationsPage() {
 
       <Container className="py-12 max-w-4xl">
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">Home</Link>
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
           <span className="text-ink">Best Docking Stations for Desk Setup</span>
         </nav>
@@ -165,7 +165,7 @@ export default async function BestDockingStationsPage() {
 
         <div className="mb-8 p-4 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
           <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission -- at no extra cost to you. As an Amazon Associate, DeskFinds earns from qualifying purchases.{" "}
-          <Link href="/affiliate-disclosure" className="text-brand hover:underline">Learn more</Link>.
+          <Link prefetch={false} href="/affiliate-disclosure" className="text-brand hover:underline">Learn more</Link>.
         </div>
 
         <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-bg">
@@ -247,7 +247,7 @@ export default async function BestDockingStationsPage() {
           </div>
           <p className="text-xs text-ink-muted mt-3">
             <strong>For charging-only (no monitor connection):</strong>{" "}
-            <Link href="/guide/best-charging-stations-for-desk" className="text-brand hover:underline font-medium">Best Charging Stations for Desk</Link>
+            <Link prefetch={false} href="/guide/best-charging-stations-for-desk" className="text-brand hover:underline font-medium">Best Charging Stations for Desk</Link>
           </p>
         </section>
 
@@ -558,7 +558,7 @@ export default async function BestDockingStationsPage() {
               { href: "/guide/desk-setup-essentials", title: "Desk Setup Essentials", desc: "15 must-have items for any desk setup" },
               { href: "/guide/ergonomic-desk-setup", title: "Ergonomic Desk Setup Guide", desc: "How to position everything correctly" },
             ].map((g) => (
-              <Link key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
+              <Link prefetch={false} key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
                 <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">
                   <svg className="w-4 h-4 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />

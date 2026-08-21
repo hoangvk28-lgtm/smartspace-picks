@@ -178,9 +178,9 @@ export default async function BestHeadphonesForWorkingOutPage() {
       <Container className="py-12 max-w-4xl">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">Home</Link>
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
           <span className="text-ink">Best Headphones for Working Out</span>
         </nav>
@@ -217,7 +217,7 @@ export default async function BestHeadphonesForWorkingOutPage() {
         {/* Affiliate disclosure */}
         <div className="mb-8 p-4 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
           <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. As an Amazon Associate, DeskFinds earns from qualifying purchases.{" "}
-          <Link href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
+          <Link prefetch={false} href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
         </div>
 
         {/* Hero image */}
@@ -284,7 +284,7 @@ export default async function BestHeadphonesForWorkingOutPage() {
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>The wrong headphones for working out are not just annoying. They fall out mid-set, short-circuit from sweat in three months, or muffle ambient sound so completely that you do not hear the car coming.</p>
           <p>This guide covers 7 picks: budget earbuds under $55, IP68-rated sport earbuds, open-ear bone conduction for runners, premium hooks for intense training, and one over-ear pick for gym sessions where isolation matters more than sweat resistance.</p>
-          <p>If you also need headphones for work calls, see our <Link href="/guide/best-headset-for-work" className="text-brand hover:underline">best work headsets guide</Link>. For a dedicated headphone stand at your desk, see our <Link href="/guide/best-headphone-stand-desk" className="text-brand hover:underline">headphone stand guide</Link>.</p>
+          <p>If you also need headphones for work calls, see our <Link prefetch={false} href="/guide/best-headset-for-work" className="text-brand hover:underline">best work headsets guide</Link>. For a dedicated headphone stand at your desk, see our <Link prefetch={false} href="/guide/best-headphone-stand-desk" className="text-brand hover:underline">headphone stand guide</Link>.</p>
         </section>
 
         {/* Buying Guide */}
@@ -439,7 +439,7 @@ export default async function BestHeadphonesForWorkingOutPage() {
           <h2 className="text-xl font-bold text-ink mb-4 tracking-tight">Related Guides</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {relatedGuides.map((g) => (
-              <Link
+              <Link prefetch={false}
                 key={g.href}
                 href={g.href}
                 className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group"

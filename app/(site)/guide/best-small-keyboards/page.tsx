@@ -61,9 +61,9 @@ export default async function BestSmallKeyboardsPage() {
 
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">Home</Link>
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
           <span className="text-ink">Best Small Keyboards</span>
         </nav>
@@ -92,7 +92,7 @@ export default async function BestSmallKeyboardsPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
                 </svg>
               </div>
-              <Link href="/author/deskfinds-editorial-team" className="hover:text-accent hover:underline transition-colors">DeskFinds Editorial Team</Link>
+              <Link prefetch={false} href="/author/deskfinds-editorial-team" className="hover:text-accent hover:underline transition-colors">DeskFinds Editorial Team</Link>
             </div>
             <div className="flex items-center gap-1.5 text-xs text-ink-muted">
               <svg className="w-3.5 h-3.5" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -336,7 +336,7 @@ export default async function BestSmallKeyboardsPage() {
               { href: "/guide/monitor-stands-small-desks", title: "Best Monitor Stands for Small Desks", label: "Desk Setup" },
               { href: "/guide/desk-lamps-small-desks", title: "Best Desk Lamps for Small Desks", label: "Desk Setup" },
             ].map((g) => (
-              <Link
+              <Link prefetch={false}
                 key={g.href}
                 href={g.href}
                 className="group p-4 rounded-xl border border-border bg-white hover:border-brand/40 hover:shadow-sm transition-all"

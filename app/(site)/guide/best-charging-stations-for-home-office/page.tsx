@@ -90,8 +90,8 @@ export default async function HomeOfficeChargingPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
       <Container className="py-12 max-w-4xl">
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">Home</Link><span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link><span>/</span>
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">Home</Link><span>/</span>
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link><span>/</span>
           <span className="text-ink">Best Charging Stations for Home Office</span>
         </nav>
 
@@ -121,7 +121,7 @@ export default async function HomeOfficeChargingPage() {
 
         <div className="mb-8 p-4 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
           <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission -- at no extra cost to you. As an Amazon Associate, DeskFinds earns from qualifying purchases.{" "}
-          <Link href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
+          <Link prefetch={false} href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
         </div>
 
         <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-bg">
@@ -279,13 +279,13 @@ export default async function HomeOfficeChargingPage() {
               <div className="p-4 rounded-xl bg-bg border border-brand/20 text-sm text-ink-secondary">
                 <strong className="text-ink">Do You Need a Docking Station Instead?</strong>
                 <p className="mt-1 text-xs">Get a docking station if you want to plug in one cable and have your entire desk come alive -- monitors, wired network, all USB devices, and laptop charging simultaneously.{" "}
-                  <Link href="/guide/best-docking-stations-for-desk-setup" className="text-brand hover:underline font-medium">Best Docking Stations for Desk Setup &rarr;</Link>
+                  <Link prefetch={false} href="/guide/best-docking-stations-for-desk-setup" className="text-brand hover:underline font-medium">Best Docking Stations for Desk Setup &rarr;</Link>
                 </p>
               </div>
               <div className="p-4 rounded-xl bg-bg border border-brand/20 text-sm text-ink-secondary">
                 <strong className="text-ink">Under-Desk Option for Clean Video Desks</strong>
                 <p className="mt-1 text-xs">For a desk always on camera, consider moving the charging station under the desk entirely. A clamp-mount station puts everything below the surface and completely out of frame.{" "}
-                  <Link href="/guide/under-desk-charging-station" className="text-brand hover:underline font-medium">Best Under-Desk Charging Stations &rarr;</Link>
+                  <Link prefetch={false} href="/guide/under-desk-charging-station" className="text-brand hover:underline font-medium">Best Under-Desk Charging Stations &rarr;</Link>
                 </p>
               </div>
             </div>
@@ -342,7 +342,7 @@ export default async function HomeOfficeChargingPage() {
               { href: "/guide/best-docking-stations-for-desk-setup", title: "Best Docking Stations for Desk Setup", desc: "One-cable desk connectivity with monitor support" },
               { href: "/guide/under-desk-charging-station", title: "Best Under-Desk Charging Stations", desc: "Remove the charger from the desk surface entirely" },
             ].map((g) => (
-              <Link key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
+              <Link prefetch={false} key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
                 <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">
                   <svg className="w-4 h-4 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" /></svg>
                 </div>

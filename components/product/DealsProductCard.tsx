@@ -56,7 +56,7 @@ export function DealsProductCard({ product }: DealsProductCardProps) {
         </div>
 
         {/* Name */}
-        <Link href={`/reviews/${product.slug}`} className="group/name">
+        <Link prefetch={false} href={`/reviews/${product.slug}`} className="group/name">
           <h3 className="font-semibold text-ink text-sm leading-snug group-hover/name:text-brand transition-colors line-clamp-2">
             {product.name}
           </h3>
@@ -94,7 +94,7 @@ export function DealsProductCard({ product }: DealsProductCardProps) {
         {/* CTA */}
         <div className="pt-3 border-t border-border space-y-2.5">
           <div className="flex items-center justify-end">
-            <Link
+            <Link prefetch={false}
               href={`/reviews/${product.slug}`}
               className="text-xs font-medium text-brand hover:text-brand-dark transition-colors"
             >

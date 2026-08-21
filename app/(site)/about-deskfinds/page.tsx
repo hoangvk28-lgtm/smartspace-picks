@@ -297,7 +297,7 @@ export default function AboutPage() {
           </p>
           <div className="flex flex-wrap gap-2.5">
             {COVERS.map((item) => (
-              <Link
+              <Link prefetch={false}
                 key={item.href}
                 href={item.href}
                 className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full border border-border bg-white text-sm font-medium text-ink hover:border-brand/40 hover:text-brand transition-colors"
@@ -311,13 +311,13 @@ export default function AboutPage() {
           </div>
           <p className="text-xs text-ink-muted mt-4">
             Browse all guides at{" "}
-            <Link href="/guide" className="text-brand hover:underline font-medium">deskfinds.com/guide</Link>
+            <Link prefetch={false} href="/guide" className="text-brand hover:underline font-medium">deskfinds.com/guide</Link>
             {" "}or by category at{" "}
-            <Link href="/categories/desk-setup" className="text-brand hover:underline font-medium">Desk Setup</Link>
+            <Link prefetch={false} href="/categories/desk-setup" className="text-brand hover:underline font-medium">Desk Setup</Link>
             {", "}
-            <Link href="/categories/dorm-essentials" className="text-brand hover:underline font-medium">Dorm Essentials</Link>
+            <Link prefetch={false} href="/categories/dorm-essentials" className="text-brand hover:underline font-medium">Dorm Essentials</Link>
             {", and "}
-            <Link href="/categories/small-room-storage" className="text-brand hover:underline font-medium">Small Room Storage</Link>.
+            <Link prefetch={false} href="/categories/small-room-storage" className="text-brand hover:underline font-medium">Small Room Storage</Link>.
           </p>
         </section>
 
@@ -342,7 +342,7 @@ export default function AboutPage() {
           </div>
           <p className="text-xs text-ink-muted mt-4">
             Our scoring criteria are explained in full on{" "}
-            <Link href="/how-we-review" className="text-brand hover:underline font-medium">How We Review</Link>.
+            <Link prefetch={false} href="/how-we-review" className="text-brand hover:underline font-medium">How We Review</Link>.
           </p>
         </section>
 
@@ -379,7 +379,7 @@ export default function AboutPage() {
             </p>
             <p>
               You can read our complete methodology — including all five scoring criteria and what each editorial badge means — on our{" "}
-              <Link href="/how-we-review" className="text-brand hover:text-brand-dark font-medium underline underline-offset-2 transition-colors">
+              <Link prefetch={false} href="/how-we-review" className="text-brand hover:text-brand-dark font-medium underline underline-offset-2 transition-colors">
                 How We Review page
               </Link>.
             </p>
@@ -407,7 +407,7 @@ export default function AboutPage() {
                 { label: "Privacy Policy", href: "/privacy-policy" },
                 { label: "Contact", href: "/contact" },
               ].map((l) => (
-                <Link key={l.href} href={l.href} className="text-brand hover:underline font-medium">
+                <Link prefetch={false} key={l.href} href={l.href} className="text-brand hover:underline font-medium">
                   {l.label} →
                 </Link>
               ))}
@@ -429,7 +429,7 @@ export default function AboutPage() {
               Affiliate commissions help fund the research, writing, and maintenance of the site. Without them, the site would not exist in its current form.
             </p>
           </div>
-          <Link href="/affiliate-disclosure" className="inline-block mt-3 text-sm font-semibold text-brand hover:text-brand-dark transition-colors">
+          <Link prefetch={false} href="/affiliate-disclosure" className="inline-block mt-3 text-sm font-semibold text-brand hover:text-brand-dark transition-colors">
             Read our full affiliate disclosure →
           </Link>
 
@@ -457,7 +457,7 @@ export default function AboutPage() {
           <h2 id="start-guides" className="text-2xl font-bold text-ink mb-5 tracking-tight">Start With DeskFinds Guides</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {START_GUIDES.map((guide) => (
-              <Link
+              <Link prefetch={false}
                 key={guide.href}
                 href={guide.href}
                 className="group flex items-center justify-between p-4 rounded-xl border border-border bg-white hover:border-brand/40 hover:shadow-sm transition-all"
@@ -472,9 +472,9 @@ export default function AboutPage() {
             ))}
           </div>
           <div className="mt-4 flex flex-wrap gap-x-5 gap-y-2 text-xs">
-            <Link href="/guide" className="text-brand hover:underline font-medium">View all buying guides →</Link>
-            <Link href="/compare" className="text-brand hover:underline font-medium">Compare all products →</Link>
-            <Link href="/deals" className="text-brand hover:underline font-medium">Budget-friendly finds →</Link>
+            <Link prefetch={false} href="/guide" className="text-brand hover:underline font-medium">View all buying guides →</Link>
+            <Link prefetch={false} href="/compare" className="text-brand hover:underline font-medium">Compare all products →</Link>
+            <Link prefetch={false} href="/deals" className="text-brand hover:underline font-medium">Budget-friendly finds →</Link>
           </div>
         </section>
 

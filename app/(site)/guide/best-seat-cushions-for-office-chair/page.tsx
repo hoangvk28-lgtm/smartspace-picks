@@ -174,9 +174,9 @@ export default async function BestSeatCushionsPage() {
       <Container className="py-12 max-w-4xl">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">Home</Link>
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
           <span className="text-ink">Best Seat Cushions for Office Chair</span>
         </nav>
@@ -213,7 +213,7 @@ export default async function BestSeatCushionsPage() {
         {/* Affiliate disclosure */}
         <div className="mb-8 p-4 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
           <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. As an Amazon Associate, DeskFinds earns from qualifying purchases.{" "}
-          <Link href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
+          <Link prefetch={false} href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
         </div>
 
         {/* Hero image */}
@@ -277,7 +277,7 @@ export default async function BestSeatCushionsPage() {
         {/* Intro */}
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>Most seat cushion guides skip the part where they explain which type of cushion addresses which problem. A coccyx cutout cushion and a flat contoured cushion solve different problems, and using the wrong type does not deliver the relief you expect.</p>
-          <p>This guide covers 7 seat cushions from $30 to $70 across four cushion types, ranked from budget to premium. If you are also rebuilding your full workstation, see our <Link href="/guide/ergonomic-desk-setup" className="text-brand hover:underline">ergonomic desk setup guide</Link> or our guide to <Link href="/guide/best-office-chair-under-100" className="text-brand hover:underline">best office chairs under $100</Link> for context on what a cushion can and cannot fix.</p>
+          <p>This guide covers 7 seat cushions from $30 to $70 across four cushion types, ranked from budget to premium. If you are also rebuilding your full workstation, see our <Link prefetch={false} href="/guide/ergonomic-desk-setup" className="text-brand hover:underline">ergonomic desk setup guide</Link> or our guide to <Link prefetch={false} href="/guide/best-office-chair-under-100" className="text-brand hover:underline">best office chairs under $100</Link> for context on what a cushion can and cannot fix.</p>
           <p>Every pick was evaluated against the specific pain or fatigue problem it claims to solve. A cushion that does not address the right anatomical pressure point is not a useful pick regardless of its star rating.</p>
         </section>
 
@@ -457,7 +457,7 @@ export default async function BestSeatCushionsPage() {
           <h2 className="text-xl font-bold text-ink mb-4 tracking-tight">Related Guides</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {relatedGuides.map((g) => (
-              <Link
+              <Link prefetch={false}
                 key={g.href}
                 href={g.href}
                 className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group"

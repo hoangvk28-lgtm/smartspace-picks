@@ -199,9 +199,9 @@ export default async function BestWebcamUnder50Page() {
 
         {/* Breadcrumbs */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">Home</Link>
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
           <span className="text-ink">Best Webcams Under $50</span>
         </nav>
@@ -241,7 +241,7 @@ export default async function BestWebcamUnder50Page() {
         {/* Affiliate disclosure */}
         <div className="mb-8 p-4 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
           <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission — at no extra cost to you. This guide is based on product specs, buyer feedback, use cases, and comparison criteria — not paid placement.{" "}
-          <Link href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
+          <Link prefetch={false} href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
         </div>
 
         {/* Hero image */}
@@ -614,7 +614,7 @@ export default async function BestWebcamUnder50Page() {
           </div>
           <p className="text-xs text-ink-muted mt-4 leading-relaxed">
             Scores reflect DeskFinds editorial assessment based on product specifications, verified buyer reports, and structured comparison criteria. They are not crowd-sourced ratings.{" "}
-            <Link href="/how-we-review" className="text-brand hover:underline">How we review →</Link>
+            <Link prefetch={false} href="/how-we-review" className="text-brand hover:underline">How we review →</Link>
           </p>
         </section>
 
@@ -646,7 +646,7 @@ export default async function BestWebcamUnder50Page() {
               { href: "/guide/best-docking-stations-for-desk-setup", label: "Best Docking Stations for Desk Setups", description: "One cable to rule all your peripherals." },
               { href: "/guide/best-desk-mat-for-small-desk", label: "Best Desk Mats for Small Desks", description: "Protect your surface and unify your setup." },
             ].map((g) => (
-              <Link
+              <Link prefetch={false}
                 key={g.href}
                 href={g.href}
                 className="flex flex-col gap-1 p-4 rounded-xl border border-border bg-white hover:border-brand hover:shadow-card transition-all"

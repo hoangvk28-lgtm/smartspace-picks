@@ -174,9 +174,9 @@ export default async function BestHeadsetForWorkPage() {
       <Container className="py-12 max-w-4xl">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">Home</Link>
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
           <span className="text-ink">Best Headsets for Work</span>
         </nav>
@@ -213,7 +213,7 @@ export default async function BestHeadsetForWorkPage() {
         {/* Affiliate disclosure */}
         <div className="mb-8 p-4 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
           <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. As an Amazon Associate, DeskFinds earns from qualifying purchases.{" "}
-          <Link href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
+          <Link prefetch={false} href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
         </div>
 
         {/* Hero image */}
@@ -280,7 +280,7 @@ export default async function BestHeadsetForWorkPage() {
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>Most best work headset guides start at $150 and skip the reality that a $35 USB headset handles Zoom calls just as well as a $250 consumer ANC headphone, if you pick the right one.</p>
           <p>This guide covers 7 headsets for work: two budget wired picks under $70, a budget wireless option, a mid-range AI-powered wireless, a premium Teams-certified wireless, and two consumer ANC picks for open offices and loud environments.</p>
-          <p>Every pick was evaluated for call clarity, all-day comfort, and compatibility with the platforms WFH workers actually use. See also our guide on <Link href="/guide/best-headphones-for-working-out" className="text-brand hover:underline">best workout headphones</Link> or <Link href="/guide/best-headphones-for-gaming" className="text-brand hover:underline">best gaming headsets</Link> if your needs overlap.</p>
+          <p>Every pick was evaluated for call clarity, all-day comfort, and compatibility with the platforms WFH workers actually use. See also our guide on <Link prefetch={false} href="/guide/best-headphones-for-working-out" className="text-brand hover:underline">best workout headphones</Link> or <Link prefetch={false} href="/guide/best-headphones-for-gaming" className="text-brand hover:underline">best gaming headsets</Link> if your needs overlap.</p>
         </section>
 
         {/* Buying Guide */}
@@ -444,7 +444,7 @@ export default async function BestHeadsetForWorkPage() {
           <h2 className="text-xl font-bold text-ink mb-4 tracking-tight">Related Guides</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {relatedGuides.map((g) => (
-              <Link
+              <Link prefetch={false}
                 key={g.href}
                 href={g.href}
                 className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group"

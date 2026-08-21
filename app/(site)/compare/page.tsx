@@ -79,7 +79,7 @@ export default async function ComparePage() {
         <h2 className="text-lg font-bold text-ink mb-4">VS Comparisons</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {VS_ARTICLES.map((article) => (
-            <Link
+            <Link prefetch={false}
               key={article.slug}
               href={`/compare/${article.slug}`}
               className="group rounded-2xl border border-border bg-white hover:border-brand hover:shadow-sm transition-all p-5 flex flex-col gap-2"

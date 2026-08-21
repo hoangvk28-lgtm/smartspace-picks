@@ -255,11 +255,11 @@ export default async function BestHeadphonesUnder30Page() {
       <Container className="py-12 max-w-4xl">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">
             Home
           </Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">
             Buying Guides
           </Link>
           <span>/</span>
@@ -283,7 +283,7 @@ export default async function BestHeadphonesUnder30Page() {
           <p className="text-lg text-ink-secondary leading-relaxed max-w-3xl">
             The under-$30 headphone category gets dismissed by most review
             sites. At this price you can get{" "}
-            <Link
+            <Link prefetch={false}
               href="/guide/best-headphones-for-online-classes"
               className="text-brand hover:underline"
             >
@@ -293,7 +293,7 @@ export default async function BestHeadphonesUnder30Page() {
             audio if you know which products to look at. This guide covers seven
             headphones under $30 across three categories: true wireless earbuds,
             wired on-ear, and{" "}
-            <Link
+            <Link prefetch={false}
               href="/guide/best-headphones-for-working-out"
               className="text-brand hover:underline"
             >
@@ -345,7 +345,7 @@ export default async function BestHeadphonesUnder30Page() {
           affiliate links. If you buy through our links, we may earn a small
           commission at no extra cost to you. As an Amazon Associate, DeskFinds
           earns from qualifying purchases.{" "}
-          <Link
+          <Link prefetch={false}
             href="/affiliate-disclosure"
             className="text-brand hover:underline"
           >
@@ -748,7 +748,7 @@ export default async function BestHeadphonesUnder30Page() {
           </h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {relatedGuides.map((g) => (
-              <Link
+              <Link prefetch={false}
                 key={g.href}
                 href={g.href}
                 className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group"

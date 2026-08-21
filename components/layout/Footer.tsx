@@ -30,7 +30,7 @@ export async function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand column */}
           <div className="lg:col-span-1">
-            <Link href="/" className="inline-block mb-4">
+            <Link prefetch={false} href="/" className="inline-block mb-4">
               <Image
                 src="/logo-deskfinds-official.png"
                 alt="DeskFinds"
@@ -50,7 +50,7 @@ export async function Footer() {
             <ul className="space-y-2.5">
               {footerNav.categories.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="text-sm text-ink-inverse/80 hover:text-white transition-colors">{link.label}</Link>
+                  <Link prefetch={false} href={link.href} className="text-sm text-ink-inverse/80 hover:text-white transition-colors">{link.label}</Link>
                 </li>
               ))}
             </ul>
@@ -62,7 +62,7 @@ export async function Footer() {
             <ul className="space-y-2.5">
               {footerNav.company.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="text-sm text-ink-inverse/80 hover:text-white transition-colors">{link.label}</Link>
+                  <Link prefetch={false} href={link.href} className="text-sm text-ink-inverse/80 hover:text-white transition-colors">{link.label}</Link>
                 </li>
               ))}
             </ul>
@@ -74,7 +74,7 @@ export async function Footer() {
             <ul className="space-y-2.5">
               {footerNav.legal.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="text-sm text-ink-inverse/80 hover:text-white transition-colors">{link.label}</Link>
+                  <Link prefetch={false} href={link.href} className="text-sm text-ink-inverse/80 hover:text-white transition-colors">{link.label}</Link>
                 </li>
               ))}
             </ul>

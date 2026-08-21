@@ -65,7 +65,7 @@ export function CompareTools() {
             and small-space fit - so comparisons stay apples-to-apples.
           </p>
         </div>
-        <Link
+        <Link prefetch={false}
           href="/compare"
           className="text-sm font-semibold text-brand hover:text-brand-dark transition-colors shrink-0 flex items-center gap-1"
         >
@@ -112,7 +112,7 @@ export function CompareTools() {
             </div>
 
             {tool.available ? (
-              <Link
+              <Link prefetch={false}
                 href={tool.href}
                 className="mt-auto text-sm font-semibold text-brand hover:text-brand-dark transition-colors flex items-center gap-1"
                 aria-label={`Go to ${tool.title}`}

@@ -32,9 +32,9 @@ export default async function AllGuidesPage() {
   return (
     <Container className="py-14">
       <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-8">
-        <Link href="/" className="hover:text-brand transition-colors">Home</Link>
+        <Link prefetch={false} href="/" className="hover:text-brand transition-colors">Home</Link>
         <span>/</span>
-        <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
+        <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
         <span>/</span>
         <span className="text-ink">All Guides</span>
       </nav>
@@ -74,7 +74,7 @@ export default async function AllGuidesPage() {
               {catGuides.map((guide) => {
                 const thumb = guide.thumbnailImage || guide.heroImage;
                 return (
-                  <Link
+                  <Link prefetch={false}
                     key={guide.slug}
                     href={`/guide/${guide.slug}`}
                     className="group flex flex-col bg-white rounded-card border border-border hover:shadow-card-hover hover:border-brand/20 transition-all overflow-hidden"
@@ -131,7 +131,7 @@ export default async function AllGuidesPage() {
               {uncategorised.map((guide) => {
                 const thumb = guide.thumbnailImage || guide.heroImage;
                 return (
-                  <Link key={guide.slug} href={`/guide/${guide.slug}`}
+                  <Link prefetch={false} key={guide.slug} href={`/guide/${guide.slug}`}
                     className="group flex flex-col bg-white rounded-card border border-border hover:shadow-card-hover hover:border-brand/20 transition-all overflow-hidden">
                     {thumb && (
                       <div className="relative w-full h-40 bg-bg overflow-hidden">
@@ -150,7 +150,7 @@ export default async function AllGuidesPage() {
         )}
 
         <div className="pt-6 border-t border-border text-center">
-          <Link href="/guide" className="text-sm font-semibold text-brand hover:underline">
+          <Link prefetch={false} href="/guide" className="text-sm font-semibold text-brand hover:underline">
             ← Back to Buying Guides
           </Link>
         </div>

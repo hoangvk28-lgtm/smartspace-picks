@@ -239,11 +239,11 @@ export default async function BestErgonomicChairUnder300Page() {
       <Container className="py-12 max-w-4xl">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">
             Home
           </Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">
             Buying Guides
           </Link>
           <span>/</span>
@@ -315,7 +315,7 @@ export default async function BestErgonomicChairUnder300Page() {
           affiliate links. If you buy through our links, we may earn a small
           commission at no extra cost to you. As an Amazon Associate, DeskFinds
           earns from qualifying purchases.{" "}
-          <Link
+          <Link prefetch={false}
             href="/affiliate-disclosure"
             className="text-brand hover:underline"
           >
@@ -412,28 +412,28 @@ export default async function BestErgonomicChairUnder300Page() {
           </p>
           <p>
             If you are also evaluating your full desk setup, see our{" "}
-            <Link
+            <Link prefetch={false}
               href="/guide/ergonomic-desk-setup"
               className="text-brand hover:underline"
             >
               ergonomic desk setup
             </Link>{" "}
             guide, or consider pairing a chair with a{" "}
-            <Link
+            <Link prefetch={false}
               href="/guide/best-standing-desk-under-300"
               className="text-brand hover:underline"
             >
               standing desk under $300
             </Link>
             . For the tightest budgets, the{" "}
-            <Link
+            <Link prefetch={false}
               href="/guide/best-office-chair-under-100"
               className="text-brand hover:underline"
             >
               best office chair under $100
             </Link>{" "}
             covers entry-level options, and{" "}
-            <Link
+            <Link prefetch={false}
               href="/guide/best-seat-cushions-for-office-chair"
               className="text-brand hover:underline"
             >
@@ -916,7 +916,7 @@ export default async function BestErgonomicChairUnder300Page() {
           </h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {relatedGuides.map((g) => (
-              <Link
+              <Link prefetch={false}
                 key={g.href}
                 href={g.href}
                 className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group"

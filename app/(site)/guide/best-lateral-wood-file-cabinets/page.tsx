@@ -227,11 +227,11 @@ export default async function BestLateralWoodFileCabinetsPage() {
       <Container className="py-12 max-w-4xl">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">
             Home
           </Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">
             Buying Guides
           </Link>
           <span>/</span>
@@ -302,7 +302,7 @@ export default async function BestLateralWoodFileCabinetsPage() {
           affiliate links. If you buy through our links, we may earn a small
           commission at no extra cost to you. As an Amazon Associate, DeskFinds
           earns from qualifying purchases.{" "}
-          <Link href="/affiliate-disclosure" className="text-brand hover:underline">
+          <Link prefetch={false} href="/affiliate-disclosure" className="text-brand hover:underline">
             Affiliate disclosure
           </Link>
           .
@@ -389,14 +389,14 @@ export default async function BestLateralWoodFileCabinetsPage() {
             price points in this category, construction is engineered wood with a
             wood-look laminate finish, not solid hardwood. For a full look at wood
             file cabinets across all formats, see our{" "}
-            <Link
+            <Link prefetch={false}
               href="/guide/best-wood-file-cabinets"
               className="text-brand hover:underline"
             >
               best wood file cabinets
             </Link>{" "}
             guide. If you are specifically comparing drawer count options, see our{" "}
-            <Link
+            <Link prefetch={false}
               href="/guide/best-2-drawer-wood-file-cabinets"
               className="text-brand hover:underline"
             >
@@ -684,7 +684,7 @@ export default async function BestLateralWoodFileCabinetsPage() {
           </h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {relatedGuides.map((g) => (
-              <Link
+              <Link prefetch={false}
                 key={g.href}
                 href={g.href}
                 className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group"

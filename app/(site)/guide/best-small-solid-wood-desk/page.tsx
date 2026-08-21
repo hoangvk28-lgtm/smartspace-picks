@@ -162,9 +162,9 @@ export default async function BestSmallSolidWoodDeskPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
       <Container className="py-12 max-w-4xl">
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">Home</Link>
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
           <span className="text-ink">Best Small Solid Wood Desks for Bedroom</span>
         </nav>
@@ -201,7 +201,7 @@ export default async function BestSmallSolidWoodDeskPage() {
 
         <div className="mb-8 p-4 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
           <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. As an Amazon Associate, DeskFinds earns from qualifying purchases.{" "}
-          <Link href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
+          <Link prefetch={false} href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
         </div>
 
         <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-bg">
@@ -241,9 +241,9 @@ export default async function BestSmallSolidWoodDeskPage() {
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>
             Small solid wood desks serve three primary use cases: bedroom offices where floor space is shared with a bed and wardrobe, apartment setups where the desk must double as a dining or general table, and minimalist home offices where the goal is a clean visible surface without visual bulk. The products on this list are all under 48 inches wide and verified to use genuine hardwood construction. For comparison with larger solid wood desks, the{" "}
-            <Link href="/guide/best-solid-wood-desk" className="text-brand hover:underline">solid wood desk guide</Link>{" "}
+            <Link prefetch={false} href="/guide/best-solid-wood-desk" className="text-brand hover:underline">solid wood desk guide</Link>{" "}
             covers options from 42 to 60+ inches. For solid wood with drawer storage, the{" "}
-            <Link href="/guide/best-wooden-desk-with-drawers" className="text-brand hover:underline">wooden desk with drawers guide</Link>{" "}
+            <Link prefetch={false} href="/guide/best-wooden-desk-with-drawers" className="text-brand hover:underline">wooden desk with drawers guide</Link>{" "}
             covers compact and full-size options.
           </p>
         </section>
@@ -280,7 +280,7 @@ export default async function BestSmallSolidWoodDeskPage() {
           <h2 className="text-xl font-bold text-ink mb-4 tracking-tight">Related Guides</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {relatedGuides.map((g) => (
-              <Link key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
+              <Link prefetch={false} key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
                 <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">
                   <svg className="w-4 h-4 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />

@@ -230,11 +230,11 @@ export default async function BestSmallStandingDeskPage() {
       <Container className="py-12 max-w-4xl">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">
             Home
           </Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">
             Buying Guides
           </Link>
           <span>/</span>
@@ -305,7 +305,7 @@ export default async function BestSmallStandingDeskPage() {
           affiliate links. If you buy through our links, we may earn a small
           commission at no extra cost to you. As an Amazon Associate, DeskFinds
           earns from qualifying purchases.{" "}
-          <Link href="/affiliate-disclosure" className="text-brand hover:underline">
+          <Link prefetch={false} href="/affiliate-disclosure" className="text-brand hover:underline">
             Affiliate disclosure
           </Link>
           .
@@ -396,14 +396,14 @@ export default async function BestSmallStandingDeskPage() {
             real compact options start at 40 and 32 inches. This guide covers the
             six best small electric standing desks from 32 to 48 inches wide. If
             you need a larger desk and have the wall space, see our guide to{" "}
-            <Link
+            <Link prefetch={false}
               href="/guide/best-electric-standing-desk"
               className="text-brand hover:underline"
             >
               full-size electric standing desks
             </Link>
             . For a compact desk without height adjustment in solid wood, see{" "}
-            <Link
+            <Link prefetch={false}
               href="/guide/best-small-solid-wood-desk"
               className="text-brand hover:underline"
             >
@@ -701,7 +701,7 @@ export default async function BestSmallStandingDeskPage() {
           </h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {relatedGuides.map((g) => (
-              <Link
+              <Link prefetch={false}
                 key={g.href}
                 href={g.href}
                 className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group"

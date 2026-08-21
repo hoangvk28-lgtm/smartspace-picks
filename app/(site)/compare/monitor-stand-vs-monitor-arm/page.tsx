@@ -153,7 +153,7 @@ export default function MonitorStandVsArmPage() {
         <Container className="py-10 max-w-4xl">
           {/* Breadcrumb */}
           <div className="flex items-center gap-2 text-xs text-white/60 mb-6">
-            <Link href="/compare" className="hover:text-white transition-colors">Compare</Link>
+            <Link prefetch={false} href="/compare" className="hover:text-white transition-colors">Compare</Link>
             <span>/</span>
             <span className="text-white/80">Monitor Stand vs Monitor Arm</span>
           </div>
@@ -551,7 +551,7 @@ export default function MonitorStandVsArmPage() {
               { label: "Best Under Desk Cable Trays", href: "/guide/best-under-desk-cable-trays" },
               { label: "Small Desk Organization Ideas", href: "/guide/small-desk-organization-ideas" },
             ].map((link) => (
-              <Link key={link.href} href={link.href} className="text-xs font-semibold px-3 py-1.5 rounded-lg border border-border bg-white text-ink-secondary hover:border-amber-400 hover:text-ink transition-colors">
+              <Link prefetch={false} key={link.href} href={link.href} className="text-xs font-semibold px-3 py-1.5 rounded-lg border border-border bg-white text-ink-secondary hover:border-amber-400 hover:text-ink transition-colors">
                 {link.label}
               </Link>
             ))}

@@ -188,9 +188,9 @@ export default async function BestSmallKeyboardWithNumpadPage() {
       <Container className="py-12 max-w-4xl">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">Home</Link>
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
           <span className="text-ink">Best Small Keyboards with Numpad</span>
         </nav>
@@ -227,7 +227,7 @@ export default async function BestSmallKeyboardWithNumpadPage() {
         {/* Affiliate disclosure */}
         <div className="mb-8 p-4 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
           <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. As an Amazon Associate, DeskFinds earns from qualifying purchases.{" "}
-          <Link href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
+          <Link prefetch={false} href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
         </div>
 
         {/* Hero image */}
@@ -312,11 +312,11 @@ export default async function BestSmallKeyboardWithNumpadPage() {
           </p>
           <p>
             If budget is the main constraint, see our roundup of{" "}
-            <Link href="/guide/best-compact-keyboard-under-50" className="text-brand hover:underline">
+            <Link prefetch={false} href="/guide/best-compact-keyboard-under-50" className="text-brand hover:underline">
               compact keyboards under $50
             </Link>
             . For a broader look at form factors without the numpad requirement, see our guide on the{" "}
-            <Link href="/guide/best-small-keyboards" className="text-brand hover:underline">
+            <Link prefetch={false} href="/guide/best-small-keyboards" className="text-brand hover:underline">
               best small keyboards
             </Link>
             .
@@ -555,7 +555,7 @@ export default async function BestSmallKeyboardWithNumpadPage() {
           <h2 className="text-xl font-bold text-ink mb-4 tracking-tight">Related Guides</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {relatedGuides.map((g) => (
-              <Link
+              <Link prefetch={false}
                 key={g.href}
                 href={g.href}
                 className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group"

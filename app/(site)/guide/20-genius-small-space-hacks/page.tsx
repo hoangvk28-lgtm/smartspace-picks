@@ -112,9 +112,9 @@ export default async function SmallSpaceHacksPage() {
 
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">Home</Link>
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
           <span className="text-ink">20 Small-Space Hacks</span>
         </nav>
@@ -359,7 +359,7 @@ export default async function SmallSpaceHacksPage() {
               { href: "/guide/best-under-desk-cable-trays", title: "Best Under Desk Cable Trays", label: "Desk Setup" },
               { href: "/guide/desk-upgrades-under-100", title: "10 Desk Upgrades Under $100", label: "Desk Setup" },
             ].map((g) => (
-              <Link key={g.href} href={g.href} className="group p-4 rounded-xl border border-border bg-white hover:border-brand/40 hover:shadow-sm transition-all">
+              <Link prefetch={false} key={g.href} href={g.href} className="group p-4 rounded-xl border border-border bg-white hover:border-brand/40 hover:shadow-sm transition-all">
                 <span className="text-[10px] font-bold uppercase tracking-widest text-brand block mb-1">{g.label}</span>
                 <p className="text-sm font-semibold text-ink group-hover:text-brand transition-colors leading-snug">{g.title}</p>
                 <span className="text-xs font-semibold text-brand mt-2 inline-block">Read guide &rarr;</span>

@@ -150,9 +150,9 @@ export default async function BestClipOnDeskLampPage() {
 
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">Home</Link>
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
           <span className="text-ink">Best Clip-On Desk Lamps</span>
         </nav>
@@ -420,7 +420,7 @@ export default async function BestClipOnDeskLampPage() {
               { href: "/guide/best-small-desk-accessories", title: "12 Best Small Desk Accessories That Actually Save Space", label: "Desk Setup" },
               { href: "/guide/best-headphone-stand-desk", title: "Best Headphone Stands for Desk Setups", label: "Desk Setup" },
             ].map((g) => (
-              <Link key={g.href} href={g.href} className="group p-4 rounded-xl border border-border bg-white hover:border-brand/40 hover:shadow-sm transition-all">
+              <Link prefetch={false} key={g.href} href={g.href} className="group p-4 rounded-xl border border-border bg-white hover:border-brand/40 hover:shadow-sm transition-all">
                 <span className="text-[10px] font-bold uppercase tracking-widest text-brand block mb-1">{g.label}</span>
                 <p className="text-sm font-semibold text-ink group-hover:text-brand transition-colors leading-snug">{g.title}</p>
                 <span className="text-xs font-semibold text-brand mt-2 inline-block">Read guide &rarr;</span>

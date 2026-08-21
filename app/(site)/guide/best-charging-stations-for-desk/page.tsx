@@ -156,9 +156,9 @@ export default async function BestChargingStationsForDeskPage() {
       <Container className="py-12 max-w-4xl">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">Home</Link>
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
           <span className="text-ink">Best Charging Stations for Desk</span>
         </nav>
@@ -197,7 +197,7 @@ export default async function BestChargingStationsForDeskPage() {
         {/* Affiliate disclosure */}
         <div className="mb-8 p-4 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
           <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission -- at no extra cost to you. As an Amazon Associate, DeskFinds earns from qualifying purchases.{" "}
-          <Link href="/affiliate-disclosure" className="text-brand hover:underline">Learn more</Link>.
+          <Link prefetch={false} href="/affiliate-disclosure" className="text-brand hover:underline">Learn more</Link>.
         </div>
 
         {/* Hero image */}
@@ -286,25 +286,25 @@ export default async function BestChargingStationsForDeskPage() {
             {product.id === "best-wireless" && (
               <div className="mb-8 p-4 rounded-xl bg-bg border border-brand/20 text-sm text-ink-secondary">
                 <strong className="text-ink">Want more wireless options?</strong> See our full guide:{" "}
-                <Link href="/guide/best-desk-setup-accessories" className="text-brand hover:underline font-medium">Best Desk Setup Accessories</Link>
+                <Link prefetch={false} href="/guide/best-desk-setup-accessories" className="text-brand hover:underline font-medium">Best Desk Setup Accessories</Link>
               </div>
             )}
             {product.id === "best-multi-device" && (
               <div className="mb-8 p-4 rounded-xl bg-bg border border-brand/20 text-sm text-ink-secondary">
                 <strong className="text-ink">Need to charge 6+ devices?</strong> See our guide:{" "}
-                <Link href="/guide/best-usb-hub-for-desk" className="text-brand hover:underline font-medium">Best USB Hubs for Desk</Link>
+                <Link prefetch={false} href="/guide/best-usb-hub-for-desk" className="text-brand hover:underline font-medium">Best USB Hubs for Desk</Link>
               </div>
             )}
             {product.id === "best-compact" && (
               <div className="mb-8 p-4 rounded-xl bg-bg border border-brand/20 text-sm text-ink-secondary">
                 <strong className="text-ink">More compact picks:</strong>{" "}
-                <Link href="/guide/small-desk-setup" className="text-brand hover:underline font-medium">Small Desk Setup Ideas</Link>
+                <Link prefetch={false} href="/guide/small-desk-setup" className="text-brand hover:underline font-medium">Small Desk Setup Ideas</Link>
               </div>
             )}
             {product.id === "best-organizer" && (
               <div className="mb-8 p-4 rounded-xl bg-bg border border-brand/20 text-sm text-ink-secondary">
                 <strong className="text-ink">More organizer options:</strong>{" "}
-                <Link href="/guide/small-desk-organization-ideas" className="text-brand hover:underline font-medium">Small Desk Organization Ideas</Link>
+                <Link prefetch={false} href="/guide/small-desk-organization-ideas" className="text-brand hover:underline font-medium">Small Desk Organization Ideas</Link>
               </div>
             )}
           </div>
@@ -418,7 +418,7 @@ export default async function BestChargingStationsForDeskPage() {
             </ul>
             <div className="p-4 rounded-xl bg-bg border border-brand/20 text-sm text-ink-secondary">
               <strong className="text-ink">For a completely cable-free surface:</strong> Combine a wireless charging pad with{" "}
-              <Link href="/guide/best-under-desk-cable-trays" className="text-brand hover:underline font-medium">under-desk cable management solutions</Link>.
+              <Link prefetch={false} href="/guide/best-under-desk-cable-trays" className="text-brand hover:underline font-medium">under-desk cable management solutions</Link>.
             </div>
           </section>
 
@@ -582,7 +582,7 @@ export default async function BestChargingStationsForDeskPage() {
               { href: "/guide/desk-setup-essentials", title: "Desk Setup Essentials", desc: "15 must-have items for any desk setup" },
               { href: "/guide/small-desk-setup", title: "Small Desk Setup Ideas", desc: "15 smart ways to build a better compact workspace" },
             ].map((g) => (
-              <Link key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
+              <Link prefetch={false} key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
                 <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">
                   <svg className="w-4 h-4 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />

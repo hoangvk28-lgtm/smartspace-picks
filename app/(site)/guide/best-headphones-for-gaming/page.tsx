@@ -177,9 +177,9 @@ export default async function BestHeadphonesForGamingPage() {
       <Container className="py-12 max-w-4xl">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">Home</Link>
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
           <span className="text-ink">Best Gaming Headsets</span>
         </nav>
@@ -216,7 +216,7 @@ export default async function BestHeadphonesForGamingPage() {
         {/* Affiliate disclosure */}
         <div className="mb-8 p-4 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
           <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. As an Amazon Associate, DeskFinds earns from qualifying purchases.{" "}
-          <Link href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
+          <Link prefetch={false} href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
         </div>
 
         {/* Hero image */}
@@ -279,7 +279,7 @@ export default async function BestHeadphonesForGamingPage() {
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>The gaming headset market is full of RGB plastic and inflated specs. A $40 headset can genuinely outperform a $120 competitor if the drivers are tuned correctly and the microphone does not sound like a tin can. The goal of this guide is not the most expensive picks, it is the picks that actually deliver for what you spend.</p>
           <p>We evaluated 7 gaming headsets: two budget picks under $50 (one wired, one wireless), a best-under-$80 AI mic pick, mid-range wireless, and three premium options covering best battery, best competitive audio, and the best PS5-native experience.</p>
-          <p>If you also need a headset for work calls, see our <Link href="/guide/best-headset-for-work" className="text-brand hover:underline">best work headsets guide</Link>. For headphones at a desk, our <Link href="/guide/best-headphone-stand-desk" className="text-brand hover:underline">headphone stand guide</Link> pairs well with any pick here.</p>
+          <p>If you also need a headset for work calls, see our <Link prefetch={false} href="/guide/best-headset-for-work" className="text-brand hover:underline">best work headsets guide</Link>. For headphones at a desk, our <Link prefetch={false} href="/guide/best-headphone-stand-desk" className="text-brand hover:underline">headphone stand guide</Link> pairs well with any pick here.</p>
         </section>
 
         {/* Buying Guide */}
@@ -414,7 +414,7 @@ export default async function BestHeadphonesForGamingPage() {
           <h2 className="text-xl font-bold text-ink mb-4 tracking-tight">Related Guides</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {relatedGuides.map((g) => (
-              <Link
+              <Link prefetch={false}
                 key={g.href}
                 href={g.href}
                 className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group"
