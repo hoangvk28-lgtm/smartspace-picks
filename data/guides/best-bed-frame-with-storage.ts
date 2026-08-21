@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41YZCzk7GxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CKQSJ333?tag=deskfinds0d-20",
     description:
-      "The Lifezone offers the most complete drawer setup in this list, with 4 sliding drawers plus a 2-tier headboard storage shelf, giving more distinct storage zones than any other pick here. Built-in charging includes 2 AC outlets, 1 USB port, and 1 Type-C port, and app or remote-controlled RGB LED lighting runs along the frame.\n\nEleven metal support rods back the mattress instead of standard wood slats, which the brand says holds up better under regular use. The vintage brown finish stands out from the more neutral tones elsewhere in this guide, making it a strong all-around pick for anyone who wants maximum drawer storage plus charging in one frame.",
+      "The Lifezone offers the most complete drawer setup in this list, with 4 sliding drawers plus a 2-tier headboard storage shelf, giving more distinct storage zones than any other pick here. Built-in charging includes 2 AC outlets, 1 USB port, and 1 Type-C port, and app or remote-controlled RGB LED lighting runs along the frame.\n\nEleven metal support rods back the mattress instead of standard wood slats, which the brand says holds up better under regular use. The vintage brown finish stands out from the more neutral tones elsewhere in this guide, making it a strong all-around pick for anyone who wants maximum drawer storage plus charging in one frame.\n\nBuilt-in charging and RGB LED lighting. That's a real strength, but weigh it against the flip side: lowest rating in this list at 4.1 stars.",
     specs: [
       "Queen size",
       "800 lb weight capacity",
@@ -84,7 +84,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/519R-MgbHUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C9JFV24R?tag=deskfinds0d-20",
     description:
-      "The Allewie uses a gas hydraulic lift to raise the entire mattress platform at once, securing the whole underbed cavity in a single motion rather than requiring you to pull out individual drawers. The lift action stays smooth thanks to the gas-assisted mechanism, and it holds up to 800 lbs.\n\nAn upscale wingback headboard with a channel design gives it a more furniture-like look than most storage frames, and solid wood slats support the mattress underneath. For anyone who wants maximum underbed capacity without individual drawer boxes eating into the space, the lift-up design here is a strong, well-reviewed option.",
+      "The Allewie uses a gas hydraulic lift to raise the entire mattress platform at once, securing the whole underbed cavity in a single motion rather than requiring you to pull out individual drawers. The lift action stays smooth thanks to the gas-assisted mechanism, and it holds up to 800 lbs.\n\nAn upscale wingback headboard with a channel design gives it a more furniture-like look than most storage frames, and solid wood slats support the mattress underneath. For anyone who wants maximum underbed capacity without individual drawer boxes eating into the space, the lift-up design here is a strong, well-reviewed option.\n\nWorth calling out specifically: smooth gas-assisted lift action. The catch is no built-in charging or LED lighting.",
     specs: [
       "Queen size",
       "800 lb weight capacity",
@@ -117,7 +117,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/511JSDVR+BL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BQCJJQ5R?tag=deskfinds0d-20",
     description:
-      "The SHA CERLIN combines a hydraulic lift mechanism with one of the more attractive wingback headboards in this storage-focused category, wrapped in a light beige upholstered finish with a horizontal channel pattern. Narrow-spaced slats use plastic buckles rather than screws, which helps keep the frame squeak-resistant over time and means no box spring is needed.\n\nAt 800 lbs capacity, it's built to handle a full mattress plus whatever you store underneath. For buyers who want the lift-up storage format but also care about how the headboard looks in the room, this is one of the more design-forward picks here.",
+      "The SHA CERLIN combines a hydraulic lift mechanism with one of the more attractive wingback headboards in this storage-focused category, wrapped in a light beige upholstered finish with a horizontal channel pattern. Narrow-spaced slats use plastic buckles rather than screws, which helps keep the frame squeak-resistant over time and means no box spring is needed.\n\nAt 800 lbs capacity, it's built to handle a full mattress plus whatever you store underneath. For buyers who want the lift-up storage format but also care about how the headboard looks in the room, this is one of the more design-forward picks here.\n\nHydraulic lift for full underbed access. Set against that, no built-in charging or LED lighting. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size",
       "800 lb weight capacity",
@@ -150,7 +150,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41qodPOxrxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H4LFRLMK?tag=deskfinds0d-20",
     description:
-      "The UHTN holds the highest rating in this list at 4.8 stars, though on a smaller review sample so far. It pairs 2 silent-caster drawers, quieter than the drawers on most other picks here, with a padded headboard shelf and the most extensive charging setup in this guide: 2 AC outlets, 2 USB ports, and 1 USB-C port.\n\nApp or remote-controlled RGB LED lighting offers over 60,000 color combinations, more than any competing pick, and the upholstered finish gives it a softer look than the metal-frame storage beds in this list. For anyone prioritizing charging ports and a quiet drawer glide, this is the strongest match.",
+      "The UHTN holds the highest rating in this list at 4.8 stars, though on a smaller review sample so far. It pairs 2 silent-caster drawers, quieter than the drawers on most other picks here, with a padded headboard shelf and the most extensive charging setup in this guide: 2 AC outlets, 2 USB ports, and 1 USB-C port.\n\nApp or remote-controlled RGB LED lighting offers over 60,000 color combinations, more than any competing pick, and the upholstered finish gives it a softer look than the metal-frame storage beds in this list. For anyone prioritizing charging ports and a quiet drawer glide, this is the strongest match.\n\nA genuine advantage here is that silent-caster drawers reduce noise. The tradeoff is smaller review sample (46 ratings) than most other picks.",
     specs: [
       "Queen size",
       "800 lb weight capacity",
@@ -183,7 +183,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/517l0+Dt+rL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GL2B6ND3?tag=deskfinds0d-20",
     description:
-      "The Fluest leaves 11.6 inches of underbed clearance, more open storage space than most of the drawer-based frames in this list, while still including a built-in headboard storage shelf for smaller items you want within reach. Charging includes 2 AC outlets, 1 USB port, and 1 Type-C port, backed by app-controlled RGB LED lighting.\n\nTwelve foam-strip slats support the mattress quietly, and a footboard along the bottom edge helps prevent the mattress from drifting during regular use. At just under $110, it's one of the more affordable ways to get charging, LED, and a headboard shelf together in this list.",
+      "The Fluest leaves 11.6 inches of underbed clearance, more open storage space than most of the drawer-based frames in this list, while still including a built-in headboard storage shelf for smaller items you want within reach. Charging includes 2 AC outlets, 1 USB port, and 1 Type-C port, backed by app-controlled RGB LED lighting.\n\nTwelve foam-strip slats support the mattress quietly, and a footboard along the bottom edge helps prevent the mattress from drifting during regular use. At just under $110, it's one of the more affordable ways to get charging, LED, and a headboard shelf together in this list.\n\nHeadboard shelf plus built-in charging. That's a real strength, but weigh it against the flip side: no drawers, storage space is open rather than enclosed.",
     specs: [
       "Queen size",
       "800 lb weight capacity",
@@ -216,7 +216,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31UFkwly0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09S9V8BLQ?tag=deskfinds0d-20",
     description:
-      "The EMODA leaves 18 inches of underbed clearance, the tallest of any frame in this category, roomy enough to fit large luggage, bins, or seasonal items that wouldn't clear the 11-14 inch clearance on most other picks in this list. It also carries a 1,200 lb weight capacity, among the highest here.\n\nNine reinforced legs support the added height, and the whole frame assembles in about 20 minutes with no tools required. Mounting holes are built in for a DIY headboard if you want to add one later. For sheer underbed volume at a low price, this is the clear standout in this guide.",
+      "The EMODA leaves 18 inches of underbed clearance, the tallest of any frame in this category, roomy enough to fit large luggage, bins, or seasonal items that wouldn't clear the 11-14 inch clearance on most other picks in this list. It also carries a 1,200 lb weight capacity, among the highest here.\n\nNine reinforced legs support the added height, and the whole frame assembles in about 20 minutes with no tools required. Mounting holes are built in for a DIY headboard if you want to add one later. For sheer underbed volume at a low price, this is the clear standout in this guide.\n\nWorth calling out specifically: 1,200 lb weight capacity. The catch is no headboard included, only mounting holes for a DIY one.",
     specs: [
       "Queen size",
       "1,200 lb weight capacity",
@@ -249,7 +249,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51XI60esJIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D12NGLT6?tag=deskfinds0d-20",
     description:
-      "The Jocisland has the widest-opening hydraulic lift in this list, opening to 60 inches, and the brand states it holds 40% more storage capacity than a typical bed frame. A tall 52.1 inch wingback headboard in linen upholstery gives it the most substantial presence of any pick in this guide.\n\nThe hydraulic mechanism is squeak-resistant, and the 1,000 lb weight capacity comfortably handles the mattress plus stored items. If sheer storage volume combined with a statement headboard is the priority, this is the largest option in the category.",
+      "The Jocisland has the widest-opening hydraulic lift in this list, opening to 60 inches, and the brand states it holds 40% more storage capacity than a typical bed frame. A tall 52.1 inch wingback headboard in linen upholstery gives it the most substantial presence of any pick in this guide.\n\nThe hydraulic mechanism is squeak-resistant, and the 1,000 lb weight capacity comfortably handles the mattress plus stored items. If sheer storage volume combined with a statement headboard is the priority, this is the largest option in the category.\n\n40% more storage capacity than a typical bed. Set against that, most expensive pick in this list at $299.99. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size",
       "1,000 lb weight capacity",
@@ -282,7 +282,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51HzuYIKe1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GWR1M1CX?tag=deskfinds0d-20",
     description:
-      "The HISOFT is the only King size storage bed in this list, using a dual gas-lift system rated at 160 lbs of lift force, the strongest mechanism among the hydraulic picks here, so one person can operate it without strain. Full metal slats replace the wood slats found on most other frames, adding durability under the added weight and width of a King mattress.\n\nEVA noise foam is placed at every joint to cut down on squeaking, and the tufted linen wingback headboard adds a softer visual touch to an otherwise heavy-duty frame. The whole thing is designed for all-in-one assembly, reducing the number of separate steps compared to other lift-up beds in this guide.",
+      "The HISOFT is the only King size storage bed in this list, using a dual gas-lift system rated at 160 lbs of lift force, the strongest mechanism among the hydraulic picks here, so one person can operate it without strain. Full metal slats replace the wood slats found on most other frames, adding durability under the added weight and width of a King mattress.\n\nEVA noise foam is placed at every joint to cut down on squeaking, and the tufted linen wingback headboard adds a softer visual touch to an otherwise heavy-duty frame. The whole thing is designed for all-in-one assembly, reducing the number of separate steps compared to other lift-up beds in this guide.\n\nA genuine advantage here is that strongest dual gas-lift force here (160 lbs). The tradeoff is smallest review count in this list (34 ratings).",
     specs: [
       "King size",
       "1,000 lb weight capacity",
@@ -308,35 +308,25 @@ export const products: GuideProduct[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Drawer vs hydraulic lift storage",
-    explanation:
-      "Drawer-style frames like the Lifezone and UHTN give quick access to individual sections, while hydraulic lift frames like the Allewie and SHA CERLIN open the entire underbed cavity at once for maximum volume but require lifting the mattress to access it.",
+    "criterion": "Check weight capacity against your actual mattress type and combined sleeper weight",
+    "explanation": "A bed frame's rated weight capacity needs to cover the mattress itself plus everyone who'll sleep on it, and this number gets easy to underestimate, a queen memory foam mattress alone can weigh 100 pounds or more before adding two adult sleepers, and any additional stress from sitting on the edge or jumping briefly adds real load beyond static weight.\n\nThis matters because a frame rated just barely above your expected weight is operating closer to its stress limit than a genuinely comfortable margin, especially over years of daily use.\n\nCheck the listed weight capacity specifically, and add your mattress weight to your realistic combined sleeper weight before comparing that total against the frame's rating, favoring real margin over the bare minimum."
   },
   {
-    criterion: "Underbed clearance or capacity",
-    explanation:
-      "Clearance ranges from around 6 inches on shelf-style headboard frames up to 18 inches on the EMODA, and lift-up frames like the Jocisland advertise storage capacity directly rather than a clearance measurement.",
+    "criterion": "Confirm slat spacing and support type match your specific mattress requirements",
+    "explanation": "Different mattress types have different support requirements, memory foam and latex mattresses generally need slats spaced no more than about 3 inches apart (or a solid platform) to prevent sagging between slats over time, while a traditional innerspring mattress on a box spring is less sensitive to slat spacing.\n\nThis matters directly because using a mattress with the wrong support structure can void the mattress warranty and cause premature sagging or damage regardless of how sturdy the frame itself is.\n\nCheck the frame's listed slat spacing or platform type against your specific mattress manufacturer's stated support requirements before assuming any bed frame works with any mattress."
   },
   {
-    criterion: "Built-in charging and LED",
-    explanation:
-      "Several picks in this list, including the Lifezone, UHTN, and Fluest, build in AC outlets, USB ports, and RGB LED lighting directly into the frame, which can eliminate the need for a separate nightstand charger.",
+    "criterion": "Weigh underbed clearance against what you actually plan to store there",
+    "explanation": "Underbed clearance varies significantly between bed frame styles, some platform frames sit low with minimal clearance for a cleaner look, while others leave enough height for storage bins or a robot vacuum to pass underneath, and this dimension is easy to overlook when comparing frames primarily on price or style.\n\nThis matters directly if you're counting on underbed space for storage in a smaller room, a frame with too little clearance for your storage bins defeats that purpose entirely.\n\nCheck the listed underbed clearance in inches against the actual height of what you plan to store there before assuming any low-profile frame leaves adequate space."
   },
   {
-    criterion: "Weight capacity",
-    explanation:
-      "Capacity in this list ranges from 800 lbs on most Queen frames up to 1,200 lbs on the EMODA. Remember that stored items underneath don't usually count against the mattress-support rating, but a heavier overall load still matters for lift mechanisms.",
+    "criterion": "Consider assembly difficulty and whether the frame requires a box spring or foundation",
+    "explanation": "Bed frames vary considerably in assembly complexity, from frames that unfold and lock in minutes to ones requiring a lengthy multi-person assembly with many small parts, and whether a frame needs a separate box spring or foundation versus being a standalone platform changes both the total cost and the setup effort involved.\n\nThis matters directly for anyone assembling the frame alone or on a tight moving timeline, discovering a frame requires an additional box spring purchase after already ordering the frame is a frustrating and avoidable extra cost and delay.\n\nCheck the listing specifically for assembly time estimates and whether a box spring or foundation is required or already built in, not just the frame's style category."
   },
   {
-    criterion: "Noise and squeak resistance",
-    explanation:
-      "Hydraulic mechanisms and metal slats can develop noise over time if not designed well. Look for terms like 'squeak-resistant,' 'EVA noise foam,' or 'silent-caster,' called out specifically on the SHA CERLIN, HISOFT, and UHTN in this list.",
-  },
-  {
-    criterion: "Assembly complexity",
-    explanation:
-      "Simple metal frames like the EMODA assemble in about 20 minutes with no tools, while hydraulic lift frames and drawer units with LED wiring generally take longer and benefit from a second person during setup.",
-  },
+    "criterion": "Check for noise-reduction features if the frame will see daily use in a shared bedroom",
+    "explanation": "Metal bed frames in particular can develop an audible squeak or rattle over months of use as joints and connection points wear slightly, and better-designed frames include noise-reduction features like rubber-lined connection points or a center support bar with additional legs to reduce flex and movement.\n\nThis matters more for a frame used daily by an active sleeper or shared with a partner, where noise becomes a recurring annoyance, less for occasional guest-room use.\n\nCheck reviews specifically for mentions of squeaking or noise developing over time, not just the frame's assembled-day stability, and look for a center support bar with its own legs on larger frame sizes."
+  }
 ];
 
 export const faq: FaqItem[] = [

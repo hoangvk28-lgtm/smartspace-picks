@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41U+TKzNgSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B073WFCV1L?tag=deskfinds0d-20",
     description:
-      "The Utopia Bedding Adjustable Riser is by far the best-selling bed riser on the market, with over 43,000 ratings behind it, more than any other pick in this list combined several times over. Each riser stacks to 3, 5, or a full 8 inches when combined, giving you flexibility to dial in exactly how much clearance you need underneath.\n\nA recessed cup design cradles the bed leg securely so it can't slip out during use, and the extra-wide base spreads weight evenly to protect flooring. Rated for 1,300 lbs total capacity across the set, it's a proven, low-risk choice for anyone raising a bed for the first time.",
+      "The Utopia Bedding Adjustable Riser is by far the best-selling bed riser on the market, with over 43,000 ratings behind it, more than any other pick in this list combined several times over. Each riser stacks to 3, 5, or a full 8 inches when combined, giving you flexibility to dial in exactly how much clearance you need underneath.\n\nA recessed cup design cradles the bed leg securely so it can't slip out during use, and the extra-wide base spreads weight evenly to protect flooring. Rated for 1,300 lbs total capacity across the set, it's a proven, low-risk choice for anyone raising a bed for the first time.\n\nFlexible 3, 5, or 8 inch stacking heights. That's a real strength, but weigh it against the flip side: combined 8 inch height requires stacking both pieces per leg.",
     specs: [
       "4-pack",
       "1,300 lb total capacity",
@@ -84,7 +84,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Cdcv00x8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00MH74S16?tag=deskfinds0d-20",
     description:
-      "The Home It Adjustable Riser set includes 8 pieces total, 4 at 3 inches and 4 at 5 inches, so a single box covers all 4 corners of a bed plus extra furniture like a desk or sofa without needing to buy a second pack. Stacked together, each pair reaches a full 8 inches of lift.\n\nDurable polypropylene construction includes raised edges that prevent legs from slipping off during use, and the set fits everything from Twin to California King frames. With over 20,000 ratings at 4.5 stars, it's a well-proven option that's especially popular for dorm room setups where students often need to raise multiple pieces of furniture at once.",
+      "The Home It Adjustable Riser set includes 8 pieces total, 4 at 3 inches and 4 at 5 inches, so a single box covers all 4 corners of a bed plus extra furniture like a desk or sofa without needing to buy a second pack. Stacked together, each pair reaches a full 8 inches of lift.\n\nDurable polypropylene construction includes raised edges that prevent legs from slipping off during use, and the set fits everything from Twin to California King frames. With over 20,000 ratings at 4.5 stars, it's a well-proven option that's especially popular for dorm room setups where students often need to raise multiple pieces of furniture at once.\n\nWorth calling out specifically: enough pieces to cover a bed plus extra furniture. The catch is more pieces to keep track of than a simple 4-pack.",
     specs: [
       "8-piece set (4x 3\" + 4x 5\")",
       "1,300 lb total capacity",
@@ -117,7 +117,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31Tat6R0l1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0773TZK7X?tag=deskfinds0d-20",
     description:
-      "The Kings Brand Furniture Riser skips the adjustable stacking approach in favor of a single fixed 6 inch height, which simplifies things if you already know exactly how much clearance you want. Heavy-duty plastic construction pairs with an adhesive-backed non-slip bottom that grips the floor whether you're on carpet or hardwood.\n\nIt's rated to work under beds, desks, sofas, and couches alike, making it a versatile pick beyond just bedroom use. At 4.6 stars, it holds the second-highest rating in this list, and the lightweight design makes it easy to reposition or pack up during a move.",
+      "The Kings Brand Furniture Riser skips the adjustable stacking approach in favor of a single fixed 6 inch height, which simplifies things if you already know exactly how much clearance you want. Heavy-duty plastic construction pairs with an adhesive-backed non-slip bottom that grips the floor whether you're on carpet or hardwood.\n\nIt's rated to work under beds, desks, sofas, and couches alike, making it a versatile pick beyond just bedroom use. At 4.6 stars, it holds the second-highest rating in this list, and the lightweight design makes it easy to reposition or pack up during a move.\n\nStrongest adhesive grip among the picks here. Set against that, no adjustable height options, 6 inches only. Both matter when comparing it to the other picks here.",
     specs: [
       "4-pack",
       "Fixed 6 inch height",
@@ -150,7 +150,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41qAeCSBHsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CMC4C7PY?tag=deskfinds0d-20",
     description:
-      "The Yookwutar Heavy Duty Riser is rated for 6,000 lbs per single riser, the highest per-unit capacity of any pick in this list, making it a strong choice for heavier bed frames, sofas, or oversized furniture. The L-shape lip wraps around 2 sides of the leg instead of just cradling it in a cup, adding extra grip against sliding.\n\nAn oversized 4.52 by 4.52 inch top surface spreads weight over a larger footprint than most risers, and a rubber bottom protects flooring while resisting slippage. Because the L-shape design half-wraps the leg rather than requiring a specific cup size, it works with square, round, and irregularly shaped furniture legs alike.",
+      "The Yookwutar Heavy Duty Riser is rated for 6,000 lbs per single riser, the highest per-unit capacity of any pick in this list, making it a strong choice for heavier bed frames, sofas, or oversized furniture. The L-shape lip wraps around 2 sides of the leg instead of just cradling it in a cup, adding extra grip against sliding.\n\nAn oversized 4.52 by 4.52 inch top surface spreads weight over a larger footprint than most risers, and a rubber bottom protects flooring while resisting slippage. Because the L-shape design half-wraps the leg rather than requiring a specific cup size, it works with square, round, and irregularly shaped furniture legs alike.\n\nA genuine advantage here is that l-shape design fits virtually any leg shape. The tradeoff is fixed 4 inch height, no stacking for taller clearance.",
     specs: [
       "4-pack",
       "6,000 lb capacity per riser",
@@ -183,7 +183,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Y3Yi1b6fL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C3VBSSK8?tag=deskfinds0d-20",
     description:
-      "The HANIHUA Oversized Riser edges out even the Yookwutar pick on raw capacity, rated for 6,500 lbs per riser, the highest in this entire list. Like its L-shape competitor, it uses a half-wrap design rather than a fully enclosed cup, which lets it fit the largest bed legs as well as leg-less furniture that a standard cup-style riser can't accommodate.\n\nThe oversized 4.5 by 4.5 inch top widens the contact surface for stability, cutting down on wobble compared to smaller risers. Built from durable plastic, it's a strong pick specifically for oversized beds, heavy sectional sofas, or furniture with unusually large or thick legs.",
+      "The HANIHUA Oversized Riser edges out even the Yookwutar pick on raw capacity, rated for 6,500 lbs per riser, the highest in this entire list. Like its L-shape competitor, it uses a half-wrap design rather than a fully enclosed cup, which lets it fit the largest bed legs as well as leg-less furniture that a standard cup-style riser can't accommodate.\n\nThe oversized 4.5 by 4.5 inch top widens the contact surface for stability, cutting down on wobble compared to smaller risers. Built from durable plastic, it's a strong pick specifically for oversized beds, heavy sectional sofas, or furniture with unusually large or thick legs.\n\nHalf-wrap design fits the largest bed legs. That's a real strength, but weigh it against the flip side: fixed 4 inch height only.",
     specs: [
       "4-pack",
       "6,500 lb capacity per riser",
@@ -216,7 +216,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31QKHtWnB+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09ZXTK84Q?tag=deskfinds0d-20",
     description:
-      "The BTSD-home Riser is built for a snug, no-wobble fit around bed frame legs up to 3.5 inches wide, which keeps the bed feeling solid rather than shifting on top of the risers over time. At a 2,000 lb total capacity, it's rated well beyond what most bed frames actually weigh.\n\nThe underside is designed to protect hardwood, tile, and carpet alike from scratches and pressure marks. At $13.99, it's one of the most affordable risers in this list among the fixed-height options, making it a solid value pick for anyone who just needs a straightforward 3 inch lift.",
+      "The BTSD-home Riser is built for a snug, no-wobble fit around bed frame legs up to 3.5 inches wide, which keeps the bed feeling solid rather than shifting on top of the risers over time. At a 2,000 lb total capacity, it's rated well beyond what most bed frames actually weigh.\n\nThe underside is designed to protect hardwood, tile, and carpet alike from scratches and pressure marks. At $13.99, it's one of the most affordable risers in this list among the fixed-height options, making it a solid value pick for anyone who just needs a straightforward 3 inch lift.\n\nWorth calling out specifically: snug, wobble-free fit. The catch is fixed 3 inch height, no stacking option.",
     specs: [
       "4-pack",
       "2,000 lb total capacity",
@@ -249,7 +249,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Fg-yxepRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLLFX4NZ?tag=deskfinds0d-20",
     description:
-      "The Yookwutar 8 Pack Mini Riser is the most compact and affordable option in this list, designed for smaller lifts of 1, 1.9, or 2.8 inches when stacked rather than the larger 3-to-8 inch range most other risers cover. PP plastic mesh reinforcement adds strength despite the small footprint, and a rubber base keeps the set from sliding.\n\nThe shock-absorbing design helps reduce noise transfer, and the low stacked height still leaves enough clearance for a robot vacuum to pass underneath in most rooms. At $6.99 for 8 pieces, it's by far the cheapest way to add a small, controlled amount of lift to a bed or other furniture.",
+      "The Yookwutar 8 Pack Mini Riser is the most compact and affordable option in this list, designed for smaller lifts of 1, 1.9, or 2.8 inches when stacked rather than the larger 3-to-8 inch range most other risers cover. PP plastic mesh reinforcement adds strength despite the small footprint, and a rubber base keeps the set from sliding.\n\nThe shock-absorbing design helps reduce noise transfer, and the low stacked height still leaves enough clearance for a robot vacuum to pass underneath in most rooms. At $6.99 for 8 pieces, it's by far the cheapest way to add a small, controlled amount of lift to a bed or other furniture.\n\nShock-absorbing design reduces noise. Set against that, max stacked height of 2.8 inches, far less lift than other picks. Both matter when comparing it to the other picks here.",
     specs: [
       "8-pack",
       "Stacks to 1\", 1.9\", or 2.8\"",
@@ -282,7 +282,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41WTUuSjHoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DLVW6XCY?tag=deskfinds0d-20",
     description:
-      "The SEISSO Riser takes a completely different approach from every other pick in this list, using a screw-clamp mechanism that clamps directly onto the bed frame rather than requiring the leg to sit in a cup or groove. This makes it a fit for frame shapes that standard cup-style risers simply can't accommodate, as long as the frame is 1.96 inches thick or less.\n\nMade from ABS material with a non-slip pad at the base, it raises furniture by 4 inches and supports up to 1,000 lbs per set. No drilling is required, and the beige gray finish blends in more than the black plastic risers in this list. With a smaller review base at 67 ratings and a 4.0 star average, it's a newer, more specialized option.",
+      "The SEISSO Riser takes a completely different approach from every other pick in this list, using a screw-clamp mechanism that clamps directly onto the bed frame rather than requiring the leg to sit in a cup or groove. This makes it a fit for frame shapes that standard cup-style risers simply can't accommodate, as long as the frame is 1.96 inches thick or less.\n\nMade from ABS material with a non-slip pad at the base, it raises furniture by 4 inches and supports up to 1,000 lbs per set. No drilling is required, and the beige gray finish blends in more than the black plastic risers in this list. With a smaller review base at 67 ratings and a 4.0 star average, it's a newer, more specialized option.\n\nA genuine advantage here is that no drilling or leg cup needed. The tradeoff is lowest rating in this list at 4.0 stars.",
     specs: [
       "4-pack",
       "1,000 lb total capacity",
@@ -308,35 +308,25 @@ export const products: GuideProduct[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Load capacity per riser",
-    explanation:
-      "Check the capacity per single riser, not just the total for the set, since an uneven mattress or heavier corner can put more weight on one leg than the others. Heavy-duty picks like the HANIHUA (6,500 lbs per riser) leave the most margin.",
+    "criterion": "Check weight capacity against your actual mattress type and combined sleeper weight",
+    "explanation": "A bed frame's rated weight capacity needs to cover the mattress itself plus everyone who'll sleep on it, and this number gets easy to underestimate, a queen memory foam mattress alone can weigh 100 pounds or more before adding two adult sleepers, and any additional stress from sitting on the edge or jumping briefly adds real load beyond static weight.\n\nThis matters because a frame rated just barely above your expected weight is operating closer to its stress limit than a genuinely comfortable margin, especially over years of daily use.\n\nCheck the listed weight capacity specifically, and add your mattress weight to your realistic combined sleeper weight before comparing that total against the frame's rating, favoring real margin over the bare minimum."
   },
   {
-    criterion: "Stacking height options",
-    explanation:
-      "Some risers like the Utopia Bedding and Home It sets stack to multiple heights (3, 5, or 8 inches), giving you flexibility to test different clearances, while fixed-height risers only offer one option out of the box.",
+    "criterion": "Confirm slat spacing and support type match your specific mattress requirements",
+    "explanation": "Different mattress types have different support requirements, memory foam and latex mattresses generally need slats spaced no more than about 3 inches apart (or a solid platform) to prevent sagging between slats over time, while a traditional innerspring mattress on a box spring is less sensitive to slat spacing.\n\nThis matters directly because using a mattress with the wrong support structure can void the mattress warranty and cause premature sagging or damage regardless of how sturdy the frame itself is.\n\nCheck the frame's listed slat spacing or platform type against your specific mattress manufacturer's stated support requirements before assuming any bed frame works with any mattress."
   },
   {
-    criterion: "Leg-fit compatibility",
-    explanation:
-      "Cup-style risers work best with legs that fit snugly inside a recessed pocket, while L-shape or half-wrap designs like the Yookwutar and HANIHUA accommodate larger, irregular, or leg-less furniture that a standard cup can't hold.",
+    "criterion": "Weigh underbed clearance against what you actually plan to store there",
+    "explanation": "Underbed clearance varies significantly between bed frame styles, some platform frames sit low with minimal clearance for a cleaner look, while others leave enough height for storage bins or a robot vacuum to pass underneath, and this dimension is easy to overlook when comparing frames primarily on price or style.\n\nThis matters directly if you're counting on underbed space for storage in a smaller room, a frame with too little clearance for your storage bins defeats that purpose entirely.\n\nCheck the listed underbed clearance in inches against the actual height of what you plan to store there before assuming any low-profile frame leaves adequate space."
   },
   {
-    criterion: "Non-slip stability",
-    explanation:
-      "Look for a textured or rubber base and a leg-gripping mechanism (cup, wrap, or clamp) rather than a flat platform alone, since a bed that shifts on its risers over time can eventually walk across the floor.",
+    "criterion": "Consider assembly difficulty and whether the frame requires a box spring or foundation",
+    "explanation": "Bed frames vary considerably in assembly complexity, from frames that unfold and lock in minutes to ones requiring a lengthy multi-person assembly with many small parts, and whether a frame needs a separate box spring or foundation versus being a standalone platform changes both the total cost and the setup effort involved.\n\nThis matters directly for anyone assembling the frame alone or on a tight moving timeline, discovering a frame requires an additional box spring purchase after already ordering the frame is a frustrating and avoidable extra cost and delay.\n\nCheck the listing specifically for assembly time estimates and whether a box spring or foundation is required or already built in, not just the frame's style category."
   },
   {
-    criterion: "Floor protection",
-    explanation:
-      "Risers that specifically call out hardwood, tile, or carpet compatibility reduce the risk of scratches or pressure dents, which matters most if you're renting or have finished hardwood floors.",
-  },
-  {
-    criterion: "Frame thickness for clamp-style risers",
-    explanation:
-      "If you go with a screw-clamp design like the SEISSO instead of a cup-style riser, measure your frame thickness first, since clamp risers are only rated for frames up to a certain thickness (1.96 inches in this case).",
-  },
+    "criterion": "Check for noise-reduction features if the frame will see daily use in a shared bedroom",
+    "explanation": "Metal bed frames in particular can develop an audible squeak or rattle over months of use as joints and connection points wear slightly, and better-designed frames include noise-reduction features like rubber-lined connection points or a center support bar with additional legs to reduce flex and movement.\n\nThis matters more for a frame used daily by an active sleeper or shared with a partner, where noise becomes a recurring annoyance, less for occasional guest-room use.\n\nCheck reviews specifically for mentions of squeaking or noise developing over time, not just the frame's assembled-day stability, and look for a center support bar with its own legs on larger frame sizes."
+  }
 ];
 
 export const faq: FaqItem[] = [

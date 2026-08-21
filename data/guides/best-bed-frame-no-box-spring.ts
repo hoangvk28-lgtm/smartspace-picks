@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51QKd6vzKKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B073WRLNS9?tag=deskfinds0d-20",
     description:
-      "The Amazon Basics Foldable Metal Platform Bed Frame is the best-selling no-box-spring frame on the market, with over 106,000 ratings backing it up. It folds completely flat with zero tools required, so setup and teardown take minutes rather than an afternoon with a wrench.\n\nAlloy steel construction holds up to 700 lbs and stands 14 inches tall, leaving 13 inches of clearance underneath for bins or storage. The connectors are designed to stay quiet under normal use, and the frame is backed by a 1-year Amazon warranty. For sheer track record and ease of setup, this is the safest starting point for most buyers.",
+      "The Amazon Basics Foldable Metal Platform Bed Frame is the best-selling no-box-spring frame on the market, with over 106,000 ratings backing it up. It folds completely flat with zero tools required, so setup and teardown take minutes rather than an afternoon with a wrench.\n\nAlloy steel construction holds up to 700 lbs and stands 14 inches tall, leaving 13 inches of clearance underneath for bins or storage. The connectors are designed to stay quiet under normal use, and the frame is backed by a 1-year Amazon warranty. For sheer track record and ease of setup, this is the safest starting point for most buyers.\n\nCompletely tool-free folding setup and teardown. That's a real strength, but weigh it against the flip side: 700 lb capacity is lower than some heavier-duty picks in this list.",
     specs: [
       "Queen size, 14 inch height",
       "700 lb weight capacity",
@@ -84,7 +84,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/414CCwQaAdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07DZT2SZ3?tag=deskfinds0d-20",
     description:
-      "The Mellow Naturalista Classic is built from genuinely solid pine wood rather than a metal frame or engineered board, giving it a warmer mid-century look while still skipping the box spring entirely. The 3.5 inch thick wooden slats hold up to 1,000 lbs, the highest capacity of any wood-frame pick in this list.\n\nNon-slip tape keeps the mattress from shifting on the slats, and the joints are designed to stay quiet over years of use. With over 22,000 ratings at 4.6 stars and a 5-year warranty, it has both the track record and the manufacturer confidence to back up its solid-wood construction.",
+      "The Mellow Naturalista Classic is built from genuinely solid pine wood rather than a metal frame or engineered board, giving it a warmer mid-century look while still skipping the box spring entirely. The 3.5 inch thick wooden slats hold up to 1,000 lbs, the highest capacity of any wood-frame pick in this list.\n\nNon-slip tape keeps the mattress from shifting on the slats, and the joints are designed to stay quiet over years of use. With over 22,000 ratings at 4.6 stars and a 5-year warranty, it has both the track record and the manufacturer confidence to back up its solid-wood construction.\n\nWorth calling out specifically: highest weight capacity among wood-frame picks (1,000 lbs). The catch is higher price than the metal folding options.",
     specs: [
       "Queen size, 12 inch height",
       "1,000 lb weight capacity",
@@ -117,7 +117,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31zxcds0AcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B8VQLN6Y?tag=deskfinds0d-20",
     description:
-      "The NEW JETO frame is one of the best-selling wrought-iron metal platforms on the market, with nearly 33,000 ratings at 4.6 stars while staying under $60. Nine legs distribute weight evenly across the frame, supporting up to 1,100 lbs without a box spring.\n\nEach leg ends in a plastic foot plug, which protects hardwood or laminate flooring from scratches while also helping keep the frame from squeaking as you move on the mattress. At 14 inches tall, it leaves a generous 12 inches of underbed storage space, and the powder-coated black finish gives it a minimalist look that fits most bedrooms.",
+      "The NEW JETO frame is one of the best-selling wrought-iron metal platforms on the market, with nearly 33,000 ratings at 4.6 stars while staying under $60. Nine legs distribute weight evenly across the frame, supporting up to 1,100 lbs without a box spring.\n\nEach leg ends in a plastic foot plug, which protects hardwood or laminate flooring from scratches while also helping keep the frame from squeaking as you move on the mattress. At 14 inches tall, it leaves a generous 12 inches of underbed storage space, and the powder-coated black finish gives it a minimalist look that fits most bedrooms.\n\n9 legs for even weight distribution. Set against that, basic black finish with no headboard included. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size, 14 inch height",
       "1,100 lb weight capacity",
@@ -150,7 +150,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41NUHy3lg1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BLS2PR4X?tag=deskfinds0d-20",
     description:
-      "The Hafenpo frame stands out for its anti-twist reinforced legs, a small design detail that keeps the frame from wobbling side to side the way many budget metal beds do over time. It matches the 1,100 lb capacity of pricier competitors while coming in as one of the most affordable picks in this list.\n\nThe noise-reducing metal tube design cuts down on the creaking that can develop at the joints, and a baked-on powder coat finish resists chipping better than basic painted steel. With 14,742 ratings at 4.6 stars and 12.1 inches of underbed clearance, it's a dependable, no-frills choice for anyone prioritizing stability over storage space.",
+      "The Hafenpo frame stands out for its anti-twist reinforced legs, a small design detail that keeps the frame from wobbling side to side the way many budget metal beds do over time. It matches the 1,100 lb capacity of pricier competitors while coming in as one of the most affordable picks in this list.\n\nThe noise-reducing metal tube design cuts down on the creaking that can develop at the joints, and a baked-on powder coat finish resists chipping better than basic painted steel. With 14,742 ratings at 4.6 stars and 12.1 inches of underbed clearance, it's a dependable, no-frills choice for anyone prioritizing stability over storage space.\n\nA genuine advantage here is that matches 1,100 lb capacity at a lower price than competitors. The tradeoff is tool-assisted assembly takes longer than fold-flat frames.",
     specs: [
       "Queen size, 14 inch height",
       "1,100 lb weight capacity",
@@ -183,7 +183,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31UFkwly0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09S9V8BLQ?tag=deskfinds0d-20",
     description:
-      "At 18 inches tall, the EMODA is the tallest frame in this list, opening up a full 20-inch-plus gap that swallows large storage bins, luggage, or seasonal items other frames simply can't fit under. Nine reinforced legs bring the capacity up to 1,200 lbs, the highest rating among the metal picks here.\n\nAssembly is rated for about 20 minutes, among the fastest in this list, and the frame includes reserved holes for attaching a separate headboard later if you want one. The squeak- and fade-resistant finish is designed to hold up over years of daily use, and it works with any mattress type without needing a box spring.",
+      "At 18 inches tall, the EMODA is the tallest frame in this list, opening up a full 20-inch-plus gap that swallows large storage bins, luggage, or seasonal items other frames simply can't fit under. Nine reinforced legs bring the capacity up to 1,200 lbs, the highest rating among the metal picks here.\n\nAssembly is rated for about 20 minutes, among the fastest in this list, and the frame includes reserved holes for attaching a separate headboard later if you want one. The squeak- and fade-resistant finish is designed to hold up over years of daily use, and it works with any mattress type without needing a box spring.\n\nHighest weight capacity among metal picks at 1,200 lbs. That's a real strength, but weigh it against the flip side: taller height means a higher step-up onto the bed.",
     specs: [
       "Queen size, 18 inch height",
       "1,200 lb weight capacity",
@@ -216,7 +216,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41uj+573t5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G1M5VCSX?tag=deskfinds0d-20",
     description:
-      "VASAGLE's twist-lock mattress retainers are a genuinely useful detail: small posts at the corners twist to lock the mattress in place, preventing the sliding that can happen on frames with a bare flat deck. The steel used here is 8% thicker than typical budget frames, adding rigidity without adding much weight.\n\nQuick-lock slats and a 4-step assembly process keep setup simple despite the added mattress-retention hardware, and noise-reducing connectors are built into the joints. At $44.96, it's the most affordable pick in this list, with 1,100 lbs of capacity and 12.4 inches of underbed clearance.",
+      "VASAGLE's twist-lock mattress retainers are a genuinely useful detail: small posts at the corners twist to lock the mattress in place, preventing the sliding that can happen on frames with a bare flat deck. The steel used here is 8% thicker than typical budget frames, adding rigidity without adding much weight.\n\nQuick-lock slats and a 4-step assembly process keep setup simple despite the added mattress-retention hardware, and noise-reducing connectors are built into the joints. At $44.96, it's the most affordable pick in this list, with 1,100 lbs of capacity and 12.4 inches of underbed clearance.\n\nWorth calling out specifically: 8% thicker steel than typical budget frames. The catch is lowest rating in this list at 4.2 stars.",
     specs: [
       "Queen size, 14 inch height",
       "1,100 lb weight capacity",
@@ -249,7 +249,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51XgYNYGpjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C9QBVNW8?tag=deskfinds0d-20",
     description:
-      "The SHA CERLIN pairs a sturdy metal platform base with a waterproof wood headboard and footboard, giving it an industrial rustic look that the plain black metal frames in this list don't offer. It's the only pick here that comes with both a headboard and footboard already included in the price.\n\nNon-slip strips keep the mattress in place on the slats, and the headboard's waterproof, scratchproof finish is built to resist everyday wear better than typical MDF panels. Assembly takes about 30 minutes, and the frame leaves 12 inches of underbed clearance while supporting up to 800 lbs.",
+      "The SHA CERLIN pairs a sturdy metal platform base with a waterproof wood headboard and footboard, giving it an industrial rustic look that the plain black metal frames in this list don't offer. It's the only pick here that comes with both a headboard and footboard already included in the price.\n\nNon-slip strips keep the mattress in place on the slats, and the headboard's waterproof, scratchproof finish is built to resist everyday wear better than typical MDF panels. Assembly takes about 30 minutes, and the frame leaves 12 inches of underbed clearance while supporting up to 800 lbs.\n\nWaterproof, scratchproof wood panels resist wear. Set against that, 800 lb capacity is lower than the top metal-only picks. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size, 14 inch height",
       "800 lb weight capacity",
@@ -282,7 +282,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51+ztgtEwtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CN6SS5HF?tag=deskfinds0d-20",
     description:
-      "Novilla lines every slat with EVA foam strips, a detail most competing metal frames skip entirely, cushioning the contact points between the mattress and steel to cut down on nighttime creaking. Combined with heavy-duty reinforced metal rods, it still manages a 1,200 lb capacity, matching the highest rating in this list.\n\nThe matte frosted finish gives it a slightly softer look than the glossy black frames elsewhere here, and it holds up 12 inches of underbed clearance for storage bins. At 4.1 stars from 5,524 ratings, it trails the top picks slightly on rating, but the foam-lined slats make it a strong option for light sleepers.",
+      "Novilla lines every slat with EVA foam strips, a detail most competing metal frames skip entirely, cushioning the contact points between the mattress and steel to cut down on nighttime creaking. Combined with heavy-duty reinforced metal rods, it still manages a 1,200 lb capacity, matching the highest rating in this list.\n\nThe matte frosted finish gives it a slightly softer look than the glossy black frames elsewhere here, and it holds up 12 inches of underbed clearance for storage bins. At 4.1 stars from 5,524 ratings, it trails the top picks slightly on rating, but the foam-lined slats make it a strong option for light sleepers.\n\nA genuine advantage here is that matches the highest capacity in this list at 1,200 lbs. The tradeoff is lowest rating in this list at 4.1 stars.",
     specs: [
       "Queen size, 14 inch height",
       "1,200 lb weight capacity",
@@ -308,35 +308,25 @@ export const products: GuideProduct[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Weight capacity",
-    explanation:
-      "Without a box spring distributing load, the frame's slats or deck carry the mattress weight directly. Capacities in this list range from 700 to 1,200 lbs — heavier sleepers or those who like to jump on the bed should lean toward the higher-rated frames.",
+    "criterion": "Check weight capacity against your actual mattress type and combined sleeper weight",
+    "explanation": "A bed frame's rated weight capacity needs to cover the mattress itself plus everyone who'll sleep on it, and this number gets easy to underestimate, a queen memory foam mattress alone can weigh 100 pounds or more before adding two adult sleepers, and any additional stress from sitting on the edge or jumping briefly adds real load beyond static weight.\n\nThis matters because a frame rated just barely above your expected weight is operating closer to its stress limit than a genuinely comfortable margin, especially over years of daily use.\n\nCheck the listed weight capacity specifically, and add your mattress weight to your realistic combined sleeper weight before comparing that total against the frame's rating, favoring real margin over the bare minimum."
   },
   {
-    criterion: "Underbed clearance",
-    explanation:
-      "Frame height determines how much storage fits underneath, from 12 inches on most metal picks up to 18 inches on the EMODA. If you plan to store bins or luggage under the bed, prioritize the taller options.",
+    "criterion": "Confirm slat spacing and support type match your specific mattress requirements",
+    "explanation": "Different mattress types have different support requirements, memory foam and latex mattresses generally need slats spaced no more than about 3 inches apart (or a solid platform) to prevent sagging between slats over time, while a traditional innerspring mattress on a box spring is less sensitive to slat spacing.\n\nThis matters directly because using a mattress with the wrong support structure can void the mattress warranty and cause premature sagging or damage regardless of how sturdy the frame itself is.\n\nCheck the frame's listed slat spacing or platform type against your specific mattress manufacturer's stated support requirements before assuming any bed frame works with any mattress."
   },
   {
-    criterion: "Assembly method",
-    explanation:
-      "Tool-free fold-flat frames like the Amazon Basics pick take minutes to set up and break down, useful for renters or frequent movers. Frames with headboards or footboards generally require more time and basic tools.",
+    "criterion": "Weigh underbed clearance against what you actually plan to store there",
+    "explanation": "Underbed clearance varies significantly between bed frame styles, some platform frames sit low with minimal clearance for a cleaner look, while others leave enough height for storage bins or a robot vacuum to pass underneath, and this dimension is easy to overlook when comparing frames primarily on price or style.\n\nThis matters directly if you're counting on underbed space for storage in a smaller room, a frame with too little clearance for your storage bins defeats that purpose entirely.\n\nCheck the listed underbed clearance in inches against the actual height of what you plan to store there before assuming any low-profile frame leaves adequate space."
   },
   {
-    criterion: "Mattress retention",
-    explanation:
-      "A bare flat deck can let a mattress slide over time, especially on frames without side rails. Non-slip tape or twist-lock retainers, like the VASAGLE pick offers, help keep the mattress centered.",
+    "criterion": "Consider assembly difficulty and whether the frame requires a box spring or foundation",
+    "explanation": "Bed frames vary considerably in assembly complexity, from frames that unfold and lock in minutes to ones requiring a lengthy multi-person assembly with many small parts, and whether a frame needs a separate box spring or foundation versus being a standalone platform changes both the total cost and the setup effort involved.\n\nThis matters directly for anyone assembling the frame alone or on a tight moving timeline, discovering a frame requires an additional box spring purchase after already ordering the frame is a frustrating and avoidable extra cost and delay.\n\nCheck the listing specifically for assembly time estimates and whether a box spring or foundation is required or already built in, not just the frame's style category."
   },
   {
-    criterion: "Noise reduction",
-    explanation:
-      "Metal-on-metal contact points are the most common source of squeaking in a no-box-spring frame. Look for foam padding, rubber grommets, or noise-reducing connector designs if a quiet bed matters to you.",
-  },
-  {
-    criterion: "Material and finish",
-    explanation:
-      "Solid wood frames like the Mellow Naturalista tend to run quieter and warmer in style but cost more and assemble slower than steel frames, which are typically cheaper and faster to set up but have a more utilitarian look.",
-  },
+    "criterion": "Check for noise-reduction features if the frame will see daily use in a shared bedroom",
+    "explanation": "Metal bed frames in particular can develop an audible squeak or rattle over months of use as joints and connection points wear slightly, and better-designed frames include noise-reduction features like rubber-lined connection points or a center support bar with additional legs to reduce flex and movement.\n\nThis matters more for a frame used daily by an active sleeper or shared with a partner, where noise becomes a recurring annoyance, less for occasional guest-room use.\n\nCheck reviews specifically for mentions of squeaking or noise developing over time, not just the frame's assembled-day stability, and look for a center support bar with its own legs on larger frame sizes."
+  }
 ];
 
 export const faq: FaqItem[] = [

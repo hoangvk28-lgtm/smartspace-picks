@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41qUoJWd3aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GJ96WP2P?tag=deskfinds0d-20",
     description:
-      "The Allewie 14 Inch Metal Platform is the most affordable white frame in this list while still carrying the highest weight capacity of any pick here at 3,500 lbs. Its clean, minimalist white powder coat finish keeps the look simple, and an independent center leg adds extra support under the middle of the mattress.\n\nThe squeak- and fade-resistant construction is built to hold up over years of daily use, and 12.6 inches of underbed clearance leaves plenty of room for storage bins. Reserved holes at the head end let you add a separate headboard later if you decide you want one, and it needs no box spring to work.",
+      "The Allewie 14 Inch Metal Platform is the most affordable white frame in this list while still carrying the highest weight capacity of any pick here at 3,500 lbs. Its clean, minimalist white powder coat finish keeps the look simple, and an independent center leg adds extra support under the middle of the mattress.\n\nThe squeak- and fade-resistant construction is built to hold up over years of daily use, and 12.6 inches of underbed clearance leaves plenty of room for storage bins. Reserved holes at the head end let you add a separate headboard later if you decide you want one, and it needs no box spring to work.\n\nCheapest white pick at $49.97. That's a real strength, but weigh it against the flip side: no headboard included, though holes are reserved for one.",
     specs: [
       "Queen size, 14 inch height",
       "3,500 lb weight capacity",
@@ -84,7 +84,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51HGOooA+bL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BPSLLNZT?tag=deskfinds0d-20",
     description:
-      "This Allewie frame pairs a Victorian-style vintage headboard and footboard with a white finish, giving it the most romantic, ornate silhouette among the white metal picks in this list. EVA non-slip strips run along the slats to keep the mattress from shifting, and the whole frame is designed to stay quiet during use.\n\nAssembly takes about 30 minutes, and the squeak- and fade-resistant coating is built to hold its white finish over time. With 2,559 ratings at 4.6 stars and 12.4 inches of underbed clearance, it's a strong pick for anyone who wants decorative detail without moving into upholstered territory.",
+      "This Allewie frame pairs a Victorian-style vintage headboard and footboard with a white finish, giving it the most romantic, ornate silhouette among the white metal picks in this list. EVA non-slip strips run along the slats to keep the mattress from shifting, and the whole frame is designed to stay quiet during use.\n\nAssembly takes about 30 minutes, and the squeak- and fade-resistant coating is built to hold its white finish over time. With 2,559 ratings at 4.6 stars and 12.4 inches of underbed clearance, it's a strong pick for anyone who wants decorative detail without moving into upholstered territory.\n\nWorth calling out specifically: eVA non-slip strips keep the mattress secure. The catch is lower weight capacity than the plain platform pick.",
     specs: [
       "Queen size, 14 inch height",
       "800 lb weight capacity",
@@ -117,7 +117,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51O08BNzWqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CDBSG34Y?tag=deskfinds0d-20",
     description:
-      "The Allewie Velvet Wingback trades metal for a fully upholstered white velvet headboard with vertical channel tufting, giving it the most upscale look among the white picks in this list. Wide wingback panels frame the headboard for a cozy, hotel-style feel that plain metal frames can't replicate.\n\nWooden slats underneath support the mattress without a box spring, and the frame is built to resist squeaking during nightly use. With 4,283 ratings at 4.6 stars and roughly an hour of assembly time, it's one of the most established upholstered options here.",
+      "The Allewie Velvet Wingback trades metal for a fully upholstered white velvet headboard with vertical channel tufting, giving it the most upscale look among the white picks in this list. Wide wingback panels frame the headboard for a cozy, hotel-style feel that plain metal frames can't replicate.\n\nWooden slats underneath support the mattress without a box spring, and the frame is built to resist squeaking during nightly use. With 4,283 ratings at 4.6 stars and roughly an hour of assembly time, it's one of the most established upholstered options here.\n\nSoft velvet upholstery throughout. Set against that, lower 8 inch underbed clearance than the metal picks. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size, 8 inch height",
       "800 lb weight capacity",
@@ -150,7 +150,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51AKxOEro3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CF9G93WZ?tag=deskfinds0d-20",
     description:
-      "The SHA CERLIN Full-size Velvet Wingback carries the highest rating in this entire list at 4.7 stars, standing out among a field of otherwise strong 4.4-4.6 star picks. Vertical channel tufting runs across the wingback headboard, giving it the same upscale look as the Queen-size Allewie pick but sized for a Full mattress.\n\nWooden slats support the mattress directly, no box spring required, and the frame is built to resist squeaking. Assembly takes about an hour, and at 1,583 ratings it has a solid, well-established track record for a Full-size upholstered frame.",
+      "The SHA CERLIN Full-size Velvet Wingback carries the highest rating in this entire list at 4.7 stars, standing out among a field of otherwise strong 4.4-4.6 star picks. Vertical channel tufting runs across the wingback headboard, giving it the same upscale look as the Queen-size Allewie pick but sized for a Full mattress.\n\nWooden slats support the mattress directly, no box spring required, and the frame is built to resist squeaking. Assembly takes about an hour, and at 1,583 ratings it has a solid, well-established track record for a Full-size upholstered frame.\n\nA genuine advantage here is that attractive velvet wingback headboard in Full size. The tradeoff is only available in Full size among these picks.",
     specs: [
       "Full size, 8 inch height",
       "800 lb weight capacity",
@@ -183,7 +183,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51uE1Fgy+YL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GMGYTLL1?tag=deskfinds0d-20",
     description:
-      "This SHA CERLIN frame's headboard adjusts to fit mattresses from 8 to 14 inches thick, a feature none of the other picks in this list offer, so the proportions stay right whether you're running a slim memory foam mattress or a thick hybrid. The velvet upholstery carries the same vertical channel tufting as the brand's other picks.\n\nA 900 lb weight capacity gives it more headroom than most of the upholstered frames here, and the low profile is compatible with robot vacuums passing underneath. Squeak-resistant construction and roughly an hour of assembly round out a frame built for flexibility.",
+      "This SHA CERLIN frame's headboard adjusts to fit mattresses from 8 to 14 inches thick, a feature none of the other picks in this list offer, so the proportions stay right whether you're running a slim memory foam mattress or a thick hybrid. The velvet upholstery carries the same vertical channel tufting as the brand's other picks.\n\nA 900 lb weight capacity gives it more headroom than most of the upholstered frames here, and the low profile is compatible with robot vacuums passing underneath. Squeak-resistant construction and roughly an hour of assembly round out a frame built for flexibility.\n\n900 lb weight capacity, higher than most upholstered picks. That's a real strength, but weigh it against the flip side: smallest review base in this list at 82 ratings.",
     specs: [
       "Queen size",
       "900 lb weight capacity",
@@ -216,7 +216,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51KeptLPVvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FFRQJGPN?tag=deskfinds0d-20",
     description:
-      "The Allewie 4 Drawer frame packs the most underbed storage of any pick in this list, with four oversized rolling drawers built directly into the base. It pairs that storage with a velvet channel-tufted headboard that adjusts between two heights, up to 42 or 46 inches, so you can dial in the proportions for your room.\n\nWooden slats support the mattress without a box spring, and the 900 lb capacity gives it solid headroom for heavier mattresses. At $187.67, it's a premium price in this list, but the combination of four drawers and an adjustable headboard makes it the clear pick for storage-focused shoppers.",
+      "The Allewie 4 Drawer frame packs the most underbed storage of any pick in this list, with four oversized rolling drawers built directly into the base. It pairs that storage with a velvet channel-tufted headboard that adjusts between two heights, up to 42 or 46 inches, so you can dial in the proportions for your room.\n\nWooden slats support the mattress without a box spring, and the 900 lb capacity gives it solid headroom for heavier mattresses. At $187.67, it's a premium price in this list, but the combination of four drawers and an adjustable headboard makes it the clear pick for storage-focused shoppers.\n\nWorth calling out specifically: 2-position adjustable headboard height. The catch is most expensive pick in this list at $187.67.",
     specs: [
       "Queen size",
       "900 lb weight capacity",
@@ -249,7 +249,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51TZUZRytAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FNQZPXSM?tag=deskfinds0d-20",
     description:
-      "This Allewie frame is the most feature-loaded white pick in this list, combining a 2-tier LED shelf built into the headboard with a full charging station offering 2 AC outlets, 1 USB port, and 1 USB-C port. The velvet tufted headboard hides the shelving and wiring behind a clean upholstered front.\n\nTwo footboard storage drawers add extra capacity beyond the headboard shelf, and the 900 lb weight capacity keeps it in line with the brand's other higher-end picks. Squeak-resistant construction rounds out a frame built for anyone who wants their nightstand functions built directly into the bed.",
+      "This Allewie frame is the most feature-loaded white pick in this list, combining a 2-tier LED shelf built into the headboard with a full charging station offering 2 AC outlets, 1 USB port, and 1 USB-C port. The velvet tufted headboard hides the shelving and wiring behind a clean upholstered front.\n\nTwo footboard storage drawers add extra capacity beyond the headboard shelf, and the 900 lb weight capacity keeps it in line with the brand's other higher-end picks. Squeak-resistant construction rounds out a frame built for anyone who wants their nightstand functions built directly into the bed.\n\n2 footboard drawers for extra storage. Set against that, tied for the highest price in this list at $189.99. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size",
       "900 lb weight capacity",
@@ -282,7 +282,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51vbuJJEZ5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FGTS71PT?tag=deskfinds0d-20",
     description:
-      "CypBed packs four storage drawers into the base along with a headboard-mounted charging station offering 3 USB ports and 1 USB-C port, all at a lower price than the comparable Allewie storage picks in this list. A hidden shelf and side pockets built into the headboard add discreet space for phones, books, or remotes.\n\nThe frame's 12-slat, 9-leg construction is the sturdiest build among the storage-focused white picks here, distributing the mattress load across more support points. At $119.99 with 630 ratings and a 4.5 star average, it offers the best balance of storage, charging, and price in this list.",
+      "CypBed packs four storage drawers into the base along with a headboard-mounted charging station offering 3 USB ports and 1 USB-C port, all at a lower price than the comparable Allewie storage picks in this list. A hidden shelf and side pockets built into the headboard add discreet space for phones, books, or remotes.\n\nThe frame's 12-slat, 9-leg construction is the sturdiest build among the storage-focused white picks here, distributing the mattress load across more support points. At $119.99 with 630 ratings and a 4.5 star average, it offers the best balance of storage, charging, and price in this list.\n\nA genuine advantage here is that hidden headboard shelf and side pockets for extra convenience. The tradeoff is fewer drawers than the Allewie 4 Drawer pick's oversized rolling design.",
     specs: [
       "Queen size",
       "900 lb weight capacity",
@@ -308,35 +308,25 @@ export const products: GuideProduct[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Frame material",
-    explanation:
-      "White bed frames come in powder-coated metal, upholstered velvet, or a mix of both. Metal frames are typically cheaper and easier to keep clean, while velvet frames offer a softer, more upscale look but need more care to avoid stains.",
+    "criterion": "Check weight capacity against your actual mattress type and combined sleeper weight",
+    "explanation": "A bed frame's rated weight capacity needs to cover the mattress itself plus everyone who'll sleep on it, and this number gets easy to underestimate, a queen memory foam mattress alone can weigh 100 pounds or more before adding two adult sleepers, and any additional stress from sitting on the edge or jumping briefly adds real load beyond static weight.\n\nThis matters because a frame rated just barely above your expected weight is operating closer to its stress limit than a genuinely comfortable margin, especially over years of daily use.\n\nCheck the listed weight capacity specifically, and add your mattress weight to your realistic combined sleeper weight before comparing that total against the frame's rating, favoring real margin over the bare minimum."
   },
   {
-    criterion: "Weight capacity",
-    explanation:
-      "Capacities in this list range from 800 to 3,500 lbs. Heavier mattresses, two sleepers, or households that like to jump on the bed should prioritize frames rated 900 lbs or higher.",
+    "criterion": "Confirm slat spacing and support type match your specific mattress requirements",
+    "explanation": "Different mattress types have different support requirements, memory foam and latex mattresses generally need slats spaced no more than about 3 inches apart (or a solid platform) to prevent sagging between slats over time, while a traditional innerspring mattress on a box spring is less sensitive to slat spacing.\n\nThis matters directly because using a mattress with the wrong support structure can void the mattress warranty and cause premature sagging or damage regardless of how sturdy the frame itself is.\n\nCheck the frame's listed slat spacing or platform type against your specific mattress manufacturer's stated support requirements before assuming any bed frame works with any mattress."
   },
   {
-    criterion: "Storage features",
-    explanation:
-      "If underbed or in-frame storage matters, look at drawer count and size. The Allewie 4 Drawer (Pick 6) and CypBed 4 Drawer (Pick 8) both build storage directly into the frame rather than relying on separate underbed bins.",
+    "criterion": "Weigh underbed clearance against what you actually plan to store there",
+    "explanation": "Underbed clearance varies significantly between bed frame styles, some platform frames sit low with minimal clearance for a cleaner look, while others leave enough height for storage bins or a robot vacuum to pass underneath, and this dimension is easy to overlook when comparing frames primarily on price or style.\n\nThis matters directly if you're counting on underbed space for storage in a smaller room, a frame with too little clearance for your storage bins defeats that purpose entirely.\n\nCheck the listed underbed clearance in inches against the actual height of what you plan to store there before assuming any low-profile frame leaves adequate space."
   },
   {
-    criterion: "Headboard style",
-    explanation:
-      "Options range from no headboard at all, to Victorian metal detailing, to fully upholstered velvet wingback designs. Consider how the headboard height and style will look against your room's existing furniture.",
+    "criterion": "Consider assembly difficulty and whether the frame requires a box spring or foundation",
+    "explanation": "Bed frames vary considerably in assembly complexity, from frames that unfold and lock in minutes to ones requiring a lengthy multi-person assembly with many small parts, and whether a frame needs a separate box spring or foundation versus being a standalone platform changes both the total cost and the setup effort involved.\n\nThis matters directly for anyone assembling the frame alone or on a tight moving timeline, discovering a frame requires an additional box spring purchase after already ordering the frame is a frustrating and avoidable extra cost and delay.\n\nCheck the listing specifically for assembly time estimates and whether a box spring or foundation is required or already built in, not just the frame's style category."
   },
   {
-    criterion: "Built-in tech features",
-    explanation:
-      "Some white frames now include LED lighting and USB or USB-C charging ports built into the headboard, which can eliminate the need for a separate nightstand lamp or charger, useful in small bedrooms.",
-  },
-  {
-    criterion: "Keeping white finishes clean",
-    explanation:
-      "White metal frames show scuffs more visibly than dark finishes, and white velvet needs occasional spot cleaning. Factor in your household's wear and tear, especially with kids or pets, when choosing a finish.",
-  },
+    "criterion": "Check for noise-reduction features if the frame will see daily use in a shared bedroom",
+    "explanation": "Metal bed frames in particular can develop an audible squeak or rattle over months of use as joints and connection points wear slightly, and better-designed frames include noise-reduction features like rubber-lined connection points or a center support bar with additional legs to reduce flex and movement.\n\nThis matters more for a frame used daily by an active sleeper or shared with a partner, where noise becomes a recurring annoyance, less for occasional guest-room use.\n\nCheck reviews specifically for mentions of squeaking or noise developing over time, not just the frame's assembled-day stability, and look for a center support bar with its own legs on larger frame sizes."
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41iVvFSrG7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B073WQ8JLT?tag=deskfinds0d-20",
     description:
-      "The Amazon Basics Foldable Twin XL Platform Bed Frame is built from alloy steel and folds flat without any tools, making it the fastest frame in this list to set up or break down for a dorm move-in or move-out. There's no assembly required beyond unfolding and locking the legs into place.\n\nStanding 14 inches tall, it leaves 12.5 inches of underbed storage clearance, and the trusted Amazon Basics name backs it with a large, established review base of over 4,600 ratings at 4.6 stars. For students who need a frame that goes up and comes down fast, this is the simplest option here.",
+      "The Amazon Basics Foldable Twin XL Platform Bed Frame is built from alloy steel and folds flat without any tools, making it the fastest frame in this list to set up or break down for a dorm move-in or move-out. There's no assembly required beyond unfolding and locking the legs into place.\n\nStanding 14 inches tall, it leaves 12.5 inches of underbed storage clearance, and the trusted Amazon Basics name backs it with a large, established review base of over 4,600 ratings at 4.6 stars. For students who need a frame that goes up and comes down fast, this is the simplest option here.\n\nTrusted Amazon Basics brand with 4,654 ratings. That's a real strength, but weigh it against the flip side: 350 lb capacity is the lowest in this list.",
     specs: [
       "Twin XL size, 14 inch height",
       "350 lb weight capacity",
@@ -84,7 +84,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41-zTxt0qKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BG6LZHQK?tag=deskfinds0d-20",
     description:
-      "The Mellow Naturalista Classic brings genuine 3.5 inch solid pine wood construction to the Twin XL size, giving it a warmer natural look than the metal frames that dominate this category. Non-slip tape along the slats keeps the mattress from sliding, and the frame stays quiet with no metal-on-metal noise.\n\nBacked by a 5-year warranty and the largest review base in this list at over 22,000 ratings, it's the most proven wood option for anyone who wants to skip the industrial dorm-room look entirely. At 12 inches tall with a 500 lb capacity, it's built for regular daily use.",
+      "The Mellow Naturalista Classic brings genuine 3.5 inch solid pine wood construction to the Twin XL size, giving it a warmer natural look than the metal frames that dominate this category. Non-slip tape along the slats keeps the mattress from sliding, and the frame stays quiet with no metal-on-metal noise.\n\nBacked by a 5-year warranty and the largest review base in this list at over 22,000 ratings, it's the most proven wood option for anyone who wants to skip the industrial dorm-room look entirely. At 12 inches tall with a 500 lb capacity, it's built for regular daily use.\n\nWorth calling out specifically: 5-year warranty. The catch is higher price than basic metal fold-flat frames.",
     specs: [
       "Twin XL size, 12 inch height",
       "500 lb weight capacity",
@@ -117,7 +117,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/312H8aVyVAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09S9VQW19?tag=deskfinds0d-20",
     description:
-      "The EMODA 18 Inch Twin XL Metal Platform Bed Frame stands taller than every other pick in this list, giving it the widest underbed clearance for storage bins, luggage, or moving boxes during the school year. Six reinforced legs support an 800 lb capacity, well above most Twin XL frames.\n\nAssembly is rated at just 20 minutes, the fastest bolted-together setup in this list, and the frame resists fading and squeaking over time. Reserved holes are built in for anyone who wants to add a DIY headboard later. With 4.5 stars across 4,707 ratings, it's a well-proven pick for maximum storage space underneath.",
+      "The EMODA 18 Inch Twin XL Metal Platform Bed Frame stands taller than every other pick in this list, giving it the widest underbed clearance for storage bins, luggage, or moving boxes during the school year. Six reinforced legs support an 800 lb capacity, well above most Twin XL frames.\n\nAssembly is rated at just 20 minutes, the fastest bolted-together setup in this list, and the frame resists fading and squeaking over time. Reserved holes are built in for anyone who wants to add a DIY headboard later. With 4.5 stars across 4,707 ratings, it's a well-proven pick for maximum storage space underneath.\n\nHigh 800 lb weight capacity. Set against that, extra height may feel tall getting in and out of bed. Both matter when comparing it to the other picks here.",
     specs: [
       "Twin XL size, 18 inch height",
       "800 lb weight capacity",
@@ -150,7 +150,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41yWZ+OOGXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1XLKPVH?tag=deskfinds0d-20",
     description:
-      "The LUMUNANCE Twin XL Bed Frame focuses on staying quiet through nightly movement, using reinforced joints and a powder-coated heavy-duty finish to resist the squeaking that develops on cheaper metal frames over time. Three reserved mounting holes let you bolt on an optional headboard or footboard whenever you're ready.\n\nAt 16 inches tall, it splits the difference between the shorter and taller frames in this list, leaving solid underbed clearance for storage. The minimalist finish works in nearly any dorm or bedroom setting, and it holds a consistent 4.5 star rating across 2,528 reviews.",
+      "The LUMUNANCE Twin XL Bed Frame focuses on staying quiet through nightly movement, using reinforced joints and a powder-coated heavy-duty finish to resist the squeaking that develops on cheaper metal frames over time. Three reserved mounting holes let you bolt on an optional headboard or footboard whenever you're ready.\n\nAt 16 inches tall, it splits the difference between the shorter and taller frames in this list, leaving solid underbed clearance for storage. The minimalist finish works in nearly any dorm or bedroom setting, and it holds a consistent 4.5 star rating across 2,528 reviews.\n\nA genuine advantage here is that reserved mounting holes for a future headboard. The tradeoff is headboard and footboard not included.",
     specs: [
       "Twin XL size, 16 inch height",
       "Powder-coated heavy-duty metal",
@@ -183,7 +183,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51IxNfP3L-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BP6F17FX?tag=deskfinds0d-20",
     description:
-      "The DIIYIV Twin XL Metal Bed Frame carries a 2,000 pound weight capacity, the highest of any Twin XL pick in this list, built on alloy steel with 9 legs for stability. Rounded corners cut down on sharp edges around the frame, a small but useful safety detail in a dorm or shared room.\n\nSteel slat support keeps the frame noise-free during regular use, and 12.7 inches of underbed clearance leaves room for storage bins. With 4.5 stars across 3,412 ratings, it's a well-reviewed pick for anyone who wants maximum load capacity in a straightforward metal frame.",
+      "The DIIYIV Twin XL Metal Bed Frame carries a 2,000 pound weight capacity, the highest of any Twin XL pick in this list, built on alloy steel with 9 legs for stability. Rounded corners cut down on sharp edges around the frame, a small but useful safety detail in a dorm or shared room.\n\nSteel slat support keeps the frame noise-free during regular use, and 12.7 inches of underbed clearance leaves room for storage bins. With 4.5 stars across 3,412 ratings, it's a well-reviewed pick for anyone who wants maximum load capacity in a straightforward metal frame.\n\nRounded corners improve safety. That's a real strength, but weigh it against the flip side: no headboard included.",
     specs: [
       "Twin XL size, 14 inch height",
       "2,000 lb weight capacity (highest in this list)",
@@ -216,7 +216,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/518NFFSvjDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPLZ1J5Q?tag=deskfinds0d-20",
     description:
-      "The LIKIMIO Twin XL Bed Frame is the best-looking headboard-plus-charging combo in this list, with an upholstered Grey headboard and a small vintage-style shelf for books or a lamp. Built from FSC-certified wood, the headboard also houses 2 AC outlets and a USB port so devices can charge overnight without a separate power strip.\n\nWith nearly 9,600 ratings at 4.5 stars, it's the second most-reviewed pick here, reflecting how popular this combination of storage headboard and charging is for dorm and student setups. At 10.6 inches of underbed clearance and a 400 lb capacity, it's built specifically around the headboard experience rather than maximum load capacity.",
+      "The LIKIMIO Twin XL Bed Frame is the best-looking headboard-plus-charging combo in this list, with an upholstered Grey headboard and a small vintage-style shelf for books or a lamp. Built from FSC-certified wood, the headboard also houses 2 AC outlets and a USB port so devices can charge overnight without a separate power strip.\n\nWith nearly 9,600 ratings at 4.5 stars, it's the second most-reviewed pick here, reflecting how popular this combination of storage headboard and charging is for dorm and student setups. At 10.6 inches of underbed clearance and a 400 lb capacity, it's built specifically around the headboard experience rather than maximum load capacity.\n\nWorth calling out specifically: fSC-certified sustainable wood. The catch is lower 400 lb weight capacity.",
     specs: [
       "Twin XL size",
       "400 lb weight capacity",
@@ -249,7 +249,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41HmyEEOb7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H3JRB9BL?tag=deskfinds0d-20",
     description:
-      "The Allewie Twin XL Bed Frame carries an exceptionally high 3,500 pound weight capacity, far beyond what most Twin XL frames offer, wrapped in a clean white powder-coated finish that reads as minimalist rather than industrial. An independent center leg adds extra mid-frame support to prevent sagging under a heavier mattress.\n\nThe finish resists both squeaking and fading over time, and 12.6 inches of underbed clearance leaves solid room for storage. Reserved mounting holes are built in for anyone who wants to add a headboard down the line. At $36.89, it's one of the most affordable picks here despite the standout capacity rating.",
+      "The Allewie Twin XL Bed Frame carries an exceptionally high 3,500 pound weight capacity, far beyond what most Twin XL frames offer, wrapped in a clean white powder-coated finish that reads as minimalist rather than industrial. An independent center leg adds extra mid-frame support to prevent sagging under a heavier mattress.\n\nThe finish resists both squeaking and fading over time, and 12.6 inches of underbed clearance leaves solid room for storage. Reserved mounting holes are built in for anyone who wants to add a headboard down the line. At $36.89, it's one of the most affordable picks here despite the standout capacity rating.\n\nClean white minimalist finish. Set against that, white finish shows scuffs more visibly than black frames. Both matter when comparing it to the other picks here.",
     specs: [
       "Twin XL size, 14 inch height",
       "3,500 lb weight capacity (exceptionally high)",
@@ -282,7 +282,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51l52skrehL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DS5VXH8F?tag=deskfinds0d-20",
     description:
-      "The Hasuit Twin XL Corner Bed Frame uses a unique L-shape corner design that tucks into a room corner, saving more floor space than any other pick in this list. It's built specifically with teens and dorm rooms in mind, pairing 2 rolling drawers with a bookcase-style headboard that doubles as extra storage and display space.\n\nCharging is handled through 2 AC outlets and 2 USB ports, and app-controlled RGB LED lighting adds ambient color. The frame is reversible, so it can be configured for either a left or right corner depending on your room layout. At 4.6 stars across 890 ratings, it's a strong pick for anyone working with a small or oddly shaped bedroom.",
+      "The Hasuit Twin XL Corner Bed Frame uses a unique L-shape corner design that tucks into a room corner, saving more floor space than any other pick in this list. It's built specifically with teens and dorm rooms in mind, pairing 2 rolling drawers with a bookcase-style headboard that doubles as extra storage and display space.\n\nCharging is handled through 2 AC outlets and 2 USB ports, and app-controlled RGB LED lighting adds ambient color. The frame is reversible, so it can be configured for either a left or right corner depending on your room layout. At 4.6 stars across 890 ratings, it's a strong pick for anyone working with a small or oddly shaped bedroom.\n\nA genuine advantage here is that bookcase headboard plus 2 drawers for storage. The tradeoff is highest price in this list at $155.98.",
     specs: [
       "Twin XL size",
       "900 lb weight capacity",
@@ -308,35 +308,25 @@ export const products: GuideProduct[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Weight capacity",
-    explanation:
-      "Twin XL capacity varies dramatically in this list, from 350 lbs on the fold-flat Amazon Basics frame up to 3,500 lbs on the Allewie minimalist pick. Match capacity to your mattress weight and how the bed will actually be used.",
+    "criterion": "Check weight capacity against your actual mattress type and combined sleeper weight",
+    "explanation": "A bed frame's rated weight capacity needs to cover the mattress itself plus everyone who'll sleep on it, and this number gets easy to underestimate, a queen memory foam mattress alone can weigh 100 pounds or more before adding two adult sleepers, and any additional stress from sitting on the edge or jumping briefly adds real load beyond static weight.\n\nThis matters because a frame rated just barely above your expected weight is operating closer to its stress limit than a genuinely comfortable margin, especially over years of daily use.\n\nCheck the listed weight capacity specifically, and add your mattress weight to your realistic combined sleeper weight before comparing that total against the frame's rating, favoring real margin over the bare minimum."
   },
   {
-    criterion: "Assembly speed",
-    explanation:
-      "If you're setting up a dorm room on a tight move-in schedule, prioritize fold-flat or fast-assembly designs like the Amazon Basics (no tools) or EMODA (20 minutes) over frames with more components.",
+    "criterion": "Confirm slat spacing and support type match your specific mattress requirements",
+    "explanation": "Different mattress types have different support requirements, memory foam and latex mattresses generally need slats spaced no more than about 3 inches apart (or a solid platform) to prevent sagging between slats over time, while a traditional innerspring mattress on a box spring is less sensitive to slat spacing.\n\nThis matters directly because using a mattress with the wrong support structure can void the mattress warranty and cause premature sagging or damage regardless of how sturdy the frame itself is.\n\nCheck the frame's listed slat spacing or platform type against your specific mattress manufacturer's stated support requirements before assuming any bed frame works with any mattress."
   },
   {
-    criterion: "Underbed clearance",
-    explanation:
-      "Frame height ranges from 12 to 18 inches across this list. Taller frames like the EMODA leave more room for storage bins, while shorter frames sit closer to the floor for a lower profile look.",
+    "criterion": "Weigh underbed clearance against what you actually plan to store there",
+    "explanation": "Underbed clearance varies significantly between bed frame styles, some platform frames sit low with minimal clearance for a cleaner look, while others leave enough height for storage bins or a robot vacuum to pass underneath, and this dimension is easy to overlook when comparing frames primarily on price or style.\n\nThis matters directly if you're counting on underbed space for storage in a smaller room, a frame with too little clearance for your storage bins defeats that purpose entirely.\n\nCheck the listed underbed clearance in inches against the actual height of what you plan to store there before assuming any low-profile frame leaves adequate space."
   },
   {
-    criterion: "Headboard and charging needs",
-    explanation:
-      "If you want a built-in headboard with charging, the LIKIMIO and Hasuit picks include that out of the box. Frames without a headboard typically leave reserved mounting holes so you can add one separately later.",
+    "criterion": "Consider assembly difficulty and whether the frame requires a box spring or foundation",
+    "explanation": "Bed frames vary considerably in assembly complexity, from frames that unfold and lock in minutes to ones requiring a lengthy multi-person assembly with many small parts, and whether a frame needs a separate box spring or foundation versus being a standalone platform changes both the total cost and the setup effort involved.\n\nThis matters directly for anyone assembling the frame alone or on a tight moving timeline, discovering a frame requires an additional box spring purchase after already ordering the frame is a frustrating and avoidable extra cost and delay.\n\nCheck the listing specifically for assembly time estimates and whether a box spring or foundation is required or already built in, not just the frame's style category."
   },
   {
-    criterion: "Storage drawers vs open underbed space",
-    explanation:
-      "Corner and drawer-equipped frames like the Hasuit trade some assembly simplicity for built-in storage that doesn't require separate bins. Decide whether you'd rather have flexible open underbed space or fixed drawers.",
-  },
-  {
-    criterion: "Room layout and space constraints",
-    explanation:
-      "Standard rectangular frames fit most rooms, but the Hasuit's L-shape corner design is worth considering specifically if your room has a usable corner and you want to save floor space for a desk or dresser.",
-  },
+    "criterion": "Check for noise-reduction features if the frame will see daily use in a shared bedroom",
+    "explanation": "Metal bed frames in particular can develop an audible squeak or rattle over months of use as joints and connection points wear slightly, and better-designed frames include noise-reduction features like rubber-lined connection points or a center support bar with additional legs to reduce flex and movement.\n\nThis matters more for a frame used daily by an active sleeper or shared with a partner, where noise becomes a recurring annoyance, less for occasional guest-room use.\n\nCheck reviews specifically for mentions of squeaking or noise developing over time, not just the frame's assembled-day stability, and look for a center support bar with its own legs on larger frame sizes."
+  }
 ];
 
 export const faq: FaqItem[] = [

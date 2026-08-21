@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/414CCwQaAdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07DZT2SZ3?tag=deskfinds0d-20",
     description:
-      "The Mellow Naturalista Classic is genuinely 100% solid pine wood, not engineered panels or veneer over metal, and its 22,372 ratings make it the best-selling authentic-wood frame in this list by a wide margin. The 3.5 inch thick slats support up to 1,000 lbs, and non-slip tape keeps the mattress from shifting.\n\nIts natural finish shows the wood grain clearly, giving it a warm mid-century look that pairs with most bedroom styles. Backed by a 5-year warranty, the longest of any pick in this list, it's built to hold up over years of daily use without needing a box spring.",
+      "The Mellow Naturalista Classic is genuinely 100% solid pine wood, not engineered panels or veneer over metal, and its 22,372 ratings make it the best-selling authentic-wood frame in this list by a wide margin. The 3.5 inch thick slats support up to 1,000 lbs, and non-slip tape keeps the mattress from shifting.\n\nIts natural finish shows the wood grain clearly, giving it a warm mid-century look that pairs with most bedroom styles. Backed by a 5-year warranty, the longest of any pick in this list, it's built to hold up over years of daily use without needing a box spring.\n\nBest-selling authentic wood pick with 22,372 ratings. That's a real strength, but weigh it against the flip side: assembly takes longer than metal-and-wood hybrid frames.",
     specs: [
       "Queen size, 12 inch height",
       "1,000 lb weight capacity",
@@ -84,7 +84,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41+Ih-JM1qL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07DZYCFPT?tag=deskfinds0d-20",
     description:
-      "This is the same 100% solid pine construction as the top pick, just finished in a deep espresso stain that reads warmer and more formal than the natural tone. It shares the same 1,000 lb capacity, non-slip tape, and 5-year warranty, so the durability profile is identical.\n\nThe darker finish hides scuffs and marks better over time than a light natural stain, which can be a practical advantage in a heavily-used bedroom. With the same strong 22,372-rating track record as the natural version, it's the pick for anyone who wants genuine solid wood in a moodier, richer tone.",
+      "This is the same 100% solid pine construction as the top pick, just finished in a deep espresso stain that reads warmer and more formal than the natural tone. It shares the same 1,000 lb capacity, non-slip tape, and 5-year warranty, so the durability profile is identical.\n\nThe darker finish hides scuffs and marks better over time than a light natural stain, which can be a practical advantage in a heavily-used bedroom. With the same strong 22,372-rating track record as the natural version, it's the pick for anyone who wants genuine solid wood in a moodier, richer tone.\n\nWorth calling out specifically: warmest, richest tone in the natural-wood group. The catch is higher price than the natural-finish version.",
     specs: [
       "Queen size, 12 inch height",
       "1,000 lb weight capacity",
@@ -117,7 +117,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51-gTK83bUS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B072DY2MHK?tag=deskfinds0d-20",
     description:
-      "The Zinus Vivek Deluxe combines pine wood with a steel interior frame, giving it the rigidity of a metal skeleton while keeping visible wood grain on the wood slats and the matching paneled Antique Espresso headboard. The headboard's paneled detailing is one of the more attractive designs among the wood picks in this list.\n\nAssembly takes under an hour despite the added headboard, and the frame is backed by a 5-year warranty. With 11,434 ratings at 4.6 stars, it has a well-established track record for a hybrid wood-and-steel design that doesn't need a box spring.",
+      "The Zinus Vivek Deluxe combines pine wood with a steel interior frame, giving it the rigidity of a metal skeleton while keeping visible wood grain on the wood slats and the matching paneled Antique Espresso headboard. The headboard's paneled detailing is one of the more attractive designs among the wood picks in this list.\n\nAssembly takes under an hour despite the added headboard, and the frame is backed by a 5-year warranty. With 11,434 ratings at 4.6 stars, it has a well-established track record for a hybrid wood-and-steel design that doesn't need a box spring.\n\nAttractive matching paneled headboard included. Set against that, most expensive pick in this list at $331.47. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size, 12 inch height",
       "700 lb weight capacity",
@@ -150,7 +150,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51-gTK83bUS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0716FHHC3?tag=deskfinds0d-20",
     description:
-      "This is the King-size version of the Vivek Deluxe, using a thicker 5.75 inch pine-and-steel framework to handle the larger mattress footprint while keeping the same matching Antique Espresso paneled headboard. It's the only King-size frame in this list, making it the default choice for anyone who needs the larger bed size.\n\nThe durable antique espresso finish resists everyday wear, and it shares the same 5-year warranty and 700 lb capacity rating as the Queen version. At $316.00, it's actually slightly cheaper than the Queen variant here, and it carries the same strong 11,434-rating track record.",
+      "This is the King-size version of the Vivek Deluxe, using a thicker 5.75 inch pine-and-steel framework to handle the larger mattress footprint while keeping the same matching Antique Espresso paneled headboard. It's the only King-size frame in this list, making it the default choice for anyone who needs the larger bed size.\n\nThe durable antique espresso finish resists everyday wear, and it shares the same 5-year warranty and 700 lb capacity rating as the Queen version. At $316.00, it's actually slightly cheaper than the Queen variant here, and it carries the same strong 11,434-rating track record.\n\nA genuine advantage here is that matching paneled headboard included. The tradeoff is 700 lb capacity, lower than the pure solid-wood picks.",
     specs: [
       "King size, 12 inch height",
       "700 lb weight capacity",
@@ -183,7 +183,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51XgYNYGpjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C9QBVNW8?tag=deskfinds0d-20",
     description:
-      "The SHA CERLIN combines a metal platform base with a waterproof wood headboard and footboard, giving it a rustic industrial look that stands apart from the purely wood or purely metal picks in this list. It's one of only two picks here that includes both a headboard and footboard in the price.\n\nThe wood panels carry a waterproof, scratchproof finish that resists everyday wear better than typical MDF, and non-slip strips on the slats keep the mattress from shifting. At $112.99 with 9,676 ratings, it offers wood styling at a mid-range price alongside 12 inches of underbed clearance.",
+      "The SHA CERLIN combines a metal platform base with a waterproof wood headboard and footboard, giving it a rustic industrial look that stands apart from the purely wood or purely metal picks in this list. It's one of only two picks here that includes both a headboard and footboard in the price.\n\nThe wood panels carry a waterproof, scratchproof finish that resists everyday wear better than typical MDF, and non-slip strips on the slats keep the mattress from shifting. At $112.99 with 9,676 ratings, it offers wood styling at a mid-range price alongside 12 inches of underbed clearance.\n\nWaterproof, scratchproof headboard and footboard. That's a real strength, but weigh it against the flip side: not solid wood throughout, uses a metal platform base.",
     specs: [
       "Queen size, 14 inch height",
       "800 lb weight capacity",
@@ -216,7 +216,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/517JiaFTmIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FRNHHK6D?tag=deskfinds0d-20",
     description:
-      "Lifezone builds this frame from genuinely premium solid wood in a rich walnut tone, topped with a striking 41 inch tall headboard that dwarfs every other headboard in this list. App- and remote-controlled RGB LED lighting is built into the headboard, along with a charging station offering 2 AC outlets, 1 USB port, and 1 USB-C port.\n\nThe design leans vintage American, with clean lines and a substantial presence that suits a primary bedroom more than a compact space. Noise-free construction keeps the frame quiet against a baseboard, and while its review count is still small at 78 ratings, the combination of solid wood and full tech features is unmatched elsewhere in this list.",
+      "Lifezone builds this frame from genuinely premium solid wood in a rich walnut tone, topped with a striking 41 inch tall headboard that dwarfs every other headboard in this list. App- and remote-controlled RGB LED lighting is built into the headboard, along with a charging station offering 2 AC outlets, 1 USB port, and 1 USB-C port.\n\nThe design leans vintage American, with clean lines and a substantial presence that suits a primary bedroom more than a compact space. Noise-free construction keeps the frame quiet against a baseboard, and while its review count is still small at 78 ratings, the combination of solid wood and full tech features is unmatched elsewhere in this list.\n\nWorth calling out specifically: tallest, most striking headboard in this list at 41 inches. The catch is smallest review base in this list at 78 ratings.",
     specs: [
       "Queen size",
       "500 lb weight capacity",
@@ -249,7 +249,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51CJOsWeWjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G4MS4RXW?tag=deskfinds0d-20",
     description:
-      "CypBed's wavy-wood headboard design is unlike anything else in this list, with an undulating farmhouse-style silhouette that adds visual interest beyond a flat panel. Storage is built in generously here, with 2 underbed drawers plus 3 more drawers and shelves integrated into the headboard itself, for 5 total storage points.\n\nA 5-mode app- and remote-controlled RGB LED system runs along the frame, and 2 built-in outlets add convenience at the bedside. The 1,000 lb capacity and 11-slat, 9-leg construction with soundproofing foam give it a sturdy foundation, and the walnut farmhouse finish rounds out a design built to stand out.",
+      "CypBed's wavy-wood headboard design is unlike anything else in this list, with an undulating farmhouse-style silhouette that adds visual interest beyond a flat panel. Storage is built in generously here, with 2 underbed drawers plus 3 more drawers and shelves integrated into the headboard itself, for 5 total storage points.\n\nA 5-mode app- and remote-controlled RGB LED system runs along the frame, and 2 built-in outlets add convenience at the bedside. The 1,000 lb capacity and 11-slat, 9-leg construction with soundproofing foam give it a sturdy foundation, and the walnut farmhouse finish rounds out a design built to stand out.\n\n5 total drawers and shelves for storage. Set against that, smallest review base among the top-tier picks at 132 ratings. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size",
       "1,000 lb weight capacity",
@@ -282,7 +282,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41IcMqnYFxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DTTKCSV6?tag=deskfinds0d-20",
     description:
-      "The Yaheetech is built from natural solid rubber wood with plywood slats, giving it an authentic wood construction at the lowest price of any solid-wood pick in this list. Mid-century tapered legs add a design detail that plain platform frames often skip, and the light natural finish suits most bedroom styles.\n\nAirflow-gapped slats work with memory foam, latex, or spring mattresses without needing a box spring, and the frame is built to resist squeaking. With 7.3 inches of underbed clearance and 1,102 ratings at 4.2 stars, it's a dependable, budget-friendly entry into genuine solid wood.",
+      "The Yaheetech is built from natural solid rubber wood with plywood slats, giving it an authentic wood construction at the lowest price of any solid-wood pick in this list. Mid-century tapered legs add a design detail that plain platform frames often skip, and the light natural finish suits most bedroom styles.\n\nAirflow-gapped slats work with memory foam, latex, or spring mattresses without needing a box spring, and the frame is built to resist squeaking. With 7.3 inches of underbed clearance and 1,102 ratings at 4.2 stars, it's a dependable, budget-friendly entry into genuine solid wood.\n\nA genuine advantage here is that attractive mid-century tapered leg design. The tradeoff is 7.3 inch underbed clearance is the lowest in this list.",
     specs: [
       "Queen size, 12 inch height",
       "800 lb weight capacity",
@@ -308,35 +308,25 @@ export const products: GuideProduct[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Solid wood vs. wood veneer or hybrid",
-    explanation:
-      "Some frames in this list are genuinely 100% solid wood, like the Mellow Naturalista and Yaheetech picks, while others use pine or wood panels over a steel interior frame. Check the material description carefully if authentic solid wood matters to you.",
+    "criterion": "Check weight capacity against your actual mattress type and combined sleeper weight",
+    "explanation": "A bed frame's rated weight capacity needs to cover the mattress itself plus everyone who'll sleep on it, and this number gets easy to underestimate, a queen memory foam mattress alone can weigh 100 pounds or more before adding two adult sleepers, and any additional stress from sitting on the edge or jumping briefly adds real load beyond static weight.\n\nThis matters because a frame rated just barely above your expected weight is operating closer to its stress limit than a genuinely comfortable margin, especially over years of daily use.\n\nCheck the listed weight capacity specifically, and add your mattress weight to your realistic combined sleeper weight before comparing that total against the frame's rating, favoring real margin over the bare minimum."
   },
   {
-    criterion: "Weight capacity",
-    explanation:
-      "Capacities range from 500 to 1,000 lbs in this list. The hybrid wood-and-steel frames don't always outrank the pure solid-wood picks here, so check the specific rating rather than assuming metal components mean higher capacity.",
+    "criterion": "Confirm slat spacing and support type match your specific mattress requirements",
+    "explanation": "Different mattress types have different support requirements, memory foam and latex mattresses generally need slats spaced no more than about 3 inches apart (or a solid platform) to prevent sagging between slats over time, while a traditional innerspring mattress on a box spring is less sensitive to slat spacing.\n\nThis matters directly because using a mattress with the wrong support structure can void the mattress warranty and cause premature sagging or damage regardless of how sturdy the frame itself is.\n\nCheck the frame's listed slat spacing or platform type against your specific mattress manufacturer's stated support requirements before assuming any bed frame works with any mattress."
   },
   {
-    criterion: "Finish and tone",
-    explanation:
-      "Wood finishes range from light natural pine to dark espresso and rich walnut. Since finishes can look different under your room's lighting than in photos, check close-up review images before committing to a tone.",
+    "criterion": "Weigh underbed clearance against what you actually plan to store there",
+    "explanation": "Underbed clearance varies significantly between bed frame styles, some platform frames sit low with minimal clearance for a cleaner look, while others leave enough height for storage bins or a robot vacuum to pass underneath, and this dimension is easy to overlook when comparing frames primarily on price or style.\n\nThis matters directly if you're counting on underbed space for storage in a smaller room, a frame with too little clearance for your storage bins defeats that purpose entirely.\n\nCheck the listed underbed clearance in inches against the actual height of what you plan to store there before assuming any low-profile frame leaves adequate space."
   },
   {
-    criterion: "Headboard style",
-    explanation:
-      "Options range from no headboard at all to statement pieces like the Lifezone's 41 inch tall headboard or CypBed's wavy farmhouse design. Consider how the headboard height and shape will look against your existing furniture.",
+    "criterion": "Consider assembly difficulty and whether the frame requires a box spring or foundation",
+    "explanation": "Bed frames vary considerably in assembly complexity, from frames that unfold and lock in minutes to ones requiring a lengthy multi-person assembly with many small parts, and whether a frame needs a separate box spring or foundation versus being a standalone platform changes both the total cost and the setup effort involved.\n\nThis matters directly for anyone assembling the frame alone or on a tight moving timeline, discovering a frame requires an additional box spring purchase after already ordering the frame is a frustrating and avoidable extra cost and delay.\n\nCheck the listing specifically for assembly time estimates and whether a box spring or foundation is required or already built in, not just the frame's style category."
   },
   {
-    criterion: "Built-in storage",
-    explanation:
-      "If storage matters, the CypBed Farmhouse pick offers the most integrated storage in this list with 5 total drawers and shelves, while most of the pure solid-wood picks skip built-in storage entirely.",
-  },
-  {
-    criterion: "Assembly time",
-    explanation:
-      "Solid wood frames generally take longer to assemble than metal-hybrid designs. The SHA CERLIN industrial pick assembles in about 30 minutes, notably faster than the full solid-wood platforms in this list.",
-  },
+    "criterion": "Check for noise-reduction features if the frame will see daily use in a shared bedroom",
+    "explanation": "Metal bed frames in particular can develop an audible squeak or rattle over months of use as joints and connection points wear slightly, and better-designed frames include noise-reduction features like rubber-lined connection points or a center support bar with additional legs to reduce flex and movement.\n\nThis matters more for a frame used daily by an active sleeper or shared with a partner, where noise becomes a recurring annoyance, less for occasional guest-room use.\n\nCheck reviews specifically for mentions of squeaking or noise developing over time, not just the frame's assembled-day stability, and look for a center support bar with its own legs on larger frame sizes."
+  }
 ];
 
 export const faq: FaqItem[] = [

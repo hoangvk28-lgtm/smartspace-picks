@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51W4yFnKVZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B074QWYM22?tag=deskfinds0d-20",
     description:
-      "The LUCID L300 Adjustable Bed Base is Amazon's best-selling adjustable base by a wide margin, backed by nearly 11,000 ratings. It supports up to 750 lbs and inclines the head 0-60 degrees and the foot 0-45 degrees, giving a wide range for reading, watching TV, or elevating your legs.\n\nSetup takes about 5 minutes with no tools, and dual USB ports on both sides mean two people can charge phones without fighting over a single outlet. The wireless remote includes a built-in flashlight for finding it in the dark, and a memory position button recalls your favorite setting instantly. With a quiet motor and a 10-year warranty, it earns the top spot on proven track record alone.",
+      "The LUCID L300 Adjustable Bed Base is Amazon's best-selling adjustable base by a wide margin, backed by nearly 11,000 ratings. It supports up to 750 lbs and inclines the head 0-60 degrees and the foot 0-45 degrees, giving a wide range for reading, watching TV, or elevating your legs.\n\nSetup takes about 5 minutes with no tools, and dual USB ports on both sides mean two people can charge phones without fighting over a single outlet. The wireless remote includes a built-in flashlight for finding it in the dark, and a memory position button recalls your favorite setting instantly. With a quiet motor and a 10-year warranty, it earns the top spot on proven track record alone.\n\n5-minute tool-free setup. That's a real strength, but weigh it against the flip side: no massage function, unlike several picks further down this list.",
     specs: [
       "Queen and Twin XL sizes",
       "750 lb weight capacity",
@@ -84,7 +84,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51W2FI0j9gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07Z9YN5Y4?tag=deskfinds0d-20",
     description:
-      "The LUCID L150 Adjustable Bed Base is the brand's entry-level model, built as a zero-clearance design so it slides underneath your existing bed frame or headboard without needing extra floor space. It still supports 750 lbs and adjusts the head and foot independently with a quiet motor and wireless remote.\n\nWhat sets it apart is 11 inches of usable underbed storage clearance, roomy enough for bins or a vacuum, and a 5-year warranty. If you already own a frame you like and just want to upgrade to adjustability without replacing everything, this is the simplest way to do it.",
+      "The LUCID L150 Adjustable Bed Base is the brand's entry-level model, built as a zero-clearance design so it slides underneath your existing bed frame or headboard without needing extra floor space. It still supports 750 lbs and adjusts the head and foot independently with a quiet motor and wireless remote.\n\nWhat sets it apart is 11 inches of usable underbed storage clearance, roomy enough for bins or a vacuum, and a 5-year warranty. If you already own a frame you like and just want to upgrade to adjustability without replacing everything, this is the simplest way to do it.\n\nWorth calling out specifically: roomy 11 inch underbed storage. The catch is no massage or preset positions.",
     specs: [
       "Queen size",
       "750 lb weight capacity",
@@ -117,7 +117,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GKdXUF8OL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C1T5BHPT?tag=deskfinds0d-20",
     description:
-      "The Tami Tami T600 packs more into its 80x59x15 inch frame than most bases in this list, combining an 850 lb weight capacity, the highest here, with Zero Gravity and Anti-Snore presets plus multi-mode massage built into both the head and foot sections.\n\nThe head tilts up to 58 degrees and the foot up to 40 degrees, and a quiet 8000N motor runs at roughly 45 decibels so it won't disturb a partner. Dual USB ports, a nightlight, and a child-lock remote round out the feature set, and the whole thing still sets up in about 5 minutes. At 4.7 stars, it holds the highest rating of any pick in this guide.",
+      "The Tami Tami T600 packs more into its 80x59x15 inch frame than most bases in this list, combining an 850 lb weight capacity, the highest here, with Zero Gravity and Anti-Snore presets plus multi-mode massage built into both the head and foot sections.\n\nThe head tilts up to 58 degrees and the foot up to 40 degrees, and a quiet 8000N motor runs at roughly 45 decibels so it won't disturb a partner. Dual USB ports, a nightlight, and a child-lock remote round out the feature set, and the whole thing still sets up in about 5 minutes. At 4.7 stars, it holds the highest rating of any pick in this guide.\n\nHighest weight capacity here at 850 lbs. Set against that, smaller review count than the top-selling LUCID bases. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size, 80x59x15 inches",
       "850 lb weight capacity",
@@ -150,7 +150,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51WuZuR6ZjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK76WKYY?tag=deskfinds0d-20",
     description:
-      "The Amada Queen Adjustable Bed Frame reaches a 65 degree head incline, the steepest in this list, giving the most upright seated position for reading or working from bed. The foot section tilts up to 45 degrees, and massage comes with 3 intensities and 4 modes to dial in exactly how much vibration you want.\n\nEvery corner gets a USB-A and USB-C port, so charging cables from any device work without an adapter, and an LED nightlight helps with late-night trips to the bathroom. Amada tested the frame to 15,000 open-close cycles, about 1.5 times the typical industry benchmark, and the legs adjust to 4 heights to match different bed frame setups. Tool-free 3-step assembly rounds out a genuinely convenient base.",
+      "The Amada Queen Adjustable Bed Frame reaches a 65 degree head incline, the steepest in this list, giving the most upright seated position for reading or working from bed. The foot section tilts up to 45 degrees, and massage comes with 3 intensities and 4 modes to dial in exactly how much vibration you want.\n\nEvery corner gets a USB-A and USB-C port, so charging cables from any device work without an adapter, and an LED nightlight helps with late-night trips to the bathroom. Amada tested the frame to 15,000 open-close cycles, about 1.5 times the typical industry benchmark, and the legs adjust to 4 heights to match different bed frame setups. Tool-free 3-step assembly rounds out a genuinely convenient base.\n\nA genuine advantage here is that both USB-A and USB-C ports on each side. The tradeoff is smaller review base than the LUCID or Tami Tami picks.",
     specs: [
       "Queen size, 79.5x59.6 inches",
       "750 lb weight capacity",
@@ -183,7 +183,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51i3DHhJoHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GPWTXTBB?tag=deskfinds0d-20",
     description:
-      "The Sweetcrispy Electric Bed is the most affordable base in this list at under $300, yet it still includes Zero Gravity and Anti-Snore presets that are usually reserved for pricier models. It supports 750 lbs and adjusts the head up to 60 degrees and the foot up to 40 degrees using a wireless remote.\n\nTwo USB ports let you charge devices overnight, and an anti-slip mattress rail helps keep your mattress from creeping during frequent position changes. Assembly is tool-free, and for anyone chasing back pain relief or snoring reduction on a tighter budget, this is the most accessible way to get there.",
+      "The Sweetcrispy Electric Bed is the most affordable base in this list at under $300, yet it still includes Zero Gravity and Anti-Snore presets that are usually reserved for pricier models. It supports 750 lbs and adjusts the head up to 60 degrees and the foot up to 40 degrees using a wireless remote.\n\nTwo USB ports let you charge devices overnight, and an anti-slip mattress rail helps keep your mattress from creeping during frequent position changes. Assembly is tool-free, and for anyone chasing back pain relief or snoring reduction on a tighter budget, this is the most accessible way to get there.\n\nZero Gravity and Anti-Snore presets at a budget price. That's a real strength, but weigh it against the flip side: smallest review count in this list (105 ratings).",
     specs: [
       "Queen size",
       "750 lb weight capacity",
@@ -216,7 +216,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51c6vpkxc+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GXFCD8Q6?tag=deskfinds0d-20",
     description:
-      "The Mixcous is the only King size base in this list, built Extra-Long so taller sleepers' feet don't hang off the end. It supports 750 lbs, inclines the head up to 61 degrees and the foot up to 37 degrees, and runs on a German OKIN motor rated under 45 decibels, the quietest spec called out among these picks.\n\nZero Gravity, Anti-Snore, and TV mode presets are all included, and the frame uses reinforced steel construction for the added size and weight of a King mattress. If you're shopping for a King and don't want to settle for a smaller adjustable base cut down to fit, this is the pick built for it.",
+      "The Mixcous is the only King size base in this list, built Extra-Long so taller sleepers' feet don't hang off the end. It supports 750 lbs, inclines the head up to 61 degrees and the foot up to 37 degrees, and runs on a German OKIN motor rated under 45 decibels, the quietest spec called out among these picks.\n\nZero Gravity, Anti-Snore, and TV mode presets are all included, and the frame uses reinforced steel construction for the added size and weight of a King mattress. If you're shopping for a King and don't want to settle for a smaller adjustable base cut down to fit, this is the pick built for it.\n\nWorth calling out specifically: quiet OKIN motor rated under 45dB. The catch is lowest foot incline range in this list at 37°.",
     specs: [
       "King size, 78.74x73.46 inches",
       "750 lb weight capacity",
@@ -249,7 +249,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/5148-cNYDJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B41XQ73V?tag=deskfinds0d-20",
     description:
-      "The ESHINE Smart Bed runs on a German OKIN motor, widely regarded as one of the higher-quality motors in the adjustable base market, and backs it with a 10-year warranty tied with the LUCID L300 for the longest in this list. It includes 3 massage modes at 3 intensities with a 10-30 minute timer, plus Zero Gravity, Anti-Snore, and memory position recall.\n\nThe 19-button remote is the most full-featured control in this guide, and the upholstered finish gives the base a more furniture-like look rather than a purely utilitarian frame. Dual USB ports and a nightlight round things out on a base sized specifically for Twin XL mattresses.",
+      "The ESHINE Smart Bed runs on a German OKIN motor, widely regarded as one of the higher-quality motors in the adjustable base market, and backs it with a 10-year warranty tied with the LUCID L300 for the longest in this list. It includes 3 massage modes at 3 intensities with a 10-30 minute timer, plus Zero Gravity, Anti-Snore, and memory position recall.\n\nThe 19-button remote is the most full-featured control in this guide, and the upholstered finish gives the base a more furniture-like look rather than a purely utilitarian frame. Dual USB ports and a nightlight round things out on a base sized specifically for Twin XL mattresses.\n\nTied for longest warranty in this list at 10 years. Set against that, lowest weight capacity in this list at 500 lbs. Both matter when comparing it to the other picks here.",
     specs: [
       "Twin XL size",
       "500 lb weight capacity",
@@ -282,7 +282,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41bQ+N6zwBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08N9FW9SC?tag=deskfinds0d-20",
     description:
-      "The Sven & Son Bliss is the most feature-dense base in this guide, adding Pillow-Tilt adjustment and a separate Lumbar Support zone on top of the usual head-and-foot incline, Zero Gravity, Anti-Snore, and massage found elsewhere in this list. The head lifts up to 75 degrees and the foot to 45 degrees, both controllable from an app in addition to the included remote.\n\nIt ships bundled with a CertiPUR-US certified 14 inch hybrid mattress, so there's no separate mattress purchase needed, and it's backed by a 25-year warranty, by far the longest here. Four USB ports and LED under-bed lighting with a timer complete the package. It costs several times more than any other pick in this guide, but it's also the only one that includes a full mattress and app control.",
+      "The Sven & Son Bliss is the most feature-dense base in this guide, adding Pillow-Tilt adjustment and a separate Lumbar Support zone on top of the usual head-and-foot incline, Zero Gravity, Anti-Snore, and massage found elsewhere in this list. The head lifts up to 75 degrees and the foot to 45 degrees, both controllable from an app in addition to the included remote.\n\nIt ships bundled with a CertiPUR-US certified 14 inch hybrid mattress, so there's no separate mattress purchase needed, and it's backed by a 25-year warranty, by far the longest here. Four USB ports and LED under-bed lighting with a timer complete the package. It costs several times more than any other pick in this guide, but it's also the only one that includes a full mattress and app control.\n\nA genuine advantage here is that longest warranty in this list at 25 years. The tradeoff is by far the most expensive pick in this list.",
     specs: [
       "Queen size",
       "750 lb weight capacity",
@@ -308,35 +308,25 @@ export const products: GuideProduct[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Incline range",
-    explanation:
-      "Head and foot incline angles vary meaningfully between bases, from around 37-40 degrees on the lower end up to 65-75 degrees on the more premium picks. A steeper head incline matters most if you plan to sit up for reading or working from bed.",
+    "criterion": "Check weight capacity against your actual mattress type and combined sleeper weight",
+    "explanation": "A bed frame's rated weight capacity needs to cover the mattress itself plus everyone who'll sleep on it, and this number gets easy to underestimate, a queen memory foam mattress alone can weigh 100 pounds or more before adding two adult sleepers, and any additional stress from sitting on the edge or jumping briefly adds real load beyond static weight.\n\nThis matters because a frame rated just barely above your expected weight is operating closer to its stress limit than a genuinely comfortable margin, especially over years of daily use.\n\nCheck the listed weight capacity specifically, and add your mattress weight to your realistic combined sleeper weight before comparing that total against the frame's rating, favoring real margin over the bare minimum."
   },
   {
-    criterion: "Zero Gravity and Anti-Snore presets",
-    explanation:
-      "Most bases in this list include one-touch Zero Gravity and Anti-Snore positions that automatically set both the head and foot to preset angles. These are worth prioritizing if back pain relief or snore reduction is your main reason for upgrading.",
+    "criterion": "Confirm slat spacing and support type match your specific mattress requirements",
+    "explanation": "Different mattress types have different support requirements, memory foam and latex mattresses generally need slats spaced no more than about 3 inches apart (or a solid platform) to prevent sagging between slats over time, while a traditional innerspring mattress on a box spring is less sensitive to slat spacing.\n\nThis matters directly because using a mattress with the wrong support structure can void the mattress warranty and cause premature sagging or damage regardless of how sturdy the frame itself is.\n\nCheck the frame's listed slat spacing or platform type against your specific mattress manufacturer's stated support requirements before assuming any bed frame works with any mattress."
   },
   {
-    criterion: "Massage function",
-    explanation:
-      "Not every adjustable base includes massage, and the ones that do vary in intensity levels and modes. If massage is a priority, look at the Tami Tami T600, Amada, ESHINE, or Sven & Son Bliss, all of which build it in.",
+    "criterion": "Weigh underbed clearance against what you actually plan to store there",
+    "explanation": "Underbed clearance varies significantly between bed frame styles, some platform frames sit low with minimal clearance for a cleaner look, while others leave enough height for storage bins or a robot vacuum to pass underneath, and this dimension is easy to overlook when comparing frames primarily on price or style.\n\nThis matters directly if you're counting on underbed space for storage in a smaller room, a frame with too little clearance for your storage bins defeats that purpose entirely.\n\nCheck the listed underbed clearance in inches against the actual height of what you plan to store there before assuming any low-profile frame leaves adequate space."
   },
   {
-    criterion: "Weight capacity",
-    explanation:
-      "Weight capacity in this list ranges from 500 lbs on the Twin XL-only ESHINE up to 850 lbs on the Tami Tami T600. Consider your mattress weight plus sleeper weight together, not just the sleeper alone.",
+    "criterion": "Consider assembly difficulty and whether the frame requires a box spring or foundation",
+    "explanation": "Bed frames vary considerably in assembly complexity, from frames that unfold and lock in minutes to ones requiring a lengthy multi-person assembly with many small parts, and whether a frame needs a separate box spring or foundation versus being a standalone platform changes both the total cost and the setup effort involved.\n\nThis matters directly for anyone assembling the frame alone or on a tight moving timeline, discovering a frame requires an additional box spring purchase after already ordering the frame is a frustrating and avoidable extra cost and delay.\n\nCheck the listing specifically for assembly time estimates and whether a box spring or foundation is required or already built in, not just the frame's style category."
   },
   {
-    criterion: "USB ports and charging",
-    explanation:
-      "Nearly every base here includes some form of USB charging, but the port type matters. The Amada is the only pick with both USB-A and USB-C on each side, which avoids needing an adapter for newer devices.",
-  },
-  {
-    criterion: "Warranty length",
-    explanation:
-      "Warranties range from 5 years on the entry-level LUCID L150 up to 25 years on the Sven & Son Bliss. A longer warranty is a reasonable proxy for how confident the manufacturer is in the motor and frame durability.",
-  },
+    "criterion": "Check for noise-reduction features if the frame will see daily use in a shared bedroom",
+    "explanation": "Metal bed frames in particular can develop an audible squeak or rattle over months of use as joints and connection points wear slightly, and better-designed frames include noise-reduction features like rubber-lined connection points or a center support bar with additional legs to reduce flex and movement.\n\nThis matters more for a frame used daily by an active sleeper or shared with a partner, where noise becomes a recurring annoyance, less for occasional guest-room use.\n\nCheck reviews specifically for mentions of squeaking or noise developing over time, not just the frame's assembled-day stability, and look for a center support bar with its own legs on larger frame sizes."
+  }
 ];
 
 export const faq: FaqItem[] = [

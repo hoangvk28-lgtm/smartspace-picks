@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41dA5efQgvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DDXPGY2V?tag=deskfinds0d-20",
     description:
-      "The Furnulem pairs a 2-tier bookshelf headboard with app or remote-controlled RGB LED lighting spanning over 60,000 colors, plus 2 AC outlets and 2 USB ports built right into the frame. The heavy-duty metal slat platform supports up to 700 lbs and needs no box spring, and the frame leaves 15.16 inches of underbed clearance, roomy enough for a robot vacuum to pass through.\n\nAn upholstered headboard with FSC-certified wood construction gives it a more refined look than purely metal storage frames, and with the largest review base in this list, it's a proven, well-reviewed choice for anyone who wants shelf storage plus charging in one setup.",
+      "The Furnulem pairs a 2-tier bookshelf headboard with app or remote-controlled RGB LED lighting spanning over 60,000 colors, plus 2 AC outlets and 2 USB ports built right into the frame. The heavy-duty metal slat platform supports up to 700 lbs and needs no box spring, and the frame leaves 15.16 inches of underbed clearance, roomy enough for a robot vacuum to pass through.\n\nAn upholstered headboard with FSC-certified wood construction gives it a more refined look than purely metal storage frames, and with the largest review base in this list, it's a proven, well-reviewed choice for anyone who wants shelf storage plus charging in one setup.\n\n2-tier bookshelf plus built-in LED and charging. That's a real strength, but weigh it against the flip side: no drawers included, shelf storage only.",
     specs: [
       "Queen size, 700 lb weight capacity",
       "2-tier bookshelf headboard",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51+E7+NGexL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D9Q5JRHP?tag=deskfinds0d-20",
     description:
-      "This second Furnulem model adds 2 underbed drawers to the same 2-tier bookshelf headboard formula, giving you enclosed storage in addition to open shelf space, all at a lower price than the LED-only version above. RGB LED lighting still covers 60,000+ colors with music or microphone sync modes, and a mute sponge bar keeps the drawers gliding open and closed nearly silently.\n\nWith the most reviews of any pick in this list at over 3,000, it's a heavily proven option. The 700 lb capacity metal slat frame needs no box spring and leaves 12.6 inches of clearance under the drawers.",
+      "This second Furnulem model adds 2 underbed drawers to the same 2-tier bookshelf headboard formula, giving you enclosed storage in addition to open shelf space, all at a lower price than the LED-only version above. RGB LED lighting still covers 60,000+ colors with music or microphone sync modes, and a mute sponge bar keeps the drawers gliding open and closed nearly silently.\n\nWith the most reviews of any pick in this list at over 3,000, it's a heavily proven option. The 700 lb capacity metal slat frame needs no box spring and leaves 12.6 inches of clearance under the drawers.\n\nWorth calling out specifically: adds 2 drawers on top of the bookshelf headboard. The catch is slightly less underbed clearance than the drawer-free version.",
     specs: [
       "Queen size, 700 lb weight capacity",
       "2-tier bookshelf headboard + 2 underbed drawers",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51kC6dvWYLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9XM2N74?tag=deskfinds0d-20",
     description:
-      "The LIKIMIO is a King-size vintage wood shelf headboard paired with a grey upholstered lower panel, standing out visually with distinctive angle-iron legs instead of the boxier metal frames on most other picks here. Built-in charging includes 2 AC outlets and a USB port, and the frame includes integrated cable management to keep cords tidy.\n\nWith by far the largest review base in this entire list at over 9,600 ratings, it's the most extensively proven bed frame here. Heavy-duty metal slats provide the mattress support, and the 10.4-inch underbed clearance works well for flat storage bins.",
+      "The LIKIMIO is a King-size vintage wood shelf headboard paired with a grey upholstered lower panel, standing out visually with distinctive angle-iron legs instead of the boxier metal frames on most other picks here. Built-in charging includes 2 AC outlets and a USB port, and the frame includes integrated cable management to keep cords tidy.\n\nWith by far the largest review base in this entire list at over 9,600 ratings, it's the most extensively proven bed frame here. Heavy-duty metal slats provide the mattress support, and the 10.4-inch underbed clearance works well for flat storage bins.\n\nDistinctive angle-iron leg design. Set against that, no LED lighting included. Both matter when comparing it to the other picks here.",
     specs: [
       "King size",
       "Vintage wood shelf headboard + upholstered lower panel",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41e2P1GnluL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FYQJJZ3Z?tag=deskfinds0d-20",
     description:
-      "The OLEVS packs the most charging ports of any King-size pick in this list, 2 USB-A ports, 1 USB-C port, and 2 AC outlets, effectively turning the headboard into a bedroom command center. It's also rated to hold 1,000 lbs, well above the 700-800 lb range typical of most Queen frames here.\n\nA 2-tier upholstered shelf headboard with app-controlled RGB LED lighting rounds out the feature set, and commercial-grade metal slats are built to handle the added weight and width of a King mattress without sagging over time.",
+      "The OLEVS packs the most charging ports of any King-size pick in this list, 2 USB-A ports, 1 USB-C port, and 2 AC outlets, effectively turning the headboard into a bedroom command center. It's also rated to hold 1,000 lbs, well above the 700-800 lb range typical of most Queen frames here.\n\nA 2-tier upholstered shelf headboard with app-controlled RGB LED lighting rounds out the feature set, and commercial-grade metal slats are built to handle the added weight and width of a King mattress without sagging over time.\n\nA genuine advantage here is that 5 total charging ports including USB-C. The tradeoff is smaller review sample (355) than the LIKIMIO or Furnulem picks.",
     specs: [
       "King size, 1,000 lb weight capacity",
       "2-tier upholstered shelf headboard",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41YZCzk7GxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CKQSJ333?tag=deskfinds0d-20",
     description:
-      "The Lifezone is the most full-featured pick in this list, combining a 2-tier bookshelf headboard with 4 sliding underbed drawers, giving you more distinct storage zones than any other bed frame here. App or remote-controlled RGB LED lighting runs along the frame, and charging covers 2 AC outlets, 1 USB port, and 1 Type-C port.\n\nEleven metal support rods back the mattress instead of standard wood slats for added durability, and the industrial vintage brown finish, held up by 9 sturdy metal legs, stands out from the more neutral tones on other picks in this guide.",
+      "The Lifezone is the most full-featured pick in this list, combining a 2-tier bookshelf headboard with 4 sliding underbed drawers, giving you more distinct storage zones than any other bed frame here. App or remote-controlled RGB LED lighting runs along the frame, and charging covers 2 AC outlets, 1 USB port, and 1 Type-C port.\n\nEleven metal support rods back the mattress instead of standard wood slats for added durability, and the industrial vintage brown finish, held up by 9 sturdy metal legs, stands out from the more neutral tones on other picks in this guide.\n\nBuilt-in charging and RGB LED lighting. That's a real strength, but weigh it against the flip side: lowest rating in this list at 4.1 stars.",
     specs: [
       "Queen size, 800 lb weight capacity",
       "2-tier bookshelf headboard + 4 sliding drawers",
@@ -207,11 +207,11 @@ export const products: GuideProduct[] = [
     name: "AMERLIFE Farmhouse Bookcase Barn Door Headboard + Charging",
     price: "$299.99",
     rating: "Check current rating on Amazon",
-    reviews: "New listing — check reviews on Amazon",
+    reviews: "New listing, check reviews on Amazon",
     imageUrl: "https://m.media-amazon.com/images/I/41ulDfV6t3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GT178F5J?tag=deskfinds0d-20",
     description:
-      "The AMERLIFE stands out visually with a farmhouse bookcase headboard paired with sliding barn doors over part of the shelving, a distressed dark oak finish, and a tall footboard that gives it more presence than any other frame in this list. Charging includes 1 USB port, 1 Type-C port, and 2 ETL-certified AC outlets built into the headboard.\n\nRated to hold between 800 and 1,000 lbs depending on configuration, it's built for durability alongside its statement design. As a newer listing, it doesn't yet have an established review history, so it's worth checking current ratings on Amazon before buying.",
+      "The AMERLIFE stands out visually with a farmhouse bookcase headboard paired with sliding barn doors over part of the shelving, a distressed dark oak finish, and a tall footboard that gives it more presence than any other frame in this list. Charging includes 1 USB port, 1 Type-C port, and 2 ETL-certified AC outlets built into the headboard.\n\nRated to hold between 800 and 1,000 lbs depending on configuration, it's built for durability alongside its statement design. As a newer listing, it doesn't yet have an established review history, so it's worth checking current ratings on Amazon before buying.\n\nWorth calling out specifically: eTL-certified charging outlets. The catch is new listing without an established review history.",
     specs: [
       "Queen size, 800-1,000 lb weight capacity",
       "Bookcase headboard + sliding farmhouse barn doors",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41VHQEnGazL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT9RMG8N?tag=deskfinds0d-20",
     description:
-      "The Yaheetech leans upscale with a velvet tufted wingback bookshelf headboard featuring vertical tufted stripe detailing, a noticeably softer and more furniture-like look than the metal-frame storage beds elsewhere in this list. It still includes 2 AC outlets and 2 USB ports for charging, plus an open shelf built into the headboard for books or a lamp.\n\nAn 800 lb weight capacity platform rests on 12 slats and 8 legs, with 6 inches of underbed clearance that leaves enough room for a robot vacuum to pass through. For anyone who wants a bookshelf bed frame that reads more like a boutique hotel headboard than a utilitarian storage unit, this is the pick.",
+      "The Yaheetech leans upscale with a velvet tufted wingback bookshelf headboard featuring vertical tufted stripe detailing, a noticeably softer and more furniture-like look than the metal-frame storage beds elsewhere in this list. It still includes 2 AC outlets and 2 USB ports for charging, plus an open shelf built into the headboard for books or a lamp.\n\nAn 800 lb weight capacity platform rests on 12 slats and 8 legs, with 6 inches of underbed clearance that leaves enough room for a robot vacuum to pass through. For anyone who wants a bookshelf bed frame that reads more like a boutique hotel headboard than a utilitarian storage unit, this is the pick.\n\nVelvet tufted wingback with vertical stripe detailing. Set against that, lowest underbed clearance in this list at 6 inches. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size, 800 lb weight capacity",
       "Velvet tufted wingback bookshelf headboard",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41qodPOxrxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H4LFRLMK?tag=deskfinds0d-20",
     description:
-      "The UHTN holds the highest rating in this entire list at 4.8 stars, pairing a headboard storage shelf with 2 silent-caster underbed drawers, quieter than the drawers on most other picks here. App or remote-controlled RGB LED lighting spans over 60,000 colors, and charging covers 2 AC outlets, 2 USB ports, and 1 USB-C port, tied for the most in this guide.\n\nThe 800 lb capacity platform runs on metal slats with 10 inches of underbed clearance, and the grey upholstered finish gives it a softer look than the metal-frame-only picks. With a smaller review sample so far, it's a newer but very well-reviewed option.",
+      "The UHTN holds the highest rating in this entire list at 4.8 stars, pairing a headboard storage shelf with 2 silent-caster underbed drawers, quieter than the drawers on most other picks here. App or remote-controlled RGB LED lighting spans over 60,000 colors, and charging covers 2 AC outlets, 2 USB ports, and 1 USB-C port, tied for the most in this guide.\n\nThe 800 lb capacity platform runs on metal slats with 10 inches of underbed clearance, and the grey upholstered finish gives it a softer look than the metal-frame-only picks. With a smaller review sample so far, it's a newer but very well-reviewed option.\n\nA genuine advantage here is that 5 charging ports including USB-C. The tradeoff is smaller review sample (47 ratings) than most other picks.",
     specs: [
       "Queen size, 800 lb weight capacity",
       "Headboard storage shelf + 2 silent-caster drawers",
@@ -300,40 +300,25 @@ export const products: GuideProduct[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "What is a bookshelf headboard?",
-    explanation:
-      "A bookshelf headboard is a headboard with an integrated shelf for books, a phone, or a lamp right at the head of the bed. Every pick in this list is a full platform bed frame, not a headboard sold separately, and none require a box spring.",
+    "criterion": "Check weight capacity against your actual mattress type and combined sleeper weight",
+    "explanation": "A bed frame's rated weight capacity needs to cover the mattress itself plus everyone who'll sleep on it, and this number gets easy to underestimate, a queen memory foam mattress alone can weigh 100 pounds or more before adding two adult sleepers, and any additional stress from sitting on the edge or jumping briefly adds real load beyond static weight.\n\nThis matters because a frame rated just barely above your expected weight is operating closer to its stress limit than a genuinely comfortable margin, especially over years of daily use.\n\nCheck the listed weight capacity specifically, and add your mattress weight to your realistic combined sleeper weight before comparing that total against the frame's rating, favoring real margin over the bare minimum."
   },
   {
-    criterion: "Open shelf vs drawers",
-    explanation:
-      "Open shelf-only headboards like the LIKIMIO and OLEVS keep items visible and easy to grab, while picks like the Lifezone and UHTN add enclosed drawers for storage you'd rather keep hidden.",
+    "criterion": "Confirm slat spacing and support type match your specific mattress requirements",
+    "explanation": "Different mattress types have different support requirements, memory foam and latex mattresses generally need slats spaced no more than about 3 inches apart (or a solid platform) to prevent sagging between slats over time, while a traditional innerspring mattress on a box spring is less sensitive to slat spacing.\n\nThis matters directly because using a mattress with the wrong support structure can void the mattress warranty and cause premature sagging or damage regardless of how sturdy the frame itself is.\n\nCheck the frame's listed slat spacing or platform type against your specific mattress manufacturer's stated support requirements before assuming any bed frame works with any mattress."
   },
   {
-    criterion: "Charging ports and LED lighting",
-    explanation:
-      "Most picks in this list build in AC outlets plus USB or USB-C ports directly into the headboard, and several, including the Furnulem models and UHTN, add app or remote-controlled RGB LED lighting with tens of thousands of color options.",
+    "criterion": "Weigh underbed clearance against what you actually plan to store there",
+    "explanation": "Underbed clearance varies significantly between bed frame styles, some platform frames sit low with minimal clearance for a cleaner look, while others leave enough height for storage bins or a robot vacuum to pass underneath, and this dimension is easy to overlook when comparing frames primarily on price or style.\n\nThis matters directly if you're counting on underbed space for storage in a smaller room, a frame with too little clearance for your storage bins defeats that purpose entirely.\n\nCheck the listed underbed clearance in inches against the actual height of what you plan to store there before assuming any low-profile frame leaves adequate space."
   },
   {
-    criterion: "Weight capacity and slat type",
-    explanation:
-      "Capacity ranges from 700 lbs on the Furnulem models up to 1,000 lbs on the OLEVS and AMERLIFE. Metal slats or support rods, as used on the Lifezone and OLEVS, tend to hold up better long-term than standard wood slats.",
+    "criterion": "Consider assembly difficulty and whether the frame requires a box spring or foundation",
+    "explanation": "Bed frames vary considerably in assembly complexity, from frames that unfold and lock in minutes to ones requiring a lengthy multi-person assembly with many small parts, and whether a frame needs a separate box spring or foundation versus being a standalone platform changes both the total cost and the setup effort involved.\n\nThis matters directly for anyone assembling the frame alone or on a tight moving timeline, discovering a frame requires an additional box spring purchase after already ordering the frame is a frustrating and avoidable extra cost and delay.\n\nCheck the listing specifically for assembly time estimates and whether a box spring or foundation is required or already built in, not just the frame's style category."
   },
   {
-    criterion: "Underbed clearance",
-    explanation:
-      "Clearance ranges from 6 inches on the Yaheetech up to over 15 inches on the first Furnulem pick. More clearance makes it easier to store bins underneath or run a robot vacuum through.",
-  },
-  {
-    criterion: "Queen vs King size availability",
-    explanation:
-      "The LIKIMIO and OLEVS are the King-size options in this list, while the rest are Queen. Make sure your bedroom has room for a King footprint before choosing one of those two.",
-  },
-  {
-    criterion: "Realistic headboard shelf weight limits",
-    explanation:
-      "It's easy to assume a bookshelf headboard can hold what a standalone bookcase can, but integrated headboard shelves are built lighter-duty. They're generally meant for a phone, a lamp, a paperback, or a glass of water within reach, not a stack of hardcovers. The overall bed frame weight rating (700-1,000 lbs here) reflects the mattress and sleeper load, not what the shelf itself can hold, so don't confuse the two when planning what you'll store.",
-  },
+    "criterion": "Check for noise-reduction features if the frame will see daily use in a shared bedroom",
+    "explanation": "Metal bed frames in particular can develop an audible squeak or rattle over months of use as joints and connection points wear slightly, and better-designed frames include noise-reduction features like rubber-lined connection points or a center support bar with additional legs to reduce flex and movement.\n\nThis matters more for a frame used daily by an active sleeper or shared with a partner, where noise becomes a recurring annoyance, less for occasional guest-room use.\n\nCheck reviews specifically for mentions of squeaking or noise developing over time, not just the frame's assembled-day stability, and look for a center support bar with its own legs on larger frame sizes."
+  }
 ];
 
 export const faq: FaqItem[] = [
