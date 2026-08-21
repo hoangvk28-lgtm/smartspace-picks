@@ -289,6 +289,18 @@ Every buying guide (`/guide/[slug]`) must include a substantive "How to Choose" 
 
 **Quality bar:** If a competitor article for the same keyword has a buying criteria section, ours must cover at least 2 points theirs does not. If competitors have none, ours becomes the strongest signal for topical authority.
 
+### MANDATORY: "Criteria to Look For Before Buying a [Product]" must be substantive paragraphs, not one-liners (added 2026-08-21)
+
+**This supersedes the "2-3 sentence" shape shown above** — that guidance produced criteria that were a label plus a thin, generic "verify this on the listing" filler sentence. Every `buyingCriteria[]` entry's `explanation` must now be a **3-4+ sentence paragraph** structured as:
+
+1. **What it is** — explain the spec or feature in plain terms, in-line, as if the reader doesn't already know the jargon. Don't assume they know what the term means.
+2. **Why it concretely matters** — a specific consequence or scenario, not an abstract claim. `"a coin-cell battery costs a couple of dollars to replace and lasts about a year, while a sealed rechargeable battery can't be swapped and eventually forces you to replace the whole unit"` is the bar; `"battery type matters"` is not.
+3. **How to check it** — a concrete tip for verifying this spec from the actual product listing or spec sheet, so the reader can act on it immediately (e.g. "look for the exact number in the product title or bullet points, not just a marketing phrase like 'long battery life'").
+
+**Still 5 criteria minimum per guide**, and each of the 5 must cover a genuinely distinct axis — don't let two criteria both boil down to "check the price" or "check the size" from slightly different angles. Do not invent numbers, standards, or claims not grounded in real, checkable specs; density should come from real reasoning, not padded filler sentences repeated across criteria with the nouns swapped.
+
+This is the standard for every guide's "Criteria to Look For" section going forward, replacing the older one-line-explanation template shown above.
+
 ---
 
 ### Content-Gap Research Step — MANDATORY, Never Skip (added 2026-07-18)
@@ -355,6 +367,19 @@ Three exports are involved, and they serve **different purposes at different dep
    ```
    **The defining trait of a good `howToChoose` table:** every row maps a concrete buyer situation (a measurement, a use case, a budget threshold, a room type) directly to a **named pick from this guide's `products[]`** — not a generic tip. If a row doesn't end in "→ therefore buy [specific product name]" or an equally concrete recommendation, it's not deep enough yet. This is where the mandatory content-gap research (see above) actually gets applied — the research findings should surface as these scenario rows, not as generic prose.
 
+### MANDATORY: Standing `howToChoose` structure — 6 required sub-sections (added 2026-08-21)
+
+**This is the concrete template for the "defining trait" rule above** — use this exact 6-part structure for every guide's `howToChoose[]` going forward, instead of an ad hoc set of 4-6 subsections. Every recommendation in every sub-section must name an actual product from this guide's current `products[]` — never a generic placeholder like "the budget option" with no name attached.
+
+1. **By [primary attribute]** — a `table` mapping scenario → recommended pick. The primary attribute is whatever matters most for this category (e.g. "By Sitting Duration" for chairs, "By Room Size" for space heaters, "By Server Depth" for racks).
+2. **By Budget** — a `table` mapping price range → recommended pick, using this guide's actual price tiers, not generic "budget/mid/premium" labels with no dollar figures.
+3. **[Option A] vs [Option B]** — a genuine binary tradeoff native to this category (not a manufactured one), using `cards` with exactly two entries. Each side must (a) explain the underlying mechanism or tradeoff in plain terms, and (b) list which specific products in this roundup fall into that group. Close with a one-line recommendation in `note` (e.g. "Most buyers should default to X unless Y specifically applies").
+4. **[A secondary decision axis specific to the category]** — a second `table` mapping a different preference or constraint (distinct from #1) → recommended pick. This should surface a genuinely different buyer concern, not a rephrasing of the primary attribute in #1.
+5. **For [common specific use case] Specifically** — use `cards` with two entries labeled "Look for" (the specific spec or feature to check) and "In this comparison" (which named model in this guide satisfies it, and why). Pick a use case that's common enough to matter but specific enough that generic advice doesn't already cover it (e.g. "For Apartment Renters Specifically", "For a Home Office Video Call Setup Specifically").
+6. **When to Spend More** — `cards` with exactly two entries: "Spend more if" and "Save if". Each must give reasoning tied to specific named products from this guide, not abstract price-tier advice.
+
+Every `table`/`cards` entry across all 6 sub-sections must resolve to a real product name from this guide's own `products[]`. If a sub-section's recommendation can't be tied to an actual pick in the current comparison, rewrite it until it can — this table is the guide's most bookmark-worthy asset and generic entries defeat its purpose.
+
 **When editing an EXISTING guide's `buyingCriteria`/`faq` only** (a content-gap retrofit pass on an already-published guide), you do not need to add `howToChoose` or regenerate the page unless the user explicitly asks for a full template upgrade on that guide. But any **newly created** guide from 2026-07-18 onward must include a real `howToChoose[]` (not an empty array) and go through the generator.
 
 ---
@@ -415,13 +440,21 @@ The rendering itself (`components/guide/RichGuidePage.tsx`) is a faithful extrac
 4. This applies to any future cluster generator script, not just the two named above — check this before considering a batch-generation script done.
 
 ### "About this pick" Product Description Rules (GuideProduct.description)
-- **Always split into 2 paragraphs** using `\n\n` as separator — never write one long block of text
-- First paragraph: 2-3 sentences covering the main feature or design approach
-- Second paragraph: 2-3 sentences covering tradeoffs, use-case fit, or secondary details
-- 4-6 sentences total per product description
 - Do NOT mention review count, purchase volume, or popularity signals ("most reviewed", "ranked by reviews")
 - Do NOT use em dash or en dash anywhere in descriptions
 - The `description` field is rendered by splitting on `\n\n` — each segment becomes a separate `<p>` tag in the UI
+
+### MANDATORY: Product descriptions must be 2-3 full paragraphs with real comparative reasoning (added 2026-08-21)
+
+**This supersedes the "4-6 sentences total" shape used previously** — that produced descriptions too thin to carry genuine positioning or verdict content. Every `description` must be **2-3 full paragraphs** (split with `\n\n`, each its own `<p>` tag), structured as:
+
+1. **Opening paragraph** — introduce the product and its role in this specific price tier/comparison (top pick, budget alternate, niche pick, etc.), weaving in 1-2 real named specs pulled from the actual listing data. Ground every claim in real data — never invent numbers you don't have (review counts, star ratings, capacities) if the data source didn't return them.
+2. **Positioning paragraph** — explain concretely how this pick compares to its siblings in the same guide: why it ranks where it does, and the real tradeoff that separates it from the pick immediately above or below it. Not a vague "great value" line — name the actual mechanism (e.g. "trades the steel frame of the pick above for aluminum, cutting weight by 4 lbs but dropping the load rating from 250 lbs to 150 lbs").
+3. **Verdict paragraph** — a specific, honest "best for" framing naming the exact type of buyer or use case this pick suits, plus any real caveat (price not confirmed, thinner spec sheet than competitors, no listed weight rating, etc.) rather than a generic disclaimer.
+
+**Never fabricate** hands-on testing claims, lab results, or specific numbers the data source didn't provide — richness must come from genuine specificity about real specs, price, and comparative reasoning, never invention.
+
+**Before generating descriptions at scale** (any script-driven batch), write and eyeball ONE full product description against this bar first, rather than running a thin template across dozens of products and discovering the problem after publishing.
 
 ### Guide-Generation Script Pitfalls (added 2026-08-13) — check before running any custom `gen-*-data.mjs` script
 
