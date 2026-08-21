@@ -117,24 +117,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Absorption Is Not the Same as Soundproofing",
-    note: "Felt and acoustic foam desk panels absorb some reflected sound within your immediate area, reducing echo and softening nearby noise. They don't block sound transmission the way a genuinely soundproof partition does, don't expect any panel in this guide to stop a neighboring conversation from being audible.",
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest average rating",
+          "Poola Voidra Foldable Felt Desk Privacy Panel 16 x 48 Inches"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "DECOLAB Desk Divider"
+        ]
+      ]
+    }
   },
   {
-    subheading: "No Tested NRC or STC Ratings at This Scale",
-    note: "None of the desk-scale panels in this guide carry a tested Noise Reduction Coefficient (NRC) or Sound Transmission Class (STC) rating, these are genuine acoustic engineering metrics mostly reserved for architectural products like acoustic room dividers. Treat 'sound absorbing' or 'sound proof' marketing language at this product scale as a modest bonus, not a dramatic acoustic solution.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $29",
+          "Eorbow 6 Pack Acoustic Desk Privacy Panel"
+        ],
+        [
+          "Up to $76",
+          "DECOLAB Desk Divider"
+        ]
+      ]
+    }
   },
   {
-    subheading: "If You Need Genuine Sound Blocking",
-    note: "If your actual goal is blocking sound transmission between spaces rather than softening reflected noise at your own desk, a dedicated acoustic room divider or soundproof partition (a larger, architectural-scale product) is the more appropriate category, not a desk-scale privacy panel.",
+    "subheading": "Foldable vs Fixed Panel",
+    "cards": [
+      {
+        "label": "Foldable",
+        "text": "Can be collapsed or repositioned for a shared or multi-purpose desk. In this comparison: Poola Voidra Foldable Felt Desk Privacy Panel 16 x 48 Inches, Dunzoom Large Desk Dividers for Students Acoustic Portable Fold Classroom Table Privacy Felt Boards for Workstation Office Home Furniture Partition Dividers."
+      },
+      {
+        "label": "Fixed panel",
+        "text": "More stable and permanent, worth it if the panel stays up consistently. In this comparison: Eorbow 6 Pack Acoustic Desk Privacy Panel, KERRAM Desk Privacy Panel Sound Absorbing & Proof Desk Divider for Office, DECOLAB Desk Divider."
+      }
+    ],
+    "note": "Default to a fixed panel unless you specifically need the flexibility to fold it away."
   },
+  {
+    "subheading": "By Panel Dimensions",
+    "note": "Check each pick's listed height and width against your seated eyeline and desk width before buying, not just the general size category. DECOLAB Desk Divider is the most-reviewed option here if you want the safer bet."
+  },
+  {
+    "subheading": "For a Shared Open Office Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A panel height that covers your seated eyeline and a genuine acoustic material if noise reduction matters, not just visual blocking."
+      },
+      {
+        "label": "In this comparison",
+        "text": "DECOLAB Desk Divider is worth checking against its listed dimensions and material before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real acoustic dampening and secure clamp mounting, where DECOLAB Desk Divider's material and hardware give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need light visual privacy without noise concerns, where Eorbow 6 Pack Acoustic Desk Privacy Panel covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Absorption softens reflected sound, it doesn't block transmission", explanation: "Felt and acoustic foam desk panels reduce echo and soften noise within your immediate area, they won't stop a neighboring conversation from being audible, that requires genuine soundproofing, a different product category." },
-  { criterion: "No tested NRC or STC ratings exist at this desk-panel scale", explanation: "These are genuine acoustic engineering metrics mostly reserved for architectural products, treat 'sound absorbing' marketing claims on desk panels as modest, not backed by a tested industry rating." },
-  { criterion: "Surface area and material quality drive the modest absorption effect", explanation: "A larger felt or foam surface genuinely absorbs more reflected sound than a smaller one, but the effect remains modest regardless of size at this product scale." },
-  { criterion: "For genuine sound blocking, look at architectural-scale products instead", explanation: "If your goal is stopping sound transmission between spaces, a desk-scale privacy panel isn't the right category, consider a dedicated acoustic room divider instead." },
+  {
+    "criterion": "Verify clamp desk-thickness range against your specific desk edge",
+    "explanation": "A clamp-on privacy panel's mounting mechanism has a maximum and minimum desk edge thickness it can grip securely, and this range varies between products even at a similar price, some fit only a standard half-inch desktop while others accommodate a thicker standing-desk edge or a rounded lip.\n\nThis matters directly because a clamp that's too narrow simply won't close around your desk, and one that's mismatched for a thin edge won't grip securely, risking the panel slipping or tipping under normal use.\n\nMeasure your desk edge thickness in inches and compare it against the exact clamp range stated in the product specs before ordering, not just assuming any clamp fits any desk."
+  },
+  {
+    "criterion": "Check for genuine acoustic dampening material, not just a visual divider",
+    "explanation": "A privacy panel described as \"acoustic\" or \"sound-absorbing\" should use a real sound-dampening material, typically a felt or fabric-wrapped foam core, that measurably reduces noise transmission, distinct from a simple solid panel that only blocks visual sightlines without doing anything meaningful for sound.\n\nThis distinction matters directly if noise reduction for calls or focused work is your actual goal, a solid plastic or acrylic divider blocks the view but does very little to dampen adjacent conversation or keyboard noise.\n\nCheck the listing specifically for a stated acoustic material (felt, foam core, or similar), not just the word \"acoustic\" in the title with no supporting material description."
+  },
+  {
+    "criterion": "Match panel height and width to your actual sightline and desk width",
+    "explanation": "A panel too short leaves your eyeline exposed above it while seated, defeating the purpose of visual privacy, while a panel too narrow leaves gaps at the sides where a neighboring desk's activity remains visible, and both dimensions need to be checked against your actual seated eye height and desk width, not assumed from a generic \"privacy panel\" label.\n\nThis matters more in an open shared office layout with desks close together, less if the panel is mainly decorative or for a single dedicated home office desk.\n\nCheck the listed panel height against your seated eye height, and the width against your desk's actual width, before assuming any panel provides real coverage."
+  },
+  {
+    "criterion": "Consider foldable versus fixed mounting for how permanent you need the setup",
+    "explanation": "A foldable privacy panel can be collapsed flat or repositioned when not needed, useful for a shared desk or a space that serves multiple purposes throughout the day, while a fixed clamp-mounted panel offers a more stable, permanent barrier but stays in place whether you need it in that moment or not.\n\nThis matters directly if your desk needs to switch between a private, focused-work configuration and an open, collaborative one, a foldable design accommodates that flexibility, a fixed panel doesn't.\n\nConsider how consistently you'll actually want the panel up before choosing a fixed mount over a foldable design."
+  },
+  {
+    "criterion": "Weigh material and finish against long-term durability and cleaning ease",
+    "explanation": "Panel materials range from rigid acrylic or PET plastic to fabric-wrapped foam, and each comes with a different durability and maintenance profile, a hard plastic panel wipes clean easily but offers no acoustic benefit, while a fabric-wrapped acoustic panel dampens sound but can show wear, staining, or fraying edges faster over months of daily contact.\n\nThis matters more in a shared or high-traffic office setting where the panel gets bumped or touched regularly, less in a private home office where it stays relatively undisturbed.\n\nCheck the listing for the specific material and any stated durability or cleaning guidance before assuming any panel material holds up equally well over time."
+  }
 ];
 
 export const faq: FaqItem[] = [

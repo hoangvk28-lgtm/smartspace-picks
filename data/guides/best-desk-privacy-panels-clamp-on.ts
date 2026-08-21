@@ -117,31 +117,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Verify Your Desk Edge Thickness Before Buying",
-    note: "Every clamp mechanism has a maximum desk thickness range it can grip securely. Measure your desk's edge thickness and compare it against the specific clamp range listed for the panel you're considering, a mismatch means the clamp won't mount securely, or at all.",
-  },
-  {
-    subheading: "Matching Coverage Width to Your Desk",
-    table: {
-      headers: ["Desk size", "Recommended width", "Pick"],
-      rows: [
-        ["Standard single desk", "60 inches", "VIVO 60x24 Gray (rank 1) or Dark Gray (rank 3)"],
-        ["Wider desk or L-shaped setup", "71 inches", "VIVO 71x24 Gray (rank 2)"],
-        ["Targeted section only", "24 inches", "VIVO 24x24 Gray (rank 4)"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "VIVO Gray Clamp"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "VIVO Gray Clamp"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Clamp-On vs. Movable Mounting",
-    note: "A true clamp mount is mechanically secured to the desk and won't shift during daily use, genuinely more stable than a movable or freestanding alternative. Choose movable mounting only if you specifically want to reposition or remove the panel frequently.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $76",
+          "DECOLAB Desk Divider"
+        ],
+        [
+          "Up to $160",
+          "VIVO Gray Clamp"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Review Base vs Price",
+    "cards": [
+      {
+        "label": "DECOLAB Desk Divider",
+        "text": "The lower-priced option in this comparison, worth checking its material and dimensions against your needs."
+      },
+      {
+        "label": "VIVO Gray Clamp",
+        "text": "The higher-priced option, worth it if it offers real acoustic or size headroom above the cheaper pick."
+      }
+    ],
+    "note": "Default to DECOLAB Desk Divider unless your specific needs genuinely call for the pricier pick."
+  },
+  {
+    "subheading": "By Panel Dimensions",
+    "note": "Check each pick's listed height and width against your seated eyeline and desk width before buying, not just the general size category. VIVO Gray Clamp is the most-reviewed option here if you want the safer bet."
+  },
+  {
+    "subheading": "For a Shared Open Office Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A panel height that covers your seated eyeline and a genuine acoustic material if noise reduction matters, not just visual blocking."
+      },
+      {
+        "label": "In this comparison",
+        "text": "VIVO Gray Clamp is worth checking against its listed dimensions and material before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real acoustic dampening and secure clamp mounting, where VIVO Gray Clamp's material and hardware give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need light visual privacy without noise concerns, where DECOLAB Desk Divider covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Clamp mechanisms have a maximum desk thickness range", explanation: "Measure your desk's edge thickness and verify it fits the clamp's stated range before buying, a mismatch means the clamp won't mount securely." },
-  { criterion: "Clamp mounting is more stable than movable or freestanding alternatives", explanation: "A true clamp is mechanically secured to the desk and won't shift during daily use, genuinely more reliable for a permanent privacy setup than weight-based alternatives." },
-  { criterion: "Coverage width should match your desk size, not a default assumption", explanation: "A 60-inch panel suits a standard desk, but a wider or L-shaped desk needs a 71-inch panel to avoid a visible gap at the edge." },
-  { criterion: "No-drill mounting doesn't mean no compatibility check needed", explanation: "Clamp-on panels avoid drilling into your desk, but you still need to verify the clamp mechanism fits your specific desk edge thickness before ordering." },
+  {
+    "criterion": "Verify clamp desk-thickness range against your specific desk edge",
+    "explanation": "A clamp-on privacy panel's mounting mechanism has a maximum and minimum desk edge thickness it can grip securely, and this range varies between products even at a similar price, some fit only a standard half-inch desktop while others accommodate a thicker standing-desk edge or a rounded lip.\n\nThis matters directly because a clamp that's too narrow simply won't close around your desk, and one that's mismatched for a thin edge won't grip securely, risking the panel slipping or tipping under normal use.\n\nMeasure your desk edge thickness in inches and compare it against the exact clamp range stated in the product specs before ordering, not just assuming any clamp fits any desk."
+  },
+  {
+    "criterion": "Check for genuine acoustic dampening material, not just a visual divider",
+    "explanation": "A privacy panel described as \"acoustic\" or \"sound-absorbing\" should use a real sound-dampening material, typically a felt or fabric-wrapped foam core, that measurably reduces noise transmission, distinct from a simple solid panel that only blocks visual sightlines without doing anything meaningful for sound.\n\nThis distinction matters directly if noise reduction for calls or focused work is your actual goal, a solid plastic or acrylic divider blocks the view but does very little to dampen adjacent conversation or keyboard noise.\n\nCheck the listing specifically for a stated acoustic material (felt, foam core, or similar), not just the word \"acoustic\" in the title with no supporting material description."
+  },
+  {
+    "criterion": "Match panel height and width to your actual sightline and desk width",
+    "explanation": "A panel too short leaves your eyeline exposed above it while seated, defeating the purpose of visual privacy, while a panel too narrow leaves gaps at the sides where a neighboring desk's activity remains visible, and both dimensions need to be checked against your actual seated eye height and desk width, not assumed from a generic \"privacy panel\" label.\n\nThis matters more in an open shared office layout with desks close together, less if the panel is mainly decorative or for a single dedicated home office desk.\n\nCheck the listed panel height against your seated eye height, and the width against your desk's actual width, before assuming any panel provides real coverage."
+  },
+  {
+    "criterion": "Consider foldable versus fixed mounting for how permanent you need the setup",
+    "explanation": "A foldable privacy panel can be collapsed flat or repositioned when not needed, useful for a shared desk or a space that serves multiple purposes throughout the day, while a fixed clamp-mounted panel offers a more stable, permanent barrier but stays in place whether you need it in that moment or not.\n\nThis matters directly if your desk needs to switch between a private, focused-work configuration and an open, collaborative one, a foldable design accommodates that flexibility, a fixed panel doesn't.\n\nConsider how consistently you'll actually want the panel up before choosing a fixed mount over a foldable design."
+  },
+  {
+    "criterion": "Weigh material and finish against long-term durability and cleaning ease",
+    "explanation": "Panel materials range from rigid acrylic or PET plastic to fabric-wrapped foam, and each comes with a different durability and maintenance profile, a hard plastic panel wipes clean easily but offers no acoustic benefit, while a fabric-wrapped acoustic panel dampens sound but can show wear, staining, or fraying edges faster over months of daily contact.\n\nThis matters more in a shared or high-traffic office setting where the panel gets bumped or touched regularly, less in a private home office where it stays relatively undisturbed.\n\nCheck the listing for the specific material and any stated durability or cleaning guidance before assuming any panel material holds up equally well over time."
+  }
 ];
 
 export const faq: FaqItem[] = [

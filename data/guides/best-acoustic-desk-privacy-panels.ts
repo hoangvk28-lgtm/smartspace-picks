@@ -84,31 +84,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "This Guide Versus the Sound-Absorbing Desk Privacy Panel Guide",
-    note: "Both guides cover overlapping product terminology, 'acoustic desk privacy panel' and 'sound-absorbing desk privacy panel' largely describe the same category. If none of these three picks fit your desk size or color preference, our dedicated sound-absorbing desk privacy panel guide has a wider comparison set.",
-  },
-  {
-    subheading: "Absorption, Not Blocking, at This Price Point",
-    note: "None of these three panels publish a formal NRC rating. Treat 'acoustic' and 'soundproof' language as modest absorption of reflected sound near your own desk, not genuine sound blocking that would keep noise from reaching a coworker.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Cheapest no-clamp entry point", "HOODANCOS Freestanding Panel 2-Pack"],
-        ["Standard student/office desk width", "Sound Absorbing Privacy Shield (23\"x18\")"],
-        ["Small accent panel", "Icegrey Acoustic Desk Divider (15.6\"x11.7\")"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "HOODANCOS Desk Privacy Panel 2"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "HOODANCOS Desk Privacy Panel 2"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $17",
+          "HOODANCOS Desk Privacy Panel 2"
+        ],
+        [
+          "Up to $17",
+          "Icegrey Acoustic Desk Divider Privacy Panel"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Clamp-On vs Freestanding",
+    "cards": [
+      {
+        "label": "Clamp-on",
+        "text": "Mechanically secured to the desk, more stable for daily use than relying on weight alone. In this comparison: HOODANCOS Desk Privacy Panel 2."
+      },
+      {
+        "label": "Freestanding",
+        "text": "Easier to reposition or remove without any mounting hardware. In this comparison: Sound Absorbing Privacy Shield, Icegrey Acoustic Desk Divider Privacy Panel."
+      }
+    ],
+    "note": "Default to clamp-on for daily stable use unless you need to move the panel frequently."
+  },
+  {
+    "subheading": "By Panel Dimensions",
+    "note": "Check each pick's listed height and width against your seated eyeline and desk width before buying, not just the general size category. HOODANCOS Desk Privacy Panel 2 is the most-reviewed option here if you want the safer bet."
+  },
+  {
+    "subheading": "For a Shared Open Office Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A panel height that covers your seated eyeline and a genuine acoustic material if noise reduction matters, not just visual blocking."
+      },
+      {
+        "label": "In this comparison",
+        "text": "HOODANCOS Desk Privacy Panel 2 is worth checking against its listed dimensions and material before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real acoustic dampening and secure clamp mounting, where Icegrey Acoustic Desk Divider Privacy Panel's material and hardware give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need light visual privacy without noise concerns, where HOODANCOS Desk Privacy Panel 2 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Check the sound-absorbing panel guide for more variants", explanation: "This guide is intentionally narrower, if these three picks don't fit, our dedicated sound-absorbing desk privacy panel guide has a wider comparison set." },
-  { criterion: "Don't expect a published NRC rating", explanation: "None of these panels publish a formal absorption rating, treat 'acoustic' language as modest, not a verified spec." },
-  { criterion: "Measure against your seated eye level", explanation: "Shorter panels leave more open sightline and sound path above them, check listed height against your own setup." },
-  { criterion: "Decide if you need one panel or several", explanation: "A single small accent panel like the Icegrey pick covers only a fraction of your desk area, pair it with a larger option if full coverage matters." },
+  {
+    "criterion": "Verify clamp desk-thickness range against your specific desk edge",
+    "explanation": "A clamp-on privacy panel's mounting mechanism has a maximum and minimum desk edge thickness it can grip securely, and this range varies between products even at a similar price, some fit only a standard half-inch desktop while others accommodate a thicker standing-desk edge or a rounded lip.\n\nThis matters directly because a clamp that's too narrow simply won't close around your desk, and one that's mismatched for a thin edge won't grip securely, risking the panel slipping or tipping under normal use.\n\nMeasure your desk edge thickness in inches and compare it against the exact clamp range stated in the product specs before ordering, not just assuming any clamp fits any desk."
+  },
+  {
+    "criterion": "Check for genuine acoustic dampening material, not just a visual divider",
+    "explanation": "A privacy panel described as \"acoustic\" or \"sound-absorbing\" should use a real sound-dampening material, typically a felt or fabric-wrapped foam core, that measurably reduces noise transmission, distinct from a simple solid panel that only blocks visual sightlines without doing anything meaningful for sound.\n\nThis distinction matters directly if noise reduction for calls or focused work is your actual goal, a solid plastic or acrylic divider blocks the view but does very little to dampen adjacent conversation or keyboard noise.\n\nCheck the listing specifically for a stated acoustic material (felt, foam core, or similar), not just the word \"acoustic\" in the title with no supporting material description."
+  },
+  {
+    "criterion": "Match panel height and width to your actual sightline and desk width",
+    "explanation": "A panel too short leaves your eyeline exposed above it while seated, defeating the purpose of visual privacy, while a panel too narrow leaves gaps at the sides where a neighboring desk's activity remains visible, and both dimensions need to be checked against your actual seated eye height and desk width, not assumed from a generic \"privacy panel\" label.\n\nThis matters more in an open shared office layout with desks close together, less if the panel is mainly decorative or for a single dedicated home office desk.\n\nCheck the listed panel height against your seated eye height, and the width against your desk's actual width, before assuming any panel provides real coverage."
+  },
+  {
+    "criterion": "Consider foldable versus fixed mounting for how permanent you need the setup",
+    "explanation": "A foldable privacy panel can be collapsed flat or repositioned when not needed, useful for a shared desk or a space that serves multiple purposes throughout the day, while a fixed clamp-mounted panel offers a more stable, permanent barrier but stays in place whether you need it in that moment or not.\n\nThis matters directly if your desk needs to switch between a private, focused-work configuration and an open, collaborative one, a foldable design accommodates that flexibility, a fixed panel doesn't.\n\nConsider how consistently you'll actually want the panel up before choosing a fixed mount over a foldable design."
+  },
+  {
+    "criterion": "Weigh material and finish against long-term durability and cleaning ease",
+    "explanation": "Panel materials range from rigid acrylic or PET plastic to fabric-wrapped foam, and each comes with a different durability and maintenance profile, a hard plastic panel wipes clean easily but offers no acoustic benefit, while a fabric-wrapped acoustic panel dampens sound but can show wear, staining, or fraying edges faster over months of daily contact.\n\nThis matters more in a shared or high-traffic office setting where the panel gets bumped or touched regularly, less in a private home office where it stays relatively undisturbed.\n\nCheck the listing for the specific material and any stated durability or cleaning guidance before assuming any panel material holds up equally well over time."
+  }
 ];
 
 export const faq: FaqItem[] = [
