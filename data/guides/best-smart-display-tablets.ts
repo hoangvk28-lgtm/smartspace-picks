@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/41AciyKwigL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQ7TQVBW?tag=deskfinds0d-20",
-    description: "From Dragon Touch, a brand with an existing track record building budget Android tablets, at a moderate price with a genuinely interactive touchscreen interface.\n\nThe chore chart feature adds real organizational function beyond a basic calendar app, useful for a desk or kitchen counter that doubles as a family task hub.",
+    description: "From Dragon Touch, a brand with an existing track record building budget Android tablets, at a moderate price with a genuinely interactive touchscreen interface.\n\nThe chore chart feature adds real organizational function beyond a basic calendar app, useful for a desk or kitchen counter that doubles as a family task hub.\n\nWorth knowing before you decide: Interactive chore chart function. On the other side, Verify subscription requirements on the current listing. That's the main tradeoff to weigh against your specific needs.",
     specs: ["10.1 inch interactive touchscreen", "Chore chart feature"],
     pros: ["From a brand with existing tablet manufacturing experience", "Interactive chore chart function"],
     cons: ["Verify subscription requirements on the current listing", "No review history available yet"],
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/51BHkAZaKEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GY3FYHGF?tag=deskfinds0d-20",
-    description: "The lowest price in this comparison, at the same 10.1 inch screen size as the Dragon Touch pick, with no subscription requirement explicitly confirmed.\n\nA newer brand than Dragon Touch, but the confirmed subscription-free operation is a meaningful long-term cost advantage over unconfirmed alternatives.",
+    description: "The lowest price in this comparison, at the same 10.1 inch screen size as the Dragon Touch pick, with no subscription requirement explicitly confirmed.\n\nA newer brand than Dragon Touch, but the confirmed subscription-free operation is a meaningful long-term cost advantage over unconfirmed alternatives.\n\nWorth knowing before you decide: Explicitly no subscription required. On the other side, Newer brand without an established tablet-hardware track record. That's the main tradeoff to weigh against your specific needs.",
     specs: ["10.1 inch touchscreen", "No subscription required"],
     pros: ["Lowest price in this comparison", "Explicitly no subscription required"],
     cons: ["Newer brand without an established tablet-hardware track record", "No review history available yet"],
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/413qIxwyFZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FKMRM3WT?tag=deskfinds0d-20",
-    description: "A 10.1 inch touchscreen positioned at the top of this comparison's price range, marketed with a broad electronic-organizer feature set beyond a basic calendar view.\n\nVerify current subscription terms directly on the listing, since this wasn't explicitly confirmed subscription-free in our research.",
+    description: "A 10.1 inch touchscreen positioned at the top of this comparison's price range, marketed with a broad electronic-organizer feature set beyond a basic calendar view.\n\nVerify current subscription terms directly on the listing, since this wasn't explicitly confirmed subscription-free in our research.\n\nWorth knowing before you decide: Broad electronic-organizer feature set. On the other side, Highest price of the 10.1 inch tablets in this comparison. That's the main tradeoff to weigh against your specific needs.",
     specs: ["10.1 inch touchscreen", "Electronic organizer features"],
     pros: ["Broad electronic-organizer feature set"],
     cons: ["Highest price of the 10.1 inch tablets in this comparison", "Subscription requirements not explicitly confirmed"],
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/418VBQ43fnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GXFR4YR2?tag=deskfinds0d-20",
-    description: "Also explicitly subscription-free like the Cotoala pick, at the same 10.1 inch screen size, but priced nearly double, from a brand that also offers a larger 15.6 inch model.\n\nWorth comparing feature-by-feature against the cheaper Cotoala pick, since screen size alone doesn't explain the price gap between the two.",
+    description: "Also explicitly subscription-free like the Cotoala pick, at the same 10.1 inch screen size, but priced nearly double, from a brand that also offers a larger 15.6 inch model.\n\nWorth comparing feature-by-feature against the cheaper Cotoala pick, since screen size alone doesn't explain the price gap between the two.\n\nWorth knowing before you decide: Also available in a larger 15.6 inch size from the same brand. On the other side, Nearly double the price of the Cotoala pick at the same screen size. That's the main tradeoff to weigh against your specific needs.",
     specs: ["10.1 inch touchscreen", "No subscription required"],
     pros: ["Explicitly subscription-free", "Also available in a larger 15.6 inch size from the same brand"],
     cons: ["Nearly double the price of the Cotoala pick at the same screen size", "No review history available yet"],
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/41NUEI-nAdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C9V811L6?tag=deskfinds0d-20",
-    description: "The largest screen and highest price among this specific comparison's tablet-style options, from the most established brand in the family-calendar category.\n\nThis moves beyond a simple desk tablet into a larger dedicated display, worth the premium if brand track record and screen real estate matter more than staying compact.",
+    description: "The largest screen and highest price among this specific comparison's tablet-style options, from the most established brand in the family-calendar category.\n\nThis moves beyond a simple desk tablet into a larger dedicated display, worth the premium if brand track record and screen real estate matter more than staying compact.\n\nWorth knowing before you decide: Larger screen than the 10.1 inch tablets in this comparison. On the other side, Highest price in this comparison. That's the main tradeoff to weigh against your specific needs.",
     specs: ["15 inch touchscreen", "Chore chart feature"],
     pros: ["From the most established brand in this category", "Larger screen than the 10.1 inch tablets in this comparison"],
     cons: ["Highest price in this comparison", "Verify current subscription requirements on the listing"],
@@ -113,29 +113,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What Matters Most",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Lowest total cost, no subscription", "Cotoala 10.1 inch Smart Digital Calendar"],
-        ["Established tablet-hardware brand", "Dragon Touch 10.1 inch Digital Calendar"],
-        ["Widest organizer feature set", "BIGASUO 10.1 inch Digital Calendar"],
-        ["Largest screen, established brand", "Skylight Calendar, 15 inch"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Dragon Touch 10.1 inch Digital Calendar Chore Chart"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Dragon Touch 10.1 inch Digital Calendar Chore Chart"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Same Screen Size, Different Price: What You're Actually Paying For",
-    note: "Two 10.1 inch options here differ by nearly double in price (Cotoala at $59.99 vs Airzeen at $112.99). The price difference typically reflects brand warranty support, software polish, and build materials rather than the screen itself, so compare these specific factors directly rather than assuming the pricier option is automatically better built.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $60",
+          "Cotoala 10.1 inch Smart Digital Calendar"
+        ],
+        [
+          "Up to $249",
+          "Skylight Calendar"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Review Base vs Price",
+    "cards": [
+      {
+        "label": "Cotoala 10.1 inch Smart Digital Calendar",
+        "text": "The lower-priced option in this comparison, worth checking its screen size and camera presence against your needs."
+      },
+      {
+        "label": "Skylight Calendar",
+        "text": "The higher-priced option, worth it if it offers real screen size or feature headroom above the cheaper pick."
+      }
+    ],
+    "note": "Default to Cotoala 10.1 inch Smart Digital Calendar unless your specific needs genuinely call for the pricier pick."
+  },
+  {
+    "subheading": "By Voice Assistant Ecosystem",
+    "note": "Check each pick's voice assistant ecosystem against your existing smart home devices and calendar service before buying, not just screen specs. Dragon Touch 10.1 inch Digital Calendar Chore Chart is the most-reviewed option here if you want the safer bet."
+  },
+  {
+    "subheading": "For Video Calls Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine front-facing camera with decent resolution, and motorized tracking if you move around during calls."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Check each pick's listing directly, since camera presence isn't consistent across every display in this comparison."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want a larger screen, motorized tracking, or better audio, where Skylight Calendar's features give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need a simple clock and notification glance display, where Cotoala 10.1 inch Smart Digital Calendar covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm subscription requirements before comparing sticker price", explanation: "A cheaper tablet with a required monthly subscription can cost more over 2-3 years than a pricier subscription-free unit; verify this directly on the listing." },
-  { criterion: "Weigh brand hardware experience for long-term reliability", explanation: "Brands with an existing tablet or electronics manufacturing track record (Dragon Touch) carry different reliability expectations than newer entrants to the category." },
-  { criterion: "Compare same-screen-size options feature-by-feature", explanation: "Multiple 10.1 inch tablets in this comparison differ significantly in price; verify what specific features justify the gap rather than assuming price reflects quality automatically." },
-  { criterion: "Consider chore chart features for household task management", explanation: "Several picks include a dedicated chore chart, genuinely useful if the display is meant to be a shared family task hub, not just a calendar view." },
-  { criterion: "Match screen size to desk or counter space available", explanation: "A 10.1 inch tablet fits most desk and counter spaces easily, while the 15 inch option needs more dedicated real estate." },
+  {
+    "criterion": "Decide whether a built-in camera is a feature or a privacy concern for your desk",
+    "explanation": "Some smart displays include a front-facing camera for casual video calls or as a security-camera-style monitor, while others are explicitly camera-free by design, marketed specifically for privacy-conscious buyers who don't want a camera pointed at their workspace all day.\n\nThis distinction matters directly depending on your actual use case, a camera is genuinely useful if you'll use the display for video calls, but it's a real consideration if the display sits on a desk where you'd rather not have an always-on camera present, even one you can physically cover.\n\nCheck the listing specifically for camera presence or absence, and check whether a physical camera shutter or cover is included if privacy matters to you."
+  },
+  {
+    "criterion": "Match screen size to your actual desk space and how much information you want at a glance",
+    "explanation": "A smaller 5-7 inch display fits easily beside a keyboard without blocking your monitor or eating meaningful desk space, but shows less information at a glance, calendar, weather, and notifications compete for limited screen real estate, while a larger 8-10 inch display shows considerably more at once but demands more desk real estate and can start competing visually with your main monitor.\n\nThis matters more the tighter your desk space actually is, and more the more you plan to rely on the display as a genuine information hub versus a simple clock and notification glance.\n\nCheck the listed screen size in inches against your actual available desk space, not just the general size category."
+  },
+  {
+    "criterion": "Confirm your voice assistant ecosystem before buying, since Alexa and Google Assistant aren't interchangeable",
+    "explanation": "Smart displays are built around one specific voice assistant ecosystem, either Amazon's Alexa or Google Assistant, and each integrates differently with different smart home devices, calendar services, and existing voice assistant hardware, so a display built for the ecosystem you don't already use can mean losing compatibility with smart home devices or routines you've already set up.\n\nThis matters directly if you already own other smart home devices or use a specific calendar service regularly, checking ecosystem compatibility before buying avoids a real functionality gap after purchase.\n\nCheck which ecosystem, Alexa or Google Assistant, the display uses, and confirm it matches what your other smart home devices and calendar service actually support."
+  },
+  {
+    "criterion": "Consider display motorization if the display needs to track you around the desk",
+    "explanation": "A small number of smart displays include a motorized base that automatically rotates or tracks a person's position during a video call, keeping you framed in view even if you move around while working, a genuinely useful feature for anyone who moves between multiple monitors or stands up periodically during calls, but an added cost and complexity that's wasted if you sit relatively still.\n\nThis matters more for anyone with a multi-monitor setup who shifts position frequently during calls, less for a single fixed desk position.\n\nCheck the listing specifically for motorized tracking as a named feature, and weigh its added cost against how much you'd actually benefit from it given your desk setup."
+  },
+  {
+    "criterion": "Weigh audio quality if the display will also serve as a music or podcast speaker",
+    "explanation": "Speaker quality varies meaningfully between smart display models even within the same product line, some prioritize a compact footprint at the cost of thinner, tinnier sound, while others include genuinely improved bass and clarity as a specific upgrade.\n\nThis matters more if you plan to actually use the display as your primary desk speaker for music, podcasts, or calls throughout the day, less if audio is a secondary consideration behind the visual display itself.\n\nCheck reviews and the listing specifically for audio quality mentions, not just screen specs, if sound quality is a real factor in your decision."
+  }
 ];
 
 export const faq: FaqItem[] = [

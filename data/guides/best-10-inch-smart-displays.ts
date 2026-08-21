@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31gjXvcGopL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VHZ41L8?tag=deskfinds0d-20",
-    description: "The Echo Show 10 pairs a 10.1 inch HD screen with a motorized base that physically rotates to follow you around a room, a genuinely distinctive feature none of the other displays in this guide offer. Premium front-firing speakers make it a strong pick for background music or video calls at a desk, not just glanceable information.\n\nThe motion tracking uses a camera, so buyers with privacy concerns should check the physical camera shutter and motion settings in the Alexa app before relying on it near a desk. It is also the largest genuinely 10 inch class display here, taking noticeably more desk space than the Echo Show 5 or Nest Hub.",
+    description: "The Echo Show 10 pairs a 10.1 inch HD screen with a motorized base that physically rotates to follow you around a room, a genuinely distinctive feature none of the other displays in this guide offer. Premium front-firing speakers make it a strong pick for background music or video calls at a desk, not just glanceable information.\n\nThe motion tracking uses a camera, so buyers with privacy concerns should check the physical camera shutter and motion settings in the Alexa app before relying on it near a desk. It is also the largest genuinely 10 inch class display here, taking noticeably more desk space than the Echo Show 5 or Nest Hub.\n\nWorth knowing before you decide: Premium sound quality for a smart display. On the other side, Larger desk footprint than compact models. That's the main tradeoff to weigh against your specific needs.",
     specs: ["10.1 inch HD display", "Motorized base with motion tracking", "Premium front-firing speakers", "Built-in camera with physical shutter"],
     pros: ["Motorized base actively follows you around a room", "Premium sound quality for a smart display", "Genuine 10 inch class screen size", "Built-in camera with a physical privacy shutter"],
     cons: ["Larger desk footprint than compact models", "Motion tracking relies on an always-available camera", "Price not independently confirmed at publish time, check current listing"],
@@ -49,20 +49,113 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Why This Guide Only Has One Pick",
-    note: "The 10 inch size class is genuinely thin across the smart display market as a whole, most models cluster smaller around 7 to 8 inches or larger around 15 inches. The Echo Show 10 is the clear and only verified fit in our research, and its motorized base makes it a distinctive pick regardless of the narrow category.",
+    "subheading": "By Screen Size",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "This guide's featured display",
+          "Amazon Echo Show 10"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Is the Motorized Base Worth It?",
-    cards: [{ label: "You move around while on calls", text: "The motorized tracking genuinely helps here, a real advantage of this size class." }, { label: "You want a stationary desk display", text: "The motion feature adds less value if the display stays fixed at one desk position." }, { label: "You're comparing against smaller or larger models", text: "Weigh whether the mid-size screen and unique motion feature justify skipping the extremes of 5 inch or 15 inch options." }],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "See price on Amazon",
+          "Amazon Echo Show 10"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Amazon Echo Show 10 vs a Basic Smart Speaker",
+    "cards": [
+      {
+        "label": "Amazon Echo Show 10",
+        "text": "Adds a visual display for at-a-glance info and video calls, worth checking against your desk space and privacy preferences."
+      },
+      {
+        "label": "A basic smart speaker",
+        "text": "Cheaper and no camera concerns, but no visual glance information or video call capability."
+      }
+    ],
+    "note": "Most buyers evaluating this guide's keyword should default to Amazon Echo Show 10 unless a basic smart speaker meets your specific, limited need."
+  },
+  {
+    "subheading": "By Voice Assistant Ecosystem",
+    "table": {
+      "headers": [
+        "Priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Matches your existing smart home devices",
+          "Amazon Echo Show 10"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Video Calls Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine front-facing camera with decent resolution, and motorized tracking if you move around during calls."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Amazon Echo Show 10 is worth checking against its listed camera specs before buying."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want a larger screen, motorized tracking, or better audio, where Amazon Echo Show 10's features give real headroom over a basic display."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need a simple clock and notification glance display."
+      }
+    ]
   }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm you actually want the motorized base feature", explanation: "The Echo Show 10's biggest differentiator is its rotating base, if you don't move around during calls or want the display fixed on a shelf, this feature adds less practical value for the price." },
-  { criterion: "Check desk space for the larger stationary footprint", explanation: "At 10.1 inches this is meaningfully larger than the Echo Show 5, confirm it fits your intended desk spot before buying." },
-  { criterion: "Understand the camera and privacy tradeoff of motion tracking", explanation: "The motorized tracking relies on an always-available camera to follow you, check the physical shutter and motion settings in the Alexa app if this is a concern." },
-  { criterion: "Weigh this against the 8 or 15 inch alternatives if size is flexible", explanation: "If exact 10 inch sizing isn't essential, also consider the size classes covered in our other guides, since this specific category is genuinely thin on options." }
+  {
+    "criterion": "Decide whether a built-in camera is a feature or a privacy concern for your desk",
+    "explanation": "Some smart displays include a front-facing camera for casual video calls or as a security-camera-style monitor, while others are explicitly camera-free by design, marketed specifically for privacy-conscious buyers who don't want a camera pointed at their workspace all day.\n\nThis distinction matters directly depending on your actual use case, a camera is genuinely useful if you'll use the display for video calls, but it's a real consideration if the display sits on a desk where you'd rather not have an always-on camera present, even one you can physically cover.\n\nCheck the listing specifically for camera presence or absence, and check whether a physical camera shutter or cover is included if privacy matters to you."
+  },
+  {
+    "criterion": "Match screen size to your actual desk space and how much information you want at a glance",
+    "explanation": "A smaller 5-7 inch display fits easily beside a keyboard without blocking your monitor or eating meaningful desk space, but shows less information at a glance, calendar, weather, and notifications compete for limited screen real estate, while a larger 8-10 inch display shows considerably more at once but demands more desk real estate and can start competing visually with your main monitor.\n\nThis matters more the tighter your desk space actually is, and more the more you plan to rely on the display as a genuine information hub versus a simple clock and notification glance.\n\nCheck the listed screen size in inches against your actual available desk space, not just the general size category."
+  },
+  {
+    "criterion": "Confirm your voice assistant ecosystem before buying, since Alexa and Google Assistant aren't interchangeable",
+    "explanation": "Smart displays are built around one specific voice assistant ecosystem, either Amazon's Alexa or Google Assistant, and each integrates differently with different smart home devices, calendar services, and existing voice assistant hardware, so a display built for the ecosystem you don't already use can mean losing compatibility with smart home devices or routines you've already set up.\n\nThis matters directly if you already own other smart home devices or use a specific calendar service regularly, checking ecosystem compatibility before buying avoids a real functionality gap after purchase.\n\nCheck which ecosystem, Alexa or Google Assistant, the display uses, and confirm it matches what your other smart home devices and calendar service actually support."
+  },
+  {
+    "criterion": "Consider display motorization if the display needs to track you around the desk",
+    "explanation": "A small number of smart displays include a motorized base that automatically rotates or tracks a person's position during a video call, keeping you framed in view even if you move around while working, a genuinely useful feature for anyone who moves between multiple monitors or stands up periodically during calls, but an added cost and complexity that's wasted if you sit relatively still.\n\nThis matters more for anyone with a multi-monitor setup who shifts position frequently during calls, less for a single fixed desk position.\n\nCheck the listing specifically for motorized tracking as a named feature, and weigh its added cost against how much you'd actually benefit from it given your desk setup."
+  },
+  {
+    "criterion": "Weigh audio quality if the display will also serve as a music or podcast speaker",
+    "explanation": "Speaker quality varies meaningfully between smart display models even within the same product line, some prioritize a compact footprint at the cost of thinner, tinnier sound, while others include genuinely improved bass and clarity as a specific upgrade.\n\nThis matters more if you plan to actually use the display as your primary desk speaker for music, podcasts, or calls throughout the day, less if audio is a secondary consideration behind the visual display itself.\n\nCheck reviews and the listing specifically for audio quality mentions, not just screen specs, if sound quality is a real factor in your decision."
+  }
 ];
 
 export const faq: FaqItem[] = [

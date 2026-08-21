@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/41go8J1bt3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FDGG67ZJ?tag=deskfinds0d-20",
-    description: "At 21.5 inches, this is by far the largest screen across our entire smart display research, roughly double the diagonal size of the standard 10.1 inch tablet-style options.\n\nConfirmed calendar sync and chore chart features make this function as a genuine family command center rather than a personal desk tablet; the price reflects the significantly larger screen.",
+    description: "At 21.5 inches, this is by far the largest screen across our entire smart display research, roughly double the diagonal size of the standard 10.1 inch tablet-style options.\n\nConfirmed calendar sync and chore chart features make this function as a genuine family command center rather than a personal desk tablet; the price reflects the significantly larger screen.\n\nWorth knowing before you decide: Confirmed calendar sync for shared household scheduling. On the other side, Highest price in this comparison, over 6x the budget pick. That's the main tradeoff to weigh against your specific needs.",
     specs: ["21.5 inch touchscreen", "Calendar sync, chore chart"],
     pros: ["By far the largest screen of any smart display in our research", "Confirmed calendar sync for shared household scheduling"],
     cons: ["Highest price in this comparison, over 6x the budget pick", "No review history available yet"],
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/41nd6tJY5SL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHX7124V?tag=deskfinds0d-20",
-    description: "Explicitly advertised as subscription-free at 15.6 inches, a meaningful step up in screen size from the 10.1 inch entry tier without reaching the Apolosign pick's price or size.\n\nAirzeen also offers a 10.1 inch model at a lower price within the same product line, worth comparing if the larger screen isn't necessary for your space.",
+    description: "Explicitly advertised as subscription-free at 15.6 inches, a meaningful step up in screen size from the 10.1 inch entry tier without reaching the Apolosign pick's price or size.\n\nAirzeen also offers a 10.1 inch model at a lower price within the same product line, worth comparing if the larger screen isn't necessary for your space.\n\nWorth knowing before you decide: Meaningful screen size upgrade over the 10.1 inch entry tier. On the other side, No review history available yet on this specific listing. That's the main tradeoff to weigh against your specific needs.",
     specs: ["15.6 inch touchscreen", "No subscription required"],
     pros: ["Explicitly subscription-free", "Meaningful screen size upgrade over the 10.1 inch entry tier"],
     cons: ["No review history available yet on this specific listing"],
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/41Wbv61kbBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPR1L223?tag=deskfinds0d-20",
-    description: "The same 15.6 inch screen size as the Airzeen pick above, also explicitly subscription-free, but at a notably lower price, worth comparing feature-by-feature against Airzeen at this size tier.\n\nA newer brand than some alternatives in this space, so weigh the price advantage against brand track record for a device meant for daily household use.",
+    description: "The same 15.6 inch screen size as the Airzeen pick above, also explicitly subscription-free, but at a notably lower price, worth comparing feature-by-feature against Airzeen at this size tier.\n\nA newer brand than some alternatives in this space, so weigh the price advantage against brand track record for a device meant for daily household use.\n\nWorth knowing before you decide: Explicitly subscription-free. On the other side, No review history available yet on this specific listing. That's the main tradeoff to weigh against your specific needs.",
     specs: ["15.6 inch touchscreen", "No subscription required"],
     pros: ["Lower price than the Airzeen pick at the same 15.6 inch screen size", "Explicitly subscription-free"],
     cons: ["No review history available yet on this specific listing"],
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/41NUEI-nAdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C9V811L6?tag=deskfinds0d-20",
-    description: "The most established brand name in the family-calendar category, at a 15 inch screen size close to the Airzeen and Westsee picks, with a dedicated chore chart feature.\n\nVerify current subscription requirements directly on the listing, since Skylight wasn't confirmed subscription-free in our research the way the Airzeen and Westsee picks were.",
+    description: "The most established brand name in the family-calendar category, at a 15 inch screen size close to the Airzeen and Westsee picks, with a dedicated chore chart feature.\n\nVerify current subscription requirements directly on the listing, since Skylight wasn't confirmed subscription-free in our research the way the Airzeen and Westsee picks were.\n\nWorth knowing before you decide: From the most established brand in this category. On the other side, Priced higher than the similarly-sized Westsee pick. That's the main tradeoff to weigh against your specific needs.",
     specs: ["15 inch touchscreen", "Chore chart feature"],
     pros: ["From the most established brand in this category"],
     cons: ["Priced higher than the similarly-sized Westsee pick", "Verify current subscription requirements on the listing"],
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/51BHkAZaKEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GY3FYHGF?tag=deskfinds0d-20",
-    description: "The cheapest entry point into a household smart display in our entire research, explicitly subscription-free, though the 10.1 inch screen is noticeably smaller than the other picks here.\n\nA reasonable way for a household to try the format in a smaller shared space, like an entryway, before committing to a larger and pricier wall-mounted unit.",
+    description: "The cheapest entry point into a household smart display in our entire research, explicitly subscription-free, though the 10.1 inch screen is noticeably smaller than the other picks here.\n\nA reasonable way for a household to try the format in a smaller shared space, like an entryway, before committing to a larger and pricier wall-mounted unit.\n\nWorth knowing before you decide: Explicitly subscription-free. On the other side, Noticeably smaller screen than the other picks in this comparison. That's the main tradeoff to weigh against your specific needs.",
     specs: ["10.1 inch touchscreen", "No subscription required"],
     pros: ["Cheapest smart display in our entire research", "Explicitly subscription-free"],
     cons: ["Noticeably smaller screen than the other picks in this comparison"],
@@ -113,29 +113,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What Matters Most",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Largest screen, full command center", "Apolosign 21.5 inch Digital Calendar"],
-        ["Best value at 15.6 inch, no subscription", "Westsee 15.6 inch Digital Calendar"],
-        ["Most established brand", "Skylight Calendar, 15 inch"],
-        ["Cheapest way to try the format", "Cotoala 10.1 inch Smart Digital Calendar"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Apolosign 21.5 inch Digital Calendar"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Apolosign 21.5 inch Digital Calendar"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Screen Size and Placement Distance",
-    note: "A 10.1 inch screen reads clearly up close, like on a counter you pass daily, but loses readability from across a room. For a hallway or kitchen display meant to be seen from 8+ feet away, the 15.6 inch or 21.5 inch tiers are worth the added cost and wall space.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $60",
+          "Cotoala 10.1 inch Smart Digital Calendar"
+        ],
+        [
+          "Up to $370",
+          "Apolosign 21.5 inch Digital Calendar"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Review Base vs Price",
+    "cards": [
+      {
+        "label": "Cotoala 10.1 inch Smart Digital Calendar",
+        "text": "The lower-priced option in this comparison, worth checking its screen size and camera presence against your needs."
+      },
+      {
+        "label": "Apolosign 21.5 inch Digital Calendar",
+        "text": "The higher-priced option, worth it if it offers real screen size or feature headroom above the cheaper pick."
+      }
+    ],
+    "note": "Default to Cotoala 10.1 inch Smart Digital Calendar unless your specific needs genuinely call for the pricier pick."
+  },
+  {
+    "subheading": "By Voice Assistant Ecosystem",
+    "note": "Check each pick's voice assistant ecosystem against your existing smart home devices and calendar service before buying, not just screen specs. Apolosign 21.5 inch Digital Calendar is the most-reviewed option here if you want the safer bet."
+  },
+  {
+    "subheading": "For Video Calls Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine front-facing camera with decent resolution, and motorized tracking if you move around during calls."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Check each pick's listing directly, since camera presence isn't consistent across every display in this comparison."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want a larger screen, motorized tracking, or better audio, where Apolosign 21.5 inch Digital Calendar's features give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need a simple clock and notification glance display, where Cotoala 10.1 inch Smart Digital Calendar covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Match screen size to viewing distance in your home", explanation: "A 10.1 inch screen works up close but is hard to read from across a room; for a shared hallway or kitchen display, the 15.6 inch or larger tiers read more comfortably at distance." },
-  { criterion: "Confirm subscription requirements before comparing sticker price", explanation: "A cheaper display with a required monthly subscription can cost more over 2-3 years than a pricier subscription-free unit; several picks here explicitly confirm no subscription." },
-  { criterion: "Compare same-size options across brands before assuming price reflects quality", explanation: "Two 15.6 inch displays in this comparison differ meaningfully in price; verify what specific features justify the gap rather than assuming the pricier option is automatically better." },
-  { criterion: "Weigh brand track record for a device meant to run daily for years", explanation: "An established brand like Skylight has a longer history in this category than newer entrants, worth considering for a household device with high daily use." },
-  { criterion: "Consider a smaller, cheaper unit to test household interest first", explanation: "If you're unsure whether a shared smart display will actually get used, the cheapest 10.1 inch option is a lower-risk way to find out before committing to a larger wall-mounted unit." },
+  {
+    "criterion": "Decide whether a built-in camera is a feature or a privacy concern for your desk",
+    "explanation": "Some smart displays include a front-facing camera for casual video calls or as a security-camera-style monitor, while others are explicitly camera-free by design, marketed specifically for privacy-conscious buyers who don't want a camera pointed at their workspace all day.\n\nThis distinction matters directly depending on your actual use case, a camera is genuinely useful if you'll use the display for video calls, but it's a real consideration if the display sits on a desk where you'd rather not have an always-on camera present, even one you can physically cover.\n\nCheck the listing specifically for camera presence or absence, and check whether a physical camera shutter or cover is included if privacy matters to you."
+  },
+  {
+    "criterion": "Match screen size to your actual desk space and how much information you want at a glance",
+    "explanation": "A smaller 5-7 inch display fits easily beside a keyboard without blocking your monitor or eating meaningful desk space, but shows less information at a glance, calendar, weather, and notifications compete for limited screen real estate, while a larger 8-10 inch display shows considerably more at once but demands more desk real estate and can start competing visually with your main monitor.\n\nThis matters more the tighter your desk space actually is, and more the more you plan to rely on the display as a genuine information hub versus a simple clock and notification glance.\n\nCheck the listed screen size in inches against your actual available desk space, not just the general size category."
+  },
+  {
+    "criterion": "Confirm your voice assistant ecosystem before buying, since Alexa and Google Assistant aren't interchangeable",
+    "explanation": "Smart displays are built around one specific voice assistant ecosystem, either Amazon's Alexa or Google Assistant, and each integrates differently with different smart home devices, calendar services, and existing voice assistant hardware, so a display built for the ecosystem you don't already use can mean losing compatibility with smart home devices or routines you've already set up.\n\nThis matters directly if you already own other smart home devices or use a specific calendar service regularly, checking ecosystem compatibility before buying avoids a real functionality gap after purchase.\n\nCheck which ecosystem, Alexa or Google Assistant, the display uses, and confirm it matches what your other smart home devices and calendar service actually support."
+  },
+  {
+    "criterion": "Consider display motorization if the display needs to track you around the desk",
+    "explanation": "A small number of smart displays include a motorized base that automatically rotates or tracks a person's position during a video call, keeping you framed in view even if you move around while working, a genuinely useful feature for anyone who moves between multiple monitors or stands up periodically during calls, but an added cost and complexity that's wasted if you sit relatively still.\n\nThis matters more for anyone with a multi-monitor setup who shifts position frequently during calls, less for a single fixed desk position.\n\nCheck the listing specifically for motorized tracking as a named feature, and weigh its added cost against how much you'd actually benefit from it given your desk setup."
+  },
+  {
+    "criterion": "Weigh audio quality if the display will also serve as a music or podcast speaker",
+    "explanation": "Speaker quality varies meaningfully between smart display models even within the same product line, some prioritize a compact footprint at the cost of thinner, tinnier sound, while others include genuinely improved bass and clarity as a specific upgrade.\n\nThis matters more if you plan to actually use the display as your primary desk speaker for music, podcasts, or calls throughout the day, less if audio is a secondary consideration behind the visual display itself.\n\nCheck reviews and the listing specifically for audio quality mentions, not just screen specs, if sound quality is a real factor in your decision."
+  }
 ];
 
 export const faq: FaqItem[] = [

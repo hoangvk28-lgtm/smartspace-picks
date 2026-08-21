@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31xy1VOYHUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLBMVWK2?tag=deskfinds0d-20",
-    description: "The Nest Hub is a genuine 7 inch display and, unlike every Echo Show in this guide, it has no built-in camera at all, an important distinction for anyone specifically avoiding a camera on their desk. It runs Google Assistant instead of Alexa, a real difference if your calendar and reminders already live in a Google account.\n\nThe compact size and lack of camera make it well suited to a desk or nightstand where a lens pointed at you is unwelcome, though it also means it cannot do Alexa-style video calling that the Echo Show models support. It also ships in a lighter Chalk color option for buyers who prefer that finish.",
+    description: "The Nest Hub is a genuine 7 inch display and, unlike every Echo Show in this guide, it has no built-in camera at all, an important distinction for anyone specifically avoiding a camera on their desk. It runs Google Assistant instead of Alexa, a real difference if your calendar and reminders already live in a Google account.\n\nThe compact size and lack of camera make it well suited to a desk or nightstand where a lens pointed at you is unwelcome, though it also means it cannot do Alexa-style video calling that the Echo Show models support. It also ships in a lighter Chalk color option for buyers who prefer that finish.\n\nWorth knowing before you decide: Compact 7 inch size fits small spaces easily. On the other side, No camera means no built-in video calling. That's the main tradeoff to weigh against your specific needs.",
     specs: ["7 inch display", "No built-in camera", "Google Assistant integration", "Also available in Chalk color"],
     pros: ["Genuinely no built-in camera, a real privacy advantage on a desk", "Compact 7 inch size fits small spaces easily", "Deep Google Assistant and Google Calendar integration", "Lower typical price point than most Echo Show models"],
     cons: ["No camera means no built-in video calling", "Google Assistant only, not Alexa", "Price not independently confirmed at publish time, check current listing"],
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31gjXvcGopL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VHZ41L8?tag=deskfinds0d-20",
-    description: "The Echo Show 10 pairs a 10.1 inch HD screen with a motorized base that physically rotates to follow you around a room, a genuinely distinctive feature none of the other displays in this guide offer. Premium front-firing speakers make it a strong pick for background music or video calls at a desk, not just glanceable information.\n\nThe motion tracking uses a camera, so buyers with privacy concerns should check the physical camera shutter and motion settings in the Alexa app before relying on it near a desk. It is also the largest genuinely 10 inch class display here, taking noticeably more desk space than the Echo Show 5 or Nest Hub.",
+    description: "The Echo Show 10 pairs a 10.1 inch HD screen with a motorized base that physically rotates to follow you around a room, a genuinely distinctive feature none of the other displays in this guide offer. Premium front-firing speakers make it a strong pick for background music or video calls at a desk, not just glanceable information.\n\nThe motion tracking uses a camera, so buyers with privacy concerns should check the physical camera shutter and motion settings in the Alexa app before relying on it near a desk. It is also the largest genuinely 10 inch class display here, taking noticeably more desk space than the Echo Show 5 or Nest Hub.\n\nWorth knowing before you decide: Premium sound quality for a smart display. On the other side, Larger desk footprint than compact models. That's the main tradeoff to weigh against your specific needs.",
     specs: ["10.1 inch HD display", "Motorized base with motion tracking", "Premium front-firing speakers", "Built-in camera with physical shutter"],
     pros: ["Motorized base actively follows you around a room", "Premium sound quality for a smart display", "Genuine 10 inch class screen size", "Built-in camera with a physical privacy shutter"],
     cons: ["Larger desk footprint than compact models", "Motion tracking relies on an always-available camera", "Price not independently confirmed at publish time, check current listing"],
@@ -65,24 +65,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Why This Guide Looks Different",
-    note: "An 8 inch smart display, specifically the Echo Show 8, is a real product on the market. We simply could not independently verify its current price or pull a compliant product image through our research pass this time, and we won't publish a guessed price or a placeholder image. This guide covers the closest genuinely verified alternatives instead.",
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest average rating",
+          "Google Nest Hub 7\" Smart Display 2nd Generation with Google Assistant"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Google Nest Hub 7\" Smart Display 2nd Generation with Google Assistant"
+        ]
+      ]
+    }
   },
   {
-    subheading: "If You Specifically Want 8 Inches",
-    note: "Search \"Echo Show 8\" directly on Amazon and check the current listing for pricing, reviews, and specs. We'll update this guide with a fully verified pick as soon as we can confirm current data through our research process.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $NaN",
+          "Google Nest Hub 7\" Smart Display 2nd Generation with Google Assistant"
+        ],
+        [
+          "Up to $NaN",
+          "Amazon Echo Show 10"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Match Your Priority to a Specific Pick From Our Verified Pool",
-    table: { headers: ["Your priority", "Recommended pick"], rows: [["Slightly smaller than 8 inches, no camera", "Google Nest Hub 7\""], ["Slightly larger than 8 inches, camera included", "Amazon Echo Show 10"]] },
+    "subheading": "Alexa vs Google Assistant Ecosystem",
+    "cards": [
+      {
+        "label": "Alexa (Echo Show)",
+        "text": "Integrates with Amazon smart home devices and services. In this comparison: Google Nest Hub 7\" Smart Display 2nd Generation with Google Assistant, Amazon Echo Show 10."
+      },
+      {
+        "label": "Google Assistant (Nest Hub)",
+        "text": "Integrates with Google Calendar and Google smart home devices. In this comparison: Google Nest Hub 7\" Smart Display 2nd Generation with Google Assistant."
+      }
+    ],
+    "note": "Default to whichever ecosystem matches your existing smart home devices and calendar service."
+  },
+  {
+    "subheading": "By Voice Assistant Ecosystem",
+    "note": "Check each pick's voice assistant ecosystem against your existing smart home devices and calendar service before buying, not just screen specs. Google Nest Hub 7\" Smart Display 2nd Generation with Google Assistant is the most-reviewed option here if you want the safer bet."
+  },
+  {
+    "subheading": "For Video Calls Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuine front-facing camera with decent resolution, and motorized tracking if you move around during calls."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Google Nest Hub 7\" Smart Display 2nd Generation with Google Assistant includes a front-facing camera for video calls."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want a larger screen, motorized tracking, or better audio, where Amazon Echo Show 10's features give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need a simple clock and notification glance display, where Google Nest Hub 7\" Smart Display 2nd Generation with Google Assistant covers the same job at a lower price."
+      }
+    ]
   }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify current pricing directly if buying an unverified model", explanation: "If you search for an 8 inch smart display we couldn't verify here, always check the current live listing price rather than relying on any older cached number you find elsewhere." },
-  { criterion: "Decide if 7 or 10.1 inches works as a substitute", explanation: "If exact 8 inch sizing isn't a hard requirement, the 7 inch Nest Hub or 10.1 inch Echo Show 10 are both genuinely verified options bracketing that size closely." },
-  { criterion: "Camera presence differs meaningfully between our two verified alternatives", explanation: "The Nest Hub has no camera at all, while the Echo Show 10 has a full camera with motorized tracking, a bigger practical difference than the inch difference in screen size." },
-  { criterion: "Don't assume every product searched exists in our verified pool", explanation: "This guide is an example of a genuine research gap. Always check whether a site's recommendation reflects verified current data or an assumption before trusting a listed price." }
+  {
+    "criterion": "Decide whether a built-in camera is a feature or a privacy concern for your desk",
+    "explanation": "Some smart displays include a front-facing camera for casual video calls or as a security-camera-style monitor, while others are explicitly camera-free by design, marketed specifically for privacy-conscious buyers who don't want a camera pointed at their workspace all day.\n\nThis distinction matters directly depending on your actual use case, a camera is genuinely useful if you'll use the display for video calls, but it's a real consideration if the display sits on a desk where you'd rather not have an always-on camera present, even one you can physically cover.\n\nCheck the listing specifically for camera presence or absence, and check whether a physical camera shutter or cover is included if privacy matters to you."
+  },
+  {
+    "criterion": "Match screen size to your actual desk space and how much information you want at a glance",
+    "explanation": "A smaller 5-7 inch display fits easily beside a keyboard without blocking your monitor or eating meaningful desk space, but shows less information at a glance, calendar, weather, and notifications compete for limited screen real estate, while a larger 8-10 inch display shows considerably more at once but demands more desk real estate and can start competing visually with your main monitor.\n\nThis matters more the tighter your desk space actually is, and more the more you plan to rely on the display as a genuine information hub versus a simple clock and notification glance.\n\nCheck the listed screen size in inches against your actual available desk space, not just the general size category."
+  },
+  {
+    "criterion": "Confirm your voice assistant ecosystem before buying, since Alexa and Google Assistant aren't interchangeable",
+    "explanation": "Smart displays are built around one specific voice assistant ecosystem, either Amazon's Alexa or Google Assistant, and each integrates differently with different smart home devices, calendar services, and existing voice assistant hardware, so a display built for the ecosystem you don't already use can mean losing compatibility with smart home devices or routines you've already set up.\n\nThis matters directly if you already own other smart home devices or use a specific calendar service regularly, checking ecosystem compatibility before buying avoids a real functionality gap after purchase.\n\nCheck which ecosystem, Alexa or Google Assistant, the display uses, and confirm it matches what your other smart home devices and calendar service actually support."
+  },
+  {
+    "criterion": "Consider display motorization if the display needs to track you around the desk",
+    "explanation": "A small number of smart displays include a motorized base that automatically rotates or tracks a person's position during a video call, keeping you framed in view even if you move around while working, a genuinely useful feature for anyone who moves between multiple monitors or stands up periodically during calls, but an added cost and complexity that's wasted if you sit relatively still.\n\nThis matters more for anyone with a multi-monitor setup who shifts position frequently during calls, less for a single fixed desk position.\n\nCheck the listing specifically for motorized tracking as a named feature, and weigh its added cost against how much you'd actually benefit from it given your desk setup."
+  },
+  {
+    "criterion": "Weigh audio quality if the display will also serve as a music or podcast speaker",
+    "explanation": "Speaker quality varies meaningfully between smart display models even within the same product line, some prioritize a compact footprint at the cost of thinner, tinnier sound, while others include genuinely improved bass and clarity as a specific upgrade.\n\nThis matters more if you plan to actually use the display as your primary desk speaker for music, podcasts, or calls throughout the day, less if audio is a secondary consideration behind the visual display itself.\n\nCheck reviews and the listing specifically for audio quality mentions, not just screen specs, if sound quality is a real factor in your decision."
+  }
 ];
 
 export const faq: FaqItem[] = [
