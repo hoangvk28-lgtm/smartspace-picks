@@ -31,10 +31,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31-9l0KA5YL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07S9JXQP2?tag=deskfinds0d-20",
     description:
-      "With the highest review volume of any gooseneck in this comparison, this arm has the broadest real-world track record for holding position over time. It uses a standard flexible metal core rather than a stiff-core design, meaning it bends more easily with one hand but can drift slightly under heavier phone-plus-case combinations.",
-    specs: ["Long flexible gooseneck", "Standard flexible metal core", "Desk edge clamp base", "Highest review count in this comparison"],
-    pros: ["Extremely high review count", "Easy one-handed bending", "Long reach", "Widely proven design"],
-    cons: ["Flexible core drifts more than stiff-core alternatives under heavy phones", "No disclosed material gauge spec", "Standard clip, no tension adjustment"],
+      "With the highest review volume of any gooseneck in this comparison, this arm has the broadest real-world track record for holding position over time. It uses a standard flexible metal core rather than a stiff-core design, meaning it bends more easily with one hand but can drift slightly under heavier phone-plus-case combinations.\n\nIt leads this comparison mainly on build reinforcement and how well it holds a phone steady during touch interaction, worth weighing directly against the SAIJI Gooseneck Bed Phone Holder.\n\nEasy one-handed bending. That's a real strength, but weigh it against the flip side: flexible core drifts more than stiff-core alternatives under heavy phones.",
+    specs: ["Long flexible gooseneck","Standard flexible metal core","Desk edge clamp base","Highest review count in this comparison"],
+    pros: ["Extremely high review count","Easy one-handed bending","Long reach","Widely proven design"],
+    cons: ["Flexible core drifts more than stiff-core alternatives under heavy phones","No disclosed material gauge spec","Standard clip, no tension adjustment"],
     bestFor: "Buyers who want the most widely proven gooseneck and prioritize easy one-handed adjustment.",
   },
   {
@@ -48,10 +48,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31+F3sAWSTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07P2VK93P?tag=deskfinds0d-20",
     description:
-      "This is one of the few picks in this comparison to disclose an actual material gauge, an 8.5mm aluminum alloy core the listing states is hard to fracture. At 33.46 inches it offers substantial reach while maintaining a reasonably firm hold, backed by a 12-month replacement warranty against defects.",
-    specs: ["8.5mm aluminum alloy core, disclosed gauge", "33.46in reach", "12-month warranty", "Anti-slip base clamp"],
-    pros: ["Disclosed material gauge, not vague marketing language", "Warranty against defects", "Affordable", "Strong review history"],
-    cons: ["Clip width narrower than some alternatives", "No tension knobs for fine-tuning", "Standard flexible design still requires periodic re-bending over long-term use"],
+      "This is one of the few picks in this comparison to disclose an actual material gauge, an 8.5mm aluminum alloy core the listing states is hard to fracture. At 33.46 inches it offers substantial reach while maintaining a reasonably firm hold, backed by a 12-month replacement warranty against defects.\n\nSet against the Long Gooseneck Phone Arm for Bed and Desk, the tradeoff here comes down to arm reach and clamp range versus price, not a straightforward upgrade or downgrade either way.\n\nWorth calling out specifically: warranty against defects. The catch is clip width narrower than some alternatives.",
+    specs: ["8.5mm aluminum alloy core, disclosed gauge","33.46in reach","12-month warranty","Anti-slip base clamp"],
+    pros: ["Disclosed material gauge, not vague marketing language","Warranty against defects","Affordable","Strong review history"],
+    cons: ["Clip width narrower than some alternatives","No tension knobs for fine-tuning","Standard flexible design still requires periodic re-bending over long-term use"],
     bestFor: "Buyers who want a disclosed, verifiable material spec rather than vague flexibility claims.",
   },
   {
@@ -65,10 +65,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31sVYQbspmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B079QY6RFQ?tag=deskfinds0d-20",
     description:
-      "MAGIPEA explicitly markets this arm's stiffness as intentional, using a high-density aluminum alloy core specifically to prevent drooping, a direct answer to the sag problem this whole category is prone to. The tradeoff is that repositioning requires two hands rather than a light one-handed push.",
-    specs: ["High-density aluminum alloy core", "Intentionally stiff, resists drooping", "3in wide base clamp", "360° rotation clamp"],
-    pros: ["Explicitly engineered to resist sagging", "Wide clamp fits thicker desk edges", "EVA desk-protective pads", "Good rating and strong review base"],
-    cons: ["Requires two hands to reposition", "Stiffness tradeoff means less one-handed convenience", "Similar price to SAIJI"],
+      "MAGIPEA explicitly markets this arm's stiffness as intentional, using a high-density aluminum alloy core specifically to prevent drooping, a direct answer to the sag problem this whole category is prone to. The tradeoff is that repositioning requires two hands rather than a light one-handed push.\n\nRelative to the SAIJI Gooseneck Bed Phone Holder, this pick leans toward a different priority, whether that's a lower price, a longer reach, or a mounting style suited to a different desk edge.\n\nWide clamp fits thicker desk edges. Set against that, requires two hands to reposition. Both matter when comparing it to the other picks here.",
+    specs: ["High-density aluminum alloy core","Intentionally stiff, resists drooping","3in wide base clamp","360° rotation clamp"],
+    pros: ["Explicitly engineered to resist sagging","Wide clamp fits thicker desk edges","EVA desk-protective pads","Good rating and strong review base"],
+    cons: ["Requires two hands to reposition","Stiffness tradeoff means less one-handed convenience","Similar price to SAIJI"],
     bestFor: "Buyers who specifically want a stiff, non-sagging hold and don't mind two-handed adjustment.",
   },
   {
@@ -82,10 +82,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31HD++Czq5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9N41MCS?tag=deskfinds0d-20",
     description:
-      "This arm's nylon-braided outer sleeve is a genuine long-term durability feature, protecting the internal flexible core from abrasion if the arm regularly rubs against a desk edge or nearby objects during repositioning, a wear factor most competitors don't address.",
-    specs: ["38in nylon-braided gooseneck", "Abrasion-resistant outer sleeve", "Standard spring holder clip", "Clamp base mount"],
-    pros: ["Braided sleeve adds genuine abrasion resistance", "Longest reach in this comparison", "Reputable brand", "Good for arms that see frequent repositioning"],
-    cons: ["Higher price than basic goosenecks", "Longer length can sag more under sustained weight", "Standard clip, no tension adjustment"],
+      "This arm's nylon-braided outer sleeve is a genuine long-term durability feature, protecting the internal flexible core from abrasion if the arm regularly rubs against a desk edge or nearby objects during repositioning, a wear factor most competitors don't address.\n\nCompared with the MAGIPEA Gooseneck Phone Holder above, this pick trades some of that pick's reach or reinforcement for a different balance of price and simplicity, worth weighing against your own desk setup.\n\nLongest reach in this comparison. That's a real strength, but weigh it against the flip side: higher price than basic goosenecks.",
+    specs: ["38in nylon-braided gooseneck","Abrasion-resistant outer sleeve","Standard spring holder clip","Clamp base mount"],
+    pros: ["Braided sleeve adds genuine abrasion resistance","Longest reach in this comparison","Reputable brand","Good for arms that see frequent repositioning"],
+    cons: ["Higher price than basic goosenecks","Longer length can sag more under sustained weight","Standard clip, no tension adjustment"],
     bestFor: "Buyers who reposition the arm frequently and want extra wear resistance at contact points.",
   },
   {
@@ -99,12 +99,12 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/515BergNltL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CKYS81T4?tag=deskfinds0d-20",
     description:
-      "Rather than relying on a single flexible core, this arm uses a steel body with shock-absorbing springs and individually adjustable tension knobs at each joint, a genuinely different reinforcement approach that lets you dial in exact firmness per joint rather than relying on uniform material stiffness alone.",
-    specs: ["Steel body construction", "Shock-absorbing springs", "Tension knob at each joint", "Foldable for storage"],
-    pros: ["Most reinforced joint mechanism in this comparison", "Fine-tunable per-joint tension", "Foldable for storage", "Case-friendly padded clip"],
-    cons: ["Higher price than simpler goosenecks", "Bulkier design due to reinforcement", "More setup to dial in tension across joints"],
+      "Rather than relying on a single flexible core, this arm uses a steel body with shock-absorbing springs and individually adjustable tension knobs at each joint, a genuinely different reinforcement approach that lets you dial in exact firmness per joint rather than relying on uniform material stiffness alone.\n\nSet against the Lamicall Nylon Braided Gooseneck Phone Holder for Bed, the tradeoff here comes down to arm reach and clamp range versus price, not a straightforward upgrade or downgrade either way.\n\nWorth calling out specifically: fine-tunable per-joint tension. The catch is higher price than simpler goosenecks.",
+    specs: ["Steel body construction","Shock-absorbing springs","Tension knob at each joint","Foldable for storage"],
+    pros: ["Most reinforced joint mechanism in this comparison","Fine-tunable per-joint tension","Foldable for storage","Case-friendly padded clip"],
+    cons: ["Higher price than simpler goosenecks","Bulkier design due to reinforcement","More setup to dial in tension across joints"],
     bestFor: "Buyers who want the most mechanically reinforced hold, willing to pay a premium for it.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,41 +118,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Priority",
-    table: {
-      headers: ["What matters most", "Recommended pick"],
-      rows: [
-        ["Most proven, widely reviewed option", "Long Gooseneck Phone Arm for Bed and Desk"],
-        ["Disclosed, verifiable material gauge", "SAIJI Gooseneck Bed Phone Holder"],
-        ["Maximum resistance to sagging", "MAGIPEA Gooseneck Phone Holder"],
-        ["Abrasion resistance for frequent repositioning", "Lamicall Nylon Braided Gooseneck"],
-        ["Most mechanically reinforced, fine-tunable hold", "LISEN Cell Phone Holder"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Long Gooseneck Phone Arm for Bed and Desk"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Long Gooseneck Phone Arm for Bed and Desk"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Why Goosenecks Sag Over Time",
-    note: "A gooseneck holds its bent shape through internal material tension. Repeated bending gradually fatigues that material, the same way bending a wire coat hanger back and forth eventually weakens it. Stiffer cores and reinforced joints slow this process but don't eliminate it entirely.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $NaN",
+          "Long Gooseneck Phone Arm for Bed and Desk"
+        ],
+        [
+          "Up to $25",
+          "Lamicall Nylon Braided Gooseneck Phone Holder for Bed"
+        ]
+      ]
+    }
   },
   {
-    subheading: "One-Handed vs. Two-Handed Adjustment",
-    cards: [
-      { label: "Easier flex (one hand)", text: "More convenient for frequent small adjustments, but generally sags faster under sustained phone weight." },
-      { label: "Stiffer core (two hands)", text: "Slower to reposition, but holds its set angle more reliably over time." },
+    "subheading": "Gooseneck vs Articulating Multi-Joint Arm",
+    "cards": [
+      {
+        "label": "Gooseneck",
+        "text": "Bends into one position and stays, simpler and usually cheaper. In this comparison: Long Gooseneck Phone Arm for Bed and Desk, SAIJI Gooseneck Bed Phone Holder, MAGIPEA Gooseneck Phone Holder, Lamicall Nylon Braided Gooseneck Phone Holder for Bed."
+      },
+      {
+        "label": "Articulating multi-joint",
+        "text": "Repositions across a wider range of angles, worth it if you switch use cases throughout the day. In this comparison: LISEN Cell Phone Holder."
+      }
     ],
+    "note": "Default to a gooseneck unless you genuinely need to reposition the phone often for different tasks."
   },
   {
-    subheading: "Watch for Vague Material Claims",
-    note: "Listings that only say 'flexible metal' without a gauge or construction detail give you less confidence in long-term hold reliability than ones that disclose specifics, like the SAIJI pick's 8.5mm aluminum alloy spec.",
+    "subheading": "By Mounting Method",
+    "table": {
+      "headers": [
+        "Desk situation",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Standard desk edge, clamp mount",
+          "Long Gooseneck Phone Arm for Bed and Desk"
+        ],
+        [
+          "Different mounting surface",
+          "LISEN Cell Phone Holder"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For Touch Interaction Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Reinforced joints and a tension knob that resist wobble when tapping the screen, not just static holding power when the phone sits undisturbed."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Long Gooseneck Phone Arm for Bed and Desk is worth checking against its listed joint reinforcement before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need extended, stable positioning for filming or long video calls, where Lamicall Nylon Braided Gooseneck Phone Holder for Bed's reinforcement gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need occasional, light positioning for a bare phone, where Long Gooseneck Phone Arm for Bed and Desk covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Look for disclosed material specs, not vague marketing", explanation: "A listing that states an actual gauge (like 8.5mm aluminum) gives more confidence in long-term hold reliability than generic 'flexible metal' language." },
-  { criterion: "Understand the one-handed vs. two-handed tradeoff", explanation: "Easier-to-bend arms are more convenient for frequent adjustment but tend to sag faster under sustained phone weight than intentionally stiff-core designs." },
-  { criterion: "Consider reinforced joints for heavier phones", explanation: "If your phone plus case is on the heavier side, a design with shock-absorbing springs and adjustable tension knobs, like the LISEN pick, holds more reliably than a single uniform flexible core." },
-  { criterion: "Check for an abrasion-resistant sleeve if you reposition often", explanation: "A braided or reinforced outer sleeve protects the internal core from wear if the arm regularly rubs against desk objects during adjustment." },
-  { criterion: "Don't expect any gooseneck to hold position forever", explanation: "All flexible-core arms fatigue with repeated bending over months or years. This is a genuine limitation of the category, not a defect specific to any one product." },
+  {
+    "criterion": "Check clamp weight capacity against a phone plus its protective case, not a bare phone",
+    "explanation": "A phone arm's rated weight capacity is often demonstrated with a bare, caseless phone in marketing photos, which understates the real load once you factor in a protective case, especially a chunky battery case or an otter-style rugged case that can add meaningful extra weight.\n\nThis matters because a clamp rated just barely above a bare phone's weight can sag or slowly droop over hours of real use once a case is added, a common complaint on budget gooseneck arms.\n\nCheck the listing for the stated weight capacity, and add your phone's actual case weight to your phone's weight before comparing that total against the arm's rating."
+  },
+  {
+    "criterion": "Confirm clamp desk-edge compatibility for your specific desk thickness",
+    "explanation": "Every clamp-on phone arm has a maximum and minimum desk edge thickness it can grip securely, and this range varies meaningfully between products even at a similar price, some fit only a standard desktop edge while others accommodate a thicker standing-desk edge or a rounded lip.\n\nThis matters directly because a clamp too narrow for your desk simply won't close securely, and one that's mismatched for a thin edge won't grip firmly, risking the whole arm slipping under the phone's weight.\n\nMeasure your desk edge thickness in inches and compare it against the exact clamp range stated in the product specs before ordering."
+  },
+  {
+    "criterion": "Weigh stability under touch interaction, not just static holding power",
+    "explanation": "Tapping a mounted phone's screen creates real lateral force that a passively displayed device sitting still never experiences, and an arm that holds a phone steady when undisturbed can still wobble noticeably every time you tap to answer a call, scroll a recipe, or adjust a video during a call.\n\nThis matters more for any use case involving regular screen taps, like following a recipe or using the phone as a secondary touch display, less if the phone is purely for passive viewing like a video call where you rarely touch the screen.\n\nCheck reviews specifically for mentions of wobble during tapping or touch interaction, not just how stable the arm looks when the phone is simply mounted and untouched."
+  },
+  {
+    "criterion": "Match arm reach and joint count to your actual desk layout and viewing angle needs",
+    "explanation": "A simple gooseneck arm bends into one general position and stays there, while a fully articulating arm with multiple joints lets you reposition the phone to a wide range of angles and distances, useful if you need to switch between overhead recording, eye-level video calls, and side-mounted reference viewing throughout the day.\n\nThis matters more if your desk setup genuinely needs that flexibility, less if the phone will sit in roughly the same spot and angle every time you use it.\n\nCheck the listed reach and joint configuration against how many different positions you'll realistically need, since more joints and reach usually mean a bulkier, pricier arm."
+  },
+  {
+    "criterion": "Consider overhead versus side-mounted positioning for your specific use case",
+    "explanation": "Overhead phone arms position the phone facing straight down, ideal for filming a desk workspace, following a recipe laid flat on the counter, or scanning documents, while side-mounted or eye-level arms position the phone facing forward or angled slightly down, better suited to video calls or watching content while working.\n\nThis distinction matters directly for matching the arm to your actual use case, an overhead arm mounted for filming is the wrong angle for a video call, and vice versa.\n\nCheck the listing's intended positioning and mounting angle range against your specific use case before assuming any \"phone arm\" covers every use equally well."
+  }
 ];
 
 export const faq: FaqItem[] = [

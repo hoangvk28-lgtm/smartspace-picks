@@ -31,10 +31,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31+F3sAWSTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07P2VK93P?tag=deskfinds0d-20",
     description:
-      "This gooseneck arm clamps to desk edges via an anti-slip silicone base pad that the listing specifies will not mark furniture, a genuine desk-mounting concern this narrower guide focuses on. The 33.46 inch aluminum arm reaches well above a standard desk surface for hands-free viewing.\n\nAt this price and review volume it is the most proven desk-clamp option in this cluster, though the clip's 4.0-6.3 inch phone width tolerance should be checked against your phone plus case combined.",
-    specs: ["33.46in flexible aluminum arm", "Anti-slip silicone desk clamp", "Fits phones 4.0-6.3in wide", "360° rotation"],
-    pros: ["Widely proven desk clamp design", "Non-marking silicone base pad", "Affordable", "Long reach"],
-    cons: ["Narrower clip width than some alternatives", "No tension knobs for fine-tuning", "Can require two hands to reposition"],
+      "This gooseneck arm clamps to desk edges via an anti-slip silicone base pad that the listing specifies will not mark furniture, a genuine desk-mounting concern this narrower guide focuses on. The 33.46 inch aluminum arm reaches well above a standard desk surface for hands-free viewing.\\n\\nAt this price and review volume it is the most proven desk-clamp option in this cluster, though the clip's 4.0-6.3 inch phone width tolerance should be checked against your phone plus case combined.\n\nIt leads this comparison mainly on build reinforcement and how well it holds a phone steady during touch interaction, worth weighing directly against the MAGIPEA Gooseneck Phone Holder.\n\nNon-marking silicone base pad. That's a real strength, but weigh it against the flip side: narrower clip width than some alternatives.",
+    specs: ["33.46in flexible aluminum arm","Anti-slip silicone desk clamp","Fits phones 4.0-6.3in wide","360° rotation"],
+    pros: ["Widely proven desk clamp design","Non-marking silicone base pad","Affordable","Long reach"],
+    cons: ["Narrower clip width than some alternatives","No tension knobs for fine-tuning","Can require two hands to reposition"],
     bestFor: "Buyers who want a proven, affordable desk-clamped arm without extra features.",
   },
   {
@@ -48,10 +48,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31sVYQbspmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B079QY6RFQ?tag=deskfinds0d-20",
     description:
-      "MAGIPEA's clamp opens to 3 inches, wider than most competitors in this cluster, making it a better fit for thick standing-desk tops or desks with a raised edge lip. EVA pads at the contact points protect the desk finish.\n\nThe arm itself uses a stiff aluminum core rather than a spring, so repositioning takes two hands, but the tradeoff is minimal sag over time once set.",
-    specs: ["3in wide clamp opening", "Stiff-core aluminum gooseneck", "EVA desk-protective pads", "Fits 3.5-7in devices"],
-    pros: ["Widest clamp opening in this cluster", "Minimal long-term sagging", "EVA pads protect desk finish", "Fits larger phones"],
-    cons: ["Two-handed repositioning", "Similar price to the SAIJI pick with less proven track record", "Bulkier clamp footprint"],
+      "MAGIPEA's clamp opens to 3 inches, wider than most competitors in this cluster, making it a better fit for thick standing-desk tops or desks with a raised edge lip. EVA pads at the contact points protect the desk finish.\\n\\nThe arm itself uses a stiff aluminum core rather than a spring, so repositioning takes two hands, but the tradeoff is minimal sag over time once set.\n\nSet against the SAIJI Gooseneck Bed Phone Holder, the tradeoff here comes down to arm reach and clamp range versus price, not a straightforward upgrade or downgrade either way.\n\nWorth calling out specifically: minimal long-term sagging. The catch is two-handed repositioning.",
+    specs: ["3in wide clamp opening","Stiff-core aluminum gooseneck","EVA desk-protective pads","Fits 3.5-7in devices"],
+    pros: ["Widest clamp opening in this cluster","Minimal long-term sagging","EVA pads protect desk finish","Fits larger phones"],
+    cons: ["Two-handed repositioning","Similar price to the SAIJI pick with less proven track record","Bulkier clamp footprint"],
     bestFor: "Buyers with thick desk edges or standing desks who need a wider clamp opening.",
   },
   {
@@ -65,10 +65,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/515BergNltL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CKYS81T4?tag=deskfinds0d-20",
     description:
-      "This LISEN arm's bi-directional clamp base is designed to work equally well on a desk, bed frame, or nightstand, useful if you move the arm between locations rather than leaving it permanently desk-mounted. Tension knobs at each joint let you dial in exact clip firmness for your phone and case combination.",
-    specs: ["Bi-directional clamp base", "Tension-adjustable joints", "Steel body construction", "Foldable for storage"],
-    pros: ["Works across multiple surface types", "Adjustable tension per joint", "Reinforced steel build", "Folds for portability"],
-    cons: ["Higher price than dedicated desk-only arms", "Bulkier than a simple clamp", "More assembly to dial in tension"],
+      "This LISEN arm's bi-directional clamp base is designed to work equally well on a desk, bed frame, or nightstand, useful if you move the arm between locations rather than leaving it permanently desk-mounted. Tension knobs at each joint let you dial in exact clip firmness for your phone and case combination.\n\nRelative to the MAGIPEA Gooseneck Phone Holder, this pick leans toward a different priority, whether that's a lower price, a longer reach, or a mounting style suited to a different desk edge.\n\nAdjustable tension per joint. Set against that, higher price than dedicated desk-only arms. Both matter when comparing it to the other picks here.",
+    specs: ["Bi-directional clamp base","Tension-adjustable joints","Steel body construction","Foldable for storage"],
+    pros: ["Works across multiple surface types","Adjustable tension per joint","Reinforced steel build","Folds for portability"],
+    cons: ["Higher price than dedicated desk-only arms","Bulkier than a simple clamp","More assembly to dial in tension"],
     bestFor: "Buyers who want one arm that moves reliably between a desk and other surfaces.",
   },
   {
@@ -82,10 +82,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419C11rQcXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5YJ42CX?tag=deskfinds0d-20",
     description:
-      "The crab clamp on this magic arm opens to 63.5mm and locks via a friction knob rather than spring tension alone, giving it the most secure desk-edge grip in this cluster. Twelve silicone contact points protect both the clamp and the desk surface from scratches.",
-    specs: ["Crab clamp opens to 63.5mm", "Friction-knob locking", "600g load capacity", "12 anti-slip/scratch points"],
-    pros: ["Most secure locking clamp mechanism", "Protects desk surface at 12 contact points", "Multi-device compatible", "Rated load capacity disclosed"],
-    cons: ["Most expensive pick in this cluster", "Bulkier than a simple gooseneck clamp", "Overkill for basic phone viewing"],
+      "The crab clamp on this magic arm opens to 63.5mm and locks via a friction knob rather than spring tension alone, giving it the most secure desk-edge grip in this cluster. Twelve silicone contact points protect both the clamp and the desk surface from scratches.\n\nCompared with the LISEN Cell Phone Holder for Bed Desk above, this pick trades some of that pick's reach or reinforcement for a different balance of price and simplicity, worth weighing against your own desk setup.\n\nProtects desk surface at 12 contact points. That's a real strength, but weigh it against the flip side: most expensive pick in this cluster.",
+    specs: ["Crab clamp opens to 63.5mm","Friction-knob locking","600g load capacity","12 anti-slip/scratch points"],
+    pros: ["Most secure locking clamp mechanism","Protects desk surface at 12 contact points","Multi-device compatible","Rated load capacity disclosed"],
+    cons: ["Most expensive pick in this cluster","Bulkier than a simple gooseneck clamp","Overkill for basic phone viewing"],
     bestFor: "Buyers who want the most secure, scratch-protective clamp regardless of price.",
   },
   {
@@ -99,12 +99,12 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31jBgnNJK5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DN1C9RH2?tag=deskfinds0d-20",
     description:
-      "NEEWER's C clamp uses anti-twist mounting pins at each interface, keeping the connection secure specifically at the desk-edge attachment point even under repeated adjustment. It carries the highest rating of this cluster's magic arms, at a nearly identical price to the SMALLRIG pick.",
-    specs: ["C clamp with anti-twist pins", "1/4in and 3/8in threads", "Non-slip clamp pads", "Phone holder fits 2.2-3.2in"],
-    pros: ["Highest-rated pick in this cluster", "Anti-twist desk clamp connection", "Multi-device threading", "Non-slip desk pads"],
-    cons: ["Same premium price as SMALLRIG", "Phone clip sold as separate attachment piece", "Large footprint versus simple goosenecks"],
+      "NEEWER's C clamp uses anti-twist mounting pins at each interface, keeping the connection secure specifically at the desk-edge attachment point even under repeated adjustment. It carries the highest rating of this cluster's magic arms, at a nearly identical price to the SMALLRIG pick.\n\nSet against the SMALLRIG 22\" Magic Arm Clamp, the tradeoff here comes down to arm reach and clamp range versus price, not a straightforward upgrade or downgrade either way.\n\nWorth calling out specifically: anti-twist desk clamp connection. The catch is same premium price as SMALLRIG.",
+    specs: ["C clamp with anti-twist pins","1/4in and 3/8in threads","Non-slip clamp pads","Phone holder fits 2.2-3.2in"],
+    pros: ["Highest-rated pick in this cluster","Anti-twist desk clamp connection","Multi-device threading","Non-slip desk pads"],
+    cons: ["Same premium price as SMALLRIG","Phone clip sold as separate attachment piece","Large footprint versus simple goosenecks"],
     bestFor: "Buyers comparing magic arms who want the highest-rated desk clamp option.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,40 +118,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Your Desk Type",
-    table: {
-      headers: ["Desk situation", "Recommended pick"],
-      rows: [
-        ["Standard desk, proven budget clamp", "SAIJI Gooseneck Bed Phone Holder"],
-        ["Thick standing-desk top or raised edge", "MAGIPEA Gooseneck Phone Holder"],
-        ["Moves between desk and other surfaces", "LISEN Cell Phone Holder"],
-        ["Most secure locking desk clamp, budget flexible", "SMALLRIG or NEEWER Magic Arm"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "NEEWER 22\" Magic Arm with Desk C Clamp"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "SAIJI Gooseneck Bed Phone Holder"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Is This Guide Different From Our General Phone Arm Guide?",
-    note: "Mostly overlapping. Nearly every desk phone arm is desk-clamped by default, so if you've already read our best desk phone arms guide, the picks here will look familiar. Use this guide specifically if desk-edge clamp compatibility is your main concern.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $13",
+          "SAIJI Gooseneck Bed Phone Holder"
+        ],
+        [
+          "Up to $34",
+          "NEEWER 22\" Magic Arm with Desk C Clamp"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Spring Clamp vs. Friction-Locked Clamp",
-    cards: [
-      { label: "Spring clamp", text: "Simple, affordable, adequate for lighter desks and occasional repositioning. Found on the SAIJI and MAGIPEA picks." },
-      { label: "Friction-locked clamp", text: "More secure grip, better for frequent adjustment or heavier attached devices. Found on the SMALLRIG and NEEWER magic arms." },
+    "subheading": "Gooseneck vs Articulating Multi-Joint Arm",
+    "cards": [
+      {
+        "label": "Gooseneck",
+        "text": "Bends into one position and stays, simpler and usually cheaper. In this comparison: SAIJI Gooseneck Bed Phone Holder, MAGIPEA Gooseneck Phone Holder."
+      },
+      {
+        "label": "Articulating multi-joint",
+        "text": "Repositions across a wider range of angles, worth it if you switch use cases throughout the day. In this comparison: LISEN Cell Phone Holder for Bed Desk, SMALLRIG 22\" Magic Arm Clamp, NEEWER 22\" Magic Arm with Desk C Clamp."
+      }
     ],
+    "note": "Default to a gooseneck unless you genuinely need to reposition the phone often for different tasks."
   },
   {
-    subheading: "Measure Before You Buy",
-    note: "Measure your desk edge thickness at the exact spot you plan to clamp. A clamp rated for up to 3 inches may not close securely on an edge under 1 inch without extra padding.",
+    "subheading": "By Weight Capacity",
+    "note": "Check each pick's listed weight capacity against your phone plus its actual case weight before buying, not just a bare-phone rating. SAIJI Gooseneck Bed Phone Holder is the most-reviewed option here if you want the safer bet."
   },
+  {
+    "subheading": "For Touch Interaction Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Reinforced joints and a tension knob that resist wobble when tapping the screen, not just static holding power when the phone sits undisturbed."
+      },
+      {
+        "label": "In this comparison",
+        "text": "SAIJI Gooseneck Bed Phone Holder is worth checking against its listed joint reinforcement before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need extended, stable positioning for filming or long video calls, where NEEWER 22\" Magic Arm with Desk C Clamp's reinforcement gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need occasional, light positioning for a bare phone, where SAIJI Gooseneck Bed Phone Holder covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Measure your desk edge thickness first", explanation: "Clamp opening ranges vary from about 1.5 to 3 inches across this cluster. A clamp too large for your desk edge will grip loosely and wobble under phone weight." },
-  { criterion: "Check for desk-protective padding", explanation: "Silicone or EVA pads at the clamp jaws prevent marking on wood, laminate, or glass desks. All five picks here include some form of protective padding." },
-  { criterion: "Spring clamps are fine for light, occasional use", explanation: "If you rarely reposition the arm, a simple spring clamp like the SAIJI or MAGIPEA pick is sufficient and more affordable than a friction-locked magic arm." },
-  { criterion: "Friction-locked clamps suit frequent repositioning", explanation: "If you adjust the arm daily or mount heavier accessories, the knob-locked crab clamps on the SMALLRIG and NEEWER picks hold more securely over repeated use." },
-  { criterion: "Don't assume desk-mounted means exclusively desk-only", explanation: "Several picks here, like the LISEN arm, also clamp to bed frames and nightstands. Check whether you want a dedicated desk arm or one that moves between locations." },
+  {
+    "criterion": "Check clamp weight capacity against a phone plus its protective case, not a bare phone",
+    "explanation": "A phone arm's rated weight capacity is often demonstrated with a bare, caseless phone in marketing photos, which understates the real load once you factor in a protective case, especially a chunky battery case or an otter-style rugged case that can add meaningful extra weight.\n\nThis matters because a clamp rated just barely above a bare phone's weight can sag or slowly droop over hours of real use once a case is added, a common complaint on budget gooseneck arms.\n\nCheck the listing for the stated weight capacity, and add your phone's actual case weight to your phone's weight before comparing that total against the arm's rating."
+  },
+  {
+    "criterion": "Confirm clamp desk-edge compatibility for your specific desk thickness",
+    "explanation": "Every clamp-on phone arm has a maximum and minimum desk edge thickness it can grip securely, and this range varies meaningfully between products even at a similar price, some fit only a standard desktop edge while others accommodate a thicker standing-desk edge or a rounded lip.\n\nThis matters directly because a clamp too narrow for your desk simply won't close securely, and one that's mismatched for a thin edge won't grip firmly, risking the whole arm slipping under the phone's weight.\n\nMeasure your desk edge thickness in inches and compare it against the exact clamp range stated in the product specs before ordering."
+  },
+  {
+    "criterion": "Weigh stability under touch interaction, not just static holding power",
+    "explanation": "Tapping a mounted phone's screen creates real lateral force that a passively displayed device sitting still never experiences, and an arm that holds a phone steady when undisturbed can still wobble noticeably every time you tap to answer a call, scroll a recipe, or adjust a video during a call.\n\nThis matters more for any use case involving regular screen taps, like following a recipe or using the phone as a secondary touch display, less if the phone is purely for passive viewing like a video call where you rarely touch the screen.\n\nCheck reviews specifically for mentions of wobble during tapping or touch interaction, not just how stable the arm looks when the phone is simply mounted and untouched."
+  },
+  {
+    "criterion": "Match arm reach and joint count to your actual desk layout and viewing angle needs",
+    "explanation": "A simple gooseneck arm bends into one general position and stays there, while a fully articulating arm with multiple joints lets you reposition the phone to a wide range of angles and distances, useful if you need to switch between overhead recording, eye-level video calls, and side-mounted reference viewing throughout the day.\n\nThis matters more if your desk setup genuinely needs that flexibility, less if the phone will sit in roughly the same spot and angle every time you use it.\n\nCheck the listed reach and joint configuration against how many different positions you'll realistically need, since more joints and reach usually mean a bulkier, pricier arm."
+  },
+  {
+    "criterion": "Consider overhead versus side-mounted positioning for your specific use case",
+    "explanation": "Overhead phone arms position the phone facing straight down, ideal for filming a desk workspace, following a recipe laid flat on the counter, or scanning documents, while side-mounted or eye-level arms position the phone facing forward or angled slightly down, better suited to video calls or watching content while working.\n\nThis distinction matters directly for matching the arm to your actual use case, an overhead arm mounted for filming is the wrong angle for a video call, and vice versa.\n\nCheck the listing's intended positioning and mounting angle range against your specific use case before assuming any \"phone arm\" covers every use equally well."
+  }
 ];
 
 export const faq: FaqItem[] = [
