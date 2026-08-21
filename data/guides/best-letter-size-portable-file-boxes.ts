@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "5,076",
     imageUrl: "https://m.media-amazon.com/images/I/41PdCI0nCgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08T6P8LB6?tag=deskfinds0d-20",
-    description:
-      "Confirmed letter-size with genuine hanging file rails, this Pendaflex box carries the strongest combined rating and review volume in this comparison, real evidence of reliable long-term performance for standard document storage.",
-    specs: ["Confirmed letter size", "Genuine hanging file rails", "Molded handle", "Strong review history"],
-    pros: ["Most proven pick by review volume", "Confirmed genuine hanging file rails", "Comfortable molded handle", "Reliable brand"],
-    cons: ["Letter size only, not for legal documents", "Standard plastic construction", "No lock"],
+    description: "Confirmed letter-size with genuine hanging file rails, this Pendaflex box carries the strongest combined rating and review volume in this comparison, real evidence of reliable long-term performance for standard document storage.\n\nIt earns the top spot in this comparison over IRIS USA File Box Organizer with Lid for one main reason. Most proven pick by review volume. On price, it's actually priced above IRIS USA File Box Organizer with Lid, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Confirmed genuine hanging file rails. On the other side, No lock. That's the main tradeoff to weigh against everything above.",
+    specs: ["Confirmed letter size","Genuine hanging file rails","Molded handle","Strong review history"],
+    pros: ["Most proven pick by review volume","Confirmed genuine hanging file rails","Comfortable molded handle","Reliable brand"],
+    cons: ["Letter size only, not for legal documents","Standard plastic construction","No lock"],
     bestFor: "Buyers who want the most proven, reliable letter-size box with genuine hanging rails.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "3,133",
     imageUrl: "https://m.media-amazon.com/images/I/41GQ8rqDXhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FVJZD3L?tag=deskfinds0d-20",
-    description:
-      "The most affordable well-reviewed letter-size pick here, this IRIS USA box's lid and portable handle are proven at scale via a substantial review count, a solid choice for standard letter document storage.",
-    specs: ["Confirmed letter size", "Lid included", "Portable handle", "Affordable"],
-    pros: ["Very affordable", "Strong review count", "Lid included for enclosed storage", "Reputable brand"],
-    cons: ["Letter size only", "Lighter-duty plastic than premium picks", "No lock"],
+    description: "The most affordable well-reviewed letter-size pick here, this IRIS USA box's lid and portable handle are proven at scale via a substantial review count, a solid choice for standard letter document storage.\n\nOne spot below Pendaflex Portable File Box with File Rails in this ranking, it's priced lower than Pendaflex Portable File Box with File Rails. The compromise here is straightforward: Letter size only. What you gain in return: Very affordable. Whether that trade is worth it depends on which side matters more for your storage needs.\n\nWorth knowing before you decide: Strong review count. On the other side, No lock. That's the main tradeoff to weigh against everything above.",
+    specs: ["Confirmed letter size","Lid included","Portable handle","Affordable"],
+    pros: ["Very affordable","Strong review count","Lid included for enclosed storage","Reputable brand"],
+    cons: ["Letter size only","Lighter-duty plastic than premium picks","No lock"],
     bestFor: "Budget buyers who want a reliable, affordable letter-size box.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "721",
     imageUrl: "https://m.media-amazon.com/images/I/41khvywa+7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004GXB6RI?tag=deskfinds0d-20",
-    description:
-      "This Sterilite 4-pack of letter-size boxes offers a strong per-unit value if you need multiple boxes for a household or small office, at roughly $14 per box.",
-    specs: ["4-pack of letter file boxes", "Carrying handle", "Strong rating", "Lower per-unit cost"],
-    pros: ["Strong per-unit value in the 4-pack", "Good rating", "Reputable Sterilite brand", "Handle for portability"],
-    cons: ["Unnecessary if you only need one box", "Higher total upfront cost", "Standard plastic construction"],
+    description: "This Sterilite 4-pack of letter-size boxes offers a strong per-unit value if you need multiple boxes for a household or small office, at roughly $14 per box.\n\nSitting just under IRIS USA File Box Organizer with Lid, it costs more than IRIS USA File Box Organizer with Lid. Here's the honest tradeoff: Unnecessary if you only need one box. And here's what it gets you instead: Strong per-unit value in the 4-pack. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Good rating. On the other side, Standard plastic construction. That's the main tradeoff to weigh against everything above.",
+    specs: ["4-pack of letter file boxes","Carrying handle","Strong rating","Lower per-unit cost"],
+    pros: ["Strong per-unit value in the 4-pack","Good rating","Reputable Sterilite brand","Handle for portability"],
+    cons: ["Unnecessary if you only need one box","Higher total upfront cost","Standard plastic construction"],
     bestFor: "Buyers who need multiple letter-size boxes and want the best per-unit value.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "1,128",
     imageUrl: "https://m.media-amazon.com/images/I/317LJOZfFQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D8CNX88V?tag=deskfinds0d-20",
-    description:
-      "This Staples tote-style box is explicitly confirmed for letter-size hanging files at the most affordable price in this comparison, a solid budget-friendly alternative.",
-    specs: ["Confirmed letter size hanging files", "Tote-style handle design", "Affordable", "Staples brand"],
-    pros: ["Most affordable pick here", "Confirmed hanging file compatibility", "Solid review count", "Familiar office-supply brand"],
-    cons: ["Basic latch, not double-locking", "Standard plastic durability", "No lock"],
+    description: "This Staples tote-style box is explicitly confirmed for letter-size hanging files at the most affordable price in this comparison, a solid budget-friendly alternative.\n\nRanked just behind Sterilite Portable File Box, it's priced lower than Sterilite Portable File Box. The real tradeoff against that pick: Basic latch, not double-locking. In exchange, it offers this instead: Most affordable pick here. That's the swap that decides whether this pick or the one above it is the better fit for your documents.\n\nWorth knowing before you decide: Confirmed hanging file compatibility. On the other side, No lock. That's the main tradeoff to weigh against everything above.",
+    specs: ["Confirmed letter size hanging files","Tote-style handle design","Affordable","Staples brand"],
+    pros: ["Most affordable pick here","Confirmed hanging file compatibility","Solid review count","Familiar office-supply brand"],
+    cons: ["Basic latch, not double-locking","Standard plastic durability","No lock"],
     bestFor: "Budget buyers who want a straightforward, confirmed letter-size hanging-file box.",
   },
   {
@@ -98,13 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "1,128",
     imageUrl: "https://m.media-amazon.com/images/I/31xiANpUwWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTWYT23D?tag=deskfinds0d-20",
-    description:
-      "A 2-pack version of the letter-size Staples tote, this offers a good middle-ground value between buying a single box and the larger Sterilite 4-pack, for buyers who need exactly two boxes.",
-    specs: ["2-pack of letter-size totes", "Confirmed hanging file compatibility", "Handle included", "Black finish"],
-    pros: ["Good value for exactly two boxes", "Confirmed hanging file compatibility", "Handle for portability", "Reputable Staples brand"],
-    cons: ["Unnecessary if you only need one box", "Basic latch closure", "Standard plastic durability"],
+    description: "A 2-pack version of the letter-size Staples tote, this offers a good middle-ground value between buying a single box and the larger Sterilite 4-pack, for buyers who need exactly two boxes.\n\nOne spot below Staples File Folder Tote in this ranking, it costs more than Staples File Folder Tote. The compromise here is straightforward: Unnecessary if you only need one box. What you gain in return: Good value for exactly two boxes. Whether that trade is worth it depends on which side matters more for your storage needs.\n\nWorth knowing before you decide: Confirmed hanging file compatibility. On the other side, Standard plastic durability. That's the main tradeoff to weigh against everything above.",
+    specs: ["2-pack of letter-size totes","Confirmed hanging file compatibility","Handle included","Black finish"],
+    pros: ["Good value for exactly two boxes","Confirmed hanging file compatibility","Handle for portability","Reputable Staples brand"],
+    cons: ["Unnecessary if you only need one box","Basic latch closure","Standard plastic durability"],
     bestFor: "Buyers who need exactly two letter-size boxes.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,41 +113,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Priority",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Most proven overall", "Pendaflex Portable File Box with File Rails"],
-        ["Lowest price for one box", "IRIS USA File Box Organizer with Lid"],
-        ["Need 4 boxes, best value", "Sterilite Portable File Box, 4 Pack"],
-        ["Most affordable confirmed hanging-file design", "Staples File Folder Tote"],
-        ["Need exactly 2 boxes", "STAPLES File Box Portable Tote, 2-Pack"],
+    "subheading": "By Material",
+    "note": "Material isn't consistently confirmed across every pick in this comparison; check each listing's product details directly."
+  },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $17",
+          "Staples File Folder Tote"
+        ],
+        [
+          "Mid-range",
+          "Pendaflex Portable File Box with File Rails"
+        ],
+        [
+          "No firm budget ceiling, prioritizing security or durability",
+          "Sterilite Portable File Box"
+        ]
+      ]
+    }
   },
   {
-    subheading: "This Overlaps With Our General Portable File Box Guide",
-    note: "Letter-size is likely the implicit default for most general 'file box' listings, since it's the most common US document size. This guide's value is explicit confirmation for buyers who want that certainty.",
-  },
-  {
-    subheading: "Letter-Size Folder Availability",
-    cards: [
-      { label: "Letter-size folders", text: "The most universally available hanging folder size at any office supply retailer." },
-      { label: "Legal or A4 folders", text: "Less universally available, requiring more targeted sourcing, a real convenience benefit of sticking with letter-size." },
+    "subheading": "Lockable vs Basic Latch",
+    "cards": [
+      {
+        "label": "Lockable",
+        "text": "Provides genuine access restriction beyond just keeping the lid shut in transit. In this comparison: check each listing's closure type directly."
+      },
+      {
+        "label": "Basic Latch",
+        "text": "Keeps the lid closed during transport and handling, without real security against intentional access. In this comparison: Pendaflex Portable File Box with File Rails, IRIS USA File Box Organizer with Lid, Sterilite Portable File Box."
+      }
     ],
+    "note": "Check each listing's stated closure type directly, since none of these picks explicitly confirm a genuine lock."
   },
   {
-    subheading: "Single Box vs. Multi-Pack",
-    note: "If you only need one box, buy individually. For multiple boxes, a 2-pack or 4-pack generally offers a better per-unit price than separate individual purchases.",
+    "subheading": "By Portability: Wheels vs Handle-Only",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Occasional short lifts, simpler design",
+          "Pendaflex Portable File Box with File Rails"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For Irreplaceable or Sensitive Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A stated independent fire rating with a named testing standard and duration (not just the word \"fireproof\"), plus a genuine lock rather than a basic latch."
+      },
+      {
+        "label": "In this comparison",
+        "text": "No pick in this specific comparison explicitly confirms an independent fire rating; check our dedicated fireproof file box roundup if that's a hard requirement."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Sterilite Portable File Box offers: Strong per-unit value in the 4-pack. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Staples File Folder Tote already covers the essentials: Most affordable pick here. The main thing you'd be paying extra for elsewhere in this list is security or durability you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm explicit letter-size sizing rather than assuming", explanation: "Even though letter-size is the common default, verify the specific listing explicitly confirms this rather than assuming from a general 'file box' label." },
-  { criterion: "Verify genuine hanging file rail compatibility", explanation: "Check that the box includes real rails for standard letter-size hanging folders, not just an open storage bin." },
-  { criterion: "Take advantage of letter-size folder availability", explanation: "Letter-size hanging folders are the most universally available size, a genuine sourcing convenience over legal or A4 alternatives." },
-  { criterion: "Compare per-unit value across pack sizes", explanation: "If you need multiple boxes, a 2-pack or 4-pack generally offers a better per-unit price than buying individually." },
-  { criterion: "Weigh proven review history for this common document size", explanation: "Since letter-size is the most common use case, favor picks with substantial review history as real evidence of reliable long-term performance." },
+  {
+    "criterion": "Confirm letter, legal, or A4 compatibility against your actual documents",
+    "explanation": "File boxes are built around specific paper sizes, and letter (8.5x11 inch, standard in the US), legal (8.5x14 inch, longer), and A4 (the standard size in most of the rest of the world) hanging folders are not interchangeable, since a box sized for one won't properly fit hanging folders built for another.\n\nSome boxes explicitly support both letter and legal sizing with adjustable rails, while others are built for one size only, and buying the wrong size means folders that either don't fit the internal rails at all or sit loose and unsupported inside a box that's too large for them.\n\nCheck the listing's stated compatible paper and folder sizes against what you actually use, especially if you have any legal-size or A4 documents mixed into an otherwise standard letter-size collection."
+  },
+  {
+    "criterion": "Understand the real tradeoffs between plastic, metal, and clear construction",
+    "explanation": "Plastic file boxes are lightweight and generally the most affordable option, but can crack under impact and aren't fire-resistant, metal boxes offer more structural rigidity and impact resistance at a higher weight and price, and clear plastic boxes let you identify contents without opening the box but can gradually yellow and haze with sustained UV exposure near a window while also displaying document contents to anyone nearby.\n\nNone of these materials is universally best, the right choice depends on whether portability, durability, budget, or content privacy matters most for your specific situation, and boxes marketed primarily on one material's strength often compromise on another dimension.\n\nMatch the material to your actual priority (weight and cost for plastic, durability for metal, quick content identification for clear) rather than assuming any one material is a straightforward upgrade over the others."
+  },
+  {
+    "criterion": "Verify a fireproof claim's actual rating rather than trusting the word alone",
+    "explanation": "\"Fireproof\" and \"fire-resistant\" are used loosely in product marketing, and a genuine fire rating comes from an independent testing standard, commonly expressed as a UL rating with a specific time duration (such as 30 minutes) at a specific temperature the container is verified to withstand, information that a legitimately rated product will state explicitly rather than just using the word \"fireproof\" in the title.\n\nA box without a stated independent rating and testing standard should be treated as offering no verified fire protection at all, regardless of marketing language, since the word alone carries no legal or testing requirement behind it.\n\nCheck the specific listing for a named testing standard and duration rather than trusting \"fireproof\" in the product title alone, and if genuine fire protection for irreplaceable documents matters, prioritize listings that cite specific, verifiable certification details."
+  },
+  {
+    "criterion": "Check the lock or latch mechanism's actual security level against your real need",
+    "explanation": "File box closures range from a simple friction-fit lid with no locking mechanism at all, to a basic latch that keeps the lid shut during transport but offers no real security against an intentional attempt to open it, to a genuine key or combination lock that provides actual access control.\n\nThis distinction matters because a box marketed as \"lockable\" sometimes just means it has a small hole for a separately purchased padlock, not a lock included in the purchase, and conflating basic latching with genuine security leads to disappointment if you specifically need to restrict access to sensitive documents.\n\nCheck whether a lock is actually included in the purchase or merely accommodated via an aftermarket padlock, and match the closure type to whether you need transport-only convenience or genuine access restriction."
+  },
+  {
+    "criterion": "Weigh portability features (handles, wheels) against your actual moving distance and frequency",
+    "explanation": "A basic side handle works fine for lifting a file box a short distance or in and out of a car trunk occasionally, while wheels genuinely matter if you're moving a heavy, fully-loaded box repeatedly across a longer distance, such as between an office and a storage room on a regular basis, since a fully loaded file box can weigh considerably more than it looks once filled with paper documents.\n\nWheeled file boxes add real cost and bulk over a simple handle-only design, so this is a genuine tradeoff rather than wheels being a strict upgrade, and a box that will mostly sit in one place doesn't benefit from paying extra for mobility features it will rarely use.\n\nMatch the portability features to your actual moving pattern (occasional short lifts versus frequent longer moves) rather than defaulting to the most feature-rich option available."
+  }
 ];
 
 export const faq: FaqItem[] = [

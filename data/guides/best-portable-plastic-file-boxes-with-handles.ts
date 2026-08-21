@@ -30,9 +30,9 @@ export const products: GuideProduct[] = [
     reviews: "5,076",
     imageUrl: "https://m.media-amazon.com/images/I/41PdCI0nCgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08T6P8LB6?tag=deskfinds0d-20",
-    description: "Confirmed file rails from Pendaflex, an established filing-products brand, with by far the largest review base in this comparison.",
-    specs: ["Confirmed file rails", "5,076 reviews at 4.4 stars"],
-    pros: ["Largest, most established review base in this comparison", "Confirmed genuine hanging-folder rails", "From an established filing brand"],
+    description: "Confirmed file rails from Pendaflex, an established filing-products brand, with by far the largest review base in this comparison.\n\nIt earns the top spot in this comparison over Vaultz File Organizer Storage Box for one main reason. Largest, most established review base in this comparison. On price, it comes in below Vaultz File Organizer Storage Box, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Confirmed genuine hanging-folder rails. On the other side, Mid-range price, not the cheapest option. That's the main tradeoff to weigh against everything above.",
+    specs: ["Confirmed file rails","5,076 reviews at 4.4 stars"],
+    pros: ["Largest, most established review base in this comparison","Confirmed genuine hanging-folder rails","From an established filing brand"],
     cons: ["Mid-range price, not the cheapest option"],
     bestFor: "Buyers who want the most proven plastic file box with genuine rail support.",
   },
@@ -46,10 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/41vOA84B1YL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000GP0Z6I?tag=deskfinds0d-20",
-    description: "The highest price in this comparison, from Vaultz, a brand known for more structurally reinforced storage products, at specific dimensions for letter-size files.",
-    specs: ["14 x 7 x 12.19 in, letter size", "From Vaultz, a reinforced-storage brand"],
+    description: "The highest price in this comparison, from Vaultz, a brand known for more structurally reinforced storage products, at specific dimensions for letter-size files.\n\nOne spot below Pendaflex Portable File Box with File Rails in this ranking, it costs more than Pendaflex Portable File Box with File Rails. The compromise here is straightforward: Highest price in this comparison. What you gain in return: From a brand known for more reinforced construction. Whether that trade is worth it depends on which side matters more for your storage needs.\n\nWorth knowing before you decide: From a brand known for more reinforced construction. On the other side, No review history available yet on this specific listing. That's the main tradeoff to weigh against everything above.",
+    specs: ["14 x 7 x 12.19 in, letter size","From Vaultz, a reinforced-storage brand"],
     pros: ["From a brand known for more reinforced construction"],
-    cons: ["Highest price in this comparison", "No review history available yet on this specific listing"],
+    cons: ["Highest price in this comparison","No review history available yet on this specific listing"],
     bestFor: "Buyers who want more structural reinforcement and are willing to pay for it.",
   },
   {
@@ -62,9 +62,9 @@ export const products: GuideProduct[] = [
     reviews: "3,139",
     imageUrl: "https://m.media-amazon.com/images/I/41GQ8rqDXhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FVJZD3L?tag=deskfinds0d-20",
-    description: "From IRIS USA, an established storage-products brand, with a large review base at a lower price than the Pendaflex top pick.",
-    specs: ["Letter file, portable handle", "3,139 reviews at 4.3 stars"],
-    pros: ["Large, established review base", "Lower price than the top pick"],
+    description: "From IRIS USA, an established storage-products brand, with a large review base at a lower price than the Pendaflex top pick.\n\nSitting just under Vaultz File Organizer Storage Box, it's priced lower than Vaultz File Organizer Storage Box. Here's the honest tradeoff: Slightly lower rating than the Pendaflex option. And here's what it gets you instead: Large, established review base. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Lower price than the top pick. On the other side, Slightly lower rating than the Pendaflex option. That's the main tradeoff to weigh against everything above.",
+    specs: ["Letter file, portable handle","3,139 reviews at 4.3 stars"],
+    pros: ["Large, established review base","Lower price than the top pick"],
     cons: ["Slightly lower rating than the Pendaflex option"],
     bestFor: "Buyers who want strong value with proven review history.",
   },
@@ -78,9 +78,9 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/31VVX+PgVwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D92V2XZT?tag=deskfinds0d-20",
-    description: "A transparent design so you can see file contents at a glance, from an established office-supply retailer, at a mid-range price.",
-    specs: ["Clear plastic, letter size", "Portable storage tote design"],
-    pros: ["Transparent design shows contents without opening", "From an established office-supply retailer"],
+    description: "A transparent design so you can see file contents at a glance, from an established office-supply retailer, at a mid-range price.\n\nRanked just behind IRIS USA File Box Organizer with Lid, it costs more than IRIS USA File Box Organizer with Lid. The real tradeoff against that pick: No review history available yet on this specific listing. In exchange, it offers this instead: Transparent design shows contents without opening. That's the swap that decides whether this pick or the one above it is the better fit for your documents.\n\nWorth knowing before you decide: From an established office-supply retailer. On the other side, No review history available yet on this specific listing. That's the main tradeoff to weigh against everything above.",
+    specs: ["Clear plastic, letter size","Portable storage tote design"],
+    pros: ["Transparent design shows contents without opening","From an established office-supply retailer"],
     cons: ["No review history available yet on this specific listing"],
     bestFor: "Buyers who want to see file contents without opening the box.",
   },
@@ -94,12 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/317LJOZfFQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D8CNX88V?tag=deskfinds0d-20",
-    description: "The cheapest option in this comparison, still supporting letter-size hanging files, from Staples.",
-    specs: ["Letter size hanging file support", "From Staples"],
-    pros: ["Cheapest option in this comparison", "From an established office-supply retailer"],
+    description: "The cheapest option in this comparison, still supporting letter-size hanging files, from Staples.\n\nOne spot below Staples File Box Portable Storage Tote in this ranking, it's priced lower than Staples File Box Portable Storage Tote. The compromise here is straightforward: No review history available yet on this specific listing. What you gain in return: Cheapest option in this comparison. Whether that trade is worth it depends on which side matters more for your storage needs.\n\nWorth knowing before you decide: From an established office-supply retailer. On the other side, No review history available yet on this specific listing. That's the main tradeoff to weigh against everything above.",
+    specs: ["Letter size hanging file support","From Staples"],
+    pros: ["Cheapest option in this comparison","From an established office-supply retailer"],
     cons: ["No review history available yet on this specific listing"],
     bestFor: "Budget-focused buyers who want a basic, proven-brand plastic file tote.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -113,26 +113,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Priority",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Most proven, genuine rails", "Pendaflex Portable File Box with File Rails"],
-        ["More reinforced construction", "Vaultz File Organizer Storage Box"],
-        ["Best value with reviews", "IRIS USA File Box Organizer"],
-        ["See contents without opening", "Staples File Box Portable Storage Tote, Clear"],
-        ["Cheapest option", "Staples File Folder Tote"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Highest star rating",
+          "Pendaflex Portable File Box with File Rails"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "Pendaflex Portable File Box with File Rails"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $17",
+          "Staples File Folder Tote"
+        ],
+        [
+          "Mid-range",
+          "Staples File Box Portable Storage Tote"
+        ],
+        [
+          "No firm budget ceiling, prioritizing security or durability",
+          "Vaultz File Organizer Storage Box"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Lockable vs Basic Latch",
+    "cards": [
+      {
+        "label": "Lockable",
+        "text": "Provides genuine access restriction beyond just keeping the lid shut in transit. In this comparison: check each listing's closure type directly."
+      },
+      {
+        "label": "Basic Latch",
+        "text": "Keeps the lid closed during transport and handling, without real security against intentional access. In this comparison: Pendaflex Portable File Box with File Rails, Vaultz File Organizer Storage Box, IRIS USA File Box Organizer with Lid."
+      }
+    ],
+    "note": "Check each listing's stated closure type directly, since none of these picks explicitly confirm a genuine lock."
+  },
+  {
+    "subheading": "By Portability: Wheels vs Handle-Only",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Occasional short lifts, simpler design",
+          "Pendaflex Portable File Box with File Rails"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Irreplaceable or Sensitive Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A stated independent fire rating with a named testing standard and duration (not just the word \"fireproof\"), plus a genuine lock rather than a basic latch."
+      },
+      {
+        "label": "In this comparison",
+        "text": "No pick in this specific comparison explicitly confirms an independent fire rating; check our dedicated fireproof file box roundup if that's a hard requirement."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Vaultz File Organizer Storage Box offers: From a brand known for more reinforced construction. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Staples File Folder Tote already covers the essentials: Cheapest option in this comparison. The main thing you'd be paying extra for elsewhere in this list is security or durability you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm genuine hanging-folder rail support", explanation: "Verify file rails are specifically described in the listing before assuming any plastic box supports hanging folders properly." },
-  { criterion: "Weigh review volume against price", explanation: "The Pendaflex and IRIS USA picks have substantial review bases; newer listings from Staples and Vaultz lack review history yet despite established brand names." },
-  { criterion: "Consider transparency vs. opaque construction", explanation: "Clear boxes let you see contents at a glance; opaque boxes may offer more privacy for sensitive documents." },
-  { criterion: "Check letter vs. legal size compatibility", explanation: "Verify your folder size is supported before ordering." },
-  { criterion: "Weigh reinforced construction against price for heavy use", explanation: "The Vaultz option is priced at a premium, likely reflecting more reinforced construction for frequent heavy use." },
+  {
+    "criterion": "Confirm letter, legal, or A4 compatibility against your actual documents",
+    "explanation": "File boxes are built around specific paper sizes, and letter (8.5x11 inch, standard in the US), legal (8.5x14 inch, longer), and A4 (the standard size in most of the rest of the world) hanging folders are not interchangeable, since a box sized for one won't properly fit hanging folders built for another.\n\nSome boxes explicitly support both letter and legal sizing with adjustable rails, while others are built for one size only, and buying the wrong size means folders that either don't fit the internal rails at all or sit loose and unsupported inside a box that's too large for them.\n\nCheck the listing's stated compatible paper and folder sizes against what you actually use, especially if you have any legal-size or A4 documents mixed into an otherwise standard letter-size collection."
+  },
+  {
+    "criterion": "Understand the real tradeoffs between plastic, metal, and clear construction",
+    "explanation": "Plastic file boxes are lightweight and generally the most affordable option, but can crack under impact and aren't fire-resistant, metal boxes offer more structural rigidity and impact resistance at a higher weight and price, and clear plastic boxes let you identify contents without opening the box but can gradually yellow and haze with sustained UV exposure near a window while also displaying document contents to anyone nearby.\n\nNone of these materials is universally best, the right choice depends on whether portability, durability, budget, or content privacy matters most for your specific situation, and boxes marketed primarily on one material's strength often compromise on another dimension.\n\nMatch the material to your actual priority (weight and cost for plastic, durability for metal, quick content identification for clear) rather than assuming any one material is a straightforward upgrade over the others."
+  },
+  {
+    "criterion": "Verify a fireproof claim's actual rating rather than trusting the word alone",
+    "explanation": "\"Fireproof\" and \"fire-resistant\" are used loosely in product marketing, and a genuine fire rating comes from an independent testing standard, commonly expressed as a UL rating with a specific time duration (such as 30 minutes) at a specific temperature the container is verified to withstand, information that a legitimately rated product will state explicitly rather than just using the word \"fireproof\" in the title.\n\nA box without a stated independent rating and testing standard should be treated as offering no verified fire protection at all, regardless of marketing language, since the word alone carries no legal or testing requirement behind it.\n\nCheck the specific listing for a named testing standard and duration rather than trusting \"fireproof\" in the product title alone, and if genuine fire protection for irreplaceable documents matters, prioritize listings that cite specific, verifiable certification details."
+  },
+  {
+    "criterion": "Check the lock or latch mechanism's actual security level against your real need",
+    "explanation": "File box closures range from a simple friction-fit lid with no locking mechanism at all, to a basic latch that keeps the lid shut during transport but offers no real security against an intentional attempt to open it, to a genuine key or combination lock that provides actual access control.\n\nThis distinction matters because a box marketed as \"lockable\" sometimes just means it has a small hole for a separately purchased padlock, not a lock included in the purchase, and conflating basic latching with genuine security leads to disappointment if you specifically need to restrict access to sensitive documents.\n\nCheck whether a lock is actually included in the purchase or merely accommodated via an aftermarket padlock, and match the closure type to whether you need transport-only convenience or genuine access restriction."
+  },
+  {
+    "criterion": "Weigh portability features (handles, wheels) against your actual moving distance and frequency",
+    "explanation": "A basic side handle works fine for lifting a file box a short distance or in and out of a car trunk occasionally, while wheels genuinely matter if you're moving a heavy, fully-loaded box repeatedly across a longer distance, such as between an office and a storage room on a regular basis, since a fully loaded file box can weigh considerably more than it looks once filled with paper documents.\n\nWheeled file boxes add real cost and bulk over a simple handle-only design, so this is a genuine tradeoff rather than wheels being a strict upgrade, and a box that will mostly sit in one place doesn't benefit from paying extra for mobility features it will rarely use.\n\nMatch the portability features to your actual moving pattern (occasional short lifts versus frequent longer moves) rather than defaulting to the most feature-rich option available."
+  }
 ];
 
 export const faq: FaqItem[] = [

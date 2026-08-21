@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "5,076",
     imageUrl: "https://m.media-amazon.com/images/I/41PdCI0nCgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08T6P8LB6?tag=deskfinds0d-20",
-    description:
-      "This box's rails are explicitly named in the product title and use standard letter-size spacing compatible with generically purchased hanging folders, verified against Pendaflex's own established hanging-file product line credibility.",
-    specs: ["Genuine standard-spacing hanging file rails", "Letter size", "Established file-storage brand", "Strong review history"],
-    pros: ["Standard rail spacing, compatible with generic folders", "Most proven pick by review volume", "Established hanging-file brand", "Reliable"],
-    cons: ["Letter size only, not legal", "Standard plastic construction", "No lock"],
+    description: "This box's rails are explicitly named in the product title and use standard letter-size spacing compatible with generically purchased hanging folders, verified against Pendaflex's own established hanging-file product line credibility.\n\nIt earns the top spot in this comparison over samstar 2 Pack Hanging File Organizer for one main reason. Standard rail spacing, compatible with generic folders. On price, it comes in below samstar 2 Pack Hanging File Organizer, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Most proven pick by review volume. On the other side, No lock. That's the main tradeoff to weigh against everything above.",
+    specs: ["Genuine standard-spacing hanging file rails","Letter size","Established file-storage brand","Strong review history"],
+    pros: ["Standard rail spacing, compatible with generic folders","Most proven pick by review volume","Established hanging-file brand","Reliable"],
+    cons: ["Letter size only, not legal","Standard plastic construction","No lock"],
     bestFor: "Buyers who want confirmed, standard-spacing hanging file rails from a trusted brand.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "2,531",
     imageUrl: "https://m.media-amazon.com/images/I/513nA08nU6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B082B29YKM?tag=deskfinds0d-20",
-    description:
-      "This mesh design's rails are visible through the wire construction, letting you verify folder placement and spacing at a glance, sold as a 2-pack for good value if you need multiple hanging-file boxes.",
-    specs: ["Mesh wire construction with visible rails", "2-pack", "Content-visible design", "Strong review count"],
-    pros: ["Rail placement visible through mesh", "2-pack value", "Strong review count", "Lighter than solid metal alternatives"],
-    cons: ["Open mesh, less enclosed than a lidded box", "No lock", "Less private for sensitive documents"],
+    description: "This mesh design's rails are visible through the wire construction, letting you verify folder placement and spacing at a glance, sold as a 2-pack for good value if you need multiple hanging-file boxes.\n\nOne spot below Pendaflex Portable File Box with File Rails in this ranking, it costs more than Pendaflex Portable File Box with File Rails. The compromise here is straightforward: Open mesh, less enclosed than a lidded box. What you gain in return: Rail placement visible through mesh. Whether that trade is worth it depends on which side matters more for your storage needs.\n\nWorth knowing before you decide: 2-pack value. On the other side, Less private for sensitive documents. That's the main tradeoff to weigh against everything above.",
+    specs: ["Mesh wire construction with visible rails","2-pack","Content-visible design","Strong review count"],
+    pros: ["Rail placement visible through mesh","2-pack value","Strong review count","Lighter than solid metal alternatives"],
+    cons: ["Open mesh, less enclosed than a lidded box","No lock","Less private for sensitive documents"],
     bestFor: "Buyers who want to visually verify rail and folder placement through an open mesh design.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "7,808",
     imageUrl: "https://m.media-amazon.com/images/I/419pjtp0ZDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B005T7XNDK?tag=deskfinds0d-20",
-    description:
-      "This box's rails accommodate both letter and legal size hanging folders explicitly, genuinely useful if your rail spacing needs vary by document type rather than being fixed to one size only.",
-    specs: ["Dual letter/legal rail spacing", "Organizer lid", "14.5 x 10.5 x 12 inches", "Highest review count here"],
-    pros: ["Dual letter/legal rail compatibility", "Highest review count in this comparison", "Organizer lid adds small-item storage", "Proven reliability"],
-    cons: ["Larger footprint to accommodate both sizes", "Mid-range price", "Standard plastic build"],
+    description: "This box's rails accommodate both letter and legal size hanging folders explicitly, genuinely useful if your rail spacing needs vary by document type rather than being fixed to one size only.\n\nSitting just under samstar 2 Pack Hanging File Organizer, it's priced lower than samstar 2 Pack Hanging File Organizer. Here's the honest tradeoff: Larger footprint to accommodate both sizes. And here's what it gets you instead: Dual letter/legal rail compatibility. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Highest review count in this comparison. On the other side, Standard plastic build. That's the main tradeoff to weigh against everything above.",
+    specs: ["Dual letter/legal rail spacing","Organizer lid","14.5 x 10.5 x 12 inches","Highest review count here"],
+    pros: ["Dual letter/legal rail compatibility","Highest review count in this comparison","Organizer lid adds small-item storage","Proven reliability"],
+    cons: ["Larger footprint to accommodate both sizes","Mid-range price","Standard plastic build"],
     bestFor: "Buyers who need rail compatibility with both letter and legal size folders.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "1,820",
     imageUrl: "https://m.media-amazon.com/images/I/41U02LvHAEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09TQ6HY4J?tag=deskfinds0d-20",
-    description:
-      "This variant pairs the same proven Pendaflex rail design with a hinged, double-latched lid, genuine added transport security for your hanging files during repeated use over the years.",
-    specs: ["Standard-spacing hanging file rails", "Hinged double-latch lid", "3-pack available", "Strong rating"],
-    pros: ["Proven Pendaflex rail design", "Double latch closure for transport security", "Strong rating", "Available as a multi-pack"],
-    cons: ["Higher price than basic single boxes", "Letter size only", "Hinge is a mechanical wear point over years"],
+    description: "This variant pairs the same proven Pendaflex rail design with a hinged, double-latched lid, genuine added transport security for your hanging files during repeated use over the years.\n\nRanked just behind Storex Portable Letter/Legal Filebox with Organizer Lid, it costs more than Storex Portable Letter/Legal Filebox with Organizer Lid. The real tradeoff against that pick: Higher price than basic single boxes. In exchange, it offers this instead: Proven Pendaflex rail design. That's the swap that decides whether this pick or the one above it is the better fit for your documents.\n\nWorth knowing before you decide: Double latch closure for transport security. On the other side, Hinge is a mechanical wear point over years. That's the main tradeoff to weigh against everything above.",
+    specs: ["Standard-spacing hanging file rails","Hinged double-latch lid","3-pack available","Strong rating"],
+    pros: ["Proven Pendaflex rail design","Double latch closure for transport security","Strong rating","Available as a multi-pack"],
+    cons: ["Higher price than basic single boxes","Letter size only","Hinge is a mechanical wear point over years"],
     bestFor: "Buyers who want proven rail durability combined with maximum lid security.",
   },
   {
@@ -98,13 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "1,128",
     imageUrl: "https://m.media-amazon.com/images/I/317LJOZfFQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D8CNX88V?tag=deskfinds0d-20",
-    description:
-      "This box's rails are explicitly confirmed for letter size hanging files in the product name at the most affordable price in this comparison, a solid budget-friendly choice for standard-spacing rail compatibility.",
-    specs: ["Confirmed letter-size hanging file rails", "Tote-style handle", "Affordable", "Staples brand"],
-    pros: ["Explicitly confirmed rail compatibility", "Most affordable pick here", "Solid review count", "Familiar office-supply brand"],
-    cons: ["Letter size only", "Basic latch, not double-locking", "Standard plastic durability"],
+    description: "This box's rails are explicitly confirmed for letter size hanging files in the product name at the most affordable price in this comparison, a solid budget-friendly choice for standard-spacing rail compatibility.\n\nOne spot below Pendaflex Portable File Box in this ranking, it's priced lower than Pendaflex Portable File Box. The compromise here is straightforward: Letter size only. What you gain in return: Explicitly confirmed rail compatibility. Whether that trade is worth it depends on which side matters more for your storage needs.\n\nWorth knowing before you decide: Most affordable pick here. On the other side, Standard plastic durability. That's the main tradeoff to weigh against everything above.",
+    specs: ["Confirmed letter-size hanging file rails","Tote-style handle","Affordable","Staples brand"],
+    pros: ["Explicitly confirmed rail compatibility","Most affordable pick here","Solid review count","Familiar office-supply brand"],
+    cons: ["Letter size only","Basic latch, not double-locking","Standard plastic durability"],
     bestFor: "Budget buyers who want confirmed rail compatibility without paying a premium.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,41 +113,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Priority",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Most proven, confirmed standard rails", "Pendaflex Portable File Box with File Rails"],
-        ["Visual rail verification through mesh", "samstar 2 Pack Mesh File Organizer"],
-        ["Dual letter/legal rail compatibility", "Storex Portable Letter/Legal Filebox"],
-        ["Proven rails plus secure lid", "Pendaflex Hinged Lid with Double Latch"],
-        ["Budget, confirmed rail compatibility", "Staples File Folder Tote"],
+    "subheading": "By Material",
+    "note": "Material isn't consistently confirmed across every pick in this comparison; check each listing's product details directly."
+  },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $17",
+          "Staples File Folder Tote"
+        ],
+        [
+          "Mid-range",
+          "Pendaflex Portable File Box with File Rails"
+        ],
+        [
+          "No firm budget ceiling, prioritizing security or durability",
+          "samstar 2 Pack Hanging File Organizer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "This Overlaps Significantly With Our General Portable File Box Guide",
-    note: "Since hanging file rails are a near-universal feature across genuine 'file boxes' (as opposed to simple storage bins), this guide's real value is rail-specific verification, not a fully distinct product category.",
-  },
-  {
-    subheading: "Standard Rail Spacing Matters",
-    cards: [
-      { label: "Standard-spacing rails", text: "Compatible with generically purchased hanging folders from any office supply source, present on every pick in this guide." },
-      { label: "Non-standard spacing", text: "A real risk on unverified budget listings; always confirm compatibility with your existing hanging folders before ordering." },
+    "subheading": "Lockable vs Basic Latch",
+    "cards": [
+      {
+        "label": "Lockable",
+        "text": "Provides genuine access restriction beyond just keeping the lid shut in transit. In this comparison: check each listing's closure type directly."
+      },
+      {
+        "label": "Basic Latch",
+        "text": "Keeps the lid closed during transport and handling, without real security against intentional access. In this comparison: Pendaflex Portable File Box with File Rails, samstar 2 Pack Hanging File Organizer, Storex Portable Letter/Legal Filebox with Organizer Lid."
+      }
     ],
+    "note": "Check each listing's stated closure type directly, since none of these picks explicitly confirm a genuine lock."
   },
   {
-    subheading: "Mesh Rails vs. Enclosed Rails",
-    note: "A mesh design lets you visually verify folder placement, useful for quick checks, at the tradeoff of less privacy and enclosure for sensitive documents compared to a solid-walled lidded box.",
+    "subheading": "By Portability: Wheels vs Handle-Only",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Occasional short lifts, simpler design",
+          "Pendaflex Portable File Box with File Rails"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For Irreplaceable or Sensitive Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A stated independent fire rating with a named testing standard and duration (not just the word \"fireproof\"), plus a genuine lock rather than a basic latch."
+      },
+      {
+        "label": "In this comparison",
+        "text": "No pick in this specific comparison explicitly confirms an independent fire rating; check our dedicated fireproof file box roundup if that's a hard requirement."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what samstar 2 Pack Hanging File Organizer offers: Rail placement visible through mesh. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Staples File Folder Tote already covers the essentials: Explicitly confirmed rail compatibility. The main thing you'd be paying extra for elsewhere in this list is security or durability you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm rail spacing matches standard hanging folders", explanation: "Verify the box's rails accommodate generically purchased letter or legal hanging folders rather than requiring specially sized folders." },
-  { criterion: "Check letter vs. legal rail compatibility", explanation: "Some boxes support both sizes, others only letter. Confirm this matches your actual document sizes before ordering." },
-  { criterion: "Consider mesh construction for visual rail verification", explanation: "A mesh design lets you see folder placement at a glance, useful for quick organization checks, at the cost of less enclosure and privacy." },
-  { criterion: "Weigh rail durability for frequent file access", explanation: "If you regularly insert and remove files, favor a pick with a strong, proven review history as evidence the rail mechanism holds up over repeated use." },
-  { criterion: "Recognize this overlaps with the general file box category", explanation: "Since hanging rails are near-universal on genuine file boxes, evaluate other features (lid security, size, lock) alongside rail compatibility rather than treating rails alone as the differentiator." },
+  {
+    "criterion": "Confirm letter, legal, or A4 compatibility against your actual documents",
+    "explanation": "File boxes are built around specific paper sizes, and letter (8.5x11 inch, standard in the US), legal (8.5x14 inch, longer), and A4 (the standard size in most of the rest of the world) hanging folders are not interchangeable, since a box sized for one won't properly fit hanging folders built for another.\n\nSome boxes explicitly support both letter and legal sizing with adjustable rails, while others are built for one size only, and buying the wrong size means folders that either don't fit the internal rails at all or sit loose and unsupported inside a box that's too large for them.\n\nCheck the listing's stated compatible paper and folder sizes against what you actually use, especially if you have any legal-size or A4 documents mixed into an otherwise standard letter-size collection."
+  },
+  {
+    "criterion": "Understand the real tradeoffs between plastic, metal, and clear construction",
+    "explanation": "Plastic file boxes are lightweight and generally the most affordable option, but can crack under impact and aren't fire-resistant, metal boxes offer more structural rigidity and impact resistance at a higher weight and price, and clear plastic boxes let you identify contents without opening the box but can gradually yellow and haze with sustained UV exposure near a window while also displaying document contents to anyone nearby.\n\nNone of these materials is universally best, the right choice depends on whether portability, durability, budget, or content privacy matters most for your specific situation, and boxes marketed primarily on one material's strength often compromise on another dimension.\n\nMatch the material to your actual priority (weight and cost for plastic, durability for metal, quick content identification for clear) rather than assuming any one material is a straightforward upgrade over the others."
+  },
+  {
+    "criterion": "Verify a fireproof claim's actual rating rather than trusting the word alone",
+    "explanation": "\"Fireproof\" and \"fire-resistant\" are used loosely in product marketing, and a genuine fire rating comes from an independent testing standard, commonly expressed as a UL rating with a specific time duration (such as 30 minutes) at a specific temperature the container is verified to withstand, information that a legitimately rated product will state explicitly rather than just using the word \"fireproof\" in the title.\n\nA box without a stated independent rating and testing standard should be treated as offering no verified fire protection at all, regardless of marketing language, since the word alone carries no legal or testing requirement behind it.\n\nCheck the specific listing for a named testing standard and duration rather than trusting \"fireproof\" in the product title alone, and if genuine fire protection for irreplaceable documents matters, prioritize listings that cite specific, verifiable certification details."
+  },
+  {
+    "criterion": "Check the lock or latch mechanism's actual security level against your real need",
+    "explanation": "File box closures range from a simple friction-fit lid with no locking mechanism at all, to a basic latch that keeps the lid shut during transport but offers no real security against an intentional attempt to open it, to a genuine key or combination lock that provides actual access control.\n\nThis distinction matters because a box marketed as \"lockable\" sometimes just means it has a small hole for a separately purchased padlock, not a lock included in the purchase, and conflating basic latching with genuine security leads to disappointment if you specifically need to restrict access to sensitive documents.\n\nCheck whether a lock is actually included in the purchase or merely accommodated via an aftermarket padlock, and match the closure type to whether you need transport-only convenience or genuine access restriction."
+  },
+  {
+    "criterion": "Weigh portability features (handles, wheels) against your actual moving distance and frequency",
+    "explanation": "A basic side handle works fine for lifting a file box a short distance or in and out of a car trunk occasionally, while wheels genuinely matter if you're moving a heavy, fully-loaded box repeatedly across a longer distance, such as between an office and a storage room on a regular basis, since a fully loaded file box can weigh considerably more than it looks once filled with paper documents.\n\nWheeled file boxes add real cost and bulk over a simple handle-only design, so this is a genuine tradeoff rather than wheels being a strict upgrade, and a box that will mostly sit in one place doesn't benefit from paying extra for mobility features it will rarely use.\n\nMatch the portability features to your actual moving pattern (occasional short lifts versus frequent longer moves) rather than defaulting to the most feature-rich option available."
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "1,935",
     imageUrl: "https://m.media-amazon.com/images/I/31tgxXrxOrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000K3GBGY?tag=deskfinds0d-20",
-    description:
-      "This is a genuinely heavy-duty design, with a reinforced dual-lock body and handle rated for its own substantial weight, the most robust construction in this comparison and priced accordingly as the most premium pick here.",
-    specs: ["Reinforced heavy-duty construction", "Dual lock mechanism", "Reinforced handle", "Letter and legal size"],
-    pros: ["Most genuinely reinforced construction in this comparison", "Dual locking points", "Letter/legal compatible", "Handle rated for heavy loads"],
-    cons: ["Most expensive pick here", "Heaviest overall construction", "Overkill for light document storage"],
+    description: "This is a genuinely heavy-duty design, with a reinforced dual-lock body and handle rated for its own substantial weight, the most robust construction in this comparison and priced accordingly as the most premium pick here.\n\nIt earns the top spot in this comparison over Vaultz File Organizer Storage Box for one main reason. Most genuinely reinforced construction in this comparison. On price, it's actually priced above Vaultz File Organizer Storage Box, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Dual locking points. On the other side, Overkill for light document storage. That's the main tradeoff to weigh against everything above.",
+    specs: ["Reinforced heavy-duty construction","Dual lock mechanism","Reinforced handle","Letter and legal size"],
+    pros: ["Most genuinely reinforced construction in this comparison","Dual locking points","Letter/legal compatible","Handle rated for heavy loads"],
+    cons: ["Most expensive pick here","Heaviest overall construction","Overkill for light document storage"],
     bestFor: "Buyers who want the most genuinely reinforced, premium heavy-duty construction.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "2,705",
     imageUrl: "https://m.media-amazon.com/images/I/41vOA84B1YL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000GP0Z6I?tag=deskfinds0d-20",
-    description:
-      "From the same established locking-storage brand as our top pick, this box's construction is genuinely more reinforced than a standard plastic box while remaining meaningfully more affordable than the dual-lock premium option above.",
-    specs: ["Reinforced metal-body construction", "Key lock included", "Letter size", "Strong review history"],
-    pros: ["Genuinely reinforced construction at a lower price than the top pick", "Strong review count", "Includes a real key lock", "Established brand"],
-    cons: ["Letter size only", "Single lock point versus dual", "Still heavier than standard plastic boxes"],
+    description: "From the same established locking-storage brand as our top pick, this box's construction is genuinely more reinforced than a standard plastic box while remaining meaningfully more affordable than the dual-lock premium option above.\n\nOne spot below Vaultz Portable File Box with Handle in this ranking, it's priced lower than Vaultz Portable File Box with Handle. The compromise here is straightforward: Letter size only. What you gain in return: Genuinely reinforced construction at a lower price than the top pick. Whether that trade is worth it depends on which side matters more for your storage needs.\n\nWorth knowing before you decide: Strong review count. On the other side, Still heavier than standard plastic boxes. That's the main tradeoff to weigh against everything above.",
+    specs: ["Reinforced metal-body construction","Key lock included","Letter size","Strong review history"],
+    pros: ["Genuinely reinforced construction at a lower price than the top pick","Strong review count","Includes a real key lock","Established brand"],
+    cons: ["Letter size only","Single lock point versus dual","Still heavier than standard plastic boxes"],
     bestFor: "Buyers who want genuine heavy-duty construction at a more moderate price.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "7,808",
     imageUrl: "https://m.media-amazon.com/images/I/419pjtp0ZDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B005T7XNDK?tag=deskfinds0d-20",
-    description:
-      "Honesty note: this is a standard-tier plastic box, not genuinely heavy-duty construction, included here as a direct comparison point for buyers deciding whether the premium picks above justify their added price and weight over this proven, affordable alternative.",
-    specs: ["Standard plastic construction, not heavy-duty", "Letter and legal size", "Organizer lid", "Highest review count in this comparison"],
-    pros: ["Highest review count of any pick here", "Letter/legal compatible", "Significantly more affordable than genuine heavy-duty picks", "Proven reliability"],
-    cons: ["Not genuinely heavy-duty construction", "Less impact-resistant than the reinforced picks", "No lock"],
+    description: "Honesty note: this is a standard-tier plastic box, not genuinely heavy-duty construction, included here as a direct comparison point for buyers deciding whether the premium picks above justify their added price and weight over this proven, affordable alternative.\n\nSitting just under Vaultz File Organizer Storage Box, it's priced lower than Vaultz File Organizer Storage Box. Here's the honest tradeoff: Not genuinely heavy-duty construction. And here's what it gets you instead: Highest review count of any pick here. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Letter/legal compatible. On the other side, No lock. That's the main tradeoff to weigh against everything above.",
+    specs: ["Standard plastic construction, not heavy-duty","Letter and legal size","Organizer lid","Highest review count in this comparison"],
+    pros: ["Highest review count of any pick here","Letter/legal compatible","Significantly more affordable than genuine heavy-duty picks","Proven reliability"],
+    cons: ["Not genuinely heavy-duty construction","Less impact-resistant than the reinforced picks","No lock"],
     bestFor: "Buyers deciding whether standard-tier construction is sufficient before paying a heavy-duty premium.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "5,076",
     imageUrl: "https://m.media-amazon.com/images/I/41PdCI0nCgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08T6P8LB6?tag=deskfinds0d-20",
-    description:
-      "Also a standard-tier box rather than genuinely heavy-duty, this Pendaflex pick's strong review history demonstrates that standard-tier construction can hold up reliably for most buyers who don't need the premium reinforcement of a true heavy-duty design.",
-    specs: ["Standard plastic construction", "Genuine hanging file rails", "Letter size", "Strong review history"],
-    pros: ["Most proven standard-tier pick by review volume", "Meaningfully more affordable than heavy-duty options", "Confirmed hanging file rails", "Reliable brand"],
-    cons: ["Not genuinely heavy-duty construction", "Letter size only", "No lock"],
+    description: "Also a standard-tier box rather than genuinely heavy-duty, this Pendaflex pick's strong review history demonstrates that standard-tier construction can hold up reliably for most buyers who don't need the premium reinforcement of a true heavy-duty design.\n\nRanked just behind Storex Portable Letter/Legal Filebox with Organizer Lid, it costs more than Storex Portable Letter/Legal Filebox with Organizer Lid. The real tradeoff against that pick: Not genuinely heavy-duty construction. In exchange, it offers this instead: Most proven standard-tier pick by review volume. That's the swap that decides whether this pick or the one above it is the better fit for your documents.\n\nWorth knowing before you decide: Meaningfully more affordable than heavy-duty options. On the other side, No lock. That's the main tradeoff to weigh against everything above.",
+    specs: ["Standard plastic construction","Genuine hanging file rails","Letter size","Strong review history"],
+    pros: ["Most proven standard-tier pick by review volume","Meaningfully more affordable than heavy-duty options","Confirmed hanging file rails","Reliable brand"],
+    cons: ["Not genuinely heavy-duty construction","Letter size only","No lock"],
     bestFor: "Buyers whose realistic needs are met by proven standard-tier construction, not premium reinforcement.",
   },
   {
@@ -98,13 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "721",
     imageUrl: "https://m.media-amazon.com/images/I/41khvywa+7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004GXB6RI?tag=deskfinds0d-20",
-    description:
-      "Another standard-tier alternative, this 4-pack works out to a strong per-unit cost if you need multiple boxes and have decided premium heavy-duty reinforcement isn't necessary for your realistic use case.",
-    specs: ["Standard plastic construction, 4-pack", "Carrying handle", "Strong rating", "Lower per-unit cost"],
-    pros: ["Strong per-unit value if buying multiple boxes", "Good rating", "Reputable Sterilite brand", "Handle for portability"],
-    cons: ["Not genuinely heavy-duty construction", "Letter size only", "Higher total upfront cost for the 4-pack"],
+    description: "Another standard-tier alternative, this 4-pack works out to a strong per-unit cost if you need multiple boxes and have decided premium heavy-duty reinforcement isn't necessary for your realistic use case.\n\nOne spot below Pendaflex Portable File Box with File Rails in this ranking, it costs more than Pendaflex Portable File Box with File Rails. The compromise here is straightforward: Not genuinely heavy-duty construction. What you gain in return: Strong per-unit value if buying multiple boxes. Whether that trade is worth it depends on which side matters more for your storage needs.\n\nWorth knowing before you decide: Good rating. On the other side, Higher total upfront cost for the 4-pack. That's the main tradeoff to weigh against everything above.",
+    specs: ["Standard plastic construction, 4-pack","Carrying handle","Strong rating","Lower per-unit cost"],
+    pros: ["Strong per-unit value if buying multiple boxes","Good rating","Reputable Sterilite brand","Handle for portability"],
+    cons: ["Not genuinely heavy-duty construction","Letter size only","Higher total upfront cost for the 4-pack"],
     bestFor: "Buyers who need multiple boxes and have decided standard construction meets their needs.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,41 +113,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Priority",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Maximum genuine reinforcement", "Vaultz Portable File Box, Dual Lock"],
-        ["Genuine reinforcement at a lower price", "Vaultz File Organizer Storage Box"],
-        ["Deciding if standard-tier suffices", "Storex Portable Letter/Legal Filebox"],
-        ["Proven standard-tier alternative", "Pendaflex Portable File Box with File Rails"],
-        ["Multiple standard boxes, best value", "Sterilite Portable File Box, 4 Pack"],
+    "subheading": "By Material",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Prioritizing metal",
+          "Vaultz File Organizer Storage Box"
+        ],
+        [
+          "Prioritizing plastic",
+          "Storex Portable Letter/Legal Filebox with Organizer Lid"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Is 'Heavy-Duty' Actually Justified?",
-    note: "Only the two Vaultz picks in this comparison show genuinely reinforced construction and materials justifying a heavy-duty label. The other three picks are proven, reliable standard-tier boxes at meaningfully lower prices, honest alternatives if you don't need premium reinforcement.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $24",
+          "Storex Portable Letter/Legal Filebox with Organizer Lid"
+        ],
+        [
+          "Mid-range",
+          "Sterilite Portable File Box"
+        ],
+        [
+          "No firm budget ceiling, prioritizing security or durability",
+          "Vaultz Portable File Box with Handle"
+        ]
+      ]
+    }
   },
   {
-    subheading: "When Heavy-Duty Construction Actually Matters",
-    cards: [
-      { label: "Frequent transport, rough handling", text: "Genuine heavy-duty reinforcement, like the Vaultz picks, provides real value against drops and impacts." },
-      { label: "Occasional, careful handling", text: "A proven standard-tier box, like the Pendaflex or Storex picks, is likely sufficient and meaningfully more affordable." },
+    "subheading": "Lockable vs Basic Latch",
+    "cards": [
+      {
+        "label": "Lockable",
+        "text": "Provides genuine access restriction beyond just keeping the lid shut in transit. In this comparison: Vaultz Portable File Box with Handle, Vaultz File Organizer Storage Box."
+      },
+      {
+        "label": "Basic Latch",
+        "text": "Keeps the lid closed during transport and handling, without real security against intentional access. In this comparison: Storex Portable Letter/Legal Filebox with Organizer Lid, Pendaflex Portable File Box with File Rails, Sterilite Portable File Box."
+      }
     ],
+    "note": "If restricting access to sensitive documents matters, prioritize a lockable pick like Vaultz Portable File Box with Handle over a basic-latch alternative."
   },
   {
-    subheading: "Weigh the Premium Against Your Realistic Use",
-    note: "If your file box mostly sits on a desk or shelf with only occasional careful transport, the heavy-duty premium may not deliver proportional value. Reserve it for genuinely rough handling scenarios, like frequent car transport or shipping.",
+    "subheading": "By Portability: Wheels vs Handle-Only",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Occasional short lifts, simpler design",
+          "Vaultz Portable File Box with Handle"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For Irreplaceable or Sensitive Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A stated independent fire rating with a named testing standard and duration (not just the word \"fireproof\"), plus a genuine lock rather than a basic latch."
+      },
+      {
+        "label": "In this comparison",
+        "text": "No pick in this specific comparison explicitly confirms an independent fire rating; check our dedicated fireproof file box roundup if that's a hard requirement."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Vaultz Portable File Box with Handle offers: Most genuinely reinforced construction in this comparison. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Storex Portable Letter/Legal Filebox with Organizer Lid already covers the essentials: Highest review count of any pick here. The main thing you'd be paying extra for elsewhere in this list is security or durability you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify genuine construction differences, not just marketing language", explanation: "Check for disclosed material specs or reinforcement details rather than accepting 'heavy-duty' as a self-evident claim from the product title alone." },
-  { criterion: "Weigh the price premium against your realistic handling needs", explanation: "If your box mostly sits on a desk with occasional careful transport, a proven standard-tier box may be sufficient without paying for premium reinforcement." },
-  { criterion: "Consider drop and impact resistance for frequent transport use", explanation: "If you regularly move the box between locations or ship it, genuine heavy-duty reinforcement provides real, verifiable value against this realistic risk." },
-  { criterion: "Check whether the premium includes a genuine lock upgrade too", explanation: "The Vaultz heavy-duty picks combine reinforced construction with genuine key or dual-lock security, a combined value proposition beyond just impact resistance." },
-  { criterion: "Don't assume heavier weight alone means heavy-duty", explanation: "A heavier box isn't automatically more impact-resistant. Look for genuine construction and material differences rather than assuming weight correlates directly with durability." },
+  {
+    "criterion": "Confirm letter, legal, or A4 compatibility against your actual documents",
+    "explanation": "File boxes are built around specific paper sizes, and letter (8.5x11 inch, standard in the US), legal (8.5x14 inch, longer), and A4 (the standard size in most of the rest of the world) hanging folders are not interchangeable, since a box sized for one won't properly fit hanging folders built for another.\n\nSome boxes explicitly support both letter and legal sizing with adjustable rails, while others are built for one size only, and buying the wrong size means folders that either don't fit the internal rails at all or sit loose and unsupported inside a box that's too large for them.\n\nCheck the listing's stated compatible paper and folder sizes against what you actually use, especially if you have any legal-size or A4 documents mixed into an otherwise standard letter-size collection."
+  },
+  {
+    "criterion": "Understand the real tradeoffs between plastic, metal, and clear construction",
+    "explanation": "Plastic file boxes are lightweight and generally the most affordable option, but can crack under impact and aren't fire-resistant, metal boxes offer more structural rigidity and impact resistance at a higher weight and price, and clear plastic boxes let you identify contents without opening the box but can gradually yellow and haze with sustained UV exposure near a window while also displaying document contents to anyone nearby.\n\nNone of these materials is universally best, the right choice depends on whether portability, durability, budget, or content privacy matters most for your specific situation, and boxes marketed primarily on one material's strength often compromise on another dimension.\n\nMatch the material to your actual priority (weight and cost for plastic, durability for metal, quick content identification for clear) rather than assuming any one material is a straightforward upgrade over the others."
+  },
+  {
+    "criterion": "Verify a fireproof claim's actual rating rather than trusting the word alone",
+    "explanation": "\"Fireproof\" and \"fire-resistant\" are used loosely in product marketing, and a genuine fire rating comes from an independent testing standard, commonly expressed as a UL rating with a specific time duration (such as 30 minutes) at a specific temperature the container is verified to withstand, information that a legitimately rated product will state explicitly rather than just using the word \"fireproof\" in the title.\n\nA box without a stated independent rating and testing standard should be treated as offering no verified fire protection at all, regardless of marketing language, since the word alone carries no legal or testing requirement behind it.\n\nCheck the specific listing for a named testing standard and duration rather than trusting \"fireproof\" in the product title alone, and if genuine fire protection for irreplaceable documents matters, prioritize listings that cite specific, verifiable certification details."
+  },
+  {
+    "criterion": "Check the lock or latch mechanism's actual security level against your real need",
+    "explanation": "File box closures range from a simple friction-fit lid with no locking mechanism at all, to a basic latch that keeps the lid shut during transport but offers no real security against an intentional attempt to open it, to a genuine key or combination lock that provides actual access control.\n\nThis distinction matters because a box marketed as \"lockable\" sometimes just means it has a small hole for a separately purchased padlock, not a lock included in the purchase, and conflating basic latching with genuine security leads to disappointment if you specifically need to restrict access to sensitive documents.\n\nCheck whether a lock is actually included in the purchase or merely accommodated via an aftermarket padlock, and match the closure type to whether you need transport-only convenience or genuine access restriction."
+  },
+  {
+    "criterion": "Weigh portability features (handles, wheels) against your actual moving distance and frequency",
+    "explanation": "A basic side handle works fine for lifting a file box a short distance or in and out of a car trunk occasionally, while wheels genuinely matter if you're moving a heavy, fully-loaded box repeatedly across a longer distance, such as between an office and a storage room on a regular basis, since a fully loaded file box can weigh considerably more than it looks once filled with paper documents.\n\nWheeled file boxes add real cost and bulk over a simple handle-only design, so this is a genuine tradeoff rather than wheels being a strict upgrade, and a box that will mostly sit in one place doesn't benefit from paying extra for mobility features it will rarely use.\n\nMatch the portability features to your actual moving pattern (occasional short lifts versus frequent longer moves) rather than defaulting to the most feature-rich option available."
+  }
 ];
 
 export const faq: FaqItem[] = [

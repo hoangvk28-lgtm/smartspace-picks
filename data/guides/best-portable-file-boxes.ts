@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "5,076",
     imageUrl: "https://m.media-amazon.com/images/I/41PdCI0nCgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08T6P8LB6?tag=deskfinds0d-20",
-    description:
-      "This Pendaflex box includes genuine hanging file rails, not just an open storage bin, confirmed directly in the product name, and carries the strongest combined rating and review volume in this comparison. Its molded handle is built for the realistic weight of a fully loaded box of documents.",
-    specs: ["Genuine hanging file rails", "Molded carrying handle", "Letter size", "Strong review history"],
-    pros: ["Confirmed genuine hanging file rails", "Most proven pick by review volume", "Comfortable molded handle", "Reliable brand"],
-    cons: ["Letter size only, not legal", "Standard plastic construction", "No lock"],
+    description: "This Pendaflex box includes genuine hanging file rails, not just an open storage bin, confirmed directly in the product name, and carries the strongest combined rating and review volume in this comparison. Its molded handle is built for the realistic weight of a fully loaded box of documents.\n\nIt earns the top spot in this comparison over IRIS USA File Box Organizer with Lid for one main reason. Confirmed genuine hanging file rails. On price, it's actually priced above IRIS USA File Box Organizer with Lid, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Most proven pick by review volume. On the other side, No lock. That's the main tradeoff to weigh against everything above.",
+    specs: ["Genuine hanging file rails","Molded carrying handle","Letter size","Strong review history"],
+    pros: ["Confirmed genuine hanging file rails","Most proven pick by review volume","Comfortable molded handle","Reliable brand"],
+    cons: ["Letter size only, not legal","Standard plastic construction","No lock"],
     bestFor: "Buyers who want the most proven, reliable portable file box with genuine hanging rails.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "3,133",
     imageUrl: "https://m.media-amazon.com/images/I/41GQ8rqDXhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FVJZD3L?tag=deskfinds0d-20",
-    description:
-      "This IRIS USA box is the most affordable well-reviewed pick in this comparison, with a lid and portable handle sized for letter documents, a solid choice if you don't need legal-size compatibility or premium build materials.",
-    specs: ["Lid included", "Letter size", "Portable handle", "Affordable"],
-    pros: ["Very affordable", "Strong review count", "Lid included for enclosed storage", "Reputable brand"],
-    cons: ["Letter size only", "Lighter-duty plastic than premium picks", "No lock"],
+    description: "This IRIS USA box is the most affordable well-reviewed pick in this comparison, with a lid and portable handle sized for letter documents, a solid choice if you don't need legal-size compatibility or premium build materials.\n\nOne spot below Pendaflex Portable File Box with File Rails in this ranking, it's priced lower than Pendaflex Portable File Box with File Rails. The compromise here is straightforward: Letter size only. What you gain in return: Very affordable. Whether that trade is worth it depends on which side matters more for your storage needs.\n\nWorth knowing before you decide: Strong review count. On the other side, No lock. That's the main tradeoff to weigh against everything above.",
+    specs: ["Lid included","Letter size","Portable handle","Affordable"],
+    pros: ["Very affordable","Strong review count","Lid included for enclosed storage","Reputable brand"],
+    cons: ["Letter size only","Lighter-duty plastic than premium picks","No lock"],
     bestFor: "Budget buyers who want a reliable, affordable letter-size file box.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "7,808",
     imageUrl: "https://m.media-amazon.com/images/I/419pjtp0ZDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B005T7XNDK?tag=deskfinds0d-20",
-    description:
-      "This Storex box explicitly accommodates both letter and legal size hanging files in the same 14.5 x 10.5 x 12 inch box, genuinely useful for buyers with mixed document sizes rather than needing separate boxes for each.\n\nIt carries the highest review count of any pick in this comparison, real evidence of reliable long-term performance across a large buyer base.",
-    specs: ["Letter and legal size compatible", "Organizer lid", "14.5 x 10.5 x 12 inches", "Highest review count here"],
-    pros: ["Dual letter/legal compatibility", "Highest review count in this comparison", "Organizer lid adds small-item storage", "Proven reliability"],
-    cons: ["Larger footprint to accommodate both sizes", "Mid-range price", "Standard plastic build"],
+    description: "This Storex box explicitly accommodates both letter and legal size hanging files in the same 14.5 x 10.5 x 12 inch box, genuinely useful for buyers with mixed document sizes rather than needing separate boxes for each.\n\nSitting just under IRIS USA File Box Organizer with Lid, it costs more than IRIS USA File Box Organizer with Lid. Here's the honest tradeoff: Larger footprint to accommodate both sizes. And here's what it gets you instead: Dual letter/legal compatibility. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Highest review count in this comparison. On the other side, Standard plastic build. That's the main tradeoff to weigh against everything above.",
+    specs: ["Letter and legal size compatible","Organizer lid","14.5 x 10.5 x 12 inches","Highest review count here"],
+    pros: ["Dual letter/legal compatibility","Highest review count in this comparison","Organizer lid adds small-item storage","Proven reliability"],
+    cons: ["Larger footprint to accommodate both sizes","Mid-range price","Standard plastic build"],
     bestFor: "Buyers with mixed letter and legal size documents who want one box for both.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "1,820",
     imageUrl: "https://m.media-amazon.com/images/I/41U02LvHAEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09TQ6HY4J?tag=deskfinds0d-20",
-    description:
-      "This variant's hinged lid with a double latch closure addresses the core transport-security concern directly, genuinely more resistant to popping open during tilting or a firm setdown than a simple friction-fit lid.",
-    specs: ["Hinged lid, double latch closure", "3-pack available", "Genuine hanging file rails", "Strong rating"],
-    pros: ["Double latch closure for genuine transport security", "Hinged lid can't be lost", "Strong rating", "Available as a multi-pack"],
-    cons: ["Higher price than basic single boxes", "Letter size only", "Hinge is a mechanical wear point over years"],
+    description: "This variant's hinged lid with a double latch closure addresses the core transport-security concern directly, genuinely more resistant to popping open during tilting or a firm setdown than a simple friction-fit lid.\n\nRanked just behind Storex Portable Letter/Legal Filebox with Organizer Lid, it costs more than Storex Portable Letter/Legal Filebox with Organizer Lid. The real tradeoff against that pick: Higher price than basic single boxes. In exchange, it offers this instead: Double latch closure for genuine transport security. That's the swap that decides whether this pick or the one above it is the better fit for your documents.\n\nWorth knowing before you decide: Hinged lid can't be lost. On the other side, Hinge is a mechanical wear point over years. That's the main tradeoff to weigh against everything above.",
+    specs: ["Hinged lid, double latch closure","3-pack available","Genuine hanging file rails","Strong rating"],
+    pros: ["Double latch closure for genuine transport security","Hinged lid can't be lost","Strong rating","Available as a multi-pack"],
+    cons: ["Higher price than basic single boxes","Letter size only","Hinge is a mechanical wear point over years"],
     bestFor: "Buyers who prioritize maximum lid security during actual transport.",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "721",
     imageUrl: "https://m.media-amazon.com/images/I/41khvywa+7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004GXB6RI?tag=deskfinds0d-20",
-    description:
-      "This Sterilite 4-pack works out to roughly $14 per box, a strong per-unit value if you need multiple file boxes for a household or small office rather than a single unit.",
-    specs: ["4-pack of letter file boxes", "Carrying handle", "Strong rating", "Lower per-unit cost"],
-    pros: ["Strong per-unit value in the 4-pack", "Good rating", "Reputable Sterilite brand", "Handle for portability"],
-    cons: ["Unnecessary if you only need one box", "Letter size only", "Higher total upfront cost"],
+    description: "This Sterilite 4-pack works out to roughly $14 per box, a strong per-unit value if you need multiple file boxes for a household or small office rather than a single unit.\n\nOne spot below Pendaflex Portable File Box in this ranking, it costs more than Pendaflex Portable File Box. The compromise here is straightforward: Unnecessary if you only need one box. What you gain in return: Strong per-unit value in the 4-pack. Whether that trade is worth it depends on which side matters more for your storage needs.\n\nWorth knowing before you decide: Good rating. On the other side, Higher total upfront cost. That's the main tradeoff to weigh against everything above.",
+    specs: ["4-pack of letter file boxes","Carrying handle","Strong rating","Lower per-unit cost"],
+    pros: ["Strong per-unit value in the 4-pack","Good rating","Reputable Sterilite brand","Handle for portability"],
+    cons: ["Unnecessary if you only need one box","Letter size only","Higher total upfront cost"],
     bestFor: "Buyers who need multiple file boxes and want the best per-unit value.",
   },
   {
@@ -115,11 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "1,128",
     imageUrl: "https://m.media-amazon.com/images/I/317LJOZfFQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D8CNX88V?tag=deskfinds0d-20",
-    description:
-      "This Staples tote-style box is explicitly built for letter size hanging files at a lower price point, a solid budget-friendly alternative for buyers who don't need legal-size capacity or premium latching hardware.",
-    specs: ["Tote-style handle design", "Letter size hanging files", "Affordable", "Staples brand"],
-    pros: ["Affordable", "Confirmed hanging file compatibility", "Solid review count", "Familiar office-supply brand"],
-    cons: ["Letter size only", "Basic latch, not double-locking", "Standard plastic durability"],
+    description: "This Staples tote-style box is explicitly built for letter size hanging files at a lower price point, a solid budget-friendly alternative for buyers who don't need legal-size capacity or premium latching hardware.\n\nSitting just under Sterilite Portable File Box, it's priced lower than Sterilite Portable File Box. Here's the honest tradeoff: Letter size only. And here's what it gets you instead: Affordable. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Confirmed hanging file compatibility. On the other side, Standard plastic durability. That's the main tradeoff to weigh against everything above.",
+    specs: ["Tote-style handle design","Letter size hanging files","Affordable","Staples brand"],
+    pros: ["Affordable","Confirmed hanging file compatibility","Solid review count","Familiar office-supply brand"],
+    cons: ["Letter size only","Basic latch, not double-locking","Standard plastic durability"],
     bestFor: "Budget buyers who want a straightforward, confirmed hanging-file-compatible tote.",
   },
   {
@@ -132,11 +126,10 @@ export const products: GuideProduct[] = [
     reviews: "574",
     imageUrl: "https://m.media-amazon.com/images/I/31C0AH1punL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F6FGSF7Z?tag=deskfinds0d-20",
-    description:
-      "At 35 quarts, this is the highest-capacity pick in this comparison, accommodating both letter and legal size files with a latching lid, and its clear construction lets you identify contents without opening the box.",
-    specs: ["35 qt capacity, largest here", "Letter/legal size compatible", "Latching lid", "Clear construction"],
-    pros: ["Largest capacity in this comparison", "Dual letter/legal compatibility", "Latching lid for security", "Clear for content visibility"],
-    cons: ["Bulkier than standard-size boxes", "Clear plastic may yellow with UV exposure over time", "Heavier when fully loaded given the larger size"],
+    description: "At 35 quarts, this is the highest-capacity pick in this comparison, accommodating both letter and legal size files with a latching lid, and its clear construction lets you identify contents without opening the box.\n\nRanked just behind Staples File Folder Tote, it costs more than Staples File Folder Tote. The real tradeoff against that pick: Bulkier than standard-size boxes. In exchange, it offers this instead: Largest capacity in this comparison. That's the swap that decides whether this pick or the one above it is the better fit for your documents.\n\nWorth knowing before you decide: Dual letter/legal compatibility. On the other side, Heavier when fully loaded given the larger size. That's the main tradeoff to weigh against everything above.",
+    specs: ["35 qt capacity, largest here","Letter/legal size compatible","Latching lid","Clear construction"],
+    pros: ["Largest capacity in this comparison","Dual letter/legal compatibility","Latching lid for security","Clear for content visibility"],
+    cons: ["Bulkier than standard-size boxes","Clear plastic may yellow with UV exposure over time","Heavier when fully loaded given the larger size"],
     bestFor: "Buyers who need maximum capacity in one box for a large document collection.",
   },
   {
@@ -149,13 +142,12 @@ export const products: GuideProduct[] = [
     reviews: "258",
     imageUrl: "https://m.media-amazon.com/images/I/31VVX+PgVwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D92V2XZT?tag=deskfinds0d-20",
-    description:
-      "A more compact clear alternative to the IRIS USA 35 quart box, this Staples pick suits buyers who want content visibility without the bulk of a maximum-capacity design.",
-    specs: ["Clear plastic construction", "Letter size", "Compact profile", "Staples brand"],
-    pros: ["Clear for content visibility", "Compact, not bulky", "Reputable brand", "Affordable"],
-    cons: ["Smaller review count", "Letter size only", "Standard latch, not double-locking"],
+    description: "A more compact clear alternative to the IRIS USA 35 quart box, this Staples pick suits buyers who want content visibility without the bulk of a maximum-capacity design.\n\nOne spot below IRIS USA 35 Qt. Letter/Legal File Box with Latching Lid in this ranking, it costs more than IRIS USA 35 Qt. Letter/Legal File Box with Latching Lid. The compromise here is straightforward: Smaller review count. What you gain in return: Clear for content visibility. Whether that trade is worth it depends on which side matters more for your storage needs.\n\nWorth knowing before you decide: Compact, not bulky. On the other side, Standard latch, not double-locking. That's the main tradeoff to weigh against everything above.",
+    specs: ["Clear plastic construction","Letter size","Compact profile","Staples brand"],
+    pros: ["Clear for content visibility","Compact, not bulky","Reputable brand","Affordable"],
+    cons: ["Smaller review count","Letter size only","Standard latch, not double-locking"],
     bestFor: "Buyers who want content visibility in a more compact, standard-capacity box.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -169,41 +161,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Priority",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Most proven overall, genuine rails", "Pendaflex Portable File Box with File Rails"],
-        ["Lowest price", "IRIS USA File Box Organizer with Lid"],
-        ["Mixed letter and legal documents", "Storex Portable Letter/Legal Filebox"],
-        ["Maximum lid security for transport", "Pendaflex Hinged Lid with Double Latch"],
-        ["Need multiple boxes, best value", "Sterilite Portable File Box, 4 Pack"],
+    "subheading": "By Material",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Prioritizing clear",
+          "IRIS USA 35 Qt. Letter/Legal File Box with Latching Lid"
+        ],
+        [
+          "Prioritizing plastic",
+          "Staples File Box Portable Storage Tote"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Letter vs. Legal Size: Check Before You Buy",
-    note: "Not every box in this comparison fits legal size documents. The Storex and IRIS USA 35 Qt picks explicitly accommodate both; verify this compatibility for any other pick before ordering if you use legal size folders.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $19",
+          "Staples File Folder Tote"
+        ],
+        [
+          "Mid-range",
+          "Staples File Box Portable Storage Tote"
+        ],
+        [
+          "No firm budget ceiling, prioritizing security or durability",
+          "Sterilite Portable File Box"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Hanging Rails vs. Open Bin",
-    cards: [
-      { label: "Genuine hanging file rails", text: "Lets you use standard hanging folders directly, confirmed on the Pendaflex and Storex picks." },
-      { label: "Open storage bin", text: "No rails, works for loose papers or non-hanging folders, but check specifically before assuming any 'file box' includes this feature." },
+    "subheading": "Lockable vs Basic Latch",
+    "cards": [
+      {
+        "label": "Lockable",
+        "text": "Provides genuine access restriction beyond just keeping the lid shut in transit. In this comparison: check each listing's closure type directly."
+      },
+      {
+        "label": "Basic Latch",
+        "text": "Keeps the lid closed during transport and handling, without real security against intentional access. In this comparison: Pendaflex Portable File Box with File Rails, IRIS USA File Box Organizer with Lid, Storex Portable Letter/Legal Filebox with Organizer Lid."
+      }
     ],
+    "note": "Check each listing's stated closure type directly, since none of these picks explicitly confirm a genuine lock."
   },
   {
-    subheading: "Lid Security for Actual Transport",
-    note: "A double-latch or hinged lid design resists popping open during tilting or a firm setdown far better than a simple friction-fit lid, the core functional promise this entire product category exists to deliver.",
+    "subheading": "By Portability: Wheels vs Handle-Only",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Occasional short lifts, simpler design",
+          "Pendaflex Portable File Box with File Rails"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For Irreplaceable or Sensitive Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A stated independent fire rating with a named testing standard and duration (not just the word \"fireproof\"), plus a genuine lock rather than a basic latch."
+      },
+      {
+        "label": "In this comparison",
+        "text": "No pick in this specific comparison explicitly confirms an independent fire rating; check our dedicated fireproof file box roundup if that's a hard requirement."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Sterilite Portable File Box offers: Strong per-unit value in the 4-pack. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Staples File Folder Tote already covers the essentials: Affordable. The main thing you'd be paying extra for elsewhere in this list is security or durability you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify genuine hanging file rail compatibility", explanation: "Not every 'file box' includes actual rails. Check the specific listing confirms hanging file rail compatibility if that's how you plan to organize documents." },
-  { criterion: "Check letter vs. legal size compatibility explicitly", explanation: "Many boxes are letter-size only. If you use legal size folders, confirm compatibility before ordering, since this varies meaningfully across the category." },
-  { criterion: "Prioritize a secure double-latch or hinged lid for transport", explanation: "A simple friction-fit lid can pop open when tilted or set down firmly. A double-latch or hinged design provides genuinely more reliable security during transport." },
-  { criterion: "Consider handle comfort under realistic loaded weight", explanation: "A molded handle tested for a fully loaded box of paper documents holds up better than a thin handle only adequate for an empty demonstration." },
-  { criterion: "Weigh a multi-pack if you need several boxes", explanation: "Buying a multi-pack, like the Sterilite 4-pack, generally offers a better per-unit price than purchasing individual boxes separately." },
+  {
+    "criterion": "Confirm letter, legal, or A4 compatibility against your actual documents",
+    "explanation": "File boxes are built around specific paper sizes, and letter (8.5x11 inch, standard in the US), legal (8.5x14 inch, longer), and A4 (the standard size in most of the rest of the world) hanging folders are not interchangeable, since a box sized for one won't properly fit hanging folders built for another.\n\nSome boxes explicitly support both letter and legal sizing with adjustable rails, while others are built for one size only, and buying the wrong size means folders that either don't fit the internal rails at all or sit loose and unsupported inside a box that's too large for them.\n\nCheck the listing's stated compatible paper and folder sizes against what you actually use, especially if you have any legal-size or A4 documents mixed into an otherwise standard letter-size collection."
+  },
+  {
+    "criterion": "Understand the real tradeoffs between plastic, metal, and clear construction",
+    "explanation": "Plastic file boxes are lightweight and generally the most affordable option, but can crack under impact and aren't fire-resistant, metal boxes offer more structural rigidity and impact resistance at a higher weight and price, and clear plastic boxes let you identify contents without opening the box but can gradually yellow and haze with sustained UV exposure near a window while also displaying document contents to anyone nearby.\n\nNone of these materials is universally best, the right choice depends on whether portability, durability, budget, or content privacy matters most for your specific situation, and boxes marketed primarily on one material's strength often compromise on another dimension.\n\nMatch the material to your actual priority (weight and cost for plastic, durability for metal, quick content identification for clear) rather than assuming any one material is a straightforward upgrade over the others."
+  },
+  {
+    "criterion": "Verify a fireproof claim's actual rating rather than trusting the word alone",
+    "explanation": "\"Fireproof\" and \"fire-resistant\" are used loosely in product marketing, and a genuine fire rating comes from an independent testing standard, commonly expressed as a UL rating with a specific time duration (such as 30 minutes) at a specific temperature the container is verified to withstand, information that a legitimately rated product will state explicitly rather than just using the word \"fireproof\" in the title.\n\nA box without a stated independent rating and testing standard should be treated as offering no verified fire protection at all, regardless of marketing language, since the word alone carries no legal or testing requirement behind it.\n\nCheck the specific listing for a named testing standard and duration rather than trusting \"fireproof\" in the product title alone, and if genuine fire protection for irreplaceable documents matters, prioritize listings that cite specific, verifiable certification details."
+  },
+  {
+    "criterion": "Check the lock or latch mechanism's actual security level against your real need",
+    "explanation": "File box closures range from a simple friction-fit lid with no locking mechanism at all, to a basic latch that keeps the lid shut during transport but offers no real security against an intentional attempt to open it, to a genuine key or combination lock that provides actual access control.\n\nThis distinction matters because a box marketed as \"lockable\" sometimes just means it has a small hole for a separately purchased padlock, not a lock included in the purchase, and conflating basic latching with genuine security leads to disappointment if you specifically need to restrict access to sensitive documents.\n\nCheck whether a lock is actually included in the purchase or merely accommodated via an aftermarket padlock, and match the closure type to whether you need transport-only convenience or genuine access restriction."
+  },
+  {
+    "criterion": "Weigh portability features (handles, wheels) against your actual moving distance and frequency",
+    "explanation": "A basic side handle works fine for lifting a file box a short distance or in and out of a car trunk occasionally, while wheels genuinely matter if you're moving a heavy, fully-loaded box repeatedly across a longer distance, such as between an office and a storage room on a regular basis, since a fully loaded file box can weigh considerably more than it looks once filled with paper documents.\n\nWheeled file boxes add real cost and bulk over a simple handle-only design, so this is a genuine tradeoff rather than wheels being a strict upgrade, and a box that will mostly sit in one place doesn't benefit from paying extra for mobility features it will rarely use.\n\nMatch the portability features to your actual moving pattern (occasional short lifts versus frequent longer moves) rather than defaulting to the most feature-rich option available."
+  }
 ];
 
 export const faq: FaqItem[] = [

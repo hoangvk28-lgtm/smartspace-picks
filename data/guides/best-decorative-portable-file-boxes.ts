@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "933",
     imageUrl: "https://m.media-amazon.com/images/I/51qCZHhqU3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BS9R6WN2?tag=deskfinds0d-20",
-    description:
-      "This pick carries the strongest combined rating and review count in this decorative-styling comparison, real evidence that its aesthetic finish doesn't come at the cost of genuine functional quality for actual document storage.",
-    specs: ["Decorative styling with clear accents", "Strong review count", "High rating", "Genuine functional design"],
-    pros: ["Strong rating and review count", "Functional quality verified independent of styling", "Aesthetic appeal with partial content visibility", "Good middle-ground option"],
-    cons: ["Not fully discreet given the clear accent elements", "May cost more than a plain functional box", "Verify current listing details before ordering"],
+    description: "This pick carries the strongest combined rating and review count in this decorative-styling comparison, real evidence that its aesthetic finish doesn't come at the cost of genuine functional quality for actual document storage.\n\nIt earns the top spot in this comparison over Decorative File Organizer Box Set of 2 for one main reason. Strong rating and review count. On price, it's priced at an unlisted price you'll need to confirm on Amazon, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Functional quality verified independent of styling. On the other side, Verify current listing details before ordering. That's the main tradeoff to weigh against everything above. The price wasn't listed at the time of research, so confirm current cost on Amazon before deciding.",
+    specs: ["Decorative styling with clear accents","Strong review count","High rating","Genuine functional design"],
+    pros: ["Strong rating and review count","Functional quality verified independent of styling","Aesthetic appeal with partial content visibility","Good middle-ground option"],
+    cons: ["Not fully discreet given the clear accent elements","May cost more than a plain functional box","Verify current listing details before ordering"],
     bestFor: "Buyers who want the most proven decorative pick without sacrificing function.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "2,436",
     imageUrl: "https://m.media-amazon.com/images/I/41ni8CvEKQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D62TW71V?tag=deskfinds0d-20",
-    description:
-      "This linen fabric-covered set genuinely leans toward the discreet, non-descript end of the decorative spectrum, blending into a home office aesthetic rather than visually announcing itself as document storage, sold as a set of 2 for good value.",
-    specs: ["Linen fabric covering", "Set of 2", "Collapsible", "Highest review count in this comparison"],
-    pros: ["Highest review count in this comparison", "Discreet, blends into home decor", "Set of 2 value", "Collapsible for storage"],
-    cons: ["Fabric covering less durable than a hard-shell decorative box", "Less content-visible than clear-accented alternatives", "Fabric may show wear over time"],
+    description: "This linen fabric-covered set genuinely leans toward the discreet, non-descript end of the decorative spectrum, blending into a home office aesthetic rather than visually announcing itself as document storage, sold as a set of 2 for good value.\n\nOne spot below Decorative Portable File Box with Clear Accents in this ranking, pricing between it and Decorative Portable File Box with Clear Accents isn't directly comparable here. The compromise here is straightforward: Fabric covering less durable than a hard-shell decorative box. What you gain in return: Highest review count in this comparison. Whether that trade is worth it depends on which side matters more for your storage needs.\n\nWorth knowing before you decide: Discreet, blends into home decor. On the other side, Fabric may show wear over time. That's the main tradeoff to weigh against everything above.",
+    specs: ["Linen fabric covering","Set of 2","Collapsible","Highest review count in this comparison"],
+    pros: ["Highest review count in this comparison","Discreet, blends into home decor","Set of 2 value","Collapsible for storage"],
+    cons: ["Fabric covering less durable than a hard-shell decorative box","Less content-visible than clear-accented alternatives","Fabric may show wear over time"],
     bestFor: "Buyers who want a discreet, non-descript decorative design that blends into home office decor.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "13",
     imageUrl: "https://m.media-amazon.com/images/I/51RGJmCSNML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GX12QFSV?tag=deskfinds0d-20",
-    description:
-      "This genuinely wood-finished box offers a distinctly different decorative aesthetic than the linen or clear-accent picks, appropriate for a home office with wood furniture, though its small review count means less proven long-term reliability.",
-    specs: ["Genuine wood finish", "Hanging file compatible", "Letter size", "Distinct aesthetic from plastic alternatives"],
-    pros: ["Genuinely distinct wood aesthetic", "Confirmed hanging file compatibility", "Matches wood furniture decor", "Reasonable price"],
-    cons: ["Very small review count limits confidence", "Wood construction adds weight versus plastic", "Verify durability given the limited review history"],
+    description: "This genuinely wood-finished box offers a distinctly different decorative aesthetic than the linen or clear-accent picks, appropriate for a home office with wood furniture, though its small review count means less proven long-term reliability.\n\nSitting just under Decorative File Organizer Box Set of 2, it costs more than Decorative File Organizer Box Set of 2. Here's the honest tradeoff: Very small review count limits confidence. And here's what it gets you instead: Genuinely distinct wood aesthetic. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Confirmed hanging file compatibility. On the other side, Verify durability given the limited review history. That's the main tradeoff to weigh against everything above.",
+    specs: ["Genuine wood finish","Hanging file compatible","Letter size","Distinct aesthetic from plastic alternatives"],
+    pros: ["Genuinely distinct wood aesthetic","Confirmed hanging file compatibility","Matches wood furniture decor","Reasonable price"],
+    cons: ["Very small review count limits confidence","Wood construction adds weight versus plastic","Verify durability given the limited review history"],
     bestFor: "Buyers who specifically want a wood-finished aesthetic matching their office furniture.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "229",
     imageUrl: "https://m.media-amazon.com/images/I/51KmDhar90L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CDFHM4PR?tag=deskfinds0d-20",
-    description:
-      "This pick carries the highest rating in this entire decorative comparison, with a collapsible design that stores flat when not in use, genuinely useful if you don't need the box permanently assembled.",
-    specs: ["Collapsible decorative design", "Hanging file compatible", "Highest rating in this comparison", "Desktop or portable use"],
-    pros: ["Highest rating in this comparison", "Collapsible for storage-space savings", "Confirmed hanging file compatibility", "Affordable"],
-    cons: ["Smaller review count than the linen set", "Collapsible mechanism is an added wear point", "Verify fabric/material durability over long-term use"],
+    description: "This pick carries the highest rating in this entire decorative comparison, with a collapsible design that stores flat when not in use, genuinely useful if you don't need the box permanently assembled.\n\nRanked just behind Wood File Box, it's priced lower than Wood File Box. The real tradeoff against that pick: Smaller review count than the linen set. In exchange, it offers this instead: Highest rating in this comparison. That's the swap that decides whether this pick or the one above it is the better fit for your documents.\n\nWorth knowing before you decide: Collapsible for storage-space savings. On the other side, Verify fabric/material durability over long-term use. That's the main tradeoff to weigh against everything above.",
+    specs: ["Collapsible decorative design","Hanging file compatible","Highest rating in this comparison","Desktop or portable use"],
+    pros: ["Highest rating in this comparison","Collapsible for storage-space savings","Confirmed hanging file compatibility","Affordable"],
+    cons: ["Smaller review count than the linen set","Collapsible mechanism is an added wear point","Verify fabric/material durability over long-term use"],
     bestFor: "Buyers who want the highest-rated decorative pick with collapsible storage convenience.",
   },
   {
@@ -98,13 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "278",
     imageUrl: "https://m.media-amazon.com/images/I/31xT22Ii6RL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FVM5RNL?tag=deskfinds0d-20",
-    description:
-      "Honesty note: this pick's rating (3.8) is the lowest in this decorative comparison, so weigh its pearl aesthetic finish and weather-protective construction against that comparatively weaker rating before choosing it over the higher-rated alternatives.",
-    specs: ["Pearl decorative finish", "Weather-protective construction", "19 qt capacity", "Lower rating than other picks"],
-    pros: ["Distinct pearl aesthetic finish", "Weather-protective bonus feature", "Reasonable capacity", "Established IRIS USA brand"],
-    cons: ["Lowest rating in this comparison", "Weigh this against higher-rated decorative alternatives", "Moderate review count"],
+    description: "Honesty note: this pick's rating (3.8) is the lowest in this decorative comparison, so weigh its pearl aesthetic finish and weather-protective construction against that comparatively weaker rating before choosing it over the higher-rated alternatives.\n\nOne spot below abcxgood Desktop File Organizer Box in this ranking, it costs more than abcxgood Desktop File Organizer Box. The compromise here is straightforward: Lowest rating in this comparison. What you gain in return: Distinct pearl aesthetic finish. Whether that trade is worth it depends on which side matters more for your storage needs.\n\nWorth knowing before you decide: Weather-protective bonus feature. On the other side, Moderate review count. That's the main tradeoff to weigh against everything above.",
+    specs: ["Pearl decorative finish","Weather-protective construction","19 qt capacity","Lower rating than other picks"],
+    pros: ["Distinct pearl aesthetic finish","Weather-protective bonus feature","Reasonable capacity","Established IRIS USA brand"],
+    cons: ["Lowest rating in this comparison","Weigh this against higher-rated decorative alternatives","Moderate review count"],
     bestFor: "Buyers who specifically want the pearl finish and weather protection, aware of the comparatively lower rating.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,41 +113,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Priority",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Most proven overall decorative pick", "Decorative Portable File Box with Clear Accents"],
-        ["Discreet, blends into home decor", "Decorative File Organizer Box Set of 2, Linen"],
-        ["Distinct wood aesthetic", "Wood File Box, Hanging File Organizer"],
-        ["Highest rating, collapsible convenience", "abcxgood Desktop File Organizer Box"],
-        ["Pearl finish plus weather protection", "IRIS USA WeatherPro Pearl, 19 Qt."],
+    "subheading": "By Material",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Prioritizing clear",
+          "Decorative Portable File Box with Clear Accents"
+        ],
+        [
+          "Prioritizing plastic",
+          "Wood File Box"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Decorative Visibility vs. Discreet Storage",
-    cards: [
-      { label: "Decorative and visible", text: "An attractive finish that stands out as a stylish accessory, like the clear-accent pick." },
-      { label: "Decorative but discreet", text: "Blends into home office decor without visually announcing itself as document storage, like the linen fabric set." },
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $20",
+          "abcxgood Desktop File Organizer Box"
+        ],
+        [
+          "Mid-range",
+          "Decorative File Organizer Box Set of 2"
+        ],
+        [
+          "No firm budget ceiling, prioritizing security or durability",
+          "Wood File Box"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Lockable vs Basic Latch",
+    "cards": [
+      {
+        "label": "Lockable",
+        "text": "Provides genuine access restriction beyond just keeping the lid shut in transit. In this comparison: check each listing's closure type directly."
+      },
+      {
+        "label": "Basic Latch",
+        "text": "Keeps the lid closed during transport and handling, without real security against intentional access. In this comparison: Decorative Portable File Box with Clear Accents, Decorative File Organizer Box Set of 2, Wood File Box."
+      }
     ],
+    "note": "Check each listing's stated closure type directly, since none of these picks explicitly confirm a genuine lock."
   },
   {
-    subheading: "Function First, Style Second",
-    note: "Every pick in this guide maintains genuine hanging file compatibility and reasonable handle/lid quality independent of its decorative finish. Don't assume an attractive box automatically sacrifices function, but always verify these core specs before buying based on looks alone.",
+    "subheading": "By Portability: Wheels vs Handle-Only",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Occasional short lifts, simpler design",
+          "Decorative Portable File Box with Clear Accents"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Pattern Fade and Wear Over Time",
-    note: "A printed or applied decorative pattern can fade or wear with handling over years, distinct from the underlying material's structural durability. Consider how much handling your box will see when weighing this tradeoff.",
+    "subheading": "For Irreplaceable or Sensitive Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A stated independent fire rating with a named testing standard and duration (not just the word \"fireproof\"), plus a genuine lock rather than a basic latch."
+      },
+      {
+        "label": "In this comparison",
+        "text": "No pick in this specific comparison explicitly confirms an independent fire rating; check our dedicated fireproof file box roundup if that's a hard requirement."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Wood File Box offers: Genuinely distinct wood aesthetic. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "abcxgood Desktop File Organizer Box already covers the essentials: Highest rating in this comparison. The main thing you'd be paying extra for elsewhere in this list is security or durability you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify functional quality independent of the decorative finish", explanation: "Check hanging file compatibility, handle comfort, and lid security separately from the aesthetic styling, since an attractive box shouldn't sacrifice core functionality." },
-  { criterion: "Decide between decorative-visible and discreet styling", explanation: "Some decorative boxes stand out as stylish accessories, others blend into home decor discreetly. Choose based on whether you want the box to be noticed or unobtrusive." },
-  { criterion: "Consider pattern and finish durability separately from material durability", explanation: "A printed or applied decorative pattern can fade or wear with handling over time, distinct from the underlying box material's own structural durability." },
-  { criterion: "Don't assume price premium correlates with functional quality", explanation: "A higher-priced decorative box isn't automatically more functional. Verify genuine hanging file compatibility and handle/lid quality rather than assuming this from price alone." },
-  { criterion: "Weigh document privacy if using in a shared or visible space", explanation: "A discreet decorative design, like the linen fabric set, offers more privacy for sensitive documents than a highly visible or clear-accented alternative." },
+  {
+    "criterion": "Confirm letter, legal, or A4 compatibility against your actual documents",
+    "explanation": "File boxes are built around specific paper sizes, and letter (8.5x11 inch, standard in the US), legal (8.5x14 inch, longer), and A4 (the standard size in most of the rest of the world) hanging folders are not interchangeable, since a box sized for one won't properly fit hanging folders built for another.\n\nSome boxes explicitly support both letter and legal sizing with adjustable rails, while others are built for one size only, and buying the wrong size means folders that either don't fit the internal rails at all or sit loose and unsupported inside a box that's too large for them.\n\nCheck the listing's stated compatible paper and folder sizes against what you actually use, especially if you have any legal-size or A4 documents mixed into an otherwise standard letter-size collection."
+  },
+  {
+    "criterion": "Understand the real tradeoffs between plastic, metal, and clear construction",
+    "explanation": "Plastic file boxes are lightweight and generally the most affordable option, but can crack under impact and aren't fire-resistant, metal boxes offer more structural rigidity and impact resistance at a higher weight and price, and clear plastic boxes let you identify contents without opening the box but can gradually yellow and haze with sustained UV exposure near a window while also displaying document contents to anyone nearby.\n\nNone of these materials is universally best, the right choice depends on whether portability, durability, budget, or content privacy matters most for your specific situation, and boxes marketed primarily on one material's strength often compromise on another dimension.\n\nMatch the material to your actual priority (weight and cost for plastic, durability for metal, quick content identification for clear) rather than assuming any one material is a straightforward upgrade over the others."
+  },
+  {
+    "criterion": "Verify a fireproof claim's actual rating rather than trusting the word alone",
+    "explanation": "\"Fireproof\" and \"fire-resistant\" are used loosely in product marketing, and a genuine fire rating comes from an independent testing standard, commonly expressed as a UL rating with a specific time duration (such as 30 minutes) at a specific temperature the container is verified to withstand, information that a legitimately rated product will state explicitly rather than just using the word \"fireproof\" in the title.\n\nA box without a stated independent rating and testing standard should be treated as offering no verified fire protection at all, regardless of marketing language, since the word alone carries no legal or testing requirement behind it.\n\nCheck the specific listing for a named testing standard and duration rather than trusting \"fireproof\" in the product title alone, and if genuine fire protection for irreplaceable documents matters, prioritize listings that cite specific, verifiable certification details."
+  },
+  {
+    "criterion": "Check the lock or latch mechanism's actual security level against your real need",
+    "explanation": "File box closures range from a simple friction-fit lid with no locking mechanism at all, to a basic latch that keeps the lid shut during transport but offers no real security against an intentional attempt to open it, to a genuine key or combination lock that provides actual access control.\n\nThis distinction matters because a box marketed as \"lockable\" sometimes just means it has a small hole for a separately purchased padlock, not a lock included in the purchase, and conflating basic latching with genuine security leads to disappointment if you specifically need to restrict access to sensitive documents.\n\nCheck whether a lock is actually included in the purchase or merely accommodated via an aftermarket padlock, and match the closure type to whether you need transport-only convenience or genuine access restriction."
+  },
+  {
+    "criterion": "Weigh portability features (handles, wheels) against your actual moving distance and frequency",
+    "explanation": "A basic side handle works fine for lifting a file box a short distance or in and out of a car trunk occasionally, while wheels genuinely matter if you're moving a heavy, fully-loaded box repeatedly across a longer distance, such as between an office and a storage room on a regular basis, since a fully loaded file box can weigh considerably more than it looks once filled with paper documents.\n\nWheeled file boxes add real cost and bulk over a simple handle-only design, so this is a genuine tradeoff rather than wheels being a strict upgrade, and a box that will mostly sit in one place doesn't benefit from paying extra for mobility features it will rarely use.\n\nMatch the portability features to your actual moving pattern (occasional short lifts versus frequent longer moves) rather than defaulting to the most feature-rich option available."
+  }
 ];
 
 export const faq: FaqItem[] = [

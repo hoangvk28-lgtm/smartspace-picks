@@ -30,10 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/41IFgVCQh9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C9TQQ4SS?tag=deskfinds0d-20",
-    description: "Confirmed pink directly in the product name, with a lock and collapsible design — verify any fireproof marketing claim's specific certification before relying on it for irreplaceable documents.",
-    specs: ["Confirmed pink", "Lock, collapsible design"],
-    pros: ["Confirmed pink in the product name", "Collapsible for storage when not in use", "Includes a lock"],
-    cons: ["Verify the fireproof marketing claim's certification directly", "No review history available yet"],
+    description: "Confirmed pink directly in the product name, with a lock and collapsible design, verify any fireproof marketing claim's specific certification before relying on it for irreplaceable documents.\n\nIt earns the top spot in this comparison over Pink Portable Hanging File Storage Box with Lid for one main reason. Confirmed pink in the product name. On price, it's priced at $24.99, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Collapsible for storage when not in use. On the other side, No review history available yet. That's the main tradeoff to weigh against everything above.",
+    specs: ["Confirmed pink","Lock, collapsible design"],
+    pros: ["Confirmed pink in the product name","Collapsible for storage when not in use","Includes a lock"],
+    cons: ["Verify the fireproof marketing claim's certification directly","No review history available yet"],
     bestFor: "Buyers who want a confirmed pink, collapsible, locking file box.",
   },
   {
@@ -46,9 +46,9 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
     amazonUrl: "https://www.amazon.com/dp/B0H3SXSVH2?tag=deskfinds0d-20",
-    description: "\"Pink\" is directly in the product name, with an easy-slide organizer design specifically for hanging files.",
-    specs: ["Confirmed pink in product name", "Easy-slide hanging file organizer"],
-    pros: ["Pink confirmed directly in the product name", "Specifically designed for hanging file organization"],
+    description: "\"Pink\" is directly in the product name, with an easy-slide organizer design specifically for hanging files.\n\nOne spot below ZOOPIP Fireproof File Box with Lock in this ranking, pricing between it and ZOOPIP Fireproof File Box with Lock isn't directly comparable here. The compromise here is straightforward: No review history or confirmed current price available yet. What you gain in return: Pink confirmed directly in the product name. Whether that trade is worth it depends on which side matters more for your storage needs.\n\nWorth knowing before you decide: Specifically designed for hanging file organization. On the other side, No review history or confirmed current price available yet. That's the main tradeoff to weigh against everything above. The price wasn't listed at the time of research, so confirm current cost on Amazon before deciding.",
+    specs: ["Confirmed pink in product name","Easy-slide hanging file organizer"],
+    pros: ["Pink confirmed directly in the product name","Specifically designed for hanging file organization"],
     cons: ["No review history or confirmed current price available yet"],
     bestFor: "Buyers who want a confirmed pink box specifically designed for hanging folders.",
   },
@@ -62,9 +62,9 @@ export const products: GuideProduct[] = [
     reviews: "3,073",
     imageUrl: "https://m.media-amazon.com/images/I/41CNUmxe5pL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08XJPHGGP?tag=deskfinds0d-20",
-    description: "A real review base for this product, the largest of any pink-confirmed or pink-adjacent option in this comparison, though verify pink specifically remains a current color option since this listing serves multiple colors.",
-    specs: ["Letter file storage", "3,073 reviews at 4.5 stars"],
-    pros: ["Largest review base in this comparison", "High rating"],
+    description: "A real review base for this product, the largest of any pink-confirmed or pink-adjacent option in this comparison, though verify pink specifically remains a current color option since this listing serves multiple colors.\n\nSitting just under Pink Portable Hanging File Storage Box with Lid, pricing between it and Pink Portable Hanging File Storage Box with Lid isn't directly comparable here. Here's the honest tradeoff: Verify pink is currently available, since this listing may serve multiple color options. And here's what it gets you instead: Largest review base in this comparison. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: High rating. On the other side, Verify pink is currently available, since this listing may serve multiple color options. That's the main tradeoff to weigh against everything above.",
+    specs: ["Letter file storage","3,073 reviews at 4.5 stars"],
+    pros: ["Largest review base in this comparison","High rating"],
     cons: ["Verify pink is currently available, since this listing may serve multiple color options"],
     bestFor: "Buyers who want the most proven general file organizer and will confirm pink availability on the current listing.",
   },
@@ -78,9 +78,9 @@ export const products: GuideProduct[] = [
     reviews: "6,123",
     imageUrl: "https://m.media-amazon.com/images/I/51m3PHmzj0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B2PQ59SK?tag=deskfinds0d-20",
-    description: "The largest review base and highest rating in this entire comparison, with zipper pockets and a lock, though verify pink availability and any fireproof certification directly on the current listing.",
-    specs: ["Lock, zipper pockets, collapsible", "6,123 reviews at 4.6 stars"],
-    pros: ["Largest review base and highest rating in this comparison", "Zipper pockets add extra small-item storage"],
+    description: "The largest review base and highest rating in this entire comparison, with zipper pockets and a lock, though verify pink availability and any fireproof certification directly on the current listing.\n\nRanked just behind Oterri File Organizer, it costs more than Oterri File Organizer. The real tradeoff against that pick: Verify pink is currently available and confirm any fire-rating certification on the listing. In exchange, it offers this instead: Largest review base and highest rating in this comparison. That's the swap that decides whether this pick or the one above it is the better fit for your documents.\n\nWorth knowing before you decide: Zipper pockets add extra small-item storage. On the other side, Verify pink is currently available and confirm any fire-rating certification on the listing. That's the main tradeoff to weigh against everything above.",
+    specs: ["Lock, zipper pockets, collapsible","6,123 reviews at 4.6 stars"],
+    pros: ["Largest review base and highest rating in this comparison","Zipper pockets add extra small-item storage"],
     cons: ["Verify pink is currently available and confirm any fire-rating certification on the listing"],
     bestFor: "Buyers who want the most proven option overall and will verify pink availability and any fire-rating claims.",
   },
@@ -94,12 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "3,139",
     imageUrl: "https://m.media-amazon.com/images/I/41GQ8rqDXhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FVJZD3L?tag=deskfinds0d-20",
-    description: "A well-reviewed general file organizer from IRIS USA that may offer color variants — verify pink availability on the current listing before ordering, since our confirmed data shows black.",
-    specs: ["Letter file organizer, portable handle", "3,139 reviews at 4.3 stars"],
-    pros: ["Large, established review base", "From an established storage brand"],
-    cons: ["Confirmed data shows black — verify pink is available as a color option on the current listing"],
+    description: "A well-reviewed general file organizer from IRIS USA that may offer color variants, verify pink availability on the current listing before ordering, since our confirmed data shows black.\n\nOne spot below ENGPOW File Box with Lock in this ranking, it's priced lower than ENGPOW File Box with Lock. The compromise here is straightforward: Confirmed data shows black, verify pink is available as a color option on the current listing. What you gain in return: Large, established review base. Whether that trade is worth it depends on which side matters more for your storage needs.\n\nWorth knowing before you decide: From an established storage brand. On the other side, Confirmed data shows black, verify pink is available as a color option on the current listing. That's the main tradeoff to weigh against everything above.",
+    specs: ["Letter file organizer, portable handle","3,139 reviews at 4.3 stars"],
+    pros: ["Large, established review base","From an established storage brand"],
+    cons: ["Confirmed data shows black, verify pink is available as a color option on the current listing"],
     bestFor: "Buyers who want IRIS USA's proven construction and will check for a pink color variant.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -113,24 +113,117 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Verify Current Color Availability Before Ordering",
-    note: "Amazon color-variant inventory shifts over time. Even for the picks with pink confirmed in our research, check the current listing's color options before ordering, since availability isn't guaranteed to remain constant.",
+    "subheading": "By Material",
+    "note": "Material isn't consistently confirmed across every pick in this comparison; check each listing's product details directly."
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $19",
+          "IRIS USA File Box Organizer with Lid"
+        ],
+        [
+          "Mid-range",
+          "ZOOPIP Fireproof File Box with Lock"
+        ],
+        [
+          "No firm budget ceiling, prioritizing security or durability",
+          "ENGPOW File Box with Lock"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Lockable vs Basic Latch",
+    "cards": [
+      {
+        "label": "Lockable",
+        "text": "Provides genuine access restriction beyond just keeping the lid shut in transit. In this comparison: ZOOPIP Fireproof File Box with Lock, ENGPOW File Box with Lock."
+      },
+      {
+        "label": "Basic Latch",
+        "text": "Keeps the lid closed during transport and handling, without real security against intentional access. In this comparison: Pink Portable Hanging File Storage Box with Lid, Oterri File Organizer, IRIS USA File Box Organizer with Lid."
+      }
+    ],
+    "note": "If restricting access to sensitive documents matters, prioritize a lockable pick like ZOOPIP Fireproof File Box with Lock over a basic-latch alternative."
+  },
+  {
+    "subheading": "By Portability: Wheels vs Handle-Only",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Occasional short lifts, simpler design",
+          "ZOOPIP Fireproof File Box with Lock"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Irreplaceable or Sensitive Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A stated independent fire rating with a named testing standard and duration (not just the word \"fireproof\"), plus a genuine lock rather than a basic latch."
+      },
+      {
+        "label": "In this comparison",
+        "text": "ZOOPIP Fireproof File Box with Lock fits this specifically: Confirmed pink in the product name."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what ENGPOW File Box with Lock offers: Largest review base and highest rating in this comparison. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "IRIS USA File Box Organizer with Lid already covers the essentials: Large, established review base. The main thing you'd be paying extra for elsewhere in this list is security or durability you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm pink is explicitly named in the product title", explanation: "We prioritized products with \"pink\" directly in the listing name as the strongest confirmation, rather than assuming any file box comes in this color." },
-  { criterion: "Verify current color availability before ordering", explanation: "Color inventory shifts over time — check the live listing's color options even for picks confirmed at research time." },
-  { criterion: "Don't trust fireproof marketing without checking certification", explanation: "Several picks market fireproof features — verify a specific certification standard is cited before relying on this for irreplaceable documents." },
-  { criterion: "Weigh review volume for the strongest general products", explanation: "The ENGPOW and Oterri picks have the largest review bases, useful evidence of overall quality even where color confirmation needs verification." },
-  { criterion: "Consider a hanging-file-specific design if that's your primary need", explanation: "The Pink Portable Hanging File Storage Box is specifically built for that organization style." },
+  {
+    "criterion": "Confirm letter, legal, or A4 compatibility against your actual documents",
+    "explanation": "File boxes are built around specific paper sizes, and letter (8.5x11 inch, standard in the US), legal (8.5x14 inch, longer), and A4 (the standard size in most of the rest of the world) hanging folders are not interchangeable, since a box sized for one won't properly fit hanging folders built for another.\n\nSome boxes explicitly support both letter and legal sizing with adjustable rails, while others are built for one size only, and buying the wrong size means folders that either don't fit the internal rails at all or sit loose and unsupported inside a box that's too large for them.\n\nCheck the listing's stated compatible paper and folder sizes against what you actually use, especially if you have any legal-size or A4 documents mixed into an otherwise standard letter-size collection."
+  },
+  {
+    "criterion": "Understand the real tradeoffs between plastic, metal, and clear construction",
+    "explanation": "Plastic file boxes are lightweight and generally the most affordable option, but can crack under impact and aren't fire-resistant, metal boxes offer more structural rigidity and impact resistance at a higher weight and price, and clear plastic boxes let you identify contents without opening the box but can gradually yellow and haze with sustained UV exposure near a window while also displaying document contents to anyone nearby.\n\nNone of these materials is universally best, the right choice depends on whether portability, durability, budget, or content privacy matters most for your specific situation, and boxes marketed primarily on one material's strength often compromise on another dimension.\n\nMatch the material to your actual priority (weight and cost for plastic, durability for metal, quick content identification for clear) rather than assuming any one material is a straightforward upgrade over the others."
+  },
+  {
+    "criterion": "Verify a fireproof claim's actual rating rather than trusting the word alone",
+    "explanation": "\"Fireproof\" and \"fire-resistant\" are used loosely in product marketing, and a genuine fire rating comes from an independent testing standard, commonly expressed as a UL rating with a specific time duration (such as 30 minutes) at a specific temperature the container is verified to withstand, information that a legitimately rated product will state explicitly rather than just using the word \"fireproof\" in the title.\n\nA box without a stated independent rating and testing standard should be treated as offering no verified fire protection at all, regardless of marketing language, since the word alone carries no legal or testing requirement behind it.\n\nCheck the specific listing for a named testing standard and duration rather than trusting \"fireproof\" in the product title alone, and if genuine fire protection for irreplaceable documents matters, prioritize listings that cite specific, verifiable certification details."
+  },
+  {
+    "criterion": "Check the lock or latch mechanism's actual security level against your real need",
+    "explanation": "File box closures range from a simple friction-fit lid with no locking mechanism at all, to a basic latch that keeps the lid shut during transport but offers no real security against an intentional attempt to open it, to a genuine key or combination lock that provides actual access control.\n\nThis distinction matters because a box marketed as \"lockable\" sometimes just means it has a small hole for a separately purchased padlock, not a lock included in the purchase, and conflating basic latching with genuine security leads to disappointment if you specifically need to restrict access to sensitive documents.\n\nCheck whether a lock is actually included in the purchase or merely accommodated via an aftermarket padlock, and match the closure type to whether you need transport-only convenience or genuine access restriction."
+  },
+  {
+    "criterion": "Weigh portability features (handles, wheels) against your actual moving distance and frequency",
+    "explanation": "A basic side handle works fine for lifting a file box a short distance or in and out of a car trunk occasionally, while wheels genuinely matter if you're moving a heavy, fully-loaded box repeatedly across a longer distance, such as between an office and a storage room on a regular basis, since a fully loaded file box can weigh considerably more than it looks once filled with paper documents.\n\nWheeled file boxes add real cost and bulk over a simple handle-only design, so this is a genuine tradeoff rather than wheels being a strict upgrade, and a box that will mostly sit in one place doesn't benefit from paying extra for mobility features it will rarely use.\n\nMatch the portability features to your actual moving pattern (occasional short lifts versus frequent longer moves) rather than defaulting to the most feature-rich option available."
+  }
 ];
 
 export const faq: FaqItem[] = [
   { q: "Which is confirmed pink directly in the listing name?", a: "The ZOOPIP Fireproof File Box and the Pink Portable Hanging File Storage Box both confirm pink directly in their product titles." },
   { q: "Which has the most reviews?", a: "The ENGPOW File Box with Lock, with 6,123 reviews at 4.6 stars, though verify pink availability on the current listing." },
-  { q: "Are the fireproof claims certified?", a: "We found no independently cited certification standard for the fireproof-marketed products here — verify this directly before relying on it." },
-  { q: "What if pink isn't available when I check?", a: "Color inventory shifts over time on Amazon — check the current listing or consider our general portable file box guides for proven alternatives in other colors." },
+  { q: "Are the fireproof claims certified?", a: "We found no independently cited certification standard for the fireproof-marketed products here, verify this directly before relying on it." },
+  { q: "What if pink isn't available when I check?", a: "Color inventory shifts over time on Amazon, check the current listing or consider our general portable file box guides for proven alternatives in other colors." },
   { q: "Is there a hanging-file-specific pink option?", a: "Yes, the Pink Portable Hanging File Storage Box is specifically designed with an easy-slide organizer for hanging folders." },
 ];
 

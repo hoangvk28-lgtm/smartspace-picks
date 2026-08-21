@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "1,526",
     imageUrl: "https://m.media-amazon.com/images/I/51c1uDWDoaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B5STNV6J?tag=deskfinds0d-20",
-    description:
-      "This wheeled box combines fireproof-marketed construction with a 2-layer design and lock, genuinely useful wheels given the box's own substantial weight before documents are even added, making the caster addition a real mobility benefit rather than unnecessary bulk.",
-    specs: ["Wheeled base", "2-layer design", "Lock included", "Fireproof-marketed construction"],
-    pros: ["Wheels genuinely useful given the box's own weight", "Combines locking and fireproof marketing", "Strong review count", "2-layer capacity"],
-    cons: ["Heavier overall due to fireproof-rated materials", "Higher price than basic wheeled boxes", "Verify fireproof rating documentation before relying on it for irreplaceable documents"],
+    description: "This wheeled box combines fireproof-marketed construction with a 2-layer design and lock, genuinely useful wheels given the box's own substantial weight before documents are even added, making the caster addition a real mobility benefit rather than unnecessary bulk.\n\nIt earns the top spot in this comparison over Storex Portable File Box on Wheels for one main reason. Wheels genuinely useful given the box's own weight. On price, it comes in below Storex Portable File Box on Wheels, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Combines locking and fireproof marketing. On the other side, Verify fireproof rating documentation before relying on it for irreplaceable documents. That's the main tradeoff to weigh against everything above.",
+    specs: ["Wheeled base","2-layer design","Lock included","Fireproof-marketed construction"],
+    pros: ["Wheels genuinely useful given the box's own weight","Combines locking and fireproof marketing","Strong review count","2-layer capacity"],
+    cons: ["Heavier overall due to fireproof-rated materials","Higher price than basic wheeled boxes","Verify fireproof rating documentation before relying on it for irreplaceable documents"],
     bestFor: "Buyers who want wheels on a heavier, security-focused fireproof box.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "586",
     imageUrl: "https://m.media-amazon.com/images/I/41a1aVHqNOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B009JY00YE?tag=deskfinds0d-20",
-    description:
-      "Honesty note: this box's rating (3.5) is meaningfully lower than other picks in this comparison, so weigh that against its established Storex brand name and larger dimensions before choosing it over a higher-rated alternative.",
-    specs: ["Wheeled base", "15 x 16 x 14.25 inches", "Established Storex brand", "Large capacity"],
-    pros: ["Large dimensions for substantial capacity", "Established brand name", "Wheeled for mobility", "Sizable interior space"],
-    cons: ["Lowest rating in this comparison", "Verify wheel quality given the rating", "Bulkier than compact alternatives"],
+    description: "Honesty note: this box's rating (3.5) is meaningfully lower than other picks in this comparison, so weigh that against its established Storex brand name and larger dimensions before choosing it over a higher-rated alternative.\n\nOne spot below DocSafe Fireproof Document Box with Lock in this ranking, it costs more than DocSafe Fireproof Document Box with Lock. The compromise here is straightforward: Lowest rating in this comparison. What you gain in return: Large dimensions for substantial capacity. Whether that trade is worth it depends on which side matters more for your storage needs.\n\nWorth knowing before you decide: Established brand name. On the other side, Bulkier than compact alternatives. That's the main tradeoff to weigh against everything above.",
+    specs: ["Wheeled base","15 x 16 x 14.25 inches","Established Storex brand","Large capacity"],
+    pros: ["Large dimensions for substantial capacity","Established brand name","Wheeled for mobility","Sizable interior space"],
+    cons: ["Lowest rating in this comparison","Verify wheel quality given the rating","Bulkier than compact alternatives"],
     bestFor: "Buyers prioritizing brand recognition and capacity, aware of the comparatively lower rating.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "401",
     imageUrl: "https://m.media-amazon.com/images/I/51psKIGXypL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B3JSCMTS?tag=deskfinds0d-20",
-    description:
-      "This collapsible design folds flat when not in use, a genuine storage-space advantage over a rigid wheeled box, combined with fireproof marketing and a lock, at a more moderate price than the DocSafe pick above.",
-    specs: ["Wheeled base, collapsible", "Fireproof-marketed, with lock", "Folds flat for storage", "Moderate price"],
-    pros: ["Collapsible for storage-space savings", "Good rating", "Combines wheels, lock, and fireproof marketing", "Reasonable price"],
-    cons: ["Collapsible mechanism is an added point of wear", "Verify fireproof rating documentation before relying on it", "Smaller review count than the top pick"],
+    description: "This collapsible design folds flat when not in use, a genuine storage-space advantage over a rigid wheeled box, combined with fireproof marketing and a lock, at a more moderate price than the DocSafe pick above.\n\nSitting just under Storex Portable File Box on Wheels, it's priced lower than Storex Portable File Box on Wheels. Here's the honest tradeoff: Collapsible mechanism is an added point of wear. And here's what it gets you instead: Collapsible for storage-space savings. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Good rating. On the other side, Smaller review count than the top pick. That's the main tradeoff to weigh against everything above.",
+    specs: ["Wheeled base, collapsible","Fireproof-marketed, with lock","Folds flat for storage","Moderate price"],
+    pros: ["Collapsible for storage-space savings","Good rating","Combines wheels, lock, and fireproof marketing","Reasonable price"],
+    cons: ["Collapsible mechanism is an added point of wear","Verify fireproof rating documentation before relying on it","Smaller review count than the top pick"],
     bestFor: "Buyers who want a wheeled box that also folds flat for storage when empty.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "15,883",
     imageUrl: "https://m.media-amazon.com/images/I/31TrnNtNTmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B074T8WDJV?tag=deskfinds0d-20",
-    description:
-      "Honesty note: this is a general rolling crate rather than a dedicated file box, though it accommodates hanging files loosely and carries the highest review count of any pick in this comparison by a wide margin, real evidence of broad, proven reliability.",
-    specs: ["Rolling crate, general-purpose", "Highest review count in this comparison", "Collapsible", "Not file-box-specific"],
-    pros: ["Overwhelmingly highest review count here", "Versatile beyond just file storage", "Collapsible for storage", "Proven rolling smoothness"],
-    cons: ["Not a dedicated file box with rails", "No lock or fireproof marketing", "Open crate design, less contained than a lidded box"],
+    description: "Honesty note: this is a general rolling crate rather than a dedicated file box, though it accommodates hanging files loosely and carries the highest review count of any pick in this comparison by a wide margin, real evidence of broad, proven reliability.\n\nRanked just behind ENGPOW Fireproof Document Box with Wheels, it costs more than ENGPOW Fireproof Document Box with Wheels. The real tradeoff against that pick: Not a dedicated file box with rails. In exchange, it offers this instead: Overwhelmingly highest review count here. That's the swap that decides whether this pick or the one above it is the better fit for your documents.\n\nWorth knowing before you decide: Versatile beyond just file storage. On the other side, Open crate design, less contained than a lidded box. That's the main tradeoff to weigh against everything above.",
+    specs: ["Rolling crate, general-purpose","Highest review count in this comparison","Collapsible","Not file-box-specific"],
+    pros: ["Overwhelmingly highest review count here","Versatile beyond just file storage","Collapsible for storage","Proven rolling smoothness"],
+    cons: ["Not a dedicated file box with rails","No lock or fireproof marketing","Open crate design, less contained than a lidded box"],
     bestFor: "Buyers who want the most proven rolling design and don't need a dedicated lidded file box.",
   },
   {
@@ -98,13 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "189",
     imageUrl: "https://m.media-amazon.com/images/I/41KwjjYZ6-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DP51HKWS?tag=deskfinds0d-20",
-    description:
-      "Honesty note: this is a rolling filing cabinet with 3 drawers, a genuinely different, larger product than a single portable file box, included for buyers whose actual need is closer to a mobile filing cabinet than a compact box. Its wheels are explicitly lockable.",
-    specs: ["3-drawer rolling cabinet, not a single box", "Lockable wheels", "Home office focused", "Highest rating in this comparison"],
-    pros: ["Highest rating in this comparison", "Lockable wheels prevent unwanted rolling", "Substantially more capacity than a single box", "Genuine mobile filing cabinet"],
-    cons: ["Larger footprint than a compact portable box", "Not a single-box product, a multi-drawer cabinet", "Higher price for the added capacity"],
+    description: "Honesty note: this is a rolling filing cabinet with 3 drawers, a genuinely different, larger product than a single portable file box, included for buyers whose actual need is closer to a mobile filing cabinet than a compact box. Its wheels are explicitly lockable.\n\nOne spot below dbest Products Quik Cart Standard Collapsible Rolling Crate in this ranking, it costs more than dbest Products Quik Cart Standard Collapsible Rolling Crate. The compromise here is straightforward: Larger footprint than a compact portable box. What you gain in return: Highest rating in this comparison. Whether that trade is worth it depends on which side matters more for your storage needs.\n\nWorth knowing before you decide: Lockable wheels prevent unwanted rolling. On the other side, Higher price for the added capacity. That's the main tradeoff to weigh against everything above.",
+    specs: ["3-drawer rolling cabinet, not a single box","Lockable wheels","Home office focused","Highest rating in this comparison"],
+    pros: ["Highest rating in this comparison","Lockable wheels prevent unwanted rolling","Substantially more capacity than a single box","Genuine mobile filing cabinet"],
+    cons: ["Larger footprint than a compact portable box","Not a single-box product, a multi-drawer cabinet","Higher price for the added capacity"],
     bestFor: "Buyers who actually need a rolling multi-drawer filing cabinet rather than a single box.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,41 +113,114 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Priority",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Heavier fireproof-marketed box, wheels genuinely useful", "DocSafe Fireproof Document Box with Wheels"],
-        ["Established brand, large capacity", "Storex Portable File Box on Wheels"],
-        ["Collapsible for storage-space savings", "ENGPOW Fireproof Document Box with Wheels"],
-        ["Most proven rolling design overall", "dbest Products Quik Cart Rolling Crate"],
-        ["Actually need a multi-drawer rolling cabinet", "Sbanmao 3 Drawer Mobile File Cabinet"],
+    "subheading": "By Material",
+    "note": "Material isn't consistently confirmed across every pick in this comparison; check each listing's product details directly."
+  },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $36",
+          "ENGPOW Fireproof Document Box with Wheels"
+        ],
+        [
+          "Mid-range",
+          "DocSafe Fireproof Document Box with Lock"
+        ],
+        [
+          "No firm budget ceiling, prioritizing security or durability",
+          "Storex Portable File Box on Wheels"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Do You Actually Need Wheels?",
-    note: "Wheels genuinely help for a heavy box moved between rooms or offices regularly. If you mostly carry a lighter box short distances by handle, the added bulk and cost of wheels may not be worth it, consider our general portable file boxes guide instead.",
-  },
-  {
-    subheading: "Carpet vs. Hard Floor Rolling Performance",
-    cards: [
-      { label: "Hard floors", text: "Small caster wheels roll smoothly and require minimal effort to push." },
-      { label: "Carpet", text: "Wheels perform noticeably worse, requiring more force and sometimes catching on thicker pile carpet." },
+    "subheading": "Lockable vs Basic Latch",
+    "cards": [
+      {
+        "label": "Lockable",
+        "text": "Provides genuine access restriction beyond just keeping the lid shut in transit. In this comparison: DocSafe Fireproof Document Box with Lock, ENGPOW Fireproof Document Box with Wheels, Sbanmao 3 Drawer Mobile File Cabinet for Home Office."
+      },
+      {
+        "label": "Basic Latch",
+        "text": "Keeps the lid closed during transport and handling, without real security against intentional access. In this comparison: Storex Portable File Box on Wheels, dbest Products Quik Cart Standard Collapsible Rolling Crate."
+      }
     ],
+    "note": "If restricting access to sensitive documents matters, prioritize a lockable pick like DocSafe Fireproof Document Box with Lock over a basic-latch alternative."
   },
   {
-    subheading: "Single Box vs. Multi-Drawer Rolling Cabinet",
-    note: "If your storage needs exceed what one file box holds, a rolling multi-drawer cabinet like the Sbanmao pick offers substantially more capacity, though it's a genuinely different, larger product category than a compact portable box.",
+    "subheading": "By Portability: Wheels vs Handle-Only",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Frequent moves over longer distances",
+          "DocSafe Fireproof Document Box with Lock"
+        ],
+        [
+          "Occasional short lifts, simpler design",
+          "DocSafe Fireproof Document Box with Lock"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For Irreplaceable or Sensitive Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A stated independent fire rating with a named testing standard and duration (not just the word \"fireproof\"), plus a genuine lock rather than a basic latch."
+      },
+      {
+        "label": "In this comparison",
+        "text": "DocSafe Fireproof Document Box with Lock fits this specifically: Wheels genuinely useful given the box's own weight."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Storex Portable File Box on Wheels offers: Large dimensions for substantial capacity. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "ENGPOW Fireproof Document Box with Wheels already covers the essentials: Collapsible for storage-space savings. The main thing you'd be paying extra for elsewhere in this list is security or durability you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Honestly assess whether wheels benefit your use case", explanation: "Wheels help for heavy boxes moved regularly between locations. For lighter, occasional carrying, the added bulk and cost may not be worth it over a simple handle." },
-  { criterion: "Consider your typical flooring when evaluating wheel performance", explanation: "Small caster wheels roll smoothly on hard floors but perform noticeably worse on carpet, requiring more pushing effort." },
-  { criterion: "Check for a wheel-locking mechanism if stability matters", explanation: "If the box will sit in one spot for extended periods, a locking wheel feature prevents unwanted rolling from accidental bumps." },
-  { criterion: "Verify wheel weight rating against your fully loaded box", explanation: "Wheels bear concentrated point-load stress different from a simply carried box's weight distribution. Check the rated capacity against your realistic loaded weight." },
-  { criterion: "Consider a multi-drawer rolling cabinet for higher capacity needs", explanation: "If your storage needs exceed a single box, a rolling cabinet with multiple drawers offers substantially more capacity as a genuinely different, larger product." },
+  {
+    "criterion": "Confirm letter, legal, or A4 compatibility against your actual documents",
+    "explanation": "File boxes are built around specific paper sizes, and letter (8.5x11 inch, standard in the US), legal (8.5x14 inch, longer), and A4 (the standard size in most of the rest of the world) hanging folders are not interchangeable, since a box sized for one won't properly fit hanging folders built for another.\n\nSome boxes explicitly support both letter and legal sizing with adjustable rails, while others are built for one size only, and buying the wrong size means folders that either don't fit the internal rails at all or sit loose and unsupported inside a box that's too large for them.\n\nCheck the listing's stated compatible paper and folder sizes against what you actually use, especially if you have any legal-size or A4 documents mixed into an otherwise standard letter-size collection."
+  },
+  {
+    "criterion": "Understand the real tradeoffs between plastic, metal, and clear construction",
+    "explanation": "Plastic file boxes are lightweight and generally the most affordable option, but can crack under impact and aren't fire-resistant, metal boxes offer more structural rigidity and impact resistance at a higher weight and price, and clear plastic boxes let you identify contents without opening the box but can gradually yellow and haze with sustained UV exposure near a window while also displaying document contents to anyone nearby.\n\nNone of these materials is universally best, the right choice depends on whether portability, durability, budget, or content privacy matters most for your specific situation, and boxes marketed primarily on one material's strength often compromise on another dimension.\n\nMatch the material to your actual priority (weight and cost for plastic, durability for metal, quick content identification for clear) rather than assuming any one material is a straightforward upgrade over the others."
+  },
+  {
+    "criterion": "Verify a fireproof claim's actual rating rather than trusting the word alone",
+    "explanation": "\"Fireproof\" and \"fire-resistant\" are used loosely in product marketing, and a genuine fire rating comes from an independent testing standard, commonly expressed as a UL rating with a specific time duration (such as 30 minutes) at a specific temperature the container is verified to withstand, information that a legitimately rated product will state explicitly rather than just using the word \"fireproof\" in the title.\n\nA box without a stated independent rating and testing standard should be treated as offering no verified fire protection at all, regardless of marketing language, since the word alone carries no legal or testing requirement behind it.\n\nCheck the specific listing for a named testing standard and duration rather than trusting \"fireproof\" in the product title alone, and if genuine fire protection for irreplaceable documents matters, prioritize listings that cite specific, verifiable certification details."
+  },
+  {
+    "criterion": "Check the lock or latch mechanism's actual security level against your real need",
+    "explanation": "File box closures range from a simple friction-fit lid with no locking mechanism at all, to a basic latch that keeps the lid shut during transport but offers no real security against an intentional attempt to open it, to a genuine key or combination lock that provides actual access control.\n\nThis distinction matters because a box marketed as \"lockable\" sometimes just means it has a small hole for a separately purchased padlock, not a lock included in the purchase, and conflating basic latching with genuine security leads to disappointment if you specifically need to restrict access to sensitive documents.\n\nCheck whether a lock is actually included in the purchase or merely accommodated via an aftermarket padlock, and match the closure type to whether you need transport-only convenience or genuine access restriction."
+  },
+  {
+    "criterion": "Weigh portability features (handles, wheels) against your actual moving distance and frequency",
+    "explanation": "A basic side handle works fine for lifting a file box a short distance or in and out of a car trunk occasionally, while wheels genuinely matter if you're moving a heavy, fully-loaded box repeatedly across a longer distance, such as between an office and a storage room on a regular basis, since a fully loaded file box can weigh considerably more than it looks once filled with paper documents.\n\nWheeled file boxes add real cost and bulk over a simple handle-only design, so this is a genuine tradeoff rather than wheels being a strict upgrade, and a box that will mostly sit in one place doesn't benefit from paying extra for mobility features it will rarely use.\n\nMatch the portability features to your actual moving pattern (occasional short lifts versus frequent longer moves) rather than defaulting to the most feature-rich option available."
+  }
 ];
 
 export const faq: FaqItem[] = [

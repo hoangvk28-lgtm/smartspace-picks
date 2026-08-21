@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "7,808",
     imageUrl: "https://m.media-amazon.com/images/I/419pjtp0ZDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B005T7XNDK?tag=deskfinds0d-20",
-    description:
-      "This box explicitly confirms dual letter and legal size compatibility in its name, verified against its 14.5 x 10.5 x 12 inch dimensions, genuinely large enough for legal-size hanging folders while also accommodating letter-size documents in the same box.",
-    specs: ["Dual letter/legal compatible", "14.5 x 10.5 x 12 inches", "Organizer lid", "Highest review count in this comparison"],
-    pros: ["Confirmed dual letter/legal compatibility", "Highest review count of any pick here", "Organizer lid adds small-item storage", "Proven reliability"],
-    cons: ["Larger footprint to accommodate both sizes", "Heavier than a letter-only box", "No lock"],
+    description: "This box explicitly confirms dual letter and legal size compatibility in its name, verified against its 14.5 x 10.5 x 12 inch dimensions, genuinely large enough for legal-size hanging folders while also accommodating letter-size documents in the same box.\n\nIt earns the top spot in this comparison over ENGPOW File Box with Lock for one main reason. Confirmed dual letter/legal compatibility. On price, it comes in below ENGPOW File Box with Lock, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Highest review count of any pick here. On the other side, No lock. That's the main tradeoff to weigh against everything above.",
+    specs: ["Dual letter/legal compatible","14.5 x 10.5 x 12 inches","Organizer lid","Highest review count in this comparison"],
+    pros: ["Confirmed dual letter/legal compatibility","Highest review count of any pick here","Organizer lid adds small-item storage","Proven reliability"],
+    cons: ["Larger footprint to accommodate both sizes","Heavier than a letter-only box","No lock"],
     bestFor: "Buyers with mixed letter and legal documents who want one proven box for both.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "6,117",
     imageUrl: "https://m.media-amazon.com/images/I/51nPPyA9QPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08D6JLTXJ?tag=deskfinds0d-20",
-    description:
-      "Verify legal-size compatibility against the current listing's specific dimensions before ordering; this fireproof-marketed box with zipper pockets is sized generously enough for many legal-size use cases, combined with a lock for document security.",
-    specs: ["Fireproof-marketed, generous sizing", "Zipper closure with pockets", "Lock included", "Strong review count"],
-    pros: ["Generous sizing accommodates many legal-size needs", "Combines fireproof marketing with a lock", "Strong review count", "Zipper pockets for organization"],
-    cons: ["Verify exact legal-size dimension compatibility on the current listing", "Verify fireproof rating documentation directly", "Zipper is an added wear point"],
+    description: "Verify legal-size compatibility against the current listing's specific dimensions before ordering; this fireproof-marketed box with zipper pockets is sized generously enough for many legal-size use cases, combined with a lock for document security.\n\nOne spot below Storex Portable Letter/Legal Filebox with Organizer Lid in this ranking, it costs more than Storex Portable Letter/Legal Filebox with Organizer Lid. The compromise here is straightforward: Verify exact legal-size dimension compatibility on the current listing. What you gain in return: Generous sizing accommodates many legal-size needs. Whether that trade is worth it depends on which side matters more for your storage needs.\n\nWorth knowing before you decide: Combines fireproof marketing with a lock. On the other side, Zipper is an added wear point. That's the main tradeoff to weigh against everything above.",
+    specs: ["Fireproof-marketed, generous sizing","Zipper closure with pockets","Lock included","Strong review count"],
+    pros: ["Generous sizing accommodates many legal-size needs","Combines fireproof marketing with a lock","Strong review count","Zipper pockets for organization"],
+    cons: ["Verify exact legal-size dimension compatibility on the current listing","Verify fireproof rating documentation directly","Zipper is an added wear point"],
     bestFor: "Buyers who want fireproof marketing and security alongside adequate legal-size capacity.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "2,864",
     imageUrl: "https://m.media-amazon.com/images/I/51Ywia8nvNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09W5B4B8V?tag=deskfinds0d-20",
-    description:
-      "This box's mesh interior pockets add organizational structure for sub-documents alongside its main capacity, verify the specific listing's legal-size dimension support before ordering if legal-size compatibility is essential.",
-    specs: ["Mesh interior pockets", "Fireproof-marketed, with lock", "Collapsible", "Strong rating"],
-    pros: ["Mesh pockets for sub-document organization", "Strong rating", "Combines lock and fireproof marketing", "Collapsible design"],
-    cons: ["Verify exact legal-size dimension compatibility", "Verify fireproof rating documentation directly", "Smaller than the dedicated dual-size Storex pick"],
+    description: "This box's mesh interior pockets add organizational structure for sub-documents alongside its main capacity, verify the specific listing's legal-size dimension support before ordering if legal-size compatibility is essential.\n\nSitting just under ENGPOW File Box with Lock, it costs more than ENGPOW File Box with Lock. Here's the honest tradeoff: Verify exact legal-size dimension compatibility. And here's what it gets you instead: Mesh pockets for sub-document organization. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Strong rating. On the other side, Smaller than the dedicated dual-size Storex pick. That's the main tradeoff to weigh against everything above.",
+    specs: ["Mesh interior pockets","Fireproof-marketed, with lock","Collapsible","Strong rating"],
+    pros: ["Mesh pockets for sub-document organization","Strong rating","Combines lock and fireproof marketing","Collapsible design"],
+    cons: ["Verify exact legal-size dimension compatibility","Verify fireproof rating documentation directly","Smaller than the dedicated dual-size Storex pick"],
     bestFor: "Buyers who want mesh-pocket organization alongside adequate legal-size capacity.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "1,526",
     imageUrl: "https://m.media-amazon.com/images/I/51c1uDWDoaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B5STNV6J?tag=deskfinds0d-20",
-    description:
-      "Legal-size documents plus a 2-layer design add up to real weight, and this pick's wheels genuinely help offset the proportionally greater bulk that legal-size capacity requires compared to a letter-only box.",
-    specs: ["2-layer design with wheels", "Fireproof-marketed, with lock", "Wheels offset added weight", "Strong review count"],
-    pros: ["Wheels genuinely useful for this heavier, bulkier capacity", "2-layer design for organization", "Combines lock and fireproof marketing", "Strong review count"],
-    cons: ["Heaviest pick in this comparison", "Verify fireproof rating documentation directly", "Bulkier footprint given the wheeled base"],
+    description: "Legal-size documents plus a 2-layer design add up to real weight, and this pick's wheels genuinely help offset the proportionally greater bulk that legal-size capacity requires compared to a letter-only box.\n\nRanked just behind DocSafe Fireproof Document Box with Lock, it costs more than DocSafe Fireproof Document Box with Lock. The real tradeoff against that pick: Heaviest pick in this comparison. In exchange, it offers this instead: Wheels genuinely useful for this heavier, bulkier capacity. That's the swap that decides whether this pick or the one above it is the better fit for your documents.\n\nWorth knowing before you decide: 2-layer design for organization. On the other side, Bulkier footprint given the wheeled base. That's the main tradeoff to weigh against everything above.",
+    specs: ["2-layer design with wheels","Fireproof-marketed, with lock","Wheels offset added weight","Strong review count"],
+    pros: ["Wheels genuinely useful for this heavier, bulkier capacity","2-layer design for organization","Combines lock and fireproof marketing","Strong review count"],
+    cons: ["Heaviest pick in this comparison","Verify fireproof rating documentation directly","Bulkier footprint given the wheeled base"],
     bestFor: "Buyers who want legal-size capacity and appreciate wheels to offset the added bulk.",
   },
   {
@@ -98,13 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "2,705",
     imageUrl: "https://m.media-amazon.com/images/I/41vOA84B1YL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000GP0Z6I?tag=deskfinds0d-20",
-    description:
-      "Honesty note: check the current listing carefully, as this Vaultz product's title specifies letter size; if you need legal-size compatibility with genuine locking security, verify this specific dimension before ordering or consider the Vaultz dual-lock legal-compatible variant instead.",
-    specs: ["Letter size confirmed, verify legal compatibility separately", "Key lock included", "Metal-body construction", "Strong review history"],
-    pros: ["Genuine key lock included", "Strong review count and rating", "Durable metal-body construction", "Established locking-product brand"],
-    cons: ["Confirmed letter size, not legal, in the product title", "Verify legal-size compatibility on the current listing before ordering", "Heavier than plastic alternatives"],
+    description: "Honesty note: check the current listing carefully, as this Vaultz product's title specifies letter size; if you need legal-size compatibility with genuine locking security, verify this specific dimension before ordering or consider the Vaultz dual-lock legal-compatible variant instead.\n\nOne spot below DocSafe Fireproof Document Box with Lock in this ranking, it costs more than DocSafe Fireproof Document Box with Lock. The compromise here is straightforward: Confirmed letter size, not legal, in the product title. What you gain in return: Genuine key lock included. Whether that trade is worth it depends on which side matters more for your storage needs.\n\nWorth knowing before you decide: Strong review count and rating. On the other side, Heavier than plastic alternatives. That's the main tradeoff to weigh against everything above.",
+    specs: ["Letter size confirmed, verify legal compatibility separately","Key lock included","Metal-body construction","Strong review history"],
+    pros: ["Genuine key lock included","Strong review count and rating","Durable metal-body construction","Established locking-product brand"],
+    cons: ["Confirmed letter size, not legal, in the product title","Verify legal-size compatibility on the current listing before ordering","Heavier than plastic alternatives"],
     bestFor: "Buyers who want a genuine lock and are willing to verify legal-size compatibility directly before ordering.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,41 +113,114 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Priority",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Most proven, confirmed dual letter/legal", "Storex Portable Letter/Legal Filebox"],
-        ["Fireproof marketing plus zipper organization", "ENGPOW File Box with Zipper & Pockets"],
-        ["Mesh-pocket organization", "DocSafe Fireproof Document Box with Mesh Pockets"],
-        ["Wheels to offset added bulk and weight", "DocSafe Fireproof 2-Layer File Box with Wheels"],
-        ["Genuine lock, verify legal compatibility first", "Vaultz File Organizer Storage Box"],
+    "subheading": "By Material",
+    "note": "Material isn't consistently confirmed across every pick in this comparison; check each listing's product details directly."
+  },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $24",
+          "Storex Portable Letter/Legal Filebox with Organizer Lid"
+        ],
+        [
+          "Mid-range",
+          "DocSafe Fireproof Document Box with Lock"
+        ],
+        [
+          "No firm budget ceiling, prioritizing security or durability",
+          "Vaultz File Organizer Storage Box"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Always Verify Exact Legal-Size Dimensions",
-    note: "\"Large\" or generously-sized language in a listing doesn't guarantee genuine 8.5 x 14 inch legal-size compatibility. The Storex pick explicitly confirms this; verify the current listing's exact dimensions for any other pick before ordering.",
-  },
-  {
-    subheading: "Dual Compatibility vs. Legal-Exclusive Design",
-    cards: [
-      { label: "Dual letter/legal", text: "Accommodates both document sizes in one box, like the Storex pick, useful for mixed document collections." },
-      { label: "Legal-only design", text: "Sized exclusively for the larger format, potentially wasting space if you also store letter-size documents." },
+    "subheading": "Lockable vs Basic Latch",
+    "cards": [
+      {
+        "label": "Lockable",
+        "text": "Provides genuine access restriction beyond just keeping the lid shut in transit. In this comparison: ENGPOW File Box with Lock, DocSafe Fireproof Document Box with Lock, DocSafe Fireproof Document Box with Lock."
+      },
+      {
+        "label": "Basic Latch",
+        "text": "Keeps the lid closed during transport and handling, without real security against intentional access. In this comparison: Storex Portable Letter/Legal Filebox with Organizer Lid."
+      }
     ],
+    "note": "If restricting access to sensitive documents matters, prioritize a lockable pick like ENGPOW File Box with Lock over a basic-latch alternative."
   },
   {
-    subheading: "Legal-Size Folders Are Less Universally Available",
-    note: "When shopping for hanging folders to fill your legal-size box, be aware these are somewhat less commonly stocked than letter-size folders at general office supply stores, plan your folder sourcing accordingly.",
+    "subheading": "By Portability: Wheels vs Handle-Only",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Frequent moves over longer distances",
+          "DocSafe Fireproof Document Box with Lock"
+        ],
+        [
+          "Occasional short lifts, simpler design",
+          "Storex Portable Letter/Legal Filebox with Organizer Lid"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For Irreplaceable or Sensitive Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A stated independent fire rating with a named testing standard and duration (not just the word \"fireproof\"), plus a genuine lock rather than a basic latch."
+      },
+      {
+        "label": "In this comparison",
+        "text": "ENGPOW File Box with Lock fits this specifically: Generous sizing accommodates many legal-size needs."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Vaultz File Organizer Storage Box offers: Genuine key lock included. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Storex Portable Letter/Legal Filebox with Organizer Lid already covers the essentials: Confirmed dual letter/legal compatibility. The main thing you'd be paying extra for elsewhere in this list is security or durability you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify genuine 8.5x14 inch legal-size dimensions", explanation: "Don't assume a 'large' box automatically fits legal-size documents. Check the specific listing's dimensions against the true legal-size standard before ordering." },
-  { criterion: "Consider dual letter/legal compatibility for mixed documents", explanation: "If you store both letter and legal-size documents, a dual-compatible box like the Storex pick avoids needing two separate boxes." },
-  { criterion: "Accept the proportionally greater weight and bulk", explanation: "Legal-size capacity requires a larger box than letter-only, adding real weight and bulk, a genuine portability tradeoff worth planning for." },
-  { criterion: "Plan for legal-size hanging folder sourcing", explanation: "Legal-size folders are somewhat less universally available than letter-size at general office supply stores. Confirm sourcing before committing to a legal-size box." },
-  { criterion: "Weigh wheels if legal-size capacity adds significant weight", explanation: "A wheeled design, like the DocSafe 2-layer pick, genuinely helps offset the added bulk and weight that legal-size capacity requires." },
+  {
+    "criterion": "Confirm letter, legal, or A4 compatibility against your actual documents",
+    "explanation": "File boxes are built around specific paper sizes, and letter (8.5x11 inch, standard in the US), legal (8.5x14 inch, longer), and A4 (the standard size in most of the rest of the world) hanging folders are not interchangeable, since a box sized for one won't properly fit hanging folders built for another.\n\nSome boxes explicitly support both letter and legal sizing with adjustable rails, while others are built for one size only, and buying the wrong size means folders that either don't fit the internal rails at all or sit loose and unsupported inside a box that's too large for them.\n\nCheck the listing's stated compatible paper and folder sizes against what you actually use, especially if you have any legal-size or A4 documents mixed into an otherwise standard letter-size collection."
+  },
+  {
+    "criterion": "Understand the real tradeoffs between plastic, metal, and clear construction",
+    "explanation": "Plastic file boxes are lightweight and generally the most affordable option, but can crack under impact and aren't fire-resistant, metal boxes offer more structural rigidity and impact resistance at a higher weight and price, and clear plastic boxes let you identify contents without opening the box but can gradually yellow and haze with sustained UV exposure near a window while also displaying document contents to anyone nearby.\n\nNone of these materials is universally best, the right choice depends on whether portability, durability, budget, or content privacy matters most for your specific situation, and boxes marketed primarily on one material's strength often compromise on another dimension.\n\nMatch the material to your actual priority (weight and cost for plastic, durability for metal, quick content identification for clear) rather than assuming any one material is a straightforward upgrade over the others."
+  },
+  {
+    "criterion": "Verify a fireproof claim's actual rating rather than trusting the word alone",
+    "explanation": "\"Fireproof\" and \"fire-resistant\" are used loosely in product marketing, and a genuine fire rating comes from an independent testing standard, commonly expressed as a UL rating with a specific time duration (such as 30 minutes) at a specific temperature the container is verified to withstand, information that a legitimately rated product will state explicitly rather than just using the word \"fireproof\" in the title.\n\nA box without a stated independent rating and testing standard should be treated as offering no verified fire protection at all, regardless of marketing language, since the word alone carries no legal or testing requirement behind it.\n\nCheck the specific listing for a named testing standard and duration rather than trusting \"fireproof\" in the product title alone, and if genuine fire protection for irreplaceable documents matters, prioritize listings that cite specific, verifiable certification details."
+  },
+  {
+    "criterion": "Check the lock or latch mechanism's actual security level against your real need",
+    "explanation": "File box closures range from a simple friction-fit lid with no locking mechanism at all, to a basic latch that keeps the lid shut during transport but offers no real security against an intentional attempt to open it, to a genuine key or combination lock that provides actual access control.\n\nThis distinction matters because a box marketed as \"lockable\" sometimes just means it has a small hole for a separately purchased padlock, not a lock included in the purchase, and conflating basic latching with genuine security leads to disappointment if you specifically need to restrict access to sensitive documents.\n\nCheck whether a lock is actually included in the purchase or merely accommodated via an aftermarket padlock, and match the closure type to whether you need transport-only convenience or genuine access restriction."
+  },
+  {
+    "criterion": "Weigh portability features (handles, wheels) against your actual moving distance and frequency",
+    "explanation": "A basic side handle works fine for lifting a file box a short distance or in and out of a car trunk occasionally, while wheels genuinely matter if you're moving a heavy, fully-loaded box repeatedly across a longer distance, such as between an office and a storage room on a regular basis, since a fully loaded file box can weigh considerably more than it looks once filled with paper documents.\n\nWheeled file boxes add real cost and bulk over a simple handle-only design, so this is a genuine tradeoff rather than wheels being a strict upgrade, and a box that will mostly sit in one place doesn't benefit from paying extra for mobility features it will rarely use.\n\nMatch the portability features to your actual moving pattern (occasional short lifts versus frequent longer moves) rather than defaulting to the most feature-rich option available."
+  }
 ];
 
 export const faq: FaqItem[] = [

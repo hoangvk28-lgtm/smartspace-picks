@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "1,820",
     imageUrl: "https://m.media-amazon.com/images/I/41U02LvHAEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09TQ6HY4J?tag=deskfinds0d-20",
-    description:
-      "This box's lid is permanently hinged, meaning it can never be lost or set down somewhere and misplaced, combined with a double latch for genuine transport security, the strongest lid design in this comparison for buyers who prioritize never losing the lid.",
-    specs: ["Hinged, permanently attached lid", "Double latch closure", "3-pack available", "Strong rating"],
-    pros: ["Lid can never be lost, permanently attached", "Double latch for transport security", "Strong rating", "Genuine hanging file rails"],
-    cons: ["Hinge is a mechanical wear point over years", "Higher price than basic single boxes", "Letter size only"],
+    description: "This box's lid is permanently hinged, meaning it can never be lost or set down somewhere and misplaced, combined with a double latch for genuine transport security, the strongest lid design in this comparison for buyers who prioritize never losing the lid.\n\nIt earns the top spot in this comparison over Pendaflex Portable File Box with File Rails for one main reason. Lid can never be lost, permanently attached. On price, it's actually priced above Pendaflex Portable File Box with File Rails, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Double latch for transport security. On the other side, Letter size only. That's the main tradeoff to weigh against everything above.",
+    specs: ["Hinged, permanently attached lid","Double latch closure","3-pack available","Strong rating"],
+    pros: ["Lid can never be lost, permanently attached","Double latch for transport security","Strong rating","Genuine hanging file rails"],
+    cons: ["Hinge is a mechanical wear point over years","Higher price than basic single boxes","Letter size only"],
     bestFor: "Buyers who never want to risk losing a separate, removable lid.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "5,076",
     imageUrl: "https://m.media-amazon.com/images/I/41PdCI0nCgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08T6P8LB6?tag=deskfinds0d-20",
-    description:
-      "This box's lid is fully separate rather than hinged, allowing complete, unobstructed access to the box's interior when removed entirely, genuinely easier for loading or unloading a full stack of hanging folders at once.",
-    specs: ["Fully removable, separate lid", "Genuine hanging file rails", "Letter size", "Strong review history"],
-    pros: ["Full, unobstructed access when lid is off", "Most proven pick by review volume", "Confirmed hanging file rails", "No hinge to wear out over time"],
-    cons: ["Lid can be set down and misplaced", "Letter size only", "No lock"],
+    description: "This box's lid is fully separate rather than hinged, allowing complete, unobstructed access to the box's interior when removed entirely, genuinely easier for loading or unloading a full stack of hanging folders at once.\n\nOne spot below Pendaflex Portable File Box in this ranking, it's priced lower than Pendaflex Portable File Box. The compromise here is straightforward: Lid can be set down and misplaced. What you gain in return: Full, unobstructed access when lid is off. Whether that trade is worth it depends on which side matters more for your storage needs.\n\nWorth knowing before you decide: Most proven pick by review volume. On the other side, No lock. That's the main tradeoff to weigh against everything above.",
+    specs: ["Fully removable, separate lid","Genuine hanging file rails","Letter size","Strong review history"],
+    pros: ["Full, unobstructed access when lid is off","Most proven pick by review volume","Confirmed hanging file rails","No hinge to wear out over time"],
+    cons: ["Lid can be set down and misplaced","Letter size only","No lock"],
     bestFor: "Buyers who want the most complete, unobstructed interior access when loading or unloading files.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "7,808",
     imageUrl: "https://m.media-amazon.com/images/I/419pjtp0ZDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B005T7XNDK?tag=deskfinds0d-20",
-    description:
-      "This lid does double duty as a small organizer tray, a genuine bonus function beyond simple closure, at the highest review count of any pick in this comparison, real evidence of this lid design's proven reliability.",
-    specs: ["Organizer-function lid", "Dual letter/legal compatible", "Highest review count in this comparison", "Proven reliability"],
-    pros: ["Lid doubles as a genuine organizer tray", "Highest review count of any pick here", "Dual letter/legal compatibility", "Proven reliability"],
-    cons: ["Verify whether this specific lid is hinged or removable on the current listing", "No lock", "Larger footprint for dual-size compatibility"],
+    description: "This lid does double duty as a small organizer tray, a genuine bonus function beyond simple closure, at the highest review count of any pick in this comparison, real evidence of this lid design's proven reliability.\n\nSitting just under Pendaflex Portable File Box with File Rails, it's priced lower than Pendaflex Portable File Box with File Rails. Here's the honest tradeoff: Verify whether this specific lid is hinged or removable on the current listing. And here's what it gets you instead: Lid doubles as a genuine organizer tray. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Highest review count of any pick here. On the other side, Larger footprint for dual-size compatibility. That's the main tradeoff to weigh against everything above.",
+    specs: ["Organizer-function lid","Dual letter/legal compatible","Highest review count in this comparison","Proven reliability"],
+    pros: ["Lid doubles as a genuine organizer tray","Highest review count of any pick here","Dual letter/legal compatibility","Proven reliability"],
+    cons: ["Verify whether this specific lid is hinged or removable on the current listing","No lock","Larger footprint for dual-size compatibility"],
     bestFor: "Buyers who want their lid to double as functional small-item storage.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "2,705",
     imageUrl: "https://m.media-amazon.com/images/I/41vOA84B1YL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000GP0Z6I?tag=deskfinds0d-20",
-    description:
-      "This box's lid closure includes a genuine key lock, the most secure lid mechanism in this comparison, from an established locking-storage brand with a strong review history.",
-    specs: ["Key-locking lid", "Letter size", "Established locking-product brand", "Strong review history"],
-    pros: ["Most secure locking lid mechanism here", "Strong review count", "Established brand", "Durable metal construction"],
-    cons: ["Higher price than non-locking alternatives", "Letter size only", "Heavier than plastic alternatives"],
+    description: "This box's lid closure includes a genuine key lock, the most secure lid mechanism in this comparison, from an established locking-storage brand with a strong review history.\n\nRanked just behind Storex Portable Letter/Legal Filebox with Organizer Lid, it costs more than Storex Portable Letter/Legal Filebox with Organizer Lid. The real tradeoff against that pick: Higher price than non-locking alternatives. In exchange, it offers this instead: Most secure locking lid mechanism here. That's the swap that decides whether this pick or the one above it is the better fit for your documents.\n\nWorth knowing before you decide: Strong review count. On the other side, Heavier than plastic alternatives. That's the main tradeoff to weigh against everything above.",
+    specs: ["Key-locking lid","Letter size","Established locking-product brand","Strong review history"],
+    pros: ["Most secure locking lid mechanism here","Strong review count","Established brand","Durable metal construction"],
+    cons: ["Higher price than non-locking alternatives","Letter size only","Heavier than plastic alternatives"],
     bestFor: "Buyers who want the most secure lid mechanism with a genuine lock.",
   },
   {
@@ -98,13 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "3,133",
     imageUrl: "https://m.media-amazon.com/images/I/41GQ8rqDXhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FVJZD3L?tag=deskfinds0d-20",
-    description:
-      "The most affordable well-reviewed lidded box in this comparison, this IRIS USA pick includes a simple, effective lid at a lower price point than the premium locking or hinged double-latch alternatives above.",
-    specs: ["Lid included", "Letter size", "Portable handle", "Affordable"],
-    pros: ["Very affordable", "Strong review count", "Lid included for enclosed storage", "Reputable brand"],
-    cons: ["Basic lid closure, no lock or double latch", "Letter size only", "Verify hinged vs. removable design on the current listing"],
+    description: "The most affordable well-reviewed lidded box in this comparison, this IRIS USA pick includes a simple, effective lid at a lower price point than the premium locking or hinged double-latch alternatives above.\n\nOne spot below Vaultz File Organizer Storage Box in this ranking, it's priced lower than Vaultz File Organizer Storage Box. The compromise here is straightforward: Basic lid closure, no lock or double latch. What you gain in return: Very affordable. Whether that trade is worth it depends on which side matters more for your storage needs.\n\nWorth knowing before you decide: Strong review count. On the other side, Verify hinged vs. removable design on the current listing. That's the main tradeoff to weigh against everything above.",
+    specs: ["Lid included","Letter size","Portable handle","Affordable"],
+    pros: ["Very affordable","Strong review count","Lid included for enclosed storage","Reputable brand"],
+    cons: ["Basic lid closure, no lock or double latch","Letter size only","Verify hinged vs. removable design on the current listing"],
     bestFor: "Budget buyers who want a simple, effective lid without premium features.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,41 +113,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Priority",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Never want to lose the lid", "Pendaflex Hinged Lid with Double Latch"],
-        ["Full, unobstructed interior access", "Pendaflex Portable File Box with File Rails"],
-        ["Lid that doubles as an organizer", "Storex Portable Letter/Legal Filebox"],
-        ["Most secure locking lid", "Vaultz File Organizer Storage Box"],
-        ["Simple, affordable lid", "IRIS USA File Box Organizer with Lid"],
+    "subheading": "By Material",
+    "note": "Material isn't consistently confirmed across every pick in this comparison; check each listing's product details directly."
+  },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $19",
+          "IRIS USA File Box Organizer with Lid"
+        ],
+        [
+          "Mid-range",
+          "Pendaflex Portable File Box with File Rails"
+        ],
+        [
+          "No firm budget ceiling, prioritizing security or durability",
+          "Vaultz File Organizer Storage Box"
+        ]
+      ]
+    }
   },
   {
-    subheading: "This Overlaps With Our General Portable File Box Guide",
-    note: "Since nearly every portable file box includes some form of lid by definition, this guide's real value is comparing hinged versus removable lid mechanisms specifically, not treating lid presence as a distinct product category.",
-  },
-  {
-    subheading: "Hinged vs. Removable Lid",
-    cards: [
-      { label: "Hinged lid", text: "Can never be lost or misplaced, but the hinge mechanism is a wear point over years of repeated opening and closing." },
-      { label: "Removable lid", text: "Allows complete, unobstructed access when removed, but the separate lid piece can be set down and lost." },
+    "subheading": "Lockable vs Basic Latch",
+    "cards": [
+      {
+        "label": "Lockable",
+        "text": "Provides genuine access restriction beyond just keeping the lid shut in transit. In this comparison: Vaultz File Organizer Storage Box."
+      },
+      {
+        "label": "Basic Latch",
+        "text": "Keeps the lid closed during transport and handling, without real security against intentional access. In this comparison: Pendaflex Portable File Box, Pendaflex Portable File Box with File Rails, Storex Portable Letter/Legal Filebox with Organizer Lid."
+      }
     ],
+    "note": "If restricting access to sensitive documents matters, prioritize a lockable pick like Vaultz File Organizer Storage Box over a basic-latch alternative."
   },
   {
-    subheading: "Consider Lid Bonus Features",
-    note: "Some lids do double duty beyond simple closure, like the Storex pick's organizer tray function or the Vaultz pick's integrated key lock. Weigh these bonus features against your realistic needs.",
+    "subheading": "By Portability: Wheels vs Handle-Only",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Occasional short lifts, simpler design",
+          "Pendaflex Portable File Box"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For Irreplaceable or Sensitive Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A stated independent fire rating with a named testing standard and duration (not just the word \"fireproof\"), plus a genuine lock rather than a basic latch."
+      },
+      {
+        "label": "In this comparison",
+        "text": "No pick in this specific comparison explicitly confirms an independent fire rating; check our dedicated fireproof file box roundup if that's a hard requirement."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Vaultz File Organizer Storage Box offers: Most secure locking lid mechanism here. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "IRIS USA File Box Organizer with Lid already covers the essentials: Very affordable. The main thing you'd be paying extra for elsewhere in this list is security or durability you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Decide between hinged and removable lid designs", explanation: "A hinged lid can never be lost but has a hinge mechanism that wears over time. A removable lid offers full access but risks being set down and misplaced." },
-  { criterion: "Check hinge durability for hinged-lid designs", explanation: "If choosing a hinged lid, favor a pick with strong, proven review history as evidence the hinge holds up under repeated opening and closing cycles." },
-  { criterion: "Consider whether you need full, unobstructed interior access", explanation: "A removable lid gives you complete access to the box's interior when loading or unloading a large stack of files at once." },
-  { criterion: "Weigh bonus lid features against your realistic needs", explanation: "Some lids double as organizer trays or include locking mechanisms. Consider these features against your actual storage and security requirements." },
-  { criterion: "Recognize this overlaps with the general portable file box category", explanation: "Since lids are near-universal on genuine file boxes, evaluate other core features alongside lid mechanism rather than treating lid presence alone as differentiating." },
+  {
+    "criterion": "Confirm letter, legal, or A4 compatibility against your actual documents",
+    "explanation": "File boxes are built around specific paper sizes, and letter (8.5x11 inch, standard in the US), legal (8.5x14 inch, longer), and A4 (the standard size in most of the rest of the world) hanging folders are not interchangeable, since a box sized for one won't properly fit hanging folders built for another.\n\nSome boxes explicitly support both letter and legal sizing with adjustable rails, while others are built for one size only, and buying the wrong size means folders that either don't fit the internal rails at all or sit loose and unsupported inside a box that's too large for them.\n\nCheck the listing's stated compatible paper and folder sizes against what you actually use, especially if you have any legal-size or A4 documents mixed into an otherwise standard letter-size collection."
+  },
+  {
+    "criterion": "Understand the real tradeoffs between plastic, metal, and clear construction",
+    "explanation": "Plastic file boxes are lightweight and generally the most affordable option, but can crack under impact and aren't fire-resistant, metal boxes offer more structural rigidity and impact resistance at a higher weight and price, and clear plastic boxes let you identify contents without opening the box but can gradually yellow and haze with sustained UV exposure near a window while also displaying document contents to anyone nearby.\n\nNone of these materials is universally best, the right choice depends on whether portability, durability, budget, or content privacy matters most for your specific situation, and boxes marketed primarily on one material's strength often compromise on another dimension.\n\nMatch the material to your actual priority (weight and cost for plastic, durability for metal, quick content identification for clear) rather than assuming any one material is a straightforward upgrade over the others."
+  },
+  {
+    "criterion": "Verify a fireproof claim's actual rating rather than trusting the word alone",
+    "explanation": "\"Fireproof\" and \"fire-resistant\" are used loosely in product marketing, and a genuine fire rating comes from an independent testing standard, commonly expressed as a UL rating with a specific time duration (such as 30 minutes) at a specific temperature the container is verified to withstand, information that a legitimately rated product will state explicitly rather than just using the word \"fireproof\" in the title.\n\nA box without a stated independent rating and testing standard should be treated as offering no verified fire protection at all, regardless of marketing language, since the word alone carries no legal or testing requirement behind it.\n\nCheck the specific listing for a named testing standard and duration rather than trusting \"fireproof\" in the product title alone, and if genuine fire protection for irreplaceable documents matters, prioritize listings that cite specific, verifiable certification details."
+  },
+  {
+    "criterion": "Check the lock or latch mechanism's actual security level against your real need",
+    "explanation": "File box closures range from a simple friction-fit lid with no locking mechanism at all, to a basic latch that keeps the lid shut during transport but offers no real security against an intentional attempt to open it, to a genuine key or combination lock that provides actual access control.\n\nThis distinction matters because a box marketed as \"lockable\" sometimes just means it has a small hole for a separately purchased padlock, not a lock included in the purchase, and conflating basic latching with genuine security leads to disappointment if you specifically need to restrict access to sensitive documents.\n\nCheck whether a lock is actually included in the purchase or merely accommodated via an aftermarket padlock, and match the closure type to whether you need transport-only convenience or genuine access restriction."
+  },
+  {
+    "criterion": "Weigh portability features (handles, wheels) against your actual moving distance and frequency",
+    "explanation": "A basic side handle works fine for lifting a file box a short distance or in and out of a car trunk occasionally, while wheels genuinely matter if you're moving a heavy, fully-loaded box repeatedly across a longer distance, such as between an office and a storage room on a regular basis, since a fully loaded file box can weigh considerably more than it looks once filled with paper documents.\n\nWheeled file boxes add real cost and bulk over a simple handle-only design, so this is a genuine tradeoff rather than wheels being a strict upgrade, and a box that will mostly sit in one place doesn't benefit from paying extra for mobility features it will rarely use.\n\nMatch the portability features to your actual moving pattern (occasional short lifts versus frequent longer moves) rather than defaulting to the most feature-rich option available."
+  }
 ];
 
 export const faq: FaqItem[] = [
