@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51+oSuyEu7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BWNDX4VL?tag=deskfinds0d-20",
-    description:
-      "Purpose-built for four computers sharing one monitor, its explicit 3 USB ports give reasonable peripheral switching capability across whichever computer is active.\n\n4K@60Hz support keeps resolution sharp regardless of which of the four sources you're currently viewing.",
-    specs: ["4 computers, 1 monitor", "4K@60Hz resolution support", "3 USB ports", "HDMI connectivity"],
-    pros: ["Purpose-built for the genuine four-computer use case", "4K@60Hz resolution covers typical monitor needs", "3 USB ports for reasonable peripheral switching", "Good value for the four-source capability"],
-    cons: ["Verify the actual switching method (cycling vs direct access) through current reviews", "Verify EDID emulation behavior through current reviews", "No multi-monitor support"],
+    description: "Purpose-built for four computers sharing one monitor, its explicit 3 USB ports give reasonable peripheral switching capability across whichever computer is active.\n\nIt earns the top spot in this comparison over 2 Monitors 4 Computers KVM Switch Laptop and Desktop 4 Port Hybrid USB-C Docking & Dual Display for one main reason. Purpose-built for the genuine four-computer use case. On price, it comes in below 2 Monitors 4 Computers KVM Switch Laptop and Desktop 4 Port Hybrid USB-C Docking & Dual Display, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: 4K@60Hz resolution covers typical monitor needs. On the other side, No multi-monitor support. That's the main tradeoff to weigh against everything above.",
+    specs: ["4 computers, 1 monitor","4K@60Hz resolution support","3 USB ports","HDMI connectivity"],
+    pros: ["Purpose-built for the genuine four-computer use case","4K@60Hz resolution covers typical monitor needs","3 USB ports for reasonable peripheral switching","Good value for the four-source capability"],
+    cons: ["Verify the actual switching method (cycling vs direct access) through current reviews","Verify EDID emulation behavior through current reviews","No multi-monitor support"],
     bestFor: "Buyers with exactly four computers wanting straightforward shared-monitor switching",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/5157r3C3OmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GSZCW9NF?tag=deskfinds0d-20",
-    description:
-      "A genuinely more ambitious switch supporting four computers across two synchronized monitors, appropriate for buyers wanting more than a single shared display.\n\nHybrid USB-C docking functionality adds real convenience beyond simple video and peripheral switching for this expanded four-source setup.",
-    specs: ["4 computers, 2 monitors", "Hybrid USB-C docking functionality", "Dual display support", "Moderate price point"],
-    pros: ["Supports four computers across two synchronized monitors", "Hybrid USB-C docking functionality adds real convenience", "More capable than a single-monitor four-port switch", "Reasonable price for the expanded capability"],
-    cons: ["More complex setup given the four-computer, dual-monitor capability", "Higher price than a single-monitor four-port switch", "Verify EDID emulation behavior specifically for four-source dual-monitor synchronization"],
+    description: "A genuinely more ambitious switch supporting four computers across two synchronized monitors, appropriate for buyers wanting more than a single shared display.\n\nOne spot below USB3.0 KVM Switch HDMI 4K@60Hz for 4 Computers Share 1 Monitor in this ranking, it costs more than USB3.0 KVM Switch HDMI 4K@60Hz for 4 Computers Share 1 Monitor. The compromise here is straightforward: More complex setup given the four-computer, dual-monitor capability. What you gain in return: Supports four computers across two synchronized monitors. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Hybrid USB-C docking functionality adds real convenience. On the other side, Verify EDID emulation behavior specifically for four-source dual-monitor synchronization. That's the main tradeoff to weigh against everything above.",
+    specs: ["4 computers, 2 monitors","Hybrid USB-C docking functionality","Dual display support","Moderate price point"],
+    pros: ["Supports four computers across two synchronized monitors","Hybrid USB-C docking functionality adds real convenience","More capable than a single-monitor four-port switch","Reasonable price for the expanded capability"],
+    cons: ["More complex setup given the four-computer, dual-monitor capability","Higher price than a single-monitor four-port switch","Verify EDID emulation behavior specifically for four-source dual-monitor synchronization"],
     bestFor: "Buyers wanting to switch dual monitors across four computers, not just a single shared display",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41EdJsfqo4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H2YVL93R?tag=deskfinds0d-20",
-    description:
-      "Included as a reference point for buyers reconsidering whether they truly need four ports versus a simpler two-port switch for their most frequently used computers.\n\nIf you only actively switch between two of your four computers regularly, this simpler and cheaper option may actually suit your real workflow better.",
-    specs: ["2 computers, 1 monitor", "4K@60Hz resolution support", "USB 3.0 connectivity", "Budget-friendly price"],
-    pros: ["Much lower price if you only need two active sources", "Simpler switching without a four-source cycling sequence", "4K@60Hz resolution covers typical monitor needs", "Good option for buyers reconsidering their actual needs"],
-    cons: ["Only supports two computers, not four", "Won't work if you genuinely need all four sources switchable", "No expansion beyond two ports"],
+    description: "Included as a reference point for buyers reconsidering whether they truly need four ports versus a simpler two-port switch for their most frequently used computers.\n\nSitting just under 2 Monitors 4 Computers KVM Switch Laptop and Desktop 4 Port Hybrid USB-C Docking & Dual Display, it's priced lower than 2 Monitors 4 Computers KVM Switch Laptop and Desktop 4 Port Hybrid USB-C Docking & Dual Display. Here's the honest tradeoff: Only supports two computers, not four. And here's what it gets you instead: Much lower price if you only need two active sources. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Simpler switching without a four-source cycling sequence. On the other side, No expansion beyond two ports. That's the main tradeoff to weigh against everything above.",
+    specs: ["2 computers, 1 monitor","4K@60Hz resolution support","USB 3.0 connectivity","Budget-friendly price"],
+    pros: ["Much lower price if you only need two active sources","Simpler switching without a four-source cycling sequence","4K@60Hz resolution covers typical monitor needs","Good option for buyers reconsidering their actual needs"],
+    cons: ["Only supports two computers, not four","Won't work if you genuinely need all four sources switchable","No expansion beyond two ports"],
     bestFor: "Buyers reconsidering whether they truly need four ports versus a simpler two-port switch",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41uSOQO2ILL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFVBK4XQ?tag=deskfinds0d-20",
-    description:
-      "Another two-port reference option for buyers who realize their actual daily workflow only needs two switchable sources despite owning four computers.\n\n3 USB 3.0 ports give reasonable peripheral switching capability for this simpler, more affordable alternative.",
-    specs: ["2 computers, 1 monitor", "4K@60Hz resolution support", "3 USB 3.0 ports", "HDMI connectivity"],
-    pros: ["Lower price if you only need two active sources", "3 USB 3.0 ports for reasonable peripheral switching", "Simpler switching without a four-source cycling sequence", "Good option for buyers reconsidering their actual needs"],
-    cons: ["Only supports two computers, not four", "Won't work if you genuinely need all four sources switchable", "No expansion beyond two ports"],
+    description: "Another two-port reference option for buyers who realize their actual daily workflow only needs two switchable sources despite owning four computers.\n\nRanked just behind TIGKTING USB 3.0 HDMI KVM Switch 1 Monitors 2 Computers 4K60Hz KVM Switches 2 Ports for 2 PC 1 Monitor, it costs more than TIGKTING USB 3.0 HDMI KVM Switch 1 Monitors 2 Computers 4K60Hz KVM Switches 2 Ports for 2 PC 1 Monitor. The real tradeoff against that pick: Only supports two computers, not four. In exchange, it offers this instead: Lower price if you only need two active sources. That's the swap that decides whether this pick or the one above it is the better fit for your desk setup.\n\nWorth knowing before you decide: 3 USB 3.0 ports for reasonable peripheral switching. On the other side, No expansion beyond two ports. That's the main tradeoff to weigh against everything above.",
+    specs: ["2 computers, 1 monitor","4K@60Hz resolution support","3 USB 3.0 ports","HDMI connectivity"],
+    pros: ["Lower price if you only need two active sources","3 USB 3.0 ports for reasonable peripheral switching","Simpler switching without a four-source cycling sequence","Good option for buyers reconsidering their actual needs"],
+    cons: ["Only supports two computers, not four","Won't work if you genuinely need all four sources switchable","No expansion beyond two ports"],
     bestFor: "Budget-conscious buyers who realize two switchable ports actually meets their daily needs",
   },
   {
@@ -98,13 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/5157r3C3OmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GSZCW9NF?tag=deskfinds0d-20",
-    description:
-      "Listed again here as the strongest genuine four-port, dual-monitor option in this guide for buyers with a demanding mix of laptops and desktops needing full switching capability.\n\nAppropriate for buyers whose workflow genuinely spans four active computers with a two-monitor workspace.",
-    specs: ["4 computers, 2 monitors", "Hybrid USB-C docking functionality", "Dual display support", "Moderate price point"],
-    pros: ["Genuinely supports four computers with a real dual-monitor workspace", "Hybrid USB-C docking functionality adds real convenience", "Most capable option in this guide for complex setups", "Reasonable price for the expanded capability"],
-    cons: ["More complex setup given the four-computer, dual-monitor capability", "Higher price than a simpler two-port switch", "Verify EDID emulation behavior specifically for four-source dual-monitor synchronization"],
+    description: "Listed again here as the strongest genuine four-port, dual-monitor option in this guide for buyers with a demanding mix of laptops and desktops needing full switching capability.\n\nOne spot below USB3.0 KVM Switch 2 Port HDMI in this ranking, it costs more than USB3.0 KVM Switch 2 Port HDMI. The compromise here is straightforward: More complex setup given the four-computer, dual-monitor capability. What you gain in return: Genuinely supports four computers with a real dual-monitor workspace. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Hybrid USB-C docking functionality adds real convenience. On the other side, Verify EDID emulation behavior specifically for four-source dual-monitor synchronization. That's the main tradeoff to weigh against everything above.",
+    specs: ["4 computers, 2 monitors","Hybrid USB-C docking functionality","Dual display support","Moderate price point"],
+    pros: ["Genuinely supports four computers with a real dual-monitor workspace","Hybrid USB-C docking functionality adds real convenience","Most capable option in this guide for complex setups","Reasonable price for the expanded capability"],
+    cons: ["More complex setup given the four-computer, dual-monitor capability","Higher price than a simpler two-port switch","Verify EDID emulation behavior specifically for four-source dual-monitor synchronization"],
     bestFor: "Buyers with a genuinely complex four-computer, dual-monitor workflow",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,33 +113,128 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Check the Actual Switching UX Before Buying",
-    note: "Switching between four sources usually means cycling through a sequence via button press or hotkey rather than jumping directly to your desired computer, worth checking the actual switching UX through reviews before assuming instant direct access to any of the four connected sources.",
-  },
-  {
-    subheading: "Verify Bandwidth and USB Capacity Genuinely Support Four Sources",
-    note: "A 4-port switch's shared bandwidth and USB hub capacity get divided more ways than a 2-port switch, worth verifying the total port count and USB standard genuinely supports four active peripheral sets rather than assuming ports scale linearly with computer count.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Genuine four-computer, single shared monitor", "USB3.0 KVM Switch for 4 Computers"],
-        ["Four computers, real dual-monitor workspace", "2 Monitors 4 Computers Hybrid KVM"],
-        ["Reconsidering, only need two active sources", "TIGKTING USB 3.0 HDMI KVM Switch"],
-        ["Budget two-port alternative", "USB3.0 KVM Switch 2 Port HDMI"],
-        ["Complex four-computer, two-monitor workflow", "2 Monitors 4 Computers Hybrid KVM"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Highest star rating",
+          "USB3.0 KVM Switch HDMI 4K@60Hz for 4 Computers Share 1 Monitor"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "USB3.0 KVM Switch HDMI 4K@60Hz for 4 Computers Share 1 Monitor"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $30",
+          "TIGKTING USB 3.0 HDMI KVM Switch 1 Monitors 2 Computers 4K60Hz KVM Switches 2 Ports for 2 PC 1 Monitor"
+        ],
+        [
+          "Mid-range",
+          "USB3.0 KVM Switch HDMI 4K@60Hz for 4 Computers Share 1 Monitor"
+        ],
+        [
+          "No firm budget ceiling, prioritizing build or resolution",
+          "2 Monitors 4 Computers KVM Switch Laptop and Desktop 4 Port Hybrid USB-C Docking & Dual Display"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Hotkey Switching vs Physical Button Only",
+    "cards": [
+      {
+        "label": "Hotkey Switching",
+        "text": "Switches computers without reaching for the device, faster for frequent switching during a work session. In this comparison: check each listing's switching method directly."
+      },
+      {
+        "label": "Physical Button Only",
+        "text": "Simpler and more predictable, but requires reaching the device every time you switch. In this comparison: USB3.0 KVM Switch HDMI 4K@60Hz for 4 Computers Share 1 Monitor, 2 Monitors 4 Computers KVM Switch Laptop and Desktop 4 Port Hybrid USB-C Docking & Dual Display, TIGKTING USB 3.0 HDMI KVM Switch 1 Monitors 2 Computers 4K60Hz KVM Switches 2 Ports for 2 PC 1 Monitor."
+      }
+    ]
+  },
+  {
+    "subheading": "USB Peripheral Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "USB 3.0 speed for drives or webcams",
+          "USB3.0 KVM Switch HDMI 4K@60Hz for 4 Computers Share 1 Monitor"
+        ],
+        [
+          "Basic keyboard and mouse only",
+          "USB3.0 KVM Switch HDMI 4K@60Hz for 4 Computers Share 1 Monitor"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Audio Switching Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation of audio switching in the listing, since many KVM switches handle video and USB but leave speakers or headphones tied to one fixed computer."
+      },
+      {
+        "label": "In this comparison",
+        "text": "No pick in this specific comparison explicitly confirms audio switching; check our dedicated audio-support KVM switch roundup if that's a hard requirement."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what 2 Monitors 4 Computers KVM Switch Laptop and Desktop 4 Port Hybrid USB-C Docking & Dual Display offers: Genuinely supports four computers with a real dual-monitor workspace. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "TIGKTING USB 3.0 HDMI KVM Switch 1 Monitors 2 Computers 4K60Hz KVM Switches 2 Ports for 2 PC 1 Monitor already covers the essentials: Much lower price if you only need two active sources. The main thing you'd be paying extra for elsewhere in this list is resolution headroom or build quality you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Check whether switching cycles through sources or jumps directly", explanation: "Cycling sequentially through four sources is a meaningfully different daily experience than direct access, verify this through reviews." },
-  { criterion: "Verify total bandwidth and USB capacity for four active sources", explanation: "Shared resources get divided more ways with four ports, don't assume capability scales linearly with computer count." },
-  { criterion: "Reconsider whether you actually need four switchable ports", explanation: "If your daily workflow only touches two computers regularly, a simpler and cheaper two-port switch may better fit your real needs." },
-  { criterion: "Decide between single-monitor and dual-monitor four-port switching", explanation: "A dual-monitor four-port switch offers more workspace but adds complexity, match this to your actual setup needs." },
+  {
+    "criterion": "Verify EDID emulation is included, regardless of price",
+    "explanation": "EDID (Extended Display Identification Data) is the information a monitor sends to a connected computer describing its supported resolutions and refresh rates, and a KVM switch without EDID emulation can cause a real, recurring annoyance: when you switch away from a computer, that computer loses its connection to the monitor's EDID data, and some graphics drivers respond by dropping to a default low resolution or losing the display arrangement entirely until you manually reconfigure it after switching back.\n\nA switch with proper EDID emulation stores and continuously presents the monitor's display information to every connected computer regardless of which one is actively selected, so switching back and forth doesn't repeatedly trigger resolution resets or display rearrangement.\n\nThis feature isn't reliably tied to price, a budget switch can include it while a similarly priced competitor omits it, so check the listing or current buyer reviews specifically for EDID emulation rather than assuming it based on price alone."
+  },
+  {
+    "criterion": "Match USB peripheral support to what you actually plug in, not just keyboard and mouse",
+    "explanation": "Every KVM switch handles keyboard and mouse switching as the baseline function, but USB port count and speed generation (USB 2.0 versus USB 3.0 or higher) vary significantly beyond that baseline, and this matters concretely if you also want to switch a USB webcam, external drive, audio interface, or other peripheral along with the computer selection rather than leaving it permanently connected to one machine.\n\nA switch with only two USB 2.0 ports leaves no room for anything beyond keyboard and mouse, while a switch with three or four USB 3.0 ports can handle a webcam or external drive at full speed as part of the same switching action.\n\nCount your actual USB peripherals beyond keyboard and mouse, and check both the port count and the stated USB generation against what those specific peripherals need to function at full speed."
+  },
+  {
+    "criterion": "Check whether switching happens via hotkey, a physical button, or both, and whether that matches your workflow",
+    "explanation": "KVM switches offer switching through a physical button on the device itself, a keyboard hotkey combination (commonly a specific key pressed a set number of times), or both, and this is a genuine day-to-day usability factor rather than a minor detail, since a physical button requires reaching across or behind your desk setup every time you switch, while hotkey switching lets you change computers without moving your hands from the keyboard at all.\n\nThis matters more the more frequently you actually switch between computers during a session, someone switching once or twice a day may not care, while someone switching dozens of times while referencing one machine and working on another benefits meaningfully from hotkey support.\n\nCheck whether hotkey switching is explicitly supported and confirm the specific key combination works with your operating system, since some hotkey implementations have compatibility quirks on certain OS versions."
+  },
+  {
+    "criterion": "Confirm audio switching is included if you need it, since many KVM switches handle video and USB but not audio",
+    "explanation": "A significant number of KVM switches route video and USB peripherals between computers but do not switch audio output at all, meaning your speakers or headphones stay connected to whichever computer they were originally plugged into regardless of which computer is currently selected for video and keyboard control, a genuinely confusing experience if you're not expecting it.\n\nThis is a distinct, separately-implemented feature, not something that comes automatically bundled with video and USB switching, so a switch's audio support (or lack of it) needs to be checked explicitly rather than assumed.\n\nIf you regularly use audio output and want it to follow the same switching action as your monitor and keyboard, check the listing specifically for stated audio switching support rather than assuming any KVM switch handles this by default."
+  },
+  {
+    "criterion": "Check physical port placement and cable routing, since a technically capable switch can still be annoying to use daily",
+    "explanation": "Beyond core specs like resolution support and port count, the physical layout of a KVM switch's ports on its housing meaningfully affects how pleasant it is to actually live with on a desk: ports crammed close together can make thick HDMI or USB-C cables difficult to seat fully, and ports facing an awkward direction relative to how the switch sits on or under your desk can turn routine cable management into a recurring frustration that a spec sheet never reveals.\n\nThis is exactly the kind of detail that only shows up in real photos of the actual unit or in buyer reviews mentioning cable fit and port spacing, not in the resolution and port-count specs that dominate most listings.\n\nLook at actual product photos showing port placement and spacing before buying, and check reviews specifically for mentions of cable clearance issues if you're using thicker high-speed cables."
+  }
 ];
 
 export const faq: FaqItem[] = [

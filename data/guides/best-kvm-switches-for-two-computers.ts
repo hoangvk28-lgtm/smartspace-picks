@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41EdJsfqo4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H2YVL93R?tag=deskfinds0d-20",
-    description:
-      "A straightforward, purpose-built two-computer, one-monitor switch at a genuinely budget-friendly price, appropriate for buyers with the most common simple KVM use case.\n\n4K@60Hz support and USB 3.0 connectivity cover the essentials without any premium extras or unnecessary complexity.",
-    specs: ["2 computers, 1 monitor", "4K@60Hz resolution support", "USB 3.0 connectivity", "Budget-friendly price"],
-    pros: ["Purpose-built for the most common simple two-computer use case", "4K@60Hz resolution covers typical monitor needs", "Budget-friendly price", "USB 3.0 connectivity for peripheral switching"],
-    cons: ["Verify the specific switching method matches your preferred workflow", "Verify EDID emulation behavior through current reviews", "No multi-monitor support if your needs grow"],
+    description: "A straightforward, purpose-built two-computer, one-monitor switch at a genuinely budget-friendly price, appropriate for buyers with the most common simple KVM use case.\n\nIt earns the top spot in this comparison over UGREEN HDMI KVM Switch 1 Monitor 2 Computers for one main reason. Purpose-built for the most common simple two-computer use case. On price, it comes in below UGREEN HDMI KVM Switch 1 Monitor 2 Computers, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: 4K@60Hz resolution covers typical monitor needs. On the other side, No multi-monitor support if your needs grow. That's the main tradeoff to weigh against everything above.",
+    specs: ["2 computers, 1 monitor","4K@60Hz resolution support","USB 3.0 connectivity","Budget-friendly price"],
+    pros: ["Purpose-built for the most common simple two-computer use case","4K@60Hz resolution covers typical monitor needs","Budget-friendly price","USB 3.0 connectivity for peripheral switching"],
+    cons: ["Verify the specific switching method matches your preferred workflow","Verify EDID emulation behavior through current reviews","No multi-monitor support if your needs grow"],
     bestFor: "Buyers with a straightforward two-computer, one-monitor setup wanting simplicity and value",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41K5Wvne7oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFFCPL26?tag=deskfinds0d-20",
-    description:
-      "A genuinely high 8K@60Hz resolution ceiling future-proofs this two-computer switch well beyond typical current monitor needs.\n\nReliable aluminum build and UGREEN's brand reputation give real confidence in this switch's overall build quality and signal handling.",
-    specs: ["2 computers, 1 monitor", "8K@60Hz resolution support", "Aluminum build", "HDMI connectivity"],
-    pros: ["Very high 8K@60Hz resolution ceiling for future-proofing", "Reliable UGREEN aluminum build quality", "Straightforward two-computer switching", "Good balance of price and premium build quality"],
-    cons: ["Higher price than the most budget-friendly two-computer switches", "Verify EDID emulation behavior through current reviews", "No multi-monitor support if your needs grow"],
+    description: "A genuinely high 8K@60Hz resolution ceiling future-proofs this two-computer switch well beyond typical current monitor needs.\n\nOne spot below TIGKTING USB 3.0 HDMI KVM Switch 1 Monitors 2 Computers 4K60Hz KVM Switches 2 Ports for 2 PC 1 Monitor in this ranking, it costs more than TIGKTING USB 3.0 HDMI KVM Switch 1 Monitors 2 Computers 4K60Hz KVM Switches 2 Ports for 2 PC 1 Monitor. The compromise here is straightforward: Higher price than the most budget-friendly two-computer switches. What you gain in return: Very high 8K@60Hz resolution ceiling for future-proofing. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: Reliable UGREEN aluminum build quality. On the other side, No multi-monitor support if your needs grow. That's the main tradeoff to weigh against everything above.",
+    specs: ["2 computers, 1 monitor","8K@60Hz resolution support","Aluminum build","HDMI connectivity"],
+    pros: ["Very high 8K@60Hz resolution ceiling for future-proofing","Reliable UGREEN aluminum build quality","Straightforward two-computer switching","Good balance of price and premium build quality"],
+    cons: ["Higher price than the most budget-friendly two-computer switches","Verify EDID emulation behavior through current reviews","No multi-monitor support if your needs grow"],
     bestFor: "Buyers wanting a high-resolution-ceiling two-computer switch with reliable build quality",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51+oSuyEu7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BWNDX4VL?tag=deskfinds0d-20",
-    description:
-      "Included as an option for buyers currently needing two computers but who might expand to four sources later without buying a new switch.\n\n3 USB ports give reasonable peripheral switching capability across whichever computers you actually connect.",
-    specs: ["Up to 4 computers, 1 monitor", "4K@60Hz resolution support", "3 USB ports", "HDMI connectivity"],
-    pros: ["Room to expand from two to four computers without buying a new switch", "4K@60Hz resolution covers typical monitor needs", "3 USB ports for reasonable peripheral switching", "Good value if you might grow your setup"],
-    cons: ["More complex than a dedicated two-computer-only switch if you never expand", "Verify EDID emulation behavior through current reviews", "No multi-monitor support"],
+    description: "Included as an option for buyers currently needing two computers but who might expand to four sources later without buying a new switch.\n\nSitting just under UGREEN HDMI KVM Switch 1 Monitor 2 Computers, it costs more than UGREEN HDMI KVM Switch 1 Monitor 2 Computers. Here's the honest tradeoff: More complex than a dedicated two-computer-only switch if you never expand. And here's what it gets you instead: Room to expand from two to four computers without buying a new switch. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: 4K@60Hz resolution covers typical monitor needs. On the other side, No multi-monitor support. That's the main tradeoff to weigh against everything above.",
+    specs: ["Up to 4 computers, 1 monitor","4K@60Hz resolution support","3 USB ports","HDMI connectivity"],
+    pros: ["Room to expand from two to four computers without buying a new switch","4K@60Hz resolution covers typical monitor needs","3 USB ports for reasonable peripheral switching","Good value if you might grow your setup"],
+    cons: ["More complex than a dedicated two-computer-only switch if you never expand","Verify EDID emulation behavior through current reviews","No multi-monitor support"],
     bestFor: "Buyers currently needing two computers who might expand to more sources later",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41uSOQO2ILL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFVBK4XQ?tag=deskfinds0d-20",
-    description:
-      "A budget-friendly, straightforward two-computer switch with 3 USB 3.0 ports for reasonable peripheral switching capability.\n\nAppropriate for buyers wanting to test whether a KVM switch fits their two-computer workflow before investing in a pricier model.",
-    specs: ["2 computers, 1 monitor", "4K@60Hz resolution support", "3 USB 3.0 ports", "HDMI connectivity"],
-    pros: ["Budget-friendly price for a two-computer switch", "3 USB 3.0 ports for reasonable peripheral switching", "4K@60Hz resolution covers typical monitor needs", "Good entry point for testing a KVM switch"],
-    cons: ["Lower rating than higher-priced picks, verify current reviews", "Verify EDID emulation behavior through current reviews", "No multi-monitor support"],
+    description: "A budget-friendly, straightforward two-computer switch with 3 USB 3.0 ports for reasonable peripheral switching capability.\n\nRanked just behind USB3.0 KVM Switch HDMI 4K@60Hz for 4 Computers Share 1 Monitor, it's priced lower than USB3.0 KVM Switch HDMI 4K@60Hz for 4 Computers Share 1 Monitor. The real tradeoff against that pick: Lower rating than higher-priced picks, verify current reviews. In exchange, it offers this instead: Budget-friendly price for a two-computer switch. That's the swap that decides whether this pick or the one above it is the better fit for your desk setup.\n\nWorth knowing before you decide: 3 USB 3.0 ports for reasonable peripheral switching. On the other side, No multi-monitor support. That's the main tradeoff to weigh against everything above.",
+    specs: ["2 computers, 1 monitor","4K@60Hz resolution support","3 USB 3.0 ports","HDMI connectivity"],
+    pros: ["Budget-friendly price for a two-computer switch","3 USB 3.0 ports for reasonable peripheral switching","4K@60Hz resolution covers typical monitor needs","Good entry point for testing a KVM switch"],
+    cons: ["Lower rating than higher-priced picks, verify current reviews","Verify EDID emulation behavior through current reviews","No multi-monitor support"],
     bestFor: "Budget-conscious buyers wanting to try a two-computer KVM switch",
   },
   {
@@ -98,13 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41ll9M3dnWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5D4FK1H?tag=deskfinds0d-20",
-    description:
-      "The absolute lowest price point in this guide, appropriate for buyers with a simple two-computer, one-monitor setup wanting the most affordable reliable option.\n\n4K@60Hz support and USB 3.0 connectivity cover the essentials without any premium extras.",
-    specs: ["2 computers, 1 monitor", "4K@60Hz resolution support", "USB 3.0 connectivity", "Lowest price in this guide"],
-    pros: ["Absolute lowest price in this guide", "4K@60Hz resolution covers typical monitor needs", "USB 3.0 connectivity for peripheral switching", "Simple, no-frills reliable switching"],
-    cons: ["Fewer USB ports than pricier alternatives", "Verify EDID emulation behavior through current reviews", "Build quality less proven than higher-priced alternatives"],
+    description: "The absolute lowest price point in this guide, appropriate for buyers with a simple two-computer, one-monitor setup wanting the most affordable reliable option.\n\nOne spot below USB3.0 KVM Switch 2 Port HDMI in this ranking, it's priced lower than USB3.0 KVM Switch 2 Port HDMI. The compromise here is straightforward: Fewer USB ports than pricier alternatives. What you gain in return: Absolute lowest price in this guide. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: 4K@60Hz resolution covers typical monitor needs. On the other side, Build quality less proven than higher-priced alternatives. That's the main tradeoff to weigh against everything above.",
+    specs: ["2 computers, 1 monitor","4K@60Hz resolution support","USB 3.0 connectivity","Lowest price in this guide"],
+    pros: ["Absolute lowest price in this guide","4K@60Hz resolution covers typical monitor needs","USB 3.0 connectivity for peripheral switching","Simple, no-frills reliable switching"],
+    cons: ["Fewer USB ports than pricier alternatives","Verify EDID emulation behavior through current reviews","Build quality less proven than higher-priced alternatives"],
     bestFor: "Budget-conscious buyers wanting the most affordable simple two-computer KVM switch",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,33 +113,128 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Watch for Hotkey Conflicts With Your Apps",
-    note: "Switching methods vary between models, hotkey combinations can occasionally conflict with a specific application's own keyboard shortcuts, worth checking whether a switch offers an alternative physical button or auto-detect method if hotkey conflicts become a problem in your workflow.",
-  },
-  {
-    subheading: "Don't Assume Simple Means Feature-Complete",
-    note: "A two-computer KVM switch is one of the simplest KVM categories, but still verify EDID emulation and USB peripheral switching scope, since even a simple two-computer switch can shortchange these features at a lower price point.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Purpose-built simplicity and value", "TIGKTING USB 3.0 HDMI KVM Switch"],
-        ["High resolution ceiling, reliable build", "UGREEN 8K HDMI KVM Switch"],
-        ["Room to expand to four computers later", "USB3.0 KVM Switch for 4 Computers"],
-        ["Budget-friendly with reasonable USB support", "USB3.0 KVM Switch 2 Port HDMI"],
-        ["Absolute lowest price, simple setup", "Hearvo USB 3.0 HDMI KVM Switch"],
+    "subheading": "By Port Count",
+    "table": {
+      "headers": [
+        "Your setup",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Fewest computers to switch between",
+          "TIGKTING USB 3.0 HDMI KVM Switch 1 Monitors 2 Computers 4K60Hz KVM Switches 2 Ports for 2 PC 1 Monitor"
+        ],
+        [
+          "Most computers to switch between",
+          "USB3.0 KVM Switch HDMI 4K@60Hz for 4 Computers Share 1 Monitor"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $27",
+          "Hearvo USB 3.0 HDMI KVM Switch for 2 Computers 1 Monitor"
+        ],
+        [
+          "Mid-range",
+          "USB3.0 KVM Switch 2 Port HDMI"
+        ],
+        [
+          "No firm budget ceiling, prioritizing build or resolution",
+          "USB3.0 KVM Switch HDMI 4K@60Hz for 4 Computers Share 1 Monitor"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Hotkey Switching vs Physical Button Only",
+    "cards": [
+      {
+        "label": "Hotkey Switching",
+        "text": "Switches computers without reaching for the device, faster for frequent switching during a work session. In this comparison: check each listing's switching method directly."
+      },
+      {
+        "label": "Physical Button Only",
+        "text": "Simpler and more predictable, but requires reaching the device every time you switch. In this comparison: TIGKTING USB 3.0 HDMI KVM Switch 1 Monitors 2 Computers 4K60Hz KVM Switches 2 Ports for 2 PC 1 Monitor, UGREEN HDMI KVM Switch 1 Monitor 2 Computers, USB3.0 KVM Switch HDMI 4K@60Hz for 4 Computers Share 1 Monitor."
+      }
+    ]
+  },
+  {
+    "subheading": "USB Peripheral Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "USB 3.0 speed for drives or webcams",
+          "TIGKTING USB 3.0 HDMI KVM Switch 1 Monitors 2 Computers 4K60Hz KVM Switches 2 Ports for 2 PC 1 Monitor"
+        ],
+        [
+          "Basic keyboard and mouse only",
+          "TIGKTING USB 3.0 HDMI KVM Switch 1 Monitors 2 Computers 4K60Hz KVM Switches 2 Ports for 2 PC 1 Monitor"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Audio Switching Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation of audio switching in the listing, since many KVM switches handle video and USB but leave speakers or headphones tied to one fixed computer."
+      },
+      {
+        "label": "In this comparison",
+        "text": "No pick in this specific comparison explicitly confirms audio switching; check our dedicated audio-support KVM switch roundup if that's a hard requirement."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what USB3.0 KVM Switch HDMI 4K@60Hz for 4 Computers Share 1 Monitor offers: Room to expand from two to four computers without buying a new switch. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Hearvo USB 3.0 HDMI KVM Switch for 2 Computers 1 Monitor already covers the essentials: Absolute lowest price in this guide. The main thing you'd be paying extra for elsewhere in this list is resolution headroom or build quality you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Check for alternative switching methods beyond hotkeys", explanation: "Hotkey combinations can occasionally conflict with an app's own shortcuts, verify a physical button or auto-detect alternative exists if this matters to you." },
-  { criterion: "Verify EDID emulation even on simple two-computer switches", explanation: "Budget two-computer switches can still shortchange this feature, verify it's included rather than assuming from simplicity alone." },
-  { criterion: "Consider expansion room if your setup might grow", explanation: "A switch supporting more than two computers gives room to grow without buying a new switch later." },
-  { criterion: "Weigh price against your actual simple two-computer needs", explanation: "The most common KVM use case doesn't need premium features, a budget-friendly switch often covers this need well." },
+  {
+    "criterion": "Verify EDID emulation is included, regardless of price",
+    "explanation": "EDID (Extended Display Identification Data) is the information a monitor sends to a connected computer describing its supported resolutions and refresh rates, and a KVM switch without EDID emulation can cause a real, recurring annoyance: when you switch away from a computer, that computer loses its connection to the monitor's EDID data, and some graphics drivers respond by dropping to a default low resolution or losing the display arrangement entirely until you manually reconfigure it after switching back.\n\nA switch with proper EDID emulation stores and continuously presents the monitor's display information to every connected computer regardless of which one is actively selected, so switching back and forth doesn't repeatedly trigger resolution resets or display rearrangement.\n\nThis feature isn't reliably tied to price, a budget switch can include it while a similarly priced competitor omits it, so check the listing or current buyer reviews specifically for EDID emulation rather than assuming it based on price alone."
+  },
+  {
+    "criterion": "Match USB peripheral support to what you actually plug in, not just keyboard and mouse",
+    "explanation": "Every KVM switch handles keyboard and mouse switching as the baseline function, but USB port count and speed generation (USB 2.0 versus USB 3.0 or higher) vary significantly beyond that baseline, and this matters concretely if you also want to switch a USB webcam, external drive, audio interface, or other peripheral along with the computer selection rather than leaving it permanently connected to one machine.\n\nA switch with only two USB 2.0 ports leaves no room for anything beyond keyboard and mouse, while a switch with three or four USB 3.0 ports can handle a webcam or external drive at full speed as part of the same switching action.\n\nCount your actual USB peripherals beyond keyboard and mouse, and check both the port count and the stated USB generation against what those specific peripherals need to function at full speed."
+  },
+  {
+    "criterion": "Check whether switching happens via hotkey, a physical button, or both, and whether that matches your workflow",
+    "explanation": "KVM switches offer switching through a physical button on the device itself, a keyboard hotkey combination (commonly a specific key pressed a set number of times), or both, and this is a genuine day-to-day usability factor rather than a minor detail, since a physical button requires reaching across or behind your desk setup every time you switch, while hotkey switching lets you change computers without moving your hands from the keyboard at all.\n\nThis matters more the more frequently you actually switch between computers during a session, someone switching once or twice a day may not care, while someone switching dozens of times while referencing one machine and working on another benefits meaningfully from hotkey support.\n\nCheck whether hotkey switching is explicitly supported and confirm the specific key combination works with your operating system, since some hotkey implementations have compatibility quirks on certain OS versions."
+  },
+  {
+    "criterion": "Confirm audio switching is included if you need it, since many KVM switches handle video and USB but not audio",
+    "explanation": "A significant number of KVM switches route video and USB peripherals between computers but do not switch audio output at all, meaning your speakers or headphones stay connected to whichever computer they were originally plugged into regardless of which computer is currently selected for video and keyboard control, a genuinely confusing experience if you're not expecting it.\n\nThis is a distinct, separately-implemented feature, not something that comes automatically bundled with video and USB switching, so a switch's audio support (or lack of it) needs to be checked explicitly rather than assumed.\n\nIf you regularly use audio output and want it to follow the same switching action as your monitor and keyboard, check the listing specifically for stated audio switching support rather than assuming any KVM switch handles this by default."
+  },
+  {
+    "criterion": "Check physical port placement and cable routing, since a technically capable switch can still be annoying to use daily",
+    "explanation": "Beyond core specs like resolution support and port count, the physical layout of a KVM switch's ports on its housing meaningfully affects how pleasant it is to actually live with on a desk: ports crammed close together can make thick HDMI or USB-C cables difficult to seat fully, and ports facing an awkward direction relative to how the switch sits on or under your desk can turn routine cable management into a recurring frustration that a spec sheet never reveals.\n\nThis is exactly the kind of detail that only shows up in real photos of the actual unit or in buyer reviews mentioning cable fit and port spacing, not in the resolution and port-count specs that dominate most listings.\n\nLook at actual product photos showing port placement and spacing before buying, and check reviews specifically for mentions of cable clearance issues if you're using thicker high-speed cables."
+  }
 ];
 
 export const faq: FaqItem[] = [

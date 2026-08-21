@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31KfwfvqAqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CW2JGRN4?tag=deskfinds0d-20",
-    description:
-      "Explicitly built for switching between a laptop and desktop across dual monitors, its design specifically accommodates the asymmetric connection needs of each device type.\n\nKVM switching capability adds genuine value for buyers who dock and undock their laptop daily while the desktop stays permanently connected.",
-    specs: ["Dual monitor docking station", "Laptop and desktop switching support", "KVM switching capability", "Higher-end price point"],
-    pros: ["Explicitly designed for the laptop-and-desktop asymmetric connection use case", "Dual monitor support for a robust hybrid setup", "KVM switching avoids physically swapping cables between devices", "Genuinely useful for daily dock and undock workflows"],
-    cons: ["Higher price than a simpler single-monitor solution", "More complex initial setup given the dual-device asymmetry", "Verify power delivery wattage against your laptop's specific charging needs"],
+    description: "Explicitly built for switching between a laptop and desktop across dual monitors, its design specifically accommodates the asymmetric connection needs of each device type.\n\nIt earns the top spot in this comparison over AV Access iDock P10 KVM Docking Station 2 Monitors 2 PC for one main reason. Explicitly designed for the laptop-and-desktop asymmetric connection use case. On price, it's actually priced above AV Access iDock P10 KVM Docking Station 2 Monitors 2 PC, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Dual monitor support for a robust hybrid setup. On the other side, Verify power delivery wattage against your laptop's specific charging needs. That's the main tradeoff to weigh against everything above.",
+    specs: ["Dual monitor docking station","Laptop and desktop switching support","KVM switching capability","Higher-end price point"],
+    pros: ["Explicitly designed for the laptop-and-desktop asymmetric connection use case","Dual monitor support for a robust hybrid setup","KVM switching avoids physically swapping cables between devices","Genuinely useful for daily dock and undock workflows"],
+    cons: ["Higher price than a simpler single-monitor solution","More complex initial setup given the dual-device asymmetry","Verify power delivery wattage against your laptop's specific charging needs"],
     bestFor: "Buyers wanting a purpose-built solution for daily laptop docking alongside a permanent desktop",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41Du+XSAPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCXN5P3T?tag=deskfinds0d-20",
-    description:
-      "Explicit EDID emulation and 65W power delivery work well together for the daily dock-and-undock laptop workflow, while gigabit Ethernet benefits the permanently connected desktop.\n\nA more moderate price than the dedicated laptop-and-desktop model while still covering the core needs well.",
-    specs: ["2 monitors, 2 PC", "Gigabit Ethernet", "EDID emulation", "65W power delivery"],
-    pros: ["Explicit EDID emulation for persistent window layout on daily laptop reconnects", "65W power delivery for laptop charging while docked", "Gigabit Ethernet benefits the permanently connected desktop", "More moderate price than the dedicated laptop-desktop model"],
-    cons: ["Not explicitly branded for laptop-and-desktop use, verify compatibility details", "Verify the 65W budget is shared across charging and peripherals", "Requires pairing with separate monitors"],
+    description: "Explicit EDID emulation and 65W power delivery work well together for the daily dock-and-undock laptop workflow, while gigabit Ethernet benefits the permanently connected desktop.\n\nOne spot below AV Access Dual Monitor KVM Docking Station for Laptop & Desktop in this ranking, it's priced lower than AV Access Dual Monitor KVM Docking Station for Laptop & Desktop. The compromise here is straightforward: Not explicitly branded for laptop-and-desktop use, verify compatibility details. What you gain in return: Explicit EDID emulation for persistent window layout on daily laptop reconnects. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: 65W power delivery for laptop charging while docked. On the other side, Requires pairing with separate monitors. That's the main tradeoff to weigh against everything above.",
+    specs: ["2 monitors, 2 PC","Gigabit Ethernet","EDID emulation","65W power delivery"],
+    pros: ["Explicit EDID emulation for persistent window layout on daily laptop reconnects","65W power delivery for laptop charging while docked","Gigabit Ethernet benefits the permanently connected desktop","More moderate price than the dedicated laptop-desktop model"],
+    cons: ["Not explicitly branded for laptop-and-desktop use, verify compatibility details","Verify the 65W budget is shared across charging and peripherals","Requires pairing with separate monitors"],
     bestFor: "Budget-conscious buyers wanting well-documented EDID and power delivery for a laptop-desktop setup",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41BxNjK7PrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GY4R958W?tag=deskfinds0d-20",
-    description:
-      "Explicitly labeled for 1 laptop and 1 desktop, USB-C and HDMI ports directly accommodate each device's typical connection type.\n\n4K@60Hz support keeps resolution sharp on the single connected monitor while keeping the switch itself simple and affordable.",
-    specs: ["USB-C and HDMI ports", "1 laptop, 1 desktop, 1 monitor", "4K@60Hz support", "Budget-friendly price"],
-    pros: ["Explicitly labeled for exactly the laptop-and-desktop use case", "USB-C for the laptop and HDMI for the desktop's dedicated graphics output", "4K@60Hz support keeps resolution sharp", "Budget-friendly price"],
-    cons: ["Single monitor only, not suited for buyers wanting dual displays", "Verify the specific switching method matches your preferred workflow", "No expansion beyond two ports"],
+    description: "Explicitly labeled for 1 laptop and 1 desktop, USB-C and HDMI ports directly accommodate each device's typical connection type.\n\nSitting just under AV Access iDock P10 KVM Docking Station 2 Monitors 2 PC, it's priced lower than AV Access iDock P10 KVM Docking Station 2 Monitors 2 PC. Here's the honest tradeoff: Single monitor only, not suited for buyers wanting dual displays. And here's what it gets you instead: Explicitly labeled for exactly the laptop-and-desktop use case. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: USB-C for the laptop and HDMI for the desktop's dedicated graphics output. On the other side, No expansion beyond two ports. That's the main tradeoff to weigh against everything above.",
+    specs: ["USB-C and HDMI ports","1 laptop, 1 desktop, 1 monitor","4K@60Hz support","Budget-friendly price"],
+    pros: ["Explicitly labeled for exactly the laptop-and-desktop use case","USB-C for the laptop and HDMI for the desktop's dedicated graphics output","4K@60Hz support keeps resolution sharp","Budget-friendly price"],
+    cons: ["Single monitor only, not suited for buyers wanting dual displays","Verify the specific switching method matches your preferred workflow","No expansion beyond two ports"],
     bestFor: "Buyers wanting a budget-friendly switch explicitly labeled for exactly one laptop and one desktop",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41e02xrYlyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP4PD3SM?tag=deskfinds0d-20",
-    description:
-      "While marketed for two laptops, its dual-monitor 4K KVM switching also works well for a laptop-and-desktop combination given the flexible connectivity options.\n\nHigher price reflects the combination of 4K support, dual monitor output, and robust KVM switching capability.",
-    specs: ["2 monitors, flexible device pairing", "4K resolution support", "Higher-end price point", "Dock with switching capability"],
-    pros: ["4K resolution support across dual monitors works for laptop-desktop pairing too", "KVM switching between devices without cable swapping", "Robust feature set for a demanding hybrid setup", "Works with any monitor pair you choose"],
-    cons: ["Marketed primarily for two laptops, verify desktop graphics card compatibility", "Higher price than simpler single-monitor solutions", "Verify power delivery behavior for your specific laptop"],
+    description: "While marketed for two laptops, its dual-monitor 4K KVM switching also works well for a laptop-and-desktop combination given the flexible connectivity options.\n\nRanked just behind KVM Switch 1 Monitors 2 Computers 4K@60Hz USB C HDMI KVM Switch 2 Port for 1 Laptop 1 Desktop, it costs more than KVM Switch 1 Monitors 2 Computers 4K@60Hz USB C HDMI KVM Switch 2 Port for 1 Laptop 1 Desktop. The real tradeoff against that pick: Marketed primarily for two laptops, verify desktop graphics card compatibility. In exchange, it offers this instead: 4K resolution support across dual monitors works for laptop-desktop pairing too. That's the swap that decides whether this pick or the one above it is the better fit for your desk setup.\n\nWorth knowing before you decide: KVM switching between devices without cable swapping. On the other side, Verify power delivery behavior for your specific laptop. That's the main tradeoff to weigh against everything above.",
+    specs: ["2 monitors, flexible device pairing","4K resolution support","Higher-end price point","Dock with switching capability"],
+    pros: ["4K resolution support across dual monitors works for laptop-desktop pairing too","KVM switching between devices without cable swapping","Robust feature set for a demanding hybrid setup","Works with any monitor pair you choose"],
+    cons: ["Marketed primarily for two laptops, verify desktop graphics card compatibility","Higher price than simpler single-monitor solutions","Verify power delivery behavior for your specific laptop"],
     bestFor: "Buyers wanting premium 4K dual-monitor switching flexible enough for a laptop-desktop combination",
   },
   {
@@ -98,13 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41EdJsfqo4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H2YVL93R?tag=deskfinds0d-20",
-    description:
-      "A purpose-built two-source switch at a genuinely budget-friendly price, straightforward HDMI connectivity works well for a desktop's dedicated graphics output paired with a laptop's HDMI port.\n\n4K@60Hz support and USB 3.0 connectivity cover the essentials without any premium extras.",
-    specs: ["HDMI connectivity", "1 laptop, 1 desktop, 1 monitor", "4K@60Hz resolution support", "Budget-friendly price"],
-    pros: ["Purpose-built for the most common simple two-source use case", "4K@60Hz resolution covers typical monitor needs", "Budget-friendly price", "Straightforward HDMI-based switching for both device types"],
-    cons: ["HDMI-only, no USB-C option for laptops preferring that connection", "Verify EDID emulation behavior through current reviews", "No dual-monitor support if your needs grow"],
+    description: "A purpose-built two-source switch at a genuinely budget-friendly price, straightforward HDMI connectivity works well for a desktop's dedicated graphics output paired with a laptop's HDMI port.\n\nOne spot below AV Access KVM Switch Dock 2 Monitors 2 Laptops in this ranking, it's priced lower than AV Access KVM Switch Dock 2 Monitors 2 Laptops. The compromise here is straightforward: HDMI-only, no USB-C option for laptops preferring that connection. What you gain in return: Purpose-built for the most common simple two-source use case. Whether that trade is worth it depends on which side matters more for your workflow.\n\nWorth knowing before you decide: 4K@60Hz resolution covers typical monitor needs. On the other side, No dual-monitor support if your needs grow. That's the main tradeoff to weigh against everything above.",
+    specs: ["HDMI connectivity","1 laptop, 1 desktop, 1 monitor","4K@60Hz resolution support","Budget-friendly price"],
+    pros: ["Purpose-built for the most common simple two-source use case","4K@60Hz resolution covers typical monitor needs","Budget-friendly price","Straightforward HDMI-based switching for both device types"],
+    cons: ["HDMI-only, no USB-C option for laptops preferring that connection","Verify EDID emulation behavior through current reviews","No dual-monitor support if your needs grow"],
     bestFor: "Budget-conscious buyers with a laptop and desktop both using HDMI output",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,33 +113,128 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Understand the Asymmetric Connection Between Your Devices",
-    note: "Your desktop typically needs its own dedicated graphics card output connected to the switch, while your laptop may share power and video over a single USB-C cable, worth understanding this asymmetry before assuming both devices connect to the switch identically.",
-  },
-  {
-    subheading: "Prioritize EDID Emulation and Power Delivery Working Together",
-    note: "A laptop docked into a KVM switch alongside a desktop benefits most from EDID emulation and power delivery working together, since you'll likely dock and undock the laptop daily while the desktop stays permanently connected.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Purpose-built for laptop-desktop, dual monitor", "AV Access iDock C10"],
-        ["Well-documented EDID and power delivery, value", "AV Access iDock P10"],
-        ["Explicitly labeled, budget-friendly, single monitor", "USB C HDMI KVM Switch 2 Port"],
-        ["Premium flexible dual-monitor switching", "AV Access KVM Switch Dock 4K"],
-        ["Budget HDMI-based simple switching", "TIGKTING USB 3.0 HDMI KVM Switch"],
+    "subheading": "By Port Count",
+    "table": {
+      "headers": [
+        "Your setup",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Fewest computers to switch between",
+          "KVM Switch 1 Monitors 2 Computers 4K@60Hz USB C HDMI KVM Switch 2 Port for 1 Laptop 1 Desktop"
+        ],
+        [
+          "Most computers to switch between",
+          "TIGKTING USB 3.0 HDMI KVM Switch 1 Monitors 2 Computers 4K60Hz KVM Switches 2 Ports for 2 PC 1 Monitor"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $30",
+          "TIGKTING USB 3.0 HDMI KVM Switch 1 Monitors 2 Computers 4K60Hz KVM Switches 2 Ports for 2 PC 1 Monitor"
+        ],
+        [
+          "Mid-range",
+          "AV Access iDock P10 KVM Docking Station 2 Monitors 2 PC"
+        ],
+        [
+          "No firm budget ceiling, prioritizing build or resolution",
+          "AV Access KVM Switch Dock 2 Monitors 2 Laptops"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Hotkey Switching vs Physical Button Only",
+    "cards": [
+      {
+        "label": "Hotkey Switching",
+        "text": "Switches computers without reaching for the device, faster for frequent switching during a work session. In this comparison: check each listing's switching method directly."
+      },
+      {
+        "label": "Physical Button Only",
+        "text": "Simpler and more predictable, but requires reaching the device every time you switch. In this comparison: AV Access Dual Monitor KVM Docking Station for Laptop & Desktop, AV Access iDock P10 KVM Docking Station 2 Monitors 2 PC, KVM Switch 1 Monitors 2 Computers 4K@60Hz USB C HDMI KVM Switch 2 Port for 1 Laptop 1 Desktop."
+      }
+    ]
+  },
+  {
+    "subheading": "USB Peripheral Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "USB 3.0 speed for drives or webcams",
+          "TIGKTING USB 3.0 HDMI KVM Switch 1 Monitors 2 Computers 4K60Hz KVM Switches 2 Ports for 2 PC 1 Monitor"
+        ],
+        [
+          "Basic keyboard and mouse only",
+          "AV Access Dual Monitor KVM Docking Station for Laptop & Desktop"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Audio Switching Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation of audio switching in the listing, since many KVM switches handle video and USB but leave speakers or headphones tied to one fixed computer."
+      },
+      {
+        "label": "In this comparison",
+        "text": "No pick in this specific comparison explicitly confirms audio switching; check our dedicated audio-support KVM switch roundup if that's a hard requirement."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what AV Access KVM Switch Dock 2 Monitors 2 Laptops offers: 4K resolution support across dual monitors works for laptop-desktop pairing too. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "TIGKTING USB 3.0 HDMI KVM Switch 1 Monitors 2 Computers 4K60Hz KVM Switches 2 Ports for 2 PC 1 Monitor already covers the essentials: Purpose-built for the most common simple two-source use case. The main thing you'd be paying extra for elsewhere in this list is resolution headroom or build quality you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Understand your desktop and laptop connect differently", explanation: "A desktop typically needs its own dedicated graphics output, while a laptop may share power and video over one USB-C cable." },
-  { criterion: "Prioritize EDID emulation for daily laptop reconnects", explanation: "This matters more here since you'll likely dock and undock the laptop daily while the desktop stays permanently connected." },
-  { criterion: "Look for explicit laptop-and-desktop labeling", explanation: "This is a stronger compatibility signal than a switch marketed generically for two identical computer sources." },
-  { criterion: "Verify power delivery wattage specifically for your laptop", explanation: "The desktop doesn't need charging through the switch, focus power delivery verification on your laptop's actual charging requirement." },
+  {
+    "criterion": "Verify EDID emulation is included, regardless of price",
+    "explanation": "EDID (Extended Display Identification Data) is the information a monitor sends to a connected computer describing its supported resolutions and refresh rates, and a KVM switch without EDID emulation can cause a real, recurring annoyance: when you switch away from a computer, that computer loses its connection to the monitor's EDID data, and some graphics drivers respond by dropping to a default low resolution or losing the display arrangement entirely until you manually reconfigure it after switching back.\n\nA switch with proper EDID emulation stores and continuously presents the monitor's display information to every connected computer regardless of which one is actively selected, so switching back and forth doesn't repeatedly trigger resolution resets or display rearrangement.\n\nThis feature isn't reliably tied to price, a budget switch can include it while a similarly priced competitor omits it, so check the listing or current buyer reviews specifically for EDID emulation rather than assuming it based on price alone."
+  },
+  {
+    "criterion": "Match USB peripheral support to what you actually plug in, not just keyboard and mouse",
+    "explanation": "Every KVM switch handles keyboard and mouse switching as the baseline function, but USB port count and speed generation (USB 2.0 versus USB 3.0 or higher) vary significantly beyond that baseline, and this matters concretely if you also want to switch a USB webcam, external drive, audio interface, or other peripheral along with the computer selection rather than leaving it permanently connected to one machine.\n\nA switch with only two USB 2.0 ports leaves no room for anything beyond keyboard and mouse, while a switch with three or four USB 3.0 ports can handle a webcam or external drive at full speed as part of the same switching action.\n\nCount your actual USB peripherals beyond keyboard and mouse, and check both the port count and the stated USB generation against what those specific peripherals need to function at full speed."
+  },
+  {
+    "criterion": "Check whether switching happens via hotkey, a physical button, or both, and whether that matches your workflow",
+    "explanation": "KVM switches offer switching through a physical button on the device itself, a keyboard hotkey combination (commonly a specific key pressed a set number of times), or both, and this is a genuine day-to-day usability factor rather than a minor detail, since a physical button requires reaching across or behind your desk setup every time you switch, while hotkey switching lets you change computers without moving your hands from the keyboard at all.\n\nThis matters more the more frequently you actually switch between computers during a session, someone switching once or twice a day may not care, while someone switching dozens of times while referencing one machine and working on another benefits meaningfully from hotkey support.\n\nCheck whether hotkey switching is explicitly supported and confirm the specific key combination works with your operating system, since some hotkey implementations have compatibility quirks on certain OS versions."
+  },
+  {
+    "criterion": "Confirm audio switching is included if you need it, since many KVM switches handle video and USB but not audio",
+    "explanation": "A significant number of KVM switches route video and USB peripherals between computers but do not switch audio output at all, meaning your speakers or headphones stay connected to whichever computer they were originally plugged into regardless of which computer is currently selected for video and keyboard control, a genuinely confusing experience if you're not expecting it.\n\nThis is a distinct, separately-implemented feature, not something that comes automatically bundled with video and USB switching, so a switch's audio support (or lack of it) needs to be checked explicitly rather than assumed.\n\nIf you regularly use audio output and want it to follow the same switching action as your monitor and keyboard, check the listing specifically for stated audio switching support rather than assuming any KVM switch handles this by default."
+  },
+  {
+    "criterion": "Check physical port placement and cable routing, since a technically capable switch can still be annoying to use daily",
+    "explanation": "Beyond core specs like resolution support and port count, the physical layout of a KVM switch's ports on its housing meaningfully affects how pleasant it is to actually live with on a desk: ports crammed close together can make thick HDMI or USB-C cables difficult to seat fully, and ports facing an awkward direction relative to how the switch sits on or under your desk can turn routine cable management into a recurring frustration that a spec sheet never reveals.\n\nThis is exactly the kind of detail that only shows up in real photos of the actual unit or in buyer reviews mentioning cable fit and port spacing, not in the resolution and port-count specs that dominate most listings.\n\nLook at actual product photos showing port placement and spacing before buying, and check reviews specifically for mentions of cable clearance issues if you're using thicker high-speed cables."
+  }
 ];
 
 export const faq: FaqItem[] = [
