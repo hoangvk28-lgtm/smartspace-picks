@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ACKzpdVoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FNWHSPXF?tag=deskfinds0d-20",
     description:
-      "The UGREEN DH2300 is a diskless 2-bay NAS built around UGREEN's own beginner-friendly UGOS software, which trades some of the deeper app ecosystem of established NAS brands for a simpler, more approachable setup flow. Supporting up to 64TB across its two bays gives a first-time buyer real room to grow into RAID mirroring later.\n\nBecause it ships without drives, budget beforehand for two NAS-grade drives on top of the enclosure price. That combined cost is the real total investment, not just the $199.99 sticker on the enclosure itself.",
+      "The UGREEN DH2300 is a diskless 2-bay NAS built around UGREEN's own beginner-friendly UGOS software, which trades some of the deeper app ecosystem of established NAS brands for a simpler, more approachable setup flow. Supporting up to 64TB across its two bays gives a first-time buyer real room to grow into RAID mirroring later.\n\nBecause it ships without drives, budget beforehand for two NAS-grade drives on top of the enclosure price. That combined cost is the real total investment, not just the $199.99 sticker on the enclosure itself.\n\nRoom to grow with 64TB max capacity. That's a real strength, but weigh it against the flip side: diskless, so real cost is enclosure plus 2 drives.",
     specs: [
       "2-bay desktop enclosure, diskless",
       "Supports up to 64TB total capacity",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21VvdqtKHoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BRNBVTJK?tag=deskfinds0d-20",
     description:
-      "Synology's DSM software is the most beginner-tested interface in NAS, with wizard-driven setup, automatic backup scheduling, and centralized file access that walks a first-time user through configuration step by step. The DS223 pairs that software with a straightforward 2-bay diskless enclosure.\n\nIt costs more upfront than the UGREEN pick, but the tradeoff is a considerably shorter learning curve and a much larger library of community guides and official documentation if something goes wrong during setup.",
+      "Synology's DSM software is the most beginner-tested interface in NAS, with wizard-driven setup, automatic backup scheduling, and centralized file access that walks a first-time user through configuration step by step. The DS223 pairs that software with a straightforward 2-bay diskless enclosure.\n\nIt costs more upfront than the UGREEN pick, but the tradeoff is a considerably shorter learning curve and a much larger library of community guides and official documentation if something goes wrong during setup.\n\nWorth calling out specifically: large library of official and community troubleshooting guides. The catch is priciest enclosure-only pick in this list.",
     specs: [
       "2-bay desktop enclosure, diskless",
       "Synology DSM software",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31gLzyv-GtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00JKM0A36?tag=deskfinds0d-20",
     description:
-      "The LinkStation 210 is a single-bay NAS with the hard drive already installed, which removes the drive-shopping and compatibility research step entirely. For a buyer who just wants automatic backup and simple network storage without touching RAID configuration, this is the most beginner-friendly path onto a NAS.\n\nThe tradeoff is no RAID redundancy since there's only one drive bay, so a drive failure means a full data loss unless you're also backing up elsewhere. Simplicity comes at the cost of the safety net a 2-bay mirrored setup provides.",
+      "The LinkStation 210 is a single-bay NAS with the hard drive already installed, which removes the drive-shopping and compatibility research step entirely. For a buyer who just wants automatic backup and simple network storage without touching RAID configuration, this is the most beginner-friendly path onto a NAS.\n\nThe tradeoff is no RAID redundancy since there's only one drive bay, so a drive failure means a full data loss unless you're also backing up elsewhere. Simplicity comes at the cost of the safety net a 2-bay mirrored setup provides.\n\nFastest true beginner setup in this list. Set against that, no RAID redundancy, a drive failure means total data loss without a separate backup. Both matter when comparing it to the other picks here.",
     specs: [
       "1-bay NAS, 2TB drive included",
       "No RAID (single drive)",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31gLzyv-GtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08DZHL5V5?tag=deskfinds0d-20",
     description:
-      "This is the same drives-included LinkStation 210 platform as the 2TB pick, scaled up to 6TB for a beginner who already knows they'll need more room for photos, videos, or multiple computers' backups. It keeps the identical zero-shopping, zero-compatibility-research setup experience.\n\nAt $230.99 it lands close to the diskless 2-bay enclosures once you'd add drives to those, making it a genuinely competitive total-cost option for anyone who doesn't need RAID redundancy on day one.",
+      "This is the same drives-included LinkStation 210 platform as the 2TB pick, scaled up to 6TB for a beginner who already knows they'll need more room for photos, videos, or multiple computers' backups. It keeps the identical zero-shopping, zero-compatibility-research setup experience.\n\nAt $230.99 it lands close to the diskless 2-bay enclosures once you'd add drives to those, making it a genuinely competitive total-cost option for anyone who doesn't need RAID redundancy on day one.\n\nA genuine advantage here is that total cost is competitive with diskless 2-bay units plus drives. The tradeoff is still no RAID redundancy since it's single-bay.",
     specs: [
       "1-bay NAS, 6TB drive included",
       "No RAID (single drive)",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/310l7keevAS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07K4RC7X9?tag=deskfinds0d-20",
     description:
-      "It's worth flagging clearly for a beginner: the TR-004 is direct attached storage (DAS) connected over USB-C to a single computer, not a network-attached NAS that multiple devices can reach independently. It gives 4 bays of hardware RAID at a lower price than most true network NAS units with the same bay count.\n\nIf your actual goal is centralized storage reachable from your phone, laptop, and a media server all at once, this isn't the right category. It's the right pick specifically for expanding one computer's storage with RAID protection.",
+      "It's worth flagging clearly for a beginner: the TR-004 is direct attached storage (DAS) connected over USB-C to a single computer, not a network-attached NAS that multiple devices can reach independently. It gives 4 bays of hardware RAID at a lower price than most true network NAS units with the same bay count.\n\nIf your actual goal is centralized storage reachable from your phone, laptop, and a media server all at once, this isn't the right category. It's the right pick specifically for expanding one computer's storage with RAID protection.\n\nSimple USB-C connection, no network configuration. That's a real strength, but weigh it against the flip side: not a true network NAS, only accessible from the connected computer.",
     specs: [
       "4-bay DAS enclosure, diskless",
       "USB Type-C connection to a single host computer",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/319qh9SJhIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FTFSGBB1?tag=deskfinds0d-20",
     description:
-      "The Drivestor 2 Gen 2 pairs a quad-core CPU and 2.5GbE networking with 2-bay expandability at the same $199.99 price point as the UGREEN pick, giving a beginner faster network transfer speeds without paying more upfront. Asustor's ADM software sits in a middle ground of approachability between UGREEN and Synology.\n\nAs a diskless unit it carries the same buy-drives-separately consideration as most 2-bay picks in this list, so factor two NAS-grade drives into the real total cost before comparing it against the drives-included LinkStation options.",
+      "The Drivestor 2 Gen 2 pairs a quad-core CPU and 2.5GbE networking with 2-bay expandability at the same $199.99 price point as the UGREEN pick, giving a beginner faster network transfer speeds without paying more upfront. Asustor's ADM software sits in a middle ground of approachability between UGREEN and Synology.\n\nAs a diskless unit it carries the same buy-drives-separately consideration as most 2-bay picks in this list, so factor two NAS-grade drives into the real total cost before comparing it against the drives-included LinkStation options.\n\nWorth calling out specifically: quad-core CPU handles 4K media transcoding. The catch is diskless, so drives add to the real total cost.",
     specs: [
       "2-bay desktop enclosure, diskless",
       "Quad-core 1.7GHz CPU",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ejB5cFDGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHVZ53RN?tag=deskfinds0d-20",
     description:
-      "The F2-425 runs a full Intel x86 quad-core CPU with 4GB of RAM, well above what most budget 2-bay NAS units offer, plus 2.5GbE networking for faster transfers. That extra headroom means it won't feel underpowered as quickly if you start running more apps on it later.\n\nThe more capable hardware pushes the price to the top of this list's 2-bay diskless units, so it's the pick for a beginner who's fairly confident they'll grow into heavier use rather than someone who just wants basic backup running.",
+      "The F2-425 runs a full Intel x86 quad-core CPU with 4GB of RAM, well above what most budget 2-bay NAS units offer, plus 2.5GbE networking for faster transfers. That extra headroom means it won't feel underpowered as quickly if you start running more apps on it later.\n\nThe more capable hardware pushes the price to the top of this list's 2-bay diskless units, so it's the pick for a beginner who's fairly confident they'll grow into heavier use rather than someone who just wants basic backup running.\n\n2.5GbE networking for faster transfers. Set against that, highest price among the 2-bay diskless picks in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "2-bay desktop enclosure, diskless",
       "Intel x86 quad-core CPU",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GmtgzH11L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHR83DX5?tag=deskfinds0d-20",
     description:
-      "This is a genuinely different category from the rest of this list: a mini PC with an Intel N95 CPU, 12GB RAM, and 128GB of onboard M.2 storage that also happens to include 2 hard drive bays, so it can run as a full desktop-capable computer and a NAS at the same time. That flexibility comes with real setup complexity beyond a purpose-built NAS appliance.\n\nThis isn't the pick for someone who wants the fastest path to automatic backup. It's the pick for a beginner who's curious about running their own server software, file server, and private cloud on one box and is willing to spend more time and money to get there.",
+      "This is a genuinely different category from the rest of this list: a mini PC with an Intel N95 CPU, 12GB RAM, and 128GB of onboard M.2 storage that also happens to include 2 hard drive bays, so it can run as a full desktop-capable computer and a NAS at the same time. That flexibility comes with real setup complexity beyond a purpose-built NAS appliance.\n\nThis isn't the pick for someone who wants the fastest path to automatic backup. It's the pick for a beginner who's curious about running their own server software, file server, and private cloud on one box and is willing to spend more time and money to get there.\n\nA genuine advantage here is that dual LAN and onboard SSD add flexibility beyond a standard NAS appliance. The tradeoff is most expensive pick in this list.",
     specs: [
       "Intel N95 CPU, 12GB LPDDR5 RAM",
       "128GB M.2 PCIe 3.0 SSD onboard",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Drives often cost more than the enclosure itself",
-    explanation:
-      "A diskless 2-bay NAS plus 2 NAS-grade drives frequently runs close to double the enclosure's sticker price. Before comparing enclosure prices, price out full NAS-grade drives at the capacity you actually want and add that to the total, or choose a drives-included pick like the LinkStation 210 to avoid the surprise entirely.",
+    "criterion": "Remember every listed NAS here is diskless, budget drives separately",
+    "explanation": "The price shown for a NAS enclosure covers the hardware chassis, CPU, and RAM only, not the actual storage drives, NAS-grade drives built for 24/7 operation like Seagate IronWolf or WD Red still need to be budgeted on top, often adding $80 to $200 or more per bay depending on capacity and drive type.\n\nThis matters because comparing NAS units purely by enclosure price without factoring in drive cost gives a misleading picture of the real total investment, a cheaper enclosure with more bays to fill can end up costing more overall than a pricier enclosure with fewer bays.\n\nCheck whether a listing is diskless or ships with drives included, and add realistic per-bay drive costs to the enclosure price before comparing total cost across options."
   },
   {
-    criterion: "Drive compatibility warnings are often more cosmetic than functional",
-    explanation:
-      "Value-series NAS models are typically the least restrictive about accepting third-party drives, while stepping up to a brand's Plus-series or higher tier can trigger compatibility warnings for drives that aren't officially validated. Those warnings often don't block the drive from working, they just remove some vendor-specific monitoring features, so don't assume a warning means the drive won't function.",
+    "criterion": "Weigh CPU class and RAM over bay count for real day-to-day performance",
+    "explanation": "Bay count determines maximum storage capacity, but CPU architecture (Intel, AMD, or ARM) and RAM amount determine how well the NAS actually handles real workloads, running apps, transcoding media on the fly, or serving multiple simultaneous users, and a higher bay count with a weak CPU can bottleneck performance regardless of how much raw storage it holds.\n\nThis matters more the more the NAS will do beyond simple file storage, like Plex transcoding or running multiple docker containers, less if it's purely a basic backup target.\n\nCheck the specific CPU model and RAM amount (and whether RAM is upgradeable) rather than choosing primarily by bay count."
   },
   {
-    criterion: "Decide between all-in-one cloud NAS and traditional diskless NAS first",
-    explanation:
-      "A single-drive, cloud-first NAS with the drive already included, like the LinkStation picks in this list, is the simplest true-beginner setup: no RAID configuration, no drive shopping, just plug in and go. A traditional diskless NAS trades that simplicity for expandability, RAID redundancy, and multi-app support, better suited to a buyer who expects to grow into more advanced use cases.",
+    "criterion": "Understand RAID as a rebuild-time safety net, not a substitute for real backup",
+    "explanation": "RAID configurations protect against a single drive failure by letting the array rebuild from redundant data, but RAID is not a backup, it does nothing to protect against accidental deletion, ransomware, theft, fire, or a controller failure that affects the whole array at once.\n\nThis distinction matters because treating RAID redundancy as sufficient backup protection is a common and genuinely risky misunderstanding, a real backup strategy needs a copy of critical data stored somewhere physically separate from the NAS itself.\n\nCheck what RAID level a given NAS supports, and separately plan an actual backup strategy, ideally following a 3-2-1 approach, rather than relying on RAID redundancy alone."
   },
   {
-    criterion: "Budget real setup time, not 'set it and forget it'",
-    explanation:
-      "The app ecosystem on any NAS looks simple in marketing screenshots, but configuring transcoding apps, backup schedules, or firewall and port rules for remote access requires understanding networking basics most beginners don't have yet. A realistic first full setup for a non-technical user takes several hours, not minutes, so don't schedule it for a rushed evening.",
+    "criterion": "Match drive type (HDD vs SSD/NVMe) to your actual access pattern",
+    "explanation": "Traditional hard drives offer the lowest cost per terabyte for bulk storage like media libraries or backups, while SSD or NVMe-based NAS storage costs significantly more per terabyte but delivers much faster random access speeds, genuinely useful for frequently-accessed files, active project work, or serving as a fast cache tier.\n\nThis matters directly based on how you'll actually use the storage, a media library accessed sequentially benefits little from SSD speed, while an active working file share benefits considerably.\n\nCheck whether the NAS supports the drive type you need, and weigh the real cost-per-terabyte difference against how much you'll actually benefit from faster random access."
   },
   {
-    criterion: "Confirm you actually need a NAS before buying one",
-    explanation:
-      "If you're only backing up one computer, a simple external USB drive is often cheaper and far less complex than any NAS on this list. If you need file access from multiple devices, a single-drive cloud-connected NAS may be plenty. A traditional multi-bay NAS earns its complexity mainly when you want a real media server or a growing library that needs RAID protection.",
-  },
-  {
-    criterion: "DAS is not the same thing as NAS",
-    explanation:
-      "Direct attached storage, like the QNAP TR-004 in this list, connects to a single computer over USB and isn't reachable from other devices on your network. If your goal is centralized storage your phone, laptop, and media server can all reach independently, make sure the product you're buying is actually network-attached, not just a fast drive expansion for one machine.",
-  },
+    "criterion": "Consider noise level if the NAS will run continuously in a shared living or office space",
+    "explanation": "A NAS that runs 24/7 generates continuous fan and drive noise, and that noise profile varies meaningfully between models, some use larger, slower-spinning fans that stay genuinely quiet, while others rely on smaller, faster fans that produce a persistent whine noticeable in a quiet room.\n\nThis matters a great deal if the NAS will sit in a bedroom, living room, or shared home office rather than a dedicated closet or basement out of earshot.\n\nCheck reviews specifically for real-world noise level mentions during continuous operation, not just idle noise, since drive activity and fan speed both increase under load."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,80 +359,102 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Total Cost, Including Drives",
-    intro:
-      "Enclosure price alone is misleading for any diskless pick in this list, factor in what drives will actually cost before comparing options.",
-    table: {
-      headers: ["Situation", "Recommended total budget approach", "Best pick"],
-      rows: [
-        ["Want the lowest true total cost", "Drives-included, accept no RAID", "Buffalo LinkStation 210 2TB"],
-        ["Want more included capacity, still no drive shopping", "Drives-included, larger capacity", "Buffalo LinkStation 210 6TB"],
-        ["Want RAID redundancy, willing to price drives separately", "Enclosure + 2 NAS-grade drives", "UGREEN NAS DH2300 or Asustor Drivestor 2 Gen 2"],
-        ["Want the most polished software, cost is secondary", "Enclosure + drives + premium software", "Synology DS223"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "UGREEN NAS DH2300 2"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "UGREEN NAS DH2300 2"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By How Much Setup Complexity You Want",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $154",
+          "Buffalo LinkStation 210 2TB 1"
+        ],
+        [
+          "Up to $379",
+          "Beelink Mini PC ME Pro 2"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Bay Count vs Price",
+    "cards": [
       {
-        label: "Want it working today with zero drive research",
-        text: "Both Buffalo LinkStation 210 picks arrive with drives preinstalled, skipping compatibility research and RAID configuration entirely.",
+        "label": "Buffalo LinkStation 210 2TB 1",
+        "text": "The lower-priced option in this comparison, worth checking its CPU and RAM against your actual workload."
       },
       {
-        label: "Want the most guided step-by-step software",
-        text: "The Synology DS223 runs DSM, the most wizard-driven and well-documented NAS software for a true first-timer.",
-      },
-      {
-        label: "Comfortable with moderate setup for more control",
-        text: "The UGREEN DH2300 and Asustor Drivestor 2 Gen 2 both use approachable but more configurable software than a fully preconfigured drives-included unit.",
-      },
-      {
-        label: "Willing to learn real self-hosting",
-        text: "The Beelink ME Pro Mini PC NAS asks the most of a beginner but rewards that effort with a full mini PC alongside NAS functionality.",
-      },
+        "label": "Beelink Mini PC ME Pro 2",
+        "text": "The higher-priced option, worth it if it offers real bay count or performance headroom above the cheaper pick."
+      }
     ],
+    "note": "Default to Buffalo LinkStation 210 2TB 1 unless your storage needs genuinely call for the pricier pick."
   },
   {
-    subheading: "By What You're Actually Trying to Do",
-    intro:
-      "Match the category to your real use case rather than the biggest spec sheet, a lot of beginner NAS purchases are solving a problem a simpler device already handles.",
-    table: {
-      headers: ["What you need", "Simpler alternative exists?", "Best pick if NAS is right"],
-      rows: [
-        ["Back up one computer only", "Yes, an external USB drive is simpler and cheaper", "Buffalo LinkStation 210 2TB if you still want network access"],
-        ["Access files from multiple devices", "A single-drive cloud NAS is enough", "Buffalo LinkStation 210 6TB"],
-        ["Run a media server with a growing library", "No, a traditional multi-bay NAS is worth it", "TerraMaster F2-425 or Asustor Drivestor 2 Gen 2"],
-        ["Expand one computer's storage with RAID, not network access", "You actually want DAS, not NAS", "QNAP TR-004"],
+    "subheading": "By Drive Type Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "SSD/NVMe for fast random access",
+          "Beelink Mini PC ME Pro 2"
+        ],
+        [
+          "HDD for bulk storage is enough",
+          "UGREEN NAS DH2300 2"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Networking Speed Needs",
-    intro:
-      "2.5GbE only helps if your router or switch also supports it, check your existing network hardware before paying extra for faster NAS networking.",
-    table: {
-      headers: ["Network hardware", "Recommended NAS networking", "Best pick"],
-      rows: [
-        ["Standard home router, Gigabit only", "Gigabit Ethernet is sufficient", "UGREEN NAS DH2300 or Synology DS223"],
-        ["Already have a 2.5GbE router or switch", "2.5GbE NAS to match", "Asustor Drivestor 2 Gen 2 or TerraMaster F2-425"],
-        ["Single computer, no home network sharing needed", "USB-C DAS instead of network NAS", "QNAP TR-004"],
-      ],
-    },
-    note: "Buying a 2.5GbE NAS without 2.5GbE-capable networking gear elsewhere just leaves that extra speed unused, confirm your router and switch first.",
+    "subheading": "For Media Streaming or Plex Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A CPU capable of hardware transcoding and enough RAM to handle multiple simultaneous streams, not just total bay count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "UGREEN NAS DH2300 2 is worth checking against its listed CPU and RAM before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Drive Compatibility Reality Check",
-    intro:
-      "A compatibility warning on a screen doesn't always mean the drive won't work, understand what it actually restricts before ruling out a cheaper third-party drive.",
-    table: {
-      headers: ["NAS tier", "Typical drive restriction level", "What to expect"],
-      rows: [
-        ["Value-series (UGREEN DH2300, Asustor Drivestor 2)", "Least restrictive", "Most third-party NAS drives work without warnings"],
-        ["Plus-series and higher (Synology DS223, TerraMaster F2-425)", "More restrictive-looking", "Warnings may appear for non-listed drives but often only remove vendor-specific monitoring, not core function"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real multi-user performance, media transcoding, or business-critical reliability, where Beelink Mini PC ME Pro 2's CPU and RAM give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need simple backup storage for one or two users, where Buffalo LinkStation 210 2TB 1 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

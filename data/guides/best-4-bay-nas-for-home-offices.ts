@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31vNev8kUwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D22JRHZB?tag=deskfinds0d-20",
     description:
-      "The DXP4800 Plus pairs a genuinely capable 5-core Intel Pentium Gold processor with 4 drive bays, enough compute headroom to run Plex transcoding, Docker containers, and RAID management simultaneously without the NAS becoming the bottleneck in your workflow.\n\nAs a diskless unit, the enclosure price is only the starting point, budget for 4 NAS-grade drives on top, but the Intel processor and expandable RAM give it a longer useful life than value-tier ARM-based 4-bay units as your home office needs grow.",
+      "The DXP4800 Plus pairs a genuinely capable 5-core Intel Pentium Gold processor with 4 drive bays, enough compute headroom to run Plex transcoding, Docker containers, and RAID management simultaneously without the NAS becoming the bottleneck in your workflow.\n\nAs a diskless unit, the enclosure price is only the starting point, budget for 4 NAS-grade drives on top, but the Intel processor and expandable RAM give it a longer useful life than value-tier ARM-based 4-bay units as your home office needs grow.\n\nFull RAID flexibility including RAID 5 and RAID 10. That's a real strength, but weigh it against the flip side: diskless, drives are a significant added cost.",
     specs: [
       "4 bays, diskless",
       "Intel Pentium Gold 8505, 5-core CPU",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31xSdRsBUEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C8S7SF4B?tag=deskfinds0d-20",
     description:
-      "The DS925+ is Synology's current Plus-series 4-bay, running DSM's polished software with Hybrid RAID (SHR) support that lets you mix and expand drive sizes over time rather than committing to matched drives upfront. That gradual upgrade path is a real advantage over standard RAID 5 for a home office that grows incrementally.\n\nBe aware that Synology's 2024-and-newer Plus-series models show compatibility warnings for non-Synology-branded drives in DSM. The NAS still functions with third-party NAS drives, but Synology-branded drives avoid the warning at a 15-30% price premium.",
+      "The DS925+ is Synology's current Plus-series 4-bay, running DSM's polished software with Hybrid RAID (SHR) support that lets you mix and expand drive sizes over time rather than committing to matched drives upfront. That gradual upgrade path is a real advantage over standard RAID 5 for a home office that grows incrementally.\n\nBe aware that Synology's 2024-and-newer Plus-series models show compatibility warnings for non-Synology-branded drives in DSM. The NAS still functions with third-party NAS drives, but Synology-branded drives avoid the warning at a 15-30% price premium.\n\nWorth calling out specifically: mature, polished DSM software. The catch is most expensive pick in this list before drives.",
     specs: [
       "4 bays, diskless",
       "Hybrid RAID (SHR) support",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41CoDmrFUGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BY7LGMNP?tag=deskfinds0d-20",
     description:
-      "The DS423 brings Synology's DSM software and 4-bay flexibility to a lower price point than the DS925+, aimed at family and small home office backup, file sharing, and basic video surveillance storage rather than heavy transcoding workloads.\n\nAs a value-series model, it predates the strictest 2024+ drive compatibility warnings, giving more third-party drive flexibility than the newer DS925+. Pair it with 4 NAS-grade drives for a complete, budget-conscious 4-bay setup.",
+      "The DS423 brings Synology's DSM software and 4-bay flexibility to a lower price point than the DS925+, aimed at family and small home office backup, file sharing, and basic video surveillance storage rather than heavy transcoding workloads.\n\nAs a value-series model, it predates the strictest 2024+ drive compatibility warnings, giving more third-party drive flexibility than the newer DS925+. Pair it with 4 NAS-grade drives for a complete, budget-conscious 4-bay setup.\n\nMore relaxed third-party drive compatibility. Set against that, less CPU headroom than the Intel-based DXP4800 Plus. Both matter when comparing it to the other picks here.",
     specs: [
       "4 bays, diskless",
       "DSM software",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/310l7keevAS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07K4RC7X9?tag=deskfinds0d-20",
     description:
-      "It's worth being clear about what the TR-004 actually is: a direct-attached storage enclosure connected via USB-C to a single computer, not a network-attached NAS that multiple devices can access over Ethernet. If your home office is a single-user setup, this distinction may not matter much in practice.\n\nHardware RAID across 4 bays gives it real redundancy options despite the USB connection, and it's a genuinely cheaper way to get 4-bay RAID storage if you don't need multi-device network access. It can also serve as expansion storage attached to a QNAP NAS.",
+      "It's worth being clear about what the TR-004 actually is: a direct-attached storage enclosure connected via USB-C to a single computer, not a network-attached NAS that multiple devices can access over Ethernet. If your home office is a single-user setup, this distinction may not matter much in practice.\n\nHardware RAID across 4 bays gives it real redundancy options despite the USB connection, and it's a genuinely cheaper way to get 4-bay RAID storage if you don't need multi-device network access. It can also serve as expansion storage attached to a QNAP NAS.\n\nA genuine advantage here is that hardware RAID redundancy despite USB connection. The tradeoff is not network-attached, only one computer connects at a time.",
     specs: [
       "4 bays, diskless",
       "USB Type-C direct attached storage",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21z94zz6wGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CTTL9R7Z?tag=deskfinds0d-20",
     description:
-      "Similar to the QNAP TR-004, the D4-320 is a direct-attached enclosure, not a network NAS, connecting to a single computer over USB 3.2 Gen2 at up to 10Gbps. It's the cheapest 4-bay storage expansion option in this list.\n\nHot-swap bays make drive replacement straightforward, and plug-and-play setup means no NAS operating system to configure. For a home office that just needs a large, fast local storage pool attached to one workstation, this sidesteps NAS software complexity entirely.",
+      "Similar to the QNAP TR-004, the D4-320 is a direct-attached enclosure, not a network NAS, connecting to a single computer over USB 3.2 Gen2 at up to 10Gbps. It's the cheapest 4-bay storage expansion option in this list.\n\nHot-swap bays make drive replacement straightforward, and plug-and-play setup means no NAS operating system to configure. For a home office that just needs a large, fast local storage pool attached to one workstation, this sidesteps NAS software complexity entirely.\n\n10Gbps USB connection, fast for a direct-attached unit. That's a real strength, but weigh it against the flip side: not network-attached storage.",
     specs: [
       "4 bays, diskless",
       "USB 3.2 Gen2, 10Gbps",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ccz6M7cCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D22HBFK1?tag=deskfinds0d-20",
     description:
-      "It's worth being upfront that the DXP2800 is a 2-bay NAS, not a 4-bay unit, included here for home offices who start researching 4-bay options but realize their actual capacity needs, and budget, fit a smaller 2-drive setup better.\n\nIf you don't need 4 bays of RAID 5 or RAID 10 flexibility and mainly want reliable 2-drive redundancy for a smaller content creation workflow, this UGREEN model gives you a lower entry cost than any 4-bay unit in this list while still supporting RAID 1 mirroring.",
+      "It's worth being upfront that the DXP2800 is a 2-bay NAS, not a 4-bay unit, included here for home offices who start researching 4-bay options but realize their actual capacity needs, and budget, fit a smaller 2-drive setup better.\n\nIf you don't need 4 bays of RAID 5 or RAID 10 flexibility and mainly want reliable 2-drive redundancy for a smaller content creation workflow, this UGREEN model gives you a lower entry cost than any 4-bay unit in this list while still supporting RAID 1 mirroring.\n\nWorth calling out specifically: sufficient RAID 1 redundancy for smaller storage needs. The catch is only 2 bays, no RAID 5 or RAID 10 flexibility.",
     specs: [
       "2 bays, diskless",
       "RAID 1 mirroring support",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ACKzpdVoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FNWHSPXF?tag=deskfinds0d-20",
     description:
-      "Like the DXP2800 above, the DH2300 is a 2-bay NAS, not a 4-bay unit, listed here as the most budget-friendly alternative for home offices whose storage needs turn out to be smaller than a 4-bay purchase justifies. It supports up to 64TB across its 2 bays with large enough drives.\n\nIt's a genuinely simple, low-cost entry into networked storage with basic RAID 1 support, well-suited to a first NAS for automatic backup rather than a growing multi-app home office server.",
+      "Like the DXP2800 above, the DH2300 is a 2-bay NAS, not a 4-bay unit, listed here as the most budget-friendly alternative for home offices whose storage needs turn out to be smaller than a 4-bay purchase justifies. It supports up to 64TB across its 2 bays with large enough drives.\n\nIt's a genuinely simple, low-cost entry into networked storage with basic RAID 1 support, well-suited to a first NAS for automatic backup rather than a growing multi-app home office server.\n\nSupports large per-bay drive capacity up to 64TB total. Set against that, only 2 bays, no RAID 5/10 option. Both matter when comparing it to the other picks here.",
     specs: [
       "2 bays, diskless",
       "Supports up to 64TB total capacity",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21VvdqtKHoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BRNBVTJK?tag=deskfinds0d-20",
     description:
-      "The DS223 rounds out this list as another 2-bay Synology option, not a 4-bay unit, for home offices whose actual need is straightforward file backup and centralized storage rather than the RAID 5/10 flexibility a true 4-bay NAS provides.\n\nSynology's DSM software makes setup approachable for less technical buyers, and 2-drive RAID 1 mirroring covers basic redundancy needs. If your research keeps leading back to 4 bays, use this as the cost baseline for what a much simpler 2-bay setup would cost instead.",
+      "The DS223 rounds out this list as another 2-bay Synology option, not a 4-bay unit, for home offices whose actual need is straightforward file backup and centralized storage rather than the RAID 5/10 flexibility a true 4-bay NAS provides.\n\nSynology's DSM software makes setup approachable for less technical buyers, and 2-drive RAID 1 mirroring covers basic redundancy needs. If your research keeps leading back to 4 bays, use this as the cost baseline for what a much simpler 2-bay setup would cost instead.\n\nA genuine advantage here is that reliable RAID 1 backup redundancy. The tradeoff is only 2 bays, not a substitute for genuine 4-bay expansion needs.",
     specs: [
       "2 bays, diskless",
       "DSM software",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "The enclosure price is only part of the true cost",
-    explanation:
-      "A 4-bay enclosure priced around $600-700 plus 4 NAS-grade 8TB drives at roughly $180 each adds up to $1,320 or more in total investment. Always budget for drives separately when comparing a diskless 4-bay NAS to a 2-bay unit or a cheaper direct-attached enclosure.",
+    "criterion": "Remember every listed NAS here is diskless, budget drives separately",
+    "explanation": "The price shown for a NAS enclosure covers the hardware chassis, CPU, and RAM only, not the actual storage drives, NAS-grade drives built for 24/7 operation like Seagate IronWolf or WD Red still need to be budgeted on top, often adding $80 to $200 or more per bay depending on capacity and drive type.\n\nThis matters because comparing NAS units purely by enclosure price without factoring in drive cost gives a misleading picture of the real total investment, a cheaper enclosure with more bays to fill can end up costing more overall than a pricier enclosure with fewer bays.\n\nCheck whether a listing is diskless or ships with drives included, and add realistic per-bay drive costs to the enclosure price before comparing total cost across options."
   },
   {
-    criterion: "RAID 5, hybrid RAID, and RAID 10 solve different problems",
-    explanation:
-      "RAID 5 uses 3 drives for data plus 1 for parity, giving about 75% usable capacity and tolerating 1 drive failure, the most common recommendation for general use. Hybrid RAID lets you mix drive sizes and expand one drive at a time, better for a gradual upgrade path. RAID 10 gives only 50% usable capacity but the fastest read and write speeds, best suited to Plex or other heavy read workloads.",
+    "criterion": "Weigh CPU class and RAM over bay count for real day-to-day performance",
+    "explanation": "Bay count determines maximum storage capacity, but CPU architecture (Intel, AMD, or ARM) and RAM amount determine how well the NAS actually handles real workloads, running apps, transcoding media on the fly, or serving multiple simultaneous users, and a higher bay count with a weak CPU can bottleneck performance regardless of how much raw storage it holds.\n\nThis matters more the more the NAS will do beyond simple file storage, like Plex transcoding or running multiple docker containers, less if it's purely a basic backup target.\n\nCheck the specific CPU model and RAM amount (and whether RAM is upgradeable) rather than choosing primarily by bay count."
   },
   {
-    criterion: "Understand the rebuild risk window before you need it",
-    explanation:
-      "A 4-bay RAID 5 array with 8TB drives can take 12 to 48 hours to rebuild after a single drive failure. During that rebuild, performance degrades and a second drive failure means total data loss, which is why some buyers choose RAID 10 or hybrid RAID for faster, less risky rebuilds.",
+    "criterion": "Understand RAID as a rebuild-time safety net, not a substitute for real backup",
+    "explanation": "RAID configurations protect against a single drive failure by letting the array rebuild from redundant data, but RAID is not a backup, it does nothing to protect against accidental deletion, ransomware, theft, fire, or a controller failure that affects the whole array at once.\n\nThis distinction matters because treating RAID redundancy as sufficient backup protection is a common and genuinely risky misunderstanding, a real backup strategy needs a copy of critical data stored somewhere physically separate from the NAS itself.\n\nCheck what RAID level a given NAS supports, and separately plan an actual backup strategy, ideally following a 3-2-1 approach, rather than relying on RAID redundancy alone."
   },
   {
-    criterion: "Network-attached and direct-attached storage are not the same thing",
-    explanation:
-      "A true NAS connects over Ethernet and can be accessed by multiple devices on the network at once, even remotely. A direct-attached enclosure like the QNAP TR-004 or TERRAMASTER D4-320 connects via USB to a single computer, which must stay powered on for anything else to reach that storage. Confirm which type you're buying before assuming multi-device access.",
+    "criterion": "Match drive type (HDD vs SSD/NVMe) to your actual access pattern",
+    "explanation": "Traditional hard drives offer the lowest cost per terabyte for bulk storage like media libraries or backups, while SSD or NVMe-based NAS storage costs significantly more per terabyte but delivers much faster random access speeds, genuinely useful for frequently-accessed files, active project work, or serving as a fast cache tier.\n\nThis matters directly based on how you'll actually use the storage, a media library accessed sequentially benefits little from SSD speed, while an active working file share benefits considerably.\n\nCheck whether the NAS supports the drive type you need, and weigh the real cost-per-terabyte difference against how much you'll actually benefit from faster random access."
   },
   {
-    criterion: "Check whether you actually need 4 bays before buying",
-    explanation:
-      "If your real storage need is basic backup or a small content library, a 2-bay NAS with RAID 1 mirroring is meaningfully cheaper than any true 4-bay unit and its 4 drives. Reserve the 4-bay purchase for when you specifically need RAID 5/10 flexibility or capacity beyond what 2 drives can reasonably provide.",
-  },
-  {
-    criterion: "Drive compatibility restrictions add real cost on newer models",
-    explanation:
-      "Synology's 2024-and-newer Plus-series models display compatibility warnings in DSM for non-Synology-branded drives. The NAS still functions, but Synology-branded drives cost 15-30% more than equivalent third-party NAS drives. Factor this into your total cost calculation if you're buying a recent Synology Plus-series unit.",
-  },
+    "criterion": "Consider noise level if the NAS will run continuously in a shared living or office space",
+    "explanation": "A NAS that runs 24/7 generates continuous fan and drive noise, and that noise profile varies meaningfully between models, some use larger, slower-spinning fans that stay genuinely quiet, while others rely on smaller, faster fans that produce a persistent whine noticeable in a quiet room.\n\nThis matters a great deal if the NAS will sit in a bedroom, living room, or shared home office rather than a dedicated closet or basement out of earshot.\n\nCheck reviews specifically for real-world noise level mentions during continuous operation, not just idle noise, since drive activity and fan speed both increase under load."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,65 +359,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By RAID Type You Actually Need",
-    intro:
-      "The right RAID level depends on whether you prioritize usable capacity, upgrade flexibility, or speed.",
-    table: {
-      headers: ["Priority", "RAID type", "Best pick"],
-      rows: [
-        ["General use, 1 drive failure protection", "RAID 5", "UGREEN DXP4800 Plus"],
-        ["Mixing drive sizes, gradual upgrades", "Hybrid RAID (SHR)", "Synology DS925+"],
-        ["Fastest read/write, Plex or heavy workloads", "RAID 10", "UGREEN DXP4800 Plus"],
-        ["Simple mirroring only, smaller budget", "RAID 1 (2-bay)", "Synology DS223 or UGREEN DH2300"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "UGREEN NAS DXP4800 Plus 4"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "UGREEN NAS DXP4800 Plus 4"
+        ]
+      ]
+    }
   },
   {
-    subheading: "True Total Cost at Different Capacity Tiers",
-    intro:
-      "The enclosure price alone significantly understates what a 4-bay NAS actually costs once you add drives.",
-    table: {
-      headers: ["Setup", "Enclosure cost", "4 drives (approx.)", "Estimated total"],
-      rows: [
-        ["UGREEN DXP4800 Plus + 4x 8TB", "$619.99", "~$720", "~$1,340"],
-        ["Synology DS925+ + 4x 8TB (Synology-branded)", "$700.00", "~$900", "~$1,600"],
-        ["Synology DS423 + 4x 4TB", "$399.99", "~$400", "~$800"],
-        ["TERRAMASTER D4-320 (direct-attached) + 4x 8TB", "$151.99", "~$720", "~$870"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
-    note: "Cloud storage cost over several years can approach or exceed these totals depending on capacity, so weigh how much you value local speed and privacy against a subscription alternative.",
+      "rows": [
+        [
+          "Under $152",
+          "TERRAMASTER D4"
+        ],
+        [
+          "Up to $700",
+          "Synology 4"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Network NAS vs. Direct-Attached Storage",
-    cards: [
+    "subheading": "Bay Count vs Price",
+    "cards": [
       {
-        label: "Need multi-device or remote access",
-        text: "Choose a true network-attached NAS like the UGREEN DXP4800 Plus, Synology DS925+, or DS423, all accessible over Ethernet from multiple devices.",
+        "label": "TERRAMASTER D4",
+        "text": "The lower-priced option in this comparison, worth checking its CPU and RAM against your actual workload."
       },
       {
-        label: "Only need fast storage attached to one workstation",
-        text: "The QNAP TR-004 or TERRAMASTER D4-320 direct-attached enclosures are cheaper and skip NAS software entirely, but only work with one connected computer at a time.",
-      },
-      {
-        label: "Not sure you need 4 bays at all",
-        text: "The DXP2800, DH2300, and DS223 are 2-bay alternatives that cost meaningfully less if your real need is simple mirrored backup rather than RAID 5/10 flexibility.",
-      },
+        "label": "Synology 4",
+        "text": "The higher-priced option, worth it if it offers real bay count or performance headroom above the cheaper pick."
+      }
     ],
+    "note": "Default to TERRAMASTER D4 unless your storage needs genuinely call for the pricier pick."
   },
   {
-    subheading: "RAID Rebuild Risk by Setup",
-    intro:
-      "Rebuild time and risk during that window vary by RAID type and drive size, which matters more than most buyers expect.",
-    table: {
-      headers: ["RAID type", "Typical rebuild time (8TB drives)", "Risk during rebuild"],
-      rows: [
-        ["RAID 5", "12-48 hours", "A second drive failure during rebuild causes total data loss"],
-        ["RAID 10", "Faster than RAID 5, less parity math", "Lower risk window, but only 50% usable capacity"],
-        ["Hybrid RAID (SHR)", "Similar to RAID 5, varies by drive mix", "Same single-parity risk profile as RAID 5"],
-        ["RAID 1 (2-bay)", "Shorter due to fewer drives", "Simpler recovery, but no expansion beyond 2 drives"],
-      ],
-    },
+    "subheading": "By CPU and RAM",
+    "note": "Check each pick's listed CPU architecture and RAM amount against your actual workload before buying, not just bay count alone. UGREEN NAS DXP4800 Plus 4 is the most-reviewed option here if you want the safer bet."
   },
+  {
+    "subheading": "For Media Streaming or Plex Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A CPU capable of hardware transcoding and enough RAM to handle multiple simultaneous streams, not just total bay count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "UGREEN NAS DXP4800 Plus 4 is worth checking against its listed CPU and RAM before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real multi-user performance, media transcoding, or business-critical reliability, where Synology 4's CPU and RAM give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need simple backup storage for one or two users, where TERRAMASTER D4 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

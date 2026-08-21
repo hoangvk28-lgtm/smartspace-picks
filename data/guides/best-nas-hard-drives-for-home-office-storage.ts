@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/4155kjpaFaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CMQ6SK7W?tag=deskfinds0d-20",
     description:
-      "The WD Red Plus is the only true bare hard drive in this list, a 3.5 inch internal drive you install into a NAS enclosure you already own or are buying separately. It uses CMR (Conventional Magnetic Recording) rather than SMR, which matters directly for RAID reliability since SMR drives can struggle or fail during a RAID rebuild.\n\nIts 256MB cache and 5640 RPM spin speed are tuned for 24/7 NAS duty rather than desktop use, and its workload rating supports the kind of daily backup and file access load a typical home office generates. Buy this only if you already have an empty NAS bay to fill.",
+      "The WD Red Plus is the only true bare hard drive in this list, a 3.5 inch internal drive you install into a NAS enclosure you already own or are buying separately. It uses CMR (Conventional Magnetic Recording) rather than SMR, which matters directly for RAID reliability since SMR drives can struggle or fail during a RAID rebuild.\n\nIts 256MB cache and 5640 RPM spin speed are tuned for 24/7 NAS duty rather than desktop use, and its workload rating supports the kind of daily backup and file access load a typical home office generates. Buy this only if you already have an empty NAS bay to fill.\n\n256MB cache suited to sustained NAS workloads. That's a real strength, but weigh it against the flip side: requires a separate NAS enclosure you supply yourself.",
     specs: [
       "8TB capacity, 3.5\" internal SATA drive",
       "CMR (not SMR), safe for RAID rebuilds",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ccz6M7cCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D22HBFK1?tag=deskfinds0d-20",
     description:
-      "The UGREEN DXP2800 is a diskless 2-bay NAS enclosure, meaning it ships with no hard drives included and you supply your own, ideally CMR NAS-rated drives like the WD Red Plus above. It's aimed at content creators who need fast local file access for photo and video libraries rather than pure archival backup.\n\nWith two bays you can run mirrored RAID 1 for redundancy or combine drives for more raw capacity, and the enclosure handles the compute, networking, and drive management while you handle the drive purchase separately.",
+      "The UGREEN DXP2800 is a diskless 2-bay NAS enclosure, meaning it ships with no hard drives included and you supply your own, ideally CMR NAS-rated drives like the WD Red Plus above. It's aimed at content creators who need fast local file access for photo and video libraries rather than pure archival backup.\n\nWith two bays you can run mirrored RAID 1 for redundancy or combine drives for more raw capacity, and the enclosure handles the compute, networking, and drive management while you handle the drive purchase separately.\n\nWorth calling out specifically: rAID 1 support for redundancy across 2 bays. The catch is ships with zero storage, drives are a separate cost.",
     specs: [
       "2-bay diskless NAS enclosure",
       "No drives included, buyer supplies compatible 3.5\" or 2.5\" drives",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31vNev8kUwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D22JRHZB?tag=deskfinds0d-20",
     description:
-      "The DXP4800 Plus is a diskless 4-bay enclosure built around an Intel Pentium Gold 5-core CPU, giving it enough headroom for transcoding, virtualization, or running several services at once alongside file storage. Like every enclosure in this list it ships with no drives, so budget for 4 NAS-rated drives on top of the enclosure price.\n\nFour bays open up RAID 5 or RAID 10 configurations that balance capacity against redundancy far better than a 2-bay unit can, which matters if you're storing home office data you genuinely can't afford to lose.",
+      "The DXP4800 Plus is a diskless 4-bay enclosure built around an Intel Pentium Gold 5-core CPU, giving it enough headroom for transcoding, virtualization, or running several services at once alongside file storage. Like every enclosure in this list it ships with no drives, so budget for 4 NAS-rated drives on top of the enclosure price.\n\nFour bays open up RAID 5 or RAID 10 configurations that balance capacity against redundancy far better than a 2-bay unit can, which matters if you're storing home office data you genuinely can't afford to lose.\n\n4 bays enable RAID 5/10 for better redundancy math. Set against that, highest combined cost once 4 drives are added. Both matter when comparing it to the other picks here.",
     specs: [
       "4-bay diskless NAS enclosure",
       "Intel Pentium Gold 8505 5-Core CPU",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ACKzpdVoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FNWHSPXF?tag=deskfinds0d-20",
     description:
-      "The DH2300 is a lower-cost diskless 2-bay enclosure supporting up to 64TB total once you install your own drives. It's a straightforward entry point for a home office that wants basic NAS redundancy without paying for the extra CPU horsepower of a media-server-focused unit.\n\nAs with every diskless enclosure here, the drives are a separate purchase, budget for 2 NAS-rated drives on top of this price, and check whether SMR or CMR drives are being used before committing them to a RAID array.",
+      "The DH2300 is a lower-cost diskless 2-bay enclosure supporting up to 64TB total once you install your own drives. It's a straightforward entry point for a home office that wants basic NAS redundancy without paying for the extra CPU horsepower of a media-server-focused unit.\n\nAs with every diskless enclosure here, the drives are a separate purchase, budget for 2 NAS-rated drives on top of this price, and check whether SMR or CMR drives are being used before committing them to a RAID array.\n\nA genuine advantage here is that straightforward 2-bay setup for basic redundancy. The tradeoff is diskless, still requires a separate drive purchase.",
     specs: [
       "2-bay diskless desktop NAS",
       "Supports up to 64TB total (drives sold separately)",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21KH+uw1QfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FB7KQLR1?tag=deskfinds0d-20",
     description:
-      "The Synology DS225+ is a diskless 2-bay NAS built around an Intel CPU with hardware transcoding, which matters if part of your home office storage doubles as a media server for photos or video. Synology's DSM software is widely regarded as one of the more polished NAS operating systems for setup and ongoing management.\n\nLike the other enclosures here it needs drives supplied separately, and its 2-bay layout keeps redundancy simple with RAID 1 rather than the more complex arrays a 4-bay unit supports.",
+      "The Synology DS225+ is a diskless 2-bay NAS built around an Intel CPU with hardware transcoding, which matters if part of your home office storage doubles as a media server for photos or video. Synology's DSM software is widely regarded as one of the more polished NAS operating systems for setup and ongoing management.\n\nLike the other enclosures here it needs drives supplied separately, and its 2-bay layout keeps redundancy simple with RAID 1 rather than the more complex arrays a 4-bay unit supports.\n\nSynology DSM is a mature, well-documented NAS OS. That's a real strength, but weigh it against the flip side: diskless, drives are an added cost.",
     specs: [
       "2-bay diskless NAS",
       "Intel CPU with hardware transcoding",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31xSdRsBUEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C8S7SF4B?tag=deskfinds0d-20",
     description:
-      "The DS925+ steps up to 4 diskless bays under Synology's DSM platform, giving a growing home office room to add capacity or redundancy without replacing the whole unit later. As with any 4-bay enclosure, RAID 5 or RAID 10 become viable, spreading data across drives so a single drive failure doesn't mean total data loss.\n\nBudget carefully here, 4 NAS-rated drives on top of the enclosure price is a meaningful additional cost, but it buys real headroom for a home office whose storage needs are still expanding.",
+      "The DS925+ steps up to 4 diskless bays under Synology's DSM platform, giving a growing home office room to add capacity or redundancy without replacing the whole unit later. As with any 4-bay enclosure, RAID 5 or RAID 10 become viable, spreading data across drives so a single drive failure doesn't mean total data loss.\n\nBudget carefully here, 4 NAS-rated drives on top of the enclosure price is a meaningful additional cost, but it buys real headroom for a home office whose storage needs are still expanding.\n\nWorth calling out specifically: synology DSM's mature software ecosystem. The catch is highest enclosure price in this list before drives.",
     specs: [
       "4-bay diskless DiskStation",
       "Synology DSM software platform",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31gLzyv-GtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00JKM0ES2?tag=deskfinds0d-20",
     description:
-      "The BUFFALO LinkStation 210 is a drives-included bundle, a 1-bay NAS enclosure with a 4TB hard drive already installed, so there's no separate drive purchase or RAID configuration needed before first use. It's the simplest entry point in this list for a home office that just wants a network drive that works out of the box.\n\nBecause it's single-bay, there's no RAID redundancy possible, a drive failure means data loss unless you maintain a separate backup, so this suits secondary or backup storage rather than a sole copy of critical files.",
+      "The BUFFALO LinkStation 210 is a drives-included bundle, a 1-bay NAS enclosure with a 4TB hard drive already installed, so there's no separate drive purchase or RAID configuration needed before first use. It's the simplest entry point in this list for a home office that just wants a network drive that works out of the box.\n\nBecause it's single-bay, there's no RAID redundancy possible, a drive failure means data loss unless you maintain a separate backup, so this suits secondary or backup storage rather than a sole copy of critical files.\n\nSimplest, fastest setup of any pick here. Set against that, single bay means zero RAID redundancy. Both matter when comparing it to the other picks here.",
     specs: [
       "1-bay NAS with 4TB drive included",
       "Ready to use out of the box, no separate drive purchase",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41CoDmrFUGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BY7LGMNP?tag=deskfinds0d-20",
     description:
-      "The Synology DS423 is a diskless 4-bay unit positioned for family and small business backup, file sharing, and basic video surveillance storage rather than heavy media transcoding. It's the lower-cost route into Synology's 4-bay lineup compared to the DS925+ above, trading some CPU headroom for a friendlier price.\n\nFour bays still support RAID 5 or RAID 10 once you supply your own drives, giving genuine redundancy options for a home office that wants more protection than a single-bay bundle can offer without the cost of the flagship 4-bay model.",
+      "The Synology DS423 is a diskless 4-bay unit positioned for family and small business backup, file sharing, and basic video surveillance storage rather than heavy media transcoding. It's the lower-cost route into Synology's 4-bay lineup compared to the DS925+ above, trading some CPU headroom for a friendlier price.\n\nFour bays still support RAID 5 or RAID 10 once you supply your own drives, giving genuine redundancy options for a home office that wants more protection than a single-bay bundle can offer without the cost of the flagship 4-bay model.\n\nA genuine advantage here is that rAID 5/10 support for real redundancy. The tradeoff is diskless, drives are a separate cost.",
     specs: [
       "4-bay diskless NAS",
       "Synology DSM software platform",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Know whether you're buying a drive, an enclosure, or a bundle",
-    explanation:
-      "A bare hard drive like the WD Red Plus only works if you already own a compatible NAS enclosure. A diskless enclosure needs you to buy drives separately, often the single biggest added cost. A drives-included bundle like the BUFFALO LinkStation works immediately but usually caps out at 1 bay with no RAID redundancy.",
+    "criterion": "Remember every listed NAS here is diskless, budget drives separately",
+    "explanation": "The price shown for a NAS enclosure covers the hardware chassis, CPU, and RAM only, not the actual storage drives, NAS-grade drives built for 24/7 operation like Seagate IronWolf or WD Red still need to be budgeted on top, often adding $80 to $200 or more per bay depending on capacity and drive type.\n\nThis matters because comparing NAS units purely by enclosure price without factoring in drive cost gives a misleading picture of the real total investment, a cheaper enclosure with more bays to fill can end up costing more overall than a pricier enclosure with fewer bays.\n\nCheck whether a listing is diskless or ships with drives included, and add realistic per-bay drive costs to the enclosure price before comparing total cost across options."
   },
   {
-    criterion: "SMR vs. CMR is the most dangerous NAS buying mistake",
-    explanation:
-      "SMR (Shingled Magnetic Recording) drives write new data by overlapping existing tracks, which slows dramatically during a RAID rebuild and can cause the whole array to fail before the rebuild finishes. CMR (Conventional Magnetic Recording) drives write to dedicated tracks and stay stable under RAID rebuild load. Always confirm CMR before installing a drive into any multi-bay RAID array.",
+    "criterion": "Weigh CPU class and RAM over bay count for real day-to-day performance",
+    "explanation": "Bay count determines maximum storage capacity, but CPU architecture (Intel, AMD, or ARM) and RAM amount determine how well the NAS actually handles real workloads, running apps, transcoding media on the fly, or serving multiple simultaneous users, and a higher bay count with a weak CPU can bottleneck performance regardless of how much raw storage it holds.\n\nThis matters more the more the NAS will do beyond simple file storage, like Plex transcoding or running multiple docker containers, less if it's purely a basic backup target.\n\nCheck the specific CPU model and RAM amount (and whether RAM is upgradeable) rather than choosing primarily by bay count."
   },
   {
-    criterion: "Match the workload rating to your actual usage",
-    explanation:
-      "Standard NAS drives carry roughly a 180TB/year workload rating, Pro-tier NAS drives closer to 300TB/year, while ordinary desktop drives are rated around just 55TB/year. A typical home office NAS running daily backups for 1-2 users stays well under even the standard 180TB/year rating, so don't overpay for Pro-tier unless you're running constant heavy read/write.",
+    "criterion": "Understand RAID as a rebuild-time safety net, not a substitute for real backup",
+    "explanation": "RAID configurations protect against a single drive failure by letting the array rebuild from redundant data, but RAID is not a backup, it does nothing to protect against accidental deletion, ransomware, theft, fire, or a controller failure that affects the whole array at once.\n\nThis distinction matters because treating RAID redundancy as sufficient backup protection is a common and genuinely risky misunderstanding, a real backup strategy needs a copy of critical data stored somewhere physically separate from the NAS itself.\n\nCheck what RAID level a given NAS supports, and separately plan an actual backup strategy, ideally following a 3-2-1 approach, rather than relying on RAID redundancy alone."
   },
   {
-    criterion: "Vibration compensation matters once you add a 3rd or 4th bay",
-    explanation:
-      "In 4-bay and larger enclosures, multiple spinning drives create sympathetic vibration that can cause read errors on drives not built to compensate for it. NAS-grade drives include vibration compensation firmware; ordinary desktop drives do not, which is another reason to avoid repurposing a desktop drive in a 4-bay array.",
+    "criterion": "Match drive type (HDD vs SSD/NVMe) to your actual access pattern",
+    "explanation": "Traditional hard drives offer the lowest cost per terabyte for bulk storage like media libraries or backups, while SSD or NVMe-based NAS storage costs significantly more per terabyte but delivers much faster random access speeds, genuinely useful for frequently-accessed files, active project work, or serving as a fast cache tier.\n\nThis matters directly based on how you'll actually use the storage, a media library accessed sequentially benefits little from SSD speed, while an active working file share benefits considerably.\n\nCheck whether the NAS supports the drive type you need, and weigh the real cost-per-terabyte difference against how much you'll actually benefit from faster random access."
   },
   {
-    criterion: "Decide between HDD, SSD, and NVMe cache based on workload",
-    explanation:
-      "HDDs remain the most cost-effective option for large-capacity, non-speed-critical storage like backups and archives. SSDs make more sense for VM hosting, database workloads, or anywhere drive noise and vibration are unacceptable. Many home offices get the best of both by pairing HDD main storage with an NVMe cache drive where the enclosure supports it.",
-  },
-  {
-    criterion: "Reliability data from independent sources beats manufacturer claims alone",
-    explanation:
-      "Manufacturer reliability figures are a starting point, but independent large-scale drive reliability reports from cloud storage operators, which track thousands of drives across brands and models over years, are a more grounded reference point when comparing failure rates between drive lines before committing to a RAID build.",
-  },
+    "criterion": "Consider noise level if the NAS will run continuously in a shared living or office space",
+    "explanation": "A NAS that runs 24/7 generates continuous fan and drive noise, and that noise profile varies meaningfully between models, some use larger, slower-spinning fans that stay genuinely quiet, while others rely on smaller, faster fans that produce a persistent whine noticeable in a quiet room.\n\nThis matters a great deal if the NAS will sit in a bedroom, living room, or shared home office rather than a dedicated closet or basement out of earshot.\n\nCheck reviews specifically for real-world noise level mentions during continuous operation, not just idle noise, since drive activity and fan speed both increase under load."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,70 +359,91 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What You Already Own",
-    intro:
-      "The single biggest sorting question for this list is whether you need a drive, an enclosure, or both.",
-    table: {
-      headers: ["Your situation", "What to buy", "Best pick"],
-      rows: [
-        ["I own an empty NAS bay already", "A bare CMR internal drive", "WD Red Plus 8TB"],
-        ["I have no enclosure and no drives", "A diskless enclosure plus separate drives", "UGREEN DXP2800 or DXP4800 Plus"],
-        ["I want something that works immediately", "A drives-included bundle", "BUFFALO LinkStation 210"],
-        ["I want Synology's software specifically", "A Synology diskless enclosure", "DS225+ or DS925+"],
+    "subheading": "By Bay Count",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "4-bay capacity",
+          "UGREEN NAS DXP4800 Plus 4"
+        ],
+        [
+          "4-bay capacity",
+          "Synology DS925+ 4"
+        ],
+        [
+          "4-bay capacity",
+          "Synology DS423 4"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Redundancy Needs",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $193",
+          "BUFFALO LinkStation 210 4TB 1"
+        ],
+        [
+          "Up to $700",
+          "Synology DS925+ 4"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Diskless Enclosure vs Drives Included",
+    "cards": [
       {
-        label: "No redundancy needed, just network storage",
-        text: "The BUFFALO LinkStation 210's single bay works fine as backup or secondary storage where losing the drive isn't catastrophic.",
+        "label": "Diskless enclosure",
+        "text": "Lets you choose your own NAS-grade drives and capacity, but budget $80-200+ per bay separately. In this comparison: UGREEN NAS DXP2800 2, UGREEN NAS DXP4800 Plus 4, UGREEN NAS DH2300 2, Synology DS225+ 2, Synology DS925+ 4, Synology DS423 4."
       },
       {
-        label: "Basic mirrored redundancy",
-        text: "A 2-bay enclosure like the UGREEN DXP2800 or Synology DS225+ supports RAID 1, mirroring data across 2 drives.",
-      },
-      {
-        label: "Serious redundancy with capacity headroom",
-        text: "4-bay enclosures like the UGREEN DXP4800 Plus, Synology DS925+, or DS423 support RAID 5 or RAID 10, spreading data so a single drive failure doesn't mean data loss.",
-      },
+        "label": "Drives included",
+        "text": "Ready to use out of the box, simpler for a first NAS purchase. In this comparison: Western Digital 8TB WD Red Plus NAS Internal Hard Drive, BUFFALO LinkStation 210 4TB 1."
+      }
     ],
+    "note": "Default to diskless if you want control over drive choice and capacity, drives-included for the simplest setup."
   },
   {
-    subheading: "By Workload Type",
-    intro:
-      "CPU class and transcoding support matter more than raw capacity for some home office use cases.",
-    table: {
-      headers: ["Workload", "What matters", "Best pick"],
-      rows: [
-        ["Pure file backup and archiving", "Capacity and CMR reliability, not CPU power", "WD Red Plus 8TB, UGREEN DH2300"],
-        ["Photo/video working files for content creation", "Fast local access, RAID 1 for safety", "UGREEN DXP2800"],
-        ["Media streaming and photo backup", "Hardware transcoding", "Synology DS225+"],
-        ["Multiple services or growing storage needs", "Multi-core CPU, 4-bay RAID 5/10", "UGREEN DXP4800 Plus, Synology DS925+"],
-      ],
-    },
+    "subheading": "By CPU and RAM",
+    "note": "Check each pick's listed CPU architecture and RAM amount against your actual workload before buying, not just bay count alone. Western Digital 8TB WD Red Plus NAS Internal Hard Drive is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "HDD vs. SSD vs. NVMe Cache",
-    note: "For most home office NAS setups, HDD main storage remains the cost-effective default. SSD or NVMe only pulls ahead for VM hosting, database workloads, or where drive vibration and noise genuinely need to be eliminated, and an NVMe cache paired with HDD main bays often delivers most of the speed benefit without the full SSD price premium.",
+    "subheading": "For Media Streaming or Plex Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A CPU capable of hardware transcoding and enough RAM to handle multiple simultaneous streams, not just total bay count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Western Digital 8TB WD Red Plus NAS Internal Hard Drive is worth checking against its listed CPU and RAM before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Budget Reality Check for Diskless Enclosures",
-    intro:
-      "Every diskless enclosure in this list needs its true cost calculated with drives included, not just the enclosure sticker price.",
-    table: {
-      headers: ["Enclosure", "Bays", "Enclosure price", "Add for CMR drives"],
-      rows: [
-        ["UGREEN DH2300", "2", "$199.99", "2x drives"],
-        ["UGREEN DXP2800", "2", "$369.99", "2x drives"],
-        ["Synology DS225+", "2", "$364.99", "2x drives"],
-        ["UGREEN DXP4800 Plus", "4", "$619.99", "4x drives"],
-        ["Synology DS423", "4", "$399.99", "4x drives"],
-        ["Synology DS925+", "4", "$700.00", "4x drives"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real multi-user performance, media transcoding, or business-critical reliability, where Synology DS925+ 4's CPU and RAM give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need simple backup storage for one or two users, where BUFFALO LinkStation 210 4TB 1 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

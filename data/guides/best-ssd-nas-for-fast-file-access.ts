@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31vNev8kUwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D22JRHZB?tag=deskfinds0d-20",
     description:
-      "The DXP4800 Plus pairs 4 diskless bays with a 5-core Intel Pentium Gold CPU, giving it enough processing headroom to actually take advantage of SSDs installed across all 4 bays rather than bottlenecking on CPU before the drives do. This distinction matters because an underpowered NAS CPU can cap real-world throughput well below what the SSDs themselves are capable of.\n\nFilling all 4 bays with SATA or NVMe SSDs turns this into true all-SSD primary storage, fast for every workload type including large sequential transfers, not just the random small-file access that an NVMe cache accelerates. Budget for 4 SSDs on top of the enclosure price to reach that configuration.",
+      "The DXP4800 Plus pairs 4 diskless bays with a 5-core Intel Pentium Gold CPU, giving it enough processing headroom to actually take advantage of SSDs installed across all 4 bays rather than bottlenecking on CPU before the drives do. This distinction matters because an underpowered NAS CPU can cap real-world throughput well below what the SSDs themselves are capable of.\n\nFilling all 4 bays with SATA or NVMe SSDs turns this into true all-SSD primary storage, fast for every workload type including large sequential transfers, not just the random small-file access that an NVMe cache accelerates. Budget for 4 SSDs on top of the enclosure price to reach that configuration.\n\n4 bays support genuine all-SSD primary storage. That's a real strength, but weigh it against the flip side: highest total cost once 4 SSDs are added.",
     specs: [
       "4-bay diskless NAS enclosure",
       "Intel Pentium Gold 8505 5-Core CPU",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31D1tw1HTNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G1C1YNN8?tag=deskfinds0d-20",
     description:
-      "The DXP4800 Pro steps above the Plus model with additional CPU and memory headroom aimed at buyers pushing this NAS harder, VM hosting, database services, or acting as a Plex metadata store where fast random access genuinely matters. Four bays again allow either a mixed HDD-plus-NVMe-cache setup or full all-SSD storage depending on budget.\n\nThis tier of NAS is worth the premium specifically for workloads that benefit from consistently fast random access, running multiple simultaneous users or services, home media streaming and simple backup destinations don't need this much horsepower.",
+      "The DXP4800 Pro steps above the Plus model with additional CPU and memory headroom aimed at buyers pushing this NAS harder, VM hosting, database services, or acting as a Plex metadata store where fast random access genuinely matters. Four bays again allow either a mixed HDD-plus-NVMe-cache setup or full all-SSD storage depending on budget.\n\nThis tier of NAS is worth the premium specifically for workloads that benefit from consistently fast random access, running multiple simultaneous users or services, home media streaming and simple backup destinations don't need this much horsepower.\n\nWorth calling out specifically: flexible to configure as cache-accelerated or full SSD. The catch is priced above the standard DXP4800 Plus.",
     specs: [
       "4-bay diskless desktop NAS",
       "Higher-tier CPU/memory than the Plus model",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ccz6M7cCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D22HBFK1?tag=deskfinds0d-20",
     description:
-      "The DXP2800's 2 bays can be configured as a pair of SSDs in RAID 1 for fast, mirrored access to active project files, a common setup for content creators editing photo or video files off the NAS directly rather than copying them locally first. Two bays keep the cost of an all-SSD build lower than a 4-bay equivalent.\n\nFor small file access and active editing work, 2 SSDs in RAID 1 deliver a meaningful speed jump over spinning HDDs without the cost of a 4-bay all-SSD array, though total capacity is naturally lower with only 2 bays to fill.",
+      "The DXP2800's 2 bays can be configured as a pair of SSDs in RAID 1 for fast, mirrored access to active project files, a common setup for content creators editing photo or video files off the NAS directly rather than copying them locally first. Two bays keep the cost of an all-SSD build lower than a 4-bay equivalent.\n\nFor small file access and active editing work, 2 SSDs in RAID 1 deliver a meaningful speed jump over spinning HDDs without the cost of a 4-bay all-SSD array, though total capacity is naturally lower with only 2 bays to fill.\n\nFast direct-from-NAS editing for active project files. Set against that, lower total capacity ceiling than 4-bay options. Both matter when comparing it to the other picks here.",
     specs: [
       "2-bay diskless NAS enclosure",
       "Can be configured as RAID 1 with 2 SSDs",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21VvdqtKHoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BRNBVTJK?tag=deskfinds0d-20",
     description:
-      "The Synology DS223 is a more budget-oriented 2-bay diskless enclosure running Synology's DSM software, well suited to a home office that wants faster file access without the cost of a full all-SSD 4-bay build. Its 2 bays can run SATA SSDs for a genuine speed upgrade over an HDD-only setup at a lower entry price than the DXP2800.\n\nFor buyers whose primary need is centralizing files with reasonably fast access rather than running VMs or databases, this is a sensible middle ground between raw speed and total cost, especially paired with SSDs sized for actual working-file capacity rather than bulk archival storage.",
+      "The Synology DS223 is a more budget-oriented 2-bay diskless enclosure running Synology's DSM software, well suited to a home office that wants faster file access without the cost of a full all-SSD 4-bay build. Its 2 bays can run SATA SSDs for a genuine speed upgrade over an HDD-only setup at a lower entry price than the DXP2800.\n\nFor buyers whose primary need is centralizing files with reasonably fast access rather than running VMs or databases, this is a sensible middle ground between raw speed and total cost, especially paired with SSDs sized for actual working-file capacity rather than bulk archival storage.\n\nA genuine advantage here is that synology DSM's mature, well-supported software. The tradeoff is less CPU headroom than the higher-tier DXP or DS925+ units.",
     specs: [
       "2-bay diskless NAS",
       "Synology DSM software platform",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31xSdRsBUEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C8S7SF4B?tag=deskfinds0d-20",
     description:
-      "The DS925+ supports a hybrid configuration where some bays run traditional HDDs for bulk capacity while others run SSDs, or where an NVMe cache accelerates the whole array's random access speed. This flexibility matters because NVMe cache accelerates small file and random access noticeably but does little for large sequential transfers, an important distinction when deciding whether to cache or go full SSD.\n\nFor most home offices, HDD main storage with an NVMe cache captures much of the practical speed benefit of an all-SSD build at a fraction of the total cost, making the DS925+'s hybrid support genuinely useful rather than a compromise.",
+      "The DS925+ supports a hybrid configuration where some bays run traditional HDDs for bulk capacity while others run SSDs, or where an NVMe cache accelerates the whole array's random access speed. This flexibility matters because NVMe cache accelerates small file and random access noticeably but does little for large sequential transfers, an important distinction when deciding whether to cache or go full SSD.\n\nFor most home offices, HDD main storage with an NVMe cache captures much of the practical speed benefit of an all-SSD build at a fraction of the total cost, making the DS925+'s hybrid support genuinely useful rather than a compromise.\n\nNVMe cache option captures much of the speed benefit cheaply. That's a real strength, but weigh it against the flip side: highest sticker price among 4-bay picks in this list.",
     specs: [
       "4-bay diskless DiskStation",
       "Supports hybrid HDD+SSD or NVMe cache configurations",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/319qh9SJhIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FTFSGBB1?tag=deskfinds0d-20",
     description:
-      "Asustor's Drivestor 2 Gen 2 pairs a quad-core CPU and 2.5GbE networking with a genuinely entry-level price, making it the lowest-cost path into SSD-accelerated file access in this list. 2.5GbE matters here because a Gigabit Ethernet connection alone can bottleneck SSD speed before the drives themselves become the limit.\n\nIts 1GB DDR4 memory keeps it positioned for simpler file serving and light media use rather than heavy virtualization, which fits its billing as an entry-level personal cloud, buyers wanting VM hosting or database workloads should look toward the higher-tier picks in this list instead.",
+      "Asustor's Drivestor 2 Gen 2 pairs a quad-core CPU and 2.5GbE networking with a genuinely entry-level price, making it the lowest-cost path into SSD-accelerated file access in this list. 2.5GbE matters here because a Gigabit Ethernet connection alone can bottleneck SSD speed before the drives themselves become the limit.\n\nIts 1GB DDR4 memory keeps it positioned for simpler file serving and light media use rather than heavy virtualization, which fits its billing as an entry-level personal cloud, buyers wanting VM hosting or database workloads should look toward the higher-tier picks in this list instead.\n\nWorth calling out specifically: 2.5GbE avoids network-side bottlenecking of SSD speed. The catch is 1GB memory limits heavier virtualization or database use.",
     specs: [
       "2-bay diskless NAS",
       "Quad-core 1.7GHz CPU",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GmtgzH11L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHR83DX5?tag=deskfinds0d-20",
     description:
-      "The Beelink ME Pro takes a different form factor entirely, a mini PC with an Intel N95 CPU, 12GB LPDDR5 memory, and a 128GB M.2 PCIe SSD built in, plus 2 traditional hard drive bays and 3 total M.2 SSD slots for expansion. This makes it uniquely suited to an all-NVMe or hybrid NVMe-plus-HDD configuration in a smaller footprint than the tower-style 4-bay enclosures.\n\nSince SSDs generate minimal heat and no vibration compared to spinning HDDs, this kind of compact, largely fanless-capable design becomes more practical with an NVMe-heavy configuration, useful if the NAS needs to sit somewhere quiet or space-constrained like a shared home office desk.",
+      "The Beelink ME Pro takes a different form factor entirely, a mini PC with an Intel N95 CPU, 12GB LPDDR5 memory, and a 128GB M.2 PCIe SSD built in, plus 2 traditional hard drive bays and 3 total M.2 SSD slots for expansion. This makes it uniquely suited to an all-NVMe or hybrid NVMe-plus-HDD configuration in a smaller footprint than the tower-style 4-bay enclosures.\n\nSince SSDs generate minimal heat and no vibration compared to spinning HDDs, this kind of compact, largely fanless-capable design becomes more practical with an NVMe-heavy configuration, useful if the NAS needs to sit somewhere quiet or space-constrained like a shared home office desk.\n\n3 M.2 SSD slots support a heavily NVMe-oriented build. Set against that, fewer traditional hard drive bays than dedicated 4-bay NAS units. Both matter when comparing it to the other picks here.",
     specs: [
       "Intel N95 CPU, 12GB LPDDR5 memory",
       "128GB M.2 PCIe 3.0 SSD built in",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ACKzpdVoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FNWHSPXF?tag=deskfinds0d-20",
     description:
-      "The DH2300 rounds out this list as the most basic 2-bay diskless option, supporting up to 64TB total once you install your own drives, SSD or HDD. It's a reasonable starting point for buyers who want the option to install SSDs for faster file access later without committing to a higher-tier CPU they may not need.\n\nAs with every diskless enclosure here, check whether the CPU can actually keep pace with SSD speeds before assuming an upgrade will deliver its full theoretical benefit, an underpowered NAS CPU is often the real bottleneck once HDDs are swapped for SSDs.",
+      "The DH2300 rounds out this list as the most basic 2-bay diskless option, supporting up to 64TB total once you install your own drives, SSD or HDD. It's a reasonable starting point for buyers who want the option to install SSDs for faster file access later without committing to a higher-tier CPU they may not need.\n\nAs with every diskless enclosure here, check whether the CPU can actually keep pace with SSD speeds before assuming an upgrade will deliver its full theoretical benefit, an underpowered NAS CPU is often the real bottleneck once HDDs are swapped for SSDs.\n\nA genuine advantage here is that flexible to install SSDs now or later. The tradeoff is cPU headroom may bottleneck true SSD-speed throughput.",
     specs: [
       "2-bay diskless desktop NAS",
       "Supports up to 64TB total (drives sold separately)",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "NVMe cache and all-SSD main storage solve different problems",
-    explanation:
-      "An NVMe cache accelerates random reads and writes, useful for databases, VM hosting, and small file access, but it does not meaningfully speed up large sequential file transfers. All-SSD main bays act as true high-speed primary storage across every workload type including sequential transfers. Buy cache if your bottleneck is random access latency; buy all-SSD if you need speed across the board.",
+    "criterion": "Remember every listed NAS here is diskless, budget drives separately",
+    "explanation": "The price shown for a NAS enclosure covers the hardware chassis, CPU, and RAM only, not the actual storage drives, NAS-grade drives built for 24/7 operation like Seagate IronWolf or WD Red still need to be budgeted on top, often adding $80 to $200 or more per bay depending on capacity and drive type.\n\nThis matters because comparing NAS units purely by enclosure price without factoring in drive cost gives a misleading picture of the real total investment, a cheaper enclosure with more bays to fill can end up costing more overall than a pricier enclosure with fewer bays.\n\nCheck whether a listing is diskless or ships with drives included, and add realistic per-bay drive costs to the enclosure price before comparing total cost across options."
   },
   {
-    criterion: "SSD endurance matters far more in a 24/7 NAS than a desktop PC",
-    explanation:
-      "Consumer SATA SSDs are designed around typical PC usage patterns and carry a limited total-bytes-written (TBW) rating. NAS-specific SSDs are built for continuous 24/7 operation with meaningfully higher endurance ratings. Using consumer SSDs in a NAS is common and works, but it accelerates wear compared to NAS-rated drives, worth factoring into a replacement timeline.",
+    "criterion": "Weigh CPU class and RAM over bay count for real day-to-day performance",
+    "explanation": "Bay count determines maximum storage capacity, but CPU architecture (Intel, AMD, or ARM) and RAM amount determine how well the NAS actually handles real workloads, running apps, transcoding media on the fly, or serving multiple simultaneous users, and a higher bay count with a weak CPU can bottleneck performance regardless of how much raw storage it holds.\n\nThis matters more the more the NAS will do beyond simple file storage, like Plex transcoding or running multiple docker containers, less if it's purely a basic backup target.\n\nCheck the specific CPU model and RAM amount (and whether RAM is upgradeable) rather than choosing primarily by bay count."
   },
   {
-    criterion: "Do the cost-per-TB math honestly before going all-SSD",
-    explanation:
-      "HDDs remain far cheaper per terabyte than SATA SSDs or NVMe drives. Whether the speed premium of SSD justifies that cost gap depends entirely on your actual workload, a home media library rarely needs it, while VM hosting or database work often does. Calculate the full cost including all bays before assuming all-SSD is worth it.",
+    "criterion": "Understand RAID as a rebuild-time safety net, not a substitute for real backup",
+    "explanation": "RAID configurations protect against a single drive failure by letting the array rebuild from redundant data, but RAID is not a backup, it does nothing to protect against accidental deletion, ransomware, theft, fire, or a controller failure that affects the whole array at once.\n\nThis distinction matters because treating RAID redundancy as sufficient backup protection is a common and genuinely risky misunderstanding, a real backup strategy needs a copy of critical data stored somewhere physically separate from the NAS itself.\n\nCheck what RAID level a given NAS supports, and separately plan an actual backup strategy, ideally following a 3-2-1 approach, rather than relying on RAID redundancy alone."
   },
   {
-    criterion: "SSD NAS runs cooler and quieter than HDD NAS",
-    explanation:
-      "Spinning HDD platters and motors generate real heat and vibration, while SSDs generate very little of either. For a fanless or near-silent NAS placed in a tight home office space, an SSD-heavy configuration allows more passive cooling than an HDD-based build can achieve, a real consideration if the NAS sits on or near your desk.",
+    "criterion": "Match drive type (HDD vs SSD/NVMe) to your actual access pattern",
+    "explanation": "Traditional hard drives offer the lowest cost per terabyte for bulk storage like media libraries or backups, while SSD or NVMe-based NAS storage costs significantly more per terabyte but delivers much faster random access speeds, genuinely useful for frequently-accessed files, active project work, or serving as a fast cache tier.\n\nThis matters directly based on how you'll actually use the storage, a media library accessed sequentially benefits little from SSD speed, while an active working file share benefits considerably.\n\nCheck whether the NAS supports the drive type you need, and weigh the real cost-per-terabyte difference against how much you'll actually benefit from faster random access."
   },
   {
-    criterion: "Know when all-SSD NAS is actually worth it",
-    explanation:
-      "All-SSD makes sense for VM hosting, database servers, a NAS acting as a Plex metadata store, or a small office with many simultaneous users hitting the array at once. It's usually not worth it for home media streaming, a backup destination, or a large capacity photo archive, an HDD NAS paired with an NVMe cache captures most of the practical speed benefit at a fraction of the cost.",
-  },
-  {
-    criterion: "Network bandwidth can bottleneck SSD speed before the drives do",
-    explanation:
-      "A standard Gigabit Ethernet connection caps real-world transfer speed well below what SSDs installed in the NAS are capable of delivering. A 2.5GbE connection, available on several picks in this list, removes that network-side bottleneck and is worth prioritizing if you're specifically paying for SSD speed.",
-  },
+    "criterion": "Consider noise level if the NAS will run continuously in a shared living or office space",
+    "explanation": "A NAS that runs 24/7 generates continuous fan and drive noise, and that noise profile varies meaningfully between models, some use larger, slower-spinning fans that stay genuinely quiet, while others rely on smaller, faster fans that produce a persistent whine noticeable in a quiet room.\n\nThis matters a great deal if the NAS will sit in a bedroom, living room, or shared home office rather than a dedicated closet or basement out of earshot.\n\nCheck reviews specifically for real-world noise level mentions during continuous operation, not just idle noise, since drive activity and fan speed both increase under load."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,67 +359,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Workload Type",
-    intro:
-      "Whether NVMe cache or all-SSD storage makes sense depends entirely on the kind of file access your workload actually does.",
-    table: {
-      headers: ["Workload", "Speed approach", "Best pick"],
-      rows: [
-        ["VM hosting, database servers", "All-SSD main storage across all bays", "UGREEN DXP4800 Plus or DXP4800 Pro"],
-        ["Active photo/video project editing", "2-bay all-SSD RAID 1", "UGREEN DXP2800"],
-        ["Home media streaming, backup archive", "HDD main storage, skip SSD entirely", "Synology DS925+ (hybrid capable)"],
-        ["Multiple simultaneous office users", "All-SSD with strong CPU headroom", "UGREEN DXP4800 Pro"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "UGREEN NAS DXP4800 Plus 4"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "UGREEN NAS DXP4800 Plus 4"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget for the Full Build",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $200",
+          "Asustor Drivestor 2 Gen 2 AS1202T 2"
+        ],
+        [
+          "Up to $700",
+          "Synology DS925+ 4"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Diskless Enclosure vs Drives Included",
+    "cards": [
       {
-        label: "Cheapest path to SSD-ready storage",
-        text: "The Asustor Drivestor 2 Gen 2 or UGREEN DH2300 offer entry-level pricing with 2.5GbE or basic SSD compatibility for buyers not ready to commit to a 4-bay all-SSD build.",
+        "label": "Diskless enclosure",
+        "text": "Lets you choose your own NAS-grade drives and capacity, but budget $80-200+ per bay separately. In this comparison: UGREEN NAS DXP4800 Plus 4, UGREEN NAS DXP4800 Pro 4, UGREEN NAS DXP2800 2, Synology DS223 2, Synology DS925+ 4, Asustor Drivestor 2 Gen 2 AS1202T 2, UGREEN NAS DH2300 2."
       },
       {
-        label: "Mid-range hybrid flexibility",
-        text: "The Synology DS925+ lets you mix HDD capacity with SSD or NVMe cache, avoiding an all-or-nothing SSD commitment.",
-      },
-      {
-        label: "Full all-SSD build, cost no object",
-        text: "The UGREEN DXP4800 Pro's higher CPU and memory tier makes the most of an all-SSD 4-bay build for demanding workloads.",
-      },
+        "label": "Drives included",
+        "text": "Ready to use out of the box, simpler for a first NAS purchase. In this comparison: Beelink ME Pro Mini PC NAS."
+      }
     ],
+    "note": "Default to diskless if you want control over drive choice and capacity, drives-included for the simplest setup."
   },
   {
-    subheading: "By Form Factor and Placement",
-    intro:
-      "Not every fast-access NAS needs to be a tower-style 4-bay enclosure.",
-    table: {
-      headers: ["Placement need", "Form factor", "Best pick"],
-      rows: [
-        ["Compact desk-adjacent placement, quiet operation", "Mini PC with M.2 slots", "Beelink ME Pro Mini PC NAS"],
-        ["Standard home office NAS footprint", "2-bay or 4-bay tower enclosure", "UGREEN DXP2800 or Synology DS223"],
-        ["Maximum bay count and expansion room", "4-bay tower with hybrid support", "Synology DS925+"],
-      ],
-    },
+    "subheading": "By CPU and RAM",
+    "note": "Check each pick's listed CPU architecture and RAM amount against your actual workload before buying, not just bay count alone. UGREEN NAS DXP4800 Plus 4 is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Network Bandwidth Check Before Buying",
-    note: "If your goal is genuinely fast SSD-speed file access, confirm the NAS has at least 2.5GbE networking, standard Gigabit Ethernet will bottleneck real-world transfer speeds well below what the SSDs themselves can deliver, undermining the reason you bought SSDs in the first place.",
+    "subheading": "For Media Streaming or Plex Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A CPU capable of hardware transcoding and enough RAM to handle multiple simultaneous streams, not just total bay count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "UGREEN NAS DXP4800 Plus 4 is worth checking against its listed CPU and RAM before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "When to Skip SSD Entirely",
-    intro:
-      "SSD NAS is not automatically the right answer, even in this guide's own product list.",
-    table: {
-      headers: ["Use case", "Recommendation"],
-      rows: [
-        ["Home media streaming (Plex, DLNA)", "HDD main storage, NVMe cache optional, skip all-SSD"],
-        ["Backup destination for other devices", "HDD main storage, all-SSD unnecessary"],
-        ["Large capacity photo/video archive", "HDD main storage, all-SSD adds cost without proportional benefit"],
-        ["VM hosting, database, high concurrent users", "All-SSD main storage genuinely worth the cost"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real multi-user performance, media transcoding, or business-critical reliability, where Synology DS925+ 4's CPU and RAM give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need simple backup storage for one or two users, where Asustor Drivestor 2 Gen 2 AS1202T 2 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

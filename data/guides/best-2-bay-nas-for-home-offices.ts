@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21VvdqtKHoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BRNBVTJK?tag=deskfinds0d-20",
     description:
-      "The Synology DS223 is built around centralizing home office file backup and basic property monitoring in one diskless 2-bay unit, running Synology's DSM software that most first-time NAS buyers find the easiest to learn. It's a value-series model, which keeps the price down but means its RAM is soldered rather than upgradeable.\n\nBuyers should budget for 2 compatible drives on top of the enclosure price, and note that Synology's 2024+ Plus-series models show compatibility warnings for non-Synology drives; the DS223 is more permissive but worth verifying against current drive compatibility lists before buying.",
+      "The Synology DS223 is built around centralizing home office file backup and basic property monitoring in one diskless 2-bay unit, running Synology's DSM software that most first-time NAS buyers find the easiest to learn. It's a value-series model, which keeps the price down but means its RAM is soldered rather than upgradeable.\n\nBuyers should budget for 2 compatible drives on top of the enclosure price, and note that Synology's 2024+ Plus-series models show compatibility warnings for non-Synology drives; the DS223 is more permissive but worth verifying against current drive compatibility lists before buying.\n\nSolid all-around home office backup features. That's a real strength, but weigh it against the flip side: soldered RAM, no upgrade path if you add more apps later.",
     specs: [
       "2-bay diskless NAS",
       "DSM operating system",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ccz6M7cCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D22HBFK1?tag=deskfinds0d-20",
     description:
-      "UGREEN positions the DXP2800 specifically toward content creators and enthusiasts, and its hardware backs that up with enough processing headroom for photo and video workflows beyond basic file storage. It's diskless, so buyers add their own drives to reach usable capacity.\n\nIts UGREEN NAS OS is newer than Synology's DSM or QNAP's QTS, which means a smaller app ecosystem today but active development. Buyers wanting the most mature software experience should weigh that against its stronger hardware for creative work.",
+      "UGREEN positions the DXP2800 specifically toward content creators and enthusiasts, and its hardware backs that up with enough processing headroom for photo and video workflows beyond basic file storage. It's diskless, so buyers add their own drives to reach usable capacity.\n\nIts UGREEN NAS OS is newer than Synology's DSM or QNAP's QTS, which means a smaller app ecosystem today but active development. Buyers wanting the most mature software experience should weigh that against its stronger hardware for creative work.\n\nWorth calling out specifically: actively developed UGREEN NAS OS. The catch is smaller software ecosystem than Synology or QNAP.",
     specs: [
       "2-bay diskless NAS",
       "UGREEN NAS OS",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21+Y7Nr2xAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTWWJK9V?tag=deskfinds0d-20",
     description:
-      "The TS-264 ships with a substantial 8GB of RAM out of the box, well ahead of most 2-bay competitors that ship with 1-2GB and expect an upgrade purchase later. That headroom matters if you plan to run Plex, Surveillance Station-style apps, or several containers at once.\n\nQNAP's QTS software has a mature app store, and this Plus-tier unit is built for buyers who know upfront they'll want to expand functionality rather than deciding later and hitting a RAM ceiling.",
+      "The TS-264 ships with a substantial 8GB of RAM out of the box, well ahead of most 2-bay competitors that ship with 1-2GB and expect an upgrade purchase later. That headroom matters if you plan to run Plex, Surveillance Station-style apps, or several containers at once.\n\nQNAP's QTS software has a mature app store, and this Plus-tier unit is built for buyers who know upfront they'll want to expand functionality rather than deciding later and hitting a RAM ceiling.\n\nMature QTS app ecosystem. Set against that, highest price among the value-tier options in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "2-bay desktop NAS",
       "8GB RAM included",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21lrHwmtuBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GN3YJN2F?tag=deskfinds0d-20",
     description:
-      "The TS-216G bakes in 2.5GbE networking at a price close to standard Gigabit-only competitors, which matters because a 2.5GbE NAS only shows real speed gains if your router or switch also supports 2.5GbE, an extra $40-80 cost many buyers don't budget for upfront.\n\nIt runs QNAP's QTS software with the same app ecosystem as QNAP's higher-tier units, giving buyers a reasonably capable software experience without QNAP's most expensive hardware tier.",
+      "The TS-216G bakes in 2.5GbE networking at a price close to standard Gigabit-only competitors, which matters because a 2.5GbE NAS only shows real speed gains if your router or switch also supports 2.5GbE, an extra $40-80 cost many buyers don't budget for upfront.\n\nIt runs QNAP's QTS software with the same app ecosystem as QNAP's higher-tier units, giving buyers a reasonably capable software experience without QNAP's most expensive hardware tier.\n\nA genuine advantage here is that same mature QTS app ecosystem as pricier QNAP units. The tradeoff is 2.5GbE speed gains require a compatible router or switch.",
     specs: [
       "2-bay desktop NAS",
       "2.5GbE networking",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/319qh9SJhIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FTFSGBB1?tag=deskfinds0d-20",
     description:
-      "Asustor markets the Drivestor 2 Gen 2 as its best entry-level personal cloud option, and the price backs that framing up as the cheapest true 2-bay diskless NAS in this list. A quad-core 1.7GHz CPU and 2.5GbE networking are strong specs to find this low in the lineup.\n\nIts 1GB of DDR4 RAM is soldered and on the lean side for running much beyond basic file sharing and 4K media serving, so buyers planning to layer on Plex or multiple containers should budget for a step up rather than expecting this unit to grow with them.",
+      "Asustor markets the Drivestor 2 Gen 2 as its best entry-level personal cloud option, and the price backs that framing up as the cheapest true 2-bay diskless NAS in this list. A quad-core 1.7GHz CPU and 2.5GbE networking are strong specs to find this low in the lineup.\n\nIts 1GB of DDR4 RAM is soldered and on the lean side for running much beyond basic file sharing and 4K media serving, so buyers planning to layer on Plex or multiple containers should budget for a step up rather than expecting this unit to grow with them.\n\n2.5GbE built in even at this price point. That's a real strength, but weigh it against the flip side: 1GB RAM is soldered, no upgrade path.",
     specs: [
       "2-bay diskless NAS",
       "Quad-core 1.7GHz CPU",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ejB5cFDGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHVZ53RN?tag=deskfinds0d-20",
     description:
-      "TERRAMASTER pairs an Intel x86 quad-core CPU with 4GB of RAM in the F2-425, giving it more raw processing power at this price than most ARM-based 2-bay competitors, which matters for transcoding and running multiple background services smoothly.\n\n2.5GbE networking is included, and TERRAMASTER's TOS software is functional if less polished than Synology's DSM, a fair trade-off for buyers prioritizing hardware specs over software refinement at this price.",
+      "TERRAMASTER pairs an Intel x86 quad-core CPU with 4GB of RAM in the F2-425, giving it more raw processing power at this price than most ARM-based 2-bay competitors, which matters for transcoding and running multiple background services smoothly.\n\n2.5GbE networking is included, and TERRAMASTER's TOS software is functional if less polished than Synology's DSM, a fair trade-off for buyers prioritizing hardware specs over software refinement at this price.\n\nWorth calling out specifically: 4GB RAM is generous for this price tier. The catch is tOS software is less refined than Synology DSM.",
     specs: [
       "2-bay diskless NAS",
       "Intel x86 quad-core CPU",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ACKzpdVoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FNWHSPXF?tag=deskfinds0d-20",
     description:
-      "The DH2300 matches the Asustor Drivestor 2 on price while supporting up to 64TB of total capacity across its two bays, giving buyers room to grow into larger drives down the road without replacing the enclosure. It's a diskless unit, so both drives are a separate purchase.\n\nAs with the DXP2800 above it, UGREEN's NAS OS is newer than Synology or QNAP's software, a reasonable trade for buyers focused on hardware capacity and price rather than the most mature app ecosystem.",
+      "The DH2300 matches the Asustor Drivestor 2 on price while supporting up to 64TB of total capacity across its two bays, giving buyers room to grow into larger drives down the road without replacing the enclosure. It's a diskless unit, so both drives are a separate purchase.\n\nAs with the DXP2800 above it, UGREEN's NAS OS is newer than Synology or QNAP's software, a reasonable trade for buyers focused on hardware capacity and price rather than the most mature app ecosystem.\n\nMatches the cheapest entry-level price in this list. Set against that, smaller app ecosystem than Synology or QNAP. Both matter when comparing it to the other picks here.",
     specs: [
       "2-bay desktop NAS",
       "Supports up to 64TB total capacity",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21nJ2B4QOLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CBTVMMLB?tag=deskfinds0d-20",
     description:
-      "The DS725+ is Synology's Plus-series 2-bay unit, meaning it carries upgradeable DDR4 RAM rather than the soldered memory found on value-series models like the DS223. That distinction matters directly if you plan to add Plex, Surveillance Station, or other memory-hungry apps down the line.\n\nAs a private cloud unit built for home and small business use, it's also expandable via Synology's expansion units for buyers who outgrow 2 bays. Buyers should verify current drive compatibility, since Synology's 2024+ Plus-series models flag non-Synology drives with compatibility warnings.",
+      "The DS725+ is Synology's Plus-series 2-bay unit, meaning it carries upgradeable DDR4 RAM rather than the soldered memory found on value-series models like the DS223. That distinction matters directly if you plan to add Plex, Surveillance Station, or other memory-hungry apps down the line.\n\nAs a private cloud unit built for home and small business use, it's also expandable via Synology's expansion units for buyers who outgrow 2 bays. Buyers should verify current drive compatibility, since Synology's 2024+ Plus-series models flag non-Synology drives with compatibility warnings.\n\nA genuine advantage here is that expandable beyond 2 bays as storage needs grow. The tradeoff is most expensive pick in this list.",
     specs: [
       "2-bay diskless NAS, Plus-series",
       "Upgradeable DDR4 RAM",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Budget the enclosure plus drives plus network gear",
-    explanation:
-      "A $200 diskless NAS plus two 4TB drives at roughly $100 each puts the true cost closer to $400 before setup, and a 2.5GbE model needs a compatible router or switch, another $40-80, to actually see faster speeds. Price the whole system, not just the enclosure.",
+    "criterion": "Remember every listed NAS here is diskless, budget drives separately",
+    "explanation": "The price shown for a NAS enclosure covers the hardware chassis, CPU, and RAM only, not the actual storage drives, NAS-grade drives built for 24/7 operation like Seagate IronWolf or WD Red still need to be budgeted on top, often adding $80 to $200 or more per bay depending on capacity and drive type.\n\nThis matters because comparing NAS units purely by enclosure price without factoring in drive cost gives a misleading picture of the real total investment, a cheaper enclosure with more bays to fill can end up costing more overall than a pricier enclosure with fewer bays.\n\nCheck whether a listing is diskless or ships with drives included, and add realistic per-bay drive costs to the enclosure price before comparing total cost across options."
   },
   {
-    criterion: "Soldered RAM is a future upgrade trap",
-    explanation:
-      "Value-series models like the DS223 or Drivestor 2 ship with 1-2GB of soldered RAM that can't be expanded later. If you plan to add Plex, Surveillance Station, or run multiple containers down the road, a Plus-series model with upgradeable DDR4 avoids buying a second NAS later.",
+    "criterion": "Weigh CPU class and RAM over bay count for real day-to-day performance",
+    "explanation": "Bay count determines maximum storage capacity, but CPU architecture (Intel, AMD, or ARM) and RAM amount determine how well the NAS actually handles real workloads, running apps, transcoding media on the fly, or serving multiple simultaneous users, and a higher bay count with a weak CPU can bottleneck performance regardless of how much raw storage it holds.\n\nThis matters more the more the NAS will do beyond simple file storage, like Plex transcoding or running multiple docker containers, less if it's purely a basic backup target.\n\nCheck the specific CPU model and RAM amount (and whether RAM is upgradeable) rather than choosing primarily by bay count."
   },
   {
-    criterion: "RAID 1 halves your usable capacity, do the math upfront",
-    explanation:
-      "Two 4TB drives in RAID 1 give you 4TB usable, not 8TB, since the second drive mirrors the first for redundancy. If you actually need 8TB usable, you need either JBOD with no redundancy or a 4-bay NAS instead of a 2-bay unit.",
+    "criterion": "Understand RAID as a rebuild-time safety net, not a substitute for real backup",
+    "explanation": "RAID configurations protect against a single drive failure by letting the array rebuild from redundant data, but RAID is not a backup, it does nothing to protect against accidental deletion, ransomware, theft, fire, or a controller failure that affects the whole array at once.\n\nThis distinction matters because treating RAID redundancy as sufficient backup protection is a common and genuinely risky misunderstanding, a real backup strategy needs a copy of critical data stored somewhere physically separate from the NAS itself.\n\nCheck what RAID level a given NAS supports, and separately plan an actual backup strategy, ideally following a 3-2-1 approach, rather than relying on RAID redundancy alone."
   },
   {
-    criterion: "Check drive compatibility before buying, especially Synology",
-    explanation:
-      "Synology's 2024+ Plus-series NAS units show compatibility warnings for non-Synology-branded drives, even ones that work fine. Synology-branded drives avoid the warning but cost 15-30% more, so factor that into your true cost comparison if you're set on a Plus-series Synology unit.",
+    "criterion": "Match drive type (HDD vs SSD/NVMe) to your actual access pattern",
+    "explanation": "Traditional hard drives offer the lowest cost per terabyte for bulk storage like media libraries or backups, while SSD or NVMe-based NAS storage costs significantly more per terabyte but delivers much faster random access speeds, genuinely useful for frequently-accessed files, active project work, or serving as a fast cache tier.\n\nThis matters directly based on how you'll actually use the storage, a media library accessed sequentially benefits little from SSD speed, while an active working file share benefits considerably.\n\nCheck whether the NAS supports the drive type you need, and weigh the real cost-per-terabyte difference against how much you'll actually benefit from faster random access."
   },
   {
-    criterion: "2.5GbE only helps if your network supports it",
-    explanation:
-      "A 2.5GbE NAS connected to a standard Gigabit router or switch will only transfer at Gigabit speeds. Confirm your router or switch supports 2.5GbE, or budget for one, before paying extra for 2.5GbE NAS hardware.",
-  },
-  {
-    criterion: "Consider a simpler single-drive option for basic backup only",
-    explanation:
-      "If you just need automatic backup for one or two computers with no redundancy requirement, a single-drive, cloud-connected NAS with no RAID and no drive purchasing decisions is genuinely simpler. A traditional diskless 2-bay NAS makes more sense once multiple users or drive redundancy matter.",
-  },
+    "criterion": "Consider noise level if the NAS will run continuously in a shared living or office space",
+    "explanation": "A NAS that runs 24/7 generates continuous fan and drive noise, and that noise profile varies meaningfully between models, some use larger, slower-spinning fans that stay genuinely quiet, while others rely on smaller, faster fans that produce a persistent whine noticeable in a quiet room.\n\nThis matters a great deal if the NAS will sit in a bedroom, living room, or shared home office rather than a dedicated closet or basement out of earshot.\n\nCheck reviews specifically for real-world noise level mentions during continuous operation, not just idle noise, since drive activity and fan speed both increase under load."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,64 +359,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By True All-In Budget",
-    intro:
-      "Enclosure price alone is misleading; here's what each tier actually costs once drives are added.",
-    table: {
-      headers: ["Budget tier", "All-in cost estimate", "Best pick"],
-      rows: [
-        ["Cheapest true 2-bay setup", "~$400 (enclosure + 2 drives)", "Asustor Drivestor 2 Gen 2, UGREEN DH2300"],
-        ["Mid-range with 2.5GbE", "~$500 (enclosure + drives + switch if needed)", "QNAP TS-216G-US"],
-        ["RAM-included, no upgrade purchase", "~$690 (8GB RAM built in)", "QNAP TS-264-8G-US"],
-        ["Expandable small business setup", "~$720+ (Plus-series + drives)", "Synology DS725+"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Synology DS223 Home & Office Backup Hub"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Synology DS223 Home & Office Backup Hub"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Whether You'll Add Apps Later",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $200",
+          "Asustor Drivestor 2 Gen 2"
+        ],
+        [
+          "Up to $520",
+          "Synology DS725+ Expandable NAS"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Bay Count vs Price",
+    "cards": [
       {
-        label: "Just want basic file backup and sharing",
-        text: "The Synology DS223 or Asustor Drivestor 2 handle this well; soldered RAM isn't a real limitation for basic use.",
+        "label": "Asustor Drivestor 2 Gen 2",
+        "text": "The lower-priced option in this comparison, worth checking its CPU and RAM against your actual workload."
       },
       {
-        label: "Plan to add Plex or Surveillance Station eventually",
-        text: "Choose upgradeable RAM upfront with the Synology DS725+ or the RAM-included QNAP TS-264-8G-US rather than hitting a soldered-RAM ceiling later.",
-      },
-      {
-        label: "Doing photo or video editing workflows",
-        text: "The UGREEN DXP2800 is built with content creators specifically in mind and has the processing headroom to match.",
-      },
+        "label": "Synology DS725+ Expandable NAS",
+        "text": "The higher-priced option, worth it if it offers real bay count or performance headroom above the cheaper pick."
+      }
     ],
+    "note": "Default to Asustor Drivestor 2 Gen 2 unless your storage needs genuinely call for the pricier pick."
   },
   {
-    subheading: "RAID 1 Usable Capacity Reality Check",
-    intro:
-      "RAID 1 mirrors your data across both drives for redundancy, which means your usable capacity is half your total drive capacity, not the sum.",
-    table: {
-      headers: ["2 drives purchased", "RAID 1 usable capacity", "Note"],
-      rows: [
-        ["2x 4TB", "4TB usable", "Standard home office redundancy setup"],
-        ["2x 8TB", "8TB usable", "Better cost-per-TB if you need more space"],
-        ["Need 8TB+ with no redundancy tradeoff", "Consider JBOD or a 4-bay NAS", "RAID 1 always costs you half your raw capacity"],
-      ],
-    },
+    "subheading": "By CPU and RAM",
+    "note": "Check each pick's listed CPU architecture and RAM amount against your actual workload before buying, not just bay count alone. Synology DS223 Home & Office Backup Hub is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "By Software Ecosystem Preference",
-    intro:
-      "Each brand's operating system has a real learning curve and app ecosystem difference worth knowing before you commit.",
-    table: {
-      headers: ["Priority", "OS to look for", "Best pick"],
-      rows: [
-        ["Easiest software for a first NAS", "Synology DSM", "Synology DS223, Synology DS725+"],
-        ["Most mature third-party app store", "QNAP QTS", "QNAP TS-216G-US, QNAP TS-264-8G-US"],
-        ["Willing to trade polish for hardware value", "TerraMaster TOS", "TERRAMASTER F2-425"],
-        ["Newer OS, actively developed, strong hardware", "UGREEN NAS OS", "UGREEN DXP2800, UGREEN DH2300"],
-      ],
-    },
-    note: "If you're set on a Synology Plus-series model, verify current drive compatibility lists before buying drives separately; 2024+ models flag non-Synology drives with compatibility warnings even when they otherwise work.",
+    "subheading": "For Media Streaming or Plex Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A CPU capable of hardware transcoding and enough RAM to handle multiple simultaneous streams, not just total bay count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Synology DS223 Home & Office Backup Hub is worth checking against its listed CPU and RAM before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real multi-user performance, media transcoding, or business-critical reliability, where Synology DS725+ Expandable NAS's CPU and RAM give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need simple backup storage for one or two users, where Asustor Drivestor 2 Gen 2 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

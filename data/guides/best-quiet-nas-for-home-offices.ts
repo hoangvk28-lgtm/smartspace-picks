@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21VvdqtKHoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BRNBVTJK?tag=deskfinds0d-20",
     description:
-      "The Synology DS223 pairs Synology's well-tuned fan curve with a 2-bay design, which matters because in real-world use the spinning drives you install typically contribute more audible noise than the fan itself. Synology's DSM software also lets you schedule intensive tasks like backups for overnight hours when they're least disruptive.\n\nIt centralizes file backup, protects data, and can monitor a property, all from a compact enclosure suited to sitting on or near a desk. Since drive noise dominates over fan noise on any 2-bay unit, pairing it with quieter NAS-rated drives makes a bigger difference here than chasing a slightly lower fan dB rating alone.",
+      "The Synology DS223 pairs Synology's well-tuned fan curve with a 2-bay design, which matters because in real-world use the spinning drives you install typically contribute more audible noise than the fan itself. Synology's DSM software also lets you schedule intensive tasks like backups for overnight hours when they're least disruptive.\n\nIt centralizes file backup, protects data, and can monitor a property, all from a compact enclosure suited to sitting on or near a desk. Since drive noise dominates over fan noise on any 2-bay unit, pairing it with quieter NAS-rated drives makes a bigger difference here than chasing a slightly lower fan dB rating alone.\n\nCan schedule noisy tasks like backups for off-hours. That's a real strength, but weigh it against the flip side: diskless, drives sold separately add to total cost.",
     specs: [
       "2-bay diskless NAS",
       "Synology DSM software",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GmtgzH11L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHR83DX5?tag=deskfinds0d-20",
     description:
-      "The Beelink ME Pro takes a different approach to quiet operation, an Intel N95 low-power CPU built for mini PC efficiency rather than a full NAS-class processor, paired with 3 M.2 SSD slots alongside its 2 hard drive bays. Loading it with M.2 SSDs instead of spinning HDDs gets noise close to silent, since SSD storage adds essentially zero mechanical noise.\n\nThat flexibility comes at a tradeoff familiar to fanless and low-power NAS builds: higher cost per TB and a lower practical capacity ceiling than a dedicated multi-bay NAS chassis, so it suits buyers prioritizing silence over maximum storage.",
+      "The Beelink ME Pro takes a different approach to quiet operation, an Intel N95 low-power CPU built for mini PC efficiency rather than a full NAS-class processor, paired with 3 M.2 SSD slots alongside its 2 hard drive bays. Loading it with M.2 SSDs instead of spinning HDDs gets noise close to silent, since SSD storage adds essentially zero mechanical noise.\n\nThat flexibility comes at a tradeoff familiar to fanless and low-power NAS builds: higher cost per TB and a lower practical capacity ceiling than a dedicated multi-bay NAS chassis, so it suits buyers prioritizing silence over maximum storage.\n\nWorth calling out specifically: low-power CPU runs cooler and quieter than full NAS processors. The catch is higher cost per TB than a traditional HDD-based NAS.",
     specs: [
       "Intel N95 CPU, 12GB LPDDR5, 128GB M.2 PCIe 3.0 SSD",
       "2 hard drive bays + 3 M.2 SSD slots",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ejB5cFDGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHVZ53RN?tag=deskfinds0d-20",
     description:
-      "The F2-425 pairs an Intel x86 quad-core CPU and 4GB RAM with 2.5GbE networking, letting large backup and media transfers finish faster, which shortens the total window of load noise compared to a slower gigabit connection doing the same job. A shorter high-load period means less total time spent at the higher, load-level dB your desk actually hears.\n\nBuilt for home users with multimedia server needs, it handles transcoding and file serving duties well while keeping the enclosure compact enough to place discreetly near a desk or on a nearby shelf.",
+      "The F2-425 pairs an Intel x86 quad-core CPU and 4GB RAM with 2.5GbE networking, letting large backup and media transfers finish faster, which shortens the total window of load noise compared to a slower gigabit connection doing the same job. A shorter high-load period means less total time spent at the higher, load-level dB your desk actually hears.\n\nBuilt for home users with multimedia server needs, it handles transcoding and file serving duties well while keeping the enclosure compact enough to place discreetly near a desk or on a nearby shelf.\n\nQuad-core Intel CPU handles transcoding without excess strain. Set against that, diskless, drives add to total cost. Both matter when comparing it to the other picks here.",
     specs: [
       "2-bay NAS, diskless",
       "Intel x86 quad-core CPU, 4GB RAM",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ccz6M7cCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D22HBFK1?tag=deskfinds0d-20",
     description:
-      "UGREEN built the DXP2800 for content creators moving large video files, which means it's engineered with cooling headroom that lets its fan run at a lower, steadier speed under sustained load rather than spinning up aggressively the way undersized cooling systems do. A stable, moderate fan speed under real work is generally less noticeable than a fan that surges up and down.\n\nAt this price point you're paying for that extra performance headroom as much as for storage capacity, a fair tradeoff for anyone regularly editing or transferring large media files near their desk.",
+      "UGREEN built the DXP2800 for content creators moving large video files, which means it's engineered with cooling headroom that lets its fan run at a lower, steadier speed under sustained load rather than spinning up aggressively the way undersized cooling systems do. A stable, moderate fan speed under real work is generally less noticeable than a fan that surges up and down.\n\nAt this price point you're paying for that extra performance headroom as much as for storage capacity, a fair tradeoff for anyone regularly editing or transferring large media files near their desk.\n\nA genuine advantage here is that strong performance for large media file workflows. The tradeoff is higher price than basic 2-bay diskless units.",
     specs: [
       "2-bay NAS, diskless",
       "Content-creator oriented performance",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/319qh9SJhIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FTFSGBB1?tag=deskfinds0d-20",
     description:
-      "The Drivestor 2 Gen 2 is Asustor's entry-level personal cloud NAS, built around a quad-core 1.7GHz CPU and 2.5GbE networking at a price well under the content-creator-class picks in this list. A smaller, simpler NAS like this generally runs a smaller fan under lighter loads than a high-performance unit doing 4K transcoding constantly.\n\nIt's a reasonable starting point for a home office that mainly needs reliable backup and occasional media serving rather than heavy daily transcoding, keeping both cost and typical noise output on the lower end.",
+      "The Drivestor 2 Gen 2 is Asustor's entry-level personal cloud NAS, built around a quad-core 1.7GHz CPU and 2.5GbE networking at a price well under the content-creator-class picks in this list. A smaller, simpler NAS like this generally runs a smaller fan under lighter loads than a high-performance unit doing 4K transcoding constantly.\n\nIt's a reasonable starting point for a home office that mainly needs reliable backup and occasional media serving rather than heavy daily transcoding, keeping both cost and typical noise output on the lower end.\n\n2.5GbE networking at a budget price point. That's a real strength, but weigh it against the flip side: 1GB RAM is limiting for heavier multitasking.",
     specs: [
       "2-bay NAS, diskless",
       "Quad-core 1.7GHz CPU",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ACKzpdVoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FNWHSPXF?tag=deskfinds0d-20",
     description:
-      "The DH2300 is a straightforward 2-bay desktop NAS supporting up to 64TB across its 2 bays, aimed at buyers who want simple, reliable storage rather than a heavy-duty content-creation workstation. Its more modest internals mean it doesn't need to push fan speeds as hard under typical home office backup workloads.\n\nAnti-vibration design matters more than most buyers expect here: placing any desktop NAS on a hollow wooden desk transmits and amplifies vibration noise compared to a solid surface, so a rubber-footed placement on a stable shelf noticeably reduces what you actually hear at your desk.",
+      "The DH2300 is a straightforward 2-bay desktop NAS supporting up to 64TB across its 2 bays, aimed at buyers who want simple, reliable storage rather than a heavy-duty content-creation workstation. Its more modest internals mean it doesn't need to push fan speeds as hard under typical home office backup workloads.\n\nAnti-vibration design matters more than most buyers expect here: placing any desktop NAS on a hollow wooden desk transmits and amplifies vibration noise compared to a solid surface, so a rubber-footed placement on a stable shelf noticeably reduces what you actually hear at your desk.\n\nWorth calling out specifically: modest internals mean lighter typical fan load. The catch is fewer performance-oriented features than the content-creator picks.",
     specs: [
       "2-bay desktop NAS, diskless",
       "Support for up to 64TB capacity",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31gLzyv-GtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00JKM0A36?tag=deskfinds0d-20",
     description:
-      "The LinkStation 210 ships with its 2TB drive already installed, avoiding the drive-compatibility research and separate purchase that diskless NAS units require. As a single-bay unit, it also runs a single drive rather than the 2 or more spinning in the multi-bay picks in this list, which generally means less total drive noise contributing on top of the fan.\n\nIt's a simple home cloud and network storage device rather than a performance NAS, well suited to buyers who mainly want one quiet, low-maintenance backup destination rather than RAID redundancy or transcoding power.",
+      "The LinkStation 210 ships with its 2TB drive already installed, avoiding the drive-compatibility research and separate purchase that diskless NAS units require. As a single-bay unit, it also runs a single drive rather than the 2 or more spinning in the multi-bay picks in this list, which generally means less total drive noise contributing on top of the fan.\n\nIt's a simple home cloud and network storage device rather than a performance NAS, well suited to buyers who mainly want one quiet, low-maintenance backup destination rather than RAID redundancy or transcoding power.\n\nSingle-bay design means less total drive noise than multi-bay units. Set against that, no RAID redundancy with only 1 bay. Both matter when comparing it to the other picks here.",
     specs: [
       "1-bay NAS, 2TB drive included",
       "Home cloud and network storage functionality",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/310l7keevAS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07K4RC7X9?tag=deskfinds0d-20",
     description:
-      "The QNAP TR-004 isn't a network-connected NAS in the traditional sense, it's direct attached storage over USB Type-C with hardware RAID, which sidesteps network-related noise concerns entirely since it connects straight to one computer. For a single-user home office setup, that's a genuinely quiet alternative to a full NAS if you don't need multi-device network access.\n\nIts 4 bays give solid capacity for the price, and hardware RAID handles redundancy without leaning on a full NAS-class CPU or network stack, which keeps its overall power draw and associated fan activity comparatively modest for the bay count.",
+      "The QNAP TR-004 isn't a network-connected NAS in the traditional sense, it's direct attached storage over USB Type-C with hardware RAID, which sidesteps network-related noise concerns entirely since it connects straight to one computer. For a single-user home office setup, that's a genuinely quiet alternative to a full NAS if you don't need multi-device network access.\n\nIts 4 bays give solid capacity for the price, and hardware RAID handles redundancy without leaning on a full NAS-class CPU or network stack, which keeps its overall power draw and associated fan activity comparatively modest for the bay count.\n\nA genuine advantage here is that hardware RAID without full NAS-class overhead. The tradeoff is not accessible over the network like a true NAS.",
     specs: [
       "4-bay direct attached storage (DAS)",
       "USB Type-C connection",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Manufacturer dB ratings are measured at idle, not under load",
-    explanation:
-      "A NAS spec sheet's noise rating is almost always taken with no drive activity happening. Once a backup job runs or a RAID rebuild starts, fan speed increases and drives ramp up, and the real noise you hear at your desk ends up meaningfully higher than the spec sheet number. Treat published dB figures as a floor, not a ceiling.",
+    "criterion": "Remember every listed NAS here is diskless, budget drives separately",
+    "explanation": "The price shown for a NAS enclosure covers the hardware chassis, CPU, and RAM only, not the actual storage drives, NAS-grade drives built for 24/7 operation like Seagate IronWolf or WD Red still need to be budgeted on top, often adding $80 to $200 or more per bay depending on capacity and drive type.\n\nThis matters because comparing NAS units purely by enclosure price without factoring in drive cost gives a misleading picture of the real total investment, a cheaper enclosure with more bays to fill can end up costing more overall than a pricier enclosure with fewer bays.\n\nCheck whether a listing is diskless or ships with drives included, and add realistic per-bay drive costs to the enclosure price before comparing total cost across options."
   },
   {
-    criterion: "Spinning drives usually make more noise than the fan itself",
-    explanation:
-      "Modern NAS fans are generally well-tuned and quiet on their own. In practice, the spinning HDDs installed in the bays contribute more audible noise, both mechanical hum and occasional seek clicks, than the cooling fan. An SSD-based configuration, like the Beelink ME Pro's M.2 slots, adds essentially zero mechanical noise by comparison.",
+    "criterion": "Weigh CPU class and RAM over bay count for real day-to-day performance",
+    "explanation": "Bay count determines maximum storage capacity, but CPU architecture (Intel, AMD, or ARM) and RAM amount determine how well the NAS actually handles real workloads, running apps, transcoding media on the fly, or serving multiple simultaneous users, and a higher bay count with a weak CPU can bottleneck performance regardless of how much raw storage it holds.\n\nThis matters more the more the NAS will do beyond simple file storage, like Plex transcoding or running multiple docker containers, less if it's purely a basic backup target.\n\nCheck the specific CPU model and RAM amount (and whether RAM is upgradeable) rather than choosing primarily by bay count."
   },
   {
-    criterion: "Desk and floor material amplifies perceived noise",
-    explanation:
-      "A NAS sitting directly on a hollow wooden desk transmits vibration through the desk surface, making it sound noticeably louder than the same unit placed on a solid surface. Anti-vibration rubber feet or a foam mounting pad meaningfully reduce what you hear at the listening point, often more than choosing a slightly quieter-rated model would.",
+    "criterion": "Understand RAID as a rebuild-time safety net, not a substitute for real backup",
+    "explanation": "RAID configurations protect against a single drive failure by letting the array rebuild from redundant data, but RAID is not a backup, it does nothing to protect against accidental deletion, ransomware, theft, fire, or a controller failure that affects the whole array at once.\n\nThis distinction matters because treating RAID redundancy as sufficient backup protection is a common and genuinely risky misunderstanding, a real backup strategy needs a copy of critical data stored somewhere physically separate from the NAS itself.\n\nCheck what RAID level a given NAS supports, and separately plan an actual backup strategy, ideally following a 3-2-1 approach, rather than relying on RAID redundancy alone."
   },
   {
-    criterion: "Nighttime and daytime noise thresholds are different",
-    explanation:
-      "A NAS placed near a bedroom or a quiet home office is far more noticeable overnight than the identical unit running in a living room with ambient background noise during the day. If the NAS sits near where you sleep, schedule backup jobs and RAID scrubs for hours you're awake, or budget for a genuinely low-noise, SSD-leaning setup.",
+    "criterion": "Match drive type (HDD vs SSD/NVMe) to your actual access pattern",
+    "explanation": "Traditional hard drives offer the lowest cost per terabyte for bulk storage like media libraries or backups, while SSD or NVMe-based NAS storage costs significantly more per terabyte but delivers much faster random access speeds, genuinely useful for frequently-accessed files, active project work, or serving as a fast cache tier.\n\nThis matters directly based on how you'll actually use the storage, a media library accessed sequentially benefits little from SSD speed, while an active working file share benefits considerably.\n\nCheck whether the NAS supports the drive type you need, and weigh the real cost-per-terabyte difference against how much you'll actually benefit from faster random access."
   },
   {
-    criterion: "Fanless and SSD-first setups trade capacity for silence",
-    explanation:
-      "Some NAS designs, including low-power CPU mini PC NAS units, support fanless or near-silent operation when loaded with M.2 SSDs instead of spinning drives. The tradeoff is a higher cost per TB and a lower practical capacity ceiling than a traditional multi-bay HDD NAS, so this route suits buyers who value silence over maximum storage.",
-  },
-  {
-    criterion: "More bays generally means more potential drive noise",
-    explanation:
-      "A single-bay unit like the BUFFALO LinkStation 210 only has one drive's worth of mechanical noise to manage, while a 4-bay unit can have up to 4 drives spinning and seeking at once. If quiet operation matters more than raw capacity, a smaller bay count with quality drives can outperform a larger array on perceived noise.",
-  },
+    "criterion": "Consider noise level if the NAS will run continuously in a shared living or office space",
+    "explanation": "A NAS that runs 24/7 generates continuous fan and drive noise, and that noise profile varies meaningfully between models, some use larger, slower-spinning fans that stay genuinely quiet, while others rely on smaller, faster fans that produce a persistent whine noticeable in a quiet room.\n\nThis matters a great deal if the NAS will sit in a bedroom, living room, or shared home office rather than a dedicated closet or basement out of earshot.\n\nCheck reviews specifically for real-world noise level mentions during continuous operation, not just idle noise, since drive activity and fan speed both increase under load."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,84 +359,102 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Where the NAS Will Sit",
-    intro:
-      "A NAS a few feet from your desk needs different noise handling than one tucked in a closet or on a separate floor.",
-    table: {
-      headers: ["Placement", "Noise priority", "Best pick"],
-      rows: [
-        ["On or right next to your desk", "Lowest possible mechanical noise", "Beelink ME Pro (SSD-first)"],
-        ["Nearby shelf, few feet away", "Steady, moderate fan noise under load", "Synology DS223"],
-        ["Near a bedroom or sleeping area", "Silent overnight, scheduled tasks", "Asustor Drivestor 2 Gen 2"],
-        ["Separate room or closet", "Noise matters less, capacity matters more", "QNAP TR-004 (4-bay DAS)"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Synology DS223 Home & Office Backup Hub"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Synology DS223 Home & Office Backup Hub"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By How Much You Value Silence vs. Capacity",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $154",
+          "BUFFALO LinkStation 210 2TB"
+        ],
+        [
+          "Up to $379",
+          "Beelink Mini PC ME Pro"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Diskless Enclosure vs Drives Included",
+    "cards": [
       {
-        label: "Want near-silent operation above all else",
-        text: "The Beelink ME Pro loaded with M.2 SSDs instead of spinning HDDs gets you closest to silent, at a higher cost per TB.",
+        "label": "Diskless enclosure",
+        "text": "Lets you choose your own NAS-grade drives and capacity, but budget $80-200+ per bay separately. In this comparison: Synology DS223 Home & Office Backup Hub, TERRAMASTER F2, UGREEN NAS DXP2800, Asustor Drivestor 2 Gen 2 AS1202T, UGREEN NAS DH2300, BUFFALO LinkStation 210 2TB, QNAP TR."
       },
       {
-        label: "Want a proven balance of quiet and capacity",
-        text: "The Synology DS223 offers a well-tuned fan curve and lets you schedule intensive tasks for quiet overnight hours.",
-      },
-      {
-        label: "Want maximum capacity and don't mind more noise",
-        text: "The QNAP TR-004's 4 bays add up to real storage, though more spinning drives means more total drive noise than a 1 or 2-bay unit.",
-      },
-      {
-        label: "Want the simplest, quietest single-drive setup",
-        text: "The BUFFALO LinkStation 210 runs just 1 drive, keeping mechanical noise to a minimum with drives already included.",
-      },
+        "label": "Drives included",
+        "text": "Ready to use out of the box, simpler for a first NAS purchase. In this comparison: Beelink Mini PC ME Pro."
+      }
     ],
+    "note": "Default to diskless if you want control over drive choice and capacity, drives-included for the simplest setup."
   },
   {
-    subheading: "Idle vs. Load Noise Reality Check",
-    intro:
-      "Every pick in this list sounds quieter at idle than it does mid-backup, so plan around the load number, not the spec sheet number.",
-    table: {
-      headers: ["Scenario", "What actually happens", "Recommendation"],
-      rows: [
-        ["Nightly backup job running", "Fan speed rises, drives stay active", "Schedule for hours you're not nearby, or choose the Beelink ME Pro"],
-        ["RAID rebuild after a drive swap", "Sustained high load for hours", "TERRAMASTER F2-425's 2.5GbE shortens total rebuild time"],
-        ["Idle file storage, rarely accessed", "Noise stays close to the spec sheet number", "Any pick in this list works well here"],
+    "subheading": "By Drive Type Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "SSD/NVMe for fast random access",
+          "Beelink Mini PC ME Pro"
+        ],
+        [
+          "HDD for bulk storage is enough",
+          "Synology DS223 Home & Office Backup Hub"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Reducing Noise You Already Have",
-    cards: [
+    "subheading": "For Media Streaming or Plex Specifically",
+    "cards": [
       {
-        label: "NAS sits on a hollow desk",
-        text: "Vibration through the desk amplifies perceived noise. Add rubber feet or a foam mounting pad under the unit to cut this down meaningfully.",
+        "label": "Look for",
+        "text": "A CPU capable of hardware transcoding and enough RAM to handle multiple simultaneous streams, not just total bay count."
       },
       {
-        label: "NAS is near a bedroom",
-        text: "Schedule backups and RAID scrubs for daytime hours, and consider an SSD-first configuration if the unit sits within earshot overnight.",
-      },
-      {
-        label: "Drive noise dominates over fan noise",
-        text: "Swapping to quieter NAS-rated drives, or moving to an SSD-based configuration like the Beelink ME Pro, addresses the bigger noise source directly.",
-      },
-    ],
+        "label": "In this comparison",
+        "text": "Synology DS223 Home & Office Backup Hub is worth checking against its listed CPU and RAM before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "2.5GbE Networking and Noise Duration",
-    intro:
-      "Faster networking doesn't reduce peak noise, but it does shorten how long a NAS spends at its noisier, load-level dB during large transfers.",
-    table: {
-      headers: ["Pick", "Network speed", "Why it matters for noise"],
-      rows: [
-        ["TERRAMASTER F2-425", "2.5GbE", "Finishes large transfers faster, shortening total load-noise duration"],
-        ["Asustor Drivestor 2 Gen 2", "2.5GbE", "Same benefit at a lower entry price"],
-        ["BUFFALO LinkStation 210", "Gigabit", "Slower transfers mean longer load-noise windows, but only 1 drive is spinning"],
-      ],
-    },
-    note: "2.5GbE only helps if your router or switch also supports it; connected to a 1GbE port, the NAS is capped at gigabit speeds regardless of its own networking hardware.",
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real multi-user performance, media transcoding, or business-critical reliability, where Beelink Mini PC ME Pro's CPU and RAM give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need simple backup storage for one or two users, where BUFFALO LinkStation 210 2TB covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

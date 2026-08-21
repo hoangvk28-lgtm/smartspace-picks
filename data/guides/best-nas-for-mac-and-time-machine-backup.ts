@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21VvdqtKHoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BRNBVTJK?tag=deskfinds0d-20",
     description:
-      "The Synology DS223 offers the most mature Time Machine setup workflow in this list, with DSM's Shared Folder wizard including a dedicated Time Machine toggle that configures SMB3 and Bonjour advertising automatically. Setting a per-Mac backup quota is a built-in option in the same wizard rather than a separate manual step.\n\nAs a 2-bay diskless unit, it needs its own drives and RAID 1 configured before it holds real redundancy for your backup history, and 2024+ DSM firmware can flag non-Synology drives with a compatibility warning even though they still work. For a household with 2-3 Macs wanting the smoothest Time Machine setup experience, it's the strongest overall pick.",
+      "The Synology DS223 offers the most mature Time Machine setup workflow in this list, with DSM's Shared Folder wizard including a dedicated Time Machine toggle that configures SMB3 and Bonjour advertising automatically. Setting a per-Mac backup quota is a built-in option in the same wizard rather than a separate manual step.\n\nAs a 2-bay diskless unit, it needs its own drives and RAID 1 configured before it holds real redundancy for your backup history, and 2024+ DSM firmware can flag non-Synology drives with a compatibility warning even though they still work. For a household with 2-3 Macs wanting the smoothest Time Machine setup experience, it's the strongest overall pick.\n\nPer-Mac quota built directly into shared folder creation. That's a real strength, but weigh it against the flip side: diskless, needs 2 drives purchased separately.",
     specs: [
       "2-bay diskless NAS",
       "Built-in Time Machine shared folder wizard (SMB3 + Bonjour)",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ccz6M7cCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D22HBFK1?tag=deskfinds0d-20",
     description:
-      "The DXP2800's content-creator-tier CPU handles a large, fast-growing Time Machine sparse bundle without slowing down, which matters if your Mac's internal drive is 1TB or larger and generates a sizable backup history within the first year. UGREEN OS supports SMB3 shares with Time Machine compatibility for macOS clients.\n\nIt costs more than the entry-level 2-bay picks here, so it makes the most sense for a MacBook Pro with a large internal SSD rather than a lightly used MacBook Air. Confirm SMB3 is active in the sharing settings before your first backup, since AFP is being phased out across the industry, not just on Synology.",
+      "The DXP2800's content-creator-tier CPU handles a large, fast-growing Time Machine sparse bundle without slowing down, which matters if your Mac's internal drive is 1TB or larger and generates a sizable backup history within the first year. UGREEN OS supports SMB3 shares with Time Machine compatibility for macOS clients.\n\nIt costs more than the entry-level 2-bay picks here, so it makes the most sense for a MacBook Pro with a large internal SSD rather than a lightly used MacBook Air. Confirm SMB3 is active in the sharing settings before your first backup, since AFP is being phased out across the industry, not just on Synology.\n\nWorth calling out specifically: snapshot versioning adds protection beyond Time Machine alone. The catch is priciest 2-bay pick in this list.",
     specs: [
       "2-bay NAS, content-creator tier hardware",
       "SMB3-based Time Machine share support",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ACKzpdVoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FNWHSPXF?tag=deskfinds0d-20",
     description:
-      "The DH2300 is the cheapest diskless 2-bay in this list at $199.99 while still supporting up to 64TB total capacity, giving a single-Mac household room to grow the Time Machine archive over several years without swapping the enclosure. It supports SMB3 shares for Time Machine compatibility through UGREEN's standard OS tools.\n\nIts entry-level CPU and RAM keep it best suited to Time Machine as its primary job rather than layering on Plex or surveillance alongside it. For one Mac's automatic backup on a budget, it covers everything Time Machine actually needs.",
+      "The DH2300 is the cheapest diskless 2-bay in this list at $199.99 while still supporting up to 64TB total capacity, giving a single-Mac household room to grow the Time Machine archive over several years without swapping the enclosure. It supports SMB3 shares for Time Machine compatibility through UGREEN's standard OS tools.\n\nIts entry-level CPU and RAM keep it best suited to Time Machine as its primary job rather than layering on Plex or surveillance alongside it. For one Mac's automatic backup on a budget, it covers everything Time Machine actually needs.\n\nSupports high total capacity for future backup growth. Set against that, entry-level CPU limits running multiple simultaneous services. Both matter when comparing it to the other picks here.",
     specs: [
       "2-bay diskless NAS",
       "Up to 64TB total supported capacity",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21+Y7Nr2xAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTWWJK9V?tag=deskfinds0d-20",
     description:
-      "The TS-264 ships with 8GB of RAM, more than any other 2-bay in this list, which matters when you're running separate Time Machine shared folders for multiple Macs at once, each with its own quota and sparse bundle growing independently. QNAP's QTS handles SMB3 Time Machine shares cleanly for each configured Mac.\n\nAt $489 it costs more than double most 2-bay picks here, which makes sense mainly if you have 2 or more Macs backing up simultaneously and want headroom so neither backup slows the other down. For a single Mac, a cheaper pick in this list does the same job for less.",
+      "The TS-264 ships with 8GB of RAM, more than any other 2-bay in this list, which matters when you're running separate Time Machine shared folders for multiple Macs at once, each with its own quota and sparse bundle growing independently. QNAP's QTS handles SMB3 Time Machine shares cleanly for each configured Mac.\n\nAt $489 it costs more than double most 2-bay picks here, which makes sense mainly if you have 2 or more Macs backing up simultaneously and want headroom so neither backup slows the other down. For a single Mac, a cheaper pick in this list does the same job for less.\n\nA genuine advantage here is that 2.5GbE speeds up first-time full backups on a matching network. The tradeoff is most expensive 2-bay pick in this list.",
     specs: [
       "2-bay desktop NAS",
       "8GB RAM (highest in this list for a 2-bay)",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21lrHwmtuBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GN3YJN2F?tag=deskfinds0d-20",
     description:
-      "The TS-216G's 2.5GbE port meaningfully shortens the first full Time Machine backup, which can otherwise take 8-24 hours over standard gigabit for a 512GB Mac depending on your router. If you have or plan to add a 2.5GbE-capable router or switch, that first backup finishes noticeably faster here than on the gigabit-only picks in this list.\n\nWithout a matching 2.5GbE network, it performs like any standard gigabit 2-bay NAS, so the port only pays off if the rest of your network supports it. Either way, running that first backup over Ethernet rather than Wi-Fi is worth doing regardless of which NAS you choose.",
+      "The TS-216G's 2.5GbE port meaningfully shortens the first full Time Machine backup, which can otherwise take 8-24 hours over standard gigabit for a 512GB Mac depending on your router. If you have or plan to add a 2.5GbE-capable router or switch, that first backup finishes noticeably faster here than on the gigabit-only picks in this list.\n\nWithout a matching 2.5GbE network, it performs like any standard gigabit 2-bay NAS, so the port only pays off if the rest of your network supports it. Either way, running that first backup over Ethernet rather than Wi-Fi is worth doing regardless of which NAS you choose.\n\nQNAP's app store adds flexibility beyond pure backup. That's a real strength, but weigh it against the flip side: 2.5GbE benefit requires a matching router or switch, an extra cost.",
     specs: [
       "2-bay desktop NAS",
       "2.5GbE network port",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/319qh9SJhIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FTFSGBB1?tag=deskfinds0d-20",
     description:
-      "The Drivestor 2 Gen 2 pairs a quad-core 1.7GHz CPU with 2.5GbE networking at the same $199.99 price as the UGREEN DH2300, giving Mac buyers a faster network port for the first backup without paying more. ADM OS supports SMB3-based Time Machine shares for macOS clients out of the box.\n\nIts 1GB of DDR4 RAM is on the lighter side, which is fine for Time Machine running on its own schedule but leaves little headroom for other always-on apps at the same time. As a first NAS focused on Time Machine specifically, it's a well-balanced budget option.",
+      "The Drivestor 2 Gen 2 pairs a quad-core 1.7GHz CPU with 2.5GbE networking at the same $199.99 price as the UGREEN DH2300, giving Mac buyers a faster network port for the first backup without paying more. ADM OS supports SMB3-based Time Machine shares for macOS clients out of the box.\n\nIts 1GB of DDR4 RAM is on the lighter side, which is fine for Time Machine running on its own schedule but leaves little headroom for other always-on apps at the same time. As a first NAS focused on Time Machine specifically, it's a well-balanced budget option.\n\nWorth calling out specifically: quad-core CPU handles Time Machine's sparse bundle writes smoothly. The catch is 1GB RAM limits running much beyond Time Machine and light file sharing.",
     specs: [
       "2-bay NAS, quad-core 1.7GHz CPU",
       "2.5GbE networking",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ejB5cFDGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHVZ53RN?tag=deskfinds0d-20",
     description:
-      "The F2-425's Intel x86 quad-core CPU and 4GB of RAM give it more headroom than the ARM-based budget picks here, so Time Machine can run in the background while the NAS also handles file sharing or a light media app without either job bogging down. It includes 2.5GbE networking and supports SMB3 Time Machine shares.\n\nTERRAMASTER's TOS software covers standard Time Machine setup, though its app ecosystem and community documentation are smaller than Synology's or QNAP's. For buyers who want Intel-class CPU headroom without paying 4-bay prices, it's a solid middle-tier choice.",
+      "The F2-425's Intel x86 quad-core CPU and 4GB of RAM give it more headroom than the ARM-based budget picks here, so Time Machine can run in the background while the NAS also handles file sharing or a light media app without either job bogging down. It includes 2.5GbE networking and supports SMB3 Time Machine shares.\n\nTERRAMASTER's TOS software covers standard Time Machine setup, though its app ecosystem and community documentation are smaller than Synology's or QNAP's. For buyers who want Intel-class CPU headroom without paying 4-bay prices, it's a solid middle-tier choice.\n\n2.5GbE networking included. Set against that, smaller software ecosystem than Synology or QNAP. Both matter when comparing it to the other picks here.",
     specs: [
       "2-bay NAS, Intel x86 quad-core CPU",
       "4GB RAM",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31vNev8kUwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D22JRHZB?tag=deskfinds0d-20",
     description:
-      "The DXP4800 Plus is the only 4-bay in this list, built around an Intel Pentium Gold 8505 5-core CPU that comfortably runs Time Machine for several Macs at once, each with its own dedicated shared folder and quota, without one Mac's backup slowing another's. Four bays also allow RAID configurations with better usable-capacity ratios than any 2-bay here.\n\nIt is the most expensive pick in this list before drives are factored in, and 4 matching drives add meaningful cost on top of the enclosure. For a household running Time Machine on 3 or more Macs, the extra bays and CPU headroom are what justify the price.",
+      "The DXP4800 Plus is the only 4-bay in this list, built around an Intel Pentium Gold 8505 5-core CPU that comfortably runs Time Machine for several Macs at once, each with its own dedicated shared folder and quota, without one Mac's backup slowing another's. Four bays also allow RAID configurations with better usable-capacity ratios than any 2-bay here.\n\nIt is the most expensive pick in this list before drives are factored in, and 4 matching drives add meaningful cost on top of the enclosure. For a household running Time Machine on 3 or more Macs, the extra bays and CPU headroom are what justify the price.\n\nA genuine advantage here is that 4 bays allow RAID 5/6/10 for better redundancy than a 2-bay. The tradeoff is most expensive enclosure in this list.",
     specs: [
       "4-bay diskless NAS",
       "Intel Pentium Gold 8505 5-core CPU",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Verify SMB3 support before buying, AFP is being retired",
-    explanation:
-      "macOS is removing AFP (Apple Filing Protocol) support starting in macOS 27, and a NAS still relying on AFP for Time Machine will silently stop backing up after that update. Confirm the NAS firmware supports SMB3 with Bonjour/mDNS advertising the Time Machine service before you buy or before your next macOS update.",
+    "criterion": "Remember every listed NAS here is diskless, budget drives separately",
+    "explanation": "The price shown for a NAS enclosure covers the hardware chassis, CPU, and RAM only, not the actual storage drives, NAS-grade drives built for 24/7 operation like Seagate IronWolf or WD Red still need to be budgeted on top, often adding $80 to $200 or more per bay depending on capacity and drive type.\n\nThis matters because comparing NAS units purely by enclosure price without factoring in drive cost gives a misleading picture of the real total investment, a cheaper enclosure with more bays to fill can end up costing more overall than a pricier enclosure with fewer bays.\n\nCheck whether a listing is diskless or ships with drives included, and add realistic per-bay drive costs to the enclosure price before comparing total cost across options."
   },
   {
-    criterion: "Time Machine's sparse bundle grows automatically, set a quota",
-    explanation:
-      "Time Machine stores backups in a sparse bundle disk image that expands over time, and a 512GB MacBook can generate 1-2TB of backup history over 3 years. Without a manually set quota in the NAS admin panel, Time Machine will keep expanding until it fills the entire NAS, so set one during initial setup, not after the fact.",
+    "criterion": "Weigh CPU class and RAM over bay count for real day-to-day performance",
+    "explanation": "Bay count determines maximum storage capacity, but CPU architecture (Intel, AMD, or ARM) and RAM amount determine how well the NAS actually handles real workloads, running apps, transcoding media on the fly, or serving multiple simultaneous users, and a higher bay count with a weak CPU can bottleneck performance regardless of how much raw storage it holds.\n\nThis matters more the more the NAS will do beyond simple file storage, like Plex transcoding or running multiple docker containers, less if it's purely a basic backup target.\n\nCheck the specific CPU model and RAM amount (and whether RAM is upgradeable) rather than choosing primarily by bay count."
   },
   {
-    criterion: "Each Mac needs its own shared folder, not a shared one",
-    explanation:
-      "Using a single shared folder for multiple Macs' Time Machine backups will corrupt the backup history for both machines. Create a separate shared folder with its own quota for every Mac on the network, even if they belong to the same household.",
+    "criterion": "Understand RAID as a rebuild-time safety net, not a substitute for real backup",
+    "explanation": "RAID configurations protect against a single drive failure by letting the array rebuild from redundant data, but RAID is not a backup, it does nothing to protect against accidental deletion, ransomware, theft, fire, or a controller failure that affects the whole array at once.\n\nThis distinction matters because treating RAID redundancy as sufficient backup protection is a common and genuinely risky misunderstanding, a real backup strategy needs a copy of critical data stored somewhere physically separate from the NAS itself.\n\nCheck what RAID level a given NAS supports, and separately plan an actual backup strategy, ideally following a 3-2-1 approach, rather than relying on RAID redundancy alone."
   },
   {
-    criterion: "Run the first backup over Ethernet, not Wi-Fi",
-    explanation:
-      "An initial Time Machine backup of a 512GB Mac over Wi-Fi can take 8-24 hours depending on your router, while the same backup over Ethernet finishes considerably faster. Do the first full backup wired, then switch to Wi-Fi for the smaller incremental backups afterward.",
+    "criterion": "Match drive type (HDD vs SSD/NVMe) to your actual access pattern",
+    "explanation": "Traditional hard drives offer the lowest cost per terabyte for bulk storage like media libraries or backups, while SSD or NVMe-based NAS storage costs significantly more per terabyte but delivers much faster random access speeds, genuinely useful for frequently-accessed files, active project work, or serving as a fast cache tier.\n\nThis matters directly based on how you'll actually use the storage, a media library accessed sequentially benefits little from SSD speed, while an active working file share benefits considerably.\n\nCheck whether the NAS supports the drive type you need, and weigh the real cost-per-terabyte difference against how much you'll actually benefit from faster random access."
   },
   {
-    criterion: "Backups need periodic verification, not just scheduling",
-    explanation:
-      "Time Machine can appear to be backing up successfully for months while quietly failing to produce a restorable backup due to RAID errors or file corruption. Test an actual file restore from the backup periodically, at least once a quarter, rather than trusting the green checkmark alone.",
-  },
-  {
-    criterion: "Drive compatibility warnings on 2024+ Plus-series models are mostly cosmetic",
-    explanation:
-      "Newer Plus-tier NAS models from some brands show a compatibility warning in the admin panel for non-branded drives, even when those drives, like Seagate IronWolf or WD Red, work perfectly well in practice. Brand-name NAS drives avoid the warning but typically cost 15-30% more; decide whether the warning-free experience is worth the premium for your setup.",
-  },
+    "criterion": "Consider noise level if the NAS will run continuously in a shared living or office space",
+    "explanation": "A NAS that runs 24/7 generates continuous fan and drive noise, and that noise profile varies meaningfully between models, some use larger, slower-spinning fans that stay genuinely quiet, while others rely on smaller, faster fans that produce a persistent whine noticeable in a quiet room.\n\nThis matters a great deal if the NAS will sit in a bedroom, living room, or shared home office rather than a dedicated closet or basement out of earshot.\n\nCheck reviews specifically for real-world noise level mentions during continuous operation, not just idle noise, since drive activity and fan speed both increase under load."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,63 +359,102 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Number of Macs You're Backing Up",
-    intro:
-      "The right NAS scales with how many Macs it needs to run Time Machine for simultaneously, since RAM and CPU determine how well concurrent backups coexist.",
-    table: {
-      headers: ["Macs to back up", "What matters most", "Best pick"],
-      rows: [
-        ["1 Mac, light everyday use", "Low cost, simple SMB3 setup", "UGREEN DH2300 or Asustor Drivestor 2 Gen 2"],
-        ["1 Mac with a large internal SSD", "CPU headroom for a fast-growing sparse bundle", "UGREEN DXP2800"],
-        ["2-3 Macs in one household", "Turnkey per-Mac quota setup", "Synology DS223"],
-        ["3+ Macs or a small studio", "RAID flexibility and multi-job RAM", "UGREEN DXP4800 Plus, QNAP TS-264-8G"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Synology DS223 Home & Office Backup Hub"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Synology DS223 Home & Office Backup Hub"
+        ]
+      ]
+    }
   },
   {
-    subheading: "First Backup Speed: Plan for the Initial Backup Window",
-    intro:
-      "The first full Time Machine backup is the slowest one you'll ever run, and network speed determines whether it's an afternoon or an overnight job.",
-    table: {
-      headers: ["Setup", "First backup speed", "Best pick"],
-      rows: [
-        ["Standard gigabit network, wired first backup", "8-24 hours for a 512GB Mac, faster over Ethernet", "Any pick in this list"],
-        ["2.5GbE router/switch already installed", "Meaningfully faster first full backup", "QNAP TS-216G-US, Asustor Drivestor 2 Gen 2, TERRAMASTER F2-425"],
-        ["Multiple Macs backing up on day one", "Higher RAM prevents one Mac's backup slowing another's", "QNAP TS-264-8G, UGREEN DXP4800 Plus"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
-    note: "Always run the very first full backup over Ethernet, not Wi-Fi, regardless of which NAS you choose; incremental backups after that are fine wirelessly.",
+      "rows": [
+        [
+          "Under $200",
+          "UGREEN NAS DH2300"
+        ],
+        [
+          "Up to $620",
+          "UGREEN NAS DXP4800 Plus"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Setup Complexity You Want",
-    cards: [
+    "subheading": "Diskless Enclosure vs Drives Included",
+    "cards": [
       {
-        label: "Want the most turnkey Time Machine setup",
-        text: "Synology's DSM includes a dedicated Time Machine shared folder wizard that configures SMB3, Bonjour advertising, and quotas together, the smoothest first-time setup in this list.",
+        "label": "Diskless enclosure",
+        "text": "Lets you choose your own NAS-grade drives and capacity, but budget $80-200+ per bay separately. In this comparison: Synology DS223 Home & Office Backup Hub, UGREEN NAS DH2300, TERRAMASTER F2, UGREEN NAS DXP4800 Plus."
       },
       {
-        label: "Comfortable with a bit more manual configuration",
-        text: "UGREEN, QNAP, Asustor, and TERRAMASTER all support SMB3 Time Machine shares, but expect to manually verify SMB3 is active and set the quota yourself in the sharing settings.",
-      },
-      {
-        label: "Managing several Macs long-term",
-        text: "Prioritize higher RAM (QNAP TS-264-8G) or more bays (UGREEN DXP4800 Plus) so adding a 4th or 5th Mac later doesn't require replacing the NAS.",
-      },
+        "label": "Drives included",
+        "text": "Ready to use out of the box, simpler for a first NAS purchase. In this comparison: UGREEN NAS DXP2800, QNAP TS, QNAP TS, Asustor Drivestor 2 Gen 2 AS1202T."
+      }
     ],
+    "note": "Default to diskless if you want control over drive choice and capacity, drives-included for the simplest setup."
   },
   {
-    subheading: "Budget vs. Headroom for Time Machine",
-    intro:
-      "Time Machine itself is lightweight day-to-day, but the NAS still needs enough RAM and CPU if you plan to run anything else alongside it.",
-    table: {
-      headers: ["Budget tier", "Trade-off", "Best pick"],
-      rows: [
-        ["Under $250, 1 Mac", "Lean RAM, focused on Time Machine only", "UGREEN DH2300, Asustor Drivestor 2 Gen 2"],
-        ["$250-$400, some multitasking headroom", "Intel CPU or larger RAM buffer", "TERRAMASTER F2-425, UGREEN DXP2800"],
-        ["$450+, multiple Macs at once", "8GB+ RAM or 4-bay RAID flexibility", "QNAP TS-264-8G, UGREEN DXP4800 Plus"],
+    "subheading": "By Drive Type Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "SSD/NVMe for fast random access",
+          "UGREEN NAS DXP2800"
+        ],
+        [
+          "HDD for bulk storage is enough",
+          "Synology DS223 Home & Office Backup Hub"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For Media Streaming or Plex Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A CPU capable of hardware transcoding and enough RAM to handle multiple simultaneous streams, not just total bay count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Synology DS223 Home & Office Backup Hub is worth checking against its listed CPU and RAM before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real multi-user performance, media transcoding, or business-critical reliability, where UGREEN NAS DXP4800 Plus's CPU and RAM give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need simple backup storage for one or two users, where UGREEN NAS DH2300 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ccz6M7cCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D22HBFK1?tag=deskfinds0d-20",
     description:
-      "UGREEN markets the DXP2800 directly at content creators and enthusiasts, and its 2-bay layout keeps entry cost reasonable while still leaving room to grow into RAID 1 mirroring for active project files.\n\nIt is a solid fit for a solo photographer or video editor who is not yet running multi-user workflows but wants a dedicated array instead of an external USB drive for active photo and video libraries.",
+      "UGREEN markets the DXP2800 directly at content creators and enthusiasts, and its 2-bay layout keeps entry cost reasonable while still leaving room to grow into RAID 1 mirroring for active project files.\n\nIt is a solid fit for a solo photographer or video editor who is not yet running multi-user workflows but wants a dedicated array instead of an external USB drive for active photo and video libraries.\n\nSimple 2-bay setup keeps entry cost down. That's a real strength, but weigh it against the flip side: 1GbE networking caps large transfer speed.",
     specs: [
       "2-bay design",
       "Positioned for content creators and enthusiasts",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21VvdqtKHoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BRNBVTJK?tag=deskfinds0d-20",
     description:
-      "The Synology DS223 is built around centralizing files and protecting data, which covers the basics of a photo and video archive without the premium price of a creator-specific model. Synology's DSM software adds straightforward folder and permission management for organizing large photo libraries.\n\nIt is a 2-bay diskless unit, so total investment includes drive cost on top of the enclosure, and its standard 1GbE networking is a better match for archival storage than for active RAW video editing over the network.",
+      "The Synology DS223 is built around centralizing files and protecting data, which covers the basics of a photo and video archive without the premium price of a creator-specific model. Synology's DSM software adds straightforward folder and permission management for organizing large photo libraries.\n\nIt is a 2-bay diskless unit, so total investment includes drive cost on top of the enclosure, and its standard 1GbE networking is a better match for archival storage than for active RAW video editing over the network.\n\nWorth calling out specifically: straightforward setup for file centralization. The catch is 1GbE networking limits large video transfer speed.",
     specs: [
       "2-bay diskless NAS",
       "Synology DSM software",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21+Y7Nr2xAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTWWJK9V?tag=deskfinds0d-20",
     description:
-      "The QNAP TS-264 ships with 8GB of RAM out of the box, which matters for creative workflows since photo and video management apps index large libraries and benefit from more memory headroom than a bare-minimum NAS provides.\n\nAt this price tier, it is aimed at buyers who are editing directly off the NAS rather than just archiving finished exports, and its 2-bay layout keeps the entry cost lower than a 4-bay Intel-based editing NAS while still offering more RAM than most 2-bay competitors.",
+      "The QNAP TS-264 ships with 8GB of RAM out of the box, which matters for creative workflows since photo and video management apps index large libraries and benefit from more memory headroom than a bare-minimum NAS provides.\n\nAt this price tier, it is aimed at buyers who are editing directly off the NAS rather than just archiving finished exports, and its 2-bay layout keeps the entry cost lower than a 4-bay Intel-based editing NAS while still offering more RAM than most 2-bay competitors.\n\nQNAP's app ecosystem covers photo and video management. Set against that, priciest 2-bay pick in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "2-bay desktop NAS",
       "8GB RAM included",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21lrHwmtuBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GN3YJN2F?tag=deskfinds0d-20",
     description:
-      "QNAP built 2.5GbE networking into the TS-216G at a price close to some 1GbE-only competitors, which is the single biggest speed upgrade a buyer can make for photo and video work. A 2.5GbE connection moves roughly 300 MB/s versus about 125 MB/s on 1GbE, a real difference once large RAW folders or 4K exports are involved.\n\nIt still needs a 2.5GbE-capable switch or router on the other end of the cable to actually see that speed increase, since the weakest link in the network sets the real transfer rate.",
+      "QNAP built 2.5GbE networking into the TS-216G at a price close to some 1GbE-only competitors, which is the single biggest speed upgrade a buyer can make for photo and video work. A 2.5GbE connection moves roughly 300 MB/s versus about 125 MB/s on 1GbE, a real difference once large RAW folders or 4K exports are involved.\n\nIt still needs a 2.5GbE-capable switch or router on the other end of the cable to actually see that speed increase, since the weakest link in the network sets the real transfer rate.\n\nA genuine advantage here is that roughly 2.4x the transfer speed of 1GbE NAS models. The tradeoff is requires a 2.5GbE switch or router to see the speed benefit.",
     specs: [
       "2-bay desktop NAS",
       "Built-in 2.5GbE networking",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/319qh9SJhIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FTFSGBB1?tag=deskfinds0d-20",
     description:
-      "The Drivestor 2 Gen 2 pairs a quad-core 1.7GHz CPU with built-in 2.5GbE networking and 4K media server support at the lowest price in this list, making it the cheapest way to get past the 1GbE bottleneck for photo and video transfers.\n\nIts 1GB of DDR4 RAM is modest for heavy multitasking, so it fits best as a personal cloud and archive for a single editor rather than a shared multi-user editing NAS with many simultaneous connections.",
+      "The Drivestor 2 Gen 2 pairs a quad-core 1.7GHz CPU with built-in 2.5GbE networking and 4K media server support at the lowest price in this list, making it the cheapest way to get past the 1GbE bottleneck for photo and video transfers.\n\nIts 1GB of DDR4 RAM is modest for heavy multitasking, so it fits best as a personal cloud and archive for a single editor rather than a shared multi-user editing NAS with many simultaneous connections.\n\n2.5GbE networking included at an entry price. That's a real strength, but weigh it against the flip side: only 1GB RAM limits multitasking under load.",
     specs: [
       "2-bay NAS, diskless",
       "Quad-core 1.7GHz CPU",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ejB5cFDGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHVZ53RN?tag=deskfinds0d-20",
     description:
-      "TERRAMASTER puts an Intel x86 quad-core CPU and 4GB of RAM into a 2-bay chassis, a meaningfully stronger processor tier than most NAS at this price point. Intel processors generally offer better codec support for hardware transcoding than the ARM chips found in many budget NAS units, which matters for H.265/HEVC photo and video libraries.\n\n2.5GbE networking is included as well, so this pairs a capable CPU with fast networking in a compact 2-bay footprint, though buyers with truly large RAW archives will still outgrow 2 bays faster than a 4-bay unit.",
+      "TERRAMASTER puts an Intel x86 quad-core CPU and 4GB of RAM into a 2-bay chassis, a meaningfully stronger processor tier than most NAS at this price point. Intel processors generally offer better codec support for hardware transcoding than the ARM chips found in many budget NAS units, which matters for H.265/HEVC photo and video libraries.\n\n2.5GbE networking is included as well, so this pairs a capable CPU with fast networking in a compact 2-bay footprint, though buyers with truly large RAW archives will still outgrow 2 bays faster than a 4-bay unit.\n\nWorth calling out specifically: 4GB RAM is generous for a 2-bay NAS. The catch is 2 bays still cap long-term expansion.",
     specs: [
       "2-bay NAS, diskless",
       "Intel x86 quad-core CPU",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31vNev8kUwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D22JRHZB?tag=deskfinds0d-20",
     description:
-      "The DXP4800 Plus steps up to a 4-bay chassis and an Intel Pentium Gold 8505 5-core CPU, the most capable processor in this list. That extra core count and 4-bay capacity make it the pick for buyers running RAID 5 across a real archive of 4K or RAW footage rather than a light personal library.\n\nIt is also the most expensive pick here, and buyers should factor in 4 drives' worth of cost on top of the enclosure price, since a 4-bay diskless NAS is only half the total investment until drives are added.",
+      "The DXP4800 Plus steps up to a 4-bay chassis and an Intel Pentium Gold 8505 5-core CPU, the most capable processor in this list. That extra core count and 4-bay capacity make it the pick for buyers running RAID 5 across a real archive of 4K or RAW footage rather than a light personal library.\n\nIt is also the most expensive pick here, and buyers should factor in 4 drives' worth of cost on top of the enclosure price, since a 4-bay diskless NAS is only half the total investment until drives are added.\n\n4 bays support RAID 5 with meaningfully more usable capacity. Set against that, most expensive enclosure in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "4-bay diskless NAS",
       "Intel Pentium Gold 8505 5-core CPU",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ACKzpdVoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FNWHSPXF?tag=deskfinds0d-20",
     description:
-      "The DH2300 supports up to 64TB of total capacity across its 2 bays, giving budget buyers real headroom for growing photo libraries without paying for a 4-bay chassis. At $199.99, it ties for the cheapest enclosure in this list.\n\nAs a diskless entry-level unit, it fits best as an archive destination for finished exports and organized photo libraries rather than an active multi-stream video editing NAS, since networking and CPU specs are positioned at the budget tier.",
+      "The DH2300 supports up to 64TB of total capacity across its 2 bays, giving budget buyers real headroom for growing photo libraries without paying for a 4-bay chassis. At $199.99, it ties for the cheapest enclosure in this list.\n\nAs a diskless entry-level unit, it fits best as an archive destination for finished exports and organized photo libraries rather than an active multi-stream video editing NAS, since networking and CPU specs are positioned at the budget tier.\n\nA genuine advantage here is that up to 64TB total capacity supported across 2 bays. The tradeoff is budget-tier CPU is less suited to heavy transcoding.",
     specs: [
       "2-bay desktop NAS, diskless",
       "Supports up to 64TB total capacity",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Match network speed to your actual file sizes",
-    explanation:
-      "4K H.264 footage runs about 45GB per hour, while 4K RAW from a cinema camera can run 250-500GB per hour. A 1GbE NAS moves roughly 125 MB/s, fine for one editor on H.264, but multi-user or RAW workflows need a 2.5GbE NAS at minimum, and a genuinely fast multi-editor RAW pipeline needs 10GbE.",
+    "criterion": "Remember every listed NAS here is diskless, budget drives separately",
+    "explanation": "The price shown for a NAS enclosure covers the hardware chassis, CPU, and RAM only, not the actual storage drives, NAS-grade drives built for 24/7 operation like Seagate IronWolf or WD Red still need to be budgeted on top, often adding $80 to $200 or more per bay depending on capacity and drive type.\n\nThis matters because comparing NAS units purely by enclosure price without factoring in drive cost gives a misleading picture of the real total investment, a cheaper enclosure with more bays to fill can end up costing more overall than a pricier enclosure with fewer bays.\n\nCheck whether a listing is diskless or ships with drives included, and add realistic per-bay drive costs to the enclosure price before comparing total cost across options."
   },
   {
-    criterion: "A 2.5GbE NAS needs a 2.5GbE switch to matter",
-    explanation:
-      "Buying a 2.5GbE NAS but connecting it to a 1GbE router caps the connection at 1Gbps, the weakest link in the chain. Budget an extra $40-80 for a 2.5GbE-capable switch or router alongside the NAS itself, or the speed upgrade delivers no real benefit.",
+    "criterion": "Weigh CPU class and RAM over bay count for real day-to-day performance",
+    "explanation": "Bay count determines maximum storage capacity, but CPU architecture (Intel, AMD, or ARM) and RAM amount determine how well the NAS actually handles real workloads, running apps, transcoding media on the fly, or serving multiple simultaneous users, and a higher bay count with a weak CPU can bottleneck performance regardless of how much raw storage it holds.\n\nThis matters more the more the NAS will do beyond simple file storage, like Plex transcoding or running multiple docker containers, less if it's purely a basic backup target.\n\nCheck the specific CPU model and RAM amount (and whether RAM is upgradeable) rather than choosing primarily by bay count."
   },
   {
-    criterion: "NVMe cache speeds up small files, not video transfers",
-    explanation:
-      "NVMe cache accelerates random reads and writes, useful for metadata lookups and photo thumbnail generation, but it does not meaningfully speed up large sequential video file transfers. Don't add NVMe cache expecting faster video editing; the network connection and main drive throughput matter far more for that.",
+    "criterion": "Understand RAID as a rebuild-time safety net, not a substitute for real backup",
+    "explanation": "RAID configurations protect against a single drive failure by letting the array rebuild from redundant data, but RAID is not a backup, it does nothing to protect against accidental deletion, ransomware, theft, fire, or a controller failure that affects the whole array at once.\n\nThis distinction matters because treating RAID redundancy as sufficient backup protection is a common and genuinely risky misunderstanding, a real backup strategy needs a copy of critical data stored somewhere physically separate from the NAS itself.\n\nCheck what RAID level a given NAS supports, and separately plan an actual backup strategy, ideally following a 3-2-1 approach, rather than relying on RAID redundancy alone."
   },
   {
-    criterion: "Codec support depends on the processor, not the brand",
-    explanation:
-      "Most Intel Celeron-class NAS processors can hardware transcode H.264 without issue. H.265/HEVC needs Intel QuickSync or an equivalent modern chip. No consumer NAS hardware-transcodes ProRes; that only happens in slow software, so plan to edit ProRes locally rather than relying on the NAS to convert it.",
+    "criterion": "Match drive type (HDD vs SSD/NVMe) to your actual access pattern",
+    "explanation": "Traditional hard drives offer the lowest cost per terabyte for bulk storage like media libraries or backups, while SSD or NVMe-based NAS storage costs significantly more per terabyte but delivers much faster random access speeds, genuinely useful for frequently-accessed files, active project work, or serving as a fast cache tier.\n\nThis matters directly based on how you'll actually use the storage, a media library accessed sequentially benefits little from SSD speed, while an active working file share benefits considerably.\n\nCheck whether the NAS supports the drive type you need, and weigh the real cost-per-terabyte difference against how much you'll actually benefit from faster random access."
   },
   {
-    criterion: "Color accuracy comes from your monitor, not the NAS",
-    explanation:
-      "A NAS stores files; it has no effect on color rendering. RAW and graded footage still needs a calibrated monitor connected natively, ideally via Thunbolt or DisplayPort rather than a compressed connection, with the NAS reached over Ethernet for file access.",
-  },
-  {
-    criterion: "Diskless price is half the real cost",
-    explanation:
-      "Every NAS in this list is diskless. A 2-bay enclosure plus 2 NAS-grade drives, or a 4-bay plus 4 drives, commonly doubles the sticker price of the enclosure alone. Budget the full enclosure-plus-drives total before comparing prices across bay counts.",
-  },
+    "criterion": "Consider noise level if the NAS will run continuously in a shared living or office space",
+    "explanation": "A NAS that runs 24/7 generates continuous fan and drive noise, and that noise profile varies meaningfully between models, some use larger, slower-spinning fans that stay genuinely quiet, while others rely on smaller, faster fans that produce a persistent whine noticeable in a quiet room.\n\nThis matters a great deal if the NAS will sit in a bedroom, living room, or shared home office rather than a dedicated closet or basement out of earshot.\n\nCheck reviews specifically for real-world noise level mentions during continuous operation, not just idle noise, since drive activity and fan speed both increase under load."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,66 +359,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Footage Type and Volume",
-    intro:
-      "How much footage you generate and in what format determines both the storage capacity and network speed you actually need.",
-    table: {
-      headers: ["Footage type", "Typical size", "Best pick"],
-      rows: [
-        ["Photo library plus occasional 1080p/4K H.264", "Modest, grows slowly", "Synology DS223, UGREEN DH2300"],
-        ["Regular 4K H.264 video editing", "45GB/hour of footage", "QNAP TS-216G 2.5GbE, Asustor Drivestor 2 Gen 2"],
-        ["4K RAW or cinema camera footage", "250-500GB/hour of footage", "TERRAMASTER F2-425, UGREEN DXP4800 Plus"],
-        ["Multi-editor professional archive", "Large and continuously growing", "UGREEN DXP4800 Plus 4-Bay"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "UGREEN NAS DXP2800 2"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "UGREEN NAS DXP2800 2"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Editor Count and Network Speed",
-    table: {
-      headers: ["Network tier", "Real-world speed", "Who it fits"],
-      rows: [
-        ["1GbE", "~125 MB/s", "1 editor on H.264 4K, or archive-only use"],
-        ["2.5GbE", "~300 MB/s", "2 editors on H.264, or 1 editor on ProRes 4K"],
-        ["10GbE", "~1,000 MB/s", "Multi-user RAW video editing workflows"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
-    note: "None of the picks in this list ship with 10GbE built in, so a multi-editor RAW pipeline needs a NAS beyond this specific list's tier, or an add-in 10GbE card if the chassis supports one.",
+      "rows": [
+        [
+          "Under $200",
+          "Asustor Drivestor 2 Gen 2 AS1202T"
+        ],
+        [
+          "Up to $620",
+          "UGREEN NAS DXP4800 Plus 4"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget and Bay Count",
-    cards: [
+    "subheading": "Bay Count vs Price",
+    "cards": [
       {
-        label: "Lowest total cost",
-        text: "The Asustor Drivestor 2 Gen 2 and UGREEN DH2300 both start at $199.99, the cheapest way into 2.5GbE-capable or high-capacity 2-bay storage.",
+        "label": "Asustor Drivestor 2 Gen 2 AS1202T",
+        "text": "The lower-priced option in this comparison, worth checking its CPU and RAM against your actual workload."
       },
       {
-        label: "Best CPU for the money",
-        text: "The TERRAMASTER F2-425 pairs an Intel x86 quad-core CPU with 2.5GbE at $239.99, a strong processor-to-price ratio for a 2-bay unit.",
-      },
-      {
-        label: "Most RAM in a 2-bay",
-        text: "The QNAP TS-264-8G ships with 8GB RAM, useful headroom for indexing large photo and video libraries.",
-      },
-      {
-        label: "Room to grow into a real archive",
-        text: "The UGREEN DXP4800 Plus is the only 4-bay pick here, giving RAID 5 headroom that a 2-bay chassis simply cannot match long-term.",
-      },
+        "label": "UGREEN NAS DXP4800 Plus 4",
+        "text": "The higher-priced option, worth it if it offers real bay count or performance headroom above the cheaper pick."
+      }
     ],
+    "note": "Default to Asustor Drivestor 2 Gen 2 AS1202T unless your storage needs genuinely call for the pricier pick."
   },
   {
-    subheading: "Do You Actually Need All-SSD or NVMe Cache?",
-    intro:
-      "NVMe cache is often bought expecting a video editing speedup it does not deliver.",
-    table: {
-      headers: ["Workload", "Worth it?", "Why"],
-      rows: [
-        ["Large sequential video file transfers", "No", "NVMe cache accelerates random access, not sequential throughput"],
-        ["Photo library thumbnail and metadata indexing", "Yes", "Random small-file access is exactly what NVMe cache speeds up"],
-        ["VM hosting or database-backed photo catalogs", "Yes", "Random I/O workloads benefit directly from cache"],
-        ["Simple archive storage", "No", "An HDD-based NAS is far cheaper per TB with no real downside for archiving"],
-      ],
-    },
+    "subheading": "By CPU and RAM",
+    "note": "Check each pick's listed CPU architecture and RAM amount against your actual workload before buying, not just bay count alone. UGREEN NAS DXP2800 2 is the most-reviewed option here if you want the safer bet."
   },
+  {
+    "subheading": "For Media Streaming or Plex Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A CPU capable of hardware transcoding and enough RAM to handle multiple simultaneous streams, not just total bay count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "UGREEN NAS DXP2800 2 is worth checking against its listed CPU and RAM before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real multi-user performance, media transcoding, or business-critical reliability, where UGREEN NAS DXP4800 Plus 4's CPU and RAM give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need simple backup storage for one or two users, where Asustor Drivestor 2 Gen 2 AS1202T covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

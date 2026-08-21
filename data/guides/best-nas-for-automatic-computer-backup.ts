@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21VvdqtKHoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BRNBVTJK?tag=deskfinds0d-20",
     description:
-      "The Synology DS223 is built around Active Backup for Business, Synology's free tool that backs up full PC and Mac images with deduplication, which makes it the strongest pick here for anyone backing up more than one computer from a single box. DSM's scheduler handles versioned, incremental backups without any third-party software.\n\nAs a 2-bay diskless unit it needs its own drives and a RAID 1 mirror before it holds any real redundancy, and its soldered RAM means the backup workload should stay its main job rather than one of several apps running at once. For a household backing up 2 to 3 computers on autopilot, it is the most complete option in this list.",
+      "The Synology DS223 is built around Active Backup for Business, Synology's free tool that backs up full PC and Mac images with deduplication, which makes it the strongest pick here for anyone backing up more than one computer from a single box. DSM's scheduler handles versioned, incremental backups without any third-party software.\n\nAs a 2-bay diskless unit it needs its own drives and a RAID 1 mirror before it holds any real redundancy, and its soldered RAM means the backup workload should stay its main job rather than one of several apps running at once. For a household backing up 2 to 3 computers on autopilot, it is the most complete option in this list.\n\nDSM's backup scheduling is the most mature in this list. That's a real strength, but weigh it against the flip side: diskless, needs 2 drives purchased separately.",
     specs: [
       "2-bay diskless NAS",
       "Active Backup for Business (free, full PC/Mac image backup)",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ccz6M7cCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D22HBFK1?tag=deskfinds0d-20",
     description:
-      "The DXP2800 is positioned for content creators, which in backup terms means it has the horsepower to handle large incremental backup sets, such as a video editor's project drives, without stalling. UGREEN OS supports scheduled rsync and cloud-sync backup jobs alongside its own snapshot tool.\n\nIt costs more than the entry-level 2-bay picks here, which only pays off if your backup source is large media files or multiple high-capacity drives rather than a single laptop's documents folder. For lighter backup needs, a cheaper 2-bay in this list gets the same core job done.",
+      "The DXP2800 is positioned for content creators, which in backup terms means it has the horsepower to handle large incremental backup sets, such as a video editor's project drives, without stalling. UGREEN OS supports scheduled rsync and cloud-sync backup jobs alongside its own snapshot tool.\n\nIt costs more than the entry-level 2-bay picks here, which only pays off if your backup source is large media files or multiple high-capacity drives rather than a single laptop's documents folder. For lighter backup needs, a cheaper 2-bay in this list gets the same core job done.\n\nWorth calling out specifically: snapshot versioning protects against ransomware and mistakes. The catch is priciest 2-bay pick in this list.",
     specs: [
       "2-bay NAS, content-creator tier hardware",
       "Scheduled rsync and cloud-sync backup jobs",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ACKzpdVoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FNWHSPXF?tag=deskfinds0d-20",
     description:
-      "The DH2300 is the cheapest diskless 2-bay in this list at $199.99, and it still supports up to 64TB of total capacity for buyers who want room to grow without upgrading the enclosure itself. It runs scheduled backup jobs from a connected PC through UGREEN's standard OS tools.\n\nAt this price the CPU and RAM are the most modest here, so it is best kept focused on backup duty rather than layered with Plex, surveillance, or other always-on services. For a single computer's automatic backup on a budget, it covers the basics without unnecessary extras.",
+      "The DH2300 is the cheapest diskless 2-bay in this list at $199.99, and it still supports up to 64TB of total capacity for buyers who want room to grow without upgrading the enclosure itself. It runs scheduled backup jobs from a connected PC through UGREEN's standard OS tools.\n\nAt this price the CPU and RAM are the most modest here, so it is best kept focused on backup duty rather than layered with Plex, surveillance, or other always-on services. For a single computer's automatic backup on a budget, it covers the basics without unnecessary extras.\n\nSupports high total capacity for its price. Set against that, entry-level CPU limits running multiple simultaneous services. Both matter when comparing it to the other picks here.",
     specs: [
       "2-bay diskless NAS",
       "Up to 64TB total supported capacity",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21lrHwmtuBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GN3YJN2F?tag=deskfinds0d-20",
     description:
-      "The TS-216G is built around a 2.5GbE port, which matters for backup speed once your PC or laptop also has a 2.5GbE adapter, since the first full backup of a modern SSD-heavy laptop can otherwise take most of a day over standard gigabit. QNAP's Hybrid Backup Sync app handles scheduled local and cloud jobs.\n\nThat 2.5GbE advantage only shows up if your router or switch also supports 2.5GbE; on a standard gigabit network it behaves like any other 2-bay NAS. It is the pick for buyers who already have or plan to upgrade their home network alongside the NAS.",
+      "The TS-216G is built around a 2.5GbE port, which matters for backup speed once your PC or laptop also has a 2.5GbE adapter, since the first full backup of a modern SSD-heavy laptop can otherwise take most of a day over standard gigabit. QNAP's Hybrid Backup Sync app handles scheduled local and cloud jobs.\n\nThat 2.5GbE advantage only shows up if your router or switch also supports 2.5GbE; on a standard gigabit network it behaves like any other 2-bay NAS. It is the pick for buyers who already have or plan to upgrade their home network alongside the NAS.\n\nA genuine advantage here is that hybrid Backup Sync covers both local and cloud backup destinations. The tradeoff is 2.5GbE benefit requires a 2.5GbE router or switch, an extra cost.",
     specs: [
       "2-bay desktop NAS",
       "2.5GbE network port",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/319qh9SJhIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FTFSGBB1?tag=deskfinds0d-20",
     description:
-      "The Drivestor 2 Gen 2 pairs a quad-core 1.7GHz CPU with 2.5GbE networking at the same $199.99 price as the UGREEN DH2300, giving it a faster network port without a price jump. Asustor's ADM OS includes scheduled backup apps for both Windows and Mac clients.\n\nIts 1GB of DDR4 RAM is on the lighter side, which is fine for a single backup job running on schedule but will feel tight if you also want file sync or a media app running at the same time. As a first NAS focused mainly on automatic backup, it is a well-balanced budget option.",
+      "The Drivestor 2 Gen 2 pairs a quad-core 1.7GHz CPU with 2.5GbE networking at the same $199.99 price as the UGREEN DH2300, giving it a faster network port without a price jump. Asustor's ADM OS includes scheduled backup apps for both Windows and Mac clients.\n\nIts 1GB of DDR4 RAM is on the lighter side, which is fine for a single backup job running on schedule but will feel tight if you also want file sync or a media app running at the same time. As a first NAS focused mainly on automatic backup, it is a well-balanced budget option.\n\nQuad-core CPU handles scheduled backup jobs smoothly. That's a real strength, but weigh it against the flip side: 1GB RAM limits running much beyond backup and light file sharing.",
     specs: [
       "2-bay NAS, quad-core 1.7GHz CPU",
       "2.5GbE networking",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ejB5cFDGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHVZ53RN?tag=deskfinds0d-20",
     description:
-      "The F2-425 runs on an Intel x86 quad-core CPU with 4GB of RAM, noticeably more headroom than the ARM-based budget picks in this list, which means scheduled backup jobs can run alongside file sharing or a lightweight media app without the whole system bogging down. It also includes 2.5GbE networking.\n\nTERRAMASTER's TOS software covers standard scheduled backup, though its app ecosystem and community documentation are smaller than Synology's or QNAP's. For buyers who want an Intel-class CPU and real RAM without paying 4-bay prices, it is a strong middle-tier choice.",
+      "The F2-425 runs on an Intel x86 quad-core CPU with 4GB of RAM, noticeably more headroom than the ARM-based budget picks in this list, which means scheduled backup jobs can run alongside file sharing or a lightweight media app without the whole system bogging down. It also includes 2.5GbE networking.\n\nTERRAMASTER's TOS software covers standard scheduled backup, though its app ecosystem and community documentation are smaller than Synology's or QNAP's. For buyers who want an Intel-class CPU and real RAM without paying 4-bay prices, it is a strong middle-tier choice.\n\nWorth calling out specifically: 2.5GbE networking included. The catch is smaller software ecosystem than Synology or QNAP.",
     specs: [
       "2-bay NAS, Intel x86 quad-core CPU",
       "4GB RAM",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21+Y7Nr2xAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTWWJK9V?tag=deskfinds0d-20",
     description:
-      "The TS-264 ships with 8GB of RAM out of the box, the most of any 2-bay in this list, which matters if you plan to run scheduled backup for several computers plus Hybrid Backup Sync's cloud replication at the same time without either job slowing down. It is a genuinely more capable machine than a budget 2-bay, at a matching price.\n\nAt $489 it costs more than double most other 2-bay picks here, so it makes sense mainly for buyers who know they will push it with concurrent backup jobs or additional QNAP apps, not for a single lightly used laptop. Treat the price as an investment in headroom rather than a backup-only purchase.",
+      "The TS-264 ships with 8GB of RAM out of the box, the most of any 2-bay in this list, which matters if you plan to run scheduled backup for several computers plus Hybrid Backup Sync's cloud replication at the same time without either job slowing down. It is a genuinely more capable machine than a budget 2-bay, at a matching price.\n\nAt $489 it costs more than double most other 2-bay picks here, so it makes sense mainly for buyers who know they will push it with concurrent backup jobs or additional QNAP apps, not for a single lightly used laptop. Treat the price as an investment in headroom rather than a backup-only purchase.\n\nStrong headroom for cloud replication alongside local backup. Set against that, most expensive 2-bay pick in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "2-bay desktop NAS",
       "8GB RAM (highest in this list for a 2-bay)",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31vNev8kUwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D22JRHZB?tag=deskfinds0d-20",
     description:
-      "The DXP4800 Plus is the only 4-bay in this list, built around an Intel Pentium Gold 8505 5-core CPU that can comfortably run scheduled backup jobs for several computers at once alongside RAID rebuilds and other services. Four bays also mean more RAID configuration flexibility than any 2-bay option here allows.\n\nIt is the most expensive pick in this list before drives are even factored in, and a 4-bay setup with 4 matching drives adds real cost on top of the enclosure. For a household or small office backing up 3 or more computers automatically, the extra bays and CPU headroom are what justify the price.",
+      "The DXP4800 Plus is the only 4-bay in this list, built around an Intel Pentium Gold 8505 5-core CPU that can comfortably run scheduled backup jobs for several computers at once alongside RAID rebuilds and other services. Four bays also mean more RAID configuration flexibility than any 2-bay option here allows.\n\nIt is the most expensive pick in this list before drives are even factored in, and a 4-bay setup with 4 matching drives adds real cost on top of the enclosure. For a household or small office backing up 3 or more computers automatically, the extra bays and CPU headroom are what justify the price.\n\nA genuine advantage here is that 4 bays allow RAID 5/6/10 for better redundancy than a 2-bay. The tradeoff is most expensive enclosure in this list.",
     specs: [
       "4-bay diskless NAS",
       "Intel Pentium Gold 8505 5-core CPU",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "AFP is being retired, verify SMB3 support before buying",
-    explanation:
-      "macOS is removing AFP (Apple Filing Protocol) support in macOS 27 and later, and any NAS still relying on AFP for backup will silently fail to connect after that update. Before buying, confirm the NAS firmware supports SMB3 with Bonjour/mDNS advertising enabled, which is the protocol combination that keeps automatic backup working long term.",
+    "criterion": "Remember every listed NAS here is diskless, budget drives separately",
+    "explanation": "The price shown for a NAS enclosure covers the hardware chassis, CPU, and RAM only, not the actual storage drives, NAS-grade drives built for 24/7 operation like Seagate IronWolf or WD Red still need to be budgeted on top, often adding $80 to $200 or more per bay depending on capacity and drive type.\n\nThis matters because comparing NAS units purely by enclosure price without factoring in drive cost gives a misleading picture of the real total investment, a cheaper enclosure with more bays to fill can end up costing more overall than a pricier enclosure with fewer bays.\n\nCheck whether a listing is diskless or ships with drives included, and add realistic per-bay drive costs to the enclosure price before comparing total cost across options."
   },
   {
-    criterion: "Set a backup quota or one computer can fill the whole NAS",
-    explanation:
-      "Backup software defaults to using all available space unless you set a per-computer quota in the NAS admin panel. Without one, a single laptop's growing backup history can silently consume the entire array, leaving no room for a second computer's backups.",
+    "criterion": "Weigh CPU class and RAM over bay count for real day-to-day performance",
+    "explanation": "Bay count determines maximum storage capacity, but CPU architecture (Intel, AMD, or ARM) and RAM amount determine how well the NAS actually handles real workloads, running apps, transcoding media on the fly, or serving multiple simultaneous users, and a higher bay count with a weak CPU can bottleneck performance regardless of how much raw storage it holds.\n\nThis matters more the more the NAS will do beyond simple file storage, like Plex transcoding or running multiple docker containers, less if it's purely a basic backup target.\n\nCheck the specific CPU model and RAM amount (and whether RAM is upgradeable) rather than choosing primarily by bay count."
   },
   {
-    criterion: "RAID 1 gives you half your total drive capacity, not all of it",
-    explanation:
-      "Two 4TB drives in RAID 1 give you 4TB of usable, protected space, not 8TB, since the second drive exists purely as a mirror. Buyers expecting the full combined capacity are often surprised after setup; plan your drive purchase around usable, not raw, capacity.",
+    "criterion": "Understand RAID as a rebuild-time safety net, not a substitute for real backup",
+    "explanation": "RAID configurations protect against a single drive failure by letting the array rebuild from redundant data, but RAID is not a backup, it does nothing to protect against accidental deletion, ransomware, theft, fire, or a controller failure that affects the whole array at once.\n\nThis distinction matters because treating RAID redundancy as sufficient backup protection is a common and genuinely risky misunderstanding, a real backup strategy needs a copy of critical data stored somewhere physically separate from the NAS itself.\n\nCheck what RAID level a given NAS supports, and separately plan an actual backup strategy, ideally following a 3-2-1 approach, rather than relying on RAID redundancy alone."
   },
   {
-    criterion: "Backups need to be verified, not just scheduled",
-    explanation:
-      "Scheduling a nightly backup job is only half the task. A backup can appear to run successfully for months while silently failing to restore due to RAID errors or file corruption, so plan on a periodic test restore, at least once a quarter, to confirm the backup is actually usable.",
+    "criterion": "Match drive type (HDD vs SSD/NVMe) to your actual access pattern",
+    "explanation": "Traditional hard drives offer the lowest cost per terabyte for bulk storage like media libraries or backups, while SSD or NVMe-based NAS storage costs significantly more per terabyte but delivers much faster random access speeds, genuinely useful for frequently-accessed files, active project work, or serving as a fast cache tier.\n\nThis matters directly based on how you'll actually use the storage, a media library accessed sequentially benefits little from SSD speed, while an active working file share benefits considerably.\n\nCheck whether the NAS supports the drive type you need, and weigh the real cost-per-terabyte difference against how much you'll actually benefit from faster random access."
   },
   {
-    criterion: "A NAS is one leg of the 3-2-1 backup rule, not the whole rule",
-    explanation:
-      "A NAS gives you a local backup copy, but the 3-2-1 rule calls for 3 copies of your data across 2 different media with 1 copy stored offsite. A NAS alone does not protect against fire, theft, or a ransomware attack that reaches your local network, so pair it with a cloud backup destination for anything irreplaceable.",
-  },
-  {
-    criterion: "Soldered RAM limits what you can add later",
-    explanation:
-      "Value-tier NAS models with soldered, non-upgradeable RAM work fine for backup alone but create an early ceiling if you later want to add Plex, surveillance, or multi-user file sharing on the same box. If you expect to grow into more use cases, prioritize a model with user-upgradeable RAM even if it costs more upfront.",
-  },
+    "criterion": "Consider noise level if the NAS will run continuously in a shared living or office space",
+    "explanation": "A NAS that runs 24/7 generates continuous fan and drive noise, and that noise profile varies meaningfully between models, some use larger, slower-spinning fans that stay genuinely quiet, while others rely on smaller, faster fans that produce a persistent whine noticeable in a quiet room.\n\nThis matters a great deal if the NAS will sit in a bedroom, living room, or shared home office rather than a dedicated closet or basement out of earshot.\n\nCheck reviews specifically for real-world noise level mentions during continuous operation, not just idle noise, since drive activity and fan speed both increase under load."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,63 +359,102 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Number of Computers You're Backing Up",
-    intro:
-      "The right NAS scales with how many machines it needs to back up on schedule, since RAM, CPU, and bay count all determine how many concurrent jobs run smoothly.",
-    table: {
-      headers: ["Computers to back up", "What matters most", "Best pick"],
-      rows: [
-        ["1 computer, documents and photos", "Low cost, simple setup", "UGREEN DH2300 or Asustor Drivestor 2 Gen 2"],
-        ["1 computer, large media/project files", "CPU headroom for big incrementals", "UGREEN DXP2800"],
-        ["2-3 computers, mixed use", "Dedicated backup software with quotas", "Synology DS223"],
-        ["3+ computers or a small office", "RAID flexibility, multi-job RAM", "UGREEN DXP4800 Plus, QNAP TS-264-8G"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Synology DS223 Home & Office Backup Hub"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Synology DS223 Home & Office Backup Hub"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Operating System Being Backed Up",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $200",
+          "UGREEN NAS DH2300"
+        ],
+        [
+          "Up to $620",
+          "UGREEN NAS DXP4800 Plus"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Diskless Enclosure vs Drives Included",
+    "cards": [
       {
-        label: "Mostly Windows PCs",
-        text: "QNAP's Hybrid Backup Sync and Synology's Active Backup for Business both handle full Windows PC image backup with versioning and deduplication.",
+        "label": "Diskless enclosure",
+        "text": "Lets you choose your own NAS-grade drives and capacity, but budget $80-200+ per bay separately. In this comparison: Synology DS223 Home & Office Backup Hub, UGREEN NAS DH2300, TERRAMASTER F2, UGREEN NAS DXP4800 Plus."
       },
       {
-        label: "Mac with Time Machine",
-        text: "Confirm SMB3 support before buying, since AFP is being phased out of macOS. All 8 picks here support SMB3, but always verify current firmware before purchase.",
-      },
-      {
-        label: "Mixed Windows and Mac household",
-        text: "The Synology DS223 or QNAP TS-264-8G handle mixed-OS backup cleanly, since both platforms support separate scheduled jobs per device with their own quotas.",
-      },
+        "label": "Drives included",
+        "text": "Ready to use out of the box, simpler for a first NAS purchase. In this comparison: UGREEN NAS DXP2800, QNAP TS, Asustor Drivestor 2 Gen 2 AS1202T, QNAP TS."
+      }
     ],
+    "note": "Default to diskless if you want control over drive choice and capacity, drives-included for the simplest setup."
   },
   {
-    subheading: "First Backup Speed: Network Matters More Than You'd Think",
-    intro:
-      "A first full backup of a modern SSD laptop can take 8-24 hours over a standard gigabit connection, so network speed changes how painful day one actually is.",
-    table: {
-      headers: ["Network setup", "First backup speed", "Best pick"],
-      rows: [
-        ["Standard gigabit network", "Fine for incremental backups after day one", "Any pick, no 2.5GbE needed"],
-        ["2.5GbE router/switch already installed", "Meaningfully faster first full backup", "QNAP TS-216G-US, Asustor Drivestor 2 Gen 2, TERRAMASTER F2-425"],
-        ["Planning to upgrade network later", "2.5GbE port pays off once switch is upgraded", "QNAP TS-216G-US"],
+    "subheading": "By Drive Type Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "Run the very first full backup over Ethernet rather than Wi-Fi regardless of which NAS you choose; incremental backups after that are fine wirelessly.",
+      "rows": [
+        [
+          "SSD/NVMe for fast random access",
+          "QNAP TS"
+        ],
+        [
+          "HDD for bulk storage is enough",
+          "Synology DS223 Home & Office Backup Hub"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Budget vs. Headroom",
-    intro:
-      "It's easy to underspend on RAM and CPU if you're only thinking about today's single laptop, but backup needs tend to grow.",
-    table: {
-      headers: ["Budget tier", "Trade-off", "Best pick"],
-      rows: [
-        ["Under $250, single computer", "Lean RAM, focused on backup only", "UGREEN DH2300, Asustor Drivestor 2 Gen 2"],
-        ["$250-$400, some multitasking headroom", "Intel CPU or larger RAM buffer", "TERRAMASTER F2-425, UGREEN DXP2800"],
-        ["$450+, heavy concurrent jobs", "8GB+ RAM or 4-bay RAID flexibility", "QNAP TS-264-8G, UGREEN DXP4800 Plus"],
-      ],
-    },
+    "subheading": "For Media Streaming or Plex Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A CPU capable of hardware transcoding and enough RAM to handle multiple simultaneous streams, not just total bay count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Synology DS223 Home & Office Backup Hub is worth checking against its listed CPU and RAM before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real multi-user performance, media transcoding, or business-critical reliability, where UGREEN NAS DXP4800 Plus's CPU and RAM give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need simple backup storage for one or two users, where UGREEN NAS DH2300 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31xSdRsBUEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C8S7SF4B?tag=deskfinds0d-20",
     description:
-      "The DS925+ is Synology's current 4-bay Plus-series enclosure, the tier that supports upgradeable RAM rather than the soldered memory found on entry Value-series models. That matters if you plan to add Plex, Surveillance Station, or other apps down the road rather than use the NAS purely for backup.\n\nAs a 2024+ Plus-series model, it shows compatibility warnings in DSM for non-Synology drives, a detail Synology doesn't advertise prominently. Synology-branded drives avoid the warning entirely but carry a 15-30% price premium over third-party NAS drives that will still work despite the flag.",
+      "The DS925+ is Synology's current 4-bay Plus-series enclosure, the tier that supports upgradeable RAM rather than the soldered memory found on entry Value-series models. That matters if you plan to add Plex, Surveillance Station, or other apps down the road rather than use the NAS purely for backup.\n\nAs a 2024+ Plus-series model, it shows compatibility warnings in DSM for non-Synology drives, a detail Synology doesn't advertise prominently. Synology-branded drives avoid the warning entirely but carry a 15-30% price premium over third-party NAS drives that will still work despite the flag.\n\nFull DSM app ecosystem including Active Backup for Business. That's a real strength, but weigh it against the flip side: most expensive pick in this list.",
     specs: [
       "4-bay diskless enclosure",
       "Upgradeable RAM (Plus-series)",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/3117pnUjwGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C8814GKB?tag=deskfinds0d-20",
     description:
-      "The DS223j is Synology's entry Value-series 2-bay enclosure, priced well below the Plus-series while still running the same DSM software. It's a genuinely simpler starting point for a first NAS, especially for buyers who just want centralized backup rather than a multi-app home server.\n\nValue-series models carry less restrictive third-party drive compatibility than 2024+ Plus-series units, so a wider range of NAS-grade drives will run without DSM flagging a warning. The trade-off is soldered RAM that can't be upgraded later.",
+      "The DS223j is Synology's entry Value-series 2-bay enclosure, priced well below the Plus-series while still running the same DSM software. It's a genuinely simpler starting point for a first NAS, especially for buyers who just want centralized backup rather than a multi-app home server.\n\nValue-series models carry less restrictive third-party drive compatibility than 2024+ Plus-series units, so a wider range of NAS-grade drives will run without DSM flagging a warning. The trade-off is soldered RAM that can't be upgraded later.\n\nWorth calling out specifically: fewer third-party drive compatibility warnings than Plus-series. The catch is soldered RAM cannot be upgraded later.",
     specs: [
       "2-bay diskless enclosure",
       "Value-series, soldered RAM",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41CoDmrFUGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BY7LGMNP?tag=deskfinds0d-20",
     description:
-      "The DS423 sits between the budget DS223j and the Plus-series DS925+, offering 4 bays without the full Plus-series price tag. Four bays open up RAID 5 or SHR with a real spare-drive margin, something a 2-bay enclosure simply cannot do.\n\nIt's positioned for family and small-business backup, video surveillance, and photo storage rather than heavy multi-user app workloads, so it's a sensible pick for buyers who want more bays without paying Plus-series prices for RAM they may not need.",
+      "The DS423 sits between the budget DS223j and the Plus-series DS925+, offering 4 bays without the full Plus-series price tag. Four bays open up RAID 5 or SHR with a real spare-drive margin, something a 2-bay enclosure simply cannot do.\n\nIt's positioned for family and small-business backup, video surveillance, and photo storage rather than heavy multi-user app workloads, so it's a sensible pick for buyers who want more bays without paying Plus-series prices for RAM they may not need.\n\nSupports RAID 5 and SHR for real redundancy. Set against that, less CPU power than Plus-series for heavy transcoding. Both matter when comparing it to the other picks here.",
     specs: [
       "4-bay diskless enclosure",
       "Supports RAID 5, SHR",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21nJ2B4QOLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CBTVMMLB?tag=deskfinds0d-20",
     description:
-      "The DS725+ starts as a 2-bay enclosure but supports an expansion unit to add more bays later, letting buyers start small and grow into a larger array without replacing the whole NAS. That expandability is unusual at the 2-bay tier and worth the premium over the DS223j for buyers who expect to outgrow 2 bays.\n\nAs a current-generation Plus-series model it carries upgradeable RAM and the same 2024+ third-party drive compatibility warnings as the DS925+, so budget for Synology-branded drives or expect a DSM warning flag with third-party NAS drives.",
+      "The DS725+ starts as a 2-bay enclosure but supports an expansion unit to add more bays later, letting buyers start small and grow into a larger array without replacing the whole NAS. That expandability is unusual at the 2-bay tier and worth the premium over the DS223j for buyers who expect to outgrow 2 bays.\n\nAs a current-generation Plus-series model it carries upgradeable RAM and the same 2024+ third-party drive compatibility warnings as the DS925+, so budget for Synology-branded drives or expect a DSM warning flag with third-party NAS drives.\n\nA genuine advantage here is that upgradeable RAM for future app needs. The tradeoff is pricier than the DS223j for the same starting bay count.",
     specs: [
       "2-bay diskless enclosure, expandable",
       "Upgradeable RAM (Plus-series)",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ACKzpdVoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FNWHSPXF?tag=deskfinds0d-20",
     description:
-      "UGREEN's DH2300 undercuts the Synology DS223j slightly while supporting up to 64TB of raw capacity across its 2 bays. As a non-Synology platform, its own hardware compatibility list applies rather than DSM's drive warnings, so it's worth checking UGREEN's published list before buying drives.\n\nIt's a legitimate lower-cost entry point into 2-bay diskless NAS for buyers who don't need Synology's specific app ecosystem and are comfortable with UGREEN's own NAS OS instead.",
+      "UGREEN's DH2300 undercuts the Synology DS223j slightly while supporting up to 64TB of raw capacity across its 2 bays. As a non-Synology platform, its own hardware compatibility list applies rather than DSM's drive warnings, so it's worth checking UGREEN's published list before buying drives.\n\nIt's a legitimate lower-cost entry point into 2-bay diskless NAS for buyers who don't need Synology's specific app ecosystem and are comfortable with UGREEN's own NAS OS instead.\n\nSupports up to 64TB raw capacity. That's a real strength, but weigh it against the flip side: smaller app ecosystem than Synology DSM.",
     specs: [
       "2-bay diskless enclosure",
       "Supports up to 64TB total capacity",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/310l7keevAS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07K4RC7X9?tag=deskfinds0d-20",
     description:
-      "The TR-004 is a direct-attached storage enclosure rather than a network NAS, it connects over USB Type-C to a single computer instead of the network, with hardware RAID handled onboard. That makes it a different category from the network-attached picks in this list, useful for buyers who want RAID capacity attached directly to one machine rather than shared storage.\n\nAt 4 bays for $219, it's one of the cheapest ways to add hardware RAID 5 capacity to a single desktop or laptop, but it does not offer the multi-user network access, apps, or remote access that a true NAS enclosure provides.",
+      "The TR-004 is a direct-attached storage enclosure rather than a network NAS, it connects over USB Type-C to a single computer instead of the network, with hardware RAID handled onboard. That makes it a different category from the network-attached picks in this list, useful for buyers who want RAID capacity attached directly to one machine rather than shared storage.\n\nAt 4 bays for $219, it's one of the cheapest ways to add hardware RAID 5 capacity to a single desktop or laptop, but it does not offer the multi-user network access, apps, or remote access that a true NAS enclosure provides.\n\nWorth calling out specifically: hardware RAID handled onboard, no network setup needed. The catch is not network-attached, only one host at a time.",
     specs: [
       "4-bay diskless DAS enclosure",
       "USB Type-C direct-attached, not network-attached",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21z94zz6wGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CTTL9R7Z?tag=deskfinds0d-20",
     description:
-      "The D4-320 is the cheapest pick in this entire list at $151.99, another USB direct-attached enclosure rather than a network NAS, but its USB 3.2 Gen2 Type-C connection runs at 10Gbps, faster than the TR-004's USB Type-C link. That extra bandwidth benefits large sequential transfers to a single connected computer.\n\nLike the TR-004, this is DAS, not NAS, so it lacks network sharing, apps, and multi-user access. It's the right pick for buyers who specifically want fast, low-cost RAID expansion for one machine and don't need network storage features.",
+      "The D4-320 is the cheapest pick in this entire list at $151.99, another USB direct-attached enclosure rather than a network NAS, but its USB 3.2 Gen2 Type-C connection runs at 10Gbps, faster than the TR-004's USB Type-C link. That extra bandwidth benefits large sequential transfers to a single connected computer.\n\nLike the TR-004, this is DAS, not NAS, so it lacks network sharing, apps, and multi-user access. It's the right pick for buyers who specifically want fast, low-cost RAID expansion for one machine and don't need network storage features.\n\n10Gbps USB 3.2 Gen2 connection outpaces the TR-004's link speed. Set against that, direct-attached only, no network sharing. Both matter when comparing it to the other picks here.",
     specs: [
       "4-bay diskless DAS enclosure",
       "USB 3.2 Gen2 Type-C, 10Gbps",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21VvdqtKHoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BRNBVTJK?tag=deskfinds0d-20",
     description:
-      "The DS223 sits above the DS223j in Synology's lineup, marketed specifically around centralizing files, protecting data, and monitoring property, a straightforward pick for buyers whose main goal is automatic backup and file centralization rather than a broad app platform.\n\nIt runs full DSM with RAID 1 support across its 2 bays, giving basic mirrored redundancy for a home or small office backup target. Buyers who outgrow 2 bays later will need to step up to a 4-bay model like the DS423 or DS925+ in this list.",
+      "The DS223 sits above the DS223j in Synology's lineup, marketed specifically around centralizing files, protecting data, and monitoring property, a straightforward pick for buyers whose main goal is automatic backup and file centralization rather than a broad app platform.\n\nIt runs full DSM with RAID 1 support across its 2 bays, giving basic mirrored redundancy for a home or small office backup target. Buyers who outgrow 2 bays later will need to step up to a 4-bay model like the DS423 or DS925+ in this list.\n\nA genuine advantage here is that runs full DSM including monitoring apps. The tradeoff is only 2 bays limits total capacity and RAID options.",
     specs: [
       "2-bay diskless enclosure",
       "RAID 1 mirroring support",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Buy CMR drives, not SMR, for any RAID array",
-    explanation:
-      "SMR (Shingled Magnetic Recording) drives write new data by overlapping existing tracks, which slows dramatically during a RAID rebuild and can cause the rebuild to fail outright. CMR (Conventional Magnetic Recording) drives write to dedicated tracks and are the only sensible choice for RAID. Some lower-capacity drives marketed as \"NAS\" drives still use SMR, so check the specific model's recording type before buying, not just the marketing label.",
+    "criterion": "Remember every listed NAS here is diskless, budget drives separately",
+    "explanation": "The price shown for a NAS enclosure covers the hardware chassis, CPU, and RAM only, not the actual storage drives, NAS-grade drives built for 24/7 operation like Seagate IronWolf or WD Red still need to be budgeted on top, often adding $80 to $200 or more per bay depending on capacity and drive type.\n\nThis matters because comparing NAS units purely by enclosure price without factoring in drive cost gives a misleading picture of the real total investment, a cheaper enclosure with more bays to fill can end up costing more overall than a pricier enclosure with fewer bays.\n\nCheck whether a listing is diskless or ships with drives included, and add realistic per-bay drive costs to the enclosure price before comparing total cost across options."
   },
   {
-    criterion: "Check the enclosure's hardware compatibility list before buying drives",
-    explanation:
-      "Every NAS manufacturer publishes a list of tested, compatible drives. Buying an unlisted drive may still work, but RAID rebuild reliability and health reporting are not guaranteed the way they are for listed drives. This matters more on 2024+ Synology Plus-series models, which show compatibility warnings in DSM for non-Synology drives even when the drive itself is CMR and otherwise suitable.",
+    "criterion": "Weigh CPU class and RAM over bay count for real day-to-day performance",
+    "explanation": "Bay count determines maximum storage capacity, but CPU architecture (Intel, AMD, or ARM) and RAM amount determine how well the NAS actually handles real workloads, running apps, transcoding media on the fly, or serving multiple simultaneous users, and a higher bay count with a weak CPU can bottleneck performance regardless of how much raw storage it holds.\n\nThis matters more the more the NAS will do beyond simple file storage, like Plex transcoding or running multiple docker containers, less if it's purely a basic backup target.\n\nCheck the specific CPU model and RAM amount (and whether RAM is upgradeable) rather than choosing primarily by bay count."
   },
   {
-    criterion: "Diskless makes sense when you already have drives or want flexibility",
-    explanation:
-      "A diskless enclosure is the right call if you already own compatible drives or want to choose your own capacity and brand rather than pay a bundling markup. First-time NAS buyers who want to avoid drive-selection research may be better served by a NAS that ships with drives included, since diskless removes the drive decision anxiety at the cost of doing that research yourself.",
+    "criterion": "Understand RAID as a rebuild-time safety net, not a substitute for real backup",
+    "explanation": "RAID configurations protect against a single drive failure by letting the array rebuild from redundant data, but RAID is not a backup, it does nothing to protect against accidental deletion, ransomware, theft, fire, or a controller failure that affects the whole array at once.\n\nThis distinction matters because treating RAID redundancy as sufficient backup protection is a common and genuinely risky misunderstanding, a real backup strategy needs a copy of critical data stored somewhere physically separate from the NAS itself.\n\nCheck what RAID level a given NAS supports, and separately plan an actual backup strategy, ideally following a 3-2-1 approach, rather than relying on RAID redundancy alone."
   },
   {
-    criterion: "Plan for drive temperature in multi-bay enclosures",
-    explanation:
-      "Cheaper enclosures often use slower or weaker fans, and drive temperatures in a 4-bay unit can exceed safe long-term thresholds without adequate airflow. Enclosures with better fan curves and built-in temperature monitoring in their OS are worth the extra cost if the unit will run drives continuously.",
+    "criterion": "Match drive type (HDD vs SSD/NVMe) to your actual access pattern",
+    "explanation": "Traditional hard drives offer the lowest cost per terabyte for bulk storage like media libraries or backups, while SSD or NVMe-based NAS storage costs significantly more per terabyte but delivers much faster random access speeds, genuinely useful for frequently-accessed files, active project work, or serving as a fast cache tier.\n\nThis matters directly based on how you'll actually use the storage, a media library accessed sequentially benefits little from SSD speed, while an active working file share benefits considerably.\n\nCheck whether the NAS supports the drive type you need, and weigh the real cost-per-terabyte difference against how much you'll actually benefit from faster random access."
   },
   {
-    criterion: "Diskless means you install the OS yourself on first boot",
-    explanation:
-      "A diskless enclosure ships with no pre-installed operating system. During first setup, the NAS OS downloads and installs automatically for most brands, but this requires an internet connection and takes real time. New buyers sometimes assume the OS is already installed and are surprised by this extra first-boot step.",
-  },
-  {
-    criterion: "Understand true total cost before comparing enclosure prices alone",
-    explanation:
-      "A diskless enclosure's sticker price is only part of the purchase. Two or four NAS-grade CMR drives at current capacity pricing typically cost as much as, or more than, the enclosure itself, so compare total planned cost (enclosure plus drives) rather than judging enclosures on price alone.",
-  },
+    "criterion": "Consider noise level if the NAS will run continuously in a shared living or office space",
+    "explanation": "A NAS that runs 24/7 generates continuous fan and drive noise, and that noise profile varies meaningfully between models, some use larger, slower-spinning fans that stay genuinely quiet, while others rely on smaller, faster fans that produce a persistent whine noticeable in a quiet room.\n\nThis matters a great deal if the NAS will sit in a bedroom, living room, or shared home office rather than a dedicated closet or basement out of earshot.\n\nCheck reviews specifically for real-world noise level mentions during continuous operation, not just idle noise, since drive activity and fan speed both increase under load."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,68 +359,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Bay Count You Need",
-    intro:
-      "The picks in this list split cleanly into 2-bay and 4-bay enclosures, and the right count depends on how much redundancy and future expansion you actually need.",
-    table: {
-      headers: ["Need", "Bay count", "Best pick"],
-      rows: [
-        ["Simple backup hub, lowest cost", "2-bay", "UGREEN NAS DH2300, Synology DS223j"],
-        ["Backup with monitoring apps", "2-bay", "Synology DS223"],
-        ["Start small, expand later", "2-bay expandable", "Synology DS725+"],
-        ["RAID 5 with real spare-drive margin", "4-bay", "Synology DS423, DS925+"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Synology 4"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Synology 4"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Network NAS vs. Direct-Attached Storage",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $152",
+          "TERRAMASTER D4"
+        ],
+        [
+          "Up to $700",
+          "Synology 4"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Bay Count vs Price",
+    "cards": [
       {
-        label: "Want shared storage for multiple users or devices",
-        text: "Synology's DS223j, DS223, DS423, DS725+, and DS925+ are true network-attached NAS units that multiple devices can access at once.",
+        "label": "TERRAMASTER D4",
+        "text": "The lower-priced option in this comparison, worth checking its CPU and RAM against your actual workload."
       },
       {
-        label: "Want RAID capacity for a single computer, no network needed",
-        text: "The QNAP TR-004 and TERRAMASTER D4-320 are direct-attached storage (DAS), connecting via USB to one host rather than the network.",
-      },
-      {
-        label: "Want the fastest single-host connection",
-        text: "The TERRAMASTER D4-320 runs USB 3.2 Gen2 at 10Gbps, faster than the TR-004's USB Type-C link, for large sequential transfers.",
-      },
-      {
-        label: "Want apps like Plex, Surveillance Station, or remote access",
-        text: "Only the network NAS picks support an app ecosystem; DAS enclosures like the TR-004 and D4-320 have none.",
-      },
+        "label": "Synology 4",
+        "text": "The higher-priced option, worth it if it offers real bay count or performance headroom above the cheaper pick."
+      }
     ],
+    "note": "Default to TERRAMASTER D4 unless your storage needs genuinely call for the pricier pick."
   },
   {
-    subheading: "By Drive Compatibility Sensitivity",
-    intro:
-      "Not every enclosure treats third-party drives the same way, and this affects which drives you should shop for once the enclosure is decided.",
-    table: {
-      headers: ["Pick", "Drive compatibility posture", "What to do"],
-      rows: [
-        ["Synology DS925+, DS725+ (2024+ Plus-series)", "Shows warnings for non-Synology drives", "Budget for Synology-branded drives or accept the DSM warning flag"],
-        ["Synology DS223j, DS223, DS423", "Less restrictive than 2024+ Plus-series", "Check Synology's compatibility list, wider third-party drive support"],
-        ["UGREEN DH2300", "Own hardware compatibility list, not DSM", "Check UGREEN's published list before buying drives"],
-        ["QNAP TR-004, TERRAMASTER D4-320", "Own RAID controller compatibility", "Confirm CMR drives on the manufacturer's list"],
-      ],
-    },
+    "subheading": "By CPU and RAM",
+    "note": "Check each pick's listed CPU architecture and RAM amount against your actual workload before buying, not just bay count alone. Synology 4 is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "By RAM Upgrade Path",
-    intro:
-      "If you expect to add apps like Plex transcoding or Surveillance Station later, RAM upgradeability now avoids a forced hardware swap down the line.",
-    table: {
-      headers: ["Tier", "RAM", "Best pick"],
-      rows: [
-        ["Value-series, backup-focused", "Soldered, fixed", "Synology DS223j, DS223, DS423"],
-        ["Plus-series, app-flexible", "Upgradeable", "Synology DS725+, DS925+"],
-        ["Non-Synology platform", "Check model specs directly", "UGREEN DH2300"],
-      ],
-    },
-    note: "Buyers who are certain they'll only ever use the NAS for basic backup can save money on a Value-series model; buyers who might add Plex or business apps later should prioritize the upgradeable-RAM Plus-series tier now rather than replacing the enclosure later.",
+    "subheading": "For Media Streaming or Plex Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A CPU capable of hardware transcoding and enough RAM to handle multiple simultaneous streams, not just total bay count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Synology 4 is worth checking against its listed CPU and RAM before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real multi-user performance, media transcoding, or business-critical reliability, where Synology 4's CPU and RAM give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need simple backup storage for one or two users, where TERRAMASTER D4 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

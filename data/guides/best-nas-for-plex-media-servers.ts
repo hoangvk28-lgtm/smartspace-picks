@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31vNev8kUwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D22JRHZB?tag=deskfinds0d-20",
     description:
-      "The DXP4800 Plus pairs an Intel Pentium Gold 5-core CPU with 4 drive bays, enough horsepower to hardware-transcode a 4K stream while still serving direct play requests to other rooms at the same time. That combination is what actually separates a premium Plex NAS from a budget one, not the brand name on the case.\n\nFour bays give real capacity headroom for a growing media library, and the Intel chip means hardware transcoding is available if a Plex Pass subscription is added later. Buyers who only ever stream to direct-play-capable clients will still get full value from the extra bays for expansion.",
+      "The DXP4800 Plus pairs an Intel Pentium Gold 5-core CPU with 4 drive bays, enough horsepower to hardware-transcode a 4K stream while still serving direct play requests to other rooms at the same time. That combination is what actually separates a premium Plex NAS from a budget one, not the brand name on the case.\n\nFour bays give real capacity headroom for a growing media library, and the Intel chip means hardware transcoding is available if a Plex Pass subscription is added later. Buyers who only ever stream to direct-play-capable clients will still get full value from the extra bays for expansion.\n\n4 bays leave room for a growing library. That's a real strength, but weigh it against the flip side: most expensive pick in this list.",
     specs: [
       "4-bay NAS enclosure",
       "Intel Pentium Gold 5-core CPU",
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21+Y7Nr2xAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTWWJK9V?tag=deskfinds0d-20",
     description:
-      "QNAP's TS-264-8G ships with 8GB of RAM out of the box, a meaningful advantage for anyone running a Plex library with 5,000 or more items, since metadata indexing for large libraries is genuinely RAM-hungry. Combined with an Intel-class processor, it's built to hardware transcode without leaning on the CPU alone.\n\nTwo bays keep the footprint compact for a home office rather than a media closet, and the extra RAM headroom also helps if Plex is run alongside other containerized apps on the same box.",
+      "QNAP's TS-264-8G ships with 8GB of RAM out of the box, a meaningful advantage for anyone running a Plex library with 5,000 or more items, since metadata indexing for large libraries is genuinely RAM-hungry. Combined with an Intel-class processor, it's built to hardware transcode without leaning on the CPU alone.\n\nTwo bays keep the footprint compact for a home office rather than a media closet, and the extra RAM headroom also helps if Plex is run alongside other containerized apps on the same box.\n\nWorth calling out specifically: built for genuine hardware transcoding. The catch is only 2 bays limits total raw capacity.",
     specs: [
       "2-bay desktop NAS",
       "8GB RAM included",
@@ -113,7 +113,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ccz6M7cCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D22HBFK1?tag=deskfinds0d-20",
     description:
-      "The DXP2800 sits between the budget ARM boxes and the full Intel 4-bay units in this list, giving content creators enough processing headroom for a mixed workload of media editing and Plex serving without paying for 4 bays they may not fill right away.\n\nIt's a sensible middle pick for anyone who wants some transcoding capability without committing to the largest and most expensive enclosure in this roundup.",
+      "The DXP2800 sits between the budget ARM boxes and the full Intel 4-bay units in this list, giving content creators enough processing headroom for a mixed workload of media editing and Plex serving without paying for 4 bays they may not fill right away.\n\nIt's a sensible middle pick for anyone who wants some transcoding capability without committing to the largest and most expensive enclosure in this roundup.\n\nEnough headroom for occasional transcoding. Set against that, only 2 bays caps total capacity. Both matter when comparing it to the other picks here.",
     specs: [
       "2-bay NAS enclosure",
       "Mid-tier CPU for mixed workloads",
@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ejB5cFDGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHVZ53RN?tag=deskfinds0d-20",
     description:
-      "The F2-425 is the cheapest Intel x86 quad-core NAS in this list, and that matters because an Intel chip is what actually enables hardware transcoding down the line, ARM chips simply can't do it regardless of subscription status. At 4GB RAM it's suited to a moderate library rather than a massive one.\n\n2.5GbE networking is also built in, which is the networking tier this guide recommends once more than one 4K stream needs to run to different rooms at the same time.",
+      "The F2-425 is the cheapest Intel x86 quad-core NAS in this list, and that matters because an Intel chip is what actually enables hardware transcoding down the line, ARM chips simply can't do it regardless of subscription status. At 4GB RAM it's suited to a moderate library rather than a massive one.\n\n2.5GbE networking is also built in, which is the networking tier this guide recommends once more than one 4K stream needs to run to different rooms at the same time.\n\nA genuine advantage here is that 2.5GbE networking supports multi-room 4K. The tradeoff is 4GB RAM is tighter for very large libraries.",
     specs: [
       "2-bay NAS",
       "Intel x86 quad-core CPU",
@@ -172,7 +172,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21lrHwmtuBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GN3YJN2F?tag=deskfinds0d-20",
     description:
-      "A 4K H.265 remux typically needs 50 to 80 Mbps of sustained throughput, which a standard 1GbE connection handles fine for one stream. Once a household wants two or more simultaneous 4K streams in different rooms, a 2.5GbE NAS paired with a 2.5GbE switch removes the network as the bottleneck, and that's exactly what the TS-216G is built around.\n\nIt's a solid pick for a household with multiple TVs pulling from the same library at once, even if the CPU inside leans more toward direct play than heavy transcoding duty.",
+      "A 4K H.265 remux typically needs 50 to 80 Mbps of sustained throughput, which a standard 1GbE connection handles fine for one stream. Once a household wants two or more simultaneous 4K streams in different rooms, a 2.5GbE NAS paired with a 2.5GbE switch removes the network as the bottleneck, and that's exactly what the TS-216G is built around.\n\nIt's a solid pick for a household with multiple TVs pulling from the same library at once, even if the CPU inside leans more toward direct play than heavy transcoding duty.\n\nSolid pick for multi-TV households. That's a real strength, but weigh it against the flip side: cPU favors direct play over heavy transcoding.",
     specs: [
       "2-bay desktop NAS",
       "2.5GbE LAN",
@@ -201,7 +201,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/319qh9SJhIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FTFSGBB1?tag=deskfinds0d-20",
     description:
-      "The Drivestor 2 Gen 2 runs a quad-core ARM CPU, which cannot hardware transcode under any circumstance, Plex Pass or not, but that's a non-issue for a household where every client, a modern smart TV, phone, or streaming stick, already supports direct play of H.264 and H.265 files.\n\nAt this price it's an entry point into Plex ownership rather than a media powerhouse, and 2.5GbE networking still keeps it relevant for a single 4K stream without a network bottleneck.",
+      "The Drivestor 2 Gen 2 runs a quad-core ARM CPU, which cannot hardware transcode under any circumstance, Plex Pass or not, but that's a non-issue for a household where every client, a modern smart TV, phone, or streaming stick, already supports direct play of H.264 and H.265 files.\n\nAt this price it's an entry point into Plex ownership rather than a media powerhouse, and 2.5GbE networking still keeps it relevant for a single 4K stream without a network bottleneck.\n\nWorth calling out specifically: handles direct play smoothly for compatible clients. The catch is aRM CPU cannot hardware transcode at all.",
     specs: [
       "2-bay NAS",
       "Quad-core 1.7GHz ARM CPU",
@@ -231,7 +231,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ACKzpdVoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FNWHSPXF?tag=deskfinds0d-20",
     description:
-      "The DH2300 supports up to 64TB of raw capacity across its 2 bays, giving it room for a genuinely large media library despite its entry-level price. It's a diskless enclosure, so drives are purchased separately based on how much library headroom is actually needed.\n\nLike the other ARM-based picks in this list, it's built around direct play rather than transcoding, which keeps costs down for households that don't need the CPU horsepower a Plex Pass subscription would otherwise put to use.",
+      "The DH2300 supports up to 64TB of raw capacity across its 2 bays, giving it room for a genuinely large media library despite its entry-level price. It's a diskless enclosure, so drives are purchased separately based on how much library headroom is actually needed.\n\nLike the other ARM-based picks in this list, it's built around direct play rather than transcoding, which keeps costs down for households that don't need the CPU horsepower a Plex Pass subscription would otherwise put to use.\n\nSimple, budget-friendly entry point. Set against that, not built for hardware transcoding. Both matter when comparing it to the other picks here.",
     specs: [
       "2-bay desktop NAS",
       "Supports up to 64TB total capacity",
@@ -260,7 +260,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21VvdqtKHoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BRNBVTJK?tag=deskfinds0d-20",
     description:
-      "The DS223 is primarily built as a backup and file-sharing hub, and Synology's DSM software layer makes running Plex alongside those duties straightforward for buyers who want one box instead of two. Its ARM processor keeps things focused on direct play rather than transcoding.\n\nFor a household that wants a single NAS to both back up computers and quietly run a Plex library for direct-play clients, this covers both jobs without added complexity.",
+      "The DS223 is primarily built as a backup and file-sharing hub, and Synology's DSM software layer makes running Plex alongside those duties straightforward for buyers who want one box instead of two. Its ARM processor keeps things focused on direct play rather than transcoding.\n\nFor a household that wants a single NAS to both back up computers and quietly run a Plex library for direct-play clients, this covers both jobs without added complexity.\n\nA genuine advantage here is that well-suited to combined backup plus media serving. The tradeoff is not built for hardware transcoding.",
     specs: [
       "2-bay NAS",
       "DSM software platform",
@@ -310,35 +310,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Most buyers don't need to transcode at all",
-    explanation:
-      "Direct play means the client device plays the original file format with no processing from the NAS, and most modern smart TVs, phones, and streaming boxes already support direct play of H.264 and H.265 files. If every client in the household already supports direct play, an expensive Intel NAS bought specifically for transcoding may be unnecessary spend.",
+    "criterion": "Remember every listed NAS here is diskless, budget drives separately",
+    "explanation": "The price shown for a NAS enclosure covers the hardware chassis, CPU, and RAM only, not the actual storage drives, NAS-grade drives built for 24/7 operation like Seagate IronWolf or WD Red still need to be budgeted on top, often adding $80 to $200 or more per bay depending on capacity and drive type.\n\nThis matters because comparing NAS units purely by enclosure price without factoring in drive cost gives a misleading picture of the real total investment, a cheaper enclosure with more bays to fill can end up costing more overall than a pricier enclosure with fewer bays.\n\nCheck whether a listing is diskless or ships with drives included, and add realistic per-bay drive costs to the enclosure price before comparing total cost across options."
   },
   {
-    criterion: "Hardware transcoding requires a Plex Pass subscription",
-    explanation:
-      "Even a powerful Intel-based NAS will fall back to software transcoding, running at roughly the same speed as a budget ARM NAS, unless a Plex Pass subscription is active. Buying Intel hardware for transcoding without also budgeting for Plex Pass defeats the purpose of the upgrade.",
+    "criterion": "Weigh CPU class and RAM over bay count for real day-to-day performance",
+    "explanation": "Bay count determines maximum storage capacity, but CPU architecture (Intel, AMD, or ARM) and RAM amount determine how well the NAS actually handles real workloads, running apps, transcoding media on the fly, or serving multiple simultaneous users, and a higher bay count with a weak CPU can bottleneck performance regardless of how much raw storage it holds.\n\nThis matters more the more the NAS will do beyond simple file storage, like Plex transcoding or running multiple docker containers, less if it's purely a basic backup target.\n\nCheck the specific CPU model and RAM amount (and whether RAM is upgradeable) rather than choosing primarily by bay count."
   },
   {
-    criterion: "ARM NAS units are fine for direct-play-only setups",
-    explanation:
-      "An ARM-based budget NAS cannot hardware transcode under any circumstance, but it handles direct play perfectly well for most modern client devices. If your household's Plex clients all support direct play, an ARM NAS like the Asustor Drivestor 2 or UGREEN DH2300 saves significant money over an Intel pick.",
+    "criterion": "Understand RAID as a rebuild-time safety net, not a substitute for real backup",
+    "explanation": "RAID configurations protect against a single drive failure by letting the array rebuild from redundant data, but RAID is not a backup, it does nothing to protect against accidental deletion, ransomware, theft, fire, or a controller failure that affects the whole array at once.\n\nThis distinction matters because treating RAID redundancy as sufficient backup protection is a common and genuinely risky misunderstanding, a real backup strategy needs a copy of critical data stored somewhere physically separate from the NAS itself.\n\nCheck what RAID level a given NAS supports, and separately plan an actual backup strategy, ideally following a 3-2-1 approach, rather than relying on RAID redundancy alone."
   },
   {
-    criterion: "Network speed caps how many 4K streams run at once",
-    explanation:
-      "A 4K H.265 remux typically needs 50-80 Mbps, which is fine on standard 1GbE for a single stream. For two or more simultaneous 4K streams to different rooms, a 2.5GbE NAS paired with a 2.5GbE switch removes the network as a bottleneck.",
+    "criterion": "Match drive type (HDD vs SSD/NVMe) to your actual access pattern",
+    "explanation": "Traditional hard drives offer the lowest cost per terabyte for bulk storage like media libraries or backups, while SSD or NVMe-based NAS storage costs significantly more per terabyte but delivers much faster random access speeds, genuinely useful for frequently-accessed files, active project work, or serving as a fast cache tier.\n\nThis matters directly based on how you'll actually use the storage, a media library accessed sequentially benefits little from SSD speed, while an active working file share benefits considerably.\n\nCheck whether the NAS supports the drive type you need, and weigh the real cost-per-terabyte difference against how much you'll actually benefit from faster random access."
   },
   {
-    criterion: "Large libraries need real RAM headroom",
-    explanation:
-      "A Plex library with 5,000 or more items requires meaningful RAM for metadata indexing, especially with multiple users streaming at once. 8GB or more of RAM, like the QNAP TS-264-8G ships with, is worth prioritizing once a library grows past a few thousand titles.",
-  },
-  {
-    criterion: "Bay count determines how far a library can grow",
-    explanation:
-      "A 2-bay NAS is fine for a modest, curated library, but a 4-bay unit like the UGREEN DXP4800 Plus leaves real room to add capacity later without replacing the whole enclosure. Buy for where your library will be in 2-3 years, not just where it is today.",
-  },
+    "criterion": "Consider noise level if the NAS will run continuously in a shared living or office space",
+    "explanation": "A NAS that runs 24/7 generates continuous fan and drive noise, and that noise profile varies meaningfully between models, some use larger, slower-spinning fans that stay genuinely quiet, while others rely on smaller, faster fans that produce a persistent whine noticeable in a quiet room.\n\nThis matters a great deal if the NAS will sit in a bedroom, living room, or shared home office rather than a dedicated closet or basement out of earshot.\n\nCheck reviews specifically for real-world noise level mentions during continuous operation, not just idle noise, since drive activity and fan speed both increase under load."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -351,59 +341,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Whether You Actually Need Transcoding",
-    intro:
-      "The single biggest overspend in Plex NAS shopping is buying Intel transcoding power that never gets used because every client already supports direct play.",
-    table: {
-      headers: ["Your situation", "What you need", "Best pick"],
-      rows: [
-        ["All clients support direct play (modern TVs, phones, streaming sticks)", "ARM CPU, no Plex Pass needed", "Asustor Drivestor 2 or UGREEN DH2300"],
-        ["Mixed clients, some need occasional transcode", "Entry Intel x86 CPU", "TERRAMASTER F2-425"],
-        ["Multiple users transcoding simultaneously", "Strong Intel CPU + Plex Pass", "UGREEN DXP4800 Plus or QNAP TS-264-8G"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "UGREEN NAS DXP4800 Plus 4"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "UGREEN NAS DXP4800 Plus 4"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Network Setup",
-    intro: "How many simultaneous 4K streams your household actually runs determines whether standard 1GbE is enough or 2.5GbE is worth prioritizing.",
-    table: {
-      headers: ["Streaming pattern", "Network tier needed", "Best pick"],
-      rows: [
-        ["Single 4K stream at a time", "1GbE is sufficient", "Synology DS223"],
-        ["2+ simultaneous 4K streams, different rooms", "2.5GbE NAS + 2.5GbE switch", "QNAP TS-216G or TERRAMASTER F2-425"],
-        ["Mixed 1080p/4K multi-room household", "2.5GbE recommended", "Asustor Drivestor 2"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $200",
+          "Asustor Drivestor 2 Gen 2 AS1202T 2"
+        ],
+        [
+          "Up to $620",
+          "UGREEN NAS DXP4800 Plus 4"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Library Size",
-    cards: [
+    "subheading": "Diskless Enclosure vs Drives Included",
+    "cards": [
       {
-        label: "Under 1,000 titles",
-        text: "Any pick in this list handles a smaller library comfortably, including the 1GB RAM Asustor Drivestor 2.",
+        "label": "Diskless enclosure",
+        "text": "Lets you choose your own NAS-grade drives and capacity, but budget $80-200+ per bay separately. In this comparison: UGREEN NAS DH2300 2."
       },
       {
-        label: "1,000-5,000 titles",
-        text: "The UGREEN DXP2800 or TERRAMASTER F2-425 offer enough RAM headroom for moderate metadata indexing.",
-      },
-      {
-        label: "5,000+ titles with multi-user streaming",
-        text: "The QNAP TS-264-8G ships with 8GB RAM out of the box, built specifically for large-library indexing plus simultaneous playback.",
-      },
+        "label": "Drives included",
+        "text": "Ready to use out of the box, simpler for a first NAS purchase. In this comparison: UGREEN NAS DXP4800 Plus 4, QNAP TS, UGREEN NAS DXP2800 2, TERRAMASTER F2, QNAP TS, Asustor Drivestor 2 Gen 2 AS1202T 2, Synology DS223 2."
+      }
     ],
+    "note": "Default to diskless if you want control over drive choice and capacity, drives-included for the simplest setup."
   },
   {
-    subheading: "By Bay Count and Growth Plans",
-    intro: "A 2-bay NAS is the right size for most home Plex setups, but a 4-bay unit is worth the extra cost if your library is still actively growing.",
-    table: {
-      headers: ["Growth expectation", "Bay count", "Best pick"],
-      rows: [
-        ["Stable, curated library", "2-bay is plenty", "Synology DS223, UGREEN DXP2800"],
-        ["Actively growing library, adding content monthly", "4-bay for headroom", "UGREEN DXP4800 Plus"],
-      ],
-    },
-    note: "Remember that a Plex Pass subscription is required to unlock hardware transcoding on any Intel-based pick in this list, buying the hardware alone doesn't enable it.",
+    "subheading": "By CPU and RAM",
+    "note": "Check each pick's listed CPU architecture and RAM amount against your actual workload before buying, not just bay count alone. UGREEN NAS DXP4800 Plus 4 is the most-reviewed option here if you want the safer bet."
   },
+  {
+    "subheading": "For Media Streaming or Plex Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A CPU capable of hardware transcoding and enough RAM to handle multiple simultaneous streams, not just total bay count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "UGREEN NAS DXP4800 Plus 4 is worth checking against its listed CPU and RAM before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real multi-user performance, media transcoding, or business-critical reliability, where UGREEN NAS DXP4800 Plus 4's CPU and RAM give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need simple backup storage for one or two users, where Asustor Drivestor 2 Gen 2 AS1202T 2 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

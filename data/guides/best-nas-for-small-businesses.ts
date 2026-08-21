@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31xSdRsBUEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C8S7SF4B?tag=deskfinds0d-20",
     description:
-      "The DS925+ is Synology's current 4-bay business-tier NAS, built to handle a small team's shared files, backups, and growing storage needs in one unit. As a Plus-tier model, it's positioned for the enterprise support add-on and longer warranty coverage that Synology's Value-tier models don't offer.\n\nFor a team past 5 concurrent users, pair it with a 2.5GbE or faster network switch rather than plain gigabit, since several people transferring large files at once on a 1GbE connection quickly becomes the bottleneck, not the NAS itself.",
+      "The DS925+ is Synology's current 4-bay business-tier NAS, built to handle a small team's shared files, backups, and growing storage needs in one unit. As a Plus-tier model, it's positioned for the enterprise support add-on and longer warranty coverage that Synology's Value-tier models don't offer.\n\nFor a team past 5 concurrent users, pair it with a 2.5GbE or faster network switch rather than plain gigabit, since several people transferring large files at once on a 1GbE connection quickly becomes the bottleneck, not the NAS itself.\n\nPlus-tier warranty and enterprise support option. That's a real strength, but weigh it against the flip side: diskless, drives are an additional cost.",
     specs: [
       "4-bay, diskless (drives sold separately)",
       "Plus-tier business support eligibility",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31vNev8kUwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D22JRHZB?tag=deskfinds0d-20",
     description:
-      "UGREEN's DXP4800 Plus pairs an Intel Pentium Gold 8505 5-core CPU with 4 bays, giving it enough processing headroom to run business apps and backup jobs alongside file sharing without stalling. It undercuts the Synology DS925+ by about $80 while still offering 4 bays of expansion room.\n\nAs with any device holding your business's only copy of critical files, plan for the NAS itself to be backed up, cloud backup integration for the NAS is a genuine requirement given rising ransomware activity targeting NAS devices specifically, not an optional extra.",
+      "UGREEN's DXP4800 Plus pairs an Intel Pentium Gold 8505 5-core CPU with 4 bays, giving it enough processing headroom to run business apps and backup jobs alongside file sharing without stalling. It undercuts the Synology DS925+ by about $80 while still offering 4 bays of expansion room.\n\nAs with any device holding your business's only copy of critical files, plan for the NAS itself to be backed up, cloud backup integration for the NAS is a genuine requirement given rising ransomware activity targeting NAS devices specifically, not an optional extra.\n\nWorth calling out specifically: 4 bays at a lower price than the Synology equivalent. The catch is diskless, drives are an additional cost.",
     specs: [
       "4-bay, diskless (drives sold separately)",
       "Intel Pentium Gold 8505 5-Core CPU",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ccz6M7cCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D22HBFK1?tag=deskfinds0d-20",
     description:
-      "The DXP2800 is a 2-bay NAS aimed at content creators and small teams that don't yet need 4 bays of storage. It's the cheapest 2-bay pick in this list and a reasonable entry point for a business just starting to centralize file storage.\n\nFor teams under 5 people on a standard gigabit network, this is usually adequate throughput for document and small-file work. Once the team grows past that, plan for either a network upgrade or a move to a 4-bay unit with faster networking.",
+      "The DXP2800 is a 2-bay NAS aimed at content creators and small teams that don't yet need 4 bays of storage. It's the cheapest 2-bay pick in this list and a reasonable entry point for a business just starting to centralize file storage.\n\nFor teams under 5 people on a standard gigabit network, this is usually adequate throughput for document and small-file work. Once the team grows past that, plan for either a network upgrade or a move to a 4-bay unit with faster networking.\n\nSolid entry point for a small, growing team. Set against that, only 2 bays, less expansion room than the 4-bay picks. Both matter when comparing it to the other picks here.",
     specs: [
       "2-bay, diskless (drives sold separately)",
       "Aimed at content creators and small teams",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21nJ2B4QOLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CBTVMMLB?tag=deskfinds0d-20",
     description:
-      "The DS725+ starts at 2 bays but is built as an expandable private cloud platform, letting a business grow storage capacity without replacing the whole unit later. It's positioned for home and small business use, with Synology's Plus-tier support and warranty options.\n\nAs the business scales past 5 or so regular users, most small businesses eventually migrate from individual NAS logins to centralized directory sync, and that integration is complex enough that it typically needs IT help to set up correctly the first time.",
+      "The DS725+ starts at 2 bays but is built as an expandable private cloud platform, letting a business grow storage capacity without replacing the whole unit later. It's positioned for home and small business use, with Synology's Plus-tier support and warranty options.\n\nAs the business scales past 5 or so regular users, most small businesses eventually migrate from individual NAS logins to centralized directory sync, and that integration is complex enough that it typically needs IT help to set up correctly the first time.\n\nA genuine advantage here is that plus-tier Synology warranty and support option. The tradeoff is pricier than the UGREEN 2-bay for the same starting bay count.",
     specs: [
       "2-bay, expandable, diskless",
       "Plus-tier Synology support eligibility",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21KH+uw1QfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FB7KQLR1?tag=deskfinds0d-20",
     description:
-      "The DS225+ includes an Intel CPU built for hardware transcoding, useful for a small business that streams or shares video content internally, marketing teams, agencies, or any office regularly reviewing media files together. It also covers general photo backup and file sharing duties.\n\nSince it's a Value-tier model rather than Synology's higher business tier, expect a shorter warranty and no enterprise support add-on, a real tradeoff to weigh if this NAS will hold business-critical data rather than just media files.",
+      "The DS225+ includes an Intel CPU built for hardware transcoding, useful for a small business that streams or shares video content internally, marketing teams, agencies, or any office regularly reviewing media files together. It also covers general photo backup and file sharing duties.\n\nSince it's a Value-tier model rather than Synology's higher business tier, expect a shorter warranty and no enterprise support add-on, a real tradeoff to weigh if this NAS will hold business-critical data rather than just media files.\n\nSolid photo backup and sharing features. That's a real strength, but weigh it against the flip side: value-tier warranty, no enterprise support option.",
     specs: [
       "2-bay, diskless",
       "Intel CPU with hardware transcoding",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41CoDmrFUGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BY7LGMNP?tag=deskfinds0d-20",
     description:
-      "The DS423 is a Value-tier 4-bay NAS built around secure file sharing, photo vault duties, and video surveillance storage, a solid fit for a small business that wants a security camera backend alongside general file backup. Four bays at this price make it the most affordable 4-bay pick in this list.\n\nBecause this NAS is likely to become the single copy of both surveillance footage and business backups, treat it as a device that itself needs backing up, cloud backup integration for the NAS's own data protects against both hardware failure and the rising rate of ransomware attacks targeting NAS devices.",
+      "The DS423 is a Value-tier 4-bay NAS built around secure file sharing, photo vault duties, and video surveillance storage, a solid fit for a small business that wants a security camera backend alongside general file backup. Four bays at this price make it the most affordable 4-bay pick in this list.\n\nBecause this NAS is likely to become the single copy of both surveillance footage and business backups, treat it as a device that itself needs backing up, cloud backup integration for the NAS's own data protects against both hardware failure and the rising rate of ransomware attacks targeting NAS devices.\n\nWorth calling out specifically: built-in support for video surveillance storage. The catch is value-tier warranty and support, not Plus-tier.",
     specs: [
       "4-bay, diskless",
       "Value-tier Synology model",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21+Y7Nr2xAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTWWJK9V?tag=deskfinds0d-20",
     description:
-      "The TS-264 gives small businesses that prefer QNAP's software ecosystem over Synology's DSM a 2-bay option with 8GB of RAM included, more memory out of the box than most 2-bay competitors in this list. That extra RAM helps when running multiple business apps or virtualization features alongside file sharing.\n\nQNAP's own directory and backup tools cover similar ground to Synology's, centralized directory sync and cloud backup of the NAS itself are both available, but the interface and setup flow differ enough that IT staff already trained on one ecosystem should account for the learning curve switching to the other.",
+      "The TS-264 gives small businesses that prefer QNAP's software ecosystem over Synology's DSM a 2-bay option with 8GB of RAM included, more memory out of the box than most 2-bay competitors in this list. That extra RAM helps when running multiple business apps or virtualization features alongside file sharing.\n\nQNAP's own directory and backup tools cover similar ground to Synology's, centralized directory sync and cloud backup of the NAS itself are both available, but the interface and setup flow differ enough that IT staff already trained on one ecosystem should account for the learning curve switching to the other.\n\nSolid alternative for businesses preferring QNAP's software. Set against that, pricier than the UGREEN or Synology DS423 2/4-bay options. Both matter when comparing it to the other picks here.",
     specs: [
       "2-bay desktop NAS",
       "8GB RAM included",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/4155kjpaFaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CMQ6SK7W?tag=deskfinds0d-20",
     description:
-      "This is a bare 3.5-inch hard drive, not an enclosure, built specifically for NAS use with CMR recording and a 256MB cache rated for continuous multi-bay operation. Every diskless NAS in this list needs drives like this one purchased separately to actually function.\n\nAt 5640 RPM and SATA 6 Gb/s, it's built for the always-on, multi-drive vibration environment inside a business NAS rather than a single external drive, which matters for long-term reliability once several of these are running together in a RAID array.",
+      "This is a bare 3.5-inch hard drive, not an enclosure, built specifically for NAS use with CMR recording and a 256MB cache rated for continuous multi-bay operation. Every diskless NAS in this list needs drives like this one purchased separately to actually function.\n\nAt 5640 RPM and SATA 6 Gb/s, it's built for the always-on, multi-drive vibration environment inside a business NAS rather than a single external drive, which matters for long-term reliability once several of these are running together in a RAID array.\n\nA genuine advantage here is that cMR recording, not the less NAS-friendly SMR type. The tradeoff is this is a drive, not a NAS enclosure, buy alongside a diskless unit above.",
     specs: [
       "8TB capacity",
       "5640 RPM, SATA 6 Gb/s",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "A gigabit network becomes the bottleneck before the NAS does",
-    explanation:
-      "On a standard 1GbE connection, 5 people transferring files simultaneously split that bandwidth, adequate for documents but noticeably slow for large media files. Moving to 2.5GbE or 10GbE networking, on both the NAS and a matching switch, multiplies per-user throughput and is worth the upgrade once a team regularly works with large files together.",
+    "criterion": "Remember every listed NAS here is diskless, budget drives separately",
+    "explanation": "The price shown for a NAS enclosure covers the hardware chassis, CPU, and RAM only, not the actual storage drives, NAS-grade drives built for 24/7 operation like Seagate IronWolf or WD Red still need to be budgeted on top, often adding $80 to $200 or more per bay depending on capacity and drive type.\n\nThis matters because comparing NAS units purely by enclosure price without factoring in drive cost gives a misleading picture of the real total investment, a cheaper enclosure with more bays to fill can end up costing more overall than a pricier enclosure with fewer bays.\n\nCheck whether a listing is diskless or ships with drives included, and add realistic per-bay drive costs to the enclosure price before comparing total cost across options."
   },
   {
-    criterion: "Directory integration gets complex past about 5 users",
-    explanation:
-      "Most small businesses eventually migrate from individual NAS accounts to a centralized directory sync as the team grows. That setup is complex enough that it typically needs IT help to configure correctly the first time, so budget for that either as internal time or an outside consultant rather than assuming it's a quick toggle.",
+    "criterion": "Weigh CPU class and RAM over bay count for real day-to-day performance",
+    "explanation": "Bay count determines maximum storage capacity, but CPU architecture (Intel, AMD, or ARM) and RAM amount determine how well the NAS actually handles real workloads, running apps, transcoding media on the fly, or serving multiple simultaneous users, and a higher bay count with a weak CPU can bottleneck performance regardless of how much raw storage it holds.\n\nThis matters more the more the NAS will do beyond simple file storage, like Plex transcoding or running multiple docker containers, less if it's purely a basic backup target.\n\nCheck the specific CPU model and RAM amount (and whether RAM is upgradeable) rather than choosing primarily by bay count."
   },
   {
-    criterion: "The NAS itself needs to be backed up, not just used as a backup target",
-    explanation:
-      "Most buying guides treat a NAS purely as a backup destination for computers, but ransomware attacks specifically targeting NAS devices are increasing. Set up cloud backup integration for the NAS's own data, not just the devices backing up to it, so a ransomware event or hardware failure doesn't take out the only copy of your files.",
+    "criterion": "Understand RAID as a rebuild-time safety net, not a substitute for real backup",
+    "explanation": "RAID configurations protect against a single drive failure by letting the array rebuild from redundant data, but RAID is not a backup, it does nothing to protect against accidental deletion, ransomware, theft, fire, or a controller failure that affects the whole array at once.\n\nThis distinction matters because treating RAID redundancy as sufficient backup protection is a common and genuinely risky misunderstanding, a real backup strategy needs a copy of critical data stored somewhere physically separate from the NAS itself.\n\nCheck what RAID level a given NAS supports, and separately plan an actual backup strategy, ideally following a 3-2-1 approach, rather than relying on RAID redundancy alone."
   },
   {
-    criterion: "Pair a business NAS with a UPS, it's not optional",
-    explanation:
-      "A power outage mid-write can corrupt a RAID array, which is a much bigger problem for a business NAS holding shared files than for a personal one. A USB-connected UPS lets the NAS detect the outage and shut down safely, and it should be budgeted as a required companion purchase, not an accessory.",
+    "criterion": "Match drive type (HDD vs SSD/NVMe) to your actual access pattern",
+    "explanation": "Traditional hard drives offer the lowest cost per terabyte for bulk storage like media libraries or backups, while SSD or NVMe-based NAS storage costs significantly more per terabyte but delivers much faster random access speeds, genuinely useful for frequently-accessed files, active project work, or serving as a fast cache tier.\n\nThis matters directly based on how you'll actually use the storage, a media library accessed sequentially benefits little from SSD speed, while an active working file share benefits considerably.\n\nCheck whether the NAS supports the drive type you need, and weigh the real cost-per-terabyte difference against how much you'll actually benefit from faster random access."
   },
   {
-    criterion: "Value-tier and Plus/Pro-tier warranties are not interchangeable",
-    explanation:
-      "Value-tier NAS models typically carry a shorter warranty with no enterprise support option, while Plus or Pro-tier models offer longer coverage and an enterprise support add-on. For a NAS holding business-critical files, the longer warranty and support option are usually worth the price step up over a Value-tier equivalent.",
-  },
-  {
-    criterion: "Match bay count to team growth, not just current headcount",
-    explanation:
-      "A 2-bay NAS covers a small team today but leaves little room to add storage later without replacing the whole unit, unless it's specifically built as expandable like the Synology DS725+. A 4-bay unit costs more upfront but avoids a second purchase in a year or two if the business is actively growing.",
-  },
+    "criterion": "Consider noise level if the NAS will run continuously in a shared living or office space",
+    "explanation": "A NAS that runs 24/7 generates continuous fan and drive noise, and that noise profile varies meaningfully between models, some use larger, slower-spinning fans that stay genuinely quiet, while others rely on smaller, faster fans that produce a persistent whine noticeable in a quiet room.\n\nThis matters a great deal if the NAS will sit in a bedroom, living room, or shared home office rather than a dedicated closet or basement out of earshot.\n\nCheck reviews specifically for real-world noise level mentions during continuous operation, not just idle noise, since drive activity and fan speed both increase under load."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,84 +359,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Team Size and Network Throughput",
-    intro:
-      "Concurrent users, not just total headcount, determine what network speed your NAS actually needs.",
-    table: {
-      headers: ["Team size", "Recommended network", "Best pick"],
-      rows: [
-        ["Under 5 concurrent users", "Standard 1GbE is adequate", "UGREEN DXP2800 2-Bay"],
-        ["5-15 concurrent users, document-heavy", "2.5GbE recommended", "Synology DS725+, QNAP TS-264"],
-        ["5-15 concurrent users, large media files", "2.5GbE or 10GbE required", "Synology DS925+, UGREEN DXP4800 Plus"],
-        ["Media/streaming-focused team", "Hardware transcoding matters more than raw network", "Synology DS225+"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Synology 4"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Synology 4"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Bay Count and Growth Plan",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $354",
+          "Western Digital 8TB WD Red Plus NAS Internal Hard Drive"
+        ],
+        [
+          "Up to $700",
+          "Synology 4"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Diskless Enclosure vs Drives Included",
+    "cards": [
       {
-        label: "Starting small, may never need to grow",
-        text: "UGREEN DXP2800 2-Bay or Synology DS225+ cover a small team's basics without paying for expansion room you may not use.",
+        "label": "Diskless enclosure",
+        "text": "Lets you choose your own NAS-grade drives and capacity, but budget $80-200+ per bay separately. In this comparison: Synology 4, UGREEN NAS DXP4800 Plus 4, UGREEN NAS DXP2800 2, Synology DS725+ Expandable NAS Storage, Synology DS225+ Private Cloud Media Server, Synology DS423 Family & Business Backup, Western Digital 8TB WD Red Plus NAS Internal Hard Drive."
       },
       {
-        label: "Starting small, but expect to scale",
-        text: "The Synology DS725+ starts at 2 bays with a genuine expansion path, avoiding a full replacement later.",
-      },
-      {
-        label: "Already need real headroom now",
-        text: "The Synology DS925+ or UGREEN DXP4800 Plus give 4 bays from day one for a growing business.",
-      },
-      {
-        label: "Need surveillance storage alongside backup",
-        text: "The Synology DS423 combines 4-bay backup capacity with built-in video surveillance storage support.",
-      },
+        "label": "Drives included",
+        "text": "Ready to use out of the box, simpler for a first NAS purchase. In this comparison: QNAP TS."
+      }
     ],
+    "note": "Default to diskless if you want control over drive choice and capacity, drives-included for the simplest setup."
   },
   {
-    subheading: "Protecting the NAS Itself",
-    intro:
-      "A business NAS is often the single copy of critical files, so protecting the NAS is as important as what it protects.",
-    table: {
-      headers: ["Risk", "Protection", "Applies to"],
-      rows: [
-        ["Ransomware targeting the NAS directly", "Cloud backup of the NAS's own data", "Every pick in this list"],
-        ["Power outage corrupting RAID mid-write", "USB-connected UPS with safe shutdown trigger", "Every pick in this list"],
-        ["Directory sync complexity past 5 users", "Budget IT time or a consultant for setup", "Synology and QNAP picks with directory sync"],
-      ],
-    },
-    note: "None of the NAS units above include a UPS in the box, treat a UPS as a required companion purchase rather than an optional accessory once the NAS holds business-critical data.",
+    "subheading": "By CPU and RAM",
+    "note": "Check each pick's listed CPU architecture and RAM amount against your actual workload before buying, not just bay count alone. Synology 4 is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Warranty Tier Quick Reference",
-    table: {
-      headers: ["Pick", "Tier", "Enterprise support"],
-      rows: [
-        ["Synology DS925+", "Plus", "Available as add-on"],
-        ["Synology DS725+", "Plus", "Available as add-on"],
-        ["UGREEN DXP4800 Plus", "Value/Plus hybrid", "Limited"],
-        ["Synology DS225+", "Value", "Not available"],
-        ["Synology DS423", "Value", "Not available"],
-        ["UGREEN DXP2800", "Value", "Not available"],
-        ["QNAP TS-264", "Standard", "Limited"],
-      ],
-    },
-  },
-  {
-    subheading: "Choosing Your Drives",
-    intro:
-      "Every diskless NAS in this list needs drives purchased separately, and not every hard drive is built for NAS duty.",
-    cards: [
+    "subheading": "For Media Streaming or Plex Specifically",
+    "cards": [
       {
-        label: "Buying drives for any diskless NAS above",
-        text: "The WD Red Plus 8TB is CMR-based, not SMR, and rated for continuous, always-on, multi-bay operation, which matters more for a business NAS than a single external drive's specs would suggest.",
+        "label": "Look for",
+        "text": "A CPU capable of hardware transcoding and enough RAM to handle multiple simultaneous streams, not just total bay count."
       },
       {
-        label: "Populating a 4-bay unit",
-        text: "Buy at least 2 matching drives at once for RAID redundancy from day one rather than adding a second drive later once the array is already full of data.",
-      },
-    ],
+        "label": "In this comparison",
+        "text": "Synology 4 is worth checking against its listed CPU and RAM before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real multi-user performance, media transcoding, or business-critical reliability, where Synology 4's CPU and RAM give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need simple backup storage for one or two users, where Western Digital 8TB WD Red Plus NAS Internal Hard Drive covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [
