@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     reviews: "121",
     imageUrl: "https://m.media-amazon.com/images/I/31LpTq2Ij7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H6X2MFP3?tag=deskfinds0d-20",
-    description: "The only genuine 19 inch privacy filter we confirmed in current listings, specifically sized for the 16:10 aspect ratio common on older and compact 19 inch monitors.\n\nIt earns the top spot in this comparison for one main reason. The only confirmed genuine 19 inch filter we found.\n\nBuyers with a genuine 19 inch, 16:10 monitor.",
+    description: "The only genuine 19 inch privacy filter we confirmed in current listings, specifically sized for the 16:10 aspect ratio common on older and compact 19 inch monitors.\n\nIt earns the top spot in this comparison for one main reason. The only confirmed genuine 19 inch filter we found.\n\nWorth knowing before you decide: Bundles anti-glare and blue-light filtering. On the other side, Smaller review base than more common sizes. That's the main tradeoff to weigh against everything above.",
     specs: ["19 inch, 16:10 aspect ratio","2-pack, anti-glare, blue-light filtering"],
     pros: ["The only confirmed genuine 19 inch filter we found","Bundles anti-glare and blue-light filtering"],
     cons: ["Only fits 16:10 monitors, not 16:9","Smaller review base than more common sizes"],

@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     reviews: "938",
     imageUrl: "https://m.media-amazon.com/images/I/31iUmbrKVZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GRNBLQZ7?tag=deskfinds0d-20",
-    description: "The only genuine 20 inch privacy filter we confirmed in current listings, with a solid review base for a size this uncommon, and bundled blue-light filtering.\n\nIt earns the top spot in this comparison for one main reason. The only confirmed genuine 20 inch filter we found.\n\nBuyers with a genuine 20 inch monitor.",
+    description: "The only genuine 20 inch privacy filter we confirmed in current listings, with a solid review base for a size this uncommon, and bundled blue-light filtering.\n\nIt earns the top spot in this comparison for one main reason. The only confirmed genuine 20 inch filter we found.\n\nWorth knowing before you decide: Solid review base for a size this uncommon. On the other side, Limited alternative options if this specific listing doesn't fit. That's the main tradeoff to weigh against everything above.",
     specs: ["20 inch, blue-light filtering","2-pack"],
     pros: ["The only confirmed genuine 20 inch filter we found","Solid review base for a size this uncommon","Bundles blue-light filtering"],
     cons: ["Limited alternative options if this specific listing doesn't fit"],
