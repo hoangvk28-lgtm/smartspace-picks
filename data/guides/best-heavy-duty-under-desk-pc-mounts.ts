@@ -31,10 +31,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41uzdCGRrbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G6YWLKQH?tag=deskfinds0d-20",
     description:
-      "The highest average rating in this guide backs up its 66-pound disclosed capacity, a figure worth taking seriously against a genuinely loaded modern tower with multiple drives and a discrete GPU rather than a generic mid-tower assumption.\n\nHeight adjustment lets it accommodate varied case sizes, though the smaller review base means long-term reliability under sustained heavy loads is less proven than a mount with thousands of reviews, worth weighing accordingly.",
-    specs: ["Max 66 lbs capacity", "Height adjustable", "Highest average rating", "Compact heavy-duty design"],
-    pros: ["Highest average rating in this guide", "66lb capacity suits a genuinely loaded modern tower", "Height adjustable for varied case sizes", "Compact footprint despite the high rating"],
-    cons: ["Smaller review base limits confidence at sustained heavy loads", "Verify your desk's own structural capacity, not just the mount's rating", "Check anchor points for genuine reinforcement versus a single clamp"],
+      "The highest average rating in this guide backs up its 66-pound disclosed capacity, a figure worth taking seriously against a genuinely loaded modern tower with multiple drives and a discrete GPU rather than a generic mid-tower assumption.\\n\\nHeight adjustment lets it accommodate varied case sizes, though the smaller review base means long-term reliability under sustained heavy loads is less proven than a mount with thousands of reviews, worth weighing accordingly.\n\nIt leads this comparison on the strength of its balance between price and disclosed capacity, and it's worth weighing directly against the VIVO Heavy Duty Adjustable Under before deciding.\n\nWorth knowing before you decide: 66lb capacity suits a genuinely loaded modern tower. On the other side, Smaller review base limits confidence at sustained heavy loads. That's the main tradeoff to weigh against your specific case and desk setup.",
+    specs: ["Max 66 lbs capacity","Height adjustable","Highest average rating","Compact heavy-duty design"],
+    pros: ["Highest average rating in this guide","66lb capacity suits a genuinely loaded modern tower","Height adjustable for varied case sizes","Compact footprint despite the high rating"],
+    cons: ["Smaller review base limits confidence at sustained heavy loads","Verify your desk's own structural capacity, not just the mount's rating","Check anchor points for genuine reinforcement versus a single clamp"],
     bestFor: "Buyers wanting the strongest-rated heavy-duty mount for a genuinely loaded tower",
   },
   {
@@ -48,10 +48,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31t8nBX+HEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBB2W47P?tag=deskfinds0d-20",
     description:
-      "A larger review base than most heavy-duty picks gives more confidence in real-world sustained-load reliability, backed by a genuinely disclosed 66-pound capacity and secure locking mechanism rather than friction alone.\n\nAs with any heavy-duty mount, check your desk's own structural rating too, since this hardware is built to hold real weight and a lighter-duty desk can be stressed by the combined load even if the mount itself holds securely.",
-    specs: ["Up to 66 lbs capacity", "Secure locking mechanism", "Larger review base", "Adjustable design"],
-    pros: ["Larger review base than most heavy-duty picks for proven reliability", "Secure locking mechanism beyond simple friction", "Disclosed 66lb capacity appropriate for a loaded modern tower", "Adjustable fit for varied case sizes"],
-    cons: ["Higher price than the most basic heavy-duty picks", "Verify your desk's own structural capacity alongside the mount rating", "Locking mechanism adds a small extra installation step"],
+      "A larger review base than most heavy-duty picks gives more confidence in real-world sustained-load reliability, backed by a genuinely disclosed 66-pound capacity and secure locking mechanism rather than friction alone.\\n\\nAs with any heavy-duty mount, check your desk's own structural rating too, since this hardware is built to hold real weight and a lighter-duty desk can be stressed by the combined load even if the mount itself holds securely.\n\nSet against the Heavy Duty Under Desk PC Mount, the tradeoff here comes down to price versus disclosed weight capacity, not a straightforward upgrade or downgrade either way.\n\nWorth knowing before you decide: Secure locking mechanism beyond simple friction. On the other side, Higher price than the most basic heavy-duty picks. That's the main tradeoff to weigh against your specific case and desk setup.",
+    specs: ["Up to 66 lbs capacity","Secure locking mechanism","Larger review base","Adjustable design"],
+    pros: ["Larger review base than most heavy-duty picks for proven reliability","Secure locking mechanism beyond simple friction","Disclosed 66lb capacity appropriate for a loaded modern tower","Adjustable fit for varied case sizes"],
+    cons: ["Higher price than the most basic heavy-duty picks","Verify your desk's own structural capacity alongside the mount rating","Locking mechanism adds a small extra installation step"],
     bestFor: "Buyers wanting the most-proven heavy-duty mount with a real review track record",
   },
   {
@@ -65,10 +65,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31DzC4Wn1JL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGQR4DNJ?tag=deskfinds0d-20",
     description:
-      "The highest disclosed capacity in this guide at 77 pounds, appropriate for the heaviest realistic modern towers with multiple drives, extra cooling, and a full-size power supply, backed by a sizable review base and strong rating.\n\nAt this weight class, double-check your desk's own structural rating specifically, a genuinely heavy tower stresses the desk itself through the mount's anchor points, not just the mount hardware.",
-    specs: ["Up to 77 lbs capacity", "Adjustable width design", "Sizable review base", "Strong rating"],
-    pros: ["Highest disclosed capacity of any pick in this guide", "Strong 4.6-star rating across a sizable review base", "Adjustable fit for varied case widths", "Reasonable price for the stated capacity"],
-    cons: ["At this weight class, your desk's own structural capacity matters as much as the mount's rating", "Verify anchor-point count for genuine reinforcement", "Adjustment mechanism should be checked for holding position under full load"],
+      "The highest disclosed capacity in this guide at 77 pounds, appropriate for the heaviest realistic modern towers with multiple drives, extra cooling, and a full-size power supply, backed by a sizable review base and strong rating.\\n\\nAt this weight class, double-check your desk's own structural rating specifically, a genuinely heavy tower stresses the desk itself through the mount's anchor points, not just the mount hardware.\n\nRelative to the VIVO Heavy Duty Adjustable Under, this pick leans toward a different priority, whether that's a higher capacity rating, a lower price, or a mounting method suited to a different install situation.\n\nWorth knowing before you decide: Strong 4.6-star rating across a sizable review base. On the other side, At this weight class, your desk's own structural capacity matters as much as the mount's rating. That's the main tradeoff to weigh against your specific case and desk setup.",
+    specs: ["Up to 77 lbs capacity","Adjustable width design","Sizable review base","Strong rating"],
+    pros: ["Highest disclosed capacity of any pick in this guide","Strong 4.6-star rating across a sizable review base","Adjustable fit for varied case widths","Reasonable price for the stated capacity"],
+    cons: ["At this weight class, your desk's own structural capacity matters as much as the mount's rating","Verify anchor-point count for genuine reinforcement","Adjustment mechanism should be checked for holding position under full load"],
     bestFor: "Buyers with the heaviest realistic modern towers needing maximum disclosed capacity",
   },
   {
@@ -82,12 +82,12 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41H5F8LUWzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GWGZCWWX?tag=deskfinds0d-20",
     description:
-      "A 77-pound rated capacity paired with vertical or horizontal orientation flexibility, appropriate for buyers with a full or mid-tower case wanting a heavy-duty mount that adapts to their specific desk layout.\n\nAt the lowest price in this guide for its capacity class, this suits budget-conscious buyers who still need genuine heavy-duty holding, though the smaller review base means real-world sustained-load evidence is more limited than the top picks.",
-    specs: ["Up to 77 lbs capacity", "Vertical or horizontal orientation", "Lowest price in this weight class", "Full/mid-tower compatible"],
-    pros: ["High 77lb disclosed capacity at the lowest price in this guide", "Vertical or horizontal orientation flexibility", "Solid rating for the price point", "Fits full and mid-tower cases"],
-    cons: ["Smaller review base than the top heavy-duty picks", "Verify your desk's structural capacity given the high rated load", "Horizontal orientation needs meaningfully more under-desk clearance"],
+      "A 77-pound rated capacity paired with vertical or horizontal orientation flexibility, appropriate for buyers with a full or mid-tower case wanting a heavy-duty mount that adapts to their specific desk layout.\\n\\nAt the lowest price in this guide for its capacity class, this suits budget-conscious buyers who still need genuine heavy-duty holding, though the smaller review base means real-world sustained-load evidence is more limited than the top picks.\n\nCompared with the Heavy Duty Under Desk PC Holder above, this pick trades some of that pick's proven track record for a different balance of price and capacity, worth weighing against your own priorities.\n\nWorth knowing before you decide: Vertical or horizontal orientation flexibility. On the other side, Smaller review base than the top heavy-duty picks. That's the main tradeoff to weigh against your specific case and desk setup.",
+    specs: ["Up to 77 lbs capacity","Vertical or horizontal orientation","Lowest price in this weight class","Full/mid-tower compatible"],
+    pros: ["High 77lb disclosed capacity at the lowest price in this guide","Vertical or horizontal orientation flexibility","Solid rating for the price point","Fits full and mid-tower cases"],
+    cons: ["Smaller review base than the top heavy-duty picks","Verify your desk's structural capacity given the high rated load","Horizontal orientation needs meaningfully more under-desk clearance"],
     bestFor: "Budget-conscious buyers needing genuine heavy-duty capacity with orientation flexibility",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -101,36 +101,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Verify the Rated Capacity, Don't Just Trust the Label",
-    note: "A 'heavy-duty' label alone doesn't guarantee real load-bearing performance near its quoted maximum. Check for a specific disclosed weight figure and cross-reference it against buyer feedback, rather than trusting the word 'heavy-duty' at face value.",
-  },
-  {
-    subheading: "Check Your Desk's Structural Capacity Too",
-    note: "A heavy-duty mount's hardware being rated for heavy use doesn't mean your desk can handle that load. The mount's anchor points transfer that weight directly into the desk itself, so a heavy-duty mount on a lighter-duty desk stresses the desk, not just the mount.",
-  },
-  {
-    subheading: "Account for Genuinely Large Modern Tower Weights",
-    note: "This tier should be evaluated against the heaviest realistic modern towers, multiple drives, a discrete GPU, extra cooling hardware, and a full-size power supply, rather than the generic mid-tower assumption most budget mounts are rated against.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Strongest-rated compact heavy-duty mount", "Heavy Duty PC Mount, 66 lbs"],
-        ["Most-proven heavy-duty mount by review volume", "VIVO MOUNT-PC04B (66 lbs)"],
-        ["Highest disclosed capacity available", "Heavy Duty PC Holder, 77 lbs"],
-        ["Budget heavy-duty pick with orientation flexibility", "PUTORSEN 77 lbs Vertical/Horizontal"],
+    "subheading": "By Disclosed Weight Capacity",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Around 77 lbs capacity",
+          "Heavy Duty Under Desk PC Holder"
+        ],
+        [
+          "Around 77 lbs capacity",
+          "PUTORSEN Under Desk PC Mount for Full/Mid"
+        ],
+        [
+          "Around 66 lbs capacity",
+          "Heavy Duty Under Desk PC Mount"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $38",
+          "PUTORSEN Under Desk PC Mount for Full/Mid"
+        ],
+        [
+          "Up to $60",
+          "VIVO Heavy Duty Adjustable Under"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Heavy Duty Under Desk PC Holder vs VIVO Heavy Duty Adjustable Under",
+    "cards": [
+      {
+        "label": "Heavy Duty Under Desk PC Holder",
+        "text": "Rated for a higher disclosed weight capacity, worth it if your tower is a heavier modern build with multiple drives or a full power supply."
+      },
+      {
+        "label": "VIVO Heavy Duty Adjustable Under",
+        "text": "A lighter-duty rating that's still enough for a standard mid-tower case, usually at a lower price."
+      }
+    ],
+    "note": "Most buyers with a standard mid-tower should default to VIVO Heavy Duty Adjustable Under unless their case is genuinely heavier than average."
+  },
+  {
+    "subheading": "By Disclosed Weight Capacity",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around 77 lbs capacity",
+          "Heavy Duty Under Desk PC Holder"
+        ],
+        [
+          "Around 77 lbs capacity",
+          "PUTORSEN Under Desk PC Mount for Full/Mid"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Heavier Modern Tower Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A disclosed weight capacity meaningfully above the generic mid-tower assumption, ideally with the tested figure stated in pounds, not a vague marketing term."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Heavy Duty Under Desk PC Holder discloses the highest capacity at 77 lbs."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Your tower is a heavier modern build with multiple drives or a discrete GPU, where VIVO Heavy Duty Adjustable Under's higher price buys real capacity headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "Your case is a genuinely lightweight, standard mid-tower, where PUTORSEN Under Desk PC Mount for Full/Mid covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify the disclosed capacity against real buyer feedback near that limit", explanation: "Don't trust a 'heavy-duty' label at face value, check for a specific weight figure and look for buyer feedback confirming it holds near that maximum." },
-  { criterion: "Check your desk's own structural capacity, not just the mount's rating", explanation: "A heavy-duty mount transfers its full load into the desk through its anchor points, a lighter-duty desk can be stressed even if the mount itself holds securely." },
-  { criterion: "Evaluate against realistic large modern tower weights", explanation: "Account for multiple drives, a discrete GPU, extra cooling, and a full-size power supply, not the generic mid-tower assumption most ratings are based on." },
-  { criterion: "Favor multiple-anchor-point designs for genuine reinforcement", explanation: "A mount with more than one anchor point generally distributes load more reliably than a single-point mechanism carrying a similarly high advertised rating." },
+  {
+    "criterion": "Weigh your loaded tower, not its size category",
+    "explanation": "A mount's weight rating is a number on a spec sheet, and it's almost always tested against a generic mid-tower case with nothing installed, not the fully loaded tower you actually own once drives, a full-size power supply, and any add-in cards are factored in.\n\nThat gap matters because a case that looks like a standard mid-tower on the shelf can weigh well beyond a budget mount's rated capacity once it's actually built out, and an overloaded mount risks failing or sagging over time rather than failing outright on day one.\n\nBefore buying, weigh or estimate your tower's real loaded weight, and check the mount's listing for the exact tested capacity figure rather than trusting a vague phrase like \"heavy duty\" with no number attached."
+  },
+  {
+    "criterion": "Check the mounting method against your desk's construction",
+    "explanation": "Under-desk mounts attach in one of two ways: screwed directly into the underside of the desk, or clamped on without any drilling.\n\nWhich one applies to you depends on whether you're allowed to drill into the desk at all, a real constraint for renters, office furniture, or a desk you don't want to damage, and clamp-on designs solve that but generally top out at a lower weight capacity than a screwed bracket.\n\nCheck the listing for the desk thickness range a clamp-on mount actually supports, since a desktop that's thicker or thinner than the clamp's rated range simply won't grip securely."
+  },
+  {
+    "criterion": "Plan rear-IO and cable access before you mount, not after",
+    "explanation": "Once a tower is mounted under the desk, reaching the rear panel to plug in a new peripheral, swap a cable, or troubleshoot a connection becomes meaningfully harder than it was when the case sat in the open on the desk-side floor.\n\nThis is worth thinking through before installation, not after, because the fix at that point is usually a full unmount rather than a quick adjustment.\n\nDecide which direction the case's rear panel will face relative to where you sit, and favor a mount that lets you slide or swivel the tower out partway without fully removing it."
+  },
+  {
+    "criterion": "Factor in the thermal tradeoff of under-desk placement",
+    "explanation": "Moving a tower off the desktop and into the enclosed space under the desk changes its airflow environment, since that space traps warmer air near the floor with less open circulation than desk-side placement gets.\n\nThis tradeoff matters more for a build generating real heat, a discrete GPU or several drives under sustained load, and less for a lighter general-use machine that rarely pushes hard.\n\nCheck whether the mount design leaves open space around the case rather than boxing it in tightly, since that gap is what keeps the thermal impact manageable."
+  },
+  {
+    "criterion": "Confirm the bracket adjustability matches your case dimensions",
+    "explanation": "An adjustable mount uses sliding rails or an expandable frame so it can grip cases across a range of widths and heights, rather than fitting only one exact case size.\n\nThis matters because a fixed-size bracket that's a poor match for your tower either won't close securely around it or will grip with too much slack, and either failure mode risks the case shifting or dropping over time.\n\nCheck the listing for the actual adjustable range in inches, and measure your tower's width and depth against that range before assuming any mount labeled \"adjustable\" will automatically fit."
+  }
 ];
 
 export const faq: FaqItem[] = [

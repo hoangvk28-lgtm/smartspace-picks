@@ -32,10 +32,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31uhG0Am6qL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B082FNNX49?tag=deskfinds0d-20",
     description:
-      "By far the largest review base of any pick in this guide, VIVO's swivel-and-lock mechanism is a genuinely distinct clamp-based approach with a secure locking feature rather than friction alone holding the tower in place, addressing the long-term holding reliability concern directly.\n\nThe adjustable 3.5-7.8 inch width range covers most mid-tower cases without needing a separate bracket purchase, and the swivel function lets you rotate the case out for cable access without fully detaching the mount, a genuine convenience most single-position clamps lack.",
-    specs: ["Swivel-and-lock clamp mechanism", "Fits 3.5-7.8 inch wide towers", "No drilling required, clamp-based mounting", "Massive review base"],
-    pros: ["By far the largest review base of any pick in this guide, strong evidence of long-term holding reliability", "Secure locking mechanism beyond simple friction-fit", "Swivel function allows cable access without full removal", "Adjustable width fits most mid-tower cases"],
-    cons: ["Clamp mechanism still requires a desk edge or surface with adequate clamping depth", "Verify genuine damage-free removal for your specific desk material", "White finish shows wear more visibly per general finish-durability findings"],
+      "By far the largest review base of any pick in this guide, VIVO's swivel-and-lock mechanism is a genuinely distinct clamp-based approach with a secure locking feature rather than friction alone holding the tower in place, addressing the long-term holding reliability concern directly.\\n\\nThe adjustable 3.5-7.8 inch width range covers most mid-tower cases without needing a separate bracket purchase, and the swivel function lets you rotate the case out for cable access without fully detaching the mount, a genuine convenience most single-position clamps lack.\n\nIt leads this comparison on the strength of its balance between price and disclosed capacity, and it's worth weighing directly against the VIVO Under before deciding.\n\nWorth knowing before you decide: Secure locking mechanism beyond simple friction-fit. On the other side, Clamp mechanism still requires a desk edge or surface with adequate clamping depth. That's the main tradeoff to weigh against your specific case and desk setup.",
+    specs: ["Swivel-and-lock clamp mechanism","Fits 3.5-7.8 inch wide towers","No drilling required, clamp-based mounting","Massive review base"],
+    pros: ["By far the largest review base of any pick in this guide, strong evidence of long-term holding reliability","Secure locking mechanism beyond simple friction-fit","Swivel function allows cable access without full removal","Adjustable width fits most mid-tower cases"],
+    cons: ["Clamp mechanism still requires a desk edge or surface with adequate clamping depth","Verify genuine damage-free removal for your specific desk material","White finish shows wear more visibly per general finish-durability findings"],
     bestFor: "Buyers wanting the most-proven screw-free mount with genuine secure locking",
   },
   {
@@ -49,10 +49,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/418wmGky6tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B078JXC9X8?tag=deskfinds0d-20",
     description:
-      "A genuinely distinct alternative mechanism, an adjustable strap combined with a steel bracket carrier, cradling the tower's weight rather than clamping onto its sides, a real structural difference from the swivel-clamp top pick worth understanding before buying.\n\nThis strap-and-bracket approach distributes weight differently than a side-clamp design, appropriate for a lighter or more irregularly shaped tower where a side clamp might not seat evenly, though verify the steel bracket's own mounting method still avoids drilling into your specific desk.",
-    specs: ["Strap-and-steel-bracket mechanism", "Distinct from side-clamp designs", "Lowest price in this guide", "Solid review base"],
-    pros: ["Genuinely distinct strap-and-bracket mechanism, an alternative to side-clamping", "Lowest price in this guide", "Solid review base and rating", "Cradles rather than clamps the tower's sides"],
-    cons: ["Strap mechanism may need periodic tightness checks over time for sustained holding reliability", "Smaller review base than the top swivel-clamp pick", "Verify bracket mounting method avoids screws for your specific desk"],
+      "A genuinely distinct alternative mechanism, an adjustable strap combined with a steel bracket carrier, cradling the tower's weight rather than clamping onto its sides, a real structural difference from the swivel-clamp top pick worth understanding before buying.\\n\\nThis strap-and-bracket approach distributes weight differently than a side-clamp design, appropriate for a lighter or more irregularly shaped tower where a side clamp might not seat evenly, though verify the steel bracket's own mounting method still avoids drilling into your specific desk.\n\nSet against the VIVO Adjustable Under Desk and Wall Mount for PC 3.5, the tradeoff here comes down to price versus disclosed weight capacity, not a straightforward upgrade or downgrade either way.\n\nWorth knowing before you decide: Lowest price in this guide. On the other side, Strap mechanism may need periodic tightness checks over time for sustained holding reliability. That's the main tradeoff to weigh against your specific case and desk setup.",
+    specs: ["Strap-and-steel-bracket mechanism","Distinct from side-clamp designs","Lowest price in this guide","Solid review base"],
+    pros: ["Genuinely distinct strap-and-bracket mechanism, an alternative to side-clamping","Lowest price in this guide","Solid review base and rating","Cradles rather than clamps the tower's sides"],
+    cons: ["Strap mechanism may need periodic tightness checks over time for sustained holding reliability","Smaller review base than the top swivel-clamp pick","Verify bracket mounting method avoids screws for your specific desk"],
     bestFor: "Buyers wanting a genuinely distinct cradle-style mechanism at a lower price",
   },
   {
@@ -66,10 +66,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31+gGe7234L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHVD4QZ6?tag=deskfinds0d-20",
     description:
-      "A genuine 66-pound maximum weight rating, meaningfully higher than most compact clamp designs, appropriate for a heavier full-tower PC case where long-term holding reliability under sustained weight is the primary concern rather than convenience alone.\n\nThe fits range of 16.1 to 25.6 inches targets taller full-tower cases specifically rather than compact or mid-tower builds, verify your case height falls within this range before assuming universal compatibility.",
-    specs: ["Max 66lbs weight capacity", "Fits 16.1-25.6 inch tall cases", "No drilling required", "Higher price for higher capacity"],
-    pros: ["Genuinely high 66lb weight capacity for heavier full-tower cases", "Explicitly disclosed weight rating, not a vague claim", "No-drill mounting for renter-friendly installation", "Fits a wider range of case heights than compact mounts"],
-    cons: ["Smaller review base than the top picks in this guide", "Higher price reflecting the higher capacity", "Not appropriate for compact or mini-ITX cases needing a smaller mount"],
+      "A genuine 66-pound maximum weight rating, meaningfully higher than most compact clamp designs, appropriate for a heavier full-tower PC case where long-term holding reliability under sustained weight is the primary concern rather than convenience alone.\\n\\nThe fits range of 16.1 to 25.6 inches targets taller full-tower cases specifically rather than compact or mid-tower builds, verify your case height falls within this range before assuming universal compatibility.\n\nRelative to the VIVO Under, this pick leans toward a different priority, whether that's a higher capacity rating, a lower price, or a mounting method suited to a different install situation.\n\nWorth knowing before you decide: Explicitly disclosed weight rating, not a vague claim. On the other side, Smaller review base than the top picks in this guide. That's the main tradeoff to weigh against your specific case and desk setup.",
+    specs: ["Max 66lbs weight capacity","Fits 16.1-25.6 inch tall cases","No drilling required","Higher price for higher capacity"],
+    pros: ["Genuinely high 66lb weight capacity for heavier full-tower cases","Explicitly disclosed weight rating, not a vague claim","No-drill mounting for renter-friendly installation","Fits a wider range of case heights than compact mounts"],
+    cons: ["Smaller review base than the top picks in this guide","Higher price reflecting the higher capacity","Not appropriate for compact or mini-ITX cases needing a smaller mount"],
     bestFor: "Buyers with a heavier full-tower PC case needing genuine high-capacity holding",
   },
   {
@@ -83,10 +83,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415erSK8FIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FWCHJBFN?tag=deskfinds0d-20",
     description:
-      "A disclosed 50-pound capacity at a mid-range price, appropriate for most standard mid-tower cases without the premium cost of the highest-capacity picks in this guide.\n\nThe lower average rating here relative to the top picks is worth weighing against the smaller review sample, this suggests genuine renter-friendliness benefit should be verified through current reviews before assuming it matches the top picks' proven reliability.",
-    specs: ["50lb weight capacity", "No drilling required", "Mid-range price", "Standard mid-tower compatibility"],
-    pros: ["Disclosed 50lb capacity rather than a vague weight claim", "Reasonable price for the stated capacity", "No-drill mounting for renter-friendly installation", "Suits most standard mid-tower cases"],
-    cons: ["Lower average rating than the top picks in this guide", "Smaller review base for verifying long-term holding reliability", "Genuine damage-free removal should be verified through current reviews"],
+      "A disclosed 50-pound capacity at a mid-range price, appropriate for most standard mid-tower cases without the premium cost of the highest-capacity picks in this guide.\\n\\nThe lower average rating here relative to the top picks is worth weighing against the smaller review sample, this suggests genuine renter-friendliness benefit should be verified through current reviews before assuming it matches the top picks' proven reliability.\n\nCompared with the monTEK Under Desk PC Mount above, this pick trades some of that pick's proven track record for a different balance of price and capacity, worth weighing against your own priorities.\n\nWorth knowing before you decide: Reasonable price for the stated capacity. On the other side, Lower average rating than the top picks in this guide. That's the main tradeoff to weigh against your specific case and desk setup.",
+    specs: ["50lb weight capacity","No drilling required","Mid-range price","Standard mid-tower compatibility"],
+    pros: ["Disclosed 50lb capacity rather than a vague weight claim","Reasonable price for the stated capacity","No-drill mounting for renter-friendly installation","Suits most standard mid-tower cases"],
+    cons: ["Lower average rating than the top picks in this guide","Smaller review base for verifying long-term holding reliability","Genuine damage-free removal should be verified through current reviews"],
     bestFor: "Buyers wanting a mid-range no-drill option for a standard mid-tower case",
   },
   {
@@ -100,12 +100,12 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41n5BLsmv7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLYK9NPM?tag=deskfinds0d-20",
     description:
-      "The highest average rating among the no-screw picks in this guide, explicitly marketed for standing desk compatibility, a genuine consideration if your desk changes height and the mount needs to move with it reliably.\n\nStanding desk use adds a real stress factor screw-free mounts don't always account for, repeated height changes mean the mount experiences more movement-related strain over time than a fixed-height desk mount would.",
-    specs: ["No-drill design for standing desks", "Highest rating among no-screw picks", "Compact footprint", "Solid value"],
-    pros: ["Highest average rating among the no-screw picks in this guide", "Explicitly designed for standing desk height changes", "Compact footprint suits smaller desk setups", "Reasonable price for the rating quality"],
-    cons: ["Smaller review base limits confidence in long-term standing-desk-cycle durability", "Weight capacity not as explicitly disclosed as the monTEK pick", "Compact design may not suit larger full-tower cases"],
+      "The highest average rating among the no-screw picks in this guide, explicitly marketed for standing desk compatibility, a genuine consideration if your desk changes height and the mount needs to move with it reliably.\\n\\nStanding desk use adds a real stress factor screw-free mounts don't always account for, repeated height changes mean the mount experiences more movement-related strain over time than a fixed-height desk mount would.\n\nSet against the TOPSKY Under Desk PC Mount No Drill CPU Holder 50 lb Capacity, the tradeoff here comes down to price versus disclosed weight capacity, not a straightforward upgrade or downgrade either way.\n\nWorth knowing before you decide: Explicitly designed for standing desk height changes. On the other side, Smaller review base limits confidence in long-term standing-desk-cycle durability. That's the main tradeoff to weigh against your specific case and desk setup.",
+    specs: ["No-drill design for standing desks","Highest rating among no-screw picks","Compact footprint","Solid value"],
+    pros: ["Highest average rating among the no-screw picks in this guide","Explicitly designed for standing desk height changes","Compact footprint suits smaller desk setups","Reasonable price for the rating quality"],
+    cons: ["Smaller review base limits confidence in long-term standing-desk-cycle durability","Weight capacity not as explicitly disclosed as the monTEK pick","Compact design may not suit larger full-tower cases"],
     bestFor: "Standing desk owners wanting a mount rated for repeated height-change cycles",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -120,45 +120,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Match Your Case Weight to a Mount's Disclosed Capacity",
-    intro: "Weight capacity is the single most important spec here, and screw-free mounts generally carry more conservative ratings than a drilled installation.",
-    table: {
-      headers: ["Your PC case weight class", "Recommended pick"],
-      rows: [
-        ["Standard mid-tower, moderate weight", "VIVO MOUNT-PC01W (swivel-and-lock)"],
-        ["Lighter or irregularly shaped tower", "VIVO MOUNT-PC02S (strap-and-bracket)"],
-        ["Heavy full-tower case (up to 66lbs)", "monTEK Under Desk PC Mount"],
-        ["Standard mid-tower on a budget", "TOPSKY 50lb No Drill CPU Holder"],
-        ["Standing desk with frequent height changes", "ZUAVIALA No-Drill PC Holder"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "Always check the manufacturer's disclosed maximum weight against your specific PC case's actual weight, not just its size category, since a compact case can still be surprisingly heavy with a full complement of drives and a large power supply.",
+      "rows": [
+        [
+          "Highest average rating",
+          "ZUAVIALA Under Desk PC Mount，No"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "VIVO Adjustable Under Desk and Wall Mount for PC 3.5"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Understand the Specific Mechanism You're Trusting",
-    cards: [
-      { label: "Side-clamp with locking", text: "Clamps onto the case sides and locks in place, the most common no-drill mechanism, generally the most tested and proven across large review volumes." },
-      { label: "Strap-and-bracket cradle", text: "Cradles the case from below using an adjustable strap and steel bracket rather than clamping the sides, a genuinely different weight-distribution approach worth considering for irregular case shapes." },
-      { label: "Weighted or friction-fit base", text: "Relies on friction or a weighted counterbalance rather than active clamping or straps, generally suited to lighter loads and worth extra scrutiny for sustained heavy-PC use." },
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $20",
+          "VIVO Under"
+        ],
+        [
+          "Up to $72",
+          "monTEK Under Desk PC Mount"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "monTEK Under Desk PC Mount vs TOPSKY Under Desk PC Mount No Drill CPU Holder 50 lb Capacity",
+    "cards": [
+      {
+        "label": "monTEK Under Desk PC Mount",
+        "text": "Rated for a higher disclosed weight capacity, worth it if your tower is a heavier modern build with multiple drives or a full power supply."
+      },
+      {
+        "label": "TOPSKY Under Desk PC Mount No Drill CPU Holder 50 lb Capacity",
+        "text": "A lighter-duty rating that's still enough for a standard mid-tower case, usually at a lower price."
+      }
     ],
+    "note": "Most buyers with a standard mid-tower should default to TOPSKY Under Desk PC Mount No Drill CPU Holder 50 lb Capacity unless their case is genuinely heavier than average."
   },
   {
-    subheading: "Verify Genuine Renter-Friendliness Before You Buy",
-    note: "Not every 'no screws' claim guarantees fully damage-free, reversible installation. Check current reviews specifically for mentions of desk-surface marks, clamp pressure damage, or adhesive residue if the mount uses any sticky components, since the core promise of this category is a clean, reversible install, and it's worth confirming that promise actually holds for the specific product before committing.",
+    "subheading": "By Mounting Method",
+    "table": {
+      "headers": [
+        "Desk situation",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Can't drill into the desk",
+          "VIVO Adjustable Under Desk and Wall Mount for PC 3.5"
+        ],
+        [
+          "Own the desk, want max stability",
+          "TOPSKY Under Desk PC Mount No Drill CPU Holder 50 lb Capacity"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Standing Desks Add a Real Long-Term Stress Factor",
-    note: "If your desk changes height regularly, the mount experiences repeated movement-related strain that a fixed-height desk mount never sees. A mount explicitly marketed and reviewed for standing desk use, like the ZUAVIALA pick in this guide, has more direct evidence of surviving that specific stress pattern than a general-purpose mount without that explicit testing history.",
+    "subheading": "For a Heavier Modern Tower Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A disclosed weight capacity meaningfully above the generic mid-tower assumption, ideally with the tested figure stated in pounds, not a vague marketing term."
+      },
+      {
+        "label": "In this comparison",
+        "text": "monTEK Under Desk PC Mount discloses the highest capacity at 66 lbs."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Your tower is a heavier modern build with multiple drives or a discrete GPU, where monTEK Under Desk PC Mount's higher price buys real capacity headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "Your case is a genuinely lightweight, standard mid-tower, where VIVO Under covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify whether this is the same no-drill category or a distinct mechanism", explanation: "This keyword overlaps with broader no-drill mount research, confirm which specific mechanism, clamp, strap, or friction-fit, a product actually uses before assuming interchangeability." },
-  { criterion: "Match weight capacity to your actual PC case weight, not just its size", explanation: "A compact case with a full power supply and multiple drives can weigh more than expected, verify the manufacturer's disclosed maximum against your case's real weight." },
-  { criterion: "Screw-free mounting generally means a more conservative weight rating", explanation: "Forgoing screws often trades some maximum capacity for installation convenience, this tradeoff carries forward from the broader no-drill mount category." },
-  { criterion: "Long-term holding reliability deserves scrutiny for this heavier accessory", explanation: "A full PC tower puts more sustained stress on a screw-free mechanism than lighter items a clamp might normally hold, check for reviews specifically addressing months of use." },
-  { criterion: "Genuine renter-friendliness isn't guaranteed by every 'no screws' claim", explanation: "Verify actual damage-free, reversible installation through current reviews rather than assuming the marketing claim alone guarantees this benefit." },
-  { criterion: "Standing desk owners should prioritize a mount tested for height-change cycles", explanation: "Repeated height adjustments add movement-related strain a fixed-height mount never experiences, look for explicit standing-desk marketing and reviews." },
+  {
+    "criterion": "Weigh your loaded tower, not its size category",
+    "explanation": "A mount's weight rating is a number on a spec sheet, and it's almost always tested against a generic mid-tower case with nothing installed, not the fully loaded tower you actually own once drives, a full-size power supply, and any add-in cards are factored in.\n\nThat gap matters because a case that looks like a standard mid-tower on the shelf can weigh well beyond a budget mount's rated capacity once it's actually built out, and an overloaded mount risks failing or sagging over time rather than failing outright on day one.\n\nBefore buying, weigh or estimate your tower's real loaded weight, and check the mount's listing for the exact tested capacity figure rather than trusting a vague phrase like \"heavy duty\" with no number attached."
+  },
+  {
+    "criterion": "Check the mounting method against your desk's construction",
+    "explanation": "Under-desk mounts attach in one of two ways: screwed directly into the underside of the desk, or clamped on without any drilling.\n\nWhich one applies to you depends on whether you're allowed to drill into the desk at all, a real constraint for renters, office furniture, or a desk you don't want to damage, and clamp-on designs solve that but generally top out at a lower weight capacity than a screwed bracket.\n\nCheck the listing for the desk thickness range a clamp-on mount actually supports, since a desktop that's thicker or thinner than the clamp's rated range simply won't grip securely."
+  },
+  {
+    "criterion": "Plan rear-IO and cable access before you mount, not after",
+    "explanation": "Once a tower is mounted under the desk, reaching the rear panel to plug in a new peripheral, swap a cable, or troubleshoot a connection becomes meaningfully harder than it was when the case sat in the open on the desk-side floor.\n\nThis is worth thinking through before installation, not after, because the fix at that point is usually a full unmount rather than a quick adjustment.\n\nDecide which direction the case's rear panel will face relative to where you sit, and favor a mount that lets you slide or swivel the tower out partway without fully removing it."
+  },
+  {
+    "criterion": "Factor in the thermal tradeoff of under-desk placement",
+    "explanation": "Moving a tower off the desktop and into the enclosed space under the desk changes its airflow environment, since that space traps warmer air near the floor with less open circulation than desk-side placement gets.\n\nThis tradeoff matters more for a build generating real heat, a discrete GPU or several drives under sustained load, and less for a lighter general-use machine that rarely pushes hard.\n\nCheck whether the mount design leaves open space around the case rather than boxing it in tightly, since that gap is what keeps the thermal impact manageable."
+  },
+  {
+    "criterion": "Confirm the bracket adjustability matches your case dimensions",
+    "explanation": "An adjustable mount uses sliding rails or an expandable frame so it can grip cases across a range of widths and heights, rather than fitting only one exact case size.\n\nThis matters because a fixed-size bracket that's a poor match for your tower either won't close securely around it or will grip with too much slack, and either failure mode risks the case shifting or dropping over time.\n\nCheck the listing for the actual adjustable range in inches, and measure your tower's width and depth against that range before assuming any mount labeled \"adjustable\" will automatically fit."
+  }
 ];
 
 export const faq: FaqItem[] = [

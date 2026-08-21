@@ -31,10 +31,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31eCcCtZEoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BHF5W87B?tag=deskfinds0d-20",
     description:
-      "This clamp attaches to the desk leg rather than the desktop edge, sidestepping desk-edge thickness compatibility concerns entirely while still offering tool-free, no-drill installation with a large review base backing its holding reliability.\n\nLeg-clamping generally distributes the swinging load differently than a desktop-edge clamp, worth considering if you're specifically concerned about incidental bumps against a mounted tower.",
-    specs: ["Clamps to desk leg, not desktop edge", "Tool-free installation", "Large review base", "Budget price"],
-    pros: ["Clamps to the leg, sidestepping desk-edge thickness compatibility issues", "Large review base for real-world holding reliability", "Tool-free, no-drill installation", "Budget-friendly price"],
-    cons: ["Verify your desk leg shape and thickness are compatible", "Check obstruction against any integrated cable trays near the leg", "Single-point clamp design, verify stability under incidental bumps"],
+      "This clamp attaches to the desk leg rather than the desktop edge, sidestepping desk-edge thickness compatibility concerns entirely while still offering tool-free, no-drill installation with a large review base backing its holding reliability.\\n\\nLeg-clamping generally distributes the swinging load differently than a desktop-edge clamp, worth considering if you're specifically concerned about incidental bumps against a mounted tower.\n\nIt leads this comparison on the strength of its balance between price and disclosed capacity, and it's worth weighing directly against the VIVO Adjustable Clamp before deciding.\n\nWorth knowing before you decide: Large review base for real-world holding reliability. On the other side, Verify your desk leg shape and thickness are compatible. That's the main tradeoff to weigh against your specific case and desk setup.",
+    specs: ["Clamps to desk leg, not desktop edge","Tool-free installation","Large review base","Budget price"],
+    pros: ["Clamps to the leg, sidestepping desk-edge thickness compatibility issues","Large review base for real-world holding reliability","Tool-free, no-drill installation","Budget-friendly price"],
+    cons: ["Verify your desk leg shape and thickness are compatible","Check obstruction against any integrated cable trays near the leg","Single-point clamp design, verify stability under incidental bumps"],
     bestFor: "Buyers wanting a leg-clamped mount that avoids desk-edge thickness concerns",
   },
   {
@@ -48,10 +48,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31doCXKzW0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GF95FV2V?tag=deskfinds0d-20",
     description:
-      "A desktop-edge clamp with swivel action, appropriate for buyers wanting to rotate the case out for cable access, though check your specific desk edge thickness against the clamp's range before ordering.\n\nThe smaller review base and more moderate rating here mean holding capacity under a heavy, dynamic load is less proven than the top pick, worth weighing this against the genuine swivel convenience it offers.",
-    specs: ["Desktop-edge clamp, 3.5-7.8 inch range", "Swivel action", "Secure locking", "Smaller review base"],
-    pros: ["Swivel action allows cable access without full removal", "Secure locking mechanism beyond simple friction", "Wide clamp range fits varied desk edges", "Adjustable case width fit"],
-    cons: ["More moderate rating and smaller review base than the top pick", "Desktop-edge clamp, verify desk edge thickness compatibility first", "Verify holding capacity under a heavy, dynamic swinging load"],
+      "A desktop-edge clamp with swivel action, appropriate for buyers wanting to rotate the case out for cable access, though check your specific desk edge thickness against the clamp's range before ordering.\\n\\nThe smaller review base and more moderate rating here mean holding capacity under a heavy, dynamic load is less proven than the top pick, worth weighing this against the genuine swivel convenience it offers.\n\nSet against the VIVO Adjustable Clamp, the tradeoff here comes down to price versus disclosed weight capacity, not a straightforward upgrade or downgrade either way.\n\nWorth knowing before you decide: Secure locking mechanism beyond simple friction. On the other side, More moderate rating and smaller review base than the top pick. That's the main tradeoff to weigh against your specific case and desk setup.",
+    specs: ["Desktop-edge clamp, 3.5-7.8 inch range","Swivel action","Secure locking","Smaller review base"],
+    pros: ["Swivel action allows cable access without full removal","Secure locking mechanism beyond simple friction","Wide clamp range fits varied desk edges","Adjustable case width fit"],
+    cons: ["More moderate rating and smaller review base than the top pick","Desktop-edge clamp, verify desk edge thickness compatibility first","Verify holding capacity under a heavy, dynamic swinging load"],
     bestFor: "Buyers wanting swivel cable access on a compatible desk edge",
   },
   {
@@ -65,10 +65,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31MLrg3bEyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJ4PF7Q7?tag=deskfinds0d-20",
     description:
-      "Marketed specifically as heavy-duty, this desktop clamp fits a wide 14.5 to 22.4 inch tower height range, appropriate for buyers with a taller case wanting genuine clamp-based holding capacity rather than leg-mounting.\n\nAt the higher price point in this guide, verify the clamp's contact points against any integrated cable trays or under-desk drawers before finalizing placement, since a wide clamp footprint can conflict with built-in desk features.",
-    specs: ["Fits 14.5-22.4 inch tall towers", "Heavy-duty no-drill clamp", "Thickened clamp hardware", "Higher price point"],
-    pros: ["Wide tower height compatibility range", "Thickened, reinforced clamp hardware for heavier loads", "Solid rating across a meaningful review base", "No-drill installation"],
-    cons: ["Highest price in this guide", "Check clamp footprint against integrated cable trays or drawers", "Verify desk-edge thickness compatibility before ordering"],
+      "Marketed specifically as heavy-duty, this desktop clamp fits a wide 14.5 to 22.4 inch tower height range, appropriate for buyers with a taller case wanting genuine clamp-based holding capacity rather than leg-mounting.\\n\\nAt the higher price point in this guide, verify the clamp's contact points against any integrated cable trays or under-desk drawers before finalizing placement, since a wide clamp footprint can conflict with built-in desk features.\n\nRelative to the VIVO Adjustable Clamp, this pick leans toward a different priority, whether that's a higher capacity rating, a lower price, or a mounting method suited to a different install situation.\n\nWorth knowing before you decide: Thickened, reinforced clamp hardware for heavier loads. On the other side, Highest price in this guide. That's the main tradeoff to weigh against your specific case and desk setup.",
+    specs: ["Fits 14.5-22.4 inch tall towers","Heavy-duty no-drill clamp","Thickened clamp hardware","Higher price point"],
+    pros: ["Wide tower height compatibility range","Thickened, reinforced clamp hardware for heavier loads","Solid rating across a meaningful review base","No-drill installation"],
+    cons: ["Highest price in this guide","Check clamp footprint against integrated cable trays or drawers","Verify desk-edge thickness compatibility before ordering"],
     bestFor: "Buyers with a taller tower wanting reinforced clamp hardware",
   },
   {
@@ -82,12 +82,12 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/416Qk72eERL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCY4Q147?tag=deskfinds0d-20",
     description:
-      "A strong 4.5-star rating backs this leg-clamped mount, appropriate for buyers wanting reliable holding without desktop-edge thickness concerns, at a reasonable mid-range price.\n\nAs a leg clamp, it's less likely to risk desk-tipping than a desktop-edge clamp on a lighter desk, since the load transfers through the leg's own structural point rather than levering against the desktop edge.",
-    specs: ["Clamp-on leg design", "Strong rating", "Mid-range price", "Standing desk compatible"],
-    pros: ["Strong 4.5-star rating", "Leg-clamp design avoids desktop-edge thickness issues", "Lower desk-tipping risk than an edge clamp on a lighter desk", "Reasonable price for the rating quality"],
-    cons: ["Verify desk leg shape and thickness compatibility", "Smaller review base than the largest-volume picks", "Check obstruction against nearby cable trays or under-desk accessories"],
+      "A strong 4.5-star rating backs this leg-clamped mount, appropriate for buyers wanting reliable holding without desktop-edge thickness concerns, at a reasonable mid-range price.\\n\\nAs a leg clamp, it's less likely to risk desk-tipping than a desktop-edge clamp on a lighter desk, since the load transfers through the leg's own structural point rather than levering against the desktop edge.\n\nCompared with the TooCust Adjustable Under Desk PC Mount above, this pick trades some of that pick's proven track record for a different balance of price and capacity, worth weighing against your own priorities.\n\nWorth knowing before you decide: Leg-clamp design avoids desktop-edge thickness issues. On the other side, Verify desk leg shape and thickness compatibility. That's the main tradeoff to weigh against your specific case and desk setup.",
+    specs: ["Clamp-on leg design","Strong rating","Mid-range price","Standing desk compatible"],
+    pros: ["Strong 4.5-star rating","Leg-clamp design avoids desktop-edge thickness issues","Lower desk-tipping risk than an edge clamp on a lighter desk","Reasonable price for the rating quality"],
+    cons: ["Verify desk leg shape and thickness compatibility","Smaller review base than the largest-volume picks","Check obstruction against nearby cable trays or under-desk accessories"],
     bestFor: "Buyers wanting reliable leg-clamped holding at a reasonable price",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -101,36 +101,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Measure Your Desk Edge or Leg Before Ordering",
-    note: "Clamp compatibility against varied desk-edge thickness carries heightened consequences here versus lighter clamp-on accessories, given the PC's substantial weight. Measure your specific desk edge or leg dimensions and compare against the clamp's stated range before ordering.",
-  },
-  {
-    subheading: "Understand the Dynamic Load a Clamp Actually Faces",
-    note: "A heavy, swinging PC mass creates fundamentally different physics stress on a clamp than lighter accessories. Check holding capacity claims specifically against this heavier, more dynamic load, including incidental bumps, rather than a static weight figure alone.",
-  },
-  {
-    subheading: "Consider Desk-Tipping Risk on a Lighter Desk",
-    note: "If your desk itself is lightweight, a sufficiently heavy PC clamped to the edge could risk tipping the entire desk, not just failing the clamp. A leg-clamped mount generally poses less of this risk than a desktop-edge clamp, since the load transfers through the leg's structural point.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Leg-clamp avoiding desk-edge thickness concerns", "VIVO MOUNT-PC01C"],
-        ["Desktop-edge clamp with swivel cable access", "VIVO MOUNT-PCC1S"],
-        ["Reinforced clamp for a taller tower", "TooCust Heavy Duty No Drilling Clamp"],
-        ["Value leg-clamp with a strong rating", "JOY worker Clamp-On Leg CPU Holder"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "JOY worker Under Desk PC Mount for Standing Desk"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "VIVO Adjustable Clamp"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $40",
+          "VIVO Adjustable Clamp"
+        ],
+        [
+          "Up to $62",
+          "TooCust Adjustable Under Desk PC Mount"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Weight Capacity vs Price",
+    "cards": [
+      {
+        "label": "VIVO Adjustable Clamp",
+        "text": "The lower-priced option in this comparison, worth checking its disclosed capacity against your tower's actual loaded weight."
+      },
+      {
+        "label": "TooCust Adjustable Under Desk PC Mount",
+        "text": "The higher-priced option, worth it if it offers real headroom above the cheaper pick's rating."
+      }
+    ],
+    "note": "Default to VIVO Adjustable Clamp unless your tower's loaded weight genuinely calls for more capacity."
+  },
+  {
+    "subheading": "By Disclosed Weight Capacity",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Standard mid-tower fit",
+          "JOY worker Under Desk PC Mount for Standing Desk"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Heavier Modern Tower Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A disclosed weight capacity meaningfully above the generic mid-tower assumption, ideally with the tested figure stated in pounds, not a vague marketing term."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Check each pick's listing directly, since capacity isn't consistently disclosed across every mount in this comparison."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Your tower is a heavier modern build with multiple drives or a discrete GPU, where TooCust Adjustable Under Desk PC Mount's higher price buys real capacity headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "Your case is a genuinely lightweight, standard mid-tower, where VIVO Adjustable Clamp covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Measure your desk edge or leg thickness before ordering", explanation: "Clamp compatibility has heightened consequences here given the PC's substantial weight, verify your desk's actual dimensions against the clamp's stated range." },
-  { criterion: "Check holding capacity under dynamic load, not just static weight", explanation: "A heavy, swinging PC mass and incidental bumps stress a clamp differently than a static weight figure alone suggests." },
-  { criterion: "Weigh desk-tipping risk if you have a lighter desk", explanation: "A sufficiently heavy PC clamped to a lightweight desk's edge could risk tipping the whole desk, not just failing the clamp, consider a leg-clamp instead." },
-  { criterion: "Check clamp placement against cable trays and drawers", explanation: "Verify the clamp's footprint doesn't conflict with any integrated cable management or under-desk storage before finalizing placement." },
+  {
+    "criterion": "Weigh your loaded tower, not its size category",
+    "explanation": "A mount's weight rating is a number on a spec sheet, and it's almost always tested against a generic mid-tower case with nothing installed, not the fully loaded tower you actually own once drives, a full-size power supply, and any add-in cards are factored in.\n\nThat gap matters because a case that looks like a standard mid-tower on the shelf can weigh well beyond a budget mount's rated capacity once it's actually built out, and an overloaded mount risks failing or sagging over time rather than failing outright on day one.\n\nBefore buying, weigh or estimate your tower's real loaded weight, and check the mount's listing for the exact tested capacity figure rather than trusting a vague phrase like \"heavy duty\" with no number attached."
+  },
+  {
+    "criterion": "Check the mounting method against your desk's construction",
+    "explanation": "Under-desk mounts attach in one of two ways: screwed directly into the underside of the desk, or clamped on without any drilling.\n\nWhich one applies to you depends on whether you're allowed to drill into the desk at all, a real constraint for renters, office furniture, or a desk you don't want to damage, and clamp-on designs solve that but generally top out at a lower weight capacity than a screwed bracket.\n\nCheck the listing for the desk thickness range a clamp-on mount actually supports, since a desktop that's thicker or thinner than the clamp's rated range simply won't grip securely."
+  },
+  {
+    "criterion": "Plan rear-IO and cable access before you mount, not after",
+    "explanation": "Once a tower is mounted under the desk, reaching the rear panel to plug in a new peripheral, swap a cable, or troubleshoot a connection becomes meaningfully harder than it was when the case sat in the open on the desk-side floor.\n\nThis is worth thinking through before installation, not after, because the fix at that point is usually a full unmount rather than a quick adjustment.\n\nDecide which direction the case's rear panel will face relative to where you sit, and favor a mount that lets you slide or swivel the tower out partway without fully removing it."
+  },
+  {
+    "criterion": "Factor in the thermal tradeoff of under-desk placement",
+    "explanation": "Moving a tower off the desktop and into the enclosed space under the desk changes its airflow environment, since that space traps warmer air near the floor with less open circulation than desk-side placement gets.\n\nThis tradeoff matters more for a build generating real heat, a discrete GPU or several drives under sustained load, and less for a lighter general-use machine that rarely pushes hard.\n\nCheck whether the mount design leaves open space around the case rather than boxing it in tightly, since that gap is what keeps the thermal impact manageable."
+  },
+  {
+    "criterion": "Confirm the bracket adjustability matches your case dimensions",
+    "explanation": "An adjustable mount uses sliding rails or an expandable frame so it can grip cases across a range of widths and heights, rather than fitting only one exact case size.\n\nThis matters because a fixed-size bracket that's a poor match for your tower either won't close securely around it or will grip with too much slack, and either failure mode risks the case shifting or dropping over time.\n\nCheck the listing for the actual adjustable range in inches, and measure your tower's width and depth against that range before assuming any mount labeled \"adjustable\" will automatically fit."
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -31,10 +31,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41H5F8LUWzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GWGZCWWX?tag=deskfinds0d-20",
     description:
-      "Explicitly supports both vertical and horizontal orientation for full and mid-tower cases, with a genuinely high 77-pound rated capacity, appropriate for buyers wanting horizontal mounting without sacrificing weight headroom.\n\nHorizontal orientation on this mount needs meaningfully more under-desk width and depth than the vertical setting, measure your available under-desk space before ordering rather than assuming it fits based on the mount's compact vertical footprint alone.",
-    specs: ["Vertical or horizontal orientation", "Up to 77 lbs capacity", "Full/mid-tower compatible", "Budget-friendly price"],
-    pros: ["Explicit vertical and horizontal orientation support", "High 77lb capacity in either orientation", "Budget-friendly price for the capacity", "Fits full and mid-tower cases"],
-    cons: ["Horizontal orientation needs meaningfully more under-desk clearance", "Verify case airflow design is suited to horizontal orientation", "GPU sag risk in horizontal orientation for heavier graphics cards"],
+      "Explicitly supports both vertical and horizontal orientation for full and mid-tower cases, with a genuinely high 77-pound rated capacity, appropriate for buyers wanting horizontal mounting without sacrificing weight headroom.\\n\\nHorizontal orientation on this mount needs meaningfully more under-desk width and depth than the vertical setting, measure your available under-desk space before ordering rather than assuming it fits based on the mount's compact vertical footprint alone.\n\nIt leads this comparison on the strength of its balance between price and disclosed capacity, and it's worth weighing directly against the PUTORSEN Under Desk PC Mount for Mid/Mini before deciding.\n\nWorth knowing before you decide: High 77lb capacity in either orientation. On the other side, Horizontal orientation needs meaningfully more under-desk clearance. That's the main tradeoff to weigh against your specific case and desk setup.",
+    specs: ["Vertical or horizontal orientation","Up to 77 lbs capacity","Full/mid-tower compatible","Budget-friendly price"],
+    pros: ["Explicit vertical and horizontal orientation support","High 77lb capacity in either orientation","Budget-friendly price for the capacity","Fits full and mid-tower cases"],
+    cons: ["Horizontal orientation needs meaningfully more under-desk clearance","Verify case airflow design is suited to horizontal orientation","GPU sag risk in horizontal orientation for heavier graphics cards"],
     bestFor: "Buyers wanting genuine horizontal orientation flexibility at a budget price",
   },
   {
@@ -48,10 +48,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31FzJr+WRPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZXWGNRY?tag=deskfinds0d-20",
     description:
-      "The mid and mini-tower focused sibling of our top pick, offering the same vertical or horizontal orientation flexibility and 77-pound capacity but sized for smaller cases needing meaningfully less under-desk clearance in horizontal mode.\n\nCable routing in horizontal orientation still differs from vertical, ports face a different direction relative to your seated position, verify realistic access before committing to horizontal mounting.",
-    specs: ["Vertical or horizontal orientation", "Up to 77 lbs capacity", "Mid/mini-tower compatible", "Smaller footprint than full-tower version"],
-    pros: ["Vertical or horizontal orientation for smaller cases", "High 77lb capacity for a mid/mini-tower mount", "Smaller footprint needs less clearance than the full-tower version", "Same budget-friendly price point"],
-    cons: ["Still requires more clearance in horizontal mode than vertical", "Not sized for full-tower cases", "Verify cable-access ergonomics for horizontal port orientation"],
+      "The mid and mini-tower focused sibling of our top pick, offering the same vertical or horizontal orientation flexibility and 77-pound capacity but sized for smaller cases needing meaningfully less under-desk clearance in horizontal mode.\\n\\nCable routing in horizontal orientation still differs from vertical, ports face a different direction relative to your seated position, verify realistic access before committing to horizontal mounting.\n\nSet against the PUTORSEN Under Desk PC Mount for Full/Mid, the tradeoff here comes down to price versus disclosed weight capacity, not a straightforward upgrade or downgrade either way.\n\nWorth knowing before you decide: High 77lb capacity for a mid/mini-tower mount. On the other side, Still requires more clearance in horizontal mode than vertical. That's the main tradeoff to weigh against your specific case and desk setup.",
+    specs: ["Vertical or horizontal orientation","Up to 77 lbs capacity","Mid/mini-tower compatible","Smaller footprint than full-tower version"],
+    pros: ["Vertical or horizontal orientation for smaller cases","High 77lb capacity for a mid/mini-tower mount","Smaller footprint needs less clearance than the full-tower version","Same budget-friendly price point"],
+    cons: ["Still requires more clearance in horizontal mode than vertical","Not sized for full-tower cases","Verify cable-access ergonomics for horizontal port orientation"],
     bestFor: "Buyers with a mid or mini-tower case wanting horizontal mounting with less clearance need",
   },
   {
@@ -65,10 +65,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31DzC4Wn1JL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGQR4DNJ?tag=deskfinds0d-20",
     description:
-      "Adjustable and rated for 77 pounds with a strong review base, this mount's adjustable design accommodates horizontal positioning for buyers with limited vertical under-desk space, though verify orientation flexibility specifics against your exact clearance.\n\nDust accumulation on the now-upward-facing top surface is a genuine consideration for horizontal orientation, worth factoring into cleaning routines that a vertically-mounted side panel wouldn't need.",
-    specs: ["Up to 77 lbs capacity", "Adjustable positioning", "Strong review base", "Mid-range price"],
-    pros: ["High 77lb capacity with a strong, sizable review base", "Adjustable design accommodates varied desk clearance", "Strong 4.6-star rating", "Reasonable price for the capacity"],
-    cons: ["Verify orientation flexibility specifics against your exact under-desk space", "Dust accumulates on the upward-facing top surface in horizontal mode", "Airflow design suited to the case's original vertical orientation may be affected"],
+      "Adjustable and rated for 77 pounds with a strong review base, this mount's adjustable design accommodates horizontal positioning for buyers with limited vertical under-desk space, though verify orientation flexibility specifics against your exact clearance.\\n\\nDust accumulation on the now-upward-facing top surface is a genuine consideration for horizontal orientation, worth factoring into cleaning routines that a vertically-mounted side panel wouldn't need.\n\nRelative to the PUTORSEN Under Desk PC Mount for Mid/Mini, this pick leans toward a different priority, whether that's a higher capacity rating, a lower price, or a mounting method suited to a different install situation.\n\nWorth knowing before you decide: Adjustable design accommodates varied desk clearance. On the other side, Verify orientation flexibility specifics against your exact under-desk space. That's the main tradeoff to weigh against your specific case and desk setup.",
+    specs: ["Up to 77 lbs capacity","Adjustable positioning","Strong review base","Mid-range price"],
+    pros: ["High 77lb capacity with a strong, sizable review base","Adjustable design accommodates varied desk clearance","Strong 4.6-star rating","Reasonable price for the capacity"],
+    cons: ["Verify orientation flexibility specifics against your exact under-desk space","Dust accumulates on the upward-facing top surface in horizontal mode","Airflow design suited to the case's original vertical orientation may be affected"],
     bestFor: "Buyers wanting high capacity and adjustability for a horizontal setup",
   },
   {
@@ -82,12 +82,12 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41uzdCGRrbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G6YWLKQH?tag=deskfinds0d-20",
     description:
-      "The highest average rating in this guide, this compact mount suits buyers with genuinely limited under-desk depth who need to keep the horizontal footprint as small as possible while still holding a 66-pound rated case.\n\nAs with any horizontal mount, verify your specific case's cooling design tolerates the orientation change, since some cases are optimized for vertical airflow and horizontal mounting can shift thermal performance.",
-    specs: ["Max 66 lbs capacity", "Height adjustable", "Highest average rating", "Compact footprint"],
-    pros: ["Highest average rating in this guide", "Compact footprint suits limited under-desk clearance", "66lb capacity covers most mid-tower cases", "Height adjustable for varied positioning"],
-    cons: ["Smaller review base than the higher-volume picks", "Verify case cooling design tolerates horizontal orientation", "66lb capacity is lower than the 77lb picks in this guide"],
+      "The highest average rating in this guide, this compact mount suits buyers with genuinely limited under-desk depth who need to keep the horizontal footprint as small as possible while still holding a 66-pound rated case.\\n\\nAs with any horizontal mount, verify your specific case's cooling design tolerates the orientation change, since some cases are optimized for vertical airflow and horizontal mounting can shift thermal performance.\n\nCompared with the Heavy Duty Under Desk PC Holder above, this pick trades some of that pick's proven track record for a different balance of price and capacity, worth weighing against your own priorities.\n\nWorth knowing before you decide: Compact footprint suits limited under-desk clearance. On the other side, Smaller review base than the higher-volume picks. That's the main tradeoff to weigh against your specific case and desk setup.",
+    specs: ["Max 66 lbs capacity","Height adjustable","Highest average rating","Compact footprint"],
+    pros: ["Highest average rating in this guide","Compact footprint suits limited under-desk clearance","66lb capacity covers most mid-tower cases","Height adjustable for varied positioning"],
+    cons: ["Smaller review base than the higher-volume picks","Verify case cooling design tolerates horizontal orientation","66lb capacity is lower than the 77lb picks in this guide"],
     bestFor: "Buyers with limited under-desk clearance wanting the strongest available rating",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -101,36 +101,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Measure Your Under-Desk Clearance Before Choosing Horizontal",
-    note: "Horizontal orientation requires meaningfully more under-desk width and depth than vertical mounting. Measure your actual available under-desk space against the mount's horizontal footprint dimensions, not just its compact vertical footprint, before ordering.",
-  },
-  {
-    subheading: "Check Cable Access From the Horizontal Orientation",
-    note: "Ports face a different direction relative to where you sit once a case is mounted horizontally. Verify realistic cable-access ergonomics for your specific desk layout rather than assuming it matches how you'd reach ports on a vertically-mounted case.",
-  },
-  {
-    subheading: "Consider Airflow and GPU Sag in Horizontal Mode",
-    note: "Some cases are optimized specifically for vertical airflow, and horizontal mounting can shift thermal performance. A heavy graphics card not designed for horizontal mounting can also sag differently since gravity now pulls in a different direction relative to the PCIe slot.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Full/mid-tower horizontal mounting", "PUTORSEN Full/Mid-Tower Mount"],
-        ["Mid/mini-tower with less clearance needed", "PUTORSEN Mid/Mini-Tower Mount"],
-        ["Highest capacity with adjustability", "Heavy Duty PC Holder, 77 lbs"],
-        ["Limited clearance, strongest rating", "Heavy Duty PC Mount, 66 lbs"],
+    "subheading": "By Disclosed Weight Capacity",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Around 77 lbs capacity",
+          "PUTORSEN Under Desk PC Mount for Full/Mid"
+        ],
+        [
+          "Around 77 lbs capacity",
+          "PUTORSEN Under Desk PC Mount for Mid/Mini"
+        ],
+        [
+          "Around 77 lbs capacity",
+          "Heavy Duty Under Desk PC Holder"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $38",
+          "PUTORSEN Under Desk PC Mount for Full/Mid"
+        ],
+        [
+          "Up to $50",
+          "Heavy Duty Under Desk PC Holder"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "PUTORSEN Under Desk PC Mount for Full/Mid vs Heavy Duty Under Desk PC Mount",
+    "cards": [
+      {
+        "label": "PUTORSEN Under Desk PC Mount for Full/Mid",
+        "text": "Rated for a higher disclosed weight capacity, worth it if your tower is a heavier modern build with multiple drives or a full power supply."
+      },
+      {
+        "label": "Heavy Duty Under Desk PC Mount",
+        "text": "A lighter-duty rating that's still enough for a standard mid-tower case, usually at a lower price."
+      }
+    ],
+    "note": "Most buyers with a standard mid-tower should default to Heavy Duty Under Desk PC Mount unless their case is genuinely heavier than average."
+  },
+  {
+    "subheading": "By Disclosed Weight Capacity",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around 77 lbs capacity",
+          "PUTORSEN Under Desk PC Mount for Full/Mid"
+        ],
+        [
+          "Around 77 lbs capacity",
+          "PUTORSEN Under Desk PC Mount for Mid/Mini"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Heavier Modern Tower Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A disclosed weight capacity meaningfully above the generic mid-tower assumption, ideally with the tested figure stated in pounds, not a vague marketing term."
+      },
+      {
+        "label": "In this comparison",
+        "text": "PUTORSEN Under Desk PC Mount for Full/Mid discloses the highest capacity at 77 lbs."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Your tower is a heavier modern build with multiple drives or a discrete GPU, where Heavy Duty Under Desk PC Holder's higher price buys real capacity headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "Your case is a genuinely lightweight, standard mid-tower, where PUTORSEN Under Desk PC Mount for Full/Mid covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Measure under-desk clearance for horizontal orientation specifically", explanation: "Horizontal mounting needs meaningfully more width and depth than vertical, verify against your actual desk dimensions before ordering." },
-  { criterion: "Verify cable access from the horizontal port orientation", explanation: "Ports face a different direction relative to you in horizontal mode, confirm realistic day-to-day cable access for your desk layout." },
-  { criterion: "Check whether your case's cooling design suits horizontal orientation", explanation: "Some cases are optimized for vertical airflow specifically, horizontal mounting can shift thermal performance, worth noting for a case generating meaningful heat." },
-  { criterion: "Consider GPU sag risk in horizontal mode", explanation: "A heavy graphics card not designed for horizontal mounting can sag differently since gravity pulls in a different direction relative to the PCIe slot." },
+  {
+    "criterion": "Weigh your loaded tower, not its size category",
+    "explanation": "A mount's weight rating is a number on a spec sheet, and it's almost always tested against a generic mid-tower case with nothing installed, not the fully loaded tower you actually own once drives, a full-size power supply, and any add-in cards are factored in.\n\nThat gap matters because a case that looks like a standard mid-tower on the shelf can weigh well beyond a budget mount's rated capacity once it's actually built out, and an overloaded mount risks failing or sagging over time rather than failing outright on day one.\n\nBefore buying, weigh or estimate your tower's real loaded weight, and check the mount's listing for the exact tested capacity figure rather than trusting a vague phrase like \"heavy duty\" with no number attached."
+  },
+  {
+    "criterion": "Check the mounting method against your desk's construction",
+    "explanation": "Under-desk mounts attach in one of two ways: screwed directly into the underside of the desk, or clamped on without any drilling.\n\nWhich one applies to you depends on whether you're allowed to drill into the desk at all, a real constraint for renters, office furniture, or a desk you don't want to damage, and clamp-on designs solve that but generally top out at a lower weight capacity than a screwed bracket.\n\nCheck the listing for the desk thickness range a clamp-on mount actually supports, since a desktop that's thicker or thinner than the clamp's rated range simply won't grip securely."
+  },
+  {
+    "criterion": "Plan rear-IO and cable access before you mount, not after",
+    "explanation": "Once a tower is mounted under the desk, reaching the rear panel to plug in a new peripheral, swap a cable, or troubleshoot a connection becomes meaningfully harder than it was when the case sat in the open on the desk-side floor.\n\nThis is worth thinking through before installation, not after, because the fix at that point is usually a full unmount rather than a quick adjustment.\n\nDecide which direction the case's rear panel will face relative to where you sit, and favor a mount that lets you slide or swivel the tower out partway without fully removing it."
+  },
+  {
+    "criterion": "Factor in the thermal tradeoff of under-desk placement",
+    "explanation": "Moving a tower off the desktop and into the enclosed space under the desk changes its airflow environment, since that space traps warmer air near the floor with less open circulation than desk-side placement gets.\n\nThis tradeoff matters more for a build generating real heat, a discrete GPU or several drives under sustained load, and less for a lighter general-use machine that rarely pushes hard.\n\nCheck whether the mount design leaves open space around the case rather than boxing it in tightly, since that gap is what keeps the thermal impact manageable."
+  },
+  {
+    "criterion": "Confirm the bracket adjustability matches your case dimensions",
+    "explanation": "An adjustable mount uses sliding rails or an expandable frame so it can grip cases across a range of widths and heights, rather than fitting only one exact case size.\n\nThis matters because a fixed-size bracket that's a poor match for your tower either won't close securely around it or will grip with too much slack, and either failure mode risks the case shifting or dropping over time.\n\nCheck the listing for the actual adjustable range in inches, and measure your tower's width and depth against that range before assuming any mount labeled \"adjustable\" will automatically fit."
+  }
 ];
 
 export const faq: FaqItem[] = [
