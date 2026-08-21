@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     reviews: "15,583",
     imageUrl: "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075JYG2TB?tag=deskfinds0d-20",
-    description: "Not an IKEA product, included as the strongest overall alternative in our research: the largest review base of any converter we found, at a mid-range price.\n\nIf you specifically wanted an IKEA product for aesthetic or brand consistency with existing IKEA furniture, this won't match that, but it's a proven converter that works on any standard desk.",
+    description: "Not an IKEA product, included as the strongest overall alternative in our research: the largest review base of any converter we found, at a mid-range price.\n\nIt earns the top spot in this comparison over FITUEYES Height Adjustable Standing Desk 32 Inch Wide Sit to Stand Converter for one main reason. Largest review base of any converter in our research. On price, it comes in below FITUEYES Height Adjustable Standing Desk 32 Inch Wide Sit to Stand Converter, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers who want the most proven converter regardless of brand.",
     specs: ["32 inch platform, dual-monitor support"],
     pros: ["Largest review base of any converter in our research"],
     cons: ["Not an IKEA product"],
@@ -46,8 +46,8 @@ export const products: GuideProduct[] = [
     reviews: "2,412",
     imageUrl: "https://m.media-amazon.com/images/I/51Z4mzo+NKS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LCCJD6B?tag=deskfinds0d-20",
-    description: "A well-reviewed alternative at a similar price point and platform size to the top pick, worth comparing directly.\n\nAlso not an IKEA product, included for buyers deciding between the two most-reviewed 32 inch options in our research.",
-    specs: ["32 inch platform", "Gas-spring lift"],
+    description: "A well-reviewed alternative at a similar price point and platform size to the top pick, worth comparing directly.\n\nOne spot below VIVO 32 inch Desk Converter in this ranking, it costs more than VIVO 32 inch Desk Converter. The compromise here is straightforward: Not an IKEA product. What you gain in return: Well-reviewed alternative to the top pick at a similar price. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers comparing 32 inch converter options beyond the single most-reviewed pick.",
+    specs: ["32 inch platform","Gas-spring lift"],
     pros: ["Well-reviewed alternative to the top pick at a similar price"],
     cons: ["Not an IKEA product"],
     bestFor: "Buyers comparing 32 inch converter options beyond the single most-reviewed pick.",
@@ -62,12 +62,12 @@ export const products: GuideProduct[] = [
     reviews: "109",
     imageUrl: "https://m.media-amazon.com/images/I/41azPSHnDnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F4FN3SNT?tag=deskfinds0d-20",
-    description: "A simple, budget-priced keyboard riser closer in spirit to IKEA's minimal furniture aesthetic and pricing, though not an actual IKEA product.\n\nA smaller review base and lower rating than the established brands, but the cheapest option if budget is the primary concern.",
+    description: "A simple, budget-priced keyboard riser closer in spirit to IKEA's minimal furniture aesthetic and pricing, though not an actual IKEA product.\n\nSitting just under FITUEYES Height Adjustable Standing Desk 32 Inch Wide Sit to Stand Converter, it's priced lower than FITUEYES Height Adjustable Standing Desk 32 Inch Wide Sit to Stand Converter. Here's the honest tradeoff: Smaller review base and lower rating than established brands. And here's what it gets you instead: Cheapest option in this comparison. That's the real difference between the two picks, not just a ranking number.\n\nBudget-focused buyers who want the cheapest available option.",
     specs: ["Adjustable height keyboard riser"],
     pros: ["Cheapest option in this comparison"],
-    cons: ["Smaller review base and lower rating than established brands", "Not an IKEA product"],
+    cons: ["Smaller review base and lower rating than established brands","Not an IKEA product"],
     bestFor: "Budget-focused buyers who want the cheapest available option.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -81,17 +81,133 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "If You Want IKEA Specifically",
-    note: "IKEA sells full sit-stand desks (like the BEKANT and TROTTEN lines) rather than desk converters that sit on top of an existing desk. If matching IKEA's furniture line specifically matters to you, consider a full IKEA standing desk instead of a converter, or check IKEA's current catalog directly since product lines change over time.",
+    "subheading": "By Platform Size",
+    "table": {
+      "headers": [
+        "Your monitor setup",
+        "Recommended pick in this comparison"
+      ],
+      "rows": [
+        [
+          "Single monitor or laptop, small desk",
+          "FITUEYES Height Adjustable Standing Desk 32 Inch Wide Sit to Stand Converter"
+        ],
+        [
+          "Dual monitors",
+          "VIVO 32 inch Desk Converter"
+        ],
+        [
+          "Triple monitors, need maximum surface area",
+          "FITUEYES Height Adjustable Standing Desk 32 Inch Wide Sit to Stand Converter"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $60",
+          "Standing Desk Converter"
+        ],
+        [
+          "Mid-range",
+          "VIVO 32 inch Desk Converter"
+        ],
+        [
+          "No firm budget ceiling, prioritizing lift quality or brand",
+          "FITUEYES Height Adjustable Standing Desk 32 Inch Wide Sit to Stand Converter"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Manual (Gas-Spring) vs Electric Lift",
+    "cards": [
+      {
+        "label": "Manual (Gas-Spring)",
+        "text": "Adjusts with a push or pull handle rather than a motor, needs no power outlet, and typically costs less. In this comparison: VIVO 32 inch Desk Converter, FITUEYES Height Adjustable Standing Desk 32 Inch Wide Sit to Stand Converter, Standing Desk Converter."
+      },
+      {
+        "label": "Electric (Motorized)",
+        "text": "Adjusts at the push of a button for smoother, more precise height changes, at a price premium and the need for a nearby outlet. In this comparison: none in this specific roundup, since most picks here use a manual lift."
+      }
+    ],
+    "note": "Every pick in this specific comparison uses a manual lift; check our broader converter roundup if you specifically want an electric option."
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "VIVO 32 inch Desk Converter"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "VIVO 32 inch Desk Converter"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Dual-Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A platform of at least 32 inches with explicit dual-monitor language in the listing, plus a stated weight capacity that comfortably covers two monitors, a keyboard, and a mouse together."
+      },
+      {
+        "label": "In this comparison",
+        "text": "VIVO 32 inch Desk Converter fits this specifically: Largest review base of any converter in our research."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what FITUEYES Height Adjustable Standing Desk 32 Inch Wide Sit to Stand Converter offers: Well-reviewed alternative to the top pick at a similar price. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Standing Desk Converter already covers the essentials: Cheapest option in this comparison. The main thing you'd be paying extra for elsewhere in this list is a larger platform or an electric lift."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Check IKEA's current catalog directly if brand matters to you", explanation: "IKEA's product lineup changes; verify directly on IKEA's site whether a converter product has been introduced since this research." },
-  { criterion: "Consider a full IKEA standing desk instead of a converter", explanation: "IKEA's current focus is on complete sit-stand desks like BEKANT and TROTTEN, which may better suit buyers who specifically want the IKEA brand." },
-  { criterion: "Weigh the strongest non-IKEA alternatives on their own merits", explanation: "The picks in this comparison are proven, well-reviewed converters regardless of brand origin; don't dismiss them simply because they aren't IKEA." },
-  { criterion: "Prioritize review volume and rating over brand name alone", explanation: "The VIVO and FITUEYES alternatives here have substantial review histories that a newer or unconfirmed IKEA product wouldn't yet have." },
-  { criterion: "Consider budget-focused options if simplicity and low cost matter more than brand", explanation: "The keyboard riser alternative offers the lowest price if that's your primary concern over any specific brand match." },
+  {
+    "criterion": "Measure your existing desk's height before ordering",
+    "explanation": "A standing desk converter sits on top of your current desk and adds its own height on top of that, even at the converter's lowest seated setting, sometimes adding several inches before you've raised anything at all. This matters because if your desk is already at a comfortable seated typing height, most gas-spring and electric converters can push your keyboard and monitor uncomfortably high the moment you set the converter down, forcing you into an awkward seated typing posture even when you never plan to stand. Before ordering, check the listing for the converter's minimum or lowest platform height (not just its maximum standing height), measure your desk's current height, and add the two together to confirm the result still feels comfortable seated."
+  },
+  {
+    "criterion": "Match platform size to your actual number of monitors",
+    "explanation": "Platform size is usually listed in inches of width, and it directly determines how many monitors and how much keyboard and mouse space you'll realistically have once everything is set up. A platform in the mid-20s to high-20s of inches comfortably fits a single monitor or laptop, while dual monitors typically need at least 32 inches and three monitors usually need 42 inches or more with a dedicated multi-monitor mount, since monitors, a keyboard, and a mouse all need to coexist on the same riser surface without overhanging the edge. Check the listing's stated platform width against the combined width of your actual monitors plus keyboard, not just the number of monitors the title claims to support."
+  },
+  {
+    "criterion": "Weigh electric versus manual lift for how often you'll adjust it",
+    "explanation": "A manual converter typically uses a gas-spring or counterbalance mechanism you push or pull to raise and lower, requiring no power and generally costing less, while an electric converter uses a motor and push-button control for smoother, more precise height changes at the cost of needing a nearby power outlet and a meaningfully higher price. If you plan to switch between sitting and standing multiple times a day, the effortless one-touch adjustment of an electric lift genuinely reduces the friction that causes people to stop bothering with height changes altogether, while an occasional adjuster may not find that premium worth paying. Check the listing for words like \"electric,\" \"motorized,\" or \"push-button\" versus \"gas spring\" or \"manual\" to confirm which mechanism you're buying, and if electric, confirm an outlet is within reach of where the desk sits."
+  },
+  {
+    "criterion": "Check your desk's depth against the converter's base footprint",
+    "explanation": "A converter's base, the part that actually sits on your desk, is typically deeper front-to-back than the platform surface alone, since it needs room for the lifting mechanism and stability at full height, and larger platforms generally require a proportionally larger base. This matters because a desk that's wide enough for the platform can still be too shallow for the base, leaving the converter's back edge hanging off the desk or blocking a monitor from sitting far enough back to be comfortable to view. Check the listing's stated base or footprint dimensions, not just the platform width, and measure your desk's actual depth (front edge to back edge) before ordering rather than assuming platform width is the only number that matters."
+  },
+  {
+    "criterion": "Weigh review volume against star rating together, not separately",
+    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews. This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time. When comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+  }
 ];
 
 export const faq: FaqItem[] = [

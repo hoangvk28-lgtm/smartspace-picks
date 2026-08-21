@@ -30,9 +30,9 @@ export const products: GuideProduct[] = [
     reviews: "2,847",
     imageUrl: "https://m.media-amazon.com/images/I/51rafiFi9aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B077Z3GCDL?tag=deskfinds0d-20",
-    description: "The largest review base in TechOrbits' current converter lineup, a confirmed MDF wood platform at 32 inches.\n\nThe lowest price among TechOrbits' current lineup at the highest review base, a strong entry point into the brand.",
+    description: "The largest review base in TechOrbits' current converter lineup, a confirmed MDF wood platform at 32 inches.\n\nIt earns the top spot in this comparison over TechOrbits OF-S06-2 Desk Converter for one main reason. Largest review base in TechOrbits' current lineup. On price, it comes in below TechOrbits OF-S06-2 Desk Converter, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers who want TechOrbits' most proven current converter.",
     specs: ["32 inch platform, confirmed MDF wood construction"],
-    pros: ["Largest review base in TechOrbits' current lineup", "Lowest price among TechOrbits' confirmed current models"],
+    pros: ["Largest review base in TechOrbits' current lineup","Lowest price among TechOrbits' confirmed current models"],
     cons: ["Smallest platform in the TechOrbits lineup"],
     bestFor: "Buyers who want TechOrbits' most proven current converter.",
   },
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     reviews: "1,923",
     imageUrl: "https://m.media-amazon.com/images/I/51rQq+TqKyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07613BR1D?tag=deskfinds0d-20",
-    description: "The highest rating in TechOrbits' current lineup, a step up in platform size from the 32 inch model, still confirmed MDF wood construction.\n\nA meaningful price increase over the 32 inch model for the additional platform width and slightly higher rating.",
+    description: "The highest rating in TechOrbits' current lineup, a step up in platform size from the 32 inch model, still confirmed MDF wood construction.\n\nOne spot below TechOrbits Standing Desk Converter in this ranking, it costs more than TechOrbits Standing Desk Converter. The compromise here is straightforward: Smaller review base than the 32 inch model. What you gain in return: Highest rating in TechOrbits' current lineup. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers who want TechOrbits' highest-rated current option with more platform space.",
     specs: ["37 inch platform, confirmed MDF wood construction"],
     pros: ["Highest rating in TechOrbits' current lineup"],
     cons: ["Smaller review base than the 32 inch model"],
@@ -62,12 +62,12 @@ export const products: GuideProduct[] = [
     reviews: "1,204",
     imageUrl: "https://m.media-amazon.com/images/I/51ql3SmLQXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09G9L9X8B?tag=deskfinds0d-20",
-    description: "TechOrbits' largest confirmed current platform, at 42 inches, the highest price in the lineup with a still-solid review base.\n\nA reasonable choice for buyers who want the TechOrbits brand's largest available platform for dual-monitor or monitor-plus-laptop use.",
+    description: "TechOrbits' largest confirmed current platform, at 42 inches, the highest price in the lineup with a still-solid review base.\n\nSitting just under TechOrbits OF-S06-2 Desk Converter, it costs more than TechOrbits OF-S06-2 Desk Converter. Here's the honest tradeoff: Smallest review base in the TechOrbits lineup, highest price. And here's what it gets you instead: Largest confirmed current TechOrbits platform. That's the real difference between the two picks, not just a ranking number.\n\nBuyers who want TechOrbits' largest current platform.",
     specs: ["42 inch platform, confirmed MDF wood construction"],
     pros: ["Largest confirmed current TechOrbits platform"],
     cons: ["Smallest review base in the TechOrbits lineup, highest price"],
     bestFor: "Buyers who want TechOrbits' largest current platform.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -81,28 +81,124 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What Matters Most",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Most proven, lowest price", "TechOrbits Standing Desk Converter, 32 Inch"],
-        ["Highest rated", "TechOrbits OF-S06-2 Desk Converter, 37 Inch"],
-        ["Largest platform", "TechOrbits Standing Desk Converter, 42 Inch"],
+    "subheading": "By Platform Size",
+    "table": {
+      "headers": [
+        "Your monitor setup",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Single monitor or laptop, small desk",
+          "TechOrbits Standing Desk Converter"
+        ],
+        [
+          "Dual monitors",
+          "TechOrbits Standing Desk Converter"
+        ],
+        [
+          "Triple monitors, need maximum surface area",
+          "TechOrbits OF-S06-2 Desk Converter"
+        ]
+      ]
+    }
   },
   {
-    subheading: "All Three Confirmed TechOrbits Models Use MDF Wood",
-    note: "Unlike some competitor lineups that mix metal-frame and wood-look laminate finishes, all three confirmed current TechOrbits converters use genuine MDF wood construction, a consistent material choice across the brand's size range.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $130",
+          "TechOrbits Standing Desk Converter"
+        ],
+        [
+          "Mid-range",
+          "TechOrbits OF-S06-2 Desk Converter"
+        ],
+        [
+          "No firm budget ceiling, prioritizing lift quality or brand",
+          "TechOrbits Standing Desk Converter"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Manual (Gas-Spring) vs Electric Lift",
+    "cards": [
+      {
+        "label": "Manual (Gas-Spring)",
+        "text": "Adjusts with a push or pull handle rather than a motor, needs no power outlet, and typically costs less. In this comparison: TechOrbits Standing Desk Converter, TechOrbits OF-S06-2 Desk Converter, TechOrbits Standing Desk Converter."
+      },
+      {
+        "label": "Electric (Motorized)",
+        "text": "Adjusts at the push of a button for smoother, more precise height changes, at a price premium and the need for a nearby outlet. In this comparison: none in this specific roundup, since most picks here use a manual lift."
+      }
+    ],
+    "note": "Every pick in this specific comparison uses a manual lift; check our broader converter roundup if you specifically want an electric option."
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "TechOrbits OF-S06-2 Desk Converter"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "TechOrbits Standing Desk Converter"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Dual-Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A platform of at least 32 inches with explicit dual-monitor language in the listing, plus a stated weight capacity that comfortably covers two monitors, a keyboard, and a mouse together."
+      },
+      {
+        "label": "In this comparison",
+        "text": "TechOrbits Standing Desk Converter fits this specifically: Largest confirmed current TechOrbits platform."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "note": "Every pick in this specific comparison sits in a similar price range, so the decision here comes down to platform size and lift mechanism rather than a budget-versus-premium tradeoff. Check the pros and cons above for what actually differs between them."
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Choose platform size based on your actual device count", explanation: "TechOrbits' lineup spans 32 to 42 inches; match this to whether you're running a single monitor, dual monitors, or a monitor plus laptop." },
-  { criterion: "Weigh the 37 inch model's higher rating against the 32 inch model's larger review base", explanation: "The 37 inch model has a slightly higher rating, while the 32 inch model has a much larger and more established review history." },
-  { criterion: "Confirm you specifically want MDF wood construction", explanation: "All three TechOrbits models use this material consistently; if you prefer a metal frame, consider a different brand." },
-  { criterion: "Compare TechOrbits pricing against VIVO at similar sizes", explanation: "TechOrbits generally sits close to VIVO's pricing; check our general standing desk converter guide for direct comparison." },
-  { criterion: "Weigh the price jump for the largest 42 inch platform", explanation: "The 42 inch model costs $70 more than the 32 inch entry point; confirm you need the additional width before paying the premium." },
+  {
+    "criterion": "Measure your existing desk's height before ordering",
+    "explanation": "A standing desk converter sits on top of your current desk and adds its own height on top of that, even at the converter's lowest seated setting, sometimes adding several inches before you've raised anything at all. This matters because if your desk is already at a comfortable seated typing height, most gas-spring and electric converters can push your keyboard and monitor uncomfortably high the moment you set the converter down, forcing you into an awkward seated typing posture even when you never plan to stand. Before ordering, check the listing for the converter's minimum or lowest platform height (not just its maximum standing height), measure your desk's current height, and add the two together to confirm the result still feels comfortable seated."
+  },
+  {
+    "criterion": "Match platform size to your actual number of monitors",
+    "explanation": "Platform size is usually listed in inches of width, and it directly determines how many monitors and how much keyboard and mouse space you'll realistically have once everything is set up. A platform in the mid-20s to high-20s of inches comfortably fits a single monitor or laptop, while dual monitors typically need at least 32 inches and three monitors usually need 42 inches or more with a dedicated multi-monitor mount, since monitors, a keyboard, and a mouse all need to coexist on the same riser surface without overhanging the edge. Check the listing's stated platform width against the combined width of your actual monitors plus keyboard, not just the number of monitors the title claims to support."
+  },
+  {
+    "criterion": "Weigh electric versus manual lift for how often you'll adjust it",
+    "explanation": "A manual converter typically uses a gas-spring or counterbalance mechanism you push or pull to raise and lower, requiring no power and generally costing less, while an electric converter uses a motor and push-button control for smoother, more precise height changes at the cost of needing a nearby power outlet and a meaningfully higher price. If you plan to switch between sitting and standing multiple times a day, the effortless one-touch adjustment of an electric lift genuinely reduces the friction that causes people to stop bothering with height changes altogether, while an occasional adjuster may not find that premium worth paying. Check the listing for words like \"electric,\" \"motorized,\" or \"push-button\" versus \"gas spring\" or \"manual\" to confirm which mechanism you're buying, and if electric, confirm an outlet is within reach of where the desk sits."
+  },
+  {
+    "criterion": "Check your desk's depth against the converter's base footprint",
+    "explanation": "A converter's base, the part that actually sits on your desk, is typically deeper front-to-back than the platform surface alone, since it needs room for the lifting mechanism and stability at full height, and larger platforms generally require a proportionally larger base. This matters because a desk that's wide enough for the platform can still be too shallow for the base, leaving the converter's back edge hanging off the desk or blocking a monitor from sitting far enough back to be comfortable to view. Check the listing's stated base or footprint dimensions, not just the platform width, and measure your desk's actual depth (front edge to back edge) before ordering rather than assuming platform width is the only number that matters."
+  },
+  {
+    "criterion": "Weigh review volume against star rating together, not separately",
+    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews. This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time. When comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+  }
 ];
 
 export const faq: FaqItem[] = [

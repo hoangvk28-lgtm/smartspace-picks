@@ -30,9 +30,9 @@ export const products: GuideProduct[] = [
     reviews: "15,583",
     imageUrl: "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075JYG2TB?tag=deskfinds0d-20",
-    description: "The largest review base of any converter we researched, with a continuous gas-spring adjustment range rather than fixed height settings.\n\nContinuous adjustment lets you find any height within the range rather than stepping between preset positions.",
+    description: "The largest review base of any converter we researched, with a continuous gas-spring adjustment range rather than fixed height settings.\n\nIt earns the top spot in this comparison over Vari VariDesk Pro Plus 36 for one main reason. Largest review base of any converter in our research. On price, it comes in below Vari VariDesk Pro Plus 36, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers who want the most proven converter with continuous height adjustment.",
     specs: ["32 inch platform, continuous gas-spring adjustment"],
-    pros: ["Largest review base of any converter in our research", "Continuous height adjustment, not fixed steps"],
+    pros: ["Largest review base of any converter in our research","Continuous height adjustment, not fixed steps"],
     cons: ["Verify your desk's lowest-height fit before ordering"],
     bestFor: "Buyers who want the most proven converter with continuous height adjustment.",
   },
@@ -46,9 +46,9 @@ export const products: GuideProduct[] = [
     reviews: "3,153",
     imageUrl: "https://m.media-amazon.com/images/I/41I06ihR+sL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00JI6NCCK?tag=deskfinds0d-20",
-    description: "Offers 11 distinct fixed height settings rather than continuous adjustment, useful for finding and returning to the exact same position repeatedly.\n\nThe highest rating in our broader converter research; a premium price for this specific adjustment mechanism.",
+    description: "Offers 11 distinct fixed height settings rather than continuous adjustment, useful for finding and returning to the exact same position repeatedly.\n\nOne spot below VIVO 32 inch Desk Converter in this ranking, it costs more than VIVO 32 inch Desk Converter. The compromise here is straightforward: Highest price among top picks. What you gain in return: Highest rating in our broader research. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers who want precise, repeatable height positions rather than continuous adjustment.",
     specs: ["36 inch platform, 11 fixed height settings"],
-    pros: ["Highest rating in our broader research", "11 repeatable fixed positions"],
+    pros: ["Highest rating in our broader research","11 repeatable fixed positions"],
     cons: ["Highest price among top picks"],
     bestFor: "Buyers who want precise, repeatable height positions rather than continuous adjustment.",
   },
@@ -62,12 +62,12 @@ export const products: GuideProduct[] = [
     reviews: "497",
     imageUrl: "https://m.media-amazon.com/images/I/41M1ekKczDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0864RSM5S?tag=deskfinds0d-20",
-    description: "The most effortless adjustment mechanism in this comparison, using a motor and push-button control rather than a lever or handle.\n\nRequires power outlet access; a genuine convenience upgrade if you adjust height frequently throughout the day.",
+    description: "The most effortless adjustment mechanism in this comparison, using a motor and push-button control rather than a lever or handle.\n\nSitting just under Vari VariDesk Pro Plus 36, it costs more than Vari VariDesk Pro Plus 36. Here's the honest tradeoff: Requires power outlet access, price premium. And here's what it gets you instead: Most effortless adjustment mechanism, no manual force required. That's the real difference between the two picks, not just a ranking number.\n\nBuyers who adjust height frequently and want the least physical effort.",
     specs: ["36 inch platform, electric push-button adjustment"],
     pros: ["Most effortless adjustment mechanism, no manual force required"],
     cons: ["Requires power outlet access, price premium"],
     bestFor: "Buyers who adjust height frequently and want the least physical effort.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -81,28 +81,133 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Adjustment Mechanism",
-    table: {
-      headers: ["What you want", "Recommended pick"],
-      rows: [
-        ["Continuous adjustment, any height in range", "VIVO 32 inch Desk Converter, K Series"],
-        ["Precise, repeatable fixed positions", "Vari VariDesk Pro Plus 36"],
-        ["Effortless push-button adjustment", "VERSADESK PowerPro 36 Inch Electric"],
+    "subheading": "By Platform Size",
+    "table": {
+      "headers": [
+        "Your monitor setup",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Single monitor or laptop, small desk",
+          "VIVO 32 inch Desk Converter"
+        ],
+        [
+          "Dual monitors",
+          "VIVO 32 inch Desk Converter"
+        ],
+        [
+          "Triple monitors, need maximum surface area",
+          "VERSADESK PowerPro 36 Inch Electric Standing Desk Converter"
+        ]
+      ]
+    }
   },
   {
-    subheading: "See Our Full Standing Desk Converter Guide for the Complete Picture",
-    note: "Since \"adjustable\" describes the entire category rather than a subset of it, our main standing desk converter guide covers a wider range of picks across sizes and price points. Use this page for the adjustment-mechanism comparison specifically.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $130",
+          "VIVO 32 inch Desk Converter"
+        ],
+        [
+          "Mid-range",
+          "Vari VariDesk Pro Plus 36"
+        ],
+        [
+          "No firm budget ceiling, prioritizing lift quality or brand",
+          "VERSADESK PowerPro 36 Inch Electric Standing Desk Converter"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Manual (Gas-Spring) vs Electric Lift",
+    "cards": [
+      {
+        "label": "Manual (Gas-Spring)",
+        "text": "Adjusts with a push or pull handle rather than a motor, needs no power outlet, and typically costs less. In this comparison: VIVO 32 inch Desk Converter, Vari VariDesk Pro Plus 36."
+      },
+      {
+        "label": "Electric (Motorized)",
+        "text": "Adjusts at the push of a button for smoother, more precise height changes, at a price premium and the need for a nearby outlet. In this comparison: VERSADESK PowerPro 36 Inch Electric Standing Desk Converter."
+      }
+    ],
+    "note": "Most buyers should default to a manual pick like VIVO 32 inch Desk Converter unless you'll adjust height multiple times a day, in which case VERSADESK PowerPro 36 Inch Electric Standing Desk Converter's push-button lift is worth the premium."
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "Vari VariDesk Pro Plus 36"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "VIVO 32 inch Desk Converter"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Dual-Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A platform of at least 32 inches with explicit dual-monitor language in the listing, plus a stated weight capacity that comfortably covers two monitors, a keyboard, and a mouse together."
+      },
+      {
+        "label": "In this comparison",
+        "text": "VIVO 32 inch Desk Converter fits this specifically: Largest review base of any converter in our research."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what VERSADESK PowerPro 36 Inch Electric Standing Desk Converter offers: Most effortless adjustment mechanism, no manual force required. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "VIVO 32 inch Desk Converter already covers the essentials: Largest review base of any converter in our research. The main thing you'd be paying extra for elsewhere in this list is a larger platform or an electric lift."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Understand that adjustability is universal, not a differentiator", explanation: "Nearly every current standing desk converter is height-adjustable; use this search term to compare adjustment mechanisms, not to filter to a special product category." },
-  { criterion: "Choose between continuous, stepped, and motorized adjustment", explanation: "Each mechanism offers a different tradeoff between flexibility, repeatability, and physical effort; match this to how often and precisely you adjust height." },
-  { criterion: "Weigh electric adjustment's convenience against its price and power requirement", explanation: "Push-button adjustment is the most effortless option but costs more and needs a nearby power outlet." },
-  { criterion: "Consider fixed-setting mechanisms if you always return to the same height", explanation: "A converter with preset positions like the VariDesk Pro Plus makes it easy to return to an exact previous height without guessing." },
-  { criterion: "Check our full standing desk converter guide for the broader product range", explanation: "This page focuses on adjustment mechanism; our main guide covers more size and price options." },
+  {
+    "criterion": "Measure your existing desk's height before ordering",
+    "explanation": "A standing desk converter sits on top of your current desk and adds its own height on top of that, even at the converter's lowest seated setting, sometimes adding several inches before you've raised anything at all. This matters because if your desk is already at a comfortable seated typing height, most gas-spring and electric converters can push your keyboard and monitor uncomfortably high the moment you set the converter down, forcing you into an awkward seated typing posture even when you never plan to stand. Before ordering, check the listing for the converter's minimum or lowest platform height (not just its maximum standing height), measure your desk's current height, and add the two together to confirm the result still feels comfortable seated."
+  },
+  {
+    "criterion": "Match platform size to your actual number of monitors",
+    "explanation": "Platform size is usually listed in inches of width, and it directly determines how many monitors and how much keyboard and mouse space you'll realistically have once everything is set up. A platform in the mid-20s to high-20s of inches comfortably fits a single monitor or laptop, while dual monitors typically need at least 32 inches and three monitors usually need 42 inches or more with a dedicated multi-monitor mount, since monitors, a keyboard, and a mouse all need to coexist on the same riser surface without overhanging the edge. Check the listing's stated platform width against the combined width of your actual monitors plus keyboard, not just the number of monitors the title claims to support."
+  },
+  {
+    "criterion": "Weigh electric versus manual lift for how often you'll adjust it",
+    "explanation": "A manual converter typically uses a gas-spring or counterbalance mechanism you push or pull to raise and lower, requiring no power and generally costing less, while an electric converter uses a motor and push-button control for smoother, more precise height changes at the cost of needing a nearby power outlet and a meaningfully higher price. If you plan to switch between sitting and standing multiple times a day, the effortless one-touch adjustment of an electric lift genuinely reduces the friction that causes people to stop bothering with height changes altogether, while an occasional adjuster may not find that premium worth paying. Check the listing for words like \"electric,\" \"motorized,\" or \"push-button\" versus \"gas spring\" or \"manual\" to confirm which mechanism you're buying, and if electric, confirm an outlet is within reach of where the desk sits."
+  },
+  {
+    "criterion": "Check your desk's depth against the converter's base footprint",
+    "explanation": "A converter's base, the part that actually sits on your desk, is typically deeper front-to-back than the platform surface alone, since it needs room for the lifting mechanism and stability at full height, and larger platforms generally require a proportionally larger base. This matters because a desk that's wide enough for the platform can still be too shallow for the base, leaving the converter's back edge hanging off the desk or blocking a monitor from sitting far enough back to be comfortable to view. Check the listing's stated base or footprint dimensions, not just the platform width, and measure your desk's actual depth (front edge to back edge) before ordering rather than assuming platform width is the only number that matters."
+  },
+  {
+    "criterion": "Weigh review volume against star rating together, not separately",
+    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews. This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time. When comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+  }
 ];
 
 export const faq: FaqItem[] = [

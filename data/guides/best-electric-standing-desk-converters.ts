@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     reviews: "497",
     imageUrl: "https://m.media-amazon.com/images/I/41M1ekKczDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0864RSM5S?tag=deskfinds0d-20",
-    description: "The largest review base of any electric converter we researched, from VERSADESK, a brand specializing in electric desk products, at a 36 inch platform.\n\nA meaningful price premium over manual converters at this size, reflecting the motor and control system.",
+    description: "The largest review base of any electric converter we researched, from VERSADESK, a brand specializing in electric desk products, at a 36 inch platform.\n\nIt earns the top spot in this comparison over VERSADESK PowerPro 40 Inch Electric Standing Desk Converter for one main reason. Largest review base of any electric converter in our research. On price, it comes in below VERSADESK PowerPro 40 Inch Electric Standing Desk Converter, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers who want the most proven electric converter at a mid-size platform.",
     specs: ["36 inch platform, electric push-button lift"],
     pros: ["Largest review base of any electric converter in our research"],
     cons: ["Requires power outlet access, price premium over manual alternatives"],
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     reviews: "497",
     imageUrl: "https://m.media-amazon.com/images/I/41jeNZ2uiSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08KFPDGX1?tag=deskfinds0d-20",
-    description: "The 40 inch version of the VERSADESK PowerPro, sharing the same review pool and rating as the 36 inch model, for buyers who need more platform width.\n\nA modest price increase over the 36 inch model for the additional 4 inches of platform width.",
+    description: "The 40 inch version of the VERSADESK PowerPro, sharing the same review pool and rating as the 36 inch model, for buyers who need more platform width.\n\nOne spot below VERSADESK PowerPro 36 Inch Electric Standing Desk Converter in this ranking, it costs more than VERSADESK PowerPro 36 Inch Electric Standing Desk Converter. The compromise here is straightforward: Modest price increase over the smaller platform. What you gain in return: Same proven review base as the 36 inch model, more platform width. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers who want VERSADESK's proven electric mechanism with more platform width.",
     specs: ["40 inch platform, electric push-button lift"],
     pros: ["Same proven review base as the 36 inch model, more platform width"],
     cons: ["Modest price increase over the smaller platform"],
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     reviews: "214",
     imageUrl: "https://m.media-amazon.com/images/I/416Vd3ngfML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2H2PZ5X?tag=deskfinds0d-20",
-    description: "A large 42 inch electric platform at a lower price than the VERSADESK options, from FlexiSpot, an established standing-desk brand.\n\nA smaller review base than VERSADESK's proven electric line, worth watching as review volume builds.",
+    description: "A large 42 inch electric platform at a lower price than the VERSADESK options, from FlexiSpot, an established standing-desk brand.\n\nSitting just under VERSADESK PowerPro 40 Inch Electric Standing Desk Converter, it's priced lower than VERSADESK PowerPro 40 Inch Electric Standing Desk Converter. Here's the honest tradeoff: Smaller review base than the VERSADESK electric picks. And here's what it gets you instead: Lower price than VERSADESK for a larger 42 inch platform. That's the real difference between the two picks, not just a ranking number.\n\nBuyers who want a large electric platform at a lower price point.",
     specs: ["42 inch platform, electric motorized lift"],
     pros: ["Lower price than VERSADESK for a larger 42 inch platform"],
     cons: ["Smaller review base than the VERSADESK electric picks"],
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     reviews: "214",
     imageUrl: "https://m.media-amazon.com/images/I/41Vv9ixEe8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2H3HDS2?tag=deskfinds0d-20",
-    description: "A separate listing for a 42 inch FlexiSpot electric converter at the same price, sharing a similar review count to the other FlexiSpot 42 inch pick, emphasizing weight capacity specifically.\n\nWorth checking both FlexiSpot 42 inch listings for stock and any minor spec differences before ordering.",
+    description: "A separate listing for a 42 inch FlexiSpot electric converter at the same price, sharing a similar review count to the other FlexiSpot 42 inch pick, emphasizing weight capacity specifically.\n\nRanked just behind FLEXISPOT 42 Inch Electric Motor Desk Converter, it costs more than FLEXISPOT 42 Inch Electric Motor Desk Converter. The real tradeoff against that pick: Smaller review base than the VERSADESK electric picks. In exchange, it offers this instead: Same size and price as the alternative FlexiSpot listing. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nBuyers checking stock across FlexiSpot's 42 inch electric listings.",
     specs: ["42 inch platform, electric lift, emphasized weight capacity"],
     pros: ["Same size and price as the alternative FlexiSpot listing"],
     cons: ["Smaller review base than the VERSADESK electric picks"],
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     reviews: "214",
     imageUrl: "https://m.media-amazon.com/images/I/4145NueHmqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2H3NH6W?tag=deskfinds0d-20",
-    description: "The lowest price for a FlexiSpot 40+ inch electric converter in this comparison, sharing the same review pool as the 42 inch alternatives.\n\nA slightly smaller platform than the 42 inch options at a lower price, a reasonable tradeoff for a budget-focused electric buyer.",
+    description: "The lowest price for a FlexiSpot 40+ inch electric converter in this comparison, sharing the same review pool as the 42 inch alternatives.\n\nOne spot below FLEXISPOT 42 Inch Electric Standing Desk Converter in this ranking, it's priced lower than FLEXISPOT 42 Inch Electric Standing Desk Converter. The compromise here is straightforward: Slightly smaller platform than the 42 inch FlexiSpot alternatives. What you gain in return: Lowest price among FlexiSpot's larger electric options. Whether that trade is worth it depends on which side matters more for your setup.\n\nBudget-focused buyers who want a large electric platform at the lowest FlexiSpot price.",
     specs: ["40 inch platform, electric lift"],
     pros: ["Lowest price among FlexiSpot's larger electric options"],
     cons: ["Slightly smaller platform than the 42 inch FlexiSpot alternatives"],
@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     reviews: "241",
     imageUrl: "https://m.media-amazon.com/images/I/41XNBWjje9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6R2Z2F8?tag=deskfinds0d-20",
-    description: "VIVO's electric converter line, distinct from their much larger manual K Series review pool, a 42 inch platform at a competitive price against FlexiSpot's electric options.\n\nA smaller review base than VIVO's manual converters, since electric is a newer addition to VIVO's lineup.",
+    description: "VIVO's electric converter line, distinct from their much larger manual K Series review pool, a 42 inch platform at a competitive price against FlexiSpot's electric options.\n\nSitting just under FLEXISPOT 40 Inch Electric Standing Desk Converter, it costs more than FLEXISPOT 40 Inch Electric Standing Desk Converter. Here's the honest tradeoff: Smaller review base than VIVO's established manual converters. And here's what it gets you instead: Competitive price against FlexiSpot's electric options at the same size. That's the real difference between the two picks, not just a ranking number.\n\nBuyers who prefer the VIVO brand and want their electric converter option.",
     specs: ["42 inch platform, electric lift"],
     pros: ["Competitive price against FlexiSpot's electric options at the same size"],
     cons: ["Smaller review base than VIVO's established manual converters"],
@@ -126,7 +126,7 @@ export const products: GuideProduct[] = [
     reviews: "241",
     imageUrl: "https://m.media-amazon.com/images/I/41VIhJn9AfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D9J8FSL9?tag=deskfinds0d-20",
-    description: "The largest VIVO electric platform we confirmed, at 47 inches, sharing the same review pool as the 42 inch electric model.\n\nA modest price increase over the 42 inch electric model for a significantly larger platform.",
+    description: "The largest VIVO electric platform we confirmed, at 47 inches, sharing the same review pool as the 42 inch electric model.\n\nRanked just behind VIVO Black 42 inch Electric Desk Converter, it costs more than VIVO Black 42 inch Electric Desk Converter. The real tradeoff against that pick: Smaller review base than VIVO's manual converters. In exchange, it offers this instead: Largest confirmed VIVO electric platform. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nBuyers who want VIVO's largest electric platform for bigger multi-monitor setups.",
     specs: ["47 inch platform, electric lift"],
     pros: ["Largest confirmed VIVO electric platform"],
     cons: ["Smaller review base than VIVO's manual converters"],
@@ -142,12 +142,12 @@ export const products: GuideProduct[] = [
     reviews: "159",
     imageUrl: "https://m.media-amazon.com/images/I/41Cnso48ORL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LBBZR7V?tag=deskfinds0d-20",
-    description: "The only electric converter in this comparison specifically built for corner desks, with the highest rating among VIVO's electric options.\n\nA smaller review base than the standard electric converters, but a genuinely distinct form factor for buyers with an L-shaped desk.",
+    description: "The only electric converter in this comparison specifically built for corner desks, with the highest rating among VIVO's electric options.\n\nOne spot below VIVO Black 47 inch Electric Desk Converter in this ranking, it costs more than VIVO Black 47 inch Electric Desk Converter. The compromise here is straightforward: Smaller review base than standard-shape electric converters. What you gain in return: Highest rating among VIVO's electric options. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers with a corner or L-shaped desk who want electric adjustment.",
     specs: ["43 inch corner platform, electric lift"],
-    pros: ["Highest rating among VIVO's electric options", "Specifically built for corner desks"],
+    pros: ["Highest rating among VIVO's electric options","Specifically built for corner desks"],
     cons: ["Smaller review base than standard-shape electric converters"],
     bestFor: "Buyers with a corner or L-shaped desk who want electric adjustment.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -161,29 +161,133 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What Matters Most",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Most proven overall", "VERSADESK PowerPro 36 Inch Electric"],
-        ["Largest platform, budget-friendly", "FLEXISPOT 42 Inch Electric Motor Desk Converter"],
-        ["Corner desk", "VIVO Black 43 in Electric Corner Desk Converter"],
-        ["Lowest price for a large electric platform", "FLEXISPOT 40 Inch Electric Standing Desk Converter"],
+    "subheading": "By Platform Size",
+    "table": {
+      "headers": [
+        "Your monitor setup",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Single monitor or laptop, small desk",
+          "VERSADESK PowerPro 36 Inch Electric Standing Desk Converter"
+        ],
+        [
+          "Dual monitors",
+          "VERSADESK PowerPro 36 Inch Electric Standing Desk Converter"
+        ],
+        [
+          "Triple monitors, need maximum surface area",
+          "VERSADESK PowerPro 40 Inch Electric Standing Desk Converter"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Verify Power Outlet Access Before Ordering",
-    note: "Every pick here needs a nearby power outlet for the motor and control box. Check your desk's proximity to an outlet, and consider whether a power strip or extension cord will be visible or a tripping hazard before committing to an electric converter over a manual one.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $220",
+          "FLEXISPOT 40 Inch Electric Standing Desk Converter"
+        ],
+        [
+          "Mid-range",
+          "VIVO Black 47 inch Electric Desk Converter"
+        ],
+        [
+          "No firm budget ceiling, prioritizing lift quality or brand",
+          "VERSADESK PowerPro 40 Inch Electric Standing Desk Converter"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Manual (Gas-Spring) vs Electric Lift",
+    "cards": [
+      {
+        "label": "Manual (Gas-Spring)",
+        "text": "Adjusts with a push or pull handle rather than a motor, needs no power outlet, and typically costs less. In this comparison: none in this specific roundup."
+      },
+      {
+        "label": "Electric (Motorized)",
+        "text": "Adjusts at the push of a button for smoother, more precise height changes, at a price premium and the need for a nearby outlet. In this comparison: VERSADESK PowerPro 36 Inch Electric Standing Desk Converter, VERSADESK PowerPro 40 Inch Electric Standing Desk Converter, FLEXISPOT 42 Inch Electric Motor Desk Converter."
+      }
+    ],
+    "note": "Most buyers should default to a manual pick like FLEXISPOT 40 Inch Electric Standing Desk Converter unless you'll adjust height multiple times a day, in which case VERSADESK PowerPro 36 Inch Electric Standing Desk Converter's push-button lift is worth the premium."
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "VIVO Black 43 in Electric Corner Desk Converter"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "VERSADESK PowerPro 36 Inch Electric Standing Desk Converter"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Dual-Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A platform of at least 32 inches with explicit dual-monitor language in the listing, plus a stated weight capacity that comfortably covers two monitors, a keyboard, and a mouse together."
+      },
+      {
+        "label": "In this comparison",
+        "text": "VERSADESK PowerPro 36 Inch Electric Standing Desk Converter fits this specifically: Largest review base of any electric converter in our research."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what VERSADESK PowerPro 40 Inch Electric Standing Desk Converter offers: Same proven review base as the 36 inch model, more platform width. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "FLEXISPOT 40 Inch Electric Standing Desk Converter already covers the essentials: Lowest price among FlexiSpot's larger electric options. The main thing you'd be paying extra for elsewhere in this list is a larger platform or an electric lift."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm power outlet access at your desk", explanation: "Electric converters require a nearby outlet for the motor and control box; verify this before ordering, especially if your desk isn't currently near a plug." },
-  { criterion: "Weigh VERSADESK's larger review base against FlexiSpot's lower price", explanation: "VERSADESK's electric line has more accumulated reviews at a higher price; FlexiSpot offers larger platforms at lower prices with a smaller but still meaningful review history." },
-  { criterion: "Consider a corner-specific electric model for L-shaped desks", explanation: "A standard rectangular electric platform won't sit properly on a corner desk; the VIVO electric corner option is built specifically for that geometry." },
-  { criterion: "Match platform size to your actual monitor setup", explanation: "36-40 inches suits most dual-monitor setups; 42-47 inches gives more room for larger displays or a monitor-plus-laptop combination." },
-  { criterion: "Weigh motor noise and speed against your workflow", explanation: "Electric lifts vary in how quickly and quietly they raise and lower; if you adjust height frequently during calls, this matters more than for occasional use." },
+  {
+    "criterion": "Measure your existing desk's height before ordering",
+    "explanation": "A standing desk converter sits on top of your current desk and adds its own height on top of that, even at the converter's lowest seated setting, sometimes adding several inches before you've raised anything at all. This matters because if your desk is already at a comfortable seated typing height, most gas-spring and electric converters can push your keyboard and monitor uncomfortably high the moment you set the converter down, forcing you into an awkward seated typing posture even when you never plan to stand. Before ordering, check the listing for the converter's minimum or lowest platform height (not just its maximum standing height), measure your desk's current height, and add the two together to confirm the result still feels comfortable seated."
+  },
+  {
+    "criterion": "Match platform size to your actual number of monitors",
+    "explanation": "Platform size is usually listed in inches of width, and it directly determines how many monitors and how much keyboard and mouse space you'll realistically have once everything is set up. A platform in the mid-20s to high-20s of inches comfortably fits a single monitor or laptop, while dual monitors typically need at least 32 inches and three monitors usually need 42 inches or more with a dedicated multi-monitor mount, since monitors, a keyboard, and a mouse all need to coexist on the same riser surface without overhanging the edge. Check the listing's stated platform width against the combined width of your actual monitors plus keyboard, not just the number of monitors the title claims to support."
+  },
+  {
+    "criterion": "Weigh electric versus manual lift for how often you'll adjust it",
+    "explanation": "A manual converter typically uses a gas-spring or counterbalance mechanism you push or pull to raise and lower, requiring no power and generally costing less, while an electric converter uses a motor and push-button control for smoother, more precise height changes at the cost of needing a nearby power outlet and a meaningfully higher price. If you plan to switch between sitting and standing multiple times a day, the effortless one-touch adjustment of an electric lift genuinely reduces the friction that causes people to stop bothering with height changes altogether, while an occasional adjuster may not find that premium worth paying. Check the listing for words like \"electric,\" \"motorized,\" or \"push-button\" versus \"gas spring\" or \"manual\" to confirm which mechanism you're buying, and if electric, confirm an outlet is within reach of where the desk sits."
+  },
+  {
+    "criterion": "Check your desk's depth against the converter's base footprint",
+    "explanation": "A converter's base, the part that actually sits on your desk, is typically deeper front-to-back than the platform surface alone, since it needs room for the lifting mechanism and stability at full height, and larger platforms generally require a proportionally larger base. This matters because a desk that's wide enough for the platform can still be too shallow for the base, leaving the converter's back edge hanging off the desk or blocking a monitor from sitting far enough back to be comfortable to view. Check the listing's stated base or footprint dimensions, not just the platform width, and measure your desk's actual depth (front edge to back edge) before ordering rather than assuming platform width is the only number that matters."
+  },
+  {
+    "criterion": "Weigh review volume against star rating together, not separately",
+    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews. This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time. When comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+  }
 ];
 
 export const faq: FaqItem[] = [

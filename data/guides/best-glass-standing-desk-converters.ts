@@ -30,9 +30,9 @@ export const products: GuideProduct[] = [
     reviews: "352",
     imageUrl: "https://m.media-amazon.com/images/I/41yUqYnFvqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CS36RZJG?tag=deskfinds0d-20",
-    description: "This is a complete electric standing desk with a tempered glass top, not a converter that sits on your existing desk, replacing it entirely with an electric height-adjustable frame from 28.3 to 46.5 inches.\n\nA genuinely strong option if you're open to replacing your desk rather than adding a converter on top of it.",
+    description: "This is a complete electric standing desk with a tempered glass top, not a converter that sits on your existing desk, replacing it entirely with an electric height-adjustable frame from 28.3 to 46.5 inches.\n\nIt earns the top spot in this comparison over HUANUO Glass Standing Desk with Drawers for one main reason. Solid review base for a full glass standing desk. On price, it comes in below HUANUO Glass Standing Desk with Drawers, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers open to replacing their desk entirely rather than adding a converter.",
     specs: ["48 x 24 inch glass top, full electric standing desk, not a converter"],
-    pros: ["Solid review base for a full glass standing desk", "Electric height adjustment with programmable presets"],
+    pros: ["Solid review base for a full glass standing desk","Electric height adjustment with programmable presets"],
     cons: ["Replaces your entire desk, not a converter that sits on top of an existing one"],
     bestFor: "Buyers open to replacing their desk entirely rather than adding a converter.",
   },
@@ -46,9 +46,9 @@ export const products: GuideProduct[] = [
     reviews: "159",
     imageUrl: "https://m.media-amazon.com/images/I/41-ZqAmc-TL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G48KSDM4?tag=deskfinds0d-20",
-    description: "Also a complete standing desk, not a converter, with built-in storage drawers and USB charging ports alongside the glass top.\n\nThe highest rating among the full glass desk options, worth it if built-in storage and charging matter to your setup.",
+    description: "Also a complete standing desk, not a converter, with built-in storage drawers and USB charging ports alongside the glass top.\n\nOne spot below Claiks Glass Standing Desk 48x24 Inch Super White in this ranking, it costs more than Claiks Glass Standing Desk 48x24 Inch Super White. The compromise here is straightforward: Replaces your entire desk, not a converter. What you gain in return: Highest rating among full glass desk options. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers who want a full glass standing desk with integrated storage.",
     specs: ["48 x 24 inch glass top, full electric standing desk with drawers, not a converter"],
-    pros: ["Highest rating among full glass desk options", "Built-in storage drawers and USB charging"],
+    pros: ["Highest rating among full glass desk options","Built-in storage drawers and USB charging"],
     cons: ["Replaces your entire desk, not a converter"],
     bestFor: "Buyers who want a full glass standing desk with integrated storage.",
   },
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     reviews: "208",
     imageUrl: "https://m.media-amazon.com/images/I/41eaN+lgLDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F3DPKBL6?tag=deskfinds0d-20",
-    description: "Another full glass electric standing desk alternative, not a converter, with a storage drawer and USB charging ports.\n\nA solid review base for buyers comparing full glass desk options rather than a converter.",
+    description: "Another full glass electric standing desk alternative, not a converter, with a storage drawer and USB charging ports.\n\nSitting just under HUANUO Glass Standing Desk with Drawers, it's priced lower than HUANUO Glass Standing Desk with Drawers. Here's the honest tradeoff: Replaces your entire desk, not a converter. And here's what it gets you instead: Solid review base for a full glass standing desk alternative. That's the real difference between the two picks, not just a ranking number.\n\nBuyers comparing full glass standing desk alternatives.",
     specs: ["48 x 24 inch glass top, full electric standing desk with drawer, not a converter"],
     pros: ["Solid review base for a full glass standing desk alternative"],
     cons: ["Replaces your entire desk, not a converter"],
@@ -78,9 +78,9 @@ export const products: GuideProduct[] = [
     reviews: "891",
     imageUrl: "https://m.media-amazon.com/images/I/21fvlrZPdFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01N3MA9CA?tag=deskfinds0d-20",
-    description: "This is a fixed-height glass monitor riser, not an adjustable sit-stand converter, simply raising your monitor a few inches on a stable glass platform.\n\nA strong review base for this specific product type, included honestly since it's a different category from a true converter with height adjustment.",
+    description: "This is a fixed-height glass monitor riser, not an adjustable sit-stand converter, simply raising your monitor a few inches on a stable glass platform.\n\nRanked just behind Marsail Glass Standing Desk with Drawer, it's priced lower than Marsail Glass Standing Desk with Drawer. The real tradeoff against that pick: Fixed height, no sit-stand adjustment, not a genuine converter. In exchange, it offers this instead: Strong review base. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nBuyers who just want to elevate a monitor slightly, not achieve sit-stand adjustment.",
     specs: ["22 x 8.25 inch glass platform, fixed 3.25 inch height, not height-adjustable"],
-    pros: ["Strong review base", "Genuine glass construction with real load capacity"],
+    pros: ["Strong review base","Genuine glass construction with real load capacity"],
     cons: ["Fixed height, no sit-stand adjustment, not a genuine converter"],
     bestFor: "Buyers who just want to elevate a monitor slightly, not achieve sit-stand adjustment.",
   },
@@ -94,12 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "2,262",
     imageUrl: "https://m.media-amazon.com/images/I/31x8qXwhvdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01MAYTHPT?tag=deskfinds0d-20",
-    description: "A larger fixed-height glass riser from an established brand, also not height-adjustable, but with a substantial review base.\n\nUseful as a stationary elevated glass shelf, not for sit-stand transitions, which is what a true converter provides.",
+    description: "A larger fixed-height glass riser from an established brand, also not height-adjustable, but with a substantial review base.\n\nOne spot below Kantek Glass Monitor Riser with 5mm Tempered Glass Platform in this ranking, it costs more than Kantek Glass Monitor Riser with 5mm Tempered Glass Platform. The compromise here is straightforward: Fixed height, no sit-stand adjustment, not a genuine converter. What you gain in return: Substantial review base from an established brand. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers who want a stationary elevated glass surface, not sit-stand functionality.",
     specs: ["30.8 x 11 inch glass platform, fixed height, not height-adjustable"],
     pros: ["Substantial review base from an established brand"],
     cons: ["Fixed height, no sit-stand adjustment, not a genuine converter"],
     bestFor: "Buyers who want a stationary elevated glass surface, not sit-stand functionality.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -113,28 +113,133 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Understand What You Actually Need",
-    table: {
-      headers: ["What you want", "What to actually buy"],
-      rows: [
-        ["Sit-stand adjustment with a glass look", "A full glass standing desk (replaces your current desk)"],
-        ["Just elevate a monitor a few inches", "A glass monitor riser (fixed height, no sit-stand)"],
-        ["A genuine converter that sits on your existing desk", "Check our main standing desk converter guide instead, since a true glass-top converter doesn't currently exist"],
+    "subheading": "By Platform Size",
+    "table": {
+      "headers": [
+        "Your monitor setup",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Single monitor or laptop, small desk",
+          "Claiks Glass Standing Desk 48x24 Inch Super White"
+        ],
+        [
+          "Dual monitors",
+          "Claiks Glass Standing Desk 48x24 Inch Super White"
+        ],
+        [
+          "Triple monitors, need maximum surface area",
+          "Kantek Glass Monitor Riser with 5mm Tempered Glass Platform"
+        ]
+      ]
+    }
   },
   {
-    subheading: "If You Want a Glass Aesthetic With a True Converter",
-    note: "Since a genuine glass-top sit-stand converter doesn't currently exist in the market, consider a standard converter from our main guide and pairing it with a separate glass monitor riser on top for a similar aesthetic effect, though this won't offer the exact seamless glass look of a dedicated product.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $36",
+          "Kantek Glass Monitor Riser with 5mm Tempered Glass Platform"
+        ],
+        [
+          "Mid-range",
+          "Claiks Glass Standing Desk 48x24 Inch Super White"
+        ],
+        [
+          "No firm budget ceiling, prioritizing lift quality or brand",
+          "HUANUO Glass Standing Desk with Drawers"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Manual (Gas-Spring) vs Electric Lift",
+    "cards": [
+      {
+        "label": "Manual (Gas-Spring)",
+        "text": "Adjusts with a push or pull handle rather than a motor, needs no power outlet, and typically costs less. In this comparison: Kantek Glass Monitor Riser with 5mm Tempered Glass Platform, Monoprice Multimedia Riser Desktop Monitor Stand."
+      },
+      {
+        "label": "Electric (Motorized)",
+        "text": "Adjusts at the push of a button for smoother, more precise height changes, at a price premium and the need for a nearby outlet. In this comparison: Claiks Glass Standing Desk 48x24 Inch Super White, HUANUO Glass Standing Desk with Drawers, Marsail Glass Standing Desk with Drawer."
+      }
+    ],
+    "note": "Most buyers should default to a manual pick like Kantek Glass Monitor Riser with 5mm Tempered Glass Platform unless you'll adjust height multiple times a day, in which case Claiks Glass Standing Desk 48x24 Inch Super White's push-button lift is worth the premium."
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "HUANUO Glass Standing Desk with Drawers"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "Monoprice Multimedia Riser Desktop Monitor Stand"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Dual-Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A platform of at least 32 inches with explicit dual-monitor language in the listing, plus a stated weight capacity that comfortably covers two monitors, a keyboard, and a mouse together."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Claiks Glass Standing Desk 48x24 Inch Super White fits this specifically: Solid review base for a full glass standing desk."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what HUANUO Glass Standing Desk with Drawers offers: Highest rating among full glass desk options. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Kantek Glass Monitor Riser with 5mm Tempered Glass Platform already covers the essentials: Strong review base. The main thing you'd be paying extra for elsewhere in this list is a larger platform or an electric lift."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Clarify whether you want a converter, a full desk, or a monitor riser", explanation: "These are three genuinely different product types; \"glass standing desk converter\" searches currently return the latter two, not a true converter." },
-  { criterion: "Consider a full glass standing desk if you're open to replacing your current desk", explanation: "This is the closest match to sit-stand functionality with a glass aesthetic currently available." },
-  { criterion: "Consider a glass monitor riser if you just want elevation, not adjustment", explanation: "These are fixed-height and don't offer sit-stand functionality, but do provide a genuine glass aesthetic for monitor elevation." },
-  { criterion: "Check our main standing desk converter guide if a true converter is required", explanation: "A genuine glass-top converter doesn't currently exist; our broader guide covers proven converters in other materials." },
-  { criterion: "Weigh built-in storage and charging features on full glass desks", explanation: "Several full glass desk options include drawers and USB charging ports, genuine value-adds if you're replacing your desk entirely." },
+  {
+    "criterion": "Measure your existing desk's height before ordering",
+    "explanation": "A standing desk converter sits on top of your current desk and adds its own height on top of that, even at the converter's lowest seated setting, sometimes adding several inches before you've raised anything at all. This matters because if your desk is already at a comfortable seated typing height, most gas-spring and electric converters can push your keyboard and monitor uncomfortably high the moment you set the converter down, forcing you into an awkward seated typing posture even when you never plan to stand. Before ordering, check the listing for the converter's minimum or lowest platform height (not just its maximum standing height), measure your desk's current height, and add the two together to confirm the result still feels comfortable seated."
+  },
+  {
+    "criterion": "Match platform size to your actual number of monitors",
+    "explanation": "Platform size is usually listed in inches of width, and it directly determines how many monitors and how much keyboard and mouse space you'll realistically have once everything is set up. A platform in the mid-20s to high-20s of inches comfortably fits a single monitor or laptop, while dual monitors typically need at least 32 inches and three monitors usually need 42 inches or more with a dedicated multi-monitor mount, since monitors, a keyboard, and a mouse all need to coexist on the same riser surface without overhanging the edge. Check the listing's stated platform width against the combined width of your actual monitors plus keyboard, not just the number of monitors the title claims to support."
+  },
+  {
+    "criterion": "Weigh electric versus manual lift for how often you'll adjust it",
+    "explanation": "A manual converter typically uses a gas-spring or counterbalance mechanism you push or pull to raise and lower, requiring no power and generally costing less, while an electric converter uses a motor and push-button control for smoother, more precise height changes at the cost of needing a nearby power outlet and a meaningfully higher price. If you plan to switch between sitting and standing multiple times a day, the effortless one-touch adjustment of an electric lift genuinely reduces the friction that causes people to stop bothering with height changes altogether, while an occasional adjuster may not find that premium worth paying. Check the listing for words like \"electric,\" \"motorized,\" or \"push-button\" versus \"gas spring\" or \"manual\" to confirm which mechanism you're buying, and if electric, confirm an outlet is within reach of where the desk sits."
+  },
+  {
+    "criterion": "Check your desk's depth against the converter's base footprint",
+    "explanation": "A converter's base, the part that actually sits on your desk, is typically deeper front-to-back than the platform surface alone, since it needs room for the lifting mechanism and stability at full height, and larger platforms generally require a proportionally larger base. This matters because a desk that's wide enough for the platform can still be too shallow for the base, leaving the converter's back edge hanging off the desk or blocking a monitor from sitting far enough back to be comfortable to view. Check the listing's stated base or footprint dimensions, not just the platform width, and measure your desk's actual depth (front edge to back edge) before ordering rather than assuming platform width is the only number that matters."
+  },
+  {
+    "criterion": "Weigh review volume against star rating together, not separately",
+    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews. This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time. When comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     reviews: "15,583",
     imageUrl: "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075JYG2TB?tag=deskfinds0d-20",
-    description: "A proven mid-size 32 inch platform that fits most standard cubicle desks without excessive forward projection.\n\nThe largest review base of any converter we researched, a reasonable size for a shared office environment.",
+    description: "A proven mid-size 32 inch platform that fits most standard cubicle desks without excessive forward projection.\n\nIt earns the top spot in this comparison over Mount-It! Standing Desk Converter 32 x 22 for one main reason. Largest review base of any converter in our research. On price, it comes in below Mount-It! Standing Desk Converter 32 x 22, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers who want the most proven mid-size converter for a standard cubicle.",
     specs: ["32 inch platform"],
     pros: ["Largest review base of any converter in our research"],
     cons: ["Verify your specific cubicle desk depth accommodates the base footprint"],
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     reviews: "330",
     imageUrl: "https://m.media-amazon.com/images/I/41CL16+db2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0747WDDMC?tag=deskfinds0d-20",
-    description: "A compact 32 by 22 inch footprint from Mount-It!, an ergonomic-focused brand, well suited to a smaller cubicle desk.\n\nA solid rating with a manageable footprint that shouldn't project excessively into shared aisle space.",
+    description: "A compact 32 by 22 inch footprint from Mount-It!, an ergonomic-focused brand, well suited to a smaller cubicle desk.\n\nOne spot below VIVO 32 inch Desk Converter in this ranking, it costs more than VIVO 32 inch Desk Converter. The compromise here is straightforward: Smaller review base than the VIVO top pick. What you gain in return: Compact footprint from an ergonomic-focused brand. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers who want a compact, ergonomic-focused converter for a smaller cubicle desk.",
     specs: ["32 x 22 inch platform, gas-spring lift"],
     pros: ["Compact footprint from an ergonomic-focused brand"],
     cons: ["Smaller review base than the VIVO top pick"],
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     reviews: "2,412",
     imageUrl: "https://m.media-amazon.com/images/I/51Z4mzo+NKS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LCCJD6B?tag=deskfinds0d-20",
-    description: "A well-reviewed alternative at the same 32 inch size as our top pick, a reasonable option for a standard cubicle desk.\n\nA solid review base at a competitive price for cubicle-appropriate sizing.",
+    description: "A well-reviewed alternative at the same 32 inch size as our top pick, a reasonable option for a standard cubicle desk.\n\nSitting just under Mount-It! Standing Desk Converter 32 x 22, it's priced lower than Mount-It! Standing Desk Converter 32 x 22. Here's the honest tradeoff: Smaller review base than the VIVO top pick. And here's what it gets you instead: Well-reviewed alternative at a competitive price. That's the real difference between the two picks, not just a ranking number.\n\nBuyers comparing 32 inch converter options for a standard cubicle.",
     specs: ["32 inch platform"],
     pros: ["Well-reviewed alternative at a competitive price"],
     cons: ["Smaller review base than the VIVO top pick"],
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     reviews: "2,550",
     imageUrl: "https://m.media-amazon.com/images/I/51sPBSqTYXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LCCT6VS?tag=deskfinds0d-20",
-    description: "A slightly wider 36 inch platform for a cubicle desk that needs dual-monitor space, at a still-manageable footprint.\n\nA strong review base for a wider option that still fits most cubicle configurations.",
+    description: "A slightly wider 36 inch platform for a cubicle desk that needs dual-monitor space, at a still-manageable footprint.\n\nRanked just behind FITUEYES Height Adjustable Standing Desk 32 Inch Wide Sit to Stand Converter, it costs more than FITUEYES Height Adjustable Standing Desk 32 Inch Wide Sit to Stand Converter. The real tradeoff against that pick: Larger footprint than the compact options, verify your cubicle desk depth. In exchange, it offers this instead: Strong review base at a wider size for dual-monitor cubicle setups. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nCubicle workers who need dual-monitor space without exceeding a manageable footprint.",
     specs: ["36 inch platform"],
     pros: ["Strong review base at a wider size for dual-monitor cubicle setups"],
     cons: ["Larger footprint than the compact options, verify your cubicle desk depth"],
@@ -94,12 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "1,243",
     imageUrl: "https://m.media-amazon.com/images/I/412VP8wOKyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08GKXXT22?tag=deskfinds0d-20",
-    description: "An ultra-slim, compact design well suited to a small cubicle desk where every inch of surface and clearance matters.\n\nA strong review base for a genuinely space-efficient design in a shared office environment.",
+    description: "An ultra-slim, compact design well suited to a small cubicle desk where every inch of surface and clearance matters.\n\nOne spot below FITUEYES Height Adjustable Standing Desk 36 Inch Wide Sit to Stand Converter in this ranking, it's priced lower than FITUEYES Height Adjustable Standing Desk 36 Inch Wide Sit to Stand Converter. The compromise here is straightforward: Compact platform, limited surface for multiple devices. What you gain in return: Strong review base for a genuinely space-efficient design. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers with the tightest cubicle desk space who want a genuinely minimal-footprint converter.",
     specs: ["Ultra-slim single-top compact design"],
     pros: ["Strong review base for a genuinely space-efficient design"],
     cons: ["Compact platform, limited surface for multiple devices"],
     bestFor: "Buyers with the tightest cubicle desk space who want a genuinely minimal-footprint converter.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -113,29 +113,133 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What Matters Most",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Most proven mid-size option", "VIVO 32 inch Desk Converter, K Series"],
-        ["Smallest footprint, tightest cubicle", "VIVO Ultra-Slim Single Top Standing Desk Riser"],
-        ["Dual monitors, still manageable size", "FITUEYES Height Adjustable Standing Desk 36 Inch"],
-        ["Ergonomic-focused, compact", "Mount-It! Standing Desk Converter 32 x 22"],
+    "subheading": "By Platform Size",
+    "table": {
+      "headers": [
+        "Your monitor setup",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Single monitor or laptop, small desk",
+          "Mount-It! Standing Desk Converter 32 x 22"
+        ],
+        [
+          "Dual monitors",
+          "FITUEYES Height Adjustable Standing Desk 36 Inch Wide Sit to Stand Converter"
+        ],
+        [
+          "Triple monitors, need maximum surface area",
+          "FITUEYES Height Adjustable Standing Desk 36 Inch Wide Sit to Stand Converter"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Measure Your Cubicle Desk and Check Office Policy",
-    note: "Cubicle desks vary significantly in depth and available surface area. Measure your specific desk before ordering, and if your office has a policy about standing height relative to panel height (some do, for visibility and noise reasons), confirm your standing setup complies before committing to daily use.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $100",
+          "VIVO Ultra-Slim Single Top Height Adjustable Standing Desk Riser"
+        ],
+        [
+          "Mid-range",
+          "FITUEYES Height Adjustable Standing Desk 32 Inch Wide Sit to Stand Converter"
+        ],
+        [
+          "No firm budget ceiling, prioritizing lift quality or brand",
+          "Mount-It! Standing Desk Converter 32 x 22"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Manual (Gas-Spring) vs Electric Lift",
+    "cards": [
+      {
+        "label": "Manual (Gas-Spring)",
+        "text": "Adjusts with a push or pull handle rather than a motor, needs no power outlet, and typically costs less. In this comparison: VIVO 32 inch Desk Converter, Mount-It! Standing Desk Converter 32 x 22, FITUEYES Height Adjustable Standing Desk 32 Inch Wide Sit to Stand Converter."
+      },
+      {
+        "label": "Electric (Motorized)",
+        "text": "Adjusts at the push of a button for smoother, more precise height changes, at a price premium and the need for a nearby outlet. In this comparison: none in this specific roundup, since most picks here use a manual lift."
+      }
+    ],
+    "note": "Every pick in this specific comparison uses a manual lift; check our broader converter roundup if you specifically want an electric option."
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "VIVO 32 inch Desk Converter"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "VIVO 32 inch Desk Converter"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Dual-Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A platform of at least 32 inches with explicit dual-monitor language in the listing, plus a stated weight capacity that comfortably covers two monitors, a keyboard, and a mouse together."
+      },
+      {
+        "label": "In this comparison",
+        "text": "FITUEYES Height Adjustable Standing Desk 36 Inch Wide Sit to Stand Converter fits this specifically: Strong review base at a wider size for dual-monitor cubicle setups."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Mount-It! Standing Desk Converter 32 x 22 offers: Compact footprint from an ergonomic-focused brand. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "VIVO Ultra-Slim Single Top Height Adjustable Standing Desk Riser already covers the essentials: Strong review base for a genuinely space-efficient design. The main thing you'd be paying extra for elsewhere in this list is a larger platform or an electric lift."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Measure your specific cubicle desk's depth and available surface area", explanation: "Cubicle desks vary significantly; verify the converter's base footprint fits your actual workspace before ordering." },
-  { criterion: "Check your office's policy on standing height relative to cubicle panels", explanation: "Some offices have norms or policies about visibility and noise when standing above panel height; confirm this before committing to daily standing use." },
-  { criterion: "Weigh forward projection into shared aisle space", explanation: "A deeper platform combined with standing posture can project further into cubicle aisles than seated use; consider a more compact option if aisle space is tight." },
-  { criterion: "Prioritize proven daily reliability for a shared professional environment", explanation: "A converter with substantial positive review history is a safer bet for daily office use than an unproven newer listing." },
-  { criterion: "Match platform size to your actual monitor setup within cubicle constraints", explanation: "Choose between compact single-monitor options and wider dual-monitor platforms based on your specific setup, while staying within a manageable cubicle footprint." },
+  {
+    "criterion": "Measure your existing desk's height before ordering",
+    "explanation": "A standing desk converter sits on top of your current desk and adds its own height on top of that, even at the converter's lowest seated setting, sometimes adding several inches before you've raised anything at all. This matters because if your desk is already at a comfortable seated typing height, most gas-spring and electric converters can push your keyboard and monitor uncomfortably high the moment you set the converter down, forcing you into an awkward seated typing posture even when you never plan to stand. Before ordering, check the listing for the converter's minimum or lowest platform height (not just its maximum standing height), measure your desk's current height, and add the two together to confirm the result still feels comfortable seated."
+  },
+  {
+    "criterion": "Match platform size to your actual number of monitors",
+    "explanation": "Platform size is usually listed in inches of width, and it directly determines how many monitors and how much keyboard and mouse space you'll realistically have once everything is set up. A platform in the mid-20s to high-20s of inches comfortably fits a single monitor or laptop, while dual monitors typically need at least 32 inches and three monitors usually need 42 inches or more with a dedicated multi-monitor mount, since monitors, a keyboard, and a mouse all need to coexist on the same riser surface without overhanging the edge. Check the listing's stated platform width against the combined width of your actual monitors plus keyboard, not just the number of monitors the title claims to support."
+  },
+  {
+    "criterion": "Weigh electric versus manual lift for how often you'll adjust it",
+    "explanation": "A manual converter typically uses a gas-spring or counterbalance mechanism you push or pull to raise and lower, requiring no power and generally costing less, while an electric converter uses a motor and push-button control for smoother, more precise height changes at the cost of needing a nearby power outlet and a meaningfully higher price. If you plan to switch between sitting and standing multiple times a day, the effortless one-touch adjustment of an electric lift genuinely reduces the friction that causes people to stop bothering with height changes altogether, while an occasional adjuster may not find that premium worth paying. Check the listing for words like \"electric,\" \"motorized,\" or \"push-button\" versus \"gas spring\" or \"manual\" to confirm which mechanism you're buying, and if electric, confirm an outlet is within reach of where the desk sits."
+  },
+  {
+    "criterion": "Check your desk's depth against the converter's base footprint",
+    "explanation": "A converter's base, the part that actually sits on your desk, is typically deeper front-to-back than the platform surface alone, since it needs room for the lifting mechanism and stability at full height, and larger platforms generally require a proportionally larger base. This matters because a desk that's wide enough for the platform can still be too shallow for the base, leaving the converter's back edge hanging off the desk or blocking a monitor from sitting far enough back to be comfortable to view. Check the listing's stated base or footprint dimensions, not just the platform width, and measure your desk's actual depth (front edge to back edge) before ordering rather than assuming platform width is the only number that matters."
+  },
+  {
+    "criterion": "Weigh review volume against star rating together, not separately",
+    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews. This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time. When comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+  }
 ];
 
 export const faq: FaqItem[] = [

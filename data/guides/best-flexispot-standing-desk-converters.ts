@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     reviews: "214",
     imageUrl: "https://m.media-amazon.com/images/I/416Vd3ngfML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2H2PZ5X?tag=deskfinds0d-20",
-    description: "A large 42 inch electric platform with the strongest review base among FlexiSpot's electric options at this size.\n\nA solid mid-range price for the platform size and motorized lift.",
+    description: "A large 42 inch electric platform with the strongest review base among FlexiSpot's electric options at this size.\n\nIt earns the top spot in this comparison over FLEXISPOT 40 Inch Electric Standing Desk Converter for one main reason. Strong review base for FlexiSpot's electric line at this size. On price, it's actually priced above FLEXISPOT 40 Inch Electric Standing Desk Converter, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers who want FlexiSpot's most proven large electric converter.",
     specs: ["42 inch platform, electric motorized lift"],
     pros: ["Strong review base for FlexiSpot's electric line at this size"],
     cons: ["Requires power outlet access"],
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     reviews: "214",
     imageUrl: "https://m.media-amazon.com/images/I/4145NueHmqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2H3NH6W?tag=deskfinds0d-20",
-    description: "The lowest price among FlexiSpot's larger electric platforms, sharing the same review pool as the 42 inch options.\n\nA slightly smaller platform for a lower price, a reasonable tradeoff for budget-focused electric buyers.",
+    description: "The lowest price among FlexiSpot's larger electric platforms, sharing the same review pool as the 42 inch options.\n\nOne spot below FLEXISPOT 42 Inch Electric Motor Desk Converter in this ranking, it's priced lower than FLEXISPOT 42 Inch Electric Motor Desk Converter. The compromise here is straightforward: Slightly smaller than the 42 inch options. What you gain in return: Lowest price among FlexiSpot's larger electric platforms. Whether that trade is worth it depends on which side matters more for your setup.\n\nBudget-focused buyers who want FlexiSpot's electric lift at the lowest price.",
     specs: ["40 inch platform, electric lift"],
     pros: ["Lowest price among FlexiSpot's larger electric platforms"],
     cons: ["Slightly smaller than the 42 inch options"],
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     reviews: "73",
     imageUrl: "https://m.media-amazon.com/images/I/41AqM0yRs2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVCDDCYG?tag=deskfinds0d-20",
-    description: "A manual gas-spring 36 inch riser at a much lower price than FlexiSpot's electric line, for buyers who don't need push-button adjustment.\n\nA smaller review base than the electric picks, worth watching as review volume builds for this manual option.",
+    description: "A manual gas-spring 36 inch riser at a much lower price than FlexiSpot's electric line, for buyers who don't need push-button adjustment.\n\nSitting just under FLEXISPOT 40 Inch Electric Standing Desk Converter, it's priced lower than FLEXISPOT 40 Inch Electric Standing Desk Converter. Here's the honest tradeoff: Smaller review base than the established electric options. And here's what it gets you instead: Much lower price than FlexiSpot's electric line. That's the real difference between the two picks, not just a ranking number.\n\nBudget-focused buyers who don't need electric adjustment.",
     specs: ["36 inch platform, manual gas-spring lift"],
     pros: ["Much lower price than FlexiSpot's electric line"],
     cons: ["Smaller review base than the established electric options"],
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     reviews: "2",
     imageUrl: "https://m.media-amazon.com/images/I/41shGgPUZ0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H8NL4T8D?tag=deskfinds0d-20",
-    description: "The lowest price among FlexiSpot's electric options and the smallest confirmed electric platform, though with only 2 reviews at research time.\n\nToo few reviews to draw meaningful conclusions from the perfect rating; worth watching as this newer listing builds review volume.",
+    description: "The lowest price among FlexiSpot's electric options and the smallest confirmed electric platform, though with only 2 reviews at research time.\n\nRanked just behind FLEXISPOT Standing Desk Converter 36 Inch Desk Riser, it costs more than FLEXISPOT Standing Desk Converter 36 Inch Desk Riser. The real tradeoff against that pick: Only 2 reviews, far too few for a confident rating. In exchange, it offers this instead: Lowest price for a FlexiSpot electric converter. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nBudget-focused buyers willing to try a newer electric listing with minimal review history.",
     specs: ["36 inch platform, electric lift"],
     pros: ["Lowest price for a FlexiSpot electric converter"],
     cons: ["Only 2 reviews, far too few for a confident rating"],
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     reviews: "73",
     imageUrl: "https://m.media-amazon.com/images/I/41-0gh3MViL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GX945CJZ?tag=deskfinds0d-20",
-    description: "A large 40 inch manual riser at a much lower price than the electric equivalent, for buyers who want more platform space without paying for a motor.\n\nA smaller review base than the electric picks, but a genuine value option for larger manual setups.",
+    description: "A large 40 inch manual riser at a much lower price than the electric equivalent, for buyers who want more platform space without paying for a motor.\n\nOne spot below FLEXISPOT 36 Inch Electric Standing Desk Converter in this ranking, it's priced lower than FLEXISPOT 36 Inch Electric Standing Desk Converter. The compromise here is straightforward: Smaller review base than the electric options. What you gain in return: Large platform at a much lower price than electric equivalents. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers who want a large manual platform without paying electric prices.",
     specs: ["40 inch platform, manual gas-spring lift"],
     pros: ["Large platform at a much lower price than electric equivalents"],
     cons: ["Smaller review base than the electric options"],
@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     reviews: "73",
     imageUrl: "https://m.media-amazon.com/images/I/41jps08I7XL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H5JSLCSL?tag=deskfinds0d-20",
-    description: "The largest manual platform in FlexiSpot's current lineup at 42 inches, priced well below the electric 42 inch equivalent.\n\nA reasonable choice for buyers who want maximum manual platform size at FlexiSpot's lower manual pricing.",
+    description: "The largest manual platform in FlexiSpot's current lineup at 42 inches, priced well below the electric 42 inch equivalent.\n\nSitting just under FLEXISPOT Standing Desk Converter 40 Inch Large Desk Riser, it costs more than FLEXISPOT Standing Desk Converter 40 Inch Large Desk Riser. Here's the honest tradeoff: Smaller review base than the electric picks. And here's what it gets you instead: Largest manual platform in FlexiSpot's lineup, well below electric pricing. That's the real difference between the two picks, not just a ranking number.\n\nBuyers who want the largest manual FlexiSpot platform available.",
     specs: ["42 inch platform, manual gas-spring lift"],
     pros: ["Largest manual platform in FlexiSpot's lineup, well below electric pricing"],
     cons: ["Smaller review base than the electric picks"],
@@ -126,7 +126,7 @@ export const products: GuideProduct[] = [
     reviews: "73",
     imageUrl: "https://m.media-amazon.com/images/I/41ImFpRX7sL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVCPYQT1?tag=deskfinds0d-20",
-    description: "The lowest price in FlexiSpot's current lineup, a 32 inch space-saving design suited to smaller home-office desks.\n\nA reasonable entry point into the FlexiSpot brand at the lowest price among their confirmed current models.",
+    description: "The lowest price in FlexiSpot's current lineup, a 32 inch space-saving design suited to smaller home-office desks.\n\nRanked just behind FLEXISPOT Standing Desk Converter 42 Inch, it's priced lower than FLEXISPOT Standing Desk Converter 42 Inch. The real tradeoff against that pick: Smaller review base than the electric options. In exchange, it offers this instead: Lowest price in FlexiSpot's confirmed current lineup. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nBudget-conscious buyers with a smaller desk who want the cheapest current FlexiSpot option.",
     specs: ["32 inch platform, space-saving design"],
     pros: ["Lowest price in FlexiSpot's confirmed current lineup"],
     cons: ["Smaller review base than the electric options"],
@@ -142,12 +142,12 @@ export const products: GuideProduct[] = [
     reviews: "214",
     imageUrl: "https://m.media-amazon.com/images/I/41s0FAE14gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2H29VVC?tag=deskfinds0d-20",
-    description: "A 35 inch electric option sharing the same review pool as FlexiSpot's other electric converters, sized between the 36 and 40 inch alternatives.\n\nCurrent price was not confirmed at research time; verify directly on the listing before ordering.",
+    description: "A 35 inch electric option sharing the same review pool as FlexiSpot's other electric converters, sized between the 36 and 40 inch alternatives.\n\nOne spot below FLEXISPOT 32 Inch Standing Desk Converter in this ranking, it's priced lower than FLEXISPOT 32 Inch Standing Desk Converter. The compromise here is straightforward: Current price not confirmed, verify on listing. What you gain in return: Shares FlexiSpot's proven electric review pool. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers who want a platform size between FlexiSpot's 36 and 40 inch electric models.",
     specs: ["35 inch platform, electric motorized lift"],
     pros: ["Shares FlexiSpot's proven electric review pool"],
     cons: ["Current price not confirmed, verify on listing"],
     bestFor: "Buyers who want a platform size between FlexiSpot's 36 and 40 inch electric models.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -161,29 +161,133 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What Matters Most",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Most proven electric option", "FLEXISPOT 42 Inch Electric Motor Desk Converter"],
-        ["Cheapest overall", "FLEXISPOT 32 Inch Standing Desk Converter"],
-        ["Largest manual platform", "FLEXISPOT Standing Desk Converter 42 Inch"],
-        ["Cheapest electric option", "FLEXISPOT 36 Inch Electric Standing Desk Converter"],
+    "subheading": "By Platform Size",
+    "table": {
+      "headers": [
+        "Your monitor setup",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Single monitor or laptop, small desk",
+          "FLEXISPOT 32 Inch Standing Desk Converter"
+        ],
+        [
+          "Dual monitors",
+          "FLEXISPOT 42 Inch Electric Motor Desk Converter"
+        ],
+        [
+          "Triple monitors, need maximum surface area",
+          "FLEXISPOT 42 Inch Electric Motor Desk Converter"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Manual vs. Electric Within the FlexiSpot Lineup",
-    note: "FlexiSpot's manual converters cost roughly $100 to $150, while electric options run $170 to $240. If you don't specifically need push-button adjustment, the manual line offers a larger platform for less money at nearly every comparable size.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $120",
+          "FLEXISPOT 32 Inch Standing Desk Converter"
+        ],
+        [
+          "Mid-range",
+          "FLEXISPOT Standing Desk Converter 42 Inch"
+        ],
+        [
+          "No firm budget ceiling, prioritizing lift quality or brand",
+          "FLEXISPOT 42 Inch Electric Motor Desk Converter"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Manual (Gas-Spring) vs Electric Lift",
+    "cards": [
+      {
+        "label": "Manual (Gas-Spring)",
+        "text": "Adjusts with a push or pull handle rather than a motor, needs no power outlet, and typically costs less. In this comparison: FLEXISPOT Standing Desk Converter 36 Inch Desk Riser, FLEXISPOT Standing Desk Converter 40 Inch Large Desk Riser, FLEXISPOT Standing Desk Converter 42 Inch."
+      },
+      {
+        "label": "Electric (Motorized)",
+        "text": "Adjusts at the push of a button for smoother, more precise height changes, at a price premium and the need for a nearby outlet. In this comparison: FLEXISPOT 42 Inch Electric Motor Desk Converter, FLEXISPOT 40 Inch Electric Standing Desk Converter, FLEXISPOT 36 Inch Electric Standing Desk Converter."
+      }
+    ],
+    "note": "Most buyers should default to a manual pick like FLEXISPOT 32 Inch Standing Desk Converter unless you'll adjust height multiple times a day, in which case FLEXISPOT 42 Inch Electric Motor Desk Converter's push-button lift is worth the premium."
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "FLEXISPOT 36 Inch Electric Standing Desk Converter"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "FLEXISPOT 42 Inch Electric Motor Desk Converter"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Dual-Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A platform of at least 32 inches with explicit dual-monitor language in the listing, plus a stated weight capacity that comfortably covers two monitors, a keyboard, and a mouse together."
+      },
+      {
+        "label": "In this comparison",
+        "text": "FLEXISPOT 42 Inch Electric Motor Desk Converter fits this specifically: Strong review base for FlexiSpot's electric line at this size."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what FLEXISPOT 42 Inch Electric Motor Desk Converter offers: Strong review base for FlexiSpot's electric line at this size. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "FLEXISPOT 32 Inch Standing Desk Converter already covers the essentials: Lowest price in FlexiSpot's confirmed current lineup. The main thing you'd be paying extra for elsewhere in this list is a larger platform or an electric lift."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Weigh the real price gap between FlexiSpot's manual and electric lines", explanation: "Electric options cost $70-100 more than similarly sized manual converters; decide if push-button adjustment is worth that premium for your use case." },
-  { criterion: "Confirm current model availability before ordering", explanation: "We verified these specific models as currently sold, but FlexiSpot's catalog changes; check the live listing before purchasing." },
-  { criterion: "Weigh a very small review count cautiously", explanation: "The cheapest electric option has only 2 reviews; treat its perfect rating with appropriate skepticism until more review history builds." },
-  { criterion: "Match platform size to your desk space and device count", explanation: "FlexiSpot's lineup spans 32 to 42 inches; choose based on your actual monitor and keyboard setup, not just the largest available option." },
-  { criterion: "Consider the manual 42 inch option if you want maximum size without electric pricing", explanation: "This gives you FlexiSpot's largest platform at manual pricing, a genuine value option if power outlet access or motor cost aren't priorities." },
+  {
+    "criterion": "Measure your existing desk's height before ordering",
+    "explanation": "A standing desk converter sits on top of your current desk and adds its own height on top of that, even at the converter's lowest seated setting, sometimes adding several inches before you've raised anything at all. This matters because if your desk is already at a comfortable seated typing height, most gas-spring and electric converters can push your keyboard and monitor uncomfortably high the moment you set the converter down, forcing you into an awkward seated typing posture even when you never plan to stand. Before ordering, check the listing for the converter's minimum or lowest platform height (not just its maximum standing height), measure your desk's current height, and add the two together to confirm the result still feels comfortable seated."
+  },
+  {
+    "criterion": "Match platform size to your actual number of monitors",
+    "explanation": "Platform size is usually listed in inches of width, and it directly determines how many monitors and how much keyboard and mouse space you'll realistically have once everything is set up. A platform in the mid-20s to high-20s of inches comfortably fits a single monitor or laptop, while dual monitors typically need at least 32 inches and three monitors usually need 42 inches or more with a dedicated multi-monitor mount, since monitors, a keyboard, and a mouse all need to coexist on the same riser surface without overhanging the edge. Check the listing's stated platform width against the combined width of your actual monitors plus keyboard, not just the number of monitors the title claims to support."
+  },
+  {
+    "criterion": "Weigh electric versus manual lift for how often you'll adjust it",
+    "explanation": "A manual converter typically uses a gas-spring or counterbalance mechanism you push or pull to raise and lower, requiring no power and generally costing less, while an electric converter uses a motor and push-button control for smoother, more precise height changes at the cost of needing a nearby power outlet and a meaningfully higher price. If you plan to switch between sitting and standing multiple times a day, the effortless one-touch adjustment of an electric lift genuinely reduces the friction that causes people to stop bothering with height changes altogether, while an occasional adjuster may not find that premium worth paying. Check the listing for words like \"electric,\" \"motorized,\" or \"push-button\" versus \"gas spring\" or \"manual\" to confirm which mechanism you're buying, and if electric, confirm an outlet is within reach of where the desk sits."
+  },
+  {
+    "criterion": "Check your desk's depth against the converter's base footprint",
+    "explanation": "A converter's base, the part that actually sits on your desk, is typically deeper front-to-back than the platform surface alone, since it needs room for the lifting mechanism and stability at full height, and larger platforms generally require a proportionally larger base. This matters because a desk that's wide enough for the platform can still be too shallow for the base, leaving the converter's back edge hanging off the desk or blocking a monitor from sitting far enough back to be comfortable to view. Check the listing's stated base or footprint dimensions, not just the platform width, and measure your desk's actual depth (front edge to back edge) before ordering rather than assuming platform width is the only number that matters."
+  },
+  {
+    "criterion": "Weigh review volume against star rating together, not separately",
+    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews. This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time. When comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+  }
 ];
 
 export const faq: FaqItem[] = [

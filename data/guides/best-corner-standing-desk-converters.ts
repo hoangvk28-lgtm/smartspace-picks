@@ -30,9 +30,9 @@ export const products: GuideProduct[] = [
     reviews: "421",
     imageUrl: "https://m.media-amazon.com/images/I/517aMgUqrpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B078WZCYP7?tag=deskfinds0d-20",
-    description: "A dedicated 43 inch corner platform with a solid review base, built specifically for L-shaped desk geometry rather than adapted from a rectangular design.\n\nVerify your desk's corner return depth matches this converter's rear-corner dimensions before ordering.",
+    description: "A dedicated 43 inch corner platform with a solid review base, built specifically for L-shaped desk geometry rather than adapted from a rectangular design.\n\nIt earns the top spot in this comparison over VIVO Extra Wide 38 inch Corner Desk Converter for one main reason. Solid review base for a specialized corner converter. On price, it's actually priced above VIVO Extra Wide 38 inch Corner Desk Converter, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers with an L-shaped desk who want the most proven corner converter.",
     specs: ["43 inch corner platform"],
-    pros: ["Solid review base for a specialized corner converter", "Built specifically for L-shaped desk geometry"],
+    pros: ["Solid review base for a specialized corner converter","Built specifically for L-shaped desk geometry"],
     cons: ["Only fits desks with a genuine corner return"],
     bestFor: "Buyers with an L-shaped desk who want the most proven corner converter.",
   },
@@ -46,9 +46,9 @@ export const products: GuideProduct[] = [
     reviews: "715",
     imageUrl: "https://m.media-amazon.com/images/I/41pKou67Z0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07B44LD4S?tag=deskfinds0d-20",
-    description: "The larger review base among VIVO's corner options, an extra-wide 38 inch design at a lower price than the 43 inch alternative.\n\nA reasonable value for buyers with a corner desk who want proven review history at a lower price than the largest corner option.",
+    description: "The larger review base among VIVO's corner options, an extra-wide 38 inch design at a lower price than the 43 inch alternative.\n\nOne spot below VIVO Black 43 in Corner Desk Converter in this ranking, it's priced lower than VIVO Black 43 in Corner Desk Converter. The compromise here is straightforward: Smaller platform than the 43 inch option. What you gain in return: Larger review base than the 43 inch VIVO corner alternative. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers who want VIVO's most-reviewed corner converter at a lower price.",
     specs: ["38 inch corner platform, extra wide"],
-    pros: ["Larger review base than the 43 inch VIVO corner alternative", "Lower price"],
+    pros: ["Larger review base than the 43 inch VIVO corner alternative","Lower price"],
     cons: ["Smaller platform than the 43 inch option"],
     bestFor: "Buyers who want VIVO's most-reviewed corner converter at a lower price.",
   },
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     reviews: "159",
     imageUrl: "https://m.media-amazon.com/images/I/41Cnso48ORL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LBBZR7V?tag=deskfinds0d-20",
-    description: "The only electric-lift corner converter we confirmed, combining L-shaped desk fit with push-button height adjustment.\n\nA smaller review base than the manual corner options, but a genuinely unique combination for corner-desk buyers who also want electric lift.",
+    description: "The only electric-lift corner converter we confirmed, combining L-shaped desk fit with push-button height adjustment.\n\nSitting just under VIVO Extra Wide 38 inch Corner Desk Converter, it costs more than VIVO Extra Wide 38 inch Corner Desk Converter. Here's the honest tradeoff: Smaller review base than the manual corner alternatives. And here's what it gets you instead: Only confirmed electric corner converter in our research. That's the real difference between the two picks, not just a ranking number.\n\nBuyers with a corner desk who also want electric height adjustment.",
     specs: ["43 inch corner platform, electric lift"],
     pros: ["Only confirmed electric corner converter in our research"],
     cons: ["Smaller review base than the manual corner alternatives"],
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     reviews: "8",
     imageUrl: "https://m.media-amazon.com/images/I/41OWaJEiRaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXDZM4F1?tag=deskfinds0d-20",
-    description: "The largest corner converter platform we confirmed, at 47 inches, though with only 8 reviews at research time.\n\nToo few reviews to draw strong conclusions from the rating; worth watching as this larger corner option builds review volume.",
+    description: "The largest corner converter platform we confirmed, at 47 inches, though with only 8 reviews at research time.\n\nRanked just behind VIVO Black 43 in Electric Corner Desk Converter, it's priced lower than VIVO Black 43 in Electric Corner Desk Converter. The real tradeoff against that pick: Only 8 reviews, far too few for a confident rating. In exchange, it offers this instead: Largest corner converter platform in this comparison. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nBuyers with a large corner desk who need maximum corner platform size and accept limited review history.",
     specs: ["47 inch corner platform"],
     pros: ["Largest corner converter platform in this comparison"],
     cons: ["Only 8 reviews, far too few for a confident rating"],
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     reviews: "40",
     imageUrl: "https://m.media-amazon.com/images/I/41zpkkoPYML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D4MD3T4B?tag=deskfinds0d-20",
-    description: "The lowest price for a corner converter in this comparison, a 32 inch design in white, though with a lower rating and smaller review base than the VIVO options.\n\nA reasonable entry point for a smaller corner desk on a tighter budget.",
+    description: "The lowest price for a corner converter in this comparison, a 32 inch design in white, though with a lower rating and smaller review base than the VIVO options.\n\nOne spot below Lubvlook 47 inch Corner Standing Desk Converter in this ranking, it's priced lower than Lubvlook 47 inch Corner Standing Desk Converter. The compromise here is straightforward: Lower rating and smaller review base than the VIVO corner options. What you gain in return: Lowest price for a corner converter in this comparison. Whether that trade is worth it depends on which side matters more for your setup.\n\nBudget-focused buyers with a smaller corner desk.",
     specs: ["32 inch corner platform, white finish"],
     pros: ["Lowest price for a corner converter in this comparison"],
     cons: ["Lower rating and smaller review base than the VIVO corner options"],
@@ -110,12 +110,12 @@ export const products: GuideProduct[] = [
     reviews: "497",
     imageUrl: "https://m.media-amazon.com/images/I/41M1ekKczDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0864RSM5S?tag=deskfinds0d-20",
-    description: "Not a corner-specific design, included as reference: this rectangular electric converter has a far larger review base than any corner option here, useful context if your corner desk has a wide enough straight section to fit a standard platform.\n\nOnly consider this if your desk's usable straight surface (away from the actual corner joint) is wide enough for a standard rectangular platform.",
-    specs: ["36 inch rectangular platform, electric lift", "Not corner-shaped"],
+    description: "Not a corner-specific design, included as reference: this rectangular electric converter has a far larger review base than any corner option here, useful context if your corner desk has a wide enough straight section to fit a standard platform.\n\nSitting just under Aconcept 32 inch White Corner Height Adjustable Standing Desk Converter, it costs more than Aconcept 32 inch White Corner Height Adjustable Standing Desk Converter. Here's the honest tradeoff: Not designed for corner geometry, only fits a wide straight desk section. And here's what it gets you instead: Largest review base of any pick in this comparison, for reference. That's the real difference between the two picks, not just a ranking number.\n\nBuyers whose corner desk has enough straight surface for a standard rectangular converter.",
+    specs: ["36 inch rectangular platform, electric lift","Not corner-shaped"],
     pros: ["Largest review base of any pick in this comparison, for reference"],
     cons: ["Not designed for corner geometry, only fits a wide straight desk section"],
     bestFor: "Buyers whose corner desk has enough straight surface for a standard rectangular converter.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -129,29 +129,133 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What Matters Most",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Most proven corner converter", "VIVO Black 43 in Corner Desk Converter"],
-        ["Best value corner option", "VIVO Extra Wide 38 inch Corner Desk Converter"],
-        ["Electric lift, corner desk", "VIVO Black 43 in Electric Corner Desk Converter"],
-        ["Budget corner option", "Aconcept 32 inch White Corner Standing Desk Converter"],
+    "subheading": "By Platform Size",
+    "table": {
+      "headers": [
+        "Your monitor setup",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Single monitor or laptop, small desk",
+          "Aconcept 32 inch White Corner Height Adjustable Standing Desk Converter"
+        ],
+        [
+          "Dual monitors",
+          "VIVO Black 43 in Corner Desk Converter"
+        ],
+        [
+          "Triple monitors, need maximum surface area",
+          "VIVO Black 43 in Corner Desk Converter"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Measure Your Desk's Corner Return Before Ordering",
-    note: "Corner converters are built for a specific rear-corner width and front projection. Measure your desk's actual corner return depth and the distance from the corner to where you sit, then compare against the converter's stated dimensions before ordering, since a mismatch can leave the base unsupported or the platform projecting too far forward.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $160",
+          "Aconcept 32 inch White Corner Height Adjustable Standing Desk Converter"
+        ],
+        [
+          "Mid-range",
+          "VIVO Black 43 in Corner Desk Converter"
+        ],
+        [
+          "No firm budget ceiling, prioritizing lift quality or brand",
+          "VERSADESK PowerPro 36 Inch Electric Standing Desk Converter"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Manual (Gas-Spring) vs Electric Lift",
+    "cards": [
+      {
+        "label": "Manual (Gas-Spring)",
+        "text": "Adjusts with a push or pull handle rather than a motor, needs no power outlet, and typically costs less. In this comparison: VIVO Black 43 in Corner Desk Converter, VIVO Extra Wide 38 inch Corner Desk Converter, Lubvlook 47 inch Corner Standing Desk Converter."
+      },
+      {
+        "label": "Electric (Motorized)",
+        "text": "Adjusts at the push of a button for smoother, more precise height changes, at a price premium and the need for a nearby outlet. In this comparison: VIVO Black 43 in Electric Corner Desk Converter, VERSADESK PowerPro 36 Inch Electric Standing Desk Converter."
+      }
+    ],
+    "note": "Most buyers should default to a manual pick like Aconcept 32 inch White Corner Height Adjustable Standing Desk Converter unless you'll adjust height multiple times a day, in which case VIVO Black 43 in Electric Corner Desk Converter's push-button lift is worth the premium."
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "Lubvlook 47 inch Corner Standing Desk Converter"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "VIVO Extra Wide 38 inch Corner Desk Converter"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Dual-Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A platform of at least 32 inches with explicit dual-monitor language in the listing, plus a stated weight capacity that comfortably covers two monitors, a keyboard, and a mouse together."
+      },
+      {
+        "label": "In this comparison",
+        "text": "VIVO Black 43 in Corner Desk Converter fits this specifically: Solid review base for a specialized corner converter."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what VERSADESK PowerPro 36 Inch Electric Standing Desk Converter offers: Largest review base of any pick in this comparison, for reference. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Aconcept 32 inch White Corner Height Adjustable Standing Desk Converter already covers the essentials: Lowest price for a corner converter in this comparison. The main thing you'd be paying extra for elsewhere in this list is a larger platform or an electric lift."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Measure your desk's corner return depth before ordering", explanation: "Corner converters need a specific rear-corner width and depth to sit fully supported; a mismatch can leave the base unstable." },
-  { criterion: "Weigh very small review counts on newer corner-specific options", explanation: "The largest corner platform we found has only 8 reviews; treat its rating with appropriate caution until more review history accumulates." },
-  { criterion: "Consider whether a standard rectangular converter fits your usable straight desk space", explanation: "If your corner desk has enough straight surface away from the actual joint, a standard rectangular converter with a larger review base may be a better-proven option." },
-  { criterion: "Check for electric lift if you want corner geometry and effortless adjustment together", explanation: "Only one confirmed corner converter offers electric lift; most corner-specific options are manual." },
-  { criterion: "Weigh price against platform size within the corner category specifically", explanation: "Corner converters range from $99.99 to $349.00 in this comparison; compare value within this narrower category rather than against general rectangular converters." },
+  {
+    "criterion": "Measure your existing desk's height before ordering",
+    "explanation": "A standing desk converter sits on top of your current desk and adds its own height on top of that, even at the converter's lowest seated setting, sometimes adding several inches before you've raised anything at all. This matters because if your desk is already at a comfortable seated typing height, most gas-spring and electric converters can push your keyboard and monitor uncomfortably high the moment you set the converter down, forcing you into an awkward seated typing posture even when you never plan to stand. Before ordering, check the listing for the converter's minimum or lowest platform height (not just its maximum standing height), measure your desk's current height, and add the two together to confirm the result still feels comfortable seated."
+  },
+  {
+    "criterion": "Match platform size to your actual number of monitors",
+    "explanation": "Platform size is usually listed in inches of width, and it directly determines how many monitors and how much keyboard and mouse space you'll realistically have once everything is set up. A platform in the mid-20s to high-20s of inches comfortably fits a single monitor or laptop, while dual monitors typically need at least 32 inches and three monitors usually need 42 inches or more with a dedicated multi-monitor mount, since monitors, a keyboard, and a mouse all need to coexist on the same riser surface without overhanging the edge. Check the listing's stated platform width against the combined width of your actual monitors plus keyboard, not just the number of monitors the title claims to support."
+  },
+  {
+    "criterion": "Weigh electric versus manual lift for how often you'll adjust it",
+    "explanation": "A manual converter typically uses a gas-spring or counterbalance mechanism you push or pull to raise and lower, requiring no power and generally costing less, while an electric converter uses a motor and push-button control for smoother, more precise height changes at the cost of needing a nearby power outlet and a meaningfully higher price. If you plan to switch between sitting and standing multiple times a day, the effortless one-touch adjustment of an electric lift genuinely reduces the friction that causes people to stop bothering with height changes altogether, while an occasional adjuster may not find that premium worth paying. Check the listing for words like \"electric,\" \"motorized,\" or \"push-button\" versus \"gas spring\" or \"manual\" to confirm which mechanism you're buying, and if electric, confirm an outlet is within reach of where the desk sits."
+  },
+  {
+    "criterion": "Check your desk's depth against the converter's base footprint",
+    "explanation": "A converter's base, the part that actually sits on your desk, is typically deeper front-to-back than the platform surface alone, since it needs room for the lifting mechanism and stability at full height, and larger platforms generally require a proportionally larger base. This matters because a desk that's wide enough for the platform can still be too shallow for the base, leaving the converter's back edge hanging off the desk or blocking a monitor from sitting far enough back to be comfortable to view. Check the listing's stated base or footprint dimensions, not just the platform width, and measure your desk's actual depth (front edge to back edge) before ordering rather than assuming platform width is the only number that matters."
+  },
+  {
+    "criterion": "Weigh review volume against star rating together, not separately",
+    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews. This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time. When comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+  }
 ];
 
 export const faq: FaqItem[] = [

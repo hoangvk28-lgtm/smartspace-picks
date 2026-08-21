@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     reviews: "1,872",
     imageUrl: "https://m.media-amazon.com/images/I/41cvTPf-cXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08RHKKX6K?tag=deskfinds0d-20",
-    description: "The largest review base among converters with integrated monitor mounts, a 32 inch platform with a dual monitor stand rated for 13 to 30 inch displays.\n\nA strong review base confirms real-world satisfaction with this specific integrated mount design.",
+    description: "The largest review base among converters with integrated monitor mounts, a 32 inch platform with a dual monitor stand rated for 13 to 30 inch displays.\n\nIt earns the top spot in this comparison over VIVO Height Adjustable 32 inch Standing Desk Converter with Dual Monitor Stand (Alt Listing) for one main reason. Largest review base among integrated-mount converters. On price, it comes in below VIVO Height Adjustable 32 inch Standing Desk Converter with Dual Monitor Stand (Alt Listing), which is worth weighing if cost is your deciding factor between the two.\n\nBuyers who want the most proven integrated dual-monitor mount converter.",
     specs: ["32 inch platform, integrated dual 13-30 inch monitor stand"],
     pros: ["Largest review base among integrated-mount converters"],
     cons: ["Rated monitor size range caps at 30 inches"],
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     reviews: "1,872",
     imageUrl: "https://m.media-amazon.com/images/I/31C5pHLfGNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BJ4R6FPV?tag=deskfinds0d-20",
-    description: "The same design and review pool as the top pick, listed separately at a slightly higher price.\n\nCheck both listings for current stock and pricing before ordering, since the same product can appear at different prices across listings.",
+    description: "The same design and review pool as the top pick, listed separately at a slightly higher price.\n\nOne spot below VIVO Height Adjustable 32 inch Standing Desk Converter with Dual 13-30 Inch Monitor Stand in this ranking, it costs more than VIVO Height Adjustable 32 inch Standing Desk Converter with Dual 13-30 Inch Monitor Stand. The compromise here is straightforward: Slightly higher price than the primary listing. What you gain in return: Same proven design as the top pick. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers who find this specific listing in stock when the other is unavailable.",
     specs: ["32 inch platform, integrated dual 13-30 inch monitor stand"],
     pros: ["Same proven design as the top pick"],
     cons: ["Slightly higher price than the primary listing"],
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     reviews: "743",
     imageUrl: "https://m.media-amazon.com/images/I/41ue0-15IEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGQTS2QP?tag=deskfinds0d-20",
-    description: "The 36 inch version of VIVO's integrated dual-monitor mount design, more platform space than the 32 inch model for keyboard and mouse.\n\nA solid review base with the same monitor mount rating, at a modest price increase over the 32 inch alternative.",
+    description: "The 36 inch version of VIVO's integrated dual-monitor mount design, more platform space than the 32 inch model for keyboard and mouse.\n\nSitting just under VIVO Height Adjustable 32 inch Standing Desk Converter with Dual Monitor Stand (Alt Listing), it costs more than VIVO Height Adjustable 32 inch Standing Desk Converter with Dual Monitor Stand (Alt Listing). Here's the honest tradeoff: Smaller review base than the 32 inch model. And here's what it gets you instead: More platform space than the 32 inch model with the same mount system. That's the real difference between the two picks, not just a ranking number.\n\nBuyers who want more keyboard and mouse space alongside the same integrated mount.",
     specs: ["36 inch platform, integrated dual 13-30 inch monitor stand"],
     pros: ["More platform space than the 32 inch model with the same mount system"],
     cons: ["Smaller review base than the 32 inch model"],
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     reviews: "612",
     imageUrl: "https://m.media-amazon.com/images/I/41KTE2pi9QL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZZB1ZRY?tag=deskfinds0d-20",
-    description: "A single-monitor mount rather than dual, useful if you only run one display and want maximum remaining platform space for other items.\n\nA solid review base for buyers who specifically need a single-monitor integrated mount rather than dual.",
+    description: "A single-monitor mount rather than dual, useful if you only run one display and want maximum remaining platform space for other items.\n\nRanked just behind VIVO Height Adjustable 36 inch Standing Desk Converter with Dual 13-30 Inch Monitor Stand, it's priced lower than VIVO Height Adjustable 36 inch Standing Desk Converter with Dual 13-30 Inch Monitor Stand. The real tradeoff against that pick: Only supports one mounted monitor. In exchange, it offers this instead: Solid review base for a single-monitor integrated mount. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nBuyers with a single monitor who want it mounted rather than on an open platform.",
     specs: ["32 inch platform, single monitor mount"],
     pros: ["Solid review base for a single-monitor integrated mount"],
     cons: ["Only supports one mounted monitor"],
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     reviews: "298",
     imageUrl: "https://m.media-amazon.com/images/I/41K6Ey3-RSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5SC49BN?tag=deskfinds0d-20",
-    description: "Combines an integrated dual-monitor arm with electric lift and an extra-large platform, the only pick in this comparison offering both electric adjustment and integrated mounts.\n\nThe highest price in this comparison, but a genuinely unique combination of features.",
+    description: "Combines an integrated dual-monitor arm with electric lift and an extra-large platform, the only pick in this comparison offering both electric adjustment and integrated mounts.\n\nOne spot below VIVO Black 32 inch Desk Riser with Monitor Mount in this ranking, it costs more than VIVO Black 32 inch Desk Riser with Monitor Mount. The compromise here is straightforward: Highest price in this comparison. What you gain in return: Only pick combining integrated monitor mounts with electric lift. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers who want both integrated monitor mounts and electric adjustment together.",
     specs: ["X-Large platform, integrated dual monitor arm, electric lift"],
     pros: ["Only pick combining integrated monitor mounts with electric lift"],
     cons: ["Highest price in this comparison"],
@@ -110,12 +110,12 @@ export const products: GuideProduct[] = [
     reviews: "1,038",
     imageUrl: "https://m.media-amazon.com/images/I/414XZnNA-lL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01N383I0J?tag=deskfinds0d-20",
-    description: "A well-established Mount-It! design with an integrated dual-monitor mount, a solid review base and rating.\n\nA higher price than the VIVO integrated mount options, but from a brand specifically focused on ergonomic mounting hardware.",
+    description: "A well-established Mount-It! design with an integrated dual-monitor mount, a solid review base and rating.\n\nSitting just under Mount-It! Electric Standing Desk Converter with Dual Monitor Arm, it's priced lower than Mount-It! Electric Standing Desk Converter with Dual Monitor Arm. Here's the honest tradeoff: Higher price than the VIVO integrated mount alternatives. And here's what it gets you instead: Solid review base from a brand focused on ergonomic mounting hardware. That's the real difference between the two picks, not just a ranking number.\n\nBuyers who specifically trust Mount-It!'s established monitor mount engineering.",
     specs: ["Platform with integrated dual monitor mount"],
     pros: ["Solid review base from a brand focused on ergonomic mounting hardware"],
     cons: ["Higher price than the VIVO integrated mount alternatives"],
     bestFor: "Buyers who specifically trust Mount-It!'s established monitor mount engineering.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -129,29 +129,133 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What Matters Most",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Most proven overall", "VIVO Height Adjustable 32 inch with Dual Monitor Stand"],
-        ["Single monitor mount only", "VIVO Black 32 inch Desk Riser with Monitor Mount"],
-        ["Integrated mount plus electric lift", "Mount-It! Electric Standing Desk Converter with Dual Monitor Arm"],
-        ["Established Mount-It! design", "Mount-It! Standing Desk Converter, Stand Up Desk Riser"],
+    "subheading": "By Platform Size",
+    "table": {
+      "headers": [
+        "Your monitor setup",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Single monitor or laptop, small desk",
+          "VIVO Black 32 inch Desk Riser with Monitor Mount"
+        ],
+        [
+          "Dual monitors",
+          "VIVO Height Adjustable 32 inch Standing Desk Converter with Dual 13-30 Inch Monitor Stand"
+        ],
+        [
+          "Triple monitors, need maximum surface area",
+          "VIVO Height Adjustable 36 inch Standing Desk Converter with Dual 13-30 Inch Monitor Stand"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Verify Your Monitor Size Fits the Mount's Rated Range",
-    note: "VIVO's integrated mount options are rated for 13 to 30 inch monitors. If your display exceeds this range, check the specific listing for an updated size rating or consider an open-platform converter with a separate monitor stand instead.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $180",
+          "VIVO Height Adjustable 32 inch Standing Desk Converter with Dual 13-30 Inch Monitor Stand"
+        ],
+        [
+          "Mid-range",
+          "VIVO Height Adjustable 36 inch Standing Desk Converter with Dual 13-30 Inch Monitor Stand"
+        ],
+        [
+          "No firm budget ceiling, prioritizing lift quality or brand",
+          "Mount-It! Electric Standing Desk Converter with Dual Monitor Arm"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Manual (Gas-Spring) vs Electric Lift",
+    "cards": [
+      {
+        "label": "Manual (Gas-Spring)",
+        "text": "Adjusts with a push or pull handle rather than a motor, needs no power outlet, and typically costs less. In this comparison: VIVO Height Adjustable 32 inch Standing Desk Converter with Dual 13-30 Inch Monitor Stand, VIVO Height Adjustable 32 inch Standing Desk Converter with Dual Monitor Stand (Alt Listing), VIVO Height Adjustable 36 inch Standing Desk Converter with Dual 13-30 Inch Monitor Stand."
+      },
+      {
+        "label": "Electric (Motorized)",
+        "text": "Adjusts at the push of a button for smoother, more precise height changes, at a price premium and the need for a nearby outlet. In this comparison: Mount-It! Electric Standing Desk Converter with Dual Monitor Arm."
+      }
+    ],
+    "note": "Most buyers should default to a manual pick like VIVO Height Adjustable 32 inch Standing Desk Converter with Dual 13-30 Inch Monitor Stand unless you'll adjust height multiple times a day, in which case Mount-It! Electric Standing Desk Converter with Dual Monitor Arm's push-button lift is worth the premium."
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "VIVO Height Adjustable 32 inch Standing Desk Converter with Dual 13-30 Inch Monitor Stand"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "VIVO Height Adjustable 32 inch Standing Desk Converter with Dual 13-30 Inch Monitor Stand"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Dual-Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A platform of at least 32 inches with explicit dual-monitor language in the listing, plus a stated weight capacity that comfortably covers two monitors, a keyboard, and a mouse together."
+      },
+      {
+        "label": "In this comparison",
+        "text": "VIVO Height Adjustable 32 inch Standing Desk Converter with Dual 13-30 Inch Monitor Stand fits this specifically: Largest review base among integrated-mount converters."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Mount-It! Electric Standing Desk Converter with Dual Monitor Arm offers: Only pick combining integrated monitor mounts with electric lift. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "VIVO Height Adjustable 32 inch Standing Desk Converter with Dual 13-30 Inch Monitor Stand already covers the essentials: Largest review base among integrated-mount converters. The main thing you'd be paying extra for elsewhere in this list is a larger platform or an electric lift."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm your monitor size falls within the mount's rated range", explanation: "Most integrated mounts here are rated for 13-30 inches; verify your specific display before ordering." },
-  { criterion: "Decide between single and dual-monitor mount designs", explanation: "A single-monitor mount frees more remaining platform space; a dual-monitor mount supports two displays but uses more of the mount system's capacity." },
-  { criterion: "Weigh electric lift if you want both integrated mounts and effortless adjustment", explanation: "Only one pick combines both features, at a significant price premium; decide if this specific combination justifies the cost." },
-  { criterion: "Check VESA compatibility for your specific monitors", explanation: "Integrated mounts require VESA-compatible displays; verify your monitor's mounting pattern before ordering." },
-  { criterion: "Compare Mount-It! and VIVO's integrated mount pricing directly", explanation: "VIVO's integrated mount options are generally lower priced than Mount-It!'s established alternatives at similar functionality." },
+  {
+    "criterion": "Measure your existing desk's height before ordering",
+    "explanation": "A standing desk converter sits on top of your current desk and adds its own height on top of that, even at the converter's lowest seated setting, sometimes adding several inches before you've raised anything at all. This matters because if your desk is already at a comfortable seated typing height, most gas-spring and electric converters can push your keyboard and monitor uncomfortably high the moment you set the converter down, forcing you into an awkward seated typing posture even when you never plan to stand. Before ordering, check the listing for the converter's minimum or lowest platform height (not just its maximum standing height), measure your desk's current height, and add the two together to confirm the result still feels comfortable seated."
+  },
+  {
+    "criterion": "Match platform size to your actual number of monitors",
+    "explanation": "Platform size is usually listed in inches of width, and it directly determines how many monitors and how much keyboard and mouse space you'll realistically have once everything is set up. A platform in the mid-20s to high-20s of inches comfortably fits a single monitor or laptop, while dual monitors typically need at least 32 inches and three monitors usually need 42 inches or more with a dedicated multi-monitor mount, since monitors, a keyboard, and a mouse all need to coexist on the same riser surface without overhanging the edge. Check the listing's stated platform width against the combined width of your actual monitors plus keyboard, not just the number of monitors the title claims to support."
+  },
+  {
+    "criterion": "Weigh electric versus manual lift for how often you'll adjust it",
+    "explanation": "A manual converter typically uses a gas-spring or counterbalance mechanism you push or pull to raise and lower, requiring no power and generally costing less, while an electric converter uses a motor and push-button control for smoother, more precise height changes at the cost of needing a nearby power outlet and a meaningfully higher price. If you plan to switch between sitting and standing multiple times a day, the effortless one-touch adjustment of an electric lift genuinely reduces the friction that causes people to stop bothering with height changes altogether, while an occasional adjuster may not find that premium worth paying. Check the listing for words like \"electric,\" \"motorized,\" or \"push-button\" versus \"gas spring\" or \"manual\" to confirm which mechanism you're buying, and if electric, confirm an outlet is within reach of where the desk sits."
+  },
+  {
+    "criterion": "Check your desk's depth against the converter's base footprint",
+    "explanation": "A converter's base, the part that actually sits on your desk, is typically deeper front-to-back than the platform surface alone, since it needs room for the lifting mechanism and stability at full height, and larger platforms generally require a proportionally larger base. This matters because a desk that's wide enough for the platform can still be too shallow for the base, leaving the converter's back edge hanging off the desk or blocking a monitor from sitting far enough back to be comfortable to view. Check the listing's stated base or footprint dimensions, not just the platform width, and measure your desk's actual depth (front edge to back edge) before ordering rather than assuming platform width is the only number that matters."
+  },
+  {
+    "criterion": "Weigh review volume against star rating together, not separately",
+    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews. This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time. When comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+  }
 ];
 
 export const faq: FaqItem[] = [

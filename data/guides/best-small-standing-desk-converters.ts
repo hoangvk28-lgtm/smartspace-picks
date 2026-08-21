@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     reviews: "15,583",
     imageUrl: "https://m.media-amazon.com/images/I/41Eh8j3wCSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VMNYMY3?tag=deskfinds0d-20",
-    description: "At 26 inches, well under our 30 inch small threshold, with the largest review base of any converter in our research.\n\nStill large enough for a single monitor and keyboard comfortably, the strongest option in this narrower size category.",
+    description: "At 26 inches, well under our 30 inch small threshold, with the largest review base of any converter in our research.\n\nIt earns the top spot in this comparison over VIVO Black Small Single Top 28 inch Standing Desk Converter for one main reason. Largest review base of any converter in our research, well under 30 inches. On price, it's actually priced above VIVO Black Small Single Top 28 inch Standing Desk Converter, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers who want the most proven small converter for a single-monitor setup.",
     specs: ["26 inch platform"],
     pros: ["Largest review base of any converter in our research, well under 30 inches"],
     cons: ["Limited surface for more than a single monitor"],
@@ -46,9 +46,9 @@ export const products: GuideProduct[] = [
     reviews: "987",
     imageUrl: "https://m.media-amazon.com/images/I/411ZEuCs0FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07SD7YH8T?tag=deskfinds0d-20",
-    description: "Explicitly labeled \"small\" directly in the product name, a 28 inch single-top design at a lower price than the 26 inch top pick.\n\nA solid review base for a genuinely small, budget-friendly option.",
+    description: "Explicitly labeled \"small\" directly in the product name, a 28 inch single-top design at a lower price than the 26 inch top pick.\n\nOne spot below VIVO Black 26 in Standing Desk Converter in this ranking, it's priced lower than VIVO Black 26 in Standing Desk Converter. The compromise here is straightforward: Smaller review base than the 26 inch VIVO top pick. What you gain in return: Explicitly labeled small in the product name. Whether that trade is worth it depends on which side matters more for your setup.\n\nBudget-focused buyers who want an explicitly small, proven single-top design.",
     specs: ["28 inch platform, single-top, explicitly labeled small"],
-    pros: ["Explicitly labeled small in the product name", "Lower price than the top pick"],
+    pros: ["Explicitly labeled small in the product name","Lower price than the top pick"],
     cons: ["Smaller review base than the 26 inch VIVO top pick"],
     bestFor: "Budget-focused buyers who want an explicitly small, proven single-top design.",
   },
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     reviews: "632",
     imageUrl: "https://m.media-amazon.com/images/I/41Br1CxfavL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07K8WZ19K?tag=deskfinds0d-20",
-    description: "At 29 inches, just under our small threshold, with a solid review base and single-top design.\n\nA slightly larger platform than the smallest options here while still qualifying as genuinely small.",
+    description: "At 29 inches, just under our small threshold, with a solid review base and single-top design.\n\nSitting just under VIVO Black Small Single Top 28 inch Standing Desk Converter, it costs more than VIVO Black Small Single Top 28 inch Standing Desk Converter. Here's the honest tradeoff: Higher price than the 28 inch alternative at a similar size. And here's what it gets you instead: Solid review base at just under our small size threshold. That's the real difference between the two picks, not just a ranking number.\n\nBuyers who want the largest platform that still qualifies as genuinely small.",
     specs: ["29 inch platform, single-top design"],
     pros: ["Solid review base at just under our small size threshold"],
     cons: ["Higher price than the 28 inch alternative at a similar size"],
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     reviews: "381",
     imageUrl: "https://m.media-amazon.com/images/I/41Br1CxfavL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0765BQ7RN?tag=deskfinds0d-20",
-    description: "A compact design from Mount-It!, an ergonomic-focused brand, though exact platform width wasn't confirmed against our small threshold.\n\nVerify the exact dimensions on the current listing to confirm it fits within our small category before ordering.",
+    description: "A compact design from Mount-It!, an ergonomic-focused brand, though exact platform width wasn't confirmed against our small threshold.\n\nRanked just behind VIVO Black 29 in Single Top Standing Desk Converter, it's priced lower than VIVO Black 29 in Single Top Standing Desk Converter. The real tradeoff against that pick: Exact width not confirmed against our small threshold, verify on listing. In exchange, it offers this instead: From a brand specifically focused on ergonomic mounting products. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nBuyers who want an ergonomic-focused brand and will verify exact dimensions.",
     specs: ["Compact platform, gas-spring lift"],
     pros: ["From a brand specifically focused on ergonomic mounting products"],
     cons: ["Exact width not confirmed against our small threshold, verify on listing"],
@@ -94,12 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "318",
     imageUrl: "https://m.media-amazon.com/images/I/41eSj5kZ-BL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8VR922C?tag=deskfinds0d-20",
-    description: "The smallest platform in this comparison at 22 inches, with genuine bamboo construction and a dual-purpose lap desk function.\n\nA solid review base for the smallest, most budget-friendly option here, well suited to a laptop-only setup.",
+    description: "The smallest platform in this comparison at 22 inches, with genuine bamboo construction and a dual-purpose lap desk function.\n\nOne spot below Mount-It! Standing Desk Converter in this ranking, pricing between it and Mount-It! Standing Desk Converter isn't directly comparable here. The compromise here is straightforward: Very limited surface area, suited only to a single laptop. What you gain in return: Smallest platform in this comparison. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers with the tightest space constraints who want the smallest possible platform.",
     specs: ["22 inch platform, bamboo, lap desk function"],
-    pros: ["Smallest platform in this comparison", "Genuine bamboo construction with lap desk versatility"],
+    pros: ["Smallest platform in this comparison","Genuine bamboo construction with lap desk versatility"],
     cons: ["Very limited surface area, suited only to a single laptop"],
     bestFor: "Buyers with the tightest space constraints who want the smallest possible platform.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -113,29 +113,133 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What Matters Most",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Most proven small converter", "VIVO Black 26 in Standing Desk Converter"],
-        ["Explicitly labeled small, budget", "VIVO Black Small Single Top 28 inch"],
-        ["Largest platform still qualifying as small", "VIVO Black 29 in Single Top Standing Desk Converter"],
-        ["Smallest platform, laptop-only", "Amazer 22 inch Standing Desk Converter, Bamboo"],
+    "subheading": "By Platform Size",
+    "table": {
+      "headers": [
+        "Your monitor setup",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Single monitor or laptop, small desk",
+          "VIVO Black 26 in Standing Desk Converter"
+        ],
+        [
+          "Dual monitors",
+          "VIVO Black 26 in Standing Desk Converter"
+        ],
+        [
+          "Triple monitors, need maximum surface area",
+          "VIVO Black 29 in Single Top Standing Desk Converter"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Small vs. Compact: Check Which Guide Fits Your Need",
-    note: "This guide applies a stricter under-30-inch threshold; our broader compact standing desk converter guide covers a wider range including some larger options still considered space-saving. If a 26-29 inch platform feels too tight, check the compact guide for slightly larger alternatives.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $65",
+          "Amazer 22 inch Standing Desk Converter"
+        ],
+        [
+          "Mid-range",
+          "VIVO Black 29 in Single Top Standing Desk Converter"
+        ],
+        [
+          "No firm budget ceiling, prioritizing lift quality or brand",
+          "VIVO Black 26 in Standing Desk Converter"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Manual (Gas-Spring) vs Electric Lift",
+    "cards": [
+      {
+        "label": "Manual (Gas-Spring)",
+        "text": "Adjusts with a push or pull handle rather than a motor, needs no power outlet, and typically costs less. In this comparison: VIVO Black 26 in Standing Desk Converter, VIVO Black Small Single Top 28 inch Standing Desk Converter, VIVO Black 29 in Single Top Standing Desk Converter."
+      },
+      {
+        "label": "Electric (Motorized)",
+        "text": "Adjusts at the push of a button for smoother, more precise height changes, at a price premium and the need for a nearby outlet. In this comparison: none in this specific roundup, since most picks here use a manual lift."
+      }
+    ],
+    "note": "Every pick in this specific comparison uses a manual lift; check our broader converter roundup if you specifically want an electric option."
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "VIVO Black 26 in Standing Desk Converter"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "VIVO Black 26 in Standing Desk Converter"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Dual-Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A platform of at least 32 inches with explicit dual-monitor language in the listing, plus a stated weight capacity that comfortably covers two monitors, a keyboard, and a mouse together."
+      },
+      {
+        "label": "In this comparison",
+        "text": "VIVO Black 26 in Standing Desk Converter fits this specifically: Largest review base of any converter in our research, well under 30 inches."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what VIVO Black 26 in Standing Desk Converter offers: Largest review base of any converter in our research, well under 30 inches. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Amazer 22 inch Standing Desk Converter already covers the essentials: Smallest platform in this comparison. The main thing you'd be paying extra for elsewhere in this list is a larger platform or an electric lift."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm the platform genuinely fits your device plus keyboard and mouse", explanation: "A small platform must still support a usable setup; verify dimensions against your actual monitor or laptop and input devices." },
-  { criterion: "Check whether you need this stricter small threshold or our broader compact guide", explanation: "This page applies a tighter under-30-inch definition; our compact guide covers a somewhat wider range if that better fits your needs." },
-  { criterion: "Weigh review volume against the smallest platform options", explanation: "The largest review base here belongs to the 26 inch VIVO pick; the smallest 22 inch option has a smaller but still meaningful review history." },
-  { criterion: "Verify exact dimensions for any pick without confirmed size data", explanation: "One pick in this comparison didn't have confirmed width in our specific research; check the current listing before assuming it qualifies as small." },
-  { criterion: "Consider a bamboo or material-specific option if that also matters", explanation: "The smallest pick here happens to be confirmed bamboo, useful if both small size and material matter to your decision." },
+  {
+    "criterion": "Measure your existing desk's height before ordering",
+    "explanation": "A standing desk converter sits on top of your current desk and adds its own height on top of that, even at the converter's lowest seated setting, sometimes adding several inches before you've raised anything at all. This matters because if your desk is already at a comfortable seated typing height, most gas-spring and electric converters can push your keyboard and monitor uncomfortably high the moment you set the converter down, forcing you into an awkward seated typing posture even when you never plan to stand. Before ordering, check the listing for the converter's minimum or lowest platform height (not just its maximum standing height), measure your desk's current height, and add the two together to confirm the result still feels comfortable seated."
+  },
+  {
+    "criterion": "Match platform size to your actual number of monitors",
+    "explanation": "Platform size is usually listed in inches of width, and it directly determines how many monitors and how much keyboard and mouse space you'll realistically have once everything is set up. A platform in the mid-20s to high-20s of inches comfortably fits a single monitor or laptop, while dual monitors typically need at least 32 inches and three monitors usually need 42 inches or more with a dedicated multi-monitor mount, since monitors, a keyboard, and a mouse all need to coexist on the same riser surface without overhanging the edge. Check the listing's stated platform width against the combined width of your actual monitors plus keyboard, not just the number of monitors the title claims to support."
+  },
+  {
+    "criterion": "Weigh electric versus manual lift for how often you'll adjust it",
+    "explanation": "A manual converter typically uses a gas-spring or counterbalance mechanism you push or pull to raise and lower, requiring no power and generally costing less, while an electric converter uses a motor and push-button control for smoother, more precise height changes at the cost of needing a nearby power outlet and a meaningfully higher price. If you plan to switch between sitting and standing multiple times a day, the effortless one-touch adjustment of an electric lift genuinely reduces the friction that causes people to stop bothering with height changes altogether, while an occasional adjuster may not find that premium worth paying. Check the listing for words like \"electric,\" \"motorized,\" or \"push-button\" versus \"gas spring\" or \"manual\" to confirm which mechanism you're buying, and if electric, confirm an outlet is within reach of where the desk sits."
+  },
+  {
+    "criterion": "Check your desk's depth against the converter's base footprint",
+    "explanation": "A converter's base, the part that actually sits on your desk, is typically deeper front-to-back than the platform surface alone, since it needs room for the lifting mechanism and stability at full height, and larger platforms generally require a proportionally larger base. This matters because a desk that's wide enough for the platform can still be too shallow for the base, leaving the converter's back edge hanging off the desk or blocking a monitor from sitting far enough back to be comfortable to view. Check the listing's stated base or footprint dimensions, not just the platform width, and measure your desk's actual depth (front edge to back edge) before ordering rather than assuming platform width is the only number that matters."
+  },
+  {
+    "criterion": "Weigh review volume against star rating together, not separately",
+    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews. This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time. When comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+  }
 ];
 
 export const faq: FaqItem[] = [

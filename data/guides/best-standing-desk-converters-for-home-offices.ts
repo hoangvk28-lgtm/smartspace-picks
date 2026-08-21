@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     reviews: "15,583",
     imageUrl: "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075JYG2TB?tag=deskfinds0d-20",
-    description: "The largest review base of any converter we researched, a reassuring sign of reliable daily stability for video calls and typing.\n\nA 32 inch platform fits comfortably in most home office setups without dominating the room.",
+    description: "The largest review base of any converter we researched, a reassuring sign of reliable daily stability for video calls and typing.\n\nIt earns the top spot in this comparison over FITUEYES Height Adjustable Standing Desk 32 Inch Wide Sit to Stand Converter for one main reason. Largest review base, strong evidence of reliable daily stability. On price, it comes in below FITUEYES Height Adjustable Standing Desk 32 Inch Wide Sit to Stand Converter, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers who want the most proven converter for daily home office reliability.",
     specs: ["32 inch platform, dual-monitor support"],
     pros: ["Largest review base, strong evidence of reliable daily stability"],
     cons: ["Verify your desk's lowest-height fit before ordering"],
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     reviews: "2,412",
     imageUrl: "https://m.media-amazon.com/images/I/51Z4mzo+NKS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LCCJD6B?tag=deskfinds0d-20",
-    description: "A well-reviewed alternative to the VIVO top pick at a similar price and platform size.\n\nA solid choice for a home office desk that needs the same reliable 32 inch footprint without the largest review pool.",
+    description: "A well-reviewed alternative to the VIVO top pick at a similar price and platform size.\n\nOne spot below VIVO 32 inch Desk Converter in this ranking, it costs more than VIVO 32 inch Desk Converter. The compromise here is straightforward: Smaller review base than the VIVO top pick. What you gain in return: Well-reviewed alternative at a competitive price. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers comparing 32 inch converter options for their home office.",
     specs: ["32 inch platform"],
     pros: ["Well-reviewed alternative at a competitive price"],
     cons: ["Smaller review base than the VIVO top pick"],
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     reviews: "1,347",
     imageUrl: "https://m.media-amazon.com/images/I/415w+aB6IqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VZ4CQG9?tag=deskfinds0d-20",
-    description: "Marketed specifically for quick height transitions, useful for a home office where you might switch positions frequently between calls and focused work.\n\nA solid review base at a similar price to the FITUEYES alternative, worth comparing on the specific quick-adjust mechanism.",
+    description: "Marketed specifically for quick height transitions, useful for a home office where you might switch positions frequently between calls and focused work.\n\nSitting just under FITUEYES Height Adjustable Standing Desk 32 Inch Wide Sit to Stand Converter, it costs more than FITUEYES Height Adjustable Standing Desk 32 Inch Wide Sit to Stand Converter. Here's the honest tradeoff: Smaller review base than the VIVO top pick. And here's what it gets you instead: Marketed specifically for fast position transitions. That's the real difference between the two picks, not just a ranking number.\n\nBuyers who frequently switch between sitting and standing throughout the workday.",
     specs: ["32 inch platform, quick sit-to-stand design"],
     pros: ["Marketed specifically for fast position transitions"],
     cons: ["Smaller review base than the VIVO top pick"],
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     reviews: "987",
     imageUrl: "https://m.media-amazon.com/images/I/415w+aB6IqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CC5LS9F2?tag=deskfinds0d-20",
-    description: "A larger platform option for a home office needing more surface area for dual monitors or a monitor-plus-laptop setup.\n\nCurrent price wasn't confirmed in our data pull; verify directly on the listing before ordering.",
+    description: "A larger platform option for a home office needing more surface area for dual monitors or a monitor-plus-laptop setup.\n\nRanked just behind JYLH JOYSEEKER 32 inch Standing Desk Converter, it's priced lower than JYLH JOYSEEKER 32 inch Standing Desk Converter. The real tradeoff against that pick: Current price not confirmed, verify on listing. In exchange, it offers this instead: Solid review base for a larger home office setup. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nBuyers who need more platform space for a dual-monitor home office setup.",
     specs: ["Larger platform, verify exact size on listing"],
     pros: ["Solid review base for a larger home office setup"],
     cons: ["Current price not confirmed, verify on listing"],
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     reviews: "1,693",
     imageUrl: "https://m.media-amazon.com/images/I/41sW5lDV5eL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07K217DXS?tag=deskfinds0d-20",
-    description: "For a dedicated home office room with a large desk, this platform accommodates a serious multi-monitor productivity setup.\n\nA large desk is required to accommodate the full footprint; verify your home office desk has adequate space.",
+    description: "For a dedicated home office room with a large desk, this platform accommodates a serious multi-monitor productivity setup.\n\nOne spot below VIVO Black 42 in Standing Desk Converter Alternative Listing in this ranking, pricing between it and VIVO Black 42 in Standing Desk Converter Alternative Listing isn't directly comparable here. The compromise here is straightforward: Requires a large desk, not suited to a small home office corner. What you gain in return: Solid review base for a dedicated multi-monitor productivity setup. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers with a dedicated home office room and a large desk who run multiple monitors.",
     specs: ["46 inch platform, triple-monitor mount"],
     pros: ["Solid review base for a dedicated multi-monitor productivity setup"],
     cons: ["Requires a large desk, not suited to a small home office corner"],
@@ -110,12 +110,12 @@ export const products: GuideProduct[] = [
     reviews: "497",
     imageUrl: "https://m.media-amazon.com/images/I/41M1ekKczDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0864RSM5S?tag=deskfinds0d-20",
-    description: "Push-button electric adjustment is genuinely useful for a home office worker with frequent video calls, letting you quietly reposition between meetings without a lever pull that might be visible or audible on camera.\n\nRequires power outlet access at your home office desk; a real convenience upgrade for anyone adjusting position multiple times daily.",
+    description: "Push-button electric adjustment is genuinely useful for a home office worker with frequent video calls, letting you quietly reposition between meetings without a lever pull that might be visible or audible on camera.\n\nSitting just under Rocelco 46 inch Large Height Adjustable Standing Desk Converter, it costs more than Rocelco 46 inch Large Height Adjustable Standing Desk Converter. Here's the honest tradeoff: Requires power outlet access, price premium. And here's what it gets you instead: Quiet, effortless adjustment useful for frequent video calls. That's the real difference between the two picks, not just a ranking number.\n\nBuyers with frequent video calls who want quick, quiet position changes between meetings.",
     specs: ["36 inch platform, electric push-button lift"],
     pros: ["Quiet, effortless adjustment useful for frequent video calls"],
     cons: ["Requires power outlet access, price premium"],
     bestFor: "Buyers with frequent video calls who want quick, quiet position changes between meetings.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -129,29 +129,133 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What Matters Most",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Most proven for daily reliability", "VIVO 32 inch Desk Converter, K Series"],
-        ["Frequent video calls, quiet adjustment", "VERSADESK PowerPro 36 Inch Electric"],
-        ["Dedicated home office, multi-monitor", "Rocelco 46 inch Large Standing Desk Converter"],
-        ["Fast position switching", "JYLH JOYSEEKER 32 inch Standing Desk Converter"],
+    "subheading": "By Platform Size",
+    "table": {
+      "headers": [
+        "Your monitor setup",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Single monitor or laptop, small desk",
+          "JYLH JOYSEEKER 32 inch Standing Desk Converter"
+        ],
+        [
+          "Dual monitors",
+          "VIVO 32 inch Desk Converter"
+        ],
+        [
+          "Triple monitors, need maximum surface area",
+          "Rocelco 46 inch Large Height Adjustable Standing Desk Converter"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Video-Call Stability Matters More Than Marketing Claims",
-    note: "A converter that wobbles when you type or lean toward the camera undermines a home office setup even if it meets your height needs. Prioritize picks with substantial positive review histories, since real buyer feedback over thousands of reviews is a better signal of daily stability than a listing's stability claims alone.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $130",
+          "VIVO 32 inch Desk Converter"
+        ],
+        [
+          "Mid-range",
+          "JYLH JOYSEEKER 32 inch Standing Desk Converter"
+        ],
+        [
+          "No firm budget ceiling, prioritizing lift quality or brand",
+          "VERSADESK PowerPro 36 Inch Electric Standing Desk Converter"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Manual (Gas-Spring) vs Electric Lift",
+    "cards": [
+      {
+        "label": "Manual (Gas-Spring)",
+        "text": "Adjusts with a push or pull handle rather than a motor, needs no power outlet, and typically costs less. In this comparison: VIVO 32 inch Desk Converter, FITUEYES Height Adjustable Standing Desk 32 Inch Wide Sit to Stand Converter, JYLH JOYSEEKER 32 inch Standing Desk Converter."
+      },
+      {
+        "label": "Electric (Motorized)",
+        "text": "Adjusts at the push of a button for smoother, more precise height changes, at a price premium and the need for a nearby outlet. In this comparison: VERSADESK PowerPro 36 Inch Electric Standing Desk Converter."
+      }
+    ],
+    "note": "Most buyers should default to a manual pick like VIVO 32 inch Desk Converter unless you'll adjust height multiple times a day, in which case VERSADESK PowerPro 36 Inch Electric Standing Desk Converter's push-button lift is worth the premium."
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "VIVO 32 inch Desk Converter"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "VIVO 32 inch Desk Converter"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Dual-Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A platform of at least 32 inches with explicit dual-monitor language in the listing, plus a stated weight capacity that comfortably covers two monitors, a keyboard, and a mouse together."
+      },
+      {
+        "label": "In this comparison",
+        "text": "VIVO 32 inch Desk Converter fits this specifically: Largest review base, strong evidence of reliable daily stability."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what VERSADESK PowerPro 36 Inch Electric Standing Desk Converter offers: Quiet, effortless adjustment useful for frequent video calls. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "VIVO 32 inch Desk Converter already covers the essentials: Largest review base, strong evidence of reliable daily stability. The main thing you'd be paying extra for elsewhere in this list is a larger platform or an electric lift."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Prioritize substantial review history as evidence of daily stability", explanation: "A converter that wobbles during video calls undermines the whole setup; large positive review bases are the best available signal of reliable daily performance." },
-  { criterion: "Match platform size to your realistic home office space", explanation: "A 46 inch multi-monitor platform needs a dedicated desk and room; a 32 inch platform fits more flexibly into a smaller home office corner." },
-  { criterion: "Consider electric lift if you have frequent back-to-back video calls", explanation: "Quiet, quick electric adjustment lets you reposition between meetings without a visible or audible manual lever pull." },
-  { criterion: "Plan cable management for the full range of motion", explanation: "Cables need enough slack to handle both seated and standing positions without straining or visibly dangling during calls." },
-  { criterion: "Weigh desk footprint against shared living space if your home office isn't a dedicated room", explanation: "A smaller platform is more practical if your desk shares space with other household activities." },
+  {
+    "criterion": "Measure your existing desk's height before ordering",
+    "explanation": "A standing desk converter sits on top of your current desk and adds its own height on top of that, even at the converter's lowest seated setting, sometimes adding several inches before you've raised anything at all. This matters because if your desk is already at a comfortable seated typing height, most gas-spring and electric converters can push your keyboard and monitor uncomfortably high the moment you set the converter down, forcing you into an awkward seated typing posture even when you never plan to stand. Before ordering, check the listing for the converter's minimum or lowest platform height (not just its maximum standing height), measure your desk's current height, and add the two together to confirm the result still feels comfortable seated."
+  },
+  {
+    "criterion": "Match platform size to your actual number of monitors",
+    "explanation": "Platform size is usually listed in inches of width, and it directly determines how many monitors and how much keyboard and mouse space you'll realistically have once everything is set up. A platform in the mid-20s to high-20s of inches comfortably fits a single monitor or laptop, while dual monitors typically need at least 32 inches and three monitors usually need 42 inches or more with a dedicated multi-monitor mount, since monitors, a keyboard, and a mouse all need to coexist on the same riser surface without overhanging the edge. Check the listing's stated platform width against the combined width of your actual monitors plus keyboard, not just the number of monitors the title claims to support."
+  },
+  {
+    "criterion": "Weigh electric versus manual lift for how often you'll adjust it",
+    "explanation": "A manual converter typically uses a gas-spring or counterbalance mechanism you push or pull to raise and lower, requiring no power and generally costing less, while an electric converter uses a motor and push-button control for smoother, more precise height changes at the cost of needing a nearby power outlet and a meaningfully higher price. If you plan to switch between sitting and standing multiple times a day, the effortless one-touch adjustment of an electric lift genuinely reduces the friction that causes people to stop bothering with height changes altogether, while an occasional adjuster may not find that premium worth paying. Check the listing for words like \"electric,\" \"motorized,\" or \"push-button\" versus \"gas spring\" or \"manual\" to confirm which mechanism you're buying, and if electric, confirm an outlet is within reach of where the desk sits."
+  },
+  {
+    "criterion": "Check your desk's depth against the converter's base footprint",
+    "explanation": "A converter's base, the part that actually sits on your desk, is typically deeper front-to-back than the platform surface alone, since it needs room for the lifting mechanism and stability at full height, and larger platforms generally require a proportionally larger base. This matters because a desk that's wide enough for the platform can still be too shallow for the base, leaving the converter's back edge hanging off the desk or blocking a monitor from sitting far enough back to be comfortable to view. Check the listing's stated base or footprint dimensions, not just the platform width, and measure your desk's actual depth (front edge to back edge) before ordering rather than assuming platform width is the only number that matters."
+  },
+  {
+    "criterion": "Weigh review volume against star rating together, not separately",
+    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews. This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time. When comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     reviews: "330",
     imageUrl: "https://m.media-amazon.com/images/I/41CL16+db2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0747WDDMC?tag=deskfinds0d-20",
-    description: "The highest rating among low-profile-oriented converters we researched, from Mount-It!, a brand focused on ergonomic engineering.\n\nA solid review base for a design specifically engineered to minimize added seated height.",
+    description: "The highest rating among low-profile-oriented converters we researched, from Mount-It!, a brand focused on ergonomic engineering.\n\nIt earns the top spot in this comparison over VIVO Ultra-Slim Single Top Height Adjustable Standing Desk Riser for one main reason. Highest rating among low-profile-focused converters. On price, it's actually priced above VIVO Ultra-Slim Single Top Height Adjustable Standing Desk Riser, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers who want a highly rated converter designed to minimize added seated height.",
     specs: ["32 x 22 inch platform, gas-spring lift"],
     pros: ["Highest rating among low-profile-focused converters"],
     cons: ["Verify exact minimum height against your desk before ordering"],
@@ -46,9 +46,9 @@ export const products: GuideProduct[] = [
     reviews: "1,243",
     imageUrl: "https://m.media-amazon.com/images/I/412VP8wOKyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08GKXXT22?tag=deskfinds0d-20",
-    description: "Explicitly marketed as ultra-slim, a genuinely low-profile single-top design with a strong review base.\n\nA single-top structure means less added base height than a dual-tier converter, directly addressing the low-profile need.",
+    description: "Explicitly marketed as ultra-slim, a genuinely low-profile single-top design with a strong review base.\n\nOne spot below Mount-It! Standing Desk Converter 32 x 22 in this ranking, it's priced lower than Mount-It! Standing Desk Converter 32 x 22. The compromise here is straightforward: Compact platform, limited surface for multiple devices. What you gain in return: Explicitly marketed as ultra-slim. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers who want a genuinely low-profile design with a proven review history.",
     specs: ["Ultra-slim single-top compact design"],
-    pros: ["Explicitly marketed as ultra-slim", "Strong review base"],
+    pros: ["Explicitly marketed as ultra-slim","Strong review base"],
     cons: ["Compact platform, limited surface for multiple devices"],
     bestFor: "Buyers who want a genuinely low-profile design with a proven review history.",
   },
@@ -62,9 +62,9 @@ export const products: GuideProduct[] = [
     reviews: "64",
     imageUrl: "https://m.media-amazon.com/images/I/418VudppzfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1C9LBN5?tag=deskfinds0d-20",
-    description: "Explicitly marketed as extra-slim, the smallest and cheapest option in this comparison, likely adding the least height above your existing desk.\n\nA smaller review base and lower rating than the more established picks, but the most explicitly low-profile design by name.",
+    description: "Explicitly marketed as extra-slim, the smallest and cheapest option in this comparison, likely adding the least height above your existing desk.\n\nSitting just under VIVO Ultra-Slim Single Top Height Adjustable Standing Desk Riser, it's priced lower than VIVO Ultra-Slim Single Top Height Adjustable Standing Desk Riser. Here's the honest tradeoff: Smaller review base and lower rating than the more established picks. And here's what it gets you instead: Explicitly marketed as extra-slim. That's the real difference between the two picks, not just a ranking number.\n\nBudget-focused buyers who want the most explicitly low-profile design.",
     specs: ["24 x 14 inch platform, extra-slim, manual lift"],
-    pros: ["Explicitly marketed as extra-slim", "Lowest price in this comparison"],
+    pros: ["Explicitly marketed as extra-slim","Lowest price in this comparison"],
     cons: ["Smaller review base and lower rating than the more established picks"],
     bestFor: "Budget-focused buyers who want the most explicitly low-profile design.",
   },
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     reviews: "15,583",
     imageUrl: "https://m.media-amazon.com/images/I/41Eh8j3wCSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VMNYMY3?tag=deskfinds0d-20",
-    description: "Not explicitly marketed as slim, but its compact 26 inch size and the massive review base suggest a reasonably low profile for VIVO's standard design line.\n\nVerify the specific minimum seated height against your desk, since this isn't explicitly marketed as low-profile the way the other picks are.",
+    description: "Not explicitly marketed as slim, but its compact 26 inch size and the massive review base suggest a reasonably low profile for VIVO's standard design line.\n\nRanked just behind Aconcept Extra-Slim 24 x 14 inch Black Lift Standing Desk Converter, it costs more than Aconcept Extra-Slim 24 x 14 inch Black Lift Standing Desk Converter. The real tradeoff against that pick: Not explicitly marketed as low-profile, verify minimum height directly. In exchange, it offers this instead: Largest review base of any pick in this comparison. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nBuyers who want the most proven compact converter and will verify minimum height directly.",
     specs: ["26 inch platform, compact"],
     pros: ["Largest review base of any pick in this comparison"],
     cons: ["Not explicitly marketed as low-profile, verify minimum height directly"],
@@ -94,12 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "381",
     imageUrl: "https://m.media-amazon.com/images/I/41Eh8j3wCSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0765BQ7RN?tag=deskfinds0d-20",
-    description: "A compact design from Mount-It!, an ergonomic-focused brand likely to have considered low-profile fit in its engineering.\n\nCurrent price was not confirmed at research time; verify directly on the listing.",
+    description: "A compact design from Mount-It!, an ergonomic-focused brand likely to have considered low-profile fit in its engineering.\n\nOne spot below VIVO Black 26 in Standing Desk Converter in this ranking, it's priced lower than VIVO Black 26 in Standing Desk Converter. The compromise here is straightforward: Current price not confirmed, verify on listing. What you gain in return: From a brand specifically focused on ergonomic mounting products. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers who want a compact, ergonomic-focused low-profile converter.",
     specs: ["Compact platform, gas-spring lift"],
     pros: ["From a brand specifically focused on ergonomic mounting products"],
     cons: ["Current price not confirmed, verify on listing"],
     bestFor: "Buyers who want a compact, ergonomic-focused low-profile converter.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -113,29 +113,133 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What Matters Most",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Highest rated, ergonomic-focused", "Mount-It! Standing Desk Converter 32 x 22"],
-        ["Explicitly ultra-slim, proven", "VIVO Ultra-Slim Single Top Standing Desk Riser"],
-        ["Cheapest, most explicitly slim", "Aconcept Extra-Slim 24 x 14 inch Standing Desk Converter"],
-        ["Most proven overall (verify height)", "VIVO Black 26 in Standing Desk Converter"],
+    "subheading": "By Platform Size",
+    "table": {
+      "headers": [
+        "Your monitor setup",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Single monitor or laptop, small desk",
+          "Mount-It! Standing Desk Converter 32 x 22"
+        ],
+        [
+          "Dual monitors",
+          "Mount-It! Standing Desk Converter 32 x 22"
+        ],
+        [
+          "Triple monitors, need maximum surface area",
+          "VIVO Black 26 in Standing Desk Converter"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Measure Your Desk's Current Seated Keyboard Height First",
-    note: "Before comparing converters, measure how high your keyboard currently sits when you're comfortably seated. Then check each converter's stated minimum platform height and add it to your desk's surface height. If this total significantly exceeds your current comfortable typing height, even a \"low-profile\" converter may feel too tall.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $50",
+          "Aconcept Extra-Slim 24 x 14 inch Black Lift Standing Desk Converter"
+        ],
+        [
+          "Mid-range",
+          "VIVO Black 26 in Standing Desk Converter"
+        ],
+        [
+          "No firm budget ceiling, prioritizing lift quality or brand",
+          "Mount-It! Standing Desk Converter 32 x 22"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Manual (Gas-Spring) vs Electric Lift",
+    "cards": [
+      {
+        "label": "Manual (Gas-Spring)",
+        "text": "Adjusts with a push or pull handle rather than a motor, needs no power outlet, and typically costs less. In this comparison: Mount-It! Standing Desk Converter 32 x 22, VIVO Ultra-Slim Single Top Height Adjustable Standing Desk Riser, Aconcept Extra-Slim 24 x 14 inch Black Lift Standing Desk Converter."
+      },
+      {
+        "label": "Electric (Motorized)",
+        "text": "Adjusts at the push of a button for smoother, more precise height changes, at a price premium and the need for a nearby outlet. In this comparison: none in this specific roundup, since most picks here use a manual lift."
+      }
+    ],
+    "note": "Every pick in this specific comparison uses a manual lift; check our broader converter roundup if you specifically want an electric option."
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "Mount-It! Standing Desk Converter 32 x 22"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "VIVO Black 26 in Standing Desk Converter"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Dual-Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A platform of at least 32 inches with explicit dual-monitor language in the listing, plus a stated weight capacity that comfortably covers two monitors, a keyboard, and a mouse together."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Mount-It! Standing Desk Converter 32 x 22 fits this specifically: Highest rating among low-profile-focused converters."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Mount-It! Standing Desk Converter 32 x 22 offers: Highest rating among low-profile-focused converters. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Aconcept Extra-Slim 24 x 14 inch Black Lift Standing Desk Converter already covers the essentials: Explicitly marketed as extra-slim. The main thing you'd be paying extra for elsewhere in this list is a larger platform or an electric lift."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Measure your desk's current comfortable seated keyboard height first", explanation: "This is your baseline; compare it against the converter's minimum platform height plus your desk's surface height to see the actual increase." },
-  { criterion: "Prioritize single-top designs over dual-tier for the lowest added height", explanation: "Single-top structures generally have less base hardware than dual-tier converters, resulting in a lower minimum profile." },
-  { criterion: "Look for explicit \"slim\" or \"low-profile\" marketing language as a genuine signal", explanation: "Products specifically engineered for this need typically state it directly, unlike general-purpose converters that weren't designed with minimum height as a priority." },
-  { criterion: "Verify minimum height directly for picks not explicitly marketed as low-profile", explanation: "A compact converter isn't automatically low-profile; check the specific stated minimum platform height before assuming it fits your existing desk comfortably." },
-  { criterion: "Weigh review volume against explicitly low-profile marketing claims", explanation: "The most-reviewed option isn't necessarily the lowest profile; balance proven reliability against the specific height need." },
+  {
+    "criterion": "Measure your existing desk's height before ordering",
+    "explanation": "A standing desk converter sits on top of your current desk and adds its own height on top of that, even at the converter's lowest seated setting, sometimes adding several inches before you've raised anything at all. This matters because if your desk is already at a comfortable seated typing height, most gas-spring and electric converters can push your keyboard and monitor uncomfortably high the moment you set the converter down, forcing you into an awkward seated typing posture even when you never plan to stand. Before ordering, check the listing for the converter's minimum or lowest platform height (not just its maximum standing height), measure your desk's current height, and add the two together to confirm the result still feels comfortable seated."
+  },
+  {
+    "criterion": "Match platform size to your actual number of monitors",
+    "explanation": "Platform size is usually listed in inches of width, and it directly determines how many monitors and how much keyboard and mouse space you'll realistically have once everything is set up. A platform in the mid-20s to high-20s of inches comfortably fits a single monitor or laptop, while dual monitors typically need at least 32 inches and three monitors usually need 42 inches or more with a dedicated multi-monitor mount, since monitors, a keyboard, and a mouse all need to coexist on the same riser surface without overhanging the edge. Check the listing's stated platform width against the combined width of your actual monitors plus keyboard, not just the number of monitors the title claims to support."
+  },
+  {
+    "criterion": "Weigh electric versus manual lift for how often you'll adjust it",
+    "explanation": "A manual converter typically uses a gas-spring or counterbalance mechanism you push or pull to raise and lower, requiring no power and generally costing less, while an electric converter uses a motor and push-button control for smoother, more precise height changes at the cost of needing a nearby power outlet and a meaningfully higher price. If you plan to switch between sitting and standing multiple times a day, the effortless one-touch adjustment of an electric lift genuinely reduces the friction that causes people to stop bothering with height changes altogether, while an occasional adjuster may not find that premium worth paying. Check the listing for words like \"electric,\" \"motorized,\" or \"push-button\" versus \"gas spring\" or \"manual\" to confirm which mechanism you're buying, and if electric, confirm an outlet is within reach of where the desk sits."
+  },
+  {
+    "criterion": "Check your desk's depth against the converter's base footprint",
+    "explanation": "A converter's base, the part that actually sits on your desk, is typically deeper front-to-back than the platform surface alone, since it needs room for the lifting mechanism and stability at full height, and larger platforms generally require a proportionally larger base. This matters because a desk that's wide enough for the platform can still be too shallow for the base, leaving the converter's back edge hanging off the desk or blocking a monitor from sitting far enough back to be comfortable to view. Check the listing's stated base or footprint dimensions, not just the platform width, and measure your desk's actual depth (front edge to back edge) before ordering rather than assuming platform width is the only number that matters."
+  },
+  {
+    "criterion": "Weigh review volume against star rating together, not separately",
+    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews. This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time. When comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+  }
 ];
 
 export const faq: FaqItem[] = [

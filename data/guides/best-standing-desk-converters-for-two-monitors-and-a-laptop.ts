@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     reviews: "1,418",
     imageUrl: "https://m.media-amazon.com/images/I/41oOz8w2OYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00UVHTGJ8?tag=deskfinds0d-20",
-    description: "A wide 48 inch platform with the strongest review base among premium options, genuinely wide enough for two monitor bases plus an open laptop and keyboard.\n\nThe highest price in this comparison; the 48 inch width is what makes a genuine three-device setup realistic without cramping.",
+    description: "A wide 48 inch platform with the strongest review base among premium options, genuinely wide enough for two monitor bases plus an open laptop and keyboard.\n\nIt earns the top spot in this comparison over Rocelco 46 inch Large Height Adjustable Standing Desk Converter for one main reason. Strong review base at the width needed for three devices. On price, it's actually priced above Rocelco 46 inch Large Height Adjustable Standing Desk Converter, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers who want the most proven wide platform for two monitors plus a laptop.",
     specs: ["48 inch platform"],
     pros: ["Strong review base at the width needed for three devices"],
     cons: ["Highest price in this comparison"],
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     reviews: "1,693",
     imageUrl: "https://m.media-amazon.com/images/I/41sW5lDV5eL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07K217DXS?tag=deskfinds0d-20",
-    description: "A very large 46 inch platform built for triple-monitor mounting, adaptable to a two-monitor plus laptop setup with room to spare.\n\nDesigned for three monitors but flexible enough to swap one mount position for a laptop instead.",
+    description: "A very large 46 inch platform built for triple-monitor mounting, adaptable to a two-monitor plus laptop setup with room to spare.\n\nOne spot below Vari VariDesk Pro Plus 48 in this ranking, it's priced lower than Vari VariDesk Pro Plus 48. The compromise here is straightforward: Requires a large desk to accommodate the full footprint. What you gain in return: Very large platform with room to spare for three devices. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers who want maximum surface area with room to spare for two monitors and a laptop.",
     specs: ["46 inch platform, triple-monitor mount"],
     pros: ["Very large platform with room to spare for three devices"],
     cons: ["Requires a large desk to accommodate the full footprint"],
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     reviews: "10,111",
     imageUrl: "https://m.media-amazon.com/images/I/41i7KiJ9rwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07H9DM38X?tag=deskfinds0d-20",
-    description: "A large 42 inch platform with a substantial review base, wide enough for two monitor bases and a laptop with careful arrangement.\n\nA lower price than the largest alternatives while still offering meaningful width for a three-device setup.",
+    description: "A large 42 inch platform with a substantial review base, wide enough for two monitor bases and a laptop with careful arrangement.\n\nSitting just under Rocelco 46 inch Large Height Adjustable Standing Desk Converter, it's priced lower than Rocelco 46 inch Large Height Adjustable Standing Desk Converter. Here's the honest tradeoff: Tighter arrangement than the 46-48 inch options. And here's what it gets you instead: Substantial review base at a lower price than the widest alternatives. That's the real difference between the two picks, not just a ranking number.\n\nBuyers who want a proven wide platform without paying for the absolute largest size.",
     specs: ["42 inch platform"],
     pros: ["Substantial review base at a lower price than the widest alternatives"],
     cons: ["Tighter arrangement than the 46-48 inch options"],
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     reviews: "497",
     imageUrl: "https://m.media-amazon.com/images/I/41jeNZ2uiSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08KFPDGX1?tag=deskfinds0d-20",
-    description: "A wide 40 inch electric platform, useful given the meaningful combined weight of two monitors and a laptop.\n\nElectric lift handles this heavier three-device load more predictably than a manual gas-spring mechanism.",
+    description: "A wide 40 inch electric platform, useful given the meaningful combined weight of two monitors and a laptop.\n\nRanked just behind VIVO Black 42 in Standing Desk Converter, it costs more than VIVO Black 42 in Standing Desk Converter. The real tradeoff against that pick: Requires power outlet access, price premium. In exchange, it offers this instead: Electric lift handles the heavier three-device combined weight well. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nBuyers who want electric adjustment for a heavier three-device combined load.",
     specs: ["40 inch platform, electric push-button lift"],
     pros: ["Electric lift handles the heavier three-device combined weight well"],
     cons: ["Requires power outlet access, price premium"],
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     reviews: "1,872",
     imageUrl: "https://m.media-amazon.com/images/I/41cvTPf-cXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08RHKKX6K?tag=deskfinds0d-20",
-    description: "By mounting both monitors on independent arms rather than open platform space, this frees the full 32 inch surface for a laptop and keyboard.\n\nAn integrated mount approach that solves the space problem differently, mounting monitors overhead to preserve desk surface for the laptop.",
+    description: "By mounting both monitors on independent arms rather than open platform space, this frees the full 32 inch surface for a laptop and keyboard.\n\nOne spot below VERSADESK PowerPro 40 Inch Electric Standing Desk Converter in this ranking, it's priced lower than VERSADESK PowerPro 40 Inch Electric Standing Desk Converter. The compromise here is straightforward: Rated monitor size range caps at 30 inches. What you gain in return: Integrated mount frees the full platform surface for a laptop and keyboard. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers who want to mount both monitors overhead, freeing platform space entirely for the laptop.",
     specs: ["32 inch platform, integrated dual 13-30 inch monitor stand"],
     pros: ["Integrated mount frees the full platform surface for a laptop and keyboard"],
     cons: ["Rated monitor size range caps at 30 inches"],
@@ -110,12 +110,12 @@ export const products: GuideProduct[] = [
     reviews: "298",
     imageUrl: "https://m.media-amazon.com/images/I/41K6Ey3-RSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5SC49BN?tag=deskfinds0d-20",
-    description: "Combines an integrated dual-monitor arm with electric lift and an extra-large platform, freeing surface space for the laptop while offering effortless adjustment.\n\nThe highest price in this comparison, but the only pick combining integrated monitor mounts, electric lift, and an extra-large platform together.",
+    description: "Combines an integrated dual-monitor arm with electric lift and an extra-large platform, freeing surface space for the laptop while offering effortless adjustment.\n\nSitting just under VIVO Height Adjustable 32 inch Standing Desk Converter with Dual 13-30 Inch Monitor Stand, it costs more than VIVO Height Adjustable 32 inch Standing Desk Converter with Dual 13-30 Inch Monitor Stand. Here's the honest tradeoff: Highest price in this comparison. And here's what it gets you instead: Combines integrated monitor mounts, electric lift, and extra-large platform. That's the real difference between the two picks, not just a ranking number.\n\nBuyers who want the most complete feature combination and are willing to pay for it.",
     specs: ["X-Large platform, integrated dual monitor arm, electric lift"],
     pros: ["Combines integrated monitor mounts, electric lift, and extra-large platform"],
     cons: ["Highest price in this comparison"],
     bestFor: "Buyers who want the most complete feature combination and are willing to pay for it.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -129,29 +129,133 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What Matters Most",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Most proven wide platform", "Vari VariDesk Pro Plus 48"],
-        ["Maximum space, budget-friendly", "Rocelco 46 inch Large Standing Desk Converter"],
-        ["Free up surface via integrated mount", "VIVO Height Adjustable 32 inch with Dual Monitor Stand"],
-        ["All features combined, premium", "Mount-It! Electric Standing Desk Converter with Dual Monitor Arm"],
+    "subheading": "By Platform Size",
+    "table": {
+      "headers": [
+        "Your monitor setup",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Single monitor or laptop, small desk",
+          "VIVO Height Adjustable 32 inch Standing Desk Converter with Dual 13-30 Inch Monitor Stand"
+        ],
+        [
+          "Dual monitors",
+          "Mount-It! Electric Standing Desk Converter with Dual Monitor Arm"
+        ],
+        [
+          "Triple monitors, need maximum surface area",
+          "Rocelco 46 inch Large Height Adjustable Standing Desk Converter"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Two Approaches to Fitting Three Devices",
-    note: "You can solve the three-device space problem with either a wide open platform (48 inches or more) that fits everything side by side, or an integrated dual-monitor mount that lifts the monitors overhead and frees the platform surface entirely for the laptop and keyboard. The mount approach works on a smaller platform but requires VESA-compatible monitors.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $240",
+          "VIVO Height Adjustable 32 inch Standing Desk Converter with Dual 13-30 Inch Monitor Stand"
+        ],
+        [
+          "Mid-range",
+          "VERSADESK PowerPro 40 Inch Electric Standing Desk Converter"
+        ],
+        [
+          "No firm budget ceiling, prioritizing lift quality or brand",
+          "Vari VariDesk Pro Plus 48"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Manual (Gas-Spring) vs Electric Lift",
+    "cards": [
+      {
+        "label": "Manual (Gas-Spring)",
+        "text": "Adjusts with a push or pull handle rather than a motor, needs no power outlet, and typically costs less. In this comparison: Vari VariDesk Pro Plus 48, Rocelco 46 inch Large Height Adjustable Standing Desk Converter, VIVO Black 42 in Standing Desk Converter."
+      },
+      {
+        "label": "Electric (Motorized)",
+        "text": "Adjusts at the push of a button for smoother, more precise height changes, at a price premium and the need for a nearby outlet. In this comparison: VERSADESK PowerPro 40 Inch Electric Standing Desk Converter, Mount-It! Electric Standing Desk Converter with Dual Monitor Arm."
+      }
+    ],
+    "note": "Most buyers should default to a manual pick like VIVO Height Adjustable 32 inch Standing Desk Converter with Dual 13-30 Inch Monitor Stand unless you'll adjust height multiple times a day, in which case VERSADESK PowerPro 40 Inch Electric Standing Desk Converter's push-button lift is worth the premium."
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "Vari VariDesk Pro Plus 48"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "VIVO Black 42 in Standing Desk Converter"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Dual-Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A platform of at least 32 inches with explicit dual-monitor language in the listing, plus a stated weight capacity that comfortably covers two monitors, a keyboard, and a mouse together."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Mount-It! Electric Standing Desk Converter with Dual Monitor Arm fits this specifically: Combines integrated monitor mounts, electric lift, and extra-large platform."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Vari VariDesk Pro Plus 48 offers: Strong review base at the width needed for three devices. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "VIVO Height Adjustable 32 inch Standing Desk Converter with Dual 13-30 Inch Monitor Stand already covers the essentials: Integrated mount frees the full platform surface for a laptop and keyboard. The main thing you'd be paying extra for elsewhere in this list is a larger platform or an electric lift."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Decide between a wide open platform and an integrated monitor mount approach", explanation: "A wide platform (46-48 inches) fits everything side by side; an integrated mount frees surface space on a smaller platform but requires VESA-compatible monitors." },
-  { criterion: "Measure your specific monitor and laptop combined footprint", explanation: "Two monitor bases plus an open laptop takes real measuring to confirm fit; don't assume any dual-monitor-rated converter automatically accommodates a third device." },
-  { criterion: "Weigh electric lift for the heavier three-device combined weight", explanation: "Two monitors plus a laptop add significant load; electric adjustment handles this more predictably than manual gas-spring mechanisms." },
-  { criterion: "Verify VESA compatibility if choosing an integrated-mount solution", explanation: "Mounting monitors overhead to free platform space requires VESA-compatible displays within the stated size range." },
-  { criterion: "Compare the price premium for combining multiple features", explanation: "The most feature-complete pick (integrated mount, electric lift, extra-large platform) costs significantly more; decide which specific features matter most to you." },
+  {
+    "criterion": "Measure your existing desk's height before ordering",
+    "explanation": "A standing desk converter sits on top of your current desk and adds its own height on top of that, even at the converter's lowest seated setting, sometimes adding several inches before you've raised anything at all. This matters because if your desk is already at a comfortable seated typing height, most gas-spring and electric converters can push your keyboard and monitor uncomfortably high the moment you set the converter down, forcing you into an awkward seated typing posture even when you never plan to stand. Before ordering, check the listing for the converter's minimum or lowest platform height (not just its maximum standing height), measure your desk's current height, and add the two together to confirm the result still feels comfortable seated."
+  },
+  {
+    "criterion": "Match platform size to your actual number of monitors",
+    "explanation": "Platform size is usually listed in inches of width, and it directly determines how many monitors and how much keyboard and mouse space you'll realistically have once everything is set up. A platform in the mid-20s to high-20s of inches comfortably fits a single monitor or laptop, while dual monitors typically need at least 32 inches and three monitors usually need 42 inches or more with a dedicated multi-monitor mount, since monitors, a keyboard, and a mouse all need to coexist on the same riser surface without overhanging the edge. Check the listing's stated platform width against the combined width of your actual monitors plus keyboard, not just the number of monitors the title claims to support."
+  },
+  {
+    "criterion": "Weigh electric versus manual lift for how often you'll adjust it",
+    "explanation": "A manual converter typically uses a gas-spring or counterbalance mechanism you push or pull to raise and lower, requiring no power and generally costing less, while an electric converter uses a motor and push-button control for smoother, more precise height changes at the cost of needing a nearby power outlet and a meaningfully higher price. If you plan to switch between sitting and standing multiple times a day, the effortless one-touch adjustment of an electric lift genuinely reduces the friction that causes people to stop bothering with height changes altogether, while an occasional adjuster may not find that premium worth paying. Check the listing for words like \"electric,\" \"motorized,\" or \"push-button\" versus \"gas spring\" or \"manual\" to confirm which mechanism you're buying, and if electric, confirm an outlet is within reach of where the desk sits."
+  },
+  {
+    "criterion": "Check your desk's depth against the converter's base footprint",
+    "explanation": "A converter's base, the part that actually sits on your desk, is typically deeper front-to-back than the platform surface alone, since it needs room for the lifting mechanism and stability at full height, and larger platforms generally require a proportionally larger base. This matters because a desk that's wide enough for the platform can still be too shallow for the base, leaving the converter's back edge hanging off the desk or blocking a monitor from sitting far enough back to be comfortable to view. Check the listing's stated base or footprint dimensions, not just the platform width, and measure your desk's actual depth (front edge to back edge) before ordering rather than assuming platform width is the only number that matters."
+  },
+  {
+    "criterion": "Weigh review volume against star rating together, not separately",
+    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews. This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time. When comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+  }
 ];
 
 export const faq: FaqItem[] = [

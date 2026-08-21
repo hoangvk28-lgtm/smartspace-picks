@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     reviews: "15,583",
     imageUrl: "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075JYG2TB?tag=deskfinds0d-20",
-    description: "VIVO's K Series design includes a lower keyboard tier below the main monitor platform, the largest review base of any converter with this two-tier structure.\n\nVerify the specific tray depth and vertical offset accommodate your keyboard and mouse comfortably.",
+    description: "VIVO's K Series design includes a lower keyboard tier below the main monitor platform, the largest review base of any converter with this two-tier structure.\n\nIt earns the top spot in this comparison over FITUEYES Height Adjustable Standing Desk 36 Inch Wide Sit to Stand Converter for one main reason. Largest review base of any two-tier converter in our research. On price, it comes in below FITUEYES Height Adjustable Standing Desk 36 Inch Wide Sit to Stand Converter, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers who want the most proven dual-tier design with a genuine keyboard tray.",
     specs: ["32 inch platform, dual-tier with keyboard tray"],
     pros: ["Largest review base of any two-tier converter in our research"],
     cons: ["Verify tray depth fits your specific keyboard and mouse combination"],
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     reviews: "2,550",
     imageUrl: "https://m.media-amazon.com/images/I/51sPBSqTYXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LCCT6VS?tag=deskfinds0d-20",
-    description: "A wider 36 inch two-tier design giving more room on both the monitor platform and keyboard tray levels.\n\nA strong review base at a slightly higher price than the VIVO top pick, worth it for the additional tray width.",
+    description: "A wider 36 inch two-tier design giving more room on both the monitor platform and keyboard tray levels.\n\nOne spot below VIVO 32 inch Desk Converter in this ranking, it costs more than VIVO 32 inch Desk Converter. The compromise here is straightforward: Higher price than the VIVO 32 inch top pick. What you gain in return: Strong review base with a wider keyboard tray. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers who want more keyboard tray width than the standard 32 inch tier offers.",
     specs: ["36 inch platform, dual-tier with keyboard tray"],
     pros: ["Strong review base with a wider keyboard tray"],
     cons: ["Higher price than the VIVO 32 inch top pick"],
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     reviews: "15,583",
     imageUrl: "https://m.media-amazon.com/images/I/41mkQi1Vv9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09XVQ9YJN?tag=deskfinds0d-20",
-    description: "A larger 42 inch version of VIVO's proven two-tier design, sharing the same massive review pool for buyers who need more surface at both levels.\n\nA reasonable price for the largest confirmed two-tier design with a genuine keyboard tray.",
+    description: "A larger 42 inch version of VIVO's proven two-tier design, sharing the same massive review pool for buyers who need more surface at both levels.\n\nSitting just under FITUEYES Height Adjustable Standing Desk 36 Inch Wide Sit to Stand Converter, it costs more than FITUEYES Height Adjustable Standing Desk 36 Inch Wide Sit to Stand Converter. Here's the honest tradeoff: Requires a larger desk footprint than the 32 inch tier. And here's what it gets you instead: Massive review base at the largest confirmed two-tier size. That's the real difference between the two picks, not just a ranking number.\n\nBuyers who need a large monitor platform alongside a wide keyboard tray.",
     specs: ["42 inch platform, dual-tier with keyboard tray"],
     pros: ["Massive review base at the largest confirmed two-tier size"],
     cons: ["Requires a larger desk footprint than the 32 inch tier"],
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     reviews: "2,412",
     imageUrl: "https://m.media-amazon.com/images/I/51Z4mzo+NKS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LCCJD6B?tag=deskfinds0d-20",
-    description: "A well-reviewed two-tier alternative at the 32 inch size, worth comparing directly against the VIVO top pick.\n\nA solid review base for buyers who want to compare beyond the single most-reviewed two-tier option.",
+    description: "A well-reviewed two-tier alternative at the 32 inch size, worth comparing directly against the VIVO top pick.\n\nRanked just behind VIVO Black 42 in Standing Desk Converter, it's priced lower than VIVO Black 42 in Standing Desk Converter. The real tradeoff against that pick: Smaller review base than the VIVO top pick. In exchange, it offers this instead: Well-reviewed alternative at a competitive price. That's the swap that decides whether this pick or the one above it is the better fit for your desk.\n\nBuyers comparing 32 inch two-tier converters beyond the most-reviewed pick.",
     specs: ["32 inch platform, dual-tier with keyboard tray"],
     pros: ["Well-reviewed alternative at a competitive price"],
     cons: ["Smaller review base than the VIVO top pick"],
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     reviews: "1,279",
     imageUrl: "https://m.media-amazon.com/images/I/411LiqBlrgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DTR12D3V?tag=deskfinds0d-20",
-    description: "The only pick in this comparison with an explicitly retractable, slide-out keyboard tray rather than a fixed lower tier.\n\nA solid review base for this genuinely different tray mechanism, useful if you want to slide the tray away entirely for standing-only use.",
+    description: "The only pick in this comparison with an explicitly retractable, slide-out keyboard tray rather than a fixed lower tier.\n\nOne spot below FITUEYES Height Adjustable Standing Desk 32 Inch Wide Sit to Stand Converter in this ranking, it costs more than FITUEYES Height Adjustable Standing Desk 32 Inch Wide Sit to Stand Converter. The compromise here is straightforward: Higher price than the fixed dual-tier alternatives. What you gain in return: Only pick with a genuinely retractable, slide-out keyboard tray. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers who specifically want a keyboard tray they can slide away entirely.",
     specs: ["45 inch platform, slide-out retractable keyboard tray"],
     pros: ["Only pick with a genuinely retractable, slide-out keyboard tray"],
     cons: ["Higher price than the fixed dual-tier alternatives"],
@@ -110,12 +110,12 @@ export const products: GuideProduct[] = [
     reviews: "214",
     imageUrl: "https://m.media-amazon.com/images/I/4145NueHmqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2H3NH6W?tag=deskfinds0d-20",
-    description: "Combines a two-tier keyboard tray design with electric lift, useful for buyers who want both independent keyboard positioning and effortless height adjustment.\n\nA meaningful price premium over the manual dual-tier alternatives, but a genuine combination of features.",
+    description: "Combines a two-tier keyboard tray design with electric lift, useful for buyers who want both independent keyboard positioning and effortless height adjustment.\n\nSitting just under Rocelco 45 inch Height Adjustable Standing Desk Converter, it's priced lower than Rocelco 45 inch Height Adjustable Standing Desk Converter. Here's the honest tradeoff: Requires power outlet access, price premium over manual alternatives. And here's what it gets you instead: Combines dual-tier keyboard tray with electric adjustment. That's the real difference between the two picks, not just a ranking number.\n\nBuyers who want both a genuine keyboard tray and electric lift together.",
     specs: ["40 inch platform, dual-tier with keyboard tray, electric lift"],
     pros: ["Combines dual-tier keyboard tray with electric adjustment"],
     cons: ["Requires power outlet access, price premium over manual alternatives"],
     bestFor: "Buyers who want both a genuine keyboard tray and electric lift together.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -129,29 +129,133 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What Matters Most",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Most proven dual-tier design", "VIVO 32 inch Desk Converter, K Series"],
-        ["Larger platform, same proven design", "VIVO Black 42 in Standing Desk Converter"],
-        ["Retractable tray for standing-only use", "Rocelco 45 inch Standing Desk Converter, Slide Out Tray"],
-        ["Electric lift plus keyboard tray", "FLEXISPOT 40 Inch Electric Standing Desk Converter"],
+    "subheading": "By Platform Size",
+    "table": {
+      "headers": [
+        "Your monitor setup",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Single monitor or laptop, small desk",
+          "FITUEYES Height Adjustable Standing Desk 32 Inch Wide Sit to Stand Converter"
+        ],
+        [
+          "Dual monitors",
+          "VIVO 32 inch Desk Converter"
+        ],
+        [
+          "Triple monitors, need maximum surface area",
+          "VIVO Black 42 in Standing Desk Converter"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Two-Tier Doesn't Mean Independently Adjustable Height",
-    note: "Even with a genuine keyboard tray, most converters here still raise the tray and monitor platform together on the same lift mechanism, they don't offer separate height controls for each tier. The benefit is the fixed offset between tray and platform, not independent adjustment. If you specifically need independent height control for each tier, verify this explicitly before ordering.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $140",
+          "VIVO 32 inch Desk Converter"
+        ],
+        [
+          "Mid-range",
+          "VIVO Black 42 in Standing Desk Converter"
+        ],
+        [
+          "No firm budget ceiling, prioritizing lift quality or brand",
+          "Rocelco 45 inch Height Adjustable Standing Desk Converter"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Manual (Gas-Spring) vs Electric Lift",
+    "cards": [
+      {
+        "label": "Manual (Gas-Spring)",
+        "text": "Adjusts with a push or pull handle rather than a motor, needs no power outlet, and typically costs less. In this comparison: VIVO 32 inch Desk Converter, FITUEYES Height Adjustable Standing Desk 36 Inch Wide Sit to Stand Converter, VIVO Black 42 in Standing Desk Converter."
+      },
+      {
+        "label": "Electric (Motorized)",
+        "text": "Adjusts at the push of a button for smoother, more precise height changes, at a price premium and the need for a nearby outlet. In this comparison: FLEXISPOT 40 Inch Electric Standing Desk Converter."
+      }
+    ],
+    "note": "Most buyers should default to a manual pick like VIVO 32 inch Desk Converter unless you'll adjust height multiple times a day, in which case FLEXISPOT 40 Inch Electric Standing Desk Converter's push-button lift is worth the premium."
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "VIVO 32 inch Desk Converter"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "VIVO 32 inch Desk Converter"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Dual-Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A platform of at least 32 inches with explicit dual-monitor language in the listing, plus a stated weight capacity that comfortably covers two monitors, a keyboard, and a mouse together."
+      },
+      {
+        "label": "In this comparison",
+        "text": "VIVO 32 inch Desk Converter fits this specifically: Largest review base of any two-tier converter in our research."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Rocelco 45 inch Height Adjustable Standing Desk Converter offers: Only pick with a genuinely retractable, slide-out keyboard tray. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "VIVO 32 inch Desk Converter already covers the essentials: Largest review base of any two-tier converter in our research. The main thing you'd be paying extra for elsewhere in this list is a larger platform or an electric lift."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm the listing describes a genuine separate tier, not just a lip or edge", explanation: "Some single-platform converters use marketing language that implies a keyboard tray without actually offering a separate level." },
-  { criterion: "Check tray depth against your specific keyboard and mouse combination", explanation: "A narrow tray can feel cramped with a full-size keyboard and mouse together; verify the stated tray depth." },
-  { criterion: "Consider a retractable tray if you sometimes want a completely clear platform", explanation: "The Rocelco slide-out design lets you remove the tray from view entirely, unlike a fixed lower tier." },
-  { criterion: "Understand that most two-tier designs move together, not independently", explanation: "The tray and monitor platform typically share the same lift mechanism; verify explicitly if you need truly independent height control." },
-  { criterion: "Weigh electric lift if you want both a keyboard tray and effortless adjustment", explanation: "Only one pick in this comparison combines both features, at a real price premium over manual alternatives." },
+  {
+    "criterion": "Measure your existing desk's height before ordering",
+    "explanation": "A standing desk converter sits on top of your current desk and adds its own height on top of that, even at the converter's lowest seated setting, sometimes adding several inches before you've raised anything at all. This matters because if your desk is already at a comfortable seated typing height, most gas-spring and electric converters can push your keyboard and monitor uncomfortably high the moment you set the converter down, forcing you into an awkward seated typing posture even when you never plan to stand. Before ordering, check the listing for the converter's minimum or lowest platform height (not just its maximum standing height), measure your desk's current height, and add the two together to confirm the result still feels comfortable seated."
+  },
+  {
+    "criterion": "Match platform size to your actual number of monitors",
+    "explanation": "Platform size is usually listed in inches of width, and it directly determines how many monitors and how much keyboard and mouse space you'll realistically have once everything is set up. A platform in the mid-20s to high-20s of inches comfortably fits a single monitor or laptop, while dual monitors typically need at least 32 inches and three monitors usually need 42 inches or more with a dedicated multi-monitor mount, since monitors, a keyboard, and a mouse all need to coexist on the same riser surface without overhanging the edge. Check the listing's stated platform width against the combined width of your actual monitors plus keyboard, not just the number of monitors the title claims to support."
+  },
+  {
+    "criterion": "Weigh electric versus manual lift for how often you'll adjust it",
+    "explanation": "A manual converter typically uses a gas-spring or counterbalance mechanism you push or pull to raise and lower, requiring no power and generally costing less, while an electric converter uses a motor and push-button control for smoother, more precise height changes at the cost of needing a nearby power outlet and a meaningfully higher price. If you plan to switch between sitting and standing multiple times a day, the effortless one-touch adjustment of an electric lift genuinely reduces the friction that causes people to stop bothering with height changes altogether, while an occasional adjuster may not find that premium worth paying. Check the listing for words like \"electric,\" \"motorized,\" or \"push-button\" versus \"gas spring\" or \"manual\" to confirm which mechanism you're buying, and if electric, confirm an outlet is within reach of where the desk sits."
+  },
+  {
+    "criterion": "Check your desk's depth against the converter's base footprint",
+    "explanation": "A converter's base, the part that actually sits on your desk, is typically deeper front-to-back than the platform surface alone, since it needs room for the lifting mechanism and stability at full height, and larger platforms generally require a proportionally larger base. This matters because a desk that's wide enough for the platform can still be too shallow for the base, leaving the converter's back edge hanging off the desk or blocking a monitor from sitting far enough back to be comfortable to view. Check the listing's stated base or footprint dimensions, not just the platform width, and measure your desk's actual depth (front edge to back edge) before ordering rather than assuming platform width is the only number that matters."
+  },
+  {
+    "criterion": "Weigh review volume against star rating together, not separately",
+    "explanation": "A star rating on its own only tells you the average sentiment, while the review count tells you how much data that average is actually built on, and a converter with a 4.8 rating from a few hundred reviews carries meaningfully less statistical confidence than one with a 4.6 rating built on tens of thousands of reviews. This is a genuine buying trap: a newer or less popular converter can post a higher headline rating simply by chance or by early-adopter bias before enough reviews accumulate to reveal real long-term issues, while an older, heavily-reviewed model's slightly lower average often reflects a more complete picture of durability over time. When comparing two similarly priced converters, check both numbers side by side in the listing rather than sorting by star rating alone."
+  }
 ];
 
 export const faq: FaqItem[] = [
