@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41HgpVRGRnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B002NU5O9C?tag=deskfinds0d-20",
-    description:
-      "Purpose-named and stated for 17-inch laptops specifically, this pad's soft neoprene underside makes it comfortable for both desk and lap use. Dual USB-powered fans provide the core cooling, and rubber stops keep the laptop secure.\n\nAn established Targus product with a straightforward, no-frills design, a reasonable general pick for 17-inch productivity laptops without the extra cost of gaming-focused RGB and multi-fan systems.",
-    specs: ["Purpose-stated for 17 inch", "Dual fans, USB-A", "Soft neoprene underside", "Ergonomic tilt"],
-    pros: ["Explicitly sized and named for 17-inch laptops", "Comfortable for lap use", "Established Targus brand", "Straightforward design"],
-    cons: ["Fewer fans than gaming-focused alternatives", "No height adjustment beyond fixed tilt", "Less airflow for sustained gaming loads"],
+    description: "Purpose-named and stated for 17-inch laptops specifically, this pad's soft neoprene underside makes it comfortable for both desk and lap use. Dual USB-powered fans provide the core cooling, and rubber stops keep the laptop secure.\n\nIt earns the top spot in this comparison over havit HV-F2056 15.6\"-17\" Laptop Cooler for one main reason. Explicitly sized and named for 17-inch laptops. On price, it's actually priced above havit HV-F2056 15.6\"-17\" Laptop Cooler, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Comfortable for lap use. On the other side, Less airflow for sustained gaming loads. That's the main tradeoff to weigh against everything above.",
+    specs: ["Purpose-stated for 17 inch","Dual fans, USB-A","Soft neoprene underside","Ergonomic tilt"],
+    pros: ["Explicitly sized and named for 17-inch laptops","Comfortable for lap use","Established Targus brand","Straightforward design"],
+    cons: ["Fewer fans than gaming-focused alternatives","No height adjustment beyond fixed tilt","Less airflow for sustained gaming loads"],
     bestFor: "Buyers with a 17-inch productivity laptop wanting simple, comfortable cooling.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51+142vwVRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00NNMB3KS?tag=deskfinds0d-20",
-    description:
-      "This pad's stated range reaches exactly to 17 inches, a genuine size match, and it's one of the most established products in this research pool by review volume. Three ultra-quiet fans and a metal mesh surface handle cooling.\n\nTwo height settings and an extra USB port round out a proven, well-tested design at a reasonable price for the 17-inch class.",
-    specs: ["15.6-17 inch range", "3 ultra-quiet fans", "2 height settings", "Extra USB port"],
-    pros: ["Genuine fit reaching 17 inches", "Large, established review base", "Metal mesh durability", "Reasonable price"],
-    cons: ["Only 2 height settings", "Fewer fans than gaming-focused picks", "USB-A cable, Type-C needs an adapter"],
+    description: "This pad's stated range reaches exactly to 17 inches, a genuine size match, and it's one of the most established products in this research pool by review volume. Three ultra-quiet fans and a metal mesh surface handle cooling.\n\nOne spot below Targus 17 Inch Dual Fan Lap Chill Mat in this ranking, it's priced lower than Targus 17 Inch Dual Fan Lap Chill Mat. The compromise here is straightforward: Only 2 height settings. What you gain in return: Genuine fit reaching 17 inches. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Large, established review base. On the other side, USB-A cable, Type-C needs an adapter. That's the main tradeoff to weigh against everything above.",
+    specs: ["15.6-17 inch range","3 ultra-quiet fans","2 height settings","Extra USB port"],
+    pros: ["Genuine fit reaching 17 inches","Large, established review base","Metal mesh durability","Reasonable price"],
+    cons: ["Only 2 height settings","Fewer fans than gaming-focused picks","USB-A cable, Type-C needs an adapter"],
     bestFor: "Buyers wanting a proven, well-reviewed pad specifically for 17-inch laptops.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31DsLHp9vML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJDWWHTV?tag=deskfinds0d-20",
-    description:
-      "This pad's 14-18 inch adaptive frame system genuinely covers 17-inch gaming laptops, and its automatic fan-speed control via Razer Synapse adjusts to system temperature, useful for the variable heat output typical of gaming workloads. A 140mm fan spins up to 3000 RPM.\n\nSee our gaming laptop cooling guide for more on why 17-inch gaming laptops specifically benefit from sustained-load-verified cooling over generic productivity pads.",
-    specs: ["14-18 inch adaptive frames", "140mm fan, up to 3000 RPM", "Auto fan-speed control via software", "2-year warranty"],
-    pros: ["Adaptive frames genuinely cover 17-inch gaming laptops", "Smart automatic fan control for variable gaming heat", "Airtight pressure seals", "2-year warranty"],
-    cons: ["Highest price in this guide", "Requires software for full functionality", "Overkill for lighter, non-gaming 17-inch laptops"],
+    description: "This pad's 14-18 inch adaptive frame system genuinely covers 17-inch gaming laptops, and its automatic fan-speed control via Razer Synapse adjusts to system temperature, useful for the variable heat output typical of gaming workloads. A 140mm fan spins up to 3000 RPM.\n\nSitting just under havit HV-F2056 15.6\"-17\" Laptop Cooler, it costs more than havit HV-F2056 15.6\"-17\" Laptop Cooler. Here's the honest tradeoff: Highest price in this guide. And here's what it gets you instead: Adaptive frames genuinely cover 17-inch gaming laptops. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Smart automatic fan control for variable gaming heat. On the other side, Overkill for lighter, non-gaming 17-inch laptops. That's the main tradeoff to weigh against everything above.",
+    specs: ["14-18 inch adaptive frames","140mm fan, up to 3000 RPM","Auto fan-speed control via software","2-year warranty"],
+    pros: ["Adaptive frames genuinely cover 17-inch gaming laptops","Smart automatic fan control for variable gaming heat","Airtight pressure seals","2-year warranty"],
+    cons: ["Highest price in this guide","Requires software for full functionality","Overkill for lighter, non-gaming 17-inch laptops"],
     bestFor: "Buyers with a 17-inch gaming laptop wanting smart, automatic cooling control.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41famjBML2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DDSZP449?tag=deskfinds0d-20",
-    description:
-      "This pad's 15.6 to 19.3 inch range comfortably covers 17-inch laptops, and its 9-fan layout with vents at both top and bottom of the case offers substantially more airflow than a simple dual-fan pad, relevant for a 17-inch gaming laptop under sustained load.\n\nAn LCD display shows current fan speed, and 8 height settings with 10 RGB lighting modes round out a feature-rich gaming-oriented design.",
-    specs: ["15.6-19.3 inch range", "9 fans, top and bottom vents", "8 height settings", "LCD display, 10 RGB modes"],
-    pros: ["9-fan layout for strong sustained-load airflow", "Genuine fit for 17-inch laptops", "LCD fan-speed readout", "8 height settings"],
-    cons: ["Higher price than simple 2-3 fan pads", "9-fan design is bulkier", "RGB may be unnecessary for non-gaming use"],
+    description: "This pad's 15.6 to 19.3 inch range comfortably covers 17-inch laptops, and its 9-fan layout with vents at both top and bottom of the case offers substantially more airflow than a simple dual-fan pad, relevant for a 17-inch gaming laptop under sustained load.\n\nRanked just behind Razer Laptop Cooling Pad Adaptive Smart, it's priced lower than Razer Laptop Cooling Pad Adaptive Smart. The real tradeoff against that pick: Higher price than simple 2-3 fan pads. In exchange, it offers this instead: 9-fan layout for strong sustained-load airflow. That's the swap that decides whether this pick or the one above it is the better fit for your laptop.\n\nWorth knowing before you decide: Genuine fit for 17-inch laptops. On the other side, RGB may be unnecessary for non-gaming use. That's the main tradeoff to weigh against everything above.",
+    specs: ["15.6-19.3 inch range","9 fans, top and bottom vents","8 height settings","LCD display, 10 RGB modes"],
+    pros: ["9-fan layout for strong sustained-load airflow","Genuine fit for 17-inch laptops","LCD fan-speed readout","8 height settings"],
+    cons: ["Higher price than simple 2-3 fan pads","9-fan design is bulkier","RGB may be unnecessary for non-gaming use"],
     bestFor: "Buyers with a 17-inch gaming laptop wanting strong sustained-load airflow at a mid-range price.",
   },
   {
@@ -98,13 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41RI0692h6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C69BVWGB?tag=deskfinds0d-20",
-    description:
-      "With a documented 44 degree Celsius temperature drop in 90 seconds and a 15.6 to 19 inch range, this is the strongest documented cooling claim among the picks in this guide, genuinely relevant for a 17-inch gaming laptop generating heavy sustained heat. A removable dust filter protects internal fans long-term.\n\nAt up to 70dB noise, this is a real tradeoff, worth it specifically for a demanding 17-inch gaming or creator laptop where maximum cooling matters more than quiet operation.",
-    specs: ["15.6-19 inch range", "5.5in turbo fan, up to 70dB", "36W power output, dust filter", "3-port USB hub"],
-    pros: ["Strongest documented temperature-drop claim", "Genuine fit for 17-inch laptops", "Removable dust filter", "3-port USB hub"],
-    cons: ["Up to 70dB is loud for shared spaces", "Highest price alongside the Razer pick", "Larger, heavier design"],
+    description: "With a documented 44 degree Celsius temperature drop in 90 seconds and a 15.6 to 19 inch range, this is the strongest documented cooling claim among the picks in this guide, genuinely relevant for a 17-inch gaming laptop generating heavy sustained heat. A removable dust filter protects internal fans long-term.\n\nOne spot below ChillCore Laptop Cooling Pad in this ranking, it costs more than ChillCore Laptop Cooling Pad. The compromise here is straightforward: Up to 70dB is loud for shared spaces. What you gain in return: Strongest documented temperature-drop claim. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Genuine fit for 17-inch laptops. On the other side, Larger, heavier design. That's the main tradeoff to weigh against everything above.",
+    specs: ["15.6-19 inch range","5.5in turbo fan, up to 70dB","36W power output, dust filter","3-port USB hub"],
+    pros: ["Strongest documented temperature-drop claim","Genuine fit for 17-inch laptops","Removable dust filter","3-port USB hub"],
+    cons: ["Up to 70dB is loud for shared spaces","Highest price alongside the Razer pick","Larger, heavier design"],
     bestFor: "Buyers with the most demanding 17-inch gaming or creator laptop wanting maximum documented cooling.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,35 +113,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Laptop Type",
-    table: {
-      headers: ["Laptop type", "Recommended pick"],
-      rows: [
-        ["17-inch productivity laptop", "Targus 17 Inch Dual Fan Lap Chill Mat"],
-        ["17-inch gaming laptop, moderate use", "ChillCore 9-Fan Pad"],
-        ["17-inch gaming laptop, sustained heavy use", "llano V12 or Razer Adaptive Smart"],
+    "subheading": "By Laptop Size Fit",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Tightest size match for your laptop",
+          "havit HV-F2056 15.6\"-17\" Laptop Cooler"
+        ],
+        [
+          "Widest range, flexible for future upgrades",
+          "Razer Laptop Cooling Pad Adaptive Smart"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Gaming vs Productivity Laptop Cooling Needs",
-    cards: [
-      { label: "Productivity laptop", text: "A simpler dual-fan pad is usually sufficient for lighter workloads and heat output." },
-      { label: "Gaming laptop", text: "Higher fan counts or documented strong temperature-drop claims matter more given the sustained heat these laptops generate." },
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $28",
+          "havit HV-F2056 15.6\"-17\" Laptop Cooler"
+        ],
+        [
+          "Mid-range",
+          "ChillCore Laptop Cooling Pad"
+        ],
+        [
+          "No firm budget ceiling, prioritizing fan count or extras",
+          "Razer Laptop Cooling Pad Adaptive Smart"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Slim/Fewer Fans vs Multi-Fan High Airflow",
+    "cards": [
+      {
+        "label": "Slim, Fewer Fans",
+        "text": "Lighter and more portable with less total noise, at the cost of a smaller cooled surface area. In this comparison: Targus 17 Inch Dual Fan Lap Chill Mat."
+      },
+      {
+        "label": "Multi-Fan, High Airflow",
+        "text": "More total cooling surface and airflow, at the cost of extra bulk and more potential noise at full speed. In this comparison: ChillCore Laptop Cooling Pad."
+      }
     ],
+    "note": "Most buyers should default to a slim pick like Targus 17 Inch Dual Fan Lap Chill Mat for everyday portability, and only step up to ChillCore Laptop Cooling Pad's fan count if you're running genuinely demanding workloads that generate real sustained heat."
   },
   {
-    subheading: "17-Inch Overlaps with the Gaming Laptop Category",
-    note: "Many 17-inch laptops are gaming or creator-focused machines with high sustained heat output. See our Best Gaming Laptop Cooling Pads guide for more detail on evaluating cooling pads specifically for that heavier workload class.",
+    "subheading": "By Height Adjustment Range",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Most ergonomic height adjustment range",
+          "ChillCore Laptop Cooling Pad"
+        ],
+        [
+          "Simplest setup, fewer adjustments to fuss with",
+          "havit HV-F2056 15.6\"-17\" Laptop Cooler"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a Fanless or Sealed-Chassis Laptop (Like MacBook) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation that your specific laptop model has bottom-panel intake vents, since a cooling pad provides little benefit on a fully sealed, fanless unibody design regardless of physical fit."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Every pick here is designed around a vented-bottom laptop; if you're on a fanless MacBook specifically, check our dedicated MacBook Air cooling pad guide for that honesty caveat before buying any pad in this comparison."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Razer Laptop Cooling Pad Adaptive Smart offers: Adaptive frames genuinely cover 17-inch gaming laptops. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "havit HV-F2056 15.6\"-17\" Laptop Cooler already covers the essentials: Genuine fit reaching 17 inches. The main thing you'd be paying extra for elsewhere in this list is fan count or height range you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify the stated range reaches 17 inches", explanation: "Confirm the pad's compatible range genuinely covers 17 inches rather than assuming any listing that mentions large laptops applies." },
-  { criterion: "17-inch overlaps heavily with gaming laptops", explanation: "This size is common among gaming and creator laptops with higher sustained heat output than typical productivity laptops, factor this into your fan-count choice." },
-  { criterion: "Match fan count to your workload", explanation: "A simple dual-fan pad suits lighter productivity use, while sustained gaming or rendering benefits from a higher fan-count pad or documented strong temperature-drop claim." },
-  { criterion: "Documented figures over vague claims", explanation: "Prioritize listings stating a specific dB rating or temperature-drop figure over generic marketing language." },
-  { criterion: "Balance noise against maximum cooling", explanation: "The strongest documented cooling pick in this guide reaches up to 70dB, a real tradeoff worth weighing against a quieter, moderate-performance alternative." },
+  {
+    "criterion": "Check the pad's stated compatible size range against your laptop's real footprint, not its screen size",
+    "explanation": "A laptop's advertised screen size, like 13 or 15.6 inches, describes the diagonal measurement of the display panel, not the physical width and depth of the laptop's base that actually sits on top of a cooling pad, and two laptops with the identical screen size can have meaningfully different base dimensions depending on bezel thickness and chassis design.\n\nCooling pad listings state a compatible size range in inches specifically because they're describing what base footprint fits their surface and fan layout, so treating the screen-size number alone as a fit guarantee is a genuine buying mistake, not just an imprecise shortcut.\n\nMeasure your laptop's actual width and depth, or find those dimensions in its own spec sheet, and compare that against the pad's stated range rather than matching screen-size numbers."
+  },
+  {
+    "criterion": "Understand that a wider-range pad isn't automatically better for a smaller laptop",
+    "explanation": "Cooling pads spread their fans across the surface in a fixed layout designed around the middle of their stated compatible range, so a pad rated for 12 to 17 inches has its fans positioned to reach a wide variety of vent locations across that whole span, while a laptop toward the small end of that range may not sit directly over as many of those fans as it would on a pad sized more tightly around its own dimensions.\n\nThis matters because the cooling benefit of a pad comes specifically from airflow reaching the laptop's actual intake vents, not from the pad's overall surface area, so a smaller laptop on an oversized pad can genuinely get less effective cooling than the same laptop on a proportionally sized pad, despite technically fitting within the stated range.\n\nWhen your laptop sits toward one end of a pad's stated range rather than the middle, check user photos or reviews specifically describing that size laptop's fit before assuming the airflow lines up well."
+  },
+  {
+    "criterion": "Confirm your laptop's actual vent location and design, especially for thin ultrabooks and MacBooks",
+    "explanation": "Most cooling pads are designed around bottom-vented laptops, where intake vents sit on the underside of the chassis directly facing the pad's fans, but some laptops, most notably many MacBook models, use a fully sealed or fanless internal design where the chassis itself acts as a heat sink rather than relying on active airflow from underneath.\n\nThis is a genuine compatibility gap that a cooling pad's stated inch-range compatibility says nothing about, since a pad can physically fit a MacBook's exact footprint while providing essentially no cooling benefit if that specific model has no bottom vents for the fans to blow into.\n\nCheck your specific laptop model's actual cooling design (vented bottom panel versus sealed unibody) before assuming a cooling pad will meaningfully lower its temperature, and treat this as a separate question from simple physical size fit."
+  },
+  {
+    "criterion": "Weigh fan count and noise level together, not fan count alone",
+    "explanation": "A pad's fan count, commonly ranging from a single central fan up to five or six smaller fans, is often marketed as a straightforward better-is-more spec, but more fans spinning simultaneously generally means more total noise output, and a pad with independently controllable fan zones lets you balance airflow against noise rather than forcing an all-or-nothing choice.\n\nThis is a real everyday tradeoff for anyone using a laptop in a quiet room or on a video call, since a cooling pad running at full multi-fan speed can become audible enough to be distracting, undermining the benefit if you end up turning it off to avoid the noise.\n\nCheck whether the listing states selectable fan modes or independently controlled fan zones, not just the total fan count, if noise control matters to your specific environment."
+  },
+  {
+    "criterion": "Confirm the power source and port type match your laptop before assuming plug-and-play compatibility",
+    "explanation": "Nearly all cooling pads draw power over a USB cable rather than a separate power adapter, which keeps setup simple, but the cable end that plugs into your laptop is typically USB-A, and a laptop with only USB-C ports (common on newer ultrabooks and MacBooks) will need a separate USB-C adapter or hub to actually power the pad, an extra cost and cable that isn't obvious from the listing photos alone.\n\nThis matters because a cooling pad that can't be powered defeats its entire purpose regardless of how well it otherwise fits your laptop's size and vent layout, so it's a genuine prerequisite to check, not an afterthought.\n\nCheck the listing's stated cable connector type and confirm it matches an available port on your specific laptop, or budget for an adapter if it doesn't."
+  }
 ];
 
 export const faq: FaqItem[] = [

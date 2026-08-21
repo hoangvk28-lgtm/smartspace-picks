@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41qFs-R9Q1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01G2RL026?tag=deskfinds0d-20",
-    description:
-      "This is the most fully-featured genuine match, with a detachable mouse tray that slides to either the left or right side, a real USB cooling fan built in as a heat shield, and 5 tilt settings for ergonomic adjustment. It supports laptops up to 17.3 inches on a 16.5 inch platform.\n\nBe clear that the cooling here is a single fan functioning as a heat shield, not a multi-fan array like a dedicated desk cooling pad, appropriate for lap and couch use where heat protection matters more than maximum airflow.",
-    specs: ["Detachable mouse tray, left or right", "Single USB cooling fan (heat shield)", "5 tilt settings (0-30°)", "Up to 17.3 inch laptops"],
-    pros: ["Genuine detachable, reversible mouse tray", "Real USB cooling fan included", "5 adjustable tilt angles", "Large 16.5in platform for bigger laptops"],
-    cons: ["Single fan, not a multi-fan cooling array", "Higher price for this hybrid category", "Heavier and bulkier than a simple lap desk"],
+    description: "This is the most fully-featured genuine match, with a detachable mouse tray that slides to either the left or right side, a real USB cooling fan built in as a heat shield, and 5 tilt settings for ergonomic adjustment. It supports laptops up to 17.3 inches on a 16.5 inch platform.\n\nIt earns the top spot in this comparison over SAIJI Laptop Desk for Bed with Cooling Fan for one main reason. Genuine detachable, reversible mouse tray. On price, it's actually priced above SAIJI Laptop Desk for Bed with Cooling Fan, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Real USB cooling fan included. On the other side, Heavier and bulkier than a simple lap desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["Detachable mouse tray, left or right","Single USB cooling fan (heat shield)","5 tilt settings (0-30°)","Up to 17.3 inch laptops"],
+    pros: ["Genuine detachable, reversible mouse tray","Real USB cooling fan included","5 adjustable tilt angles","Large 16.5in platform for bigger laptops"],
+    cons: ["Single fan, not a multi-fan cooling array","Higher price for this hybrid category","Heavier and bulkier than a simple lap desk"],
     bestFor: "Buyers who want the most complete mouse tray and cooling combination for lap or couch use.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41WX0LRwktL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DFY69GFS?tag=deskfinds0d-20",
-    description:
-      "This is a foldable wood-paneled desk with a built-in USB cooling fan and a 20.3 x 11.8 inch surface, large enough for a 17-inch laptop plus writing space, though CRITICAL HONESTY NOTE: it does not include a dedicated retractable mouse tray like the MAX SMART pick, just the flat writing surface itself.\n\nA retractable blocker protects the laptop from falling, and metal legs support up to 80 pounds. This is a genuine bed desk with cooling, best suited to buyers who don't specifically need a separate mouse tray surface.",
-    specs: ["20.3in x 11.8in wood desktop", "Single USB cooling fan", "5 heights, 4 tilt angles", "Foldable, 1.8in thick when folded"],
-    pros: ["Genuine USB cooling fan included", "Large, sturdy wood desktop surface", "Foldable for storage", "Supports up to 80 lbs"],
-    cons: ["No dedicated retractable mouse tray, just the flat surface", "Single fan, modest cooling relative to a desk pad", "Wood construction adds weight versus a plastic lap desk"],
+    description: "This is a foldable wood-paneled desk with a built-in USB cooling fan and a 20.3 x 11.8 inch surface, large enough for a 17-inch laptop plus writing space, though CRITICAL HONESTY NOTE: it does not include a dedicated retractable mouse tray like the MAX SMART pick, just the flat writing surface itself.\n\nOne spot below MAX SMART Laptop Lap Pad with Attached Mouse Pad and USB Cooling Fan in this ranking, it's priced lower than MAX SMART Laptop Lap Pad with Attached Mouse Pad and USB Cooling Fan. The compromise here is straightforward: No dedicated retractable mouse tray, just the flat surface. What you gain in return: Genuine USB cooling fan included. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Large, sturdy wood desktop surface. On the other side, Wood construction adds weight versus a plastic lap desk. That's the main tradeoff to weigh against everything above.",
+    specs: ["20.3in x 11.8in wood desktop","Single USB cooling fan","5 heights, 4 tilt angles","Foldable, 1.8in thick when folded"],
+    pros: ["Genuine USB cooling fan included","Large, sturdy wood desktop surface","Foldable for storage","Supports up to 80 lbs"],
+    cons: ["No dedicated retractable mouse tray, just the flat surface","Single fan, modest cooling relative to a desk pad","Wood construction adds weight versus a plastic lap desk"],
     bestFor: "Buyers who want a sturdy bed desk with real cooling but don't specifically need a separate mouse tray.",
   },
   {
@@ -64,13 +62,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41Hk-fkvyYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B074473Z6T?tag=deskfinds0d-20",
-    description:
-      "CRITICAL HONESTY NOTE: this lap desk includes a genuine retractable mouse pad tray extending to either side, but no active cooling fan, its heat protection comes from a passive heat shield material rather than powered airflow. At only 2.2 lbs and 0.6 inches thick, it's the lightest and most portable pick in this guide.\n\nIf a genuine mouse tray matters more to you than active fan cooling, this is a strong, affordable choice, just don't expect any powered airflow from this specific product.",
-    specs: ["Retractable mouse tray, both directions", "Passive heat shield, no fan", "Only 2.2 lbs, 0.6in thick", "Fits up to 15.6 inch laptops/tablets"],
-    pros: ["Genuine retractable mouse tray", "Very lightweight and thin for portability", "Effective passive heat shield material", "Affordable price"],
-    cons: ["No active cooling fan, passive heat shield only", "Smaller platform, up to 15.6 inches only", "Less cooling benefit than the fan-equipped picks above"],
+    description: "CRITICAL HONESTY NOTE: this lap desk includes a genuine retractable mouse pad tray extending to either side, but no active cooling fan, its heat protection comes from a passive heat shield material rather than powered airflow. At only 2.2 lbs and 0.6 inches thick, it's the lightest and most portable pick in this guide.\n\nSitting just under SAIJI Laptop Desk for Bed with Cooling Fan, it's priced lower than SAIJI Laptop Desk for Bed with Cooling Fan. Here's the honest tradeoff: No active cooling fan, passive heat shield only. And here's what it gets you instead: Genuine retractable mouse tray. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Very lightweight and thin for portability. On the other side, Less cooling benefit than the fan-equipped picks above. That's the main tradeoff to weigh against everything above.",
+    specs: ["Retractable mouse tray, both directions","Passive heat shield, no fan","Only 2.2 lbs, 0.6in thick","Fits up to 15.6 inch laptops/tablets"],
+    pros: ["Genuine retractable mouse tray","Very lightweight and thin for portability","Effective passive heat shield material","Affordable price"],
+    cons: ["No active cooling fan, passive heat shield only","Smaller platform, up to 15.6 inches only","Less cooling benefit than the fan-equipped picks above"],
     bestFor: "Buyers who want a genuine mouse tray in the lightest, most portable package and don't need active fan cooling.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -84,35 +81,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by What You Actually Need",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Real cooling fan and reversible mouse tray both", "MAX SMART Laptop Lap Pad"],
-        ["Sturdy bed desk, mouse tray not essential", "SAIJI Laptop Desk for Bed"],
-        ["Lightest, most portable, mouse tray without active fan", "AboveTEK Portable Laptop Lap Desk"],
+    "subheading": "By Laptop Size Fit",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Tightest size match for your laptop",
+          "MAX SMART Laptop Lap Pad with Attached Mouse Pad and USB Cooling Fan"
+        ],
+        [
+          "Widest range, flexible for future upgrades",
+          "AboveTEK Portable Laptop Lap Desk w/Retractable Mouse Pad Tray"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Active Fan or Passive Heat Shield",
-    cards: [
-      { label: "Active USB fan", text: "MAX SMART and SAIJI both include a real powered fan for genuine airflow-based cooling." },
-      { label: "Passive heat shield", text: "AboveTEK uses heat-resistant material without a fan, lighter but less active cooling." },
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $26",
+          "AboveTEK Portable Laptop Lap Desk w/Retractable Mouse Pad Tray"
+        ],
+        [
+          "Mid-range",
+          "SAIJI Laptop Desk for Bed with Cooling Fan"
+        ],
+        [
+          "No firm budget ceiling, prioritizing fan count or extras",
+          "MAX SMART Laptop Lap Pad with Attached Mouse Pad and USB Cooling Fan"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Slim/Fewer Fans vs Multi-Fan High Airflow",
+    "cards": [
+      {
+        "label": "Slim, Fewer Fans",
+        "text": "Lighter and more portable with less total noise, at the cost of a smaller cooled surface area. In this comparison: MAX SMART Laptop Lap Pad with Attached Mouse Pad and USB Cooling Fan."
+      },
+      {
+        "label": "Multi-Fan, High Airflow",
+        "text": "More total cooling surface and airflow, at the cost of extra bulk and more potential noise at full speed. In this comparison: MAX SMART Laptop Lap Pad with Attached Mouse Pad and USB Cooling Fan."
+      }
     ],
+    "note": "Most buyers should default to a slim pick like MAX SMART Laptop Lap Pad with Attached Mouse Pad and USB Cooling Fan for everyday portability, and only step up to MAX SMART Laptop Lap Pad with Attached Mouse Pad and USB Cooling Fan's fan count if you're running genuinely demanding workloads that generate real sustained heat."
   },
   {
-    subheading: "This Is a Different Product Category Than a Desk Cooling Pad",
-    note: "These are lap desks first, cooling pads second. If you want maximum multi-fan airflow for a desk setup, see our general Best Laptop Cooling Pads guide instead, none of the picks there include a mouse tray, but they offer stronger cooling.",
+    "subheading": "By Height Adjustment Range",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Most ergonomic height adjustment range",
+          "SAIJI Laptop Desk for Bed with Cooling Fan"
+        ],
+        [
+          "Simplest setup, fewer adjustments to fuss with",
+          "AboveTEK Portable Laptop Lap Desk w/Retractable Mouse Pad Tray"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a Fanless or Sealed-Chassis Laptop (Like MacBook) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation that your specific laptop model has bottom-panel intake vents, since a cooling pad provides little benefit on a fully sealed, fanless unibody design regardless of physical fit."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Every pick here is designed around a vented-bottom laptop; if you're on a fanless MacBook specifically, check our dedicated MacBook Air cooling pad guide for that honesty caveat before buying any pad in this comparison."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what MAX SMART Laptop Lap Pad with Attached Mouse Pad and USB Cooling Fan offers: Genuine detachable, reversible mouse tray. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "AboveTEK Portable Laptop Lap Desk w/Retractable Mouse Pad Tray already covers the essentials: Genuine retractable mouse tray. The main thing you'd be paying extra for elsewhere in this list is fan count or height range you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify the mouse tray is genuinely a tray, not just mentioned", explanation: "Check the real feature list confirms a retractable or detachable mouse surface, not just a generic mention of mouse compatibility." },
-  { criterion: "Understand active vs passive cooling", explanation: "Some products in this hybrid category use a real USB fan, others use only a passive heat-resistant material. These provide meaningfully different cooling levels." },
-  { criterion: "Tray stability during mouse movement", explanation: "The tray must stay rigid during active mouse use and shouldn't wobble or shift, especially on a retractable or extendable design." },
-  { criterion: "This category trades cooling power for tray convenience", explanation: "None of these products match the multi-fan airflow of a dedicated desk cooling pad. Choose this hybrid category specifically because you want the combined mouse tray convenience." },
-  { criterion: "Left or right tray positioning for your handedness", explanation: "Check whether the tray extends to only one side or can be positioned for both left- and right-handed mouse use." },
+  {
+    "criterion": "Check the pad's stated compatible size range against your laptop's real footprint, not its screen size",
+    "explanation": "A laptop's advertised screen size, like 13 or 15.6 inches, describes the diagonal measurement of the display panel, not the physical width and depth of the laptop's base that actually sits on top of a cooling pad, and two laptops with the identical screen size can have meaningfully different base dimensions depending on bezel thickness and chassis design.\n\nCooling pad listings state a compatible size range in inches specifically because they're describing what base footprint fits their surface and fan layout, so treating the screen-size number alone as a fit guarantee is a genuine buying mistake, not just an imprecise shortcut.\n\nMeasure your laptop's actual width and depth, or find those dimensions in its own spec sheet, and compare that against the pad's stated range rather than matching screen-size numbers."
+  },
+  {
+    "criterion": "Understand that a wider-range pad isn't automatically better for a smaller laptop",
+    "explanation": "Cooling pads spread their fans across the surface in a fixed layout designed around the middle of their stated compatible range, so a pad rated for 12 to 17 inches has its fans positioned to reach a wide variety of vent locations across that whole span, while a laptop toward the small end of that range may not sit directly over as many of those fans as it would on a pad sized more tightly around its own dimensions.\n\nThis matters because the cooling benefit of a pad comes specifically from airflow reaching the laptop's actual intake vents, not from the pad's overall surface area, so a smaller laptop on an oversized pad can genuinely get less effective cooling than the same laptop on a proportionally sized pad, despite technically fitting within the stated range.\n\nWhen your laptop sits toward one end of a pad's stated range rather than the middle, check user photos or reviews specifically describing that size laptop's fit before assuming the airflow lines up well."
+  },
+  {
+    "criterion": "Confirm your laptop's actual vent location and design, especially for thin ultrabooks and MacBooks",
+    "explanation": "Most cooling pads are designed around bottom-vented laptops, where intake vents sit on the underside of the chassis directly facing the pad's fans, but some laptops, most notably many MacBook models, use a fully sealed or fanless internal design where the chassis itself acts as a heat sink rather than relying on active airflow from underneath.\n\nThis is a genuine compatibility gap that a cooling pad's stated inch-range compatibility says nothing about, since a pad can physically fit a MacBook's exact footprint while providing essentially no cooling benefit if that specific model has no bottom vents for the fans to blow into.\n\nCheck your specific laptop model's actual cooling design (vented bottom panel versus sealed unibody) before assuming a cooling pad will meaningfully lower its temperature, and treat this as a separate question from simple physical size fit."
+  },
+  {
+    "criterion": "Weigh fan count and noise level together, not fan count alone",
+    "explanation": "A pad's fan count, commonly ranging from a single central fan up to five or six smaller fans, is often marketed as a straightforward better-is-more spec, but more fans spinning simultaneously generally means more total noise output, and a pad with independently controllable fan zones lets you balance airflow against noise rather than forcing an all-or-nothing choice.\n\nThis is a real everyday tradeoff for anyone using a laptop in a quiet room or on a video call, since a cooling pad running at full multi-fan speed can become audible enough to be distracting, undermining the benefit if you end up turning it off to avoid the noise.\n\nCheck whether the listing states selectable fan modes or independently controlled fan zones, not just the total fan count, if noise control matters to your specific environment."
+  },
+  {
+    "criterion": "Confirm the power source and port type match your laptop before assuming plug-and-play compatibility",
+    "explanation": "Nearly all cooling pads draw power over a USB cable rather than a separate power adapter, which keeps setup simple, but the cable end that plugs into your laptop is typically USB-A, and a laptop with only USB-C ports (common on newer ultrabooks and MacBooks) will need a separate USB-C adapter or hub to actually power the pad, an extra cost and cable that isn't obvious from the listing photos alone.\n\nThis matters because a cooling pad that can't be powered defeats its entire purpose regardless of how well it otherwise fits your laptop's size and vent layout, so it's a genuine prerequisite to check, not an afterthought.\n\nCheck the listing's stated cable connector type and confirm it matches an available port on your specific laptop, or budget for an adapter if it doesn't."
+  }
 ];
 
 export const faq: FaqItem[] = [

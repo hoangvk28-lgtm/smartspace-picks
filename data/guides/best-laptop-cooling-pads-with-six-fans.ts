@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51MNLZRfO8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B087WF59N1?tag=deskfinds0d-20",
-    description:
-      "This pad's listing explicitly states six transparent cooling fans with vents on both the top and bottom of the case, aimed at all-round dynamic cooling rather than airflow through one surface only. An LCD screen displays current fan speed directly, and touch buttons control both fan speed and seven RGB lighting modes without needing a separate app.\n\nSix adjustable height settings give more positioning range than most pads in this category, and the listing states the fans include capacitor components specifically to reduce working noise. It fits laptops from 15 to 17.3 inches, sized for larger gaming laptops rather than compact ultrabooks.",
-    specs: ["6 transparent cooling fans, top and bottom vents", "LCD fan-speed display", "7 RGB lighting modes, touch controls", "6 adjustable height settings", "Fits 15-17.3 inch laptops"],
-    pros: ["Listing explicitly confirms 6 fans with dual top-and-bottom vent placement", "LCD display shows real fan speed, not a guess", "6 height settings, more than most picks in this category", "Capacitor components stated to reduce fan noise"],
-    cons: ["Built for 15-17.3 inch laptops only, not compact ultrabooks", "No stated dBA noise figure despite the noise-reduction claim", "RGB and LCD extras add complexity versus a simpler fan-only pad"],
+    description: "This pad's listing explicitly states six transparent cooling fans with vents on both the top and bottom of the case, aimed at all-round dynamic cooling rather than airflow through one surface only. An LCD screen displays current fan speed directly, and touch buttons control both fan speed and seven RGB lighting modes without needing a separate app.\n\nIt earns the top spot in this comparison over LIANGSTAR Laptop Cooling Pad for one main reason. Listing explicitly confirms 6 fans with dual top-and-bottom vent placement. On price, it's actually priced above LIANGSTAR Laptop Cooling Pad, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: LCD display shows real fan speed, not a guess. On the other side, RGB and LCD extras add complexity versus a simpler fan-only pad. That's the main tradeoff to weigh against everything above.",
+    specs: ["6 transparent cooling fans, top and bottom vents","LCD fan-speed display","7 RGB lighting modes, touch controls","6 adjustable height settings","Fits 15-17.3 inch laptops"],
+    pros: ["Listing explicitly confirms 6 fans with dual top-and-bottom vent placement","LCD display shows real fan speed, not a guess","6 height settings, more than most picks in this category","Capacitor components stated to reduce fan noise"],
+    cons: ["Built for 15-17.3 inch laptops only, not compact ultrabooks","No stated dBA noise figure despite the noise-reduction claim","RGB and LCD extras add complexity versus a simpler fan-only pad"],
     bestFor: "Buyers with a 15 to 17.3 inch gaming laptop who want a confirmed 6-fan design with an LCD speed readout.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51cdB-ugjML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B096ZKRBB2?tag=deskfinds0d-20",
-    description:
-      "This pad's listing confirms six ultra quiet fans that can run together as a group of six, or as two separate groups of three fans each, with two switches controlling speed from 0 to maximum independently. That grouped control is a genuine feature difference from pads that only offer a single all-on switch for every fan.\n\nSeven height settings, the widest range among the picks in this guide, are paired with a side phone holder and a large metal mesh surface with diamond-shaped grooves the listing states are designed to accelerate heat dissipation. It covers a wide 12 to 17.3 inch laptop range and includes two USB ports for peripherals.",
-    specs: ["6 fans, groupable as 2 sets of 3", "7 height settings", "Large metal mesh with diamond-groove design", "2 USB ports, phone holder", "Fits 12-17.3 inch laptops"],
-    pros: ["Listing explicitly confirms 6 fans with independent 2-group speed control", "7 height settings, the widest range in this guide", "Wide 12-17.3 inch laptop compatibility", "Diamond-groove mesh design specifically for heat dissipation"],
-    cons: ["No stated dBA noise figure", "Independent group control is limited to two groups of three, not per-fan control", "Metal mesh surface trades some rigidity versus a full aluminum body"],
+    description: "This pad's listing confirms six ultra quiet fans that can run together as a group of six, or as two separate groups of three fans each, with two switches controlling speed from 0 to maximum independently. That grouped control is a genuine feature difference from pads that only offer a single all-on switch for every fan.\n\nOne spot below ICE COOREL Gaming Laptop Cooling Pad in this ranking, it's priced lower than ICE COOREL Gaming Laptop Cooling Pad. The compromise here is straightforward: No stated dBA noise figure. What you gain in return: Listing explicitly confirms 6 fans with independent 2-group speed control. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: 7 height settings, the widest range in this guide. On the other side, Metal mesh surface trades some rigidity versus a full aluminum body. That's the main tradeoff to weigh against everything above.",
+    specs: ["6 fans, groupable as 2 sets of 3","7 height settings","Large metal mesh with diamond-groove design","2 USB ports, phone holder","Fits 12-17.3 inch laptops"],
+    pros: ["Listing explicitly confirms 6 fans with independent 2-group speed control","7 height settings, the widest range in this guide","Wide 12-17.3 inch laptop compatibility","Diamond-groove mesh design specifically for heat dissipation"],
+    cons: ["No stated dBA noise figure","Independent group control is limited to two groups of three, not per-fan control","Metal mesh surface trades some rigidity versus a full aluminum body"],
     bestFor: "Buyers who want independent control over two groups of three fans rather than one all-or-nothing switch.",
   },
   {
@@ -64,13 +62,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51XqhRCQeEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GY4HZNFV?tag=deskfinds0d-20",
-    description:
-      "This pad's listing confirms six fans built to move air across the underside of the laptop, at the lowest price of the three genuinely confirmed six-fan pads in this guide. A breathable metal mesh surface is stated to distribute airflow across a wider area while still providing stable support for the laptop itself.\n\nFour height settings are fewer than the other two picks here, and there is no RGB lighting or LCD display, which keeps the design simpler and the price lower. Dual USB ports and a built-in phone holder round out the feature set, and it covers a wide 12 to 17 inch laptop range.",
-    specs: ["6 fans, breathable metal mesh", "4 height settings", "Dual USB ports, phone holder", "No RGB or LCD extras", "Fits 12-17 inch laptops"],
-    pros: ["Lowest price among the confirmed 6-fan picks in this guide", "Simple design without RGB or LCD complexity to maintain", "Dual USB ports plus a built-in phone holder", "Wide 12-17 inch laptop compatibility"],
-    cons: ["Only 4 height settings, fewer than the other two picks here", "No RGB lighting or LCD fan-speed readout", "No stated dBA noise figure"],
+    description: "This pad's listing confirms six fans built to move air across the underside of the laptop, at the lowest price of the three genuinely confirmed six-fan pads in this guide. A breathable metal mesh surface is stated to distribute airflow across a wider area while still providing stable support for the laptop itself.\n\nSitting just under LIANGSTAR Laptop Cooling Pad, it's priced lower than LIANGSTAR Laptop Cooling Pad. Here's the honest tradeoff: Only 4 height settings, fewer than the other two picks here. And here's what it gets you instead: Lowest price among the confirmed 6-fan picks in this guide. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Simple design without RGB or LCD complexity to maintain. On the other side, No stated dBA noise figure. That's the main tradeoff to weigh against everything above.",
+    specs: ["6 fans, breathable metal mesh","4 height settings","Dual USB ports, phone holder","No RGB or LCD extras","Fits 12-17 inch laptops"],
+    pros: ["Lowest price among the confirmed 6-fan picks in this guide","Simple design without RGB or LCD complexity to maintain","Dual USB ports plus a built-in phone holder","Wide 12-17 inch laptop compatibility"],
+    cons: ["Only 4 height settings, fewer than the other two picks here","No RGB lighting or LCD fan-speed readout","No stated dBA noise figure"],
     bestFor: "Buyers who want a confirmed 6-fan design without paying extra for RGB lighting or an LCD display.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -84,50 +81,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Match the Pad to Your Priority",
-    intro: "All three picks here are genuine six-fan pads confirmed against their own feature text.",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["LCD fan-speed readout and RGB lighting", "ICE COOREL Gaming Laptop Cooling Pad, 6 RGB Cooling Fans"],
-        ["Independent control over two fan groups", "LIANGSTAR Laptop Cooling Pad, 6 Quiet Fans"],
-        ["Lowest price for a confirmed 6-fan design", "Laptop Cooling Pad, 6 Fans, 4-Level Stand ($19.99)"],
-        ["Widest height adjustment range", "LIANGSTAR Laptop Cooling Pad, 6 Quiet Fans (7 settings)"],
+    "subheading": "By Laptop Size Fit",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Tightest size match for your laptop",
+          "ICE COOREL Gaming Laptop Cooling Pad"
+        ],
+        [
+          "Widest range, flexible for future upgrades",
+          "LIANGSTAR Laptop Cooling Pad"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Does a Sixth Fan Actually Help, or Is It Mostly Marketing?",
-    cards: [
-      { label: "When it helps", text: "On the ICE COOREL pick, vents on both the top and bottom of the case mean the six fans serve two separate airflow paths, not just six fans crammed into one surface. That kind of dual-path design gets genuine benefit from the higher count." },
-      { label: "When it's closer to marketing", text: "A sixth fan added to a single flat surface without a documented airflow or grouping benefit contributes less per-fan than the first two or three fans in the same design, since airflow paths start to overlap." },
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $20",
+          "Laptop Cooling Pad"
+        ],
+        [
+          "Mid-range",
+          "LIANGSTAR Laptop Cooling Pad"
+        ],
+        [
+          "No firm budget ceiling, prioritizing fan count or extras",
+          "ICE COOREL Gaming Laptop Cooling Pad"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Slim/Fewer Fans vs Multi-Fan High Airflow",
+    "cards": [
+      {
+        "label": "Slim, Fewer Fans",
+        "text": "Lighter and more portable with less total noise, at the cost of a smaller cooled surface area. In this comparison: ICE COOREL Gaming Laptop Cooling Pad."
+      },
+      {
+        "label": "Multi-Fan, High Airflow",
+        "text": "More total cooling surface and airflow, at the cost of extra bulk and more potential noise at full speed. In this comparison: LIANGSTAR Laptop Cooling Pad."
+      }
     ],
-    note: "Fan count alone is not the full picture. Check whether the listing describes a genuine reason for the higher count, like dual venting or grouped control, rather than assuming more fans always means proportionally more cooling.",
+    "note": "Most buyers should default to a slim pick like ICE COOREL Gaming Laptop Cooling Pad for everyday portability, and only step up to LIANGSTAR Laptop Cooling Pad's fan count if you're running genuinely demanding workloads that generate real sustained heat."
   },
   {
-    subheading: "Judge Noise Claims by Evidence",
-    table: {
-      headers: ["Claim type", "How to treat it"],
-      rows: [
-        ["Stated grouped or independent fan control", "A genuine functional feature, not just a noise claim"],
-        ["General 'ultra quiet' wording with no dBA number", "Weakest claim category, rely on buyer feedback"],
-        ["Capacitor components stated for noise reduction", "A specific engineering detail, more credible than a vague claim, though still unverified without a dBA figure"],
+    "subheading": "By Height Adjustment Range",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Most ergonomic height adjustment range",
+          "LIANGSTAR Laptop Cooling Pad"
+        ],
+        [
+          "Simplest setup, fewer adjustments to fuss with",
+          "Laptop Cooling Pad"
+        ]
+      ]
+    }
   },
   {
-    subheading: "When Six Fans Is More Than You Need",
-    note: "If your laptop is a compact 12 to 14 inch ultrabook with light workloads, a two or three-fan pad is likely sufficient and will run quieter. Six fans matters most for 15.6 inch and larger gaming laptops under sustained heavy load. See our two-fan and three-fan guides for lighter setups.",
+    "subheading": "For a Fanless or Sealed-Chassis Laptop (Like MacBook) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation that your specific laptop model has bottom-panel intake vents, since a cooling pad provides little benefit on a fully sealed, fanless unibody design regardless of physical fit."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Every pick here is designed around a vented-bottom laptop; if you're on a fanless MacBook specifically, check our dedicated MacBook Air cooling pad guide for that honesty caveat before buying any pad in this comparison."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what ICE COOREL Gaming Laptop Cooling Pad offers: Listing explicitly confirms 6 fans with dual top-and-bottom vent placement. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Laptop Cooling Pad already covers the essentials: Lowest price among the confirmed 6-fan picks in this guide. The main thing you'd be paying extra for elsewhere in this list is fan count or height range you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify the fan count against real specs", explanation: "Some listings market a count near six without the feature text genuinely confirming it. We excluded pads stating five or nine fans that were positioned near six-fan search terms. Read the bullet points, not just the title." },
-  { criterion: "Check whether the sixth fan has a stated purpose", explanation: "A design with dual top-and-bottom venting, like the ICE COOREL pick, or grouped independent control, like the LIANGSTAR pick, gets more genuine benefit from six fans than a design with no stated airflow rationale for the higher count." },
-  { criterion: "RGB and LCD extras add cost, not necessarily cooling", explanation: "Two of the three picks here include RGB lighting or an LCD display. These are real features but do not by themselves improve cooling performance over the simpler, cheaper six-fan pick in this guide." },
-  { criterion: "Height adjustment range", explanation: "The three picks here range from 4 to 7 height settings. More settings give finer control over typing and viewing angle but do not affect raw cooling capacity." },
-  { criterion: "Laptop size compatibility", explanation: "These six-fan pads range from 12 inches up to 17.3 inches. Confirm your laptop's actual width against the stated range, especially if you have a larger 17-inch gaming laptop." },
-  { criterion: "Match fan count to your actual workload", explanation: "Six fans is most useful for sustained heavy loads on larger laptops. Lighter, everyday use on a compact laptop is well served by a two or three-fan pad at a lower price and with less noise." },
+  {
+    "criterion": "Check the pad's stated compatible size range against your laptop's real footprint, not its screen size",
+    "explanation": "A laptop's advertised screen size, like 13 or 15.6 inches, describes the diagonal measurement of the display panel, not the physical width and depth of the laptop's base that actually sits on top of a cooling pad, and two laptops with the identical screen size can have meaningfully different base dimensions depending on bezel thickness and chassis design.\n\nCooling pad listings state a compatible size range in inches specifically because they're describing what base footprint fits their surface and fan layout, so treating the screen-size number alone as a fit guarantee is a genuine buying mistake, not just an imprecise shortcut.\n\nMeasure your laptop's actual width and depth, or find those dimensions in its own spec sheet, and compare that against the pad's stated range rather than matching screen-size numbers."
+  },
+  {
+    "criterion": "Understand that a wider-range pad isn't automatically better for a smaller laptop",
+    "explanation": "Cooling pads spread their fans across the surface in a fixed layout designed around the middle of their stated compatible range, so a pad rated for 12 to 17 inches has its fans positioned to reach a wide variety of vent locations across that whole span, while a laptop toward the small end of that range may not sit directly over as many of those fans as it would on a pad sized more tightly around its own dimensions.\n\nThis matters because the cooling benefit of a pad comes specifically from airflow reaching the laptop's actual intake vents, not from the pad's overall surface area, so a smaller laptop on an oversized pad can genuinely get less effective cooling than the same laptop on a proportionally sized pad, despite technically fitting within the stated range.\n\nWhen your laptop sits toward one end of a pad's stated range rather than the middle, check user photos or reviews specifically describing that size laptop's fit before assuming the airflow lines up well."
+  },
+  {
+    "criterion": "Confirm your laptop's actual vent location and design, especially for thin ultrabooks and MacBooks",
+    "explanation": "Most cooling pads are designed around bottom-vented laptops, where intake vents sit on the underside of the chassis directly facing the pad's fans, but some laptops, most notably many MacBook models, use a fully sealed or fanless internal design where the chassis itself acts as a heat sink rather than relying on active airflow from underneath.\n\nThis is a genuine compatibility gap that a cooling pad's stated inch-range compatibility says nothing about, since a pad can physically fit a MacBook's exact footprint while providing essentially no cooling benefit if that specific model has no bottom vents for the fans to blow into.\n\nCheck your specific laptop model's actual cooling design (vented bottom panel versus sealed unibody) before assuming a cooling pad will meaningfully lower its temperature, and treat this as a separate question from simple physical size fit."
+  },
+  {
+    "criterion": "Weigh fan count and noise level together, not fan count alone",
+    "explanation": "A pad's fan count, commonly ranging from a single central fan up to five or six smaller fans, is often marketed as a straightforward better-is-more spec, but more fans spinning simultaneously generally means more total noise output, and a pad with independently controllable fan zones lets you balance airflow against noise rather than forcing an all-or-nothing choice.\n\nThis is a real everyday tradeoff for anyone using a laptop in a quiet room or on a video call, since a cooling pad running at full multi-fan speed can become audible enough to be distracting, undermining the benefit if you end up turning it off to avoid the noise.\n\nCheck whether the listing states selectable fan modes or independently controlled fan zones, not just the total fan count, if noise control matters to your specific environment."
+  },
+  {
+    "criterion": "Confirm the power source and port type match your laptop before assuming plug-and-play compatibility",
+    "explanation": "Nearly all cooling pads draw power over a USB cable rather than a separate power adapter, which keeps setup simple, but the cable end that plugs into your laptop is typically USB-A, and a laptop with only USB-C ports (common on newer ultrabooks and MacBooks) will need a separate USB-C adapter or hub to actually power the pad, an extra cost and cable that isn't obvious from the listing photos alone.\n\nThis matters because a cooling pad that can't be powered defeats its entire purpose regardless of how well it otherwise fits your laptop's size and vent layout, so it's a genuine prerequisite to check, not an afterthought.\n\nCheck the listing's stated cable connector type and confirm it matches an available port on your specific laptop, or budget for an adapter if it doesn't."
+  }
 ];
 
 export const faq: FaqItem[] = [

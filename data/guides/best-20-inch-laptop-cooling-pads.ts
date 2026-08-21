@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41RI0692h6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C69BVWGB?tag=deskfinds0d-20",
-    description:
-      "This pad's stated range reaches 15.6 to 19 inches, the largest explicitly confirmed upper limit in our research pool, though it stops short of a genuine 20-inch statement. Its documented 44 degree Celsius temperature drop in 90 seconds is a strong claim worth trusting for a very large, hot-running laptop.\n\nA removable dust filter and 36W power output support heavy sustained use, and the surface area is large enough to physically support most desktop-replacement laptops even if the stated range doesn't reach the exact 20-inch mark.",
-    specs: ["15.6-19 inch stated range (largest verified in our pool)", "5.5in turbo fan, up to 70dB", "36W power output, dust filter", "3-port USB hub"],
-    pros: ["Largest explicitly stated range we found", "Strongest documented temperature-drop claim available", "Physically large surface likely supports very large laptops", "Removable dust filter"],
-    cons: ["Stated range still stops at 19 inches, not a genuine 20-inch confirmation", "Up to 70dB is loud", "High price"],
+    description: "This pad's stated range reaches 15.6 to 19 inches, the largest explicitly confirmed upper limit in our research pool, though it stops short of a genuine 20-inch statement. Its documented 44 degree Celsius temperature drop in 90 seconds is a strong claim worth trusting for a very large, hot-running laptop.\n\nIt earns the top spot in this comparison over AICHESON Laptop Fan Cooling Pad 15 Fans for Up to 18 inch Gaming Laptops for one main reason. Largest explicitly stated range we found. On price, it's actually priced above AICHESON Laptop Fan Cooling Pad 15 Fans for Up to 18 inch Gaming Laptops, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Strongest documented temperature-drop claim available. On the other side, High price. That's the main tradeoff to weigh against everything above.",
+    specs: ["15.6-19 inch stated range (largest verified in our pool)","5.5in turbo fan, up to 70dB","36W power output, dust filter","3-port USB hub"],
+    pros: ["Largest explicitly stated range we found","Strongest documented temperature-drop claim available","Physically large surface likely supports very large laptops","Removable dust filter"],
+    cons: ["Stated range still stops at 19 inches, not a genuine 20-inch confirmation","Up to 70dB is loud","High price"],
     bestFor: "Buyers with a very large desktop-replacement laptop who need the closest verified match to a 20-inch requirement.",
   },
   {
@@ -47,13 +46,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51guAQmVBSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP58Z4CP?tag=deskfinds0d-20",
-    description:
-      "Explicitly stated up to 18 inches with a physical pad diagonal of 18.5 inches, this is a large, genuinely verified surface even though it does not reach the full 20-inch mark. Fifteen fans provide strong airflow appropriate for an extreme-sized gaming laptop.\n\nIf your search for \"20-inch\" is really about finding the largest, most powerful cooling pad available rather than a laptop that's literally 20 inches, this is a strong practical match at a lower price than the llano V12.",
-    specs: ["Explicitly stated up to 18 inch, 18.5in pad diagonal", "15 fans, 2800-3200 RPM each", "4 adjustable stands", "10 RGB modes"],
-    pros: ["Large, explicitly stated 18-inch surface", "15-fan array for maximum airflow", "Lower price than the llano V12", "4 height/angle adjustments"],
-    cons: ["Does not reach a genuine 20-inch confirmation either", "15 fans adds significant bulk", "RGB lighting adds cost some buyers won't need"],
+    description: "Explicitly stated up to 18 inches with a physical pad diagonal of 18.5 inches, this is a large, genuinely verified surface even though it does not reach the full 20-inch mark. Fifteen fans provide strong airflow appropriate for an extreme-sized gaming laptop.\n\nOne spot below llano V12 Gaming Laptop Cooling Pad in this ranking, it's priced lower than llano V12 Gaming Laptop Cooling Pad. The compromise here is straightforward: Does not reach a genuine 20-inch confirmation either. What you gain in return: Large, explicitly stated 18-inch surface. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: 15-fan array for maximum airflow. On the other side, RGB lighting adds cost some buyers won't need. That's the main tradeoff to weigh against everything above.",
+    specs: ["Explicitly stated up to 18 inch, 18.5in pad diagonal","15 fans, 2800-3200 RPM each","4 adjustable stands","10 RGB modes"],
+    pros: ["Large, explicitly stated 18-inch surface","15-fan array for maximum airflow","Lower price than the llano V12","4 height/angle adjustments"],
+    cons: ["Does not reach a genuine 20-inch confirmation either","15 fans adds significant bulk","RGB lighting adds cost some buyers won't need"],
     bestFor: "Buyers who want the largest verified, most powerful cooling pad available at a more moderate price than premium alternatives.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -67,42 +65,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Understand What You're Actually Searching For",
-    note: "No product in our verified research pool explicitly states 20-inch compatibility. The largest confirmed range tops out around 18-19 inches. If your laptop is genuinely, precisely 20 inches, treat both picks here as an unverified stretch fit and check the physical dimensions carefully before buying.",
-  },
-  {
-    subheading: "Choose Between the Two Closest Options",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Strongest documented cooling claim", "llano V12 (15.6-19 inch, 44°C drop claim)"],
-        ["Lower price, still large surface", "AICHESON 15-Fan Pad (up to 18 inch)"],
+    "subheading": "By Laptop Size Fit",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Tightest size match for your laptop",
+          "llano V12 Gaming Laptop Cooling Pad"
+        ],
+        [
+          "Widest range, flexible for future upgrades",
+          "llano V12 Gaming Laptop Cooling Pad"
+        ]
+      ]
+    }
   },
   {
-    subheading: "If Your Laptop Is Actually Closer to 17-18 Inches",
-    note: "Check our Best 18-Inch Laptop Cooling Pads guide for a more precisely matched, still genuinely verified option, since most desktop-replacement gaming laptops that people describe informally as \"huge\" or \"20-inch\" actually measure 17 to 18 inches.",
-  },
-  {
-    subheading: "Before You Buy, Measure Your Laptop",
-    table: {
-      headers: ["Check", "Why it matters"],
-      rows: [
-        ["Actual laptop base width and depth", "Screen diagonal doesn't tell you whether it fits a pad's physical surface"],
-        ["Pad's physical surface dimensions", "May exceed the stated compatible range by a small margin"],
-        ["Return policy", "Worth confirming before buying at the edge of any stated range"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $40",
+          "AICHESON Laptop Fan Cooling Pad 15 Fans for Up to 18 inch Gaming Laptops"
+        ],
+        [
+          "Mid-range",
+          "llano V12 Gaming Laptop Cooling Pad"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Slim/Fewer Fans vs Multi-Fan High Airflow",
+    "cards": [
+      {
+        "label": "Slim, Fewer Fans",
+        "text": "Lighter and more portable with less total noise, at the cost of a smaller cooled surface area. In this comparison: llano V12 Gaming Laptop Cooling Pad."
+      },
+      {
+        "label": "Multi-Fan, High Airflow",
+        "text": "More total cooling surface and airflow, at the cost of extra bulk and more potential noise at full speed. In this comparison: AICHESON Laptop Fan Cooling Pad 15 Fans for Up to 18 inch Gaming Laptops."
+      }
+    ],
+    "note": "Most buyers should default to a slim pick like llano V12 Gaming Laptop Cooling Pad for everyday portability, and only step up to AICHESON Laptop Fan Cooling Pad 15 Fans for Up to 18 inch Gaming Laptops's fan count if you're running genuinely demanding workloads that generate real sustained heat."
+  },
+  {
+    "subheading": "By Height Adjustment Range",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Most ergonomic height adjustment range",
+          "llano V12 Gaming Laptop Cooling Pad"
+        ],
+        [
+          "Simplest setup, fewer adjustments to fuss with",
+          "AICHESON Laptop Fan Cooling Pad 15 Fans for Up to 18 inch Gaming Laptops"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Fanless or Sealed-Chassis Laptop (Like MacBook) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation that your specific laptop model has bottom-panel intake vents, since a cooling pad provides little benefit on a fully sealed, fanless unibody design regardless of physical fit."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Every pick here is designed around a vented-bottom laptop; if you're on a fanless MacBook specifically, check our dedicated MacBook Air cooling pad guide for that honesty caveat before buying any pad in this comparison."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what llano V12 Gaming Laptop Cooling Pad offers: Largest explicitly stated range we found. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "AICHESON Laptop Fan Cooling Pad 15 Fans for Up to 18 inch Gaming Laptops already covers the essentials: Large, explicitly stated 18-inch surface. The main thing you'd be paying extra for elsewhere in this list is fan count or height range you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "No product genuinely confirms 20-inch compatibility", explanation: "We verified this honestly rather than forcing a false match. The largest explicitly stated range in our research pool is 18-19 inches, not a full 20." },
-  { criterion: "Clarify your real search intent", explanation: "Most \"20-inch laptop\" searches likely mean the largest available desktop-replacement gaming laptop, typically 17-18 inches in practice, not a literal 20-inch chassis." },
-  { criterion: "If you truly need 20 inches, verify manually", explanation: "Measure your laptop's actual base dimensions and compare against a pad's physical surface size, not just its stated compatible range, before buying." },
-  { criterion: "Prioritize documented cooling capacity", explanation: "At this extreme size tier, if it exists, a strong documented temperature-drop or CFM figure matters more than a precise size label." },
-  { criterion: "Check the 18-inch guide if your laptop is smaller than you think", explanation: "Many laptops described informally as huge measure closer to 17-18 inches, where verified options are more plentiful." },
+  {
+    "criterion": "Check the pad's stated compatible size range against your laptop's real footprint, not its screen size",
+    "explanation": "A laptop's advertised screen size, like 13 or 15.6 inches, describes the diagonal measurement of the display panel, not the physical width and depth of the laptop's base that actually sits on top of a cooling pad, and two laptops with the identical screen size can have meaningfully different base dimensions depending on bezel thickness and chassis design.\n\nCooling pad listings state a compatible size range in inches specifically because they're describing what base footprint fits their surface and fan layout, so treating the screen-size number alone as a fit guarantee is a genuine buying mistake, not just an imprecise shortcut.\n\nMeasure your laptop's actual width and depth, or find those dimensions in its own spec sheet, and compare that against the pad's stated range rather than matching screen-size numbers."
+  },
+  {
+    "criterion": "Understand that a wider-range pad isn't automatically better for a smaller laptop",
+    "explanation": "Cooling pads spread their fans across the surface in a fixed layout designed around the middle of their stated compatible range, so a pad rated for 12 to 17 inches has its fans positioned to reach a wide variety of vent locations across that whole span, while a laptop toward the small end of that range may not sit directly over as many of those fans as it would on a pad sized more tightly around its own dimensions.\n\nThis matters because the cooling benefit of a pad comes specifically from airflow reaching the laptop's actual intake vents, not from the pad's overall surface area, so a smaller laptop on an oversized pad can genuinely get less effective cooling than the same laptop on a proportionally sized pad, despite technically fitting within the stated range.\n\nWhen your laptop sits toward one end of a pad's stated range rather than the middle, check user photos or reviews specifically describing that size laptop's fit before assuming the airflow lines up well."
+  },
+  {
+    "criterion": "Confirm your laptop's actual vent location and design, especially for thin ultrabooks and MacBooks",
+    "explanation": "Most cooling pads are designed around bottom-vented laptops, where intake vents sit on the underside of the chassis directly facing the pad's fans, but some laptops, most notably many MacBook models, use a fully sealed or fanless internal design where the chassis itself acts as a heat sink rather than relying on active airflow from underneath.\n\nThis is a genuine compatibility gap that a cooling pad's stated inch-range compatibility says nothing about, since a pad can physically fit a MacBook's exact footprint while providing essentially no cooling benefit if that specific model has no bottom vents for the fans to blow into.\n\nCheck your specific laptop model's actual cooling design (vented bottom panel versus sealed unibody) before assuming a cooling pad will meaningfully lower its temperature, and treat this as a separate question from simple physical size fit."
+  },
+  {
+    "criterion": "Weigh fan count and noise level together, not fan count alone",
+    "explanation": "A pad's fan count, commonly ranging from a single central fan up to five or six smaller fans, is often marketed as a straightforward better-is-more spec, but more fans spinning simultaneously generally means more total noise output, and a pad with independently controllable fan zones lets you balance airflow against noise rather than forcing an all-or-nothing choice.\n\nThis is a real everyday tradeoff for anyone using a laptop in a quiet room or on a video call, since a cooling pad running at full multi-fan speed can become audible enough to be distracting, undermining the benefit if you end up turning it off to avoid the noise.\n\nCheck whether the listing states selectable fan modes or independently controlled fan zones, not just the total fan count, if noise control matters to your specific environment."
+  },
+  {
+    "criterion": "Confirm the power source and port type match your laptop before assuming plug-and-play compatibility",
+    "explanation": "Nearly all cooling pads draw power over a USB cable rather than a separate power adapter, which keeps setup simple, but the cable end that plugs into your laptop is typically USB-A, and a laptop with only USB-C ports (common on newer ultrabooks and MacBooks) will need a separate USB-C adapter or hub to actually power the pad, an extra cost and cable that isn't obvious from the listing photos alone.\n\nThis matters because a cooling pad that can't be powered defeats its entire purpose regardless of how well it otherwise fits your laptop's size and vent layout, so it's a genuine prerequisite to check, not an afterthought.\n\nCheck the listing's stated cable connector type and confirm it matches an available port on your specific laptop, or budget for an adapter if it doesn't."
+  }
 ];
 
 export const faq: FaqItem[] = [

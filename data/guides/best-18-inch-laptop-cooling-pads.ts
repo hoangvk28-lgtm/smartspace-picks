@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51guAQmVBSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP58Z4CP?tag=deskfinds0d-20",
-    description:
-      "This is the clearest genuine match in our research pool, explicitly stated for laptops up to 18 inches with a diagonal measurement of 18.5 inches on the pad itself. Fifteen high-performance fans at 2800-3200 RPM each deliver substantial airflow for the heaviest gaming laptop chassis.\n\n4 adjustable stands and 10 RGB lighting modes round out a genuinely gaming-oriented, purpose-sized design for this extreme laptop size class.",
-    specs: ["Explicitly stated up to 18 inch, 18.5in pad diagonal", "15 fans, 2800-3200 RPM each", "4 adjustable stands", "10 RGB modes"],
-    pros: ["Explicitly and precisely stated for 18-inch laptops", "15-fan array for maximum airflow at this heavy laptop tier", "4 height/angle adjustments", "Anti-slip protective mats"],
-    cons: ["Higher price given the specialized, extreme size class", "15 fans means significant bulk and weight", "RGB lighting adds cost some buyers won't need"],
+    description: "This is the clearest genuine match in our research pool, explicitly stated for laptops up to 18 inches with a diagonal measurement of 18.5 inches on the pad itself. Fifteen high-performance fans at 2800-3200 RPM each deliver substantial airflow for the heaviest gaming laptop chassis.\n\nIt earns the top spot in this comparison over Razer Laptop Cooling Pad Adaptive Smart for one main reason. Explicitly and precisely stated for 18-inch laptops. On price, it comes in below Razer Laptop Cooling Pad Adaptive Smart, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: 15-fan array for maximum airflow at this heavy laptop tier. On the other side, RGB lighting adds cost some buyers won't need. That's the main tradeoff to weigh against everything above.",
+    specs: ["Explicitly stated up to 18 inch, 18.5in pad diagonal","15 fans, 2800-3200 RPM each","4 adjustable stands","10 RGB modes"],
+    pros: ["Explicitly and precisely stated for 18-inch laptops","15-fan array for maximum airflow at this heavy laptop tier","4 height/angle adjustments","Anti-slip protective mats"],
+    cons: ["Higher price given the specialized, extreme size class","15 fans means significant bulk and weight","RGB lighting adds cost some buyers won't need"],
     bestFor: "Buyers with a genuinely 18-inch or close-to-18-inch heavy gaming laptop wanting the clearest verified fit.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31DsLHp9vML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJDWWHTV?tag=deskfinds0d-20",
-    description:
-      "This pad's stated range explicitly extends up to 18 inches via its adaptive magnetic frame system, a genuine fit for this extreme size class rather than a stretch beyond a general-purpose range. Automatic fan-speed control adjusts to system temperature via Razer Synapse.\n\nA 140mm brushless fan spinning up to 3000 RPM with foam pressure seals delivers strong, smart-controlled cooling, though at a substantially higher price than the AICHESON pick.",
-    specs: ["14-18 inch adaptive frames, explicitly covers 18-inch", "140mm fan, up to 3000 RPM", "Auto fan-speed control via software", "2-year warranty"],
-    pros: ["Explicitly stated adaptive coverage up to 18 inches", "Smart automatic fan control for variable heavy gaming heat", "Airtight pressure seals for efficiency", "2-year warranty"],
-    cons: ["Highest price in this guide by a wide margin", "Requires Razer Synapse software", "Adaptive frame swap adds a setup step versus a fixed-size pad"],
+    description: "This pad's stated range explicitly extends up to 18 inches via its adaptive magnetic frame system, a genuine fit for this extreme size class rather than a stretch beyond a general-purpose range. Automatic fan-speed control adjusts to system temperature via Razer Synapse.\n\nOne spot below AICHESON Laptop Fan Cooling Pad 15 Fans for Up to 18 inch Gaming Laptops in this ranking, it costs more than AICHESON Laptop Fan Cooling Pad 15 Fans for Up to 18 inch Gaming Laptops. The compromise here is straightforward: Highest price in this guide by a wide margin. What you gain in return: Explicitly stated adaptive coverage up to 18 inches. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Smart automatic fan control for variable heavy gaming heat. On the other side, Adaptive frame swap adds a setup step versus a fixed-size pad. That's the main tradeoff to weigh against everything above.",
+    specs: ["14-18 inch adaptive frames, explicitly covers 18-inch","140mm fan, up to 3000 RPM","Auto fan-speed control via software","2-year warranty"],
+    pros: ["Explicitly stated adaptive coverage up to 18 inches","Smart automatic fan control for variable heavy gaming heat","Airtight pressure seals for efficiency","2-year warranty"],
+    cons: ["Highest price in this guide by a wide margin","Requires Razer Synapse software","Adaptive frame swap adds a setup step versus a fixed-size pad"],
     bestFor: "Buyers with an 18-inch laptop wanting smart, automatic cooling control and willing to pay a premium for it.",
   },
   {
@@ -64,13 +62,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41RI0692h6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C69BVWGB?tag=deskfinds0d-20",
-    description:
-      "This pad's stated 15.6 to 19-inch range does genuinely extend past 18 inches, and its documented 44 degree Celsius temperature drop in 90 seconds is among the strongest cooling claims across our entire research pool, relevant for the extreme heat output of an 18-inch gaming chassis.\n\nA removable dust filter and 36W power output support the heavy-duty use case, though at up to 70dB, expect real fan noise during maximum operation.",
-    specs: ["15.6-19 inch range, extends past 18 inches", "5.5in turbo fan, up to 70dB", "36W power output, dust filter", "3-port USB hub"],
-    pros: ["Range genuinely extends past 18 inches", "Strongest documented temperature-drop claim in this guide", "Removable dust filter for long-term dust management", "3-port USB hub"],
-    cons: ["Up to 70dB is loud, expect real noise at maximum cooling", "High price", "Large, heavy design matches the extreme laptop size it's built for"],
+    description: "This pad's stated 15.6 to 19-inch range does genuinely extend past 18 inches, and its documented 44 degree Celsius temperature drop in 90 seconds is among the strongest cooling claims across our entire research pool, relevant for the extreme heat output of an 18-inch gaming chassis.\n\nSitting just under Razer Laptop Cooling Pad Adaptive Smart, it's priced lower than Razer Laptop Cooling Pad Adaptive Smart. Here's the honest tradeoff: Up to 70dB is loud, expect real noise at maximum cooling. And here's what it gets you instead: Range genuinely extends past 18 inches. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Strongest documented temperature-drop claim in this guide. On the other side, Large, heavy design matches the extreme laptop size it's built for. That's the main tradeoff to weigh against everything above.",
+    specs: ["15.6-19 inch range, extends past 18 inches","5.5in turbo fan, up to 70dB","36W power output, dust filter","3-port USB hub"],
+    pros: ["Range genuinely extends past 18 inches","Strongest documented temperature-drop claim in this guide","Removable dust filter for long-term dust management","3-port USB hub"],
+    cons: ["Up to 70dB is loud, expect real noise at maximum cooling","High price","Large, heavy design matches the extreme laptop size it's built for"],
     bestFor: "Buyers with the most demanding 18-inch gaming laptop wanting maximum documented cooling despite the noise tradeoff.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -84,32 +81,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Priority",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Clearest, most precisely stated 18-inch fit", "AICHESON 15-Fan Pad"],
-        ["Smart automatic fan control", "Razer Adaptive Smart"],
-        ["Maximum documented cooling power", "llano V12"],
+    "subheading": "By Laptop Size Fit",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Tightest size match for your laptop",
+          "llano V12 Gaming Laptop Cooling Pad"
+        ],
+        [
+          "Widest range, flexible for future upgrades",
+          "Razer Laptop Cooling Pad Adaptive Smart"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Why This Guide Is Short",
-    note: "Few consumer laptops genuinely use an 18-inch class chassis, and most cooling pads on the market cap their stated range around 17 inches without an explicit 18-inch confirmation. We would rather list three verified, genuinely fitting options than force a weak match from a general-purpose pad.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $40",
+          "AICHESON Laptop Fan Cooling Pad 15 Fans for Up to 18 inch Gaming Laptops"
+        ],
+        [
+          "Mid-range",
+          "llano V12 Gaming Laptop Cooling Pad"
+        ],
+        [
+          "No firm budget ceiling, prioritizing fan count or extras",
+          "Razer Laptop Cooling Pad Adaptive Smart"
+        ]
+      ]
+    }
   },
   {
-    subheading: "If Your Laptop Is Closer to 17 Inches",
-    note: "Check our Best 17-Inch Laptop Cooling Pads guide for a wider selection if your laptop's actual base dimensions run closer to that more common size, since an 18-inch-specific pad may be more pad than you need.",
+    "subheading": "Slim/Fewer Fans vs Multi-Fan High Airflow",
+    "cards": [
+      {
+        "label": "Slim, Fewer Fans",
+        "text": "Lighter and more portable with less total noise, at the cost of a smaller cooled surface area. In this comparison: Razer Laptop Cooling Pad Adaptive Smart."
+      },
+      {
+        "label": "Multi-Fan, High Airflow",
+        "text": "More total cooling surface and airflow, at the cost of extra bulk and more potential noise at full speed. In this comparison: AICHESON Laptop Fan Cooling Pad 15 Fans for Up to 18 inch Gaming Laptops."
+      }
+    ],
+    "note": "Most buyers should default to a slim pick like Razer Laptop Cooling Pad Adaptive Smart for everyday portability, and only step up to AICHESON Laptop Fan Cooling Pad 15 Fans for Up to 18 inch Gaming Laptops's fan count if you're running genuinely demanding workloads that generate real sustained heat."
   },
+  {
+    "subheading": "By Height Adjustment Range",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Most ergonomic height adjustment range",
+          "AICHESON Laptop Fan Cooling Pad 15 Fans for Up to 18 inch Gaming Laptops"
+        ],
+        [
+          "Simplest setup, fewer adjustments to fuss with",
+          "AICHESON Laptop Fan Cooling Pad 15 Fans for Up to 18 inch Gaming Laptops"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Fanless or Sealed-Chassis Laptop (Like MacBook) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation that your specific laptop model has bottom-panel intake vents, since a cooling pad provides little benefit on a fully sealed, fanless unibody design regardless of physical fit."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Every pick here is designed around a vented-bottom laptop; if you're on a fanless MacBook specifically, check our dedicated MacBook Air cooling pad guide for that honesty caveat before buying any pad in this comparison."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Razer Laptop Cooling Pad Adaptive Smart offers: Explicitly stated adaptive coverage up to 18 inches. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "AICHESON Laptop Fan Cooling Pad 15 Fans for Up to 18 inch Gaming Laptops already covers the essentials: Explicitly and precisely stated for 18-inch laptops. The main thing you'd be paying extra for elsewhere in this list is fan count or height range you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm the explicit 18-inch statement", explanation: "Few products explicitly confirm 18-inch compatibility. Verify the listing states this size directly rather than assuming a general large-laptop range covers it." },
-  { criterion: "This tier demands stronger cooling capacity", explanation: "18-inch laptops are almost universally heavy gaming or workstation machines with substantial heat output, favor documented strong airflow or temperature-drop figures." },
-  { criterion: "Genuine product availability is limited here", explanation: "This is a genuinely thin category. Don't expect the same breadth of choice available at more common sizes like 15.6 or 17 inches." },
-  { criterion: "Weigh noise against maximum cooling power", explanation: "The strongest documented cooling picks in this guide reach up to 70dB. Decide whether maximum thermal performance or quieter operation matters more for your setup." },
-  { criterion: "Consider the 17-inch tier if your laptop is close", explanation: "If your 18-inch-labeled laptop's actual base dimensions are closer to 17 inches, our broader 17-inch guide offers more verified options." },
+  {
+    "criterion": "Check the pad's stated compatible size range against your laptop's real footprint, not its screen size",
+    "explanation": "A laptop's advertised screen size, like 13 or 15.6 inches, describes the diagonal measurement of the display panel, not the physical width and depth of the laptop's base that actually sits on top of a cooling pad, and two laptops with the identical screen size can have meaningfully different base dimensions depending on bezel thickness and chassis design.\n\nCooling pad listings state a compatible size range in inches specifically because they're describing what base footprint fits their surface and fan layout, so treating the screen-size number alone as a fit guarantee is a genuine buying mistake, not just an imprecise shortcut.\n\nMeasure your laptop's actual width and depth, or find those dimensions in its own spec sheet, and compare that against the pad's stated range rather than matching screen-size numbers."
+  },
+  {
+    "criterion": "Understand that a wider-range pad isn't automatically better for a smaller laptop",
+    "explanation": "Cooling pads spread their fans across the surface in a fixed layout designed around the middle of their stated compatible range, so a pad rated for 12 to 17 inches has its fans positioned to reach a wide variety of vent locations across that whole span, while a laptop toward the small end of that range may not sit directly over as many of those fans as it would on a pad sized more tightly around its own dimensions.\n\nThis matters because the cooling benefit of a pad comes specifically from airflow reaching the laptop's actual intake vents, not from the pad's overall surface area, so a smaller laptop on an oversized pad can genuinely get less effective cooling than the same laptop on a proportionally sized pad, despite technically fitting within the stated range.\n\nWhen your laptop sits toward one end of a pad's stated range rather than the middle, check user photos or reviews specifically describing that size laptop's fit before assuming the airflow lines up well."
+  },
+  {
+    "criterion": "Confirm your laptop's actual vent location and design, especially for thin ultrabooks and MacBooks",
+    "explanation": "Most cooling pads are designed around bottom-vented laptops, where intake vents sit on the underside of the chassis directly facing the pad's fans, but some laptops, most notably many MacBook models, use a fully sealed or fanless internal design where the chassis itself acts as a heat sink rather than relying on active airflow from underneath.\n\nThis is a genuine compatibility gap that a cooling pad's stated inch-range compatibility says nothing about, since a pad can physically fit a MacBook's exact footprint while providing essentially no cooling benefit if that specific model has no bottom vents for the fans to blow into.\n\nCheck your specific laptop model's actual cooling design (vented bottom panel versus sealed unibody) before assuming a cooling pad will meaningfully lower its temperature, and treat this as a separate question from simple physical size fit."
+  },
+  {
+    "criterion": "Weigh fan count and noise level together, not fan count alone",
+    "explanation": "A pad's fan count, commonly ranging from a single central fan up to five or six smaller fans, is often marketed as a straightforward better-is-more spec, but more fans spinning simultaneously generally means more total noise output, and a pad with independently controllable fan zones lets you balance airflow against noise rather than forcing an all-or-nothing choice.\n\nThis is a real everyday tradeoff for anyone using a laptop in a quiet room or on a video call, since a cooling pad running at full multi-fan speed can become audible enough to be distracting, undermining the benefit if you end up turning it off to avoid the noise.\n\nCheck whether the listing states selectable fan modes or independently controlled fan zones, not just the total fan count, if noise control matters to your specific environment."
+  },
+  {
+    "criterion": "Confirm the power source and port type match your laptop before assuming plug-and-play compatibility",
+    "explanation": "Nearly all cooling pads draw power over a USB cable rather than a separate power adapter, which keeps setup simple, but the cable end that plugs into your laptop is typically USB-A, and a laptop with only USB-C ports (common on newer ultrabooks and MacBooks) will need a separate USB-C adapter or hub to actually power the pad, an extra cost and cable that isn't obvious from the listing photos alone.\n\nThis matters because a cooling pad that can't be powered defeats its entire purpose regardless of how well it otherwise fits your laptop's size and vent layout, so it's a genuine prerequisite to check, not an afterthought.\n\nCheck the listing's stated cable connector type and confirm it matches an available port on your specific laptop, or budget for an adapter if it doesn't."
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51uaAp0-YIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CL7FZ5NV?tag=deskfinds0d-20",
-    description:
-      "To be transparent upfront, this pad's listing states five total fans, one small center fan flanked by four larger fans on the sides. It is not a genuine four-fan product, but the four large fans do the majority of the cooling work, with the small center fan functioning more as a support unit than an equal fifth fan.\n\nA honeycomb metal mesh top and five adjustable stand heights round out the design, and two USB ports avoid occupying the laptop's own ports. If your priority is genuinely four primary fans worth of airflow with a bonus support fan rather than an exact four-fan spec, this is the closest documented match we found.",
-    specs: ["5 fans total: 4 large + 1 small center fan", "Honeycomb metal mesh top", "5 adjustable stand heights", "2 USB ports", "Fits 12-15.6 inch laptops"],
-    pros: ["Four large fans provide the primary airflow, closest available match to a four-fan design", "5 adjustable height settings", "Lower price than most higher fan-count pads", "12-month stated warranty"],
-    cons: ["Not a genuine four-fan product, ships with 5 total fans", "No stated dBA noise figure", "Smaller 12-15.6 inch laptop compatibility"],
+    description: "To be transparent upfront, this pad's listing states five total fans, one small center fan flanked by four larger fans on the sides. It is not a genuine four-fan product, but the four large fans do the majority of the cooling work, with the small center fan functioning more as a support unit than an equal fifth fan.\n\nIt earns the top spot in this comparison over TECKNET Laptop Cooling Pad for one main reason. Four large fans provide the primary airflow, closest available match to a four-fan design. On price, it comes in below TECKNET Laptop Cooling Pad, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: 5 adjustable height settings. On the other side, Smaller 12-15.6 inch laptop compatibility. That's the main tradeoff to weigh against everything above.",
+    specs: ["5 fans total: 4 large + 1 small center fan","Honeycomb metal mesh top","5 adjustable stand heights","2 USB ports","Fits 12-15.6 inch laptops"],
+    pros: ["Four large fans provide the primary airflow, closest available match to a four-fan design","5 adjustable height settings","Lower price than most higher fan-count pads","12-month stated warranty"],
+    cons: ["Not a genuine four-fan product, ships with 5 total fans","No stated dBA noise figure","Smaller 12-15.6 inch laptop compatibility"],
     bestFor: "Buyers who specifically want four large primary fans and are comfortable with a small fifth support fan included.",
   },
   {
@@ -47,13 +46,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51phX6jwL9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B016CL2DE6?tag=deskfinds0d-20",
-    description:
-      "This pad's own listing explicitly confirms three powerful 110mm fans running at a stated 1200 RPM, one fan short of a true four-fan design. We include it here as the closest option below the four-fan mark for buyers who would rather step down than up.\n\nIt is USB powered directly with no external adapter, and two USB ports let you connect a peripheral without losing a port on the laptop itself. If three genuine fans covers your workload, this avoids paying for cooling hardware you may not need, but it will not match the total airflow of the five-fan pick above.",
-    specs: ["3 fans, 110mm, 1200 RPM stated", "USB powered, no adapter needed", "2 height settings", "2 USB ports", "Fits 12-17 inch laptops"],
-    pros: ["Genuine, confirmed 3-fan configuration, not an inflated count", "Specific 1200 RPM figure stated", "Wide 12-17 inch laptop compatibility", "Lifetime support with registration"],
-    cons: ["One fan short of a true four-fan design", "Only 2 height settings", "Less total airflow than the 5-fan pick above"],
+    description: "This pad's own listing explicitly confirms three powerful 110mm fans running at a stated 1200 RPM, one fan short of a true four-fan design. We include it here as the closest option below the four-fan mark for buyers who would rather step down than up.\n\nOne spot below AIMIUZI Laptop Cooling Pad in this ranking, it costs more than AIMIUZI Laptop Cooling Pad. The compromise here is straightforward: One fan short of a true four-fan design. What you gain in return: Genuine, confirmed 3-fan configuration, not an inflated count. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Specific 1200 RPM figure stated. On the other side, Less total airflow than the 5-fan pick above. That's the main tradeoff to weigh against everything above.",
+    specs: ["3 fans, 110mm, 1200 RPM stated","USB powered, no adapter needed","2 height settings","2 USB ports","Fits 12-17 inch laptops"],
+    pros: ["Genuine, confirmed 3-fan configuration, not an inflated count","Specific 1200 RPM figure stated","Wide 12-17 inch laptop compatibility","Lifetime support with registration"],
+    cons: ["One fan short of a true four-fan design","Only 2 height settings","Less total airflow than the 5-fan pick above"],
     bestFor: "Buyers who want a verified, honestly labeled fan count just below four rather than an inflated spec.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -67,48 +65,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Why We Could Not Confirm Any True Four-Fan Pad",
-    intro: "Laptop cooling pad manufacturers tend to market fan counts in round marketing numbers, most commonly two, three, five, six, or nine fans. Four fans as an exact, standalone spec is genuinely rare in the current market data we checked.",
-    table: {
-      headers: ["Marketed near 'four fans'", "Actual verified fan count"],
-      rows: [
-        ["AIMIUZI Laptop Cooling Pad", "5 total (4 large + 1 small)"],
-        ["ICE COOREL Gaming Laptop Cooling Pad", "6 fans"],
-        ["TECKNET Laptop Cooling Pad with Phone Stand", "9 fans"],
-        ["LIANGSTAR Laptop Cooling Pad", "6 fans"],
+    "subheading": "By Laptop Size Fit",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Tightest size match for your laptop",
+          "AIMIUZI Laptop Cooling Pad"
+        ],
+        [
+          "Widest range, flexible for future upgrades",
+          "TECKNET Laptop Cooling Pad"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Choose a Direction: Step Down or Step Up",
-    cards: [
-      { label: "Step down to 3 genuine fans", text: "The TECKNET Portable Slim pick above ships with a confirmed 3-fan design, honest and verified, if you are comfortable with slightly less total airflow than four fans would offer." },
-      { label: "Step up to 4 large fans plus 1 small", text: "The AIMIUZI pick's four large fans do the primary cooling work, making it the closer functional match if raw fan count matters less to you than confirmed large-fan coverage." },
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $21",
+          "AIMIUZI Laptop Cooling Pad"
+        ],
+        [
+          "Mid-range",
+          "TECKNET Laptop Cooling Pad"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Slim/Fewer Fans vs Multi-Fan High Airflow",
+    "cards": [
+      {
+        "label": "Slim, Fewer Fans",
+        "text": "Lighter and more portable with less total noise, at the cost of a smaller cooled surface area. In this comparison: TECKNET Laptop Cooling Pad."
+      },
+      {
+        "label": "Multi-Fan, High Airflow",
+        "text": "More total cooling surface and airflow, at the cost of extra bulk and more potential noise at full speed. In this comparison: AIMIUZI Laptop Cooling Pad."
+      }
     ],
+    "note": "Most buyers should default to a slim pick like TECKNET Laptop Cooling Pad for everyday portability, and only step up to AIMIUZI Laptop Cooling Pad's fan count if you're running genuinely demanding workloads that generate real sustained heat."
   },
   {
-    subheading: "If Exactly Four Fans Matters to You",
-    note: "Based on our research, no cooling pad listing we verified states a genuine, standalone four-fan configuration. If a listing claims exactly four fans elsewhere, read its full feature text carefully, since our research found marketed fan counts near four consistently understate or overstate the real number once the specs are read in full.",
-  },
-  {
-    subheading: "Compare Against Our Confirmed Fan-Count Guides",
-    table: {
-      headers: ["If you want", "See instead"],
-      rows: [
-        ["A genuinely confirmed 3-fan pad", "Our three-fan laptop cooling pads guide"],
-        ["A genuinely confirmed 5-fan pad", "Our five-fan laptop cooling pads guide"],
-        ["A genuinely confirmed 6-fan pad", "Our six-fan laptop cooling pads guide"],
+    "subheading": "By Height Adjustment Range",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Most ergonomic height adjustment range",
+          "TECKNET Laptop Cooling Pad"
+        ],
+        [
+          "Simplest setup, fewer adjustments to fuss with",
+          "AIMIUZI Laptop Cooling Pad"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a Fanless or Sealed-Chassis Laptop (Like MacBook) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation that your specific laptop model has bottom-panel intake vents, since a cooling pad provides little benefit on a fully sealed, fanless unibody design regardless of physical fit."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Every pick here is designed around a vented-bottom laptop; if you're on a fanless MacBook specifically, check our dedicated MacBook Air cooling pad guide for that honesty caveat before buying any pad in this comparison."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what TECKNET Laptop Cooling Pad offers: Genuine, confirmed 3-fan configuration, not an inflated count. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "AIMIUZI Laptop Cooling Pad already covers the essentials: Four large fans provide the primary airflow, closest available match to a four-fan design. The main thing you'd be paying extra for elsewhere in this list is fan count or height range you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify the fan count against real specs, not the title", explanation: "We found several listings implying a four-fan design in their title or images, where the actual feature text stated a different number entirely, most often five, six, or nine. Always read the full spec list." },
-  { criterion: "A five-fan pad with four large fans can function like a four-fan design", explanation: "The AIMIUZI pick's small center fan is secondary to its four large side fans. If large-fan coverage matters more to you than the exact total count, this is a reasonable functional substitute." },
-  { criterion: "Do not assume four is meaningfully better than three", explanation: "Fan size and stated RPM affect total airflow more than a single additional fan. A genuine 3-fan pad with large 110mm fans can move comparable air to a smaller four-fan layout." },
-  { criterion: "Watch for marketing language that implies a count without stating it", explanation: "Product titles sometimes show four fan icons or a similar visual cue without the feature text actually confirming four fans. Cross-check the bullet points, not just the images." },
-  { criterion: "Consider whether five or six fans better fits sustained workloads", explanation: "If your actual need is more airflow for gaming or rendering, stepping up to a confirmed five or six-fan pad may serve you better than continuing to search for an exact four-fan match." },
+  {
+    "criterion": "Check the pad's stated compatible size range against your laptop's real footprint, not its screen size",
+    "explanation": "A laptop's advertised screen size, like 13 or 15.6 inches, describes the diagonal measurement of the display panel, not the physical width and depth of the laptop's base that actually sits on top of a cooling pad, and two laptops with the identical screen size can have meaningfully different base dimensions depending on bezel thickness and chassis design.\n\nCooling pad listings state a compatible size range in inches specifically because they're describing what base footprint fits their surface and fan layout, so treating the screen-size number alone as a fit guarantee is a genuine buying mistake, not just an imprecise shortcut.\n\nMeasure your laptop's actual width and depth, or find those dimensions in its own spec sheet, and compare that against the pad's stated range rather than matching screen-size numbers."
+  },
+  {
+    "criterion": "Understand that a wider-range pad isn't automatically better for a smaller laptop",
+    "explanation": "Cooling pads spread their fans across the surface in a fixed layout designed around the middle of their stated compatible range, so a pad rated for 12 to 17 inches has its fans positioned to reach a wide variety of vent locations across that whole span, while a laptop toward the small end of that range may not sit directly over as many of those fans as it would on a pad sized more tightly around its own dimensions.\n\nThis matters because the cooling benefit of a pad comes specifically from airflow reaching the laptop's actual intake vents, not from the pad's overall surface area, so a smaller laptop on an oversized pad can genuinely get less effective cooling than the same laptop on a proportionally sized pad, despite technically fitting within the stated range.\n\nWhen your laptop sits toward one end of a pad's stated range rather than the middle, check user photos or reviews specifically describing that size laptop's fit before assuming the airflow lines up well."
+  },
+  {
+    "criterion": "Confirm your laptop's actual vent location and design, especially for thin ultrabooks and MacBooks",
+    "explanation": "Most cooling pads are designed around bottom-vented laptops, where intake vents sit on the underside of the chassis directly facing the pad's fans, but some laptops, most notably many MacBook models, use a fully sealed or fanless internal design where the chassis itself acts as a heat sink rather than relying on active airflow from underneath.\n\nThis is a genuine compatibility gap that a cooling pad's stated inch-range compatibility says nothing about, since a pad can physically fit a MacBook's exact footprint while providing essentially no cooling benefit if that specific model has no bottom vents for the fans to blow into.\n\nCheck your specific laptop model's actual cooling design (vented bottom panel versus sealed unibody) before assuming a cooling pad will meaningfully lower its temperature, and treat this as a separate question from simple physical size fit."
+  },
+  {
+    "criterion": "Weigh fan count and noise level together, not fan count alone",
+    "explanation": "A pad's fan count, commonly ranging from a single central fan up to five or six smaller fans, is often marketed as a straightforward better-is-more spec, but more fans spinning simultaneously generally means more total noise output, and a pad with independently controllable fan zones lets you balance airflow against noise rather than forcing an all-or-nothing choice.\n\nThis is a real everyday tradeoff for anyone using a laptop in a quiet room or on a video call, since a cooling pad running at full multi-fan speed can become audible enough to be distracting, undermining the benefit if you end up turning it off to avoid the noise.\n\nCheck whether the listing states selectable fan modes or independently controlled fan zones, not just the total fan count, if noise control matters to your specific environment."
+  },
+  {
+    "criterion": "Confirm the power source and port type match your laptop before assuming plug-and-play compatibility",
+    "explanation": "Nearly all cooling pads draw power over a USB cable rather than a separate power adapter, which keeps setup simple, but the cable end that plugs into your laptop is typically USB-A, and a laptop with only USB-C ports (common on newer ultrabooks and MacBooks) will need a separate USB-C adapter or hub to actually power the pad, an extra cost and cable that isn't obvious from the listing photos alone.\n\nThis matters because a cooling pad that can't be powered defeats its entire purpose regardless of how well it otherwise fits your laptop's size and vent layout, so it's a genuine prerequisite to check, not an afterthought.\n\nCheck the listing's stated cable connector type and confirm it matches an available port on your specific laptop, or budget for an adapter if it doesn't."
+  }
 ];
 
 export const faq: FaqItem[] = [

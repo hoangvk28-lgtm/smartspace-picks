@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41RI0692h6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C69BVWGB?tag=deskfinds0d-20",
-    description:
-      "This pad's reinforced chassis design and support for laptops 15.6 to 19 inches make it a genuine match for Dell's heavier gaming-oriented lines, which run hotter and weigh more than a thin ultrabook. A 5.5-inch turbo fan and a stated 44 degree Celsius reduction target the kind of sustained thermal load a Dell gaming laptop can generate under intensive use.\n\nA 36W external power adapter and removable dust filter add practical value for a laptop you expect to run hot regularly. This is not Dell-exclusive, the listing names it as compatible broadly rather than engineered around one Dell model line specifically, but its size and power specs suit Dell's larger, more powerful laptops well.",
-    specs: ["Reinforced chassis, 15.6-19 inch compatibility", "5.5in turbo fan, stated 44°C reduction in 90 seconds", "36W external power adapter", "Removable dust filter", "3 adjustable tilt angles"],
-    pros: ["Size range and reinforced design suit heavier Dell gaming laptops well", "Confirmed external power adapter included", "Removable dust filter for long-term maintenance", "Strong stated cooling performance"],
-    cons: ["Not Dell-exclusive, universal-fit compatibility only", "Highest price in this guide", "Up to 70dB at maximum fan speed"],
+    description: "This pad's reinforced chassis design and support for laptops 15.6 to 19 inches make it a genuine match for Dell's heavier gaming-oriented lines, which run hotter and weigh more than a thin ultrabook. A 5.5-inch turbo fan and a stated 44 degree Celsius reduction target the kind of sustained thermal load a Dell gaming laptop can generate under intensive use.\n\nIt earns the top spot in this comparison over Kootek Laptop Cooling Pad Cooler Stand with 5 Quiet Fans for one main reason. Size range and reinforced design suit heavier Dell gaming laptops well. On price, it's actually priced above Kootek Laptop Cooling Pad Cooler Stand with 5 Quiet Fans, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Confirmed external power adapter included. On the other side, Up to 70dB at maximum fan speed. That's the main tradeoff to weigh against everything above.",
+    specs: ["Reinforced chassis, 15.6-19 inch compatibility","5.5in turbo fan, stated 44°C reduction in 90 seconds","36W external power adapter","Removable dust filter","3 adjustable tilt angles"],
+    pros: ["Size range and reinforced design suit heavier Dell gaming laptops well","Confirmed external power adapter included","Removable dust filter for long-term maintenance","Strong stated cooling performance"],
+    cons: ["Not Dell-exclusive, universal-fit compatibility only","Highest price in this guide","Up to 70dB at maximum fan speed"],
     bestFor: "Dell gaming laptop owners with a 15.6 to 19 inch chassis who want strong documented cooling performance.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01469DJLM?tag=deskfinds0d-20",
-    description:
-      "The listing explicitly names Dell among the laptop brands it's designed for, alongside HP, Alienware, and ASUS, spanning the 12 to 17 inch range that covers most mainstream Dell Inspiron and Latitude models. Five fans with selectable operation (1, 4, or all 5) and six height settings offer real flexibility to match your specific Dell laptop's vent placement and preferred angle.\n\nTwo stoppers on the front surface prevent slipping, a detail worth having given Dell laptops vary in weight across the lineup. At under $25 with a built-in dual USB hub, this is a strong, affordable general-purpose match for most mainstream Dell laptops.",
-    specs: ["Explicitly names Dell as a compatible brand", "5 fans, selectable 1, 4, or 5 fan operation", "6 adjustable height settings", "Dual USB hub built in", "12-17 inch laptop compatibility"],
-    pros: ["Explicit Dell compatibility stated in the listing", "Wide 12-17 inch size range covers most mainstream Dell models", "Selectable fan count for flexible airflow", "Affordable price with a built-in USB hub"],
-    cons: ["USB-A only, adapter needed for Type-C Dell models", "Not specifically engineered around any one Dell chassis", "No stated maximum laptop weight capacity"],
+    description: "The listing explicitly names Dell among the laptop brands it's designed for, alongside HP, Alienware, and ASUS, spanning the 12 to 17 inch range that covers most mainstream Dell Inspiron and Latitude models. Five fans with selectable operation (1, 4, or all 5) and six height settings offer real flexibility to match your specific Dell laptop's vent placement and preferred angle.\n\nOne spot below llano V12 Gaming Laptop Cooling Pad Laptop Cooler in this ranking, it's priced lower than llano V12 Gaming Laptop Cooling Pad Laptop Cooler. The compromise here is straightforward: USB-A only, adapter needed for Type-C Dell models. What you gain in return: Explicit Dell compatibility stated in the listing. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Wide 12-17 inch size range covers most mainstream Dell models. On the other side, No stated maximum laptop weight capacity. That's the main tradeoff to weigh against everything above.",
+    specs: ["Explicitly names Dell as a compatible brand","5 fans, selectable 1, 4, or 5 fan operation","6 adjustable height settings","Dual USB hub built in","12-17 inch laptop compatibility"],
+    pros: ["Explicit Dell compatibility stated in the listing","Wide 12-17 inch size range covers most mainstream Dell models","Selectable fan count for flexible airflow","Affordable price with a built-in USB hub"],
+    cons: ["USB-A only, adapter needed for Type-C Dell models","Not specifically engineered around any one Dell chassis","No stated maximum laptop weight capacity"],
     bestFor: "Owners of mainstream Dell Inspiron or Latitude laptops who want an affordable, explicitly Dell-compatible pad.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51phX6jwL9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B016CL2DE6?tag=deskfinds0d-20",
-    description:
-      "This listing also explicitly names Dell among compatible brands, and its slim, lightweight profile suits thinner Dell laptops better than the bulkier gaming-oriented picks in this guide. Three fans at a documented 1200 RPM pull air from the bottom, a reasonable match for a slim Dell ultrabook's more modest cooling needs compared to a gaming chassis.\n\nRubber pads keep the laptop securely in place, and two adjustable height settings give a basic ergonomic boost. If your Dell laptop leans toward the thinner, lighter end of the lineup, this slimmer pad is a more proportionate match than a heavy-duty gaming pad built for a bulkier chassis.",
-    specs: ["Explicitly names Dell as a compatible brand", "3 fans, documented 1200 RPM", "Slim, lightweight profile", "Double USB ports (USB-A)", "12-17 inch compatibility"],
-    pros: ["Explicit Dell compatibility stated in the listing", "Slim profile proportionate to thinner Dell laptops", "Documented 1200 RPM fan speed", "Lifetime manufacturer support"],
-    cons: ["USB-A only, adapter needed for Type-C Dell models", "Only 2 height settings, less granular than premium picks", "Not engineered around any specific Dell chassis vent layout"],
+    description: "This listing also explicitly names Dell among compatible brands, and its slim, lightweight profile suits thinner Dell laptops better than the bulkier gaming-oriented picks in this guide. Three fans at a documented 1200 RPM pull air from the bottom, a reasonable match for a slim Dell ultrabook's more modest cooling needs compared to a gaming chassis.\n\nSitting just under Kootek Laptop Cooling Pad Cooler Stand with 5 Quiet Fans, it costs more than Kootek Laptop Cooling Pad Cooler Stand with 5 Quiet Fans. Here's the honest tradeoff: USB-A only, adapter needed for Type-C Dell models. And here's what it gets you instead: Explicit Dell compatibility stated in the listing. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Slim profile proportionate to thinner Dell laptops. On the other side, Not engineered around any specific Dell chassis vent layout. That's the main tradeoff to weigh against everything above.",
+    specs: ["Explicitly names Dell as a compatible brand","3 fans, documented 1200 RPM","Slim, lightweight profile","Double USB ports (USB-A)","12-17 inch compatibility"],
+    pros: ["Explicit Dell compatibility stated in the listing","Slim profile proportionate to thinner Dell laptops","Documented 1200 RPM fan speed","Lifetime manufacturer support"],
+    cons: ["USB-A only, adapter needed for Type-C Dell models","Only 2 height settings, less granular than premium picks","Not engineered around any specific Dell chassis vent layout"],
     bestFor: "Owners of thinner Dell ultrabooks who want a proportionately slim, lightweight cooling pad.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51MNLZRfO8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B087WF59N1?tag=deskfinds0d-20",
-    description:
-      "Sized for 15 to 17.3 inch laptops, this pad's range fits many Dell gaming and workstation-oriented models, though the listing describes broad compatibility rather than Dell-specific engineering. Six RGB fans and an LCD speed readout add styling on top of genuine six-height adjustability for ergonomic comfort.\n\nDual USB ports and a phone stand round out the practical features. If you own a larger Dell laptop and want RGB styling alongside decent fan coverage, this is a reasonable match, though check your exact Dell model's size against the 15 to 17.3 inch range before buying.",
-    specs: ["15-17.3 inch compatibility, broad brand support", "6 transparent RGB fans", "LCD fan-speed display", "6 height settings", "2 USB ports, phone stand"],
-    pros: ["Size range fits many larger Dell laptops", "Six-level height adjustment", "RGB styling with LCD control", "Reasonable price for its fan count"],
-    cons: ["Not Dell-specific, broad universal compatibility only", "No stated dB noise rating", "Sized for larger laptops only, not thin ultrabooks"],
+    description: "Sized for 15 to 17.3 inch laptops, this pad's range fits many Dell gaming and workstation-oriented models, though the listing describes broad compatibility rather than Dell-specific engineering. Six RGB fans and an LCD speed readout add styling on top of genuine six-height adjustability for ergonomic comfort.\n\nRanked just behind TECKNET Laptop Cooling Pad, it costs more than TECKNET Laptop Cooling Pad. The real tradeoff against that pick: Not Dell-specific, broad universal compatibility only. In exchange, it offers this instead: Size range fits many larger Dell laptops. That's the swap that decides whether this pick or the one above it is the better fit for your laptop.\n\nWorth knowing before you decide: Six-level height adjustment. On the other side, Sized for larger laptops only, not thin ultrabooks. That's the main tradeoff to weigh against everything above.",
+    specs: ["15-17.3 inch compatibility, broad brand support","6 transparent RGB fans","LCD fan-speed display","6 height settings","2 USB ports, phone stand"],
+    pros: ["Size range fits many larger Dell laptops","Six-level height adjustment","RGB styling with LCD control","Reasonable price for its fan count"],
+    cons: ["Not Dell-specific, broad universal compatibility only","No stated dB noise rating","Sized for larger laptops only, not thin ultrabooks"],
     bestFor: "Owners of larger 15 to 17.3 inch Dell gaming or workstation laptops who want RGB styling.",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51cdB-ugjML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B096ZKRBB2?tag=deskfinds0d-20",
-    description:
-      "This listing explicitly names Dell among its supported brands, with a 12 to 17.3 inch range that covers nearly the entire Dell laptop lineup from thin ultrabooks to larger models. Six fans with independent speed control and seven height settings give strong flexibility for matching your specific Dell laptop's needs, at the lowest price in this guide.\n\nA large metal mesh surface with diamond-shaped grooves adds heat dissipation area beyond the fans alone. A phone holder and non-slip baffle round out a well-rounded, affordable package for nearly any Dell laptop size.",
-    specs: ["Explicitly names Dell as a compatible brand", "6 fans, independently switchable speed", "7 height settings", "Large metal mesh surface", "12-17.3 inch compatibility"],
-    pros: ["Lowest price in this guide with explicit Dell compatibility", "Widest documented size range (12-17.3 inches)", "Seven height settings for ergonomic flexibility", "Metal mesh surface adds heat dissipation area"],
-    cons: ["USB ports and connector type not detailed beyond basic compatibility", "Not engineered around any specific Dell chassis", "No stated dB noise rating"],
+    description: "This listing explicitly names Dell among its supported brands, with a 12 to 17.3 inch range that covers nearly the entire Dell laptop lineup from thin ultrabooks to larger models. Six fans with independent speed control and seven height settings give strong flexibility for matching your specific Dell laptop's needs, at the lowest price in this guide.\n\nOne spot below ICE COOREL Gaming Laptop Cooling Pad 15-17.3 Inch with 6 RGB Fans in this ranking, it's priced lower than ICE COOREL Gaming Laptop Cooling Pad 15-17.3 Inch with 6 RGB Fans. The compromise here is straightforward: USB ports and connector type not detailed beyond basic compatibility. What you gain in return: Lowest price in this guide with explicit Dell compatibility. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Widest documented size range (12-17.3 inches). On the other side, No stated dB noise rating. That's the main tradeoff to weigh against everything above.",
+    specs: ["Explicitly names Dell as a compatible brand","6 fans, independently switchable speed","7 height settings","Large metal mesh surface","12-17.3 inch compatibility"],
+    pros: ["Lowest price in this guide with explicit Dell compatibility","Widest documented size range (12-17.3 inches)","Seven height settings for ergonomic flexibility","Metal mesh surface adds heat dissipation area"],
+    cons: ["USB ports and connector type not detailed beyond basic compatibility","Not engineered around any specific Dell chassis","No stated dB noise rating"],
     bestFor: "Budget-conscious Dell owners who want the widest documented laptop size compatibility at the lowest price.",
   },
   {
@@ -115,11 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51+142vwVRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00NNMB3KS?tag=deskfinds0d-20",
-    description:
-      "Sized for 15.6 to 17 inch laptops, this pad suits larger Dell models with a slim, portable design and a metal mesh carrying surface for stability. Three ultra-quiet fans keep noise down, a reasonable choice if you use a larger Dell laptop in a shared workspace where fan noise matters.\n\nAn extra USB port with its own power switch adds connectivity without complicating the base cooling function. This isn't a Dell-specific design, but its size range and quiet operation make it a sensible match for larger Dell laptops where noise is a bigger concern than raw airflow.",
-    specs: ["15.6-17 inch compatibility", "3 ultra-quiet fans", "Metal mesh carrying surface", "Extra USB port with power switch", "Two adjustable height settings"],
-    pros: ["Quiet three-fan design suits shared workspace use", "Metal mesh surface for stable laptop contact", "Slim and portable", "Affordable price point"],
-    cons: ["USB-A only, adapter needed for Type-C Dell models", "Not Dell-specific, broad compatibility only", "Only 2 height settings"],
+    description: "Sized for 15.6 to 17 inch laptops, this pad suits larger Dell models with a slim, portable design and a metal mesh carrying surface for stability. Three ultra-quiet fans keep noise down, a reasonable choice if you use a larger Dell laptop in a shared workspace where fan noise matters.\n\nSitting just under LIANGSTAR Laptop Cooling Pad, it costs more than LIANGSTAR Laptop Cooling Pad. Here's the honest tradeoff: USB-A only, adapter needed for Type-C Dell models. And here's what it gets you instead: Quiet three-fan design suits shared workspace use. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Metal mesh surface for stable laptop contact. On the other side, Only 2 height settings. That's the main tradeoff to weigh against everything above.",
+    specs: ["15.6-17 inch compatibility","3 ultra-quiet fans","Metal mesh carrying surface","Extra USB port with power switch","Two adjustable height settings"],
+    pros: ["Quiet three-fan design suits shared workspace use","Metal mesh surface for stable laptop contact","Slim and portable","Affordable price point"],
+    cons: ["USB-A only, adapter needed for Type-C Dell models","Not Dell-specific, broad compatibility only","Only 2 height settings"],
     bestFor: "Owners of larger Dell laptops who prioritize quiet operation in a shared workspace.",
   },
   {
@@ -132,11 +126,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31DsLHp9vML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJDWWHTV?tag=deskfinds0d-20",
-    description:
-      "Razer's three magnetic frames are sized for different laptop widths from ultra-portable 14 inch to 18 inch powerhouses, a range broad enough to cover both thinner and heavier Dell laptops, though the listing does not name Dell specifically. Adaptive smart cooling automatically manages fan speed based on system temperature, which suits a demanding Dell gaming laptop's variable thermal load well.\n\nAt the highest price in this guide, this is the pick for Dell gaming laptop owners who want premium sealed-pressure engineering and don't mind paying for it. Confirm your specific Dell model's width against Razer's frame sizing before buying, since fit precision matters more here than on a generic mesh-top pad.",
-    specs: ["3 magnetic frames, 14 to 18 inch width range", "Documented 3000 RPM, adaptive smart cooling", "Airtight pressure chamber with foam seals", "Requires Razer Synapse software", "2-year manufacturer warranty"],
-    pros: ["Wide width range covers both thin and heavy Dell laptops", "Adaptive automatic fan speed control suits variable Dell gaming loads", "Sealed pressure chamber for directed airflow", "2-year manufacturer warranty"],
-    cons: ["Does not name Dell specifically in its compatibility list", "Highest price in this guide by a wide margin", "Requires Razer Synapse software for full customization"],
+    description: "Razer's three magnetic frames are sized for different laptop widths from ultra-portable 14 inch to 18 inch powerhouses, a range broad enough to cover both thinner and heavier Dell laptops, though the listing does not name Dell specifically. Adaptive smart cooling automatically manages fan speed based on system temperature, which suits a demanding Dell gaming laptop's variable thermal load well.\n\nRanked just behind havit HV-F2056 15.6\"-17\" Laptop Cooler Cooling Pad, it costs more than havit HV-F2056 15.6\"-17\" Laptop Cooler Cooling Pad. The real tradeoff against that pick: Does not name Dell specifically in its compatibility list. In exchange, it offers this instead: Wide width range covers both thin and heavy Dell laptops. That's the swap that decides whether this pick or the one above it is the better fit for your laptop.\n\nWorth knowing before you decide: Adaptive automatic fan speed control suits variable Dell gaming loads. On the other side, Requires Razer Synapse software for full customization. That's the main tradeoff to weigh against everything above.",
+    specs: ["3 magnetic frames, 14 to 18 inch width range","Documented 3000 RPM, adaptive smart cooling","Airtight pressure chamber with foam seals","Requires Razer Synapse software","2-year manufacturer warranty"],
+    pros: ["Wide width range covers both thin and heavy Dell laptops","Adaptive automatic fan speed control suits variable Dell gaming loads","Sealed pressure chamber for directed airflow","2-year manufacturer warranty"],
+    cons: ["Does not name Dell specifically in its compatibility list","Highest price in this guide by a wide margin","Requires Razer Synapse software for full customization"],
     bestFor: "Dell gaming laptop owners who want premium adaptive cooling and are willing to pay a significant premium for it.",
   },
   {
@@ -149,13 +142,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41Jqy02xExL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GGZDNRCN?tag=deskfinds0d-20",
-    description:
-      "Sized for 12 to 15.6 inch laptops, this pad targets Dell's smaller and thinner models specifically, with nine fans reaching up to 2600 RPM for genuinely strong airflow relative to its compact size class. Five height settings and up to a 34 degree tilt give real ergonomic range for a smaller-format pad.\n\nAt under 40dB, it's stated as whisper-quiet, a reasonable priority for a smaller Dell laptop likely used in an office or shared space. The built-in phone holder is a practical extra, closing out this guide as the strongest match specifically for Dell's smaller-format laptops rather than its larger gaming models.",
-    specs: ["12-15.6 inch compatibility", "9 fans, up to 2600 RPM", "5 height settings, up to 34° tilt", "Noise under 40dB", "Built-in phone holder"],
-    pros: ["Strong fan speed relative to its compact size class", "Stated noise under 40dB for quiet office use", "Five height settings for ergonomic range", "Dual USB ports, one stays free for peripherals"],
-    cons: ["Sized only for smaller 12-15.6 inch laptops", "Not Dell-specific, broad compatibility only", "Alloy mesh surface, not a full metal chassis"],
+    description: "Sized for 12 to 15.6 inch laptops, this pad targets Dell's smaller and thinner models specifically, with nine fans reaching up to 2600 RPM for genuinely strong airflow relative to its compact size class. Five height settings and up to a 34 degree tilt give real ergonomic range for a smaller-format pad.\n\nOne spot below Razer Laptop Cooling Pad Adaptive Smart in this ranking, it's priced lower than Razer Laptop Cooling Pad Adaptive Smart. The compromise here is straightforward: Sized only for smaller 12-15.6 inch laptops. What you gain in return: Strong fan speed relative to its compact size class. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Stated noise under 40dB for quiet office use. On the other side, Alloy mesh surface, not a full metal chassis. That's the main tradeoff to weigh against everything above.",
+    specs: ["12-15.6 inch compatibility","9 fans, up to 2600 RPM","5 height settings, up to 34° tilt","Noise under 40dB","Built-in phone holder"],
+    pros: ["Strong fan speed relative to its compact size class","Stated noise under 40dB for quiet office use","Five height settings for ergonomic range","Dual USB ports, one stays free for peripherals"],
+    cons: ["Sized only for smaller 12-15.6 inch laptops","Not Dell-specific, broad compatibility only","Alloy mesh surface, not a full metal chassis"],
     bestFor: "Owners of smaller or thinner Dell laptops who want strong fan speed and quiet operation in a compact size.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -169,46 +161,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Dell Laptop Type",
-    table: {
-      headers: ["Your Dell laptop", "Recommended pick"],
-      rows: [
-        ["Thin XPS ultrabook", "TECKNET Slim Cooler or TECKNET 12-15.6in with Phone Stand, or see our dedicated Dell XPS guide"],
-        ["Mainstream Inspiron or Latitude", "Kootek 5-Fan Cooling Pad or LIANGSTAR 6-Fan Cooling Pad"],
-        ["Heavier Dell gaming laptop (G-Series, Alienware)", "llano V12 Gaming Cooling Pad or Razer Adaptive Smart"],
-        ["Unsure of exact size", "LIANGSTAR pick's 12-17.3 inch range covers nearly the entire Dell lineup"],
+    "subheading": "By Laptop Size Fit",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Tightest size match for your laptop",
+          "havit HV-F2056 15.6\"-17\" Laptop Cooler Cooling Pad"
+        ],
+        [
+          "Widest range, flexible for future upgrades",
+          "Kootek Laptop Cooling Pad Cooler Stand with 5 Quiet Fans"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Universal Fit vs Dell-Specific Engineering",
-    note: "Every pick in this guide is a universal-fit cooling pad that lists Dell among several supported brands, not a Dell-exclusive design. For most mainstream Dell laptops this works reasonably well since these pads are sized to a wide dimension range rather than one chassis. If you own a Dell XPS specifically, see our dedicated Dell XPS guide, since that chassis has narrower, more specific vent and thickness considerations.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $25",
+          "LIANGSTAR Laptop Cooling Pad"
+        ],
+        [
+          "Mid-range",
+          "havit HV-F2056 15.6\"-17\" Laptop Cooler Cooling Pad"
+        ],
+        [
+          "No firm budget ceiling, prioritizing fan count or extras",
+          "Razer Laptop Cooling Pad Adaptive Smart"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Weight and Heat Output by Dell Line",
-    cards: [
-      { label: "Thin, lower-heat XPS or Inspiron ultrabook", "text": "A slimmer, quieter pad with moderate fan count is proportionate, since these laptops don't generate the same sustained heat as a gaming chassis." },
-      { label: "Heavier, higher-heat gaming or workstation Dell", "text": "A reinforced, higher-RPM pad with real stated temperature-drop figures better matches the sustained thermal load these laptops produce." },
+    "subheading": "Slim/Fewer Fans vs Multi-Fan High Airflow",
+    "cards": [
+      {
+        "label": "Slim, Fewer Fans",
+        "text": "Lighter and more portable with less total noise, at the cost of a smaller cooled surface area. In this comparison: llano V12 Gaming Laptop Cooling Pad Laptop Cooler."
+      },
+      {
+        "label": "Multi-Fan, High Airflow",
+        "text": "More total cooling surface and airflow, at the cost of extra bulk and more potential noise at full speed. In this comparison: TECKNET Laptop Cooling Pad with Phone Stand."
+      }
     ],
+    "note": "Most buyers should default to a slim pick like llano V12 Gaming Laptop Cooling Pad Laptop Cooler for everyday portability, and only step up to TECKNET Laptop Cooling Pad with Phone Stand's fan count if you're running genuinely demanding workloads that generate real sustained heat."
   },
   {
-    subheading: "Noise Considerations by Environment",
-    table: {
-      headers: ["Environment", "Recommended pick"],
-      rows: [
-        ["Shared office or quiet home workspace", "TECKNET 12-15.6in with Phone Stand (under 40dB stated) or havit HV-F2056"],
-        ["Solo gaming setup, noise less of a concern", "llano V12 or Razer Adaptive Smart, both capable of higher documented airflow at higher noise"],
+    "subheading": "By Height Adjustment Range",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Most ergonomic height adjustment range",
+          "LIANGSTAR Laptop Cooling Pad"
+        ],
+        [
+          "Simplest setup, fewer adjustments to fuss with",
+          "LIANGSTAR Laptop Cooling Pad"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a Fanless or Sealed-Chassis Laptop (Like MacBook) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation that your specific laptop model has bottom-panel intake vents, since a cooling pad provides little benefit on a fully sealed, fanless unibody design regardless of physical fit."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Every pick here is designed around a vented-bottom laptop; if you're on a fanless MacBook specifically, check our dedicated MacBook Air cooling pad guide for that honesty caveat before buying any pad in this comparison."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Razer Laptop Cooling Pad Adaptive Smart offers: Wide width range covers both thin and heavy Dell laptops. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "LIANGSTAR Laptop Cooling Pad already covers the essentials: Lowest price in this guide with explicit Dell compatibility. The main thing you'd be paying extra for elsewhere in this list is fan count or height range you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm 'Dell compatible' means broad fit, not exclusive design", explanation: "Every pad in this guide lists Dell among several supported brands rather than being engineered exclusively around one Dell chassis. That's usually fine for mainstream Dell laptops, but don't expect Dell-specific vent alignment." },
-  { criterion: "Match pad size to your specific Dell line", explanation: "Dell's lineup spans thin XPS ultrabooks to heavy gaming laptops. Check the pad's stated size range against your specific Dell model's actual dimensions rather than assuming any 'universal' pad fits equally well." },
-  { criterion: "Heavier Dell laptops need stronger stated cooling specs", explanation: "A Dell gaming or workstation laptop generates more sustained heat than a thin ultrabook. Favor picks with documented RPM or temperature-drop figures for these heavier models rather than a basic 2-3 fan pad." },
-  { criterion: "Thin XPS models need narrower, more specific guidance", explanation: "If you specifically own a Dell XPS, its unusually slim chassis and vent placement benefit from more targeted coverage than this general Dell guide provides. See our dedicated Dell XPS cooling pad guide for that narrower case." },
-  { criterion: "Noise tolerance varies by use environment", explanation: "A shared office environment benefits from a stated low-dB pick, while a solo gaming setup can tolerate the higher noise that comes with the strongest documented airflow specs." },
+  {
+    "criterion": "Check the pad's stated compatible size range against your laptop's real footprint, not its screen size",
+    "explanation": "A laptop's advertised screen size, like 13 or 15.6 inches, describes the diagonal measurement of the display panel, not the physical width and depth of the laptop's base that actually sits on top of a cooling pad, and two laptops with the identical screen size can have meaningfully different base dimensions depending on bezel thickness and chassis design.\n\nCooling pad listings state a compatible size range in inches specifically because they're describing what base footprint fits their surface and fan layout, so treating the screen-size number alone as a fit guarantee is a genuine buying mistake, not just an imprecise shortcut.\n\nMeasure your laptop's actual width and depth, or find those dimensions in its own spec sheet, and compare that against the pad's stated range rather than matching screen-size numbers."
+  },
+  {
+    "criterion": "Understand that a wider-range pad isn't automatically better for a smaller laptop",
+    "explanation": "Cooling pads spread their fans across the surface in a fixed layout designed around the middle of their stated compatible range, so a pad rated for 12 to 17 inches has its fans positioned to reach a wide variety of vent locations across that whole span, while a laptop toward the small end of that range may not sit directly over as many of those fans as it would on a pad sized more tightly around its own dimensions.\n\nThis matters because the cooling benefit of a pad comes specifically from airflow reaching the laptop's actual intake vents, not from the pad's overall surface area, so a smaller laptop on an oversized pad can genuinely get less effective cooling than the same laptop on a proportionally sized pad, despite technically fitting within the stated range.\n\nWhen your laptop sits toward one end of a pad's stated range rather than the middle, check user photos or reviews specifically describing that size laptop's fit before assuming the airflow lines up well."
+  },
+  {
+    "criterion": "Confirm your laptop's actual vent location and design, especially for thin ultrabooks and MacBooks",
+    "explanation": "Most cooling pads are designed around bottom-vented laptops, where intake vents sit on the underside of the chassis directly facing the pad's fans, but some laptops, most notably many MacBook models, use a fully sealed or fanless internal design where the chassis itself acts as a heat sink rather than relying on active airflow from underneath.\n\nThis is a genuine compatibility gap that a cooling pad's stated inch-range compatibility says nothing about, since a pad can physically fit a MacBook's exact footprint while providing essentially no cooling benefit if that specific model has no bottom vents for the fans to blow into.\n\nCheck your specific laptop model's actual cooling design (vented bottom panel versus sealed unibody) before assuming a cooling pad will meaningfully lower its temperature, and treat this as a separate question from simple physical size fit."
+  },
+  {
+    "criterion": "Weigh fan count and noise level together, not fan count alone",
+    "explanation": "A pad's fan count, commonly ranging from a single central fan up to five or six smaller fans, is often marketed as a straightforward better-is-more spec, but more fans spinning simultaneously generally means more total noise output, and a pad with independently controllable fan zones lets you balance airflow against noise rather than forcing an all-or-nothing choice.\n\nThis is a real everyday tradeoff for anyone using a laptop in a quiet room or on a video call, since a cooling pad running at full multi-fan speed can become audible enough to be distracting, undermining the benefit if you end up turning it off to avoid the noise.\n\nCheck whether the listing states selectable fan modes or independently controlled fan zones, not just the total fan count, if noise control matters to your specific environment."
+  },
+  {
+    "criterion": "Confirm the power source and port type match your laptop before assuming plug-and-play compatibility",
+    "explanation": "Nearly all cooling pads draw power over a USB cable rather than a separate power adapter, which keeps setup simple, but the cable end that plugs into your laptop is typically USB-A, and a laptop with only USB-C ports (common on newer ultrabooks and MacBooks) will need a separate USB-C adapter or hub to actually power the pad, an extra cost and cable that isn't obvious from the listing photos alone.\n\nThis matters because a cooling pad that can't be powered defeats its entire purpose regardless of how well it otherwise fits your laptop's size and vent layout, so it's a genuine prerequisite to check, not an afterthought.\n\nCheck the listing's stated cable connector type and confirm it matches an available port on your specific laptop, or budget for an adapter if it doesn't."
+  }
 ];
 
 export const faq: FaqItem[] = [

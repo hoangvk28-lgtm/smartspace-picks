@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01469DJLM?tag=deskfinds0d-20",
-    description:
-      "This pad's listing explicitly confirms 5 built-in fans, one 4.72 inch big fan and four 2.76 inch small fans, all with blue LEDs. Two on/off switches give you a genuinely staged fan mode: run just the one big fan, run the four small fans together, or run all five at once, which lets you scale airflow to the workload rather than an all-or-nothing switch.\n\nA built-in dual USB hub adds connectivity for peripherals, and six adjustable height settings, more than most pads in this category, let you fine-tune the angle for gaming, movies, or long work sessions. Two stoppers on the front keep laptops from slipping during use, and it covers a wide 12 to 17 inch laptop range.",
-    specs: ["5 fans: one 4.72\" big fan, four 2.76\" small fans", "2 switches for staged 1/4/5 fan modes", "6 height settings", "Dual USB hub", "Fits 12\"-17\" laptops"],
-    pros: ["Listing explicitly confirms 5 fans with a staged on/off control scheme", "Six height settings, more than most pads in this category", "Wide 12 to 17 inch laptop compatibility", "Dual USB hub for extra peripherals"],
-    cons: ["No stated dBA noise figure, only a general 'whisper-quiet' claim", "Staged switches offer only three fan-count modes, not full independent control", "Included cable is USB-to-USB, Type-C laptops need a separate adapter"],
+    description: "This pad's listing explicitly confirms 5 built-in fans, one 4.72 inch big fan and four 2.76 inch small fans, all with blue LEDs. Two on/off switches give you a genuinely staged fan mode: run just the one big fan, run the four small fans together, or run all five at once, which lets you scale airflow to the workload rather than an all-or-nothing switch.\n\nIt earns the top spot in this comparison over AIMIUZI Laptop Cooling Pad Laptop Cooler Stand for one main reason. Listing explicitly confirms 5 fans with a staged on/off control scheme. On price, it's actually priced above AIMIUZI Laptop Cooling Pad Laptop Cooler Stand, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Six height settings, more than most pads in this category. On the other side, Included cable is USB-to-USB, Type-C laptops need a separate adapter. That's the main tradeoff to weigh against everything above.",
+    specs: ["5 fans: one 4.72\" big fan, four 2.76\" small fans","2 switches for staged 1/4/5 fan modes","6 height settings","Dual USB hub","Fits 12\"-17\" laptops"],
+    pros: ["Listing explicitly confirms 5 fans with a staged on/off control scheme","Six height settings, more than most pads in this category","Wide 12 to 17 inch laptop compatibility","Dual USB hub for extra peripherals"],
+    cons: ["No stated dBA noise figure, only a general 'whisper-quiet' claim","Staged switches offer only three fan-count modes, not full independent control","Included cable is USB-to-USB, Type-C laptops need a separate adapter"],
     bestFor: "Buyers who want genuine control over how many of the five fans run at once, rather than a single all-on setting.",
   },
   {
@@ -47,13 +46,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51uaAp0-YIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CL7FZ5NV?tag=deskfinds0d-20",
-    description:
-      "This pad's listing states a central small fan flanked by two big fans on each side, five low-noise fans total, designed to cool laptops up to 15.6 inches. A switch wheel at the back turns fans on and off, and the honeycomb-style metal mesh top is designed to maximize airflow while still supporting the laptop's weight.\n\nFive adjustable stand heights add room between the laptop and desk for heat dissipation, and two USB ports are included, one for the pad's own power draw and one free for other devices. Compared to the Kootek pick above, this pad is built for a smaller 12 to 15.6 inch laptop range rather than up to 17 inches.",
-    specs: ["5 fans: 1 small center fan, 4 big side fans", "5 adjustable height settings", "Honeycomb metal mesh top", "2 USB ports", "Fits 12\"-15.6\" laptops"],
-    pros: ["Listing explicitly confirms 5 total fans across a center-plus-side layout", "Honeycomb mesh top balances airflow and structural support", "Five height settings for ergonomic adjustment", "Lower price than the Kootek pick"],
-    cons: ["Narrower 12 to 15.6 inch laptop compatibility, does not fit 17-inch laptops", "No stated dBA noise figure", "Single switch wheel rather than staged fan-count control"],
+    description: "This pad's listing states a central small fan flanked by two big fans on each side, five low-noise fans total, designed to cool laptops up to 15.6 inches. A switch wheel at the back turns fans on and off, and the honeycomb-style metal mesh top is designed to maximize airflow while still supporting the laptop's weight.\n\nOne spot below Kootek Laptop Cooling Pad Cooler Stand with 5 Quiet Fans in this ranking, it's priced lower than Kootek Laptop Cooling Pad Cooler Stand with 5 Quiet Fans. The compromise here is straightforward: Narrower 12 to 15.6 inch laptop compatibility, does not fit 17-inch laptops. What you gain in return: Listing explicitly confirms 5 total fans across a center-plus-side layout. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Honeycomb mesh top balances airflow and structural support. On the other side, Single switch wheel rather than staged fan-count control. That's the main tradeoff to weigh against everything above.",
+    specs: ["5 fans: 1 small center fan, 4 big side fans","5 adjustable height settings","Honeycomb metal mesh top","2 USB ports","Fits 12\"-15.6\" laptops"],
+    pros: ["Listing explicitly confirms 5 total fans across a center-plus-side layout","Honeycomb mesh top balances airflow and structural support","Five height settings for ergonomic adjustment","Lower price than the Kootek pick"],
+    cons: ["Narrower 12 to 15.6 inch laptop compatibility, does not fit 17-inch laptops","No stated dBA noise figure","Single switch wheel rather than staged fan-count control"],
     bestFor: "Buyers with a laptop up to 15.6 inches who want five confirmed fans at a lower price point.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -67,46 +65,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Match the Pad to Your Laptop Size",
-    intro: "The two genuine five-fan pads we found cover different laptop size ranges.",
-    table: {
-      headers: ["Your laptop size", "Recommended pick"],
-      rows: [
-        ["Up to 17 inches", "Kootek Laptop Cooling Pad with 5 Quiet Fans"],
-        ["12 to 15.6 inches", "AIMIUZI Laptop Cooling Pad, 5 Quiet Fans"],
+    "subheading": "By Laptop Size Fit",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Tightest size match for your laptop",
+          "Kootek Laptop Cooling Pad Cooler Stand with 5 Quiet Fans"
+        ],
+        [
+          "Widest range, flexible for future upgrades",
+          "AIMIUZI Laptop Cooling Pad Laptop Cooler Stand"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Why We Only Found Two Genuine Five-Fan Pads",
-    cards: [
-      { label: "Five fans is an uncommon exact spec", text: "Most cooling pad listings in this niche cluster around round marketing numbers like three, six, or nine fans. Five fans is a genuine but less common configuration, which is why the verified pool for this exact count is smaller than for other fan-count guides." },
-      { label: "We chose accuracy over a padded list", text: "Rather than including a six-fan or three-fan pad just to reach a longer roundup, we excluded every candidate whose real feature text did not confirm exactly five fans, based on product specs." },
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $21",
+          "AIMIUZI Laptop Cooling Pad Laptop Cooler Stand"
+        ],
+        [
+          "Mid-range",
+          "Kootek Laptop Cooling Pad Cooler Stand with 5 Quiet Fans"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Slim/Fewer Fans vs Multi-Fan High Airflow",
+    "cards": [
+      {
+        "label": "Slim, Fewer Fans",
+        "text": "Lighter and more portable with less total noise, at the cost of a smaller cooled surface area. In this comparison: Kootek Laptop Cooling Pad Cooler Stand with 5 Quiet Fans."
+      },
+      {
+        "label": "Multi-Fan, High Airflow",
+        "text": "More total cooling surface and airflow, at the cost of extra bulk and more potential noise at full speed. In this comparison: Kootek Laptop Cooling Pad Cooler Stand with 5 Quiet Fans."
+      }
     ],
+    "note": "Most buyers should default to a slim pick like Kootek Laptop Cooling Pad Cooler Stand with 5 Quiet Fans for everyday portability, and only step up to Kootek Laptop Cooling Pad Cooler Stand with 5 Quiet Fans's fan count if you're running genuinely demanding workloads that generate real sustained heat."
   },
   {
-    subheading: "Staged Fan Control vs Simple On/Off",
-    table: {
-      headers: ["Control type", "What it means"],
-      rows: [
-        ["Two switches, staged 1/4/5 fan modes (Kootek)", "Lets you scale airflow to workload without running all five fans for light use"],
-        ["Single switch wheel, on/off only (AIMIUZI)", "Simpler control, but no way to run a partial fan count for lighter workloads"],
+    "subheading": "By Height Adjustment Range",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Most ergonomic height adjustment range",
+          "Kootek Laptop Cooling Pad Cooler Stand with 5 Quiet Fans"
+        ],
+        [
+          "Simplest setup, fewer adjustments to fuss with",
+          "AIMIUZI Laptop Cooling Pad Laptop Cooler Stand"
+        ]
+      ]
+    }
   },
   {
-    subheading: "When Five Fans Isn't the Right Count",
-    note: "If your laptop is 17 inches and runs sustained heavy loads, a six or nine fan pad may offer more total airflow headroom. If you have a smaller, lighter laptop for everyday use, a two or three fan pad may be quieter and cheaper without a meaningful cooling tradeoff. See our other fan-count guides for those comparisons.",
+    "subheading": "For a Fanless or Sealed-Chassis Laptop (Like MacBook) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation that your specific laptop model has bottom-panel intake vents, since a cooling pad provides little benefit on a fully sealed, fanless unibody design regardless of physical fit."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Every pick here is designed around a vented-bottom laptop; if you're on a fanless MacBook specifically, check our dedicated MacBook Air cooling pad guide for that honesty caveat before buying any pad in this comparison."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Kootek Laptop Cooling Pad Cooler Stand with 5 Quiet Fans offers: Listing explicitly confirms 5 fans with a staged on/off control scheme. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "AIMIUZI Laptop Cooling Pad Laptop Cooler Stand already covers the essentials: Listing explicitly confirms 5 total fans across a center-plus-side layout. The main thing you'd be paying extra for elsewhere in this list is fan count or height range you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify the fan count against real specs", explanation: "Five fans is claimed loosely in some listings without matching feature text. Confirm the exact fan configuration described in the bullets, not just the title, before buying." },
-  { criterion: "Fan arrangement affects cooling concentration", explanation: "A center-plus-side layout distributes airflow differently than other configurations. Check where the fans sit relative to where your laptop's CPU and GPU vents are located." },
-  { criterion: "Staged control versus simple on/off", explanation: "A pad with staged switching lets you run fewer fans for light use and save on noise, while a simple on/off wheel only offers full power or nothing." },
-  { criterion: "Laptop size compatibility", explanation: "The two picks in this guide cover different size ranges, up to 15.6 inches and up to 17 inches. Confirm your laptop's actual width against the stated range." },
-  { criterion: "USB passthrough placement", explanation: "Check whether a second USB port is genuinely free for other devices or whether the pad uses both ports just to power itself." },
-  { criterion: "Noise evidence quality", explanation: "Neither pick here states a specific dBA figure, only general quiet claims. Treat those as unverified until you check buyer feedback." },
+  {
+    "criterion": "Check the pad's stated compatible size range against your laptop's real footprint, not its screen size",
+    "explanation": "A laptop's advertised screen size, like 13 or 15.6 inches, describes the diagonal measurement of the display panel, not the physical width and depth of the laptop's base that actually sits on top of a cooling pad, and two laptops with the identical screen size can have meaningfully different base dimensions depending on bezel thickness and chassis design.\n\nCooling pad listings state a compatible size range in inches specifically because they're describing what base footprint fits their surface and fan layout, so treating the screen-size number alone as a fit guarantee is a genuine buying mistake, not just an imprecise shortcut.\n\nMeasure your laptop's actual width and depth, or find those dimensions in its own spec sheet, and compare that against the pad's stated range rather than matching screen-size numbers."
+  },
+  {
+    "criterion": "Understand that a wider-range pad isn't automatically better for a smaller laptop",
+    "explanation": "Cooling pads spread their fans across the surface in a fixed layout designed around the middle of their stated compatible range, so a pad rated for 12 to 17 inches has its fans positioned to reach a wide variety of vent locations across that whole span, while a laptop toward the small end of that range may not sit directly over as many of those fans as it would on a pad sized more tightly around its own dimensions.\n\nThis matters because the cooling benefit of a pad comes specifically from airflow reaching the laptop's actual intake vents, not from the pad's overall surface area, so a smaller laptop on an oversized pad can genuinely get less effective cooling than the same laptop on a proportionally sized pad, despite technically fitting within the stated range.\n\nWhen your laptop sits toward one end of a pad's stated range rather than the middle, check user photos or reviews specifically describing that size laptop's fit before assuming the airflow lines up well."
+  },
+  {
+    "criterion": "Confirm your laptop's actual vent location and design, especially for thin ultrabooks and MacBooks",
+    "explanation": "Most cooling pads are designed around bottom-vented laptops, where intake vents sit on the underside of the chassis directly facing the pad's fans, but some laptops, most notably many MacBook models, use a fully sealed or fanless internal design where the chassis itself acts as a heat sink rather than relying on active airflow from underneath.\n\nThis is a genuine compatibility gap that a cooling pad's stated inch-range compatibility says nothing about, since a pad can physically fit a MacBook's exact footprint while providing essentially no cooling benefit if that specific model has no bottom vents for the fans to blow into.\n\nCheck your specific laptop model's actual cooling design (vented bottom panel versus sealed unibody) before assuming a cooling pad will meaningfully lower its temperature, and treat this as a separate question from simple physical size fit."
+  },
+  {
+    "criterion": "Weigh fan count and noise level together, not fan count alone",
+    "explanation": "A pad's fan count, commonly ranging from a single central fan up to five or six smaller fans, is often marketed as a straightforward better-is-more spec, but more fans spinning simultaneously generally means more total noise output, and a pad with independently controllable fan zones lets you balance airflow against noise rather than forcing an all-or-nothing choice.\n\nThis is a real everyday tradeoff for anyone using a laptop in a quiet room or on a video call, since a cooling pad running at full multi-fan speed can become audible enough to be distracting, undermining the benefit if you end up turning it off to avoid the noise.\n\nCheck whether the listing states selectable fan modes or independently controlled fan zones, not just the total fan count, if noise control matters to your specific environment."
+  },
+  {
+    "criterion": "Confirm the power source and port type match your laptop before assuming plug-and-play compatibility",
+    "explanation": "Nearly all cooling pads draw power over a USB cable rather than a separate power adapter, which keeps setup simple, but the cable end that plugs into your laptop is typically USB-A, and a laptop with only USB-C ports (common on newer ultrabooks and MacBooks) will need a separate USB-C adapter or hub to actually power the pad, an extra cost and cable that isn't obvious from the listing photos alone.\n\nThis matters because a cooling pad that can't be powered defeats its entire purpose regardless of how well it otherwise fits your laptop's size and vent layout, so it's a genuine prerequisite to check, not an afterthought.\n\nCheck the listing's stated cable connector type and confirm it matches an available port on your specific laptop, or budget for an adapter if it doesn't."
+  }
 ];
 
 export const faq: FaqItem[] = [

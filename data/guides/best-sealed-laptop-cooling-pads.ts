@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31DsLHp9vML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJDWWHTV?tag=deskfinds0d-20",
-    description:
-      "Razer describes this explicitly as an airtight pressure chamber, with included foam seals meant to stop cool air from leaking out the sides before it reaches the laptop's intake. A 140mm brushless fan spinning up to 3000 RPM works with three magnetic frames sized for different laptop widths, so the seal fits your specific chassis rather than a generic gap.\n\nThis is the most expensive pad in this guide, and the price reflects smart adaptive fan control through Razer Synapse software alongside the sealing design. If you want the most engineered pressure-seal approach and don't mind paying for it, this is the strongest documented option here.",
-    specs: ["Airtight pressure chamber with foam seals", "140mm brushless fan, up to 3000 RPM", "3 magnetic frames for different laptop widths", "Preset and custom fan curves via Razer Synapse", "3-port USB Type-A hub"],
-    pros: ["Most explicitly engineered pressure-seal design in this category", "Magnetic frames adapt the seal to your laptop's width", "Software-adjustable fan curves", "2-year manufacturer warranty"],
-    cons: ["Highest price in this guide by a wide margin", "Requires Razer Synapse software for full customization", "Seal is for airflow pressure, not water or dust protection of the unit itself"],
+    description: "Razer describes this explicitly as an airtight pressure chamber, with included foam seals meant to stop cool air from leaking out the sides before it reaches the laptop's intake. A 140mm brushless fan spinning up to 3000 RPM works with three magnetic frames sized for different laptop widths, so the seal fits your specific chassis rather than a generic gap.\n\nIt earns the top spot in this comparison over llano V12 Gaming Laptop Cooling Pad Laptop Cooler for one main reason. Most explicitly engineered pressure-seal design in this category. On price, it's actually priced above llano V12 Gaming Laptop Cooling Pad Laptop Cooler, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Magnetic frames adapt the seal to your laptop's width. On the other side, Seal is for airflow pressure, not water or dust protection of the unit itself. That's the main tradeoff to weigh against everything above.",
+    specs: ["Airtight pressure chamber with foam seals","140mm brushless fan, up to 3000 RPM","3 magnetic frames for different laptop widths","Preset and custom fan curves via Razer Synapse","3-port USB Type-A hub"],
+    pros: ["Most explicitly engineered pressure-seal design in this category","Magnetic frames adapt the seal to your laptop's width","Software-adjustable fan curves","2-year manufacturer warranty"],
+    cons: ["Highest price in this guide by a wide margin","Requires Razer Synapse software for full customization","Seal is for airflow pressure, not water or dust protection of the unit itself"],
     bestFor: "Buyers who want the most engineered pressure-seal design and are willing to pay a premium for it.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41RI0692h6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C69BVWGB?tag=deskfinds0d-20",
-    description:
-      "This listing pairs a 5.5-inch turbo booster fan with combined sealed foam, and the package explicitly includes a separate memory foam seal insert. The listing states a 44 degree Celsius reduction across CPU and GPU in 90 seconds, backed by the sealing design working alongside 360-degree airflow.\n\nBeyond sealing, it adds a 3-port USB hub, a removable dust filter, and RGB lighting, making it a more fully featured pick than a pad built around sealing alone. Its 36W power adapter is a genuine external power source rather than USB-only, worth knowing if you want to avoid drawing power from your laptop's own port.",
-    specs: ["Combined sealed foam plus separate memory foam seal insert", "5.5in turbo fan, up to 70dB", "3-port USB 2.0 hub", "Removable dust filter", "36W external power adapter"],
-    pros: ["Explicit dual sealing components (combined foam plus memory foam insert)", "Adds dust filtration beyond just sealing", "External power adapter, not drawing from laptop USB", "3-port USB hub for peripherals"],
-    cons: ["Up to 70dB at max speed is loud", "Higher price than several unsealed alternatives", "Seal targets airflow pressure, not water or dust ingress into the unit"],
+    description: "This listing pairs a 5.5-inch turbo booster fan with combined sealed foam, and the package explicitly includes a separate memory foam seal insert. The listing states a 44 degree Celsius reduction across CPU and GPU in 90 seconds, backed by the sealing design working alongside 360-degree airflow.\n\nOne spot below Razer Laptop Cooling Pad Adaptive Smart in this ranking, it's priced lower than Razer Laptop Cooling Pad Adaptive Smart. The compromise here is straightforward: Up to 70dB at max speed is loud. What you gain in return: Explicit dual sealing components (combined foam plus memory foam insert). Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Adds dust filtration beyond just sealing. On the other side, Seal targets airflow pressure, not water or dust ingress into the unit. That's the main tradeoff to weigh against everything above.",
+    specs: ["Combined sealed foam plus separate memory foam seal insert","5.5in turbo fan, up to 70dB","3-port USB 2.0 hub","Removable dust filter","36W external power adapter"],
+    pros: ["Explicit dual sealing components (combined foam plus memory foam insert)","Adds dust filtration beyond just sealing","External power adapter, not drawing from laptop USB","3-port USB hub for peripherals"],
+    cons: ["Up to 70dB at max speed is loud","Higher price than several unsealed alternatives","Seal targets airflow pressure, not water or dust ingress into the unit"],
     bestFor: "Buyers who want a sealed design plus dust filtration and external power in one package.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41mZs4mzS3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CYC7T38X?tag=deskfinds0d-20",
-    description:
-      "This updated V12 variant again includes a stated memory foam seal alongside its 5.5-inch turbo fan, targeting the same 44 degree Celsius reduction claim in 90 seconds. The package explicitly lists both a dust filter and a memory foam seal as separate included components, distinguishing sealing from dust protection as two different functions rather than conflating them.\n\nA real-time LED display shows fan speed directly, and touch controls let you adjust cooling and noise without guesswork. Like its sibling above, it uses a 36W external power adapter rather than relying solely on laptop USB power.",
-    specs: ["Memory foam seal plus separate dust filter", "5.5in turbo fan, 44°C stated reduction in 90 seconds", "LED display shows real-time fan speed", "36W external power adapter", "15-19 inch laptop compatibility"],
-    pros: ["Clearly separates sealing function from dust filtration function", "Real-time fan speed display", "External power adapter included", "Adjustable height for ergonomic comfort"],
-    cons: ["Large size targets bigger 15-19 inch laptops specifically", "Sealing is for airflow pressure, not device water or dust resistance", "Premium price relative to unsealed pads"],
+    description: "This updated V12 variant again includes a stated memory foam seal alongside its 5.5-inch turbo fan, targeting the same 44 degree Celsius reduction claim in 90 seconds. The package explicitly lists both a dust filter and a memory foam seal as separate included components, distinguishing sealing from dust protection as two different functions rather than conflating them.\n\nSitting just under llano V12 Gaming Laptop Cooling Pad Laptop Cooler, it's priced lower than llano V12 Gaming Laptop Cooling Pad Laptop Cooler. Here's the honest tradeoff: Large size targets bigger 15-19 inch laptops specifically. And here's what it gets you instead: Clearly separates sealing function from dust filtration function. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Real-time fan speed display. On the other side, Premium price relative to unsealed pads. That's the main tradeoff to weigh against everything above.",
+    specs: ["Memory foam seal plus separate dust filter","5.5in turbo fan, 44°C stated reduction in 90 seconds","LED display shows real-time fan speed","36W external power adapter","15-19 inch laptop compatibility"],
+    pros: ["Clearly separates sealing function from dust filtration function","Real-time fan speed display","External power adapter included","Adjustable height for ergonomic comfort"],
+    cons: ["Large size targets bigger 15-19 inch laptops specifically","Sealing is for airflow pressure, not device water or dust resistance","Premium price relative to unsealed pads"],
     bestFor: "Buyers with larger 15 to 19 inch gaming laptops who want sealing and dust filtration as distinct, documented features.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41UxWt+tefL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09Z71ZSM6?tag=deskfinds0d-20",
-    description:
-      "KLIM's listing states the detachable foam acts as a seal to create high pressure and maximize cooling effectiveness, working with two turbo fans rated at 4300 RPM. Because the foam is detachable, you can remove it for cleaning or replace it if it wears out, which is a practical advantage over a fixed, non-removable seal.\n\nSeven RGB color and effect options add styling on top of the sealing function, and an extra USB port lets you connect a mouse or keyboard without giving up a laptop port. KLIM backs this pad with a notably long 5-year assurance, longer than most competitors in this category.",
-    specs: ["Detachable foam pressure seal", "Two turbo fans, 4300 RPM", "7 RGB color and effect options", "Extra USB port for peripherals", "5-year manufacturer assurance"],
-    pros: ["Detachable seal can be cleaned or replaced", "Long 5-year manufacturer assurance", "Mid-range price relative to other sealed picks", "RGB styling with an off option"],
-    cons: ["Not compatible with laptops lacking underside ventilation grids, per the listing", "Sealing improves pressure, does not waterproof the unit", "Smaller fans than the largest turbo picks in this guide"],
+    description: "KLIM's listing states the detachable foam acts as a seal to create high pressure and maximize cooling effectiveness, working with two turbo fans rated at 4300 RPM. Because the foam is detachable, you can remove it for cleaning or replace it if it wears out, which is a practical advantage over a fixed, non-removable seal.\n\nRanked just behind llano V12 Laptop Cooling Pad, it's priced lower than llano V12 Laptop Cooling Pad. The real tradeoff against that pick: Not compatible with laptops lacking underside ventilation grids, per the listing. In exchange, it offers this instead: Detachable seal can be cleaned or replaced. That's the swap that decides whether this pick or the one above it is the better fit for your laptop.\n\nWorth knowing before you decide: Long 5-year manufacturer assurance. On the other side, Smaller fans than the largest turbo picks in this guide. That's the main tradeoff to weigh against everything above.",
+    specs: ["Detachable foam pressure seal","Two turbo fans, 4300 RPM","7 RGB color and effect options","Extra USB port for peripherals","5-year manufacturer assurance"],
+    pros: ["Detachable seal can be cleaned or replaced","Long 5-year manufacturer assurance","Mid-range price relative to other sealed picks","RGB styling with an off option"],
+    cons: ["Not compatible with laptops lacking underside ventilation grids, per the listing","Sealing improves pressure, does not waterproof the unit","Smaller fans than the largest turbo picks in this guide"],
     bestFor: "Buyers who want a removable, cleanable seal and a long manufacturer assurance period.",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51aN6hnmwWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FLD8YSJ3?tag=deskfinds0d-20",
-    description:
-      "This is the only pad in this guide that names its seal directly, a flexible sealing ring, combined with a concentrator nozzle and combined sealed foam for what the listing calls three cooling cores working together. A replaceable air filter, meant to be swapped every 2 to 6 months, sits at the intake to keep dust out of the sealed airflow path.\n\nFive wind speed settings let you dial in cooling for gaming versus quiet office use, and an expanded USB hub configuration (1 input, 3 output) adds connectivity. The combination of a named sealing ring plus scheduled filter replacement makes this one of the more maintenance-transparent picks here.",
-    specs: ["Flexible sealing ring plus combined sealed foam", "Turbofan up to 4000 RPM with concentrator nozzle", "Replaceable air filter (swap every 2-6 months)", "5-speed wind adjustment", "1-in-3-out USB hub"],
-    pros: ["Explicitly names its sealing ring component", "Scheduled filter replacement guidance included", "Backlit keys and power-off memory function", "Adjustable stand height"],
-    cons: ["Filter requires periodic replacement, an ongoing cost", "Mid-to-high price point", "Sealing improves airflow pressure only, not device water resistance"],
+    description: "This is the only pad in this guide that names its seal directly, a flexible sealing ring, combined with a concentrator nozzle and combined sealed foam for what the listing calls three cooling cores working together. A replaceable air filter, meant to be swapped every 2 to 6 months, sits at the intake to keep dust out of the sealed airflow path.\n\nOne spot below KLIM Everest Laptop Cooling Pad in this ranking, it costs more than KLIM Everest Laptop Cooling Pad. The compromise here is straightforward: Filter requires periodic replacement, an ongoing cost. What you gain in return: Explicitly names its sealing ring component. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Scheduled filter replacement guidance included. On the other side, Sealing improves airflow pressure only, not device water resistance. That's the main tradeoff to weigh against everything above.",
+    specs: ["Flexible sealing ring plus combined sealed foam","Turbofan up to 4000 RPM with concentrator nozzle","Replaceable air filter (swap every 2-6 months)","5-speed wind adjustment","1-in-3-out USB hub"],
+    pros: ["Explicitly names its sealing ring component","Scheduled filter replacement guidance included","Backlit keys and power-off memory function","Adjustable stand height"],
+    cons: ["Filter requires periodic replacement, an ongoing cost","Mid-to-high price point","Sealing improves airflow pressure only, not device water resistance"],
     bestFor: "Buyers who want a clearly documented, maintainable seal with a scheduled filter replacement routine.",
   },
   {
@@ -115,11 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41EAHvL+KZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09BMYW2JD?tag=deskfinds0d-20",
-    description:
-      "The GT500's listing describes a combined sealed foam design paired with an industrial-grade turbofan reaching 4200 RPM, aimed specifically at solving heat backflow on rear-exhaust gaming laptops. The bottom air intake design works with the seal to pull air in one direction rather than letting it circulate randomly around the laptop's underside.\n\nThe seal here is sized to the laptop rather than a specific model width, so fit depends on matching the foam to your laptop's footprint. At up to 55dB at maximum speed, it is loud at full power, a direct tradeoff for the strong sealed pressure and turbofan combination.",
-    specs: ["Combined sealed foam", "Turbofan up to 4200 RPM, variable speed", "Bottom air intake design for rear-exhaust laptops", "13-17.3 inch compatibility", "Noise up to 55dB at max speed"],
-    pros: ["Purpose-built seal design for rear-exhaust gaming laptops", "Wide variable speed range", "Mid-range price for sealed pads", "Bottom intake avoids heat backflow issues"],
-    cons: ["Loud at maximum speed", "No RGB or hub extras beyond core cooling", "Seal fit is general-purpose, not frame-specific like the Razer pick"],
+    description: "The GT500's listing describes a combined sealed foam design paired with an industrial-grade turbofan reaching 4200 RPM, aimed specifically at solving heat backflow on rear-exhaust gaming laptops. The bottom air intake design works with the seal to pull air in one direction rather than letting it circulate randomly around the laptop's underside.\n\nSitting just under IETS GT300 Upgraded Laptop Cooling Pad with Flexible Sealing Ring, it costs more than IETS GT300 Upgraded Laptop Cooling Pad with Flexible Sealing Ring. Here's the honest tradeoff: Loud at maximum speed. And here's what it gets you instead: Purpose-built seal design for rear-exhaust gaming laptops. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Wide variable speed range. On the other side, Seal fit is general-purpose, not frame-specific like the Razer pick. That's the main tradeoff to weigh against everything above.",
+    specs: ["Combined sealed foam","Turbofan up to 4200 RPM, variable speed","Bottom air intake design for rear-exhaust laptops","13-17.3 inch compatibility","Noise up to 55dB at max speed"],
+    pros: ["Purpose-built seal design for rear-exhaust gaming laptops","Wide variable speed range","Mid-range price for sealed pads","Bottom intake avoids heat backflow issues"],
+    cons: ["Loud at maximum speed","No RGB or hub extras beyond core cooling","Seal fit is general-purpose, not frame-specific like the Razer pick"],
     bestFor: "Rear-exhaust gaming laptop owners who want a sealed design targeting that specific airflow problem.",
   },
   {
@@ -132,13 +126,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41EAHvL+KZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09D6J56NS?tag=deskfinds0d-20",
-    description:
-      "This is the higher-RPM sibling of the GT500 above, rated to 5000 RPM, using the same combined sealed foam and bottom air intake design for rear-exhaust laptops. It adds a 3-port USB hub that can run independently on its own data line, separate from the fan's own power draw.\n\nAt up to 65dB at maximum speed it is the loudest pad in this guide, a direct consequence of pushing more air through the same sealed pressure design. Choose this over its 4200 RPM sibling only if you specifically need the extra airflow and can tolerate the added noise.",
-    specs: ["Combined sealed foam", "Turbofan up to 5000 RPM, variable speed", "3-port USB hub with independent data line", "Bottom air intake design", "Noise up to 65dB at max speed"],
-    pros: ["Highest documented sealed fan speed in this guide", "Independent USB hub function", "Bottom intake targets rear-exhaust laptop heat backflow", "Wide adjustable speed range"],
-    cons: ["Loudest pad in this guide at up to 65dB", "Highest price of the two GT500 variants here", "Seal improves pressure only, not water or dust resistance"],
+    description: "This is the higher-RPM sibling of the GT500 above, rated to 5000 RPM, using the same combined sealed foam and bottom air intake design for rear-exhaust laptops. It adds a 3-port USB hub that can run independently on its own data line, separate from the fan's own power draw.\n\nRanked just behind IETS GT500 Powerful Turbo-Fan, it costs more than IETS GT500 Powerful Turbo-Fan. The real tradeoff against that pick: Loudest pad in this guide at up to 65dB. In exchange, it offers this instead: Highest documented sealed fan speed in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your laptop.\n\nWorth knowing before you decide: Independent USB hub function. On the other side, Seal improves pressure only, not water or dust resistance. That's the main tradeoff to weigh against everything above.",
+    specs: ["Combined sealed foam","Turbofan up to 5000 RPM, variable speed","3-port USB hub with independent data line","Bottom air intake design","Noise up to 65dB at max speed"],
+    pros: ["Highest documented sealed fan speed in this guide","Independent USB hub function","Bottom intake targets rear-exhaust laptop heat backflow","Wide adjustable speed range"],
+    cons: ["Loudest pad in this guide at up to 65dB","Highest price of the two GT500 variants here","Seal improves pressure only, not water or dust resistance"],
     bestFor: "Buyers who want the highest documented sealed-pad fan speed and can tolerate the noise that comes with it.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -152,46 +145,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "What 'Sealed' Actually Means Here",
-    note: "Every pad in this guide uses 'sealed' to mean a foam gasket that presses against the laptop's underside to direct airflow pressure, not a water or dust resistance rating for the unit itself. If you need genuine water or dust ingress protection, that is a different, unrelated product claim you should search for separately, since none of these listings make that claim.",
-  },
-  {
-    subheading: "By Priority: Frame-Specific Fit vs General Fit",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Seal sized to your specific laptop width", "Razer Laptop Cooling Pad Adaptive Smart, with 3 magnetic frames"],
-        ["General-purpose seal across 13-17.3 inch laptops", "IETS GT500 (4200 or 5000 RPM) or GT300"],
-        ["Seal plus dust filtration as distinct features", "llano V12 (either B0C69BVWGB or B0CYC7T38X variant)"],
+    "subheading": "By Laptop Size Fit",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Tightest size match for your laptop",
+          "llano V12 Laptop Cooling Pad"
+        ],
+        [
+          "Widest range, flexible for future upgrades",
+          "IETS GT500 Powerful Turbo-Fan"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Removable and Maintainable Seals",
-    cards: [
-      { label: "Want a cleanable or replaceable seal", text: "The KLIM Everest's detachable foam seal can be removed for cleaning or replacement." },
-      { label: "Want scheduled filter maintenance guidance", text: "The IETS GT300 specifies replacing its air filter every 2 to 6 months, useful if you want a clear maintenance routine." },
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $56",
+          "KLIM Everest Laptop Cooling Pad"
+        ],
+        [
+          "Mid-range",
+          "IETS GT500 Powerful Turbo-Fan"
+        ],
+        [
+          "No firm budget ceiling, prioritizing fan count or extras",
+          "Razer Laptop Cooling Pad Adaptive Smart"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Slim/Fewer Fans vs Multi-Fan High Airflow",
+    "cards": [
+      {
+        "label": "Slim, Fewer Fans",
+        "text": "Lighter and more portable with less total noise, at the cost of a smaller cooled surface area. In this comparison: Razer Laptop Cooling Pad Adaptive Smart."
+      },
+      {
+        "label": "Multi-Fan, High Airflow",
+        "text": "More total cooling surface and airflow, at the cost of extra bulk and more potential noise at full speed. In this comparison: Razer Laptop Cooling Pad Adaptive Smart."
+      }
     ],
+    "note": "Most buyers should default to a slim pick like Razer Laptop Cooling Pad Adaptive Smart for everyday portability, and only step up to Razer Laptop Cooling Pad Adaptive Smart's fan count if you're running genuinely demanding workloads that generate real sustained heat."
   },
   {
-    subheading: "Noise at Sealed Pressure Levels",
-    table: {
-      headers: ["Noise tolerance", "Recommended pick"],
-      rows: [
-        ["Willing to accept up to 65dB for maximum airflow", "IETS GT500 (5000 RPM)"],
-        ["Want strong sealing with moderate noise", "KLIM Everest or IETS GT300"],
-        ["Want the most refined, software-controlled noise profile", "Razer Laptop Cooling Pad Adaptive Smart"],
+    "subheading": "By Height Adjustment Range",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Most ergonomic height adjustment range",
+          "Razer Laptop Cooling Pad Adaptive Smart"
+        ],
+        [
+          "Simplest setup, fewer adjustments to fuss with",
+          "KLIM Everest Laptop Cooling Pad"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a Fanless or Sealed-Chassis Laptop (Like MacBook) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation that your specific laptop model has bottom-panel intake vents, since a cooling pad provides little benefit on a fully sealed, fanless unibody design regardless of physical fit."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Every pick here is designed around a vented-bottom laptop; if you're on a fanless MacBook specifically, check our dedicated MacBook Air cooling pad guide for that honesty caveat before buying any pad in this comparison."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Razer Laptop Cooling Pad Adaptive Smart offers: Most explicitly engineered pressure-seal design in this category. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "KLIM Everest Laptop Cooling Pad already covers the essentials: Detachable seal can be cleaned or replaced. The main thing you'd be paying extra for elsewhere in this list is fan count or height range you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Clarify which meaning of 'sealed' applies", explanation: "Before buying, read the listing for whether 'sealed' refers to a foam pressure gasket against the laptop base or an actual IP-rated water and dust resistance claim. In this category, it is almost always the former." },
-  { criterion: "A sealed body without vents can hurt airflow", explanation: "If a listing describes a fully enclosed, non-vented pad body rather than a foam gasket against your laptop, that design can trap heat instead of dissipating it. Favor pads that explicitly describe the seal as directing airflow pressure, not blocking ventilation." },
-  { criterion: "Frame-specific seals fit better than universal ones", explanation: "A seal sized to your exact laptop width, like the Razer pick's magnetic frames, creates tighter pressure than a general-purpose foam gasket meant to span a wide size range." },
-  { criterion: "Sealing and dust filtration are separate features", explanation: "Don't assume a sealed pad automatically filters dust, or that a dust-filtered pad is automatically sealed for pressure. Check the listing for both features named separately if you want both benefits." },
-  { criterion: "Higher sealed pressure usually means more noise", explanation: "Pads with the strongest documented sealing and highest fan RPM in this guide also report the highest noise levels, up to 65dB at maximum speed. Balance sealing strength against your noise tolerance." },
+  {
+    "criterion": "Check the pad's stated compatible size range against your laptop's real footprint, not its screen size",
+    "explanation": "A laptop's advertised screen size, like 13 or 15.6 inches, describes the diagonal measurement of the display panel, not the physical width and depth of the laptop's base that actually sits on top of a cooling pad, and two laptops with the identical screen size can have meaningfully different base dimensions depending on bezel thickness and chassis design.\n\nCooling pad listings state a compatible size range in inches specifically because they're describing what base footprint fits their surface and fan layout, so treating the screen-size number alone as a fit guarantee is a genuine buying mistake, not just an imprecise shortcut.\n\nMeasure your laptop's actual width and depth, or find those dimensions in its own spec sheet, and compare that against the pad's stated range rather than matching screen-size numbers."
+  },
+  {
+    "criterion": "Understand that a wider-range pad isn't automatically better for a smaller laptop",
+    "explanation": "Cooling pads spread their fans across the surface in a fixed layout designed around the middle of their stated compatible range, so a pad rated for 12 to 17 inches has its fans positioned to reach a wide variety of vent locations across that whole span, while a laptop toward the small end of that range may not sit directly over as many of those fans as it would on a pad sized more tightly around its own dimensions.\n\nThis matters because the cooling benefit of a pad comes specifically from airflow reaching the laptop's actual intake vents, not from the pad's overall surface area, so a smaller laptop on an oversized pad can genuinely get less effective cooling than the same laptop on a proportionally sized pad, despite technically fitting within the stated range.\n\nWhen your laptop sits toward one end of a pad's stated range rather than the middle, check user photos or reviews specifically describing that size laptop's fit before assuming the airflow lines up well."
+  },
+  {
+    "criterion": "Confirm your laptop's actual vent location and design, especially for thin ultrabooks and MacBooks",
+    "explanation": "Most cooling pads are designed around bottom-vented laptops, where intake vents sit on the underside of the chassis directly facing the pad's fans, but some laptops, most notably many MacBook models, use a fully sealed or fanless internal design where the chassis itself acts as a heat sink rather than relying on active airflow from underneath.\n\nThis is a genuine compatibility gap that a cooling pad's stated inch-range compatibility says nothing about, since a pad can physically fit a MacBook's exact footprint while providing essentially no cooling benefit if that specific model has no bottom vents for the fans to blow into.\n\nCheck your specific laptop model's actual cooling design (vented bottom panel versus sealed unibody) before assuming a cooling pad will meaningfully lower its temperature, and treat this as a separate question from simple physical size fit."
+  },
+  {
+    "criterion": "Weigh fan count and noise level together, not fan count alone",
+    "explanation": "A pad's fan count, commonly ranging from a single central fan up to five or six smaller fans, is often marketed as a straightforward better-is-more spec, but more fans spinning simultaneously generally means more total noise output, and a pad with independently controllable fan zones lets you balance airflow against noise rather than forcing an all-or-nothing choice.\n\nThis is a real everyday tradeoff for anyone using a laptop in a quiet room or on a video call, since a cooling pad running at full multi-fan speed can become audible enough to be distracting, undermining the benefit if you end up turning it off to avoid the noise.\n\nCheck whether the listing states selectable fan modes or independently controlled fan zones, not just the total fan count, if noise control matters to your specific environment."
+  },
+  {
+    "criterion": "Confirm the power source and port type match your laptop before assuming plug-and-play compatibility",
+    "explanation": "Nearly all cooling pads draw power over a USB cable rather than a separate power adapter, which keeps setup simple, but the cable end that plugs into your laptop is typically USB-A, and a laptop with only USB-C ports (common on newer ultrabooks and MacBooks) will need a separate USB-C adapter or hub to actually power the pad, an extra cost and cable that isn't obvious from the listing photos alone.\n\nThis matters because a cooling pad that can't be powered defeats its entire purpose regardless of how well it otherwise fits your laptop's size and vent layout, so it's a genuine prerequisite to check, not an afterthought.\n\nCheck the listing's stated cable connector type and confirm it matches an available port on your specific laptop, or budget for an adapter if it doesn't."
+  }
 ];
 
 export const faq: FaqItem[] = [

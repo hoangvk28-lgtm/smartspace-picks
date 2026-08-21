@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31DsLHp9vML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJDWWHTV?tag=deskfinds0d-20",
-    description:
-      "This pad automatically adjusts fan speed based on system temperature instead of relying on a fixed manual setting, and the listing states its 140mm brushless fan spins up to 3000 RPM inside an airtight foam-sealed chamber. Three magnetic frame sizes let it adapt from a 14 inch ultrabook up to an 18 inch gaming chassis, which covers both ASUS ZenBook and larger ROG bodies.\n\nThe adaptive fan control and premium build come at a much higher price than the other picks here, so it makes more sense for a heavier ROG or TUF laptop running sustained loads than for a lighter VivoBook that rarely needs more than passive elevation. Confirm your specific ASUS model's footprint against Razer's frame size chart before buying, since the wrong frame reduces the sealed-chamber benefit.",
-    specs: ["140mm brushless fan, up to 3000 RPM", "3 interchangeable magnetic frames (14 to 18 inch)", "Airtight foam-sealed pressure chamber", "3-port USB Type A hub", "2-year manufacturer warranty"],
-    pros: ["Automatic fan speed adjustment based on temperature", "Foam seal reduces air leakage around the chassis", "Interchangeable frames cover ultrabook through 18 inch gaming sizes", "Remappable buttons for fan and lighting control"],
-    cons: ["Significantly more expensive than every other pick in this guide", "Frame swapping adds a setup step most universal pads skip", "Overkill for a light ZenBook or VivoBook that runs cool already"],
+    description: "This pad automatically adjusts fan speed based on system temperature instead of relying on a fixed manual setting, and the listing states its 140mm brushless fan spins up to 3000 RPM inside an airtight foam-sealed chamber. Three magnetic frame sizes let it adapt from a 14 inch ultrabook up to an 18 inch gaming chassis, which covers both ASUS ZenBook and larger ROG bodies.\n\nIt earns the top spot in this comparison over llano V12 Gaming Laptop Cooling Pad Laptop Cooler Laptop Cooling Fan Stand for one main reason. Automatic fan speed adjustment based on temperature. On price, it's actually priced above llano V12 Gaming Laptop Cooling Pad Laptop Cooler Laptop Cooling Fan Stand, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Foam seal reduces air leakage around the chassis. On the other side, Overkill for a light ZenBook or VivoBook that runs cool already. That's the main tradeoff to weigh against everything above.",
+    specs: ["140mm brushless fan, up to 3000 RPM","3 interchangeable magnetic frames (14 to 18 inch)","Airtight foam-sealed pressure chamber","3-port USB Type A hub","2-year manufacturer warranty"],
+    pros: ["Automatic fan speed adjustment based on temperature","Foam seal reduces air leakage around the chassis","Interchangeable frames cover ultrabook through 18 inch gaming sizes","Remappable buttons for fan and lighting control"],
+    cons: ["Significantly more expensive than every other pick in this guide","Frame swapping adds a setup step most universal pads skip","Overkill for a light ZenBook or VivoBook that runs cool already"],
     bestFor: "ROG or TUF gaming laptop owners who want automatic fan control and are willing to pay a premium for it.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41RI0692h6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C69BVWGB?tag=deskfinds0d-20",
-    description:
-      "This pad centers on a single 5.5 inch turbo fan combined with sealed foam, and the listing states a 44 degree Celsius reduction in 90 seconds under a combined CPU and GPU load, which is the kind of sustained heat output a ROG or TUF gaming laptop generates under a demanding game or render. The reinforced chassis is rated for laptops from 15.6 to 19 inches, matching most ROG and TUF body sizes.\n\nA removable dust filter and three tilt angles add practical value for a heavier gaming laptop that sits in one place for long sessions, though the RGB lighting and 3-port hub are extras rather than core cooling features. This is a large, heavy pad in its own right, so measure your desk space before buying if you also want to keep an external mouse or drawing tablet nearby.",
-    specs: ["5.5 inch turbo booster fan", "36W power output", "Removable dust filter included", "Reinforced chassis for 15.6 to 19 inch laptops", "3-port USB 2.0 hub"],
-    pros: ["Reinforced design matches the weight of ROG and TUF gaming chassis", "Dust filter helps protect internal fans over time", "Stated sustained cooling figures under CPU plus GPU load", "Adjustable tilt for long gaming sessions"],
-    cons: ["Large footprint compared to slimmer ultrabook-focused pads", "Higher price than most non-gaming picks in this guide", "RGB lighting adds cost without adding cooling"],
+    description: "This pad centers on a single 5.5 inch turbo fan combined with sealed foam, and the listing states a 44 degree Celsius reduction in 90 seconds under a combined CPU and GPU load, which is the kind of sustained heat output a ROG or TUF gaming laptop generates under a demanding game or render. The reinforced chassis is rated for laptops from 15.6 to 19 inches, matching most ROG and TUF body sizes.\n\nOne spot below Razer Laptop Cooling Pad Adaptive Smart in this ranking, it's priced lower than Razer Laptop Cooling Pad Adaptive Smart. The compromise here is straightforward: Large footprint compared to slimmer ultrabook-focused pads. What you gain in return: Reinforced design matches the weight of ROG and TUF gaming chassis. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Dust filter helps protect internal fans over time. On the other side, RGB lighting adds cost without adding cooling. That's the main tradeoff to weigh against everything above.",
+    specs: ["5.5 inch turbo booster fan","36W power output","Removable dust filter included","Reinforced chassis for 15.6 to 19 inch laptops","3-port USB 2.0 hub"],
+    pros: ["Reinforced design matches the weight of ROG and TUF gaming chassis","Dust filter helps protect internal fans over time","Stated sustained cooling figures under CPU plus GPU load","Adjustable tilt for long gaming sessions"],
+    cons: ["Large footprint compared to slimmer ultrabook-focused pads","Higher price than most non-gaming picks in this guide","RGB lighting adds cost without adding cooling"],
     bestFor: "ROG or TUF owners running heavy gaming or creative loads who need sustained airflow under a large, heavy chassis.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51MNLZRfO8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B087WF59N1?tag=deskfinds0d-20",
-    description:
-      "This pad spreads cooling across six smaller fans rather than one large turbo fan, with vents on both the top and bottom of the case for airflow from multiple directions. An LCD readout shows current fan speed, and six height settings cover the range most 15 to 17.3 inch TUF and ROG laptops need for a comfortable typing angle.\n\nAt this price it is a reasonable entry point for a TUF gaming laptop owner who wants more than passive elevation without paying for a premium turbo-fan design, though the six smaller fans move less air per fan than a single large turbo fan like the picks above. Verify your TUF model's vent locations line up with the top and bottom airflow zones before relying on it for sustained load.",
-    specs: ["6 transparent cooling fans", "LCD fan speed display", "6 height adjustment settings", "7 RGB lighting modes", "2 USB ports, phone stand included"],
-    pros: ["Budget-friendly for a gaming-oriented cooling pad", "Multi-directional airflow from top and bottom vents", "LCD display shows fan speed at a glance", "Six adjustable heights for typing comfort"],
-    cons: ["Six smaller fans move less air per fan than a single turbo design", "RGB and LCD extras add bulk without adding raw cooling power", "Less proven for sustained heavy loads than the pricier picks above"],
+    description: "This pad spreads cooling across six smaller fans rather than one large turbo fan, with vents on both the top and bottom of the case for airflow from multiple directions. An LCD readout shows current fan speed, and six height settings cover the range most 15 to 17.3 inch TUF and ROG laptops need for a comfortable typing angle.\n\nSitting just under llano V12 Gaming Laptop Cooling Pad Laptop Cooler Laptop Cooling Fan Stand, it's priced lower than llano V12 Gaming Laptop Cooling Pad Laptop Cooler Laptop Cooling Fan Stand. Here's the honest tradeoff: Six smaller fans move less air per fan than a single turbo design. And here's what it gets you instead: Budget-friendly for a gaming-oriented cooling pad. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Multi-directional airflow from top and bottom vents. On the other side, Less proven for sustained heavy loads than the pricier picks above. That's the main tradeoff to weigh against everything above.",
+    specs: ["6 transparent cooling fans","LCD fan speed display","6 height adjustment settings","7 RGB lighting modes","2 USB ports, phone stand included"],
+    pros: ["Budget-friendly for a gaming-oriented cooling pad","Multi-directional airflow from top and bottom vents","LCD display shows fan speed at a glance","Six adjustable heights for typing comfort"],
+    cons: ["Six smaller fans move less air per fan than a single turbo design","RGB and LCD extras add bulk without adding raw cooling power","Less proven for sustained heavy loads than the pricier picks above"],
     bestFor: "TUF gaming laptop owners who want active cooling on a tighter budget than the premium turbo-fan pads.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41famjBML2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DDSZP449?tag=deskfinds0d-20",
-    description:
-      "This pad packs nine fans into a frame rated up to 19.3 inches, which covers ASUS ROG's largest desktop-replacement models better than most pads in this guide. An LCD readout controls fan speed and RGB lighting, and eight height settings give a wide range of typing angles for a laptop this size.\n\nNine smaller fans distribute airflow broadly rather than concentrating it, which suits a ROG chassis with vents spread across the underside rather than a single central hot spot. Check the listing's exact vent-clearance dimensions against your ROG model, since a 17 to 19 inch rated pad still needs its fan zones to line up with where your specific laptop actually exhausts heat.",
-    specs: ["9 cooling fans, top and bottom vent design", "Fits 15.6 to 19.3 inch laptops", "LCD fan speed display", "8 height adjustment settings", "10 RGB light modes, 2 USB ports"],
-    pros: ["Rated for ASUS ROG's largest 17 to 19 inch chassis sizes", "Nine fans spread airflow across a wide vent area", "Quiet operation claimed even at maximum fan speed", "Eight height settings for a laptop this size"],
-    cons: ["Larger footprint takes up more desk space", "Nine smaller fans versus one large turbo fan may move less air per fan", "RGB and LCD extras add cost without adding cooling"],
+    description: "This pad packs nine fans into a frame rated up to 19.3 inches, which covers ASUS ROG's largest desktop-replacement models better than most pads in this guide. An LCD readout controls fan speed and RGB lighting, and eight height settings give a wide range of typing angles for a laptop this size.\n\nRanked just behind ICE COOREL Gaming Laptop Cooling Pad 15-17.3 Inch, it costs more than ICE COOREL Gaming Laptop Cooling Pad 15-17.3 Inch. The real tradeoff against that pick: Larger footprint takes up more desk space. In exchange, it offers this instead: Rated for ASUS ROG's largest 17 to 19 inch chassis sizes. That's the swap that decides whether this pick or the one above it is the better fit for your laptop.\n\nWorth knowing before you decide: Nine fans spread airflow across a wide vent area. On the other side, RGB and LCD extras add cost without adding cooling. That's the main tradeoff to weigh against everything above.",
+    specs: ["9 cooling fans, top and bottom vent design","Fits 15.6 to 19.3 inch laptops","LCD fan speed display","8 height adjustment settings","10 RGB light modes, 2 USB ports"],
+    pros: ["Rated for ASUS ROG's largest 17 to 19 inch chassis sizes","Nine fans spread airflow across a wide vent area","Quiet operation claimed even at maximum fan speed","Eight height settings for a laptop this size"],
+    cons: ["Larger footprint takes up more desk space","Nine smaller fans versus one large turbo fan may move less air per fan","RGB and LCD extras add cost without adding cooling"],
     bestFor: "Owners of ASUS ROG's largest 17 to 19 inch models who need broad-coverage airflow across a wide chassis.",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41Jqy02xExL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GGZDNRCN?tag=deskfinds0d-20",
-    description:
-      "This pad uses nine smaller fans with stepless speed control up to 2600 RPM and a full-size 14.4 by 10.5 inch platform that fits a 12 to 15.6 inch VivoBook comfortably. The listing states noise stays under 40 dB, which matters for a VivoBook used in shared spaces like a dorm room or open office.\n\nA built-in phone holder and dual USB ports add everyday convenience without occupying a port on the laptop itself, and five height settings cover typical VivoBook typing angles. This pad is sized for mainstream 12 to 15.6 inch laptops rather than an 17 inch ROG chassis, so ROG and TUF owners should look at the larger picks above instead.",
-    specs: ["9 fans, up to 2600 RPM", "Fits 12 to 15.6 inch laptops", "Noise rated under 40 dB", "5 height settings, up to 6 inches", "2 USB ports, built-in phone holder"],
-    pros: ["Sized correctly for mainstream VivoBook dimensions", "Quiet operation rating suits shared spaces", "Phone holder is a genuinely useful extra", "USB passthrough avoids losing a laptop port"],
-    cons: ["Not rated for larger 17 inch ROG or TUF chassis sizes", "Nine smaller fans move less concentrated airflow than a single turbo fan", "Alloy mesh surface offers less heat conduction than a solid aluminum plate"],
+    description: "This pad uses nine smaller fans with stepless speed control up to 2600 RPM and a full-size 14.4 by 10.5 inch platform that fits a 12 to 15.6 inch VivoBook comfortably. The listing states noise stays under 40 dB, which matters for a VivoBook used in shared spaces like a dorm room or open office.\n\nOne spot below ChillCore Laptop Cooling Pad in this ranking, it's priced lower than ChillCore Laptop Cooling Pad. The compromise here is straightforward: Not rated for larger 17 inch ROG or TUF chassis sizes. What you gain in return: Sized correctly for mainstream VivoBook dimensions. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Quiet operation rating suits shared spaces. On the other side, Alloy mesh surface offers less heat conduction than a solid aluminum plate. That's the main tradeoff to weigh against everything above.",
+    specs: ["9 fans, up to 2600 RPM","Fits 12 to 15.6 inch laptops","Noise rated under 40 dB","5 height settings, up to 6 inches","2 USB ports, built-in phone holder"],
+    pros: ["Sized correctly for mainstream VivoBook dimensions","Quiet operation rating suits shared spaces","Phone holder is a genuinely useful extra","USB passthrough avoids losing a laptop port"],
+    cons: ["Not rated for larger 17 inch ROG or TUF chassis sizes","Nine smaller fans move less concentrated airflow than a single turbo fan","Alloy mesh surface offers less heat conduction than a solid aluminum plate"],
     bestFor: "VivoBook owners who want a comfortably sized, quiet pad without gaming-laptop bulk or price.",
   },
   {
@@ -115,11 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01469DJLM?tag=deskfinds0d-20",
-    description:
-      "This pad combines one larger 4.72 inch fan with four smaller fans, and two switches let you run just the center fan, all four side fans, or all five together. That flexibility suits a thin ZenBook, since light workloads only need the small central fan while heavier tasks can call on the full array.\n\nSix height settings and a dual USB hub round out the feature set at a lower price than most pads here, though the listing's stated compatibility is general rather than ZenBook-specific. Confirm ZenBook's vent placement lines up with the fan array before assuming full benefit, since ultrabook vents are often narrower than the mesh surface this pad provides.",
-    specs: ["5 fans (1 large, 4 small), blue LEDs", "2 on/off switches for partial or full fan operation", "Fits 12 to 17 inch laptops", "6 height settings", "Dual USB hub"],
-    pros: ["Switchable fan zones match light or heavy ZenBook workloads", "Budget-friendly price for a 5-fan design", "Six height settings for ergonomic flexibility", "Stoppers help prevent slipping on the mesh surface"],
-    cons: ["Compatibility claim is general rather than ZenBook-specific", "Plastic and mesh build offers less heat conduction than aluminum", "Blue LEDs add a cosmetic touch some ultrabook users may not want"],
+    description: "This pad combines one larger 4.72 inch fan with four smaller fans, and two switches let you run just the center fan, all four side fans, or all five together. That flexibility suits a thin ZenBook, since light workloads only need the small central fan while heavier tasks can call on the full array.\n\nSitting just under TECKNET Laptop Cooling Pad with Phone Stand, it's priced lower than TECKNET Laptop Cooling Pad with Phone Stand. Here's the honest tradeoff: Compatibility claim is general rather than ZenBook-specific. And here's what it gets you instead: Switchable fan zones match light or heavy ZenBook workloads. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Budget-friendly price for a 5-fan design. On the other side, Blue LEDs add a cosmetic touch some ultrabook users may not want. That's the main tradeoff to weigh against everything above.",
+    specs: ["5 fans (1 large, 4 small), blue LEDs","2 on/off switches for partial or full fan operation","Fits 12 to 17 inch laptops","6 height settings","Dual USB hub"],
+    pros: ["Switchable fan zones match light or heavy ZenBook workloads","Budget-friendly price for a 5-fan design","Six height settings for ergonomic flexibility","Stoppers help prevent slipping on the mesh surface"],
+    cons: ["Compatibility claim is general rather than ZenBook-specific","Plastic and mesh build offers less heat conduction than aluminum","Blue LEDs add a cosmetic touch some ultrabook users may not want"],
     bestFor: "ZenBook owners who want the option to run a light single fan or the full array depending on workload.",
   },
   {
@@ -132,11 +126,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51phX6jwL9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B016CL2DE6?tag=deskfinds0d-20",
-    description:
-      "This pad runs three fans at 1200 RPM in a slim profile designed to slip into a laptop bag alongside a thin ZenBook or lighter VivoBook. The low-profile build prioritizes portability over the raw fan count of the gaming-oriented picks in this guide, which fits how most ultrabook owners actually use their laptop, moving between locations rather than sitting stationary for long sessions.\n\nThe tradeoff is lower total airflow than a five or nine fan pad, so it suits light productivity work better than sustained heavy loads. It is a reasonable secondary option to the Kootek pick above if slimness and portability matter more to you than switchable fan zones.",
-    specs: ["3 fans, 1200 RPM", "Slim, portable profile", "Fits 12 to 17 inch laptops", "USB powered"],
-    pros: ["Slim profile is easy to pack for a portable ZenBook or VivoBook", "Lower price point than most active cooling pads", "Straightforward single-mode operation, no settings to manage", "Metal mesh surface for stable laptop contact"],
-    cons: ["Fewer fans mean less total airflow than the picks above", "Not well suited to sustained heavy loads on a ROG or TUF chassis", "No height adjustment beyond the built-in tilt"],
+    description: "This pad runs three fans at 1200 RPM in a slim profile designed to slip into a laptop bag alongside a thin ZenBook or lighter VivoBook. The low-profile build prioritizes portability over the raw fan count of the gaming-oriented picks in this guide, which fits how most ultrabook owners actually use their laptop, moving between locations rather than sitting stationary for long sessions.\n\nRanked just behind Kootek Laptop Cooling Pad Cooler Stand with 5 Quiet Fans for 12-17 Inch Laptop, it costs more than Kootek Laptop Cooling Pad Cooler Stand with 5 Quiet Fans for 12-17 Inch Laptop. The real tradeoff against that pick: Fewer fans mean less total airflow than the picks above. In exchange, it offers this instead: Slim profile is easy to pack for a portable ZenBook or VivoBook. That's the swap that decides whether this pick or the one above it is the better fit for your laptop.\n\nWorth knowing before you decide: Lower price point than most active cooling pads. On the other side, No height adjustment beyond the built-in tilt. That's the main tradeoff to weigh against everything above.",
+    specs: ["3 fans, 1200 RPM","Slim, portable profile","Fits 12 to 17 inch laptops","USB powered"],
+    pros: ["Slim profile is easy to pack for a portable ZenBook or VivoBook","Lower price point than most active cooling pads","Straightforward single-mode operation, no settings to manage","Metal mesh surface for stable laptop contact"],
+    cons: ["Fewer fans mean less total airflow than the picks above","Not well suited to sustained heavy loads on a ROG or TUF chassis","No height adjustment beyond the built-in tilt"],
     bestFor: "ZenBook or VivoBook owners who prioritize a slim, packable pad over maximum fan count.",
   },
   {
@@ -149,13 +142,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51+142vwVRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00NNMB3KS?tag=deskfinds0d-20",
-    description:
-      "This pad offers a straightforward three-fan design with two adjustable height settings and a metal mesh surface for stable laptop contact. It is sized for 15.6 to 17 inch laptops, which covers larger VivoBook and some lighter ROG or TUF models depending on the exact chassis dimensions.\n\nAt this price it functions as a basic entry point rather than a performance pick, so buyers with a heavy gaming workload should look at the turbo-fan picks earlier in this guide instead. An extra USB port and power switch keep the design simple without added extras like RGB lighting or an LCD display.",
-    specs: ["3 ultra-quiet fans", "2 adjustable height settings", "Fits 15.6 to 17 inch laptops", "Extra USB port with power switch"],
-    pros: ["Low price for an active three-fan pad", "Simple two-height design with no settings to manage", "Metal mesh provides stable laptop contact", "Extra USB port for a connected accessory"],
-    cons: ["Fewer fans and less airflow than the higher-ranked picks", "No RGB, LCD, or advanced fan control", "Better suited to light or moderate loads than sustained gaming"],
+    description: "This pad offers a straightforward three-fan design with two adjustable height settings and a metal mesh surface for stable laptop contact. It is sized for 15.6 to 17 inch laptops, which covers larger VivoBook and some lighter ROG or TUF models depending on the exact chassis dimensions.\n\nOne spot below TECKNET Laptop Cooling Pad in this ranking, it costs more than TECKNET Laptop Cooling Pad. The compromise here is straightforward: Fewer fans and less airflow than the higher-ranked picks. What you gain in return: Low price for an active three-fan pad. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Simple two-height design with no settings to manage. On the other side, Better suited to light or moderate loads than sustained gaming. That's the main tradeoff to weigh against everything above.",
+    specs: ["3 ultra-quiet fans","2 adjustable height settings","Fits 15.6 to 17 inch laptops","Extra USB port with power switch"],
+    pros: ["Low price for an active three-fan pad","Simple two-height design with no settings to manage","Metal mesh provides stable laptop contact","Extra USB port for a connected accessory"],
+    cons: ["Fewer fans and less airflow than the higher-ranked picks","No RGB, LCD, or advanced fan control","Better suited to light or moderate loads than sustained gaming"],
     bestFor: "Budget-focused VivoBook owners who want basic active cooling without paying for gaming-oriented extras.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -169,62 +161,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by ASUS Laptop Line",
-    intro: "ZenBook, VivoBook, ROG, and TUF differ enough in weight and heat output that the right pad depends heavily on which line you own.",
-    table: {
-      headers: ["Your ASUS laptop", "Recommended pick"],
-      rows: [
-        ["ROG or TUF, heavy sustained gaming", "llano V12 Gaming Laptop Cooling Pad"],
-        ["TUF gaming, budget-conscious", "ICE COOREL Gaming Laptop Cooling Pad"],
-        ["ROG, 17 to 19 inch large chassis", "ChillCore 9-Fan Laptop Cooling Pad"],
-        ["VivoBook mainstream 12 to 15.6 inch", "TECKNET Laptop Cooling Pad with Phone Stand"],
-        ["ZenBook ultrabook", "Kootek 5-Fan Laptop Cooling Pad"],
+    "subheading": "By Laptop Size Fit",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Tightest size match for your laptop",
+          "havit HV-F2056 15.6-17 Inch Laptop Cooler Cooling Pad"
+        ],
+        [
+          "Widest range, flexible for future upgrades",
+          "Kootek Laptop Cooling Pad Cooler Stand with 5 Quiet Fans for 12-17 Inch Laptop"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Ultrabook vs Gaming Laptop Airflow Needs",
-    cards: [
-      { label: "ZenBook and VivoBook", text: "These run cooler and lighter, so a slim multi-fan pad or even a switchable-zone pad is usually enough. See the Kootek and TECKNET slim picks above." },
-      { label: "ROG and TUF", text: "These push more sustained heat through a heavier chassis, so prioritize a pad rated for the 15.6 to 19 inch range with a stated temperature drop figure, like the llano or ChillCore picks. For TUF specifically, our dedicated ASUS TUF cooling pad guide narrows this further." },
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $27",
+          "Kootek Laptop Cooling Pad Cooler Stand with 5 Quiet Fans for 12-17 Inch Laptop"
+        ],
+        [
+          "Mid-range",
+          "TECKNET Laptop Cooling Pad with Phone Stand"
+        ],
+        [
+          "No firm budget ceiling, prioritizing fan count or extras",
+          "Razer Laptop Cooling Pad Adaptive Smart"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Slim/Fewer Fans vs Multi-Fan High Airflow",
+    "cards": [
+      {
+        "label": "Slim, Fewer Fans",
+        "text": "Lighter and more portable with less total noise, at the cost of a smaller cooled surface area. In this comparison: Razer Laptop Cooling Pad Adaptive Smart."
+      },
+      {
+        "label": "Multi-Fan, High Airflow",
+        "text": "More total cooling surface and airflow, at the cost of extra bulk and more potential noise at full speed. In this comparison: ChillCore Laptop Cooling Pad."
+      }
     ],
+    "note": "Most buyers should default to a slim pick like Razer Laptop Cooling Pad Adaptive Smart for everyday portability, and only step up to ChillCore Laptop Cooling Pad's fan count if you're running genuinely demanding workloads that generate real sustained heat."
   },
   {
-    subheading: "Verify Vent Alignment, Not Just the Brand Name",
-    intro: "A universal pad listing ASUS compatibility does not guarantee its fan zones line up with your exact model's vent locations.",
-    table: {
-      headers: ["What to check", "Why it matters"],
-      rows: [
-        ["Where your laptop's intake and exhaust vents sit", "A pad's fan zones only help if they overlap with real vent locations"],
-        ["Your laptop's actual weight and footprint", "A pad's stated size range is a starting point, not a guarantee of fit"],
-        ["Whether the listing names ASUS specifically or lists it generically", "Specific mentions are a better signal than a broad size claim alone"],
+    "subheading": "By Height Adjustment Range",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Most ergonomic height adjustment range",
+          "ChillCore Laptop Cooling Pad"
+        ],
+        [
+          "Simplest setup, fewer adjustments to fuss with",
+          "Kootek Laptop Cooling Pad Cooler Stand with 5 Quiet Fans for 12-17 Inch Laptop"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Noise Tolerance by Environment",
-    table: {
-      headers: ["Environment", "What to prioritize"],
-      rows: [
-        ["Shared dorm room or open office", "A pad with a stated noise figure under 40 dB"],
-        ["Private room, gaming focus", "Airflow and temperature drop over noise level"],
-        ["Video calls on a ZenBook or VivoBook", "The quietest rated pad available for your size range"],
-      ],
-    },
+    "subheading": "For a Fanless or Sealed-Chassis Laptop (Like MacBook) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation that your specific laptop model has bottom-panel intake vents, since a cooling pad provides little benefit on a fully sealed, fanless unibody design regardless of physical fit."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Every pick here is designed around a vented-bottom laptop; if you're on a fanless MacBook specifically, check our dedicated MacBook Air cooling pad guide for that honesty caveat before buying any pad in this comparison."
+      }
+    ]
   },
   {
-    subheading: "When a Cooling Pad Is Worth the Cost",
-    note: "A cooling pad earns its keep most clearly during extended sessions, such as a multi-hour render on a ROG laptop or a long study session on a ZenBook in a warm room. For occasional light use, a lower-cost pick is enough. Heavy or daily sustained loads justify the pricier active-cooling options above.",
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Razer Laptop Cooling Pad Adaptive Smart offers: Automatic fan speed adjustment based on temperature. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Kootek Laptop Cooling Pad Cooler Stand with 5 Quiet Fans for 12-17 Inch Laptop already covers the essentials: Switchable fan zones match light or heavy ZenBook workloads. The main thing you'd be paying extra for elsewhere in this list is fan count or height range you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Match the pad to your ASUS line, not just the brand", explanation: "ZenBook, VivoBook, ROG, and TUF have very different weight and heat profiles under one brand name. A pad sized for a 15 pound ROG chassis is overkill for a 2.5 pound ZenBook, and a light ultrabook pad will not keep up with sustained ROG gaming loads." },
-  { criterion: "Verify vent alignment before buying", explanation: "Most pads here are universal-fit, not ASUS-exclusive hardware, so check that the pad's fan zones and size range genuinely overlap with your specific model's vent locations and footprint rather than trusting a generic ASUS compatibility mention alone." },
-  { criterion: "Weigh fan count against fan size", explanation: "A single large turbo fan concentrates more airflow in one area, while a nine-fan array spreads weaker airflow more broadly. Concentrated heat spots on a gaming laptop often benefit more from one strong fan, while an evenly warm chassis benefits from broader coverage." },
-  { criterion: "Noise rating matters for shared spaces", explanation: "Look for a stated dB figure rather than a vague 'quiet' claim. Anything under 40 dB is reasonable for a shared room, while gaming-oriented turbo fans can run considerably louder at full speed." },
-  { criterion: "USB passthrough avoids losing a port", explanation: "Many ASUS ultrabooks have limited USB ports to begin with. A pad with a passthrough port that powers itself while freeing a second port for a mouse or drive avoids making the port shortage worse." },
-  { criterion: "Weight capacity for heavier ROG chassis", explanation: "ROG and TUF laptops with discrete GPUs and larger batteries can weigh 5 to 8 pounds. Confirm the pad's stated load rating comfortably exceeds your laptop's actual weight, not just its size in inches." },
+  {
+    "criterion": "Check the pad's stated compatible size range against your laptop's real footprint, not its screen size",
+    "explanation": "A laptop's advertised screen size, like 13 or 15.6 inches, describes the diagonal measurement of the display panel, not the physical width and depth of the laptop's base that actually sits on top of a cooling pad, and two laptops with the identical screen size can have meaningfully different base dimensions depending on bezel thickness and chassis design.\n\nCooling pad listings state a compatible size range in inches specifically because they're describing what base footprint fits their surface and fan layout, so treating the screen-size number alone as a fit guarantee is a genuine buying mistake, not just an imprecise shortcut.\n\nMeasure your laptop's actual width and depth, or find those dimensions in its own spec sheet, and compare that against the pad's stated range rather than matching screen-size numbers."
+  },
+  {
+    "criterion": "Understand that a wider-range pad isn't automatically better for a smaller laptop",
+    "explanation": "Cooling pads spread their fans across the surface in a fixed layout designed around the middle of their stated compatible range, so a pad rated for 12 to 17 inches has its fans positioned to reach a wide variety of vent locations across that whole span, while a laptop toward the small end of that range may not sit directly over as many of those fans as it would on a pad sized more tightly around its own dimensions.\n\nThis matters because the cooling benefit of a pad comes specifically from airflow reaching the laptop's actual intake vents, not from the pad's overall surface area, so a smaller laptop on an oversized pad can genuinely get less effective cooling than the same laptop on a proportionally sized pad, despite technically fitting within the stated range.\n\nWhen your laptop sits toward one end of a pad's stated range rather than the middle, check user photos or reviews specifically describing that size laptop's fit before assuming the airflow lines up well."
+  },
+  {
+    "criterion": "Confirm your laptop's actual vent location and design, especially for thin ultrabooks and MacBooks",
+    "explanation": "Most cooling pads are designed around bottom-vented laptops, where intake vents sit on the underside of the chassis directly facing the pad's fans, but some laptops, most notably many MacBook models, use a fully sealed or fanless internal design where the chassis itself acts as a heat sink rather than relying on active airflow from underneath.\n\nThis is a genuine compatibility gap that a cooling pad's stated inch-range compatibility says nothing about, since a pad can physically fit a MacBook's exact footprint while providing essentially no cooling benefit if that specific model has no bottom vents for the fans to blow into.\n\nCheck your specific laptop model's actual cooling design (vented bottom panel versus sealed unibody) before assuming a cooling pad will meaningfully lower its temperature, and treat this as a separate question from simple physical size fit."
+  },
+  {
+    "criterion": "Weigh fan count and noise level together, not fan count alone",
+    "explanation": "A pad's fan count, commonly ranging from a single central fan up to five or six smaller fans, is often marketed as a straightforward better-is-more spec, but more fans spinning simultaneously generally means more total noise output, and a pad with independently controllable fan zones lets you balance airflow against noise rather than forcing an all-or-nothing choice.\n\nThis is a real everyday tradeoff for anyone using a laptop in a quiet room or on a video call, since a cooling pad running at full multi-fan speed can become audible enough to be distracting, undermining the benefit if you end up turning it off to avoid the noise.\n\nCheck whether the listing states selectable fan modes or independently controlled fan zones, not just the total fan count, if noise control matters to your specific environment."
+  },
+  {
+    "criterion": "Confirm the power source and port type match your laptop before assuming plug-and-play compatibility",
+    "explanation": "Nearly all cooling pads draw power over a USB cable rather than a separate power adapter, which keeps setup simple, but the cable end that plugs into your laptop is typically USB-A, and a laptop with only USB-C ports (common on newer ultrabooks and MacBooks) will need a separate USB-C adapter or hub to actually power the pad, an extra cost and cable that isn't obvious from the listing photos alone.\n\nThis matters because a cooling pad that can't be powered defeats its entire purpose regardless of how well it otherwise fits your laptop's size and vent layout, so it's a genuine prerequisite to check, not an afterthought.\n\nCheck the listing's stated cable connector type and confirm it matches an available port on your specific laptop, or budget for an adapter if it doesn't."
+  }
 ];
 
 export const faq: FaqItem[] = [

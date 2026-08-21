@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41RI0692h6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C69BVWGB?tag=deskfinds0d-20",
-    description:
-      "This listing describes a high-density, removable dust filter specifically meant to protect the laptop's internal fans by capturing hair and debris before it reaches the vents, framed directly as extending laptop lifespan and reducing the need for professional cleaning. This is the most explicit, purpose-stated dust filtration claim in this entire guide.\n\nA 5.5-inch turbo fan and 36W external power adapter provide the underlying cooling, with the filter layered on as a genuinely separate, documented component rather than implied by the sealing design alone. Because the filter needs periodic cleaning to stay effective, factor that light maintenance into your ownership expectations.",
-    specs: ["High-density removable dust filter", "5.5in turbo fan, stated 44°C reduction in 90 seconds", "36W external power adapter", "3-port USB hub", "RGB lighting"],
-    pros: ["Most explicit, purpose-stated dust filtration claim in this guide", "Filter is removable for cleaning", "Strong stated cooling performance alongside filtration", "External power adapter"],
-    cons: ["Highest price in this guide", "Filter requires periodic manual cleaning", "Up to 70dB at maximum fan speed"],
+    description: "This listing describes a high-density, removable dust filter specifically meant to protect the laptop's internal fans by capturing hair and debris before it reaches the vents, framed directly as extending laptop lifespan and reducing the need for professional cleaning. This is the most explicit, purpose-stated dust filtration claim in this entire guide.\n\nIt earns the top spot in this comparison over llano V12 Laptop Cooling Pad for one main reason. Most explicit, purpose-stated dust filtration claim in this guide. On price, it's actually priced above llano V12 Laptop Cooling Pad, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Filter is removable for cleaning. On the other side, Up to 70dB at maximum fan speed. That's the main tradeoff to weigh against everything above.",
+    specs: ["High-density removable dust filter","5.5in turbo fan, stated 44°C reduction in 90 seconds","36W external power adapter","3-port USB hub","RGB lighting"],
+    pros: ["Most explicit, purpose-stated dust filtration claim in this guide","Filter is removable for cleaning","Strong stated cooling performance alongside filtration","External power adapter"],
+    cons: ["Highest price in this guide","Filter requires periodic manual cleaning","Up to 70dB at maximum fan speed"],
     bestFor: "Buyers who want the most explicitly documented dust filtration in this category, framed around extending laptop lifespan.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41mZs4mzS3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CYC7T38X?tag=deskfinds0d-20",
-    description:
-      "This variant includes both a dust filter and an extra spare filter in the box, a genuinely useful detail since it means you can swap in a clean filter immediately rather than waiting to clean the original. The listing frames this as advanced dust protection working alongside a specially designed structure to shield the laptop from intrusion.\n\nThe same 5.5-inch turbo fan and 44 degree Celsius stated reduction as its sibling above apply here, with a real-time LED display showing fan speed. If having a spare filter on hand matters to you, this is the more practically equipped of the two llano V12 variants in this guide.",
-    specs: ["Dust filter plus one extra spare filter included", "5.5in turbo fan, stated 44°C reduction in 90 seconds", "Real-time LED fan-speed display", "36W AC power adapter", "15-19 inch laptop compatibility"],
-    pros: ["Includes a spare filter for immediate swapping", "Strong stated cooling performance", "Real-time LED speed display", "External power adapter included"],
-    cons: ["Large size targets bigger 15-19 inch laptops specifically", "Premium price point", "Filter still requires periodic cleaning even with a spare"],
+    description: "This variant includes both a dust filter and an extra spare filter in the box, a genuinely useful detail since it means you can swap in a clean filter immediately rather than waiting to clean the original. The listing frames this as advanced dust protection working alongside a specially designed structure to shield the laptop from intrusion.\n\nOne spot below llano V12 Gaming Laptop Cooling Pad Laptop Cooler in this ranking, it's priced lower than llano V12 Gaming Laptop Cooling Pad Laptop Cooler. The compromise here is straightforward: Large size targets bigger 15-19 inch laptops specifically. What you gain in return: Includes a spare filter for immediate swapping. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Strong stated cooling performance. On the other side, Filter still requires periodic cleaning even with a spare. That's the main tradeoff to weigh against everything above.",
+    specs: ["Dust filter plus one extra spare filter included","5.5in turbo fan, stated 44°C reduction in 90 seconds","Real-time LED fan-speed display","36W AC power adapter","15-19 inch laptop compatibility"],
+    pros: ["Includes a spare filter for immediate swapping","Strong stated cooling performance","Real-time LED speed display","External power adapter included"],
+    cons: ["Large size targets bigger 15-19 inch laptops specifically","Premium price point","Filter still requires periodic cleaning even with a spare"],
     bestFor: "Buyers who want a spare filter on hand for immediate swapping rather than cleaning mid-use.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51Tb3323xjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D4DS24TG?tag=deskfinds0d-20",
-    description:
-      "This pad includes a removable dust filter alongside its documented up to 3500 RPM copper-motor fan and stated 38 degree Celsius reduction, combining verified filtration with strong cooling specs at a somewhat lower price than the two V12 variants above. Dual USB-A and USB-C ports add connector flexibility on top.\n\nPhysical buttons for fan and RGB control avoid the accidental changes touch-sensitive panels can cause, a small but genuine usability detail. If you want documented dust filtration without paying the V12's premium price, this is the more affordable, still well-specified option.",
-    specs: ["Removable dust filter", "Documented up to 3500 RPM, copper motor", "Stated 38°C reduction within minutes", "Dual USB-A and USB-C ports", "Physical buttons for control"],
-    pros: ["Documented dust filter at a lower price than the V12 variants", "USB-C port included alongside USB-A", "Physical buttons avoid accidental touch changes", "Strong documented RPM and temperature figures together"],
-    cons: ["No stated dB figure to compare noise", "Filter requires periodic cleaning", "Lower documented RPM than the highest-speed picks in other guides"],
+    description: "This pad includes a removable dust filter alongside its documented up to 3500 RPM copper-motor fan and stated 38 degree Celsius reduction, combining verified filtration with strong cooling specs at a somewhat lower price than the two V12 variants above. Dual USB-A and USB-C ports add connector flexibility on top.\n\nSitting just under llano V12 Laptop Cooling Pad, it's priced lower than llano V12 Laptop Cooling Pad. Here's the honest tradeoff: No stated dB figure to compare noise. And here's what it gets you instead: Documented dust filter at a lower price than the V12 variants. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: USB-C port included alongside USB-A. On the other side, Lower documented RPM than the highest-speed picks in other guides. That's the main tradeoff to weigh against everything above.",
+    specs: ["Removable dust filter","Documented up to 3500 RPM, copper motor","Stated 38°C reduction within minutes","Dual USB-A and USB-C ports","Physical buttons for control"],
+    pros: ["Documented dust filter at a lower price than the V12 variants","USB-C port included alongside USB-A","Physical buttons avoid accidental touch changes","Strong documented RPM and temperature figures together"],
+    cons: ["No stated dB figure to compare noise","Filter requires periodic cleaning","Lower documented RPM than the highest-speed picks in other guides"],
     bestFor: "Buyers who want documented dust filtration and USB-C support without the highest V12 price tag.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51aN6hnmwWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FLD8YSJ3?tag=deskfinds0d-20",
-    description:
-      "This is the only pick in this guide with a fully replaceable, rather than washable, air filter, and the listing specifies a clear maintenance schedule, swap it every 2 to 6 months, giving you a concrete routine rather than a vague 'clean as needed' instruction. A flexible sealing ring works alongside the filter to direct airflow through it rather than around it.\n\nFive wind speed settings and a 4000 RPM turbofan with a concentrator nozzle handle the cooling side. The tradeoff for a replaceable filter is an ongoing consumable cost, worth factoring in against the wash-and-reuse filters on the llano picks above.",
-    specs: ["Replaceable air filter (swap every 2-6 months)", "Turbofan up to 4000 RPM with concentrator nozzle", "Flexible sealing ring", "5-speed wind adjustment", "1-in-3-out USB hub"],
-    pros: ["Clear, documented filter replacement schedule", "Sealing ring directs airflow through the filter", "Backlit keys and power-off memory function", "Mid-range price for a documented filter pick"],
-    cons: ["Replaceable filter is an ongoing consumable cost, unlike wash-and-reuse designs", "No stated dB figure", "Mid-to-high price point"],
+    description: "This is the only pick in this guide with a fully replaceable, rather than washable, air filter, and the listing specifies a clear maintenance schedule, swap it every 2 to 6 months, giving you a concrete routine rather than a vague 'clean as needed' instruction. A flexible sealing ring works alongside the filter to direct airflow through it rather than around it.\n\nRanked just behind llano V10 Gaming Laptop Cooling Pad, it's priced lower than llano V10 Gaming Laptop Cooling Pad. The real tradeoff against that pick: Replaceable filter is an ongoing consumable cost, unlike wash-and-reuse designs. In exchange, it offers this instead: Clear, documented filter replacement schedule. That's the swap that decides whether this pick or the one above it is the better fit for your laptop.\n\nWorth knowing before you decide: Sealing ring directs airflow through the filter. On the other side, Mid-to-high price point. That's the main tradeoff to weigh against everything above.",
+    specs: ["Replaceable air filter (swap every 2-6 months)","Turbofan up to 4000 RPM with concentrator nozzle","Flexible sealing ring","5-speed wind adjustment","1-in-3-out USB hub"],
+    pros: ["Clear, documented filter replacement schedule","Sealing ring directs airflow through the filter","Backlit keys and power-off memory function","Mid-range price for a documented filter pick"],
+    cons: ["Replaceable filter is an ongoing consumable cost, unlike wash-and-reuse designs","No stated dB figure","Mid-to-high price point"],
     bestFor: "Buyers who prefer a documented, scheduled filter replacement routine over a wash-and-reuse filter.",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41EAHvL+KZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09BMYW2JD?tag=deskfinds0d-20",
-    description:
-      "We're including this pad honestly despite its listing not describing any dust filter component, since its combined sealed foam is a pressure gasket for airflow, not a filtration layer for debris. Don't assume the word 'sealed' implies dust protection here, the two features are unrelated on this specific product.\n\nIts turbofan up to 4200 RPM and bottom air intake design remain strong cooling features on their own terms. If dust filtration specifically matters to you, look to the llano or GT300 picks ranked above instead.",
-    specs: ["No documented dust filter", "Turbofan up to 4200 RPM, 0-4200 variable", "Combined sealed foam pressure design (not a filter)", "Bottom air intake for rear-exhaust laptops", "Noise up to 55dB at max speed"],
-    pros: ["Strong documented RPM figure", "Sealed foam design for directed airflow pressure", "Purpose-built for rear-exhaust laptops", "Wide adjustable speed range"],
-    cons: ["No documented dust filter despite sealed design", "Dust and debris can still enter through the intake over time", "No RGB or hub extras"],
+    description: "We're including this pad honestly despite its listing not describing any dust filter component, since its combined sealed foam is a pressure gasket for airflow, not a filtration layer for debris. Don't assume the word 'sealed' implies dust protection here, the two features are unrelated on this specific product.\n\nOne spot below IETS GT300 Upgraded Laptop Cooling Pad in this ranking, it costs more than IETS GT300 Upgraded Laptop Cooling Pad. The compromise here is straightforward: No documented dust filter despite sealed design. What you gain in return: Strong documented RPM figure. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Sealed foam design for directed airflow pressure. On the other side, No RGB or hub extras. That's the main tradeoff to weigh against everything above.",
+    specs: ["No documented dust filter","Turbofan up to 4200 RPM, 0-4200 variable","Combined sealed foam pressure design (not a filter)","Bottom air intake for rear-exhaust laptops","Noise up to 55dB at max speed"],
+    pros: ["Strong documented RPM figure","Sealed foam design for directed airflow pressure","Purpose-built for rear-exhaust laptops","Wide adjustable speed range"],
+    cons: ["No documented dust filter despite sealed design","Dust and debris can still enter through the intake over time","No RGB or hub extras"],
     bestFor: "Buyers who want strong sealed airflow and don't need dust filtration specifically.",
   },
   {
@@ -115,11 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41EAHvL+KZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09D6J56NS?tag=deskfinds0d-20",
-    description:
-      "Like its 4200 RPM sibling, this pad's listing does not describe a dust filter, only the same combined sealed foam pressure design used for directing airflow rather than filtering it. We include it here as another honest example of sealed design not implying filtration.\n\nIts documented 5000 RPM turbofan is the highest fan speed in this entire product research pool, and its 3-port USB hub runs on an independent data line. Choose this for raw airflow performance, not for dust protection, since none is documented here.",
-    specs: ["No documented dust filter", "Turbofan up to 5000 RPM, 0-5000 variable", "Combined sealed foam pressure design (not a filter)", "3-port USB hub, independent data line", "Noise up to 65dB at max speed"],
-    pros: ["Highest documented fan RPM in this research pool", "Independent USB hub power line", "Sealed foam design for directed airflow", "Wide adjustable speed range"],
-    cons: ["No documented dust filter despite sealed design", "Loudest pad in this guide", "Highest price point here"],
+    description: "Like its 4200 RPM sibling, this pad's listing does not describe a dust filter, only the same combined sealed foam pressure design used for directing airflow rather than filtering it. We include it here as another honest example of sealed design not implying filtration.\n\nSitting just under IETS GT500 Powerful Turbo-Fan, it costs more than IETS GT500 Powerful Turbo-Fan. Here's the honest tradeoff: No documented dust filter despite sealed design. And here's what it gets you instead: Highest documented fan RPM in this research pool. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Independent USB hub power line. On the other side, Highest price point here. That's the main tradeoff to weigh against everything above.",
+    specs: ["No documented dust filter","Turbofan up to 5000 RPM, 0-5000 variable","Combined sealed foam pressure design (not a filter)","3-port USB hub, independent data line","Noise up to 65dB at max speed"],
+    pros: ["Highest documented fan RPM in this research pool","Independent USB hub power line","Sealed foam design for directed airflow","Wide adjustable speed range"],
+    cons: ["No documented dust filter despite sealed design","Loudest pad in this guide","Highest price point here"],
     bestFor: "Buyers who want maximum documented airflow and don't need dust filtration specifically.",
   },
   {
@@ -132,11 +126,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41UxWt+tefL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09Z71ZSM6?tag=deskfinds0d-20",
-    description:
-      "KLIM's detachable foam is explicitly described as a pressure seal to maximize cooling effectiveness, not as a dust filter, and the listing does not mention any filtration component. The detachable design does make it easy to clean dust off the foam itself periodically, even though it isn't functioning as an intake filter.\n\nTwo turbo fans at a documented 4300 RPM and a long 5-year manufacturer assurance are the real strengths here. If dust filtration is a hard requirement, this isn't the pick, but if you're comfortable periodically wiping down the detachable foam seal, it remains a strong cooling choice.",
-    specs: ["No documented dust filter", "Two turbo fans, documented 4300 RPM", "Detachable foam pressure seal (not a filter)", "7 RGB color and effect options", "5-year manufacturer assurance"],
-    pros: ["Detachable foam seal is at least easy to wipe down periodically", "Documented dual-fan RPM figure", "Long 5-year manufacturer assurance", "Mid-range price for its documented speed"],
-    cons: ["No documented dust filter", "No stated dB figure", "Not compatible with laptops lacking underside ventilation, per the listing"],
+    description: "KLIM's detachable foam is explicitly described as a pressure seal to maximize cooling effectiveness, not as a dust filter, and the listing does not mention any filtration component. The detachable design does make it easy to clean dust off the foam itself periodically, even though it isn't functioning as an intake filter.\n\nRanked just behind IETS GT500 Powerful Turbo-Fan, it's priced lower than IETS GT500 Powerful Turbo-Fan. The real tradeoff against that pick: No documented dust filter. In exchange, it offers this instead: Detachable foam seal is at least easy to wipe down periodically. That's the swap that decides whether this pick or the one above it is the better fit for your laptop.\n\nWorth knowing before you decide: Documented dual-fan RPM figure. On the other side, Not compatible with laptops lacking underside ventilation, per the listing. That's the main tradeoff to weigh against everything above.",
+    specs: ["No documented dust filter","Two turbo fans, documented 4300 RPM","Detachable foam pressure seal (not a filter)","7 RGB color and effect options","5-year manufacturer assurance"],
+    pros: ["Detachable foam seal is at least easy to wipe down periodically","Documented dual-fan RPM figure","Long 5-year manufacturer assurance","Mid-range price for its documented speed"],
+    cons: ["No documented dust filter","No stated dB figure","Not compatible with laptops lacking underside ventilation, per the listing"],
     bestFor: "Buyers who want strong documented RPM and are comfortable manually wiping down the seal instead of using a dedicated filter.",
   },
   {
@@ -149,13 +142,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31DsLHp9vML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJDWWHTV?tag=deskfinds0d-20",
-    description:
-      "Razer's airtight pressure chamber and foam seals are engineered entirely around directing airflow, with no dust filter mentioned anywhere in the listing, closing out this guide as the clearest premium example of sealed engineering without filtration. The adaptive smart cooling and long-lifespan brushless fan remain genuinely strong features on their own terms.\n\nAt the highest price in this guide, buyers specifically shopping for dust protection should look to the documented filter picks ranked above instead. This pad's value proposition rests on adaptive control and sealed airflow pressure, not filtration.",
-    specs: ["No documented dust filter", "Documented 3000 RPM, 140mm brushless fan", "Airtight pressure chamber with foam seals (not a filter)", "Adaptive smart cooling, automatic speed adjustment", "2-year manufacturer warranty"],
-    pros: ["Adaptive automatic speed control", "Long-lifespan brushless fan design", "Sealed pressure chamber maximizes airflow", "2-year manufacturer warranty"],
-    cons: ["No documented dust filter despite premium price", "Highest price in this guide", "Requires Razer Synapse software for full customization"],
+    description: "Razer's airtight pressure chamber and foam seals are engineered entirely around directing airflow, with no dust filter mentioned anywhere in the listing, closing out this guide as the clearest premium example of sealed engineering without filtration. The adaptive smart cooling and long-lifespan brushless fan remain genuinely strong features on their own terms.\n\nOne spot below KLIM Everest Laptop Cooling Pad in this ranking, it costs more than KLIM Everest Laptop Cooling Pad. The compromise here is straightforward: No documented dust filter despite premium price. What you gain in return: Adaptive automatic speed control. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Long-lifespan brushless fan design. On the other side, Requires Razer Synapse software for full customization. That's the main tradeoff to weigh against everything above.",
+    specs: ["No documented dust filter","Documented 3000 RPM, 140mm brushless fan","Airtight pressure chamber with foam seals (not a filter)","Adaptive smart cooling, automatic speed adjustment","2-year manufacturer warranty"],
+    pros: ["Adaptive automatic speed control","Long-lifespan brushless fan design","Sealed pressure chamber maximizes airflow","2-year manufacturer warranty"],
+    cons: ["No documented dust filter despite premium price","Highest price in this guide","Requires Razer Synapse software for full customization"],
     bestFor: "Buyers who value adaptive cooling engineering over dust filtration specifically, and are willing to pay a premium for it.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -169,47 +161,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Filter vs Sealed Design, Not the Same Thing",
-    note: "A sealed foam pressure gasket directs airflow for better cooling pressure. A dust filter captures debris before it reaches the laptop's vents. Several pads in this pool have one but not the other, and only four genuinely document both a seal and a filter together.",
-  },
-  {
-    subheading: "By Filter Maintenance Type",
-    table: {
-      headers: ["Filter type", "Recommended pick"],
-      rows: [
-        ["Wash-and-reuse, with a spare included", "llano V12 (B0CYC7T38X variant)"],
-        ["Wash-and-reuse, no spare stated", "llano V12 (B0C69BVWGB) or llano V10"],
-        ["Fully replaceable on a schedule", "IETS GT300 (replace every 2-6 months)"],
-        ["No documented filter, sealed design only", "IETS GT500 (either RPM variant), KLIM Everest, or Razer"],
+    "subheading": "By Laptop Size Fit",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Tightest size match for your laptop",
+          "llano V12 Laptop Cooling Pad"
+        ],
+        [
+          "Widest range, flexible for future upgrades",
+          "llano V12 Laptop Cooling Pad"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Airflow Penalty From Filtering",
-    intro: "Filtering intake air can add slight airflow resistance compared to an unfiltered intake.",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Want filtration even with a small airflow tradeoff", "Any of the four documented-filter picks above"],
-        ["Want maximum raw airflow, no filter", "IETS GT500 (5000 RPM), the highest documented RPM in this research pool"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $56",
+          "KLIM Everest Laptop Cooling Pad"
+        ],
+        [
+          "Mid-range",
+          "llano V10 Gaming Laptop Cooling Pad"
+        ],
+        [
+          "No firm budget ceiling, prioritizing fan count or extras",
+          "Razer Laptop Cooling Pad Adaptive Smart"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Long-Term Value",
-    cards: [
-      { label: "Want to extend laptop lifespan and reduce cleaning", text: "The llano V12 (B0C69BVWGB) pick frames its filter directly around this benefit in its own listing." },
-      { label: "Comfortable with manual cleaning instead", text: "The KLIM Everest's detachable foam seal can be wiped down periodically even without a dedicated filter." },
+    "subheading": "Slim/Fewer Fans vs Multi-Fan High Airflow",
+    "cards": [
+      {
+        "label": "Slim, Fewer Fans",
+        "text": "Lighter and more portable with less total noise, at the cost of a smaller cooled surface area. In this comparison: llano V12 Gaming Laptop Cooling Pad Laptop Cooler."
+      },
+      {
+        "label": "Multi-Fan, High Airflow",
+        "text": "More total cooling surface and airflow, at the cost of extra bulk and more potential noise at full speed. In this comparison: llano V12 Gaming Laptop Cooling Pad Laptop Cooler."
+      }
     ],
+    "note": "Most buyers should default to a slim pick like llano V12 Gaming Laptop Cooling Pad Laptop Cooler for everyday portability, and only step up to llano V12 Gaming Laptop Cooling Pad Laptop Cooler's fan count if you're running genuinely demanding workloads that generate real sustained heat."
   },
+  {
+    "subheading": "By Height Adjustment Range",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Most ergonomic height adjustment range",
+          "llano V12 Gaming Laptop Cooling Pad Laptop Cooler"
+        ],
+        [
+          "Simplest setup, fewer adjustments to fuss with",
+          "KLIM Everest Laptop Cooling Pad"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Fanless or Sealed-Chassis Laptop (Like MacBook) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation that your specific laptop model has bottom-panel intake vents, since a cooling pad provides little benefit on a fully sealed, fanless unibody design regardless of physical fit."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Every pick here is designed around a vented-bottom laptop; if you're on a fanless MacBook specifically, check our dedicated MacBook Air cooling pad guide for that honesty caveat before buying any pad in this comparison."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Razer Laptop Cooling Pad Adaptive Smart offers: Adaptive automatic speed control. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "KLIM Everest Laptop Cooling Pad already covers the essentials: Detachable foam seal is at least easy to wipe down periodically. The main thing you'd be paying extra for elsewhere in this list is fan count or height range you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm a dust filter is actually documented", explanation: "Search the listing specifically for the word 'filter,' not just 'sealed' or 'seal.' Several strong cooling pads in this category use sealed foam for airflow pressure without including any dust filtration component." },
-  { criterion: "Check whether the filter is washable or replaceable", explanation: "A washable filter has no ongoing cost but requires manual cleaning. A replaceable filter, like the IETS GT300's 2-to-6-month schedule, has a documented maintenance routine but is an ongoing consumable expense." },
-  { criterion: "Filtering intake air adds some airflow resistance", explanation: "A filter captures debris but can slightly reduce raw airflow compared to an unfiltered intake. If maximum raw airflow is your top priority, weigh that against the long-term benefit of dust protection." },
-  { criterion: "A filter's value compounds over time", explanation: "Dust filtration protects against gradual buildup inside your laptop's own internal fans and vents, a benefit that matters more the longer you use the pad regularly rather than for occasional use." },
-  { criterion: "Don't assume brand consistency on filtration", explanation: "Even within the same manufacturer's lineup, some models include a documented filter and others don't. Check the specific listing rather than assuming a brand's entire product line shares the same filtration feature." },
+  {
+    "criterion": "Check the pad's stated compatible size range against your laptop's real footprint, not its screen size",
+    "explanation": "A laptop's advertised screen size, like 13 or 15.6 inches, describes the diagonal measurement of the display panel, not the physical width and depth of the laptop's base that actually sits on top of a cooling pad, and two laptops with the identical screen size can have meaningfully different base dimensions depending on bezel thickness and chassis design.\n\nCooling pad listings state a compatible size range in inches specifically because they're describing what base footprint fits their surface and fan layout, so treating the screen-size number alone as a fit guarantee is a genuine buying mistake, not just an imprecise shortcut.\n\nMeasure your laptop's actual width and depth, or find those dimensions in its own spec sheet, and compare that against the pad's stated range rather than matching screen-size numbers."
+  },
+  {
+    "criterion": "Understand that a wider-range pad isn't automatically better for a smaller laptop",
+    "explanation": "Cooling pads spread their fans across the surface in a fixed layout designed around the middle of their stated compatible range, so a pad rated for 12 to 17 inches has its fans positioned to reach a wide variety of vent locations across that whole span, while a laptop toward the small end of that range may not sit directly over as many of those fans as it would on a pad sized more tightly around its own dimensions.\n\nThis matters because the cooling benefit of a pad comes specifically from airflow reaching the laptop's actual intake vents, not from the pad's overall surface area, so a smaller laptop on an oversized pad can genuinely get less effective cooling than the same laptop on a proportionally sized pad, despite technically fitting within the stated range.\n\nWhen your laptop sits toward one end of a pad's stated range rather than the middle, check user photos or reviews specifically describing that size laptop's fit before assuming the airflow lines up well."
+  },
+  {
+    "criterion": "Confirm your laptop's actual vent location and design, especially for thin ultrabooks and MacBooks",
+    "explanation": "Most cooling pads are designed around bottom-vented laptops, where intake vents sit on the underside of the chassis directly facing the pad's fans, but some laptops, most notably many MacBook models, use a fully sealed or fanless internal design where the chassis itself acts as a heat sink rather than relying on active airflow from underneath.\n\nThis is a genuine compatibility gap that a cooling pad's stated inch-range compatibility says nothing about, since a pad can physically fit a MacBook's exact footprint while providing essentially no cooling benefit if that specific model has no bottom vents for the fans to blow into.\n\nCheck your specific laptop model's actual cooling design (vented bottom panel versus sealed unibody) before assuming a cooling pad will meaningfully lower its temperature, and treat this as a separate question from simple physical size fit."
+  },
+  {
+    "criterion": "Weigh fan count and noise level together, not fan count alone",
+    "explanation": "A pad's fan count, commonly ranging from a single central fan up to five or six smaller fans, is often marketed as a straightforward better-is-more spec, but more fans spinning simultaneously generally means more total noise output, and a pad with independently controllable fan zones lets you balance airflow against noise rather than forcing an all-or-nothing choice.\n\nThis is a real everyday tradeoff for anyone using a laptop in a quiet room or on a video call, since a cooling pad running at full multi-fan speed can become audible enough to be distracting, undermining the benefit if you end up turning it off to avoid the noise.\n\nCheck whether the listing states selectable fan modes or independently controlled fan zones, not just the total fan count, if noise control matters to your specific environment."
+  },
+  {
+    "criterion": "Confirm the power source and port type match your laptop before assuming plug-and-play compatibility",
+    "explanation": "Nearly all cooling pads draw power over a USB cable rather than a separate power adapter, which keeps setup simple, but the cable end that plugs into your laptop is typically USB-A, and a laptop with only USB-C ports (common on newer ultrabooks and MacBooks) will need a separate USB-C adapter or hub to actually power the pad, an extra cost and cable that isn't obvious from the listing photos alone.\n\nThis matters because a cooling pad that can't be powered defeats its entire purpose regardless of how well it otherwise fits your laptop's size and vent layout, so it's a genuine prerequisite to check, not an afterthought.\n\nCheck the listing's stated cable connector type and confirm it matches an available port on your specific laptop, or budget for an adapter if it doesn't."
+  }
 ];
 
 export const faq: FaqItem[] = [

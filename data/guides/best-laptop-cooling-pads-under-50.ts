@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51PnCXd8jfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09XGZKFKJ?tag=deskfinds0d-20",
-    description:
-      "Verified at $14.59 as of 2026-08-08, this is the lowest priced pad in this guide by a wide margin, well under the $50 ceiling. It states two fans, a precision metal mesh design, and five height settings controlled through a rolling wheel speed dial.\n\nTwo USB ports are included for peripherals, and the listing states a slim, lightweight build for portability. As with any listing this far under the price ceiling, confirm the current price before buying since Amazon pricing can shift.",
-    specs: ["2 fans with metal mesh surface", "5-level height adjustment", "Rolling wheel speed control", "2 USB ports", "Fits 10-15.6 inch laptops"],
-    pros: ["Furthest under the $50 ceiling of any pick here", "5 height settings for the price", "Smooth speed control dial", "2 USB ports for peripherals"],
-    cons: ["No fan RPM figure stated in the listing", "No warranty information stated in the listing", "Only 2 fans versus the 5-fan picks in this guide"],
+    description: "Verified at $14.59 as of 2026-08-08, this is the lowest priced pad in this guide by a wide margin, well under the $50 ceiling. It states two fans, a precision metal mesh design, and five height settings controlled through a rolling wheel speed dial.\n\nIt earns the top spot in this comparison over LIENS Laptop Cooling Pad with Adjustable Height for one main reason. Furthest under the $50 ceiling of any pick here. On price, it comes in below LIENS Laptop Cooling Pad with Adjustable Height, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: 5 height settings for the price. On the other side, Only 2 fans versus the 5-fan picks in this guide. That's the main tradeoff to weigh against everything above.",
+    specs: ["2 fans with metal mesh surface","5-level height adjustment","Rolling wheel speed control","2 USB ports","Fits 10-15.6 inch laptops"],
+    pros: ["Furthest under the $50 ceiling of any pick here","5 height settings for the price","Smooth speed control dial","2 USB ports for peripherals"],
+    cons: ["No fan RPM figure stated in the listing","No warranty information stated in the listing","Only 2 fans versus the 5-fan picks in this guide"],
     bestFor: "Buyers who want maximum headroom under the $50 ceiling.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41bJENsXGEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08SW4RWWQ?tag=deskfinds0d-20",
-    description:
-      "Verified at $15.99 as of 2026-08-08, this pad states two 5.1 inch fans with an 800 to 2000 RPM adjustable speed range and a stated noise level of 5 to 15dB. Four height settings between roughly 2.3 and 5.1 inches are included.\n\nAt 1.65 pounds it is one of the lightest pads in this guide, useful for buyers who carry it between locations. Confirm the current price before purchase, as with every pick in this guide.",
-    specs: ["2 fans, 5.1 inch each", "800-2000 RPM adjustable speed", "4 height settings (2.3-5.1 in)", "2 USB ports", "1.65 lbs"],
-    pros: ["Specific RPM range stated", "Very light at 1.65 lbs", "Detachable non-slip baffle", "2 USB ports"],
-    cons: ["No warranty information stated in the listing", "Only 2 fans", "Height range tops out lower than some picks"],
+    description: "Verified at $15.99 as of 2026-08-08, this pad states two 5.1 inch fans with an 800 to 2000 RPM adjustable speed range and a stated noise level of 5 to 15dB. Four height settings between roughly 2.3 and 5.1 inches are included.\n\nOne spot below KYOLLY Ultra Slim Laptop Cooling Pad with 2 Quiet Big Fans in this ranking, it costs more than KYOLLY Ultra Slim Laptop Cooling Pad with 2 Quiet Big Fans. The compromise here is straightforward: No warranty information stated in the listing. What you gain in return: Specific RPM range stated. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Very light at 1.65 lbs. On the other side, Height range tops out lower than some picks. That's the main tradeoff to weigh against everything above.",
+    specs: ["2 fans, 5.1 inch each","800-2000 RPM adjustable speed","4 height settings (2.3-5.1 in)","2 USB ports","1.65 lbs"],
+    pros: ["Specific RPM range stated","Very light at 1.65 lbs","Detachable non-slip baffle","2 USB ports"],
+    cons: ["No warranty information stated in the listing","Only 2 fans","Height range tops out lower than some picks"],
     bestFor: "Buyers who move their laptop between locations and want the lightest pad under $50 in this guide.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51Vorw+d7TL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B5QT3197?tag=deskfinds0d-20",
-    description:
-      "Verified at $16.98 as of 2026-08-08, this pad states two fans with a metal mesh surface and adds a hideable phone stand on the side. Five height settings and two anti-slip baffles are included per the listing.\n\nTwo USB 2.0 ports cover basic peripheral use. As with the other lower-priced picks here, no fan RPM figure or warranty term is stated in the listing.",
-    specs: ["2 fans with metal mesh", "5 height settings", "Side phone holder", "2 USB 2.0 ports", "Blue LED indicator"],
-    pros: ["Built-in phone holder", "5 adjustable height settings", "Two anti-slip baffles", "2 USB 2.0 ports"],
-    cons: ["No fan RPM figure stated", "No warranty information stated", "Only 2 fans"],
+    description: "Verified at $16.98 as of 2026-08-08, this pad states two fans with a metal mesh surface and adds a hideable phone stand on the side. Five height settings and two anti-slip baffles are included per the listing.\n\nSitting just under LIENS Laptop Cooling Pad with Adjustable Height, it costs more than LIENS Laptop Cooling Pad with Adjustable Height. Here's the honest tradeoff: No fan RPM figure stated. And here's what it gets you instead: Built-in phone holder. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: 5 adjustable height settings. On the other side, Only 2 fans. That's the main tradeoff to weigh against everything above.",
+    specs: ["2 fans with metal mesh","5 height settings","Side phone holder","2 USB 2.0 ports","Blue LED indicator"],
+    pros: ["Built-in phone holder","5 adjustable height settings","Two anti-slip baffles","2 USB 2.0 ports"],
+    cons: ["No fan RPM figure stated","No warranty information stated","Only 2 fans"],
     bestFor: "Buyers who want a phone holder built into a low-cost pad well under the $50 ceiling.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51rnNYYdEHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9P7NDJY?tag=deskfinds0d-20",
-    description:
-      "Verified at $23.88 as of 2026-08-08, this pad states three large fans with a maximum noise level around 40dB, plus a wheel switch for simple speed adjustment. Five height settings adjust via a metal support bar for ergonomic positioning.\n\nA stainless steel mesh top and ABS body are stated for durability, and the listing includes a phone holder along with two extra USB ports plus an internal USB hub. It fits laptops up to 17 inches, based on the stated compatibility.",
-    specs: ["3 fans, ~40dB max stated noise", "5 height settings", "Stainless steel mesh + ABS body", "2 USB ports + internal hub", "Fits up to 17 inch laptops"],
-    pros: ["3 fans with a stated 40dB noise ceiling", "5 height settings", "Stainless steel mesh for durability", "Built-in phone holder"],
-    cons: ["No fan RPM figure stated", "No warranty information stated", "Wider laptop compatibility not confirmed beyond 17 inches"],
+    description: "Verified at $23.88 as of 2026-08-08, this pad states three large fans with a maximum noise level around 40dB, plus a wheel switch for simple speed adjustment. Five height settings adjust via a metal support bar for ergonomic positioning.\n\nRanked just behind KeiBn Laptop Cooling Pad, it costs more than KeiBn Laptop Cooling Pad. The real tradeoff against that pick: No fan RPM figure stated. In exchange, it offers this instead: 3 fans with a stated 40dB noise ceiling. That's the swap that decides whether this pick or the one above it is the better fit for your laptop.\n\nWorth knowing before you decide: 5 height settings. On the other side, Wider laptop compatibility not confirmed beyond 17 inches. That's the main tradeoff to weigh against everything above.",
+    specs: ["3 fans, ~40dB max stated noise","5 height settings","Stainless steel mesh + ABS body","2 USB ports + internal hub","Fits up to 17 inch laptops"],
+    pros: ["3 fans with a stated 40dB noise ceiling","5 height settings","Stainless steel mesh for durability","Built-in phone holder"],
+    cons: ["No fan RPM figure stated","No warranty information stated","Wider laptop compatibility not confirmed beyond 17 inches"],
     bestFor: "Households sharing one laptop across family members who want a quiet, mid-range pick under $50.",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51uaAp0-YIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CL7FZ5NV?tag=deskfinds0d-20",
-    description:
-      "Verified at $20.99 as of 2026-08-08, this pad states five fans, one small central fan flanked by four larger fans, plus a honeycomb metal mesh and five adjustable stand heights. That is meaningfully more fan hardware than the two-fan picks above at a similar or lower price.\n\nThe listing explicitly states a 12-month warranty, useful information under the $50 ceiling where most listings state none at all. A rear switch wheel controls fan power, though the listing does not give a specific RPM figure.",
-    specs: ["5 fans (1 small + 4 large)", "Honeycomb metal mesh", "5 height settings", "2 USB ports", "12-month stated warranty"],
-    pros: ["5 fans for more airflow hardware", "12-month warranty explicitly stated", "5 adjustable height settings", "Metal bar base for elevation"],
-    cons: ["No specific fan RPM figure stated", "Noise level under load not stated numerically", "Basic USB 2.0 ports only"],
+    description: "Verified at $20.99 as of 2026-08-08, this pad states five fans, one small central fan flanked by four larger fans, plus a honeycomb metal mesh and five adjustable stand heights. That is meaningfully more fan hardware than the two-fan picks above at a similar or lower price.\n\nOne spot below Laptop Cooling Pad with 3 Quiet Fans and Phone Holder in this ranking, it's priced lower than Laptop Cooling Pad with 3 Quiet Fans and Phone Holder. The compromise here is straightforward: No specific fan RPM figure stated. What you gain in return: 5 fans for more airflow hardware. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: 12-month warranty explicitly stated. On the other side, Basic USB 2.0 ports only. That's the main tradeoff to weigh against everything above.",
+    specs: ["5 fans (1 small + 4 large)","Honeycomb metal mesh","5 height settings","2 USB ports","12-month stated warranty"],
+    pros: ["5 fans for more airflow hardware","12-month warranty explicitly stated","5 adjustable height settings","Metal bar base for elevation"],
+    cons: ["No specific fan RPM figure stated","Noise level under load not stated numerically","Basic USB 2.0 ports only"],
     bestFor: "Buyers who want the most fan hardware and a stated warranty while staying well under $50.",
   },
   {
@@ -115,11 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41jbtM+PovL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B014F4SBMK?tag=deskfinds0d-20",
-    description:
-      "Verified at $21.59 as of 2026-08-08, this pad states two 110mm fans with an internal channel design meant to direct airflow toward the laptop's center, plus a side switch for speed from zero to maximum. Both USB-C and USB-A ports are included.\n\nThe listing states a 30-day return policy and a full 3-year warranty, the longest stated warranty of any pick in this guide. Fan count is lower than the 5-fan picks in this guide, a direct tradeoff against the longer warranty.",
-    specs: ["2 fans, 110mm each", "USB-C and USB-A ports", "Adjustable fan speed dial", "30-day return + 3-year stated warranty", "Fits 12-15.6 inch laptops"],
-    pros: ["Longest stated warranty in this guide at 3 years", "USB-C port included", "Targeted airflow channel design", "Flat base works for lap use"],
-    cons: ["Only 2 fans", "No specific RPM or CFM figure stated", "Slightly higher price than the cheapest picks here"],
+    description: "Verified at $21.59 as of 2026-08-08, this pad states two 110mm fans with an internal channel design meant to direct airflow toward the laptop's center, plus a side switch for speed from zero to maximum. Both USB-C and USB-A ports are included.\n\nSitting just under AIMIUZI Laptop Cooling Pad, it costs more than AIMIUZI Laptop Cooling Pad. Here's the honest tradeoff: Only 2 fans. And here's what it gets you instead: Longest stated warranty in this guide at 3 years. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: USB-C port included. On the other side, Slightly higher price than the cheapest picks here. That's the main tradeoff to weigh against everything above.",
+    specs: ["2 fans, 110mm each","USB-C and USB-A ports","Adjustable fan speed dial","30-day return + 3-year stated warranty","Fits 12-15.6 inch laptops"],
+    pros: ["Longest stated warranty in this guide at 3 years","USB-C port included","Targeted airflow channel design","Flat base works for lap use"],
+    cons: ["Only 2 fans","No specific RPM or CFM figure stated","Slightly higher price than the cheapest picks here"],
     bestFor: "Buyers under the $50 ceiling who prioritize a documented long warranty over maximum fan count.",
   },
   {
@@ -132,11 +126,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51QkELL-KFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01469DJLM?tag=deskfinds0d-20",
-    description:
-      "Verified at $24.99 as of 2026-08-08, this pad states five built-in fans, one large 4.72 inch fan plus four smaller 2.76 inch fans, with staged switches letting you run one fan, four fans, or all five together. That staged control is a real feature difference from the fixed two-fan pads earlier in this guide.\n\nA dual USB hub and six adjustable height settings round out the stated features, with two front stoppers to prevent slipping. No specific warranty length is stated in the listing.",
-    specs: ["5 fans (1 large + 4 small)", "Staged fan control (1, 4, or 5 fans)", "6 height settings", "Dual USB hub", "Blue LED indicators"],
-    pros: ["5 fans with staged control", "6 height settings, more than most picks here", "Dual USB hub", "Two front stoppers prevent slipping"],
-    cons: ["No warranty information stated", "No specific RPM figure stated", "Second-highest price in this guide"],
+    description: "Verified at $24.99 as of 2026-08-08, this pad states five built-in fans, one large 4.72 inch fan plus four smaller 2.76 inch fans, with staged switches letting you run one fan, four fans, or all five together. That staged control is a real feature difference from the fixed two-fan pads earlier in this guide.\n\nRanked just behind TECKNET Laptop Cooling Pad with Quiet Cooling Fan, it costs more than TECKNET Laptop Cooling Pad with Quiet Cooling Fan. The real tradeoff against that pick: No warranty information stated. In exchange, it offers this instead: 5 fans with staged control. That's the swap that decides whether this pick or the one above it is the better fit for your laptop.\n\nWorth knowing before you decide: 6 height settings, more than most picks here. On the other side, Second-highest price in this guide. That's the main tradeoff to weigh against everything above.",
+    specs: ["5 fans (1 large + 4 small)","Staged fan control (1, 4, or 5 fans)","6 height settings","Dual USB hub","Blue LED indicators"],
+    pros: ["5 fans with staged control","6 height settings, more than most picks here","Dual USB hub","Two front stoppers prevent slipping"],
+    cons: ["No warranty information stated","No specific RPM figure stated","Second-highest price in this guide"],
     bestFor: "Buyers who want the most fan control options while staying under $50.",
   },
   {
@@ -149,13 +142,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51phX6jwL9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B016CL2DE6?tag=deskfinds0d-20",
-    description:
-      "Verified at $26.84 as of 2026-08-08, this pad states three fans running at 1200 RPM, a specific figure rather than a vague claim, pulling air from underneath the laptop. It is USB powered directly from the laptop with no external adapter needed.\n\nThe listing states a lifetime support program with registration, a form of ongoing support rather than a fixed warranty term. Height adjustment is limited to two settings, fewer than several cheaper picks in this guide, which is the tradeoff for the stated RPM figure.",
-    specs: ["3 fans, 1200 RPM stated", "USB powered, no adapter needed", "2 height settings", "2 USB ports", "Lifetime support (registration required)"],
-    pros: ["Specific 1200 RPM figure stated", "3 fans for more airflow than the cheapest picks", "Lifetime support program with registration", "Rubber pads for stability"],
-    cons: ["Only 2 height settings", "Lifetime support requires registration, not an automatic warranty", "Closest to the higher end of this guide's price range, though still well under $50"],
+    description: "Verified at $26.84 as of 2026-08-08, this pad states three fans running at 1200 RPM, a specific figure rather than a vague claim, pulling air from underneath the laptop. It is USB powered directly from the laptop with no external adapter needed.\n\nOne spot below Kootek Laptop Cooling Pad Cooler Stand with 5 Quiet Fans in this ranking, it costs more than Kootek Laptop Cooling Pad Cooler Stand with 5 Quiet Fans. The compromise here is straightforward: Only 2 height settings. What you gain in return: Specific 1200 RPM figure stated. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: 3 fans for more airflow than the cheapest picks. On the other side, Closest to the higher end of this guide's price range, though still well under $50. That's the main tradeoff to weigh against everything above.",
+    specs: ["3 fans, 1200 RPM stated","USB powered, no adapter needed","2 height settings","2 USB ports","Lifetime support (registration required)"],
+    pros: ["Specific 1200 RPM figure stated","3 fans for more airflow than the cheapest picks","Lifetime support program with registration","Rubber pads for stability"],
+    cons: ["Only 2 height settings","Lifetime support requires registration, not an automatic warranty","Closest to the higher end of this guide's price range, though still well under $50"],
     bestFor: "Buyers who want a documented fan speed figure while staying under the $50 ceiling.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -169,63 +161,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by How Far Under $50 You Want to Stay",
-    intro: "All eight picks here qualify under the hard $50 ceiling, but prices within that range still vary by more than $12.",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Lowest verified price", "KYOLLY Ultra Slim Laptop Cooling Pad ($14.59)"],
-        ["Most fans while staying well under $50", "AIMIUZI Laptop Cooling Pad, 5 Quiet Fans ($20.99)"],
-        ["Longest stated warranty under $50", "TECKNET Laptop Cooling Pad with Quiet Cooling Fan ($21.59, 3-year warranty stated)"],
-        ["Most fan control options", "Kootek Laptop Cooling Pad Cooler Stand with 5 Quiet Fans ($24.99)"],
+    "subheading": "By Laptop Size Fit",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Tightest size match for your laptop",
+          "LIENS Laptop Cooling Pad with Adjustable Height"
+        ],
+        [
+          "Widest range, flexible for future upgrades",
+          "KYOLLY Ultra Slim Laptop Cooling Pad with 2 Quiet Big Fans"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Under $50 vs Our Broader Budget Guide",
-    intro: "This guide applies a strict price ceiling rather than a general budget framing. Our broader budget laptop cooling pads guide uses the same honesty standard for stated features but is not capped at exactly $50.",
-    cards: [
-      { label: "This guide (under $50)", text: "Every pick verified strictly under $50.00 on 2026-08-08. Use this list if a hard price ceiling is your primary constraint." },
-      { label: "Broader budget guide", text: "Covers pads considered budget-tier by feature set and price, which may occasionally include listings priced at or above $50 depending on configuration." },
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $16",
+          "KYOLLY Ultra Slim Laptop Cooling Pad with 2 Quiet Big Fans"
+        ],
+        [
+          "Mid-range",
+          "TECKNET Laptop Cooling Pad with Quiet Cooling Fan"
+        ],
+        [
+          "No firm budget ceiling, prioritizing fan count or extras",
+          "TECKNET Laptop Cooling Pad"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Slim/Fewer Fans vs Multi-Fan High Airflow",
+    "cards": [
+      {
+        "label": "Slim, Fewer Fans",
+        "text": "Lighter and more portable with less total noise, at the cost of a smaller cooled surface area. In this comparison: KYOLLY Ultra Slim Laptop Cooling Pad with 2 Quiet Big Fans."
+      },
+      {
+        "label": "Multi-Fan, High Airflow",
+        "text": "More total cooling surface and airflow, at the cost of extra bulk and more potential noise at full speed. In this comparison: AIMIUZI Laptop Cooling Pad."
+      }
     ],
+    "note": "Most buyers should default to a slim pick like KYOLLY Ultra Slim Laptop Cooling Pad with 2 Quiet Big Fans for everyday portability, and only step up to AIMIUZI Laptop Cooling Pad's fan count if you're running genuinely demanding workloads that generate real sustained heat."
   },
   {
-    subheading: "Judge Cooling Claims by What Is Actually Stated",
-    table: {
-      headers: ["Claim type", "How to treat it"],
-      rows: [
-        ["Specific RPM figure (e.g. 1200 RPM)", "More trustworthy than a vague 'powerful cooling' claim"],
-        ["Fan count stated explicitly", "Directly comparable across listings under $50"],
-        ["No RPM or warranty figure stated", "Treat as unconfirmed, common at this price range"],
+    "subheading": "By Height Adjustment Range",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Most ergonomic height adjustment range",
+          "Kootek Laptop Cooling Pad Cooler Stand with 5 Quiet Fans"
+        ],
+        [
+          "Simplest setup, fewer adjustments to fuss with",
+          "KYOLLY Ultra Slim Laptop Cooling Pad with 2 Quiet Big Fans"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Prices Shift, Confirm Before Buying",
-    note: "Every price in this guide reflects verification on 2026-08-08. Amazon prices change over time, so confirm the current price on the product page before purchasing, especially for picks near the top of this guide's price range.",
-    table: {
-      headers: ["Pick", "Verified price (2026-08-08)"],
-      rows: [
-        ["KYOLLY Ultra Slim Laptop Cooling Pad", "$14.59"],
-        ["LIENS Laptop Cooling Pad", "$15.99"],
-        ["KeiBn Laptop Cooling Pad", "$16.98"],
-        ["AIMIUZI Laptop Cooling Pad", "$20.99"],
-        ["TECKNET Laptop Cooling Pad (Quiet Cooling Fan)", "$21.59"],
-        ["Laptop Cooling Pad with 3 Quiet Fans (family pick)", "$23.88"],
-        ["Kootek Laptop Cooling Pad Cooler Stand", "$24.99"],
-        ["TECKNET Laptop Cooling Pad (Portable Slim)", "$26.84"],
-      ],
-    },
+    "subheading": "For a Fanless or Sealed-Chassis Laptop (Like MacBook) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation that your specific laptop model has bottom-panel intake vents, since a cooling pad provides little benefit on a fully sealed, fanless unibody design regardless of physical fit."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Every pick here is designed around a vented-bottom laptop; if you're on a fanless MacBook specifically, check our dedicated MacBook Air cooling pad guide for that honesty caveat before buying any pad in this comparison."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what TECKNET Laptop Cooling Pad offers: Specific 1200 RPM figure stated. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "KYOLLY Ultra Slim Laptop Cooling Pad with 2 Quiet Big Fans already covers the essentials: Furthest under the $50 ceiling of any pick here. The main thing you'd be paying extra for elsewhere in this list is fan count or height range you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "A $50 ceiling still spans meaningful feature differences", explanation: "Prices in this guide range from $14.59 to $26.84, and fan count varies from 2 to 5 within that span. Do not assume every under-$50 pad is functionally identical." },
-  { criterion: "Prices change, verify before buying", explanation: "Every price here was confirmed on 2026-08-08. Amazon pricing shifts over time, so check the current price on the product page, especially for picks near the top of this guide's range." },
-  { criterion: "Look for a stated RPM or CFM figure", explanation: "A specific number, like the 1200 RPM stated on the TECKNET Portable Slim pick, is stronger evidence of real airflow than a generic cooling claim with no figures." },
-  { criterion: "Check warranty length honestly", explanation: "Most picks under $50 in this guide state no warranty at all. The AIMIUZI (12-month) and TECKNET Quiet Cooling Fan (3-year) picks are the exceptions worth factoring into your decision." },
-  { criterion: "USB port count and type", explanation: "Most picks under $50 include 2 USB ports. Confirm whether the ports are USB-A, USB-C, or both if you plan to connect a MacBook without an adapter." },
-  { criterion: "This is a price filter, not a feature ranking", explanation: "Every pick here qualifies purely on price. Cross-reference the fan count and warranty details above rather than assuming rank order reflects overall quality." },
+  {
+    "criterion": "Check the pad's stated compatible size range against your laptop's real footprint, not its screen size",
+    "explanation": "A laptop's advertised screen size, like 13 or 15.6 inches, describes the diagonal measurement of the display panel, not the physical width and depth of the laptop's base that actually sits on top of a cooling pad, and two laptops with the identical screen size can have meaningfully different base dimensions depending on bezel thickness and chassis design.\n\nCooling pad listings state a compatible size range in inches specifically because they're describing what base footprint fits their surface and fan layout, so treating the screen-size number alone as a fit guarantee is a genuine buying mistake, not just an imprecise shortcut.\n\nMeasure your laptop's actual width and depth, or find those dimensions in its own spec sheet, and compare that against the pad's stated range rather than matching screen-size numbers."
+  },
+  {
+    "criterion": "Understand that a wider-range pad isn't automatically better for a smaller laptop",
+    "explanation": "Cooling pads spread their fans across the surface in a fixed layout designed around the middle of their stated compatible range, so a pad rated for 12 to 17 inches has its fans positioned to reach a wide variety of vent locations across that whole span, while a laptop toward the small end of that range may not sit directly over as many of those fans as it would on a pad sized more tightly around its own dimensions.\n\nThis matters because the cooling benefit of a pad comes specifically from airflow reaching the laptop's actual intake vents, not from the pad's overall surface area, so a smaller laptop on an oversized pad can genuinely get less effective cooling than the same laptop on a proportionally sized pad, despite technically fitting within the stated range.\n\nWhen your laptop sits toward one end of a pad's stated range rather than the middle, check user photos or reviews specifically describing that size laptop's fit before assuming the airflow lines up well."
+  },
+  {
+    "criterion": "Confirm your laptop's actual vent location and design, especially for thin ultrabooks and MacBooks",
+    "explanation": "Most cooling pads are designed around bottom-vented laptops, where intake vents sit on the underside of the chassis directly facing the pad's fans, but some laptops, most notably many MacBook models, use a fully sealed or fanless internal design where the chassis itself acts as a heat sink rather than relying on active airflow from underneath.\n\nThis is a genuine compatibility gap that a cooling pad's stated inch-range compatibility says nothing about, since a pad can physically fit a MacBook's exact footprint while providing essentially no cooling benefit if that specific model has no bottom vents for the fans to blow into.\n\nCheck your specific laptop model's actual cooling design (vented bottom panel versus sealed unibody) before assuming a cooling pad will meaningfully lower its temperature, and treat this as a separate question from simple physical size fit."
+  },
+  {
+    "criterion": "Weigh fan count and noise level together, not fan count alone",
+    "explanation": "A pad's fan count, commonly ranging from a single central fan up to five or six smaller fans, is often marketed as a straightforward better-is-more spec, but more fans spinning simultaneously generally means more total noise output, and a pad with independently controllable fan zones lets you balance airflow against noise rather than forcing an all-or-nothing choice.\n\nThis is a real everyday tradeoff for anyone using a laptop in a quiet room or on a video call, since a cooling pad running at full multi-fan speed can become audible enough to be distracting, undermining the benefit if you end up turning it off to avoid the noise.\n\nCheck whether the listing states selectable fan modes or independently controlled fan zones, not just the total fan count, if noise control matters to your specific environment."
+  },
+  {
+    "criterion": "Confirm the power source and port type match your laptop before assuming plug-and-play compatibility",
+    "explanation": "Nearly all cooling pads draw power over a USB cable rather than a separate power adapter, which keeps setup simple, but the cable end that plugs into your laptop is typically USB-A, and a laptop with only USB-C ports (common on newer ultrabooks and MacBooks) will need a separate USB-C adapter or hub to actually power the pad, an extra cost and cable that isn't obvious from the listing photos alone.\n\nThis matters because a cooling pad that can't be powered defeats its entire purpose regardless of how well it otherwise fits your laptop's size and vent layout, so it's a genuine prerequisite to check, not an afterthought.\n\nCheck the listing's stated cable connector type and confirm it matches an available port on your specific laptop, or budget for an adapter if it doesn't."
+  }
 ];
 
 export const faq: FaqItem[] = [

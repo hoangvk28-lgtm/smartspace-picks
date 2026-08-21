@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41RI0692h6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C69BVWGB?tag=deskfinds0d-20",
-    description:
-      "The box contents explicitly list a 36W power adapter alongside the cooler itself, confirming genuine external power rather than reliance on your laptop's own USB port. This means the fan and hub can run at full power without drawing from your laptop's battery or competing with other USB-powered accessories.\n\nA 5.5-inch turbo fan, removable dust filter, and 3-port USB hub round out a well-specified package. At the highest price in this guide, the confirmed external power adapter is a genuine differentiator worth the premium if avoiding laptop-side power draw matters to you.",
-    specs: ["36W power adapter included", "5.5in turbo fan, stated 44°C reduction in 90 seconds", "Removable dust filter", "3-port USB hub", "RGB lighting"],
-    pros: ["Confirmed external power adapter included in the box", "Doesn't draw from laptop battery or USB power budget", "Removable dust filter for long-term maintenance", "Strong stated cooling performance"],
-    cons: ["Highest price in this guide", "Up to 70dB at maximum fan speed", "Adds one more cable and adapter to manage"],
+    description: "The box contents explicitly list a 36W power adapter alongside the cooler itself, confirming genuine external power rather than reliance on your laptop's own USB port. This means the fan and hub can run at full power without drawing from your laptop's battery or competing with other USB-powered accessories.\n\nIt earns the top spot in this comparison over llano V12 Laptop Cooling Pad for one main reason. Confirmed external power adapter included in the box. On price, it's actually priced above llano V12 Laptop Cooling Pad, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Doesn't draw from laptop battery or USB power budget. On the other side, Adds one more cable and adapter to manage. That's the main tradeoff to weigh against everything above.",
+    specs: ["36W power adapter included","5.5in turbo fan, stated 44°C reduction in 90 seconds","Removable dust filter","3-port USB hub","RGB lighting"],
+    pros: ["Confirmed external power adapter included in the box","Doesn't draw from laptop battery or USB power budget","Removable dust filter for long-term maintenance","Strong stated cooling performance"],
+    cons: ["Highest price in this guide","Up to 70dB at maximum fan speed","Adds one more cable and adapter to manage"],
     bestFor: "Buyers who want confirmed external power so the cooling pad never competes with their laptop's own USB budget.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41mZs4mzS3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CYC7T38X?tag=deskfinds0d-20",
-    description:
-      "This variant's box contents also explicitly list a 36W AC power adapter, matching its sibling above with confirmed external power, and adds a spare dust filter on top for immediate swapping. A real-time LED display shows fan speed directly, useful feedback when running at full power independent of your laptop's own port.\n\nThe same 5.5-inch turbo fan and stated 44 degree Celsius reduction apply here. Choose this over its sibling primarily for the included spare filter or any styling preference, since the core external power feature is identical between the two.",
-    specs: ["36W AC power adapter included", "5.5in turbo fan, stated 44°C reduction in 90 seconds", "Dust filter plus one extra spare filter", "Real-time LED fan-speed display", "15-19 inch laptop compatibility"],
-    pros: ["Confirmed external power adapter included", "Spare dust filter included for immediate swapping", "Real-time LED speed display", "Doesn't draw from laptop's own USB budget"],
-    cons: ["Large size targets bigger 15-19 inch laptops specifically", "Premium price point", "Adds one more cable and adapter to manage"],
+    description: "This variant's box contents also explicitly list a 36W AC power adapter, matching its sibling above with confirmed external power, and adds a spare dust filter on top for immediate swapping. A real-time LED display shows fan speed directly, useful feedback when running at full power independent of your laptop's own port.\n\nOne spot below llano V12 Gaming Laptop Cooling Pad Laptop Cooler in this ranking, it's priced lower than llano V12 Gaming Laptop Cooling Pad Laptop Cooler. The compromise here is straightforward: Large size targets bigger 15-19 inch laptops specifically. What you gain in return: Confirmed external power adapter included. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Spare dust filter included for immediate swapping. On the other side, Adds one more cable and adapter to manage. That's the main tradeoff to weigh against everything above.",
+    specs: ["36W AC power adapter included","5.5in turbo fan, stated 44°C reduction in 90 seconds","Dust filter plus one extra spare filter","Real-time LED fan-speed display","15-19 inch laptop compatibility"],
+    pros: ["Confirmed external power adapter included","Spare dust filter included for immediate swapping","Real-time LED speed display","Doesn't draw from laptop's own USB budget"],
+    cons: ["Large size targets bigger 15-19 inch laptops specifically","Premium price point","Adds one more cable and adapter to manage"],
     bestFor: "Buyers who want confirmed external power plus a spare filter ready to swap in.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41j-FtJD3ML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DMP5LX5G?tag=deskfinds0d-20",
-    description:
-      "This pad's thermoelectric Peltier cooling can reach its stated maximum 20W performance only with a compatible 20W USB adapter, which the listing is explicit is sold separately, not included in the box. Connected to a laptop or a standard 5W adapter, it still delivers a documented 5W of cooling performance, a real but reduced capability without the extra adapter purchase.\n\nWe're flagging this honestly as external-power-capable rather than external-power-included, since you'll need to budget for the 20W adapter yourself to unlock full performance. At noise levels of 20dB or less, it remains the quietest pick in this guide regardless of power source.",
-    specs: ["Compatible with 20W adapter (sold separately) for max power", "5W cooling delivered via laptop or 5W adapter", "Thermoelectric Peltier semiconductor cooling", "Noise ≤20dB", "Carbon steel frame, supports up to 20 lbs"],
-    pros: ["Genuinely capable of external power scaling with the right adapter", "Quietest pick in this guide at any power level", "Detachable cooler for flexible use", "Sturdy carbon steel frame"],
-    cons: ["The 20W adapter for maximum performance is sold separately", "Can generate surface condensation in high humidity, per the listing", "Different mechanism than fan-based external power picks"],
+    description: "This pad's thermoelectric Peltier cooling can reach its stated maximum 20W performance only with a compatible 20W USB adapter, which the listing is explicit is sold separately, not included in the box. Connected to a laptop or a standard 5W adapter, it still delivers a documented 5W of cooling performance, a real but reduced capability without the extra adapter purchase.\n\nSitting just under llano V12 Laptop Cooling Pad, it's priced lower than llano V12 Laptop Cooling Pad. Here's the honest tradeoff: The 20W adapter for maximum performance is sold separately. And here's what it gets you instead: Genuinely capable of external power scaling with the right adapter. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Quietest pick in this guide at any power level. On the other side, Different mechanism than fan-based external power picks. That's the main tradeoff to weigh against everything above.",
+    specs: ["Compatible with 20W adapter (sold separately) for max power","5W cooling delivered via laptop or 5W adapter","Thermoelectric Peltier semiconductor cooling","Noise ≤20dB","Carbon steel frame, supports up to 20 lbs"],
+    pros: ["Genuinely capable of external power scaling with the right adapter","Quietest pick in this guide at any power level","Detachable cooler for flexible use","Sturdy carbon steel frame"],
+    cons: ["The 20W adapter for maximum performance is sold separately","Can generate surface condensation in high humidity, per the listing","Different mechanism than fan-based external power picks"],
     bestFor: "Buyers willing to purchase a separate 20W adapter to unlock this pad's full external-power cooling capacity.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51aN6hnmwWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FLD8YSJ3?tag=deskfinds0d-20",
-    description:
-      "The listing states USB power delivery is compatible with either a direct laptop connection or an adapter, language that suggests some external power flexibility without confirming a specific adapter is included in the box or specifying its wattage. Treat this as ambiguous rather than confirmed external power until you verify directly with the seller if this distinction matters to your purchase decision.\n\nBeyond power source, a documented 4000 RPM turbofan, replaceable air filter, and 5-speed wind adjustment make this a well-specified pad regardless of how you power it. If external power specifically is your priority, the two llano V12 picks above are the more clearly confirmed choice.",
-    specs: ["USB power, stated compatible with an adapter (unspecified wattage, not confirmed included)", "Turbofan up to 4000 RPM with concentrator nozzle", "Replaceable air filter (swap every 2-6 months)", "Flexible sealing ring", "5-speed wind adjustment"],
-    pros: ["Some stated flexibility for adapter-based power", "Documented 4000 RPM with concentrator nozzle", "Replaceable air filter on a clear schedule", "Backlit keys and power-off memory function"],
-    cons: ["Adapter compatibility is not clearly confirmed as included", "No stated adapter wattage", "Mid-to-high price point without a confirmed external power benefit"],
+    description: "The listing states USB power delivery is compatible with either a direct laptop connection or an adapter, language that suggests some external power flexibility without confirming a specific adapter is included in the box or specifying its wattage. Treat this as ambiguous rather than confirmed external power until you verify directly with the seller if this distinction matters to your purchase decision.\n\nRanked just behind Metfut Laptop Cooling Pad with Detachable Fan & Cooler, it's priced lower than Metfut Laptop Cooling Pad with Detachable Fan & Cooler. The real tradeoff against that pick: Adapter compatibility is not clearly confirmed as included. In exchange, it offers this instead: Some stated flexibility for adapter-based power. That's the swap that decides whether this pick or the one above it is the better fit for your laptop.\n\nWorth knowing before you decide: Documented 4000 RPM with concentrator nozzle. On the other side, Mid-to-high price point without a confirmed external power benefit. That's the main tradeoff to weigh against everything above.",
+    specs: ["USB power, stated compatible with an adapter (unspecified wattage, not confirmed included)","Turbofan up to 4000 RPM with concentrator nozzle","Replaceable air filter (swap every 2-6 months)","Flexible sealing ring","5-speed wind adjustment"],
+    pros: ["Some stated flexibility for adapter-based power","Documented 4000 RPM with concentrator nozzle","Replaceable air filter on a clear schedule","Backlit keys and power-off memory function"],
+    cons: ["Adapter compatibility is not clearly confirmed as included","No stated adapter wattage","Mid-to-high price point without a confirmed external power benefit"],
     bestFor: "Buyers primarily interested in strong airflow and filtration who are open to, but not requiring, external power flexibility.",
   },
   {
@@ -98,11 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41EAHvL+KZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09D6J56NS?tag=deskfinds0d-20",
-    description:
-      "We're including this pad honestly as USB-powered only, with no external adapter mentioned anywhere in its listing, despite its premium price and top-tier documented 5000 RPM fan speed. Its 3-port USB hub runs on an independent data line, but that's separate from the fan's own power source, which remains your laptop's USB port.\n\nIf raw fan speed matters more to you than external power specifically, this remains the highest documented RPM in this entire research pool. Just budget for the fact that it draws from your laptop, including your battery when unplugged.",
-    specs: ["USB-powered only, no external adapter", "Turbofan up to 5000 RPM, 0-5000 variable", "3-port USB hub, independent data line", "Combined sealed foam pressure design", "Noise up to 65dB at max speed"],
-    pros: ["Highest documented fan RPM in this research pool", "Independent USB hub power line", "Sealed foam design for directed airflow", "Wide adjustable speed range"],
-    cons: ["No external power adapter option", "Draws from laptop's own USB power and battery when unplugged", "Highest price in this guide despite lacking external power"],
+    description: "We're including this pad honestly as USB-powered only, with no external adapter mentioned anywhere in its listing, despite its premium price and top-tier documented 5000 RPM fan speed. Its 3-port USB hub runs on an independent data line, but that's separate from the fan's own power source, which remains your laptop's USB port.\n\nOne spot below IETS GT300 Upgraded Laptop Cooling Pad in this ranking, it costs more than IETS GT300 Upgraded Laptop Cooling Pad. The compromise here is straightforward: No external power adapter option. What you gain in return: Highest documented fan RPM in this research pool. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Independent USB hub power line. On the other side, Highest price in this guide despite lacking external power. That's the main tradeoff to weigh against everything above.",
+    specs: ["USB-powered only, no external adapter","Turbofan up to 5000 RPM, 0-5000 variable","3-port USB hub, independent data line","Combined sealed foam pressure design","Noise up to 65dB at max speed"],
+    pros: ["Highest documented fan RPM in this research pool","Independent USB hub power line","Sealed foam design for directed airflow","Wide adjustable speed range"],
+    cons: ["No external power adapter option","Draws from laptop's own USB power and battery when unplugged","Highest price in this guide despite lacking external power"],
     bestFor: "Buyers who want maximum documented fan speed and don't need external power specifically.",
   },
   {
@@ -115,11 +110,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/41EAHvL+KZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09BMYW2JD?tag=deskfinds0d-20",
-    description:
-      "Like its higher-RPM sibling, this pad's listing does not mention any external power adapter, relying entirely on your laptop's USB port for power. It documents a 4200 RPM turbofan and the same sealed foam and bottom intake design targeting rear-exhaust laptops.\n\nWe include it here as another honest USB-only case, at a lower price and noise ceiling than its 5000 RPM sibling. Choose based on whether the lower RPM's reduced noise (up to 55dB versus 65dB) is worth more to you than the extra speed.",
-    specs: ["USB-powered only, no external adapter", "Turbofan up to 4200 RPM, 0-4200 variable", "Combined sealed foam pressure design", "Bottom air intake for rear-exhaust laptops", "Noise up to 55dB at max speed"],
-    pros: ["Documented RPM figure at a lower noise ceiling than its sibling", "Purpose-built for rear-exhaust heat backflow", "Lower price than the 5000 RPM variant", "Wide adjustable speed range"],
-    cons: ["No external power adapter option", "Draws from laptop's own USB power and battery when unplugged", "No RGB or hub extras"],
+    description: "Like its higher-RPM sibling, this pad's listing does not mention any external power adapter, relying entirely on your laptop's USB port for power. It documents a 4200 RPM turbofan and the same sealed foam and bottom intake design targeting rear-exhaust laptops.\n\nSitting just under IETS GT500 Powerful Turbo-Fan, it's priced lower than IETS GT500 Powerful Turbo-Fan. Here's the honest tradeoff: No external power adapter option. And here's what it gets you instead: Documented RPM figure at a lower noise ceiling than its sibling. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Purpose-built for rear-exhaust heat backflow. On the other side, No RGB or hub extras. That's the main tradeoff to weigh against everything above.",
+    specs: ["USB-powered only, no external adapter","Turbofan up to 4200 RPM, 0-4200 variable","Combined sealed foam pressure design","Bottom air intake for rear-exhaust laptops","Noise up to 55dB at max speed"],
+    pros: ["Documented RPM figure at a lower noise ceiling than its sibling","Purpose-built for rear-exhaust heat backflow","Lower price than the 5000 RPM variant","Wide adjustable speed range"],
+    cons: ["No external power adapter option","Draws from laptop's own USB power and battery when unplugged","No RGB or hub extras"],
     bestFor: "Buyers who want strong documented RPM at a lower noise ceiling and don't need external power.",
   },
   {
@@ -132,11 +126,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51Tb3323xjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D4DS24TG?tag=deskfinds0d-20",
-    description:
-      "Despite sharing a brand with our two confirmed external-power picks above, this V10 model's listing does not mention an included power adapter, relying on its dual USB-A and USB-C ports for power instead. This is a reminder that external power is not consistent across an entire product line even from the same manufacturer.\n\nIts documented up to 3500 RPM copper motor and stated 38 degree Celsius reduction remain strong cooling credentials on their own. If you specifically want the llano brand's external power feature, confirm you're buying the V12 variants, not this V10 model.",
-    specs: ["USB-powered only, no external adapter mentioned", "Documented up to 3500 RPM, copper motor", "Stated 38°C reduction within minutes", "Dual USB-A and USB-C ports", "Removable dust filter"],
-    pros: ["Strong documented RPM and temperature-drop figures together", "USB-C port included alongside USB-A", "Removable dust filter", "Physical buttons for control"],
-    cons: ["No external power adapter, unlike its V12 siblings", "Draws from laptop's own USB power and battery when unplugged", "No stated dB figure"],
+    description: "Despite sharing a brand with our two confirmed external-power picks above, this V10 model's listing does not mention an included power adapter, relying on its dual USB-A and USB-C ports for power instead. This is a reminder that external power is not consistent across an entire product line even from the same manufacturer.\n\nRanked just behind IETS GT500 Powerful Turbo-Fan, it costs more than IETS GT500 Powerful Turbo-Fan. The real tradeoff against that pick: No external power adapter, unlike its V12 siblings. In exchange, it offers this instead: Strong documented RPM and temperature-drop figures together. That's the swap that decides whether this pick or the one above it is the better fit for your laptop.\n\nWorth knowing before you decide: USB-C port included alongside USB-A. On the other side, No stated dB figure. That's the main tradeoff to weigh against everything above.",
+    specs: ["USB-powered only, no external adapter mentioned","Documented up to 3500 RPM, copper motor","Stated 38°C reduction within minutes","Dual USB-A and USB-C ports","Removable dust filter"],
+    pros: ["Strong documented RPM and temperature-drop figures together","USB-C port included alongside USB-A","Removable dust filter","Physical buttons for control"],
+    cons: ["No external power adapter, unlike its V12 siblings","Draws from laptop's own USB power and battery when unplugged","No stated dB figure"],
     bestFor: "Buyers who want strong documented cooling specs and USB-C support, and don't need external power.",
   },
   {
@@ -149,13 +142,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/31DsLHp9vML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJDWWHTV?tag=deskfinds0d-20",
-    description:
-      "Despite being the most expensive pad in this entire research pool, Razer's listing does not describe an external power adapter, meaning it draws entirely from your laptop's USB port like most competitors here. Its airtight pressure chamber, adaptive smart cooling, and long-lifespan brushless fan are genuinely strong engineering features, just not on the external power axis this guide covers.\n\nWe close this guide with it as the clearest example that premium price does not guarantee external power. If you want confirmed external power, the llano V12 picks at the top of this guide remain the only two products in this research pool that document an included adapter.",
-    specs: ["USB-powered only, no external adapter", "Documented 3000 RPM, 140mm brushless fan", "Airtight pressure chamber with foam seals", "Adaptive smart cooling, automatic speed adjustment", "2-year manufacturer warranty"],
-    pros: ["Adaptive automatic speed control", "Long-lifespan brushless fan design", "Sealed pressure chamber maximizes airflow", "2-year manufacturer warranty"],
-    cons: ["No external power adapter despite the highest price in this guide", "Draws from laptop's own USB power and battery when unplugged", "Requires Razer Synapse software for full customization"],
+    description: "Despite being the most expensive pad in this entire research pool, Razer's listing does not describe an external power adapter, meaning it draws entirely from your laptop's USB port like most competitors here. Its airtight pressure chamber, adaptive smart cooling, and long-lifespan brushless fan are genuinely strong engineering features, just not on the external power axis this guide covers.\n\nOne spot below llano V10 Gaming Laptop Cooling Pad in this ranking, it costs more than llano V10 Gaming Laptop Cooling Pad. The compromise here is straightforward: No external power adapter despite the highest price in this guide. What you gain in return: Adaptive automatic speed control. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Long-lifespan brushless fan design. On the other side, Requires Razer Synapse software for full customization. That's the main tradeoff to weigh against everything above.",
+    specs: ["USB-powered only, no external adapter","Documented 3000 RPM, 140mm brushless fan","Airtight pressure chamber with foam seals","Adaptive smart cooling, automatic speed adjustment","2-year manufacturer warranty"],
+    pros: ["Adaptive automatic speed control","Long-lifespan brushless fan design","Sealed pressure chamber maximizes airflow","2-year manufacturer warranty"],
+    cons: ["No external power adapter despite the highest price in this guide","Draws from laptop's own USB power and battery when unplugged","Requires Razer Synapse software for full customization"],
     bestFor: "Buyers who value adaptive cooling engineering over external power specifically, and are willing to pay a premium for it.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -169,47 +161,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Confirmed vs Compatible vs USB-Only",
-    table: {
-      headers: ["Power claim", "What it means", "Example pick"],
-      rows: [
-        ["Adapter included in the box", "Confirmed external power, ready to use", "llano V12 (both B0C69BVWGB and B0CYC7T38X)"],
-        ["Compatible with an adapter, sold separately", "External power possible but requires an extra purchase", "Metfut Peltier Cooling Pad, IETS GT300"],
-        ["No adapter mentioned", "USB-powered only, draws from laptop", "IETS GT500 (either variant), llano V10, Razer"],
+    "subheading": "By Laptop Size Fit",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Tightest size match for your laptop",
+          "llano V12 Laptop Cooling Pad"
+        ],
+        [
+          "Widest range, flexible for future upgrades",
+          "llano V12 Laptop Cooling Pad"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Why External Power Matters",
-    cards: [
-      { label: "Avoids laptop battery drain", text: "An externally-powered pad doesn't draw from your laptop's battery when you're unplugged, unlike every USB-only pick in this guide." },
-      { label: "Frees up your laptop's USB port budget", text: "External power means the pad's fans and hub don't compete with your laptop's own USB power limits when running other peripherals simultaneously." },
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $60",
+          "IETS GT300 Upgraded Laptop Cooling Pad"
+        ],
+        [
+          "Mid-range",
+          "llano V10 Gaming Laptop Cooling Pad"
+        ],
+        [
+          "No firm budget ceiling, prioritizing fan count or extras",
+          "Razer Laptop Cooling Pad Adaptive Smart"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Slim/Fewer Fans vs Multi-Fan High Airflow",
+    "cards": [
+      {
+        "label": "Slim, Fewer Fans",
+        "text": "Lighter and more portable with less total noise, at the cost of a smaller cooled surface area. In this comparison: llano V12 Gaming Laptop Cooling Pad Laptop Cooler."
+      },
+      {
+        "label": "Multi-Fan, High Airflow",
+        "text": "More total cooling surface and airflow, at the cost of extra bulk and more potential noise at full speed. In this comparison: llano V12 Gaming Laptop Cooling Pad Laptop Cooler."
+      }
     ],
+    "note": "Most buyers should default to a slim pick like llano V12 Gaming Laptop Cooling Pad Laptop Cooler for everyday portability, and only step up to llano V12 Gaming Laptop Cooling Pad Laptop Cooler's fan count if you're running genuinely demanding workloads that generate real sustained heat."
   },
   {
-    subheading: "By Priority",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Confirmed external power with dust filtration", "llano V12 (B0C69BVWGB)"],
-        ["Confirmed external power plus a spare filter", "llano V12 (B0CYC7T38X)"],
-        ["Willing to buy a separate adapter for scalable power", "Metfut Peltier Cooling Pad"],
-        ["Maximum raw fan speed, USB power is fine", "IETS GT500 (5000 RPM)"],
+    "subheading": "By Height Adjustment Range",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Most ergonomic height adjustment range",
+          "llano V12 Gaming Laptop Cooling Pad Laptop Cooler"
+        ],
+        [
+          "Simplest setup, fewer adjustments to fuss with",
+          "IETS GT300 Upgraded Laptop Cooling Pad"
+        ]
+      ]
+    }
   },
   {
-    subheading: "When USB Power Is Fine",
-    note: "If you primarily use your cooling pad while your laptop is already plugged into wall power, the practical benefit of external power shrinks considerably, since your laptop's own USB port is drawing from wall power anyway in that scenario.",
+    "subheading": "For a Fanless or Sealed-Chassis Laptop (Like MacBook) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation that your specific laptop model has bottom-panel intake vents, since a cooling pad provides little benefit on a fully sealed, fanless unibody design regardless of physical fit."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Every pick here is designed around a vented-bottom laptop; if you're on a fanless MacBook specifically, check our dedicated MacBook Air cooling pad guide for that honesty caveat before buying any pad in this comparison."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Razer Laptop Cooling Pad Adaptive Smart offers: Adaptive automatic speed control. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "IETS GT300 Upgraded Laptop Cooling Pad already covers the essentials: Some stated flexibility for adapter-based power. The main thing you'd be paying extra for elsewhere in this list is fan count or height range you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Look for 'adapter included' in the box contents", explanation: "The clearest signal of genuine external power is a listing that explicitly names a separate power adapter in its box contents, not just general language about USB compatibility." },
-  { criterion: "Distinguish 'compatible' from 'included'", explanation: "Some listings state a product is compatible with an external adapter without confirming one is included in the box. Read carefully, since 'compatible with an adapter' often means you need to buy one separately." },
-  { criterion: "External power avoids battery drain when unplugged", explanation: "A USB-powered cooling pad draws from your laptop's own battery when you're not connected to wall power. An externally-powered pad avoids this entirely, which matters most if you frequently work unplugged." },
-  { criterion: "Don't assume brand consistency", explanation: "The same manufacturer can sell both externally-powered and USB-only models side by side, as seen with the llano V12 versus V10 lineup in this guide. Check the specific model, not just the brand." },
-  { criterion: "Weigh the extra cable against the benefit", explanation: "External power adds one more cable and adapter to manage on your desk. If you mainly use your laptop plugged into wall power anyway, the practical benefit of external power for the cooling pad shrinks." },
+  {
+    "criterion": "Check the pad's stated compatible size range against your laptop's real footprint, not its screen size",
+    "explanation": "A laptop's advertised screen size, like 13 or 15.6 inches, describes the diagonal measurement of the display panel, not the physical width and depth of the laptop's base that actually sits on top of a cooling pad, and two laptops with the identical screen size can have meaningfully different base dimensions depending on bezel thickness and chassis design.\n\nCooling pad listings state a compatible size range in inches specifically because they're describing what base footprint fits their surface and fan layout, so treating the screen-size number alone as a fit guarantee is a genuine buying mistake, not just an imprecise shortcut.\n\nMeasure your laptop's actual width and depth, or find those dimensions in its own spec sheet, and compare that against the pad's stated range rather than matching screen-size numbers."
+  },
+  {
+    "criterion": "Understand that a wider-range pad isn't automatically better for a smaller laptop",
+    "explanation": "Cooling pads spread their fans across the surface in a fixed layout designed around the middle of their stated compatible range, so a pad rated for 12 to 17 inches has its fans positioned to reach a wide variety of vent locations across that whole span, while a laptop toward the small end of that range may not sit directly over as many of those fans as it would on a pad sized more tightly around its own dimensions.\n\nThis matters because the cooling benefit of a pad comes specifically from airflow reaching the laptop's actual intake vents, not from the pad's overall surface area, so a smaller laptop on an oversized pad can genuinely get less effective cooling than the same laptop on a proportionally sized pad, despite technically fitting within the stated range.\n\nWhen your laptop sits toward one end of a pad's stated range rather than the middle, check user photos or reviews specifically describing that size laptop's fit before assuming the airflow lines up well."
+  },
+  {
+    "criterion": "Confirm your laptop's actual vent location and design, especially for thin ultrabooks and MacBooks",
+    "explanation": "Most cooling pads are designed around bottom-vented laptops, where intake vents sit on the underside of the chassis directly facing the pad's fans, but some laptops, most notably many MacBook models, use a fully sealed or fanless internal design where the chassis itself acts as a heat sink rather than relying on active airflow from underneath.\n\nThis is a genuine compatibility gap that a cooling pad's stated inch-range compatibility says nothing about, since a pad can physically fit a MacBook's exact footprint while providing essentially no cooling benefit if that specific model has no bottom vents for the fans to blow into.\n\nCheck your specific laptop model's actual cooling design (vented bottom panel versus sealed unibody) before assuming a cooling pad will meaningfully lower its temperature, and treat this as a separate question from simple physical size fit."
+  },
+  {
+    "criterion": "Weigh fan count and noise level together, not fan count alone",
+    "explanation": "A pad's fan count, commonly ranging from a single central fan up to five or six smaller fans, is often marketed as a straightforward better-is-more spec, but more fans spinning simultaneously generally means more total noise output, and a pad with independently controllable fan zones lets you balance airflow against noise rather than forcing an all-or-nothing choice.\n\nThis is a real everyday tradeoff for anyone using a laptop in a quiet room or on a video call, since a cooling pad running at full multi-fan speed can become audible enough to be distracting, undermining the benefit if you end up turning it off to avoid the noise.\n\nCheck whether the listing states selectable fan modes or independently controlled fan zones, not just the total fan count, if noise control matters to your specific environment."
+  },
+  {
+    "criterion": "Confirm the power source and port type match your laptop before assuming plug-and-play compatibility",
+    "explanation": "Nearly all cooling pads draw power over a USB cable rather than a separate power adapter, which keeps setup simple, but the cable end that plugs into your laptop is typically USB-A, and a laptop with only USB-C ports (common on newer ultrabooks and MacBooks) will need a separate USB-C adapter or hub to actually power the pad, an extra cost and cable that isn't obvious from the listing photos alone.\n\nThis matters because a cooling pad that can't be powered defeats its entire purpose regardless of how well it otherwise fits your laptop's size and vent layout, so it's a genuine prerequisite to check, not an afterthought.\n\nCheck the listing's stated cable connector type and confirm it matches an available port on your specific laptop, or budget for an adapter if it doesn't."
+  }
 ];
 
 export const faq: FaqItem[] = [

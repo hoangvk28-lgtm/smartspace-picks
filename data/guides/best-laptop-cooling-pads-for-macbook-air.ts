@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51sHd2DFdML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GK23SC1C?tag=deskfinds0d-20",
-    description:
-      "This is the only pad in this guide explicitly engineered for MacBook's metal unibody chassis rather than a general laptop platform, combining semiconductor cooling with an integrated scroll fan. The listing frames this as addressing the metal body's tendency to conduct and hold heat, which is a genuine property of MacBook's aluminum design, distinct from the internal fanless architecture of the Air specifically.\n\nFive height settings and continuously variable speed control let you dial in airflow, and a noise-canceling motor targets quiet operation. At $68.99 this is the most expensive pad here by a wide margin, and worth it mainly if you want a design purpose-built for MacBook's chassis rather than a repurposed generic pad, though even this design cannot address the Air's fanless internal bottleneck directly, only the external chassis temperature.",
-    specs: ["Semiconductor cooling + integrated roller fan", "5 height settings, CVT speed control", "1057g solid construction", "Hemispherical silicone foot pads", "Exclusively for MacBook Air/Pro 13-17\""],
-    pros: ["Purpose-built for MacBook's metal unibody, not a generic laptop pad", "Semiconductor cooling adds active heat pulling beyond just airflow", "Noise-canceling motor targets quiet operation", "Solid 1057g build with anti-slip silicone feet"],
-    cons: ["Highest price in this guide by a wide margin", "Cannot resolve the Air's internal fanless thermal ceiling, only external chassis temperature", "No documented before/after temperature figure specific to MacBook Air"],
+    description: "This is the only pad in this guide explicitly engineered for MacBook's metal unibody chassis rather than a general laptop platform, combining semiconductor cooling with an integrated scroll fan. The listing frames this as addressing the metal body's tendency to conduct and hold heat, which is a genuine property of MacBook's aluminum design, distinct from the internal fanless architecture of the Air specifically.\n\nIt earns the top spot in this comparison over AIMIUZI Laptop Cooling Pad Laptop Cooler Stand for one main reason. Purpose-built for MacBook's metal unibody, not a generic laptop pad. On price, it's actually priced above AIMIUZI Laptop Cooling Pad Laptop Cooler Stand, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Semiconductor cooling adds active heat pulling beyond just airflow. On the other side, No documented before/after temperature figure specific to MacBook Air. That's the main tradeoff to weigh against everything above.",
+    specs: ["Semiconductor cooling + integrated roller fan","5 height settings, CVT speed control","1057g solid construction","Hemispherical silicone foot pads","Exclusively for MacBook Air/Pro 13-17\""],
+    pros: ["Purpose-built for MacBook's metal unibody, not a generic laptop pad","Semiconductor cooling adds active heat pulling beyond just airflow","Noise-canceling motor targets quiet operation","Solid 1057g build with anti-slip silicone feet"],
+    cons: ["Highest price in this guide by a wide margin","Cannot resolve the Air's internal fanless thermal ceiling, only external chassis temperature","No documented before/after temperature figure specific to MacBook Air"],
     bestFor: "MacBook Air owners who want a design specifically engineered for Apple's metal chassis rather than a generic pad, and who understand it addresses external heat, not the Air's internal fanless limit.",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51uaAp0-YIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CL7FZ5NV?tag=deskfinds0d-20",
-    description:
-      "This is a generic bottom-mounted pad, five fans across a honeycomb mesh surface, explicitly listed as compatible with MacBook Air among other brands. Because it pushes air at the bottom panel rather than the rear hinge where the Air actually vents, treat its cooling benefit for a fanless Air as modest at best, elevation and airflow around the chassis, not a fix for internal throttling.\n\nWhere it earns its place here is price and portability, five height settings and a flip-up anti-slip pad make it a reasonable ergonomic stand with some airflow benefit layered on top. Dual USB-A ports are the main compatibility gap for a base MacBook Air, which has USB-C only ports, so factor in an adapter if you plan to use the pad's pass-through port.",
-    specs: ["5 fans, honeycomb mesh surface", "5 height settings", "Dual USB-A ports (adapter needed for USB-C MacBook Air)", "Flip-up anti-slip pad", "Fits 12-15.6\" laptops"],
-    pros: ["Budget-friendly and genuinely portable", "5 height settings for ergonomic flexibility", "Honeycomb mesh gives a stable, ventilated resting surface", "Compatible with the Air's 13-15 inch size range"],
-    cons: ["Bottom-mounted fans don't align with the Air's rear-hinge vent location", "USB-A ports require an adapter for a USB-C-only base MacBook Air", "No documented cooling benefit specific to a fanless chassis"],
+    description: "This is a generic bottom-mounted pad, five fans across a honeycomb mesh surface, explicitly listed as compatible with MacBook Air among other brands. Because it pushes air at the bottom panel rather than the rear hinge where the Air actually vents, treat its cooling benefit for a fanless Air as modest at best, elevation and airflow around the chassis, not a fix for internal throttling.\n\nOne spot below Laptop Cooling Pad for MacBook Air Pro 14 15 16 17 Inch in this ranking, it's priced lower than Laptop Cooling Pad for MacBook Air Pro 14 15 16 17 Inch. The compromise here is straightforward: Bottom-mounted fans don't align with the Air's rear-hinge vent location. What you gain in return: Budget-friendly and genuinely portable. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: 5 height settings for ergonomic flexibility. On the other side, No documented cooling benefit specific to a fanless chassis. That's the main tradeoff to weigh against everything above.",
+    specs: ["5 fans, honeycomb mesh surface","5 height settings","Dual USB-A ports (adapter needed for USB-C MacBook Air)","Flip-up anti-slip pad","Fits 12-15.6\" laptops"],
+    pros: ["Budget-friendly and genuinely portable","5 height settings for ergonomic flexibility","Honeycomb mesh gives a stable, ventilated resting surface","Compatible with the Air's 13-15 inch size range"],
+    cons: ["Bottom-mounted fans don't align with the Air's rear-hinge vent location","USB-A ports require an adapter for a USB-C-only base MacBook Air","No documented cooling benefit specific to a fanless chassis"],
     bestFor: "Budget-conscious MacBook Air owners who mainly want elevation and a stable typing angle, with modest supplementary airflow.",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51+142vwVRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00NNMB3KS?tag=deskfinds0d-20",
-    description:
-      "Marketed as ultra-quiet with three fans and a metal mesh surface, this pad is sized for 15.6 to 17 inch laptops, which fits the larger MacBook Air 15 inch but is oversized for the 13 inch model. As with the other generic pads here, its bottom-mounted airflow is not aligned with the Air's rear-hinge vents, so treat any thermal benefit as secondary to its role as a stable, elevated stand.\n\nTwo height settings and an extra USB port with its own power switch round out the feature set. If quiet operation matters more to you than raw airflow and you own the larger 15 inch Air, this is a reasonable, low-noise option for elevation and light supplementary cooling.",
-    specs: ["3 ultra-quiet fans", "Metal mesh surface", "2 height settings", "Extra USB port with power switch", "Fits 15.6\"-17\" laptops"],
-    pros: ["Quiet operation is an explicit design priority", "Metal mesh gives a stable, scratch-resistant platform", "Fits the larger 15 inch MacBook Air well", "Slim and travel-friendly"],
-    cons: ["Oversized for the 13 inch MacBook Air", "Bottom-mounted fans don't align with the Air's rear-hinge vents", "No MacBook-specific compatibility notes in the listing"],
+    description: "Marketed as ultra-quiet with three fans and a metal mesh surface, this pad is sized for 15.6 to 17 inch laptops, which fits the larger MacBook Air 15 inch but is oversized for the 13 inch model. As with the other generic pads here, its bottom-mounted airflow is not aligned with the Air's rear-hinge vents, so treat any thermal benefit as secondary to its role as a stable, elevated stand.\n\nSitting just under AIMIUZI Laptop Cooling Pad Laptop Cooler Stand, it costs more than AIMIUZI Laptop Cooling Pad Laptop Cooler Stand. Here's the honest tradeoff: Oversized for the 13 inch MacBook Air. And here's what it gets you instead: Quiet operation is an explicit design priority. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Metal mesh gives a stable, scratch-resistant platform. On the other side, No MacBook-specific compatibility notes in the listing. That's the main tradeoff to weigh against everything above.",
+    specs: ["3 ultra-quiet fans","Metal mesh surface","2 height settings","Extra USB port with power switch","Fits 15.6\"-17\" laptops"],
+    pros: ["Quiet operation is an explicit design priority","Metal mesh gives a stable, scratch-resistant platform","Fits the larger 15 inch MacBook Air well","Slim and travel-friendly"],
+    cons: ["Oversized for the 13 inch MacBook Air","Bottom-mounted fans don't align with the Air's rear-hinge vents","No MacBook-specific compatibility notes in the listing"],
     bestFor: "15 inch MacBook Air owners who want quiet elevation with modest supplementary airflow.",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51cdB-ugjML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B096ZKRBB2?tag=deskfinds0d-20",
-    description:
-      "Seven height settings, the widest ergonomic range in this guide, make this a strong pick if your main goal is finding the right typing and viewing angle for a MacBook Air rather than maximum cooling. Six fans across two independently switchable zones cover the 12 to 17 inch size range, listed as explicitly compatible with MacBook models among other brands.\n\nAs with the other non-MacBook-specific pads here, the bottom-mounted fan layout won't align with the Air's rear-hinge vents, so its practical benefit leans toward stable elevation and ergonomic comfort. Dual USB ports and a phone holder round out a genuinely useful accessory even if the thermal claim should be taken lightly for a fanless Air.",
-    specs: ["6 fans, 2 independent zones", "7 height settings", "Dual USB ports, phone holder", "Diamond-groove metal mesh surface", "Fits 12-17\" laptops"],
-    pros: ["Widest height-adjustment range in this guide", "Independent fan zones for some airflow flexibility", "Budget-friendly price", "Explicitly lists MacBook compatibility"],
-    cons: ["Bottom-mounted fans don't align with the Air's rear-hinge vent location", "No documented thermal benefit specific to a fanless MacBook", "USB-A ports require an adapter for USB-C-only base Air models"],
+    description: "Seven height settings, the widest ergonomic range in this guide, make this a strong pick if your main goal is finding the right typing and viewing angle for a MacBook Air rather than maximum cooling. Six fans across two independently switchable zones cover the 12 to 17 inch size range, listed as explicitly compatible with MacBook models among other brands.\n\nRanked just behind havit HV-F2056 15.6\"-17\" Laptop Cooler Cooling Pad, it's priced lower than havit HV-F2056 15.6\"-17\" Laptop Cooler Cooling Pad. The real tradeoff against that pick: Bottom-mounted fans don't align with the Air's rear-hinge vent location. In exchange, it offers this instead: Widest height-adjustment range in this guide. That's the swap that decides whether this pick or the one above it is the better fit for your laptop.\n\nWorth knowing before you decide: Independent fan zones for some airflow flexibility. On the other side, USB-A ports require an adapter for USB-C-only base Air models. That's the main tradeoff to weigh against everything above.",
+    specs: ["6 fans, 2 independent zones","7 height settings","Dual USB ports, phone holder","Diamond-groove metal mesh surface","Fits 12-17\" laptops"],
+    pros: ["Widest height-adjustment range in this guide","Independent fan zones for some airflow flexibility","Budget-friendly price","Explicitly lists MacBook compatibility"],
+    cons: ["Bottom-mounted fans don't align with the Air's rear-hinge vent location","No documented thermal benefit specific to a fanless MacBook","USB-A ports require an adapter for USB-C-only base Air models"],
     bestFor: "MacBook Air owners who prioritize finding a comfortable ergonomic angle over a marginal thermal benefit.",
   },
   {
@@ -98,13 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "Verified Amazon listing",
     imageUrl: "https://m.media-amazon.com/images/I/51m8DcjqrzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07QXJN1RK?tag=deskfinds0d-20",
-    description:
-      "Sized for 11 to 14 inch laptops, this is the correctly-fitted platform size for a 13 inch MacBook Air, unlike the 15.6 to 17 inch pads elsewhere in this guide that are built for larger machines. Two blue LED fans and a metal mesh surface keep the design simple, and it's genuinely slim and light enough to travel in the same bag as an Air.\n\nAs with any bottom-mounted pad on a MacBook Air, expect the airflow benefit to be modest since it does not reach the rear-hinge vent location. Two adjustable height levels are more limited than pricier picks, but for a compact 13 inch Air this remains the best-matched footprint size in this lineup.",
-    specs: ["2 blue LED fans", "Metal mesh surface", "2 height levels", "USB powered", "Fits 11-14\" laptops"],
-    pros: ["Correctly sized platform for a 13 inch MacBook Air", "Slim and lightweight for travel", "Simple, low-cost design", "Works on a desk, lap, or bed per the listing"],
-    cons: ["Only 2 height settings", "Bottom-mounted fans don't align with the Air's rear-hinge vents", "Fewer fans than most other picks in this guide"],
+    description: "Sized for 11 to 14 inch laptops, this is the correctly-fitted platform size for a 13 inch MacBook Air, unlike the 15.6 to 17 inch pads elsewhere in this guide that are built for larger machines. Two blue LED fans and a metal mesh surface keep the design simple, and it's genuinely slim and light enough to travel in the same bag as an Air.\n\nOne spot below LIANGSTAR Laptop Cooling Pad in this ranking, it costs more than LIANGSTAR Laptop Cooling Pad. The compromise here is straightforward: Only 2 height settings. What you gain in return: Correctly sized platform for a 13 inch MacBook Air. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Slim and lightweight for travel. On the other side, Fewer fans than most other picks in this guide. That's the main tradeoff to weigh against everything above.",
+    specs: ["2 blue LED fans","Metal mesh surface","2 height levels","USB powered","Fits 11-14\" laptops"],
+    pros: ["Correctly sized platform for a 13 inch MacBook Air","Slim and lightweight for travel","Simple, low-cost design","Works on a desk, lap, or bed per the listing"],
+    cons: ["Only 2 height settings","Bottom-mounted fans don't align with the Air's rear-hinge vents","Fewer fans than most other picks in this guide"],
     bestFor: "13 inch MacBook Air owners who want a footprint that actually matches their laptop's smaller size.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,49 +113,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Set Realistic Expectations for a Fanless Laptop",
-    intro: "An external cooling pad cannot add cooling capacity a fanless chassis was never designed to have.",
-    note: "M1 and M2 MacBook Air models have no internal fan. Under sustained heavy load, the thermal bottleneck is Apple's internal heat spreader and chassis design, not something external airflow beneath the machine can fully resolve. A cooling pad can still help with external chassis temperature and typing comfort, but do not expect it to eliminate performance throttling on demanding sustained tasks.",
-  },
-  {
-    subheading: "Choose by MacBook Air Size",
-    table: {
-      headers: ["Your MacBook Air", "Recommended pick"],
-      rows: [
-        ["13 inch Air", "Coolertek Portable Slim (11-14\" range)"],
-        ["15 inch Air", "havit HV-F2056 (15.6\"-17\" range)"],
-        ["Either size, purpose-built design", "MacBook-specific semiconductor cooler"],
-        ["Either size, budget priority", "AIMIUZI or LIANGSTAR generic pads"],
+    "subheading": "By Laptop Size Fit",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Tightest size match for your laptop",
+          "Coolertek Portable Slim Quiet Laptop Notebook Cooler Cooling Pad Stand"
+        ],
+        [
+          "Widest range, flexible for future upgrades",
+          "LIANGSTAR Laptop Cooling Pad"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Vent Location: Rear Hinge vs Bottom Panel",
-    cards: [
-      { label: "MacBook Air vent location", text: "Primarily along the rear hinge, where the display meets the base, not the flat bottom panel." },
-      { label: "Most cooling pad fan placement", text: "Bottom-mounted, designed around Windows laptops that vent through the underside. This is a real mismatch worth knowing before buying." },
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $21",
+          "AIMIUZI Laptop Cooling Pad Laptop Cooler Stand"
+        ],
+        [
+          "Mid-range",
+          "Coolertek Portable Slim Quiet Laptop Notebook Cooler Cooling Pad Stand"
+        ],
+        [
+          "No firm budget ceiling, prioritizing fan count or extras",
+          "Laptop Cooling Pad for MacBook Air Pro 14 15 16 17 Inch"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Slim/Fewer Fans vs Multi-Fan High Airflow",
+    "cards": [
+      {
+        "label": "Slim, Fewer Fans",
+        "text": "Lighter and more portable with less total noise, at the cost of a smaller cooled surface area. In this comparison: Laptop Cooling Pad for MacBook Air Pro 14 15 16 17 Inch."
+      },
+      {
+        "label": "Multi-Fan, High Airflow",
+        "text": "More total cooling surface and airflow, at the cost of extra bulk and more potential noise at full speed. In this comparison: LIANGSTAR Laptop Cooling Pad."
+      }
     ],
-    note: "Because of this mismatch, treat generic cooling pads as providing elevation and modest ambient airflow around the chassis rather than a direct fix targeted at the Air's actual vent.",
+    "note": "Most buyers should default to a slim pick like Laptop Cooling Pad for MacBook Air Pro 14 15 16 17 Inch for everyday portability, and only step up to LIANGSTAR Laptop Cooling Pad's fan count if you're running genuinely demanding workloads that generate real sustained heat."
   },
   {
-    subheading: "Port Compatibility for the Base Air",
-    intro: "The base MacBook Air has only two USB-C ports total, so a pad's pass-through port matters more here than on laptops with more native ports.",
-    table: {
-      headers: ["Pad port type", "What you need"],
-      rows: [
-        ["USB-A only", "A USB-C to USB-A adapter, or use your only free port"],
-        ["USB-C pass-through", "Direct connection, no adapter needed"],
+    "subheading": "By Height Adjustment Range",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Most ergonomic height adjustment range",
+          "LIANGSTAR Laptop Cooling Pad"
+        ],
+        [
+          "Simplest setup, fewer adjustments to fuss with",
+          "AIMIUZI Laptop Cooling Pad Laptop Cooler Stand"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a Fanless or Sealed-Chassis Laptop (Like MacBook) Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Explicit confirmation that your specific laptop model has bottom-panel intake vents, since a cooling pad provides little benefit on a fully sealed, fanless unibody design regardless of physical fit."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Every pick here is designed around a vented-bottom laptop; if you're on a fanless MacBook specifically, check our dedicated MacBook Air cooling pad guide for that honesty caveat before buying any pad in this comparison."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Laptop Cooling Pad for MacBook Air Pro 14 15 16 17 Inch offers: Purpose-built for MacBook's metal unibody, not a generic laptop pad. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "AIMIUZI Laptop Cooling Pad Laptop Cooler Stand already covers the essentials: Budget-friendly and genuinely portable. The main thing you'd be paying extra for elsewhere in this list is fan count or height range you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Understand the Air's internal thermal design first", explanation: "M1 and M2 MacBook Air models are fanless internally. An external cooling pad addresses ambient airflow around the outside of the chassis, not the internal heat spreader that actually manages the Air's thermal ceiling. Set expectations accordingly before buying." },
-  { criterion: "Check vent location, not just claimed compatibility", explanation: "MacBook Air vents primarily along the rear hinge, while most cooling pads are bottom-mounted for Windows-style laptops. A listing that says 'compatible with MacBook' does not mean its airflow reaches the Air's actual vent." },
-  { criterion: "Match the platform size to your specific Air model", explanation: "A pad sized for 15.6 to 17 inch laptops will be oversized for a 13 inch Air, and vice versa. Check the stated size range against your exact model rather than assuming 'fits most laptops' covers both Air sizes equally well." },
-  { criterion: "Factor in USB-C port compatibility", explanation: "The base MacBook Air has only two ports total, both USB-C. A cooling pad with USB-A-only ports requires an adapter to use its pass-through connection, a real inconvenience worth planning for." },
-  { criterion: "Don't overpay for unproven MacBook-specific claims", explanation: "A pad marketed specifically for MacBook's metal chassis can be worth the premium for build quality and design fit, but no pad in this category has documented, independently verified thermal test data specific to a fanless MacBook Air." },
+  {
+    "criterion": "Check the pad's stated compatible size range against your laptop's real footprint, not its screen size",
+    "explanation": "A laptop's advertised screen size, like 13 or 15.6 inches, describes the diagonal measurement of the display panel, not the physical width and depth of the laptop's base that actually sits on top of a cooling pad, and two laptops with the identical screen size can have meaningfully different base dimensions depending on bezel thickness and chassis design.\n\nCooling pad listings state a compatible size range in inches specifically because they're describing what base footprint fits their surface and fan layout, so treating the screen-size number alone as a fit guarantee is a genuine buying mistake, not just an imprecise shortcut.\n\nMeasure your laptop's actual width and depth, or find those dimensions in its own spec sheet, and compare that against the pad's stated range rather than matching screen-size numbers."
+  },
+  {
+    "criterion": "Understand that a wider-range pad isn't automatically better for a smaller laptop",
+    "explanation": "Cooling pads spread their fans across the surface in a fixed layout designed around the middle of their stated compatible range, so a pad rated for 12 to 17 inches has its fans positioned to reach a wide variety of vent locations across that whole span, while a laptop toward the small end of that range may not sit directly over as many of those fans as it would on a pad sized more tightly around its own dimensions.\n\nThis matters because the cooling benefit of a pad comes specifically from airflow reaching the laptop's actual intake vents, not from the pad's overall surface area, so a smaller laptop on an oversized pad can genuinely get less effective cooling than the same laptop on a proportionally sized pad, despite technically fitting within the stated range.\n\nWhen your laptop sits toward one end of a pad's stated range rather than the middle, check user photos or reviews specifically describing that size laptop's fit before assuming the airflow lines up well."
+  },
+  {
+    "criterion": "Confirm your laptop's actual vent location and design, especially for thin ultrabooks and MacBooks",
+    "explanation": "Most cooling pads are designed around bottom-vented laptops, where intake vents sit on the underside of the chassis directly facing the pad's fans, but some laptops, most notably many MacBook models, use a fully sealed or fanless internal design where the chassis itself acts as a heat sink rather than relying on active airflow from underneath.\n\nThis is a genuine compatibility gap that a cooling pad's stated inch-range compatibility says nothing about, since a pad can physically fit a MacBook's exact footprint while providing essentially no cooling benefit if that specific model has no bottom vents for the fans to blow into.\n\nCheck your specific laptop model's actual cooling design (vented bottom panel versus sealed unibody) before assuming a cooling pad will meaningfully lower its temperature, and treat this as a separate question from simple physical size fit."
+  },
+  {
+    "criterion": "Weigh fan count and noise level together, not fan count alone",
+    "explanation": "A pad's fan count, commonly ranging from a single central fan up to five or six smaller fans, is often marketed as a straightforward better-is-more spec, but more fans spinning simultaneously generally means more total noise output, and a pad with independently controllable fan zones lets you balance airflow against noise rather than forcing an all-or-nothing choice.\n\nThis is a real everyday tradeoff for anyone using a laptop in a quiet room or on a video call, since a cooling pad running at full multi-fan speed can become audible enough to be distracting, undermining the benefit if you end up turning it off to avoid the noise.\n\nCheck whether the listing states selectable fan modes or independently controlled fan zones, not just the total fan count, if noise control matters to your specific environment."
+  },
+  {
+    "criterion": "Confirm the power source and port type match your laptop before assuming plug-and-play compatibility",
+    "explanation": "Nearly all cooling pads draw power over a USB cable rather than a separate power adapter, which keeps setup simple, but the cable end that plugs into your laptop is typically USB-A, and a laptop with only USB-C ports (common on newer ultrabooks and MacBooks) will need a separate USB-C adapter or hub to actually power the pad, an extra cost and cable that isn't obvious from the listing photos alone.\n\nThis matters because a cooling pad that can't be powered defeats its entire purpose regardless of how well it otherwise fits your laptop's size and vent layout, so it's a genuine prerequisite to check, not an afterthought.\n\nCheck the listing's stated cable connector type and confirm it matches an available port on your specific laptop, or budget for an adapter if it doesn't."
+  }
 ];
 
 export const faq: FaqItem[] = [
