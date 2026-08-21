@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21igSrZPOwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBGXC2C?tag=deskfinds0d-20",
     description:
-      "At $64, the PIXMA TS4320 is the cheapest pick in this list while still including automatic duplex printing, a copier, and a scanner, a genuinely full feature set for the price. Its compact single-tray design keeps daily operation simple for occasional document printing.\n\nThis is a good fit for a home office that prints intermittently rather than daily, since cartridge ink can dry out with long gaps between print jobs. If your home office prints only occasionally, that's actually an advantage over an ink-tank system that costs more upfront to justify.",
+      "At $64, the PIXMA TS4320 is the cheapest pick in this list while still including automatic duplex printing, a copier, and a scanner, a genuinely full feature set for the price. Its compact single-tray design keeps daily operation simple for occasional document printing.\n\nThis is a good fit for a home office that prints intermittently rather than daily, since cartridge ink can dry out with long gaps between print jobs. If your home office prints only occasionally, that's actually an advantage over an ink-tank system that costs more upfront to justify.\n\nAutomatic duplex printing included. That's a real strength, but weigh it against the flip side: no automatic document feeder.",
     specs: [
       "Color inkjet, duplex printing",
       "Copier and scanner built in",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415PuxvZ1wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXKNB9?tag=deskfinds0d-20",
     description:
-      "The PIXMA TR4720's automatic document feeder is the standout feature at this price, letting you scan or copy multi-page documents without repositioning each page on the glass individually. That single feature matters a lot for a home office that regularly scans receipts, contracts, or multi-page forms.\n\nBuilt-in fax is a legacy feature most home offices won't use, but it doesn't add friction to daily operation. Mobile printing setup follows a short guided process, making it a reasonable pick for a household with mixed devices.",
+      "The PIXMA TR4720's automatic document feeder is the standout feature at this price, letting you scan or copy multi-page documents without repositioning each page on the glass individually. That single feature matters a lot for a home office that regularly scans receipts, contracts, or multi-page forms.\n\nBuilt-in fax is a legacy feature most home offices won't use, but it doesn't add friction to daily operation. Mobile printing setup follows a short guided process, making it a reasonable pick for a household with mixed devices.\n\nWorth calling out specifically: guided mobile printing setup. The catch is cartridge-based ink costs more at higher volume.",
     specs: [
       "Color inkjet all-in-one with auto document feeder",
       "Mobile printing support",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "HP's straightforward wireless setup flow and simple print, scan, copy layout make the DeskJet 4355 a reasonable choice for a home office being set up for the first time. The included 3-month Instant Ink trial gives new buyers a low-pressure way to try automatic ink reordering before deciding whether to keep it.\n\nAI-capable printing features are available but optional, they don't complicate the basic experience of getting a document printed. As with any cartridge-based budget inkjet, plan for cartridge costs returning to standard pricing once the trial ends.",
+      "HP's straightforward wireless setup flow and simple print, scan, copy layout make the DeskJet 4355 a reasonable choice for a home office being set up for the first time. The included 3-month Instant Ink trial gives new buyers a low-pressure way to try automatic ink reordering before deciding whether to keep it.\n\nAI-capable printing features are available but optional, they don't complicate the basic experience of getting a document printed. As with any cartridge-based budget inkjet, plan for cartridge costs returning to standard pricing once the trial ends.\n\nLow price with a full feature set. Set against that, not built for high daily volume. Both matter when comparing it to the other picks here.",
     specs: [
       "Color inkjet all-in-one: print, scan, copy",
       "3-month Instant Ink trial included",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21U5jLy1DeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBTJLX6?tag=deskfinds0d-20",
     description:
-      "A 1.42-inch OLED display sets the TS6520 apart from other budget printers in this list, showing plain status messages rather than a blinking light code when something goes wrong. That's worth paying a few extra dollars for in a home office where you're the only one around to troubleshoot a jam or low-ink warning.\n\nDuplex printing and a built-in scanner and copier round out the feature set at a price still under $75, and the intuitive control panel keeps routine tasks a button press away rather than buried in a menu.",
+      "A 1.42-inch OLED display sets the TS6520 apart from other budget printers in this list, showing plain status messages rather than a blinking light code when something goes wrong. That's worth paying a few extra dollars for in a home office where you're the only one around to troubleshoot a jam or low-ink warning.\n\nDuplex printing and a built-in scanner and copier round out the feature set at a price still under $75, and the intuitive control panel keeps routine tasks a button press away rather than buried in a menu.\n\nA genuine advantage here is that duplex printing included. The tradeoff is cartridge ink costs more at high volume.",
     specs: [
       "Color inkjet, duplex printing",
       "Built-in copier and scanner",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GFXE7NdOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00K5UZO0Q?tag=deskfinds0d-20",
     description:
-      "For a home office that mostly prints text, contracts, invoices, or forms rather than photos, the LBP6030w's monochrome laser engine delivers crisp text at a lower cost per page than any inkjet in this list. Its 19 PPM rated speed keeps routine document printing fast.\n\nThis is a print-only device with no scan, copy, or duplex, a genuine trade-off for the lower per-page cost. Pair it with a phone-based scanning app if you occasionally need to digitize a document, rather than relying on a dedicated scanner.",
+      "For a home office that mostly prints text, contracts, invoices, or forms rather than photos, the LBP6030w's monochrome laser engine delivers crisp text at a lower cost per page than any inkjet in this list. Its 19 PPM rated speed keeps routine document printing fast.\n\nThis is a print-only device with no scan, copy, or duplex, a genuine trade-off for the lower per-page cost. Pair it with a phone-based scanning app if you occasionally need to digitize a document, rather than relying on a dedicated scanner.\n\nFast, crisp monochrome output. That's a real strength, but weigh it against the flip side: print only, no scan or copy.",
     specs: [
       "Monochrome laser, print only",
       "19 PPM rated speed",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31n0Y8gzpfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPL7HRQN?tag=deskfinds0d-20",
     description:
-      "The HL-L2405W adds wireless printing, mobile app support, and Alexa compatibility to a compact monochrome laser body, a step up in convenience over the LBP6030w for a home office that wants more flexible printer placement away from a desktop computer. The included Refresh Subscription trial lets you test automatic toner reordering.\n\nLike any budget laser printer, expect a starter toner cartridge with a lower page yield than the standard replacement, and build for a realistic 2 to 3 year comfortable lifespan under moderate home office use rather than treating it as a decade-long investment.",
+      "The HL-L2405W adds wireless printing, mobile app support, and Alexa compatibility to a compact monochrome laser body, a step up in convenience over the LBP6030w for a home office that wants more flexible printer placement away from a desktop computer. The included Refresh Subscription trial lets you test automatic toner reordering.\n\nLike any budget laser printer, expect a starter toner cartridge with a lower page yield than the standard replacement, and build for a realistic 2 to 3 year comfortable lifespan under moderate home office use rather than treating it as a decade-long investment.\n\nWorth calling out specifically: low cost per page for text documents. The catch is no scan or copy functions.",
     specs: [
       "Monochrome laser, print only",
       "Wireless and mobile printing",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31eKmxnpbkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B096N8DN2H?tag=deskfinds0d-20",
     description:
-      "At $199.99, the ET-2800 has the highest upfront price in this list, but its cartridge-free ink-tank system is the clearest path to the lowest 2-year total cost for a home office that prints regularly. Refill bottles cost a fraction of equivalent cartridge ink over the life of the printer.\n\nScan and copy are built in alongside color printing, making it a genuine all-in-one rather than a print-focused laser. The break-even point against a cheaper cartridge inkjet typically arrives within the first year or two of regular home office volume, after which the ink-tank system keeps costing less.",
+      "At $199.99, the ET-2800 has the highest upfront price in this list, but its cartridge-free ink-tank system is the clearest path to the lowest 2-year total cost for a home office that prints regularly. Refill bottles cost a fraction of equivalent cartridge ink over the life of the printer.\n\nScan and copy are built in alongside color printing, making it a genuine all-in-one rather than a print-focused laser. The break-even point against a cheaper cartridge inkjet typically arrives within the first year or two of regular home office volume, after which the ink-tank system keeps costing less.\n\nFull print, scan, copy feature set. Set against that, highest upfront price in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "Color inkjet all-in-one, cartridge-free ink tank",
       "Scan and copy built in",
@@ -296,35 +296,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Segment your needs before comparing prices",
-    explanation:
-      "A home office that prints a document once a week needs a different printer than one that scans and copies daily, comparing every sub-$200 printer on one list ignores this. Decide first whether you need occasional printing, regular scanning, or high-volume text output, then compare within that segment.",
+    "criterion": "Understand duty cycle as a maximum ceiling, not a healthy day-to-day volume",
+    "explanation": "A printer's rated duty cycle is the absolute maximum number of pages it can print in a month before risking premature wear, not a figure representing comfortable, sustained daily use, printing consistently near that ceiling month after month accelerates wear on the print mechanism well beyond what the same printer would experience at a more moderate, realistic volume.\n\nThis matters because buying a printer rated just barely above your expected monthly volume often means running it closer to its stress limit than its comfortable operating range.\n\nCheck the listed duty cycle figure, and target a printer rated at 3 to 5 times your actual expected monthly volume for genuinely comfortable long-term use, not a printer rated just above what you think you'll print."
   },
   {
-    criterion: "Compare 2-year total cost, not just sticker price",
-    explanation:
-      "A $64 cartridge inkjet and a $199 ink-tank printer can end up costing about the same over 2 years of regular home office use, once you factor in cartridge replacement costs against refill bottle costs. Calculate your expected monthly page volume and multiply it out before assuming the cheaper sticker price wins.",
+    "criterion": "Match multi-user wifi sharing to how many people will actually print from it",
+    "explanation": "A printer's wireless sharing capability varies in real-world reliability between models, some handle multiple simultaneous connection requests from different devices smoothly, while others can drop connections or queue print jobs unreliably when more than one person tries to print around the same time.\n\nThis matters directly for a shared home office or household with multiple people printing throughout the day, less for a single dedicated user.\n\nCheck reviews specifically for mentions of multi-device wifi reliability, not just whether wireless printing is listed as a supported feature, since the feature existing and working reliably under real multi-user load aren't the same thing."
   },
   {
-    criterion: "Monochrome laser wins on per-page cost for text-only offices",
-    explanation:
-      "If your home office rarely prints color, a monochrome laser like the Canon LBP6030w or Brother HL-L2405W will have a meaningfully lower cost per page than any inkjet in this list, even though the laser's upfront price is often higher.",
+    "criterion": "Check scan resolution against what you're actually digitizing, not just print quality",
+    "explanation": "Print quality specs get most of the attention in printer listings, but scan resolution, measured in DPI, determines whether a scanned document stays genuinely readable when zoomed in or printed again later, and this spec is often buried or only briefly mentioned compared to print specs.\n\nThis matters more if you regularly scan contracts, receipts, or other documents where legibility of fine print matters, less if scanning is an occasional, low-stakes task.\n\nCheck the listed optical scan resolution in DPI specifically, not just the printer's overall feature list, if document scanning is a real part of your workflow."
   },
   {
-    criterion: "Auto document feeder matters more than most budget shoppers realize",
-    explanation:
-      "Scanning or copying a multi-page document one page at a time on a flatbed scanner is slow and easy to mess up. If your home office regularly deals with multi-page forms, contracts, or receipts, an auto document feeder like the one on the Canon PIXMA TR4720 saves real time every week.",
+    "criterion": "Weigh whether legacy features like fax are worth paying for in a 2026 home office",
+    "explanation": "Many home-office printers still bundle a fax feature as a holdover from an earlier era, adding to the printer's cost and complexity even though most home offices in 2026 will genuinely never use it, having largely moved to email and digital document sharing entirely.\n\nThis matters for value, paying for a feature you'll never touch is a real, if often overlooked, inefficiency when a fax-free model at a lower price covers the same core printing and scanning needs.\n\nCheck whether fax is a genuine requirement for your specific situation before treating its presence as a meaningful selling point, and consider a fax-free model if it isn't."
   },
   {
-    criterion: "Infrequent printing favors laser or ink-tank over cartridge inkjet",
-    explanation:
-      "Cartridge-based inkjet printers can have ink dry out in the print head after weeks without use, which shows up as streaky or missing colors on the next print job. If your home office prints sporadically, a laser printer's toner or an ink-tank system tolerates the gaps better.",
-  },
-  {
-    criterion: "The starter ink or toner cartridge isn't the real cost",
-    explanation:
-      "Both inkjet and laser budget printers commonly ship with a lower-yield starter cartridge, not the full-yield version used for the advertised cost-per-page figure. Budget for a first replacement purchase sooner than the box implies, especially on the cheapest picks in this list.",
-  },
+    "criterion": "Consider ink versus toner cost per page for your actual print volume, not just the printer's price",
+    "explanation": "An inkjet printer is typically cheaper to buy upfront but has a meaningfully higher cost per printed page than a laser printer using toner, a gap that adds up significantly over months of real use at moderate to high volume, while a laser printer costs more initially but can work out cheaper in total ownership cost if you print regularly.\n\nThis matters directly based on your actual expected volume, a low-volume occasional printer may never recoup a laser printer's higher upfront cost, while a high-volume home office likely will.\n\nCheck the manufacturer's stated or estimated cost-per-page for both ink and toner options, and weigh that against your realistic monthly print volume, not just the printer's sticker price."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -337,60 +327,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What Your Home Office Actually Needs",
-    intro:
-      "Segment first by task, occasional documents, regular scan and copy, or high-volume text, then pick within that segment.",
-    table: {
-      headers: ["Your home office does mostly", "Best pick", "Why"],
-      rows: [
-        ["Occasional documents, low volume", "Canon PIXMA TS4320", "Lowest upfront cost with a full feature set"],
-        ["Regular multi-page scanning or copying", "Canon PIXMA TR4720", "Auto document feeder saves real time weekly"],
-        ["Mostly text, invoices, forms", "Canon imageCLASS LBP6030w", "Lowest cost per page for monochrome text"],
-        ["Regular printing at meaningful volume", "Epson EcoTank ET-2800", "Lowest 2-year total cost among these 7 picks"],
-        ["First home office setup, want simplicity", "HP DeskJet 4355", "Straightforward setup, low pressure"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Canon PIXMA TS4320 Wireless Color Inkjet Printer"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Canon PIXMA TS4320 Wireless Color Inkjet Printer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "2-Year Total Cost of Ownership Comparison",
-    intro:
-      "Sticker price alone is misleading, here's how the category-level cost pattern plays out for a home office printing a moderate, regular volume over 2 years.",
-    table: {
-      headers: ["Printer type", "Upfront cost pattern", "2-year cost pattern"],
-      rows: [
-        ["Cartridge inkjet (TS4320, TR4720, DeskJet 4355, TS6520)", "Lowest, $64 to $74", "Rises fastest with regular volume due to cartridge replacement frequency"],
-        ["Monochrome laser (LBP6030w, HL-L2405W)", "Moderate, $88 to $140", "Lowest cost per page for text-only printing"],
-        ["Ink-tank (EcoTank ET-2800)", "Highest, $199.99", "Lowest overall cost once volume is regular enough to reach the break-even point"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
-    note: "If you're not sure how much you'll print, start with a cartridge inkjet like the TS4320, the low upfront cost limits your downside if your usage stays light.",
+      "rows": [
+        [
+          "Under $64",
+          "Canon PIXMA TS4320 Wireless Color Inkjet Printer"
+        ],
+        [
+          "Up to $200",
+          "Epson EcoTank ET"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Ink-Tank vs Cartridge Break-Even",
-    cards: [
+    "subheading": "Duplex vs Simplex Printing",
+    "cards": [
       {
-        label: "Light, occasional printing",
-        text: "A cartridge inkjet like the Canon PIXMA TS4320 keeps upfront cost lowest, the ink-tank premium isn't worth it if you're not printing enough to reach the break-even point.",
+        "label": "Duplex (auto two-sided)",
+        "text": "Prints both sides automatically, saves paper and time for double-sided documents. In this comparison: Canon PIXMA TS4320 Wireless Color Inkjet Printer, Canon PIXMA TS6520 Wireless Color Inkjet Printer, Canon imageCLASS LBP6030w Monochrome Laser Printer."
       },
       {
-        label: "Regular weekly or daily printing",
-        text: "The Epson EcoTank ET-2800's higher upfront price is offset within a year or two of regular volume by its much lower cost per page from refill bottles versus cartridges.",
-      },
+        "label": "Simplex only",
+        "text": "Usually cheaper, fine if you rarely need double-sided printing. In this comparison: Canon PIXMA TR4720 All, HP DeskJet 4355 Wireless All, Brother HL, Epson EcoTank ET."
+      }
     ],
+    "note": "Default to duplex unless you're confident your printing is mostly single-sided."
   },
   {
-    subheading: "Feature Checklist by Price Point",
-    intro:
-      "Duplex, auto document feeder, and scan or copy aren't consistent across this price tier, check the specific model rather than assuming a feature is included.",
-    table: {
-      headers: ["Feature", "Included on", "Missing on"],
-      rows: [
-        ["Automatic duplex printing", "Canon PIXMA TS4320, TS6520, EcoTank ET-2800", "TR4720, LBP6030w, HL-L2405W, DeskJet 4355"],
-        ["Auto document feeder", "Canon PIXMA TR4720", "All other picks in this list"],
-        ["Scan and copy", "TS4320, TR4720, DeskJet 4355, TS6520, EcoTank ET-2800", "LBP6030w, HL-L2405W (print only)"],
-      ],
-    },
+    "subheading": "By Scan Resolution",
+    "note": "Check each pick's listed optical scan resolution in DPI against how you'll actually use scanning before buying, not just print specs. Canon PIXMA TS4320 Wireless Color Inkjet Printer is the most-reviewed option here if you want the safer bet."
   },
+  {
+    "subheading": "For Scanning Contracts or Receipts Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A disclosed optical scan resolution in DPI high enough to keep fine print legible, not just the printer's overall feature list."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Canon PIXMA TS4320 Wireless Color Inkjet Printer is worth checking against its listed scan resolution before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You print regularly at moderate to high volume, where Epson EcoTank ET's duty cycle and cost-per-page give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only print occasionally at low volume, where Canon PIXMA TS4320 Wireless Color Inkjet Printer covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

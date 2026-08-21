@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/418KMpgzGBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CT8ZJ7ZC?tag=deskfinds0d-20",
     description:
-      "The OfficeJet Pro 8125e confirms both duplex printing and an ADF in its listing, meaning it handles two-sided output automatically without a manual flip. Expect the real-world duplex speed to run notably slower than the single-sided rated speed, the printer pauses to flip each sheet internally before printing the second side.\n\nA 3-month Instant Ink trial helps offset ink cost on a printer built for steadier home-office use than the budget picks in this list. If paper savings from duplex printing matter to you, this is a straightforward, confirmed choice.",
+      "The OfficeJet Pro 8125e confirms both duplex printing and an ADF in its listing, meaning it handles two-sided output automatically without a manual flip. Expect the real-world duplex speed to run notably slower than the single-sided rated speed, the printer pauses to flip each sheet internally before printing the second side.\n\nA 3-month Instant Ink trial helps offset ink cost on a printer built for steadier home-office use than the budget picks in this list. If paper savings from duplex printing matter to you, this is a straightforward, confirmed choice.\n\nADF included for document scanning too. That's a real strength, but weigh it against the flip side: duplex mode runs slower than single-sided rated speed.",
     specs: [
       "Confirmed duplex printing",
       "Automatic document feeder",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21igSrZPOwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBGXC2C?tag=deskfinds0d-20",
     description:
-      "Canon markets the TS4320 specifically for duplex printing in its listing title, the lowest-priced confirmed duplex pick in this list. A compact single-tray design keeps daily two-sided printing simple without extra trays to manage.\n\nStandard weight paper is the safe zone for the duplex mechanism, thicker cardstock generally can't go through the auto duplex path and needs a manual single-sided print instead. For a home office wanting confirmed duplex on a budget, this is the clearest low-cost match.",
+      "Canon markets the TS4320 specifically for duplex printing in its listing title, the lowest-priced confirmed duplex pick in this list. A compact single-tray design keeps daily two-sided printing simple without extra trays to manage.\n\nStandard weight paper is the safe zone for the duplex mechanism, thicker cardstock generally can't go through the auto duplex path and needs a manual single-sided print instead. For a home office wanting confirmed duplex on a budget, this is the clearest low-cost match.\n\nWorth calling out specifically: duplex printing explicitly named in the listing. The catch is no automatic document feeder.",
     specs: [
       "Confirmed duplex printing",
       "Copier/scanner built in",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21U5jLy1DeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBTJLX6?tag=deskfinds0d-20",
     description:
-      "The TS6520 confirms duplex printing in its listing alongside a 1.42-inch OLED display that makes print status easier to follow, useful since duplex jobs take longer and benefit from clear on-screen feedback about progress. Built-in scan and copy round out the feature set.\n\nLike the TS4320, this uses a standard-weight paper path for duplex, so thicker stock should be printed single-sided instead. The display is the main differentiator over the cheaper TS4320 for buyers who want more visibility into what the printer is doing.",
+      "The TS6520 confirms duplex printing in its listing alongside a 1.42-inch OLED display that makes print status easier to follow, useful since duplex jobs take longer and benefit from clear on-screen feedback about progress. Built-in scan and copy round out the feature set.\n\nLike the TS4320, this uses a standard-weight paper path for duplex, so thicker stock should be printed single-sided instead. The display is the main differentiator over the cheaper TS4320 for buyers who want more visibility into what the printer is doing.\n\nOLED display shows clear print status. Set against that, no automatic document feeder. Both matter when comparing it to the other picks here.",
     specs: [
       "Confirmed duplex printing",
       "1.42-inch OLED display",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Pb1fcUXbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPLFTPCV?tag=deskfinds0d-20",
     description:
-      "This is the only confirmed duplex laser printer in this list, its listing explicitly names duplex printing alongside copy and scan. Laser duplex mechanisms tend to handle sustained two-sided printing more reliably at volume than inkjet duplex paths.\n\nAs a monochrome-only printer, it's built for text-heavy home office documents rather than color output. A Refresh Subscription toner trial is included, and it works with Alexa for voice-triggered print jobs.",
+      "This is the only confirmed duplex laser printer in this list, its listing explicitly names duplex printing alongside copy and scan. Laser duplex mechanisms tend to handle sustained two-sided printing more reliably at volume than inkjet duplex paths.\n\nAs a monochrome-only printer, it's built for text-heavy home office documents rather than color output. A Refresh Subscription toner trial is included, and it works with Alexa for voice-triggered print jobs.\n\nA genuine advantage here is that laser reliability for sustained two-sided text volume. The tradeoff is monochrome only, no color printing.",
     specs: [
       "Confirmed duplex printing",
       "Compact monochrome laser printer",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41MuruhvCqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GPFHCYK7?tag=deskfinds0d-20",
     description:
-      "The standard OfficeJet Pro 8125 shares the confirmed duplex printing and ADF combination of the 8125e above at a similar price point. A 3-month Instant Ink trial is included, and it's built for consistent home-office print volume rather than occasional use.\n\nExpect the same real-world duplex speed penalty as any two-sided printing on this platform, the printer pauses to flip each sheet, so budget more time for a large duplex job than the single-sided rated speed suggests.",
+      "The standard OfficeJet Pro 8125 shares the confirmed duplex printing and ADF combination of the 8125e above at a similar price point. A 3-month Instant Ink trial is included, and it's built for consistent home-office print volume rather than occasional use.\n\nExpect the same real-world duplex speed penalty as any two-sided printing on this platform, the printer pauses to flip each sheet, so budget more time for a large duplex job than the single-sided rated speed suggests.\n\nADF included for document scanning too. That's a real strength, but weigh it against the flip side: duplex mode runs slower than single-sided rated speed.",
     specs: [
       "Confirmed duplex printing",
       "Automatic document feeder",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/319DqCyLa3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09TRZLPXP?tag=deskfinds0d-20",
     description:
-      "The TR8620a's listing highlights its ADF, AirPrint support, and Alexa compatibility, but it does not explicitly state duplex printing in the title. It includes plenty else worth considering, photo printing quality, fax, and voice-triggered printing, but if automatic two-sided printing is your specific requirement, verify that spec directly on the product page before buying.\n\nWe're including it here as a secondary option given how strong its other features are for a home office, not as a confirmed duplex pick on par with the models above.",
+      "The TR8620a's listing highlights its ADF, AirPrint support, and Alexa compatibility, but it does not explicitly state duplex printing in the title. It includes plenty else worth considering, photo printing quality, fax, and voice-triggered printing, but if automatic two-sided printing is your specific requirement, verify that spec directly on the product page before buying.\n\nWe're including it here as a secondary option given how strong its other features are for a home office, not as a confirmed duplex pick on par with the models above.\n\nWorth calling out specifically: automatic document feeder included. The catch is duplex printing not explicitly confirmed, verify before buying if required.",
     specs: [
       "Automatic document feeder",
       "AirPrint and Android compatible",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31C067ZosFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FGCCWV6T?tag=deskfinds0d-20",
     description:
-      "This Brother INKvestment model's listing emphasizes its 1.8-inch color display and manual feed slot for envelopes and cardstock, but doesn't explicitly confirm duplex printing in the title. Its ink-tank system and Refresh Subscription trial are solid features on their own.\n\nWe're including it as a secondary alternative given its manual feed slot flexibility, not as a confirmed duplex pick. If two-sided printing is a must-have, verify this specific spec on the full product listing before purchasing.",
+      "This Brother INKvestment model's listing emphasizes its 1.8-inch color display and manual feed slot for envelopes and cardstock, but doesn't explicitly confirm duplex printing in the title. Its ink-tank system and Refresh Subscription trial are solid features on their own.\n\nWe're including it as a secondary alternative given its manual feed slot flexibility, not as a confirmed duplex pick. If two-sided printing is a must-have, verify this specific spec on the full product listing before purchasing.\n\nInk-tank system reduces per-page cost over time. Set against that, duplex printing not explicitly confirmed, verify before buying if required. Both matter when comparing it to the other picks here.",
     specs: [
       "1.8-inch color display",
       "Manual feed slot for envelopes and cardstock",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41wQemMt6wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTN9ZGRS?tag=deskfinds0d-20",
     description:
-      "This model's listing confirms automatic 2-sided copy and scan with a 2.7-inch color touchscreen, a genuinely useful feature for double-sided documents. It's worth noting that duplex printing and duplex scanning are different capabilities, and the title here specifically confirms the scan and copy side rather than stating duplex printing outright.\n\nIf duplex printing specifically is your requirement, confirm that spec on the full product page rather than assuming it from the 2-sided copy and scan claim alone. The confirmed duplex scan and copy feature on its own is still a real time-saver for double-sided paperwork.",
+      "This model's listing confirms automatic 2-sided copy and scan with a 2.7-inch color touchscreen, a genuinely useful feature for double-sided documents. It's worth noting that duplex printing and duplex scanning are different capabilities, and the title here specifically confirms the scan and copy side rather than stating duplex printing outright.\n\nIf duplex printing specifically is your requirement, confirm that spec on the full product page rather than assuming it from the 2-sided copy and scan claim alone. The confirmed duplex scan and copy feature on its own is still a real time-saver for double-sided paperwork.\n\nA genuine advantage here is that color touchscreen for easier navigation. The tradeoff is duplex printing specifically not confirmed separately from duplex scan and copy.",
     specs: [
       "Confirmed automatic 2-sided copy and scan",
       "2.7-inch color touchscreen",
@@ -328,40 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "The duplex speed penalty is real, budget extra time",
-    explanation:
-      "Flipping the page internally for two-sided printing adds roughly 5 to 10 seconds per sheet, so a printer rated at 20 pages per minute single-sided often runs closer to 10 pages per minute effective in duplex mode. For a large print job, factor this into how much time you actually need, not the single-sided rated speed.",
+    "criterion": "Understand duty cycle as a maximum ceiling, not a healthy day-to-day volume",
+    "explanation": "A printer's rated duty cycle is the absolute maximum number of pages it can print in a month before risking premature wear, not a figure representing comfortable, sustained daily use, printing consistently near that ceiling month after month accelerates wear on the print mechanism well beyond what the same printer would experience at a more moderate, realistic volume.\n\nThis matters because buying a printer rated just barely above your expected monthly volume often means running it closer to its stress limit than its comfortable operating range.\n\nCheck the listed duty cycle figure, and target a printer rated at 3 to 5 times your actual expected monthly volume for genuinely comfortable long-term use, not a printer rated just above what you think you'll print."
   },
   {
-    criterion: "Duplex printing and duplex scanning are different features",
-    explanation:
-      "A printer can have confirmed duplex print support while its ADF only scans one side per pass, requiring a manual flip for the second side of a document, or vice versa. Check both specs independently rather than assuming one implies the other, as we've flagged where a listing confirms one but not the other in this guide.",
+    "criterion": "Match multi-user wifi sharing to how many people will actually print from it",
+    "explanation": "A printer's wireless sharing capability varies in real-world reliability between models, some handle multiple simultaneous connection requests from different devices smoothly, while others can drop connections or queue print jobs unreliably when more than one person tries to print around the same time.\n\nThis matters directly for a shared home office or household with multiple people printing throughout the day, less for a single dedicated user.\n\nCheck reviews specifically for mentions of multi-device wifi reliability, not just whether wireless printing is listed as a supported feature, since the feature existing and working reliably under real multi-user load aren't the same thing."
   },
   {
-    criterion: "Thick paper often can't go through the duplex path",
-    explanation:
-      "The automatic duplex mechanism on most inkjet and laser printers is built for standard weight paper, roughly 20 to 24 lb. Cardstock and heavier stock frequently can't go through the auto duplex path and need manual single-sided printing instead, check your printer's specific paper weight limit before attempting a duplex job on heavier stock.",
+    "criterion": "Check scan resolution against what you're actually digitizing, not just print quality",
+    "explanation": "Print quality specs get most of the attention in printer listings, but scan resolution, measured in DPI, determines whether a scanned document stays genuinely readable when zoomed in or printed again later, and this spec is often buried or only briefly mentioned compared to print specs.\n\nThis matters more if you regularly scan contracts, receipts, or other documents where legibility of fine print matters, less if scanning is an occasional, low-stakes task.\n\nCheck the listed optical scan resolution in DPI specifically, not just the printer's overall feature list, if document scanning is a real part of your workflow."
   },
   {
-    criterion: "Thin or colored paper can show through during duplex printing",
-    explanation:
-      "Thinner paper is more transparent, so text or images on one side can faintly show through on the other during duplex printing, more noticeable on recycled or colored paper stock than standard bright white copier paper. If show-through bothers you, use a slightly heavier paper weight for duplex jobs.",
+    "criterion": "Weigh whether legacy features like fax are worth paying for in a 2026 home office",
+    "explanation": "Many home-office printers still bundle a fax feature as a holdover from an earlier era, adding to the printer's cost and complexity even though most home offices in 2026 will genuinely never use it, having largely moved to email and digital document sharing entirely.\n\nThis matters for value, paying for a feature you'll never touch is a real, if often overlooked, inefficiency when a fax-free model at a lower price covers the same core printing and scanning needs.\n\nCheck whether fax is a genuine requirement for your specific situation before treating its presence as a meaningful selling point, and consider a fax-free model if it isn't."
   },
   {
-    criterion: "The real dollar savings from duplex printing are modest",
-    explanation:
-      "At typical home-office volume, roughly a few hundred pages a month, switching to duplex printing saves somewhere around $10 a year in paper cost. It's a genuine and easy saving, but don't expect it to meaningfully offset ink or toner costs, the bigger value is convenience and reduced paper handling for larger documents.",
-  },
-  {
-    criterion: "Don't assume an all-in-one printer includes duplex printing",
-    explanation:
-      "Duplex printing is a specific, separately listed feature, not a given on every all-in-one or multifunction printer. Confirm it's explicitly stated in the listing or spec sheet before buying if it's a requirement, several capable printers in this list don't confirm it and are included here only as secondary alternatives.",
-  },
-  {
-    criterion: "Laser duplex tends to hold up better at sustained volume than inkjet",
-    explanation:
-      "For a home office printing two-sided documents consistently at real volume, a laser printer's duplex mechanism generally handles the sustained mechanical demand more reliably over time than an inkjet's duplex path. If your duplex printing is occasional, this difference matters much less.",
-  },
+    "criterion": "Consider ink versus toner cost per page for your actual print volume, not just the printer's price",
+    "explanation": "An inkjet printer is typically cheaper to buy upfront but has a meaningfully higher cost per printed page than a laser printer using toner, a gap that adds up significantly over months of real use at moderate to high volume, while a laser printer costs more initially but can work out cheaper in total ownership cost if you print regularly.\n\nThis matters directly based on your actual expected volume, a low-volume occasional printer may never recoup a laser printer's higher upfront cost, while a high-volume home office likely will.\n\nCheck the manufacturer's stated or estimated cost-per-page for both ink and toner options, and weigh that against your realistic monthly print volume, not just the printer's sticker price."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -374,71 +359,102 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Confirmed Duplex Print vs. Unconfirmed, by Pick",
-    intro:
-      "Don't assume, check which picks actually confirm duplex printing in their listing.",
-    table: {
-      headers: ["Pick", "Duplex printing status", "Recommendation"],
-      rows: [
-        ["HP OfficeJet Pro 8125e", "Confirmed", "Safe choice if duplex print is a must-have"],
-        ["Canon PIXMA TS4320", "Confirmed", "Best budget confirmed duplex option"],
-        ["Canon PIXMA TS6520", "Confirmed", "Confirmed duplex with clearer display"],
-        ["Brother DCP-L2640DW", "Confirmed", "Confirmed duplex, laser reliability"],
-        ["HP OfficeJet Pro 8125", "Confirmed", "Confirmed duplex at competitive price"],
-        ["Canon PIXMA TR8620a", "Not confirmed", "Verify before buying if duplex print is required"],
-        ["Brother INKvestment 4355", "Not confirmed", "Verify before buying if duplex print is required"],
-        ["Brother INKvestment 5010", "Duplex scan/copy confirmed, print not separately confirmed", "Verify duplex print spec specifically"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "HP OfficeJet Pro 8125e Wireless All"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "HP OfficeJet Pro 8125e Wireless All"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Duplex Print Support vs. Duplex Scan Support",
-    intro:
-      "These are genuinely different features, don't assume one means you have the other.",
-    table: {
-      headers: ["Pick", "Duplex print", "Duplex scan/copy"],
-      rows: [
-        ["HP OfficeJet Pro 8125e / 8125", "Confirmed", "Not separately confirmed"],
-        ["Canon PIXMA TS4320 / TS6520", "Confirmed", "Not applicable, no ADF"],
-        ["Brother DCP-L2640DW", "Confirmed", "Not separately confirmed"],
-        ["Brother INKvestment 5010", "Not separately confirmed", "Confirmed"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
-    note: "If you need both duplex printing and duplex scanning confirmed together, check the full product spec sheet directly, none of the picks here explicitly confirm both in their listing titles.",
+      "rows": [
+        [
+          "Under $64",
+          "Canon PIXMA TS4320 Wireless Color Inkjet Printer for Duplex Printing"
+        ],
+        [
+          "Up to $250",
+          "Brother INKvestment 5010 Wireless Color Inkjet All"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Paper Weight Limit for the Duplex Path",
-    cards: [
+    "subheading": "Color vs Monochrome",
+    "cards": [
       {
-        label: "Standard weight paper, 20-24 lb",
-        text: "Safe for the automatic duplex path on every confirmed pick in this list.",
+        "label": "Color",
+        "text": "Handles graphics and color documents, worth it if you regularly print more than plain text. In this comparison: Canon PIXMA TS4320 Wireless Color Inkjet Printer for Duplex Printing, Canon PIXMA TS6520 Wireless Color Inkjet Printer with Duplex Printing, Brother INKvestment 4355 Wireless Color Inkjet All, Brother INKvestment 5010 Wireless Color Inkjet All."
       },
       {
-        label: "Cardstock and heavier stock",
-        text: "Generally cannot go through the auto duplex mechanism, print single-sided instead and flip manually if needed.",
-      },
+        "label": "Monochrome",
+        "text": "Usually cheaper to buy and run, fine if you mostly print plain text documents. In this comparison: HP OfficeJet Pro 8125e Wireless All, Brother DCP, HP OfficeJet Pro 8125 Wireless All, Canon PIXMA TR8620a All."
+      }
     ],
+    "note": "Default to monochrome for text-heavy home office use unless color output genuinely matters."
   },
   {
-    subheading: "Show-Through Concern for Thin or Colored Paper",
-    intro:
-      "Duplex printing on thin or colored paper can let content bleed through faintly to the other side.",
-    note: "Use a slightly heavier bright-white paper stock for duplex jobs where show-through would be a problem, like double-sided reports meant for external readers.",
-  },
-  {
-    subheading: "Annual Dollar Savings from Duplex Printing",
-    intro:
-      "Modest but real savings, worth doing, not worth over-promising.",
-    table: {
-      headers: ["Monthly page volume", "Approximate annual paper savings from duplex"],
-      rows: [
-        ["100 pages/month", "Roughly $2-3/year"],
-        ["300 pages/month", "Roughly $7-8/year"],
-        ["500+ pages/month", "Roughly $10+/year"],
+    "subheading": "By Wireless Sharing",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "The bigger value of duplex printing is convenience and reduced bulk on larger documents, not dramatic cost savings, especially given the speed penalty duplex mode adds.",
+      "rows": [
+        [
+          "Multi-device wifi sharing",
+          "HP OfficeJet Pro 8125e Wireless All"
+        ],
+        [
+          "Single wired connection is fine",
+          "Canon PIXMA TR8620a All"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For Scanning Contracts or Receipts Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A disclosed optical scan resolution in DPI high enough to keep fine print legible, not just the printer's overall feature list."
+      },
+      {
+        "label": "In this comparison",
+        "text": "HP OfficeJet Pro 8125e Wireless All is worth checking against its listed scan resolution before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You print regularly at moderate to high volume, where Brother INKvestment 5010 Wireless Color Inkjet All's duty cycle and cost-per-page give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only print occasionally at low volume, where Canon PIXMA TS4320 Wireless Color Inkjet Printer for Duplex Printing covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

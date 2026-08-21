@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "As an inkjet, the DeskJet 4355 relies on a carriage motor moving the print head back and forth rather than a laser printer's fuser and drum assembly, which generally means a steadier, lower hum during a print job rather than a louder mechanical burst. That mechanism alone makes it a reasonable default for a desk near a video call setup.\n\nAt under $70 it's also one of the cheapest picks here, so buyers get quieter-mechanism printing without paying a premium. The trade-off is a smaller print job at a time, an inkjet head passing over the page multiple times takes longer than a laser page coming out in one pass.",
+      "As an inkjet, the DeskJet 4355 relies on a carriage motor moving the print head back and forth rather than a laser printer's fuser and drum assembly, which generally means a steadier, lower hum during a print job rather than a louder mechanical burst. That mechanism alone makes it a reasonable default for a desk near a video call setup.\n\nAt under $70 it's also one of the cheapest picks here, so buyers get quieter-mechanism printing without paying a premium. The trade-off is a smaller print job at a time, an inkjet head passing over the page multiple times takes longer than a laser page coming out in one pass.\n\nAffordable price for the mechanism type. That's a real strength, but weigh it against the flip side: slower per-page speed than a laser printer.",
     specs: [
       "Color inkjet all-in-one: print, scan, copy",
       "Carriage-motor print mechanism",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415PuxvZ1wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXKNB9?tag=deskfinds0d-20",
     description:
-      "Like other inkjets in this list, the PIXMA TR4720 uses a carriage-motor mechanism that runs steadier during a print job than a laser printer's fuser warm-up cycle. Its automatic document feeder is a genuine advantage for a quiet office that scans multi-page documents, it avoids the repeated lid-opening and manual repositioning a flatbed-only scanner requires.\n\nBuilt-in fax is a legacy feature that doesn't add operating noise since it's rarely used. Mobile printing setup follows a short guided process, useful for a home office managing print jobs from a phone during a call.",
+      "Like other inkjets in this list, the PIXMA TR4720 uses a carriage-motor mechanism that runs steadier during a print job than a laser printer's fuser warm-up cycle. Its automatic document feeder is a genuine advantage for a quiet office that scans multi-page documents, it avoids the repeated lid-opening and manual repositioning a flatbed-only scanner requires.\n\nBuilt-in fax is a legacy feature that doesn't add operating noise since it's rarely used. Mobile printing setup follows a short guided process, useful for a home office managing print jobs from a phone during a call.\n\nWorth calling out specifically: automatic document feeder for quieter multi-page scanning. The catch is cartridge-based ink costs more at higher volume.",
     specs: [
       "Color inkjet all-in-one with auto document feeder",
       "Carriage-motor print mechanism",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41LqmhjzXHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FGC43YCL?tag=deskfinds0d-20",
     description:
-      "The MFC-J1360DW pairs an inkjet's steadier carriage-motor hum with automatic duplex printing, useful for a quiet office that wants double-sided documents without the extra noise and time of manually flipping pages mid-job. A 1.8-inch color display shows plain status information rather than requiring you to interpret indicator lights.\n\nThe included Refresh Subscription trial lets you test automatic ink reordering before committing. As with any inkjet, expect the print head to run for the full duration of a job rather than the shorter burst of a laser engine finishing a page.",
+      "The MFC-J1360DW pairs an inkjet's steadier carriage-motor hum with automatic duplex printing, useful for a quiet office that wants double-sided documents without the extra noise and time of manually flipping pages mid-job. A 1.8-inch color display shows plain status information rather than requiring you to interpret indicator lights.\n\nThe included Refresh Subscription trial lets you test automatic ink reordering before committing. As with any inkjet, expect the print head to run for the full duration of a job rather than the shorter burst of a laser engine finishing a page.\n\nAutomatic duplex printing built in. Set against that, higher price than the basic inkjet picks in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "Color inkjet all-in-one with automatic duplex",
       "1.8-inch color display",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31eKmxnpbkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B096N8DN2H?tag=deskfinds0d-20",
     description:
-      "As an ink-tank printer, the ET-2800 uses the same general carriage-motor print mechanism as a cartridge inkjet, so its in-use operating character is similarly steadier than a laser printer's burst noise pattern, without cartridge-swap clicks interrupting a session as often. Scan and copy are built in alongside color printing.\n\nThe ink-tank system also means fewer interruptions overall for a quiet office, refills happen far less often than cartridge swaps, so there are fewer moments of opening the printer and handling components mid-workday.",
+      "As an ink-tank printer, the ET-2800 uses the same general carriage-motor print mechanism as a cartridge inkjet, so its in-use operating character is similarly steadier than a laser printer's burst noise pattern, without cartridge-swap clicks interrupting a session as often. Scan and copy are built in alongside color printing.\n\nThe ink-tank system also means fewer interruptions overall for a quiet office, refills happen far less often than cartridge swaps, so there are fewer moments of opening the printer and handling components mid-workday.\n\nA genuine advantage here is that fewer interruptions from cartridge swaps. The tradeoff is highest upfront price of the inkjet picks in this list.",
     specs: [
       "Color inkjet all-in-one, cartridge-free ink tank",
       "Carriage-motor print mechanism",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31G4p897b8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09P45LR5T?tag=deskfinds0d-20",
     description:
-      "The ET-4800 adds an automatic document feeder and Ethernet connectivity on top of the same steadier ink-tank print mechanism as the ET-2800, useful for a shared quiet office scanning multi-page documents regularly. Fax is included as a legacy feature.\n\nEthernet gives a wired networking option for an office that wants a more stable connection than wireless without adding operating noise, since a wired connection doesn't affect the printer's own mechanical sound during a print job.",
+      "The ET-4800 adds an automatic document feeder and Ethernet connectivity on top of the same steadier ink-tank print mechanism as the ET-2800, useful for a shared quiet office scanning multi-page documents regularly. Fax is included as a legacy feature.\n\nEthernet gives a wired networking option for an office that wants a more stable connection than wireless without adding operating noise, since a wired connection doesn't affect the printer's own mechanical sound during a print job.\n\nAutomatic document feeder for quieter multi-page scanning. That's a real strength, but weigh it against the flip side: highest price in this list alongside the ET-2800.",
     specs: [
       "Color inkjet all-in-one, cartridge-free ink tank",
       "Automatic document feeder",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Pb1fcUXbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPLFTPCV?tag=deskfinds0d-20",
     description:
-      "Laser printers like the DCP-L2640DW sit silent between jobs, then produce a noticeably louder short burst as the fuser warms up and the drum begins rotating, a different noise pattern than an inkjet's steady hum rather than simply louder or quieter overall. For a home office where the printer runs occasionally rather than continuously, that burst-then-silence pattern can actually interrupt a call less often than a longer inkjet job.\n\nDuplex printing, scan, and copy are all included, and pages come out faster once the fuser is warmed up, meaning the noisy portion of the job is shorter in total duration even if louder in the moment.",
+      "Laser printers like the DCP-L2640DW sit silent between jobs, then produce a noticeably louder short burst as the fuser warms up and the drum begins rotating, a different noise pattern than an inkjet's steady hum rather than simply louder or quieter overall. For a home office where the printer runs occasionally rather than continuously, that burst-then-silence pattern can actually interrupt a call less often than a longer inkjet job.\n\nDuplex printing, scan, and copy are all included, and pages come out faster once the fuser is warmed up, meaning the noisy portion of the job is shorter in total duration even if louder in the moment.\n\nWorth calling out specifically: silent between print jobs. The catch is louder burst noise during fuser warm-up than a steady inkjet hum.",
     specs: [
       "Monochrome laser with copy, scan, and duplex",
       "Wireless and mobile printing",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/311SOXNvLIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFCYYZLM?tag=deskfinds0d-20",
     description:
-      "The HL-L3220CDW is the only color laser pick in this list, and it shares the same fuser warm-up and drum rotation noise pattern as monochrome laser printers, a short, louder mechanical burst rather than a steady hum, with silence between jobs. A 250-sheet paper tray reduces how often the tray needs reloading, which itself is a source of noise and interruption.\n\nAutomatic duplex printing is built in, and the 19 PPM rated output means the louder burst portion of a job wraps up relatively quickly for routine document volume.",
+      "The HL-L3220CDW is the only color laser pick in this list, and it shares the same fuser warm-up and drum rotation noise pattern as monochrome laser printers, a short, louder mechanical burst rather than a steady hum, with silence between jobs. A 250-sheet paper tray reduces how often the tray needs reloading, which itself is a source of noise and interruption.\n\nAutomatic duplex printing is built in, and the 19 PPM rated output means the louder burst portion of a job wraps up relatively quickly for routine document volume.\n\nOnly color laser pick in this list. Set against that, most expensive pick in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "Color laser with automatic duplex",
       "19 PPM rated output",
@@ -296,35 +296,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Ignore unverified decibel claims, ask about the mechanism instead",
-    explanation:
-      "Manufacturers rarely publish standardized decibel ratings, and when they do, testing conditions aren't consistent between brands, so a bare dB number without context can be misleading. Ask instead whether a printer is inkjet or laser, since the underlying mechanism tells you more about the actual noise character than an unverifiable spec.",
+    "criterion": "Understand duty cycle as a maximum ceiling, not a healthy day-to-day volume",
+    "explanation": "A printer's rated duty cycle is the absolute maximum number of pages it can print in a month before risking premature wear, not a figure representing comfortable, sustained daily use, printing consistently near that ceiling month after month accelerates wear on the print mechanism well beyond what the same printer would experience at a more moderate, realistic volume.\n\nThis matters because buying a printer rated just barely above your expected monthly volume often means running it closer to its stress limit than its comfortable operating range.\n\nCheck the listed duty cycle figure, and target a printer rated at 3 to 5 times your actual expected monthly volume for genuinely comfortable long-term use, not a printer rated just above what you think you'll print."
   },
   {
-    criterion: "Laser isn't automatically quieter than inkjet, it's a different pattern",
-    explanation:
-      "Laser printers sit silent between jobs but produce a louder short burst during fuser warm-up and drum rotation, while inkjet printers like the HP DeskJet 4355 run a steadier, lower hum for the full duration of a job. Which pattern bothers you less during a video call is a personal judgment, not a universal ranking.",
+    "criterion": "Match multi-user wifi sharing to how many people will actually print from it",
+    "explanation": "A printer's wireless sharing capability varies in real-world reliability between models, some handle multiple simultaneous connection requests from different devices smoothly, while others can drop connections or queue print jobs unreliably when more than one person tries to print around the same time.\n\nThis matters directly for a shared home office or household with multiple people printing throughout the day, less for a single dedicated user.\n\nCheck reviews specifically for mentions of multi-device wifi reliability, not just whether wireless printing is listed as a supported feature, since the feature existing and working reliably under real multi-user load aren't the same thing."
   },
   {
-    criterion: "Shorter total job duration can matter more than peak loudness",
-    explanation:
-      "A laser printer's burst noise is louder in the moment but often finishes faster per page than an inkjet, so the total noisy interruption during a call can be shorter even if the peak sound is more noticeable. Consider how long a typical print job actually runs, not just how loud it sounds at its peak.",
+    "criterion": "Check scan resolution against what you're actually digitizing, not just print quality",
+    "explanation": "Print quality specs get most of the attention in printer listings, but scan resolution, measured in DPI, determines whether a scanned document stays genuinely readable when zoomed in or printed again later, and this spec is often buried or only briefly mentioned compared to print specs.\n\nThis matters more if you regularly scan contracts, receipts, or other documents where legibility of fine print matters, less if scanning is an occasional, low-stakes task.\n\nCheck the listed optical scan resolution in DPI specifically, not just the printer's overall feature list, if document scanning is a real part of your workflow."
   },
   {
-    criterion: "Fewer maintenance interruptions reduce mid-day noise, not just print noise",
-    explanation:
-      "An ink-tank printer like the Epson EcoTank ET-2800 needs refilling far less often than a cartridge printer needs cartridge swaps, which means fewer moments of opening the printer and handling parts during a workday. If minimizing all interruptions matters, not just print sound, factor in maintenance frequency too.",
+    "criterion": "Weigh whether legacy features like fax are worth paying for in a 2026 home office",
+    "explanation": "Many home-office printers still bundle a fax feature as a holdover from an earlier era, adding to the printer's cost and complexity even though most home offices in 2026 will genuinely never use it, having largely moved to email and digital document sharing entirely.\n\nThis matters for value, paying for a feature you'll never touch is a real, if often overlooked, inefficiency when a fax-free model at a lower price covers the same core printing and scanning needs.\n\nCheck whether fax is a genuine requirement for your specific situation before treating its presence as a meaningful selling point, and consider a fax-free model if it isn't."
   },
   {
-    criterion: "An automatic document feeder reduces repeated scanning noise and motion",
-    explanation:
-      "Scanning a multi-page document on a flatbed scanner means repeatedly lifting the lid and repositioning pages, each a small interruption. A printer with an auto document feeder, like the Canon PIXMA TR4720 or Epson EcoTank ET-4800, handles multi-page scans in one continuous pass.",
-  },
-  {
-    criterion: "Placement away from your immediate workspace helps more than any spec",
-    explanation:
-      "Any printer sounds quieter from across the room than sitting directly beside your microphone. If a wireless model allows it, placing the printer on a shelf or in another room during calls does more for perceived noise than choosing between two similarly specced models.",
-  },
+    "criterion": "Consider ink versus toner cost per page for your actual print volume, not just the printer's price",
+    "explanation": "An inkjet printer is typically cheaper to buy upfront but has a meaningfully higher cost per printed page than a laser printer using toner, a gap that adds up significantly over months of real use at moderate to high volume, while a laser printer costs more initially but can work out cheaper in total ownership cost if you print regularly.\n\nThis matters directly based on your actual expected volume, a low-volume occasional printer may never recoup a laser printer's higher upfront cost, while a high-volume home office likely will.\n\nCheck the manufacturer's stated or estimated cost-per-page for both ink and toner options, and weigh that against your realistic monthly print volume, not just the printer's sticker price."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -337,77 +327,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Print Mechanism and Noise Pattern",
-    intro:
-      "Inkjet and laser printers create noise differently, choose based on which pattern fits your work rhythm.",
-    table: {
-      headers: ["Noise pattern you'd prefer", "Why", "Best pick"],
-      rows: [
-        ["Steady, lower hum for the whole job", "Inkjet carriage motor", "HP DeskJet 4355"],
-        ["Short, louder burst then silence", "Laser fuser and drum", "Brother DCP-L2640DW"],
-        ["Steadier hum with fewer maintenance interruptions", "Ink-tank refills less often than cartridges", "Epson EcoTank ET-2800"],
-        ["Steady hum with faster multi-page scanning", "Auto document feeder, inkjet mechanism", "Canon PIXMA TR4720"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "HP DeskJet 4355 Wireless All"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "HP DeskJet 4355 Wireless All"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Home Office Usage Pattern",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $69",
+          "Canon PIXMA TR4720 All"
+        ],
+        [
+          "Up to $285",
+          "Brother HL"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Duplex vs Simplex Printing",
+    "cards": [
       {
-        label: "Frequent calls, occasional print jobs",
-        text: "The Brother DCP-L2640DW's laser burst-then-silence pattern means most of your call time has zero printer noise, with a short louder interruption when a job runs.",
+        "label": "Duplex (auto two-sided)",
+        "text": "Prints both sides automatically, saves paper and time for double-sided documents. In this comparison: Brother Work Smart 1360 Wireless Color Inkjet All, Brother DCP, Brother HL."
       },
       {
-        label: "Steady background printing during calls",
-        text: "The HP DeskJet 4355's inkjet hum stays lower throughout a job, which some people find less distracting than a sudden loud burst.",
-      },
-      {
-        label: "Regular volume, want fewer interruptions overall",
-        text: "The Epson EcoTank ET-2800 combines a steadier hum with far less frequent maintenance interruptions than a cartridge printer.",
-      },
+        "label": "Simplex only",
+        "text": "Usually cheaper, fine if you rarely need double-sided printing. In this comparison: HP DeskJet 4355 Wireless All, Canon PIXMA TR4720 All, Epson EcoTank ET, Epson EcoTank ET."
+      }
     ],
+    "note": "Default to duplex unless you're confident your printing is mostly single-sided."
   },
   {
-    subheading: "Duplex and Document Feeder Availability",
-    intro:
-      "These features reduce the number of separate noisy actions needed to finish a scanning or duplex printing task.",
-    table: {
-      headers: ["Feature", "Available on", "Reduces"],
-      rows: [
-        ["Automatic duplex", "Brother Work Smart 1360, Brother DCP-L2640DW, Brother HL-L3220CDW", "Manual page-flip interruptions mid-job"],
-        ["Automatic document feeder", "Canon PIXMA TR4720, Epson EcoTank ET-4800", "Repeated lid-opening during multi-page scans"],
-      ],
-    },
+    "subheading": "By Scan Resolution",
+    "note": "Check each pick's listed optical scan resolution in DPI against how you'll actually use scanning before buying, not just print specs. HP DeskJet 4355 Wireless All is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Placement Tips for a Quiet Home Office",
-    intro:
-      "How you place the printer affects perceived noise as much as the printer itself.",
-    cards: [
+    "subheading": "For Scanning Contracts or Receipts Specifically",
+    "cards": [
       {
-        label: "Wireless models",
-        text: "All 7 picks in this list support wireless connectivity, place the printer on a shelf, in a closet, or in another room to reduce how noticeable operating sound is during calls.",
+        "label": "Look for",
+        "text": "A disclosed optical scan resolution in DPI high enough to keep fine print legible, not just the printer's overall feature list."
       },
       {
-        label: "Wired networking option",
-        text: "The Epson EcoTank ET-4800 supports Ethernet, useful if you want a stable connection for a printer placed farther from your desk than Wi-Fi signal strength comfortably allows.",
-      },
-    ],
-    note: "Placement is often the single biggest lever for perceived print noise during a call, more impactful than the small differences between similarly specced models.",
+        "label": "In this comparison",
+        "text": "HP DeskJet 4355 Wireless All is worth checking against its listed scan resolution before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "When Laser's Burst Noise Is Worth It",
-    intro:
-      "For a home office that prints occasionally rather than continuously, laser's short burst pattern can interrupt calls less overall than a longer steady inkjet hum.",
-    table: {
-      headers: ["Typical print job", "Laser (burst pattern)", "Inkjet (steady hum)"],
-      rows: [
-        ["Single-page document", "Short burst, quick finish", "Shorter overall than a large multi-page job"],
-        ["Multi-page document", "Fuser stays warm, sustained but fast output", "Longer steady hum across all pages"],
-      ],
-    },
-    note: "If most of your printing is single pages between calls, a laser pick like the Brother DCP-L2640DW keeps the noisy window brief.",
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You print regularly at moderate to high volume, where Brother HL's duty cycle and cost-per-page give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only print occasionally at low volume, where Canon PIXMA TR4720 All covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

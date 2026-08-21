@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21U5jLy1DeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBTJLX6?tag=deskfinds0d-20",
     description:
-      "The PIXMA TS6520 covers the full range of what a single-person home office needs: color printing, scanning, copying, and auto duplex, all with a 1.42-inch OLED screen for quick status checks without opening a phone app. Its small footprint suits a desk corner rather than a dedicated office nook.\n\nAs a cartridge-based inkjet, standby power draw is on the lower end of what small printers use, typically 1-2 watts, and ink levels are visible right on the screen. It's built for one person's workflow rather than a shared office queue, so a busy 2-3 person setup may find its speed limiting.",
+      "The PIXMA TS6520 covers the full range of what a single-person home office needs: color printing, scanning, copying, and auto duplex, all with a 1.42-inch OLED screen for quick status checks without opening a phone app. Its small footprint suits a desk corner rather than a dedicated office nook.\n\nAs a cartridge-based inkjet, standby power draw is on the lower end of what small printers use, typically 1-2 watts, and ink levels are visible right on the screen. It's built for one person's workflow rather than a shared office queue, so a busy 2-3 person setup may find its speed limiting.\n\nFull print, scan, copy functionality. That's a real strength, but weigh it against the flip side: not built for a multi-person print queue.",
     specs: [
       "Compact color inkjet all-in-one",
       "1.42\" OLED display",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21igSrZPOwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBGXC2C?tag=deskfinds0d-20",
     description:
-      "The PIXMA TS4320 delivers the same core inkjet AIO functions as its pricier sibling, print, copy, scan, and duplex printing, without the OLED display, at the lowest price in this list. For a light home-office workload of occasional letters, forms, and the odd scanned document, the missing screen is not a real loss.\n\nInk cartridges for this model are widely available at retail stores, not just online, which matters if you run out unexpectedly and need same-day replacement. Standby draw stays in typical inkjet territory, lower than the laser picks in this list.",
+      "The PIXMA TS4320 delivers the same core inkjet AIO functions as its pricier sibling, print, copy, scan, and duplex printing, without the OLED display, at the lowest price in this list. For a light home-office workload of occasional letters, forms, and the odd scanned document, the missing screen is not a real loss.\n\nInk cartridges for this model are widely available at retail stores, not just online, which matters if you run out unexpectedly and need same-day replacement. Standby draw stays in typical inkjet territory, lower than the laser picks in this list.\n\nWorth calling out specifically: retail-available ink cartridges, not online-only. The catch is no status display screen.",
     specs: [
       "Compact color inkjet all-in-one",
       "Auto duplex printing",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "HP's DeskJet 4355 bundles a 3-month HP Instant Ink trial with its compact color inkjet AIO body, which softens the cost of the first few months of ownership. After the trial, HP Instant Ink cartridge replacements ship automatically based on usage, though that convenience comes with an ongoing subscription cost worth comparing against buying cartridges outright.\n\nLike the other cartridge-based inkjets in this list, standby power draw is modest, and setup runs through the HP Smart app. It's a reasonable single-user pick if the ink subscription model appeals to you.",
+      "HP's DeskJet 4355 bundles a 3-month HP Instant Ink trial with its compact color inkjet AIO body, which softens the cost of the first few months of ownership. After the trial, HP Instant Ink cartridge replacements ship automatically based on usage, though that convenience comes with an ongoing subscription cost worth comparing against buying cartridges outright.\n\nLike the other cartridge-based inkjets in this list, standby power draw is modest, and setup runs through the HP Smart app. It's a reasonable single-user pick if the ink subscription model appeals to you.\n\nAutomatic cartridge replacement shipping. Set against that, instant Ink subscription cost after the trial. Both matter when comparing it to the other picks here.",
     specs: [
       "Compact color inkjet all-in-one",
       "3-month HP Instant Ink trial included",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31nVDhGd67L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXC13T?tag=deskfinds0d-20",
     description:
-      "The PIXMA TR4720 adds an auto document feeder and built-in fax to the standard compact inkjet AIO formula, both genuinely useful for a home office that occasionally needs to scan multi-page contracts or send a fax without lifting the scanner lid page by page.\n\nIt remains a single-user-oriented device rather than a shared-office printer, and its inkjet cartridges carry the same idle-drying risk as other inkjets in this list if print jobs are infrequent. The ADF is the clear reason to choose this over the plainer TS4320 or TS3720.",
+      "The PIXMA TR4720 adds an auto document feeder and built-in fax to the standard compact inkjet AIO formula, both genuinely useful for a home office that occasionally needs to scan multi-page contracts or send a fax without lifting the scanner lid page by page.\n\nIt remains a single-user-oriented device rather than a shared-office printer, and its inkjet cartridges carry the same idle-drying risk as other inkjets in this list if print jobs are infrequent. The ADF is the clear reason to choose this over the plainer TS4320 or TS3720.\n\nA genuine advantage here is that built-in fax for occasional home-office needs. The tradeoff is fax is rarely used by most 2026 home offices.",
     specs: [
       "Auto document feeder (ADF)",
       "Built-in fax",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Pb1fcUXbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPLFTPCV?tag=deskfinds0d-20",
     description:
-      "The DCP-L2640DW is the pick in this list built for more than one person relying on the same printer, a mono laser multi-function with duplex printing, copy, and scan that handles a steadier print queue than the inkjet AIOs here. Laser output is also faster page-to-page, which matters when 2-3 people are sending jobs to the same device.\n\nToner cartridges don't dry out between uses the way ink does, a real advantage for a home office where print jobs come in bursts rather than daily. Standby draw runs higher than the inkjets in this list, typically 3-5 watts versus 1-2 watts, worth factoring in if the printer stays plugged in around the clock.",
+      "The DCP-L2640DW is the pick in this list built for more than one person relying on the same printer, a mono laser multi-function with duplex printing, copy, and scan that handles a steadier print queue than the inkjet AIOs here. Laser output is also faster page-to-page, which matters when 2-3 people are sending jobs to the same device.\n\nToner cartridges don't dry out between uses the way ink does, a real advantage for a home office where print jobs come in bursts rather than daily. Standby draw runs higher than the inkjets in this list, typically 3-5 watts versus 1-2 watts, worth factoring in if the printer stays plugged in around the clock.\n\nToner never dries out from bursty usage patterns. That's a real strength, but weigh it against the flip side: highest price in this list.",
     specs: [
       "Compact monochrome laser multi-function",
       "Duplex printing, copy, scan",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31n0Y8gzpfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPL7HRQN?tag=deskfinds0d-20",
     description:
-      "If your home office doesn't need scanning or copying, the HL-L2405W delivers small-laser speed and toner economics without paying for a multi-function body. It's genuinely smaller than most compact inkjet AIOs since it skips the scanner bed entirely, and it works with Alexa for voice-triggered printing.\n\nBrother toner cartridges for this model are generally available at retail office-supply stores as well as online, which matters if you run low and need same-day replacement rather than waiting on shipping. Standby draw sits in typical small-laser range, higher than the inkjets here but with no idle drying risk.",
+      "If your home office doesn't need scanning or copying, the HL-L2405W delivers small-laser speed and toner economics without paying for a multi-function body. It's genuinely smaller than most compact inkjet AIOs since it skips the scanner bed entirely, and it works with Alexa for voice-triggered printing.\n\nBrother toner cartridges for this model are generally available at retail office-supply stores as well as online, which matters if you run low and need same-day replacement rather than waiting on shipping. Standby draw sits in typical small-laser range, higher than the inkjets here but with no idle drying risk.\n\nWorth calling out specifically: toner never dries out from infrequent printing. The catch is no scan or copy capability.",
     specs: [
       "Compact monochrome laser, print-only",
       "Alexa compatible",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31TonwUym9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BM9BFLMX?tag=deskfinds0d-20",
     description:
-      "The EcoTank ET-2400 uses refillable ink tanks instead of cartridges, which meaningfully lowers cost per page for anyone printing regularly rather than occasionally, and tanks hold enough ink to last months without needing refill. It supports color printing, scan, and copy, unlike the mono laser picks in this list.\n\nStandby energy draw for ink-tank printers runs closer to typical inkjet levels than laser, but the tank housing adds bulk to the printer body. This is the pick if your home office wants color capability alongside laser-like resistance to ink drying out.",
+      "The EcoTank ET-2400 uses refillable ink tanks instead of cartridges, which meaningfully lowers cost per page for anyone printing regularly rather than occasionally, and tanks hold enough ink to last months without needing refill. It supports color printing, scan, and copy, unlike the mono laser picks in this list.\n\nStandby energy draw for ink-tank printers runs closer to typical inkjet levels than laser, but the tank housing adds bulk to the printer body. This is the pick if your home office wants color capability alongside laser-like resistance to ink drying out.\n\nInk tanks resist drying out better than cartridges. Set against that, higher upfront price than cartridge-based inkjets. Both matter when comparing it to the other picks here.",
     specs: [
       "Cartridge-free ink supertank system",
       "Color print, scan, copy",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31H9Yu3i01L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BDD46HFV?tag=deskfinds0d-20",
     description:
-      "The Workforce WF-2930 rounds out its scan, copy, and fax feature set with an auto document feeder and automatic 2-sided printing, plus a 1.4-inch color display for quick status checks. It's positioned as a workhorse for a home office that still occasionally needs to send or receive a fax, a shrinking but not extinct requirement.\n\nAs a cartridge-based inkjet, it carries the same standby draw and idle-drying considerations as the other inkjets in this list. The combination of ADF, duplex, and fax makes it a reasonable single-device pick if you want most home-office document features without stepping up to laser pricing.",
+      "The Workforce WF-2930 rounds out its scan, copy, and fax feature set with an auto document feeder and automatic 2-sided printing, plus a 1.4-inch color display for quick status checks. It's positioned as a workhorse for a home office that still occasionally needs to send or receive a fax, a shrinking but not extinct requirement.\n\nAs a cartridge-based inkjet, it carries the same standby draw and idle-drying considerations as the other inkjets in this list. The combination of ADF, duplex, and fax makes it a reasonable single-device pick if you want most home-office document features without stepping up to laser pricing.\n\nA genuine advantage here is that color display for status checks. The tradeoff is ink cartridges can dry out with infrequent use.",
     specs: [
       "Auto document feeder, duplex printing",
       "Fax, scan, copy",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Decide laser or inkjet before you compare models",
-    explanation:
-      "A small mono laser printer is fast and cheap per page but text-only with no scan or copy, while a small color inkjet all-in-one handles photos, scanning, and copying but costs more to run and can dry out if left idle. Pick the category based on whether you need color and scanning at all, not just on price or size.",
+    "criterion": "Understand duty cycle as a maximum ceiling, not a healthy day-to-day volume",
+    "explanation": "A printer's rated duty cycle is the absolute maximum number of pages it can print in a month before risking premature wear, not a figure representing comfortable, sustained daily use, printing consistently near that ceiling month after month accelerates wear on the print mechanism well beyond what the same printer would experience at a more moderate, realistic volume.\n\nThis matters because buying a printer rated just barely above your expected monthly volume often means running it closer to its stress limit than its comfortable operating range.\n\nCheck the listed duty cycle figure, and target a printer rated at 3 to 5 times your actual expected monthly volume for genuinely comfortable long-term use, not a printer rated just above what you think you'll print."
   },
   {
-    criterion: "Size the printer to how many people will actually use it",
-    explanation:
-      "A single-user inkjet AIO can bottleneck quickly if 2-3 people in a household are sending jobs to it throughout the day. For a shared home office, a small laser multi-function printer handles a steadier queue and prints faster page to page.",
+    "criterion": "Match multi-user wifi sharing to how many people will actually print from it",
+    "explanation": "A printer's wireless sharing capability varies in real-world reliability between models, some handle multiple simultaneous connection requests from different devices smoothly, while others can drop connections or queue print jobs unreliably when more than one person tries to print around the same time.\n\nThis matters directly for a shared home office or household with multiple people printing throughout the day, less for a single dedicated user.\n\nCheck reviews specifically for mentions of multi-device wifi reliability, not just whether wireless printing is listed as a supported feature, since the feature existing and working reliably under real multi-user load aren't the same thing."
   },
   {
-    criterion: "Check toner or ink availability before you need it urgently",
-    explanation:
-      "Some small laser toner cartridges are only easy to find online, meaning a 2-3 day wait if you run out mid-project, while others are stocked at retail office-supply stores for same-day replacement. Check availability for your specific model before you're stuck waiting on shipping.",
+    "criterion": "Check scan resolution against what you're actually digitizing, not just print quality",
+    "explanation": "Print quality specs get most of the attention in printer listings, but scan resolution, measured in DPI, determines whether a scanned document stays genuinely readable when zoomed in or printed again later, and this spec is often buried or only briefly mentioned compared to print specs.\n\nThis matters more if you regularly scan contracts, receipts, or other documents where legibility of fine print matters, less if scanning is an occasional, low-stakes task.\n\nCheck the listed optical scan resolution in DPI specifically, not just the printer's overall feature list, if document scanning is a real part of your workflow."
   },
   {
-    criterion: "Factor in standby energy draw if the printer stays plugged in",
-    explanation:
-      "Laser printers typically draw 3-5 watts on standby versus roughly 1-2 watts for inkjet, which adds up over 8+ hours a day of standby time across a year. It's a small cost individually, but worth knowing if you're comparing otherwise similar printers on total cost of ownership.",
+    "criterion": "Weigh whether legacy features like fax are worth paying for in a 2026 home office",
+    "explanation": "Many home-office printers still bundle a fax feature as a holdover from an earlier era, adding to the printer's cost and complexity even though most home offices in 2026 will genuinely never use it, having largely moved to email and digital document sharing entirely.\n\nThis matters for value, paying for a feature you'll never touch is a real, if often overlooked, inefficiency when a fax-free model at a lower price covers the same core printing and scanning needs.\n\nCheck whether fax is a genuine requirement for your specific situation before treating its presence as a meaningful selling point, and consider a fax-free model if it isn't."
   },
   {
-    criterion: "Ink-tank printers make sense only at real print volume",
-    explanation:
-      "Refillable ink tanks like the Epson EcoTank line lower cost per page significantly, but the higher upfront price only pays off if you're printing regularly rather than occasionally. For light, occasional home-office printing, a cartridge-based inkjet or small laser is usually the more sensible upfront cost.",
-  },
-  {
-    criterion: "Don't pay for fax if you won't use it",
-    explanation:
-      "Fax is still marketed as a selling point on several small all-in-ones despite being a feature almost no 2026 home office actually uses. If a model's price premium is mostly buying you fax capability, a fax-free alternative at a lower price often covers your real needs just as well.",
-  },
+    "criterion": "Consider ink versus toner cost per page for your actual print volume, not just the printer's price",
+    "explanation": "An inkjet printer is typically cheaper to buy upfront but has a meaningfully higher cost per printed page than a laser printer using toner, a gap that adds up significantly over months of real use at moderate to high volume, while a laser printer costs more initially but can work out cheaper in total ownership cost if you print regularly.\n\nThis matters directly based on your actual expected volume, a low-volume occasional printer may never recoup a laser printer's higher upfront cost, while a high-volume home office likely will.\n\nCheck the manufacturer's stated or estimated cost-per-page for both ink and toner options, and weigh that against your realistic monthly print volume, not just the printer's sticker price."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,79 +359,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Laser or Inkjet: Which Fits Your Home Office?",
-    intro:
-      "This is the single most important decision, and it depends entirely on whether you need color, scanning, and how often you print.",
-    table: {
-      headers: ["Your need", "Category", "Best pick"],
-      rows: [
-        ["Fast, cheap text printing only", "Mono laser, print-only", "Brother HL-L2405W"],
-        ["Text printing plus scan and copy, shared use", "Mono laser multi-function", "Brother DCP-L2640DW"],
-        ["Color, photos, scanning, occasional use", "Cartridge-based color inkjet AIO", "Canon PIXMA TS6520 or TS4320"],
-        ["Color, scanning, frequent/high-volume use", "Ink-tank color AIO", "Epson EcoTank ET-2400"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Canon PIXMA TS6520 Wireless Color Inkjet Printer"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Canon PIXMA TS6520 Wireless Color Inkjet Printer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Number of People Using It",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $64",
+          "Canon PIXMA TS4320 Wireless Color Inkjet Printer"
+        ],
+        [
+          "Up to $210",
+          "Brother DCP"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Duplex vs Simplex Printing",
+    "cards": [
       {
-        label: "Just you",
-        text: "Any of the Canon PIXMA inkjet AIOs (TS6520, TS4320, TR4720) comfortably handle single-user, occasional-to-moderate printing.",
+        "label": "Duplex (auto two-sided)",
+        "text": "Prints both sides automatically, saves paper and time for double-sided documents. In this comparison: Canon PIXMA TS6520 Wireless Color Inkjet Printer, Canon PIXMA TS4320 Wireless Color Inkjet Printer, Brother DCP, Epson Workforce WF."
       },
       {
-        label: "2-3 people sharing one printer",
-        text: "The Brother DCP-L2640DW's laser speed and duplex printing keep up with a shared queue far better than a single-user inkjet AIO.",
-      },
-      {
-        label: "One person, high volume",
-        text: "The Epson EcoTank ET-2400 or ET-2800 keep cost per page low even at heavier individual print volume.",
-      },
+        "label": "Simplex only",
+        "text": "Usually cheaper, fine if you rarely need double-sided printing. In this comparison: HP DeskJet 4355 Wireless All, Canon PIXMA TR4720 All, Brother HL, Epson EcoTank ET."
+      }
     ],
+    "note": "Default to duplex unless you're confident your printing is mostly single-sided."
   },
   {
-    subheading: "Replacement Supply Availability",
-    intro:
-      "Running out of ink or toner mid-project is more common than most buyers plan for, check availability before you need it.",
-    table: {
-      headers: ["Printer", "Supply type", "Availability"],
-      rows: [
-        ["Canon PIXMA models", "Ink cartridges", "Widely stocked at retail stores"],
-        ["Brother HL-L2405W / DCP-L2640DW", "Toner cartridges", "Retail office-supply availability"],
-        ["HP DeskJet 4355", "Instant Ink subscription cartridges", "Ships automatically, less urgent to restock manually"],
-        ["Epson EcoTank models", "Ink tank refill bottles", "Check retail stock before running low, refills take longer than a cartridge swap"],
-      ],
-    },
+    "subheading": "By Scan Resolution",
+    "note": "Check each pick's listed optical scan resolution in DPI against how you'll actually use scanning before buying, not just print specs. Canon PIXMA TS6520 Wireless Color Inkjet Printer is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Standby Energy Draw by Technology",
-    intro:
-      "If your printer stays plugged in all day, the technology type meaningfully affects standby energy cost over a year.",
-    table: {
-      headers: ["Technology", "Typical standby draw", "Picks in this list"],
-      rows: [
-        ["Inkjet (cartridge-based)", "~1-2 watts", "Canon PIXMA models, HP DeskJet 4355, Epson WF-2930"],
-        ["Inkjet (ink-tank)", "~1-2 watts", "Epson EcoTank ET-2400"],
-        ["Mono laser", "~3-5 watts", "Brother HL-L2405W, Brother DCP-L2640DW"],
-      ],
-    },
-    note: "The difference is small per day but adds up over 8+ hours of standby time across a full year, worth a glance if you're otherwise choosing between two similar picks.",
-  },
-  {
-    subheading: "When to Skip Fax Entirely",
-    intro:
-      "Several picks in this list include fax capability, but it's worth an honest gut check before paying for it.",
-    cards: [
+    "subheading": "For Scanning Contracts or Receipts Specifically",
+    "cards": [
       {
-        label: "You've never sent a fax in the past year",
-        text: "Skip fax-inclusive models like the Canon PIXMA TR4720 or Epson WF-2930 and save the price difference on a fax-free pick like the Canon PIXMA TS6520.",
+        "label": "Look for",
+        "text": "A disclosed optical scan resolution in DPI high enough to keep fine print legible, not just the printer's overall feature list."
       },
       {
-        label: "You occasionally need to fax signed documents",
-        text: "The Canon PIXMA TR4720 or Epson WF-2930 cover this without needing a separate fax service.",
-      },
-    ],
+        "label": "In this comparison",
+        "text": "Canon PIXMA TS6520 Wireless Color Inkjet Printer is worth checking against its listed scan resolution before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You print regularly at moderate to high volume, where Brother DCP's duty cycle and cost-per-page give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only print occasionally at low volume, where Canon PIXMA TS4320 Wireless Color Inkjet Printer covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

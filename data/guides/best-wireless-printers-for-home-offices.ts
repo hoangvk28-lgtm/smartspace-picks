@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "The DeskJet 4355 connects to a standard network WiFi setup through the HP Smart app, a guided process that walks through selecting your network and entering a password rather than assuming a WPS button exists. HP printers have a documented tendency to drop offline after sleep mode more than Brother or Epson models, worth knowing going in.\n\nIf your printer sits in a low-traffic room and goes idle for hours between print jobs, budget a few extra seconds after waking it to reconnect before your first print job goes through. It's a known pattern across the HP lineup rather than a defect specific to this model.",
+      "The DeskJet 4355 connects to a standard network WiFi setup through the HP Smart app, a guided process that walks through selecting your network and entering a password rather than assuming a WPS button exists. HP printers have a documented tendency to drop offline after sleep mode more than Brother or Epson models, worth knowing going in.\n\nIf your printer sits in a low-traffic room and goes idle for hours between print jobs, budget a few extra seconds after waking it to reconnect before your first print job goes through. It's a known pattern across the HP lineup rather than a defect specific to this model.\n\nLow upfront price. That's a real strength, but weigh it against the flip side: hP printers have a known pattern of dropping offline after sleep mode.",
     specs: [
       "Network WiFi via HP Smart app setup",
       "3-month Instant Ink trial included",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21igSrZPOwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBGXC2C?tag=deskfinds0d-20",
     description:
-      "The PIXMA TS4320 connects over standard network WiFi with duplex printing built in, a compact single-tray unit suited to a small home office desk. Canon's setup app handles the connection in a few guided steps, with fewer forced account-creation complaints historically than some competitors.\n\nIf your home office router supports 5GHz, know that it's only a real speed benefit if the printer sits close to the router without walls in between, 5GHz has notably worse wall penetration than 2.4GHz, so a printer in a separate room usually does better staying on the 2.4GHz band.",
+      "The PIXMA TS4320 connects over standard network WiFi with duplex printing built in, a compact single-tray unit suited to a small home office desk. Canon's setup app handles the connection in a few guided steps, with fewer forced account-creation complaints historically than some competitors.\n\nIf your home office router supports 5GHz, know that it's only a real speed benefit if the printer sits close to the router without walls in between, 5GHz has notably worse wall penetration than 2.4GHz, so a printer in a separate room usually does better staying on the 2.4GHz band.\n\nWorth calling out specifically: duplex printing without manual flipping. The catch is 5GHz range is limited if the printer isn't near the router.",
     specs: [
       "Network WiFi, dual-band router compatible",
       "Duplex printing",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21U5jLy1DeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBTJLX6?tag=deskfinds0d-20",
     description:
-      "A 1.42-inch OLED display gives the TS6520 a real edge for diagnosing wireless issues, plain status messages about connection state are easier to act on than a blinking light pattern when the printer appears offline. Duplex printing and an intuitive control panel round out the daily experience.\n\nLike other Canon PIXMA models in this list, setup runs through network WiFi with a guided app process rather than requiring a WPS button, which matters for anyone on a mesh router system like Eero or Google Nest WiFi that often lacks one.",
+      "A 1.42-inch OLED display gives the TS6520 a real edge for diagnosing wireless issues, plain status messages about connection state are easier to act on than a blinking light pattern when the printer appears offline. Duplex printing and an intuitive control panel round out the daily experience.\n\nLike other Canon PIXMA models in this list, setup runs through network WiFi with a guided app process rather than requiring a WPS button, which matters for anyone on a mesh router system like Eero or Google Nest WiFi that often lacks one.\n\nNo WPS-button dependency for setup. Set against that, cartridge ink costs more at high volume. Both matter when comparing it to the other picks here.",
     specs: [
       "Network WiFi with app-guided setup",
       "1.42-inch OLED display shows connection status",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/418KMpgzGBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CT8ZJ7ZC?tag=deskfinds0d-20",
     description:
-      "The OfficeJet Pro 8125e is built for a home office with multiple devices connecting to it, laptop, phone, tablet, over the same network WiFi, with ADF and duplex printing to match business-style workloads. A 3-month Instant Ink trial is included.\n\nAs with the DeskJet above, HP models as a brand show a higher documented rate of going offline after idle periods compared to Brother or Epson, a real consideration for a shared home-office printer that sits unused between print jobs during the workday.",
+      "The OfficeJet Pro 8125e is built for a home office with multiple devices connecting to it, laptop, phone, tablet, over the same network WiFi, with ADF and duplex printing to match business-style workloads. A 3-month Instant Ink trial is included.\n\nAs with the DeskJet above, HP models as a brand show a higher documented rate of going offline after idle periods compared to Brother or Epson, a real consideration for a shared home-office printer that sits unused between print jobs during the workday.\n\nA genuine advantage here is that aDF and duplex printing included. The tradeoff is hP printers have a known pattern of dropping offline after idle periods.",
     specs: [
       "Network WiFi, multi-device support",
       "ADF and duplex printing",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415PuxvZ1wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXKNB9?tag=deskfinds0d-20",
     description:
-      "The PIXMA TR4720 pairs network WiFi with an automatic document feeder, giving a home office multi-page scanning capability at a lower price than the higher-tier HP picks. Mobile printing setup follows a short guided process.\n\nCanon's brand-level wireless stability, particularly on macOS, has historically trended more reliable than HP's, though any printer can encounter IPv4/IPv6 mismatches on certain routers that make it briefly appear offline despite being connected.",
+      "The PIXMA TR4720 pairs network WiFi with an automatic document feeder, giving a home office multi-page scanning capability at a lower price than the higher-tier HP picks. Mobile printing setup follows a short guided process.\n\nCanon's brand-level wireless stability, particularly on macOS, has historically trended more reliable than HP's, though any printer can encounter IPv4/IPv6 mismatches on certain routers that make it briefly appear offline despite being connected.\n\nReasonable macOS wireless stability by brand reputation. That's a real strength, but weigh it against the flip side: fax feature adds a menu option most won't use.",
     specs: [
       "Network WiFi with automatic document feeder",
       "Mobile printing support",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Pb1fcUXbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPLFTPCV?tag=deskfinds0d-20",
     description:
-      "Brother as a brand tends to show up less often in wireless offline complaint patterns than HP, and this compact monochrome laser printer, with copy, scan, duplex printing, and mobile printing support, is a solid fit for a text-heavy home office that wants dependable wireless printing above all else.\n\nA Refresh Subscription toner trial is included, and Alexa compatibility adds voice-triggered printing if that fits your workflow. As a laser printer, it's a better long-term match for high text volume than the inkjet picks in this list.",
+      "Brother as a brand tends to show up less often in wireless offline complaint patterns than HP, and this compact monochrome laser printer, with copy, scan, duplex printing, and mobile printing support, is a solid fit for a text-heavy home office that wants dependable wireless printing above all else.\n\nA Refresh Subscription toner trial is included, and Alexa compatibility adds voice-triggered printing if that fits your workflow. As a laser printer, it's a better long-term match for high text volume than the inkjet picks in this list.\n\nWorth calling out specifically: laser reliability for high text volume. The catch is higher upfront price than inkjet picks.",
     specs: [
       "Network WiFi, compact laser printer",
       "Duplex printing",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41MuruhvCqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GPFHCYK7?tag=deskfinds0d-20",
     description:
-      "The standard OfficeJet Pro 8125 shares the ADF and duplex printing combination of the 8125e above at a similar price point, network WiFi for multi-device home office use with a 3-month Instant Ink trial included.\n\nThe same brand-level caveat applies here as with other HP picks, budget for the printer occasionally needing a reconnect after extended idle time, a documented pattern across HP's lineup rather than an issue specific to this unit.",
+      "The standard OfficeJet Pro 8125 shares the ADF and duplex printing combination of the 8125e above at a similar price point, network WiFi for multi-device home office use with a 3-month Instant Ink trial included.\n\nThe same brand-level caveat applies here as with other HP picks, budget for the printer occasionally needing a reconnect after extended idle time, a documented pattern across HP's lineup rather than an issue specific to this unit.\n\nADF and duplex printing included. Set against that, hP printers have a known pattern of dropping offline after idle periods. Both matter when comparing it to the other picks here.",
     specs: [
       "Network WiFi, multi-device support",
       "ADF and duplex printing",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31eKmxnpbkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B096N8DN2H?tag=deskfinds0d-20",
     description:
-      "Epson's brand-level wireless stability tends to trend better than HP's in offline complaint patterns, and the ET-2800's cartridge-free supertank ink system means fewer interruptions for ink swaps alongside a stable network WiFi connection. Scan and copy are built in for basic home office document handling.\n\nSetup runs through network WiFi via Epson's app rather than requiring a WPS button, a plus for anyone on a mesh router without one. As a supertank printer, the upfront cost is higher, but ink lasts considerably longer between refills than a cartridge-based printer.",
+      "Epson's brand-level wireless stability tends to trend better than HP's in offline complaint patterns, and the ET-2800's cartridge-free supertank ink system means fewer interruptions for ink swaps alongside a stable network WiFi connection. Scan and copy are built in for basic home office document handling.\n\nSetup runs through network WiFi via Epson's app rather than requiring a WPS button, a plus for anyone on a mesh router without one. As a supertank printer, the upfront cost is higher, but ink lasts considerably longer between refills than a cartridge-based printer.\n\nA genuine advantage here is that cartridge-free ink reduces long-term interruptions. The tradeoff is higher upfront price than basic inkjet picks.",
     specs: [
       "Network WiFi, cartridge-free supertank system",
       "Scan and copy built in",
@@ -328,40 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "WiFi Direct and network WiFi are different things",
-    explanation:
-      "WiFi Direct means the printer creates its own hotspot and your phone connects straight to it, no router involved, useful when there's no shared network available. Network WiFi means the printer joins the same router as your other devices, the more common home-office setup. Check which one a printer actually supports before assuming \"wireless\" covers both.",
+    "criterion": "Understand duty cycle as a maximum ceiling, not a healthy day-to-day volume",
+    "explanation": "A printer's rated duty cycle is the absolute maximum number of pages it can print in a month before risking premature wear, not a figure representing comfortable, sustained daily use, printing consistently near that ceiling month after month accelerates wear on the print mechanism well beyond what the same printer would experience at a more moderate, realistic volume.\n\nThis matters because buying a printer rated just barely above your expected monthly volume often means running it closer to its stress limit than its comfortable operating range.\n\nCheck the listed duty cycle figure, and target a printer rated at 3 to 5 times your actual expected monthly volume for genuinely comfortable long-term use, not a printer rated just above what you think you'll print."
   },
   {
-    criterion: "5GHz sounds better but has real range limits",
-    explanation:
-      "5GHz WiFi is faster than 2.4GHz but has meaningfully shorter range and worse wall penetration. It only helps if your printer sits close to the router without walls in between; a printer in a separate room from the router usually performs more reliably on 2.4GHz.",
+    "criterion": "Match multi-user wifi sharing to how many people will actually print from it",
+    "explanation": "A printer's wireless sharing capability varies in real-world reliability between models, some handle multiple simultaneous connection requests from different devices smoothly, while others can drop connections or queue print jobs unreliably when more than one person tries to print around the same time.\n\nThis matters directly for a shared home office or household with multiple people printing throughout the day, less for a single dedicated user.\n\nCheck reviews specifically for mentions of multi-device wifi reliability, not just whether wireless printing is listed as a supported feature, since the feature existing and working reliably under real multi-user load aren't the same thing."
   },
   {
-    criterion: "Mesh routers often lack a WPS button",
-    explanation:
-      "WPS-button setup assumes your router has one, but mesh systems like Eero and Google Nest WiFi frequently don't, requiring app-based setup instead. If you're on a mesh network, prioritize a printer with a clean, guided app setup flow rather than one that leans on WPS.",
+    "criterion": "Check scan resolution against what you're actually digitizing, not just print quality",
+    "explanation": "Print quality specs get most of the attention in printer listings, but scan resolution, measured in DPI, determines whether a scanned document stays genuinely readable when zoomed in or printed again later, and this spec is often buried or only briefly mentioned compared to print specs.\n\nThis matters more if you regularly scan contracts, receipts, or other documents where legibility of fine print matters, less if scanning is an occasional, low-stakes task.\n\nCheck the listed optical scan resolution in DPI specifically, not just the printer's overall feature list, if document scanning is a real part of your workflow."
   },
   {
-    criterion: "HP printers go offline after sleep mode more often, by reputation",
-    explanation:
-      "This is a widely reported pattern across HP's lineup, the printer disconnects from the network during idle periods and needs to reconnect, sometimes automatically, sometimes requiring a manual nudge, before the next print job. Brother and Epson tend to show this less often, and Canon falls in the middle.",
+    "criterion": "Weigh whether legacy features like fax are worth paying for in a 2026 home office",
+    "explanation": "Many home-office printers still bundle a fax feature as a holdover from an earlier era, adding to the printer's cost and complexity even though most home offices in 2026 will genuinely never use it, having largely moved to email and digital document sharing entirely.\n\nThis matters for value, paying for a feature you'll never touch is a real, if often overlooked, inefficiency when a fax-free model at a lower price covers the same core printing and scanning needs.\n\nCheck whether fax is a genuine requirement for your specific situation before treating its presence as a meaningful selling point, and consider a fax-free model if it isn't."
   },
   {
-    criterion: "macOS users should weigh brand-level Mac stability",
-    explanation:
-      "Printer-offline issues on macOS specifically skew toward HP more than other brands in widely reported user experience, while Brother and Epson tend to be more consistent. If you're on a Mac-heavy home office, factor this into your brand choice, not just the spec sheet.",
-  },
-  {
-    criterion: "IPv4 vs. IPv6 mismatches can make a connected printer look offline",
-    explanation:
-      "If your router defaults to IPv6 and the printer only fully supports IPv4, the printer can appear offline despite being connected to the network. If a printer intermittently shows offline for no clear reason, check your router's IPv6 settings before assuming the printer itself is faulty.",
-  },
-  {
-    criterion: "A guest network usually breaks printer discovery",
-    explanation:
-      "Wireless printing generally requires the printer and your device to be on the same network and subnet. If your phone is on a guest WiFi network and the printer is on the main network, it typically won't show up, connect both to the same network before troubleshooting anything else.",
-  },
+    "criterion": "Consider ink versus toner cost per page for your actual print volume, not just the printer's price",
+    "explanation": "An inkjet printer is typically cheaper to buy upfront but has a meaningfully higher cost per printed page than a laser printer using toner, a gap that adds up significantly over months of real use at moderate to high volume, while a laser printer costs more initially but can work out cheaper in total ownership cost if you print regularly.\n\nThis matters directly based on your actual expected volume, a low-volume occasional printer may never recoup a laser printer's higher upfront cost, while a high-volume home office likely will.\n\nCheck the manufacturer's stated or estimated cost-per-page for both ink and toner options, and weigh that against your realistic monthly print volume, not just the printer's sticker price."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -374,78 +359,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "\"Goes Offline\" Problem Rating by Brand",
-    intro:
-      "Based on widely reported brand-level patterns, not a guarantee for any individual unit.",
-    table: {
-      headers: ["Brand", "Offline-after-idle frequency (reputation)", "Picks in this list"],
-      rows: [
-        ["HP", "Higher, most commonly reported", "DeskJet 4355, OfficeJet Pro 8125e, OfficeJet Pro 8125"],
-        ["Canon", "Middling", "PIXMA TS4320, TS6520, TR4720"],
-        ["Brother", "Lower, more stable by reputation", "DCP-L2640DW"],
-        ["Epson", "Lower, more stable by reputation", "EcoTank ET-2800"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "If a stable always-connected printer matters more to you than brand loyalty or price, lean toward the Brother or Epson pick in this list.",
+      "rows": [
+        [
+          "Highest average rating",
+          "HP DeskJet 4355 Wireless All"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "HP DeskJet 4355 Wireless All"
+        ]
+      ]
+    }
   },
   {
-    subheading: "WiFi Direct vs. Network WiFi Explained",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $64",
+          "Canon PIXMA TS4320 Wireless Color Inkjet Printer"
+        ],
+        [
+          "Up to $210",
+          "Brother DCP"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Duplex vs Simplex Printing",
+    "cards": [
       {
-        label: "WiFi Direct",
-        text: "The printer creates its own hotspot; your phone connects directly to it. Useful for printing without a shared router, like at a temporary location.",
+        "label": "Duplex (auto two-sided)",
+        "text": "Prints both sides automatically, saves paper and time for double-sided documents. In this comparison: Canon PIXMA TS4320 Wireless Color Inkjet Printer, Canon PIXMA TS6520 Wireless Color Inkjet Printer, HP OfficeJet Pro 8125e Wireless All, Brother DCP, HP OfficeJet Pro 8125 Wireless All."
       },
       {
-        label: "Network WiFi",
-        text: "The printer joins the same router as your other devices. This is the setup all 8 picks in this list use for standard home-office printing.",
-      },
+        "label": "Simplex only",
+        "text": "Usually cheaper, fine if you rarely need double-sided printing. In this comparison: HP DeskJet 4355 Wireless All, Canon PIXMA TR4720 All, Epson EcoTank ET."
+      }
     ],
+    "note": "Default to duplex unless you're confident your printing is mostly single-sided."
   },
   {
-    subheading: "Honest 5GHz Assessment",
-    intro:
-      "Dual-band support is only a real advantage under specific conditions.",
-    table: {
-      headers: ["Printer location relative to router", "5GHz benefit", "Recommendation"],
-      rows: [
-        ["Same room, no walls between", "Real speed benefit", "Use 5GHz if your printer supports it"],
-        ["Different room, one or more walls between", "Minimal to negative benefit", "Use 2.4GHz for more reliable connection"],
-      ],
-    },
+    "subheading": "By Scan Resolution",
+    "note": "Check each pick's listed optical scan resolution in DPI against how you'll actually use scanning before buying, not just print specs. HP DeskJet 4355 Wireless All is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "WPS Dependency and Mesh Network Workaround",
-    intro:
-      "If your router is a mesh system without a WPS button, setup needs to happen through the manufacturer's app instead.",
-    cards: [
+    "subheading": "For Scanning Contracts or Receipts Specifically",
+    "cards": [
       {
-        label: "No WPS button on your router",
-        text: "Use the HP Smart, Canon PRINT, or Epson app to guide setup manually. All 8 picks in this list support app-based setup as an alternative to WPS.",
+        "label": "Look for",
+        "text": "A disclosed optical scan resolution in DPI high enough to keep fine print legible, not just the printer's overall feature list."
       },
       {
-        label: "Router has a WPS button",
-        text: "WPS setup is typically faster if available, press the button on the router, then the corresponding button on the printer within the connection window.",
+        "label": "In this comparison",
+        "text": "HP DeskJet 4355 Wireless All is worth checking against its listed scan resolution before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You print regularly at moderate to high volume, where Brother DCP's duty cycle and cost-per-page give real headroom over the cheaper picks."
       },
-    ],
-  },
-  {
-    subheading: "Mac + Printer Stability Rating by Brand",
-    table: {
-      headers: ["Brand", "macOS stability (reputation)", "Notes"],
-      rows: [
-        ["HP", "Prone to offline issues on macOS", "Budget extra troubleshooting time if on a Mac-heavy setup"],
-        ["Brother", "More stable", "DCP-L2640DW is a solid Mac-friendly pick"],
-        ["Epson", "More stable", "EcoTank ET-2800 is a solid Mac-friendly pick"],
-        ["Canon", "Middling", "Generally workable, occasional reconnects reported"],
-      ],
-    },
-  },
-  {
-    subheading: "IPv4 vs. IPv6 Compatibility Note",
-    intro:
-      "If a printer intermittently shows as offline despite being connected, this is a common overlooked cause.",
-    note: "Check your router's admin settings for an option to prioritize IPv4 for local devices, or disable IPv6 for the printer's connection specifically, before assuming the printer itself is defective.",
-  },
+      {
+        "label": "Save if",
+        "text": "You only print occasionally at low volume, where Canon PIXMA TS4320 Wireless Color Inkjet Printer covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

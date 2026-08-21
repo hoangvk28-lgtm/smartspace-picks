@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31d5wmSRcAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FP3LJ74G?tag=deskfinds0d-20",
     description:
-      "Rated at 35 PPM, the MF753Cdw II is the fastest sustained-output pick in this list, but that figure comes from a simplified test document, expect real-world speed on graphics-heavy reports or photo-included pages to run noticeably slower. An automatic document feeder handles multi-page scanning and copying without manual repositioning.\n\nAt just under $500 it's a significant investment above the other picks here, justified for a home office that regularly prints high page counts rather than occasional documents. The 3-year limited warranty reflects the printer's positioning as a genuine workhorse rather than a light-duty budget model.",
+      "Rated at 35 PPM, the MF753Cdw II is the fastest sustained-output pick in this list, but that figure comes from a simplified test document, expect real-world speed on graphics-heavy reports or photo-included pages to run noticeably slower. An automatic document feeder handles multi-page scanning and copying without manual repositioning.\n\nAt just under $500 it's a significant investment above the other picks here, justified for a home office that regularly prints high page counts rather than occasional documents. The 3-year limited warranty reflects the printer's positioning as a genuine workhorse rather than a light-duty budget model.\n\nFull multi-function feature set with ADF. That's a real strength, but weigh it against the flip side: most expensive pick in this list by a wide margin.",
     specs: [
       "Color laser, 35 PPM rated speed",
       "Automatic duplex, scan, copy, fax",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/311SOXNvLIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFCYYZLM?tag=deskfinds0d-20",
     description:
-      "At a rated 19 PPM, the HL-L3220CDW offers meaningfully faster sustained output than any inkjet in this list at roughly half the price of the fastest laser pick above. As with any rated PPM figure, treat it as a best-case number for simple text documents rather than an expectation for image-heavy files.\n\nAutomatic duplex printing and a 250-sheet paper tray reduce interruptions during a print run, letting you queue a larger job without reloading paper partway through. This is a strong middle-ground pick for a home office that needs faster-than-inkjet speed without the MF753Cdw II's price.",
+      "At a rated 19 PPM, the HL-L3220CDW offers meaningfully faster sustained output than any inkjet in this list at roughly half the price of the fastest laser pick above. As with any rated PPM figure, treat it as a best-case number for simple text documents rather than an expectation for image-heavy files.\n\nAutomatic duplex printing and a 250-sheet paper tray reduce interruptions during a print run, letting you queue a larger job without reloading paper partway through. This is a strong middle-ground pick for a home office that needs faster-than-inkjet speed without the MF753Cdw II's price.\n\nWorth calling out specifically: large paper tray reduces mid-job reloading. The catch is no scan or copy functions.",
     specs: [
       "Color laser, 19 PPM rated speed",
       "Automatic duplex printing",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Pb1fcUXbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPLFTPCV?tag=deskfinds0d-20",
     description:
-      "Most home office printing happens in short bursts, one or two pages at a time between other tasks, which makes first-page-out time, how quickly the first page appears including any warm-up, more relevant than sustained PPM for typical daily use. As a monochrome laser, the DCP-L2640DW's fuser and drum reach printing readiness quickly for that kind of intermittent job.\n\nAutomatic duplex, scan, and copy round out the feature set, and the compact body keeps it desk-friendly despite the added multi-function hardware over a print-only laser.",
+      "Most home office printing happens in short bursts, one or two pages at a time between other tasks, which makes first-page-out time, how quickly the first page appears including any warm-up, more relevant than sustained PPM for typical daily use. As a monochrome laser, the DCP-L2640DW's fuser and drum reach printing readiness quickly for that kind of intermittent job.\n\nAutomatic duplex, scan, and copy round out the feature set, and the compact body keeps it desk-friendly despite the added multi-function hardware over a print-only laser.\n\nFull copy, scan, and duplex feature set. Set against that, no color printing. Both matter when comparing it to the other picks here.",
     specs: [
       "Monochrome laser with copy, scan, and duplex",
       "Wireless and mobile printing",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41wQemMt6wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTN9ZGRS?tag=deskfinds0d-20",
     description:
-      "The INKvestment 5010's automatic 2-sided copy and scan speeds up multi-page document handling compared to single-sided-only inkjets, cutting the number of separate passes needed for a larger job. A 2.7-inch color touchscreen makes queuing and monitoring a print run more direct than a basic button panel.\n\nAs with any inkjet, expect the print head's multiple passes to make sustained speed on longer jobs slower than a comparable laser printer, this is a better fit for a home office prioritizing color print quality alongside reasonable speed than for the fastest possible sustained output.",
+      "The INKvestment 5010's automatic 2-sided copy and scan speeds up multi-page document handling compared to single-sided-only inkjets, cutting the number of separate passes needed for a larger job. A 2.7-inch color touchscreen makes queuing and monitoring a print run more direct than a basic button panel.\n\nAs with any inkjet, expect the print head's multiple passes to make sustained speed on longer jobs slower than a comparable laser printer, this is a better fit for a home office prioritizing color print quality alongside reasonable speed than for the fastest possible sustained output.\n\nA genuine advantage here is that color touchscreen for direct job monitoring. The tradeoff is slower sustained speed than any laser pick in this list.",
     specs: [
       "Color inkjet all-in-one with automatic duplex",
       "2.7-inch color touchscreen",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31G4p897b8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09P45LR5T?tag=deskfinds0d-20",
     description:
-      "An automatic document feeder lets the ET-4800 move through multi-page scan and copy jobs without manual repositioning, a real speed advantage over flatbed-only inkjets for document-heavy tasks. Ethernet connectivity adds a more consistent wired option than relying on wireless for a large sustained job.\n\nAs an ink-tank printer it shares the general per-page speed profile of a cartridge inkjet rather than a laser engine, but it avoids the mid-job slowdown of stopping to swap a depleted cartridge during a longer print run.",
+      "An automatic document feeder lets the ET-4800 move through multi-page scan and copy jobs without manual repositioning, a real speed advantage over flatbed-only inkjets for document-heavy tasks. Ethernet connectivity adds a more consistent wired option than relying on wireless for a large sustained job.\n\nAs an ink-tank printer it shares the general per-page speed profile of a cartridge inkjet rather than a laser engine, but it avoids the mid-job slowdown of stopping to swap a depleted cartridge during a longer print run.\n\nEthernet option for consistent wired speed. That's a real strength, but weigh it against the flip side: slower sustained per-page speed than any laser pick in this list.",
     specs: [
       "Color inkjet all-in-one, cartridge-free ink tank",
       "Automatic document feeder",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41LqmhjzXHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FGC43YCL?tag=deskfinds0d-20",
     description:
-      "Automatic duplex printing on the MFC-J1360DW cuts the time a two-sided job takes compared to a manual flip-and-reload process on a non-duplex printer, a genuine speed advantage for a mid-priced inkjet. The 1.8-inch color display keeps job status visible without adding steps.\n\nMost quality modes on inkjet printers trade speed for output sharpness, switching from a fast draft mode to a best-quality mode can take considerably longer per page, worth testing both settings if speed matters for routine printing versus final copies.",
+      "Automatic duplex printing on the MFC-J1360DW cuts the time a two-sided job takes compared to a manual flip-and-reload process on a non-duplex printer, a genuine speed advantage for a mid-priced inkjet. The 1.8-inch color display keeps job status visible without adding steps.\n\nMost quality modes on inkjet printers trade speed for output sharpness, switching from a fast draft mode to a best-quality mode can take considerably longer per page, worth testing both settings if speed matters for routine printing versus final copies.\n\nWorth calling out specifically: multiple quality modes let you trade speed for sharpness as needed. The catch is best-quality mode is considerably slower than draft mode.",
     specs: [
       "Color inkjet all-in-one with automatic duplex",
       "1.8-inch color display",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415PuxvZ1wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXKNB9?tag=deskfinds0d-20",
     description:
-      "For the common home office pattern of a single page printed here and there rather than long runs, the PIXMA TR4720's quick readiness from idle matters more than a high sustained PPM figure it doesn't claim. Its automatic document feeder speeds up scanning multi-page documents without repositioning each one manually.\n\nAt $69 it's one of the most affordable picks here, a reasonable trade-off for a home office where individual jobs are small and speed on a single page matters more than throughput on a large batch.",
+      "For the common home office pattern of a single page printed here and there rather than long runs, the PIXMA TR4720's quick readiness from idle matters more than a high sustained PPM figure it doesn't claim. Its automatic document feeder speeds up scanning multi-page documents without repositioning each one manually.\n\nAt $69 it's one of the most affordable picks here, a reasonable trade-off for a home office where individual jobs are small and speed on a single page matters more than throughput on a large batch.\n\nAutomatic document feeder for faster multi-page scanning. Set against that, not built for sustained high-volume printing. Both matter when comparing it to the other picks here.",
     specs: [
       "Color inkjet all-in-one with auto document feeder",
       "Mobile printing support",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "The DeskJet 4355 doesn't advertise a headline speed figure, and for a home office printing occasional documents rather than sustained runs, that's often fine, its readiness from idle is quick enough for most single-job printing needs. AI-capable printing features are optional rather than required.\n\nAt under $70 it's the most affordable pick in this list, a reasonable choice for a home office where speed on individual small jobs matters more than sustained throughput, save the pricier laser picks for genuinely high-volume needs.",
+      "The DeskJet 4355 doesn't advertise a headline speed figure, and for a home office printing occasional documents rather than sustained runs, that's often fine, its readiness from idle is quick enough for most single-job printing needs. AI-capable printing features are optional rather than required.\n\nAt under $70 it's the most affordable pick in this list, a reasonable choice for a home office where speed on individual small jobs matters more than sustained throughput, save the pricier laser picks for genuinely high-volume needs.\n\nA genuine advantage here is that lowest price in this list. The tradeoff is not built for high-volume sustained printing.",
     specs: [
       "Color inkjet all-in-one: print, scan, copy",
       "3-month Instant Ink trial included",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Rated PPM is a best-case number, not a real-world guarantee",
-    explanation:
-      "Manufacturers measure pages-per-minute on a simplified test document, typically plain text with minimal formatting, not the graphics, images, or dense layouts common in real home office printing. Expect real-world speed on complex documents to run meaningfully below the rated figure on the box.",
+    "criterion": "Understand duty cycle as a maximum ceiling, not a healthy day-to-day volume",
+    "explanation": "A printer's rated duty cycle is the absolute maximum number of pages it can print in a month before risking premature wear, not a figure representing comfortable, sustained daily use, printing consistently near that ceiling month after month accelerates wear on the print mechanism well beyond what the same printer would experience at a more moderate, realistic volume.\n\nThis matters because buying a printer rated just barely above your expected monthly volume often means running it closer to its stress limit than its comfortable operating range.\n\nCheck the listed duty cycle figure, and target a printer rated at 3 to 5 times your actual expected monthly volume for genuinely comfortable long-term use, not a printer rated just above what you think you'll print."
   },
   {
-    criterion: "First-page-out time matters more than sustained PPM for bursty printing",
-    explanation:
-      "Most home office printing happens in short bursts, a page or two at a time, rather than long continuous runs, which makes how fast the first page comes out, including any warm-up, more relevant day-to-day than a sustained PPM figure measured over a long print job.",
+    "criterion": "Match multi-user wifi sharing to how many people will actually print from it",
+    "explanation": "A printer's wireless sharing capability varies in real-world reliability between models, some handle multiple simultaneous connection requests from different devices smoothly, while others can drop connections or queue print jobs unreliably when more than one person tries to print around the same time.\n\nThis matters directly for a shared home office or household with multiple people printing throughout the day, less for a single dedicated user.\n\nCheck reviews specifically for mentions of multi-device wifi reliability, not just whether wireless printing is listed as a supported feature, since the feature existing and working reliably under real multi-user load aren't the same thing."
   },
   {
-    criterion: "Draft mode and best-quality mode can differ by 2 to 3 times in speed",
-    explanation:
-      "Switching a printer from its fastest draft setting to its highest quality mode can meaningfully increase the time per page. If speed matters for routine internal printing, use draft mode, and reserve best-quality mode for documents that actually need it.",
+    "criterion": "Check scan resolution against what you're actually digitizing, not just print quality",
+    "explanation": "Print quality specs get most of the attention in printer listings, but scan resolution, measured in DPI, determines whether a scanned document stays genuinely readable when zoomed in or printed again later, and this spec is often buried or only briefly mentioned compared to print specs.\n\nThis matters more if you regularly scan contracts, receipts, or other documents where legibility of fine print matters, less if scanning is an occasional, low-stakes task.\n\nCheck the listed optical scan resolution in DPI specifically, not just the printer's overall feature list, if document scanning is a real part of your workflow."
   },
   {
-    criterion: "Laser generally beats inkjet on sustained speed, at a price",
-    explanation:
-      "Laser printers like the Canon MF753Cdw II and Brother HL-L3220CDW in this list have meaningfully faster rated sustained output than any inkjet pick, but laser hardware also costs more upfront. Only pay for laser speed if you regularly print at high enough volume to need it.",
+    "criterion": "Weigh whether legacy features like fax are worth paying for in a 2026 home office",
+    "explanation": "Many home-office printers still bundle a fax feature as a holdover from an earlier era, adding to the printer's cost and complexity even though most home offices in 2026 will genuinely never use it, having largely moved to email and digital document sharing entirely.\n\nThis matters for value, paying for a feature you'll never touch is a real, if often overlooked, inefficiency when a fax-free model at a lower price covers the same core printing and scanning needs.\n\nCheck whether fax is a genuine requirement for your specific situation before treating its presence as a meaningful selling point, and consider a fax-free model if it isn't."
   },
   {
-    criterion: "Duplex and document feeder features save real time on common jobs",
-    explanation:
-      "Automatic duplex printing and an automatic document feeder don't change a printer's per-page PPM, but they cut the total time and manual steps for two-sided documents or multi-page scans, often a bigger real-world time saver than a higher PPM rating.",
-  },
-  {
-    criterion: "Match speed tier to actual volume, not aspirational volume",
-    explanation:
-      "The fastest pick in this list, the Canon MF753Cdw II at $491, is a poor value for a home office printing a handful of pages a day, while a budget inkjet like the HP DeskJet 4355 will feel slow for someone regularly printing 50-page reports. Buy for your real weekly page count, not your busiest hypothetical day.",
-  },
+    "criterion": "Consider ink versus toner cost per page for your actual print volume, not just the printer's price",
+    "explanation": "An inkjet printer is typically cheaper to buy upfront but has a meaningfully higher cost per printed page than a laser printer using toner, a gap that adds up significantly over months of real use at moderate to high volume, while a laser printer costs more initially but can work out cheaper in total ownership cost if you print regularly.\n\nThis matters directly based on your actual expected volume, a low-volume occasional printer may never recoup a laser printer's higher upfront cost, while a high-volume home office likely will.\n\nCheck the manufacturer's stated or estimated cost-per-page for both ink and toner options, and weigh that against your realistic monthly print volume, not just the printer's sticker price."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,77 +359,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Print Pattern: Bursty vs Sustained",
-    intro:
-      "Most home offices print in short bursts, a smaller number regularly print long sustained runs, these need different picks.",
-    table: {
-      headers: ["Your typical print job", "What matters most", "Best pick"],
-      rows: [
-        ["A page or two, several times a day", "Fast first-page-out, low warm-up", "Brother DCP-L2640DW"],
-        ["Occasional single pages, tight budget", "Quick-enough readiness, low price", "HP DeskJet 4355"],
-        ["Regular multi-page reports", "Sustained speed, ADF, duplex", "Brother HL-L3220CDW"],
-        ["High daily volume, mixed formats", "Fastest rated sustained PPM", "Canon Color imageCLASS MF753Cdw II"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Rated PPM vs What to Actually Expect",
-    intro:
-      "Treat the box's PPM number as a ceiling for simple text, not a promise for your actual documents.",
-    table: {
-      headers: ["Document type", "Speed relative to rated PPM", "Picks best suited"],
-      rows: [
-        ["Plain text, simple formatting", "Closest to the rated figure", "Brother HL-L3220CDW, Canon MF753Cdw II"],
-        ["Mixed text and images", "Noticeably slower than rated PPM", "Any pick, expect a real-world slowdown"],
-        ["Photo-heavy or dense graphics", "Slowest relative to rated PPM", "None of these picks are optimized for this, consider a dedicated photo printer instead"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $69",
+          "Canon PIXMA TR4720 All"
+        ],
+        [
+          "Up to $491",
+          "Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Speed-by-Quality-Mode Trade-Off",
-    cards: [
+    "subheading": "Duplex vs Simplex Printing",
+    "cards": [
       {
-        label: "Draft mode",
-        text: "Fastest setting on any inkjet pick here, best for internal drafts or documents where sharpness doesn't matter.",
+        "label": "Duplex (auto two-sided)",
+        "text": "Prints both sides automatically, saves paper and time for double-sided documents. In this comparison: Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer, Brother HL, Brother DCP, Brother INKvestment 5010 Wireless Color Inkjet All, Brother Work Smart 1360 Wireless Color Inkjet All."
       },
       {
-        label: "Normal mode",
-        text: "A middle ground most home office printing defaults to, balancing speed and readability.",
-      },
-      {
-        label: "Best-quality mode",
-        text: "Can take considerably longer per page than draft mode, reserve it for final copies or documents going out the door.",
-      },
+        "label": "Simplex only",
+        "text": "Usually cheaper, fine if you rarely need double-sided printing. In this comparison: Epson EcoTank ET, Canon PIXMA TR4720 All, HP DeskJet 4355 Wireless All."
+      }
     ],
-    note: "The Brother Work Smart 1360 explicitly supports multiple quality modes, worth checking your printer's settings menu for a similar option if speed on routine jobs matters.",
+    "note": "Default to duplex unless you're confident your printing is mostly single-sided."
   },
   {
-    subheading: "Duplex and Document Feeder Time Savings",
-    intro:
-      "These features cut total task time independent of a printer's PPM rating.",
-    table: {
-      headers: ["Feature", "Time saved on", "Available on"],
-      rows: [
-        ["Automatic duplex", "Two-sided documents, no manual flip-reload", "Brother HL-L3220CDW, Brother DCP-L2640DW, Canon MF753Cdw II, Brother INKvestment 5010, Brother Work Smart 1360"],
-        ["Automatic document feeder", "Multi-page scans and copies", "Canon MF753Cdw II, Epson EcoTank ET-4800, Canon PIXMA TR4720"],
-      ],
-    },
+    "subheading": "By Scan Resolution",
+    "note": "Check each pick's listed optical scan resolution in DPI against how you'll actually use scanning before buying, not just print specs. Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "When the Fastest Pick Is Worth the Price",
-    intro:
-      "The $491 Canon MF753Cdw II is the fastest sustained option here, but it's only the right buy for specific volume.",
-    cards: [
+    "subheading": "For Scanning Contracts or Receipts Specifically",
+    "cards": [
       {
-        label: "Buy it if",
-        text: "Your home office regularly prints 100 or more pages a week, or you routinely need scan, copy, and fax alongside fast color output.",
+        "label": "Look for",
+        "text": "A disclosed optical scan resolution in DPI high enough to keep fine print legible, not just the printer's overall feature list."
       },
       {
-        label: "Skip it if",
-        text: "Your printing is occasional or bursty, a mid-tier pick like the Brother HL-L3220CDW or Brother DCP-L2640DW will feel just as fast in daily use at a fraction of the price.",
-      },
-    ],
+        "label": "In this comparison",
+        "text": "Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer is worth checking against its listed scan resolution before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You print regularly at moderate to high volume, where Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer's duty cycle and cost-per-page give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only print occasionally at low volume, where Canon PIXMA TR4720 All covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

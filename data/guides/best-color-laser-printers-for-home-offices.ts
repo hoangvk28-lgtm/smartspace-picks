@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31d5wmSRcAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FP3LJ74G?tag=deskfinds0d-20",
     description:
-      "This is the only genuine color laser printer in this roundup, with a full all-in-one set of scanner, copier, fax, and auto document feeder built around a 35 ppm engine and a 3-year limited warranty. Toner fuses to the page instead of soaking in like ink, so text and line graphics come out sharp and don't feather on plain paper.\n\nThe tradeoff is the price and footprint: four toner drums push the upfront cost well above every inkjet on this list, and color laser bodies run physically larger than mono laser or inkjet printers. It's the right call for a home office that prints color charts, letterhead, or graphics at real volume and wants toner that never dries out sitting idle.",
+      "This is the only genuine color laser printer in this roundup, with a full all-in-one set of scanner, copier, fax, and auto document feeder built around a 35 ppm engine and a 3-year limited warranty. Toner fuses to the page instead of soaking in like ink, so text and line graphics come out sharp and don't feather on plain paper.\n\nThe tradeoff is the price and footprint: four toner drums push the upfront cost well above every inkjet on this list, and color laser bodies run physically larger than mono laser or inkjet printers. It's the right call for a home office that prints color charts, letterhead, or graphics at real volume and wants toner that never dries out sitting idle.\n\nFast 35 ppm rated speed. That's a real strength, but weigh it against the flip side: highest upfront price in this list by a wide margin.",
     specs: [
       "True 4-toner color laser engine",
       "35 ppm print speed",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31JMZ0fsKTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FC5KYF71?tag=deskfinds0d-20",
     description:
-      "This is a color ink-tank printer, not a laser, and we're honest about that distinction upfront since its price sits close to the true laser pick above. It refills from bottles instead of cartridges, with up to 3 years of ink included, a large 2.4-inch color touchscreen, and an auto document feeder for multi-page scanning.\n\nFor color photos and graphics, an ink-tank engine like this actually beats color laser on gradients and skin tones, while text stays a step behind laser sharpness. It's a strong pick for a home office that mixes color photo printing with documents and doesn't need laser-grade text volume.",
+      "This is a color ink-tank printer, not a laser, and we're honest about that distinction upfront since its price sits close to the true laser pick above. It refills from bottles instead of cartridges, with up to 3 years of ink included, a large 2.4-inch color touchscreen, and an auto document feeder for multi-page scanning.\n\nFor color photos and graphics, an ink-tank engine like this actually beats color laser on gradients and skin tones, while text stays a step behind laser sharpness. It's a strong pick for a home office that mixes color photo printing with documents and doesn't need laser-grade text volume.\n\nWorth calling out specifically: up to 3 years of included ink lowers running cost. The catch is not a laser, text is slightly softer than the Canon pick.",
     specs: [
       "Color ink-tank (supertank) engine, not laser",
       "Up to 3 years of ink included",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31C067ZosFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FGCCWV6T?tag=deskfinds0d-20",
     description:
-      "This is a standard cartridge color inkjet, included here as a realistic mid-price alternative to the true color laser above rather than a laser itself. The INKvestment cartridge system holds more ink than typical inkjet cartridges, a 1.8-inch color display keeps navigation simple, and a manual feed slot handles envelopes or thicker stock without a second tray.\n\nAt under half the price of the Canon laser, it covers color charts and letterhead for a light-to-moderate home office, though standard cartridges can dry out if the printer sits unused for 2-4 weeks, a maintenance consideration laser buyers don't have.",
+      "This is a standard cartridge color inkjet, included here as a realistic mid-price alternative to the true color laser above rather than a laser itself. The INKvestment cartridge system holds more ink than typical inkjet cartridges, a 1.8-inch color display keeps navigation simple, and a manual feed slot handles envelopes or thicker stock without a second tray.\n\nAt under half the price of the Canon laser, it covers color charts and letterhead for a light-to-moderate home office, though standard cartridges can dry out if the printer sits unused for 2-4 weeks, a maintenance consideration laser buyers don't have.\n\nHigher-capacity cartridges than typical inkjets. Set against that, standard cartridges can dry out during idle periods. Both matter when comparing it to the other picks here.",
     specs: [
       "Standard cartridge color inkjet, not laser",
       "INKvestment higher-capacity cartridges",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41MuruhvCqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GPFHCYK7?tag=deskfinds0d-20",
     description:
-      "Another cartridge color inkjet, not a laser, and by far one of the cheapest ways into color home-office printing in this roundup. It covers print, scan, copy, and duplex printing with an auto document feeder, plus a 3-month Instant Ink trial to soften the first few months of cartridge cost.\n\nAt this price it's meant for lighter color printing, occasional charts, forms, or letterhead, not the sustained volume the Canon laser is built for. Buyers should budget for standard-cartridge idle-ink risk and a higher long-term cost per page if volume grows.",
+      "Another cartridge color inkjet, not a laser, and by far one of the cheapest ways into color home-office printing in this roundup. It covers print, scan, copy, and duplex printing with an auto document feeder, plus a 3-month Instant Ink trial to soften the first few months of cartridge cost.\n\nAt this price it's meant for lighter color printing, occasional charts, forms, or letterhead, not the sustained volume the Canon laser is built for. Buyers should budget for standard-cartridge idle-ink risk and a higher long-term cost per page if volume grows.\n\nA genuine advantage here is that duplex printing and Instant Ink trial included. The tradeoff is not a laser, cost per page rises with volume.",
     specs: [
       "Standard cartridge color inkjet, not laser",
       "Auto document feeder, duplex printing",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/312N971RNPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FGCH2QK2?tag=deskfinds0d-20",
     description:
-      "A step up from its J4355DW sibling, this cartridge color inkjet, not a laser, adds a 2.7-inch color touchscreen and a second paper tray, useful for a home office that keeps letterhead loaded separately from plain paper. INKvestment cartridges again mean fewer refills than a typical inkjet.\n\nIt still shares the same idle-ink and cost-per-page tradeoffs as any inkjet against the Canon laser, but the dual-tray setup is a genuinely practical feature for mixed-paper home office printing that none of the other inkjet picks here offer.",
+      "A step up from its J4355DW sibling, this cartridge color inkjet, not a laser, adds a 2.7-inch color touchscreen and a second paper tray, useful for a home office that keeps letterhead loaded separately from plain paper. INKvestment cartridges again mean fewer refills than a typical inkjet.\n\nIt still shares the same idle-ink and cost-per-page tradeoffs as any inkjet against the Canon laser, but the dual-tray setup is a genuinely practical feature for mixed-paper home office printing that none of the other inkjet picks here offer.\n\nLarger touchscreen than the J4355DW. That's a real strength, but weigh it against the flip side: not a laser, text softer than the Canon pick.",
     specs: [
       "Standard cartridge color inkjet, not laser",
       "2.7-inch color touchscreen",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31G4p897b8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09P45LR5T?tag=deskfinds0d-20",
     description:
-      "A more affordable ink-tank printer than the ET-4950, and again not a laser despite covering the same color home-office use case. It adds an Ethernet port alongside wireless, useful for a home office that wants a wired network connection instead of relying on Wi-Fi stability, plus scanner, copier, fax, and ADF.\n\nInk-tank refills avoid the idle-ink drying issue that affects standard cartridge inkjets, though its color photo quality, while good, still trails a true color laser's text sharpness for dense charts and small fonts.",
+      "A more affordable ink-tank printer than the ET-4950, and again not a laser despite covering the same color home-office use case. It adds an Ethernet port alongside wireless, useful for a home office that wants a wired network connection instead of relying on Wi-Fi stability, plus scanner, copier, fax, and ADF.\n\nInk-tank refills avoid the idle-ink drying issue that affects standard cartridge inkjets, though its color photo quality, while good, still trails a true color laser's text sharpness for dense charts and small fonts.\n\nWorth calling out specifically: no cartridges, refill from bottles. The catch is not a laser, text softer than the Canon pick.",
     specs: [
       "Color ink-tank engine, not laser",
       "Ethernet port plus wireless",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/418KMpgzGBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CT8ZJ7ZC?tag=deskfinds0d-20",
     description:
-      "The lowest price in this entire roundup, and another standard cartridge inkjet rather than a laser. It shares the 8125's ADF and duplex printing, with a 3-month Instant Ink trial tied to HP's subscription enrollment, which can make sense for buyers who plan to stay enrolled but adds a decision to budget for once the trial ends.\n\nAs the cheapest way into this list, it's best suited to light color printing rather than sustained home-office volume, where the Canon laser or an ink-tank pick will cost less per page over a few years.",
+      "The lowest price in this entire roundup, and another standard cartridge inkjet rather than a laser. It shares the 8125's ADF and duplex printing, with a 3-month Instant Ink trial tied to HP's subscription enrollment, which can make sense for buyers who plan to stay enrolled but adds a decision to budget for once the trial ends.\n\nAs the cheapest way into this list, it's best suited to light color printing rather than sustained home-office volume, where the Canon laser or an ink-tank pick will cost less per page over a few years.\n\nADF and duplex printing included. Set against that, instant Ink subscription terms need to be tracked after the trial. Both matter when comparing it to the other picks here.",
     specs: [
       "Standard cartridge color inkjet, not laser",
       "Auto document feeder, duplex printing",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/319DqCyLa3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09TRZLPXP?tag=deskfinds0d-20",
     description:
-      "A standard cartridge color inkjet, not a laser, built with photo printing as a stronger focus than the other inkjet picks here, alongside copier, scanner, fax, and an auto document feeder. AirPrint and Alexa compatibility round out a home office that wants voice or mobile printing without extra setup.\n\nIt handles the occasional printed photo alongside documents better than the Canon laser above, which is the honest reason to pick it over a true color laser if photo quality matters more to your workflow than sharp text at volume.",
+      "A standard cartridge color inkjet, not a laser, built with photo printing as a stronger focus than the other inkjet picks here, alongside copier, scanner, fax, and an auto document feeder. AirPrint and Alexa compatibility round out a home office that wants voice or mobile printing without extra setup.\n\nIt handles the occasional printed photo alongside documents better than the Canon laser above, which is the honest reason to pick it over a true color laser if photo quality matters more to your workflow than sharp text at volume.\n\nA genuine advantage here is that full all-in-one feature set with fax and ADF. The tradeoff is not a laser, text sharpness trails the Canon MF753Cdw II.",
     specs: [
       "Standard cartridge color inkjet, not laser",
       "Photo-focused print quality",
@@ -328,40 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "True color laser is rare and pricier than it sounds",
-    explanation:
-      "Only one printer in this list, the Canon MF753Cdw II at $491, is an actual color laser. A genuine color laser engine needs four separate toner drums instead of one, which is why color laser printers routinely cost 2-4x more than a comparable color inkjet or ink-tank model.",
+    "criterion": "Understand duty cycle as a maximum ceiling, not a healthy day-to-day volume",
+    "explanation": "A printer's rated duty cycle is the absolute maximum number of pages it can print in a month before risking premature wear, not a figure representing comfortable, sustained daily use, printing consistently near that ceiling month after month accelerates wear on the print mechanism well beyond what the same printer would experience at a more moderate, realistic volume.\n\nThis matters because buying a printer rated just barely above your expected monthly volume often means running it closer to its stress limit than its comfortable operating range.\n\nCheck the listed duty cycle figure, and target a printer rated at 3 to 5 times your actual expected monthly volume for genuinely comfortable long-term use, not a printer rated just above what you think you'll print."
   },
   {
-    criterion: "Color laser's true cost per page beats mono laser and inkjet only at real volume",
-    explanation:
-      "Four toners cost more to replace than one, so color laser's per-page cost is often higher than mono laser and can even run close to inkjet at low volume. It only pulls ahead once you're printing several hundred color pages a month, so light users rarely recoup the upfront premium.",
+    "criterion": "Match multi-user wifi sharing to how many people will actually print from it",
+    "explanation": "A printer's wireless sharing capability varies in real-world reliability between models, some handle multiple simultaneous connection requests from different devices smoothly, while others can drop connections or queue print jobs unreliably when more than one person tries to print around the same time.\n\nThis matters directly for a shared home office or household with multiple people printing throughout the day, less for a single dedicated user.\n\nCheck reviews specifically for mentions of multi-device wifi reliability, not just whether wireless printing is listed as a supported feature, since the feature existing and working reliably under real multi-user load aren't the same thing."
   },
   {
-    criterion: "Color laser is honestly weaker at photos than a good inkjet",
-    explanation:
-      "Toner handles text, charts, and solid graphics very well, but it struggles with photographic gradients and skin tones compared to a quality inkjet or ink-tank printer. If photo printing matters as much as documents, the Epson EcoTank or Canon PIXMA TR8620a in this list will outperform the laser pick.",
+    "criterion": "Check scan resolution against what you're actually digitizing, not just print quality",
+    "explanation": "Print quality specs get most of the attention in printer listings, but scan resolution, measured in DPI, determines whether a scanned document stays genuinely readable when zoomed in or printed again later, and this spec is often buried or only briefly mentioned compared to print specs.\n\nThis matters more if you regularly scan contracts, receipts, or other documents where legibility of fine print matters, less if scanning is an occasional, low-stakes task.\n\nCheck the listed optical scan resolution in DPI specifically, not just the printer's overall feature list, if document scanning is a real part of your workflow."
   },
   {
-    criterion: "Budget for the fuser unit on a color laser",
-    explanation:
-      "A color laser's fuser typically needs replacing every 50,000-100,000 pages at roughly $40-80, a maintenance cost separate from toner that most buyers don't plan for. Factor this into a multi-year cost estimate if you're leaning toward the true laser pick.",
+    "criterion": "Weigh whether legacy features like fax are worth paying for in a 2026 home office",
+    "explanation": "Many home-office printers still bundle a fax feature as a holdover from an earlier era, adding to the printer's cost and complexity even though most home offices in 2026 will genuinely never use it, having largely moved to email and digital document sharing entirely.\n\nThis matters for value, paying for a feature you'll never touch is a real, if often overlooked, inefficiency when a fax-free model at a lower price covers the same core printing and scanning needs.\n\nCheck whether fax is a genuine requirement for your specific situation before treating its presence as a meaningful selling point, and consider a fax-free model if it isn't."
   },
   {
-    criterion: "Physical footprint is meaningfully bigger on color laser",
-    explanation:
-      "Four toner drums need real internal space, so color laser printers are noticeably larger than mono laser or inkjet models. Measure your desk or cabinet clearance before buying the Canon pick, since it won't fit where a compact inkjet would.",
-  },
-  {
-    criterion: "Ink-tank is the realistic middle ground for most home offices",
-    explanation:
-      "The Epson EcoTank picks in this list avoid both the idle-ink drying risk of standard cartridges and the high upfront cost of true color laser, refilling from bottles instead. For a home office that wants lower running costs without a $400+ laser purchase, ink-tank is usually the better fit.",
-  },
-  {
-    criterion: "Standard cartridge inkjets carry a real idle-ink risk laser avoids",
-    explanation:
-      "Any cartridge inkjet in this list, including the Brother and HP picks, can see cartridges dry out after 2-4 weeks of no use, triggering wasted cleaning cycles. Toner in the Canon laser doesn't have this problem, one of the genuine advantages of laser beyond speed.",
-  },
+    "criterion": "Consider ink versus toner cost per page for your actual print volume, not just the printer's price",
+    "explanation": "An inkjet printer is typically cheaper to buy upfront but has a meaningfully higher cost per printed page than a laser printer using toner, a gap that adds up significantly over months of real use at moderate to high volume, while a laser printer costs more initially but can work out cheaper in total ownership cost if you print regularly.\n\nThis matters directly based on your actual expected volume, a low-volume occasional printer may never recoup a laser printer's higher upfront cost, while a high-volume home office likely will.\n\nCheck the manufacturer's stated or estimated cost-per-page for both ink and toner options, and weigh that against your realistic monthly print volume, not just the printer's sticker price."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -374,62 +359,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What You Actually Print Most",
-    intro:
-      "The 'color laser' framing hides a real fork in the road between text-heavy and photo-heavy home office printing.",
-    table: {
-      headers: ["What you print most", "Best fit", "Best pick"],
-      rows: [
-        ["Dense text, charts, letterhead at volume", "True color laser", "Canon Color imageCLASS MF753Cdw II"],
-        ["Mixed color photos and documents", "Ink-tank", "Epson EcoTank ET-4950 or ET-4800"],
-        ["Occasional color, light document use", "Budget cartridge inkjet", "HP OfficeJet Pro 8125e or 8125"],
-        ["Photos as often as documents", "Photo-leaning inkjet", "Canon PIXMA TR8620a"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "3-Year Cost Profile: Laser vs Ink-Tank vs Cartridge Inkjet",
-    intro:
-      "Directional cost comparison based on stated technology and upfront price, not measured lab data.",
-    table: {
-      headers: ["Technology", "Upfront cost range", "3-year cost profile"],
-      rows: [
-        ["True color laser (Canon MF753Cdw II)", "$491", "Highest upfront, lowest per-page cost at high volume, plus a future fuser replacement"],
-        ["Ink-tank (Epson EcoTank picks)", "$200-425", "Mid-to-high upfront, low per-page cost, no cartridges to buy"],
-        ["Cartridge inkjet (Brother, HP, Canon picks)", "$65-280", "Lowest to mid upfront, highest per-page cost at real volume"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
-    note: "These are directional comparisons based on stated print technology and cartridge or toner economics, not measured results, use them to guide the shape of the decision.",
+      "rows": [
+        [
+          "Under $100",
+          "HP OfficeJet Pro 8125e Wireless All"
+        ],
+        [
+          "Up to $491",
+          "Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "When a Color Laser Actually Pays Off",
-    cards: [
+    "subheading": "Duplex vs Simplex Printing",
+    "cards": [
       {
-        label: "It pays off when",
-        text: "You print several hundred color pages a month of mostly text, charts, or letterhead, and want toner that never dries out between print jobs.",
+        "label": "Duplex (auto two-sided)",
+        "text": "Prints both sides automatically, saves paper and time for double-sided documents. In this comparison: Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer, HP OfficeJet Pro 8125 Wireless All, HP OfficeJet Pro 8125e Wireless All."
       },
       {
-        label: "It doesn't pay off when",
-        text: "You print occasionally, mostly photos, or fewer than roughly 100 color pages a month, where an ink-tank or cartridge inkjet costs far less upfront and catches up on cost per page slower than you'd think.",
-      },
-      {
-        label: "The middle ground",
-        text: "Most home offices land here: an ink-tank printer like the Epson EcoTank ET-4800 covers moderate color volume without the laser's price or footprint.",
-      },
+        "label": "Simplex only",
+        "text": "Usually cheaper, fine if you rarely need double-sided printing. In this comparison: Epson EcoTank ET, Brother INKvestment MFC, Brother INKvestment MFC, Epson EcoTank ET, Canon PIXMA TR8620a All."
+      }
     ],
+    "note": "Default to duplex unless you're confident your printing is mostly single-sided."
   },
   {
-    subheading: "Desk and Cabinet Space Check",
-    intro:
-      "Color laser bodies run noticeably larger than inkjet or ink-tank printers because of the four toner drums.",
-    note: "Measure available depth and height before buying the Canon MF753Cdw II specifically, since it won't fit in the same footprint as any of the inkjet or ink-tank picks in this list.",
+    "subheading": "By Scan Resolution",
+    "note": "Check each pick's listed optical scan resolution in DPI against how you'll actually use scanning before buying, not just print specs. Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Mixed-Use Households: Occasional Color, Frequent B&W",
-    intro:
-      "If most of your printing is black-and-white with occasional color, a dedicated color laser can leave color toner sitting unused long enough to raise questions about shelf life.",
-    note: "Opened color toner has a shelf life of roughly 2 years. If color printing is genuinely occasional, an ink-tank or cartridge inkjet avoids stocking toner you rarely touch.",
+    "subheading": "For Scanning Contracts or Receipts Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A disclosed optical scan resolution in DPI high enough to keep fine print legible, not just the printer's overall feature list."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer is worth checking against its listed scan resolution before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You print regularly at moderate to high volume, where Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer's duty cycle and cost-per-page give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only print occasionally at low volume, where HP OfficeJet Pro 8125e Wireless All covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [
