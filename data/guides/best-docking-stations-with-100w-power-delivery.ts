@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "A 100W-rated dock delivers roughly 82-90W to the laptop, not 100W",
-    explanation:
-      "Every dock's own hardware, chipset, USB controllers, and display output circuitry, uses 10-15W from its rated power budget just to run itself. A dock advertised as 100W PD is delivering approximately 82-90W to the connected laptop in practice. Budget around this real number rather than the rated one when deciding if a dock can keep your laptop charged under load.",
+    "criterion": "Check the real power delivery wattage, not just \"PD\" in the listing",
+    "explanation": "Power delivery (PD) wattage determines whether a dock can actually charge your laptop while it's connected, not just pass a trickle of power through, and this number varies widely, from 60W barely-adequate figures up to 100W or higher business-tier docks.\n\nThis matters because a dock rated below what your laptop actually needs to charge under load, especially a larger laptop or one running demanding tasks while docked, will slowly drain the battery even while \"charging\", a frustrating and easy-to-miss problem.\n\nCheck the listing for the specific PD wattage number, and compare it against your laptop's actual charging brick wattage, not just whether the listing mentions power delivery at all."
   },
   {
-    criterion: "Match the dock's wattage to what your laptop actually needs",
-    explanation:
-      "A MacBook Air needs about 45W, so a 100W dock is more than adequate with headroom to spare. A MacBook Pro 16\" needs a 140W stock adapter, so a 100W dock will charge it slowly under sustained load and the battery may still drain during heavy work. Gaming laptops typically need 180-230W, well beyond what any dock in this list can supply, so treat a 100W dock as a desk-charging convenience rather than a full replacement for the original charger on high-draw laptops.",
+    "criterion": "Verify actual display support against your specific laptop and GPU, not just port count",
+    "explanation": "A dock listing multiple HDMI or DisplayPort outputs doesn't guarantee your laptop can actually drive all of them at full resolution and refresh rate simultaneously, that capability depends on your laptop's specific GPU and USB-C controller, which some docks work around using DisplayLink technology and others don't.\n\nThis distinction matters a lot if you're building a dual or triple monitor setup, since a laptop that can't natively drive multiple external displays will show a blank or mirrored screen on a non-DisplayLink dock's extra port, regardless of how many ports the dock has.\n\nCheck whether the dock uses native DisplayPort Alt Mode or DisplayLink chip technology, and separately verify your specific laptop model's documented maximum number of external displays before assuming any multi-port dock will drive them all."
   },
   {
-    criterion: "Standard USB PD tops out at 100W; only PD 3.1 EPR goes higher",
-    explanation:
-      "Standard USB Power Delivery has a hard ceiling of 100W to a single device. USB PD 3.1 Extended Power Range (EPR) can reach up to 240W, but only specialty docks support EPR, mainstream \"100W\" docks, including every pick in this list, do not. If you need more than 100W delivered to a gaming laptop or mobile workstation, a standard 100W or even a \"160W-rated\" dock like the Anker Prime still can't exceed the 100W ceiling to one device without EPR support.",
+    "criterion": "Match data transfer speeds and Ethernet to what you actually move and how",
+    "explanation": "USB data ports on a dock range widely in real transfer speed, from basic 480Mbps USB 2.0 speeds up to 10Gbps or higher, a gap that matters enormously if you regularly move large files to and from external drives, but barely matters if you're just charging a mouse and keyboard.\n\nEthernet port speed follows the same logic, a dock's Gigabit or 2.5Gb Ethernet port is only as fast as your actual home or office network infrastructure supports, so paying for 2.5Gb Ethernet on a network that tops out at Gigabit gains nothing.\n\nCheck the specific listed speed for each port type you'll actually use regularly, and compare Ethernet speed against your router's actual rated speed, not just the dock's spec sheet in isolation."
   },
   {
-    criterion: "Downstream USB charging competes with the laptop's power share",
-    explanation:
-      "A dock's rated wattage is split between the laptop and any connected USB-A or USB-C peripherals drawing power. Charging phones, tablets, or other devices through the dock at the same time reduces the wattage available to the laptop, which can noticeably slow laptop charging in heavy multi-device setups.",
+    "criterion": "Confirm compatibility with your specific laptop's USB-C or Thunderbolt port",
+    "explanation": "Not every USB-C port supports the same features, some laptops only support USB-C data and charging without any video output over that port at all, while others support full Thunderbolt with much higher bandwidth for multiple 4K displays.\n\nDocks built around Thunderbolt certification generally support more demanding multi-display and high-speed configurations, but require a genuinely Thunderbolt-capable port on your laptop to unlock that performance, plugging a Thunderbolt dock into a USB-C-only port still works but loses the extra bandwidth.\n\nCheck your specific laptop's documented port capabilities (Thunderbolt 3, Thunderbolt 4, or USB-C without Thunderbolt), not just that it has a USB-C-shaped port, before assuming any docking station will unlock its full advertised capability."
   },
   {
-    criterion: "Don't replace the dock's power brick with a smaller charger",
-    explanation:
-      "Swapping a dock's included power supply for a smaller third-party GaN charger reduces the actual PD wattage the dock can deliver, regardless of the dock's rated spec. The power brick's own wattage must match or exceed the dock's PD rating for the dock to deliver anywhere close to its advertised number.",
-  },
-  {
-    criterion: "Check per-port display specs, not just a headline resolution number",
-    explanation:
-      "A dock advertising triple-display or 8K support often splits capability unevenly across ports, for example one HDMI port at 4K@30Hz while the others run 1080p@60Hz, as seen on the Plugable Triple Display dock in this list. Confirm the resolution and refresh rate for the specific port you plan to use rather than assuming every port matches the headline spec.",
-  },
+    "criterion": "Consider heat and long-term reliability under sustained daily use",
+    "explanation": "A docking station that stays plugged in and under load for 8+ hours a day handles thermal stress very differently than a hub used occasionally for a quick file transfer, and a compact plastic-bodied dock with no real heat dissipation can throttle performance or degrade faster under that kind of sustained daily use than an aluminum-bodied one.\n\nThis matters more for anyone using the dock as their primary daily workstation setup than for occasional or travel use.\n\nCheck reviews specifically for mentions of the dock running hot, disconnecting intermittently after extended use, or degrading over months, rather than relying on the unboxing-day performance most reviews describe."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,73 +359,102 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Rated PD vs. Effective Wattage to the Laptop",
-    intro:
-      "Every dock in this list loses 10-15W to its own overhead before power reaches the laptop. This table applies that gap to the picks here.",
-    table: {
-      headers: ["Dock", "Rated PD", "Approx. effective wattage to laptop"],
-      rows: [
-        ["Plugable Thunderbolt 4 Dock (TBT-UDM)", "100W", "~82-90W"],
-        ["Anker Prime 14-Port", "160W total budget", "Up to 100W to one device (standard PD ceiling)"],
-        ["WAVLINK 13-in-1", "130W", "~112-120W"],
-        ["Plugable Triple Display Dock", "100W", "~82-90W"],
-        ["UGREEN 10-in-1", "100W", "~82-90W"],
-        ["Anker Nano 13-in-1", "100W", "~82-90W"],
-        ["Acer 11-in-1", "100W", "~82-90W"],
-        ["UGREEN 7-in-1 Revodok Pro", "100W", "~82-90W"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Plugable Thunderbolt 4 Dock"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Plugable Thunderbolt 4 Dock"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Laptop Wattage Requirement",
-    intro:
-      "Match the dock to what your specific laptop actually draws, not just the dock's headline PD number.",
-    table: {
-      headers: ["Laptop type", "Typical charging need", "Fit for a 100W-class dock"],
-      rows: [
-        ["MacBook Air", "~45W", "Excellent fit, plenty of headroom"],
-        ["Thin-and-light Windows ultrabook", "~45-65W", "Good fit"],
-        ["MacBook Pro 16\"", "~140W stock adapter", "Charges slower under sustained load; expect battery drain during heavy work"],
-        ["Gaming laptop", "~180-230W", "Not sufficient; use the original charger during demanding sessions"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $27",
+          "UGREEN 7"
+        ],
+        [
+          "Up to $200",
+          "Plugable Thunderbolt 4 Dock"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Display Needs",
-    cards: [
+    "subheading": "Thunderbolt vs USB-C Only",
+    "cards": [
       {
-        label: "Need three full-resolution displays",
-        text: "The WAVLINK 13-in-1 offers dual 5K/4K@60Hz via DisplayLink, and the Acer 11-in-1 covers 3 monitors including an 8K DisplayPort output, both stronger fits than a mixed-resolution triple-display dock.",
+        "label": "Thunderbolt-certified",
+        "text": "Higher bandwidth for demanding multi-display and high-speed data setups, but requires a genuinely Thunderbolt-capable laptop port. In this comparison: Plugable Thunderbolt 4 Dock, UGREEN 10, Acer Laptop Docking Station."
       },
       {
-        label: "Need three displays but can accept mixed resolution",
-        text: "The Plugable Triple Display Dock runs one 4K@30Hz HDMI port alongside two 1080p@60Hz ports, a real trade-off worth confirming before buying.",
-      },
-      {
-        label: "Need Thunderbolt-certified guaranteed bandwidth",
-        text: "The Plugable TBT-UDM is the only Thunderbolt Certified pick in this list, guaranteeing daisy-chain and display bandwidth that USB-C docks don't formally guarantee.",
-      },
-      {
-        label: "Want the smallest, most portable option",
-        text: "The UGREEN 7-in-1 Revodok Pro is the most compact and cheapest pick, well-suited to travel or a small desk.",
-      },
+        "label": "USB-C only",
+        "text": "Usually cheaper and works with any USB-C laptop, but with less headroom for multiple high-resolution displays. In this comparison: Anker Prime Docking Station, WAVLINK USB C Docking Station, Plugable USB C Triple Display Docking Station, Anker Nano 13, UGREEN 7."
+      }
     ],
+    "note": "Default to USB-C only unless your laptop has a genuine Thunderbolt port and you need the extra display or data bandwidth."
   },
   {
-    subheading: "By Port Selection and Budget",
-    intro:
-      "Port count and price vary widely across these picks, from a $26.96 compact hub to a $199.95 certified dock.",
-    table: {
-      headers: ["Priority", "Best pick", "Why"],
-      rows: [
-        ["Maximum ports and peripheral charging headroom", "Anker Prime 14-Port", "160W total budget spread across 14 ports"],
-        ["Best all-around certified dock", "Plugable TBT-UDM", "Thunderbolt Certified with guaranteed specs"],
-        ["Best value with SD card reader", "UGREEN 10-in-1", "100W PD, dual 4K@60Hz, SD/TF reader under $40"],
-        ["Absolute lowest price", "UGREEN 7-in-1 Revodok Pro", "$26.96 with dual 4K@60Hz support"],
+    "subheading": "By Ethernet Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "Never replace a dock's included power brick with a smaller third-party GaN charger; doing so reduces the actual PD wattage delivered regardless of the dock's rated spec.",
+      "rows": [
+        [
+          "Wired Ethernet needed",
+          "Plugable Thunderbolt 4 Dock"
+        ],
+        [
+          "Wi-Fi only is fine",
+          "Plugable USB C Triple Display Docking Station"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a Dual or Triple Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Native DisplayPort Alt Mode or DisplayLink chip technology, verified against your specific laptop's documented maximum external display count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Plugable Thunderbolt 4 Dock is worth checking against its listed display support before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need reliable multi-display support and full-speed charging under daily sustained use, where Plugable Thunderbolt 4 Dock's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need occasional charging and a single extra port, where UGREEN 7 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

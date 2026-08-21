@@ -327,35 +327,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Confirm your Surface generation actually has USB-C",
-    explanation:
-      "Surface Pro 7 and earlier and Surface Laptop 3 and earlier rely mainly on the proprietary Surface Connect port, with only limited USB-C at best. Surface Pro 8 through 11 and Surface Laptop 4 through 6 added full USB-C and Thunderbolt support. Check your exact model before assuming any USB-C dock will work.",
+    "criterion": "Check the real power delivery wattage, not just \"PD\" in the listing",
+    "explanation": "Power delivery (PD) wattage determines whether a dock can actually charge your laptop while it's connected, not just pass a trickle of power through, and this number varies widely, from 60W barely-adequate figures up to 100W or higher business-tier docks.\n\nThis matters because a dock rated below what your laptop actually needs to charge under load, especially a larger laptop or one running demanding tasks while docked, will slowly drain the battery even while \"charging\", a frustrating and easy-to-miss problem.\n\nCheck the listing for the specific PD wattage number, and compare it against your laptop's actual charging brick wattage, not just whether the listing mentions power delivery at all."
   },
   {
-    criterion: "USB4 is not the same guarantee as certified Thunderbolt",
-    explanation:
-      "USB4 docks are broadly \"should work\" compatible with Thunderbolt devices, but they don't carry the same strict Intel certification that guarantees Thunderbolt 4 or 5 compatibility. If your Surface has a real Thunderbolt port, a certified Thunderbolt dock removes a real source of compatibility risk.",
+    "criterion": "Verify actual display support against your specific laptop and GPU, not just port count",
+    "explanation": "A dock listing multiple HDMI or DisplayPort outputs doesn't guarantee your laptop can actually drive all of them at full resolution and refresh rate simultaneously, that capability depends on your laptop's specific GPU and USB-C controller, which some docks work around using DisplayLink technology and others don't.\n\nThis distinction matters a lot if you're building a dual or triple monitor setup, since a laptop that can't natively drive multiple external displays will show a blank or mirrored screen on a non-DisplayLink dock's extra port, regardless of how many ports the dock has.\n\nCheck whether the dock uses native DisplayPort Alt Mode or DisplayLink chip technology, and separately verify your specific laptop model's documented maximum number of external displays before assuming any multi-port dock will drive them all."
   },
   {
-    criterion: "Do the power delivery math before assuming full charging speed",
-    explanation:
-      "A dock rated for 100W typically delivers about 10-15W less to the laptop once the dock's own circuitry draws its share. For most Surface devices this margin doesn't matter, but it's worth checking against your model's actual charging wattage requirement before assuming full-speed charging.",
+    "criterion": "Match data transfer speeds and Ethernet to what you actually move and how",
+    "explanation": "USB data ports on a dock range widely in real transfer speed, from basic 480Mbps USB 2.0 speeds up to 10Gbps or higher, a gap that matters enormously if you regularly move large files to and from external drives, but barely matters if you're just charging a mouse and keyboard.\n\nEthernet port speed follows the same logic, a dock's Gigabit or 2.5Gb Ethernet port is only as fast as your actual home or office network infrastructure supports, so paying for 2.5Gb Ethernet on a network that tops out at Gigabit gains nothing.\n\nCheck the specific listed speed for each port type you'll actually use regularly, and compare Ethernet speed against your router's actual rated speed, not just the dock's spec sheet in isolation."
   },
   {
-    criterion: "Heavy simultaneous loads can cause disconnects that aren't the dock's fault",
-    explanation:
-      "Running dual displays, a fast file transfer, and a USB drive at the same time can saturate the dock's USB bus, causing random disconnects that get misdiagnosed as a defective dock. If this happens, try disconnecting a non-essential peripheral first before assuming the hardware is faulty.",
+    "criterion": "Confirm compatibility with your specific laptop's USB-C or Thunderbolt port",
+    "explanation": "Not every USB-C port supports the same features, some laptops only support USB-C data and charging without any video output over that port at all, while others support full Thunderbolt with much higher bandwidth for multiple 4K displays.\n\nDocks built around Thunderbolt certification generally support more demanding multi-display and high-speed configurations, but require a genuinely Thunderbolt-capable port on your laptop to unlock that performance, plugging a Thunderbolt dock into a USB-C-only port still works but loses the extra bandwidth.\n\nCheck your specific laptop's documented port capabilities (Thunderbolt 3, Thunderbolt 4, or USB-C without Thunderbolt), not just that it has a USB-C-shaped port, before assuming any docking station will unlock its full advertised capability."
   },
   {
-    criterion: "Check for firmware updates, especially with Surface display flicker",
-    explanation:
-      "Dock makers regularly release firmware updates fixing display flicker and USB dropouts, and this matters more for Surface than for standard laptops because Windows handles external GPU signaling differently on 2-in-1 hardware. If you see flickering at high refresh rates, checking for a firmware update is a genuinely useful first troubleshooting step.",
-  },
-  {
-    criterion: "Prioritize quick-connect convenience over raw port count for tablet use",
-    explanation:
-      "Surface tablets get undocked and redocked far more often than a typical clamshell laptop, so a dock that's fast to connect and disconnect, or one with a stable stand feature, can matter more day to day than having a few extra ports you rarely use.",
-  },
+    "criterion": "Consider heat and long-term reliability under sustained daily use",
+    "explanation": "A docking station that stays plugged in and under load for 8+ hours a day handles thermal stress very differently than a hub used occasionally for a quick file transfer, and a compact plastic-bodied dock with no real heat dissipation can throttle performance or degrade faster under that kind of sustained daily use than an aluminum-bodied one.\n\nThis matters more for anyone using the dock as their primary daily workstation setup than for occasional or travel use.\n\nCheck reviews specifically for mentions of the dock running hot, disconnecting intermittently after extended use, or degrading over months, rather than relying on the unboxing-day performance most reviews describe."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -368,85 +358,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Your Surface Generation",
-    intro:
-      "The single biggest factor in choosing a Surface dock isn't the dock at all, it's confirming your specific Surface generation has the port to support one.",
-    table: {
-      headers: ["Surface model", "Port situation", "Best pick"],
-      rows: [
-        ["Surface Pro 7 or earlier, Surface Laptop 3 or earlier", "Surface Connect port, limited or no USB-C", "Verify USB-C availability before buying any dock here"],
-        ["Surface Pro 8-11, Surface Laptop 4-6 (USB-C only)", "Full USB-C, no Thunderbolt certification", "UGREEN 7-in-1, Anker Nano 8-in-1, Acer 9-in-1"],
-        ["Surface Pro/Laptop with Thunderbolt port", "Full Thunderbolt 4 support", "Plugable 16-in-1 Thunderbolt 4, Plugable TBT-UDM"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Anker Prime Docking Station 14"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Anker Prime Docking Station 14"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Display Needs",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $27",
+          "UGREEN 7"
+        ],
+        [
+          "Up to $270",
+          "Plugable 16"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Thunderbolt vs USB-C Only",
+    "cards": [
       {
-        label: "Just need one extra monitor",
-        text: "The UGREEN 7-in-1 Revodok Pro covers dual 4K@60Hz HDMI at the lowest price in this guide, more than enough for a single-monitor setup.",
+        "label": "Thunderbolt-certified",
+        "text": "Higher bandwidth for demanding multi-display and high-speed data setups, but requires a genuinely Thunderbolt-capable laptop port. In this comparison: Plugable 16, Plugable Thunderbolt 4 Dock, Acer USB, Anker Nano 13."
       },
       {
-        label: "Want dual 4K displays reliably",
-        text: "The Plugable Thunderbolt 4 Dock (TBT-UDM) supports dual 4K HDMI or a single 6K display with certified Thunderbolt reliability behind it.",
-      },
-      {
-        label: "Need 3 displays at once",
-        text: "The Anker Nano 13-in-1 is the only pick in this guide built to drive 3 simultaneous displays.",
-      },
-      {
-        label: "Want the most total ports alongside displays",
-        text: "The Anker Prime 14-Port pairs dual 4K support with the highest port count in this guide.",
-      },
+        "label": "USB-C only",
+        "text": "Usually cheaper and works with any USB-C laptop, but with less headroom for multiple high-resolution displays. In this comparison: Anker Prime Docking Station 14, UGREEN 7, Anker Laptop Docking Station 8, Anker Nano Laptop Docking Station 8."
+      }
     ],
+    "note": "Default to USB-C only unless your laptop has a genuine Thunderbolt port and you need the extra display or data bandwidth."
   },
   {
-    subheading: "By How Often You Undock",
-    intro:
-      "Surface tablets get picked up and carried far more than a typical laptop, so weigh portability alongside specs.",
-    table: {
-      headers: ["Usage pattern", "What matters most", "Best pick"],
-      rows: [
-        ["Undock daily to work from the couch or a meeting room", "Small size, quick reconnect", "Anker Laptop Docking Station 8-in-1"],
-        ["Travel frequently with the Surface", "Compact nano form factor", "Anker Nano Laptop Docking Station 8-in-1"],
-        ["Mostly stays docked at one desk", "Higher port count over portability", "Anker Prime 14-Port, Plugable 16-in-1 Thunderbolt 4"],
-        ["Splits time between desk and travel", "Modular detachable hub", "Anker Nano 13-in-1 Laptop Docking Station"],
-      ],
-    },
+    "subheading": "By Data Transfer Speed",
+    "note": "Check each pick's listed USB data port speed against how often you actually move large files before buying. Anker Prime Docking Station 14 is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Budget", "Best pick", "Why"],
-      rows: [
-        ["Under $30", "UGREEN 7-in-1 Revodok Pro", "Cheapest pick, still covers dual 4K@60Hz"],
-        ["$30-$60", "Anker Nano 8-in-1, Anker Laptop 8-in-1, Acer 9-in-1", "Good balance of ports, portability, and price"],
-        ["$100-$200", "Anker Prime 14-Port, Anker Nano 13-in-1", "Higher port count or triple-display support"],
-        ["$200+", "Plugable 16-in-1 Thunderbolt 4, Plugable TBT-UDM", "Certified Thunderbolt 4 for demanding setups"],
-      ],
-    },
+    "subheading": "For a Dual or Triple Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Native DisplayPort Alt Mode or DisplayLink chip technology, verified against your specific laptop's documented maximum external display count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Anker Prime Docking Station 14 is worth checking against its listed display support before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Troubleshooting Common Surface Dock Issues",
-    intro:
-      "Surface-specific quirks account for most complaints that get blamed on the dock itself.",
-    cards: [
+    "subheading": "When to Spend More",
+    "cards": [
       {
-        label: "Display flickers at high refresh rate",
-        text: "Check for a firmware update first, this is a known Surface-specific issue tied to how Windows handles external GPU signaling on 2-in-1 hardware, not necessarily a bad dock.",
+        "label": "Spend more if",
+        "text": "You need reliable multi-display support and full-speed charging under daily sustained use, where Plugable 16's higher price buys real headroom over the cheaper picks."
       },
       {
-        label: "Random disconnects under heavy load",
-        text: "Dual displays plus a fast transfer plus a USB drive can saturate the dock's USB bus. Try removing one peripheral before assuming the dock is defective.",
-      },
-      {
-        label: "\"Keeps disconnecting\" even at idle",
-        text: "A long, generic USB-C cable between a dock placed far from the Surface is a common hidden cause. Try the dock's included cable at a shorter distance first.",
-      },
-    ],
-    note: "Since Surface tablets undock frequently, also check that the dock's connector doesn't wear loose faster than expected with repeated daily use.",
-  },
+        "label": "Save if",
+        "text": "You only need occasional charging and a single extra port, where UGREEN 7 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

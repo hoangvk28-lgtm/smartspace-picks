@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Base-chip Macs cannot get a native third display, ever",
-    explanation:
-      "A base M1, M2, or M3 MacBook supports only 1 native external display, no dock changes that. M1-M4 Pro chips support 2 native displays, and Max chips support up to 4. Getting a true third display on a base-chip Mac requires DisplayLink, which has its own color and CPU tradeoffs, not a different dock.",
+    "criterion": "Check the real power delivery wattage, not just \"PD\" in the listing",
+    "explanation": "Power delivery (PD) wattage determines whether a dock can actually charge your laptop while it's connected, not just pass a trickle of power through, and this number varies widely, from 60W barely-adequate figures up to 100W or higher business-tier docks.\n\nThis matters because a dock rated below what your laptop actually needs to charge under load, especially a larger laptop or one running demanding tasks while docked, will slowly drain the battery even while \"charging\", a frustrating and easy-to-miss problem.\n\nCheck the listing for the specific PD wattage number, and compare it against your laptop's actual charging brick wattage, not just whether the listing mentions power delivery at all."
   },
   {
-    criterion: "DisplayLink triple output is not color-accurate",
-    explanation:
-      "Any dock driving 3 displays through DisplayLink compresses the signal in software, which means Windows Display Color Calibration and ICC profiles do not apply correctly to those screens. Photographers, video editors, or anyone doing color-critical work should avoid an all-DisplayLink triple setup and prioritize the native Thunderbolt or MST picks in this list instead.",
+    "criterion": "Verify actual display support against your specific laptop and GPU, not just port count",
+    "explanation": "A dock listing multiple HDMI or DisplayPort outputs doesn't guarantee your laptop can actually drive all of them at full resolution and refresh rate simultaneously, that capability depends on your laptop's specific GPU and USB-C controller, which some docks work around using DisplayLink technology and others don't.\n\nThis distinction matters a lot if you're building a dual or triple monitor setup, since a laptop that can't natively drive multiple external displays will show a blank or mirrored screen on a non-DisplayLink dock's extra port, regardless of how many ports the dock has.\n\nCheck whether the dock uses native DisplayPort Alt Mode or DisplayLink chip technology, and separately verify your specific laptop model's documented maximum number of external displays before assuming any multi-port dock will drive them all."
   },
   {
-    criterion: "Check whether all 3 outputs actually hit 4K@60Hz",
-    explanation:
-      "Several docks marketed for 3 monitors only run 1 output at full 4K and cap the other 2 at 1080p, which is a real cost-saving trade but not always obvious from the listing title. If you need 3 matched 4K@60Hz screens, only a subset of picks in this list actually deliver that; check the specs table before assuming.",
+    "criterion": "Match data transfer speeds and Ethernet to what you actually move and how",
+    "explanation": "USB data ports on a dock range widely in real transfer speed, from basic 480Mbps USB 2.0 speeds up to 10Gbps or higher, a gap that matters enormously if you regularly move large files to and from external drives, but barely matters if you're just charging a mouse and keyboard.\n\nEthernet port speed follows the same logic, a dock's Gigabit or 2.5Gb Ethernet port is only as fast as your actual home or office network infrastructure supports, so paying for 2.5Gb Ethernet on a network that tops out at Gigabit gains nothing.\n\nCheck the specific listed speed for each port type you'll actually use regularly, and compare Ethernet speed against your router's actual rated speed, not just the dock's spec sheet in isolation."
   },
   {
-    criterion: "Windows MST is a DisplayLink-free path to 3 displays, if your laptop supports it",
-    explanation:
-      "On a Windows Thunderbolt 4 laptop, MST (multi-stream transport) can drive 3 displays with no drivers and no CPU overhead, but only if your specific laptop's GPU and Thunderbolt controller support MST daisy-chaining. Confirm this before buying a dock specifically for its MST claims, since the dock alone doesn't guarantee it.",
+    "criterion": "Confirm compatibility with your specific laptop's USB-C or Thunderbolt port",
+    "explanation": "Not every USB-C port supports the same features, some laptops only support USB-C data and charging without any video output over that port at all, while others support full Thunderbolt with much higher bandwidth for multiple 4K displays.\n\nDocks built around Thunderbolt certification generally support more demanding multi-display and high-speed configurations, but require a genuinely Thunderbolt-capable port on your laptop to unlock that performance, plugging a Thunderbolt dock into a USB-C-only port still works but loses the extra bandwidth.\n\nCheck your specific laptop's documented port capabilities (Thunderbolt 3, Thunderbolt 4, or USB-C without Thunderbolt), not just that it has a USB-C-shaped port, before assuming any docking station will unlock its full advertised capability."
   },
   {
-    criterion: "Triple-display docks need a dedicated AC power adapter, not bus power",
-    explanation:
-      "Driving 3 4K displays takes real, sustained power that a bus-powered hub simply can't supply while also charging your laptop. Every genuine triple-display pick in this list ships with its own AC power brick rated 100W or higher; treat a bus-powered claim of triple 4K output as a red flag.",
-  },
-  {
-    criterion: "USB peripheral bandwidth competes with triple-display bandwidth",
-    explanation:
-      "Driving 3 displays through DisplayLink consumes a meaningful share of USB bandwidth, which can slow down other USB devices sharing the same controller, like an external SSD or a high-resolution webcam. If you're running a fast external drive alongside triple displays, check whether the dock separates display and data traffic across different controllers.",
-  },
+    "criterion": "Consider heat and long-term reliability under sustained daily use",
+    "explanation": "A docking station that stays plugged in and under load for 8+ hours a day handles thermal stress very differently than a hub used occasionally for a quick file transfer, and a compact plastic-bodied dock with no real heat dissipation can throttle performance or degrade faster under that kind of sustained daily use than an aluminum-bodied one.\n\nThis matters more for anyone using the dock as their primary daily workstation setup than for occasional or travel use.\n\nCheck reviews specifically for mentions of the dock running hot, disconnecting intermittently after extended use, or degrading over months, rather than relying on the unboxing-day performance most reviews describe."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,65 +359,106 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Your Laptop's Chip or GPU",
-    intro:
-      "What your laptop can natively drive determines whether you need a true triple-display dock or can save money with a dual-display dock plus your laptop's own port.",
-    table: {
-      headers: ["Laptop", "Native display capability", "Best pick"],
-      rows: [
-        ["Base M1/M2/M3 MacBook", "1 native external display", "Anker Prime DL7400 or WAVLINK Neo (full DisplayLink triple)"],
-        ["M1-M4 Pro MacBook", "2 native external displays", "Plugable TBT-UDM (native dual) + DisplayLink for a 3rd if needed"],
-        ["M1-M4 Max MacBook", "Up to 4 native external displays", "Plugable TBT-UDM (native, no DisplayLink needed)"],
-        ["Windows laptop with MST-capable TB4 GPU", "3+ native displays via MST", "Dell Pro SD25TB4"],
-        ["Windows laptop, MST support unknown/unsupported", "DisplayLink required for a true 3rd screen", "Anker Prime DL7400 or WAVLINK Neo"],
+    "subheading": "By Power Delivery Wattage",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Around 130W power delivery",
+          "Dell Pro Thunderbolt 4 Smart Dock"
+        ],
+        [
+          "Around 100W power delivery",
+          "Plugable USB C Triple Display Docking Station"
+        ],
+        [
+          "Around 100W power delivery",
+          "WAVLINK 12"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Resolution Needs Across All 3 Screens",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $117",
+          "WAVLINK 12"
+        ],
+        [
+          "Up to $228",
+          "Anker Prime Docking Station"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Thunderbolt vs USB-C Only",
+    "cards": [
       {
-        label: "Need all 3 screens at full 4K@60Hz",
-        text: "The Anker Prime DL7400 and WAVLINK 12-in-1 Neo are the only picks in this list that run genuine triple 4K@60Hz across every display.",
+        "label": "Thunderbolt-certified",
+        "text": "Higher bandwidth for demanding multi-display and high-speed data setups, but requires a genuinely Thunderbolt-capable laptop port. In this comparison: Plugable Thunderbolt 4 Dock for M4/M5 MacBook, Dell Pro Thunderbolt 4 Smart Dock."
       },
       {
-        label: "Fine with 1 primary 4K screen and 2 secondary 1080p screens",
-        text: "The Plugable Triple Display dock at $159.95 covers this at a lower price than the full-4K triple picks.",
-      },
-      {
-        label: "Want native output, willing to accept 2 displays instead of 3",
-        text: "The Plugable TBT-UDM avoids DisplayLink entirely but only reaches 3 displays on Pro/Max chip Macs or MST-capable Windows laptops.",
-      },
+        "label": "USB-C only",
+        "text": "Usually cheaper and works with any USB-C laptop, but with less headroom for multiple high-resolution displays. In this comparison: WAVLINK Pro Dual 4K@60Hz Universal Docking Station, Plugable USB C Triple Display Docking Station, Plugable USB, Anker Prime Docking Station, WAVLINK 12, Anker Prime Docking Station."
+      }
     ],
+    "note": "Default to USB-C only unless your laptop has a genuine Thunderbolt port and you need the extra display or data bandwidth."
   },
   {
-    subheading: "Budget-First Triple-Display Paths",
-    intro:
-      "There's more than one way to get to 3 screens, and the cheapest path depends on whether your laptop has a spare display port of its own.",
-    table: {
-      headers: ["Budget", "Approach", "Best pick"],
-      rows: [
-        ["Under $150, laptop has a spare port", "Dual-display dock + laptop's own port for #3", "WAVLINK Pro Dual 4K@60Hz ($129.99)"],
-        ["Under $170, true triple needed", "Native triple output, budget DisplayLink", "WAVLINK 12-in-1 Neo ($116.99)"],
-        ["Under $200, true triple 4K@30/60Hz mix", "Plugable Triple Display or 13-in-1", "Plugable Triple Display ($159.95)"],
-        ["$200+, no compromises on resolution", "Full 4K@60Hz across all 3 screens", "Anker Prime DL7400 ($227.99)"],
+    "subheading": "By Ethernet Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Wired Ethernet needed",
+          "Plugable USB"
+        ],
+        [
+          "Wi-Fi only is fine",
+          "WAVLINK Pro Dual 4K@60Hz Universal Docking Station"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Power and Peripheral Load Reality Check",
-    intro:
-      "Sustained triple-display use draws more power and USB bandwidth than most buyers expect, and running out of either mid-task is a common frustration.",
-    table: {
-      headers: ["Concern", "What to check", "Best pick"],
-      rows: [
-        ["Charging a power-hungry laptop while docked", "140W+ PD rating", "Anker Prime DL7400 (140W) or Anker Prime 14-Port (160W)"],
-        ["Running a fast external SSD alongside 3 displays", "Separate USB controller from display traffic", "Plugable 13-in-1 UD-ULTCDL (dedicated USB 3.0 ports)"],
-        ["Fanless thin laptop running hot under triple-4K load", "Dock with active cooling", "Anker Prime DL7400 (built-in cooling fan)"],
-      ],
-    },
-    note: "A dock rated for 100W PD typically delivers 82-90W to the laptop after internal overhead, so if your laptop needs the full rated wattage under sustained load, budget for a dock rated meaningfully above your laptop's stated charging requirement.",
+    "subheading": "For a Dual or Triple Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Native DisplayPort Alt Mode or DisplayLink chip technology, verified against your specific laptop's documented maximum external display count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "WAVLINK Pro Dual 4K@60Hz Universal Docking Station is worth checking against its listed display support before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need reliable multi-display support and full-speed charging under daily sustained use, where Anker Prime Docking Station's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need occasional charging and a single extra port, where WAVLINK 12 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

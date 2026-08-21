@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Check dock dimensions, not just the word 'compact'",
-    explanation:
-      "Listings describe docks as compact inconsistently. A slim USB-C hub might be under 6 inches long, while a full dock with 3-display support can be closer to 8-10 inches. Compare actual length and width, not marketing language, against your desk's usable depth before buying.",
+    "criterion": "Check the real power delivery wattage, not just \"PD\" in the listing",
+    "explanation": "Power delivery (PD) wattage determines whether a dock can actually charge your laptop while it's connected, not just pass a trickle of power through, and this number varies widely, from 60W barely-adequate figures up to 100W or higher business-tier docks.\n\nThis matters because a dock rated below what your laptop actually needs to charge under load, especially a larger laptop or one running demanding tasks while docked, will slowly drain the battery even while \"charging\", a frustrating and easy-to-miss problem.\n\nCheck the listing for the specific PD wattage number, and compare it against your laptop's actual charging brick wattage, not just whether the listing mentions power delivery at all."
   },
   {
-    criterion: "Attached cables under 30cm mean the dock sits right at the laptop",
-    explanation:
-      "Compact docks with a built-in cable typically use 20-30cm of cable, which forces the dock to sit directly beside the laptop rather than tucked further away. If you want to place the dock further back or to the side, choose a model with a separate, certified USB-C cable instead.",
+    "criterion": "Verify actual display support against your specific laptop and GPU, not just port count",
+    "explanation": "A dock listing multiple HDMI or DisplayPort outputs doesn't guarantee your laptop can actually drive all of them at full resolution and refresh rate simultaneously, that capability depends on your laptop's specific GPU and USB-C controller, which some docks work around using DisplayLink technology and others don't.\n\nThis distinction matters a lot if you're building a dual or triple monitor setup, since a laptop that can't natively drive multiple external displays will show a blank or mirrored screen on a non-DisplayLink dock's extra port, regardless of how many ports the dock has.\n\nCheck whether the dock uses native DisplayPort Alt Mode or DisplayLink chip technology, and separately verify your specific laptop model's documented maximum number of external displays before assuming any multi-port dock will drive them all."
   },
   {
-    criterion: "Bus-powered docks free up desk space but skip laptop charging",
-    explanation:
-      "A bus-powered dock has no separate power brick, which is the biggest single space-saver on a small desk. The trade-off is a limited power budget for connected peripherals and, in some models, no laptop charging pass-through at all. If you need to charge the laptop through the dock, an AC-powered model with its own adapter is usually required.",
+    "criterion": "Match data transfer speeds and Ethernet to what you actually move and how",
+    "explanation": "USB data ports on a dock range widely in real transfer speed, from basic 480Mbps USB 2.0 speeds up to 10Gbps or higher, a gap that matters enormously if you regularly move large files to and from external drives, but barely matters if you're just charging a mouse and keyboard.\n\nEthernet port speed follows the same logic, a dock's Gigabit or 2.5Gb Ethernet port is only as fast as your actual home or office network infrastructure supports, so paying for 2.5Gb Ethernet on a network that tops out at Gigabit gains nothing.\n\nCheck the specific listed speed for each port type you'll actually use regularly, and compare Ethernet speed against your router's actual rated speed, not just the dock's spec sheet in isolation."
   },
   {
-    criterion: "AC-powered compact docks still need room for the brick",
-    explanation:
-      "An AC-powered dock that charges a laptop at 100W or higher includes its own power adapter, and that brick often takes up as much real desk or floor space as the dock itself. Factor the brick's footprint into your total space calculation, not just the dock body's listed dimensions.",
+    "criterion": "Confirm compatibility with your specific laptop's USB-C or Thunderbolt port",
+    "explanation": "Not every USB-C port supports the same features, some laptops only support USB-C data and charging without any video output over that port at all, while others support full Thunderbolt with much higher bandwidth for multiple 4K displays.\n\nDocks built around Thunderbolt certification generally support more demanding multi-display and high-speed configurations, but require a genuinely Thunderbolt-capable port on your laptop to unlock that performance, plugging a Thunderbolt dock into a USB-C-only port still works but loses the extra bandwidth.\n\nCheck your specific laptop's documented port capabilities (Thunderbolt 3, Thunderbolt 4, or USB-C without Thunderbolt), not just that it has a USB-C-shaped port, before assuming any docking station will unlock its full advertised capability."
   },
   {
-    criterion: "Port placement affects daily usability more than port count",
-    explanation:
-      "A vertical or top-mounted port layout can be harder to reach on a shallow desk where the dock sits close to a monitor or wall. Front or side-facing ports for the SD card reader and most-used USB-A slots save you from reaching over or around the dock several times a day.",
-  },
-  {
-    criterion: "Passive cooling on a compact dock needs airflow",
-    explanation:
-      "Small docks with no fan rely on their case surface to dissipate heat, and sustained heavy use can make them noticeably warm. Placing a compact dock in a tight cable channel or under a stack of papers restricts airflow and can cause USB dropouts or thermal throttling, so leave a few inches of open space around it.",
-  },
+    "criterion": "Consider heat and long-term reliability under sustained daily use",
+    "explanation": "A docking station that stays plugged in and under load for 8+ hours a day handles thermal stress very differently than a hub used occasionally for a quick file transfer, and a compact plastic-bodied dock with no real heat dissipation can throttle performance or degrade faster under that kind of sustained daily use than an aluminum-bodied one.\n\nThis matters more for anyone using the dock as their primary daily workstation setup than for occasional or travel use.\n\nCheck reviews specifically for mentions of the dock running hot, disconnecting intermittently after extended use, or degrading over months, rather than relying on the unboxing-day performance most reviews describe."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,83 +359,102 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Desk Depth",
-    intro:
-      "Match the dock's body length to how much depth your desk actually has left after your laptop, monitor, and keyboard are in place.",
-    table: {
-      headers: ["Desk depth available", "Recommended pick", "Why"],
-      rows: [
-        ["Under 6 inches free", "UGREEN 7-in-1 Ultra-Slim", "Thinnest aluminum body in this list"],
-        ["6-8 inches free", "UGREEN Revodok Pro 210", "Compact bar shape with dual HDMI"],
-        ["8+ inches free, wants 3 displays", "Acer 11-in-1 3-Monitor", "Needs more room for triple display cabling"],
-        ["Full-size desk, wants max power", "TobenONE 18-in-2 with 150W adapter", "Brick needs its own space alongside the dock"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "UGREEN Revodok Pro 210 10"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "UGREEN Revodok Pro 210 10"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Power Needs",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $27",
+          "UGREEN 7"
+        ],
+        [
+          "Up to $150",
+          "TobenONE 18"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Thunderbolt vs USB-C Only",
+    "cards": [
       {
-        label: "Just need to charge an ultrabook and drive 2 monitors",
-        text: "The UGREEN Revodok Pro 210's 100W PD passthrough covers most ultrabooks without needing a separate power brick on the desk.",
+        "label": "Thunderbolt-certified",
+        "text": "Higher bandwidth for demanding multi-display and high-speed data setups, but requires a genuinely Thunderbolt-capable laptop port. In this comparison: HP USB."
       },
       {
-        label: "Need full charging for a MacBook Pro under heavy load",
-        text: "The TobenONE 18-in-2 ships with its own 150W adapter, the only pick here built for sustained high-draw MacBook Pro charging.",
-      },
-      {
-        label: "Don't need laptop charging through the dock at all",
-        text: "The UGREEN 7-in-1 Ultra-Slim keeps things simplest as a bus-powered, cable-minimal hub for display and data only.",
-      },
-      {
-        label: "Want charging flexibility without committing to a fixed brick",
-        text: "The Anker Nano 13-in-1's detachable hub design lets you decide day to day how much dock you actually need plugged in.",
-      },
+        "label": "USB-C only",
+        "text": "Usually cheaper and works with any USB-C laptop, but with less headroom for multiple high-resolution displays. In this comparison: UGREEN Revodok Pro 210 10, UGREEN 7, Anker Nano 13, PULWTOP MacBook Pro Docking Station Dual Monitor, Anker Laptop Docking Station Dual Monitor, Acer Laptop Docking Station 3 Monitors, TobenONE 18."
+      }
     ],
+    "note": "Default to USB-C only unless your laptop has a genuine Thunderbolt port and you need the extra display or data bandwidth."
   },
   {
-    subheading: "By Laptop Platform",
-    intro:
-      "A dock tuned for one platform's display behavior avoids compatibility guesswork, especially for Mac users on recent chips.",
-    table: {
-      headers: ["Laptop", "Best pick", "Why"],
-      rows: [
-        ["MacBook Pro/Air (M-series)", "PULWTOP MacBook Pro Dock", "Built specifically around Mac chip display behavior"],
-        ["MacBook Pro, high power draw", "TobenONE 18-in-2", "Included 150W adapter and 2.5G Ethernet"],
-        ["Mixed USB-C/Thunderbolt fleet (managed IT)", "HP USB-C Dock G5", "Works across both connector types with remote management features"],
-        ["Any modern Windows ultrabook", "UGREEN Revodok Pro 210 or Anker 8-in-1", "Broad compatibility at a lower price point"],
+    "subheading": "By Ethernet Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Wired Ethernet needed",
+          "UGREEN Revodok Pro 210 10"
+        ],
+        [
+          "Wi-Fi only is fine",
+          "UGREEN 7"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Number of Monitors Needed",
-    table: {
-      headers: ["Monitors needed", "Best pick", "Note"],
-      rows: [
-        ["1 monitor", "UGREEN 7-in-1 Ultra-Slim", "Smallest footprint for a single-display setup"],
-        ["2 monitors", "UGREEN Revodok Pro 210 or Anker 8-in-1", "Both cover dual HDMI at a low price"],
-        ["3 monitors", "Acer 11-in-1 3-Monitor or Anker Nano 13-in-1", "Bandwidth is shared across all 3 displays"],
-      ],
-    },
-    note: "Running 3 monitors through any compact dock splits available bandwidth between them, so expect somewhat reduced simultaneous data transfer speed compared to a 1 or 2-monitor configuration.",
+    "subheading": "For a Dual or Triple Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Native DisplayPort Alt Mode or DisplayLink chip technology, verified against your specific laptop's documented maximum external display count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "UGREEN Revodok Pro 210 10 is worth checking against its listed display support before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Placement and Airflow Tips",
-    cards: [
+    "subheading": "When to Spend More",
+    "cards": [
       {
-        label: "Placing the dock under a monitor arm base",
-        text: "Choose a slim model like the UGREEN 7-in-1 that has no fan and a low profile, and leave at least an inch of clearance for passive heat dissipation.",
+        "label": "Spend more if",
+        "text": "You need reliable multi-display support and full-speed charging under daily sustained use, where TobenONE 18's higher price buys real headroom over the cheaper picks."
       },
       {
-        label: "Placing the dock in a cable management box or tray",
-        text: "Passive-cooling compact docks can overheat in an enclosed tray during sustained use. Leave the lid cracked or choose a vented cable box if the dock runs continuously.",
-      },
-      {
-        label: "Sitting a compact dock right next to the laptop",
-        text: "This is required for models with a short attached cable, so measure the exact cable length before assuming the dock can sit further away on the desk.",
-      },
-    ],
-  },
+        "label": "Save if",
+        "text": "You only need occasional charging and a single extra port, where UGREEN 7 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

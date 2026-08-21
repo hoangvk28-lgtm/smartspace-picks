@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Dell docks charge Dell laptops faster than third-party docks",
-    explanation:
-      "Dell docks negotiate full rated wattage with Dell laptops through a proprietary power protocol, but only deliver a lower standard USB-C PD wattage to non-Dell laptops through that same port. If you're buying a Dell-branded dock specifically for a non-Dell laptop, you're paying Dell's premium pricing without getting Dell's power advantage.",
+    "criterion": "Check the real power delivery wattage, not just \"PD\" in the listing",
+    "explanation": "Power delivery (PD) wattage determines whether a dock can actually charge your laptop while it's connected, not just pass a trickle of power through, and this number varies widely, from 60W barely-adequate figures up to 100W or higher business-tier docks.\n\nThis matters because a dock rated below what your laptop actually needs to charge under load, especially a larger laptop or one running demanding tasks while docked, will slowly drain the battery even while \"charging\", a frustrating and easy-to-miss problem.\n\nCheck the listing for the specific PD wattage number, and compare it against your laptop's actual charging brick wattage, not just whether the listing mentions power delivery at all."
   },
   {
-    criterion: "Know the Dell dock model decoder before you buy",
-    explanation:
-      "Dell's dock naming isn't self-explanatory: WD19 is entry-level USB-C, WD19TB adds Thunderbolt 3, WD22TB4 is the previous-generation Thunderbolt 4 modular dock, and the SD25TB4 Pro/Smart Dock line is Dell's current Thunderbolt 4 generation. Match the model number to your laptop's actual port and generation, not just the WD or SD prefix.",
+    "criterion": "Verify actual display support against your specific laptop and GPU, not just port count",
+    "explanation": "A dock listing multiple HDMI or DisplayPort outputs doesn't guarantee your laptop can actually drive all of them at full resolution and refresh rate simultaneously, that capability depends on your laptop's specific GPU and USB-C controller, which some docks work around using DisplayLink technology and others don't.\n\nThis distinction matters a lot if you're building a dual or triple monitor setup, since a laptop that can't natively drive multiple external displays will show a blank or mirrored screen on a non-DisplayLink dock's extra port, regardless of how many ports the dock has.\n\nCheck whether the dock uses native DisplayPort Alt Mode or DisplayLink chip technology, and separately verify your specific laptop model's documented maximum number of external displays before assuming any multi-port dock will drive them all."
   },
   {
-    criterion: "A first-connection failure is usually a BIOS setting, not a defect",
-    explanation:
-      "New Dell laptops default to Thunderbolt \"user authorization\" mode, so a brand-new dock may not be recognized the first time it's plugged in. Approve the device through the Windows notification or the BIOS Thunderbolt security settings before assuming the dock is faulty.",
+    "criterion": "Match data transfer speeds and Ethernet to what you actually move and how",
+    "explanation": "USB data ports on a dock range widely in real transfer speed, from basic 480Mbps USB 2.0 speeds up to 10Gbps or higher, a gap that matters enormously if you regularly move large files to and from external drives, but barely matters if you're just charging a mouse and keyboard.\n\nEthernet port speed follows the same logic, a dock's Gigabit or 2.5Gb Ethernet port is only as fast as your actual home or office network infrastructure supports, so paying for 2.5Gb Ethernet on a network that tops out at Gigabit gains nothing.\n\nCheck the specific listed speed for each port type you'll actually use regularly, and compare Ethernet speed against your router's actual rated speed, not just the dock's spec sheet in isolation."
   },
   {
-    criterion: "\"Modular\" or \"upgradeable\" Dell docks may have no upgrade module yet",
-    explanation:
-      "Some Dell docks are marketed with a detachable host module positioned as upgradeable to future standards. As of this writing, no upgrade module is actually available for most of these dock generations, so buy based on what the dock does today rather than a promised future upgrade.",
+    "criterion": "Confirm compatibility with your specific laptop's USB-C or Thunderbolt port",
+    "explanation": "Not every USB-C port supports the same features, some laptops only support USB-C data and charging without any video output over that port at all, while others support full Thunderbolt with much higher bandwidth for multiple 4K displays.\n\nDocks built around Thunderbolt certification generally support more demanding multi-display and high-speed configurations, but require a genuinely Thunderbolt-capable port on your laptop to unlock that performance, plugging a Thunderbolt dock into a USB-C-only port still works but loses the extra bandwidth.\n\nCheck your specific laptop's documented port capabilities (Thunderbolt 3, Thunderbolt 4, or USB-C without Thunderbolt), not just that it has a USB-C-shaped port, before assuming any docking station will unlock its full advertised capability."
   },
   {
-    criterion: "Portable USB-C adapters are not docking stations",
-    explanation:
-      "Dell's portable multiport adapters frequently show up in \"best Dell docking station\" search results but have no power delivery passthrough to charge the laptop while providing video output. If charging while docked matters, confirm the product is an actual dock, not a portable adapter, before buying.",
-  },
-  {
-    criterion: "Match Thunderbolt generation to your Dell laptop's port",
-    explanation:
-      "A Thunderbolt 4 dock plugged into an older Thunderbolt 3-only Dell laptop still works, but it won't unlock the extra bandwidth. Check your laptop's actual port generation rather than assuming newer is automatically better for your specific machine.",
-  },
+    "criterion": "Consider heat and long-term reliability under sustained daily use",
+    "explanation": "A docking station that stays plugged in and under load for 8+ hours a day handles thermal stress very differently than a hub used occasionally for a quick file transfer, and a compact plastic-bodied dock with no real heat dissipation can throttle performance or degrade faster under that kind of sustained daily use than an aluminum-bodied one.\n\nThis matters more for anyone using the dock as their primary daily workstation setup than for occasional or travel use.\n\nCheck reviews specifically for mentions of the dock running hot, disconnecting intermittently after extended use, or degrading over months, rather than relying on the unboxing-day performance most reviews describe."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,81 +359,102 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Dell Dock Model Decoder",
-    intro:
-      "Dell's own model numbers aren't self-explanatory. Here's how the current and previous generations map to what they actually support.",
-    table: {
-      headers: ["Dell model", "Connection", "Power to Dell laptops", "Best pick"],
-      rows: [
-        ["WD19 (base)", "USB-C only", "Up to 130W to Dell, 90W to non-Dell", "Entry-level, not in this list"],
-        ["WD19TBS", "Thunderbolt 3", "130W OEM", "Dell Thunderbolt Dock WD19TBS"],
-        ["WD22TB4", "Thunderbolt 4, modular", "130W OEM", "Dell Thunderbolt Dock WD22TB4"],
-        ["SD25TB4 / SD25TB4 Pro", "Thunderbolt 4 Smart Dock", "130W-180W OEM", "Dell Pro SD25TB4 or SD25TB4 Pro"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Dell SD25TB4 Pro Thunderbolt 4 Smart Dock"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Dell SD25TB4 Pro Thunderbolt 4 Smart Dock"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Whether You're 100% on Dell Hardware",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $98",
+          "HP USB"
+        ],
+        [
+          "Up to $279",
+          "Dell SD25TB4 Pro Thunderbolt 4 Smart Dock"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Thunderbolt vs USB-C Only",
+    "cards": [
       {
-        label: "All-Dell fleet, want matching support windows",
-        text: "The Dell SD25TB4 Pro or Dell Pro SD25TB4 give full OEM power delivery and a warranty that lines up with a business-purchased Dell laptop's own support window.",
+        "label": "Thunderbolt-certified",
+        "text": "Higher bandwidth for demanding multi-display and high-speed data setups, but requires a genuinely Thunderbolt-capable laptop port. In this comparison: Dell SD25TB4 Pro Thunderbolt 4 Smart Dock, Dell Pro Thunderbolt 4 Smart Dock SD25TB4, Dell Thunderbolt Dock WD22TB4, Dell Thunderbolt Dock WD19TBS, Plugable Thunderbolt 4 Dock, Plugable USB C Triple Display Docking Station, HP USB."
       },
       {
-        label: "Mostly Dell, occasional Mac or other laptop",
-        text: "The Plugable TBT-UDM works across brands via Thunderbolt certification, trading Dell's OEM wattage advantage for flexibility.",
-      },
-      {
-        label: "Mixed office with several laptop brands",
-        text: "The Anker Prime 14-Port or HP USB-C Dock G5 are built for cross-brand compatibility rather than optimized for one manufacturer.",
-      },
+        "label": "USB-C only",
+        "text": "Usually cheaper and works with any USB-C laptop, but with less headroom for multiple high-resolution displays. In this comparison: Anker Prime Docking Station."
+      }
     ],
+    "note": "Default to USB-C only unless your laptop has a genuine Thunderbolt port and you need the extra display or data bandwidth."
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Budget", "Best pick", "Why"],
-      rows: [
-        ["Under $100", "HP USB-C Dock G5", "Cheapest universal option, works with Dell laptops at standard PD"],
-        ["$120-$185", "Dell WD19TBS or WD22TB4", "Full Dell OEM power delivery at a lower price than the newest generation"],
-        ["$200-$280", "Dell SD25TB4 or SD25TB4 Pro", "Current-generation Dell Smart Dock with the highest display and power ceiling"],
+    "subheading": "By Ethernet Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Wired Ethernet needed",
+          "Plugable Thunderbolt 4 Dock"
+        ],
+        [
+          "Wi-Fi only is fine",
+          "Dell SD25TB4 Pro Thunderbolt 4 Smart Dock"
+        ]
+      ]
+    }
   },
   {
-    subheading: "First Boot: Fixing a Dock That Isn't Recognized",
-    intro:
-      "This is the single most common \"broken dock\" support call for new Dell laptops, and it's rarely the dock's fault.",
-    cards: [
+    "subheading": "For a Dual or Triple Monitor Setup Specifically",
+    "cards": [
       {
-        label: "Step 1",
-        text: "Plug in the dock and check for a Windows notification asking to authorize the Thunderbolt device.",
+        "label": "Look for",
+        "text": "Native DisplayPort Alt Mode or DisplayLink chip technology, verified against your specific laptop's documented maximum external display count."
       },
       {
-        label: "Step 2",
-        text: "If no prompt appears, check BIOS security settings for a Thunderbolt authorization mode set to \"user authorization\" or \"no security\" and approve the connected device.",
-      },
-      {
-        label: "Step 3",
-        text: "Once approved, the dock should stay authorized on future connections without repeating the process.",
-      },
-    ],
-    note: "If the dock genuinely never gets recognized after these steps, that points to a real hardware or cable issue rather than the BIOS authorization behavior.",
+        "label": "In this comparison",
+        "text": "Dell SD25TB4 Pro Thunderbolt 4 Smart Dock is worth checking against its listed display support before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Docking Station vs. Portable Adapter",
-    intro:
-      "These two product categories look similar in search results but are not interchangeable.",
-    table: {
-      headers: ["Feature", "Docking station", "Portable USB-C adapter"],
-      rows: [
-        ["Charges laptop while docked", "Yes", "Usually no"],
-        ["Multiple simultaneous displays", "Yes", "Sometimes, limited"],
-        ["Meant to stay on desk", "Yes", "No, travel-focused"],
-        ["Examples in this list", "All 8 picks above", "Not covered in this guide"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need reliable multi-display support and full-speed charging under daily sustained use, where Dell SD25TB4 Pro Thunderbolt 4 Smart Dock's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need occasional charging and a single extra port, where HP USB covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

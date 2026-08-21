@@ -327,35 +327,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Decode Dell's WD naming before buying",
-    explanation:
-      "The \"WD\" prefix marks Dell's dock line, the number roughly indicates the generation, and \"TB4\" specifically denotes Thunderbolt 4 support versus older USB-C-only WD docks. Match the exact model number to your Dell laptop's supported dock list on Dell's own compatibility page rather than assuming any \"Dell dock\" works with any \"Dell laptop.\"",
+    "criterion": "Check the real power delivery wattage, not just \"PD\" in the listing",
+    "explanation": "Power delivery (PD) wattage determines whether a dock can actually charge your laptop while it's connected, not just pass a trickle of power through, and this number varies widely, from 60W barely-adequate figures up to 100W or higher business-tier docks.\n\nThis matters because a dock rated below what your laptop actually needs to charge under load, especially a larger laptop or one running demanding tasks while docked, will slowly drain the battery even while \"charging\", a frustrating and easy-to-miss problem.\n\nCheck the listing for the specific PD wattage number, and compare it against your laptop's actual charging brick wattage, not just whether the listing mentions power delivery at all."
   },
   {
-    criterion: "HP's G-series is business-tier, not a generic consumer hub",
-    explanation:
-      "HP splits its dock lineup into business-tier G-series docks, sold and validated specifically for EliteBook, ZBook, and ProBook business laptops, versus consumer-facing generic USB-C hubs. The G-series docks in this guide are built to stricter enterprise durability and compatibility testing standards, which matters when replacing a dock in an IT-managed office fleet.",
+    "criterion": "Verify actual display support against your specific laptop and GPU, not just port count",
+    "explanation": "A dock listing multiple HDMI or DisplayPort outputs doesn't guarantee your laptop can actually drive all of them at full resolution and refresh rate simultaneously, that capability depends on your laptop's specific GPU and USB-C controller, which some docks work around using DisplayLink technology and others don't.\n\nThis distinction matters a lot if you're building a dual or triple monitor setup, since a laptop that can't natively drive multiple external displays will show a blank or mirrored screen on a non-DisplayLink dock's extra port, regardless of how many ports the dock has.\n\nCheck whether the dock uses native DisplayPort Alt Mode or DisplayLink chip technology, and separately verify your specific laptop model's documented maximum number of external displays before assuming any multi-port dock will drive them all."
   },
   {
-    criterion: "Confirm a renewed dock includes the original power adapter",
-    explanation:
-      "Renewed official HP and Dell docks are a legitimate way to save money over buying new, but a missing original power adapter, replaced with a third-party one, is the most common complaint with used official business docks. Check the listing before buying.",
+    "criterion": "Match data transfer speeds and Ethernet to what you actually move and how",
+    "explanation": "USB data ports on a dock range widely in real transfer speed, from basic 480Mbps USB 2.0 speeds up to 10Gbps or higher, a gap that matters enormously if you regularly move large files to and from external drives, but barely matters if you're just charging a mouse and keyboard.\n\nEthernet port speed follows the same logic, a dock's Gigabit or 2.5Gb Ethernet port is only as fast as your actual home or office network infrastructure supports, so paying for 2.5Gb Ethernet on a network that tops out at Gigabit gains nothing.\n\nCheck the specific listed speed for each port type you'll actually use regularly, and compare Ethernet speed against your router's actual rated speed, not just the dock's spec sheet in isolation."
   },
   {
-    criterion: "Account for real power delivery, not the rated wattage",
-    explanation:
-      "A dock rated for a given wattage typically delivers about 10-15W less to the laptop once the dock's own circuitry draws its share. This matters most for HP ZBook and Dell Precision workstations needing 100-170W under load, which may not charge at full speed from a dock rated lower than that real requirement.",
+    "criterion": "Confirm compatibility with your specific laptop's USB-C or Thunderbolt port",
+    "explanation": "Not every USB-C port supports the same features, some laptops only support USB-C data and charging without any video output over that port at all, while others support full Thunderbolt with much higher bandwidth for multiple 4K displays.\n\nDocks built around Thunderbolt certification generally support more demanding multi-display and high-speed configurations, but require a genuinely Thunderbolt-capable port on your laptop to unlock that performance, plugging a Thunderbolt dock into a USB-C-only port still works but loses the extra bandwidth.\n\nCheck your specific laptop's documented port capabilities (Thunderbolt 3, Thunderbolt 4, or USB-C without Thunderbolt), not just that it has a USB-C-shaped port, before assuming any docking station will unlock its full advertised capability."
   },
   {
-    criterion: "IT-managed fleets should check the vendor's approved hardware list",
-    explanation:
-      "Both Dell and HP business docks are commonly deployed in corporate IT fleets specifically because they support features like network boot (PXE) and sit on official vendor-approved hardware compatibility lists. A generic third-party dock might be technically compatible but not approved by IT policy for a company-owned laptop.",
-  },
-  {
-    criterion: "Check for firmware updates before assuming a dock is faulty",
-    explanation:
-      "HP and Dell both regularly release dock firmware fixing display flicker and USB dropouts. Checking for a firmware update is a genuinely useful first troubleshooting step most buying guides never mention.",
-  },
+    "criterion": "Consider heat and long-term reliability under sustained daily use",
+    "explanation": "A docking station that stays plugged in and under load for 8+ hours a day handles thermal stress very differently than a hub used occasionally for a quick file transfer, and a compact plastic-bodied dock with no real heat dissipation can throttle performance or degrade faster under that kind of sustained daily use than an aluminum-bodied one.\n\nThis matters more for anyone using the dock as their primary daily workstation setup than for occasional or travel use.\n\nCheck reviews specifically for mentions of the dock running hot, disconnecting intermittently after extended use, or degrading over months, rather than relying on the unboxing-day performance most reviews describe."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -368,74 +358,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Brand and Model Match",
-    intro:
-      "Matching the exact model number to your laptop's supported dock list matters more with HP and Dell than the brand name alone.",
-    table: {
-      headers: ["Laptop", "What to check", "Best pick"],
-      rows: [
-        ["HP EliteBook/ZBook/ProBook", "G-series business-tier validation", "HP USB-C Dock G5 11-in-1, HP USB-C 100W G6 Dock"],
-        ["Dell laptop with Thunderbolt port", "WD model number, confirm \"TB4\" in the name", "Dell Thunderbolt WD22TB4 Dock 130W"],
-        ["Dell Precision workstation", "Higher wattage WD22TB4 tier", "Dell WD22TB4 Thunderbolt 4 Dock 180W (New)"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "HP USB"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "HP USB"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Budget", "Best pick", "Why"],
-      rows: [
-        ["Under $70", "HP USB-C Dock G5 (Renewed)", "Cheapest official HP dock in this guide"],
-        ["$95-$135", "HP USB-C Dock G5 11-in-1, HP G5 Essential Dock, HP G5 Renewed Bundle", "Solid official HP business-tier options"],
-        ["$180-$255", "Dell Thunderbolt WD22TB4 130W, Dell WD22TB4 180W (New), WD22TB4 40Gbps", "Certified Thunderbolt 4 Dell docks"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $63",
+          "HP USB"
+        ],
+        [
+          "Up to $255",
+          "Dell WD22TB4 Thunderbolt 4 Dock 180W"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Power Needs",
-    intro:
-      "Higher-draw business laptops need a dock that gets close to their real charging requirement, not just a high rated number.",
-    table: {
-      headers: ["Laptop type", "Typical power need", "Best pick"],
-      rows: [
-        ["Standard HP EliteBook/ProBook", "45-65W", "HP USB-C Dock G5 11-in-1, HP G5 Essential Dock"],
-        ["HP ZBook workstation", "90-135W", "HP USB-C 100W G6 Dock"],
-        ["Dell Precision workstation", "100-170W", "Dell WD22TB4 Thunderbolt 4 Dock 180W (New)"],
-      ],
-    },
-    note: "Remember every dock here delivers roughly 10-15W less than its rated output once the dock's own circuitry draws power, so a Precision workstation needing 170W will still rely partly on its own charger during the heaviest workloads.",
-  },
-  {
-    subheading: "By Renewed vs New Condition",
-    cards: [
+    "subheading": "Thunderbolt vs USB-C Only",
+    "cards": [
       {
-        label: "Want the lowest price and don't mind renewed",
-        text: "HP USB-C Dock G5 (Renewed) is the cheapest pick in this guide, just confirm the original power adapter is included.",
+        "label": "Thunderbolt-certified",
+        "text": "Higher bandwidth for demanding multi-display and high-speed data setups, but requires a genuinely Thunderbolt-capable laptop port. In this comparison: Dell Thunderbolt WD22TB4 Dock 130W, Dell WD22TB4 Thunderbolt 4 Dock 180W, WD22TB4 Dell Thunderbolt 4 Dock 40Gbps."
       },
       {
-        label: "Want a renewed dock plus a bundled charger",
-        text: "HP USB-C Dock G5 and Charging Bundle (Renewed) adds a charging accessory to the same renewed G5 dock.",
-      },
-      {
-        label: "Want guaranteed new condition",
-        text: "Dell WD22TB4 Thunderbolt 4 Dock 180W (New) and every other Dell pick in this guide ship new, not renewed.",
-      },
+        "label": "USB-C only",
+        "text": "Usually cheaper and works with any USB-C laptop, but with less headroom for multiple high-resolution displays. In this comparison: HP USB, HP USB, HP USB, HP USB, HP USB."
+      }
     ],
+    "note": "Default to USB-C only unless your laptop has a genuine Thunderbolt port and you need the extra display or data bandwidth."
   },
   {
-    subheading: "By Corporate IT Fleet Deployment",
-    intro:
-      "Buyers purchasing on behalf of a workplace should weigh official vendor approval more heavily than price alone.",
-    table: {
-      headers: ["Need", "Best pick"],
-      rows: [
-        ["PXE network boot support for IT deployment", "WD22TB4 Dell Thunderbolt 4 Dock 40Gbps"],
-        ["Official HP business-tier fleet replacement", "HP USB-C Dock G5 11-in-1"],
-        ["Official Dell fleet replacement with Thunderbolt", "Dell Thunderbolt WD22TB4 Dock 130W"],
-      ],
-    },
-    note: "A generic third-party dock might be technically compatible with a company laptop but not appear on the vendor's official approved hardware list, which can matter for IT policy compliance even if it works fine technically.",
+    "subheading": "By Data Transfer Speed",
+    "note": "Check each pick's listed USB data port speed against how often you actually move large files before buying. HP USB is the most-reviewed option here if you want the safer bet."
   },
+  {
+    "subheading": "For a Dual or Triple Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Native DisplayPort Alt Mode or DisplayLink chip technology, verified against your specific laptop's documented maximum external display count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "HP USB is worth checking against its listed display support before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need reliable multi-display support and full-speed charging under daily sustained use, where Dell WD22TB4 Thunderbolt 4 Dock 180W's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need occasional charging and a single extra port, where HP USB covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

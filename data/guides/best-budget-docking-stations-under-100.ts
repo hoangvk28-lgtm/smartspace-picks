@@ -296,35 +296,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Cheaper chipsets are the real reason budget docks fail",
-    explanation:
-      "Docks under $100 typically use less expensive, uncertified internal controller chips compared to premium docks, and that's the actual root cause behind most budget dock complaints, not bad luck. Watch for USB disconnects under heavy load, display flicker, or heat throttling as symptoms of a weaker internal chipset rather than a one-off defective unit.",
+    "criterion": "Check the real power delivery wattage, not just \"PD\" in the listing",
+    "explanation": "Power delivery (PD) wattage determines whether a dock can actually charge your laptop while it's connected, not just pass a trickle of power through, and this number varies widely, from 60W barely-adequate figures up to 100W or higher business-tier docks.\n\nThis matters because a dock rated below what your laptop actually needs to charge under load, especially a larger laptop or one running demanding tasks while docked, will slowly drain the battery even while \"charging\", a frustrating and easy-to-miss problem.\n\nCheck the listing for the specific PD wattage number, and compare it against your laptop's actual charging brick wattage, not just whether the listing mentions power delivery at all."
   },
   {
-    criterion: "4K@30Hz vs. 4K@60Hz is the budget tier's biggest trap",
-    explanation:
-      "Many budget docks advertise '4K support' but actually deliver 4K@30Hz over HDMI, which looks fine in text on a mouse cursor but feels noticeably laggy for video or fast scrolling. If your dock supports a DisplayPort output alongside HDMI, use that port for the full 60Hz signal, or budget the HDMI-only dock strictly for 1080p or 1440p use instead.",
+    "criterion": "Verify actual display support against your specific laptop and GPU, not just port count",
+    "explanation": "A dock listing multiple HDMI or DisplayPort outputs doesn't guarantee your laptop can actually drive all of them at full resolution and refresh rate simultaneously, that capability depends on your laptop's specific GPU and USB-C controller, which some docks work around using DisplayLink technology and others don't.\n\nThis distinction matters a lot if you're building a dual or triple monitor setup, since a laptop that can't natively drive multiple external displays will show a blank or mirrored screen on a non-DisplayLink dock's extra port, regardless of how many ports the dock has.\n\nCheck whether the dock uses native DisplayPort Alt Mode or DisplayLink chip technology, and separately verify your specific laptop model's documented maximum number of external displays before assuming any multi-port dock will drive them all."
   },
   {
-    criterion: "Factor in the cable, not just the dock price",
-    explanation:
-      "Some budget docks don't include a compatible cable at all, quietly adding $10 to $20 to the real price once you buy one separately. Others include a cable so short it only works if the dock sits directly next to the laptop, which defeats the point of a clean desk setup.",
+    "criterion": "Match data transfer speeds and Ethernet to what you actually move and how",
+    "explanation": "USB data ports on a dock range widely in real transfer speed, from basic 480Mbps USB 2.0 speeds up to 10Gbps or higher, a gap that matters enormously if you regularly move large files to and from external drives, but barely matters if you're just charging a mouse and keyboard.\n\nEthernet port speed follows the same logic, a dock's Gigabit or 2.5Gb Ethernet port is only as fast as your actual home or office network infrastructure supports, so paying for 2.5Gb Ethernet on a network that tops out at Gigabit gains nothing.\n\nCheck the specific listed speed for each port type you'll actually use regularly, and compare Ethernet speed against your router's actual rated speed, not just the dock's spec sheet in isolation."
   },
   {
-    criterion: "Heat is the top budget-dock failure mode",
-    explanation:
-      "Passive-cooling budget docks run hot during sustained use, and random device disconnects after 30 to 60 minutes are the clearest symptom that a dock is overheating rather than failing outright. Favor aluminum housings and lower port density if you plan to leave a dock running for full workdays.",
+    "criterion": "Confirm compatibility with your specific laptop's USB-C or Thunderbolt port",
+    "explanation": "Not every USB-C port supports the same features, some laptops only support USB-C data and charging without any video output over that port at all, while others support full Thunderbolt with much higher bandwidth for multiple 4K displays.\n\nDocks built around Thunderbolt certification generally support more demanding multi-display and high-speed configurations, but require a genuinely Thunderbolt-capable port on your laptop to unlock that performance, plugging a Thunderbolt dock into a USB-C-only port still works but loses the extra bandwidth.\n\nCheck your specific laptop's documented port capabilities (Thunderbolt 3, Thunderbolt 4, or USB-C without Thunderbolt), not just that it has a USB-C-shaped port, before assuming any docking station will unlock its full advertised capability."
   },
   {
-    criterion: "Know the difference between a hub and a true dock",
-    explanation:
-      "Many products labeled 'docking station' under $100 are actually bus-powered USB-C hubs that draw all of their power from the laptop rather than supplying their own. A true dock includes an independent power adapter, only the HP Dock G5 in this list qualifies, and that distinction matters more for daily charging convenience than raw port count.",
-  },
-  {
-    criterion: "Match wattage math to your laptop, not the dock's headline number",
-    explanation:
-      "A dock's rated power delivery number is never what actually reaches your laptop, overhead typically shaves several watts off in transit. If your laptop's stock charger is rated above 65W, confirm the dock can realistically cover your daily charging needs before relying on it as your only power source.",
-  },
+    "criterion": "Consider heat and long-term reliability under sustained daily use",
+    "explanation": "A docking station that stays plugged in and under load for 8+ hours a day handles thermal stress very differently than a hub used occasionally for a quick file transfer, and a compact plastic-bodied dock with no real heat dissipation can throttle performance or degrade faster under that kind of sustained daily use than an aluminum-bodied one.\n\nThis matters more for anyone using the dock as their primary daily workstation setup than for occasional or travel use.\n\nCheck reviews specifically for mentions of the dock running hot, disconnecting intermittently after extended use, or degrading over months, rather than relying on the unboxing-day performance most reviews describe."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -337,59 +327,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Display Need",
-    intro: "The picks in this list range from single-monitor hubs to a true triple-4K dock, so match the display count to what you actually need before comparing price.",
-    table: {
-      headers: ["Display need", "Best pick", "Why"],
-      rows: [
-        ["Single external monitor", "UGREEN Revodok Pro 7-in-1", "Lowest price, covers single-display basics"],
-        ["Dual monitor, confirmed 4K@60Hz", "UGREEN 10-in-1 Dual HDMI", "Explicitly rated for true 60Hz on both HDMI ports"],
-        ["Dual monitor, multi-brand laptop", "14-in-1 for Dell/Lenovo/HP", "Widest compatibility claim in this list"],
-        ["Triple 4K monitors", "Selore Triple 4K", "Only true triple-4K pick under $100"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "UGREEN Revodok Pro 7"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "UGREEN Revodok Pro 7"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Power Design: Hub vs. True Dock",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $27",
+          "UGREEN Revodok Pro 7"
+        ],
+        [
+          "Up to $98",
+          "HP USB"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Triple-Monitor vs Dual-Monitor Support",
+    "cards": [
       {
-        label: "You'll leave it permanently on your desk",
-        text: "The HP Dock G5 is the only self-powered pick here, with its own power adapter instead of drawing entirely from the laptop, making it the better long-term desk fixture.",
+        "label": "Triple-monitor support",
+        "text": "More display headroom, worth it if you actually run three external displays. In this comparison: Selore Laptop Docking Station."
       },
       {
-        label: "You move between desk and bag often",
-        text: "The Anker Nano 8-in-1 is the most portable bus-powered pick, small enough to carry daily without a bulky separate power brick.",
-      },
-      {
-        label: "You just need more ports, not more power",
-        text: "The 14-in-1 multi-brand dock and the Anker 8-in-1 both add port count without changing your laptop's charging situation at all.",
-      },
+        "label": "Dual-monitor support",
+        "text": "Covers the most common setup at a typically lower price. In this comparison: Anker Nano 8, 14, Anker 8."
+      }
     ],
+    "note": "Default to dual-monitor support unless you specifically run a three-display setup."
   },
   {
-    subheading: "By Laptop Charging Wattage",
-    intro: "None of the bus-powered docks in this list add charging capacity beyond what your laptop's own charger already provides. Match expectations accordingly.",
-    table: {
-      headers: ["Your laptop's stock charger", "What to expect from a bus-powered dock", "Better fit"],
-      rows: [
-        ["45-65W (typical thin-and-light laptop)", "Dock adequately passes through available power", "Any bus-powered pick in this list"],
-        ["90W+ (larger business or creator laptop)", "Bus-powered docks may undercharge under load", "HP Dock G5 (self-powered, dedicated adapter)"],
-      ],
-    },
+    "subheading": "By Data Transfer Speed",
+    "note": "Check each pick's listed USB data port speed against how often you actually move large files before buying. UGREEN Revodok Pro 7 is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Heat and Reliability by Use Pattern",
-    intro: "How long you keep a dock connected each day should influence which pick you choose more than the port count on the box.",
-    table: {
-      headers: ["Daily use pattern", "Risk", "Best pick"],
-      rows: [
-        ["Short sessions, a few hours a day", "Low heat risk across all picks", "UGREEN Revodok Pro or Anker Nano"],
-        ["Full workday, all ports active", "Higher heat buildup risk on compact plastic hubs", "Anker 8-in-1 (reinforced housing) or HP Dock G5"],
-        ["Triple 4K output for extended periods", "Highest bandwidth and heat demand in this list", "Selore Triple 4K, with good desk airflow around it"],
-      ],
-    },
-    note: "If you notice devices randomly disconnecting after 30 to 60 minutes of use, that's the classic symptom of dock overheating, not a defective unit or driver issue.",
+    "subheading": "For a Dual or Triple Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Native DisplayPort Alt Mode or DisplayLink chip technology, verified against your specific laptop's documented maximum external display count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "UGREEN Revodok Pro 7 is worth checking against its listed display support before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need reliable multi-display support and full-speed charging under daily sustained use, where HP USB's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need occasional charging and a single extra port, where UGREEN Revodok Pro 7 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

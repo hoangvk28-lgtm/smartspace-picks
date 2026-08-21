@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Thunderbolt 4 cannot do uncompressed 4K@120Hz on its own",
-    explanation:
-      "Thunderbolt 4's 40Gbps bandwidth ceiling is not enough to carry an uncompressed 4K@120Hz signal. Docks that advertise 4K@120Hz over TB4 rely on Display Stream Compression (DSC), a visually lossless compression method, to fit the signal within available bandwidth. DSC only works if both the dock and the connected monitor support it, so check your monitor's DSC support before assuming a TB4 dock will hit 120Hz.",
+    "criterion": "Check the real power delivery wattage, not just \"PD\" in the listing",
+    "explanation": "Power delivery (PD) wattage determines whether a dock can actually charge your laptop while it's connected, not just pass a trickle of power through, and this number varies widely, from 60W barely-adequate figures up to 100W or higher business-tier docks.\n\nThis matters because a dock rated below what your laptop actually needs to charge under load, especially a larger laptop or one running demanding tasks while docked, will slowly drain the battery even while \"charging\", a frustrating and easy-to-miss problem.\n\nCheck the listing for the specific PD wattage number, and compare it against your laptop's actual charging brick wattage, not just whether the listing mentions power delivery at all."
   },
   {
-    criterion: "Only Thunderbolt 5 reaches 4K@120Hz uncompressed",
-    explanation:
-      "Thunderbolt 5's higher bandwidth ceiling is enough to carry 4K@120Hz without needing DSC compression at all. TB5 laptops and docks remain more limited and pricier than TB4 options as of 2026, so weigh whether uncompressed output is worth the premium versus a DSC-compressed TB4 connection that most users can't visually tell apart from uncompressed anyway.",
+    "criterion": "Verify actual display support against your specific laptop and GPU, not just port count",
+    "explanation": "A dock listing multiple HDMI or DisplayPort outputs doesn't guarantee your laptop can actually drive all of them at full resolution and refresh rate simultaneously, that capability depends on your laptop's specific GPU and USB-C controller, which some docks work around using DisplayLink technology and others don't.\n\nThis distinction matters a lot if you're building a dual or triple monitor setup, since a laptop that can't natively drive multiple external displays will show a blank or mirrored screen on a non-DisplayLink dock's extra port, regardless of how many ports the dock has.\n\nCheck whether the dock uses native DisplayPort Alt Mode or DisplayLink chip technology, and separately verify your specific laptop model's documented maximum number of external displays before assuming any multi-port dock will drive them all."
   },
   {
-    criterion: "Your display cable can silently cap the refresh rate",
-    explanation:
-      "An older HDMI cable simply cannot carry a 4K@120Hz signal, and will lock the connection at 4K@60Hz even when both the dock and the monitor fully support 120Hz. Always pair a 4K@120Hz-capable dock with a certified high-bandwidth HDMI 2.1 or DisplayPort cable, this is one of the most common reasons buyers think a dock is defective when the cable is the actual bottleneck.",
+    "criterion": "Match data transfer speeds and Ethernet to what you actually move and how",
+    "explanation": "USB data ports on a dock range widely in real transfer speed, from basic 480Mbps USB 2.0 speeds up to 10Gbps or higher, a gap that matters enormously if you regularly move large files to and from external drives, but barely matters if you're just charging a mouse and keyboard.\n\nEthernet port speed follows the same logic, a dock's Gigabit or 2.5Gb Ethernet port is only as fast as your actual home or office network infrastructure supports, so paying for 2.5Gb Ethernet on a network that tops out at Gigabit gains nothing.\n\nCheck the specific listed speed for each port type you'll actually use regularly, and compare Ethernet speed against your router's actual rated speed, not just the dock's spec sheet in isolation."
   },
   {
-    criterion: "4K@120Hz vs. 1440p@144Hz is a real productivity vs. performance trade-off",
-    explanation:
-      "4K@120Hz demands more GPU power and bandwidth than 1440p@144Hz. For static home office productivity work, 4K@60Hz is often visually superior to 1440p@144Hz simply from the resolution increase. For gaming on a mid-range GPU, 1440p@144Hz can actually deliver smoother real-world performance than a 4K@120Hz target the GPU struggles to sustain.",
+    "criterion": "Confirm compatibility with your specific laptop's USB-C or Thunderbolt port",
+    "explanation": "Not every USB-C port supports the same features, some laptops only support USB-C data and charging without any video output over that port at all, while others support full Thunderbolt with much higher bandwidth for multiple 4K displays.\n\nDocks built around Thunderbolt certification generally support more demanding multi-display and high-speed configurations, but require a genuinely Thunderbolt-capable port on your laptop to unlock that performance, plugging a Thunderbolt dock into a USB-C-only port still works but loses the extra bandwidth.\n\nCheck your specific laptop's documented port capabilities (Thunderbolt 3, Thunderbolt 4, or USB-C without Thunderbolt), not just that it has a USB-C-shaped port, before assuming any docking station will unlock its full advertised capability."
   },
   {
-    criterion: "MacBook cannot hit 4K@120Hz through a DisplayLink dock",
-    explanation:
-      "DisplayLink's compression technology caps output at 4K@60Hz on macOS regardless of what the dock's spec sheet claims for Windows. Mac users who specifically need 4K@120Hz must use a dock with native Thunderbolt video output, and even then only higher-tier Pro or Max chip MacBooks support that output at 120Hz.",
-  },
-  {
-    criterion: "KVM switch docks solve a different problem than pure display docks",
-    explanation:
-      "A KVM switch dock lets 2 computers share the same monitors and peripherals without re-plugging cables, which is valuable if you regularly switch between a work laptop and a personal desktop. If you only ever use one computer, this adds unnecessary complexity, a standard docking station without KVM switching is simpler and often cheaper for the same display performance.",
-  },
+    "criterion": "Consider heat and long-term reliability under sustained daily use",
+    "explanation": "A docking station that stays plugged in and under load for 8+ hours a day handles thermal stress very differently than a hub used occasionally for a quick file transfer, and a compact plastic-bodied dock with no real heat dissipation can throttle performance or degrade faster under that kind of sustained daily use than an aluminum-bodied one.\n\nThis matters more for anyone using the dock as their primary daily workstation setup than for occasional or travel use.\n\nCheck reviews specifically for mentions of the dock running hot, disconnecting intermittently after extended use, or degrading over months, rather than relying on the unboxing-day performance most reviews describe."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,70 +359,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Laptop Connection Type",
-    intro:
-      "The dock category that actually works for you depends heavily on whether your laptop has Thunderbolt or standard USB-C, and whether it's a Mac or Windows machine.",
-    table: {
-      headers: ["Your laptop", "What to look for", "Best pick"],
-      rows: [
-        ["MacBook Pro/Air M4/M5 (Thunderbolt)", "Native Thunderbolt video, not DisplayLink", "Plugable Thunderbolt 4 Dock (TBT-UDM)"],
-        ["Windows laptop with Thunderbolt 5/4/3", "DisplayLink dock for multi-monitor 4K@120Hz", "TobenONE 20-in-1 or DL7400"],
-        ["Any USB-C laptop, budget dual-monitor need", "144Hz-capable dual output at low cost", "USB C Dock, Dual Monitor 4K@144Hz"],
-        ["Dell/HP/Lenovo with heavy data transfer needs", "10Gbps data plus dual 4K", "Anker Prime 14-Port Docking Station"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "TobenONE 18"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "TobenONE 18"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Monitor Count vs. Refresh Rate",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $99",
+          "USB C Docking Station"
+        ],
+        [
+          "Up to $330",
+          "TobenONE 18"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Thunderbolt vs USB-C Only",
+    "cards": [
       {
-        label: "Want the most monitors possible at 120Hz",
-        text: "The TobenONE DL7400 supports up to 5 monitors including quad 4K@120Hz, the highest monitor count in this list at that refresh rate.",
+        "label": "Thunderbolt-certified",
+        "text": "Higher bandwidth for demanding multi-display and high-speed data setups, but requires a genuinely Thunderbolt-capable laptop port. In this comparison: TobenONE 18, TobenONE 20, Plugable Thunderbolt 4 Dock for M4/M5 MacBook."
       },
       {
-        label: "Want fewer monitors but guaranteed 120Hz",
-        text: "The 13-in-1 KVM dock explicitly supports 4K@120Hz on its 2-monitor configuration with a clear cable requirement.",
-      },
-      {
-        label: "Want 4 monitors and don't need 120Hz",
-        text: "The TobenONE 20-in-1 covers quad 4K@60Hz, prioritizing display count over refresh rate for productivity work.",
-      },
-      {
-        label: "Want dual monitors on a tight budget",
-        text: "The USB C dual-monitor dock at $98.99 hits 4K@144Hz for the lowest price in this list.",
-      },
+        "label": "USB-C only",
+        "text": "Usually cheaper and works with any USB-C laptop, but with less headroom for multiple high-resolution displays. In this comparison: USB C Docking Station, AV Access 8K KVM Switch Dock, WAVLINK USB C Docking Station, Anker Prime Docking Station, KVM Switch 2 Monitors 2 Computers Docking Station."
+      }
     ],
+    "note": "Default to USB-C only unless your laptop has a genuine Thunderbolt port and you need the extra display or data bandwidth."
   },
   {
-    subheading: "By Whether You Share a Setup Between 2 Computers",
-    intro:
-      "KVM switch docks solve a specific problem that standard docks don't address at all.",
-    table: {
-      headers: ["Situation", "Recommendation", "Best pick"],
-      rows: [
-        ["Single laptop, single dock", "Standard dock, no KVM needed", "Plugable Thunderbolt 4 Dock or Anker Prime"],
-        ["Laptop and desktop sharing 2 monitors, 60Hz fine", "8K KVM switch dock", "AV Access 8K KVM Switch Dock"],
-        ["Laptop and desktop sharing 2 monitors, need 120Hz", "KVM dock with native 4K@120Hz support", "13-in-1 KVM Switch Dock (4K60Hz/4K120Hz)"],
-      ],
-    },
+    "subheading": "By Data Transfer Speed",
+    "note": "Check each pick's listed USB data port speed against how often you actually move large files before buying. TobenONE 18 is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Mac vs. Windows Display Ceiling",
-    note: "On macOS, any DisplayLink-based dock is capped at 4K@60Hz regardless of the dock's advertised 120Hz spec for Windows. Mac users chasing 4K@120Hz need a dock with native Thunderbolt video output, like the Plugable TBT-UDM, and even then only Pro/Max chip MacBooks support that ceiling.",
+    "subheading": "For a Dual or Triple Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Native DisplayPort Alt Mode or DisplayLink chip technology, verified against your specific laptop's documented maximum external display count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "TobenONE 18 is worth checking against its listed display support before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Cable Requirements to Actually Reach 120Hz",
-    intro:
-      "None of the docks in this list can hit their advertised refresh rate with an underspecified cable.",
-    table: {
-      headers: ["Target refresh rate", "Required cable", "What happens with an older cable"],
-      rows: [
-        ["4K@60Hz", "Standard HDMI 2.0 or DisplayPort 1.4", "Works fine at 60Hz"],
-        ["4K@120Hz (compressed via DSC)", "Certified HDMI 2.1 or DisplayPort 1.4/2.0", "Signal silently drops to 60Hz"],
-        ["4K@120Hz (uncompressed, TB5)", "Certified high-bandwidth Thunderbolt/DP cable", "Signal fails to reach 120Hz or drops connection"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need reliable multi-display support and full-speed charging under daily sustained use, where TobenONE 18's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need occasional charging and a single extra port, where USB C Docking Station covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -296,35 +296,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "DisplayLink is not suitable for color-critical work",
-    explanation:
-      "DisplayLink's driver intercepts GPU output and compresses it as USB data, which means Windows Display Color Calibration and ICC profiles have no effect on a DisplayLink-connected monitor. Photographers, designers, and video editors should keep their primary working display on a native connection and reserve DisplayLink for secondary reference screens.",
+    "criterion": "Check the real power delivery wattage, not just \"PD\" in the listing",
+    "explanation": "Power delivery (PD) wattage determines whether a dock can actually charge your laptop while it's connected, not just pass a trickle of power through, and this number varies widely, from 60W barely-adequate figures up to 100W or higher business-tier docks.\n\nThis matters because a dock rated below what your laptop actually needs to charge under load, especially a larger laptop or one running demanding tasks while docked, will slowly drain the battery even while \"charging\", a frustrating and easy-to-miss problem.\n\nCheck the listing for the specific PD wattage number, and compare it against your laptop's actual charging brick wattage, not just whether the listing mentions power delivery at all."
   },
   {
-    criterion: "Expect a real CPU and heat tax",
-    explanation:
-      "DisplayLink renders display output through CPU and GPU compression, adding roughly 3-15% CPU load even at idle. On fanless MacBooks or thin, fanless Windows laptops, this shows up as noticeably higher heat, which is worth checking before running a DisplayLink dock all day.",
+    "criterion": "Verify actual display support against your specific laptop and GPU, not just port count",
+    "explanation": "A dock listing multiple HDMI or DisplayPort outputs doesn't guarantee your laptop can actually drive all of them at full resolution and refresh rate simultaneously, that capability depends on your laptop's specific GPU and USB-C controller, which some docks work around using DisplayLink technology and others don't.\n\nThis distinction matters a lot if you're building a dual or triple monitor setup, since a laptop that can't natively drive multiple external displays will show a blank or mirrored screen on a non-DisplayLink dock's extra port, regardless of how many ports the dock has.\n\nCheck whether the dock uses native DisplayPort Alt Mode or DisplayLink chip technology, and separately verify your specific laptop model's documented maximum number of external displays before assuming any multi-port dock will drive them all."
   },
   {
-    criterion: "macOS updates can break DisplayLink temporarily",
-    explanation:
-      "DisplayLink driver updates typically lag days to weeks behind major macOS releases. If you update macOS right after a new release, your DisplayLink-connected monitors may go dark until DisplayLink ships a compatible driver, so check DisplayLink's compatibility page before updating macOS on a docked setup.",
+    "criterion": "Match data transfer speeds and Ethernet to what you actually move and how",
+    "explanation": "USB data ports on a dock range widely in real transfer speed, from basic 480Mbps USB 2.0 speeds up to 10Gbps or higher, a gap that matters enormously if you regularly move large files to and from external drives, but barely matters if you're just charging a mouse and keyboard.\n\nEthernet port speed follows the same logic, a dock's Gigabit or 2.5Gb Ethernet port is only as fast as your actual home or office network infrastructure supports, so paying for 2.5Gb Ethernet on a network that tops out at Gigabit gains nothing.\n\nCheck the specific listed speed for each port type you'll actually use regularly, and compare Ethernet speed against your router's actual rated speed, not just the dock's spec sheet in isolation."
   },
   {
-    criterion: "Choose DisplayLink or native Thunderbolt based on your actual bottleneck",
-    explanation:
-      "Use DisplayLink when your laptop simply can't natively drive the number of displays you want, which covers base M1/M2/M3 Macs and many older Windows laptops. Use native Thunderbolt output when color accuracy or low latency genuinely matters more than display count.",
+    "criterion": "Confirm compatibility with your specific laptop's USB-C or Thunderbolt port",
+    "explanation": "Not every USB-C port supports the same features, some laptops only support USB-C data and charging without any video output over that port at all, while others support full Thunderbolt with much higher bandwidth for multiple 4K displays.\n\nDocks built around Thunderbolt certification generally support more demanding multi-display and high-speed configurations, but require a genuinely Thunderbolt-capable port on your laptop to unlock that performance, plugging a Thunderbolt dock into a USB-C-only port still works but loses the extra bandwidth.\n\nCheck your specific laptop's documented port capabilities (Thunderbolt 3, Thunderbolt 4, or USB-C without Thunderbolt), not just that it has a USB-C-shaped port, before assuming any docking station will unlock its full advertised capability."
   },
   {
-    criterion: "4K@60Hz over DisplayLink needs a real USB 3.0 connection",
-    explanation:
-      "DisplayLink 4K at 60Hz requires at minimum a USB 3.0 connection at 5Gbps; plugging into a USB 2.0 port drops output to 1080p or 4K at 30Hz. Verify which USB generation your laptop's port actually supports before expecting full 4K 60Hz from a DisplayLink dock.",
-  },
-  {
-    criterion: "Match the driver install cost to how often you'll dock",
-    explanation:
-      "Every DisplayLink dock requires installing and periodically updating a driver, which is a one-time cost for a permanent desk setup but a recurring annoyance if you dock at multiple locations with different computers. Frequent movers may prefer a native dock even at the cost of fewer displays.",
-  },
+    "criterion": "Consider heat and long-term reliability under sustained daily use",
+    "explanation": "A docking station that stays plugged in and under load for 8+ hours a day handles thermal stress very differently than a hub used occasionally for a quick file transfer, and a compact plastic-bodied dock with no real heat dissipation can throttle performance or degrade faster under that kind of sustained daily use than an aluminum-bodied one.\n\nThis matters more for anyone using the dock as their primary daily workstation setup than for occasional or travel use.\n\nCheck reviews specifically for mentions of the dock running hot, disconnecting intermittently after extended use, or degrading over months, rather than relying on the unboxing-day performance most reviews describe."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -337,68 +327,102 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Why You Actually Need DisplayLink",
-    intro:
-      "DisplayLink solves a specific problem, extra displays on a laptop that can't natively support them, not every multi-monitor need.",
-    table: {
-      headers: ["Your situation", "Right technology", "Best pick"],
-      rows: [
-        ["Base M1/M2/M3 Mac, need 3 displays", "DisplayLink required", "Plugable UD-ULTCDL"],
-        ["Want 3 real 4K 60Hz displays, Windows", "DisplayLink required", "WAVLINK 12-in-1 or Anker Prime DL7400"],
-        ["Color-critical photo/video editing", "Native Thunderbolt, not DisplayLink", "Plugable TBT-UDM or Dell SD25TB4"],
-        ["Just need dual 4K, no driver hassle", "Native USB4/TB4", "Anker Prime 160W 14-Port"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "WAVLINK Docking Station 3 Monitors"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "WAVLINK Docking Station 3 Monitors"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Mac Chip and Display Needs",
-    cards: [
-      {
-        label: "Base M1/M2/M3/M4 chip",
-        text: "1 native external display only, so any additional display requires DisplayLink like the Plugable UD-ULTCDL, regardless of how many ports a dock has.",
-      },
-      {
-        label: "Pro chip (M1/M2/M3/M4 Pro)",
-        text: "2 native external displays, so DisplayLink is only needed if you want a 3rd screen.",
-      },
-      {
-        label: "Max chip",
-        text: "Up to 4 native external displays, meaning most buyers on Max chips don't need DisplayLink at all for standard multi-monitor setups.",
-      },
-    ],
-  },
-  {
-    subheading: "Resolution Reality Check by Pick",
-    intro:
-      "Triple-display DisplayLink docks don't all deliver the same resolution on every port; check before assuming full 4K 60Hz across all 3.",
-    table: {
-      headers: ["Pick", "Actual max resolution", "Note"],
-      rows: [
-        ["WAVLINK 12-in-1", "Triple 4K@60Hz", "Full resolution across all 3 displays"],
-        ["Anker Prime DL7400", "Triple 4K@60Hz", "Active cooling supports sustained use at full resolution"],
-        ["Plugable UD-ULTCDL", "Triple HDMI, resolution varies by port combination", "Verify per-port max before buying 3 identical monitors"],
-        ["Plugable USB C Triple Display", "1x 4K@30Hz + 2x 1080p@60Hz", "Main display capped below 60Hz"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $117",
+          "WAVLINK Docking Station 3 Monitors"
+        ],
+        [
+          "Up to $228",
+          "Anker Prime Docking Station"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Driver Maintenance Checklist",
-    cards: [
+    "subheading": "Thunderbolt vs USB-C Only",
+    "cards": [
       {
-        label: "Before a macOS update",
-        text: "Check DisplayLink's compatibility page for your target macOS version before updating, since driver support typically lags days to weeks behind a new release.",
+        "label": "Thunderbolt-certified",
+        "text": "Higher bandwidth for demanding multi-display and high-speed data setups, but requires a genuinely Thunderbolt-capable laptop port. In this comparison: Plugable Thunderbolt 4 Dock, Dell Pro Thunderbolt 4 Smart Dock, Anker Prime Docking Station."
       },
       {
-        label: "If displays go dark after an update",
-        text: "Reinstall the latest DisplayLink driver directly from DisplayLink's site rather than relying on an outdated bundled installer.",
-      },
-      {
-        label: "If you dock at multiple locations",
-        text: "A native Thunderbolt dock like the Plugable TBT-UDM avoids driver management entirely, worth the tradeoff of fewer displays for frequent movers.",
-      },
+        "label": "USB-C only",
+        "text": "Usually cheaper and works with any USB-C laptop, but with less headroom for multiple high-resolution displays. In this comparison: WAVLINK Docking Station 3 Monitors, Anker Prime Docking Station, Plugable USB, Plugable USB C Triple Display Docking Station."
+      }
     ],
-    note: "Keep at least one display on a native connection if any part of your work is color-critical, and reserve DisplayLink for the additional screens rather than your primary editing monitor.",
+    "note": "Default to USB-C only unless your laptop has a genuine Thunderbolt port and you need the extra display or data bandwidth."
   },
+  {
+    "subheading": "By Ethernet Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Wired Ethernet needed",
+          "WAVLINK Docking Station 3 Monitors"
+        ],
+        [
+          "Wi-Fi only is fine",
+          "Anker Prime Docking Station"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Dual or Triple Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Native DisplayPort Alt Mode or DisplayLink chip technology, verified against your specific laptop's documented maximum external display count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "WAVLINK Docking Station 3 Monitors is worth checking against its listed display support before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need reliable multi-display support and full-speed charging under daily sustained use, where Anker Prime Docking Station's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need occasional charging and a single extra port, where WAVLINK Docking Station 3 Monitors covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

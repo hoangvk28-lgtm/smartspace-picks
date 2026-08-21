@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "KVM docks trade bandwidth for convenience",
-    explanation:
-      "An all-in-one KVM dock must split one connection across switching logic, display outputs, and USB simultaneously, which can add latency and reduce effective bandwidth compared to a dedicated dock. Most KVM docks use USB-C with proprietary switching rather than a certified Thunderbolt 4 chipset, so don't expect TB4-level performance from a KVM-labeled product.",
+    "criterion": "Check the real power delivery wattage, not just \"PD\" in the listing",
+    "explanation": "Power delivery (PD) wattage determines whether a dock can actually charge your laptop while it's connected, not just pass a trickle of power through, and this number varies widely, from 60W barely-adequate figures up to 100W or higher business-tier docks.\n\nThis matters because a dock rated below what your laptop actually needs to charge under load, especially a larger laptop or one running demanding tasks while docked, will slowly drain the battery even while \"charging\", a frustrating and easy-to-miss problem.\n\nCheck the listing for the specific PD wattage number, and compare it against your laptop's actual charging brick wattage, not just whether the listing mentions power delivery at all."
   },
   {
-    criterion: "Verify your keyboard supports hotkey switching",
-    explanation:
-      "KVM hotkey switching requires a keyboard that follows the standard HID protocol. Gaming keyboards running custom firmware can fail to trigger the switch hotkey silently, with no error message. If hotkey switching stops working, try a basic wired USB keyboard before assuming the dock is defective.",
+    "criterion": "Verify actual display support against your specific laptop and GPU, not just port count",
+    "explanation": "A dock listing multiple HDMI or DisplayPort outputs doesn't guarantee your laptop can actually drive all of them at full resolution and refresh rate simultaneously, that capability depends on your laptop's specific GPU and USB-C controller, which some docks work around using DisplayLink technology and others don't.\n\nThis distinction matters a lot if you're building a dual or triple monitor setup, since a laptop that can't natively drive multiple external displays will show a blank or mirrored screen on a non-DisplayLink dock's extra port, regardless of how many ports the dock has.\n\nCheck whether the dock uses native DisplayPort Alt Mode or DisplayLink chip technology, and separately verify your specific laptop model's documented maximum number of external displays before assuming any multi-port dock will drive them all."
   },
   {
-    criterion: "Check what actually switches, not just keyboard and mouse",
-    explanation:
-      "Most KVM docks reliably switch keyboard and mouse, but USB storage devices, webcams, and audio may or may not switch automatically depending on the model. A webcam or USB audio interface may need to re-initialize after each switch, so test your specific peripheral set before relying on it for video calls.",
+    "criterion": "Match data transfer speeds and Ethernet to what you actually move and how",
+    "explanation": "USB data ports on a dock range widely in real transfer speed, from basic 480Mbps USB 2.0 speeds up to 10Gbps or higher, a gap that matters enormously if you regularly move large files to and from external drives, but barely matters if you're just charging a mouse and keyboard.\n\nEthernet port speed follows the same logic, a dock's Gigabit or 2.5Gb Ethernet port is only as fast as your actual home or office network infrastructure supports, so paying for 2.5Gb Ethernet on a network that tops out at Gigabit gains nothing.\n\nCheck the specific listed speed for each port type you'll actually use regularly, and compare Ethernet speed against your router's actual rated speed, not just the dock's spec sheet in isolation."
   },
   {
-    criterion: "Expect uneven power delivery between hosts",
-    explanation:
-      "KVM docks commonly provide full power delivery to the actively connected computer and reduced power to the idle one. If both laptops need to charge at full speed simultaneously, a KVM dock is the wrong tool; a separate dock per laptop handles that better.",
+    "criterion": "Confirm compatibility with your specific laptop's USB-C or Thunderbolt port",
+    "explanation": "Not every USB-C port supports the same features, some laptops only support USB-C data and charging without any video output over that port at all, while others support full Thunderbolt with much higher bandwidth for multiple 4K displays.\n\nDocks built around Thunderbolt certification generally support more demanding multi-display and high-speed configurations, but require a genuinely Thunderbolt-capable port on your laptop to unlock that performance, plugging a Thunderbolt dock into a USB-C-only port still works but loses the extra bandwidth.\n\nCheck your specific laptop's documented port capabilities (Thunderbolt 3, Thunderbolt 4, or USB-C without Thunderbolt), not just that it has a USB-C-shaped port, before assuming any docking station will unlock its full advertised capability."
   },
   {
-    criterion: "Mac and Windows mixed setups need extra reconfiguration",
-    explanation:
-      "macOS does not automatically re-apply display arrangement or input device settings when switching away from and back to a KVM connection. If you're sharing a KVM dock between a Mac and a Windows machine, expect to reconfigure display layout and input settings after each switch rather than a seamless handoff.",
-  },
-  {
-    criterion: "Know when a separate KVM switch is the better call",
-    explanation:
-      "For buyers who need full dock performance, 100W+ power delivery, 4K120Hz, or 2.5GbE Ethernet, a separate KVM switch paired with two individual full-spec docks is the better approach. An all-in-one KVM dock makes the most sense for price-conscious setups where some spec compromise is acceptable.",
-  },
+    "criterion": "Consider heat and long-term reliability under sustained daily use",
+    "explanation": "A docking station that stays plugged in and under load for 8+ hours a day handles thermal stress very differently than a hub used occasionally for a quick file transfer, and a compact plastic-bodied dock with no real heat dissipation can throttle performance or degrade faster under that kind of sustained daily use than an aluminum-bodied one.\n\nThis matters more for anyone using the dock as their primary daily workstation setup than for occasional or travel use.\n\nCheck reviews specifically for mentions of the dock running hot, disconnecting intermittently after extended use, or degrading over months, rather than relying on the unboxing-day performance most reviews describe."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,65 +359,102 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Monitor Count and Resolution Needs",
-    intro:
-      "The picks in this list range from dual 4K monitor support up to triple monitors at 8K, so match the dock to your actual monitor setup rather than the highest spec sheet number.",
-    table: {
-      headers: ["Setup", "Resolution need", "Best pick"],
-      rows: [
-        ["Dual monitor, standard 4K60Hz", "Everyday productivity", "AV Access KVM Switch Dock 2 Monitors 2 Laptops"],
-        ["Dual monitor, high refresh rate", "2K@144Hz or 1080p@240Hz", "AV Access KVM Switch Dock 2 Monitors 2 Laptops"],
-        ["Dual monitor, 4K120Hz gaming or creative work", "Higher refresh at 4K", "13-in-1 KVM Switch Dock"],
-        ["Triple monitor across 2 computers", "3-display workflows", "UGREEN 8K@60Hz KVM Switch 3 Monitors"],
-        ["Very high-resolution single display", "8K ceiling", "AV Access 8K KVM Switch 2 Monitors 2 Computers"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "AV Access KVM Switch Dock 2 Monitors 2 Laptops"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "AV Access KVM Switch Dock 2 Monitors 2 Laptops"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Power Delivery Priority",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $93",
+          "UGREEN 8K@60Hz KVM Switch 3 Monitors 2 Computers"
+        ],
+        [
+          "Up to $228",
+          "Anker Prime Docking Station DL7400"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Thunderbolt vs USB-C Only",
+    "cards": [
       {
-        label: "Need the highest rated charging speed",
-        text: "The AV Access Docking Station KVM Switch (100W) offers the highest rated per-host PD among the KVM-specific picks in this list, though actual delivery will run lower than the rated number.",
+        "label": "Thunderbolt-certified",
+        "text": "Higher bandwidth for demanding multi-display and high-speed data setups, but requires a genuinely Thunderbolt-capable laptop port. In this comparison: Anker Prime Docking Station, Plugable Thunderbolt 4 Dock."
       },
       {
-        label: "Both computers need full-speed charging simultaneously",
-        text: "No KVM dock in this list guarantees equal power to both hosts at once. Pair the Anker Prime 160W dock or Plugable TBT-UDM with a separate KVM switch instead.",
-      },
-      {
-        label: "Charging speed is a lower priority than monitor count",
-        text: "The UGREEN 8K@60Hz KVM Switch prioritizes 3-monitor support over disclosed high-wattage charging, a reasonable trade for desktop-anchored setups.",
-      },
+        "label": "USB-C only",
+        "text": "Usually cheaper and works with any USB-C laptop, but with less headroom for multiple high-resolution displays. In this comparison: AV Access KVM Switch Dock 2 Monitors 2 Laptops, AV Access Docking Station KVM Switch 2 Monitors 2 Laptops, AV Access 8K KVM Switch 2 Monitors 2 Computers, KVM Switch 2 Monitors 2 Computers Docking Station, UGREEN 8K@60Hz KVM Switch 3 Monitors 2 Computers, Anker Prime Docking Station DL7400."
+      }
     ],
+    "note": "Default to USB-C only unless your laptop has a genuine Thunderbolt port and you need the extra display or data bandwidth."
   },
   {
-    subheading: "All-in-One KVM Dock vs. Dock Plus Separate KVM Switch",
-    intro:
-      "This is the single biggest architectural decision in this category, and it depends on how much you're willing to compromise dock performance for convenience.",
-    table: {
-      headers: ["Priority", "Approach", "Best pick"],
-      rows: [
-        ["Fewer cables, lower cost, acceptable spec compromise", "All-in-one KVM dock", "AV Access or UGREEN KVM docks in this list"],
-        ["Full TB4 bandwidth and 160W+ power per host", "Separate dock + separate KVM switch", "Anker Prime 160W dock or Plugable TBT-UDM plus a dedicated KVM switch"],
-        ["Triple 4K DisplayLink display with full dock spec", "Separate dock + separate KVM switch", "Anker Prime DL7400 plus a dedicated KVM switch"],
+    "subheading": "By Ethernet Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "KVM docks rarely use certified TB4 chipsets; most rely on USB-C with proprietary switching logic, which is the trade-off you're accepting for the convenience of one device instead of two.",
+      "rows": [
+        [
+          "Wired Ethernet needed",
+          "AV Access KVM Switch Dock 2 Monitors 2 Laptops"
+        ],
+        [
+          "Wi-Fi only is fine",
+          "KVM Switch 2 Monitors 2 Computers Docking Station"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Peripheral Switching Reality Check",
-    intro:
-      "Not every peripheral switches the same way when you press the KVM hotkey.",
-    table: {
-      headers: ["Peripheral", "Typical switch behavior", "What to check"],
-      rows: [
-        ["Keyboard and mouse", "Switches reliably on most docks", "Confirm your keyboard uses standard HID, not custom gaming firmware"],
-        ["Monitor / EDID", "May flicker or take a few seconds", "Look for EDID emulation, included on the AV Access picks in this list"],
-        ["USB audio / webcam", "Inconsistent, varies by dock", "Test your specific webcam and headset before relying on it for calls"],
-        ["Ethernet", "Generally stays tied to whichever host is active", "Confirm gigabit Ethernet is listed if wired networking matters to you"],
-      ],
-    },
+    "subheading": "For a Dual or Triple Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Native DisplayPort Alt Mode or DisplayLink chip technology, verified against your specific laptop's documented maximum external display count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "AV Access KVM Switch Dock 2 Monitors 2 Laptops is worth checking against its listed display support before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need reliable multi-display support and full-speed charging under daily sustained use, where Anker Prime Docking Station DL7400's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need occasional charging and a single extra port, where UGREEN 8K@60Hz KVM Switch 3 Monitors 2 Computers covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

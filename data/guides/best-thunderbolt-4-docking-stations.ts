@@ -296,35 +296,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "TB4 certified means guaranteed, not just compatible",
-    explanation:
-      "A dock that says it 'works with Thunderbolt 4' is not the same as one that is Thunderbolt Certified. Certification means Intel-verified 40Gbps bandwidth, dual 4K support, and daisy-chain capability; an uncertified USB4 dock may hit those numbers or may quietly fall short, especially on one of the display outputs.",
+    "criterion": "Check the real power delivery wattage, not just \"PD\" in the listing",
+    "explanation": "Power delivery (PD) wattage determines whether a dock can actually charge your laptop while it's connected, not just pass a trickle of power through, and this number varies widely, from 60W barely-adequate figures up to 100W or higher business-tier docks.\n\nThis matters because a dock rated below what your laptop actually needs to charge under load, especially a larger laptop or one running demanding tasks while docked, will slowly drain the battery even while \"charging\", a frustrating and easy-to-miss problem.\n\nCheck the listing for the specific PD wattage number, and compare it against your laptop's actual charging brick wattage, not just whether the listing mentions power delivery at all."
   },
   {
-    criterion: "AMD and ARM laptops don't get true TB4",
-    explanation:
-      "Only Intel Core i-series and Intel Core Ultra laptops carry native Thunderbolt 4 controllers. AMD Ryzen 7000 and newer, including the Ryzen AI 300 series, ship with USB4 instead, which looks similar on a spec sheet but skips the mandatory certification testing that guarantees TB4's numbers.",
+    "criterion": "Verify actual display support against your specific laptop and GPU, not just port count",
+    "explanation": "A dock listing multiple HDMI or DisplayPort outputs doesn't guarantee your laptop can actually drive all of them at full resolution and refresh rate simultaneously, that capability depends on your laptop's specific GPU and USB-C controller, which some docks work around using DisplayLink technology and others don't.\n\nThis distinction matters a lot if you're building a dual or triple monitor setup, since a laptop that can't natively drive multiple external displays will show a blank or mirrored screen on a non-DisplayLink dock's extra port, regardless of how many ports the dock has.\n\nCheck whether the dock uses native DisplayPort Alt Mode or DisplayLink chip technology, and separately verify your specific laptop model's documented maximum number of external displays before assuming any multi-port dock will drive them all."
   },
   {
-    criterion: "Daisy-chaining has a practical device limit",
-    explanation:
-      "TB4 technically supports daisy-chaining up to 6 devices off one cable, but each device in the chain reduces the bandwidth available downstream. In practice, a dock plus one external SSD plus one display is close to the realistic limit before performance starts to suffer.",
+    "criterion": "Match data transfer speeds and Ethernet to what you actually move and how",
+    "explanation": "USB data ports on a dock range widely in real transfer speed, from basic 480Mbps USB 2.0 speeds up to 10Gbps or higher, a gap that matters enormously if you regularly move large files to and from external drives, but barely matters if you're just charging a mouse and keyboard.\n\nEthernet port speed follows the same logic, a dock's Gigabit or 2.5Gb Ethernet port is only as fast as your actual home or office network infrastructure supports, so paying for 2.5Gb Ethernet on a network that tops out at Gigabit gains nothing.\n\nCheck the specific listed speed for each port type you'll actually use regularly, and compare Ethernet speed against your router's actual rated speed, not just the dock's spec sheet in isolation."
   },
   {
-    criterion: "Don't wait for Thunderbolt 5 unless you own specific hardware",
-    explanation:
-      "TB5 docks are backward compatible and simply run at TB4 speeds on a TB4 laptop, so there's rarely a reason to delay a purchase. The one exception is a small set of newer MacBook Pro models with a 120Gbps bandwidth boost, which only unlock their full throughput through a genuine TB5 dock.",
+    "criterion": "Confirm compatibility with your specific laptop's USB-C or Thunderbolt port",
+    "explanation": "Not every USB-C port supports the same features, some laptops only support USB-C data and charging without any video output over that port at all, while others support full Thunderbolt with much higher bandwidth for multiple 4K displays.\n\nDocks built around Thunderbolt certification generally support more demanding multi-display and high-speed configurations, but require a genuinely Thunderbolt-capable port on your laptop to unlock that performance, plugging a Thunderbolt dock into a USB-C-only port still works but loses the extra bandwidth.\n\nCheck your specific laptop's documented port capabilities (Thunderbolt 3, Thunderbolt 4, or USB-C without Thunderbolt), not just that it has a USB-C-shaped port, before assuming any docking station will unlock its full advertised capability."
   },
   {
-    criterion: "Rated wattage is not delivered wattage",
-    explanation:
-      "A dock rated for 100W power delivery typically sends 85-90W to the laptop, since 10-15W goes to running the dock itself. A 16 inch MacBook Pro under heavy load can need more than 100W, so buyers of larger laptops should look for 130W+ rated docks for headroom.",
-  },
-  {
-    criterion: "DisplayLink and native TB4 video are not interchangeable",
-    explanation:
-      "DisplayLink-based triple-monitor docks add real extra displays to laptops that can't natively support them, but the video is CPU-processed rather than passed through natively. That's a fine trade for general productivity, but not suited to color-critical photo or video editing work.",
-  },
+    "criterion": "Consider heat and long-term reliability under sustained daily use",
+    "explanation": "A docking station that stays plugged in and under load for 8+ hours a day handles thermal stress very differently than a hub used occasionally for a quick file transfer, and a compact plastic-bodied dock with no real heat dissipation can throttle performance or degrade faster under that kind of sustained daily use than an aluminum-bodied one.\n\nThis matters more for anyone using the dock as their primary daily workstation setup than for occasional or travel use.\n\nCheck reviews specifically for mentions of the dock running hot, disconnecting intermittently after extended use, or degrading over months, rather than relying on the unboxing-day performance most reviews describe."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -337,71 +327,102 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What You Actually Need Certified For",
-    intro:
-      "Not every buyer needs the certified 40Gbps guarantee, and knowing which tier you actually need saves money.",
-    table: {
-      headers: ["What you need", "Certification tier", "Best pick"],
-      rows: [
-        ["Guaranteed 40Gbps, daisy-chain support", "Certified TB4", "Plugable TBT-UDM, Dell SD25TB4"],
-        ["TB4-port compatibility, don't need certification", "USB4", "Anker Prime 160W 14-Port"],
-        ["3 real 4K 60Hz displays, driver install is fine", "DisplayLink", "Anker Prime DL7400"],
-        ["Future TB5 laptop upgrade path", "TB5, backward compatible", "Anker Prime TB5 Docking Station"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Plugable Thunderbolt 4 Dock"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Plugable Thunderbolt 4 Dock"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Laptop Platform",
-    cards: [
-      {
-        label: "Intel Core i-series or Core Ultra",
-        text: "You have native TB4 hardware, so a certified dock like the Plugable TBT-UDM or Dell SD25TB4 delivers its full rated performance.",
-      },
-      {
-        label: "AMD Ryzen 7000+ or Ryzen AI 300",
-        text: "You have USB4, not TB4, so a certified TB4 dock won't outperform a well-specced USB4 dock like the Anker Prime 160W on your hardware.",
-      },
-      {
-        label: "Apple M-series MacBook",
-        text: "TB4/TB3 works well on Mac, but if you need 3 external displays, you'll need a DisplayLink dock like the Plugable UD-ULTCDL regardless of certification.",
-      },
-      {
-        label: "Dell laptop specifically",
-        text: "The Dell SD25TB4 is validated directly against Dell's Pro lineup and includes higher 130W charging than most third-party TB4 docks.",
-      },
-    ],
-  },
-  {
-    subheading: "By Charging Needs",
-    intro:
-      "Effective delivered wattage runs 10-15W below the rated spec, so match headroom to your laptop's actual draw.",
-    table: {
-      headers: ["Laptop type", "Wattage needed", "Best pick"],
-      rows: [
-        ["13-14 inch ultrabook", "60-85W effective", "Plugable USB C Triple Display (100W rated)"],
-        ["14-16 inch pro laptop, moderate load", "90-100W effective", "Plugable TBT-UDM (100W rated)"],
-        ["16 inch laptop under heavy load", "115W+ effective", "Dell SD25TB4 (130W) or Anker Prime TB5 (140W)"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $160",
+          "Plugable USB C Triple Display Docking Station"
+        ],
+        [
+          "Up to $320",
+          "Anker Prime TB5 Docking Station"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Display Priorities",
-    cards: [
+    "subheading": "Thunderbolt vs USB-C Only",
+    "cards": [
       {
-        label: "Need 3 real displays and don't mind a driver",
-        text: "The Plugable UD-ULTCDL and Anker Prime DL7400 both drive genuine triple-monitor setups through DisplayLink.",
+        "label": "Thunderbolt-certified",
+        "text": "Higher bandwidth for demanding multi-display and high-speed data setups, but requires a genuinely Thunderbolt-capable laptop port. In this comparison: Plugable Thunderbolt 4 Dock, Dell Pro Thunderbolt 4 Smart Dock, Anker Prime TB5 Docking Station, Anker Prime Docking Station, Plugable USB C Triple Display Docking Station, Anker Prime Docking Station."
       },
       {
-        label: "Need certified dual 4K with no driver hassle",
-        text: "The Plugable TBT-UDM handles dual 4K or single 6K natively, no DisplayLink driver required.",
-      },
-      {
-        label: "Color-critical creative work",
-        text: "Stick with a certified native TB4 dock for your primary display; avoid routing your working monitor through DisplayLink.",
-      },
+        "label": "USB-C only",
+        "text": "Usually cheaper and works with any USB-C laptop, but with less headroom for multiple high-resolution displays. In this comparison: Plugable USB."
+      }
     ],
-    note: "If a dock's daisy-chain feature matters to you, verify certification first; uncertified USB4 hubs frequently skip daisy-chain support entirely even if the port count looks similar.",
+    "note": "Default to USB-C only unless your laptop has a genuine Thunderbolt port and you need the extra display or data bandwidth."
   },
+  {
+    "subheading": "By Ethernet Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Wired Ethernet needed",
+          "Plugable Thunderbolt 4 Dock"
+        ],
+        [
+          "Wi-Fi only is fine",
+          "Anker Prime TB5 Docking Station"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a Dual or Triple Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Native DisplayPort Alt Mode or DisplayLink chip technology, verified against your specific laptop's documented maximum external display count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Plugable Thunderbolt 4 Dock is worth checking against its listed display support before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need reliable multi-display support and full-speed charging under daily sustained use, where Anker Prime TB5 Docking Station's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need occasional charging and a single extra port, where Plugable USB C Triple Display Docking Station covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

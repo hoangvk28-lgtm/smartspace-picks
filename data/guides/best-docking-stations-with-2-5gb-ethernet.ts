@@ -296,35 +296,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "A 2.5GbE dock needs a 2.5GbE router or switch to actually help",
-    explanation:
-      "Connecting a 2.5GbE dock to a typical home router with only 1GbE LAN ports caps the connection at gigabit speeds, since a network moves only as fast as its slowest link. Before buying for the ethernet speed bump specifically, confirm your router or switch also supports 2.5GbE, or budget for that upgrade alongside the dock.",
+    "criterion": "Check the real power delivery wattage, not just \"PD\" in the listing",
+    "explanation": "Power delivery (PD) wattage determines whether a dock can actually charge your laptop while it's connected, not just pass a trickle of power through, and this number varies widely, from 60W barely-adequate figures up to 100W or higher business-tier docks.\n\nThis matters because a dock rated below what your laptop actually needs to charge under load, especially a larger laptop or one running demanding tasks while docked, will slowly drain the battery even while \"charging\", a frustrating and easy-to-miss problem.\n\nCheck the listing for the specific PD wattage number, and compare it against your laptop's actual charging brick wattage, not just whether the listing mentions power delivery at all."
   },
   {
-    criterion: "2.5GbE mainly helps LAN-to-LAN transfers, not general internet use",
-    explanation:
-      "The real-world benefit of 2.5GbE shows up when transferring large files between a docked laptop and another device on the same local network, like a 2.5GbE-capable NAS. For regular internet browsing or streaming, your actual internet connection is almost always the bottleneck, not the dock's ethernet port.",
+    "criterion": "Verify actual display support against your specific laptop and GPU, not just port count",
+    "explanation": "A dock listing multiple HDMI or DisplayPort outputs doesn't guarantee your laptop can actually drive all of them at full resolution and refresh rate simultaneously, that capability depends on your laptop's specific GPU and USB-C controller, which some docks work around using DisplayLink technology and others don't.\n\nThis distinction matters a lot if you're building a dual or triple monitor setup, since a laptop that can't natively drive multiple external displays will show a blank or mirrored screen on a non-DisplayLink dock's extra port, regardless of how many ports the dock has.\n\nCheck whether the dock uses native DisplayPort Alt Mode or DisplayLink chip technology, and separately verify your specific laptop model's documented maximum number of external displays before assuming any multi-port dock will drive them all."
   },
   {
-    criterion: "Wake-on-LAN support varies by dock and should be verified",
-    explanation:
-      "Some 2.5GbE docks support Wake-on-LAN only while the dock itself stays powered, and exact behavior varies model to model. If you or your IT department relies on WoL to remotely wake a docked laptop for management, verify the specific dock's documented WoL behavior rather than assuming all docks handle it the same way.",
+    "criterion": "Match data transfer speeds and Ethernet to what you actually move and how",
+    "explanation": "USB data ports on a dock range widely in real transfer speed, from basic 480Mbps USB 2.0 speeds up to 10Gbps or higher, a gap that matters enormously if you regularly move large files to and from external drives, but barely matters if you're just charging a mouse and keyboard.\n\nEthernet port speed follows the same logic, a dock's Gigabit or 2.5Gb Ethernet port is only as fast as your actual home or office network infrastructure supports, so paying for 2.5Gb Ethernet on a network that tops out at Gigabit gains nothing.\n\nCheck the specific listed speed for each port type you'll actually use regularly, and compare Ethernet speed against your router's actual rated speed, not just the dock's spec sheet in isolation."
   },
   {
-    criterion: "Third-party 2.5GbE adapters can conflict with corporate VPN clients",
-    explanation:
-      "Some corporate VPN software has a documented history of conflicting with third-party 2.5GbE network adapters built into docks. On a managed corporate device, driver installation for the dock's ethernet chip may also require IT approval, so test compatibility before relying on the dock as your daily setup for work.",
+    "criterion": "Confirm compatibility with your specific laptop's USB-C or Thunderbolt port",
+    "explanation": "Not every USB-C port supports the same features, some laptops only support USB-C data and charging without any video output over that port at all, while others support full Thunderbolt with much higher bandwidth for multiple 4K displays.\n\nDocks built around Thunderbolt certification generally support more demanding multi-display and high-speed configurations, but require a genuinely Thunderbolt-capable port on your laptop to unlock that performance, plugging a Thunderbolt dock into a USB-C-only port still works but loses the extra bandwidth.\n\nCheck your specific laptop's documented port capabilities (Thunderbolt 3, Thunderbolt 4, or USB-C without Thunderbolt), not just that it has a USB-C-shaped port, before assuming any docking station will unlock its full advertised capability."
   },
   {
-    criterion: "Adding 2.5GbE to a dock does not reduce display bandwidth",
-    explanation:
-      "A common misconception is that a dock's ethernet chip competes with its display outputs for bandwidth. In practice, the 2.5GbE chip typically draws from its own dedicated PCIe lane, separate from the lanes handling video output, so adding fast ethernet to a dock does not come at the cost of display performance.",
-  },
-  {
-    criterion: "Thunderbolt docks are driverless, DisplayLink docks are not",
-    explanation:
-      "A Thunderbolt Certified dock like the Plugable TBT-UDM works without installing any driver on macOS or Windows. A DisplayLink-based dock like the Anker Prime DL7400 requires the latest DisplayLink driver installed to unlock its full multi-monitor support, which matters on a locked-down laptop where driver installs need IT sign-off.",
-  },
+    "criterion": "Consider heat and long-term reliability under sustained daily use",
+    "explanation": "A docking station that stays plugged in and under load for 8+ hours a day handles thermal stress very differently than a hub used occasionally for a quick file transfer, and a compact plastic-bodied dock with no real heat dissipation can throttle performance or degrade faster under that kind of sustained daily use than an aluminum-bodied one.\n\nThis matters more for anyone using the dock as their primary daily workstation setup than for occasional or travel use.\n\nCheck reviews specifically for mentions of the dock running hot, disconnecting intermittently after extended use, or degrading over months, rather than relying on the unboxing-day performance most reviews describe."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -337,75 +327,102 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Your Laptop's Port Type",
-    intro:
-      "The picks in this list split between Thunderbolt/USB4 docks and DisplayLink-based docks, and the right choice depends on what your laptop actually supports.",
-    table: {
-      headers: ["Laptop port", "What you need", "Best pick"],
-      rows: [
-        ["Thunderbolt 4 or USB4", "Native full-bandwidth dock", "UGREEN 13-in-1 Thunderbolt 4 Dock"],
-        ["MacBook Air/Pro (M4/M5)", "Driverless, Thunderbolt Certified", "Plugable Thunderbolt 4 Dock (TBT-UDM)"],
-        ["Standard USB-C, no Thunderbolt", "DisplayLink for multi-monitor support", "Anker Prime DL7400"],
-        ["Any USB-C, budget-focused", "Triple display without Thunderbolt pricing", "TobenONE 18-in-1 Triple 4K"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "UGREEN 13"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "UGREEN 13"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Do You Actually Have a 2.5GbE Network",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $152",
+          "TobenONE USB C Docking Station 3 Monitors"
+        ],
+        [
+          "Up to $240",
+          "UGREEN 13"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Thunderbolt vs USB-C Only",
+    "cards": [
       {
-        label: "Your router or switch already supports 2.5GbE",
-        text: "Any dock in this list will deliver the full speed benefit for local transfers, like moving files to a 2.5GbE NAS.",
+        "label": "Thunderbolt-certified",
+        "text": "Higher bandwidth for demanding multi-display and high-speed data setups, but requires a genuinely Thunderbolt-capable laptop port. In this comparison: UGREEN 13, Plugable Thunderbolt 4 Dock for M4/M5 MacBook Air & Pro, TobenONE 16, Anker Prime Docking Station, TobenONE 18."
       },
       {
-        label: "Your router only has 1GbE LAN ports",
-        text: "You're capped at gigabit speeds regardless of the dock's own 2.5GbE chip. Budget for a 2.5GbE switch or router upgrade to actually see faster transfers.",
-      },
-      {
-        label: "You mainly use the dock for internet browsing",
-        text: "2.5GbE won't speed up general internet use, since your ISP connection is the real bottleneck there, not the dock.",
-      },
+        "label": "USB-C only",
+        "text": "Usually cheaper and works with any USB-C laptop, but with less headroom for multiple high-resolution displays. In this comparison: TobenONE USB C Docking Station 3 Monitors, Baseus Spacemate Laptop Docking Station."
+      }
     ],
+    "note": "Default to USB-C only unless your laptop has a genuine Thunderbolt port and you need the extra display or data bandwidth."
   },
   {
-    subheading: "By Corporate IT Requirements",
-    intro:
-      "A managed laptop introduces driver-approval and VPN-compatibility questions that a personal laptop buyer doesn't need to think about.",
-    table: {
-      headers: ["Situation", "Risk", "Best pick"],
-      rows: [
-        ["Locked-down corporate laptop", "Driver installs may need IT approval", "Plugable TBT-UDM (driverless)"],
-        ["VPN client active during work", "Some VPNs conflict with third-party 2.5GbE NICs", "Test before relying on any pick daily"],
-        ["IT relies on Wake-on-LAN for remote management", "WoL support varies by dock", "Verify documented WoL behavior before buying"],
+    "subheading": "By Ethernet Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Wired Ethernet needed",
+          "UGREEN 13"
+        ],
+        [
+          "Wi-Fi only is fine",
+          "Anker Prime Docking Station"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Display Needs",
-    table: {
-      headers: ["Display need", "Best pick"],
-      rows: [
-        ["Triple 4K on a budget", "TobenONE 18-in-1 Triple 4K ($151.99)"],
-        ["Triple 4K without Thunderbolt hardware", "Anker Prime DL7400 (DisplayLink)"],
-        ["Dual 4K, MacBook-focused", "TobenONE 18-in-2 MacBook Dock"],
-        ["Single 8K or dual 4K, Thunderbolt", "UGREEN 13-in-1 Thunderbolt 4 Dock"],
-      ],
-    },
-  },
-  {
-    subheading: "Common 2.5GbE Misconceptions Corrected",
-    cards: [
+    "subheading": "For a Dual or Triple Monitor Setup Specifically",
+    "cards": [
       {
-        label: "Myth: adding 2.5GbE reduces display performance",
-        text: "False for docks in this list. The 2.5GbE chip typically runs on its own dedicated PCIe lane, separate from the video output lanes, so it doesn't compete with your displays.",
+        "label": "Look for",
+        "text": "Native DisplayPort Alt Mode or DisplayLink chip technology, verified against your specific laptop's documented maximum external display count."
       },
       {
-        label: "Myth: 2.5GbE speeds up internet browsing",
-        text: "Also false. 2.5GbE only helps LAN-to-LAN transfers on your own network. Your ISP connection remains the bottleneck for anything going out to the internet.",
-      },
-    ],
-    note: "If your goal is faster internet speeds rather than faster local file transfers, a 2.5GbE dock alone won't get you there, check your ISP plan instead.",
+        "label": "In this comparison",
+        "text": "UGREEN 13 is worth checking against its listed display support before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need reliable multi-display support and full-speed charging under daily sustained use, where UGREEN 13's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need occasional charging and a single extra port, where TobenONE USB C Docking Station 3 Monitors covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

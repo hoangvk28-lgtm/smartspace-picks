@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Check for \"simultaneous\" 4K@60Hz, not just \"supports dual monitors\"",
-    explanation:
-      "A listing that says a dock \"supports dual 4K monitors\" doesn't guarantee both run at 60Hz at the same time. Many docks split available bandwidth so one display caps at 4K@30Hz or drops to 1440p once both are active, so look specifically for wording like \"4K+4K@60Hz simultaneous\" before assuming full performance on both screens.",
+    "criterion": "Check the real power delivery wattage, not just \"PD\" in the listing",
+    "explanation": "Power delivery (PD) wattage determines whether a dock can actually charge your laptop while it's connected, not just pass a trickle of power through, and this number varies widely, from 60W barely-adequate figures up to 100W or higher business-tier docks.\n\nThis matters because a dock rated below what your laptop actually needs to charge under load, especially a larger laptop or one running demanding tasks while docked, will slowly drain the battery even while \"charging\", a frustrating and easy-to-miss problem.\n\nCheck the listing for the specific PD wattage number, and compare it against your laptop's actual charging brick wattage, not just whether the listing mentions power delivery at all."
   },
   {
-    criterion: "Thunderbolt certification is not the same as USB4 compatibility",
-    explanation:
-      "USB4 docks are often marketed as Thunderbolt-compatible and usually work fine, but they don't carry Intel's Thunderbolt certification, which guarantees performance and compatibility in a way USB4 simply isn't required to match. Some newer AMD laptop chips ship with USB4 rather than true Thunderbolt, so check your laptop's actual port spec, not just the dock's marketing.",
+    "criterion": "Verify actual display support against your specific laptop and GPU, not just port count",
+    "explanation": "A dock listing multiple HDMI or DisplayPort outputs doesn't guarantee your laptop can actually drive all of them at full resolution and refresh rate simultaneously, that capability depends on your laptop's specific GPU and USB-C controller, which some docks work around using DisplayLink technology and others don't.\n\nThis distinction matters a lot if you're building a dual or triple monitor setup, since a laptop that can't natively drive multiple external displays will show a blank or mirrored screen on a non-DisplayLink dock's extra port, regardless of how many ports the dock has.\n\nCheck whether the dock uses native DisplayPort Alt Mode or DisplayLink chip technology, and separately verify your specific laptop model's documented maximum number of external displays before assuming any multi-port dock will drive them all."
   },
   {
-    criterion: "Multi-monitor loads draw more power and bandwidth than one display",
-    explanation:
-      "A dock that comfortably runs one 4K display can bottleneck once a second display, a fast external SSD, and Ethernet are all active simultaneously. If your setup regularly runs that much at once, prioritize a certified Thunderbolt dock with higher rated bandwidth over a cheaper USB-C hub.",
+    "criterion": "Match data transfer speeds and Ethernet to what you actually move and how",
+    "explanation": "USB data ports on a dock range widely in real transfer speed, from basic 480Mbps USB 2.0 speeds up to 10Gbps or higher, a gap that matters enormously if you regularly move large files to and from external drives, but barely matters if you're just charging a mouse and keyboard.\n\nEthernet port speed follows the same logic, a dock's Gigabit or 2.5Gb Ethernet port is only as fast as your actual home or office network infrastructure supports, so paying for 2.5Gb Ethernet on a network that tops out at Gigabit gains nothing.\n\nCheck the specific listed speed for each port type you'll actually use regularly, and compare Ethernet speed against your router's actual rated speed, not just the dock's spec sheet in isolation."
   },
   {
-    criterion: "MST and DisplayLink both add extra displays, but very differently",
-    explanation:
-      "MST (Multi-Stream Transport) chains a native GPU display signal with no compression lag, while DisplayLink uses a software driver and CPU-based compression to add extra screens, which introduces a small amount of input lag. MST needs GPU and driver support (common on Windows), while DisplayLink works more broadly across older hardware and Macs but isn't ideal for gaming or color-accurate design work.",
+    "criterion": "Confirm compatibility with your specific laptop's USB-C or Thunderbolt port",
+    "explanation": "Not every USB-C port supports the same features, some laptops only support USB-C data and charging without any video output over that port at all, while others support full Thunderbolt with much higher bandwidth for multiple 4K displays.\n\nDocks built around Thunderbolt certification generally support more demanding multi-display and high-speed configurations, but require a genuinely Thunderbolt-capable port on your laptop to unlock that performance, plugging a Thunderbolt dock into a USB-C-only port still works but loses the extra bandwidth.\n\nCheck your specific laptop's documented port capabilities (Thunderbolt 3, Thunderbolt 4, or USB-C without Thunderbolt), not just that it has a USB-C-shaped port, before assuming any docking station will unlock its full advertised capability."
   },
   {
-    criterion: "Match PD wattage to your laptop's real charging need, not the dock's headline number",
-    explanation:
-      "A dock rated for 100W typically delivers roughly 10-15W less to the laptop after its own circuitry draws power, so a 16-inch MacBook Pro or workstation laptop needing 100-210W under load may not charge at full speed even from a dock that lists 100W. Check your laptop's actual charger wattage and add margin rather than matching the dock's rated number exactly.",
-  },
-  {
-    criterion: "Random disconnects under heavy load are usually bandwidth, not a broken dock",
-    explanation:
-      "Running dual 4K displays, a fast file transfer, and a USB drive at the same time can saturate a dock's internal USB controller, causing intermittent disconnects that get misdiagnosed as a defective unit. Spreading demanding tasks across fewer simultaneous high-bandwidth operations, or avoiding daisy-chained hubs, usually resolves it without needing a replacement.",
-  },
+    "criterion": "Consider heat and long-term reliability under sustained daily use",
+    "explanation": "A docking station that stays plugged in and under load for 8+ hours a day handles thermal stress very differently than a hub used occasionally for a quick file transfer, and a compact plastic-bodied dock with no real heat dissipation can throttle performance or degrade faster under that kind of sustained daily use than an aluminum-bodied one.\n\nThis matters more for anyone using the dock as their primary daily workstation setup than for occasional or travel use.\n\nCheck reviews specifically for mentions of the dock running hot, disconnecting intermittently after extended use, or degrading over months, rather than relying on the unboxing-day performance most reviews describe."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,87 +359,102 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Number of Displays You're Running",
-    intro:
-      "The picks in this guide range from confirmed dual 4K@60Hz to 3-display support, so match the dock to how many screens you actually need active at once.",
-    table: {
-      headers: ["Setup", "What to prioritize", "Best pick"],
-      rows: [
-        ["Two 4K displays on a budget", "Confirmed simultaneous dual-4K@60Hz", "WAVLINK Pro Dual 4K"],
-        ["Two 4K displays, certified Thunderbolt", "Best value certified dual-4K", "UGREEN 8-in-1 Thunderbolt 4"],
-        ["Three displays in a compact footprint", "Modular hub, 2 HDMI + 1 DisplayPort", "Anker Nano 13-in-1"],
-        ["Multi-4K/8K workstation setup", "Highest bandwidth headroom", "CalDigit TS5 Plus / Anker Prime TB5"],
+    "subheading": "By Power Delivery Wattage",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Around 100W power delivery",
+          "Plugable 16"
+        ],
+        [
+          "Around 100W power delivery",
+          "Anker Nano 13"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Simultaneous Workload",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $120",
+          "Anker Nano 13"
+        ],
+        [
+          "Up to $500",
+          "CalDigit TS5 Plus Thunderbolt 5 Dock"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Thunderbolt vs USB-C Only",
+    "cards": [
       {
-        label: "Just dual displays for office work",
-        text: "The WAVLINK Pro's DisplayLink-based dual 4K@60Hz is plenty for browser, spreadsheet, and document work across two screens.",
+        "label": "Thunderbolt-certified",
+        "text": "Higher bandwidth for demanding multi-display and high-speed data setups, but requires a genuinely Thunderbolt-capable laptop port. In this comparison: WAVLINK Pro Dual 4K@60Hz Universal Docking Station, Plugable 16, UGREEN 8, Plugable Thunderbolt 4 Dock, Anker Prime TB5 Docking Station 14, CalDigit TS5 Plus Thunderbolt 5 Dock."
       },
       {
-        label: "Dual displays plus fast file transfer and Ethernet",
-        text: "The Plugable 16-in-1 Thunderbolt 4 Dock has the port density and native bandwidth to handle dual 4K alongside heavy simultaneous data transfer without saturating.",
-      },
-      {
-        label: "Maximum ports for a cluttered desk",
-        text: "The Anker Prime Docking Station 14-Port fits the most peripherals into one cable, supporting 160W max output across everything connected.",
-      },
-      {
-        label: "Professional multi-monitor workstation",
-        text: "The CalDigit TS5 Plus is built specifically for sustained heavy multi-display and storage workloads without the disconnects that trip up lower-bandwidth docks.",
-      },
+        "label": "USB-C only",
+        "text": "Usually cheaper and works with any USB-C laptop, but with less headroom for multiple high-resolution displays. In this comparison: Anker Prime Docking Station 14, Anker Nano 13."
+      }
     ],
+    "note": "Default to USB-C only unless your laptop has a genuine Thunderbolt port and you need the extra display or data bandwidth."
   },
   {
-    subheading: "Thunderbolt Certified vs USB4/DisplayLink",
-    intro:
-      "Not every \"dual monitor dock\" uses the same underlying technology, and the difference shows up under real-world load.",
-    table: {
-      headers: ["Technology", "Compatibility guarantee", "Best pick"],
-      rows: [
-        ["Certified Thunderbolt 4", "Intel-guaranteed compatibility and bandwidth", "UGREEN 8-in-1, Plugable TBT-UDM, Plugable 16-in-1"],
-        ["Thunderbolt 5", "Highest bandwidth, still certified", "Anker Prime TB5, CalDigit TS5 Plus"],
-        ["USB4/generic USB-C", "\"Should work\" with Thunderbolt, not certified", "Anker Prime 14-Port, Anker Nano 13-in-1"],
-        ["DisplayLink software", "Works broadly, adds minor input lag", "WAVLINK Pro Dual 4K"],
+    "subheading": "By Ethernet Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Wired Ethernet needed",
+          "Plugable 16"
+        ],
+        [
+          "Wi-Fi only is fine",
+          "WAVLINK Pro Dual 4K@60Hz Universal Docking Station"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Power Delivery Reality Check",
-    intro:
-      "A dock's rated wattage is not what actually reaches your laptop once the dock's own circuitry takes its share.",
-    table: {
-      headers: ["Laptop charging need", "Dock wattage to look for", "Best pick"],
-      rows: [
-        ["Standard ultrabook (60-65W)", "85-100W rated dock", "UGREEN 8-in-1, Plugable TBT-UDM"],
-        ["16-inch MacBook Pro or workstation laptop (100W+)", "100W+ rated, still confirm real-world draw", "Plugable 16-in-1, Anker Prime TB5"],
-        ["Multiple peripherals plus laptop charging", "160W total rated output", "Anker Prime Docking Station 14-Port"],
-      ],
-    },
-    note: "If your laptop needs 100-210W under heavy load, add margin above the dock's rated wattage rather than matching it exactly, since 10-15W is typically lost to the dock's own circuitry before it reaches the laptop.",
+    "subheading": "For a Dual or Triple Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Native DisplayPort Alt Mode or DisplayLink chip technology, verified against your specific laptop's documented maximum external display count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "WAVLINK Pro Dual 4K@60Hz Universal Docking Station is worth checking against its listed display support before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Avoiding \"Keeps Disconnecting\" Complaints",
-    intro:
-      "Most disconnect complaints trace back to bandwidth saturation or cabling rather than a defective dock.",
-    cards: [
+    "subheading": "When to Spend More",
+    "cards": [
       {
-        label: "Cable length and type matter",
-        text: "Thunderbolt 4 stays reliable with active cables up to about 2 meters, but USB4 connections can degrade past roughly 0.8m with a passive cable. A long generic cable is a common hidden cause of intermittent drops.",
+        "label": "Spend more if",
+        "text": "You need reliable multi-display support and full-speed charging under daily sustained use, where CalDigit TS5 Plus Thunderbolt 5 Dock's higher price buys real headroom over the cheaper picks."
       },
       {
-        label: "Check for a firmware update first",
-        text: "Plugable, CalDigit, and Anker regularly release firmware updates fixing display flicker and USB dropouts, so checking for one is a genuinely useful first troubleshooting step before assuming the dock is faulty.",
-      },
-      {
-        label: "Spread out simultaneous heavy tasks",
-        text: "Running dual 4K displays, a fast transfer, and a USB drive all at once can saturate the dock's USB controller. Avoiding daisy-chained hubs and spacing out demanding tasks usually resolves it.",
-      },
-    ],
-  },
+        "label": "Save if",
+        "text": "You only need occasional charging and a single extra port, where Anker Nano 13 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -296,35 +296,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "No dock can supply enough power for most gaming laptops",
-    explanation:
-      "Gaming laptop stock chargers commonly deliver 130-230W, while even the strongest dock in this list, the Anker Prime DL7400, tops out at 140W. Connected to a 100W-class dock, a gaming laptop will charge but its battery will still drain during a demanding session, so keep the original charger on hand for actual gameplay and use the dock for desk productivity only.",
+    "criterion": "Check the real power delivery wattage, not just \"PD\" in the listing",
+    "explanation": "Power delivery (PD) wattage determines whether a dock can actually charge your laptop while it's connected, not just pass a trickle of power through, and this number varies widely, from 60W barely-adequate figures up to 100W or higher business-tier docks.\n\nThis matters because a dock rated below what your laptop actually needs to charge under load, especially a larger laptop or one running demanding tasks while docked, will slowly drain the battery even while \"charging\", a frustrating and easy-to-miss problem.\n\nCheck the listing for the specific PD wattage number, and compare it against your laptop's actual charging brick wattage, not just whether the listing mentions power delivery at all."
   },
   {
-    criterion: "An eGPU connects directly to the laptop, never through a dock",
-    explanation:
-      "A common and costly misunderstanding is expecting a dock to pass an eGPU's graphics performance through to the laptop. An eGPU must plug directly into one of the laptop's own Thunderbolt ports; a dock occupies a port rather than relaying one. The correct setup on a dual-Thunderbolt-port laptop is eGPU on one port, dock on the second, never chained through the same connection.",
+    "criterion": "Verify actual display support against your specific laptop and GPU, not just port count",
+    "explanation": "A dock listing multiple HDMI or DisplayPort outputs doesn't guarantee your laptop can actually drive all of them at full resolution and refresh rate simultaneously, that capability depends on your laptop's specific GPU and USB-C controller, which some docks work around using DisplayLink technology and others don't.\n\nThis distinction matters a lot if you're building a dual or triple monitor setup, since a laptop that can't natively drive multiple external displays will show a blank or mirrored screen on a non-DisplayLink dock's extra port, regardless of how many ports the dock has.\n\nCheck whether the dock uses native DisplayPort Alt Mode or DisplayLink chip technology, and separately verify your specific laptop model's documented maximum number of external displays before assuming any multi-port dock will drive them all."
   },
   {
-    criterion: "Display output quality depends on GPU-switching support",
-    explanation:
-      "Newer gaming laptops with advanced GPU-switching can route external display output directly from the discrete GPU through USB-C or Thunderbolt. Older gaming laptops without this feature route dock-connected displays through the integrated graphics chip instead, bottlenecking display performance regardless of how powerful the discrete GPU inside actually is.",
+    "criterion": "Match data transfer speeds and Ethernet to what you actually move and how",
+    "explanation": "USB data ports on a dock range widely in real transfer speed, from basic 480Mbps USB 2.0 speeds up to 10Gbps or higher, a gap that matters enormously if you regularly move large files to and from external drives, but barely matters if you're just charging a mouse and keyboard.\n\nEthernet port speed follows the same logic, a dock's Gigabit or 2.5Gb Ethernet port is only as fast as your actual home or office network infrastructure supports, so paying for 2.5Gb Ethernet on a network that tops out at Gigabit gains nothing.\n\nCheck the specific listed speed for each port type you'll actually use regularly, and compare Ethernet speed against your router's actual rated speed, not just the dock's spec sheet in isolation."
   },
   {
-    criterion: "USB peripherals can drop out under gaming load",
-    explanation:
-      "A gaming laptop under heavy load generates significant PCIe traffic that competes with the USB and Thunderbolt bandwidth a dock shares. The practical symptom is a headset, controller, or USB audio device disconnecting mid-game. The fix is plugging game-critical peripherals directly into the laptop's own USB-A ports and reserving the dock for non-latency-critical devices like a printer or external drive.",
+    "criterion": "Confirm compatibility with your specific laptop's USB-C or Thunderbolt port",
+    "explanation": "Not every USB-C port supports the same features, some laptops only support USB-C data and charging without any video output over that port at all, while others support full Thunderbolt with much higher bandwidth for multiple 4K displays.\n\nDocks built around Thunderbolt certification generally support more demanding multi-display and high-speed configurations, but require a genuinely Thunderbolt-capable port on your laptop to unlock that performance, plugging a Thunderbolt dock into a USB-C-only port still works but loses the extra bandwidth.\n\nCheck your specific laptop's documented port capabilities (Thunderbolt 3, Thunderbolt 4, or USB-C without Thunderbolt), not just that it has a USB-C-shaped port, before assuming any docking station will unlock its full advertised capability."
   },
   {
-    criterion: "Treat docking as a work-mode setup, not a gaming-mode setup",
-    explanation:
-      "For actual gaming, a direct display connection, the original charger, and directly connected peripherals deliver the best and most stable performance. The dock earns its value during desk-based work sessions where cable convenience matters more than squeezing out every frame or watt. Switching deliberately between 'dock mode' for work and 'direct mode' for gaming avoids most of the issues above.",
-  },
-  {
-    criterion: "Thunderbolt certification matters more here than on a typical productivity laptop",
-    explanation:
-      "Because gaming laptops are more likely to also run an eGPU or high-refresh external displays, a genuinely Thunderbolt-certified dock, not just a USB-C dock with Alt Mode, gives more predictable bandwidth and display behavior. Confirm certification explicitly rather than assuming any dock with a Thunderbolt-shaped port carries the same guarantees.",
-  },
+    "criterion": "Consider heat and long-term reliability under sustained daily use",
+    "explanation": "A docking station that stays plugged in and under load for 8+ hours a day handles thermal stress very differently than a hub used occasionally for a quick file transfer, and a compact plastic-bodied dock with no real heat dissipation can throttle performance or degrade faster under that kind of sustained daily use than an aluminum-bodied one.\n\nThis matters more for anyone using the dock as their primary daily workstation setup than for occasional or travel use.\n\nCheck reviews specifically for mentions of the dock running hot, disconnecting intermittently after extended use, or degrading over months, rather than relying on the unboxing-day performance most reviews describe."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -337,62 +327,102 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Power Delivery Reality Table",
-    intro:
-      "This is the single most important table for a gaming laptop buyer: every dock in this list falls short of a gaming laptop's real charging needs, so match expectations accordingly rather than assuming a dock replaces your charger.",
-    table: {
-      headers: ["Dock", "Rated PD", "Typical gaming laptop charger", "Verdict"],
-      rows: [
-        ["Anker Prime DL7400", "140W", "130-230W", "Best available, still short for sustained gaming"],
-        ["TobenONE 18-in-1", "150W (adapter)", "130-230W", "Strong for productivity, not a gaming replacement"],
-        ["Plugable Thunderbolt 4", "100W", "130-230W", "Fine for work, battery still drains while gaming"],
-        ["WAVLINK 13-in-1", "130W", "130-230W", "Borderline; depends on your laptop's exact wattage"],
-        ["Razer USB4 Dock, MOKiN, Selore", "100W", "130-230W", "Use original charger for any real gaming session"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "Always plug in the laptop's original charger for extended gaming sessions; use the dock for desk productivity charging only.",
+      "rows": [
+        [
+          "Highest average rating",
+          "Razer USB4 Dock: 14 Ports"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Razer USB4 Dock: 14 Ports"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Whether You Run an eGPU",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $70",
+          "Selore Laptop Docking Station 3 Monitors"
+        ],
+        [
+          "Up to $230",
+          "Razer USB4 Dock: 14 Ports"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Thunderbolt vs USB-C Only",
+    "cards": [
       {
-        label: "Running an eGPU already",
-        text: "Use the Plugable Thunderbolt 4 Dock on a second Thunderbolt port, with the eGPU connected directly to the laptop's other Thunderbolt port. Never chain the eGPU through the dock itself.",
+        "label": "Thunderbolt-certified",
+        "text": "Higher bandwidth for demanding multi-display and high-speed data setups, but requires a genuinely Thunderbolt-capable laptop port. In this comparison: Plugable Thunderbolt 4 Dock, WAVLINK USB C Docking Station Dual Monitor."
       },
       {
-        label: "Not running an eGPU, want max display output",
-        text: "The Razer USB4 Dock's 4K 120Hz dual-monitor support is the closest match to a gaming laptop's high-refresh display panel among the picks here.",
-      },
-      {
-        label: "Want triple monitors for desk work",
-        text: "The Anker Prime DL7400, TobenONE 18-in-1, MOKiN, and Selore all support triple 4K display via DisplayLink, best suited to productivity rather than gaming-grade frame rates.",
-      },
+        "label": "USB-C only",
+        "text": "Usually cheaper and works with any USB-C laptop, but with less headroom for multiple high-resolution displays. In this comparison: Razer USB4 Dock: 14 Ports, Anker Prime Docking Station, TobenONE USB C Docking Station 3 Monitors, MOKiN USB C Docking Station 3 Monitors, Selore Laptop Docking Station 3 Monitors."
+      }
     ],
+    "note": "Default to USB-C only unless your laptop has a genuine Thunderbolt port and you need the extra display or data bandwidth."
   },
   {
-    subheading: "USB Dropout Troubleshooting for Docked Gaming Laptops",
-    intro:
-      "If a headset, controller, or USB microphone disconnects mid-game while docked, the cause is almost always USB bandwidth contention with gaming-generated PCIe traffic, not a defective dock.",
-    table: {
-      headers: ["Symptom", "Likely cause", "Fix"],
-      rows: [
-        ["Headset or controller drops mid-game", "PCIe traffic competing with dock USB bandwidth", "Plug the peripheral directly into a laptop USB-A port"],
-        ["External display flickers under gaming load", "Integrated graphics bottleneck on a non-GPU-switching laptop", "Use a direct display cable instead of the dock during gaming"],
-        ["Charging feels slow while gaming", "Dock PD below the laptop's real draw under load", "Switch to the laptop's original charger for the session"],
+    "subheading": "By Ethernet Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Wired Ethernet needed",
+          "Razer USB4 Dock: 14 Ports"
+        ],
+        [
+          "Wi-Fi only is fine",
+          "Anker Prime Docking Station"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Budget", "Best pick", "Why"],
-      rows: [
-        ["Under $100", "MOKiN or Selore Triple 4K Display", "Cheapest way to add triple monitors for desk work"],
-        ["$150-$200", "TobenONE 18-in-1 or WAVLINK 13-in-1", "More ports and higher charging wattage"],
-        ["$200+", "Razer USB4 Dock or Anker Prime DL7400", "Highest display refresh rate or charging ceiling available"],
-      ],
-    },
+    "subheading": "For a Dual or Triple Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Native DisplayPort Alt Mode or DisplayLink chip technology, verified against your specific laptop's documented maximum external display count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Razer USB4 Dock: 14 Ports is worth checking against its listed display support before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need reliable multi-display support and full-speed charging under daily sustained use, where Razer USB4 Dock: 14 Ports's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need occasional charging and a single extra port, where Selore Laptop Docking Station 3 Monitors covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

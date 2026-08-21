@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Bus-powered docks can't charge and power displays at once",
-    explanation:
-      "A bus-powered dock draws its power entirely from the laptop, so it can run connected displays and peripherals but cannot simultaneously charge the laptop at full speed. An AC-powered dock with its own brick charges the laptop while driving displays, at the cost of extra weight and a power brick to pack. Choose based on whether all-day charging or minimal bag weight matters more to you.",
+    "criterion": "Check the real power delivery wattage, not just \"PD\" in the listing",
+    "explanation": "Power delivery (PD) wattage determines whether a dock can actually charge your laptop while it's connected, not just pass a trickle of power through, and this number varies widely, from 60W barely-adequate figures up to 100W or higher business-tier docks.\n\nThis matters because a dock rated below what your laptop actually needs to charge under load, especially a larger laptop or one running demanding tasks while docked, will slowly drain the battery even while \"charging\", a frustrating and easy-to-miss problem.\n\nCheck the listing for the specific PD wattage number, and compare it against your laptop's actual charging brick wattage, not just whether the listing mentions power delivery at all."
   },
   {
-    criterion: "Hotel HDTVs often block streaming apps even when the dock connects fine",
-    explanation:
-      "Most hotel room TVs run older HDMI versions with HDCP content protection. A portable dock will usually mirror or extend a laptop's desktop to that TV without issue, but streaming apps like Netflix or a work presentation tool with protected content can still be blocked by the TV's HDCP handling, not the dock itself.",
+    "criterion": "Verify actual display support against your specific laptop and GPU, not just port count",
+    "explanation": "A dock listing multiple HDMI or DisplayPort outputs doesn't guarantee your laptop can actually drive all of them at full resolution and refresh rate simultaneously, that capability depends on your laptop's specific GPU and USB-C controller, which some docks work around using DisplayLink technology and others don't.\n\nThis distinction matters a lot if you're building a dual or triple monitor setup, since a laptop that can't natively drive multiple external displays will show a blank or mirrored screen on a non-DisplayLink dock's extra port, regardless of how many ports the dock has.\n\nCheck whether the dock uses native DisplayPort Alt Mode or DisplayLink chip technology, and separately verify your specific laptop model's documented maximum number of external displays before assuming any multi-port dock will drive them all."
   },
   {
-    criterion: "Power bricks add friction at airport security",
-    explanation:
-      "A compact dock with its own external power brick usually needs to go in a separate bin at security screening, the same as a laptop charger. A bus-powered hub with no brick typically clears screening without extra steps, a small but real convenience for frequent travelers.",
+    "criterion": "Match data transfer speeds and Ethernet to what you actually move and how",
+    "explanation": "USB data ports on a dock range widely in real transfer speed, from basic 480Mbps USB 2.0 speeds up to 10Gbps or higher, a gap that matters enormously if you regularly move large files to and from external drives, but barely matters if you're just charging a mouse and keyboard.\n\nEthernet port speed follows the same logic, a dock's Gigabit or 2.5Gb Ethernet port is only as fast as your actual home or office network infrastructure supports, so paying for 2.5Gb Ethernet on a network that tops out at Gigabit gains nothing.\n\nCheck the specific listed speed for each port type you'll actually use regularly, and compare Ethernet speed against your router's actual rated speed, not just the dock's spec sheet in isolation."
   },
   {
-    criterion: "Cafe and co-working power availability favors bus-powered hubs",
-    explanation:
-      "An AC-powered dock requires a free outlet, which isn't guaranteed at every cafe table or shared co-working desk. A bus-powered dock works anywhere the laptop itself works, though running a full docked setup off battery alone measurably increases battery drain per hour compared to working plugged in.",
+    "criterion": "Confirm compatibility with your specific laptop's USB-C or Thunderbolt port",
+    "explanation": "Not every USB-C port supports the same features, some laptops only support USB-C data and charging without any video output over that port at all, while others support full Thunderbolt with much higher bandwidth for multiple 4K displays.\n\nDocks built around Thunderbolt certification generally support more demanding multi-display and high-speed configurations, but require a genuinely Thunderbolt-capable port on your laptop to unlock that performance, plugging a Thunderbolt dock into a USB-C-only port still works but loses the extra bandwidth.\n\nCheck your specific laptop's documented port capabilities (Thunderbolt 3, Thunderbolt 4, or USB-C without Thunderbolt), not just that it has a USB-C-shaped port, before assuming any docking station will unlock its full advertised capability."
   },
   {
-    criterion: "Verify USB-A port speed before relying on it for a 4K webcam",
-    explanation:
-      "A USB-A port on a portable dock is frequently USB 2.0 even when the dock's other ports run at 5Gbps or 10Gbps. USB 2.0 is enough bandwidth for a standard 1080p webcam but not for a full-resolution 4K webcam, and port labeling on cheaper docks doesn't always make this distinction clear.",
-  },
-  {
-    criterion: "Match wattage to your laptop, not just to the port count",
-    explanation:
-      "An 85W dock is enough for most ultrabooks but can fall short on power-hungry 15-inch or workstation-class laptops running under full load. A 100W or higher-wattage pass-through gives more headroom, particularly if you plan to charge while also driving 2 external 4K displays.",
-  },
+    "criterion": "Consider heat and long-term reliability under sustained daily use",
+    "explanation": "A docking station that stays plugged in and under load for 8+ hours a day handles thermal stress very differently than a hub used occasionally for a quick file transfer, and a compact plastic-bodied dock with no real heat dissipation can throttle performance or degrade faster under that kind of sustained daily use than an aluminum-bodied one.\n\nThis matters more for anyone using the dock as their primary daily workstation setup than for occasional or travel use.\n\nCheck reviews specifically for mentions of the dock running hot, disconnecting intermittently after extended use, or degrading over months, rather than relying on the unboxing-day performance most reviews describe."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,74 +359,102 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Where You Actually Work",
-    intro:
-      "Remote work happens in different physical spaces from week to week, and the right dock changes depending on whether you're anchored to one desk or moving around.",
-    table: {
-      headers: ["Where you work", "What matters most", "Best pick"],
-      rows: [
-        ["Fixed home office or co-working desk", "Charging + dual 4K displays at once", "Anker Prime 14-Port 160W"],
-        ["Hotel rooms and temporary desks", "Triple display, moderate weight", "Anker 13-in-1 Triple Display"],
-        ["Cafes without guaranteed outlets", "Bus-powered, no brick needed", "UGREEN 14-in-1 Multiport"],
-        ["Daily carry in a light bag", "Smallest possible footprint", "Anker Nano 8-in-1"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "UGREEN 10"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "UGREEN 10"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Bus-Powered or AC-Powered",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $27",
+          "UGREEN 7"
+        ],
+        [
+          "Up to $170",
+          "Anker Prime Docking Station"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Thunderbolt vs USB-C Only",
+    "cards": [
       {
-        label: "Want to charge the laptop while docked",
-        text: "The Anker Prime 14-Port and HP Dock G5 both carry their own power supply, so they charge the laptop and drive displays without splitting power between the two.",
+        "label": "Thunderbolt-certified",
+        "text": "Higher bandwidth for demanding multi-display and high-speed data setups, but requires a genuinely Thunderbolt-capable laptop port. In this comparison: HP USB."
       },
       {
-        label: "Want the lightest possible travel item",
-        text: "The UGREEN 7-in-1 and Anker Nano 8-in-1 are both bus-powered with no brick, keeping total travel weight to a minimum.",
-      },
-      {
-        label: "Want full ports without needing an outlet",
-        text: "The UGREEN 14-in-1 Multiport packs the most ports of any bus-powered pick in this list, useful at a cafe table with no free plug.",
-      },
+        "label": "USB-C only",
+        "text": "Usually cheaper and works with any USB-C laptop, but with less headroom for multiple high-resolution displays. In this comparison: UGREEN 10, Anker Prime Docking Station, UGREEN 7, Anker Nano Laptop Docking Station Dual Monitor, Anker Laptop Docking Station, Anker Laptop Docking Station Dual Monitor, USB C Laptop Docking Station Dual Monitor."
+      }
     ],
+    "note": "Default to USB-C only unless your laptop has a genuine Thunderbolt port and you need the extra display or data bandwidth."
   },
   {
-    subheading: "By Corporate IT Requirements",
-    intro:
-      "A remote worker on a company-managed laptop has a narrower set of docks that will actually pass IT approval without friction.",
-    table: {
-      headers: ["Situation", "Consideration", "Best pick"],
-      rows: [
-        ["Company-issued, IT-locked laptop", "Business-brand docks are more likely pre-approved", "HP USB-C Dock G5"],
-        ["Personal laptop, no IT restrictions", "Any pick in this list works", "UGREEN Revodok Pro 210"],
-        ["VPN client conflicts with third-party hardware", "Verify with IT before buying a non-OEM dock", "HP USB-C Dock G5"],
+    "subheading": "By Ethernet Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Wired Ethernet needed",
+          "UGREEN 10"
+        ],
+        [
+          "Wi-Fi only is fine",
+          "HP USB"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Video Call Quality Check",
-    intro:
-      "Video calls are the one task a remote worker can't afford to compromise on, and the webcam connection is the part most buyers overlook.",
-    table: {
-      headers: ["Webcam setup", "Port needed", "Notes"],
-      rows: [
-        ["Standard 1080p webcam", "USB 2.0 is sufficient", "Any pick in this list handles this fine"],
-        ["Full-resolution 4K webcam", "USB 3.0 / 5Gbps or faster required", "Check the specific USB-A port speed before buying"],
-        ["Video calls over ethernet for stability", "Gigabit ethernet port", "UGREEN Revodok Pro 210, Anker 8-in-1 85W"],
-      ],
-    },
-    note: "Port labeling on cheaper docks doesn't always distinguish USB 2.0 from USB 3.0 on the USB-A port, so check the listing's fine print if 4K webcam quality matters for client-facing calls.",
+    "subheading": "For a Dual or Triple Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Native DisplayPort Alt Mode or DisplayLink chip technology, verified against your specific laptop's documented maximum external display count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "UGREEN 10 is worth checking against its listed display support before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Travel Logistics Quick Reference",
-    table: {
-      headers: ["Travel concern", "What to know", "Best pick"],
-      rows: [
-        ["Airport security bin requirement", "Bus-powered docks with no brick usually skip the separate bin", "UGREEN 7-in-1, Anker Nano 8-in-1"],
-        ["Hotel TV streaming restrictions", "HDCP on older hotel HDTVs can block streaming apps even if the dock works", "Any dock, this is a TV limitation not a dock one"],
-        ["No outlet at your workspace", "Bus-powered hub keeps working without a plug", "UGREEN 14-in-1 Multiport"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need reliable multi-display support and full-speed charging under daily sustained use, where Anker Prime Docking Station's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need occasional charging and a single extra port, where UGREEN 7 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

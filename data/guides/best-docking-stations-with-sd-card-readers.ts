@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "UHS-I and UHS-II are very different speeds",
-    explanation:
-      "UHS-I SD card readers typically deliver 80-90 MB/s in real-world transfers, while UHS-II readers reach 200-280 MB/s. Nearly every built-in dock reader in this price range, including most picks in this list, is UHS-I class regardless of how the port count or marketing copy is worded, so check for an explicit UHS-II claim before assuming speed.",
+    "criterion": "Check the real power delivery wattage, not just \"PD\" in the listing",
+    "explanation": "Power delivery (PD) wattage determines whether a dock can actually charge your laptop while it's connected, not just pass a trickle of power through, and this number varies widely, from 60W barely-adequate figures up to 100W or higher business-tier docks.\n\nThis matters because a dock rated below what your laptop actually needs to charge under load, especially a larger laptop or one running demanding tasks while docked, will slowly drain the battery even while \"charging\", a frustrating and easy-to-miss problem.\n\nCheck the listing for the specific PD wattage number, and compare it against your laptop's actual charging brick wattage, not just whether the listing mentions power delivery at all."
   },
   {
-    criterion: "The dock's upstream connection doesn't speed up the card reader",
-    explanation:
-      "Even a Thunderbolt 4 dock rated for 40Gbps typically wires its SD reader internally over a USB 3.0 path, so the reader's speed ceiling stays the same regardless of how fast the dock's connection to your laptop is. Don't buy a Thunderbolt dock specifically expecting a faster card reader.",
+    "criterion": "Verify actual display support against your specific laptop and GPU, not just port count",
+    "explanation": "A dock listing multiple HDMI or DisplayPort outputs doesn't guarantee your laptop can actually drive all of them at full resolution and refresh rate simultaneously, that capability depends on your laptop's specific GPU and USB-C controller, which some docks work around using DisplayLink technology and others don't.\n\nThis distinction matters a lot if you're building a dual or triple monitor setup, since a laptop that can't natively drive multiple external displays will show a blank or mirrored screen on a non-DisplayLink dock's extra port, regardless of how many ports the dock has.\n\nCheck whether the dock uses native DisplayPort Alt Mode or DisplayLink chip technology, and separately verify your specific laptop model's documented maximum number of external displays before assuming any multi-port dock will drive them all."
   },
   {
-    criterion: "Shared bandwidth can slow your SD transfer mid-session",
-    explanation:
-      "Most dock SD readers connect internally via USB 3.0 even on docks with a faster upstream link, and that internal bus is often shared with other USB ports. Transferring a card while an external drive or webcam is active on the same dock can measurably slow the SD transfer, so offload cards with other devices unplugged if speed matters.",
+    "criterion": "Match data transfer speeds and Ethernet to what you actually move and how",
+    "explanation": "USB data ports on a dock range widely in real transfer speed, from basic 480Mbps USB 2.0 speeds up to 10Gbps or higher, a gap that matters enormously if you regularly move large files to and from external drives, but barely matters if you're just charging a mouse and keyboard.\n\nEthernet port speed follows the same logic, a dock's Gigabit or 2.5Gb Ethernet port is only as fast as your actual home or office network infrastructure supports, so paying for 2.5Gb Ethernet on a network that tops out at Gigabit gains nothing.\n\nCheck the specific listed speed for each port type you'll actually use regularly, and compare Ethernet speed against your router's actual rated speed, not just the dock's spec sheet in isolation."
   },
   {
-    criterion: "No mainstream dock reads CFexpress or CFast cards",
-    explanation:
-      "If you shoot on a professional camera using CFexpress or CFast media, none of the built-in readers on docks in this list, or on the market generally, support those formats. You'll need a separate dedicated CFexpress or CFast reader regardless of which dock you buy.",
+    "criterion": "Confirm compatibility with your specific laptop's USB-C or Thunderbolt port",
+    "explanation": "Not every USB-C port supports the same features, some laptops only support USB-C data and charging without any video output over that port at all, while others support full Thunderbolt with much higher bandwidth for multiple 4K displays.\n\nDocks built around Thunderbolt certification generally support more demanding multi-display and high-speed configurations, but require a genuinely Thunderbolt-capable port on your laptop to unlock that performance, plugging a Thunderbolt dock into a USB-C-only port still works but loses the extra bandwidth.\n\nCheck your specific laptop's documented port capabilities (Thunderbolt 3, Thunderbolt 4, or USB-C without Thunderbolt), not just that it has a USB-C-shaped port, before assuming any docking station will unlock its full advertised capability."
   },
   {
-    criterion: "A dedicated UHS-II reader often beats the dock's built-in slot",
-    explanation:
-      "If your workflow regularly moves large card libraries, a standalone dual-slot UHS-II card reader connected to the dock's fastest USB-C port will usually outperform the dock's own built-in SD slot. Reserve the dock's built-in reader for quick, occasional offloads instead of your primary workflow.",
-  },
-  {
-    criterion: "Newer high-capacity cards need reader support to hit rated speed",
-    explanation:
-      "High-capacity, high-speed-rated SD cards are only as fast as the weakest link in the chain. If your card is rated for UHS-II speeds but your dock's reader is UHS-I, you'll get UHS-I real-world performance no matter how fast the card itself is rated.",
-  },
+    "criterion": "Consider heat and long-term reliability under sustained daily use",
+    "explanation": "A docking station that stays plugged in and under load for 8+ hours a day handles thermal stress very differently than a hub used occasionally for a quick file transfer, and a compact plastic-bodied dock with no real heat dissipation can throttle performance or degrade faster under that kind of sustained daily use than an aluminum-bodied one.\n\nThis matters more for anyone using the dock as their primary daily workstation setup than for occasional or travel use.\n\nCheck reviews specifically for mentions of the dock running hot, disconnecting intermittently after extended use, or degrading over months, rather than relying on the unboxing-day performance most reviews describe."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,66 +359,102 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By How Often You Offload Cards",
-    intro:
-      "Match the dock's card reader ambitions to your actual workflow frequency, most buyers overpay for card speed they rarely use.",
-    table: {
-      headers: ["Usage pattern", "Recommended reader class", "Best pick"],
-      rows: [
-        ["Occasional phone or casual photo backup", "UHS-I is plenty", "Anker 8-in-1 or UGREEN 10-in-1"],
-        ["Regular photography, moderate card sizes", "UHS-I acceptable, watch for shared bandwidth", "Anker 13-in-1 Triple Display"],
-        ["Frequent video or large card libraries", "Prioritize SD/TF 4.0 or a dedicated UHS-II reader", "UGREEN 13-in-1 Thunderbolt 4"],
-        ["Professional CFexpress/CFast workflow", "No dock reader supports this, use a dedicated reader", "Any dock in this list plus a separate CFexpress reader"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Anker 8"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Anker 8"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Display Needs Alongside the Card Slot",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $40",
+          "UGREEN 10"
+        ],
+        [
+          "Up to $240",
+          "UGREEN 13"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Thunderbolt vs USB-C Only",
+    "cards": [
       {
-        label: "Just need dual monitors and a basic card slot",
-        text: "The 14-in-1 dual-HDMI pick or the Anker 8-in-1 cover 2 displays without paying for triple-monitor support you won't use.",
+        "label": "Thunderbolt-certified",
+        "text": "Higher bandwidth for demanding multi-display and high-speed data setups, but requires a genuinely Thunderbolt-capable laptop port. In this comparison: Plugable Thunderbolt 4 Dock for M4/M5 MacBook, UGREEN 13."
       },
       {
-        label: "Want triple displays plus a card slot",
-        text: "The Anker 13-in-1, Selore, and MOKiN docks all support 3 external displays alongside their SD readers.",
-      },
-      {
-        label: "On a MacBook and want certified reliability",
-        text: "The Plugable Thunderbolt 4 Dock is purpose-built and certified for recent MacBook Air and Pro models.",
-      },
-      {
-        label: "Want the fastest all-around dock, card speed included",
-        text: "The UGREEN 13-in-1 Thunderbolt 4 Dock pairs the fastest upstream connection with the fastest SD/TF spec in this list.",
-      },
+        "label": "USB-C only",
+        "text": "Usually cheaper and works with any USB-C laptop, but with less headroom for multiple high-resolution displays. In this comparison: Anker 8, Anker 13, 14, UGREEN 10, Selore Laptop Docking Station, MOKiN USB C Docking Station."
+      }
     ],
+    "note": "Default to USB-C only unless your laptop has a genuine Thunderbolt port and you need the extra display or data bandwidth."
   },
   {
-    subheading: "Dock SD Reader vs. Dedicated Card Reader",
-    intro:
-      "Decide upfront whether the dock's built-in slot is your primary offload tool or just a convenience backup.",
-    table: {
-      headers: ["Your priority", "Use the dock's reader?", "Recommendation"],
-      rows: [
-        ["Occasional convenience, low file volume", "Yes", "Any pick in this list works fine"],
-        ["Regular professional offloading", "No, use a dedicated UHS-II reader", "Plug a standalone reader into the dock's fastest USB-C port instead"],
-        ["CFexpress or CFast cards", "No, docks don't support these formats", "A separate dedicated reader is required regardless of dock"],
+    "subheading": "By Ethernet Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Wired Ethernet needed",
+          "Anker 8"
+        ],
+        [
+          "Wi-Fi only is fine",
+          "Anker 13"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Format Coverage Needed",
-    intro:
-      "Confirm whether you need full-size SD only, or SD plus microSD (TF), before choosing a dock.",
-    table: {
-      headers: ["Card formats you use", "Recommended dock feature", "Best pick"],
-      rows: [
-        ["Full-size SD only", "Any dock with an SD slot", "Anker 8-in-1 or Plugable TB4 Dock"],
-        ["Both SD and microSD (TF)", "Dual-format reader", "14-in-1 dual HDMI pick, UGREEN 10-in-1, Selore, or MOKiN"],
-      ],
-    },
-    note: "A dock with an SD/TF combo slot saves you from carrying a separate microSD adapter, useful if you regularly shoot on action cameras or drones alongside a standard camera.",
+    "subheading": "For a Dual or Triple Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Native DisplayPort Alt Mode or DisplayLink chip technology, verified against your specific laptop's documented maximum external display count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Anker 8 is worth checking against its listed display support before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need reliable multi-display support and full-speed charging under daily sustained use, where UGREEN 13's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need occasional charging and a single extra port, where UGREEN 10 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

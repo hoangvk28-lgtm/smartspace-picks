@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Your MacBook Air chip generation decides your display ceiling",
-    explanation:
-      "M1 and M2 Air models drive only 1 native external display. The M3 Air supports 2 displays, but the second only activates in clamshell mode with the lid closed. The M4 Air is the first Air chip to support 2 native displays with the lid open. If you want dual monitors without closing the lid on an M1-M3 Air, you need a DisplayLink dock, not just any USB-C hub.",
+    "criterion": "Check the real power delivery wattage, not just \"PD\" in the listing",
+    "explanation": "Power delivery (PD) wattage determines whether a dock can actually charge your laptop while it's connected, not just pass a trickle of power through, and this number varies widely, from 60W barely-adequate figures up to 100W or higher business-tier docks.\n\nThis matters because a dock rated below what your laptop actually needs to charge under load, especially a larger laptop or one running demanding tasks while docked, will slowly drain the battery even while \"charging\", a frustrating and easy-to-miss problem.\n\nCheck the listing for the specific PD wattage number, and compare it against your laptop's actual charging brick wattage, not just whether the listing mentions power delivery at all."
   },
   {
-    criterion: "A higher-wattage dock still matters even for a 45W laptop",
-    explanation:
-      "The MacBook Air only draws 30-45W to charge, so a 100W dock looks like overkill on paper. In practice, that extra headroom lets the dock simultaneously charge an iPad or iPhone through its downstream ports without slowing down the laptop's own charging speed, a detail buyers who shop by wattage alone tend to miss.",
+    "criterion": "Verify actual display support against your specific laptop and GPU, not just port count",
+    "explanation": "A dock listing multiple HDMI or DisplayPort outputs doesn't guarantee your laptop can actually drive all of them at full resolution and refresh rate simultaneously, that capability depends on your laptop's specific GPU and USB-C controller, which some docks work around using DisplayLink technology and others don't.\n\nThis distinction matters a lot if you're building a dual or triple monitor setup, since a laptop that can't natively drive multiple external displays will show a blank or mirrored screen on a non-DisplayLink dock's extra port, regardless of how many ports the dock has.\n\nCheck whether the dock uses native DisplayPort Alt Mode or DisplayLink chip technology, and separately verify your specific laptop model's documented maximum number of external displays before assuming any multi-port dock will drive them all."
   },
   {
-    criterion: "Thunderbolt dock and USB-C hub are not interchangeable, even on the same port",
-    explanation:
-      "A basic USB-C hub plugged into the Air's Thunderbolt port works, but it only uses USB-C Alt Mode bandwidth, not the full 40Gbps Thunderbolt lane. A true Thunderbolt-certified dock unlocks higher data throughput and, on M4/M5 Air models, single 6K display support that a plain hub cannot deliver.",
+    "criterion": "Match data transfer speeds and Ethernet to what you actually move and how",
+    "explanation": "USB data ports on a dock range widely in real transfer speed, from basic 480Mbps USB 2.0 speeds up to 10Gbps or higher, a gap that matters enormously if you regularly move large files to and from external drives, but barely matters if you're just charging a mouse and keyboard.\n\nEthernet port speed follows the same logic, a dock's Gigabit or 2.5Gb Ethernet port is only as fast as your actual home or office network infrastructure supports, so paying for 2.5Gb Ethernet on a network that tops out at Gigabit gains nothing.\n\nCheck the specific listed speed for each port type you'll actually use regularly, and compare Ethernet speed against your router's actual rated speed, not just the dock's spec sheet in isolation."
   },
   {
-    criterion: "Watch for MacBook Air thermal throttling under sustained dock use",
-    explanation:
-      "The Air has no fan, so running dual 4K displays through DisplayLink while on a long video call can push sustained CPU and GPU load high enough to trigger thermal throttling. If you notice slowdowns after 20-30 minutes of heavy docked use, that's the fanless design catching up with you, not a dock defect.",
+    "criterion": "Confirm compatibility with your specific laptop's USB-C or Thunderbolt port",
+    "explanation": "Not every USB-C port supports the same features, some laptops only support USB-C data and charging without any video output over that port at all, while others support full Thunderbolt with much higher bandwidth for multiple 4K displays.\n\nDocks built around Thunderbolt certification generally support more demanding multi-display and high-speed configurations, but require a genuinely Thunderbolt-capable port on your laptop to unlock that performance, plugging a Thunderbolt dock into a USB-C-only port still works but loses the extra bandwidth.\n\nCheck your specific laptop's documented port capabilities (Thunderbolt 3, Thunderbolt 4, or USB-C without Thunderbolt), not just that it has a USB-C-shaped port, before assuming any docking station will unlock its full advertised capability."
   },
   {
-    criterion: "DisplayLink is the only way to add a display beyond your chip's native limit",
-    explanation:
-      "DisplayLink docks intercept the video signal and render it through software rather than native GPU output, which is how a single-display M1 or M2 Air can still drive two or three monitors. The tradeoff is added CPU overhead and color output that is not accurate enough for photo or video color grading.",
-  },
-  {
-    criterion: "MagSafe frees up both USB-C ports for other connections",
-    explanation:
-      "If your MacBook Air model includes MagSafe, charging through MagSafe while the dock handles data and display over USB-C leaves both of the Air's USB-C ports available elsewhere, instead of using one solely for dock power passthrough.",
-  },
+    "criterion": "Consider heat and long-term reliability under sustained daily use",
+    "explanation": "A docking station that stays plugged in and under load for 8+ hours a day handles thermal stress very differently than a hub used occasionally for a quick file transfer, and a compact plastic-bodied dock with no real heat dissipation can throttle performance or degrade faster under that kind of sustained daily use than an aluminum-bodied one.\n\nThis matters more for anyone using the dock as their primary daily workstation setup than for occasional or travel use.\n\nCheck reviews specifically for mentions of the dock running hot, disconnecting intermittently after extended use, or degrading over months, rather than relying on the unboxing-day performance most reviews describe."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,67 +359,102 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By MacBook Air Chip Generation",
-    intro:
-      "This is the single most important factor in picking the right dock, since the chip itself, not the dock, sets your baseline display limit.",
-    table: {
-      headers: ["Chip generation", "Native external displays", "Notes", "Best pick"],
-      rows: [
-        ["M1 / M2 Air", "1 display", "Second display requires a DisplayLink dock", "PULWTOP Dual Monitor Dock"],
-        ["M3 Air", "2 displays", "Second display only works in clamshell mode (lid closed)", "Plugable Thunderbolt 4 Dock"],
-        ["M4 / M5 Air", "2 displays", "Works with lid open or closed, no clamshell needed", "Plugable Thunderbolt 4 Dock"],
-        ["Any generation wanting 3 displays", "N/A, needs DisplayLink", "DisplayLink required regardless of chip", "Anker DL6350 Triple Display"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Plugable Thunderbolt 4 Dock for M4/M5 MacBook Air & Pro"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Plugable Thunderbolt 4 Dock for M4/M5 MacBook Air & Pro"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By How Many Displays You Need",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $40",
+          "UGREEN 10"
+        ],
+        [
+          "Up to $200",
+          "Anker Docking Station DL6350"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Thunderbolt vs USB-C Only",
+    "cards": [
       {
-        label: "Just 1 external display",
-        text: "The UGREEN Revodok Pro 210 or Anker 8-in-1 hub is enough, no DisplayLink needed on any Air chip generation.",
+        "label": "Thunderbolt-certified",
+        "text": "Higher bandwidth for demanding multi-display and high-speed data setups, but requires a genuinely Thunderbolt-capable laptop port. In this comparison: Plugable Thunderbolt 4 Dock for M4/M5 MacBook Air & Pro, Anker Laptop Docking Station Dual Monitor, UGREEN 10."
       },
       {
-        label: "2 displays without using clamshell mode",
-        text: "The PULWTOP or TobenONE 18-in-2 use DisplayLink to add a true second display regardless of chip generation or lid position.",
-      },
-      {
-        label: "2 displays and you own an M4 or M5 Air",
-        text: "The Plugable Thunderbolt 4 Dock drives 2 native displays without any DisplayLink overhead, since the M4/M5 chip supports it natively.",
-      },
-      {
-        label: "3 displays",
-        text: "Only the Anker DL6350 in this list genuinely supports triple-display output, entirely through DisplayLink.",
-      },
+        "label": "USB-C only",
+        "text": "Usually cheaper and works with any USB-C laptop, but with less headroom for multiple high-resolution displays. In this comparison: TobenONE 18, PULWTOP MacBook Pro Docking Station Dual Monitor 4K@60Hz, TobenONE 17, Anker Docking Station DL6350, WAVLINK USB C Docking Station Dual Monitor."
+      }
     ],
+    "note": "Default to USB-C only unless your laptop has a genuine Thunderbolt port and you need the extra display or data bandwidth."
   },
   {
-    subheading: "By Charging and Peripheral Power Needs",
-    intro:
-      "The Air only needs 30-45W, but the dock's total wattage decides how much is left for charging other devices.",
-    table: {
-      headers: ["Situation", "What to look for", "Best pick"],
-      rows: [
-        ["Just charging the Air", "Any dock rated 60W+", "UGREEN Revodok Pro 210 (100W)"],
-        ["Also charging an iPad or iPhone via the dock", "100W+ dock with downstream PD", "Plugable Thunderbolt 4 Dock, WAVLINK 13-in-1"],
-        ["MagSafe-equipped Air model", "Charge via MagSafe, dock handles data/display only", "Any dock, ports freed up either way"],
+    "subheading": "By Ethernet Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Wired Ethernet needed",
+          "Plugable Thunderbolt 4 Dock for M4/M5 MacBook Air & Pro"
+        ],
+        [
+          "Wi-Fi only is fine",
+          "Anker Docking Station DL6350"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Thunderbolt Dock vs. DisplayLink Dock vs. USB-C Hub",
-    intro:
-      "These three categories look similar in a product listing but behave very differently in daily use.",
-    table: {
-      headers: ["Type", "How it adds displays", "Best for", "Example pick"],
-      rows: [
-        ["Thunderbolt certified dock", "Native 40Gbps bandwidth, no compression", "M4/M5 Air needing 2 native displays or single 6K", "Plugable Thunderbolt 4 Dock"],
-        ["DisplayLink dock", "Software-rendered signal past chip's native limit", "Adding a 2nd or 3rd display on M1-M3 Air", "TobenONE, PULWTOP, WAVLINK, Anker DL6350"],
-        ["Basic USB-C hub", "Alt Mode passthrough, no added displays beyond native limit", "Single display or travel use", "UGREEN Revodok Pro 210, Anker 8-in-1"],
-      ],
-    },
-    note: "DisplayLink output is not suitable for color-critical photo or video editing, since it renders through software compression rather than the GPU's native pipeline. If color accuracy matters, keep your primary display on a native Thunderbolt connection and reserve DisplayLink for secondary reference monitors.",
+    "subheading": "For a Dual or Triple Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Native DisplayPort Alt Mode or DisplayLink chip technology, verified against your specific laptop's documented maximum external display count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Plugable Thunderbolt 4 Dock for M4/M5 MacBook Air & Pro is worth checking against its listed display support before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need reliable multi-display support and full-speed charging under daily sustained use, where Anker Docking Station DL6350's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need occasional charging and a single extra port, where UGREEN 10 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

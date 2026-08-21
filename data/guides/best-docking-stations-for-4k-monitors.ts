@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "4K@30Hz and 4K@60Hz are not the same spec",
-    explanation:
-      "A dock listing that just says \"4K\" without a refresh rate often means 30Hz, common on cheaper docks using an older HDMI 1.4 connection. 30Hz causes visible motion blur in video and even in ordinary mouse cursor movement, while HDMI 2.0 and above deliver a fluid 60Hz. Always check the refresh rate, not just the resolution, before buying.",
+    "criterion": "Check the real power delivery wattage, not just \"PD\" in the listing",
+    "explanation": "Power delivery (PD) wattage determines whether a dock can actually charge your laptop while it's connected, not just pass a trickle of power through, and this number varies widely, from 60W barely-adequate figures up to 100W or higher business-tier docks.\n\nThis matters because a dock rated below what your laptop actually needs to charge under load, especially a larger laptop or one running demanding tasks while docked, will slowly drain the battery even while \"charging\", a frustrating and easy-to-miss problem.\n\nCheck the listing for the specific PD wattage number, and compare it against your laptop's actual charging brick wattage, not just whether the listing mentions power delivery at all."
   },
   {
-    criterion: "Dual 4K@60Hz needs about 30Gbps of bandwidth",
-    explanation:
-      "Driving two 4K displays at a true 60Hz simultaneously requires roughly 30Gbps of display bandwidth. Thunderbolt 4's 40Gbps total covers it with about 10Gbps left over for data, which is tight but workable, while USB-C 3.2 Gen 2 at 10Gbps total cannot drive dual 4K@60Hz at all, that's when DisplayLink-based docks step in with their own compression workaround.",
+    "criterion": "Verify actual display support against your specific laptop and GPU, not just port count",
+    "explanation": "A dock listing multiple HDMI or DisplayPort outputs doesn't guarantee your laptop can actually drive all of them at full resolution and refresh rate simultaneously, that capability depends on your laptop's specific GPU and USB-C controller, which some docks work around using DisplayLink technology and others don't.\n\nThis distinction matters a lot if you're building a dual or triple monitor setup, since a laptop that can't natively drive multiple external displays will show a blank or mirrored screen on a non-DisplayLink dock's extra port, regardless of how many ports the dock has.\n\nCheck whether the dock uses native DisplayPort Alt Mode or DisplayLink chip technology, and separately verify your specific laptop model's documented maximum number of external displays before assuming any multi-port dock will drive them all."
   },
   {
-    criterion: "The monitor's HDMI version matters as much as the dock's",
-    explanation:
-      "A dock's display output and the monitor's own HDMI input both need to support your target resolution and refresh rate, and the weaker of the two always wins. Check your monitor's actual HDMI version, not just the dock's spec sheet, before assuming you'll get 4K@60Hz end to end.",
+    "criterion": "Match data transfer speeds and Ethernet to what you actually move and how",
+    "explanation": "USB data ports on a dock range widely in real transfer speed, from basic 480Mbps USB 2.0 speeds up to 10Gbps or higher, a gap that matters enormously if you regularly move large files to and from external drives, but barely matters if you're just charging a mouse and keyboard.\n\nEthernet port speed follows the same logic, a dock's Gigabit or 2.5Gb Ethernet port is only as fast as your actual home or office network infrastructure supports, so paying for 2.5Gb Ethernet on a network that tops out at Gigabit gains nothing.\n\nCheck the specific listed speed for each port type you'll actually use regularly, and compare Ethernet speed against your router's actual rated speed, not just the dock's spec sheet in isolation."
   },
   {
-    criterion: "4K HDR10 needs HDMI 2.0b or DisplayPort 1.4 at minimum",
-    explanation:
-      "Some docks list HDMI 2.0 without specifying the \"b\" revision, and plain HDMI 2.0 cannot pass an HDR10 signal correctly even though it supports 4K@60Hz for standard dynamic range content. If HDR video matters to you, confirm the dock specifically lists HDMI 2.0b or DisplayPort 1.4 rather than assuming any HDMI 2.0 port covers it.",
+    "criterion": "Confirm compatibility with your specific laptop's USB-C or Thunderbolt port",
+    "explanation": "Not every USB-C port supports the same features, some laptops only support USB-C data and charging without any video output over that port at all, while others support full Thunderbolt with much higher bandwidth for multiple 4K displays.\n\nDocks built around Thunderbolt certification generally support more demanding multi-display and high-speed configurations, but require a genuinely Thunderbolt-capable port on your laptop to unlock that performance, plugging a Thunderbolt dock into a USB-C-only port still works but loses the extra bandwidth.\n\nCheck your specific laptop's documented port capabilities (Thunderbolt 3, Thunderbolt 4, or USB-C without Thunderbolt), not just that it has a USB-C-shaped port, before assuming any docking station will unlock its full advertised capability."
   },
   {
-    criterion: "macOS scales 4K differently than Windows",
-    explanation:
-      "macOS defaults to 2x HiDPI scaling at 4K resolution, which demands more from the GPU, and DisplayLink-based 4K output on a Mac can't take full advantage of that native HiDPI scaling, sometimes looking slightly softer than a native connection. If you're on a Mac and image sharpness at 4K is a priority, a Thunderbolt-native dock like the Plugable TBT-UDM handles scaling more faithfully than a DisplayLink dock.",
-  },
-  {
-    criterion: "DisplayLink docks trade a touch of latency for lower cost",
-    explanation:
-      "Docks that reach dual 4K@60Hz or triple-display support without Thunderbolt bandwidth do it through DisplayLink's CPU-based compression, which adds a small amount of input lag. That's a fine tradeoff for office and document work but worth avoiding for fast-motion video editing or competitive gaming.",
-  },
+    "criterion": "Consider heat and long-term reliability under sustained daily use",
+    "explanation": "A docking station that stays plugged in and under load for 8+ hours a day handles thermal stress very differently than a hub used occasionally for a quick file transfer, and a compact plastic-bodied dock with no real heat dissipation can throttle performance or degrade faster under that kind of sustained daily use than an aluminum-bodied one.\n\nThis matters more for anyone using the dock as their primary daily workstation setup than for occasional or travel use.\n\nCheck reviews specifically for mentions of the dock running hot, disconnecting intermittently after extended use, or degrading over months, rather than relying on the unboxing-day performance most reviews describe."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,71 +359,106 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Number of 4K Displays",
-    table: {
-      headers: ["Setup", "Bandwidth need", "Best pick"],
-      rows: [
-        ["Single 4K display", "Low, most docks handle this", "Anker 8-in-1 Dual Monitor"],
-        ["Dual 4K@60Hz, budget", "~30Gbps via DisplayLink or Thunderbolt", "UGREEN Revodok Pro 210, WAVLINK Pro"],
-        ["Dual 4K@60Hz, native Thunderbolt", "40Gbps Thunderbolt 4", "Plugable Thunderbolt 4 Dock (TBT-UDM)"],
-        ["Triple display including one 4K", "Mixed resolutions across 3 outputs", "Plugable Triple Display, Anker Nano 13-in-1"],
+    "subheading": "By Power Delivery Wattage",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Around 130W power delivery",
+          "WAVLINK USB C Docking Station Dual Monitor 13"
+        ],
+        [
+          "Around 100W power delivery",
+          "Plugable USB C Triple Display Docking Station"
+        ],
+        [
+          "Around 100W power delivery",
+          "UGREEN 10"
+        ]
+      ]
+    }
   },
   {
-    subheading: "4K@30Hz vs. 4K@60Hz: Why It Matters",
-    intro:
-      "This is the single most common gap in budget dock listings, so check it before you buy, not after.",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $40",
+          "UGREEN 10"
+        ],
+        [
+          "Up to $200",
+          "Plugable Thunderbolt 4 Dock"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Thunderbolt vs USB-C Only",
+    "cards": [
       {
-        label: "4K@30Hz",
-        text: "Common on HDMI 1.4-based budget docks. Causes visible motion blur in video playback and even ordinary mouse cursor movement. Fine for static document work, not for anything with motion.",
+        "label": "Thunderbolt-certified",
+        "text": "Higher bandwidth for demanding multi-display and high-speed data setups, but requires a genuinely Thunderbolt-capable laptop port. In this comparison: Plugable Thunderbolt 4 Dock, WAVLINK USB C Docking Station Dual Monitor 13, WAVLINK Pro Dual 4K@60Hz Universal Docking Station."
       },
       {
-        label: "4K@60Hz",
-        text: "Requires HDMI 2.0 or a Thunderbolt/DisplayLink connection with enough bandwidth. Delivers a smooth, fluid image suitable for video and general use.",
-      },
+        "label": "USB-C only",
+        "text": "Usually cheaper and works with any USB-C laptop, but with less headroom for multiple high-resolution displays. In this comparison: Anker Prime Docking Station, Plugable USB C Triple Display Docking Station, UGREEN 10, Anker Laptop Docking Station Dual Monitor, Anker Nano 13."
+      }
     ],
-    note: "The Plugable Triple Display dock in this list is a real example: it drives true 60Hz on its two 1080p outputs but caps its 4K output at 30Hz. That's a deliberate bandwidth tradeoff, not a defect.",
+    "note": "Default to USB-C only unless your laptop has a genuine Thunderbolt port and you need the extra display or data bandwidth."
   },
   {
-    subheading: "If You Need HDR10",
-    intro:
-      "HDR support depends on the exact HDMI revision, not just the resolution number.",
-    table: {
-      headers: ["Requirement", "Minimum spec", "Note"],
-      rows: [
-        ["4K@60Hz standard dynamic range", "HDMI 2.0", "Most docks in this list meet this"],
-        ["4K HDR10", "HDMI 2.0b or DisplayPort 1.4", "Plain HDMI 2.0 cannot pass HDR10 correctly"],
+    "subheading": "By Ethernet Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Wired Ethernet needed",
+          "Plugable Thunderbolt 4 Dock"
+        ],
+        [
+          "Wi-Fi only is fine",
+          "WAVLINK Pro Dual 4K@60Hz Universal Docking Station"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Mac Users at 4K",
-    intro:
-      "macOS handles 4K scaling differently than Windows, and it affects DisplayLink docks more than Thunbderbolt-native ones.",
-    cards: [
+    "subheading": "For a Dual or Triple Monitor Setup Specifically",
+    "cards": [
       {
-        label: "Want the sharpest native scaling on a Mac",
-        text: "The Plugable Thunderbolt 4 Dock (TBT-UDM) is Thunderbolt certified, which handles macOS's native 2x HiDPI scaling more faithfully than a DisplayLink dock.",
+        "label": "Look for",
+        "text": "Native DisplayPort Alt Mode or DisplayLink chip technology, verified against your specific laptop's documented maximum external display count."
       },
       {
-        label: "Budget Mac setup, slight softness acceptable",
-        text: "DisplayLink-based docks like the WAVLINK 13-in-1 work fine on macOS but may look slightly less sharp than a native Thunderbolt connection at 4K.",
-      },
-    ],
+        "label": "In this comparison",
+        "text": "Plugable Thunderbolt 4 Dock is worth checking against its listed display support before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Budget", "Best pick", "What you get"],
-      rows: [
-        ["Under $60", "Anker 8-in-1 or UGREEN Revodok Pro 210", "Dual 4K@60Hz or single 8K@30Hz on a tight budget"],
-        ["$120-$170", "Anker Nano 13-in-1, WAVLINK Pro, WAVLINK 13-in-1", "3-display support or dual 4K@60Hz with more ports"],
-        ["$170-$200", "Anker Prime 14-Port, Plugable Thunderbolt 4 Dock", "Widest port selection or guaranteed Thunderbolt bandwidth"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need reliable multi-display support and full-speed charging under daily sustained use, where Plugable Thunderbolt 4 Dock's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need occasional charging and a single extra port, where UGREEN 10 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

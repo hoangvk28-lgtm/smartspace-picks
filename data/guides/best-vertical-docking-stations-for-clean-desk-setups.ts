@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "MacBook clamshell thermal risk is a real, not theoretical, concern",
-    explanation:
-      "A MacBook running in clamshell mode on a vertical dock draws cooling air through its underside vents, and dock or stand contact points can block that airflow. During heavy sustained tasks, this can trigger thermal throttling within 20-30 minutes. Choose a vertical stand that holds the laptop with a genuine air gap at the bottom rather than flush contact against the vents.",
+    "criterion": "Check the real power delivery wattage, not just \"PD\" in the listing",
+    "explanation": "Power delivery (PD) wattage determines whether a dock can actually charge your laptop while it's connected, not just pass a trickle of power through, and this number varies widely, from 60W barely-adequate figures up to 100W or higher business-tier docks.\n\nThis matters because a dock rated below what your laptop actually needs to charge under load, especially a larger laptop or one running demanding tasks while docked, will slowly drain the battery even while \"charging\", a frustrating and easy-to-miss problem.\n\nCheck the listing for the specific PD wattage number, and compare it against your laptop's actual charging brick wattage, not just whether the listing mentions power delivery at all."
   },
   {
-    criterion: "Port placement in a vertical setup usually means reaching up or over",
-    explanation:
-      "Vertical docks place their ports on top or along the side rather than flat on the desk, so plugging in a USB drive or headphones takes more reaching than a traditional flat dock. A short USB-C extension cable brought down to desk level is a simple, cheap fix if this becomes a daily annoyance.",
+    "criterion": "Verify actual display support against your specific laptop and GPU, not just port count",
+    "explanation": "A dock listing multiple HDMI or DisplayPort outputs doesn't guarantee your laptop can actually drive all of them at full resolution and refresh rate simultaneously, that capability depends on your laptop's specific GPU and USB-C controller, which some docks work around using DisplayLink technology and others don't.\n\nThis distinction matters a lot if you're building a dual or triple monitor setup, since a laptop that can't natively drive multiple external displays will show a blank or mirrored screen on a non-DisplayLink dock's extra port, regardless of how many ports the dock has.\n\nCheck whether the dock uses native DisplayPort Alt Mode or DisplayLink chip technology, and separately verify your specific laptop model's documented maximum number of external displays before assuming any multi-port dock will drive them all."
   },
   {
-    criterion: "Heavier laptops need real stability, not just a narrow footprint",
-    explanation:
-      "A vertical dock or stand holding a heavier laptop needs enough weight rating and base width to resist tipping under vibration or an accidental bump. Look for weighted bases or cable-management clip attachment points specifically if you're mounting a larger, heavier laptop vertically.",
+    "criterion": "Match data transfer speeds and Ethernet to what you actually move and how",
+    "explanation": "USB data ports on a dock range widely in real transfer speed, from basic 480Mbps USB 2.0 speeds up to 10Gbps or higher, a gap that matters enormously if you regularly move large files to and from external drives, but barely matters if you're just charging a mouse and keyboard.\n\nEthernet port speed follows the same logic, a dock's Gigabit or 2.5Gb Ethernet port is only as fast as your actual home or office network infrastructure supports, so paying for 2.5Gb Ethernet on a network that tops out at Gigabit gains nothing.\n\nCheck the specific listed speed for each port type you'll actually use regularly, and compare Ethernet speed against your router's actual rated speed, not just the dock's spec sheet in isolation."
   },
   {
-    criterion: "A clean look on a vertical setup still requires cable planning",
-    explanation:
-      "A vertical dock setup photographs cleanly, but achieving that in person requires real cable routing effort. The power cable running from the dock's power adapter to the wall outlet is usually the last and ugliest cable left exposed, a cable channel or clip along the desk edge solves this cheaply.",
+    "criterion": "Confirm compatibility with your specific laptop's USB-C or Thunderbolt port",
+    "explanation": "Not every USB-C port supports the same features, some laptops only support USB-C data and charging without any video output over that port at all, while others support full Thunderbolt with much higher bandwidth for multiple 4K displays.\n\nDocks built around Thunderbolt certification generally support more demanding multi-display and high-speed configurations, but require a genuinely Thunderbolt-capable port on your laptop to unlock that performance, plugging a Thunderbolt dock into a USB-C-only port still works but loses the extra bandwidth.\n\nCheck your specific laptop's documented port capabilities (Thunderbolt 3, Thunderbolt 4, or USB-C without Thunderbolt), not just that it has a USB-C-shaped port, before assuming any docking station will unlock its full advertised capability."
   },
   {
-    criterion: "Clamshell mode can be the right call for external display setups on some Macs",
-    explanation:
-      "Certain Apple Silicon chip generations only enable a second external display specifically while the laptop is in clamshell mode. A vertical dock or stand makes running that configuration permanently a natural setup rather than something you re-trigger by closing the lid every time, as long as thermal clearance is handled properly.",
-  },
-  {
-    criterion: "Purpose-built vertical docks and separate stand-plus-hub setups both work",
-    explanation:
-      "A single unit that combines a vertical stand and a dock, like the PULWTOP pick in this list, saves a step and a cable. Pairing a compact hub with a separate vertical stand, as with most other picks here, offers more flexibility in choosing each piece independently, but requires buying and coordinating 2 products instead of 1.",
-  },
+    "criterion": "Consider heat and long-term reliability under sustained daily use",
+    "explanation": "A docking station that stays plugged in and under load for 8+ hours a day handles thermal stress very differently than a hub used occasionally for a quick file transfer, and a compact plastic-bodied dock with no real heat dissipation can throttle performance or degrade faster under that kind of sustained daily use than an aluminum-bodied one.\n\nThis matters more for anyone using the dock as their primary daily workstation setup than for occasional or travel use.\n\nCheck reviews specifically for mentions of the dock running hot, disconnecting intermittently after extended use, or degrading over months, rather than relying on the unboxing-day performance most reviews describe."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,68 +359,102 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By All-in-One vs. Separate Stand and Hub",
-    intro:
-      "Decide whether you want a single purpose-built vertical dock or a compact hub you'll pair with your own vertical stand.",
-    table: {
-      headers: ["Setup preference", "Recommended approach", "Best pick"],
-      rows: [
-        ["Want one unit, stand and dock combined", "Purpose-built vertical dock", "PULWTOP 11-in-1"],
-        ["Already have or want a dedicated MacBook stand", "MacBook-shaped vertical stand dock", "4URPC MacBook Vertical Stand"],
-        ["Want maximum flexibility choosing each piece", "Compact hub plus separate stand", "Baseus Spacemate, Plugable, or WAVLINK"],
-        ["Want a hub split between fixed and portable use", "Detachable hub design", "Anker Nano 13-in-1"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "PULWTOP 11"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "PULWTOP 11"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By MacBook Clamshell Use",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $80",
+          "4URPC MacBook Pro Docking Station"
+        ],
+        [
+          "Up to $228",
+          "Anker Prime Docking Station"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Triple-Monitor vs Dual-Monitor Support",
+    "cards": [
       {
-        label: "Running a MacBook lid-closed for dual external displays",
-        text: "The 4URPC MacBook Vertical Stand is shaped specifically for this use case and enables the clamshell dual-display trick some Apple Silicon chips require.",
+        "label": "Triple-monitor support",
+        "text": "More display headroom, worth it if you actually run three external displays. In this comparison: Baseus Spacemate Laptop Docking Station, Plugable USB C Triple Display Docking Station, Anker Nano 13, Anker Prime Docking Station."
       },
       {
-        label: "Want maximum port consolidation on a MacBook",
-        text: "The TobenONE 18-in-2 packs the most total ports in this list for a heavily peripheral-loaded MacBook desk.",
-      },
-      {
-        label: "Worried about clamshell heat buildup",
-        text: "Choose any stand with a genuine air gap under the laptop's vents, and consider the Anker Prime DL7400's built-in cooling fan if your workload runs hot and sustained.",
-      },
-      {
-        label: "Want cross-platform Mac and Windows flexibility",
-        text: "The WAVLINK 13-in-1 DisplayLink dock works across M1 through M4 Macs as well as Windows machines.",
-      },
+        "label": "Dual-monitor support",
+        "text": "Covers the most common setup at a typically lower price. In this comparison: 4URPC MacBook Pro Docking Station, TobenONE 18."
+      }
     ],
+    "note": "Default to dual-monitor support unless you specifically run a three-display setup."
   },
   {
-    subheading: "By Port Reach and Cable Management",
-    intro:
-      "Vertical setups trade desk space for some reach and cable-routing effort, plan for both before committing to a layout.",
-    table: {
-      headers: ["Challenge", "Recommended fix", "Best pick"],
-      rows: [
-        ["Ports too high to reach comfortably", "Short USB-C extension cable to desk level", "Any pick in this list"],
-        ["Want ports split between fixed and near-hand locations", "Detachable hub design", "Anker Nano 13-in-1"],
-        ["Power cable to the wall ruins the clean look", "Cable channel or clip along the desk edge", "Any pick in this list"],
+    "subheading": "By Ethernet Support",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "None of these fixes require replacing the dock itself, they're simple desk-organization additions that solve the two most common vertical-setup complaints.",
+      "rows": [
+        [
+          "Wired Ethernet needed",
+          "PULWTOP 11"
+        ],
+        [
+          "Wi-Fi only is fine",
+          "TobenONE 18"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Display and Performance Needs",
-    intro:
-      "Match display count and resolution, along with charging wattage, to your actual workload rather than buying the highest spec sheet by default.",
-    table: {
-      headers: ["Need", "Recommended spec", "Best pick"],
-      rows: [
-        ["Dual 5K or 4K displays", "DisplayLink dual 5K/4K support", "WAVLINK 13-in-1"],
-        ["Triple 4K displays with active cooling", "Built-in cooling fan for sustained heavy use", "Anker Prime DL7400"],
-        ["Broad OS compatibility, moderate needs", "Triple display, established brand reliability", "Plugable USB C Triple Display"],
-        ["Highest charging wattage for a power-hungry laptop", "150W or higher adapter included", "TobenONE 18-in-2 or Anker Prime DL7400"],
-      ],
-    },
+    "subheading": "For a Dual or Triple Monitor Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Native DisplayPort Alt Mode or DisplayLink chip technology, verified against your specific laptop's documented maximum external display count."
+      },
+      {
+        "label": "In this comparison",
+        "text": "PULWTOP 11 is worth checking against its listed display support before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need reliable multi-display support and full-speed charging under daily sustained use, where Anker Prime Docking Station's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need occasional charging and a single extra port, where 4URPC MacBook Pro Docking Station covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [
