@@ -161,29 +161,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Confirmed Mounting Type",
-    table: {
-      headers: ["Confirmation level", "Recommended pick"],
-      rows: [
-        ["Explicit floor bolt-down, most substantial", "SentrySafe Shelf Safe with Digital Keypad Lock"],
-        ["Explicit floor + wall + shelf flexibility", "Amazon Basics Steel Security Safe"],
-        ["Explicit floor mounting, best value", "Yuanshikj Small Steel Security Safe Box"],
-        ["Fire protection over floor anchoring", "SentrySafe Fireproof Safe Box with Key Lock"],
+    "subheading": "By Protection Type",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Fire or water resistance claimed",
+          "SentrySafe Shelf Safe with Digital Keypad Lock"
+        ],
+        [
+          "Genuine anti-removal, bolt-down support",
+          "SentrySafe Shelf Safe with Digital Keypad Lock"
+        ],
+        [
+          "Most-reviewed, strongest reliability signal",
+          "Yuanshikj Small Steel Security Safe Box with Keypad"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Verify Before You Drill",
-    note: "Only 3 of the 8 picks in this comparison explicitly state floor bolt-down installation in their listed features. For the other 5, mounting is confirmed for wall, cabinet, or under-furniture placement, but floor-specific installation isn't stated. If bolting to the actual floor is your specific requirement, verify this directly with the seller or manufacturer before ordering, rather than assuming general mounting language covers it.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $24",
+          "Yuanshikj Small Steel Security Safe Box with Keypad"
+        ],
+        [
+          "Up to $NaN",
+          "SentrySafe Fireproof Safe Box with Key Lock"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Physical Key vs Electronic Access",
+    "cards": [
+      {
+        "label": "Physical key",
+        "text": "No batteries to fail, but a lost key means a lockout with no backup. In this comparison: SentrySafe Fireproof Safe Box with Key Lock."
+      },
+      {
+        "label": "Electronic access",
+        "text": "More convenient day to day, worth checking for a backup access method in case the battery dies. In this comparison: SentrySafe Shelf Safe with Digital Keypad Lock, Amazon Basics Steel Security Safe and Lock Box with Electronic Keypad, Yuanshikj Small Steel Security Safe Box with Keypad, Bonsaii Safe Box with Electronic Keypad for Home Office, Digital Electronic Money Safe, Voncabay Money Safe Box for Home with Digital Keypad, Bonsaii Small Safe Box with Electronic Keypad for Valuables."
+      }
+    ],
+    "note": "Most buyers should default to electronic access with a confirmed backup method unless simplicity is the top priority."
+  },
+  {
+    "subheading": "By Fire Protection",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Fire resistance claimed",
+          "SentrySafe Shelf Safe with Digital Keypad Lock"
+        ],
+        [
+          "Theft deterrence only, no fire claim",
+          "Amazon Basics Steel Security Safe and Lock Box with Electronic Keypad"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Storing Documents or Cash Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A confirmed interior dimension roomy enough for the actual items, plus a backup access method beyond just a keypad."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Yuanshikj Small Steel Security Safe Box with Keypad is worth checking against its listed interior dimensions before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You're storing genuinely valuable or irreplaceable items, where SentrySafe Fireproof Safe Box with Key Lock's higher price buys real security or fire-protection headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need basic theft deterrence for low-value items, where Yuanshikj Small Steel Security Safe Box with Keypad covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm floor bolt-down is explicitly stated, not just general mounting language", explanation: "Only 3 of 8 picks here explicitly confirm floor installation. Wall, cabinet, or under-furniture mounting is not automatically the same as floor bolting." },
-  { criterion: "Weigh safe weight alongside anchoring for genuine anti-removal security", explanation: "A heavier safe combined with floor bolting resists removal better than a light safe with the same anchoring, since weight alone adds resistance." },
-  { criterion: "Check substrate compatibility for your specific floor type", explanation: "None of these listings confirm compatibility with every floor type (concrete, wood subfloor, tile). Verify the anchor hardware works with your actual installation surface." },
-  { criterion: "Don't assume carrying-handle features mean mounting isn't available", explanation: "One pick here emphasizes portability without confirming mounting hardware. If floor anchoring matters, verify this distinction directly." },
-  { criterion: "Consider fire protection tradeoffs if you need both fire rating and confirmed floor mounting", explanation: "The strongest fire-rated pick here doesn't confirm mounting hardware; the strongest confirmed floor-mount pick isn't fireproof. Weigh which matters more for your specific risk." },
+  {
+    "criterion": "Don't assume fire or water protection unless it's explicitly certified",
+    "explanation": "A safe being made of steel doesn't automatically mean it protects contents from a house fire, most compact steel security safes are theft-deterrence only, with no fire or water rating at all, while a genuinely fireproof safe carries a specific certified time-and-temperature rating (for example, 30 minutes at 1550°F) tested by an independent lab.\n\nThis distinction matters a great deal if you're storing something irreplaceable like documents, passports, or family photos, since an uncertified safe offers essentially no protection if a real fire reaches it.\n\nCheck the listing specifically for a stated fire rating with a time and temperature figure, not just the word \"fireproof\" in the title, since that word alone isn't a verified claim."
+  },
+  {
+    "criterion": "Weigh anchoring if the safe is light enough to simply be carried away",
+    "explanation": "A locked safe stops casual, opportunistic access, but a small, lightweight safe that isn't bolted down doesn't stop someone from just picking it up and walking out the door, lock and all.\n\nThis is a real gap in protection that a strong lock alone can't close, and it's especially relevant for anything under roughly 30 pounds, light enough for one person to carry without much effort.\n\nCheck whether the listing confirms factory-supported anchor holes and includes the actual anchor bolts, not just a vague mention that it \"can be mounted,\" since some listings imply this without actually providing the hardware."
+  },
+  {
+    "criterion": "Match interior capacity to what you're actually planning to store",
+    "explanation": "Small safes vary widely in usable interior space, often listed in cubic feet, and the same category label can span anything from a slim document-and-passport box to a safe roomy enough for a laptop and a jewelry case.\n\nBuying based on the exterior size alone is a common mistake, since wall thickness for security or fire protection eats meaningfully into the usable interior compared to the exterior dimensions advertised.\n\nCheck the listed interior dimensions specifically, not just the cubic-footage number, and measure whatever you plan to store, cash bundles, a passport, a handgun case, jewelry boxes, against those exact interior measurements before buying."
+  },
+  {
+    "criterion": "Consider access method and what happens when it fails",
+    "explanation": "Electronic keypad safes are convenient day to day, but every keypad relies on batteries, and a dead battery with no backup plan means being locked out of your own safe.\n\nThe strongest designs offer a genuine backup, a physical override key, a USB-C emergency power port, or both, so a battery failure doesn't turn into a real lockout. This matters more the more critical the contents are, a safe holding a spare car key or cash you access occasionally is a smaller problem than a safe holding documents you need on short notice.\n\nCheck the listing specifically for a stated backup access method beyond just the keypad, and confirm what's actually included, some listings mention a backup port but don't include the cable or key."
+  },
+  {
+    "criterion": "Weigh review count and rating together, not rating alone",
+    "explanation": "A 4.8-star rating from 12 reviews carries far less evaluation confidence than a 4.5-star rating from several thousand, since a small sample can be skewed by a handful of early, enthusiastic buyers before any long-term reliability issues would show up in later reviews.\n\nThis matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
+  }
 ];
 
 export const faq: FaqItem[] = [

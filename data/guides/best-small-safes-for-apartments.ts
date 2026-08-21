@@ -145,29 +145,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Rental Constraint",
-    table: {
-      headers: ["Constraint", "Recommended pick"],
-      rows: [
-        ["Lease strictly prohibits drilling", "Master Lock Small Travel Safe with Cable"],
-        ["Small mounting footprint, easy to patch", "Yuanshikj Small Steel Security Safe Box"],
-        ["No mounting hardware, weight-based security", "KornerBatl 20 lb Biometric Safe"],
-        ["Shared apartment, roommate deterrence", "Small Safe for Home, 6.69\"H (alarm + mute)"],
+    "subheading": "By Protection Type",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Fire or water resistance claimed",
+          "Small Safe for Home"
+        ],
+        [
+          "Genuine anti-removal, bolt-down support",
+          "Yuanshikj Small Steel Security Safe Box with Keypad"
+        ],
+        [
+          "Most-reviewed, strongest reliability signal",
+          "Yuanshikj Small Steel Security Safe Box with Keypad"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Check Your Lease Before Drilling",
-    note: "Review your specific lease terms on wall and floor alterations before assuming any mounting-hardware-included safe can be installed without consequence. If you're unsure, the tether-cable Master Lock pick or the weight-based KornerBatl pick avoid the drilling question entirely.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $17",
+          "Master Lock Small Travel Safe with Cable"
+        ],
+        [
+          "Up to $85",
+          "KornerBatl 20 lb Biometric Safe with Fingerprint Lock & LED Light"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Biometric Fingerprint vs Keypad Code",
+    "cards": [
+      {
+        "label": "Biometric fingerprint",
+        "text": "Fastest single-user access with nothing to remember, but usually harder to grant temporary access to someone else. In this comparison: KornerBatl 20 lb Biometric Safe with Fingerprint Lock & LED Light."
+      },
+      {
+        "label": "Keypad code",
+        "text": "Easy to share a code with a family member or guest, and no battery-dependent sensor to fail. In this comparison: Yuanshikj Small Steel Security Safe Box with Keypad, Small Safe for Home, Bonsaii Safe Box with Electronic Keypad for Home Office, Voncabay Money Safe Box for Home with Digital Keypad, Bonsaii Small Safe Box with Electronic Keypad for Valuables."
+      }
+    ],
+    "note": "Default to a keypad safe unless you specifically want single-user fingerprint speed and won't need to share access."
+  },
+  {
+    "subheading": "By Fire Protection",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Fire resistance claimed",
+          "Small Safe for Home"
+        ],
+        [
+          "Theft deterrence only, no fire claim",
+          "Yuanshikj Small Steel Security Safe Box with Keypad"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Storing Documents or Cash Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A confirmed interior dimension roomy enough for the actual items, plus a backup access method beyond just a keypad."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Yuanshikj Small Steel Security Safe Box with Keypad is worth checking against its listed interior dimensions before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You're storing genuinely valuable or irreplaceable items, where KornerBatl 20 lb Biometric Safe with Fingerprint Lock & LED Light's higher price buys real security or fire-protection headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need basic theft deterrence for low-value items, where Master Lock Small Travel Safe with Cable covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Review your lease's alteration clause before drilling anything", explanation: "Many leases require restoring walls to original condition at move-out, and unauthorized drilling can affect your security deposit. Confirm this before mounting any safe." },
-  { criterion: "Consider a heavier, unmounted safe as a drilling-free alternative", explanation: "Weight alone provides some carry-away resistance without needing wall or floor damage, a reasonable middle ground if drilling isn't an option." },
-  { criterion: "Weigh mounting footprint size for easy move-out patching", explanation: "A smaller mounting footprint (fewer, smaller holes) is generally easier and cheaper to patch than a larger installation when you move out." },
-  { criterion: "Match deterrent features to your specific apartment's access risk", explanation: "Shared or sublet apartments with roommate or landlord access benefit more from alarm deterrents than from raw steel thickness alone." },
-  { criterion: "Confirm a dead-battery recovery path using equipment you already own", explanation: "Picks confirming USB-C backup let you use a phone charger you already have, rather than needing to stock spare AA batteries." },
+  {
+    "criterion": "Don't assume fire or water protection unless it's explicitly certified",
+    "explanation": "A safe being made of steel doesn't automatically mean it protects contents from a house fire, most compact steel security safes are theft-deterrence only, with no fire or water rating at all, while a genuinely fireproof safe carries a specific certified time-and-temperature rating (for example, 30 minutes at 1550°F) tested by an independent lab.\n\nThis distinction matters a great deal if you're storing something irreplaceable like documents, passports, or family photos, since an uncertified safe offers essentially no protection if a real fire reaches it.\n\nCheck the listing specifically for a stated fire rating with a time and temperature figure, not just the word \"fireproof\" in the title, since that word alone isn't a verified claim."
+  },
+  {
+    "criterion": "Weigh anchoring if the safe is light enough to simply be carried away",
+    "explanation": "A locked safe stops casual, opportunistic access, but a small, lightweight safe that isn't bolted down doesn't stop someone from just picking it up and walking out the door, lock and all.\n\nThis is a real gap in protection that a strong lock alone can't close, and it's especially relevant for anything under roughly 30 pounds, light enough for one person to carry without much effort.\n\nCheck whether the listing confirms factory-supported anchor holes and includes the actual anchor bolts, not just a vague mention that it \"can be mounted,\" since some listings imply this without actually providing the hardware."
+  },
+  {
+    "criterion": "Match interior capacity to what you're actually planning to store",
+    "explanation": "Small safes vary widely in usable interior space, often listed in cubic feet, and the same category label can span anything from a slim document-and-passport box to a safe roomy enough for a laptop and a jewelry case.\n\nBuying based on the exterior size alone is a common mistake, since wall thickness for security or fire protection eats meaningfully into the usable interior compared to the exterior dimensions advertised.\n\nCheck the listed interior dimensions specifically, not just the cubic-footage number, and measure whatever you plan to store, cash bundles, a passport, a handgun case, jewelry boxes, against those exact interior measurements before buying."
+  },
+  {
+    "criterion": "Consider access method and what happens when it fails",
+    "explanation": "Electronic keypad safes are convenient day to day, but every keypad relies on batteries, and a dead battery with no backup plan means being locked out of your own safe.\n\nThe strongest designs offer a genuine backup, a physical override key, a USB-C emergency power port, or both, so a battery failure doesn't turn into a real lockout. This matters more the more critical the contents are, a safe holding a spare car key or cash you access occasionally is a smaller problem than a safe holding documents you need on short notice.\n\nCheck the listing specifically for a stated backup access method beyond just the keypad, and confirm what's actually included, some listings mention a backup port but don't include the cable or key."
+  },
+  {
+    "criterion": "Weigh review count and rating together, not rating alone",
+    "explanation": "A 4.8-star rating from 12 reviews carries far less evaluation confidence than a 4.5-star rating from several thousand, since a small sample can be skewed by a handful of early, enthusiastic buyers before any long-term reliability issues would show up in later reviews.\n\nThis matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
+  }
 ];
 
 export const faq: FaqItem[] = [

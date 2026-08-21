@@ -161,29 +161,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What Matters Most",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Best overall mountable box", "Yuanshikj Small Steel Security Safe Box"],
-        ["Largest mountable capacity", "Bonsaii Safe Box with Electronic Keypad, 0.6 Cu.Ft"],
-        ["Dead-battery backup access", "Bonsaii Small Safe Box (USB-C backup)"],
-        ["Basic portable privacy, lowest cost", "KYODOLED Small Metal Lock Box"],
+    "subheading": "By Protection Type",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Genuine anti-removal, bolt-down support",
+          "Yuanshikj Small Steel Security Safe Box with Keypad"
+        ],
+        [
+          "Most-reviewed, strongest reliability signal",
+          "Yuanshikj Small Steel Security Safe Box with Keypad"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Mountable Security Box vs. Portable Lockbox",
-    note: "If genuine theft deterrence matters, choose a mountable steel box with included hardware and actually anchor it, an unmounted box can simply be carried away regardless of lock quality. If you just need basic privacy for petty cash or medication in a low-risk setting, a portable lockbox like the KYODOLED pick is a reasonable, much cheaper choice.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $14",
+          "KYODOLED Small Metal Lock Box with Key for Cash and Medication"
+        ],
+        [
+          "Up to $53",
+          "Bonsaii Safe Box with Electronic Keypad for Home Office"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Physical Key vs Electronic Access",
+    "cards": [
+      {
+        "label": "Physical key",
+        "text": "No batteries to fail, but a lost key means a lockout with no backup. In this comparison: [UPGRADED] Small Safes for Home, PATRON Small Safe Box for Money with Code and Keys, KYODOLED Small Metal Lock Box with Key for Cash and Medication."
+      },
+      {
+        "label": "Electronic access",
+        "text": "More convenient day to day, worth checking for a backup access method in case the battery dies. In this comparison: Yuanshikj Small Steel Security Safe Box with Keypad, Bonsaii Small Safe Box with Electronic Keypad for Valuables, Digital Electronic Money Safe, Voncabay Money Safe Box for Home with Digital Keypad, Bonsaii Safe Box with Electronic Keypad for Home Office."
+      }
+    ],
+    "note": "Most buyers should default to electronic access with a confirmed backup method unless simplicity is the top priority."
+  },
+  {
+    "subheading": "By Interior Capacity",
+    "note": "Check each pick's listed interior dimensions, not just the cubic-footage figure, against what you're actually planning to store before buying. Yuanshikj Small Steel Security Safe Box with Keypad is the most-reviewed option here if you want the safer bet."
+  },
+  {
+    "subheading": "For Storing Documents or Cash Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A confirmed interior dimension roomy enough for the actual items, plus a backup access method beyond just a keypad."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Yuanshikj Small Steel Security Safe Box with Keypad is worth checking against its listed interior dimensions before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You're storing genuinely valuable or irreplaceable items, where Bonsaii Safe Box with Electronic Keypad for Home Office's higher price buys real security or fire-protection headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need basic theft deterrence for low-value items, where KYODOLED Small Metal Lock Box with Key for Cash and Medication covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm whether the safe box is genuinely mountable or just a portable lockbox", explanation: "Seven picks here include mounting hardware for real anchoring; one is a lighter portable lockbox offering privacy, not theft deterrence. Verify which category actually matches your security need." },
-  { criterion: "Check for a dead-battery or lost-key recovery path", explanation: "Several picks here confirm USB-C emergency power or a documented key-replacement service. A box with no recovery plan can leave you fully locked out." },
-  { criterion: "Weigh interior capacity against your actual items, not just cubic feet", explanation: "Interior dimensions vary meaningfully between picks even at similar exterior sizes. Check specific interior measurements against what you're storing." },
-  { criterion: "Verify mounting hardware is included, not sold separately", explanation: "All the mountable picks here include pre-drilled holes and expansion bolts. Don't assume a competitor listing includes this without checking." },
-  { criterion: "Consider a light auto-lock or auto-illumination feature if the box sits somewhere dim or high-traffic", explanation: "Auto-locking doors and interior lights are genuine usability features that reduce accidental unlocked storage or fumbling in a dark closet." },
+  {
+    "criterion": "Don't assume fire or water protection unless it's explicitly certified",
+    "explanation": "A safe being made of steel doesn't automatically mean it protects contents from a house fire, most compact steel security safes are theft-deterrence only, with no fire or water rating at all, while a genuinely fireproof safe carries a specific certified time-and-temperature rating (for example, 30 minutes at 1550°F) tested by an independent lab.\n\nThis distinction matters a great deal if you're storing something irreplaceable like documents, passports, or family photos, since an uncertified safe offers essentially no protection if a real fire reaches it.\n\nCheck the listing specifically for a stated fire rating with a time and temperature figure, not just the word \"fireproof\" in the title, since that word alone isn't a verified claim."
+  },
+  {
+    "criterion": "Weigh anchoring if the safe is light enough to simply be carried away",
+    "explanation": "A locked safe stops casual, opportunistic access, but a small, lightweight safe that isn't bolted down doesn't stop someone from just picking it up and walking out the door, lock and all.\n\nThis is a real gap in protection that a strong lock alone can't close, and it's especially relevant for anything under roughly 30 pounds, light enough for one person to carry without much effort.\n\nCheck whether the listing confirms factory-supported anchor holes and includes the actual anchor bolts, not just a vague mention that it \"can be mounted,\" since some listings imply this without actually providing the hardware."
+  },
+  {
+    "criterion": "Match interior capacity to what you're actually planning to store",
+    "explanation": "Small safes vary widely in usable interior space, often listed in cubic feet, and the same category label can span anything from a slim document-and-passport box to a safe roomy enough for a laptop and a jewelry case.\n\nBuying based on the exterior size alone is a common mistake, since wall thickness for security or fire protection eats meaningfully into the usable interior compared to the exterior dimensions advertised.\n\nCheck the listed interior dimensions specifically, not just the cubic-footage number, and measure whatever you plan to store, cash bundles, a passport, a handgun case, jewelry boxes, against those exact interior measurements before buying."
+  },
+  {
+    "criterion": "Consider access method and what happens when it fails",
+    "explanation": "Electronic keypad safes are convenient day to day, but every keypad relies on batteries, and a dead battery with no backup plan means being locked out of your own safe.\n\nThe strongest designs offer a genuine backup, a physical override key, a USB-C emergency power port, or both, so a battery failure doesn't turn into a real lockout. This matters more the more critical the contents are, a safe holding a spare car key or cash you access occasionally is a smaller problem than a safe holding documents you need on short notice.\n\nCheck the listing specifically for a stated backup access method beyond just the keypad, and confirm what's actually included, some listings mention a backup port but don't include the cable or key."
+  },
+  {
+    "criterion": "Weigh review count and rating together, not rating alone",
+    "explanation": "A 4.8-star rating from 12 reviews carries far less evaluation confidence than a 4.5-star rating from several thousand, since a small sample can be skewed by a handful of early, enthusiastic buyers before any long-term reliability issues would show up in later reviews.\n\nThis matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
+  }
 ];
 
 export const faq: FaqItem[] = [

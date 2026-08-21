@@ -145,29 +145,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Dorm-Specific Priority",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["No-drilling housing rules", "Master Lock Small Travel Safe with Cable"],
-        ["Explicitly dorm-marketed, compact", "SentrySafe Small Safe with Combination Lock"],
-        ["Easy move-out at semester's end", "Amazon Basics Portable Security Case"],
-        ["Roommate/guest privacy deterrent", "Small Safe for Home, 6.69\"H (alarm + mute)"],
+    "subheading": "By Protection Type",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Fire or water resistance claimed",
+          "Small Safe for Home"
+        ],
+        [
+          "Genuine anti-removal, bolt-down support",
+          "Small Safe for Home"
+        ],
+        [
+          "Most-reviewed, strongest reliability signal",
+          "Yuanshikj Small Steel Security Safe Box with Keypad"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Check Your Housing Policy Before Drilling",
-    note: "Confirm your specific dorm or housing policy on wall drilling and permanent fixtures before assuming any mounting-hardware-included safe can actually be installed. If you're unsure or the policy prohibits it, the tether-cable and genuinely portable picks here avoid that problem entirely.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $17",
+          "Master Lock Small Travel Safe with Cable"
+        ],
+        [
+          "Up to $38",
+          "Bonsaii Small Safe Box with Electronic Keypad for Valuables"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Physical Key vs Electronic Access",
+    "cards": [
+      {
+        "label": "Physical key",
+        "text": "No batteries to fail, but a lost key means a lockout with no backup. In this comparison: Master Lock Small Travel Safe with Cable, Amazon Basics Portable Security Case Lock Box Safe with Combination Lock."
+      },
+      {
+        "label": "Electronic access",
+        "text": "More convenient day to day, worth checking for a backup access method in case the battery dies. In this comparison: SentrySafe Small Safe, Small Safe for Home, Yuanshikj Small Steel Security Safe Box with Keypad, Digital Electronic Money Safe, Bonsaii Small Safe Box with Electronic Keypad for Valuables."
+      }
+    ],
+    "note": "Most buyers should default to electronic access with a confirmed backup method unless simplicity is the top priority."
+  },
+  {
+    "subheading": "By Fire Protection",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Fire resistance claimed",
+          "Small Safe for Home"
+        ],
+        [
+          "Theft deterrence only, no fire claim",
+          "Master Lock Small Travel Safe with Cable"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Storing Documents or Cash Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A confirmed interior dimension roomy enough for the actual items, plus a backup access method beyond just a keypad."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Yuanshikj Small Steel Security Safe Box with Keypad is worth checking against its listed interior dimensions before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You're storing genuinely valuable or irreplaceable items, where Bonsaii Small Safe Box with Electronic Keypad for Valuables's higher price buys real security or fire-protection headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need basic theft deterrence for low-value items, where Master Lock Small Travel Safe with Cable covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm your housing's drilling policy before buying a mountable safe", explanation: "Many dorms prohibit permanent wall fixtures. Verify this before assuming mounting hardware included in the box can actually be installed." },
-  { criterion: "Weigh the real dorm threat model: roommates and guests, not break-ins", explanation: "A dorm safe's main job is usually privacy from people who already have room access, not resisting a forced break-in. Features like alarm deterrents matter more here than raw steel thickness." },
-  { criterion: "Consider move-out portability if you'll relocate at semester's end", explanation: "A genuinely portable safe avoids the hassle of unmounting hardware every time you move between semesters or housing." },
-  { criterion: "Avoid relying on a physical key a roommate could borrow", explanation: "A combination or keypad design avoids the specific dorm risk of a roommate borrowing your only key and losing it." },
-  { criterion: "Match capacity to actual student belongings, not a full valuables collection", explanation: "Most dorm safes here suit cash, a passport, jewelry, and small electronics, not a laptop or bulky items. Check interior dimensions against your specific needs." },
+  {
+    "criterion": "Don't assume fire or water protection unless it's explicitly certified",
+    "explanation": "A safe being made of steel doesn't automatically mean it protects contents from a house fire, most compact steel security safes are theft-deterrence only, with no fire or water rating at all, while a genuinely fireproof safe carries a specific certified time-and-temperature rating (for example, 30 minutes at 1550°F) tested by an independent lab.\n\nThis distinction matters a great deal if you're storing something irreplaceable like documents, passports, or family photos, since an uncertified safe offers essentially no protection if a real fire reaches it.\n\nCheck the listing specifically for a stated fire rating with a time and temperature figure, not just the word \"fireproof\" in the title, since that word alone isn't a verified claim."
+  },
+  {
+    "criterion": "Weigh anchoring if the safe is light enough to simply be carried away",
+    "explanation": "A locked safe stops casual, opportunistic access, but a small, lightweight safe that isn't bolted down doesn't stop someone from just picking it up and walking out the door, lock and all.\n\nThis is a real gap in protection that a strong lock alone can't close, and it's especially relevant for anything under roughly 30 pounds, light enough for one person to carry without much effort.\n\nCheck whether the listing confirms factory-supported anchor holes and includes the actual anchor bolts, not just a vague mention that it \"can be mounted,\" since some listings imply this without actually providing the hardware."
+  },
+  {
+    "criterion": "Match interior capacity to what you're actually planning to store",
+    "explanation": "Small safes vary widely in usable interior space, often listed in cubic feet, and the same category label can span anything from a slim document-and-passport box to a safe roomy enough for a laptop and a jewelry case.\n\nBuying based on the exterior size alone is a common mistake, since wall thickness for security or fire protection eats meaningfully into the usable interior compared to the exterior dimensions advertised.\n\nCheck the listed interior dimensions specifically, not just the cubic-footage number, and measure whatever you plan to store, cash bundles, a passport, a handgun case, jewelry boxes, against those exact interior measurements before buying."
+  },
+  {
+    "criterion": "Consider access method and what happens when it fails",
+    "explanation": "Electronic keypad safes are convenient day to day, but every keypad relies on batteries, and a dead battery with no backup plan means being locked out of your own safe.\n\nThe strongest designs offer a genuine backup, a physical override key, a USB-C emergency power port, or both, so a battery failure doesn't turn into a real lockout. This matters more the more critical the contents are, a safe holding a spare car key or cash you access occasionally is a smaller problem than a safe holding documents you need on short notice.\n\nCheck the listing specifically for a stated backup access method beyond just the keypad, and confirm what's actually included, some listings mention a backup port but don't include the cable or key."
+  },
+  {
+    "criterion": "Weigh review count and rating together, not rating alone",
+    "explanation": "A 4.8-star rating from 12 reviews carries far less evaluation confidence than a 4.5-star rating from several thousand, since a small sample can be skewed by a handful of early, enthusiastic buyers before any long-term reliability issues would show up in later reviews.\n\nThis matters more for a safe than for many other product categories, since a lock or hinge failure often only becomes visible after months of real use, not in the first week.\n\nCheck both numbers together on the listing, and treat a high rating on a very small review count as a promising but unproven signal rather than the same level of confidence as a well-reviewed pick."
+  }
 ];
 
 export const faq: FaqItem[] = [
