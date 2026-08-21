@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "4,800+ ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51gIeQBXonL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFKLK9JY?tag=deskfinds0d-20",
-    description:
-      "A large review base backing this USB-C-capable design with an HDMI fallback, genuinely useful given USB-C's DisplayPort Alt Mode isn't universal across every laptop's USB-C ports.\n\nHaving HDMI as a fallback avoids the single-cable power ceiling concern entirely for laptops whose USB-C port lacks sufficient power delivery, connecting HDMI for video while power comes separately if needed.",
-    specs: ["14-inch FHD IPS panel", "USB-C and HDMI ports", "Large review base", "Fits 13-17 inch laptops"],
-    pros: ["Large, well-established review base", "HDMI fallback avoids single-cable power ceiling concerns", "Fits a broad 13-17 inch laptop range", "Genuine plug-and-play reliability"],
-    cons: ["14-inch size gives less workspace than larger alternatives", "Verify your specific laptop's USB-C port supports DisplayPort Alt Mode for the USB-C connection option", "Mid-range price relative to the budget alternative"],
+    description: "A large review base backing this USB-C-capable design with an HDMI fallback, genuinely useful given USB-C's DisplayPort Alt Mode isn't universal across every laptop's USB-C ports.\n\nIt earns the top spot in this comparison over KYY Laptop Screen Extender Driver Need for one main reason. Large, well-established review base. On price, it comes in below KYY Laptop Screen Extender Driver Need, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: HDMI fallback avoids single-cable power ceiling concerns. On the other side, Mid-range price relative to the budget alternative. That's the main tradeoff to weigh against everything above.",
+    specs: ["14-inch FHD IPS panel","USB-C and HDMI ports","Large review base","Fits 13-17 inch laptops"],
+    pros: ["Large, well-established review base","HDMI fallback avoids single-cable power ceiling concerns","Fits a broad 13-17 inch laptop range","Genuine plug-and-play reliability"],
+    cons: ["14-inch size gives less workspace than larger alternatives","Verify your specific laptop's USB-C port supports DisplayPort Alt Mode for the USB-C connection option","Mid-range price relative to the budget alternative"],
     bestFor: "Buyers wanting the most-proven USB-C pick with a genuine HDMI fallback",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "4,600+ ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51Y8l6bTK5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKXKG135?tag=deskfinds0d-20",
-    description:
-      "A large review base backing this USB-C-based design, worth noting this specific listing mentions driver requirements, verify your laptop's operating system supports whatever driver this configuration needs before purchase.\n\nAt a premium price reflecting its multi-screen capability, this represents a heavier USB-C power draw scenario, ensure your laptop's USB-C port can supply adequate wattage for this configuration.",
-    specs: ["15.6-inch quad-configuration panel", "USB-C connectivity, driver may be required", "Large review base", "Premium price for multi-screen capability"],
-    pros: ["Large, well-established review base", "Multi-screen capability for demanding workspace needs", "Genuine USB-C connectivity", "Solid overall rating"],
-    cons: ["Highest price in this guide by a significant margin", "Driver requirement noted, verify OS compatibility before buying", "Higher power draw requires confirming your laptop's USB-C wattage output"],
+    description: "A large review base backing this USB-C-based design, worth noting this specific listing mentions driver requirements, verify your laptop's operating system supports whatever driver this configuration needs before purchase.\n\nOne spot below KEFEYA Laptop Screen Extender in this ranking, it costs more than KEFEYA Laptop Screen Extender. The compromise here is straightforward: Highest price in this guide by a significant margin. What you gain in return: Large, well-established review base. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Multi-screen capability for demanding workspace needs. On the other side, Higher power draw requires confirming your laptop's USB-C wattage output. That's the main tradeoff to weigh against everything above.",
+    specs: ["15.6-inch quad-configuration panel","USB-C connectivity, driver may be required","Large review base","Premium price for multi-screen capability"],
+    pros: ["Large, well-established review base","Multi-screen capability for demanding workspace needs","Genuine USB-C connectivity","Solid overall rating"],
+    cons: ["Highest price in this guide by a significant margin","Driver requirement noted, verify OS compatibility before buying","Higher power draw requires confirming your laptop's USB-C wattage output"],
     bestFor: "Buyers wanting maximum multi-screen USB-C capability, willing to verify driver requirements",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "13,000+ ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51T7K-COzIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B088D8JG3L?tag=deskfinds0d-20",
-    description:
-      "By far the largest review base of any pick in this guide, this USB-C-compatible design at a genuinely affordable price is appropriate for buyers whose laptop has a confirmed video-capable USB-C port.\n\nAs a single-connectivity design, verify your specific laptop's USB-C port supports both power and video simultaneously before relying on this connection type exclusively.",
-    specs: ["15.6-inch 1080P panel", "USB-C connectivity", "By far the largest review base in this guide", "Budget-friendly price"],
-    pros: ["By far the largest review base of any pick in this guide", "Lowest price among top picks", "Includes a protective cover", "Broad real-world USB-C compatibility evidence"],
-    cons: ["Single connectivity method, verify your laptop's USB-C port supports both power and video", "No HDMI fallback for laptops without DisplayPort Alt Mode support", "Verify power delivery against your specific laptop's USB-C wattage"],
+    description: "By far the largest review base of any pick in this guide, this USB-C-compatible design at a genuinely affordable price is appropriate for buyers whose laptop has a confirmed video-capable USB-C port.\n\nSitting just under KYY Laptop Screen Extender Driver Need, it's priced lower than KYY Laptop Screen Extender Driver Need. Here's the honest tradeoff: Single connectivity method, verify your laptop's USB-C port supports both power and video. And here's what it gets you instead: By far the largest review base of any pick in this guide. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Lowest price among top picks. On the other side, Verify power delivery against your specific laptop's USB-C wattage. That's the main tradeoff to weigh against everything above.",
+    specs: ["15.6-inch 1080P panel","USB-C connectivity","By far the largest review base in this guide","Budget-friendly price"],
+    pros: ["By far the largest review base of any pick in this guide","Lowest price among top picks","Includes a protective cover","Broad real-world USB-C compatibility evidence"],
+    cons: ["Single connectivity method, verify your laptop's USB-C port supports both power and video","No HDMI fallback for laptops without DisplayPort Alt Mode support","Verify power delivery against your specific laptop's USB-C wattage"],
     bestFor: "Budget-conscious buyers with confirmed video-capable USB-C ports",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "900+ ratings",
     imageUrl: "https://m.media-amazon.com/images/I/519MD6HSVML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G3X999FY?tag=deskfinds0d-20",
-    description:
-      "An explicitly disclosed 1.87-pound weight, a genuinely useful concrete USB-C-connected extender spec for buyers comparing true portability across products, appropriate for daily USB-C-based travel use.\n\nThis lighter panel likely draws less power over its USB-C connection than a larger 15.6-inch alternative, a real advantage if your specific laptop's USB-C port has more limited wattage output.",
-    specs: ["14.2-inch panel, disclosed 1.87 lbs weight", "USB-C connectivity", "Solid review base", "Fits 14-17.3 inch laptops"],
-    pros: ["Explicitly disclosed lightweight 1.87-pound spec", "Solid review base and rating", "Likely lower power draw than larger panel alternatives", "Fits a broad laptop size range"],
-    cons: ["Smaller review base than the top picks", "Single USB-C connectivity without an HDMI fallback", "Verify your laptop's USB-C port supports video output via DisplayPort Alt Mode"],
+    description: "An explicitly disclosed 1.87-pound weight, a genuinely useful concrete USB-C-connected extender spec for buyers comparing true portability across products, appropriate for daily USB-C-based travel use.\n\nRanked just behind KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover, it costs more than KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover. The real tradeoff against that pick: Smaller review base than the top picks. In exchange, it offers this instead: Explicitly disclosed lightweight 1.87-pound spec. That's the swap that decides whether this pick or the one above it is the better fit for your laptop.\n\nWorth knowing before you decide: Solid review base and rating. On the other side, Verify your laptop's USB-C port supports video output via DisplayPort Alt Mode. That's the main tradeoff to weigh against everything above.",
+    specs: ["14.2-inch panel, disclosed 1.87 lbs weight","USB-C connectivity","Solid review base","Fits 14-17.3 inch laptops"],
+    pros: ["Explicitly disclosed lightweight 1.87-pound spec","Solid review base and rating","Likely lower power draw than larger panel alternatives","Fits a broad laptop size range"],
+    cons: ["Smaller review base than the top picks","Single USB-C connectivity without an HDMI fallback","Verify your laptop's USB-C port supports video output via DisplayPort Alt Mode"],
     bestFor: "Buyers wanting a genuinely lightweight, disclosed-weight USB-C extender",
   },
   {
@@ -98,13 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "150+ ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41SZxhKteFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GK6VF7WH?tag=deskfinds0d-20",
-    description:
-      "A genuinely USB-C-based triple-screen design with disclosed 3.0-pound total weight, appropriate for buyers wanting maximum USB-C-connected workspace with a real weight spec to compare against.\n\nTwo extra panels over USB-C draw meaningfully more power than a single screen, confirm your laptop's USB-C port can supply sufficient wattage for this heavier configuration before buying.",
-    specs: ["14-inch panels, disclosed 3.0 lbs total weight", "USB-C plug and play", "Solid review base", "Triple-screen configuration"],
-    pros: ["Genuine USB-C-based triple-screen configuration", "Explicitly disclosed 3.0-pound total weight", "Solid review base and rating", "Fits a broad 13-17.3 inch laptop range"],
-    cons: ["Higher power draw over USB-C than single-screen alternatives", "Smaller review base than the top picks", "Verify your laptop's USB-C port supports this heavier power load"],
+    description: "A genuinely USB-C-based triple-screen design with disclosed 3.0-pound total weight, appropriate for buyers wanting maximum USB-C-connected workspace with a real weight spec to compare against.\n\nOne spot below Laptop Screen Extender 1.87lbs Ultra-Portable & Ultra Slim in this ranking, it costs more than Laptop Screen Extender 1.87lbs Ultra-Portable & Ultra Slim. The compromise here is straightforward: Higher power draw over USB-C than single-screen alternatives. What you gain in return: Genuine USB-C-based triple-screen configuration. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Explicitly disclosed 3.0-pound total weight. On the other side, Verify your laptop's USB-C port supports this heavier power load. That's the main tradeoff to weigh against everything above.",
+    specs: ["14-inch panels, disclosed 3.0 lbs total weight","USB-C plug and play","Solid review base","Triple-screen configuration"],
+    pros: ["Genuine USB-C-based triple-screen configuration","Explicitly disclosed 3.0-pound total weight","Solid review base and rating","Fits a broad 13-17.3 inch laptop range"],
+    cons: ["Higher power draw over USB-C than single-screen alternatives","Smaller review base than the top picks","Verify your laptop's USB-C port supports this heavier power load"],
     bestFor: "Buyers wanting a genuine USB-C triple-screen setup with disclosed weight",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,33 +113,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Your Laptop's USB-C Wattage Caps Real Screen Performance",
-    note: "A single USB-C cable carries both video signal and power in most designs, meaning your laptop's specific port wattage output caps the real screen brightness and performance the extender can achieve, not just the extender's own spec sheet. Check your laptop's USB-C power delivery rating before assuming any extender runs at full capability.",
-  },
-  {
-    subheading: "Confirm Your USB-C Port Supports Video Output",
-    note: "USB-C's DisplayPort Alt Mode capability, needed for video over USB-C, isn't universal across every USB-C port, worth confirming your laptop's specific USB-C port supports video output, not just charging, since some laptops have USB-C ports limited to power/data only.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Most-proven USB-C pick with HDMI fallback", "KEFEYA 14\" Dual Screen"],
-        ["Maximum multi-screen USB-C capability", "KYY Quad Portable Monitor"],
-        ["Most affordable USB-C compatible option", "KYY 15.6\" with Cover"],
-        ["Genuinely lightweight, disclosed-weight design", "1.87lbs Ultra-Portable Extender"],
-        ["Genuine USB-C triple-screen setup", "Vixtan 14\" Triple"],
+    "subheading": "By Size",
+    "table": {
+      "headers": [
+        "Your laptop size",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Compact 13-14 inch laptop",
+          "KEFEYA Laptop Screen Extender"
+        ],
+        [
+          "Larger 15.6+ inch laptop",
+          "KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $63",
+          "KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover"
+        ],
+        [
+          "Mid-range",
+          "KEFEYA Laptop Screen Extender"
+        ],
+        [
+          "No firm budget ceiling, prioritizing build or features",
+          "KYY Laptop Screen Extender Driver Need"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Clip-On/Magnetic Attachment vs Stand-Based",
+    "cards": [
+      {
+        "label": "Clip-On or Magnetic",
+        "text": "Attaches directly to the laptop lid for a compact, travel-friendly setup that moves with the laptop. In this comparison: Vixtan 14\" Triple Laptop Screen Extender."
+      },
+      {
+        "label": "Stand-Based",
+        "text": "Sits independently on the desk, keeping stress off the laptop's own lid hinge but adding desk footprint. In this comparison: none explicitly confirmed in this specific roundup, check the listing before assuming."
+      }
+    ],
+    "note": "Default to a clip-on or magnetic pick like Vixtan 14\" Triple Laptop Screen Extender if you travel with your laptop often, and consider a stand-based design if this is a permanent desk setup."
+  },
+  {
+    "subheading": "By Connection Type",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Flexible power and video routing",
+          "KEFEYA Laptop Screen Extender"
+        ],
+        [
+          "Simplest single-cable setup",
+          "KYY Laptop Screen Extender Driver Need"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Video Calls and Presentations Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A swivel or adjustable-angle mechanism specifically, so you can reposition the extended screen toward a camera or a colleague without moving the whole laptop."
+      },
+      {
+        "label": "In this comparison",
+        "text": "KEFEYA Laptop Screen Extender fits this specifically: Large, well-established review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what KYY Laptop Screen Extender Driver Need offers: Large, well-established review base. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover already covers the essentials: By far the largest review base of any pick in this guide. The main thing you'd be paying extra for elsewhere in this list is build quality or features you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Check your laptop's USB-C port wattage before buying a single-cable design", explanation: "Video and power share the same cable in most designs, your laptop's specific port wattage caps the real screen brightness and performance achievable." },
-  { criterion: "Confirm your USB-C port supports video output via DisplayPort Alt Mode", explanation: "Not every USB-C port supports video, some are limited to power/data only, verify this before buying a USB-C-only extender." },
-  { criterion: "Consider an HDMI fallback for laptops with uncertain USB-C video support", explanation: "This genuinely works around the DisplayPort Alt Mode uncertainty and the single-cable power ceiling concern." },
-  { criterion: "Multi-panel configurations need meaningfully more USB-C wattage", explanation: "Confirm your laptop's port can supply sufficient power for a triple or quad-screen setup before committing to that heavier configuration." },
+  {
+    "criterion": "Match the extender's screen size proportionally to your laptop, not just to the biggest option available",
+    "explanation": "A screen extender attaches directly alongside your laptop's own display, so its physical size needs to pair proportionally with your laptop's screen rather than simply being as large as possible, since an extender significantly larger or smaller than your laptop's own panel creates a visually unbalanced setup and can make the attachment hardware work harder to support the size difference.\n\nA 13 to 14 inch laptop pairs naturally with a similarly sized 14-inch extender, while a 15.6 or 16-inch laptop balances better with an extender in that same size range.\n\nCheck your own laptop's screen size first, then choose an extender sized to match it rather than assuming a bigger panel is automatically a better upgrade."
+  },
+  {
+    "criterion": "Understand that resolution and physical size together determine real sharpness, not either spec alone",
+    "explanation": "Two panels advertised at the same 1080P resolution will look noticeably different in sharpness if their physical sizes differ, because the same number of pixels spread across a smaller 14-inch panel produces a higher pixel density, and therefore a visibly crisper image, than the identical pixel count spread across a larger 15.6 or 17-inch panel.\n\nThis means a smaller extender is not automatically a downgrade in visual quality, and buyers chasing the largest available screen size at a fixed resolution should understand they're trading pixel density for physical workspace, a genuine tradeoff rather than a straightforward size-equals-better relationship.\n\nCompare both the stated resolution and the physical panel size together, and calculate or look up the resulting pixel density (pixels per inch) if sharpness matters more to you than raw screen real estate."
+  },
+  {
+    "criterion": "Confirm the connection type actually matches your laptop's available ports",
+    "explanation": "Screen extenders connect via USB-C (which can carry both video and power over a single cable on laptops that support USB-C DisplayPort alt mode), HDMI (video only, requiring a separate power cable to the extender), or both, and this isn't just a convenience detail, since a laptop without a USB-C port that supports video output simply cannot drive a USB-C-only extender regardless of how the cable physically connects.\n\nThis is a genuine, easy-to-miss compatibility trap: not every USB-C port on a laptop supports video output (some are power or data only), so having a USB-C port at all doesn't guarantee this specific use case will work.\n\nCheck your specific laptop model's documentation for confirmed USB-C DisplayPort alt mode support, or favor an extender with both USB-C and HDMI options to cover either connection path."
+  },
+  {
+    "criterion": "Check the attachment mechanism against how you'll actually use the extender day to day",
+    "explanation": "Extenders attach to a laptop through a few genuinely different mechanisms, magnetic mounts (quick to attach and remove but rely on magnet strength holding position), clip-on or clamp designs (a firmer physical grip on the laptop lid but slower to attach and remove), or a separate kickstand base (fully independent positioning but adds desk footprint and doesn't travel attached to the laptop).\n\nSomeone who frequently packs up and travels with their setup benefits from a fast magnetic or clip attachment, while someone with a permanent desk setup may prefer a stand-based design that doesn't touch or stress the laptop's own lid hinge at all.\n\nMatch the attachment mechanism to your actual daily routine (frequent travel and reassembly versus a fixed desk setup) rather than defaulting to whichever style looks most premium in photos."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, since panel size categories vary widely in review depth",
+    "explanation": "Common laptop screen sizes like 15.6 inches generally have a much larger pool of dedicated extenders and far more accumulated reviews than less common sizes like 17-inch or specialty categories like touchscreen or 4K extenders, which means a high star rating on a niche-size listing often rests on a meaningfully smaller review sample than the same rating on a mainstream-size product.\n\nThis matters because a thin review base, even a positive one, gives less confidence about long-term reliability (hinge durability, cable connector wear, panel defect rates) than a rating built on thousands of purchases across diverse use cases.\n\nWhen comparing extenders, especially at a less common size or in a specialty category, check both the star rating and the review count together rather than trusting the rating figure alone."
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "800+ ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51k2TKAKpxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVWQ6KZS?tag=deskfinds0d-20",
-    description:
-      "Explicit Mac compatibility marketing with a fit range covering 13-17 inch laptops, appropriate across MacBook Air and MacBook Pro sizes, dual USB-C/HDMI connectivity avoids driver-dependency concerns entirely.\n\nSince this covers the broad 13-17 inch range, verify the specific clip mechanism accommodates your exact MacBook generation's lid thickness before assuming universal fit across the whole lineup.",
-    specs: ["14-inch FHD IPS panel", "USB-C and HDMI ports", "Explicit Mac compatibility", "Fits 13-17 inch laptops"],
-    pros: ["Explicit Mac compatibility marketing and driver-free design", "Fits a broad 13-17 inch laptop range across MacBook Air and Pro", "Dual USB-C and HDMI connectivity", "Solid review base"],
-    cons: ["Verify clip fit against your exact MacBook generation's lid thickness", "Smaller review base than the general non-Mac-specific listing", "14-inch size may feel small next to a 16-inch MacBook Pro"],
+    description: "Explicit Mac compatibility marketing with a fit range covering 13-17 inch laptops, appropriate across MacBook Air and MacBook Pro sizes, dual USB-C/HDMI connectivity avoids driver-dependency concerns entirely.\n\nIt earns the top spot in this comparison over KEFEYA Laptop Screen Extender for one main reason. Explicit Mac compatibility marketing and driver-free design. On price, it comes in below KEFEYA Laptop Screen Extender, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Fits a broad 13-17 inch laptop range across MacBook Air and Pro. On the other side, 14-inch size may feel small next to a 16-inch MacBook Pro. That's the main tradeoff to weigh against everything above.",
+    specs: ["14-inch FHD IPS panel","USB-C and HDMI ports","Explicit Mac compatibility","Fits 13-17 inch laptops"],
+    pros: ["Explicit Mac compatibility marketing and driver-free design","Fits a broad 13-17 inch laptop range across MacBook Air and Pro","Dual USB-C and HDMI connectivity","Solid review base"],
+    cons: ["Verify clip fit against your exact MacBook generation's lid thickness","Smaller review base than the general non-Mac-specific listing","14-inch size may feel small next to a 16-inch MacBook Pro"],
     bestFor: "Buyers wanting explicit, driver-free Mac compatibility across the MacBook lineup",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "4,800+ ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51gIeQBXonL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFKLK9JY?tag=deskfinds0d-20",
-    description:
-      "A large review base with Mac listed among the supported platforms, this by-far-most-reviewed pick in the guide brings genuine real-world evidence of compatibility across many different laptop models including various MacBooks.\n\nDual connectivity again matters here, this design avoids depending on any single port's power delivery capability that might vary between MacBook Air and MacBook Pro generations.",
-    specs: ["14-inch FHD IPS panel", "USB-C and HDMI ports", "Large review base", "Mac listed among supported platforms"],
-    pros: ["Large, well-established review base with genuine cross-model evidence", "Dual USB-C and HDMI connectivity", "Fits a broad 13-17 inch laptop range", "Genuine plug-and-play reliability"],
-    cons: ["Not exclusively marketed for Mac like the explicit-compatibility listing", "Verify clip fit against your specific MacBook generation", "14-inch size may feel small next to larger MacBook Pro screens"],
+    description: "A large review base with Mac listed among the supported platforms, this by-far-most-reviewed pick in the guide brings genuine real-world evidence of compatibility across many different laptop models including various MacBooks.\n\nOne spot below KEFEYA Laptop Screen Extender 14\" in this ranking, it costs more than KEFEYA Laptop Screen Extender 14\". The compromise here is straightforward: Not exclusively marketed for Mac like the explicit-compatibility listing. What you gain in return: Large, well-established review base with genuine cross-model evidence. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Dual USB-C and HDMI connectivity. On the other side, 14-inch size may feel small next to larger MacBook Pro screens. That's the main tradeoff to weigh against everything above.",
+    specs: ["14-inch FHD IPS panel","USB-C and HDMI ports","Large review base","Mac listed among supported platforms"],
+    pros: ["Large, well-established review base with genuine cross-model evidence","Dual USB-C and HDMI connectivity","Fits a broad 13-17 inch laptop range","Genuine plug-and-play reliability"],
+    cons: ["Not exclusively marketed for Mac like the explicit-compatibility listing","Verify clip fit against your specific MacBook generation","14-inch size may feel small next to larger MacBook Pro screens"],
     bestFor: "Buyers wanting the most-proven pick with the largest real-world evidence base",
   },
   {
@@ -64,28 +62,26 @@ export const products: GuideProduct[] = [
     reviews: "400+ ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51Feag3IGpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BHKY6JCC?tag=deskfinds0d-20",
-    description:
-      "A patented swivel attachment mechanism with explicit Mac compatibility, appropriate for buyers wanting a premium, precision-engineered clip specifically designed to accommodate varied laptop lid geometries across the MacBook range.\n\nThe swivel hinge genuinely helps with adjusting screen angle across MacBook models with different lid thickness and camera housing designs.",
-    specs: ["14-inch swivel attachment", "USB-C or Mini HDMI powered", "Explicit Mac compatibility", "Patented swivel mechanism"],
-    pros: ["Patented swivel mechanism accommodates varied MacBook lid geometries", "Explicit Mac compatibility marketing", "USB-C or Mini HDMI power flexibility", "Premium build quality"],
-    cons: ["Highest price in this guide by a significant margin", "Lower average rating than the top picks", "Verify current fit against your specific MacBook generation"],
+    description: "A patented swivel attachment mechanism with explicit Mac compatibility, appropriate for buyers wanting a premium, precision-engineered clip specifically designed to accommodate varied laptop lid geometries across the MacBook range.\n\nSitting just under KEFEYA Laptop Screen Extender, it costs more than KEFEYA Laptop Screen Extender. Here's the honest tradeoff: Highest price in this guide by a significant margin. And here's what it gets you instead: Patented swivel mechanism accommodates varied MacBook lid geometries. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Explicit Mac compatibility marketing. On the other side, Verify current fit against your specific MacBook generation. That's the main tradeoff to weigh against everything above.",
+    specs: ["14-inch swivel attachment","USB-C or Mini HDMI powered","Explicit Mac compatibility","Patented swivel mechanism"],
+    pros: ["Patented swivel mechanism accommodates varied MacBook lid geometries","Explicit Mac compatibility marketing","USB-C or Mini HDMI power flexibility","Premium build quality"],
+    cons: ["Highest price in this guide by a significant margin","Lower average rating than the top picks","Verify current fit against your specific MacBook generation"],
     bestFor: "Buyers wanting a premium swivel attachment designed for varied MacBook lid geometries",
   },
   {
     id: "vueforge-mac-general",
     rank: 4,
     badge: "Best Two-Cable Pick for MacBooks",
-    name: "VueForge Laptop Screen Extender, 15.6” Ultra-Slim Triple Portable Monitor for Laptop, Two Cable USB-C/HDMI Plug-Play, Travel Dual Monitor for 13–17.3\" Laptops, MacOS/Windows/Android",
+    name: "VueForge Laptop Screen Extender, 15.6” Ultra-Slim Triple Portable Monitor for Laptop, Two Cable USB-C/HDMI Plug-Play, Travel Dual Monitor for 13-17.3\" Laptops, MacOS/Windows/Android",
     price: "$179.99",
     rating: "4.8 stars from 80+ Amazon ratings",
     reviews: "80+ ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41TADlz3duL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GSZGP489?tag=deskfinds0d-20",
-    description:
-      "Explicit macOS compatibility stated directly in the product name, the highest average rating in this guide, appropriate across the broad 13-17.3 inch range covering most MacBook Air and Pro sizes.\n\nThe two-cable design splits power and video load, a real advantage for buyers with an older MacBook Air whose USB-C port may have more limited power delivery than a newer MacBook Pro.",
-    specs: ["15.6-inch, two-cable USB-C/HDMI", "Explicit macOS compatibility", "Highest rating in this guide", "Fits 13-17.3 inch laptops"],
-    pros: ["Highest average rating in this entire guide", "Explicit macOS compatibility stated directly", "Two-cable design splits power/video load across MacBook generations", "Broad 13-17.3 inch size compatibility"],
-    cons: ["Smaller review base, weigh the high rating with some caution", "Product naming mixes 'triple' and 'dual monitor' language, verify configuration", "Higher price than the budget-tier KEFEYA options"],
+    description: "Explicit macOS compatibility stated directly in the product name, the highest average rating in this guide, appropriate across the broad 13-17.3 inch range covering most MacBook Air and Pro sizes.\n\nRanked just behind SideTrak Swivel 14\" Patented Attachable Portable Monitor for Laptop, it's priced lower than SideTrak Swivel 14\" Patented Attachable Portable Monitor for Laptop. The real tradeoff against that pick: Smaller review base, weigh the high rating with some caution. In exchange, it offers this instead: Highest average rating in this entire guide. That's the swap that decides whether this pick or the one above it is the better fit for your laptop.\n\nWorth knowing before you decide: Explicit macOS compatibility stated directly. On the other side, Higher price than the budget-tier KEFEYA options. That's the main tradeoff to weigh against everything above.",
+    specs: ["15.6-inch, two-cable USB-C/HDMI","Explicit macOS compatibility","Highest rating in this guide","Fits 13-17.3 inch laptops"],
+    pros: ["Highest average rating in this entire guide","Explicit macOS compatibility stated directly","Two-cable design splits power/video load across MacBook generations","Broad 13-17.3 inch size compatibility"],
+    cons: ["Smaller review base, weigh the high rating with some caution","Product naming mixes 'triple' and 'dual monitor' language, verify configuration","Higher price than the budget-tier KEFEYA options"],
     bestFor: "Buyers wanting explicit macOS compatibility and the highest overall rating",
   },
   {
@@ -98,13 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "300+ ratings",
     imageUrl: "https://m.media-amazon.com/images/I/414dkL7KxQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DFZVD25G?tag=deskfinds0d-20",
-    description:
-      "The larger 15.6-inch sibling of the SideTrak swivel design, appropriate for buyers with a 16-inch MacBook Pro wanting a proportionally sized attached screen rather than a smaller 14-inch panel.\n\nThe same patented swivel mechanism and explicit Mac compatibility apply here across various MacBook generations, verify current clip fit specifically against your model year.",
-    specs: ["15.6-inch swivel attachment", "USB-C powered", "Explicit Mac compatibility", "Patented swivel mechanism"],
-    pros: ["Larger 15.6-inch size proportional to bigger 16-inch MacBooks", "Patented swivel mechanism accommodates varied lid geometries", "Explicit Mac compatibility marketing", "Premium build quality"],
-    cons: ["Highest price in this guide", "Lower average rating than the top picks", "Verify current clip fit against your specific MacBook generation"],
+    description: "The larger 15.6-inch sibling of the SideTrak swivel design, appropriate for buyers with a 16-inch MacBook Pro wanting a proportionally sized attached screen rather than a smaller 14-inch panel.\n\nOne spot below VueForge Laptop Screen Extender in this ranking, it costs more than VueForge Laptop Screen Extender. The compromise here is straightforward: Highest price in this guide. What you gain in return: Larger 15.6-inch size proportional to bigger 16-inch MacBooks. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Patented swivel mechanism accommodates varied lid geometries. On the other side, Verify current clip fit against your specific MacBook generation. That's the main tradeoff to weigh against everything above.",
+    specs: ["15.6-inch swivel attachment","USB-C powered","Explicit Mac compatibility","Patented swivel mechanism"],
+    pros: ["Larger 15.6-inch size proportional to bigger 16-inch MacBooks","Patented swivel mechanism accommodates varied lid geometries","Explicit Mac compatibility marketing","Premium build quality"],
+    cons: ["Highest price in this guide","Lower average rating than the top picks","Verify current clip fit against your specific MacBook generation"],
     bestFor: "16-inch MacBook owners wanting a proportionally sized swivel-attached screen",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,33 +113,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Verify Fit Against Your Specific MacBook Generation",
-    note: "This broad 'MacBook' framing spans MacBook Air and MacBook Pro across many generations with genuinely different lid thickness and port placement, worth verifying fit against your specific model year rather than assuming universal MacBook compatibility. Check current reviews specifically mentioning your exact model before ordering a clip-based design.",
-  },
-  {
-    subheading: "Confirm Genuine Driver-Free macOS Compatibility",
-    note: "macOS-native plug-and-play compatibility, no driver install required, is the most important spec for any Mac buyer, worth confirming explicitly rather than assuming a product's general 'cross-platform' claim covers macOS specifically and completely.",
-  },
-  {
-    subheading: "Match Your MacBook Model to a Specific Pick",
-    table: {
-      headers: ["Your MacBook", "Recommended pick"],
-      rows: [
-        ["14-inch MacBook, explicit driver-free compatibility", "KEFEYA 14\" (Mac/Windows variant)"],
-        ["Any MacBook, most-proven pick", "KEFEYA 14\" Dual Screen (general listing)"],
-        ["Any MacBook, premium precision swivel", "SideTrak Swivel 14\""],
-        ["Older MacBook Air with limited USB-C power", "VueForge 15.6\" (two-cable design)"],
-        ["16-inch MacBook Pro", "SideTrak Swivel 15.6\""],
+    "subheading": "By Size",
+    "table": {
+      "headers": [
+        "Your laptop size",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Compact 13-14 inch laptop",
+          "KEFEYA Laptop Screen Extender 14\""
+        ],
+        [
+          "Larger 15.6+ inch laptop",
+          "VueForge Laptop Screen Extender"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $86",
+          "KEFEYA Laptop Screen Extender 14\""
+        ],
+        [
+          "Mid-range",
+          "VueForge Laptop Screen Extender"
+        ],
+        [
+          "No firm budget ceiling, prioritizing build or features",
+          "SideTrak Swivel 15.6\" Attachable Portable Monitor for Laptop"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Clip-On/Magnetic Attachment vs Stand-Based",
+    "cards": [
+      {
+        "label": "Clip-On or Magnetic",
+        "text": "Attaches directly to the laptop lid for a compact, travel-friendly setup that moves with the laptop. In this comparison: SideTrak Swivel 14\" Patented Attachable Portable Monitor for Laptop, SideTrak Swivel 15.6\" Attachable Portable Monitor for Laptop."
+      },
+      {
+        "label": "Stand-Based",
+        "text": "Sits independently on the desk, keeping stress off the laptop's own lid hinge but adding desk footprint. In this comparison: none explicitly confirmed in this specific roundup, check the listing before assuming."
+      }
+    ],
+    "note": "Default to a clip-on or magnetic pick like SideTrak Swivel 14\" Patented Attachable Portable Monitor for Laptop if you travel with your laptop often, and consider a stand-based design if this is a permanent desk setup."
+  },
+  {
+    "subheading": "By Connection Type",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Flexible power and video routing",
+          "KEFEYA Laptop Screen Extender 14\""
+        ],
+        [
+          "Simplest single-cable setup",
+          "SideTrak Swivel 15.6\" Attachable Portable Monitor for Laptop"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Video Calls and Presentations Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A swivel or adjustable-angle mechanism specifically, so you can reposition the extended screen toward a camera or a colleague without moving the whole laptop."
+      },
+      {
+        "label": "In this comparison",
+        "text": "SideTrak Swivel 14\" Patented Attachable Portable Monitor for Laptop fits this specifically: Patented swivel mechanism accommodates varied MacBook lid geometries."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what SideTrak Swivel 15.6\" Attachable Portable Monitor for Laptop offers: Larger 15.6-inch size proportional to bigger 16-inch MacBooks. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "KEFEYA Laptop Screen Extender 14\" already covers the essentials: Explicit Mac compatibility marketing and driver-free design. The main thing you'd be paying extra for elsewhere in this list is build quality or features you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify fit against your specific MacBook generation, not 'MacBook' generally", explanation: "Lid thickness and port placement vary meaningfully across MacBook Air and MacBook Pro generations, check current reviews for your exact model." },
-  { criterion: "Confirm genuine driver-free macOS plug-and-play compatibility", explanation: "This is the most important spec for Mac buyers, verify explicitly rather than assuming a general 'cross-platform' claim covers macOS completely." },
-  { criterion: "Consider dual connectivity for older MacBooks with more limited USB-C power", explanation: "Power delivery capability varies between MacBook Air and MacBook Pro generations, dual USB-C/HDMI connectivity gives flexibility to route power separately." },
-  { criterion: "Prioritize explicit Mac/macOS marketing as a genuine compatibility signal", explanation: "Products explicitly stating Mac or macOS compatibility have generally been tested for this platform specifically, a stronger signal than generic cross-platform claims." },
+  {
+    "criterion": "Match the extender's screen size proportionally to your laptop, not just to the biggest option available",
+    "explanation": "A screen extender attaches directly alongside your laptop's own display, so its physical size needs to pair proportionally with your laptop's screen rather than simply being as large as possible, since an extender significantly larger or smaller than your laptop's own panel creates a visually unbalanced setup and can make the attachment hardware work harder to support the size difference.\n\nA 13 to 14 inch laptop pairs naturally with a similarly sized 14-inch extender, while a 15.6 or 16-inch laptop balances better with an extender in that same size range.\n\nCheck your own laptop's screen size first, then choose an extender sized to match it rather than assuming a bigger panel is automatically a better upgrade."
+  },
+  {
+    "criterion": "Understand that resolution and physical size together determine real sharpness, not either spec alone",
+    "explanation": "Two panels advertised at the same 1080P resolution will look noticeably different in sharpness if their physical sizes differ, because the same number of pixels spread across a smaller 14-inch panel produces a higher pixel density, and therefore a visibly crisper image, than the identical pixel count spread across a larger 15.6 or 17-inch panel.\n\nThis means a smaller extender is not automatically a downgrade in visual quality, and buyers chasing the largest available screen size at a fixed resolution should understand they're trading pixel density for physical workspace, a genuine tradeoff rather than a straightforward size-equals-better relationship.\n\nCompare both the stated resolution and the physical panel size together, and calculate or look up the resulting pixel density (pixels per inch) if sharpness matters more to you than raw screen real estate."
+  },
+  {
+    "criterion": "Confirm the connection type actually matches your laptop's available ports",
+    "explanation": "Screen extenders connect via USB-C (which can carry both video and power over a single cable on laptops that support USB-C DisplayPort alt mode), HDMI (video only, requiring a separate power cable to the extender), or both, and this isn't just a convenience detail, since a laptop without a USB-C port that supports video output simply cannot drive a USB-C-only extender regardless of how the cable physically connects.\n\nThis is a genuine, easy-to-miss compatibility trap: not every USB-C port on a laptop supports video output (some are power or data only), so having a USB-C port at all doesn't guarantee this specific use case will work.\n\nCheck your specific laptop model's documentation for confirmed USB-C DisplayPort alt mode support, or favor an extender with both USB-C and HDMI options to cover either connection path."
+  },
+  {
+    "criterion": "Check the attachment mechanism against how you'll actually use the extender day to day",
+    "explanation": "Extenders attach to a laptop through a few genuinely different mechanisms, magnetic mounts (quick to attach and remove but rely on magnet strength holding position), clip-on or clamp designs (a firmer physical grip on the laptop lid but slower to attach and remove), or a separate kickstand base (fully independent positioning but adds desk footprint and doesn't travel attached to the laptop).\n\nSomeone who frequently packs up and travels with their setup benefits from a fast magnetic or clip attachment, while someone with a permanent desk setup may prefer a stand-based design that doesn't touch or stress the laptop's own lid hinge at all.\n\nMatch the attachment mechanism to your actual daily routine (frequent travel and reassembly versus a fixed desk setup) rather than defaulting to whichever style looks most premium in photos."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, since panel size categories vary widely in review depth",
+    "explanation": "Common laptop screen sizes like 15.6 inches generally have a much larger pool of dedicated extenders and far more accumulated reviews than less common sizes like 17-inch or specialty categories like touchscreen or 4K extenders, which means a high star rating on a niche-size listing often rests on a meaningfully smaller review sample than the same rating on a mainstream-size product.\n\nThis matters because a thin review base, even a positive one, gives less confidence about long-term reliability (hinge durability, cable connector wear, panel defect rates) than a rating built on thousands of purchases across diverse use cases.\n\nWhen comparing extenders, especially at a less common size or in a specialty category, check both the star rating and the review count together rather than trusting the rating figure alone."
+  }
 ];
 
 export const faq: FaqItem[] = [

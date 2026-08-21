@@ -30,11 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "13,000+ ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51T7K-COzIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B088D8JG3L?tag=deskfinds0d-20",
-    description:
-      "By far the largest review base of any pick in this guide, this proven track record specifically matters for work reliability, a screen you'll depend on daily needs the kind of long-term real-world evidence this review volume provides.\n\nThe 15.6-inch size gives genuine extra screen real estate for spreadsheets, documents, or chat windows during a workday without the bulk of a triple-screen setup.",
-    specs: ["15.6-inch 1080P panel", "Includes protective cover", "By far the largest review base in this guide", "Budget-friendly price"],
-    pros: ["By far the largest review base of any pick in this guide, strong daily-reliability evidence", "Lowest price among top picks, easy to justify for work use", "15.6-inch size gives genuine extra workspace", "Includes a protective cover"],
-    cons: ["Single connectivity method versus dual USB-C/HDMI designs", "Verify long-session stand stability through actual multi-hour use", "No explicit video-call/webcam-interaction testing disclosed"],
+    description: "By far the largest review base of any pick in this guide, this proven track record specifically matters for work reliability, a screen you'll depend on daily needs the kind of long-term real-world evidence this review volume provides.\n\nIt earns the top spot in this comparison over KEFEYA Laptop Screen Extender for one main reason. By far the largest review base of any pick in this guide, strong daily-reliability evidence. On price, it comes in below KEFEYA Laptop Screen Extender, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Lowest price among top picks, easy to justify for work use. On the other side, No explicit video-call/webcam-interaction testing disclosed. That's the main tradeoff to weigh against everything above.",
+    specs: ["15.6-inch 1080P panel","Includes protective cover","By far the largest review base in this guide","Budget-friendly price"],
+    pros: ["By far the largest review base of any pick in this guide, strong daily-reliability evidence","Lowest price among top picks, easy to justify for work use","15.6-inch size gives genuine extra workspace","Includes a protective cover"],
+    cons: ["Single connectivity method versus dual USB-C/HDMI designs","Verify long-session stand stability through actual multi-hour use","No explicit video-call/webcam-interaction testing disclosed"],
     bestFor: "Buyers wanting the most-proven, daily-reliable extender for work",
   },
   {
@@ -47,11 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "4,800+ ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51gIeQBXonL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFKLK9JY?tag=deskfinds0d-20",
-    description:
-      "A large review base with dual USB-C and HDMI connectivity, a genuine advantage for work reliability since it avoids relying on a single cable to carry both power and video during an important video call or presentation.\n\nGiving yourself the flexibility to route power separately from video reduces the risk of a bandwidth conflict affecting webcam quality during a call, a real work-specific consideration.",
-    specs: ["14-inch FHD IPS panel", "USB-C and HDMI ports", "Large review base", "Fits 13-17 inch laptops"],
-    pros: ["Large, well-established review base", "Dual USB-C and HDMI connectivity reduces bandwidth-conflict risk during calls", "Fits a broad range of work laptop sizes", "Genuine plug-and-play reliability"],
-    cons: ["14-inch size gives less workspace than the 15.6-inch alternative", "Higher price than the budget top pick", "Verify power draw against your specific work laptop's output"],
+    description: "A large review base with dual USB-C and HDMI connectivity, a genuine advantage for work reliability since it avoids relying on a single cable to carry both power and video during an important video call or presentation.\n\nOne spot below KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover in this ranking, it costs more than KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover. The compromise here is straightforward: 14-inch size gives less workspace than the 15.6-inch alternative. What you gain in return: Large, well-established review base. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Dual USB-C and HDMI connectivity reduces bandwidth-conflict risk during calls. On the other side, Verify power draw against your specific work laptop's output. That's the main tradeoff to weigh against everything above.",
+    specs: ["14-inch FHD IPS panel","USB-C and HDMI ports","Large review base","Fits 13-17 inch laptops"],
+    pros: ["Large, well-established review base","Dual USB-C and HDMI connectivity reduces bandwidth-conflict risk during calls","Fits a broad range of work laptop sizes","Genuine plug-and-play reliability"],
+    cons: ["14-inch size gives less workspace than the 15.6-inch alternative","Higher price than the budget top pick","Verify power draw against your specific work laptop's output"],
     bestFor: "Buyers wanting dual connectivity to reduce video-call bandwidth conflicts",
   },
   {
@@ -64,11 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "3,200+ ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41fk87-k9oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07V465K93?tag=deskfinds0d-20",
-    description:
-      "A solid review base from a brand specifically built around this attachable, work-oriented extender category, appropriate for buyers wanting a proven company track record specifically in professional desk-attached use.\n\nUSB-A compatibility alongside USB-C is a genuine bonus for buyers with older company-issued work laptops still relying on USB-A ports.",
-    specs: ["13.3-inch panel", "USB-C and USB-A compatible", "Solid review base", "Category-focused work-oriented brand"],
-    pros: ["Solid review base from a category-focused brand", "USB-A compatibility for older company laptops", "Established attachment mechanism for daily desk use", "Genuine plug-and-play reliability"],
-    cons: ["Higher price than the budget-focused top pick", "Smaller 13.3-inch screen may limit multitasking workspace", "USB-A connection supplies less power than USB-C"],
+    description: "A solid review base from a brand specifically built around this attachable, work-oriented extender category, appropriate for buyers wanting a proven company track record specifically in professional desk-attached use.\n\nSitting just under KEFEYA Laptop Screen Extender, it costs more than KEFEYA Laptop Screen Extender. Here's the honest tradeoff: Higher price than the budget-focused top pick. And here's what it gets you instead: Solid review base from a category-focused brand. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: USB-A compatibility for older company laptops. On the other side, USB-A connection supplies less power than USB-C. That's the main tradeoff to weigh against everything above.",
+    specs: ["13.3-inch panel","USB-C and USB-A compatible","Solid review base","Category-focused work-oriented brand"],
+    pros: ["Solid review base from a category-focused brand","USB-A compatibility for older company laptops","Established attachment mechanism for daily desk use","Genuine plug-and-play reliability"],
+    cons: ["Higher price than the budget-focused top pick","Smaller 13.3-inch screen may limit multitasking workspace","USB-A connection supplies less power than USB-C"],
     bestFor: "Buyers with older company-issued USB-A laptops wanting an established brand",
   },
   {
@@ -81,11 +78,10 @@ export const products: GuideProduct[] = [
     reviews: "300+ ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51CxCTdyRJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FBLP5K9G?tag=deskfinds0d-20",
-    description:
-      "The highest average rating among triple-screen picks, appropriate for a demanding work role genuinely needing maximum simultaneous screen real estate for spreadsheets, references, and communication tools open at once.\n\n235-degree rotation on each panel is a genuine long-session stability signal, this hinge engineering matters more for a screen you'll adjust and use for hours every workday.",
-    specs: ["15.6-inch, adds two panels for triple setup", "235-degree rotation per panel", "120% sRGB", "Highest rating among triple-config picks"],
-    pros: ["Highest average rating among triple-screen extenders", "235-degree rotation signals genuine long-session hinge durability", "Maximum simultaneous workspace for demanding multitasking roles", "120% sRGB color accuracy"],
-    cons: ["Highest price in this guide", "Two-panel power draw meaningfully higher than single-screen alternatives", "Verify work laptop's USB-C power delivery supports this heavier load"],
+    description: "The highest average rating among triple-screen picks, appropriate for a demanding work role genuinely needing maximum simultaneous screen real estate for spreadsheets, references, and communication tools open at once.\n\nRanked just behind Mobile Pixels Duex Plus Portable Monitor for Laptops, it costs more than Mobile Pixels Duex Plus Portable Monitor for Laptops. The real tradeoff against that pick: Highest price in this guide. In exchange, it offers this instead: Highest average rating among triple-screen extenders. That's the swap that decides whether this pick or the one above it is the better fit for your laptop.\n\nWorth knowing before you decide: 235-degree rotation signals genuine long-session hinge durability. On the other side, Verify work laptop's USB-C power delivery supports this heavier load. That's the main tradeoff to weigh against everything above.",
+    specs: ["15.6-inch, adds two panels for triple setup","235-degree rotation per panel","120% sRGB","Highest rating among triple-config picks"],
+    pros: ["Highest average rating among triple-screen extenders","235-degree rotation signals genuine long-session hinge durability","Maximum simultaneous workspace for demanding multitasking roles","120% sRGB color accuracy"],
+    cons: ["Highest price in this guide","Two-panel power draw meaningfully higher than single-screen alternatives","Verify work laptop's USB-C power delivery supports this heavier load"],
     bestFor: "Demanding multitasking roles needing maximum simultaneous work screen space",
   },
   {
@@ -98,13 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "2,100+ ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51qgAD7WZSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CH9XW8RK?tag=deskfinds0d-20",
-    description:
-      "An integrated kickstand gives genuine positioning flexibility across a workday, letting you adjust the screen angle for video calls versus focused document work without needing a separate stand accessory.\n\nDual USB-C and HDMI connectivity again reduces the risk of a single-cable bandwidth conflict affecting webcam performance during work calls.",
-    specs: ["15.6-inch ultra-slim IPS panel", "Integrated kickstand", "USB-C and HDMI connectivity", "Solid review base"],
-    pros: ["Integrated kickstand for flexible workday positioning", "Dual USB-C and HDMI connectivity reduces call-bandwidth conflicts", "Ultra-slim design for a clean desk setup", "Reasonable price for the feature set"],
-    cons: ["Smaller review base than the top two picks", "Kickstand-based use is less desk-attached than clip-on alternatives", "Verify kickstand stability under a full workday of adjustment"],
+    description: "An integrated kickstand gives genuine positioning flexibility across a workday, letting you adjust the screen angle for video calls versus focused document work without needing a separate stand accessory.\n\nOne spot below KEFEYA Laptop Screen Extender 15.6\" in this ranking, it's priced lower than KEFEYA Laptop Screen Extender 15.6\". The compromise here is straightforward: Smaller review base than the top two picks. What you gain in return: Integrated kickstand for flexible workday positioning. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Dual USB-C and HDMI connectivity reduces call-bandwidth conflicts. On the other side, Verify kickstand stability under a full workday of adjustment. That's the main tradeoff to weigh against everything above.",
+    specs: ["15.6-inch ultra-slim IPS panel","Integrated kickstand","USB-C and HDMI connectivity","Solid review base"],
+    pros: ["Integrated kickstand for flexible workday positioning","Dual USB-C and HDMI connectivity reduces call-bandwidth conflicts","Ultra-slim design for a clean desk setup","Reasonable price for the feature set"],
+    cons: ["Smaller review base than the top two picks","Kickstand-based use is less desk-attached than clip-on alternatives","Verify kickstand stability under a full workday of adjustment"],
     bestFor: "Buyers wanting flexible standalone positioning for varied work tasks",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,33 +113,129 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Consider the Impact on Video Calls and Webcam Quality",
-    note: "A screen extender adds real GPU and USB-bandwidth load to your laptop, worth understanding this can affect webcam quality or video-call stability during a workday. A single-cable design carrying both power and video alongside your webcam's own USB bandwidth demand is more likely to strain during a call than a dual-connectivity design splitting these loads.",
-  },
-  {
-    subheading: "Prioritize Genuine Long-Session Stability",
-    note: "All-day work use means the extender's stand or attachment angle needs to hold steady through hours of typing and adjustment, not just look stable in a quick unboxing photo. Look for explicit hinge rotation specs (like 235 degrees) as a positive signal of engineering built for repeated daily adjustment.",
-  },
-  {
-    subheading: "Match Screen Real Estate to Your Actual Work Multitasking Needs",
-    table: {
-      headers: ["Your work need", "Recommended pick"],
-      rows: [
-        ["Most-proven daily-reliable extender", "KYY 15.6\" with Cover"],
-        ["Reduced video-call bandwidth conflict risk", "KEFEYA 14\" Dual Screen"],
-        ["Established brand, older company laptop", "Mobile Pixels Duex Plus"],
-        ["Maximum multitasking workspace", "KEFEYA 15.6\" Triple Monitor"],
-        ["Flexible positioning across varied work tasks", "ARZOPA 15.6\" A1 with Kickstand"],
+    "subheading": "By Size",
+    "table": {
+      "headers": [
+        "Your laptop size",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Compact 13-14 inch laptop",
+          "Mobile Pixels Duex Plus Portable Monitor for Laptops"
+        ],
+        [
+          "Larger 15.6+ inch laptop",
+          "KEFEYA Laptop Screen Extender 15.6\""
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $63",
+          "KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover"
+        ],
+        [
+          "Mid-range",
+          "KEFEYA Laptop Screen Extender"
+        ],
+        [
+          "No firm budget ceiling, prioritizing build or features",
+          "KEFEYA Laptop Screen Extender 15.6\""
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Clip-On/Magnetic Attachment vs Stand-Based",
+    "cards": [
+      {
+        "label": "Clip-On or Magnetic",
+        "text": "Attaches directly to the laptop lid for a compact, travel-friendly setup that moves with the laptop. In this comparison: check each listing's attachment mechanism directly."
+      },
+      {
+        "label": "Stand-Based",
+        "text": "Sits independently on the desk, keeping stress off the laptop's own lid hinge but adding desk footprint. In this comparison: ARZOPA Portable Monitor 15.6'' FHD 1080P."
+      }
+    ],
+    "note": "Default to a clip-on or magnetic pick like KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover if you travel with your laptop often, and consider a stand-based design if this is a permanent desk setup."
+  },
+  {
+    "subheading": "By Connection Type",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Flexible power and video routing",
+          "KEFEYA Laptop Screen Extender"
+        ],
+        [
+          "Simplest single-cable setup",
+          "Mobile Pixels Duex Plus Portable Monitor for Laptops"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Video Calls and Presentations Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A swivel or adjustable-angle mechanism specifically, so you can reposition the extended screen toward a camera or a colleague without moving the whole laptop."
+      },
+      {
+        "label": "In this comparison",
+        "text": "KEFEYA Laptop Screen Extender 15.6\" fits this specifically: Highest average rating among triple-screen extenders."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what KEFEYA Laptop Screen Extender 15.6\" offers: Highest average rating among triple-screen extenders. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "KYY Portable Monitor 15.6\" 1080P Computer Monitor Screen Extender w/Cover already covers the essentials: By far the largest review base of any pick in this guide, strong daily-reliability evidence. The main thing you'd be paying extra for elsewhere in this list is build quality or features you may not need."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Consider the extender's impact on video calls and webcam quality", explanation: "A single-cable design carrying both power and video alongside webcam USB bandwidth demand is more likely to strain during a call than a dual-connectivity design." },
-  { criterion: "Prioritize genuine long-session stand and hinge stability", explanation: "All-day work use means the extender needs to hold steady through hours of adjustment, not just look stable in initial unboxing photos." },
-  { criterion: "Match screen real estate to your actual work multitasking needs", explanation: "A demanding multitasking role may genuinely benefit from a triple-screen setup, while most work use is well-served by a single extra screen." },
-  { criterion: "Favor dual connectivity to reduce bandwidth-conflict risk", explanation: "USB-C plus HDMI connectivity splits power and video demand across two connections, reducing the risk of a single-cable bottleneck during video calls." },
+  {
+    "criterion": "Match the extender's screen size proportionally to your laptop, not just to the biggest option available",
+    "explanation": "A screen extender attaches directly alongside your laptop's own display, so its physical size needs to pair proportionally with your laptop's screen rather than simply being as large as possible, since an extender significantly larger or smaller than your laptop's own panel creates a visually unbalanced setup and can make the attachment hardware work harder to support the size difference.\n\nA 13 to 14 inch laptop pairs naturally with a similarly sized 14-inch extender, while a 15.6 or 16-inch laptop balances better with an extender in that same size range.\n\nCheck your own laptop's screen size first, then choose an extender sized to match it rather than assuming a bigger panel is automatically a better upgrade."
+  },
+  {
+    "criterion": "Understand that resolution and physical size together determine real sharpness, not either spec alone",
+    "explanation": "Two panels advertised at the same 1080P resolution will look noticeably different in sharpness if their physical sizes differ, because the same number of pixels spread across a smaller 14-inch panel produces a higher pixel density, and therefore a visibly crisper image, than the identical pixel count spread across a larger 15.6 or 17-inch panel.\n\nThis means a smaller extender is not automatically a downgrade in visual quality, and buyers chasing the largest available screen size at a fixed resolution should understand they're trading pixel density for physical workspace, a genuine tradeoff rather than a straightforward size-equals-better relationship.\n\nCompare both the stated resolution and the physical panel size together, and calculate or look up the resulting pixel density (pixels per inch) if sharpness matters more to you than raw screen real estate."
+  },
+  {
+    "criterion": "Confirm the connection type actually matches your laptop's available ports",
+    "explanation": "Screen extenders connect via USB-C (which can carry both video and power over a single cable on laptops that support USB-C DisplayPort alt mode), HDMI (video only, requiring a separate power cable to the extender), or both, and this isn't just a convenience detail, since a laptop without a USB-C port that supports video output simply cannot drive a USB-C-only extender regardless of how the cable physically connects.\n\nThis is a genuine, easy-to-miss compatibility trap: not every USB-C port on a laptop supports video output (some are power or data only), so having a USB-C port at all doesn't guarantee this specific use case will work.\n\nCheck your specific laptop model's documentation for confirmed USB-C DisplayPort alt mode support, or favor an extender with both USB-C and HDMI options to cover either connection path."
+  },
+  {
+    "criterion": "Check the attachment mechanism against how you'll actually use the extender day to day",
+    "explanation": "Extenders attach to a laptop through a few genuinely different mechanisms, magnetic mounts (quick to attach and remove but rely on magnet strength holding position), clip-on or clamp designs (a firmer physical grip on the laptop lid but slower to attach and remove), or a separate kickstand base (fully independent positioning but adds desk footprint and doesn't travel attached to the laptop).\n\nSomeone who frequently packs up and travels with their setup benefits from a fast magnetic or clip attachment, while someone with a permanent desk setup may prefer a stand-based design that doesn't touch or stress the laptop's own lid hinge at all.\n\nMatch the attachment mechanism to your actual daily routine (frequent travel and reassembly versus a fixed desk setup) rather than defaulting to whichever style looks most premium in photos."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, since panel size categories vary widely in review depth",
+    "explanation": "Common laptop screen sizes like 15.6 inches generally have a much larger pool of dedicated extenders and far more accumulated reviews than less common sizes like 17-inch or specialty categories like touchscreen or 4K extenders, which means a high star rating on a niche-size listing often rests on a meaningfully smaller review sample than the same rating on a mainstream-size product.\n\nThis matters because a thin review base, even a positive one, gives less confidence about long-term reliability (hinge durability, cable connector wear, panel defect rates) than a rating built on thousands of purchases across diverse use cases.\n\nWhen comparing extenders, especially at a less common size or in a specialty category, check both the star rating and the review count together rather than trusting the rating figure alone."
+  }
 ];
 
 export const faq: FaqItem[] = [
