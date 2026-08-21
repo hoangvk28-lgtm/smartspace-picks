@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51oe+oiyh9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09QWC568X?tag=deskfinds0d-20",
     description:
-      "The WESTREE is a riser, not an arm, so no VESA mount is needed, your ultrawide's own base simply sits on top of its 35.8\" x 10.2\" steel-and-wood platform. It holds up to 150 lbs, the highest capacity riser in this list, and assembles in about 2 minutes.\n\nA non-slip surface keeps the monitor from sliding, and the open space underneath fits a keyboard or accessories, adding real desk storage rather than just height. It's the pick for buyers who don't want to deal with VESA compatibility at all.",
+      "The WESTREE is a riser, not an arm, so no VESA mount is needed, your ultrawide's own base simply sits on top of its 35.8\" x 10.2\" steel-and-wood platform. It holds up to 150 lbs, the highest capacity riser in this list, and assembles in about 2 minutes.\n\nA non-slip surface keeps the monitor from sliding, and the open space underneath fits a keyboard or accessories, adding real desk storage rather than just height. It's the pick for buyers who don't want to deal with VESA compatibility at all.\n\nNo VESA mount required, works with any monitor base. That's a real strength, but weigh it against the flip side: fixed height, no tilt or rotation adjustment.",
     specs: [
       "35.8\"W x 10.2\"D platform",
       "Steel + rustic brown wood construction",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Hhe877YCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYCNPTQQ?tag=deskfinds0d-20",
     description:
-      "The Across-Star is the cheapest and highest-rated riser in this list, and it's the only one here with adjustable length, 32\" to 40\", so it can be sized to fit different desk widths rather than committing to one fixed platform size. Metal and wood construction holds up to 80 lbs.\n\nIts modular 3-piece design makes it easy to assemble or break down, and it still leaves storage space underneath for a keyboard or accessories. This is a riser, not an arm, so it needs no VESA mount at all.",
+      "The Across-Star is the cheapest and highest-rated riser in this list, and it's the only one here with adjustable length, 32\" to 40\", so it can be sized to fit different desk widths rather than committing to one fixed platform size. Metal and wood construction holds up to 80 lbs.\n\nIts modular 3-piece design makes it easy to assemble or break down, and it still leaves storage space underneath for a keyboard or accessories. This is a riser, not an arm, so it needs no VESA mount at all.\n\nWorth calling out specifically: highest-rated pick in this list at 4.7 stars. The catch is 80 lb capacity is lower than the WESTREE riser above.",
     specs: [
       "Adjustable length 32\"-40\"",
       "Metal + wood construction",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/311ibCGy9SL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01FE2BCR8?tag=deskfinds0d-20",
     description:
-      "This VIVO is the only pick in this list that's freestanding, it does not clamp to the desk at all, which matters if you're in a rental or office where desk clamping isn't allowed. It supports up to 38\" ultrawide monitors via VESA 75/100mm and lifts 18\", with 360 degree rotation and plus or minus 15 degrees of tilt.\n\nBecause it's an arm-style stand rather than a riser, your monitor needs an actual VESA mount for this to work. Steel construction keeps the base stable despite not being clamped down.",
+      "This VIVO is the only pick in this list that's freestanding, it does not clamp to the desk at all, which matters if you're in a rental or office where desk clamping isn't allowed. It supports up to 38\" ultrawide monitors via VESA 75/100mm and lifts 18\", with 360 degree rotation and plus or minus 15 degrees of tilt.\n\nBecause it's an arm-style stand rather than a riser, your monitor needs an actual VESA mount for this to work. Steel construction keeps the base stable despite not being clamped down.\n\nFull height, tilt, and rotation adjustment. Set against that, requires your monitor to have VESA 75/100mm mounting. Both matter when comparing it to the other picks here.",
     specs: [
       "Freestanding, no desk clamp needed",
       "Supports up to 38\" ultrawide",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31EFNd8CvRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01BO42XK0?tag=deskfinds0d-20",
     description:
-      "This VIVO mount has the tallest pole in this list at 39\", supporting ultrawides up to 38\" at 22 lbs with plus or minus 90 degrees of tilt and full 360 degree rotation. The extra height makes it a strong fit for both sitting and standing desk setups, since it can position the monitor comfortably at either height.\n\nIt's by far the most-reviewed pick in this entire list at over 20,000 ratings, and it mounts via C-clamp or grommet. As a VESA arm rather than a riser, your monitor needs a compatible VESA mount.",
+      "This VIVO mount has the tallest pole in this list at 39\", supporting ultrawides up to 38\" at 22 lbs with plus or minus 90 degrees of tilt and full 360 degree rotation. The extra height makes it a strong fit for both sitting and standing desk setups, since it can position the monitor comfortably at either height.\n\nIt's by far the most-reviewed pick in this entire list at over 20,000 ratings, and it mounts via C-clamp or grommet. As a VESA arm rather than a riser, your monitor needs a compatible VESA mount.\n\nA genuine advantage here is that tallest pole here, good for standing desk setups. The tradeoff is 22 lb capacity limits it to 38\" and under.",
     specs: [
       "39\" tall pole (tallest in this list)",
       "Supports up to 38\" ultrawide at 22 lbs",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/413JaG+o7sL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00DGTP57A?tag=deskfinds0d-20",
     description:
-      "This is the only pick in this list designed to stack two ultrawide monitors vertically, up to 34\" each, rather than mounting a single wide panel or spreading two side by side. Each arm is rated for 22 lbs on a 28.5\" pole, with plus or minus 15 degrees of tilt and 360 degree rotation on each arm independently.\n\nSteel and aluminum construction mounts via C-clamp or grommet. It's a niche pick, useful specifically for buyers who want two 34\" ultrawides stacked to save desk width rather than a single 49\" super-ultrawide.",
+      "This is the only pick in this list designed to stack two ultrawide monitors vertically, up to 34\" each, rather than mounting a single wide panel or spreading two side by side. Each arm is rated for 22 lbs on a 28.5\" pole, with plus or minus 15 degrees of tilt and 360 degree rotation on each arm independently.\n\nSteel and aluminum construction mounts via C-clamp or grommet. It's a niche pick, useful specifically for buyers who want two 34\" ultrawides stacked to save desk width rather than a single 49\" super-ultrawide.\n\nSaves desk width compared to side-by-side monitors. That's a real strength, but weigh it against the flip side: only supports up to 34\" per monitor, not 49\" ultrawides.",
     specs: [
       "Stacks 2 ultrawide monitors vertically, up to 34\" each",
       "22 lbs per arm",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/4171Hc38M7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09B3LFDXJ?tag=deskfinds0d-20",
     description:
-      "The OImaster is a riser, not an arm, and it's the only one in this list with a built-in USB 3.0 hub plus a USB-C port, adding real functionality beyond just lifting the monitor. It adjusts to 3 height settings, 16.5\", 18.5\", and 20.5\", and holds 50-55 lbs.\n\nABS and metal construction includes a phone holder and a storage drawer, and it folds flat for travel or storage when not in use. No VESA mount is required since your monitor's base rests on top.",
+      "The OImaster is a riser, not an arm, and it's the only one in this list with a built-in USB 3.0 hub plus a USB-C port, adding real functionality beyond just lifting the monitor. It adjusts to 3 height settings, 16.5\", 18.5\", and 20.5\", and holds 50-55 lbs.\n\nABS and metal construction includes a phone holder and a storage drawer, and it folds flat for travel or storage when not in use. No VESA mount is required since your monitor's base rests on top.\n\nWorth calling out specifically: 3 adjustable height settings, more flexible than a fixed riser. The catch is smaller review sample than the other risers.",
     specs: [
       "3 height settings: 16.5\"/18.5\"/20.5\"",
       "50-55 lb capacity",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419F+Cl-4lL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQ19YC9H?tag=deskfinds0d-20",
     description:
-      "The TitanLift is the true heavy-duty arm-style stand in this list, built to hold screens up to 49\" at 44 lbs with an arm 20% thicker and a base 30% wider than the brand's standard model, engineering aimed directly at the torque sag curved super-ultrawides cause over time. It's been tested through 50,000 movement cycles.\n\nPremium aluminum construction, a dual C-clamp mount, and a 5-year warranty, the longest in this list, back it up. It's also the highest-rated pick in this entire guide at 4.7 stars, and unlike every riser above, it does require your monitor to have a VESA mount.",
+      "The TitanLift is the true heavy-duty arm-style stand in this list, built to hold screens up to 49\" at 44 lbs with an arm 20% thicker and a base 30% wider than the brand's standard model, engineering aimed directly at the torque sag curved super-ultrawides cause over time. It's been tested through 50,000 movement cycles.\n\nPremium aluminum construction, a dual C-clamp mount, and a 5-year warranty, the longest in this list, back it up. It's also the highest-rated pick in this entire guide at 4.7 stars, and unlike every riser above, it does require your monitor to have a VESA mount.\n\nOnly pick here rated for true 49\" super-ultrawide weight. Set against that, requires a VESA-compatible monitor, unlike the risers above. Both matter when comparing it to the other picks here.",
     specs: [
       "Fits screens up to 49\" at up to 44 lbs",
       "Arm 20% thicker, base 30% wider than standard model",
@@ -296,30 +296,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Know whether you need a riser or an arm before you shop",
-    explanation:
-      "A riser is just a platform your monitor's existing base sits on, no VESA mount needed, and it's usually cheaper with built-in storage underneath. An arm needs your monitor to have a VESA 75mm or 100mm mount and gives you height, tilt, and rotation adjustment instead, which is generally better for posture over a full workday.",
+    "criterion": "Confirm your desk can actually grip the mounting base before comparing arms",
+    "explanation": "A monitor arm's clamp or grommet base needs a solid desk edge to grip securely, and this is the real first question to answer before comparing gas spring tension or weight capacity, since a hollow honeycomb-core desktop, a glass top, or a desk under about an inch thick can rule out an entire category of arms regardless of how good the arm itself is.\n\nThis matters because discovering after purchase that your desk simply can't mount the arm you bought is a common and entirely avoidable problem.\n\nCheck your desk's actual edge thickness and construction (solid, hollow-core, or glass), and confirm the arm's clamp or grommet base is explicitly rated for that construction before ordering."
   },
   {
-    criterion: "Check your monitor's VESA mount before buying an arm",
-    explanation:
-      "Not every ultrawide monitor has a VESA-compatible base, and some manufacturer stands can't be removed at all. If your monitor lacks VESA mounting, a riser like the WESTREE or Across-Star is the only option that will actually work, regardless of how appealing an arm's adjustability looks.",
+    "criterion": "Check real per-arm weight capacity, not the bundled-stand weight printed on the monitor box",
+    "explanation": "Monitor weight ratings printed on the box often reference the monitor's included stand, not the bare panel weight relevant to a monitor arm, and a monitor arm's real weight capacity needs to match your specific monitor's actual panel weight without its stand, information usually found in the monitor's separate spec sheet rather than the box itself.\n\nThis matters directly for a larger or ultrawide monitor, where the gap between stand-inclusive and bare-panel weight can be substantial enough to matter.\n\nCheck your monitor's bare panel weight (without its stand) in its official spec sheet, and compare that specifically against the arm's rated capacity, not a generalized weight class."
   },
   {
-    criterion: "A 49\" super-ultrawide needs a genuinely heavy-duty arm",
-    explanation:
-      "49\" super-ultrawides commonly weigh 25-35+ lbs, well beyond what a standard 20-25 lb arm is rated for, and curved panels add extra torque on top of that weight. Only the HUANUO TitanLift in this list is rated for true 49\" capacity; the other arm-style picks top out around 34\"-38\".",
+    "criterion": "Verify VESA compatibility for both your monitor and the arm's mounting plate",
+    "explanation": "VESA mounting patterns come in a few standard sizes (75x75mm and 100x100mm are most common), and a mismatch between your monitor's VESA pattern and the arm's mounting plate means the arm simply won't attach, some arms include an adapter for multiple patterns while others support only one.\n\nThis matters directly for a monitor with a non-standard or larger VESA pattern, particularly some ultrawide or curved monitors, where assuming universal compatibility can lead to an unusable purchase.\n\nCheck your monitor's specific VESA pattern in its spec sheet, and confirm the arm explicitly supports that pattern, either natively or with an included adapter, before ordering."
   },
   {
-    criterion: "Measure your usable desk depth before choosing a riser",
-    explanation:
-      "A riser adds height but also depth, since the platform itself takes up front-to-back space before your monitor even sits on it. Measure your desk's usable depth, front edge to wall, not the published desktop size, to confirm a riser this size will still leave room for a keyboard and mouse pad.",
+    "criterion": "Understand gas spring tension and how it affects long-term reliability",
+    "explanation": "A gas spring monitor arm relies on an internal pressurized cylinder to hold the monitor at any height with minimal effort, and tension needs to be roughly matched to your monitor's actual weight, a monitor lighter than the spring's calibrated range can drift upward on its own, while pressure calibrated too low for a heavier monitor won't hold position and will slowly droop.\n\nThis matters for long-term usability, not just initial setup, since gas springs can also lose tension gradually over years of use.\n\nCheck the arm's rated weight range against your monitor's actual weight, favoring a monitor that falls comfortably within the middle of that range rather than at either extreme."
   },
   {
-    criterion: "Freestanding designs solve a mounting problem, not a space problem",
-    explanation:
-      "A freestanding stand like the VIVO pick in this list doesn't clamp to the desk at all, which is useful in rentals or offices where clamping isn't allowed, but it still occupies real desk footprint since nothing is anchored to the edge. Don't choose freestanding for extra desk space; choose it specifically when clamping isn't an option.",
-  },
+    "criterion": "Consider reach and range of motion against your actual desk depth and seating position",
+    "explanation": "An arm's horizontal reach and vertical range of motion determine how far the monitor can extend from the mounting point and how much height adjustment is available, and these dimensions matter differently depending on your desk depth and how far back you sit, a shallow desk needs less reach than a deep one, and a standing desk that changes height throughout the day needs a wider vertical range to stay at eye level.\n\nThis matters more for anyone switching between sitting and standing regularly, less for a fixed single seated position.\n\nCheck the arm's listed reach and height range against your actual desk depth and how much your seated or standing eye level varies throughout the day."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -332,81 +327,102 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Riser or Arm: Which Do You Actually Need?",
-    intro:
-      "This is the first decision to make, since it determines which of the 7 picks in this list are even compatible with your monitor.",
-    table: {
-      headers: ["Your situation", "Recommendation", "Best pick"],
-      rows: [
-        ["Monitor has no VESA mount, or you don't want to deal with one", "Riser", "WESTREE, Across-Star, OImaster"],
-        ["Monitor has VESA 75/100mm and you want height/tilt control", "Arm", "VIVO Freestanding, VIVO Extra Tall"],
-        ["Desk clamping isn't allowed (rental, shared office)", "Freestanding arm", "VIVO Single Monitor Desk Stand (Freestanding)"],
-        ["49\" super-ultrawide with VESA mount", "Heavy-duty arm", "HUANUO TitanLift"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Across"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "VIVO Extra Tall Single Monitor Desk Mount"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Monitor Size",
-    table: {
-      headers: ["Monitor size", "Weight range", "Best pick"],
-      rows: [
-        ["Any size (riser doesn't depend on monitor VESA size)", "Up to 150 lbs platform", "WESTREE Dual Monitor Stand Riser"],
-        ["Up to 34\" ultrawide", "Up to 22 lbs", "VIVO Extra Tall, VIVO Dual Vertically Stacked"],
-        ["Up to 38\" ultrawide", "Up to 22 lbs", "VIVO Single Monitor Desk Stand (Freestanding)"],
-        ["Up to 49\" super-ultrawide", "Up to 44 lbs", "HUANUO TitanLift Heavy Duty Monitor Arm"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $27",
+          "Across"
+        ],
+        [
+          "Up to $94",
+          "HUANUO TitanLift Heavy Duty Monitor Arm"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Desk Space and Storage Needs",
-    cards: [
+    "subheading": "Dual-Monitor Arm vs Single-Monitor Arm",
+    "cards": [
       {
-        label: "Want storage space underneath the monitor",
-        text: "All 3 risers in this list, WESTREE, Across-Star, and OImaster, leave open space underneath for a keyboard or accessories.",
+        "label": "Dual-monitor arm",
+        "text": "Mounts two monitors from one clamp point, worth checking the combined weight rating. In this comparison: WESTREE Dual Monitor Stand Riser, Across, VIVO Dual Vertically Stacked Monitor Stand, HUANUO TitanLift Heavy Duty Monitor Arm."
       },
       {
-        label: "Want a built-in USB hub",
-        text: "The OImaster Riser is the only pick in this list with a USB 3.0 hub and USB-C port built in.",
-      },
-      {
-        label: "Want to save desk width with two monitors",
-        text: "The VIVO Dual Vertically Stacked stand is the only pick here designed to stack two ultrawides vertically instead of spreading them side by side.",
-      },
-      {
-        label: "Want the tallest possible mount for a standing desk",
-        text: "The VIVO Extra Tall has the tallest pole in this list at 39\", giving the most range for sit-stand transitions.",
-      },
+        "label": "Single-monitor arm",
+        "text": "Simpler and usually cheaper per monitor, fine for a one-screen setup. In this comparison: VIVO Single Monitor Desk Stand, VIVO Extra Tall Single Monitor Desk Mount, OImaster Monitor Stand Riser with USB 3.0 Hub."
+      }
     ],
+    "note": "Default to single arms unless you're mounting two monitors from the same desk clamp point."
   },
   {
-    subheading: "Desk Depth and Clearance Reality Check",
-    intro:
-      "Whether you pick a riser or an arm, usable desk depth, measured from the front edge to the wall, not the published desktop size, determines whether the setup actually fits.",
-    table: {
-      headers: ["Setup", "Usable depth needed", "Note"],
-      rows: [
-        ["34\" ultrawide on any stand", "24-28 inches", "Leave 3+ inches of clearance behind the display for cables"],
-        ["49\" super-ultrawide on the HUANUO TitanLift", "28-30+ inches", "Account for the arm's base plus the monitor's forward reach when extended"],
-        ["Any riser platform", "Platform depth + monitor depth", "A 10\" deep riser adds directly to your desk depth requirement"],
+    "subheading": "By Mounting Method",
+    "table": {
+      "headers": [
+        "Desk situation",
+        "Recommended pick"
       ],
-    },
-    note: "Don't push the monitor's back flush against a wall regardless of stand type, leaving cable clearance prevents strain on the ports and cables over time.",
+      "rows": [
+        [
+          "Standard desk edge, clamp mount",
+          "VIVO Single Monitor Desk Stand"
+        ],
+        [
+          "Need a grommet hole mount instead",
+          "WESTREE Dual Monitor Stand Riser"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Warranty and Capacity Quick Reference",
-    table: {
-      headers: ["Pick", "Type", "Capacity", "Height adjustable?"],
-      rows: [
-        ["WESTREE Dual Monitor Stand Riser", "Riser", "150 lbs", "No, fixed"],
-        ["Across-Star Dual Monitor Stand Riser", "Riser", "80 lbs", "No, fixed (width adjusts)"],
-        ["VIVO Single Monitor Desk Stand", "Freestanding arm", "Up to 38\"", "Yes, 18\" lift"],
-        ["VIVO Extra Tall Monitor Desk Mount", "Arm", "22 lbs, up to 38\"", "Yes, 39\" pole"],
-        ["VIVO Dual Vertically Stacked Stand", "Arm (dual)", "22 lbs per arm", "Yes, independent per arm"],
-        ["OImaster Riser with USB Hub", "Riser", "50-55 lbs", "Yes, 3 fixed steps"],
-        ["HUANUO TitanLift", "Arm", "44 lbs, up to 49\"", "Yes, full range"],
-      ],
-    },
+    "subheading": "For a Standing Desk Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A wide vertical height range to stay at eye level through sit-stand transitions, plus a clamp rated for your desk's edge thickness."
+      },
+      {
+        "label": "In this comparison",
+        "text": "VIVO Extra Tall Single Monitor Desk Mount is worth checking against its listed height range before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You have a heavier or ultrawide monitor, where HUANUO TitanLift Heavy Duty Monitor Arm's weight capacity and gas spring quality give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You have a light, standard monitor and just want basic height adjustment, where Across covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/317VIj18mdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07Q1NJ15Q?tag=deskfinds0d-20",
     description:
-      "The Ergotron LX Dual is a single VESA desk mount running two independent arms, each rated for 2 monitors up to 27 inches and 7 to 20 lbs per side. Independent arm movement means each monitor can be positioned separately, closing much of the gap between a true dual arm and running two single arms.\n\nAt 427 dollars it is the most expensive standard-height dual arm here, priced for buyers who want Ergotron's gas spring reliability on both sides rather than a lighter dual bracket that risks uneven tension between two different-size monitors.",
+      "The Ergotron LX Dual is a single VESA desk mount running two independent arms, each rated for 2 monitors up to 27 inches and 7 to 20 lbs per side. Independent arm movement means each monitor can be positioned separately, closing much of the gap between a true dual arm and running two single arms.\n\nAt 427 dollars it is the most expensive standard-height dual arm here, priced for buyers who want Ergotron's gas spring reliability on both sides rather than a lighter dual bracket that risks uneven tension between two different-size monitors.\n\nProven Ergotron gas spring reliability on both sides. That's a real strength, but weigh it against the flip side: most expensive standard-height pick in this list.",
     specs: [
       "For 2 monitors up to 27\" each",
       "7 to 20 lb capacity per arm",
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ibESROACL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09T78LQYQ?tag=deskfinds0d-20",
     description:
-      "This is the only pick in this list built to stack two monitors vertically rather than side by side, holding up to 40 inches and 7 to 22 lbs per monitor on a tall pole designed for that configuration. Vertical stacking suits a narrow desk where side-by-side placement would eat too much horizontal space.\n\nAt 485 dollars it is the most expensive arm in this list, and the tall pole height needs headroom, measure your ceiling and desk height before buying, since a stacked pair sits noticeably taller than any side-by-side dual arm here.",
+      "This is the only pick in this list built to stack two monitors vertically rather than side by side, holding up to 40 inches and 7 to 22 lbs per monitor on a tall pole designed for that configuration. Vertical stacking suits a narrow desk where side-by-side placement would eat too much horizontal space.\n\nAt 485 dollars it is the most expensive arm in this list, and the tall pole height needs headroom, measure your ceiling and desk height before buying, since a stacked pair sits noticeably taller than any side-by-side dual arm here.\n\nWorth calling out specifically: saves horizontal desk space versus side-by-side. The catch is highest price in this list at $485.",
     specs: [
       "For 2 monitors up to 40\" each",
       "7 to 22 lb capacity per monitor",
@@ -105,7 +105,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Mr-S3C6XL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07T5SY43L?tag=deskfinds0d-20",
     description:
-      "The FlowLift Dual fits 13 to 32 inch screens with full motion VESA 75x75/100x100 mounting and includes both a C-clamp and grommet base for each arm. Each side holds 4.4 to 19.8 lbs, enough for a standard 24-27 inch monitor pair but not for a mismatched heavy panel on one side.\n\nAt under $60 it is one of the cheapest true dual arms in this list, a reasonable starting point if you are running two similarly-sized standard monitors rather than an uneven pairing.",
+      "The FlowLift Dual fits 13 to 32 inch screens with full motion VESA 75x75/100x100 mounting and includes both a C-clamp and grommet base for each arm. Each side holds 4.4 to 19.8 lbs, enough for a standard 24-27 inch monitor pair but not for a mismatched heavy panel on one side.\n\nAt under $60 it is one of the cheapest true dual arms in this list, a reasonable starting point if you are running two similarly-sized standard monitors rather than an uneven pairing.\n\nBoth clamp and grommet base included. Set against that, 19.8 lb per-arm cap is tight for a heavier monitor on one side. Both matter when comparing it to the other picks here.",
     specs: [
       "Fits 13 to 32\" screens",
       "4.4 to 19.8 lb capacity per arm",
@@ -137,7 +137,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41T9ePShJ2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GK6DT5SF?tag=deskfinds0d-20",
     description:
-      "The FlowLift Pro Dual carries over the tool-free MechaSpring mount from HUANUO's single-arm pick, fitting 13 to 32 inch screens with tilt, swivel, and rotation on both arms. Max load is 19.8 lbs per side, matching the standard FlowLift Dual.\n\nAt $44.99 it costs more than the standard FlowLift Dual but skips the Allen key entirely for setup, a worthwhile tradeoff if you would rather spend 10 extra dollars than deal with tools.",
+      "The FlowLift Pro Dual carries over the tool-free MechaSpring mount from HUANUO's single-arm pick, fitting 13 to 32 inch screens with tilt, swivel, and rotation on both arms. Max load is 19.8 lbs per side, matching the standard FlowLift Dual.\n\nAt $44.99 it costs more than the standard FlowLift Dual but skips the Allen key entirely for setup, a worthwhile tradeoff if you would rather spend 10 extra dollars than deal with tools.\n\nA genuine advantage here is that full tilt, swivel, and rotation range. The tradeoff is 19.8 lb per-arm cap, same ceiling as the cheaper FlowLift Dual.",
     specs: [
       "Fits 13 to 32\" screens",
       "Max load 19.8 lbs per arm",
@@ -169,7 +169,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41yqyOXCyjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CMT59SX2?tag=deskfinds0d-20",
     description:
-      "This HUANUO dual mount fits monitors up to 32 inches with each arm holding a max of 22 lbs, a notch above the FlowLift Dual picks and closer to what a mismatched pair of monitors might need on the heavier side. Height, tilt, swivel, and rotation are all adjustable with the advanced counterbalance system.\n\nAt $39.99 it undercuts the FlowLift Pro Dual on price while offering a slightly higher per-arm weight ceiling, making it a solid middle-ground pick for two monitors that are not perfectly matched in size.",
+      "This HUANUO dual mount fits monitors up to 32 inches with each arm holding a max of 22 lbs, a notch above the FlowLift Dual picks and closer to what a mismatched pair of monitors might need on the heavier side. Height, tilt, swivel, and rotation are all adjustable with the advanced counterbalance system.\n\nAt $39.99 it undercuts the FlowLift Pro Dual on price while offering a slightly higher per-arm weight ceiling, making it a solid middle-ground pick for two monitors that are not perfectly matched in size.\n\nLower price than the FlowLift Pro Dual. That's a real strength, but weigh it against the flip side: still not rated for a significantly mismatched heavy-vs-light pairing.",
     specs: [
       "Fits monitors up to 32\"",
       "Max 22 lbs per arm",
@@ -201,7 +201,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41KpK5JaEML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0855ZBPXD?tag=deskfinds0d-20",
     description:
-      "This is a second vertical stacking option in this list, fitting 17 to 32 inch monitors with a weight max of 19.8 lbs and ergonomic tilt, swivel, and rotate adjustment. It gives buyers who want the space-saving benefit of stacking without the 485 dollar Ergotron vertical arm's price tag.\n\nThe tradeoff for the lower price is a 32-inch top screen size versus the Ergotron vertical arm's 40-inch ceiling, and a lighter 19.8 lb capacity per monitor rather than 22 lbs.",
+      "This is a second vertical stacking option in this list, fitting 17 to 32 inch monitors with a weight max of 19.8 lbs and ergonomic tilt, swivel, and rotate adjustment. It gives buyers who want the space-saving benefit of stacking without the 485 dollar Ergotron vertical arm's price tag.\n\nThe tradeoff for the lower price is a 32-inch top screen size versus the Ergotron vertical arm's 40-inch ceiling, and a lighter 19.8 lb capacity per monitor rather than 22 lbs.\n\nWorth calling out specifically: under $60, far cheaper than the Ergotron vertical arm. The catch is 32\" max screen size versus 40\" on the Ergotron vertical arm.",
     specs: [
       "Fits 17 to 32\" monitors",
       "Weight max 19.8 lbs",
@@ -233,7 +233,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41t32WYz36L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B009S750LA?tag=deskfinds0d-20",
     description:
-      "VIVO's steel dual mount holds 2 monitors up to 30 inches and 22 lbs each, undercutting every other dual arm in this list on price while still matching the higher 22 lb per-arm capacity of the pricier HUANUO advanced pick. Heavy-duty steel construction backs that capacity claim.\n\nBoth C-clamp and grommet mounting are included, giving desk flexibility similar to the HUANUO FlowLift picks at roughly half the price of the mid-tier options in this list.",
+      "VIVO's steel dual mount holds 2 monitors up to 30 inches and 22 lbs each, undercutting every other dual arm in this list on price while still matching the higher 22 lb per-arm capacity of the pricier HUANUO advanced pick. Heavy-duty steel construction backs that capacity claim.\n\nBoth C-clamp and grommet mounting are included, giving desk flexibility similar to the HUANUO FlowLift picks at roughly half the price of the mid-tier options in this list.\n\n22 lb per-arm capacity matches pricier mid-tier picks. Set against that, 30\" screen cap versus 32\" on some HUANUO picks. Both matter when comparing it to the other picks here.",
     specs: [
       "Holds 2 monitors up to 30\" and 22 lbs each",
       "Heavy duty fully adjustable steel stand",
@@ -265,7 +265,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419F+Cl-4lL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQ19YC9H?tag=deskfinds0d-20",
     description:
-      "This is a single heavy-duty arm, not a dual bracket, and it earns a spot here because buying two of them independently solves the mismatched-monitor problem that dual arms struggle with. Each arm holds up to 44 lbs on its own, so a heavy 34\" ultrawide on one side and a lighter 24\" monitor on the other can each get an arm sized to its actual weight instead of sharing one bracket's compromised tension.\n\nBuying two single arms also means each monitor can be spaced independently, repositioned without affecting the other side, and resold separately later. The tradeoff is buying two units at 93.98 dollars each rather than one dual bracket, and needing two separate clamp footprints on your desk.",
+      "This is a single heavy-duty arm, not a dual bracket, and it earns a spot here because buying two of them independently solves the mismatched-monitor problem that dual arms struggle with. Each arm holds up to 44 lbs on its own, so a heavy 34\" ultrawide on one side and a lighter 24\" monitor on the other can each get an arm sized to its actual weight instead of sharing one bracket's compromised tension.\n\nBuying two single arms also means each monitor can be spaced independently, repositioned without affecting the other side, and resold separately later. The tradeoff is buying two units at 93.98 dollars each rather than one dual bracket, and needing two separate clamp footprints on your desk.\n\nA genuine advantage here is that each monitor can be positioned and resold fully independently. The tradeoff is requires buying two units, doubling the cost versus a single dual bracket.",
     specs: [
       "Fits screens up to 49\" per arm",
       "Holds up to 44 lbs per arm",
@@ -323,35 +323,25 @@ export interface BuyingCriterion {
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Check counterbalance for mismatched monitor sizes",
-    explanation:
-      "Most buyers run two different-size monitors, like a 27\" and a 24\", rather than a matched pair, and a dual arm rated for 20-22 lbs per side can still sag on the heavier panel if the joint tension was tuned assuming even loads. If your two monitors differ by more than a few pounds, weigh whether a per-arm rating built for the heavier side, like the HUANUO Advanced Mount's 22 lbs, is a safer match.",
+    "criterion": "Confirm your desk can actually grip the mounting base before comparing arms",
+    "explanation": "A monitor arm's clamp or grommet base needs a solid desk edge to grip securely, and this is the real first question to answer before comparing gas spring tension or weight capacity, since a hollow honeycomb-core desktop, a glass top, or a desk under about an inch thick can rule out an entire category of arms regardless of how good the arm itself is.\n\nThis matters because discovering after purchase that your desk simply can't mount the arm you bought is a common and entirely avoidable problem.\n\nCheck your desk's actual edge thickness and construction (solid, hollow-core, or glass), and confirm the arm's clamp or grommet base is explicitly rated for that construction before ordering."
   },
   {
-    criterion: "Decide between one dual arm and two single arms",
-    explanation:
-      "A single dual bracket is cheaper and takes one clamp footprint, but two independent single arms, like the HUANUO TitanLift bought as a pair, let you space monitors apart, adjust each independently, and resell one later without replacing the whole setup. If your two monitors are meaningfully different in size or weight, two single arms are often the more reliable choice.",
+    "criterion": "Check real per-arm weight capacity, not the bundled-stand weight printed on the monitor box",
+    "explanation": "Monitor weight ratings printed on the box often reference the monitor's included stand, not the bare panel weight relevant to a monitor arm, and a monitor arm's real weight capacity needs to match your specific monitor's actual panel weight without its stand, information usually found in the monitor's separate spec sheet rather than the box itself.\n\nThis matters directly for a larger or ultrawide monitor, where the gap between stand-inclusive and bare-panel weight can be substantial enough to matter.\n\nCheck your monitor's bare panel weight (without its stand) in its official spec sheet, and compare that specifically against the arm's rated capacity, not a generalized weight class."
   },
   {
-    criterion: "Match pole height to your desk height and your own height",
-    explanation:
-      "Dual arm poles typically run 40-50cm, and a tall user around 180cm or more wanting eye-level monitors may find a standard pole too short once combined with a low desk. Check the pole height spec against your desk height and your eye level before assuming any dual arm will land your monitors at the right height.",
+    "criterion": "Verify VESA compatibility for both your monitor and the arm's mounting plate",
+    "explanation": "VESA mounting patterns come in a few standard sizes (75x75mm and 100x100mm are most common), and a mismatch between your monitor's VESA pattern and the arm's mounting plate means the arm simply won't attach, some arms include an adapter for multiple patterns while others support only one.\n\nThis matters directly for a monitor with a non-standard or larger VESA pattern, particularly some ultrawide or curved monitors, where assuming universal compatibility can lead to an unusable purchase.\n\nCheck your monitor's specific VESA pattern in its spec sheet, and confirm the arm explicitly supports that pattern, either natively or with an included adapter, before ordering."
   },
   {
-    criterion: "Ultrawide monitors need to skip standard dual arms entirely",
-    explanation:
-      "A 34\" or larger ultrawide at 7kg or more is simply too heavy and wide for most dual arm brackets on the market, including every dual bracket in this list. If one of your two monitors is an ultrawide, plan on a heavy-duty single arm like the HUANUO TitanLift for that side rather than forcing it onto a standard dual mount.",
+    "criterion": "Understand gas spring tension and how it affects long-term reliability",
+    "explanation": "A gas spring monitor arm relies on an internal pressurized cylinder to hold the monitor at any height with minimal effort, and tension needs to be roughly matched to your monitor's actual weight, a monitor lighter than the spring's calibrated range can drift upward on its own, while pressure calibrated too low for a heavier monitor won't hold position and will slowly droop.\n\nThis matters for long-term usability, not just initial setup, since gas springs can also lose tension gradually over years of use.\n\nCheck the arm's rated weight range against your monitor's actual weight, favoring a monitor that falls comfortably within the middle of that range rather than at either extreme."
   },
   {
-    criterion: "Plan real cable routing, not just clip count",
-    explanation:
-      "Two monitor cables plus a shared power cord need to route through the arm, and many dual arms include small cable clips that don't fit thick HDMI 2.1 or DisplayPort cables. Check the clip size against your actual cables, or route the thicker cable outside the clip system if it's too tight.",
-  },
-  {
-    criterion: "Confirm at least 15-20cm of clear desk-underside space",
-    explanation:
-      "A dual arm's clamp footprint needs meaningfully more clear desk-underside space than a single arm's clamp, and small desks or L-shaped desk corners often don't have that room. Measure the clear space under your desk edge before ordering, especially in a corner setup.",
-  },
+    "criterion": "Consider reach and range of motion against your actual desk depth and seating position",
+    "explanation": "An arm's horizontal reach and vertical range of motion determine how far the monitor can extend from the mounting point and how much height adjustment is available, and these dimensions matter differently depending on your desk depth and how far back you sit, a shallow desk needs less reach than a deep one, and a standing desk that changes height throughout the day needs a wider vertical range to stay at eye level.\n\nThis matters more for anyone switching between sitting and standing regularly, less for a fixed single seated position.\n\nCheck the arm's listed reach and height range against your actual desk depth and how much your seated or standing eye level varies throughout the day."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -364,80 +354,102 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Dual Arm vs. Two Single Arms",
-    intro:
-      "This is the first decision to make, and it depends mainly on how similar your two monitors are.",
-    table: {
-      headers: ["Your situation", "Recommendation", "Best pick"],
-      rows: [
-        ["Two matched or near-matched monitors", "A true dual arm is simpler and cheaper", "VIVO Dual Monitor Desk Mount"],
-        ["Two very different-size or different-weight monitors", "Two independent single arms handle uneven loads better", "Two HUANUO TitanLift Heavy Duty Monitor Arms"],
-        ["Want to resell or reposition one monitor later without disturbing the other", "Two single arms give full independence", "Two HUANUO TitanLift Heavy Duty Monitor Arms"],
-        ["Tight budget, matched monitors, simplicity matters most", "One dual bracket, lowest total cost", "VIVO Dual Monitor Desk Mount ($34.99)"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Ergotron LX Dual Monitor Arm"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Ergotron LX Dual Monitor Arm"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Monitor Pairing",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $35",
+          "VIVO Dual Monitor Desk Mount"
+        ],
+        [
+          "Up to $485",
+          "Ergotron LX Vertical Stacking Dual Monitor Arm"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Gas Spring vs Friction-Hinge Arm",
+    "cards": [
       {
-        label: "Two similar 24-27\" monitors",
-        text: "The HUANUO FlowLift Dual Monitor Stand or VIVO Dual Monitor Desk Mount handle a matched pair well within their 19.8-22 lb per-arm ratings.",
+        "label": "Gas spring",
+        "text": "Smooth, effortless height adjustment that holds position reliably. In this comparison: Ergotron LX Dual Monitor Arm."
       },
       {
-        label: "A 27\" plus a 24\" mismatched pair",
-        text: "The HUANUO Dual Monitor Mount (Advanced System) with its 22 lb per-arm ceiling gives more headroom for the heavier side than the base FlowLift Dual.",
-      },
-      {
-        label: "An ultrawide plus a standard second monitor",
-        text: "Skip dual brackets entirely and pair a HUANUO TitanLift Heavy Duty Monitor Arm for the ultrawide with a lighter single arm for the second monitor.",
-      },
-      {
-        label: "Narrow desk, want to save horizontal space",
-        text: "The Ergotron LX Vertical Stacking Dual Monitor Arm or the budget HUANUO 17-32 Inch Vertical Dual Monitor Mount stack monitors instead of spreading them side by side.",
-      },
+        "label": "Friction hinge",
+        "text": "Simpler mechanism, usually cheaper but can loosen over time. In this comparison: Ergotron LX Vertical Stacking Dual Monitor Arm, HUANUO FlowLift Dual Monitor Stand, HUANUO FlowLift Pro Dual Monitor Mount, HUANUO Dual Monitor Mount, HUANUO 17, VIVO Dual Monitor Desk Mount, HUANUO TitanLift Heavy Duty Monitor Arm."
+      }
     ],
+    "note": "Default to gas spring for the smoothest, most reliable long-term adjustment."
   },
   {
-    subheading: "Pole Height vs. Desk Height vs. Your Height",
-    intro:
-      "A pole that's too short forces monitors below eye level no matter how good the arm otherwise is.",
-    table: {
-      headers: ["Desk height", "Your height", "What to check"],
-      rows: [
-        ["Standard 28-30\" desk", "Under 175cm", "Standard 40-50cm pole height works fine, any pick in this list"],
-        ["Standard 28-30\" desk", "180cm or taller", "Check the specific pole height spec, consider the taller Ergotron LX Vertical arm's pole"],
-        ["Standing desk raised past 42\"", "Any height", "Verify cable slack accommodates the full height range, gas spring arms like the Ergotron LX handle this better"],
+    "subheading": "By Mounting Method",
+    "table": {
+      "headers": [
+        "Desk situation",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Standard desk edge, clamp mount",
+          "HUANUO TitanLift Heavy Duty Monitor Arm"
+        ],
+        [
+          "Need a grommet hole mount instead",
+          "Ergotron LX Dual Monitor Arm"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Side-by-Side vs. Vertical Stacking by Room Type",
-    cards: [
+    "subheading": "For a Standing Desk Specifically",
+    "cards": [
       {
-        label: "Wide desk, standard home office",
-        text: "Side-by-side dual arms like the VIVO or HUANUO FlowLift Dual make the most of available desk width without needing extra ceiling clearance.",
+        "label": "Look for",
+        "text": "A wide vertical height range to stay at eye level through sit-stand transitions, plus a clamp rated for your desk's edge thickness."
       },
       {
-        label: "Narrow desk or small apartment desk",
-        text: "Vertical stacking with the Ergotron LX Vertical Stacking arm or the budget HUANUO 17-32 Inch Vertical Mount saves horizontal space at the cost of needing ceiling clearance.",
-      },
-    ],
-    note: "Measure your ceiling height before buying a vertical stacking arm, a stacked pair sits noticeably taller than any side-by-side configuration in this list.",
+        "label": "In this comparison",
+        "text": "Ergotron LX Dual Monitor Arm is worth checking against its listed height range before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Cable Management by Cable Type",
-    intro:
-      "Thicker modern cables don't always fit the small clips included on budget dual arms.",
-    table: {
-      headers: ["Cable type", "Fits standard clips?", "What to do"],
-      rows: [
-        ["Standard HDMI 1.4/2.0", "Usually yes", "Any pick in this list"],
-        ["Thick HDMI 2.1 or DisplayPort 1.4", "Often too thick for small clips", "Route outside the clip system or check clip size before buying"],
-        ["USB-C with power delivery", "Varies by cable thickness", "Test fit before fully routing through the arm"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You have a heavier or ultrawide monitor, where Ergotron LX Vertical Stacking Dual Monitor Arm's weight capacity and gas spring quality give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You have a light, standard monitor and just want basic height adjustment, where VIVO Dual Monitor Desk Mount covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export interface FaqItem {

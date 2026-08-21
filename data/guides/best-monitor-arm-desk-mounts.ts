@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31-J6rY9HEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07Q8TJ2KL?tag=deskfinds0d-20",
     description:
-      "The Ergotron LX includes both clamp and grommet mounting options and fits flat, curved, and ultrawide monitors up to 34 inches with a 7 to 25 lb capacity. Standard VESA 75x75mm or 100x100mm covers nearly every consumer monitor without needing an adapter kit.\n\nIts desk thickness tolerance and clamp design are built for a genuinely solid desk edge, not a hollow honeycomb-core desktop, and buyers should confirm their desk's underside construction before mounting rather than assuming the stated thickness range alone guarantees a safe fit.",
+      "The Ergotron LX includes both clamp and grommet mounting options and fits flat, curved, and ultrawide monitors up to 34 inches with a 7 to 25 lb capacity. Standard VESA 75x75mm or 100x100mm covers nearly every consumer monitor without needing an adapter kit.\n\nIts desk thickness tolerance and clamp design are built for a genuinely solid desk edge, not a hollow honeycomb-core desktop, and buyers should confirm their desk's underside construction before mounting rather than assuming the stated thickness range alone guarantees a safe fit.\n\nWide 7 to 25 lb capacity band. That's a real strength, but weigh it against the flip side: most expensive clamp/grommet pick in this list.",
     specs: [
       "Fits flat, curved, and ultrawide monitors up to 34\"",
       "7 to 25 lb capacity",
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41FAEzhc2PL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07T3KCQ94?tag=deskfinds0d-20",
     description:
-      "The FlowLift is one of the clearest clamp-versus-grommet comparisons in this list, shipping with both a C-clamp base and a grommet base in the same box for 13 to 32 inch monitors. That means you can decide which mount type your desk actually supports after unboxing rather than guessing beforehand.\n\nRated for 4.4 to 19.8 lbs with VESA mounting and full tilt, swivel, and rotation, it undercuts the Ergotron LX by more than $150 while covering the same two core mounting types.",
+      "The FlowLift is one of the clearest clamp-versus-grommet comparisons in this list, shipping with both a C-clamp base and a grommet base in the same box for 13 to 32 inch monitors. That means you can decide which mount type your desk actually supports after unboxing rather than guessing beforehand.\n\nRated for 4.4 to 19.8 lbs with VESA mounting and full tilt, swivel, and rotation, it undercuts the Ergotron LX by more than $150 while covering the same two core mounting types.\n\nWorth calling out specifically: strong value at under $35. The catch is lighter-duty build than the Ergotron LX.",
     specs: [
       "Fits 13 to 32\" monitors",
       "4.4 to 19.8 lb capacity",
@@ -105,7 +105,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Wd1NwAowL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQM6QB48?tag=deskfinds0d-20",
     description:
-      "ErGear's tool-free VESA clamp mount is the least expensive pick in this list and fits 13 to 34 inch screens without needing an Allen key to install. Cable management clips are built in, keeping setup simple for a first-time clamp mount buyer.\n\nMax VESA is capped at 100x100mm and the clamp needs a standard flat desk edge, so it isn't the pick for a honeycomb-core desktop or a desk thicker than the clamp's stated tolerance.",
+      "ErGear's tool-free VESA clamp mount is the least expensive pick in this list and fits 13 to 34 inch screens without needing an Allen key to install. Cable management clips are built in, keeping setup simple for a first-time clamp mount buyer.\n\nMax VESA is capped at 100x100mm and the clamp needs a standard flat desk edge, so it isn't the pick for a honeycomb-core desktop or a desk thicker than the clamp's stated tolerance.\n\nGenuinely tool-free clamp installation. Set against that, 100x100mm VESA cap excludes some larger panels. Both matter when comparing it to the other picks here.",
     specs: [
       "Fits 13 to 34\" screens",
       "Holds 19.8 lbs",
@@ -137,7 +137,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41muNp04WgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGPZR6P1?tag=deskfinds0d-20",
     description:
-      "WALI's clamp mount fits 13 to 34 inch screens and holds up to 26.4 lbs, the highest capacity of any sub-$20 clamp mount in this list. Standard 32-inch regular screen coverage and VESA 75/100mm compatibility round out the spec sheet.\n\nAt $19.99 it matches the ErGear pick on price but offers a meaningfully higher weight ceiling, which matters most if your monitor's actual panel weight (after subtracting the factory stand) runs closer to 20 lbs than 15.",
+      "WALI's clamp mount fits 13 to 34 inch screens and holds up to 26.4 lbs, the highest capacity of any sub-$20 clamp mount in this list. Standard 32-inch regular screen coverage and VESA 75/100mm compatibility round out the spec sheet.\n\nAt $19.99 it matches the ErGear pick on price but offers a meaningfully higher weight ceiling, which matters most if your monitor's actual panel weight (after subtracting the factory stand) runs closer to 20 lbs than 15.\n\nA genuine advantage here is that matches the lowest price point in this list. The tradeoff is clamp-only, no grommet base.",
     specs: [
       "Fits 13 to 34\" screens, regular screen up to 32\"",
       "Holds up to 26.4 lbs",
@@ -169,7 +169,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41--azXaNzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GK7FVTR4?tag=deskfinds0d-20",
     description:
-      "The FlowLift Pro combines tool-free VESA installation with both C-clamp and grommet base options, covering 13 to 32 inch screens at up to 19.8 lbs. It's one of the few mounts in this list that skips tools entirely while still offering a choice of mounting type.\n\nThe MechaSpring mechanism supports full tilt, swivel, and rotation, at under $30, positioning it as the easiest all-around setup for a mid-size monitor on a standard desk.",
+      "The FlowLift Pro combines tool-free VESA installation with both C-clamp and grommet base options, covering 13 to 32 inch screens at up to 19.8 lbs. It's one of the few mounts in this list that skips tools entirely while still offering a choice of mounting type.\n\nThe MechaSpring mechanism supports full tilt, swivel, and rotation, at under $30, positioning it as the easiest all-around setup for a mid-size monitor on a standard desk.\n\nUnder $30, strong value. That's a real strength, but weigh it against the flip side: 19.8 lb cap limits it to lighter and mid-size panels.",
     specs: [
       "Fits 13 to 32\" screens",
       "Max load 19.8 lbs",
@@ -201,7 +201,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419F+Cl-4lL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQ19YC9H?tag=deskfinds0d-20",
     description:
-      "The TitanLift uses a dual C-clamp base rather than a single clamp point, needed to safely support screens up to 49 inches and up to 44 lbs. That second clamp point matters most for a heavy ultrawide, since a single clamp under that much weight and leverage is more likely to loosen over time.\n\nAluminum construction backs the weight rating, but the dual clamp footprint needs more clear desk-underside space than any single-clamp mount in this list, confirm the clearance before ordering, especially on a desk with a support beam or drawer near the edge.",
+      "The TitanLift uses a dual C-clamp base rather than a single clamp point, needed to safely support screens up to 49 inches and up to 44 lbs. That second clamp point matters most for a heavy ultrawide, since a single clamp under that much weight and leverage is more likely to loosen over time.\n\nAluminum construction backs the weight rating, but the dual clamp footprint needs more clear desk-underside space than any single-clamp mount in this list, confirm the clearance before ordering, especially on a desk with a support beam or drawer near the edge.\n\nWorth calling out specifically: 44 lb capacity, by far the highest in this list. The catch is needs more clear desk-underside space than a single-clamp mount.",
     specs: [
       "Fits screens up to 49\"",
       "Holds up to 44 lbs",
@@ -233,7 +233,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/314R591Wn2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSJN4XSX?tag=deskfinds0d-20",
     description:
-      "The LX Pro brings the same clamp and grommet mounting flexibility as the standard LX to a refined 4 to 22 lb capacity band, better matched to lighter modern panels once the factory stand is removed. It fits flat, curved, and ultrawide monitors up to 34 inches with VESA 75x75mm or 100x100mm.\n\nAt the top of this list on price, it targets buyers who want Ergotron's mounting reliability in a white finish and plan to keep the same arm through several future monitor upgrades.",
+      "The LX Pro brings the same clamp and grommet mounting flexibility as the standard LX to a refined 4 to 22 lb capacity band, better matched to lighter modern panels once the factory stand is removed. It fits flat, curved, and ultrawide monitors up to 34 inches with VESA 75x75mm or 100x100mm.\n\nAt the top of this list on price, it targets buyers who want Ergotron's mounting reliability in a white finish and plan to keep the same arm through several future monitor upgrades.\n\nWhite finish option, uncommon in this category. Set against that, highest price in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "Fits flat, curved, and ultrawide monitors up to 34\"",
       "4 to 22 lb capacity",
@@ -265,7 +265,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31bAMzC7aaS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00358RFJ8?tag=deskfinds0d-20",
     description:
-      "This is the only wall-mounted option in this list, skipping the desk entirely for monitors up to 34 inches and 7 to 25 lbs. It solves the mounting problem for glass desks, honeycomb-core desktops that can't safely take a hard clamp, and rented desks where clamping or drilling into the furniture isn't allowed.\n\nInstallation requires mounting into a wall stud, which is a different job than a desk clamp but avoids desk compatibility questions altogether. Polished aluminum construction matches the rest of the Ergotron LX line's build quality.",
+      "This is the only wall-mounted option in this list, skipping the desk entirely for monitors up to 34 inches and 7 to 25 lbs. It solves the mounting problem for glass desks, honeycomb-core desktops that can't safely take a hard clamp, and rented desks where clamping or drilling into the furniture isn't allowed.\n\nInstallation requires mounting into a wall stud, which is a different job than a desk clamp but avoids desk compatibility questions altogether. Polished aluminum construction matches the rest of the Ergotron LX line's build quality.\n\nA genuine advantage here is that solves glass desk and honeycomb desktop compatibility problems entirely. The tradeoff is requires a wall stud in the right location relative to your desk.",
     specs: [
       "Fits monitors up to 34\"",
       "7 to 25 lb capacity",
@@ -323,35 +323,25 @@ export interface BuyingCriterion {
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Know the difference between clamp, grommet, freestanding, and wall mounts",
-    explanation:
-      "A clamp bites onto a desk edge and needs a solid, flat surface at least 1 inch thick. A grommet mount runs the pole through a hole in the desk, existing or drilled. A wall mount, like the Ergotron LX Wall Mount, skips the desk entirely by anchoring into a wall stud. Pick the type based on what your desk and your lease actually allow, not on price alone.",
+    "criterion": "Confirm your desk can actually grip the mounting base before comparing arms",
+    "explanation": "A monitor arm's clamp or grommet base needs a solid desk edge to grip securely, and this is the real first question to answer before comparing gas spring tension or weight capacity, since a hollow honeycomb-core desktop, a glass top, or a desk under about an inch thick can rule out an entire category of arms regardless of how good the arm itself is.\n\nThis matters because discovering after purchase that your desk simply can't mount the arm you bought is a common and entirely avoidable problem.\n\nCheck your desk's actual edge thickness and construction (solid, hollow-core, or glass), and confirm the arm's clamp or grommet base is explicitly rated for that construction before ordering."
   },
   {
-    criterion: "Honeycomb-core desktops need a lighter clamp touch",
-    explanation:
-      "Many flat-pack office desks use a hollow honeycomb-core desktop that isn't solid all the way through, even when it meets a clamp's stated thickness tolerance. Clamping too hard can dent the surface, so tighten gradually and check for give before fully seating the clamp on this type of desk.",
+    "criterion": "Check real per-arm weight capacity, not the bundled-stand weight printed on the monitor box",
+    "explanation": "Monitor weight ratings printed on the box often reference the monitor's included stand, not the bare panel weight relevant to a monitor arm, and a monitor arm's real weight capacity needs to match your specific monitor's actual panel weight without its stand, information usually found in the monitor's separate spec sheet rather than the box itself.\n\nThis matters directly for a larger or ultrawide monitor, where the gap between stand-inclusive and bare-panel weight can be substantial enough to matter.\n\nCheck your monitor's bare panel weight (without its stand) in its official spec sheet, and compare that specifically against the arm's rated capacity, not a generalized weight class."
   },
   {
-    criterion: "Non-VESA monitors need an adapter kit before anything else",
-    explanation:
-      "Monitors under $150 are frequently non-VESA, meaning they lack the standard mounting holes on the back panel. A VESA adapter kit solves this but adds cost and can shift the monitor's balance point, so check your monitor's spec sheet for VESA compatibility before buying any arm.",
+    "criterion": "Verify VESA compatibility for both your monitor and the arm's mounting plate",
+    "explanation": "VESA mounting patterns come in a few standard sizes (75x75mm and 100x100mm are most common), and a mismatch between your monitor's VESA pattern and the arm's mounting plate means the arm simply won't attach, some arms include an adapter for multiple patterns while others support only one.\n\nThis matters directly for a monitor with a non-standard or larger VESA pattern, particularly some ultrawide or curved monitors, where assuming universal compatibility can lead to an unusable purchase.\n\nCheck your monitor's specific VESA pattern in its spec sheet, and confirm the arm explicitly supports that pattern, either natively or with an included adapter, before ordering."
   },
   {
-    criterion: "Renters and glass desks should skip clamp and grommet mounts entirely",
-    explanation:
-      "If you can't clamp (glass desktop) or drill (rented furniture, no drilling allowed), a freestanding base or a wall mount like the Ergotron LX Wall Mount are the only realistic options. Don't force a clamp onto a desk edge it wasn't designed to grip.",
+    "criterion": "Understand gas spring tension and how it affects long-term reliability",
+    "explanation": "A gas spring monitor arm relies on an internal pressurized cylinder to hold the monitor at any height with minimal effort, and tension needs to be roughly matched to your monitor's actual weight, a monitor lighter than the spring's calibrated range can drift upward on its own, while pressure calibrated too low for a heavier monitor won't hold position and will slowly droop.\n\nThis matters for long-term usability, not just initial setup, since gas springs can also lose tension gradually over years of use.\n\nCheck the arm's rated weight range against your monitor's actual weight, favoring a monitor that falls comfortably within the middle of that range rather than at either extreme."
   },
   {
-    criterion: "Standing desks need extra cable slack and stronger clamp tension",
-    explanation:
-      "A monitor arm mounted on a standing desk goes through repeated height changes throughout the day, which stresses both the cable routing and the clamp's grip over time. Choose a mount built with real gas spring reliability, like the Ergotron LX, over a lighter-duty budget clamp if it's going on a standing desk.",
-  },
-  {
-    criterion: "Dual-clamp bases need more clearance than single-clamp mounts",
-    explanation:
-      "A heavy-duty mount like the HUANUO TitanLift uses a dual C-clamp base for stability under a large ultrawide, but that needs roughly 15-20cm of clear, flat desk-underside space, more than a standard single clamp. Measure your desk's clear underside space before ordering a dual-clamp mount.",
-  },
+    "criterion": "Consider reach and range of motion against your actual desk depth and seating position",
+    "explanation": "An arm's horizontal reach and vertical range of motion determine how far the monitor can extend from the mounting point and how much height adjustment is available, and these dimensions matter differently depending on your desk depth and how far back you sit, a shallow desk needs less reach than a deep one, and a standing desk that changes height throughout the day needs a wider vertical range to stay at eye level.\n\nThis matters more for anyone switching between sitting and standing regularly, less for a fixed single seated position.\n\nCheck the arm's listed reach and height range against your actual desk depth and how much your seated or standing eye level varies throughout the day."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -364,82 +354,102 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Which Mounting Type Fits Your Desk?",
-    intro:
-      "This is the single most important decision, since it rules out entire product categories before you even compare weight capacity.",
-    table: {
-      headers: ["Desk situation", "Mounting type needed", "Best pick"],
-      rows: [
-        ["Solid wood or laminate desk, clampable edge", "Clamp mount", "WALI Single Monitor Mount or ErGear Single Monitor Arm"],
-        ["Existing grommet hole or willing to drill", "Grommet base", "HUANUO FlowLift Single Monitor Mount"],
-        ["Glass desktop", "Neither clamp nor grommet, needs a wall mount instead", "Ergotron LX Single Monitor Arm, VESA Wall Mount"],
-        ["Rented desk, no drilling or permanent clamp allowed", "Wall mount into a stud, or a removable clamp", "Ergotron LX Wall Mount or ErGear Single Monitor Arm"],
-        ["Hollow honeycomb-core desktop", "Clamp, but tighten gradually and check for give", "HUANUO FlowLift Pro Monitor Arm (tool-free, easy to reposition)"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Ergotron LX Monitor Arm"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Ergotron LX Monitor Arm"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Glass Desk? Rented Desk? Honeycomb Desktop?",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $20",
+          "ErGear Single Monitor Arm"
+        ],
+        [
+          "Up to $240",
+          "Ergotron LX Single Monitor Arm"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Dual-Monitor Arm vs Single-Monitor Arm",
+    "cards": [
       {
-        label: "Glass desk",
-        text: "Skip clamp mounts entirely, they can crack or fail to grip glass safely. The Ergotron LX Wall Mount avoids the desk surface altogether.",
+        "label": "Dual-monitor arm",
+        "text": "Mounts two monitors from one clamp point, worth checking the combined weight rating. In this comparison: WALI Single Monitor Mount, HUANUO TitanLift Heavy Duty Monitor Arm."
       },
       {
-        label: "Rented desk or office furniture you can't modify",
-        text: "A wall mount into a stud, like the Ergotron LX Wall Mount, or a removable clamp like the ErGear Single Monitor Arm both avoid permanent drilling into furniture that isn't yours.",
-      },
-      {
-        label: "Honeycomb-core or hollow desktop",
-        text: "A clamp can technically fit the thickness spec but still dent a hollow core if over-tightened. Tighten gradually with any clamp mount and check for give as you go, the HUANUO FlowLift Pro's tool-free design makes it easy to reposition if the first spot doesn't feel solid.",
-      },
-      {
-        label: "Standard solid wood or laminate desk",
-        text: "Any clamp mount in this list works reliably, from the budget WALI Single Monitor Mount to the premium Ergotron LX.",
-      },
+        "label": "Single-monitor arm",
+        "text": "Simpler and usually cheaper per monitor, fine for a one-screen setup. In this comparison: Ergotron LX Monitor Arm, HUANUO FlowLift Single Monitor Mount, ErGear Single Monitor Arm, HUANUO FlowLift Pro Monitor Arm, Ergotron LX Pro Premium Monitor Arm, Ergotron LX Single Monitor Arm."
+      }
     ],
+    "note": "Default to single arms unless you're mounting two monitors from the same desk clamp point."
   },
   {
-    subheading: "VESA Adapter Needs for Non-VESA Monitors",
-    intro:
-      "Cheaper monitors, especially under $150, often skip standard VESA mounting holes entirely.",
-    table: {
-      headers: ["Monitor type", "VESA status", "What you need"],
-      rows: [
-        ["Mid-range and premium monitors (most $150+)", "Usually VESA 75x75mm or 100x100mm", "Any pick in this list works directly"],
-        ["Budget monitors under $150", "Often non-VESA", "A separate VESA adapter kit, then any arm here fits"],
-        ["Large ultrawide or curved gaming monitor", "Usually VESA but check max pattern", "Confirm against the HUANUO TitanLift's 100x100mm max VESA before buying"],
+    "subheading": "By Mounting Method",
+    "table": {
+      "headers": [
+        "Desk situation",
+        "Recommended pick"
       ],
-    },
-    note: "A VESA adapter kit adds cost and can shift a monitor's balance point slightly, so budget an extra $10-20 and expect a small adjustment period after installing one.",
+      "rows": [
+        [
+          "Standard desk edge, clamp mount",
+          "ErGear Single Monitor Arm"
+        ],
+        [
+          "Need a grommet hole mount instead",
+          "Ergotron LX Monitor Arm"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Standing Desk vs. Regular Desk Requirements",
-    table: {
-      headers: ["Desk type", "What matters most", "Best pick"],
-      rows: [
-        ["Standing desk (height-adjustable)", "Cable slack across the full height range, strong clamp tension", "Ergotron LX Monitor Arm or Ergotron LX Pro"],
-        ["Regular fixed-height desk", "No special cable slack needed, any clamp mount works", "HUANUO FlowLift Single Monitor Mount or WALI Single Monitor Mount"],
-      ],
-    },
+    "subheading": "For a Standing Desk Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A wide vertical height range to stay at eye level through sit-stand transitions, plus a clamp rated for your desk's edge thickness."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Ergotron LX Monitor Arm is worth checking against its listed height range before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "By Budget",
-    cards: [
+    "subheading": "When to Spend More",
+    "cards": [
       {
-        label: "Under $25",
-        text: "The ErGear Single Monitor Arm ($19.98) and WALI Single Monitor Mount ($19.99) are the cheapest clamp mounts in this list.",
+        "label": "Spend more if",
+        "text": "You have a heavier or ultrawide monitor, where Ergotron LX Single Monitor Arm's weight capacity and gas spring quality give real headroom over the cheaper picks."
       },
       {
-        label: "$25-100",
-        text: "The HUANUO FlowLift Pro ($29.99), FlowLift Single Monitor Mount ($33.22), and TitanLift Heavy Duty Monitor Arm ($93.98) cover tool-free, dual-mount, and dual-clamp needs.",
-      },
-      {
-        label: "$190-240",
-        text: "The Ergotron LX ($190.00), LX Pro ($199.00), and the wall-mount-only LX Wall Mount ($239.99) are the long-term or no-desk-clamp-needed picks.",
-      },
-    ],
-  },
+        "label": "Save if",
+        "text": "You have a light, standard monitor and just want basic height adjustment, where ErGear Single Monitor Arm covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export interface FaqItem {

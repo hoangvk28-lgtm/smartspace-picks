@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41FAEzhc2PL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07T3KCQ94?tag=deskfinds0d-20",
     description:
-      "The FlowLift fits 13 to 32 inch monitors rated for 4.4 to 19.8 lbs, and its clamp-or-grommet base gives you flexibility depending on your desk's edge thickness. Full-motion tilt, swivel, and rotation cover the adjustments most single-monitor setups actually need.\n\nAt this price it is a reasonable balance of features and durability for a standard flat monitor. It is not built for a curved or ultrawide panel, so check the weight and size limits closely if your monitor is on the larger side.",
+      "The FlowLift fits 13 to 32 inch monitors rated for 4.4 to 19.8 lbs, and its clamp-or-grommet base gives you flexibility depending on your desk's edge thickness. Full-motion tilt, swivel, and rotation cover the adjustments most single-monitor setups actually need.\n\nAt this price it is a reasonable balance of features and durability for a standard flat monitor. It is not built for a curved or ultrawide panel, so check the weight and size limits closely if your monitor is on the larger side.\n\nWorks with both clamp and grommet desk mounting. That's a real strength, but weigh it against the flip side: 4.4 lb minimum load can under-tension the lightest monitors.",
     specs: [
       "13-32 inch monitor compatibility",
       "Holds 4.4 to 19.8 lbs",
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41--azXaNzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GK7FVTR4?tag=deskfinds0d-20",
     description:
-      "The FlowLift Pro's MechaSpring mechanism is designed to give smoother, more even resistance through the arm's full range of motion, which matters most over years of daily height and angle changes. It fits the same 13-32 inch, 19.8 lb range as the standard FlowLift but with a more refined feel.\n\nTool-free VESA installation and a choice of C-clamp or grommet base keep setup simple. Buyers who plan to reposition their monitor frequently, standing desk users especially, benefit most from the smoother mechanism here.",
+      "The FlowLift Pro's MechaSpring mechanism is designed to give smoother, more even resistance through the arm's full range of motion, which matters most over years of daily height and angle changes. It fits the same 13-32 inch, 19.8 lb range as the standard FlowLift but with a more refined feel.\n\nTool-free VESA installation and a choice of C-clamp or grommet base keep setup simple. Buyers who plan to reposition their monitor frequently, standing desk users especially, benefit most from the smoother mechanism here.\n\nWorth calling out specifically: tool-free VESA head for quick setup. The catch is same 19.8 lb ceiling as the cheaper FlowLift.",
     specs: [
       "13-32 inch monitor compatibility",
       "MechaSpring mechanism for smoother adjustment",
@@ -114,7 +114,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Wd1NwAowL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQM6QB48?tag=deskfinds0d-20",
     description:
-      "The ErGear is the cheapest arm in this list at under $20, fitting monitors from 13 to 34 inches up to 19.8 lbs on a max VESA 100x100mm head. Tool-free installation makes it approachable for a first-time monitor arm buyer.\n\nAt this price, expect more friction in the adjustment feel and a base clamp that needs care not to overtighten on a thin or hollow-core desktop. It is a solid entry point if your monitor and use case are both modest.",
+      "The ErGear is the cheapest arm in this list at under $20, fitting monitors from 13 to 34 inches up to 19.8 lbs on a max VESA 100x100mm head. Tool-free installation makes it approachable for a first-time monitor arm buyer.\n\nAt this price, expect more friction in the adjustment feel and a base clamp that needs care not to overtighten on a thin or hollow-core desktop. It is a solid entry point if your monitor and use case are both modest.\n\nTool-free VESA mounting. Set against that, more adjustment friction than the FlowLift Pro's smoother mechanism. Both matter when comparing it to the other picks here.",
     specs: [
       "13-34 inch monitor VESA compatibility",
       "Holds up to 19.8 lbs total",
@@ -146,7 +146,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41muNp04WgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGPZR6P1?tag=deskfinds0d-20",
     description:
-      "WALI rates this arm for regular screens up to 32 inches and a 26.4 lb total load, noticeably higher capacity than the FlowLift or ErGear picks at a similar price. That headroom matters for a heavier 32-inch panel that would otherwise sit right at a budget arm's limit.\n\nVESA 75/100mm compatibility covers most standard monitors. Cable management is basic compared to the pricier arms in this list, so plan on a separate cable sleeve if that matters to your setup.",
+      "WALI rates this arm for regular screens up to 32 inches and a 26.4 lb total load, noticeably higher capacity than the FlowLift or ErGear picks at a similar price. That headroom matters for a heavier 32-inch panel that would otherwise sit right at a budget arm's limit.\n\nVESA 75/100mm compatibility covers most standard monitors. Cable management is basic compared to the pricier arms in this list, so plan on a separate cable sleeve if that matters to your setup.\n\nA genuine advantage here is that wide 13-34 inch monitor compatibility. The tradeoff is cable management is minimal.",
     specs: [
       "13-34 inch monitor compatibility",
       "Regular screens up to 32 inches supported",
@@ -177,7 +177,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41n18T7NMSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G523STF2?tag=deskfinds0d-20",
     description:
-      "The SmooVex fits monitors up to 32 inches on a standard VESA 75/100mm head, with a compact base that suits smaller desks where a bulkier clamp would eat into usable surface area. Its mechanical spring mount provides steady, consistent resistance.\n\nThis is a straightforward single-arm option without extra frills, well suited to a shallower desk where reach range matters more than raw weight capacity.",
+      "The SmooVex fits monitors up to 32 inches on a standard VESA 75/100mm head, with a compact base that suits smaller desks where a bulkier clamp would eat into usable surface area. Its mechanical spring mount provides steady, consistent resistance.\n\nThis is a straightforward single-arm option without extra frills, well suited to a shallower desk where reach range matters more than raw weight capacity.\n\nStandard VESA 75/100mm fits most monitors. That's a real strength, but weigh it against the flip side: weight rating not disclosed as clearly as the WALI or TitanLift picks.",
     specs: [
       "Fits monitors up to 32 inches",
       "VESA 75/100mm mount",
@@ -208,7 +208,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31-J6rY9HEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07Q8TJ2KL?tag=deskfinds0d-20",
     description:
-      "Ergotron's LX fits flat, curved, and ultrawide monitors up to 34 inches at 7 to 25 lbs, and it is one of the few arms in this list explicitly rated for curved panels, which carry a different center of gravity than flat screens and need a wide enough VESA head plate to handle it. Its gas spring is built for years of daily use.\n\nThe long warranty on this line is worth understanding correctly: it covers manufacturing defects, not the normal gas spring sag that happens after years of repositioning. Most premium arms, including this one, include a tension-adjustment screw at the joint that can be retightened if sag appears, which budget arms typically lack.",
+      "Ergotron's LX fits flat, curved, and ultrawide monitors up to 34 inches at 7 to 25 lbs, and it is one of the few arms in this list explicitly rated for curved panels, which carry a different center of gravity than flat screens and need a wide enough VESA head plate to handle it. Its gas spring is built for years of daily use.\n\nThe long warranty on this line is worth understanding correctly: it covers manufacturing defects, not the normal gas spring sag that happens after years of repositioning. Most premium arms, including this one, include a tension-adjustment screw at the joint that can be retightened if sag appears, which budget arms typically lack.\n\nWorth calling out specifically: premium gas spring with a retightenable tension screw. The catch is significantly more expensive than the budget arms here.",
     specs: [
       "Fits flat, curved, and ultrawide monitors up to 34 inches",
       "7 to 25 lb capacity",
@@ -239,7 +239,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/314R591Wn2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSJN4XSX?tag=deskfinds0d-20",
     description:
-      "The upgraded LX Pro covers flat, curved, and ultrawide monitors up to 34 inches at 4 to 22 lbs, with the same dual VESA pattern support as the standard LX and a refined joint design. Ergotron backs this line with one of the longer warranty periods in this category.\n\nIt's worth being clear about what that warranty actually covers: manufacturing defects, not the gradual gas spring sag that is normal wear after a year or two of daily adjustment. The white finish and smoother joint action are the main differences from the standard LX.",
+      "The upgraded LX Pro covers flat, curved, and ultrawide monitors up to 34 inches at 4 to 22 lbs, with the same dual VESA pattern support as the standard LX and a refined joint design. Ergotron backs this line with one of the longer warranty periods in this category.\n\nIt's worth being clear about what that warranty actually covers: manufacturing defects, not the gradual gas spring sag that is normal wear after a year or two of daily adjustment. The white finish and smoother joint action are the main differences from the standard LX.\n\nRefined joint design for smoother long-term adjustment. Set against that, highest price in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "Fits flat, curved, and ultrawide monitors up to 34 inches",
       "4 to 22 lb capacity",
@@ -270,7 +270,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419F+Cl-4lL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQ19YC9H?tag=deskfinds0d-20",
     description:
-      "The TitanLift is rated for screens up to 49 inches and up to 44 lbs, well above every other single arm in this list, which makes it the pick for a genuinely heavy ultrawide monitor. Aluminum construction and a dual C-clamp base add real stability under that kind of load.\n\nThe higher weight rating also means less wobble when typing on a mechanical keyboard or leaning on the desk, since the arm has more structural margin than a budget arm running near its limit. It costs more than the mid-tier picks here, but that's the trade-off for supporting a genuinely large panel.",
+      "The TitanLift is rated for screens up to 49 inches and up to 44 lbs, well above every other single arm in this list, which makes it the pick for a genuinely heavy ultrawide monitor. Aluminum construction and a dual C-clamp base add real stability under that kind of load.\n\nThe higher weight rating also means less wobble when typing on a mechanical keyboard or leaning on the desk, since the arm has more structural margin than a budget arm running near its limit. It costs more than the mid-tier picks here, but that's the trade-off for supporting a genuinely large panel.\n\nA genuine advantage here is that rated for screens up to 49 inches. The tradeoff is priced above the mid-tier picks in this list.",
     specs: [
       "Fits screens up to 49 inches",
       "Holds up to 44 lbs",
@@ -323,35 +323,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Match arm reach to your actual desk depth",
-    explanation:
-      "An arm needs roughly 20cm of reach for a 60cm-deep desk, or 35-40cm for an 80cm-deep desk, to comfortably position a monitor at eye level and a normal viewing distance. Check the arm's maximum reach and minimum retraction spec against your desk's real depth, not just its monitor size compatibility.",
+    "criterion": "Confirm your desk can actually grip the mounting base before comparing arms",
+    "explanation": "A monitor arm's clamp or grommet base needs a solid desk edge to grip securely, and this is the real first question to answer before comparing gas spring tension or weight capacity, since a hollow honeycomb-core desktop, a glass top, or a desk under about an inch thick can rule out an entire category of arms regardless of how good the arm itself is.\n\nThis matters because discovering after purchase that your desk simply can't mount the arm you bought is a common and entirely avoidable problem.\n\nCheck your desk's actual edge thickness and construction (solid, hollow-core, or glass), and confirm the arm's clamp or grommet base is explicitly rated for that construction before ordering."
   },
   {
-    criterion: "Gas spring sag is normal wear, and some arms let you fix it",
-    explanation:
-      "Most arms lose some tension after a year or two of daily height and angle changes, causing the monitor to drift downward on its own. Premium arms like the Ergotron LX and LX Pro include a tension-adjustment screw at the joint that can be retightened, while budget arms typically lack this and need replacing once they sag.",
+    "criterion": "Check real per-arm weight capacity, not the bundled-stand weight printed on the monitor box",
+    "explanation": "Monitor weight ratings printed on the box often reference the monitor's included stand, not the bare panel weight relevant to a monitor arm, and a monitor arm's real weight capacity needs to match your specific monitor's actual panel weight without its stand, information usually found in the monitor's separate spec sheet rather than the box itself.\n\nThis matters directly for a larger or ultrawide monitor, where the gap between stand-inclusive and bare-panel weight can be substantial enough to matter.\n\nCheck your monitor's bare panel weight (without its stand) in its official spec sheet, and compare that specifically against the arm's rated capacity, not a generalized weight class."
   },
   {
-    criterion: "Expect more wobble from budget arms under typing pressure",
-    explanation:
-      "A monitor on an arm will shake slightly when you type on a mechanical keyboard or lean on the desk, and cheaper arms wobble noticeably more than premium ones. If your desk sees heavy mechanical keyboard use, the TitanLift's aluminum build or the Ergotron picks hold steadier than the lightest budget clamps.",
+    "criterion": "Verify VESA compatibility for both your monitor and the arm's mounting plate",
+    "explanation": "VESA mounting patterns come in a few standard sizes (75x75mm and 100x100mm are most common), and a mismatch between your monitor's VESA pattern and the arm's mounting plate means the arm simply won't attach, some arms include an adapter for multiple patterns while others support only one.\n\nThis matters directly for a monitor with a non-standard or larger VESA pattern, particularly some ultrawide or curved monitors, where assuming universal compatibility can lead to an unusable purchase.\n\nCheck your monitor's specific VESA pattern in its spec sheet, and confirm the arm explicitly supports that pattern, either natively or with an included adapter, before ordering."
   },
   {
-    criterion: "Curved monitors need a wider VESA head plate",
-    explanation:
-      "Curved and ultrawide panels are heavier and have a different center of gravity than flat monitors, so they need an arm explicitly rated for that and a wide-enough VESA head plate to support it evenly. The Ergotron LX and LX Pro in this list are explicitly rated for curved and ultrawide use.",
+    "criterion": "Understand gas spring tension and how it affects long-term reliability",
+    "explanation": "A gas spring monitor arm relies on an internal pressurized cylinder to hold the monitor at any height with minimal effort, and tension needs to be roughly matched to your monitor's actual weight, a monitor lighter than the spring's calibrated range can drift upward on its own, while pressure calibrated too low for a heavier monitor won't hold position and will slowly droop.\n\nThis matters for long-term usability, not just initial setup, since gas springs can also lose tension gradually over years of use.\n\nCheck the arm's rated weight range against your monitor's actual weight, favoring a monitor that falls comfortably within the middle of that range rather than at either extreme."
   },
   {
-    criterion: "Standing desk users need a sturdier spring and longer cable slack",
-    explanation:
-      "An arm on a standing desk goes through repeated height changes throughout the day, which strains a basic gas spring faster than a stationary desk setup. The FlowLift Pro's smoother MechaSpring mechanism handles this repeated adjustment more comfortably than a standard fixed-tension arm.",
-  },
-  {
-    criterion: "A long warranty covers defects, not normal wear",
-    explanation:
-      "Ergotron's extended warranty on the LX and LX Pro covers manufacturing defects, not the gradual gas spring sag that happens naturally after years of adjustment. Don't assume a long warranty period means a free replacement once a spring loses tension through normal use.",
-  },
+    "criterion": "Consider reach and range of motion against your actual desk depth and seating position",
+    "explanation": "An arm's horizontal reach and vertical range of motion determine how far the monitor can extend from the mounting point and how much height adjustment is available, and these dimensions matter differently depending on your desk depth and how far back you sit, a shallow desk needs less reach than a deep one, and a standing desk that changes height throughout the day needs a wider vertical range to stay at eye level.\n\nThis matters more for anyone switching between sitting and standing regularly, less for a fixed single seated position.\n\nCheck the arm's listed reach and height range against your actual desk depth and how much your seated or standing eye level varies throughout the day."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -364,84 +354,102 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Arm Reach vs. Desk Depth",
-    intro:
-      "Reach spec matters more than monitor size compatibility once you know how deep your desk actually is.",
-    table: {
-      headers: ["Desk depth", "Reach needed", "Best pick"],
-      rows: [
-        ["50-60cm desk", "Around 20cm reach", "ErGear, NB SmooVex"],
-        ["60-70cm desk", "20-30cm reach", "HUANUO FlowLift, FlowLift Pro"],
-        ["80cm+ desk", "35-40cm reach", "WALI Single Monitor Mount, Ergotron LX"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "HUANUO FlowLift Single Monitor Mount"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "HUANUO FlowLift Single Monitor Mount"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Gas Spring Sag: Signs and How to Fix It",
-    intro:
-      "If your monitor slowly drifts downward over months of use, that's gas spring sag, and how fixable it is depends on the arm.",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $20",
+          "ErGear Single Monitor Arm"
+        ],
+        [
+          "Up to $199",
+          "Ergotron Upgraded LX Pro Premium Monitor Arm"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Dual-Monitor Arm vs Single-Monitor Arm",
+    "cards": [
       {
-        label: "Premium arms with a tension screw",
-        text: "The Ergotron LX and LX Pro include a retightenable tension-adjustment screw at the joint, so sag can usually be corrected rather than requiring a replacement.",
+        "label": "Dual-monitor arm",
+        "text": "Mounts two monitors from one clamp point, worth checking the combined weight rating. In this comparison: Ergotron Upgraded LX Pro Premium Monitor Arm, HUANUO TitanLift Heavy Duty Monitor Arm."
       },
       {
-        label: "Budget arms without one",
-        text: "The ErGear, FlowLift, and SmooVex picks are fixed-tension designs and typically need replacing once sag sets in after a year or two of daily use.",
-      },
+        "label": "Single-monitor arm",
+        "text": "Simpler and usually cheaper per monitor, fine for a one-screen setup. In this comparison: HUANUO FlowLift Single Monitor Mount, HUANUO FlowLift Pro Monitor Arm, ErGear Single Monitor Arm, WALI Single Monitor Mount, NB SmooVex Monitor Mount, Ergotron LX Monitor Arm."
+      }
     ],
-    note: "Retightening a tension screw is a normal maintenance step, not a sign the arm is failing, but it only works on arms designed with that adjustment in the first place.",
+    "note": "Default to single arms unless you're mounting two monitors from the same desk clamp point."
   },
   {
-    subheading: "By Typing and Desk-Pressure Stability",
-    intro:
-      "If you type on a mechanical keyboard or often lean on the desk, wobble resistance matters more than it looks on a spec sheet.",
-    table: {
-      headers: ["Setup", "Wobble risk", "Best pick"],
-      rows: [
-        ["Light typing, quiet desk use", "Low with any arm here", "ErGear, NB SmooVex"],
-        ["Daily mechanical keyboard use", "Noticeable on budget arms", "HUANUO FlowLift Pro, WALI"],
-        ["Heavy typing plus a large monitor", "Highest without a sturdy arm", "HUANUO TitanLift, Ergotron LX"],
+    "subheading": "By Mounting Method",
+    "table": {
+      "headers": [
+        "Desk situation",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Standard desk edge, clamp mount",
+          "ErGear Single Monitor Arm"
+        ],
+        [
+          "Need a grommet hole mount instead",
+          "HUANUO FlowLift Single Monitor Mount"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Curved and Ultrawide Monitor Compatibility",
-    cards: [
+    "subheading": "For a Standing Desk Specifically",
+    "cards": [
       {
-        label: "Flat monitor, standard size",
-        text: "Any arm in this list works, the FlowLift and ErGear cover 13-32 inch flat panels comfortably.",
+        "label": "Look for",
+        "text": "A wide vertical height range to stay at eye level through sit-stand transitions, plus a clamp rated for your desk's edge thickness."
       },
       {
-        label: "Curved or ultrawide panel",
-        text: "Stick to the Ergotron LX or LX Pro, both explicitly rated for curved and ultrawide use with a wide-enough VESA head plate for the shifted center of gravity.",
+        "label": "In this comparison",
+        "text": "HUANUO FlowLift Single Monitor Mount is worth checking against its listed height range before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You have a heavier or ultrawide monitor, where Ergotron Upgraded LX Pro Premium Monitor Arm's weight capacity and gas spring quality give real headroom over the cheaper picks."
       },
-    ],
-  },
-  {
-    subheading: "Standing Desk vs. Regular Desk",
-    intro:
-      "A standing desk arm goes through far more repeated height adjustment than a stationary setup, which changes what to prioritize.",
-    table: {
-      headers: ["Desk type", "Priority", "Best pick"],
-      rows: [
-        ["Regular, stationary desk", "Price and basic reach", "ErGear, WALI"],
-        ["Standing desk, occasional height changes", "Smoother, more durable spring", "HUANUO FlowLift Pro"],
-        ["Standing desk, frequent height changes daily", "Sturdier build plus warranty", "Ergotron LX or LX Pro"],
-      ],
-    },
-  },
-  {
-    subheading: "Warranty Quick Reference",
-    table: {
-      headers: ["Pick", "What warranty typically covers", "What it doesn't"],
-      rows: [
-        ["ErGear, WALI, NB SmooVex", "Basic manufacturer defect coverage", "Gas spring sag from normal wear"],
-        ["HUANUO FlowLift / FlowLift Pro / TitanLift", "Standard defect coverage", "Wobble or sag after extended daily use"],
-        ["Ergotron LX / LX Pro", "Extended defect coverage, longer term", "Normal gas spring wear, that's what the tension screw is for"],
-      ],
-    },
-  },
+      {
+        "label": "Save if",
+        "text": "You have a light, standard monitor and just want basic height adjustment, where ErGear Single Monitor Arm covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

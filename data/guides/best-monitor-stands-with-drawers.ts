@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51I1QfNfgIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B088NHGC48?tag=deskfinds0d-20",
     description:
-      "For buyers wanting a proven, high-review-volume drawer stand Built with a metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nThe drawer capacity is a separate spec from the 44 lb top platform rating, keep that distinction in mind. As with any shelf in this weight class, a single heavy item centered on the platform concentrates more stress than the rating reflects, so keep that margin in mind.",
+      "For buyers wanting a proven, high-review-volume drawer stand Built with a metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nThe drawer capacity is a separate spec from the 44 lb top platform rating, keep that distinction in mind. As with any shelf in this weight class, a single heavy item centered on the platform concentrates more stress than the rating reflects, so keep that margin in mind.\n\nMetal build appropriate for this use case. That's a real strength, but weigh it against the flip side: rated capacity assumes evenly distributed weight, not a single point load.",
     specs: ["44 lbs rated capacity (evenly distributed)", "metal construction", "Priced at $19.99", "13,752 ratings on Amazon"],
     pros: ["Solid 4.7-star rating with 13,752 ratings", "Metal build appropriate for this use case", "Reasonable price at $19.99", "A 2-tier stand with a genuine drawer, worth checking its slide rail type before assuming smooth long-term operation."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load", "Footprint reduces some usable desk depth", "Verify current buyer feedback before assuming fit for an edge-case desk"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51iOtKHzvCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DB8F7GDN?tag=deskfinds0d-20",
     description:
-      "For budget buyers who still want a genuine drawer, not just a shelf Built with a wood and metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nIts slide rail is a simpler friction-fit type, appropriate for light daily use rather than heavy repeated loading. As with any shelf in this weight class, a single heavy item centered on the platform concentrates more stress than the rating reflects, so keep that margin in mind.",
+      "For budget buyers who still want a genuine drawer, not just a shelf Built with a wood and metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nIts slide rail is a simpler friction-fit type, appropriate for light daily use rather than heavy repeated loading. As with any shelf in this weight class, a single heavy item centered on the platform concentrates more stress than the rating reflects, so keep that margin in mind.\n\nWorth calling out specifically: wood and metal build appropriate for this use case. The catch is rated capacity assumes evenly distributed weight, not a single point load.",
     specs: ["44 lbs rated capacity (evenly distributed)", "wood and metal construction", "Priced at $19.99", "3,082 ratings on Amazon"],
     pros: ["Solid 4.7-star rating with 3,082 ratings", "Wood and metal build appropriate for this use case", "Reasonable price at $19.99", "A 2-tier stand with drawer and pen holders at a lower price point."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load", "Footprint reduces some usable desk depth", "Verify current buyer feedback before assuming fit for an edge-case desk"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51YEL4BLDcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCC5S4SX?tag=deskfinds0d-20",
     description:
-      "For buyers wanting more drawer capacity split across two compartments Built with a metal platform rated to 50 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nTwo smaller drawers can each hold less than one larger drawer, worth checking combined capacity claims carefully. As with any shelf in this weight class, a single heavy item centered on the platform concentrates more stress than the rating reflects, so keep that margin in mind.",
+      "For buyers wanting more drawer capacity split across two compartments Built with a metal platform rated to 50 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nTwo smaller drawers can each hold less than one larger drawer, worth checking combined capacity claims carefully. As with any shelf in this weight class, a single heavy item centered on the platform concentrates more stress than the rating reflects, so keep that margin in mind.\n\nMetal build appropriate for this use case. Set against that, rated capacity assumes evenly distributed weight, not a single point load. Both matter when comparing it to the other picks here.",
     specs: ["50 lbs rated capacity (evenly distributed)", "metal construction", "Priced at $39.97", "235 ratings on Amazon"],
     pros: ["Solid 4.5-star rating with 235 ratings", "Metal build appropriate for this use case", "Reasonable price at $39.97", "A metal dual-monitor stand with two separate drawers and a built-in USB port."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load", "Footprint reduces some usable desk depth", "Verify current buyer feedback before assuming fit for an edge-case desk"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41gO3CCIg1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJKSMV2T?tag=deskfinds0d-20",
     description:
-      "For dual-monitor desks wanting combined-load stability with storage Built with a wood and metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nLoading both monitors and a full drawer at once tests combined-load stability more than either spec alone suggests. As with any shelf in this weight class, a single heavy item centered on the platform concentrates more stress than the rating reflects, so keep that margin in mind.",
+      "For dual-monitor desks wanting combined-load stability with storage Built with a wood and metal platform rated to 44 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nLoading both monitors and a full drawer at once tests combined-load stability more than either spec alone suggests. As with any shelf in this weight class, a single heavy item centered on the platform concentrates more stress than the rating reflects, so keep that margin in mind.\n\nA genuine advantage here is that wood and metal build appropriate for this use case. The tradeoff is rated capacity assumes evenly distributed weight, not a single point load.",
     specs: ["44 lbs rated capacity (evenly distributed)", "wood and metal construction", "Priced at $25.99", "3,096 ratings on Amazon"],
     pros: ["Solid 4.6-star rating with 3,096 ratings", "Wood and metal build appropriate for this use case", "Reasonable price at $25.99", "A wide dual-monitor riser with drawer and two pen holders."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load", "Footprint reduces some usable desk depth", "Verify current buyer feedback before assuming fit for an edge-case desk"],
@@ -101,32 +101,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Drawer Capacity Is a Separate Spec From the Top Platform",
-    note: "A stand's top surface might be rated for 44 lbs while its drawer is rated for a small fraction of that. Always check the drawer's own weight rating before storing anything heavy in it, don't assume the platform rating applies.",
-  },
-  {
-    subheading: "Slide Rail Type Predicts Long-Term Smoothness",
-    note: "Telescoping metal rails tend to stay smoother and quieter over years of daily use than simple friction-fit drawers. Reviews mentioning drawer performance after months of ownership are more reliable than initial unboxing impressions.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Best all-around drawer stand", "Simple Trending 2-Tier with Drawer"],
-        ["Lowest price with a genuine drawer", "OPNICE 2-Tier with Drawer"],
-        ["More storage split across two drawers", "Simple Trending 2-Tier Metal with USB & 2 Drawers"],
-        ["Dual-monitor stand with drawer", "gianotter Dual Monitor Stand with Drawer"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Simple Trending Monitor Stand with Drawer"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Simple Trending Monitor Stand with Drawer"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $20",
+          "Simple Trending Monitor Stand with Drawer"
+        ],
+        [
+          "Up to $40",
+          "Simple Trending 2"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Dual-Monitor Arm vs Single-Monitor Arm",
+    "cards": [
+      {
+        "label": "Dual-monitor arm",
+        "text": "Mounts two monitors from one clamp point, worth checking the combined weight rating. In this comparison: Simple Trending 2, gianotter Dual Monitor Stand Riser With Drawer and 2 Pen Holders."
+      },
+      {
+        "label": "Single-monitor arm",
+        "text": "Simpler and usually cheaper per monitor, fine for a one-screen setup. In this comparison: Simple Trending Monitor Stand with Drawer, OPNICE 2."
+      }
+    ],
+    "note": "Default to single arms unless you're mounting two monitors from the same desk clamp point."
+  },
+  {
+    "subheading": "By VESA Compatibility",
+    "note": "Check each pick's listed VESA pattern support against your specific monitor's spec sheet before buying, not just general compatibility claims. Simple Trending Monitor Stand with Drawer is the most-reviewed option here if you want the safer bet."
+  },
+  {
+    "subheading": "For a Standing Desk Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A wide vertical height range to stay at eye level through sit-stand transitions, plus a clamp rated for your desk's edge thickness."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Simple Trending Monitor Stand with Drawer is worth checking against its listed height range before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You have a heavier or ultrawide monitor, where Simple Trending 2's weight capacity and gas spring quality give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You have a light, standard monitor and just want basic height adjustment, where Simple Trending Monitor Stand with Drawer covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Check the drawer's own weight rating", explanation: "Never assume a drawer shares the top platform's weight capacity, look for the drawer's specific rating before loading it heavily." },
-  { criterion: "Look for slide rail type in the listing or reviews", explanation: "Telescoping rails tend to hold up better over years of daily use than simple friction-fit drawers." },
-  { criterion: "Consider combined-load stability, not isolated specs", explanation: "A monitor on top plus a fully loaded drawer tests the stand's overall stability more than either weight alone." },
-  { criterion: "Check for drawer noise in long-term reviews", explanation: "Initial unboxing impressions don't reveal sticking or noise that develops after months of regular use, look for reviews further out from purchase." },
+  {
+    "criterion": "Confirm your desk can actually grip the mounting base before comparing arms",
+    "explanation": "A monitor arm's clamp or grommet base needs a solid desk edge to grip securely, and this is the real first question to answer before comparing gas spring tension or weight capacity, since a hollow honeycomb-core desktop, a glass top, or a desk under about an inch thick can rule out an entire category of arms regardless of how good the arm itself is.\n\nThis matters because discovering after purchase that your desk simply can't mount the arm you bought is a common and entirely avoidable problem.\n\nCheck your desk's actual edge thickness and construction (solid, hollow-core, or glass), and confirm the arm's clamp or grommet base is explicitly rated for that construction before ordering."
+  },
+  {
+    "criterion": "Check real per-arm weight capacity, not the bundled-stand weight printed on the monitor box",
+    "explanation": "Monitor weight ratings printed on the box often reference the monitor's included stand, not the bare panel weight relevant to a monitor arm, and a monitor arm's real weight capacity needs to match your specific monitor's actual panel weight without its stand, information usually found in the monitor's separate spec sheet rather than the box itself.\n\nThis matters directly for a larger or ultrawide monitor, where the gap between stand-inclusive and bare-panel weight can be substantial enough to matter.\n\nCheck your monitor's bare panel weight (without its stand) in its official spec sheet, and compare that specifically against the arm's rated capacity, not a generalized weight class."
+  },
+  {
+    "criterion": "Verify VESA compatibility for both your monitor and the arm's mounting plate",
+    "explanation": "VESA mounting patterns come in a few standard sizes (75x75mm and 100x100mm are most common), and a mismatch between your monitor's VESA pattern and the arm's mounting plate means the arm simply won't attach, some arms include an adapter for multiple patterns while others support only one.\n\nThis matters directly for a monitor with a non-standard or larger VESA pattern, particularly some ultrawide or curved monitors, where assuming universal compatibility can lead to an unusable purchase.\n\nCheck your monitor's specific VESA pattern in its spec sheet, and confirm the arm explicitly supports that pattern, either natively or with an included adapter, before ordering."
+  },
+  {
+    "criterion": "Understand gas spring tension and how it affects long-term reliability",
+    "explanation": "A gas spring monitor arm relies on an internal pressurized cylinder to hold the monitor at any height with minimal effort, and tension needs to be roughly matched to your monitor's actual weight, a monitor lighter than the spring's calibrated range can drift upward on its own, while pressure calibrated too low for a heavier monitor won't hold position and will slowly droop.\n\nThis matters for long-term usability, not just initial setup, since gas springs can also lose tension gradually over years of use.\n\nCheck the arm's rated weight range against your monitor's actual weight, favoring a monitor that falls comfortably within the middle of that range rather than at either extreme."
+  },
+  {
+    "criterion": "Consider reach and range of motion against your actual desk depth and seating position",
+    "explanation": "An arm's horizontal reach and vertical range of motion determine how far the monitor can extend from the mounting point and how much height adjustment is available, and these dimensions matter differently depending on your desk depth and how far back you sit, a shallow desk needs less reach than a deep one, and a standing desk that changes height throughout the day needs a wider vertical range to stay at eye level.\n\nThis matters more for anyone switching between sitting and standing regularly, less for a fixed single seated position.\n\nCheck the arm's listed reach and height range against your actual desk depth and how much your seated or standing eye level varies throughout the day."
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Wd1NwAowL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQM6QB48?tag=deskfinds0d-20",
     description:
-      "At $19.98, the ErGear is the cheapest arm in this list and a genuine sub-$50 pick with real margin to spare. It fits 13 to 34 inch monitors up to 19.8 lbs on a max VESA 100x100mm head, with tool-free installation.\n\nAt this end of the price range, expect more friction when adjusting the arm and a plastic thumbscrew clamp that needs care not to overtighten, especially on a hollow-core or composite desktop where overtightening can dent the surface.",
+      "At $19.98, the ErGear is the cheapest arm in this list and a genuine sub-$50 pick with real margin to spare. It fits 13 to 34 inch monitors up to 19.8 lbs on a max VESA 100x100mm head, with tool-free installation.\n\nAt this end of the price range, expect more friction when adjusting the arm and a plastic thumbscrew clamp that needs care not to overtighten, especially on a hollow-core or composite desktop where overtightening can dent the surface.\n\nTool-free VESA mounting. That's a real strength, but weigh it against the flip side: more adjustment friction than pricier arms.",
     specs: [
       "13-34 inch monitor VESA compatibility",
       "Holds up to 19.8 lbs total",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41muNp04WgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGPZR6P1?tag=deskfinds0d-20",
     description:
-      "The WALI matches the ErGear's price almost exactly at $19.99 but rates a higher 26.4 lb total capacity for regular screens up to 32 inches, on standard VESA 75/100mm. That extra headroom is a real advantage at this price point for a monitor closer to 5-6 lbs.\n\nCable management is still minimal at this tier, and the clamp hardware is basic, so treat it the same way as the rest of the sub-$50 field: solid for a moderate monitor on a solid desk, not built for frequent heavy repositioning.",
+      "The WALI matches the ErGear's price almost exactly at $19.99 but rates a higher 26.4 lb total capacity for regular screens up to 32 inches, on standard VESA 75/100mm. That extra headroom is a real advantage at this price point for a monitor closer to 5-6 lbs.\n\nCable management is still minimal at this tier, and the clamp hardware is basic, so treat it the same way as the rest of the sub-$50 field: solid for a moderate monitor on a solid desk, not built for frequent heavy repositioning.\n\nWorth calling out specifically: wide 13-34 inch monitor compatibility. The catch is cable management is minimal.",
     specs: [
       "13-34 inch monitor compatibility",
       "Regular screens up to 32 inches supported",
@@ -114,7 +114,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41--azXaNzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GK7FVTR4?tag=deskfinds0d-20",
     description:
-      "At $29.99, the FlowLift Pro sits comfortably under the $50 mark while offering the smoothest adjustment feel of the sub-$50 picks here, thanks to its MechaSpring mechanism. It fits 13-32 inch monitors up to 19.8 lbs, with tool-free VESA installation.\n\nThis is a case where paying a bit more within the same budget tier buys a noticeably smoother experience, without crossing into the $80-100 tier where premium arms live.",
+      "At $29.99, the FlowLift Pro sits comfortably under the $50 mark while offering the smoothest adjustment feel of the sub-$50 picks here, thanks to its MechaSpring mechanism. It fits 13-32 inch monitors up to 19.8 lbs, with tool-free VESA installation.\n\nThis is a case where paying a bit more within the same budget tier buys a noticeably smoother experience, without crossing into the $80-100 tier where premium arms live.\n\nStill comfortably under $50. Set against that, 19.8 lb ceiling, same as the cheaper FlowLift. Both matter when comparing it to the other picks here.",
     specs: [
       "13-32 inch monitor compatibility",
       "MechaSpring mechanism for smoother adjustment",
@@ -146,7 +146,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41n18T7NMSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G523STF2?tag=deskfinds0d-20",
     description:
-      "The SmooVex comes in at $28.90, fitting monitors up to 32 inches on a standard VESA 75/100mm head with a compact base that suits a smaller desk. Its mechanical spring mount gives steady, predictable resistance for this price tier.\n\nAs with the other picks under $50, cable management is basic, typically just a couple of small clips, so plan accordingly if a clean cable run matters to your setup.",
+      "The SmooVex comes in at $28.90, fitting monitors up to 32 inches on a standard VESA 75/100mm head with a compact base that suits a smaller desk. Its mechanical spring mount gives steady, predictable resistance for this price tier.\n\nAs with the other picks under $50, cable management is basic, typically just a couple of small clips, so plan accordingly if a clean cable run matters to your setup.\n\nA genuine advantage here is that standard VESA 75/100mm fits most monitors. The tradeoff is cable management limited to basic clips.",
     specs: [
       "Fits monitors up to 32 inches",
       "VESA 75/100mm mount",
@@ -177,7 +177,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41FAEzhc2PL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07T3KCQ94?tag=deskfinds0d-20",
     description:
-      "At $33.22, the FlowLift still lands solidly under $50 and fits 13 to 32 inch monitors rated for 4.4 to 19.8 lbs, with a choice of clamp or grommet base mounting. Full-motion tilt, swivel, and rotation cover the adjustments most single-monitor setups need.\n\nThis is a middle-of-the-road option in the sub-$50 field, priced above the cheapest picks but with a broader monitor size range and more mounting flexibility than the compact SmooVex.",
+      "At $33.22, the FlowLift still lands solidly under $50 and fits 13 to 32 inch monitors rated for 4.4 to 19.8 lbs, with a choice of clamp or grommet base mounting. Full-motion tilt, swivel, and rotation cover the adjustments most single-monitor setups need.\n\nThis is a middle-of-the-road option in the sub-$50 field, priced above the cheapest picks but with a broader monitor size range and more mounting flexibility than the compact SmooVex.\n\nFits a broad 13-32 inch monitor range. That's a real strength, but weigh it against the flip side: 4.4 lb minimum load can under-tension very light monitors.",
     specs: [
       "13-32 inch monitor compatibility",
       "Holds 4.4 to 19.8 lbs",
@@ -208,7 +208,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41t32WYz36L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B009S750LA?tag=deskfinds0d-20",
     description:
-      "The VIVO is a dual monitor mount, not a single arm, holding two screens up to 30 inches and 22 lbs each on a heavy-duty steel frame with a C-clamp and grommet base. At $34.99, it's a genuinely budget way to add a second monitor arm rather than buying two single arms separately.\n\nSteel construction gives it more rigidity than the plastic-heavy single arms in this list, though as with any sub-$50 mount, expect firmer adjustment resistance than a premium arm and check your desk thickness against the clamp before installing.",
+      "The VIVO is a dual monitor mount, not a single arm, holding two screens up to 30 inches and 22 lbs each on a heavy-duty steel frame with a C-clamp and grommet base. At $34.99, it's a genuinely budget way to add a second monitor arm rather than buying two single arms separately.\n\nSteel construction gives it more rigidity than the plastic-heavy single arms in this list, though as with any sub-$50 mount, expect firmer adjustment resistance than a premium arm and check your desk thickness against the clamp before installing.\n\nWorth calling out specifically: 22 lbs per-monitor capacity, strong for the price. The catch is not a single monitor arm, requires desk space for two screens.",
     specs: [
       "Holds 2 monitors up to 30 inches each",
       "22 lbs per monitor capacity",
@@ -239,7 +239,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41T9ePShJ2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GK6DT5SF?tag=deskfinds0d-20",
     description:
-      "At $44.99, this is the priciest pick that still clears the under-$50 bar, and it brings HUANUO's MechaSpring mechanism to a dual monitor setup for 13-32 inch screens with tool-free VESA mounting. Each arm supports up to 19.8 lbs independently.\n\nThis is the pick if you want two monitors and the smoother adjustment feel of the MechaSpring mechanism without moving into the $80-100 premium tier. Tilt, swivel, and rotation are independent per arm.",
+      "At $44.99, this is the priciest pick that still clears the under-$50 bar, and it brings HUANUO's MechaSpring mechanism to a dual monitor setup for 13-32 inch screens with tool-free VESA mounting. Each arm supports up to 19.8 lbs independently.\n\nThis is the pick if you want two monitors and the smoother adjustment feel of the MechaSpring mechanism without moving into the $80-100 premium tier. Tilt, swivel, and rotation are independent per arm.\n\nStill under $50 even with two arms included. Set against that, highest price among the genuinely sub-$50 picks. Both matter when comparing it to the other picks here.",
     specs: [
       "Fits 2 monitors, 13-32 inches each",
       "MechaSpring mechanism per arm",
@@ -270,7 +270,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Mr-S3C6XL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07T5SY43L?tag=deskfinds0d-20",
     description:
-      "This dual monitor stand's verified price is $59.99, above the $50 mark this guide otherwise targets, so we're not labeling it as an under-$50 pick even though it was on the original candidate list. It fits 13-32 inch screens with each arm holding 4.4 to 19.8 lbs, full-motion VESA 75x75mm or 100x100mm support, and a C-clamp and grommet base.\n\nIf your budget has a little room to flex, it's worth knowing about as the natural next step up from the $44.99 FlowLift Pro Dual Mount, with the same full-motion adjustability across two independent arms. Just budget for the real $59.99 price rather than expecting it to land under $50.",
+      "This dual monitor stand's verified price is $59.99, above the $50 mark this guide otherwise targets, so we're not labeling it as an under-$50 pick even though it was on the original candidate list. It fits 13-32 inch screens with each arm holding 4.4 to 19.8 lbs, full-motion VESA 75x75mm or 100x100mm support, and a C-clamp and grommet base.\n\nIf your budget has a little room to flex, it's worth knowing about as the natural next step up from the $44.99 FlowLift Pro Dual Mount, with the same full-motion adjustability across two independent arms. Just budget for the real $59.99 price rather than expecting it to land under $50.\n\nA genuine advantage here is that wide VESA compatibility, 75x75mm or 100x100mm. The tradeoff is verified price is $59.99, above this guide's $50 target.",
     specs: [
       "Fits 2 monitors, 13-32 inches each",
       "4.4 to 19.8 lbs per arm",
@@ -322,35 +322,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Know the honest trade-offs of the sub-$50 tier",
-    explanation:
-      "Under $50 typically means more friction in the gas spring's adjustment feel, more noticeable wobble on 27-inch-plus monitors, and faster sag over a few years than an $80-100 arm delivers. The cheapest options in this range, roughly $20-25, can fail completely within 6-12 months, so budget for that possibility rather than expecting premium-tier durability.",
+    "criterion": "Confirm your desk can actually grip the mounting base before comparing arms",
+    "explanation": "A monitor arm's clamp or grommet base needs a solid desk edge to grip securely, and this is the real first question to answer before comparing gas spring tension or weight capacity, since a hollow honeycomb-core desktop, a glass top, or a desk under about an inch thick can rule out an entire category of arms regardless of how good the arm itself is.\n\nThis matters because discovering after purchase that your desk simply can't mount the arm you bought is a common and entirely avoidable problem.\n\nCheck your desk's actual edge thickness and construction (solid, hollow-core, or glass), and confirm the arm's clamp or grommet base is explicitly rated for that construction before ordering."
   },
   {
-    criterion: "Your monitor has a weight sweet spot, not just a maximum",
-    explanation:
-      "A budget arm rated for up to 22 lbs can actually wobble excessively with a light 5-6 lb monitor because the spring tension is calibrated too high relative to that load. Aim for roughly 4-8 lbs as the sweet spot for most budget arms, and treat anything above 10 lbs as a risk zone worth checking reviews for specifically.",
+    "criterion": "Check real per-arm weight capacity, not the bundled-stand weight printed on the monitor box",
+    "explanation": "Monitor weight ratings printed on the box often reference the monitor's included stand, not the bare panel weight relevant to a monitor arm, and a monitor arm's real weight capacity needs to match your specific monitor's actual panel weight without its stand, information usually found in the monitor's separate spec sheet rather than the box itself.\n\nThis matters directly for a larger or ultrawide monitor, where the gap between stand-inclusive and bare-panel weight can be substantial enough to matter.\n\nCheck your monitor's bare panel weight (without its stand) in its official spec sheet, and compare that specifically against the arm's rated capacity, not a generalized weight class."
   },
   {
-    criterion: "Overtightening a budget clamp can dent your desk",
-    explanation:
-      "Budget arms typically use a plastic thumbscrew with a steel jaw clamp, and overtightening it can dent a composite or hollow-core desktop, the kind common in flat-pack furniture. Tighten just until the arm stops shifting under light pressure, not as far as the screw will go.",
+    "criterion": "Verify VESA compatibility for both your monitor and the arm's mounting plate",
+    "explanation": "VESA mounting patterns come in a few standard sizes (75x75mm and 100x100mm are most common), and a mismatch between your monitor's VESA pattern and the arm's mounting plate means the arm simply won't attach, some arms include an adapter for multiple patterns while others support only one.\n\nThis matters directly for a monitor with a non-standard or larger VESA pattern, particularly some ultrawide or curved monitors, where assuming universal compatibility can lead to an unusable purchase.\n\nCheck your monitor's specific VESA pattern in its spec sheet, and confirm the arm explicitly supports that pattern, either natively or with an included adapter, before ordering."
   },
   {
-    criterion: "A budget arm is good enough in these specific cases",
-    explanation:
-      "A sub-$50 arm is a reasonable fit when your monitor is 21-24 inches, weighs 3-5kg, doesn't need frequent repositioning, and your desk is thick or solid rather than hollow-core. Outside those conditions, the wobble and sag trade-offs of this tier become more noticeable day to day.",
+    "criterion": "Understand gas spring tension and how it affects long-term reliability",
+    "explanation": "A gas spring monitor arm relies on an internal pressurized cylinder to hold the monitor at any height with minimal effort, and tension needs to be roughly matched to your monitor's actual weight, a monitor lighter than the spring's calibrated range can drift upward on its own, while pressure calibrated too low for a heavier monitor won't hold position and will slowly droop.\n\nThis matters for long-term usability, not just initial setup, since gas springs can also lose tension gradually over years of use.\n\nCheck the arm's rated weight range against your monitor's actual weight, favoring a monitor that falls comfortably within the middle of that range rather than at either extreme."
   },
   {
-    criterion: "Cable management is thin at this price point",
-    explanation:
-      "Most budget arms include only 1-2 small plastic clips rather than a full cable channel, leaving cables loose along the arm. If a clean cable run matters to you, plan on a separate cable sleeve rather than expecting the arm's built-in clips to handle it.",
-  },
-  {
-    criterion: "Know when the extra $30-50 is worth it",
-    explanation:
-      "If your monitor exceeds 25 lbs or you reposition it frequently throughout the day, spending the extra $30-50 for an $80-100 tier arm is genuinely worth it for a smoother, more durable mechanism. If neither applies, a well-matched sub-$50 arm from this list is a reasonable long-term choice.",
-  },
+    "criterion": "Consider reach and range of motion against your actual desk depth and seating position",
+    "explanation": "An arm's horizontal reach and vertical range of motion determine how far the monitor can extend from the mounting point and how much height adjustment is available, and these dimensions matter differently depending on your desk depth and how far back you sit, a shallow desk needs less reach than a deep one, and a standing desk that changes height throughout the day needs a wider vertical range to stay at eye level.\n\nThis matters more for anyone switching between sitting and standing regularly, less for a fixed single seated position.\n\nCheck the arm's listed reach and height range against your actual desk depth and how much your seated or standing eye level varies throughout the day."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -363,84 +353,106 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "What to Honestly Expect Under $50",
-    intro:
-      "Every pick in this price band trades some smoothness and long-term durability for a lower price, and it's worth knowing that upfront.",
-    cards: [
+    "subheading": "By Weight Capacity",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around 26.4 lbs capacity",
+          "WALI Single Monitor Mount"
+        ],
+        [
+          "Around 22 lbs capacity",
+          "VIVO Dual Monitor Desk Mount"
+        ],
+        [
+          "Around 19.8 lbs capacity",
+          "ErGear Single Monitor Arm"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $20",
+          "ErGear Single Monitor Arm"
+        ],
+        [
+          "Up to $60",
+          "HUANUO FlowLift Dual Monitor Stand"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Dual-Monitor Arm vs Single-Monitor Arm",
+    "cards": [
       {
-        label: "More adjustment friction",
-        text: "Budget arms like the ErGear and WALI feel firmer to reposition than the smoother FlowLift Pro's MechaSpring mechanism, which still costs under $30.",
+        "label": "Dual-monitor arm",
+        "text": "Mounts two monitors from one clamp point, worth checking the combined weight rating. In this comparison: VIVO Dual Monitor Desk Mount, HUANUO FlowLift Pro Dual Monitor Mount, HUANUO FlowLift Dual Monitor Stand."
       },
       {
-        label: "More wobble on larger monitors",
-        text: "A 27-inch-plus monitor will wobble more noticeably on any sub-$50 arm than it would on an $80-100 premium arm.",
-      },
-      {
-        label: "Faster sag over a few years",
-        text: "None of the picks in this list include a retightenable tension screw, so expect gradual sag sooner than a premium arm would show it.",
-      },
+        "label": "Single-monitor arm",
+        "text": "Simpler and usually cheaper per monitor, fine for a one-screen setup. In this comparison: ErGear Single Monitor Arm, WALI Single Monitor Mount, HUANUO FlowLift Pro Monitor Arm, NB SmooVex Monitor Mount, HUANUO FlowLift Single Monitor Mount."
+      }
     ],
+    "note": "Default to single arms unless you're mounting two monitors from the same desk clamp point."
   },
   {
-    subheading: "Monitor Weight Sweet Spot for Budget Arms",
-    table: {
-      headers: ["Monitor weight", "Fit for a budget arm", "Best pick"],
-      rows: [
-        ["Under 4 lbs", "Risk of under-tensioning, may drift up", "HUANUO FlowLift (4.4 lb minimum rated)"],
-        ["4-8 lbs (the sweet spot)", "Good match for most budget arms here", "ErGear, WALI, NB SmooVex"],
-        ["10 lbs+", "Push toward the higher-capacity WALI or a dual mount", "WALI Single Monitor Mount"],
+    "subheading": "By Mounting Method",
+    "table": {
+      "headers": [
+        "Desk situation",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Standard desk edge, clamp mount",
+          "ErGear Single Monitor Arm"
+        ],
+        [
+          "Need a grommet hole mount instead",
+          "HUANUO FlowLift Pro Monitor Arm"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Desk Clamping Damage Risk by Desk Type",
-    table: {
-      headers: ["Desk type", "Overtightening risk", "What to do"],
-      rows: [
-        ["Solid wood or metal desk", "Low", "Standard clamp tightening is fine"],
-        ["Composite or laminate desk", "Moderate", "Tighten just until the arm stops shifting"],
-        ["Hollow-core flat-pack desk", "High", "Use the grommet base option instead of the clamp where available"],
-      ],
-    },
-    note: "The WALI, FlowLift, and VIVO picks all support a grommet base as an alternative to clamping, which avoids edge-clamping pressure entirely on a hollow-core desktop.",
+    "subheading": "For a Standing Desk Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A wide vertical height range to stay at eye level through sit-stand transitions, plus a clamp rated for your desk's edge thickness."
+      },
+      {
+        "label": "In this comparison",
+        "text": "ErGear Single Monitor Arm is worth checking against its listed height range before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "When a Budget Arm Is Good Enough",
-    intro:
-      "A sub-$50 arm is a solid choice when all of these apply, not just one or two of them.",
-    cards: [
-      { label: "Monitor size", text: "21-24 inches, not a large 27-inch-plus panel" },
-      { label: "Monitor weight", text: "Roughly 3-5kg, within the sweet spot above" },
-      { label: "Repositioning habits", text: "Set it once, rarely adjust it daily" },
-      { label: "Desk construction", text: "Thick or solid, not hollow-core flat-pack" },
-      { label: "Budget priority", text: "Price matters more than a premium adjustment feel" },
-    ],
-  },
-  {
-    subheading: "Cable Management Rating by Pick",
-    table: {
-      headers: ["Pick", "Cable management", "Rating (1-5)"],
-      rows: [
-        ["ErGear", "Built-in channel", "3"],
-        ["WALI, NB SmooVex", "Basic clips only", "2"],
-        ["HUANUO FlowLift / FlowLift Pro (single)", "Clamp-integrated routing", "3"],
-        ["VIVO Dual, FlowLift Pro Dual", "Basic clips per arm", "2"],
-      ],
-    },
-  },
-  {
-    subheading: "When to Spend the Extra $30",
-    intro:
-      "The jump from a sub-$50 arm to the $80-100 tier is worth it in specific, identifiable situations.",
-    table: {
-      headers: ["Situation", "Worth the upgrade?", "Why"],
-      rows: [
-        ["Monitor over 25 lbs", "Yes", "Sub-$50 arms top out around 19.8-26.4 lbs, less margin for heavier panels"],
-        ["Reposition daily, multiple times", "Yes", "Premium gas springs and tension screws hold up better under frequent use"],
-        ["Monitor 21-24\", set once", "No", "A sub-$50 pick like the ErGear or WALI is genuinely good enough here"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You have a heavier or ultrawide monitor, where HUANUO FlowLift Dual Monitor Stand's weight capacity and gas spring quality give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You have a light, standard monitor and just want basic height adjustment, where ErGear Single Monitor Arm covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

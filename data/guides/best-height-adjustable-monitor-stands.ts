@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51VaGQY7KwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B095RLRP2L?tag=deskfinds0d-20",
     description:
-      "For buyers wanting reliable height adjustment with storage built in Built with a metal platform rated to 33 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nVerify how capacity is described at maximum extension versus collapsed height. As with any shelf in this weight class, a single heavy item centered on the platform concentrates more stress than the rating reflects, so keep that margin in mind.",
+      "For buyers wanting reliable height adjustment with storage built in Built with a metal platform rated to 33 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nVerify how capacity is described at maximum extension versus collapsed height. As with any shelf in this weight class, a single heavy item centered on the platform concentrates more stress than the rating reflects, so keep that margin in mind.\n\nMetal build appropriate for this use case. That's a real strength, but weigh it against the flip side: rated capacity assumes evenly distributed weight, not a single point load.",
     specs: ["33 lbs rated capacity (evenly distributed)", "metal construction", "Priced at $16.99", "2,320 ratings on Amazon"],
     pros: ["Solid 4.7-star rating with 2,320 ratings", "Metal build appropriate for this use case", "Reasonable price at $16.99", "A mechanism-based height-adjustable riser with a mesh drawer."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load", "Footprint reduces some usable desk depth", "Verify current buyer feedback before assuming fit for an edge-case desk"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/315v9gEvo9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08L3TMM2X?tag=deskfinds0d-20",
     description:
-      "For buyers wanting a straightforward mechanical height-adjustable platform Built with a metal platform rated to 33 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nA flat-platform design like this differs from VESA-mount stands in how the monitor actually attaches. As with any shelf in this weight class, a single heavy item centered on the platform concentrates more stress than the rating reflects, so keep that margin in mind.",
+      "For buyers wanting a straightforward mechanical height-adjustable platform Built with a metal platform rated to 33 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nA flat-platform design like this differs from VESA-mount stands in how the monitor actually attaches. As with any shelf in this weight class, a single heavy item centered on the platform concentrates more stress than the rating reflects, so keep that margin in mind.\n\nWorth calling out specifically: metal build appropriate for this use case. The catch is rated capacity assumes evenly distributed weight, not a single point load.",
     specs: ["33 lbs rated capacity (evenly distributed)", "metal construction", "Priced at $25.49", "4,261 ratings on Amazon"],
     pros: ["Solid 4.7-star rating with 4,261 ratings", "Metal build appropriate for this use case", "Reasonable price at $25.49", "A metal desktop riser with tool-free height adjustment and no storage add-ons."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load", "Footprint reduces some usable desk depth", "Verify current buyer feedback before assuming fit for an edge-case desk"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31-LBzENQIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07Q79ZZJ6?tag=deskfinds0d-20",
     description:
-      "For buyers wanting direct VESA attachment rather than a flat platform the monitor's base sits on Built with a metal platform rated to 77 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nVESA mounting changes the leverage physics versus a flat platform, worth understanding before assuming the two mounting styles behave identically. As with any shelf in this weight class, a single heavy item centered on the platform concentrates more stress than the rating reflects, so keep that margin in mind.",
+      "For buyers wanting direct VESA attachment rather than a flat platform the monitor's base sits on Built with a metal platform rated to 77 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nVESA mounting changes the leverage physics versus a flat platform, worth understanding before assuming the two mounting styles behave identically. As with any shelf in this weight class, a single heavy item centered on the platform concentrates more stress than the rating reflects, so keep that margin in mind.\n\nMetal build appropriate for this use case. Set against that, rated capacity assumes evenly distributed weight, not a single point load. Both matter when comparing it to the other picks here.",
     specs: ["77 lbs rated capacity (evenly distributed)", "metal construction", "Priced at $21.99", "9,032 ratings on Amazon"],
     pros: ["Solid 4.6-star rating with 9,032 ratings", "Metal build appropriate for this use case", "Reasonable price at $21.99", "A VESA-mount single-monitor stand with swivel, rotation, and height adjustment, rated to 77 lbs."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load", "Footprint reduces some usable desk depth", "Verify current buyer feedback before assuming fit for an edge-case desk"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/315H76K0UiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B072QDMRS8?tag=deskfinds0d-20",
     description:
-      "For buyers with smaller or lighter monitors who want a dedicated VESA mount Built with a metal platform rated to 22 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nThe lower 22 lb rating reflects its smaller-screen focus, verify your monitor's actual weight against it. As with any shelf in this weight class, a single heavy item centered on the platform concentrates more stress than the rating reflects, so keep that margin in mind.",
+      "For buyers with smaller or lighter monitors who want a dedicated VESA mount Built with a metal platform rated to 22 lbs under evenly distributed weight, this pick suits buyers focused on that specific need rather than a generic all-purpose shelf.\n\nThe lower 22 lb rating reflects its smaller-screen focus, verify your monitor's actual weight against it. As with any shelf in this weight class, a single heavy item centered on the platform concentrates more stress than the rating reflects, so keep that margin in mind.\n\nA genuine advantage here is that metal build appropriate for this use case. The tradeoff is rated capacity assumes evenly distributed weight, not a single point load.",
     specs: ["22 lbs rated capacity (evenly distributed)", "metal construction", "Priced at $27.99", "13,522 ratings on Amazon"],
     pros: ["Solid 4.5-star rating with 13,522 ratings", "Metal build appropriate for this use case", "Reasonable price at $27.99", "A freestanding VESA stand for 13 to 32 inch screens, rated up to 22 lbs."],
     cons: ["Rated capacity assumes evenly distributed weight, not a single point load", "Footprint reduces some usable desk depth", "Verify current buyer feedback before assuming fit for an edge-case desk"],
@@ -101,32 +101,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Weight Capacity Can Drop at Full Extension",
-    note: "Leverage means a stand's safe load at maximum height can be lower than its rating at a collapsed or low position. If the listing gives one flat capacity number with no mention of extension height, treat that number as the best case, not the worst case.",
-  },
-  {
-    subheading: "VESA Mount or Flat Platform Changes the Physics",
-    note: "A VESA-mounted stand attaches directly to your monitor's mounting holes, while a flat-platform stand simply supports the monitor's own base. The two behave differently under leverage and at height, confirm which type you're buying before comparing capacity numbers across stands.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Reliable adjustable stand with storage", "Zimilar Mesh Drawer Riser"],
-        ["Simple mechanical adjustment, no storage", "BoYata Adjustable Metal Riser"],
-        ["VESA mount for a large single monitor", "VESA Stand up to 77 lbs"],
-        ["VESA mount for a smaller or lighter monitor", "WALI Freestanding VESA Stand (22 lbs)"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Zimilar Monitor Stand Riser with Metal Mesh Drawer"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "WALI Freestanding VESA Monitor Stand for 13"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $17",
+          "Zimilar Monitor Stand Riser with Metal Mesh Drawer"
+        ],
+        [
+          "Up to $28",
+          "WALI Freestanding VESA Monitor Stand for 13"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Weight Capacity vs Price",
+    "cards": [
+      {
+        "label": "Zimilar Monitor Stand Riser with Metal Mesh Drawer",
+        "text": "The lower-priced option in this comparison, worth checking its VESA compatibility and weight capacity against your monitor."
+      },
+      {
+        "label": "WALI Freestanding VESA Monitor Stand for 13",
+        "text": "The higher-priced option, worth it if it offers real capacity or reach headroom above the cheaper pick."
+      }
+    ],
+    "note": "Default to Zimilar Monitor Stand Riser with Metal Mesh Drawer unless your monitor's weight or size genuinely calls for the pricier pick."
+  },
+  {
+    "subheading": "By VESA Compatibility",
+    "note": "Check each pick's listed VESA pattern support against your specific monitor's spec sheet before buying, not just general compatibility claims. WALI Freestanding VESA Monitor Stand for 13 is the most-reviewed option here if you want the safer bet."
+  },
+  {
+    "subheading": "For a Standing Desk Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A wide vertical height range to stay at eye level through sit-stand transitions, plus a clamp rated for your desk's edge thickness."
+      },
+      {
+        "label": "In this comparison",
+        "text": "WALI Freestanding VESA Monitor Stand for 13 is worth checking against its listed height range before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You have a heavier or ultrawide monitor, where WALI Freestanding VESA Monitor Stand for 13's weight capacity and gas spring quality give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You have a light, standard monitor and just want basic height adjustment, where Zimilar Monitor Stand Riser with Metal Mesh Drawer covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Check if capacity is disclosed at full extension", explanation: "Leverage can lower a stand's safe load at maximum height compared to its rating when collapsed, a single flat number may only reflect the best case." },
-  { criterion: "Identify the adjustment mechanism type", explanation: "Gas-lift, spring-tension, and static stepped designs wear differently over years of daily use, check which type you're buying." },
-  { criterion: "Confirm VESA-mount versus flat-platform attachment", explanation: "VESA stands attach directly to the monitor's mounting holes while flat-platform stands support the monitor's base, the two aren't interchangeable specs." },
-  { criterion: "Look for long-term reviews on mechanism wear", explanation: "A gas-lift mechanism that feels smooth new can lose tension over time, reviews written months after purchase are the best signal." },
+  {
+    "criterion": "Confirm your desk can actually grip the mounting base before comparing arms",
+    "explanation": "A monitor arm's clamp or grommet base needs a solid desk edge to grip securely, and this is the real first question to answer before comparing gas spring tension or weight capacity, since a hollow honeycomb-core desktop, a glass top, or a desk under about an inch thick can rule out an entire category of arms regardless of how good the arm itself is.\n\nThis matters because discovering after purchase that your desk simply can't mount the arm you bought is a common and entirely avoidable problem.\n\nCheck your desk's actual edge thickness and construction (solid, hollow-core, or glass), and confirm the arm's clamp or grommet base is explicitly rated for that construction before ordering."
+  },
+  {
+    "criterion": "Check real per-arm weight capacity, not the bundled-stand weight printed on the monitor box",
+    "explanation": "Monitor weight ratings printed on the box often reference the monitor's included stand, not the bare panel weight relevant to a monitor arm, and a monitor arm's real weight capacity needs to match your specific monitor's actual panel weight without its stand, information usually found in the monitor's separate spec sheet rather than the box itself.\n\nThis matters directly for a larger or ultrawide monitor, where the gap between stand-inclusive and bare-panel weight can be substantial enough to matter.\n\nCheck your monitor's bare panel weight (without its stand) in its official spec sheet, and compare that specifically against the arm's rated capacity, not a generalized weight class."
+  },
+  {
+    "criterion": "Verify VESA compatibility for both your monitor and the arm's mounting plate",
+    "explanation": "VESA mounting patterns come in a few standard sizes (75x75mm and 100x100mm are most common), and a mismatch between your monitor's VESA pattern and the arm's mounting plate means the arm simply won't attach, some arms include an adapter for multiple patterns while others support only one.\n\nThis matters directly for a monitor with a non-standard or larger VESA pattern, particularly some ultrawide or curved monitors, where assuming universal compatibility can lead to an unusable purchase.\n\nCheck your monitor's specific VESA pattern in its spec sheet, and confirm the arm explicitly supports that pattern, either natively or with an included adapter, before ordering."
+  },
+  {
+    "criterion": "Understand gas spring tension and how it affects long-term reliability",
+    "explanation": "A gas spring monitor arm relies on an internal pressurized cylinder to hold the monitor at any height with minimal effort, and tension needs to be roughly matched to your monitor's actual weight, a monitor lighter than the spring's calibrated range can drift upward on its own, while pressure calibrated too low for a heavier monitor won't hold position and will slowly droop.\n\nThis matters for long-term usability, not just initial setup, since gas springs can also lose tension gradually over years of use.\n\nCheck the arm's rated weight range against your monitor's actual weight, favoring a monitor that falls comfortably within the middle of that range rather than at either extreme."
+  },
+  {
+    "criterion": "Consider reach and range of motion against your actual desk depth and seating position",
+    "explanation": "An arm's horizontal reach and vertical range of motion determine how far the monitor can extend from the mounting point and how much height adjustment is available, and these dimensions matter differently depending on your desk depth and how far back you sit, a shallow desk needs less reach than a deep one, and a standing desk that changes height throughout the day needs a wider vertical range to stay at eye level.\n\nThis matters more for anyone switching between sitting and standing regularly, less for a fixed single seated position.\n\nCheck the arm's listed reach and height range against your actual desk depth and how much your seated or standing eye level varies throughout the day."
+  }
 ];
 
 export const faq: FaqItem[] = [
