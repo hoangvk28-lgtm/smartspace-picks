@@ -132,55 +132,113 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "12V Current Headroom",
-    "intro": "Check your router's rated current draw (in amps) against the UPS's 12V rail rating before assuming compatibility.",
+    "subheading": "By Watt-Hour Capacity",
     "table": {
       "headers": [
-        "Router 12V draw",
-        "Safe pick"
+        "Your priority",
+        "Recommended pick"
       ],
       "rows": [
         [
-          "Under 1A",
-          "Any unit in this list"
+          "Around 97.2Wh capacity",
+          "TalentCell Mini UPS 27000mAh 97.2Wh"
         ],
         [
-          "1-2A",
-          "TalentCell 27000mAh (4x 12V ports) or Mini UPS 20000mAh 74Wh (dual 12V, 5A shared)"
+          "Around 74Wh capacity",
+          "Mini UPS Battery Backup 20000mAh 74Wh"
         ],
         [
-          "Over 2A",
-          "Verify directly with the seller before buying; most consumer mini UPS units top out near 2A per 12V port"
+          "Around 37Wh capacity",
+          "Mini UPS Battery Backup for Router"
         ]
       ]
     }
+  },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $30",
+          "Mini UPS Battery Backup 6000mAh"
+        ],
+        [
+          "Up to $85",
+          "Mini UPS Battery Backup 20000mAh 74Wh"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "PoE Output vs DC-Only Rails",
+    "cards": [
+      {
+        "label": "PoE output",
+        "text": "Can back up a router and a PoE camera off one unit over a single Ethernet run, worth checking passive vs active PoE compatibility. In this comparison: RGTTOTG POE04 Mini UPS 8800mAh."
+      },
+      {
+        "label": "DC rails only",
+        "text": "Simpler and covers standard router power needs without PoE complexity. In this comparison: TalentCell Mini UPS 27000mAh 97.2Wh, Mini UPS Battery Backup for Router, Mini UPS Battery Backup 20000mAh 74Wh, Mini UPS Battery Backup 6000mAh."
+      }
+    ],
+    "note": "Default to DC-only unless you specifically need to back up a PoE device from the same unit."
+  },
+  {
+    "subheading": "By Connector Type",
+    "note": "Check each pick's listed connector size and polarity against your router's original power adapter before buying, not just the voltage number. Mini UPS Battery Backup 6000mAh is worth starting with if you want the most affordable option."
+  },
+  {
+    "subheading": "For Router Plus Modem Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Two independent output rails at different voltages, or a confirmed combined wattage ceiling that covers both devices' actual draw without a Y-splitter."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Mini UPS Battery Backup 20000mAh 74Wh is worth checking against its listed dual-rail output before buying."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Outages regularly exceed an hour or you're backing up multiple devices, where Mini UPS Battery Backup 20000mAh 74Wh's higher capacity gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need a short bridge through brief flickers for a single router, where Mini UPS Battery Backup 6000mAh covers the same job at a lower price."
+      }
+    ]
   }
 ];
 
 export const buyingCriteria = [
   {
-    "criterion": "Match voltage before capacity",
-    "explanation": "Check your router's power adapter label for its exact output voltage (usually 5V, 9V, or 12V) and current draw in amps before comparing battery capacity. A mini UPS with the wrong voltage can damage the router even if the plug physically fits."
+    "criterion": "Match voltage before comparing battery capacity",
+    "explanation": "Every router's power adapter is labeled with a specific output voltage, usually 5V, 9V, or 12V, and current draw in amps, and a mini UPS supplying the wrong voltage can damage the router even when the connector physically plugs in fine, since the barrel connector shape doesn't guarantee the electrical output matches.\n\nThis matters more than almost any other spec on the listing, since a capacity mismatch just means shorter runtime, but a voltage mismatch is a real damage risk to your router.\n\nCheck your router's power adapter label for its exact voltage and amperage before comparing any mini UPS options by capacity or price."
   },
   {
-    "criterion": "Convert mAh to Wh to compare fairly",
-    "explanation": "A 20,000mAh unit built around a 3.7V cell and a 10,400mAh unit built around a higher-voltage pack can carry similar real energy. Look for a watt-hour (Wh) figure in the listing, or multiply mAh by pack voltage and divide by 1000, before ranking products by capacity alone."
+    "criterion": "Convert mAh to watt-hours to compare capacity fairly across products",
+    "explanation": "Raw mAh (milliamp-hour) figures aren't directly comparable between products built around different cell voltages, a 20,000mAh unit built on a 3.7V cell and a 10,400mAh unit built on a higher-voltage pack can carry genuinely similar real energy despite the very different headline number.\n\nThis matters because ranking mini UPS options purely by the mAh figure printed largest on the box can be misleading, the number that actually predicts runtime is watt-hours (Wh), not mAh alone.\n\nLook for a stated Wh figure in the listing, or calculate it yourself by multiplying mAh by the pack's voltage and dividing by 1000, before ranking products by capacity claims."
   },
   {
-    "criterion": "Confirm connector size and polarity",
-    "explanation": "Most of these units use a 5.5mm x 2.1mm DC barrel connector, but not all do, and center-pin polarity (positive vs negative tip) varies by brand even at the same voltage. A mismatched polarity can damage the router on first use."
+    "criterion": "Confirm connector size and polarity match your specific router",
+    "explanation": "Most mini UPS units for routers use a common 5.5mm x 2.1mm DC barrel connector, but not every product does, and center-pin polarity, whether the tip is positive or negative, varies between brands even at the identical voltage and connector size.\n\nThis matters directly because a mismatched polarity can damage your router the very first time you plug it in, even though the physical connector fit seemed fine.\n\nCheck both the connector diameter and the stated polarity against your router's original power adapter, not just the voltage number, before ordering."
   },
   {
-    "criterion": "Check the combined wattage ceiling, not just per-port ratings",
-    "explanation": "Multi-output units rarely guarantee every port can deliver its maximum rating simultaneously. If you're powering a router and a modem or camera off the same UPS, add up both devices' wattage and compare it against the unit's stated total output ceiling, not the sum of each port's individual maximum."
+    "criterion": "Check the combined wattage ceiling, not each port's individual maximum rating",
+    "explanation": "A mini UPS with multiple output ports rarely guarantees that every port can deliver its individually listed maximum rating simultaneously, the unit has one shared total wattage ceiling that all active ports draw from together.\n\nThis matters directly if you're powering more than one device, a router and a modem or camera, off the same unit, since adding up each device's wattage and comparing that sum against the unit's total output ceiling is the only way to confirm it can actually run everything at once without undervolting.\n\nCheck the listing specifically for a stated total wattage ceiling, and add up your actual devices' combined draw before assuming any multi-port unit handles your full setup."
   },
   {
-    "criterion": "Don't trust advertised runtime hours at face value",
-    "explanation": "Manufacturer runtime claims ('up to 5 hours') are usually measured against a specific, often low, wattage load. A router pulling 10-15W will drain a battery meaningfully faster than the manufacturer's test load. Treat published hours as a best case, not a guarantee."
-  },
-  {
-    "criterion": "Passive PoE is not the same as active PoE",
-    "explanation": "A handful of these units output passive PoE (a fixed voltage sent down unused Ethernet pairs) rather than IEEE 802.3af/at active PoE with negotiation. Passive PoE only works with equipment designed for it; plugging an active-PoE device into a passive-PoE mini UPS can damage the device."
+    "criterion": "Treat advertised runtime hours as a best case, not a guarantee",
+    "explanation": "Manufacturer runtime claims like \"up to 5 hours\" are typically measured against a specific, often quite low, wattage load that may not match your actual router's real power draw, a router pulling 10-15W under normal operation will drain the same battery meaningfully faster than the manufacturer's lighter test load implies.\n\nThis matters because comparing units purely by advertised runtime hours can be misleading when the underlying test conditions aren't disclosed or standardized across brands.\n\nCheck your router's actual rated power draw in watts, and treat any published runtime figure as an optimistic upper bound rather than what you'll experience during a real outage."
   }
 ];
 
