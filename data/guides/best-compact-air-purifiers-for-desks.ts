@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ODC2Uu41L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09GTRVJQM?tag=deskfinds0d-20",
     description:
-      "A genuinely compact design with a large review base, appropriately scaled for personal-zone desk use rather than whole-room air changes. Affordable price.\n\nUnderstand this cleans your immediate desk vicinity effectively, it's not achieving genuine whole-room CADR despite the room-size figures sometimes quoted for similar products.\n\nWorth knowing before you decide: Large, well-established review base. On the other side, Only cleans immediate desk vicinity, not whole-room CADR. That's the main tradeoff to weigh against your specific needs.",
+      "A genuinely compact design with a large review base, appropriately scaled for personal-zone desk use rather than whole-room air changes. Affordable price.\n\nUnderstand this cleans your immediate desk vicinity effectively, it's not achieving genuine whole-room CADR despite the room-size figures sometimes quoted for similar products.\n\nWorth calling out specifically: large, well-established review base. The catch is only cleans immediate desk vicinity, not whole-room CADR.",
     specs: ["Compact desk-scale design", "Large review base", "Affordable", "Personal-zone focused"],
     pros: ["Genuinely appropriately sized for personal-zone desk use", "Large, well-established review base", "Very affordable", "Compact footprint doesn't dominate desk space"],
     cons: ["Only cleans immediate desk vicinity, not whole-room CADR", "Filter media surface area limited, frequent replacement", "No smart features"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/414NIpA+xLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B4ZSKPNL?tag=deskfinds0d-20",
     description:
-      "Certified True HEPA H13 in a genuinely portable, small design with a night light feature at an affordable price. Solid review base.\n\nExhaust airflow direction relative to your monitor and keyboard matters at this close range, verify it doesn't blow dust across your desk surface rather than upward or away.\n\nWorth knowing before you decide: Portable with a useful night light feature. On the other side, Exhaust direction relative to desk layout not independently verified. That's the main tradeoff to weigh against your specific needs.",
+      "Certified True HEPA H13 in a genuinely portable, small design with a night light feature at an affordable price. Solid review base.\n\nExhaust airflow direction relative to your monitor and keyboard matters at this close range, verify it doesn't blow dust across your desk surface rather than upward or away.\n\nPortable with a useful night light feature. Set against that, exhaust direction relative to desk layout not independently verified. Both matter when comparing it to the other picks here.",
     specs: ["True HEPA H13 filter", "Night light feature", "Portable, small design", "Solid review base"],
     pros: ["Certified True HEPA H13 filtration", "Portable with a useful night light feature", "Appropriately sized for desk use", "Affordable"],
     cons: ["Exhaust direction relative to desk layout not independently verified", "Smaller filter media, frequent replacement", "Lower rating than the top pick"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41BE3lVftQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DY4S3HP2?tag=deskfinds0d-20",
     description:
-      "The most affordable pick in this guide with a solid review base, though its rated coverage far exceeds personal-zone desk use, expect it to be more effective in your immediate vicinity than the whole-room figure suggests.\n\nA desk purifier competes for the same limited surface area as monitors and lamps, weigh this unit's footprint against your specific desk layout.\n\nWorth knowing before you decide: Solid review base. On the other side, Whole-room rating doesn't reflect actual desk-proximity performance. That's the main tradeoff to weigh against your specific needs.",
+      "The most affordable pick in this guide with a solid review base, though its rated coverage far exceeds personal-zone desk use, expect it to be more effective in your immediate vicinity than the whole-room figure suggests.\n\nA desk purifier competes for the same limited surface area as monitors and lamps, weigh this unit's footprint against your specific desk layout.\n\nThe standout detail is that solid review base. Balancing that out, whole-room rating doesn't reflect actual desk-proximity performance.",
     specs: ["Up to 1076 sq ft rated", "Solid review base", "Most affordable in this guide", "High efficiency filter"],
     pros: ["Most affordable pick in this guide", "Solid review base", "High efficiency filter", "Genuine personal-zone effectiveness"],
     cons: ["Whole-room rating doesn't reflect actual desk-proximity performance", "Larger footprint may compete more for desk space", "Verify true HEPA certification"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Apo3YcVHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9SL7894?tag=deskfinds0d-20",
     description:
-      "A solid review base at an affordable price, appropriately scaled to sit on a desk without dominating your surface, even though its rated coverage exceeds what's relevant at personal-zone desk distance.\n\nA USB-powered desk purifier's power draw can compete with a laptop's own USB port budget, verify this isn't an issue if powering multiple USB devices from the same source.\n\nWorth knowing before you decide: Affordable price. On the other side, Whole-room rating doesn't reflect actual desk-proximity performance. That's the main tradeoff to weigh against your specific needs.",
+      "A solid review base at an affordable price, appropriately scaled to sit on a desk without dominating your surface, even though its rated coverage exceeds what's relevant at personal-zone desk distance.\n\nA USB-powered desk purifier's power draw can compete with a laptop's own USB port budget, verify this isn't an issue if powering multiple USB devices from the same source.\n\nAffordable price. That's a real strength, but weigh it against the flip side: whole-room rating doesn't reflect actual desk-proximity performance.",
     specs: ["Up to 880 sq ft rated", "Solid review base", "Affordable", "Compact design"],
     pros: ["Solid review base", "Affordable price", "Compact design fits desk placement", "Genuine personal-zone performance"],
     cons: ["Whole-room rating doesn't reflect actual desk-proximity performance", "Verify USB power draw compatibility if applicable", "No smart features"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31e6d46ZnyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09LMF648R?tag=deskfinds0d-20",
     description:
-      "A large review base for a small, quiet-focused design, genuinely appropriate for desk placement where noise during calls or focused work matters.\n\nCompact filter media in desk-sized units means meaningfully shorter replacement intervals than room-sized purifiers, an ongoing cost worth factoring in relative to the low purchase price.\n\nWorth knowing before you decide: Quiet-focused design appropriate for desk proximity. On the other side, Filter replacement more frequent given compact media size. That's the main tradeoff to weigh against your specific needs.",
+      "A large review base for a small, quiet-focused design, genuinely appropriate for desk placement where noise during calls or focused work matters.\n\nCompact filter media in desk-sized units means meaningfully shorter replacement intervals than room-sized purifiers, an ongoing cost worth factoring in relative to the low purchase price.\n\nQuiet-focused design appropriate for desk proximity. On the other hand, filter replacement more frequent given compact media size. Both are worth keeping in mind before deciding.",
     specs: ["Small, quiet-focused design", "Large review base", "Affordable", "Compact footprint"],
     pros: ["Large, well-established review base", "Quiet-focused design appropriate for desk proximity", "Very affordable", "Appropriately scaled for personal-zone use"],
     cons: ["Filter replacement more frequent given compact media size", "No smart features", "Only cleans immediate desk vicinity, not whole-room"],

@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ODC2Uu41L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09GTRVJQM?tag=deskfinds0d-20",
     description:
-      "Explicitly marketed for dorm room use with a large review base, genuinely compact for shared, space-constrained living. Affordable price.\n\nVerify your specific university's fire-safety or electrical wattage policy for personal appliances before assuming this or any purifier is automatically permitted.\n\nWorth knowing before you decide: Large, well-established review base. On the other side, Verify your school's specific appliance policy. That's the main tradeoff to weigh against your specific needs.",
+      "Explicitly marketed for dorm room use with a large review base, genuinely compact for shared, space-constrained living. Affordable price.\n\nVerify your specific university's fire-safety or electrical wattage policy for personal appliances before assuming this or any purifier is automatically permitted.\n\nWorth calling out specifically: large, well-established review base. The catch is verify your school's specific appliance policy.",
     specs: ["Dorm-room marketed", "Large review base", "Affordable", "Compact design"],
     pros: ["Explicitly marketed for dorm room use", "Large, well-established review base", "Very affordable", "Compact for shared, space-constrained living"],
     cons: ["Verify your school's specific appliance policy", "Limited storage-friendly packability not confirmed", "No smart features"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31e6d46ZnyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09LMF648R?tag=deskfinds0d-20",
     description:
-      "A large review base for a quiet-focused design, genuinely useful for a shared two-person dorm room where roommate noise tolerance overnight matters as much as air cleaning. Affordable.\n\nRoommate noise tolerance and shared-space etiquette introduce a joint-decision noise threshold, discuss this with your roommate before committing to running it overnight.\n\nWorth knowing before you decide: Quiet-focused design for shared roommate situations. On the other side, Verify your school's specific appliance policy. That's the main tradeoff to weigh against your specific needs.",
+      "A large review base for a quiet-focused design, genuinely useful for a shared two-person dorm room where roommate noise tolerance overnight matters as much as air cleaning. Affordable.\n\nRoommate noise tolerance and shared-space etiquette introduce a joint-decision noise threshold, discuss this with your roommate before committing to running it overnight.\n\nQuiet-focused design for shared roommate situations. Set against that, verify your school's specific appliance policy. Both matter when comparing it to the other picks here.",
     specs: ["Small, quiet-focused design", "Large review base", "Affordable", "Compact footprint"],
     pros: ["Large, well-established review base", "Quiet-focused design for shared roommate situations", "Very affordable", "Compact for a shared dorm room"],
     cons: ["Verify your school's specific appliance policy", "Roommate agreement on overnight operation needed", "No smart features"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/414NIpA+xLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B4ZSKPNL?tag=deskfinds0d-20",
     description:
-      "Certified True HEPA H13 filtration with a night light feature, genuinely useful for a dorm room where a nightlight can be practical for a shared space. Solid review base.\n\nNo ionizer feature confirmed, a genuine plus given the elevated ozone-risk consideration in a small, poorly ventilated, overnight-occupied dorm room specifically.\n\nWorth knowing before you decide: Night light feature useful for a shared dorm room. On the other side, Lower rating than the top picks. That's the main tradeoff to weigh against your specific needs.",
+      "Certified True HEPA H13 filtration with a night light feature, genuinely useful for a dorm room where a nightlight can be practical for a shared space. Solid review base.\n\nNo ionizer feature confirmed, a genuine plus given the elevated ozone-risk consideration in a small, poorly ventilated, overnight-occupied dorm room specifically.\n\nThe standout detail is that night light feature useful for a shared dorm room. Balancing that out, lower rating than the top picks.",
     specs: ["True HEPA H13 filter", "Night light feature", "Portable, small design", "Solid review base"],
     pros: ["Certified True HEPA H13 filtration", "Night light feature useful for a shared dorm room", "No ionizer feature to worry about ozone risk", "Affordable"],
     cons: ["Lower rating than the top picks", "Verify your school's specific appliance policy", "Smaller filter media, frequent replacement"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41BE3lVftQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DY4S3HP2?tag=deskfinds0d-20",
     description:
-      "The most affordable pick in this guide with a solid review base, genuinely oversized capacity for a small dorm room's actual furniture-crowded, shared-occupancy conditions.\n\nDorm room move-in and move-out logistics mean limited storage over summer break, verify this unit's storage footprint fits your realistic summer-storage situation.\n\nWorth knowing before you decide: Solid review base. On the other side, Verify storage footprint for summer break. That's the main tradeoff to weigh against your specific needs.",
+      "The most affordable pick in this guide with a solid review base, genuinely oversized capacity for a small dorm room's actual furniture-crowded, shared-occupancy conditions.\n\nDorm room move-in and move-out logistics mean limited storage over summer break, verify this unit's storage footprint fits your realistic summer-storage situation.\n\nSolid review base. That's a real strength, but weigh it against the flip side: verify storage footprint for summer break.",
     specs: ["Up to 1076 sq ft rated", "Solid review base", "Most affordable in this guide", "High efficiency filter"],
     pros: ["Most affordable pick in this guide", "Solid review base", "Genuine headroom for shared occupancy", "High efficiency filter"],
     cons: ["Verify storage footprint for summer break", "Verify your school's specific appliance policy", "No smart features"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Apo3YcVHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9SL7894?tag=deskfinds0d-20",
     description:
-      "A solid review base at an affordable price, compact enough to be genuinely storage-friendly during dorm move-out over summer break. \n\nDorm rooms compete for outlet access with a mini-fridge and microwave, verify your room's realistic outlet availability before committing to running this alongside other shared appliances.\n\nWorth knowing before you decide: Affordable price. On the other side, Verify your school's specific appliance policy. That's the main tradeoff to weigh against your specific needs.",
+      "A solid review base at an affordable price, compact enough to be genuinely storage-friendly during dorm move-out over summer break. \n\nDorm rooms compete for outlet access with a mini-fridge and microwave, verify your room's realistic outlet availability before committing to running this alongside other shared appliances.\n\nAffordable price. On the other hand, verify your school's specific appliance policy. Both are worth keeping in mind before deciding.",
     specs: ["Up to 880 sq ft rated", "Solid review base", "Affordable", "Compact design"],
     pros: ["Solid review base", "Affordable price", "Compact, storage-friendly design", "Genuine headroom for shared occupancy"],
     cons: ["Verify your school's specific appliance policy", "Verify realistic outlet availability alongside other dorm appliances", "No smart features"],

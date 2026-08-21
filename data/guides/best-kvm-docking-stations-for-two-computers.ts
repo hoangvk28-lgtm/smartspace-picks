@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41e02xrYlyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP4PD3SM?tag=deskfinds0d-20",
     description:
-      "This AV Access dock drives 2 monitors from 2 laptops through MST-style USB-C ports, with 4K resolution support and 60W power delivery to each connected PC. EDID emulation helps keep display settings stable when switching between the two hosts.\n\nGigabit Ethernet and support for up to 2K@144Hz or 1080p@240Hz make it a reasonable fit for a dual-monitor home office setup, though 60W PD per host will only trickle-charge higher-powered laptops rather than fully charge them under load.\n\nWorth knowing before you decide: EDID emulation reduces display flicker on switch. On the other side, 60W PD per host is modest for higher-wattage laptops. That's the main tradeoff to weigh against your specific needs.",
+      "This AV Access dock drives 2 monitors from 2 laptops through MST-style USB-C ports, with 4K resolution support and 60W power delivery to each connected PC. EDID emulation helps keep display settings stable when switching between the two hosts.\n\nGigabit Ethernet and support for up to 2K@144Hz or 1080p@240Hz make it a reasonable fit for a dual-monitor home office setup, though 60W PD per host will only trickle-charge higher-powered laptops rather than fully charge them under load.\n\nEDID emulation reduces display flicker on switch. That said, 60W PD per host is modest for higher-wattage laptops. Neither should be a surprise once you know to look for it.",
     specs: [
       "2 monitors, 2 laptops via 2 USB-C MST ports",
       "60W PD for each connected PC",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41NY0yTE9kL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DD3X51XS?tag=deskfinds0d-20",
     description:
-      "This model steps up power delivery to 100W for each connected PC, a meaningful jump over the 60-65W many KVM docks offer, though buyers should note that a dock rated for 100W typically delivers closer to 82-90W to the laptop after internal overhead. It still supports dual 4K monitors and gigabit Ethernet alongside EDID emulation for stable switching.\n\nBe aware that KVM docks often split power delivery unevenly between the active and idle host, so the laptop not currently in focus may charge more slowly even while connected.\n\nWorth knowing before you decide: Dual 4K monitor support. On the other side, Rated 100W PD delivers closer to 82-90W in practice. That's the main tradeoff to weigh against your specific needs.",
+      "This model steps up power delivery to 100W for each connected PC, a meaningful jump over the 60-65W many KVM docks offer, though buyers should note that a dock rated for 100W typically delivers closer to 82-90W to the laptop after internal overhead. It still supports dual 4K monitors and gigabit Ethernet alongside EDID emulation for stable switching.\n\nBe aware that KVM docks often split power delivery unevenly between the active and idle host, so the laptop not currently in focus may charge more slowly even while connected.\n\nWorth calling out specifically: dual 4K monitor support. The catch is rated 100W PD delivers closer to 82-90W in practice.",
     specs: [
       "2 monitors, 2 laptops",
       "100W PD for each PC (rated)",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41yf74dFdZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F6MTC9LR?tag=deskfinds0d-20",
     description:
-      "This AV Access model supports up to 8K resolution output and works across both laptop and desktop setups, making it a flexible choice for buyers with a mixed hardware environment rather than two identical laptops. Gigabit Ethernet is built in for wired networking on both hosts.\n\nHigh-resolution KVM switching adds real value for buyers running large or high-density monitors, but confirm your monitor's actual native resolution supports 8K input before assuming this headroom will be used, since most desk monitors top out well below that ceiling.\n\nWorth knowing before you decide: Works across mixed laptop and desktop setups. On the other side, Most buyers' monitors won't use the full 8K headroom. That's the main tradeoff to weigh against your specific needs.",
+      "This AV Access model supports up to 8K resolution output and works across both laptop and desktop setups, making it a flexible choice for buyers with a mixed hardware environment rather than two identical laptops. Gigabit Ethernet is built in for wired networking on both hosts.\n\nHigh-resolution KVM switching adds real value for buyers running large or high-density monitors, but confirm your monitor's actual native resolution supports 8K input before assuming this headroom will be used, since most desk monitors top out well below that ceiling.\n\nWorks across mixed laptop and desktop setups. Set against that, most buyers' monitors won't use the full 8K headroom. Both matter when comparing it to the other picks here.",
     specs: [
       "2 monitors, 2 computers",
       "Up to 8K resolution support",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41zZDSI+zhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMQVLGX3?tag=deskfinds0d-20",
     description:
-      "This 13-in-1 dock combines USB-C and HDMI/DisplayPort inputs with 100W PD and support for 4K60Hz or 4K120Hz dual monitor output, packed into an aluminum case built for desktop presence rather than portability. The wide port selection covers most peripheral needs without extra adapters.\n\nAs with any budget KVM dock, verify your keyboard uses standard HID drivers before relying on hotkey switching, since keyboards with custom gaming firmware can fail to trigger the switch hotkey reliably.\n\nWorth knowing before you decide: Supports both 4K60Hz and 4K120Hz output modes. On the other side, Custom-firmware gaming keyboards may not trigger hotkey switching. That's the main tradeoff to weigh against your specific needs.",
+      "This 13-in-1 dock combines USB-C and HDMI/DisplayPort inputs with 100W PD and support for 4K60Hz or 4K120Hz dual monitor output, packed into an aluminum case built for desktop presence rather than portability. The wide port selection covers most peripheral needs without extra adapters.\n\nAs with any budget KVM dock, verify your keyboard uses standard HID drivers before relying on hotkey switching, since keyboards with custom gaming firmware can fail to trigger the switch hotkey reliably.\n\nThe standout detail is that supports both 4K60Hz and 4K120Hz output modes. Balancing that out, custom-firmware gaming keyboards may not trigger hotkey switching.",
     specs: [
       "2 monitors, 2 computers",
       "USB-C + HDMI/DP inputs",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41r-g4mzwpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G34NJ11Y?tag=deskfinds0d-20",
     description:
-      "UGREEN's entry is the cheapest pick in this list while still supporting 3 monitors shared between 2 computers, with an 8K@60Hz ceiling on one output and 4K@240Hz support across the aluminum-cased unit. It ships with 4 DisplayPort and 2 HDMI cables plus a power adapter and physical controller included.\n\nThis is the pick for buyers who specifically need triple-monitor output shared across 2 machines rather than the more common dual-monitor layout most competitors in this list focus on, and the included cable bundle avoids the hidden cable cost that trips up many budget KVM buyers.\n\nWorth knowing before you decide: Only pick supporting 3 monitors instead of 2. On the other side, Power delivery to connected laptops not specified. That's the main tradeoff to weigh against your specific needs.",
+      "UGREEN's entry is the cheapest pick in this list while still supporting 3 monitors shared between 2 computers, with an 8K@60Hz ceiling on one output and 4K@240Hz support across the aluminum-cased unit. It ships with 4 DisplayPort and 2 HDMI cables plus a power adapter and physical controller included.\n\nThis is the pick for buyers who specifically need triple-monitor output shared across 2 machines rather than the more common dual-monitor layout most competitors in this list focus on, and the included cable bundle avoids the hidden cable cost that trips up many budget KVM buyers.\n\nOnly pick supporting 3 monitors instead of 2. That's a real strength, but weigh it against the flip side: power delivery to connected laptops not specified.",
     specs: [
       "3 monitors, 2 computers",
       "8K@60Hz / 4K@240Hz support",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ptzq7E2JL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CW9249DK?tag=deskfinds0d-20",
     description:
-      "The Anker Prime is not a KVM switch, but it's worth including as the alternative path: a single high-power dock with dual 4K display support and 160W max output, paired with a separate KVM switch, for buyers who need full dock-level specs on each host rather than the compromises a combined KVM dock accepts.\n\nThis dock-plus-separate-switch approach avoids the reduced Thunderbolt bandwidth and proprietary switching logic that all-in-one KVM docks accept in exchange for convenience, at the cost of an extra device and more cables on the desk.\n\nWorth knowing before you decide: 10Gbps data transfer speed. On the other side, Requires a separate KVM switch to serve 2 computers. That's the main tradeoff to weigh against your specific needs.",
+      "The Anker Prime is not a KVM switch, but it's worth including as the alternative path: a single high-power dock with dual 4K display support and 160W max output, paired with a separate KVM switch, for buyers who need full dock-level specs on each host rather than the compromises a combined KVM dock accepts.\n\nThis dock-plus-separate-switch approach avoids the reduced Thunderbolt bandwidth and proprietary switching logic that all-in-one KVM docks accept in exchange for convenience, at the cost of an extra device and more cables on the desk.\n\n10Gbps data transfer speed. On the other hand, requires a separate KVM switch to serve 2 computers. Both are worth keeping in mind before deciding.",
     specs: [
       "14-port docking station",
       "160W max power output",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31hyr0S1C9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DTSZC5Y7?tag=deskfinds0d-20",
     description:
-      "The DL7400 is another non-KVM dock included as a high-spec alternative, offering triple 4K@60Hz output via DisplayLink alongside 140W max power and an active cooling fan. Like the standard Anker Prime dock, it needs a separate KVM switch to serve 2 computers rather than switching internally.\n\nBecause it relies on DisplayLink for triple display output, be aware DisplayLink adds CPU overhead and is not suitable for color-critical creative work, a trade-off worth knowing before pairing it with a KVM switch for a 2-computer setup.\n\nWorth knowing before you decide: 140W max power for laptop charging. On the other side, DisplayLink adds CPU overhead and isn't ideal for color-critical work. That's the main tradeoff to weigh against your specific needs.",
+      "The DL7400 is another non-KVM dock included as a high-spec alternative, offering triple 4K@60Hz output via DisplayLink alongside 140W max power and an active cooling fan. Like the standard Anker Prime dock, it needs a separate KVM switch to serve 2 computers rather than switching internally.\n\nBecause it relies on DisplayLink for triple display output, be aware DisplayLink adds CPU overhead and is not suitable for color-critical creative work, a trade-off worth knowing before pairing it with a KVM switch for a 2-computer setup.\n\nA genuine advantage here is that 140W max power for laptop charging. The tradeoff is that displayLink adds CPU overhead and isn't ideal for color-critical work.",
     specs: [
       "14-port dock, triple 4K 60Hz via DisplayLink",
       "140W max power",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31mqa4FsYcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FGFW5FVD?tag=deskfinds0d-20",
     description:
-      "The Plugable TBT-UDM is a certified Thunderbolt 4 dock, not a KVM switch, included here as the reference point for what full-bandwidth, certified performance looks like versus the proprietary switching in dedicated KVM docks. It offers 100W charging, driverless operation, and support for dual 4K HDMI or a single 6K display.\n\nBuyers who need full TB4-certified performance across 2 computers should pair this dock with a separate certified KVM switch rather than an all-in-one KVM dock, since KVM docks rarely use certified TB4 chipsets and typically rely on USB-C with proprietary switching instead.\n\nWorth knowing before you decide: Driverless setup. On the other side, Not a KVM switch; needs a separate switch for 2-computer use. That's the main tradeoff to weigh against your specific needs.",
+      "The Plugable TBT-UDM is a certified Thunderbolt 4 dock, not a KVM switch, included here as the reference point for what full-bandwidth, certified performance looks like versus the proprietary switching in dedicated KVM docks. It offers 100W charging, driverless operation, and support for dual 4K HDMI or a single 6K display.\n\nBuyers who need full TB4-certified performance across 2 computers should pair this dock with a separate certified KVM switch rather than an all-in-one KVM dock, since KVM docks rarely use certified TB4 chipsets and typically rely on USB-C with proprietary switching instead.\n\nDriverless setup. That said, not a KVM switch; needs a separate switch for 2-computer use. Neither should be a surprise once you know to look for it.",
     specs: [
       "Thunderbolt 4 certified, driverless",
       "100W charging",

@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31Ig2YzI5iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07FNJB8TT?tag=deskfinds0d-20",
     description:
-      "A steeper vertical angle designed to reduce both forearm rotation and the sideways ulnar deviation common with a standard flat mouse, which is a genuine, specific strain pattern this design targets.\n\nThis product does not diagnose or treat wrist pain and is not a substitute for medical evaluation. If pain is persistent or severe, consult a doctor or physical therapist.\n\nWorth knowing before you decide: Dual connectivity for multiple devices. On the other side, Does not address wrist pain from causes unrelated to grip angle. That's the main tradeoff to weigh against your specific needs.",
+      "A steeper vertical angle designed to reduce both forearm rotation and the sideways ulnar deviation common with a standard flat mouse, which is a genuine, specific strain pattern this design targets.\n\nThis product does not diagnose or treat wrist pain and is not a substitute for medical evaluation. If pain is persistent or severe, consult a doctor or physical therapist.\n\nDual connectivity for multiple devices. Set against that, does not address wrist pain from causes unrelated to grip angle. Both matter when comparing it to the other picks here.",
     specs: ["Steeper, disclosed tilt angle", "Dual 2.4GHz and Bluetooth", "Rechargeable battery", "Premium build"],
     pros: ["Targets both forearm rotation and ulnar deviation specifically", "Dual connectivity for multiple devices", "Rechargeable battery", "Strong review base"],
     cons: ["Does not address wrist pain from causes unrelated to grip angle", "Premium price", "Longer adjustment period given the steeper angle"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31nb5ALnDvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09J1TB35S?tag=deskfinds0d-20",
     description:
-      "A more compact body with a gentler tilt, which reduces ulnar deviation and forearm rotation to a degree while easing the adjustment period for buyers new to the vertical grip.\n\nButton layout is a genuine consideration for wrist strain from repetitive clicking, and this model's compact design keeps buttons within a natural reach rather than requiring an overextended grip.\n\nWorth knowing before you decide: Gentler angle may ease the adjustment period. On the other side, Less pronounced angle means a smaller reduction in ulnar deviation than steeper designs. That's the main tradeoff to weigh against your specific needs.",
+      "A more compact body with a gentler tilt, which reduces ulnar deviation and forearm rotation to a degree while easing the adjustment period for buyers new to the vertical grip.\n\nButton layout is a genuine consideration for wrist strain from repetitive clicking, and this model's compact design keeps buttons within a natural reach rather than requiring an overextended grip.\n\nThe standout detail is that gentler angle may ease the adjustment period. Balancing that out, less pronounced angle means a smaller reduction in ulnar deviation than steeper designs.",
     specs: ["Gentler, disclosed tilt angle", "Compact body", "Dual 2.4GHz and Bluetooth", "Rechargeable battery"],
     pros: ["Compact body keeps buttons within natural reach", "Gentler angle may ease the adjustment period", "Rechargeable battery", "Strong review base"],
     cons: ["Less pronounced angle means a smaller reduction in ulnar deviation than steeper designs", "Does not address wrist pain unrelated to grip mechanics", "Mid-to-premium price"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31rCoH07kzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07BFCVJZC?tag=deskfinds0d-20",
     description:
-      "A budget option offering the same general reduction in ulnar deviation and forearm rotation as pricier picks, at a much lower cost, with a mid-size body that fits a broad range of hands.\n\nAs with any vertical mouse, this addresses specific strain mechanisms rather than wrist pain broadly, and ongoing or worsening pain deserves a conversation with a medical professional.\n\nWorth knowing before you decide: Rechargeable battery. On the other side, Does not address wrist pain unrelated to grip angle. That's the main tradeoff to weigh against your specific needs.",
+      "A budget option offering the same general reduction in ulnar deviation and forearm rotation as pricier picks, at a much lower cost, with a mid-size body that fits a broad range of hands.\n\nAs with any vertical mouse, this addresses specific strain mechanisms rather than wrist pain broadly, and ongoing or worsening pain deserves a conversation with a medical professional.\n\nRechargeable battery. That's a real strength, but weigh it against the flip side: does not address wrist pain unrelated to grip angle.",
     specs: ["Mid-range tilt angle", "Rechargeable built-in battery", "2.4GHz wireless receiver", "Budget price point"],
     pros: ["Low-cost way to reduce ulnar deviation and forearm rotation", "Rechargeable battery", "Strong review rating across a large sample", "Mid-size body suits a broad range of hands"],
     cons: ["Does not address wrist pain unrelated to grip angle", "No Bluetooth option", "Click force not independently measured"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31z5JT0yL+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BIFNTMC?tag=deskfinds0d-20",
     description:
-      "The largest review base among the picks in this guide at the lowest price, offering a low-risk way to test whether reduced ulnar deviation changes how your wrist feels during long work sessions.\n\nThis is a general consumer product, not a medical device, and does not diagnose or treat wrist pain. Persistent or worsening pain should be evaluated by a doctor or physical therapist.\n\nWorth knowing before you decide: Largest review base in this guide. On the other side, Right-hand only. That's the main tradeoff to weigh against your specific needs.",
+      "The largest review base among the picks in this guide at the lowest price, offering a low-risk way to test whether reduced ulnar deviation changes how your wrist feels during long work sessions.\n\nThis is a general consumer product, not a medical device, and does not diagnose or treat wrist pain. Persistent or worsening pain should be evaluated by a doctor or physical therapist.\n\nLargest review base in this guide. On the other hand, right-hand only. Both are worth keeping in mind before deciding.",
     specs: ["Moderate tilt angle", "Right-hand specific design", "2.4GHz wireless receiver", "AA battery powered"],
     pros: ["Lowest price for testing reduced ulnar deviation", "Largest review base in this guide", "Moderate angle shortens the adjustment period", "Simple setup"],
     cons: ["Right-hand only", "AA batteries add weight", "Click force and button layout not built specifically to minimize repetitive strain"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31o5C5jFQAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00427TAIK?tag=deskfinds0d-20",
     description:
-      "A long-established, fixed vertical angle reducing both ulnar deviation and forearm rotation, wired rather than wireless, which eliminates battery weight for a lighter feel across long work sessions.\n\nThis product does not diagnose or treat wrist pain and is not a substitute for medical evaluation. If pain is persistent or severe, consult a doctor or physical therapist.\n\nWorth knowing before you decide: No battery weight, a genuine ergonomic upside. On the other side, Does not address wrist pain from causes unrelated to grip angle. That's the main tradeoff to weigh against your specific needs.",
+      "A long-established, fixed vertical angle reducing both ulnar deviation and forearm rotation, wired rather than wireless, which eliminates battery weight for a lighter feel across long work sessions.\n\nThis product does not diagnose or treat wrist pain and is not a substitute for medical evaluation. If pain is persistent or severe, consult a doctor or physical therapist.\n\nA genuine advantage here is that no battery weight, a genuine ergonomic upside. The tradeoff is that does not address wrist pain from causes unrelated to grip angle.",
     specs: ["Fixed, well-documented tilt angle", "Wired USB connection", "No battery, lighter body", "Premium price point"],
     pros: ["Long track record reducing ulnar deviation and forearm rotation", "No battery weight, a genuine ergonomic upside", "Strong 4.4-star rating across a meaningful sample", "Consistent, fixed design"],
     cons: ["Does not address wrist pain from causes unrelated to grip angle", "Premium price for a wired-only mouse", "No wireless option"],
@@ -116,7 +116,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31PGrLfkUxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CX18LHWS?tag=deskfinds0d-20",
     description:
-      "A compact, rechargeable body reducing ulnar deviation and forearm rotation at a budget-to-mid price, suited to average or smaller hands that find the premium picks oversized.\n\nAs with any vertical mouse, this addresses specific strain mechanisms rather than wrist pain broadly, and ongoing or worsening pain deserves professional evaluation.\n\nWorth knowing before you decide: Rechargeable battery avoids AA bulk. On the other side, Does not address wrist pain unrelated to grip angle. That's the main tradeoff to weigh against your specific needs.",
+      "A compact, rechargeable body reducing ulnar deviation and forearm rotation at a budget-to-mid price, suited to average or smaller hands that find the premium picks oversized.\n\nAs with any vertical mouse, this addresses specific strain mechanisms rather than wrist pain broadly, and ongoing or worsening pain deserves professional evaluation.\n\nRechargeable battery avoids AA bulk. That said, does not address wrist pain unrelated to grip angle. Neither should be a surprise once you know to look for it.",
     specs: ["Compact ergonomic body", "Rechargeable built-in battery", "2.4GHz wireless dongle", "Budget-to-mid price point"],
     pros: ["Compact body suits average to smaller hands", "Rechargeable battery avoids AA bulk", "Solid review rating", "Budget-friendly for the category"],
     cons: ["Does not address wrist pain unrelated to grip angle", "No Bluetooth option", "Smaller review base than mainstream picks"],
@@ -133,7 +133,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31vAjZuq+pL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CMC1F5WB?tag=deskfinds0d-20",
     description:
-      "A low-cost wired option reducing ulnar deviation through its vertical shape, with adjustable DPI and no battery weight to add to the grip, at a much lower price than the premium wired pick.\n\nAs with every pick here, this is a general consumer product, not a medical device, and does not diagnose or treat wrist pain.\n\nWorth knowing before you decide: No battery weight. On the other side, Does not address wrist pain unrelated to grip angle. That's the main tradeoff to weigh against your specific needs.",
+      "A low-cost wired option reducing ulnar deviation through its vertical shape, with adjustable DPI and no battery weight to add to the grip, at a much lower price than the premium wired pick.\n\nAs with every pick here, this is a general consumer product, not a medical device, and does not diagnose or treat wrist pain.\n\nWorth calling out specifically: no battery weight. The catch is does not address wrist pain unrelated to grip angle.",
     specs: ["Wired USB connection", "6400 DPI adjustable sensor", "Ergonomic vertical design", "Budget price point"],
     pros: ["Low-cost way to reduce ulnar deviation", "No battery weight", "Adjustable DPI sensor", "Strong review rating for the price"],
     cons: ["Does not address wrist pain unrelated to grip angle", "No wireless option", "Click force not independently measured"],
@@ -150,7 +150,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ttLEqu0hL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GNMPGM7G?tag=deskfinds0d-20",
     description:
-      "Explicitly sized for small to medium hands with a disclosed 57-degree tilt, relevant to buyers whose hands are smaller than the average this category is usually designed around.\n\nThe review base is small, so weigh the very strong 4.7-star rating against the limited sample size, and remember this addresses ulnar deviation and rotation specifically, not wrist pain broadly.\n\nWorth knowing before you decide: Very strong review rating. On the other side, Small review sample size, verify current feedback. That's the main tradeoff to weigh against your specific needs.",
+      "Explicitly sized for small to medium hands with a disclosed 57-degree tilt, relevant to buyers whose hands are smaller than the average this category is usually designed around.\n\nThe review base is small, so weigh the very strong 4.7-star rating against the limited sample size, and remember this addresses ulnar deviation and rotation specifically, not wrist pain broadly.\n\nVery strong review rating. Set against that, small review sample size, verify current feedback. Both matter when comparing it to the other picks here.",
     specs: ["Explicit small/medium hand sizing", "57-degree tilt angle", "Wireless connectivity", "Budget price point"],
     pros: ["Genuinely sized for small to medium hands", "Very strong review rating", "Budget-friendly price", "Disclosed tilt angle"],
     cons: ["Small review sample size, verify current feedback", "Less established brand track record than premium picks", "Does not address wrist pain from unrelated causes"],

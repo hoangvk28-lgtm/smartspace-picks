@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/414d9YEDZYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CGHMP9BH?tag=deskfinds0d-20",
     description:
-      "This is the one pick in this list built as an actual 2-tier rolling table cart rather than a file cabinet with a flat lid. A 22x15-inch top tier and a lower tier give two separate flat surfaces, so a compact inkjet on top and a small laser underneath is genuinely workable rather than a stretch.\n\nA storage drawer between the tiers holds paper and cables, and locking wheels let you roll the whole setup out of the way when it's not in use. The tradeoff is that neither tier is especially deep, so oversized all-in-ones with a large output tray may hang over the edge.\n\nWorth knowing before you decide: Storage drawer keeps paper and cables off both surfaces. On the other side, Neither tier is very deep for oversized all-in-ones. That's the main tradeoff to weigh against your specific needs.",
+      "This is the one pick in this list built as an actual 2-tier rolling table cart rather than a file cabinet with a flat lid. A 22x15-inch top tier and a lower tier give two separate flat surfaces, so a compact inkjet on top and a small laser underneath is genuinely workable rather than a stretch.\n\nA storage drawer between the tiers holds paper and cables, and locking wheels let you roll the whole setup out of the way when it's not in use. The tradeoff is that neither tier is especially deep, so oversized all-in-ones with a large output tray may hang over the edge.\n\nThe standout detail is that storage drawer keeps paper and cables off both surfaces. Balancing that out, neither tier is very deep for oversized all-in-ones.",
     specs: [
       "22\"W x 15\"D top tier",
       "Genuine 2-tier cart design",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51vzgnkbcjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0989HLF81?tag=deskfinds0d-20",
     description:
-      "The DEVAISE is a 3-drawer lateral file cabinet with a single flat top, not a dual-tier printer stand, so it's honestly best suited to one printer sitting on top with three drawers of letter and legal filing space underneath. The rustic brown finish looks like real furniture rather than an office cabinet.\n\nIf you need two printers, this works well as one half of a matched pair placed side by side, since its single flat top is wide enough for one full-size printer without crowding the edges.\n\nWorth knowing before you decide: Furniture-grade finish rather than a utility look. On the other side, Single tier only, not a two-printer stand on its own. That's the main tradeoff to weigh against your specific needs.",
+      "The DEVAISE is a 3-drawer lateral file cabinet with a single flat top, not a dual-tier printer stand, so it's honestly best suited to one printer sitting on top with three drawers of letter and legal filing space underneath. The rustic brown finish looks like real furniture rather than an office cabinet.\n\nIf you need two printers, this works well as one half of a matched pair placed side by side, since its single flat top is wide enough for one full-size printer without crowding the edges.\n\nFurniture-grade finish rather than a utility look. That's a real strength, but weigh it against the flip side: single tier only, not a two-printer stand on its own.",
     specs: [
       "Single flat top surface",
       "3 lateral file drawers",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Aix6uWuJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBZ98D94?tag=deskfinds0d-20",
     description:
-      "This file cabinet's 24-inch extended desktop is the widest single surface in this list, which is the closest a single-tier cabinet gets to fitting two compact printers side by side rather than stacked. Two drawers underneath, one with a fabric side bag, add letter and A4 filing.\n\nIt's still one tier, not two, so a laser printer plus a large all-in-one won't both fit comfortably. Two genuinely compact machines side by side, like a small inkjet and a label printer, is realistic here.\n\nWorth knowing before you decide: Fits two compact machines side by side. On the other side, Still one tier, not a stacked two-printer design. That's the main tradeoff to weigh against your specific needs.",
+      "This file cabinet's 24-inch extended desktop is the widest single surface in this list, which is the closest a single-tier cabinet gets to fitting two compact printers side by side rather than stacked. Two drawers underneath, one with a fabric side bag, add letter and A4 filing.\n\nIt's still one tier, not two, so a laser printer plus a large all-in-one won't both fit comfortably. Two genuinely compact machines side by side, like a small inkjet and a label printer, is realistic here.\n\nFits two compact machines side by side. On the other hand, still one tier, not a stacked two-printer design. Both are worth keeping in mind before deciding.",
     specs: [
       "24\" extended desktop surface",
       "2 drawers, fits A4/Letter",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31QINv8WoNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H4KYBC1R?tag=deskfinds0d-20",
     description:
-      "Seven drawers make the OLIXIS the deepest storage option in this list, useful if two printers means twice the paper stock, ink cartridges, and manuals to organize. It's a single flat-top cabinet, so it holds one printer on top while the drawers absorb everything both machines generate.\n\nRolling casters make it easy to reposition near a second stand. Pair it with a second single-tier pick from this list rather than expecting it to hold two printers on its own.\n\nWorth knowing before you decide: Useful for organizing supplies for two printers at once. On the other side, Single top surface holds only one printer. That's the main tradeoff to weigh against your specific needs.",
+      "Seven drawers make the OLIXIS the deepest storage option in this list, useful if two printers means twice the paper stock, ink cartridges, and manuals to organize. It's a single flat-top cabinet, so it holds one printer on top while the drawers absorb everything both machines generate.\n\nRolling casters make it easy to reposition near a second stand. Pair it with a second single-tier pick from this list rather than expecting it to hold two printers on its own.\n\nA genuine advantage here is that useful for organizing supplies for two printers at once. The tradeoff is that single top surface holds only one printer.",
     specs: [
       "Single flat top surface",
       "7 drawers total",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41RwvBmm-PL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FKMZ1M3W?tag=deskfinds0d-20",
     description:
-      "The DUMOS brings a genuine wood-look finish to the under-desk file cabinet format, with a single flat top rated to hold one printer and three drawers underneath for paper and files. Its low profile is designed to slide under a desk rather than stand freely in a room.\n\nAs with the other single-tier cabinets here, it's honestly a one-printer stand, not a two-printer stand, so plan on a second unit or a wider surface pick if you need both machines accessible at once.\n\nWorth knowing before you decide: Low profile slides under most desks. On the other side, Single tier, holds one printer at a time. That's the main tradeoff to weigh against your specific needs.",
+      "The DUMOS brings a genuine wood-look finish to the under-desk file cabinet format, with a single flat top rated to hold one printer and three drawers underneath for paper and files. Its low profile is designed to slide under a desk rather than stand freely in a room.\n\nAs with the other single-tier cabinets here, it's honestly a one-printer stand, not a two-printer stand, so plan on a second unit or a wider surface pick if you need both machines accessible at once.\n\nLow profile slides under most desks. That said, single tier, holds one printer at a time. Neither should be a surprise once you know to look for it.",
     specs: [
       "Single flat top surface",
       "3 drawers",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31xyJKdJz-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BQJ5WL24?tag=deskfinds0d-20",
     description:
-      "At 15.7 x 16.5 x 27.6 inches, the VASAGLE CUSTOS is the smallest footprint in this list, a single-tier cabinet built for one compact printer plus two drawers of A4 or letter filing. Its matte black finish and rolling base fit tight home-office corners.\n\nThe narrow top means it won't hold a second machine beside it, so this is a one-printer-per-unit pick, best bought as one of two matching units rather than expected to serve a dual-printer setup alone.\n\nWorth knowing before you decide: Matte black finish matches modern office decor. On the other side, Too narrow for a second printer beside the first. That's the main tradeoff to weigh against your specific needs.",
+      "At 15.7 x 16.5 x 27.6 inches, the VASAGLE CUSTOS is the smallest footprint in this list, a single-tier cabinet built for one compact printer plus two drawers of A4 or letter filing. Its matte black finish and rolling base fit tight home-office corners.\n\nThe narrow top means it won't hold a second machine beside it, so this is a one-printer-per-unit pick, best bought as one of two matching units rather than expected to serve a dual-printer setup alone.\n\nWorth calling out specifically: matte black finish matches modern office decor. The catch is too narrow for a second printer beside the first.",
     specs: [
       "15.7\"W x 16.5\"D x 27.6\"H",
       "2 drawers for A4/Letter documents",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41vlbbgz9NL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CBV7YJ8?tag=deskfinds0d-20",
     description:
-      "The HUANUO is built with routed cable management channels specifically for printer power and USB cords, a detail worth noting for a two-printer setup where four or more cables need to stay untangled. Its 14.1-inch maximum height and single-tier top keep it low and stable.\n\nA built-in storage drawer holds paper close to the printer it serves. Since it's a single-tier design, running two of these side by side gives each printer its own cable routing rather than trying to share one stand.\n\nWorth knowing before you decide: Low profile fits under most desks. On the other side, Single tier, one printer per unit. That's the main tradeoff to weigh against your specific needs.",
+      "The HUANUO is built with routed cable management channels specifically for printer power and USB cords, a detail worth noting for a two-printer setup where four or more cables need to stay untangled. Its 14.1-inch maximum height and single-tier top keep it low and stable.\n\nA built-in storage drawer holds paper close to the printer it serves. Since it's a single-tier design, running two of these side by side gives each printer its own cable routing rather than trying to share one stand.\n\nLow profile fits under most desks. Set against that, single tier, one printer per unit. Both matter when comparing it to the other picks here.",
     specs: [
       "14.1\" maximum height",
       "Single flat top surface",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31Nz-Myx-1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09YVJN8R7?tag=deskfinds0d-20",
     description:
-      "The Letaya is a fully assembled 3-drawer metal file cabinet with a lock, useful if one of your two printers sits in a shared or semi-public office and its supply drawers need to stay secure. The single flat top holds one printer, with letter and legal filing underneath.\n\nAll-metal construction is sturdier than the particleboard cabinets in this list, though that comes with a higher price and more weight to move. Pair it with a second unit for a genuine two-printer setup rather than expecting one cabinet to do double duty.\n\nWorth knowing before you decide: Sturdier all-metal build than particleboard picks. On the other side, Highest price in this list. That's the main tradeoff to weigh against your specific needs.",
+      "The Letaya is a fully assembled 3-drawer metal file cabinet with a lock, useful if one of your two printers sits in a shared or semi-public office and its supply drawers need to stay secure. The single flat top holds one printer, with letter and legal filing underneath.\n\nAll-metal construction is sturdier than the particleboard cabinets in this list, though that comes with a higher price and more weight to move. Pair it with a second unit for a genuine two-printer setup rather than expecting one cabinet to do double duty.\n\nThe standout detail is that sturdier all-metal build than particleboard picks. Balancing that out, highest price in this list.",
     specs: [
       "Single flat top surface",
       "3 drawers, letter/legal size",

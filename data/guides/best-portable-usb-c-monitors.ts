@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51qgAD7WZSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CH9XW8RK?tag=deskfinds0d-20",
     description:
-      "An ultra-slim 15.6-inch panel with a built-in kickstand, explicit multi-device compatibility across PC, Mac, phone, Xbox, and PS5 gives real setup flexibility for portable use.\n\nSingle-cable USB-C connectivity draws power through your laptop by default, verify your laptop's battery capacity if you plan extended off-outlet use.\n\nWorth knowing before you decide: Explicit multi-device compatibility including consoles. On the other side, USB-C power draw comes from your laptop by default. That's the main tradeoff to weigh against your specific needs.",
+      "An ultra-slim 15.6-inch panel with a built-in kickstand, explicit multi-device compatibility across PC, Mac, phone, Xbox, and PS5 gives real setup flexibility for portable use.\n\nSingle-cable USB-C connectivity draws power through your laptop by default, verify your laptop's battery capacity if you plan extended off-outlet use.\n\nExplicit multi-device compatibility including consoles. On the other hand, uSB-C power draw comes from your laptop by default. Both are worth keeping in mind before deciding.",
     specs: ["15.6-inch FHD IPS panel", "Built-in kickstand", "USB-C and HDMI connectivity", "Multi-device compatibility"],
     pros: ["Ultra-slim, genuinely portable build", "Explicit multi-device compatibility including consoles", "Built-in kickstand avoids needing a separate stand", "Budget-friendly price"],
     cons: ["USB-C power draw comes from your laptop by default", "Verify laptop battery life for extended off-outlet use", "Standard FHD resolution, not higher-end"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51qgAD7WZSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09K3FWMPL?tag=deskfinds0d-20",
     description:
-      "Includes a protective sleeve for travel, a genuinely practical inclusion most competitors charge extra for or omit entirely.\n\nThe built-in 90-degree adjustable stand gives real viewing angle flexibility without needing to carry a separate accessory.\n\nWorth knowing before you decide: Built-in adjustable stand avoids extra accessories. On the other side, USB-C power draw comes from your laptop by default. That's the main tradeoff to weigh against your specific needs.",
+      "Includes a protective sleeve for travel, a genuinely practical inclusion most competitors charge extra for or omit entirely.\n\nThe built-in 90-degree adjustable stand gives real viewing angle flexibility without needing to carry a separate accessory.\n\nA genuine advantage here is that built-in adjustable stand avoids extra accessories. The tradeoff is that uSB-C power draw comes from your laptop by default.",
     specs: ["15.6-inch 1080P panel", "Included protective sleeve", "Built-in 90° adjustable stand", "Budget-friendly price"],
     pros: ["Included protective sleeve adds real travel value", "Built-in adjustable stand avoids extra accessories", "Budget-friendly price", "Solid rating for the price point"],
     cons: ["USB-C power draw comes from your laptop by default", "Standard 1080P resolution, not higher-end", "Verify brightness rating for varied lighting use"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51qgAD7WZSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZLY26FW?tag=deskfinds0d-20",
     description:
-      "Integrated speakers avoid needing separate audio equipment while traveling, a genuine convenience for video calls or media playback away from your desk setup.\n\n85% sRGB coverage gives reasonably accurate color for casual creative work on the go.\n\nWorth knowing before you decide: 85% sRGB coverage for reasonably accurate color. On the other side, USB-C power draw comes from your laptop by default. That's the main tradeoff to weigh against your specific needs.",
+      "Integrated speakers avoid needing separate audio equipment while traveling, a genuine convenience for video calls or media playback away from your desk setup.\n\n85% sRGB coverage gives reasonably accurate color for casual creative work on the go.\n\n85% sRGB coverage for reasonably accurate color. That said, uSB-C power draw comes from your laptop by default. Neither should be a surprise once you know to look for it.",
     specs: ["15.6-inch FHD 1080P panel", "60Hz refresh rate", "85% sRGB color coverage", "Integrated speakers"],
     pros: ["Integrated speakers avoid needing separate travel audio equipment", "85% sRGB coverage for reasonably accurate color", "Solid review base and rating", "USB-C and HDMI connectivity"],
     cons: ["USB-C power draw comes from your laptop by default", "85% sRGB is good but not professional-grade color accuracy", "Standard 60Hz refresh rate"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51qgAD7WZSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP7XRW9S?tag=deskfinds0d-20",
     description:
-      "A straightforward, budget-friendly 15.6-inch portable monitor with single-cable USB-C connectivity, appropriate for buyers wanting a no-frills reliable second screen for travel.\n\nCheck current reviews for reports on build quality and brightness given the lower price point relative to feature-rich alternatives.\n\nWorth knowing before you decide: Compact, genuinely portable build. On the other side, Fewer extra features than pricier alternatives. That's the main tradeoff to weigh against your specific needs.",
+      "A straightforward, budget-friendly 15.6-inch portable monitor with single-cable USB-C connectivity, appropriate for buyers wanting a no-frills reliable second screen for travel.\n\nCheck current reviews for reports on build quality and brightness given the lower price point relative to feature-rich alternatives.\n\nWorth calling out specifically: compact, genuinely portable build. The catch is fewer extra features than pricier alternatives.",
     specs: ["15.6-inch panel", "USB-C connectivity", "Budget-friendly price", "Compact, portable build"],
     pros: ["Budget-friendly price for a portable USB-C monitor", "Compact, genuinely portable build", "Straightforward single-cable setup", "Solid rating for the price point"],
     cons: ["Fewer extra features than pricier alternatives", "USB-C power draw comes from your laptop by default", "Verify brightness rating for your intended use environment"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51qgAD7WZSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9NNWXVP?tag=deskfinds0d-20",
     description:
-      "The most budget-friendly option in this guide, HDR support and IPS panel technology give reasonably good picture quality despite the low price point.\n\nAppropriate for buyers testing whether a portable monitor fits their workflow before investing in a pricier option.\n\nWorth knowing before you decide: HDR support and IPS panel for reasonable picture quality. On the other side, Lower rating than other picks in this guide, verify current reviews. That's the main tradeoff to weigh against your specific needs.",
+      "The most budget-friendly option in this guide, HDR support and IPS panel technology give reasonably good picture quality despite the low price point.\n\nAppropriate for buyers testing whether a portable monitor fits their workflow before investing in a pricier option.\n\nHDR support and IPS panel for reasonable picture quality. Set against that, lower rating than other picks in this guide, verify current reviews. Both matter when comparing it to the other picks here.",
     specs: ["15.6-inch FHD IPS panel", "HDR support", "USB-C and HDMI connectivity", "Lowest price in this guide"],
     pros: ["Lowest price in this guide for a full-featured portable monitor", "HDR support and IPS panel for reasonable picture quality", "USB-C and HDMI dual connectivity", "Good entry point for testing the portable monitor format"],
     cons: ["Lower rating than other picks in this guide, verify current reviews", "USB-C power draw comes from your laptop by default", "Build quality less proven than higher-priced alternatives"],

@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41hpKXhqKnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H1VFKC84?tag=deskfinds0d-20",
     description:
-      "A genuinely massive 32:9 super-ultrawide panel, appropriate for buyers wanting the equivalent of two side-by-side QHD monitors without a bezel gap in between.\n\nPlan for window-snapping software to make the most of this extreme aspect ratio, default OS window management often isn't sufficient for a panel this wide.\n\nWorth knowing before you decide: HDR400 support for richer contrast. On the other side, Requires substantial desk depth and width. That's the main tradeoff to weigh against your specific needs.",
+      "A genuinely massive 32:9 super-ultrawide panel, appropriate for buyers wanting the equivalent of two side-by-side QHD monitors without a bezel gap in between.\n\nPlan for window-snapping software to make the most of this extreme aspect ratio, default OS window management often isn't sufficient for a panel this wide.\n\nWorth calling out specifically: hDR400 support for richer contrast. The catch is requires substantial desk depth and width.",
     specs: ["49-inch super-ultrawide panel", "5120x1440 Dual QHD, 32:9 aspect ratio", "HDR400 support", "USB-C connectivity"],
     pros: ["Massive 32:9 workspace effectively replaces a dual-monitor setup", "HDR400 support for richer contrast", "No bezel gap unlike a true dual-monitor arrangement", "Dual QHD resolution across the width"],
     cons: ["Requires substantial desk depth and width", "Some older software may not handle the extreme aspect ratio gracefully", "Window-snapping software strongly recommended for full utility"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41oTaXgx2fL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1H325FN?tag=deskfinds0d-20",
     description:
-      "A standard 21:9 ultrawide format that most modern software handles gracefully, a safer choice than a 32:9 super-ultrawide for buyers concerned about app compatibility.\n\nExplicit eye comfort features and a 120Hz refresh rate round out a strong productivity-focused ultrawide.\n\nWorth knowing before you decide: Explicit eye comfort features for long sessions. On the other side, Less extreme workspace than a 32:9 super-ultrawide. That's the main tradeoff to weigh against your specific needs.",
+      "A standard 21:9 ultrawide format that most modern software handles gracefully, a safer choice than a 32:9 super-ultrawide for buyers concerned about app compatibility.\n\nExplicit eye comfort features and a 120Hz refresh rate round out a strong productivity-focused ultrawide.\n\nExplicit eye comfort features for long sessions. Set against that, less extreme workspace than a 32:9 super-ultrawide. Both matter when comparing it to the other picks here.",
     specs: ["34-inch curved 21:9 ultrawide WQHD panel", "120Hz refresh rate", "FreeSync Premium", "Explicit eye comfort features"],
     pros: ["Standard 21:9 aspect ratio handled gracefully by most modern software", "Explicit eye comfort features for long sessions", "120Hz refresh rate for smoother motion", "Reliable Dell build quality"],
     cons: ["Less extreme workspace than a 32:9 super-ultrawide", "Verify USB-C power delivery wattage against your laptop", "Large 34-inch size still needs generous desk space"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41TB04lWCrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DR3YBSL4?tag=deskfinds0d-20",
     description:
-      "A genuinely high 180Hz refresh rate on a standard 21:9 ultrawide, appropriate for buyers wanting both expansive workspace and smooth motion for gaming.\n\nA tight 1000R curve pairs well with the ultrawide format for a more immersive feel at typical desk viewing distances.\n\nWorth knowing before you decide: Standard 21:9 aspect ratio for broad software compatibility. On the other side, Verify USB-C power delivery wattage against your laptop. That's the main tradeoff to weigh against your specific needs.",
+      "A genuinely high 180Hz refresh rate on a standard 21:9 ultrawide, appropriate for buyers wanting both expansive workspace and smooth motion for gaming.\n\nA tight 1000R curve pairs well with the ultrawide format for a more immersive feel at typical desk viewing distances.\n\nThe standout detail is that standard 21:9 aspect ratio for broad software compatibility. Balancing that out, verify USB-C power delivery wattage against your laptop.",
     specs: ["34-inch curved 21:9 ultrawide UWQHD panel", "180Hz refresh rate", "1000R curve radius", "USB-C connectivity"],
     pros: ["Very high 180Hz refresh rate for smooth motion", "Standard 21:9 aspect ratio for broad software compatibility", "Tight 1000R curve for genuine immersion", "Good value for the spec combination"],
     cons: ["Verify USB-C power delivery wattage against your laptop", "Large 34-inch size needs generous desk space", "1000R curve suits closer viewing distances specifically"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51jbyzHVvdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BLT79X2G?tag=deskfinds0d-20",
     description:
-      "A premium 34-inch ultrawide from Samsung's Viewfinity line, HDR10 support adds genuine contrast benefit for both productivity and media consumption on the wide canvas.\n\nSamsung's panel quality and reliability make this a strong pick for buyers wanting a premium ultrawide experience.\n\nWorth knowing before you decide: Samsung panel quality and reliability. On the other side, Premium price relative to the Pixio alternative. That's the main tradeoff to weigh against your specific needs.",
+      "A premium 34-inch ultrawide from Samsung's Viewfinity line, HDR10 support adds genuine contrast benefit for both productivity and media consumption on the wide canvas.\n\nSamsung's panel quality and reliability make this a strong pick for buyers wanting a premium ultrawide experience.\n\nSamsung panel quality and reliability. That's a real strength, but weigh it against the flip side: premium price relative to the Pixio alternative.",
     specs: ["34-inch curved 21:9 ultrawide QHD panel", "100Hz refresh rate", "HDR10 support", "USB-C connectivity"],
     pros: ["HDR10 support for richer contrast in both work and media use", "Samsung panel quality and reliability", "Standard 21:9 aspect ratio for broad software compatibility", "100Hz refresh rate for smoother motion"],
     cons: ["Premium price relative to the Pixio alternative", "Verify USB-C power delivery wattage against your laptop", "Large 34-inch size needs generous desk space"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/518zREWknqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DB8HLNPN?tag=deskfinds0d-20",
     description:
-      "A more budget-friendly, standard-width curved monitor for buyers wanting to test whether a wider or curved format suits their workflow before committing to a true ultrawide.\n\nNote this is not a true ultrawide aspect ratio, it's a starting point for buyers unsure if they'll benefit from the extra width.\n\nWorth knowing before you decide: 120Hz refresh rate for smoother motion. On the other side, Not a true ultrawide aspect ratio, verify this matches your expectations. That's the main tradeoff to weigh against your specific needs.",
+      "A more budget-friendly, standard-width curved monitor for buyers wanting to test whether a wider or curved format suits their workflow before committing to a true ultrawide.\n\nNote this is not a true ultrawide aspect ratio, it's a starting point for buyers unsure if they'll benefit from the extra width.\n\n120Hz refresh rate for smoother motion. On the other hand, not a true ultrawide aspect ratio, verify this matches your expectations. Both are worth keeping in mind before deciding.",
     specs: ["27-inch curved panel, standard aspect ratio", "120Hz refresh rate", "USB Type-C connectivity", "Budget-friendly price"],
     pros: ["Budget-friendly price to test curved and wide-format preferences", "120Hz refresh rate for smoother motion", "USB-C single-cable connectivity", "Good entry point before a true ultrawide investment"],
     cons: ["Not a true ultrawide aspect ratio, verify this matches your expectations", "Less workspace than a genuine 21:9 or 32:9 panel", "Verify USB-C power delivery wattage against your laptop"],

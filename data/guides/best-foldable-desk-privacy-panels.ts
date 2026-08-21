@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51TKKfxMxNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTQM26FB?tag=deskfinds0d-20",
     description:
-      "Felt material genuinely doubles as a modest sound-absorbing layer alongside visual privacy, and the included 4 bases with 8 mini crown clips let you configure the fold shape to your desk. Folds flat for storage when not in use.\n\nVery limited review history so far given how new this listing is, weigh the perfect early rating against the small sample size.\n\nWorth knowing before you decide: Included bases and clips for flexible configuration. On the other side, Very limited review history, small sample size. That's the main tradeoff to weigh against your specific needs.",
+      "Felt material genuinely doubles as a modest sound-absorbing layer alongside visual privacy, and the included 4 bases with 8 mini crown clips let you configure the fold shape to your desk. Folds flat for storage when not in use.\n\nVery limited review history so far given how new this listing is, weigh the perfect early rating against the small sample size.\n\nIncluded bases and clips for flexible configuration. That said, very limited review history, small sample size. Neither should be a surprise once you know to look for it.",
     specs: ["16 x 48 inches, felt material", "4 bases, 8 mini crown clips included", "Folds flat for storage", "Acoustic partition, modest noise reduction"],
     pros: ["Felt material adds modest sound absorption alongside privacy", "Included bases and clips for flexible configuration", "Folds flat for easy storage", "Perfect early rating"],
     cons: ["Very limited review history, small sample size", "Less rigid than a clamp-mounted panel under daily bumping", "Configuration with bases/clips takes initial setup time"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51bb1Hf-33L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8B7N5K6?tag=deskfinds0d-20",
     description:
-      "A 6-pack of individual panels genuinely lets you configure multiple desks or a shared workspace at once, with support feet rather than a fold-hinge design for freestanding stability. Budget-friendly for outfitting several desks.\n\nLower rating than the other foldable picks in this guide, worth reading recent reviews carefully before buying at volume for a classroom or shared office.\n\nWorth knowing before you decide: Budget-friendly per-panel cost. On the other side, Lower rating than other picks in this guide. That's the main tradeoff to weigh against your specific needs.",
+      "A 6-pack of individual panels genuinely lets you configure multiple desks or a shared workspace at once, with support feet rather than a fold-hinge design for freestanding stability. Budget-friendly for outfitting several desks.\n\nLower rating than the other foldable picks in this guide, worth reading recent reviews carefully before buying at volume for a classroom or shared office.\n\nWorth calling out specifically: budget-friendly per-panel cost. The catch is lower rating than other picks in this guide.",
     specs: ["6 panels, 24\" x 16\" each", "Support feet, freestanding", "Acoustic, noise reducing", "Budget-friendly for multi-desk setups"],
     pros: ["6 panels for outfitting multiple desks at once", "Budget-friendly per-panel cost", "Support feet for freestanding stability", "Acoustic material for modest noise reduction"],
     cons: ["Lower rating than other picks in this guide", "Small review base, read recent feedback carefully", "Individual panels smaller than a single wide clamp-on panel"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41KEH+uK0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GL8CKJMS?tag=deskfinds0d-20",
     description:
-      "A larger single-panel foldable design at 47.3 x 15.7 inches, genuinely more coverage than the smaller multi-panel Eorbow set for a single desk. Very strong early rating, though still on a modest review count.\n\nRetro felt board style suits a classroom or home office aesthetic, folds for storage when not needed.\n\nWorth knowing before you decide: Very strong early rating. On the other side, Modest review count. That's the main tradeoff to weigh against your specific needs.",
+      "A larger single-panel foldable design at 47.3 x 15.7 inches, genuinely more coverage than the smaller multi-panel Eorbow set for a single desk. Very strong early rating, though still on a modest review count.\n\nRetro felt board style suits a classroom or home office aesthetic, folds for storage when not needed.\n\nVery strong early rating. Set against that, modest review count. Both matter when comparing it to the other picks here.",
     specs: ["47.3 x 15.7 inches, felt board", "Retro style", "Folds for storage", "Acoustic, portable"],
     pros: ["Larger single-panel coverage than multi-panel budget sets", "Very strong early rating", "Retro felt board aesthetic", "Portable, folds for storage"],
     cons: ["Modest review count", "Less rigid than a clamp-mounted panel under daily bumping", "Single panel, less configurable than a multi-panel set"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31Zm-DQqOUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F7R7GKQS?tag=deskfinds0d-20",
     description:
-      "The most affordable pick in this guide by a wide margin, a genuine 3-fold design built for classroom testing use, where simple visual privacy matters more than sound absorption or premium materials.\n\nSolid review base for the price, a sensible budget choice if your need is straightforward visual privacy rather than acoustic benefits.\n\nWorth knowing before you decide: Solid review base for the price. On the other side, No acoustic/sound-absorbing material. That's the main tradeoff to weigh against your specific needs.",
+      "The most affordable pick in this guide by a wide margin, a genuine 3-fold design built for classroom testing use, where simple visual privacy matters more than sound absorption or premium materials.\n\nSolid review base for the price, a sensible budget choice if your need is straightforward visual privacy rather than acoustic benefits.\n\nThe standout detail is that solid review base for the price. Balancing that out, no acoustic/sound-absorbing material.",
     specs: ["2-pack, 3-fold design", "Testing/classroom focused", "Lightweight", "Very budget-friendly"],
     pros: ["Most affordable pick in this guide", "Solid review base for the price", "Simple 3-fold design, easy to set up and store", "2-pack, good value for outfitting two spots"],
     cons: ["No acoustic/sound-absorbing material", "Less rigid than premium foldable or clamp-on panels", "Basic construction suited to occasional testing use, not daily heavy use"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31d7CVpkJCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FYPHYYRV?tag=deskfinds0d-20",
     description:
-      "A significant step up in scale and price, this is a full mobile cubicle wall on wheels rather than a desktop panel, genuinely useful if you need a movable room-dividing partition rather than a per-desk privacy screen.\n\nStrong early rating, though this is a different product category from the smaller desk-level panels in this guide, priced and sized accordingly.\n\nWorth knowing before you decide: Wheeled for easy repositioning. On the other side, Much higher price than desktop privacy panels. That's the main tradeoff to weigh against your specific needs.",
+      "A significant step up in scale and price, this is a full mobile cubicle wall on wheels rather than a desktop panel, genuinely useful if you need a movable room-dividing partition rather than a per-desk privacy screen.\n\nStrong early rating, though this is a different product category from the smaller desk-level panels in this guide, priced and sized accordingly.\n\nWheeled for easy repositioning. That's a real strength, but weigh it against the flip side: much higher price than desktop privacy panels.",
     specs: ["3-panel foldable partition, wheeled", "Mobile cubicle wall design", "Full room-height coverage", "Foldable for storage/repositioning"],
     pros: ["Full mobile cubicle wall rather than a desktop panel", "Wheeled for easy repositioning", "Strong early rating", "Genuine room-dividing scale"],
     cons: ["Much higher price than desktop privacy panels", "Overkill if you just need per-desk privacy", "Larger footprint requires floor space to store or maneuver"],

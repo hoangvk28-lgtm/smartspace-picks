@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ODC2Uu41L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09GTRVJQM?tag=deskfinds0d-20",
     description:
-      "A genuinely compact design with a large review base, appropriate for travel or moving between rooms. Affordable price.\n\nA modest CADR here may perform adequately in an enclosed travel space like a car or hotel room, despite being sized for a smaller home area than a full-room rating implies.\n\nWorth knowing before you decide: Large, well-established review base. On the other side, True kit weight includes cable/adapter, verify total travel weight. That's the main tradeoff to weigh against your specific needs.",
+      "A genuinely compact design with a large review base, appropriate for travel or moving between rooms. Affordable price.\n\nA modest CADR here may perform adequately in an enclosed travel space like a car or hotel room, despite being sized for a smaller home area than a full-room rating implies.\n\nThe standout detail is that large, well-established review base. Balancing that out, true kit weight includes cable/adapter, verify total travel weight.",
     specs: ["Compact, portable design", "Large review base", "Affordable", "Personal-zone focused"],
     pros: ["Genuinely compact for portability", "Large, well-established review base", "Very affordable", "Effective in enclosed travel contexts"],
     cons: ["True kit weight includes cable/adapter, verify total travel weight", "Filter replacement availability for travel use, check compatibility", "No smart features"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/414NIpA+xLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B4ZSKPNL?tag=deskfinds0d-20",
     description:
-      "Explicitly marketed as portable with certified True HEPA H13 filtration and a night light, genuinely useful for a hotel room or travel setting. Solid review base.\n\nCheck filter access and replacement availability for ultra-compact portable units, proprietary small filters can be harder to source than room-sized purifier filters.\n\nWorth knowing before you decide: Explicitly portable design with night light. On the other side, Verify filter replacement availability for this specific compact model. That's the main tradeoff to weigh against your specific needs.",
+      "Explicitly marketed as portable with certified True HEPA H13 filtration and a night light, genuinely useful for a hotel room or travel setting. Solid review base.\n\nCheck filter access and replacement availability for ultra-compact portable units, proprietary small filters can be harder to source than room-sized purifier filters.\n\nExplicitly portable design with night light. That's a real strength, but weigh it against the flip side: verify filter replacement availability for this specific compact model.",
     specs: ["True HEPA H13 filter", "Portable, small design", "Night light feature", "Solid review base"],
     pros: ["Certified True HEPA H13 filtration", "Explicitly portable design with night light", "Affordable", "Genuinely useful for travel settings"],
     cons: ["Verify filter replacement availability for this specific compact model", "Lower rating than the top pick", "Total kit weight not confirmed including cable/adapter"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41BE3lVftQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DY4S3HP2?tag=deskfinds0d-20",
     description:
-      "The most affordable pick in this guide with a solid review base, rated for a substantial home area meaning genuine overkill CADR for the smaller air volume of a car or hotel room.\n\nThis larger rated capacity means real overperformance in the smaller enclosed spaces travel actually involves, genuine headroom beyond what a modest-CADR portable unit provides.\n\nWorth knowing before you decide: Solid review base. On the other side, Larger and potentially heavier than dedicated ultra-portable picks. That's the main tradeoff to weigh against your specific needs.",
+      "The most affordable pick in this guide with a solid review base, rated for a substantial home area meaning genuine overkill CADR for the smaller air volume of a car or hotel room.\n\nThis larger rated capacity means real overperformance in the smaller enclosed spaces travel actually involves, genuine headroom beyond what a modest-CADR portable unit provides.\n\nSolid review base. On the other hand, larger and potentially heavier than dedicated ultra-portable picks. Both are worth keeping in mind before deciding.",
     specs: ["Up to 1076 sq ft rated", "Solid review base", "Most affordable in this guide", "High efficiency filter"],
     pros: ["Most affordable pick in this guide", "Solid review base", "Genuine overperformance for smaller travel spaces", "High efficiency filter"],
     cons: ["Larger and potentially heavier than dedicated ultra-portable picks", "Verify true HEPA certification", "No smart features"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Apo3YcVHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9SL7894?tag=deskfinds0d-20",
     description:
-      "A solid review base at an affordable price, compact enough for travel while providing genuine overperformance in a smaller enclosed travel space like a car or hotel room.\n\nRemember that total travel-kit weight should include the cable, adapter, and any carrying case, not just this unit's own listed weight.\n\nWorth knowing before you decide: Affordable price. On the other side, Verify total kit weight including cable and adapter. That's the main tradeoff to weigh against your specific needs.",
+      "A solid review base at an affordable price, compact enough for travel while providing genuine overperformance in a smaller enclosed travel space like a car or hotel room.\n\nRemember that total travel-kit weight should include the cable, adapter, and any carrying case, not just this unit's own listed weight.\n\nA genuine advantage here is that affordable price. The tradeoff is that verify total kit weight including cable and adapter.",
     specs: ["Up to 880 sq ft rated", "Solid review base", "Affordable", "Compact design"],
     pros: ["Solid review base", "Affordable price", "Compact design suitable for travel", "Genuine overperformance in enclosed spaces"],
     cons: ["Verify total kit weight including cable and adapter", "No smart features", "Verify true HEPA certification specifics"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31e6d46ZnyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09LMF648R?tag=deskfinds0d-20",
     description:
-      "A large review base for a small, quiet-focused portable design, genuinely useful in a hotel room where noise matters as much as air cleaning. Affordable price.\n\nQuiet operation matters more in an enclosed travel space where you're often sleeping or working close by, this design prioritizes that consideration.\n\nWorth knowing before you decide: Quiet-focused design for travel settings. On the other side, Total kit weight not confirmed including accessories. That's the main tradeoff to weigh against your specific needs.",
+      "A large review base for a small, quiet-focused portable design, genuinely useful in a hotel room where noise matters as much as air cleaning. Affordable price.\n\nQuiet operation matters more in an enclosed travel space where you're often sleeping or working close by, this design prioritizes that consideration.\n\nQuiet-focused design for travel settings. That said, total kit weight not confirmed including accessories. Neither should be a surprise once you know to look for it.",
     specs: ["Small, quiet-focused design", "Large review base", "Affordable", "Compact, portable footprint"],
     pros: ["Large, well-established review base", "Quiet-focused design for travel settings", "Very affordable", "Compact, genuinely portable"],
     cons: ["Total kit weight not confirmed including accessories", "Filter replacement availability for travel, verify compatibility", "No smart features"],

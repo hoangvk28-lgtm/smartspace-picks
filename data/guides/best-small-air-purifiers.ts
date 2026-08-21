@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51SEA4kds4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08GQ9BQB4?tag=deskfinds0d-20",
     description:
-      "A compact footprint with genuine 330 sq ft coverage rating and a specific 0.1-micron removal specification, appropriate for a small bedroom or home office rather than a whole apartment.\n\nA small footprint doesn't automatically mean lower performance here, this unit's disclosed coverage and micron specification give real confidence in its capacity for its size.\n\nWorth knowing before you decide: Explicit 0.1-micron removal specification. On the other side, Lower average rating than other picks in this guide. That's the main tradeoff to weigh against your specific needs.",
+      "A compact footprint with genuine 330 sq ft coverage rating and a specific 0.1-micron removal specification, appropriate for a small bedroom or home office rather than a whole apartment.\n\nA small footprint doesn't automatically mean lower performance here, this unit's disclosed coverage and micron specification give real confidence in its capacity for its size.\n\nA genuine advantage here is that explicit 0.1-micron removal specification. The tradeoff is that lower average rating than other picks in this guide.",
     specs: ["99.9% removal to 0.1 microns", "330 sq ft coverage", "H13 True HEPA", "Compact footprint"],
     pros: ["Genuine disclosed coverage rating for its compact size", "Explicit 0.1-micron removal specification", "Marketed for multiple issues (allergies, pets, smoke, odors)", "Reasonable price"],
     cons: ["Lower average rating than other picks in this guide", "Smaller review base", "Not intended for a whole small apartment"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
-      "A compact cylindrical footprint with by far the largest review base of any pick here, genuinely proven for a small bedroom or desk zone at 24dB quoted noise.\n\nDesktop and small-room units like this are appropriate for a single space specifically, not a whole small apartment, match your expectation to that scope.\n\nWorth knowing before you decide: Compact footprint fits a small room or desk zone. On the other side, Not rated for a whole small apartment. That's the main tradeoff to weigh against your specific needs.",
+      "A compact cylindrical footprint with by far the largest review base of any pick here, genuinely proven for a small bedroom or desk zone at 24dB quoted noise.\n\nDesktop and small-room units like this are appropriate for a single space specifically, not a whole small apartment, match your expectation to that scope.\n\nCompact footprint fits a small room or desk zone. That said, not rated for a whole small apartment. Neither should be a surprise once you know to look for it.",
     specs: ["True HEPA H13, 99.97% particulate removal", "24dB quoted noise level", "Compact cylindrical footprint", "Largest review base in this guide"],
     pros: ["By far the largest review base of any pick here", "Compact footprint fits a small room or desk zone", "Certified True HEPA H13 filtration", "Very quiet at 24dB"],
     cons: ["Not rated for a whole small apartment", "No smart app control", "Standard CADR, not the highest airflow pick here"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51nlbgobV2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCBC8KKV?tag=deskfinds0d-20",
     description:
-      "An affordable compact option with a solid review base, genuinely capable for a small room or desk zone rather than an open-plan space.\n\nCheck the disclosed coverage rating against your actual room size before buying, a small footprint here does correspond to a genuinely smaller-room CADR rather than an oversized promise.\n\nWorth knowing before you decide: Solid review base. On the other side, Lower CADR than larger-footprint alternatives. That's the main tradeoff to weigh against your specific needs.",
+      "An affordable compact option with a solid review base, genuinely capable for a small room or desk zone rather than an open-plan space.\n\nCheck the disclosed coverage rating against your actual room size before buying, a small footprint here does correspond to a genuinely smaller-room CADR rather than an oversized promise.\n\nWorth calling out specifically: solid review base. The catch is lower CADR than larger-footprint alternatives.",
     specs: ["HEPA filtration", "Compact footprint", "Solid review base", "Budget-friendly"],
     pros: ["Affordable price for a compact unit", "Solid review base", "Compact footprint fits a small room", "Reasonable performance for its size"],
     cons: ["Lower CADR than larger-footprint alternatives", "Not intended for an open-plan or larger space", "Fewer smart features than premium picks"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41zOBElZS-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08PJQ3MWB?tag=deskfinds0d-20",
     description:
-      "The lowest price and most compact footprint in this guide with a large review base, genuinely appropriate for a small desk zone or a personal space within a larger room.\n\nA small footprint often means a smaller fan and less filter surface area, resulting in a genuinely lower CADR, this unit is best matched to a desk-zone scope rather than a full small bedroom.\n\nWorth knowing before you decide: Large, well-established review base. On the other side, Lower CADR appropriate only for a desk zone, not a full room. That's the main tradeoff to weigh against your specific needs.",
+      "The lowest price and most compact footprint in this guide with a large review base, genuinely appropriate for a small desk zone or a personal space within a larger room.\n\nA small footprint often means a smaller fan and less filter surface area, resulting in a genuinely lower CADR, this unit is best matched to a desk-zone scope rather than a full small bedroom.\n\nLarge, well-established review base. Set against that, lower CADR appropriate only for a desk zone, not a full room. Both matter when comparing it to the other picks here.",
     specs: ["Compact desktop footprint", "Large review base", "Lowest price in this guide", "Budget-friendly"],
     pros: ["Lowest price in this guide", "Large, well-established review base", "Very compact, fits on a desk", "Good value for a desk-zone unit"],
     cons: ["Lower CADR appropriate only for a desk zone, not a full room", "No smart features", "Basic filtration compared to premium picks"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/316AtkHoSdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004VGIGVY?tag=deskfinds0d-20",
     description:
-      "A compact, well-established design with a large review base, genuinely capable for a small bedroom or home office at a reasonable price.\n\nMatch your expectation of coverage to this unit's actual rated small-room size, not a whole apartment, for realistic results.\n\nWorth knowing before you decide: Compact footprint for a small room. On the other side, Not rated for a whole small apartment. That's the main tradeoff to weigh against your specific needs.",
+      "A compact, well-established design with a large review base, genuinely capable for a small bedroom or home office at a reasonable price.\n\nMatch your expectation of coverage to this unit's actual rated small-room size, not a whole apartment, for realistic results.\n\nThe standout detail is that compact footprint for a small room. Balancing that out, not rated for a whole small apartment.",
     specs: ["True HEPA filtration", "Large review base", "Compact design", "Budget-friendly"],
     pros: ["Large, well-established review base", "Compact footprint for a small room", "True HEPA filtration", "Reasonable price"],
     cons: ["Not rated for a whole small apartment", "No filter indicator", "Fewer smart features than premium alternatives"],

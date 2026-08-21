@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31mqa4FsYcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FGFW5FVD?tag=deskfinds0d-20",
     description:
-      "This Plugable dock is Thunderbolt 4 certified and driverless, driving a single 6K display or dual 4K displays over HDMI at true 60Hz. Thunderbolt 4's 40Gbps of total bandwidth comfortably covers dual 4K@60Hz, which needs roughly 30Gbps for the displays alone, leaving headroom for data and peripherals.\n\nAt 100W it charges most laptops without a separate power brick, and 6 USB ports plus SD and Ethernet round it out as a genuine all-in-one for a 4K dual-monitor desk.\n\nWorth knowing before you decide: Thunderbolt 4 bandwidth has real headroom left over for data. On the other side, Pricier than the budget DisplayLink-based docks. That's the main tradeoff to weigh against your specific needs.",
+      "This Plugable dock is Thunderbolt 4 certified and driverless, driving a single 6K display or dual 4K displays over HDMI at true 60Hz. Thunderbolt 4's 40Gbps of total bandwidth comfortably covers dual 4K@60Hz, which needs roughly 30Gbps for the displays alone, leaving headroom for data and peripherals.\n\nAt 100W it charges most laptops without a separate power brick, and 6 USB ports plus SD and Ethernet round it out as a genuine all-in-one for a 4K dual-monitor desk.\n\nThunderbolt 4 bandwidth has real headroom left over for data. That's a real strength, but weigh it against the flip side: pricier than the budget DisplayLink-based docks.",
     specs: [
       "Thunderbolt 4 certified, 40Gbps total bandwidth",
       "100W charging",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Gpx+DZnSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FFS34WRY?tag=deskfinds0d-20",
     description:
-      "This WAVLINK dock reaches dual 5K or dual 4K at a genuine 60Hz using DisplayLink software rather than native Thunderbolt bandwidth, a workaround worth knowing about since a dock's advertised resolution and its actual refresh rate are two separate specs. With 2x HDMI and 2x DisplayPort, it covers most 4K monitor combinations.\n\n130W power delivery and 5 USB ports plus Gigabit Ethernet make it a complete 13-in-1 hub, and it's built and tested for both Mac and Windows 4K setups.\n\nWorth knowing before you decide: 130W charging, higher than most DisplayLink docks. On the other side, DisplayLink software adds a small amount of input lag versus native Thunderbolt. That's the main tradeoff to weigh against your specific needs.",
+      "This WAVLINK dock reaches dual 5K or dual 4K at a genuine 60Hz using DisplayLink software rather than native Thunderbolt bandwidth, a workaround worth knowing about since a dock's advertised resolution and its actual refresh rate are two separate specs. With 2x HDMI and 2x DisplayPort, it covers most 4K monitor combinations.\n\n130W power delivery and 5 USB ports plus Gigabit Ethernet make it a complete 13-in-1 hub, and it's built and tested for both Mac and Windows 4K setups.\n\n130W charging, higher than most DisplayLink docks. On the other hand, displayLink software adds a small amount of input lag versus native Thunderbolt. Both are worth keeping in mind before deciding.",
     specs: [
       "Dual 5K or dual 4K@60Hz via DisplayLink",
       "2x HDMI, 2x DisplayPort",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41MOnEquH1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07DCLK55V?tag=deskfinds0d-20",
     description:
-      "The WAVLINK Pro is the cheapest true dual 4K@60Hz dock in this list, built around DisplayLink software rather than native Thunderbolt bandwidth. It accepts either a USB-C or USB-A host connection, which matters if your laptop doesn't have a Thunderbolt-capable port at all.\n\nBecause DisplayLink relies on CPU-based compression to drive the second 4K display, it's a solid fit for office productivity and document work, but it can introduce a touch of input lag that's more noticeable in fast-motion video editing or gaming.\n\nWorth knowing before you decide: Works over both USB-C and USB-A hosts. On the other side, DisplayLink software driver adds a touch of input lag. That's the main tradeoff to weigh against your specific needs.",
+      "The WAVLINK Pro is the cheapest true dual 4K@60Hz dock in this list, built around DisplayLink software rather than native Thunderbolt bandwidth. It accepts either a USB-C or USB-A host connection, which matters if your laptop doesn't have a Thunderbolt-capable port at all.\n\nBecause DisplayLink relies on CPU-based compression to drive the second 4K display, it's a solid fit for office productivity and document work, but it can introduce a touch of input lag that's more noticeable in fast-motion video editing or gaming.\n\nA genuine advantage here is that works over both USB-C and USB-A hosts. The tradeoff is that displayLink software driver adds a touch of input lag.",
     specs: [
       "Simultaneous dual 4K@60Hz output",
       "DisplayLink-based display driving",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ptzq7E2JL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CW9249DK?tag=deskfinds0d-20",
     description:
-      "Anker's Prime dock supports dual 4K displays across a total of 14 ports, with 10Gbps fast data transfer and a real-time smart interface that shows connection status at a glance. 160W max output covers charging a demanding laptop alongside driving two 4K monitors.\n\nIt's explicitly marketed as compatible with Dell, HP, Lenovo, and other major laptop brands, making it a solid cross-brand pick for an office where the laptop model varies by desk.\n\nWorth knowing before you decide: Fast 10Gbps data transfer alongside dual 4K. On the other side, Larger footprint than the more compact budget hubs. That's the main tradeoff to weigh against your specific needs.",
+      "Anker's Prime dock supports dual 4K displays across a total of 14 ports, with 10Gbps fast data transfer and a real-time smart interface that shows connection status at a glance. 160W max output covers charging a demanding laptop alongside driving two 4K monitors.\n\nIt's explicitly marketed as compatible with Dell, HP, Lenovo, and other major laptop brands, making it a solid cross-brand pick for an office where the laptop model varies by desk.\n\nFast 10Gbps data transfer alongside dual 4K. That said, larger footprint than the more compact budget hubs. Neither should be a surprise once you know to look for it.",
     specs: [
       "Dual 4K display support",
       "14 ports, 160W max output",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31VkRux4RUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08DDH5CPW?tag=deskfinds0d-20",
     description:
-      "This is the only true triple-display dock in this list, driving 1 display at 4K@30Hz and 2 more at 1080p@60Hz through DisplayLink software. That 4K output is capped at 30Hz, not 60Hz, so it shows visible motion blur on the cursor and in video, an important distinction since a listing that just says \"4K\" doesn't tell you the refresh rate.\n\n100W USB-C power delivery and 6 USB 5Gbps ports round out a dock built more for triple-monitor productivity than smooth 4K video work.\n\nWorth knowing before you decide: 100W charging over USB-C. On the other side, The 4K output is capped at 30Hz, causing visible motion blur. That's the main tradeoff to weigh against your specific needs.",
+      "This is the only true triple-display dock in this list, driving 1 display at 4K@30Hz and 2 more at 1080p@60Hz through DisplayLink software. That 4K output is capped at 30Hz, not 60Hz, so it shows visible motion blur on the cursor and in video, an important distinction since a listing that just says \"4K\" doesn't tell you the refresh rate.\n\n100W USB-C power delivery and 6 USB 5Gbps ports round out a dock built more for triple-monitor productivity than smooth 4K video work.\n\nWorth calling out specifically: 100W charging over USB-C. The catch is the 4K output is capped at 30Hz, causing visible motion blur.",
     specs: [
       "3 displays: 1x 4K@30Hz HDMI, 2x 1080p@60Hz HDMI",
       "100W USB-C power delivery",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41HZ73O5J4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXDQS4BD?tag=deskfinds0d-20",
     description:
-      "The Revodok Pro 210 gives you a choice between dual HDMI at true 4K@60Hz or a single display at 8K@30Hz, whichever fits your monitor setup better, at the lowest price in this list. 100W PD, 5Gbps USB data, Gigabit Ethernet, and an SD/TF card reader round it out as a genuinely capable budget hub.\n\nAt 8K, the connection drops to 30Hz, the same bandwidth tradeoff that affects budget 4K docks, so treat the 8K mode as a single ultra-high-resolution display option rather than a smooth dual-display solution.\n\nWorth knowing before you decide: True 4K@60Hz on dual displays. On the other side, 8K mode drops to 30Hz, same tradeoff as budget 4K docks. That's the main tradeoff to weigh against your specific needs.",
+      "The Revodok Pro 210 gives you a choice between dual HDMI at true 4K@60Hz or a single display at 8K@30Hz, whichever fits your monitor setup better, at the lowest price in this list. 100W PD, 5Gbps USB data, Gigabit Ethernet, and an SD/TF card reader round it out as a genuinely capable budget hub.\n\nAt 8K, the connection drops to 30Hz, the same bandwidth tradeoff that affects budget 4K docks, so treat the 8K mode as a single ultra-high-resolution display option rather than a smooth dual-display solution.\n\nTrue 4K@60Hz on dual displays. Set against that, 8K mode drops to 30Hz, same tradeoff as budget 4K docks. Both matter when comparing it to the other picks here.",
     specs: [
       "Dual HDMI 4K@60Hz or single 8K@30Hz",
       "100W power delivery",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41jaFGKHJgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874M3KW4?tag=deskfinds0d-20",
     description:
-      "Anker's 8-in-1 hub drives dual 4K displays over 2 HDMI ports for well under $60, with 85W power delivery and a Gigabit Ethernet port plus SD card reader. It's a compact, no-frills option for a home office that just needs two monitors working reliably.\n\nCheck your monitor's HDMI version before assuming full 60Hz on both displays at once, since HDMI 2.0 is required for 4K@60Hz while the more common HDMI 1.4 caps out at 4K@30Hz, and the weaker of the dock's output and the monitor's input always wins.\n\nWorth knowing before you decide: Compact footprint. On the other side, Charger not included. That's the main tradeoff to weigh against your specific needs.",
+      "Anker's 8-in-1 hub drives dual 4K displays over 2 HDMI ports for well under $60, with 85W power delivery and a Gigabit Ethernet port plus SD card reader. It's a compact, no-frills option for a home office that just needs two monitors working reliably.\n\nCheck your monitor's HDMI version before assuming full 60Hz on both displays at once, since HDMI 2.0 is required for 4K@60Hz while the more common HDMI 1.4 caps out at 4K@30Hz, and the weaker of the dock's output and the monitor's input always wins.\n\nThe standout detail is that compact footprint. Balancing that out, charger not included.",
     specs: [
       "Dual 4K display support via 2x HDMI",
       "85W power delivery",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/310OoVrsP4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCLC1RMM?tag=deskfinds0d-20",
     description:
-      "This Anker Nano dock drives 3 displays, 2 over HDMI and 1 over DisplayPort, from a compact base with a detachable 6-in-1 hub that unclips for travel. 10Gbps USB-C data and 100W max PD cover most 4K multi-display workflows without a bulky footprint.\n\nCheck your specific monitor's HDR support separately from the dock's own spec, since 4K HDR10 needs HDMI 2.0b or DisplayPort 1.4 at minimum, and a dock with plain HDMI 2.0 rather than 2.0b won't pass an HDR10 signal correctly even if the resolution itself looks fine.\n\nWorth knowing before you decide: Fast 10Gbps USB-C data transfer. On the other side, HDR10 passthrough depends on exact HDMI version, not guaranteed on every port. That's the main tradeoff to weigh against your specific needs.",
+      "This Anker Nano dock drives 3 displays, 2 over HDMI and 1 over DisplayPort, from a compact base with a detachable 6-in-1 hub that unclips for travel. 10Gbps USB-C data and 100W max PD cover most 4K multi-display workflows without a bulky footprint.\n\nCheck your specific monitor's HDR support separately from the dock's own spec, since 4K HDR10 needs HDMI 2.0b or DisplayPort 1.4 at minimum, and a dock with plain HDMI 2.0 rather than 2.0b won't pass an HDR10 signal correctly even if the resolution itself looks fine.\n\nFast 10Gbps USB-C data transfer. That's a real strength, but weigh it against the flip side: hDR10 passthrough depends on exact HDMI version, not guaranteed on every port.",
     specs: [
       "3 displays: 2x HDMI + 1x DisplayPort",
       "Detachable 6-in-1 hub",

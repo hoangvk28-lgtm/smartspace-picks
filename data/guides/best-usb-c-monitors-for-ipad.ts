@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51qgAD7WZSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CH9XW8RK?tag=deskfinds0d-20",
     description:
-      "A portable, ultra-slim panel with a built-in kickstand, appropriate for iPad users wanting a genuinely mobile external display that packs alongside a tablet.\n\nVerify your specific iPad model supports Stage Manager for true multi-display extension rather than simple screen mirroring.\n\nWorth knowing before you decide: Built-in kickstand avoids needing a separate stand. On the other side, Verify your iPad model and iPadOS version support Stage Manager. That's the main tradeoff to weigh against your specific needs.",
+      "A portable, ultra-slim panel with a built-in kickstand, appropriate for iPad users wanting a genuinely mobile external display that packs alongside a tablet.\n\nVerify your specific iPad model supports Stage Manager for true multi-display extension rather than simple screen mirroring.\n\nBuilt-in kickstand avoids needing a separate stand. Set against that, verify your iPad model and iPadOS version support Stage Manager. Both matter when comparing it to the other picks here.",
     specs: ["15.6-inch FHD IPS panel", "Built-in kickstand", "USB-C and HDMI connectivity", "Multi-device compatibility"],
     pros: ["Ultra-slim, genuinely portable build suited to travel with an iPad", "Built-in kickstand avoids needing a separate stand", "Budget-friendly price", "Multi-device compatibility beyond just iPad"],
     cons: ["Verify your iPad model and iPadOS version support Stage Manager", "Standard FHD resolution, not higher-end", "iPadOS app support for external displays varies by app"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ye7a0oJkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHZVYNQ2?tag=deskfinds0d-20",
     description:
-      "A genuinely budget-friendly 24-inch panel appropriate for iPad users wanting a larger, desk-bound external display for use with a tablet stand setup.\n\nVerify your specific iPad model's external resolution and refresh rate capability before assuming full 120Hz utilization.\n\nWorth knowing before you decide: 24-inch size suits a desk-bound iPad workstation setup. On the other side, 120Hz refresh rate likely exceeds what most iPad models can drive externally. That's the main tradeoff to weigh against your specific needs.",
+      "A genuinely budget-friendly 24-inch panel appropriate for iPad users wanting a larger, desk-bound external display for use with a tablet stand setup.\n\nVerify your specific iPad model's external resolution and refresh rate capability before assuming full 120Hz utilization.\n\nThe standout detail is that 24-inch size suits a desk-bound iPad workstation setup. Balancing that out, 120Hz refresh rate likely exceeds what most iPad models can drive externally.",
     specs: ["24-inch 1080p IPS panel", "120Hz refresh rate", "USB-C connectivity", "Budget-friendly price"],
     pros: ["Lowest price in this guide for a full-featured monitor", "24-inch size suits a desk-bound iPad workstation setup", "IPS panel for consistent viewing angles", "Good entry point for testing iPad external display use"],
     cons: ["120Hz refresh rate likely exceeds what most iPad models can drive externally", "Verify your specific iPad model's external display resolution support", "Stage Manager support varies by iPad model and app"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51+NCPHB1gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08K2NT2G7?tag=deskfinds0d-20",
     description:
-      "A professional-grade ProArt panel appropriate for iPad Pro users doing color-sensitive creative work like digital illustration or photo editing.\n\nColor accuracy matters more for iPad-based creative apps than for general productivity use, this panel's calibration credentials genuinely add value for that specific use case.\n\nWorth knowing before you decide: Straightforward 1080p resolution avoids scaling complications. On the other side, Higher price relative to general-purpose 1080p monitors. That's the main tradeoff to weigh against your specific needs.",
+      "A professional-grade ProArt panel appropriate for iPad Pro users doing color-sensitive creative work like digital illustration or photo editing.\n\nColor accuracy matters more for iPad-based creative apps than for general productivity use, this panel's calibration credentials genuinely add value for that specific use case.\n\nStraightforward 1080p resolution avoids scaling complications. That's a real strength, but weigh it against the flip side: higher price relative to general-purpose 1080p monitors.",
     specs: ["24-inch 1080p IPS panel", "USB-C connectivity", "ProArt color accuracy calibration", "Professional-grade build"],
     pros: ["ProArt color accuracy suited to iPad-based creative and illustration work", "Straightforward 1080p resolution avoids scaling complications", "USB-C single-cable connectivity", "Professional-grade build quality"],
     cons: ["Higher price relative to general-purpose 1080p monitors", "Verify your iPad model actually supports external display extension for creative apps", "1080p is modest for a 24-inch professional monitor"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51qgAD7WZSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09K3FWMPL?tag=deskfinds0d-20",
     description:
-      "Includes a protective sleeve genuinely useful for iPad users who already carry a tablet case and want matching portable display protection.\n\nBuilt-in adjustable stand gives real viewing angle flexibility for varied iPad workstation setups on the go.\n\nWorth knowing before you decide: Built-in adjustable stand avoids extra accessories. On the other side, Verify your iPad model supports Stage Manager for true multi-display extension. That's the main tradeoff to weigh against your specific needs.",
+      "Includes a protective sleeve genuinely useful for iPad users who already carry a tablet case and want matching portable display protection.\n\nBuilt-in adjustable stand gives real viewing angle flexibility for varied iPad workstation setups on the go.\n\nBuilt-in adjustable stand avoids extra accessories. On the other hand, verify your iPad model supports Stage Manager for true multi-display extension. Both are worth keeping in mind before deciding.",
     specs: ["15.6-inch 1080P panel", "Included protective sleeve", "Built-in 90° adjustable stand", "Budget-friendly price"],
     pros: ["Included protective sleeve pairs well with an already-portable iPad setup", "Built-in adjustable stand avoids extra accessories", "Budget-friendly price", "Solid rating for the price point"],
     cons: ["Verify your iPad model supports Stage Manager for true multi-display extension", "Standard 1080P resolution, not higher-end", "iPadOS app support for external displays varies by app"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51qgAD7WZSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZLY26FW?tag=deskfinds0d-20",
     description:
-      "Integrated speakers add real value for iPad users wanting a bigger-screen media or video-call setup without separate desk audio equipment.\n\n85% sRGB coverage gives reasonably accurate color for casual creative work alongside media consumption.\n\nWorth knowing before you decide: 85% sRGB coverage for reasonably accurate color. On the other side, Verify your specific iPad model and app support external display extension. That's the main tradeoff to weigh against your specific needs.",
+      "Integrated speakers add real value for iPad users wanting a bigger-screen media or video-call setup without separate desk audio equipment.\n\n85% sRGB coverage gives reasonably accurate color for casual creative work alongside media consumption.\n\nA genuine advantage here is that 85% sRGB coverage for reasonably accurate color. The tradeoff is that verify your specific iPad model and app support external display extension.",
     specs: ["15.6-inch FHD 1080P panel", "60Hz refresh rate", "85% sRGB color coverage", "Integrated speakers"],
     pros: ["Integrated speakers useful for iPad-based video calls and media", "85% sRGB coverage for reasonably accurate color", "Solid review base and rating", "USB-C and HDMI dual connectivity"],
     cons: ["Verify your specific iPad model and app support external display extension", "85% sRGB is good but not professional-grade color accuracy", "Standard 60Hz refresh rate"],

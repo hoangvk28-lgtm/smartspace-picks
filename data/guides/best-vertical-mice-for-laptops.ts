@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31z5JT0yL+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BIFNTMC?tag=deskfinds0d-20",
     description:
-      "A low-cost, moderately sized vertical mouse that pairs simply with a laptop's USB-A port, though buyers should check the current listing for whether a dongle storage slot is included given the higher loss risk of mobile use.\n\nRuns on AA batteries rather than a rechargeable cell, which is worth factoring into your travel bag weight even though it means never needing to remember a charging cable.\n\nWorth knowing before you decide: AA batteries mean no charging cable to remember. On the other side, USB-A only, needs an adapter for USB-C-only laptops. That's the main tradeoff to weigh against your specific needs.",
+      "A low-cost, moderately sized vertical mouse that pairs simply with a laptop's USB-A port, though buyers should check the current listing for whether a dongle storage slot is included given the higher loss risk of mobile use.\n\nRuns on AA batteries rather than a rechargeable cell, which is worth factoring into your travel bag weight even though it means never needing to remember a charging cable.\n\nAA batteries mean no charging cable to remember. On the other hand, uSB-A only, needs an adapter for USB-C-only laptops. Both are worth keeping in mind before deciding.",
     specs: ["2.4GHz USB-A dongle", "AA battery powered", "Moderate body size", "Budget price point"],
     pros: ["Low price for trying a vertical mouse with a laptop", "AA batteries mean no charging cable to remember", "Large review base", "Simple USB-A plug-and-play pairing"],
     cons: ["USB-A only, needs an adapter for USB-C-only laptops", "AA batteries add pack weight versus rechargeable options", "Confirm dongle storage before relying on it for frequent travel"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31nb5ALnDvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09J1TB35S?tag=deskfinds0d-20",
     description:
-      "A more compact body than most vertical mice, which meaningfully eases the portability-versus-ergonomics tension for laptop users who don't want to carry a bulky mouse.\n\nDual Bluetooth and 2.4GHz dongle connectivity gives a fallback if you don't want to use the dongle, and the rechargeable battery avoids AA weight, though its battery life under a frequent sleep-wake mobile pattern will likely run shorter than the quoted steady-use figure.\n\nWorth knowing before you decide: Bluetooth option avoids needing the dongle at all. On the other side, Mid-to-premium price versus budget picks. That's the main tradeoff to weigh against your specific needs.",
+      "A more compact body than most vertical mice, which meaningfully eases the portability-versus-ergonomics tension for laptop users who don't want to carry a bulky mouse.\n\nDual Bluetooth and 2.4GHz dongle connectivity gives a fallback if you don't want to use the dongle, and the rechargeable battery avoids AA weight, though its battery life under a frequent sleep-wake mobile pattern will likely run shorter than the quoted steady-use figure.\n\nA genuine advantage here is that bluetooth option avoids needing the dongle at all. The tradeoff is that mid-to-premium price versus budget picks.",
     specs: ["Compact body", "Dual Bluetooth and 2.4GHz dongle", "Rechargeable battery", "Mid-to-premium price"],
     pros: ["Compact body eases the ergonomic-versus-portability tradeoff", "Bluetooth option avoids needing the dongle at all", "Rechargeable, no AA weight", "Strong review base"],
     cons: ["Mid-to-premium price versus budget picks", "Battery life under frequent mobile power-cycling likely shorter than quoted", "Still bulkier than a typical travel mouse"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31rCoH07kzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07BFCVJZC?tag=deskfinds0d-20",
     description:
-      "A rechargeable option at a budget price, avoiding AA battery weight for laptop travel while keeping the cost close to entry-level picks.\n\nAs with most vertical mice, this needs a proper mousepad or reasonably flat surface for reliable tracking, a genuine limitation if you often work from a coffee table, your lap, or an uneven café table.\n\nWorth knowing before you decide: No AA weight for travel. On the other side, USB-A only, needs an adapter for USB-C-only laptops. That's the main tradeoff to weigh against your specific needs.",
+      "A rechargeable option at a budget price, avoiding AA battery weight for laptop travel while keeping the cost close to entry-level picks.\n\nAs with most vertical mice, this needs a proper mousepad or reasonably flat surface for reliable tracking, a genuine limitation if you often work from a coffee table, your lap, or an uneven café table.\n\nNo AA weight for travel. That said, uSB-A only, needs an adapter for USB-C-only laptops. Neither should be a surprise once you know to look for it.",
     specs: ["2.4GHz USB-A dongle", "Rechargeable built-in battery", "Mid-size body", "Budget price point"],
     pros: ["Rechargeable battery at a budget price", "No AA weight for travel", "Strong review base", "Reasonably sized for a bag"],
     cons: ["USB-A only, needs an adapter for USB-C-only laptops", "Needs a reasonably flat surface for reliable tracking", "No Bluetooth fallback option"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31PGrLfkUxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CX18LHWS?tag=deskfinds0d-20",
     description:
-      "A smaller footprint at a budget price, combining rechargeable convenience with reasonable portability for laptop users who move between locations often.\n\nConfirm dongle storage and current battery life expectations under mobile use before relying on this for frequent travel, since specifics can vary from the listing's steady-use claims.\n\nWorth knowing before you decide: Rechargeable battery. On the other side, USB-A only, needs an adapter for USB-C-only laptops. That's the main tradeoff to weigh against your specific needs.",
+      "A smaller footprint at a budget price, combining rechargeable convenience with reasonable portability for laptop users who move between locations often.\n\nConfirm dongle storage and current battery life expectations under mobile use before relying on this for frequent travel, since specifics can vary from the listing's steady-use claims.\n\nWorth calling out specifically: rechargeable battery. The catch is uSB-A only, needs an adapter for USB-C-only laptops.",
     specs: ["Compact rechargeable body", "2.4GHz USB-A dongle", "Budget-to-mid price point", "Solid review base"],
     pros: ["Compact footprint eases travel bag bulk", "Rechargeable battery", "Solid review rating", "Budget-friendly price"],
     cons: ["USB-A only, needs an adapter for USB-C-only laptops", "Confirm dongle storage for frequent travel use", "Battery life under mobile power-cycling not independently verified"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ttLEqu0hL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GNMPGM7G?tag=deskfinds0d-20",
     description:
-      "Explicitly sized for small to medium hands, which pairs well with the general portability priorities of laptop users, at a very strong review rating though on a small sample size.\n\nConfirm the specific wireless method and dongle storage on the current listing before relying on this for frequent travel between locations.\n\nWorth knowing before you decide: Very strong review rating. On the other side, Small review sample size, verify current feedback. That's the main tradeoff to weigh against your specific needs.",
+      "Explicitly sized for small to medium hands, which pairs well with the general portability priorities of laptop users, at a very strong review rating though on a small sample size.\n\nConfirm the specific wireless method and dongle storage on the current listing before relying on this for frequent travel between locations.\n\nVery strong review rating. Set against that, small review sample size, verify current feedback. Both matter when comparing it to the other picks here.",
     specs: ["Explicit small/medium hand sizing", "57-degree tilt angle", "Wireless connectivity", "Budget price point"],
     pros: ["Genuinely sized for small to medium hands", "Very strong review rating", "Budget-friendly price", "Reasonably compact for a laptop bag"],
     cons: ["Small review sample size, verify current feedback", "Dongle storage should be confirmed for travel", "Less established brand track record than premium picks"],
@@ -116,7 +116,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31vAjZuq+pL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CMC1F5WB?tag=deskfinds0d-20",
     description:
-      "A wired option that plugs directly into a laptop's USB-A port, avoiding any wireless pairing or dongle-loss risk entirely, with adjustable DPI included at a low price.\n\nA wired mouse means one more cable to manage while traveling, which is a real tradeoff against the freedom of a wireless dongle or Bluetooth pick, so weigh this against your specific travel habits.\n\nWorth knowing before you decide: Adjustable DPI sensor. On the other side, Cable adds one more item to manage while traveling. That's the main tradeoff to weigh against your specific needs.",
+      "A wired option that plugs directly into a laptop's USB-A port, avoiding any wireless pairing or dongle-loss risk entirely, with adjustable DPI included at a low price.\n\nA wired mouse means one more cable to manage while traveling, which is a real tradeoff against the freedom of a wireless dongle or Bluetooth pick, so weigh this against your specific travel habits.\n\nThe standout detail is that adjustable DPI sensor. Balancing that out, cable adds one more item to manage while traveling.",
     specs: ["Wired USB-A connection", "6400 DPI adjustable sensor", "No dongle to lose", "Budget price point"],
     pros: ["No dongle to lose during travel", "Adjustable DPI sensor", "Strong review rating for the price", "No battery weight"],
     cons: ["Cable adds one more item to manage while traveling", "USB-A only, needs an adapter for USB-C-only laptops", "No wireless freedom of movement"],
@@ -133,7 +133,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41h3oxMYtPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00FPAVUHC?tag=deskfinds0d-20",
     description:
-      "A large review base for a wired mouse marketed explicitly for both computer and laptop use, with no battery weight or dongle to keep track of while traveling.\n\nAs with any wired pick, factor in the cable itself as one more item to manage in your bag, and confirm USB-C adapter needs if your laptop lacks a USB-A port.\n\nWorth knowing before you decide: No battery weight or dongle to lose. On the other side, USB-A only, needs an adapter for USB-C-only laptops. That's the main tradeoff to weigh against your specific needs.",
+      "A large review base for a wired mouse marketed explicitly for both computer and laptop use, with no battery weight or dongle to keep track of while traveling.\n\nAs with any wired pick, factor in the cable itself as one more item to manage in your bag, and confirm USB-C adapter needs if your laptop lacks a USB-A port.\n\nNo battery weight or dongle to lose. That's a real strength, but weigh it against the flip side: uSB-A only, needs an adapter for USB-C-only laptops.",
     specs: ["Wired USB connection", "Marketed for computer and laptop use", "No battery, lighter body", "Mid-range price point"],
     pros: ["Large review base backing laptop and desktop use", "No battery weight or dongle to lose", "Mid-range price", "Works across desktop and laptop USB-A ports"],
     cons: ["USB-A only, needs an adapter for USB-C-only laptops", "Cable adds one more item to manage while traveling", "No wireless option"],
@@ -150,7 +150,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41XVdqDE3aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9PDRYZK?tag=deskfinds0d-20",
     description:
-      "A wireless vertical mouse with a 2400 DPI sensor and a 5D rocker button, useful for laptop users who want one mouse that reasonably covers both work tasks and casual gaming while traveling.\n\nIts review sample is small, so verify current buyer feedback on wireless connection stability and dongle storage before relying on it for frequent travel.\n\nWorth knowing before you decide: 5D rocker button adds a genuinely extra input. On the other side, Small review sample size, verify current feedback. That's the main tradeoff to weigh against your specific needs.",
+      "A wireless vertical mouse with a 2400 DPI sensor and a 5D rocker button, useful for laptop users who want one mouse that reasonably covers both work tasks and casual gaming while traveling.\n\nIts review sample is small, so verify current buyer feedback on wireless connection stability and dongle storage before relying on it for frequent travel.\n\n5D rocker button adds a genuinely extra input. On the other hand, small review sample size, verify current feedback. Both are worth keeping in mind before deciding.",
     specs: ["2400 DPI sensor", "5D rocker button", "Wireless connectivity", "Small review sample"],
     pros: ["Works for both laptop office tasks and casual gaming", "5D rocker button adds a genuinely extra input", "Budget-friendly for the feature set", "Wireless connectivity"],
     cons: ["Small review sample size, verify current feedback", "2400 DPI ceiling is modest compared to dedicated gaming mice", "Dongle storage not independently confirmed"],

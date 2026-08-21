@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
-      "By far the largest review base of any pick here at under $90, genuine True HEPA H13 filtration that doesn't cut corners on the core filtration quality despite the budget price.\n\nThe price cut here is in smart features and app control, not core filtration, factor in the replacement filter cost over a year when comparing this to pricier alternatives.\n\nWorth knowing before you decide: Genuine True HEPA H13 filtration despite budget price. On the other side, No smart app control. That's the main tradeoff to weigh against your specific needs.",
+      "By far the largest review base of any pick here at under $90, genuine True HEPA H13 filtration that doesn't cut corners on the core filtration quality despite the budget price.\n\nThe price cut here is in smart features and app control, not core filtration, factor in the replacement filter cost over a year when comparing this to pricier alternatives.\n\nGenuine True HEPA H13 filtration despite budget price. Set against that, no smart app control. Both matter when comparing it to the other picks here.",
     specs: ["True HEPA H13, 99.97% particulate removal", "24dB quoted noise level", "Largest review base in this guide", "Under $90 at time of writing"],
     pros: ["By far the largest review base of any pick here", "Genuine True HEPA H13 filtration despite budget price", "Very quiet at 24dB", "Affordable replacement filters"],
     cons: ["No smart app control", "No air quality sensor", "Standard CADR, not the highest airflow pick"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/316AtkHoSdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004VGIGVY?tag=deskfinds0d-20",
     description:
-      "A large, well-established review base at a low price, genuine True HEPA filtration with a carbon component included at this budget tier.\n\nCheck the manufacturer's stated filter lifespan and current replacement filter price before buying, since ongoing cost over a year can rival the unit's original purchase price.\n\nWorth knowing before you decide: Low upfront price. On the other side, No filter indicator to track replacement timing. That's the main tradeoff to weigh against your specific needs.",
+      "A large, well-established review base at a low price, genuine True HEPA filtration with a carbon component included at this budget tier.\n\nCheck the manufacturer's stated filter lifespan and current replacement filter price before buying, since ongoing cost over a year can rival the unit's original purchase price.\n\nThe standout detail is that low upfront price. Balancing that out, no filter indicator to track replacement timing.",
     specs: ["True HEPA filtration with carbon component", "Large review base", "Compact design", "Budget-friendly"],
     pros: ["Large, well-established review base", "Low upfront price", "True HEPA filtration plus a carbon component", "Compact footprint"],
     cons: ["No filter indicator to track replacement timing", "No smart features", "No air quality sensor"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51nlbgobV2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCBC8KKV?tag=deskfinds0d-20",
     description:
-      "An affordable option with a solid review base, marketed for a larger room than a typical budget desktop unit while staying under $100.\n\nA budget unit under $100 can still be genuinely capable for a small-to-medium room, this pick's disclosed coverage rating supports that at its price point.\n\nWorth knowing before you decide: Solid review base. On the other side, No smart app control. That's the main tradeoff to weigh against your specific needs.",
+      "An affordable option with a solid review base, marketed for a larger room than a typical budget desktop unit while staying under $100.\n\nA budget unit under $100 can still be genuinely capable for a small-to-medium room, this pick's disclosed coverage rating supports that at its price point.\n\nSolid review base. That's a real strength, but weigh it against the flip side: no smart app control.",
     specs: ["HEPA filtration", "Solid review base", "Larger-room marketing at a budget price", "Under $80 at time of writing"],
     pros: ["Affordable price for a larger-room-marketed unit", "Solid review base", "Genuine HEPA filtration", "Good value for the coverage claimed"],
     cons: ["No smart app control", "No air quality sensor", "No filter indicator"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31MxpE4keLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CHW2LLSJ?tag=deskfinds0d-20",
     description:
-      "An affordable pick with a genuine 900 sq ft coverage claim and True HEPA PM2.5 filtration, a solid review base backing its performance at this price tier.\n\nCompare the manufacturer's filter lifespan claim against your actual usage before buying, cooking or pet-heavy homes will need more frequent replacement than the standard estimate.\n\nWorth knowing before you decide: Solid review base. On the other side, No smart app control. That's the main tradeoff to weigh against your specific needs.",
+      "An affordable pick with a genuine 900 sq ft coverage claim and True HEPA PM2.5 filtration, a solid review base backing its performance at this price tier.\n\nCompare the manufacturer's filter lifespan claim against your actual usage before buying, cooking or pet-heavy homes will need more frequent replacement than the standard estimate.\n\nSolid review base. On the other hand, no smart app control. Both are worth keeping in mind before deciding.",
     specs: ["True HEPA PM2.5 filtration", "Up to 900 sq ft rated (open room)", "Solid review base", "Under $80 at time of writing"],
     pros: ["Affordable price for the coverage offered", "Solid review base", "True HEPA captures particulate effectively", "Reasonable performance for the price"],
     cons: ["No smart app control", "No air quality sensor", "No filter indicator"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41zOBElZS-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08PJQ3MWB?tag=deskfinds0d-20",
     description:
-      "The lowest price in this guide by a wide margin with a large review base, genuinely appropriate for a desk zone or small personal space on a tight budget.\n\nAt this price point, the ongoing filter replacement cost matters even more proportionally, factor that into your true cost of ownership over a year.\n\nWorth knowing before you decide: Large, well-established review base. On the other side, Lower CADR appropriate only for a desk zone, not a full room. That's the main tradeoff to weigh against your specific needs.",
+      "The lowest price in this guide by a wide margin with a large review base, genuinely appropriate for a desk zone or small personal space on a tight budget.\n\nAt this price point, the ongoing filter replacement cost matters even more proportionally, factor that into your true cost of ownership over a year.\n\nA genuine advantage here is that large, well-established review base. The tradeoff is that lower CADR appropriate only for a desk zone, not a full room.",
     specs: ["Compact desktop footprint", "Large review base", "Lowest price in this guide", "Under $50 at time of writing"],
     pros: ["Lowest price in this guide by a wide margin", "Large, well-established review base", "Good value for a desk-zone unit", "Very compact footprint"],
     cons: ["Lower CADR appropriate only for a desk zone, not a full room", "No smart features", "Basic filtration compared to premium picks"],

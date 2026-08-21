@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41uYhQ+-HGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GD21577Z?tag=deskfinds0d-20",
     description:
-      "A well-balanced QHD panel with clearly documented USB-C specs, appropriate for buyers wanting a reliable primary external display for their laptop.\n\n144Hz refresh rate adds smoothness for both productivity scrolling and casual gaming when paired with a capable laptop GPU.\n\nWorth knowing before you decide: 144Hz refresh rate for smoother motion. On the other side, Verify your laptop's USB-C port actually supports DisplayPort Alt Mode. That's the main tradeoff to weigh against your specific needs.",
+      "A well-balanced QHD panel with clearly documented USB-C specs, appropriate for buyers wanting a reliable primary external display for their laptop.\n\n144Hz refresh rate adds smoothness for both productivity scrolling and casual gaming when paired with a capable laptop GPU.\n\n144Hz refresh rate for smoother motion. That said, verify your laptop's USB-C port actually supports DisplayPort Alt Mode. Neither should be a surprise once you know to look for it.",
     specs: ["27-inch QHD (2560x1440) panel", "144Hz refresh rate", "USB-C with power delivery", "Clearly documented specs"],
     pros: ["Clearly documented USB-C specs for easy laptop compatibility checking", "144Hz refresh rate for smoother motion", "Good value for the resolution and refresh combination", "Reliable Dell build quality"],
     cons: ["Verify your laptop's USB-C port actually supports DisplayPort Alt Mode", "27-inch size needs adequate desk depth", "144Hz benefit depends on your laptop's GPU"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41DSJsc4qKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09BXXWT6K?tag=deskfinds0d-20",
     description:
-      "A more budget-friendly QHD option with built-in speakers, appropriate for buyers wanting reliable laptop connectivity without paying for the highest refresh rate.\n\nBuilt-in speakers avoid needing separate desk audio equipment, a genuine convenience for laptop-based video calls.\n\nWorth knowing before you decide: Built-in speakers avoid separate audio equipment. On the other side, Standard 75Hz refresh rate, not high-refresh gaming tier. That's the main tradeoff to weigh against your specific needs.",
+      "A more budget-friendly QHD option with built-in speakers, appropriate for buyers wanting reliable laptop connectivity without paying for the highest refresh rate.\n\nBuilt-in speakers avoid needing separate desk audio equipment, a genuine convenience for laptop-based video calls.\n\nWorth calling out specifically: built-in speakers avoid separate audio equipment. The catch is standard 75Hz refresh rate, not high-refresh gaming tier.",
     specs: ["27-inch WQHD (2560x1440) panel", "75Hz refresh rate", "USB-C connectivity", "Built-in speakers"],
     pros: ["Budget-friendly price for QHD with USB-C connectivity", "Built-in speakers avoid separate audio equipment", "AMD FreeSync for smoother casual gaming motion", "Reliable Dell build quality"],
     cons: ["Standard 75Hz refresh rate, not high-refresh gaming tier", "Verify your laptop's USB-C port supports DisplayPort Alt Mode", "27-inch size needs adequate desk depth"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51+NCPHB1gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08K2NT2G7?tag=deskfinds0d-20",
     description:
-      "Part of ASUS's ProArt professional line, appropriate for laptop-based design or photo work needing color-accurate calibration on the external display.\n\nA 24-inch 1080p panel keeps resolution reasonably close to many laptop screens, reducing the jarring mismatch some buyers notice with a larger, higher-resolution external monitor.\n\nWorth knowing before you decide: 24-inch 1080p keeps resolution closer to typical laptop screens. On the other side, 1080p resolution is modest for a 24-inch professional monitor. That's the main tradeoff to weigh against your specific needs.",
+      "Part of ASUS's ProArt professional line, appropriate for laptop-based design or photo work needing color-accurate calibration on the external display.\n\nA 24-inch 1080p panel keeps resolution reasonably close to many laptop screens, reducing the jarring mismatch some buyers notice with a larger, higher-resolution external monitor.\n\n24-inch 1080p keeps resolution closer to typical laptop screens. Set against that, 1080p resolution is modest for a 24-inch professional monitor. Both matter when comparing it to the other picks here.",
     specs: ["24-inch 1080p IPS panel", "USB-C connectivity", "ProArt color accuracy calibration", "Reasonably close to typical laptop resolution"],
     pros: ["ProArt color accuracy suited to laptop-based design and photo work", "24-inch 1080p keeps resolution closer to typical laptop screens", "USB-C single-cable connectivity", "Professional-grade build quality"],
     cons: ["1080p resolution is modest for a 24-inch professional monitor", "Verify your laptop's USB-C port supports DisplayPort Alt Mode", "Higher price than general-purpose 1080p monitors"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41f7dOeOBuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B6PCXZ79?tag=deskfinds0d-20",
     description:
-      "Explicitly marketed for laptop use, a genuine 4K IPS panel at a highly competitive price for buyers wanting sharper resolution than their laptop's own screen.\n\nVerify your laptop's USB-C port supports DisplayPort 1.4 or newer for full 4K at 60Hz over the single cable.\n\nWorth knowing before you decide: Explicitly marketed and positioned for laptop use. On the other side, Verify your laptop's USB-C port supports DisplayPort 1.4 or newer. That's the main tradeoff to weigh against your specific needs.",
+      "Explicitly marketed for laptop use, a genuine 4K IPS panel at a highly competitive price for buyers wanting sharper resolution than their laptop's own screen.\n\nVerify your laptop's USB-C port supports DisplayPort 1.4 or newer for full 4K at 60Hz over the single cable.\n\nThe standout detail is that explicitly marketed and positioned for laptop use. Balancing that out, verify your laptop's USB-C port supports DisplayPort 1.4 or newer.",
     specs: ["27-inch true 4K (3840x2160) IPS panel", "HDR support", "USB-C single-cable connectivity", "Explicitly laptop-focused marketing"],
     pros: ["True 4K resolution at a genuinely competitive price", "Explicitly marketed and positioned for laptop use", "HDR support for richer contrast", "Single-cable USB-C simplifies desk cabling"],
     cons: ["Verify your laptop's USB-C port supports DisplayPort 1.4 or newer", "Large resolution jump from most laptop screens may need scaling adjustment", "27-inch size needs adequate desk depth"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ye7a0oJkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHZVYNQ2?tag=deskfinds0d-20",
     description:
-      "A genuinely budget-friendly 24-inch 1080p IPS monitor with a surprisingly high 120Hz refresh rate for everyday laptop productivity use.\n\nA sensible entry point for buyers who mainly want a larger external display without significant extra spend.\n\nWorth knowing before you decide: Surprisingly high 120Hz refresh rate at this price point. On the other side, Verify your laptop's USB-C port supports DisplayPort Alt Mode. That's the main tradeoff to weigh against your specific needs.",
+      "A genuinely budget-friendly 24-inch 1080p IPS monitor with a surprisingly high 120Hz refresh rate for everyday laptop productivity use.\n\nA sensible entry point for buyers who mainly want a larger external display without significant extra spend.\n\nSurprisingly high 120Hz refresh rate at this price point. That's a real strength, but weigh it against the flip side: verify your laptop's USB-C port supports DisplayPort Alt Mode.",
     specs: ["24-inch 1080p IPS panel", "120Hz refresh rate", "USB-C connectivity", "Lowest price in this guide"],
     pros: ["Lowest price in this guide for a full-featured monitor", "Surprisingly high 120Hz refresh rate at this price point", "IPS panel for consistent viewing angles", "Good entry point for everyday laptop productivity"],
     cons: ["Verify your laptop's USB-C port supports DisplayPort Alt Mode", "Standard 1080p resolution, not higher-end", "24-inch size is modest for extensive multitasking"],

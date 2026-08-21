@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41f7dOeOBuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B6PCXZ79?tag=deskfinds0d-20",
     description:
-      "A true 4K resolution at 27 inches keeps pixel density genuinely sharp, avoiding the softness a 1080p panel at this size would show.\n\nA highly competitive price for true 4K makes this the strongest overall value pick at this screen size.\n\nWorth knowing before you decide: Highly competitive price for true 4K. On the other side, Verify your laptop's USB-C port supports DisplayPort 1.4 or newer. That's the main tradeoff to weigh against your specific needs.",
+      "A true 4K resolution at 27 inches keeps pixel density genuinely sharp, avoiding the softness a 1080p panel at this size would show.\n\nA highly competitive price for true 4K makes this the strongest overall value pick at this screen size.\n\nWorth calling out specifically: highly competitive price for true 4K. The catch is verify your laptop's USB-C port supports DisplayPort 1.4 or newer.",
     specs: ["27-inch true 4K (3840x2160) IPS panel", "HDR support", "USB-C single-cable connectivity", "Highly competitive price"],
     pros: ["True 4K resolution keeps pixel density sharp at 27 inches", "Highly competitive price for true 4K", "HDR support for richer contrast", "Single-cable USB-C simplifies desk cabling"],
     cons: ["Verify your laptop's USB-C port supports DisplayPort 1.4 or newer", "Windows display scaling needs setup for readable text at 4K", "27-inch size needs adequate desk depth"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41uYhQ+-HGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GD21577Z?tag=deskfinds0d-20",
     description:
-      "QHD resolution genuinely avoids the softness 1080p would show at this size, while requiring less GPU power than a full 4K panel.\n\n144Hz refresh rate adds real value for buyers who also want smooth motion for casual gaming alongside productivity work.\n\nWorth knowing before you decide: 144Hz refresh rate for smoother motion. On the other side, Not true 4K, verify this matches your resolution needs. That's the main tradeoff to weigh against your specific needs.",
+      "QHD resolution genuinely avoids the softness 1080p would show at this size, while requiring less GPU power than a full 4K panel.\n\n144Hz refresh rate adds real value for buyers who also want smooth motion for casual gaming alongside productivity work.\n\n144Hz refresh rate for smoother motion. Set against that, not true 4K, verify this matches your resolution needs. Both matter when comparing it to the other picks here.",
     specs: ["27-inch QHD (2560x1440) panel", "144Hz refresh rate", "USB-C with power delivery", "Good balance of sharpness and GPU demand"],
     pros: ["QHD resolution avoids the softness 1080p shows at this size", "144Hz refresh rate for smoother motion", "Lower GPU demand than a full 4K panel at the same size", "Good value for the resolution and refresh combination"],
     cons: ["Not true 4K, verify this matches your resolution needs", "Verify power delivery wattage against your laptop's charging requirement", "27-inch size needs adequate desk depth"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41WGJRiwq3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1GFD44G?tag=deskfinds0d-20",
     description:
-      "A genuinely high 120Hz refresh rate at true 4K resolution, appropriate for buyers wanting both sharp detail and smooth motion without stepping down to QHD.\n\n99% sRGB coverage gives strong color accuracy for buyers who also do color-sensitive work on this display.\n\nWorth knowing before you decide: 99% sRGB coverage for strong color accuracy. On the other side, Verify your laptop's port bandwidth supports full 4K at 120Hz, not just 60Hz. That's the main tradeoff to weigh against your specific needs.",
+      "A genuinely high 120Hz refresh rate at true 4K resolution, appropriate for buyers wanting both sharp detail and smooth motion without stepping down to QHD.\n\n99% sRGB coverage gives strong color accuracy for buyers who also do color-sensitive work on this display.\n\nThe standout detail is that 99% sRGB coverage for strong color accuracy. Balancing that out, verify your laptop's port bandwidth supports full 4K at 120Hz, not just 60Hz.",
     specs: ["27-inch true 4K UHD IPS panel", "120Hz refresh rate", "99% sRGB color coverage", "FreeSync Premium"],
     pros: ["True 4K UHD resolution with a genuinely high 120Hz refresh rate", "99% sRGB coverage for strong color accuracy", "FreeSync Premium for smoother gaming motion", "IPS panel for consistent viewing angles"],
     cons: ["Verify your laptop's port bandwidth supports full 4K at 120Hz, not just 60Hz", "Higher price reflecting the 4K/120Hz combination", "Requires a capable GPU to drive both 4K and 120Hz"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41jGkitNULL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08LCPY1TR?tag=deskfinds0d-20",
     description:
-      "A QHD ProArt panel combining sharp pixel density at 27 inches with professional color calibration, appropriate for buyers doing color-sensitive design or photo work.\n\nQHD resolution avoids the 1080p softness at this size while requiring less GPU power than 4K.\n\nWorth knowing before you decide: ProArt color accuracy suited to design work. On the other side, Higher price than general-purpose QHD monitors. That's the main tradeoff to weigh against your specific needs.",
+      "A QHD ProArt panel combining sharp pixel density at 27 inches with professional color calibration, appropriate for buyers doing color-sensitive design or photo work.\n\nQHD resolution avoids the 1080p softness at this size while requiring less GPU power than 4K.\n\nProArt color accuracy suited to design work. That's a real strength, but weigh it against the flip side: higher price than general-purpose QHD monitors.",
     specs: ["27-inch QHD (1440p) IPS panel", "USB-C connectivity", "ProArt color accuracy calibration", "Professional-grade build"],
     pros: ["QHD resolution avoids the softness 1080p shows at 27 inches", "ProArt color accuracy suited to design work", "USB-C single-cable connectivity", "Professional-grade build quality"],
     cons: ["Higher price than general-purpose QHD monitors", "Verify USB-C power delivery wattage for your laptop", "Not true 4K if maximum sharpness is your priority"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41DSJsc4qKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09BXXWT6K?tag=deskfinds0d-20",
     description:
-      "A more budget-friendly QHD option at 27 inches with built-in speakers, appropriate for buyers wanting sharp resolution without the highest refresh rate.\n\nBuilt-in speakers avoid needing separate desk audio equipment, a genuine convenience for video calls.\n\nWorth knowing before you decide: Built-in speakers avoid separate audio equipment. On the other side, Standard 75Hz refresh rate, not high-refresh gaming tier. That's the main tradeoff to weigh against your specific needs.",
+      "A more budget-friendly QHD option at 27 inches with built-in speakers, appropriate for buyers wanting sharp resolution without the highest refresh rate.\n\nBuilt-in speakers avoid needing separate desk audio equipment, a genuine convenience for video calls.\n\nBuilt-in speakers avoid separate audio equipment. On the other hand, standard 75Hz refresh rate, not high-refresh gaming tier. Both are worth keeping in mind before deciding.",
     specs: ["27-inch WQHD (2560x1440) panel", "75Hz refresh rate", "USB-C connectivity", "Built-in speakers"],
     pros: ["Budget-friendly price for QHD resolution avoiding 1080p softness at this size", "Built-in speakers avoid separate audio equipment", "AMD FreeSync for smoother casual gaming motion", "Reliable Dell build quality"],
     cons: ["Standard 75Hz refresh rate, not high-refresh gaming tier", "Verify power delivery wattage against your laptop's charging requirement", "Not true 4K if maximum sharpness is your priority"],

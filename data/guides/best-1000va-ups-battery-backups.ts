@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41lBJ4oYPfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5QSYK69?tag=deskfinds0d-20",
     description:
-      "800W of real capacity from a 1000VA rating, the strongest real-watt-to-VA ratio of any pick in this guide, genuine extra headroom compared to the roughly 600W typical of most 1000VA-class designs. Lithium battery chemistry generally handles heat and charge cycles better long-term than lead-acid.\n\nA newer brand than APC or CyberPower, but the combination of a strong watt ratio and lithium chemistry makes this the standout pick at this capacity tier.\n\nWorth knowing before you decide: Lithium battery, better long-term charge-cycle life. On the other side, Newer entrant, less long-term track record than APC/CyberPower. That's the main tradeoff to weigh against your specific needs.",
+      "800W of real capacity from a 1000VA rating, the strongest real-watt-to-VA ratio of any pick in this guide, genuine extra headroom compared to the roughly 600W typical of most 1000VA-class designs. Lithium battery chemistry generally handles heat and charge cycles better long-term than lead-acid.\n\nA newer brand than APC or CyberPower, but the combination of a strong watt ratio and lithium chemistry makes this the standout pick at this capacity tier.\n\nLithium battery, better long-term charge-cycle life. On the other hand, newer entrant, less long-term track record than APC/CyberPower. Both are worth keeping in mind before deciding.",
     specs: ["1000VA/800W, lithium battery", "Above-average real-watt-to-VA ratio", "Surge protection", "Compact footprint"],
     pros: ["Strongest real-watt-to-VA ratio in this guide", "Lithium battery, better long-term charge-cycle life", "Solid rating base", "Competitive price"],
     cons: ["Newer entrant, less long-term track record than APC/CyberPower", "Not pure sine wave confirmed", "Battery not confirmed as a standard replaceable part"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31nDi+6Lz+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00429N192?tag=deskfinds0d-20",
     description:
-      "Genuine PFC sinewave output at this capacity tier, worth the price if your PC has an APFC power supply, standard on most desktops built in the last decade. AVR included and LCD display for load/runtime visibility.\n\nLower rating than some alternatives, but the pure sine wave APFC compatibility is a real differentiator most 1000VA-class competitors skip.\n\nWorth knowing before you decide: AVR bundled. On the other side, Lower rating than other picks in this guide. That's the main tradeoff to weigh against your specific needs.",
+      "Genuine PFC sinewave output at this capacity tier, worth the price if your PC has an APFC power supply, standard on most desktops built in the last decade. AVR included and LCD display for load/runtime visibility.\n\nLower rating than some alternatives, but the pure sine wave APFC compatibility is a real differentiator most 1000VA-class competitors skip.\n\nA genuine advantage here is that aVR bundled. The tradeoff is that lower rating than other picks in this guide.",
     specs: ["1000VA class, PFC sinewave", "AVR included", "LCD display", "APFC compatible"],
     pros: ["Genuine pure sine wave, APFC compatible", "AVR bundled", "LCD for status visibility", "Reasonable price for the capability"],
     cons: ["Lower rating than other picks in this guide", "Real watt capacity not as high as the top GOLDENMATE pick", "Smaller outlet count than higher-tier picks"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31VPmugfqML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06VY12HW4?tag=deskfinds0d-20",
     description:
-      "600W real capacity, the typical figure for a standard 1000VA-class UPS, genuinely appropriate for a standard office desktop PC and monitor. AVR included handles brownouts in-line without draining the battery.\n\nSolid rating base and a well-established APC BX series, a safe, proven choice at this capacity even without the higher watt ratio of the top pick.\n\nWorth knowing before you decide: AVR included, extends battery life. On the other side, Lower real-watt ratio than the GOLDENMATE top pick. That's the main tradeoff to weigh against your specific needs.",
+      "600W real capacity, the typical figure for a standard 1000VA-class UPS, genuinely appropriate for a standard office desktop PC and monitor. AVR included handles brownouts in-line without draining the battery.\n\nSolid rating base and a well-established APC BX series, a safe, proven choice at this capacity even without the higher watt ratio of the top pick.\n\nAVR included, extends battery life. That said, lower real-watt ratio than the GOLDENMATE top pick. Neither should be a surprise once you know to look for it.",
     specs: ["1000VA/600W", "AVR included", "Multiple outlets", "Office electronics rated"],
     pros: ["Well-established APC BX series reliability", "AVR included, extends battery life", "Solid rating base", "Reasonable price"],
     cons: ["Lower real-watt ratio than the GOLDENMATE top pick", "Not pure sine wave", "Standard capacity, no extra headroom"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31DlLYCaalL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000QZ3UG0?tag=deskfinds0d-20",
     description:
-      "A large, well-established review base with an intelligent LCD giving real-time visibility into load and runtime, genuinely useful for understanding whether AVR is actively correcting or the unit has switched to battery.\n\nStandard 1000VA-class real-watt figure, appropriate for a basic desktop setup rather than a multi-monitor build.\n\nWorth knowing before you decide: Intelligent LCD for AVR/battery-mode visibility. On the other side, Standard real-watt capacity for this VA class. That's the main tradeoff to weigh against your specific needs.",
+      "A large, well-established review base with an intelligent LCD giving real-time visibility into load and runtime, genuinely useful for understanding whether AVR is actively correcting or the unit has switched to battery.\n\nStandard 1000VA-class real-watt figure, appropriate for a basic desktop setup rather than a multi-monitor build.\n\nWorth calling out specifically: intelligent LCD for AVR/battery-mode visibility. The catch is standard real-watt capacity for this VA class.",
     specs: ["1000VA class, AVR included", "Intelligent LCD display", "Surge protection", "Established CyberPower design"],
     pros: ["Large, well-established review base", "Intelligent LCD for AVR/battery-mode visibility", "AVR included", "Reasonable price"],
     cons: ["Standard real-watt capacity for this VA class", "Not pure sine wave", "No coax/Ethernet surge protection confirmed"],
@@ -116,7 +116,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31xnh5VoQ4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06WP9Q8ZN?tag=deskfinds0d-20",
     description:
-      "Technically 850VA rather than 1000VA, but included here as a genuinely close real-watt alternative at 510W, worth considering if you don't need the full 600-800W range and want to save on price without a meaningful capacity sacrifice.\n\nHighest rating among all picks in this guide, a strong track record at a lower price point.\n\nWorth knowing before you decide: Lower price than the true 1000VA-class picks. On the other side, Technically a step below true 1000VA capacity. That's the main tradeoff to weigh against your specific needs.",
+      "Technically 850VA rather than 1000VA, but included here as a genuinely close real-watt alternative at 510W, worth considering if you don't need the full 600-800W range and want to save on price without a meaningful capacity sacrifice.\n\nHighest rating among all picks in this guide, a strong track record at a lower price point.\n\nLower price than the true 1000VA-class picks. Set against that, technically a step below true 1000VA capacity. Both matter when comparing it to the other picks here.",
     specs: ["850VA/510W", "AVR included", "Compact form factor", "Highest rating in this guide"],
     pros: ["Highest rating of any pick in this guide", "Lower price than the true 1000VA-class picks", "AVR included", "Close real-watt capacity to the 1000VA tier"],
     cons: ["Technically a step below true 1000VA capacity", "Not pure sine wave", "Less headroom than the GOLDENMATE top pick"],

@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41f7dOeOBuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B6PCXZ79?tag=deskfinds0d-20",
     description:
-      "A genuine 3840x2160 4K IPS panel at a highly competitive price, appropriate for buyers wanting true 4K resolution without paying professional-monitor prices.\n\nVerify your laptop's USB-C port supports DisplayPort 1.4 or newer before assuming full 4K at 60Hz over the single cable.\n\nWorth knowing before you decide: HDR support for richer contrast. On the other side, Verify your laptop's USB-C port supports DisplayPort 1.4 or newer for full 4K at 60Hz. That's the main tradeoff to weigh against your specific needs.",
+      "A genuine 3840x2160 4K IPS panel at a highly competitive price, appropriate for buyers wanting true 4K resolution without paying professional-monitor prices.\n\nVerify your laptop's USB-C port supports DisplayPort 1.4 or newer before assuming full 4K at 60Hz over the single cable.\n\nHDR support for richer contrast. That's a real strength, but weigh it against the flip side: verify your laptop's USB-C port supports DisplayPort 1.4 or newer for full 4K at 60Hz.",
     specs: ["27-inch true 4K (3840x2160) IPS panel", "HDR support", "USB-C single-cable connectivity", "Highly competitive price"],
     pros: ["True 4K resolution at a genuinely competitive price", "HDR support for richer contrast", "Single-cable USB-C simplifies desk cabling", "IPS panel for consistent viewing angles"],
     cons: ["Verify your laptop's USB-C port supports DisplayPort 1.4 or newer for full 4K at 60Hz", "Windows display scaling needs setup for readable text at 4K", "27-inch size needs adequate desk depth"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51BiaZGDKRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BQPSX5CR?tag=deskfinds0d-20",
     description:
-      "A true 4K UHD ProArt panel with explicit Mac compatibility focus and professional color calibration, appropriate for buyers doing color-sensitive creative work.\n\nThe premium price reflects genuine professional-grade calibration alongside 4K resolution and HDR, worth it specifically for color-critical work.\n\nWorth knowing before you decide: ProArt color accuracy for professional color work. On the other side, Highest price in this guide by a significant margin. That's the main tradeoff to weigh against your specific needs.",
+      "A true 4K UHD ProArt panel with explicit Mac compatibility focus and professional color calibration, appropriate for buyers doing color-sensitive creative work.\n\nThe premium price reflects genuine professional-grade calibration alongside 4K resolution and HDR, worth it specifically for color-critical work.\n\nProArt color accuracy for professional color work. On the other hand, highest price in this guide by a significant margin. Both are worth keeping in mind before deciding.",
     specs: ["27-inch true 4K UHD IPS panel", "HDR support", "ProArt color accuracy calibration", "USB-C, Mac-focused"],
     pros: ["True 4K UHD resolution with HDR support", "ProArt color accuracy for professional color work", "Explicit Mac compatibility focus", "USB-C single-cable connectivity"],
     cons: ["Highest price in this guide by a significant margin", "Verify DisplayPort version on your specific MacBook model for full 4K/60Hz", "Premium calibration is unnecessary expense if you don't do color-critical work"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41WGJRiwq3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1GFD44G?tag=deskfinds0d-20",
     description:
-      "A genuinely high 120Hz refresh rate at true 4K resolution, appropriate for buyers wanting both sharp detail and smooth motion, whether for creative work or casual gaming.\n\nThis combination puts real demands on your laptop's port bandwidth, verify DisplayPort 1.4 or newer support before assuming full 4K at 120Hz.\n\nWorth knowing before you decide: 99% sRGB coverage for strong color accuracy. On the other side, Verify your laptop's port bandwidth supports full 4K at 120Hz, not just 60Hz. That's the main tradeoff to weigh against your specific needs.",
+      "A genuinely high 120Hz refresh rate at true 4K resolution, appropriate for buyers wanting both sharp detail and smooth motion, whether for creative work or casual gaming.\n\nThis combination puts real demands on your laptop's port bandwidth, verify DisplayPort 1.4 or newer support before assuming full 4K at 120Hz.\n\nA genuine advantage here is that 99% sRGB coverage for strong color accuracy. The tradeoff is that verify your laptop's port bandwidth supports full 4K at 120Hz, not just 60Hz.",
     specs: ["27-inch true 4K UHD IPS panel", "120Hz refresh rate", "99% sRGB color coverage", "FreeSync Premium"],
     pros: ["True 4K UHD resolution with a genuinely high 120Hz refresh rate", "99% sRGB coverage for strong color accuracy", "FreeSync Premium for smoother gaming motion", "IPS panel for consistent viewing angles"],
     cons: ["Verify your laptop's port bandwidth supports full 4K at 120Hz, not just 60Hz", "Higher price reflecting the 4K/120Hz combination", "4K at 27 inches may need scaling adjustments"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51jrQ-g06ZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H4DCTPDL?tag=deskfinds0d-20",
     description:
-      "A rare combination of true 4K resolution, touchscreen input, and a genuinely portable 15.6-inch size, appropriate for buyers wanting high-resolution detail on the go.\n\n125% sRGB coverage exceeds standard color gamut, a genuine bonus for creative work while traveling.\n\nWorth knowing before you decide: 125% sRGB coverage exceeds standard color gamut. On the other side, 4K at 15.6 inches requires significant display scaling for readable text. That's the main tradeoff to weigh against your specific needs.",
+      "A rare combination of true 4K resolution, touchscreen input, and a genuinely portable 15.6-inch size, appropriate for buyers wanting high-resolution detail on the go.\n\n125% sRGB coverage exceeds standard color gamut, a genuine bonus for creative work while traveling.\n\n125% sRGB coverage exceeds standard color gamut. That said, 4K at 15.6 inches requires significant display scaling for readable text. Neither should be a surprise once you know to look for it.",
     specs: ["15.6-inch true 4K portable panel", "Touchscreen input", "125% sRGB color coverage", "USB-C connectivity"],
     pros: ["Rare combination of 4K resolution and touchscreen in a portable form factor", "125% sRGB coverage exceeds standard color gamut", "Genuinely portable 15.6-inch size", "USB-C single-cable connectivity"],
     cons: ["4K at 15.6 inches requires significant display scaling for readable text", "Verify power draw from your laptop for extended portable use", "Touch functionality typically needs an extra USB cable"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41grMODJbhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR2222FL?tag=deskfinds0d-20",
     description:
-      "A portable true 4K panel with an exceptionally wide 145% sRGB color coverage, appropriate for buyers wanting vivid color alongside sharp resolution while traveling.\n\nIntegrated speakers avoid needing separate travel audio equipment, a genuine convenience for portable creative or media use.\n\nWorth knowing before you decide: Exceptionally wide 145% sRGB color coverage. On the other side, 4K at 15.6 inches requires significant display scaling for readable text. That's the main tradeoff to weigh against your specific needs.",
+      "A portable true 4K panel with an exceptionally wide 145% sRGB color coverage, appropriate for buyers wanting vivid color alongside sharp resolution while traveling.\n\nIntegrated speakers avoid needing separate travel audio equipment, a genuine convenience for portable creative or media use.\n\nWorth calling out specifically: exceptionally wide 145% sRGB color coverage. The catch is 4K at 15.6 inches requires significant display scaling for readable text.",
     specs: ["15.6-inch true 4K UHD portable panel", "60Hz refresh rate", "145% sRGB color coverage", "Integrated speakers"],
     pros: ["True 4K UHD resolution in a portable form factor", "Exceptionally wide 145% sRGB color coverage", "Integrated speakers for travel convenience", "USB-C and HDMI dual connectivity"],
     cons: ["4K at 15.6 inches requires significant display scaling for readable text", "Standard 60Hz refresh rate, not high-refresh gaming tier", "Verify power draw from your laptop for extended portable use"],
