@@ -266,7 +266,11 @@ export default async function BestLapDesksWithCushionPage() {
               {buyingCriteria.map((item, i) => (
                 <div key={i} className="py-4 first:pt-0 last:pb-0">
                   <p className="text-sm font-bold text-ink mb-1">{item.criterion}</p>
-                  <p className="text-sm text-ink-secondary leading-relaxed">{item.explanation}</p>
+                  {item.explanation.split("\n\n").map((para: string, pi: number) => (
+                    <p key={pi} className={"text-sm text-ink-secondary leading-relaxed " + (pi > 0 ? "mt-2" : "")}>
+                      {para}
+                    </p>
+                  ))}
                 </div>
               ))}
             </div>
