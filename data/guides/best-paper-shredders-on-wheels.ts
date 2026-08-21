@@ -168,31 +168,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Caster Locking Affects Stability During Shredding, Not Just Mobility",
-    note: "None of the picks in this guide explicitly confirm a caster-locking mechanism. An unlocked shredder on wheels can shift slightly during operation, especially with an auto-feed hopper vibrating through a long run. If stability during use matters as much as ease of moving, check for this specifically before buying, or plan to place the unit against a wall or in a corner to limit movement.",
-  },
-  {
-    subheading: "Full-Bin Rolling Difficulty Scales with Bin Size",
-    table: {
-      headers: ["Bin size", "Full-bin rolling difficulty", "Picks"],
-      rows: [
-        ["7-gallon", "Heaviest to roll when full", "Amazon Basics 24-sheet (rank 5)"],
-        ["6-gallon", "Noticeably heavier when full", "Amazon Basics 18/15-sheet, Bonsaii 18-sheet (ranks 3, 4, 6)"],
-        ["5-5.5-gallon", "Moderate weight increase when full", "BONSEN 14-sheet, Bonsaii 12-sheet picks, Aurora (ranks 1, 2, 7, 8)"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Aurora AU1210MA Professional Grade High Security 12"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Amazon Basics 18 Sheet Cross Cut Paper"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Pivot Clearance for Under-Desk Placement",
-    note: "Rolling a wheeled shredder straight out from under a desk isn't enough, you also need pivot/turning clearance to actually maneuver it into an open position for use or emptying. Measure your under-desk space with this turning radius in mind, not just the straight-line depth.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $56",
+          "Bonsaii 12"
+        ],
+        [
+          "Up to $180",
+          "Bonsaii 18"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Review Base vs Price",
+    "cards": [
+      {
+        "label": "Bonsaii 12",
+        "text": "The lower-priced option in this comparison, worth checking its security rating against your document sensitivity."
+      },
+      {
+        "label": "Bonsaii 18",
+        "text": "The higher-priced option, worth it if it offers real capacity or security headroom above the cheaper pick."
+      }
+    ],
+    "note": "Default to Bonsaii 12 unless your document volume or sensitivity genuinely calls for the pricier pick."
+  },
+  {
+    "subheading": "By Bin Capacity",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around 7-gallon bin",
+          "Amazon Basics 24"
+        ],
+        [
+          "Around 6-gallon bin",
+          "Amazon Basics 18 Sheet Cross Cut Paper"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Sensitive Financial Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A P-4 cross-cut rating or higher, not just the marketing term \"cross-cut\" without a specific P-rating attached."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Amazon Basics 18 Sheet Cross Cut Paper is worth checking against its listed P-rating before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You regularly shred large stacks or sensitive documents, where Bonsaii 18's higher price buys real capacity or security headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only shred occasionally with a low sheet volume, where Bonsaii 12 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Caster locking affects shredding stability, not just ease of movement", explanation: "An unlocked, easily-rolled shredder can shift slightly during operation, especially with vibration from an auto-feed hopper. None of the picks here explicitly confirm locking casters, place the unit against a wall or in a corner if stability during use matters." },
-  { criterion: "A full bin rolls noticeably harder than an empty one", explanation: "Total weight scales with bin size and fill level. A 6-7 gallon bin full of shredded paper is meaningfully harder to roll than the same bin empty, factor this into how often you'll actually move it once loaded." },
-  { criterion: "Under-desk placement needs pivot clearance, not just straight-line rolling space", explanation: "Moving a wheeled shredder out from under a desk to empty it requires turning/pivot radius that a simple straight-line measurement doesn't capture, plan your placement with this in mind." },
-  { criterion: "Locking casters are a genuine safety consideration around children or pets", explanation: "An unlocked, easily-rolled shredder near a work area can be bumped or pulled, a minor but real stability concern in shared home-office spaces with kids or pets present." },
+  {
+    "criterion": "Expect real-world sheet capacity to run below the rated figure",
+    "explanation": "A shredder's rated sheet capacity, like \"10-sheet\" or \"15-sheet\", is measured under ideal lab conditions with fresh, single-type paper fed perfectly straight, real-world use with mixed paper stock, folded sheets, or slightly misaligned feeding typically shreds closer to 70-80% of the rated capacity before jamming or straining the motor.\n\nThis matters because buying exactly at your expected daily volume often means the shredder is already operating past its comfortable real-world limit on day one.\n\nSize up from your actual typical stack thickness rather than matching the rated number exactly, and check reviews for mentions of real-world jamming at the rated capacity."
+  },
+  {
+    "criterion": "Match security level (P-rating) to what you're actually shredding",
+    "explanation": "The P-rating (P-2 through P-7) describes the physical size and shape of the shredded particles, not how good the shredder feels, P-2 strip-cut produces long strips that are technically reconstructible, P-4 cross-cut produces confetti-sized pieces suitable for most personal and financial documents, and P-5 or higher micro-cut produces particles small enough for genuinely sensitive material.\n\nThis matters directly for documents with account numbers, social security numbers, or other identity-theft-relevant information, where strip-cut offers meaningfully weaker protection than cross-cut or micro-cut.\n\nCheck the listing for the specific P-rating number, not just the marketing terms \"cross-cut\" or \"micro-cut\" alone, since those terms can be applied loosely."
+  },
+  {
+    "criterion": "Check continuous run time against your actual shredding sessions",
+    "explanation": "Every shredder has a maximum continuous run time before its motor needs to cool down, often just 2-5 minutes on budget models, after which it locks out for 15-30 minutes or longer while the motor cools.\n\nThis matters a great deal if you regularly shred a large stack in one sitting, hitting the run-time limit mid-task means stopping and waiting, sometimes repeatedly, before finishing the job.\n\nCheck the listing specifically for continuous run time in minutes, and compare that against how large your typical shredding sessions actually are, not just how often you shred."
+  },
+  {
+    "criterion": "Consider bin capacity relative to how often you're willing to empty it",
+    "explanation": "A larger waste bin means fewer interruptions to empty it, but it also means a heavier bin to lift and empty when it does fill, and a shredder placed in a tight space under a desk may not have room for an oversized bin at all.\n\nBin size ranges widely across this category, from compact under-desk units around 3-4 gallons to larger office units at 6 gallons or more.\n\nCheck the listed bin capacity in gallons, and weigh it against both your available floor space and how often you're realistically willing to stop and empty it."
+  },
+  {
+    "criterion": "Verify jam-clearing and safety features if this will see frequent or shared use",
+    "explanation": "Features like anti-jam reverse function, overload sensors, and a safety lock that disables the blades when the bin is removed vary meaningfully between models at similar prices, and their absence turns an occasional paper jam into a genuine hassle involving manual disassembly.\n\nThis matters more for a shredder used frequently or by multiple people in a shared office setting than for occasional light personal use.\n\nCheck the specific listed safety and anti-jam features rather than assuming any shredder in this price range includes them, since budget models frequently omit auto-reverse or safety locks entirely."
+  }
 ];
 
 export const faq: FaqItem[] = [

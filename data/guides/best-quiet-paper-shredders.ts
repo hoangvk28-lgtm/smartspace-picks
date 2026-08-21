@@ -168,31 +168,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Explicit dB Ratings vs. Unquantified 'Quiet' Marketing",
-    table: {
-      headers: ["Pick", "Noise disclosure", "What to expect"],
-      rows: [
-        ["QUESTLEMON 8-sheet (rank 1)", "<58dB explicit", "Lowest quoted rating in this guide"],
-        ["Bonsaii 18-sheet (rank 3), QUIETLEMON 100-sheet (rank 4)", "62dB / <63dB explicit", "Genuinely low for their higher capacity/run time"],
-        ["Aurora, both Bonsaii 12-sheet picks, BONSEN 8-sheet (ranks 2, 5, 7, 8)", "No specific dB figure, 'ultra-quiet' or unquoted", "Real-world satisfaction implied by rating, but unverified against a number"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Aurora AU1210MA Professional Grade High Security 12"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Bonsaii 18"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Strip-Cut vs. Cross-Cut/Micro-Cut Noise Tradeoff",
-    note: "Strip-cut mechanisms (like the Woolsche pick, rank 6) are inherently quieter than cross-cut or micro-cut at similar motor sizes, since finer blades create more cutting-surface contact per sheet. The tradeoff is lower P-2 security versus P-4 on the cross-cut/micro-cut picks in this guide.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $35",
+          "Home Office Paper Shredder"
+        ],
+        [
+          "Up to $180",
+          "Bonsaii 18"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Manufacturer Ratings Are Measured Under Ideal Conditions",
-    note: "A quoted dB figure is typically measured at idle or with a single sheet, not a full, possibly stapled batch. Expect real-world loaded shredding noise to run higher and more variable than any quoted rating, regardless of which pick you choose.",
+    "subheading": "Auto-Feed vs Manual-Feed",
+    "cards": [
+      {
+        "label": "Auto-feed",
+        "text": "Load a stack and walk away, the shredder pulls sheets automatically, worth it for large regular volumes. In this comparison: QUIETLEMON 100."
+      },
+      {
+        "label": "Manual-feed",
+        "text": "You feed sheets by hand, usually cheaper and simpler for occasional light use. In this comparison: QUESTLEMON 8, Aurora AU1210MA Professional Grade High Security 12, Bonsaii 18, Bonsaii 12, Home Office Paper Shredder, BONSEN Shredder for Home Office, Bonsaii 12."
+      }
+    ],
+    "note": "Default to manual-feed for occasional light use, auto-feed if you regularly shred large stacks."
   },
+  {
+    "subheading": "By Bin Capacity",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around 6-gallon bin",
+          "Bonsaii 18"
+        ],
+        [
+          "Around 5.5-gallon bin",
+          "Bonsaii 12"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Sensitive Financial Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A P-4 cross-cut rating or higher, not just the marketing term \"cross-cut\" without a specific P-rating attached."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Bonsaii 18 is worth checking against its listed P-rating before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You regularly shred large stacks or sensitive documents, where Bonsaii 18's higher price buys real capacity or security headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only shred occasionally with a low sheet volume, where Home Office Paper Shredder covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Prefer listings with an explicit dB figure over unquantified 'quiet' marketing", explanation: "Several picks in this guide quote a specific decibel rating (58-63dB); others just claim 'ultra-quiet' without a number. A specific figure, even if measured under ideal conditions, is more useful than marketing language alone." },
-  { criterion: "Strip-cut is quieter than cross-cut/micro-cut, at a security-level cost", explanation: "Finer cutting mechanisms create more blade-surface contact per sheet, producing more noise than a coarser strip-cut mechanism at a similar motor size. This is a genuine tradeoff against the higher P-4 security level cross-cut/micro-cut provides." },
-  { criterion: "Real-world loaded noise will exceed any idle-condition rating", explanation: "Manufacturer dB specs are typically measured at idle or with a single sheet. Shredding a full, possibly stapled stack will produce measurably higher and more variable noise than the quoted figure, regardless of which pick you choose." },
-  { criterion: "Auto-feed hoppers run louder for longer, even if per-decibel rated similarly", explanation: "A sustained 40-minute auto-feed run produces more total noise exposure than a quick manual batch, even at a similar or lower per-decibel rating, factor in total session duration, not just the dB number." },
+  {
+    "criterion": "Expect real-world sheet capacity to run below the rated figure",
+    "explanation": "A shredder's rated sheet capacity, like \"10-sheet\" or \"15-sheet\", is measured under ideal lab conditions with fresh, single-type paper fed perfectly straight, real-world use with mixed paper stock, folded sheets, or slightly misaligned feeding typically shreds closer to 70-80% of the rated capacity before jamming or straining the motor.\n\nThis matters because buying exactly at your expected daily volume often means the shredder is already operating past its comfortable real-world limit on day one.\n\nSize up from your actual typical stack thickness rather than matching the rated number exactly, and check reviews for mentions of real-world jamming at the rated capacity."
+  },
+  {
+    "criterion": "Match security level (P-rating) to what you're actually shredding",
+    "explanation": "The P-rating (P-2 through P-7) describes the physical size and shape of the shredded particles, not how good the shredder feels, P-2 strip-cut produces long strips that are technically reconstructible, P-4 cross-cut produces confetti-sized pieces suitable for most personal and financial documents, and P-5 or higher micro-cut produces particles small enough for genuinely sensitive material.\n\nThis matters directly for documents with account numbers, social security numbers, or other identity-theft-relevant information, where strip-cut offers meaningfully weaker protection than cross-cut or micro-cut.\n\nCheck the listing for the specific P-rating number, not just the marketing terms \"cross-cut\" or \"micro-cut\" alone, since those terms can be applied loosely."
+  },
+  {
+    "criterion": "Check continuous run time against your actual shredding sessions",
+    "explanation": "Every shredder has a maximum continuous run time before its motor needs to cool down, often just 2-5 minutes on budget models, after which it locks out for 15-30 minutes or longer while the motor cools.\n\nThis matters a great deal if you regularly shred a large stack in one sitting, hitting the run-time limit mid-task means stopping and waiting, sometimes repeatedly, before finishing the job.\n\nCheck the listing specifically for continuous run time in minutes, and compare that against how large your typical shredding sessions actually are, not just how often you shred."
+  },
+  {
+    "criterion": "Consider bin capacity relative to how often you're willing to empty it",
+    "explanation": "A larger waste bin means fewer interruptions to empty it, but it also means a heavier bin to lift and empty when it does fill, and a shredder placed in a tight space under a desk may not have room for an oversized bin at all.\n\nBin size ranges widely across this category, from compact under-desk units around 3-4 gallons to larger office units at 6 gallons or more.\n\nCheck the listed bin capacity in gallons, and weigh it against both your available floor space and how often you're realistically willing to stop and empty it."
+  },
+  {
+    "criterion": "Verify jam-clearing and safety features if this will see frequent or shared use",
+    "explanation": "Features like anti-jam reverse function, overload sensors, and a safety lock that disables the blades when the bin is removed vary meaningfully between models at similar prices, and their absence turns an occasional paper jam into a genuine hassle involving manual disassembly.\n\nThis matters more for a shredder used frequently or by multiple people in a shared office setting than for occasional light personal use.\n\nCheck the specific listed safety and anti-jam features rather than assuming any shredder in this price range includes them, since budget models frequently omit auto-reverse or safety locks entirely."
+  }
 ];
 
 export const faq: FaqItem[] = [

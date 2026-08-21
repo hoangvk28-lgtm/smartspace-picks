@@ -168,31 +168,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Particle Size Determines Real Chip-Destruction Security",
-    table: {
-      headers: ["Particle size", "Security level", "Picks"],
-      rows: [
-        ["4.5 x 12mm (finest)", "Highest chip-destruction security", "Amazon Basics 8-sheet micro-cut with pull-out bin (rank 4)"],
-        ["5 x 12-18mm", "Strong P-4 security", "Amazon Basics 8-sheet (ranks 1-2), Bonsaii 10-sheet micro-cut (rank 7)"],
-        ["5 x 30mm (coarsest)", "P-3, functional but less secure for chips", "Amazon Basics 12-sheet (rank 3)"],
+    "subheading": "By Security Level",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest security, micro-cut",
+          "Amazon Basics 8"
+        ],
+        [
+          "Most-reviewed, strongest reliability signal",
+          "Amazon Basics 8"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Frequency of Card Shredding Affects Blade Lifespan",
-    note: "Plastic cards are harder on shredder blades than paper alone. If you're regularly shredding multiple cards (business card destruction, expired loyalty cards in bulk), expect faster blade dulling and potentially more paper jams over time than occasional single-card use.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $34",
+          "Amazon Basics 8"
+        ],
+        [
+          "Up to $80",
+          "Bonsaii 12"
+        ]
+      ]
+    }
   },
   {
-    subheading: "None of These Handle Metal Credit Cards",
-    note: "Every pick in this guide explicitly excludes metal credit cards from its card-shredding capability. If you specifically need to destroy metal cards, none of these picks are rated for that, check with the manufacturer or use a dedicated metal-card destruction method instead.",
+    "subheading": "Review Base vs Price",
+    "cards": [
+      {
+        "label": "Amazon Basics 8",
+        "text": "The lower-priced option in this comparison, worth checking its security rating against your document sensitivity."
+      },
+      {
+        "label": "Bonsaii 12",
+        "text": "The higher-priced option, worth it if it offers real capacity or security headroom above the cheaper pick."
+      }
+    ],
+    "note": "Default to Amazon Basics 8 unless your document volume or sensitivity genuinely calls for the pricier pick."
   },
+  {
+    "subheading": "By Bin Capacity",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around 5.5-gallon bin",
+          "Bonsaii 15"
+        ],
+        [
+          "Around 5.5-gallon bin",
+          "Bonsaii 10"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Sensitive Financial Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A P-4 cross-cut rating or higher, not just the marketing term \"cross-cut\" without a specific P-rating attached."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Amazon Basics 8 is worth checking against its listed P-rating before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You regularly shred large stacks or sensitive documents, where Bonsaii 12's higher price buys real capacity or security headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only shred occasionally with a low sheet volume, where Amazon Basics 8 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Particle size, not just P-4 rating, determines real chip-destruction security", explanation: "A card cut into strips can still have a partially intact chip or magnetic stripe fragment. Finer disclosed particle dimensions (like 4.5x12mm versus 5x30mm) genuinely destroy more of that data than a coarser P-3 or basic P-4 rating." },
-  { criterion: "P-3 and P-4 are meaningfully different for card security specifically", explanation: "P-3-rated picks in this guide use coarser particles than P-4 alternatives, functional for basic destruction but less secure for chip and stripe data than the finer P-4 options." },
-  { criterion: "Card shredding wears blades faster than paper alone", explanation: "Plastic is harder on cutting edges than paper. Frequent card shredding accelerates blade dulling and can increase paper jam frequency over time, a real compounding wear effect for heavy card-shredding use." },
-  { criterion: "None of these shredders handle metal credit cards", explanation: "Every pick in this guide explicitly excludes metal cards from its shredding capability. If metal card destruction is a specific need, none of these are rated for it." },
+  {
+    "criterion": "Expect real-world sheet capacity to run below the rated figure",
+    "explanation": "A shredder's rated sheet capacity, like \"10-sheet\" or \"15-sheet\", is measured under ideal lab conditions with fresh, single-type paper fed perfectly straight, real-world use with mixed paper stock, folded sheets, or slightly misaligned feeding typically shreds closer to 70-80% of the rated capacity before jamming or straining the motor.\n\nThis matters because buying exactly at your expected daily volume often means the shredder is already operating past its comfortable real-world limit on day one.\n\nSize up from your actual typical stack thickness rather than matching the rated number exactly, and check reviews for mentions of real-world jamming at the rated capacity."
+  },
+  {
+    "criterion": "Match security level (P-rating) to what you're actually shredding",
+    "explanation": "The P-rating (P-2 through P-7) describes the physical size and shape of the shredded particles, not how good the shredder feels, P-2 strip-cut produces long strips that are technically reconstructible, P-4 cross-cut produces confetti-sized pieces suitable for most personal and financial documents, and P-5 or higher micro-cut produces particles small enough for genuinely sensitive material.\n\nThis matters directly for documents with account numbers, social security numbers, or other identity-theft-relevant information, where strip-cut offers meaningfully weaker protection than cross-cut or micro-cut.\n\nCheck the listing for the specific P-rating number, not just the marketing terms \"cross-cut\" or \"micro-cut\" alone, since those terms can be applied loosely."
+  },
+  {
+    "criterion": "Check continuous run time against your actual shredding sessions",
+    "explanation": "Every shredder has a maximum continuous run time before its motor needs to cool down, often just 2-5 minutes on budget models, after which it locks out for 15-30 minutes or longer while the motor cools.\n\nThis matters a great deal if you regularly shred a large stack in one sitting, hitting the run-time limit mid-task means stopping and waiting, sometimes repeatedly, before finishing the job.\n\nCheck the listing specifically for continuous run time in minutes, and compare that against how large your typical shredding sessions actually are, not just how often you shred."
+  },
+  {
+    "criterion": "Consider bin capacity relative to how often you're willing to empty it",
+    "explanation": "A larger waste bin means fewer interruptions to empty it, but it also means a heavier bin to lift and empty when it does fill, and a shredder placed in a tight space under a desk may not have room for an oversized bin at all.\n\nBin size ranges widely across this category, from compact under-desk units around 3-4 gallons to larger office units at 6 gallons or more.\n\nCheck the listed bin capacity in gallons, and weigh it against both your available floor space and how often you're realistically willing to stop and empty it."
+  },
+  {
+    "criterion": "Verify jam-clearing and safety features if this will see frequent or shared use",
+    "explanation": "Features like anti-jam reverse function, overload sensors, and a safety lock that disables the blades when the bin is removed vary meaningfully between models at similar prices, and their absence turns an occasional paper jam into a genuine hassle involving manual disassembly.\n\nThis matters more for a shredder used frequently or by multiple people in a shared office setting than for occasional light personal use.\n\nCheck the specific listed safety and anti-jam features rather than assuming any shredder in this price range includes them, since budget models frequently omit auto-reverse or safety locks entirely."
+  }
 ];
 
 export const faq: FaqItem[] = [

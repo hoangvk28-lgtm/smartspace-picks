@@ -168,31 +168,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Real-World Capacity vs. Rated 8-Sheet Spec",
-    note: "Every pick in this guide is rated for standard 20 lb bond paper under ideal lab conditions. With letterhead, cardstock, or slightly heavier real-world paper, expect effective capacity closer to 5-6 sheets rather than the full rated 8, a 25-35% reduction consistent across this entire tier.",
-  },
-  {
-    subheading: "Security Level at the 8-Sheet Tier Varies More Than You'd Expect",
-    table: {
-      headers: ["Security level", "Picks", "Tradeoff"],
-      rows: [
-        ["P-4 micro-cut (highest here)", "Locksworth, Amazon Basics micro-cut (ranks 3, 7)", "Best security, tighter staple/clip tolerance, shortest run times"],
-        ["P-4 cross-cut", "Amazon Basics 8-sheet (both colors), BONSEN, QUESTLEMON (ranks 1, 2, 4, 8)", "Good security, better staple tolerance than micro-cut"],
-        ["P-2 strip-cut", "Woolsche 10-sheet (rank 5)", "Lowest security, best staple tolerance and quietest cut type"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Locksworth 8"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Amazon Basics 8"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Continuous Run Time Is the Shortest in This Category",
-    note: "8-sheet shredders typically run continuously for only 2-5 minutes before needing a 30-60 minute cooldown. This tier is engineered for light, occasional use, don't expect to purge a large document backlog in one sitting without frequent breaks.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $33",
+          "Locksworth 8"
+        ],
+        [
+          "Up to $75",
+          "Amazon Basics High Security Micro Cut Paper Shredder"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Review Base vs Price",
+    "cards": [
+      {
+        "label": "Locksworth 8",
+        "text": "The lower-priced option in this comparison, worth checking its security rating against your document sensitivity."
+      },
+      {
+        "label": "Amazon Basics High Security Micro Cut Paper Shredder",
+        "text": "The higher-priced option, worth it if it offers real capacity or security headroom above the cheaper pick."
+      }
+    ],
+    "note": "Default to Locksworth 8 unless your document volume or sensitivity genuinely calls for the pricier pick."
+  },
+  {
+    "subheading": "By Bin Capacity",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around 5.5-gallon bin",
+          "Bonsaii 10"
+        ],
+        [
+          "Around 4-gallon bin",
+          "Locksworth 8"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Sensitive Financial Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A P-4 cross-cut rating or higher, not just the marketing term \"cross-cut\" without a specific P-rating attached."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Amazon Basics 8 is worth checking against its listed P-rating before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You regularly shred large stacks or sensitive documents, where Amazon Basics High Security Micro Cut Paper Shredder's higher price buys real capacity or security headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only shred occasionally with a low sheet volume, where Locksworth 8 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Rated 8-sheet capacity assumes ideal conditions, real capacity is often 5-6 sheets", explanation: "Manufacturer ratings are tested with standard 20 lb bond paper under lab conditions. Letterhead, cardstock, or slightly heavier real-world paper reduces effective capacity by roughly 25-35%." },
-  { criterion: "Security level varies more at this tier than the capacity number suggests", explanation: "8-sheet shredders in this guide range from P-2 strip-cut to P-4 micro-cut, a meaningful security difference buyers focused only on sheet count might overlook." },
-  { criterion: "Continuous run time at this tier is the shortest in the shredder category", explanation: "Most 8-sheet shredders run for only 2-5 minutes before needing a 30-60 minute cooldown, plan for light, occasional use rather than large bulk purges." },
-  { criterion: "Bin size at this tier is typically small, requiring frequent emptying", explanation: "8-sheet-capacity shredders are usually paired with proportionally small bins, compounding the need for frequent stops during any real cleanup session." },
+  {
+    "criterion": "Expect real-world sheet capacity to run below the rated figure",
+    "explanation": "A shredder's rated sheet capacity, like \"10-sheet\" or \"15-sheet\", is measured under ideal lab conditions with fresh, single-type paper fed perfectly straight, real-world use with mixed paper stock, folded sheets, or slightly misaligned feeding typically shreds closer to 70-80% of the rated capacity before jamming or straining the motor.\n\nThis matters because buying exactly at your expected daily volume often means the shredder is already operating past its comfortable real-world limit on day one.\n\nSize up from your actual typical stack thickness rather than matching the rated number exactly, and check reviews for mentions of real-world jamming at the rated capacity."
+  },
+  {
+    "criterion": "Match security level (P-rating) to what you're actually shredding",
+    "explanation": "The P-rating (P-2 through P-7) describes the physical size and shape of the shredded particles, not how good the shredder feels, P-2 strip-cut produces long strips that are technically reconstructible, P-4 cross-cut produces confetti-sized pieces suitable for most personal and financial documents, and P-5 or higher micro-cut produces particles small enough for genuinely sensitive material.\n\nThis matters directly for documents with account numbers, social security numbers, or other identity-theft-relevant information, where strip-cut offers meaningfully weaker protection than cross-cut or micro-cut.\n\nCheck the listing for the specific P-rating number, not just the marketing terms \"cross-cut\" or \"micro-cut\" alone, since those terms can be applied loosely."
+  },
+  {
+    "criterion": "Check continuous run time against your actual shredding sessions",
+    "explanation": "Every shredder has a maximum continuous run time before its motor needs to cool down, often just 2-5 minutes on budget models, after which it locks out for 15-30 minutes or longer while the motor cools.\n\nThis matters a great deal if you regularly shred a large stack in one sitting, hitting the run-time limit mid-task means stopping and waiting, sometimes repeatedly, before finishing the job.\n\nCheck the listing specifically for continuous run time in minutes, and compare that against how large your typical shredding sessions actually are, not just how often you shred."
+  },
+  {
+    "criterion": "Consider bin capacity relative to how often you're willing to empty it",
+    "explanation": "A larger waste bin means fewer interruptions to empty it, but it also means a heavier bin to lift and empty when it does fill, and a shredder placed in a tight space under a desk may not have room for an oversized bin at all.\n\nBin size ranges widely across this category, from compact under-desk units around 3-4 gallons to larger office units at 6 gallons or more.\n\nCheck the listed bin capacity in gallons, and weigh it against both your available floor space and how often you're realistically willing to stop and empty it."
+  },
+  {
+    "criterion": "Verify jam-clearing and safety features if this will see frequent or shared use",
+    "explanation": "Features like anti-jam reverse function, overload sensors, and a safety lock that disables the blades when the bin is removed vary meaningfully between models at similar prices, and their absence turns an occasional paper jam into a genuine hassle involving manual disassembly.\n\nThis matters more for a shredder used frequently or by multiple people in a shared office setting than for occasional light personal use.\n\nCheck the specific listed safety and anti-jam features rather than assuming any shredder in this price range includes them, since budget models frequently omit auto-reverse or safety locks entirely."
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -168,31 +168,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Genuine Auto-Feed vs. Manual-Feed Shredders in This Guide",
-    intro: "Half the picks in this guide surfaced in auto-feed searches due to general popularity, not because they have an auto-feed hopper.",
-    table: {
-      headers: ["Pick", "Feed type", "What this means"],
-      rows: [
-        ["Bonsaii 120-sheet, Bonsaii 100-sheet, QUIETLEMON 100-sheet (ranks 1-3)", "Genuine auto-feed hopper", "Load the hopper and walk away, real hands-free operation"],
-        ["Aurora, Bonsaii 18-sheet, Bonsaii 12-sheet (both), BONSEN 14-sheet (ranks 4-8)", "Manual feed only", "You feed each batch by hand, despite appearing in auto-feed search results"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Aurora AU1210MA Professional Grade High Security 12"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Bonsaii 18"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Hopper Capacity + Duty Cycle: The Combined Math",
-    note: "A 120-sheet auto-feed hopper with a 30-minute run limit can shred a full hopper of light, uniform paper in one cycle, but mixed-weight paper (cardstock, folded pages) can hit the thermal limit before the hopper empties, requiring a cooldown and a second run to finish the batch.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $56",
+          "Bonsaii 12"
+        ],
+        [
+          "Up to $180",
+          "Bonsaii 18"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Maintenance Specific to Auto-Feed Hoppers",
-    note: "Auto-feed hoppers require periodic feed-roller cleaning to remove accumulated paper dust; skipping this causes misfeeds over time. This maintenance step doesn't apply to the manual-feed picks in this guide, one more real difference between the two categories beyond just convenience.",
+    "subheading": "Review Base vs Price",
+    "cards": [
+      {
+        "label": "Bonsaii 12",
+        "text": "The lower-priced option in this comparison, worth checking its security rating against your document sensitivity."
+      },
+      {
+        "label": "Bonsaii 18",
+        "text": "The higher-priced option, worth it if it offers real capacity or security headroom above the cheaper pick."
+      }
+    ],
+    "note": "Default to Bonsaii 12 unless your document volume or sensitivity genuinely calls for the pricier pick."
   },
+  {
+    "subheading": "By Bin Capacity",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around 6-gallon bin",
+          "Bonsaii 120"
+        ],
+        [
+          "Around 6-gallon bin",
+          "Bonsaii 18"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Sensitive Financial Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A P-4 cross-cut rating or higher, not just the marketing term \"cross-cut\" without a specific P-rating attached."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Bonsaii 18 is worth checking against its listed P-rating before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You regularly shred large stacks or sensitive documents, where Bonsaii 18's higher price buys real capacity or security headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only shred occasionally with a low sheet volume, where Bonsaii 12 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify a shredder has an actual auto-feed hopper before buying for that reason", explanation: "Only 3 of the 8 picks in this guide are genuine auto-feed hopper models. The rest are popular manual-feed shredders that surface in auto-feed searches, check the listing specifically for hopper capacity, not just its search ranking." },
-  { criterion: "Hopper capacity and continuous run time are separate specs that interact", explanation: "A 100-120 sheet auto-feed hopper still has a 30-40 minute thermal run-time limit. Loading a full hopper of mixed-weight paper can hit that limit before the hopper empties, requiring a cooldown period mid-batch." },
-  { criterion: "Auto-feed sensors struggle with mixed paper thickness in one batch", explanation: "Auto-feed mechanisms calibrated for standard 20 lb paper can misfeed or skip pages when cardstock, sticky notes, or folded pages are mixed into the same batch, a real-world composition issue worth planning for." },
-  { criterion: "Auto-feed hoppers need periodic feed-roller cleaning that manual shredders don't", explanation: "Paper dust accumulates in auto-feed rollers over time, requiring periodic cleaning to maintain reliable pulling. This maintenance step doesn't apply to manual-feed shredders, a real ongoing-care difference between the two categories." },
+  {
+    "criterion": "Expect real-world sheet capacity to run below the rated figure",
+    "explanation": "A shredder's rated sheet capacity, like \"10-sheet\" or \"15-sheet\", is measured under ideal lab conditions with fresh, single-type paper fed perfectly straight, real-world use with mixed paper stock, folded sheets, or slightly misaligned feeding typically shreds closer to 70-80% of the rated capacity before jamming or straining the motor.\n\nThis matters because buying exactly at your expected daily volume often means the shredder is already operating past its comfortable real-world limit on day one.\n\nSize up from your actual typical stack thickness rather than matching the rated number exactly, and check reviews for mentions of real-world jamming at the rated capacity."
+  },
+  {
+    "criterion": "Match security level (P-rating) to what you're actually shredding",
+    "explanation": "The P-rating (P-2 through P-7) describes the physical size and shape of the shredded particles, not how good the shredder feels, P-2 strip-cut produces long strips that are technically reconstructible, P-4 cross-cut produces confetti-sized pieces suitable for most personal and financial documents, and P-5 or higher micro-cut produces particles small enough for genuinely sensitive material.\n\nThis matters directly for documents with account numbers, social security numbers, or other identity-theft-relevant information, where strip-cut offers meaningfully weaker protection than cross-cut or micro-cut.\n\nCheck the listing for the specific P-rating number, not just the marketing terms \"cross-cut\" or \"micro-cut\" alone, since those terms can be applied loosely."
+  },
+  {
+    "criterion": "Check continuous run time against your actual shredding sessions",
+    "explanation": "Every shredder has a maximum continuous run time before its motor needs to cool down, often just 2-5 minutes on budget models, after which it locks out for 15-30 minutes or longer while the motor cools.\n\nThis matters a great deal if you regularly shred a large stack in one sitting, hitting the run-time limit mid-task means stopping and waiting, sometimes repeatedly, before finishing the job.\n\nCheck the listing specifically for continuous run time in minutes, and compare that against how large your typical shredding sessions actually are, not just how often you shred."
+  },
+  {
+    "criterion": "Consider bin capacity relative to how often you're willing to empty it",
+    "explanation": "A larger waste bin means fewer interruptions to empty it, but it also means a heavier bin to lift and empty when it does fill, and a shredder placed in a tight space under a desk may not have room for an oversized bin at all.\n\nBin size ranges widely across this category, from compact under-desk units around 3-4 gallons to larger office units at 6 gallons or more.\n\nCheck the listed bin capacity in gallons, and weigh it against both your available floor space and how often you're realistically willing to stop and empty it."
+  },
+  {
+    "criterion": "Verify jam-clearing and safety features if this will see frequent or shared use",
+    "explanation": "Features like anti-jam reverse function, overload sensors, and a safety lock that disables the blades when the bin is removed vary meaningfully between models at similar prices, and their absence turns an occasional paper jam into a genuine hassle involving manual disassembly.\n\nThis matters more for a shredder used frequently or by multiple people in a shared office setting than for occasional light personal use.\n\nCheck the specific listed safety and anti-jam features rather than assuming any shredder in this price range includes them, since budget models frequently omit auto-reverse or safety locks entirely."
+  }
 ];
 
 export const faq: FaqItem[] = [

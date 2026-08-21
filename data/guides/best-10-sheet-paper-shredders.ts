@@ -168,31 +168,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Security Level at Matched 10-Sheet Capacity",
-    table: {
-      headers: ["Security level", "Pick", "Price"],
-      rows: [
-        ["P-2 strip-cut", "Woolsche 10-sheet (rank 3)", "$34.16, cheapest option"],
-        ["P-4 cross-cut", "Bonsaii 10-sheet cross-cut (rank 1)", "$53.09"],
-        ["P-4 micro-cut", "Bonsaii 10-sheet micro-cut (rank 2)", "$59.49, highest security at this capacity"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Bonsaii Micro Cut Paper Shredder"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Amazon Basics 15"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Real-World Capacity Reality Check",
-    note: "The same 25-30% real-world capacity reduction seen at the 8-sheet tier applies here, scaled up: a 10-sheet-rated shredder realistically handles 7-8 sheets of mixed-weight paper reliably, not the full rated 10 every time.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $35",
+          "Home Office Paper Shredder"
+        ],
+        [
+          "Up to $108",
+          "Amazon Basics 15"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Bin Capacity Varies Widely Even at the Same Sheet Rating",
-    note: "Two 10-sheet-rated shredders can have bin capacities that differ meaningfully, the picks in this guide range from a 3.17-gallon basket (Woolsche) to a 5.5-gallon bin (both Bonsaii 10-sheet picks), directly affecting how often you'll need to empty it despite identical sheet-capacity marketing.",
+    "subheading": "Review Base vs Price",
+    "cards": [
+      {
+        "label": "Home Office Paper Shredder",
+        "text": "The lower-priced option in this comparison, worth checking its security rating against your document sensitivity."
+      },
+      {
+        "label": "Amazon Basics 15",
+        "text": "The higher-priced option, worth it if it offers real capacity or security headroom above the cheaper pick."
+      }
+    ],
+    "note": "Default to Home Office Paper Shredder unless your document volume or sensitivity genuinely calls for the pricier pick."
   },
+  {
+    "subheading": "By Bin Capacity",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around 6-gallon bin",
+          "Amazon Basics 15"
+        ],
+        [
+          "Around 5.5-gallon bin",
+          "Bonsaii 10"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Sensitive Financial Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A P-4 cross-cut rating or higher, not just the marketing term \"cross-cut\" without a specific P-rating attached."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Amazon Basics 15 is worth checking against its listed P-rating before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You regularly shred large stacks or sensitive documents, where Amazon Basics 15's higher price buys real capacity or security headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only shred occasionally with a low sheet volume, where Home Office Paper Shredder covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Real-world 10-sheet capacity with mixed paper is closer to 7-8 sheets", explanation: "The same 25-30% real-world reduction pattern seen at lower capacity tiers applies here, scaled up. Treat the rated 10-sheet number as an upper bound with mixed-weight paper." },
-  { criterion: "This tier has the widest security-level spread at matched capacity", explanation: "10-sheet-rated shredders in this guide range from P-2 strip-cut to P-4 micro-cut at similar prices, a meaningful security comparison worth making at this exact capacity rather than assuming all '10-sheet' listings are equivalent." },
-  { criterion: "Bin size varies significantly even at the same sheet rating", explanation: "Two 10-sheet shredders can have bin capacities differing by 50% or more, directly affecting real-world usability despite identical capacity marketing." },
-  { criterion: "Continuous run time doesn't scale proportionally from the 8-sheet tier", explanation: "Buyers might assume 10 sheets vs. 8 sheets scales run time proportionally; duty cycle often stays similar (4-5 minutes) since the limiting factor is motor thermal capacity, not sheet-handling capability." },
+  {
+    "criterion": "Expect real-world sheet capacity to run below the rated figure",
+    "explanation": "A shredder's rated sheet capacity, like \"10-sheet\" or \"15-sheet\", is measured under ideal lab conditions with fresh, single-type paper fed perfectly straight, real-world use with mixed paper stock, folded sheets, or slightly misaligned feeding typically shreds closer to 70-80% of the rated capacity before jamming or straining the motor.\n\nThis matters because buying exactly at your expected daily volume often means the shredder is already operating past its comfortable real-world limit on day one.\n\nSize up from your actual typical stack thickness rather than matching the rated number exactly, and check reviews for mentions of real-world jamming at the rated capacity."
+  },
+  {
+    "criterion": "Match security level (P-rating) to what you're actually shredding",
+    "explanation": "The P-rating (P-2 through P-7) describes the physical size and shape of the shredded particles, not how good the shredder feels, P-2 strip-cut produces long strips that are technically reconstructible, P-4 cross-cut produces confetti-sized pieces suitable for most personal and financial documents, and P-5 or higher micro-cut produces particles small enough for genuinely sensitive material.\n\nThis matters directly for documents with account numbers, social security numbers, or other identity-theft-relevant information, where strip-cut offers meaningfully weaker protection than cross-cut or micro-cut.\n\nCheck the listing for the specific P-rating number, not just the marketing terms \"cross-cut\" or \"micro-cut\" alone, since those terms can be applied loosely."
+  },
+  {
+    "criterion": "Check continuous run time against your actual shredding sessions",
+    "explanation": "Every shredder has a maximum continuous run time before its motor needs to cool down, often just 2-5 minutes on budget models, after which it locks out for 15-30 minutes or longer while the motor cools.\n\nThis matters a great deal if you regularly shred a large stack in one sitting, hitting the run-time limit mid-task means stopping and waiting, sometimes repeatedly, before finishing the job.\n\nCheck the listing specifically for continuous run time in minutes, and compare that against how large your typical shredding sessions actually are, not just how often you shred."
+  },
+  {
+    "criterion": "Consider bin capacity relative to how often you're willing to empty it",
+    "explanation": "A larger waste bin means fewer interruptions to empty it, but it also means a heavier bin to lift and empty when it does fill, and a shredder placed in a tight space under a desk may not have room for an oversized bin at all.\n\nBin size ranges widely across this category, from compact under-desk units around 3-4 gallons to larger office units at 6 gallons or more.\n\nCheck the listed bin capacity in gallons, and weigh it against both your available floor space and how often you're realistically willing to stop and empty it."
+  },
+  {
+    "criterion": "Verify jam-clearing and safety features if this will see frequent or shared use",
+    "explanation": "Features like anti-jam reverse function, overload sensors, and a safety lock that disables the blades when the bin is removed vary meaningfully between models at similar prices, and their absence turns an occasional paper jam into a genuine hassle involving manual disassembly.\n\nThis matters more for a shredder used frequently or by multiple people in a shared office setting than for occasional light personal use.\n\nCheck the specific listed safety and anti-jam features rather than assuming any shredder in this price range includes them, since budget models frequently omit auto-reverse or safety locks entirely."
+  }
 ];
 
 export const faq: FaqItem[] = [

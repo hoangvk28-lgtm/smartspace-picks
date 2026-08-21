@@ -168,32 +168,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "True 20+ Sheet Picks vs. Lower-Capacity Alternatives",
-    table: {
-      headers: ["Rated capacity", "Picks", "Note"],
-      rows: [
-        ["24 sheets (highest here)", "Amazon Basics 24-sheet (rank 1)", "Genuine headroom above 20 sheets"],
-        ["18 sheets", "Amazon Basics 18-sheet, Bonsaii 18-sheet (ranks 2-3)", "Close to the target, P-3 vs. P-4 security choice"],
-        ["100-120 auto-feed hopper", "Bonsaii auto-feed picks (ranks 4-5)", "Different category, hands-free bulk rather than per-pass capacity"],
-        ["12 sheets (below target)", "Aurora, Bonsaii 12-sheet, Staples (ranks 6-8)", "Budget or brand-preference alternatives well below the 20-sheet target"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Aurora AU1210MA Professional Grade High Security 12"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Amazon Basics 24"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Daily Volume Can Vary Enormously at This Tier",
-    note: "Two shredders labeled similarly near 20 sheets can have daily volume ratings that differ by a wide margin, occasional home use versus small-office regular volume. Check this spec specifically if you shred regularly rather than occasionally, the per-pass sheet count alone doesn't capture this difference.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $80",
+          "Bonsaii 12"
+        ],
+        [
+          "Up to $180",
+          "Bonsaii 120"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Noise and Service Availability at Higher Throughput",
-    note: "Bigger motors handling higher capacity at this tier tend to produce more noise on average than smaller-capacity shredders, a tradeoff that should accompany any capacity-focused decision. For genuinely heavy-duty use at this level, established brands (Amazon Basics, Bonsaii, Staples) offer more accessible replacement parts and service history than newer, smaller-volume listings.",
+    "subheading": "Auto-Feed vs Manual-Feed",
+    "cards": [
+      {
+        "label": "Auto-feed",
+        "text": "Load a stack and walk away, the shredder pulls sheets automatically, worth it for large regular volumes. In this comparison: Bonsaii 120, Bonsaii 100."
+      },
+      {
+        "label": "Manual-feed",
+        "text": "You feed sheets by hand, usually cheaper and simpler for occasional light use. In this comparison: Amazon Basics 24, Amazon Basics 18 Sheet Cross Cut Paper, Bonsaii 18, Aurora AU1210MA Professional Grade High Security 12, Bonsaii 12, Staples 12."
+      }
+    ],
+    "note": "Default to manual-feed for occasional light use, auto-feed if you regularly shred large stacks."
   },
+  {
+    "subheading": "By Bin Capacity",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around 7-gallon bin",
+          "Amazon Basics 24"
+        ],
+        [
+          "Around 6-gallon bin",
+          "Amazon Basics 18 Sheet Cross Cut Paper"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Sensitive Financial Documents Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A P-4 cross-cut rating or higher, not just the marketing term \"cross-cut\" without a specific P-rating attached."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Amazon Basics 24 is worth checking against its listed P-rating before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You regularly shred large stacks or sensitive documents, where Bonsaii 120's higher price buys real capacity or security headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only shred occasionally with a low sheet volume, where Bonsaii 12 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Daily volume rating can vary enormously between similarly-labeled models", explanation: "Two shredders near the 20-sheet tier can differ significantly in daily volume rating, a real commercial-capability gap not visible from the per-pass sheet-count spec alone." },
-  { criterion: "Real-world capacity with mixed office paper is still 25-30% below the rating", explanation: "The same real-world capacity reduction pattern seen at every lower tier applies here too, scaled up. Don't expect the full rated 20-24 sheets with letterhead or heavier stock." },
-  { criterion: "Noise tends to rise with the larger motors needed at this capacity", explanation: "Higher-throughput motors at this tier generally produce more noise on average than smaller-capacity shredders, a tradeoff worth weighing alongside the capacity benefit." },
-  { criterion: "Established brands offer more accessible service history for heavy-duty use", explanation: "At genuinely heavy commercial-adjacent use, brands with large review bases and long market presence offer more real-world evidence of parts availability and long-term reliability than newer, lower-volume listings." },
+  {
+    "criterion": "Expect real-world sheet capacity to run below the rated figure",
+    "explanation": "A shredder's rated sheet capacity, like \"10-sheet\" or \"15-sheet\", is measured under ideal lab conditions with fresh, single-type paper fed perfectly straight, real-world use with mixed paper stock, folded sheets, or slightly misaligned feeding typically shreds closer to 70-80% of the rated capacity before jamming or straining the motor.\n\nThis matters because buying exactly at your expected daily volume often means the shredder is already operating past its comfortable real-world limit on day one.\n\nSize up from your actual typical stack thickness rather than matching the rated number exactly, and check reviews for mentions of real-world jamming at the rated capacity."
+  },
+  {
+    "criterion": "Match security level (P-rating) to what you're actually shredding",
+    "explanation": "The P-rating (P-2 through P-7) describes the physical size and shape of the shredded particles, not how good the shredder feels, P-2 strip-cut produces long strips that are technically reconstructible, P-4 cross-cut produces confetti-sized pieces suitable for most personal and financial documents, and P-5 or higher micro-cut produces particles small enough for genuinely sensitive material.\n\nThis matters directly for documents with account numbers, social security numbers, or other identity-theft-relevant information, where strip-cut offers meaningfully weaker protection than cross-cut or micro-cut.\n\nCheck the listing for the specific P-rating number, not just the marketing terms \"cross-cut\" or \"micro-cut\" alone, since those terms can be applied loosely."
+  },
+  {
+    "criterion": "Check continuous run time against your actual shredding sessions",
+    "explanation": "Every shredder has a maximum continuous run time before its motor needs to cool down, often just 2-5 minutes on budget models, after which it locks out for 15-30 minutes or longer while the motor cools.\n\nThis matters a great deal if you regularly shred a large stack in one sitting, hitting the run-time limit mid-task means stopping and waiting, sometimes repeatedly, before finishing the job.\n\nCheck the listing specifically for continuous run time in minutes, and compare that against how large your typical shredding sessions actually are, not just how often you shred."
+  },
+  {
+    "criterion": "Consider bin capacity relative to how often you're willing to empty it",
+    "explanation": "A larger waste bin means fewer interruptions to empty it, but it also means a heavier bin to lift and empty when it does fill, and a shredder placed in a tight space under a desk may not have room for an oversized bin at all.\n\nBin size ranges widely across this category, from compact under-desk units around 3-4 gallons to larger office units at 6 gallons or more.\n\nCheck the listed bin capacity in gallons, and weigh it against both your available floor space and how often you're realistically willing to stop and empty it."
+  },
+  {
+    "criterion": "Verify jam-clearing and safety features if this will see frequent or shared use",
+    "explanation": "Features like anti-jam reverse function, overload sensors, and a safety lock that disables the blades when the bin is removed vary meaningfully between models at similar prices, and their absence turns an occasional paper jam into a genuine hassle involving manual disassembly.\n\nThis matters more for a shredder used frequently or by multiple people in a shared office setting than for occasional light personal use.\n\nCheck the specific listed safety and anti-jam features rather than assuming any shredder in this price range includes them, since budget models frequently omit auto-reverse or safety locks entirely."
+  }
 ];
 
 export const faq: FaqItem[] = [
